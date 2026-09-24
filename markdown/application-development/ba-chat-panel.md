@@ -2,12 +2,12 @@
 title: Build Agent chat panel
 description: The Build Agent chat panel is where you interact with the AI agent during development. Use it to submit requests, review responses, and apply generated code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ba-chat-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-chat-panel.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-23"
 reading_time_minutes: 1
-keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -54,5 +54,5 @@ Checkpoints icon \[Omitted image "sn-studio-ba-checkpoint-icon.png"\] Alt text:
 See a list of all the checkpoints within your current chat with Build Agent.Checkpoints show all the progress points in your application. You can revert to any of these checkpoints during the course of developing your app.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+</table>**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-build-agent.md)
 

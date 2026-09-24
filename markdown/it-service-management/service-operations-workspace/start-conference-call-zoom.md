@@ -2,7 +2,7 @@
 title: Start a conference call using Zoom in Service Operations Workspace
 description: Start a conference call using Zoom to work towards the resolution of an incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/start-conference-call-zoom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/start-conference-call-zoom.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -82,5 +82,5 @@ Provide a brief summary about the issue to be discussed in the conference call.
 </table>9.  Select **Start**.
 
 
-**Parent Topic:**[Use Zoom to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/zoom-sow.md)
+**Parent Topic:**[Use Zoom to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/zoom-sow.md)
 

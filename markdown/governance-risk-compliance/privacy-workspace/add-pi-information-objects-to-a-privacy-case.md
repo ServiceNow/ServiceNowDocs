@@ -2,7 +2,7 @@
 title: Add PI information objects to a privacy case
 description: To identify the types of personal data compromised during a breach, add \[PI\] information objects to a privacy case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/add-pi-information-objects-to-a-privacy-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/add-pi-information-objects-to-a-privacy-case.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -22,7 +22,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 ## About this task
 
-\[PI\] information objects represent types of data that have been classified as personal information in your organization, such as email addresses, bank account numbers, or educational details. Only information objects that have been classified as personal information appear in the \[PI\] Information objects list. For more information, refer to [Classify information objects as personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/tag-io-with-pi.md).
+\[PI\] information objects represent types of data that have been classified as personal information in your organization, such as email addresses, bank account numbers, or educational details. Only information objects that have been classified as personal information appear in the \[PI\] Information objects list. For more information, refer to [Classify information objects as personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/tag-io-with-pi.md).
 
 ## Procedure
 
@@ -45,12 +45,12 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 ## What to do next
 
-After adding PI information objects, add key stakeholders to the privacy case. For more information, see [Add key stakeholders to a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/add-keystakeholders-to-privacy-case.md).
+After adding PI information objects, add key stakeholders to the privacy case. For more information, see [Add key stakeholders to a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/add-keystakeholders-to-privacy-case.md).
 
-**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-pcm.md)
 
 **Related topics**  
 
 
-[Information objects in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/information-object-in-privacy.md)
+[Information objects in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/information-object-in-privacy.md)
 

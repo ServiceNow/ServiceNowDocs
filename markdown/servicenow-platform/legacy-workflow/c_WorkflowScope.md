@@ -2,7 +2,7 @@
 title: Workflow scope
 description: Workflow application scope determines the access that an application has to the information in a workflow, specifically to the data contained in the activities in that workflow.There are some restrictions to public and private application scopes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_WorkflowScope.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/c\_WorkflowScope.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -46,5 +46,5 @@ As you design workflows, validate the visibility and accessibility of all resour
 
 See [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
-For information on how to configure the scope for a workflow, see [Workflow properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowProperties.md).
+For information on how to configure the scope for a workflow, see [Workflow properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/r_WorkflowProperties.md).
 

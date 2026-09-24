@@ -2,7 +2,7 @@
 title: View product information from Business Portal
 description: View a list of products to track the products or services sold to your account and manage your services using service catalogs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-product-info-business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-product-info-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -169,15 +169,15 @@ Quantity of a product that is sold to a customer.
 
     Install the Customer Life Cycle Management Self service plugin \(sn\_clm\_selfservice\) to perform the **Modify**, **Suspend**, **Resume**, and **Disconnect** actions. The flows can be performed only by the customer personas and only on the sold products where the **Contact** field is the same as the logged in user.
 
-    -   Modify a sold product. To learn how to modify a sold product, see [Modify a sold product and hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/modify-a-sold-product.md)
-    -   Suspend a sold product. To learn how to suspend a sold product, see [Supending sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supending_sold_products.md).
-    -   Resume a sold product. To learn how to resume a sold product, see [Resuming sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resuming_sold_products.md).
-    -   Disconnect a sold product. To learn how to disconnect a sold product, see [Disconnecting sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/disconnecting_sold_products.md)
+    -   Modify a sold product. To learn how to modify a sold product, see [Modify a sold product and hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/modify-a-sold-product.md)
+    -   Suspend a sold product. To learn how to suspend a sold product, see [Supending sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/supending_sold_products.md).
+    -   Resume a sold product. To learn how to resume a sold product, see [Resuming sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/resuming_sold_products.md).
+    -   Disconnect a sold product. To learn how to disconnect a sold product, see [Disconnecting sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/disconnecting_sold_products.md)
 
 **Related topics**  
 
 
-[Activate Customer Life Cycle Management Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-customer-life-cycle-management-self-service.md)
+[Activate Customer Life Cycle Management Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-customer-life-cycle-management-self-service.md)
 
-[View Product Inventory information on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-inventory-information-on-business-portal.md)
+[View Product Inventory information on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-product-inventory-information-on-business-portal.md)
 

@@ -2,7 +2,7 @@
 title: Modify decision table rules in Workflow Studio
 description: Modify the rows, default result values, or content of a decision table in Workflow Studio to keep pace with changing business logic.Account for changing business logic by defining default result values in your decision tables in Workflow Studio. Defining a default result accounts for scenarios when no decision rules are met by the input data.Modify conditions and results to update decision rules in a decision table in Workflow Studio.Save time creating decision rules by strategically duplicating rows in a decision table in Workflow Studio. Determine or change the sequence in which your decision rules are evaluated by reordering the rows in a decision table in Workflow Studio. Enter a different number for your row in the Rank column to quickly reorder rows in large tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/modify-decision-table-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/modify-decision-table-rules.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -16,7 +16,7 @@ breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
 
 Modify the rows, default result values, or content of a decision table in Workflow Studio to keep pace with changing business logic.
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 
 ## Define default result values
 
@@ -80,7 +80,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
     \[Omitted image "decision-rule-view.png"\] Alt text: Decision rule view.
 
-    **Note:** Using Decision rule view can result in creating complex conditions. Tables with advanced rows can be edited in Excel but advanced rows are read-only. For more information, see [Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-decision-tables-ms-excel.md). Where possible, split complex decisions into multiple simplified decision rule rows.
+    **Note:** Using Decision rule view can result in creating complex conditions. Tables with advanced rows can be edited in Excel but advanced rows are read-only. For more information, see [Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/manage-decision-tables-ms-excel.md). Where possible, split complex decisions into multiple simplified decision rule rows.
 
     1.  Edit the condition as needed.
 

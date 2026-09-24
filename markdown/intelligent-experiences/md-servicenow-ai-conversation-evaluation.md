@@ -2,7 +2,7 @@
 title: ServiceNow AI Conversation evaluation
 description: The ServiceNow AI Conversation evaluation dashboard displays AI response quality metrics and satisfaction scores for individual conversations. It includes detailed evaluation records with human feedback and automated scoring across quality dimensions such as intent accuracy, request completion, truthfulness, and context retention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/md-servicenow-ai-conversation-evaluation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/md-servicenow-ai-conversation-evaluation.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-03"

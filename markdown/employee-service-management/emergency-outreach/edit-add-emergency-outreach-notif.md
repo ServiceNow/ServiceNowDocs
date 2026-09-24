@@ -2,7 +2,7 @@
 title: Modify notifications used with Emergency Outreach
 description: The administrator can modify email notifications used with Emergency Outreach.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/edit-add-emergency-outreach-notif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-outreach/edit-add-emergency-outreach-notif.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -78,7 +78,7 @@ Contact Tracing
 
 4.  In the notification record, modify the details of the notification.
 
-    Follow the requirements for the particular notification for the application. To review the requirements for each application, see [Add email notifications for use with Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/configure-outreach-email-notif.md).
+    Follow the requirements for the particular notification for the application. To review the requirements for each application, see [Add email notifications for use with Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-outreach/configure-outreach-email-notif.md).
 
 5.  Click **Preview Notification** and verify your changes.
 

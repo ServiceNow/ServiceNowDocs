@@ -2,12 +2,12 @@
 title: Delete a saved address
 description: Shoppers can delete saved delivery addresses they no longer need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-delete-single.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-delete-single.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 keywords: [delete address, remove address, shopping preferences]
 breadcrumb: [Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
@@ -23,7 +23,7 @@ Role required: sn\_shop.shopper
 
 ## About this task
 
-When a non-default address is deleted, it is immediately removed from the saved addresses list and a success confirmation appears. If the deleted address is the current default delivery location, you must select a new default before the deletion completes. For more information about address deletion permissions, see [Address deletion permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-access-control.md).
+When a non-default address is deleted, it is immediately removed from the saved addresses list and a success confirmation appears. If the deleted address is the current default delivery location, you must select a new default before the deletion completes. For more information about address deletion permissions, see [Address deletion permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-access-control.md).
 
 When you delete an address, the following happens:
 
@@ -70,5 +70,5 @@ If you attempt to re-add the deleted address from the work address picker, it wi
 -   If the **Remove** button is disabled, you have selected all saved addresses. Deselect one address to retain it as your default delivery location, then try again.
 -   If the **Manage addresses** link is not visible, you have only one saved address. You must always have at least one default delivery location and cannot delete it.
 
-**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

@@ -2,7 +2,7 @@
 title: Integrating Employee Center and Risk portal with Privacy Management
 description: The integration of Employee Center with Privacy Management provides all employees and users a simplified user experience to perform tasks such as submitting a privacy impact assessment for a new implementation, responding to control attestations, and accessing processing activities and privacy impact assessments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/integrate-privacy-and-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/integrate-privacy-and-employee-center.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace

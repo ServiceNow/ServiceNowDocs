@@ -2,7 +2,7 @@
 title: View audit results
 description: View the audit results after you audit your inventory. The Audit Results section is activated and shows the details of the audit result.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-audit-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/view-audit-results.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -70,17 +70,17 @@ The **Open** tab displays a list of existing open asset audits
 </td></tr></tbody>
 </table>2.  Select the stockroom or location audit number.
 
-    The Asset audit results are displayed. For more information about audit result fields, see [Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-results.md).
+    The Asset audit results are displayed. For more information about audit result fields, see [Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/audit-results.md).
 
     \[Omitted image "ham-asset-audit.png"\] Alt text: Audit Results shows a pie chart of assets grouped by state
 
     **Note:** In the Hardware Asset Workspace, on the Asset audits form under the **Details** tab, the audit result-related field values are populated. In the ServiceNow Agent app, you can find audit results on the Asset Audits screen under the **Details** tab.
 
 
-**Parent Topic:**[Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-inventory-audit.md)
+**Parent Topic:**[Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-inventory-audit.md)
 
 **Related topics**  
 
 
-[Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-results.md)
+[Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/audit-results.md)
 

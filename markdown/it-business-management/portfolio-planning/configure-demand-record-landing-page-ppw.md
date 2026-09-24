@@ -2,7 +2,7 @@
 title: Configure the landing page for created demand records
 description: Configure a system property that controls which tab opens when a demand record is created. Set this property to match your team's workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/configure-demand-record-landing-page-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/configure-demand-record-landing-page-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -87,5 +87,5 @@ To change the landing page after setting this property, open the system property
 
 [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t\_AddAPropertyUsingSysPropsList.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
-[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-a-demand-ppw.md)
+[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-a-demand-ppw.md)
 

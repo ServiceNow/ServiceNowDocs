@@ -2,14 +2,14 @@
 title: Components installed with ServiceNow Otto for AI Search
 description: The ServiceNow Otto for AI Search application installs new system components including scheduled jobs and Entity View Action Mapping \(EVAM\) configurations and templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/components-now-assist-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/components-now-assist-ais.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for AI Search reference, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -33,8 +33,8 @@ Update Semantic Cache
 
 </td><td>
 
--   Populate the second-level Knowledge base articles Genius Results cache with results for the most frequently submitted queries found in the Search Event \[sys\_search\_event\] search signal table. For more information on this table, see [Search signal tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-signal-tables.md).
--   Purge all unpinned entries in the Knowledge base articles Genius Results second-level cache that haven't been used in the past seven days. Search administrators can pin results in the second-level cache table to prevent them from being purged. For more details on this procedure, see [Pin cached answers for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
+-   Populate the second-level Knowledge base articles Genius Results cache with results for the most frequently submitted queries found in the Search Event \[sys\_search\_event\] search signal table. For more information on this table, see [Search signal tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/search-signal-tables.md).
+-   Purge all unpinned entries in the Knowledge base articles Genius Results second-level cache that haven't been used in the past seven days. Search administrators can pin results in the second-level cache table to prevent them from being purged. For more details on this procedure, see [Pin cached answers for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 
 </td></tr></tbody>
 </table>## Entity View Action Mapper \(EVAM\) configurations installed with ServiceNow Otto for AI Search
@@ -124,7 +124,7 @@ Contains the component, static value, field-mapping, and action-mapping settings
 </td></tr></tbody>
 </table>## List of all components installed with ServiceNow Otto for AI Search
 
-To view the complete list of components installed with ServiceNow Otto for AI Search, follow the steps in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md). The application's package name is **ServiceNow Otto for AI Search**.
+To view the complete list of components installed with ServiceNow Otto for AI Search, follow the steps in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/find-components.md). The application's package name is **ServiceNow Otto for AI Search**.
 
-**Parent Topic:**[ServiceNow Otto for AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-now-assist-ais.md)
+**Parent Topic:**[ServiceNow Otto for AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/reference-now-assist-ais.md)
 

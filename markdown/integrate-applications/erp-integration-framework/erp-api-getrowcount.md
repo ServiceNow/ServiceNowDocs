@@ -2,7 +2,7 @@
 title: API – getRowCount\(\)
 description: Returns the total number of rows that a Zero Copy Connector for ERP model operation would return, without retrieving the records themselves.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-api-getrowcount.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-api-getrowcount.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

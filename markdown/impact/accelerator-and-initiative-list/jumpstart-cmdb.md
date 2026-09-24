@@ -2,7 +2,7 @@
 title: Jumpstart Your CMDB
 description: The Jumpstart Your Configuration Management Database \(CMDB\) Accelerator provides a demonstration of the possibilities and capabilities of CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-cmdb.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,7 +2,7 @@
 title: Change the layout of a page created in Quebec or Rome
 description: Add and modify your layout design to change the way your page looks. Choose how components are displayed on a page through Cascading Style Sheets \(CSS\) web layout technologies, such as Flexbox and CSS Grid.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/change-layout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/change-layout.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -30,9 +30,9 @@ Layouts control what containers and components are available on a page, and wher
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) or open a page.
+3.  [Create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md) or open a page.
 
 4.  Select the **Layout** tab.
 
@@ -93,7 +93,7 @@ In the content tree to the left of the main page area, select the **Body** of yo
 
 7.  Add components to slots.
 
-    You build your page with containers components. See [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md) for more information.
+    You build your page with containers components. See [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md) for more information.
 
     You can add components by using any of the following ways.
 
@@ -164,7 +164,7 @@ You can click the container in the content tree, or you can click the container 
 
 \[Omitted image "UIB-layout-change.png"\] Alt text: Location of change layout icon on the floating menu.
 
-3.  Choose to display your content as either Flex or Grid. For more information about flex or grid options, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/flexbox-uib.md) or [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/css-grid-uib.md).
+3.  Choose to display your content as either Flex or Grid. For more information about flex or grid options, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/flexbox-uib.md) or [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/css-grid-uib.md).
 
 
 </td></tr><tr><td id="d255280e460">
@@ -217,5 +217,5 @@ You can click the container in the content tree, or you can click the container 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md)
+**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-layouts.md)
 

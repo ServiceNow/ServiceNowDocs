@@ -2,7 +2,7 @@
 title: Add attachments to change requests using attachment API
 description: Add test report xmls as attachments to DevOps change requests using the attachment API.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/attachment-api-chg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/attachment-api-chg.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -179,5 +179,5 @@ pipeline {
 -   The attachment xml file’s text size should be acceptable to the orchestration tool.
 -   For Azure DevOps, **sn\_change\_write** role is needed for authentication of attachment API, to upload the file to the change record.
 
-**Parent Topic:**[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)
+**Parent Topic:**[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)
 

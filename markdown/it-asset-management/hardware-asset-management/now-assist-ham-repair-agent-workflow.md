@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help repair hardware assets agentic workflow
 description: Use the Help repair hardware assets agentic workflow, driven by AI agents, to handle the repair requests of defective and out-of-warranty hardware assets automatically. These AI agents validate the repair tasks, provide detailed troubleshooting and repair steps, and finally close the relevant tasks after receiving user confirmation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/now-assist-ham-repair-agent-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/now-assist-ham-repair-agent-workflow.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -133,5 +133,5 @@ The Help repair hardware assets agentic workflow uses specific AI agents to vali
 |Evaluate asset AI agent|Performs a web search and provides a detailed evaluation guide to help the technician identify the issue on the asset. Updates the troubleshooting task with the details received from the technician and then closes the task.|
 |Repair asset AI agent|Performs a web search and provides detailed repair steps to help the technician resolve the issue identified on the asset. Updates the repair task with the details received from the technician and then closes the task.|
 
-**Parent Topic:**[Repair order fulfillment in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfilling-repair-orders-ham.md)
+**Parent Topic:**[Repair order fulfillment in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/fulfilling-repair-orders-ham.md)
 

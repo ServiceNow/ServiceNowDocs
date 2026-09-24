@@ -2,7 +2,7 @@
 title: Add a state to a GRC state model
 description: Add a state to a GRC state model and configure its stepper display, transitions, and attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,7 +18,7 @@ Add a state to a GRC state model and configure its stepper display, transitions,
 
 ## Before you begin
 
-The GRC state model must exist. See [Create a GRC state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-a-grc-state-model.md).
+The GRC state model must exist. See [Create a GRC state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-a-grc-state-model.md).
 
 Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
@@ -53,26 +53,26 @@ Each state can be configured with its own stepper display, transitions, and attr
 
     **Note:**
 
-    A terminal state typically includes either the Default closed state or Default cancelled state attribute. For example, in the Core workflow state model, Closed Complete includes the Terminal state and Default closed state attributes. Closed Incomplete includes the Terminal state and Default cancelled state attributes. See [State model attributes for the Issue table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/state-model-attributes-for-the-issue-table.md).
+    A terminal state typically includes either the Default closed state or Default cancelled state attribute. For example, in the Core workflow state model, Closed Complete includes the Terminal state and Default closed state attributes. Closed Incomplete includes the Terminal state and Default cancelled state attributes. See [State model attributes for the Issue table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/state-model-attributes-for-the-issue-table.md).
 
 9.  Select **Save**.
 
-10. Repeat [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.md) through [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.md) for each additional state that you want to include in the state model.
+10. Repeat [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.md) through [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.md) for each additional state that you want to include in the state model.
 
 
 ## Result
 
 The state model is saved with its states, transitions, and attributes. You can select the state model when adding components to an issue workflow.
 
--   **[State model attributes for the Issue table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/state-model-attributes-for-the-issue-table.md)**  
+-   **[State model attributes for the Issue table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/state-model-attributes-for-the-issue-table.md)**  
 Attributes available for states in a GRC state model applied to the Issue table.
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 
 **Related topics**  
 
 
-[Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md)
+[Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md)
 
-[Map states to playbook stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/map-states-to-playbook-stages.md)
+[Map states to playbook stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/map-states-to-playbook-stages.md)
 

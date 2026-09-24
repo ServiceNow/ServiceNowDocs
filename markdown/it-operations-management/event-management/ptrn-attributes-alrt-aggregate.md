@@ -2,7 +2,7 @@
 title: Manage pattern identifier attributes for alert grouping
 description: The Alert Aggregation Learner analyzes alerts and identifies patterns using a defined set of alert and configuration item \(CI\) attributes. By configuring these attributes as pattern identifiers, you can control which characteristics are used to group alerts. This customization creates meaningful alert groups, improving alert management and response times by reducing noise and enabling focus on critical issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.html
 release: australia
 product: Event Management
 classification: event-management

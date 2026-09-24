@@ -2,7 +2,7 @@
 title: Install and configure PhishTank
 description: Before you run the integration on your instance, complete the installation and configuration steps so the PhishTank application properly integrates with ServiceNow AI Platform Security Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/install-and-configure-phishtank.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/install-and-configure-phishtank.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -62,14 +62,14 @@ Madrid and later release requirements
 3.  Security Support Common
 4.  Security Support Orchestration
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>Role required: admin
 
 ## Procedure
 
-1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the PhishTank tile.
 
@@ -88,9 +88,9 @@ Madrid and later release requirements
     If an error message is displayed during the configuration, the PhishTank API key may be invalid.
 
 
-**Parent Topic:**[PhishTank integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/phishtank-lookups.md)
+**Parent Topic:**[PhishTank integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/phishtank-lookups.md)
 
-**Previous topic:**[PhishTank integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/phishtank-lookups.md)
+**Previous topic:**[PhishTank integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/phishtank-lookups.md)
 
-**Next topic:**[Verify expected results for PhishTank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-results-phishtank.md)
+**Next topic:**[Verify expected results for PhishTank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/verify-expected-results-phishtank.md)
 

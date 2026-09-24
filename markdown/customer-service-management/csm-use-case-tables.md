@@ -2,7 +2,7 @@
 title: Customer Service Management and CSDM tables
 description: Customer Service Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Customer Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-use-case-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-use-case-tables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

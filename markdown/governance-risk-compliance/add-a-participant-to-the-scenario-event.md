@@ -2,7 +2,7 @@
 title: Add a participant and monitor the responses
 description: Add a participant to the scenario analysis first and then add the scenario event, services, issues, and so on. If you are the scenario analysis owner, you can add the stakeholders and reviewers to the scenario analysis in Operational Resilience Workspace. You can then collate the observations of all participants and monitor their responses to analyze the scenario.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-a-participant-to-the-scenario-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-a-participant-to-the-scenario-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -71,7 +71,7 @@ Role required: sn\_oper\_res.manager
 
     6.  Log out from the scenario analysis response record.
 
-    For the descriptions of the field values on the scenario analysis response task form, see [Scenario analysis response task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/response-task-form.md).
+    For the descriptions of the field values on the scenario analysis response task form, see [Scenario analysis response task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/response-task-form.md).
 
 4.  Log in as the owner of the scenario event.
 
@@ -90,5 +90,5 @@ Role required: sn\_oper\_res.manager
 
 ## What to do next
 
-To associate an issue or operational vulnerability with the scenario analysis, see [Link issues and operational vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-an-issue-to-the-analysis.md).
+To associate an issue or operational vulnerability with the scenario analysis, see [Link issues and operational vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-an-issue-to-the-analysis.md).
 

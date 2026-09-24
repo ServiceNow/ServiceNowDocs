@@ -2,7 +2,7 @@
 title: Use the Variable component
 description: Create a variable in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-variable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-general-variable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,12 +20,12 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Variable component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
+You can configure the properties for the Variable component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/Properties-general-components.md).
 
 ## Procedure
 
-1.  To use the Variable component, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-variables-rpa-studio.md).
+1.  To use the Variable component, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-variables-rpa-studio.md).
 
 
-**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/general-component.md)
 

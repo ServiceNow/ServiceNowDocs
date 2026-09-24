@@ -2,7 +2,7 @@
 title: Security Operations and the ServiceNow Store
 description: Starting with Madrid, all Security Operations applications and supported integrations are available for download from the ServiceNow Store. This allows you to obtain new and updated features more rapidly. Before you can use any Security Operations applications, you must verify that you have entitlement to them \(that is, you have valid licenses to use them\), download them from the ServiceNow Store, and activate them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/secops-and-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/secops-and-store.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

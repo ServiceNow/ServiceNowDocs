@@ -2,7 +2,7 @@
 title: Edit groups in Core Business Suite module
 description: Edit default groups to add or remove members in Core Business Suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/edit-group-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/edit-group-cbs.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -34,5 +34,5 @@ Modify group membership to control access to analytics and other Core Business S
     -   Analytics editor group has role: sn\_cbs\_analytics.dashboard\_editor
     -   Analytics viewer group has role: sn\_cbs\_analytics.dashboard\_viewer
 
-**Parent Topic:**[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/groups-cbs.md)
+**Parent Topic:**[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/groups-cbs.md)
 

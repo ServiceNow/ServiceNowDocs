@@ -2,7 +2,7 @@
 title: Viewing my approvals
 description: Use this section to review and approve the import job records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/viewing-my-approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/viewing-my-approvals.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -34,7 +34,7 @@ Role required: sn\_sec\_tisc.analyst
 
     The **Approve Import** dialogue box is displayed and a confirmation message is displayed whether to approve the select imports.
 
-    **Note:** An email notification is sent to the respective user\(s\) that the import job that was in process is now approved. For more information on approving rules, see [Defining Data Imports Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/defining-data-imports-approval-rules.md).
+    **Note:** An email notification is sent to the respective user\(s\) that the import job that was in process is now approved. For more information on approving rules, see [Defining Data Imports Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/defining-data-imports-approval-rules.md).
 
 5.  Select **Approve** from the dialogue box.
 
@@ -48,7 +48,7 @@ Role required: sn\_sec\_tisc.analyst
     -   An email notification is sent to the user who created the import job import job when the import job that was in process is rejected.
     -   An email notification is sent to the approvers requesting for the approval.
 
-**Parent Topic:**[Working with Data Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/working-with-data-imports.md)
+**Parent Topic:**[Working with Data Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/working-with-data-imports.md)
 
 **Related topics**  
 

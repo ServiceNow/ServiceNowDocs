@@ -2,7 +2,7 @@
 title: Create a relationship graph for an incident
 description: Create a node relationship graph in Security Incident Response so you can better analyze a security incident by correlating it with malicious observables, configuration items \(CIs\), similar security incidents \(SIRs\), response tasks, and other related information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-relationship-graph-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-relationship-graph-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -22,7 +22,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-For information about how to create a customized relationship graph rather than using a predefined graph, see [Customize a relationship graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-relationship-graph-config.md).
+For information about how to create a customized relationship graph rather than using a predefined graph, see [Customize a relationship graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-relationship-graph-config.md).
 
 **Note:** Changes to the relationship graph aren’t saved automatically.
 
@@ -75,5 +75,5 @@ For information about how to create a customized relationship graph rather than 
 
 \[Omitted video\] Description: Video showing how to create a relationship node graph for an incident
 
-**Parent Topic:**[Viewing incident details with a relationship graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-relationship-graph.md)
+**Parent Topic:**[Viewing incident details with a relationship graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-relationship-graph.md)
 

@@ -2,7 +2,7 @@
 title: Parts of an application in ServiceNow
 description: Applications in ServiceNow have tables, UI elements, application files, integrations, and dependencies, all with a layer of security through the entire app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/parts-of-an-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/parts-of-an-application.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ It's similar to a system dictionary record for a table or column in that it stor
 -   View the run-time resource to which the application has been granted access
 -   View the design-time resources to which the application has been granted access
 
-**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-your-first-app.md)
 

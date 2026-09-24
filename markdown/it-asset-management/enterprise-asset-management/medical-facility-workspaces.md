@@ -2,7 +2,7 @@
 title: Configurable workspaces
 description: Use configurable workspaces to create and manage assets and models for your specific industry or operational environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/medical-facility-workspaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/medical-facility-workspaces.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -114,7 +114,7 @@ You may also see asset and model categories outside your industry if they were a
 
 ## Asset performance
 
-You can evaluate how effectively your assets are functioning and being used through reports based on asset key performance indicators \(KPIs\) in the Asset performance tab of the Asset analytics view. The asset performance report is also available on the contextual sidebar of the asset record, displayed by selecting the Asset availability and related KPIs icon \[Omitted image "asset-kpi-icon.png"\] Alt text:. For details, see [Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md).
+You can evaluate how effectively your assets are functioning and being used through reports based on asset key performance indicators \(KPIs\) in the Asset performance tab of the Asset analytics view. The asset performance report is also available on the contextual sidebar of the asset record, displayed by selecting the Asset availability and related KPIs icon \[Omitted image "asset-kpi-icon.png"\] Alt text:. For details, see [Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md).
 
 ## Unified receiving
 
@@ -124,11 +124,11 @@ You can receive assets from any workflow directly at the stockroom using the uni
 -   Receive multiple assets in a shipment
 -   Import assets in bulk and receive them
 
-For more details, see [Unified receiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-stockroom-receive-eam.md).
+For more details, see [Unified receiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-stockroom-receive-eam.md).
 
 ## Inventory reports
 
-You can manage supply and demand in your stockrooms effectively with inventory demand reports. Navigate to the Inventory insights tab in any stockroom to view the reports. For more details, see [Manage stockrooms with inventory reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-stockroom-inventory-reports.md).
+You can manage supply and demand in your stockrooms effectively with inventory demand reports. Navigate to the Inventory insights tab in any stockroom to view the reports. For more details, see [Manage stockrooms with inventory reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-stockroom-inventory-reports.md).
 
 ## Accessing the Admin center
 

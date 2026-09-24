@@ -2,7 +2,7 @@
 title: Modify supporting documents in the contract request
 description: As a contract fulfiller, add, classify, or remove supporting documents submitted in the contract request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-nss-mod-supdoc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-nss-mod-supdoc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -28,31 +28,31 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 3.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d693267e67">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d693271e67">
 
 Action
 
-</th><th align="left" id="d693267e70">
+</th><th align="left" id="d693271e70">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d693267e76">
+</th></tr></thead><tbody><tr><td id="d693271e76">
 
 **Add supporting documents**
 
 </td><td>
 
-[Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)
+[Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)
 
-</td></tr><tr><td id="d693267e97">
+</td></tr><tr><td id="d693271e97">
 
 **Reclassify supporting documents**
 
 </td><td>
 
-[Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)
+[Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)
 
-</td></tr><tr><td id="d693267e111">
+</td></tr><tr><td id="d693271e111">
 
 **Remove the supporting document**
 

@@ -2,7 +2,7 @@
 title: Schedule Planning
 description: Manage space assignments to help employees head back to the office.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/schedule-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/schedule-planning.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -42,7 +42,7 @@ To access the Schedule Planner, navigate to **All** &gt; **Workplace Central**, 
 
 \[Omitted image "schedule-plan-dashboard.png"\] Alt text: Schedule Planner dashboard with information about schedule plans, departments, users, and allocations.
 
-As a project owner, you can view the created schedule plans, projects assigned to you, and the spaces and users assigned to the projects. You can create a schedule plan or edit existing schedule plans. For more information, see [Working with Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-planning.md).
+As a project owner, you can view the created schedule plans, projects assigned to you, and the spaces and users assigned to the projects. You can create a schedule plan or edit existing schedule plans. For more information, see [Working with Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-schedule-planning.md).
 
 **Note:** A project owner can create schedule plans for the projects that are assigned to them. Projects can be assigned to a user from the following fields:
 
@@ -64,9 +64,9 @@ A schedule plan can be in one of the following states:
 
 **Note:** The **Complete the lapsed schedule plan** job runs every day to check which schedule plans have reached the end date and move them to the **Complete** state.
 
-**Parent Topic:**[Exploring Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/explore_wsm.md)
+**Parent Topic:**[Exploring Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/explore_wsm.md)
 
-**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 

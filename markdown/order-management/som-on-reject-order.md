@@ -2,7 +2,7 @@
 title: Reject orders in Order Management
 description: Reject a customer or service order in scenarios where the customer request is invalid, the product or service is no longer available, or the pricing or terms are incorrect.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-on-reject-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-on-reject-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ The order is rejected and its state changes to Rejected. Rejected orders can be 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

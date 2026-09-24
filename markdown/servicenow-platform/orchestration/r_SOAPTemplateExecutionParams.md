@@ -2,7 +2,7 @@
 title: SOAP template execution parameters
 description: You use execution parameters to create the input process script in the Pre processing form of the activity designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_SOAPTemplateExecutionParams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/r\_SOAPTemplateExecutionParams.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -16,7 +16,7 @@ breadcrumb: [Create a SOAP web service activity, Orchestration custom activity t
 
 You use execution parameters to create the input process script in the **Pre processing** form of the activity designer.
 
-For descriptions of the SOAP web service command fields, see the table in [Configure the SOAP execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_MapSOAPVariablesToExecutionComm.md).
+For descriptions of the SOAP web service command fields, see the table in [Configure the SOAP execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_MapSOAPVariablesToExecutionComm.md).
 
 **Note:** You must use the `executionParam.` prefix with all variables in this table.
 
@@ -98,7 +98,7 @@ Array of JavaScript objects
 
 </td><td>
 
-Array of JavaScript objects, expressed with the `executionParam`. prefix. For instructions on creating arrays using this parameter, see [Create a JavaScript array in a SOAP template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CrtJvScrArrSTemplate.md).
+Array of JavaScript objects, expressed with the `executionParam`. prefix. For instructions on creating arrays using this parameter, see [Create a JavaScript array in a SOAP template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CrtJvScrArrSTemplate.md).
 
 </td></tr><tr><td>
 
@@ -200,5 +200,5 @@ Reference
 Credentials to use for this SOAP message when the `auth_type` is `basic_auth_pick_credentials`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
+</table>**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
 

@@ -2,7 +2,7 @@
 title: Configure Classic Mobile devices
 description: When you configure Service Catalog on a Classic Mobile device, you can define the layout and presentation of catalogs. You can then perform actions such as ordering products and services, submit incidents and problems using record producers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ServiceCatalogOnMobileDevices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_ServiceCatalogOnMobileDevices.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -87,10 +87,10 @@ To request an item:
     After the request is submitted, ServiceNow follows request fulfillment processes to fulfill the ordered item.
 
 
--   **[Define the mobile layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefiningMobileLayout.md)**  
+-   **[Define the mobile layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_DefiningMobileLayout.md)**  
 You can configure the Classic Mobile layout for categories within a service catalog.
--   **[Limit description sizes in the Classic Mobile UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_LimitDescriptionSizesInMobileUI.md)**  
+-   **[Limit description sizes in the Classic Mobile UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_LimitDescriptionSizesInMobileUI.md)**  
 By default, item descriptions in the smartphone interface are truncated to a maximum of two lines.
 
-**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 

@@ -2,7 +2,7 @@
 title: Map Microsoft Azure email to ServiceNow instance
 description: Create a custom email field to use Microsoft Teams app to initiate call for the agents to resolve the tickets raised by users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/map-azure-email-to-sn-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/map-azure-email-to-sn-instance.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -112,5 +112,5 @@ Select a field length. This field is visible only for certain field types.
         **Note:** Ensure that the email address for all the users for the newly created field is updated with the email associated with Microsoft Teams app.
 
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
 

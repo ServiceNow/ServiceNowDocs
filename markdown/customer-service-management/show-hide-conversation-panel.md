@@ -2,7 +2,7 @@
 title: Show or hide the conversation panel
 description: Show or hide the conversation panel in the real-time transcription \(RTT\) interface using the rtt\_show\_conversation\_tab identity property. This feature allows the contact center providers to control the visibility of the conversation panel using the identity property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/show-hide-conversation-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/show-hide-conversation-panel.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

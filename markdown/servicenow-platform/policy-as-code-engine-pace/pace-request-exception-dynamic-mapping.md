@@ -2,7 +2,7 @@
 title: Request an exception for Dynamic Mapping
 description: Request an exception on policies that are dynamically mapped to conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-request-exception-dynamic-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-request-exception-dynamic-mapping.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

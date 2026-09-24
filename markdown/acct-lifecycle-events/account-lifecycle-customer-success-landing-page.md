@@ -2,7 +2,7 @@
 title: Use Customer Success Management
 description: Define and track objectives, outcomes, milestones, and plans to achieve shared goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,10 +16,10 @@ Define and track objectives, outcomes, milestones, and plans to achieve shared g
 
 **Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
--   **[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use.md)**  
+-   **[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use.md)**  
 With the account onboarding solution, service providers can repeatedly define, measure, and collaborate with customers on the activities needed to onboard rapidly.
--   **[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-cust-success.md)**  
+-   **[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use-cust-success.md)**  
 Learn how your organization can use the customer success solution to engage with your customers, mitigate risks by running success plays, and identify opportunities for expansion and renewals.
 
-**Parent Topic:**[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
+**Parent Topic:**[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-events-landing.md)
 

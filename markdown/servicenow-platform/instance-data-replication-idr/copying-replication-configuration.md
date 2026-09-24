@@ -2,7 +2,7 @@
 title: Deploying a replication configuration from one instance to another in Instance Data Replication
 description: Copy a replication configuration from one instance to another through an update set in Instance Data Replication \(IDR\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/copying-replication-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instance-data-replication-idr/copying-replication-configuration.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -51,10 +51,10 @@ When you create a replication set, a new record is added to the Entry Sets \[idr
 
 After selecting **Track in Update Set**, you can view the entry set and its replication entries in the current update set by navigating to **All** &gt; **System Update Sets** &gt; **Local Update Sets**, selecting the update set, and then viewing the **Customer Updates** tab.
 
--   **[Deploy a replication configuration through an update set in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/deploy-through-update-set.md)**  
+-   **[Deploy a replication configuration through an update set in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/deploy-through-update-set.md)**  
 Export a replication configuration from one instance and import it on another instance through an update set in Instance Data Replication \(IDR\).
 
-**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 

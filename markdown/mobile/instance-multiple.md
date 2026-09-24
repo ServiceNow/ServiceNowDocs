@@ -2,7 +2,7 @@
 title: Working with multiple ServiceNow accounts on a single mobile device
 description: Learn how to add, change, edit, and remove accounts on your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/instance-multiple.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/instance-multiple.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ Procedure
 1.  Tap the top menu in the Accounts page.
 2.  Tap **Add account**.
 
-3.  Enter your ServiceNow URL or scan the QR code. For more details, see [Add a ServiceNow account to ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/login-end-user.md).
+3.  Enter your ServiceNow URL or scan the QR code. For more details, see [Add a ServiceNow account to ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/login-end-user.md).
 4.  \(Optional\) Enter a nickname.
 5.  Tap **Save and log in**, to add your selected account.
 6.  Enter your user name and password for this account.

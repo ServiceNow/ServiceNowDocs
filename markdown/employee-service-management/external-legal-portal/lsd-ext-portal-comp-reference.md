@@ -2,7 +2,7 @@
 title: Components installed with External Legal Service Center
 description: Several types of components are installed with installation of the External Legal Service Center, including user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/external-legal-portal/lsd-ext-portal-comp-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/external-legal-portal/lsd-ext-portal-comp-reference.html
 release: australia
 product: External Legal Portal
 classification: external-legal-portal

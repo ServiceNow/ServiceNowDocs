@@ -2,7 +2,7 @@
 title: View related objects in a decision table
 description: See and open objects that are related to your decision table, such as flows, subflows, and playbooks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/view-related-objects-decision-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/view-related-objects-decision-table.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -37,5 +37,5 @@ Role required: none
 5.  Select a related object to open it in Workflow Studio.
 
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

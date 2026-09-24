@@ -2,7 +2,7 @@
 title: CMDB alert grouping — properties and functionality
 description: Learn about the key properties and functionality of CMDB alert grouping, which facilitate efficient alert organization based on relationships and enhance the overall effectiveness of alert management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/cmdb-alert-group-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/cmdb-alert-group-properties.html
 release: australia
 product: Event Management
 classification: event-management
@@ -18,7 +18,7 @@ Learn about the key properties and functionality of CMDB alert grouping, which f
 
 ## Properties for managing CMDB alert group creation
 
-Use the properties listed in the following tables to control CMDB alert group creation. For more information, see [Configure scheduled job-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enable-alert-grouping.md).
+Use the properties listed in the following tables to control CMDB alert group creation. For more information, see [Configure scheduled job-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/enable-alert-grouping.md).
 
 <table id="table_pjt_5lh_vdb"><thead><tr><th>
 

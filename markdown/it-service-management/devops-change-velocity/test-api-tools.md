@@ -2,7 +2,7 @@
 title: Add test results to change requests using test API
 description: Add test results to DevOps change requests using the test capability of the DevOps - POST /devops/tool/\{capability\} API. The API is available for all test types for various tools connected to DevOps Change Velocity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/test-api-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/test-api-tools.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -386,5 +386,5 @@ pipeline {
 -   Waiting logic will not be taken care of.
 -   Re-run scenarios cannot be handled.
 
-**Parent Topic:**[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)
+**Parent Topic:**[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)
 

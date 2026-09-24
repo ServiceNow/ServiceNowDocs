@@ -2,7 +2,7 @@
 title: Using activity stream within a playbook
 description: Use activity stream within a playbook to add comments or notes, and view communication and task history for the parent or associated record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/activity-stream-in-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/activity-stream-in-playbook.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -34,5 +34,5 @@ You can see tabs for comments and work notes related to a parent or associated r
 
 You can view previous activity by scrolling down to the **Activity** section.
 
-**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

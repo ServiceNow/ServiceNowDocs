@@ -2,7 +2,7 @@
 title: Action recorder in AI Desktop Actions
 description: With Action recorder, you can capture steps to automate repetitive tasks in AI Desktop Actions. You can save the steps that you perform on application elements as a reusable desktop action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/action-recorder-ad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/action-recorder-ad.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-03"
@@ -104,11 +104,11 @@ You can capture a maximum of 50 steps using the recorder in a recording session.
 **Related topics**  
 
 
-[AI Desktop Actions Design workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-overview.md)
+[AI Desktop Actions Design workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/agentic-desktop-overview.md)
 
-[Automate repetitive tasks by recording steps with AI in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/record-with-ai-ad.md)
+[Automate repetitive tasks by recording steps with AI in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/record-with-ai-ad.md)
 
-[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md)
+[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/auto-create-desktop-action-ad.md)
 
-[Create badge desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-badging-magmt-concept-ad.md)
+[Create badge desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/example-badging-magmt-concept-ad.md)
 

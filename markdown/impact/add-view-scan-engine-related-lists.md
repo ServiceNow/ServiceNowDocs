@@ -2,7 +2,7 @@
 title: Define My SN Instance environments
 description: Configure instance integration settings to define the different environments for your ServiceNow instances and to take advantage of exception processing, definition syncing, and user story tracking in Impact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/add-view-scan-engine-related-lists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/add-view-scan-engine-related-lists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -132,7 +132,7 @@ The OAuth user profile used for cross-instance integrations.
 
 </td></tr></tbody>
 </table>
-**Note:** See [Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md) for details on integration setup.
+**Note:** See [Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-integration-scan-engine.md) for details on integration setup.
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

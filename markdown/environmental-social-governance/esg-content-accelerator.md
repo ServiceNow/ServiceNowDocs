@@ -2,7 +2,7 @@
 title: Unified content management
 description: The Unified content management application is a centralized repository of frameworks, citations, metric definitions, and emission factors. Using this application accelerates the adoption of operational sustainability frameworks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/esg-content-accelerator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/esg-content-accelerator.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,9 +33,9 @@ The application contains the following frameworks and regulations.
 
 ## Emission factors
 
-An emission factor is a coefficient that quantifies the emissions released per unit of activity or output. It is used extensively in environmental science, engineering, and regulatory contexts to estimate the amount of pollutants or greenhouse gases emitted into the atmosphere from various sources. The Unified content management also contains several emission factors. For more information on emission factors, refer to [Emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/emission-factor-library.md).
+An emission factor is a coefficient that quantifies the emissions released per unit of activity or output. It is used extensively in environmental science, engineering, and regulatory contexts to estimate the amount of pollutants or greenhouse gases emitted into the atmosphere from various sources. The Unified content management also contains several emission factors. For more information on emission factors, refer to [Emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/emission-factor-library.md).
 
-Emission factors are sourced from certain standard content providers. These content providers publish the emission factors for a variety of industries and geographies. As an ESG administrator, while you can create your own [emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-emission-factor.md) to calculate your emissions, you can also use the emission factors provided through the Unified content management application. Using the emission factors through the Unified content management application saves your time and effort. The following emission factors are provided by this application.
+Emission factors are sourced from certain standard content providers. These content providers publish the emission factors for a variety of industries and geographies. As an ESG administrator, while you can create your own [emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-emission-factor.md) to calculate your emissions, you can also use the emission factors provided through the Unified content management application. Using the emission factors through the Unified content management application saves your time and effort. The following emission factors are provided by this application.
 
 -   eGRID
 -   GHG Emission Factors by US EPA
@@ -64,7 +64,7 @@ The following figure displays the life cycle of the Unified content management a
 
 \[Omitted image "esg-unified-content-management.png"\] Alt text: Workflow of how the Unified content management application works.
 
-For more information see, [Activate or update a framework and install citations using the Unified content management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/install-citations-frameworks-from-esg-content-accelerator.md).
+For more information see, [Activate or update a framework and install citations using the Unified content management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/install-citations-frameworks-from-esg-content-accelerator.md).
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-new-explore.md)
 

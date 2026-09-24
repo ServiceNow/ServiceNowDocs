@@ -2,7 +2,7 @@
 title: Workflow Data Fabric key terms
 description: Key terms used in Workflow Data Fabric.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/key-terms-wdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/key-terms-wdf.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -34,5 +34,5 @@ Key terms used in Workflow Data Fabric.
 |Data Catalog|The self-service discovery layer where consumers browse and evaluate Data Products, Data Interfaces, and other cataloged assets. The Data Catalog displays trust scores, lineage, and governance metadata, enabling consumers to request access and confirm data usability before building on it.|
 |Zero Copy Connector \(ZCC\)|An integration mechanism that provides real-time query access to external data without moving or copying it into ServiceNow. Zero Copy Connectors are best suited for large data volumes and analytics use cases where data freshness matters.|
 
-**Parent Topic:**[Workflow Data Fabric Home Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric-reference.md)
+**Parent Topic:**[Workflow Data Fabric Home Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/workflow-data-fabric-reference.md)
 

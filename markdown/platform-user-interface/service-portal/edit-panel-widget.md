@@ -2,7 +2,7 @@
 title: Widget Edit Panel widget
 description: The Widget Edit Panel appears on the main page of the Widget Editor in Service Portal Configuration \( All Service Portal Service Portal Configuration Widget Editor \). You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/edit-panel-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/edit-panel-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -20,7 +20,7 @@ Use the Widget Edit Panel to view widgets that have recently been updated, creat
 
 \[Omitted image "WidgetEditPanel.png"\] Alt text: Widget Editor main page where the Widget Edit Panel widget is used
 
-**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-config-widgets.md)
+**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-config-widgets.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: URL
 description: The URL variable creates a widget for users to enter URLs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/url.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/url.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -22,7 +22,7 @@ URLs are validated for the following protocols: HTTP, HTTPS, FTP.
 
 \[Omitted image "URL.png"\] Alt text: A URL variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -37,7 +37,7 @@ URLs are validated for the following protocols: HTTP, HTTPS, FTP.
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

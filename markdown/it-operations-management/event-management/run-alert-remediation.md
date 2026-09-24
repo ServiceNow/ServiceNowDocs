@@ -2,7 +2,7 @@
 title: Run actions to resolve alert issues in Service Operations Workspace for ITOM
 description: Resolve the underlying issue of an alert by running predefined remediation tasks, ensuring faster issue resolution and ensuring consistent resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/run-alert-remediation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/run-alert-remediation.html
 release: australia
 product: Event Management
 classification: event-management

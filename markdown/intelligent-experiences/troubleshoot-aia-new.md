@@ -2,10 +2,10 @@
 title: Troubleshoot AI agents
 description: Use this troubleshooting guide to resolve issues with AI agents' roles, testing procedures, silent failure diagnosis and reference resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/troubleshoot-aia-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/troubleshoot-aia-new.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
 ---
@@ -18,7 +18,7 @@ Use this troubleshooting guide to resolve issues with AI agents' roles, testing 
 
 Role assignments control access to AI Agent Studio and determine what tables and tools an agent or an agentic workflow can access.
 
-Each agent comes with predefined user and data roles by default that can be modified by the customer. It is important to understand the difference between these roles, as an AI agent may not function correctly if it lacks the appropriate user or data role assigned. For more information about the default AI agent roles, see the [ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md).
+Each agent comes with predefined user and data roles by default that can be modified by the customer. It is important to understand the difference between these roles, as an AI agent may not function correctly if it lacks the appropriate user or data role assigned. For more information about the default AI agent roles, see the [ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md).
 
 **Note:** If the customer alters the default user or data roles, it may lead to issues with the agent's functionality and execution.
 
@@ -36,12 +36,12 @@ To identify the roles currently assigned to:
 -   AI agents: Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
 -   Select an AI agent, and navigate to the **Access rules** section.
 
-    For more information, see [Define access rules for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-aia-new.md).
+    For more information, see [Define access rules for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-aia-new.md).
 
 -   Agentic workflows: Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic solutions** &gt; **.**
 -   Select an agentic workflow, and navigate to the **Access rules** section.
 
-    For more information, see [Define access rules for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-aw-new.md).
+    For more information, see [Define access rules for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-aw-new.md).
 
 
 ## Diagnose AI agents' failures
@@ -58,7 +58,7 @@ To identify the roles currently assigned to:
     -   AI Agent \[sn\_aia\_agent\] table: Verify agent definitions during failure scenarios.
     **Important:** Silent failures that return no values may indicate an underlying access error. You might have access to the agentic workflow, but the AI agent within the workflow may lack necessary permissions. Always test all underlying AI agents individually, not just the workflow, to catch permission gaps that your own access level might mask.
 
-    To manually test an agentic AI asset, see [Manually test an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-asset-new.md).
+    To manually test an agentic AI asset, see [Manually test an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-asset-new.md).
 
 -   **Review logs**
 
@@ -88,10 +88,10 @@ To identify the roles currently assigned to:
 Use the following documentation resources for more information:
 
 -   Granular admin roles: [Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-conf-users-agentic-wf.md)
--   Access control: [Implement access control in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/implement-aias-security-new.md).
--   Access Analyzer: [Test access to an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-access-ai-asset.md).
--   Manually testing user access to an agentic AI asset: [Manually test an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-asset-new.md).
--   Agent library: [ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md).
+-   Access control: [Implement access control in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/implement-aias-security-new.md).
+-   Access Analyzer: [Test access to an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-access-ai-asset.md).
+-   Manually testing user access to an agentic AI asset: [Manually test an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-asset-new.md).
+-   Agent library: [ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md).
 -   Knowledge base: [AI agent advanced scenarios and runtime issues playbook](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3042061).
 -   [AI Agents FAQ and Troubleshooting](https://www.servicenow.com/community/servicenow-otto-articles/ai-agents-faq-and-troubleshooting/ta-p/3200454).
 -   [Access control Security enhancements for AI agents and Skill Kit](https://www.servicenow.com/community/servicenow-otto-articles/latest-access-control-security-enhancements-for-ai-agents-and/ta-p/3374036).

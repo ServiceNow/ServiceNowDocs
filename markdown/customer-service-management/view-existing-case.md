@@ -2,7 +2,7 @@
 title: View or modify existing cases in Microsoft Outlook
 description: As an account manager, view the five most recent cases related to a Microsoft Outlook contact to understand contact-related issues, modify any case information, and communicate more efficiently with the contact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-existing-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-existing-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

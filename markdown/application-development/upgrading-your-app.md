@@ -2,7 +2,7 @@
 title: Updating your app for a ServiceNow platform version
 description: When ServiceNow releases a new platform version, your app may need updates to keep working correctly. Learn how platform upgrades affect your app helps you plan and complete the upgrade with confidence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/upgrading-your-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/upgrading-your-app.html
 release: australia
 topic_type: concept
 last_updated: "2024-01-01"
@@ -78,5 +78,5 @@ After your app is running on the platform version in production, take a few step
 -   Add ATF tests for any coverage gaps the upgrade revealed so you're better prepared for the next cycle.
 -   Monitor the release notes for the next ServiceNow platform version early. Starting your review sooner gives you more time to plan and reduces the pressure of the next upgrade cycle.
 
-**Parent Topic:**[Version control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/version-control.md)
+**Parent Topic:**[Version control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/version-control.md)
 

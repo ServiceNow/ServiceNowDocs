@@ -2,7 +2,7 @@
 title: Add an email notification for daily health verification
 description: Add an Employee Readiness Surveys email notification to use for sending the survey link.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/add-daily-health-verification-notif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/add-daily-health-verification-notif.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -61,5 +61,5 @@ Role required: admin
 11. Select **Update**.
 
 
-**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/employee-health-screening.md)
 

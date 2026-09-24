@@ -2,7 +2,7 @@
 title: Configure quote PDF documents
 description: As a sales operation specialist, you can generate professional-looking PDF templates that present quotes in a standardized format that reflects company branding and logos. You can also set up Docusign to enable signers to sign quotes electronically and send them through email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-configure-pdf-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-configure-pdf-documents.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,13 +20,13 @@ Add customized templates to quote PDF documents using the ServiceNow document te
 
 A standard template is included with the base installation of Quote Management.
 
-See [Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-setup-pdf-document-templates.md) to learn more about PDF document templates and how they work.
+See [Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-setup-pdf-document-templates.md) to learn more about PDF document templates and how they work.
 
 ## Link quote PDF documents to Docusign
 
 Sales operation specialists can link quote PDF documents to Docusign so that signers can sign PDF documents electronically.
 
-See [Configure DocuSign for PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-configure-docusign-pdf.md) for more information about how to set up Docusign.
+See [Configure DocuSign for PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-configure-docusign-pdf.md) for more information about how to set up Docusign.
 
 ## Set up quote PDF document signers
 
@@ -35,14 +35,14 @@ Sales operation specialist can set up PDF document signers in Quote Management. 
 -   Contacts listed in an account linked to the quote can be external signers.
 -   Internal signers are all the users that have either sales\_agent or sales\_ops\_specialist roles in Quote Management.
 
-See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-configure-pdf-document-signers.md) for more information.
+See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-configure-pdf-document-signers.md) for more information.
 
--   **[Configure quote document generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-generate-document.md)**  
+-   **[Configure quote document generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-generate-document.md)**  
 The Generate PDF Document feature generates a PDF document of the current quote based on the selected template. After the document is generated, it is available in the **Attachments** section of the Contextual Side Panel \(CSP\). To enable this feature, an administrator configures a custom integration and a custom event that initiate the document generation process.
--   **[Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-configure-pdf-document-signers.md)**  
+-   **[Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-configure-pdf-document-signers.md)**  
 Sales operations specialists can set up signers in Quote Management so that PDF quotes can be sent to either internal and external signers for review and signatures.
--   **[Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-setup-pdf-document-templates.md)**  
+-   **[Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-setup-pdf-document-templates.md)**  
 Sales operation specialists can set up templates for PDF documents in Quote Management.
 
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

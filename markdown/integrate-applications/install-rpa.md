@@ -2,7 +2,7 @@
 title: Install Robotic Process Automation \(RPA\) Hub
 description: You can install the Robotic Process Automation \(RPA\) Hub application \(sn\_rpa\_fdn\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/install-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ The following items are installed with Robotic Process Automation \(RPA\) Hub:
 -   Tables
 -   Actions and subflow
 
-For more information, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-rpa-hub.md) and [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-actions.md).
+For more information, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/installed-with-rpa-hub.md) and [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-actions.md).
 
 ## Procedure
 

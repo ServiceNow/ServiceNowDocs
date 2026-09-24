@@ -2,7 +2,7 @@
 title: Activity stream in Sidebar
 description: If Sidebar is integrated with the activity stream, you can create links to discussions and post discussion messages directly to the related record as an activity stream record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/activity-stream-sidebar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/activity-stream-sidebar.html
 release: australia
 product: Sidebar
 classification: sidebar

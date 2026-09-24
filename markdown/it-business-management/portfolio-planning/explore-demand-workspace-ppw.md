@@ -2,7 +2,7 @@
 title: Exploring Next Experience for Demand Management
 description: Next Experience for Demand Management enables you to create, evaluate, and prioritize demands, throughout the demand life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/explore-demand-workspace-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/explore-demand-workspace-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -48,9 +48,9 @@ Next Experience for Demand Management provides benefits for demand managers and 
 
 To learn more about configuring and using Next Experience for Demand Management, see:
 
--   [Configuring Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-demand-workspace-ppw.md)
--   [Using Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-demands-ppw.md)
--   [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-financials-for-demands-ppw.md)
--   [Collaborate with docs in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/docs-for-demands-ppw.md)
--   [Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-workspace-reference-ppw.md)
+-   [Configuring Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/configuring-demand-workspace-ppw.md)
+-   [Using Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/managing-demands-ppw.md)
+-   [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/managing-financials-for-demands-ppw.md)
+-   [Collaborate with docs in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/docs-for-demands-ppw.md)
+-   [Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/demand-workspace-reference-ppw.md)
 

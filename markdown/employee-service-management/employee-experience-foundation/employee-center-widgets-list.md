@@ -2,7 +2,7 @@
 title: Employee Center widgets
 description: You can use base system widgets as-is in the portal or clone them to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-center-widgets-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-center-widgets-list.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -133,7 +133,7 @@ Highlights the most relevant content for the employee. It is based on popularity
 admin, sp\_admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Add custom fields to the audit table
 description: The custom fields form as breakdown filters when viewing the process graph. Without custom fields, there won't be any breakdown filters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/add-custom-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/add-custom-field.html
 release: australia
 product: Process Mining
 classification: process-mining

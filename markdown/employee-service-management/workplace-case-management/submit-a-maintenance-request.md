@@ -2,7 +2,7 @@
 title: Submit a maintenance request
 description: Raise a maintenance request for an equipment for a location using either the Workplace Service Portal or the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/submit-a-maintenance-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/submit-a-maintenance-request.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -24,15 +24,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d472766e57">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d472770e57">
 
 Location
 
-</th><th align="left" id="d472766e60">
+</th><th align="left" id="d472770e60">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d472766e66">
+</th></tr></thead><tbody><tr><td id="d472770e66">
 
 **Workplace Service Portal**
 
@@ -52,7 +52,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d472766e136">
+</td></tr><tr><td id="d472770e136">
 
 **Employee Center**
 
@@ -146,7 +146,7 @@ Select the option if you want to add any attachments.
     The maintenance request is submitted. A workplace maintenance case is created and the state is set to Work in Progress.
 
 
-**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

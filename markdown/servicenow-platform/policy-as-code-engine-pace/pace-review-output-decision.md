@@ -2,7 +2,7 @@
 title: Review execution output and decision
 description: After evaluating any changes made to the PaCE policy script, you can review the execution output and compliance decision reached. You can review this output immediately after evaluating any policy script changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-review-output-decision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-review-output-decision.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

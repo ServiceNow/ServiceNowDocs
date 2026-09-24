@@ -2,7 +2,7 @@
 title: CatalogSearchAPI - Scoped, Global
 description: CatalogSearchAPI is a script include used to search and retrieve product catalog data from all application scopes.Creates an instance of the CatalogSearchAPI class.Searches the product catalog and returns matching catalog items with optional pricing information. Supports searching across multiple catalog types.Retrieves the product catalog-category hierarchy filtered by eligibility rules. Resolves the input header context request object \(currency, pricelist, address, etc.\), applies eligibility encoded queries to filter out ineligible catalogs/categories to construct the tree.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CatalogSearchAPI-scoped\_global.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/CatalogSearchAPI-scoped\_global.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,13 +18,13 @@ CatalogSearchAPI is a script include used to search and retrieve product catalog
 
 The CatalogSearchAPI API is available by default with the Product Catalog Management application and is offered as the script include sn\_prd\_pm.CatalogSearchAPI under the namespace sn\_prd\_pm. No special roles are required to access this API.
 
-The [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-catalog-search-api.md) REST API wraps this CatalogSearchAPI JavaScript API.
+The [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-catalog-search-api.md) REST API wraps this CatalogSearchAPI JavaScript API.
 
-**Note:** There are distinct differences between this API and [CatalogSearch - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CatalogSearchScoped.md) though they're almost identically named. CatalogSearch API is a native ServiceNow platform API documented in the public API reference under `com.glideapp.servicecatalog.CatalogSearch`. It provides basic catalog item search functionality available in scoped scripts via the standard platform.
+**Note:** There are distinct differences between this API and [CatalogSearch - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_CatalogSearchScoped.md) though they're almost identically named. CatalogSearch API is a native ServiceNow platform API documented in the public API reference under `com.glideapp.servicecatalog.CatalogSearch`. It provides basic catalog item search functionality available in scoped scripts via the standard platform.
 
 This API, CatalogSearchAPI \(sn\_prd\_pm.CatalogSearchAPI\), is the script include wrapper API specific to the Product Catalog Management application. Use this API to query product offerings, service specifications, and catalog-category hierarchies, with support for account-specific pricing, eligibility, and localization through a `headerContext` object.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## CatalogSearchAPI - CatalogSearch\(\)
 

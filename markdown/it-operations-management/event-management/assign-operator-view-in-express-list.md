@@ -2,7 +2,7 @@
 title: Assign users and groups to predefined Express List views
 description: Assign individual users and user groups to preconfigured Express List views to make sure that they focus on specific services, priorities, or alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/assign-operator-view-in-express-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/assign-operator-view-in-express-list.html
 release: australia
 product: Event Management
 classification: event-management
@@ -18,7 +18,7 @@ Assign individual users and user groups to preconfigured Express List views to m
 
 ## Before you begin
 
-For more information about predefined Express List views, see [Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manage-views-express-list.md).
+For more information about predefined Express List views, see [Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manage-views-express-list.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -30,15 +30,15 @@ Role required: evt\_mgmt\_admin
 
 3.  Assign users or groups to the selected Express List view.
 
-<table id="choicetable_jg5_jrj_k1c"><thead><tr><th align="left" id="d137497e113">
+<table id="choicetable_jg5_jrj_k1c"><thead><tr><th align="left" id="d137134e113">
 
 Task
 
-</th><th align="left" id="d137497e116">
+</th><th align="left" id="d137134e116">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d137497e122">
+</th></tr></thead><tbody><tr><td id="d137134e122">
 
 **Assign a user to the selected Express List view**
 
@@ -49,7 +49,7 @@ Procedure
 3.  Select the user and then select the save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
 
 
-</td></tr><tr><td id="d137497e167">
+</td></tr><tr><td id="d137134e167">
 
 **Assign a user group to the selected Express List view**
 
@@ -64,5 +64,5 @@ Procedure
 </table>4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manage-views-express-list.md)
+**Parent Topic:**[Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manage-views-express-list.md)
 

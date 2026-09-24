@@ -2,7 +2,7 @@
 title: Configure a Record producer
 description: Make a Workplace service available to employees as a self-service option. Configure a record producer to display the service as a catalog item in the Workplace Services catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/wsd-create-record-producer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/wsd-create-record-producer.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -125,9 +125,9 @@ The record producer is created.
 
 ## What to do next
 
-Link the record producer to the workplace service, see [Create a Workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/create-workplace-service.md).
+Link the record producer to the workplace service, see [Create a Workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/create-workplace-service.md).
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

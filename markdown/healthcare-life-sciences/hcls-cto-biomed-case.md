@@ -2,7 +2,7 @@
 title: Healthcare Biomed case overview
 description: Use the Healthcare Biomed case to create case types for biomed related healthcare operational requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-cto-biomed-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-cto-biomed-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

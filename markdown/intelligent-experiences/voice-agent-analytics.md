@@ -2,7 +2,7 @@
 title: AI voice agent analytics
 description: The Voice dashboard page in the Analytics tab of Assistant Designer helps you monitor the usage and performance metrics for AI voice agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/voice-agent-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/voice-agent-analytics.html
 release: australia
 topic_type: concept
 last_updated: "2025-08-13"

@@ -2,7 +2,7 @@
 title: All Instances summary dashboard – snapshot of overall health
 description: The All Instances Summary Dashboard is the home page that provides a snapshot of the overall health of your instances. You can create your own dashboard according to your preferences for metrics that help you to analyze the health of your system in a snapshot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/user-configurable-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/user-configurable-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,12 +32,12 @@ The default base system dashboard, the All instance health dashboard, is the Ins
 
 You can select the auto-refresh frequency for the dashboard.
 
-**Note:** The All Instance health dashboard isn’t editable, deletable, or cloneable. Create a fresh dashboard to explore configuration options. See [Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/customize-instance-observer-dashboard.md) for more information.
+**Note:** The All Instance health dashboard isn’t editable, deletable, or cloneable. Create a fresh dashboard to explore configuration options. See [Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/customize-instance-observer-dashboard.md) for more information.
 
--   **[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/customize-instance-observer-dashboard.md)**  
+-   **[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/customize-instance-observer-dashboard.md)**  
 Create a dashboard that serves as a home page to assess the health of your instances at a glance.
--   **[Performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-performance-insights.md)**  
+-   **[Performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-performance-insights.md)**  
 The Performance insights widget in the user-configurable dashboard displays the total production instances, their count, and the status of their performance score in a dial component.
 
-**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-overview.md)
 

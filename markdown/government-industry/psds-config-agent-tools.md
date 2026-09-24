@@ -2,7 +2,7 @@
 title: Configure agent tools in Public Sector Digital Services
 description: Configure other agent tools such as Mobile Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-agent-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-agent-tools.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

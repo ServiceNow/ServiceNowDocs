@@ -2,10 +2,10 @@
 title: Roles and components of Deal Registration Management
 description: The Deal Registration Management application \(com.snc.deal\_registration\_management\) uses roles to provide access to information, identify internal and external users, and maintain data security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/roles-and-components-of-deal-registration-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/roles-and-components-of-deal-registration-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
@@ -132,7 +132,7 @@ B2B deal registration agent \(sn\_prm\_dr.enterprise\_b2b\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert B2B deals into opportunities.A B2B deal registration agent can manage the full life cycle for B2B deal registrations.
 
-To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/update-deal-registration-record.md)
+To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/update-deal-registration-record.md)
 
 </td><td>
 
@@ -146,7 +146,7 @@ B2C deal registration agent \(sn\_prm\_dr.enterprise\_b2c\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert B2C deals into opportunities.A B2C deal registration agent can manage the full life cycle for B2C deal registrations.
 
-To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/update-deal-registration-record.md)
+To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/update-deal-registration-record.md)
 
 </td><td>
 
@@ -160,7 +160,7 @@ Deal registration agent \(sn\_prm\_dr.enterprise\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert any deal registration into an opportunity. A deal registration agent can manage the full life cycle of submitted deal registrations, both B2B and B2C.
 
-To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/update-deal-registration-record.md)
+To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/update-deal-registration-record.md)
 
 </td><td>
 
@@ -243,12 +243,12 @@ This granular role provides read access to users for the deal registration to wh
 Partner data viewer \(sn\_prm.partner\_data\_viewer\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management-reference.md)
 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

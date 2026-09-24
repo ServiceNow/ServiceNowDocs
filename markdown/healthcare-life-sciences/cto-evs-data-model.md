@@ -2,7 +2,7 @@
 title: Care Team Operations for Environmental Services tables
 description: The Healthcare EVS Case \[sn\_cto\_evs\_case\] enables streamlined support for environmental services support use cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-data-model.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

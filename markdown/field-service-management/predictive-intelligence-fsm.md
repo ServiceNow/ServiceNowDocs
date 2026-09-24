@@ -2,7 +2,7 @@
 title: Predictive Intelligence for defining work order solutions
 description: Use your instance records to build solutions to Field Service Management issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/predictive-intelligence-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/predictive-intelligence-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

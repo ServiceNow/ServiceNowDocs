@@ -2,7 +2,7 @@
 title: Remove a shipping carrier from an integration profile
 description: Remove a shipping carrier that you no longer want to associate with an integration profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/remove-shipping-carrier.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/remove-shipping-carrier.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -37,7 +37,7 @@ Role required: admin or domain\_admin
 
 The shipping carrier is no longer associated with the integration profile.
 
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 

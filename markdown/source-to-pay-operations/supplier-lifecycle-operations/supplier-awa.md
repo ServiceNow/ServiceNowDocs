@@ -2,7 +2,7 @@
 title: Advanced Work Assignment for Supplier Lifecycle Operations
 description: Use the Advanced Work Assignment for Supplier Lifecycle Operations feature to automatically assign work items to agents based on availability and capacity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supplier-awa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-awa.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -22,7 +22,7 @@ Advanced Work Assignment for Supplier Lifecycle Operations pushes work to qualif
 
 ## Prerequisites for installing Advanced Work Assignment for Supplier Lifecycle Operations
 
-Before you install Advanced Work Assignment for Supplier Lifecycle Operations, ensure that you activate the Agent Chat application and load the demo data during installation. For more information, see [Activate Agent Chat and load demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.md).
+Before you install Advanced Work Assignment for Supplier Lifecycle Operations, ensure that you activate the Agent Chat application and load the demo data during installation. For more information, see [Activate Agent Chat and load demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.md).
 
 ## Required plugins
 
@@ -33,16 +33,16 @@ Install the Advanced Work Assignment for Supplier Lifecycle Operations \(com.snc
 -   Glide Virtual Agent \(com.glide.cs.chatbot\)
 -   Supplier Case Management \(com.snc.sn\_supplier\_mgmt\)
 
--   **[Source-to-Pay Workspace agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/agent-inbox-ws.md)**  
+-   **[Source-to-Pay Workspace agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/agent-inbox-ws.md)**  
 Use the agent inbox to manage your incoming work items, such as chats, cases, incidents, and more.
--   **[Activate Agent Chat and load demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.md)**  
+-   **[Activate Agent Chat and load demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.md)**  
 Activate Agent Chat and load demo data.
--   **[Setting up Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/awa-slm-config.md)**  
+-   **[Setting up Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/awa-slm-config.md)**  
 Plan and configure your implementation of Advanced Work Assignment for Supplier Lifecycle Operations.
--   **[Using Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-awa-slm.md)**  
+-   **[Using Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-awa-slm.md)**  
 Enables supplier contacts to interact with supplier owners and resolve their issues and get answers to questions.
 
-**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
+**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
 
 **Related topics**  
 
@@ -67,13 +67,13 @@ Enables supplier contacts to interact with supplier owners and resolve their iss
 
 [Configure smart assessments]()
 
-[Setting up Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/awa-slm-config.md)
+[Setting up Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/awa-slm-config.md)
 
-[Using Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-awa-slm.md)
+[Using Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-awa-slm.md)
 
-[Source-to-Pay Workspace agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/agent-inbox-ws.md)
+[Source-to-Pay Workspace agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/agent-inbox-ws.md)
 
-[Configure the Supplier Collaboration Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-scp-queue.md)
+[Configure the Supplier Collaboration Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configure-scp-queue.md)
 
-[Configure Agent Chat for Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-agent-chat-slm.md)
+[Configure Agent Chat for Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configure-agent-chat-slm.md)
 

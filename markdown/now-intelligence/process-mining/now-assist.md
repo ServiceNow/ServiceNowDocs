@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Process Mining
 description: Use ServiceNow Otto for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/now-assist.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -25,15 +25,15 @@ Use ServiceNow Otto for Process Mining to minimize time, maximize effort, and re
 
 <table id="table_rmy_kzm_tdc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow Otto feature for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/exp-na-process-mining.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow Otto feature for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/exp-na-process-mining.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate ServiceNow Otto for Process Mining and configure the skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/config-na-proc-min.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate ServiceNow Otto for Process Mining and configure the skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/config-na-proc-min.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-na-process-mining.md)
 
 </td></tr></tbody>
 </table>## AI limitations
@@ -48,12 +48,12 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about work notes in Process Mining. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/exp-na-process-mining.md)**  
+-   **[Exploring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/exp-na-process-mining.md)**  
 Use ServiceNow ServiceNow Otto for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
--   **[Configuring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/config-na-proc-min.md)**  
+-   **[Configuring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/config-na-proc-min.md)**  
 Configure ServiceNow Otto for Process Mining to use the feature.
--   **[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)**  
+-   **[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-na-process-mining.md)**  
 Use ServiceNow Otto for Process Mining to run work notes analysis on a transition and generate highlights on improvement opportunities.
 
-**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-process-mining.md)
 

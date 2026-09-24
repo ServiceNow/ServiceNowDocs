@@ -2,7 +2,7 @@
 title: Set up similar records prediction model
 description: Use Task Intelligence for ITSM to set up similar records prediction model, define the purpose of the model, and train it with your data to make predictions. Access your model's performance results, set the prediction preferences and behavior, and deploy your model. 
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.html
 release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -44,23 +44,23 @@ You can configure any of the following similarity-based models:
 
 ## What to do next
 
-After you open the model, complete the wizard to define the purpose, train, assess, and deploy the model. For more information, see [Define the purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/define-the-purpose.md).
+After you open the model, complete the wizard to define the purpose, train, assess, and deploy the model. For more information, see [Define the purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/define-the-purpose.md).
 
 To make the model's predictions appear to agents in Service Operations Workspace:
 
 1.  Set a recommended action for the context \(for example, Incident\) and map the model into the Resource generator's **Model** field.
 2.  Confirm that the rule for the recommendation is active in the Recommended Actions for ITSM configuration.
 
-To test the model before agents rely on it, view sample results during the assess step or set the prediction behavior to **Monitor only** to run predictions in the background. For more information, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
+To test the model before agents rely on it, view sample results during the assess step or set the prediction behavior to **Monitor only** to run predictions in the background. For more information, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
 
--   **[Define the purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/define-the-purpose.md)**  
+-   **[Define the purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/define-the-purpose.md)**  
 Specify the purpose of the similar records model. You can select the prediction table for which predictions will be generated. Then, select the training table \(Incidents, Problems, or Change Requests\) which will appear as predictions based on similarities between their selected fields.
--   **[Train the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/train-the-similarity-model.md)**  
+-   **[Train the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/train-the-similarity-model.md)**  
 Train your similar record models with training data to predict the similar records by recognizing similarities between fields of Incident table and training tables.
--   **[Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md)**  
+-   **[Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md)**  
 Assess the results from the model training and view sample results to see the similar records predicted for incidents. Reviewing the results gives you a preview of how your model will perform after being deployed. Based on the sample results, select the prediction preference.
--   **[Deploy the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/deploy-the-similarity-model.md)**  
+-   **[Deploy the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/deploy-the-similarity-model.md)**  
 Deploy the Similar incidents model to predict the similar records for the incidents. 
 
-**Parent Topic:**[Create a similar records prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/create-a-similar-records-model-in-task-intelligence-for-itsm.md)
+**Parent Topic:**[Create a similar records prediction model in Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/create-a-similar-records-model-in-task-intelligence-for-itsm.md)
 

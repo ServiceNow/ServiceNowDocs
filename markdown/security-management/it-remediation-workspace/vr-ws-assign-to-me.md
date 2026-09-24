@@ -2,7 +2,7 @@
 title: Assign a remediation task or record to yourself in the IT Remediation Workspace
 description: Assign a remediation task \(VUL, AVUL, CVUL, or CRG\) or record \(VIT, AVIT, CVIT, or TR\) to yourself from the List page in the IT Remediation Workspace workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/vr-ws-assign-to-me.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/it-remediation-workspace/vr-ws-assign-to-me.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace

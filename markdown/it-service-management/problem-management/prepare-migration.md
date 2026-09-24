@@ -2,7 +2,7 @@
 title: Preparing for migration
 description: You can prepare your instance for migration before you start the migration activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/prepare-migration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/prepare-migration.html
 release: australia
 product: Problem Management
 classification: problem-management

@@ -2,7 +2,7 @@
 title: Tutorial part 1: Create an application in the ServiceNow IDE
 description: Create an application that you can develop in source code in the ServiceNow IDE.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/tutorial-create-application-ide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-ide-family-release/tutorial-create-application-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -58,7 +58,7 @@ In the ServiceNow IDE, you can develop applications in source code using Service
 
     4.  Enter a scope, such as `x_snc_hello_world`, and press Enter.
 
-        **Important:** The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_NamespaceIdentifier.md).
+        **Important:** The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_NamespaceIdentifier.md).
 
     5.  Enter a package name, such as `x-snc-hello-world`, and press Enter.
 
@@ -88,12 +88,12 @@ In the ServiceNow IDE, you can develop applications in source code using Service
 
         \[Omitted image "servicenow-ide-deploy-logs.png"\] Alt text: Logs in the Output panel indicating that the application built and installed successfully.
 
-        For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
+        For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 
 ## What to do next
 
-Continue to [Tutorial part 2: Initialize a repository for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/tutorial-initialize-repository-ide.md).
+Continue to [Tutorial part 2: Initialize a repository for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/tutorial-initialize-repository-ide.md).
 
-**Parent Topic:**[Getting started: Create your first application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/getting-started-create-application-ide.md)
+**Parent Topic:**[Getting started: Create your first application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/getting-started-create-application-ide.md)
 

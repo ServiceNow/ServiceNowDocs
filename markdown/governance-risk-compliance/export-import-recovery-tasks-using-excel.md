@@ -2,7 +2,7 @@
 title: Export and import recovery tasks from Microsoft Excel
 description: Export recovery task records to a Microsoft Excel file, edit the data offline, and import the updated file to create or update many recovery tasks at once.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/export-import-recovery-tasks-using-excel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/export-import-recovery-tasks-using-excel.html
 release: australia
 topic_type: task
 last_updated: "2026-08-19"
@@ -51,7 +51,7 @@ The **Export to Excel** and **Import from Excel** actions are available in the *
     -   The **Dependencies** field accepts comma-separated task IDs.
     -   To update an existing task, keep its numeric task ID. To add a task, enter a temporary N-prefixed identifier, for example, `N1`, in an empty row. The system assigns the task a real task ID after import, and you can reference the N-prefixed identifier in the **Dependencies** column of any row in the file.
     -   Don't rename sheets, rearrange columns, or change the file format. Save the file as ".xlsx".
-    For the full set of column rules, including fields that are mutually exclusive or hidden on the form, see [Importing and exporting recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-recovery-tasks.md).
+    For the full set of column rules, including fields that are mutually exclusive or hidden on the form, see [Importing and exporting recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-export-import-feature-recovery-tasks.md).
 
 6.  Save the Microsoft Excel file after you complete your edits.
 
@@ -76,12 +76,12 @@ If a row fails during import, correct it and import the file again:
 2.  Delete the rows that were processed successfully, keeping only the rows that you need to import again.
 3.  Save the file, and repeat the last two steps of this procedure to import it again.
 
-**Parent Topic:**[Importing and exporting recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-recovery-tasks.md)
+**Parent Topic:**[Importing and exporting recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-export-import-feature-recovery-tasks.md)
 
 **Related topics**  
 
 
-[Importing and exporting recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-recovery-tasks.md)
+[Importing and exporting recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-export-import-feature-recovery-tasks.md)
 
-[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md)
+[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-export-import-feature-event-tasks.md)
 

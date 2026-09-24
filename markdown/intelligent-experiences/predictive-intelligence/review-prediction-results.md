@@ -2,7 +2,7 @@
 title: Track classification prediction results over time
 description: Use the Prediction Results dashboard to determine if classification solution predictions are improving over time. Identify solutions that need refining or retraining.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/review-prediction-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/review-prediction-results.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -51,5 +51,5 @@ On the Prediction Results dashboard, statistics are provided in two timeframes: 
 
 Refine the solution definition filter by including or excluding classes as needed. After updating, retrain the solution.
 
-**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
 

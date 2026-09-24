@@ -2,7 +2,7 @@
 title: Configure the Investigative case summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Activate and customize the Investigative case summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that investigators can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-config-inv-case-summ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-config-inv-case-summ.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

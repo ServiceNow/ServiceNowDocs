@@ -2,7 +2,7 @@
 title: Create a search configuration
 description: Create a search configuration. This record connects your launcher screen with the other records used to configure search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-search-e2e.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-search-e2e.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -80,7 +80,7 @@ Enable Photo Search
 
 </td><td>
 
-Whether photo search is available for your search bar. If the **glide.sg.image\_recognition.search.enable** system property is false, you cannot select this option. For details on this property see [Create the image search system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-image-search-prop.md).
+Whether photo search is available for your search bar. If the **glide.sg.image\_recognition.search.enable** system property is false, you cannot select this option. For details on this property see [Create the image search system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-image-search-prop.md).
 
 </td></tr></tbody>
 </table>4.  In the **Search Application Configuration** field, click the reference icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference icon\).
@@ -149,5 +149,5 @@ Whether photo search is available for your search bar. If the **glide.sg.image\_
 19. Click **Save** when you have finished adding item configurations.
 
 
-**Parent Topic:**[Configure search criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-custom-search.md)
+**Parent Topic:**[Configure search criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-create-custom-search.md)
 

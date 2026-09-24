@@ -2,7 +2,7 @@
 title: Configure Contract Management Pro MCP Server
 description: Install the Contract Management Pro MCP Server application to add the contract analysis playbook tool and the Contract Analysis Playbooks menu to Contract Management Pro. The application is active by default and automatically installs its dependencies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-install-mcp-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-install-mcp-app.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -54,5 +54,5 @@ The Contract Management Pro MCP Server application is installed. The contract an
 
 ## What to do next
 
-After you install the application, set up the MCP server and its OAuth 2.0 authentication. For more information, see [Set up the Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-mcp-server.md).
+After you install the application, set up the MCP server and its OAuth 2.0 authentication. For more information, see [Set up the Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-conf-mcp-server.md).
 

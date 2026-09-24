@@ -2,7 +2,7 @@
 title: Install Service Operations Workspace for ITOM application
 description: You can install the AIOps Experience \[sn\_sow\_aiops\] application to get Service Operations Workspace for ITOM if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/install-sow-itom-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/install-sow-itom-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-06-23"
@@ -18,8 +18,8 @@ You can install the AIOps Experience \[sn\_sow\_aiops\] application to get Servi
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [AIOps Experience](https://store.servicenow.com/sn_appstore_store.do#!/store/application/38f8f09e68752110f87762d826aeb7f4/24.2.3?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3DAIOps%2520Experience&sl=sh) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   For a list of plugins or applications installed with Service Operations Workspace for ITOM, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-app-itom-health.md).
--   Service Operations Workspace supports domain separation. For details, see [Domain separation and Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/domain-separation-event-management.md).
+-   For a list of plugins or applications installed with Service Operations Workspace for ITOM, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/plugin-app-itom-health.md).
+-   Service Operations Workspace supports domain separation. For details, see [Domain separation and Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/domain-separation-event-management.md).
 
 Role required: admin
 
@@ -30,7 +30,7 @@ The following items are installed with AIOps Experience \[sn\_sow\_aiops\] plugi
 -   Roles
 -   Plugins
 
-For more information, see [Components installed with AIOps Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/components-installed-with-sow-itom.md).
+For more information, see [Components installed with AIOps Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/components-installed-with-sow-itom.md).
 
 ## Procedure
 
@@ -55,5 +55,5 @@ For more information, see [Components installed with AIOps Experience](https://r
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-sow-itom.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-sow-itom.md)
 

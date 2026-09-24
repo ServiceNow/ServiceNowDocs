@@ -2,7 +2,7 @@
 title: Add dependencies to your SAFe stories
 description: Set dependencies to your SAFe story by adding prerequisite and dependent stories to it. Using the SAFe Planning board, you can distinguish these dependencies between stories during your big room planning and replan the stories as required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/add-dependencies-safe-stories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/add-dependencies-safe-stories.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -69,5 +69,5 @@ Steps
     If you're on the SAFe planning board, click the dependencies icon to show or hide dependency lines between stories.
 
 
-**Parent Topic:**[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)
+**Parent Topic:**[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)
 

@@ -2,7 +2,7 @@
 title: Scoring calculations using the classic assessment engine
 description: Perform a comprehensive external risk assessment when calculating multiple ratings and scores by using the Third-party Risk Management application. You can gain a deeper understanding of the overall calculation process and learn how user-defined parameters and configurations influence the results of the questionnaires.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -32,23 +32,23 @@ The score calculation mechanism for each external assessment uses the ServiceNow
 
 -   Questions \(metrics\)
 
-    For more information on how to define a question, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
+    For more information on how to define a question, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
 
 -   Metric scale definition
 
-    For more information on how to define the metric scale definition, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
+    For more information on how to define the metric scale definition, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
 
 -   Categories
 
-    For more information on how to define a category, see [Set up and maintain a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-question-bank-create.md).
+    For more information on how to define a category, see [Set up and maintain a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-question-bank-create.md).
 
 -   Weights
 
-    For more information on how to define a weight, see [Define component criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.md).
+    For more information on how to define a weight, see [Define component criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.md).
 
 -   Risk rating scale
 
-    For more information on how to define a risk rating scale, see [Set up risk rating scales for scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.md).
+    For more information on how to define a risk rating scale, see [Set up risk rating scales for scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.md).
 
 -   Business service rating scale
 
@@ -93,7 +93,7 @@ Selecting the scored option \(**Scored** check box\) is optional. When the **Sco
 
 The system still calculates `questionPercentContribution` for scored questions based on the question weight within its category. The normalized value is then calculated using the standard normalization equation \(`questionNormalizedValue = 100 * questionRating * questionPercentContribution`\). As a result, a scored question contributes `0` when answered incorrectly, and contributes its weighted share of the maximum score \(100\) based on `questionPercentContribution` when answered correctly.
 
-The **Maximum normalization** input field applies only when the **Scored** check box is not selected, because it is used with the High/Low rating calculation. When the **Scored** check box is selected, the maximum normalization input does not affect scoring. For more information on questions and normalized scores, see [Set up and maintain a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-question-bank-create.md), [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md) and [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
+The **Maximum normalization** input field applies only when the **Scored** check box is not selected, because it is used with the High/Low rating calculation. When the **Scored** check box is selected, the maximum normalization input does not affect scoring. For more information on questions and normalized scores, see [Set up and maintain a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-question-bank-create.md), [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md) and [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
 
 ## questionRating calculation
 
@@ -246,15 +246,15 @@ The final rating for the assessment is calculated by using this equation:
 
 The final rating is the overall assessment rating that considers the scores and ratings from all assessments conducted for a third-party or engagement. It’s calculated by taking the weighted average of the questionnaires and document requests within each risk area. This calculation process ensures that all relevant metrics, categories, and weights are taken into account based on how you defined these parameters and configurations. The calculation process and the factors involved can help you make informed decisions and take appropriate actions based on the final rating.
 
-**Note:** For information on verifying risk ratings and scoring calculations, see [Verifying scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-verif-q.md).
+**Note:** For information on verifying risk ratings and scoring calculations, see [Verifying scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-verif-q.md).
 
--   **[Verifying scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-verif-q.md)**  
+-   **[Verifying scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-verif-q.md)**  
 You can review scores and risk ratings in your questionnaires to help ensure the accuracy and consistency of risk scoring by verifying the correct application of weights, normalized values, scoring methods, and risk rating scales. Based on the different weights you assign, Third-party Risk Management aggregates these values and produces a composite score.
 
-**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
 **Related topics**  
 
 
-[Verifying scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-verif-q.md)
+[Verifying scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-verif-q.md)
 

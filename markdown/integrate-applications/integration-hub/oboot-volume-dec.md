@@ -2,7 +2,7 @@
 title: Oracle Boot Volume Spoke
 description: Manage boot volumes, backups, and KMS keys in Oracle Boot Volume account from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/oboot-volume-dec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/oboot-volume-dec.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -75,5 +75,5 @@ The Oracle Boot Volume spoke provides actions to automate  tasks when events occ
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Set up the Oracle Boot Volume spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/oboot-vol-setup-dec.md).
+For information about setting up the spoke, see [Set up the Oracle Boot Volume spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/oboot-vol-setup-dec.md).
 

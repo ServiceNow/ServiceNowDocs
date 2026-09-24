@@ -2,7 +2,7 @@
 title: Track the status of a public service request from the Government Service Portal
 description: Monitor the status of a case that you submitted through the Government Service Portal in Public Sector Digital Services. On the case page, you can see when the case was created, when it was last updated, and whether it’s awaiting a response from you or from an agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-track-service-request-status-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-track-service-request-status-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -108,7 +108,7 @@ State
 
 </td><td>
 
-Current status of the case for the given stage. For a detailed explanation of each case state, see [Government Service Portal Case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/government-service-case-states.md).
+Current status of the case for the given stage. For a detailed explanation of each case state, see [Government Service Portal Case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/government-service-case-states.md).
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Stage
 
 </td><td>
 
-Phase through which a case moves. For a detailed explanation of each case stage, see [Government Service Case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/government-service-case-type.md).
+Phase through which a case moves. For a detailed explanation of each case stage, see [Government Service Case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/government-service-case-type.md).
 
 </td></tr><tr><td>
 

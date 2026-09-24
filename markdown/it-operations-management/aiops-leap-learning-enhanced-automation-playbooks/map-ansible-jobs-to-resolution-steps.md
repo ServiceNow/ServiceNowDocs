@@ -2,7 +2,7 @@
 title: Map Ansible jobs to resolution steps
 description: Create mappings between automation opportunity resolution steps and Ansible job templates to enable automated incident remediation.
 locale: en-us
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/map-ansible-jobs-to-resolution-steps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/map-ansible-jobs-to-resolution-steps.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -23,7 +23,7 @@ Before mapping Ansible jobs to resolution steps:
 
 -   The Ansible discovery agent must have analyzed the automation opportunity
 -   Job templates related to the resolution steps must exist and be available in your connected Ansible Automation Platform instance.
--   The [automation opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/automation-opportunities.md) must have generated resolution steps
+-   The [automation opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/automation-opportunities.md) must have generated resolution steps
 
 Role required: LEAP admin
 

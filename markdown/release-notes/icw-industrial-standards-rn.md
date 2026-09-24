@@ -2,7 +2,7 @@
 title: Industrial Standards release notes
 description: The ServiceNow Industrial Standards application provides a centralized, governed framework to define, publish, and maintain operational standards across plants and production lines. This application enables consistency through versioned definitions, reusable templates, and automated schedules that generate executable work. With clear life-cycle controls and skills‑aware enforcement, it improves quality, traceability, and compliance at scale. Industrial Standards is a new application in the Australia release.The ServiceNow Industrial Standards application provides a centralized, governed framework to define, publish, and maintain operational standards across plants and production lines. This application enables consistency through versioned definitions, reusable templates, and automated schedules that generate executable work. With clear life-cycle controls and skills‑aware enforcement, it improves quality, traceability, and compliance at scale. Industrial Standards is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/icw-industrial-standards-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/icw-industrial-standards-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ See [Exploring Industrial Standards](https://raw.githubusercontent.com/ServiceNo
     Industrial Standards is automatically installed when you install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/industrial-connected-workforce-rn-landing.md)
+**Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/industrial-connected-workforce-rn-landing.md)
 
 ## Australia Early Availability
 

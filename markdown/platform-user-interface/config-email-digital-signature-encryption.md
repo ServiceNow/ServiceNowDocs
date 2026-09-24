@@ -2,10 +2,10 @@
 title: Configuring digital signature and encryption for emails
 description: Configure emails that send a digital signature to verify you as an authentic sender and an email encryption to certify authentic recipients.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/config-email-digital-signature-encryption.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/config-email-digital-signature-encryption.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Emails, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

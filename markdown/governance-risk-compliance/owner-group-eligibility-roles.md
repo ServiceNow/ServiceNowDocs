@@ -2,10 +2,10 @@
 title: Group owner fields and role requirements
 description: Reference guide for group owner role eligibility requirements, field mapping, and filtering logic across all Business Continuity Management record types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/owner-group-eligibility-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/owner-group-eligibility-roles.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 keywords: [business continuity management, group ownership, role requirements]
 breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Compliance]
@@ -90,13 +90,13 @@ Role-based group filtering confirms that only groups with the appropriate permis
 |Outside group selection|The "Allow selection outside the group" informational message provides flexibility for edge cases. An individual may serve as owner even if not formally part of the owning group.|
 |UI consistency|Both Classic UI and Business Continuity Workspace implement group ownership consistently, ensuring a unified user experience across UI platforms.|
 
--   **[BIA owner field reference and validation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-smart-assessment-owner-sync.md)**  
+-   **[BIA owner field reference and validation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-smart-assessment-owner-sync.md)**  
 Detailed field definitions, validation rules, filtering logic, and technical specifications for group ownership in Business Impact Analysis \(BIA\) records.
 
-**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-reference.md)
+**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-reference.md)
 
 **Related topics**  
 
 
-[Group ownership in BIA, plan, and event records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/group-ownership-bias.md)
+[Group ownership in BIA, plan, and event records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/group-ownership-bias.md)
 

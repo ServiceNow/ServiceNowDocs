@@ -2,7 +2,7 @@
 title: Creating a connection for the Anglepoint integration
 description: If you are integrating the Software Asset Management publisher pack for IBM with Anglepoint, you can create a connection between your ServiceNow instance and the Anglepoint Elevate platform to transfer licensing data for your IBM software products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/creating-connection-anglepoint-elevate-platform.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/creating-connection-anglepoint-elevate-platform.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -16,10 +16,10 @@ breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM,
 
 If you are integrating the Software Asset Management publisher pack for IBM with Anglepoint, you can create a connection between your ServiceNow instance and the Anglepoint Elevate platform to transfer licensing data for your IBM software products.
 
--   **[Create an API user for the Anglepoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-anglepoint-integration-user.md)**  
+-   **[Create an API user for the Anglepoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-anglepoint-integration-user.md)**  
 Create a user who is permitted to access the APIs used by the Anglepoint integration. These APIs provide the given user access to the Anglepoint integration resources that are available on your ServiceNow instance.
--   **[Configuring the API authentication method for the Anglepoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configuring-auth-method-anglepoint-integration.md)**  
+-   **[Configuring the API authentication method for the Anglepoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configuring-auth-method-anglepoint-integration.md)**  
 You can configure the API authentication method that grants users access to the Anglepoint integration resources on your ServiceNow instance.
 
-**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
+**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

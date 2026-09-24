@@ -2,7 +2,7 @@
 title: Workplace planned maintenance scheduled job
 description: The scheduled Job Workplace Planned Maintenance Nightly Run runs at the configured time and creates maintenance cases. It also pre-creates maintenance cases when the scheduled duration is less than a day.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -34,7 +34,7 @@ The scheduled job can also pre-create maintenance cases when the schedule config
 
 When the scheduled job runs, it creates maintenance cases only for those planned records that have a template associated to a maintenance schedule.
 
-**Note:** When a maintenance schedule is created, it picks up a template from the Workplace maintenance service configuration table \(sn\_wsd\_maintenance\_service\_config\). Based on your requirements, associate a template to a plan record. Multiple templates can be created and associated to a maintenance plan. For more information, see [Create a workplace template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/create-workplace-template-confguration.md).
+**Note:** When a maintenance schedule is created, it picks up a template from the Workplace maintenance service configuration table \(sn\_wsd\_maintenance\_service\_config\). Based on your requirements, associate a template to a plan record. Multiple templates can be created and associated to a maintenance plan. For more information, see [Create a workplace template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/create-workplace-template-confguration.md).
 
 ## Duration-based cases
 
@@ -51,7 +51,7 @@ For duration-based cases, the **Workplace Planned Maintenance Nightly Run** sche
     -   If there’s a template, the scheduled job creates a maintenance case and updates the **Next run time** in the Workplace Maintenance Service Configuration table for a plan record.
     -   If there’s no template associated to a plan record, the scheduled job fetches the next plan record in a queue.
 
-**Note:** When defining a duration-based maintenance schedule, you can define the **Minimum lead time in days** \(takes integer-based values\). For example, If if the lead time is 0, it indicates that the cases for the current day are created today itself. But if the lead time is 1, the cases were created yesterday, that is, the cases are generated one day ahead of the schedule. The **Next run time** duration has the lead time value defined for a schedule. For more information, see [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-schedule.md).
+**Note:** When defining a duration-based maintenance schedule, you can define the **Minimum lead time in days** \(takes integer-based values\). For example, If if the lead time is 0, it indicates that the cases for the current day are created today itself. But if the lead time is 1, the cases were created yesterday, that is, the cases are generated one day ahead of the schedule. The **Next run time** duration has the lead time value defined for a schedule. For more information, see [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-schedule.md).
 
 ## Meter-based cases
 
@@ -60,7 +60,7 @@ For meter-based cases, the **Workplace Planned Maintenance Nightly Run** schedul
 -   The scheduled job fetches all active plan records having a **Next run value**.
 -   For each plan record, the **Next run value** depends on the **Field** name value. The **Field** value is available when you’re creating a meter-based schedule.
 
-    For more information, see in [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-schedule.md).
+    For more information, see in [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-schedule.md).
 
 -   The scheduled job retrieves the value of the **Field** name from the Asset \(sn\_ent\_asset\) table and compares it with the **Next run value** for a plan record.
 -   The schedule job checks if the **Next run Value** is less than the actual value in the Asset table and proceeds further.
@@ -71,9 +71,9 @@ For meter-based cases, the **Workplace Planned Maintenance Nightly Run** schedul
     -   If there’s a template associated to a maintenance schedule, the schedule job creates a workplace maintenance case and updates the **Next run value** for a plan record.
     -   If there’s no template associated to a maintenance schedule, the scheduled job picks up the next plan record in a queue.
 
-**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
+**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
-**Previous topic:**[Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-schedule.md)
+**Previous topic:**[Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-schedule.md)
 
-**Next topic:**[Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-workplace-services.md)
+**Next topic:**[Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-workplace-services.md)
 

@@ -2,7 +2,7 @@
 title: Monitor the integration status of the SLO inbound data import
 description: Monitor the status of the integration after a transform runs and completes successfully.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/monitor-integration-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/monitor-integration-status.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -44,10 +44,10 @@ Role required: admin
         -   The Integration status column displays **Failed** for the import set.
         -   The Processing message column displays the issue that occurred during the transformation. You must fix the error and run the transform again. For example, if any of the mandatory fields are missing, the integration fails and displays the missing data to aid you in fixing the error.
 
-**Parent Topic:**[Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md)
+**Parent Topic:**[Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md)
 
 **Related topics**  
 
 
-[Run transform to update supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-transform-supplier.md)
+[Run transform to update supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-transform-supplier.md)
 

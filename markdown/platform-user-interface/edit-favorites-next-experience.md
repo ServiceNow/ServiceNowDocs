@@ -2,7 +2,7 @@
 title: Edit favorites in Next Experience
 description: Keep your Next Experience Favorites menu updated by editing the names and icons of favorites, reordering favorites, moving them into groups, or deleting favorites you no longer need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/edit-favorites-next-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/edit-favorites-next-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

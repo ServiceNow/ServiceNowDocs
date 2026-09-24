@@ -2,7 +2,7 @@
 title: XMLStreamingBuilder - Scoped
 description: Creates a builder object to build a large XML payload for use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as an XML string for a non-streaming option.Instantiates the XMLStreamingBuilder object.Returns an XMLStreamingAPI object.Sets a time when the attachment expires. Must also call the withAttachment\(\) method. Creates an XML document as an attachment and stores it in the Streaming Attachments \[streaming\_attachment\] table. If you don't call this method, the API creates the XML document as a string.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -140,7 +140,7 @@ Output:
 </phoneNumber>
 ```
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## XMLStreamingBuilder - XMLStreamingBuilder\(\)
 
@@ -227,7 +227,7 @@ expiresAt
 
 </td><td>
 
-[GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
+[GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
 
 </td><td>
 

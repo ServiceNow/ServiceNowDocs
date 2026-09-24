@@ -2,7 +2,7 @@
 title: Employee Readiness Core Approval Portal
 description: The Employee Readiness Core Approval Portal enables you to approve or deny submitted COVID-19 vaccine doses, vaccine exemptions, and health tests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/employee-readiness-core-approval-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-readiness-core/employee-readiness-core-approval-portal.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -22,8 +22,8 @@ The Approval Portal is included with Employee Readiness Core. To use the Approva
 
 **Note:** Both applications must be installed, but your organization does not have to use both applications.
 
--   For more information on installing Health and Safety Testing, see [Install Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/install-health-testing.md).
--   For more information on installing Vaccination Status, see [Install Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/install-vaccination-status.md).
+-   For more information on installing Health and Safety Testing, see [Install Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-testing/install-health-testing.md).
+-   For more information on installing Vaccination Status, see [Install Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/install-vaccination-status.md).
 
 ## Using the Approval Portal
 
@@ -39,9 +39,9 @@ Each property provides managers access to the Approval Portal, however, managers
 
 You can perform the following tasks on the Approval Portal:
 
--   View and approve or deny COVID-19 health test results. For more information, see [Confirm COVID-19 test results for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/confirm-health-test-result.md).
--   View and approve or deny an employee's vaccination status and dose details. For more information, see [Confirm the reported vaccination status for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/confirm-vaccine-response.md).
--   View and approve or deny employee vaccination exemption requests. For more information, see [Confirm a vaccine exemption request for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/confirm-vaccine-exemption-request.md).
+-   View and approve or deny COVID-19 health test results. For more information, see [Confirm COVID-19 test results for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-testing/confirm-health-test-result.md).
+-   View and approve or deny an employee's vaccination status and dose details. For more information, see [Confirm the reported vaccination status for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/confirm-vaccine-response.md).
+-   View and approve or deny employee vaccination exemption requests. For more information, see [Confirm a vaccine exemption request for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/confirm-vaccine-exemption-request.md).
 -   Review attachments and documentation submitted with the user's responses and requests. Supported documents open in the document viewer. For more information on supported formats, see [Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/Documentviewer.md).
 -   Review and add work notes to the records.
 
@@ -55,5 +55,5 @@ The Employee readiness approvals page provides employee vaccine and health recor
 |Approved|Lists all approved vaccine responses, exemption requests, and health tests.|
 |Denied|Lists all denied vaccine responses, exemption requests, and health tests.|
 
-**Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-readiness-core.md)
+**Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/employee-readiness-core.md)
 

@@ -2,7 +2,7 @@
 title: Add Boolean fields within a mobile filter
 description: Add Boolean fields, such as 'Active: Yes / No', within mobile filters, so users can more easily search for specific data and streamline their results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/list-filter-boolean.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/list-filter-boolean.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

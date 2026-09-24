@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: Use the ServiceNow Otto for Integrated Risk Management \(IRM\) plugin to summarize issue records, identify potential risks, and review controls using generative AI. It helps you quickly understand the context of records, reduce manual effort, and make faster, more informed decisions by delivering relevant insights directly within your existing workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/now-assist-for-irm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/now-assist-for-irm.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -21,15 +21,15 @@ Use the ServiceNow Otto for Integrated Risk Management \(IRM\) plugin to summari
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/exploring-now-assist-for-irm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/exploring-now-assist-for-irm.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Integrated Risk Management \(IRM\) to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Integrated Risk Management \(IRM\) to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
 
 </td><td>
 
-[Use IRM generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
+[Use IRM generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
 
 </td></tr><tr><td>
 
@@ -37,7 +37,7 @@ Use the ServiceNow Otto for Integrated Risk Management \(IRM\) plugin to summari
 
 </td><td>
 
-[Use agentic AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use AI agents in ServiceNow Otto for Integrated Risk Management \(IRM\) to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.md)
+[Use agentic AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use AI agents in ServiceNow Otto for Integrated Risk Management \(IRM\) to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Features of Engagement Messenger
 description: Understand what the Engagement Messenger application can provide to your customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/features-of-engagement-messenger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/features-of-engagement-messenger.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -46,7 +46,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
     -   You must configure AI Search in your ServiceNow instance and then enable Typeahead Search and AI Search Assist widgets so that the unauthenticated users can use the AI search feature from Engagement Messenger.
 
-        For more information on enabling Typeahead Search and AI Search Assist widgets for Engagement Messenger, see [Enabling AI search in the Customer and Consumer Service Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_csp_guestuser.md).
+        For more information on enabling Typeahead Search and AI Search Assist widgets for Engagement Messenger, see [Enabling AI search in the Customer and Consumer Service Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_csp_guestuser.md).
 
         For more information of AI Search configuration, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md).
 
@@ -76,7 +76,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
     All technician requests are stored as work orders in your ServiceNow instance so that they can be tracked to completion.
 
-    The Work Order will have the location where the customer has raised a request. Geo-location services must be enabled for the technicians so that customers can track the live location and know the estimated time of arrival \(ETA\) of their technician. For more information, see [Field service feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/field-service-feature-configuration.md).
+    The Work Order will have the location where the customer has raised a request. Geo-location services must be enabled for the technicians so that customers can track the live location and know the estimated time of arrival \(ETA\) of their technician. For more information, see [Field service feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/field-service-feature-configuration.md).
 
     **Note:**
 
@@ -183,18 +183,18 @@ After you create and configure the Engagement Messenger module, you can customiz
     According to the configuration of Engagement Messenger behavior, the count of the updates is displayed on the messenger widget on your customer support webpage. If the customer navigates away from your website, the count of updates is also displayed on the browser tab.
 
 
-To learn how to start configuring Engagement Messenger for your third-party website, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
+To learn how to start configuring Engagement Messenger for your third-party website, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
 
 **Related topics**  
 
 
 [Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/explore-ais.md)
 
-[Case management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-management.md)
+[Case management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-management.md)
 
 [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md)
 
-[Using Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-walkup-experiencce.md)
+[Using Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-walkup-experiencce.md)
 
 [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management.md)
 

@@ -2,7 +2,7 @@
 title: Override metric data task response
 description: As a metrics administrator, if the response provided for a quantitative or qualitative metric must be modified, you can edit the data and provide a justification for the modification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/override-mdt-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/override-mdt-response.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ Role required: admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-grc-metrics.md)
 

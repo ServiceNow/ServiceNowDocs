@@ -2,7 +2,7 @@
 title: Register the standard push notification
 description: Register your standard push notification in a push application to use it in your mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-notif-register.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-notif-register.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,8 +43,8 @@ The push application handles sending notifications to mobile devices. Add your n
 
 8.  Click **Submit**.
 
-    Your push message is rendered on mobile devices that it is registered to. To see how push notifications appear to end users, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md).
+    Your push message is rendered on mobile devices that it is registered to. To see how push notifications appear to end users, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-push-notifications.md).
 
 
-**Parent Topic:**[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-mobile-push-notifications.md)
 

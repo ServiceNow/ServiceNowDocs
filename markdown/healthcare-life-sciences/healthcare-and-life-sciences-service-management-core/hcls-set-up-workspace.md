@@ -2,7 +2,7 @@
 title: Set up Workspace for addressing healthcare-related requests
 description: Set up Healthcare Workspace to enable healthcare agents to view patient information and manage healthcare-related cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-set-up-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-set-up-workspace.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -26,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure patient information in Healthcare workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-patient-info.md).
+[Configure patient information in Healthcare workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-patient-info.md).
 
 </td><td>
 
@@ -34,7 +34,7 @@ Configure the Patient information related list inHealthcare workspace used by he
 
 </td></tr><tr><td>
 
-[Display patient information on a healthcare case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-enable-viewing-patient-info.md).
+[Display patient information on a healthcare case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-enable-viewing-patient-info.md).
 
 </td><td>
 

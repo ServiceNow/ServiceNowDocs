@@ -2,7 +2,7 @@
 title: Group similar issues under a new parent issue
 description: When you are creating an issue, you have the option of grouping the issue with other similar issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/group-similar-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/group-similar-issues.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -101,5 +101,5 @@ This field displays only if you selected **Create a new group**. Select the user
 8.  You can view the issue in the group by clicking the **Issues** tab.
 
 
-**Parent Topic:**[Manually create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnIssue.md)
+**Parent Topic:**[Manually create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/t_CreateAnIssue.md)
 

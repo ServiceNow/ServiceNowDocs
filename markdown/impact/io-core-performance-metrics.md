@@ -2,7 +2,7 @@
 title: Transaction or response metrics
 description: The metrics provide a performance snapshot of classic UI transactions within the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-core-performance-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-core-performance-metrics.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-13"
@@ -71,7 +71,7 @@ It gives a perspective of what is the biggest contributor for the total response
 -   The network time is high, then transaction components and how much data is being streamed must be reviewed. Recommendation is to keep lightweight transactions with optimal data stream.
 -   The browser time is high, then client side scripts/components must be reviewed.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

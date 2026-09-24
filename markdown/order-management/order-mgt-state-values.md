@@ -2,7 +2,7 @@
 title: Customer order states
 description: Use the State fields on the customer order management forms to determine the current processing state for the customer order and to perform certain types of customer order actions, such as canceling a customer order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-state-values.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-state-values.html
 release: australia
 topic_type: reference
 last_updated: "2025-10-10"
@@ -16,7 +16,7 @@ Use the State fields on the customer order management forms to determine the cur
 
 ## Customer Order form states
 
-Use the **State** field on the customer order form to determine the current processing state for the order, including all of its associated line items. You can also use it to perform certain types of order actions, such as canceling an order. To learn more, see [Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md). The following flowchart illustrates how customer and service order state processing works.
+Use the **State** field on the customer order form to determine the current processing state for the order, including all of its associated line items. You can also use it to perform certain types of order actions, such as canceling an order. To learn more, see [Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/managing-orders.md). The following flowchart illustrates how customer and service order state processing works.
 
 \[Omitted image "add-order-states.svg"\] Alt text: Infographic showing the customer order processing workflow. For the text description, refer to the Customer Order states section.
 
@@ -396,7 +396,7 @@ Product, service, or resource order that is in the process of being cancelled.
 </td></tr></tbody>
 </table>## Order Task form states
 
-Use the **State** field on the Order Task form to determine the processing state for an order task. To learn more, see [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-tasks.md).
+Use the **State** field on the Order Task form to determine the processing state for an order task. To learn more, see [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-customer-order-tasks.md).
 
 <table id="table_c4f_154_v4b"><thead><tr><th>
 
@@ -479,5 +479,5 @@ Draft
 Order task that is still in the capture stage or the manual entry of the order task is not complete.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-reference.md)
 

@@ -2,7 +2,7 @@
 title: Components installed with application services
 description: Several types of components are installed with activation of the Application Service \[com.snc.cmdb.it\_service\] plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -240,7 +240,7 @@ The sys\_id of the default relation type to be added between source and target w
 
 -   Type: string
 -   Default value: 5599a965c0a8010e00da3b58b113d70e \(Depends on::Used by\)
--   Learn more: [Manually add CIs to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manually-add-ci-to-business-service.md)
+-   Learn more: [Manually add CIs to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/manually-add-ci-to-business-service.md)
 
 </td></tr><tr><td>
 
@@ -446,7 +446,7 @@ sa.service.population.stop\_expansion\_under\_ci\_classes
 
 </td><td>
 
-List of application service CI classes. If an application service belongs to a CI class that extends one of the CI classes in the list, the system does not insert CIs under this application service CI during [Manually updating an application service with changes from the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/update-services-from-cmdb.md).-   Type: string
+List of application service CI classes. If an application service belongs to a CI class that extends one of the CI classes in the list, the system does not insert CIs under this application service CI during [Manually updating an application service with changes from the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/update-services-from-cmdb.md).-   Type: string
 -   Default value: cmdb\_ci\_service\_discovered
 -   Location: System Property \[sys\_properties\] table.
 

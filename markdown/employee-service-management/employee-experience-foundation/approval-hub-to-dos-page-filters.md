@@ -2,7 +2,7 @@
 title: Enable task configuration for approvals
 description: Provide the approvers with more in-context information about the approval requests for informed and prioritized approval workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -369,7 +369,7 @@ Comma-separated list of tab widget parameters.
 </td></tr></tbody>
 </table>7.  Click **Actions** to search and select the required action group.
 
-    Select the **Approvals action group** to display the frequently used actions such as **Approve** or **Reject**. For more information, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md).
+    Select the **Approvals action group** to display the frequently used actions such as **Approve** or **Reject**. For more information, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/action-group-framework.md).
 
 8.  Add **Comments** in a custom widget to show comments.
 
@@ -382,11 +382,11 @@ Comma-separated list of tab widget parameters.
 
 ## Result
 
-Based on this configuration, the approvers see the in-context important information about the approval and complete the approval. For more reference info, see [Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-ootb.md).
+Based on this configuration, the approvers see the in-context important information about the approval and complete the approval. For more reference info, see [Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-ootb.md).
 
 **Note:** A user must have the approval\_user or business\_stakeholder role to approve IT requests \(not applicable to other requests such as HR approvals\) on Employee Centre. Role validation has not been implemented in Core UI16 because modifying ACLs in UI16 might have broader implications at the NowPlatform level.
 
-Use the out-of-the-box **Approvals action group** to display the actions such as **Approve** and **Reject**. For more information, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md).
+Use the out-of-the-box **Approvals action group** to display the actions such as **Approve** and **Reject**. For more information, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/action-group-framework.md).
 
 **Note:** For actions to appear in the my items widget, you can add the OOTB **Approvals action group** from **All** &gt; **Employee Center** &gt; **Administration** &gt; **To-dos Configurations**, click an existing to-dos configuration, navigate to the **To-do Configuration Details** record, and use the OOTB **Approvals action group** under **Fields Mapping**.
 
@@ -395,9 +395,9 @@ Use the out-of-the-box **Approvals action group** to display the actions such as
 **Related topics**  
 
 
-[Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md)
+[Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md)
 
-[Approvals in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approvals-mesp-ec.md)
+[Approvals in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approvals-mesp-ec.md)
 
-[Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md)
+[Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/action-group-framework.md)
 

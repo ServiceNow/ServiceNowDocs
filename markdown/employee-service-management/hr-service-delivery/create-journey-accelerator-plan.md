@@ -2,7 +2,7 @@
 title: Open an HR case to create a Journey Accelerator action plan
 description: Journey Accelerator action plans can be created by opening an HR case with a related lifecycle event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-journey-accelerator-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/create-journey-accelerator-plan.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -49,10 +49,10 @@ When the template is not configured to automatically create Journey Accelerator 
     A to-do task is created in the managers to-do list in the Employee Center. Managers review and publish plans from the Employee Center.
 
 
-**Parent Topic:**[Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/search-hr-case.md)
+**Parent Topic:**[Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/search-hr-case.md)
 
 **Related topics**  
 
 
-[Working with Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)
+[Working with Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)
 

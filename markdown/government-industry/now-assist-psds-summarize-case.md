@@ -2,7 +2,7 @@
 title: Summarize a government case using ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Use the case summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\) to generate a summary from selected case record fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-summarize-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-summarize-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

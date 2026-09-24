@@ -2,7 +2,7 @@
 title: Source-to-Pay Operations workspace
 description: The Source-to-Pay Workspace is the central workspace for managing all Source-to-Pay Operations products and activities, including procurement, supplier lifecycle management, and accounts payable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/exploring-source-to-pay-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/exploring-source-to-pay-operations.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -26,12 +26,12 @@ The Source-to-Pay Operations \(S2P\) product suite includes the following produc
 
 Regardless of whether you have installed the entire Source-to-Pay \(S2P\) product suite or any of the individual products that are part of the S2P suite, you use the Source-to-Pay Workspace to manage and work on all aspects and activities of Source-to-Pay Operations. Access to the landing pages and list views within the Source-to-Pay Workspace is role-based.
 
--   **[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)**  
+-   **[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)**  
 Depending on the product that you have installed and the role you're assigned, the landing page for each product is displayed in a separate tab under the **Source-to-pay** header. The product tabs that appear are named after each installed product.
--   **[Source-to-Pay Workspace list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-list-page.md)**  
+-   **[Source-to-Pay Workspace list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-list-page.md)**  
 The Source-to-Pay Workspace list page enables you to see high-level information for all records in a list filter.
 
-**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.md)
+**Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.md)
 
 **Related topics**  
 

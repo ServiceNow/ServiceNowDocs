@@ -2,12 +2,12 @@
 title: Install ServiceNow Otto for Customer Service Management \(CSM\)
 description: Install required plugins and enable ServiceNow Otto for Customer Service Management \(CSM\) to configure and use generative AI skills in Configurable Workspace and Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/activate-now-assist-for-customer-service-management-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/activate-now-assist-for-customer-service-management-csm.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -24,9 +24,9 @@ Role required: Admin
 
 To get started with AI generated skills, you must install at least one AI generated application on your instance. The AI Admin Hub can guide your implementation, starting with installation.
 
-For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md).
+For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md).
 
-For information about CRM Workspace, see [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md). For information about AI agents, see [Install AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+For information about CRM Workspace, see [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md). For information about AI agents, see [Install AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
 To access AI agents in the ServiceNow Otto panel, you must [turn on the panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) and confirm that the case summarization is active on the instance.
 

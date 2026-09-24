@@ -2,7 +2,7 @@
 title: Export a blueprint
 description: Download a blueprint as a ZIP file to move it between instances or create a backup copy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-export-a-blueprint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-export-a-blueprint.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,10 +39,10 @@ Role required: admin
 
 ## What to do next
 
-[Import a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-import-a-blueprint.md)
+[Import a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-import-a-blueprint.md)
 
 **Related topics**  
 
 
-[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-env-to-env-bp-migration-intro.md)
+[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-env-to-env-bp-migration-intro.md)
 

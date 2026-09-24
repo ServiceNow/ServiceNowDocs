@@ -2,7 +2,7 @@
 title: Edit a growth conversation series in Career Conversations
 description: Edit a growth conversation series to add any details that you have missed out while creating the conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/career-conversations/edit-conversations-series.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/career-conversations/edit-conversations-series.html
 release: australia
 product: Career Conversations
 classification: career-conversations
@@ -18,7 +18,7 @@ Edit a growth conversation series to add any details that you have missed out wh
 
 ## Before you begin
 
-You must have a growth conversation created in order to edit it, see [Create a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-create-growth-conversation.md)
+You must have a growth conversation created in order to edit it, see [Create a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/career-conversations/egd-create-growth-conversation.md)
 
 Role required: employee \[sn\_egd\_act.employee\] or manager \[sn\_egd\_act.manager\]
 
@@ -35,15 +35,15 @@ Role required: employee \[sn\_egd\_act.employee\] or manager \[sn\_egd\_act.mana
 
 3.  Use the widget that corresponds to your role within your organization to select the conversation that you want to update.
 
-<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d328111e150">
+<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d328115e150">
 
 Role
 
-</th><th align="left" id="d328111e153">
+</th><th align="left" id="d328115e153">
 
 Widget
 
-</th></tr></thead><tbody><tr><td id="d328111e159">
+</th></tr></thead><tbody><tr><td id="d328115e159">
 
 **Employee**
 
@@ -51,7 +51,7 @@ Widget
 
 Your conversations
 
-</td></tr><tr><td id="d328111e168">
+</td></tr><tr><td id="d328115e168">
 
 **Manager**
 
@@ -79,5 +79,5 @@ Your conversations
 6.  Select **Save**.
 
 
-**Parent Topic:**[Using the Career Conversations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-activities-use.md)
+**Parent Topic:**[Using the Career Conversations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/career-conversations/egd-activities-use.md)
 

@@ -2,7 +2,7 @@
 title: Components installed with Pre-Visit Management
 description: Several types of components are installed with installation of the Pre-Visit Management application, including tables, user roles, ServiceNow Store applications, scheduled jobs, and business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-components-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pre-visit-components-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -82,7 +82,7 @@ sn\_previsit.agent\_connector
 
 Views, creates, and updates procedure request cases for all associated objects.
 
- You can combine this role with other roles for a user with the agent connector profile. For more information, see [Determining additional user profiles in Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-connector-contributor.md).
+ You can combine this role with other roles for a user with the agent connector profile. For more information, see [Determining additional user profiles in Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-connector-contributor.md).
 
 </td><td>
 
@@ -109,7 +109,7 @@ sn\_previsit.contributor
 
 Creates procedure request cases for patients.
 
- You can combine this role with other roles for a user with the contributor profile. For more information, see [Determining additional user profiles in Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-connector-contributor.md).
+ You can combine this role with other roles for a user with the contributor profile. For more information, see [Determining additional user profiles in Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-connector-contributor.md).
 
 </td><td>
 

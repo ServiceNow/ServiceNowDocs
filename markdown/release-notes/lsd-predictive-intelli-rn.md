@@ -2,7 +2,7 @@
 title: Predictive intelligence for Legal Service Delivery release notes
 description: The ServiceNow Predictive Intelligence for Legal Service Delivery uses machine-learning algorithms for predicting subcategory and assignment groups for legal requests. This application is currently supported for the Australia release, but it will be deprecated in a future release.The ServiceNow Predictive Intelligence for Legal Service Delivery uses machine-learning algorithms for predicting subcategory and assignment groups for legal requests. This application is currently supported for the Australia release, but it will be deprecated in a future release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/lsd-predictive-intelli-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/lsd-predictive-intelli-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The ServiceNow® Predictive Intelligence for Legal Service Delivery uses machine
 
 ## Activation and other requirements
 
-**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/lsd-rn-landing-page.md)
+**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/lsd-rn-landing-page.md)
 
 ## Australia
 

@@ -2,7 +2,7 @@
 title: ClusteringSolutionStore - Global
 description: Enables storing and retrieving solutions.Adds a new solution object to the store and returns a unique name. Removes a specified solution object from the store.Gets a solution object from the store.Gets the names of all solution definition records in the store.Replaces an existing object in the store with the object passed as a parameter. The object name provided must be empty or match.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ClusteringSolutionStoreAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/ClusteringSolutionStoreAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ Enables storing and retrieving solutions.
 
 The ClusteringSolutionStore API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## ClusteringSolutionStore - add\(Object mlSolution\)
 
@@ -28,13 +28,13 @@ Adds a new solution object to the store and returns a unique name.
 
 |Name|Type|Description|
 |----|----|-----------|
-|mlSolution|[ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)|[ClusteringSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) object to add to the store.|
+|mlSolution|[ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md)|[ClusteringSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) object to add to the store.|
 
 |Type|Description|
 |----|-----------|
 |String|System-generated solution name.|
 
-The following example shows how to add a solution to the store. Use [ClusteringSolution - submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) to run the training job after adding it to the store.
+The following example shows how to add a solution to the store. Use [ClusteringSolution - submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) to run the training job after adding it to the store.
 
 ```
 // Create a dataset 
@@ -66,7 +66,7 @@ Removes a specified solution object from the store.
 
 |Name|Type|Description|
 |----|----|-----------|
-|name|String|Name of the [ClusteringSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) object to be deleted.|
+|name|String|Name of the [ClusteringSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) object to be deleted.|
 
 |Type|Description|
 |----|-----------|
@@ -88,9 +88,9 @@ Gets a solution object from the store.
 
 |Type|Description|
 |----|-----------|
-|Object|[ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) object. Returns an error if the object does not exist.|
+|Object|[ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) object. Returns an error if the object does not exist.|
 
-The following example shows how to get a solution object from the store using the get\(\) method and view its training status using the [ClusteringSolution - getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) and [ClusteringSolutionVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionVersionAPI.md) methods.
+The following example shows how to get a solution object from the store using the get\(\) method and view its training status using the [ClusteringSolution - getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) and [ClusteringSolutionVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionVersionAPI.md) methods.
 
 ```
 // Get status
@@ -226,7 +226,7 @@ Replaces an existing object in the store with the object passed as a parameter. 
 |Name|Type|Description|
 |----|----|-----------|
 |name|String|Name of the solution to update.|
-|mlSolution|[ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)|[ClusteringSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) object properties to update.|
+|mlSolution|[ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md)|[ClusteringSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) object properties to update.|
 
 |Type|Description|
 |----|-----------|

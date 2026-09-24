@@ -2,7 +2,7 @@
 title: Customize your table map configuration
 description: Configure table maps between tasks, iterations, and work areas of Azure DevOps and tables in Agile Development 2.0 and configure its fields for Azure DevOps projects of a process type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/customize-table-map-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/microsoft-azure-devops-integrations-comm/customize-table-map-config.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -18,7 +18,7 @@ Configure table maps between tasks, iterations, and work areas of Azure DevOps a
 
 ## Before you begin
 
--   [Discover and import Azure DevOps projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/discover-import-azure-projects.md).
+-   [Discover and import Azure DevOps projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/discover-import-azure-projects.md).
 -   Role required: sn\_ado\_int.user
 
 ## Procedure
@@ -47,7 +47,7 @@ Configure table maps between tasks, iterations, and work areas of Azure DevOps a
     |---------------------|--------------------------|
     |Title of the work item|Short description|
 
-    For information on how to configure field mapping for a table, see [Customize your field map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/custom-field-map-config-azure-agile.md). You can also create other field maps for your new table configuration.
+    For information on how to configure field mapping for a table, see [Customize your field map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/custom-field-map-config-azure-agile.md). You can also create other field maps for your new table configuration.
 
 
 ## What to do next
@@ -56,7 +56,7 @@ Configure table maps between tasks, iterations, and work areas of Azure DevOps a
 2.  In the Table maps related list, if the Valid column of your configuration shows:
     -   true, validation of your map configuration is successful.
     -   false, validation of your map configuration failed. Ensure that you enter correct values for all fields and validate again.
-3.  Create a business rule to support export of this new table map configuration to Azure DevOps. For more information, see [Apply a custom table map using a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/create-business-rule-to-apply-custom-table-map.md).
+3.  Create a business rule to support export of this new table map configuration to Azure DevOps. For more information, see [Apply a custom table map using a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/create-business-rule-to-apply-custom-table-map.md).
 
-**Parent Topic:**[Customizing your map configuration for Microsoft Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
+**Parent Topic:**[Customizing your map configuration for Microsoft Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
 

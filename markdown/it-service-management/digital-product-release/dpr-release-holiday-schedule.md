@@ -2,7 +2,7 @@
 title: Holiday schedules in a release
 description: You can associate a holiday schedule with a release so that the phase and release durations are calculated considering non-working days.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-release-holiday-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-release-holiday-schedule.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -452,5 +452,5 @@ Non-Working Days
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
+**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 

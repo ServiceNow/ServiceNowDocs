@@ -2,7 +2,7 @@
 title: HL7 v2.x Integration release notes
 description: The ServiceNow HL7 v2.x Integration application works alongside the HL7 v2.x Inbound REST API to provide a standards-compliant endpoint for receiving HL7 v2.x messages from integration engines, a configurable parser for converting raw messages into structured workflow data, and out-of-the-box support for common ADT message types. HL7 v2.x Integration is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/hl7-release-notes-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/hl7-release-notes-rn.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-11"
@@ -24,7 +24,7 @@ The ServiceNow® HL7 v2.x Integration application works alongside the HL7 v2.x I
 
 ## HL7 v2.x Integration features
 
--   **[HL7 v2.x Inbound REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/hl7-inbound-api.md)**
+-   **HL7 v2.x Inbound REST API**
 
     The HL7 v2.x Inbound REST API receives inbound HL7 v2.x ADT messages from EHR systems over HTTP and returns standard HL7 v2.x acknowledgment responses. It implements the HAPI HL7-over-HTTP convention, accepting raw pipe-delimited ER7 message bodies and processing them against configured parser profiles.
 
@@ -65,5 +65,5 @@ HL7 v2.x Integration is distributed as a separate application through the Servic
     Provides the core Healthcare and Life Sciences data model and service management framework that HL7 v2.x Integration extends. Parsed HL7 v2.x message data can trigger and update healthcare service records within the Healthcare and Life Sciences Service Management platform.
 
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 

@@ -2,7 +2,7 @@
 title: Configure a table-specific stop word
 description: You can configure stop words for a specific table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_ConfigureATableSpecificStopWord.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/t\_ConfigureATableSpecificStopWord.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -39,7 +39,7 @@ Role required: ts\_admin or admin
     \[Omitted image "TableSpecificStopWords.png"\] Alt text: Notification to regenerate table's text index after removing a table-specific stop word.
 
 
-**Parent Topic:**[Zing removes stop words from queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/stop-words-removed-from-queries.md)
+**Parent Topic:**[Zing removes stop words from queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/stop-words-removed-from-queries.md)
 
 **Related topics**  
 

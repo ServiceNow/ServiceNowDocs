@@ -2,7 +2,7 @@
 title: Generate a test using Test generation
 description: Simplify and automate your testing process with Test generation. Describe your desired test, and ServiceNow Otto empowered Test generation application automatically generates the necessary tests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/tg-implement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-generation/tg-implement.html
 release: australia
 product: Test Generation
 classification: test-generation
@@ -47,7 +47,7 @@ Role required: admin or now.assist.creator
 
         \[Omitted image "ta-ba-install.png"\] Alt text: Screenshot showing the banner message
 
-        See [Create new test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-tut-build-first.md) for more information.
+        See [Create new test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-tut-build-first.md) for more information.
 
     -   Troubleshoot ATF test failures.
     -   Use Test Agent, an extension to building or editing apps with Build Agent, to generate ATF tests for newly built or edited functionality, run those tests, and troubleshoot failures directly within the ServiceNow IDE or ServiceNow Studio context.
@@ -74,7 +74,7 @@ Role required: admin or now.assist.creator
     When a test fails, the Test Agent automatically starts the troubleshooting process. It identifies the step where the failure occurred and analyzes the root cause. The Test Agent then recommends possible fixes. After you select a recommended option, the Test Agent applies the fix, updates the test code, and reruns the test automatically. When the test passes, it provides a summary of the changes made to resolve the failure.
 
 
-**Parent Topic:**[Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-use.md)
+**Parent Topic:**[Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-use.md)
 
 **Related topics**  
 

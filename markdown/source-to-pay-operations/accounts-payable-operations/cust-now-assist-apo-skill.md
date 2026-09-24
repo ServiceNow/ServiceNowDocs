@@ -2,7 +2,7 @@
 title: Customize ServiceNow Otto for Accounts Payable Operations \(APO\) skill
 description: Customize a ServiceNow Otto skill as an admin to configure how AP fulfillers use generative AI capabilities in the Source-to-Pay Workspace and Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-skill.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

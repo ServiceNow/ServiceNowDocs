@@ -2,7 +2,7 @@
 title: Client ID Metadata Document \(CIMD\) client integration
 description: CIMD lets the ServiceNow AI Platform accept an external OAuth client that identifies itself with an HTTPS metadata-document URL instead of a pre-issued client ID and secret.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/cimd-inbound.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/cimd-inbound.html
 release: australia
 product: Authentication
 classification: authentication

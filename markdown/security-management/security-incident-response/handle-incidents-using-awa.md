@@ -2,7 +2,7 @@
 title: Handle security incidents using Advanced Work Assignment
 description: Handle security incidents assigned to you in SIR Workspace using Advanced Work Assignment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/handle-incidents-using-awa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/handle-incidents-using-awa.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,7 +46,7 @@ Role required: sn\_si.analyst and awa\_agent
 
     -   Reject the incident by selecting **Reject** and select a reason for the rejection.
 
-**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 

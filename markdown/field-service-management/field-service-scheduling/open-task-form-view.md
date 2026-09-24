@@ -2,7 +2,7 @@
 title: Open tasks from the form
 description: Quickly open tasks from the form and see them in Dispatcher Workspace to act on them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/open-task-form-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/open-task-form-view.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

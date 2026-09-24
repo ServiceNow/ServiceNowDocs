@@ -2,7 +2,7 @@
 title: Manage your ART backlog from the SAFe Board
 description: Prioritize and manage features in your agile release train \(ART\) backlog. The ART backlog lists only the active features that are not assigned to any program increment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/plan-program-backlog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/plan-program-backlog.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -64,12 +64,12 @@ On the SAFe Board, you can perform various actions to manage your backlog, such 
 
     3.  On the SAFe Epic form, fill in the fields and submit the form.
 
-        For more details, see [Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md).
+        For more details, see [Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md).
 
 8.  To arrange features within a Backlog page, use one of the following options.
 
     -   Use the mouse device to select and hold a feature, drag it to the required position, and drop it.
-    -   Use the keyboard. For more information, see [Arrange a feature in the SAFe backlog page using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/arrange-safe-features-using-keyboard.md).
+    -   Use the keyboard. For more information, see [Arrange a feature in the SAFe backlog page using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/arrange-safe-features-using-keyboard.md).
 9.  To personalize the columns in a list, select the Personalize icon.
 
 10. Perform various actions on a single feature or set of features.
@@ -92,10 +92,10 @@ On the SAFe Board, you can perform various actions to manage your backlog, such 
 11. To view records in a standard list, select the standard list icon \(\[Omitted image "viewstandardlist.png"\] Alt text: Standard list icon.\).
 
 
--   **[Arrange a feature in the SAFe backlog page using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/arrange-safe-features-using-keyboard.md)**  
+-   **[Arrange a feature in the SAFe backlog page using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/arrange-safe-features-using-keyboard.md)**  
 Use the keyboard to move and arrange SAFe features in the **Backlog** tab of the SAFe Board.
--   **[Arrange multiple features in the SAFe Board using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/arrange-multiple-features-in-the-safe-board-using-the-keyboard-.md)**  
+-   **[Arrange multiple features in the SAFe Board using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/arrange-multiple-features-in-the-safe-board-using-the-keyboard-.md)**  
 Use the keyboard to move and arrange multiple SAFe features in the **Backlog** tab of your SAFe Board.
 
-**Parent Topic:**[SAFe Board — ART level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/program-level-tabs.md)
+**Parent Topic:**[SAFe Board — ART level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/program-level-tabs.md)
 

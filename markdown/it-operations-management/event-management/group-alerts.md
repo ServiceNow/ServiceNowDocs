@@ -2,7 +2,7 @@
 title: Alert group automations
 description: Configure grouping rules to automatically consolidate related alerts into single actionable items for more efficient incident management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/group-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/group-alerts.html
 release: australia
 product: Event Management
 classification: event-management
@@ -49,7 +49,7 @@ Alert grouping rules automatically combine related alerts that represent the sam
 
     \[Omitted image "ai-specialist-group-now-assist-chatbot.png"\] Alt text: ServiceNow Otto chatbot to help you automatically create a group automation.
 
-    For more information on group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
+    For more information on group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/group-alert-sow-itom.md).
 
 5.  To complete the setup, select **Mark as configured**.
 

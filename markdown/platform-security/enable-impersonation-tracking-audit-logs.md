@@ -2,7 +2,7 @@
 title: Enable impersonation tracking in audit logs
 description: Track users who perform actions through impersonation in audit logs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/enable-impersonation-tracking-audit-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/enable-impersonation-tracking-audit-logs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

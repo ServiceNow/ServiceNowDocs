@@ -2,7 +2,7 @@
 title: Operational Technology \(OT\) extension classes
 description: The CMDB CI Class Models app adds or updates classes for Operational Technology \(OT\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.html
 release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -53,7 +53,7 @@ You can use the added classes as any other CMDB class. Products and applications
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models app adds or updates. See the class columns table for further details about the columns added for each class. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models app adds or updates. See the class columns table for further details about the columns added for each class. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 CMDB CI Class Models: Release 1.69.0 adds the following classes for OT.
 
@@ -451,8 +451,8 @@ For more information, see [Operational Technology Backup Management data model](
 Use the following key references when creating Operational Technology \(OT\) records:
 
 -   When creating computer or server records for OT Devices that are running on computers or servers, see the following topics:
-    -   [Computer \[cmdb\_ci\_computer\] class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/class-computer.md)
-    -   [Server \[cmdb\_ci\_server\] class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/class-server.md)
+    -   [Computer \[cmdb\_ci\_computer\] class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/class-computer.md)
+    -   [Server \[cmdb\_ci\_server\] class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/class-server.md)
 -   The Manufacturer and Model ID attributes are reference attributes to the Company \[core\_company\] and Product Model \[cmdb\_model\] tables respectively.
 -   The Owned By, Assigned To, Managed By, and Supported By attributes are reference attributes to the User \[sys\_user\] table. The Change Group and Support Group attributes are reference attributes to the Group \[sys\_user\_group\] table.
 
@@ -476,7 +476,7 @@ The ServiceNow AI Platform contains a predefined identification rule for the Ope
     -   If both Serial Number and Name aren't available, and only MAC Address is available, use MAC Address as the name of the CI. Using the MAC Address as the name of the CI helps to ensure that you don't create an empty CI.
 5.  Identifier entry that uses a product instance identifier \(PID\) on the CI.
 
-**Note:** To learn more, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
+**Note:** To learn more, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
 
 **Reclassifying IT devices on your OT network**
 
@@ -1006,7 +1006,7 @@ Tips:
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-The [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md) app adds class models that extend the CMDB class hierarchy, including:
+The [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md) app adds class models that extend the CMDB class hierarchy, including:
 
 -   Class descriptions
 -   Identification rules
@@ -1016,5 +1016,5 @@ The [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/Serv
 **Related topics**  
 
 
-[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

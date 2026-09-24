@@ -2,7 +2,7 @@
 title: Post-upgrade order migration for the Business Portal
 description: Migrate draft proxy order carts to the new sales cart to avoid having your customers lose products they added to their carts on the Business Portal
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/post-upgrade-task-business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/post-upgrade-task-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Migrate draft proxy order carts to the new sales cart to avoid having your custo
 
 ## Before you begin
 
-Ensure that the Sales Cart application has been installed. For more information, see [Install Sales Cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-sales-cart-plugin.md).
+Ensure that the Sales Cart application has been installed. For more information, see [Install Sales Cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-sales-cart-plugin.md).
 
 Role required: admin
 
@@ -50,7 +50,7 @@ A system update cleared your cart. Please contact your administrator for help.
 **Related topics**  
 
 
-[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-self-service-business-portal.md)
 
-[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-business-portal.md)
 

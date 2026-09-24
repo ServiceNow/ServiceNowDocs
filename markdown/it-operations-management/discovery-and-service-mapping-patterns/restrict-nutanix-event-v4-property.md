@@ -2,7 +2,7 @@
 title: Restrict Nutanix v4 event discovery to specific Prism Centrals
 description: Create a MID Server property to target specific Prism Central instances for Nutanix v4 event discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/restrict-nutanix-event-v4-property.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/restrict-nutanix-event-v4-property.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -74,14 +74,14 @@ MID Server to use for these Prism Central instances. Leave empty to use any MID 
 
 ## What to do next
 
-Enable the Nutanix event discovery scheduled job. For more information, see [Enable Nutanix event discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-nutanix-event-job.md).
+Enable the Nutanix event discovery scheduled job. For more information, see [Enable Nutanix event discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/enable-nutanix-event-job.md).
 
-**Parent Topic:**[Nutanix Acropolis discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
+**Parent Topic:**[Nutanix Acropolis discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
 
 **Related topics**  
 
 
-[Nutanix Acropolis discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
+[Nutanix Acropolis discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
 
-[Enable Nutanix event discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-nutanix-event-job.md)
+[Enable Nutanix event discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/enable-nutanix-event-job.md)
 

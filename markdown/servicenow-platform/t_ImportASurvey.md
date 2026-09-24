@@ -2,7 +2,7 @@
 title: Import a survey
 description: You can import a survey that has been exported as an XML file. The exported XML file does not contain result data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ImportASurvey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ImportASurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Role required: admin or survey\_admin
 2.  Follow the steps in [Import data from XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/import-xml-file.md) to import the assessment.
 
 
-**Parent Topic:**[Sharing surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyInportAndExport.md)
+**Parent Topic:**[Sharing surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyInportAndExport.md)
 

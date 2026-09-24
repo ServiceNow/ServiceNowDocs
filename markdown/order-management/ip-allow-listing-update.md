@@ -2,7 +2,7 @@
 title: IP allow-listing update
 description: To better support our growing needs and increase capacity, we have expanded the pool of outbound addresses used for requests from CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/ip-allow-listing-update.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/ip-allow-listing-update.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

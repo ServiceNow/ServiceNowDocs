@@ -2,7 +2,7 @@
 title: Configure an agentic workflow
 description: You can configure agentic workflows from the AI Agent Studio, but you must duplicate them to modify settings. The USEM AI agents included with the application and used in the agentic workflows are activated by default and aren't editable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-vr-acticvate-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/now-assist-vr-acticvate-agentic-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"

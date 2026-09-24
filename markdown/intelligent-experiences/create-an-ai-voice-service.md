@@ -2,7 +2,7 @@
 title: Create an AI voice assistant
 description: Create an AI voice assistant to enable natural, conversational voice interactions between users and AI voice agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-an-ai-voice-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-an-ai-voice-service.html
 release: australia
 topic_type: task
 last_updated: "2026-09-01"
@@ -87,7 +87,7 @@ Instructions that tell the assistant how to handle specific situations and topic
 
 4.  Add one or more AI voice agents to the voice assistant by selecting **Add from library** and select **Save and continue**.
 
-    **Note:** Adding AI agents is optional. If no AI agents are added, you can add them later by editing this assistant. The assistant will be inactive. Select **Add from library** to add an existing agent, or select **Create** to create a new one. See [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-voice-enabled-ai-agent.md) for more information.
+    **Note:** Adding AI agents is optional. If no AI agents are added, you can add them later by editing this assistant. The assistant will be inactive. Select **Add from library** to add an existing agent, or select **Create** to create a new one. See [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-voice-enabled-ai-agent.md) for more information.
 
 5.  Select language and voice persona.
 
@@ -186,13 +186,13 @@ Instructions that tell the assistant how to handle specific situations and topic
 
     1.  Select the **Telephony provider** tab to connect the voice assistant to a phone network.
 
-        Select a communication channel type from the **Communication channel** dropdown, then select a CCaaS provider and configure the required fields. For more information, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
+        Select a communication channel type from the **Communication channel** dropdown, then select a CCaaS provider and configure the required fields. For more information, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
 
     2.  Select the **Web Real-Time Communication \(WebRTC\)** tab to connect the voice assistant to mobile, web, and external applications.
 
-        Select **Mobile applications** to configure ServiceNow applications such as chat launcher functions, voice launcher functions, and prominent action button overrides. You can also configure external applications. For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
+        Select **Mobile applications** to configure ServiceNow applications such as chat launcher functions, voice launcher functions, and prominent action button overrides. You can also configure external applications. For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
 
-        Select **Web applications** to configure the voice call widget on your ServiceNow Portal or Engagement Messenger. For more information, see .
+        Select **Web applications** to configure the voice call widget on your ServiceNow Portal or Engagement Messenger. For more information, see [Use Voice call widget for portal communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-phone-widget.md).
 
     3.  Select **Save and continue**.
 
@@ -384,5 +384,5 @@ Voice or DTMF
 
 ## What to do next
 
-Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See [AI voice agent transcript and logs tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md) for information on the tables containing transcript and logs.
+Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See [AI voice agent transcript and logs tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md) for information on the tables containing transcript and logs.
 

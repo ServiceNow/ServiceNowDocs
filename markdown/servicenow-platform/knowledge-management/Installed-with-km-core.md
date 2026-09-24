@@ -2,7 +2,7 @@
 title: Components installed with Knowledge Management Core
 description: Several types of components are installed with activation of the Knowledge Management Core plugin \(com.glideapp.knowledge\) including user roles and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/Installed-with-km-core.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/Installed-with-km-core.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

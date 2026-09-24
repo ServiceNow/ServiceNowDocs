@@ -2,7 +2,7 @@
 title: Create a new state model attribute
 description: Create custom state model attributes to add specialized capabilities to workflow steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-new-state-model-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-new-state-model-attributes.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -82,5 +82,5 @@ Specifies which table this attribute applies to.**Note:** To configure the attri
 7.  Select **Submit** to save the attribute.
 
 
-**Parent Topic:**[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-create-state-model.md)
+**Parent Topic:**[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-create-state-model.md)
 

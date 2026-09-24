@@ -2,10 +2,10 @@
 title: Combined ServiceNow Otto for Retail Service Management \(RSM\) release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for Retail Service Management \(RSM\) from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforretailservicemanagementrsm-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoforretailservicemanagementrsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,9 @@ Zurich
 
 </td><td>
 
--   **[Store inquiry AI agent](https://www.servicenow.com/docs/access?context=agentic-workflows-now-assist-retail&family=zurich&ft:locale=en-US)**
+[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+
+ -   **[Store inquiry AI agent](https://www.servicenow.com/docs/access?context=agentic-workflows-now-assist-retail&family=zurich&ft:locale=en-US)**
 
 The store inquiry AI agent is an intelligent assistant designed to support retail store support agents in efficiently managing and resolving cases.
 
@@ -199,6 +201,8 @@ Zurich
 
 The ServiceNow Otto for RSM plugin is available with activation of com.sn.now.platform plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for RSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -362,5 +366,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

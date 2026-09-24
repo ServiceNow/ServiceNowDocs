@@ -2,7 +2,7 @@
 title: Mapping application services containing Oracle Tuxedo platform
 description: Service Mapping can discover application services containing Oracle Tuxedo platform and its components.Map an application service containing an Oracle Tuxedo platform and verify that Service Mapping discovered all Tuxedo components correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/mapping-services-tuxedo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/mapping-services-tuxedo.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -103,7 +103,7 @@ Horizontal and top-down
 Tuxedo Portal pattern
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
+</table>**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 
 ## Map application services containing Oracle Tuxedo platform
 
@@ -113,7 +113,7 @@ Map an application service containing an Oracle Tuxedo platform and verify that 
 
 -   On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
 -   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
--   \(If hosted on Unix\) Provide a user with the elevated rights for running commands described in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+-   \(If hosted on Unix\) Provide a user with the elevated rights for running commands described in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 Role required: service\_mapping\_admin
 
@@ -160,6 +160,6 @@ If the mapping result is not as you expected, perform basic troubleshooting.
 
 |Symptom|Cause|Solution|
 |-------|-----|--------|
-|Service Mapping fails to discover the Tuxedo CI. The discovery log displays the message that states that the credentials are insufficient for running the command including "permissions.tmadadmin -v".|The provided user does not have elevated permissions for running this command.|Make sure that you provided a user with permissions to run [commands requiring elevated rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).|
+|Service Mapping fails to discover the Tuxedo CI. The discovery log displays the message that states that the credentials are insufficient for running the command including "permissions.tmadadmin -v".|The provided user does not have elevated permissions for running this command.|Make sure that you provided a user with permissions to run [commands requiring elevated rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md).|
 |Service Mapping fails to discover the Tuxedo CI. The discovery log displays the message that states that the user cannot run the tux.env script.|The provided user does not have the permissions to run the tux.env script.|Make sure that you provided a user with permissions to run the tux.env script.|
 

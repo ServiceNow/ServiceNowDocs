@@ -2,7 +2,7 @@
 title: Add recovery tasks
 description: Add a recovery task as part of the planned recovery strategy. You can add one or more recovery tasks for a loss scenario and those recovery tasks are displayed in the loss scenario itself. Automate the recovery tasks in a plan for a faster recovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-a-recovery-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-a-recovery-task.html
 release: australia
 topic_type: task
 last_updated: "2026-04-29"
@@ -87,7 +87,7 @@ When you open **Add groups** or **Add tasks** from a list that is itself filtere
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-task-form.md).
+    For more information on the fields in the form, see [Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-recovery-task-form.md).
 
 5.  Assign a phase to the recovery task.
 
@@ -170,8 +170,8 @@ From the **Recovery tasks** tab toolbar, select one or more rows and use the **S
 
 \[Omitted image "qi-save-tasks.png"\] Alt text: Recovery tasks tab toolbar showing the Save as group dropdown expanded with Save tasks and Add to group options.
 
--   **[Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-task-form.md)**  
+-   **[Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-recovery-task-form.md)**  
 Use the Create Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

@@ -2,7 +2,7 @@
 title: Create an integration user account
 description: Create a dedicated integration user account and assign the required roles so that the Scan Engine can authenticate and communicate between your ServiceNow instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/task-create-integration-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/task-create-integration-user.html
 release: australia
 topic_type: task
 last_updated: "2026-05-21"
@@ -61,7 +61,7 @@ The integration user account exists in all required instances with the `sn_se.in
 
 ## What to do next
 
-Proceed to [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md)
+Proceed to [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md)
 
-**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-integration-scan-engine.md)
 

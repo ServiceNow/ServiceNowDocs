@@ -2,7 +2,7 @@
 title: Create a growth plan from discussions
 description: Create a growth plan based on your discussions or aspirations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-create-growth-plan-aspiration-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/egd-create-growth-plan-aspiration-type.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -55,5 +55,5 @@ The draft growth plan is created and will be shared with your manager once the p
 -   Review your progress.
 -   Continue to edit your growth plan.
 
-**Parent Topic:**[Using the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-use.md)
+**Parent Topic:**[Using the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-use.md)
 

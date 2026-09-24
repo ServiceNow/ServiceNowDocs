@@ -2,7 +2,7 @@
 title: Edit TPRM dashboard details
 description: You can change a dashboard name, add a description, certify it, configure visibility, and specify the requester, the owner, the owner group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/edit-tprm-db-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/edit-tprm-db-details.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -42,7 +42,7 @@ Any role for dashboards that you own or ones that you have been given permission
 
     4.  In **Dashboard Visibility**, view, add, or remove workspaces in which the dashboard can be viewed.
 
-        If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit TPRM dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/edit-tprm-db.md).
+        If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit TPRM dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/edit-tprm-db.md).
 
     5.  Specify one or more dashboard categories.
 

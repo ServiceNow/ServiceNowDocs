@@ -2,7 +2,7 @@
 title: Review class mappings
 description: Review and update the class mappings available for the Service Graph Connector for Microsoft Excel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -83,5 +83,5 @@ When checked, the class mapping is set to **Active**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
+**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

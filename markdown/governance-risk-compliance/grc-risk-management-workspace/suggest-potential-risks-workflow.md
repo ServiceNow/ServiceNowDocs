@@ -2,7 +2,7 @@
 title: Suggest potential risks workflow
 description: The Suggest potential risks workflow uses AI to identify and consolidate risks from multiple sources. It replaces manual, workshop-based risk discovery with a faster, consistent, and data-driven process that stays current with new regulations and trends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/suggest-potential-risks-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/suggest-potential-risks-workflow.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -46,5 +46,5 @@ The benefits are as follows:
 
 [activate-agentic-workflows]
 
-[Identify risks for an entity using ServiceNow Otto for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/identify-risks-for-entity.md)
+[Identify risks for an entity using ServiceNow Otto for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/identify-risks-for-entity.md)
 

@@ -2,7 +2,7 @@
 title: Dashboard terms
 description: Dashboards in Platform Analytics and the classic environment use terms that describe how data is organized, displayed, and shared.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboards-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dashboards-glossary.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-18"

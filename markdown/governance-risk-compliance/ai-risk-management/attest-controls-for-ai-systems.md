@@ -2,7 +2,7 @@
 title: Create control attestations for an AI asset
 description: Create control attestations for AI assets to document the existence, implementation, and effectiveness of controls that govern behavior, data usage, performance, and risk posture. Attestations serve as formal evidence that the AI asset meets regulatory, ethical, security, and operational standards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -40,9 +40,9 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
 
 ## What to do next
 
--   [Attest a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/attest-a-control.md)
--   [Group control attestations using the Same Response feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md)
--   [Group control attestations using the Different Response feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md)
+-   [Attest a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/attest-a-control.md)
+-   [Group control attestations using the Same Response feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md)
+-   [Group control attestations using the Different Response feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md)
 
-**Parent Topic:**[Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md)
+**Parent Topic:**[Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md)
 

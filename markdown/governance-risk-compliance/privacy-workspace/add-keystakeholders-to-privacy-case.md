@@ -2,7 +2,7 @@
 title: Add key stakeholders to a privacy case
 description: Add key stakeholders to a privacy case to identify the key members who are responsible for the data that is lost during the breach. You can then send the respective breach assessments to the stakeholders based on their responsibilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/add-keystakeholders-to-privacy-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/add-keystakeholders-to-privacy-case.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -41,5 +41,5 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
         The key stakeholders are added.
 
 
-**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

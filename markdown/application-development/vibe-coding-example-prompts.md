@@ -2,7 +2,7 @@
 title: Example prompts for agentic development
 description: Use these example prompts to build data models, implement security, create business rules, and generate user interfaces when building an app with ServiceNow AI Platform agentic development tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-example-prompts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-example-prompts.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-16"
@@ -21,7 +21,7 @@ To learn more about prompting, see this Community article on [The fastest way to
 
 Prompts are counted each time you submit a message to Build Agent. If Build Agent asks a clarifying question and you respond, that response counts as a prompt. Approving a plan that Build Agent presents does not count as a prompt. To get the most value from each prompt, draft your message in a text editor before you submit it.
 
-For more guidelines on prompting, see [General guidelines for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-general-guidelines.md).
+For more guidelines on prompting, see [General guidelines for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-general-guidelines.md).
 
 ## Prompt reference
 
@@ -119,7 +119,7 @@ Prompt 2: `Create a UI for cash management requesters to submit issues and view 
 
 Prompting with governance requirements helps produce secure and compliant applications on the ServiceNow AI Platform. By embedding governance requirements directly into your prompts, you help the AI produce results aligned with your organizational standards for security, compliance, and quality.
 
-For more information on governance, see [Build Agent governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-governance.md).
+For more information on governance, see [Build Agent governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-governance.md).
 
 **Tip:** If you have explicit security requirements, include them in your initial prompt.
 
@@ -147,5 +147,5 @@ For more information on governance, see [Build Agent governance](https://raw.git
 
 `Generate a summary of the app and flow logic for governance review.`
 
-**Parent Topic:**[Agentic development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-reference-landing.md)
+**Parent Topic:**[Agentic development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-reference-landing.md)
 

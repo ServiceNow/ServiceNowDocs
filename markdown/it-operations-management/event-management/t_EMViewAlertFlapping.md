@@ -2,7 +2,7 @@
 title: View alerts in the flapping state
 description: You can view alerts that are specifically in the flapping state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMViewAlertFlapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMViewAlertFlapping.html
 release: australia
 product: Event Management
 classification: event-management
@@ -52,10 +52,10 @@ For example, you can respond to an alert by rebooting a problematic server. Afte
 4.  If the **Parent** field is empty, address this alert as a new issue.
 
 
-**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
+**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewAlert.md)
 
 **Related topics**  
 
 
-[Configure alert flapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigAlertStateFlapDetect.md)
+[Configure alert flapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigAlertStateFlapDetect.md)
 

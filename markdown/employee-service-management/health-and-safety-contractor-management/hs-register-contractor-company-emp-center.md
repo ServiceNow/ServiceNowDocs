@@ -2,7 +2,7 @@
 title: Register a contractor company through Employee Center
 description: Register a contractor company to initiate its health and safety pre-qualification process with safety contractor coordinators in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/hs-register-contractor-company-emp-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-contractor-management/hs-register-contractor-company-emp-center.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -22,7 +22,7 @@ Role required: sn\_hs\_crm.reporter
 
 ## About this task
 
-A safety contractor coordinator can also directly add a contractor company from the Health and Safety Workspace. For more information, see [Add a contractor company from Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md).
+A safety contractor coordinator can also directly add a contractor company from the Health and Safety Workspace. For more information, see [Add a contractor company from Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ A safety contractor coordinator can also directly add a contractor company from 
 
         This field displays only users who have been assigned the \[snc\_external\] role and have a Health and Safety profile created for them.
 
-        For more information, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
+        For more information, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
 
 4.  Select **Submit**.
 
@@ -50,5 +50,5 @@ A safety contractor coordinator can also directly add a contractor company from 
 
 ## What to do next
 
-A safety contractor coordinator can complete the pre-qualification information for this company from Health and Safety Workspace. For more information, see [Add a contractor company from Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md).
+A safety contractor coordinator can complete the pre-qualification information for this company from Health and Safety Workspace. For more information, see [Add a contractor company from Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md).
 

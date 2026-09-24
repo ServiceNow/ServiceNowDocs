@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto for Vault
 description: Install the ServiceNow Otto for Vault application from the ServiceNow Store to get AI capabilities within Vault.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/configuring-now-assist-vault.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configuring-now-assist-vault.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

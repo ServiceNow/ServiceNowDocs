@@ -2,7 +2,7 @@
 title: Service Mapping commands requiring a privileged user
 description: Service Mapping uses commands requiring elevated rights to discover and map Unix-based hosts in your organization. In addition to configuring necessary credentials, configure servers in your organization to allow Service Mapping to run these commands with elevated rights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/r\_CommandsnCredentials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/r\_CommandsnCredentials.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -22,7 +22,7 @@ You do not run these commands directly. Service Mapping uses commands requiring 
 -   process identification on port
 -   discovering CIs using patterns
 
-Some of these commands do not require elevated rights, unless directories that Service Mapping must access are protected. For more information, see [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
+Some of these commands do not require elevated rights, unless directories that Service Mapping must access are protected. For more information, see [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 ## Operating system commands requiring elevated rights
 
@@ -1687,10 +1687,10 @@ Splits the output line.
 |-------|---------|-----------|
 |`ls`|Various options|Lists files and folders in the specified folder.|
 
-**Parent Topic:**[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prerequisites-service-mapping.md)
+**Parent Topic:**[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/prerequisites-service-mapping.md)
 
 **Related topics**  
 
 
-[Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md)
+[Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_NonSudoCommands.md)
 

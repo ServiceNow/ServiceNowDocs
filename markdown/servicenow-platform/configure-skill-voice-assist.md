@@ -2,7 +2,7 @@
 title: Configure Voice Assist for Docs skill
 description: Configure the Voice Assist for Docs skill to get document insights through audio summaries and voice interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-skill-voice-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configure-skill-voice-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,5 +51,5 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## What to do next
 
-To configure system properties for the Voice Assist for Docs skill, see [Configure Document Voice Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-system-properties-voice-assist-for-docs.md).
+To configure system properties for the Voice Assist for Docs skill, see [Configure Document Voice Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-system-properties-voice-assist-for-docs.md).
 

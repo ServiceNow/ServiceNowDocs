@@ -2,7 +2,7 @@
 title: Install Legal Simple Contracts
 description: You can install the Legal Simple Contracts application \(sn\_lg\_contracts\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/install-legal-simple-contracts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/install-legal-simple-contracts.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -30,7 +30,7 @@ The following items are installed with Legal Simple Contracts:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/installed-with-legal-simple-contracts.md).
+For more information, see [Components installed with Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/installed-with-legal-simple-contracts.md).
 
 ## Procedure
 
@@ -53,5 +53,5 @@ For more information, see [Components installed with Legal Simple Contracts](htt
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configure Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/setting-up-legal-contracts.md)
+**Parent Topic:**[Configure Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/setting-up-legal-contracts.md)
 

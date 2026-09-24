@@ -2,7 +2,7 @@
 title: Consolidate quotes
 description: Consolidate renewal quotes to merge multiple quotes for the same account into a single unified quote.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/consolidate-quotes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/consolidate-quotes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Role required: sn\_customerservice\_manager and sn\_sales\_common.sales\_agent.
     The selected quotes are merged into the target quote. A confirmation message appears with a link to the consolidated quote. The target quote displays a **Consolidation History** related list that shows all source quotes that were merged into it.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

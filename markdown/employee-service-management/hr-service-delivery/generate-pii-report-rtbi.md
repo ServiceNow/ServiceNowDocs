@@ -2,7 +2,7 @@
 title: Generate Personally Identifiable Information \(PII\) report
 description: As an HR agent, generate the PII report requested by the employee or alumni.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/generate-pii-report-rtbi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/generate-pii-report-rtbi.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

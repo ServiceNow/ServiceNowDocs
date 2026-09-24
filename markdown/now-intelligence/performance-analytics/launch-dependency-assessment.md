@@ -2,7 +2,7 @@
 title: Launch Dependency Assessment
 description: Use the Dependency Assessment tree view to view and edit Performance Analytics components including widgets, indicators, and breakdowns, from a single view. You can see the effects of your changes immediately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/launch-dependency-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/launch-dependency-assessment.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -39,5 +39,5 @@ The Dependency Assessment tree view opens in the same browser window from which 
 
 The tree view of the selected artifact opens.
 
-**Parent Topic:**[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/impact-analysis.md)
+**Parent Topic:**[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/impact-analysis.md)
 

@@ -2,7 +2,7 @@
 title: Discovery probe permissions
 description: Several probes require additional permissions to run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_AdditionalPermissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_AdditionalPermissions.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ Several probes require additional permissions to run.
 
 ## Discovering Active Connections
 
-Discovery uses the Windows - Active Connections probe to access active connection information. The [application dependency mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ApplicationDependencyMapping.md) feature requires this probe to function.
+Discovery uses the Windows - Active Connections probe to access active connection information. The [application dependency mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ApplicationDependencyMapping.md) feature requires this probe to function.
 
 <table id="table_jrm_cq4_tp"><thead><tr><th>
 
@@ -114,10 +114,10 @@ Windows - MSSQL
 -   Access to HKLM\\SOFTWARE\\Microsoft\\MSSQLServer\\$instanceName\\SuperSocketNetLib\\Tcp\\TcpPort where $instanceName is an array of possible values.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery probe management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_Probes.md)
+</table>**Parent Topic:**[Discovery probe management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_Probes.md)
 
 **Related topics**  
 
 
-[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
+[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-command-probe-pattern.md)
 

@@ -2,7 +2,7 @@
 title: Explore Access Control Lists
 description: Explore access control lists \(ACLs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/exploring-access-control-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/exploring-access-control-list.html
 release: australia
 product: Access Control
 classification: access-control
@@ -28,7 +28,7 @@ The decision type defines whether users are allowed to access the object if cond
 
 |Decision type|Description|
 |-------------|-----------|
-|Deny-Unless|Restrict access to resource by explicitly denying access unless conditions are passed. See [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md) for more information.|
+|Deny-Unless|Restrict access to resource by explicitly denying access unless conditions are passed. See [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/acl-denial-behavior.md) for more information.|
 |Allow-If|Allow access to resource if conditions are passed.|
 
 The object is the target to which access needs to be controlled. Each object consists of a type and name that uniquely identifies a particular table, field, or record. With the Applies-to field users have granular control over which specific records this ACL will apply to.
@@ -356,7 +356,7 @@ If two or more ACLs match at the same point in the processing order, the user mu
 
 ## Required role
 
-Normal admin users can view and debug access control lists. However, to create or update existing access control lists, administrators must elevate privileges to the security\_admin role. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md) for instructions.
+Normal admin users can view and debug access control lists. However, to create or update existing access control lists, administrators must elevate privileges to the security\_admin role. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md) for instructions.
 
 ## ACLs in scoped applications
 

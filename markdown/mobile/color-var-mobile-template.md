@@ -2,7 +2,7 @@
 title: Color variable support for card view templates
 description: Learn how to use color variables to change theming in your mobile card views.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-mobile-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/color-var-mobile-template.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ Card view templates use the values in the **Template JSON** field to determine t
 
  Use these properties to assign a color using color variables from the UX Theme Properties \[sys\_ux\_theme\_property\] table.
 
- For details creating card templates, see [Create a card template with Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-create-template.md).
+ For details creating card templates, see [Create a card template with Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mcb-create-template.md).
 
 </td><td>
 

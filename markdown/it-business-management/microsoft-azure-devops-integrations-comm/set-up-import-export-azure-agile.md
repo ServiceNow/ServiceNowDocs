@@ -2,7 +2,7 @@
 title: Setting up import and export between Azure DevOps and Agile Development 2.0
 description: Configure the settings for the import and export actions of work items between Agile Development 2.0 and Azure DevOps.Register webhooks to subscribe to the events from your Azure DevOps projects to Agile Development 2.0.Associate your Azure DevOps projects and teams with assignment groups in Agile Development 2.0 to enable import and export of issues between the two applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -18,7 +18,7 @@ Configure the settings for the import and export actions of work items between A
 
 To enable synchronization of work items, register webhooks for your Azure DevOps projects and associate your Azure DevOps projects and teams with assignment groups in Agile Development 2.0.
 
-**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/setting-up-agile-azure-integration.md)
+**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/setting-up-agile-azure-integration.md)
 
 ## Register webhooks for an Azure DevOps project
 
@@ -26,7 +26,7 @@ Register webhooks to subscribe to the events from your Azure DevOps projects to 
 
 ### Before you begin
 
--   [Discover and import Azure DevOps projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/discover-import-azure-projects.md).
+-   [Discover and import Azure DevOps projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/discover-import-azure-projects.md).
 -   Role required: sn\_ado\_int.user
 
 ### Procedure
@@ -52,11 +52,11 @@ When you register webhooks in Azure DevOps, it receives the following event upda
 -   Restore a work item
 -   Comment on a work item
 
-For more information on synchronization of work items according to these webhook events, see [Importing and exporting work items between Agile Development and Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/import-export-issues-azure-agile-workflow.md).
+For more information on synchronization of work items according to these webhook events, see [Importing and exporting work items between Agile Development and Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/import-export-issues-azure-agile-workflow.md).
 
 ### What to do next
 
-[Associate Azure DevOps projects with assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.md)
+[Associate Azure DevOps projects with assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.md)
 
 .
 
@@ -66,8 +66,8 @@ Associate your Azure DevOps projects and teams with assignment groups in Agile D
 
 ### Before you begin
 
--   [Import areas, teams, and iterations from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/import-areas-teams-azure-agile.md).
--   Create assignment groups in Agile Development. See [Create an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-an-agile-group.md).
+-   [Import areas, teams, and iterations from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/import-areas-teams-azure-agile.md).
+-   Create assignment groups in Agile Development. See [Create an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/create-an-agile-group.md).
 -   Role required: sn\_ado\_int.user
 
 ### About this task
@@ -104,12 +104,12 @@ After you associate an Azure DevOps team with an assignment group, you can:
 
 ### What to do next
 
-[Import work items from Azure DevOps to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/bulk-import-agile-azure.md)
+[Import work items from Azure DevOps to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/bulk-import-agile-azure.md)
 
 .
 
 **Related topics**  
 
 
-[Importing and exporting work items between Agile Development and Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/import-export-issues-azure-agile-workflow.md)
+[Importing and exporting work items between Agile Development and Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/import-export-issues-azure-agile-workflow.md)
 

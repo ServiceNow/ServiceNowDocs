@@ -2,7 +2,7 @@
 title: SRM alert states
 description: Alert can be in a few different states depending on how they are acted on.If changing states starts to do something then use this topic. Otherwise it's not necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-alerts-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-alerts-states.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -36,7 +36,7 @@ Open
 
 State on alert creation. From this state you can acknowledge and set to:-   **Flapping**
 
-Flapping occurs when the event source continues to generate events even after its associated alert has been closed. See [Configure alert flapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigAlertStateFlapDetect.md) for more information on event flapping.
+Flapping occurs when the event source continues to generate events even after its associated alert has been closed. See [Configure alert flapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigAlertStateFlapDetect.md) for more information on event flapping.
 
 -   **Closed**
 
@@ -101,5 +101,5 @@ Flapping occurs when the event source continues to generate events even after it
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
+</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

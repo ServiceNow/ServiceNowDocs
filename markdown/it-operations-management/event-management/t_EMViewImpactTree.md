@@ -2,7 +2,7 @@
 title: View the impact tree
 description: The impact tree shows the relationships between CIs and the relative percentage impact for each child CI. This information is available for both discovered services and application services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMViewImpactTree.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMViewImpactTree.html
 release: australia
 product: Event Management
 classification: event-management
@@ -74,6 +74,6 @@ You can also learn about the impact tree from the following video tutorial.
 </td></tr></tbody>
 </table>    Network paths appearing in the impact tree can use a large amount of resources, which degrades system performance. To disable network paths from appearing in the impact tree, navigate to **System Properties** &gt; **All Properties** and set the **evt\_mgmt.network\_path\_excluded** property to **true**.
 
-    To view impact tree using Service Operations Workspace, see [View impact tree using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-impact-tree.md).
+    To view impact tree using Service Operations Workspace, see [View impact tree using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/view-impact-tree.md).
 
 

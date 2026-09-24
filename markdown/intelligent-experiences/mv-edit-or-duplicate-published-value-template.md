@@ -2,10 +2,10 @@
 title: Edit a published value template
 description: Change the department, description, or AI system mappings of a published value template, and remove templates that you no longer need while keeping value calculation uninterrupted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-edit-or-duplicate-published-value-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-edit-or-duplicate-published-value-template.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---

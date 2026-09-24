@@ -2,7 +2,7 @@
 title: Advanced resource filter tables
 description: The tables that contain the values administrators must enable for dispatchers to use to create resource filters can be found listed below.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/advanced-filter-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/advanced-filter-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -69,5 +69,5 @@ Territory crew configuration \(terr\_crew\_filter\_config\_view\)
 -   wm\_crew\_skill
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+</table>**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 

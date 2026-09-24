@@ -2,7 +2,7 @@
 title: Share a task plan template from the workspace
 description: Share a task plan template with specific users, groups, service  organizations, or organization criteria directly from the Task Plan Templates workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/share-a-task-plan-template-from-the-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/share-a-task-plan-template-from-the-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-05-11"

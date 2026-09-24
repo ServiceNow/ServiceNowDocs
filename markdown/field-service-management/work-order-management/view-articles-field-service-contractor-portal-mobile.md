@@ -2,7 +2,7 @@
 title: View knowledge articles related to a work order task on a mobile device
 description: View knowledge articles related to a work order task through the Field Service Contractor for mobile application to get additional information to help you complete the task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-articles-field-service-contractor-portal-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/view-articles-field-service-contractor-portal-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

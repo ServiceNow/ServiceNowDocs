@@ -2,7 +2,7 @@
 title: Outbound invoice line fields
 description: Field descriptions and data types for the Outbound invoice line \[sn\_spend\_intg\_outbound\_invoice\_line\] table used to transfer invoice line details from Accounts Payable Operations to third-party applications through the integration framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/outbound-invoice-line-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/outbound-invoice-line-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -35,5 +35,5 @@ Field descriptions and data types for the Outbound invoice line \[sn\_spend\_int
 |Status|Status of an invoice|Choice|
 |Line amount.invoiced amount|The total amount for the invoice line|String|
 
-**Parent Topic:**[Outbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/outbound-invoice-fields.md)
+**Parent Topic:**[Outbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/outbound-invoice-fields.md)
 

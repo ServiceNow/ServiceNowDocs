@@ -2,7 +2,7 @@
 title: App Engine and App Engine Studio
 description: Learn about the differences between App Engine and App Engine Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-engine-vs-aes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/app-engine-vs-aes.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +18,7 @@ Learn about the differences between App Engine and App Engine Studio.
 
 App Engine is a ServiceNow AI Platform® suite of products to help boost productivity by automating workflows. ServiceNow® App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization.
 
-For more information, see [App Engine products and offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-products-offerings.md).
+For more information, see [App Engine products and offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-products-offerings.md).
 
 ## How App Engine and App Engine Studio work together
 

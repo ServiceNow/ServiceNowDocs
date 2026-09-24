@@ -2,7 +2,7 @@
 title: Work on a sales contract review request
 description: As a member of the legal contracts support team, review and revise a sales contract document as per the requested changes. Upload the revised document to the request and send it to the requester directly from the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/work-legal-request-sales-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/work-legal-request-sales-contract.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -34,15 +34,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d624379e109">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d624383e109">
 
 Option
 
-</th><th align="left" id="d624379e112">
+</th><th align="left" id="d624383e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d624379e118">
+</th></tr></thead><tbody><tr><td id="d624383e118">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d624379e147">
+</td></tr><tr><td id="d624383e147">
 
 **As a collaborator**
 
@@ -71,11 +71,11 @@ The state of the legal request is Work in progress and the document is Legal rev
 
     The collaborators are notified via email that they have been added as collaborators to a legal request.
 
-5.  [Initiate an ad hoc approval for a legal request or its attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/initiate-approval-legal-request.md) for the legal request or its attachments when an approval is required from other stakeholders.
+5.  [Initiate an ad hoc approval for a legal request or its attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/initiate-approval-legal-request.md) for the legal request or its attachments when an approval is required from other stakeholders.
 
 6.  In the Activity stream section, review the changes requested by the requester and make necessary changes in the contract document.
 
-7.  [Communicate using emails from Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/send-receive-email-legal-req.md) with the requester or other stakeholders.
+7.  [Communicate using emails from Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/send-receive-email-legal-req.md) with the requester or other stakeholders.
 
 8.  Download the attached contract document to make changes requested by the requester
 
@@ -119,5 +119,5 @@ In the **Signed Contract** field, enter the URL of the contract document that is
 10. After resolving the legal request, close the request by clicking **Close Complete**.
 
 
-**Parent Topic:**[Sales contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-request-sales-contracts.md)
+**Parent Topic:**[Sales contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/legal-request-sales-contracts.md)
 

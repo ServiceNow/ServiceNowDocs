@@ -2,7 +2,7 @@
 title: Create a facility request from the floor plan
 description: All users in your organization can create any facility requests that your facilities admin \[facilities\_admin\] has enabled on the floor plan view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateFacReqWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_CreateFacReqWorkbench.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: none
 
     |Choice|Action|
     |------|------|
-    |**To search for a space location**|[Find a space on the floor plan.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_FindASpaceOrUser.md)|
+    |**To search for a space location**|[Find a space on the floor plan.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_FindASpaceOrUser.md)|
     |**If you know the space location**|Select the space on the floor plan.|
 
 2.  On the Spaces tab, under the room information details and **Related Links** section, click **Create Facilities Request**.
@@ -44,5 +44,5 @@ Role required: none
 3.  Click **Submit** and the **Floor Plan** form displays.
 
 
-**Parent Topic:**[Facilities Floor Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesFloorPlan.md)
+**Parent Topic:**[Facilities Floor Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesFloorPlan.md)
 

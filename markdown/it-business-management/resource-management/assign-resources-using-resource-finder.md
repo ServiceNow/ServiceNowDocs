@@ -2,7 +2,7 @@
 title: Assign unassigned work using Resource finder
 description: Assign resource using the AI suggestions which match the skill-set and primary attributes requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/assign-resources-using-resource-finder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/assign-resources-using-resource-finder.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -30,7 +30,7 @@ AI resource finder helps resource and project managers identify the best-fit res
 -   Rationale: AI-generated explanation for the fit score.
 -   Availability: The availability of the resource for a task.
 
-For more information regarding how the Resource finder works and the resources are mapped, see [Resource finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/explore-rmw.md).
+For more information regarding how the Resource finder works and the resources are mapped, see [Resource finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/explore-rmw.md).
 
 ## Procedure
 
@@ -55,5 +55,5 @@ For more information regarding how the Resource finder works and the resources a
     The resource is assigned to the task.
 
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md)
 

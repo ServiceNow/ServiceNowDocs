@@ -2,7 +2,7 @@
 title: Submit a loan service request as a requester
 description: Help your customers by submitting a loan service request for them. As a requester in the front office, you can do this service for your customer \(consumer or business contact\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/submit-loan-service-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/submit-loan-service-request.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations

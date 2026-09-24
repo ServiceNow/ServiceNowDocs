@@ -2,7 +2,7 @@
 title: Import your equipment model data using the data source and scheduled import
 description: After you complete your Microsoft Excel spreadsheet with your equipment model data, import it into the ServiceNow AI Platform by using the data source and scheduled import.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/import-equipment-model-data-using-data-source-and-scheduled-import.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/import-equipment-model-data-using-data-source-and-scheduled-import.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -18,7 +18,7 @@ After you complete your Microsoft Excel spreadsheet with your equipment model da
 
 ## Before you begin
 
-Before you perform this process, you must prepare a Microsoft Excel spreadsheet for import. To learn more, see [Populating your Microsoft Excel spreadsheet with equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/populate-excel-spreadsheet-with-isa-equipment-model-data.md).
+Before you perform this process, you must prepare a Microsoft Excel spreadsheet for import. To learn more, see [Populating your Microsoft Excel spreadsheet with equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/populate-excel-spreadsheet-with-isa-equipment-model-data.md).
 
 Role required: admin or cmdb\_inst\_admin
 
@@ -39,5 +39,5 @@ By running this process, you create unique Equipment Model Entity CI class recor
     5.  In the confirmation message, select the **Run Robust Transform** related link.
     6.  Select **Transform**. If the import is successful, you should see the following confirmation message with the **Success** completion code.\[Omitted image "run-rte-success.png"\] Alt text: Confirmation message that says State Complete and Completion Code Success if the import is completed without any errors.
 
-**Parent Topic:**[Importing equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/importing-isa95-equipment-model-etl.md)
+**Parent Topic:**[Importing equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/importing-isa95-equipment-model-etl.md)
 

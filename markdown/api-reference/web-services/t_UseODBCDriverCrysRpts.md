@@ -2,7 +2,7 @@
 title: Use the ODBC driver in Crystal Reports
 description: After installing the ODBC driver and its associated DSN, use it in Crystal Reports as a data source provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_UseODBCDriverCrysRpts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_UseODBCDriverCrysRpts.html
 release: australia
 product: Web Services
 classification: web-services
@@ -43,5 +43,5 @@ After installing the ODBC driver and its associated DSN, use it in Crystal Repor
     \[Omitted image "RenderedCrystalReport.png"\] Alt text: Rendered Crystal Report
 
 
-**Parent Topic:**[ODBC and client applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_ODBCAndClientApplications.md)
+**Parent Topic:**[ODBC and client applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_ODBCAndClientApplications.md)
 

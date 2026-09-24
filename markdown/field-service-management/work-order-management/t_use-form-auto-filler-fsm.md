@@ -2,7 +2,7 @@
 title: Auto-fill a form with ServiceNow AI Lens
 description: Use ServiceNow AI Lens to auto-fill form fields by capturing or uploading an image in the ServiceNow Agent mobile app. The Lens Launcher is available on Input Forms and Scripted Input Forms, such as Smart Assessment questionnaires.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_use-form-auto-filler-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_use-form-auto-filler-fsm.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -96,11 +96,11 @@ An error message is displayed when the icon is selected.To resolve this, ensure 
 </table>**Related topics**  
 
 
-[ServiceNow AI Lens form auto-filler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_form-auto-filler-fsm.md)
+[ServiceNow AI Lens form auto-filler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/c_form-auto-filler-fsm.md)
 
-[Use ServiceNow AI Lens in ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_use-lens-nava-fsm.md)
+[Use ServiceNow AI Lens in ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_use-lens-nava-fsm.md)
 
-[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-questionnaire.md)
+[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/smart-assessment-questionnaire.md)
 
-[Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md)
+[Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md)
 

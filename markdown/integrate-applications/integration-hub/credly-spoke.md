@@ -2,7 +2,7 @@
 title: Credly spoke
 description: Credly integration helps employees prove, manage, and showcase their skills more effectively, addressing common issues related to skill verification, visibility, recognition, and career development.Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/credly-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/credly-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

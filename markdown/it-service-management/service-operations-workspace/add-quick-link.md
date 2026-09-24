@@ -2,7 +2,7 @@
 title: Add a user-specific quick link on the ITSM landing page
 description: Refer to a URL quickly from the Service Operations Workspace landing page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/add-quick-link.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/add-quick-link.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -33,7 +33,7 @@ Role required: itil
 5.  Select **Add**.
 
 
-**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
+**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 
 **Related topics**  
 

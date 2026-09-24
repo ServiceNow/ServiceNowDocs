@@ -2,7 +2,7 @@
 title: View model categories
 description: Default model categories are included with product catalog. You can view a list of default categories and the categories that you created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_ViewingModelCategories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/product-catalog/t\_ViewingModelCategories.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -27,7 +27,7 @@ Role required: model\_manager
 2.  Open a model category to view its details.
 
 
-**Parent Topic:**[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ModelCategories.md)
+**Parent Topic:**[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_ModelCategories.md)
 
 **Related topics**  
 

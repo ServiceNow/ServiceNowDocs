@@ -2,7 +2,7 @@
 title: Publish a workplace knowledge base article
 description: After creating a knowledge base article, publish the article to make it available for employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/publish-workplace-kb-article-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/publish-workplace-kb-article-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -20,7 +20,7 @@ After creating a knowledge base article, publish the article to make it availabl
 
 Role required: sn\_wsd\_core.admin or sn\_wsd\_core.kb\_writer
 
-Before you publish, create a knowledge base article. For more information, see [Create a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-kb-article-wsd.md).
+Before you publish, create a knowledge base article. For more information, see [Create a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-workplace-kb-article-wsd.md).
 
 ## Procedure
 
@@ -35,7 +35,7 @@ Before you publish, create a knowledge base article. For more information, see [
 
 The knowledge base article is published for employees to view.
 
-For more information on how to view the published knowledge base article, see [View workplace knowledge base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/view-workplace-kb-article-wsd.md).
+For more information on how to view the published knowledge base article, see [View workplace knowledge base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/view-workplace-kb-article-wsd.md).
 
-For more information on how to edit the publish knowledge base article, see [Modify a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/modify-workplace-kb-article-wsd.md).
+For more information on how to edit the publish knowledge base article, see [Modify a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/modify-workplace-kb-article-wsd.md).
 

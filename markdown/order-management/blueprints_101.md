@@ -2,7 +2,7 @@
 title: Set up blueprints
 description: Blueprints define the structure of a configuration experience in CPQ. They act as containers that bring together fields, rules, layouts, and configurable products, enabling administrators to design, deploy, and manage complete configuration workflows across environments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/blueprints\_101.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/blueprints\_101.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Unlike fields and rules, layouts can only be associated with one blueprint. A la
 
 For Salesforce-integrated organizations, the configurable product element determines the SFDC Product2 record that, when quoted in Salesforce, launches the configuration experience defined by a blueprint. Multiple configurable products can launch the same blueprint. However, each configurable product can only be associated with one blueprint.
 
-For a step-by-step guide to creating a blueprint, see [Create a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-create-a-new-blueprint.md).
+For a step-by-step guide to creating a blueprint, see [Create a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-create-a-new-blueprint.md).
 
 ## The blueprint definition page
 
@@ -37,7 +37,7 @@ This tab shows all of the fields that have been associated with the blueprint. T
 -   Product Pickers: Shows the product pickers and product picker subfields associated with the blueprint.
 -   System: Automatically associated with each blueprint. If integrated with Salesforce, these fields pull data automatically upon initialization without the need to specify it in an external connection.
 
-To learn more about fields and how to associate them with blueprints, see [Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md).
+To learn more about fields and how to associate them with blueprints, see [Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/fields_101.md).
 
 ## The Related Rules tab
 
@@ -67,11 +67,11 @@ This tab shows the fifty most recent deployments for the blueprint. The blueprin
 
 \[Omitted image "cpq-blueprints-deployments.png"\] Alt text: Deployments
 
-You can also see a list of the environment’s most recent deployments in the Utilities menu on the Deployment page. See [Viewing blueprint deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deployments_page.md).
+You can also see a list of the environment’s most recent deployments in the Utilities menu on the Deployment page. See [Viewing blueprint deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deployments_page.md).
 
 ## The Enrichments tab
 
-This tab shows the enrichment scripts that have been created for the blueprint. These scripts run outside of the rules engine and enact their functions on their own areas, such as on initialization, BOM response, validation, or picklist extension pricing. An admin can edit these scripts or delete them using the Trash icon on the far left. For more information about enrichment scripts, see [Set up External connections for configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/external-connections.md).
+This tab shows the enrichment scripts that have been created for the blueprint. These scripts run outside of the rules engine and enact their functions on their own areas, such as on initialization, BOM response, validation, or picklist extension pricing. An admin can edit these scripts or delete them using the Trash icon on the far left. For more information about enrichment scripts, see [Set up External connections for configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/external-connections.md).
 
 \[Omitted image "cpq-blueprints-enrichments.png"\] Alt text: Enrichments screen
 
@@ -104,13 +104,13 @@ After a blueprint is deployed, a notification alerts you to the status of the de
 **Related topics**  
 
 
-[Create a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-create-a-new-blueprint.md)
+[Create a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-create-a-new-blueprint.md)
 
-[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-env-to-env-bp-migration-intro.md)
+[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-env-to-env-bp-migration-intro.md)
 
-[CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/system_fields_vs_partner_fields.md)
+[CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/system_fields_vs_partner_fields.md)
 
-[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md)
+[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/fields_101.md)
 
 [Boundaries and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

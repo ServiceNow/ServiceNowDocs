@@ -2,7 +2,7 @@
 title: Create a new agent in Google Dialogflow
 description: To use Google Dialogflow with Virtual Agent Bot Interconnect, you must first create a new agent in Google Dialogflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-new-agent-google-dialogflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-new-agent-google-dialogflow.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -38,9 +38,9 @@ Role required: admin
     The project dashboard opens.
 
 
-**Parent Topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-api-ggl-dialogflow.md)
+**Parent Topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-va-api-ggl-dialogflow.md)
 
-**Previous topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-api-ggl-dialogflow.md)
+**Previous topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-va-api-ggl-dialogflow.md)
 
-**Next topic:**[Create a service account and private key for the Google Dialogflow project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-srvc-acct-key-dialogflow.md)
+**Next topic:**[Create a service account and private key for the Google Dialogflow project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-srvc-acct-key-dialogflow.md)
 

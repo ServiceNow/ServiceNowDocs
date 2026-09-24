@@ -2,7 +2,7 @@
 title: View and reprocess unmatched Security Operations emails
 description: You can review Unmatched Emails for discontinued filters or as candidates for a new filter to maintain or improve the rate at which you catch email threats.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/viewing-reprocessing-unmatched-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/viewing-reprocessing-unmatched-emails.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Role required: sn\_sec\_cmn.read
 
 3.  To reprocess this email, create an email record or edit an existing email record to match the information in this email.
 
-    See [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/parsing-emails.md).
+    See [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/parsing-emails.md).
 
 4.  Navigate back to **Security Operations** &gt; **Unmatched Emails**.
 
@@ -45,5 +45,5 @@ Role required: sn\_sec\_cmn.read
     It returns you to the Unmatched Emails main list. If the new email record matches, the email event is no longer in the list. A message indicates if it was matched or not.
 
 
-**Parent Topic:**[Unmatched Security Operations email events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/umatched-emails.md)
+**Parent Topic:**[Unmatched Security Operations email events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/umatched-emails.md)
 

@@ -2,12 +2,12 @@
 title: Create and manage pages and subpages for planning items
 description: Flexibly organize information for your planning items by creating, duplicating, and deleting pages and subpages in Strategic Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-pages-within-a-doc-in-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-pages-within-a-doc-in-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Docs for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---

@@ -2,7 +2,7 @@
 title: Rollback a data job
 description: Use rollback to revert changes made by a normalization or transformation data job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/rollback-data-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/rollback-data-job.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

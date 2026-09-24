@@ -2,7 +2,7 @@
 title: Reusing intents from prebuilt NLU models
 description: Reuse Natural Language Understanding \(NLU\) intents by importing them from a prebuilt NLU model to other models. Reusing intents saves time when building your models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/reusing-predefined-nlu-intents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/reusing-predefined-nlu-intents.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -30,7 +30,7 @@ For more NLU and Virtual Agent context, refer to the following product documenta
 
 -   For ITSM context, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent.md).
 -   For HR context, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-virtual-agent-conversations.md).
--   For CSM context, see Customer Service Virtual Agent conversations.
+-   For CSM context, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-chatbot.md).
 
 ## Virtual Agent and NLU plugins and roles
 
@@ -62,7 +62,7 @@ Enables [Pre-built Virtual Agent topics, topic blocks, and ServiceNow NLU models
 
 The prebuilt Virtual Agent models are set to read-only and can't be edited. However, the intents in these models can be imported into your new model, alongside any new intents you've created in your model. You can also copy the prebuilt model and use the intents as a foundation for a new model.
 
-To reuse the intents from a prebuilt Virtual Agent model, choose the prebuilt model when importing intents. See [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/import-nlu-intent.md).
+To reuse the intents from a prebuilt Virtual Agent model, choose the prebuilt model when importing intents. See [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/import-nlu-intent.md).
 
 NLU models and their intents and entities are associated to an application scope. The scope can't be changed later, so verify your target application scope before you begin.
 

@@ -2,7 +2,7 @@
 title: Upgrades and the ServiceNow Store
 description: The ServiceNow Store includes official applications that are developed and released by ServiceNow. Users can download, access, and configure Australia apps on their instances. Store application versions can be upgraded when you upgrade your instance to a new release version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/upgrades-store.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

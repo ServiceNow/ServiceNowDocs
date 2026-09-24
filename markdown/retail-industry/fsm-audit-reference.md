@@ -2,7 +2,7 @@
 title: Components installed with Field Service for Audit
 description: Reference information for the plugin dependencies, roles, and tables installed with the Field Service for Audit plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/fsm-audit-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/fsm-audit-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-07"
@@ -58,12 +58,12 @@ com.snc.work\_management
 |------------|---------|-------|
 |Audit Task|`wm_audit_task`|`wm_task`|
 
-**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-installed-with-plugins.md)
 
 **Related topics**  
 
 
-[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-overview.md)
+[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/fsm-audit-overview.md)
 
-[Components installed with Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-reference.md)
+[Components installed with Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-reference.md)
 

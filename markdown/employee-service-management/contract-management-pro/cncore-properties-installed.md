@@ -2,7 +2,7 @@
 title: Properties installed to configure expiry notifications
 description: There are several properties related to Contracts Core that can be used to configure the number of days before which expiry notification should be sent and the generation of audit certificate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-properties-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-properties-installed.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -45,7 +45,7 @@ Specifies whether the user needs an audit certificate to accompany the signed co
 -   Default value: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

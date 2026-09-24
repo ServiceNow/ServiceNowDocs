@@ -2,7 +2,7 @@
 title: Telecommunications Network Inventory Release Notes
 description: The ServiceNow Telecommunications Network Inventory application enables network planners to model physical, logical, or virtual networks, support datacenter infrastructure management, and perform design and assign services Telecommunications Network Inventory was enhanced and updated in the Australia release.The ServiceNow Telecommunications Network Inventory application enables network planners to model physical, logical, or virtual networks, support datacenter infrastructure management, and perform design and assign services Telecommunications Network Inventory was enhanced and updated in the Australia release.The ServiceNow Telecommunications Network Inventory application enables network planners to model physical, logical, or virtual networks, support datacenter infrastructure management, and perform design and assign services Telecommunications Network Inventory was enhanced and updated in the Australia release.The ServiceNow Telecommunications Network Inventory application enables network planners to model physical, logical, or virtual networks, support datacenter infrastructure management, and perform design and assign services Telecommunications Network Inventory was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/telecommunications-network-inventory-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/telecommunications-network-inventory-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -21,13 +21,13 @@ Australia Early Availability
 -   Enable customers to request services for equipment housed in your facility using Remote Hands.
 -   View a concise summary of Remote Hands Request
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Create IP addresses directly within an IP subnetwork.
 -   Define reusable naming patterns using the new TNI CI Naming application with real-time validation, hierarchical name construction, and interactive preview before applying to the inventory.
 -   Access control update — TNI table permissions
 
-[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-4.md)
 
 -   Reserves rack unit space in a datacenter with rack allocation agentic workflow
 -   TNI Data Model Navigator, a CMDB framework that presents a curated, domain-specific view of telecom
@@ -54,7 +54,7 @@ See [Telecommunications Network Inventory](https://raw.githubusercontent.com/Ser
     Improved overall accessibility across Network Inventory application, focusing on keyboard navigation, screen readers, zoom levels, colour contrast, and text spacing.
 
 
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/technology-industry-rn-landing.md)
 
 ## July 2026
 
@@ -125,7 +125,7 @@ The ServiceNow® Telecommunications Network Inventory application enables networ
 
 ### What's changed
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   **[Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/using-network-topology.md)**
 

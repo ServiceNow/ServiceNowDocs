@@ -2,7 +2,7 @@
 title: Add a trigger to an agentic workflow
 description: In the guided setup for an agentic workflow, add triggers to run the agentic workflow automatically when certain conditions are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-trigger-aw-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-trigger-aw-new.html
 release: australia
 topic_type: task
 last_updated: "2026-06-06"
@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 Adding a trigger is optional. If you want your agentic workflow to be used only in chats, you don't need to add a trigger. Only add a trigger if you want to invoke the agentic workflow automatically when some event occurs.
 
-If you don't want to add a trigger, skip to the next step, [Configure where your agentic workflow can be invoked and set processing messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw-new.md).
+If you don't want to add a trigger, skip to the next step, [Configure where your agentic workflow can be invoked and set processing messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aw-new.md).
 
 ## Procedure
 
@@ -77,5 +77,5 @@ You have added triggers to your agentic workflow to run it automatically under t
 
 ## What to do next
 
-Scroll down to the next section of the guided setup, **Channel and display**, to [configure where the agentic workflow can be invoked and set processing messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw-new.md).
+Scroll down to the next section of the guided setup, **Channel and display**, to [configure where the agentic workflow can be invoked and set processing messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aw-new.md).
 

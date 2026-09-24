@@ -2,7 +2,7 @@
 title: Create Event workflow activity
 description: The Create Event activity adds an event to the event queue, but does not immediately fire the event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/r\_CreateEvent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/workflow-activities/r\_CreateEvent.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

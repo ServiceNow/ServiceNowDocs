@@ -2,7 +2,7 @@
 title: Investigative Case Management Evidence Management Evidence form fields
 description: Use this form when creating a new evidence record within an Investigative Case Management case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-case-forms-evm-ev.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-icm-ref-case-forms-evm-ev.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

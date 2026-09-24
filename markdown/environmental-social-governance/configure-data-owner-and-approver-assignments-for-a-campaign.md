@@ -2,7 +2,7 @@
 title: Configure data owner and approver assignments for a campaign
 description: Assign a data owner and one or more levels of approvers to a campaign, so the right users receive metric data tasks and approve them in sequence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-data-owner-and-approver-assignments-for-a-campaign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/configure-data-owner-and-approver-assignments-for-a-campaign.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
@@ -17,7 +17,7 @@ Assign a data owner and one or more levels of approvers to a campaign, so the ri
 
 ## Before you begin
 
--   The campaign must exist. For more information, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-campaign.md).
+-   The campaign must exist. For more information, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-campaign.md).
 -   Role required: sn\_grc\_metric.manager
 
 ## About this task
@@ -68,5 +68,5 @@ The approval levels you configure apply regardless of the campaign's approval mo
 
 The data owner receives all metric data tasks for the campaign. Approvers approve each level in sequence before the campaign cycle can move to the next stage.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-grc-metrics.md)
 

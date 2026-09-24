@@ -2,7 +2,7 @@
 title: Schedule a call from a touchpoint
 description: Plan and track customer calls to organize and manage follow-ups and outreach and maintain a complete interaction history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/schedule-call-crm-touchpoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/schedule-call-crm-touchpoint.html
 release: australia
 topic_type: task
 last_updated: "2026-06-18"
@@ -36,7 +36,7 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
 7.  On the Create New Callback form, fill in the fields.
 
-    For a description of the field values, see [Create new callback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-call-touchpoint-form.md).
+    For a description of the field values, see [Create new callback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-call-touchpoint-form.md).
 
 8.  Select **Save**.
 
@@ -45,14 +45,14 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
 The call is scheduled and can be tracked from the touchpoint's **Scheduled calls** tab.
 
-**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-activity-management.md)
 
 **Related topics**  
 
 
-[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
+[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-activity-management.md)
 
-[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-activity-management.md)
 
 [Install Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-csm-omni-callback-app.md)
 

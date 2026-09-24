@@ -2,7 +2,7 @@
 title: Configure credential-less access using trusted AWS accounts
 description: Set up a trusted credential-less account that other AWS accounts can rely on for access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aws-trusted-credential-less.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aws-trusted-credential-less.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Set up a trusted credential-less account that other AWS accounts can rely on for
 
 -   Familiarize yourself with the Amazon documentation on [Creating a role to delegate permissions to an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user.html).
 -   Decide which AWS account is going to be the trusted account. You use the trusted account to configure temporary credentials for Cloud Discovery using IAM roles. The trusted account that you use to access other accounts using IAM roles is referred to as an accessor account.
--   If you're setting up a trust chain, confirm that the member account trusts the management account. The management account must also trust the accessor account. For more information, see [Configure access for trusting AWS member accounts in trust chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-iam-role-aws-member.md).
+-   If you're setting up a trust chain, confirm that the member account trusts the management account. The management account must also trust the accessor account. For more information, see [Configure access for trusting AWS member accounts in trust chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-iam-role-aws-member.md).
 -   Confirm that Discovery Admin Workspace is using at least version 1.10.0. The **Discovery** &gt; **Cloud Service Accounts** navigation module isn't available with earlier versions. To access **Cloud Service Accounts** with an earlier version, enter in the navigation filter: `cmdb_ci_cloud_service_account.list`.
 
 Role required:
@@ -42,7 +42,7 @@ To use an account without AWS credentials, you must first configure that account
 
         Use the account ID of the trusted account while creating this IAM role. For operational information about working with AWS roles, refer to the Amazon documentation.
 
-    3.  [Create a ReadOnlyAccess policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md) and attach it to the newly created IAM role.
+    3.  [Create a ReadOnlyAccess policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aws-create-user-policy-cloud-mgt.md) and attach it to the newly created IAM role.
 
 2.  Configure the IAM role for the trusted account.
 
@@ -54,12 +54,12 @@ To use an account without AWS credentials, you must first configure that account
 
     3.  Create a read-only access policy for the trusted account IAM role.
 
-        For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md).
+        For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 
     4.  Create an additional policy to grant this IAM role access to resources in trusting accounts:
 
         -   Set the **Action** parameter to `sts:AssumeRole`
-        -   Set the **Resource** parameter to the ARN of the trusting account role that you created in [1.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-trusted-credential-less.md).
+        -   Set the **Resource** parameter to the ARN of the trusting account role that you created in [1.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aws-trusted-credential-less.md).
         \[Omitted image "aws-edit-policy-trusted-credential-less.png"\] Alt text: Configure the policy between the role in the trusted account and the role in the trusting account.
 
     5.  Attach the newly created role to the relevant Amazon EC2 instance.
@@ -72,17 +72,17 @@ To use an account without AWS credentials, you must first configure that account
 
     1.  Log into the trusting account on the AWS Management Console.
 
-    2.  Navigate to the IAM role you created for this account as described in [1.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-trusted-credential-less.md).
+    2.  Navigate to the IAM role you created for this account as described in [1.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aws-trusted-credential-less.md).
 
     3.  Edit the Trust Relationship for this IAM role as follows:
 
         -   Set the **Action** parameter to `sts:AssumeRole`.
-        -   Set the **AWS** parameter to the ARN of the trusted account role that you created in [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-trusted-credential-less.md).
+        -   Set the **AWS** parameter to the ARN of the trusted account role that you created in [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aws-trusted-credential-less.md).
         \[Omitted image "aws-edit-trust-relat-trusting-credential-less.png"\] Alt text: Configure the trust relationship for the trusting account
 
 4.  Configure the MID Server for AWS IAM roles.
 
-    For more information, see [Configure the MID Server for AWS IAM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/config-mid-iam-roles.md).
+    For more information, see [Configure the MID Server for AWS IAM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/config-mid-iam-roles.md).
 
 5.  On the ServiceNow AI Platform, configure the trusted service account.
 
@@ -92,7 +92,7 @@ To use an account without AWS credentials, you must first configure that account
 
     3.  On the form, fill in the fields.
 
-        For a description of the field values, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-aws-service-accounts.md).
+        For a description of the field values, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-aws-service-accounts.md).
 
     4.  Select **Submit**.
 
@@ -106,7 +106,7 @@ To use an account without AWS credentials, you must first configure that account
 
     4.  On the form, fill in the remaining fields.
 
-        For a description of the field values, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-aws-service-accounts.md).
+        For a description of the field values, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-aws-service-accounts.md).
 
     5.  Select **Submit**.
 
@@ -196,5 +196,5 @@ Verify that ServiceNow applications can access the trusting service account usin
     -   If the connection is successful, a message displays indicating the account validation is successful.
     -   If the connection isn't successful, an error message displays indicating the cause of failure.
 
-**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/setup-aws-service-accounts.md)
 

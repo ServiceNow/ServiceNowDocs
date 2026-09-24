@@ -2,7 +2,7 @@
 title: Locate and pick the hardware assets in your stockroom using the Mobile Agent application
 description: Locate a hardware asset placed in a specific aisle and space in the stockroom by using indoor maps. After locating the asset, pick and drop off the asset to another location within the stockroom using the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/locate-and-pick-hardware-asset-using-mobile-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/locate-and-pick-hardware-asset-using-mobile-app.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -74,7 +74,7 @@ Role required: inventory\_user
     -   The **Location** field of the asset is updated with the drop off location only if you have specified the drop off location.
     -   The Hardware Asset request flow and Hardware Refresh request flow proceed to the next stage.
 
-**Parent Topic:**[Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md)
+**Parent Topic:**[Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md)
 
 **Related topics**  
 

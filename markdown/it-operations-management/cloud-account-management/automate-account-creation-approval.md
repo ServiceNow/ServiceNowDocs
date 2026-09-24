@@ -2,7 +2,7 @@
 title: Automate General Approval policy process
 description: Automate the general approval or rejection of requests based on predefined conditions. Requests are automatically approved when the criteria are met. Otherwise, the system waits for manual approval. You can modify the default policy to include additional conditions as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/automate-account-creation-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/automate-account-creation-approval.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

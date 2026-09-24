@@ -2,7 +2,7 @@
 title: Import Microsoft 365 subscription entitlements
 description: Import Microsoft 365 subscription entitlements into the ServiceNow Software Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/imp-m365-ent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/imp-m365-ent.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -124,10 +124,10 @@ Software Asset Workspace
 
         If the discovery map doesn't match, add or edit directly on the software model form and select **Update**.
 
-        **Tip:** After the entitlements are imported, you might need additional subscriptions purchases during the true-up process with Microsoft. For more information, see. [Creating reserve entitlements for Microsoft online services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/creating-0365-reserve-entitlements.md).
+        **Tip:** After the entitlements are imported, you might need additional subscriptions purchases during the true-up process with Microsoft. For more information, see. [Creating reserve entitlements for Microsoft online services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/creating-0365-reserve-entitlements.md).
 
 
 ## What to do next
 
-[Reconcile for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/recon-for-comp-sg.md)
+[Reconcile for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/recon-for-comp-sg.md)
 

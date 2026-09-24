@@ -2,7 +2,7 @@
 title: NowGraphQLService class - iOS
 description: The NowGraphQLService class provides functions that enable you to make requests using GraphQL queries against data on your ServiceNow instance through its GraphQL REST API.Executes the specified GraphQL query.Executes the specified GraphQL query.Creates a NowGraphQLService based on the specified parameters.Creates a publisher to request GraphQL data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowGraphQLServiceiOSAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowGraphQLServiceiOSAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -18,9 +18,9 @@ The NowGraphQLService class provides functions that enable you to make requests 
 
 |Name|Type|Description|
 |----|----|-----------|
-|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)|Configuration settings provided when the service was initialized.|
+|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)|Configuration settings provided when the service was initialized.|
 
-**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowGraphQLService - execute\(query: GraphQLQuery\) async throws
 
@@ -243,7 +243,7 @@ configuration
 
 </td><td>
 
-[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)
+[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)
 
 </td><td>
 

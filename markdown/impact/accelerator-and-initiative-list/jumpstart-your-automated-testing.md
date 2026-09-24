@@ -2,7 +2,7 @@
 title: Jumpstart Your Automated Testing
 description: Prescriptive guidance on enabling and utilizing Automated Test Framework
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-automated-testing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-automated-testing.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

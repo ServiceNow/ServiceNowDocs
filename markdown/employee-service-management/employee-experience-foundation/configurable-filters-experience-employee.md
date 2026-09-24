@@ -2,7 +2,7 @@
 title: Configurable task filters
 description: Enable the employee to use filters, filter groups, and categories to easily filter, discover, and fulfill the tasks in a few clicks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configurable-filters-experience-employee.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configurable-filters-experience-employee.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +29,7 @@ Admins can create and map conditions to filters. Organize the display preference
 
 You can customize your own filters to suit your business requirements, for example, create a custom filter to display approvals from third-parties such as SAP Concur or Workday.
 
-Employees can use these filters and conditions for [Task filters on My tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configurable-filters-experience.md)
+Employees can use these filters and conditions for [Task filters on My tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configurable-filters-experience.md)
 
 **Note:** The filter framework is extensible. You can customize your own filters to suit your business needs.
 

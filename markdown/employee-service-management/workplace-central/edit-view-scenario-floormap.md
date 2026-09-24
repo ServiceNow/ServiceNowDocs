@@ -2,7 +2,7 @@
 title: Edit a scenario using the floor map
 description: Edit a scenario using the floor map to add or remove allocations, or to assign users to spaces in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/edit-view-scenario-floormap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/edit-view-scenario-floormap.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -22,10 +22,10 @@ Make sure that you have created a scenario, and it is in the Draft state. For mo
 
 Make sure that you have selected Indoor Mapping as your map provider to view maps.
 
--   For more information about selecting a map provider, see [Customize the map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-configure-map-properties.md).
--   For more information about indoor mapping, see [Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/Indoor-mapping.md).
+-   For more information about selecting a map provider, see [Customize the map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-configure-map-properties.md).
+-   For more information about indoor mapping, see [Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/Indoor-mapping.md).
 
-**Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
+**Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
 
 \[Omitted image "wsd-central-review-changes.png"\] Alt text: Space details panel displaying a warning about reviewing allocation changes.
 
@@ -53,15 +53,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
 
 5.  Edit the scenario by using the floor map.
 
-<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d726181e217">
+<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d726185e217">
 
 Action
 
-</th><th align="left" id="d726181e220">
+</th><th align="left" id="d726185e220">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d726181e226">
+</th></tr></thead><tbody><tr><td id="d726185e226">
 
 **Zoom in or out on the map**
 
@@ -69,7 +69,7 @@ Description
 
 Use the zoom options \(\[Omitted image "zoom-options.png"\] Alt text: Zoom options.\) on the map.
 
-</td></tr><tr><td id="d726181e241">
+</td></tr><tr><td id="d726185e241">
 
 **Change the map to a different floor and building**
 
@@ -77,7 +77,7 @@ Use the zoom options \(\[Omitted image "zoom-options.png"\] Alt text: Zoom optio
 
 Select a building and floor from the **Building** and **Floor** list options.
 
-</td></tr><tr><td id="d726181e256">
+</td></tr><tr><td id="d726185e256">
 
 **Share a floor**
 
@@ -94,7 +94,7 @@ A link to the floor is copied and can be shared with other space planners. Make 
 -   You can only share floors from scenario planning.
 
 
-</td></tr><tr><td id="d726181e297">
+</td></tr><tr><td id="d726185e297">
 
 **Select spaces based on a filter query**
 
@@ -111,7 +111,7 @@ Spaces on the map are selected based on the conditions that you added.
 
  **Note:** You can select spaces only while editing a scenario.
 
-</td></tr><tr><td id="d726181e342">
+</td></tr><tr><td id="d726185e342">
 
 **View the details of a space**
 
@@ -123,7 +123,7 @@ The details of the selected spaces are displayed on the Space details panel sect
 
 **Note:** You can select spaces only while editing a scenario.
 
-</td></tr><tr><td id="d726181e358">
+</td></tr><tr><td id="d726185e358">
 
 **Edit the allocation of a space**
 
@@ -145,7 +145,7 @@ You can select multiple spaces by holding the Shift key. You can also hold the S
 5.  Select **Apply**, then save the scenario.
  **Note:** For Workplace Entities, if you add a parent and child entity as allocations, only the child entity is displayed on the map legend.
 
-</td></tr><tr><td id="d726181e439">
+</td></tr><tr><td id="d726185e439">
 
 **Edit the assignment type of a space**
 
@@ -160,7 +160,7 @@ You can select multiple spaces by holding the Shift key. You can also hold the S
 4.  Select **Apply**, then save the scenario.
 
 
-</td></tr><tr><td id="d726181e477">
+</td></tr><tr><td id="d726185e477">
 
 **Assign a user to a space**
 
@@ -178,7 +178,7 @@ You can also select multiple users.
 4.  Select **Apply**, then save the scenario.
 
 
-</td></tr><tr><td id="d726181e517">
+</td></tr><tr><td id="d726185e517">
 
 **Remove a user assigned to a space**
 
@@ -191,7 +191,7 @@ You can select only a single space to remove a user.
 2.  On the Space details panel, on the **Assignment** card, remove a user by selecting the remove assignment option.
 
 
-</td></tr><tr><td id="d726181e540">
+</td></tr><tr><td id="d726185e540">
 
 **Edit the display of user assignment and assignment type on the map**
 
@@ -203,7 +203,7 @@ You can select only a single space to remove a user.
     -   **Assignment type**: Option to display the type of assignment, that is, flexible or permanent.
 
 
-</td></tr><tr><td id="d726181e574">
+</td></tr><tr><td id="d726185e574">
 
 **View the map as defined in the Map Studio**
 
@@ -214,7 +214,7 @@ You can select only a single space to remove a user.
 
 The map displays spaces as defined in the Map Studio.
 
-</td></tr><tr><td id="d726181e597">
+</td></tr><tr><td id="d726185e597">
 
 **Change the opacity of colored spaces**
 
@@ -232,7 +232,7 @@ The specified opacity value is set for the colored spaces.
     If **Neighborhood** is selected as the group by option, only assignments that have the **Neighborhood assignment** type are applicable. For any other group by option, assignments that have the **Location assignment** type are applicable.
 
 
-**Parent Topic:**[Viewing or editing a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/viewing-editing-scenario.md)
+**Parent Topic:**[Viewing or editing a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/viewing-editing-scenario.md)
 
 **Related topics**  
 

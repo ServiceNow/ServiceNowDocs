@@ -2,7 +2,7 @@
 title: Advanced Work Assignment in Accounts Payable Operations
 description: Advanced Work Assignment \(AWA\) automatically assigns invoice cases to qualified AP agents based on availability, capacity, and skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/advanced-work-assignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/advanced-work-assignment.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,10 +23,10 @@ For more information about AWA, see [Advanced Work Assignment](https://raw.githu
 
 **Note:** Check your entitlements to determine whether you have access to Advanced Work Assignment in Accounts Payable Operations in Source-to-Pay Operations Professional.
 
--   **[Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/setting-up-AWA-for-APO.md)**  
+-   **[Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/setting-up-AWA-for-APO.md)**  
 Set up Advanced Work Assignment \(AWA\) to automatically route work items to qualified agents in Accounts Payable Operations.
 
-**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

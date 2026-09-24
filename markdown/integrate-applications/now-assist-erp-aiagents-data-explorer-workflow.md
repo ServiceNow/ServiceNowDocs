@@ -2,12 +2,12 @@
 title: Explore ERP models agentic workflow
 description: Use the Explore ERP models AI agent team in ServiceNow Otto for Zero Copy Connector to obtain information about working with ERP database tables and models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use agentic AI, ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 
@@ -23,7 +23,7 @@ The Explore ERP models agentic workflow uses a team of AI agents to answer user 
 
 -   The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Otto for ZCC.
 -   You must have the Knowledge Graph plugin installed. For more information, see [Configuring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-knowledge-graph.md).
--   Follow the steps in [ServiceNow Otto for Zero Copy Connector agentic workflow prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-ai-agents-prereqs.md) before using the Explore ERP models agentic workflow.
+-   Follow the steps in [ServiceNow Otto for Zero Copy Connector agentic workflow prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/now-assist-erp-ai-agents-prereqs.md) before using the Explore ERP models agentic workflow.
 
 ## AI agents used in the Explore ERP models agentic workflow
 

@@ -2,7 +2,7 @@
 title: Diagnose and resolve an incident
 description: As a customer service agent, review, diagnose, and resolve, and close an incident for the service-related issue experienced by the customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/diagnose-reslove-incident-psew.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/diagnose-reslove-incident-psew.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -120,5 +120,5 @@ The incident progresses through several stages from start to closure. It begins 
 9.  View the incident-related records in the **Related records** tab.
 
 
-**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
+**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 

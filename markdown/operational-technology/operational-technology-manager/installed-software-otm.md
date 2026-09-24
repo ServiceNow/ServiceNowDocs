@@ -2,7 +2,7 @@
 title: Installed software for Operational Technology Management
 description: The installed software for the Operational Technology Management solution comes from IT Discovery for Operational Technology \(OT\) Networks or from the OT-certified Service Graph Connectors that support installed software.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/installed-software-otm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/installed-software-otm.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -36,5 +36,5 @@ You can view the installed software for OT devices in the Industrial Workspace i
 -   The **Software Installed on OT Devices** list in the Industrial Workspace list view under the **Operational Technology \(OT\)** module.
 -   The **Software Installed** list under the **Related Records** tab in an OT device record.
 
-**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

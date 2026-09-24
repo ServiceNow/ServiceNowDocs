@@ -2,7 +2,7 @@
 title: Configure the layout of a responsive dashboard
 description: You can change the appearance of widgets; change widget layouts; change the colors of the widget title, header, and background; and show or hide widget headers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/configure-widget-layouts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/configure-widget-layouts.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -18,7 +18,7 @@ You can change the appearance of widgets; change widget layouts; change the colo
 
 ## Before you begin
 
-Role required: User. dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
+Role required: User. dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
 
 **Note:** Responsive dashboards do not support the Sticky Notes widget.
 
@@ -120,5 +120,5 @@ Core UI dashboard backgrounds are not themeable with custom colors.
     From the **Add Widgets** list, select Content Blocks. For information about static content blocks, see [Configure a static HTML block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_StaticHTMLBlock.md).
 
 
-**Parent Topic:**[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md)
+**Parent Topic:**[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_EditADashboard.md)
 

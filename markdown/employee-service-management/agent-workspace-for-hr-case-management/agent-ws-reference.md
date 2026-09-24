@@ -2,7 +2,7 @@
 title: Agent Workspace for HR Case Management reference
 description: Reference topics provide additional information about Agent Workspace for HR Case Management components and forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -16,14 +16,14 @@ breadcrumb: [Agent Workspace, HR Service Delivery, Employee Service Management]
 
 Reference topics provide additional information about Agent Workspace for HR Case Management components and forms.
 
--   **[Create a case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md)**  
+-   **[Create a case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md)**  
 The Create a case form allows you to create a case in Agent Workspace for HR Case Management.
--   **[Page Configurations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/configuration-settings.md)**  
+-   **[Page Configurations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/configuration-settings.md)**  
 A description of the page configuration settings in Agent Workspace for HR Case Management.
--   **[Highlighted value condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/highlighted-value-form.md)**  
+-   **[Highlighted value condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/highlighted-value-form.md)**  
 Use the Highlighted value condition form to create conditions to highlight a field.
--   **[Bulk case request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/bulk-case-request-form.md)**  
+-   **[Bulk case request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/bulk-case-request-form.md)**  
 The bulk case request form provides information to create a bulk case request to enable the creation of the same type of HR cases.
 
-**Parent Topic:**[Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md)
+**Parent Topic:**[Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md)
 

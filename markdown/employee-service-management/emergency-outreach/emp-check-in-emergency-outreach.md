@@ -2,7 +2,7 @@
 title: Report your health status
 description: If you receive an email, mobile push notification, or SMS notification to report your health status, you can update your status from the message.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/emp-check-in-emergency-outreach.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-outreach/emp-check-in-emergency-outreach.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -18,7 +18,7 @@ If you receive an email, mobile push notification, or SMS notification to report
 
 ## Before you begin
 
-To receive mobile push notifications, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
+To receive mobile push notifications, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: none
 
@@ -49,5 +49,5 @@ Role required: none
 
 After you reply to the notification, your response is sent to you and your employer. A record for your response is also updated. Your personal information is secure. Only the staff managing the health situation have access to your response.
 
-**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-outreach/emergency-outreach.md)
 

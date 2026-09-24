@@ -2,7 +2,7 @@
 title: Component installed with KCS Integration for Incident Management plugin
 description: The Incident KCS Article table is installed with the activation of the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/installed-with-incident-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/installed-with-incident-mgmt.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -37,5 +37,5 @@ Incident KCS Article\[kb\_template\_incident\_kcs\_article\]
 The table is used to store knowledge articles created from the Incident KCS template.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-kcs-integration-for-im.md)
+</table>**Parent Topic:**[Activate KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/activate-kcs-integration-for-im.md)
 

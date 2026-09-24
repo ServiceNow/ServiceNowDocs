@@ -2,7 +2,7 @@
 title: Configure related services for a service definition
 description: After creating a service definition, you can associate one or more related services with the service definition. This creates a parent-child relationship between service definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-def-config-related-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/service-def-config-related-services.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

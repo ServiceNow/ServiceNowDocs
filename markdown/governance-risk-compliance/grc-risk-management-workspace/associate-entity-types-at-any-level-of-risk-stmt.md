@@ -2,7 +2,7 @@
 title: Association of entities at any level of a risk statement
 description: You can associate entities, entity types, and indicator templates, at any level of the risk statement hierarchy. Creating this association is useful for risk managers while assessing risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/associate-entity-types-at-any-level-of-risk-stmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/associate-entity-types-at-any-level-of-risk-stmt.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -22,5 +22,5 @@ The following figure shows the risk statement form where users can associate ent
 
 \[Omitted image "associate-entities-to-rs.png"\] Alt text: Form where the users can associate entities to risk statements at 0 level
 
-**Parent Topic:**[Risk hierarchy and scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-hierarchy-scoring.md)
+**Parent Topic:**[Risk hierarchy and scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-hierarchy-scoring.md)
 

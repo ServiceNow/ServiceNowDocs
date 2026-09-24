@@ -2,7 +2,7 @@
 title: Personalize and filter data in EAP Backlog
 description: View the information that is most relevant to you and your team on the Backlog tab by choosing the columns to be displayed. You can also apply filters to narrow down the data on the page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/personalize-and-filter-data-in-eap-backlog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/personalize-and-filter-data-in-eap-backlog.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -57,5 +57,5 @@ Role required: sn\_apw\_advanced.eap\_user
     \[Omitted image "eap-backlog-art-personalize.png"\] Alt text: Group items on ART Backlog by team or planning interval.
 
 
-**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md)
 

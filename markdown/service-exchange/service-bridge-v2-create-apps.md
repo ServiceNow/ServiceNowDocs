@@ -2,7 +2,7 @@
 title: Remote catalogs
 description: As an application developer for the provider, you can create a remote catalog item containing the services for your consumers. After you create these items, an administrator in the consumer’s instance can assign them to the consumer's catalogs and categories and then activate them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-create-apps.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -27,10 +27,10 @@ For example, let's say that you have multiple SD-WAN product offerings: Gold, Si
 
 You can package all 20 of those services in a single catalog. The consumers for each product offering only have rights to the services to which they are entitled.
 
-To learn more, see [Create remote catalogs in Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-catalog.md).
+To learn more, see [Create remote catalogs in Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-remote-catalog.md).
 
 **Related topics**  
 
 
-[Create remote catalogs in Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-catalog.md)
+[Create remote catalogs in Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-remote-catalog.md)
 

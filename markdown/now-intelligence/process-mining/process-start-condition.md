@@ -2,7 +2,7 @@
 title: Create new process start/end condition
 description: Crop your process by setting the new process start condition and new process end condition. This configuration defines which part of the process should be included in the Process Mining project and made available for analysis. The Create new process start and end condition forms have the same fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/process-start-condition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/process-start-condition.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -115,5 +115,5 @@ Contextual Condition
 Additional condition that must be true when the current condition is triggered. For example, you configure your condition to trigger when a record is in the New state. If you wanted to also specify that the **Priority** is high, you can do that using the **Contextual Condition** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-mining-reference.md)
 

@@ -2,7 +2,7 @@
 title: Set up RPA Desktop Design Studio
 description: Set up RPA Desktop Design Studio to add your ServiceNow RPA Hub instance details in Connection Manager and to start using the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/set-up-rpa-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/set-up-rpa-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Watch this video to learn about the configuration of RPA Desktop Design Studio.
 
 ## Before you begin
 
-Install RPA Desktop Design Studio. For more information on how to install it, see [Install RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-rpa-studio.md).
+Install RPA Desktop Design Studio. For more information on how to install it, see [Install RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-rpa-studio.md).
 
 Role required: none
 
@@ -116,5 +116,5 @@ Option for launching the instance in the default browser of your machine.
 
 ## What to do next
 
-You can start creating automations from the RPA Desktop Design Studio home page. For more information on how to create automations, see [Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-project.md) or [Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md).
+You can start creating automations from the RPA Desktop Design Studio home page. For more information on how to create automations, see [Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-automation-project.md) or [Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-automation-now-assist.md).
 

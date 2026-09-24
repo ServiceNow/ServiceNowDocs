@@ -2,7 +2,7 @@
 title: Report fraud
 description: Report potential fraud on a transaction to the Visa card network. If potential fraud was flagged for a transaction during manual investigation, a transaction includes the fraud reporting task within the workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/report-fraud-visa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/report-fraud-visa.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -60,5 +60,5 @@ Depending on the policy rule, the task moves to the next task. The following tas
 |No Credit|Alert merchant task|
 |Deny|Case is denied|
 
-**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-stage.md)
+**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/investigate-stage.md)
 

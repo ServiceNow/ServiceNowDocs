@@ -2,7 +2,7 @@
 title: Respond to an acknowledgement request using the Compliance Workspace
 description: After you have been identified as a member of an audience to provide a policy acknowledgement, you must open and review the record in the Compliance Workspace, and then acknowledge it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/respond-to-ack-request-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/respond-to-ack-request-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -51,7 +51,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
     -   **Request Exception**
 
-        If, for any reason, you do not want to respond, and the request is configured in such a way that you can opt out, click [**Request Exception**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/request-policy-exception-ws.md).
+        If, for any reason, you do not want to respond, and the request is configured in such a way that you can opt out, click [**Request Exception**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/request-policy-exception-ws.md).
 
     -   **Exempt**
 

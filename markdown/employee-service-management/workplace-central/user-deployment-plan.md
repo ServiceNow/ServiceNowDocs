@@ -2,7 +2,7 @@
 title: User Deployment Plan
 description: A user deployment plan contains information about how the changes made in the scenario impact the employees and their workplace locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/user-deployment-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/user-deployment-plan.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -76,7 +76,7 @@ Workplace case
 Workplace case record that is created for assignment changes of the user.Workplace cases are created after a scenario is deployed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

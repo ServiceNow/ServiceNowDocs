@@ -2,7 +2,7 @@
 title: Add or edit a scoring profile
 description: You can add or edit a scoring profile with new indicators and associate it with the business application. You can also use the same indicators within many scoring profiles, which generate indicator scores unique to that scoring profile. After you create a scoring profile, you have to associate it with indicators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-scoring-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-scoring-profile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,18 +34,18 @@ Role required: sn\_apm.apm\_admin
     -   To update details of an existing scoring profile, select the scoring profile.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create scoring profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-new-scoring-profile-form.md).
+    For field information, see [Create scoring profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/create-new-scoring-profile-form.md).
 
 7.  Select **Save**.
 
 
--   **[Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md)**  
+-   **[Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md)**  
 You must associate scoring profiles with profile indicators.
 
-**Parent Topic:**[Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-scroring-prof.md)
+**Parent Topic:**[Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-scroring-prof.md)
 
 **Related topics**  
 
 
-[View all scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-scoring-profiles.md)
+[View all scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-scoring-profiles.md)
 

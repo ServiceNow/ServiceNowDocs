@@ -2,7 +2,7 @@
 title: Modify the data retention policy for knowledge usage metrics
 description: Remove unwanted and older data from the knowledge usage metrics \[kb\_usage\_metrics\] table through the data retention policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/Modify-data-retention-policy-knowledge-usage-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/Modify-data-retention-policy-knowledge-usage-metrics.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -39,5 +39,5 @@ Activating the data retention policy for the kb\_usage\_metrics table deletes re
 5.  Click **Update**.
 
 
-**Parent Topic:**[Collect knowledge usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/Guest-user-diagnostic.md)
+**Parent Topic:**[Collect knowledge usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/Guest-user-diagnostic.md)
 

@@ -2,7 +2,7 @@
 title: Apache Kafka integration configuration fields
 description: Description of the fields on the Apache Kafka integration configuration forms for Health Log Analytics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-kafka-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/il-connector-hla-kafka-fields.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -17,7 +17,7 @@ breadcrumb: [Integration configuration fields, Health Log Analytics reference, H
 
 Description of the fields on the Apache Kafka integration configuration forms for Health Log Analytics.
 
-For the Apache Kafka integration setup procedure, see [Set up an Apache Kafka integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-kafka.md).
+For the Apache Kafka integration setup procedure, see [Set up an Apache Kafka integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-kafka.md).
 
 <table id="table_cnt_1x5_l2c"><thead><tr><th>
 
@@ -130,7 +130,7 @@ Kafka credentials
 
 </td><td>
 
-The Apache Kafka credentials.You can select existing Kafka SSL credentials, or create new ones by selecting **Create Kafka credentials** from the drop-down list. For a description of the fields on the Kafka SSL credentials form, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
+The Apache Kafka credentials.You can select existing Kafka SSL credentials, or create new ones by selecting **Create Kafka credentials** from the drop-down list. For a description of the fields on the Kafka SSL credentials form, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
 
 </td></tr><tr><td>
 

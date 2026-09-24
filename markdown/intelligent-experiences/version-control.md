@@ -2,7 +2,7 @@
 title: Version control for AI agents and agentic workflows
 description: Version control enables you to track changes made to instructions sent to the LLM for AI agents and agentic workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/version-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/version-control.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ You can create a version by selecting **View versions** &gt; **New version** in 
 
 You can choose to make the new version active immediately by selecting the **Set as active** toggle.
 
-For more information about writing effective descriptions and instructions, see [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
+For more information about writing effective descriptions and instructions, see [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gg-creating-aia.md).
 
 When creating a new version, you also have the option to use ServiceNow Otto to refine your current **List of steps**. You must already have an active version for this option to be available. Selecting **View versions** &gt; **Refine version** brings up the modal where ServiceNow Otto generates and displays a new **List of steps** for you to review. You can change any of the generated text, or you can use it as it was generated. Select **Create** to use the new, refined version.
 
@@ -36,7 +36,7 @@ When creating a new version, you also have the option to use ServiceNow Otto to 
 
 When you have multiple versions of the same **List of steps** field, you can switch which one is active at any time. Choosing to make a new version active enables you to test it and evaluate its effectiveness.
 
-If you’re updating an agentic workflow, you can [execute an agentic evaluation run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md) to measure performance.
+If you’re updating an agentic workflow, you can [execute an agentic evaluation run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/execute-aia-eval.md) to measure performance.
 
 You can decide which version is active by selecting **View versions** in the guided setup. Toggle the **Set as active** field and save your changes to make the new version active.
 

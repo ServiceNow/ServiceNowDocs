@@ -2,7 +2,7 @@
 title: Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD
 description: Create drafts of knowledge articles that are based on the case descriptions with ServiceNow Otto for HR Service Delivery \(HRSD\). Generating article content with generative AI enables you to write efficiently as you address user concerns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -25,7 +25,7 @@ Create drafts of knowledge articles that are based on the case descriptions with
     -   Latest version of Agent Workspace for HR Case Management \[sn\_hr\_agent\_ws\]
     -   Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\]
     -   Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_relations\]
--   Activate the KB generation skill from the AI Admin Hub console. For more information, see [Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
+-   Activate the KB generation skill from the AI Admin Hub console. For more information, see [Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
 Role required:
 
@@ -60,15 +60,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 7.  Select one of the following in the **Use AI to draft this article?** modal.
 
-<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d390947e245">
+<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d390951e245">
 
 Option
 
-</th><th align="left" id="d390947e248">
+</th><th align="left" id="d390951e248">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d390947e254">
+</th></tr></thead><tbody><tr><td id="d390951e254">
 
 **Yes, draft with ServiceNow Otto**
 
@@ -76,7 +76,7 @@ Description
 
 Use ServiceNow Otto to draft an article based on task details.You can review and edit the article before it is published.
 
-</td></tr><tr><td id="d390947e270">
+</td></tr><tr><td id="d390951e270">
 
 **No, write it myself**
 
@@ -94,7 +94,7 @@ Draft the article manually.
 10. View, save, or publish the article by using the UI actions on the screen.
 
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

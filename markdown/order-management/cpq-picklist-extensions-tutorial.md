@@ -2,7 +2,7 @@
 title: Configure picklist extensions
 description: Learn how to create and configure picklist extensions \(Picklist extensions\) in CPQ. Add extended option details, apply filters, and map products and quantities to display enriched picklist data in layouts for more dynamic and efficient configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-picklist-extensions-tutorial.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-picklist-extensions-tutorial.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -89,13 +89,13 @@ Role required: Admin
 
 19. Add the picklist extension field to the layout via the CPQ Admin UI or by CSV upload, and deploy.
 
-    For more information, see [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md).\[Omitted image "cpq-picklist-extensions-ples-5.png"\] Alt text: Picklist extensions
+    For more information, see [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md).\[Omitted image "cpq-picklist-extensions-ples-5.png"\] Alt text: Picklist extensions
 
 
 **Related topics**  
 
 
-[Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md)
+[Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md)
 
-[Picklists and picklist extensions in rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-picklists-and-picklist-extensions-in-rules.md)
+[Picklists and picklist extensions in rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-picklists-and-picklist-extensions-in-rules.md)
 

@@ -2,7 +2,7 @@
 title: Create an internal play
 description: Create an internal play to define planned or unplanned activities that the customer does not have access to during the engagement lifecycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,7 +56,7 @@ An internal play is used to monitor internal activities that the customer does n
 4.  In the **Define the Action Plan** phase, you can perform the following activities:
 
     -   Formulate the action steps: Specify the action plan for this playbook. This will appear in the worknote. Select **Send and continue** to proceed to the next activity. The action plan will appear as work in the Activity stream section of the playbook.
-    -   Related work: Select **Create task** to create an internal play task. See [Create an internal play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-internal-play-task.md) for a detailed description of this form.
+    -   Related work: Select **Create task** to create an internal play task. See [Create an internal play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-internal-play-task.md) for a detailed description of this form.
 
         **Note:** Internal play tasks that are in New, In-progress, or Paused state are displayed in this page. To continue to the next activity, update the `State` to Complete or Canceled. After all the internal play tasks have been closed or canceled, select **Mark Complete** to continue with the next activity.
 
@@ -73,16 +73,16 @@ An internal play is used to monitor internal activities that the customer does n
 
 ## What to do next
 
--   Create internal play tasks to define tasks that should be performed when an internal play is launched. See [Create an internal play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-internal-play-task.md).
+-   Create internal play tasks to define tasks that should be performed when an internal play is launched. See [Create an internal play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-internal-play-task.md).
 -   Select **Discuss** to start a sidebar discussion about this internal play. In the pop-up window, select the participants who need to participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this internal play. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
 -   Email: Open the Activity stream and select **Email** from the More drop down list. Enter the required details and select **Send email**.
 
 .
 
--   **[Create an internal play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-internal-play-task.md)**  
+-   **[Create an internal play task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-internal-play-task.md)**  
 Create an internal play task that must be performed when the internal play is launched. An internal play task must have a clear purpose and specifies the activity that must be performed. It is not visible to customers.
--   **[Close or cancel an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cancel-internal-play.md)**  
+-   **[Close or cancel an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-cancel-internal-play.md)**  
 You can close or cancel an internal play and all the related tasks.
 
-**Parent Topic:**[Manage customer success playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.md)
+**Parent Topic:**[Manage customer success playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.md)
 

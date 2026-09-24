@@ -2,7 +2,7 @@
 title: Scheduling in Workforce Optimization for Field Service
 description: Scheduling in Workforce Optimization for Field Service enables you to manage your workforce resources efficiently by planning and managing schedules, staffing, and shifts across your teams all from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -41,5 +41,5 @@ For more information about key performance indicators and sidebars, see [Explori
     -   The **shift\_planning\_clock-in** and **shift\_planning\_clock-out** scripts generate the agents' clock-in and clock-out events from the login and logout sessions. The business rule **Agent Time Work Event Trigger** generates clock-in and clock-out events whenever there is a change in agent's presence state.
     -   **Schedule Adherence**= \(Minutes worked in shift/Scheduled shift time in minutes + Overtime\)
     -   **Conformance**= \(Minutes worked in shift + Overtime\)/Scheduled shift time in minutes
--   The ideal adherence percentage by default is above 70, and conformance is between 80 to 120. However, your administrator can change the threshold values. For more information, see [Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md). The agents who do not qualify to the defined threshold values are considered as non-adherent and are highlighted in red.
+-   The ideal adherence percentage by default is above 70, and conformance is between 80 to 120. However, your administrator can change the threshold values. For more information, see [Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md). The agents who do not qualify to the defined threshold values are considered as non-adherent and are highlighted in red.
 

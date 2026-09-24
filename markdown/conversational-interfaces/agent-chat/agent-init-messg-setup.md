@@ -2,7 +2,7 @@
 title: Set up Agent-Initiated Messaging Interface for a messaging channel
 description: Set up the Agent-Initiated Messaging Interface application to send messages from a messaging channel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/agent-init-messg-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/agent-init-messg-setup.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -18,8 +18,8 @@ Set up the Agent-Initiated Messaging Interface application to send messages from
 
 ## Before you begin
 
--   [Install agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/install-agent-init-messg.md).
--   [Review the list of messaging channels available for the Agent-Initiated Messaging Interface application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/agent-init-messg-sc-setting.md).
+-   [Install agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/install-agent-init-messg.md).
+-   [Review the list of messaging channels available for the Agent-Initiated Messaging Interface application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/agent-init-messg-sc-setting.md).
 -   Set the application scope to the application associated with the messaging channel using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
     For example, for using the SMS messaging channel, set the application scope to the Conversational SMS service channel application.
@@ -31,7 +31,7 @@ Role required: admin
 
 A messaging channel is available when you install the application associated with a service channel.
 
-For example, use the SMS messaging channel to send an SMS message to a customer. The SMS messaging channel is available when you have installed the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/install-conversational-sms.md) application.
+For example, use the SMS messaging channel to send an SMS message to a customer. The SMS messaging channel is available when you have installed the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/install-conversational-sms.md) application.
 
 ## Procedure
 
@@ -108,5 +108,5 @@ Order number for each channel in which they appear for agent on the Compose Mess
     -   If you created a new configuration setting, click **Submit**.
     -   If you modified an existing configuration setting, click **Update**.
 
-**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
+**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
 

@@ -2,7 +2,7 @@
 title: Delete a CDM application
 description: Delete a CDM application to delete all associated config data and snapshots.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-application-delete.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-application-delete.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

@@ -2,7 +2,7 @@
 title: Control which roles can personalize lists
 description: You can control who can create personal lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ControlAccessToTheListMechanic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_ControlAccessToTheListMechanic.html
 release: australia
 product: List Administration
 classification: list-administration

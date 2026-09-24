@@ -2,7 +2,7 @@
 title: Mirror the portal direction for right-to-left languages
 description: Mirror the direction of a portal's user interface for right-to-left languages by enabling the necessary CSS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/mirror-portal-direction-right-to-left-languages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/mirror-portal-direction-right-to-left-languages.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -42,7 +42,7 @@ Role required: sp\_admin or admin
 
     3.  In the **CSS Includes** related list, select the CSS Include that links to an external CSS library URL.
 
-        If you need to create a new CSS Include, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CustomCSS.md).
+        If you need to create a new CSS Include, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/c_CustomCSS.md).
 
     4.  In the **RTL CSS file URL** field, enter the URL to an external style sheet for mirroring the direction of a portal for right-to-left languages.
 
@@ -53,7 +53,7 @@ Role required: sp\_admin or admin
 
 When the session language is a right-to-left language, the direction of the portal user interface is mirrored to display from right to left.
 
-If any content in your portal isn’t automatically mirrored for right-to-left languages, see [CSS for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/css-directives-right-to-left-languages.md) for information about how to resolve these issues.
+If any content in your portal isn’t automatically mirrored for right-to-left languages, see [CSS for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/css-directives-right-to-left-languages.md) for information about how to resolve these issues.
 
-**Parent Topic:**[Styling for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/styling-right-to-left-languages.md)
+**Parent Topic:**[Styling for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/styling-right-to-left-languages.md)
 

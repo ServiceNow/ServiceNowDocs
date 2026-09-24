@@ -2,7 +2,7 @@
 title: Configure a Core UI global landing page in Next Experience enabled instances
 description: Set a Core UI landing page for all users so users on instances with Next Experience enabled see the same landing page as users on upgraded instances. Upgraded users see the landing pages they had before in the Next Experience UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-ui16-landing-page-in-next-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/use-ui16-landing-page-in-next-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ Values in the user preference **my\_home\_navigation\_page** override the value 
 
 When users log in, they see the selected landing page instead of the default.
 
-**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-pages.md)
+**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-landing-pages.md)
 

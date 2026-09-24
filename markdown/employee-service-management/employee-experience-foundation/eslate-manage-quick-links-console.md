@@ -2,7 +2,7 @@
 title: Configure quick links from the admin console
 description: Add, reorder, remove quick links, or apply user criteria from the guided Home section in the admin console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +19,7 @@ Add, reorder, remove quick links, or apply user criteria from the guided **Home*
 
 ## Before you begin
 
-Create the quick links to add before you start. For more information, see [Quick links widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-quick-links.md).
+Create the quick links to add before you start. For more information, see [Quick links widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-quick-links.md).
 
 Role required: Admin or ESC Admin.
 
@@ -71,5 +71,5 @@ Employees see the updated quick links on the home page based on this configurati
 **Related topics**  
 
 
-[Quick links widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-quick-links.md)
+[Quick links widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-quick-links.md)
 

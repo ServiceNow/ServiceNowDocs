@@ -2,7 +2,7 @@
 title: Viewing app origination information in ServiceNow Studio
 description: View app origination information on the App details page in ServiceNow Studio to determine where an app was created and which environment to use for editing and deployment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/viewing-app-origination-information-in-sns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/viewing-app-origination-information-in-sns.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -26,7 +26,7 @@ Each App details page shows whether the app was created in Creator Studio or cre
 
 Only apps created in Creator Studio can be edited in Creator Studio. Creator Studio supports only a subset of the metadata supported in ServiceNow Studio.
 
-Open an app in Creator Studio by selecting the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text: on the Navigator panel or the App details page and selecting **Open with Creator Studio**. For more information, see [Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/building-apps-with-creator-studio.md).
+Open an app in Creator Studio by selecting the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text: on the Navigator panel or the App details page and selecting **Open with Creator Studio**. For more information, see [Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/building-apps-with-creator-studio.md).
 
 \[Omitted image "sn-studio-open-in-crs.png"\] Alt text: Option to open the current app in Creator Studio from the Navigator panel.
 
@@ -38,7 +38,7 @@ Apps created in ServiceNow IDE can be edited in ServiceNow Studio.
 
 **Important:** Apps created in ServiceNow IDE or converted to Fluent cannot be deployed from ServiceNow Studio. Deploy these apps using the ServiceNow IDE.
 
-When you see the **Fluent** badge on an app, follow the normal app deployment process used in the ServiceNow IDE. For more information, see [Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md).
+When you see the **Fluent** badge on an app, follow the normal app deployment process used in the ServiceNow IDE. For more information, see [Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md).
 
 ## How do I filter apps by origination environment?
 
@@ -50,5 +50,5 @@ For more filtering options, select **Open list**. Use the classic UI16 list sort
 
 \[Omitted image "sn-studio-ide-created.png"\] Alt text: In the IDE Created column, find information about which environment your app was created in. This image shows two apps created in Creator Studio and two in ServiceNow Studio.
 
-**Parent Topic:**[Change your development experience in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/change-your-development-experience.md)
+**Parent Topic:**[Change your development experience in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/change-your-development-experience.md)
 

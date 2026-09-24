@@ -2,7 +2,7 @@
 title: Case exclusion reference fields
 description: The Case Exclusion Rule table stores the rules that determine when Invoice Case Management ignores an inbound email instead of creating an invoice inquiry case. This reference describes the table, its fields, and who can manage it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/case-exclusion-reference-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/case-exclusion-reference-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,7 +29,7 @@ Case exclusion rules are stored in the Case Exclusion Rule table \(`sn_spend_sdc
 |**Active**|Indicates whether the rule is in effect.|True/False|
 |**Conditions**|Condition builder that defines which inbound emails the rule matches. Available fields are Body Text, Keywords, Recipients, Subject, User, and User ID.|Conditions|
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

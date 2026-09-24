@@ -2,7 +2,7 @@
 title: Update a privacy assessment template
 description: Publish a new version of a smart assessment template to revise its questionnaire, response options, or automations. Each version maintains a change history of templates used in privacy screening, impact, and breach assessments.
 locale: en-us
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -41,7 +41,7 @@ Only one version can be published at a time, so all new assessments use the same
 
 6.  Edit the **General**, **Questions**, and **Automations** sections.
 
-    For details about each section, see [Types of assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/smart-assessments-in-privacy-management.md).
+    For details about each section, see [Types of assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/smart-assessments-in-privacy-management.md).
 
     **Note:** Publishing a new version doesn't activate previous automations. After you publish, activate all required automations on the new version.
 
@@ -60,5 +60,5 @@ Only one version can be published at a time, so all new assessments use the same
 
 The new template version is the only version available for sending new privacy assessments. In the Privacy Workspace, the version is recorded on each new assessment, and on the revised assessment template configuration record.
 
-**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
+**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 

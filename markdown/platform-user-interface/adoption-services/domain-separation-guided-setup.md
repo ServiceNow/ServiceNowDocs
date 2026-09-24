@@ -2,7 +2,7 @@
 title: Domain separation and Guided Setup
 description: In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Guided Setup. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/domain-separation-guided-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/domain-separation-guided-setup.html
 release: australia
 product: Adoption Services
 classification: adoption-services

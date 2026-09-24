@@ -2,7 +2,7 @@
 title: Installed with HR Service Delivery for Healthcare
 description: Several types of components are installed with activation of the HR Service Delivery for Healthcare plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-healthcare/installed-with-hr-hc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery-for-healthcare/installed-with-hr-hc.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -125,7 +125,7 @@ Payers enrollment\[sn\_hc\_professional\_payers\_enrollment\]
 Stores the healthcare professional details related to payer enrollments.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
+</table>**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
 
 **Related topics**  
 

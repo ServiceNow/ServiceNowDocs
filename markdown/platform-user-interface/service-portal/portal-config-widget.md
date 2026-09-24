@@ -2,7 +2,7 @@
 title: Portal config widget
 description: The Portal Config widget is the left panel of the Branding Editor, which you use to configure themes for your portal. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/portal-config-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/portal-config-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -18,7 +18,7 @@ The Portal Config widget is the left panel of the Branding Editor, which you use
 
 
 
-**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-config-widgets.md)
+**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-config-widgets.md)
 
 **Related topics**  
 

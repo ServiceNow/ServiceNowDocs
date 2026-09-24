@@ -2,7 +2,7 @@
 title: Propose a standard change template
 description: Propose a new standard change template when you identify a need while creating a change request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/propose-standard-chg-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/propose-standard-chg-template.html
 release: australia
 product: Change Management
 classification: change-management
@@ -24,7 +24,7 @@ Role required: itil, admin
 
 As an IT technician, you can propose a new change template for a change request that you frequently create. This new template is later sent for approval to the change management team, which reviews the request and approves the template as part of the approval process.
 
-**Tip:** In Service Operations Workspace, select the \[Omitted image "list-gray.png"\] Alt text: List icon, and then select **Change Standard Templates** to propose new template. For more information, see [Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-template-sow.md)
+**Tip:** In Service Operations Workspace, select the \[Omitted image "list-gray.png"\] Alt text: List icon, and then select **Change Standard Templates** to propose new template. For more information, see [Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-change-template-sow.md)
 
 ## Roles for standard change proposals
 
@@ -35,7 +35,7 @@ The following roles apply to standard change proposal templates:
 -   `sn_change_write`: Create and edit standard change templates.
 -   `admin`: Perform all standard change proposal actions.
 
-For the complete role list, see [Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-cm-itsm-roles.md).
+For the complete role list, see [Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-cm-itsm-roles.md).
 
 ## Procedure
 
@@ -49,7 +49,7 @@ For the complete role list, see [Components installed with ITSM Roles - Change M
     |Assigned to|User assigned to change requests created from the standard change template.|
     |Configuration item|Configuration item affected by change requests created from the standard change template.|
     |Sample Change Requests|Change requests provided as samples for the change that you propose. The Change Management team reviews the requests as a part of the approval process.|
-    |Change Request values|Default field values applied to change requests created from the standard change template. The available fields are governed by the catalog properties. For more information, see[Configure standard change catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md)|
+    |Change Request values|Default field values applied to change requests created from the standard change template. The available fields are governed by the catalog properties. For more information, see[Configure standard change catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md)|
 
 2.  Select **Save**.
 
@@ -71,7 +71,7 @@ For the complete role list, see [Components installed with ITSM Roles - Change M
 
     **Note:**
 
-    -   Any change tasks that are included with the change also get copied to the new standard change proposal. The fields copied from both the change and change tasks are defined in the [Standard Change Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md).
+    -   Any change tasks that are included with the change also get copied to the new standard change proposal. The fields copied from both the change and change tasks are defined in the [Standard Change Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md).
     -   By default, approval records are created for members of the Change Management group.
     Alternatively, as a change manager, create and submit a standard change proposal that can be utilized as a template to draft a standard change request that occurs frequently and is of low risk. By default, the basic standard change proposal workflow sends approval records to members of the change management group where the members verify and modify the records, as appropriate. Navigate to **Change** &gt; **Standard Change** &gt; **My Proposals**. Select **New**, fill the form, and then select **Submit**.
 
@@ -86,5 +86,5 @@ For the complete role list, see [Components installed with ITSM Roles - Change M
 
 A new template record is created for use.
 
-**Parent Topic:**[Create a standard change task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-standard-change-task-template.md)
+**Parent Topic:**[Create a standard change task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-a-standard-change-task-template.md)
 

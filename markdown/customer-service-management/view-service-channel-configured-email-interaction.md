@@ -2,7 +2,7 @@
 title: View the service channel configured with Email Interaction for CSM
 description: View the service channel configured during the installation of the Email Interaction for CSM application. This service channel facilitates the routing of email interactions through Advanced Work Assignment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-service-channel-configured-email-interaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-service-channel-configured-email-interaction.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

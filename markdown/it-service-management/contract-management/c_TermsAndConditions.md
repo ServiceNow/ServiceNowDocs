@@ -2,7 +2,7 @@
 title: Terms and conditions
 description: You can add terms and conditions to a contract to keep all documentation that is relevant to a contract in one location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/c\_TermsAndConditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/contract-management/c\_TermsAndConditions.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -22,14 +22,14 @@ Users with the contract\_manager role can read contract history and add terms an
 
 There are three procedures involved in adding terms and conditions to a contract:
 
--   **[Create a terms and conditions record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_CreateATermsAndConditionsRecord.md)**  
+-   **[Create a terms and conditions record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/t_CreateATermsAndConditionsRecord.md)**  
 You can create a terms and conditions record to add to a contract.
--   **[Add terms and conditions to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_AddTermsAndConditionsToAContract.md)**  
+-   **[Add terms and conditions to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/t_AddTermsAndConditionsToAContract.md)**  
 After you create a terms and conditions record, add the record to a contract that is in the Awaiting Review, Rejected, Renewal Rejected, or Extension Rejected substate.
--   **[Build a terms and conditions document within a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_BuildTandCDocWinContract.md)**  
+-   **[Build a terms and conditions document within a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/t_BuildTandCDocWinContract.md)**  
 After adding one or more terms and conditions records to a contract, you can build a terms and conditions document within the contract.
 
-**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 

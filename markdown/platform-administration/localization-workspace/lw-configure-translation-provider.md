@@ -2,7 +2,7 @@
 title: Configure a language provider
 description: Set up language providers as part of configuring Localization Workspace. For each target language you can configure multiple providers with their pricing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-configure-translation-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-configure-translation-provider.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -18,8 +18,8 @@ Set up language providers as part of configuring Localization Workspace. For eac
 
 ## Before you begin
 
--   Install at least one target non-English [language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/exploring-system-localization.md) on your instance.
--   Configure at least one [Translation Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md) \(TMS\) in Localization Framework, or one [machine translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integration-with-other-translation-services.md) in Dynamic Translation. From version 2.0.2, you can access these tables in [Configuration Hub in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-configuration-hub.md)
+-   Install at least one target non-English [language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/exploring-system-localization.md) on your instance.
+-   Configure at least one [Translation Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/tms-configuration.md) \(TMS\) in Localization Framework, or one [machine translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/integration-with-other-translation-services.md) in Dynamic Translation. From version 2.0.2, you can access these tables in [Configuration Hub in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-configuration-hub.md)
 -   Role required: localization\_admin. The sn\_lw.user role can view the language providers but can't create any.
 
 ## About this task
@@ -34,7 +34,7 @@ The language provider record provides granular control over the execution of eac
 
 This record also enables the calculation of the informational cost estimate.\[Omitted image "lw-configure-translation-provider1.png"\] Alt text: The modal for Add new translation provider in Localization Workspace.
 
-**Note:** From version 3.0.0, a Guided Tour is available to assist localization admins with the setup of a language provider. Access the guided tour by selecting the Help Center icon \[Omitted image "Banner\_HelpIcon.png"\]on the [Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-status-synchronization.md) screen.
+**Note:** From version 3.0.0, a Guided Tour is available to assist localization admins with the setup of a language provider. Access the guided tour by selecting the Help Center icon \[Omitted image "Banner\_HelpIcon.png"\]on the [Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-status-synchronization.md) screen.
 
 ## Procedure
 
@@ -82,11 +82,11 @@ From the list, choose TMS \(Translation Management System\) or MT \(Machine Tran
 
 </td><td>
 
-Enter the base rate charged by your third-party service provider per word or character, without any volume discounts or overages. For more information see [Request translations in Localization Workspace: Estimate and Due Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-estimate.md).You can choose a currency that is not in your user preferences. However, the informational cost estimate is displayed in the currency of the translation requester's user session.
+Enter the base rate charged by your third-party service provider per word or character, without any volume discounts or overages. For more information see [Request translations in Localization Workspace: Estimate and Due Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-estimate.md).You can choose a currency that is not in your user preferences. However, the informational cost estimate is displayed in the currency of the translation requester's user session.
 
 This rate is used to calculate the informational cost estimate.
 
-**Note:** When displayed on the Home page of Localization Workspace, the **Cost** uses a rate that is rounded up to the decimal place that is set in your **Display Value Currency** field. However, the calculation of the informational cost estimate for a translation request uses the actual rate that you have configured in Localization Workspace. The calculation does not use the currency's display value. For more information, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-display-parameters.md).
+**Note:** When displayed on the Home page of Localization Workspace, the **Cost** uses a rate that is rounded up to the decimal place that is set in your **Display Value Currency** field. However, the calculation of the informational cost estimate for a translation request uses the actual rate that you have configured in Localization Workspace. The calculation does not use the currency's display value. For more information, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency-display-parameters.md).
 
 </td></tr><tr><td id="d251528e276">
 
@@ -131,7 +131,7 @@ To delete a provider, select the check box next to its label, then select the **
 
 **Note:** Updates to a provider are not applied to any translation requests currently in progress.
 
-After you have configured individual language providers, you can optionally define Language Groups. Your users save time when creating translation requests by selecting a group rather than adding each language individually. For more information see [Configure language groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-configure-language-groups.md).
+After you have configured individual language providers, you can optionally define Language Groups. Your users save time when creating translation requests by selecting a group rather than adding each language individually. For more information see [Configure language groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-configure-language-groups.md).
 
-**Parent Topic:**[Language setup in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-setup.md)
+**Parent Topic:**[Language setup in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-language-setup.md)
 

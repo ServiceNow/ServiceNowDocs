@@ -2,7 +2,7 @@
 title: Configure WhatsApp Cloud API provider properties
 description: You can customize the behavior of the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application by configuring its provider properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-whatsapp-cloud-api-provider-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-whatsapp-cloud-api-provider-properties.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -39,10 +39,10 @@ Role required: admin
 
 The provider property is updated with the new value.
 
-**Parent Topic:**[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-direct-whatsapp-configure.md)
+**Parent Topic:**[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-direct-whatsapp-configure.md)
 
 **Related topics**  
 
 
-[WhatsApp Cloud API provider properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/whatsapp-cloud-api-provider-properties.md)
+[WhatsApp Cloud API provider properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/whatsapp-cloud-api-provider-properties.md)
 

@@ -2,7 +2,7 @@
 title: Reviewing your project
 description: Summarize both the created KPI Composer project artifacts and the planned Performance Analytics components. Validate the contents of your project. Generate the tasks to build the planned Performance Analytics components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/reviewing-your-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/reviewing-your-project.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -36,8 +36,8 @@ The review tab shows four boxes of information:
     -   Error: A Measurement is not linked to an Indicator Definition, or an Indicator or Breakdown definition is not linked to a facts table.
 -   **Tasks**
 
-    Generate and list the tasks to create the Performance Analytics and Reporting elements you have defined in your project. For more information, see [Generating tasks in KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/generating-tasks-kpi-composer.md).
+    Generate and list the tasks to create the Performance Analytics and Reporting elements you have defined in your project. For more information, see [Generating tasks in KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/generating-tasks-kpi-composer.md).
 
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/designing-pa-solution.md)
 

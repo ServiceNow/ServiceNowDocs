@@ -2,10 +2,10 @@
 title: Components installed with AI Control Tower for SPM
 description: User roles are added with the installation of AI Control Tower and Strategic Planning application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/components-installed-with-aict-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/components-installed-with-aict-spm.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
 ---

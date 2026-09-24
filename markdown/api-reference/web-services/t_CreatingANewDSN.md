@@ -2,7 +2,7 @@
 title: Create a new DSN
 description: Use the ODBC driver and the ServiceNow data source to create an unlimited number of DSNs configured to connect with different instance URLs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_CreatingANewDSN.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_CreatingANewDSN.html
 release: australia
 product: Web Services
 classification: web-services
@@ -26,7 +26,7 @@ Role required: admin
 
 Select the target instance for your ODBC connection by DSN name. As an option during installation or upgrade, you can elect to keep the DSNs when you uninstall.
 
-Instead of creating a new DSN, you can [Specify a connection string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/specify-connection-string.md) to connect with different instance URLs.
+Instead of creating a new DSN, you can [Specify a connection string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/specify-connection-string.md) to connect with different instance URLs.
 
 ## Procedure
 
@@ -53,5 +53,5 @@ Instead of creating a new DSN, you can [Specify a connection string](https://raw
 
 You can now use the new driver.
 
-**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-odbc.md)
+**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/configuring-odbc.md)
 

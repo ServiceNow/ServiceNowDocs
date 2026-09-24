@@ -2,7 +2,7 @@
 title: Review skipped records with upgrade plan
 description: Review the skipped records after the completion of the upgrade.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-review-skipped-records-upgrade-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-review-skipped-records-upgrade-plan.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -36,5 +36,5 @@ Role required: admin
 2.  Select the To review link to look at the records that need to be reviewed manually.
 
 
-**Parent Topic:**[Apply Upgrade Plan on your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-apply-upgrade-plan.md)
+**Parent Topic:**[Apply Upgrade Plan on your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-apply-upgrade-plan.md)
 

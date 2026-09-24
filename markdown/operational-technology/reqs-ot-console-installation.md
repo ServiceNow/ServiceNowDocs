@@ -2,7 +2,7 @@
 title: Requirements for Discovery Console for OT installation
 description: For remote deployment at a facility or on a network, verify that the following requirements are met before installing the Discovery Console for OT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/reqs-ot-console-installation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/reqs-ot-console-installation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ You must have a Linux operating system installed that can operate in a virtualiz
 
 ## System requirements
 
-The table lists the minimum resource requirements for the Discovery Console for OT. For more information, see [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-system-resources.md).
+The table lists the minimum resource requirements for the Discovery Console for OT. For more information, see [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/ot-discovery-system-resources.md).
 
 <table id="table_i5f_kpx_vgc"><thead><tr><th>
 
@@ -104,7 +104,7 @@ Enables Sensor devices to synchronize time \(real-time clock\) with the Discover
 
 ## Discovery Console for OT configuration wizard
 
-The Discovery Console for OT now provides a configuration wizard to guide you through your initial setup and configuration of the Console. If you choose to use the interactive configuration wizard after logging into the Console, it alerts you automatically to upload a Console license. For more information, see [Use the Discovery Console for OT interactive configuration wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/console-onboarding-wizard.md).
+The Discovery Console for OT now provides a configuration wizard to guide you through your initial setup and configuration of the Console. If you choose to use the interactive configuration wizard after logging into the Console, it alerts you automatically to upload a Console license. For more information, see [Use the Discovery Console for OT interactive configuration wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/console-onboarding-wizard.md).
 
 ## Discovery Console for OT license
 
@@ -134,5 +134,5 @@ The license:
 
 **Note:** You can't export RAW XML results if your Console license is invalid \(absent or expired\).
 
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md)
+**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-ot-discovery-console.md)
 

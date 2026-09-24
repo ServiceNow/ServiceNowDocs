@@ -2,7 +2,7 @@
 title: Fulfilling hardware asset requests
 description: You can fulfill hardware asset requests submitted through the Service Catalog application manually or by using the Help manage hardware asset requests agentic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/fulfilling-hardware-asset-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/fulfilling-hardware-asset-requests.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -16,12 +16,12 @@ breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Manageme
 
 You can fulfill hardware asset requests submitted through the Service Catalog application manually or by using the Help manage hardware asset requests agentic workflow.
 
--   **[ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)**  
+-   **[ServiceNow Otto for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)**  
 Use the Help manage hardware asset requests agentic workflow, driven by AI agents, to handle your employees' hardware asset requests automatically. The AI agents fulfill requests by either consuming the available local stock, or by generating transfer orders or purchase orders.
--   **[Fulfill hardware asset requests manually by using the Standard Hardware Asset Request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-request-flow.md)**  
+-   **[Fulfill hardware asset requests manually by using the Standard Hardware Asset Request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/hardware-request-flow.md)**  
 Use a hardware asset request flow for requesting, sourcing, and deploying hardware catalog items from the Service Catalog application.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

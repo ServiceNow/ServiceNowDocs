@@ -2,7 +2,7 @@
 title: Modify the Employee Profile action group
 description: The Employee Profile actions include some frequently used action items in a framework for quick access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/update-and-modify-the-employee-profile-action-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/update-and-modify-the-employee-profile-action-framework.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -53,5 +53,5 @@ Use and customize the action framework according to your priority to provide bet
 **Related topics**  
 
 
-[Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md)
+[Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/action-group-framework.md)
 

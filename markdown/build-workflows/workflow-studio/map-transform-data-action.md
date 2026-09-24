@@ -2,7 +2,7 @@
 title: Map and Transform Data step
 description: Map complex nested JSON objects to a target schema with dynamic field creation and data transformation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/map-transform-data-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/map-transform-data-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -90,5 +90,5 @@ The mapped source fields column shows the data pills for each mapping. For examp
 
 After the action runs, the Root output object contains all transformed fields with values combined and mapped. The Step Status output provides execution details. The transformed user data is ready for use in subsequent actions such as creating or updating user records.
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

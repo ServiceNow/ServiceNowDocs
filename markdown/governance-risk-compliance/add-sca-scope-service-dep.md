@@ -2,7 +2,7 @@
 title: Define the scope and dependencies
 description: Define the scope of the Scenario analysis by selecting the service to analyze and adding the dependencies that support it during a disruption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-sca-scope-service-dep.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-sca-scope-service-dep.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -86,5 +86,5 @@ The **Scope** step is complete. The selected service and its dependencies are lo
 
 ## What to do next
 
-To add scenarios and review reference data such as incidents, see [Add scenarios and review reference data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-sca-scenarios-review-refdata.md).
+To add scenarios and review reference data such as incidents, see [Add scenarios and review reference data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-sca-scenarios-review-refdata.md).
 

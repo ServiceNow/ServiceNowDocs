@@ -2,7 +2,7 @@
 title: Work on a non-self-served contract review request
 description: Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions. After they confirm the revisions, send the signature from the contract request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-nss-review-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-nss-review-request.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -30,15 +30,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d648894e82">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d648898e82">
 
 Option
 
-</th><th align="left" id="d648894e85">
+</th><th align="left" id="d648898e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d648894e91">
+</th></tr></thead><tbody><tr><td id="d648898e91">
 
 **As an assignee**
 
@@ -50,7 +50,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d648894e120">
+</td></tr><tr><td id="d648898e120">
 
 **As a collaborator**
 
@@ -79,8 +79,8 @@ The state and the Contract status of the contract request is Work in progress.
 
     Examples of reclassifying the contract or supporting documents include:
 
-    -   You can change the contract document type from a Non-disclosure Agreement to a Partnership Agreement. For more information, see [Reclassify contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md).
-    -   You can change the supporting document to a contract document. For more information, see [Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md).
+    -   You can change the contract document type from a Non-disclosure Agreement to a Partnership Agreement. For more information, see [Reclassify contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md).
+    -   You can change the supporting document to a contract document. For more information, see [Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md).
 6.  Open an existing revision of a contract document.
 
     -   For internal storage: Open the document revision record by navigating to the **Contract documents** tab and then selecting the name of the document.
@@ -89,31 +89,31 @@ The state and the Contract status of the contract request is Work in progress.
 
 8.  Create document revisions.
 
-    For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
+    For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
 
 9.  Analyze the contract documents to identify non-standard and missing clauses by using ServiceNow Otto for Contract Management Pro.
 
-    For more information, see [Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
+    For more information, see [Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
 
 10. If an approval is required from other stakeholders, send the document for ad-hoc approval.
 
-    For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md).
+    For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md).
 
 11. Email stakeholders to request a review of the completed contract document and confirm the changes.
 
-    For more information, see [Send email to stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-send-email.md).
+    For more information, see [Send email to stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-send-email.md).
 
 12. Add the internal or external signatories for the contract signatures.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d648894e350">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d648898e350">
 
 Option
 
-</th><th align="left" id="d648894e353">
+</th><th align="left" id="d648898e353">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d648894e359">
+</th></tr></thead><tbody><tr><td id="d648898e359">
 
 **Internal**
 
@@ -130,9 +130,9 @@ Steps
 
 The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
 
-To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
-</td></tr><tr><td id="d648894e441">
+</td></tr><tr><td id="d648898e441">
 
 **External**
 
@@ -151,22 +151,22 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 
 The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
 
-To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
 </td></tr></tbody>
 </table>13. After all stakeholders agree on a contract document revision, send the contract for signature.
 
     The action you take depends on the signature type.
 
-<table id="choicetable_ymt_4dx_hjc"><thead><tr><th align="left" id="d648894e538">
+<table id="choicetable_ymt_4dx_hjc"><thead><tr><th align="left" id="d648898e538">
 
 Signature type
 
-</th><th align="left" id="d648894e541">
+</th><th align="left" id="d648898e541">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d648894e547">
+</th></tr></thead><tbody><tr><td id="d648898e547">
 
 **Electronic signature**
 
@@ -181,7 +181,7 @@ The document opens on the configured e-signature portal.
 2.  In the e-signature portal, complete the document by adding the required fields, including the **Signature** field, and then select **Send**.
  An e-signature envelope is created and sent to all signatories. If the system receives a success notification from the e-signature provider, the state and contract status update to **Awaiting signature**.
 
-</td></tr><tr><td id="d648894e584">
+</td></tr><tr><td id="d648898e584">
 
 **Wet signature**
 
@@ -189,7 +189,7 @@ The document opens on the configured e-signature portal.
 
 Select **Send for signature**. A signature request email is sent to the first signatory. The state and contract status update to **Awaiting signature**.
 
-</td></tr><tr><td id="d648894e599">
+</td></tr><tr><td id="d648898e599">
 
 **Offline signature**
 
@@ -207,7 +207,7 @@ Select **Initiate offline signature**. Signature request emails are not sent to 
 
 -   Signatories can sign or decline to sign the contract.
 
-    For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
+    For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
 
 -   Check the contract request state and the contract document status in the request:
     -   If all signatories sign the contract document, the contract document status updates to **Contract signed**. On the **Signatories** tab, the status of all signatories updates to **Completed**. You can access the contract repository record from the **Contracts Repository** tab.

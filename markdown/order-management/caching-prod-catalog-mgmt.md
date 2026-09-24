@@ -2,7 +2,7 @@
 title: Caching in Product Catalog Management
 description: The Product Catalog Management application uses caching to improve user interface performance when agents access product catalogs and product offerings through the product configurator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/caching-prod-catalog-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/caching-prod-catalog-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,12 +21,12 @@ As a product catalog admin or manager, when you make the following changes to a 
 -   **Unit of Measure** \(UOM\) in product offerings – Although product offerings cannot be changed after you publish them, you can change the default **Unit of Measure**. After updating the UOM, you must update the product offering cache.
 -   **Product offering catalog changes** – If you change the hierarchies for catalog to category or category to sub-category hierarchies, you must update the product offering catalog cache.
 
-For details on regenerating these caches, see [Update a cache in Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-update-cache-catalog-mgmt.md).
+For details on regenerating these caches, see [Update a cache in Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-update-cache-catalog-mgmt.md).
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

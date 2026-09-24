@@ -2,7 +2,7 @@
 title: Send emails from Finance Operations Workspace
 description: Send emails related to a specific finance case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/send-emails-fin-ops-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/send-emails-fin-ops-ws.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -53,5 +53,5 @@ Role required: sn\_fin\_ops.specialist
 
 The email is sent to the recipients. You can view the details of the sent email in the **Emails** tab.
 
-**Parent Topic:**[Finance Operations Workspace Case Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/case-details-fin-ops-ws.md)
+**Parent Topic:**[Finance Operations Workspace Case Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/case-details-fin-ops-ws.md)
 

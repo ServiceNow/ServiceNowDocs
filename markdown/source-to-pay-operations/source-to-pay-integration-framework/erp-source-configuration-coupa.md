@@ -2,7 +2,7 @@
 title: ERP Source Configuration for Coupa
 description: Configure your Source-to-Pay \(S2P\) instance to support inbound and outbound integration with your ERP system. This integration configuration enables you to post purchase order, receipt, invoice, and download primary data from the ERP automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-source-configuration-coupa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-source-configuration-coupa.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -34,21 +34,21 @@ Before you start the integration configuration, you must get the following detai
 
 To perform the ERP Source configuration for Coupa, perform the following steps:
 
-1.  Define the ERP source that you want to integrate with Coupa integration. For more information, see [Define an ERP source configuration for Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-coupa.md).
+1.  Define the ERP source that you want to integrate with Coupa integration. For more information, see [Define an ERP source configuration for Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-coupa.md).
 2.  Create a basic authentication profile that can be used for web service integration with Coupa.
 3.  Register the Coupa integration username and password to create the authentication profile and associate it to service maps.
 4.  Define source configuration for ERP source.
 
-    The ERP source configuration determines the ERP source to which your ERP system connects. For more information, see [Define an ERP source configuration for Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-coupa.md).
+    The ERP source configuration determines the ERP source to which your ERP system connects. For more information, see [Define an ERP source configuration for Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-coupa.md).
 
-5.  Configure service maps for the required entities. For more information, see [Configure integration services for Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configure-integration-services-coupa.md).
+5.  Configure service maps for the required entities. For more information, see [Configure integration services for Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/configure-integration-services-coupa.md).
 
     \[Omitted image "coupa-source-config.png"\] Alt text: ERP Source Configuration of Coupa
 
 
 You have configured the ERP source for Coupa.
 
-**Parent Topic:**[Configure Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-coupa-integration.md)
+**Parent Topic:**[Configure Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-coupa-integration.md)
 
 **Related topics**  
 

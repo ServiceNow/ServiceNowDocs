@@ -2,7 +2,7 @@
 title: Classic Orchestration
 description: ServiceNow Orchestration extends the workflow engine to manage processes and to automate things outside of a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r-orchestration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/r-orchestration.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -16,49 +16,49 @@ breadcrumb: [Workflow Data Fabric]
 
 ServiceNow® Orchestration extends the workflow engine to manage processes and to automate things outside of a ServiceNow instance.
 
-Orchestration is available as a separate subscription from the rest of the ServiceNow platform. See [Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_ActivateOrchestration.md) for details.
+Orchestration is available as a separate subscription from the rest of the ServiceNow platform. See [Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_ActivateOrchestration.md) for details.
 
 <table id="simpletable_g33_wwg_vt" class="simpletableBody"><tbody><tr><td>
 
 **Explore**
 
- -   [Introduction to Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r-orchestration-introduction.md)
--   [Orchestration applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationApplications.md)
--   [Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationROI.md)
--   [Orchestration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationExamples.md)
--   [Domain separation and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/domain-separation-orchestration.md)
+ -   [Introduction to Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/r-orchestration-introduction.md)
+-   [Orchestration applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationApplications.md)
+-   [Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationROI.md)
+-   [Orchestration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationExamples.md)
+-   [Domain separation and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/domain-separation-orchestration.md)
 
 </td><td>
 
 **Set up**
 
- -   [Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_ActivateOrchestration.md)
--   [MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationMID.md)
--   [Available activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_ActivateAnActivityPack.md)
--   [Setup Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_ActivateClientSWDistribution.md)
+ -   [Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_ActivateOrchestration.md)
+-   [MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationMID.md)
+-   [Available activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_ActivateAnActivityPack.md)
+-   [Setup Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_ActivateClientSWDistribution.md)
 
 </td><td>
 
 **Administer**
 
- -   [List of Orchestration plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/list-orchestration-plugins.md)
--   [Orchestration Runtime plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/orchestration-runtime-plugin.md)
+ -   [List of Orchestration plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/list-orchestration-plugins.md)
+-   [Orchestration Runtime plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/orchestration-runtime-plugin.md)
 
 </td></tr><tr><td>
 
 **Use**
 
- -   [Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationActivityPacks.md)
+ -   [Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationActivityPacks.md)
 -   [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset-landing-page.md)
--   [Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ClientSoftwareDistribution.md)
+-   [Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_ClientSoftwareDistribution.md)
 
 </td><td>
 
 **Develop**
 
- -   [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md)
--   [Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ActivityDesignerComponents.md)
--   [Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_CSDExtensionFramework.md)
+ -   [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_WorkflowActivityDesigner.md)
+-   [Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_ActivityDesignerComponents.md)
+-   [Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_CSDExtensionFramework.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 
 </td><td>

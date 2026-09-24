@@ -2,7 +2,7 @@
 title: Respond to a comment in a notification
 description: A comment in the activity stream generates a notification to which the user can respond directly, without leaving Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/comments-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/comments-notification.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -49,5 +49,5 @@ If the user needs to take an additional action, such as attaching a document, th
 8.  Click **View ticket details** to view the complete details of the ticket.
 
 
-**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
 

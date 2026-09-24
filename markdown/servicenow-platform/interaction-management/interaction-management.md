@@ -2,7 +2,7 @@
 title: Interaction Management
 description: Interactions provide a centralized location for all communication channels in the platform. Each interaction represents a request for assistance through a given channel, for example, a call or a chat. The purpose of Interaction Management is to help get insights into the channel's effectiveness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/interaction-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/interaction-management/interaction-management.html
 release: australia
 product: Interaction Management
 classification: interaction-management
@@ -24,19 +24,19 @@ The ServiceNow AI Platform offers several forms of queuing and communication man
 
 <table id="table_ikd_3gh_jxb" class="nav-card"><tbody><tr><td>
 
-[Activate\[Omitted image "bus-manage.svg"\] Alt text:Activate Interaction Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/activate-interactions.md)
+[Activate\[Omitted image "bus-manage.svg"\] Alt text:Activate Interaction Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/activate-interactions.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure interaction components, determine which actions occur depending on the state of the interaction, and configure States determine the behavior for interactions. For each state of the interaction life cycle, you determine which routine actions to perform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/configuring-interaction-management.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure interaction components, determine which actions occur depending on the state of the interaction, and configure States determine the behavior for interactions. For each state of the interaction life cycle, you determine which routine actions to perform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/configuring-interaction-management.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-person.svg"\] Alt text:Manually create interactions or associate records with an interaction.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/using-interaction-management.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Manually create interactions or associate records with an interaction.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/using-interaction-management.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about the components installed with Interaction Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-management-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about the components installed with Interaction Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/interaction-management-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -46,14 +46,14 @@ The ServiceNow AI Platform offers several forms of queuing and communication man
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
--   **[Activating the Interaction Management system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/activate-interactions.md)**  
+-   **[Activating the Interaction Management system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/activate-interactions.md)**  
 An administrator can activate the Interaction Logging, Routing, and Queueing plugin \(com.glide.interaction\) to access the functionality.
--   **[Configuring Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/configuring-interaction-management.md)**  
+-   **[Configuring Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/configuring-interaction-management.md)**  
 You can configure the behavior of an interaction and the types of information that is stored with the record. You can also use interaction wrap up to provide agents with a brief wrap-up period at the end of customer conversations.
--   **[Using Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/using-interaction-management.md)**  
+-   **[Using Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/using-interaction-management.md)**  
 Most interaction creation takes place in other applications, to control channels. When needed, you can create an interaction from the Interaction application.
--   **[Interaction Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-management-reference.md)**  
+-   **[Interaction Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/interaction-management-reference.md)**  
 Learn about the components installed with Interaction Management.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/manage-people.md)
 

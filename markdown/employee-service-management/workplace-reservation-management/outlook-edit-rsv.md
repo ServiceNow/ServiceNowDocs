@@ -2,7 +2,7 @@
 title: Edit reservation details in Microsoft Outlook
 description: Edit or update your workplace reservation using Microsoft Outlook Add-in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/outlook-edit-rsv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/outlook-edit-rsv.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Create and submit a workplace reservation.
 
-    For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
+    For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
 
 2.  Select the **Actions** tab from the Reservation Summary page to edit the location, date, time, and workplace services within your reservation.
 

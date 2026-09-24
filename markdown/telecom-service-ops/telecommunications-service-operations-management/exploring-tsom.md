@@ -2,7 +2,7 @@
 title: Exploring Telecommunications Service Operations Management
 description: Learn how Telecommunications Service Operations Management \(TSOM\) empowers communication service providers \(CSPs\) proactively monitor, analyze, and resolve network and service issues before they impact customers. Built on the ServiceNow AI Platform, TSOM delivers a unified operations view across distributed, multi-domain telecom environments, helping teams improve service availability, operational efficiency, and customer satisfaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/exploring-tsom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/exploring-tsom.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -43,7 +43,7 @@ Telecommunications Service Operations Management simplifies telecom operations b
 |Health Log Analytics|The ServiceNow Health Log Analytics application helps prevent IT issues before your users are affected. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data. For more information, see [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-landing-page.md)|
 |Automated remediation|Use guided workflows and playbooks to drive fast, consistent, and auditable issue resolution.|
 |Telecom-aware CMDB|Link infrastructure, services, and physical/logical configuration items \(CIs\) using a telecom-specific model for accurate root cause analysis.|
-|Alert Management|Manage alerts efficiently with correlation, grouping, and automated response actions. For more information, see [Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EMAlert.md) and [Fault Management: Events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/fault-management-events-and-alerts.md).|
+|Alert Management|Manage alerts efficiently with correlation, grouping, and automated response actions. For more information, see [Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EMAlert.md) and [Fault Management: Events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/fault-management-events-and-alerts.md).|
 
 ## Key benefits
 
@@ -74,9 +74,9 @@ This integration confirms consistent workflows, accurate service models, and uni
 **Related topics**  
 
 
-[External event management via Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
+[External event management via Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
 
-[Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/tsom-visibility.md)
+[Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/tsom-visibility.md)
 
-[Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-assurance.md)
+[Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-assurance.md)
 

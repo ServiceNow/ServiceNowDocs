@@ -2,7 +2,7 @@
 title: Create a work order task
 description: Create work order tasks to define the technical details, skills, scheduling window, and resource requirements needed to complete a work order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CreateAWorkOrderTask.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_CreateAWorkOrderTask.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -18,7 +18,7 @@ Create work order tasks to define the technical details, skills, scheduling wind
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## About this task
 
@@ -33,7 +33,7 @@ The following roles can edit schedule times, including task windows and planned 
 |wm\_admin|Draft or Pending Dispatch|
 |wm\_task\_initiator|Draft|
 
-**Note:** To create tasks from an applied template without qualifying the work order in the Draft state, you must enable the **Apply Work Order template in draft status** option and assign the **wm\_task\_initiator** role. For more information about these configurations, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md) and [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
+**Note:** To create tasks from an applied template without qualifying the work order in the Draft state, you must enable the **Apply Work Order template in draft status** option and assign the **wm\_task\_initiator** role. For more information about these configurations, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ConfigureFieldService.md) and [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
 ## Procedure
 
@@ -107,7 +107,7 @@ Location
 
 </td><td>
 
-Geographical area where the work needs to be done. The location is critical for determining the agent assigned to the task.If you don't want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad-hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/service-locations-work-orders.md).
+Geographical area where the work needs to be done. The location is critical for determining the agent assigned to the task.If you don't want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad-hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/service-locations-work-orders.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Skills
 
 </td><td>
 
-Abilities necessary to execute the task. This field is automatically set based on the values in the **Affected CI** field on the parent work order. If you change the affected CI on the work order,then any skills required by the new CI are added here.If you want to identify mandatory skills for technicians executing the tasks, configure the Work Order Task form to use the Task Skills table. For more information, see [Configuring mandatory skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configure-mandatory-skills-feature.md).
+Abilities necessary to execute the task. This field is automatically set based on the values in the **Affected CI** field on the parent work order. If you change the affected CI on the work order,then any skills required by the new CI are added here.If you want to identify mandatory skills for technicians executing the tasks, configure the Work Order Task form to use the Task Skills table. For more information, see [Configuring mandatory skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configure-mandatory-skills-feature.md).
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ Dispatch Group
 
 </td><td>
 
-Group that can select a technician to complete the task. By default, you can only select groups that belong to the location of the task. When no dispatch groups exist for the location, all dispatch groups are listed. When the Field Service territory model is enabled, the best-matched dispatch group is automatically populated based on the task's territory. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
+Group that can select a technician to complete the task. By default, you can only select groups that belong to the location of the task. When no dispatch groups exist for the location, all dispatch groups are listed. When the Field Service territory model is enabled, the best-matched dispatch group is automatically populated based on the task's territory. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 **Note:** If multiple dispatch groups are populated, you must select one manually from the list.
 
@@ -177,7 +177,7 @@ Assignment group
 
 Group that has the technician or vendor who will complete the task. By default, this field shows the recommended assignment groups based on the location, asset, and skills for the task. When the field is empty, the system searches for the group covering the territory that includes the location of the task. When multiple assignment groups are found, the system automatically populates the potential assignment groups.
 
-This applies only when:-   The **sn\_fsm.update\_potential\_assignment\_groups** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md) is set to true.
+This applies only when:-   The **sn\_fsm.update\_potential\_assignment\_groups** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_PropInstallWFieldServMgmnt.md) is set to true.
 -   More than one assignment group is found for the location.
 -   The territory model is inactive.
 
@@ -211,7 +211,7 @@ Agent efficiency criteria
 
 </td><td>
 
-Criteria used to accurately calculate the work duration for this task. When using automated scheduling methods such as Dynamic Scheduling or Intelligent Task Recommendation, this field is automatically populated. For manual scheduling, select a criteria from the list. **Note:** This field appears only when the Agent Efficiency plugin is activated and Agent Efficiency criteria are configured. For more information, see [Create or modify Agent Efficiency criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-or-modify-agent-efficiency-criteria.md).
+Criteria used to accurately calculate the work duration for this task. When using automated scheduling methods such as Dynamic Scheduling or Intelligent Task Recommendation, this field is automatically populated. For manual scheduling, select a criteria from the list. **Note:** This field appears only when the Agent Efficiency plugin is activated and Agent Efficiency criteria are configured. For more information, see [Create or modify Agent Efficiency criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/create-or-modify-agent-efficiency-criteria.md).
 
 </td></tr><tr><td>
 
@@ -243,9 +243,9 @@ Schedule lock
 
 </td><td>
 
-Locks the task from getting scheduled by any scheduling mechanism. Tasks that are locked are excluded from automated scheduling mechanisms such as Schedule Optimization, Dynamic scheduling, Intelligent task recommendations. However, dispatchers can manually assign the task to agent.Schedule lock only honors valid tasks. If a task is missing required information, it will not be locked. To verify the status of your tasks and ensure they have all necessary details, check the [Scheduling Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/scheduling-health-dashboard.md).
+Locks the task from getting scheduled by any scheduling mechanism. Tasks that are locked are excluded from automated scheduling mechanisms such as Schedule Optimization, Dynamic scheduling, Intelligent task recommendations. However, dispatchers can manually assign the task to agent.Schedule lock only honors valid tasks. If a task is missing required information, it will not be locked. To verify the status of your tasks and ensure they have all necessary details, check the [Scheduling Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/scheduling-health-dashboard.md).
 
-**Note:** Work order tasks that are marked for **Multi day**, **Needs crew**, or **Assigned/Accepted** state in sn\_fsm.set\_schedule\_lock\_by\_state [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md) are locked automatically for all scheduling mechanisms.
+**Note:** Work order tasks that are marked for **Multi day**, **Needs crew**, or **Assigned/Accepted** state in sn\_fsm.set\_schedule\_lock\_by\_state [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_PropInstallWFieldServMgmnt.md) are locked automatically for all scheduling mechanisms.
 
 </td></tr><tr><td>
 
@@ -439,7 +439,7 @@ Onsite arrival geofence distance unit
 
 </td><td>
 
-The unit used to measure the distance between an agent's current location and the work site location within a geofence. Indicates the unit of measurement utilized to quantify the distance between an agent's current position and the work site location within the geofence. Units are measured in kilometers and miles.**Note:** The **Onsite arrival geofence radius** and **Onsite arrival geofence distance unit** fields in the work order task are automatically populated with default values based on the configuration set in the OnsiteGeofenceConfig extension point. For more information, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/extension-points-field-service.md).
+The unit used to measure the distance between an agent's current location and the work site location within a geofence. Indicates the unit of measurement utilized to quantify the distance between an agent's current position and the work site location within the geofence. Units are measured in kilometers and miles.**Note:** The **Onsite arrival geofence radius** and **Onsite arrival geofence distance unit** fields in the work order task are automatically populated with default values based on the configuration set in the OnsiteGeofenceConfig extension point. For more information, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/extension-points-field-service.md).
 
 </td></tr><tr><td>
 

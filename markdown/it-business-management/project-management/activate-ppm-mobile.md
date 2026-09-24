@@ -2,7 +2,7 @@
 title: Activate Mobile Project Status
 description: Activate the MobilenProject Status application from ServiceNow Store, earlier known as PPM Mobile \(com.sn\_ppm\_mobile\), if you have an admin role. Installing this application also activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/activate-ppm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/activate-ppm-mobile.html
 release: australia
 product: Project Management
 classification: project-management

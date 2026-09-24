@@ -2,7 +2,7 @@
 title: Configure cache duration for the user presence status
 description: You can modify the system property to configure the cache duration to retain the user presence status of the Microsoft Teams user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-cache-duration-mt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-cache-duration-mt.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,5 +39,5 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[User Presence Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/user-presence-indicator-mt.md)
+**Parent Topic:**[User Presence Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/user-presence-indicator-mt.md)
 

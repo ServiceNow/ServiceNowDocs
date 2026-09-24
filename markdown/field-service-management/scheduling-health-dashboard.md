@@ -2,7 +2,7 @@
 title: Scheduling Health dashboard
 description: Use this dashboard to view technician metrics, task metrics, and Schedule Optimization configuration details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/scheduling-health-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/scheduling-health-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -164,5 +164,5 @@ The **Type** filter contains two choices, batch and intraday. Your selection out
 |Batch|Single select|Generate a report based on the selected batch configuration.|
 |Intraday configuration|Single select|Generate a report based on the selected intraday configuration.|
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/analytics-reporting-fsm.md)
 

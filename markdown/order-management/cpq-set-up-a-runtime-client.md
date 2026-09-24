@@ -2,7 +2,7 @@
 title: Set up a runtime client
 description: Configure a runtime client. Doing so creates a token that you can use to authenticate runtime calls. This can be useful when CPQ is embedded in a VisualForce page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-set-up-a-runtime-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-set-up-a-runtime-client.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -60,5 +60,5 @@ Runtime clients can be set up that provide a token for authentication of runtime
 **Related topics**  
 
 
-[Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md)
+[Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md)
 

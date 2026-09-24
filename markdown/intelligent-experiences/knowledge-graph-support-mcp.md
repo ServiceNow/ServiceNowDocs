@@ -2,7 +2,7 @@
 title: Knowledge Graph schema support in MCP Server Console
 description: MCP Server Console supports creating tools from several preconfigured Knowledge Graph schemas, each suited to different types of queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph-support-mcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph-support-mcp.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-28"
@@ -28,12 +28,12 @@ The following Knowledge Graph schemas are available by default when creating a t
 |Table Look up Graph|Designed for structured table and record look ups. Consult your implementation guide for specific use cases.|
 |Identify Survey Instance|A specialized schema for survey-related workflows. Consult your implementation guide for specific use cases.|
 
-**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
+**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-server-console-reference.md)
 
 **Related topics**  
 
 
-[Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)
+[Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)
 
-[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md)
+[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md)
 

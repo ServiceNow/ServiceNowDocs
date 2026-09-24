@@ -2,7 +2,7 @@
 title: View a task or event on the calendar
 description: Dispatchers can save time and quickly view tasks or events on the calendar from the task panel or contextual side panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/view-task-panel-csp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/view-task-panel-csp.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

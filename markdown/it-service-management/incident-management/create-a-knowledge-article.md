@@ -2,7 +2,7 @@
 title: Create a knowledge article from an incident using an article template
 description: Provide a resolution for an issue by creating a knowledge article from an incident with fields defined in an article template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/create-a-knowledge-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/create-a-knowledge-article.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -20,7 +20,7 @@ Provide a resolution for an issue by creating a knowledge article from an incide
 
 Role required: itil, sn\_incident\_write, or admin
 
-Activate the [KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-kcs-integration-for-im.md) plugin \(com.snc.incident.knowledge\).
+Activate the [KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/activate-kcs-integration-for-im.md) plugin \(com.snc.incident.knowledge\).
 
 ## About this task
 

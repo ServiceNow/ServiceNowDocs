@@ -2,7 +2,7 @@
 title: Archiving your project collaboration channel or team
 description: Understand how your project Slack channel or Microsoft team is archived when your project is moved to a closed state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/archival-of-collab-channel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/archival-of-collab-channel.html
 release: australia
 product: Project Management
 classification: project-management
@@ -38,10 +38,10 @@ If the channel is deleted in the Slack application, or the team is deleted in th
 
 If the project manager wants to create a channel or team again for this project, administrator must manually delete the project's reference from the Entity Channel table. Then, the related link to enable collaboration appears on the project form.
 
-**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-collab-overview.md)
+[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ppm-collab-overview.md)
 

@@ -2,7 +2,7 @@
 title: Workplace advisor QnA agentic workflow
 description: The workplace advisor QnA agentic workflow enables Reservation Managers to use the Now Assist panel to ask natural language questions about workplace reservations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/workplace-advisor-qna.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/workplace-advisor-qna.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -24,8 +24,8 @@ The workplace advisor QnA agentic workflow routes employee queries to agents and
 
 To run the workplace advisor QnA agentic workflow, ensure that you have completed the following configurations:
 
--   [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/enable-now-assist-panel.md)
--   [Configure ServiceNow Otto Panel Platform Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/configure-now-assist-panel-platform-agent.md)
+-   [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/enable-now-assist-panel.md)
+-   [Configure ServiceNow Otto Panel Platform Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/configure-now-assist-panel-platform-agent.md)
 
 ## Accessing the workplace advisor QnA agentic workflow from the AI Agent Studio
 
@@ -42,10 +42,10 @@ The following table lists the agents that are part of the workplace advisor QnA 
 |-----|-----------|-----------|
 |Workplace reservation QnA agent|The workplace reservation QnA agent handles queries related to workplace reservations using a Knowledge Graph. It can answer questions about reservations for a given building, floor, or campus, and other reservable spaces.|Workplace Reservation Graph|
 
--   **[Using Now Assist for workplace queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/using-now-assist-for-workplace-queries.md)**  
+-   **[Using Now Assist for workplace queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/using-now-assist-for-workplace-queries.md)**  
 Use the Now Assist panel to interact with intelligent QnA agents that respond to workplace-related queries using structured data from a Knowledge Graph.
--   **[Workplace Advisor QnA examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-advisor-qna-examples.md)**  
+-   **[Workplace Advisor QnA examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/workplace-advisor-qna-examples.md)**  
 You can interact with the Now Assist panel to retrieve workplace-related information.
 
-**Parent Topic:**[Workplace Advisor Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-advisor-overview.md)
+**Parent Topic:**[Workplace Advisor Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/workplace-advisor-overview.md)
 

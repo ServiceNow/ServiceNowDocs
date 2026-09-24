@@ -2,7 +2,7 @@
 title: Edit a draft demand in Employee Slate
 description: Update the details of a draft demand in Employee Slate before submitting it for a demand manager's review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/edit-an-active-demand-ppm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/edit-an-active-demand-ppm.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -64,7 +64,7 @@ Action
 
 3.  Update the fields.
 
-    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-form.md).
+    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/demand-form.md).
 
 4.  Select **Save**.
 
@@ -73,5 +73,5 @@ Action
 
 After you submit the demand, the fields are set to read-only, though you can still add comments and attachments.
 
-**Parent Topic:**[Work with demands in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/my-demands-widget-ppm.md)
+**Parent Topic:**[Work with demands in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/my-demands-widget-ppm.md)
 

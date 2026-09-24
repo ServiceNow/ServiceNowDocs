@@ -2,7 +2,7 @@
 title: Configuring sources for adding event dependencies
 description: The BCM administrators configure the sources in the Event dependency source configuration record. The impacted assets are added in the events and exercises based on the source data and relationships in the BIA, CMDB, and plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configuring-event-dep-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configuring-event-dep-updates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,10 +32,10 @@ Dependencies are fetched from these sources for the events:
 
 **Note:** In an event, the dependencies of all assets are added manually where the source is Manual.
 
-For more information on configuring the Event dependency source configuration record, see [Configure Event dependency source configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-event-dep-source-confi-module.md).
+For more information on configuring the Event dependency source configuration record, see [Configure Event dependency source configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-event-dep-source-confi-module.md).
 
--   **[Configure Event dependency source configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-event-dep-source-confi-module.md)**  
+-   **[Configure Event dependency source configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-event-dep-source-confi-module.md)**  
 Configure the sources for adding the event dependencies in the Event dependency source configuration record.
 
-**Parent Topic:**[Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/dependency-config-modules.md)
+**Parent Topic:**[Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/dependency-config-modules.md)
 

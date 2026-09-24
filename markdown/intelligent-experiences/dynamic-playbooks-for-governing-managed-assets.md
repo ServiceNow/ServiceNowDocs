@@ -2,7 +2,7 @@
 title: Updated playbooks for governing managed assets
 description: Manage AI assets through structured lifecycle workflows using the updated playbooks that automate governance tasks, route approvals, and track compliance requirements across onboarding, maintenance, and retirement phases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/dynamic-playbooks-for-governing-managed-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/dynamic-playbooks-for-governing-managed-assets.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-24"
@@ -25,7 +25,7 @@ The updated playbooks improve on existing playbooks by introducing centralized t
 
 Playbooks operate as workflow templates that activate when specific lifecycle events occur. Each playbook defines a sequence of activities and tasks that must be completed before an asset can advance to the next lifecycle phase. When an AI asset enters a new lifecycle stage, the corresponding playbook generates a set of activities and tasks tailored to that stage. Each activity represents a logical grouping of related governance work, such as risk assessment, security review, or deployment approval. This approach ensures that governance, risk, and compliance requirements are addressed operationally as part of the asset lifecycle rather than as separate processes.
 
-Tasks within each activity are assigned to appropriate roles based on the type of review required. For example, impact assessments might be assigned to AI stewards, while security clearances are routed to security teams. The asset cannot progress to the next activity until all required tasks for the current activity are completed or approved. To learn more about the playbooks offered, see [AI Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-playbooks-reference.md).
+Tasks within each activity are assigned to appropriate roles based on the type of review required. For example, impact assessments might be assigned to AI stewards, while security clearances are routed to security teams. The asset cannot progress to the next activity until all required tasks for the current activity are completed or approved. To learn more about the playbooks offered, see [AI Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-playbooks-reference.md).
 
 ## Key benefits of the updated playbook
 

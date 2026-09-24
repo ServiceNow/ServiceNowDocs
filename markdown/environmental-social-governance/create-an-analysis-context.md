@@ -2,7 +2,7 @@
 title: Create an analysis context
 description: Create an analysis context to group different analyses for a specific use case. By setting up an analysis context, you can help confirm that all relevant analyses are considered and compared systematically, providing a comprehensive view of potential outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-an-analysis-context.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-an-analysis-context.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -90,7 +90,7 @@ Number of previous periods to be used as historical data. You must have at least
 
 ## What to do next
 
-Create analyses to use for forecasting. For more information, see [Create an analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-scenario-analysis.md).
+Create analyses to use for forecasting. For more information, see [Create an analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-scenario-analysis.md).
 
-**Parent Topic:**[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-scenarios.md)
+**Parent Topic:**[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-up-scenarios.md)
 

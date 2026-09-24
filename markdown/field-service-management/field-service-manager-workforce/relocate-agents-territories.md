@@ -2,7 +2,7 @@
 title: Move agents between territories in the Territory Planning console
 description: Relocate agents between territories to add flexibility to their work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/relocate-agents-territories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/relocate-agents-territories.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

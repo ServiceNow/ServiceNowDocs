@@ -2,7 +2,7 @@
 title: Transfer a Universal Request from the Health and Safety Workspace
 description: You can transfer a Universal Request to another department or services from the Health and Safety Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-case-management/transfer-hs-case-universal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-case-management/transfer-hs-case-universal-request.html
 release: australia
 product: Health and Safety Case Management
 classification: health-and-safety-case-management

@@ -2,7 +2,7 @@
 title: Content lookup portal for Software Asset Management
 description: The Content lookup portal gives you visibility into the data stored in the Content Library as part of the IT Asset Management Content Service via an intuitive user interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/content-search-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/content-search-portal.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -16,9 +16,9 @@ breadcrumb: [Software Asset Workspace, Explore, Software Asset Management, IT As
 
 The Content lookup portal gives you visibility into the data stored in the Content Library as part of the IT Asset Management Content Service via an intuitive user interface.
 
-The Content Library is a repository of software product names and all additional information such as software product lifecycle dates, discovery maps, and publisher part numbers \(PPNs\). This information is stored in different tables in the Content Library. For more details on the Content Service, see [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMContentService.md).
+The Content Library is a repository of software product names and all additional information such as software product lifecycle dates, discovery maps, and publisher part numbers \(PPNs\). This information is stored in different tables in the Content Library. For more details on the Content Service, see [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMContentService.md).
 
-The Content library portal application is available in the ServiceNow Store. After you install the application, verify that the AI Search \(com.glide.ais\) plugin is activated. For details on installing the Content library portal application, see [Install Content library portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/install-contentlookup.md).
+The Content library portal application is available in the ServiceNow Store. After you install the application, verify that the AI Search \(com.glide.ais\) plugin is activated. For details on installing the Content library portal application, see [Install Content library portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/install-contentlookup.md).
 
 The Content lookup portal enables you to do the following:
 
@@ -42,7 +42,7 @@ On the Content lookup portal, you can view the information based on the applicat
     -   Software DMAPs
     -   Software Lifecycles
     -   Software PPNs
--   If both Software Asset Management Professional and Hardware Asset Management applications are installed and you have both sam\_user and asset roles, you can view both software and hardware content tabs. For more information about the Hardware Asset Management Content lookup portal, see the [Content lookup portal for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/content-lookup-ham.md).
+-   If both Software Asset Management Professional and Hardware Asset Management applications are installed and you have both sam\_user and asset roles, you can view both software and hardware content tabs. For more information about the Hardware Asset Management Content lookup portal, see the [Content lookup portal for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/content-lookup-ham.md).
 
 The Content lookup portal uses the AI search functionality and helps you to search for a specific software publisher, product, Discovery Maps, life cycles, and PPNs.
 

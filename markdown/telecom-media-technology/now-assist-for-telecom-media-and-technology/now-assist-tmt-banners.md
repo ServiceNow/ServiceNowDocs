@@ -2,7 +2,7 @@
 title: Banners in ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Banners display information about generative AI skills and the form fields that are generated or predicted by those skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-banners.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-banners.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

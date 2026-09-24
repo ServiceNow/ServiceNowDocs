@@ -2,7 +2,7 @@
 title: Add documents to a workplace contract in Workplace Central
 description: Add documents to the workplace contract to maintain all the relevant documents in a single place and maintain different versions of the document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-add-doc-to-lease-cont.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/wpc-add-doc-to-lease-cont.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -57,5 +57,5 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
     5.  Select **Submit.**
 
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

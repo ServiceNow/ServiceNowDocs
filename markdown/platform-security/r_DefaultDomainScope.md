@@ -2,7 +2,7 @@
 title: Domain system properties and user preferences
 description: Administrators have access to properties and user preferences that control domain scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_DefaultDomainScope.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_DefaultDomainScope.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -146,5 +146,5 @@ When true, displays a visual cue that record values include an expanded domain s
 </table>**Related topics**  
 
 
-[Domain separation application properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ds-application-properties.md)
+[Domain separation application properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ds-application-properties.md)
 

@@ -2,7 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for OpenTelemetry
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from ServiceNow Cloud Observability \(formerly Lightstep\). The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-classes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-classes.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -257,7 +257,7 @@ The following attribute in the Server \[cmdb\_ci\_server\] table is populated by
 **Related topics**  
 
 
-[Kubernetes extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-kubernetes.md)
+[Kubernetes extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-kubernetes.md)
 
-[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 

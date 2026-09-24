@@ -2,7 +2,7 @@
 title: Define email configuration for contextual search
 description: Define email configurations to allow the system to include search results with an email notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/define-email-configuration-for-cxs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/contextual-search/define-email-configuration-for-cxs.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -42,8 +42,8 @@ When Knowledge articles are associated with a record, those search results can b
 4.  Click **Submit**.
 
 
--   **[Provide knowledge in incident email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_ProvideKnowledgeIEN.md)**  
+-   **[Provide knowledge in incident email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/t_ProvideKnowledgeIEN.md)**  
 Contextual search results are included in email notifications that are sent to users who create a new incident.
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/working-with-contextual-search.md)
 

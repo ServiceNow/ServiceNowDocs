@@ -2,7 +2,7 @@
 title: Configure message content
 description: Create a message in the Message Contents \[messaging\_content\] table that you can use in multiple notifications. Messages can be informative, or they can request action from an individual Slack or Teams user. For example, the Approval Request message includes Approve and Reject buttons to take the associated action in ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-message-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configure-message-content.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -86,7 +86,7 @@ Message
 
 </td><td>
 
-Enter the content of the message. Use notification variables to include dynamic information in your message. For example, use `Incident ${number}` to include the incident number in the message. For available variables, see [Notification variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-variables.md).
+Enter the content of the message. Use notification variables to include dynamic information in your message. For example, use `Incident ${number}` to include the incident number in the message. For available variables, see [Notification variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/notification-variables.md).
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ This example shows the output of a message in Microsoft Teams. This message is o
 
 ## What to do next
 
-Use the message in a notification. For more information about creating notifications, see [Create a messaging notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-messaging-notification.md).
+Use the message in a notification. For more information about creating notifications, see [Create a messaging notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-messaging-notification.md).
 
-**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/messaging-integration.md)
 

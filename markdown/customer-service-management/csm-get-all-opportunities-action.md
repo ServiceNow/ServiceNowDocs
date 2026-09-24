@@ -2,7 +2,7 @@
 title: Get All Opportunities custom action
 description: The Get All Opportunities action retrieves opportunity records from the Salesforce application. This action is invoked when you view the remote Opportunity table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-get-all-opportunities-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-get-all-opportunities-action.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -124,5 +124,5 @@ The following are outputs of the post-processing step.
 
 Action outputs consist of the query status, error and information messages, and opportunity records. See the preceding screenshot for the action outputs.
 
-**Parent Topic:**[Create Salesforce spoke actions to retrieve opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-salesforce-spoke.md)
+**Parent Topic:**[Create Salesforce spoke actions to retrieve opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-integration-salesforce-spoke.md)
 

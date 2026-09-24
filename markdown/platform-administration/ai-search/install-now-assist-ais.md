@@ -2,14 +2,14 @@
 title: Install ServiceNow Otto for AI Search
 description: As an administrator, you can install the ServiceNow Otto for AI Search application \(sn\_ais\_assist\) from the AI Admin Hub module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/install-now-assist-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/install-now-assist-ais.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
 last_updated: "2026-07-28"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -46,14 +46,14 @@ The ServiceNow Otto for AI Search plugin is automatically installed as a depende
 
 With the plugin installed, search administrators can enable Genius Results in the following contexts.
 
--   Enable all available Genius Result configurations in individual AI Search portals. For details, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
--   Enable Q&amp;A Genius Results in search profiles for AI Search applications. For steps, see [Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
--   Enable Q&amp;A Genius Results in global search using the AI Search for Next Experience application. For steps, see [Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
+-   Enable all available Genius Result configurations in individual AI Search portals. For details, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
+-   Enable Q&amp;A Genius Results in search profiles for AI Search applications. For steps, see [Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
+-   Enable Q&amp;A Genius Results in global search using the AI Search for Next Experience application. For steps, see [Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
 
-To learn more about configuration settings for the plugin, see [Configuring ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md).
+To learn more about configuration settings for the plugin, see [Configuring ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configuring-now-assist-ais.md).
 
--   **[Review available versions of ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/review-available-versions-na-ais.md)**  
+-   **[Review available versions of ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/review-available-versions-na-ais.md)**  
 View all versions of the ServiceNow Otto for AI Search application on the ServiceNow Store. Use this information to find the latest version of the application that's compatible with your instance's current ServiceNow AI Platform® family release.
 
-**Parent Topic:**[ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md)
+**Parent Topic:**[ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-ais.md)
 

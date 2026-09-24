@@ -2,7 +2,7 @@
 title: Add a space using Workplace Space Management
 description: Create a space record for every workspace located on a floor. Specify the space type and the size of the space.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/add-a-space.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/add-a-space.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -56,7 +56,7 @@ Name
 
 Name of the space.Ensure that you enter a unique name. For example, use the location name `<location-name>-16` rather than just `16`.
 
-**Note:** Do not use duplicate names as it may affect the reservation process. If you change the name of a building after updating it, a message is displayed to show that the **Name** will be overwritten in the next synchronization process. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
+**Note:** Do not use duplicate names as it may affect the reservation process. If you change the name of a building after updating it, a message is displayed to show that the **Name** will be overwritten in the next synchronization process. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 </td></tr><tr><td>
 
@@ -180,7 +180,7 @@ Space type
 
 </td><td>
 
-Type of the office space. To configure a new space type, see [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
+Type of the office space. To configure a new space type, see [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ BOMA type
 
 </td><td>
 
-BOMA type that you want to associate this space with. If the Space type that you selected is already mapped with a BOMA type, the field is auto-filled with the mapped BOMA type.For more information about BOMA types and to configure a BOMA type, refer to [Configure a BOMA type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/configure-a-boma-type.md).
+BOMA type that you want to associate this space with. If the Space type that you selected is already mapped with a BOMA type, the field is auto-filled with the mapped BOMA type.For more information about BOMA types and to configure a BOMA type, refer to [Configure a BOMA type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/configure-a-boma-type.md).
 
 </td></tr><tr><td>
 
@@ -292,14 +292,14 @@ Size Square Feet
 
 </td><td>
 
-Surface area computed in square feet or square meters.Ability to compute surface area automatically in square meters or square feet from the CAD polylines if polylines are defined as closed shapes or if a unit is set. For more information, see [Compute CAD file properties to extract space or room surface area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/compute-cad-properties.md).
+Surface area computed in square feet or square meters.Ability to compute surface area automatically in square meters or square feet from the CAD polylines if polylines are defined as closed shapes or if a unit is set. For more information, see [Compute CAD file properties to extract space or room surface area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/compute-cad-properties.md).
 
 </td></tr></tbody>
 </table>6.  Select **Create QR code** to generate and print QR codes for this space.
 
 7.  Select **Unlink Space** to unlink a space from Indoor Mapping map provider.
 
-    For more information about how to link and synchronize Indoor Mapping map data objects with Workplace Indoor Mapping see, [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
+    For more information about how to link and synchronize Indoor Mapping map data objects with Workplace Indoor Mapping see, [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 8.  Select **Block location** to define a time period to block these locations for reservation.
 
@@ -320,12 +320,12 @@ The space is added to the area. The size of the area and the floor are calculate
 
 ## What to do next
 
-Add an allocation, that is, associate the space to a cost center, department and workplace entity. For more information on how to add an allocation, see [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-cost-center-department-floor.md). In the procedure, select the Spaces module instead of the Floors module.
+Add an allocation, that is, associate the space to a cost center, department and workplace entity. For more information on how to add an allocation, see [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-cost-center-department-floor.md). In the procedure, select the Spaces module instead of the Floors module.
 
--   **[Configure a space type as usable with Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/assign-a-space-as-usable.md)**  
+-   **[Configure a space type as usable with Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/assign-a-space-as-usable.md)**  
 Specify if a space type is usable or not by using the Space type configuration functionality. Specify if the space can or cannot be used for reservations.
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

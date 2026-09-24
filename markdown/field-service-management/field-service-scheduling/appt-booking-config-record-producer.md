@@ -2,7 +2,7 @@
 title: Configure an appointment booking record producer
 description: Configure an appointment booking record producer and enable the appointment booking variable set to display the correct fields in that record producer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/appt-booking-config-record-producer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/appt-booking-config-record-producer.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

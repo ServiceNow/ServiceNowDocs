@@ -2,7 +2,7 @@
 title: Review the line items and related details for a service order
 description: Review the line items and the related details of the selected service order to make sure that all line items and details are correct and complete. The related details include the service order line item characteristics and contacts.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 7, 2025.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-review-service-order-line-related-detail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-order-mgt-review-service-order-line-related-detail.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +23,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.service\_order\
 By using the Order Line Item and Order Characteristic forms together, you can do the following actions:
 
 -   View an existing service order line item.
--   View, add, change, or delete a new characteristic of a service order line item. To learn more, see [Select, review, revise, or request cancellation of a service order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-review-service-order-detail.md).
+-   View, add, change, or delete a new characteristic of a service order line item. To learn more, see [Select, review, revise, or request cancellation of a service order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-review-service-order-detail.md).
 
 ## Procedure
 

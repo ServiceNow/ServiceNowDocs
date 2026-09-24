@@ -2,7 +2,7 @@
 title: ITSM Virtual Agent Lite pre-built topics
 description: ITSM Virtual Agent Lite includes several pre-built, read-only topic conversations you can use to set up a virtual agent for your end users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-virtual-agent-lite-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/itsm-virtual-agent-lite-topics.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -27,5 +27,5 @@ ITSM Virtual Agent Lite includes several pre-built, read-only topic conversation
     Users can create incidents using a [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
 
 
-**Parent Topic:**[Setting up ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent-lite.md)
+**Parent Topic:**[Setting up ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent-lite.md)
 

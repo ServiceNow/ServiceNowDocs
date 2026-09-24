@@ -2,7 +2,7 @@
 title: Create a questionnaire or document request template using the Designer
 description: Use the Questionnaire Template Designer to create and edit questionnaire or document request templates that you can use as the basis for other templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/create-question-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/create-question-template.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -71,7 +71,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 3.  Enter a name and then drag a control onto the designer canvas to create a question of that type.
 
-    **Note:** Selecting the scored option \(**Scored** check box\) is optional. All question responses unless otherwise stated are scored. The scored option changes the scoring behavior. If selected, the score is based on a binary system \(0 or 100\) reflecting whether the answer is correct or incorrect. If not selected, the score is calculated using a scale definition, involving the questionRating, questionPercentContribution, and questionNormalizedValue formulae, and the MaximumNormalizationInput field can influence the normalized value. For more information, see [Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md) and [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
+    **Note:** Selecting the scored option \(**Scored** check box\) is optional. All question responses unless otherwise stated are scored. The scored option changes the scoring behavior. If selected, the score is based on a binary system \(0 or 100\) reflecting whether the answer is correct or incorrect. If not selected, the score is calculated using a scale definition, involving the questionRating, questionPercentContribution, and questionNormalizedValue formulae, and the MaximumNormalizationInput field can influence the normalized value. For more information, see [Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md) and [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
 
     |Data type|Description|Scored|
     |---------|-----------|------|

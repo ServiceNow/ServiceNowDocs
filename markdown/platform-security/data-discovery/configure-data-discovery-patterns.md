@@ -2,7 +2,7 @@
 title: Configure Data Discovery patterns
 description: Active data patterns are only used for certain product capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/configure-data-discovery-patterns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/configure-data-discovery-patterns.html
 release: australia
 product: Data Discovery
 classification: data-discovery
@@ -24,8 +24,8 @@ Role required: data\_discovery\_admin
 
 The appropriate product capabilities and use cases for using active data patterns include:
 
--   Data pattern anonymization techniques \([Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-anonymization.md)\)
--   Granular configurations \([Scanning with Granular Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/granular-configuration.md)\)
+-   Data pattern anonymization techniques \([Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/dps-data-anonymization.md)\)
+-   Granular configurations \([Scanning with Granular Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-discovery/granular-configuration.md)\)
 -   Testing whether the regex for a data pattern works
 
 ## About this task

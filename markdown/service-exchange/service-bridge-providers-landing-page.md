@@ -2,7 +2,7 @@
 title: Service Exchange for Providers
 description: Use the Service Exchange for Providers application to create and publish service catalogs, receive and fulfill consumer requests, and integrate with consumer instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-providers-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-providers-landing-page.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -26,17 +26,17 @@ As a provider, you can:
 
 <table id="table_k52_dyx_yxb" class="nav-card"><tbody><tr><td>
 
-[Configure for providers\[Omitted image "bus-optimize-manage-sb.svg"\]Learn how to install and configure Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-configure-provider.md)
+[Configure for providers\[Omitted image "bus-optimize-manage-sb.svg"\]Learn how to install and configure Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-configure-provider.md)
 
 </td><td>
 
-[Use for providers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-administer.md)
+[Use for providers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-administer.md)
 
 </td></tr></tbody>
-</table>If you’re a consumer, see [Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-consumers-landing-page.md).
+</table>If you’re a consumer, see [Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-consumers-landing-page.md).
 
 **Related topics**  
 
 
-[Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-consumers-landing-page.md)
+[Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-consumers-landing-page.md)
 

@@ -2,7 +2,7 @@
 title: SLA duration types
 description: You can select one of two SLA duration types to define the length of time within which a task must be completed before the SLA is breached.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_SLADuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/c\_SLADuration.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -58,5 +58,5 @@ To make relative duration workflows respect the SLA schedule, create the system 
 
 For more information, see [Define a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineARelativeDuration.md) and [Use a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_UseARelativeDuration.md).
 
-**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-management-reference.md)
 

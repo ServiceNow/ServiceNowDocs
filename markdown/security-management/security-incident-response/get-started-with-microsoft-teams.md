@@ -2,7 +2,7 @@
 title: Get started with Microsoft Teams
 description: Review the following information before you start working with Microsoft Teams as a connector application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-started-with-microsoft-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/get-started-with-microsoft-teams.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -55,5 +55,5 @@ Microsoft Teams Graph spoke
 Installing this plugin establishes a Graph spoke connection with Microsoft Teams. For more information, see [Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/msteams-spoke.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/chat-channel-provider-config.md)
+</table>**Parent Topic:**[Configure Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/chat-channel-provider-config.md)
 

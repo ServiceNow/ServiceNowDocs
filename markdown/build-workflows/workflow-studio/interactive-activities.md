@@ -2,7 +2,7 @@
 title: Interactive activities
 description: An interactive activity prompts a user for input in your playbook as it runs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/interactive-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/interactive-activities.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -22,5 +22,5 @@ An interactive activity requires user input to complete. Agents can provide the 
 
 Interactive activities turn into activity cards that require user input in a Playbook experience. Playbook agents must interact with these cards so that the playbook can continue running.
 
-To learn how to design a playbook with interactive activities, see [design an automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-automated-process.md).
+To learn how to design a playbook with interactive activities, see [design an automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/design-automated-process.md).
 

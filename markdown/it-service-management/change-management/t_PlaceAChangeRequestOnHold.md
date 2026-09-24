@@ -2,7 +2,7 @@
 title: Place a change request on hold
 description: You can put a change request on hold to get additional information for the created change request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_PlaceAChangeRequestOnHold.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_PlaceAChangeRequestOnHold.html
 release: australia
 product: Change Management
 classification: change-management
@@ -51,12 +51,12 @@ Change tasks inherit some state conditions from the parent change request they a
 5.  Click **Update**.
 
 
-**Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
+**Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ProcessAChangeRequest.md)
 
 **Related topics**  
 
 
-[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md)
+[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ChangeStateModel.md)
 
-[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md)
+[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateAChange.md)
 

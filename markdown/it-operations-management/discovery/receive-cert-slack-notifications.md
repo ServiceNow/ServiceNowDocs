@@ -2,7 +2,7 @@
 title: Receive certificate notifications on Slack
 description: In Version 1.2.0 of Certificate Inventory and Management, set up Slack notifications to stay informed about expiring and expired certificates. Receive detailed alerts with convenient URL links for additional information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/receive-cert-slack-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/receive-cert-slack-notifications.html
 release: australia
 product: Discovery
 classification: discovery
@@ -59,5 +59,5 @@ A scheduled job in Certificate Inventory and Management regularly checks the exp
 
 Notifications are directed to the Slack channel specified in Discovery properties. If a certificate is assigned to a user, and their configured email matches the Slack email, the user is tagged in the Slack message. The Slack scheduled job runs weekly, and you can adjust its frequency by modifying the Certificate Notification scheduled job settings.
 
-**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
+**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
 

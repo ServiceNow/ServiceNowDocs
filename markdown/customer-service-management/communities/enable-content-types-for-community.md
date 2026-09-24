@@ -2,7 +2,7 @@
 title: Configure community content types
 description: Configure content types, such as videos and blogs, for the community.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/enable-content-types-for-community.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/enable-content-types-for-community.html
 release: australia
 product: Communities
 classification: communities
@@ -49,7 +49,7 @@ You can configure content types at both the community and forum level. At the co
 10. To deactivate a content type, select **False**.
 
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 
@@ -94,5 +94,5 @@ You can configure content types at both the community and forum level. At the co
 
 [Community Service Portal]()
 
-[Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-content-types.md)
+[Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/c_communities-content-types.md)
 

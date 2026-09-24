@@ -2,7 +2,7 @@
 title: Work set standard and task life cycles
 description: A life cycle is the list of states that a work set standard or work set task can go through from creation to closure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -50,23 +50,23 @@ A life cycle is the list of states that a work set standard or work set task can
 
 **Important:** A work set task can't be closed while it has active child tasks. Complete or cancel the remaining child records first.
 
--   **[Create a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-work-set-standard.md)**  
+-   **[Create a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-work-set-standard.md)**  
 Create and update a work set standard. You can also copy a published or retired work set standard to use as a template for a new one.
--   **[Execute a work set task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/execute-work-set-task.md)**  
+-   **[Execute a work set task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/execute-work-set-task.md)**  
 Run a work set task to complete all sub-activities of the underlying work set standard as part of one guided flow.
--   **[Publish a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/publish-work-set-standard.md)**  
+-   **[Publish a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/publish-work-set-standard.md)**  
 Create a work set standard, add sub-activities, and request approval to publish it so that line leaders and operators can run it on the shop floor.
 
-**Parent Topic:**[Using Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.md)
+**Parent Topic:**[Using Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.md)
 
 **Related topics**  
 
 
-[Create a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-work-set-standard.md)
+[Create a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-work-set-standard.md)
 
-[Execute a work set task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/execute-work-set-task.md)
+[Execute a work set task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/execute-work-set-task.md)
 
-[Publish a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/publish-work-set-standard.md)
+[Publish a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/publish-work-set-standard.md)
 
-[Work set sub-activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-sub-activity-form.md)
+[Work set sub-activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/work-set-sub-activity-form.md)
 

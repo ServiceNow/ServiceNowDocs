@@ -2,7 +2,7 @@
 title: Using Now Mobile for Knowledge Management
 description: Access knowledge articles from anywhere using the Information applet on the Now Mobile app. You can view recently viewed and most popular articles, search for articles, browse articles by category, and provide feedback for articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/mobile-experience-for-km.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/mobile-experience-for-km.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -28,18 +28,18 @@ Using Now Mobile app, even external users can access and provide feedback to the
 
 The Information applet is available on the Now Mobile app. The ServiceNow Mobile Request - Knowledge Management Screens and Applet Launcher plugin \(com.glideapp.knowledge.mobile\_requestor\) activates the Information applet. The Information applet is activated by default for both new and upgrade customers.
 
--   **[View the most popular or recently viewed articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/access-articles-now-mobile.md)**  
+-   **[View the most popular or recently viewed articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/access-articles-now-mobile.md)**  
 The Information applet on the Now Mobile app enables you to access knowledge articles from a mobile device.
--   **[Browse articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/browse-articles-now-mobile.md)**  
+-   **[Browse articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/browse-articles-now-mobile.md)**  
 You can browse articles within a category in the Now Mobile Information applet to see articles related to a particular subject or grouping.
--   **[Search for an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/search-article-now-mobile.md)**  
+-   **[Search for an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/search-article-now-mobile.md)**  
 You can search for an article in the Now Mobile Information applet.
--   **[View an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-now-mobile.md)**  
+-   **[View an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/view-article-now-mobile.md)**  
 You can view the author, published date, number of views, and the overall rating details of the article in the Now Mobile Information applet. In addition, you can respond to and evaluate articles and view related items and related articles.
--   **[Provide feedback for a knowledge article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/respond-evaluate-articles.md)**  
+-   **[Provide feedback for a knowledge article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/respond-evaluate-articles.md)**  
 You can contribute to feedback on knowledge articles by rating an article, marking an article as helpful or not helpful, and posting and replying to comments for an article in the Now Mobile Information applet.
 
-**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/using-knowledge-management.md)
 
 **Related topics**  
 
@@ -48,9 +48,9 @@ You can contribute to feedback on knowledge articles by rating an article, marki
 
 [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md)
 
-[View the most popular or recently viewed articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/access-articles-now-mobile.md)
+[View the most popular or recently viewed articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/access-articles-now-mobile.md)
 
-[View an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-now-mobile.md)
+[View an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/view-article-now-mobile.md)
 
-[Provide feedback for a knowledge article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/respond-evaluate-articles.md)
+[Provide feedback for a knowledge article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/respond-evaluate-articles.md)
 

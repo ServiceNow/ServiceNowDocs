@@ -2,7 +2,7 @@
 title: Add images in demand Docs or download them
 description: Add images to demand Docs by uploading a file or embedding a URL. You can also download images from a Doc page to use outside Docs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/insert-images-in-demand-docs-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/insert-images-in-demand-docs-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -35,15 +35,15 @@ Role required: it\_demand\_user, it\_demand\_manager, or demand\_approver
 
 6.  Add an image to the Doc page either by pasting it directly, uploading it from your system, or by embedding a link.
 
-<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d231924e104">
+<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d232023e104">
 
 Goal
 
-</th><th align="left" id="d231924e107">
+</th><th align="left" id="d232023e107">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d231924e113">
+</th></tr></thead><tbody><tr><td id="d232023e113">
 
 **Copy and paste an image from an external source or another page**
 
@@ -51,7 +51,7 @@ Actions
 
 Use your standard method to copy and paste the image.
 
-</td></tr><tr><td id="d231924e122">
+</td></tr><tr><td id="d232023e122">
 
 **Upload an image from your local system**
 
@@ -62,7 +62,7 @@ Use your standard method to copy and paste the image.
 3.  Select the image from your local system and select **Open**.
 
 
-</td></tr><tr><td id="d231924e157">
+</td></tr><tr><td id="d232023e157">
 
 **Embed a link to your image**
 

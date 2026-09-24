@@ -2,7 +2,7 @@
 title: Monitoring order jeopardy
 description: Order managers and agents can monitor jeopardy-enabled fulfillment tasks. When a task enters jeopardy, managers can take action to ensure the fulfillment workflow isn’t delayed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/monitoring-jeopardy-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/monitoring-jeopardy-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -64,7 +64,7 @@ Navigate to **Customer Order** &gt; **Order** &gt; **Order Line Item** &gt; **Ta
 </table>**Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

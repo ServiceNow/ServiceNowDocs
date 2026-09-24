@@ -2,7 +2,7 @@
 title: Disable use of TripleDES/3DES encryption algorithm
 description: Avoid the security risks of outdated encryption methods by disabling the use of the TripleDES/3DES encryption algorithm.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-disable-use-of-tripledes-3des-encryption-algorithm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-disable-use-of-tripledes-3des-encryption-algorithm.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -40,5 +40,5 @@ The **glide.security.3des.encryption.allow** system property controls whether 3D
 
 To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
-**Parent Topic:**[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
+**Parent Topic:**[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
 

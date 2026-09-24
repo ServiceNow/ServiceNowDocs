@@ -2,7 +2,7 @@
 title: Overview page in Assistant analytics
 description: View high-level summary of assistant activity, assist usage, user engagement and overall customer satisfaction \(CSAT\) score.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/overview-page-in-assistant-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/overview-page-in-assistant-analytics.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

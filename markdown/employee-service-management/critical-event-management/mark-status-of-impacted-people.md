@@ -2,7 +2,7 @@
 title: Mark the status of impacted people as an agent
 description: Take attendance of the impacted people in Critical Event Management and request help if needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/mark-status-of-impacted-people.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/mark-status-of-impacted-people.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -34,12 +34,12 @@ Role required: sn\_critical.agent
 
 6.  In the Status drop-down list, select the appropriate status.
 
-    For more information on the different statuses for impacted people, see [Impacted people status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/impacted-people-status.md).
+    For more information on the different statuses for impacted people, see [Impacted people status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/impacted-people-status.md).
 
 7.  Update the status of multiple individuals by selecting multiple check boxes and then selecting the **Accounted** button or selecting the Accounted More Actions icon \(\[Omitted image "arrow.png"\] Alt text: Accounted More Actions icon\) and choosing a different status.
 
 
-**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create an on-call shift plan in Workforce Optimization for Field Service
 description: Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/create-oncall-shift-plan-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/create-oncall-shift-plan-wfo-fsm.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

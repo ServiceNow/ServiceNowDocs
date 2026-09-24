@@ -2,7 +2,7 @@
 title: Autocompleting User Form
 description: Display a form during runtime to collect input values for your playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/autocompleting-user-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/autocompleting-user-form.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -30,7 +30,7 @@ Open the activity properties panel and configure your activity to add values for
 
 ## Advanced inputs
 
-After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md).
+After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activity-definitions.md).
 
 |Input|Type|Description|
 |-----|----|-----------|

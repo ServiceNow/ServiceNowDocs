@@ -2,7 +2,7 @@
 title: Use Notify connector for Microsoft Teams with a major incident
 description: Initiate a conference call from the major incident workbench by inviting one or more users to join a call. The conference doesn't start until at least two participants join.As a participant in a major incident ticket, you can create a conference call from the record.After a conference call is initiated, as a logged-in user with the major incident manager role, you can join the conference call.Add a participant to a conference call to participate in the discussion to resolve the major incident.Mute a participant from the conference call to avoid unnecessary background disruption.As a host or participant with the major incident manager role, you can end the conference call.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/notify-ms-teams-major-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/notify-ms-teams-major-incident.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ Notify administrators, major incident managers, or communications managers can m
 
 Conference call records are stored in the Notify Conference Calls \[notify\_conference\_call\] table. Conference call participant records are stored in the Notify Conference Call Participants \[notify\_participant\] table.
 
-**Parent Topic:**[Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c-agent-ex-use-nc.md)
+**Parent Topic:**[Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c-agent-ex-use-nc.md)
 
 ## Initiate a conference call
 

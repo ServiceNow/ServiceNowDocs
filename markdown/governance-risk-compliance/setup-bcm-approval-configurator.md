@@ -2,7 +2,7 @@
 title: Set up approval configuration
 description: Set up approval configuration to enable multiple levels of approvals and select approvers for each level based on approval rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setup-bcm-approval-configurator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/setup-bcm-approval-configurator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -84,5 +84,5 @@ Option to enable the approval configuration as active.
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-approval-configuration.md)
+**Parent Topic:**[Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-approval-configuration.md)
 

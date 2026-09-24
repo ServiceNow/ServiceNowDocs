@@ -2,7 +2,7 @@
 title: Manage a catalog request approval
 description: Manage your assigned catalog request or requested item by approving or rejecting it from anywhere using your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/manage-cat-approval-request-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/manage-cat-approval-request-mobile.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -47,5 +47,5 @@ Role required: business\_stakeholder or approver\_user
     2.  To view the details of the request, tap it.
 
 
-**Parent Topic:**[Fulfiller experience in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/itsm-mobile-request-approval.md)
+**Parent Topic:**[Fulfiller experience in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/itsm-mobile-request-approval.md)
 

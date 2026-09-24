@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: Frequently asked questions about using Access Simulator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/faq-access-simulator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/faq-access-simulator.html
 release: australia
 product: Access Control
 classification: access-control

@@ -2,7 +2,7 @@
 title: Renew workplace contract in Core UI
 description: Renew a workplace contract after you have created it, when it is approaching expiration, or when it has expired.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/renew-lease-workplace-contracts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/renew-lease-workplace-contracts.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -127,7 +127,7 @@ Percentage increase or decrease in the price of the renewed contract. A negative
 
 If you selected the **Save** option, ensure that you select **Renew** when you’re ready to submit the contract renewal for approval.
 
-**Parent Topic:**[Manage workplace contracts from Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/manage-contracts-from-core-ui.md)
+**Parent Topic:**[Manage workplace contracts from Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/manage-contracts-from-core-ui.md)
 
 **Related topics**  
 

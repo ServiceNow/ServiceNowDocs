@@ -2,7 +2,7 @@
 title: ServiceNow Otto context menu usage dashboard
 description: Use the ServiceNow Otto context menu dashboard to monitor the use of ServiceNow Otto context menu across the different applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-context-menu-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-context-menu-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -50,5 +50,5 @@ Insights: View insights and suggestions for ServiceNow Otto usage.
 
 \`
 
-**Parent Topic:**[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md)
+**Parent Topic:**[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-write-overview.md)
 

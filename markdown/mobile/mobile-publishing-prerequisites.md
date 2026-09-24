@@ -2,7 +2,7 @@
 title: Prerequisites for Mobile Publishing
 description: Before submitting your first branded app request with Mobile Publishing, it's important to set up some prerequisite tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-publishing-prerequisites.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-publishing-prerequisites.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -79,5 +79,5 @@ Make sure that you have the following third-party applications to request, test,
     \* These items are not required to request the branded app for public distribution, but they are required to complete the process.
 
 
-**Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-publishing.md)
+**Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-publishing.md)
 

@@ -2,7 +2,7 @@
 title: Cancel a purchase order exception
 description: Cancel a purchase order exception that is incorrectly filled or no longer required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/cancel-purchase-orders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/cancel-purchase-orders.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,10 +34,10 @@ Role required: sn\_poem\_core.operational\_buyer
     The purchase order exception is canceled.
 
 
-**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/resolving-purchase-order-exceptions.md)
 
 **Related topics**  
 
 
-[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)
+[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/reporting-delivery-plan-issues.md)
 

@@ -2,7 +2,7 @@
 title: Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management
 description: Use the AI agents for SPM to monitor project tasks autonomously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/using-na-spm-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/using-na-spm-ai-agents.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -67,10 +67,10 @@ To run the AI agents autonomously, you must do the following steps:
 -   Activate the agentic workflow.
 -   All AI agents in a agentic workflow are active by default.
 
--   **[Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/na-spm-task-monitoring-usecase.md)**  
+-   **[Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/na-spm-task-monitoring-usecase.md)**  
 Use the Monitor project tasks agentic workflow to autonomously generate a project insights email by using AI agents. AI agents help project managers to manage risks, resolve issues, or take actionable decision on the projects.
 
-**Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-landing-page.md)
+**Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-landing-page.md)
 
 **Related topics**  
 
@@ -79,5 +79,5 @@ Use the Monitor project tasks agentic workflow to autonomously generate a projec
 
 [Configure AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agents.md)
 
-[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)
+[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)
 

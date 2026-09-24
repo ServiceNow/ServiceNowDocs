@@ -2,7 +2,7 @@
 title: Software Asset Management dashboard
 description: View true-up costs, optimization results, and compliance trend charts on the Software Asset Management dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_SAMDashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/c\_SAMDashboard.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -153,7 +153,7 @@ Actual Savings per Month
 State is Closed Complete AND Closed in Last 12 Months
 
 </td></tr></tbody>
-</table>[Removal candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAReclCandidate.md) state color key:
+</table>[Removal candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_AddAReclCandidate.md) state color key:
 
 |Color|State|
 |-----|-----|
@@ -185,5 +185,5 @@ Compliance analysis consists of time-series data using Performance Analytics to 
 |Breakdowns|Shows the detailed list of results based on the widget selected.|
 |Records|Shows the detailed list of product results based on the widget selected.|
 
-**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
+**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
 

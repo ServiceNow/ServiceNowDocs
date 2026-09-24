@@ -2,7 +2,7 @@
 title: Assessment metric type form
 description: Use the Assessment Metric Type form to create an assessment questionnaire template instead of using the default template for Operational vulnerability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/op-vul-assmt-metric-type-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/op-vul-assmt-metric-type-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

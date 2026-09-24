@@ -2,7 +2,7 @@
 title: Configuring automatic creation of work orders
 description: You can enable automatic creation of work orders from Order Management for Telecommunications, Media, and Technology to Field Service Management. Work orders are created for domain orders and order tasks. To configure the automatic creation of work orders, configure the decision tables in the decision builder.Add a condition in the decision tree for automatic creation of work orders for domain order. The conditions are specified in the Work Order Policy for Domain Order decision table.Add a condition in the decision tree for automatic creation of work orders for order tasks. The conditions are specified in the Work Order Policy for Order Task decision table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/config-auto-creation-work-orders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/config-auto-creation-work-orders.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

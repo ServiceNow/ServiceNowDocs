@@ -2,7 +2,7 @@
 title: Legal Service Delivery AI agents
 description: The following AI agents are available for Legal Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/lsd-ai-agents-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/lsd-ai-agents-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
@@ -14,8 +14,8 @@ breadcrumb: [Legal Service Delivery, AI agents library, AI assets, Enable AI exp
 
 The following AI agents are available for Legal Service Delivery.
 
--   **[Transfer legal request AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/lsd-transfer-legal-request-ai-agent.md)**  
+-   **[Transfer legal request AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/lsd-transfer-legal-request-ai-agent.md)**  
 This AI agent transfers a legal request to the predicted category.
 
-**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
 

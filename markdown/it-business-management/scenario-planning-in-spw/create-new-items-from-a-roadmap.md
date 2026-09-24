@@ -2,7 +2,7 @@
 title: Create planning items from the roadmap view
 description: Create and add new planning items to your portfolio roadmap or free-form roadmap directly from the roadmap view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -73,11 +73,11 @@ Multiple planning item types
 \[Omitted image "new-planning-item.png"\] Alt text: Sample actions for a new planning item on hybrid roadmap.
 
 </td></tr></tbody>
-</table>    For a free-form roadmap, if the source table is Planning Item \[sn\_align\_core\_planning\_item\] table, then the options depend on the values configured for the **freeform\_planning\_items\_creation\_list** property. By default, project and demand are available. Work with your admin to configure these options. See [Enable custom item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.md).
+</table>    For a free-form roadmap, if the source table is Planning Item \[sn\_align\_core\_planning\_item\] table, then the options depend on the values configured for the **freeform\_planning\_items\_creation\_list** property. By default, project and demand are available. Work with your admin to configure these options. See [Enable custom item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.md).
 
 3.  On the form, fill in the required field information.
 
-    For full field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-item-form.md).
+    For full field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
     You can refine planning item descriptions—for item types such as Demand, Epic, Project, Capability, Feature, and Story—using the Write planning item skill, if the ServiceNow Otto for SPM application is installed.
 
@@ -88,10 +88,10 @@ Multiple planning item types
 
 The new item appears on the roadmap, at a place based on its approved start and end dates.
 
-If you don’t fill both the approved start and end date fields, the item that you created would be moved to the list of unscheduled items. You can add them to your roadmap plan later. For more information, see [Plan unscheduled items into a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/schedule-unscheduled-items-to-a-roadmap.md).
+If you don’t fill both the approved start and end date fields, the item that you created would be moved to the list of unscheduled items. You can add them to your roadmap plan later. For more information, see [Plan unscheduled items into a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/schedule-unscheduled-items-to-a-roadmap.md).
 
--   **[Modify planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/manage-planning-items-from-the-roadmap-view.md)**  
+-   **[Modify planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/manage-planning-items-from-the-roadmap-view.md)**  
 Update the details of planning items or delete them from a portfolio plan or free-form roadmap so that your roadmap reflects the latest plans.
 
-**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
+**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
 

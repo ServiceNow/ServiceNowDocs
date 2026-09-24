@@ -2,7 +2,7 @@
 title: SC Categories widget
 description: The SC Categories widget displays Service Catalog categories. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-categories-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/sc-categories-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -24,7 +24,7 @@ If you associate your portal with multiple catalogs, then the SC Categories widg
 
 \[Omitted image "sc-categories-menu.png"\] Alt text: Menu to select a catalog
 
-For more information on associating your portal with catalogs, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
+For more information on associating your portal with catalogs, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/associate-portal-catalog.md).
 
 ## Instance options
 
@@ -111,7 +111,7 @@ Verifies with each item that the user has the right roles to view the catalog it
 -   Omit badges: True
 -   Check canView per item: False
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure manager insights for ServiceNow Otto for HRSD
 description: Configure the manager insights skill in ServiceNow Otto for HRSD to generate a summary of team data in Manager Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/config-manager-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/config-manager-insights.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -35,5 +35,5 @@ Role required: sn\_hr\_gen\_ai.admin
 6.  Select **Turn on**.
 
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

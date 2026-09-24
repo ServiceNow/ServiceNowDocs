@@ -2,7 +2,7 @@
 title: Assign a page to a site
 description: If you have created multiple sites, you can add pages from one site to another site.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_AssignAPageToASite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_AssignAPageToASite.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -35,5 +35,5 @@ Role required: content\_admin or admin
 6.  **Update** the site.
 
 
-**Parent Topic:**[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentPages.md)
+**Parent Topic:**[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentPages.md)
 

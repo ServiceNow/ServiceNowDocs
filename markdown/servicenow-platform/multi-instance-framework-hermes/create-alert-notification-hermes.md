@@ -2,7 +2,7 @@
 title: Create an alert for unauthorized access
 description: Receive a notification when an attempt to access Hermes is received from an unauthorized IP address.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/create-alert-notification-hermes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/create-alert-notification-hermes.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -45,5 +45,5 @@ Role required: admin
 
 One or more selected users or groups are notified when an attempt to access Hermes is received from an unauthorized IP address.
 
-**Parent Topic:**[Restricting access to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/restricting-access-hermes-topics.md)
+**Parent Topic:**[Restricting access to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/restricting-access-hermes-topics.md)
 

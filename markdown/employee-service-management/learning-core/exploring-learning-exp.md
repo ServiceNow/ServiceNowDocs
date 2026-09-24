@@ -2,7 +2,7 @@
 title: Learning
 description: Learning application enables you to discover, manage, and engage with career development content. It enables users to configure learning catalogs that contain course items from both internal and external learning systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/exploring-learning-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/exploring-learning-exp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -22,23 +22,23 @@ Learning includes the following key features:
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Detailed information on Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/exploring-learning.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Detailed information on Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/exploring-learning.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/configuring-learning.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/configuring-learning.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-task-list.svg"\] Alt text:Learn how to manage and use Learning experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-your-learning.md)
+[Use\[Omitted image "bus-task-list.svg"\] Alt text:Learn how to manage and use Learning experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-your-learning.md)
 
 </td></tr><tr><td>
 
-[Reports\[Omitted image "bus-chart-down-with-arrow.svg"\] Alt text:Measure the success of learning content through targeted reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/reporting-solutions-learning.md)
+[Reports\[Omitted image "bus-chart-down-with-arrow.svg"\] Alt text:Measure the success of learning content through targeted reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/reporting-solutions-learning.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about user roles, tables, and default configurations in Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-experience-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about user roles, tables, and default configurations in Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-experience-reference.md)
 
 </td><td>
 

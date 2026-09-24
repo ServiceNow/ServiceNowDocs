@@ -2,7 +2,7 @@
 title: Tools included with ServiceNow Otto for App Engine
 description: Learn about the tools and applications included with ServiceNow Otto for App Engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/tools-included-with-now-assist-for-app-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-app-engine/tools-included-with-now-assist-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine

@@ -2,12 +2,12 @@
 title: Issues and solutions in Build Agent
 description: Identify and resolve common issues in Build Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-troubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-troubleshooting.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-24"
 reading_time_minutes: 5
-keywords: [troubleshooting, build failures, empty UI pages, context limits, rate limit errors, deployment issues, debugging, error messages, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [troubleshooting, build failures, empty UI pages, context limits, rate limit errors, deployment issues, debugging, error messages, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -95,7 +95,7 @@ App not deploying
 </td><td>
 
 -   Quick check: Build output for errors before deploying. Build Agent only deploys the latest successful build. If your updates are not available after deployment, the build may have failed even though the deployment succeeded.
--   Try: In the ServiceNow IDE, run ServiceNow SDK build first, check errors, then deploy and install in sequence. In ServiceNow Studio, confirm your update set is current and complete. Paste any error messages into the chat panel and ask Build Agent to resolve the build issues and redeploy. For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-deployment.md).
+-   Try: In the ServiceNow IDE, run ServiceNow SDK build first, check errors, then deploy and install in sequence. In ServiceNow Studio, confirm your update set is current and complete. Paste any error messages into the chat panel and ask Build Agent to resolve the build issues and redeploy. For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-deployment.md).
 -   If still failing, capture: The build log, your SDK version, and your update set state.
 
 </td></tr><tr><td>
@@ -169,5 +169,5 @@ Long-running prompt times out
 -   If still failing, capture: The session length and the prompt that timed out.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+</table>**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-build-agent.md)
 

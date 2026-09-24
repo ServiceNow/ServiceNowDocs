@@ -2,7 +2,7 @@
 title: Set up the Amazon SNS spoke
 description: Integrate the ServiceNow instance and Amazon SNS using AWS credential to authenticate ServiceNow requests.Create Credential record for your AWS account. The Amazon SNS spoke uses this credential to perform actions on Amazon SNS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-amazon-sns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-amazon-sns.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -24,7 +24,7 @@ Integrate the ServiceNow instance and Amazon SNS using AWS credential to authent
 
 ## About this task
 
-To receive events at your ServiceNow instance from Amazon SNS, see [Receive events at your ServiceNow instance from Amazon SNS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/notification-sns.md). Spoke set up described here enables you to use spoke subflow and actions.
+To receive events at your ServiceNow instance from Amazon SNS, see [Receive events at your ServiceNow instance from Amazon SNS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/notification-sns.md). Spoke set up described here enables you to use spoke subflow and actions.
 
 ## Create Credential record for the Amazon SNS spoke
 

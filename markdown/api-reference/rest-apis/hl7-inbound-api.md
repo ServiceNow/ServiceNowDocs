@@ -2,7 +2,7 @@
 title: HL7 Inbound API
 description: The HL7 Inbound API receives inbound HL7 v2.x ADT messages from EHR systems over HTTP and returns standard HL7 acknowledgment responses. It implements the HAPI HL7-over-HTTP convention, accepting raw pipe-delimited ER7 message bodies and processing them against configured parser profiles.Accepts a raw pipe-delimited HL7 v2.x message in ER7 format, validates the MSH segment, resolves a matching parser profile, and creates an sn\_hl7\_v2\_message\_log record for downstream processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/hl7-inbound-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/hl7-inbound-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -73,7 +73,7 @@ To add support for a new sending system or message type:
 
 To clone from existing parser configuration, see the instructions in [Clone and customize a parser configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-parser-config-clone.md).
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## HL7 Inbound - POST /api/sn\_hl7\_v2/hl7/message
 
@@ -197,7 +197,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -210,7 +210,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

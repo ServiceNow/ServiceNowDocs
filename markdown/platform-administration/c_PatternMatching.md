@@ -2,7 +2,7 @@
 title: Pattern matching
 description: Pattern matching in Field Normalization uses special characters differently from regular expressions to create patterns that the platform recognizes when transforming field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_PatternMatching.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_PatternMatching.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

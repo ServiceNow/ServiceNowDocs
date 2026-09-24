@@ -2,7 +2,7 @@
 title: Assign an administrator to Service Reliability Management
 description: Add people from your ServiceNow instance to administer Service Reliability Management \(SRM\) and your service operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-assign-admins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-assign-admins.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -37,9 +37,9 @@ The SRM admin can add and create teams. They can also manage data across all SRM
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Install Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-install-sr-store-app.md)
+**Previous topic:**[Install Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-install-sr-store-app.md)
 
-**Next topic:**[Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md)
+**Next topic:**[Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md)
 

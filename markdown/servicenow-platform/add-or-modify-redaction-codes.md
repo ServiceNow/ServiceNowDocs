@@ -2,7 +2,7 @@
 title: Add or modify redaction codes for sensitive data redaction
 description: Add new redaction codes for sensitive data redaction based on your organization's compliance framework, or modify existing codes to match your document handling policies
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/add-or-modify-redaction-codes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/add-or-modify-redaction-codes.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"

@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Lux Lab for VS Code extension
 description: Install the ServiceNow Lux Lab for VS Code extension and connect it to your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/configuring-servicenow-ai-experience-lab-for-vs-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/configuring-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
@@ -93,11 +93,11 @@ ServiceNow instance
 [Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md)
 
 </td></tr></tbody>
-</table>1.  [Install ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-servicenow-ai-experience-lab-for-vs-code.md).
+</table>1.  [Install ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/install-servicenow-ai-experience-lab-for-vs-code.md).
 
     Install the ServiceNow Lux Lab for VS Code extension from the Visual Studio Code marketplace.
 
-2.  [Connect ServiceNow Lux Lab for VS Code extension to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.md)
+2.  [Connect ServiceNow Lux Lab for VS Code extension to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.md)
 
     Connect to your instance to access relevant files and deploy your changes.
 

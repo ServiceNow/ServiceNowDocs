@@ -2,7 +2,7 @@
 title: Installed with Password Reset
 description: Tables, roles, business rules, scripts, and workflows are installed with the Password Reset application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/r\_InstalledWithPasswordReset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/r\_InstalledWithPasswordReset.html
 release: australia
 product: Password Reset
 classification: password-reset

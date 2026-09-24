@@ -2,7 +2,7 @@
 title: Set the application scope, application resource, and event access
 description: Create a record in the Restricted Caller Access Privileges \[sys\_restricted\_caller\_access\] table to set cross-scope resource access requests. Approve or deny requests from a source scope or source scope application resources to a target scope or to target scope application resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/scope-resource-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/scope-resource-access.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ If you enable application administration for the target application, only applic
 
 Role required: application admin or admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -162,14 +162,14 @@ For example, to allow access to an entire application, select **Scope**.
 
 </td></tr></tbody>
 </table>
--   **[Scope-to-scope settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-to-scope-settings.md)**  
+-   **[Scope-to-scope settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/scope-to-scope-settings.md)**  
 Allow or deny access of all application resources in a source scope to all application resources in a target scope. This setting combination is a many-to-many relationship.
--   **[Scope-to-target settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-to-target-settings.md)**  
+-   **[Scope-to-target settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/scope-to-target-settings.md)**  
 Allow or deny access of all application resources in a source scope to a specific application resource \(business rule, table, script include, or event\) in a target scope.
--   **[Source-to-scope settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/source-to-scope-settings.md)**  
+-   **[Source-to-scope settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/source-to-scope-settings.md)**  
 Allow or deny access of a specific application resource in a source scope to all application resources in a target scope.
--   **[Source-to-target settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/source-to-target-settings.md)**  
+-   **[Source-to-target settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/source-to-target-settings.md)**  
 Allow or deny access of a specific application resource in a source scope to a specific application resource in a target scope.
 
-**Parent Topic:**[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md)
+**Parent Topic:**[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/restricted-caller-access-privilege.md)
 

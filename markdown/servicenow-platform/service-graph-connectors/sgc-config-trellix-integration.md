@@ -2,7 +2,7 @@
 title: Configure Service Graph Connector for Trellix using guided setup
 description: Set up scheduled import jobs to pull in data from a Trellix project into your CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-config-trellix-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-config-trellix-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -24,8 +24,8 @@ To use this Service Graph Connector, you need a subscription to a Subscription U
 
 Dependencies and requirements:
 
--   The Integration Commons for CMDB store app, which is automatically installed. See [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The Integration Commons for CMDB store app, which is automatically installed. See [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   The ITOM Licensing plugin \(com.snc.itom.license\). See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 
 Role required: admin
@@ -181,7 +181,7 @@ The maximum time \(in seconds\) the system waits while attempting to establish a
 
     7.  Set the Update Data Source Access task to complete by selecting **Mark as Complete**, and then select **Continue**.
 
-    8.  Repeat steps [5.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-trellix-integration.md) to [5.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-trellix-integration.md) for the Update Scheduled Data Import Access task with the Scheduled data import \[scheduled\_data\_set\] table.
+    8.  Repeat steps [5.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-trellix-integration.md) to [5.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-trellix-integration.md) for the Update Scheduled Data Import Access task with the Scheduled data import \[scheduled\_data\_set\] table.
 
     9.  Select **Update** to save the scheduled data import access details.
 
@@ -298,9 +298,9 @@ Password of your Trellix account.
 **Related topics**  
 
 
-[Service Graph Connector for Trellix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-integration-trellix.md)
+[Service Graph Connector for Trellix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-trellix.md)
 
-[CMDB classes targeted in Service Graph Connector for Trellix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-trellix-classes.md)
+[CMDB classes targeted in Service Graph Connector for Trellix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-trellix-classes.md)
 
-[Accessing the connection details of Service Graph Connector for Trellix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-trellix-conn.md)
+[Accessing the connection details of Service Graph Connector for Trellix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-trellix-conn.md)
 

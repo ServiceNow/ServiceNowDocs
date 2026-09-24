@@ -2,7 +2,7 @@
 title: Migrating Advanced Work Assignment Dashboards
 description: Migrating the Advanced Work Assignment CoreUI dashboards to Next Experience increases the product adoption of key platform capabilities to drive customer benefit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-dashboards-migration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-dashboards-migration.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

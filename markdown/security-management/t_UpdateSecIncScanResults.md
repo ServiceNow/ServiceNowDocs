@@ -2,7 +2,7 @@
 title: Update security incident with lookup results workflow
 description: The Update security incident with lookup results workflow updates existing security incidents with lookup results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/t\_UpdateSecIncScanResults.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/t\_UpdateSecIncScanResults.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,10 +24,10 @@ This workflow is triggered by a business rule on the lookup table which monitors
 
 Workflow process activities include:
 
--   [Roll up lookup info to security incident activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/r_RollUpScanInfoSI.md)
--   [Update Task Worknotes activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/update-task-worknotes-activity.md)
+-   [Roll up lookup info to security incident activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/r_RollUpScanInfoSI.md)
+-   [Update Task Worknotes activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/update-task-worknotes-activity.md)
 
 \[Omitted image "UpdateSILookupResultsWorkflow.png"\] Alt text: Update security incident with lookup results workflow diagram
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md)
 

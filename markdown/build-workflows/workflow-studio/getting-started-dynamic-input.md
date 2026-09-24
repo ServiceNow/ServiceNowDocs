@@ -2,7 +2,7 @@
 title: Get started with dynamic inputs
 description: Create a sample action that illustrates using all available types of dynamic inputs in a flow.Create the aliases, connections, and credentials needed to connect to your local instance.Create a custom data gathering action to fetch a list of table names from the Table API.Create a data gathering action to get a list of fields from a table.Create a data gathering action to add a reference type dynamic input.Create a custom action to test dynamic inputs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/getting-started-dynamic-input.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/getting-started-dynamic-input.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -22,28 +22,28 @@ Role required: action\_designer or admin
 
 ## Procedure
 
-1.  [Create credential and connection records for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md).
+1.  [Create credential and connection records for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-input.md).
 
     This connection &amp; credential alias will provide the base URL and user account needed to configure the REST steps of your data gathering actions.
 
-2.  [Create a data gathering action to get table names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md).
+2.  [Create a data gathering action to get table names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-input.md).
 
     This data gathering action will provide JSON data for dynamic choice inputs.
 
-3.  [Create a data gathering action to get field names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md).
+3.  [Create a data gathering action to get field names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-input.md).
 
     This data gathering action provides JSON data for dynamic template inputs.
 
-4.  [Create a data gathering action to add dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md).
+4.  [Create a data gathering action to add dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-input.md).
 
     This data gathering action provides JSON data to create arbitrary dynamic inputs.
 
-5.  [Create a custom action to test dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md).
+5.  [Create a custom action to test dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-input.md).
 
     This custom action illustrates different types of dynamic inputs.
 
 
-**Parent Topic:**[Dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-inputs.md)
+**Parent Topic:**[Dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/dynamic-inputs.md)
 
 **Related topics**  
 
@@ -131,7 +131,7 @@ This data gathering action consists of these elements.
 -   A script step to construct a JSON payload from the REST step's Response Body
 -   An action output variable named `output` to store table name and value pairs as a JSON document
 
-This custom action uses a REST API call to duplicate the functionality of the ServiceNow core [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) and [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-records-flow-designer.md). Typically, you do not need to create custom actions to perform basic record operations. This action illustrates working with the REST and Script steps to gather table data for dynamic inputs.
+This custom action uses a REST API call to duplicate the functionality of the ServiceNow core [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-record-flow-designer.md) and [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-records-flow-designer.md). Typically, you do not need to create custom actions to perform basic record operations. This action illustrates working with the REST and Script steps to gather table data for dynamic inputs.
 
 ### Procedure
 
@@ -251,7 +251,7 @@ Enter `GET`
 
     \[Omitted image "create-dga-tables-04-outputs.png"\] Alt text: Example action output configuration from step 6
 
-8.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+8.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md).
 
     1.  Select **Run Test**.
 
@@ -387,7 +387,7 @@ This data gathering action consists of these elements.
 -   A script step to construct a JSON payload from the REST step's Response Body
 -   An action output variable named `output` to store field name and value pairs as a JSON document
 
-This custom action uses a REST API call to duplicate the functionality of the ServiceNow core [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) and [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-records-flow-designer.md). Typically, you do not need to create custom actions to perform basic record operations. This action illustrates working with the REST and Script steps to gather field data for dynamic inputs.
+This custom action uses a REST API call to duplicate the functionality of the ServiceNow core [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-record-flow-designer.md) and [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-records-flow-designer.md). Typically, you do not need to create custom actions to perform basic record operations. This action illustrates working with the REST and Script steps to gather field data for dynamic inputs.
 
 ### Procedure
 
@@ -571,7 +571,7 @@ Add this query parameter to make the REST API only return one record.-   **Name*
 
     \[Omitted image "create-dga-fields-05-outputs.png"\] Alt text: Example output configuration from step 8
 
-12. In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+12. In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, in the **Table** field, enter `incident`.
 
@@ -649,7 +649,7 @@ This data gathering action includes these elements.
 -   A script step to construct two dynamic inputs as a JSON object
 -   An action output variable named `output` to store the dynamic inputs
 
-This custom action uses a reference type input to duplicate the functionality of the ServiceNow core [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) and [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-records-flow-designer.md). Generally, you don’t need to create custom actions to perform basic record operations. This action illustrates working with the Script steps to gather field data for dynamic inputs.
+This custom action uses a reference type input to duplicate the functionality of the ServiceNow core [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-record-flow-designer.md) and [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/lookup-records-flow-designer.md). Generally, you don’t need to create custom actions to perform basic record operations. This action illustrates working with the Script steps to gather field data for dynamic inputs.
 
 ### Procedure
 
@@ -748,7 +748,7 @@ This custom action uses a reference type input to duplicate the functionality of
 
     \[Omitted image "create-dga-dynamic-04-outputs.png"\] Alt text: Example output configuration from step 6
 
-8.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+8.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md).
 
     1.  Select **Run Test**.
 
@@ -784,7 +784,7 @@ Role required: action\_designer or admin
 
 ### About this task
 
-This helper action duplicates the functionality of the [Create Record step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-record-action-designer.md) to illustrate gathering data from a REST step. Generally, you use dynamic inputs for integrations to third-party systems and data.
+This helper action duplicates the functionality of the [Create Record step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-record-action-designer.md) to illustrate gathering data from a REST step. Generally, you use dynamic inputs for integrations to third-party systems and data.
 
 This custom action includes these elements.
 
@@ -911,7 +911,7 @@ This custom action includes these elements.
 
     \[Omitted image "create-custom-action-04-outputs.png"\] Alt text: Example outputs configuration from step 6
 
-8.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+8.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, in the **Table** input, select any dynamically generated table choice option.
 
@@ -927,7 +927,7 @@ This custom action includes these elements.
 
     4.  Select **Run Test**.
 
-        **Note:** Records you create from the Table API bypass data policies and required fields normally related with record creation. This action is for illustration purposes only. Use the [Create Record step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-record-action-designer.md) instead to create records with standard protections and validations.
+        **Note:** Records you create from the Table API bypass data policies and required fields normally related with record creation. This action is for illustration purposes only. Use the [Create Record step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-record-action-designer.md) instead to create records with standard protections and validations.
 
     5.  View the action's execution details.
 

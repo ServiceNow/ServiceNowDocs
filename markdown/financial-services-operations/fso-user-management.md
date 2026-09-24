@@ -2,7 +2,7 @@
 title: FSO User management
 description: Configure the internal and external users for Customer Service Management to provide the right access to features, capabilities, and case data. Create relationships that facilitate case management and fulfill support roles for specific accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-user-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-user-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Configure the individual users and the user groups who can access your instance.
 
 </td></tr><tr><td>
 
-[User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-core-roles.md)
+[User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-core-roles.md)
 
 </td><td>
 
@@ -40,7 +40,7 @@ Assign roles to individual users and user groups to control access to features, 
 
 </td></tr><tr><td>
 
-[Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md)
+[Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md)
 
 </td><td>
 

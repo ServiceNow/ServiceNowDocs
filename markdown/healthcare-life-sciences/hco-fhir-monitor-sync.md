@@ -2,7 +2,7 @@
 title: Monitor and troubleshoot FHIR sync runs
 description: Review the FHIR Sync Log to confirm that sync runs complete and see how many records each run processed or skipped. Trace skipped records and failures to their cause.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-monitor-sync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-monitor-sync.html
 release: australia
 topic_type: task
 last_updated: "2026-06-16"
@@ -21,7 +21,7 @@ Role required: `sn_hco_intg_fhir.admin`.
 
 ## About this task
 
-Each sync run records one FHIR Sync Log row per resource type. The four rows for a single run share a correlation ID. The status and record counts on each row tell you whether the run succeeded and how much data it moved. For the meaning of each field, see [FHIR Sync Log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-sync-log-fields.md).
+Each sync run records one FHIR Sync Log row per resource type. The four rows for a single run share a correlation ID. The status and record counts on each row tell you whether the run succeeded and how much data it moved. For the meaning of each field, see [FHIR Sync Log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-sync-log-fields.md).
 
 ## Procedure
 

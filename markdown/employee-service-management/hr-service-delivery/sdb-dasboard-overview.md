@@ -2,7 +2,7 @@
 title: HR Success Dashboard indicators components
 description: Analyze the performance and self-solve data visually and drive business outcomes with the help of the dashboard components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/sdb-dasboard-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/sdb-dasboard-overview.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -18,13 +18,13 @@ Analyze the performance and self-solve data visually and drive business outcomes
 
 ## Performance Overview in HR Success Dashboard indicators
 
-Measure the Key Performance Indicators \(KPIs\) like Self-solved percentage, Call deflection percentage, Structured tickets percentage, and Successful predictions in the Performance Overview tab. For more information, see [HR Success Dashboard indicators KPI definitions and formulae](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/sd-formulae.md).
+Measure the Key Performance Indicators \(KPIs\) like Self-solved percentage, Call deflection percentage, Structured tickets percentage, and Successful predictions in the Performance Overview tab. For more information, see [HR Success Dashboard indicators KPI definitions and formulae](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/sd-formulae.md).
 
 \[Omitted image "dashboard-perf-oview.png"\] Alt text: HR Success Dashboard indicators Overview page displayed.
 
 ## Service Quality in HR Success Dashboard indicators
 
-Measure the Key Performance Indicators \(KPIs\) like Customer satisfaction score, Mean time to resolve, % Breached SLA, and % First assignment resolution in the Service Quality tab. For more information, see [HR Success Dashboard indicators KPI definitions and formulae](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/sd-formulae.md)
+Measure the Key Performance Indicators \(KPIs\) like Customer satisfaction score, Mean time to resolve, % Breached SLA, and % First assignment resolution in the Service Quality tab. For more information, see [HR Success Dashboard indicators KPI definitions and formulae](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/sd-formulae.md)
 
 \[Omitted image "service-quality.png"\] Alt text: Service Quality tab displayed on the HR Success Dashboard indicators.
 
@@ -59,7 +59,7 @@ See the constituent drill-down views and their contextual descriptions for KPIs.
 
     \[Omitted image "prmry-indctr.png"\] Alt text: Primary indicators page of the HR Success Dashboard indicators
 
-    You can replace or add new indicators to suit your implementation in addition to the base system indicators. For more details, see [HR Success Dashboard indicators KPI definitions and formulae](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/sd-formulae.md).
+    You can replace or add new indicators to suit your implementation in addition to the base system indicators. For more details, see [HR Success Dashboard indicators KPI definitions and formulae](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/sd-formulae.md).
 
 -   View the contributing indicators.
 

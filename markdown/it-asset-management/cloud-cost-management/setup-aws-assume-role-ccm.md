@@ -2,7 +2,7 @@
 title: Set up AWS Assume Role authentication for Cloud Cost Management
 description: Configure AWS Identity and Access Management \(IAM\) roles and permissions to enable Cloud Cost Management using Assume Role authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/setup-aws-assume-role-ccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/setup-aws-assume-role-ccm.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

@@ -2,7 +2,7 @@
 title: Using geolocation in Virtual Agent
 description: Topic authors can include a pre-built topic block called Geolocation in conversations with users. The Geolocation topic block retrieves the latitude and longitude coordinates of the user's location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-geolocation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-geolocation.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -56,14 +56,14 @@ No
 
 </td><td>
 
-The topic block does not retrieve user coordinates and displays a relevant error message for the topic author to resolve. The error is logged as an output parameter. For details, see [Geolocation topic block parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-platform-topicblocks.md).
+The topic block does not retrieve user coordinates and displays a relevant error message for the topic author to resolve. The error is logged as an output parameter. For details, see [Geolocation topic block parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-platform-topicblocks.md).
 
 </td></tr></tbody>
 </table>## Modify the Geolocation topic block
 
 If you are a topic author or an admin, you can modify the Geolocation topic block flow, as applicable. Simply duplicate the topic block and rename it. You can then use it as needed in the larger conversation flow you're designing.
 
-The Geolocation topic block properties sheet lets topic authors specify the input and output mappings. You can also customize the prompt using data pills or scripts. For example, you can include an explanation or reason for asking the question. For information about using data pills and scripts, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
+The Geolocation topic block properties sheet lets topic authors specify the input and output mappings. You can also customize the prompt using data pills or scripts. For example, you can include an explanation or reason for asking the question. For information about using data pills and scripts, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
 
 \[Omitted image "va-geolocation-user-prompt.png"\] Alt text: The value of the permissionPrompt string is "Would you like to share your location?"
 
@@ -77,5 +77,5 @@ All the variables are selected by default. Keep the default choices, or select t
 
 \[Omitted image "va-geolocation-results.png"\] Alt text: Geolocation topic block results read, "This is what I got back," followed by the latitude and longitude, an OK status, and no error.
 
-For more information about the Geolocation topic block properties, see [Geolocation topic block parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-platform-topicblocks.md).
+For more information about the Geolocation topic block properties, see [Geolocation topic block parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-platform-topicblocks.md).
 

@@ -2,7 +2,7 @@
 title: Defining Expiration Rules
 description: Define expiration rules for various observables or a combination of various source objects or indicators source that are created in TISC.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-expiration-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-expiration-rules.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -108,6 +108,6 @@ Select the type of records.
 6.  Click **Delete** if you wish to delete any expiration rule.
 
 
--   **[Expiration rules for source records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-expiration-source.md)**  
+-   **[Expiration rules for source records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-expiration-source.md)**  
 Expiration rules are basically helpful to set the expiration time for the source records. The aggregate record inherits the highest expiration time from its corresponding sources records.
 

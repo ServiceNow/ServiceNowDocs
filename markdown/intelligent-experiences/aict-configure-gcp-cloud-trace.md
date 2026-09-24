@@ -2,12 +2,12 @@
 title: Add a GCP Cloud Trace connection
 description: Monitor AI agents running on Google Cloud by adding a GCP Cloud Trace connection. AI Control Tower collects trace data through your Google Cloud credentials and a MID Server, without requiring SDK instrumentation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-gcp-cloud-trace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configure-gcp-cloud-trace.html
 release: australia
 topic_type: task
 last_updated: "2026-06-30"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -50,7 +50,7 @@ The trace connection appears on the **Established** sub-tab. If the connection i
 
 ## What to do next
 
-Choose which metrics to include in evaluation scoring. See [Activate evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-monitor-external-ai-system.md).
+Choose which metrics to include in evaluation scoring. See [Activate evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-monitor-external-ai-system.md).
 
-**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md)
+**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-trace-connections.md)
 

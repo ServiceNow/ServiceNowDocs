@@ -2,7 +2,7 @@
 title: Demand task form
 description: The Demand Task form enables you to create or modify a demand task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demand-task-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/demand-task-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

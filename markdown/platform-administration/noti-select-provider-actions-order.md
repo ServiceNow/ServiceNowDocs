@@ -2,7 +2,7 @@
 title: Add actions to the notification content
 description: Use the Link Actions to Content related list to add actions to the notification content, selection of the provider notification and ordering of actions of an actionable content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/noti-select-provider-actions-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/noti-select-provider-actions-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -108,5 +108,5 @@ Option to link actions from event parm2. Actions must be sys\_ids from the **sys
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-provider-notification-using.md)
+**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-provider-notification-using.md)
 

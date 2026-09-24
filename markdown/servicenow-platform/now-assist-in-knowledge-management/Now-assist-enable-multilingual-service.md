@@ -2,7 +2,7 @@
 title: Enable multilingual service in ServiceNow Otto
 description: Enable multilingual service in the ServiceNow Otto AI Admin console for Knowledge Management to support different languages across third-party AI model providers. Select languages for each provider and enable native and dynamic translation support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/Now-assist-enable-multilingual-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-in-knowledge-management/Now-assist-enable-multilingual-service.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -35,5 +35,5 @@ Role required: admin
 
 Multilingual service is enabled in Knowledge Management.
 
-**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 

@@ -2,7 +2,7 @@
 title: Publish a custom activity
 description: When a user creates a custom activity and saves or submits it, that activity appears in the Custom and Packs tabs of the designer palette, but is visible only to the user who created it.Problems can arise if an activity version is checked out by a user and not checked back in. An activity in this state cannot be checked out for update.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_PublishACustomActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/t\_PublishACustomActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -37,7 +37,7 @@ Roles required: admin, activity\_admin, activity\_creator
     **Note:** Activities you create and publish are visible in the **Packs** tab only if they were created in the current application scope.
 
 
-**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md)
+**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_WorkflowActivityDesigner.md)
 
 ## Return a locked activity to a published state
 

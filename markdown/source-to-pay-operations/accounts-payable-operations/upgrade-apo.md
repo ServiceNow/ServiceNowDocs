@@ -2,7 +2,7 @@
 title: Upgrade Accounts Payable Operations from version 2.0
 description: Upgrade Accounts Payable Operations with Document Intelligence from lower to higher versions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/upgrade-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/upgrade-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

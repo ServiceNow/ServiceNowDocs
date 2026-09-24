@@ -2,7 +2,7 @@
 title: SIR Workspace interface overview
 description: The SIR Workspace Overview page consists of the Security Incidents and Response Tasks details that are under security analysts and their team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/overview.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -42,7 +42,7 @@ The user can delete security incidents from this view. Select the **Delete** but
 
 The user can export the list content as well. Select the **Export** button to export the list in the desired format.
 
-**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
+**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
 
 **Related topics**  
 

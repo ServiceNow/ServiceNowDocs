@@ -2,7 +2,7 @@
 title: Roles installed with Code Signing
 description: Code Signing includes the following roles.Use the code signing admin role to assign codesigning\_manager and codesigning\_auditor roles to other users.Use the code signing manager role to create and update signature configuration, and create and run code signing jobs.Use the code signing auditor role to view signature configurations and signing jobs. The auditor role does not have create or write access to code signing assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-role-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cs-role-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Administer and Troubleshoot, Code Signing, Platform Security]
 
 Code Signing includes the following roles.
 
-**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-reference.md)
+**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-reference.md)
 
 ## Code signing admin \[codesigning\_admin\]
 

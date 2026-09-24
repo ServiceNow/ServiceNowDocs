@@ -2,7 +2,7 @@
 title: Create an order guide rule to add a catalog item
 description: You can add a catalog item to an order guide using specific rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreateARule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/t\_CreateARule.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -118,5 +118,5 @@ Option to select the default quantity of a catalog item for the order guide. Whe
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md)
+**Parent Topic:**[Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md)
 

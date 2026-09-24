@@ -2,7 +2,7 @@
 title: Log in to the GRC Mobile application
 description: Open the GRC Mobile application and add a ServiceNow AI Platform instance with Risk Management to your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -18,7 +18,7 @@ Open the GRC Mobile application and add a ServiceNow AI Platform® instance with
 
 ## Before you begin
 
-Verify that you have completed the setup steps described in [Set up checklist for the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-setup-risk-app.md).
+Verify that you have completed the setup steps described in [Set up checklist for the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/mobile-setup-risk-app.md).
 
 Role required: GRC Risk manager \(sn\_risk.manager\)
 
@@ -115,5 +115,5 @@ If you cannot view the Instances screen after you tap the **ServiceNow Agent** a
 
 Select one of the following topics for more information about each applet.
 
-**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
+**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
 

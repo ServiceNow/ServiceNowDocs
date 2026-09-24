@@ -2,7 +2,7 @@
 title: Source parts for work order tasks
 description: Source parts from your preferred stockrooms or assignment groups to ensure work order tasks are completed promptly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/source-parts-for-work-order-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/source-parts-for-work-order-tasks.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -18,7 +18,7 @@ Source parts from your preferred stockrooms or assignment groups to ensure work 
 
 ## Before you begin
 
-Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## About this task
 

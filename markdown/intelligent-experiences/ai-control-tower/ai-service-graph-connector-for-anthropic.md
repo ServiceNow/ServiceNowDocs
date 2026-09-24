@@ -2,7 +2,7 @@
 title: AI Service Graph Connector for Anthropic
 description: The AI Service Graph Connector for Anthropic discovers and imports AI Models and tracks usage data \(per-user AI asset cost\) into ServiceNow AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-service-graph-connector-for-anthropic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-service-graph-connector-for-anthropic.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

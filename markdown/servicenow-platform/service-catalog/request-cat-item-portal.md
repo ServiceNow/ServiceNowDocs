@@ -2,7 +2,7 @@
 title: Request a catalog item from Service Portal
 description: Use the SC Catalog Item widget in Service Portal to request a catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-cat-item-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/request-cat-item-portal.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -38,7 +38,7 @@ For information about the SC Catalog Item widget, see [SC Catalog Item widget](h
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d655456e136">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d656164e136">
 
 **Add attachments**
 
@@ -46,7 +46,7 @@ For information about the SC Catalog Item widget, see [SC Catalog Item widget](h
 
 To add one or more attachments to the catalog item, select the choose a file link to browse and choose the files or directly drag the files in the **Add attachments** window.
 
-</td></tr><tr><td id="d655456e151">
+</td></tr><tr><td id="d656164e151">
 
 **Add to Cart**
 
@@ -54,7 +54,7 @@ To add one or more attachments to the catalog item, select the choose a file lin
 
 To add the catalog item to the shopping cart, click the Add to Cart icon \(\[Omitted image "IconAddTocart.png"\] Alt text: Icon to add to the cart\).
 
-</td></tr><tr><td id="d655456e166">
+</td></tr><tr><td id="d656164e166">
 
 **Add to Wish List**
 
@@ -120,7 +120,7 @@ To add the catalog item to the wish list, click the Add to Wish List icon \(\[Om
         -   The **Opened By** field of the cloned requests is updated with the logged in user.
         -   Select the **Requests** menu option or the My Requests widget on the catalog homepage to view the cloned request created for the user.
 
-**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
+**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-on-portal.md)
 
 **Related topics**  
 
@@ -133,7 +133,7 @@ To add the catalog item to the wish list, click the Add to Wish List icon \(\[Om
 
 [Request an order guide from Service Portal]()
 
-[Service Catalog request screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RequestingAServiceCatalogItem.md)
+[Service Catalog request screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_RequestingAServiceCatalogItem.md)
 
-[Create a variable set and add it to an item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableSet.md)
+[Create a variable set and add it to an item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreateAVariableSet.md)
 

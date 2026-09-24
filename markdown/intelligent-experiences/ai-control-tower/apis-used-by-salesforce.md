@@ -2,7 +2,7 @@
 title: Salesforce APIs
 description: Explore the APIs used in AI Service Graph Connector for Salesforce.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/apis-used-by-salesforce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/apis-used-by-salesforce.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

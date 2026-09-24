@@ -2,7 +2,7 @@
 title: Test a fix script
 description: Test your fix scripts to ensure they install or update applications as expected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/t\_TestFixScripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/t\_TestFixScripts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Edit the tasks of an AI specialist in the legacy AI Agent Studio
 description: Select tasks that an AI specialist can perform in the legacy AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/modify-aiw-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/modify-aiw-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-08-20"
@@ -23,7 +23,7 @@ Role required: sn\_aia.admin
 
 AI specialist tasks determine what they can do. Choosing the correct tasks provides your AI specialist with the tools required to complete complex goals autonomously.
 
-To learn how to modify the roles and capabilities that an AI specialist has, see [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks.md).
+To learn how to modify the roles and capabilities that an AI specialist has, see [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-tasks.md).
 
 ## Procedure
 

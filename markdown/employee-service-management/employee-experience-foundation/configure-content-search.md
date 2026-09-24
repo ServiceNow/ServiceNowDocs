@@ -2,7 +2,7 @@
 title: Configure video content search
 description: Configure a content processor to add a button to the Content Library interface that enables a content manager to view thumbnails of available videos from the content provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-content-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-content-search.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,7 +23,7 @@ Configure a content processor to add a button to the Content Library interface t
 
     \[Omitted image "subflow-search.png"\] Alt text: necessary inputs and outputs for the search subflow
 
--   [Configure content provider and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-content-provider.md)
+-   [Configure content provider and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-content-provider.md)
 
 ## Procedure
 
@@ -49,6 +49,6 @@ Configure a content processor to add a button to the Content Library interface t
 
 ## What to do next
 
--   Enable employees to view private videos without providing credentials: [Configure a video authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-content-processor.md)
--   Add interface elements to the Content Library video picker: [Configure content rendering parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-content-rendering-parameter.md)
+-   Enable employees to view private videos without providing credentials: [Configure a video authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-content-processor.md)
+-   Add interface elements to the Content Library video picker: [Configure content rendering parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-content-rendering-parameter.md)
 

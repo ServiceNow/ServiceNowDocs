@@ -2,7 +2,7 @@
 title: Determine who can conduct a training for Patient Support Services
 description: Add users who can conduct the trainings for Patient Support Services to the Nurse Training Support assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-nurse-ts-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-nurse-ts-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

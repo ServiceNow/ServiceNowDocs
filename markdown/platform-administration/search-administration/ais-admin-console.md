@@ -2,14 +2,14 @@
 title: AI Search Admin console
 description: The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and activate AI Search solutions across different types of search applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-admin-console.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -46,7 +46,7 @@ The home page has the following sections that help search administrators underst
     Discover and install applications and plugins to expand the AI Search capabilities in your search application.
 
 
-For more information about the home page and its controls, see [AI Search Admin console Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-home.md).
+For more information about the home page and its controls, see [AI Search Admin console Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-home.md).
 
 ## AI Search Admin console benefits
 

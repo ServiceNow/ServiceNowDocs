@@ -2,7 +2,7 @@
 title: Migrated question review
 description: To maintain accurate result calculations, you may need to make minor adjustments to some of the migrated survey records to ensure results are calculated correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_ReviewMigratedQuestions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_ReviewMigratedQuestions.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -55,7 +55,7 @@ If there are no **Order** values for the legacy survey question choices, the sys
 
 You may also need to change the **Scale definition** setting for other migrated questions. For details, see the scale definition recommendations for each survey question data type.
 
-**Parent Topic:**[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MigrateSurveys.md)
+**Parent Topic:**[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MigrateSurveys.md)
 
 **Related topics**  
 

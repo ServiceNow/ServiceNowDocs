@@ -2,7 +2,7 @@
 title: Include mail scripts in email notifications
 description: Include mail scripts to customize email notifications, which enable you to apply conditional logic and insert dynamic record data in your notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/use-mail-scripts-email-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/use-mail-scripts-email-notifications.html
 release: australia
 topic_type: task
 last_updated: "2026-05-04"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-For more information about using scripts with email notifications, see [Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScriptingForEmailNotifications.md) and [Notification Email Scripts](https://developer.servicenow.com/dev.do#!/learn/learning-plans/australia/servicenow_administrator/app_store_learnv2_automatingapps_australia_notification_email_scripts) on the developer site.
+For more information about using scripts with email notifications, see [Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ScriptingForEmailNotifications.md) and [Notification Email Scripts](https://developer.servicenow.com/dev.do#!/learn/learning-plans/australia/servicenow_administrator/app_store_learnv2_automatingapps_australia_notification_email_scripts) on the developer site.
 
 ## Procedure
 
@@ -43,7 +43,7 @@ For more information about using scripts with email notifications, see [Scriptin
 
 \[Omitted image "example-mail-script-notification.png"\] Alt text: Message HTML field displaying mail script tags in an email notification
 
-**Parent Topic:**[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScriptingForEmailNotifications.md)
+**Parent Topic:**[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ScriptingForEmailNotifications.md)
 
 **Related topics**  
 

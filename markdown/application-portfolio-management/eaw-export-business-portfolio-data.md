@@ -2,7 +2,7 @@
 title: Export business portfolio data to Excel or CSV
 description: Export the business portfolio list data to Microsoft Excel or CSV so that you can use the data to share with stakeholders and prepare for analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-export-business-portfolio-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-export-business-portfolio-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ A file with the selected format is downloaded and saved in your local system.
 
 **Note:** You can also include the business applications data associated with the business capabilities, in the downloaded file. You must select the Expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon.\) next to a business capability to ensure that the associated business applications for that capability are displayed onscreen and then follow the export process. Doing this ensures that the business application data is also included in the downloaded file.
 
-**Parent Topic:**[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
+**Parent Topic:**[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
 

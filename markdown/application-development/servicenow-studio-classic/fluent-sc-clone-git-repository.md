@@ -2,7 +2,7 @@
 title: Clone a Git repository from ServiceNow Studio
 description: Clone a remote Git repository to collaborate on applications in Fluent source control in ServiceNow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/fluent-sc-clone-git-repository.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/fluent-sc-clone-git-repository.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -19,7 +19,7 @@ Clone a remote Git repository to collaborate on applications in Fluent source co
 
 ## Before you begin
 
--   Set your basic or OAuth 2.0 credentials for ServiceNow Studio to connect to your Git repository. For more information, see [Connect to a Git provider using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-basic-auth.md) and [Connect to a Git provider using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-oauth-2-0.md).
+-   Set your basic or OAuth 2.0 credentials for ServiceNow Studio to connect to your Git repository. For more information, see [Connect to a Git provider using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-basic-auth.md) and [Connect to a Git provider using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-oauth-2-0.md).
 
 Role required: admin
 
@@ -29,7 +29,7 @@ You can clone a remote Git repository that contains Fluent applications. The rep
 
 **Note:** ServiceNow Studio supports cloning from Git servers on Git version 2.3.2 or later.
 
-Cloning is intended for developing an application on multiple non-production instances and managing it in a single repository. To publish an application and deploy it to a production instance, use the Application Repository. For more information, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/app-repo.md).
+Cloning is intended for developing an application on multiple non-production instances and managing it in a single repository. To publish an application and deploy it to a production instance, use the Application Repository. For more information, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/app-repo.md).
 
 ## Procedure
 
@@ -54,7 +54,7 @@ The application is added to the instance and your workspace with the files from 
 
 ## What to do next
 
-You can check out or create branches in the repository and push changes to the remote repository. For more information, see [Using Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-using-fluent-source-control.md).
+You can check out or create branches in the repository and push changes to the remote repository. For more information, see [Using Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-using-fluent-source-control.md).
 
-**Parent Topic:**[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)
+**Parent Topic:**[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)
 

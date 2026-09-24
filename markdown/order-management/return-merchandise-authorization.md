@@ -2,10 +2,10 @@
 title: Return Merchandise Authorization
 description: Return Merchandise Authorization \(RMA\) enables the return, replacement, and repair for install base items. It offers simplified processes, decreased turnaround time, and a unified workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/return-merchandise-authorization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/return-merchandise-authorization.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Order operations, Explore, Sales Customer Relationship Management]
 ---
@@ -20,6 +20,6 @@ Using case line items, multiple issues can be tracked for the same RMA case. Als
 
 ## What to explore next
 
--   [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-return-merchandise-authorization-plugin.md)
--   [Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/return-merchandise-authorization-case-management-reference.md)
+-   [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activate-return-merchandise-authorization-plugin.md)
+-   [Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/return-merchandise-authorization-case-management-reference.md)
 

@@ -2,7 +2,7 @@
 title: OData Service Recommender AI agent
 description: The OData Service Recommender AI agent identifies the most relevant OData service and endpoint from a populated service catalog. The agent can also create a data model for the identified service if a model does not already exist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-erp-ai-agent-odata-service-recommender.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/now-assist-erp-ai-agent-odata-service-recommender.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"

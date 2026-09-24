@@ -2,7 +2,7 @@
 title: Remove an index
 description: You can remove the index for a table if you no longer want the search engine to return results for that table. This procedure also removes the index for all tables that extend the specified table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_RemoveAnIndex.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/t\_RemoveAnIndex.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -32,7 +32,7 @@ Role required: admin
 
 3.  If the **Text index** option field is hidden, configure the form layout to show it.
 
-    For details on showing and hiding fields on a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    For details on showing and hiding fields on a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md).
 
 4.  Clear the record's **Text index** option, then select **Update**.
 
@@ -41,7 +41,7 @@ Role required: admin
 
 The system no longer indexes text from the specified table or queries it for text search results. This change also disables text indexing and search for all tables that extend the specified table.
 
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

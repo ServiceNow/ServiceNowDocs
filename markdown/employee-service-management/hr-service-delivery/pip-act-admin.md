@@ -2,7 +2,7 @@
 title: Configure a PIP lifecycle event
 description: After a PIP request is initiated by a manager, a structured workflow \(a predefined lifecycle event\) auto-initiates tasks for a manager, an employee, and an ER agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/pip-act-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/pip-act-admin.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

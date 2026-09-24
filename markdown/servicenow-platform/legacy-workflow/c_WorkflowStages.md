@@ -2,7 +2,7 @@
 title: Workflow stages
 description: Workflows can indicate workflow progress by updating any field designated as a stage field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_WorkflowStages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/c\_WorkflowStages.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -34,7 +34,7 @@ For workflows that use the Requested Item \[sc\_req\_item\] table, the stage fie
 
 Stage values are derived from various sources in the interface.
 
-**Note:** An updated method for managing workflow stages as a set is also available. For information about grouping and reusing stages, see [Workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowStageSets.md).
+**Note:** An updated method for managing workflow stages as a set is also available. For information about grouping and reusing stages, see [Workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/c_WorkflowStageSets.md).
 
 Stage values are derived from the following sources:
 
@@ -78,16 +78,16 @@ The following diagram depicts the process used to gather stage values from the R
 
 **Note:** If you are creating a workflow with a table other than Request Item \[sc\_req\_item\], you must select a **Stage field** in the workflow properties for the workflow to have stages.
 
--   **[Use workflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_UsingWorkflowStages.md)**  
+-   **[Use workflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/t_UsingWorkflowStages.md)**  
 You can add or modify workflow stages.
--   **[Add and translate stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/add-translate-stages.md)**  
+-   **[Add and translate stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/add-translate-stages.md)**  
 You can add default stages to use for a table, and stages to existing workflow
--   **[Workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowStageSets.md)**  
+-   **[Workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/c_WorkflowStageSets.md)**  
 Stage sets are named groups of workflow stages commonly used together. Create a stage set and assign it as a default set to any number of tables. You can import the choice list values of a workflow field as stages for a workflow, and export a stage set to create a new one.
--   **[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflowStageField.md)**  
+-   **[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/t_CreateAWorkflowStageField.md)**  
 Workflows can provide a summary of workflow progress by updating any field of the **Workflow** type. If the field is a workflow field, it displays an icon to indicate the workflow stage progress.
--   **[Workflow fields with deleted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowFieldsWithDeletedRecords.md)**  
+-   **[Workflow fields with deleted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/c_WorkflowFieldsWithDeletedRecords.md)**  
 Workflow fields may indicate when a record required by the workflow is deleted.
 
-**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
+**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/managing-workflows.md)
 

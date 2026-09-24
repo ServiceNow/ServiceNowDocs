@@ -2,7 +2,7 @@
 title: Review SPM artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/dc-spm-install-artifacts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-spm-install-artifacts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -67,5 +67,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Automated|Impact VM - Total actual benefits attained for the completed projects this month|
 |Automated|Impact VM - Total forecasted benefits attained for the completed projects this month|
 
-**Parent Topic:**[Install the Data Collection Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-spm-install.md)
+**Parent Topic:**[Install the Data Collection Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-spm-install.md)
 

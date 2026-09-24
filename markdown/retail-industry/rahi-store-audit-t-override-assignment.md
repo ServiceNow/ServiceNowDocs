@@ -2,7 +2,7 @@
 title: Audit assignment from workspace
 description: As a Store Audit Manager, manually assign a Store Audit Case or Audit Task to a specific Auditor, or change the assignment group set by the automated assignment rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-t-override-assignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-store-audit-t-override-assignment.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"
@@ -43,12 +43,12 @@ Assignment rules automatically set the assignment group on Store Audit Cases and
 
 The Store Audit Case or Audit Task is reassigned to the selected Auditor and the assignment change is logged in the activity stream.
 
-**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
+**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-manage.md)
 
 **Related topics**  
 
 
-[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
+[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-overview.md)
 
-[Create and publish an audit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-create-and-generate.md)
+[Create and publish an audit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-t-create-and-generate.md)
 

@@ -2,7 +2,7 @@
 title: Default guidance for search results
 description: The Default guidance for search results is a guidance that can be used for any search sources that don't have mapped guidances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidances-default-guidance-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-guidances-default-guidance-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Using AI search results in Recommended Actions requires a search application con
 
 Starting with the Yokohama release, the Recommended Actions application automatically creates the mapping between search results and actions.
 
-When an admin creates or updates the search application configuration for a context record, the system [automatically creates search result mapping records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search-automatically.md) for each of the search sources in that configuration.
+When an admin creates or updates the search application configuration for a context record, the system [automatically creates search result mapping records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-configuring-ai-search-automatically.md) for each of the search sources in that configuration.
 
 -   If a search source does not have an existing mapping to an action, the system maps the search source to the default guidance.
 -   If a search source has an existing mapping to a specific action, the system keeps that mapping and does not overwrite it with the default guidance.
@@ -107,5 +107,5 @@ Agents can use this action to open the associated record in a sub tab. Agents ca
 </table>**Related topics**  
 
 
-[Automatically map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search-automatically.md)
+[Automatically map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-configuring-ai-search-automatically.md)
 

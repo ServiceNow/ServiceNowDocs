@@ -2,7 +2,7 @@
 title: Create a cascading filter
 description: Cascading filters enable you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.So that you do not have to clean up the filter panel, duplicate filters are removed automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/create-cascading-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/core-ui-interactive-filters/create-cascading-filter.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
@@ -108,7 +108,7 @@ This procedure includes examples based on a cascading interactive filter using m
 1.  After you create all levels of the filter, add it to a dashboard.
 2.  On the dashboard, select the **Edit widget** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
 
-**Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
+**Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
 
 ## Cascading filters deduplication
 

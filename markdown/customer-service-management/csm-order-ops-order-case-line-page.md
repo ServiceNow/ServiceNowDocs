@@ -2,7 +2,7 @@
 title: Order case line item page
 description: The Order case line item page displays information about an order case line item associated with an order case in CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-order-ops-order-case-line-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-order-ops-order-case-line-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: ServiceNow Otto for HR Service Delivery \(HRSD\) release notes
 description: The ServiceNow Otto for HRSD application brings generative AI to HR Service Delivery. Summarize case and chat information, and generate reply recommendations so that agents can propose quick resolutions. ServiceNow Otto for HRSD was enhanced and updated in the Australia release.The ServiceNow Otto for HRSD application brings generative AI to HR Service Delivery. Summarize case and chat information, and generate reply recommendations so that agents can propose quick resolutions. ServiceNow Otto for HRSD was enhanced and updated in the Australia release.The ServiceNow Otto for HRSD application brings generative AI to HR Service Delivery. Summarize case and chat information, and generate reply recommendations so that agents can propose quick resolutions. ServiceNow Otto for HRSD was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/nahr-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/nahr-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ The ServiceNow Otto for HRSD application brings generative AI to HR Service Deli
 
 ## About ServiceNow Otto for HR Service Delivery \(HRSD\)
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   As a manager, review recommendations in Now Assist in Virtual Agent and add new tasks through a conversational interface.
 -   As an admin, create reusable feedback templates using the ServiceNow AI Platform Surveys tool.
@@ -40,7 +40,7 @@ See [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercon
     Install ServiceNow Otto for HRSD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md)
+**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/hr-service-delivery-landing.md)
 
 ## July 2026
 

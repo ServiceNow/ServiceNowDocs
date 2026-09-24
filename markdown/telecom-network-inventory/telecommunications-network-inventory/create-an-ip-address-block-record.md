@@ -2,12 +2,12 @@
 title: Create an IP Address Block record
 description: Create an IP Address Block record to define a top-level IP address range, expressed in Classless Inter-Domain Routing \(CIDR\) notation. The block becomes the parent for one or more IP Subnetworks. Supports both IPv4 and IPv6.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-block-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-block-record.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -18,7 +18,7 @@ Create an IP Address Block record to define a top-level IP address range, expres
 
 ## Before you begin
 
-Install all required [Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md) plugins.
+Install all required [Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md) plugins.
 
 Role required: `sn_ni_core.inventory_agent, sn_ni_core.dc_ops_agent`
 
@@ -60,7 +60,7 @@ CIDR
 
 </td><td>
 
-CIDR is a notation system for specifying IP address ranges using a network prefix.The system validates the CIDR while you save the record. The validation is based on the following rules: [CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md).
+CIDR is a notation system for specifying IP address ranges using a network prefix.The system validates the CIDR while you save the record. The validation is based on the following rules: [CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Managed Network
 
 </td><td>
 
-The value set in the Managed Network propagates to every subnetwork beneath this block and can't be changed at a lower level. If you leave this empty, the block is unscoped, and its child subnetworks can each set their own Managed Network. For more information, see [Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md).
+The value set in the Managed Network propagates to every subnetwork beneath this block and can't be changed at a lower level. If you leave this empty, the block is unscoped, and its child subnetworks can each set their own Managed Network. For more information, see [Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md).
 
 </td></tr><tr><td>
 
@@ -103,11 +103,11 @@ Current life-cycle status. This field is automatically set to **In Use**. **Note
 
     When you select Set Inventory Attributes, the system creates a TNI CI Attributes record. The record is created in the CI table and in the CI Attributes tables, and linked to the CI record.
 
-    **Note:** If you select Save without selecting Set Inventory Attributes, the system creates a CI record but not a [Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md) CI record. In the Network Inventory Workspace, Set Inventory Attributes is visible only for [Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md) roles. In the TNI CI attributes form, the name is fetched from the Name field by default, and the Inventory Category is set as IP Address.
+    **Note:** If you select Save without selecting Set Inventory Attributes, the system creates a CI record but not a [Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md) CI record. In the Network Inventory Workspace, Set Inventory Attributes is visible only for [Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md) roles. In the TNI CI attributes form, the name is fetched from the Name field by default, and the Inventory Category is set as IP Address.
 
 7.  Add packs to this service by selecting **Add Packs**.
 
-    For more information about packs, see [Attribute packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-pack.md) .
+    For more information about packs, see [Attribute packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-pack.md) .
 
 8.  Add attachments such as graphics or documents by selecting the attachment icon.
 
@@ -120,20 +120,20 @@ Current life-cycle status. This field is automatically set to **In Use**. **Note
 
 ## What to do next
 
-Create one or more IP Subnetworks within this IP Address Block. See [Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md).
+Create one or more IP Subnetworks within this IP Address Block. See [Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md).
 
-You can also review or update the fields, create a related tab record, or delete a record. For more information, see [Update or delete a record of an inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/update_and_delete_ip_address_space.md).
+You can also review or update the fields, create a related tab record, or delete a record. For more information, see [Update or delete a record of an inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/update_and_delete_ip_address_space.md).
 
-**Parent Topic:**[Manage IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/manage-ip-addresses.md)
+**Parent Topic:**[Manage IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/manage-ip-addresses.md)
 
 **Related topics**  
 
 
-[IP address management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-management.md)
+[IP address management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/ip-address-management.md)
 
-[Managed Network and IP address allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed-network-and-ip-address-allocation.md)
+[Managed Network and IP address allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/managed-network-and-ip-address-allocation.md)
 
-[IP Address Block form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-block-form.md)
+[IP Address Block form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/ip-address-block-form.md)
 
-[Create a managed network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
+[Create a managed network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
 

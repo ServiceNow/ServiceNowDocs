@@ -2,7 +2,7 @@
 title: Contract Analysis Playbook form
 description: Fields on the Contract Analysis Playbook form define the negotiation guidance for a contract type and the conditions that determine when an external AI tool retrieves it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-negotiation-playbook-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-negotiation-playbook-form.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -35,7 +35,7 @@ The fields on the Contract Analysis Playbook form are described in the following
 |Conditions|Conditions that determine when the playbook applies, built against the fields of the selected request table. When the conditions are empty, the playbook applies to all contracts of the contract type.|
 |Playbook content|Contract analysis guidance entered directly on the form. This field appears only when **Enter manually** is selected in the **Content source** field.|
 
-**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

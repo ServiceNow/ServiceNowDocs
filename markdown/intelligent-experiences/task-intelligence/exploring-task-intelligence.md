@@ -2,7 +2,7 @@
 title: Exploring Task Intelligence
 description: Learn more about Task Intelligence and how machine learning models can learn from your data to make predictions and achieve important outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/exploring-task-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/task-intelligence/exploring-task-intelligence.html
 release: australia
 product: Task Intelligence
 classification: task-intelligence

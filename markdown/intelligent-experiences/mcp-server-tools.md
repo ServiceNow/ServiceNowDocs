@@ -2,7 +2,7 @@
 title: Model Context Protocol Server Console tools
 description: Use the following tools that are available by default with Model Context Protocol Server Console depending on the applications installed on your instance, such as ServiceNow Otto for CSM or ServiceNow Otto for ITSM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-server-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mcp-server-tools.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-29"
@@ -23,5 +23,5 @@ Use the following tools that are available by default with Model Context Protoco
 |lookup\_incident\_records|Scripted REST API|This API looks up incident records for the incident\_summarization tool.|
 |lookup\_kb\_records|Scripted REST API| |
 
-**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
+**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-server-console-reference.md)
 

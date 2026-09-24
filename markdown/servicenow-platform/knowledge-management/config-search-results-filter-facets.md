@@ -2,7 +2,7 @@
 title: Configure filter facet widget instance options
 description: Configure widget instance options for the filter facet widgets on the Knowledge Management Service Portal search results page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-search-results-filter-facets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/config-search-results-filter-facets.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -238,10 +238,10 @@ If enabled, shows categories with their hierarchy list up to the fourth-level. W
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 
 **Related topics**  
 
 
-[Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 

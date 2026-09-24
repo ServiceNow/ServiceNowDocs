@@ -2,7 +2,7 @@
 title: Configuring the search context for Auto-Responder
 description: You can configure the predefined search context for customer service cases to include relevant search resources in Auto-Responder email notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-context-auto-responder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-context-auto-responder.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,5 +18,5 @@ The Predictive Intelligence for Customer Service Management plugin \(com.snc.csm
 
 By default, the **Case Email Autoresponder KB search** search context includes contextual search results based on Predictive Intelligence. You can edit this search context to include any additional resources. For more information, see [Define a search context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineSearchContext.md).
 
-**Note:** To provide other relevant recommendations to resolve a customer service case when Predictive Intelligence results are insufficient or unavailable, you can also enable the text search recommendations in the Auto-Responder email notification. For more information, see [Enable text search recommendations in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-text-based-auto-responder.md).
+**Note:** To provide other relevant recommendations to resolve a customer service case when Predictive Intelligence results are insufficient or unavailable, you can also enable the text search recommendations in the Auto-Responder email notification. For more information, see [Enable text search recommendations in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-text-based-auto-responder.md).
 

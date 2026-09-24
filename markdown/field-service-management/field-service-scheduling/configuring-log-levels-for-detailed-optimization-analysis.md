@@ -2,7 +2,7 @@
 title: Configuring log levels for detailed optimization analysis
 description: Schedule Optimization logs provide detailed information about each run, allowing you to gather specific information as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configuring-log-levels-for-detailed-optimization-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/configuring-log-levels-for-detailed-optimization-analysis.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -16,15 +16,15 @@ breadcrumb: [Schedule Optimization, Setting up a Field Service scheduling method
 
 Schedule Optimization logs provide detailed information about each run, allowing you to gather specific information as needed.
 
--   **[Set the Schedule optimization logging level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/set-the-schedule-optimization-log-level.md)**  
+-   **[Set the Schedule optimization logging level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/set-the-schedule-optimization-log-level.md)**  
 Adjust the logging level settings to specify the detail included in the Schedule Optimization logs.
--   **[View Schedule Optimization logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/view-schedule-optimization-logs.md)**  
+-   **[View Schedule Optimization logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/view-schedule-optimization-logs.md)**  
 View the Schedule Optimization logs to gather insights from each optimization attempt.
--   **[Example- Schedule Optimization validation messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/example-schedule-optimization-validation-messages.md)**  
+-   **[Example- Schedule Optimization validation messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/example-schedule-optimization-validation-messages.md)**  
 An example of Schedule Optimization validation messages.
 
 **Related topics**  
 
 
-[Scheduling Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/scheduling-health-dashboard.md)
+[Scheduling Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/scheduling-health-dashboard.md)
 

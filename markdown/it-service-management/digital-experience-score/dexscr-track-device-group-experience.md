@@ -2,7 +2,7 @@
 title: Track experience scores of an individual device group
 description: Track and drill down into the quantitative and qualitative data of a device group's metrics to gain a comprehensive view into employee experiences of using the devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-track-device-group-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-experience-score/dexscr-track-device-group-experience.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
@@ -30,7 +30,7 @@ Role required: sn\_dex\_score.digital\_workplace\_leader or sn\_dex\_score.dashb
 
     2.  Either accept the default values for the current week or month or select a different value from the drop-down list.
 
-    For more information about data collection and when the data is available on the dashboard, see [Data collection frequency for DEX Score metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-metric-data-load.md).
+    For more information about data collection and when the data is available on the dashboard, see [Data collection frequency for DEX Score metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-metric-data-load.md).
 
 3.  Display the scores for a specific location by starting to type the location in the search field and selecting it from the drop-down list.
 
@@ -67,7 +67,7 @@ Device health metrics
 
 The device's performance and overall health.Device health metrics are categorized as Good, Average, or Poor. The **All device health metrics** section provides access to a list of corresponding metrics, metric values and scores, and devices that have average or poor metric values for the selected health category.
 
-The **Suboptimal devices** column displays links to device lists with average or poor metric values. By selecting the **Show device list** link, you can access the device group metric device list page. This page displays the list of devices that have poor or average metric scores and the metric performance statistics. You can also view device health details by selecting the device name link in the **Device** column. For more information, see [Device health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/user-health-card.md).
+The **Suboptimal devices** column displays links to device lists with average or poor metric values. By selecting the **Show device list** link, you can access the device group metric device list page. This page displays the list of devices that have poor or average metric scores and the metric performance statistics. You can also view device health details by selecting the device name link in the **Device** column. For more information, see [Device health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/user-health-card.md).
 
 </td></tr><tr><td>
 
@@ -94,21 +94,21 @@ Employee satisfaction with the service desk's quality and speed of support for t
 
     3.  View device health details by selecting a device name in the **Device** column.
 
-        For more information about the device health page, see [Device health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/user-health-card.md).
+        For more information about the device health page, see [Device health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/user-health-card.md).
 
 
-**Parent Topic:**[Tracking digital experience using Digital Experience Score​ dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-using-dex-score.md)
+**Parent Topic:**[Tracking digital experience using Digital Experience Score​ dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-using-dex-score.md)
 
 **Related topics**  
 
 
-[Metric scores in Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-defs.md)
+[Metric scores in Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-defs.md)
 
-[Track device experience score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-track-device-experience-score.md)
+[Track device experience score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-track-device-experience-score.md)
 
-[Track application experience scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-track-app-experience-score.md)
+[Track application experience scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-track-app-experience-score.md)
 
-[DEX Score metrics calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-metrics-calc.md)
+[DEX Score metrics calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-metrics-calc.md)
 
-[DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md)
+[DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md)
 

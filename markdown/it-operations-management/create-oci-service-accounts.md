@@ -2,7 +2,7 @@
 title: Create OCI service accounts
 description: Create Oracle Cloud Infrastructure \(OCI\) service accounts on the ServiceNow AI Platform to access your Oracle account during Oracle discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-oci-service-accounts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/create-oci-service-accounts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ Create Oracle Cloud Infrastructure \(OCI\) service accounts on the ServiceNow AI
 
 ## Before you begin
 
-Verify that Oracle API credentials have been created. For more information, see [Create Oracle API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-oracle-api-credentials.md).
+Verify that Oracle API credentials have been created. For more information, see [Create Oracle API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-oracle-api-credentials.md).
 
 Retrieve the Compartment ID from **Identity &amp; Security** &gt; **Compartments** in the Oracle Cloud Console.
 
@@ -88,7 +88,7 @@ The type of datacenter where the account is hosted, which should be `OCI Datacen
 
 ## What to do next
 
-Schedule an OCI cloud discovery. For more information, see [Create an OCI Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-oci-schedule-DAW.md).
+Schedule an OCI cloud discovery. For more information, see [Create an OCI Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-oci-schedule-DAW.md).
 
-**Parent Topic:**[Set up Oracle Cloud infrastructure \(OCI\) service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/set-up-oracle-cloud-infrastructure-oci-service-accounts.md)
+**Parent Topic:**[Set up Oracle Cloud infrastructure \(OCI\) service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/set-up-oracle-cloud-infrastructure-oci-service-accounts.md)
 

@@ -2,7 +2,7 @@
 title: Reference for Generative AI Controller
 description: Reference topics provide information about Generative AI Controller tables, and properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -150,7 +150,7 @@ sys\_generative\_ai\_log
 
 Logs Generative AI prompts, responses, and edited responses to debug LLM calls. Log records are retained for 180 days.HR-related logs are restricted to HR Administrators, ensuring sensitive information remains protected.
 
-For more information, see [Generative AI Controller tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/generative-ai-controller-tables.md).
+For more information, see [Generative AI Controller tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/generative-ai-controller-tables.md).
 
 </td></tr></tbody>
 </table>## Properties

@@ -2,7 +2,7 @@
 title: Case action summary and post case review assignment rules
 description: Use assignment rules to assign case action summaries and post case review documents to customer service agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-digests-assignment-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-digests-assignment-rules.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

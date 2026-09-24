@@ -2,7 +2,7 @@
 title: View synchronization details
 description: Check the number of the events and calendar items that are created during a synchronization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/view-synchronization-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/view-synchronization-details.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

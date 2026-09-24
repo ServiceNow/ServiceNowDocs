@@ -2,7 +2,7 @@
 title: View finance articles
 description: View finance articles from the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/view-finance-articles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/view-finance-articles.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -33,5 +33,5 @@ Role required: sn\_fin\_ops.requester, sn\_fin\_ops.specialist
 
 You can view the Understanding General Finance Inquiries knowledge article.
 
-**Parent Topic:**[Use the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/using-ec-fin-case-mgmt.md)
+**Parent Topic:**[Use the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/using-ec-fin-case-mgmt.md)
 

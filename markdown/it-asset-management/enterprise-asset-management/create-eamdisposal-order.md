@@ -2,7 +2,7 @@
 title: Create a disposal order in the Enterprise Asset Workspace
 description: Create a disposal order for an asset that has reached the end of its life cycle or is no longer functional.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eamdisposal-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-eamdisposal-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -175,5 +175,5 @@ Vendor that you want to dispose the asset to.
     All the enterprise disposal tasks are complete and the enterprise disposal order stage changes to completed.
 
 
-**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

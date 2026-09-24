@@ -2,7 +2,7 @@
 title: Transaction logs
 description: The transaction log records browser activity for an instance. To aid in debugging of system issues, you can filter transaction logs by application scope, limiting transactions that appear to only those transactions originating in specific scopes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_TransactionLogs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_TransactionLogs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

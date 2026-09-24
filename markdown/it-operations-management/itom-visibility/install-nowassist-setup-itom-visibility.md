@@ -2,12 +2,12 @@
 title: Install ITOM Visibility using ServiceNow Otto for Setup
 description: Install all required ITOM Visibility applications and plugins from the IT Operations Management Product Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/install-nowassist-setup-itom-visibility.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Verify the following:
 -   You have installed the ServiceNow Otto for Platform plugin \(sn\_genai\_platform\).
 -   You have installed the Generative AI Controller plugin \(sn\_generative\_ai\).
 -   You have installed the AI Skill Kit plugin \(sn\_skill\_builder\).
--   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+-   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
 -   You have activated the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   You have activated the following assistants:
 

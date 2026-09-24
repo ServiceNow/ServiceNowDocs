@@ -2,7 +2,7 @@
 title: Modify the Upcoming shift widget display
 description: The upcoming shift widget displays the shift information of the Employee Center Pro Kiosk user. You can configure the instance options based on your display preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-shift-instanceoptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-shift-instanceoptions.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -62,10 +62,10 @@ Number of shifts to show. The choices are 7, 14, and 30 days. Default value: 7**
     **Note:** The latest shift information is available only after relogging.
 
 
-**Parent Topic:**[Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md)
+**Parent Topic:**[Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md)
 
 **Related topics**  
 
 
-[Configure Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-config.md)
+[Configure Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-config.md)
 

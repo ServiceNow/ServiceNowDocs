@@ -2,10 +2,10 @@
 title: Combined Common Governance, Risk, and Compliance feature release notes for upgrades from Xanadu to Australia
 description: Consolidated page of all release notes for Common Governance, Risk, and Compliance feature from Xanadu to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-commongovernanceriskandcompliancefeature-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-commongovernanceriskandcompliancefeature-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -615,5 +615,5 @@ Australia
  See [Common GRC features](https://www.servicenow.com/docs/access?context=common-grc-features&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-xanadu-australia/rn-combined-intro.md)
 

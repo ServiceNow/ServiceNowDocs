@@ -2,7 +2,7 @@
 title: Edit a zone
 description: Facilities administrators and staff can edit existing zones from the Zones tab within the workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_EditAZone.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_EditAZone.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,5 +62,5 @@ Click a space outside the zone. **Note:** The space turns green indicating that 
 6.  When finished making edits, click **Apply edits**.
 
 
-**Parent Topic:**[Facilities Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesWorkbench.md)
+**Parent Topic:**[Facilities Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesWorkbench.md)
 

@@ -2,7 +2,7 @@
 title: Working with record feeds
 description: When a user follows a record, the user becomes a member of a private group for the record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_WorkingWithRecordFeeds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/c\_WorkingWithRecordFeeds.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -24,12 +24,12 @@ Team members can do the following:
 -   Subscribe to email notifications.
 -   Leave the team to stop following the record.
 
--   **[Follow a record feed from a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_FollowingRecordFeeds.md)**  
+-   **[Follow a record feed from a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/t_FollowingRecordFeeds.md)**  
 You can follow records that have a record feed associated with them from within the record form.
--   **[Follow a record feed from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_SelectingMultipleRecordsToFollow.md)**  
+-   **[Follow a record feed from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/t_SelectingMultipleRecordsToFollow.md)**  
 You can follow records that have a record feed associated with them when viewing a list of records. This method allows you to select multiple records to follow.
--   **[Post a message to a record feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_PostingMessagesToRecordFeeds.md)**  
+-   **[Post a message to a record feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/t_PostingMessagesToRecordFeeds.md)**  
 Use Live Feed to post a message to a record feed.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/manage-people.md)
 

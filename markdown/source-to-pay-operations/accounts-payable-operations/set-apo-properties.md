@@ -2,7 +2,7 @@
 title: Set APO properties
 description: Use the APO properties form to set the parameters that control the invoice line mapping, invoice ingestion API and exception management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/set-apo-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/set-apo-properties.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -37,6 +37,6 @@ Role required: admin
 
 4.  Select **Save**.
 
-    The changes to the application scope are saved. For more information on the form view options available for admin, AP admin and integrator roles, see [Accounts Payable Operations properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-properties.md).
+    The changes to the application scope are saved. For more information on the form view options available for admin, AP admin and integrator roles, see [Accounts Payable Operations properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-properties.md).
 
 

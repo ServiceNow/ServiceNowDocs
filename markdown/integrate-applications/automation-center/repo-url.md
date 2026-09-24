@@ -2,7 +2,7 @@
 title: Generate report using repository URL
 description: Generate a migration report using the repository URL that has all the automation files saved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/repo-url.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/repo-url.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -24,7 +24,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 ## Procedure
 
-1.  Follow steps 1 through 4 in the [Generate report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-report.md) section.
+1.  Follow steps 1 through 4 in the [Generate report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/generate-report.md) section.
 
 2.  On step 4, select the **Repository URL** option.
 
@@ -33,9 +33,9 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
     1.  **Connection alias**: Select a saved connection alias form the list.
     2.  \(Optional\) Select **Create connection** to create a connection.
 
-        For more information, see [Configure an instance for migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-instance.md).
+        For more information, see [Configure an instance for migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/config-instance.md).
 
-    3.  **Base URL**: This field auto-populates with the corresponding value when an alias is selected. This field is provided by the sn\_ac.rpamigration.base.url system property. For more information about the system property, see [Automation Center properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-properties.md).
+    3.  **Base URL**: This field auto-populates with the corresponding value when an alias is selected. This field is provided by the sn\_ac.rpamigration.base.url system property. For more information about the system property, see [Automation Center properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-properties.md).
 4.  Select **Generate report**.
 
     A dialog box is displayed with details of the migration. You can choose to run it in the background.
@@ -43,5 +43,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
     The report is generated.
 
 
-**Parent Topic:**[Generate report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-report.md)
+**Parent Topic:**[Generate report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/generate-report.md)
 

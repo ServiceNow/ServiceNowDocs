@@ -2,7 +2,7 @@
 title: API Service Graph Connector for Kong Konnect
 description: Use the ServiceNow API Service Graph Connector for Kong Konnect to import API details from a Kong Konnect service into the Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -24,7 +24,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Import data into a normalized data model for consistency across other technologies.
 
-The API Insights workspace provides a centralized interface where you can analyze and interact with API data, without needing direct access to Kong Konnect, enhancing visibility, governance, and collaboration across the API estate. To learn more, see [API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights.md).
+The API Insights workspace provides a centralized interface where you can analyze and interact with API data, without needing direct access to Kong Konnect, enhancing visibility, governance, and collaboration across the API estate. To learn more, see [API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights.md).
 
 ## Supported ServiceNow versions
 
@@ -42,7 +42,7 @@ You can use the API Service Graph Connector for Kong Konnect to:
 
 ## Configuring a connection for the connector
 
-You can configure a connection for the connector by using the SGC Central view in the CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure API Service Graph Connector for Kong Konnect using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-kong-konnect.md).
+You can configure a connection for the connector by using the SGC Central view in the CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure API Service Graph Connector for Kong Konnect using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-kong-konnect.md).
 
 ## Data mapping
 
@@ -74,13 +74,13 @@ Gateway \[sn\_kong\_konnect\_gateway\]
 
 </td><td>
 
-[Kong Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)[DNS Alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[Kong Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)[DNS Alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
-[Logical Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[Logical Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
-[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Data Plane Node \[sn\_kong\_konnect\_data\_plane\_node\]
 
 </td><td>
 
-[Kong Data Plane Node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[Kong Data Plane Node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Load Balancer \[sn\_kong\_konnect\_load\_balancer\]
 
 </td><td>
 
-[Kong Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[Kong Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Target \[sn\_kong\_konnect\_target\]
 
 </td><td>
 
-[Kong Target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[Kong Target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr><tr><td>
 
@@ -128,9 +128,9 @@ Services \[sn\_kong\_konnect\_services\]
 
 </td><td>
 
-[Managed API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)[API Backend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[Managed API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)[API Backend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
-[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Routes \[sn\_kong\_konnect\_routes\]
 
 </td><td>
 
-[API Frontend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[API Frontend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Consumer \[sn\_kong\_konnect\_consumer\]
 
 </td><td>
 
-[API Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[API Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ Policy \[sn\_kong\_konnect\_policy\]
 
 </td><td>
 
-[API Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[API Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr><tr><td>
 
@@ -178,7 +178,7 @@ Developers \[sn\_kong\_konnect\_developers\]
 
 </td><td>
 
-[API Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[API Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr><tr><td>
 
@@ -190,7 +190,7 @@ Applications \[sn\_kong\_konnect\_applications\]
 
 </td><td>
 
-[API Consumer Subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[API Consumer Subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr><tr><td>
 
@@ -202,12 +202,12 @@ API Consumer Access \[sn\_kong\_konnect\_api\_consumer\_access\]
 
 </td><td>
 
-[API Consumer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
+[API Consumer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md)
 
 </td></tr></tbody>
-</table>For more information on where data is saved when pulling data from a Kong Konnect service, see [Target tables for storing API Service Graph Connector for Kong Konnect data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md).
+</table>For more information on where data is saved when pulling data from a Kong Konnect service, see [Target tables for storing API Service Graph Connector for Kong Konnect data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect-tables.md).
 
-You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
+You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 
 ## Record removal process
 

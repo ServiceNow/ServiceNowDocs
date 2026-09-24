@@ -2,7 +2,7 @@
 title: Example of an AI system
 description: The AI Control Tower application and the AI Risk and Compliance application play a critical role in managing and governing the responsible use of AI systems, especially in high-stakes domains such as banking and finance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/example-of-an-ai-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/example-of-an-ai-system.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

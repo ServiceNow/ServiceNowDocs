@@ -2,7 +2,7 @@
 title: Compute CAD file properties to extract space or room surface area
 description: Extract room and space dimensions from CAD files or Indoor Mapping Map Studio. Use the extracted properties in Workplace Service Delivery \(WSD\) space measurement table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/compute-cad-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/compute-cad-properties.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -96,11 +96,11 @@ The default value is **global**.
 
 5.  Select to open a place.
 
-    The Places panel opens in the edit mode. Notice that **Autocad properties** field is available. For more information, see [Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-buildings.md).
+    The Places panel opens in the edit mode. Notice that **Autocad properties** field is available. For more information, see [Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/manage-buildings.md).
 
 6.  Make sure to synchronize your campus after adding a CAD property.
 
-    For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
+    For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 7.  Navigate to **All** &gt; **Workplace Core** &gt; **Campuses**.
 

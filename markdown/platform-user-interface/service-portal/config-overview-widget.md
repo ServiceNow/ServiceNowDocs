@@ -2,7 +2,7 @@
 title: Service Portal Config Overview widget
 description: The Service Portal Config Overview widget is the widget that appears on the sp\_config homepage. Use this widget to navigate Service Portal Configuration. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/config-overview-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/config-overview-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -18,7 +18,7 @@ The Service Portal Config Overview widget is the widget that appears on the sp\_
 
 \[Omitted image "WidgetSPConfigOverview.png"\] Alt text: Service Portal Config Overview widget with Branding Editor, Designer, Page Editor, Widget Editor, and Get Help as tiled options
 
-**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-config-widgets.md)
+**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-config-widgets.md)
 
 **Related topics**  
 

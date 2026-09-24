@@ -2,7 +2,7 @@
 title: Configuring the Now Assist Context Menu for HR Service Delivery
 description: Customize a Now Assist skill so that agents can use the generative AI skills in HR Agent Workspace and Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/customize-now-context-hrsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/customize-now-context-hrsd.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -85,5 +85,5 @@ The Now Assist context menu configuration is accessible through the Now Assist E
 11. Select **Done**.
 
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

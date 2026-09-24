@@ -2,7 +2,7 @@
 title: Link Action tasks
 description: Link Action tasks for existing impacted areas from within a regulatory change task or directly through the regulatory alert.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/link-action-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/link-action-tasks.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

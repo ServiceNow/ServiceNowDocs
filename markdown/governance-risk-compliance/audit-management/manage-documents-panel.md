@@ -2,7 +2,7 @@
 title: Using Document Management System in Audit Workspace
 description: The Document Management System in Audit Workspace provides a centralized repository for storing and managing documents in engagements, control tests, and evidence records. The Documents panel is a native side pane that allows you to store, version, and control access to documents linked to engagements, control tests, and evidence records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/manage-documents-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/manage-documents-panel.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -44,10 +44,10 @@ You can organize documents into folders and nested folders from the Documents pa
 
 Select a document to perform the following actions:
 
--   Download, rename, or edit metadata. For more information, see [Documents panel actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/documents-panel-actions.md).
--   Track versions and manage approval workflows. For more information, see [Document version and approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/document-version-approval-workflow.md).
--   Manage permissions. For more information, see [Manage document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/manage-document-permissions.md).
--   Connect to an external cloud location. For more information, see [Connect an external cloud document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/connect-external-cloud-documents.md).
+-   Download, rename, or edit metadata. For more information, see [Documents panel actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/documents-panel-actions.md).
+-   Track versions and manage approval workflows. For more information, see [Document version and approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/document-version-approval-workflow.md).
+-   Manage permissions. For more information, see [Manage document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/manage-document-permissions.md).
+-   Connect to an external cloud location. For more information, see [Connect an external cloud document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/connect-external-cloud-documents.md).
 
 ## Information on the documents
 
@@ -57,7 +57,7 @@ Voice assist enables voice chat and audio summaries of documents. Use voice comm
 
 ## Documents panel vs. Cloud files
 
-The Documents panel is separate from the Microsoft based cloud file integration. For more information, see [Manage your documents and work papers with Audit Management as cloud files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/manage-cloud-docs-using-onedrive-int.md).
+The Documents panel is separate from the Microsoft based cloud file integration. For more information, see [Manage your documents and work papers with Audit Management as cloud files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/manage-cloud-docs-using-onedrive-int.md).
 
 -   Use the Documents panel to manage documents natively within ServiceNow with version control and approval workflows.
 -   Use the **Cloud files** related list to keep documents on Microsoft OneDrive or Microsoft SharePoint as the source of truth.

@@ -2,7 +2,7 @@
 title: Lists view in CMDB Workspace
 description: The Lists view in CMDB Workspace provides access to CIs within the CMDB hierarchy and to records in tables that aren't descendants of the Configuration Item \[cmdb\_ci\] table, but are important in the CMDB ecosystem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-lists-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-lists-view.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -31,15 +31,15 @@ Initially, the default lists are:
 -   CMDB Groups:
 
     -   Source table: CMDB Groups \[cmdb\_group\]
-    -   More information: Select a group and then on the group form, select **Show all group CIs** to show a list view of all the CIs in the group. For more information, see[CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
+    -   More information: Select a group and then on the group form, select **Show all group CIs** to show a list view of all the CIs in the group. For more information, see[CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
 -   CI Identifier:
 
     -   Source table: Identifiers \[cmdb\_identifier\]
-    -   More information: Identifiers in identification rule sets which are defined for different classes of CIs. For more information, see [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md)
+    -   More information: Identifiers in identification rule sets which are defined for different classes of CIs. For more information, see [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md)
 -   Relationships:
 
     -   Source table: Cl Relationship \[cmdb\_rel\_ci\]
-    -   More information: [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+    -   More information: [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 -   Tags:
 
     -   Source table: Key Value \[cmdb\_key\_value\]
@@ -69,7 +69,7 @@ Users with the sn\_cmdb\_editor or sn\_cmdb\_admin roles, can select **New** to 
 
 ## My lists
 
-Custom and shared lists where you can select **Create new list** to create a new custom list associated with the logged on user. For more information, see [Create a custom list in the Lists view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-create-custom-list.md).
+Custom and shared lists where you can select **Create new list** to create a new custom list associated with the logged on user. For more information, see [Create a custom list in the Lists view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-create-custom-list.md).
 
-**Parent Topic:**[Exploring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)
+**Parent Topic:**[Exploring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)
 

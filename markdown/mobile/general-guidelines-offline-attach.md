@@ -2,7 +2,7 @@
 title: General guidelines for using attachments in offline mode
 description: When working with attachments in offline mode, keep these general guidelines in mind for usability and a good user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/general-guidelines-offline-attach.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/general-guidelines-offline-attach.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-01"
@@ -14,7 +14,7 @@ breadcrumb: [Attachments in offline, Offline mode setup options, Offline mode, B
 
 When working with attachments in offline mode, keep these general guidelines in mind for usability and a good user experience.
 
-**Note:** Many of the issues discussed can be resolved using system properties. For more information, see [System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-system-properties.md).
+**Note:** Many of the issues discussed can be resolved using system properties. For more information, see [System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-system-properties.md).
 
 -   **Controlling offline attachment file types**
 
@@ -35,5 +35,5 @@ When working with attachments in offline mode, keep these general guidelines in 
     -   Android: Images are automatically compressed to approximately 75% quality and converted to JPEG format, regardless of the original file type.
     -   iOS: Images are uploaded as is, with no compression or format conversion applied.
 
-**Parent Topic:**[Attachment behavior in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-attachment-behavior.md)
+**Parent Topic:**[Attachment behavior in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-attachment-behavior.md)
 

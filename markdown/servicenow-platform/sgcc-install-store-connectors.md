@@ -2,7 +2,7 @@
 title: Install a Service Graph Connector from ServiceNow Store in SGC Central
 description: Explore ServiceNow Store to request and use a Service Graph Connector with no available entitlements from within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-install-store-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/sgcc-install-store-connectors.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

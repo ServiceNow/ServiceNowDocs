@@ -2,7 +2,7 @@
 title: Communities dashboard
 description: The Communities dashboard displays up-to-date status on community usage, membership, content type and activity, and trends by forum, topic, and admin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/communities-dashboard.html
 release: australia
 product: Communities
 classification: communities
@@ -249,5 +249,5 @@ Single Score
 View the number of posts featured by different users per month.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics Solutions for Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-content-pack.md)
+</table>**Parent Topic:**[Platform Analytics Solutions for Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/communities-content-pack.md)
 

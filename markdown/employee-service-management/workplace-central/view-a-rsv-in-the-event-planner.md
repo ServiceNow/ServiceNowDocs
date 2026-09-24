@@ -2,7 +2,7 @@
 title: View reservation details in the event planner
 description: Check details of a reservation created in your workplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-a-rsv-in-the-event-planner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/view-a-rsv-in-the-event-planner.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -70,7 +70,7 @@ Role required: sn\_wsd\_rsv.reservation\_planner or sn\_wsd\_rsv.reservation\_vi
 
 ## What to do next
 
-If you want to edit the reservation, refer to [Edit a reservation using the event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/edit-a-reservation-using-the-event-planner.md).
+If you want to edit the reservation, refer to [Edit a reservation using the event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/edit-a-reservation-using-the-event-planner.md).
 
-**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-event-planner.md)
 

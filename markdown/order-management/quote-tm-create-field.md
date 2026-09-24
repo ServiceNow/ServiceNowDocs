@@ -2,7 +2,7 @@
 title: Create a transaction field
 description: Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-create-field.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -123,7 +123,7 @@ Fields created through the ServiceNow Quote Experience administration interface 
 34. Configure date/time field options
 35. In the **Default Value** field, enter the default date and time for the field.
 
-    The value is stored and displayed in UTC format: `YYYY-MM-DDTHH:MM:SSZ`. For more information about date and time field behavior, see [Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-date-time-field-behavior.md).
+    The value is stored and displayed in UTC format: `YYYY-MM-DDTHH:MM:SSZ`. For more information about date and time field behavior, see [Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-date-time-field-behavior.md).
 
 36. In the **Not Before** field, enter the earliest date and time a user can select for this field.
 
@@ -136,16 +136,16 @@ Fields created through the ServiceNow Quote Experience administration interface 
 
 ## What to do next
 
-Add the field to the quote layout to make it visible to users on the quote interface. For more information, see [Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-layout.md).
+Add the field to the quote layout to make it visible to users on the quote interface. For more information, see [Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-layout.md).
 
-**Parent Topic:**[Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-fields.md)
+**Parent Topic:**[Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-fields.md)
 
 **Related topics**  
 
 
-[Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-date-time-field-behavior.md)
+[Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-date-time-field-behavior.md)
 
-[Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-header-level-system-fields.md)
+[Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-header-level-system-fields.md)
 
-[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-line-level-system-fields.md)
+[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-line-level-system-fields.md)
 

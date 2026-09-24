@@ -2,7 +2,7 @@
 title: Edit Syslog settings
 description: Edit the Syslog settings as needed to configure the Syslog server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-syslog-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/edit-syslog-settings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ Role required: admin
     **Important:** Be sure to adjust any network firewall rules to open the specified Syslog port and protocol. Otherwise, traffic from the Discovery Console for OT can't reach the receiver application.
 
 
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/settings-page-console.md)
 

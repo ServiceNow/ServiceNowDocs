@@ -2,7 +2,7 @@
 title: Application plugin installation sequence in Accounts Payable Operations
 description: Plugin names, descriptions, and dependencies required to install Accounts Payable Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/application-plugin-installation-sequence-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/application-plugin-installation-sequence-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

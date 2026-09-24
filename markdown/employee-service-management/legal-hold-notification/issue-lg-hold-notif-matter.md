@@ -2,7 +2,7 @@
 title: Issue a legal hold notice
 description: Issue the legal hold notice to the custodian to ensure timely preservation of relevant data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/issue-lg-hold-notif-matter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-hold-notification/issue-lg-hold-notif-matter.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -65,5 +65,5 @@ A legal hold notice is issued to the custodian via email, with the fulfiller cop
 
 A copy of the legal hold notice sent to the custodian is attached under the **Artifacts** tab within the corresponding legal matter.
 
-**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

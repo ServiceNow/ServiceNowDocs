@@ -2,7 +2,7 @@
 title: RIDAC Change Request form
 description: Use the RIDAC Change Request form to document and track proposed changes to your demand or project planning items. Manage change requests and monitor implementation status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/ridac-change-request-form-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/ridac-change-request-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -35,5 +35,5 @@ Use the RIDAC Change Request form to document and track proposed changes to your
 |Planning Item|The planning item \(project or demand\) that this change request is associated with. This field is auto-populated when a change request is created from a planning item context.|
 |Work notes|Internal notes and updates about change implementation progress, approvals, and any modifications. Used to track work history and communication.|
 
-**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
+**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

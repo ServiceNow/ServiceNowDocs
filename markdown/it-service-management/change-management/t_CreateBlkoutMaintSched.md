@@ -2,7 +2,7 @@
 title: Create blackout and maintenance schedules in Change Management
 description: Use the Blackout and Maintenance windows to schedule a change. Blackout windows specify times during which normal change activity should not be scheduled. Maintenance windows specify times during which change requests should be scheduled. For example, create a blackout schedule for code freezes at the end of the year.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_CreateBlkoutMaintSched.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_CreateBlkoutMaintSched.html
 release: australia
 product: Change Management
 classification: change-management
@@ -20,21 +20,21 @@ Use the Blackout and Maintenance windows to schedule a change. Blackout windows 
 
 Role required: itil\_admin or admin
 
-Ensure that the [Change Management - Collision Detector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateConflictDetection.md) \(com.snc.change.collision\) plugin is activated.
+Ensure that the [Change Management - Collision Detector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ActivateConflictDetection.md) \(com.snc.change.collision\) plugin is activated.
 
 ## About this task
 
-Conflict detection uses blackout and maintenance schedules to find potential scheduling conflicts for the configuration items \(CIs\) associated with a change request. When conflict detection runs, either automatically or by manual request, conflict detection determines if either type of defined schedule applies to the change request. If a potential conflict is identified, a warning message appears and conflicts are listed within the Conflict form section. View conflicts in the [Conflict calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-conflict-calendar.md).
+Conflict detection uses blackout and maintenance schedules to find potential scheduling conflicts for the configuration items \(CIs\) associated with a change request. When conflict detection runs, either automatically or by manual request, conflict detection determines if either type of defined schedule applies to the change request. If a potential conflict is identified, a warning message appears and conflicts are listed within the Conflict form section. View conflicts in the [Conflict calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-conflict-calendar.md).
 
 **Note:** To use the business service as the source for a blackout or maintenance schedule, the business service must be converted to an application service. For instructions, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/convert-bus-to-app-svc-intro.md). For information about application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md).
 
-Conflict detection evaluates both the parent and child configuration items \(CIs\) of any CI in scope. A blackout or maintenance schedule applied to an upstream service, or CI also captures downstream child CIs that appear in change requests. For the full list of relationships that trigger a conflict, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md).
+Conflict detection evaluates both the parent and child configuration items \(CIs\) of any CI in scope. A blackout or maintenance schedule applied to an upstream service, or CI also captures downstream child CIs that appear in change requests. For the full list of relationships that trigger a conflict, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md).
 
 ## Procedure
 
 1.  Create a blackout or maintenance schedule.
 
-<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d353846e106">
+<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d353825e106">
 
 **Create a blackout schedule**
 
@@ -44,7 +44,7 @@ Conflict detection evaluates both the parent and child configuration items \(CIs
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d353846e139">
+</td></tr><tr><td id="d353825e139">
 
 **Create a maintenance schedule**
 
@@ -114,7 +114,7 @@ Use **Service** when the schedule must cover every CI that supports a given appl
 
 Use **CI Class** when the schedule applies broadly to a class of CIs and its children.
 
-The selected source determines which fields, such as **Applies to**, appear on the form, and how conflict detection evaluates the schedule. For details, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md).
+The selected source determines which fields, such as **Applies to**, appear on the form, and how conflict detection evaluates the schedule. For details, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md).
 
 </td></tr><tr><td>
 
@@ -182,10 +182,10 @@ To scope a schedule by CI class and its children, set **Source** to **CI Class**
 
 Associate the configuration item with the maintenance schedule that is used in the change request.
 
--   **[Assign a maintenance schedule to configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/use-maintenance-schedule-management.md)**  
+-   **[Assign a maintenance schedule to configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/use-maintenance-schedule-management.md)**  
 You can review and determine the conflicts in a change schedule by assigning the maintenance schedules to configuration items \(CI\). After you assign a maintenance schedules to the CI, add the CI to the change request.
 
-**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
+**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md)
 
 **Related topics**  
 

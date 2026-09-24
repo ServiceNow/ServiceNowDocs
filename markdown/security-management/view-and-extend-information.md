@@ -2,7 +2,7 @@
 title: Extend the MITRE-ATT&amp;CK data
 description: Extend the MITRE-ATT&amp;CK repository data in the ServiceNow AI Platform by enriching it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/view-and-extend-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/view-and-extend-information.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required:
 
 You can extend the Malware, Group, Mitigation, and Tool objects to a technique in the MITRE-ATT&amp;CK repository.
 
-You can create an object and establish a relationship between a technique and the new object in the MITRE ATT&amp;CK Repository module. But, you can't define the relationship type in this module. For more information about defining relationship types, see [object to object relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-object-object.md). To define a relationship type, navigate to the **Threat Intelligence** &gt; **IoC Repository** &gt; **Object-Object Relationships** module.
+You can create an object and establish a relationship between a technique and the new object in the MITRE ATT&amp;CK Repository module. But, you can't define the relationship type in this module. For more information about defining relationship types, see [object to object relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/define-object-object.md). To define a relationship type, navigate to the **Threat Intelligence** &gt; **IoC Repository** &gt; **Object-Object Relationships** module.
 
 If you map the relationship type between an existing technique and an existing object, then you must define the technique as the target object and the object as the source object. To do so, navigate to the **IoC Repository** &gt; **Object-Object Relationships** module.
 
@@ -43,7 +43,7 @@ You can create a group and associate it with an attack pattern. But, in the MITR
 3.  Select a related list to enrich its data to associate it with a new group.
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

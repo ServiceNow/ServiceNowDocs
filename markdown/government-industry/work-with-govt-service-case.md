@@ -2,7 +2,7 @@
 title: Manage your government service cases from the Government Service Portal
 description: Create, accept, assign, escalate, de-escalate, cancel a case, and even more actions for various government services all from the Government Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/work-with-govt-service-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/work-with-govt-service-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

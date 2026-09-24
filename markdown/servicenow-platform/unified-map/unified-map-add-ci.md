@@ -2,7 +2,7 @@
 title: Add a CI to a map using the map editor
 description: You can view an existing CI on the map to enable you to create, modify, or delete its connections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-add-ci.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/unified-map-add-ci.html
 release: australia
 product: Unified Map
 classification: unified-map

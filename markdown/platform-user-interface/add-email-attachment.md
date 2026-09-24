@@ -2,7 +2,7 @@
 title: Add a file to an email from the full email composer
 description: Send a file from your computer or related record to a requester or agent from the full email composer by attaching it to an email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-email-attachment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/add-email-attachment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Collaborate with project stakeholders
 description: Collaborate with the project manager and other stakeholders on a project to provide project updates, share documents, or send emails through the mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/collaborate-on-project-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/collaborate-on-project-mobile.html
 release: australia
 product: Project Management
 classification: project-management
@@ -53,5 +53,5 @@ When you add an activity or change the status in a project, the project manager 
 **Related topics**  
 
 
-[Manage status of your projects using Project Status application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/mobile-project-status.md)
+[Manage status of your projects using Project Status application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/mobile-project-status.md)
 

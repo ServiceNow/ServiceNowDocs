@@ -2,7 +2,7 @@
 title: Select demand currency preference
 description: Set your currency preference for managing and tracking demand financials from the functional currency, regional currency, or local currency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/select-demand-currency-preference-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/select-demand-currency-preference-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -18,7 +18,7 @@ Set your currency preference for managing and tracking demand financials from th
 
 ## Before you begin
 
-The PPM Standard Multicurrency feature must have been installed. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
+The PPM Standard Multicurrency feature must have been installed. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 Role required: admin
 
@@ -66,5 +66,5 @@ Currency option
 
 ## What to do next
 
-Enable the multicurrency view in the demand form and other demand-related forms. For more information, see [Enable the demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/enable-demand-currency-view-dw.md).
+Enable the multicurrency view in the demand form and other demand-related forms. For more information, see [Enable the demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/enable-demand-currency-view-dw.md).
 

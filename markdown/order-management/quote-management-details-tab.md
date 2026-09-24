@@ -2,7 +2,7 @@
 title: Add and view details of a quote
 description: Use the Details tab to add and view basic information for a quote.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-details-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-details-tab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,14 +30,14 @@ Use the Details tab to add more information about your quote, such as addresses 
 
 3.  Fill in the information on the Details tab.
 
-    For more information, see [Quote details forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-detail-form-fields.md).
+    For more information, see [Quote details forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-detail-form-fields.md).
 
 4.  Select **Save**.
 
 
 ## What to do next
 
-[Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-catalog-tab.md).
+[Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-catalog-tab.md).
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

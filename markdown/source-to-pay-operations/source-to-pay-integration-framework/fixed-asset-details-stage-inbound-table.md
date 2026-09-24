@@ -2,7 +2,7 @@
 title: Fixed asset details stage inbound table
 description: The Fixed asset details inbound \[sn\_fcms\_intg\_imp\_fixed\_asset\_details\] staging table temporarily stores important data about imported invoice line before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/fixed-asset-details-stage-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/fixed-asset-details-stage-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -37,7 +37,7 @@ The following table lists the fields for the Fixed asset details inbound \[sn\_f
 |Remaining value|String|Amount that the fixed asset is worth the current day, after factoring in depreciation.|
 |Salvage value|String|Amount that the fixed asset is worth after it has come to the end of its life.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

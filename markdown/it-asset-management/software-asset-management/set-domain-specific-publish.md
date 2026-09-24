@@ -2,7 +2,7 @@
 title: Set the domain-specific property to publish your software products
 description: Use the domain separation application property of Software Asset Management to set the publish software products property for specific domains.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/set-domain-specific-publish.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/set-domain-specific-publish.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -72,9 +72,9 @@ Domain that you want the application property value to apply to.
 
 ## What to do next
 
-Publish the software products that you want to manage as part of phase-wise implementation of Software Asset Management. For more information, see [Publish a specific set of your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-published-products.md).
+Publish the software products that you want to manage as part of phase-wise implementation of Software Asset Management. For more information, see [Publish a specific set of your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-published-products.md).
 
-**Parent Topic:**[Manage phase-wise Software Asset Management implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manage-phasewise-imp-of-sam.md)
+**Parent Topic:**[Manage phase-wise Software Asset Management implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/manage-phasewise-imp-of-sam.md)
 
 **Related topics**  
 

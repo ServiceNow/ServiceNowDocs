@@ -2,7 +2,7 @@
 title: Activate Virtual Agent for Workplace Service Delivery
 description: Activate Virtual Agent for Workplace Service Delivery to provide user assistance to employees through a chat interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/actuvate-va-for-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/actuvate-va-for-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -52,7 +52,7 @@ Role required: admin
     **Important:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
 
-**Parent Topic:**[Configure Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-wsd.md)
+**Parent Topic:**[Configure Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/configure-wsd.md)
 
 **Related topics**  
 

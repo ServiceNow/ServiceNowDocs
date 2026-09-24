@@ -2,7 +2,7 @@
 title: Set up the Repeat Detection playbook
 description: Use the following steps to set up the Repeat Detection playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-repeat-detection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-setup-repeat-detection.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -49,5 +49,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\). You h
     This playbook is triggered when the **Security Incident** **is not empty**.
 
 
-**Parent Topic:**[Playbook for Repeat Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-repeat-detection.md)
+**Parent Topic:**[Playbook for Repeat Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-repeat-detection.md)
 

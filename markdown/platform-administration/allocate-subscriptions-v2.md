@@ -2,7 +2,7 @@
 title: Allocate subscriptions in Subscription Management
 description: Give users entitlement to ServiceNow products by allocating subscriptions in Subscription Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/allocate-subscriptions-v2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/allocate-subscriptions-v2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,5 +49,5 @@ All group members are allocated subscriptions, giving each member entitlement to
 
 If you can't manually allocate user-based subscriptions despite having manually allocated them in the past, see [Missing subscribed groups and users tabs in subscription management \[KB2974856\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2974856)
 
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md)
+**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-user-subscriptions-v2.md)
 

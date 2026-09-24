@@ -2,7 +2,7 @@
 title: Assignment rules module
 description: The Assignment rules module allows you to automatically set a value in the assigned\_to and assignment\_group fields when a set of conditions occurs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_AssignmentRulesModule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/c\_AssignmentRulesModule.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -22,7 +22,7 @@ An assignment rule must also meet these additional criteria to run:
 -   The task record must be unassigned. The record cannot have an existing value for either the assigned\_to or assignment\_group fields. Assignment rules cannot overwrite existing assignments \(including assignments set by a default value or a previously run assignment rule\).
 -   The assignment rule is the first rule that matches the table and conditions. If more than one assignment rule matches the conditions, only the rule with the lowest order value runs.
 
-**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
+**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
 
 **Related topics**  
 

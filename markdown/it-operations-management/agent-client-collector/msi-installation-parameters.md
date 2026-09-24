@@ -2,7 +2,7 @@
 title: MSI installation parameters
 description: The following table describes the MSI parameters used when preparing an agent to be installed on a gold image and used with a Virtual Desktop Infrastructure \(VDI\) machine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/msi-installation-parameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/msi-installation-parameters.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -62,7 +62,7 @@ string
 
 </td><td>
 
-Basic-auth username for `fetch_vdi_config` REST API.This is the user created in the [Prepare for agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md) procedure.
+Basic-auth username for `fetch_vdi_config` REST API.This is the user created in the [Prepare for agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md) procedure.
 
 </td></tr><tr><td>
 
@@ -137,5 +137,5 @@ string
 Directory containing custom plugin-signing certificates; copied into the agent config directory before download.Optional.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

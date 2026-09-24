@@ -2,7 +2,7 @@
 title: Select apps during product installation
 description: Use the app selection modal to review mandatory and optional apps, customize your installation by selecting optional components, and complete the product installation through product hub installation flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-select-app-prod-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-select-app-prod-install.html
 release: australia
 topic_type: task
 last_updated: "2026-08-26"
@@ -82,5 +82,5 @@ After installation completes, consider the following next steps:
 -   For additional optional apps installed later, repeat this procedure to install additional components if needed.
 -   Refer to the concept topic for more information about how licensing and app availability work.
 
-**Parent Topic:**[Mandatory and optional app selection modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-mandatory-optional-select-modal.md)
+**Parent Topic:**[Mandatory and optional app selection modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-mandatory-optional-select-modal.md)
 

@@ -2,7 +2,7 @@
 title: Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery prerequisites and settings
 description: During set up of the Discovery Console for OT, review and confirm you have the following settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgc-prereq-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/sgc-prereq-settings.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ Dependencies and requirements:
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-ot-discovery.md)
 

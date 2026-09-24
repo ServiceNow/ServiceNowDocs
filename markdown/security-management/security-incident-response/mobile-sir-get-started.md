@@ -2,7 +2,7 @@
 title: Log in to the Security Incident Response Mobile app
 description: Open the Security Incident Response Mobile app and add a ServiceNow AI Platform instance with Security Incident Response to your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mobile-sir-get-started.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mobile-sir-get-started.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -24,7 +24,7 @@ Role required: sn\_si.analyst
 
 Time to complete this task: 5-10 minutes.
 
-Verify that you have completed the setup steps described in [Set up checklist for the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.md).
+Verify that you have completed the setup steps described in [Set up checklist for the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.md).
 
 ## Procedure
 

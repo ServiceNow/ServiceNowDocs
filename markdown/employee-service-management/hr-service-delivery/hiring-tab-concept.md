@@ -2,7 +2,7 @@
 title: Hiring
 description: Increase your productivity with a portal that provides clarity in the hiring process and an effortless collaboration with the recruiters. Save the time required to hire with an intuitive hiring flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hiring-tab-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hiring-tab-concept.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,7 +2,7 @@
 title: Import a Word document to a knowledge base using Knowledge Management v3
 description: Import a Microsoft Word document using Knowledge Management v3 homepage to create a knowledge article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_ImportADocument.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/t\_ImportADocument.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -22,13 +22,13 @@ You must have contribute access for at least one active knowledge base.
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 The **Import Articles** button does not appear in the following conditions:
 
 -   The Import Articles module is available in the application navigator.
 
-    **Note:** Beginning with Madrid, the Import a Word document feature is enabled by default and the Import Articles module is displayed in the application navigator. The Import a Word document feature isn’t enabled automatically for the existing customers who can continue using the **Import Articles** option on the Knowledge Management v3 page. For more information, see [Import a Word document to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/import-word-platform.md).
+    **Note:** Beginning with Madrid, the Import a Word document feature is enabled by default and the Import Articles module is displayed in the application navigator. The Import a Word document feature isn’t enabled automatically for the existing customers who can continue using the **Import Articles** option on the Knowledge Management v3 page. For more information, see [Import a Word document to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/import-word-platform.md).
 
 -   You cannot contribute to any knowledge base.
 
@@ -106,10 +106,10 @@ The following styles and elements are preserved when importing a .doc or .docx f
     If any errors occur during the upload, a popup window appears to display the error.
 
 
-**Parent Topic:**[Using the homepage of Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_KnowledgeHomepage.md)
+**Parent Topic:**[Using the homepage of Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/c_KnowledgeHomepage.md)
 
 **Related topics**  
 
 
-[Import a Word document to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/import-word-platform.md)
+[Import a Word document to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/import-word-platform.md)
 

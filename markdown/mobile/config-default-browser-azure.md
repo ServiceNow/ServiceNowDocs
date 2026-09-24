@@ -2,7 +2,7 @@
 title: Configure the default authentication browser for ServiceNow mobile apps in Microsoft Azure
 description: Learn how to configure the default authentication browser for your ServiceNow mobile apps managed by Microsoft Azure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-default-browser-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-default-browser-azure.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -60,7 +60,7 @@ SNAuthenticationBrowseriOS
 
 </td><td>
 
-Enter the value for the browser to use for apps on iOS mobile devices. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md)
+Enter the value for the browser to use for apps on iOS mobile devices. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/appconfig.md)
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ SNAuthenticationBrowserAndroid
 
 </td><td>
 
-Enter the value for the browser to use for apps on Android mobile devices. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md)
+Enter the value for the browser to use for apps on Android mobile devices. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/appconfig.md)
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ SNBlockInstanceCreate
 
 </td><td>
 
-Enter the value to prevent end users from creating connections to new instances for managed mobile apps. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md).
+Enter the value to prevent end users from creating connections to new instances for managed mobile apps. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/appconfig.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ SNBlockMultiInstance
 
 </td><td>
 
-Enter the value to prevent end users from logging in to multiple instances simultaneously. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md).
+Enter the value to prevent end users from logging in to multiple instances simultaneously. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/appconfig.md).
 
 </td></tr></tbody>
 </table>    \[Omitted image "azure-edit-policy.png"\] Alt text: Edit app configuration policy window in Microsoft Endpoint Manager admin center.
@@ -92,5 +92,5 @@ Enter the value to prevent end users from logging in to multiple instances simul
 7.  Select **Review + save**
 
 
-**Parent Topic:**[Intune mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/intune-mdm.md)
+**Parent Topic:**[Intune mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/intune-mdm.md)
 

@@ -2,7 +2,7 @@
 title: Manage scheduled tasks in Dispatcher Workspace
 description: As a dispatcher, you can move scheduled tasks to the Assigned state or move them back to the Pending dispatch state in Dispatcher Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/scheduled-tasks-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/scheduled-tasks-workspace.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

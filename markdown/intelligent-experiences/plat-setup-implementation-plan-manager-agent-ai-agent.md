@@ -2,7 +2,7 @@
 title: Implementation plan manager AI agent
 description: The implementation plan manager agent orchestrates an implementation by coordinating the plan generator and plan executor agents. It helps to ensure that your technical intent is converted into a clear plan and executed safely and correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/plat-setup-implementation-plan-manager-agent-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-setup-implementation-plan-manager-agent-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -17,8 +17,8 @@ The implementation plan manager agent orchestrates an implementation by coordina
 ## Workflow
 
 1.  Call the agent context retriever tool to get the questionnaire sysId, additional parameters, and conversation ID.
-2.  Invoke the [Implementation plan generator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-setup-implementation-plan-generator-agent-ai-agent.md) and wait for it to return a plan sysId. If the user exits or the plan fails to generate, end the conversation without proceeding.
-3.  Invoke the [Implementation plan executor AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-setup-implementation-plan-executor-agent-ai-agent.md), passing it the plan sysId and conversation ID, and wait for it to complete all steps.
+2.  Invoke the [Implementation plan generator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-setup-implementation-plan-generator-agent-ai-agent.md) and wait for it to return a plan sysId. If the user exits or the plan fails to generate, end the conversation without proceeding.
+3.  Invoke the [Implementation plan executor AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-setup-implementation-plan-executor-agent-ai-agent.md), passing it the plan sysId and conversation ID, and wait for it to complete all steps.
 4.  Clear the same context/state variables again so nothing carries over into the next run.
 
 <table><thead><tr><th>
@@ -51,7 +51,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -107,5 +107,5 @@ Not applicable.
 </td></tr></tbody>
 </table>Learn more about ServiceNow Otto for Setup at [ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md).
 
-**Parent Topic:**[Setup Hub AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-setup-ai-agents-overview.md)
+**Parent Topic:**[Setup Hub AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-setup-ai-agents-overview.md)
 

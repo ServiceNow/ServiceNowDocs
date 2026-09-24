@@ -2,7 +2,7 @@
 title: Create an HR case
 description: Create HR cases for employees or other individuals that require an HR service. Note that employees can also use the HR Service Portal to create HR cases for themselves.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/search-hr-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/search-hr-case.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,7 +24,7 @@ Role required: sn\_hr\_core.case\_writer
 
 ## About this task
 
--   For information about configuring case creation, see [Configure how HR cases are created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/CreateModCaseCreationConfig.md).
+-   For information about configuring case creation, see [Configure how HR cases are created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/CreateModCaseCreationConfig.md).
 -   Employees can also create HR cases for themselves using the record producers in Employee Center. The details entered by the employee get recorded in the description of the HR case.
 
     **Note:** If a value entered by the user does not match with the value in the HR profile of opened for, only then the value entered by the user gets recorded in the description of HR case. This behavior is not observed when the HR service of the case is either New Hire Onboarding or New Hire Journey.
@@ -38,15 +38,15 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Determine the person for whom you are filing the case.
 
-<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d467886e101">
+<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d467890e101">
 
 Status of the person related to the case
 
-</th><th align="left" id="d467886e104">
+</th><th align="left" id="d467890e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d467886e110">
+</th></tr></thead><tbody><tr><td id="d467890e110">
 
 **Anonymous employee or external individual**
 
@@ -58,7 +58,7 @@ Select **Skip verification** to create the case without having to enter an emplo
 
  **Note:** The **Skip verification** option is displayed only if **Allow skipping verification** was selected during the configuration of HR case creation.
 
-</td></tr><tr><td id="d467886e143">
+</td></tr><tr><td id="d467890e143">
 
 **An employee**
 
@@ -85,7 +85,7 @@ COE
 
 </td><td>
 
-The **Center of Excellence** associated with the HR case you are creating. Selecting a COE filters the choices for HR service. See [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).**Note:** If an HR service is selected first, the associated COE automatically populates.
+The **Center of Excellence** associated with the HR case you are creating. Selecting a COE filters the choices for HR service. See [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).**Note:** If an HR service is selected first, the associated COE automatically populates.
 
 </td></tr><tr><td>
 
@@ -137,17 +137,17 @@ Information specific to the case that can help other HR agents. Text in the **Wo
 
 7.  Continue working on the case.
 
-    For more information, see [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
+    For more information, see [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md)
 
 
 ## Result
 
 The **HR case** form appears with additional information about the case. The values selected for the **COE** and **HR service** fields determine the fields that appear.
 
--   **[Open an HR case to create a Journey Accelerator action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-journey-accelerator-plan.md)**  
+-   **[Open an HR case to create a Journey Accelerator action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-journey-accelerator-plan.md)**  
 Journey Accelerator action plans can be created by opening an HR case with a related lifecycle event.
--   **[Request a background check through a third-party background check provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/request-background-check-by-background-check-system.md)**  
+-   **[Request a background check through a third-party background check provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/request-background-check-by-background-check-system.md)**  
 Request a background check for an employee through a third-party background check provider such as First Advantage, Accurate, or Sterling.
 
-**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

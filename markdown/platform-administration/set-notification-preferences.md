@@ -2,7 +2,7 @@
 title: Set notification preferences
 description: View, enable, and disable general settings for notification preferences, and delivery channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/set-notification-preferences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/set-notification-preferences.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -78,5 +78,5 @@ Enable or disable individual delivery channels.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-notification-prefrences.md)
+**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/advanced-notification-prefrences.md)
 

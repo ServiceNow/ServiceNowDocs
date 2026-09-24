@@ -2,7 +2,7 @@
 title: Dashboard and visualization export skill
 description: Give users generative AI capabilities for creating data visualizations from the ServiceNow Otto panel by activating the dashboard and visualization export skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/activate-db-dv-export-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/activate-db-dv-export-skill.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -63,5 +63,5 @@ Role required: admin
 
 If the skill was successfully activated, the system notifies you.
 
-**Parent Topic:**[Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-now-ass-skills-pa.md)
+**Parent Topic:**[Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configuring-now-ass-skills-pa.md)
 

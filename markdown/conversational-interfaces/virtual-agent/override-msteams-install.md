@@ -2,7 +2,7 @@
 title: Override Microsoft Teams integration
 description: Override Virtual Agent integration with Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/override-msteams-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/override-msteams-install.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -26,7 +26,7 @@ Before Tokyo release, an admin was able to override a Microsoft Teams installati
 
 Starting from Tokyo release, if you intend to associate your Microsoft Teams tenant with a new ServiceNow instance, contact the administrator to uninstall the tenant from the previously associated instance.\[Omitted image "msteams-new-proceed-uninstall.png"\] Alt text: Microsoft Teams integration removal message.
 
-**Important:** The instructions in [Remove Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/uninstall_va_msteams.md) are only applicable when both instances are compatible with Tokyo and following releases. If one of your ServiceNow instances is on the Tokyo release and another on a release prior to Tokyo, use the following steps.
+**Important:** The instructions in [Remove Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/uninstall_va_msteams.md) are only applicable when both instances are compatible with Tokyo and following releases. If one of your ServiceNow instances is on the Tokyo release and another on a release prior to Tokyo, use the following steps.
 
 ## Procedure
 
@@ -43,5 +43,5 @@ Starting from Tokyo release, if you intend to associate your Microsoft Teams ten
 4.  Select **Override** to associate the instance with a new tenant.\[Omitted image "msteams-new-override.png"\] Alt text: Microsoft Teams override installation.
 
 
-**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-msteams.md)
 

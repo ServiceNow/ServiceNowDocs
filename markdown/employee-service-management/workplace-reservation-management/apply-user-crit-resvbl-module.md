@@ -2,7 +2,7 @@
 title: Apply user criteria on a reservable module
 description: Apply a user criteria to give permission for employees and groups to view and make reservations on a reservable module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/apply-user-crit-resvbl-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/apply-user-crit-resvbl-module.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -51,5 +51,5 @@ When a user criteria is applied, the availability of the reservable items in the
 
 The selected user criteria is applied on the reservable module.
 
-**Parent Topic:**[Create a user criteria record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-user-criteria.md)
+**Parent Topic:**[Create a user criteria record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-user-criteria.md)
 

@@ -2,7 +2,7 @@
 title: MFA enforcement timeline
 description: FAQ related to MFA enforcement timelines and why it’s important.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/faq-mfa-enforcement-timeline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/faq-mfa-enforcement-timeline.html
 release: australia
 product: Authentication
 classification: authentication

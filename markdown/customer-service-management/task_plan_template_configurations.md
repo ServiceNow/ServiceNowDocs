@@ -2,10 +2,10 @@
 title: Create a task plan template configuration
 description: Admins can create configurations for task plan templates that pre-fill information in task plan template fields.Use the Plan Configuration Picker to select a pre-defined plan configuration while creating a task plan template and before authoring your template. This ensures that the correct workflow, playbook, and record page settings are applied to the template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/task\_plan\_template\_configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/task\_plan\_template\_configurations.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

@@ -2,7 +2,7 @@
 title: Perform lookups on observables
 description: You can perform threat intelligence lookups on one or more observables to determine whether they’re associated with known security threats. The scanning implementations that run depend on the ones you’ve activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/perform-lookups-on-observables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/perform-lookups-on-observables.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,10 +18,10 @@ You can perform threat intelligence lookups on one or more observables to determ
 
 Before you can perform lookups, you must activate the Threat Intelligence plugin. You must also install the plugin for one or more of the scanning implementations:
 
--   [CrowdStrike Falcon Intelligence integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/crowdstrike-intell-landing-page.md)
--   [OPSWAT Metadefender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_Metadefenderintegration.md)
--   [Security Operations Have I been pwned?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-haveibeenpwned.md)
--   [VirusTotal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-configure-virustotal.md)
+-   [CrowdStrike Falcon Intelligence integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/crowdstrike-intell-landing-page.md)
+-   [OPSWAT Metadefender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_Metadefenderintegration.md)
+-   [Security Operations Have I been pwned?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/activate-haveibeenpwned.md)
+-   [VirusTotal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/activate-configure-virustotal.md)
 
 Role required: sn\_ti.write
 
@@ -37,7 +37,7 @@ Role required: sn\_ti.write
 
 3.  Select the threat lookup implementations you want to use, or select **All** to perform lookups using all of the active implementations, then click **Submit**.
 
-    A message indicates that the threat lookups have begun. The [Security Operations Integration - Threat Lookup Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-integ-threat-lookup.md) runs and also executes the implementation workflows for the threat lookup implementations you selected. The lookups are performed and the results are generated.
+    A message indicates that the threat lookups have begun. The [Security Operations Integration - Threat Lookup Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-ops-integ-threat-lookup.md) runs and also executes the implementation workflows for the threat lookup implementations you selected. The lookups are performed and the results are generated.
 
 4.  When the lookups are completed, you can click the **Threat Lookup Results** tab to view the results.
 
@@ -68,7 +68,7 @@ Role required: sn\_ti.write
     \[Omitted image "threat-lookup-results-details.png"\] Alt text: Threat Lookup Results details
 
 
-**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_Observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_Observables.md)
 
 **Related topics**  
 

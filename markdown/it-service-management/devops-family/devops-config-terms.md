@@ -2,7 +2,7 @@
 title: DevOps Config terms
 description: These are some of the common DevOps Config terms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-terms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-terms.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -59,5 +59,5 @@ These are some of the common DevOps Config terms.
     Vars created at the component level can be reused anywhere further down, like in a collection and/or deployable. However, vars defined in a particular deployable are intended to be used only in that context \(for example, environment-specific creds, memory settings, etc.\).
 
 
-**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-getting-started.md)
+**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-getting-started.md)
 

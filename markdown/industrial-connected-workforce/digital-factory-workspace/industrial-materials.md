@@ -2,7 +2,7 @@
 title: Industrial Materials
 description: Use Industrial Materials to manage the materials used for the Industrial Connected Workforce \(ICW\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-materials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/industrial-materials.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -43,5 +43,5 @@ When you create a task in the Digital Factory Workspace, the available materials
 
 An admin configures these interoperability mappings outside of the Digital Factory Workspace. For more information, see [Create interoperability mappings between assets and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-interoperability-mappings-assets-models.md).
 
-**Parent Topic:**[Industrial Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-data-models.md)
+**Parent Topic:**[Industrial Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-data-models.md)
 

@@ -2,7 +2,7 @@
 title: View Event Management solution training progress
 description: View solution training progress or statistics to determine whether a solution is available or how long the next training cycle might take to complete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-solution-training-progress.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/view-solution-training-progress.html
 release: australia
 product: Event Management
 classification: event-management
@@ -39,7 +39,7 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-See [Review Event Management similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-similarity-examples.md).
+See [Review Event Management similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/view-similarity-examples.md).
 
-**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-similarity.md)
 

@@ -2,7 +2,7 @@
 title: Modify string field length
 description: You can modify the maximum character limit for a string field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ModifyingStringFieldLength.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ModifyingStringFieldLength.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,10 +37,10 @@ The URL type field hides the Max Length field on the Dictionary form by default.
     The system cancels any length change that results in data loss due to truncation.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/customize-fields-now-platform-landing.md)
 
 **Related topics**  
 
 
-[Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md)
+[Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_FieldTypes.md)
 

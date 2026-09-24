@@ -2,7 +2,7 @@
 title: Configure risk assessment
 description: Configure the risk assessment to automatically evaluate conflict of interest disclosures and assign risk levels that determine approval routing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/lsd-coi-config-risk-fac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-conflict-of-interest/lsd-coi-config-risk-fac.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -57,10 +57,10 @@ COI Risk Assessment is available in the base system to evaluate the COI requests
 
 ## What to do next
 
-Add risk factors to define the criteria the risk assessment functionality evaluates a request. For more information, see [Configure risk factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-config-rsk-factors.md).
+Add risk factors to define the criteria the risk assessment functionality evaluates a request. For more information, see [Configure risk factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/lsd-coi-config-rsk-factors.md).
 
--   **[Configure risk factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-config-rsk-factors.md)**  
+-   **[Configure risk factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/lsd-coi-config-rsk-factors.md)**  
 Configure risk factors to define the criteria the risk assessment functionality evaluates a request. Each risk factor uses one of three evaluation types: Condition, Skill, or Subflow.
 
-**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
+**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 

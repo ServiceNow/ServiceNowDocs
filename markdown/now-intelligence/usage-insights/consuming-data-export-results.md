@@ -2,7 +2,7 @@
 title: Consuming data export results
 description: Consume the results of usage insights data exported via REST API, from the Kafka topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/consuming-data-export-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/consuming-data-export-results.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -75,5 +75,5 @@ Your Kafka consumer environment is now securely connected to the managed Hermes 
 -   Consume within retention window: Results are retained on the topic for 36 hours. Consume all batches before they expire.
 -   Each instance has its own dedicated Kafka topic for result delivery. The SSL certificate used to access the topic is scoped to your instance's topics only. Exports are bound to your customer account: data from one account is never accessible from another account's instance.
 
-**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-restapi.md)
+**Parent Topic:**[Bulk export of Usage Insights data via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/data-export-restapi.md)
 

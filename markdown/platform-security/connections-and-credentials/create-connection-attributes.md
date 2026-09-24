@@ -2,7 +2,7 @@
 title: Create connection attributes for IntegrationHub
 description: Define connection-specific variables that you can use in Integration Hub integration steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/create-connection-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/create-connection-attributes.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -79,5 +79,5 @@ For more information about building custom Workflow Studio actions, see [Workflo
     **Note:** The system does not track changes to connection attribute labels and data types after you associate the alias to a step. To refresh the connection attribute label or data type, delete the alias from the step and add it again.
 
 
-**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md)
+**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/connection-information.md)
 

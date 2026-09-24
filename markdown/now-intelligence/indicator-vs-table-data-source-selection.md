@@ -2,7 +2,7 @@
 title: Indicator vs Table data source selection
 description: After you submit a query to AI Data Explorer, the system checks the query for information whether to use table or indicator data. If there is no such information, it falls back on a default set in a system property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/indicator-vs-table-data-source-selection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/indicator-vs-table-data-source-selection.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-23"
@@ -14,9 +14,9 @@ breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, S
 
 After you submit a query to AI Data Explorer, the system checks the query for information whether to use table or indicator data. If there is no such information, it falls back on a default set in a system property.
 
-Tables on the ServiceNow AI Platform® contain current data. To view trends in this data over time, you need an [indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). Indicators are calculated from table values that are collected over time.
+Tables on the ServiceNow AI Platform® contain current data. To view trends in this data over time, you need an [indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md). Indicators are calculated from table values that are collected over time.
 
-**Important:** AI Data Explorer supports only [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). It does not support Performance Analytics indicator [targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), [thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), or [forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ForecastingData.md).
+**Important:** AI Data Explorer supports only [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md). It does not support Performance Analytics indicator [targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md), [thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md), or [forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 The system calculates which data source is appropriate for your query based on the following, in order of decreasing priority:
 
@@ -47,5 +47,5 @@ If the query does not show whether table or indicator data is preferred, the sys
 
 For indicator data sources, both automated and scripted breakdowns are supported, but only to two levels. If a query cannot be answered with fewer than three breakdowns, the system falls back to table data sources.
 
-**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ask-expl-questions.md)
+**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/ask-expl-questions.md)
 

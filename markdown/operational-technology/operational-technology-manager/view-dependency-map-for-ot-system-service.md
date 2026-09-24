@@ -2,7 +2,7 @@
 title: View the dependency map for an Operational Technology system service
 description: View the dependency map for an Operational Technology \(OT\) system service to see the graphical representation of the hierarchical structure of the selected OT system service and its relationship with other entities in the production process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/view-dependency-map-for-ot-system-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/view-dependency-map-for-ot-system-service.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -42,5 +42,5 @@ Role required: cmdb\_ot\_editor
     4.  Select the OT system service record you want to view the OT dependency map for.
     5.  Select **View OT Dependency map**.
 
-**Parent Topic:**[Modeling an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/modeling-ot-system.md)
+**Parent Topic:**[Modeling an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/modeling-ot-system.md)
 

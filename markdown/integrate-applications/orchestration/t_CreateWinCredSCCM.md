@@ -2,7 +2,7 @@
 title: Create Windows credentials for SCCM deployments
 description: Microsoft System Center Configuration Manager \(SCCM\) requires the appropriate credentials to deploy applications using the Client Software Distribution application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_CreateWinCredSCCM.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/t\_CreateWinCredSCCM.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -45,5 +45,5 @@ Client software distribution requires Windows credentials that have administrati
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/configuring-sccm.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/configuring-sccm.md)
 

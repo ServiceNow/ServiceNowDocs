@@ -2,7 +2,7 @@
 title: Enabling container image scanning with Syft scanner
 description: Container image scanning with Syft scanner provides visibility into software packages within container images, helping you identify installed software for compliance, licensing, and security purposes without requiring a MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/enabling-software-decomposition-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/enabling-software-decomposition-tool.html
 release: australia
 product: Discovery
 classification: discovery
@@ -41,7 +41,7 @@ To enable Syft scanner during Helm installation, add the following parameter to 
 --set runSyftScanner=true
 ```
 
-For complete installation instructions, see [Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md).
+For complete installation instructions, see [Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-deploy-install.md).
 
 ## Enabling container image scanning
 
@@ -101,10 +101,10 @@ Possible scan status values:
 -   Error - Scan failed \(check the Message field for details\)
 -   Skipped - Image URL is malformed or unreachable
 
-**Parent Topic:**[Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-configuring.md)
+**Parent Topic:**[Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-configuring.md)
 
 **Related topics**  
 
 
-[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-concept.md)
+[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/container-image-concept.md)
 

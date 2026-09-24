@@ -2,7 +2,7 @@
 title: Add a workplace room for reservation
 description: Add a workplace room for employees to reserve.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-workplace-rooms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-workplace-rooms.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -22,7 +22,7 @@ Add a workplace room for employees to reserve.
     -   Workplace data for your organization
     -   Data of workspaces that can be marked as available
 
-For more information about adding the workspaces field information, see [Create records for your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-records-of-workplace-data-wsd.md).
+For more information about adding the workspaces field information, see [Create records for your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-records-of-workplace-data-wsd.md).
 
 Role required: sn\_wsd\_core.admin
 
@@ -34,7 +34,7 @@ Role required: sn\_wsd\_core.admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Add a room form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-room-form.md).
+    For a description of the field values, see [Add a room form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-room-form.md).
 
 4.  Click **Submit**.
 
@@ -43,7 +43,7 @@ Role required: sn\_wsd\_core.admin
 
 The room is added and is available for reservation in the application.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

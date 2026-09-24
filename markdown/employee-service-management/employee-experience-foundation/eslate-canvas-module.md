@@ -2,7 +2,7 @@
 title: EmployeeWorks Web App canvas module
 description: Canvas module provides a customizable workspace where employees can add, resize, and arrange widgets from a library to create personalized dashboards for their daily work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-canvas-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-canvas-module.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

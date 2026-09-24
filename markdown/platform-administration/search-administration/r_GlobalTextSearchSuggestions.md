@@ -2,7 +2,7 @@
 title: Global text search suggestions
 description: Global text search offers two types of search suggestions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/r\_GlobalTextSearchSuggestions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/r\_GlobalTextSearchSuggestions.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -26,12 +26,12 @@ The knowledge base and global text searches also provide suggestions for alterna
 
 **Note:** The type-ahead search suggestions feature is only available in the UI15 interface.
 
--   **[Update a type-ahead suggestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_UpdateATypeAheadSuggestion.md)**  
+-   **[Update a type-ahead suggestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/t_UpdateATypeAheadSuggestion.md)**  
 The knowledge base and global text searches provide suggestions as you type. These type-ahead suggestions are compiled on a nightly basis by a scheduled job.
--   **[Configure "Did you mean?" suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_ConfigureADidYouMeanSuggestion.md)**  
+-   **[Configure "Did you mean?" suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/t_ConfigureADidYouMeanSuggestion.md)**  
 The Knowledge Base and global text searches can provide "Did you mean?" suggestions. Suggestions appear if a search doesn't return any results and an alternate spelling or similar recent search does. This feature is disabled by default.
 
-**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
+**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_GlobalTextSearch.md)
 
 **Related topics**  
 

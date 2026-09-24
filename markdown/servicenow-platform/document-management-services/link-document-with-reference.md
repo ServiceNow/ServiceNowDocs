@@ -2,7 +2,7 @@
 title: Create document references from document record
 description: Link the document record to other records in any other table or record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/link-document-with-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/link-document-with-reference.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -41,5 +41,5 @@ Role required: none
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Document references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-references.md)
+**Parent Topic:**[Document references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/doc-mgt-references.md)
 

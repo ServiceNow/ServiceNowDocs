@@ -2,7 +2,7 @@
 title: Credential-less Application Discovery
 description: Credential-less Application Discovery attempts to identify an application service actively listening on a specific port at a given IP address.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/credential-less-app-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/credential-less-app-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -210,5 +210,5 @@ The Discovery - IP Based \[com.snc.discovery.ip\_based\] plugin adds an identifi
 
 \[Omitted image "NmapIdentifier.png"\] Alt text: Nmap identifier for the Application Rule
 
-**Parent Topic:**[Credential-less discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md)
+**Parent Topic:**[Credential-less discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/nmap-credential-less-discovery.md)
 

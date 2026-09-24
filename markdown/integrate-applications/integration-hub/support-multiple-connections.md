@@ -2,7 +2,7 @@
 title: Supporting multiple connections
 description: Support several connections to a single integration provider. Select connections for flows, subflows, and actions directly from a flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/support-multiple-connections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/support-multiple-connections.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -59,7 +59,7 @@ View which connection your flow ran with by examining the Step Configuration sec
 
 You can select connections for individual integration actions within a flow. This functionality is useful if a flow must interact with multiple configurations of the same provider. For example, downloading a file from one configuration of a file storage provider then uploading the file to a different configuration of the same file storage provider.
 
-Integration actions have one or more connection fields in the Action Properties section where you can edit or configure a connection. If the connection alias is using a configuration template with a test action, you can also test the connection from here. For details, see [Create a test action to test a connection alias from a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-alias-configuration-template.md).
+Integration actions have one or more connection fields in the Action Properties section where you can edit or configure a connection. If the connection alias is using a configuration template with a test action, you can also test the connection from here. For details, see [Create a test action to test a connection alias from a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/test-alias-configuration-template.md).
 
 In the following example, the Create Remote Incident action has a connection field called **ServiceNow Connection**. The default connection hasn’t been configured yet, so a `Connection not configured` message appears below the connection field. This message appears whenever the connection for the selected alias is not configured
 
@@ -92,6 +92,6 @@ When you move a flow to a production instance, the alias information is transfer
 
 You can configure connections without having to modify the flow because you already have the base alias set up. To configure a connection:
 
--   If the alias has a configuration template, configure the connection through the Connections dashboard. See [Configure a connection in the Connections dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/dashboard-configure-connection.md) for instructions.
+-   If the alias has a configuration template, configure the connection through the Connections dashboard. See [Configure a connection in the Connections dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/dashboard-configure-connection.md) for instructions.
 -   If an alias doesn't have a configuration template, configure it through the platform user interface. For more information about configuring a connection without a template, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md).
 

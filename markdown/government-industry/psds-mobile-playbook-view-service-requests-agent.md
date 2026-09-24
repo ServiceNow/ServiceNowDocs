@@ -2,7 +2,7 @@
 title: Track government service requests with the Mobile Agent app
 description: Track and view the details of all the service requests that are assigned to you by using the ServiceNow Mobile Agent app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-mobile-playbook-view-service-requests-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-mobile-playbook-view-service-requests-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,6 +40,6 @@ When you select a case in the Mobile Agent application, a form opens with the fo
 
 3.  Select the service request case that you want to see more details for.
 
-    For a detailed description of the service request case fields, see [Service Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/service-request-case-form-new.md).
+    For a detailed description of the service request case fields, see [Service Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/service-request-case-form-new.md).
 
 

@@ -2,7 +2,7 @@
 title: Manage the recipients of a communication task
 description: Add or edit the list of recipients for various communication tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/manage-recipients.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/manage-recipients.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -43,7 +43,7 @@ Role required: sn\_critical.agent
     **Note:** You can also open the Manage recipients form by selecting the More actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) on the communication task.
 
 
-**Parent Topic:**[Send notifications during a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/notify-impacted-people.md)
+**Parent Topic:**[Send notifications during a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/notify-impacted-people.md)
 
 **Related topics**  
 

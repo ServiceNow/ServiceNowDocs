@@ -2,7 +2,7 @@
 title: Configure Apple Messages for Business
 description: Apple Messages for Business integration enables customers to start secure conversations from the Messages app on Apple devices. Agents manage these interactions in CSM Workspace with full customer context, case details, and conversation history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/omnichannel-configure-apple-messages-for-business.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/omnichannel-configure-apple-messages-for-business.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-29"
@@ -43,7 +43,7 @@ Complete these tasks to implement [Conversational Integration with Apple Message
 |4. [OAuth setup for Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/oauth-setup-apple.md)|Set up OAuth authentication credentials between Apple and ServiceNow.|Admin|
 |5. [Integrating the Conversational Integration with Apple Messages for Business app with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-apple-integrating-apps.md)|Link the Apple Messages for Business channel to CSM and configure auto-creation rules.|Admin|
 |6. [Capturing information from a user in a Apple Messages for Business chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-apple-capture-info.md)|Configure data extraction for customer profile from Apple Messages.|Admin|
-|7. [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md)|Design workspace with agent profile cards, rich media widgets, and loyalty status.|CSM Admin|
+|7. [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md)|Design workspace with agent profile cards, rich media widgets, and loyalty status.|CSM Admin|
 |8. [Transfer Apple Messages for Business chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-apple-live-agent-conv.md)|Configure smooth handoff from Virtual Agent to a live agent.|Admin|
 
 **Note:** An admin can configure Rich Controls for Apple Messages. This enables setting up interactive controls for images, appointment pickers, and Apple Pay integration.

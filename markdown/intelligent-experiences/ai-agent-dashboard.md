@@ -2,7 +2,7 @@
 title: AI Agent Analytics dashboard
 description: Track the AI agent use and efficiency gain on your instance through the AI Agent Analytics dashboard. The dashboard can reveal trends in how AI agents are used to improve the time to resolution and the number of tasks closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-agent-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-21"
@@ -654,7 +654,7 @@ Bar chart
 
 </td><td>
 
-Most common user intents as interpreted by the LLM. Intents are grouped by [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md).
+Most common user intents as interpreted by the LLM. Intents are grouped by [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/group-action-framework.md).
 
 </td></tr><tr><td>
 
@@ -666,7 +666,7 @@ Bar chart
 
 </td><td>
 
-Average CSAT score for each user intent interpreted by the LLM. Intents are grouped by [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md).
+Average CSAT score for each user intent interpreted by the LLM. Intents are grouped by [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/group-action-framework.md).
 
 </td></tr><tr><td>
 
@@ -1380,7 +1380,7 @@ List
 List of agentic workflow errors.
 
 </td></tr></tbody>
-</table>For more information on security controls for agentic AI, see [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+</table>For more information on security controls for agentic AI, see [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-security-implementation.md).
 
 <table><thead><tr><th>
 
@@ -1524,7 +1524,7 @@ Score card
 
 </td><td>
 
-Total number of agentic workflows without roles identified for [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) and data access.
+Total number of agentic workflows without roles identified for [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-role-masking.md) and data access.
 
 </td></tr><tr><td>
 

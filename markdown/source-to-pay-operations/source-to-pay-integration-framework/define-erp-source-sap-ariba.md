@@ -2,7 +2,7 @@
 title: Define ERP source configuration for SAP Ariba
 description: ERP source configuration determines the ERP source to which your ERP system connects. Map the integration payload with the SAP Ariba tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-sap-ariba.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-sap-ariba.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -62,7 +62,7 @@ Role required: sn\_fcms\_intg.admin
         **Note:** SAP Ariba integration can have multiple ERP sources. The Staging table displays the ERP source column, which helps identify the ERP system associated with the data.
 
 
-**Parent Topic:**[Configure the Source-to-Pay integration with SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-ariba-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-ariba-integration.md)
 
 **Related topics**  
 

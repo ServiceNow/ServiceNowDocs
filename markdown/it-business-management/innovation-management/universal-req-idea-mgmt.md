@@ -2,7 +2,7 @@
 title: Integrating Innovation Management with Universal Request
 description: Integration of Innovation Management with Universal Request extends the capabilities of Universal Request and enables your employees and agents to create an idea from a universal request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/universal-req-idea-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/innovation-management/universal-req-idea-mgmt.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -53,12 +53,12 @@ Activate the following plugins if you have the admin role. These plugins are not
 
 Activate other related plugins such as Human Resources Scoped App: Core \(com.sn\_hr\_core\), and Employee Center \(com.snc.employee\_center\) plugins to facilitate inter-department transfers of ideas.
 
--   **[Create an Idea from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-idea-from-ur.md)**  
+-   **[Create an Idea from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/create-idea-from-ur.md)**  
 Create an idea from a universal request after initial evaluation for a new product, feature, enhancement, or change.
--   **[Idea state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-state-mapping.md)**  
+-   **[Idea state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/idea-state-mapping.md)**  
 Map your idea states to the Universal Request states to provide a better user experience during the idea state transition and to track the progress of the idea.
--   **[Transfer an Idea to another department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/transfer-idea-ur.md)**  
+-   **[Transfer an Idea to another department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/transfer-idea-ur.md)**  
 Transfer an idea to another department with or without resolution if the idea is rejected or cannot be implemented.
 
-**Parent Topic:**[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/innovation-management-landing.md)
+**Parent Topic:**[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/innovation-management-landing.md)
 

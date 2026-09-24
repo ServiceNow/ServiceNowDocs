@@ -2,7 +2,7 @@
 title: Managing safety knowledge articles
 description: As a safety manager or agent, you can manage safety-related knowledge base articles in the Health and Safety Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/hs-managing-safety-knowledge-articles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/hs-managing-safety-knowledge-articles.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -54,8 +54,8 @@ To view a list of all knowledge base articles in the Health and Safety Workspace
 -   Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: filter icon\) in the list and remove the `Knowledge base = Safety` filter.
 -   Additionally, to remove this default filter setting from the Knowledge list in the Health and Safety Workspace, remove it in the UIB related list configuration. For more information, see [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/lists-configurable-workspace.md)
 
--   **[Create a Health and Safety knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-create-safety-knowledge-article.md)**  
+-   **[Create a Health and Safety knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-create-safety-knowledge-article.md)**  
 Create a safety-related knowledge article in the Health and Safety Workspace to share information across your organization.
 
-**Parent Topic:**[Using Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/using-hs-core.md)
+**Parent Topic:**[Using Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/using-hs-core.md)
 

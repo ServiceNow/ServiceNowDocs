@@ -2,7 +2,7 @@
 title: Creating, reviewing, approving, and fulfilling service orders
 description: Service Order Management \(SOM\) is a domain of order management that is responsible for the end-to-end life cycle of service requests. Learn how service orders are captured Order Management, and how your fulfillment managers and agents review, orchestrate, and fulfill them.OM revamp project - This topic has been removed from the SOM bundle on Oct 7, 2025. The viable content has been moved to newer topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-fulfilling-service-orders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-order-mgt-fulfilling-service-orders.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Service Order Management \(SOM\) is a domain of order management that is respons
 
 Use service orders for the activation of new services or for the post-sales requests for the services that were activated for and delivered to customers at earlier dates. By using this process, you ensure that service orders are correct and handled efficiently throughout the entire fulfillment process.
 
-Most of the service orders that you process are captured from third-party customer order management systems through the Service Order Open API. The Service Order Open API is a ServiceNow implementation of the TM Forum TMF641 Service Ordering Open API specification. To learn more, see Service Order Open API.
+Most of the service orders that you process are captured from third-party customer order management systems through the Service Order Open API. The Service Order Open API is a ServiceNow implementation of the TM Forum TMF641 Service Ordering Open API specification. To learn more, see [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md).
 
 ## Service order direct entry
 
@@ -45,7 +45,7 @@ The following diagram provides you with an understanding of what processing take
 
 After you capture a service order, the service order manager selects it in the Service Order Management workspace in Configurable Workspace Home. The service order manager verifies the service order, the service order line items, and the order characteristics, and then approves or rejects the service order.
 
-**Note:** To process service orders, the service order manager uses the same forms that are used to manage customer orders. To learn more about service order management roles and the approval process, see the [Reviewing service orders for fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-review-approve-service-orders.md).
+**Note:** To process service orders, the service order manager uses the same forms that are used to manage customer orders. To learn more about service order management roles and the approval process, see the [Reviewing service orders for fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-review-approve-service-orders.md).
 
 The following diagram details the service order review, approval, decomposition, and completion process.
 
@@ -62,8 +62,8 @@ If the service order manager approves a service order, the following process occ
 -   Service order decomposition takes place next. Decomposition is based on the service specification, specification relationships, and decomposition rules in the catalog. This process creates all required service and resource orders for each approved service order line item and then triggers the order fulfillment workflow for each domain order.
 -   To learn more, see the following:
     -   [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-specification-rels.md)
-    -   [Approving and fulfilling service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-fulfillment-processing.md)
-    -   [Service order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-order-decomposition.md)
+    -   [Approving and fulfilling service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-fulfillment-processing.md)
+    -   [Service order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-order-decomposition.md)
 
 ## Differences between the pre- and post-approval service orders
 
@@ -75,11 +75,11 @@ When you approve a captured service order for fulfillment, the post-approval dec
 -   The resource order manages the resources required to fulfill the services that the customer is requesting.
 -   These domain orders manage the fulfillment of the requested service orders.
 
-To learn more, see [Service order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-order-decomposition.md).
+To learn more, see [Service order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-order-decomposition.md).
 
 ## Service order fulfillment tasks
 
-After the decomposition process is complete, order tasks are assigned to a service order agent, who works through the tasks and updates the service order. If there are any remaining order tasks that can't be completed, you can create fallout records for tracking and further research. To learn more, see [Creating, reviewing, approving, and fulfilling service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-fulfilling-service-orders.md).
+After the decomposition process is complete, order tasks are assigned to a service order agent, who works through the tasks and updates the service order. If there are any remaining order tasks that can't be completed, you can create fallout records for tracking and further research. To learn more, see [Creating, reviewing, approving, and fulfilling service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-fulfilling-service-orders.md).
 
 After all fulfillment tasks are complete, the following actions occur:
 
@@ -88,7 +88,7 @@ After all fulfillment tasks are complete, the following actions occur:
 -   The sold product record is updated with the state of Active for Add type service orders or Inactive for disconnect type service orders.
 -   All characteristics of the service and resource specifications are updated in the Product Characteristics \[sn\_ind\_tmt\_orm\_product\_characteristics\] table.
 
-**Note:** For more information, see [Review and update the service order fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-service-order-tasks.md).
+**Note:** For more information, see [Review and update the service order fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-service-order-tasks.md).
 
 **Related topics**  
 

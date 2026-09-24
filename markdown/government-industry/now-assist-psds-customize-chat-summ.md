@@ -2,7 +2,7 @@
 title: Configure chat summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Activate and configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-customize-chat-summ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-customize-chat-summ.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

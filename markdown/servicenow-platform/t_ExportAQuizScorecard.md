@@ -2,7 +2,7 @@
 title: Export a quiz scorecard as an image
 description: You can export scorecards as images.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ExportAQuizScorecard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ExportAQuizScorecard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ Role required: assessment\_admin or admin
     \[Omitted image "QuizScorecardExportImage.png"\] Alt text: Scorecard export image
 
 
-**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md)
+**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyResults.md)
 
 **Related topics**  
 

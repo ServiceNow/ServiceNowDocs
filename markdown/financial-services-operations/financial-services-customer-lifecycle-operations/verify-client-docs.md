@@ -2,7 +2,7 @@
 title: Verify client documentation
 description: Work on a document task to manage and track required documents for a Customer Lifecycle Operations service case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/verify-client-docs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-customer-lifecycle-operations/verify-client-docs.html
 release: australia
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
@@ -42,5 +42,5 @@ The Document Verification stage shows as complete, and the case automatically ad
 
 ## What to do next
 
-Continue to the [Due Diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/perform-due-diligence.md) stage.
+Continue to the [Due Diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-customer-lifecycle-operations/perform-due-diligence.md) stage.
 

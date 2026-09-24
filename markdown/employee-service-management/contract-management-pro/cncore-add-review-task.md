@@ -2,7 +2,7 @@
 title: Request an internal review
 description: Initiate a review of the contract document by internal subject matter experts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-add-review-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-add-review-task.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +18,7 @@ Initiate a review of the contract document by internal subject matter experts.
 
 ## Before you begin
 
--   For self-service contract requests, you may want review and feedback from the internal subject matter experts. If needed, the contract requester can submit a change request to the contract fulfiller. The contract fulfiller then submits a review task with the change request details. For more information, see [Review a contract document in your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-request-changes-ss-cntr.md).
+-   For self-service contract requests, you may want review and feedback from the internal subject matter experts. If needed, the contract requester can submit a change request to the contract fulfiller. The contract fulfiller then submits a review task with the change request details. For more information, see [Review a contract document in your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-request-changes-ss-cntr.md).
 -   For non- self-served contract requests, the contract user cannot create a change request. Instead, the contract fulfiller creates a task for internal review.
 
 Role required: sn\_cm\_core.contract\_fulfiller
@@ -32,15 +32,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d485127e89">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d485279e89">
 
 Method
 
-</th><th align="left" id="d485127e92">
+</th><th align="left" id="d485279e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d485127e98">
+</th></tr></thead><tbody><tr><td id="d485279e98">
 
 **Contract Workspace listing**
 
@@ -52,7 +52,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d485127e145">
+</td></tr><tr><td id="d485279e145">
 
 **Workspace used by your application**
 
@@ -136,5 +136,5 @@ A review task is created, listed in the Reviews tab and the change request detai
 
 \[Omitted image "cmpro-internal-review-task.png"\] Alt text: Submit internal review task to get the contract document reviewed by the internal subject matter experts.
 
-**Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expert-review.md)
+**Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

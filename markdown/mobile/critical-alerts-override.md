@@ -2,7 +2,7 @@
 title: Enable critical alerts to override do not disturb setting
 description: Enable the Override do not disturb setting to receive critical push notifications. Managers and admins can reach out to their on-call members even when their phones are set to Do Not Disturb mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/critical-alerts-override.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/critical-alerts-override.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -128,5 +128,5 @@ Role required: mobile\_admin, admin
     **Note:** If an agent dismisses or declines both the original prompt and the reprompt, you can't trigger any further prompts for that agent.
 
 
-**Parent Topic:**[Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/critical-alerts1.md)
+**Parent Topic:**[Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/critical-alerts1.md)
 

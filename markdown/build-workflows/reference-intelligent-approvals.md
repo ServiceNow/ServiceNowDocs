@@ -2,7 +2,7 @@
 title: Intelligent approvals reference
 description: Reference topics for intelligent approvals, including the user roles required to access the Intelligent Approvals homepage and create AI-generated approval policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/reference-intelligent-approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/reference-intelligent-approvals.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-20"
@@ -26,5 +26,5 @@ The following roles control access to intelligent approvals features.
 |sn\_iap.policy\_reader|Has read-only access to the homepage, intelligent approvals, and execution details.|taas\_api\_read|
 |sn\_iap.policy\_runtime|Has access to runtime policy evaluation skills.|sn\_iap.policy\_reader|
 
-Contact your system administrator to verify role assignments. For information about activating the Intelligent Approvals plugin and configuring role assignments, see [Configure intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/configure-intelligent-approvals.md).
+Contact your system administrator to verify role assignments. For information about activating the Intelligent Approvals plugin and configuring role assignments, see [Configure intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/configure-intelligent-approvals.md).
 

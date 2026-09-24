@@ -2,7 +2,7 @@
 title: Feedback definition form
 description: Description of the feedback definition form fields to curate the experience and service feedback widgets in the portal pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/fdbck-dfnition-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/fdbck-dfnition-record.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -294,7 +294,7 @@ Post-feedback Configuration
 Option to create a feedback task post-feedback submission.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

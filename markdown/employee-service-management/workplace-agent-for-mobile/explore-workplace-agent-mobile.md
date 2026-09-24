@@ -2,7 +2,7 @@
 title: Explore Workplace Agent for mobile
 description: Manage all your workplace cases and tasks on the go using the Agent Workplace Services for Mobile application on the ServiceNow Agent mobile application. As a workplace agent, the application enables you to view, manage, and create workplace cases using your mobile device instead of a desktop or a laptop.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/explore-workplace-agent-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-agent-for-mobile/explore-workplace-agent-mobile.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
@@ -38,5 +38,5 @@ As a workplace agent, the application enables you to perform the following actio
 -   You can also handle workplace cases and tasks that are associated with the cases individually.
 -   You can upload attachments to a case at any time.
 
-For more information about the Workplace Agent for mobile application features, refer to [Workplace Agent for mobile - Key features, actions, and case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.md)
+For more information about the Workplace Agent for mobile application features, refer to [Workplace Agent for mobile - Key features, actions, and case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.md)
 

@@ -2,7 +2,7 @@
 title: Invoice case categories and subcategories
 description: Invoice cases are organized into categories and subcategories to help agents and Accounts Payable specialists manage payment and processing issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/working-with-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/working-with-cases.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -55,7 +55,7 @@ Agent\[sn\_ap\_cm.agent\]
 
 You can view the invoice inquiry cases in the Source-to-Pay Workspace.
 
- For more information, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
+ For more information, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Accounts Payable Specialist\[sn\_ap\_apm.accounts\_payable\_specialist\]
 
 You can view the manual invoice ingestion cases in the Source-to-Pay Workspace.
 
- For more information, see [Invoice processing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.md).
+ For more information, see [Invoice processing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.md).
 
 </td></tr></tbody>
 </table>To view the invoice cases, do the following:
@@ -100,7 +100,7 @@ You can view the manual invoice ingestion cases in the Source-to-Pay Workspace.
             \[Omitted image "ap-agents.png"\] Alt text: AP Agents view inquiry case
 
 
-**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

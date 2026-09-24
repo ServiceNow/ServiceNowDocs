@@ -2,7 +2,7 @@
 title: Add Related Parties Activity
 description: Configure the Add Related Parties activity to manage related party records within a playbook, helping agents collect structured data more efficiently during playbook execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-add-related-party-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-add-related-party-activity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,6 +56,6 @@ Within a stage, you can configure activities to guide users through steps such a
     3.  In the activity picker, search for and select **Add Related Parties**.
 5.  Configure the newly added activity in the playbooks canvas using the **Details, Automation, and UI Layout** tabs in the side panel.
 
-    To further customize the side panel tabs, and to tailor the activity to your specific use case, see [Configure Add Related Party Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-add-related-party-activity.md).
+    To further customize the side panel tabs, and to tailor the activity to your specific use case, see [Configure Add Related Party Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customize-add-related-party-activity.md).
 
 

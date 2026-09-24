@@ -2,7 +2,7 @@
 title: Configure dynamic blocks
 description: Use dynamic blocks to use scripting or to pull information from the system. Dynamic blocks are where most of your content resides.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CreateADynamicBlock.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_CreateADynamicBlock.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -32,9 +32,9 @@ Several dynamic blocks are predefined, including the following items.
 -   **Search**: The global text search field. Currently, global text search is the only form of search that can be included in a content page.
 -   **Search Results**: An area for displaying global text search results.
 
-For information about Apache Jelly, see Jelly tags.
+For information about Apache Jelly, see [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md).
 
-**Note:** Dynamic Content Blocks in Content Management System are not automatically escaped. These blocks must implement their own content escaping \(e.g., to protect against potential Cross Site Scripting attacks\). For more information, see Jelly escaping types.
+**Note:** Dynamic Content Blocks in Content Management System are not automatically escaped. These blocks must implement their own content escaping \(e.g., to protect against potential Cross Site Scripting attacks\). For more information, see [Jelly escaping types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyEscapingTypes.md).
 
 ## Procedure
 
@@ -48,17 +48,17 @@ For information about Apache Jelly, see Jelly tags.
     |-----|-----------|
     |Name|Type a unique name for the dynamic content block.|
     |Category|Select a category to provide organization for the dynamic block. The category also determines the detail page in which dynamic block links open.|
-    |Frame|Select a border styling for the dynamic block. For more information, see [Format a frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_Frame.md).|
+    |Frame|Select a border styling for the dynamic block. For more information, see [Format a frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_Frame.md).|
     |Active|Select this check box to make the block available for use.|
     |Conditional|Enter any scripted conditions to be applied. If selected, adds a Condition script field to the form.|
-    |Two phase|Select this check box to allow two phase Extensions to Jelly syntax.|
+    |Two phase|Select this check box to allow two phase [Extensions to Jelly syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md).|
     |Dynamic content|Enter the XML script field that determines the behavior of the dynamic block.|
 
 
--   **[Catalog cart block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CatalogCartBlock.md)**  
+-   **[Catalog cart block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_CatalogCartBlock.md)**  
 The catalog cart block is a dynamic block provided in the base system.
 
-**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
+**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
 
 **Related topics**  
 
@@ -79,13 +79,13 @@ The catalog cart block is a dynamic block provided in the base system.
 
 [Configure a detailed content block]()
 
-[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)
+[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentBlocks.md)
 
-[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
+[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
 
-[View CMS block tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CMSBlockTag.md)
+[View CMS block tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CMSBlockTag.md)
 
-[Customize the list block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_DefineTheListBlock.md)
+[Customize the list block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_DefineTheListBlock.md)
 
-[Format an image as a static HTML block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_AddAnImageAsAStaticHTMLBlock.md)
+[Format an image as a static HTML block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_AddAnImageAsAStaticHTMLBlock.md)
 

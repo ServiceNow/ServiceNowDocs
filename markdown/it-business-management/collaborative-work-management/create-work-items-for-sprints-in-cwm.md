@@ -2,7 +2,7 @@
 title: Create work items for sprints in CWM
 description: Create and add new work items to a sprint directly from the Sprint planning view of Collaborative Work Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-work-items-for-sprints-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/create-work-items-for-sprints-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -34,12 +34,12 @@ Role required: sn\_cwm.cwm\_user
 
 5.  Select the work item type from the **Item type** drop-down list.
 
-    The default work item type available is Task. You can enable other types such as Story or create a custom type. See [Create and manage custom work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-custom-work-item-types-in-cwm.md).
+    The default work item type available is Task. You can enable other types such as Story or create a custom type. See [Create and manage custom work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-custom-work-item-types-in-cwm.md).
 
 6.  On the form, fill in the details for the item such as short description, start and end dates, story points, and others.
 
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
+**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 

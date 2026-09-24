@@ -2,7 +2,7 @@
 title: Generate a Register of Information package
 description: Generate a register of information package. Use the CSV report option in the download page to generate regulator-ready Register of Information \(RoI\) packages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/opres-drtp-gen-roi-pkg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/opres-drtp-gen-roi-pkg.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Register of Information \(RoI\) reports can be generated for both individual and
 
     The **Excel Master Template** option downloads documents to use for data preparation and internal review. The **Plain-CSV Reporting Package** option downloads documents you can use for regulator submission and compliance validation.
 
-    For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
+    For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
 
 4.  Select **Export info register** to initiate the download process.
 
@@ -42,8 +42,8 @@ Register of Information \(RoI\) reports can be generated for both individual and
 
     \[Omitted image "roi-package-generation-result-panel.png"\] Alt text: Result panel after generating a Plain-CSV reporting package. Validation messages and attached consolidated reports appear at the bottom of the request record.
 
-    For more information on validation, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-validate-roi.md).
+    For more information on validation, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/opres-drtp-validate-roi.md).
 
 
-**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-dg-registers.md)
 

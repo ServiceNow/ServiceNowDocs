@@ -2,7 +2,7 @@
 title: Compose an email from a case
 description: As an agent, you can compose emails directly from cases within a ServiceNow instance. This capability helps you view and send emails to two different customers simultaneously which saves time and effort.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/compose-email-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/compose-email-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ You can compose large emails easily in a full screen view which opens up in a ne
 **Related topics**  
 
 
-[Compose an email from the ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/open-email-customer-360.md)
+[Compose an email from the ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/open-email-customer-360.md)
 

@@ -2,7 +2,7 @@
 title: Activate the Field Service Contractor for mobile feature in the Now Mobile Agent application
 description: Activate the Field Service Contractor for mobile plugin \(com.snc.fsm\_ext\_mobile\) to manage work order tasks assigned to the contractor company. This plugin activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-fs-contractor-portal-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-fs-contractor-portal-mobile.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

@@ -2,7 +2,7 @@
 title: Training Insights
 description: Impact Training Insights provide a comprehensive view of organizational learning activities, with real-time data available whenever and wherever it's needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/training-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/training-insights.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ The Impact Learning Dashboard demonstrates the usage and consumption of resource
 -   Customer self-service model for the consumption of learning credits
 -   Better understand your entitlements charted in Impact
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
 

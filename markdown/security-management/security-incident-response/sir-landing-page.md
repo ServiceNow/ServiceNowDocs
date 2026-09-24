@@ -2,7 +2,7 @@
 title: Security Incident Response
 description: The ServiceNow Security Incident Response application tracks the progress of security incidents from discovery and initial analysis, through containment, eradication, and recovery, and into the final post incident review, knowledge base article creation, and closure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sir-landing-page.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -22,27 +22,27 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_cmj_pv1_abc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the features of Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/what-is-sir.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the features of Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/what-is-sir.md)
 
 </td><td>
 
-[Set up and Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and set up your Security Incident Response application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-sir.md)
+[Set up and Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and set up your Security Incident Response application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-sir.md)
 
 </td><td>
 
-[Administer\[Omitted image "bus-optimize-manage.svg"\] Alt text:Manage and customize your security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ConfigureSIM.md)
+[Administer\[Omitted image "bus-optimize-manage.svg"\] Alt text:Manage and customize your security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/t_ConfigureSIM.md)
 
 </td></tr><tr><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend Security Incident Response by integrating it with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir_integrations.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend Security Incident Response by integrating it with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir_integrations.md)
 
 </td><td>
 
-[Use the Security Incident Response Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn how to use the Security Incident Response and IT Remediation Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-workspace-landing-page.md)
+[Use the Security Incident Response Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn how to use the Security Incident Response and IT Remediation Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-workspace-landing-page.md)
 
 </td><td>
 
-[Analytics and Reporting\[Omitted image "bus-infographic.svg"\] Alt text:Monitor remediation progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-content-pack.md)
+[Analytics and Reporting\[Omitted image "bus-infographic.svg"\] Alt text:Monitor remediation progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/security-incident-content-pack.md)
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td><td>
 
-[\`\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_SecIncRespOrchestration.md)
+[\`\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/c_SecIncRespOrchestration.md)
 
 </td><td>
 

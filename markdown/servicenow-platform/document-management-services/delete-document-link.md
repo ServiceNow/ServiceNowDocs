@@ -2,7 +2,7 @@
 title: Delete a document link
 description: Delete a shared link to remove existing user access to the document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/delete-document-link.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/delete-document-link.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -33,7 +33,7 @@ Role required: owner or writer
 5.  In the dialog box, select **Delete** to confirm.
 
 
-**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
+**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
 **Related topics**  
 

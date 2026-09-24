@@ -2,7 +2,7 @@
 title: The User record
 description: Learn about user records and their use within the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/user.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -32,7 +32,7 @@ User records are associated with records on several other tables to control perm
 
 -   **Roles**
 
-    Roles control access to features and capabilities in applications and modules. For more information on roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
+    Roles control access to features and capabilities in applications and modules. For more information on roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/ua-creating-roles.md).
 
     **Note:**
 
@@ -40,11 +40,11 @@ User records are associated with records on several other tables to control perm
 
 -   **Groups**
 
-    A group is a set of users who share a common purpose. Users assigned to groups are automatically assigned to all roles associated with that group. For more details, see [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-groups.md) and [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
+    A group is a set of users who share a common purpose. Users assigned to groups are automatically assigned to all roles associated with that group. For more details, see [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/ua-creating-groups.md) and [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/ua-creating-roles.md).
 
 -   **Delegates**
 
-    In addition to role and group assignments, users can be assigned as delegates, giving them permission to act with the same permissions as a delegator user. See [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md) for more information on delegation.
+    In addition to role and group assignments, users can be assigned as delegates, giving them permission to act with the same permissions as a delegator user. See [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/c_DelegateRoles.md) for more information on delegation.
 
 -   **Skills**
 
@@ -52,7 +52,7 @@ User records are associated with records on several other tables to control perm
 
 -   **Subscriptions**
 
-    Administrators use subscriptions to control which users have access to purchased subscriptions on their instances. Details on subscription management can be found at [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md).
+    Administrators use subscriptions to control which users have access to purchased subscriptions on their instances. Details on subscription management can be found at [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/subscription-management-landing-page-v2.md).
 
 -   **User preferences**
 
@@ -63,7 +63,7 @@ User records are associated with records on several other tables to control perm
 
 You can set your preferred date and time formatting through the User record. If you don't specify a preference in these fields, the system applies default formatting.
 
-The Date format field appears in the User record by default and can be modified without specific permissions. However, the Time format field must be added to the User record by revealing additional form fields. For instructions on showing or hiding form fields, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md). If you can't modify form fields, contact your organization's user administrator to update your time format preferences.
+The Date format field appears in the User record by default and can be modified without specific permissions. However, the Time format field must be added to the User record by revealing additional form fields. For instructions on showing or hiding form fields, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md). If you can't modify form fields, contact your organization's user administrator to update your time format preferences.
 
 The Date and time format field in **User Menu** &gt; **Preferences** &gt; **Language &amp; Region** extends the options you select in the Date format and Time format fields of your User record. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md). Time zone settings automatically sync between the User record and your preferences.
 

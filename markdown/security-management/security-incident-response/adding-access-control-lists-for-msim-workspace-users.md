@@ -2,7 +2,7 @@
 title: Step 5. Add Access Control Lists \(ACLs\) for Major Security Incident Management workspace users
 description: Add Access Control Lists \(ACLs\) for Major Security Incident Management workspace users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/adding-access-control-lists-for-msim-workspace-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/adding-access-control-lists-for-msim-workspace-users.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -57,5 +57,5 @@ Major Security Incident Management persona contains sn\_msi.linkedsivi\_read rol
 6.  Verify that the roles are added successfully to the **Contains Roles** related list section.
 
 
-**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-case-for-a-security-case.md)
+**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/use-case-for-a-security-case.md)
 

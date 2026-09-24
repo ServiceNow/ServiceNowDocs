@@ -2,7 +2,7 @@
 title: Server category
 description: Perform server-side operations. For example, query and update a record, impersonate a user, or run a server-side script. Create a user with specified roles and groups for the test. The user record gets rolled back after the test completes.Impersonate the specified user for the test.Searches for a catalog item or record producer in the specified catalog and category. You can perform this step both in Platform and Service Portal.Query the database to verify that a record exists matching the conditions set in this step.Inserts a record into a table with the field values you specify.Changes field values on a record on the server.Deletes a specified record in a table.Validates that a record meets the specified conditions on the server side.Executes a script on the server.Get the item and requester from an existing request item, add the item to a new cart for that user, and place an order.Logs a message and stores it as a step result.Add one or more mandatory attachments to the specified record. Use Upload Attachments to select from the attachments the test step adds to the record.Submits the cart and generates a request. You can perform this step both in the ServiceNow AI Platform and Service Portal.Provides an example of scripts for a custom step configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-server-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/test-steps-server-category.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -132,7 +132,7 @@ Impersonate the specified user for the test.
 -   Do not impersonate a user with the test author role. Doing so can lead to conflicts that interfere with executing the test.
 -   Tests which involve impersonated users which no longer exist fail.
 
-    **Tip:** It is recommended to create a new user to avoid data dependencies. See [Create a User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-server-category.md), for more information.
+    **Tip:** It is recommended to create a new user to avoid data dependencies. See [Create a User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/test-steps-server-category.md), for more information.
 
 -   Do not rely on user IDs being consistent across different instances. The system dynamically assigns users IDs, so the ID for a particular user often differs from one instance to the next.
 -   When exporting and importing automated tests, keep in mind that update sets do not update the user field.
@@ -649,7 +649,7 @@ Field values
 Fields for which you want to set values and the values you want to set for those fields.**Note:** Use the condition builder to set the field value. The condition builder displays an appropriate control for the field data type. For example, a reference field displays a **Lookup record** control.
 
 </td></tr></tbody>
-</table>**Note:** Record Update step succeeds even if a field on the record is blocked by ACL. Use the [Record Validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-server-category.md) step after Record Update to check whether a particular field was modified, or use the [Form steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-form-category.md) to evaluate ACL conditions for individual fields on a record.
+</table>**Note:** Record Update step succeeds even if a field on the record is blocked by ACL. Use the [Record Validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/test-steps-server-category.md) step after Record Update to check whether a particular field was modified, or use the [Form steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/test-steps-form-category.md) to evaluate ACL conditions for individual fields on a record.
 
 ## Record Delete
 
@@ -1020,7 +1020,7 @@ The javascript for the server to execute. Supports the Jasmine testing framework
     assertEqual(testAssertion); // throws Error, logs message to test step output
     ```
 
--   See [Step Execution Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-config-script.md) for Run Server Side script example.
+-   See [Step Execution Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-config-script.md) for Run Server Side script example.
 
 ## Replay Request Item
 
@@ -1107,7 +1107,7 @@ The request item to be replayed.
 **Related topics**  
 
 
-[Automated Test Framework use case: test a Service Catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-serv-cat-use.md)
+[Automated Test Framework use case: test a Service Catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-serv-cat-use.md)
 
 ## Log
 
@@ -1185,7 +1185,7 @@ Log
 
 </td><td id="atf-log">
 
-The message to be logged. To include the value of an output variable from a previous step, click the input value icon \(\[Omitted image "rem-value-icon.png"\] Alt text: Input value icon\) and follow the procedure to [Pass values from one automated test step to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-retrieve-value.md).
+The message to be logged. To include the value of an output variable from a previous step, click the input value icon \(\[Omitted image "rem-value-icon.png"\] Alt text: Input value icon\) and follow the procedure to [Pass values from one automated test step to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-retrieve-value.md).
 
 </td></tr></tbody>
 </table>## Add Attachments to Existing Record
@@ -1397,7 +1397,7 @@ Special instructions for the request.
 
 Provides an example of scripts for a custom step configuration.
 
-This example checks if the user name provided starts with the letter A. This step is useful primarily to users with the \[atf\_test\_admin\] role. Users with the \[atf\_test\_admin\] role can view the example scripts by opening the record for this step in [Step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/step-configurations-module.md).
+This example checks if the user name provided starts with the letter A. This step is useful primarily to users with the \[atf\_test\_admin\] role. Users with the \[atf\_test\_admin\] role can view the example scripts by opening the record for this step in [Step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/step-configurations-module.md).
 
 <table id="table_dd3_bp2_kfb"><thead><tr><th>
 
@@ -1469,7 +1469,7 @@ User
 
 </td><td id="atf-custom-script-user">
 
-The user whose name the system checks to see if it starts with the letter **A**. To include the value of an output variable from a previous step, click the input value icon \(\[Omitted image "rem-value-icon.png"\] Alt text: Input value icon\) and follow the procedure to [Pass values from one automated test step to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-retrieve-value.md).
+The user whose name the system checks to see if it starts with the letter **A**. To include the value of an output variable from a previous step, click the input value icon \(\[Omitted image "rem-value-icon.png"\] Alt text: Input value icon\) and follow the procedure to [Pass values from one automated test step to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-retrieve-value.md).
 
 </td></tr></tbody>
 </table>|Field|Description|
@@ -1479,9 +1479,9 @@ The user whose name the system checks to see if it starts with the letter **A**.
 **Related topics**  
 
 
-[Create custom step configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-custom-step.md)
+[Create custom step configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-create-custom-step.md)
 
-[Step execution scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-config-script.md)
+[Step execution scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-config-script.md)
 
-[Step description generation script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-config-desc-script.md)
+[Step description generation script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-config-desc-script.md)
 

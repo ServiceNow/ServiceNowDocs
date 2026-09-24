@@ -2,7 +2,7 @@
 title: Troubleshooting LDAP integration via MID Server
 description: You may encounter issues in the following areas while integrating LDAP via MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_TroubleshootLDAPIntegViaMIDSvr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ldap-integration/c\_TroubleshootLDAPIntegViaMIDSvr.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

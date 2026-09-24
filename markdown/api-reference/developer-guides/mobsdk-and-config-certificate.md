@@ -2,7 +2,7 @@
 title: Configure certificate and create an OAuth Entity
 description: You must configure your ServiceNow instance to accept and exchange a JSON Web Token \(JWT\) for an OAuth access token. To enable this functionality you must install a certificate that matches the JWT provider’s private key on the ServiceNow instance that you will use as the JWT Token consumer and create an OAuth Entity on that instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-config-certificate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-and-config-certificate.html
 release: australia
 product: Developer Guides
 classification: developer-guides

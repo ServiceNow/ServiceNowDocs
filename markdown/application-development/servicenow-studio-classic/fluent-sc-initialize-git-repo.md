@@ -2,7 +2,7 @@
 title: Initialize a Git repository
 description: Initialize a local Git repository for an application in ServiceNow Studio and push it to a remote Git repository to manage an application in source control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/fluent-sc-initialize-git-repo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/fluent-sc-initialize-git-repo.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -19,15 +19,15 @@ Initialize a local Git repository for an application in ServiceNow Studio and pu
 
 ## Before you begin
 
--   Create or convert an application with ServiceNow Studio. For more information, see [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md) or [Convert an application to Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/convert-app-to-fluent.md).
+-   Create or convert an application with ServiceNow Studio. For more information, see [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md) or [Convert an application to Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/convert-app-to-fluent.md).
 -   Create a dedicated Git repository for the application from your Git provider.
--   Set your basic or OAuth 2.0 credentials for ServiceNow Studio to connect to your Git repository. For more information, see [Connect to a Git provider using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-basic-auth.md) and [Connect to a Git provider using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-oauth-2-0.md).
+-   Set your basic or OAuth 2.0 credentials for ServiceNow Studio to connect to your Git repository. For more information, see [Connect to a Git provider using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-basic-auth.md) and [Connect to a Git provider using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-oauth-2-0.md).
 
 Role required: admin
 
 ## About this task
 
-An application on an instance can be connected to only one repository at a time. To clone an application that exists in a remote Git repository, see [Clone a Git repository from ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-clone-git-repository.md).
+An application on an instance can be connected to only one repository at a time. To clone an application that exists in a remote Git repository, see [Clone a Git repository from ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-clone-git-repository.md).
 
 ## Procedure
 
@@ -66,7 +66,7 @@ If your Git credentials aren't configured or are inactive, the application isn't
 
 ## What to do next
 
-Check out or create branches in the repository and push changes to the remote repository. For more information, see [Using Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-using-fluent-source-control.md).
+Check out or create branches in the repository and push changes to the remote repository. For more information, see [Using Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-using-fluent-source-control.md).
 
-**Parent Topic:**[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)
+**Parent Topic:**[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)
 

@@ -2,7 +2,7 @@
 title: Tracking the location details for a service organization
 description: By tracking and capturing the location details for a service organization, you can provide Field Service Management, Walk-up Experience, and appointment booking capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-location-details-for-so.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/track-location-details-for-so.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Create a business organization, Configure Service Model Foundation,
 
 By tracking and capturing the location details for a service organization, you can provide Field Service Management, Walk-up Experience, and appointment booking capabilities.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Overview of service organization
 

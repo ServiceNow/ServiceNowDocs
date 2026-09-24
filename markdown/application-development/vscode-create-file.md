@@ -2,7 +2,7 @@
 title: Create a file in VS Code
 description: Use the ServiceNow extension to create a new file for your application with your project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vscode-create-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vscode-create-file.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Use the ServiceNow extension to create a new file for your application with your
 
 ## Before you begin
 
-[Import an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-import-application.md) in your VS Code project to create a file within your project.
+[Import an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vscode-import-application.md) in your VS Code project to create a file within your project.
 
 Role required: none.
 
@@ -38,8 +38,8 @@ Role required: none.
 
 5.  Enter a name for the file in the Create New File dialog box.
 
-    The extension creates a file in your application on your local file system. The new file is added to your instance when you [synchronize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/synchronize-files.md) your workspace.
+    The extension creates a file in your application on your local file system. The new file is added to your instance when you [synchronize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/synchronize-files.md) your workspace.
 
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vs-code.md)
 

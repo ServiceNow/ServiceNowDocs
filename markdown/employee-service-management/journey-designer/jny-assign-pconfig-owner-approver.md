@@ -2,7 +2,7 @@
 title: Assign owners and approvers to a journey configuration
 description: In Journey designer, administrators assign the initial owners and approvers to a plan configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-assign-pconfig-owner-approver.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-assign-pconfig-owner-approver.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -55,5 +55,5 @@ Co-owners have the same capabilities as owners.
 10. Select **Submit**.
 
 
-**Parent Topic:**[Setup the Journey designer plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
+**Parent Topic:**[Setup the Journey designer plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
 

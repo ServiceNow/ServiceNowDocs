@@ -2,7 +2,7 @@
 title: Migrate budget of active projects to Next Experience
 description: Migrate the project budget to Next Experience to manage the financials using Project Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/fin-migrate-budget-project-ppm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/fin-migrate-budget-project-ppm.html
 release: australia
 product: Project Management
 classification: project-management
@@ -66,7 +66,7 @@ Description
 2.  Filter the Name field to locate the **Migrate budget for active demands and projects** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
@@ -75,7 +75,7 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 </table>    **Note:** After migration, you won't be able to view the budget on Classic UI. You're encouraged to manage budget using the Financials in Next Experience.
 
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -124,5 +124,5 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Migrate financial baselines of projects to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/migrate-fin-baselines-projects.md)
+[Migrate financial baselines of projects to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/migrate-fin-baselines-projects.md)
 

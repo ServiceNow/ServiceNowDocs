@@ -2,7 +2,7 @@
 title: Attach files to a legal matter artifact
 description: Upload supporting documentation, such as documents, email copies, images, or any other files into the artifact while you are working on a legal matter or matter task. You can also use these artifacts as a reference material to solve similar requests in future.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/add-files-to-artifact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/add-files-to-artifact.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d731609e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d731613e105">
 
 Option
 
-</th><th align="left" id="d731609e108">
+</th><th align="left" id="d731613e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d731609e114">
+</th></tr></thead><tbody><tr><td id="d731613e114">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d731609e143">
+</td></tr><tr><td id="d731613e143">
 
 **As a collaborator**
 
@@ -67,15 +67,15 @@ The state of the legal matter updates to Work in Progress.
 
 5.  Add or remove documents from the legal matter.
 
-<table id="choicetable_vhd_kg2_f5b"><thead><tr><th align="left" id="d731609e182">
+<table id="choicetable_vhd_kg2_f5b"><thead><tr><th align="left" id="d731613e182">
 
 Option
 
-</th><th align="left" id="d731609e185">
+</th><th align="left" id="d731613e185">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d731609e191">
+</th></tr></thead><tbody><tr><td id="d731613e191">
 
 **Using the attachment icon**
 
@@ -94,7 +94,7 @@ The attachment icon \[Omitted image "add-attachment-icon.png"\] Alt text: Attach
     -   To download an attached document, select the actions icon, select **Download**.
 
 
-</td></tr><tr><td id="d731609e271">
+</td></tr><tr><td id="d731613e271">
 
 **Using the Documents tab**
 
@@ -113,9 +113,9 @@ In the **Documents** tab, a link to the document is listed in the **External URL
 
     1.  In the **Documents** tab, select a document from the list that you want to delete.
     2.  Select **Delete**.
-Access to these documents to various users is controlled in multiple ways. For more information on managing document access, see [Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/document-access-legal-matter.md).
+Access to these documents to various users is controlled in multiple ways. For more information on managing document access, see [Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/document-access-legal-matter.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create an artifact for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md)
+**Parent Topic:**[Create an artifact for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md)
 

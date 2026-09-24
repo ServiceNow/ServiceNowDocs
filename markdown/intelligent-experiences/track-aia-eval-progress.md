@@ -2,7 +2,7 @@
 title: Track and monitor agentic evaluation progress
 description: Monitor the status of an active evaluation run to catch errors early and confirm when results are ready to review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/track-aia-eval-progress.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/track-aia-eval-progress.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -17,7 +17,7 @@ Monitor the status of an active evaluation run to catch errors early and confirm
 
 ## Before you begin
 
-You must have an active evaluation run to monitor. For information about creating evaluation runs, see [Execute an agentic evaluation run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md).
+You must have an active evaluation run to monitor. For information about creating evaluation runs, see [Execute an agentic evaluation run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/execute-aia-eval.md).
 
 Role required: admin
 
@@ -81,5 +81,5 @@ You can monitor the evaluation progress and take action when required. When the 
 
 ## What to do next
 
-After the evaluation completes, review the results to identify areas for improvement in your agentic AI configuration. For information about analyzing evaluation results, see [Review the results of an agentic evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-aia-eval-outputs.md).
+After the evaluation completes, review the results to identify areas for improvement in your agentic AI configuration. For information about analyzing evaluation results, see [Review the results of an agentic evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-aia-eval-outputs.md).
 

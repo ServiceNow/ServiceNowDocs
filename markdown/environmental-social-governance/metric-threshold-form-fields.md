@@ -2,10 +2,10 @@
 title: Metric Threshold form fields
 description: Describes the fields in the Metric Threshold form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/metric-threshold-form-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/metric-threshold-form-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -39,7 +39,7 @@ Threshold type
 Type of threshold. The available options are:-   Static: A fixed value used as a limit for tracking a metric.
 -   Dynamic: Percentage-based thresholds where variance is calculated based on previous period data
 
-For more information, see [Thresholds for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/thresholds-for-metrics.md)
+For more information, see [Thresholds for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/thresholds-for-metrics.md)
 
 </td></tr><tr><td>
 
@@ -47,7 +47,7 @@ Color
 
 </td><td>
 
-Color that represents this  threshold level. The available color list  can be customized, and each threshold level must have a unique color. For information on how to customize colors, see [Customize threshold colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/customize-threshold-colors.md).
+Color that represents this  threshold level. The available color list  can be customized, and each threshold level must have a unique color. For information on how to customize colors, see [Customize threshold colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/customize-threshold-colors.md).
 
 </td></tr><tr><td>
 
@@ -98,5 +98,5 @@ Actions
 Actions to execute when the threshold condition is satisfied. By default, Send email is available. Additional actions can be created using decision tables.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[GRC: Metrics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/grc-metrics-reference.md)
+</table>**Parent Topic:**[GRC: Metrics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/grc-metrics-reference.md)
 

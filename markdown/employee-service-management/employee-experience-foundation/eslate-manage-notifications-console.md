@@ -2,7 +2,7 @@
 title: Configure email notifications from the admin console
 description: Review, activate, update, and configure email notifications for Employee Slate from the admin console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-manage-notifications-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-manage-notifications-console.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

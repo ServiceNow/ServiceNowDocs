@@ -2,7 +2,7 @@
 title: Analytics Hub list of indicators
 description: The Analytics Hub provides a list of indicators, their scores, and a customizable selection of other analytics. Click the name of an indicator to see more details about that indicator. The Analytics Hub replaces scorecards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_UseIndicatorOverview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/c\_UseIndicatorOverview.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

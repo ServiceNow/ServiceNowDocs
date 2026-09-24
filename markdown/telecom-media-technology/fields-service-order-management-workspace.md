@@ -2,7 +2,7 @@
 title: Service Order Management workspace fields
 description: The Service Order Management workspace form enables you to select service orders for review and modification.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 28, 2025.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/fields-service-order-management-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/fields-service-order-management-workspace.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Open Tasks
 </td><td>
 
 Number of open service order tasks that require review and action.1.  Select this tile to see the Open Tasks list.
-2.  Select the open order task you want to review. To learn more, see [Review and update the service order fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-service-order-tasks.md).
+2.  Select the open order task you want to review. To learn more, see [Review and update the service order fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-service-order-tasks.md).
 
 </td></tr><tr><td>
 
@@ -47,7 +47,7 @@ Unassigned Tasks
 </td><td>
 
 Number of unassigned service order tasks that require assignment and action. 1.  Select this tile to see the Unassigned Tasks list.
-2.  Select the unassigned order task that you want to review. To learn more, see [Review and update the service order fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/service-order-mgt-service-order-tasks.md).
+2.  Select the unassigned order task that you want to review. To learn more, see [Review and update the service order fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/service-order-mgt-service-order-tasks.md).
 
 </td></tr><tr><td>
 

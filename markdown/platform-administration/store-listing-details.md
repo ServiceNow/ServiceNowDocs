@@ -2,7 +2,7 @@
 title: ServiceNow Store application listing details
 description: The listing details page for a ServiceNow Store application shows information about the app and its features, as well as technical information about the versions available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/store-listing-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/store-listing-details.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ There are a number of possible procurement options and additional statuses that 
 
 Procurement options might be updated or replaced with status messages depending on what actions you take. For example, once you request a trial, the button with that option is replaced with a status message letting you know the trial has been requested. After the trial has been approved, the message is replaced with an option to start the 30-day trial.
 
-Application status messages in the ServiceNow Store are based on the procurement status of an application. After an application is fully procured, a message that it's available for installation is displayed. Installation can be managed through the Application Manager. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md).
+Application status messages in the ServiceNow Store are based on the procurement status of an application. After an application is fully procured, a message that it's available for installation is displayed. Installation can be managed through the Application Manager. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/application-manager.md).
 
 ## App details
 
@@ -51,7 +51,7 @@ The app details section includes the following information:
 
 -   **Ratings and reviews**
 
-    A summary of ratings on a five-star scale, where five stars is the best, and a list of user reviews. For more information about leaving reviews, see [Reviewing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/reviewing-apps.md).
+    A summary of ratings on a five-star scale, where five stars is the best, and a list of user reviews. For more information about leaving reviews, see [Reviewing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/reviewing-apps.md).
 
 -   **Links and documents**
 
@@ -80,7 +80,7 @@ The version details section includes the following information:
 
 -   **Dependencies**
 
-    Lists of application dependencies and plugin dependencies that are required for the application to function correctly. For more information about dependencies, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/versions-dependencies.md).
+    Lists of application dependencies and plugin dependencies that are required for the application to function correctly. For more information about dependencies, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/versions-dependencies.md).
 
 -   **Release notes**
 

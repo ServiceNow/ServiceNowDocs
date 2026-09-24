@@ -2,7 +2,7 @@
 title: Guidelines for using source control
 description: Source control \(Git\) combined with the Application Repository is the preferred deployment method for custom scoped applications. Using System Update Sets is also an approved deployment mechanism for application development.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/best-practices-use-source-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/best-practices-use-source-control.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -91,5 +91,5 @@ The following table shows the scenario and recommended deployment approach:
 |Citizen developer app from App Engine Studio|Use App Engine Management Center Pipelines and Deployments with a guided approval workflow.|
 |Multi-team release coordination:|Use ReleaseOps with release trains and playbook validation.|
 
-**Parent Topic:**[Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-started-deployment.md)
+**Parent Topic:**[Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/get-started-deployment.md)
 

@@ -2,7 +2,7 @@
 title: Elements of Operational Sustainability Management \(formerly ESG Management\)
 description: Before you start your sustainability initiatives, familiarize yourself with the key elements such as material topics, metrics, and disclosures that make up the Operational Sustainability Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/components-of-esg-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/components-of-esg-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ The key components of the operational sustainability program are as follows:
 
 ## Material topics
 
-Material topics are topics that represent an organization's most significant impacts on the economy, environment, and people. Companies identify these material topics by performing materiality assessments. These topics reflect the organization’s most significant impacts on the society, environment, and people, including impacts on human rights. Some examples of material topics are E-waste management, giving and volunteering, and so on. To learn about the states of the material topic, refer to [Material topic workflow and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/material-topic-workflow-and-states.md).
+Material topics are topics that represent an organization's most significant impacts on the economy, environment, and people. Companies identify these material topics by performing materiality assessments. These topics reflect the organization’s most significant impacts on the society, environment, and people, including impacts on human rights. Some examples of material topics are E-waste management, giving and volunteering, and so on. To learn about the states of the material topic, refer to [Material topic workflow and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/material-topic-workflow-and-states.md).
 
 ## Goals
 
@@ -40,7 +40,7 @@ If you integrate Operational Sustainability Management with other products, you 
 -   If you integrate with Project Portfolio Management, you can add programs and projects to capture the work being done to meet your goal.
 -   If you integrate with Integrated Risk Management, you can add risks, risk statements, policies, control objectives, and issues to your goals and build a governance framework.
 
-For more information on integrations, see [Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg.md).
+For more information on integrations, see [Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg.md).
 
 ## Targets
 
@@ -56,5 +56,5 @@ An emission activity refers to any activity that is associated with the release 
 
 The release of GHG into the atmosphere depends mainly on the activity and the product that emits the gases. To estimate GHG emissions per unit of available activity, you must use a factor called an emission factor. An emission factor is a coefficient which allows to convert activity data into GHG emissions. It is the average emission rate of a given source, relative to units of an activity or processes. As an ESG program manager, you must set up your library of emission activities and factors.
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-new-explore.md)
 

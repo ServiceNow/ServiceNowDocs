@@ -2,7 +2,7 @@
 title: Notice of death workflow
 description: Learn how agents, using the Notice of death workflow, manage a deceased client's financial accounts. The workflow applies to Client Lifecycle service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/fso-death-notice-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-customer-lifecycle-operations/fso-death-notice-workflow.html
 release: australia
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations

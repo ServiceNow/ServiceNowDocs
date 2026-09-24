@@ -2,7 +2,7 @@
 title: Source-to-Pay integration framework
 description: As part of the Source-to-Pay \(S2P\) integration framework, customers can install an optional third-party ERP integration application that enables primary data, fixed assets, purchase order, receipt, invoice, and tax integration capabilities between S2P and the third-party ERP application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-framework.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -27,11 +27,11 @@ Primary data entities include:
 -   Material mapping
 -   Unit of measure
 
-While the third-party application is the system of record for primary data, S2P is the system of record for purchase orders and receipts. Invoices are either created manually in S2P or through an external supplier portal \(for example, Ariba\). For tax calculation and integration, see [Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculations.md).
+While the third-party application is the system of record for primary data, S2P is the system of record for purchase orders and receipts. Invoices are either created manually in S2P or through an external supplier portal \(for example, Ariba\). For tax calculation and integration, see [Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculations.md).
 
 The integration between S2P and the third-party application requires settings on both sides so that these applications function properly together.
 
--   [Integration settings on Source-to-Pay side](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/integration-settings-psm-side.md)
+-   [Integration settings on Source-to-Pay side](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/integration-settings-psm-side.md)
 -   Integration setting on the third-party side.
 
 ## Applications required for third-party integration

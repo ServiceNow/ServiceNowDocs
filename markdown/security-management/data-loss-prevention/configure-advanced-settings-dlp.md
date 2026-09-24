@@ -2,7 +2,7 @@
 title: Configure advanced settings
 description: Configure the advanced settings to customize the incident display and behavior. For example, enable displaying the sensitive data on an incident and its clone, or specifying fields on the incident to identify the end users. In addition, activate and customize the evidence files preview properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-advanced-settings-dlp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/configure-advanced-settings-dlp.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -227,7 +227,7 @@ Option to select how long, in minutes, the system keeps your evidence files befo
 3.  Select **Save**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

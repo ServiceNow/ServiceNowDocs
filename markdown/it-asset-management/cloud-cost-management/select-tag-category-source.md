@@ -2,7 +2,7 @@
 title: Select a tag category source
 description: Select a tag category source to control how the Cloud Cost Management application maps cloud resource tags to business entities for cost attribution and reporting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/select-tag-category-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/select-tag-category-source.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -77,12 +77,12 @@ Uses ServiceNow-managed dimension tags for cost attribution. You must verify tha
     The Cloud Cost Management application saves the tag category source and triggers a billing data repopulation. All billing data is reprocessed to reflect the updated taxonomy.
 
 
-**Parent Topic:**[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
+**Parent Topic:**[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 
 **Related topics**  
 
 
-[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
+[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/tags-overview.md)
 
-[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
+[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 

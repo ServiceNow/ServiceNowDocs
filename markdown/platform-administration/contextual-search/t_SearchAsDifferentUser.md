@@ -2,7 +2,7 @@
 title: Enable viewing of search results for the current and another selected user
 description: Enable the search as functionality when you want the ability to view search results common to the current user and another user that you specify.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/t\_SearchAsDifferentUser.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/contextual-search/t\_SearchAsDifferentUser.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -90,5 +90,5 @@ A condition script, enabling administrators to implement more powerful condition
 
 The **My Results** tab displays search results for the currently logged-in user. The **&lt;user-name&gt; Results** tab displays search results for the user referenced in the **Search as field**.
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/working-with-contextual-search.md)
 

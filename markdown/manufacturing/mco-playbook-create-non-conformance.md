@@ -2,7 +2,7 @@
 title: Create a product non-conformance case using playbook
 description: Create a non-conformance case for the products that have issue using the playbook experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-playbook-create-non-conformance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-playbook-create-non-conformance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -260,7 +260,7 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
         1.  On the **Product Details** form, fill in the fields.
 
-            For a description of the field values, see [Product details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-non-conformance-case-form.md).
+            For a description of the field values, see [Product details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-product-non-conformance-case-form.md).
 
         2.  Select **Assign to me,** to assign the case to self.
         3.  Select **Save &amp; continue**.
@@ -286,11 +286,11 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
     4.  Select edit to view and edit the correction actions form.
 
-        You can add [Correction actions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-correction-actions-form.md) and [CoPQ expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-copq-expense-line-form.md) details.
+        You can add [Correction actions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-correction-actions-form.md) and [CoPQ expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-copq-expense-line-form.md) details.
 
     5.  Select **Create work order** activity.
 
-        On the work order form, add the [Work order form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/work-order-form.md) details.
+        On the work order form, add the [Work order form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/work-order-form.md) details.
 
     6.  Select **Save**.
 
@@ -319,7 +319,7 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
         3.  Select **Add**.
         4.  Select edit to view and edit the containment actions form.
 
-            You can add [Correction actions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-correction-actions-form.md) details.
+            You can add [Correction actions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-correction-actions-form.md) details.
 
         5.  Select **Save**.
 6.  **Manage outcome**
@@ -340,17 +340,17 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 **Related topics**  
 
 
-[Create a root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-root-cause-analysis-task.md)
+[Create a root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-root-cause-analysis-task.md)
 
-[Create a correction action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-correction-actions.md)
+[Create a correction action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-correction-actions.md)
 
-[Create an impacted asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-impacted-asset.md)
+[Create an impacted asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-impacted-asset.md)
 
-[Create a containment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-containment-actions.md)
+[Create a containment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-containment-actions.md)
 
-[Task SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-task-sla.md)
+[Task SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-task-sla.md)
 
-[Create a parent-child relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-relationships.md)
+[Create a parent-child relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-relationships.md)
 
-[Remediation action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-remediation-action-plans.md)
+[Remediation action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-remediation-action-plans.md)
 

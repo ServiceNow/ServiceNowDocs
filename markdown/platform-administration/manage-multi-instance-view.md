@@ -2,7 +2,7 @@
 title: Manage Multi-Instance View
 description: Manage a consolidated view of clones across all your instances and clone statusFilter and sort the instance list to find specific instances and customize the display format.Manage Instance Clone operations across multiple linked instances.Remove a connected instance from Multi-Instance View
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/manage-multi-instance-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/manage-multi-instance-view.html
 release: australia
 topic_type: task
 last_updated: "2026-04-08"
@@ -16,7 +16,7 @@ Manage a consolidated view of clones across all your instances and clone status
 
 ## Before you begin
 
-Role required: clone\_admin. [Multi-Instance view is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/setup-multi-instance-view.md).
+Role required: clone\_admin. [Multi-Instance view is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/setup-multi-instance-view.md).
 
 ## Procedure
 
@@ -33,7 +33,7 @@ Filter and sort the instance list to find specific instances and customize the d
 
 ### Before you begin
 
-Role required: clone\_admin. [Multi-Instance view is enabled.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/setup-multi-instance-view.md)
+Role required: clone\_admin. [Multi-Instance view is enabled.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/setup-multi-instance-view.md)
 
 ### Procedure
 

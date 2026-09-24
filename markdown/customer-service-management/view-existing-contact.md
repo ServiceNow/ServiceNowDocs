@@ -2,7 +2,7 @@
 title: View Microsoft Outlook customer contact details in your instance
 description: Once you have integrated Customer Service Management \(CSM\) with Microsoft Outlook, you can view customer details in an Outlook add-in panel to make communication easier.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-existing-contact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-existing-contact.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

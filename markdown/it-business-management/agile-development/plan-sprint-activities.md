@@ -2,7 +2,7 @@
 title: Plan your sprint activities in Agile Development 2.0
 description: Streamline your sprint activities such as creating, editing, and completing sprints, or adding stories to sprints, using the Sprint Planning tab of the Agile board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/plan-sprint-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/plan-sprint-activities.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -19,7 +19,7 @@ Streamline your sprint activities such as creating, editing, and completing spri
 ## Before you begin
 
 -   You must be a member of an agile group to access the Sprint Planning tab.
--   You can perform only a set of actions on the Sprint Planning tab based on the role that is assigned to you. For more information, see roles in [Components installed with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/components-installed-with-agile-2.0.md).
+-   You can perform only a set of actions on the Sprint Planning tab based on the role that is assigned to you. For more information, see roles in [Components installed with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/components-installed-with-agile-2.0.md).
 -   Role required: scrum\_admin, scrum\_master, or scrum\_sprint\_planner
 
 ## About this task
@@ -27,7 +27,7 @@ Streamline your sprint activities such as creating, editing, and completing spri
 -   Steps 1 through 3 take you to where you can plan your sprint activities.
 -   Steps 4 through 11 provide various actions that you can perform to plan your sprints. Choose the ones that suit your requirement.
 
-For more information on the Agile board, see [Agile board in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-board.md).
+For more information on the Agile board, see [Agile board in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/agile-board.md).
 
 ## Procedure
 
@@ -47,7 +47,7 @@ For more information on the Agile board, see [Agile board in Agile Development 2
 
     3.  Select **Submit**
 
-    Alternatively, you can also create sprints in bulk for an assignment group and come back to this planning tab to continue planning your sprints. See [Create sprints in bulk in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-agile-development-2-sprint-from-assignment-group.md).
+    Alternatively, you can also create sprints in bulk for an assignment group and come back to this planning tab to continue planning your sprints. See [Create sprints in bulk in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/create-agile-development-2-sprint-from-assignment-group.md).
 
 5.  Edit a sprint.
 
@@ -65,7 +65,7 @@ For more information on the Agile board, see [Agile board in Agile Development 2
 
     2.  On the form, fill in the fields.
 
-        For field information, see [Create a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-a-story.md).
+        For field information, see [Create a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/create-a-story.md).
 
     3.  Select **Submit**.
 
@@ -96,10 +96,10 @@ For more information on the Agile board, see [Agile board in Agile Development 2
     The sprint is marked complete and disappears from the Sprint Planning tab.
 
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/using-agile-development-2-0.md)
 
 **Related topics**  
 
 
-[Agile board in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-board.md)
+[Agile board in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/agile-board.md)
 

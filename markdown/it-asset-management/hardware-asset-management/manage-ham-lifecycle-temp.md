@@ -2,7 +2,7 @@
 title: Manage the lifecycle of hardware models with calculated lifecycle templates
 description: Manage the complete lifecycle of hardware models by creating calculated lifecycle templates and associating these templates with the models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/manage-ham-lifecycle-temp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/manage-ham-lifecycle-temp.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -16,12 +16,12 @@ breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Manageme
 
 Manage the complete lifecycle of hardware models by creating calculated lifecycle templates and associating these templates with the models.
 
--   **[Create Calculated lifecycle templates in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-calc-model-lc-temp-ham.md)**  
+-   **[Create Calculated lifecycle templates in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-calc-model-lc-temp-ham.md)**  
 Create Calculated lifecycle templates to manage the complete lifecycle of hardware models efficiently.
--   **[Associate a hardware model with a Calculated lifecycle template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/associate-hardware-model-cal-temp.md)**  
+-   **[Associate a hardware model with a Calculated lifecycle template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/associate-hardware-model-cal-temp.md)**  
 Associate a hardware model with a Calculated lifecycle template to populate the lifecycle details of the model automatically.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

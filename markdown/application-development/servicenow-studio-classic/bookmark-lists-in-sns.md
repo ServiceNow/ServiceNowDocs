@@ -2,7 +2,7 @@
 title: Bookmark lists in ServiceNow Studio
 description: Bookmark lists in ServiceNow Studio so you can return to them quickly from the Bookmarks tab in the Navigator panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/bookmark-lists-in-sns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/bookmark-lists-in-sns.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic

@@ -2,7 +2,7 @@
 title: Non-interactive sessions
 description: The Non-Interactive Sessions plugin creates a distinction between interactive and non-interactive users.Non-interactive users can only connect to a ServiceNow instance from an API protocol. Use this feature to set up user accounts for web service authentication purposes.Manually switch a non-interactive user to an interactive user.If your instance requires strict security, add the soap role to any user accounts used for web services.You can specify whether non-interactive sessions require authentication from the High Security Settings module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/c\_NonInteractiveSessions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/c\_NonInteractiveSessions.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -40,7 +40,7 @@ Distinguishing between interactive and non-interactive users increases instance 
 -   Changes all existing users to be interactive users \(web\_service\_access\_only=false\).
 -   Updates the User form to display the **Web Service Access Only** \[web\_service\_access\_only\] field by default.
 
-**Parent Topic:**[Monitoring user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/user-admin-tools-landing.md)
+**Parent Topic:**[Monitoring user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/user-admin-tools-landing.md)
 
 ## Create a non-interactive user for web services
 

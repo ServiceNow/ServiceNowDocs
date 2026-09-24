@@ -2,7 +2,7 @@
 title: Push notification system
 description: The push notification system involves several key elements that manage the delivery of push messages and push notification responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_PushMessageArchitecture.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_PushMessageArchitecture.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -56,7 +56,7 @@ https://{instance_name}/api/now/v1/push/{application Name}/action/{action}
 
 The application name is the push application the user is using. The application name must match the application name in the Push Application \[sys\_push\_application\] table. The action is the Sys ID of the action in the Push Notifications Actions \[sys\_push\_notif\_act\_script\] table.
 
-**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md)
+**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_PushNotifications.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP AI semantic field mapping
 description: Semantic field mapping uses AI to rank target fields in the platform data model by how closely their meaning matches a selected source field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-semantic-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-semantic-mapping.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

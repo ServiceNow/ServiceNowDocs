@@ -2,7 +2,7 @@
 title: Format PDF templates for BIAs, BCPs, and Events
 description: Format the PDF templates that are used for generating the PDFs of business impact analyses, business continuity plans, or events. You can format the PDFs according to your organizational requirements and templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.html
 release: australia
 topic_type: task
 last_updated: "2026-08-17"
@@ -24,9 +24,9 @@ The BCM admin role \(sn\_bcm.admin\) inherits Document Templates roles \(sn\_doc
 
 Verify that you have downloaded the PDF of a business impact analysis, business continuity plan, or event according to the steps mentioned in these topics:
 
--   [Generate BIA reports in PDF or Microsoft Word formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-pdf-for-bia.md)
--   [Generate BCP reports in PDF or Microsoft Word format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-pdf-for-bcp.md)
--   [Generate event reports in PDF or Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-pdf-for-events.md)
+-   [Generate BIA reports in PDF or Microsoft Word formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/generate-pdf-for-bia.md)
+-   [Generate BCP reports in PDF or Microsoft Word format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/generate-pdf-for-bcp.md)
+-   [Generate event reports in PDF or Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/generate-pdf-for-events.md)
 
 ## About this task
 

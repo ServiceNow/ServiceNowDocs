@@ -2,7 +2,7 @@
 title: Domain separation levels of support
 description: Choose from three categories for domain separation of an application for your customers' organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-levels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-domain-levels.html
 release: australia
 topic_type: reference
 last_updated: "2025-07-31"
@@ -108,7 +108,7 @@ In some cases, a platform feature or application may support service provider us
  Use case: Before the New York release, Service Catalog had no domain support but the instance owners could configure separate catalogs and items for each tenant in a domain-separated instance by using user criteria. The result was that each tenant could use Service Catalog at a Standard level.
 
 </td></tr></tbody>
-</table>To view all applications listed by their support level see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+</table>To view all applications listed by their support level see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/domain-separated-apps.md).
 
 ## Summary
 
@@ -116,7 +116,7 @@ Domain separation is a framework that you must use to make your applications awa
 
 Consider the domain framework capabilities, your applications' business use cases, what the personas are, and how they use the application before you can use the framework to make your application supportable.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

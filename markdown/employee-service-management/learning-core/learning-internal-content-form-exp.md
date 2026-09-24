@@ -2,7 +2,7 @@
 title: Learning internal content form
 description: Use the Learning internal content form to create internal Learning courses so that employees can learn new content and enhance their skills set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-internal-content-form-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/learning-internal-content-form-exp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -216,9 +216,9 @@ Valid until
 Date until when the internal content is valid.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-experience-reference.md)
+</table>**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-experience-reference.md)
 
-**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core-reference.md)
+**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-core-reference.md)
 
 **Related topics**  
 

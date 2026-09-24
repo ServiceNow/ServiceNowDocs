@@ -2,12 +2,12 @@
 title: Configure metrics evaluated for an AI system
 description: Add or remove metrics for a specific AI system to tailor evaluation coverage without changing your organization's global metric configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-configure-ai-system-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-configure-ai-system-metrics.html
 release: australia
 topic_type: task
 last_updated: "2026-08-14"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -34,15 +34,15 @@ The metrics evaluated for an AI system come from your organization's global metr
     -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
 2.  Configure which metrics to score for this asset.
 
-<table id="choicetable_configure_metrics"><thead><tr><th align="left" id="d308726e160">
+<table id="choicetable_configure_metrics"><thead><tr><th align="left" id="d305590e160">
 
 Scenario
 
-</th><th align="left" id="d308726e163">
+</th><th align="left" id="d305590e163">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d308726e169">
+</th></tr></thead><tbody><tr><td id="d305590e169">
 
 **Configuring for the first time**
 
@@ -53,7 +53,7 @@ Steps
 3.  Select the check box next to each metric that you want to evaluate for this AI system.
 
 
-</td></tr><tr><td id="d308726e205">
+</td></tr><tr><td id="d305590e205">
 
 **Modifying an existing configuration**
 
@@ -72,7 +72,7 @@ Steps
 
 ## What to do next
 
-To change how often a metric is evaluated for this AI system, an AI steward can adjust the sample rate from the evaluation settings. See [Configure global metrics for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-global-metrics-servicenow.md) or [Configure global metrics for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-global-metrics-external.md), depending on the AI system type.
+To change how often a metric is evaluated for this AI system, an AI steward can adjust the sample rate from the evaluation settings. See [Configure global metrics for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-global-metrics-servicenow.md) or [Configure global metrics for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-global-metrics-external.md), depending on the AI system type.
 
-**Parent Topic:**[Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-asset-monitor.md)
+**Parent Topic:**[Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-asset-monitor.md)
 

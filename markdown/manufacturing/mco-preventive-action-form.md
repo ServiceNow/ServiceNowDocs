@@ -2,7 +2,7 @@
 title: Preventive action form
 description: The preventive action form captures the remediation plan, cost, priority, and status details for a quality issue \(QI\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-preventive-action-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-preventive-action-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -144,5 +144,5 @@ Description
 Detailed description of the preventive action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qim-form.md)
 

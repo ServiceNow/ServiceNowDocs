@@ -2,7 +2,7 @@
 title: Create a responsibility definition
 description: A responsibility, or responsibility definition, specifies the role or function a user has within an entity, determining access through relationships. When creating a relationship, users are assigned specific responsibilities that grant access to the entity and its related entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateAResponsibilityDefinition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_CreateAResponsibilityDefinition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,9 +24,9 @@ Role required: One of the following roles:
 
 ## About this task
 
-If you’re using the Service Model Foundation feature, you can also create the responsibility definitions to use in customer and consumer relationships. For more information about configuring Service Model Foundation, see [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md).
+If you’re using the Service Model Foundation feature, you can also create the responsibility definitions to use in customer and consumer relationships. For more information about configuring Service Model Foundation, see [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-industry-data-model.md).
 
-The Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table supports domain separation. For more information on domain separation, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md).
+The Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table supports domain separation. For more information on domain separation, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/domain-separation-customer-service.md).
 
 **Note:** Starting with the Vancouver release, the Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table is reparented to the Application file \[sys\_metadata\] table.
 
@@ -94,10 +94,10 @@ Provides a description of the purpose or function of the responsibility definiti
 
 ## What to do next
 
-[Configure access through the responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/declarative-resposibility-framework.md)
+[Configure access through the responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/declarative-resposibility-framework.md)
 
 **Related topics**  
 
 
-[Service Model Foundation responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-responsibilities.md)
+[Service Model Foundation responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-data-model-responsibilities.md)
 

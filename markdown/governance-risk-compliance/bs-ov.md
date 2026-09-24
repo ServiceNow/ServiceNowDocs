@@ -2,7 +2,7 @@
 title: Business services overview tab
 description: The Business services overview tab in the Operational Resilience Workspace provides a summary of active business services. It highlights red flags, urgent issues, and the status of resilience activities like assessments, scenario analysis, and self-attestations. It also offers suggestions for mitigating top risks or vulnerabilities and strengthening top controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bs-ov.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bs-ov.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

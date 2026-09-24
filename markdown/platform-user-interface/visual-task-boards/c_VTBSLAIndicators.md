@@ -2,7 +2,7 @@
 title: Visual Task Board SLA indicators
 description: SLA \(service-level agreement\) indicators alert board members if any cards on the board have breached SLAs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/c\_VTBSLAIndicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/c\_VTBSLAIndicators.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -24,7 +24,7 @@ When SLA indicators are enabled, a status bar appears on each card that has an a
 
 \[Omitted image "VTBSLAIndicators.png"\] Alt text: Visual Task Board with SLA indicators enabled
 
-**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
+**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Properties of the Zip components
 description: Learn about the properties of the Zip components in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/util-zip-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/util-zip-prop.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ Learn about the properties of the Zip components in RPA Desktop Design Studio.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Zip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zip-utilities.md)
+**Parent Topic:**[Zip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/zip-utilities.md)
 

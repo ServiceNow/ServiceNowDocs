@@ -2,7 +2,7 @@
 title: AI Admin Center \(formerly Now Assist Center\)
 description: Set up, manage, and optimize your AI solutions on the ServiceNow AI Platform from a single workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-landing-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-30"
@@ -19,42 +19,42 @@ Set up, manage, and optimize your AI solutions on the ServiceNow AI Platform fro
 
 <table id="table_sqc_w3w_bhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "icon-aiac-landing-explore-aiac.png"\] Alt text:Learn about AI Admin Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-center.md)
+[Explore\[Omitted image "icon-aiac-landing-explore-aiac.png"\] Alt text:Learn about AI Admin Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-now-assist-center.md)
 
 </td><td>
 
-[Configure\[Omitted image "icon-aiac-landing-configure-aiac.png"\] Alt text:Set up AI Admin Center to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist-center.md)
+[Configure\[Omitted image "icon-aiac-landing-configure-aiac.png"\] Alt text:Set up AI Admin Center to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-now-assist-center.md)
 
 </td><td>
 
-[ServiceNow Otto\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the conversational interface to perform tasks and answer questions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
+[ServiceNow Otto\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the conversational interface to perform tasks and answer questions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
 
 </td></tr><tr><td>
 
-[Increase AI readiness\[Omitted image "icon-aiac-landing-ai-readiness.png"\] Alt text:Find improvable areas in your instance to prepare for AI implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
+[Increase AI readiness\[Omitted image "icon-aiac-landing-ai-readiness.png"\] Alt text:Find improvable areas in your instance to prepare for AI implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
 
 </td><td>
 
-[Set up AI on your instance\[Omitted image "icon-aiac-landing-ai-setup.png"\] Alt text:Set up, manage, and optimize your AI solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-admin-center-setting-up-ai.md)
+[Set up AI on your instance\[Omitted image "icon-aiac-landing-ai-setup.png"\] Alt text:Set up, manage, and optimize your AI solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-setting-up-ai.md)
 
 </td><td>
 
-[AI Agent Advisor\[Omitted image "icon-aiac-landing-ai-agent-advisor.png"\] Alt text:Discover opportunities in your instance to use AI agents to automate work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md)
+[AI Agent Advisor\[Omitted image "icon-aiac-landing-ai-agent-advisor.png"\] Alt text:Discover opportunities in your instance to use AI agents to automate work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-advisor-landing-page.md)
 
 </td></tr><tr><td>
 
-[Monitor\[Omitted image "icon-aiac-landing-monitor-ai.png"\] Alt text: Monitor AI readiness, usage, and performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-monitoring.md)
+[Monitor\[Omitted image "icon-aiac-landing-monitor-ai.png"\] Alt text: Monitor AI readiness, usage, and performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-monitoring.md)
 
 </td><td>
 
-[Reference\[Omitted image "icon-aiac-landing-references.png"\] Alt text:Get details about AI Admin Center properties and components, such as roles and limitations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
+[Reference\[Omitted image "icon-aiac-landing-references.png"\] Alt text:Get details about AI Admin Center properties and components, such as roles and limitations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-reference.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-native-sku-overview.md).
 
 **Important:**
 
@@ -65,7 +65,7 @@ Set up, manage, and optimize your AI solutions on the ServiceNow AI Platform fro
 
 ## Troubleshoot and get help
 
--   [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-additional-resources.md).
+-   [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-additional-resources.md).
 -   [ServiceNow Community on AI and Intelligence](https://www.servicenow.com/community/ai-intelligence/ct-p/ai-intelligence).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Search the [Known Error Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477) for known error articles.
@@ -81,7 +81,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information extracted from documents. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information extracted from documents. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md).
 

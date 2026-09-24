@@ -2,7 +2,7 @@
 title: Performance Analytics Content Pack for Essential SAFe
 description: Improve your SAFe processes and practices using the Platform Analytics Content Pack for Essential SAFe that contains preconfigured dashboards with data visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -18,7 +18,7 @@ Improve your SAFe processes and practices using the Platform Analytics Content P
 
 **Important:**
 
-Starting with the Xanadu release, the plugins Portfolio SAFe, Essential SAFe, Performance Analytics Content Pack for Essential SAFe, Work Progress Status for SAFe, Agile - Scaled Agile Framework - Unified Backlog, and Read only roles for SAFe are being prepared for future deprecation. These plugins will be hidden and can no longer be activated on new instances but will continue to be supported. [Enterprise Agile Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-landing.md) provides the latest experience for this functionality.
+Starting with the Xanadu release, the plugins Portfolio SAFe, Essential SAFe, Performance Analytics Content Pack for Essential SAFe, Work Progress Status for SAFe, Agile - Scaled Agile Framework - Unified Backlog, and Read only roles for SAFe are being prepared for future deprecation. These plugins will be hidden and can no longer be activated on new instances but will continue to be supported. [Enterprise Agile Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/eap-landing.md) provides the latest experience for this functionality.
 
 For more information on the deprecation process and its impact, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -36,32 +36,32 @@ This base system Platform Analytics Solution is available from the ServiceNow St
 
 ## Business stakeholder role support
 
-The business stakeholder role \(sn\_safe\_read\) has read-only access to all Essential SAFe dashboards. For more information, see [Business stakeholder role for Essential SAFe and Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/business-stakeholder-role-for-essential-safe-and-portfolio-safe.md).
+The business stakeholder role \(sn\_safe\_read\) has read-only access to all Essential SAFe dashboards. For more information, see [Business stakeholder role for Essential SAFe and Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/business-stakeholder-role-for-essential-safe-and-portfolio-safe.md).
 
--   **[Enable daily data collection for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/enable-safe-daily-data-collection-job.md)**  
+-   **[Enable daily data collection for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/enable-safe-daily-data-collection-job.md)**  
 Enable scheduled data collection to begin collecting scores on new data automatically for Essential SAFe dashboards. Data collection jobs automatically collect scores for automated indicators and breakdowns.
--   **[Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md)**  
+-   **[Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md)**  
 Upgrade to the latest layout of Essential SAFe dashboards using Solution Library.
--   **[SAFe Feature Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-feature-dashboard.md)**  
+-   **[SAFe Feature Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-feature-dashboard.md)**  
 The SAFe Feature Dashboard provides a visualization of the changes in scope and the progress of the stories in the feature over a given period.
--   **[SAFe Epic Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-epic-dashboard.md)**  
+-   **[SAFe Epic Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-epic-dashboard.md)**  
 The SAFe Epic Dashboard provides a visualization of how the features of an epic are progressing over a given period of time.
--   **[SAFe Sprint Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-sprint-dashboard.md)**  
+-   **[SAFe Sprint Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-sprint-dashboard.md)**  
 Track the progress of your SAFe stories in the current sprint and forecast sprint completion using the SAFe Sprint Dashboard.
--   **[SAFe Prior Sprint Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-prior-sprint-dashboard.md)**  
+-   **[SAFe Prior Sprint Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-prior-sprint-dashboard.md)**  
 The SAFe Prior Sprint Dashboard provides data visualization on scope, actual burnup and burndown, and forecast trends of previous sprints. Analyze the data and plan the work for upcoming sprints.
--   **[SAFe PI Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-pi-dashboard.md)**  
+-   **[SAFe PI Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-pi-dashboard.md)**  
 The SAFe PI Dashboard allows you to track the progress of your features in the current program increment \(PI\).
--   **[SAFe Prior PI Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-prior-pi-dashboard.md)**  
+-   **[SAFe Prior PI Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-prior-pi-dashboard.md)**  
 The SAFe Prior PI Dashboard provides data visualization on scope, actual burndown, and forecast trends of previous program increments \(PI\). Analyze the data and plan the work for upcoming PIs.
--   **[SAFe ART Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-art-dashboard.md)**  
+-   **[SAFe ART Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-art-dashboard.md)**  
 Visualize how the ART members are progressing on features and program increments \(PIs\) over a given period using the SAFe ART dashboard. Gain insight on the overall velocity of the ART members, historical performance of the ART on the PI objectives so that you can plan the work accordingly for the upcoming program increments.
--   **[SAFe Team Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-team-art-dashboard.md)**  
+-   **[SAFe Team Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-team-art-dashboard.md)**  
 Visually analyze how a team is progressing on stories over a given period. Gain insight on the overall velocity of the team and helps you plan the team's capacity for the upcoming sprints and program increments \(PIs\). In addition, this dashboard provides details of all the team members.
--   **[Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md)**  
+-   **[Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md)**  
 Customize the Burnup, Burndown, and Cumulative Flow Diagram reports of your dashboards according to the custom states of your SAFe stories.
 
-**Parent Topic:**[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/SAFeoverview.md)
+**Parent Topic:**[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/SAFeoverview.md)
 
 **Related topics**  
 

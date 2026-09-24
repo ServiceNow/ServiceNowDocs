@@ -2,7 +2,7 @@
 title: Run the scheduled job for content association
 description: Change the scheduled job frequency, as required, to ensure that the notification of new content availability to add to the topic pages is regular and uninterrupted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,7 +25,7 @@ Role required: admin
 **Surface New Unconnected Content of Categories** helps you identify the new unconnected content.
 
 -   Use the scheduled job for manual additions and removals of content.
--   [Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md) for automatic additions and removals of content.
+-   [Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md) for automatic additions and removals of content.
 
 ## Procedure
 
@@ -48,5 +48,5 @@ Role required: admin
 5.  Add or dismiss content, as required, with **Update topic with content** or **Dismiss content** respectively.
 
 
-**Parent Topic:**[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
+**Parent Topic:**[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
 

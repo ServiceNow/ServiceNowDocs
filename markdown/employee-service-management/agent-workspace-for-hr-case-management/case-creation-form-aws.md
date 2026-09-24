@@ -2,7 +2,7 @@
 title: Create a case form
 description: The Create a case form allows you to create a case in Agent Workspace for HR Case Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -30,7 +30,7 @@ COE
 
 </td><td>
 
-Select the **Center of Excellence** associated with the HR case you're creating. Selecting a COE filters the choices for HR service. For more information, see [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).**Note:** You can also select an HR service first and the associated COE automatically populates.
+Select the **Center of Excellence** associated with the HR case you're creating. Selecting a COE filters the choices for HR service. For more information, see [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).**Note:** You can also select an HR service first and the associated COE automatically populates.
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ HR service description
 
 </td><td>
 
-Description of the HR service selected in the **HR Service** field.For more information on configuring the HR service description, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+Description of the HR service selected in the **HR Service** field.For more information on configuring the HR service description, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Work notes
 Information related to the case that can help other HR agents. Work notes aren't visible to the Opened for person.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Workspace for HR Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
+</table>**Parent Topic:**[Agent Workspace for HR Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
 
 **Related topics**  
 

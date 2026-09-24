@@ -2,7 +2,7 @@
 title: Layout visual indicators
 description: The UI displays the following visual indicators when configuring the layout of a custom application's list or form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ConfigureLayoutVisualIndicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_ConfigureLayoutVisualIndicators.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,9 +36,9 @@ Views and sections in another application scope display as read only. Read-only 
 **Related topics**  
 
 
-[Lists and forms in scoped applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_CreatingListsAndFormsScopedApps.md)
+[Lists and forms in scoped applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_CreatingListsAndFormsScopedApps.md)
 
-[Available layout and design actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_AvailableLayoutAndDesignActions.md)
+[Available layout and design actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/r_AvailableLayoutAndDesignActions.md)
 
-[Form design visual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_FormDesignVisualIndicators.md)
+[Form design visual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_FormDesignVisualIndicators.md)
 

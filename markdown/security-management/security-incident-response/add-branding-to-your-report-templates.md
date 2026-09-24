@@ -2,7 +2,7 @@
 title: Add Branding to your Report Templates
 description: Add branding to your reports. You can add header and footer image, header and footer text. You can include this branding information in any of the report template types that you want to create other than the two predefined reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-branding-to-your-report-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/add-branding-to-your-report-templates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -133,5 +133,5 @@ Select a footer text position for the branding template. You can choose **Top le
     A new branding template is created under the Branding Templates page.
 
 
-**Parent Topic:**[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-report-template.md)
+**Parent Topic:**[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-report-template.md)
 

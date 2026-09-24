@@ -2,7 +2,7 @@
 title: Create a price increase adjustment
 description: Create a price increase adjustment such as an renewal uplift. Use the Price Increase Defaulting Matrix to define conditions that control the price increase applied.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-price-increase-adjustment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-price-increase-adjustment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

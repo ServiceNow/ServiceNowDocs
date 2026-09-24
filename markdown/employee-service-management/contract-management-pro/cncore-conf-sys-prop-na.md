@@ -2,7 +2,7 @@
 title: Configure system properties for contract metadata extraction
 description: Configure system properties to specify whether the contract metadata extraction should be automatically initiated or manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-conf-sys-prop-na.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-conf-sys-prop-na.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -52,7 +52,7 @@ The initiation method for metadata extraction is configured.
 -   If set to manual, the **Initiate metadata extraction** button appears in the contract repository record, enabling you to initiate the metadata extraction process from that record.
 -   If set to automatic, the metadata extraction automatically initiates once the contract repository record is created.
 
-**Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
+**Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
 **Related topics**  
 
@@ -67,5 +67,5 @@ The initiation method for metadata extraction is configured.
 
 [Configure an extension point to add contract metadata]()
 
-[Initiate metadata extraction from a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-extract-metadata.md)
+[Initiate metadata extraction from a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-extract-metadata.md)
 

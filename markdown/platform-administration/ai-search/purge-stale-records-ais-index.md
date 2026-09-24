@@ -2,7 +2,7 @@
 title: Purge stale records from the AI Search index
 description: Execute a scheduled job to delete stale records from the AI Search index.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/purge-stale-records-ais-index.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/purge-stale-records-ais-index.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -64,5 +64,5 @@ For more information on running background scripts, see [Scripts - Background mo
 
 The background script executes, deleting stale records from the AI Search index.
 
-**Parent Topic:**[Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md)
+**Parent Topic:**[Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/retention-policies-conditions-ais.md)
 

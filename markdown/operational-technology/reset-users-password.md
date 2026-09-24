@@ -2,7 +2,7 @@
 title: Force a password reset
 description: Force a user to reset their password.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/reset-users-password.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/reset-users-password.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ An administrator can force another user to change their password the next time t
 5.  Select **Change Password**.
 
 
-**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-page.md)
+**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/users-page.md)
 

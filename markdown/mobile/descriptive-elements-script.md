@@ -2,7 +2,7 @@
 title: Configure descriptive elements for input form screens
 description: Add descriptive elements, such as an image, simple text, rich text, or a mobile card, before an input field within an input form screen. This additional on-screen information provides a context to your users, enabling them to better understand what is required as they enter data into an input form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/descriptive-elements-script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/descriptive-elements-script.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Add descriptive elements, such as an image, simple text, rich text, or a mobile 
 
 Role required: admin
 
-**Note:** Image, text, and rich text descriptive elements are configured in the Mobile App Builder, whereas card descriptive elements are configured in the ServiceNow AI Platform. For the configuration of card descriptive elements see, [Configure a card descriptive element for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/descriptive-elements-card.md).
+**Note:** Image, text, and rich text descriptive elements are configured in the Mobile App Builder, whereas card descriptive elements are configured in the ServiceNow AI Platform. For the configuration of card descriptive elements see, [Configure a card descriptive element for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/descriptive-elements-card.md).
 
 ## About this task
 
@@ -26,7 +26,7 @@ You can add descriptive elements to input fields, sections that contain input fi
 
 You must have the following elements configured before you create descriptive elements:
 
--   A data source that contains at least one element identifier. Data sources facilitate the mapping of the descriptive element to the input form screen. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-sources.md).
+-   A data source that contains at least one element identifier. Data sources facilitate the mapping of the descriptive element to the input form screen. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/data-sources.md).
 -   A record section that can either be an input or an input form section:
     -   An input form section is a group of inputs in a defined area of the input form screen, usually with a defined header.
     -   Inputs are individual fields for users to complete within the input form screen. Inputs can be located either within a section or independent of a section.
@@ -93,7 +93,7 @@ Descriptive element types
 
 </td><td>
 
-Three descriptive elements are available with this Mobile App Builder configuration:**Note:** Card descriptive elements are configured in the ServiceNow AI Platform. For the configuration of card descriptive elements see, [Configure a card descriptive element for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/descriptive-elements-card.md).
+Three descriptive elements are available with this Mobile App Builder configuration:**Note:** Card descriptive elements are configured in the ServiceNow AI Platform. For the configuration of card descriptive elements see, [Configure a card descriptive element for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/descriptive-elements-card.md).
 
 -   **Rich text**: Supports HTML tags such as, bold, underline, italic, bullets, numbered lists, and font color.
 -   **Text**: Plain text without any rich text elements.

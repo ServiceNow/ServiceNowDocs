@@ -2,7 +2,7 @@
 title: Set up a bidirectional webhook
 description: Configure a webhook to subscribe to Salesforce events with a ServiceNow callback URL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhook-salesforce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-webhook-salesforce.html
 release: australia
 product: Integration Hub
 classification: integration-hub

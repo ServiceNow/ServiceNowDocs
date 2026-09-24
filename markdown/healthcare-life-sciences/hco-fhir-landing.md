@@ -2,7 +2,7 @@
 title: EMR Provider Directory Sync
 description: The EMR Provider Directory Sync imports HL7 FHIR R4 resources from a FHIR server into the ServiceNow Healthcare Operations data model on a configurable schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-16"
@@ -20,17 +20,17 @@ The integration is one-way \(FHIR server to ServiceNow\), admin-operated, and sc
 
 ## Get started
 
--   [What EMR Provider Directory Sync does](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-overview.md)
--   [How the FHIR sync works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-how-it-works.md)
--   [Prerequisites for the FHIR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-prerequisites.md)
--   [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-activate.md)
--   [Change the sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-configure-schedule.md)
--   [Configure the organization classification decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-configure-decision-table.md)
--   [Run the initial load](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-run-initial-load.md)
--   [Monitor and troubleshoot FHIR sync runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-monitor-sync.md)
--   [Components installed with EMR Provider Directory Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-installed-components.md)
--   [FHIR Sync Log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-sync-log-fields.md)
--   [FHIR-to-HCLS field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-field-mappings.md)
+-   [What EMR Provider Directory Sync does](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-overview.md)
+-   [How the FHIR sync works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-how-it-works.md)
+-   [Prerequisites for the FHIR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-prerequisites.md)
+-   [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-activate.md)
+-   [Change the sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-configure-schedule.md)
+-   [Configure the organization classification decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-configure-decision-table.md)
+-   [Run the initial load](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-run-initial-load.md)
+-   [Monitor and troubleshoot FHIR sync runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-monitor-sync.md)
+-   [Components installed with EMR Provider Directory Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-installed-components.md)
+-   [FHIR Sync Log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-sync-log-fields.md)
+-   [FHIR-to-HCLS field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-field-mappings.md)
 
 ## Helpful resources
 

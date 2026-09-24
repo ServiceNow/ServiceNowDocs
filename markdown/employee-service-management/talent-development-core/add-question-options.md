@@ -2,7 +2,7 @@
 title: Add options to a question
 description: Add options for a question on Career Assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/add-question-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/add-question-options.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -22,9 +22,9 @@ Role required: sn\_exam.catalog\_admin
 
 Users configured as part of the admin list, can contribute user criteria or owner of the associated catalog can add options for questions in an exam.
 
-Create an exam. See, [Create an exam](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/create-exam.md).
+Create an exam. See, [Create an exam](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/create-exam.md).
 
-Create a question. See, [Add questions to an exam](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/add-questions-exam.md).
+Create a question. See, [Add questions to an exam](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/add-questions-exam.md).
 
 ## Procedure
 
@@ -40,10 +40,10 @@ Create a question. See, [Add questions to an exam](https://raw.githubusercontent
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values, see [Question option form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/question-option-form.md).
+    For a description of the field values, see [Question option form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/question-option-form.md).
 
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Add questions to an exam](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/add-questions-exam.md)
+**Parent Topic:**[Add questions to an exam](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/add-questions-exam.md)
 

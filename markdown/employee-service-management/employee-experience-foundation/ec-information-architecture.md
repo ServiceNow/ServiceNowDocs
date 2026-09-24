@@ -2,7 +2,7 @@
 title: EC Information architecture
 description: You can now use the out-of-the-box enhanced information architecture for improving content discovery and visibility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-information-architecture.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-information-architecture.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -61,7 +61,7 @@ Use some of the following guidance and tips.
 **Related topics**  
 
 
-[Configure advanced portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-adv-portal-nav-as-menu.md)
+[Configure advanced portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-adv-portal-nav-as-menu.md)
 
-[Configure simplified left navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-simplified-nav-as-menu.md)
+[Configure simplified left navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-simplified-nav-as-menu.md)
 

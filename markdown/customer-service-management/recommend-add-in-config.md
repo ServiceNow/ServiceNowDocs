@@ -2,7 +2,7 @@
 title: Include a combined CSM and ITSM add-in icon in Microsoft Outlook
 description: Enable users to access both CSM and ITSM through one combined add-in icon.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/recommend-add-in-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/recommend-add-in-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Role required: sn\_customerservice.contact\_manager and sn\_customerservice.prox
 
 5.  Install the ServiceNow Add-in for Microsoft Outlook add-in.
 
-    Follow the procedure in [Install the ServiceNow Add-in for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-servicenow-outlook.md).
+    Follow the procedure in [Install the ServiceNow Add-in for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/install-servicenow-outlook.md).
 
     The ServiceNow for CSM/ITSM icon appears in the header and users can view both the CSM and ITSM tasks through it. \[Omitted image "outlook-itsm-csm-tasks.png"\] Alt text: The ServiceNow for CSM/ITSM add-in icon to create incidents, VTB tasks, or contacts.
 

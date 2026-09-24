@@ -2,7 +2,7 @@
 title: Approve registration for a business contact or organization in Grants Management Portal
 description: As an admin, you can approve or reject the registration of a new business contact or organization, submitted through the Grants Management Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-approve-new-business-org-contact-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-gmp-approve-new-business-org-contact-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

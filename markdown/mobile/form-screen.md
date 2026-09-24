@@ -2,7 +2,7 @@
 title: Record screen
 description: Record screens display content for a specific single record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/form-screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/form-screen.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ The record screen configuration form in Mobile App Builder contains the followin
     -   **Hide Screen Name**: Hides or shows the screen name in the Record screen.
 -   **View Using \(Legacy Card / Card\)**
 
-    A card used for the header section of the record screen. Use Mobile Card Builder to change the appearance of your mobile card or the fields displayed on the card. For more information about using Mobile Card Builder, see [Customize a screen using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-customize-item-view.md).
+    A card used for the header section of the record screen. Use Mobile Card Builder to change the appearance of your mobile card or the fields displayed on the card. For more information about using Mobile Card Builder, see [Customize a screen using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mcb-customize-item-view.md).
 
 -   **Icon**
 
@@ -52,7 +52,7 @@ The record screen configuration form in Mobile App Builder contains the followin
 
 -   **Alert**
 
-    You can configure a mobile alert overlay for a record screen to inform users of an important message and to redirect them to a specific screen. For more information about configuring an alert, see [Configure a mobile alert for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/form-screen-alerts.md).
+    You can configure a mobile alert overlay for a record screen to inform users of an important message and to redirect them to a specific screen. For more information about configuring an alert, see [Configure a mobile alert for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/form-screen-alerts.md).
 
 -   **Data item**
 
@@ -65,7 +65,7 @@ The record screen configuration form in Mobile App Builder contains the followin
     -   **Dynamic record screen segment**: Dynamic segments in a record screen enable users to see a subset of relevant records rather than a whole list of records. Use dynamic segments to create a link between selected elements near the top of the screen and the content displayed below.
 -   **__Top menu function__**
 
-    For each function you create for an application, you must associate it with a specific location. For more information, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md).
+    For each function you create for an application, you must associate it with a specific location. For more information, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-button-instances.md).
 
 -   **__UI parameters__**
 
@@ -88,7 +88,7 @@ Activity stream screen segment
 
  Use an activity stream screen to display work notes, comments, and/or attachments for the record. Your users can configure whether all three of these are visible, or only a select few are visible.
 
- To configure an activity stream screen segment, see [Configure an activity stream screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-activity-stream.md).
+ To configure an activity stream screen segment, see [Configure an activity stream screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-activity-stream.md).
 
 </td><td>
 
@@ -100,7 +100,7 @@ Details screen segment
 
  Use a details screen to display specific screen fields from the record. On a record screen, you can see the same item view/pattern that was configured for the list item. Embed a details screen in your record screen when you want to display more info about the record.
 
- For more information on detail screens, see [Configure a details screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-form-details-screen.md).
+ For more information on detail screens, see [Configure a details screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-form-details-screen.md).
 
 </td><td>
 
@@ -112,7 +112,7 @@ Embedded browser screen segment
 
  Use an embedded browser screen to display content from a URL within a browser section. An embedded browser can display information such as related knowledge articles within your forms.
 
- For more information on embedded browser screens see [Configure an embedded browser screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-form-browser-screen.md).
+ For more information on embedded browser screens see [Configure an embedded browser screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-form-browser-screen.md).
 
 </td><td>
 
@@ -124,7 +124,7 @@ Embedded list screen segment
 
  Use an embedded list screen to display a related list as an embedded tab within a record screen. An embedded list can provide a user immediate access to a single related list without the extra tap when using the related list screen.
 
- To configure an embedded list screen segment, see [Embedded lists for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-embedded-list.md).
+ To configure an embedded list screen segment, see [Embedded lists for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-embedded-list.md).
 
 </td><td>
 
@@ -136,7 +136,7 @@ Related list screen segment
 
  Use a related list screen to display related lists for the record. Each related list you configure appears in this related list screen. Your users can see the name of the list and tap to see the records within that list.
 
- To configure a related list screen segment, see [Configure a related list screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-related-lists.md).
+ To configure a related list screen segment, see [Configure a related list screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-related-lists.md).
 
 </td><td>
 
@@ -148,7 +148,7 @@ Sections screen segment
 
  Enrich your record screen with the addition of item UI sections displayed in a card format. This capability presents content and users can trigger actions without the need to navigate to an additional list screen.
 
- To configure a sections screen segment, see [Configure a record UI section for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/item-section-form-screen.md).
+ To configure a sections screen segment, see [Configure a record UI section for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/item-section-form-screen.md).
 
 </td><td>
 

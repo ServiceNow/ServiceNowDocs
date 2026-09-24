@@ -2,7 +2,7 @@
 title: Integration Hub plugins
 description: Request Integration Hub plugins included in your subscription.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ih-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/ih-plugins.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -175,7 +175,7 @@ ServiceNow Stream Connect Installer\[com.glide.hub.stream\_connect.installer\]
 
 </td><td>
 
-Enables the licensed components for working with message-based streaming data in [Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
+Enables the licensed components for working with message-based streaming data in [Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
 
  Activating this plugin activates the following plugins.
 
@@ -185,7 +185,6 @@ Enables the licensed components for working with message-based streaming data in
 -   ServiceNow IntegrationHub ETL Consumer - Kafka \[com.glide.hub.etl\_consumer.kafka\]: Enables the ability to consume Kafka messages from a topic using RTE, a transform map, or a script.
 -   ServiceNow Stream Connect Replication - Kafka \[com.glide.hub.stream\_connect.replication.kafka\]: Enables support for replicating Stream Connect topics via a MID Server with a customer Kafka cluster.
 -   ServiceNow Integration Hub Stream Connect Schema \[com.glide.hub.stream\_connect.schema\]: Enables importing and creating schemas to send and receive messages in an Apache Avro format.
--   ServiceNow Stream Producer \[com.glide.hub.stream\_connect.stream\_producer\]: Enables Stream Producer to automatically stream changes from ServiceNow tables to Kafka topics.
 
 </td></tr><tr><td>
 
@@ -252,5 +251,5 @@ Stream Connect MID Hermes API\[com.glide.mid.hermes\_api\]
 Provides the capability to produce messages from the MID Server to a topic in the Hermes Messaging Service.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)
+</table>**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/request-ih-overview.md)
 

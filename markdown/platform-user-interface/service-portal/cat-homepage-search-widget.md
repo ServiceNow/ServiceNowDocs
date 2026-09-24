@@ -2,7 +2,7 @@
 title: Catalog Homepage Search widget
 description: Give your users the option to search the Service Catalog as soon as they log in. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/cat-homepage-search-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/cat-homepage-search-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -30,7 +30,7 @@ Alternatively, to navigate to a list of Service Catalog categories, users can se
 
 Use the instance options to configure the Catalog Homepage Search widget for a portal page.
 
-**Note:** The AI Search instance options apply only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+**Note:** The AI Search instance options apply only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-ais-sp.md).
 
 <table id="table_ydc_fpv_bkb"><thead><tr><th>
 
@@ -118,10 +118,10 @@ Typeahead Search
 
 </td><td>
 
-Configuration of the search bar. You configure the search bar by using the instance options for the [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/typeahead-search-widget.md). Use the syntax `{field1:'value1',field2:'value2'}`. For example, to configure the title, color, and size of the search bar, enter the following: `{title:'Search...',color:'default',size:'lg'}`.
+Configuration of the search bar. You configure the search bar by using the instance options for the [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/typeahead-search-widget.md). Use the syntax `{field1:'value1',field2:'value2'}`. For example, to configure the title, color, and size of the search bar, enter the following: `{title:'Search...',color:'default',size:'lg'}`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

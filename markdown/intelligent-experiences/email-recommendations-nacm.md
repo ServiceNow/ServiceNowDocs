@@ -2,10 +2,10 @@
 title: Email recommendations using the ServiceNow Otto context menu
 description: Use the ServiceNow Otto context menu to compose or respond to emails with recommendations from Now Assist with generative AI template suggestions. The ServiceNow Otto context menu enables users to generate email response recommendations in new, forward, reply, or reply all scenarios.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/email-recommendations-nacm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/email-recommendations-nacm.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [Now Assist, Now Assist context menu, Generative AI, Gen AI, Streamline]
 breadcrumb: [ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
@@ -42,5 +42,5 @@ Use the ServiceNow Otto context menu to compose or respond to emails with recomm
     You can select a record from ServiceNow Otto context menu inline citation to navigate directly to the record page, where the referenced section will be highlighted for easy identification.
 
 
-**Parent Topic:**[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md)
+**Parent Topic:**[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-write-overview.md)
 

@@ -2,7 +2,7 @@
 title: Install Customer Request for Quote
 description: You can install the Customer Request for Quote application \[sn\_cust\_rfq\] if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-rfq-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-rfq-plugin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ The following items are installed with Customer Request for Quote:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Customer Request for Quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-install-with-customer-request-for-quote.md).
+For more information, see [Components installed with Customer Request for Quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-install-with-customer-request-for-quote.md).
 
 ## Procedure
 
@@ -57,7 +57,7 @@ For more information, see [Components installed with Customer Request for Quote]
 **Related topics**  
 
 
-[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-self-service-business-portal.md)
 
-[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-business-portal.md)
 

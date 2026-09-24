@@ -2,7 +2,7 @@
 title: Event handler in the Case list component
 description: A component triggers an event when a certain condition is met or on user interaction. The event can be used to execute an action through a code on a third-party webpage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-case-list-event-handlers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/we-case-list-event-handlers.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -66,11 +66,11 @@ This event is dispatched when a property validation or internal error occurs.
 </table>**Related topics**  
 
 
-[Configure the Case list component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-case-list-component-on-instance.md)
+[Configure the Case list component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-case-list-component-on-instance.md)
 
-[Embed the Case list component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-list-component-on-third-party-website.md)
+[Embed the Case list component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-list-component-on-third-party-website.md)
 
-[Component properties for the Case list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/component-properties-for-the-case-list.md)
+[Component properties for the Case list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/component-properties-for-the-case-list.md)
 
-[Sample code for the Case list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-list-sample-code.md)
+[Sample code for the Case list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-list-sample-code.md)
 

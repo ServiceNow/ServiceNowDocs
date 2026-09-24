@@ -2,7 +2,7 @@
 title: Certify an account
 description: A certification task represents the work of verifying and certifying the data associated with a record. The certifier reviews tasks created after data validation against the published policy. Account certification helps resolve issues like outdated ownership, inactive user profiles, and improper permissions in cloud accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/certify-account.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/certify-account.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -18,7 +18,7 @@ A certification task represents the work of verifying and certifying the data as
 
 ## Before you begin
 
-Make sure that the admin has reviewed the Cloud Account Management default policy. Optionally, the admin can customize or add new policies based on the organization requirement. For more information, see [Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/policy-setup.md). The ITOM Cloud Account Management Certifier Group must contain at least one user.
+Make sure that the admin has reviewed the Cloud Account Management default policy. Optionally, the admin can customize or add new policies based on the organization requirement. For more information, see [Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/policy-setup.md). The ITOM Cloud Account Management Certifier Group must contain at least one user.
 
 **Note:** Cloud Account Management admin can add users to the Cloud Account Management Certifier Group by navigating to **All** &gt; **Account Certification** &gt; **ITOM CAM Certifier Group** &gt; **Group Members**.
 

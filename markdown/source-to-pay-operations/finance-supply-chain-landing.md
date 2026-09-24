@@ -2,7 +2,7 @@
 title: Finance and Supply Chain
 description: ServiceNow Finance and Supply Chain workflows unify processes, data, and technology on a single platform. The workflows automate manual tasks, simplify approvals, and improve visibility across key processes, especially source to pay operations, helping finance, procurement, and supply chain teams operate more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-supply-chain-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-supply-chain-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,11 +32,11 @@ ServiceNow® Finance and Supply Chain workflows unify processes, data, and techn
 
 ## Products, features, and customer journeys
 
--   [Finance and Supply Chain workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-supply-chain-workflows.md)
--   [Finance and Supply Chain applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/fsc-common-apps-landing.md)
--   [ServiceNow Otto applications for Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-common-landing.md)
--   [Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-operations-overview.md)
--   [Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)
--   [Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)
--   [Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)
+-   [Finance and Supply Chain workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-supply-chain-workflows.md)
+-   [Finance and Supply Chain applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/fsc-common-apps-landing.md)
+-   [ServiceNow Otto applications for Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-common-landing.md)
+-   [Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-operations-overview.md)
+-   [Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)
+-   [Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)
+-   [Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)
 

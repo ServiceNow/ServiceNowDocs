@@ -2,7 +2,7 @@
 title: Define attachment sources available to users
 description: Control the origin of where images and files are sourced from, including a phone's gallery, camera, or file system. This capability confirms that images can’t be reused and verifies that they aren't AI-generated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/attachment-source-define.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/attachment-source-define.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -106,5 +106,5 @@ Values can be `camera`, `files`, or `gallery`, or any combination separated by c
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Working with images and attachments in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/images-and-attachments.md)
+**Parent Topic:**[Working with images and attachments in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/images-and-attachments.md)
 

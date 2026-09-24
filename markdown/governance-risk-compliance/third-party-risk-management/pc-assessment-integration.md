@@ -2,7 +2,7 @@
 title: Integrating Third-party Risk Management with GRC: Policy and Compliance Management
 description: The GRC: Policy and Compliance Management integration updates the compliance status of controls and control objectives based on the questionnaire responses from a third party or engagement. Compliance managers \[sn\_compliance.manager\] can associate controls and control objectives with specific questions, third parties, and engagements used in Third-party Risk Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/pc-assessment-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/pc-assessment-integration.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -20,11 +20,11 @@ If you have the Policy and Compliance Management application installed, users wi
 
 -   You can associate third parties and engagements to specific control objectives. This association results in controls being applied to the third party or engagement
 
-    For more information, see [Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md).
+    For more information, see [Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md).
 
 -   You can individually link the question to multiple control objectives for each question in a questionnaire template. This enables for a granular and detailed assessment of compliance.
 
-    For more information, see [Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md).
+    For more information, see [Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md).
 
 -   When third parties and engagements respond to questionnaires, the system automatically updates the compliance status of the linked controls. If they provide an incorrect answer, the associated controls are marked as non-compliant. Conversely, correct answers keep the controls compliant.
 
@@ -42,23 +42,23 @@ This feature helps ensure that the compliance status of controls is dynamically 
 
 Third-party Risk Management consumes compliance objects in a read-only capacity. Controls and control objectives are authored and managed in GRC: Policy and Compliance Management.
 
-For more information on implementing Policy and Compliance Management, see [Implementing Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-overview.md).
+For more information on implementing Policy and Compliance Management, see [Implementing Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-overview.md).
 
--   **[Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md)**  
+-   **[Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md)**  
 If you’re using both Policy and Compliance Management and Third-party Risk Management, you can associate controls with third parties and engagements. Controls can be marked as compliant or non-compliant.
--   **[Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md)**  
+-   **[Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md)**  
 If you’re using both Policy and Compliance Management and Third-party Risk Management, you can associate control objectives and controls with questions. Controls can be marked as compliant or non-compliant based on the response to the question.
 
-**Parent Topic:**[Integrating TPRM with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/integrating-with-tprm.md)
+**Parent Topic:**[Integrating TPRM with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/integrating-with-tprm.md)
 
 **Related topics**  
 
 
-[Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md)
+[Manually add a control to a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-controls-tp.md)
 
-[Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md)
+[Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md)
 
-[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
+[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
 
-[Implementing Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-overview.md)
+[Implementing Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-overview.md)
 

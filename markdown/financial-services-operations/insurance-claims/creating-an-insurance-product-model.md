@@ -2,7 +2,7 @@
 title: Create an insurance product model
 description: Create an insurance product model for an insurance policy that is sold to a customer by using the Insurance claims application. The insurance product model defines the product type, which customers that the policy is for, and the coverage specifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/creating-an-insurance-product-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/creating-an-insurance-product-model.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -73,7 +73,7 @@ Search for and select **Commercial lines insurance product model**.
     |Name|Name of the insurance product model.|
     |Product code|Unique identification code for this insurance product.|
     |Product type|Insurance product type that you created earlier in this procedure.|
-    |Specification|Coverage Specification. For more information, see [Coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/coverage-specification.md).|
+    |Specification|Coverage Specification. For more information, see [Coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/coverage-specification.md).|
     |Short description|Brief description of this product model.|
 
 10. Select **Submit**.

@@ -2,7 +2,7 @@
 title: Close security incidents
 description: The Wrap up security incident agentic workflow enables security analysts to close a security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/now-assist-sir-close-incident-usecase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/now-assist-sir-close-incident-usecase.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -27,8 +27,8 @@ To modify this agentic workflow, you can [duplicate](https://raw.githubuserconte
 
 The Security incident wrap-up generator expert is used in the Wrap up security incident agentic workflow.
 
--   **[Close a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/close-sir-incident-aiagent.md)**  
+-   **[Close a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/close-sir-incident-aiagent.md)**  
 Chat with an AI agent in the ServiceNow Otto panel to help you close a security incident.
 
-**Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
+**Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
 

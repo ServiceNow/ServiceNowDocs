@@ -2,7 +2,7 @@
 title: Set up the Socure spoke
 description: Integrate the ServiceNow instance and Socure account using an API key to authenticate ServiceNow requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-socure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-socure.html
 release: australia
 product: Integration Hub
 classification: integration-hub

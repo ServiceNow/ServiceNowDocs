@@ -2,10 +2,10 @@
 title: Configure Datadog metric pull connector
 description: Configure OAuth-based integration between your Datadog instance and ServiceNow Event Management to securely ingest metric from the Datadog Instance. This setup enables authenticated metric delivery using client credentials, maps discovered server CIs, and allows anomaly alerts to create actionable events in ServiceNow through standard webhooks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-datadog-metric-pull-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/configure-datadog-metric-pull-connector.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -74,7 +74,7 @@ The Datadog connector can collect Docker container metrics and bind them to Dock
     -   in the **Application key** field, enter the application key that is associated with the user account.
 8.  If you want to customize configurations to meet specific requirements, select **Advanced settings** and fill in the form.
 
-    For more information on fields, see [Datadog advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/datadog-advanced-settings-fields.md).
+    For more information on fields, see [Datadog advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/datadog-advanced-settings-fields.md).
 
 9.  Test the connector before activating it by selecting **Test and Save**.
 

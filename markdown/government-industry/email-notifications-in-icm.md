@@ -2,7 +2,7 @@
 title: Email notifications for the Investigative Case Type
 description: Email notifications are automatically triggered by the Investigative Case Management. In Public Sector Digital Services, notifications can result from an agent action, a response needed from an agent or constituent, or from an update on a case status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/email-notifications-in-icm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/email-notifications-in-icm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

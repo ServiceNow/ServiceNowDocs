@@ -2,7 +2,7 @@
 title: External systems submitting a case request
 description: This use case illustrates how the ServiceNow Financial Services Operations \(FSO\) product can receive case requests from an external system, such as online or mobile banking application, core banking systems, or other CRM tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-sys\_submit\_case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-sys\_submit\_case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

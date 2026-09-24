@@ -2,7 +2,7 @@
 title: Working with Advanced Work Assignment
 description: Use live chat in Accounts Payable Operations to interact with AP agents and resolve invoice inquiry cases as a supplier.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/working-with-advanved-work-assignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/working-with-advanved-work-assignment.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,11 +25,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Supplier Collaboration portal**.
 
-    Suppliers interact with APO live agent for invoice inquiry cases. The interactions between supplier and APO live agent is recorded in an auto-generated interaction record. For more information regarding interaction record, refer [Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/interaction-record.md).
+    Suppliers interact with APO live agent for invoice inquiry cases. The interactions between supplier and APO live agent is recorded in an auto-generated interaction record. For more information regarding interaction record, refer [Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/interaction-record.md).
 
 2.  Select **Create a case** through the interaction record to create an inquiry case.
 
-    For more information about invoice case, refer [Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md).
+    For more information about invoice case, refer [Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md).
 
 
 ## Result
@@ -38,9 +38,9 @@ Interact with AP agents through live chat.
 
 ## What to do next
 
-[Create an invoice inquiry case manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-inquiry-case.md)
+[Create an invoice inquiry case manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-inquiry-case.md)
 
-**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

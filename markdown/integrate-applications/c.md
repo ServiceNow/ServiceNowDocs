@@ -2,7 +2,7 @@
 title: C\#.Net
 description: The C\#.Net connector enables you to create and execute custom C\#.Net scripts by setting custom classes and methods and include them as part of an automation in the RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/c.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/c.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,16 +14,16 @@ breadcrumb: [Connectors, Automation components, RPA Desktop Design Studio, Robot
 
 The C\#.Net connector enables you to create and execute custom C\#.Net scripts by setting custom classes and methods and include them as part of an automation in the RPA Desktop Design Studio.
 
--   To install the C\#.Net connector, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
--   To use the C\#.Net connector, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector.md).
--   To configure the C\#.Net connector, see [Configure the C\#.Net connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-C-net-connector.md).
--   To expose the methods, see [Use connector method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector-method.md).
--   To use the methods, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-components.md).
+-   To install the C\#.Net connector, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-plugins-rpa-studio.md).
+-   To use the C\#.Net connector, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-connector.md).
+-   To configure the C\#.Net connector, see [Configure the C\#.Net connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-C-net-connector.md).
+-   To expose the methods, see [Use connector method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-connector-method.md).
+-   To use the methods, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-components.md).
 
--   **[Configure the C\#.Net connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-C-net-connector.md)**  
+-   **[Configure the C\#.Net connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-C-net-connector.md)**  
 Write and validate custom C\#.Net scripts and execute them as part of your automation by using the C\#.Net connector in RPA Desktop Design Studio.
--   **[C\# connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connector-c-methods.md)**  
+-   **[C\# connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connector-c-methods.md)**  
 The C\# connector method enables you to execute the custom C\# scripts you had written while configuring the C\#.Net connector.
 
-**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connectors.md)
 

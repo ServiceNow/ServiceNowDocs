@@ -2,7 +2,7 @@
 title: Create Security Incident from a Vulnerability Record
 description: Create a security incident to track and manage remediation efforts for identified vulnerabilities. This process helps prioritize security responses and maintain audit trails.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-security-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-create-security-incident.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -52,15 +52,15 @@ Before you begin, ensure that Security Incident Response \(SIR\) application is 
     -   When you click the link from the confirmation message, the Security Incident opens in read-only mode. The record includes a reference to the originating vulnerability, and relevant fields are automatically populated to maintain consistency.
     -   A corresponding work note is also added to the vulnerability record. To access it, go to the **Details** section of the vulnerability record.
     -   Additionally, the system records a work note on the activity stream of the Security Incident Response Workspace indicating that the incident record is originated from a TISC vulnerability and providing a link to the related vulnerability record.
-    The **TISC Context** feature in the Security Incident Response Workspace provides analysts direct access to threat intelligence linked to vulnerabilities associated with incidents. For more information, see [Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/working-with-tisc-context.md).
+    The **TISC Context** feature in the Security Incident Response Workspace provides analysts direct access to threat intelligence linked to vulnerabilities associated with incidents. For more information, see [Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/working-with-tisc-context.md).
 
     This capability allows analysts to view and investigate related threat objects without leaving the Security Incident Response Workspace, streamlining analysis and enhancing incident response efficiency.
 
 
-**Parent Topic:**[Access Vulnerability Downstream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/downstream-actions-from-the-vulnerability-form-view.md)
+**Parent Topic:**[Access Vulnerability Downstream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/downstream-actions-from-the-vulnerability-form-view.md)
 
 **Related topics**  
 
 
-[TISC integration within SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisc-sir-workspace.md)
+[TISC integration within SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/tisc-sir-workspace.md)
 

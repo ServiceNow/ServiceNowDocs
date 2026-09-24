@@ -2,7 +2,7 @@
 title: SuccessFactors Spoke
 description: The SuccessFactors spoke is built by Bristlecone, Inc. Manage data and entities in SuccessFactors from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/successfactors-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/successfactors-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -175,7 +175,7 @@ Process SuccessFactors Webhooks
 
 </td><td>
 
-Processes the SAP SuccessFactors webhook event. For more information about setting up the webhooks, see [Set up webhook for the SuccessFactors spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sapsf-webhooks.md).
+Processes the SAP SuccessFactors webhook event. For more information about setting up the webhooks, see [Set up webhook for the SuccessFactors spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-sapsf-webhooks.md).
 
 </td></tr><tr><td>
 
@@ -1101,7 +1101,7 @@ Retrieves job profiles information from SuccessFactors.
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -1127,7 +1127,7 @@ There might be AI agents installed on your instance that are not used in agentic
 
 ## Available sample agentic workflows
 
-Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md).
 
@@ -1272,7 +1272,7 @@ Webhook Registry
 
 </td><td>
 
-Displays the list of webhook registries. Admin must create webhook registry here. For more information, see [Set up webhook for the SuccessFactors spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sapsf-webhooks.md).
+Displays the list of webhook registries. Admin must create webhook registry here. For more information, see [Set up webhook for the SuccessFactors spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-sapsf-webhooks.md).
 
 </td></tr><tr><td>
 
@@ -1329,7 +1329,7 @@ Displays the total rewards of the logged-in user.
 
 The SuccessFactors spoke provides sample transform maps in inactive state and associated sample target tables to demonstrate using transform maps to save SuccessFactors data in your ServiceNow tables. You can use these sample transform maps and target tables as reference to create transform maps according to your requirement.
 
-For more information, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md).
+For more information, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md).
 
 ## Spoke user roles
 
@@ -1353,5 +1353,5 @@ Integration Hub uses aliases to manage connection and credential information. Us
 
 Two connection and credential aliases are available with the SuccessFactors spoke. One for the SOAP API and the other for the OData API.
 
-For information about setting up the spoke, see [Set up the SuccessFactors spoke v4.x.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md).
+For information about setting up the spoke, see [Set up the SuccessFactors spoke v4.x.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-successfactors.md).
 

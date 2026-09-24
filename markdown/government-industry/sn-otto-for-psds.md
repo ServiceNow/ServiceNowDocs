@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/sn-otto-for-psds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/sn-otto-for-psds.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,15 +19,15 @@ With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application
 
 <table id="table_zzm_tc2_kbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-configuring.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-using.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-using.md)
 
 </td></tr><tr><td>
 
@@ -35,7 +35,7 @@ With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application
 
 </td><td>
 
-[Use Public Sector Digital Services AI agent collection \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Public Sector Digital Services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-agentic-ai.md)
+[Use Public Sector Digital Services AI agent collection \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Public Sector Digital Services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-agentic-ai.md)
 
 </td><td>
 

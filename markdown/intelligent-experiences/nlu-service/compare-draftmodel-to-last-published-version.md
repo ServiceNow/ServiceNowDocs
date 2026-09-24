@@ -2,7 +2,7 @@
 title: Compare draft and published versions of your NLU model
 description: Compare a draft trained Natural Language Understanding \(NLU\) model to its most recent published version. Test and review the changes to make sure that your draft model will have increased performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/compare-draftmodel-to-last-published-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/compare-draftmodel-to-last-published-version.html
 release: australia
 product: NLU Service
 classification: nlu-service

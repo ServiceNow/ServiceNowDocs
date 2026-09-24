@@ -2,12 +2,12 @@
 title: Move AI assets to managed
 description: Bring discovered or imported AI assets into your governance program by moving them to managed status, making them eligible for lifecycle review, evaluation scoring, risk classification, and value measurement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-move-assets-to-managed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-move-assets-to-managed.html
 release: australia
 topic_type: task
 last_updated: "2026-04-29"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [Managed and unmanaged AI assets, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 

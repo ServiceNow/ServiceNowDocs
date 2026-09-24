@@ -2,7 +2,7 @@
 title: Delete a resource plan
 description: Deleting a plan also deletes all associated resource allocations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_DeleteAResourcePlan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/t\_DeleteAResourcePlan.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -35,7 +35,7 @@ Role required: resource\_user or resource\_manager
     The resource plan and all the associated allocations are removed.
 
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 

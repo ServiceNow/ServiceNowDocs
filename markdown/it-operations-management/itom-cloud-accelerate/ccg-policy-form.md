@@ -2,7 +2,7 @@
 title: Cloud Configuration Governance Policy form
 description: The Cloud Configuration Governance Policy form displays detailed information about the policy such as cloud provider, resource type, policy type, and policy violation reporting settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-policy-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/ccg-policy-form.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -47,7 +47,7 @@ Resource type
 
 </td><td>
 
-Cloud resource type to be scanned through the policy. If the required resource type is not available, you can create a resource type. For more information, see [Create a resource collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/create-ccg-resource-collector.md).
+Cloud resource type to be scanned through the policy. If the required resource type is not available, you can create a resource type. For more information, see [Create a resource collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/create-ccg-resource-collector.md).
 
 </td></tr></tbody>
 </table>## Policy condition
@@ -126,7 +126,7 @@ Condition script
 
 </td><td>
 
-Script that implements the policy conditions to identify and report the policy violations. Cloud Configuration Governance contains several scriptable objects and variables for use in the policy scripts. For more information see, [Scripting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-scripting-reference.md).
+Script that implements the policy conditions to identify and report the policy violations. Cloud Configuration Governance contains several scriptable objects and variables for use in the policy scripts. For more information see, [Scripting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/ccg-scripting-reference.md).
 
  You can create script includes to externalize the decision making and reuse the code across different scripts. For more information on creating the script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
@@ -173,5 +173,5 @@ Severity
 Severity level of the violation. If you do not select the severity level in the policy, Cloud Configuration Governance uses the default severity defined in the violation definition.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

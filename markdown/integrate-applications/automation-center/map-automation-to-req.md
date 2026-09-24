@@ -2,7 +2,7 @@
 title: Map automations with automation request
 description: Map automations in Published state with an automation request to publish the automation request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/map-automation-to-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/map-automation-to-req.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -20,7 +20,7 @@ Map automations in Published state with an automation request to publish the aut
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
-**Note:** The cost saved and time saved values for an automation are calculated by moving average method. The moving average is controlled by the `sn_ac.savings_averaging_window` system property. For more information, see [Automation Center properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-properties.md).
+**Note:** The cost saved and time saved values for an automation are calculated by moving average method. The moving average is controlled by the `sn_ac.savings_averaging_window` system property. For more information, see [Automation Center properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-properties.md).
 
 ## Procedure
 
@@ -108,5 +108,5 @@ Specify the percentage of the time that this automation saves for the automation
 10. After creating the mapping, select **Edit mapping** to edit the existing mappings or add new mappings.
 
 
-**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-and-define.md)
+**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-and-define.md)
 

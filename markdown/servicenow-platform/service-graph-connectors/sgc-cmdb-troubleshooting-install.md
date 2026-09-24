@@ -2,7 +2,7 @@
 title: Install Service Graph Connector Support Tools
 description: You can install Service Graph Connector Support Tools if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-troubleshooting-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-troubleshooting-install.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -51,5 +51,5 @@ The following applications or plugins are installed with Service Graph Connector
 4.  Select **Install**.
 
 
-**Parent Topic:**[Service Graph Connector Support Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-support-tools.md)
+**Parent Topic:**[Service Graph Connector Support Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-sgc-support-tools.md)
 

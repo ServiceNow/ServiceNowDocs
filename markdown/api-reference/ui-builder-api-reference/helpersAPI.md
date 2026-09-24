@@ -2,7 +2,7 @@
 title: helpers - UI Builder
 description: The helpers API provides general functionality that is common across page scripts, eliminating the need to write scripts for simple functionality such as opening and closing a modal.Closes the specified modal on the current page.Opens the specified modal on the current page.Passes the specified parameters down to other components on the same page.Navigates from one screen to another based on the specified route and field information. URL changes and the respective screen loads are observed.Enables pages to report their status updates, such as title, icon, dirty state, message, and error changes.Makes an HTTP request to the ServiceNow instance and returns a promise with the results.Cancels the execution of the function that was scheduled through a prior setInterval\(\) call.Cancels the execution of the function that was scheduled through a prior setTimeout\(\) call.Repeatedly executes the specified function, using the specified delay value as the interval between function calls.Executes the specified function, after the specified delay.Asynchronously retrieves and translates the specified message based on the current user's session language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/ui-builder-api-reference/helpersAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/ui-builder-api-reference/helpersAPI.html
 release: australia
 product: UI Builder API Reference
 classification: ui-builder-api-reference
@@ -23,7 +23,7 @@ This API is only available to page scripts, it is not available in any other UI 
 -   event payload scripts
 -   UX client script includes
 
-**Parent Topic:**[UIB API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ui-builder-api-reference/api-uib.md)
+**Parent Topic:**[UIB API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/ui-builder-api-reference/api-uib.md)
 
 ## helpers - helpers.modal.close\(String modalId\)
 
@@ -807,7 +807,7 @@ Length of the time-interval between each function execution. Unit: Milliseconds
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|Number|Unique identifier of the function execution operation. Use this value in the [helpers - helpers.timing.clearInterval\(Number timeoutId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ui-builder-api-reference/helpersAPI.md) method if you need to cancel this operation.|
+|Number|Unique identifier of the function execution operation. Use this value in the [helpers - helpers.timing.clearInterval\(Number timeoutId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/ui-builder-api-reference/helpersAPI.md) method if you need to cancel this operation.|
 
 This code example shows how to refresh the timestamp on a page every second. This function could be invoked by a user clicking an **Enable Auto-refresh** button on a page.
 
@@ -868,7 +868,7 @@ Length of the time to wait before calling the specified function. Unit: Millisec
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|Number|Unique identifier of the function execution operation. Use this value in the [helpers - helpers.timing.clearTimeout\(Number timeoutId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ui-builder-api-reference/helpersAPI.md) method if you need to cancel this operation.|
+|Number|Unique identifier of the function execution operation. Use this value in the [helpers - helpers.timing.clearTimeout\(Number timeoutId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/ui-builder-api-reference/helpersAPI.md) method if you need to cancel this operation.|
 
 This code example shows how to set a 20 minute timer. You could associate this function with a button **Remind me in 20 minutes**.
 
@@ -893,7 +893,7 @@ function handler({api, helpers}) {
 
 Asynchronously retrieves and translates the specified message based on the current user's session language.
 
-You can use this method with the [api - setState\(String stateParam, Any value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ui-builder-api-reference/apiAPI.md) to bind the translated value to other fields on the page.
+You can use this method with the [api - setState\(String stateParam, Any value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/ui-builder-api-reference/apiAPI.md) to bind the translated value to other fields on the page.
 
 **Note:** You can call this method using a promise or `async` and `await`. The code examples below show both implementations.
 

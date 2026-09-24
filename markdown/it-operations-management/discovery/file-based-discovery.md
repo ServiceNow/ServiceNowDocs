@@ -2,7 +2,7 @@
 title: File-based Discovery
 description: File-based Discovery helps you identify what software is running on your Windows and UNIX servers and devices, even if there’s no registration information available. You can then manage and maintain records of your software licenses, check for unlicensed files, detect forbidden or damaged files, and help evaluate any threats from unwanted files.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/file-based-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/file-based-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -22,7 +22,7 @@ The File-based Discovery \[com.snc.discovery.file\_based\_discovery\] plugin is 
 
 ## How File-based Discovery works
 
-File-based Discovery enhances the pre-existing discovery of installed software. It scans target servers for a known list of file signatures and processes those files with an established set of rules. The resulting data enhances the identification of installed software and identifies unregistered software products. For information about using Agent Client Collector for Visibility Content to perform file-based discovery, see [Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
+File-based Discovery enhances the pre-existing discovery of installed software. It scans target servers for a known list of file signatures and processes those files with an established set of rules. The resulting data enhances the identification of installed software and identifies unregistered software products. For information about using Agent Client Collector for Visibility Content to perform file-based discovery, see [Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
 
 File-based Discovery is triggered in the exploration phase of normal Discovery. File-based Discovery probes execute a scan searching for specific file extensions or file names in paths that you configure. The resulting file information is returned in the probe payload. The sensor attempts to match the discovered files with installed software, using the file name, size, and version returned by the probe. File-based Discovery uses file signatures to detect software that might not have been registered. This information is then stored in the File Information \[cmdb\_file\_information\] table with a reference to the CI of the server. You can view the files found from each CI in a related list on this table. For more information, see [Related list of CI components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_RelatedListsOfCIComponents.md). When [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SoftwareAssetMgmt.md) \(SAM\) is active, if any file matches a software product, Discovery populates the Product and Publisher information for that file. Use this information to understand what software is running on your server and to help evaluate any threats from unwanted files. Discovery uses lists of known file signatures for Windows and UNIX to constrain the scope of the search. The filtering process for Windows and UNIX hosts is executed differently because their signature lists differ greatly in size. The smaller UNIX signature list is included with the Unix - File Discovery probe and processed directly on the target. The Windows signature list is larger and can’t be processed on the target. The Windows - File Discovery probe scans the target for specific file extensions and paths and returns these results to the MID Server. The MID Server performs file signature filtering using the entire Windows list. The MID Server then sends all file information back to the instance for normalization and matching.
 
@@ -34,7 +34,7 @@ You can enable SWID tags in the Discovery Configuration Console. With SWID tag e
 
 File-based Discovery inserts any file not matched by the normalization process into the Unidentified File Set \[cmdb\_unidentified\_file\_set\] table. You can update the records in this table and provide additional details for previously unidentified files. If you provide values for the **Product** and **Publisher** fields for a file, SAMP settings can enable File-based Discovery to use that file for installed software matching in future discoveries.
 
-You can disable File-based Discovery at any time by changing the setting in the [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md). If you disable File-based Discovery before scan results are returned, the file data is ignored.
+You can disable File-based Discovery at any time by changing the setting in the [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md). If you disable File-based Discovery before scan results are returned, the file data is ignored.
 
 **Note:**
 
@@ -49,9 +49,9 @@ Version information is populated only for the files with version information ret
 **Related topics**  
 
 
-[Run File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-file-based-discovery.md)
+[Run File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/run-file-based-discovery.md)
 
-[File-based Discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/file-based-discovery-references.md)
+[File-based Discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/file-based-discovery-references.md)
 
-[File-based Discovery issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/file-based-discovery-troubleshooting.md)
+[File-based Discovery issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/file-based-discovery-troubleshooting.md)
 

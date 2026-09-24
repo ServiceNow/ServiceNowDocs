@@ -2,7 +2,7 @@
 title: Review issues discovered in agentic evaluations
 description: Identify and prioritize specific quality failures detected during an evaluation run, organized by severity. Use issue severity and metric relevance to decide which failures to address before deployment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-eval-review-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-eval-review-issues.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -74,7 +74,7 @@ Traces with this issue
 
 </td><td>
 
-Specific execution logs where the issue is seen. You can [analyze traces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-eval-analyze-traces.md) to understand how the issue manifests.
+Specific execution logs where the issue is seen. You can [analyze traces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-eval-analyze-traces.md) to understand how the issue manifests.
 
 </td></tr><tr><td>
 
@@ -82,10 +82,10 @@ Analysis notes
 
 </td><td>
 
-Space for you to add details about the analysis and what you want to communicate to others about the issue. These notes aren't considered when applying optimizations. See [Apply optimizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-eval-apply-optimization.md) for more information.
+Space for you to add details about the analysis and what you want to communicate to others about the issue. These notes aren't considered when applying optimizations. See [Apply optimizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-eval-apply-optimization.md) for more information.
 
 </td></tr></tbody>
-</table>5.  [Analyze the traces of the issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-eval-analyze-traces.md).
+</table>5.  [Analyze the traces of the issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-eval-analyze-traces.md).
 
 6.  After reviewing the identified issues, select **Start optimization** to see the LLM-recommended fixes.
 
@@ -96,5 +96,5 @@ Issues associated with the metrics for different components of the agentic AI as
 
 ## What to do next
 
-Proceed to the next step to [apply optimizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-eval-apply-optimization.md) to fix identified issues.
+Proceed to the next step to [apply optimizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-eval-apply-optimization.md) to fix identified issues.
 

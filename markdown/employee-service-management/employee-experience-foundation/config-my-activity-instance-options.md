@@ -2,7 +2,7 @@
 title: Modify Active items widget display
 description: You can configure the instance options to control the appearance of the widget, such as the title, number of topics, display size, and border color.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-my-activity-instance-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-my-activity-instance-options.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -60,5 +60,5 @@ The My Active Items widget is designed for optimal display and usability when co
 **Related topics**  
 
 
-[My active items widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/my-activity-config.md)
+[My active items widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/my-activity-config.md)
 

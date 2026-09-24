@@ -2,7 +2,7 @@
 title: GlideCurrencyConverter - Scoped
 description: The GlideCurrencyConverter API provides methods to convert one currency value to another, such as converting US dollars into European euros.Instantiates a GlideCurrencyConverter object.Instantiates a GlideCurrencyConverter object and sets the source and destination country codes to use in the currency conversion.Executes the currency converter.Sets the amount of currency to convert.Sets the currency conversion date and time.Sets the country code of the source currency.Defines the rate table to use in the currency conversion.Sets the country code of the destination currency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideCurrencyConverterScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideCurrencyConverterScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -25,7 +25,7 @@ The GlideCurrencyConverter API also provides optional methods that enable you to
 
 This API is provided within the `sn_currency` namespace.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencyConverter - GlideCurrencyConverter\(\)
 
@@ -76,7 +76,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideCurrencyExchangeValue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideCurrencyExchangeValueScopedAPI.md) object
+[GlideCurrencyExchangeValue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideCurrencyExchangeValueScopedAPI.md) object
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Proceed with a Legal Invention Disclosure request
 description: Once an application for a Legal Invention Disclosure request is complete and has been approved, approve the application to proceed for review by an outside counsel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-invention-disclosure/idf-proceed-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-invention-disclosure/idf-proceed-application.html
 release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -45,7 +45,7 @@ If an optional reward to the inventor at the Proceed with application stage has 
 
 ## What to do next
 
-Once you have associated the outside counsel to a legal matter send an email with the matter details to the outside counsel. For more information, see [Provide Legal Invention Disclosure request information to an outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/idf-provide-info-outside-counsel.md).
+Once you have associated the outside counsel to a legal matter send an email with the matter details to the outside counsel. For more information, see [Provide Legal Invention Disclosure request information to an outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/idf-provide-info-outside-counsel.md).
 
-**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
+**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
 

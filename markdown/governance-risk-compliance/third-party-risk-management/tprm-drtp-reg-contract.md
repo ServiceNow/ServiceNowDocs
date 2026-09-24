@@ -2,7 +2,7 @@
 title: Create a contract and enhance digital resilience data
 description: Create a contract record in Digital resilience third-party registers using Third-party Risk Management where you add details of the contract such as vendor name, start and end dates, state, substate. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-contract.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -31,9 +31,9 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
 **Note:** The annual expense may be converted during report generation if currency conversion is enabled. If aggregation is enabled and all criteria are met, contract expenses may also be combined into a provider‑level total.
 
-After setting up contract and Specific Information records, you can generate a Register of Information reporting package. For more information, see [Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md).
+After setting up contract and Specific Information records, you can generate a Register of Information reporting package. For more information, see [Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md).
 
-LEI codes on records associated with this contract are validated against the GLEIF database during Register of Information reporting. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
+LEI codes on records associated with this contract are validated against the GLEIF database during Register of Information reporting. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 ## Procedure
 
@@ -43,7 +43,7 @@ LEI codes on records associated with this contract are validated against the GLE
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-contract-form.md).
+    For descriptions of all these fields, see [Create New Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-new-contract-form.md).
 
 4.  Select **Save**.
 
@@ -77,7 +77,7 @@ LEI codes on records associated with this contract are validated against the GLE
 
 18. Select **Save**.
 
-    -   When you save a Specific Information record, Rank 1 ICT service supply chain records are generated automatically using the Type of ICT services value. If you update the Type of ICT services value, the supply chain records update automatically. If you remove a Type of ICT services value, the corresponding Rank 1 and higher supply chain records are deleted automatically. To create Rank 2 and higher supply chain records manually, see [Create a supply chain and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-supply-chain.md).
+    -   When you save a Specific Information record, Rank 1 ICT service supply chain records are generated automatically using the Type of ICT services value. If you update the Type of ICT services value, the supply chain records update automatically. If you remove a Type of ICT services value, the corresponding Rank 1 and higher supply chain records are deleted automatically. To create Rank 2 and higher supply chain records manually, see [Create a supply chain and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-supply-chain.md).
     -   If a Specific Information record with the same combination of contract reference, entity using service, service provider, country of provision, function identifier, Type of ICT services, storage location, and processing location already exists, the save is blocked. The error message includes a link to the conflicting record so you can compare the two records before saving.
     **Note:** If the **Storage of data** field is set to **No** on a contractual arrangement, the associated location field values are cleared automatically.
 
@@ -95,7 +95,7 @@ LEI codes on records associated with this contract are validated against the GLE
 
 24. Select **Save**.
 
-    For descriptions of all these fields, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.md).
+    For descriptions of all these fields, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.md).
 
     **Note:** The annual expense may be converted during report generation if currency conversion is enabled. If aggregation is enabled and all criteria are met, contract expenses may also be combined into a provider‑level total.
 
@@ -109,11 +109,11 @@ LEI codes on records associated with this contract are validated against the GLE
 **Related topics**  
 
 
-[Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md)
+[Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md)
 
-[Create a supply chain and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-supply-chain.md)
+[Create a supply chain and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-supply-chain.md)
 
-[Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md)
+[Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md)
 
-[Create New Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-contract-form.md)
+[Create New Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-new-contract-form.md)
 

@@ -2,7 +2,7 @@
 title: Exploring Impact
 description: ServiceNow Impact personalizes your digital transformation journey and accelerates your time-to-value integrated within your ServiceNow AI Platform instance and Impact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-program-features.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-program-features.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

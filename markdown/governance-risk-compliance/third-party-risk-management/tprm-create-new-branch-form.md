@@ -2,7 +2,7 @@
 title: Create New Branch form
 description: On the Create New Branch form, fill in the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-new-branch-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-create-new-branch-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -116,7 +116,7 @@ LEI of the financial entity head office of the branch
 
 </td><td>
 
-Legal Entity Identifier \(LEI\) of the head office of the financial entity to which the branch belongs, for example, LEIACMEGermany001 or LEIACMEAmericas001.**Note:** When you enter or update this field, the system validates the code against the GLEIF database and auto-populates the Name of the branch and Country of the branch fields. If you then edit those fields to values that no longer match GLEIF data, an inline warning is displayed on the edited field. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
+Legal Entity Identifier \(LEI\) of the head office of the financial entity to which the branch belongs, for example, LEIACMEGermany001 or LEIACMEAmericas001.**Note:** When you enter or update this field, the system validates the code against the GLEIF database and auto-populates the Name of the branch and Country of the branch fields. If you then edit those fields to values that no longer match GLEIF data, an inline warning is displayed on the edited field. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 </td></tr><tr><td>
 

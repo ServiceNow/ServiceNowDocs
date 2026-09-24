@@ -2,7 +2,7 @@
 title: Connecting Zero Copy Connector for ERP to SAP using OData
 description: Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -186,5 +186,5 @@ For an ERP system, there are separate heartbeat indicators for RFC and HTTP. Whe
 
 ## More information
 
-For more information about using OData in Zero Copy Connector for ERP, see [Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-odata-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
+For more information about using OData in Zero Copy Connector for ERP, see [Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/create-an-odata-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
 

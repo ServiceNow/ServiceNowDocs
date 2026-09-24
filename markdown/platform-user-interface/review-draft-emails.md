@@ -2,7 +2,7 @@
 title: Review email drafts from the full email composer
 description: View emails saved for later or create a new email while saving your current draft automatically from the full email composer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/review-draft-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/review-draft-emails.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

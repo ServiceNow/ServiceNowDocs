@@ -2,7 +2,7 @@
 title: Custom application configuration in source code
 description: Configure a custom application \[sys\_app\] in the now.config.json file for an application in source code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-config-source-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-config-source-code.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-20"
@@ -74,7 +74,7 @@ The items in another application scope on which your application depends. You mu
 }
 ```
 
-For more information, see [Download ServiceNow Fluent application dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/downloading-dependencies-now-sdk.md).
+For more information, see [Download ServiceNow Fluent application dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/downloading-dependencies-now-sdk.md).
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ Object
 
 </td><td>
 
-A map of the module source files to their equivalent output files for if you use a custom transpilation step before building the application. For more information, see [Using TypeScript in JavaScript modules with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/using-typescript.md).**Warning:** You can't use this parameter and the `tsconfigPath` parameter. Configuring both results in an error.
+A map of the module source files to their equivalent output files for if you use a custom transpilation step before building the application. For more information, see [Using TypeScript in JavaScript modules with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/using-typescript.md).**Warning:** You can't use this parameter and the `tsconfigPath` parameter. Configuring both results in an error.
 
 </td></tr><tr><td>
 
@@ -408,5 +408,5 @@ Default: `.`
 **Related topics**  
 
 
-[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md)
+[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_ApplicationAccessSettings.md)
 

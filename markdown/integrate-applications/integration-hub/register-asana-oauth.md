@@ -2,7 +2,7 @@
 title: Register an Asana OAuth application
 description: Register the Asana OAuth application to access the Asana API 1.0 and to receive a Client ID and Client secret.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/register-asana-oauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/register-asana-oauth.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -20,7 +20,7 @@ Register the Asana OAuth application to access the Asana API 1.0 and to receive 
 
 Asana Role required: admin
 
--   The Asana Integration Hub spoke must be active. For more information, see [Asana Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/asana-spoke.md).
+-   The Asana Integration Hub spoke must be active. For more information, see [Asana Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/asana-spoke.md).
 
 ## Procedure
 

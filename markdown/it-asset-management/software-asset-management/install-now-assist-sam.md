@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto for Software Asset Management \(SAM\)
 description: If you have the admin role, you can install the ServiceNow Otto for SAM application. The ServiceNow Otto for SAM application integrates generative AI capabilities into your daily workflow tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/install-now-assist-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/install-now-assist-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -49,5 +49,5 @@ The agentic workflow and the AI agents included in the ServiceNow Otto for SAM a
         **Note:** The activation process can take up to 24 hours.
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-assist-sam-configuration.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/now-assist-sam-configuration.md)
 

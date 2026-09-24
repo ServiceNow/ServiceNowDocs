@@ -2,7 +2,7 @@
 title: Web application — Trends page
 description: The trends page displays alert trends, average page load time, average response time, failed web request metrics, total usage, and mean time to resolve incidents. Use this data to evaluate system performance and identify areas for improvement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/web-app-trends-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/web-app-trends-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -26,5 +26,5 @@ The trends page displays alert trends, average page load time, average response 
 |Failed web requests|Option to view the trend of total number of requests that have failed.|
 |Total usage|Option to view the total amount of time spent on the application by all users.|
 
-**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/application-form.md)
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/application-form.md)
 

@@ -2,7 +2,7 @@
 title: Enable Spend categorization agent in ServiceNow Otto panel
 description: Enable the Spend categorization agent in AI Agent Studio so users can run it from the ServiceNow Otto panel to validate and update product and spend categories on procurement records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/enable-agent-na-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/enable-agent-na-panel.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -56,5 +56,5 @@ The Spend categorization agent is inactive when installed. After you enable the 
 
 Users can run the Spend categorization agent from the ServiceNow Otto panel to predict, validate, and update product and spend categories.
 
-**Parent Topic:**[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)
+**Parent Topic:**[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)
 

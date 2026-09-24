@@ -2,7 +2,7 @@
 title: Use a compliance evaluation on an AI system record
 description: Map a control objective to an AI system, run its compliance evaluation, and review evaluation results, supporting data, and automatically created issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-use-compliance-evaluation-ai-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/airc-use-compliance-evaluation-ai-system.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -18,7 +18,7 @@ Map a control objective to an AI system, run its compliance evaluation, and revi
 
 ## Before you begin
 
-A compliance evaluation configuration must exist for the control objective you want to monitor. For more information on configuring an evaluation configuration, see [Create a compliance evaluation configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-compliance-evaluation-configuration.md).
+A compliance evaluation configuration must exist for the control objective you want to monitor. For more information on configuring an evaluation configuration, see [Create a compliance evaluation configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-compliance-evaluation-configuration.md).
 
 Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 
@@ -45,5 +45,5 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 
 The compliance evaluation now runs automatically at the configured frequency, continuously monitoring the AI system and raising or resolving issues as its controls become non-compliant or compliant.
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

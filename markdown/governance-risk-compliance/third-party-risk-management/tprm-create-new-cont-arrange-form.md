@@ -2,7 +2,7 @@
 title: Create New Contractual arrangement form
 description: On the Create New Contractual arrangement form, fill in the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

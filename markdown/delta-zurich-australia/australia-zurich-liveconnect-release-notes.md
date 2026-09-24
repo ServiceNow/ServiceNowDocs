@@ -2,11 +2,11 @@
 title: Combined Live Connect release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Live Connect from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-liveconnect-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-liveconnect-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -78,7 +78,20 @@ Australia
 
 </td><td>
 
-The following features are new in this release.
+-   **[Access your ServiceNow data using Live Connect](https://www.servicenow.com/docs/access?context=accessing-your-servicenow-data-using-sql-api&family=australia&ft:locale=en-US)**
+
+The ServiceNow Store Live Connect enables you to access your ServiceNow instance data through ODBC and JDBC drivers. Using Live Connect, you can directly access your instance data from third-party BI tools and other data analysis applications without exporting or replicating your data. The ServiceNow Live Connect plugin uses ServiceNow web services support for a query-only interface.
+
+-   **[Enable OAuth for Live Connect](https://www.servicenow.com/docs/access?context=enable-oauth-for-live-connect&family=australia&ft:locale=en-US)**
+
+Connect third-party ODBC and JDBC clients to ServiceNow using OAuth credentials to meet FedRamp compliance requirements and enable secure multi-factor authentication workflows. OAuth provides modern, encrypted authentication aligned with security standards and reduces credential exposure in transit.
+
+-   **Pyramid Analytics integration**
+
+Use Pyramid Analytics as your analytics layer for ServiceNow operational data with native SQL connectivity through JDBC drivers. Build interactive dashboards and reports without data duplication and leverage advanced analytics capabilities on live data.
+
+
+ The following features are new in this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -107,7 +120,12 @@ Australia
 
 </td><td>
 
-The following UI changes are in this release.
+-   **Product name updated from SQL API to Live Connect**
+
+The product name was updated from SQL API to Live Connect throughout the user interface, including all menus, forms, configuration pages, and labels.
+
+
+ The following UI changes are in this release.
 
 </td></tr></tbody>
 </table>## Removed
@@ -366,5 +384,5 @@ Australia
  **Important:** Live Connect is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

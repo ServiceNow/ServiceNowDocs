@@ -2,7 +2,7 @@
 title: Create an enterprise strategy
 description: As a business planner you can manage the business entities such as goals, business units, business enterprise strategies, and business unit strategies. Create an enterprise strategy to orient your business plan toward your goal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/create-a-enterprise-strategy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/create-a-enterprise-strategy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: user\_admin, business\_planner
 
 ## About this task
 
-To understand how your organizational strategies are performing, see the [Strategic Spend Tracking for PPM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.md) topic. It provides a comprehensive visual to help you understand how the planned costs, actual costs, and benefits for projects aligned to your organization's strategies trend over time.
+To understand how your organizational strategies are performing, see the [Strategic Spend Tracking for PPM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.md) topic. It provides a comprehensive visual to help you understand how the planned costs, actual costs, and benefits for projects aligned to your organization's strategies trend over time.
 
 ## Procedure
 
@@ -53,5 +53,5 @@ Use the **Business Unit Strategies** related list to create a strategy for a bus
 **Related topics**  
 
 
-[Allocate or modify the strategy and goal percentage for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/associate-goal-strategy-prj.md)
+[Allocate or modify the strategy and goal percentage for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/associate-goal-strategy-prj.md)
 

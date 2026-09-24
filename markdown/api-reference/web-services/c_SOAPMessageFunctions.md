@@ -2,7 +2,7 @@
 title: SOAP message functions
 description: After you create a SOAP message record, you can click Generate sample SOAP messages to populate the SOAP Message Functions related list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_SOAPMessageFunctions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_SOAPMessageFunctions.html
 release: australia
 product: Web Services
 classification: web-services
@@ -36,5 +36,5 @@ To submit a specific value, enter the value directly in the appropriate XML tag.
 ...
 ```
 
-**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPMessage.md)
+**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPMessage.md)
 

@@ -2,7 +2,7 @@
 title: Configure jobs for email notifications dashboard
 description: Configure data collection jobs for the email notification dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-jobs-email-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configure-jobs-email-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -63,5 +63,5 @@ Role required: admin or notification\_dashboard\_admin
     Once the jobs are completed and the data is collected, the data is visible in the email notifications dashboard.
 
 
-**Parent Topic:**[Email notifications dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-notifications-dashboard.md)
+**Parent Topic:**[Email notifications dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-notifications-dashboard.md)
 

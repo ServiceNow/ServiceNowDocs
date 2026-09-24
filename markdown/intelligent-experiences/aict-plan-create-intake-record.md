@@ -2,7 +2,7 @@
 title: Create an intake record
 description: Use the Prioritize tab to add a demand, product idea, or feedback record. Selecting New in any list opens a full form. The form fields differ by record type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-create-intake-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-create-intake-record.html
 release: australia
 topic_type: task
 last_updated: "2026-04-23"
@@ -32,9 +32,9 @@ Role required: sn\_ai\_governance.ai\_steward
 
     For field information, see:
 
-    -   [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-demand-form.md)
-    -   [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-feedback-form.md)
-    -   [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-product-idea-form.md)
+    -   [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-demand-form.md)
+    -   [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-feedback-form.md)
+    -   [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-product-idea-form.md)
     **Note:**
 
     -   For demand and product idea: The **Investment Type** field must be set to **Artificial Intelligence** or the **Product** field must be set to **AI System**.

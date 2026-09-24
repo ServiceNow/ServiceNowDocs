@@ -2,7 +2,7 @@
 title: Register and configure the Microsoft Azure portal
 description: Register your application in the Microsoft Azure portal and grant your users with read and write access to the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-microsoft-azure-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/configure-microsoft-azure-portal.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

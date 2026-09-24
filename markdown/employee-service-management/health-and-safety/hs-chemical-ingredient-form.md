@@ -2,7 +2,7 @@
 title: Chemical ingredient form
 description: The field description for the chemical ingredient form is as follows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-chemical-ingredient-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-chemical-ingredient-form.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -91,5 +91,5 @@ Additional information
 Additional information related to the chemical ingredient.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
+</table>**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
 

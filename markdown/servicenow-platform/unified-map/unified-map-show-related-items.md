@@ -2,7 +2,7 @@
 title: View related items for a CI
 description: Open the Related items panel in Unified Map to show all related items \(typically, events such as changes, active incidents, or active problems\) for the selected CI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-show-related-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/unified-map-show-related-items.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -27,7 +27,7 @@ Role required:
 
 ## About this task
 
-**Note:** The timeline also indicates related items \(events\). One important difference is that the timeline indicates only historical related items — events that occurred before the timeline's map time. In contrast, the **Related items** panel lists all related items. For more information, see [Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-timeline-working-on.md).
+**Note:** The timeline also indicates related items \(events\). One important difference is that the timeline indicates only historical related items — events that occurred before the timeline's map time. In contrast, the **Related items** panel lists all related items. For more information, see [Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-timeline-working-on.md).
 
 ## Procedure
 
@@ -37,7 +37,7 @@ Role required:
 
     \[Omitted image "um-related-items-panel.png"\] Alt text: Related items for the selected CI.
 
-    To specify which related item categories should appear on the **Related items** panel, see [Configure the Related items panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-configure-rel-items.md).
+    To specify which related item categories should appear on the **Related items** panel, see [Configure the Related items panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-configure-rel-items.md).
 
 2.  Select an arrow to view the details of the related item record.
 

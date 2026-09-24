@@ -2,7 +2,7 @@
 title: Import an assessment
 description: Share assessments between ServiceNow instances by importing a previously exported assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ImportAssessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ImportAssessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,10 +27,10 @@ Role required: admin
 2.  Follow the procedure detailed in [Import data from XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/import-xml-file.md).
 
 
-**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
 **Related topics**  
 
 
-[Export an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ExportAssessment.md)
+[Export an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ExportAssessment.md)
 

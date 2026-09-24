@@ -2,7 +2,7 @@
 title: Digital interface form
 description: Digital interfaces are provided as part of a business application, but they can also stand on their own. Interfaces provide a way for other business applications to interact with the applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-digital-interface-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-digital-interface-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -219,10 +219,10 @@ You can use the system-provided authentication types or add yours.
 |-----|-----------|
 |Work notes|Comments about the interface.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add or edit a digital interface in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-digital-interface.md)
+[Add or edit a digital interface in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-digital-interface.md)
 

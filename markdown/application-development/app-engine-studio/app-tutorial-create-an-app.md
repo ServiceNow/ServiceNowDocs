@@ -2,7 +2,7 @@
 title: Create an app
 description: When you're ready to start building your application, begin creating your application in App Engine Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-create-an-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/app-tutorial-create-an-app.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -38,7 +38,7 @@ Step 1
 
 </td><td>
 
-[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-introduction.md)
+[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-introduction.md)
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Step 2
 
 </td><td>
 
-[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-an-app.md)
+[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-create-an-app.md)
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Step 3
 
 </td><td>
 
-[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-data-model.md)
+[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-data-model.md)
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Step 4
 
 </td><td>
 
-[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-experience-layer.md)
+[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-experience-layer.md)
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Step 5
 
 </td><td>
 
-[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
+[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Step 6
 
 </td><td>
 
-[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-test-app.md)
+[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
 </table>\[Omitted video\] Description: Video in the app creation tutorial series. Create an application from scratch in App Engine Studio.
@@ -151,5 +151,5 @@ You’ve created an application in App Engine Studio. The application is empty a
 
 ## What to do next
 
-Now that your application is created, you can start building the data model for the application. Proceed to the next step in the tutorial: [Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-data-model.md).
+Now that your application is created, you can start building the data model for the application. Proceed to the next step in the tutorial: [Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-data-model.md).
 

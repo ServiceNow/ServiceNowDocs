@@ -2,7 +2,7 @@
 title: JWT Authentication
 description: The Verifi Issuer API uses JSON Web Tokens \(JWT\) for authentication. A fresh JWT must be generated for every API call. This section explains how to store credentials securely and how the ServiceNow script generates and attaches the JWT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/jwt-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/jwt-authentication.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-06"
@@ -57,5 +57,5 @@ Payload
 
 **Note:** Both iat and exp must be numeric \(integer\) Unix epoch values and not ISO 8601 date strings. Passing a string will cause Verifi to return a 401 Unauthorized error.
 
-**Parent Topic:**[Financial Services Operations Integration with Verifi reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/referring-financial-services-operations-integration-with-verifi-cdrn.md)
+**Parent Topic:**[Financial Services Operations Integration with Verifi reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/referring-financial-services-operations-integration-with-verifi-cdrn.md)
 

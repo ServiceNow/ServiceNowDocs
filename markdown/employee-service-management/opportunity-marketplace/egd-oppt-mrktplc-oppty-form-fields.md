@@ -2,7 +2,7 @@
 title: Form fields for creating opportunities in Opportunity Marketplace
 description: Gigs, projects, and volunteer opportunities have 2 forms with several fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-oppty-form-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-oppty-form-fields.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -173,7 +173,7 @@ There are 3 controls for **Preferred skills**. The skill and proficiency levels 
 
 </td><td>
 
-There are 4 levels of individual contributors and 2 levels of management included with the OPM base system. The **Employee level** is included in the Skills Foundation job level table \[sn\_skills\_int\_job\_level\]. For more information about skills, job levels, and roles, see [Configuring Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/configuring-skills-intelligence.md).
+There are 4 levels of individual contributors and 2 levels of management included with the OPM base system. The **Employee level** is included in the Skills Foundation job level table \[sn\_skills\_int\_job\_level\]. For more information about skills, job levels, and roles, see [Configuring Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/configuring-skills-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -184,5 +184,5 @@ There are 4 levels of individual contributors and 2 levels of management include
 Attachments provide more details about skills and roles for the opportunity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference Opportunity Marketplace roles and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-references.md)
+</table>**Parent Topic:**[Reference Opportunity Marketplace roles and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-references.md)
 

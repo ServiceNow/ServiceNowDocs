@@ -2,7 +2,7 @@
 title: Phase 2 - Prepare for the development instance upgrade
 description: For a better understanding of your production upgrade duration, request a full clone of your production instance \(including large tables and attachments\) onto a non-production instance. Confirm your current and target release versions, because you will later use this information when scheduling your upgrade in Now Support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-phase-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/upgrades-phase-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

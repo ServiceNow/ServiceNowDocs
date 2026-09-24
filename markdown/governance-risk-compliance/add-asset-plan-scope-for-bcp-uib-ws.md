@@ -2,7 +2,7 @@
 title: Add asset and scope to the BCP
 description: Add an asset and the scope to the business continuity plan \(BCP\). You can then view the primary elements in the BCM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-asset-plan-scope-for-bcp-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-asset-plan-scope-for-bcp-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ When you hover over the information icon in the column, it shows the comparison 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

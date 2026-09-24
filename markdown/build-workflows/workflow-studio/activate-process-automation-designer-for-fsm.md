@@ -2,7 +2,7 @@
 title: Activate Playbooks for Field Service Management
 description: Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/activate-process-automation-designer-for-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/activate-process-automation-designer-for-fsm.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -98,5 +98,5 @@ Enabling the **Playbooks for Field Service Management \[com.sn\_fsm\_playbook\]*
 -   Part Requirement \[sm\_part\_requirement\]
 -   Service Management Incidentals \[sm\_incidentals\]
 
-**Parent Topic:**[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md)
+**Parent Topic:**[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activate-process-automation-designer.md)
 

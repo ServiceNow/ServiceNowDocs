@@ -2,7 +2,7 @@
 title: Live feed view of assessable records
 description: The Live Feed view displays Live Feed conversations that apply to the assessable record. Users can view the group feed, including tagged comments, and add comments of their own.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_LiveFeed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_LiveFeed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ The Live Feed view provides these viewing options:
 
 \[Omitted image "live-feed-scorecard.png"\] Alt text: Live Feed group scorecard
 
-**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 

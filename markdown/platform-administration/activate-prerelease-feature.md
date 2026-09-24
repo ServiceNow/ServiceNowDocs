@@ -2,7 +2,7 @@
 title: Activate a pre-release feature
 description: Activate a pre-release feature on the instance so your users can try it out and provide feedback to the product team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/activate-prerelease-feature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/activate-prerelease-feature.html
 release: australia
 topic_type: task
 last_updated: "2026-05-14"
@@ -63,7 +63,7 @@ The feature is now activated on your production instance. Your users can now acc
 
 After activating a feature, you can contact the product team directly to share feedback.
 
-If you decide to stop using the feature, you can deactivate it at any time. For more information, see [Deactivate a pre-release feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deactivate-prerelease-feature.md).
+If you decide to stop using the feature, you can deactivate it at any time. For more information, see [Deactivate a pre-release feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/deactivate-prerelease-feature.md).
 
-**Parent Topic:**[Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/feature-preview-program.md)
+**Parent Topic:**[Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/feature-preview-program.md)
 

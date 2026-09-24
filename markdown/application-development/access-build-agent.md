@@ -2,12 +2,12 @@
 title: Accessing Build Agent in ServiceNow Studio
 description: Build Agent is available in ServiceNow Studio for UI-first, declarative workflows. You can also use Build Agent the ServiceNow IDE within ServiceNow Studio for code-first, autonomous full-stack development.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/access-build-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/access-build-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-02"
 reading_time_minutes: 6
-keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -28,13 +28,13 @@ To open an existing conversation, select the Conversations icon \[Omitted image 
 **Note:**
 
 -   Currently, only admins have permissions to use Build Agent.
--   You must have the correct plugins installed to access Build Agent. For more information, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md).
+-   You must have the correct plugins installed to access Build Agent. For more information, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/install-build-agent.md).
 
 You can start a Build Agent session with an active working set already loaded by right-clicking an artifact in the ServiceNow AI Platform, which displays a list of related metadata that you can edit. Then select the **Configure** option, which opens the record in ServiceNow Studio. From there, you can start a new Build Agent conversation about what you want to do with the metadata.
 
 ## Build Agent environments
 
-You can use Build Agent in both ServiceNow Studio, which contains the ServiceNow IDE if you want to create apps in source code. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
+You can use Build Agent in both ServiceNow Studio, which contains the ServiceNow IDE if you want to create apps in source code. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
 
 Your choice on where to access Build Agent depends on your role and workflow.
 
@@ -81,13 +81,13 @@ The handoff record stores a versioned summary of the conversation and a referenc
 
 ## Build Agent and sandboxes
 
-Use Build Agent in an isolated development environment with Developer Sandboxes. Sandboxes provide parallel development for distributed developers, with isolated metadata and Git integration. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/sandboxes-landing.md).
+Use Build Agent in an isolated development environment with Developer Sandboxes. Sandboxes provide parallel development for distributed developers, with isolated metadata and Git integration. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/sandboxes-landing.md).
 
 ## Build Agent and PDIs
 
 You can access Build Agent on a Personal Development Instance \(PDI\). Developers using PDIs get 25 prompts per instance per 30-day cycle.
 
-PDIs are updated to match the latest Build Agent for a consistent experience across both personal and production-track instances. Developers testing and building on PDIs have access to the same capabilities available in production environments. For more information on PDIs, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md).
+PDIs are updated to match the latest Build Agent for a consistent experience across both personal and production-track instances. Developers testing and building on PDIs have access to the same capabilities available in production environments. For more information on PDIs, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/personal_developer_instance_guide.md).
 
 ## Notes and limitations
 
@@ -96,7 +96,7 @@ Keep the following in mind when using Build Agent:
 -   Build Agent generates metadata supported by ServiceNow Fluent. Verify artifact compatibility before approval.
 -   Feature availability and UI details might differ between monthly releases. Confirm behavior against your instance version.
 
-For more information on limitations, see [Build Agent limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-limitations.md).
+For more information on limitations, see [Build Agent limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-limitations.md).
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-build-agent.md)
 

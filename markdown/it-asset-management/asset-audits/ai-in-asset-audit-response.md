@@ -2,14 +2,14 @@
 title: AI in Asset Audit Response
 description: Set up, manage, and optimize your generative AI solutions on the ServiceNow AI Platform from a single workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/ai-in-asset-audit-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-audits/ai-in-asset-audit-response.html
 release: australia
 product: Asset Audits
 classification: asset-audits
 topic_type: concept
 last_updated: "2026-03-18"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Asset Audit Response, IT Asset Management, Asset Management]
 ---
 
@@ -25,7 +25,7 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
 For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-For more information about AI capabilities in Asset Audit Response, see [Fulfill evidence requests through the Asset Response Guided Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/fulfill-evidence-requests-guided-experience.md).
+For more information about AI capabilities in Asset Audit Response, see [Fulfill evidence requests through the Asset Response Guided Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-audits/fulfill-evidence-requests-guided-experience.md).
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 

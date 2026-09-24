@@ -2,7 +2,7 @@
 title: Register an MCP server via AI Control Tower
 description: When MCP Servers are registered through AI Control Tower, connecting them to an agent happens in two steps: first register the server at the instance level in AI Agent Studio, then add it as a tool within the specific agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-add-a-new-mcp-server-to-an-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-add-a-new-mcp-server-to-an-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-09-02"

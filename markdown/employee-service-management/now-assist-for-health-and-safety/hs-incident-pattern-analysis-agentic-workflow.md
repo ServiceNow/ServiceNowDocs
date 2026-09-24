@@ -2,7 +2,7 @@
 title: Health safety incident patterns assistant agentic workflow
 description: Use the Health safety incident patterns assistant agentic workflow to analyze Health and Safety incident patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis-agentic-workflow.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety

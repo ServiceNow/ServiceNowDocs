@@ -2,7 +2,7 @@
 title: Configure Now Assist privacy policies
 description: Configure privacy policies to anonymize data in Now Assist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-privacy-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-privacy-policies.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Configure privacy policies to anonymize data in Now Assist.
 
 You must have the following applications installed on your instance:
 
-If you do not have a data steward, see [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assign-data-steward-role.md) documentation.
+If you do not have a data steward, see [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/assign-data-steward-role.md) documentation.
 
 Role required: sn\_generative\_ai.data\_steward
 
@@ -41,5 +41,5 @@ The Now Assist **Privacy Policies** enables you to review and configure how pers
     See [Configuring Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-now-assist-data-privacy.md) for more information on configuring Now Assist policies.
 
 
-**Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-sharing-and-processes.md)
+**Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-sharing-and-processes.md)
 

@@ -2,7 +2,7 @@
 title: Tree picker lookup
 description: The reference lookup can be rendered in the tree picker format by modifying the dictionary and adding the attribute tree\_picker.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_TreePickerLookup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_TreePickerLookup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Domain Separation and Discovery
 description: Domain separation is supported in Discovery. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryDomainSeparation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c\_DiscoveryDomainSeparation.html
 release: australia
 product: Discovery
 classification: discovery
@@ -74,10 +74,10 @@ Records in all tables that extend the Base Configuration Item \[cmdb\] table can
 -   Load Balancer VLAN Interface \[cmdb\_lb\_vlan\_interface\]
 -   Switch Port \[cmdb\_switch\_port\]
 
--   **[Configure domain-separated Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-domain-separated-discovery-schedules.md)**  
+-   **[Configure domain-separated Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/configure-domain-separated-discovery-schedules.md)**  
 Configuring the "Run as" user in a Discovery schedule directs discovered Configuration Items \(CIs\) to the correct domain and maintains data isolation.
 
-**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryConfiguration.md)
+**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryConfiguration.md)
 
 **Related topics**  
 
@@ -86,5 +86,5 @@ Configuring the "Run as" user in a Discovery schedule directs discovered Configu
 
 [Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 
-[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
+[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryBehaviors.md)
 

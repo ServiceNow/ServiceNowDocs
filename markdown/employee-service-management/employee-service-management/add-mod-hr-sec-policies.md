@@ -20,7 +20,7 @@ Role required: sn\_hr\_ef.admin
 
 You can determine who can read, write, or authorize purging of documents by adding or modifying document security policies.
 
-**Note:** You can provide employees visibility into their own employee documents through their HR profile. Check the **Employee access** box on the **Document type** form. See [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md).
+**Note:** You can provide employees visibility into their own employee documents through their HR profile. Check the **Employee access** box on the **Document type** form. See [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md).
 
 Users are granted access to employee documents by:
 
@@ -30,7 +30,7 @@ Users are granted access to employee documents by:
 
 The security policy can require authorization to purge and requires a user to belong to a group that has purge authorization.
 
-See [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md) and [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md). Or see [Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md) and [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md).
+See [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ManageHRGroups.md) and [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManageRoles.md). Or see [Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ManageHRGroups.md) and [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManageRoles.md).
 
 ## Procedure
 

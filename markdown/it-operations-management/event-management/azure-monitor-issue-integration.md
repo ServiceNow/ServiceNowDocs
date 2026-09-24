@@ -2,12 +2,12 @@
 title: Azure Monitor Issue integration
 description: An Azure Issue is a unified case that aggregates related alerts and signals from Azure Monitor into a single, trackable operational problem. It preserves investigation context and serves as a durable record for incident management Incident Management, so you can resolve problems faster instead of tracking scattered alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/azure-monitor-issue-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/azure-monitor-issue-integration.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -37,7 +37,7 @@ Note the following before you start:
 
 -   If you have different tenants with different Azure Service Principal credentials \(per tenant or per subscription\), create separate Azure Push Connector instances. Use them to push Azure alerts or issues into your ServiceNow instances.
 
-You can integrate Azure Monitor issues using Integration Launchpad. For more information, see [Configure Azure Monitor Issue in Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-azure-monitor-issue-integrations-launchpad.md).
+You can integrate Azure Monitor issues using Integration Launchpad. For more information, see [Configure Azure Monitor Issue in Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-azure-monitor-issue-integrations-launchpad.md).
 
 ## Procedure
 
@@ -46,7 +46,7 @@ You can integrate Azure Monitor issues using Integration Launchpad. For more inf
     1.  Navigate to your Azure Monitor Workspace.
     2.  Navigate to **Settings** &gt; **Action groups** and select the existing action group that you use to send Azure alerts to ServiceNow.
 
-        This creates an alert, and in turn, the Alert Management rule creates an incident. If you're configuring Azure issues for the first time, first create an action group by following the steps in [Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-events-authentication.md).
+        This creates an alert, and in turn, the Alert Management rule creates an incident. If you're configuring Azure issues for the first time, first create an action group by following the steps in [Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/azure-events-authentication.md).
 
     3.  If you need related alerts and resource information for an issue in the Azure portal under the **Alerts** and **Resources** tab and for bi-directional synchronization, configure the pull connector by performing the steps as mentioned below.
 2.  In the ServiceNow AI Platform instance, configure a pull connector if you have used a push connector to send Azure issues by perform the following steps:
@@ -100,5 +100,5 @@ You can integrate Azure Monitor issues using Integration Launchpad. For more inf
             If Azure bi-directional connector is enabled, when an Azure issue is closed in ServiceNow, it automatically closes in the Azure portal as well.
 
 
-**Parent Topic:**[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-integration.md)
+**Parent Topic:**[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/azure-integration.md)
 

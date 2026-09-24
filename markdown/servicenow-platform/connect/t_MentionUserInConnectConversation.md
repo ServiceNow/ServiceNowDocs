@@ -2,7 +2,7 @@
 title: Mention a user in a Connect conversation
 description: You can get someone's attention in a group conversation by mentioning them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_MentionUserInConnectConversation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/t\_MentionUserInConnectConversation.html
 release: australia
 product: Connect
 classification: connect

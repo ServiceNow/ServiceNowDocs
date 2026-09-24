@@ -2,7 +2,7 @@
 title: Create a decision tree for a needs template
 description: Create a decision tree that defines the questions that agents answer to determine customer needs and get product recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-needs-decision-tree.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-needs-decision-tree.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,12 +49,12 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## What to do next
 
-[Build a needs decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/build-needs-decision-tree.md) using Decision Tree Builder.
+[Build a needs decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/build-needs-decision-tree.md) using Decision Tree Builder.
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

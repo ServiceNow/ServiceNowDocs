@@ -2,7 +2,7 @@
 title: Idea Category Configuration form
 description: Learn about the fields of the idea category configuration form. Use this form to create or edit the details of an idea category configuration in Innovation Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/idea-category-configurations-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/innovation-management/idea-category-configurations-form.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -63,10 +63,10 @@ Module
 The Idea module to which this idea category belongs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/form-field-information-for-innovation-management.md)
+</table>**Parent Topic:**[Form field information for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/form-field-information-for-innovation-management.md)
 
 **Related topics**  
 
 
-[Configure idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/category-configuration-existing-table.md)
+[Configure idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/category-configuration-existing-table.md)
 

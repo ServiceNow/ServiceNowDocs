@@ -2,7 +2,7 @@
 title: Component properties for the Object list
 description: Component property enables you to configure the behavior of the Object list component on a third-party website.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-object-list-comp-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/we-object-list-comp-prop.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -134,11 +134,11 @@ Global actions and actions set at the table or view level will automatically be 
 **Related topics**  
 
 
-[Configure the Object list component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-config-object-list-comp.md)
+[Configure the Object list component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-config-object-list-comp.md)
 
-[Embed the Object list component on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-embed-object-list-comp-on-thirdparty-web.md)
+[Embed the Object list component on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-embed-object-list-comp-on-thirdparty-web.md)
 
-[Event handlers in the Object list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-event-handlers-object-list.md)
+[Event handlers in the Object list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-event-handlers-object-list.md)
 
-[Sample code for the Object list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-object-list-sample-code.md)
+[Sample code for the Object list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-object-list-sample-code.md)
 

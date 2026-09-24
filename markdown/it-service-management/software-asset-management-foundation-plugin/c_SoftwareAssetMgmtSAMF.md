@@ -2,7 +2,7 @@
 title: Software Asset Management Foundation plugin
 description: The Software Asset Management Foundation plugin activates the ITSM Software Asset Management feature provided with the Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/c\_SoftwareAssetMgmtSAMF.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management-foundation-plugin/c\_SoftwareAssetMgmtSAMF.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -61,20 +61,20 @@ Reconciliation
 The reconciliation process calculates the compliance status of software products with respect to discovery and entitlements. Remediation options are created to resolve compliance issues.
 
 </td></tr></tbody>
-</table>-   **[Exploring Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)**  
+</table>-   **[Exploring Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)**  
 The Software Asset Management Foundation plugin \(com.snc.sams\) supports tracking, evaluating, and managing software licenses and compliance. You can access this functionality through the Software Asset Workspace or the Software Asset Management Core UI.
--   **[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)**  
+-   **[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)**  
 Set up Software Asset Management Foundation plugin before configuration.
--   **[Configuring Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)**  
+-   **[Configuring Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)**  
 Once you have finished setting up the Software Asset Management Foundation plugin and the Software Asset Workspace plugin applications, you need to configure the Software Asset Workspace.
--   **[Configuring the classic Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)**  
+-   **[Configuring the classic Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)**  
 Configure Software Asset Management Foundation plugin if you prefer to continue using the classic version.
--   **[Using Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)**  
+-   **[Using Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)**  
 Use the Software Asset Workspace, the intuitive and streamlined user interface of the Software Asset Management Foundation plugin application.
--   **[Using Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)**  
+-   **[Using Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)**  
 Using Software Asset Management Foundation plugin classic.
--   **[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)**  
+-   **[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)**  
 Software Asset Management Foundation plugin administration tasks include adding custom product records, creating custom license metrics, and setting properties. You can also refresh processor definitions, and migrate software installations.
 
-**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-sam.md)
+**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-sam.md)
 

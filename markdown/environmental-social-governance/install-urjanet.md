@@ -2,7 +2,7 @@
 title: Install Operational Sustainability Integration with Urjanet
 description: You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/install-urjanet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/install-urjanet.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ The following items are installed with Operational Sustainability Integration wi
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
+For more information, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/components-installed-with-esg.md).
 
 ## Procedure
 
@@ -56,5 +56,5 @@ For more information, see [Components installed with Operational Sustainability 
 6.  Select **Install**.
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

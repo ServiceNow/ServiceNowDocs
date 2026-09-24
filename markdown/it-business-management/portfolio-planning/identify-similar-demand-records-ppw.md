@@ -2,7 +2,7 @@
 title: Identify similar records using AI
 description: Use the identify similar records skill to find demand records with similar names, descriptions, or business case content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/identify-similar-demand-records-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/identify-similar-demand-records-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

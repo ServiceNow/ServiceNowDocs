@@ -2,7 +2,7 @@
 title: Quotation marks allow exact phrase searches
 description: Wrap search terms in quotation marks to search for an exact phrase consisting of one or more words.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/c\_PhraseSearches.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/c\_PhraseSearches.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -39,7 +39,7 @@ For example, searching for the phrase `"email password"` returns the same search
 -   `"email password?"` because the punctuation mark `?` is ignored.
 -   `"email password*"` because the wildcard character `*` is ignored as punctuation.
 
-**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_IntroductionToSearching.md)
+**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_IntroductionToSearching.md)
 
 **Related topics**  
 

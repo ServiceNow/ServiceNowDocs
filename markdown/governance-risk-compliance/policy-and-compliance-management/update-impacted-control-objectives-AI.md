@@ -2,7 +2,7 @@
 title: Use Control Objective Change Agent to update control objectives
 description: Use the Control Objective Change Agent to review and update impacted Control Objectives based on latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/update-impacted-control-objectives-AI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/update-impacted-control-objectives-AI.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

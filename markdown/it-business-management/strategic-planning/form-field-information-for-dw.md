@@ -2,7 +2,7 @@
 title: Forms
 description: Field information for forms used in Next Experience for Demand Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/form-field-information-for-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/form-field-information-for-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

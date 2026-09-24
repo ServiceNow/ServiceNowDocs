@@ -2,7 +2,7 @@
 title: Clone taxonomy for employee content
 description: Clone the taxonomy that is provided out-of-the-box to make your own additions or modifications to the provided topic structure that aligns to your unified portal needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/clone-taxonomy-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/clone-taxonomy-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,7 +36,7 @@ By default, Employee Center application ships employee-centric taxonomy and taxo
 
 4.  Enter the **New Taxonomy Name** in the dialog box that appears and click **OK**.
 
-    This copies the taxonomy and its contents to the new taxonomy. Optionally, you can manually create a taxonomy and add your topics. For more information, see, [Create taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-taxonomy-content.md)
+    This copies the taxonomy and its contents to the new taxonomy. Optionally, you can manually create a taxonomy and add your topics. For more information, see, [Create taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-taxonomy-content.md)
 
 5.  Modify the taxonomy content and click **Update**.
 

@@ -2,7 +2,7 @@
 title: Associate an existing case with an email interaction
 description: Avoid duplicate case creation by associating an existing case with an email interaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-existing-case-with-email-interaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-existing-case-with-email-interaction.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

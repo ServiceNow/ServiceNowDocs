@@ -2,7 +2,7 @@
 title: Add a user as a contact
 description: Add a user to a communication plan if you have not added the user earlier in the contact. You can assign a communication task to the user to resolve an issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/t\_AddAContactManually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/t\_AddAContactManually.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -24,7 +24,7 @@ Role required: ia\_admin or admin
 
 1.  Navigate to **All** &gt; **Incident Communications Management** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Open an incident communications plan record.
 
@@ -88,7 +88,7 @@ Name of the user who is considered as the contact.
     The contact information appears in the Users related list.
 
 
-**Parent Topic:**[Incident Communications Management and Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
+**Parent Topic:**[Incident Communications Management and Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
 
 **Related topics**  
 

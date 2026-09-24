@@ -2,7 +2,7 @@
 title: SNAnalytics - Client
 description: The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the Usage Insights for Service Portal dashboard.Stores the specified event information in the analytics data store.Appends the specified string to the specified user string property in the analytics data store.Increments or decrements the specified user property value with the specified number value in the analytics data store.Removes the specified property for the current user from the analytics data store.Sets the specified properties with the specified values for the current user in the analytics data store.Sets the specified property with the specified value for the current user in the analytics data store.Saves the name and description of a page in the analytics data store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/SNAnalyticsClientAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/SNAnalyticsClientAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -26,7 +26,7 @@ To access this API, the Service Portal Analytics \(com.glide.service-portal.anal
 
 For additional information, see [Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sp-analytics.md).
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 
 ## SNAnalytics - addEvent\(Object payload\)
 
@@ -48,7 +48,7 @@ snAnalytics.addEvent(payload);
 
 The screen capture below shows the information that appears on the analytics dashboard for the event "Manage Account." The timeline at the top represents the number of times that the event occurred. The pie charts below the timeline reflect the properties that were captured in the addEvent\(\) call. \[Omitted image "Dashboard\_with\_events.png"\] Alt text: Dashboard with events
 
-If you want to capture when users access a web page, use the [SNAnalytics - startPage\(String name, String description\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/SNAnalyticsClientAPI.md) method instead of this method.
+If you want to capture when users access a web page, use the [SNAnalytics - startPage\(String name, String description\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/SNAnalyticsClientAPI.md) method instead of this method.
 
 <table id="table_u1m_5gr_z4b" class="parameters"><thead><tr><th>
 

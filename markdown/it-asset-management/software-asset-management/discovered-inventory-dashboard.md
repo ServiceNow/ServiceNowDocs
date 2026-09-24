@@ -2,7 +2,7 @@
 title: Discovered inventory dashboard
 description: View your licensable discovered software and devices on the Discovered inventory dashboard in the Software asset analytics view of Software Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/discovered-inventory-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/discovered-inventory-dashboard.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -46,7 +46,7 @@ Software Installation \[cmdb\_sam\_sw\_install\]
 
 </td><td>
 
-Number of normalized and not normalized installs. For more information on normalized installations, see [Normalization statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/normalization-status.md).
+Number of normalized and not normalized installs. For more information on normalized installations, see [Normalization statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/normalization-status.md).
 
 </td></tr><tr><td>
 

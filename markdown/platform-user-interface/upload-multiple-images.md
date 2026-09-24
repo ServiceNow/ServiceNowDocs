@@ -2,7 +2,7 @@
 title: Upload one or more images
 description: You can upload one image or multiple images at one time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/upload-multiple-images.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/upload-multiple-images.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Role required: image\_admin or content\_admin
 
 2.  To upload multiple images at once, complete the following steps:
 
-    1.  Create a .zip file that contains only [acceptable image file types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
+    1.  Create a .zip file that contains only [acceptable image file types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
         **Note:** The system does not support uploading zip files that contain .bmp images.
 
@@ -56,7 +56,7 @@ Role required: image\_admin or content\_admin
     -   Image names cannot exceed 100 characters in length, including folder structure. Files with excessively long names are rejected.
     -   Uploads are logged in the system. View system logs to see whether files are uploaded or rejected.
 
-**Parent Topic:**[Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md)
+**Parent Topic:**[Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_StoringImagesInTheDatabase.md)
 
 **Related topics**  
 

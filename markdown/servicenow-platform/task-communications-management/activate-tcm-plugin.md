@@ -2,7 +2,7 @@
 title: Activate Task Communications Management
 description: The Task Communications Management plugin \(com.snc.task\_communication\_management\) is activated when you activate the Incident Communications Management plugin \(com.snc.iam\) or the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/activate-tcm-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/task-communications-management/activate-tcm-plugin.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management
@@ -64,10 +64,10 @@ The Targeted Communications plugin provides a way to publish and send out newsle
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/components-installed-with-tcm.md)**  
+-   **[Components installed with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/task-communications-management/components-installed-with-tcm.md)**  
 Several types of components are installed with the Task Communications Management plugin, including tables and user roles.
 
-**Parent Topic:**[Task Communications Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/tcm-plugins.md)
+**Parent Topic:**[Task Communications Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/task-communications-management/tcm-plugins.md)
 
 **Related topics**  
 

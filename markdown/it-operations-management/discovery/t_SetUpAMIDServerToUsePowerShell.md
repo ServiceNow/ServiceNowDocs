@@ -2,7 +2,7 @@
 title: Set up MID Servers to use PowerShell
 description: Configure MID Servers in your organization to use PowerShell for horizontal and top-down discovery of Windows servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_SetUpAMIDServerToUsePowerShell.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_SetUpAMIDServerToUsePowerShell.html
 release: australia
 product: Discovery
 classification: discovery
@@ -39,5 +39,5 @@ PowerShell version 2.0 is not supported, therefore it is recommended to upgrade 
     Although you can disable PowerShell by changing the **mid.use\_powershell** and **mid.sa.prefer\_powershell**, this method is deprecated and should not be used.
 
 
-**Parent Topic:**[PowerShell for Discovery and Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md)
+**Parent Topic:**[PowerShell for Discovery and Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_PowerShellForDiscovery.md)
 

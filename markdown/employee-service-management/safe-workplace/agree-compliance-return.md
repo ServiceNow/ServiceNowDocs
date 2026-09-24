@@ -2,7 +2,7 @@
 title: Verify your health status and compliance
 description: Verify that you understand and will comply with your organization's safety requirements and policies before you can be allowed entry to the location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/agree-compliance-return.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/agree-compliance-return.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -39,7 +39,7 @@ Typically, you receive an email or a mobile notification from your organization 
 
 3.  Take one of the following actions.
 
-<table id="choicetable_bvw_y2r_zlb"><tbody><tr><td id="d793933e149">
+<table id="choicetable_bvw_y2r_zlb"><tbody><tr><td id="d793937e149">
 
 **If you agree to all statements**
 
@@ -47,7 +47,7 @@ Typically, you receive an email or a mobile notification from your organization 
 
 Select the **I acknowledge that I meet all the above criteria** check box.
 
-</td></tr><tr><td id="d793933e161">
+</td></tr><tr><td id="d793937e161">
 
 **If you can't agree to one or more of the statements**
 
@@ -64,7 +64,7 @@ Exit the form without submitting it.
 
 4.  If you're returning to an office and need to reserve a workspace, click **Reserve a space**.
 
-    The link enables you to reserve a space for a specific day. If you want to reserve a space for a longer period of time, you must request it separately and wait for the request to be approved. For more information about reserving a workspace, see [Making workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/requesting-workspace-reservations.md).
+    The link enables you to reserve a space for a specific day. If you want to reserve a space for a longer period of time, you must request it separately and wait for the request to be approved. For more information about reserving a workspace, see [Making workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/requesting-workspace-reservations.md).
 
     **Note:** Reserving a workspace requires the sn\_wsd\_core.workplace\_user role. If you do not see the link to reserve a space, contact your system administrator.
 
@@ -73,14 +73,14 @@ Exit the form without submitting it.
 
 Your organization may have health monitors at entrances to check that you completed the entry requirements or to conduct a health screening before entry. If you received a QR code when you submitted the health verification, navigate to **Health** &gt; **Prepare for arrival** &gt; **My office entry code** in the Now Mobile app to show your QR code to the health monitor when you arrive at the location.
 
-**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/employee-health-screening.md)
 
 **Related topics**  
 
 
-[Add an email notification for daily health verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/add-daily-health-verification-notif.md)
+[Add an email notification for daily health verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/add-daily-health-verification-notif.md)
 
-[Configure Emergency Outreach notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/configure-emergency-outreach.md)
+[Configure Emergency Outreach notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-outreach/configure-emergency-outreach.md)
 
-[Review daily health verification acknowledgements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/daily-health-verif-review-outreach-acks.md)
+[Review daily health verification acknowledgements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-outreach/daily-health-verif-review-outreach-acks.md)
 

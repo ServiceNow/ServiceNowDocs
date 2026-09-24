@@ -2,7 +2,7 @@
 title: Vulnerability Response AI agent collection for the Analyze vulnerability remediation status agentic workflow
 description: The tools and AI agents for the Analyze vulnerability remediation status agentic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-vr-sla-target-usecase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/now-assist-vr-sla-target-usecase.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,5 +28,5 @@ If you want to modify this agentic workflow, you can [duplicate](https://raw.git
 
 The Remediation Compliance Insights Provider is used by the Analyze vulnerability remediation status agentic workflow.
 
-**Parent Topic:**[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vulnerability-response-reference.md)
+**Parent Topic:**[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vulnerability-response-reference.md)
 

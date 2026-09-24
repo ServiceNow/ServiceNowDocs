@@ -2,7 +2,7 @@
 title: Remove the self-configured bot integration with Slack
 description: Remove the self-configured bot integration from your ServiceNow instance to disassociate the Slack app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/remove-slack-self-config-integ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/remove-slack-self-config-integ.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -40,5 +40,5 @@ Roles required: virtual\_agent\_admin or admin
     The self-configured bot integration with Slack has been removed successfully.
 
 
-**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
+**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
 

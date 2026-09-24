@@ -2,7 +2,7 @@
 title: Set up Vaccination Status properties
 description: Set up Vaccination Status properties to define the data retention period for user-reported vaccination status data, manage reminder emails, and enable exemptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/config-vaccination-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/config-vaccination-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -213,7 +213,7 @@ Enable this property to automatically update vaccine review outcomes when a vali
  -   First and last name
 -   Date received
 -   Vaccine code, such as a CVX code, to verify the vaccine's manufacturer
- This property is inactive by default. For more information on enabling automated vaccine response reviews, see [Automating vaccine response reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status-vaccine-validation.md).
+ This property is inactive by default. For more information on enabling automated vaccine response reviews, see [Automating vaccine response reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/vaccination-status-vaccine-validation.md).
 
 </td></tr><tr><td>
 
@@ -225,11 +225,11 @@ If your organization is using the Azure Form Recognizer service to automatically
 
  Your organization must also enable the \[**sn\_imt\_vaccine.allow\_automated\_response\_approval**\] property to enable automated vaccine review outcomes based on the Azure Form Recognizer service and confidence threshold.
 
- For more information, see [Automating vaccine response reviews with the Azure Form Recognizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/automate-vaccine-validation-with-azure-form-recognizer.md).
+ For more information, see [Automating vaccine response reviews with the Azure Form Recognizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/automate-vaccine-validation-with-azure-form-recognizer.md).
 
 </td></tr></tbody>
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/vaccination-status.md)
 

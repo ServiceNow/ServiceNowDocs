@@ -2,7 +2,7 @@
 title: Configure a process for a clustering solution
 description: Configure a process to be able to generate a cluster analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/process-configuration-clustering.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/process-configuration-clustering.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -31,7 +31,7 @@ Configure a process to be able to generate a cluster analysis.
 
 2.  Open the process configuration for which you want to configure the cluster analysis.
 
-    Alternately, you can also choose to create a new process configuration by selecting **New**. For more information, see [Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-process-config.md).
+    Alternately, you can also choose to create a new process configuration by selecting **New**. For more information, see [Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-process-config.md).
 
     \[Omitted image "config-cluster-analysis.png"\] Alt text: Configuring cluster analysis
 
@@ -48,7 +48,7 @@ Configure a process to be able to generate a cluster analysis.
 
 ## What to do next
 
-[Perform a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/request-cluster-analysis.md)
+[Perform a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/request-cluster-analysis.md)
 
-**Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md)
+**Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/cluster-analysis.md)
 

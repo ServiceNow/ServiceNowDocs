@@ -2,7 +2,7 @@
 title: External Related Files spoke
 description: The External Related Files spoke stores information about files in third-party systems and helps you manage the information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/ext-related-files.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/ext-related-files.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -84,5 +84,5 @@ sn\_ext\_files\_spoke.provider\_admin
 Read, update, and delete records in the External Provider table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
+</table>**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/spokes.md)
 

@@ -2,7 +2,7 @@
 title: Enable CAM workflow configuration
 description: Enable the CAM workflow configuration to use custom workflows and frameworks in CAM. This feature enables you to configure workflows beyond the default National Institute of Standards and Technology \(NIST\) framework and adapt CAM to your organization's specific requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/enable-cam-workflow-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/enable-cam-workflow-configuration.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -50,7 +50,7 @@ To proceed with data migration, select **Script for migrating data to cam workfl
 
 This link is available at all times, even after the property is enabled, so you can run migration when required.
 
-See [Run migration scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/run-migration-scheduled-job.md) from Step 4 for detailed migration steps.
+See [Run migration scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/run-migration-scheduled-job.md) from Step 4 for detailed migration steps.
 
-**Parent Topic:**[CAM workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-workflow-configurator.md)
+**Parent Topic:**[CAM workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-workflow-configurator.md)
 

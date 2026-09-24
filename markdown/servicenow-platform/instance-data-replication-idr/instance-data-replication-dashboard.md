@@ -2,7 +2,7 @@
 title: Monitoring replication status in Instance Data Replication
 description: Monitor the status of active producer and consumer replication sets, scheduled jobs, seeding requests, license usage, or scheduled replication through the Instance Data Replication \(IDR\) Monitoring Dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/instance-data-replication-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instance-data-replication-idr/instance-data-replication-dashboard.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -214,7 +214,7 @@ Monitor the status of scheduled replication requests within a specific time peri
     A table showing the count for each status in the selected date range.
 
 
-**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 

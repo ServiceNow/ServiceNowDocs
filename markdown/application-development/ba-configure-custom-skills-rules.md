@@ -2,12 +2,12 @@
 title: Configure custom skills and rules
 description: Create and manage custom skills and rules, or instructions to control how Build Agent behaves during a session. Rules are preloaded into every session automatically. Skills are available on demand when you or the agent invokes them by name.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ba-configure-custom-skills-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-configure-custom-skills-rules.html
 release: australia
 topic_type: task
 last_updated: "2026-08-03"
 reading_time_minutes: 4
-keywords: [custom skills, custom rules, build agent, configure, instructions, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [custom skills, custom rules, build agent, configure, instructions, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -161,5 +161,5 @@ Instruction text that Build Agent follows. Plain text only, maximum 65,000 chara
 
 Active rules get dynamically loaded per turn in a Build Agent session, so they're available immediately. Active skills are available immediately on demand during a session.
 
-**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-build-agent.md)
 

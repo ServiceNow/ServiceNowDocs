@@ -2,7 +2,7 @@
 title: Add or remove entitlements for a contract renewal
 description: Add or remove software entitlements that you want to include in the contract renewal process by using the Software assets selection task. You can also view the entitlements carried over to the new contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/select-sw-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/select-sw-asset.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -40,7 +40,7 @@ The entitlements with the following license types are carried over to the new co
 
     2.  On the Software Entitlement form, fill in the required fields.
 
-        For more information, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+        For more information, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
     3.  Select **Save**.
 
@@ -88,5 +88,5 @@ Add or remove entitlements to indicate the entitlements you want to cover.
 
 ## What to do next
 
-[Update terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/update-terms-conditions.md)
+[Update terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/update-terms-conditions.md)
 

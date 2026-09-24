@@ -2,7 +2,7 @@
 title: Use case: Modifying layout text with SLDS styles
 description: Learn how to implement styles in the Salesforce Lightning Design System to control the appearance of text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_modifying\_layout\_text\_with\_slds\_styles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/use\_case\_modifying\_layout\_text\_with\_slds\_styles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ Redeploy your blueprint and youʼre done. Open an applicable product in the conf
 
 \[Omitted image "cpq-layout-custom-headings.png"\] Alt text: Graphics card
 
-**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-cases.md)
 

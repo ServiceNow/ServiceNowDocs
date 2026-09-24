@@ -2,7 +2,7 @@
 title: Using Mobile AI Voice Agent
 description: Use Mobile AI Voice Agent to start voice conversations with an intelligent, AI-powered voice assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/using-mobile-ai-voice-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/using-mobile-ai-voice-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -96,5 +96,5 @@ When you end a back-grounded call, a push notification reminds you that the voic
     On Android, a persistent notification appears in the notification panel while the call is active. Tap the notification to access mute and end call controls. A separate notification entry shows the call in your notification list.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-now-assist-mobile.md)
 

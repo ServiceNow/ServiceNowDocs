@@ -2,7 +2,7 @@
 title: Create connection with Microsoft Exchange Online Spoke in strict mode
 description: Configure a strict mode connection with the Microsoft Exchange Online spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke-strict-mode.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke-strict-mode.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -30,7 +30,7 @@ Role required: admin
 
 2.  After installing Microsoft Exchange Online spoke, depending on what type of customer you are, perform the following actions:
 
-    -   If you are a new customer, to install the applications, refer to [Install Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/install-workplace-calendar-synchronization.md).
+    -   If you are a new customer, to install the applications, refer to [Install Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/install-workplace-calendar-synchronization.md).
     -   If you are an existing customer, upgrade to the latest versions of the following applications:
         -   Workplace Reservation Management.
         -   Workplace Calendar Synchronization.
@@ -43,7 +43,7 @@ Role required: admin
     3.  Select **Repair**.
 
 
-**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md)
+**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md)
 
 **Related topics**  
 

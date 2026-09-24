@@ -2,7 +2,7 @@
 title: Read/write role for email client templates \[email\_client\_template\_write\]
 description: Reads and writes email client templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-client-roles-4.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/email-client-roles-4.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

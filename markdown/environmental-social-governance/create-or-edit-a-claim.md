@@ -2,7 +2,7 @@
 title: Create or edit a claim
 description: Create or edit a claim that accurately documents a specific achievement, commitment, event, or activity performed by your organization, suitable for use in future disclosures or reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-or-edit-a-claim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-or-edit-a-claim.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,8 +35,8 @@ Role required: sn\_grc\_claims.manager
 
 Learn about the fields of the **Claims for reporting** form. Use this form to create a new claim.
 
--   **[Claims for reporting fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/claims-for-reporting-fields.md)**  
+-   **[Claims for reporting fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/claims-for-reporting-fields.md)**  
 Learn about the fields of the **Claims for reporting** form. Use this form to create a new claim.
 
-**Parent Topic:**[Claims for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/claims-for-reporting.md)
+**Parent Topic:**[Claims for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/claims-for-reporting.md)
 

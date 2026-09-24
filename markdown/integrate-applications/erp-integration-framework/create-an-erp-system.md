@@ -2,7 +2,7 @@
 title: Create an ERP system in Zero Copy Connector for ERP
 description: Configure an ERP system in Zero Copy Connector for ERP to register your ERP connection so that models and tables can use it as a data source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/create-an-erp-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/create-an-erp-system.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -27,7 +27,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Zero Copy Connector for ERP supports connecting to multiple systems.
 
-Beginning with the Australia Patch 8 release \(September 2026\), you can select Oracle E-Business Suite \(EBS\) as the ERP software when creating an ERP system record. For more information, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md).
+Beginning with the Australia Patch 8 release \(September 2026\), you can select Oracle E-Business Suite \(EBS\) as the ERP software when creating an ERP system record. For more information, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md).
 
 ## Procedure
 
@@ -41,12 +41,12 @@ Beginning with the Australia Patch 8 release \(September 2026\), you can select 
 
     \[Omitted image "erpc-system-new-ys2.png"\] Alt text: Zero Copy Connector for ERP new ERP system form.
 
-    For a description of the field values, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
+    For a description of the field values, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
 5.  Select **Save**.
 
 
 ## Result
 
-After you create a system, you can view heartbeat and retrieval status on the ERP systems list page. For more information, see [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-monitor-erp-systems-health.md).
+After you create a system, you can view heartbeat and retrieval status on the ERP systems list page. For more information, see [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/view-and-monitor-erp-systems-health.md).
 

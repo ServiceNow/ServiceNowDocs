@@ -2,7 +2,7 @@
 title: Configure Threat Lookup
 description: Scan selected observables for malware using Threat Intelligence to determine if they are malicious. Use this lookup to assess security threats from IP addresses, URLs, file hashes, and other observable types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/configure-threat-lookup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/configure-threat-lookup.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -27,7 +27,7 @@ The Threat Intelligence Security Center supports Threat Lookup only for the foll
 -   VirusTotal
 -   CrowdStrike Intelligence
 
-For more information, see [Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-lookup.md).
+For more information, see [Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-threat-lookup.md).
 
 ## About this task
 
@@ -81,13 +81,13 @@ This section displays cards for each of the configured integration implementatio
     The system enables the enrichment integration. You can also enable, disable, or delete a particular enrichment integration by using the Actions menu of the required integration tile on the Catalog page or the Enrichment Integrations page.
 
 
--   **[View Threat Lookup Reputation Calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-threat-lookup-reputation-calculators.md)**  
+-   **[View Threat Lookup Reputation Calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/view-threat-lookup-reputation-calculators.md)**  
 You can view the Threat Lookup Finding Calculator to calculate the observable findings for your integration.
 
-**Parent Topic:**[TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
+**Parent Topic:**[TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
 
 **Related topics**  
 
 
-[View Threat Lookup Reputation Calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-threat-lookup-reputation-calculators.md)
+[View Threat Lookup Reputation Calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/view-threat-lookup-reputation-calculators.md)
 

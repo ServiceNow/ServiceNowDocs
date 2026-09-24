@@ -2,7 +2,7 @@
 title: Configure users and groups in Security Exposure Management Workspace
 description: Administrators can manage user and group access directly from the Security Exposure Management Workspace using centralized assignment of product-specific roles through a consistent, workspace-based experience.
 locale: en-us
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-users-groups-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-users-groups-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-25"
@@ -53,8 +53,8 @@ Users who have application-specific persona roles but do not have the system adm
 
 To view the granular roles inherited by a persona role, navigate to **All** &gt; **User Administration** &gt; **Roles**. Open the role record and review the Contains Roles related list.
 
--   **[Add groups to a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-add-groups-to-role.md)**  
+-   **[Add groups to a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-add-groups-to-role.md)**  
 Assign groups to product-specific roles in the Security Exposure Management Workspace. Only explicit assignments are managed through this interface.
--   **[Add users to a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-add-users-to-role.md)**  
+-   **[Add users to a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-add-users-to-role.md)**  
 Assign users to product-specific roles using the interface in the Security Exposure Management Workspace.
 

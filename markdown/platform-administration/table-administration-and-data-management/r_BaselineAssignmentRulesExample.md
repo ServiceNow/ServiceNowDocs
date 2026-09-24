@@ -2,7 +2,7 @@
 title: Baseline assignment rules example
 description: A baseline instance contains certain assignment rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/r\_BaselineAssignmentRulesExample.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/r\_BaselineAssignmentRulesExample.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -137,7 +137,7 @@ Active is true
 Group: Service Desk
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
+</table>**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
 
 **Related topics**  
 

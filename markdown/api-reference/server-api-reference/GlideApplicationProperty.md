@@ -2,7 +2,7 @@
 title: GlideApplicationProperty - Scoped, Global
 description: The GlideApplicationProperty API provides methods to get and set application property values for a specific domain.Returns the value for the specified application property and domain sys\_id.Stores the specified value in the specified application property for the specified domain, or the current session domain if not specified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideApplicationProperty.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideApplicationProperty.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +22,7 @@ To access this API you must activate the Domain Support - Domain Extensions Inst
 
 For additional information on domain-specific application properties, see [Domain-separated application properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ds-application-properties.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideApplicationProperty - getValue\(String name, String domainSysId\)
 

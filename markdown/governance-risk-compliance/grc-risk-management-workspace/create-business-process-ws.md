@@ -2,7 +2,7 @@
 title: Create a business process in the Risk Workspace
 description: Create a business process in the Risk Workspace and define the owners, approvers, business criticality, and review frequency for the process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-business-process-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/create-business-process-ws.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -219,13 +219,13 @@ Risk rating for the risk of loss of availability for the process. The choices ar
     The record moves to the **Draft** state.
 
 
--   **[Add related assets to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/add-related-assets-to-a-bp.md)**  
+-   **[Add related assets to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/add-related-assets-to-a-bp.md)**  
 Add related business assets to a business process to gain visibility into the IT assets and their performance.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 
 **Related topics**  
 
 
-[Add related assets to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/add-related-assets-to-a-bp.md)
+[Add related assets to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/add-related-assets-to-a-bp.md)
 

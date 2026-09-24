@@ -2,7 +2,7 @@
 title: Configure allocation types
 description: Create and activate allocation types to control how sales credits are split among multiple sales users when they work on the opportunity together.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-allocation-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-allocation-types.html
 release: australia
 topic_type: task
 last_updated: "2026-05-21"
@@ -117,7 +117,7 @@ The opportunity allocation type is created and listed on the **Opportunity Alloc
 **Related topics**  
 
 
-[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-mgmt-using.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

@@ -2,7 +2,7 @@
 title: Share data on ITOM Content Service
 description: Control data sharing by opting in or out of ITOM Content Service sharing options using the Discovery Admin Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/share-data-itom-content-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/share-data-itom-content-service.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -91,12 +91,12 @@ The **Content service suggestions** tile replaces the **Content service setup** 
 3.  Read the **Opting out of ITOM Content Service** system message and select **Opt out**.
 4.  When the opt-out process is complete, select **Home** to return to the workspace.
 
-ITOM Content Service stops using your data and your workspace presents only CIs defined by you. For more information, see [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace.md).
+ITOM Content Service stops using your data and your workspace presents only CIs defined by you. For more information, see [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace.md).
 
 </td></tr></tbody>
 </table>
 **Related topics**  
 
 
-[ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/discovery-content-services.md)
+[ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/discovery-content-services.md)
 

@@ -2,7 +2,7 @@
 title: Solution definitions and business rules for Predictive Intelligence for Legal Service Delivery
 description: Solution definitions and business rules are defined to train, test, and monitor the predictive intelligence solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-pi-solution-defn-br.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-pi-solution-defn-br.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery

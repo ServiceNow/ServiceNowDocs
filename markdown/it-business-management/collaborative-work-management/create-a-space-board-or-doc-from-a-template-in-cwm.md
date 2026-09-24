@@ -2,7 +2,7 @@
 title: Create a Board or Doc from a template in CWM
 description: Create Boards or Docs using predefined or custom templates from the Template Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-a-space-board-or-doc-from-a-template-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/create-a-space-board-or-doc-from-a-template-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -49,8 +49,8 @@ Role required: sn\_cwm.cwm\_user
 
 The Board or Doc is created in the Space that you selected.
 
--   For a Board, any template tasks and custom columns that the template contains are applied to the Board. To learn more about Board views, see [Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/board-views-in-cwm.md).
+-   For a Board, any template tasks and custom columns that the template contains are applied to the Board. To learn more about Board views, see [Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/board-views-in-cwm.md).
 -   For a Doc, any template pages and content formatting is applied to the Doc.
 
-**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
+**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 

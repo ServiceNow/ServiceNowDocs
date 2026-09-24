@@ -2,7 +2,7 @@
 title: Installing Generative AI Controller
 description: The Generative AI Controller application \(sn.generative.ai\) is automatically installed with ServiceNow AI applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/installing-generative-ai-controller.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generative-ai-controller/installing-generative-ai-controller.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -21,5 +21,5 @@ The Generative AI Controller application \(sn.generative.ai\) is automatically i
 
 You must be on Vancouver patch 2 or later.
 
-Generative AI Controller is included as a dependency for all ServiceNow AI applications, such as ServiceNow Otto for IT Service Management \(ITSM\) or ITSM - Foundation, Advanced, or Prime. You can install ServiceNow AI applications from the AI Admin Hub console or directly from the ServiceNow Store. For details, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Generative AI Controller is included as a dependency for all ServiceNow AI applications, such as ServiceNow Otto for IT Service Management \(ITSM\) or ITSM - Foundation, Advanced, or Prime. You can install ServiceNow AI applications from the AI Admin Hub console or directly from the ServiceNow Store. For details, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 

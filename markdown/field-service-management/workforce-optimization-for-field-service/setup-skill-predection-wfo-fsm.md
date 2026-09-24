@@ -2,7 +2,7 @@
 title: Set up skill prediction to resolve similar tasks in Workforce Optimization for Field Service
 description: Collect skill data based on the skills agents have used for task completion. Use supervised learning to recommend these skills for agents to resolve similar work order tasks. You can also find patterns in how skills are used to complete the task and use unsupervised learning to recommend skills for agents.Use scripted extension points to customize skill prediction for tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/setup-skill-predection-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/setup-skill-predection-wfo-fsm.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -31,7 +31,7 @@ Role required: sn\_sre.admin
 
 1.  Configure the properties for the Skill recommendation application.
 
-    For more information, see [properties for the Skill Recommendation application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-wfo-fsm.md).
+    For more information, see [properties for the Skill Recommendation application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-wfo-fsm.md).
 
 2.  Run the solution definition models such as **Recommend similar skills for cases** or **Recommend skills from similar cases** to train the supervised and unsupervised solutions.
 
@@ -41,7 +41,7 @@ Role required: sn\_sre.admin
 
     This scheduled job is inactive by default. When you activate it, the job runs daily at 1:00 a.m. on all cases resolved the previous day. The job then adds the skills to the User Predicted Skill \[sn\_sre\_user\_predicted\_skill\] and Task Predicted Skill \[sn\_sre\_task\_predicted\_skill\] tables.
 
-    **Note:** Recommended skills will start appearing once the number of records in the User Predicted Skill \[sn\_sre\_task\_predicted\_skill\] table exceeds the value defined in the **sn\_sre.user\_predicted\_skill\_threshold** property. For more information, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-wfo-fsm.md).
+    **Note:** Recommended skills will start appearing once the number of records in the User Predicted Skill \[sn\_sre\_task\_predicted\_skill\] table exceeds the value defined in the **sn\_sre.user\_predicted\_skill\_threshold** property. For more information, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-wfo-fsm.md).
 
 
 ## Use extension points for skill prediction

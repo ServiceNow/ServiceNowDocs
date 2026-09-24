@@ -2,7 +2,7 @@
 title: Virtual Agent URL parameters
 description: Virtual Agent provides various system parameters that admins can add to an instance URL to control how page content is rendered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-sysparm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-sysparm.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -159,7 +159,7 @@ Specifies the requester's language for the conversation session when Dynamic Tra
 `https://<instance_name>.service-now.com/$sn-va-web-client-app.do?sysparm_requester_session_language=<two-letter language code>`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
+</table>**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 
 **Related topics**  
 

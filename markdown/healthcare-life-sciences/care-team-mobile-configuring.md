@@ -2,7 +2,7 @@
 title: Configure Care Team Mobile
 description: Set up the Care Team Mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/care-team-mobile-configuring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/care-team-mobile-configuring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,15 +16,15 @@ Set up the Care Team Mobile application.
 
 ## Configuration overview
 
-1.  [Activate Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-mobile-install.md)
+1.  [Activate Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-mobile-install.md)
 
     Activate the Care Team Mobile plugin \[com.sn\_cto\_mobile\] if you have the admin role. This plugin includes demo data and activates related plugins if they aren’t already active.
 
-2.  [Assign roles for Care Team Mobile users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-mobile-assign-roles.md)
+2.  [Assign roles for Care Team Mobile users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-mobile-assign-roles.md)
 
     User access for Care Team Mobile is based on whether users have been assigned the Team Member or Team Manager role.
 
-3.  [Enable Push Notifications for Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-mobile-enable-push-notifications.md)
+3.  [Enable Push Notifications for Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-mobile-enable-push-notifications.md)
 
     Push notifications for Care Team Mobile must be enabled manually.
 

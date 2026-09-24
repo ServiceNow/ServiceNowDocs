@@ -2,7 +2,7 @@
 title: Chief Customer Operations Officer Dashboard data visualizations
 description: Use these data visualizations to get high-level and detailed views of how information is used in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cco-db-dvs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/cco-db-dvs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

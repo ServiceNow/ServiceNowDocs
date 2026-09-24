@@ -2,7 +2,7 @@
 title: Add actions for safety inspections survey in Mobile Agent app
 description: Learn how to use the Mobile Agent app to create actions for an inspection survey in online or offline mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -21,7 +21,7 @@ Learn how to use the Mobile Agent app to create actions for an inspection survey
 Verify the following conditions:
 
 -   The system properties for the offline mode behavior of the mobile application are configured. For more information, see .
--   The offline mode for the Mobile Agent app on your mobile device is turned on. For more information, see [Offline mode for Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-health-safety-mobile.md).
+-   The offline mode for the Mobile Agent app on your mobile device is turned on. For more information, see [Offline mode for Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-health-safety-mobile.md).
 -   The **glide.sg.offline.scheduled\_download.enabled** system property for scheduled offline caching is set. If the property is not set, manually update cache before you go offline. To update cache, navigate to **Settings** and tap **Update Cache**. This ensures that the survey is downloaded and it's ready for you to complete.
 
 Role required: sn\_hs\_rm.safety\_inspection\_agent
@@ -32,7 +32,7 @@ Surveys completed offline are synchronized once an internet connection is establ
 
 For more information on how offline mode works in the mobile app, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-end-user.md).
 
-For more information on how an admin configures which survey field type should display the **Create action** check box, see [Configure the create action check box for safety inspection survey in the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-create-action-checkbox-mobile-survey.md).
+For more information on how an admin configures which survey field type should display the **Create action** check box, see [Configure the create action check box for safety inspection survey in the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-configure-create-action-checkbox-mobile-survey.md).
 
 ## Procedure
 
@@ -42,15 +42,15 @@ For more information on how an admin configures which survey field type should d
 
 3.  To open surveys,
 
-<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d802589e146">
+<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d802593e146">
 
 Section
 
-</th><th align="left" id="d802589e149">
+</th><th align="left" id="d802593e149">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d802589e155">
+</th></tr></thead><tbody><tr><td id="d802593e155">
 
 **My Surveys**
 
@@ -58,7 +58,7 @@ Steps
 
 Tap **My Assessments and Surveys**.All surveys that were downloaded before you went offline are listed.
 
-</td></tr><tr><td id="d802589e169">
+</td></tr><tr><td id="d802593e169">
 
 **Inspections**
 
@@ -86,5 +86,5 @@ Tap **My Assessments and Surveys**.All surveys that were downloaded before you w
 
 The action created appears in the **Actions** tab of the inspection record and can be edited or deleted by using the More actions \(\[Omitted image "more-button-icon.png"\] Alt text: more actions icon\) icon.
 
-**Parent Topic:**[Manage the safety inspection and audit surveys through mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-manage-safety-inspections-audits-mobile.md)
+**Parent Topic:**[Manage the safety inspection and audit surveys through mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-configure-manage-safety-inspections-audits-mobile.md)
 

@@ -2,7 +2,7 @@
 title: Understand the Configuration page flow in ServiceNow Otto for Setup
 description: Implement the following steps to understand the configuration page flow to start the configuration process for either the Platform module or a specific product module on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-configure-il.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-configure-il.html
 release: australia
 topic_type: task
 last_updated: "2025-12-04"
@@ -42,7 +42,7 @@ Role required: admin
 
 3.  Select **Get Started** on the modules.
 
-    You are redirected to the first configuration of the selected module. See [Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md) for more information on Platform configuration steps.
+    You are redirected to the first configuration of the selected module. See [Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md) for more information on Platform configuration steps.
 
 4.  Find a console item efficiently using the Search configurations search bar on the left navigation.
 
@@ -122,5 +122,5 @@ Role required: admin
 
 After the configuration completes, you can promote the changes to test or production instances by re-running the auto-installation, committing retrieved update sets, and validating ATF tests.
 
-**Parent Topic:**[Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)
+**Parent Topic:**[Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-landing.md)
 

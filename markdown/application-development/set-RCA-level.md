@@ -2,7 +2,7 @@
 title: Define cross-scope access to an application resource
 description: Track cross-scope requests for access to an application resource and approve or deny requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/set-RCA-level.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/set-RCA-level.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ If you enable application administration for the target application, only applic
 
 Role required: admin or application admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## Procedure
 
@@ -78,5 +78,5 @@ Calls to the resource are automatically approved. Calls are tracked in the Restr
     Once a calling source is allowed, all subsequent calls are allowed.
 
 
-**Parent Topic:**[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md)
+**Parent Topic:**[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/restricted-caller-access-privilege.md)
 

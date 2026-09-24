@@ -2,7 +2,7 @@
 title: Add a goal to a business process
 description: Add goals to business processes to align process activities with strategic objectives and track performance metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-goal-to-business-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-goal-to-business-process.html
 release: australia
 topic_type: task
 last_updated: "2026-08-03"
@@ -43,18 +43,18 @@ Link goals to business processes to establish clear connections between operatio
         1.  Select **Add**.
         2.  In the Add goal window, select the goal. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
-    -   To create a goal, select **New** and complete the fields on the form. For field descriptions, see [Create goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-goal-form.md).
+    -   To create a goal, select **New** and complete the fields on the form. For field descriptions, see [Create goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-new-goal-form.md).
 
 ## Result
 
 The goal appears in the **Goals** related list. You can manage the goal association from this list.
 
-**Parent Topic:**[Manage business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-processes.md)
+**Parent Topic:**[Manage business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-business-processes.md)
 
 **Related topics**  
 
 
-[Remove a goal from a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-goal-from-business-process.md)
+[Remove a goal from a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-remove-goal-from-business-process.md)
 
-[View all business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-processes.md)
+[View all business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-business-processes.md)
 

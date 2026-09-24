@@ -2,7 +2,7 @@
 title: Set up file management
 description: Set up files you want to track and manage with DEX on your organization devices. For example, you can identify and remove any dangerous .exe files that pose a security risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/set-up-file-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/set-up-file-mgmt.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

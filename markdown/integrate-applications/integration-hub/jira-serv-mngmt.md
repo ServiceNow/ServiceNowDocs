@@ -2,7 +2,7 @@
 title: Jira Service Management Spoke
 description: Automate service management tasks in Jira Service Management from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jira-serv-mngmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/jira-serv-mngmt.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -347,7 +347,7 @@ Retrieves the user account ID of user.**Note:** This action works only for Jira 
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -376,5 +376,5 @@ Integration Hub uses aliases to manage connection and credential information. Us
 
 
 
-For information about setting up the spoke, see [Set up the Jira Service Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-serv-mgmt.md).
+For information about setting up the spoke, see [Set up the Jira Service Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-jira-serv-mgmt.md).
 

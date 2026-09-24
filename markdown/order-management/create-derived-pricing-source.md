@@ -2,7 +2,7 @@
 title: Create rules for derived product pricing
 description: Define product pricing rules for deriving the price of a product dynamically based on the pricing of related products or a pricing source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-derived-pricing-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-derived-pricing-source.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Define product pricing rules for deriving the price of a product dynamically bas
 
 ## Before you begin
 
-Activate the **Account** option for the **Scope** field in the Derived Pricing Matrix. To activate the option, see [Enable the Account scope option for derived pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-account-option-derived-pricing.md).
+Activate the **Account** option for the **Scope** field in the Derived Pricing Matrix. To activate the option, see [Enable the Account scope option for derived pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activate-account-option-derived-pricing.md).
 
 Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pricelist\_manager
 
@@ -107,7 +107,7 @@ Agents can review the line item for the target product to see how the derived pr
 
     The derived pricing for the target product is available when the product is used in a transaction line.
 
-    **Note:** After a matrix is published, you can't make further changes to it. If you have changes, create another version of the matrix with your updates and publish the new version. However, your admin can allow changes to a published matrix by using the **allow\_edit\_on\_published\_matrices** system property. To learn more, see [Allow changes to published pricing and product eligiblity matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/edit-published-matrices.md).
+    **Note:** After a matrix is published, you can't make further changes to it. If you have changes, create another version of the matrix with your updates and publish the new version. However, your admin can allow changes to a published matrix by using the **allow\_edit\_on\_published\_matrices** system property. To learn more, see [Allow changes to published pricing and product eligiblity matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/edit-published-matrices.md).
 
 
 ## Result

@@ -2,7 +2,7 @@
 title: TRM technical debt form
 description: Technology Reference Model \(TRM\) technical debts are created for products that aren't aligned with TRM phases and standards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-technical-debt-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-trm-technical-debt-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ State
 
 </td><td>
 
-State of the technical debt record: Active, Resolved, or Archived. For details on how the record moves between states, see [TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md).
+State of the technical debt record: Active, Resolved, or Archived. For details on how the record moves between states, see [TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-states.md).
 
 </td></tr><tr><td>
 
@@ -140,16 +140,16 @@ The **Discovered Technology** related list shows the TLM discovered technology r
 
 Use this related list as your starting point to investigate and remediate the technical debt. Open a discovered technology record from the list. Use its **Number** field to open the full TPM Discovered Technology record, or its **TLM technology lifecycle** field to open the associated technology lifecycle record. From there, you can identify and update the underlying TRM product or TRM product lifecycle that's causing the debt.
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[View Technology Reference Model technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-trm-tech-debt.md)
+[View Technology Reference Model technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/view-trm-tech-debt.md)
 
-[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md)
+[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-trm-technical-debt.md)
 
-[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md)
+[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-states.md)
 
-[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-governing-fields.md)
+[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-governing-fields.md)
 

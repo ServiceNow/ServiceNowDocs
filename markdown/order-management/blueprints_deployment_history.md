@@ -2,7 +2,7 @@
 title: Tracking a blueprint's deployment history
 description: Track the deployment history of blueprints in CPQ Admin. View details like deployment date, time, and user for troubleshooting and reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/blueprints\_deployment\_history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/blueprints\_deployment\_history.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,5 +24,5 @@ Track the deployment history of blueprints in CPQ Admin. View details like deplo
 **Related topics**  
 
 
-[Viewing blueprint deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deployments_page.md)
+[Viewing blueprint deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deployments_page.md)
 

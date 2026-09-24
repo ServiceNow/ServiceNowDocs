@@ -2,7 +2,7 @@
 title: Configuring playbooks for Pre-Visit Management
 description: Configure a playbook to provide step-by-step guidance for resolving procedure request cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-config-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pre-visit-config-playbook.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

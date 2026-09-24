@@ -2,7 +2,7 @@
 title: Activate the ServiceNow AI Lens skill
 description: Activate the ServiceNow AI Lens skill to start using generative AI to scan and analyze visual data such as scan artifacts such as images, scanned handwritten notes, Excel sheets, web pages and optimize your workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/activate-lens-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-lens/activate-lens-skill.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -18,7 +18,7 @@ Activate the ServiceNow AI Lens skill to start using generative AI to scan and a
 
 ## Before you begin
 
--   Confirm that the ServiceNow AI Lens application is installed. For more information, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+-   Confirm that the ServiceNow AI Lens application is installed. For more information, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 -   Perform this task in your ServiceNow instance.
 -   Role required: admin
 

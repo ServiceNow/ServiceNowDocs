@@ -2,7 +2,7 @@
 title: Modify view for an application service map in legacy Agent Workspace
 description: Customize a map view to display relevant information and increase clarity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/workspace-modify-map-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/workspace-modify-map-view.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -172,5 +172,5 @@ No map indicators appear next to the application service name.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)
+**Parent Topic:**[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)
 

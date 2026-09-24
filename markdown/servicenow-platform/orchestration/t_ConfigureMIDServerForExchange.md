@@ -2,7 +2,7 @@
 title: Configure MID Server for Exchange
 description: Configure a MID Server with defined IP ranges to use Exchange.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t\_ConfigureMIDServerForExchange.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/t\_ConfigureMIDServerForExchange.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -45,5 +45,5 @@ If the MID Server manages resources within defined IP ranges, instead of all com
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Exchange activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md)
+**Parent Topic:**[Exchange activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md)
 

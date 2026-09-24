@@ -2,7 +2,7 @@
 title: Use ServiceNow Otto for Retail Service Management
 description: Use ServiceNow Otto to improve and enhance the store inquiry processes in Retail Service Management \(RSM\). The store inquiry AI agent—now part of the ServiceNow Otto brand—enables intelligent automation for store inquiries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/agentic-workflows-now-assist-retail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/agentic-workflows-now-assist-retail.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ Looking for an AI agent?
 
 **AI agents security**
 
-For security implementation guidance on AI agents and agentic workflows, see [Enable store inquiry AI agent trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-enable-store-inquiry-ai-agent.md).
+For security implementation guidance on AI agents and agentic workflows, see [Enable store inquiry AI agent trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-enable-store-inquiry-ai-agent.md).
 
-**Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-inquiries.md)
+**Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-manage-store-inquiries.md)
 

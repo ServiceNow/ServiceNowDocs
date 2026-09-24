@@ -2,7 +2,7 @@
 title: Approve publishing of a grant opportunity
 description: As the designated approver of an internal program team, you can approve a grant program that is pending publishing to the grant management portal for applicants to view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-approve-pgr-approver.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-gmp-approve-pgr-approver.html
 release: australia
 topic_type: task
 last_updated: "2026-03-11"
@@ -18,7 +18,7 @@ As the designated approver of an internal program team, you can approve a grant 
 
 Role required: gmp director?
 
-In order to do this, you need to be added as an approver in the internal program team in the program setup. For more information on how to create an internal program team and designate an approver, see [Add members to a Grant Program internal program team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-add-members-internal-program-team.md)
+In order to do this, you need to be added as an approver in the internal program team in the program setup. For more information on how to create an internal program team and designate an approver, see [Add members to a Grant Program internal program team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gmp-using-add-members-internal-program-team.md)
 
 ## Procedure
 
@@ -33,5 +33,5 @@ In order to do this, you need to be added as an approver in the internal program
 
 ## Result
 
-The grant program is now approved and is rerouted back to the Grant Program Manager, who will set it to be published to the Grants Management Portal. For more information on publishing a grant program to the portal, see [Publish a grant program opportunity to the Grants Management Portal in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-pgr-publish.md).
+The grant program is now approved and is rerouted back to the Grant Program Manager, who will set it to be published to the Grants Management Portal. For more information on publishing a grant program to the portal, see [Publish a grant program opportunity to the Grants Management Portal in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-using-gmp-pgr-publish.md).
 

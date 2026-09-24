@@ -2,7 +2,7 @@
 title: Configure the GOV.UK Design System Service Portal Case Details \(standard ticket\) page
 description: Configure individual request types to display case details, the request-specific information shown to constituents when viewing submitted requests. They can view case statuses and request history, and communicate with caseworkers and agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-stdt-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gds-stdt-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -57,5 +57,5 @@ You can configure the tabs for standard ticket page. For more information, see [
 
 ## Customization
 
-You can configure the case details page components, including toggling widgets, customizing header and footer content, and managing breadcrumb navigation to reflect case hierarchy. For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
+You can configure the case details page components, including toggling widgets, customizing header and footer content, and managing breadcrumb navigation to reflect case hierarchy. For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
 

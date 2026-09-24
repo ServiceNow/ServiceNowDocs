@@ -2,7 +2,7 @@
 title: Quote transaction personas
 description: Personas define distinct user types in the quoting experience, controlling what users can view and edit on a quote at each stage in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-personas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-personas.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
@@ -28,8 +28,8 @@ Personas aren't part of the ServiceNow Quote Experience blueprint. They are not 
 
 To assign a user account to a persona, the user must first be created using the User Access function in Utilities. User accounts that aren't in the User Access list can't be assigned to a persona.
 
--   **[Create a transaction persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-persona.md)**  
+-   **[Create a transaction persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-persona.md)**  
 Create a persona in ServiceNow Quote Experience to define a user type and assign user accounts to it in CPQ.
 
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

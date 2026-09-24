@@ -2,7 +2,7 @@
 title: Configuring the HR case context
 description: Configure recommended actions to create a context, rule, and recommendations with action types such as guidance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/config-rc-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/config-rc-hr.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

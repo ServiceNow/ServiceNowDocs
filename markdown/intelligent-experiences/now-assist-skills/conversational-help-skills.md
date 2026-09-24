@@ -2,7 +2,7 @@
 title: Conversational Help
 description: This skill uses Generative AI application capabilities to provide answers to the questions on the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/conversational-help-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/conversational-help-skills.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills
@@ -18,7 +18,7 @@ This skill uses Generative AI application capabilities to provide answers to the
 
 \[Omitted video\] Description: Now Assist Conversational Help overview
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 The Conversational Help skill displays as **Get Help** on the ServiceNow Otto panel.
 
@@ -59,5 +59,5 @@ The Now LLM retrieves the most relevant result from [https://www.servicenow.com/
 
 \[Omitted image "na-conversational-help-skills.png"\] Alt text: Now Assist Conversational Help skill
 
-For more information, see [Fetch end points in Now Assist Conversational Help skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/fetch-end-points-in-conversational-help-skill.md).
+For more information, see [Fetch end points in Now Assist Conversational Help skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/fetch-end-points-in-conversational-help-skill.md).
 

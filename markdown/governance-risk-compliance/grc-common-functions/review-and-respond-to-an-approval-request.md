@@ -2,7 +2,7 @@
 title: Review and respond to an approval request
 description: Review a pending approval request and approve or reject it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/review-and-respond-to-an-approval-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/review-and-respond-to-an-approval-request.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -43,12 +43,12 @@ Overdue requests are flagged so approvers can prioritize them.
 
 If approved, the record can proceed with the requested state change or due date extension. If rejected, the record remains unchanged and the requester is notified.
 
-**Parent Topic:**[Issue approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-approval-flows.md)
+**Parent Topic:**[Issue approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-approval-flows.md)
 
 **Related topics**  
 
 
-[Request an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/request-an-approval.md)
+[Request an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/request-an-approval.md)
 
-[Cancel an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/cancel-an-approval.md)
+[Cancel an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/cancel-an-approval.md)
 

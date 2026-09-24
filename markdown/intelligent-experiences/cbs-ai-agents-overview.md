@@ -2,7 +2,7 @@
 title: Core Business Suite AI agents
 description: The following AI agents are available for Core Business Suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cbs-ai-agents-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cbs-ai-agents-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
@@ -14,8 +14,8 @@ breadcrumb: [Core Business Suite, AI agents library, AI assets, Enable AI experi
 
 The following AI agents are available for Core Business Suite.
 
--   **[CBS Bulk Upload AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cbs-cbs-bulk-upload-ai-agent.md)**  
+-   **[CBS Bulk Upload AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cbs-cbs-bulk-upload-ai-agent.md)**  
 The CBS Bulk Upload AI agent handles bulk record creation and updates for the Space, Supplier, and Supplier Contact tables.
 
-**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
 

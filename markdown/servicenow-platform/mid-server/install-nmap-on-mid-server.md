@@ -2,7 +2,7 @@
 title: Install and uninstall Nmap on a MID Server
 description: If you decide to use credential-less Discovery in your network, you must install Nmap on each Windows MID Server that you want to use for this purpose. Self-hosted customers whose network security does not permit downloads from install.service-now.com must use a specific manual process to install and configure Nmap.Use this procedure to install Nmap on MID Server host machines in a self-hosted environment that does not allow network access to the ServiceNow install.service-now.com download site.Use this procedure to uninstall Nmap in a self-hosted environment that does not allow network access to the ServiceNow install.service-now.com download site.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/install-nmap-on-mid-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/install-nmap-on-mid-server.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -25,7 +25,7 @@ Role required: agent\_admin
 ![Setup indicator for configuration phase](../image/ProgressBarConfig.png)
 
 </td></tr></tbody>
-</table>-   Assign MID Server IP ranges to all deployed MID Servers. The quickest and most reliable way to do this is with the [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md) feature available in the [Discovery Quick Start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-quick-start.md) wizard. This method ensures that the set of MID Servers configured to access an IP address range is comprehensive.
+</table>-   Assign MID Server IP ranges to all deployed MID Servers. The quickest and most reliable way to do this is with the [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md) feature available in the [Discovery Quick Start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-quick-start.md) wizard. This method ensures that the set of MID Servers configured to access an IP address range is comprehensive.
 -   Identify the IP ranges you want to explore with credential-less Discovery. Ensure that these ranges can only be accessed by MID Servers with Nmap installed, running on supported Windows hosts.
 -   Use the **All** option for selecting IP ranges and observe these requirements:
     -   Restrict the use of this feature to Windows MID Servers only.
@@ -110,7 +110,7 @@ The Discovery - IP Based \[com.snc.discovery.ip\_based\] plugin provides connect
         -   The version of Nmap that is installed appears in the **Nmap version** field in the MID Server record
         -   The **Related Link** changes to **Disable Credential-less Discovery**.
         -   The **Nmap** capability is assigned to the MID Server and appears in the **Capabilities** tab of the MID Server record.
-    -   **Failure**: If the installation fails, an error message is logged to the [MID Server Issue \[ecc\_agent\_issue\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-active-issues.md) table. If you run the installer again with success, the issue is marked as **Resolved**.
+    -   **Failure**: If the installation fails, an error message is logged to the [MID Server Issue \[ecc\_agent\_issue\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-active-issues.md) table. If you run the installer again with success, the issue is marked as **Resolved**.
 6.  To uninstall Nmap for a selected MID Server, select **Disable Credential-less Discovery** under **Related Links** in the MID Server record.
 
     This dialog appears during the uninstallation process:
@@ -122,7 +122,7 @@ The Discovery - IP Based \[com.snc.discovery.ip\_based\] plugin provides connect
     **Important:** Because Npcap can be used by other applications, uninstalling Nmap does not automatically uninstall Npcap. You must uninstall Npcap manually, after determining that no other dependencies exist.
 
 
-**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 
 **Related topics**  
 

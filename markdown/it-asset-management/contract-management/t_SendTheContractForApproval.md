@@ -2,7 +2,7 @@
 title: Send the contract for approval
 description: You can send a contract that is in Draft state for approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_SendTheContractForApproval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/t\_SendTheContractForApproval.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -36,12 +36,12 @@ Role required: admin, contract\_manager\(core UI and Hardware Asset Workspace on
     An email message is sent to the selected approver and the contract **Substate** changes to **Under Review**.
 
 
--   **[Approve or reject a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_ApproveOrRejectAContract.md)**  
+-   **[Approve or reject a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/t_ApproveOrRejectAContract.md)**  
 If you are the contract manager, you can approve or reject a contract.
--   **[View approval history on contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_ObtainContractApproval.md)**  
+-   **[View approval history on contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/t_ObtainContractApproval.md)**  
 You can view the approval history for a contract in the Approval History related list on the Contract form.
 
-**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 
@@ -58,5 +58,5 @@ You can view the approval history for a contract in the Approval History related
 
 [Monitor a contract]()
 
-[Contract approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/contract-approval-workflow.md)
+[Contract approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/contract-approval-workflow.md)
 

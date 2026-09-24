@@ -2,7 +2,7 @@
 title: Define a feature in SAFe
 description: Create a feature in SAFe and break it down into smaller user stories for implementation and delivery by SAFe teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/create-SAFefeature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/create-SAFefeature.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -77,7 +77,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>    You can also convert an active SAFe story into a SAFe feature. For details, see [Related links and lists for a SAFe story](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/related-links-and-lists-of-a-safe-story.md).
+</table>    You can also convert an active SAFe story into a SAFe feature. For details, see [Related links and lists for a SAFe story](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/related-links-and-lists-of-a-safe-story.md).
 
 2.  On the form, fill in the fields.
 
@@ -245,13 +245,13 @@ Estimated duration for completion of the job.
 
 Use the SAFe stories related list to view and add stories to the feature.
 
--   **[Split a SAFe feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/split-a-safe-feature.md)**  
+-   **[Split a SAFe feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/split-a-safe-feature.md)**  
 Split a SAFe feature into two separate features so that you can track complete and incomplete stories. Move the feature with the incomplete stories to your backlog or to a future program increment \(PI\). This maintains accurate metrics of the previous sprints and PIs.
 
-**Parent Topic:**[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)
+**Parent Topic:**[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)
 
 **Related topics**  
 
 
-[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)
+[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)
 

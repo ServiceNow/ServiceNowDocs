@@ -2,7 +2,7 @@
 title: Add a job description to a requisition
 description: Add a job description to a requisition, using job description templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/add-job-description.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/add-job-description.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -39,7 +39,7 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 ## What to do next
 
-Send the requisition for approval. For more information, see [Submit a job requisition for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/submit-for-approval-job-req.md).
+Send the requisition for approval. For more information, see [Submit a job requisition for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/submit-for-approval-job-req.md).
 
-**Parent Topic:**[Using Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/use-recruit-workspace.md)
+**Parent Topic:**[Using Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/use-recruit-workspace.md)
 

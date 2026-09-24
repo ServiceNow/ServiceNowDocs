@@ -2,7 +2,7 @@
 title: Ask for Approval step
 description: Request approval for a record. Configure a set of rules to automatically approve, reject, or cancel an approval request without having to write script. Add a due date to automatically approve, reject, or cancel when a decision has not been made by a designated time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/ask-approval-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/ask-approval-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -16,7 +16,7 @@ breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and
 
 Request approval for a record. Configure a set of rules to automatically approve, reject, or cancel an approval request without having to write script. Add a due date to automatically approve, reject, or cancel when a decision has not been made by a designated time.
 
-Approvals play a central role in controlling workflow progression. They ensure that the right people review and authorize work before it moves forward, which is essential in incident handling, change requests, catalog fulfillment, and any process where structured governance and compliance matter. For more information about approvals, see [Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_Approvals.md).
+Approvals play a central role in controlling workflow progression. They ensure that the right people review and authorize work before it moves forward, which is essential in incident handling, change requests, catalog fulfillment, and any process where structured governance and compliance matter. For more information about approvals, see [Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/approvals/r_Approvals.md).
 
 ## Roles and availability
 
@@ -95,7 +95,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## Output
@@ -120,5 +120,5 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 \[Omitted image "ask-for-approval-example.png"\] Alt text: Example Ask for Approval step in an action.
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

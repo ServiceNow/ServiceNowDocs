@@ -2,7 +2,7 @@
 title: Sharing record pages from Service Operations Workspace across workspaces
 description: Share the look and feel of the record pages in Service Operations Workspace \(SOW\) such as incident or change request as it is across other workspace such as CSM and FSM workspaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-share-record-pages-other-workspaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/sow-share-record-pages-other-workspaces.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -20,8 +20,8 @@ To support interoperability, SOW enables sharing the look and feel of the record
 
 To implement and consume this feature on other workspaces like CSM workspace, an admin in CSM must create record in the **UX Cross-experience route** UX property. The admin can then customize the usage conditions and other parameters to implement this feature for specific tables such as incident and mark this record as Active as per their requirement.
 
--   **[Create a UX cross-experience route](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-ux-cross-experience-route.md)**  
+-   **[Create a UX cross-experience route](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-ux-cross-experience-route.md)**  
 Create a UX cross-experience route to share a record page from one workspace so it opens automatically when the same record type is viewed in another workspace.
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

@@ -2,7 +2,7 @@
 title: Document Services release notes
 description: The ServiceNow Document Services application provides a broad range of services that are related to document management, such as creating, maintaining, and converting documents, as well as integrating with third parties like Microsoft SharePoint. Document Services was enhanced and updated in the Australia release.The ServiceNow Document Services application provides a broad range of services that are related to document management, such as creating, maintaining, and converting documents, as well as integrating with third parties like Microsoft SharePoint. Document Services was enhanced and updated in the Australia release.The ServiceNow Document Services application provides a broad range of services that are related to document management, such as creating, maintaining, and converting documents, as well as integrating with third parties like Microsoft SharePoint. Document Services was enhanced and updated in the Australia release.The ServiceNow Document Services application provides a broad range of services that are related to document management, such as creating, maintaining, and converting documents, as well as integrating with third parties like Microsoft SharePoint. Document Services was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/document-services-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/document-services-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ See [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
     Multi Provider Document Services Framework must be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mp-document-services-framework-landing.md). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-capabilities-rn-landing.md)
 
 ## August 2026
 
@@ -60,7 +60,7 @@ The ServiceNow® Document Services application provides a broad range of service
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 -   **[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/Documentviewer.md)**
 

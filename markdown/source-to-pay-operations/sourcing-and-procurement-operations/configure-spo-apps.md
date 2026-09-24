@@ -2,7 +2,7 @@
 title: Configure Sourcing and Procurement Operations
 description: Open the SPO Configuration Console and complete the configurations for your SPO deployment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-spo-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-spo-apps.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -18,7 +18,7 @@ Open the SPO Configuration Console and complete the configurations for your SPO 
 
 ## Before you begin
 
-Sourcing and Procurement Operations must be installed on your instance. See [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md).
+Sourcing and Procurement Operations must be installed on your instance. See [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md).
 
 Role required: admin
 
@@ -44,14 +44,14 @@ Role required: admin
     |------|-----------|
     |**Configuration Summary in the left navigation pane**|Provides a summary of configuration activity and progress across modules.|
     |**Configure with AI**|Opens ServiceNow Otto to configure the selected item. Availability depends on whether that configuration item supports agent assistance. For more information about the ServiceNow Otto panel and the configuration page options in general, see [Understand the Configuration page flow in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md).|
-    |**Configurations under Platform and Procurement Case Management in the left navigation pane**|For each module, view the default configuration \(if available\) and modify it if necessary. For the configuration areas available under Procurement Case Management, see [Configuring case management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-case-management-spo.md).|
+    |**Configurations under Platform and Procurement Case Management in the left navigation pane**|For each module, view the default configuration \(if available\) and modify it if necessary. For the configuration areas available under Procurement Case Management, see [Configuring case management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-case-management-spo.md).|
     |**Package and download**|Packages configuration changes into an update set and downloads it, for promotion to another instance.|
 
 
--   **[Configuring case management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-case-management-spo.md)**  
+-   **[Configuring case management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-case-management-spo.md)**  
 Configure case types, routing rules, specialist workspace, notifications, and AI skills in the Procurement Case Management module of the SPO Configuration Console.
 
-**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 

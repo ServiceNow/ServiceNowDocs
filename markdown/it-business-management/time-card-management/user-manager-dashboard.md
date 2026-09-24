@@ -2,7 +2,7 @@
 title: Analytics User manager
 description: The Analytics user manager provides the user managers with reports of time sheet exceptions, and category wise time reported by the users.The Analytics User manager shows the time sheet reports for the users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/user-manager-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/time-card-management/user-manager-dashboard.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -52,7 +52,7 @@ It displays the total approved hours in all categories displayed in **Time by ca
 
 The bar chart report displays the time approved against each category for the selected users whose manager in User profile is the current user.
 
-**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/time-card-management.md)
 
 ## Use the Analytics User manager
 

@@ -2,7 +2,7 @@
 title: Health and Safety meeting form
 description: A safety team such as a safety meeting manager can use the Health and Safety meeting form to add or modify a safety-related meeting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/hs-safety-meeting-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/hs-safety-meeting-form.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Core, Health and Safety, Employee Serv
 
 A safety team such as a safety meeting manager can use the Health and Safety meeting form to add or modify a safety-related meeting.
 
-For more information, see [Log a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/log-hs-safety-meeting.md).
+For more information, see [Log a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/log-hs-safety-meeting.md).
 
 <table id="table_ztx_ds5_b2c"><thead><tr><th>
 
@@ -129,7 +129,7 @@ External attendees \(Deprecated\)
 
 </td><td>
 
-Names of the external users attending this meeting.**Note:** This field is deprecated. To add an external attendee, you can use the **Public attendee** field on the meeting attendee form. For more information, see [Add attendees to a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/add-attendees-safety-meeting.md).
+Names of the external users attending this meeting.**Note:** This field is deprecated. To add an external attendee, you can use the **Public attendee** field on the meeting attendee form. For more information, see [Add attendees to a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/add-attendees-safety-meeting.md).
 
 </td></tr></tbody>
 </table><table id="table_otb_xbv_b2c"><thead><tr><th>
@@ -146,7 +146,7 @@ External absentees \(Deprecated\)
 
 </td><td>
 
-Names of the external users who didn't attend this meeting.**Note:** This field is deprecated. To mark the absence for an external attendee, you can use the **Attendance** field for the public attendee. For more information, see [Health and Safety meeting attendee form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-safety-meeting-attendee-form.md).
+Names of the external users who didn't attend this meeting.**Note:** This field is deprecated. To mark the absence for an external attendee, you can use the **Attendance** field for the public attendee. For more information, see [Health and Safety meeting attendee form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-safety-meeting-attendee-form.md).
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ Meeting notes
 Rich text field for adding meeting notes when the meeting is in progress or after the meeting.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-core-reference.md)
+</table>**Parent Topic:**[Health and Safety Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-core-reference.md)
 
 **Related topics**  
 

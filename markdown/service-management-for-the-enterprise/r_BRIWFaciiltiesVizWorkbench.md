@@ -2,7 +2,7 @@
 title: Business rules installed with Facilities Visualization Workbench
 description: A business rule is a server-side script that runs when a record is displayed, inserted, updated, deleted, or when a table is queried.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_BRIWFaciiltiesVizWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_BRIWFaciiltiesVizWorkbench.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -233,5 +233,5 @@ System Property\[sys\_properties\]
 Limits the maximum search results per level to less than 50
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)
+</table>**Parent Topic:**[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)
 

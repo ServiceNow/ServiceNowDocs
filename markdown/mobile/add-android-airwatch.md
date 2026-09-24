@@ -2,7 +2,7 @@
 title: Add the ServiceNow app for Android to Workspace ONE UEM
 description: Configure the ServiceNow app for Android for Workspace ONE UEM distribution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/add-android-airwatch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/add-android-airwatch.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: admin
 
 5.  In the Source field, select **Search App Store** then search for **ServiceNow**.
 
-    If the search cannot find the ServiceNow application, the app might not be approved for your organization. You can [approve the app in the Google Play store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/approve-app-google.md).
+    If the search cannot find the ServiceNow application, the app might not be approved for your organization. You can [approve the app in the Google Play store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/approve-app-google.md).
 
 6.  Next to the ServiceNow App search result, click **Select**.
 
@@ -69,5 +69,5 @@ If your instance is on an internal network, you might need to configure the VPN.
 
 For more information on app distribution with Workspace ONE UEM, see the [official Workspace ONE UEM documentation](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/index.html).
 
-**Parent Topic:**[Workspace ONE UEM Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/airwatch-mdm.md)
+**Parent Topic:**[Workspace ONE UEM Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/airwatch-mdm.md)
 

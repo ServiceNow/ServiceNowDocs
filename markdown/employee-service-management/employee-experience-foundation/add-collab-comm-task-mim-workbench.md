@@ -2,7 +2,7 @@
 title: Add collaborative communication task from MIM workbench
 description: You can create a communication plan or add a new communication task to an existing communication plan from the workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/add-collab-comm-task-mim-workbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/add-collab-comm-task-mim-workbench.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -53,8 +53,8 @@ Role required: major\_incident\_manager
     The task appears in the **Collaborate** tab.
 
 
--   **[Initiate Microsoft Teams group chat from MIM workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/initiate-ms-teams-group-chat-mim-workbench.md)**  
+-   **[Initiate Microsoft Teams group chat from MIM workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/initiate-ms-teams-group-chat-mim-workbench.md)**  
 You can initiate a Microsoft Teams group chat from the MIM workbench to work towards the resolution of the task.
 
-**Parent Topic:**[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/agent-sn-ms-teams.md)
+**Parent Topic:**[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/agent-sn-ms-teams.md)
 

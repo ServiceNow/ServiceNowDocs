@@ -2,7 +2,7 @@
 title: Configure a program
 description: Add a program for use within the Healthcare and Life Sciences Service Management applications.Create a specification characteristic so that you can define the program offering in Healthcare and Life Sciences workflows.Create a relationship between a program and program services to make the program service available within the program.Publish a program for use within the Healthcare and Life Sciences Service Management applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -56,20 +56,20 @@ By default, the application provides a few sample programs for the Healthcare an
 
     4.  To add multiple medication products, repeat steps 8.b through 8.c.
 
-    **Note:** When you add a medication product for a program, you must also configure the dosage specifications for the medication product. For more information, see [Configure dosage specifications for a medication product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-dosage-spec.md).
+    **Note:** When you add a medication product for a program, you must also configure the dosage specifications for the medication product. For more information, see [Configure dosage specifications for a medication product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-dosage-spec.md).
 
 9.  In the **Description** field, enter a summary of the program.
 
 10. Click **Submit**.
 
-11. [Configure a specification characteristic for the program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
+11. [Configure a specification characteristic for the program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
 
-12. [Associate the program with a program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
+12. [Associate the program with a program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
 
-13. [Publish the program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
+13. [Publish the program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
 
 
-**Parent Topic:**[Configure programs and program services for Healthcare and Life Sciences workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-setup.md)
+**Parent Topic:**[Configure programs and program services for Healthcare and Life Sciences workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-setup.md)
 
 ## Configure a specification characteristic for a program
 
@@ -108,13 +108,13 @@ Create a relationship between a program and program services to make the program
 
 ### Before you begin
 
-[Configure a program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
+[Configure a program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
 
 Role required: sn.hcls\_manager or admin
 
 ### About this task
 
-You can also associate a program with a program service by using the Program service module. For more information, see [Associate a program service with a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
+You can also associate a program with a program service by using the Program service module. For more information, see [Associate a program service with a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
 
 ### Procedure
 

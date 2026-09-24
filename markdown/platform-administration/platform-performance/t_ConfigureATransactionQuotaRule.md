@@ -2,7 +2,7 @@
 title: Configure a transaction quota rule
 description: Transaction quota rules allow you to define a quota policy for different types of transactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/t\_ConfigureATransactionQuotaRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/platform-performance/t\_ConfigureATransactionQuotaRule.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -28,7 +28,7 @@ Transaction quota rules allow you to specify the following conditions.
 -   The order in which transaction quotas apply.
 -   The maximum duration of a transaction before the quota manager cancels it.
 
-Before setting transaction quotas, navigate to **All** &gt; **User Administration** &gt; **Active Transactions** to review the normal transaction activities for your instance. You can [view and terminate long-running transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/t_ViewAndKillAnActiveTransaction.md) if necessary. Over time, you can determine the normal transaction load for your instance and set your quotas to match these norms.
+Before setting transaction quotas, navigate to **All** &gt; **User Administration** &gt; **Active Transactions** to review the normal transaction activities for your instance. You can [view and terminate long-running transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/t_ViewAndKillAnActiveTransaction.md) if necessary. Over time, you can determine the normal transaction load for your instance and set your quotas to match these norms.
 
 **Warning:** Setting transaction quotas too low can severely impact your users and prevent normal instance operations. Test your transaction quotas rigorously before implementing them in production.
 
@@ -44,16 +44,16 @@ Before setting transaction quotas, navigate to **All** &gt; **User Administratio
 
 4.  On the Transaction Quota Rule form, fill in the fields.
 
-    For a description of the field values, see [Transaction quota rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/transaction-quota-rule-form.md).
+    For a description of the field values, see [Transaction quota rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/transaction-quota-rule-form.md).
 
 5.  Set a condition to specify when the transaction quota should take effect.
 
-    The transaction quota rule condition builder displays conditions that are only applicable to transactions. For a description of the condition builder options, see [Transaction quota rule condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/transaction-quota-condition-builder.md).
+    The transaction quota rule condition builder displays conditions that are only applicable to transactions. For a description of the condition builder options, see [Transaction quota rule condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/transaction-quota-condition-builder.md).
 
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/maintain-monitor-now-platform.md)
+**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/maintain-monitor-now-platform.md)
 
 **Related topics**  
 

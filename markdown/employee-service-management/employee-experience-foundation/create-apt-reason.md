@@ -2,7 +2,7 @@
 title: Create an appointment reason
 description: Create a reason that employees can use to book an appointment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-apt-reason.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/create-apt-reason.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

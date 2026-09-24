@@ -2,7 +2,7 @@
 title: Video bot response control
 description: Use the Video bot response control in a Virtual Agent topic to include a video in the conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-video-bot-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-video-bot-response.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +21,7 @@ The Video bot response control includes a navigation button, which gives users t
 
 When users have finished watching the video, they can select the navigation button to continue with the conversation.
 
-**Note:** Topic authors can also use the [Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-card-output.md) to include a video in conversations. However, the Card bot response control doesn't include the navigation button, which gives users time to watch the video.
+**Note:** Topic authors can also use the [Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-card-output.md) to include a video in conversations. However, the Card bot response control doesn't include the navigation button, which gives users time to watch the video.
 
 ## Video bot response control properties
 
@@ -299,5 +299,5 @@ Card output
 \[Omitted image "va-video-without-nav-button.png"\] Alt text: Video card with the header, "Returning to work using Safe Workplace Suite" and a description.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

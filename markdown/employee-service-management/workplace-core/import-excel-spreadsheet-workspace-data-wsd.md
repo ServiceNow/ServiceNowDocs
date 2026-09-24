@@ -2,7 +2,7 @@
 title: Import your workspaces data from an Excel spreadsheet
 description: Import your workspaces data from an Excel spreadsheet into the Workplace Core application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/import-excel-spreadsheet-workspace-data-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/import-excel-spreadsheet-workspace-data-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -22,7 +22,7 @@ Role required: sn\_wsd\_core.admin
 
 ## About this task
 
-Complete [Configuring spreadsheets to import workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/importing-workspace-data-wsd.md).
+Complete [Configuring spreadsheets to import workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/importing-workspace-data-wsd.md).
 
 ## Procedure
 
@@ -53,9 +53,9 @@ Complete [Configuring spreadsheets to import workplace data](https://raw.githubu
 
 ## What to do next
 
-[Define shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-shifts-wsd.md)
+[Define shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-shifts-wsd.md)
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

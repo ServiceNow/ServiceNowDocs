@@ -2,7 +2,7 @@
 title: Get Network Statistics via netstat Flow Action
 description: The Security Common Orchestration - Get Network Statistics via netstat flow action retrieves the network statistics for an affected resource on a Windows-based system. This flow action can accelerate the investigation and remediation process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/get-network-stats-netstat-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/get-network-stats-netstat-activity.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -97,5 +97,5 @@ The MID Server must support PowerShell.
 
 SHA-256 hash requires PowerShell V4.
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md)
 

@@ -2,7 +2,7 @@
 title: Create a contract analysis playbook
 description: Create a contract analysis playbook that provides the negotiation guidance an external AI tool uses to propose redlines for a contract type. Add the playbook content by uploading a file or by entering it manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-create-negotiation-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-create-negotiation-playbook.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -19,7 +19,7 @@ Create a contract analysis playbook that provides the negotiation guidance an ex
 
 ## Before you begin
 
--   The Contract Management Pro MCP server must be enabled. The **Contract Analysis Playbooks** menu appears only when the MCP server is enabled. For more information, see [Set up the Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-mcp-server.md).
+-   The Contract Management Pro MCP server must be enabled. The **Contract Analysis Playbooks** menu appears only when the MCP server is enabled. For more information, see [Set up the Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-conf-mcp-server.md).
 -   The application must be in Global or ServiceNow Otto for Contract Management Pro scope.
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_admin or sn\_cm\_gen\_ai.ai\_contract\_config
@@ -42,7 +42,7 @@ Contract Management Pro includes a sample playbook named Sample Non disclosure a
 
 4.  On the Contract Analysis Playbook form, fill in the fields.
 
-    For a description of the fields, see [Contract Analysis Playbook form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-negotiation-playbook-form.md).
+    For a description of the fields, see [Contract Analysis Playbook form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-negotiation-playbook-form.md).
 
 5.  In the **Content source** field, select how to provide the playbook content.
 

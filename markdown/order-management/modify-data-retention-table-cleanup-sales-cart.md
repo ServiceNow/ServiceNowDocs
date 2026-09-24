@@ -2,7 +2,7 @@
 title: Modifying the data retention and table cleanup policy for the Sales Cart application
 description: A default data retention and table cleanup policy automatically deletes records from the Sales Cart application based on predefined conditions. You can modify these conditions to match your organization's policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/modify-data-retention-table-cleanup-sales-cart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/modify-data-retention-table-cleanup-sales-cart.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

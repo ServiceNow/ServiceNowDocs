@@ -2,7 +2,7 @@
 title: Turn on the flow generation skill
 description: Turn on the flow generation skill to use generative AI to create and edit flows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-the-flow-generation-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/turn-on-the-flow-generation-skill.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -44,5 +44,5 @@ Turn on the flow generation skill to use generative AI to create and edit flows.
 
 Grant the now.assist.creator and flow\_designer roles to each user who will use the flow generation skill.
 
-**Parent Topic:**[Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-generation-landing.md)
+**Parent Topic:**[Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-generation-landing.md)
 

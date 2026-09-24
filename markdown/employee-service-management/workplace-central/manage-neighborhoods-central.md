@@ -2,7 +2,7 @@
 title: Manage neighborhoods using Space Planning
 description: As a space planner, create and manage neighborhoods to assign groups of spaces for your organization's employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/manage-neighborhoods-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/manage-neighborhoods-central.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -36,15 +36,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 4.  Manage the neighborhoods based on your requirement.
 
-<table id="choicetable_zfx_yfn_g3c"><thead><tr><th align="left" id="d724595e101">
+<table id="choicetable_zfx_yfn_g3c"><thead><tr><th align="left" id="d724599e101">
 
 Action
 
-</th><th align="left" id="d724595e104">
+</th><th align="left" id="d724599e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d724595e110">
+</th></tr></thead><tbody><tr><td id="d724599e110">
 
 **Filter neighborhoods**
 
@@ -52,7 +52,7 @@ Steps
 
 You can filter, sort, and group the neighborhoods in the list using filters. For more information about filters, see [Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md).
 
-</td></tr><tr><td id="d724595e123">
+</td></tr><tr><td id="d724599e123">
 
 **Create a neighborhood**
 
@@ -61,12 +61,12 @@ You can filter, sort, and group the neighborhoods in the list using filters. For
 1.  On the Neighborhoods list, select **New**.
 2.  On the Create New Neighborhood form, fill in the fields.
 
-For a description of the field values, see the Neighborhood Form table in [Create a neighborhood for workplace users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-neighborhood.md).
+For a description of the field values, see the Neighborhood Form table in [Create a neighborhood for workplace users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-neighborhood.md).
 
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d724595e159">
+</td></tr><tr><td id="d724599e159">
 
 **Edit neighborhood details**
 
@@ -82,8 +82,8 @@ For a description of the field values, see the Neighborhood Form table in [Creat
 
 </td></tr></tbody>
 </table>
--   **[Manage a single neighborhood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/manage-single-neighborhood.md)**  
+-   **[Manage a single neighborhood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/manage-single-neighborhood.md)**  
 Edit the details of a neighborhood like the spaces, workplace profiles, space assignment tasks, and user assignment rules.
 
-**Parent Topic:**[Working with Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-planning.md)
+**Parent Topic:**[Working with Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-planning.md)
 

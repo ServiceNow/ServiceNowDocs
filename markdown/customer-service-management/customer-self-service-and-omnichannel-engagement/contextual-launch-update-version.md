@@ -2,7 +2,7 @@
 title: Update Engagement Messenger launch URLs to the latest version
 description: Update the version of Engagement Messenger in the code used to embed Engagement Messenger in your website or to launch features automatically with Engagement Messenger.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-update-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-update-version.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

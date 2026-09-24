@@ -2,7 +2,7 @@
 title: Embed the Virtual Agent chat widget in an external web page \(legacy method for standard chat\)
 description: Load the Virtual Agent chat widget interface in an external web page by using an inline frame element \(iframe\). You can also optionally enable the single sign-on \(SSO\) authentication process to run automatically for guest users who are using the chat widget and are not logged in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-va-standalone-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-va-standalone-client.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Load the Virtual Agent chat widget interface in an external web page by using an
 
 ## Before you begin
 
-**Important:** This content describes the legacy procedural steps for embedding the standard chat widget. Consider adding the Portable Virtual Agent web client to your web page instead. It reduces code complexity and is easier to implement. It also includes standard chat features, such as click actions for launching or closing the chat. For details, see [Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-portable-va-client-website.md).
+**Important:** This content describes the legacy procedural steps for embedding the standard chat widget. Consider adding the Portable Virtual Agent web client to your web page instead. It reduces code complexity and is easier to implement. It also includes standard chat features, such as click actions for launching or closing the chat. For details, see [Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-portable-va-client-website.md).
 
 -   In the iframe, you specify the URL of the instance to be embedded. If you're embedding the chat widget on any page that is not on your ServiceNow instance, the URL must be a custom instance URL. Due to increased browser security, the chat widget may fail to load if you don't use a custom URL. To learn more about using custom URLs, see [Associating custom URLs to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/custom-url.md).
 
@@ -173,5 +173,5 @@ Specify a value, including: -   `sameorigin`. Default value. Displays the page i
     In this example, authentication is triggered in the specified instance when the SESSION\_CREATED or SESSION\_LOGGED\_OUT events occur. After authentication \(when the SSO credentials for users are accepted\), users are redirected to the embedded chat widget page that you specified in `sn_va-web_client_login.do?sysparm_redirect_uri=’ + encodeURIComponent(<your-page>)`, as long as you also specified the page URL in the **com.glide.cs.web\_client\_login\_redirect\_urls** property.
 
 
-**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
+**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
 

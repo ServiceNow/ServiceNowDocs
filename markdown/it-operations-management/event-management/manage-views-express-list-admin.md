@@ -2,7 +2,7 @@
 title: Create a predefined Express List view for users
 description: Configure an Express List view for users to make sure that they focus on specific services, priorities, or alerts. You can set the filters, column order, and filter attributes for this view and assign it to individual users or user groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/manage-views-express-list-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/manage-views-express-list-admin.html
 release: australia
 product: Event Management
 classification: event-management
@@ -18,7 +18,7 @@ Configure an Express List view for users to make sure that they focus on specifi
 
 ## Before you begin
 
-For more information about predefined Express List views, see [Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manage-views-express-list.md).
+For more information about predefined Express List views, see [Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manage-views-express-list.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -244,5 +244,5 @@ Procedure
 11. When you're satisfied with the Express List view, select **Update**.
 
 
-**Parent Topic:**[Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manage-views-express-list.md)
+**Parent Topic:**[Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manage-views-express-list.md)
 

@@ -2,7 +2,7 @@
 title: Discovery Home page
 description: The Discovery Home page provides a summary of discoveries that were triggered by cloud and non-cloud schedules. You can view any errors that occurred during a Discovery and find remediation suggestions. Use the Home page view to examine the cloud resources discovered for the service accounts you selected in a cloud schedule. View and resolve Discovery errors from the ServiceNow Home page. Get suggestions for fixing errors and filter by all schedules or a single schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-home-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discovery-home-page.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ The Discovery Home page provides a summary of discoveries that were triggered by
 
 To open the Discovery Home page, navigate to **Discovery** &gt; **Home**. The Home page shows the Discovery totals for each of the following categories. Select a tile to view details for that category.
 
-**Note:** Discovery Admin Workspace provides an updated experience for monitoring discoveries, managing schedules, and resolving errors. For more information, see [Discovery Admin Workspace Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-home.md).
+**Note:** Discovery Admin Workspace provides an updated experience for monitoring discoveries, managing schedules, and resolving errors. For more information, see [Discovery Admin Workspace Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-home.md).
 
 \[Omitted image "DiscoHomeSummary.png"\] Alt text: Discovery Home page
 
@@ -54,7 +54,7 @@ Cloud Resources
 
 </td><td>
 
-The total number of resources \(virtual machines\) discovered for the service accounts selected. See [Enable discovery of virtual machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-manager.md) for details about setting up Discovery for your cloud resources.
+The total number of resources \(virtual machines\) discovered for the service accounts selected. See [Enable discovery of virtual machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-manager.md) for details about setting up Discovery for your cloud resources.
 
  Select **View Cloud Resources** to open a list of discovered cloud resources, by type.
 
@@ -73,7 +73,7 @@ The total number of unresolved errors that occurred during discovery.
 
 The schedule view displays details for each schedule that ran for the selected filter. By default, the list shows all of the active Discovery schedules in alphabetical order, regardless of their current running status.
 
-**Note:** You can also monitor and manage IP and cloud-based schedules in [Discovery Admin Workspace Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-schedules.md).
+**Note:** You can also monitor and manage IP and cloud-based schedules in [Discovery Admin Workspace Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-schedules.md).
 
 \[Omitted image "DiscoScheduleMgrDefault.png"\] Alt text: Default view of aggregated Discovery schedules
 
@@ -130,7 +130,7 @@ Use these controls to filter Discovery results by schedules:
 
 -   **Errors by category**
 
-    Category tiles for the errors encountered during the Discovery for the selected schedule. Select a tile to view the errors in that category and to see recommended actions for remediation. See [Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryErrorMessages.md) for additional details.
+    Category tiles for the errors encountered during the Discovery for the selected schedule. Select a tile to view the errors in that category and to see recommended actions for remediation. See [Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryErrorMessages.md) for additional details.
 
 -   **Discovered cloud resources**
 
@@ -166,7 +166,7 @@ View and resolve Discovery errors from the ServiceNow Home page. Get suggestions
 
 Role required: discovery\_admin
 
-**Note:** You can also investigate and resolve Discovery errors in Discovery Admin Workspace. For more information, see [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-error-details.md).
+**Note:** You can also investigate and resolve Discovery errors in Discovery Admin Workspace. For more information, see [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/daw-error-details.md).
 
 ### Procedure
 
@@ -238,9 +238,9 @@ Role required: discovery\_admin
 
 [Discovery status]()
 
-[Review the logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryLog.md)
+[Review the logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_DiscoveryLog.md)
 
-[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
+[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
 
 [Create Discovery schedules for cloud resources]()
 

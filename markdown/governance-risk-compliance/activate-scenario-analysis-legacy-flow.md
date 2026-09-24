@@ -2,7 +2,7 @@
 title: Enable the legacy scenario analysis flow
 description: Complete admin procedure to activate the legacy scenario analysis flow \(sn\_oper\_res\_scenario\_analysis\) across the four entry-point surfaces in the Operational Resilience Workspace. Deactivate the advanced flow when you want to continue using the legacy scenario analysis flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/activate-scenario-analysis-legacy-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/activate-scenario-analysis-legacy-flow.html
 release: australia
 topic_type: task
 last_updated: "2026-05-14"
@@ -121,5 +121,5 @@ Complete each step in the order shown. Each step covers one of the four entry-po
 
 The legacy scenario analysis flow is active on all four entry-point surfaces in the Operational Resilience Workspace.
 
-For information on creating a legacy scenario analysis, see [Create a legacy scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-scenario-analysis-in-ws.md).
+For information on creating a legacy scenario analysis, see [Create a legacy scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-scenario-analysis-in-ws.md).
 

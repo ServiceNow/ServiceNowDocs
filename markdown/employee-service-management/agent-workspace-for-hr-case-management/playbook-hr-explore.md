@@ -2,7 +2,7 @@
 title: Exploring HR Service Delivery Playbook
 description: Use HR Service Delivery Agent Workspace to manage lifecycle event cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-explore.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -24,7 +24,7 @@ When Playbook is activated with HR Service Delivery Agent Workspace, the **Playb
 
     The Playbook Header shows the title of an activity set.
 
-    **Note:** For more information on lifecycle event structure, see [Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md).
+    **Note:** For more information on lifecycle event structure, see [Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md).
 
 -   **Stage panel**
 

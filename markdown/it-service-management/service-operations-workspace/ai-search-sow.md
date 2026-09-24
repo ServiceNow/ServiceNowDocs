@@ -2,7 +2,7 @@
 title: Setting up AI Search in Service Operations Workspace for ITSM
 description: Intelligent query features enable you to quickly find the answers that you require. The Next Experience Unified Navigation search field enables you to search multiple record types and switch between global search results and results from the workspace applications that you can access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/ai-search-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/ai-search-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -44,5 +44,5 @@ The following configurations are added for the AI Search experience in Service O
 
 You can customize the AI Search experience by adding a data source, editing a search profile, and so on, by using the AI Search Guided Setup. For information on using this guided setup, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md).
 
-**Parent Topic:**[Setting up integrations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/setting-up-sow-itsm.md)
+**Parent Topic:**[Setting up integrations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/setting-up-sow-itsm.md)
 

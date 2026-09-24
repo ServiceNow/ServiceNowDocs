@@ -2,7 +2,7 @@
 title: Create a recipients list
 description: Create and save a list of users to receive targeted communications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommCreateRecipientList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_TargetCommCreateRecipientList.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

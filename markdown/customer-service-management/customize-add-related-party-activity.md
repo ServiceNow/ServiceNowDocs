@@ -2,7 +2,7 @@
 title: Configure Add Related Party Activity
 description: Customize the Details, Automation, and UI Layout tabs to define the Add Related Parties activity's data inputs, scheduling behavior, and visual presentation within the playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-add-related-party-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customize-add-related-party-activity.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

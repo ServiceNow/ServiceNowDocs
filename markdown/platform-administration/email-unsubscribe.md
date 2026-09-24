@@ -2,7 +2,7 @@
 title: Email unsubscribe links
 description: Administrators can enable your users to stop receiving particular email messages by adding unsubscribe links to notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-unsubscribe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/email-unsubscribe.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -125,5 +125,5 @@ If the **Unsubscribe** link is selected, the email client creates a message simi
 
 \[Omitted image "example-unsubscribe-by-email.png"\] Alt text: An email that shows how the email client works after the unsubscribe link is selected
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateANotification.md)
 

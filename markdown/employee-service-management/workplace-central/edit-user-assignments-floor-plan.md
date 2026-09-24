@@ -2,7 +2,7 @@
 title: Edit user assignments on the floor plan
 description: Use the floor plan to edit location or neighborhood assignments for the users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/edit-user-assignments-floor-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/edit-user-assignments-floor-plan.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -38,15 +38,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 5.  Edit the user assignments based on your requirement.
 
-<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d505600e113">
+<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d505604e113">
 
 Action
 
-</th><th align="left" id="d505600e116">
+</th><th align="left" id="d505604e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d505600e122">
+</th></tr></thead><tbody><tr><td id="d505604e122">
 
 **Assign a single user**
 
@@ -69,7 +69,7 @@ If you don't select any space, the user is assigned to the floor selected on the
 7.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d505600e202">
+</td></tr><tr><td id="d505604e202">
 
 **Assign multiple users**
 
@@ -97,7 +97,7 @@ For example, `Workplace profile is Active`. For more information about condition
 6.  Select the users that you want to assign, then select **Confirm**.
 
 
-</td></tr><tr><td id="d505600e275">
+</td></tr><tr><td id="d505604e275">
 
 **Move a user**
 
@@ -115,7 +115,7 @@ Alternatively, you can select a space that has a user assigned.
 5.  Select **Apply**.
 
 
-</td></tr><tr><td id="d505600e322">
+</td></tr><tr><td id="d505604e322">
 
 **Unassign users**
 
@@ -135,5 +135,5 @@ The Unassign users pop-up opens.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Floor Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/use-floor-plan.md)
+**Parent Topic:**[Use Floor Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/use-floor-plan.md)
 

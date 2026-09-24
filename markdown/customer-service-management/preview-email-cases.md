@@ -2,7 +2,7 @@
 title: Preview an email from the Emails related list
 description: Preview emails directly from within cases. With this capability, you can select case-related emails and read the details in full view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/preview-email-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/preview-email-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

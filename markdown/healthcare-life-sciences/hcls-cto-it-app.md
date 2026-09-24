@@ -2,7 +2,7 @@
 title: Care Team Operations for Healthcare IT
 description: Care Team Operations for Healthcare IT contains the case types to report and fulfill healthcare IT issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-cto-it-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-cto-it-app.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,23 +18,23 @@ Care Team Operations for Healthcare IT contains the case types to report and ful
 
 <table id="table_p3m_nhr_hdc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how care teams use Care Team Operations for Healthcare IT.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/exploring-cto-it.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how care teams use Care Team Operations for Healthcare IT.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/exploring-cto-it.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/configuring-cto-it.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/configuring-cto-it.md)
 
 </td><td>
 
-[Request\[Omitted image "bus-manage.svg"\] Alt text:Submit support requests for healthcare IT issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/requesting-cto-it.md)
+[Request\[Omitted image "bus-manage.svg"\] Alt text:Submit support requests for healthcare IT issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/requesting-cto-it.md)
 
 </td></tr><tr><td>
 
-[Resolve\[Omitted image "bus-checkmark-circle.svg"\] Alt text:Resolve incidents created from Healthcare IT cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/fulfilling-cto-it.md)
+[Resolve\[Omitted image "bus-checkmark-circle.svg"\] Alt text:Resolve incidents created from Healthcare IT cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/fulfilling-cto-it.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details on components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-it-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details on components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-it-reference.md)
 
 </td><td>
 

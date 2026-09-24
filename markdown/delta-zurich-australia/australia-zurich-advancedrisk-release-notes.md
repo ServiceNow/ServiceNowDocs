@@ -2,11 +2,11 @@
 title: Combined Advanced Risk release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Advanced Risk from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-advancedrisk-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-advancedrisk-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,23 @@ Zurich
 
 </td><td>
 
--   **[Grid based risk and control assessment](https://www.servicenow.com/docs/access?context=perform-assessment-risk-assessment-project-grid-view&family=zurich&ft:locale=en-US)**
+-   **[Identify risks for an entity](https://www.servicenow.com/docs/access?context=suggest-potential-risks-workflow&family=zurich&ft:locale=en-US)**
+
+If you’re a Workspace user with the sn\_grc\_sharegenai.risk\_suggestion\_aiagent\_user role, you can use the Risk Suggestion AI Agent to identify risks related to an entity. The AI agent analyzes the entity and suggests relevant risks from various sources, consolidating them into a reviewable list to verify for accuracy. Risk managers can then confirm and promote these risks to the risk register for further assessment. This feature automates risk discovery, helping identify potential risks and prepare for compliance requirements.
+
+-   **[Reporting views from Risk Assessment Methodology](https://www.servicenow.com/docs/access?context=reporting-views-from-ram&family=zurich&ft:locale=en-US)**
+
+The reporting view provides an overview of all assessments under a specific Risk Assessment Methodology \(RAM\). It consolidates assessment data such as factor responses, scores, issues, controls, and associated risks into a single structure. When a RAM is published, the system automatically creates this view, which you can use to review assessments and build custom reports. It simplifies report and dashboard creation for risk assessments.
+
+**Note:** Automatic creation of Reporting views is not supported on Xanadu. For instructions on creating them manually, refer to [KB2547071](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2547071)
+
+
+ -   **[Risk event summarization](https://www.servicenow.com/docs/access?context=generate-risk-event-summary-in-the-risk-workspace&family=zurich&ft:locale=en-US)**
+
+Generate risk event summary using the ServiceNow Otto for IRM application. Risk event summarisation is a Generative AI driven capability that generates clear and consistent summaries automatically. It reduces the need for manual effort, helps risk managers save time, and enables approvers to quickly understand the key details for faster decisions. Check your entitlements to confirm whether you have access to risk event summarization.
+
+
+ -   **[Grid based risk and control assessment](https://www.servicenow.com/docs/access?context=perform-assessment-risk-assessment-project-grid-view&family=zurich&ft:locale=en-US)**
 
 Gain efficient control over risk assessments with the new grid-based Risk and Control Self Assessment \(RCSA\). Quickly compare, edit, and prioritize risks and controls using the flexible, spreadsheet-style interface. Use side-by-side views and bulk editing to complete assessments faster.
 
@@ -86,9 +102,50 @@ Australia
 
 </td><td>
 
--   **[Risk Suggestion AI Agent enhancements](https://www.servicenow.com/docs/access?context=identify-risks-for-entity&family=australia&ft:locale=en-US)**
+-   **[Worst case aggregation rollup for risk scoring](https://www.servicenow.com/docs/access?context=risk-assessment-methodology-form&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.3.2, use the worst case aggregation rollup method that derives all scores from a single risk record based on the highest residual risk. You can configure this option on the Risk Assessment Methodology \(RAM\) form. By using a single risk record as the source, this method keeps all rolled-up scores aligned to a real risk scenario, supporting traceability, audit requirements, and enterprise governance.
+
+-   **[Hide Not applicable option in control and residual assessments](https://www.servicenow.com/docs/access?context=control-assessment-form&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.3.2, configure the Risk Assessment Methodology \(RAM\) to hide the Not applicable check box in control effectiveness and residual assessment sections by using the **Hide assessment not applicable** option. This change reduces calculation errors and improves the reliability of assessment results.
+
+-   **[Parallel review and feedback for Risk assessment project](https://www.servicenow.com/docs/access?context=integrate-advanced-risk-with-parallel-review-feedback&family=australia&ft:locale=en-US)**
+
+Parallel review and feedback is now enabled by default on the risk assessment project record page and the project assessment page, in both stacked view and grid view. You can use collaborative review workflows without manual configuration, which removes the setup overhead previously required by the custom page structure of risk assessment projects.
+
+-   **Redirect GRC notification links to the appropriate workspace**
+
+After upgrading to version 22.3.2, redirect to the appropriate workspace when accessing GRC records from email notifications, based on the access and role. This feature improves usability, reduces confusion, and supports adoption of workspace-based workflows.
+
+-   **[Template versioning for Risk Identification](https://www.servicenow.com/docs/access?context=template-versioning&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.3.2, Risk Identification supports smart assessment template versioning. New versions can be created from existing templates without creating a new template, and assessments use the latest published version.
+
+-   **[Audit entry field on Risk Assessment Project](https://www.servicenow.com/docs/access?context=create-risk-assessment-project&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.3.2, Risk Assessment Projects support audit entries to track changes and activity history. An audit entry framework separates audit-specific \(third-line\) records from operational \(second-line\) records and controls visibility.
+
+**Note:** This option is available if Audit Management and Audit Workspace are installed. Assign the sn\_audit\_ws.third\_line\_manager role to a user to use this feature.
+
+
+ -   **[Risk Suggestion AI Agent enhancements](https://www.servicenow.com/docs/access?context=identify-risks-for-entity&family=australia&ft:locale=en-US)**
 
 After upgrading the ServiceNow Otto for Integrated Risk Management \(IRM\) application to version 22.x, the Risk Suggestion AI Agent supports a more context‑aware and conversational workflow. After selecting risk types, you can provide additional context to refine search results, with the agent dynamically asking follow‑up questions when needed. Before adding risks to the suggested risk section, you can review and modify suggested risks by updating descriptions, renaming risks, or removing items from the list.
+
+
+ -   **[Risk event response template enhancements](https://www.servicenow.com/docs/access?context=create-risk-event-response-template&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.0.x, users with the Risk Manager \[sn\_risk.manager\] or Risk Admin \[sn\_risk.admin\] role can configure risk event response templates using dynamic, entity‑driven assignments. These changes enable assignments to be derived from entity data alongside existing static user or group selection.
+
+You can select user fields defined on the entity \(such as Owner or Sub-owner\) or entity stakeholder personas when configuring:
+
+    -   Risk event owner assignment
+    -   Issue creation and assignment
+    -   Risk event approvers
+-   **[Control Objective workflow](https://www.servicenow.com/docs/access?context=create-control-objective-ws&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.0.x, you can use a defined workflow to update control objectives. Changes can be drafted and reviewed without changing the current active version, which helps avoid unintended changes to related controls, and risk records. Only approved updates become active. The workflow also sets clear responsibility for making updates and helps keep control objective information consistent and up to date.
 
 
 </td></tr></tbody>
@@ -110,7 +167,17 @@ Zurich
 
 </td><td>
 
--   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+-   **[Downstream risks related list](https://www.servicenow.com/docs/access?context=entities-in-risk-ws&family=zurich&ft:locale=en-US)**
+
+The Downstream risks related list on the entity record page has been renamed Risks.
+
+
+ -   **Summary section**
+
+In the classic UI, the Summary section on the risk event record has been renamed Impacts.In the Risk Workspace, the Summary section on the risk event overview page has been renamed Impacts and approvals.
+
+
+ -   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
 The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
@@ -219,6 +286,8 @@ Zurich
 Install Advanced Risk by requesting it from the ServiceNow Store. 
 
 
+**Important:** Advanced Risk is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -229,6 +298,8 @@ Australia
 
 Install Advanced Risk by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Advanced Risk is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -406,5 +477,5 @@ Australia
  See [Advanced Risk Assessment](https://www.servicenow.com/docs/access?context=advanced-risk-assessment&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

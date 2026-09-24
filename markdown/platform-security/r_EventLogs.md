@@ -2,7 +2,7 @@
 title: Event logs
 description: The event log records all system events that occur within the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_EventLogs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_EventLogs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

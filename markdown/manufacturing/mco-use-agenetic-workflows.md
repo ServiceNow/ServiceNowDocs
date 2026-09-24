@@ -2,7 +2,7 @@
 title: Using agentic workflows in ServiceNow Otto for Manufacturing Commercial Operations
 description: Use the MCO AI agents within an agentic workflow to extract relevant data from repair documents, enabling the generation of corrective actions and associated charges.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-use-agenetic-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-use-agenetic-workflows.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,11 +41,11 @@ Create recall corrective actions AI agent
  Plan and execute recall campaign phases and subphases AI agent
 
 </td></tr></tbody>
-</table>Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)
+</table>Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. For more information, see 
 
 **Important:** By default, all agent workflow and AI agent records are read-only.
 
-To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
+To run the AI agents autonomously, you must first duplicate the agentic workflow, and then proceed with the following steps:
 
 -   Activate the agentic workflow.
 -   Activate all agents within the agentic workflow.
@@ -54,9 +54,7 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 **Related topics**  
 
 
-[Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
+[bundle-platai.exploring-ai-agents]
 
-[Create recall corrective actions using ServiceNow Otto for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/execute-recall-campaigns.md)
-
-[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)
+[Create recall corrective actions using ServiceNow Otto for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/execute-recall-campaigns.md)
 

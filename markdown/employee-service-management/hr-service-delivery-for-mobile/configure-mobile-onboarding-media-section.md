@@ -2,7 +2,7 @@
 title: Configure a media section for Now Mobile
 description: Configure one or more of the media sections for Now Mobile to provide relevant content to new hires at different stages of the onboarding process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-mobile/configure-mobile-onboarding-media-section.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery-for-mobile/configure-mobile-onboarding-media-section.html
 release: australia
 product: HR Service Delivery for mobile
 classification: hr-service-delivery-for-mobile
@@ -93,5 +93,5 @@ Download the employee appDisplays on the lower half of the Welcome screen after 
 5.  Click **Update**.
 
 
-**Parent Topic:**[Administer Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-mobile/administer-mobile-employee-onboarding-for-hr-service-delivery.md)
+**Parent Topic:**[Administer Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-mobile/administer-mobile-employee-onboarding-for-hr-service-delivery.md)
 

@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto for Cloud Cost Management \(CCM\)
 description: If you have the admin role, you can install the ServiceNow Otto for Cloud Cost Management \(CCM\) application. ServiceNow Otto for CCM enables cloud resource managers and users to use the capabilities of generative AI skills in Cloud Cost Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/install-otto-ccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/install-otto-ccm.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

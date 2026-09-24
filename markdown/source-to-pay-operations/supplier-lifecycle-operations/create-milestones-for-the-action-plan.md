@@ -2,7 +2,7 @@
 title: Create milestones for the action plan
 description: Create milestones for the affected KPIs in the action plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -54,5 +54,5 @@ Role required: sn\_kpi.admin
 
 The milestones appear in the related list of the action plan.
 
-**Parent Topic:**[Create action plan for KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.md)
+**Parent Topic:**[Create action plan for KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.md)
 

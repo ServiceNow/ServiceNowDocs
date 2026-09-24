@@ -2,7 +2,7 @@
 title: Fix external user role assignments
 description: You may have external users \(contacts or consumers\) on your instance that have been assigned internal roles. If so, you can use the Customer Service Management guided setup to evaluate and correct these role assignments as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/fixing-external-role-assignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/fixing-external-role-assignment.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Working with outbound invoice
 description: Validate invoice data with an ERP number, process the integration, and move the invoice to payment extraction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/working-with-outbound-invoice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/working-with-outbound-invoice.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -36,5 +36,5 @@ The invoice **Status** is automatically set to **Pending payment**. The invoice 
 
 ## What to do next
 
-[Working with integration error tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-integration-error.md)
+[Working with integration error tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-integration-error.md)
 

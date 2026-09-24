@@ -2,7 +2,7 @@
 title: View the associated Insurance claims cases with Agent assist
 description: View the associated claims and relevant knowledge articles by using the Agent assist contextual search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/use-agent-assist-to-view-associated-insurance-claims-flow-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/use-agent-assist-to-view-associated-insurance-claims-flow-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

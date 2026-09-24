@@ -2,7 +2,7 @@
 title: Skill inputs for ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Skill inputs for the invoice case summarization skill, including the base input table and fields used to generate invoice case summaries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/skill-input-now-assist-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/skill-input-now-assist-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

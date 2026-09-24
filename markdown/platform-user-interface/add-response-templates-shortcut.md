@@ -2,7 +2,7 @@
 title: Use keyboard shortcuts for emails
 description: Use keyboard shortcuts to view response templates, drafts, and email templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-response-templates-shortcut.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/add-response-templates-shortcut.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Tutorial: Configure adaptive authentication
 description: Use these example steps to configure adaptive authentication on an instance.Learn how to create a criteria record to use as a policy input for your adaptive authentication policy.Learn how to create a policy to deny access to user groups defined in your group filter criteria.Configure the Post Authentication Policy Context to use your new policy. When configured, your instance denies access to users within the group defined in the filter criteria record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/adaptive-auth-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/adaptive-auth-example.html
 release: australia
 product: Authentication
 classification: authentication
@@ -16,7 +16,7 @@ breadcrumb: [Configure properties, Adaptive authentication, Authentication, Acce
 
 Use these example steps to configure adaptive authentication on an instance.
 
-To use this tutorial, you must have an instance with Adaptive Authentication activated. For details on this process, see [Activate adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-plugin.md).
+To use this tutorial, you must have an instance with Adaptive Authentication activated. For details on this process, see [Activate adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-authentication-plugin.md).
 
 The example guides you through creating a new policy and applying it to an instance. In this tutorial you will:
 

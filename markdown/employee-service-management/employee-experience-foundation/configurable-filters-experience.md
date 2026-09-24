@@ -2,7 +2,7 @@
 title: Task filters on My tasks
 description: Use the enhanced filters experience to manage and prioritize the tasks. Using the filters, employees and managers can have better visibility into the time-sensitive and business-critical tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configurable-filters-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configurable-filters-experience.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,9 +27,9 @@ Use filters to easily filter, discover, and fulfill the tasks in a few clicks. S
 -   Select, change, and remove filters to discover your tasks.
 -   Discover and fulfill the tasks such as on-boarding, approvals, and learning.
 
-For configuration steps, see [Configurable task filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configurable-filters-experience-employee.md)
+For configuration steps, see [Configurable task filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configurable-filters-experience-employee.md)
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

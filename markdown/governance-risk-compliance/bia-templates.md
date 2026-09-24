@@ -2,7 +2,7 @@
 title: Business impact analysis \(BIA\) templates
 description: The Business Continuity Management application provides pre-configured business impact analysis \(BIA\) templates for creating a business impact analysis. If you are the BCM or BIA administrator, you can use the BIA Templates module in the Business Continuity Management application. You can then select the type of the template, elements, impact categories, and so on, for the business impact analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bia-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bia-templates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -61,7 +61,7 @@ The example shows the sample configuration of a BIA template in an instance.
 
 ## Configuring a BIA template
 
-For more information on how to configure a BIA template with the sn\_bcm.admin role, see [Configure BIA templates with legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bia-template-uib-ws.md).
+For more information on how to configure a BIA template with the sn\_bcm.admin role, see [Configure BIA templates with legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-bia-template-uib-ws.md).
 
 ## Impact dependency groups
 

@@ -2,7 +2,7 @@
 title: Email connector
 description: The Email connector lets an RPA Desktop Design Studio automation work with email. For example, an automation can send, retrieve, and reply to email messages, and can automatically download attachments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/email-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/email-connectors.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,14 +20,14 @@ The Email connector lets an RPA Desktop Design Studio automation work with email
 
 In this example automation, the SetConfig method of the Email connector logs in to the mail server using the account holder's credentials. The GetMail method then retrieves all the unread messages from the inbox of the account. By using a For Each loop, the automation iterates through the retrieved messages and saves each message's attachments to a specified location on the local drive.
 
--   For information about using connectors in RPA Desktop Design Studio, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector.md).
--   For information about making connector methods visible in RPA Desktop Design Studio, see [Use connector method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector-method.md).
--   To learn how to use connector methods, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-components.md).
+-   For information about using connectors in RPA Desktop Design Studio, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-connector.md).
+-   For information about making connector methods visible in RPA Desktop Design Studio, see [Use connector method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-connector-method.md).
+-   To learn how to use connector methods, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-components.md).
 
--   **[Email connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/email-connector-methods.md)**  
+-   **[Email connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/email-connector-methods.md)**  
 The methods in the Email connector retrieve, send, and reply to email messages, and can download attachments. Use the SetConfig method first to set up the connection to your mail server.
--   **[Email method properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/email-method-properties.md)**  
+-   **[Email method properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/email-method-properties.md)**  
 The following properties can be set for each of the Email connector methods. To set the properties, double-click a method and enter the values in the **Properties** pane.
 
-**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connectors.md)
 

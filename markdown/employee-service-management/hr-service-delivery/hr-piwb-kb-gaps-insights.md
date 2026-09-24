@@ -2,7 +2,7 @@
 title: HR PIWB template: Predict knowledge gaps and insights
 description: Use the classic template that walks you through setting up a machine learning model to automate the discovery of knowledge gaps and recommend insights into improving knowledge by demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-piwb-kb-gaps-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-piwb-kb-gaps-insights.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -52,7 +52,7 @@ When the configuration is complete, machine learning algorithm provides various 
 
 You can verify the integration status from **HR Administration** &gt; **HR AI Configurations** &gt; **Solution definition**. The use case is now mapped to the selected solution definition.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Popular topics widget
 description: Popular topics widget lets you quickly view and access the most popular topics. You can configure the instance options to control the appearance of the widget, such as the title, number of topics, display size, and border color.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-popular-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-popular-topics.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -135,5 +135,5 @@ Option to show the view from the available options:-   None
 </table>4.  Click **Save**.
 
 
-**Parent Topic:**[Employee Center browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
+**Parent Topic:**[Employee Center browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
 

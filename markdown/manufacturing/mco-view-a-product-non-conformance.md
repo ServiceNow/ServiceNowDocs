@@ -2,7 +2,7 @@
 title: View a product non-conformance
 description: Review submitted product non-conformance cases to track their status and resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-view-a-product-non-conformance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-view-a-product-non-conformance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

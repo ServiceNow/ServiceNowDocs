@@ -2,7 +2,7 @@
 title: IP Address
 description: Use the IP address variable to specify the IPv4 and IPv6 data for a catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/ip-address.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/ip-address.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -22,7 +22,7 @@ Under the **Validation Scripts** submodule, a validation script type associated 
 
 \[Omitted image "IPAddressVariable.png"\] Alt text: Screen shot for the IP Address variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -37,7 +37,7 @@ Under the **Validation Scripts** submodule, a validation script type associated 
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

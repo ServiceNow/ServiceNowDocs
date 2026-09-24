@@ -2,7 +2,7 @@
 title: Change the number of history entries
 description: By default, the history displays a maximum of 250 history entries, but you can change this value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ChangeTheNumberOfHistoryEntries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ChangeTheNumberOfHistoryEntries.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

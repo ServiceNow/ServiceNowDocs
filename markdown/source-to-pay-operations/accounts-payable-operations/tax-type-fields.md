@@ -2,7 +2,7 @@
 title: Tax type fields
 description: Field descriptions for the Tax type form used to define and apply tax types to invoices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-type-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/tax-type-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -94,5 +94,5 @@ Tax authority
 Taxing authority or tax levy that imposes the tax within the jurisdiction. For example, Local Sales and Use Tax.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
+</table>**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

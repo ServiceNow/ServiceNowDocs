@@ -2,7 +2,7 @@
 title: Workplace knowledge management
 description: As a workplace admin, you can create knowledge base articles for employees. In the articles, provide information to your employees about workplace services, such as workplace updates, self-help, troubleshoot, and others.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/workplace-knowledge-mgmt-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/workplace-knowledge-mgmt-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace

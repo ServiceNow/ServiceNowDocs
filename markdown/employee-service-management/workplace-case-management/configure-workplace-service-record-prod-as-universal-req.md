@@ -2,7 +2,7 @@
 title: Configure a workplace service record producer as a Universal Request
 description: Enable an employee to submit a universal request using a workplace service record producer from the Workplace Service Portal. Configure a workplace service to create Universal Request whenever an employee makes a selection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/configure-workplace-service-record-prod-as-universal-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/configure-workplace-service-record-prod-as-universal-req.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -22,7 +22,7 @@ Ensure that you have activated the Universal Request plugin.
 
 Ensure that you have the following:
 
--   A workplace service that is linked to a record producer. For more information, see [Configure a Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-create-record-producer.md).
+-   A workplace service that is linked to a record producer. For more information, see [Configure a Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/wsd-create-record-producer.md).
 -   An active record producer.
 
 Role required: sn\_wsd\_case.admin or sn\_wsd\_case.manager
@@ -48,7 +48,7 @@ The workplace service record producer is configured as a universal request.
 
 When an employee submits an inquiry using this workplace service, a universal request is created. The request is automatically assigned to the Workplace services assignment group.
 
-**Parent Topic:**[Workplace Service Delivery integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-intergration-with-universal-request.md)
+**Parent Topic:**[Workplace Service Delivery integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/wsd-intergration-with-universal-request.md)
 
 **Related topics**  
 

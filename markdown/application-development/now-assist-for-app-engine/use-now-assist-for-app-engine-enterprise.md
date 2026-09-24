@@ -2,7 +2,7 @@
 title: Using ServiceNow Otto for App Engine
 description: Enhance custom applications with generative and agentic AI capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -17,9 +17,9 @@ breadcrumb: [ServiceNow Otto for App Engine, Agentic development on the ServiceN
 
 Enhance custom applications with generative and agentic AI capabilities.
 
-With ServiceNow Otto for App Engine, you can enhance your custom applications with several AI capabilities: skills, AI agents, and agentic workflows. To learn more about the types of AI capabilities that you can implement with ServiceNow Otto for App Engine, see [AI capabilities for enhancing custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.md).
+With ServiceNow Otto for App Engine, you can enhance your custom applications with several AI capabilities: skills, AI agents, and agentic workflows. To learn more about the types of AI capabilities that you can implement with ServiceNow Otto for App Engine, see [AI capabilities for enhancing custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.md).
 
-Certain app workflows might be well suited for AI agents and agentic workflows. Other workflows might be best handled with skills. To learn about which AI capability might be best for your use case, see [Choosing the right AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/choosing-the-right-ai-capability.md).
+Certain app workflows might be well suited for AI agents and agentic workflows. Other workflows might be best handled with skills. To learn about which AI capability might be best for your use case, see [Choosing the right AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/choosing-the-right-ai-capability.md).
 
 ## Implementing skills
 
@@ -47,10 +47,10 @@ The following list outlines the process for implementing an AI agent and agentic
 6.  [Evaluate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md) to monitor performance and evaluate it against different benchmarks.
 7.  Use the AI agent or agentic workflow in your custom application.
 
--   **[Summarize a record in-product using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.md)**  
+-   **[Summarize a record in-product using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.md)**  
 Quickly understand the contents of a record in a custom application within Core UI or a custom workspace.
--   **[Summarize a record through chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md)**  
+-   **[Summarize a record through chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md)**  
 Quickly understand the contents of a record through a conversation with ServiceNow Otto.
 
-**Parent Topic:**[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
+**Parent Topic:**[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 

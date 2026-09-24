@@ -2,7 +2,7 @@
 title: Add or modify locations
 description: If your company has multiple offices, location records store the address and contact details for each site, and are assigned in the employee HR profile and user records. The location of an HR agent can be used for automatic assignment of HR cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_ViewALocationIst.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_ViewALocationIst.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -41,5 +41,5 @@ The Administrator can view, edit, or create locations. You can use the location 
 6.  Click **Save** to stay on the **Locations** form or **Submit** to return to the **Locations** list.
 
 
-**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

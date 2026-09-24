@@ -2,7 +2,7 @@
 title: Accept AI terms and conditions
 description: Accept AI terms and conditions before accessing the EmployeeWorks Web App conversational experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-accept-terms-attestation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-accept-terms-attestation.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +19,7 @@ Accept AI terms and conditions before accessing the EmployeeWorks Web App conver
 
 ## Before you begin
 
-A Moveworks administrator must configure terms of use. See [Configure terms of use attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-terms-of-use.md).
+A Moveworks administrator must configure terms of use. See [Configure terms of use attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-terms-of-use.md).
 
 Role required: Employee
 

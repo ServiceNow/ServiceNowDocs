@@ -2,7 +2,7 @@
 title: Perl web services client examples
 description: Examples demonstrating an integration with a Perl web services client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_PerlWebServicesClientExamples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_PerlWebServicesClientExamples.html
 release: australia
 product: Web Services
 classification: web-services
@@ -245,5 +245,5 @@ sub print_fault {my($result)=@_;
   if($result->fault){print"faultcode=".$result->fault->{'faultcode'}."\n";print"faultstring=".$result->fault->{'faultstring'}."\n";print"detail=".$result->fault->{'detail'}."\n";}}
 ```
 
-**Parent Topic:**[Inbound web service examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_InboundWebServiceExamples.md)
+**Parent Topic:**[Inbound web service examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_InboundWebServiceExamples.md)
 

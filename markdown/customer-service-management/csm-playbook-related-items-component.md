@@ -2,7 +2,7 @@
 title: Playbook related items component
 description: The related items component provides access to the case-related lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-related-items-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-related-items-component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

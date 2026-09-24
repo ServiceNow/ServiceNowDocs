@@ -2,7 +2,7 @@
 title: Pillars overview tab
 description: A pillar is a foundational element that supports your organization's operational resilience. You can map business services and processes to these pillars in the Operational Resilience application to establish relationships and monitor their status on the dashboard in the Operational Resilience Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/pillars-ov.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/pillars-ov.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -174,5 +174,5 @@ Depending on the applications integrated with Operational Resilience, suggestion
 -   Top risks to be mitigated
 -   Top vulnerabilities to be fixed
 
-For more information on the pillars in Operational Resilience, see [Exploring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/what-is-opres.md).
+For more information on the pillars in Operational Resilience, see [Exploring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/what-is-opres.md).
 

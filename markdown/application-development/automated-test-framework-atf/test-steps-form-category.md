@@ -2,7 +2,7 @@
 title: Form category
 description: Validate the functionality of fields and UI actions on a form.Open a form to a new record in the specified table and Form UI.Open a form to an existing record in the specified table and Form UI.Set the fields on the current form to the specified values.Validate field values on the current form.Validate the state of specified fields. States validated can include mandatory, non-mandatory, read-only, non-read-only, visible, and non-visible.Verify if a UI action is visible on the current form. To run this step, your test must have already opened a form using either the Open a New Form or Open an Existing Record step.Verify if a declarative action is visible on the current form.Add one or more mandatory attachments to the current form. Select the attachments that the test step adds to the form from the Upload Attachments list.Click a button within a modal in the specified Form UI.Click a UI action on the current form.Click a declarative action on the current form.Submit the current form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-form-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/test-steps-form-category.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -117,7 +117,7 @@ Name of the view in which you want this form to open. The testing user must have
 
 Open a form to an existing record in the specified table and **Form UI**.
 
-**Note:** Using an existing record may cause unexpected behavior for this test. See [Automated Test Framework design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.
+**Note:** Using an existing record may cause unexpected behavior for this test. See [Automated Test Framework design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.
 
 <table id="table_od3_dgb_hzb"><thead><tr><th>
 

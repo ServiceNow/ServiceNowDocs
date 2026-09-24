@@ -2,7 +2,7 @@
 title: Zing indexes some HTML elements
 description: Zing indexes the contents of certain HTML elements to improve document search results. This indexing is addition to the normal indexing by word.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/c\_SearchingHTMLContent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/c\_SearchingHTMLContent.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -22,7 +22,7 @@ Zing indexes the contents of certain HTML elements to improve document search re
 |Anchor link target|Zing indexes the target URL specified in the **href** attribute of any anchor element.|
 |Alt text for an image|Zing indexes the alternative text of any image element.|
 
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

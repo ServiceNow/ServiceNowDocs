@@ -2,7 +2,7 @@
 title: Express List in the Service Operations Workspace for ITOM
 description: Express List helps you identify health issues across the datacenter on the Service Operations Workspace. It provides quick information on alerts so you can monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/express-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/express-list.html
 release: australia
 product: Event Management
 classification: event-management
@@ -54,7 +54,7 @@ The **Info** tab on the preview panel displays the following information for a s
 -   Last Updated
 -   Impacted services
 
-    For more information, see [View data on impacted services on the preview panel in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-impacted-services-data.md).
+    For more information, see [View data on impacted services on the preview panel in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-impacted-services-data.md).
 
 -   Additional info
 -   Custom field
@@ -107,5 +107,5 @@ The **evt\_mgmt.express\_list.all\_time\_days** system property controls the num
 **Related topics**  
 
 
-[Roles used by Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/roles-used-by-express-list.md)
+[Roles used by Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/roles-used-by-express-list.md)
 

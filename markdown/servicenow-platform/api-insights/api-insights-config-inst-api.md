@@ -2,7 +2,7 @@
 title: Configure instance API import settings in API Insights
 description: Set options to import custom and ServiceNow APIs from your instance into the CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-config-inst-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/api-insights/api-insights-config-inst-api.html
 release: australia
 product: API Insights
 classification: api-insights
@@ -39,8 +39,8 @@ Configure API import options to bring custom and ServiceNow APIs from your Servi
     |Option|Description|
     |------|-----------|
     |All custom APIs|Imports all custom-developed APIs within the instance.|
-    |ServiceNow APIs|Imports predefined ServiceNow APIs within the instance. [Learn more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-config-inst-api.md).|
-    |Active in last|Imports only APIs based on recent activity, available for scripted APIs only. [Learn more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-config-inst-api.md).|
+    |ServiceNow APIs|Imports predefined ServiceNow APIs within the instance. [Learn more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-config-inst-api.md).|
+    |Active in last|Imports only APIs based on recent activity, available for scripted APIs only. [Learn more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-config-inst-api.md).|
 
     -   If you select the **ServiceNow APIs** option, select **Select APIs** and then manage the APIs to import.
 

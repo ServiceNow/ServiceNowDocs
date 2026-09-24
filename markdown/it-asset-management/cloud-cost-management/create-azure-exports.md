@@ -2,7 +2,7 @@
 title: Create exports on the Azure portal
 description: Create exports for your Azure service account to download Azure billing data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-azure-exports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/create-azure-exports.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -131,5 +131,5 @@ The export that you have created appears in the list of exports.
 **Related topics**  
 
 
-[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
+[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
 

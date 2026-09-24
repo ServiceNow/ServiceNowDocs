@@ -2,7 +2,7 @@
 title: Microsoft cost-based licensing optimization example
 description: This example demonstrates how a software asset manager can optimize Microsoft SQL Server licensing in a cluster deployment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/microsoft-cost-based-licensing-optimization-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/microsoft-cost-based-licensing-optimization-example.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -159,5 +159,5 @@ Virtual layer
 </td></tr></tbody>
 </table>The software asset manager determines that option number 3 is the most cost-effective licensing solution for the cluster. By using this licensing option, the software asset manager can achieve a total cost savings of approximately $103,600.
 
-**Parent Topic:**[Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md)
+**Parent Topic:**[Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md)
 

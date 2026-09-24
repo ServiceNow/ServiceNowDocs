@@ -2,7 +2,7 @@
 title: Configuring system properties for TinyMCE HTML editor
 description: There are multiple system properties that are used to configure the behaviour of the HTML editor field type. Learn about the system properties available in the TinyMCE rich text editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/configuring-the-html-system-properties-in-tinymce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configuring-the-html-system-properties-in-tinymce.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Activate
 description: The Integration Configuration feature allows you to quickly activate and set up third-party security integrations, including the Security Operations Have I been pwned? integration. Before you can use the Have I been pwned? integration, you must download it from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activate-haveibeenpwned.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/activate-haveibeenpwned.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -24,7 +24,7 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/download-app-first-time.md).
 
     This integration supports an open API and does not require further configuration. Have I been pwned? can now be selected for performing lookups on observables in Threat Intelligence and on observables in security incidents.
 
@@ -32,5 +32,5 @@ Role required: sn\_si\_admin
 **Related topics**  
 
 
-[Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/perform-lookups-on-observables.md)
+[Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/perform-lookups-on-observables.md)
 

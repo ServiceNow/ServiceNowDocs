@@ -2,7 +2,7 @@
 title: Use CMDB groups to add OT context to IT CIs
 description: Use Configuration Management Database \(CMDB\) groups to group IT configuration items \(CIs\) based on additional information, like installed software. Then you can add Operational Technology \(OT\) context to the IT CIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/use-cmdb-groups-it-ot-conversion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/use-cmdb-groups-it-ot-conversion.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -50,7 +50,7 @@ Follow these general guidelines:
 
     Creating this record adds OT context to IT CIs through the OT entity details.
 
-    For more information about how to create an Automated IT to OT Bulk Contextualization record, see [Automatically convert your IT records to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.md).
+    For more information about how to create an Automated IT to OT Bulk Contextualization record, see [Automatically convert your IT records to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.md).
 
     **Note:** The **Filter Criteria - OT Devices** tab isn't visible when using CMDB groups.
 
@@ -82,5 +82,5 @@ Follow these general guidelines:
 5.  Select **Proceed**.
 
 
-**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 

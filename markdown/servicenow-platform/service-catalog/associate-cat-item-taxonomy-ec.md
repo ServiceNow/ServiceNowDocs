@@ -2,7 +2,7 @@
 title: Associate a catalog item with a taxonomy topic in Employee Center
 description: Associate your existing and new catalog items, knowledge base articles, and quick links to the appropriate taxonomy topics so that the catalog items are available in the Employee Center as content in the topics or child topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -55,5 +55,5 @@ To associate a catalog item from the Service Catalog:
 
 The catalog item is associated with the selected taxonomy topic and appears on the Employee Center.
 
-**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 

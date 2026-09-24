@@ -2,7 +2,7 @@
 title: Integration with Lenovo for asset warranty details
 description: The Lenovo Asset Warranty Flow enables you to get the warranty information of hardware assets by connecting to the Lenovo Warranty API.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/integration-with-lenovo-asset-warranty.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/integration-with-lenovo-asset-warranty.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -24,7 +24,7 @@ Integration with Lenovo has the following requirements:
 
     **Note:** If you don’t have a Client ID, contact your organization's Lenovo sales or service representative.
 
--   A Lenovo connection. If you don't have this connection, it must be created using the Lenovo \[sn\_lenovo\_spoke.Lenovo\] connection and credential alias. For more information, see [Connect to the Lenovo Warranty API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/connect-to-lenovo-api.md).
+-   A Lenovo connection. If you don't have this connection, it must be created using the Lenovo \[sn\_lenovo\_spoke.Lenovo\] connection and credential alias. For more information, see [Connect to the Lenovo Warranty API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/connect-to-lenovo-api.md).
 
 **Note:** For details on the input and response fields of the Lenovo Warranty API, see the "Warranty" topic in the Lenovo WebAPI documentation.
 
@@ -47,10 +47,10 @@ The process involved in fetching the asset warranty details from Lenovo is as fo
 
 **Note:** Warranty records for excluded assets aren't fetched.
 
-An asset can have multiple warranties associated with it. You can view the warranty information using the Asset Warranties tab on the asset form. You can also view all the asset warranty records from a central location using the Asset warranties list in the Asset operations view. For more information, see [Track the warranty details of your Lenovo assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-asset-warranty-details.md).
+An asset can have multiple warranties associated with it. You can view the warranty information using the Asset Warranties tab on the asset form. You can also view all the asset warranty records from a central location using the Asset warranties list in the Asset operations view. For more information, see [Track the warranty details of your Lenovo assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/view-asset-warranty-details.md).
 
 **Related topics**  
 
 
-[Receive asset warranty details from Lenovo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/receive-warranty-details-lenovo.md)
+[Receive asset warranty details from Lenovo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/receive-warranty-details-lenovo.md)
 

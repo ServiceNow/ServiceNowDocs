@@ -2,7 +2,7 @@
 title: Deploy the similarity model
 description: Deploy the Similar incidents model to predict the similar records for the incidents. 
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/deploy-the-similarity-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/task-intelligence-for-itsm/deploy-the-similarity-model.html
 release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -20,7 +20,7 @@ Deploy the Similar incidents model to predict the similar records for the incide
 
 ## Before you begin
 
-You must access the model and set the preferences for your model. For more information on setting model preferences, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
+You must access the model and set the preferences for your model. For more information on setting model preferences, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
 
 Role required: sn\_ti\_admin.tia\_admin or admin 
 
@@ -43,8 +43,8 @@ A pop-up appears confirming that your model was deployed.
 
 After you deploy the model, view its predictions and performance in the following places:
 
--   To monitor prediction accuracy and model performance over time, navigate to **All** &gt; **Task Intelligence for ITSM** &gt; **Monitoring**. For more information, see [Monitoring and Analytics for Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/task-intel-monitor-analystics.md).
+-   To monitor prediction accuracy and model performance over time, navigate to **All** &gt; **Task Intelligence for ITSM** &gt; **Monitoring**. For more information, see [Monitoring and Analytics for Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/task-intel-monitor-analystics.md).
 -   To surface similar records to agents, open an incident in Service Operations Workspace. Recommendations appear in the side panel when the configured recommendation uses the model.
 
-**Parent Topic:**[Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
+**Parent Topic:**[Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
 

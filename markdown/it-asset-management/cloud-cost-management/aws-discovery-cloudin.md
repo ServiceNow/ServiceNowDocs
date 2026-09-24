@@ -2,7 +2,7 @@
 title: Discovering your cloud resources for use
 description: Select the service accounts to discover, the credentials for accessing the accounts, and the MID Servers that scan the resources. If you use the Discovery application, the Discovery Manager wizard simplifies the configuration process for discovering cloud attributes. If you use a different method for discovering resources, you can skip this configuration operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-discovery-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/aws-discovery-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

@@ -2,7 +2,7 @@
 title: View and update your next tasks
 description: View your next tasks using the Your next tasks widget on the My journeys page to understand the next steps in your journey.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/view-your-next-tasks-jd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/view-your-next-tasks-jd.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -31,5 +31,5 @@ Role required: employee
 4.  Select **Complete** if the task is complete or select **Mark as in-progress** if you are still working on the task.
 
 
-**Parent Topic:**[Employees view and complete journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-employee-journey-tasks.md)
+**Parent Topic:**[Employees view and complete journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-employee-journey-tasks.md)
 

@@ -2,7 +2,7 @@
 title: Create global rank column for high-level planning
 description: Create a global rank column for planning item types that do not extend the Planning Item \[sn\_align\_planning\_item\] table so that you can enable high-level planning for these items in Strategic Planning Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-global-rank-field-to-enable-high-level-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/create-global-rank-field-to-enable-high-level-planning.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -98,5 +98,5 @@ Application scope of the table.This field is populated automatically based on th
 
 ## What to do next
 
-Create a rank configuration for the global rank field you created. See [Create rank configuration for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-rank-configuration-enable-high-level-planning.md).
+Create a rank configuration for the global rank field you created. See [Create rank configuration for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-rank-configuration-enable-high-level-planning.md).
 

@@ -2,7 +2,7 @@
 title: Properties installed with Enterprise Agile Planning
 description: System properties that you can configure to modify the way your product manager or scrum team members view their work in the Enterprise Agile Planning \(EAP\) workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/properties-installed-with-enterprise-agile-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/properties-installed-with-enterprise-agile-planning.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -44,7 +44,7 @@ sn\_align\_core\_scrum\_epic,sn\_align\_core\_capability,sn\_align\_core\_featur
 **Important:** Any item, which is an extension of the Enterprise agile planning item \[sn\_align\_core\_eap\_planning\_item\] table must be entered before **rm\_story**.
 
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Configure display of other work item types in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md)
+-   Learn more: [Configure display of other work item types in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md)
 
 </td></tr><tr><td>
 
@@ -57,9 +57,9 @@ Enables the Hierarchy view in Enterprise Agile Planning to display work items in
  -   Type: true \| false
 -   Default value: false
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Enable Hierarchy tab in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/hierarchy-enable-eap.md)
+-   Learn more: [Enable Hierarchy tab in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/hierarchy-enable-eap.md)
 
-This property is available only after the **Populate parent level data for work item** fix script is run. For more information, see [Enable Hierarchy tab in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/hierarchy-enable-eap.md).
+This property is available only after the **Populate parent level data for work item** fix script is run. For more information, see [Enable Hierarchy tab in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/hierarchy-enable-eap.md).
 
 
 </td></tr><tr><td>
@@ -73,7 +73,7 @@ Controls whether completed and cancelled work items appear in the Backlog sectio
  -   Type: true \| false
 -   Default value: false \(the Backlog section shows only active work items\)
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+-   Learn more: [Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md)
 
 </td></tr><tr><td>
 
@@ -86,8 +86,8 @@ Controls whether completed and cancelled work items appear in iteration sections
  -   Type: true \| false
 -   Default value: true \(iteration sections show all work items, including completed and cancelled\)
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+-   Learn more: [Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
+</table>**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/eap-reference.md)
 

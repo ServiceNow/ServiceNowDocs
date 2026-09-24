@@ -2,7 +2,7 @@
 title: Define threat notes
 description: Define threat notes that convey information to provide further context or analysis that is not available in existing objects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-threat-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-threat-notes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -84,5 +84,5 @@ Associated Observables
 Lists observables associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Threat notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-threat-notes.md)
+</table>**Parent Topic:**[Threat notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-threat-notes.md)
 

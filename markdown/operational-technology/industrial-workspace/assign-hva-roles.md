@@ -2,7 +2,7 @@
 title: Assign roles for Hardware Vulnerability Assessment
 description: Assign roles to users so that they can configure properties, and use hardware vulnerability assessments features, capabilities, and data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/assign-hva-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/assign-hva-roles.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -65,5 +65,5 @@ Can view and perform assessments related to Hardware Vulnerability Assessment.
     |**Assign a role to a group**|See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).|
 
 
-**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
+**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 

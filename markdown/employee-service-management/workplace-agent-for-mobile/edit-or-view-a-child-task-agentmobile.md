@@ -2,7 +2,7 @@
 title: Edit or view a child task
 description: View or update a task whenever you want to get the details or update the progress.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/edit-or-view-a-child-task-agentmobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-agent-for-mobile/edit-or-view-a-child-task-agentmobile.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
@@ -20,7 +20,7 @@ View or update a task whenever you want to get the details or update the progres
 
 Verify that you have installed the required plugins.
 
-Refer to [Workplace Agent for mobile - Key features, actions, and case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.md) for detailed information of all the actions available.
+Refer to [Workplace Agent for mobile - Key features, actions, and case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.md) for detailed information of all the actions available.
 
 Role required: sn\_wsd\_case.workplace\_agent
 
@@ -102,7 +102,7 @@ Role required: sn\_wsd\_case.workplace\_agent
     The task is saved in the **Saved** tab. You can view the task at any time from this tab directly.
 
 
-**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
+**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
 
 **Related topics**  
 

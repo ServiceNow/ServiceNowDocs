@@ -2,7 +2,7 @@
 title: Activate Badge Reader Integration
 description: You can activate the Badge Reader Integration plugin \(com.snc.badge\_reader\) if you have the Badge sn\_badge.badge\_admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/activate-badge-reader-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/activate-badge-reader-integration.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -41,8 +41,8 @@ Developers can extend the badge scanning framework to trigger actions in other a
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Installed with Badge Reader Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/installed-with-badge-read-integ.md)**  
+-   **[Installed with Badge Reader Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/installed-with-badge-read-integ.md)**  
 Several types of components are installed with activation of the Badge Reader Integration plugin, including tables and user roles.
 
-**Parent Topic:**[Badge Reader Integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/badge-scan-walkup-onsite.md)
+**Parent Topic:**[Badge Reader Integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/badge-scan-walkup-onsite.md)
 

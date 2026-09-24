@@ -2,7 +2,7 @@
 title: Activate the display of product catalog visuals
 description: Turn on the display of product images shown in the product tiles of product catalogs by using the sn\_prd\_pm.show\_product\_visuals\_on\_catalog\_ui system property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-activate-catalog-visuals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-activate-catalog-visuals.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ The **sn\_prd\_pm.show\_product\_visuals\_on\_catalog\_ui** system property cont
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

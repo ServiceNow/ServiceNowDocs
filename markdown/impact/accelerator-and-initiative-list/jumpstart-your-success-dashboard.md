@@ -2,7 +2,7 @@
 title: Jumpstart Your Success Dashboard
 description: Demonstration of what is possible with the Success Dashboard using your data via a temporary instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-success-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-success-dashboard.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

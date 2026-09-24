@@ -2,7 +2,7 @@
 title: Journey designer journey template reference
 description: The journey template page has information that is useful to the plan configuration owner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-plncnfg-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-dsgnr-plncnfg-info.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -147,5 +147,5 @@ It has been more than 3 days since a journey template was submitted for approval
 Approver
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsnr-reference.md)
+</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsnr-reference.md)
 

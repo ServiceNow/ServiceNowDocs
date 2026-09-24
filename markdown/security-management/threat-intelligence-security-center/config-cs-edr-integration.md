@@ -2,7 +2,7 @@
 title: Configure Crowdstrike Falcon EDR integration
 description: Download and configure the CrowdStrike Falcon EDR integration to enable endpoint detection and response capabilities in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/config-cs-edr-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/config-cs-edr-integration.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -30,7 +30,7 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Navigate to **Threat Intelligence Security Center**.
 
-2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/download-app-first-time.md).
 
 3.  Select **Integrations** &gt; **Security Tools** &gt; **EDR**.
 
@@ -170,10 +170,10 @@ SHA1 hash observables aren't sent to CrowdStrike EDR.
     **Note:** Multiple configurations are allowed for CrowdStrike Falcon EDR integration.
 
 
-**Parent Topic:**[CrowdStrike Falcon EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/crowdstrike-edr-integration.md)
+**Parent Topic:**[CrowdStrike Falcon EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/crowdstrike-edr-integration.md)
 
 **Related topics**  
 
 
-[Send observables to EDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/send-to-edr.md)
+[Send observables to EDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/send-to-edr.md)
 

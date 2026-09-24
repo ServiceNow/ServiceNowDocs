@@ -2,7 +2,7 @@
 title: Outbound REST mutual authentication
 description: Mutual authentication causes the web service provider and consumer to authenticate with each other before communicating.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_OutboundRESTMutualAuthentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_OutboundRESTMutualAuthentication.html
 release: australia
 product: Web Services
 classification: web-services
@@ -24,7 +24,7 @@ Mutual authentication requires a client certificate and private key stored on th
 
 **Note:** For information about mutual authentication for inbound web services, see [Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication.md).
 
-For information about using a custom HTTPS protocol profile to enable mutual authentication, see [Create a protocol profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CreateAProtocolProfile.md).
+For information about using a custom HTTPS protocol profile to enable mutual authentication, see [Create a protocol profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_CreateAProtocolProfile.md).
 
-**Parent Topic:**[Outbound REST authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTAuth.md)
+**Parent Topic:**[Outbound REST authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_OutboundRESTAuth.md)
 

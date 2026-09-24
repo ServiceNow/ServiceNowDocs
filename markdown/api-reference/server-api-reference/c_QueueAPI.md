@@ -2,7 +2,7 @@
 title: Queue - Global
 description: The Queue API \(Advanced Work Assignment\) provides methods to route a document to a queue.Gets a queue record by sys\_id.Routes an active work item to the queue object.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_QueueAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_QueueAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -23,7 +23,7 @@ Requires the following:
 -   Advanced Work Assignment plugin \(com.glide.awa\)
 -   Role: awa\_integration\_user or admin
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Queue - get\(String queue\_id\)
 

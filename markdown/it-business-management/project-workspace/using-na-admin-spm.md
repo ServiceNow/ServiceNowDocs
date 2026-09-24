@@ -2,7 +2,7 @@
 title: Use AI Admin Hub
 description: Use AI Admin Hub to explore the various ServiceNow Otto plugins, skills and associated Generative AI application features you're entitled to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/using-na-admin-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/using-na-admin-spm.html
 release: australia
 product: Project Workspace
 classification: project-workspace

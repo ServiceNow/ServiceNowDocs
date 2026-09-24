@@ -2,7 +2,7 @@
 title: Access your list of install base items from the Consumer Portal
 description: View install base items registered to your account from the Consumer Portal, including details for each device or service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-install-base-items-from-consumer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-install-base-items-from-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ Install base items are the devices or services registered to your account. Viewi
 **Related topics**  
 
 
-[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-on-consumer-portal.md)
+[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-on-consumer-portal.md)
 
-[Register a product from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/register-product-on-consumer-portal.md)
+[Register a product from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/register-product-on-consumer-portal.md)
 

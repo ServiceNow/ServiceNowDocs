@@ -2,7 +2,7 @@
 title: Update number of records for reference fields
 description: Update the number of the records that are displayed for a reference field in the Business Continuity Management \(BCM\) Workspace. You can configure the referenceFieldLoadLimit system property to control the number of the records that are displayed for each reference field on the grid configuration pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-referencefield-system-property.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-referencefield-system-property.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -69,5 +69,5 @@ You can configure the **referenceFieldLoadLimit** system property for the refere
     \[Omitted image "prop-update-updated-value-on-the-screen.png"\] Alt text: Sample display of the records.
 
 
-**Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)
+**Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)
 

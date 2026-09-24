@@ -2,7 +2,7 @@
 title: View approval history on contracts
 description: You can view the approval history for a contract in the Approval History related list on the Contract form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_ObtainContractApproval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/t\_ObtainContractApproval.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -38,10 +38,10 @@ After a contract is sent to an approver for review, the approver name cannot be 
 4.  Click a record to view the approval details.
 
 
-**Parent Topic:**[Send the contract for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_SendTheContractForApproval.md)
+**Parent Topic:**[Send the contract for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/t_SendTheContractForApproval.md)
 
 **Related topics**  
 
 
-[Contract approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/contract-approval-workflow.md)
+[Contract approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/contract-approval-workflow.md)
 

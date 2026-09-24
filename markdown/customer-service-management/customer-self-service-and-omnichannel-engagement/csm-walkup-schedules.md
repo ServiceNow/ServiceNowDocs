@@ -2,7 +2,7 @@
 title: Configure Walk-up Experience schedules
 description: Once you know the hours of operation for your Walk-up Experience location, you can either access the base system default schedules or create schedules to associate with your walk-up location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-schedules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-schedules.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

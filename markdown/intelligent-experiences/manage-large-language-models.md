@@ -2,7 +2,7 @@
 title: Manage AI models
 description: Access and select the LLM \(large language model\) provider used for various AI skills. The selection impacts all the skills within the capability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/manage-large-language-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/manage-large-language-models.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -47,12 +47,12 @@ As per the AI Control Tower settings, the model provider selection is available 
     -   Model providers assigned to the AI skills and skill groups.
     -   Policy and skill updates by the AI steward in AI Control Tower under the **Change History** tab.
 
--   **[Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md)**  
+-   **[Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-model-providers.md)**  
 Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
--   **[Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-integration.md)**  
+-   **[Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-integration.md)**  
 Choose the preferred integration type for configuring the available model providers. There are two ways to configure a model provider in AI Admin Hub. You can either select Original Equipment Manufacturer \(OEM\) or Bring Your Own Key \(BYOK\).
--   **[Manage version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-version.md)**  
+-   **[Manage version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-version.md)**  
 Manage the version of the model providers across skills and instance levels. You can change and update versions for the out-of-box and custom skills.
 
-**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-now-assist-admin-settings.md)
+**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-now-assist-admin-settings.md)
 

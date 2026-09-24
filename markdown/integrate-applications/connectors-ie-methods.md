@@ -2,7 +2,7 @@
 title: IE Connector methods
 description: The IE connector methods perform different tasks on the IE connector, screens, and the elements on the screens. The methods are available at the connector, screen, and the element levels and you can expose the methods by completing appropriate steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connectors-ie-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connectors-ie-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,11 +16,11 @@ The IE connector methods perform different tasks on the IE connector, screens, a
 
 ## IE connector method levels
 
-[Connector level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-ie-methods.md)
+[Connector level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connectors-ie-methods.md)
 
-[Screen level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-ie-methods.md)
+[Screen level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connectors-ie-methods.md)
 
-[Element level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-ie-methods.md)
+[Element level methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connectors-ie-methods.md)
 
 ## Connector level methods
 
@@ -30,11 +30,11 @@ Opens a web page based on the URL you specify and returns the Boolean response.
 
 -   **Input**
 
-    [URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 -   **Output**
 
-    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 
 ## WaitForAnyScreen
@@ -43,9 +43,9 @@ The method executes a wait period before a screen loads up. You can specify a ti
 
 **Input**
 
-[MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
-[Timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## Screen level methods
 
@@ -55,13 +55,13 @@ Downloads a file from the screen or web page based on the URL and file name you 
 
 -   **Input**
 
-    [Url](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [Url](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
-    [fileName](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [fileName](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 -   **Output**
 
-    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 
 ## ExecuteJavaScript
@@ -80,11 +80,11 @@ To configure the JavaScript, do the following steps.
 
 -   **Input**
 
-    [Parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [Parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 -   **Output**
 
-    [Return \(Object\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [Return \(Object\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 
 ## GetValueByXPath
@@ -93,11 +93,11 @@ Converts an XPath and returns the output as a string.
 
 -   **Input**
 
-    [XPath \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [XPath \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 -   **Output**
 
-    [Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 
 ## GetValuesByXPath
@@ -131,7 +131,7 @@ Returns the URL of the website or web page.
 
 **Output**
 
-[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## WaitForCreate
 
@@ -139,13 +139,13 @@ Sets a delay before a web page or a window loads.
 
 **Inputs**
 
-[timeoutInSeconds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[timeoutInSeconds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
-[MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 **Outputs**
 
-[Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## SetFields
 
@@ -157,11 +157,11 @@ Simulates the keystrokes on web pages and windows.
 
 **Inputs**
 
-[Keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
-[MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
-[TypeDelay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[TypeDelay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## Minimize
 
@@ -177,7 +177,7 @@ Returns the Boolean response to the request to check whether the website is read
 
 **Output**
 
-[Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## MatchChildren
 
@@ -185,11 +185,11 @@ Matches all elements of a web page that you have captured and returns a Boolean 
 
 **Input**
 
-[matchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[matchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 **Output**
 
-[Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## IsCreated
 
@@ -197,11 +197,11 @@ Returns the Boolean response to the request to find whether a website on an Inte
 
 -   **Inputs**
 
-    [MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [MatchAllChildren](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 -   **Output**
 
-    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+    [Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 
 ## Refresh
@@ -218,7 +218,7 @@ Prints the active web page in the browser.
 
 **Input**
 
-[NoPrompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[NoPrompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## GetPageSource
 
@@ -226,7 +226,7 @@ Returns the page source of the active window open on the IE browser.
 
 **Output**
 
-[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## GetScreenShot
 
@@ -234,7 +234,7 @@ Returns the screen shot of a window or area in a window.
 
 **Output**
 
-[Return \(Bitmap\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(Bitmap\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## GetTitle
 
@@ -242,7 +242,7 @@ Returns the title of a window open in the IE browser.
 
 **Output**
 
-[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## GetFields
 
@@ -257,7 +257,7 @@ To configure, do the following steps.
 
 **Output**
 
-[Form field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Form field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## Focus
 
@@ -265,7 +265,7 @@ Sets the focus on a window that is running in the background or minimized and ma
 
 **Output**
 
-[Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(Boolean\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## Close
 
@@ -285,7 +285,7 @@ Gets the inner HTML of the element.
 
 **Output**
 
-[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## GetInnerText
 
@@ -293,7 +293,7 @@ Gets the inner text of an element.
 
 **Output**
 
-[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## GetOuterHTML
 
@@ -301,7 +301,7 @@ Gets the outer HTML of the element.
 
 **Output**
 
-[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
 ## GetURL
 
@@ -309,7 +309,7 @@ Gets the URL of the element.
 
 **Output**
 
-[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/method-parameter-ie.md)
+[Return \(String\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/method-parameter-ie.md)
 
-**Parent Topic:**[IE connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/internet-explorer-connector.md)
+**Parent Topic:**[IE connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/internet-explorer-connector.md)
 

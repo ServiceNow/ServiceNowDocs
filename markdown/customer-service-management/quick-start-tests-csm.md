@@ -2,7 +2,7 @@
 title: Quick start tests for Customer Service Management
 description: Quick start tests are part of the Automated Test Framework \(ATF\). Use these tests to validate that the Customer Service Management application still works after you make any configuration change, such as applying an upgrade or developing an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/quick-start-tests-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/quick-start-tests-csm.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

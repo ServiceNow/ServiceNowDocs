@@ -2,7 +2,7 @@
 title: Configuring Case and Knowledge Management
 description: Install the plugin and configure features to enable HR agents to work on requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configuring-ckm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configuring-ckm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,10 +21,10 @@ Install the plugin and configure features to enable HR agents to work on request
 
 Guided setup provides a sequence of tasks that help you configure Case and Knowledge Management on your ServiceNow instance. To open guided setup for Case and Knowledge Management, navigate to **HR Administration** &gt; **Guided Setup**.
 
-For more information, see [Guided setup for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/guided-set-up-hr.md).
+For more information, see [Guided setup for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/guided-set-up-hr.md).
 
 **Related topics**  
 
 
-[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md)
+[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md)
 

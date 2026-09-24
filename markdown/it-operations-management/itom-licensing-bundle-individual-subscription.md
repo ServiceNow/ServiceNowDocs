@@ -2,7 +2,7 @@
 title: ITOM/OT SU Licensing Bundle and Individual \(ala carte\) subscription
 description: You can purchase subscriptions for individual ITOM applications \(a la carte\) or as a bundle covering multiple ITOM applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-licensing-bundle-individual-subscription.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-licensing-bundle-individual-subscription.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

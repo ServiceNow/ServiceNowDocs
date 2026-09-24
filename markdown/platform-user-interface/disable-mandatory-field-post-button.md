@@ -2,7 +2,7 @@
 title: Configure the Post button to display continuously
 description: Configure the Post button in the Activity stream to display and function continuously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/disable-mandatory-field-post-button.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/disable-mandatory-field-post-button.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure an activity configuration for a lifecycle event
 description: Create or modify an activity configuration to define the fulfillment process and conditions for closure for a lifecycle event activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/configure-lifecycle-event-fulfiller-activity-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/configure-lifecycle-event-fulfiller-activity-configuration.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -151,7 +151,7 @@ Badge
 
 </td><td colspan="2">
 
-Badge that the fulfiller activity type is associated with.**Note:** Badges display on the portal to indicate to the employee which department is fulfilling that activity. See [Configure an HR badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/CreateModHRBadges.md) for more information.
+Badge that the fulfiller activity type is associated with.**Note:** Badges display on the portal to indicate to the employee which department is fulfilling that activity. See [Configure an HR badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/CreateModHRBadges.md) for more information.
 
 </td></tr></tbody>
 </table>4.  Click **Save**.
@@ -220,5 +220,5 @@ Field that is being mapped to.**Note:** Make sure that the data type matches tha
 6.  Click **Update**.
 
 
-**Parent Topic:**[Configure the supporting components for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-supporting-components-for-lifecycle-event.md)
+**Parent Topic:**[Configure the supporting components for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-supporting-components-for-lifecycle-event.md)
 

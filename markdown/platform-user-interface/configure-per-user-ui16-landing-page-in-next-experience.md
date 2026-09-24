@@ -2,7 +2,7 @@
 title: Configure per-user landing pages in Next Experience
 description: Users on new Next Experience instances see the Next Experience landing page. Users on upgraded instances see the landing pages that they had before, in the Next Experience UI. You can also configure user-specific landing pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-per-user-ui16-landing-page-in-next-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-per-user-ui16-landing-page-in-next-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,5 +49,5 @@ Next Experience landing pages provide the information you need to start working.
 
 The user sees the specified landing page when they log on to ServiceNow® or when they select the company logo.
 
-**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-pages.md)
+**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-landing-pages.md)
 

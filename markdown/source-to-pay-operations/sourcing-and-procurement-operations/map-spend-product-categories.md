@@ -2,7 +2,7 @@
 title: Map spend categories to product categories manually
 description: You can manually map spend categories to product categories to better organize and manage your organization’s expenses by grouping similar goods or services into logical categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/map-spend-product-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/map-spend-product-categories.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -61,7 +61,7 @@ Create child spend categories
 
 The **Parent spend category** field is auto-populated.
 
-See [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/map-spend-product-categories.md) for a description of the field values on the Spend category form.
+See [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/map-spend-product-categories.md) for a description of the field values on the Spend category form.
 
 </td></tr><tr><td>
 
@@ -85,11 +85,11 @@ Create ledger assignment rules
 
 </td><td>
 
-Select the **Ledger Assignment Rules** related list and select **New**. For more information, see [Create ledger assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-ledger-assignment-rules.md).
+Select the **Ledger Assignment Rules** related list and select **New**. For more information, see [Create ledger assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-ledger-assignment-rules.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spend-mgmt.md)
+**Parent Topic:**[Using Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-spend-mgmt.md)
 
 **Related topics**  
 

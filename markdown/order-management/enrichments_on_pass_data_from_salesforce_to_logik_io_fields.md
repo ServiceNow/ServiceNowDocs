@@ -2,7 +2,7 @@
 title: Passing data from Salesforce to CPQ fields
 description: Learn how to pass information from Salesforce into CPQ using the On Configuration/Reconfigure enrichment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/enrichments\_on\_pass\_data\_from\_salesforce\_to\_logik\_io\_fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enrichments\_on\_pass\_data\_from\_salesforce\_to\_logik\_io\_fields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Our goal is to populate a field in CPQ with the credit card type \(Visa, MasterC
 
 ## Setup
 
-The first step of using an enrichment and external connection is to set it up. For instructions, see [Set up External connections for configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/external-connections.md). \(Note that the examples in this link focus mostly on the On BOM Response enrichment. This article complements the other because it focuses more on the Init enrichment.\)
+The first step of using an enrichment and external connection is to set it up. For instructions, see [Set up External connections for configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/external-connections.md). \(Note that the examples in this link focus mostly on the On BOM Response enrichment. This article complements the other because it focuses more on the Init enrichment.\)
 
 The following information is used for our external connection to FakerAPI.it.
 
@@ -154,5 +154,5 @@ For the field integration type, select **Salesforce**. This provides a box for y
 **Related topics**  
 
 
-[Twinning: pulling Salesforce CPQ quote information into CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/twinning_how_to_pull_salesforce_cpq_quote_information_into_logik_io.md)
+[Twinning: pulling Salesforce CPQ quote information into CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/twinning_how_to_pull_salesforce_cpq_quote_information_into_logik_io.md)
 

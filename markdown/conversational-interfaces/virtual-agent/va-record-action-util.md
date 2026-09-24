@@ -2,7 +2,7 @@
 title: Record Action utility
 description: Use the Record Action utility in a Virtual Agent topic to create or update a ServiceNow record in a table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-record-action-util.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-record-action-util.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -98,5 +98,5 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 \[Omitted image "va-record-action-utility-properties-vancouver.png"\] Alt text: Record Action utility displaying the various basic properties for updating a record.
 
-**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-utilities.md)
 

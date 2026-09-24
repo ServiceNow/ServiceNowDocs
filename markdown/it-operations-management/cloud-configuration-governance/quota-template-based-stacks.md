@@ -2,7 +2,7 @@
 title: Provisioning stacks based on quota limits
 description: The system calculates the quota allocated to you and the user groups to which you belong when you provision stacks. If quota limits are exceeded, the system either displays an error message or triggers a policy-based approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/quota-template-based-stacks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/quota-template-based-stacks.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -16,7 +16,7 @@ breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governanc
 
 The system calculates the quota allocated to you and the user groups to which you belong when you provision stacks. If quota limits are exceeded, the system either displays an error message or triggers a policy-based approval.
 
-To view quota limits, navigate to the Overview page. For more information, see [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-quota.md).
+To view quota limits, navigate to the Overview page. For more information, see [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/resource-quota.md).
 
 ## Quota calculation for template-based stacks
 

@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto AI Agents
 description: Install ServiceNow Otto AI Agents on your ServiceNow instance to enable the agentic AI experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/install-ai-agents-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/install-ai-agents-plugins.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ To get started with AI agents, you must have:
 -   AI Search enabled on your instance.
 -   The ServiceNow Otto panel must be turned on.
 
-    **Note:** You can access AI agents in the ServiceNow Otto panel. To enable the ServiceNow Otto panel, see [Turn on the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    **Note:** You can access AI agents in the ServiceNow Otto panel. To enable the ServiceNow Otto panel, see [Turn on the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-now-assist-panel.md).
 
 
 Role required: sn\_aia.admin

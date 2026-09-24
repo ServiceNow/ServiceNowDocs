@@ -2,7 +2,7 @@
 title: Create predefined transition condition types
 description: Create predefined transition conditions to reuse the conditions for your Change models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-predefined-transition-condition-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/create-predefined-transition-condition-type.html
 release: australia
 product: Change Management
 classification: change-management
@@ -46,5 +46,5 @@ Role required: change\_manager
     **Note:** Creating a condition type does not enable a transition on its own. To apply it, select the condition type in the **Requires** field of a model state transition condition.
 
 
-**Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md)
+**Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-a-change-model.md)
 

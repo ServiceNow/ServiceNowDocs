@@ -2,7 +2,7 @@
 title: Care Team Operations for Facilities data model tables
 description: The Healthcare Facilities Case \[sn\_cto\_facilities\_case\] enables streamlined support for facilities management use cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-facilities-data-model.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

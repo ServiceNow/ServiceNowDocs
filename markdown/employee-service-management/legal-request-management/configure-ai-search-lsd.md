@@ -2,7 +2,7 @@
 title: Enable and configure AI Search in Legal Service Portal
 description: The ServiceNow AI Search application provides a modern consumer-grade search engine for the Legal Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/configure-ai-search-lsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/configure-ai-search-lsd.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -53,5 +53,5 @@ Role required: admin
     6.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-ops-administration.md)
 

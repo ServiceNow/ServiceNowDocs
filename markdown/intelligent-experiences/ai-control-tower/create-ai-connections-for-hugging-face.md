@@ -2,7 +2,7 @@
 title: Create an AI Connection for Hugging Face
 description: Create an AI connection for Hugging Face in AI Control Tower using the AI Service Graph Connector for  Hugging Face \(version 1.1.0\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connections-for-hugging-face.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-ai-connections-for-hugging-face.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

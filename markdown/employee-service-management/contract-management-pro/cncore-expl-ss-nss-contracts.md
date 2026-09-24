@@ -2,7 +2,7 @@
 title: Contract and amendment requests
 description: Contract Management Pro supports initiation of self-served contract requests, non-self-served contract requests, and amendment requests
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-expl-ss-nss-contracts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-expl-ss-nss-contracts.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -33,7 +33,7 @@ Amendment requests enable you to amend an existing contract by adding, removing,
 
 The amendment workflow supports both own-paper and third-party amendment requests. While submitting an amendment request, you can select the **Type of paper** from the intake form.
 
-For more information, see [Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-amend-landing.md).
+For more information, see [Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-amend-landing.md).
 
 You can initiate an amendment request from your workspace using the **Initiate contract** modal.
 

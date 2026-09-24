@@ -2,7 +2,7 @@
 title: Filter the security best practices table
 description: Apply filters to return more relevant results for your security best practices.Save filters in your security best practices for later reuse to streamline your review process.Apply a saved filter to your security best practices to quickly view the results you need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/apply-filters-to-the-security-best-practices-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/apply-filters-to-the-security-best-practices-table.html
 release: australia
 product: Security Center
 classification: security-center
@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Navigate to the **Best Practices** table and select a field you want to apply a filter to by selecting its kebab menu, or the one with three vertical dots \(\[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: vertical dots\).
 
-<table id="choicetable_k12_2fy_cbc"><thead><tr><th align="left" id="d172720e79">
+<table id="choicetable_k12_2fy_cbc"><thead><tr><th align="left" id="d172384e79">
 
 Fields
 
-</th><th align="left" id="d172720e82">
+</th><th align="left" id="d172384e82">
 
 Filter
 
-</th></tr></thead><tbody><tr><td id="d172720e88">
+</th></tr></thead><tbody><tr><td id="d172384e88">
 
 **Name**
 
@@ -42,7 +42,7 @@ Filter
 
 Combine a conditional operator with a string of text to return security best practices that match the name you entered.
 
-</td></tr><tr><td id="d172720e97">
+</td></tr><tr><td id="d172384e97">
 
 **Maturity level**
 
@@ -56,7 +56,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Add advanced features
 
 
-</td></tr><tr><td id="d172720e124">
+</td></tr><tr><td id="d172384e124">
 
 **Status**
 
@@ -70,7 +70,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Completed
 
 
-</td></tr><tr><td id="d172720e151">
+</td></tr><tr><td id="d172384e151">
 
 **Priority**
 
@@ -84,7 +84,7 @@ Apply a filter to return security best practices that match the following priori
 -   Not applicable
 
 
-</td></tr><tr><td id="d172720e179">
+</td></tr><tr><td id="d172384e179">
 
 **Goals**
 
@@ -100,7 +100,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Secure emails
  **Note**: Advanced filters are applied for goals by default. To modify them, select **Make changes** &gt; **Advanced view** &gt; **Select field goals** and then build the rest of the conditions and select **Update**.
 
-</td></tr><tr><td id="d172720e233">
+</td></tr><tr><td id="d172384e233">
 
 **First introduced**
 
@@ -108,7 +108,7 @@ Apply a filter to return security best practices that match one or more of the f
 
 Combine a conditional operator with a string of text to return best practices that were first introduced with the version you entered.
 
-</td></tr><tr><td id="d172720e242">
+</td></tr><tr><td id="d172384e242">
 
 **Changed**
 
@@ -116,7 +116,7 @@ Combine a conditional operator with a string of text to return best practices th
 
 Combine a conditional operator with a string of text to return security best practices that changed in the version you entered.
 
-</td></tr><tr><td id="d172720e251">
+</td></tr><tr><td id="d172384e251">
 
 **Removed**
 
@@ -126,7 +126,7 @@ Combine a conditional operator with a string of text to return security best pra
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-best-practices-manager.md)
+**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-best-practices-manager.md)
 
 ## Save a filter for future use
 

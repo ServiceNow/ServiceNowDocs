@@ -2,7 +2,7 @@
 title: Splunk Polling data input configuration fields
 description: Description of the fields on the Splunk Polling data input configuration form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-splunk-polling-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-splunk-polling-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -194,5 +194,5 @@ The date and time until which Splunk searches the data.
 |Max documents per query|The maximum number of documents retrieved each time log data is fetched from Splunk. Default: 10,000.|
 |Splunk request timeout \(seconds\)|The maximum time, in seconds, allowed for data retrieval before the request times out.|
 
-**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

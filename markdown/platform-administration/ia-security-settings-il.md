@@ -2,7 +2,7 @@
 title: Security Settings
 description: Configure the security settings to maintain the security of your ServiceNow deployments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-security-settings-il.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-security-settings-il.html
 release: australia
 topic_type: reference
 last_updated: "2025-12-05"
@@ -18,5 +18,5 @@ Select **Go to Security Settings** to configure the security settings in the Sec
 
 \[Omitted image "ia-sec-set.png"\] Alt text: Image showing security setting page
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
 

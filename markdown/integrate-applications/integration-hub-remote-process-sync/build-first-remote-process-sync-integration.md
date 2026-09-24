@@ -2,7 +2,7 @@
 title: Build your first Remote Process Sync integration
 description: Step through an example of how to build a Remote Process Sync integration in order to link the automated processes of two ServiceNow instances together.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/build-first-remote-process-sync-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub-remote-process-sync/build-first-remote-process-sync-integration.html
 release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
@@ -18,9 +18,9 @@ Step through an example of how to build a Remote Process Sync integration in ord
 
 ## Before you begin
 
--   Activate Remote Process Sync on each instance in your integration by purchasing the Integration Hub Enterprise package. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
+-   Activate Remote Process Sync on each instance in your integration by purchasing the Integration Hub Enterprise package. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/request-ih-overview.md).
 -   Activate the explicit roles security feature on each instance in your integration. For more information, see Explicit Role plugin.
--   Learn about how to build and manage an Integration Hub Remote Process Sync integration by checking out [Getting started with Remote Process Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
+-   Learn about how to build and manage an Integration Hub Remote Process Sync integration by checking out [Getting started with Remote Process Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
 -   Confirm the instances that you will link together in the following example are not production instances. It is recommended to test this example on sub-production instances only in order to avoid overwriting any important data on either instance. You might also want to use a [Personal Developer Instance](https://developer.servicenow.com/dev.do#!/guides/sandiego/now-platform/pdi-guide/personal-developer-instance-guide-introduction) for testing this example integration.
 -   Confirm that you do not have any existing business rules, workflows, or Workflow Studio flows whose logic will conflict with the flows we will create in the following example.
 -   Role required: admin
@@ -419,7 +419,7 @@ To make a copy, follow these steps.
 3.  Filter the **Name** column to locate the `Remote Process Sync Outbound Flow Template - Basic` record and select it.
 4.  In the subflow, select the More Actions menu, then select **Copy subflow**.
 5.  **Publish** the subflow copy.
-This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(\[Omitted image "configure-subflow-icon.png"\] Alt text: Configure Subflow icon\).
+This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(\[Omitted image "configure-subflow-icon.png"\] Alt text: Configure Subflow icon\).
 
 </td></tr><tr><td>
 
@@ -543,7 +543,7 @@ To make a copy, follow these steps.
 3.  Filter the **Name** column to locate the `Remote Process Sync Outbound Flow Template - Basic` record and select it.
 4.  In the subflow, select the More Actions menu, then select **Copy subflow**.
 5.  **Publish** the subflow copy.
-This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(\[Omitted image "configure-subflow-icon.png"\] Alt text: Configure Subflow icon\).
+This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(\[Omitted image "configure-subflow-icon.png"\] Alt text: Configure Subflow icon\).
 
 </td></tr><tr><td>
 
@@ -710,5 +710,5 @@ Then, when a user resolves the correlated Incident record in Instance B:
 
 ## What to do next
 
-Test out your Remote Process Sync integration by creating an Incident record in Instance A with the Hardware assignment group. Then, resolve the correlated Incident record in Instance B. If your correlated records don't sync as expected, check your Inbound API User's credentials and Process Sync Definition configuration in each Instance. If you continue to experience issues with your example integration, refer to [Monitoring and troubleshooting your integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
+Test out your Remote Process Sync integration by creating an Incident record in Instance A with the Hardware assignment group. Then, resolve the correlated Incident record in Instance B. If your correlated records don't sync as expected, check your Inbound API User's credentials and Process Sync Definition configuration in each Instance. If you continue to experience issues with your example integration, refer to [Monitoring and troubleshooting your integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
 

@@ -2,7 +2,7 @@
 title: ServiceNow CLI release notes
 description: The ServiceNow CLI application is a command-line interface that enables you to perform instance operations from your local system and include new commands that meet your application's needs. ServiceNow CLI was enhanced and updated in the Australia release.The ServiceNow CLI application is a command-line interface that enables you to perform instance operations from your local system and include new commands that meet your application's needs. ServiceNow CLI was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/servicenow-cli-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/servicenow-cli-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ The ServiceNow CLI application is a command-line interface that enables you to p
     Install ServiceNow CLI by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## Australia
 

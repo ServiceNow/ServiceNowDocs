@@ -2,7 +2,7 @@
 title: Configure support for Windows servers with non-English OS
 description: You can configure your ServiceNow AI Platform to support Windows servers that use non-English Windows operating system \(OS\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_ConfigureSupport4nonEnglishCIs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/t\_ConfigureSupport4nonEnglishCIs.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -55,7 +55,7 @@ This configuration affects only the user for which you perform this procedure.
 **Related topics**  
 
 
-[Resolve pattern-related mapping errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_TBSMapProcess.md)
+[Resolve pattern-related mapping errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_TBSMapProcess.md)
 
 [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md)
 

@@ -2,7 +2,7 @@
 title: Generate a summary of a TPRM issue
 description: Generate a summary of a TPRM issue to support efficient triaging, remediation, and reporting using the TPRM issue summarization skill. Summarized issues help risk assessors and analysts quickly review issue content and take informed action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/create-a-summary-of-issue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/create-a-summary-of-issue.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

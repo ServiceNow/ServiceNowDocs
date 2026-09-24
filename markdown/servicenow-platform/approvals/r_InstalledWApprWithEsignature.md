@@ -2,7 +2,7 @@
 title: Installed with approval with e-signature
 description: Installing approval with e-signature installs certain properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/r\_InstalledWApprWithEsignature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/r\_InstalledWApprWithEsignature.html
 release: australia
 product: Approvals
 classification: approvals
@@ -31,5 +31,5 @@ Installing approval with e-signature installs certain properties.
 
 Installing the plugin also disables the two out-of-the-box Approve UI Actions on the `sysapproval_approver` table.
 
-**Parent Topic:**[Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/approval-with-e-signature.md)
+**Parent Topic:**[Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/approval-with-e-signature.md)
 

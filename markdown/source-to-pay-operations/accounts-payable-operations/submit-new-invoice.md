@@ -2,7 +2,7 @@
 title: Submit invoice
 description: Submit a PO or Non-PO invoice through the Supplier Collaboration Portal to request payment from the accounts payable team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -50,7 +50,7 @@ Invoice typeChoose the invoice type for processing from the drop-down list. The 
 
     -   If you select Invoice type as Non-PO, and upload an invoice copy with purchase order, DocIntel processes the invoice as a valid PO invoice.
     -   If you select Invoice type as PO invoice and enter a purchase order number, DocIntel may not extract the purchase order details. In that case, the purchase order from the **Purchase order** list is used.
-For more information on invoice case, see [Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md).
+For more information on invoice case, see [Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md).
 
 Supplier- Displays the name of the supplier associated with the supplier contact based on your selection from the **My Company** tab. The **Purchase order** drop-down lists the details associated with the selected supplier.
 
@@ -64,5 +64,5 @@ Supplier- Displays the name of the supplier associated with the supplier contact
 
 An invoice is created.
 
-**Parent Topic:**[Working with Supplier Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.md)
+**Parent Topic:**[Working with Supplier Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.md)
 

@@ -2,7 +2,7 @@
 title: Shipping methods
 description: Shipping methods define how goods are transported from suppliers to delivery destinations. Administrators can create shipping methods and associate them with suppliers and delivery locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/shipping-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/shipping-methods.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,5 +37,5 @@ Shipping method is stored in each cart line and purchase line. It is also stored
 
 Shipping method is one criterion for grouping purchase requisitions, along with supplier, business owner, and blanket requisition. All purchase lines with the same shipping method are grouped together.
 
-**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
+**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
 

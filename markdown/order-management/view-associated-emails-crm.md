@@ -2,7 +2,7 @@
 title: Track emails linked from Microsoft Outlook
 description: View emails that have been linked to CRM records using the Microsoft Outlook directly from the CSM/FSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/view-associated-emails-crm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-associated-emails-crm.html
 release: australia
 topic_type: task
 last_updated: "2026-04-30"
@@ -16,7 +16,7 @@ View emails that have been linked to CRM records using the Microsoft Outlook dir
 
 ## Before you begin
 
-Email promotion must be configured before you can view the associated emails on the Emails tab of the Lead, Opportunity, Accounts, or Contacts record. For more information, see [Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/promote-crm-outlook-emails.md).
+Email promotion must be configured before you can view the associated emails on the Emails tab of the Lead, Opportunity, Accounts, or Contacts record. For more information, see [Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/promote-crm-outlook-emails.md).
 
 The User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) must be installed on your ServiceNow instance to enable agents to send emails from the touchpoint record. For setup instructions, see [Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/personal-corporate-mailbox.md).
 
@@ -39,12 +39,12 @@ Role required: sn\_crm\_outlook.crm\_outlook\_user
 6.  View email by selecting a timestamp link from the Created column.
 
 
-**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-activity-management.md)
 
 **Related topics**  
 
 
-[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
+[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-activity-management.md)
 
-[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-activity-management.md)
 

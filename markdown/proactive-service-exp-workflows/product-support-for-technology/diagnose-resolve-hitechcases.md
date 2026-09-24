@@ -2,7 +2,7 @@
 title: Diagnose and resolve a technology product support case
 description: As a customer service agent, review, diagnose, resolve, and close a case for the service-related issue experienced by the customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-hitechcases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-hitechcases.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -138,5 +138,5 @@ The technology product support case progresses through several stages from start
 
 The technology product support case is resolved and closed successfully.
 
-**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
+**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
 

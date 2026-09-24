@@ -2,7 +2,7 @@
 title: Select event rule filters
 description: Configure filtering criteria for event rules to target specific devices and users. Use filters to control which events trigger alerts based on operating system, location, department, or custom conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/event-rule-select-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/event-rule-select-filters.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -59,5 +59,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/define-alert-criteria-event.md).
+[Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/define-alert-criteria-event.md).
 

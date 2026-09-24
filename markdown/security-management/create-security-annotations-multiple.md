@@ -2,7 +2,7 @@
 title: Create security annotations for observables
 description: You can select a single or multiple observables and apply security annotations to them using the Actions on selected rows choice menu.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/create-security-annotations-multiple.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/create-security-annotations-multiple.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Role required: admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Security annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-annotations.md)
+**Parent Topic:**[Security annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-annotations.md)
 
 **Related topics**  
 

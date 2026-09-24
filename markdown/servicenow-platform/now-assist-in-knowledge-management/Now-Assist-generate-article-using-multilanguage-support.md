@@ -2,7 +2,7 @@
 title: Generate a Knowledge article using multi-language support
 description: ServiceNow Otto in Knowledge Management provides multi-language support for Knowledge article generation. As an agent, generate articles from incidents, cases, and other task types in languages other than English using a language selector configured by the admin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-multilanguage-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-multilanguage-support.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -45,5 +45,5 @@ Role required: author or agent
     The Knowledge article is generated in the selected language.
 
 
-**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 

@@ -2,7 +2,7 @@
 title: RIDAC Action form
 description: Use the RIDAC Action form to create and track action items related to your strategic planning items, goals, or EAP iterations. Manage action item ownership, status, and completion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/ridac-action-form-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/ridac-action-form-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

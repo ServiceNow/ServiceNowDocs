@@ -2,7 +2,7 @@
 title: Map a topic to a secondary NLU model
 description: Map a Virtual Agent topic to a secondary model in the model group or to a standalone, single-language NLU model for each supported language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/map-nlu-language-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/map-nlu-language-model.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,9 +18,9 @@ Map a Virtual Agent topic to a secondary model in the model group or to a standa
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
-If you're using ServiceNow NLU, review [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md) for an understanding of NLU model groups.
+If you're using ServiceNow NLU, review [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md) for an understanding of NLU model groups.
 
 If necessary, add secondary languages to the model group in NLU Workbench to create language-specific versions of the model. For more information, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/multilingual-model-managent.md).
 
@@ -34,7 +34,7 @@ If you select a secondary model for a language that is part of a different model
 
 \[Omitted image "intent-mapping-primary-secondary-models.png"\] Alt text: On the Intent mapping tab, a topic is mapped to a model group with an English primary language model and a German secondary language model.
 
-For more information, see [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md).
+For more information, see [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md).
 
 ## Procedure
 
@@ -69,7 +69,7 @@ For more information, see [NLU model mapping in Virtual Agent Designer](https://
 
 ## What to do next
 
-[Test topic and NLU model translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-nlu-language-model.md)
+[Test topic and NLU model translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/test-nlu-language-model.md)
 
-**Parent Topic:**[Localize Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.md)
+**Parent Topic:**[Localize Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.md)
 

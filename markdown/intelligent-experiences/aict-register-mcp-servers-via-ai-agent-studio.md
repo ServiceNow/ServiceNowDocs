@@ -2,7 +2,7 @@
 title: Register via AI Agent Studio
 description: Registering MCP servers via AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-register-mcp-servers-via-ai-agent-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-register-mcp-servers-via-ai-agent-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-09-02"

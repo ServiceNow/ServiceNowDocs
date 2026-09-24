@@ -2,7 +2,7 @@
 title: Copy a change request
 description: You can copy details of an active or canceled change request to a new change request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/copy-a-change-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/copy-a-change-request.html
 release: australia
 product: Change Management
 classification: change-management
@@ -53,9 +53,9 @@ New change tasks can be created when a change is copied. If your change record h
 
 After an existing change request is copied and a new one created. A user with ITIL role then reviews, approves, implements, and closes the change request as necessary.
 
-In addition, you can [associate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md) to the newly created change request.
+In addition, you can [associate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md) to the newly created change request.
 
-**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md)
+**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateAChange.md)
 
 **Related topics**  
 
@@ -68,5 +68,5 @@ In addition, you can [associate CIs](https://raw.githubusercontent.com/ServiceNo
 
 [Unauthorized change request]()
 
-[Configure ability to copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-copy-change-request.md)
+[Configure ability to copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-copy-change-request.md)
 

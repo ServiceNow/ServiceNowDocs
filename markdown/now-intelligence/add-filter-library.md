@@ -2,7 +2,7 @@
 title: Create a filter in the Filter Designer
 description: Create a Platform Analytics filter in the Filter Designer and add it to the library for reuse.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-filter-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/add-filter-library.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,10 +32,10 @@ Role required: analytics\_filter\_admin, admin
 
     Other configuration options vary depending on the data type you select.
 
-    -   [Single select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md): A single value from a set of choices. Single select is the default filter type.
-    -   [Multiple select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md): More than one value from a set of choices, such as both High and Critical Priority
-    -   [Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-date-filter-workspace.md): A calendar date. You can also set a time. Automatically applies to all indicator data on page or tab.
-    -   [True/False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-boolean-filter-workspace.md): Whether a field value is true or false. Can also be used with indicator breakdowns that are based on a [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) with only two values.
+    -   [Single select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md): A single value from a set of choices. Single select is the default filter type.
+    -   [Multiple select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md): More than one value from a set of choices, such as both High and Critical Priority
+    -   [Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-date-filter-workspace.md): A calendar date. You can also set a time. Automatically applies to all indicator data on page or tab.
+    -   [True/False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-boolean-filter-workspace.md): Whether a field value is true or false. Can also be used with indicator breakdowns that are based on a [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) with only two values.
 3.  In the **Filter label** field, type a meaningful name for the filter.
 
     This name is the name that the user sees.
@@ -58,7 +58,7 @@ Role required: analytics\_filter\_admin, admin
 
     -   **Usage Insights**
 
-        Select the Usage Insights property to filter on. For more information, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/filter-user-list.md).
+        Select the Usage Insights property to filter on. For more information, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/filter-user-list.md).
 
 
 ## Result

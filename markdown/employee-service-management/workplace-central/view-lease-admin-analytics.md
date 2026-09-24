@@ -2,7 +2,7 @@
 title: View Lease Administration metrics
 description: Use the Lease Administration dashboard to get insight into the number of total contracts, active contracts, draft contracts, and expiring contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-lease-admin-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/view-lease-admin-analytics.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -18,8 +18,8 @@ Use the Lease Administration dashboard to get insight into the number of total c
 
 ## Prerequisites for accessing the Lease Administration dashboard
 
--   Ensure that the Workplace Central application is installed. For more information, see [Install Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/install-workplace-central.md)
--   Ensure that the Workplace Lease Administration \(sn\_wsd\_la\) application is installed. For more information, see [Activate Workplace Lease Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/install-lease-administration.md)
+-   Ensure that the Workplace Central application is installed. For more information, see [Install Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/install-workplace-central.md)
+-   Ensure that the Workplace Lease Administration \(sn\_wsd\_la\) application is installed. For more information, see [Activate Workplace Lease Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/install-lease-administration.md)
 -   Ensure that the Workplace Central and Workplace Lease Administration applications and all of their associated store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
 ## Accessing the dashboard
@@ -42,7 +42,7 @@ The following default scorecards are available on the dashboard. Select the card
 -   **Draft Contracts** - Displays the number of workplace contracts in the Draft state.
 -   **Expiring in 60 days** - Displays the number of workplace contracts that expire within the next 60 days.
 
-For more information, see [Workplace Lease Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/workplace-lease-admin-feat.md).
+For more information, see [Workplace Lease Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/workplace-lease-admin-feat.md).
 
 ## Reports
 
@@ -52,10 +52,10 @@ For more information, see [Workplace Lease Administration](https://raw.githubuse
 
     Benefits:
 
-    Displays a consolidated view of the number of workplace contracts expiring so you can renew them on time. For more information, see [Renew workplace contract in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/renew-lease-workplace-contracts.md).
+    Displays a consolidated view of the number of workplace contracts expiring so you can renew them on time. For more information, see [Renew workplace contract in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/renew-lease-workplace-contracts.md).
 
 
-**Parent Topic:**[Working with Workplace Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-workplace-analytics.md)
+**Parent Topic:**[Working with Workplace Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-workplace-analytics.md)
 
 **Related topics**  
 

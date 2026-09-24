@@ -2,7 +2,7 @@
 title: Create a Microsoft Word legal contract template
 description: Create a legal contract template in Microsoft Word format that can be used to generate a standard contract with predefined content when an employee submits a contract request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/lsc-create-ct-msword.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/lsc-create-ct-msword.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -30,7 +30,7 @@ Role required: sn\_lg\_contracts.contracts\_config
 
 4.  On the Word Template New Record form, fill in the fields.
 
-    For a description of the field values, see [Word Template New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-word-tmple-rec-form.md).
+    For a description of the field values, see [Word Template New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/lsc-word-tmple-rec-form.md).
 
 5.  Extract the content marked by the supported content controls from the imported document by selecting **Parse Document**.
 
@@ -39,7 +39,7 @@ Role required: sn\_lg\_contracts.contracts\_config
     -   **field** - Indicates metadata
     -   **signature\_** - Indicates a signature
     -   **sign\_date\_** - Indicates the signing date
-    For more information on the supported content controls and tagging guidelines, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-cont-contr-word-tmplt.md).
+    For more information on the supported content controls and tagging guidelines, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/lsc-cont-contr-word-tmplt.md).
 
     The content controls derived from the documentare listed in the Template mappings related list.
 
@@ -50,7 +50,7 @@ Role required: sn\_lg\_contracts.contracts\_config
 
 The contract template is saved in the Draft state.
 
-**Parent Topic:**[Configure legal contract templates of type Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-configure-ct-msword.md)
+**Parent Topic:**[Configure legal contract templates of type Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/lsc-configure-ct-msword.md)
 
 **Related topics**  
 

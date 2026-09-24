@@ -2,7 +2,7 @@
 title: Reporting Operational vulnerability
 description: Any Operational Resilience application user can report an operational vulnerability that needs the attention of the Operational Resilience team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/reporting-operational-vul.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/reporting-operational-vul.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -16,13 +16,13 @@ Any Operational Resilience application user can report an operational vulnerabil
 
 Users of the Operational Resilience feature can report an operational vulnerability using one the following options:
 
--   To create an operational vulnerability from the Employee Center, see [Report operational vulnerability from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/reporting-op-vul.md). The user must have the Operational Resilience business user \[sn\_oper\_res.operational\_resilience\_business\_user\] role.
--   To create an operational vulnerability from the Operational vulnerability menu in the Operational Resilience Workspace, see [Report an operational vulnerability from the module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-op-vul-record.md). The user must have the Operational Resilience manager \[sn\_oper\_res.operational\_resilience\_manager\] role.
+-   To create an operational vulnerability from the Employee Center, see [Report operational vulnerability from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/reporting-op-vul.md). The user must have the Operational Resilience business user \[sn\_oper\_res.operational\_resilience\_business\_user\] role.
+-   To create an operational vulnerability from the Operational vulnerability menu in the Operational Resilience Workspace, see [Report an operational vulnerability from the module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-op-vul-record.md). The user must have the Operational Resilience manager \[sn\_oper\_res.operational\_resilience\_manager\] role.
 -   To create an operational vulnerability from the records in the Operational Resilience Workspace, see the following topics:
-    -   [Report Operational vulnerability from Importance assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-op-vul-from-other-records-in-or-ws.md)
-    -   [Report an operational vulnerability from Scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-op-vul-from-sce-analysis.md)
-    -   [Report an operational vulnerability from Self-attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-op-vul-from-attestation.md)
-    -   [Report an operational vulnerability from the Service record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-op-vul-from-service.md)
+    -   [Report Operational vulnerability from Importance assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-op-vul-from-other-records-in-or-ws.md)
+    -   [Report an operational vulnerability from Scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/report-op-vul-from-sce-analysis.md)
+    -   [Report an operational vulnerability from Self-attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/report-op-vul-from-attestation.md)
+    -   [Report an operational vulnerability from the Service record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/report-op-vul-from-service.md)
 
 ## States of the vulnerability
 

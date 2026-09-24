@@ -2,7 +2,7 @@
 title: Work on a treasury task for due diligence or fulfillment
 description: Work on a treasury task to perform due diligence or fulfillment activities for the parent treasury service case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-treasury-operations/work-fso-treasury-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-treasury-operations/work-fso-treasury-task.html
 release: australia
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -20,7 +20,7 @@ Work on a treasury task to perform due diligence or fulfillment activities for t
 
 Role required: sn\_bom\_treasury.agent or sn\_bom\_treasury.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -93,5 +93,5 @@ Steps
 
 The treasury task moves to the Closed Complete state.
 
-**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
+**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
 

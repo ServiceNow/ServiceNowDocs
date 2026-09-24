@@ -2,7 +2,7 @@
 title: Semaphores performance metrics
 description: The metrics provide the key performance indicators calculated at the instance level for the selected duration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-semaphores-performance-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-semaphores-performance-metrics.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-18"
@@ -118,7 +118,7 @@ By default the AMB Receive semaphore pools request queue can hold a maximum of 5
 
 **Note:** The API\_INT is one of the semaphores used by the MID servers when communicating to the instance. If the API\_INT semaphores are exhausted, and the queue depth has reached the max queue depth, then the instance will return the error `Too Many Requests with code: 429` to any MID Server clients attempting communication. Because there are no available semaphores, the instance will not be able to receive any inputs from the MID Server. This could be due to the long-running transactions keeping the semaphores busy. Therefore, you can kill the transactions to free up the semaphores.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

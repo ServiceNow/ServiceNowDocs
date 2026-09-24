@@ -2,7 +2,7 @@
 title: Enable tiny URL support
 description: The default URLs by which the system renders pages may exceed the character limit of some browsers, resulting in an error message. You can enable tiny URL support, which generates shortened internal URLs, to help prevent this error.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_EnableTinyURLSupport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_EnableTinyURLSupport.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ The Tiny URL Support plugin is activated and enabled automatically. Confirm that
 4.  Select **Save**.
 
 
-**Parent Topic:**[Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/navigate-using-url.md)
+**Parent Topic:**[Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/navigate-using-url.md)
 

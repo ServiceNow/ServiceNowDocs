@@ -2,7 +2,7 @@
 title: Verify the sys\_id of a project task template
 description: Determine if you're using the correct project task template for domain orders or order tasks by checking the sys\_id of the project template task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/find-sysid-proj-template-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/find-sysid-proj-template-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

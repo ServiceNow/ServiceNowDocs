@@ -2,7 +2,7 @@
 title: Creating service requests in Care Team Operations for Facilities
 description: Use Care Team Operations for Facilities to report Facilities issues using Care Team Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-create-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-facilities-create-request.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

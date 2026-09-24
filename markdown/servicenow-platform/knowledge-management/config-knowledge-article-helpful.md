@@ -2,7 +2,7 @@
 title: Configure article helpful widget instance options
 description: Configure the Knowledge Article Helpful widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-knowledge-article-helpful.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/config-knowledge-article-helpful.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -47,5 +47,5 @@ The article view page uses the Knowledge Article Helpful widget to allow users t
 5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

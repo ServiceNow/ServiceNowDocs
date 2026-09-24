@@ -2,7 +2,7 @@
 title: Use third-party libraries in applications in the ServiceNow IDE
 description: Call third-party libraries in your application to use existing open-source functionality with the ServiceNow IDE.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -18,9 +18,9 @@ Call third-party libraries in your application to use existing open-source funct
 
 ## Before you begin
 
-Create a JavaScript module. For more information, see [Create and use JavaScript modules in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-use-javascript-modules-ide.md).
+Create a JavaScript module. For more information, see [Create and use JavaScript modules in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/create-use-javascript-modules-ide.md).
 
-To install and use packages from private registries, you must configure your Package Manager user settings in the ServiceNow IDE. For more information, see [Install an npm package from a private registry with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-library-private-npm-registry.md).
+To install and use packages from private registries, you must configure your Package Manager user settings in the ServiceNow IDE. For more information, see [Install an npm package from a private registry with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/use-library-private-npm-registry.md).
 
 Role required: admin
 
@@ -28,7 +28,7 @@ Role required: admin
 
 Third-party libraries are added to applications as JavaScript modules. For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
 
-**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information about unsupported functionality, see [Third-party library support in Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/third-party-library-support.md) and [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md).
+**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information about unsupported functionality, see [Third-party library support in Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/third-party-library-support.md) and [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/javascript-modules-third-party-libraries.md).
 
 ## Procedure
 
@@ -83,13 +83,13 @@ Third-party libraries are added to applications as JavaScript modules. For gener
     After building, the modules are added to the EcmaScript Module \[sys\_module\] table.
 
 
--   **[Install an npm package from a private registry with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-library-private-npm-registry.md)**  
+-   **[Install an npm package from a private registry with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/use-library-private-npm-registry.md)**  
 Install Node Package Manager \(npm\) packages from a private registry as dependencies in your application to use them as third-party libraries.
 
-**Parent Topic:**[Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md)
+**Parent Topic:**[Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md)
 
 **Related topics**  
 
 
-[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/javascript-modules-third-party-libraries.md)
 

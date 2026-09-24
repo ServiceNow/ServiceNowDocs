@@ -2,7 +2,7 @@
 title: Configure auto-launch for Guided Tours
 description: Configure one or more tours to launch automatically when a user lands on a page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/auto-launch-guided-tours.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/auto-launch-guided-tours.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -87,5 +87,5 @@ You can set auto-launch for any guided tour starting page. Select this option if
     5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configure-guided-tours.md)
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/configure-guided-tours.md)
 

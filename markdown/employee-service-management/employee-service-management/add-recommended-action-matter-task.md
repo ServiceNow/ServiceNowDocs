@@ -28,7 +28,7 @@ Role required: sn\_lg\_investigate.fulfiller
 
 4.  On the form, fill in the fields.
 
-    For field descriptions, see [Legal Matter Task form for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/legal-investigations-matter-task-form.md) and [fields specific to the recommended action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/legal-investigations-matter-task-form.md) task type.
+    For field descriptions, see [Legal Matter Task form for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/legal-investigations-matter-task-form.md) and [fields specific to the recommended action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/legal-investigations-matter-task-form.md) task type.
 
 5.  Save the legal matter task.
 

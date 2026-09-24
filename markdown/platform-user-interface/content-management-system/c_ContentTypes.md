@@ -2,7 +2,7 @@
 title: Content types
 description: Content types provide site-specific control of how system data defined by templates is rendered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_ContentTypes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/c\_ContentTypes.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -38,14 +38,14 @@ Several content types are available by default for tables such as Catalog Item \
 
 Content type defaults that are set for CMS can be overridden for individual sites. Use the **Content Types** related list on the site record to customize content types.
 
--   **[Configure a content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentType.md)**  
+-   **[Configure a content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateAContentType.md)**  
 Users with the content\_admin role can create a content type.
--   **[CMS gauge support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSGaugeSupport.md)**  
+-   **[CMS gauge support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_CMSGaugeSupport.md)**  
 Gauges are a graphical way to display information from an instance.
--   **[View content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_ViewContentTypes.md)**  
+-   **[View content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_ViewContentTypes.md)**  
 The following is an example of where you might use Content Types.
 
-**Parent Topic:**[Configure Content Management sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateASite.md)
+**Parent Topic:**[Configure Content Management sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateASite.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Analyze sentiments in ServiceNow Otto for Customer Service Management \(CSM\)
 description: Make informed decisions on cases and email interactions based on requester's sentiment and the reasoning behind it in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/analyze-sentiments-in-now-assist-for-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/analyze-sentiments-in-now-assist-for-csm.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -173,12 +173,12 @@ The CRM Workspace form view appears.
     4.  Select the refresh icon \[Omitted image "refresh-sync-new.png"\] Alt text: Refreshes content to see the updated sentiment scale \(Very Positive, Positive, Neutral, Negative, or Very Negative\)and sentiment trend.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 
 
 [Enable and configure the Sentiment Analysis](https://support.servicenow.com/kb?sys_kb_id=ec531aab47a48794b6d8aa25126d4322&id=kb_article_view)
 
-[Sentiment analysis for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/sentiment-analysis-interaction.md)
+[Sentiment analysis for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/sentiment-analysis-interaction.md)
 

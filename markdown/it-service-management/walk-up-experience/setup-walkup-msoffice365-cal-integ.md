@@ -2,7 +2,7 @@
 title: Set up Microsoft Office 365 integration for Walk-up Experience
 description: Enable Walk-up Experience Microsoft Office 365 calendar integration. When requesters make an appointment, modify it, or cancel it, the Outlook calendar is sent invites to an appointment and any updates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/setup-walkup-msoffice365-cal-integ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/setup-walkup-msoffice365-cal-integ.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -85,7 +85,7 @@ Role required: admin
 
     3.  Navigate to **Self-Service** &gt; **Service Portal** &gt; **Walk-up Check-in** to schedule an appointment.
 
-        **Note:** The **Walk-up Check-in** icon link must be configured to appear on the Service Portal landing page for you to see and click the link. Refer to [Configure Walk-up Experience online check-in icon to appear on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/add-walkup-checkin-icon-to-servport.md) if the link is not on the Service Portal landing page.
+        **Note:** The **Walk-up Check-in** icon link must be configured to appear on the Service Portal landing page for you to see and click the link. Refer to [Configure Walk-up Experience online check-in icon to appear on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/add-walkup-checkin-icon-to-servport.md) if the link is not on the Service Portal landing page.
 
     4.  Schedule an appointment as the test user.
 
@@ -98,14 +98,14 @@ Role required: admin
     **Note:** It can take a minute or two before the calendar event is created. After you enable this feature, users automatically receive calendar invites, updates, and cancellations on their individual corporate calendars.
 
 
--   **[Register an application using the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/register-an-application-using-the-microsoft-azure-portal.md)**  
+-   **[Register an application using the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/register-an-application-using-the-microsoft-azure-portal.md)**  
 Grant authorization to the ServiceNow instance by registering an application with Azure AD.
--   **[Register Microsoft Exchange Online as the OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/register-MS-msexchange-online-as-OAuth-provider.md)**  
+-   **[Register Microsoft Exchange Online as the OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/register-MS-msexchange-online-as-OAuth-provider.md)**  
 Register Microsoft Exchange Online as the OAuth provider so that your Walk-up Experience instance can request OAuth 2.0 tokens.
--   **[Create credential records for the Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/create-credential-records-for-the-microsoft-exchange-online-spoke.md)**  
+-   **[Create credential records for the Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/create-credential-records-for-the-microsoft-exchange-online-spoke.md)**  
 Authorize the Microsoft Exchange Online spoke actions by creating credential records for the application registered in the Microsoft Azure portal. The Microsoft Exchange Online connection and credential alias uses these credentials to authorize actions.
--   **[Create connection records for the Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/create-connection-records-for-the-microsoft-exchange-online-spoke.md)**  
+-   **[Create connection records for the Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/create-connection-records-for-the-microsoft-exchange-online-spoke.md)**  
 Perform actions in Microsoft Exchange Online by creating connection records for your Microsoft Exchange Online account. The Microsoft Exchange Online spoke connection and credential alias uses these connections to perform actions.
 
-**Parent Topic:**[Integrate Microsoft Office 365 calendar with Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-ms-office-365-integration.md)
+**Parent Topic:**[Integrate Microsoft Office 365 calendar with Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-ms-office-365-integration.md)
 

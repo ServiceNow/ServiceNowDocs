@@ -2,7 +2,7 @@
 title: Retirement definitions
 description: Specify a retirement definition for a class, to reflect protocols in your organization applicable to the class and to its child classes. These definitions support the transition of CIs through life cycle stages as implemented by CMDB Data Manager life-cycle policies. A class can have a retirement definition by derivation, or by a retirement definition specified for that class.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -48,5 +48,5 @@ The rest of the predefined retirement definitions are inactive by default, and y
 
 You can use the default retirement definitions, or customize a definition to reflect practices in your organization. You can also add a custom retirement definition for a class. However, each CMDB class can be associated with only a single retirement definition.
 
-To manage or delete a retirement definition, see [Manage retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.md).
+To manage or delete a retirement definition, see [Manage retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.md).
 

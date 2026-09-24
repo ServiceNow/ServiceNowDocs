@@ -2,7 +2,7 @@
 title: Automated IOC Enrichment
 description: Learn how to automate enrichment of IOC’s using flows when they match a certain criterion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-ioc-enrichment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-ioc-enrichment.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -72,7 +72,7 @@ Automate enrichment of IOC’s triggers only when:
     \[Omitted image "tisc-automated-ioc-enrichment.png"\] Alt text: Automated IOC Enrichment in TISC.
 
 
-**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 

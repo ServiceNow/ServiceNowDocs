@@ -2,7 +2,7 @@
 title: Viewing API clustering recommendations in API Insights
 description: Use machine learning-based suggestions to group related API components, improving the organization and mapping of APIs within the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-view-cluster-recomm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/api-insights/api-insights-view-cluster-recomm.html
 release: australia
 product: API Insights
 classification: api-insights

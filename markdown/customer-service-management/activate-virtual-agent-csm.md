@@ -2,7 +2,7 @@
 title: Activate Virtual Agent for Customer Service Management
 description: Activate Virtual Agent for CSM to use the predefined Customer Service Virtual Agent topics \(chatbot conversations\) designed to help your customers complete common self-service tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-virtual-agent-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-virtual-agent-csm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

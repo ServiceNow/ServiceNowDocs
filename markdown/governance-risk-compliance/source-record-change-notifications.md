@@ -2,7 +2,7 @@
 title: Source record change notifications
 description: When the incident linked to your Digital resilience incident reporting \(DRIR\) case changes, you receive a notification in the case record and an email alert. You can then review the latest updates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/source-record-change-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/source-record-change-notifications.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-27"
@@ -78,5 +78,5 @@ Confirm with your administrator which users in your organization receive notific
 **Related topics**  
 
 
-[Review source record changes in a DRIR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/review-source-record-changes.md)
+[Review source record changes in a DRIR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/review-source-record-changes.md)
 

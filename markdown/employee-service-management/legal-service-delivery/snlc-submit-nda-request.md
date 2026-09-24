@@ -2,7 +2,7 @@
 title: Submit a legal request for a non-disclosure agreement
 description: Submit a legal request for a non-disclosure agreement \(NDA\) with third parties such as vendors, customers, or partners.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-submit-nda-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-submit-nda-request.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -112,7 +112,7 @@ External signatory details
 
 </td><td>
 
-List of people from the selected third party who should sign the agreement.**Note:** The **Signatory Role** field appears only when the `sn_cm_core.enable_docusign_signature_roles` system property is set to `true`. The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and defaults to Signer. To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+List of people from the selected third party who should sign the agreement.**Note:** The **Signatory Role** field appears only when the `sn_cm_core.enable_docusign_signature_roles` system property is set to `true`. The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and defaults to Signer. To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ The default signature type is Electronic Signature.
 
 7.  Modify the request details or manage signatories by selecting **Actions** and then selecting **Edit Request**.
 
-    This option is available only if the request state is Draft or Work in progress. For more information, see [Modify a non-disclosure agreement legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-modify-nda-req.md).
+    This option is available only if the request state is Draft or Work in progress. For more information, see [Modify a non-disclosure agreement legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-modify-nda-req.md).
 
 
 ## Result
@@ -153,7 +153,7 @@ The default signature type is Electronic Signature.
     -   Replacing the metadata with data from the request.
     -   Replacing the signatory information.
     -   Placing the content of the clauses in the contract document according to the clause variation rules.
--   Internal signatories based on the template are also populated in the generated document. For more information, see [Define an internal signatory rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.md).
+-   Internal signatories based on the template are also populated in the generated document. For more information, see [Define an internal signatory rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.md).
 
     **Note:**
 
@@ -162,7 +162,7 @@ The default signature type is Electronic Signature.
     A record for each external signatory is created in the Signer \[sn\_cm\_core\_signer\] table.
 
 
-For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
+For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
 
 **Parent Topic:**[Non-disclosure agreement requests]()
 

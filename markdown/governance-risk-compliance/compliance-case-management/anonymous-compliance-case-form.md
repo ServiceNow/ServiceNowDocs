@@ -2,7 +2,7 @@
 title: Report a compliance case form
 description: The Report a compliance case form enables you to provide infomation about a suspected or confirmed compliance issue without disclosing your identity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/anonymous-compliance-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/anonymous-compliance-case-form.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -93,5 +93,5 @@ Location/jurisdiction
 Location where the event occurred. For example, office site, department area, or customer environment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
+</table>**Parent Topic:**[Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
 

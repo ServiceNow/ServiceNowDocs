@@ -2,7 +2,7 @@
 title: Submit a quote for approval
 description: Submit a quote for approval when you have configured approval rules that require authorization before the quote can be completed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/submit-quote-for-approval-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/submit-quote-for-approval-process.html
 release: australia
 topic_type: task
 last_updated: "2026-06-16"
@@ -21,9 +21,9 @@ Role required: sn\_adv\_appr\_mgmt.approval\_request\_writer or sn\_adv\_appr\_m
 
 **Important:** Before submitting quotes for approval, ensure that your administrator has completed the following setup tasks:
 
--   [Set up the environment to manage approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setup-approvals-prerequisites.md) - Install required plugins and enable approval tenant settings
--   [Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-configuration.md) - Create approval configurations with trigger conditions and rules
--   [Define an approval user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-users.md) - Assign approvers for the configured approval rules
+-   [Set up the environment to manage approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/setup-approvals-prerequisites.md) - Install required plugins and enable approval tenant settings
+-   [Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-configuration.md) - Create approval configurations with trigger conditions and rules
+-   [Define an approval user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-users.md) - Assign approvers for the configured approval rules
 
 ## About this task
 
@@ -84,8 +84,8 @@ If your quote does not meet any configured approval conditions, the approval fra
 After submitting your quote for approval:
 
 -   Monitor the approval status using the **View Approval** button
--   If an approver rejects your quote, you can make revisions and resubmit \(see [Reject or return a quote for revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reject-or-return-quote-for-revision.md)\)
+-   If an approver rejects your quote, you can make revisions and resubmit \(see [Reject or return a quote for revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/reject-or-return-quote-for-revision.md)\)
 -   If all required approvers approve your quote, proceed to complete the quote transaction.
 
-**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-advanced-approval-management.md)
+**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-advanced-approval-management.md)
 

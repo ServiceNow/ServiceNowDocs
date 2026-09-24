@@ -2,7 +2,7 @@
 title: Add a phase in a legal matter through Mobile Agent
 description: Add a phase to a legal matter to follow a structured approach to perform specific tasks to complete the matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/add-phase-to-matter-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/add-phase-to-matter-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile
@@ -45,5 +45,5 @@ A phase is added to the matter.
 
 ## What to do next
 
-[Add tasks in the phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-mobile/add-tasks-to-matter-mobile.md) to manage activities in the legal matter. If the task has to be done by a different user, you can assign these tasks to that person.
+[Add tasks in the phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-mobile/add-tasks-to-matter-mobile.md) to manage activities in the legal matter. If the task has to be done by a different user, you can assign these tasks to that person.
 

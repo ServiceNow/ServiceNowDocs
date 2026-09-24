@@ -2,7 +2,7 @@
 title: NowVoiceTheme interface - Android
 description: Customizes the visual appearance of the voice agent UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 Customizes the visual appearance of the voice agent UI.
 
-Implement NowVoiceTheme to customize the voice agent UI colors. All properties have default light theme implementations; override only what you need. [NowVoiceThemeDark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeDarkAndroidClass.md) can be used as a prebuilt dark theme implementation.
+Implement NowVoiceTheme to customize the voice agent UI colors. All properties have default light theme implementations; override only what you need. [NowVoiceThemeDark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceThemeDarkAndroidClass.md) can be used as a prebuilt dark theme implementation.
 
 This interface extends NowUITheme.
 
@@ -59,5 +59,5 @@ val myTheme = object : NowVoiceTheme {
 voiceService.start(context, endpoint, theme = myTheme)
 ```
 
-**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

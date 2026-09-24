@@ -2,7 +2,7 @@
 title: Components installed with Care Team Operations for Facilities
 description: Several types of components such as tables, user roles, and business rules are installed when you activate the Care Team Operations for Facilities plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-facilities-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

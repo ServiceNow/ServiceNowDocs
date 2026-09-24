@@ -2,7 +2,7 @@
 title: Process Mining for Field Service Management
 description: Integrating the Process Mining application with the Field Service Management application enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with work order tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/process-opt-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/process-opt-fsm.html
 release: australia
 product: Work Order Management
 classification: work-order-management

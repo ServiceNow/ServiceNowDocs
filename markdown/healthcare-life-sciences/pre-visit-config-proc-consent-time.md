@@ -2,7 +2,7 @@
 title: Configure when to send the procedure consent form to a patient
 description: Configure the Pre-Visit Management application to when to send the procedure consent document for review and signature to a patient before the procedure appointment date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-config-proc-consent-time.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pre-visit-config-proc-consent-time.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ By default, the **Send procedure consent schedule** scheduled job is configured 
 **Related topics**  
 
 
-[Pre-Visit Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-properties.md)
+[Pre-Visit Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-properties.md)
 

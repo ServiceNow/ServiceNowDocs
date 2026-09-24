@@ -2,7 +2,7 @@
 title: Create a data gathering action for a dynamic choice
 description: Create a data gathering action to generate a list of choice options for a dynamic choice input.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-data-gathering-action-dynamic-choice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-data-gathering-action-dynamic-choice.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -33,7 +33,7 @@ Create a data gathering action to generate a list of choice options for a dynami
 
 4.  In the Action Outline, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: Add a new step icon\) under **Inputs** and select the **REST** step.
 
-    Configure your REST step to get data from the proper **Base URL** and **Resource Path** with any applicable **Query Parameters** for the **HTTP Method** `GET`. For more information on using the REST step in Integration Hub, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/rest-request-action-designer.md) and [REST in IntegrationHub](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_rest_paris_rest_in_integrationhub/app_store_learnv2_rest_paris_rest_in_integrationhub_objectives?v=paris).
+    Configure your REST step to get data from the proper **Base URL** and **Resource Path** with any applicable **Query Parameters** for the **HTTP Method** `GET`. For more information on using the REST step in Integration Hub, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/rest-request-action-designer.md) and [REST in IntegrationHub](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_rest_paris_rest_in_integrationhub/app_store_learnv2_rest_paris_rest_in_integrationhub_objectives?v=paris).
 
 5.  In the Action Outline under the REST step, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: Add a new step icon\) and select the **Script** step.
 
@@ -107,7 +107,7 @@ Create a data gathering action to generate a list of choice options for a dynami
 
     5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and then select Script step output variable you created to store choice list options.
 
-7.  Select **Save** and [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+7.  Select **Save** and [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md).
 
     The runtime value for `output` must be a JSON object that has a `data` property and an array of choice list options.
 
@@ -120,7 +120,7 @@ Create a data gathering action to generate a list of choice options for a dynami
 
 You can now use your data gathering action to populate the options that appear for a dynamic choice input in a parent action.\[Omitted image "create-data-gathering-action-dynamic-choice-result.png"\] Alt text: Use your data gathering action to populate options for a dynamic choice.
 
-**Parent Topic:**[Dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-inputs.md)
+**Parent Topic:**[Dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/dynamic-inputs.md)
 
 **Related topics**  
 

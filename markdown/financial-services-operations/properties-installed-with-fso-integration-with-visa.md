@@ -2,7 +2,7 @@
 title: Properties installed with Financial Services Operations Integration with Visa
 description: Customize the properties that are available with the Financial Services Operations Integration with Visa application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/properties-installed-with-fso-integration-with-visa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/properties-installed-with-fso-integration-with-visa.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -38,5 +38,5 @@ Enables or disables integration with the Cardholder Purchase Inquiry API in the 
 -   **Role required**: sn\_bom\_credit\_card.admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Operations Integration with Visa reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/FSO-integration-with-visa-reference.md)
+</table>**Parent Topic:**[Financial Services Operations Integration with Visa reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/FSO-integration-with-visa-reference.md)
 

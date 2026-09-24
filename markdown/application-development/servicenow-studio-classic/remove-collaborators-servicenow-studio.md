@@ -2,7 +2,7 @@
 title: Remove collaborators from an app in ServiceNow Studio
 description: Remove a user or group as a collaborator in ServiceNow Studio to revoke their access to an app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/remove-collaborators-servicenow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/remove-collaborators-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -43,5 +43,5 @@ Role required: admin or delegated\_developer
 
 Changes are saved automatically when you close the **Collaborate with others** dialog.
 
-**Parent Topic:**[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
+**Parent Topic:**[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
 

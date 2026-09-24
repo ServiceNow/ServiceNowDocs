@@ -2,7 +2,7 @@
 title: Modify signatories
 description: Pause an active signature workflow to add, modify, reorder, or remove signatories on a contract request that is in Awaiting signature state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-pause-signature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-pause-signature.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -18,7 +18,7 @@ Pause an active signature workflow to add, modify, reorder, or remove signatorie
 
 ## Before you begin
 
--   Configure the system property **maximum\_signature\_pause\_duration** to define the time duration for which the signature workflow is paused after you select to modify signatories option. The minimum value that can be set is 8 hours and the maximum is 24 hours. For more information, see [Configure signature pause duration when modifying signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-pause-sig-property.md).
+-   Configure the system property **maximum\_signature\_pause\_duration** to define the time duration for which the signature workflow is paused after you select to modify signatories option. The minimum value that can be set is 8 hours and the maximum is 24 hours. For more information, see [Configure signature pause duration when modifying signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-pause-sig-property.md).
 -   The Modify signatories option is available only for wet signature workflows and electronic signature workflows with Docusign electronic signature provider integration.
 
 Role required: sn\_cm\_core.contract\_fulfiller
@@ -49,15 +49,15 @@ Use the **Modify signatories** option to pause the signature process to add, mod
 
 6.  Modify signatories.
 
-<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d550417e162">
+<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d550421e162">
 
 Action
 
-</th><th align="left" id="d550417e165">
+</th><th align="left" id="d550421e165">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d550417e171">
+</th></tr></thead><tbody><tr><td id="d550421e171">
 
 **Add signatories**
 
@@ -69,7 +69,7 @@ Steps
 4.  Select **Add**.
  **Note:** The **Add** option is not available for self-served contract requests using contract templates with participant-based signatories.
 
-</td></tr><tr><td id="d550417e213">
+</td></tr><tr><td id="d550421e213">
 
 **Edit signatory**
 
@@ -83,7 +83,7 @@ The Signatory details page opens.
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d550417e239">
+</td></tr><tr><td id="d550421e239">
 
 **Reorder signatories**
 
@@ -97,7 +97,7 @@ To group two or more signatories to sign at the same time, assign them the same 
 3.  Select outside the field, or select **Save**.
 
 
-</td></tr><tr><td id="d550417e268">
+</td></tr><tr><td id="d550421e268">
 
 **Remove signatories**
 
@@ -115,10 +115,10 @@ The signature process pauses and the signatories are updated.
 
 ## What to do next
 
-Resume the signature process after you have modified the signatories. For more information, see [Resume signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-resume-signature.md).
+Resume the signature process after you have modified the signatories. For more information, see [Resume signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-resume-signature.md).
 
--   **[Resume signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-resume-signature.md)**  
+-   **[Resume signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-resume-signature.md)**  
 Resume the paused signature process with the modified signatories.
 
-**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 

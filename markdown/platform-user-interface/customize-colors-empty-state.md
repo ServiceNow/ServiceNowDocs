@@ -2,7 +2,7 @@
 title: Configure the colors for empty state illustrations
 description: Configure and control the colors automatically applied to empty state illustrations to keep your visual experience engaging while maintaining brand recognition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/customize-colors-empty-state.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/customize-colors-empty-state.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -74,7 +74,7 @@ As a category, all empty state illustrations share color hook mappings. As a res
 
 The new colors are applied to all empty state illustration types.
 
-If your theme is published, your empty state illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your empty state illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/empty-state-illustrations.md)
+**Parent Topic:**[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/empty-state-illustrations.md)
 

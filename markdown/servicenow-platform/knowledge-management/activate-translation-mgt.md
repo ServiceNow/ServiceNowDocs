@@ -2,7 +2,7 @@
 title: Activate translation management
 description: You can activate the Knowledge Management Advanced \(com.snc.knowledge\_advanced\) and I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugins for translation management if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/activate-translation-mgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/activate-translation-mgt.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -44,5 +44,5 @@ Translation management also requires enabling the **glide.knowman.translation.en
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configure translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-translation-management.md)
+**Parent Topic:**[Configure translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-translation-management.md)
 

@@ -2,7 +2,7 @@
 title: Configure emergency procedures for employee portal
 description: Configure the knowledge articles that appear in the Policies and Procedure section of the Workplace Emergency page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/configure-emergency-procedures-for-employee-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/configure-emergency-procedures-for-employee-portal.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management

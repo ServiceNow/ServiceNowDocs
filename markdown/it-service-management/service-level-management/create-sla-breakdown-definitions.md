@@ -2,7 +2,7 @@
 title: Create SLA breakdown definitions
 description: You can define an SLA breakdown to capture, store, and relay detailed task ownership information and duration for all task SLA records related to a specific task \(incident\). SLA breakdown is configurable and you can configure it on the basis of a specific SLA definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/create-sla-breakdown-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/create-sla-breakdown-definitions.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -111,5 +111,5 @@ Check box to select if the SLA breakdown definition is active.
     The selected SLA Definitions appear.
 
 
-**Parent Topic:**[Configuring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/configuring-service-level-management.md)
+**Parent Topic:**[Configuring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/configuring-service-level-management.md)
 

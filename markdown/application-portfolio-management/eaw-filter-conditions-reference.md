@@ -2,7 +2,7 @@
 title: Filter conditions
 description: Filter and sort options define which records appear in a custom list and the order in which they are displayed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-filter-conditions-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-filter-conditions-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-24"
@@ -56,5 +56,5 @@ When multiple sort fields are defined, records are sorted using the fields in th
 |Ascending|Displays records from lowest to highest value, such as A to Z.|
 |Descending|Displays records from highest to lowest value, such as Z to A.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 

@@ -2,7 +2,7 @@
 title: Using Attended Robot
 description: You can use the Attended Robot to execute the attended automations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/using-rda-runtime.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/using-rda-runtime.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,8 +14,8 @@ breadcrumb: [Attended Robot, Robotic Process Automation \(RPA\) Hub, Workflow Da
 
 You can use the Attended Robot to execute the attended automations.
 
--   **[Run an automation using Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-rda-robot.md)**  
+-   **[Run an automation using Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/run-rda-robot.md)**  
 Run an attended robot to execute the attended bot process \(attended automations\).
 
-**Parent Topic:**[Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rda-runtime-landing-page.md)
+**Parent Topic:**[Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rda-runtime-landing-page.md)
 

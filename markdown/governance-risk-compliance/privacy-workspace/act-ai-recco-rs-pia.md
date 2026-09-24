@@ -2,7 +2,7 @@
 title: Accept or dismiss AI-recommended risk statements
 description: Generate AI-assisted recommendations while reviewing a privacy assessment to quickly identify relevant risk statements from the privacy library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/act-ai-recco-rs-pia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/act-ai-recco-rs-pia.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -33,7 +33,7 @@ After a business user submits a privacy assessment, the assessment task moves to
 
 The Risk Statement Recommender skill generates the risk statement recommendations. Each recommended risk statement includes related control objectives that help mitigate the identified risks. You can select these control objectives to scope them to the processing activity along with the risk statement.
 
-For more information about the skill, see [AI reviewer assist for privacy assessment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ai-reccos-for-pia.md).
+For more information about the skill, see [AI reviewer assist for privacy assessment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/ai-reccos-for-pia.md).
 
 ## Procedure
 
@@ -144,7 +144,7 @@ Records scoped to a processing activity based on assessment responses appear in 
 
 ## What to do next
 
-Review the control objective recommendations. For steps, see [Accept or dismiss AI-recommended control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/act-ai-recco-co-pia.md). When done, mark the assessment as complete. For steps, see [Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md). Closing the assessment task scopes the accepted recommendations to the processing activity:
+Review the control objective recommendations. For steps, see [Accept or dismiss AI-recommended control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/act-ai-recco-co-pia.md). When done, mark the assessment as complete. For steps, see [Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md). Closing the assessment task scopes the accepted recommendations to the processing activity:
 
 -   The corresponding risk for the accepted risk statement is added to the Risks tab of the processing activity.
 -   The corresponding controls from the accepted control objectives are added to the Controls tab of the processing activity.

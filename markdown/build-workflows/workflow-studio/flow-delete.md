@@ -2,7 +2,7 @@
 title: Delete a flow
 description: Delete a flow that you no longer need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-delete.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-delete.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -22,7 +22,7 @@ Role required: flow\_designer or admin
 
 ## About this task
 
-You can only delete flows that are in the same application scope as the current session. You can't delete flows that are read-only protected. If your instance uses domain separation, make sure that you are in the Global scope. For more information, see [Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md).
+You can only delete flows that are in the same application scope as the current session. You can't delete flows that are read-only protected. If your instance uses domain separation, make sure that you are in the Global scope. For more information, see [Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-designer-domain-separation.md).
 
 ## Procedure
 
@@ -55,5 +55,5 @@ You can only delete flows that are in the same application scope as the current 
 
 Workflow Studio deletes the flow and removes it from the list of available flows.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

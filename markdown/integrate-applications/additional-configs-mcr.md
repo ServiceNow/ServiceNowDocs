@@ -2,7 +2,7 @@
 title: Additional connector configurations
 description: Some connectors may require additional configurations while registering client manually. These connectors and their required configurations are listed here.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/additional-configs-mcr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/additional-configs-mcr.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-08"

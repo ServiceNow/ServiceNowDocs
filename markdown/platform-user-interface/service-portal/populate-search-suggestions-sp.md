@@ -2,7 +2,7 @@
 title: Populate search suggestions in Service Portal
 description: If you are upgrading from a previous release, run a script to populate search suggestions with data from a platform search table to provide search suggestions to your users. Alternatively, you can wait until users search for keywords instead of running this script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/populate-search-suggestions-sp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/populate-search-suggestions-sp.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -58,7 +58,7 @@ Search suggestions improve over time as more people use Service Portal. Search S
 
         Suggestions are not enabled for external search sources. You must push data to both the search source name and the Sys ID.
 
-        For example, push text searches from the Incident table to your custom Incident search source. For more information about custom search sources, see [Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-table-search-source.md). By default, the system pushes text searches from the Catalog and Knowledge tables to the respective search sources.
+        For example, push text searches from the Incident table to your custom Incident search source. For more information about custom search sources, see [Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/add-table-search-source.md). By default, the system pushes text searches from the Catalog and Knowledge tables to the respective search sources.
 
         Add the following code after line 11 in the script for each of your custom search sources.
 
@@ -82,5 +82,5 @@ Search suggestions improve over time as more people use Service Portal. Search S
 
 Users see suggestions when they start typing in a Service Portal search widget.
 
-**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
+**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/zing-search-service-portal.md)
 

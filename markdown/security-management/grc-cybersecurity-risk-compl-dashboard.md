@@ -2,7 +2,7 @@
 title: Risk and compliance dashboard for GRC: Metrics
 description: The Risk and compliance dashboard gives the compliance and risk users a comprehensive overview of risk and compliance information in a single dashboard that aids in their key decisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/grc-cybersecurity-risk-compl-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/grc-cybersecurity-risk-compl-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Cybersecurity Executive Dashboard, Security Operations]
 
 The Risk and compliance dashboard gives the compliance and risk users a comprehensive overview of risk and compliance information in a single dashboard that aids in their key decisions.
 
-You can navigate to the Risk and compliance dashboard from the single unified [Cybersecurity Executive Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-unified-CISO-dashboard.md) to view the risk and compliance metrics of Governance, Risk, and Compliance applications.
+You can navigate to the Risk and compliance dashboard from the single unified [Cybersecurity Executive Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vr-unified-CISO-dashboard.md) to view the risk and compliance metrics of Governance, Risk, and Compliance applications.
 
 The dashboard provides features such as:
 
@@ -27,7 +27,7 @@ The dashboard provides features such as:
 
 ## Pre-requisites to access the Risk and compliance dashboard
 
-**Important:** You must have primary access to the [Cybersecurity Executive Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-unified-CISO-dashboard.md) to activate the Cybersecurity and risk functional plugin with which you can access the Risk and compliance dashboard.
+**Important:** You must have primary access to the [Cybersecurity Executive Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vr-unified-CISO-dashboard.md) to activate the Cybersecurity and risk functional plugin with which you can access the Risk and compliance dashboard.
 
 A new functional domain is introduced to segregate Cybersecurity and Risk related data. You can activate the cybersecurity and risk plugin by selecting the **Activate** UI action button. By default, this functional domain is inactive.
 
@@ -47,5 +47,5 @@ The main GRC user role is the sn\_grc\_dashboards.grc\_ciso\_user who can view t
 
     \[Omitted image "cybersecurity-executive-dashboard.png"\] Alt text: Unified Cybersecurity Executive Dashboard for risk, and compliance metrics.
 
-3.  To visualize your data, and to view the reports and solutions available on the dashboard that is designed for the user, select the [Explore Risk and Compliance Dashboard label](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/grc-ced-risk-compliance-db-reports.md).
+3.  To visualize your data, and to view the reports and solutions available on the dashboard that is designed for the user, select the [Explore Risk and Compliance Dashboard label](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/grc-ced-risk-compliance-db-reports.md).
 

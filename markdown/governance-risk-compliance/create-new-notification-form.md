@@ -2,7 +2,7 @@
 title: Create Notification form
 description: Use the Create Notification form in BCM UIB Workspace to add details about an emergency notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-notification-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-notification-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -139,5 +139,5 @@ SMS text
 Text message sent through short message service \(SMS\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create emergency notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-emergency-notification-uib-ws.md)
+</table>**Parent Topic:**[Create emergency notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-emergency-notification-uib-ws.md)
 

@@ -2,7 +2,7 @@
 title: Plugins installed with Manufacturing Commercial Operations
 description: With the ServiceNow Manufacturing Commercial Operations main plugin, you can install all the dependent plugins that a customer is entitled to with Manufacturing Commercial Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/manufacturing-commercial-operations-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/manufacturing-commercial-operations-plugins.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

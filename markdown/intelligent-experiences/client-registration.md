@@ -2,7 +2,7 @@
 title: Client registration and AI Gateway setup
 description: Once an MCP server has been managed and approved, register the clients that will connect to it via AI Gateway.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/client-registration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/client-registration.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-26"

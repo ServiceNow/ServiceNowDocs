@@ -2,7 +2,7 @@
 title: Resolve a collision in Team Development
 description: A collision is detected when the pulled version and the current local version are modifications of a different version, indicating that someone else has modified the same record that you have modified. The team dashboard displays the number of collisions between the local and the parent instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_ResolveACollision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/t\_ResolveACollision.html
 release: australia
 product: Team Development
 classification: team-development
@@ -44,7 +44,7 @@ To ensure that your changes do not conflict with other development efforts, you 
     |------|------|
     |**To maintain the local record as the current version**|Click **Use Local Version**. The pulled version is added to the version history for the record.|
     |**To load the version pulled from the parent as the current version**|Click **Use Pulled Version**.|
-    |**To move a setting from the selected version to update the current version__Note:__ Some types of record do not support this method. See [Limitations on updating records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/r_LimitationsOnResolvingCollisions.md) for more information.
+    |**To move a setting from the selected version to update the current version__Note:__ Some types of record do not support this method. See [Limitations on updating records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/r_LimitationsOnResolvingCollisions.md) for more information.
 
 **|To move a change, click the **&gt;** \(Move Right\) button for the field. To work with scripts and text fields, click in the field and modify the text as needed. When the records meet your needs, click **Save Merge and Resolve Collision**.|
 
@@ -60,15 +60,15 @@ The system saves the merged changes and resolves the collision.
 **Related topics**  
 
 
-[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_CompareToCurrentVersion.md)
+[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_CompareToCurrentVersion.md)
 
-[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_ComparePushedVerLocalVer.md)
+[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_ComparePushedVerLocalVer.md)
 
 [Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/compare-two-article-versions.md)
 
 [Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/um-resolve-conflict.md)
 
-[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_RevertAChange.md)
+[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_RevertAChange.md)
 
-[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/view-customer-update-records.md)
+[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/view-customer-update-records.md)
 

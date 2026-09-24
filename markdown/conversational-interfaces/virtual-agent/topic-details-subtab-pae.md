@@ -2,7 +2,7 @@
 title: Topics details
 description: Use the Topic Details page in the Conversational Analytics dashboard to view key performance indicators of Virtual Agent \(VA\) topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/topic-details-subtab-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/topic-details-subtab-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -34,5 +34,5 @@ The Topic Details page provides the following indicators.
 -   **NLU Prediction**—NLU prediction stats for the selected topic.
 -   **Topic block breakdown**—Execution count of the selected topic block in different topics. Use this indicator to view which topic block is executed the most across topics.
 
-**Parent Topic:**[Topics tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topics-tab-pae.md)
+**Parent Topic:**[Topics tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/topics-tab-pae.md)
 

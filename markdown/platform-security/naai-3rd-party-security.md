@@ -2,7 +2,7 @@
 title: External AI agent security
 description: Learn how to monitor and govern AI agents from external providers, with visibility into third-party data flows and assurances that sensitive data stays properly isolated across your AI ecosystem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-3rd-party-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-3rd-party-security.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -42,5 +42,5 @@ The following topics describe how to integrate specific third-party AI agent pro
     Create an external AI agent by manually integrating a third-party agent in AI Agent Studio to use in agentic workflows.
 
 
-**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)
+**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-security.md)
 

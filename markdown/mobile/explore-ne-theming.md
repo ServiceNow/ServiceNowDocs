@@ -2,7 +2,7 @@
 title: Next Experience theming for mobile
 description: Use Next Experience theming to give your mobile apps color scheme consistent with your instance web experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/explore-ne-theming.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/explore-ne-theming.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -66,7 +66,7 @@ Whether your instance enables Next Experience theming depends on your existing c
 
     Existing customers upgrading to Utah and later releases have Next Experience active by default unless they have opted-out of Next Experience in a previous release. If you've opted out, you can enable Next Experience theming manually. For details see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
-    **Note:** Existing customers upgrading to Zurich who use Polaris as their default Next Experience theme will retain Polaris as their mobile theme unless a different theme is selected. For configuration instruction to change the theme, see [Configure Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-ne-theming.md).
+    **Note:** Existing customers upgrading to Zurich who use Polaris as their default Next Experience theme will retain Polaris as their mobile theme unless a different theme is selected. For configuration instruction to change the theme, see [Configure Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-ne-theming.md).
 
 -   **Existing customers with custom themes**
 

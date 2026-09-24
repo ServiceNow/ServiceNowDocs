@@ -2,7 +2,7 @@
 title: Get additional product offering recommendations for quotes
 description: Get product offering recommendations to upsell or cross-sell additional products in quotes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-get-product-offer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-get-product-offer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,12 +51,12 @@ When you're working on a draft quote and adding or updating products, product of
 5.  Continue reviewing the recommended offering cards and add or dismiss them as needed.
 
 
-**Parent Topic:**[Using product offering recommendations in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-prod-recommendations-quote.md)
+**Parent Topic:**[Using product offering recommendations in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-prod-recommendations-quote.md)
 
 **Related topics**  
 
 
-[Configuring product offering recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-offer-recommendations.md)
+[Configuring product offering recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-offer-recommendations.md)
 
-[Create a product offering recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-offer-recommendation.md)
+[Create a product offering recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-offer-recommendation.md)
 

@@ -2,7 +2,7 @@
 title: Reject or return a quote for revision
 description: As an approver, reject or return a submitted quote when it does not meet organizational requirements. The quote requester can then revise and resubmit for approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/reject-or-return-quote-for-revision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/reject-or-return-quote-for-revision.html
 release: australia
 topic_type: task
 last_updated: "2026-06-16"
@@ -80,5 +80,5 @@ The **View Approval** panel shows:
 -   Your rejection comments and the requester's responses
 -   Timestamp of each approval action
 
-**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-advanced-approval-management.md)
+**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-advanced-approval-management.md)
 

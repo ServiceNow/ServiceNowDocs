@@ -2,7 +2,7 @@
 title: Accounts using Basic Authentication
 description: Display the findings about the accounts that are using only basic authentication to authenticate the APIs under the Security findings in the Machine Identity Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/accounts-using-basic-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/accounts-using-basic-authentication.html
 release: australia
 product: Identity
 classification: identity

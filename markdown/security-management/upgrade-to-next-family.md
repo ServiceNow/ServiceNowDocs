@@ -2,7 +2,7 @@
 title: Upgrade your instance to the next family release
 description: If you are currently running a family release and want to upgrade to the next release, it is not necessary to acquire the applications from the ServiceNow Store. The application is automatically updated when the platform is updated to the minimum required version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/upgrade-to-next-family.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/upgrade-to-next-family.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

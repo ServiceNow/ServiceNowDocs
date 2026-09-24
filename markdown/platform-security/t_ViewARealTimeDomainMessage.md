@@ -2,7 +2,7 @@
 title: View a real-time domain message
 description: You can view real-time domain messages from the system logs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ViewARealTimeDomainMessage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ViewARealTimeDomainMessage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

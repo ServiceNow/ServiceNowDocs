@@ -2,7 +2,7 @@
 title: Create Universal Request from Supplier portal
 description: Create a Universal Request \(UR\) from the Supplier Collaboration Portal to submit invoice inquiries directly to the Source-to-Pay Workspace for processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-ur-from-supplier-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-ur-from-supplier-portal.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -35,7 +35,7 @@ This video shows you how to create a Universal Request.\[Omitted video\] Descrip
 
 2.  Select **Request Help** to create a UR.
 
-    The Request Help form appears. For more information on the fields in the form, see [Request Help form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ur-request-help-form.md).\[Omitted image "ur-request-help-form.png"\] Alt text: Request help form
+    The Request Help form appears. For more information on the fields in the form, see [Request Help form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/ur-request-help-form.md).\[Omitted image "ur-request-help-form.png"\] Alt text: Request help form
 
 3.  Select **Submit**.\[Omitted image "ur-inquiry.png"\] Alt text: UR inquiry
 
@@ -44,10 +44,10 @@ This video shows you how to create a Universal Request.\[Omitted video\] Descrip
 
 The Universal Request is created.
 
-**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
+**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 
 **Related topics**  
 
 
-[Universal Request in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/universal-request-in-apo.md)
+[Universal Request in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/universal-request-in-apo.md)
 

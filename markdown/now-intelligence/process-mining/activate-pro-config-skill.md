@@ -2,7 +2,7 @@
 title: Generate process configuration using AI skill
 description: Use AI to generate a suggestion for the process configuration fields for a table, instead of selecting each field manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/activate-pro-config-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/activate-pro-config-skill.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -45,14 +45,14 @@ AI analyzes your table's fields and how frequently they change, then suggests wh
 
 ## What to do next
 
-To generate process configuration using AI, see [Generate process configuration using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/gen_process_config_ai.md).
+To generate process configuration using AI, see [Generate process configuration using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/gen_process_config_ai.md).
 
-**Parent Topic:**[Configuring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/config-na-proc-min.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/config-na-proc-min.md)
 
 **Related topics**  
 
 
-[Generate process configuration using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/gen_process_config_ai.md)
+[Generate process configuration using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/gen_process_config_ai.md)
 
-[Generate state responsibility mapping using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-gen-state-resp.md)
+[Generate state responsibility mapping using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-gen-state-resp.md)
 

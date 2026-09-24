@@ -2,12 +2,12 @@
 title: Test Agent access
 description: Learn about the prerequisites required to access and use Test Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-agent-access.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-22"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -19,7 +19,7 @@ Before you can use Test Agent, your instance must meet specific prerequisite req
 
 Ensure that the following applications are installed:
 
--   Build Agent: See [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md) for more information.
+-   Build Agent: See [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/install-build-agent.md) for more information.
 
     **Note:** If you install Build Agent, Test Agent is installed automatically as part of Build Agent.
 

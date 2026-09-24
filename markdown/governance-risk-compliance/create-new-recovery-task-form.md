@@ -2,7 +2,7 @@
 title: Create Recovery task form
 description: Use the Create Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-recovery-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-recovery-task-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-29"
@@ -317,5 +317,5 @@ Backup assignee
 Assignees that are used as a backup if the automated task fails during the execution.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-a-recovery-task.md)
+</table>**Parent Topic:**[Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-a-recovery-task.md)
 

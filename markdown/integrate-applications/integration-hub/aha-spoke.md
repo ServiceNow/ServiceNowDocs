@@ -2,7 +2,7 @@
 title: Aha! Spoke
 description: Manage Aha! accounts using your ServiceNow instance. Analyze data usage for Aha! and reclaim idle accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/aha-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/aha-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -192,5 +192,5 @@ Use triggers in the Aha! spoke to subscribe to the required events. The endpoint
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Create an Aha! OAuth2 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-aha-oauth2-authentication.md) and [Set up ServiceNow instance for Aha!](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-servicenow-instance-to-authorize-aha.md).
+For information about setting up the spoke, see [Create an Aha! OAuth2 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/create-aha-oauth2-authentication.md) and [Set up ServiceNow instance for Aha!](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-servicenow-instance-to-authorize-aha.md).
 

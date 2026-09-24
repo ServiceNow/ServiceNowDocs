@@ -2,12 +2,12 @@
 title: Planning your AI strategy
 description: Define AI strategic priorities, set measurable goals, and track planning items and costs to align your AI investments with organizational objectives.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-planning-ai-strategy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-planning-ai-strategy.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-17"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [AI Control Tower, Enable AI experiences]
 ---
 

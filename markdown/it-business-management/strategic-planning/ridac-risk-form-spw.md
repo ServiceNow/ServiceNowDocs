@@ -2,7 +2,7 @@
 title: RIDAC Risk form
 description: Use the RIDAC Risk form to identify and track potential risks that could impact your strategic planning items, goals, or EAP iterations. Manage risk mitigation strategies and monitor risk exposure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/ridac-risk-form-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/ridac-risk-form-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

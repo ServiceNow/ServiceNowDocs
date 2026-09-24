@@ -2,7 +2,7 @@
 title: Activation and installation of AI Control Tower
 description: The following section provides an order of installing the applications and their dependent plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

@@ -2,7 +2,7 @@
 title: Workflows in Legal Service Delivery
 description: The Legal Request Management application installs automated workflows for electronic signature and external storage. These workflows enable support for multiple integrations and accounts at the same time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/legal-integration-app-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/legal-integration-app-workflows.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery

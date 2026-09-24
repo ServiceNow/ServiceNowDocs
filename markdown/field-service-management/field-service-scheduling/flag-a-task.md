@@ -2,7 +2,7 @@
 title: Flag a work order task
 description: Flag tasks that you want to work on later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/flag-a-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/flag-a-task.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

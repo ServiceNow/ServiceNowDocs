@@ -2,7 +2,7 @@
 title: Create custom SAP price lists
 description: Create custom SAP price lists so that you can track and manage SAP licenses based on the contracts that are specific to your SAP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-sap-pricelist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-sap-pricelist.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -22,7 +22,7 @@ Role required: sam\_admin
 
 **Note:** The custom SAP named user types that you create directly on your ServiceNow instance aren’t reflected in your SAP system. You must make the same changes in your SAP system.
 
-**Important:** You can create custom SAP price lists in both the Software Asset Management classic application and the Software Asset Workspace. Use the following steps to create custom SAP price lists in the Software Asset Management classic application. For details on how to create custom SAP price lists in the Software Asset Workspace, see [Create custom SAP price lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-prcielists-workspace.md).
+**Important:** You can create custom SAP price lists in both the Software Asset Management classic application and the Software Asset Workspace. Use the following steps to create custom SAP price lists in the Software Asset Management classic application. For details on how to create custom SAP price lists in the Software Asset Workspace, see [Create custom SAP price lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-prcielists-workspace.md).
 
 ## Procedure
 
@@ -73,7 +73,7 @@ Role required: sam\_admin
     5.  Repeat steps a to c for each custom named user type that you want to add.
 
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Invoice case form tabs
 description: Descriptions of the tabs on the Invoice case form, including case details, tasks, service level agreements, emails, and related cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/inquiry-case-related-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/inquiry-case-related-list.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,5 +25,5 @@ Descriptions of the tabs on the Invoice case form, including case details, tasks
 |Emails|Emails that are sent or received as part of resolving this case.|
 |Cases by same requester|Cases that are opened by the same requester.|
 
-**Parent Topic:**[Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md)
+**Parent Topic:**[Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md)
 

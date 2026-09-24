@@ -2,7 +2,7 @@
 title: Create or update a household
 description: Create or update a household.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-consumer-household.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-consumer-household.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ A user with the administrator role can create a household. This user can also de
 
 2.  Select **New** on the Households list.
 
-3.  Fill in the fields on the [Household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-model-household-form.md) form.
+3.  Fill in the fields on the [Household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/data-model-household-form.md) form.
 
 4.  Select **Submit**.
 
@@ -49,7 +49,7 @@ A user with the administrator role can create a household. This user can also de
 **Related topics**  
 
 
-[Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-households.md)
+[Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-households.md)
 
-[Service Model Foundation relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-relationships.md)
+[Service Model Foundation relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-data-model-relationships.md)
 

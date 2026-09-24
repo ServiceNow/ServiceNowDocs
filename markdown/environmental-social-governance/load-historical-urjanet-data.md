@@ -2,7 +2,7 @@
 title: Load historical Urjanet data
 description: Load historical Urjanet account statement data as metric data by creating new metrics that can be managed as part of Operational Sustainability Management. Data is retrieved from the date that you specify while configuring the Urjanet connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/load-historical-urjanet-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/load-historical-urjanet-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: import\_scheduler
 
 The metrics are created by using the configured entities and metric definitions.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

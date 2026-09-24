@@ -2,7 +2,7 @@
 title: Enable granular integration for automations
 description: Enable granular integration for automations to capture cost saved and time saved at the transaction level. This feature makes the total cost-saved and total time-saved data analysis effective.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/granular-data-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/granular-data-integration.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -108,5 +108,5 @@ Specify the time that is saved per work item.
     The queue remains, however, granular data integration isn’t used to calculate the time and cost saved.
 
 
-**Parent Topic:**[Optimizing automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/optimizing-automations.md)
+**Parent Topic:**[Optimizing automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/optimizing-automations.md)
 

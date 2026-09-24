@@ -2,7 +2,7 @@
 title: Platform Analytics dashboards
 description: Platform Analytics dashboards provide Business Continuity Workspace users with a configurable summary of their work items and actions. Unlike Workspace pages built with the UI Builder, most users can set up or customize Platform Analytics dashboards without writing code or configuring UI components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/pa-dashboard-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/pa-dashboard-summary.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-05"
@@ -54,7 +54,7 @@ Platform Analytics dashboards are displayed in the Business Continuity Workspace
 **Related topics**  
 
 
-[Create an inline-editor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-inline-editor-dashboard.md)
+[Create an inline-editor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-inline-editor-dashboard.md)
 
-[Configure a record overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-record-ov-db.md)
+[Configure a record overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-record-ov-db.md)
 

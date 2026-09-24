@@ -2,7 +2,7 @@
 title: Organize dashboards into groups
 description: Assign dashboards to groups so that users can find the dashboards they want more easily. Dashboard groups determine how dashboards appear in the dashboard picker when you navigate to Self-Service Dashboards . You can also add view permissions to dashboard groups.Dashboard group and dashboard permissions are not additive. Depending on how permissions are defined on a dashboard, dashboard group permissions may not apply.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_GroupDashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_GroupDashboards.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -59,7 +59,7 @@ To show single groups in the dashboard picker, add the parameter `sysparm_group=
 
 Dashboard group and dashboard permissions are not additive. Depending on how permissions are defined on a dashboard, dashboard group permissions may not apply.
 
-If a dashboard belongs to a dashboard group, any view permissions defined on the dashboard override all view permissions on the dashboard group. Permissions on the dashboard group level are not visible from the **Share** panel of a dashboard. When you change the view permissions of a dashboard in a group, always review the dashboard group permissions to ensure that users do not lose access. For more information, see [Dashboard permissions scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/troubleshoot-dashboard-permissions.md).
+If a dashboard belongs to a dashboard group, any view permissions defined on the dashboard override all view permissions on the dashboard group. Permissions on the dashboard group level are not visible from the **Share** panel of a dashboard. When you change the view permissions of a dashboard in a group, always review the dashboard group permissions to ensure that users do not lose access. For more information, see [Dashboard permissions scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/troubleshoot-dashboard-permissions.md).
 
 For example, the dashboard group Support Dashboards contains the dashboards Open Incidents and Incident Metrics. The dashboard group has view permissions for the group Support. When you give view permissions to user John Dee for the dashboard Incident Metrics, the group Support can no longer see that dashboard. View permissions on the dashboard override all view permissions on the dashboard group.
 

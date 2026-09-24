@@ -2,7 +2,7 @@
 title: Add outside counsel details
 description: Add outside counsel details for an outside firm to enable matter creation in Legal Tracker.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-lt-setup-outside-counsels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/lmm-lt-setup-outside-counsels.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -36,15 +36,15 @@ The scheduled job **Fetch Firms Data** pulls the data for outside firms from Leg
 
 2.  Open the outside counsels list.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d159965e109">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d159969e109">
 
 Location
 
-</th><th align="left" id="d159965e112">
+</th><th align="left" id="d159969e112">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d159965e118">
+</th></tr></thead><tbody><tr><td id="d159969e118">
 
 **From the Legal Matter module**
 
@@ -52,7 +52,7 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d159965e145">
+</td></tr><tr><td id="d159969e145">
 
 **From Legal Counsel Center**
 
@@ -79,5 +79,5 @@ Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **
     -   If you have added details from the Legal Matter module, select **Update**.
     -   If you have added details from the Legal Counsel Center, select **Save**.
 
-**Parent Topic:**[Configure data to enable matter creation in Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-config-data-mtemplates.md)
+**Parent Topic:**[Configure data to enable matter creation in Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-config-data-mtemplates.md)
 

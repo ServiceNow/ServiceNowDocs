@@ -2,7 +2,7 @@
 title: Share architectural artifacts form
 description: Share architectural artifacts with users and group and assign them relevant access permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-share-architectural-artifacts-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-share-architectural-artifacts-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -59,12 +59,12 @@ Manage access
 Select **Manage access** to view the existing collaborators on the architectural artifact and their access permissions. You can change the existing access permissions, according to your requirement.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Share an architectural artifact with users or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-share--archi-artft-with-users-groups.md)
+[Share an architectural artifact with users or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-share--archi-artft-with-users-groups.md)
 
-[Manage access to architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-access-to-architectural-artifacts.md)
+[Manage access to architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-access-to-architectural-artifacts.md)
 

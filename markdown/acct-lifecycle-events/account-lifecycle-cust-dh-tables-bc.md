@@ -2,7 +2,7 @@
 title: Customer business challenge
 description: The customer business challenge table \(sn\_cust\_disc\_hb\_business\_challenge\) stores a specific pain point, gap, or enhancement request that a customer has expressed. Challenges are triaged and linked to a customer business need when qualified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-cust-dh-tables-bc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-cust-dh-tables-bc.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-29"
@@ -171,12 +171,12 @@ Domain path for this record in a multi-domain deployment.
 |`sn_cust_disc_hb.discovery_viewer`|Read|
 |`sn_cust_disc_hb.discovery_writer`|Read, write|
 
-**Parent Topic:**[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
+**Parent Topic:**[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
 
 **Related topics**  
 
 
-[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
+[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
 
-[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

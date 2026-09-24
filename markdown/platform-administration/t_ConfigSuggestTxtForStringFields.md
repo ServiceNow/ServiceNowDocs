@@ -2,7 +2,7 @@
 title: Configure suggested text for string fields
 description: You can configure the suggested text options for string fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfigSuggestTxtForStringFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfigSuggestTxtForStringFields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

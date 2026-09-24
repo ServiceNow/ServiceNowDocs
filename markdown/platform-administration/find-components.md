@@ -2,7 +2,7 @@
 title: Find components installed with an application
 description: Activating a plugin installs an application on your instance. Each application consists of components such as tables, user roles, and scheduled jobs. To view all components that are installed with an application, see the Application Files table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/find-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/find-components.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ In the Application Files table, look up the components that are installed with t
 5.  Select the class of information that you want to view.
 
 
-**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/p_CoreConfigurationOverview.md)
 

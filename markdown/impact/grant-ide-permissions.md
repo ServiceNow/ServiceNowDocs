@@ -2,7 +2,7 @@
 title: Manage Initiative and Accelerator permissions
 description: Review and approve Initiative and Accelerator activities access using Manage Permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/grant-ide-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/grant-ide-permissions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -115,5 +115,5 @@ Role required: Impact Permissions Authorizer
     The option to **Start Initiative** becomes available.\[Omitted image "permissions-yes.png"\] Alt text: Impact Accelerator granted permissions
 
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
 

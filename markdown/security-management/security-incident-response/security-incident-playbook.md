@@ -2,7 +2,7 @@
 title: Security Incident Playbook
 description: Invoke the security incident playbook flow automatically or manually.Use this section to add playbook manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/security-incident-playbook.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +29,7 @@ For a Playbook to be invoked automatically, a process needs to be defined using 
 
 ## Add playbook manually
 
-For a Playbook to be invoked manually, navigate to the Form UI action drop down and select **Add Playbook**. For more information see, [Add Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-playbook.md)
+For a Playbook to be invoked manually, navigate to the Form UI action drop down and select **Add Playbook**. For more information see, [Add Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/security-incident-playbook.md)
 
 **Note:** If there is already a playbook available then the new playbooks added will run in parallel to the existing playbooks.
 
@@ -72,7 +72,7 @@ For a Playbook to be invoked manually, navigate to the Form UI action drop down 
     \[Omitted image "playbook-card-status-filters.png"\] Alt text: Playbook card status
 
 
-**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 

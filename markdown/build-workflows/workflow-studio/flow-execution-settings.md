@@ -2,7 +2,7 @@
 title: Flow execution settings
 description: Specify the runtime settings for an individual flow, subflow, or action such as the run priority, reporting level, and logging level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-execution-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-execution-settings.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -78,7 +78,7 @@ Flow Priority
 
 </td><td>
 
-Priority value used to run a background flow. For more information about setting flow priority, see [Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-priority.md).**Note:** This field is hidden by default. For more information about showing the flow priority field, see [Show flow priority field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/show-flow-priority-field.md).
+Priority value used to run a background flow. For more information about setting flow priority, see [Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-priority.md).**Note:** This field is hidden by default. For more information about showing the flow priority field, see [Show flow priority field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/show-flow-priority-field.md).
 
 .
 
@@ -108,5 +108,5 @@ Use these general guidelines when creating execution setting records to capture 
     Use the flow reporting and report all iterations options only when you need to troubleshoot a flow. These settings generate information that consume instance resources. To reduce their performance impact, either turn off these settings or delete the settings record altogether when you are done troubleshooting the flow.
 
 
-**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-administration.md)
+**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-administration.md)
 

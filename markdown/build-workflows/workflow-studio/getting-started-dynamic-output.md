@@ -2,7 +2,7 @@
 title: Get started with dynamic outputs
 description: Create a sample action that builds dynamic outputs for use in a flow.Create the aliases, connections, and credentials that REST steps will use to connect to your local instance.Create a data gathering action to look up a table schema and convert into a JSON object.Create a data gathering action to generate an array of objects from a list of records.Create a sample action to dynamically generate two action outputs, Record and Records which refresh dynamically when the value for the Table input changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/getting-started-dynamic-output.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/getting-started-dynamic-output.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -22,24 +22,24 @@ Role required: action\_designer or admin
 
 ## Procedure
 
-1.  [Create connection and credential records for dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
+1.  [Create connection and credential records for dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This connection &amp; credential alias will provide the base URL and user account needed to configure the REST steps of your data gathering actions.
 
-2.  [Create a data gathering action to get a record schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
+2.  [Create a data gathering action to get a record schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This data gathering action will convert a single record into a JSON object for a record dynamic output.
 
-3.  [Create a data gathering action to get an array of records schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
+3.  [Create a data gathering action to get an array of records schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This data gathering action will convert a list of records record into JSON array of objects for a records dynamic output.
 
-4.  [Create a custom action to test dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
+4.  [Create a custom action to test dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This custom action illustrates two types of dynamic output data. One dynamic output generates an object for a single record. Another dynamic output generates an array of objects for a list of records.
 
 
-**Parent Topic:**[Dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-outputs.md)
+**Parent Topic:**[Dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/dynamic-outputs.md)
 
 **Related topics**  
 
@@ -222,7 +222,7 @@ In this task, you create a data gathering action that collects the schema for a 
 
     5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script Step** &gt; **schema**.
 
-9.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+9.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, enter `incident` for the **Table** input.
 
@@ -368,7 +368,7 @@ In this task, you create a data gathering action that collects the schema for a 
 
     5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script Step** &gt; **schema**.
 
-9.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+9.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, in the **Table** field, enter `incident`.
 
@@ -534,7 +534,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
 
     18. For the **Value**, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script Step** &gt; **record**.
 
-7.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+7.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, select any dynamically generated choice value for the **Table** input.
 

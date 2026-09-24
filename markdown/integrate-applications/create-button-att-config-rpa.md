@@ -2,7 +2,7 @@
 title: Invoke Embedded Task Automation via API in RPA Hub
 description: Invoke an attended bot process \(attended automation\) from the UI experiences by creating an action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-button-att-config-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-button-att-config-rpa.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,12 +44,12 @@ top.window.open(result.url);​
 });​
 ```
 
-**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md)
+**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md)
 
 **Related topics**  
 
 
-[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md)
+[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md)
 
-[Conditions for the visibility of UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/visibility-cond-button-rpa.md)
+[Conditions for the visibility of UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/visibility-cond-button-rpa.md)
 

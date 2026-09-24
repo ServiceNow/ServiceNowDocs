@@ -2,7 +2,7 @@
 title: Showing breakdown relations on dashboards
 description: A breakdown widget can display 1st level breakdown elements that are related to the element selected for the dashboard. The widget must be on a breakdown dashboard, and that dashboard must include the breakdown sources of the related breakdowns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_ShowBkdwnRltnsWdgts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/c\_ShowBkdwnRltnsWdgts.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -44,7 +44,7 @@ If you edit the widget to display the Parent Location instead of the Child Locat
 
 \[Omitted image "breakdown-relations-sibling-group.png"\] Alt text: A widget on a breakdown dashboard showing the sibling locations of the EMEA group
 
-**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 
@@ -57,7 +57,7 @@ If you edit the widget to display the Parent Location instead of the Child Locat
 
 [Same breakdown on widget and dashboard]()
 
-[Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-relations.md)
+[Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/breakdown-relations.md)
 
-[Create a scorecard visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-scorecard-widget.md)
+[Create a scorecard visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-scorecard-widget.md)
 

@@ -2,7 +2,7 @@
 title: Integrating Customer Service Problem Management with southbound external systems
 description: If you have a Customer Service Problem Management subscription, you can submit outbound service test run requests to various external systems by integrating the Customer Service Problem Management application with the external southbound systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/cspm-integrate-southbound.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/cspm-integrate-southbound.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ The integration process for CSPM with the external service test management syste
 
 1.  As the administrator, you activate the Test Specification Open API to capture the test runs from the service problem case.
 
-    To learn more, see .
+    To learn more, see [Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-test-management-api.md).
 
 2.  The integration now begins:
     1.  The test manager creates the test run in the test run table.

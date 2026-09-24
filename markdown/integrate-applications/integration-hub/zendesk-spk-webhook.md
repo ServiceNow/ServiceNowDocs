@@ -2,7 +2,7 @@
 title: Set up a webhook
 description: Configure a webhook to subscribe to Zendesk with a ServiceNow callback URL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/zendesk-spk-webhook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/zendesk-spk-webhook.html
 release: australia
 product: Integration Hub
 classification: integration-hub

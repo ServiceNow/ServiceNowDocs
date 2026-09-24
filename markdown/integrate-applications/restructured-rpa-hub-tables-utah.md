@@ -2,7 +2,7 @@
 title: Restructuring RPA Hub tables
 description: Starting with the Utah release, the Robotic Process Automation \(RPA\) tables are restructured to an application file, so that changes that you make to these tables are captured in the update sets and can be moved seamlessly across environments. With this process, you don't have to re-create the data records in the targeted environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/restructured-rpa-hub-tables-utah.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/restructured-rpa-hub-tables-utah.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,5 +28,5 @@ The following diagram shows the tables of RPA Hub after restructuring.
 
 For detailed information about the script that restructures the tables during an upgrade, see the [Restructuring RPA Hub tables to sys\_metadata in Utah](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1223629) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Migrating data in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/migrating-data-rpa-hub.md)
+**Parent Topic:**[Migrating data in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/migrating-data-rpa-hub.md)
 

@@ -2,7 +2,7 @@
 title: Clone an instance with a SAML integration
 description: Clone an instance with a SAML integration. Before you clone an instance that uses SAML 2.0, preserve the SAML SSO-related settings on the target instance or you might make the target instance inaccessible.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_CloneAnInstanceWASAMLIntegration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_CloneAnInstanceWASAMLIntegration.html
 release: australia
 product: Authentication
 classification: authentication

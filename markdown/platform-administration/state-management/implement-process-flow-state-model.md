@@ -2,7 +2,7 @@
 title: Implement process flow and UI actions with a state model
 description: You can implement a process flow and UI actions with a state model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/state-management/implement-process-flow-state-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/state-management/implement-process-flow-state-model.html
 release: australia
 product: State Management
 classification: state-management
@@ -30,15 +30,15 @@ State models provide a way to limit the choices for moving between states in a f
 
 1.  Verify the choices for the **State** field for the table and ensure that you created transitions for them.
 
-    For more information about how to add **State** field choices, see [Best practices for state field choice values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_BPForStateFieldChoiceValues.md).
+    For more information about how to add **State** field choices, see [Best practices for state field choice values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_BPForStateFieldChoiceValues.md).
 
 2.  After creating the state model, define the process flow.
 
-    For more information about process flows, see [Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ProcessFlowFormatter.md).
+    For more information about process flows, see [Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_ProcessFlowFormatter.md).
 
 3.  Define UI actions as desired to move between states.
 
-    For more information about UI actions, see [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md).
+    For more information about UI actions, see [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_UIActions.md).
 
 
 ## Result

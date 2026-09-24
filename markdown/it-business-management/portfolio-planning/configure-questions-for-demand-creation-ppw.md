@@ -2,7 +2,7 @@
 title: Configure the questions for conversational demand creation
 description: Add or modify an existing question for creating a demand through Agent assist in Virtual Agent using the conversational experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/configure-questions-for-demand-creation-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/configure-questions-for-demand-creation-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

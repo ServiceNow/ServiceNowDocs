@@ -2,7 +2,7 @@
 title: View external learning content
 description: View details of all the courses items that are pulled from external sources into the ServiceNow application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-ln-extcnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/create-ln-extcnt.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -26,10 +26,10 @@ Role required: sb\_lc.learning\_admin
 
 2.  On the form, view the fields:
 
-    For a description of the field values, see [Learning External Contents form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-external-contents-form.md)
+    For a description of the field values, see [Learning External Contents form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-external-contents-form.md)
 
 
-**Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-ln-content.md)
+**Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-ln-content.md)
 
 **Related topics**  
 

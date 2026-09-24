@@ -2,7 +2,7 @@
 title: Set up triggers for the Vonage spoke
 description: Set up triggers for the Vonage spoke for the required events. The endpoint enables webhooks to connect with your ServiceNow instance.Configure endpoint for webhooks in the Vonage that support the token authentication.Add the endpoint URL that is generated in your ServiceNow instance in the Vonage API Dashboard to enable webhooks to connect with your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-triggers-vonage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-triggers-vonage.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -51,7 +51,7 @@ Role required: flow\_designer and connection\_admin
 
     1.  If you select the **Vonage External Trigger \(Hash\)** end point, click **Configure**.
 
-    2.  Select the user who can trigger the endpoint and [copy paste the Signature Secret](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-vonage-spoke.md) in the Secret field.
+    2.  Select the user who can trigger the endpoint and [copy paste the Signature Secret](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-vonage-spoke.md) in the Secret field.
 
     3.  Click **Activate**.
 
@@ -84,8 +84,8 @@ Role required: admin
 
     |Field|Description|
     |-----|-----------|
-    |Delivery receipts \(DLR\) webhooks|Endpoint URL that was generated after you [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-triggers-vonage.md) to receive delivery status updates.|
-    |Inbound SMS webhooksvo|Endpoint URL that was generated after you [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-triggers-vonage.md) to receive inbound messages.|
+    |Delivery receipts \(DLR\) webhooks|Endpoint URL that was generated after you [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-triggers-vonage.md) to receive delivery status updates.|
+    |Inbound SMS webhooksvo|Endpoint URL that was generated after you [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-triggers-vonage.md) to receive inbound messages.|
 
 5.  Click **Save** to save the changes.
 

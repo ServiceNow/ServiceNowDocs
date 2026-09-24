@@ -2,7 +2,7 @@
 title: Supporting information for Unified Security Exposure Management AI skills and agents
 description: Get an overview of the important information that is related to the USEM application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/supporting-information-now-assist-vr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/supporting-information-now-assist-vr.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-29"

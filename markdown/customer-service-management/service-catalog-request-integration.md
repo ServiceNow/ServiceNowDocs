@@ -2,7 +2,7 @@
 title: Service catalog integration with the Customer and Consumer Service Portals
 description: Users with the customer administrator role \(sn\_customerservice.customer\_admin\) can associate a portal with a service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-catalog-request-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/service-catalog-request-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

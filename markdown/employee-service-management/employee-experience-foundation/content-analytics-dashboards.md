@@ -2,7 +2,7 @@
 title: Content Analytics dashboards
 description: Content Analytics display data visualizations for portal data collected in the default tracking profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/content-analytics-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/content-analytics-dashboards.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -148,7 +148,7 @@ Yesterday's Top Pages
 Bar chart displaying the most viewed pages from the previous day
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Data Loss Prevention Incident Response User Workspace
 description: The Data Loss Prevention Incident Response \(DLP IR\) User Workspace is a workspace where end users, managers, and approvers can respond to the assigned DLP incidents. The end users, managers, and approvers can then respond to the incidents by specifying the correct actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/using-dlp-end-user-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/using-dlp-end-user-portal.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -18,12 +18,12 @@ The Data Loss Prevention Incident Response \(DLP IR\) User Workspace is a worksp
 
 You can also create and manage assessments to enable end users to respond to DLP incidents. The workspace consists of a landing page and list views that let you see the assigned DLP incidents.
 
--   **[Report or respond to DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/access-the-dlp-end-user-portal.md)**  
+-   **[Report or respond to DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/access-the-dlp-end-user-portal.md)**  
 Access the Data Loss Prevention Incident Response \(DLP\) User workspace, review the assigned DLP incidents, and report or respond to the incidents.
--   **[Working with my approvals module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/working-with-my-approvals-module.md)**  
+-   **[Working with my approvals module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/working-with-my-approvals-module.md)**  
 My Approvals module will be available on DLP Users Workspace to the logged in users. Users can approve or reject the assign approval requests from here.
 
-**Parent Topic:**[Data Loss Prevention Incident Response Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-incident-management.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-incident-management.md)
 
 **Related topics**  
 

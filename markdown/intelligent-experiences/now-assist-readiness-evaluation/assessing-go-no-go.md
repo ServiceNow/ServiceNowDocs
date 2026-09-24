@@ -2,7 +2,7 @@
 title: Assessing readiness status
 description: The AI Readiness Evaluation app shows you a high-level overview of your go or no-go status for your organization's readiness to implement agentic AI, generative AI, or both.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/assessing-go-no-go.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-readiness-evaluation/assessing-go-no-go.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation

@@ -2,7 +2,7 @@
 title: Refresh project data
 description: To refresh the data for a project, mine the project from the Analyst Workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/extract-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/extract-project.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -39,5 +39,5 @@ Role required: none
 5.  After the mine completes successfully, select **View in Workspace** to view the refreshed project data.
 
 
-**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-process-mining.md)
 

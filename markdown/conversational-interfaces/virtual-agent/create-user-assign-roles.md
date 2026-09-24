@@ -2,7 +2,7 @@
 title: Grant access to an IAM \(Identity and Access Management\) role
 description: Grant a ServiceNow user the required permissions to complete the Conversational Integration with Amazon Connect on the AWS Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-user-assign-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-user-assign-roles.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -40,5 +40,5 @@ Role required: admin
 6.  Click **Create user**.
 
 
-**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-aws-account.md)
+**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-aws-account.md)
 

@@ -2,7 +2,7 @@
 title: Set up an approval engine
 description: To manage the approvals for each of the Task tables in the system, set up an approval engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/t\_SetupAnApprovalEngine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/t\_SetupAnApprovalEngine.html
 release: australia
 product: Approvals
 classification: approvals
@@ -30,12 +30,12 @@ Role required: none
 
     \[Omitted image "ApprovalEnginePage.png"\] Alt text: Approval engine page
 
-2.  Select the [approval engine option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_ApprovalEngines.md) for each Task table from the choice list.
+2.  Select the [approval engine option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/c_ApprovalEngines.md) for each Task table from the choice list.
 
 3.  Click **Save**.
 
     These preferences are saved as system properties that are named **glide.approval\_engine.&lt;table\_name&gt;**.
 
 
-**Parent Topic:**[Approval engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_ApprovalEngines.md)
+**Parent Topic:**[Approval engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/c_ApprovalEngines.md)
 

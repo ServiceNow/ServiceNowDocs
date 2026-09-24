@@ -2,7 +2,7 @@
 title: Omit record count in a list
 description: Speed up how fast lists load by removing the calculation of the total number of records in a list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/omit-record-count.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/omit-record-count.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -51,5 +51,5 @@ To load lists faster, you can remove the page calculation for all or only specif
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_ListConfiguration.md)
+**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/c_ListConfiguration.md)
 

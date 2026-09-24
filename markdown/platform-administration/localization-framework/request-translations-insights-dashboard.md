@@ -2,7 +2,7 @@
 title: Request translations from Insights Dashboard
 description: Request translations for Service Catalog items or Virtual Agent topics from the insights dashboard to localize them into the selected language based on their translation status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/request-translations-insights-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-framework/request-translations-insights-dashboard.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -43,5 +43,5 @@ Role required: localization\_admin or localization\_requestor
 5.  Click **OK** in the Confirmation dialog box to submit the request.
 
 
-**Parent Topic:**[Monitor the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/monitor-localization-framework.md)
+**Parent Topic:**[Monitor the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/monitor-localization-framework.md)
 

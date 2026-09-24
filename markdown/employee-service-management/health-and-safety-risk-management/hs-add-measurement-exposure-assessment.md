@@ -2,7 +2,7 @@
 title: Add a measurement and exposure source for an exposure assessment
 description: Add a measurement recorded for the exposure type when performing an exposure assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-add-measurement-exposure-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-add-measurement-exposure-assessment.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -56,7 +56,7 @@ Measurement unit
 
 Unit of measurement for this exposure type.The list shows units based on the exposure category selected in the exposure type.
 
-The unit choices for an exposure category are defined in the `Measurement unit` column of the Measurement \[sn\_hs\_rm\_measurement\] table. For more information, see [Define a category and measurement unit for an exposure type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-category-measurement-unit-exposure-type.md).
+The unit choices for an exposure category are defined in the `Measurement unit` column of the Measurement \[sn\_hs\_rm\_measurement\] table. For more information, see [Define a category and measurement unit for an exposure type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-define-category-measurement-unit-exposure-type.md).
 
 </td></tr><tr><td>
 
@@ -105,5 +105,5 @@ Detailed information about this measurement.
 
     -   If the measurement is below the limit and an active exposure exists for this assessment, the exposure end date is automatically set to the measurement date. It's because the exposure no longer meets the criteria, making it irrelevant. Additionally, the exposure's state is updated to obsolete and the associated action schedule for the exposure is marked as inactive.
 
-**Parent Topic:**[Perform an exposure assessment for a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-perform-exposure-assessment.md)
+**Parent Topic:**[Perform an exposure assessment for a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-perform-exposure-assessment.md)
 

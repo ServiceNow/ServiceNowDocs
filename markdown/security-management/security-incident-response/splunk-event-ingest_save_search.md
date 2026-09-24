@@ -2,7 +2,7 @@
 title: Save searches in your Splunk Enterprise console for the Splunk Enterprise Event Ingestion integration
 description: The following steps for saving searches in your Splunk Enterprise console are provided for a user with the Splunk Enterprise administrator role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest\_save\_search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest\_save\_search.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -106,5 +106,5 @@ Add actions to trigger this alert. Expand the Add choice list and click **Add to
 
 You have successfully completed the required setup for the integration in your Splunk Enterprise console. If you have not already installed the application for the integration from the ServiceNow Store, the next step is to install the application for the integration and configure it.
 
-**Parent Topic:**[Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
+**Parent Topic:**[Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
 

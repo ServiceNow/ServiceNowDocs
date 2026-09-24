@@ -2,7 +2,7 @@
 title: Improvement field descriptions
 description: Improvement Initiative form and related field descriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/cim-field-descriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/continual-improvement-management/cim-field-descriptions.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -102,7 +102,7 @@ State
 
 </td><td>
 
-[State of the improvement initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md). This field is read only.
+[State of the improvement initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-reference.md). This field is read only.
 
 -   New
 -   Accepted
@@ -650,7 +650,7 @@ State
 
 </td><td>
 
-[State of the task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md).
+[State of the task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-reference.md).
 
 -   Pending
 -   Open
@@ -798,7 +798,7 @@ State
 
 </td><td>
 
-[State of the approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md).
+[State of the approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-reference.md).
 
 -   Not Yet Requested
 -   Requested
@@ -834,5 +834,5 @@ Created
 Date the improvement initiative was created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md)
+</table>**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-reference.md)
 

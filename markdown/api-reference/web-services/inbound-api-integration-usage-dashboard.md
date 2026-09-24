@@ -2,7 +2,7 @@
 title: Monitor inbound API integration usage
 description: Monitor inbound integration usage requests, data egress, and domain-level usage through the Inbound API Integration Usage dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/inbound-api-integration-usage-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/inbound-api-integration-usage-dashboard.html
 release: australia
 product: Web Services
 classification: web-services
@@ -63,10 +63,10 @@ Users with the admin role see usage across all domains regardless of which domai
 |Data Egress Usage - Daily \(MB\)|Data egress by domain for each day over the last 30 days.|
 |Data Egress Usage - Monthly \(GB\)|Data egress by domain for each month over the last 13 months.|
 
--   **[View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md)**  
+-   **[View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md)**  
 View integration request counts, data egress volume, and domain-level usage.
--   **[Registered integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/registered-integrations.md)**  
+-   **[Registered integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/registered-integrations.md)**  
 View the list of all the inbound API integrations registered on ServiceNow.
 
-**Parent Topic:**[Additional integration resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/additional-integration-resources.md)
+**Parent Topic:**[Additional integration resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/additional-integration-resources.md)
 

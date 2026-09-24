@@ -2,12 +2,12 @@
 title: Discovery generic attributes
 description: Discovery generic attributes enable you to define custom attributes at the schedule, range, and range set level. These attributes attach metadata that can influence CMDB field population and Discovery runtime behavior, providing granular control based on the scope of the discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/disco-generic-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/disco-generic-attributes.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,9 +22,9 @@ Discovery generic attributes use a declarative, rule-based approach for applying
 
 ## Attribute scope hierarchy
 
-Discovery reconciles attributes from multiple scope levels by applying a precedence order. Attributes at a more specific scope override attributes with the same key at a broader scope. The available scope levels and their precedence depend on the use case. For more information, see [Automatic CI field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ci-field-disco-attributes.md).
+Discovery reconciles attributes from multiple scope levels by applying a precedence order. Attributes at a more specific scope override attributes with the same key at a broader scope. The available scope levels and their precedence depend on the use case. For more information, see [Automatic CI field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/ci-field-disco-attributes.md).
 
 ## Use case
 
-You can use Discovery generic attributes to automatically populate CI fields based on the Discovery scope. This enables you to apply consistent metadata to discovered CIs without manual intervention. For more information, see [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/define-ci-attributes.md).
+You can use Discovery generic attributes to automatically populate CI fields based on the Discovery scope. This enables you to apply consistent metadata to discovered CIs without manual intervention. For more information, see [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/define-ci-attributes.md).
 

@@ -2,7 +2,7 @@
 title: Apply a template to an email notification
 description: After you create an email template, you can apply it to a notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ApplyATemplateToAnEmailNotif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ApplyATemplateToAnEmailNotif.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md)
+**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailTemplates.md)
 

@@ -2,7 +2,7 @@
 title: Merge tool
 description: The Diff Merge tool enables administrative users to compare differences between two versions of a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/diff-merge-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/diff-merge-tool.html
 release: australia
 product: Team Development
 classification: team-development
@@ -46,22 +46,22 @@ To enable accessibility functions, administrators should set these sys\_properti
     -   **mergetool.bg.left** - Left column cell color when version values are the same.
     -   **mergetool.bg.right** - Right column cell color when version values are the same.
 
-**Parent Topic:**[Version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/r_VersionRecords.md)
+**Parent Topic:**[Version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/r_VersionRecords.md)
 
 **Related topics**  
 
 
-[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_CompareToCurrentVersion.md)
+[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_CompareToCurrentVersion.md)
 
-[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_ComparePushedVerLocalVer.md)
+[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_ComparePushedVerLocalVer.md)
 
 [Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/compare-two-article-versions.md)
 
 [Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/um-resolve-conflict.md)
 
-[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_ResolveACollision.md)
+[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_ResolveACollision.md)
 
-[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_RevertAChange.md)
+[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_RevertAChange.md)
 
-[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/view-customer-update-records.md)
+[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/view-customer-update-records.md)
 

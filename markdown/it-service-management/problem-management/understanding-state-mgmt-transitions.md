@@ -2,7 +2,7 @@
 title: Life cycle of a problem
 description: Problem Management is responsible for managing the life cycle of underlying problems. State transition of a problem guides you through the stages of a problem life cycle, from creation to closure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/understanding-state-mgmt-transitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/understanding-state-mgmt-transitions.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -26,7 +26,7 @@ The Problem Management process has many states, and each is vitally important to
 
 **Note:**
 
-You can use Problem Management models to tailor processes for specific use cases. For more information, see [Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-models.md).
+You can use Problem Management models to tailor processes for specific use cases. For more information, see [Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/problem-mgmt-models.md).
 
-**Parent Topic:**[Problem Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/c_ProblemManagementProcess.md)
+**Parent Topic:**[Problem Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/c_ProblemManagementProcess.md)
 

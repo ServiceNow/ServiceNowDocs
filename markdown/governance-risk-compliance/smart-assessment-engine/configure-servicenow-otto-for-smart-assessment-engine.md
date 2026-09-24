@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Smart Assessment Engine \(SAE\)
 description: Configure ServiceNow Otto for SAE to enable generative AI skills for the assessment response assist workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/configure-servicenow-otto-for-smart-assessment-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/configure-servicenow-otto-for-smart-assessment-engine.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -29,14 +29,14 @@ For earlier versions, go to [Application Manager](https://raw.githubusercontent.
 
 For information about configuring generative AI skills and prompts, see [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md).
 
-After you turn on the Smart Assessment Response Assist skill, you must also enable AI responses on each template category that you want the skill to run on. To enable AI responses for a category and to configure the documents that the skill considers by default, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+After you turn on the Smart Assessment Response Assist skill, you must also enable AI responses on each template category that you want the skill to run on. To enable AI responses for a category and to configure the documents that the skill considers by default, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
 By default, the skill draws on:
 
 -   Previously completed smart assessments and classic assessments that share the same scope item as the current assessment.
 -   Documents that are attached directly to the assessment instance.
 
-To customize these defaults for a template category, implement the Smart Assessment Response Assist scripted extension point. For details, see [Customizing AI Response Assist sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/customizing-ai-response-assist-sources.md).
+To customize these defaults for a template category, implement the Smart Assessment Response Assist scripted extension point. For details, see [Customizing AI Response Assist sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/customizing-ai-response-assist-sources.md).
 
 ## Using guided setup to implement ServiceNow Otto for SAE
 

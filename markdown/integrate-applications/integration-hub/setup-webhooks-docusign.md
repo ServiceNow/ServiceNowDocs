@@ -2,7 +2,7 @@
 title: Set up a bi-directional webhook for the Docusign eSignature spoke
 description: Configure the webhook in your Docusign account to enable Docusign to send data to ServiceNow when a recipient signs a document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhooks-docusign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-webhooks-docusign.html
 release: australia
 product: Integration Hub
 classification: integration-hub

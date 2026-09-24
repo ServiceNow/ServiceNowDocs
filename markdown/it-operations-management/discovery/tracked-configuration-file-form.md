@@ -2,7 +2,7 @@
 title: Tracked Configuration file form
 description: The Tracked Configuration file form displays details about a specific configuration file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/tracked-configuration-file-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/tracked-configuration-file-form.html
 release: australia
 product: Discovery
 classification: discovery
@@ -23,10 +23,10 @@ The Tracked Configuration file form displays details about a specific configurat
 |Last Modified|Date the file was last modified.|
 |File Content|Contents of the file, if you selected the option to save the contents on the file tracking definition.|
 
-**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-references.md)
+**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-references.md)
 
 **Related topics**  
 
 
-[Compare versions of CI configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/compare-configuration-files.md)
+[Compare versions of CI configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/compare-configuration-files.md)
 

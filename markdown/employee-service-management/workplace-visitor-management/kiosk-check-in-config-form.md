@@ -2,7 +2,7 @@
 title: Kiosk Check-in Flow Configuration form
 description: Use the Kiosk Check-in Flow Configuration form to create a check-in flow for the Workplace Services Kiosk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/kiosk-check-in-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/kiosk-check-in-config-form.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -21,7 +21,7 @@ Use the Kiosk Check-in Flow Configuration form to create a check-in flow for the
 |Name|Name of the check-in flow configuration.|
 |Authentication page configuration|Page configuration that contains the check-in authentication.|
 |Self-registration page configuration|Page configuration that contains the self-registration flow.|
-|Acknowledgment page configuration|Page configuration that contains the check-in policies for the visitor to acknowledge. For more information about policies, see [Create a visitor policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/create-visitor-policy.md).|
+|Acknowledgment page configuration|Page configuration that contains the check-in policies for the visitor to acknowledge. For more information about policies, see [Create a visitor policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/create-visitor-policy.md).|
 |Picture page configuration|Page configuration that uses the camera to take a picture of the visitor.|
 |Summary page configuration|Page configuration that contains the summary of the visit.|
 |End page configuration|Page configuration that displays the next steps for the visitor to follow.|
@@ -36,7 +36,7 @@ Use the Kiosk Check-in Flow Configuration form to create a check-in flow for the
 |Authentication fails, self-registration is configured, and the visitor opts out of self-registration|**Authentication page** &gt; **Authentication error** &gt; **Self-registration page** &gt; **Kiosk home page**|
 |Authentication fails, self-registration is configured, and the visitor opts to self-register|**Authentication page** &gt; **Authentication error** &gt; **Self-registration page** &gt; **Picture Page** &gt; **Acknowledgement page** &gt; **End page** &gt; **Kiosk home page**|
 
-**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Assessment results calculation
 description: For every assessment group, there are assessment results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_AssessmentResultsCalculation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_AssessmentResultsCalculation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,14 +16,14 @@ For every assessment group, there are assessment results.
 
 Data calculated from an evaluation of one metric is classified as a metric result. Data calculated from the weighted average of all metric results in a category is classified as a category result. The system calculates some assessment results when the assessment is generated, and others when users complete questionnaires.
 
-**Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md)
+**Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAMetricResult.md)
 
 **Related topics**  
 
 
-[Generate a scheduled assessment manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_GenSchedAssessmentManually.md)
+[Generate a scheduled assessment manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_GenSchedAssessmentManually.md)
 
-[Generate a vendor type assessment manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_GenAVendorTypeAssmtManually.md)
+[Generate a vendor type assessment manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_GenAVendorTypeAssmtManually.md)
 
-[Assessment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentGroups.md)
+[Assessment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentGroups.md)
 

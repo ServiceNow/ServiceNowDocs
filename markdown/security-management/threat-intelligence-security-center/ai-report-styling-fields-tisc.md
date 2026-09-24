@@ -2,7 +2,7 @@
 title: AI Report Styling Configuration form fields
 description: Field descriptions for the AI Report Styling Configuration form. Use these settings to configure the theme of the AI-generated threat intelligence reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/ai-report-styling-fields-tisc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/ai-report-styling-fields-tisc.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

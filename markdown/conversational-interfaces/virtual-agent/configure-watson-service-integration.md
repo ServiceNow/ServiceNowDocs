@@ -2,7 +2,7 @@
 title: Configure IBM Watson Assistant as the NLU provider for Virtual Agent
 description: Use the intents, entities, and utterances defined in IBM Watson Assistant and apply them as an NLU model for your Virtual Agent conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-watson-service-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-watson-service-integration.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -106,12 +106,12 @@ As of the Quebec release, Virtual Agent supports legacy version 1 URLs only:
 
     5.  If you plan to use language-specific NLU models, enable the languages in the Supported NLU Languages list.
 
-        A language is enabled if the Enabled column displays **true**. For more information, see [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md).
+        A language is enabled if the Enabled column displays **true**. For more information, see [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md).
 
     6.  Click **Save**.
 
     IBM Watson Assistant is the NLU service provider for your instance.
 
 
-**Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
+**Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
 

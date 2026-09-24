@@ -2,7 +2,7 @@
 title: Test patterns for discovering AWS API Gateway and AWS Lambda
 description: Run the horizontal and top-down discovery using Amazon AWS API Gateway \[cmdb\_ci\_cloud\_gateway\] and Amazon AWS Lambda \[cmdb\_ci\_cloud\_function\] patterns. Verify that the result is as expected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/test-patterns-for-discovering-aws-api-and-aws-lambda.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/test-patterns-for-discovering-aws-api-and-aws-lambda.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,7 +18,7 @@ Run the horizontal and top-down discovery using Amazon AWS API Gateway \[cmdb\_c
 
 ## Before you begin
 
-Make sure that your deployment complies with all the prerequisites for [Amazon API Gateway discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-discovery.md) and [AWS Lambda discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-lambda-discovery.md).
+Make sure that your deployment complies with all the prerequisites for [Amazon API Gateway discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-discovery.md) and [AWS Lambda discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-lambda-discovery.md).
 
 Role required: admin
 
@@ -79,5 +79,5 @@ The URL for invoking the API Gateway. Typically, the API GW has the following fo
     -   Service Mapping discovers the AWS Lambda connected to the application cluster for API Gateway.
     -   Service Mapping discovers the databases connected to AWS Lambda.
 
-**Parent Topic:**[Amazon API Gateway discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-discovery.md)
+**Parent Topic:**[Amazon API Gateway discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-discovery.md)
 

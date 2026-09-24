@@ -2,7 +2,7 @@
 title: Assign a role to a user
 description: A user inherits roles from all groups to which they belong. You can also assign roles directly to a user. Whenever a user is assigned a new role, it only takes effect after logging in with a new session.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_AssignARoleToAUser.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/t\_AssignARoleToAUser.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -28,7 +28,7 @@ To grant the admin role to a user, you must also have the admin role. To grant t
 
 You can't delete roles that are assigned to the group from the user record. You must remove the user from the group record.
 
-**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-subscription-auto-assignment.md).
+**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-subscription-auto-assignment.md).
 
 ## Procedure
 
@@ -51,5 +51,5 @@ You can't delete roles that are assigned to the group from the user record. You 
 
 **Note:** If the user is logged in when you update their roles and they’re unable to access records enabled by the new role, they may need to log out and back in again.
 
-**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md)
+**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/t_CreateARole.md)
 

@@ -2,7 +2,7 @@
 title: Using Digital resilience incident reporting
 description: Beginning with the Yokohama release, users of the Operational Resilience Workspace can report Information and Communication Technology \(ICT\) related incidents to regulators using the Digital resilience incident reporting module. This module, integrated with Incident Management and Security Incident Response, creates or updates incident case task records whenever a major incident is created or updated in these applications. The report is generated in the specified format and shared with regulators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/drir-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/drir-module.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,19 +24,19 @@ The Digital Resilience Incident Reporting \(DRIR\) streamlines the case reportin
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about Digital resilience incident reporting \(DRIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/dri-module-in-ws.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about Digital resilience incident reporting \(DRIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/dri-module-in-ws.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the conditions for incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the conditions for incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Report incidents from other applications or manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-drir.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Report incidents from other applications or manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-drir.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text: Components installed with DRIR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/drir-ref.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text: Components installed with DRIR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/drir-ref.md)
 
 </td></tr></tbody>
 </table>## Additional resources

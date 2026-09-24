@@ -2,7 +2,7 @@
 title: PPM Standard \(Project Portfolio Management\)
 description: The ServiceNow PPM Standard, earlier known as Project Portfolio Suite with Financials, application integrates Financial Management and Project Portfolio Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/c\_ProjectPortfolioSuiteWithFinancials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/c\_ProjectPortfolioSuiteWithFinancials.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -43,21 +43,21 @@ You can perform financial planning and budgeting using UI actions on related lis
 PPM Standard provides comprehensive capabilities for project planning and execution. Use the following topics to get started:
 
 -   **Project creation and planning:** Create projects, define work breakdown structures, set milestones, and plan timelines. See the Project Management documentation.
--   **Resource management:** Allocate resources to projects, manage capacity, and track utilization. See [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/explore-rmw.md).
--   **Portfolio management:** Prioritize demands, manage portfolios, and track portfolio performance. See [Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/c_PortfolioManagement.md).
--   **Installed components:** Review the roles, tables, and configurations installed with PPM Standard. See [Roles installed with PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/roles-installed-with-PPS-finance.md).
+-   **Resource management:** Allocate resources to projects, manage capacity, and track utilization. See [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/explore-rmw.md).
+-   **Portfolio management:** Prioritize demands, manage portfolios, and track portfolio performance. See [Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_PortfolioManagement.md).
+-   **Installed components:** Review the roles, tables, and configurations installed with PPM Standard. See [Roles installed with PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/roles-installed-with-PPS-finance.md).
 
--   **[Activate Investment Funding for projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/activate-investment-funding-ppm.md)**  
+-   **[Activate Investment Funding for projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/activate-investment-funding-ppm.md)**  
 Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they aren't already active.
--   **[Currencies and budget reference rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md)**  
+-   **[Currencies and budget reference rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md)**  
 The support for use of multiple currencies provides conversions for budget items in different currencies.
 
-**Parent Topic:**[Explore Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/explore-project-portfolio-management.md)
+**Parent Topic:**[Explore Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/explore-project-portfolio-management.md)
 
 **Related topics**  
 
 
-[Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/c_PortfolioManagement.md)
+[Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_PortfolioManagement.md)
 
-[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
+[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

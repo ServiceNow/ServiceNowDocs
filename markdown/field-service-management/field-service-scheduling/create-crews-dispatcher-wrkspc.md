@@ -2,7 +2,7 @@
 title: Create crews
 description: As a dispatcher, you can create crews in Dispatcher Workspace to which you can assign work order tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-crews-dispatcher-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/create-crews-dispatcher-wrkspc.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

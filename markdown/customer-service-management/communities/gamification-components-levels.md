@@ -2,7 +2,7 @@
 title: Levels and level ranges
 description: Points accumulated by community users can help them achieve different reputation levels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-components-levels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/gamification-components-levels.html
 release: australia
 product: Communities
 classification: communities
@@ -26,19 +26,19 @@ Gamification administrators can configure level ranges within each level. These 
 
 \[Omitted image "GamificationLevelDefinitionForm.png"\] Alt text: Gamification Level Definition - Global Level view of a list of gamification levels and their domains.
 
-In the community portal, users can see the level range names and point totals in the [gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-UI.md).
+In the community portal, users can see the level range names and point totals in the [gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/communities-gamification-UI.md).
 
 -   On the leaderboard page and leaderboard widgets
 -   At the top of a user's profile below the user name and title
 -   On the user profile page in the Achievements tab
 -   On content pages
 
-**Parent Topic:**[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-components.md)
+**Parent Topic:**[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-components.md)
 
 **Related topics**  
 
 
-[Manage gamification levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-level-def.md)
+[Manage gamification levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-create-level-def.md)
 
-[Manage gamification level ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-level-range.md)
+[Manage gamification level ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-create-level-range.md)
 

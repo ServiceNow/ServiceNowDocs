@@ -2,7 +2,7 @@
 title: Flow Designer
 description: Flow Designer is a ServiceNow AI Platform feature that enables rich process automation capabilities in a consolidated design environment. Flow Designer enables process owners to use natural language to automate approvals, tasks, notifications, and record operations without having to code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/flow-designer.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -71,5 +71,5 @@ Self-Paced Training: [Flow Designer](https://developer.servicenow.com/dev.do#!/l
 
 Self-Paced Training: [IntegrationHub](https://developer.servicenow.com/dev.do#!/learn/courses/paris/app_store_learnv2_rest_paris_rest_integrations/app_store_learnv2_rest_paris_rest_in_integrationhub/app_store_learnv2_rest_paris_rest_in_integrationhub_objectives)
 
-**Parent Topic:**[Build form and business logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-form-and-business-logic.md)
+**Parent Topic:**[Build form and business logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-form-and-business-logic.md)
 

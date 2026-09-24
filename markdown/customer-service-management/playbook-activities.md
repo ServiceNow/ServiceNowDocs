@@ -2,7 +2,7 @@
 title: Activities
 description: Activities are the individual steps that make up playbooks in Customer Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/playbook-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/playbook-activities.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-16"
@@ -29,7 +29,7 @@ When an agent opens a record that uses a playbook, it opens to the current stage
 
 When an agent selects an available activity, it becomes the current activity. An agent can navigate stages and activities in any order as long as there is at least one available activity to select.
 
-**Note:** The playbook configuration determines the visibility and accessibility of pending stages and activities. For more information, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-config-activity-visibility.md).
+**Note:** The playbook configuration determines the visibility and accessibility of pending stages and activities. For more information, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-config-activity-visibility.md).
 
 ## Activities in a playbook
 
@@ -37,11 +37,11 @@ A playbook is organized into stages, and each stage contains one or more activit
 
 A few things shape how an agent works with activities:
 
--   **Activity state**: Each activity shows its current state in the activity picker, so an agent can see what is done and what is left. For the list of states, see [Page components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-templates.md).
--   **How activities are displayed**: The page layout and activity view control how stages and activities appear, such as a focused or stacked view. For more information, see [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-select-activity-view.md).
+-   **Activity state**: Each activity shows its current state in the activity picker, so an agent can see what is done and what is left. For the list of states, see [Page components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-templates.md).
+-   **How activities are displayed**: The page layout and activity view control how stages and activities appear, such as a focused or stacked view. For more information, see [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-select-activity-view.md).
 -   **Navigating activities**: An agent can move between stages and activities, including by using keyboard navigation, in the order that their role and the playbook configuration allow.
--   **Filtering activities**: An agent can filter the activity list by state to focus on certain activities. For more information, see [Filter playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-filter-activities.md).
--   **Visibility**: An administrator can control which stages and activities are visible, such as hiding activities that are pending or that an agent cannot access. For more information, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-config-activity-visibility.md).
+-   **Filtering activities**: An agent can filter the activity list by state to focus on certain activities. For more information, see [Filter playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-filter-activities.md).
+-   **Visibility**: An administrator can control which stages and activities are visible, such as hiding activities that are pending or that an agent cannot access. For more information, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-config-activity-visibility.md).
 
 ## Types of activities
 
@@ -58,7 +58,7 @@ Optional activities can be global, so an agent can add them at any point, or tie
 
 When an optional activity involves the customer, such as requesting a document upload or asking the customer to confirm account details before the case moves forward, it becomes part of the customer's own experience, not just the agent's workflow.
 
-For configuration steps to set up optional activities in Workflow Studio, see [Configure an optional activity for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-optional-activity-for-a-case-type-playbook.md)
+For configuration steps to set up optional activities in Workflow Studio, see [Configure an optional activity for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-optional-activity-for-a-case-type-playbook.md)
 
 ## Configuring stage and activity visibility
 
@@ -67,7 +67,7 @@ Users with the admin role can configure the visibility of playbook stages and ac
 -   Showing or hiding stages and activities that are pending.
 -   Showing or hiding stages and activities where a user does not have access.
 
-The administrator configures these settings in the Playbook Experience record. For more information, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-config-activity-visibility.md).
+The administrator configures these settings in the Playbook Experience record. For more information, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-config-activity-visibility.md).
 
 ## CSM playbook activities
 
@@ -75,6 +75,6 @@ The following existing activities are available to customize and use in CSM play
 
 |Activity|Description|
 |--------|-----------|
-|[Add Related Parties Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-add-related-party-activity.md)|Enables agents to add, edit, or delete related party records directly within a playbook. Set up by an admin in Workflow Studio. Returns JSON output for downstream use.|
-|[Save Related Parties Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-save-related-parties-activity.md)|Automation activity that saves related party records captured by the Add Related Parties activity to the database. Accepts JSON input and writes records to the specified target table.|
+|[Add Related Parties Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-add-related-party-activity.md)|Enables agents to add, edit, or delete related party records directly within a playbook. Set up by an admin in Workflow Studio. Returns JSON output for downstream use.|
+|[Save Related Parties Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-save-related-parties-activity.md)|Automation activity that saves related party records captured by the Add Related Parties activity to the database. Accepts JSON input and writes records to the specified target table.|
 

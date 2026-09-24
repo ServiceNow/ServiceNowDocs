@@ -2,7 +2,7 @@
 title: SAP S4 HANA OData spoke
 description: The SAP S4 HANA OData spoke is built by Bristlecone, Inc. Manage items, journals, procurements, and transactions in the SAP S4 HANA OData account from your ServiceNow instance.Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sap-s4-odata-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/sap-s4-odata-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

@@ -2,7 +2,7 @@
 title: Configure a form header for a workspace
 description: Create a form header and add it to a workspace's form configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/config-ws-form-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/config-ws-form-header.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

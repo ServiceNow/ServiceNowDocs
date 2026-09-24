@@ -2,7 +2,7 @@
 title: Create a search source
 description: Create a search source to define what records can be found in your search bar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-create-search-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-create-search-source.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,5 +46,5 @@ In these steps, you create the search source to define what search results your 
     Note that additional search sources can impact the performance of your searches.
 
 
-**Parent Topic:**[Configure search criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-custom-search.md)
+**Parent Topic:**[Configure search criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-create-custom-search.md)
 

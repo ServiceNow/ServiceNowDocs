@@ -2,7 +2,7 @@
 title: Docusign activities
 description: Enable agents and fulfillers to collect electronic signatures during a playbook run, via Workflow Data Fabric's Docusign spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/pad-activities-docusign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/pad-activities-docusign.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -99,7 +99,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 

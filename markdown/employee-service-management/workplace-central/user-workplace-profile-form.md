@@ -2,7 +2,7 @@
 title: User Workplace Profile form
 description: The User Workplace Profile form specifies details about an employee like their name, primary location, and allocation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/user-workplace-profile-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/user-workplace-profile-form.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -62,7 +62,7 @@ Workplace entity
 
 </td><td>
 
-Workplace entity that the user must be allocated to.For more information about workplace entity, see [Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-entity.md).
+Workplace entity that the user must be allocated to.For more information about workplace entity, see [Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-entity.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Enable employee location privacy
 Location privacy setting for the workplace profile. This field is automatically set to **None** and can't be edited.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

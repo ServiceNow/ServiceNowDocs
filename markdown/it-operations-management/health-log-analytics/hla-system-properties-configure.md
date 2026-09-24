@@ -2,7 +2,7 @@
 title: Configure global Health Log Analytics system properties
 description: Configure global Health Log Analytics system properties if you need to alter the default values, which typically should not be necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-system-properties-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-system-properties-configure.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -45,10 +45,10 @@ For a complete description of all the Health Log Analytics system properties, se
     -   To apply the setting only to log sources created from this point forward, select **Update**.
     -   To override values for this property in all existing log sources and apply the modified setting to all new log sources, select **Override source property**.
 
-**Parent Topic:**[Configure Health Log Analytics system properties for a single log source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure-single.md)
+**Parent Topic:**[Configure Health Log Analytics system properties for a single log source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-system-properties-configure-single.md)
 
 **Related topics**  
 
 
-[Configure Health Log Analytics system properties for a single log source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure-single.md)
+[Configure Health Log Analytics system properties for a single log source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-system-properties-configure-single.md)
 

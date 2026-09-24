@@ -2,7 +2,7 @@
 title: Vulnerability relationship mapping
 description: Use many-to-many \(M2M\) relationship records to map connections between vulnerabilities and other entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-vul-relationship-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-vul-relationship-map.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -21,7 +21,7 @@ Use many-to-many \(M2M\) relationship records to map connections between vulnera
 
 Bulk delete operations are available for all M2M relationship records from the related list view.
 
-**Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ioc.md)
+**Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-ioc.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Security Incident Response \(SIR\)
 description: With ServiceNow Otto for Security Incident Response \(SIR\), security analysts can use intelligent workflows and ServiceNow generative AI skills to help them resolve security incidents. Security managers can review the context of security incidents and closure notes quickly in a concise, easy-to-read format, view post-incident analysis data, and see recommended remediation steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -18,7 +18,7 @@ With ServiceNow Otto for Security Incident Response \(SIR\), security analysts c
 
 ## Now Assist &gt; ServiceNow Otto announcement
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 ## Get started
 
@@ -32,15 +32,15 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 <table id="table_jlh_dgk_1cc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/exploring-now-assist-security-incident.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-for-security-incident-response-sir/exploring-now-assist-security-incident.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure and activate the skills for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure and activate the skills for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Learn how to manage security incidents using ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-for-security.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Learn how to manage security incidents using ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-now-assist-for-security.md)
 
 </td></tr></tbody>
 </table>**Important:**

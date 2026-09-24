@@ -2,7 +2,7 @@
 title: List of components compatible with latest version
 description: Learn about the list of components that are executed in their latest versions in the RPA Desktop Design Studio and robots, irrespective of the version they were used during the automation design.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/list-components-upgrade.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/list-components-upgrade.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -77,5 +77,5 @@ The following list of components are executed in their latest versions in the RP
 |RemoteActivity|
 |VariableContainer|
 
-**Parent Topic:**[Automation components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-automation-components.md)
+**Parent Topic:**[Automation components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-automation-components.md)
 

@@ -2,7 +2,7 @@
 title: System notifications for Alumni Center
 description: The Alumni Center uses system notifications to alert alumni with an email providing their user ID and a separate email with a password.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/asc-email-password.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/asc-email-password.html
 release: australia
 product: Alumni Center
 classification: alumni-center

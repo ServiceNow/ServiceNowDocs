@@ -2,7 +2,7 @@
 title: Configuring forms on the ServiceNow AI Platform
 description: Form configuration involves changing the form layout and the related list layout. The form layout changes what appears on the form and the related list layout changes which related lists appear at the bottom of the form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/basic-form-administration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/basic-form-administration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

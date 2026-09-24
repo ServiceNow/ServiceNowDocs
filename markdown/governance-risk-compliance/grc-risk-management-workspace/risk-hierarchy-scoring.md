@@ -2,7 +2,7 @@
 title: Risk hierarchy and scoring
 description: Starting with New York, risk managers can create hierarchies that include different types of risk \(operational risk, IT risk, or strategic risk\). Once the underlying risks are assessed, the risk scores are automatically rolled up across the risk statement hierarchy, providing better tactical and strategic decision-making.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-hierarchy-scoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/risk-hierarchy-scoring.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -42,10 +42,10 @@ The **Tolerance Status** and the **Calculated Score** are based on the Calculate
 
 \[Omitted image "risk-rollup-tolerance-tab.png"\] Alt text: screen shows calculations on the Risk Rollup and Tolerance tab
 
--   **[Association of entities at any level of a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/associate-entity-types-at-any-level-of-risk-stmt.md)**  
+-   **[Association of entities at any level of a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/associate-entity-types-at-any-level-of-risk-stmt.md)**  
 You can associate entities, entity types, and indicator templates, at any level of the risk statement hierarchy. Creating this association is useful for risk managers while assessing risks.
 
-**Parent Topic:**[Manage risks, risk statements, and risk frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_RiskRegister.md)
+**Parent Topic:**[Manage risks, risk statements, and risk frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/r_RiskRegister.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Agentic AI - Assessment dashboard tab
 description: The AI Readiness Evaluation dashboard's Agentic AO AI - Assessment tab helps determine agentic AI readiness for IT Service Management \(ITSM\) and Customer Service Management \(CSM\) by delivering automated, data-driven insights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/agentic-ai-assessment-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-readiness-evaluation/agentic-ai-assessment-dashboard.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
@@ -17,7 +17,7 @@ breadcrumb: [Using AI Readiness Evaluation dashboard, Use, AI Readiness Evaluati
 
 The AI Readiness Evaluation dashboard's **Agentic AO AI - Assessment** tab helps determine agentic AI readiness for IT Service Management \(ITSM\) and Customer Service Management \(CSM\) by delivering automated, data-driven insights.
 
-**Note:** For results to appear in this dashboard, confirm that you have completed the configuration steps first. For more information on configuration, see [Configuring AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md).
+**Note:** For results to appear in this dashboard, confirm that you have completed the configuration steps first. For more information on configuration, see [Configuring AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md).
 
 The following list describes details of the **agentic AI - Assessment** dashboard tab.
 
@@ -50,5 +50,5 @@ You can select each widget on the dashboard to have that table data open in a se
 
 \[Omitted image "nare-agentic-ai-dashboard-assessment.png"\] Alt text: agentic AI - Assessment tab that shows each area of the dashboard, all including data that is automatically populated.
 
-**Note:** This tab displays the Total Estimated Effort \(Days\), Remediation Effort by Category, and Estimated Effort – Trends cards when the **sn\_assess.effort\_visibility** system property is set to `true`. For more information, see [AI Readiness Evaluation system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.md).
+**Note:** This tab displays the Total Estimated Effort \(Days\), Remediation Effort by Category, and Estimated Effort – Trends cards when the **sn\_assess.effort\_visibility** system property is set to `true`. For more information, see [AI Readiness Evaluation system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.md).
 

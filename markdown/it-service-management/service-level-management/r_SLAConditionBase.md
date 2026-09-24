@@ -2,7 +2,7 @@
 title: SLAConditionBase script
 description: The SLAConditionBase script include implements the default SLA transitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/r\_SLAConditionBase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/r\_SLAConditionBase.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -26,5 +26,5 @@ The following diagram shows how the transitions work:
 
 \[Omitted image "SLAConditionBase.png"\] Alt text: Task SLA stage transitions 2011 version
 
-**Parent Topic:**[SLA condition rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLAConditionRules.md)
+**Parent Topic:**[SLA condition rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/c_SLAConditionRules.md)
 

@@ -2,7 +2,7 @@
 title: Re-open a post case review
 description: Re-open an approved post case review document if you need to make changes or update information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/reopen-case-review-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/reopen-case-review-document.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

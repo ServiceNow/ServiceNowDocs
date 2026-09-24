@@ -2,7 +2,7 @@
 title: All ServiceNow roles
 description: Use this filterable table to review a complete list of roles used in ServiceNow instances. The table includes important details for all base system roles as well as any roles added by installed plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/roles-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/roles-summary.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -307,5 +307,5 @@ UI builder administrator \[ui\_builder\_admin\]
 Chat analytics viewer \[chat\_analytics\_viewer\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
+</table>**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/ua-creating-roles.md)
 

@@ -2,14 +2,14 @@
 title: Configure Slack for external content indexing
 description: Create a Slack API application to allow the Slack external content connector to crawl public channels in your Slack source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/cfg-src-sys-settings-slack-ext-cont-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/cfg-src-sys-settings-slack-ext-cont-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-05-29"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Slack external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -121,12 +121,12 @@ Your connector administrator needs the Slack API application's client ID and sec
 
 Provide the following items to your connector administrator:
 
--   The Slack API application client ID and client secret that you recorded in step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-src-sys-settings-slack-ext-cont-connector.md).
+-   The Slack API application client ID and client secret that you recorded in step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-src-sys-settings-slack-ext-cont-connector.md).
 -   The URL where your Slack workspace is accessible. This is usually `https://slack.com`.
 
 Your connector administrator needs these items to configure a Slack external content connector to retrieve attachments from your Slack instance.
 
-For details on creating and configuring a Slack external content connector, see [Create a Slack external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-slack.md).
+For details on creating and configuring a Slack external content connector, see [Create a Slack external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-slack.md).
 
-**Parent Topic:**[Slack external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/slack-external-content-connector.md)
+**Parent Topic:**[Slack external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/slack-external-content-connector.md)
 

@@ -2,7 +2,7 @@
 title: Create a copy of the Service Operations Workspace landing page
 description: Make visual styling changes to the sub pages in the Service Operations Workspace landing page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-copy-sow-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-copy-sow-landing-page.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -37,7 +37,7 @@ Role required: admin or ui\_builder\_admin
     For information about components, see [Work with components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md).
 
 
-**Parent Topic:**[Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-sow-landing-page.md)
+**Parent Topic:**[Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/customize-sow-landing-page.md)
 
 **Related topics**  
 

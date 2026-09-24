@@ -2,7 +2,7 @@
 title: Integration with indicator data sources \(PA\)
 description: Using Process Mining with Platform Analytics indicator data sources enables you to perform data extraction from an indicator and analyze processes associated with KPIs such as Time to resolve.Understand how you can extract data from an indicator that is based on incident, problem, change, customer service case, or request process data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/integrate-pa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/integrate-pa.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -16,9 +16,9 @@ breadcrumb: [Integration, Activate, Process Mining, Platform Analytics]
 
 Using Process Mining with Platform Analytics indicator data sources enables you to perform data extraction from an indicator and analyze processes associated with KPIs such as Time to resolve.
 
-The Process Mining plugin \(com.sn\_po\) provides an integration between Process Mining and [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) data sources. Integration occurs automatically when you enable the Process Mining plugin. Afterwards, you can open the Process Mining workbench from KPI Details for an indicator.
+The Process Mining plugin \(com.sn\_po\) provides an integration between Process Mining and [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) data sources. Integration occurs automatically when you enable the Process Mining plugin. Afterwards, you can open the Process Mining workbench from KPI Details for an indicator.
 
-The Process Mining plugin provides template configurations for [indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) that use the following tables:
+The Process Mining plugin provides template configurations for [indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) that use the following tables:
 
 -   Customer service case \[sn\_customerservice\_case\]
 -   Incident \[incident\]
@@ -26,12 +26,12 @@ The Process Mining plugin provides template configurations for [indicator source
 -   Change \[change\]
 -   Requested Item \[sc\_req\_item\]
 
-To support indicators based on other tables, create templates for those tables. For more information, see [Set up a table configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/po-table-configuration.md).
+To support indicators based on other tables, create templates for those tables. For more information, see [Set up a table configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/po-table-configuration.md).
 
 **Note:**
 
--   Process Mining supports only [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). From KPI Details for a [formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), you can still open Process Mining, but you must choose one of the contributing automated indicators in the formula.
--   Process Mining does not support indicator sources that are based on [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md).
+-   Process Mining supports only [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md). From KPI Details for a [formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md), you can still open Process Mining, but you must choose one of the contributing automated indicators in the formula.
+-   Process Mining does not support indicator sources that are based on [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
 ## Roles
 
@@ -49,14 +49,14 @@ Integrating with indicators adds the **Run process analysis** option to the KPI 
 
 When you initiate data extraction for an indicator, you see the extraction progress. Once it completes, you can view the project from the Process Mining Analyst workbench. If you initiate an extraction at a later time on the same indicator settings, but on a different date, you will see a new PA project created in the **Process Mining** &gt; **Projects** &gt; **PA Projects** list.
 
-**Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrating-process-mining.md)
+**Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integrating-process-mining.md)
 
 **Related topics**  
 
 
-[Example of an indicator using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-pa.md)
+[Example of an indicator using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integrate-pa.md)
 
-[Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
+[Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details-components.md)
 
 ## Example of an indicator using Process Mining
 
@@ -77,5 +77,5 @@ The action automatically creates a process map in the context of the indicator. 
 **Related topics**  
 
 
-[Integration with indicator data sources \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-pa.md)
+[Integration with indicator data sources \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integrate-pa.md)
 

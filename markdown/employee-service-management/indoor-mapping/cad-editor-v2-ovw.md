@@ -2,7 +2,7 @@
 title: Configure CAD objects using the CAD Editor tab
 description: Edit and manage CAD objects using the CAD Editor tab. Draw polylines or polygons, add text or mtext, edit text, place or block attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/cad-editor-v2-ovw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/cad-editor-v2-ovw.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -24,16 +24,16 @@ If your CAD file has numerous layers, use **Filter layers** to search and sort t
 
 \[Omitted image "wsd-autocad-editor-view.png"\] Alt text: Autocad editor preview.
 
--   **[Isolate a layer in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/isolate-layer.md)**  
+-   **[Isolate a layer in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/isolate-layer.md)**  
 CAD editor provides the ability to isolate a layer from multiple layers while editing your CAD file.
--   **[Hide or show a layer in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/show-a-layer.md)**  
+-   **[Hide or show a layer in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/show-a-layer.md)**  
 Hide or display a layer while you’re editing and updating layers in the CAD Editor.
--   **[Drawing and editing tools in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/editing-tools-cad-editor.md)**  
+-   **[Drawing and editing tools in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/editing-tools-cad-editor.md)**  
 The CAD Editor tab provides editing and drawing tools to configure, optimize, and edit your CAD files before importing it to the Map Studio.
 
-**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
+**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
 
-**Previous topic:**[Configure places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/edit-places.md)
+**Previous topic:**[Configure places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/edit-places.md)
 
-**Next topic:**[Isolate a layer in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/isolate-layer.md)
+**Next topic:**[Isolate a layer in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/isolate-layer.md)
 

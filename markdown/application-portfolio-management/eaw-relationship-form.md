@@ -2,7 +2,7 @@
 title: Relationship configuration form
 description: The entity configuration form helps you to configure entities that can be used in the Enterprise Modeling and Visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-relationship-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-relationship-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -89,5 +89,5 @@ Select the base entity configuration for the relationship.
 |-----|-----------|
 |Set conditions|Use the link to set M2M entity conditions using the field, operator, and value filters.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 

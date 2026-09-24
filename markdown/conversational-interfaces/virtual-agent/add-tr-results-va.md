@@ -2,7 +2,7 @@
 title: Add recommended topics and intents to Virtual Agent
 description: After you run and review a Topic Recommendations report, select the pre-built topics and suggested intents to add to Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-tr-results-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/add-tr-results-va.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

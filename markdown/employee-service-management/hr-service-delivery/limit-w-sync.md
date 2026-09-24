@@ -2,7 +2,7 @@
 title: Worker profile synchronization limitations
 description: Limitations to the data that is synchronized from Workday to ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/limit-w-sync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/limit-w-sync.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -22,7 +22,7 @@ Limitations to the data that is synchronized from Workday to ServiceNow.
     -   Under Employee Information: Leave status, Location type, Notice period, Probation end date, Probation period, Social Security number, and Business.
     -   Under Jobs: Location type and Work email.
 
-**Parent Topic:**[Reference - HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hrsd-int-workday-reference.md)
+**Parent Topic:**[Reference - HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hrsd-int-workday-reference.md)
 
 **Related topics**  
 

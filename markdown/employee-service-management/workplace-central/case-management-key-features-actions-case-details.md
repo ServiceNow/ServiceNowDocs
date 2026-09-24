@@ -2,7 +2,7 @@
 title: Case Management - Key features, Actions &amp; Case details
 description: The Workplace Central Case management workspace is an all-in-one workspace using which a case manager can manage hundreds of workplace cases created in the organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/case-management-key-features-actions-case-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/case-management-key-features-actions-case-details.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -56,9 +56,9 @@ The workspace displays the metrics of all the workplace cases under the **Overvi
     -   Copy the URL to the clipboard.
     -   Filter the list based on various conditions and view the filtered conditions in a side panel. You can also get an advanced view of these filters using the **Advanced view** option.
     -   Export the workplace cases into the desired format using the **Export** option.
-    -   Create a workplace case using the **New** option. For more information, refer to [Create a workplace service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-a-case-casemgmtworkspace.md). You can directly raise a request using the Case management workspace. This allows you to submit a workplace service request on behalf of an employee without using the [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-services-portal-wsd.md).
+    -   Create a workplace case using the **New** option. For more information, refer to [Create a workplace service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-a-case-casemgmtworkspace.md). You can directly raise a request using the Case management workspace. This allows you to submit a workplace service request on behalf of an employee without using the [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-services-portal-wsd.md).
     -   Assign the case to a user using the **Assign** option.
-    When you open the list view, the left panel displays a list view of the above metric cards. Additionally, the list view also enables you to view **All cases** and **All resolved cases**. You can also switch to the **My Lists** tab in the panel and create a custom list based on what other metrics you want to view using the **Add new list** option. For more information, refer to [Create your own list to view case metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-your-own-list-to-view-case-metrics.md).
+    When you open the list view, the left panel displays a list view of the above metric cards. Additionally, the list view also enables you to view **All cases** and **All resolved cases**. You can also switch to the **My Lists** tab in the panel and create a custom list based on what other metrics you want to view using the **Add new list** option. For more information, refer to [Create your own list to view case metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-your-own-list-to-view-case-metrics.md).
 
     \[Omitted image "case-mylists.png"\] Alt text: All active cases displayed.
 
@@ -87,7 +87,7 @@ On the list, you can perform the following actions:
 -   Apply filter conditions on the list and also change whenever needed.
 -   Assign a single or multiple cases to another user using the **Assign** option.
 -   Export the cases to the desired format using the **Export** option.
--   Create a workplace service case at any time using the **New** option. You can directly raise a request using the Case management workspace instead of using the [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-services-portal-wsd.md) to submit a workplace service request on behalf of an employee.
+-   Create a workplace service case at any time using the **New** option. You can directly raise a request using the Case management workspace instead of using the [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-services-portal-wsd.md) to submit a workplace service request on behalf of an employee.
 
 ## Case details page
 
@@ -116,13 +116,13 @@ The case details are categorized in the following views:
 
         The **Child cases** displays the child cases created with the workplace case. You can view details of the child cases such as the **Number**, **Short description**, **State**, **Assigned to** user, **Workplace task type**, **Workplace location** and more. You can edit the columns, refresh the list and apply filters on the cases.
 
-        You can also create a child case if necessary using the **New** option. To create a child case, refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+        You can also create a child case if necessary using the **New** option. To create a child case, refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
     -   **Child tasks**
 
         The **Child tasks** displays the child tasks created with the workplace case. You can view details of the child task such as the **Number**, **Short description**, **State**, **Assigned to** user, **Workplace task type**, **Workplace location** and more. You can edit the columns, refresh the list and apply filters on the tasks.
 
-        You can also create a child task if necessary using the **New** option. To create a child task, refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+        You can also create a child task if necessary using the **New** option. To create a child task, refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
     -   **Approvers**
 
@@ -183,7 +183,7 @@ You can perform the following actions on a case at any time:
     **Important:** Only an admin can delete a case. A case admin can delete only a workplace case, a move admin can delete only a move case and a maintenance admin can delete only a maintenance case.
 
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

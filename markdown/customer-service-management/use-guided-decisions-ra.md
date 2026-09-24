@@ -2,7 +2,7 @@
 title: Use Guided Decisions in recommended actions to resolve cases
 description: As an agent, work your way through a recommended action of type decision tree to help troubleshoot a case and get recommendations on the next possible steps in solving the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-guided-decisions-ra.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-guided-decisions-ra.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

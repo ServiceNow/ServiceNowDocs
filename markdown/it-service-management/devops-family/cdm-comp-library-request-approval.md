@@ -2,7 +2,7 @@
 title: Accept or reject a component request
 description: Review a request for adding a component to a component library and approve or reject it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-comp-library-request-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-comp-library-request-approval.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -40,15 +40,15 @@ Role required: cdm\_admin or cdm\_editor
 
 5.  As required, click accept or reject the request.
 
-<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d410631e131">
+<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d410572e131">
 
 Approval action
 
-</th><th align="left" id="d410631e134">
+</th><th align="left" id="d410572e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d410631e140">
+</th></tr></thead><tbody><tr><td id="d410572e140">
 
 **Accept a request**
 
@@ -69,7 +69,7 @@ Description
 5.  Click **Accept**.
 
 
-</td></tr><tr><td id="d410631e210">
+</td></tr><tr><td id="d410572e210">
 
 **Reject a request**
 

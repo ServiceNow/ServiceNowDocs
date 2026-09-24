@@ -2,7 +2,7 @@
 title: Creating orders from Service Portal catalog items
 description: When consumers use the Service Portal on their instance, they can place orders for catalog items that have bundled product specifications. They can also cancel an order, and review and manage product and service inventory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/using-sb-consumers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-sb-consumers.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create incidents and change requests from a requested item
 description: You can quickly open an incident or a change request from a requested item. It also maintains a relationship between the requested item, and its associated incidents or change requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/create-incdnt-chngrqust-rqustditem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/self-service/create-incdnt-chngrqust-rqustditem.html
 release: australia
 product: Self-service
 classification: self-service
@@ -31,12 +31,12 @@ Role required: itil
 3.  Click the Additional actions menu icon \[Omitted image "AdditionalActions.png"\] Alt text: Additional actions menu icon and select **Create Change** or **Create Incident**
 
 
-**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
+**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 
 **Related topics**  
 
 
-[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
+[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_RecordProducer.md)
 
-[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
+[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 

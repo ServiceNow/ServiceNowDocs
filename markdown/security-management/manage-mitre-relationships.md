@@ -2,7 +2,7 @@
 title: Manage MITRE relationships
 description: Manage the MITRE relationships information that you imported from the MITRE TAXII collections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/manage-mitre-relationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/manage-mitre-relationships.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,9 +35,9 @@ Role required:
 
 ## What to do next
 
-Use the [techniques module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-techniques.md) to add or modify the MITRE relationships data.
+Use the [techniques module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-techniques.md) to add or modify the MITRE relationships data.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

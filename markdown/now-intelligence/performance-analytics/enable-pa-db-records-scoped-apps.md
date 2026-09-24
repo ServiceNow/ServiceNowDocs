@@ -2,7 +2,7 @@
 title: Enable pa\_dashboard records in scoped applications
 description: When application administration is enabled for a scoped application, access control list \(ACL\) rules for the scoped application are applied. To allow your scope to use the ACLs defined on the \[pa\_dashboards\] table but out of your scoped app, inherit the \[pa\_dashboards\] ACLs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/enable-pa-db-records-scoped-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/enable-pa-db-records-scoped-apps.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

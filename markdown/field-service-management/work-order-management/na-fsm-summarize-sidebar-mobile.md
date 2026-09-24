@@ -2,7 +2,7 @@
 title: Summarize a Sidebar discussion on the ServiceNow Agent application
 description: On the ServiceNow Agent application, generate a summary of the Sidebar discussions between agents, dispatchers, and subject matter experts by using the Sidebar summarization skill in the ServiceNow Otto for Field Service Management \(FSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/na-fsm-summarize-sidebar-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/na-fsm-summarize-sidebar-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -20,7 +20,7 @@ On the ServiceNow Agent application, generate a summary of the Sidebar discussio
 
 Role required: wm\_agent
 
-verify the Sidebar for Field Service Management plugin \(com.sn\_fsm\_sidebar\) is activated. For more information, see [Activate Sidebar for the Field Service Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-sidebar-mobile.md).
+verify the Sidebar for Field Service Management plugin \(com.sn\_fsm\_sidebar\) is activated. For more information, see [Activate Sidebar for the Field Service Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-sidebar-mobile.md).
 
 ## About this task
 

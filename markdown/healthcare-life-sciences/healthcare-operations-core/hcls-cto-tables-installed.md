@@ -2,7 +2,7 @@
 title: Tables installed with Healthcare Operations Core
 description: The Healthcare Operations Core Case enables streamlined support for operational healthcare use cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-tables-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/hcls-cto-tables-installed.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

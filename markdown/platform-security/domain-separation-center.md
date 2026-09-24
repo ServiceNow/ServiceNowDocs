@@ -2,7 +2,7 @@
 title: Domain Separation Center
 description: Audit your domains regularly to reveal problems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/domain-separation-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/domain-separation-center.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

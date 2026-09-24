@@ -2,7 +2,7 @@
 title: Workflow timelines
 description: The system provides a timeline view of history activities associated with a workflow context.By default, the timeline displays all activities and transitions requested when first opened.You can display a partial workflow timeline.In a workflow timeline, subflow spans appear as a different color than the activities of the main workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_WorkflowTimelines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/c\_WorkflowTimelines.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -20,7 +20,7 @@ Timelines display a linear calendar of activities, such as tasks and approvals, 
 
 **Note:** Workflow timelines reflect context history only and are not real-time gauges of workflow activity.
 
-**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
+**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
 
 ## Use a timeline
 

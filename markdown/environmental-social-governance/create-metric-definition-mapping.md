@@ -2,7 +2,7 @@
 title: Create a metric definition mapping
 description: Create a metric definition mapping to map the imported data from Urjanet with the correct metric definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-metric-definition-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-metric-definition-mapping.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ Review state. This field is used to provide information to sn\_esg.admin that th
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

@@ -2,7 +2,7 @@
 title: Workflow Data Fabric integration with Knowledge Graph
 description: Knowledge Graph supports Workflow Data Fabric to fetch third party information securely without copying the data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/workflow-data-fabric-in-knowledge-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/workflow-data-fabric-in-knowledge-graph.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

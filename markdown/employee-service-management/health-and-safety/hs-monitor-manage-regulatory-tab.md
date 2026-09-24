@@ -2,7 +2,7 @@
 title: Monitor and manage the Regulatory list for a chemical substance
 description: Use the Regulatory tab on a chemical substance record to quickly assess regulatory conformance status, review regulations, and track upcoming and overdue regulatory obligations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-monitor-manage-regulatory-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-monitor-manage-regulatory-tab.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -42,7 +42,7 @@ The regulatory tab shows the conformance status through the regulatory list time
 
 5.  To retrieve the latest regulatory data from the 3E server, select **Sync Regulatory list**.
 
-    For more information, see [Sync regulatory list regulations for a chemical substance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-sync-regulatory-list-chemical-substance.md).
+    For more information, see [Sync regulatory list regulations for a chemical substance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-sync-regulatory-list-chemical-substance.md).
 
 6.  Review the regulatory status and metrics using the following cards:
 
@@ -118,5 +118,5 @@ Regulations list is re-queried to display the latest data.
     When the regulatory list is retrieved from 3E, the **Compliance** field is set to **Non-compliant** by default.
 
 
-**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-using-chemical-management.md)
+**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-using-chemical-management.md)
 

@@ -2,7 +2,7 @@
 title: Add favorites in Next Experience
 description: Find and go to your most used pages quickly by adding them to the Favorites menu in the Next Experience Unified Navigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-favorites-next-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/add-favorites-next-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -76,7 +76,7 @@ From any page, select the star icon in the contextual app pill.
 
     2.  In the **Location** field, if you have created groups for the Favorites menu, select a group for the favorite to be listed in.
 
-        For information about creating groups to organize the Favorites list, see [Organize favorites in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/organize-favorites-next-experience.md).
+        For information about creating groups to organize the Favorites list, see [Organize favorites in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/organize-favorites-next-experience.md).
 
     3.  Either save your changes, make further modifications, or remove the favorite.
 

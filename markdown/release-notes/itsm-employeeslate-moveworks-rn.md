@@ -2,10 +2,10 @@
 title: ITSM Employee Slate for Moveworks release notes
 description: The ServiceNow ITSM Employee Slate for Moveworks application surfaces active outages, scheduled maintenance, and trending incidents directly on the employee home page. ITSM Employee Slate for Moveworks is a new application in the Australia release.The ServiceNow ITSM Employee Slate for Moveworks application surfaces active outages, scheduled maintenance, and trending incidents directly on the employee home page. ITSM Employee Slate for Moveworks is a new application in the Australia release.The ServiceNow ITSM Employee Slate for Moveworks application surfaces active outages, scheduled maintenance, and trending incidents directly on the employee home page. ITSM Employee Slate for Moveworks is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/itsm-employeeslate-moveworks-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/itsm-employeeslate-moveworks-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -34,7 +34,7 @@ See [ITSM Employee Slate for Moveworks](https://raw.githubusercontent.com/Servic
     Enable ITSM Employee Slate for Moveworks by setting up Moveworks for Employee Slate and enabling the ITSM Employee Slate for Moveworks plugin. For more information, see .
 
 
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-service-management-rn-landing.md)
 
 ## September 2026
 

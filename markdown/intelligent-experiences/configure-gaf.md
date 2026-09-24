@@ -2,7 +2,7 @@
 title: Configure Group Action Framework
 description: Set up Group Action Framework \(GAF\) to improve the response quality, recall speed, and consistency of AI agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-gaf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-gaf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,13 +22,13 @@ Verify that your configured LLM provider \(such as OpenAI or Anthropic\) has val
 
 Verify that the prerequisite scheduled job for your workflow exists and is properly configured. For example, if you're configuring GAF for HR Service Delivery, navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs** and search for "HR service GAF grouping job". Verify that the **Active** field is set to true and that the **Class** field is populated. If either field is empty, the job will not execute.
 
-To access GAF's optimized prediction feature, you can enable AI Search. For more information, see [Setup AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/setup-ai-search-gaf.md).
+To access GAF's optimized prediction feature, you can enable AI Search. For more information, see [Setup AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/setup-ai-search-gaf.md).
 
 Role required: sn\_aia.admin
 
 ## About this task
 
-You can activate GAF to have AI agents use indexed clusters that perform LLM executions on representative records rather than all records. GAF is used by some AI agents and agentic workflows to work optimally. For more information about GAF and how it works, see [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md).
+You can activate GAF to have AI agents use indexed clusters that perform LLM executions on representative records rather than all records. GAF is used by some AI agents and agentic workflows to work optimally. For more information about GAF and how it works, see [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/group-action-framework.md).
 
 You can have different GAF configurations for different agentic workflows and applications. You must configure each agentic workflow or application separately.
 

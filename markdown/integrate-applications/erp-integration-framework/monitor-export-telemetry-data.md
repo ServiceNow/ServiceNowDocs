@@ -2,7 +2,7 @@
 title: Export Zero Copy Connector for ERP transaction data
 description: Export Zero Copy Connector for ERP \(Enterprise Resource Planning\) transaction information such as failures and usage. Filter the data as needed and then export to Excel, CSV, JSON, or PDF format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/monitor-export-telemetry-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/monitor-export-telemetry-data.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

@@ -2,7 +2,7 @@
 title: Select synonym dictionaries for a table
 description: Search administrators can specify one or more synonym dictionaries available to a particular table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/select-synonym-dictionaries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/select-synonym-dictionaries.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -41,7 +41,7 @@ Role required: ts\_admin or admin
 
 Text searches on this table use the selected synonym dictionaries.
 
-**Parent Topic:**[Zing can expand search results with synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-synonyms-expand-results.md)
+**Parent Topic:**[Zing can expand search results with synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/search-synonyms-expand-results.md)
 
 **Related topics**  
 

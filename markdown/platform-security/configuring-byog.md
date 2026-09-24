@@ -2,7 +2,7 @@
 title: Configuring a Guardrail Service Provider
 description: AI Guardian supports default guardrails and third-party or custom guardrail service providers to extend AI content monitoring with your organization's AI governance policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/configuring-byog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configuring-byog.html
 release: australia
 topic_type: concept
 last_updated: "2026-02-13"
@@ -45,21 +45,21 @@ Setting up a custom guardrail involves three steps:
 
 1.  Create a connection and credential alias for the custom guardian and complete its setup. The alias supports Basic Auth, OAuth 2.0, and API Key credential types.
 
-    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
+    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/connection-alias.md).
 
 2.  Create a custom guardian in the Generative AI Custom Guardian Transformer \[sys\_generative\_ai\_custom\_guardian\_transformer\_list.do\] table.
 
-    For more information, see [Create a custom guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-custom-guardian.md).
+    For more information, see [Create a custom guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/create-custom-guardian.md).
 
 3.  Select your preferred guardrail service providers to monitor content.
 
-    For more information, see [Setup a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-guardrail-model.md).
+    For more information, see [Setup a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-guardrail-model.md).
 
 
--   **[Create a custom guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-custom-guardian.md)**  
+-   **[Create a custom guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/create-custom-guardian.md)**  
 Create your own custom guardian to monitor and detect requests sent to LLM.
--   **[Setup a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-guardrail-model.md)**  
+-   **[Setup a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-guardrail-model.md)**  
 Select a guardrail service provider of your choice in AI Guardian to monitor and detect Now Assist interactions for harmful, offensive, and prompt injection content.
 
-**Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
+**Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-guardian.md)
 

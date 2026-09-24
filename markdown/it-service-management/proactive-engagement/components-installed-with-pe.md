@@ -2,7 +2,7 @@
 title: Components installed with Proactive Engagement
 description: Several types of components are installed with activation of the Proactive Engagement application \(com.snc.self\_remediation\_framework\), including user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/components-installed-with-pe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/proactive-engagement/components-installed-with-pe.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -207,5 +207,5 @@ sn\_pren\_experience\_issue\_m2m\_alert
 Record used to create a log of the alert that caused experience issue. This is a mapping table between alert and experience issues, with details on count of throttled users and throttling reason.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/proactive-engagement-reference.md)
+</table>**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/proactive-engagement-reference.md)
 

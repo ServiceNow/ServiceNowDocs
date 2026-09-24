@@ -2,7 +2,7 @@
 title: Delete a Board or Doc template in CWM
 description: Delete any custom templates that are no longer necessary for your workflows using the Template Center in Collaborative Work Management \(CWM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/delete-a-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/delete-a-template.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -47,5 +47,5 @@ You must be the owner of the template to delete it.
 
 The template is deleted and is no longer available for you or your team to use.
 
-**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
+**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 

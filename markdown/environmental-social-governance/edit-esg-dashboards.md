@@ -2,7 +2,7 @@
 title: Edit Operational Sustainability Management dashboards
 description: You can edit dashboard and dashboard tab information in the in-line editor. If the dashboard has been shared, any changes you make are applied globally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/edit-esg-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/edit-esg-dashboards.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,7 +61,7 @@ To edit the details of a dashboard created in the in-line editor:
 **Note:** If you don’t see this option, you don’t have permission to edit the dashboard.
 
 3.  Edit the details of the dashboard and then select **Exit editing mode**.
- For more information, see [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/edit-esg-dashboard-details.md).
+ For more information, see [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/edit-esg-dashboard-details.md).
 
 </td></tr><tr><td id="d22700e192">
 
@@ -168,5 +168,5 @@ Choose whether and which analytics to show in the **Insights** section.When you 
 </table>    **Note:** If you aren’t able to edit, either you don’t have permission to edit the dashboard, or it is in edit lock.
 
 
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

@@ -2,7 +2,7 @@
 title: Edit a notification
 description: Edit notifications for Core Business Suite business units through the Now Assist conversational experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/edit-existing-notification-using-na.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/edit-existing-notification-using-na.html
 release: australia
 topic_type: task
 last_updated: "2026-03-27"
@@ -18,8 +18,8 @@ Edit notifications for Core Business Suite business units through the Now Assist
 
 Ensure that the following are activated:
 
--   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)\)
--   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
+-   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/activate-ai-search.md)\)
+-   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/enable-now-assist-panel.md)\)
 
 Role required: admin, sn\_cbs.admin
 
@@ -63,5 +63,5 @@ Role required: admin, sn\_cbs.admin
     Now Assist saves the changes and displays a success message.
 
 
-**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
+**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/now-assist-cbs.md)
 

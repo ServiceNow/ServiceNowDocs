@@ -2,7 +2,7 @@
 title: Legacy: Incident SLA Management Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-sla-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/incident-sla-content-pack.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -18,7 +18,7 @@ Platform Analytics Solutions contain preconfigured dashboards. These dashboards 
 
 **Important:**
 
-Starting in Xanadu release, the Incident SLA Management Platform Analytics Solutions dashboards are deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the actionable data visualizations that help in improving the business processes and practices.
+Starting in Xanadu release, the Incident SLA Management Platform Analytics Solutions dashboards are deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident.md) to view the actionable data visualizations that help in improving the business processes and practices.
 
 Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
@@ -30,16 +30,16 @@ The dashboards in this content pack are inactive when installed. Complete config
 
 Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it.
 
--   **[Legacy: Incident SLA Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-sla-mgmt-dashboard.md)**  
+-   **[Legacy: Incident SLA Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-sla-mgmt-dashboard.md)**  
 See how well the incidents that are subject to a Service Level Agreement meet the deadlines of those SLAs.
--   **[Legacy: Overdue by State dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/overdue-state-dashboard.md)**  
+-   **[Legacy: Overdue by State dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/overdue-state-dashboard.md)**  
 This dashboard lets you see incidents that are overdue according to an SLA, divided by the New, In Progress, and On Hold states.
--   **[Legacy: Overdue by Age dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/overdue-age-dashboard.md)**  
+-   **[Legacy: Overdue by Age dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/overdue-age-dashboard.md)**  
 This dashboard lets you see incidents that are overdue according to an SLA, divided by age buckets. You can see the average age of the incidents, the average number of times they have been reassigned, and how long on average since the last update. You can also group them by standard breakdowns like Priority and Assignment Group.
--   **[Legacy: Overdue Reports dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/overdue-reports-dashboard.md)**  
+-   **[Legacy: Overdue Reports dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/overdue-reports-dashboard.md)**  
 See the currently open incidents that are subject to an SLA. You can view a list of the incidents or see how they break down in a heatmap or a pivot table.
 
-**Parent Topic:**[Reporting incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-monitor-track.md)
+**Parent Topic:**[Reporting incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-monitor-track.md)
 
 **Related topics**  
 

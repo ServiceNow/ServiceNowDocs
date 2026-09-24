@@ -2,7 +2,7 @@
 title: Local data instances for multiple data visualizations
 description: A special Data Visualization API data resource is available to fetch data for multiple data visualizations simultaneously. This data resource reduces the number of API calls and thus can speed up data fetching.If your use case meets the criteria for a multiple visualization data resource, you can follow this procedure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/local-data-instance-multi-viz.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/local-data-instance-multi-viz.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ If your use case meets the criteria for a multiple visualization data resource, 
 
 ### Before you begin
 
-Review the use case for a single data resource for multiple visualizations in [Local data instances for multiple data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/local-data-instance-multi-viz.md).
+Review the use case for a single data resource for multiple visualizations in [Local data instances for multiple data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/local-data-instance-multi-viz.md).
 
 Role required: ui\_builder\_admin, admin
 

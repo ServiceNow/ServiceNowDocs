@@ -2,7 +2,7 @@
 title: Move an automation request to the Planned state
 description: After creating an automation request, move it to the Planned state before you work on it or create associated automation tasks or resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/move-automation-request-to-planned.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/move-automation-request-to-planned.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -18,7 +18,7 @@ After creating an automation request, move it to the **Planned** state before yo
 
 ## Before you begin
 
-Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-request.md).
+Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-automation-request.md).
 
 Verify that the state of the automation request is **New**.
 
@@ -41,5 +41,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 After you move an automation request to the Planned state, it's ready for you to work on.
 
-**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-through-states.md)
+**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/move-through-states.md)
 

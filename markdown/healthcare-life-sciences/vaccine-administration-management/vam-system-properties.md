@@ -2,7 +2,7 @@
 title: Vaccine Administration Management system properties
 description: Vaccine Administration Management booking uses the following system properties. Users with the admin role can access the property settings by navigating to All Vaccine Administration Management Administration Properties .
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/vam-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/vaccine-administration-management/vam-system-properties.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -98,7 +98,7 @@ Enable booking for all doses of the vaccine, for both mass booking and self-serv
 
  The default value is **true**.
 
- For more information about booking subsequent doses, see [Book appointments for subsequent doses after a previous dose is complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/schedule-second-appointment-after-completion-of-first.md).
+ For more information about booking subsequent doses, see [Book appointments for subsequent doses after a previous dose is complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/vaccine-administration-management/schedule-second-appointment-after-completion-of-first.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Enable Vaccine Administration Management location-specific appointment schedulin
 
  The default value is **true**.
 
- For more information about enabling location-specific appointment configuration, see [Configure advanced appointment scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/configure-location-level-weekly-schedule-config.md).
+ For more information about enabling location-specific appointment configuration, see [Configure advanced appointment scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/vaccine-administration-management/configure-location-level-weekly-schedule-config.md).
 
 </td></tr><tr><td>
 
@@ -180,7 +180,7 @@ Configure the number of parallel queues used to process mass booking.
 
  The default value is **4**.
 
- For more information about enabling mass booking parallel processing, see [Manage high number of concurrent bookings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/managing-high-number-of-concurrent-booking.md).
+ For more information about enabling mass booking parallel processing, see [Manage high number of concurrent bookings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/vaccine-administration-management/managing-high-number-of-concurrent-booking.md).
 
 </td></tr><tr><td>
 
@@ -202,7 +202,7 @@ Enable scheduling based on available inventory for a program location center.
 
  The default value is **false**.
 
- For more information about enabling inventory management, see [Configure inventory-based scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/configure-scheduling-by-inventory.md).
+ For more information about enabling inventory management, see [Configure inventory-based scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/vaccine-administration-management/configure-scheduling-by-inventory.md).
 
 </td></tr><tr><td>
 

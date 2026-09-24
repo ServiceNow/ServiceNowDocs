@@ -2,7 +2,7 @@
 title: Platform Identify escalation signals agentic workflow
 description: Use the Platform Identify escalation signals agentic workflow to identify tickets that require attention before they are escalated, such as tickets near the end of their SLA or ones without recent updates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/identify-escalation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/identify-escalation.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-21"
@@ -27,21 +27,21 @@ The Identify escalation signals agentic workflow identifies high-risk tasks that
 -   SLA proximity
 -   Similar record history
 
-The agents, tools, and triggers for the Identify escalation signals agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. To change this agentic workflow's instructions, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings, and activate the duplicated version.
+The agents, tools, and triggers for the Identify escalation signals agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. To change this agentic workflow's instructions, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/clone-aia-usecase.md), adjust the settings, and activate the duplicated version.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
 To access this workflow, you must have ServiceNow Otto for Platform installed on your instance. You can get this by installing any other AI application.
 
-For this agentic workflow to behave as expected, configure Group Action Framework \(GAF\). See [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/setup-ai-search-gaf.md) and [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-gaf.md) for more information on getting started with GAF.
+For this agentic workflow to behave as expected, configure Group Action Framework \(GAF\). See [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/setup-ai-search-gaf.md) and [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-gaf.md) for more information on getting started with GAF.
 
 ## Role masking
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_proactive\_escalation.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, add the necessary roles to enable reading of the tables for the records you want to access for identification. For example, add the itil role to the agentic workflow's list of approved roles so it can access Incident records.
 
@@ -55,7 +55,7 @@ Change different settings related to the agentic workflow by changing values for
 -   Set the variables for the configuration type.
 -   Save the Var Set.
 
-The Identify escalation signals configuration variable set includes the following variables. Configure either the AIS fields or the GAF field to determine how the agentic workflow gathers the user's work. If you configure both, GAF takes priority when running the agentic workflow. For more information about GAF, see [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md).
+The Identify escalation signals configuration variable set includes the following variables. Configure either the AIS fields or the GAF field to determine how the agentic workflow gathers the user's work. If you configure both, GAF takes priority when running the agentic workflow. For more information about GAF, see [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/group-action-framework.md).
 
 <table><thead><tr><th>
 
@@ -129,9 +129,9 @@ The first step of the guided setup includes a complete list of included AI agent
 
 ## Testing the Identify escalation signals agentic workflow
 
-You can manually test an agentic workflow execution on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the name of the workflow, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
+You can manually test an agentic workflow execution on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the name of the workflow, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aia-use-case.md).
 
-If you want to evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md).
+If you want to evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/execute-aia-eval.md).
 
 ## Sample utterance
 
@@ -149,5 +149,5 @@ The following table lists the agents that are used in the Identify escalation si
 
 ## Other Platform agentic workflows
 
-For more information on other agentic workflows associated with the Platform workflow, see [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-use-cases.md).
+For more information on other agentic workflows associated with the Platform workflow, see [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-use-cases.md).
 

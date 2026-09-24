@@ -2,7 +2,7 @@
 title: Create a mapped entity
 description: Create an entity mapped to a vocabulary source, or to a list of values you manually create for the entity. Mapped entities can help provide multiple values the model can use as context when interpreting utterances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-mapped-entity-lookup-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/create-mapped-entity-lookup-source.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -133,7 +133,7 @@ You can create a mapped entity using a vocabulary source to use the values in th
 **Related topics**  
 
 
-[Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-table-lookup-source.md)
+[Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/create-table-lookup-source.md)
 
-[Create a list vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-static-list-source.md)
+[Create a list vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/create-static-list-source.md)
 

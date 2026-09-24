@@ -2,7 +2,7 @@
 title: Delete Digital Experience Score​ demo data
 description: Delete the demo data for Digital Experience Score​ when you no longer need it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-delete-demo-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-experience-score/dexscr-delete-demo-data.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
@@ -18,7 +18,7 @@ Delete the demo data for Digital Experience Score​ when you no longer need it.
 
 ## Before you begin
 
-[Install Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/install-dex-score.md)
+[Install Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/install-dex-score.md)
 
 Role required: admin
 
@@ -86,7 +86,7 @@ After both scheduled jobs run successfully and the script to delete records in g
 
 If an error occurs during execution of the scheduled jobs, run the jobs again.
 
-**Parent Topic:**[Install Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/install-dex-score.md)
+**Parent Topic:**[Install Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/install-dex-score.md)
 
 **Related topics**  
 

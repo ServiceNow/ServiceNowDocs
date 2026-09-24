@@ -2,7 +2,7 @@
 title: Create a Planning Interval or Sprint from EAP Backlog
 description: Create iterations of Planning Intervals \(PI\) and Sprints so that teams can start prioritizing and scheduling their work from the Backlog in Enterprise Agile Planning \(EAP\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -18,7 +18,7 @@ Create iterations of Planning Intervals \(PI\) and Sprints so that teams can sta
 
 ## Before you begin
 
-Whether you can create an iteration depends on your role and on whether a timeline already exists for the team. Only an EAP scrum master can create the first iteration for a set of teams that share a planning calendar. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
+Whether you can create an iteration depends on your role and on whether a timeline already exists for the team. Only an EAP scrum master can create the first iteration for a set of teams that share a planning calendar. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
 
 Role required: sn\_apw\_advanced.eap\_user or sn\_apw\_advanced.eap\_scrum\_master
 
@@ -28,7 +28,7 @@ From the Backlog, create the next iteration for Agile Release Trains \(ARTs\) an
 
 This task is explained using the default Full Configuration as an example, where ARTs are mapped to Planning Intervals and Agile Teams are mapped to Sprints.
 
-From EAP version 4.17.0, enter the start and end dates directly on the modal. The underlying planning calendar entries are created automatically, so nobody has to define them first. If a calendar entry already matches the team, the date fields are read-only and the system uses the dates from that entry. For details, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
+From EAP version 4.17.0, enter the start and end dates directly on the modal. The underlying planning calendar entries are created automatically, so nobody has to define them first. If a calendar entry already matches the team, the date fields are read-only and the system uses the dates from that entry. For details, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
 
 ## Procedure
 
@@ -75,7 +75,7 @@ From EAP version 4.17.0, enter the start and end dates directly on the modal. Th
 
 ## What to do next
 
-See [Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md) and [Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md).
+See [Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md) and [Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md).
 
-**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md)
 

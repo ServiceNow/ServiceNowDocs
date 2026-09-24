@@ -2,7 +2,7 @@
 title: Request Change Management - Standard Change Template Intelligence
 description: To activate Change Management capability that uses Predictive Intelligence to identify change clusters and propose standard change templates, request the Change Management - Standard Change Template Intelligence plugin \(com.snc.change\_management.ml.sctp\) through the Now Support Customer Service system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/request-cm-std-chg-template-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/request-cm-std-chg-template-intelligence.html
 release: australia
 product: Change Management
 classification: change-management
@@ -41,7 +41,7 @@ Change Management - Predictive Intelligence Core\[com.snc.change\_management.ml\
 Enables you to use Predictive Intelligence in Change Management.
 
 </td></tr></tbody>
-</table>After you activate the plugin, the solution analyzes historical change requests to identify clusters of similar changes and proposes standard change templates for those clusters. Review the proposals and adopt the templates that fit your process. To train the proposal solution and to review and accept proposed templates, see [Train the clustering solution for standard change proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/train-std-chg-proposal-soln.md) and [Propose a standard change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/propose-standard-chg-template.md).
+</table>After you activate the plugin, the solution analyzes historical change requests to identify clusters of similar changes and proposes standard change templates for those clusters. Review the proposals and adopt the templates that fit your process. To train the proposal solution and to review and accept proposed templates, see [Train the clustering solution for standard change proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/train-std-chg-proposal-soln.md) and [Propose a standard change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/propose-standard-chg-template.md).
 
 ## Procedure
 
@@ -93,10 +93,10 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with Change Management - Standard Change Template Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-std-chg-temp-ml.md)**  
+-   **[Components installed with Change Management - Standard Change Template Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-std-chg-temp-ml.md)**  
 Several types of components are installed with activation of the Change Management - Standard Change Template Intelligence plugin that includes tables.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

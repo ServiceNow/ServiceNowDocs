@@ -2,7 +2,7 @@
 title: Manage the Archive Dispute Service Cases rule
 description: Manage the archive rule that is provisioned in the Card Disputes Service Case table of the Financial Services Card Operations application. With this rule, your organization can meet your dispute service case archiving requirements. By default, inactive cases that are more than two years old are automatically archived.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/dispute-service-case-archival.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/dispute-service-case-archival.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -35,5 +35,5 @@ Role required: admin
 3.  Update the rule and its parameters, if necessary.
 
 
-**Parent Topic:**[Dispute management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management-reference.md)
+**Parent Topic:**[Dispute management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-management-reference.md)
 

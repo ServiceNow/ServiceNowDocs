@@ -2,7 +2,7 @@
 title: Tracking changes to reference fields
 description: Administrators can track changes to reference field display values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_TrackingChangesToReferenceFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/c\_TrackingChangesToReferenceFields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

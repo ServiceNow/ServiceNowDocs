@@ -2,7 +2,7 @@
 title: Load data from Watershed into Operational Sustainability Management
 description: Load data from the Watershed spreadsheets into the staging table. After you load the data and complete the setup, you can start using the Operational Sustainability Integration with Watershed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/load-data-from-watershed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/load-data-from-watershed.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ The spreadsheet is loaded in the staging table. All the columns from the spreads
 
 ## What to do next
 
-[View the import set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/view-and-verify-the-import-sets.md).
+[View the import set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/view-and-verify-the-import-sets.md).
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-watershed.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg-with-watershed.md)
 

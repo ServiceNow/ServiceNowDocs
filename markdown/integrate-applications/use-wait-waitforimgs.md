@@ -2,7 +2,7 @@
 title: Use the Wait For Images component
 description: Change the automation execution flow that is based on the image information on the screen by using the Wait For Images component in RPA Desktop Design Studio. You can also identify the state of a business application or an item that is based on an error or status icon.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-wait-waitforimgs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-wait-waitforimgs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Wait For Images component. For more information about these properties, see [Properties of the Wait components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/wait-properties.md).
+You can configure the properties for the Wait For Images component. For more information about these properties, see [Properties of the Wait components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/wait-properties.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ You can configure the properties for the Wait For Images component. For more inf
 7.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Wait](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/wait.md)
+**Parent Topic:**[Wait](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/wait.md)
 

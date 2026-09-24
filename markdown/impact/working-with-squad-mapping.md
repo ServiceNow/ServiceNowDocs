@@ -2,7 +2,7 @@
 title: Working with your Squad tables
 description: Following is the information that is synced: who’s on your Impact Squad, your Squad’s contact information, the status of your Impact Foundations activities, and records of your consent \(for example, for Accelerators that require you to accept additional terms and conditions\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/working-with-squad-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/working-with-squad-mapping.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -78,5 +78,5 @@ Following is the information that is synced: who’s on your Impact Squad, your 
 |start\_date|sn\_impact\_cust\_impact\_objective|start\_date|x\_snc\_octane\_bvmp\_business\_objective\_data|
 |name|sn\_impact\_cust\_impact\_objective|title|x\_snc\_octane\_bvmp\_business\_objective\_data|
 
-**Parent Topic:**[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/table-field-level-mapping.md)
+**Parent Topic:**[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/table-field-level-mapping.md)
 

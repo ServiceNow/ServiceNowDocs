@@ -2,7 +2,7 @@
 title: Create an AI connection for Azure Foundry \(v 3.1.7\)
 description: Create an AI connection for Azure AI Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 3.1.7\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-azure-foundry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-azure-foundry.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

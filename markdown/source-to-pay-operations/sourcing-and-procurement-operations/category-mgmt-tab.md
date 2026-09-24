@@ -2,7 +2,7 @@
 title: Category management tab
 description: The Category management tab provides an overview of spend, savings, and pipeline projects, highlights savings opportunities, and enables creating pipeline projects directly from filtered lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/category-mgmt-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/category-mgmt-tab.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -264,5 +264,5 @@ List of active suppliers.When you create a pipeline project from the Suppliers l
 **Note:** A supplier record can be associated with only one active pipeline project record at a time.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-spend-mgmt.md)
+</table>**Parent Topic:**[Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-spend-mgmt.md)
 

@@ -2,7 +2,7 @@
 title: Cancel events using the planning calendar
 description: Cancel a schedule occurrence and the work order events of its associated work plans through the planning calendar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/cancel-so-planning-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/cancel-so-planning-calendar.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,7 +2,7 @@
 title: AI Authoring for Catalog Builder
 description: Use AI Authoring for Catalog Builder to create catalog items of your choice by giving text inputs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/now-assist-for-catalog-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/now-assist-for-catalog-generation.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -21,19 +21,19 @@ Use AI Authoring for Catalog Builder to create catalog items of your choice by g
 
 <table id="table_dch_f2f_cbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about catalog generation with AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about catalog generation with AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure catalog item generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure catalog item generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)
 
 </td></tr><tr><td>
 
-[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Learn how to create a catalog item using AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Learn how to create a catalog item using AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about form fields, roles, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about form fields, roles, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
@@ -57,16 +57,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)**  
+-   **[Exploring AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)**  
 Learn how the AI Authoring for Catalog Builder application helps you to create catalog items by simply describing them. AI generates catalog items with more detailed descriptions and question labels.
--   **[Install AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/install-now-assist-catalog-generation.md)**  
+-   **[Install AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/install-now-assist-catalog-generation.md)**  
 Install the ServiceNow Otto for Creator application from the ServiceNow® Store to get AI Authoring for Catalog Builder.
--   **[Configuring AI in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)**  
+-   **[Configuring AI in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)**  
 Install and configure AI in Catalog Builder.
--   **[Using AI conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)**  
+-   **[Using AI conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)**  
 AI provides a conversational interface that enables you to create catalog items, making these items available in the Service Catalog for users to request.
--   **[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-generation-reference.md)**  
+-   **[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-item-generation-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 
-**Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)
+**Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog.md)
 

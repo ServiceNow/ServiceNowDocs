@@ -2,7 +2,7 @@
 title: Security Roles
 description: Security Roles provide added security, every user must have at least one role so that the instance can distinguish between internal and external users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,15 +16,15 @@ Security Roles provide added security, every user must have at least one role so
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore Explicit Roles\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md)
+[Explore Explicit Roles\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/explicit-roles.md)
 
- [Learn the key features and business value of Explicit Roles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md)
+ [Learn the key features and business value of Explicit Roles.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/explicit-roles.md)
 
 </td><td>
 
-[Explore Elevated Privilege\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md)
+[Explore Elevated Privilege\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_ElevatedPrivilege.md)
 
- [Learn how the Elevated privilege role enables session based privileges.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md)
+ [Learn how the Elevated privilege role enables session based privileges.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_ElevatedPrivilege.md)
 
 </td></tr></tbody>
 </table>

@@ -2,7 +2,7 @@
 title: Now Assist for IT Operations Management \(ITOM\)
 description: Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform from a single workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/now-assist-for-it-operations-management.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-23"

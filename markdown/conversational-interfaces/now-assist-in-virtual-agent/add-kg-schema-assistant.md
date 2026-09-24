@@ -2,7 +2,7 @@
 title: Add a Knowledge Graph schema to a chat assistant
 description: Create Knowledge Graph schemas to represent semantic relationships in your data. Schemas improve assistant responses by providing additional context about users and your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,7 +18,7 @@ Create Knowledge Graph schemas to represent semantic relationships in your data.
 
 ## Before you begin
 
-See [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
+See [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -61,5 +61,5 @@ An empty Knowledge Graph page is shown if the Knowledge Graph app isn’t instal
 
 ## What to do next
 
-See [Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/assign-mcp-servers.md).
+See [Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/assign-mcp-servers.md).
 

@@ -2,7 +2,7 @@
 title: Dynamic topic pages
 description: Dynamic topic pages are topic pages that are dynamically configured using content tagged to a unified taxonomy across all departments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/dynamic-topic-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/dynamic-topic-page.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +18,7 @@ Dynamic topic pages are topic pages that are dynamically configured using conten
 
 These topic pages are separate portal pages that open when a user clicks a topic either from the mega menu navigation or from popular topics. Dynamic topic pages are not part of the home page.​ You can navigate to these pages from the mega menu or popular topic widgets. These pages are designed to provide a consistent experience across topics and channels in both web and Now Mobile app.
 
-Topic pages are available on the Browser Extension for Employee Center. For more information, see [Browser Extension for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecbe-intro.md).
+Topic pages are available on the Browser Extension for Employee Center. For more information, see [Browser Extension for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecbe-intro.md).
 
 The dynamic topic pages are categorized into:
 
@@ -35,7 +35,7 @@ The dynamic topic pages are categorized into:
     \[Omitted image "ecpro-topic-pages.jpg"\] Alt text: Topic pages with employee communication content
 
 
-Set up the content taxonomy and associate content to topics. If you have installed the Employee Center Pro application, you can use Content Delivery to target employee communication to topics. For more information on content taxonomy, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
+Set up the content taxonomy and associate content to topics. If you have installed the Employee Center Pro application, you can use Content Delivery to target employee communication to topics. For more information on content taxonomy, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
-For more information on creating content for your dynamic topic page, see [Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content.md). **Rich Content Editor** allows you to create and schedule rich, long form content using a drag-and-drop method and designed for non-technical users that create content. You can also create content from the [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md) and use the base system from [Create a content category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-cat.md).
+For more information on creating content for your dynamic topic page, see [Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content.md). **Rich Content Editor** allows you to create and schedule rich, long form content using a drag-and-drop method and designed for non-technical users that create content. You can also create content from the [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-streamline-content.md) and use the base system from [Create a content category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-cat.md).
 

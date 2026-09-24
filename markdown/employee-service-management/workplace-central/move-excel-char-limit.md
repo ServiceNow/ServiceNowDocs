@@ -2,7 +2,7 @@
 title: Excel column lengths for move projects
 description: The Excel columns must be within the specified length to create a move project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/move-excel-char-limit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/move-excel-char-limit.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -29,7 +29,7 @@ The Excel columns must be within the specified length to create a move project.
 |To space|
 |Additional details|4000|
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Design Assign Connection Element Creation subflow
 description: The TNI Design Assign Connection Element Creation subflow enables you to create the connection element records in the Telecommunications Network Inventory application. You can use this flow action to configure the activities in a Design and Assign playbook for logical connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-design-assign-connection-element-creation-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/tni-design-assign-connection-element-creation-subflow.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -47,7 +47,7 @@ The TNI Design Assign Connection Element Creation subflow output are as follows.
 -   Create the CI relationship between equipment and port.
 -   Update the change task that is associated with the Assign connection element activity.
 
-**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
+**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 
 **Related topics**  
 

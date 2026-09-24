@@ -2,7 +2,7 @@
 title: Manually fulfill enterprise asset requests by using the enterprise asset request flow
 description: Use the enterprise asset request flow to request, source, and deploy catalog items from the Service Catalog application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-assetrequest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-eam-assetrequest.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -73,7 +73,7 @@ The Workflow Studio application is used to create the Standard Enterprise Asset 
 
 14. In the Source Request form layout, select **Add Transfer Order** or **Add Purchase Order** to source the request via a transfer order or a purchase order.
 
-    After you procure the catalog item,the Asset pick task is created for the Requested item only if the asset is sourced from the stockroom that has the Asset pick task enabled. Otherwise the Deployment task is created for the Requested itemwithout the Asset pick task.For details, see [Enable the Asset pick task for your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/enable-pick-task-for-stockroom-ham.md).
+    After you procure the catalog item,the Asset pick task is created for the Requested item only if the asset is sourced from the stockroom that has the Asset pick task enabled. Otherwise the Deployment task is created for the Requested itemwithout the Asset pick task.For details, see [Enable the Asset pick task for your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/enable-pick-task-for-stockroom-ham.md).
 
 15. Select the Requested items related list and select the requested item.
 
@@ -83,7 +83,7 @@ The Workflow Studio application is used to create the Standard Enterprise Asset 
     -   If the Pick task isn't enabled,complete the Deploy task.
 17. Complete the Asset pick task using the Mobile Agent application.
 
-    For details on completing this step, see [Manage enterprise asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-asset-pick-task-eam-mobile-app.md).
+    For details on completing this step, see [Manage enterprise asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-asset-pick-task-eam-mobile-app.md).
 
     The Deployment task is created for the requested item.
 
@@ -92,5 +92,5 @@ The Workflow Studio application is used to create the Standard Enterprise Asset 
     If it's a serialized asset, it's marked as **In use** state. If it’s a consumable asset, it’s marked as **Consumed** state. In the Standard Enterprise Asset Request flow, the action that is associated with deploying the assets is now complete.
 
 
-**Parent Topic:**[Fulfilling enterprise asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/fulfilling-enterprise-asset-requests.md)
+**Parent Topic:**[Fulfilling enterprise asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/fulfilling-enterprise-asset-requests.md)
 

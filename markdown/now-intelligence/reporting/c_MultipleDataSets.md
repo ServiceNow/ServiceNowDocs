@@ -2,7 +2,7 @@
 title: Using multiple datasets in Core UI reports
 description: You can create reports that use datasets from up to five tables in a single report. Add up to five extra datasets to visualize data from multiple sources in a single report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_MultipleDataSets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/c\_MultipleDataSets.html
 release: australia
 product: Reporting
 classification: reporting
@@ -32,7 +32,7 @@ Bear the following restrictions in mind when creating a report with multiple dat
 -   For multiple datasets on a Bar or Horizontal Bar chart, all associated datasets must have the same Group By value.
 -   The Show Legends option is always, by default, displayed on a report with multiple datasets, even if the parent report has this option unselected.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Add an additional dataset to a report
 

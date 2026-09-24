@@ -2,7 +2,7 @@
 title: Install Universal Task
 description: You can install the Universal Task application \(sn\_uni\_task\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/install-universal-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-task/install-universal-task.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -26,7 +26,7 @@ Role required: admin
 
 The required Roles and Tables are installed with Universal Task. Ensure that the glide.enforce\_security\_scope.sn\_uni\_task property is set to true in Global scope.
 
-For more information, see [Components installed with Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/installed-with-uni-task.md).
+For more information, see [Components installed with Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/installed-with-uni-task.md).
 
 ## Procedure
 
@@ -49,8 +49,8 @@ For more information, see [Components installed with Universal Task](https://raw
 5.  Select **Install**.
 
 
--   **[Components installed with Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/installed-with-uni-task.md)**  
+-   **[Components installed with Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/installed-with-uni-task.md)**  
 Several types of components are installed with activation of the Universal Task application, including tables, user roles, and scheduled jobs.
 
-**Parent Topic:**[Setting up and configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/set-up-universal-task.md)
+**Parent Topic:**[Setting up and configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/set-up-universal-task.md)
 

@@ -2,7 +2,7 @@
 title: Add a supplier product bundle
 description: Add a supplier product bundle, which may include several products or services from the same supplier. You can also add sub-bundles to the main bundle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product-bundle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product-bundle.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -38,7 +38,7 @@ You can add a supplier product bundle and choose to publish it on the Shopping H
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Add a supplier product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product.md).
+    For more information, see [Add a supplier product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product.md).
 
     **Note:** For creating a product bundle, enter the product model of type bundle in the **Product model** field.
 
@@ -60,5 +60,5 @@ You can add a supplier product bundle and choose to publish it on the Shopping H
 
 Use the related lists of the supplier product form to view the pricing, purchase order lines, product visuals, and ledger assignment rules that are associated with this supplier product bundle.
 
-**Parent Topic:**[Setting up your product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-product-catalogue.md)
+**Parent Topic:**[Setting up your product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-product-catalogue.md)
 

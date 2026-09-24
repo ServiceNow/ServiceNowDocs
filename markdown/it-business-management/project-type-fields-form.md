@@ -2,7 +2,7 @@
 title: Project Type Fields form
 description: Field descriptions for the Project Type Fields form. Use this reference when entering key project dates for a retail store project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-type-fields-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-type-fields-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-29"

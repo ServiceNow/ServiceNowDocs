@@ -2,7 +2,7 @@
 title: Disable the org chart
 description: Disable your organizational chart either for a particular deployment channel or for the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/disable-org-chart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/disable-org-chart.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

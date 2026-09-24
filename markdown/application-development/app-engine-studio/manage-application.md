@@ -2,7 +2,7 @@
 title: Prepare your app for approval
 description: Prepare your app for the approval process by making any needed changes, such as renaming your app, editing the app description, or replacing the app image. You can also delete the app from App Engine Studio \(AES\) if it has taken a wrong turn.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/manage-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/manage-application.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -41,5 +41,5 @@ You can change certain features of your application, based on your permissions. 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Create your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-application.md)
+**Parent Topic:**[Create your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/create-application.md)
 

@@ -2,7 +2,7 @@
 title: Enhanced logging security
 description: Explore the Attribution field in the node log lines to identify the script or component that generated the log message. Transaction start lines include the new field to identify the type of request made.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/enhanced-log-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/enhanced-log-security.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

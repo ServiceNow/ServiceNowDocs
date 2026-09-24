@@ -2,7 +2,7 @@
 title: Screen an uploaded document type using the Document Screening Al skill
 description: Use ServiceNow Otto for PSDS gen-AI to screen documents in the Social Benefits Playbook, classifying document types, validating them against what's expected for the case, flagging issues and providing clear explanations, and giving agents Al-composed messages to send back to constituents with specific resubmission instructions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ai-skill-using-doc-screening.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-ai-skill-using-doc-screening.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

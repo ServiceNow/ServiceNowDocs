@@ -2,7 +2,7 @@
 title: Enable electronic signature for approval
 description: Enabling electronic signatures for approval. Electronic signatures are helpful if you must obtain a digital signature for compliance or auditing purposes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_EnableElectronicSignature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/t\_EnableElectronicSignature.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You can activate the [Approval with e-signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_InstalledWApprWithEsignature.md) to require that users type in a user name and password when reviewing and approving documents.
+You can activate the [Approval with e-signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_InstalledWApprWithEsignature.md) to require that users type in a user name and password when reviewing and approving documents.
 
 The digital signature is not tracked or stored in the document record. Users must simply type in a user name and password after clicking the **Approve** or **Reject** button.
 
@@ -47,5 +47,5 @@ After activating the Approval with E-Signature plugin, ensure that a row in the 
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/c_CreateADocument.md)
 

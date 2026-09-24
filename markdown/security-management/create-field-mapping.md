@@ -2,7 +2,7 @@
 title: Map tables to tables with Security Operations field mapping
 description: Security Operations provides you with finer field-mapping granularity so you can map a Security Operations table to any other table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/create-field-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/create-field-mapping.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,7 +56,7 @@ Duplication rule
 
 </td><td>
 
-Governs how to handle source records that would generate a duplicate record. For more information, see [Shared data transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/shared-data-transformation.md).
+Governs how to handle source records that would generate a duplicate record. For more information, see [Shared data transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/shared-data-transformation.md).
 
 </td></tr><tr><td>
 
@@ -229,5 +229,5 @@ Auto-populated with the source table.
 </table>7.  Click **Submit.**
 
 
-**Parent Topic:**[Security Operations field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/field-mapping.md)
+**Parent Topic:**[Security Operations field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/field-mapping.md)
 

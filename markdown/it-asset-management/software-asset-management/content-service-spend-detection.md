@@ -2,7 +2,7 @@
 title: Content Service for Software Spend Detection
 description: Opt in to Software Asset Management Content Service for Software Spend Transactions to get more accurate predictions in Software Spend Detection by sharing financial transaction data with the ServiceNow Content Service team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/content-service-spend-detection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/content-service-spend-detection.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -33,5 +33,5 @@ The ServiceNow Content Service team uses these data points to improve machine le
 
 You can opt out of Content Service at any time. If you opt out, no data from future imports is sent to the ServiceNow Content Service team, but your previously shared data is not deleted. If you would like to participate in Content Service but exclude some transactions from being shared with ServiceNow, you can select the **Exclude from content service** check box on those transaction records.
 
-**Parent Topic:**[Opt in to Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/opt-in-content-service.md)
+**Parent Topic:**[Opt in to Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/opt-in-content-service.md)
 

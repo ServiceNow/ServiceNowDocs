@@ -2,7 +2,7 @@
 title: Software Spend Detection in the Software Asset Workspace
 description: The Software Spend Detection feature is available in the Software Asset Workspace under License operations. Use the workspace to import financial transactions, review labeled transactions, and track software spending across your organization.
 locale: en-us
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/spend-detection-sam-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/spend-detection-sam-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -39,7 +39,7 @@ Use this list to monitor the outcome of an import, identify imports that complet
 
 Selecting an import from the list opens its record with a **Transactions** tab showing every transaction created by that import. If an import has any errored rows, an **Errors** tab also appears with the source row number, error message, and the original values from the file.
 
-To start an import, see [Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-spend-transactions.md).
+To start an import, see [Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-spend-transactions.md).
 
 \[Omitted image "spend-detection-workspace-transaction-imports-list-view.png"\] Alt text: Transaction imports list in the Software Asset Workspace showing import jobs with their status and row counts.
 
@@ -51,20 +51,20 @@ Each row shows the core transaction details from your source data along with the
 
 Two additional fields help you identify software purchases that aren't yet tracked in your Software Asset Management Content Library. The **Is software** field indicates whether the transaction represents a software purchase. The **Is managed** field indicates whether the software is already tracked in your Software Asset Management Content Library with an active software model. Transactions where **Is software** is true and **Is managed** is false represent unmanaged software spend.
 
-The **State** field indicates where each transaction is in the labeling process. Values include **New**, **Labeled**, **Partially labeled**, **Manually labeled**, and **Unlabeled**. For details on how each state is assigned, see [AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
+The **State** field indicates where each transaction is in the labeling process. Values include **New**, **Labeled**, **Partially labeled**, **Manually labeled**, and **Unlabeled**. For details on how each state is assigned, see [AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
 
-To sort, filter, or group the list, use the controls at the top of the page. To review or edit an individual transaction, select the row. To manually create a spend transaction, see [Manually create a spend transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manually-update-transactions.md).
+To sort, filter, or group the list, use the controls at the top of the page. To review or edit an individual transaction, select the row. To manually create a spend transaction, see [Manually create a spend transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/manually-update-transactions.md).
 
 \[Omitted image "spend-detection-workspace-all-transactions-list-view.png"\] Alt text: All transactions list in the Software Asset Workspace showing spend transactions with publisher, product, state, and prediction method columns.
 
-**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-spend-detection.md)
 
 **Related topics**  
 
 
-[Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-spend-transactions.md)
+[Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-spend-transactions.md)
 
-[Manually create a spend transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manually-update-transactions.md)
+[Manually create a spend transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/manually-update-transactions.md)
 
-[AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md)
+[AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md)
 

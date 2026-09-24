@@ -2,7 +2,7 @@
 title: Activate carbon calculations agentic workflow
 description: Configure and activate the carbon calculation workflow that uses AI agents and tools. It automates the creation of calculated metric definition \(CMD\) records and formulas for Scope 3 carbon emissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/activate-carbon-calculations-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/activate-carbon-calculations-agentic-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Configure and activate the carbon calculation workflow that uses AI agents and t
 
 Install the ServiceNow Otto for Operational Sustainability plugin \(sn\_esg\_gen\_ai\).
 
-Attach the Calculation Guidance document to the relevant record in the Emission Calculation Guidelines table. For further details, refer to [Attaching calculation guidance document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/attaching-calculation-guidance-document.md).
+Attach the Calculation Guidance document to the relevant record in the Emission Calculation Guidelines table. For further details, refer to [Attaching calculation guidance document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/attaching-calculation-guidance-document.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
@@ -46,9 +46,9 @@ You can perform the following actions on Now Assist workflows if you have the sn
 
 3.  Under the **Define key requirements**, scroll to the section **Add AI agents that can perform these steps** and activate the agents **Calculation operand AI agent CMD** and **Calculation creation AI agent**.
 
-4.  To activate the **Calculation operand AI agent CMD** agent, refer to [Activate calculation operand AI agent CMD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-calculation-operand-ai-agent-cmd.md).
+4.  To activate the **Calculation operand AI agent CMD** agent, refer to [Activate calculation operand AI agent CMD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-calculation-operand-ai-agent-cmd.md).
 
-5.  To activate the **Calculation creation AI agent**, refer to [Activate calculation creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-calculation-creation-ai-agent.md).
+5.  To activate the **Calculation creation AI agent**, refer to [Activate calculation creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-calculation-creation-ai-agent.md).
 
 6.  On the **Generate calculations for metrics** page, perform the following steps:
 
@@ -75,12 +75,12 @@ Once you’ve confirmed the workflow is functioning as expected, begin by select
 
 If you have not already set up the ServiceNow Otto panel, for more information see, [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
--   **[Activate calculation creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-calculation-creation-ai-agent.md)**  
+-   **[Activate calculation creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-calculation-creation-ai-agent.md)**  
 The calculation creation AI agent creates a calculated metric definition record using the formula passed in the input.
--   **[Activate calculation operand AI agent CMD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-calculation-operand-ai-agent-cmd.md)**  
+-   **[Activate calculation operand AI agent CMD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-calculation-operand-ai-agent-cmd.md)**  
 The calculation operand AI agent CMD identifies and retrieves relevant metric definitions and emission factors from existing sources. It then replaces generic references in the input formula with precise metric definition and emission factor names.
--   **[Attaching calculation guidance document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/attaching-calculation-guidance-document.md)**  
+-   **[Attaching calculation guidance document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/attaching-calculation-guidance-document.md)**  
 Attach the Calculation Guidance PDF to the designated emission calculation guidelines table record to enable the carbon calculations agentic workflow. The agent relies on this document to extract calculation methods, formulas, and category details for automated metric definition creation.
 
-**Parent Topic:**[Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-now-assist-for-esg.md)
+**Parent Topic:**[Configure ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configure-now-assist-for-esg.md)
 

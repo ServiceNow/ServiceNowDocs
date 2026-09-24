@@ -2,7 +2,7 @@
 title: Create recall corrective actions using ServiceNow Otto for MCO
 description: Create recall corrective actions AI agent extracts the information available in the repair documents. The AI agent identifies and collects all relevant data contained within the repair documents and generates the corrective action and the corresponding charges.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/execute-recall-campaigns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/execute-recall-campaigns.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,11 +46,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 **Related topics**  
 
 
-[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaigns.md)
+[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-rc-my-campaigns.md)
 
-[Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md)
-
-[Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md)
-
-[Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md)
+[bundle-platai.activate-aia-use-case]
 

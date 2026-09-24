@@ -2,7 +2,7 @@
 title: Work order task states
 description: Work orders are made up of at least one work order task. Work order tasks states are sequential and progress from one state to the next.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/work-order-task-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/work-order-task-states.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -48,7 +48,7 @@ Scheduled
 
 </td><td>
 
-The work order task is soft booked but not confirmed. The work order task is pending assignment from the dispatcher.**Note:** This state only shows if use scheduled state is enabled. For more information, see [Configure the Scheduled state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-scheduled-state.md).
+The work order task is soft booked but not confirmed. The work order task is pending assignment from the dispatcher.**Note:** This state only shows if use scheduled state is enabled. For more information, see [Configure the Scheduled state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configure-scheduled-state.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Closed Complete
 The work order task was completed to specification.**Note:**
 
 -   The substate of Closed Complete is Complete.
--   If the Field Service Quality Management plugin \(com.sn\_fsm\_quality\) is activated and the task meets the criteria for quality review, the substate is set to Pending review instead of Complete when the task is closed. A reviewer can approve the task, which sets the substate to Complete, or send it back to the agent requesting more information, which sets the substate to Needs information. Once the agent updates the task, it returns to the Pending review substate for the reviewer. For more information, see [Configuring Field Service Quality Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/config-quality-mgmt.md).
+-   If the Field Service Quality Management plugin \(com.sn\_fsm\_quality\) is activated and the task meets the criteria for quality review, the substate is set to Pending review instead of Complete when the task is closed. A reviewer can approve the task, which sets the substate to Complete, or send it back to the agent requesting more information, which sets the substate to Needs information. Once the agent updates the task, it returns to the Pending review substate for the reviewer. For more information, see [Configuring Field Service Quality Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/config-quality-mgmt.md).
 
 </td></tr><tr><td>
 

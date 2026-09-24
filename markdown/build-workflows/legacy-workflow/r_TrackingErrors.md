@@ -2,7 +2,7 @@
 title: Workflow error tracking features
 description: Error handling provides visual cues within the workflow, such as error descriptions for activities in pop-ups, and detailed log records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/r\_TrackingErrors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/r\_TrackingErrors.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -24,7 +24,7 @@ Look for an activity with a red banner, indicating that a syntax error has occur
 
 ## Tooltips
 
-Point to the activity displaying a red banner to view information about the error. A tooltip shows the **State** and **Result** of the activity and provides a brief **Fault Description** \(except for task activities\). Note that this approval continued as skipped despite the error given in the fault description. See [Workflow error handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowErrorHandling.md) for the information available to each activity.
+Point to the activity displaying a red banner to view information about the error. A tooltip shows the **State** and **Result** of the activity and provides a brief **Fault Description** \(except for task activities\). Note that this approval continued as skipped despite the error given in the fault description. See [Workflow error handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowErrorHandling.md) for the information available to each activity.
 
 \[Omitted image "ErrorHandlingHover.png"\] Alt text:
 
@@ -58,5 +58,5 @@ If the credentials used by an activity in the workflow fail, and the activity ca
 
 \[Omitted image "CredDebugWorkflowLog.png"\] Alt text: Credential debugging in the workflow log
 
-**Parent Topic:**[Workflow error handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowErrorHandling.md)
+**Parent Topic:**[Workflow error handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowErrorHandling.md)
 

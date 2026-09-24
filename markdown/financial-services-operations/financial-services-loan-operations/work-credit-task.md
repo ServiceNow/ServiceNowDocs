@@ -2,7 +2,7 @@
 title: Work on a credit task for a loan service case
 description: Work on a credit task to review or authorize the credit for a loan customer. You can approve or reject the request based on your findings. A credit task is also used to update the covenant when you are working on a covenant breach.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/work-credit-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/work-credit-task.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -23,7 +23,7 @@ Role required:
 -   For a personal loan service task: sn\_bom\_credit\_asmt.b2c\_agent or sn\_bom\_credit\_asmt.b2b\_agent\_connector
 -   For a business loan service task: sn\_bom\_credit\_asmt.b2b\_agent or sn\_bom\_credit\_asmt.b2c\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 

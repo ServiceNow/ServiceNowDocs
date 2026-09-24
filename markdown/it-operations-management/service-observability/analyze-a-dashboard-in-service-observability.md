@@ -2,7 +2,7 @@
 title: Analyze a dashboard in Service Observability
 description: Use the analyze Service Observability dashboard skill to view an analysis of a single Service Observability dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -35,7 +35,7 @@ Note the following:
 
 ## Before you begin
 
-You need to manually activate this skill before it can be used. See [Activate the analyze Service Observability dashboard skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/activate-the-analyze-service-observability-dashboard-skill.md) for more information.
+You need to manually activate this skill before it can be used. See [Activate the analyze Service Observability dashboard skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/activate-the-analyze-service-observability-dashboard-skill.md) for more information.
 
 Role required: admin, operator
 
@@ -51,7 +51,7 @@ Role required: admin, operator
     -   **Express list** alert: Select a service from the **Impacted services** column.
     The Service Details page opens and the Overview tab is displayed.
 
-    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/chart-error-states.md).
+    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/chart-error-states.md).
 
 2.  To the right of the dashboard name, select **Analyze dashboard**.
 

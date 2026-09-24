@@ -2,7 +2,7 @@
 title: Use a PDF to create data tables
 description: Create tables from a PDF form using the PDF extractor tool in App Engine Studio.Add data tables to your application by uploading a PDF in App Engine Studio.Add field columns to your data table using the PDF extractor in App Engine Studio.Move fields into a new referenced data table using the PDF extractor in App Engine Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/pdf-extractor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/pdf-extractor.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -110,7 +110,7 @@ The following limitations currently exist when uploading a PDF using this tool:
 -   PDF file size cannot exceed 5 MB.
 -   Languages other than English and French are not currently supported.
 
-**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md)
+**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-data.md)
 
 ## Create a table from a PDF form
 
@@ -185,7 +185,7 @@ Make extensible
 
 </td><td>
 
-Option to allow other tables to share data from this table. For more information on table extension, see [Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md).
+Option to allow other tables to share data from this table. For more information on table extension, see [Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-data.md).
 
 </td></tr><tr><td>
 
@@ -210,7 +210,7 @@ Abbreviated name of the table to append to the beginning of the record number. F
 
 10. Control who has access to create, read, write, and delete content from this table by adding new roles and/or defining the desired Create, Read, Write, Delete permissions for existing roles.
 
-    Roles that you create in the table persist throughout the application and can be further defined in other tables you add. See [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md) for more information on how security permissions work.
+    Roles that you create in the table persist throughout the application and can be further defined in other tables you add. See [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-security.md) for more information on how security permissions work.
 
     **Note:** At least one role must have read access for you to be able to preview the table.
 
@@ -221,7 +221,7 @@ Abbreviated name of the table to append to the beginning of the record number. F
 
 ### What to do next
 
-Next, you will add fields from the uploaded PDF. Follow the steps in [Add new fields from a PDF form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/pdf-extractor.md) to populate your new data table with field columns.
+Next, you will add fields from the uploaded PDF. Follow the steps in [Add new fields from a PDF form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/pdf-extractor.md) to populate your new data table with field columns.
 
 ## Add new fields from a PDF form
 
@@ -237,13 +237,13 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 1.  Choose one of the following options:
 
-    -   Follow the steps outlined in the previous procedure to upload a PDF \(see [Create a table from a PDF form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/pdf-extractor.md)\).
+    -   Follow the steps outlined in the previous procedure to upload a PDF \(see [Create a table from a PDF form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/pdf-extractor.md)\).
     -   If you have already uploaded the PDF, select the **Open pdf extractor** element on the **Forms** or **Table** tab in Table Builder to launch the PDF extractor tool.
     The PDF form displays.
 
 2.  Review the PDF.
 
-    Use any of the navigational controls in the PDF pane to navigate to where you'd like to begin adding fields. See [General navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/pdf-extractor.md).
+    Use any of the navigational controls in the PDF pane to navigate to where you'd like to begin adding fields. See [General navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/pdf-extractor.md).
 
 3.  Click **Select** to enter text selection mode.
 
@@ -344,9 +344,9 @@ Select **Open data table and form** to open the selected table within Table Buil
 
 ### What to do next
 
-To open your data table in Table Builder, select **Open data table and form** above the displayed tables. For more information on editing your data tables in Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
+To open your data table in Table Builder, select **Open data table and form** above the displayed tables. For more information on editing your data tables in Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-landing-page.md).
 
-To add a reference table, see [Add a reference table from a PDF form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/pdf-extractor.md).
+To add a reference table, see [Add a reference table from a PDF form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/pdf-extractor.md).
 
 ## Add a reference table from a PDF form
 
@@ -370,7 +370,7 @@ You can add a reference field, and then create the corresponding reference data 
 
 1.  Choose one of the following options:
 
-    -   Follow the steps outlined in the previous procedure to upload a PDF \(see [Create a table from a PDF form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/pdf-extractor.md)\).
+    -   Follow the steps outlined in the previous procedure to upload a PDF \(see [Create a table from a PDF form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/pdf-extractor.md)\).
     -   If you have already uploaded the PDF, select the **Open pdf extractor** element on the **Forms** or **Table** tab in Table Builder to launch the PDF extractor tool.
     The PDF form displays.
 
@@ -382,7 +382,7 @@ You can add a reference field, and then create the corresponding reference data 
     |----------------------|-----------|
     |Table label|Unique label for the reference table.|
     |Table name|Database name for the reference table.|
-    |Make extensible|Option to allow other tables to share data from this table. For more information on table extension, see [Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md).|
+    |Make extensible|Option to allow other tables to share data from this table. For more information on table extension, see [Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-data.md).|
     |Auto number|Option to track table records with a unique number. If you select this option, define the **Prefix**, **Starting number**, and **Number of digits**.|
 
     Next, you will add a reference field to the original table you are editing. This creates the connection between the tables \(e.g., "Seller info"\).
@@ -462,12 +462,12 @@ Open table within Table Builder
 Select **Open data table and form** to open the selected table within Table Builder.
 
 </td></tr></tbody>
-</table>    See [General navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/pdf-extractor.md) for more information on additional navigational controls in the table pane.
+</table>    See [General navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/pdf-extractor.md) for more information on additional navigational controls in the table pane.
 
 9.  Select **Save**.
 
 
 ### What to do next
 
-To open your data table in Table Builder, select **Open data table and form** above the displayed tables. For more information on editing your data tables in Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
+To open your data table in Table Builder, select **Open data table and form** above the displayed tables. For more information on editing your data tables in Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-landing-page.md).
 

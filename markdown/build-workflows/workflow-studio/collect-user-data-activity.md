@@ -2,7 +2,7 @@
 title: Collect User Data activity
 description: Collects inputs from a user during a playbook run to use later in the playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/collect-user-data-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/collect-user-data-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -16,7 +16,7 @@ breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow St
 
 Collects inputs from a user during a playbook run to use later in the playbook.
 
-**Important:** As of the 26.1 release, the **Collect user data** activity is no longer available in the activity picker. The activity will continue to function wherever it is used, but for new activities use the **Questionnaire** activity instead. The **Questionnaire** activity does not require you to create a data definition. To learn more about the **Questionnaire** activity, see [Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/questionnaire-activity.md).
+**Important:** As of the 26.1 release, the **Collect user data** activity is no longer available in the activity picker. The activity will continue to function wherever it is used, but for new activities use the **Questionnaire** activity instead. The **Questionnaire** activity does not require you to create a data definition. To learn more about the **Questionnaire** activity, see [Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/questionnaire-activity.md).
 
 Use the Collect User Data activity if:
 
@@ -24,9 +24,9 @@ Use the Collect User Data activity if:
 -   You don't need to run reports on the collected data,
 -   And you don't need to use the data outside of the playbook.
 
-If you already have a table to store the collected data, use the [User Form activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-form-activity.md).
+If you already have a table to store the collected data, use the [User Form activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/user-form-activity.md).
 
-The key input for this activity is the **User form for data collection** field, under the [Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/collect-user-data-activity.md) section. To provide this input, you must [create a data definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-definition.md) first.
+The key input for this activity is the **User form for data collection** field, under the [Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/collect-user-data-activity.md) section. To provide this input, you must [create a data definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-data-definition.md) first.
 
 ## Roles and availability
 
@@ -117,14 +117,14 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr></tbody>
 </table>## Inputs
 
 Many of these inputs are common to activities in Playbooks. The key input for this activity is **User form for data collection** field.
 
-After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md).
+After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activity-definitions.md).
 
 <table id="table_cjj_sr3_plb"><thead><tr><th>
 
@@ -172,7 +172,7 @@ Choice
 
 </td><td>
 
-Type of input form used to collect data. Playbook authors define the data that they want agents or fulfillers to collect during a playbook run in the `sys_flow_data_definition` table. When the information is collected, it is stored in the `sys_flow_data` table for use later in the playbook run, instead of in the record table. To define the data you want an agent or fulfiller to collect, see [Create a Data Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-definition.md).
+Type of input form used to collect data. Playbook authors define the data that they want agents or fulfillers to collect during a playbook run in the `sys_flow_data_definition` table. When the information is collected, it is stored in the `sys_flow_data` table for use later in the playbook run, instead of in the record table. To define the data you want an agent or fulfiller to collect, see [Create a Data Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-data-definition.md).
 
 </td></tr><tr><td>
 

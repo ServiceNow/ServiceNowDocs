@@ -2,7 +2,7 @@
 title: Create SolarWinds monitor credentials
 description: Create a Basic Auth credential in ServiceNow to store the SolarWinds user name and password that the SolarWinds monitor connector uses to access the SolarWinds API.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-credentials-solarwinds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/create-credentials-solarwinds.html
 release: australia
 product: Event Management
 classification: event-management
@@ -48,7 +48,7 @@ Confirm you have a local SolarWinds Orion account for Basic authentication \(use
 
 The credential for use with the SolarWinds monitor connector is created.
 
-**Parent Topic:**[Configure event collection from SolarWinds monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSolarwindsConnectorJS.md)
+**Parent Topic:**[Configure event collection from SolarWinds monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureSolarwindsConnectorJS.md)
 
 **Related topics**  
 

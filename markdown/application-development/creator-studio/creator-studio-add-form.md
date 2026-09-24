@@ -2,7 +2,7 @@
 title: Add a form to an app in Creator Studio
 description: Add a form to the app you just created. Forms contain questions that people respond to when submitting a service desk request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-add-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-add-form.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -46,7 +46,7 @@ Role required: You must be an admin or your administrator must add you to the Cr
 
 6.  Choose how you want to build the form:
 
-    -   To use AI, stay on the **Build with AI** tab and enter directions for the form you want. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-text-to-form.md).
+    -   To use AI, stay on the **Build with AI** tab and enter directions for the form you want. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-text-to-form.md).
 
         **Note:** You can select **Try an example** to see some examples of the available directions. To see a quick mock up of what the form will look like, select the **Generate form preview** button. If you want a different form, change the provided direction and select **Regenerate preview** for a quick look.
 
@@ -69,5 +69,5 @@ Role required: You must be an admin or your administrator must add you to the Cr
 
 Now that you've added a form to your app, it's time to customize it! Remember: You can add multiple forms to your app for if you need to.
 
-**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-work-with-forms.md)
 

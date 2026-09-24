@@ -2,7 +2,7 @@
 title: Unlink a topic recommendation from a Virtual Agent topic
 description: You can unlink a topic recommendation from a topic. This lets you link it to a new or alternate topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/unlink-tr-va-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/unlink-tr-va-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

@@ -2,7 +2,7 @@
 title: Record the usage on the entitlement
 description: Record the consumption or usages made out of the total characteristic quantities allotted for an entitlement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/record-usage-entitlement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/record-usage-entitlement.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -95,5 +95,5 @@ Do this
     If you have used the Customer Contracts menu to record the usage, then select **Update** to save the contract line and then the customer contract.
 
 
-**Parent Topic:**[Using Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-post-sales-support.md)
+**Parent Topic:**[Using Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-post-sales-support.md)
 

@@ -2,7 +2,7 @@
 title: Download a network diagram
 description: Download the entire canvas of the network diagram based on your map selection in the Telecommunications Network Inventory application. You can use it as a reference to visualize the circuit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/download-network-diagram.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/download-network-diagram.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -43,7 +43,7 @@ You can download the entire canvas of a network diagram in the PNG format and sa
 
 The image is downloaded in PNG format.
 
-**Parent Topic:**[Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
+**Parent Topic:**[Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
 
 **Related topics**  
 
@@ -52,5 +52,5 @@ The image is downloaded in PNG format.
 
 [Create a protection path]()
 
-[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
+[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
 

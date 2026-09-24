@@ -2,7 +2,7 @@
 title: Install Personal Lines Servicing
 description: You can install the Personal Lines Servicing \(sn\_ins\_policy\_b2c\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/install-ins-policy-ops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/install-ins-policy-ops.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ The following items are installed with Personal Lines Servicing.
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/installed-with-ins-policy-ops.md).
+For more information, see [Components installed with Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/installed-with-ins-policy-ops.md).
 
 ## Procedure
 
@@ -53,5 +53,5 @@ For more information, see [Components installed with Personal Lines Servicing](h
 5.  Select **Install**.
 
 
-**Parent Topic:**[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)
+**Parent Topic:**[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)
 

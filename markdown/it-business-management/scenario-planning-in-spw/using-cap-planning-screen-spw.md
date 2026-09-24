@@ -2,7 +2,7 @@
 title: Using Capacity in Strategic Planning Workspace
 description: View and analyze the resource capacity for your portfolio to plan and re-forecast the resource assignments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/using-cap-planning-screen-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/using-cap-planning-screen-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +18,7 @@ View and analyze the resource capacity for your portfolio to plan and re-forecas
 
 ## Before you begin
 
-Generate resource capacity using [manage resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/manage-rsrc-cap-spw.md).
+Generate resource capacity using [manage resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/manage-rsrc-cap-spw.md).
 
 Role required: sn\_align\_ws.spw\_capacity\_user
 

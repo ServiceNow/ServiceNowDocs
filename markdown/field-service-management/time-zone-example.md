@@ -2,7 +2,7 @@
 title: Example – Multiple time zones for dispatchers
 description: Explore how adding multiple time zones to Dispatcher Workspace makes managing agent schedules more efficient.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/time-zone-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/time-zone-example.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,7 +50,7 @@ Role required: admin
 **Related topics**  
 
 
-[Configure multiple time zones for dispatchers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/add-remore-time-zones.md)
+[Configure multiple time zones for dispatchers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/add-remore-time-zones.md)
 
-[Change the time zone in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/change-timezone-calendar.md)
+[Change the time zone in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/change-timezone-calendar.md)
 

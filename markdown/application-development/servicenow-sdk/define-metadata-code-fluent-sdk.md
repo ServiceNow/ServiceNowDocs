@@ -2,7 +2,7 @@
 title: Define application metadata in code with ServiceNow Fluent and the ServiceNow SDK
 description: Define application metadata in code with ServiceNow Fluent and the ServiceNow SDK.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/define-metadata-code-fluent-sdk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-sdk/define-metadata-code-fluent-sdk.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -18,14 +18,14 @@ Define application metadata in code with ServiceNow Fluent and the ServiceNow SD
 
 ## Before you begin
 
--   Install the ServiceNow Fluent Language server to get language processing and validation for ServiceNow Fluent in Visual Studio Code. For more information, see [Install the ServiceNow Fluent Language server in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/install-fluent-language-extension-vs-code.md).
--   Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/creating-applications-servicenow-sdk.md).
+-   Install the ServiceNow Fluent Language server to get language processing and validation for ServiceNow Fluent in Visual Studio Code. For more information, see [Install the ServiceNow Fluent Language server in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/install-fluent-language-extension-vs-code.md).
+-   Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/creating-applications-servicenow-sdk.md).
 
 Role required: admin
 
 ## About this task
 
-ServiceNow Fluent is a domain-specific language \(DSL\) based on TypeScript for defining the metadata files \[sys\_metadata\] that make up applications and includes APIs for the different types of metadata, such as tables, roles, ACLs, business rules, and Automated Test Framework tests. For more information about ServiceNow Fluent APIs and examples, see [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md).
+ServiceNow Fluent is a domain-specific language \(DSL\) based on TypeScript for defining the metadata files \[sys\_metadata\] that make up applications and includes APIs for the different types of metadata, such as tables, roles, ACLs, business rules, and Automated Test Framework tests. For more information about ServiceNow Fluent APIs and examples, see [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/servicenow-fluent-api-reference.md).
 
 ## Procedure
 
@@ -79,7 +79,7 @@ ServiceNow Fluent is a domain-specific language \(DSL\) based on TypeScript for 
 
 6.  Save your changes.
 
-7.  Build and install your application to compile source code into application metadata and make your changes available on the instance. For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
+7.  Build and install your application to compile source code into application metadata and make your changes available on the instance. For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
 
 **Tip:** You can use the following directives in a code comment to help manage your code:
@@ -171,10 +171,10 @@ After building and installing the application, this source code generates the fo
 
 \[Omitted image "servicenow-ide-app-files.png"\] Alt text: Application files generated from the example code.
 
-**Parent Topic:**[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/developing-applications-sdk.md)
+**Parent Topic:**[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/developing-applications-sdk.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md)
 

@@ -2,7 +2,7 @@
 title: Quick start tests for Dashboards
 description: Validate that Dashboards still work after you make any configuration change such as applying an upgrade. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/quick-start-tests-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/quick-start-tests-dashboards.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

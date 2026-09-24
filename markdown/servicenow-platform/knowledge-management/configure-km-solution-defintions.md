@@ -2,7 +2,7 @@
 title: Configure solution definitions to find gaps in a knowledge base
 description: The Knowledge Demand Insights feature finds knowledge gaps by comparing knowledge bases with existing tasks. To enable comparing knowledge bases with a task type, you must first configure similarity and clustering solution definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-km-solution-defintions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/configure-km-solution-defintions.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -245,16 +245,16 @@ Frequency with which the model for clustering solution definition must be retrai
 
 ## What to do next
 
-Complete the KB curation configuration form to define the scheduled jobs for demand insights. For more information, see [Configure the mapping of solution definitions with task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/select-tasks-knowledge-bases.md).
+Complete the KB curation configuration form to define the scheduled jobs for demand insights. For more information, see [Configure the mapping of solution definitions with task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/select-tasks-knowledge-bases.md).
 
 **Related topics**  
 
 
-[Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md)
+[Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md)
 
 [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md)
 
 [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-clustering-solution.md)
 
-[Analyze knowledge gaps from a demand insights dashboard and create knowledge gap feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.md)
+[Analyze knowledge gaps from a demand insights dashboard and create knowledge gap feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.md)
 

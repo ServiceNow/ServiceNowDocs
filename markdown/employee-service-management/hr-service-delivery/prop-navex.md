@@ -2,7 +2,7 @@
 title: Configure properties
 description: Configure properties to ensure that data is properly mapped between the Navex EthicsPoint system and the ServiceNow system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/prop-navex.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/prop-navex.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

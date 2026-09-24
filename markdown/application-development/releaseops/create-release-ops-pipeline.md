@@ -2,7 +2,7 @@
 title: Create a custom pipeline
 description: Create a custom pipeline to move changes from your development environment to production \(or your target instance\) by duplicating one of the ReleaseOps sample playbooks.Create a custom pipeline to move changes through your non-production environment by duplicating the Deployment Request Assessment playbook. Add the deployment analyzer to detect if there are code changes in the deployment and skip Automated Test Framework \(ATF\) tests during assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/create-release-ops-pipeline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/create-release-ops-pipeline.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -25,7 +25,7 @@ For more information about playbooks, see [Exploring Playbook](https://raw.githu
 
 ## About this task
 
-Custom playbooks and pipelines enable you to create deployment structures tailored to the unique needs of your organization's development environment. Custom playbooks and pipelines are best suited for deployment processes that are consistent and expected to occur during each release. For deployment processes that are more variable, you might consider adding runbook tasks instead of custom playbooks or playbook activities. For more information, see [Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/runbook-tasks.md).
+Custom playbooks and pipelines enable you to create deployment structures tailored to the unique needs of your organization's development environment. Custom playbooks and pipelines are best suited for deployment processes that are consistent and expected to occur during each release. For deployment processes that are more variable, you might consider adding runbook tasks instead of custom playbooks or playbook activities. For more information, see [Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/runbook-tasks.md).
 
 ## Procedure
 

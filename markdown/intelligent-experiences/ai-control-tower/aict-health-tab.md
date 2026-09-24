@@ -2,7 +2,7 @@
 title: Health tab in AI Control Tower
 description: Monitor the performance of guardrails enabled through AI Guardian.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/aict-health-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/aict-health-tab.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

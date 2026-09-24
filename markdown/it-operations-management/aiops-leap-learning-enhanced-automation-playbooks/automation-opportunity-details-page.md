@@ -2,7 +2,7 @@
 title: Automation opportunity details page
 description: The automation opportunity details page displays resolution steps, activity, and action insights for a selected automation opportunity \(AO\). The page also indicates whether an AO is active or archived.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/automation-opportunity-details-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/automation-opportunity-details-page.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

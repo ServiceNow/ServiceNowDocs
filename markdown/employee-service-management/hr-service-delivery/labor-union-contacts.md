@@ -2,7 +2,7 @@
 title: Create union contacts
 description: Union Contacts track the people who work for a union or local chapter organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/labor-union-contacts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/labor-union-contacts.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -68,7 +68,7 @@ Labor union
 
 </td><td>
 
-The labor union that the contact person is associated with. **Note:** For more information, see [Create a labor union](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-create.md).
+The labor union that the contact person is associated with. **Note:** For more information, see [Create a labor union](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-unions-create.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Local union chapter
 
 </td><td>
 
-The chapter of the labor union the contact person is associated with.**Note:** For more information, see [Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md).
+The chapter of the labor union the contact person is associated with.**Note:** For more information, see [Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md).
 
 </td></tr><tr><td>
 
@@ -90,5 +90,5 @@ The contact person's role within the labor union.
 </table>4.  Select **Save** or **Submit**.
 
 
-**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions.md)
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-unions.md)
 

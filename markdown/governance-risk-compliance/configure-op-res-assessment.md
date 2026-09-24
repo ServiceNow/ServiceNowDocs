@@ -2,7 +2,7 @@
 title: Set up Legacy assessment template
 description: Create your own questionnaire \(assessment\) template instead of using the default template in the Operational Resilience application to suit your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-op-res-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-op-res-assessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,6 +36,6 @@ Create your own questionnaire \(assessment\) template and request the responses 
 
     \[Omitted image "new-assess-temp-list.png"\] Alt text: New assessment.
 
-    For a description of the field values on the Assessment Templates form, see [Assessment Metric Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/new-assessment-reference.md).
+    For a description of the field values on the Assessment Templates form, see [Assessment Metric Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/new-assessment-reference.md).
 
 

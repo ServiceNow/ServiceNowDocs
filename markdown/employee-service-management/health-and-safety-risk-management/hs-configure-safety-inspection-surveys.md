@@ -2,7 +2,7 @@
 title: Configure a safety inspection or audit survey
 description: Review surveys available with the Health and Safety Risk Management application. Modify the survey, or create one or more surveys to use for different workplaces or to check other areas of concern.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-configure-safety-inspection-surveys.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-configure-safety-inspection-surveys.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -53,7 +53,7 @@ The survey is available for selection in the safety inspection or safety audit r
 
 -   Associate the survey to safety inspections or audits. You can associate any of your pre-built surveys with inspection or audit records in Health and Safety Risk Management.
 
--   You can also configure which survey field types should display the **Create action** check box when completing an inspection or audit from the mobile app. This enables the inspection and audit agents to create any actions on the go related to specific questions. For more information, see [Configure the create action check box for safety inspection survey in the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-create-action-checkbox-mobile-survey.md).
+-   You can also configure which survey field types should display the **Create action** check box when completing an inspection or audit from the mobile app. This enables the inspection and audit agents to create any actions on the go related to specific questions. For more information, see [Configure the create action check box for safety inspection survey in the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-configure-create-action-checkbox-mobile-survey.md).
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

@@ -2,7 +2,7 @@
 title: Customer self-service for Sales Customer Relationship Management release notes
 description: The ServiceNow Business Portal application enables your B2B customers to place orders, request quotes, and get support for orders and invoices through a self-service web portal. Business Portal was enhanced and updated in the Australia release.The ServiceNow Business Portal application enables your B2B customers to place orders, request quotes, and get support for orders and invoices through a self-service web portal. Business Portal was enhanced and updated in the Australia release.The ServiceNow Business Portal application enables your B2B customers to place orders, request quotes, and get support for orders and invoices through a self-service web portal. Business Portal was enhanced and updated in the Australia release.The ServiceNow Business Portal application enables your B2B customers to place orders, request quotes, and get support for orders and invoices through a self-service web portal. Business Portal was enhanced and updated in the Australia release.The ServiceNow Business Portal application enables your B2B customers to place orders, request quotes, and get support for orders and invoices through a self-service web portal. Business Portal was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/customer-self-service-som-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/customer-self-service-som-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-05-21"
@@ -16,18 +16,18 @@ The ServiceNow® Business Portal application enables your B2B customers to place
 
 ## About Customer self-service for Sales Customer Relationship Management
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Enable business-to-business \(B2B\) customers to request quantity changes and shipping location updates for their existing orders, in addition to expedited delivery, through AI-powered chat and voice assistants.
 -   Provide customers with an automatically generated quote when a quantity-change request exceeds the configured price threshold.
 -   Provide customers an option to upload a delivery note during invoice case creation so that the invoice dispute intake assistant AI agent can instantly validate quantity disputes.
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
 
 -   Enable customers to resume and submit invoice cases in draft state.
 -   Review invoice case line details that are relevant to how your case was created.
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   Enable customers to create invoice dispute cases through AI-powered chat and voice assistants that guide them through conversational dispute intake on the Business Portal.
 -   Provide uninterrupted handoff to human agents to support complex use cases, with full conversation context transferred to the CSM/FSM Configurable Workspace.
@@ -49,7 +49,7 @@ See [Customer self-service for Sales Customer Relationship Management](https://r
     The Business Portal application \(sn\_b2b\_portal\) is automatically installed when you install the Customer Service Portal \(sn\_csm\_portal\). Install the Customer Service Portal by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
 
 ## June 2026
 
@@ -171,7 +171,7 @@ The ServiceNow® Business Portal application enables your B2B customers to place
 
     The following plugins are new in Australia:
 
-    -   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+    -   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
         Manage Invoice Operations \(com.sn\_inv\_ops\_aias\): Delivers AI-powered assistants that handle invoice dispute intake directly from the portal, resolves eligible cases autonomously, and seamlessly escalates to a human agent when needed. In the workspace, it continues to assist human agents by providing relevant insights and actions to accelerate invoice case resolution.
 

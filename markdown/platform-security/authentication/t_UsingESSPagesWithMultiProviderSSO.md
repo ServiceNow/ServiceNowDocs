@@ -2,7 +2,7 @@
 title: Use Service Portal with Multi-Provider SSO to redirect a URL
 description: Service Portal uses a combination of system properties and script includes to determine how the system handles URL redirects for users logging in to the portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_UsingESSPagesWithMultiProviderSSO.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_UsingESSPagesWithMultiProviderSSO.html
 release: australia
 product: Authentication
 classification: authentication

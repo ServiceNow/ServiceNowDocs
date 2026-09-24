@@ -2,7 +2,7 @@
 title: Download Microsoft Outlook Add-In for Legal Service Delivery manifest file
 description: As an admin, download Microsoft Outlook Add-In for Legal Service Delivery manifest file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-outlk-addin-manifest-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-outlk-addin-manifest-file.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -50,7 +50,7 @@ Role required: sn\_lg\_outlook.admin
 
 ## What to do next
 
-[Deploy Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-enable-outllook-addin.md).
+[Deploy Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-enable-outllook-addin.md).
 
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 

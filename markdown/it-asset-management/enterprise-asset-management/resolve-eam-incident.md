@@ -2,7 +2,7 @@
 title: Resolve and close an Enterprise Asset Management incident
 description: Take action on the assets that are affected by an Enterprise Asset Management incident so that you can resolve and close the incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/resolve-eam-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/resolve-eam-incident.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -88,5 +88,5 @@ Role required: itil
     The incident is closed.
 
 
-**Parent Topic:**[Managing incidents in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-eam-incidents.md)
+**Parent Topic:**[Managing incidents in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/managing-eam-incidents.md)
 

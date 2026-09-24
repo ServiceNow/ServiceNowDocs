@@ -2,7 +2,7 @@
 title: Performing admin user functions in Next Experience
 description: Use admin functions in the Next Experience user menu to elevate roles, impersonate users, and configure a workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-next-experience-admin-user-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/use-next-experience-admin-user-menu.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,5 +61,5 @@ Dynamic links to configuration pages to access configurations relevant to lists 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 

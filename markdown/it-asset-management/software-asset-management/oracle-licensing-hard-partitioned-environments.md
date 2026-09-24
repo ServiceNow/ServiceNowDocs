@@ -2,7 +2,7 @@
 title: Oracle Database and WebLogic Server licensing in hard-partitioned environments
 description: The Software Asset Management application supports Oracle hard-partitioning licensing rules for IBM AIX Logical Partition \(LPAR\), Solaris Logical Domain \(LDOM\), and Solaris Zone.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/oracle-licensing-hard-partitioned-environments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/oracle-licensing-hard-partitioned-environments.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -97,11 +97,11 @@ A logical domain \(LDOM\) is a distinct logical unit within a single computer sy
 
 The ServiceNow Discovery application uses the Solaris LDOM infrastructure pattern and Solaris LDOM shared library pattern to find all LDOM data. For information on Solaris LDOM discovery, see [Oracle Solaris LDOM discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/solaris-ldom-discovery.md).
 
-The Software Asset Management application supports licensing of Oracle Database Server and WebLogic Server installed on the Solaris LDOM, version 2.0 and above, for Per Processor and Named User Plus \(NUP\) license metrics. To license your Oracle Database or WebLogic server installations, rights should be allocated to the physical server that runs the Solaris LDOM configuration. For details on the licensing of Oracle products, see [Software model metric attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sw-metric-attributes.md).
+The Software Asset Management application supports licensing of Oracle Database Server and WebLogic Server installed on the Solaris LDOM, version 2.0 and above, for Per Processor and Named User Plus \(NUP\) license metrics. To license your Oracle Database or WebLogic server installations, rights should be allocated to the physical server that runs the Solaris LDOM configuration. For details on the licensing of Oracle products, see [Software model metric attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sw-metric-attributes.md).
 
 ## Solaris zones
 
 You can set up a global zone on a Solaris server and hard partition it with multiple local zones. You can then run an Oracle Database or WebLogic server on one or more local zones. To license your Oracle Database or WebLogic server installations, rights should be allocated to the physical host that runs the entire Solaris zone configuration. For the Per Processor license metric, rights must cover the cores for all local zones up to the maximum capacity of the physical host. For the NUP license metric, rights must cover the clients that access the Database or WebLogic server on the local zones. For information on Solaris zone discovery, see [Solaris discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_DataCollDiscoSolarisComputers.md).
 
-**Parent Topic:**[Oracle Database and WebLogic Server licensing in partitioned environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-licensing-partitioned-environments.md)
+**Parent Topic:**[Oracle Database and WebLogic Server licensing in partitioned environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/oracle-licensing-partitioned-environments.md)
 

@@ -2,7 +2,7 @@
 title: Card illustrations in Theme Builder
 description: Card illustrations are used to improve the clarity or scannability of a feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/card-illustrations-tb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/card-illustrations-tb.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,10 +34,10 @@ To override the default card illustrations with custom images, upload each image
 |Format|SVG|
 |File size limit|2 MB|
 
--   **[Configure colors for card illustrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-card-colors.md)**  
+-   **[Configure colors for card illustrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-card-colors.md)**  
 Configure and control the colors automatically applied to card illustrations images to keep your visual experience engaging while maintaining brand recognition.
--   **[Override card illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/override-card-with-custom-images.md)**  
+-   **[Override card illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/override-card-with-custom-images.md)**  
 Modify or override the default card illustrations with your own custom images to promote visual elements that reflect your company's branding.
 
-**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-image-styles.md)
+**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-with-image-styles.md)
 

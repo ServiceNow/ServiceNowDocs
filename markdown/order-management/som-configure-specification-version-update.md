@@ -2,7 +2,7 @@
 title: Configure update specification versions
 description: Configure specification version updates so that product specification versions can be updated to reflect changes and updates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-configure-specification-version-update.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-configure-specification-version-update.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,12 +37,12 @@ To configure the product specification version change, modify the check-for-an-i
     The specification version update is activated.
 
 
-**Parent Topic:**[Updating specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-specification-version-update.md)
+**Parent Topic:**[Updating specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-specification-version-update.md)
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

@@ -2,7 +2,7 @@
 title: Natural Language Understanding
 description: ServiceNow Natural Language Understanding \(NLU\) provides an NLU Workbench and an NLU inference service that you can use to enable the system to learn and respond to human-expressed intent. By entering natural language examples into the system, you help it understand word meanings and contexts so it can infer user or system actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/nlu-landing.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -18,7 +18,7 @@ ServiceNow® Natural Language Understanding \(NLU\) provides an NLU Workbench an
 
 ## Overview of Natural Language Understanding
 
-For an overview of Natural Language Understanding, see [Exploring Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-explore.md).
+For an overview of Natural Language Understanding, see [Exploring Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-explore.md).
 
 ## NLU terminology
 
@@ -63,7 +63,7 @@ Use the NLU Workbench to create morphological representations of human language.
 
 Using the nlu\_admin role, you build your models in the NLU Workbench, where you create, train, test, and publish them iteratively.
 
-For information on how to build and use an NLU model, see: [Create an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-modelx.md).
+For information on how to build and use an NLU model, see: [Create an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/create-nlu-modelx.md).
 
 ## NLU inference service
 
@@ -81,19 +81,19 @@ For example, Virtual Agent administrators can configure a Virtual Agent Designer
 
 <table id="table_lhx_jch_czb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about NLU concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about NLU concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-explore.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Create, test, translate, and publish your NLU models.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-models.md)
+[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Create, test, translate, and publish your NLU models.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-models.md)
 
 </td></tr><tr><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how Virtual Agent administrators can update NLU models from within Virtual Agent Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/virtual-agent-nlu-model-builder-integration.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how Virtual Agent administrators can update NLU models from within Virtual Agent Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/virtual-agent-nlu-model-builder-integration.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about using models in different languages for use in other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-language-support.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about using models in different languages for use in other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-language-support.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

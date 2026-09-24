@@ -2,7 +2,7 @@
 title: Open an existing exploration
 description: In AI Data Explorer, you can open any exploration that you own or that has been shared with you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/open-existing-exploration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/open-existing-exploration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: Any role to open an exploration that has been shared with you. no
 4.  Select the exploration name to open it.
 
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/use-aide.md)
 

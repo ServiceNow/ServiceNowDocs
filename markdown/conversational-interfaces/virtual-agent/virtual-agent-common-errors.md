@@ -2,7 +2,7 @@
 title: Common errors in Virtual Agent API
 description: This section describes some common errors in Virtual Agent API and how they can be resolved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/virtual-agent-common-errors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/virtual-agent-common-errors.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -248,5 +248,5 @@ The `emailId` must match a `sys_user` record that meets all of the below conditi
     -   Review auto-link script for modifications.
     -   Test with OOB script if customized.
 
-**Parent Topic:**[Virtual Agent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-api-reference.md)
+**Parent Topic:**[Virtual Agent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-api-reference.md)
 

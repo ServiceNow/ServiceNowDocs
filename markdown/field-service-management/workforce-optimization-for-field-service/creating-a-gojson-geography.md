@@ -2,7 +2,7 @@
 title: Creating a GeoJSON geography
 description: Create a GeoJSON geography by importing GeoJSON co-ordinates or drawing shapes directly on the map.Create a geography of type GeoJSON.Draw boundaries on the map to define your geographic areas and create GeoJSON geographies. These geographies not only give you a clear visual on the map but also used task scheduling.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/creating-a-gojson-geography.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/creating-a-gojson-geography.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -55,7 +55,7 @@ After creating a GeoJSON geography, connect it to a territory for work order man
 
 ### What to do next
 
-Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
+Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
 
 ## Create a GeoJSON geography in Territory Planning console
 
@@ -106,5 +106,5 @@ After creating a GeoJSON geography, connect it to a territory for work order man
 
 ### What to do next
 
-Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
+Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
 

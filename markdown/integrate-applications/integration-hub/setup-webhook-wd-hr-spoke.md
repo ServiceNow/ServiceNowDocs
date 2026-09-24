@@ -2,7 +2,7 @@
 title: Set up webhooks for your Workday HR spoke
 description: Retrieve details the required employees in the Workday HR application to your ServiceNow instance by setting up the webhooks.Configure API client in Workday to authenticate webhook requests.Use the CreateUser Webhook to get the details of the newly onboarded employee from Workday to your ServiceNow instance.Generate user name and password in your ServiceNow instance to authenticate requests for Create User webhook and retrieve the required data from the Workday application.Retrieve the resource path from your ServiceNow instance for later use to authenticate Create User webhook requests and retrieve the required data from the Workday applicationImport CLAR file available at ServiceNow Store to set up Create User webhook and authenticate requests from ServiceNow instance.Use the Offboarding Webhook to get the details of the offboarded employee from Workday to your ServiceNow instance.Generate user name and password in your ServiceNow instance to authenticate requests for Offboarding webhook and retrieve the required data from the Workday application.Retrieve the resource path from your ServiceNow instance for later use to authenticate Offboard webhook requests and retrieve the required data from the Workday applicationImport CLAR file available at ServiceNow Store to set up Offboarding webhook and authenticate requests from ServiceNow instance.Use the LeaveofAbsence Webhook to get leave of absence details of an employee from Workday to your ServiceNow instance.Generate user name and password in your ServiceNow instance to authenticate requests for LeaveofAbsence webhook and retrieve the required data from the Workday application.Retrieve the resource path from your ServiceNow instance for later use to authenticate Offboard webhook requests and retrieve the required data from the Workday applicationImport CLAR file available at ServiceNow Store to set up LeaveofAbsence webhook and authenticate requests from ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -201,7 +201,7 @@ Endpoint
 
 </td><td>
 
-REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
+REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -222,7 +222,7 @@ POST
 
     \[Omitted image "conf-int-attributes-wd.png"\] Alt text: Configure Integration Attributes
 
-14. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md).
+14. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webhk-wd.md).
 
     \[Omitted image "username-pwd-wd-hr.png"\] Alt text: Configure integration attributes
 
@@ -415,7 +415,7 @@ Endpoint
 
 </td><td>
 
-REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
+REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -436,7 +436,7 @@ POST
 
     \[Omitted image "config-intgrt-attributes-offboarding.jpg"\] Alt text: configure integration attributes offboarding
 
-15. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance for Offboarding webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.md).
+15. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance for Offboarding webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.md).
 
     \[Omitted image "usernm-pwd-attri-offboarding.jpg"\] Alt text: integration attributes configuration offboarding webhook
 
@@ -637,7 +637,7 @@ Endpoint
 
 </td><td>
 
-REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
+REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -658,7 +658,7 @@ POST
 
     \[Omitted image "config-integ-attributes-leave-absence.jpg"\] Alt text: Configure integration attributes for leave of absence webhook
 
-15. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance for LeaveofAbsence webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.md).
+15. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance for LeaveofAbsence webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.md).
 
     \[Omitted image "usrname-pwd-attributes-leave-absence.jpg"\] Alt text: user name and password for integration attributes configuration
 

@@ -2,12 +2,12 @@
 title: Delivery address filtering at checkout
 description: When a shopper removes a saved delivery address, the Deleted column in the Delivery locations table is set to true for that address record. The Shopping Hub checkout flow automatically filters out all addresses where the Deleted column is true, so those addresses do not appear as options during checkout.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/delivery-address-filtering-checkout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/delivery-address-filtering-checkout.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [address suppression, checkout, deleted addresses]
 breadcrumb: [Saved delivery addresses, Shopping Hub, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
@@ -42,5 +42,5 @@ If a cart line is assigned to a delivery address that is deleted, Shopping Hub a
 
 No cart line references an invalid or deleted address when the shopper proceeds to checkout.
 
-**Parent Topic:**[Managing saved delivery addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-overview.md)
+**Parent Topic:**[Managing saved delivery addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-overview.md)
 

@@ -2,7 +2,7 @@
 title: Configure the Playbook tab component for your workspace
 description: Use the Tabs component in UI Builder to configure the Playbook tab on the contract repository record page for your workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-confg-playbook-comp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-confg-playbook-comp.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -83,5 +83,5 @@ Role required: admin
 14. Select **Save** on the UI Builder header.
 
 
-**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
+**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
 

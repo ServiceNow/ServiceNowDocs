@@ -2,7 +2,7 @@
 title: Community subscriptions
 description: Using subscriptions, you can choose specific areas of interest. Your activity feed and notifications are personalized according to your subscriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/c\_communities-subscriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/c\_communities-subscriptions.html
 release: australia
 product: Communities
 classification: communities
@@ -51,12 +51,12 @@ Notification settings
 -   For each of your subscriptions, set email notifications using **Notification Preferences**.
 
 </td></tr></tbody>
-</table>-   **[Subscribe to content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/subscribe.md)**  
+</table>-   **[Subscribe to content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/subscribe.md)**  
 Subscribe to forums, topics, questions, blogs, and videos. You are automatically subscribed to content that you create.
--   **[Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/manage-subscriptions.md)**  
+-   **[Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/manage-subscriptions.md)**  
 Set notification preferences to receive updates via email on the content that you are following.
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

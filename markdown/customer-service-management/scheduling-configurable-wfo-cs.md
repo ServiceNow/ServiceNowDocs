@@ -2,7 +2,7 @@
 title: Scheduling in Workforce Optimization for Customer Service
 description: By using Scheduling, you can manage your workforce resources efficiently by planning and managing schedules, staffing, and shifts across your teams all from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/scheduling-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/scheduling-configurable-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,30 +26,30 @@ With Scheduling, you can do the following:
 
 To delve into more information behind your key performance indicators, filters and sidebars, see [Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
 
--   **[Create a shift plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-shift-plan-configurable-wfo-cs.md)**  
+-   **[Create a shift plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-shift-plan-configurable-wfo-cs.md)**  
 Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.
--   **[Create a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-schedule-plan-configurable-wfo-cs.md)**  
+-   **[Create a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-schedule-plan-configurable-wfo-cs.md)**  
 Manage your team's schedule by creating a schedule plan that covers a span of time and includes your team's work shifts. You can also assign agents to shifts based on their skills and availability. This way, you can make sure that you are using your resources in the best way possible for your organization.
--   **[Publish a schedule plan for visibility into team coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/generate-preview-schedule-plan-configurable-wfo-cs.md)**  
+-   **[Publish a schedule plan for visibility into team coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/generate-preview-schedule-plan-configurable-wfo-cs.md)**  
 Generate a preview of your schedule plan and publish it so that your agents can see their shifts and schedules ahead of time. You can unpublish a schedule to make changes and then publish it again.
--   **[Track and manage your team schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-manage-teams-schedule-configurable-wfo.md)**  
+-   **[Track and manage your team schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/track-manage-teams-schedule-configurable-wfo.md)**  
 Create, update, or monitor the schedule for your team from one location. You can approve or reject requests for swapping shifts or time off for agents within your assignment group.
--   **[Create recurring meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-recurring-meeting-wfo.md)**  
+-   **[Create recurring meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-recurring-meeting-wfo.md)**  
 Set recurring meetings or training sessions for your team from the Schedule tab. You can create daily, weekly, monthly, or yearly meetings.
--   **[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-schedule-adherence-configurable-wfo.md)**  
+-   **[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-schedule-adherence-configurable-wfo.md)**  
 Use schedule adherence to evaluate whether or not your agents are adhering to their assigned schedules. You can look for areas where low-value activity can be eliminated or reduced and further analyze staffing levels throughout the day.
--   **[Analyze conformance from time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)**  
+-   **[Analyze conformance from time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)**  
 View the time worked summary of your team members to determine if your teams are adhering to the planned schedules. You can also use historical adherence, which is a reporting view of real-time adherence, to see how well your agents have followed their schedules in the past.
--   **[Analyze staff alignment using Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analyze-staff-alignment-configurable-wfo-cs.md)**  
+-   **[Analyze staff alignment using Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analyze-staff-alignment-configurable-wfo-cs.md)**  
 Use Demand Forecast to plan the number of staff members that you require so that you have enough agents to do the job.
--   **[Add events to the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-event-calendar-configurable-wfo-cs.md)**  
+-   **[Add events to the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/adding-event-calendar-configurable-wfo-cs.md)**  
 Create a meeting, training, time-off request, or an ad hoc work event from the team calendar.
--   **[Swap agent shifts in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/swap-agent-shifts-configurable-wfo-cs.md)**  
+-   **[Swap agent shifts in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/swap-agent-shifts-configurable-wfo-cs.md)**  
 Swap an agent's shift in an assignment group with another agent who can work on that shift and skip the approval process.
--   **[Enable your teams to sign up for work shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-shift-signup-wfo-csm.md)**  
+-   **[Enable your teams to sign up for work shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/agent-shift-signup-wfo-csm.md)**  
 Empower your teams to sign up for work shifts based on their availability and preference.
--   **[Sign up for your preferred shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/sign-up-preferred-shifts-wfo-csm.md)**  
+-   **[Sign up for your preferred shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/sign-up-preferred-shifts-wfo-csm.md)**  
 Specify one or more shifts in a schedule plan for which you would prefer to sign up.
 
-**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-configurable-wfo-cs.md)
 

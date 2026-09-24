@@ -2,7 +2,7 @@
 title: Configure the polling interval
 description: The polling interval determines how frequently the system polls for new Connect messages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_ConfigureThePollingInterval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/t\_ConfigureThePollingInterval.html
 release: australia
 product: Connect
 classification: connect

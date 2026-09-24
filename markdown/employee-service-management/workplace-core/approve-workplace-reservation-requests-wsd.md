@@ -2,7 +2,7 @@
 title: Approve employee workplace reservation requests
 description: Review employee area and space reservation requests in Workplace Core and approve or reject them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/approve-workplace-reservation-requests-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/approve-workplace-reservation-requests-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -18,7 +18,7 @@ Review employee area and space reservation requests in Workplace Core and approv
 
 ## Before you begin
 
-To approve or reject a workplace request using your mobile device, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
+To approve or reject a workplace request using your mobile device, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: approver\_user
 
@@ -26,15 +26,15 @@ Role required: approver\_user
 
 1.  Navigate to a reservation approval task.
 
-<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d488687e71">
+<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d488691e71">
 
 Application
 
-</th><th align="left" id="d488687e74">
+</th><th align="left" id="d488691e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d488687e80">
+</th></tr></thead><tbody><tr><td id="d488691e80">
 
 **Now Mobile**
 
@@ -50,7 +50,7 @@ In the Now Mobile app, open a task from the My Tasks section.
 3.  Approve or reject the request by selecting **Approve** or **Reject**.
 
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

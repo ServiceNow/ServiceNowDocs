@@ -2,7 +2,7 @@
 title: Set breakdown definitions
 description: Set the breakdown definitions that act as filters for your project. Breakdown definitions are used to filter and analyze the data based on specific criteria or attributes. These definitions enable you to break down the analysis into smaller subsets, focusing on specific dimensions or perspectives of the process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/breakdown.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/breakdown.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -20,7 +20,7 @@ Set the breakdown definitions that act as filters for your project. Breakdown de
 
 Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
--   [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md)
+-   [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/define-workflow-model.md)
 
 ## About this task
 
@@ -59,7 +59,7 @@ This is an optional task.
 
 6.  Select any breakdown from the list or the recommendations.
 
-    These recommendations come from the process configuration set for the table on which the project is based. They are derived from the Breakdown fields section of the Process details page in the Process Configuration Builder. For more information, see [Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-details.md).
+    These recommendations come from the process configuration set for the table on which the project is based. They are derived from the Breakdown fields section of the Process details page in the Process Configuration Builder. For more information, see [Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-details.md).
 
     If no value is set in the Process Configuration Builder, then no recommendation is provided.
 
@@ -78,5 +78,5 @@ This is an optional task.
     If you want to add or edit anything in the **Scope your analysis** page, select **Previous**.
 
 
-**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/scope-analysis.md)
 

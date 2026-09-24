@@ -2,7 +2,7 @@
 title: Configure an OAuth profile to use certificates for authentication with Microsoft Azure
 description: Configure an OAuth application profile to authenticate using certificates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-oauth-profile-using-certificates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configure-oauth-profile-using-certificates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,16 +73,16 @@ Role required: admin and Microsoft Azure portal administrator
 
 ## What to do next
 
-[Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-jwt-provider.md)
+[Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-jwt-provider.md)
 
--   **[Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-jwt-provider.md)**  
+-   **[Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-jwt-provider.md)**  
 Configure a JWT provider on the ServiceNow AI Platform to configure an OAuth application profile to authenticate using certificates.
--   **[Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/generate-thumbprint.md)**  
+-   **[Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/generate-thumbprint.md)**  
 Generate a SHA-1 thumbprint using the JWT provider's sys\_id and JKS certificate's sys\_id and certificate's alias to be added to the GraphCertificateOAuthTemplate script.
--   **[Create an OAuth API script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/oauth-api-script.md)**  
+-   **[Create an OAuth API script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/oauth-api-script.md)**  
 Create and duplicate an OAuth API script for application registry.
 
-**Parent Topic:**[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-email-using-ms-graph.md)
+**Parent Topic:**[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/read-email-using-ms-graph.md)
 
 **Related topics**  
 

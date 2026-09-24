@@ -2,7 +2,7 @@
 title: Craft spoke
 description: Manage alerts and retrieve company information from Craft from your ServiceNow instance.Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/craft-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/craft-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

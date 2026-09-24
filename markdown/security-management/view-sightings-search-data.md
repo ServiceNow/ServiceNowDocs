@@ -2,7 +2,7 @@
 title: View Sightings Search Data
 description: Review the aggregate data of all sighting searches.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/view-sightings-search-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/view-sightings-search-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -120,5 +120,5 @@ Query to identify the instance. 172.10.0.171 is substitutable and gets substitut
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-search-configurations.md)
+**Parent Topic:**[Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-search-configurations.md)
 

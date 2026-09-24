@@ -2,7 +2,7 @@
 title: Configure retention period and cleanup of pending AI action suggestions
 description: Configure how long the pending AI-generated action suggestions are retained before they are automatically deleted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-configure-deletion-pending-ai-action-suggestions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/hs-configure-deletion-pending-ai-action-suggestions.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -20,7 +20,7 @@ Configure how long the pending AI-generated action suggestions are retained befo
 
 Verify the following conditions:
 
--   The ServiceNow Otto for Health and Safety application \(sn\_hs\_gen\_ai\) is installed. For more information, see [Install ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
+-   The ServiceNow Otto for Health and Safety application \(sn\_hs\_gen\_ai\) is installed. For more information, see [Install ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
 -   The application scope is selected as Health and Safety Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_ohs\_im.admin
@@ -29,7 +29,7 @@ Role required: sn\_ohs\_im.admin
 
 When the Action Planner generates AI suggestions, they are stored in the AI action suggestion \[sn\_ohs\_im\_ai\_action\_suggestion\] staging table. Users accept the suggestions to create actions or dismiss them. Suggestions that are never acted on \(that is, not accepted for action creation or dismissed\) accumulate over time and remain in the Pending state. A scheduled cleanup job deletes these pending suggestions after the configured number of days, helping to keep the staging table manageable.
 
-For information on using Action planner for AI suggested actions, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
+For information on using Action planner for AI suggested actions, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
 
 ## Procedure
 
@@ -57,5 +57,5 @@ For information on using Action planner for AI suggested actions, see [Generate 
 -   The scheduled job runs daily at the specified time. On each run, it queries the AI action suggestion \[sn\_ohs\_im\_ai\_action\_suggestion\] staging table for suggestions with `status = Pending` that are older than the configured retention period and deletes them.
 -   Suggestions with `status = Accepted` or `status = Rejected` aren't deleted by the scheduled job, regardless of age.
 
-**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 

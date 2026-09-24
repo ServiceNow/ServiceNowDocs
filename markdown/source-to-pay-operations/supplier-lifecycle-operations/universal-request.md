@@ -2,7 +2,7 @@
 title: Universal Request
 description: The Universal Request feature enables supplier contacts to raise issues that do not fit into predefined case types or involve multiple departments. It provides a structured workflow for routing and resolution of queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/universal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/universal-request.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Supplier Lifecycle Operations, Finance and Supply Chain]
 
 The Universal Request feature enables supplier contacts to raise issues that do not fit into predefined case types or involve multiple departments. It provides a structured workflow for routing and resolution of queries.
 
-You must install the Universal Request for Source-to-Pay Operations plugin \[sn\_fsc\_ur\_common\] to enable the Universal Request feature in SLO. For more information on installing the plugin, see [Install Universal Request for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-universal-request.md).
+You must install the Universal Request for Source-to-Pay Operations plugin \[sn\_fsc\_ur\_common\] to enable the Universal Request feature in SLO. For more information on installing the plugin, see [Install Universal Request for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-universal-request.md).
 
 ## Key Stakeholders
 
@@ -35,17 +35,17 @@ For more information on roles in Universal requests, see [Universal Request role
 
 1.  Submission of a Universal request
 
-    The supplier contact submits a Universal request from the Supplier Collaboration portal. For more information on raising a Universal request, see [Create a Universal Request from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-universal-request.md).
+    The supplier contact submits a Universal request from the Supplier Collaboration portal. For more information on raising a Universal request, see [Create a Universal Request from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-universal-request.md).
 
 2.  Assignment of the Universal request
     -   For requests that are marked as sensitive, suppliers select the department at the time of request submission. The request is assigned automatically to the corresponding assignment group.
 
-        **Note:** Suppliers can mark a Universal request as sensitive by selecting the **Issue contains sensitive or confidential information** check box while submitting the request form. For more information, see [Create a Universal Request from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-universal-request.md).
+        **Note:** Suppliers can mark a Universal request as sensitive by selecting the **Issue contains sensitive or confidential information** check box while submitting the request form. For more information, see [Create a Universal Request from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-universal-request.md).
 
     -   For requests that aren’t marked as sensitive, routing agents review the request and route them to an appropriate assignment group based on the information provided in the description and short description by the supplier.
 3.  Primary ticket creation
     -   For requests that are marked as sensitive, a primary ticket of the type supplier case is created automatically.
-    -   For requests that aren’t marked as sensitive, routing agents must create a supplier case for resolution. For more information, see [Create supplier case from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.md).
+    -   For requests that aren’t marked as sensitive, routing agents must create a supplier case for resolution. For more information, see [Create supplier case from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.md).
 
         **Note:** Routing agents can also create an invoice case instead of a supplier case from a Universal request if they have the required permissions.
 
@@ -60,7 +60,7 @@ When a Universal request needs support from multiple departments, you can create
 **Related topics**  
 
 
-[Create a Universal Request from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-universal-request.md)
+[Create a Universal Request from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-universal-request.md)
 
-[Create supplier case from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.md)
+[Create supplier case from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.md)
 

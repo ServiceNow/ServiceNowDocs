@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Employee Center Pro
 description: ServiceNow Otto for Employee Center Pro expands across AI-powered capabilities, enterprise search, and omnichannel delivery to meet productivity needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/na-ec-pro-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/na-ec-pro-landing.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,11 +25,11 @@ ServiceNow Otto for Employee Center Pro offers the portal experience with all th
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/na-emp-center-pro-exploring.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for Employee Center Pro concepts and features.
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/na-emp-center-pro-exploring.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for Employee Center Pro concepts and features.
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/na-emp-cente-pro-configuring.md)
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/na-emp-cente-pro-configuring.md)
 
 \[Omitted image "bus-sdlc.svg"\] Alt text:Set-up the ServiceNow Otto for Employee Center Pro applications and features.
 

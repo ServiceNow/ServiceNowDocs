@@ -2,7 +2,7 @@
 title: Activate Field Service Agent Efficiency
 description: You can activate the Field Service Agent Efficiency plugin \(com.snc.fsm\_agent\_efficiency\) if you have the admin role. The application includes demo data and installs related plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/activate-field-service-agent-efficiency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/activate-field-service-agent-efficiency.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -33,7 +33,7 @@ The following items are installed with Field Service Agent Efficiency:
 -   Plugins
 -   Tables
 
-For more information, see [Field Service Agent Efficiency components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-agent-efficiency-components.md).
+For more information, see [Field Service Agent Efficiency components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-agent-efficiency-components.md).
 
 ## Procedure
 

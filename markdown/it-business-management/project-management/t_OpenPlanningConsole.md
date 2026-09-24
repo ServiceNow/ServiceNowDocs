@@ -2,7 +2,7 @@
 title: Open the project planning console
 description: Access the planning console to perform the planning for the project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_OpenPlanningConsole.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_OpenPlanningConsole.html
 release: australia
 product: Project Management
 classification: project-management
@@ -24,25 +24,25 @@ Role required: it\_project\_manager
 
 -   Open the planning console using any of the following methods.
 
-<table id="choicetable_tt5_jhn_sdb"><thead><tr><th align="left" id="d288114e68">
+<table id="choicetable_tt5_jhn_sdb"><thead><tr><th align="left" id="d287827e68">
 
 Option
 
-</th><th align="left" id="d288114e71">
+</th><th align="left" id="d287827e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d288114e77">
+</th></tr></thead><tbody><tr><td id="d287827e77">
 
 **From project workspace**
 
 </td><td>
 
-1.  Open a project record in [project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-the-project-workspace.md).
+1.  Open a project record in [project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/access-the-project-workspace.md).
 2.  Select the **Planning** tab.
 
 
-</td></tr><tr><td id="d288114e105">
+</td></tr><tr><td id="d287827e105">
 
 **From a project record**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select the **Planning Console** related link.
 
 
-</td></tr><tr><td id="d288114e129">
+</td></tr><tr><td id="d287827e129">
 
 **From Project Workbench**
 
@@ -64,7 +64,7 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
+**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Integrating ServiceNow with your Intranet
 description: You can add a ServiceNow login link to your intranet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_IntegratServiceNowIntranet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_IntegratServiceNowIntranet.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,5 +16,5 @@ You can add a ServiceNow login link to your intranet.
 
 To deliver ServiceNow content from a web page, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md).
 
-**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_SupportedIntegrationInterfaces.md)
+**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_SupportedIntegrationInterfaces.md)
 

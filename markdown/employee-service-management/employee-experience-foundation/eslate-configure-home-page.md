@@ -2,7 +2,7 @@
 title: Configure the home page
 description: Configure the home page in EmployeeWorks Web App. Set the AI chat entry, the out-of-the-box widget lineup, and the quick links shown to employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-home-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-home-page.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -41,11 +41,11 @@ Configure each widget to scope the content for the audience.
 
     \[Omitted image "es-home-widget-config.png"\] Alt text: Home widget configuration in the Product Configuration console
 
-3.  [Configure the home page background](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-home-page-background.md).
+3.  [Configure the home page background](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-home-page-background.md).
 
     Set a solid color, gradient, or image background, and match the logo and text color to the background.
 
-4.  [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md) widget.
+4.  [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md) widget.
 
     Set the task types and the source queues that appear in the widget. Employees can take action on a task from the widget or open the detailed Tasks and requests view.
 
@@ -53,15 +53,15 @@ Configure each widget to scope the content for the audience.
 
     Select the announcement source and the carousel order. Employees can select a slide to open the announcement details.
 
-6.  [Configure the Upcoming Holiday widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.md).
+6.  [Configure the Upcoming Holiday widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.md).
 
     Set the holiday source by work location. Employees view the next holiday based on the location set on the user record.
 
-7.  [Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md).
+7.  [Configure quick links from the admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-manage-quick-links-console.md).
 
     Add knowledge articles, catalog items, or external links. Employees select a link to navigate directly to the destination.
 
-8.  [Configure notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md)
+8.  [Configure notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-notifications.md)
 
 9.  Configure the **Popular Content** widget.
 

@@ -2,7 +2,7 @@
 title: Verify the Trigger Condition Filters
 description: Validate the profile, and verify that the trigger condition filters that you have configured are working as expected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-the-trigger-condition-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/verify-the-trigger-condition-filters.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

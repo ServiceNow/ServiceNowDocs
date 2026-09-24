@@ -2,7 +2,7 @@
 title: Enable or disable the management of an AI asset
 description: Enable or disable the management of an AI asset by designating it as either managed or unmanaged.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/enable-disable-ai-asset-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/enable-disable-ai-asset-management.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

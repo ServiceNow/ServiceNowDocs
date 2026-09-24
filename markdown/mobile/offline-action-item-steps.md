@@ -2,7 +2,7 @@
 title: Using action items and action item steps in ofﬂine mode
 description: Action items or writeback actions are user-initiated actions that send data changes to the ServiceNow instance. While offline, writeback actions are queued and automatically synced back, once connectivity is restored.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/offline-action-item-steps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/offline-action-item-steps.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-01"
@@ -74,12 +74,12 @@ The writeback action serves as the parent, containing one or more steps that can
     -   Selecting the Save progress button in input forms stores the data locally on the user’s device.
     -   Ensuring business-critical actions remain available even in areas with poor or no network coverage.
 
--   **[General guidelines for action items synchronization behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/action-item-general-guideline.md)**  
+-   **[General guidelines for action items synchronization behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/action-item-general-guideline.md)**  
 When working with action items keep these general guidelines in mind for usability and a good user experience.
--   **[Configure action items and action steps in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-action-item-offline.md)**  
+-   **[Configure action items and action steps in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-action-item-offline.md)**  
 Configure action items to execute actions like create, edit and delete records while in offline mode. For an action item to perform multiple processes you must define separate action steps.
--   **[Offline record reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-record-reconciliation.md)**  
+-   **[Offline record reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-record-reconciliation.md)**  
 Configure offline mode to include associated records in the offline cache when users perform an action in online mode.
 
-**Parent Topic:**[Offline mode setup options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-setup-options.md)
+**Parent Topic:**[Offline mode setup options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-setup-options.md)
 

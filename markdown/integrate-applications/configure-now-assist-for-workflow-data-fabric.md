@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Workflow Data Fabric \(WDF\)
 description: If you have the admin role, you can configure the ServiceNow Otto for Workflow Data Fabric \(WDF\) application to enable AI capabilities across the Workflow Data Fabric platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-now-assist-for-workflow-data-fabric.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-now-assist-for-workflow-data-fabric.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

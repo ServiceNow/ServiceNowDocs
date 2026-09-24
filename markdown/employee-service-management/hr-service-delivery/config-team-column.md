@@ -2,7 +2,7 @@
 title: Default configurations for team column data
 description: Predefined set of team data configurations are available to use after you have activated Manager Hub from ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-team-column.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/config-team-column.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +25,7 @@ Predefined set of team data configurations are available to use after you have a
 
 For more details, navigate to **All** &gt; **Manager Hub** &gt; **Administration** &gt; **Team Column Configuration**.
 
-**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Use the Core UI navigator
 description: Everyone can collapse and expand the navigator, work with favorites, and view navigation history in Core UI.You can collapse or expand information in the application navigator to display only what you want to see.You can add, edit, or delete favorites for frequently accessed items in the application navigator.In Core UI, you can view your navigation history in the application navigator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/ui16-navigator-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/ui16-navigator-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: admin
 
 Complete any of the following tasks to work with the navigator in Core UI.
 
-**Parent Topic:**[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UI16ApplicationNavigator.md)
+**Parent Topic:**[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UI16ApplicationNavigator.md)
 
 ## Collapse or expand information in the Core UI application navigator
 

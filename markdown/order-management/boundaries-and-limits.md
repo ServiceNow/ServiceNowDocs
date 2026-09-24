@@ -2,7 +2,7 @@
 title: Boundaries and limits
 description: View a list of boundaries and limits in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/boundaries-and-limits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/boundaries-and-limits.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

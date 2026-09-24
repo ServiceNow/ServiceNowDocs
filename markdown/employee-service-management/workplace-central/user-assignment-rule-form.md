@@ -2,7 +2,7 @@
 title: Neighborhood User Assignment Rule form
 description: The Neighborhood User Assignment Rule form specifies conditions based on which users or their profiles must be assigned to the neighborhood.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/user-assignment-rule-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/user-assignment-rule-form.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -98,7 +98,7 @@ Filter
 Conditions used to filter users from the selected table. For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

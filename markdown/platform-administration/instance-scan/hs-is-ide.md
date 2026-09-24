@@ -2,7 +2,7 @@
 title: Instance Scan extension for IDE
 description: Access Instance Scan directly from your integrated development environment \(IDE\) on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-is-ide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/instance-scan/hs-is-ide.html
 release: australia
 product: Instance Scan
 classification: instance-scan

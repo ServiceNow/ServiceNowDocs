@@ -2,7 +2,7 @@
 title: Add a Notification rule
 description: Create a Notification Rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/adding-notification-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/adding-notification-rule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ Role required: admin
 
 The created notification rule displays on the Notifications page.
 
-**Parent Topic:**[Notification Rules page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/notification-rules-page.md)
+**Parent Topic:**[Notification Rules page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/notification-rules-page.md)
 

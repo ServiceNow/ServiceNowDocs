@@ -2,7 +2,7 @@
 title: Add assets to a workplace contract in Core UI
 description: Add assets to a workplace contract, including software licenses, to specify what the contract legally covers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/add-an-asset-to-a-lease-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/add-an-asset-to-a-lease-contract.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -53,5 +53,5 @@ Role required: sn\_wsd\_la.manager or sn\_wsd\_la.admin
 
 The selected assets are added to the contract.
 
-**Parent Topic:**[Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
 

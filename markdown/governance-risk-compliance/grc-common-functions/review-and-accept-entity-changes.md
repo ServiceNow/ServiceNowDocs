@@ -2,7 +2,7 @@
 title: Review and accept entity changes
 description: Review the impact of proposed entity changes and accept the changes when the impact is expected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/review-and-accept-entity-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/review-and-accept-entity-changes.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,7 +18,7 @@ Review the impact of proposed entity changes and accept the changes when the imp
 
 ## Before you begin
 
--   Entity approvals must be configured for the applicable change type. See [Configure entity approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-entity-approvals.md).
+-   Entity approvals must be configured for the applicable change type. See [Configure entity approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-entity-approvals.md).
 -   Role required: sn\_grc\_change\_mgmt.implementer
 
 ## About this task
@@ -62,5 +62,5 @@ When an entity filter or source record change meets the configured approval cond
 
 The system applies the accepted changes and moves the change task to the **Closed** state. The completed change task appears on the **History** tab, where you can review the summary and impacted records.
 
-**Parent Topic:**[Entity lifecycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-change-management.md)
+**Parent Topic:**[Entity lifecycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/entity-change-management.md)
 

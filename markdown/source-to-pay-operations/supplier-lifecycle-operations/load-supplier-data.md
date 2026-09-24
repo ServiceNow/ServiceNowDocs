@@ -2,7 +2,7 @@
 title: Load supplier data
 description: Load the supplier data from the excel template into the supplier inbound​ staging tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -35,7 +35,7 @@ Role required: admin
     -   Supplier payment inbound \[sn\_fcms\_intg\_supplier\_payment\_inbound\_stage\]
 4.  In **Source of the Import**, choose **File**.
 
-5.  Browse to the excel template that was created in [Add supplier inbound data in an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.md).
+5.  Browse to the excel template that was created in [Add supplier inbound data in an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.md).
 
 6.  Enter the **Sheet number** of the excel template that needs to be loaded into the staging table.
 
@@ -52,15 +52,15 @@ The supplier data from the Excel file is processed successfully. That is, the re
 
 Run the transform map to import supplier data from the SLO inbound staging tables into the SLO primary tables.
 
--   **[Run transform to update supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-transform-supplier.md)**  
+-   **[Run transform to update supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-transform-supplier.md)**  
 Use transform map and run transform to map the supplier fields from the import set into primary data target tables in Supplier Lifecycle Operations.
--   **[Monitor the integration status of the SLO inbound data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/monitor-integration-status.md)**  
+-   **[Monitor the integration status of the SLO inbound data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/monitor-integration-status.md)**  
 Monitor the status of the integration after a transform runs and completes successfully.
 
-**Parent Topic:**[Supplier Lifecycle Operations integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-int-framework.md)
+**Parent Topic:**[Supplier Lifecycle Operations integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-int-framework.md)
 
 **Related topics**  
 
 
-[Add supplier inbound data in an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.md)
+[Add supplier inbound data in an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.md)
 

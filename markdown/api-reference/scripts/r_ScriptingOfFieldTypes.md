@@ -2,7 +2,7 @@
 title: Script evaluation of fields by data type
 description: Script fields evaluate data based on the field type of the input.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_ScriptingOfFieldTypes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/r\_ScriptingOfFieldTypes.html
 release: australia
 product: Scripts
 classification: scripts
@@ -191,5 +191,5 @@ Returns a string of comma-separated Sys IDs
 \[Omitted image "GlideListExample.png"\] Alt text: &gt; 5137153cc611227c000bbd1bd8cd2007,46d14f04a9fe19810142e40c6b071512
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
+</table>**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

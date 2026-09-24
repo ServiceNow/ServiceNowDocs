@@ -2,7 +2,7 @@
 title: ITSM Virtual Agent Customer satisfaction analytics
 description: Track customer satisfaction through AI interaction transcript analysis and user feedback to gauge experience quality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-customer-satisfaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-customer-satisfaction.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

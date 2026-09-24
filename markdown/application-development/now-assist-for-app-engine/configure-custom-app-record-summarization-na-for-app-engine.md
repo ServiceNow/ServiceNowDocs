@@ -2,7 +2,7 @@
 title: Configure the custom app record summarization skill
 description: Configure the custom app record summarization skill to define the records and outputs for ServiceNow Otto for App Engine summaries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/configure-custom-app-record-summarization-na-for-app-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-app-engine/configure-custom-app-record-summarization-na-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -21,7 +21,7 @@ Configure the custom app record summarization skill to define the records and ou
 
 Role required: admin
 
-You must have the custom app record summarization skill activated to configure the skill. For more information, see [Activate the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.md).
+You must have the custom app record summarization skill activated to configure the skill. For more information, see [Activate the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.md).
 
 ## Procedure
 
@@ -39,7 +39,7 @@ You must have the custom app record summarization skill activated to configure t
 
 7.  Choose the table that contains the data you want to generate AI summaries for.
 
-    You can generate summaries for records in most custom tables on the ServiceNow AI Platform. However, some tables are restricted. For more information, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
+    You can generate summaries for records in most custom tables on the ServiceNow AI Platform. However, some tables are restricted. For more information, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
     1.  On the Choose data source page, select the **Base input table** field.
 
@@ -53,7 +53,7 @@ You must have the custom app record summarization skill activated to configure t
 
     5.  To add related data sources that you want included in summaries, such as related tables, select **+ New data source**, then select the additional data source from the list.
 
-        For more information about the kinds of data sources that can be included in AI summaries, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
+        For more information about the kinds of data sources that can be included in AI summaries, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
     6.  To add more tables, select **+ New input table**. Then repeat the process in steps a through e to define the fields that you want to be included in the summary.
 
@@ -87,7 +87,7 @@ You must have the custom app record summarization skill activated to configure t
 
 10. Choose the display option that determines how users access the skill.
 
-    For more information about display options, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
+    For more information about display options, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
     1.  Select the toggle on icon \(\[Omitted image "toggle-on.png"\] Alt text:\) for the display option that you want to enable.
 
@@ -110,5 +110,5 @@ The custom app record summarization skill is now ready for use in the custom app
 
 ## What to do next
 
-To use the custom app record summarization skill, see [Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
+To use the custom app record summarization skill, see [Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
 

@@ -2,7 +2,7 @@
 title: Enable or disable a domain
 description: When you activate or deactivate a domain, the activation status cascades to companies within the domain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ActivateDeactivateADomainForMSP.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ActivateDeactivateADomainForMSP.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

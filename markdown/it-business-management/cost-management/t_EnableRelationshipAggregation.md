@@ -2,7 +2,7 @@
 title: Enable relationship aggregation
 description: The Process Last Month CI Costs scheduled job processes costs of configuration items. To start aggregating expenses to parents, identify the relationships to use for aggregation. Because there are many options for CMDB relationships, using all available paths for aggregation is generally not efficient.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/t\_EnableRelationshipAggregation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/cost-management/t\_EnableRelationshipAggregation.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -96,5 +96,5 @@ The type of relationship to process between the child and parent classes. Availa
 
 When a configuration item has multiple parents that have valid relationship paths, the amount aggregated to each parent is split to prevent over-aggregation of a item cost. When evaluating parent relationships to active relationship paths, the aggregation counts the total number of valid relationships. The expense line amount from the child configuration item is evenly divided among the number valid paths and that amount is used when creating the inherited expense line for the parent.
 
-**Parent Topic:**[CI rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_CIRateCards.md)
+**Parent Topic:**[CI rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/cost-management/c_CIRateCards.md)
 

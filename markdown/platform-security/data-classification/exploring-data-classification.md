@@ -2,7 +2,7 @@
 title: Exploring Data Classification
 description: Explore about data classification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-classification/exploring-data-classification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-classification/exploring-data-classification.html
 release: australia
 product: Data Classification
 classification: data-classification
@@ -26,7 +26,7 @@ Data Classification enables support for:
 Data classification is a standalone process in which you manually apply data classifications to existing dictionary entries in any table. See [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataDictionaryTables.md) for additional information.
 
 -   You classify data as you find appropriate for your business and you can alter the available data classes as necessary.
--   When you classify data, you can use the pre-defined data classifications, or create your own. Although use of pre-defined data classifications is optional, it is advisable do so as a starting point. These pre-defined data classifications are included in demo data that you can install in your instance. To learn more, see [Installing Data Classification plugin demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/install-data-classification-plugin-demo-data.md) and [Components installed with Data Classification demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/install-data-classification-plugin-demo-data.md).
+-   When you classify data, you can use the pre-defined data classifications, or create your own. Although use of pre-defined data classifications is optional, it is advisable do so as a starting point. These pre-defined data classifications are included in demo data that you can install in your instance. To learn more, see [Installing Data Classification plugin demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-classification/install-data-classification-plugin-demo-data.md) and [Components installed with Data Classification demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-classification/install-data-classification-plugin-demo-data.md).
 -   If you create your own data classifications, you can also design a tiered hierarchical system with parent and child data classifications.
 -   When creating manual data classifications on an extended or child table, base fields inherited from the parent table are not available for selection.
 
@@ -51,8 +51,8 @@ General Data Protection Regulation \(GDPR\) is a European Union regulation whose
 
 If you store customer information in the ServiceNow AI Platform, use the Personally Identifiable Information \(PII\) classification code where needed to track data subject to regulation by local privacy laws. When you install demo data, it automatically applies this classification code to certain security-sensitive fields in the User \[sys\_user\] table. To learn more, see:
 
--   [Components installed with Data Classification demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/install-data-classification-plugin-demo-data.md)
--   [Assigning data classifications to dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/apply-data-classification-codes-dictionary-entries.md)
+-   [Components installed with Data Classification demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-classification/install-data-classification-plugin-demo-data.md)
+-   [Assigning data classifications to dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-classification/apply-data-classification-codes-dictionary-entries.md)
 
 You can apply a Restricted data classification to Employee table columns that store sensitive employee information such as Social Security Numbers \(SSN\). Administrators and auditors can then use the Overview dashboard to confirm that you have assigned data classifications to the correct columns. They can also view the classification details for restricted types of information.
 

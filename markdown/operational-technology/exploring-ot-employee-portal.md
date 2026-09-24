@@ -2,7 +2,7 @@
 title: Exploring the Employee Center for OT
 description: The Employee Center for Operational Technology \(OT\) is a central location in the Employee Center where you can submit requests for industrial issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/exploring-ot-employee-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/exploring-ot-employee-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -43,6 +43,6 @@ You can access the Employee Center for OT on both the desktop and the Now Mobile
 
 To learn more about configuring and using the Employee Center for OT, see:
 
--   [Configuring the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-ot-employee-portal.md)
--   [Report an OT incident in the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/report-ot-incident-in-ot-employee-portal.md)
+-   [Configuring the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configuring-ot-employee-portal.md)
+-   [Report an OT incident in the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/report-ot-incident-in-ot-employee-portal.md)
 

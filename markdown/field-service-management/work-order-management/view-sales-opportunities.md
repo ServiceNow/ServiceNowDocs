@@ -2,7 +2,7 @@
 title: View sales opportunities
 description: View, sort, and filter sales opportunities using the ServiceNow Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-sales-opportunities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/view-sales-opportunities.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,7 +2,7 @@
 title: Properties installed with Hiring Core
 description: The system properties installed with the Hiring Core plugin are required to configure different functionalities within the Hiring Experiences environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/properties-h-core.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/properties-h-core.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -160,5 +160,5 @@ The following are the field values:
     -   Write roles: sn\_ta\_hiring\_core.admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
+</table>**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
 

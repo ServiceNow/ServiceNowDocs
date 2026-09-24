@@ -2,7 +2,7 @@
 title: Dependency Configuration records
 description: The BCM administrators configure the Dependency Configuration records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/dependency-config-modules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/dependency-config-modules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -52,18 +52,18 @@ Dependencies are fetched from these sources for the events:
 -   Plan primary assets
 -   Plan related assets
 
-For information on configuring the impact analysis dependency updates, see [Configuring impact analysis dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/imp-ana-dep-update-config-module.md).
+For information on configuring the impact analysis dependency updates, see [Configuring impact analysis dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/imp-ana-dep-update-config-module.md).
 
-For information on configuring the planning dependency updates, see [Configuring planning dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/confi-planning-dep-updates.md).
+For information on configuring the planning dependency updates, see [Configuring planning dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/confi-planning-dep-updates.md).
 
-For information on configuring the sources for adding the event dependencies, see [Configuring sources for adding event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configuring-event-dep-updates.md).
+For information on configuring the sources for adding the event dependencies, see [Configuring sources for adding event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configuring-event-dep-updates.md).
 
--   **[Configuring impact analysis dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/imp-ana-dep-update-config-module.md)**  
+-   **[Configuring impact analysis dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/imp-ana-dep-update-config-module.md)**  
 The BCM administrators configure the Impact analysis dependency update configuration to schedule automatic BIA dependency updates based on CMDB data and relationships.
--   **[Configuring planning dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/confi-planning-dep-updates.md)**  
+-   **[Configuring planning dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/confi-planning-dep-updates.md)**  
 The BCM administrators configure the Planning dependency update configuration record. An auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
--   **[Configuring sources for adding event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configuring-event-dep-updates.md)**  
+-   **[Configuring sources for adding event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configuring-event-dep-updates.md)**  
 The BCM administrators configure the sources in the Event dependency source configuration record. The impacted assets are added in the events and exercises based on the source data and relationships in the BIA, CMDB, and plans.
 
-**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

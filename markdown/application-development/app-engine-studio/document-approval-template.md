@@ -2,7 +2,7 @@
 title: Document Approval template
 description: Build an application in App Engine Studio \(AES\) using the Document Approval template to manage the approval of documents in your organization.The following tables, experiences, automated workflows, and roles are included in the Document Approval template for App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/document-approval-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/document-approval-template.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -28,9 +28,9 @@ This app template is an ideal way to quickly and efficiently make your internal 
 
 \[Omitted image "template-doc-approval.png"\] Alt text: Document Approval template
 
-For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md).
+For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/template-library.md)
 
 ## Document Approval template contents
 

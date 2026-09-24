@@ -2,7 +2,7 @@
 title: Add subscription pricing to an order
 description: Add contract pricing to an order or order line items including start and end dates in Order Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-subscription-pricing-to-an-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-subscription-pricing-to-an-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ In an order, you can set the contract start date and end date, or you can enter 
 
 Subscription pricing can be added at the order header level or at the order line item level.
 
-See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-subscription-pricing.md) for more information about how contract pricing works.
+See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-subscription-pricing.md) for more information about how contract pricing works.
 
 ## Procedure
 
@@ -55,5 +55,5 @@ See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/
 **Related topics**  
 
 
-[Order details page - Dates fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-customer-orders.md)
+[Order details page - Dates fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/field-descriptions-customer-orders.md)
 

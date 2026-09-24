@@ -2,14 +2,14 @@
 title: Request limits in Fluid Topics Knowledge Hub web services
 description: By default, the Fluid Topics API limits the number of maps, topics, and unstructured documents retrieved by requests to Knowledge Hub web services. These default limits may prevent the Fluid Topics external content connector from indexing all of your source system content. To request increases to these limits, open a ticket in the Fluid Topics Help Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/fluid-topics-api-request-limits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/fluid-topics-api-request-limits.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
 last_updated: "2026-05-20"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Fluid Topics external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -64,5 +64,5 @@ To request increases to these Knowledge Hub web service retrieval limits, you ca
 
 As an example, if your source system includes 544 maps, 1,817 topics, and 1,193 unstructured documents, you must request increases to the default retrieval limits for both the Search topics and List unstructured documents Knowledge Hub web services.
 
-**Parent Topic:**[Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/fluid-topics-external-content-connector.md)
+**Parent Topic:**[Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/fluid-topics-external-content-connector.md)
 

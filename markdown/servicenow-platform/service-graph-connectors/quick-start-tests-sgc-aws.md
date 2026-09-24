@@ -2,7 +2,7 @@
 title: Quick start tests for Service Graph Connector for AWS
 description: Validate that Service Graph Connector for AWS still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/quick-start-tests-sgc-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/quick-start-tests-sgc-aws.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

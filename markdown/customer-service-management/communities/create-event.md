@@ -2,7 +2,7 @@
 title: Post a community event
 description: You can create a community event that other community users, colleagues, or experts can register for and attend.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/create-event.html
 release: australia
 product: Communities
 classification: communities
@@ -163,15 +163,15 @@ Click the check box to publish an event on a specified date. Select the date and
 </td></tr></tbody>
 </table>2.  Perform one of the following actions.
 
-<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d219016e368">
+<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d219020e368">
 
 To
 
-</th><th align="left" id="d219016e371">
+</th><th align="left" id="d219020e371">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d219016e377">
+</th></tr></thead><tbody><tr><td id="d219020e377">
 
 **Save as Draft**
 
@@ -184,7 +184,7 @@ From your profile page, you have the following options.1.  Click **Edit** to rev
 -   Click the corresponding ellipsis \[Omitted image "moreoptions-icon.png"\] Alt text: More Options. icon and then click **Delete**.
 
 
-</td></tr><tr><td id="d219016e438">
+</td></tr><tr><td id="d219020e438">
 
 **Schedule**
 
@@ -192,7 +192,7 @@ From your profile page, you have the following options.1.  Click **Edit** to rev
 
 Click **Schedule** to publish an event on the specified date. **Note:** This option appears for an event for which **Schedule Publish** option is selected.
 
-</td></tr><tr><td id="d219016e456">
+</td></tr><tr><td id="d219020e456">
 
 **Publish**
 
@@ -204,12 +204,12 @@ Click **Publish** to publish the event directly. As an author, you can edit or d
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Community events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-events.md)
+**Parent Topic:**[Community events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/community-events.md)
 
 **Related topics**  
 
 
-[Edit an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/edit-event.md)
+[Edit an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/edit-event.md)
 
-[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/disable-comments.md)
+[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/disable-comments.md)
 

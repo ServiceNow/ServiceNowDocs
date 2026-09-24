@@ -2,7 +2,7 @@
 title: Survey definitions
 description: A survey definition is the root record upon which a survey is built.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyDefinitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_SurveyDefinitions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,12 +18,12 @@ The survey designer generates a survey definition automatically when you save or
 
 Survey administrators and survey readers can also send survey invitations directly to users from the survey definition.
 
--   **[Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifySurveyDefinitions.md)**  
+-   **[Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ModifySurveyDefinitions.md)**  
 You can configure additional options for a survey definition.
--   **[Schedule periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SchedulePeriods.md)**  
+-   **[Schedule periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SchedulePeriods.md)**  
 The available schedule periods are **Only Once**, **No Limit**, **Daily**, **Weekly**, **Monthly**, and **Yearly**.
 
-**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
@@ -60,5 +60,5 @@ The available schedule periods are **Only Once**, **No Limit**, **Daily**, **Wee
 
 [Legacy survey migration]()
 
-[Send survey invitations to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SendSurveyInvitationsToUsers.md)
+[Send survey invitations to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_SendSurveyInvitationsToUsers.md)
 

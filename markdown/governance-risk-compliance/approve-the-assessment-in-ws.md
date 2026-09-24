@@ -2,7 +2,7 @@
 title: Close the assessment
 description: Close the inactive Importance and impact tolerance assessment in the Operational Resilience Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/approve-the-assessment-in-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/approve-the-assessment-in-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

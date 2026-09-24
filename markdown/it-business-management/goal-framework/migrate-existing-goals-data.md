@@ -2,7 +2,7 @@
 title: Migrate existing goals data to Goal Framework tables
 description: If your organization uses the legacy goal and strategy tables \(Goal, Enterprise Strategy, Business Unit Strategy, and Strategic Objective\), you can migrate the existing data to the Goal Framework tables by running the scheduled job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/migrate-existing-goals-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/migrate-existing-goals-data.html
 release: australia
 product: Goal Framework
 classification: goal-framework

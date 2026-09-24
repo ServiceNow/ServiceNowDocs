@@ -2,7 +2,7 @@
 title: Align and distribute shapes in a modeling diagram
 description: Organize shapes on the diagram canvas by aligning them to a common edge or center, or by distributing them at equal spacing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-align-distribute-shapes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-align-distribute-shapes.html
 release: australia
 topic_type: task
 last_updated: "2026-05-08"
@@ -58,12 +58,12 @@ Role required: sn\_apm.apm\_user
     \[Omitted image "modeling-align-shapes.png"\] Alt text: Diagram canvas page with shapes selected on canvas and the alignment and distribution options highlighted.
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
 **Related topics**  
 
 
-[Create a blank diagram using modeling in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-create-diagram.md)
+[Create a blank diagram using modeling in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-create-diagram.md)
 
-[Convert a shape to a group shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-group-ungroup-shape.md)
+[Convert a shape to a group shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-group-ungroup-shape.md)
 

@@ -2,7 +2,7 @@
 title: Create a Return Merchandise Authorization \(RMA\) response order line for a defective Device as a Service \(DaaS\) asset
 description: Create an RMA response order line for each defective DaaS asset that you want to repair or replace through an RMA response order. Use each order line to track and manage the tasks that you must complete to repair or replace the given asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-rma-response-order-line-daas-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-rma-response-order-line-daas-asset.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -106,7 +106,7 @@ Asset that you want to repair or replace.**Note:** The list of available assets 
 
 ## What to do next
 
-Perform all tasks that are required for completing the RMA response order line so that you can complete and close the associated RMA response order. For detailed instructions, see [Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md).
+Perform all tasks that are required for completing the RMA response order line so that you can complete and close the associated RMA response order. For detailed instructions, see [Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md).
 
-**Parent Topic:**[Managing Return Merchandise Authorization \(RMA\) response orders for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-rma-response-orders-daas-assets.md)
+**Parent Topic:**[Managing Return Merchandise Authorization \(RMA\) response orders for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/managing-rma-response-orders-daas-assets.md)
 

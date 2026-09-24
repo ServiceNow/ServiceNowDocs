@@ -2,7 +2,7 @@
 title: Use Invoice inquiry solution generator skill
 description: Turn on the Invoice inquiry solution generator skill, which automates the resolution generation for inquiry cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/use-invoice-inquiry-solution-generator-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/use-invoice-inquiry-solution-generator-skill.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,7 +29,7 @@ Role required: admin
 
 3.  Select **Invoice inquiry solution generator skill**&gt; **Turn on**to activate the skill.
 
-    Activate the skill in the **Turn on skill** pop-up. The skill works in relation with the Inquiry resolution provider agent. For more information on the Inquiry resolution provider AI agent, see [Inquiry resolution provider AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-help-resolve-supplier-questions-agentic.md).
+    Activate the skill in the **Turn on skill** pop-up. The skill works in relation with the Inquiry resolution provider agent. For more information on the Inquiry resolution provider AI agent, see [Inquiry resolution provider AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/apo-help-resolve-supplier-questions-agentic.md).
 
 
 ## Result

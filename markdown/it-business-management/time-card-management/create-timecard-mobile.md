@@ -2,7 +2,7 @@
 title: Add and log time through the Mobile Time Sheets application
 description: Create time cards to log time from your mobile application for the work you have done.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/create-timecard-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/time-card-management/create-timecard-mobile.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -22,7 +22,7 @@ Role required: timecard\_user
 
 ## About this task
 
-The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md) determines the level at which time cards for the project tasks can be created. For example, at the project level, if a user works on multiple tasks in a project, all the time is recorded under one time card. At the project task level, separate time cards are created corresponding to each planned task.
+The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md) determines the level at which time cards for the project tasks can be created. For example, at the project level, if a user works on multiple tasks in a project, all the time is recorded under one time card. At the project task level, separate time cards are created corresponding to each planned task.
 
 ## Procedure
 
@@ -95,8 +95,8 @@ Add from category
 6.  Tap **Save**.
 
 
--   **[Update time card hours for a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/update-hours-timecard.md)**  
+-   **[Update time card hours for a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/update-hours-timecard.md)**  
 Update hours in a time card for a particular day.
 
-**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/timesheet-mobile.md)
+**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/timesheet-mobile.md)
 

@@ -2,7 +2,7 @@
 title: Use transform maps
 description: Transform maps specify data relationships between source table and target table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/transform-maps-w.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/transform-maps-w.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -147,7 +147,7 @@ HRSD Workday Languages Spoken
 Maps languages spoken from the Staging table \[sn\_hr\_workday\_languages\_spoken\_staging\] to the Workday Languages Spoken table \[sn\_employee\_languages\_spoken\].
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-hrsd-int-workday.md)
+</table>**Parent Topic:**[Using HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-hrsd-int-workday.md)
 
 **Related topics**  
 

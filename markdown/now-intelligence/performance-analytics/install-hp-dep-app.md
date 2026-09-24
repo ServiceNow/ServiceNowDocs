@@ -2,7 +2,7 @@
 title: Install the Homepage deprecation help tool
 description: To convert, retire, and restore homepages, install the Homepage deprecation help tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/install-hp-dep-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/install-hp-dep-app.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

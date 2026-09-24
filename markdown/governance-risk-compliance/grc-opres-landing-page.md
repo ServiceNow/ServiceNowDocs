@@ -2,7 +2,7 @@
 title: Operational Resilience
 description: Operational Resilience is the ability of an organization to respond to the adverse operational events by anticipating, preventing, recovering from, and adapting to such events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-opres-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-opres-landing-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,19 +24,19 @@ The ServiceNow® GRC: Operational Resilience application empowers your organizat
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/what-is-opres.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/what-is-opres.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Operational Resilience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-operational-resilience.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Operational Resilience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-operational-resilience.md)
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "bus-manage.svg"\] Alt text:Manage Operational Resilience tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/working-in-opres-ws.md)
+[Manage \[Omitted image "bus-manage.svg"\] Alt text:Manage Operational Resilience tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/working-in-opres-ws.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-profile.svg"\] Alt text: Components installed with Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/op-res-reference.md)
+[Reference \[Omitted image "bus-profile.svg"\] Alt text: Components installed with Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/op-res-reference.md)
 
 </td></tr></tbody>
 </table>## Learn

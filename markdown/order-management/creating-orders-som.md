@@ -2,7 +2,7 @@
 title: Creating orders in Order Management
 description: Familiarize yourself with the steps for creating customer or service orders in Order Management using the CSM/FSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/creating-orders-som.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/creating-orders-som.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ The following illustration lists the high-level steps for creating a fresh order
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

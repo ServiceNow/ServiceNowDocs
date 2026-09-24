@@ -2,7 +2,7 @@
 title: Supplier inbound staging table
 description: The Supplier inbound \[sn\_fcms\_intg\_imp\_supplier\] staging table temporarily stores important data about the supplier before this data is sent to the Supplier \[sn\_fin\_supplier\] primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/slo-supplier-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/slo-supplier-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -609,7 +609,7 @@ String
 Zip code or postal code where the supplier is located.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Inbound staging tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/slo-inbound-staging-tables.md)
+</table>**Parent Topic:**[Inbound staging tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/slo-inbound-staging-tables.md)
 
 **Related topics**  
 

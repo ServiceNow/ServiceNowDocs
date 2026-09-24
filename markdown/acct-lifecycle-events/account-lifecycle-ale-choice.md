@@ -2,7 +2,7 @@
 title: Create a customer success choice record
 description: Create a Customer Success Choice record to define a value for a dropdown or lookup field in the Customer Success Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-ale-choice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-ale-choice.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -90,5 +90,5 @@ Description of the choice.
     The choice record is available as a value in the field associated with the selected category.
 
 
-**Parent Topic:**[Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-basic-config.md)
+**Parent Topic:**[Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-basic-config.md)
 

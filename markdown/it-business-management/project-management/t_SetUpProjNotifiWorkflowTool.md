@@ -2,7 +2,7 @@
 title: Set up project notifications with the workflow tool
 description: Use the workflow tool, for example, to set up a workflow that sends an email notification when the state of a project task becomes Work in Progress.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_SetUpProjNotifiWorkflowTool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_SetUpProjNotifiWorkflowTool.html
 release: australia
 product: Project Management
 classification: project-management
@@ -47,10 +47,10 @@ Role required: admin
     \[Omitted image "Notificationwf.png"\] Alt text: screenshot for project notifications
 
 
-**Parent Topic:**[Activate project task email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ActivateProjTaskEmailNot.md)
+**Parent Topic:**[Activate project task email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ActivateProjTaskEmailNot.md)
 
 **Related topics**  
 
 
-[Activate project task email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ActivateProjTaskEmailNot.md)
+[Activate project task email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ActivateProjTaskEmailNot.md)
 

@@ -2,7 +2,7 @@
 title: Target breakdowns in Strategic Planning
 description: Breaking down a target into smaller periods \(for example, Monthly\) helps you set a target value for each month and focus on that specific monthly target. The target breakdowns are automatically created based on the Check-in frequency and Target value distribution set for the target.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/target-breakdowns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/target-breakdowns.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

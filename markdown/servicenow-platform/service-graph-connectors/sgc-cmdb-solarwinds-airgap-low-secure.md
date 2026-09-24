@@ -2,7 +2,7 @@
 title: Configure air gap solution for Service Graph Connector for SolarWinds in a low-secure server
 description: Configure the air gap solution for the Service Graph Connector for SolarWinds in your low-secure server after you finish the configuration in your high-secure server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-low-secure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-low-secure.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -32,11 +32,11 @@ Role required: admin
 
     All the configurations required for the air gap solution are created in the SolarWinds directory.
 
-5.  Copy the `SgSolarWindsLowSecureSetup.ps1` PowerShell script that you downloaded in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-low-secure.md) to the SolarWinds directory.
+5.  Copy the `SgSolarWindsLowSecureSetup.ps1` PowerShell script that you downloaded in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-low-secure.md) to the SolarWinds directory.
 
 6.  Start a PowerShell session, and run the `SgSolarWindsLowSecureSetup.ps1` script.
 
-    1.  At the prompt, enter the path for the SolarWinds directory that you created in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-low-secure.md).
+    1.  At the prompt, enter the path for the SolarWinds directory that you created in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-low-secure.md).
 
     2.  Specify names for the data source data directories, or press the Return key to accept the default values.
 
@@ -50,5 +50,5 @@ Role required: admin
 **Related topics**  
 
 
-[Configure air gap solution for Service Graph Connector for SolarWinds in a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-sn-instance.md)
+[Configure air gap solution for Service Graph Connector for SolarWinds in a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-sn-instance.md)
 

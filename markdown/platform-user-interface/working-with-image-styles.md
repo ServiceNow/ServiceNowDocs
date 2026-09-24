@@ -2,7 +2,7 @@
 title: Working with Image styles
 description: Image styles enable you to experiment with different color schemes for illustrations and replace default illustrations with your own custom images. The Image styles feature provides flexibility in customizing the visual elements of your theme.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/working-with-image-styles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/working-with-image-styles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,18 +26,18 @@ The following image styles are available for editing:
 -   Tile icons
 -   Icons
 
--   **[Banner illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/banners-in-tb.md)**  
+-   **[Banner illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/banners-in-tb.md)**  
 Banner illustrations are used to increase user engagement or announce overall product experiences.
--   **[Card illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/card-illustrations-tb.md)**  
+-   **[Card illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/card-illustrations-tb.md)**  
 Card illustrations are used to improve the clarity or scannability of a feature.
--   **[Modal illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/modals-in-tb.md)**  
+-   **[Modal illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/modals-in-tb.md)**  
 Modal illustrations accompany user guidance or support messaging about added features.
--   **[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/empty-state-illustrations.md)**  
+-   **[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/empty-state-illustrations.md)**  
 Empty state illustrations in Theme Builder provide visually engaging placeholders for situations when content is missing.
--   **[Tile icon illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tile-icons-in-tb.md)**  
+-   **[Tile icon illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tile-icons-in-tb.md)**  
 Tile icon illustrations are used to communicate a tile’s purpose using visual metaphors.
--   **[Icon illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-icon-illustrations.md)**  
+-   **[Icon illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-icon-illustrations.md)**  
 Icons are used to visually represent actions and concepts through simple, themed graphics.
 
-**Parent Topic:**[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md)
+**Parent Topic:**[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-edit-theme.md)
 

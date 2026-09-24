@@ -2,7 +2,7 @@
 title: Working with alert groups in Express List
 description: Learn how to manage alert groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/working-with-alert-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/working-with-alert-groups.html
 release: australia
 product: Event Management
 classification: event-management

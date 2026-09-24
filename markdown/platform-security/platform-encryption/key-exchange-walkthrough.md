@@ -2,7 +2,7 @@
 title: Recurring Key Exchange walkthrough
 description: Use this walkthrough to set up a recurring key exchange in your instance using and Resource Exchange.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/key-exchange-walkthrough.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/key-exchange-walkthrough.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -73,5 +73,5 @@ This example shows you how a target instance requests keys from a host instance.
 
 After a key exchange is attempted, your non-production instance updates the **protected.script.values.kmf.rekeyed** system property. This property is visible in the System Properties \[sys\_properties\] table. If the encryption using the exchanged key is successful, this property has a value of **true**. Otherwise, the property has a value of **false**. If the value is false, your instance will attempt to encrypt again the next day.
 
-**Parent Topic:**[Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/resource-exchange.md)
+**Parent Topic:**[Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/resource-exchange.md)
 

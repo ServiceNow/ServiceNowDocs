@@ -2,7 +2,7 @@
 title: Viewing patient information for a procedure request in Workspace
 description: With the 360-degree view of a patient in Workspace, you can access the patient details anytime for completing procedure request cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-viewing-patient-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pre-visit-viewing-patient-info.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

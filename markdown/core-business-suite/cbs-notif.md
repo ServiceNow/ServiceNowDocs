@@ -2,7 +2,7 @@
 title: Notifications in CBS
 description: Notifications in CBS provide multi-faceted and timely communication when a request is raised or fulfilled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-notif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-notif.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ You can view the request details along with a **View request** or **View case** 
 
 For more information on email notifications, see [Email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tisc-email-notifications.md).
 
-**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-using-parent.md)
+**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-using-parent.md)
 

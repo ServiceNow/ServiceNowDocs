@@ -2,7 +2,7 @@
 title: Service level agreements for government service cases
 description: A service level agreement \(SLA\) is a record that you use to guarantee a specific time that a service or information must be provided by, or that an agent must finish a task must by. The Public Sector Digital Services application uses SLAs with government service request cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/slas-for-government-service-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/slas-for-government-service-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Value tab in AI Control Tower
 description: Use the Value dashboard page to gain insights into the value realized from multiple types of AI in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/aict-value-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/aict-value-tab.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -18,13 +18,13 @@ Use the Value dashboard page to gain insights into the value realized from multi
 
 The Value dashboard page contains visualizations that help you assess the value of your AI assets. Creator skills are included in the Value dashboard page. Value metrics for creator skills are aggregated across non-production and production instances.
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-native-sku-overview.md).
 
 \[Omitted image "value-tab-aict.png"\] Alt text: Value tab in AI Control Tower.
 
 **Note:** Starting with the March 2026 release, the Value dashboard displays insights and value calculations only for managed AI assets within your selected time period. To view insights for unmanaged assets, reconfigure them as managed assets. For AI assets that were previously managed and later reconfigured as unmanaged, the system calculates values only through the date of their status change to unmanaged.
 
-The indicators on the dashboard are based on the value templates associated with each AI asset. See [Using value templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/using-value-templates.md) for more information.
+The indicators on the dashboard are based on the value templates associated with each AI asset. See [Using value templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/using-value-templates.md) for more information.
 
 -   **Top 5 AI systems by value**
 

@@ -2,7 +2,7 @@
 title: Microsoft Office 365 Group pre-built topics for ITSM Virtual Agent
 description: ITSM Virtual Agent helps you manage Microsoft Office 365 Groups using actions in conversation flows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/manage-office-365-group-convo-flow-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/manage-office-365-group-convo-flow-actions.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -26,7 +26,7 @@ Requirement: [Microsoft Azure AD spoke](https://raw.githubusercontent.com/Servic
 
 Group Owners can add other users as Group Owners by providing the group name and the user email addresses to add.
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 \[Omitted image "AddGroupOwner2.png"\] Alt text: Add group owner virtual agent chatbox dialog
 
@@ -34,7 +34,7 @@ This topic uses the Create Incident [topic block](https://raw.githubusercontent.
 
 Group owners can add themselves or other users to a Microsoft Office 365 group by providing the group name and the email address of one or more users to add.
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 \[Omitted image "AddGroupUser2.png"\] Alt text: Add User to Office 365 Group topic.
 
@@ -50,7 +50,7 @@ Users can create a group in Microsoft Office 365 by providing the following info
 
 The current user is automatically added as the Group Owner, along with any other specified users.
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 \[Omitted image "CreateOfficeGroup1.png"\] Alt text: Create Office 365 Group topic.
 
@@ -64,7 +64,7 @@ Group members can get group details by providing the name or email of the group.
 
 Group Owners can remove themselves or other Group Owners by providing the group name and the user email addresses to remove.
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 \[Omitted image "RemoveOwner2.png"\] Alt text: Remove Office 365 group Owner topic.
 
@@ -72,9 +72,9 @@ This topic uses the Create Incident [topic block](https://raw.githubusercontent.
 
 Users can remove themselves from a Microsoft Entra ID group. Group owners can remove other users from a group. Provide the group name and user email addresses to remove.
 
-This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 \[Omitted image "RemoveUser2.png"\] Alt text: Remove Office 365 group Users topic.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

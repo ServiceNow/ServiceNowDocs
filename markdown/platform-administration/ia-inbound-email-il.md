@@ -2,7 +2,7 @@
 title: Inbound email
 description: Use the inbound email to receive and process incoming emails from external systems or users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-inbound-email-il.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-inbound-email-il.html
 release: australia
 topic_type: reference
 last_updated: "2025-12-05"
@@ -151,7 +151,7 @@ Email actions determine how and when the system responds to service requests. On
 |Action type|Type of the action. Select the type of action the instance takes. Select **Record Action** to modify a record in the instance, or select **Reply Email** to have the instance send an email back to the source of the inbound email.|
 |Stop processing|Optional checkbox to help prevent the system from running additional inbound email actions after this action runs.|
 
-See [Inbound email configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_InboundMailConfiguration.md) for more information.
+See [Inbound email configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_InboundMailConfiguration.md) for more information.
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
 

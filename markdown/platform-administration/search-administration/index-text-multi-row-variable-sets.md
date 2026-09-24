@@ -2,7 +2,7 @@
 title: Enable indexing of text in multi-row variable sets
 description: Make text from multi-row Service Catalog variable sets searchable in global search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/index-text-multi-row-variable-sets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/index-text-multi-row-variable-sets.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -61,11 +61,11 @@ Zing indexes text from multi-row Service Catalog variable sets so that you can f
 
 ## What to do next
 
-To see text from multi-row variable sets immediately in global searches, regenerate the text indexes for the affected tables. For details on this procedure, see [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md).
+To see text from multi-row variable sets immediately in global searches, regenerate the text indexes for the affected tables. For details on this procedure, see [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/t_RegenerateATextIndexForATable.md).
 
 If you don't regenerate the text indexes for the affected tables, records on those tables will be reindexed as they are updated or added. Global searches will only return text from multi-row variable sets on reindexed records.
 
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

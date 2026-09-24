@@ -2,7 +2,7 @@
 title: Record screen tables
 description: Use tables in the Mobile App Builder record screen to reference child records to a parent record. These records can consist of either single reference records or multi-reference records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-record-screen-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-record-screen-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Record screen, Mobile App Builder, Building tools, Building mobile 
 
 Use tables in the Mobile App Builder record screen to reference child records to a parent record. These records can consist of either single reference records or multi-reference records.
 
-Tables in a record screen are one of a few input field types. For a complete list of input field types, see [Record screen input field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-record-screen-input-types.md). Tables contain reference records where you can select or create a child record that the parent record can reference. The option to select or create a reference record is predefined according to the record you select.
+Tables in a record screen are one of a few input field types. For a complete list of input field types, see [Record screen input field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mab-record-screen-input-types.md). Tables contain reference records where you can select or create a child record that the parent record can reference. The option to select or create a reference record is predefined according to the record you select.
 
 \[Omitted image "mab-record-screen-table-large.png"\] Alt text: Mobile App Builder record screen table
 
@@ -29,7 +29,7 @@ If the **Choose** or **New** button is inactive after you make a single selectio
 
 To change a single-reference record, first remove the existing reference by selecting the delete row icon \(\[Omitted image "mab-button-delete-row.png"\] Alt text: Delete row icon.\), then either choose or create a new reference.
 
-For more information about working with these options, see [Create reference record entries in record screen tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-record-screen-table-add-edit.md) and [Edit record reference entries in record screen tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-record-screen-table-edit.md).
+For more information about working with these options, see [Create reference record entries in record screen tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mab-record-screen-table-add-edit.md) and [Edit record reference entries in record screen tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mab-record-screen-table-edit.md).
 
 ## UI elements in a table reference record
 
@@ -45,7 +45,7 @@ The Mobile App Builder table reference records contain the following UI elements
 **Related topics**  
 
 
-[Create reference record entries in record screen tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-record-screen-table-add-edit.md)
+[Create reference record entries in record screen tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mab-record-screen-table-add-edit.md)
 
-[Edit record reference entries in record screen tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-record-screen-table-edit.md)
+[Edit record reference entries in record screen tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mab-record-screen-table-edit.md)
 

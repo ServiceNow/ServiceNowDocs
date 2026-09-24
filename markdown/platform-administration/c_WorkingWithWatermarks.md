@@ -2,7 +2,7 @@
 title: Watermarks on notification emails
 description: By default, a unique watermark label will be generated at the bottom of each notification email to allow matching incoming email to existing records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_WorkingWithWatermarks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_WorkingWithWatermarks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,18 +39,18 @@ Watermarks are always generated, but you can configure them as follows:
 -   Hide all email watermarks globally.
 -   Omit watermarks from individual email messages.
 
-If watermarks are omitted from email notifications, inbound email actions might not work properly. Without a watermark, the system processes inbound email messages as described in [Criteria for matching email to inbound actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/inbound-action-type-criteria.md).
+If watermarks are omitted from email notifications, inbound email actions might not work properly. Without a watermark, the system processes inbound email messages as described in [Criteria for matching email to inbound actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/inbound-action-type-criteria.md).
 
 **Note:** Email clients that use the plain text version of the email still show the watermark.
 
--   **[Create a custom watermark prefix for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingCustomWatermarkPrefixes.md)**  
+-   **[Create a custom watermark prefix for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreatingCustomWatermarkPrefixes.md)**  
 By default, email notifications use the watermark prefix **MSG**, but you can create a custom watermark prefix.
--   **[Omit an email notification watermark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_OmitWatermarksIndEmailNotif.md)**  
+-   **[Omit an email notification watermark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_OmitWatermarksIndEmailNotif.md)**  
 You can omit watermarks on email notifications if you do not want the instance to match the notification to an existing record.
--   **[Hide email watermarks globally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_HidingWatermarksGlobally.md)**  
+-   **[Hide email watermarks globally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_HidingWatermarksGlobally.md)**  
 Rather than omitting watermarks, it is possible to hide watermarks for global application using HTML markup.
 
-**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 

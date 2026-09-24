@@ -2,7 +2,7 @@
 title: Define a calculated metric data source
 description: Define dynamic metrics using formulas based on other metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -118,5 +118,5 @@ To calculate the product adoption score for two or more products, you can config
 
 ## What to do next
 
-After defining the segments and segment configurations, the next step is to configure the context engine mapper. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details.
+After defining the segments and segment configurations, the next step is to configure the context engine mapper. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details.
 

@@ -2,7 +2,7 @@
 title: Share, modify, or cancel a reservation
 description: You can view, modify \(update\), or cancel a reservation. Update the reserved workplace item or the date and time for a reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/modify-cancel-res-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/modify-cancel-res-request.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -36,15 +36,15 @@ You can also update the reserved workplace item in your reservation and change t
 
 1.  Navigate to **My Reservations** page from any of the following starting points.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d251447e91">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d251451e91">
 
 Location
 
-</th><th align="left" id="d251447e94">
+</th><th align="left" id="d251451e94">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d251447e100">
+</th></tr></thead><tbody><tr><td id="d251451e100">
 
 **From application navigator**
 
@@ -52,7 +52,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **My Reservations**.
 
-</td></tr><tr><td id="d251447e121">
+</td></tr><tr><td id="d251451e121">
 
 **From Workplace Service Portal**
 
@@ -169,7 +169,7 @@ Cancel a reservation
 
 The reservation is updated with your changes and an email notification is sent with the details of your reservation.
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

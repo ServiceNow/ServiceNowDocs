@@ -2,7 +2,7 @@
 title: Enable AI search in the Business and Consumer Portals for unauthenticated users
 description: Activate the AI search widgets to allow guest users logging in to the Business and Consumer portal to use the AI search feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_search\_businessportal\_guestuser.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_search\_businessportal\_guestuser.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

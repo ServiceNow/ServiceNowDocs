@@ -2,7 +2,7 @@
 title: Integrate with Field Service Management
 description: Field Service Management provides an integration with the Sourcing and Procurement Operations application. With this integration, a field service agent can engage with procurement and place an order to purchase a required part from a vendor or supplier.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/integrate-psm-with-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrate-psm-with-fsm.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -33,5 +33,5 @@ Role required: admin
 3.  Select **Activate**.
 
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-fsm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-fsm.md)
 

@@ -2,7 +2,7 @@
 title: Goal form
 description: Use the Goal form to create goals for your organizational strategic priorities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/goal-form-egm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/goal-form-egm.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -76,7 +76,7 @@ Progress
 
 </td><td>
 
-Percentage complete for the goal. The progress value is calculated automatically if the goal has sub-goals or/and targets.For more information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.md).
+Percentage complete for the goal. The progress value is calculated automatically if the goal has sub-goals or/and targets.For more information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.md).
 
 </td></tr><tr><td>
 
@@ -181,10 +181,10 @@ Users who contribute to the achievement of the goal.
 |Team|Assignment group responsible for different activities in achieving the goal.|
 |Classification|Goal classification type. The available options are **Environmental**, **Social**, and **Governance**. This field is applicable only for the Operational Sustainability Workspace users.|
 
-**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 
 **Related topics**  
 
 
-[Iteration goals and work item goals in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/iteration-goals-in-eap.md)
+[Iteration goals and work item goals in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/iteration-goals-in-eap.md)
 

@@ -2,7 +2,7 @@
 title: Install Extended Security for Enterprise-Wide Deployment
 description: You can install the Extended Security for Enterprise-Wide Deployment application \(sn\_spm\_ewd\_sec\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/install-extended-security-ewd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/install-extended-security-ewd.html
 release: australia
 topic_type: task
 last_updated: "2026-09-01"

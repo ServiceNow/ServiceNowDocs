@@ -2,7 +2,7 @@
 title: Provider notifications
 description: Send notifications directly to recipients via the provider on supported channels. Notifications can be simple messages for review, or actionable messages with buttons that users can select to perform certain actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/provider-notifications-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/provider-notifications-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,16 +18,16 @@ Send notifications directly to recipients via the provider on supported channels
 
 <table id="table_hzz_s2r_bzb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore and learn about provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-provider-notification.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore and learn about provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/exploring-provider-notification.md)
 
 </td><td>
 
-[Create\[Omitted image "bus-sdlc.svg"\] Alt text:Create provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-provider-notification-using.md)
+[Create\[Omitted image "bus-sdlc.svg"\] Alt text:Create provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-provider-notification-using.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   [Troubleshooting Notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/troubleshooting-notification-emails.md)
+-   [Troubleshooting Notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/troubleshooting-notification-emails.md)
 -   Ask or answer questions in the [Platform](https://community.servicenow.com/community/service-automation-platform) community
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

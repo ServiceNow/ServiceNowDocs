@@ -2,7 +2,7 @@
 title: Configure an action function
 description: Action functions enable the user to change something in the database. For example, making an update or adding a comment to a record requires an action function.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-studio-config-action-function.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-studio-config-action-function.html
 release: australia
 topic_type: task
 last_updated: "2026-08-17"
@@ -76,7 +76,7 @@ Context
 
 The level to apply the action to. -   **Record**: Applies an action at the record level. For example, use this option to create a button that changes the state of a record. You can set the context to Record for actions on a particular field, a particular record, or swipe actions. If the action function includes a UI parameter with the **Input source** field set to **Auto fill**, you must specify the table in the **Table** field.
 -   **Global**: Applies an action at the global, or list level. For example, use this option to add a button that creates a record. Do not use the Global setting for actions that are in the context of a record, or actions that include a UI parameter with the **Input source** field set to **Auto fill**.
- For more information on button locations, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md).
+ For more information on button locations, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-button-instances.md).
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Action item
 
 </td><td>
 
-Action item to associate with the action. For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
+Action item to associate with the action. For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-create-action-item.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -131,7 +131,7 @@ Preconditions
 Select an option to require user confirmation before submitting the action. -   **None**: Do not require user confirmation. This option is the default.
 -   **HR Task Signature**: Require a user signature before submitting the action. Users can either sign with their fingers or type their names in the signature field. If **Allow images upload** is selected, an image of the signature is sent to the Signature Images \[signature\_image\] table when the action executes. When this option is selected, the signature form overlays the current screen.
 -   **HR Task Credentials**: Require users to input their credentials before submitting the action. This option is supported only with local authentication.
--   **Re-authentication**: Requires users to re-authenticate their credentials before executing an action. For more information, see [Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reautentication-concept.md).
+-   **Re-authentication**: Requires users to re-authenticate their credentials before executing an action. For more information, see [Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-reautentication-concept.md).
 
 
 </td></tr><tr><td colspan="2">
@@ -318,7 +318,7 @@ Grouped inputs
 
 </td><td>
 
-This field is not used to configure an action function. Grouped input enables the users to scan several barcodes sequentially. You can configure grouped inputs with UI Parameters to accept multiple barcode scans. For information about grouped inputs, see [Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-multiscan.md)
+This field is not used to configure an action function. Grouped input enables the users to scan several barcodes sequentially. You can configure grouped inputs with UI Parameters to accept multiple barcode scans. For information about grouped inputs, see [Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-multiscan.md)
 
 </td></tr><tr><td>
 
@@ -327,14 +327,14 @@ Button attributes
 </td><td>
 
 Specifies an additional attribute for a button. Select **New** to configure this option. You can select from the following button attributes:-   **alerts\_require\_dismissal**: The button attribute when set to `true` enables the banner messages to persist until the user dismisses it. By default, banner messages are automatically dismissed.
--   **used\_for\_deeplink**: The button attribute when set to `true` determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
+-   **used\_for\_deeplink**: The button attribute when set to `true` determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/deep-link-mobile.md).
 -   **trigger\_offline\_cache\_download**: The button attribute when set to `true` triggers offline cache generation. After the cache is successfully generated, a download of it is triggered.
 -   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected any field in the URL string is checked against the ACL \(Access Control List\). To opt-out of the check, mark the parameter as false. For example, a string like `{{meeting_id}}`. If a field does not pass this check, the field value is not included in the URL. If set to false, the URL parameter field is not checked against the ACL for backward compatibility.
 -   **refresh\_parameter\_screen\_after\_action **: When enabled for write-back action buttons in input form screens, the input form automatically reloads after the action completes. This attribute keeps field values current and prevents you from working with stale data. The default value is false.
 
-**Note:** To keep the fields up to date with the latest database values, you must configure either a data source or an auto-fill variable for the relevant fields. This ensures the fields display the value that was just inserted or updated in the database. For more information, see [Loading mechanisms for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/loading-mechanisms.md).
+**Note:** To keep the fields up to date with the latest database values, you must configure either a data source or an auto-fill variable for the relevant fields. This ensures the fields display the value that was just inserted or updated in the database. For more information, see [Loading mechanisms for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/loading-mechanisms.md).
 
--   **retain\_parent\_parameter\_screen **: When enabled for write-back actions in input form screens, the button keeps the user on the current input form instead of opening a new one. This attribute is required when configuring input form actions. For more information, see [Input form actions in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/input-form-screen-input-actions.md).
+-   **retain\_parent\_parameter\_screen **: When enabled for write-back actions in input form screens, the button keeps the user on the current input form instead of opening a new one. This attribute is required when configuring input form actions. For more information, see [Input form actions in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/input-form-screen-input-actions.md).
 -   **consolidate\_consecutive\_outbox\_items **: When enabled for write-back buttons in offline mode, the attribute combines multiple consecutive saves of the same action on the same record \(same action, record, table, and form\) into a single outbox item instead of queuing each save separately. This setting controls offline outbox consolidation behavior. The default value is false.
 
 
@@ -354,5 +354,5 @@ Limit user access to an action by role.
 
 ## What to do next
 
-After you create an action function, you must associate it with a specific location in the mobile app. You can add an action function to a top menu, a swipe action, or to a specific field. For more information on associating the action function to a location, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md).
+After you create an action function, you must associate it with a specific location in the mobile app. You can add an action function to a top menu, a swipe action, or to a specific field. For more information on associating the action function to a location, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-button-instances.md).
 

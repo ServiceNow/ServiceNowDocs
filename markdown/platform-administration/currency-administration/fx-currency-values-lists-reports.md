@@ -2,7 +2,7 @@
 title: Understanding FX Currency values in lists and reports
 description: By default, the currency values that appear in the FX Currency fields in lists and reports are the values that you directly enter into the FX Currency fields. For reports, the aggregations of FX Currency fields are, by default, reference currency values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/fx-currency-values-lists-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/currency-administration/fx-currency-values-lists-reports.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -21,7 +21,7 @@ By default, the currency values that appear in the FX Currency fields in lists a
 In lists, FX Currency values appear as a formatted currency string returned from getDisplayValue\(\).
 
 -   The settings in the **Display Digits** and **Display Value Currency** fields in **System Localization** &gt; **FX Currency Configuration** determine how the currency values appear in lists.
--   To learn more, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-display-parameters.md).
+-   To learn more, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency-display-parameters.md).
 
 For an FX Currency field that depends on another FX Currency field, the currency value comes from the Currency Instance \[fx\_currency2\_instance\] record associated with the latter. The display value format is based on how you configured its display settings in **System Localization** &gt; **FX Currency Configuration.**
 
@@ -36,7 +36,7 @@ In lists, FX Currency field filtering behaves differently than with standard cur
 
 ## Dependent FX Currency fields
 
-Use of FX Currency view or dependent fields enable you to use alternate display configurations defined in **System Localization** &gt; **FX Currency Configuration** for a particular FX Currency field. To learn more about FX Currency field configurations, see [Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
+Use of FX Currency view or dependent fields enable you to use alternate display configurations defined in **System Localization** &gt; **FX Currency Configuration** for a particular FX Currency field. To learn more about FX Currency field configurations, see [Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
 
 When you create an FX Currency field, you can mark it as dependent on another FX Currency field. Marking an FX Currency field as dependent enables it to use the configuration settings for the original FX Currency field to display the amount values in different currency. Any changes that you make to the dependent field don't affect the original FX Currency field.
 
@@ -83,12 +83,12 @@ You can also use a Group By command on FX Currency fields.
 -   It is equivalent to grouping by currency and amount, or by reference\_currency and reference\_amount, as dictated by the aggregation source.
 -   The value of the grouping is available by dot-walking on the FX Currency field, or using an API such as `getDisplayValue()`.
 
-**Parent Topic:**[FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency.md)
+**Parent Topic:**[FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency.md)
 
 **Related topics**  
 
 
-[Configuring FX Currency global settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-configure.md)
+[Configuring FX Currency global settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency-configure.md)
 
-[Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md)
+[Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/configure-fx-currency-field-behavior.md)
 

@@ -2,7 +2,7 @@
 title: Adoption and Engagement page in Assistant analytics
 description: View how users are adopting assistants and engaging with them over time, helping you track growth, activity, and interaction patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/adoption-and-engagement-page-in-assistant-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/adoption-and-engagement-page-in-assistant-analytics.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

@@ -2,7 +2,7 @@
 title: Set up RSS feed sources
 description: Set up RSS feed sources to efficiently aggregate and monitor updates from multiple websites or content providers in one centralized location. This saves time, ensures you stay informed, and enables automated data retrieval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/set-up-rss-feed-sources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/set-up-rss-feed-sources.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

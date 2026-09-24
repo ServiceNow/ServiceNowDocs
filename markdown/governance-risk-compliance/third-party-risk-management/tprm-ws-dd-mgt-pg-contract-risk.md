@@ -2,7 +2,7 @@
 title: Accessing DD requests that are in the contract risk process
 description: You can view the contracts associated with each engagement or third party and alongside detailed information such as the expiration, start date, end date, and state. You can also manage and update contract processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-contract-risk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-contract-risk.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

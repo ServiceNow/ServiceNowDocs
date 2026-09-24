@@ -2,7 +2,7 @@
 title: Jumpstart Your ServiceNow AI Journey
 description: This Accelerator provides guidance on how to achieve your organization's goals and objectives with ServiceNow's AI capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,7 +2,7 @@
 title: Editing functions in HTML field editor
 description: Several editing functions are built into TinyMCE.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_EditingFunctions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_EditingFunctions.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Configure the HTML toolbar, Configure a field editor for the HTML f
 
 Several editing functions are built into TinyMCE.
 
-You can add more edit functions to TinyMCE v6.8.3 using the **glide.ui.html.editor.toolbar** property and properties on the **UI Properties** page. For more information on configuring the edit functions, see [Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md).
+You can add more edit functions to TinyMCE v6.8.3 using the **glide.ui.html.editor.toolbar** property and properties on the **UI Properties** page. For more information on configuring the edit functions, see [Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md).
 
 <table id="table_xg1_bcg_vq"><thead><tr><th>
 

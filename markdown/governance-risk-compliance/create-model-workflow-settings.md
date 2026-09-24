@@ -2,7 +2,7 @@
 title: Configure Model Workflow Settings
 description: Configure the conditions and frequency for scheduling assessment and validation tasks to maintain a structured and timely approach to model risk management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-model-workflow-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-model-workflow-settings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ This task explains how to configure the frequency for assessment and validation 
 
 **Note:** Models with customized frequencies at the model risk record level aren’t affected.
 
-To manually schedule assessment and validation tasks from the model risk record, refer to [Schedule assessment and validation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/schedule-assessment-and-validation-tasks.md).
+To manually schedule assessment and validation tasks from the model risk record, refer to [Schedule assessment and validation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/schedule-assessment-and-validation-tasks.md).
 
 ## Procedure
 

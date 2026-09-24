@@ -2,7 +2,7 @@
 title: Fix the data that caused a validation failure
 description: When a policy that executes against a deployable snapshot fails or generates an error or warning, the policy identifies the offending CDI and the reason for the failure. While working in a changeset, you can use the Validation failures panel to navigate directly to the offending CDI so you can correct the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-validation-failure-fix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-validation-failure-fix.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

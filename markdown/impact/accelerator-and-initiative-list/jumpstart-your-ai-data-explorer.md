@@ -2,7 +2,7 @@
 title: Jumpstart Your AI Data Explorer
 description: This Accelerator helps customers get started with ServiceNow's AI Data Explorer through coaching, applied demonstrations, and leading practices, for faster, confident data-driven decisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-ai-data-explorer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-ai-data-explorer.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

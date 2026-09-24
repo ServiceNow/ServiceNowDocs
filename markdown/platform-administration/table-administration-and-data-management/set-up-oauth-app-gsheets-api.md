@@ -2,7 +2,7 @@
 title: Set up the OAuth application on the Google Sheets API
 description: Set up the OAuth application on the Google Sheets API so that you can authenticate requests from your ServiceNow instance to access Google Sheets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/set-up-oauth-app-gsheets-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/set-up-oauth-app-gsheets-api.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -147,7 +147,7 @@ The OAuth application is enabled to authenticate the access of Google Sheets fro
 
 ## What to do next
 
-To enable OAuth authorization for exporting table records to Google Sheets, register the Google Drive application in your instance. For more information, see [Create an application registry for Google Sheets on a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/configure-app-registry-gsheets.md).
+To enable OAuth authorization for exporting table records to Google Sheets, register the Google Drive application in your instance. For more information, see [Create an application registry for Google Sheets on a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/configure-app-registry-gsheets.md).
 
-**Parent Topic:**[Exporting your table records to Google Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/setup-gsheet-export.md)
+**Parent Topic:**[Exporting your table records to Google Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/setup-gsheet-export.md)
 

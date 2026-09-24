@@ -2,7 +2,7 @@
 title: View and manage your AI assets in the asset inventory
 description: Use the asset library to view and manage the AI assets in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-view-ai-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-view-ai-assets.html
 release: australia
 topic_type: task
 last_updated: "2026-07-30"
@@ -23,7 +23,7 @@ Role required: sn\_na\_center.nac\_admin
 
 Follow these steps to view the AI assets on your instance. AI assets include agents, agentic workflows, skills, subflows, actions, virtual assistants, and topics.They also include datasets, knowledge graphs, and catalog items.
 
-For more information, see [AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-assets-section.md).
+For more information, see [AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-ai-assets-section.md).
 
 ## Procedure
 
@@ -198,7 +198,7 @@ Displays a list of all knowledge graphs.
     The asset details page may open on a separate workspace tab if the selected asset is managed using an application that is fully integrated in AI Admin Center. If it is managed in another application, the application opens to the asset details page.
 
 
-**Parent Topic:**[Managing AI assets in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md)
+**Parent Topic:**[Managing AI assets in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-using-asset-inventory.md)
 
 **Related topics**  
 

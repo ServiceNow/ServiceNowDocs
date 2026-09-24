@@ -2,7 +2,7 @@
 title: Add columns with the Rich Content Editor
 description: Use the Rich Content Editor canvas to create columns to help define and organize your layout for your page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-rich-content-canvas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-rich-content-canvas.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ Use the **Rich Content Editor** canvas to create columns to help define and orga
 
 Role required: sn\_cd.content\_manager
 
-After you have completed the **New content** form \(see [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md)\) and navigated to the Rich content canvas, you can create rich content.
+After you have completed the **New content** form \(see [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md)\) and navigated to the Rich content canvas, you can create rich content.
 
 You can add 1, 2, or 3 columns. Each column acts as a container for other components. Each column component can also be edited by selecting the component and updating the properties under settings.
 
@@ -159,11 +159,11 @@ Add and style more columns to create a layout for all the content on the page.
 
 Then, add components such as images, videos, text boxes, and buttons:
 
--   [Add Tabs with Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-tabs.md)
--   [Add a Divider with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-divider.md)
--   [Add an Image with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-image.md)
--   [Add a Video with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-video.md)
--   [Add Text or a Text section with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-text.md)
--   [Add a Link or Link block with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-link-block.md)
--   [Add a Button with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-button.md)
+-   [Add Tabs with Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content-tabs.md)
+-   [Add a Divider with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content-divider.md)
+-   [Add an Image with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content-image.md)
+-   [Add a Video with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content-video.md)
+-   [Add Text or a Text section with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content-text.md)
+-   [Add a Link or Link block with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content-link-block.md)
+-   [Add a Button with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content-button.md)
 

@@ -2,7 +2,7 @@
 title: Create a backup for the Console
 description: You can create a full or partial backup of the Discovery Console for OT data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/create-console-backup-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/create-console-backup-concept.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-23"
@@ -91,5 +91,5 @@ To create a backup of the Discovery Console for OT:
 11. Select the **Download** button and the ZIP is downloaded to your local system.
 12. Once the file is downloaded, select the delete icon \(trash can\) to remove the archive and free up disk space on the Console.
 
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/settings-page-console.md)
 

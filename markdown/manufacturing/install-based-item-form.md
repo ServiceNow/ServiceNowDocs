@@ -2,7 +2,7 @@
 title: Install based item form
 description: An install base item refers to an application service configuration item. Each install base item references the configuration item record for the customer. If issues arise with a configuration item, customer service agents can trace which install base items that the case is affecting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/install-based-item-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/install-based-item-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ Configuration Item
 
 </td><td>
 
-Configuration item that is associated with the install base item.The sn\_customerservice\_manager role must also have the app\_service\_user role to create the install base items for the Application Service configuration item class. For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md).
+Configuration item that is associated with the install base item.The sn\_customerservice\_manager role must also have the app\_service\_user role to create the install base items for the Application Service configuration item class. For more information, see Application services.
 
 Service models have a model category called the Application Service, which links a service model to the Application Service CI class. For more information, see [Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_Models.md) and [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ModelCategories.md).
 
@@ -153,10 +153,10 @@ Specification
 Specification that is associated with an install base item. Option that helps in fulfilling orders to create an install base item and its hierarchy.**Note:** The **Specification** field appears only to CSM agents, managers, and contributor persona.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[Configure install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-install-base-item.md)
+[Configure install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-install-base-item.md)
 

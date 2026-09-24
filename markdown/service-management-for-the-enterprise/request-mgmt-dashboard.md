@@ -2,7 +2,7 @@
 title: Legacy: Request Management - Request dashboard
 description: Track the progress of new requests through the time they are worked on until they are closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/request-mgmt-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/request-mgmt-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -93,5 +93,5 @@ Indicators not appearing in dashboard widgets but used in formulas:
 -   Priority
 -   State
 
-**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/request-content-pack.md)
+**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/request-content-pack.md)
 

@@ -2,7 +2,7 @@
 title: Publisher overview for SAP in the Software Asset Workspace
 description: View license usage information related to SAP in the publisher overview for SAP in the Software Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/publisher-overview-sap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/publisher-overview-sap.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -101,9 +101,9 @@ Potential indirect access \(transaction activity\)
 Total number of SAP users with indirect access to the SAP system based on user transaction activity.Users are given a score based on the amount of data received or sent by each connection.
 
 </td></tr></tbody>
-</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
+</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Perform bulk update of resale value for the assets
 description: Update the resale values for assets planned for disposal, and indicate that you want to resell them instead of disposing of them, to streamline the asset resale process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/bulk-update-resale-value-asset-state.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/bulk-update-resale-value-asset-state.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -81,14 +81,14 @@ Download the list of the planned assets from the Disposal Documentation task and
 
 ## What to do next
 
-On the **Planned Asset** tab, select the assets and proceed with resale. For more information about asset resale, see [Resale hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-resale-order.md)
+On the **Planned Asset** tab, select the assets and proceed with resale. For more information about asset resale, see [Resale hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-resale-order.md)
 
-**Parent Topic:**[Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-disposal-order.md)
+**Parent Topic:**[Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-disposal-order.md)
 
 **Related topics**  
 
 
-[Resale hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-resale-order.md)
+[Resale hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-resale-order.md)
 
-[Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-disposal-order.md)
+[Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-disposal-order.md)
 

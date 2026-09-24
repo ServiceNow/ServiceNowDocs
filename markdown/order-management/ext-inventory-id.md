@@ -2,7 +2,7 @@
 title: External product inventory ID
 description: You can use a product inventory ID from external Configure, Price, and Quote \(CPQ\) systems in the Order Management application to complete the order fulfillment flow for various actions on the product and service orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/ext-inventory-id.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/ext-inventory-id.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,15 +28,15 @@ With the support of an external inventory ID, you can do the following tasks:
 
 **Note:** You can also map the external product inventory ID with the product inventory record by using the Product Inventory Open API. For more information, see [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-inventory-open-api.md).
 
--   **[Review the external product inventory details for a customer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-review-ext-inventory.md)**  
+-   **[Review the external product inventory details for a customer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-review-ext-inventory.md)**  
 Review the external inventory details of the customer orders that you’ve received from the external Configure, Price, and Quote \(CPQ\) system during the order capture process.
 
-**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-service-orders.md)
+**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/managing-service-orders.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

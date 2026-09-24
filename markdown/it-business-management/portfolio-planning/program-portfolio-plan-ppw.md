@@ -2,7 +2,7 @@
 title: Programs enhanced experience with portfolio plan view
 description: Programs enhanced experience provides dedicated program planning views with zero setup. Access program-scoped planning data including Prioritization, Roadmap, and Financials views for focused program management without navigating portfolio-wide interfaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/program-portfolio-plan-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/program-portfolio-plan-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -86,5 +86,5 @@ No manual configuration, template selection, or setup steps are needed. Programs
 -   **Role-based security:** Access controlled by established roles for program planning
 -   **Automatic plan ownership:** Program managers are automatically assigned as plan owners
 
-**Parent Topic:**[Portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-plans-in-portfolio-planning-ppw.md)
+**Parent Topic:**[Portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/portfolio-plans-in-portfolio-planning-ppw.md)
 

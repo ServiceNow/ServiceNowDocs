@@ -2,12 +2,12 @@
 title: Self-serve Accelerator fulfillment process
 description: You can complete the full Accelerator fulfillment process independently, without squad assistance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/on-demand-accelerators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/on-demand-accelerators.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Request Accelerators and Initiatives, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -48,5 +48,5 @@ The workflow consists of consecutive tasks across the following activity types:
 **Related topics**  
 
 
-[Start an on-demand Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/start-ondemand-accelerator.md)
+[Start an on-demand Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/start-ondemand-accelerator.md)
 

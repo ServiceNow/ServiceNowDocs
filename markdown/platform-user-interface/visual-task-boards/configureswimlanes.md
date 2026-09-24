@@ -2,7 +2,7 @@
 title: Configure a Visual Task Board with swimlanes
 description: Swimlanes enable you to create an environment with horizontal lanes in addition to vertical lanes. Swimlanes use only compact cards in Visual Task Board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/configureswimlanes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/configureswimlanes.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -22,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can add swimlanes in all types of Visual Task Boards. For more information see [Add or modify Visual Task Board lanes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_AddOrModifyALane.md).
+You can add swimlanes in all types of Visual Task Boards. For more information see [Add or modify Visual Task Board lanes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_AddOrModifyALane.md).
 
 When you select swimlanes in Visual Task Boards, you can do the following:
 
@@ -81,5 +81,5 @@ When you select swimlanes in Visual Task Boards, you can do the following:
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
+**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 

@@ -2,7 +2,7 @@
 title: View employee presence modules
 description: Track the routines and exceptions created by employees and the collaborators added by employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/view-employee-routines-and-collaborators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/view-employee-routines-and-collaborators.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -49,7 +49,7 @@ Using the Employee Presence module, you can perform the following:
     A list of your collaborators is displayed.
 
 
-**Parent Topic:**[Manage Workplace Concierge - Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/manage-workplace-concierge.md)
+**Parent Topic:**[Manage Workplace Concierge - Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/manage-workplace-concierge.md)
 
 **Related topics**  
 

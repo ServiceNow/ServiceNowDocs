@@ -2,7 +2,7 @@
 title: Disable automated alarm closure for LogRhythm
 description: Disable the automated alarm closure capability if you no longer want to view the security incident closure information on the LogRhythm Web Console. Once deactivated, the ServiceNow AI Platform no longer closes alarms within the LogRhythm Web Console. This process is optional.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/disable-auto-alarm-logrhythm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/disable-auto-alarm-logrhythm.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -41,5 +41,5 @@ Once disabled, the status notes and other closure information on the security in
     The automated alarm closure capability is now disabled.
 
 
-**Parent Topic:**[Additional configurations for the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-system-and-troubleshooting-properties.md)
+**Parent Topic:**[Additional configurations for the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-system-and-troubleshooting-properties.md)
 

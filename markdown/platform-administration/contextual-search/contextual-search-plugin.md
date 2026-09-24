@@ -2,7 +2,7 @@
 title: Contextual search plugin
 description: The Contextual Search plugin \(com.snc.contextual\_search\) is activated by default in the base system. This plugin activates related plugins if they aren't already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/contextual-search-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/contextual-search/contextual-search-plugin.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -69,16 +69,16 @@ Provides GraphQL schema for contextual search services.
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/find-components.md).
 
 
--   **[Components installed with Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/components-installed-with-cxs.md)**  
+-   **[Components installed with Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/components-installed-with-cxs.md)**  
 Several types of components are installed with the activation of the Contextual Search plugin \(com.snc.contextual\_search\), including tables and user roles.
 
-**Parent Topic:**[Contextual search plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/contextual-search-plugins.md)
+**Parent Topic:**[Contextual search plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/contextual-search-plugins.md)
 
 **Related topics**  
 
 
-[List of plugins \( Australia \)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \( Australia \)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-of-plugins.md)
 

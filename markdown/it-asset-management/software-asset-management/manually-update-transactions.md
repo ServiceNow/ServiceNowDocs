@@ -2,7 +2,7 @@
 title: Manually create a spend transaction
 description: Manually create a spend transaction in the Software Asset Workspace to track a software purchase that is not part of a scheduled import.
 locale: en-us
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/manually-update-transactions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/manually-update-transactions.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -60,17 +60,17 @@ Manual creation is useful for one-off software purchases or spend records that a
 
     The transaction is created with the **State** field set to **New** and appears in the All transactions list. The **SAM - Label Spend Transactions** scheduled job processes the transaction on its next run.
 
-    If you provided the valid values for **Is software**, **Publisher**, or **Product** fields during creation, the state changes to **Manually labeled** after save. For details on state values, see [AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
+    If you provided the valid values for **Is software**, **Publisher**, or **Product** fields during creation, the state changes to **Manually labeled** after save. For details on state values, see [AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
 
 
-**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-spend-detection.md)
 
 **Related topics**  
 
 
-[Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-spend-transactions.md)
+[Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-spend-transactions.md)
 
-[Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)
+[Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)
 
-[AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md)
+[AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md)
 

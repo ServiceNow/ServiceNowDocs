@@ -2,7 +2,7 @@
 title: Field mapping in solution configuration
 description: Field mapping defines how field values pass from a parent blueprint to a child blueprint when a solution configuration session is running.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/field-mapping-in-solution-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/field-mapping-in-solution-configuration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -38,9 +38,9 @@ You can map fields of the same type only. The following field types are supporte
 **Related topics**  
 
 
-[Define field mappings for a solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/define-field-mappings-sol-config.md)
+[Define field mappings for a solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/define-field-mappings-sol-config.md)
 
 [Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-[Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-configurable-product-action.md)
+[Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-configurable-product-action.md)
 

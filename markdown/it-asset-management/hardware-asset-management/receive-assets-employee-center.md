@@ -2,7 +2,7 @@
 title: Acknowledge receipt of assets on the Employee Center portal
 description: After receiving hardware or consumable assets that were in transit and reserved for you, confirm their receipt on the Employee Center portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/receive-assets-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/receive-assets-employee-center.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -95,7 +95,7 @@ Action
     -   Status of the asset changes from **In transit** to **In use**, and the asset is assigned to you.
     -   The **Receive asset** option is no longer available for that asset.
     -   Any receive task associated with that asset is automatically closed.
- **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/report-asset-issue-attestation.md).
+ **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/report-asset-issue-attestation.md).
 
 </td></tr><tr><td id="d68867e336">
 
@@ -119,7 +119,7 @@ Action
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

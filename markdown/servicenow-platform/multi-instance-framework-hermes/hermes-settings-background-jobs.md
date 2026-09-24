@@ -2,7 +2,7 @@
 title: Hermes background jobs
 description: These background jobs are associated with Hermes settings. The table lists their default run frequencies and descriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/hermes-settings-background-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/hermes-settings-background-jobs.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -36,7 +36,7 @@ These background jobs are associated with Hermes settings. The table lists their
 |Auto Flush hermes\_usage\_metrics \(Yearly\)|Scheduled|Deletes hermes\_usage\_metrics records older than approximately 3 months where roll\_up\_type = 1.|
 |Hermes Topics Util|Scheduled|Synchronizes topic metadata across the cluster and verifies that all nodes have consistent topic configurations.|
 
-**Parent Topic:**[Hermes Messaging Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-reference.md)
+**Parent Topic:**[Hermes Messaging Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-reference.md)
 
 **Related topics**  
 

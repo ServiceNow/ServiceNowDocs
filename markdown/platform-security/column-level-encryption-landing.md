@@ -2,7 +2,7 @@
 title: Column Level Encryption
 description: Column Level Encryption permits and denies access to encrypted data based on user role. Column Level Encryption includes basic key management using encryption modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/column-level-encryption-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/column-level-encryption-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Column Level Encryption permits and denies access to encrypted data based on use
 
 **Important:**
 
-Starting with the Zurich release, Column Level Encryption \(CLE\) and Column Level Encryption Enterprise \(CLEE\) are being prepared for future deprecation. They will be hidden and no longer activated on new instances but will continue to be supported. [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md) and [Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-platform-encryption.md) provide the latest experience for this functionality.
+Starting with the Zurich release, Column Level Encryption \(CLE\) and Column Level Encryption Enterprise \(CLEE\) are being prepared for future deprecation. They will be hidden and no longer activated on new instances but will continue to be supported. [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption.md) and [Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-platform-encryption.md) provide the latest experience for this functionality.
 
 For details, see the Deprecation Process \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] article in the Now Support knowledge base.
 
@@ -36,15 +36,15 @@ In this example, you can see four users attempting to access data stored in two 
 
 <table id="table_ryk_zzq_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the benefits of the Standard and Enterprise editions of Field Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-column-level-encryption.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the benefits of the Standard and Enterprise editions of Field Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/exploring-column-level-encryption.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to activate and configure Column Level Encryption Enterprise, and manage migration from Encryption Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to activate and configure Column Level Encryption Enterprise, and manage migration from Encryption Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-column-level-encryption.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Column Level Encryption to manage access to encrypted data on your instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-column-level-encryption.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Column Level Encryption to manage access to encrypted data on your instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-column-level-encryption.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -53,12 +53,12 @@ In this example, you can see four users attempting to access data stored in two 
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
--   **[Exploring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-column-level-encryption.md)**  
+-   **[Exploring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/exploring-column-level-encryption.md)**  
 Learn more about Field Encryption.
--   **[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption-2.md)**  
+-   **[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-column-level-encryption-2.md)**  
 Learn how to activate and configure Column Level Encryption and manage migration from Encryption Support.
--   **[Using Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-column-level-encryption-2.md)**  
+-   **[Using Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-column-level-encryption-2.md)**  
 Use Column Level Encryption to manage access to encrypted data on your instances.
 
-**Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md)
+**Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption-landing.md)
 

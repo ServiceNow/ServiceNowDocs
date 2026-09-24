@@ -2,7 +2,7 @@
 title: Overview tab in AI Admin Hub
 description: The AI Admin Hub console provides quick and effortless access to the important information that you need to set up, configure, and monitor ServiceNow Otto applications and features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configuring-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configuring-now-assist.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ Take five steps to begin using the AI Admin Hub console.
 
     The ServiceNow Otto panel integrates the ServiceNow Otto skills into the Next Experience UI. By turning on the ServiceNow Otto panel directly from the AI Admin Hub console, you enable agents to access skills from anywhere on the ServiceNow AI Platform.
 
-    For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+    For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md).
 
     This step is optional because the skills can also display in-product in the Core UI and in Workspaces.
 
@@ -80,9 +80,9 @@ You can consult the following checklist from the AI Admin Hub console Overview p
 
 ## Learn more about the ServiceNow Otto journey
 
--   Get an overview of [the ServiceNow Otto framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md).
--   Discover the [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
--   Explore the [ServiceNow Otto skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md) available.
--   [Activate and configure a ServiceNow Otto skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md) using the AI Admin Hub console.
--   [Analyze and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-and-monitoring.md) ServiceNow Otto skill usage and performance.
+-   Get an overview of [the ServiceNow Otto framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-now-assist-platform.md).
+-   Discover the [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md).
+-   Explore the [ServiceNow Otto skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills.md) available.
+-   [Activate and configure a ServiceNow Otto skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md) using the AI Admin Hub console.
+-   [Analyze and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-and-monitoring.md) ServiceNow Otto skill usage and performance.
 

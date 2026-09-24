@@ -2,7 +2,7 @@
 title: Map application services using tags with classic Service Mapping
 description: Use tags that help categorize and organize configuration items \(CIs\) in your organization to map application services. Tag-based mapping doesn't require configuring credentials or providing users with elevated rights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/map-service-tag.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/map-service-tag.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -18,7 +18,7 @@ Use tags that help categorize and organize configuration items \(CIs\) in your o
 
 ## Before you begin
 
-Analyse, review, and define tags as covered in [Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prepare-map-service-tag.md).
+Analyse, review, and define tags as covered in [Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/prepare-map-service-tag.md).
 
 Role required: service\_mapping\_admin
 
@@ -26,7 +26,7 @@ Role required: service\_mapping\_admin
 
 A tag is a label that consists of a key-value pair. Your organization may use tags to categorize its assets, to enhance query and reporting capabilities. Discovery and Cloud Provisioning and Governance can discover tags used by all major cloud providers and container ecosystems. Once the tags are discovered, Service Mapping can create service instances based on these tags. For example, you can use tags to map all application services your organization uses in the production environment in the EMEA region. You can effectively use tags to map multiple service instances.
 
-**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
+**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
 
 The result of the tag-based mapping is a hierarchical service map that may be less precise than the application service created using the patterns.
 
@@ -34,7 +34,7 @@ The result of the tag-based mapping is a hierarchical service map that may be le
 
 Service Mapping creates names for tag-based services using tag values discovered for the tag definitions, to which these tag-based services belong. For example, for Environment and Application tag categories with Production and HR as their respective tag values, the default service name is production::hr. Tag-based service names use low case.
 
-**Important:** If you add or remove tag categories after mapping services, Service Mapping does not implement these changes for previously mapped services belonging to this service family. For more information, see [Modify or update tag definitions for tag-based mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/modify-tag-category-family.md).
+**Important:** If you add or remove tag categories after mapping services, Service Mapping does not implement these changes for previously mapped services belonging to this service family. For more information, see [Modify or update tag definitions for tag-based mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/modify-tag-category-family.md).
 
 In domain-separated deployments, Service Mapping populates tag-based services based on this service family only with CIs belonging to the leaf domain to which the service family belongs.
 
@@ -116,17 +116,17 @@ All tag-based service instances have their respective service instance CIs as th
 
     If some application services are too large, resolve the service size issue:
 
-    -   [Modify tag definitions used for mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/modify-tag-category-family.md) to make sure Service Mapping includes only relevant CIs in the service instance.
-    -   If necessary, [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md) to change which CIs Service Mapping includes in tag-based service instances.
-3.  To fine-tune or fix the tag-based services, [modify the tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/modify-tag-category-family.md) that you used for the service family.
+    -   [Modify tag definitions used for mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/modify-tag-category-family.md) to make sure Service Mapping includes only relevant CIs in the service instance.
+    -   If necessary, [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag_discovery_configuration.md) to change which CIs Service Mapping includes in tag-based service instances.
+3.  To fine-tune or fix the tag-based services, [modify the tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/modify-tag-category-family.md) that you used for the service family.
 
     **Important:** The map window displays maps for tag-based and dynamic services in the View mode only. You cannot fine-tune or edit tag-based and dynamic services from the map.
 
 
--   **[Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prepare-map-service-tag.md)**  
+-   **[Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/prepare-map-service-tag.md)**  
 Analyze, review, and define tags in your organization for successful mapping.
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 
 **Related topics**  
 
@@ -149,7 +149,7 @@ Analyze, review, and define tags in your organization for successful mapping.
 
 [Application service analysis and maintenance using classic Service Mapping]()
 
-[Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md)
+[Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/choose-mapping-method.md)
 
-[Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md)
+[Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag_discovery_configuration.md)
 

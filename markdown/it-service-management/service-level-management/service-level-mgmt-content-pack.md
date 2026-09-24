@@ -2,7 +2,7 @@
 title: Legacy: Platform Analytics Solutions for Service Level Management
 description: This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/service-level-mgmt-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/service-level-mgmt-content-pack.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -16,7 +16,7 @@ breadcrumb: [Service Level Management reference, Service Level Management, IT Se
 
 This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
-**Note:** The Service Level Management PA dashboard is deprecated. SLA KPIs are available in the individual dashboards for each workflow, such as [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) or [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change.md). For more information on Platform Analytics Solutions containing preconfigured dashboards, see [ITSM dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack-sd.md).
+**Note:** The Service Level Management PA dashboard is deprecated. SLA KPIs are available in the individual dashboards for each workflow, such as [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident.md) or [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change.md). For more information on Platform Analytics Solutions containing preconfigured dashboards, see [ITSM dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-dashboards-content-pack-sd.md).
 
 ## Enabling the Platform Analytics Solution
 
@@ -34,10 +34,10 @@ To use this Platform Analytics Solution, you must have an entitlement to use Per
 
 In some solutions, System Administrator is the **Run As** user for data collection jobs in the Platform Analytics Solutions. In other solutions, the **Run As** user for data collection jobs is left blank. Verify that the **Run As** user exists on the instance, and that this user has the appropriate level of access. An inappropriate **Run As** user can cause errors or limit the data that is collected. This setting only has an effect if domain separation is enabled.
 
--   **[Service level management PA dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/slm-pa-dashboard.md)**  
+-   **[Service level management PA dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/slm-pa-dashboard.md)**  
 The Service Level Agreement \(SLA\) Overview module provides a Performance Analytics \(PA\) Dashboard to review SLA information at a glance.
 
-**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-management-reference.md)
 
 **Related topics**  
 

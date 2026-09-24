@@ -2,7 +2,7 @@
 title: Enable synchronous support in Virtual Agent API
 description: You can support synchronous mode for your conversation with primary bot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/virtual-agent-api-enable-synchronous-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/virtual-agent-api-enable-synchronous-support.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -49,5 +49,5 @@ Ensure to exclude the Bot to Bot channel from Agent Chat.
 6.  Click **Update**.
 
 
-**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

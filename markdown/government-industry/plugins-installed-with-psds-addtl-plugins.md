@@ -2,7 +2,7 @@
 title: Plugins installed with Public Sector Digital Services Applications
 description: These plugins are automatically installed with the following Public Sector Digital Services applications, if they aren't already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/plugins-installed-with-psds-addtl-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/plugins-installed-with-psds-addtl-plugins.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -459,5 +459,5 @@ The following plugins are installed with ServiceNow Otto for Public Sector Digit
 
 - Geo Map \(sn\_geo\_map\) for Service Request Playbook
 
-**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
+**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/installed-with-public-sector-digital-services-core.md)
 

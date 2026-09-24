@@ -2,7 +2,7 @@
 title: Display or hide update set deployment permissions
 description: Display or hide deployment permissions for update sets from the Manage Developers dialog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/display-or-hide-deployment-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/delegated-development-and-deployment/display-or-hide-deployment-permissions.html
 release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment

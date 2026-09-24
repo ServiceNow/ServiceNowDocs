@@ -2,7 +2,7 @@
 title: Create a knowledge article from a case
 description: Create knowledge articles from customer service cases to save case information and make it available to others in a knowledge base.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-create-knowledge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-create-knowledge.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

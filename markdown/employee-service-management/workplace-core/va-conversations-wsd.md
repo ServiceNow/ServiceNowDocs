@@ -2,7 +2,7 @@
 title: Virtual Agent for Workplace Service Delivery
 description: Workplace Service Delivery provides you with delivered conversations in Virtual Agent, which is an automated chatbot that enables employees to request services or raise inquiries. The Virtual Agent is available on the Employee Center where employees can find all their workplace-related information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/va-conversations-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/va-conversations-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -46,9 +46,9 @@ To activate Virtual agent for Workplace Service Delivery, activate the following
 1.  Activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) that provides the Virtual Agent framework.
 2.  Activate the Workplace Core plugin \(sn\_wsd\_core\).
 
-For more information, refer to [Activate Virtual Agent for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/actuvate-va-for-wsd.md).
+For more information, refer to [Activate Virtual Agent for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/actuvate-va-for-wsd.md).
 
-**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-service-delivery-overview.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-service-delivery-overview.md)
 
 **Related topics**  
 

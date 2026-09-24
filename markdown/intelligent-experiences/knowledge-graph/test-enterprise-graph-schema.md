@@ -2,7 +2,7 @@
 title: Test an Enterprise Graph schema
 description: Promote functionality by entering a query and testing the Enterprise Graph schema.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/test-enterprise-graph-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/test-enterprise-graph-schema.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

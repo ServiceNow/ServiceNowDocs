@@ -2,7 +2,7 @@
 title: Playbook activity state-mapping rules
 description: Map playbook activity states to states from the given experience record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-activity-state-mapping-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/playbook-activity-state-mapping-rules.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -53,5 +53,5 @@ Default playbook activity states will always be set.
 
 \[Omitted image "activity-state-mapping-card.png"\] Alt text: Default activity states in a drop-down for the Activity Card Value field
 
-**Parent Topic:**[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-activity-state-mapping.md)
+**Parent Topic:**[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-activity-state-mapping.md)
 

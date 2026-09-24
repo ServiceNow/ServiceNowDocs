@@ -2,7 +2,7 @@
 title: Schedule view flexibility
 description: Event planners and space planners can organize, view, and manage events across multiple spaces and time zones using the Event planner Scheduled view tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/schedule-view-flexibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/schedule-view-flexibility.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -64,5 +64,5 @@ The following configuration options are available on the **Schedule view** tab:
     Organize event sections dynamically using the Group by filter in the Advanced filter dialog. In addition to building and floor, you can group by other fields such as campus or space type. Applying a group by filter updates the schedule view to show sections based on the selected attribute. For example, grouping by campus displays separate sections for each campus, while grouping by space type organizes sections according to room types.
 
 
-**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-view.md)
+**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-schedule-view.md)
 

@@ -2,7 +2,7 @@
 title: Drag a file into a Connect conversation
 description: Drag and drop functionality in Connect Chat and Connect Support provides an easy way to share external attachments and links or items from within your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_DragAndDropAFileInAChatWindow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/t\_DragAndDropAFileInAChatWindow.html
 release: australia
 product: Connect
 classification: connect

@@ -2,7 +2,7 @@
 title: Mark proposals
 description: Select scored proposals, mark them for funding or decline to the Grant Program Director for approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-rolling-grants-mark-proposals-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-rolling-grants-mark-proposals-task.html
 release: australia
 topic_type: task
 last_updated: "2026-06-08"
@@ -46,6 +46,6 @@ Proposals that you mark for funding are in a tentative, reversible state indicat
 
     For the procedures to mark for funding or decline, see
 
-    -   [Mark for Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-rolling-grants-mark-funding-task.md)
-    -   [Mark for Decline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-rolling-grants-mark-decline-task.md)
+    -   [Mark for Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-rolling-grants-mark-funding-task.md)
+    -   [Mark for Decline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-rolling-grants-mark-decline-task.md)
 

@@ -29,7 +29,7 @@ Non-self-served contract requests include the following features:
 
 A workflow for non-self-served contract request might progress as follows:
 
-1.  The Contract requester initiates a contract request from the workspace. For more information, see [Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
+1.  The Contract requester initiates a contract request from the workspace. For more information, see [Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
 2.  A contract request is created in the Draft state.
 3.  The Contract requester uploads a single contract or multiple contracts and their supporting documents and classifies them.
 4.  The contract fulfiller views the contract document attached to the contract request.

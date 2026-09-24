@@ -2,7 +2,7 @@
 title: Monitor and plan improvements
 description: Monitor and plan improvements using the Continual Improvement Workbench that displays improvements in progress, under review, and in the backlog to help you plan your sprint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/plan-cim-initiatives.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/continual-improvement-management/plan-cim-initiatives.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -24,7 +24,7 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
 1.  Navigate to **Continual Improvement** &gt; **Workbench**.
 
-    For more information, see [Continual Improvement Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/continual-improvement-workbench.md).
+    For more information, see [Continual Improvement Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/continual-improvement-workbench.md).
 
 2.  In the Overview tab, review improvements in progress and select a tile to view more details.
 

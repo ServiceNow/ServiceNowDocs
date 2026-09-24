@@ -2,7 +2,7 @@
 title: Associate a discussion with a claim record
 description: Associate a discussion with an Individual Life Claims record so that other users have access to the claim record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/discuss-individual-life-claim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/discuss-individual-life-claim.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

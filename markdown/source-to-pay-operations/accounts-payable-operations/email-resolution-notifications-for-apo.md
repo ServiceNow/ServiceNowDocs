@@ -2,12 +2,12 @@
 title: Email resolution notifications for APO
 description: AI worker agent resolves the case and moves it to awaiting acceptance, then sends an email with resolution details and accept/reject buttons.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/email-resolution-notifications-for-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/email-resolution-notifications-for-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [APO, Accounts Payable Operations, AI worker agent, Email resolution, AP supplier]
 breadcrumb: [AI worker case resolution confirmation, Use, Accounts Payable Operations, Finance and Supply Chain]
@@ -45,8 +45,8 @@ Email resolution notifications are sent in the following circumstances:
 -   The case status has been changed to "Awaiting acceptance."
 -   Your email address is registered in the system as the case requester or supplier contact.
 
--   **[Respond to an email resolution notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/respond-to-email-resolution-notification.md)**  
+-   **[Respond to an email resolution notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/respond-to-email-resolution-notification.md)**  
 When you receive an email resolution notification for your Accounts Payable Operations case, use the action buttons to accept or reject the resolution.
 
-**Parent Topic:**[AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md)
+**Parent Topic:**[AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md)
 

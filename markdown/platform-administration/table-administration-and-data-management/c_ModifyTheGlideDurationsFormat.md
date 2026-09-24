@@ -2,7 +2,7 @@
 title: Modify the Glide durations format
 description: To convert fields that are displayed in milliseconds \(such as 'Resolution Time' on the Incident table\) to a duration format \(Months/Days/Hours/Seconds\), populate the attribute field on the dictionary with: format=glide\_duration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_ModifyTheGlideDurationsFormat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/c\_ModifyTheGlideDurationsFormat.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -24,5 +24,5 @@ Results in list:
 
 \[Omitted image "DurationResult.png"\] Alt text:
 
-**Parent Topic:**[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
+**Parent Topic:**[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
 

@@ -2,7 +2,7 @@
 title: Create SOAP API access policy
 description: Create an API access policy and map an authentication profile to restrict the authentication type for a SOAP API. For example, you can create an API access policy that allows only ID token authentication for a SOAP API.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-soap-api-access-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-soap-api-access-policy.html
 release: australia
 product: Authentication
 classification: authentication
@@ -18,7 +18,7 @@ Create an API access policy and map an authentication profile to restrict the au
 
 ## Before you begin
 
--   Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-authentication-profile.md).
+-   Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-authentication-profile.md).
 -   Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 ## Procedure

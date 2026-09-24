@@ -2,7 +2,7 @@
 title: Example: Service Model Foundation in a hospital setting
 description: See how Service Model Foundation \(SMF\) tables for healthcare organizations and locations come together for a real hospital system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/smf-hco-hospital-setting-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/smf-hco-hospital-setting-example.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -26,9 +26,9 @@ The following sections show the records that this scenario creates across the Se
 
 This example doesn't show sample records for **Business Organization**, **Organization Core**, or **common location** \[cmn\_location\].
 
-Business Organization and Organization Core are extension ancestors of Internal Organization and External Organization, not tables you populate directly. Every Internal Organization or External Organization record created in this scenario already exists as a row in both of those parent tables through table extension. It's not a separate record you author, so no sample row is shown for them here. For more information, see the important note in [Understanding Service Model Foundation in Healthcare Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/understanding-service-model-foundations-hco.md).
+Business Organization and Organization Core are extension ancestors of Internal Organization and External Organization, not tables you populate directly. Every Internal Organization or External Organization record created in this scenario already exists as a row in both of those parent tables through table extension. It's not a separate record you author, so no sample row is shown for them here. For more information, see the important note in [Understanding Service Model Foundation in Healthcare Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-service-model-foundations-hco.md).
 
-Common location only enters the picture once address data is added to a Business Organization record, through the process described in "Importing location data" in [Understanding Service Model Foundation in Healthcare Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/understanding-service-model-foundations-hco.md). This scenario doesn't introduce address data, so no common location record is created.
+Common location only enters the picture once address data is added to a Business Organization record, through the process described in "Importing location data" in [Understanding Service Model Foundation in Healthcare Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-service-model-foundations-hco.md). This scenario doesn't introduce address data, so no common location record is created.
 
 ## Internal Organization records
 

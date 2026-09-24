@@ -2,7 +2,7 @@
 title: Generate and edit articles using the article editor
 description: The Knowledge Center \(KC\) Article Editor delivers an intuitive experience for creating and managing content. Featuring blocks, responsive previews, and AI-powered assistance, it simplifies article design while verifying accessibility and search engine optimization compliance. Backward compatibility with existing templates guarantees a smooth transition for authors and administrators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-edit-knowledge-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/kc-edit-knowledge-article.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -60,7 +60,7 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 **Related topics**  
 
 
-[Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
+[Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 
-[Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md)
+[Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/kc-article-editor.md)
 

@@ -2,7 +2,7 @@
 title: Attach files to a legal matter through Mobile Agent
 description: Upload supporting documentation, such as documents, copies of email messages, images, or any other files into the artifact while you are working on a legal matter or matter task. You can also use these artifacts as a reference material to solve similar requests in future.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/add-files-to-artifact-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/add-files-to-artifact-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile

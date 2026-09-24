@@ -2,7 +2,7 @@
 title: Add Contract documents tab to the contract repository record
 description: Enable display of contract documents in a contract repository record by adding the Contract documents tab to it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-add-con-doc-relatedl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-add-con-doc-relatedl.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,7 +27,7 @@ Role required: admin
 
 2.  Select the table configured as a contract repository.
 
-    For more information, see [Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contract-config.md).
+    For more information, see [Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-contract-config.md).
 
 3.  Right-click the context menu icon \[Omitted image "context-menu.png"\] Alt text: Context menu icon and select **Configure** &gt; **Related Lists**.
 
@@ -50,7 +50,7 @@ The Contract document tab is available your workspace to view the contract docum
 
 .
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 

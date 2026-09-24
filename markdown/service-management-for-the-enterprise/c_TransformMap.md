@@ -2,7 +2,7 @@
 title: Transform map
 description: A transform map is an .xls file that allows you to add spaces or details about spaces from other sources into the space management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_TransformMap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_TransformMap.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ For your convenience, ServiceNow provides two transform maps for your use:
 -   imp\_facilities\_data
 -   imp\_facilities\_level\_data
 
-For instructions, see [Run transform to update data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_RunTransform.md).
+For instructions, see [Run transform to update data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_RunTransform.md).
 
-**Parent Topic:**[Run transform to update data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_RunTransform.md)
+**Parent Topic:**[Run transform to update data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_RunTransform.md)
 

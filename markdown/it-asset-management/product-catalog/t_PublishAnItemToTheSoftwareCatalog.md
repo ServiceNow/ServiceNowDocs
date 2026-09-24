@@ -2,7 +2,7 @@
 title: Publish an item to the software catalog
 description: After you create a software item for the vendor catalog, publish it to the software catalog for viewing. The software catalog is a section within the service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_PublishAnItemToTheSoftwareCatalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/product-catalog/t\_PublishAnItemToTheSoftwareCatalog.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -41,7 +41,7 @@ After you publish a vendor catalog item to the software catalog, the **Publish t
     The published item is listed in the **Vendor catalog Items** related list of the Software Catalog form.
 
 
-**Parent Topic:**[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/t_CreateAVendorCatalogItem.md)
+**Parent Topic:**[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/t_CreateAVendorCatalogItem.md)
 
 **Related topics**  
 

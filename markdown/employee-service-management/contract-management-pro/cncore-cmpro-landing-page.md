@@ -2,7 +2,7 @@
 title: Contract Management Pro
 description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendment requests. The solution uses AI to analyze non-standard and missing clauses in contracts, extract obligations and metadata, and provide AI-assisted search. It also supports e-signatures, wet signatures, and external storage systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,27 +29,27 @@ The following video provides an overview of Contract Management Pro.\[Omitted vi
 
 <table id="table_iwv_lpv_klb" class="nav-card presentation"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the features and benefits of Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expl-cmpro.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the features and benefits of Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-expl-cmpro.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Contract Management Pro to submit contract requests, manage document templates and clauses, request signatures, and use external storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Contract Management Pro to submit contract requests, manage document templates and clauses, request signatures, and use external storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "bus-management-console.svg"\] Alt text: Manage contract templates and contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
+[Manage \[Omitted image "bus-management-console.svg"\] Alt text: Manage contract templates and contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, such as roles, tables, plugins, and store applications, that are installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, such as roles, tables, plugins, and store applications, that are installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 </td><td>
 
-[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Coordinate work and improve processes with preconfigured dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-analytics-pa.md)
+[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Coordinate work and improve processes with preconfigured dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-analytics-pa.md)
 
 </td></tr><tr><td>
 
@@ -57,7 +57,7 @@ The following video provides an overview of Contract Management Pro.\[Omitted vi
 
 </td><td>
 
-[ServiceNow Otto for Contract Management\[Omitted image "bus-ai-otto.svg"\] Alt text:Use ServiceNow Otto for Contract Management Pro to enhance user productivity using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
+[ServiceNow Otto for Contract Management\[Omitted image "bus-ai-otto.svg"\] Alt text:Use ServiceNow Otto for Contract Management Pro to enhance user productivity using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
 
 </td><td>
 

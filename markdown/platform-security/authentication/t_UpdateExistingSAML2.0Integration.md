@@ -2,7 +2,7 @@
 title: Update your existing SAML 2.0 integration
 description: Update your existing SAML 2.0 integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_UpdateExistingSAML2.0Integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_UpdateExistingSAML2.0Integration.html
 release: australia
 product: Authentication
 classification: authentication
@@ -57,6 +57,6 @@ Test the Update.
 
 4.  Identify and fix typical login errors.
 
-    For more information, see [Multi-SSO \(SAML 2.0\) errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/saml-errors.md).
+    For more information, see [Multi-SSO \(SAML 2.0\) errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/saml-errors.md).
 
 

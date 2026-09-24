@@ -2,7 +2,7 @@
 title: Allocation - types, setting, and impact
 description: You can categorize the locations in your organization based on cost center, department, or workplace entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/setting-an-allocation-and-its-impact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/setting-an-allocation-and-its-impact.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -38,7 +38,7 @@ If you do not specify any allocation in the system property, then the **Require 
 
 ## Setting an allocation type
 
-On the workplace location's record, you can create or activate an existing allocation in the Allocations related list. For more information, refer to [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-cost-center-department-floor.md).
+On the workplace location's record, you can create or activate an existing allocation in the Allocations related list. For more information, refer to [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-cost-center-department-floor.md).
 
 If you are an existing customer and are using Workplace Core version below 2.16.1, then a fix script is automatically applied to map your existing allocations to the Allocation type \[**sn\_wsd\_core.ALLOCATION\_TYPE**\] property. For example, if your allocations are based on Department, then the property is set as Department. Similarly, if your allocations are based on Cost center, then the property is set as Cost center. If your allocations include both Cost center or Department, then the property is set as empty and warnings are displayed to specify an allocation type.
 
@@ -48,7 +48,7 @@ Depending on a workplace location's allocation, the following actions are perfor
 
 -   When an employee searches for a location to reserve and if the **Require allocation check** and **Enable allocation duration check** options are enabled on the reservable module, the appearance of the resultant locations depends on the allocations that the employee can access. The duration check follows only the start and end dates of the allocation, which are set in the system time zone.
 -   You can make allocations based on the cost center, department, and the workplace entity to which a location or employee belongs.
--   You can make allocations based on the business hierarchy of your organization. You can assign a location or an employee to a workplace entity and create a hierarchy. The application enables you to configure entity types based on your businesses and assign workplace entities to them. You can also create a parent-child hierarchy between workplace entities. For more information, refer to [Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-entity.md).
+-   You can make allocations based on the business hierarchy of your organization. You can assign a location or an employee to a workplace entity and create a hierarchy. The application enables you to configure entity types based on your businesses and assign workplace entities to them. You can also create a parent-child hierarchy between workplace entities. For more information, refer to [Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-entity.md).
 -   During scenario creation, you can specify based on what type of allocation you want to group the spaces. The grouping options are displayed to you based on the allocation that is specified in the system property **sn\_wsd\_core.ALLOCATION\_TYPE**.
 
     **Important:** You cannot create a scenario based on workplace entities. You can only view and make map space administration for workplace entities.
@@ -183,7 +183,7 @@ Null
 The user can access.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/explore_wsm.md)
+</table>**Parent Topic:**[Exploring Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/explore_wsm.md)
 
 **Related topics**  
 

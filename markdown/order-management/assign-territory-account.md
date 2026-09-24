@@ -2,7 +2,7 @@
 title: Assigning a territory on account
 description: You can update the primary territory on an account in which Sales Territory Management​ has been implemented.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/assign-territory-account.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/assign-territory-account.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,12 +29,12 @@ Role required: sales territory admin \(or a user with sales territory override r
 4.  Select **Save**.
 
 
-**Parent Topic:**[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+**Parent Topic:**[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-sales-territory-management.md)
 
 **Related topics**  
 
 
-[Configuring Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-territory-management.md)
+[Configuring Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-sales-territory-management.md)
 
-[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md)
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-sales-territory-management.md)
 

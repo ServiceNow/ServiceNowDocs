@@ -2,7 +2,7 @@
 title: List of scan checks
 description: Multiple scan checks are available in Service Exchange to help you identify issues and system inconsistencies, enabling you to maintain system health and reduce downtime.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-list-of-scan-checks-in-sb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-list-of-scan-checks-in-sb.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -89,5 +89,5 @@ Multiple scan checks are available in Service Exchange to help you identify issu
 **Related topics**  
 
 
-[Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-scan-checks.md)
+[Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-scan-checks.md)
 

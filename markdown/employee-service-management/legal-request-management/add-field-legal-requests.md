@@ -2,7 +2,7 @@
 title: Add fields to the semantic index for legal records
 description: Add the description, short description, and legal category field to the semantic index record to be indexed for a semantic search in the ServiceNow Otto for Legal Service Delivery \(LSD\) application. During AI Search, the legal records are retrieved based on the description, short description, and legal category fields that are added in the semantic index.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/add-field-legal-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/add-field-legal-requests.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -117,5 +117,5 @@ The description, short description, and legal category fields are indexed for th
 
 \[Omitted image "adding-fields-semantic-index-record.png"\] Alt text: Add the description, short description, and legal category field for the semantic search.
 
-**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
+**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
 

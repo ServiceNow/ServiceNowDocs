@@ -2,7 +2,7 @@
 title: Deployment process in AEMC
 description: Learn about the deployment process in AEMC.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/deployment-process-aemc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/deployment-process-aemc.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -24,23 +24,23 @@ Starting with version 28.2.1 of AEMC, ReleaseOps is integrated into AEMC. See th
 
 ## Submitting an application for deployment
 
-The deployment process begins on a development instance when a developer submits an application in App Engine Studio, Creator Studio, or ServiceNow Studio. When an application is submitted for deployment, a deployment request is created, which enables admins to review and approve the application changes. For more information, see [Deployment requests in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/deployment-requests-aemc.md).
+The deployment process begins on a development instance when a developer submits an application in App Engine Studio, Creator Studio, or ServiceNow Studio. When an application is submitted for deployment, a deployment request is created, which enables admins to review and approve the application changes. For more information, see [Deployment requests in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/deployment-requests-aemc.md).
 
 ## Pipelines
 
 Once an application has been submitted and a deployment request has been created, the application then begins to move through the pipeline that has been specified for the organization. A pipeline is the deployment structure that applications follow within AEMC. A pipeline consists of several instances, typically a development instance, test instance, and production instance, as well as the testing suites and frameworks that an organization has set up to verify that the application is stable and compatible before deploying to production. As the application is reviewed and tested, App Engine admins approve the application to move through pipeline environments until the application is finally deployed to a production or target instance.
 
-With AEMC, you can configure pipelines that are tailored to the specific needs of your organization. AEMC supports any number of instances within each pipeline and as many pipelines as are needed for your organization. For example, if your organization requires that changes move through additional non-production instances prior to deploying to production, you can configure your pipeline so that it reflects each environment that you need. For more information about configuring pipelines, see [Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-p-and-d.md).
+With AEMC, you can configure pipelines that are tailored to the specific needs of your organization. AEMC supports any number of instances within each pipeline and as many pipelines as are needed for your organization. For example, if your organization requires that changes move through additional non-production instances prior to deploying to production, you can configure your pipeline so that it reflects each environment that you need. For more information about configuring pipelines, see [Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/config-p-and-d.md).
 
 ## Change Management integration
 
-You can integrate an existing Change Management program with your app deployment processes to add oversight into your deployments and have apps deploy according to a scheduled Change window. For more information, see [Manage deployment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-deployment-requests.md).
+You can integrate an existing Change Management program with your app deployment processes to add oversight into your deployments and have apps deploy according to a scheduled Change window. For more information, see [Manage deployment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/manage-deployment-requests.md).
 
 ## Application Repository
 
-AEMC uses Pipelines and Deployments to deploy applications through different instances. Pipelines and Deployments uses the Application Repository to manage these deployments. For more information about the Application Repository, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/app-repo.md).
+AEMC uses Pipelines and Deployments to deploy applications through different instances. Pipelines and Deployments uses the Application Repository to manage these deployments. For more information about the Application Repository, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/app-repo.md).
 
-Each application can either be deployed using the Application Repository or System Update Sets. If you have used update sets in the past, but want to switch to using the Application Repository, you can do a one-time conversion to deploy the app using the Application Repository instead. All apps don't have to follow the same deployment. For more information, see [Convert custom applications to upgrade from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/convert-custom-app-to-update-app-repo.md) and [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+Each application can either be deployed using the Application Repository or System Update Sets. If you have used update sets in the past, but want to switch to using the Application Repository, you can do a one-time conversion to deploy the app using the Application Repository instead. All apps don't have to follow the same deployment. For more information, see [Convert custom applications to upgrade from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/convert-custom-app-to-update-app-repo.md) and [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/system-update-sets.md).
 
 ## ReleaseOps deployment process
 
@@ -56,7 +56,7 @@ If you are deploying exclusively using ReleaseOps, the deployment process for a 
 6.  Once the deployment tasks have been addressed, the deployment request is set to the Ready for Deployment state.
 7.  On the scheduled date for the release, the release playbook runs. All deployment requests in the Ready for Deployment state move through the pipeline to production.
 
-For more information about deploying with ReleaseOps, see [Exploring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-ops.md).
+For more information about deploying with ReleaseOps, see [Exploring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/exploring-release-ops.md).
 
 If you have migrated to ReleaseOps, the deployment process is as follows.
 
@@ -74,6 +74,6 @@ If you have migrated to ReleaseOps, the deployment process is as follows.
 
 To learn more about migrating to ReleaseOps, see:
 
--   [Migrating App Engine pipelines to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/migrating-ae-pipelines-to-releaseops-aemc.md)
--   [Migration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/migration-tasks-aemc.md)
+-   [Migrating App Engine pipelines to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/migrating-ae-pipelines-to-releaseops-aemc.md)
+-   [Migration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/migration-tasks-aemc.md)
 

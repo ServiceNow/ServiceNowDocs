@@ -2,7 +2,7 @@
 title: Nested bundling in Salesforce CPQ
 description: Enable nested bundling in Salesforce CPQ to support complex product hierarchies and configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-nested-bundling-in-salesforce-cpq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-nested-bundling-in-salesforce-cpq.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

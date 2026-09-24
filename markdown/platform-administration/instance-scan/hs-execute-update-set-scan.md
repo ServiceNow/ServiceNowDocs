@@ -2,7 +2,7 @@
 title: Execute an update set scan
 description: Use an update set scan to run applicable checks against the current versions of records that have updates in the update set. If a record has been modified since it was added to the update set, the scan reflects those later changes. Issues that exist only in the update set version of a record aren't detected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-execute-update-set-scan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/instance-scan/hs-execute-update-set-scan.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -54,5 +54,5 @@ The scan runs applicable checks against the current versions of records that hav
 
 For example, if your update set contains a business rule, checks that target the business rules table run against that record.
 
-**Parent Topic:**[Execute a point scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-point-scan.md)
+**Parent Topic:**[Execute a point scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/instance-scan/hs-execute-point-scan.md)
 

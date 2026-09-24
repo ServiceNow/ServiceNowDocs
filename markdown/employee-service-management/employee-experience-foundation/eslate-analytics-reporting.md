@@ -2,7 +2,7 @@
 title: Analytics and reporting
 description: Track user engagement, content performance, and AI assistant quality across the employee experience with built-in analytics tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-analytics-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-analytics-reporting.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

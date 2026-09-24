@@ -2,7 +2,7 @@
 title: Import IP ranges into Discovery schedules with import sets
 description: One method of entering large numbers of IP networks into Discovery schedules is by using import sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ImportIPRanges.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_ImportIPRanges.html
 release: australia
 product: Discovery
 classification: discovery
@@ -22,9 +22,9 @@ Role required: discovery\_admin
 
 ## About this task
 
-Common groups of IP addresses, known as [ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md) can be used in Advanced Discovery schedules.
+Common groups of IP addresses, known as [ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-ip-address-configuration.md) can be used in Advanced Discovery schedules.
 
-**Note:** You can also use IPAM integration for entering large numbers of IP networks into Discovery schedules. See [IPAM Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/IPAM-integration.md) for more information.
+**Note:** You can also use IPAM integration for entering large numbers of IP networks into Discovery schedules. See [IPAM Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/IPAM-integration.md) for more information.
 
 Use a data source that can be mapped. Include these fields:
 

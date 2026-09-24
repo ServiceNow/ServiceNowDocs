@@ -2,7 +2,7 @@
 title: Add Widgets to GOV.UK Design System Service Portal pages
 description: Add widgets to your portal pages and modify its data, presentation, and behavior. You can use base system widgets as-is in the GDS Service Portal, or you may clone them to suit your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-widgets-add.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-govuk-dev-tk-portal-widgets-add.html
 release: australia
 topic_type: task
 last_updated: "2026-06-09"
@@ -20,11 +20,11 @@ Role required: admin or sp\_admin
 
 **Note:**
 
-If you have not already created the page to which you want to add the widget, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md).
+If you have not already created the page to which you want to add the widget, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-pages.md).
 
 ## About this task
 
-By default, the GOV.UK Developer Toolkit provides you with a library of reusable portal widgets that follow UK GDS guidelines. Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. For information on how to configure and clone base-system widgets, see [Customize Widgets for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-edit.md).
+By default, the GOV.UK Developer Toolkit provides you with a library of reusable portal widgets that follow UK GDS guidelines. Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. For information on how to configure and clone base-system widgets, see [Customize Widgets for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-widgets-edit.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ By default, the GOV.UK Developer Toolkit provides you with a library of reusable
 
 ## Result
 
-The widget is added to the page. Adding a widget to a page creates a new Widget Instance that can be modified separately, and changes will appear on that page **only**. For information on how to add portal widgets to page\(s\), see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md).
+The widget is added to the page. Adding a widget to a page creates a new Widget Instance that can be modified separately, and changes will appear on that page **only**. For information on how to add portal widgets to page\(s\), see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-pages.md).
 

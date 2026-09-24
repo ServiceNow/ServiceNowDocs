@@ -2,7 +2,7 @@
 title: Set up a gating approval via an approval rule
 description: You can set up a gating approval via an approval rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/t\_SetUpAGatingApprViaApprovalRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/approvals/t\_SetUpAGatingApprViaApprovalRule.html
 release: australia
 product: Approvals
 classification: approvals
@@ -16,7 +16,7 @@ breadcrumb: [Gating approvals, Approval rules, Classic approvals, Build workflow
 
 You can set up a gating approval via an approval rule.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 

@@ -2,12 +2,12 @@
 title: Add a software pattern normalization rule
 description: You can add a pattern normalization rule to normalize specific software products in your environment based on a common pattern.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_AddAPatternNormRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/t\_AddAPatternNormRule.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -154,5 +154,5 @@ Choose the language.-   Dutch
 </table>2.  Once the rule is created, to apply the rule so applicable discovery models are normalized without delay, click the **Apply Rule** related link.
 
 
-**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

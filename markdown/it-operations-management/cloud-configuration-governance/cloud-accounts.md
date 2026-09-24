@@ -2,7 +2,7 @@
 title: Cloud accounts
 description: A cloud account is the logical representation in Cloud Provisioning and Governance of all or part of your managed cloud infrastructure. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-accounts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/cloud-accounts.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -86,24 +86,24 @@ You keep a cloud account in the **Draft** state until you are ready to make the 
 
 ## Set up an additional cloud account
 
-See [Set up an additional cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-cloud-account-cloud-mgt.md).
+See [Set up an additional cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/add-cloud-account-cloud-mgt.md).
 
 ## Add a datacenter to a cloud account
 
-At any time, you can add a logical datacenter to the cloud infrastructure that is represented by a cloud account. See [Add a datacenter to a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-datacntr-to-cloud-acct.md).
+At any time, you can add a logical datacenter to the cloud infrastructure that is represented by a cloud account. See [Add a datacenter to a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/add-datacntr-to-cloud-acct.md).
 
 ## Set capacity limits on user requests for resources
 
 Capacity limits place restrictions on the attributes of cloud resources such as the number of virtual machines, virtual CPUs, or aggregate storage. You can set limits on resources separately for each logical datacenter in a cloud account.
 
-[Set capacity limits on user requests for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/set-capacity-limits-cloud-mgt.md)
+[Set capacity limits on user requests for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/set-capacity-limits-cloud-mgt.md)
 
--   **[Service categories discovered in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-discovered-services.md)**  
+-   **[Service categories discovered in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/aws-discovered-services.md)**  
 The Discovery process discovers AWS services.
--   **[Service categories discovered in Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-discovered-services.md)**  
+-   **[Service categories discovered in Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/azure-discovered-services.md)**  
 The Discovery process discovers Microsoft Azure services.
 
-**Parent Topic:**[Cloud Provisioning and Governance administration guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-configuration.md)
+**Parent Topic:**[Cloud Provisioning and Governance administration guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-configuration.md)
 
 **Related topics**  
 

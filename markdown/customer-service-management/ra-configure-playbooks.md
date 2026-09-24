@@ -2,7 +2,7 @@
 title: Configure a playbook recommendation in Recommended Actions
 description: Add a playbook as a recommended action type, then select and configure the playbook with its required inputs in the Recommendation form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-configure-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-configure-playbooks.html
 release: australia
 topic_type: task
 last_updated: "2026-07-06"

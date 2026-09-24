@@ -2,7 +2,7 @@
 title: Viewing task assignments from Schedule Optimization runs
 description: View the results of Schedule Optimization runs to understand how tasks were processed and assigned.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -42,7 +42,7 @@ Schedule Optimization can run in three different modes depending on your schedul
 
 -   **On-demand intraday optimization**
 
-    Schedule Optimization can be configured to run the optimization engine in batches overnight or at selected intervals throughout the day. Dispatchers can also [trigger optimization from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-agent-schedules-on-demand-in-dispatcher-workspace.md) when on-demand optimization is configured, allowing them to run the optimization engine at any time.
+    Schedule Optimization can be configured to run the optimization engine in batches overnight or at selected intervals throughout the day. Dispatchers can also [trigger optimization from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-agent-schedules-on-demand-in-dispatcher-workspace.md) when on-demand optimization is configured, allowing them to run the optimization engine at any time.
 
 
 Regardless of which mode runs, Schedule Optimization applies the configured policies. A policy is a grouping of objectives and constraints that defines the rules for optimization. Policy objectives prioritize how tasks are assigned to technicians. Policy constraints determine the criteria that must be met before a task can be assigned to a technician in an assignment group or territory.
@@ -85,9 +85,9 @@ Each run summary provides:
 **Related topics**  
 
 
-[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
+[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
-[Run optimization for your groups or territories from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-agent-schedules-on-demand-in-dispatcher-workspace.md)
+[Run optimization for your groups or territories from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-agent-schedules-on-demand-in-dispatcher-workspace.md)
 

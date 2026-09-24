@@ -2,7 +2,7 @@
 title: Choose input data form
 description: The Choose input data form for the Regulatory alert summarization skill defines how data is structured and transmitted to the LLM, helping ensure integrity and relevance. It uses rule-based input templates and related taxonomy tables to provide contextual information for Default and New states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/input-data-rcm-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/input-data-rcm-skill.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

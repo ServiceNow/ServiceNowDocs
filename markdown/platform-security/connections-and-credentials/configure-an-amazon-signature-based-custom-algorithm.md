@@ -2,7 +2,7 @@
 title: Configure an Amazon Signature based Custom Algorithm
 description: Generate the Amazon Signature based data needed to authenticate to a web service by running script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/configure-an-amazon-signature-based-custom-algorithm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/configure-an-amazon-signature-based-custom-algorithm.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials

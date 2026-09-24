@@ -2,7 +2,7 @@
 title: Create and manage waterfall projects
 description: Plan, create, and manage projects using the Waterfall methodology.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_CreateAndManageWaterfallProjects.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/c\_CreateAndManageWaterfallProjects.html
 release: australia
 product: Project Management
 classification: project-management
@@ -51,7 +51,7 @@ The following tables, arranged by task group, list the tasks involved in creatin
 |Monitor the testing progress|The Test Plans list, Test Plan form, and Test Case form all display results for test cases and individual tests.|
 |Testing sign-off|Select the **Sign-off Test Plan** related link on Test Plan form.|
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -100,5 +100,5 @@ The following tables, arranged by task group, list the tasks involved in creatin
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
+[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectBaseline.md)
 

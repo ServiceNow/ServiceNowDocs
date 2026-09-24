@@ -2,7 +2,7 @@
 title: Configure when a related list loads
 description: If there are many related lists on a form or many records in the related lists, the form may load slowly. You can improve form response times by configuring related lists to load manually, on demand, or automatically, after the rest of the form loads.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfigureWhenARelatedListLoads.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ConfigureWhenARelatedListLoads.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,7 +54,7 @@ Related lists load on demand. When this option is selected, a **Load Related Lis
 </table>3.  Close the display preferences menu.
 
 
-**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 

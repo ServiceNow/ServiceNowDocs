@@ -2,7 +2,7 @@
 title: Version 9.0.1
 description: Streamline deal registration approvals and task management with configurable rules, automated notifications, and centralized visibility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/partner-relationship-managementt-rn-2026-08.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/partner-relationship-managementt-rn-2026-08.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-03"
@@ -29,5 +29,5 @@ Streamline deal registration approvals and task management with configurable rul
     Create and manage structured deal registration tasks. Use retention policies to control data growth and keep task records manageable over time.
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
 

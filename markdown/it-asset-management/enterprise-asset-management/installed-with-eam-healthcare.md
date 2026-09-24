@@ -2,7 +2,7 @@
 title: Installed with Enterprise Asset Management for Healthcare
 description: The user role components, plugins, and applications are installed with activation of the com.sn\_eamhc plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -86,7 +86,7 @@ sn\_eam.enterprise\_asset\_technician
 |Risk Heat Map \(com.sn\_risk\_heatmap\)|Provides a heatmap component that enables you to visualize the risk posture of your organization.|
 |Geo Map Component \(com.sn\_geo\_map\)|Provides the capability to track the location of the assets using indoor maps.|
 
-**Parent Topic:**[Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-for-healthcare.md)
+**Parent Topic:**[Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/eam-for-healthcare.md)
 
 **Related topics**  
 

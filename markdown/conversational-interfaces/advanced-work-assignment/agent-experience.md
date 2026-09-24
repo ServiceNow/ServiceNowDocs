@@ -2,7 +2,7 @@
 title: Agent Inbox controls
 description: Control certain elements of the agent experience in Agent Workspace. Define the agent presence \(availability\) states and the work item rejection reasons used by agents to decline work assignments in their Agent Workspace inbox.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/agent-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/agent-experience.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

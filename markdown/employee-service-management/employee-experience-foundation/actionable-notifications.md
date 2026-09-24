@@ -2,7 +2,7 @@
 title: Approve or reject requests from Microsoft Teams
 description: Approve or reject requests by using the approval notification in Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/actionable-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/actionable-notifications.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +18,7 @@ Approve or reject requests by using the approval notification in Microsoft Teams
 
 ## Before you begin
 
-For information about configuring approval notifications, see [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
+For information about configuring approval notifications, see [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
 
 Role required: user
 
@@ -43,5 +43,5 @@ Role required: user
 7.  Select either **Approve** or **Reject** to update the request.
 
 
-**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
 

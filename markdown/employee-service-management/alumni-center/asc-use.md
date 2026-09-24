@@ -2,7 +2,7 @@
 title: Using your Alumni Center
 description: Company alumni or former employees use the Alumni Center to obtain information or maintain communication with your former company.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/asc-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/asc-use.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -16,14 +16,14 @@ breadcrumb: [Alumni Center, HR Service Delivery, Employee Service Management]
 
 Company alumni or former employees use the Alumni Center to obtain information or maintain communication with your former company.
 
--   **[Register on the Alumni Center website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/alumni-self-registration.md)**  
+-   **[Register on the Alumni Center website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/alumni-self-registration.md)**  
 As an external user, sign up using a personal email address and other details to self-register as alumni.
--   **[Alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/alumni-job-preferences.md)**  
+-   **[Alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/alumni-job-preferences.md)**  
 Set your preferences for tailored job opportunities. Jobs that best match your profile are recommended based on these preferences.
--   **[Add other employment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/add-other-emp-details.md)**  
+-   **[Add other employment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/add-other-emp-details.md)**  
 Update the alumni profile with additional employment details to confirm an accurate career history and provide tailored job opportunities.
--   **[Edit personal details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/edit-personal-details.md)**  
+-   **[Edit personal details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/edit-personal-details.md)**  
 Review your personal details and edit them if necessary.
 
-**Parent Topic:**[Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/alumni-service-center.md)
+**Parent Topic:**[Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/alumni-service-center.md)
 

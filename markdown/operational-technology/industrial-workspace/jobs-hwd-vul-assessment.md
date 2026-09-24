@@ -2,7 +2,7 @@
 title: Run scheduled jobs to perform Hardware Vulnerability Assessment
 description: Execute scheduled jobs to perform hardware vulnerability assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/jobs-hwd-vul-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/jobs-hwd-vul-assessment.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -49,7 +49,7 @@ You must perform the following scheduled jobs to detect firmware vulnerabilities
     Hardware vulnerability assessments are based on the firmware data available for a device. If you update the firmware version of a device, the existing assessments based on the previous firmware version are no longer valid and are considered as expired assessments. You can delete expired assessments, which are older than a month. However, you must perform new vulnerability assessments for the devices with an updated firmware version.
 
 
-**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
+**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 
 **Related topics**  
 

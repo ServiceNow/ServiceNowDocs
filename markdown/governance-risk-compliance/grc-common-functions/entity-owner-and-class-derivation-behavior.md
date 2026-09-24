@@ -2,7 +2,7 @@
 title: Entity owner and class derivation behavior
 description: Entity owner and entity class derivation settings determine how the system selects owner and class values when one or more entity filters apply to an entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/entity-owner-and-class-derivation-behavior.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/entity-owner-and-class-derivation-behavior.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -38,12 +38,12 @@ Entity owner and entity class derivation settings determine how the system selec
 |An entity begins matching another entity filter.|The system re-evaluates the entity owner and entity class.|
 |Entity filter configuration changes are applied.|The system re-evaluates the entity owner and entity class for affected entities.|
 
-**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
+**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
 
 **Related topics**  
 
 
-[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
+[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
 
-[Configure automatic updates for entity owner and class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-automatic-updates-for-entity-owner-and-entity-class.md)
+[Configure automatic updates for entity owner and class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-automatic-updates-for-entity-owner-and-entity-class.md)
 

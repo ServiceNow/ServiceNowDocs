@@ -2,7 +2,7 @@
 title: Customize related lists in Agent Workspace for HR Case Management
 description: Configure which related lists appear on HR cases and set their display order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/related-lists-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/related-lists-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

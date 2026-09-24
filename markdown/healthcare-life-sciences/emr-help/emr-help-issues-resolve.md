@@ -2,7 +2,7 @@
 title: Viewing and resolving ServiceNow IT service requests submitted from EMR systems
 description: Work on task records that are automatically created when clinicians submit ServiceNow IT service requests from an EMR system.Work on ServiceNow IT service requests submitted by clinicians using the Incident module.Work on ServiceNow IT service requests submitted by clinicians using the EMR Help module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-help-issues-resolve.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/emr-help-issues-resolve.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -22,8 +22,8 @@ Incidents are the task type configured by default with the EMR Help application.
 
 You can use the EMR Help module or the Incident module to access incidents submitted from an EMR system.
 
--   To use the incident module, see [View and resolve an EMR incident from the Incident module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help-issues-resolve.md).
--   To use the EMR Help module, see [View and resolve an EMR incident from the EMR Help module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help-issues-resolve.md).
+-   To use the incident module, see [View and resolve an EMR incident from the Incident module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/emr-help-issues-resolve.md).
+-   To use the EMR Help module, see [View and resolve an EMR incident from the EMR Help module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/emr-help-issues-resolve.md).
 
 ## View and resolve an EMR incident from the Incident module
 

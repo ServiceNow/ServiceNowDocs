@@ -2,7 +2,7 @@
 title: Set up Oracle NetSuite Spoke
 description: Set up your ServiceNow instance and Oracle NetSuite application so that they are integrated.Configure an OAuth 2.0 profile on Oracle NetSuite that enables integration between it and the ServiceNow instance through the OAuth 2.0 framework.Upload and commit the Update Set to your ServiceNow instance to deploy a script include called OAuthCustomOracleNetsuitGlobal to the ServiceNow instance.Configure a connection record between your ServiceNow instance and Oracle NetSuite. The record centrally stores credentials, OAuth tokens, client ID, and client secret, and is a reusable connection across flows.Generate an authentication token that enables the Oracle NetSuite requests to your ServiceNow instance to get authenticated. The requests contain events occurring in the Oracle NetSuite real-time. For example, Oracle NetSuite sends a notification when a customer record is created.Deploy a SuiteScript that enables the Oracle NetSuite to send real-time event details to the scripted API in your ServiceNow instance using the webhook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-oracle-netsuite-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-oracle-netsuite-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

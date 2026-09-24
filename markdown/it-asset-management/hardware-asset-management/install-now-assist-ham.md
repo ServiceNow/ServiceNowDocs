@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto for Hardware Asset Management \(HAM\)
 description: If you have the admin role, you can install the ServiceNow Otto for Hardware Asset Management \(HAM\) application. ServiceNow Otto for HAM enables asset managers and procurement users to use the capabilities of agentic workflows in Hardware Asset Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/install-now-assist-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/install-now-assist-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

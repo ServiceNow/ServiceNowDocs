@@ -2,7 +2,7 @@
 title: Enable a benchmark KPI
 description: Enable KPIs to use in your data reporting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_EnableABenchKPI-cf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/t\_EnableABenchKPI-cf.html
 release: australia
 product: Benchmarks
 classification: benchmarks

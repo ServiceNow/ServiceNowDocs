@@ -2,7 +2,7 @@
 title: Add skills to a crew
 description: Add skills to a crew so you know what crews are right for work order tasks that require unique skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/add-skill-to-crew.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/add-skill-to-crew.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

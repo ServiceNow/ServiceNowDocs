@@ -2,7 +2,7 @@
 title: Mobile Agent app
 description: Use the ServiceNow Mobile Agent app to update records, coordinate with coworkers, track your location, and work without an internet connection — all from your mobile device. Download the Mobile Agent app for either Apple iOS from the Apple App Store or the Google Android version from the Google Play store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-experience.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,9 +27,9 @@ This video highlights some of the capabilities of ServiceNow® mobile apps.
 -   **Features of Mobile Agent**
 
     -   Give your agents a mobile interface to triage, address, and resolve requests.
-    -   Use the offline mode of the Mobile Agent app to work in areas without an internet connection. For details see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md).
-    -   Use the location tracking feature of the Mobile Agent app to keep a record of where an agent last worked on an instance. For more detail, see [Location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-location-tracking.md).
-**Note:** For more information, see [Base system functionality for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/base-system-functionality.md).
+    -   Use the offline mode of the Mobile Agent app to work in areas without an internet connection. For details see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-offline-mode.md).
+    -   Use the location tracking feature of the Mobile Agent app to keep a record of where an agent last worked on an instance. For more detail, see [Location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-location-tracking.md).
+**Note:** For more information, see [Base system functionality for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/base-system-functionality.md).
 
 -   **Download the app**
 
@@ -37,7 +37,7 @@ Download the ServiceNow Mobile Agent for Apple iOS or Google Android from the Ap
 
 -   **Access the demo**
 
-Take a look at the Mobile Agent demo. The demo is a curated experience designed to show how your agents can complete tasks wherever they are. For more information on the app, see [Mobile Agent app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-agent-demo.md).
+Take a look at the Mobile Agent demo. The demo is a curated experience designed to show how your agents can complete tasks wherever they are. For more information on the app, see [Mobile Agent app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-agent-demo.md).
 
 
 </td></tr></tbody>

@@ -2,7 +2,7 @@
 title: Testing, training
 description: These phases are designed to involve customers in testing and confirm that they have received adequate training before the go-live date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-use-playbook-test-golive.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-use-playbook-test-golive.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ The following tasks are available with the base system:-   Plan and complete go-
 Select **Mark Complete** to go to the next stage.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
+</table>**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
 

@@ -2,10 +2,10 @@
 title: Roles and components of Segment Management
 description: The Segment Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between segments and partners.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/roles-and-components-of-segment-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/roles-and-components-of-segment-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure Segment Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -42,12 +42,12 @@ Navigate to **All** &gt; **Partner Relationship Management** &gt; **Properties**
 
 The Segment admin \(sn\_seg.segment\_mgmt\_admin\) hasread and write access for the \[glide.ui.sn\_seg\_segment\_activity.fields\] property.
 
-**Parent Topic:**[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-segment-management.md)
+**Parent Topic:**[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-segment-management.md)
 
 **Related topics**  
 
 
-[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-segment-management.md)
+[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-segment-management.md)
 
-[Data model for Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-segment-management.md)
+[Data model for Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/data-model-for-segment-management.md)
 

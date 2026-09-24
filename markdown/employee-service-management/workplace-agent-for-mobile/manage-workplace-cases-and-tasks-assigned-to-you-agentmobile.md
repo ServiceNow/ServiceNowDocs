@@ -2,7 +2,7 @@
 title: Manage workplace cases and tasks
 description: Track the workplace cases and tasks that are assigned to you and your assignment group. Know the number of cases that are open, critical, and breached at any time. View the details of the case and perform an action accordingly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-agent-for-mobile/manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
@@ -26,7 +26,7 @@ Role required: sn\_wsd\_case.workplace\_agent
 
 The ServiceNow Agent - Workplace Agent for mobile application enables you to manage the workplace cases and tasks that are assigned to you on the go without the need of a desktop or laptop. You can manage any type of workplace cases such as regular workplace case, maintenance case, move case, space configuration case and reservation case. The application provides you with a category-based display where you can quickly access the works assigned to you and to your assignment group easily. The **Work view** of the application displays your work, your group work, and unassigned work.
 
-For detailed information about the available features, refer to [Workplace Agent for mobile - Key features, actions, and case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.md).
+For detailed information about the available features, refer to [Workplace Agent for mobile - Key features, actions, and case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.md).
 
 ## Procedure
 
@@ -36,15 +36,15 @@ For detailed information about the available features, refer to [Workplace Agent
 
 2.  On the **Work view** page, depending on what cases or tasks you want to check, you can choose from the following options.
 
-<table id="choicetable_zky_4xr_51c"><thead><tr><th align="left" id="d743767e100">
+<table id="choicetable_zky_4xr_51c"><thead><tr><th align="left" id="d743771e100">
 
 Section
 
-</th><th align="left" id="d743767e103">
+</th><th align="left" id="d743771e103">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d743767e109">
+</th></tr></thead><tbody><tr><td id="d743771e109">
 
 **My work overview**
 
@@ -57,7 +57,7 @@ Check the reports of workplace cases that are assigned to you. Select from the f
 -   Select **All**to view all the cases irrespective of their status.
  The details of the cases are displayed when you select the card. You can further select the case to view the case details in a separate page.
 
-</td></tr><tr><td id="d743767e151">
+</td></tr><tr><td id="d743771e151">
 
 **My work**
 
@@ -70,7 +70,7 @@ Check the reports of workplace cases that are assigned to you. Select from the f
     2.  To apply a filter on the workplace cases, select **Workplace case**.
 
 
-</td></tr><tr><td id="d743767e189">
+</td></tr><tr><td id="d743771e189">
 
 **Group work**
 
@@ -85,7 +85,7 @@ Go to the **Group work** section to view the cases and tasks assigned to the ass
 -   **Open unassigned**: Select this open to view both cases and tasks that are unassigned.
 
 
-</td></tr><tr><td id="d743767e228">
+</td></tr><tr><td id="d743771e228">
 
 **Unassigned work**
 
@@ -117,7 +117,7 @@ Go to the **Unassigned work** section to view the details of all the cases and t
 6.  To log out or make any profile-related settings, select the **Settings** tab at the bottom.
 
 
-**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
+**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
 
 **Related topics**  
 

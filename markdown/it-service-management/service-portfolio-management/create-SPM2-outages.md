@@ -2,7 +2,7 @@
 title: Log outages in Service Portfolio Management
 description: Log outages to adjust your business or technical service commitment availability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/create-SPM2-outages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-portfolio-management/create-SPM2-outages.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -83,5 +83,5 @@ When an outage is opened against a business or technical service, all child offe
 11. Select **Update**.
 
 
-**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
+**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-portfolio-management/SPM2-using.md)
 

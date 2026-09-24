@@ -2,7 +2,7 @@
 title: Enabling AI Search in Issue Auto Resolution
 description: You can enable AI Search as a fallback mechanism in Issue Auto Resolution when there are no matching intents found for the incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/enable-ai-search-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/enable-ai-search-itsm.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -51,5 +51,5 @@ Once you click **View recommendations** from your email notification, you will b
 
 **Note:** In case the recommendations have a catalog item as the recommended option and you create the catalog request from the Recommendations tab, an email notification is triggered and the incident gets auto-closed in 24 hours.\[Omitted image "email-notif-recmndtn-incident-req.png"\] Alt text: IAR triggered email notification for incident requested.
 
-**Parent Topic:**[Issue Auto Resolution for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-auto-resolution.md)
+**Parent Topic:**[Issue Auto Resolution for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-auto-resolution.md)
 

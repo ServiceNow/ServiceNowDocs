@@ -2,7 +2,7 @@
 title: Map enterprise assets to an operational schedule
 description: Create an asset schedule to map the enterprise assets to an operation schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-asset-schedule-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-asset-schedule-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

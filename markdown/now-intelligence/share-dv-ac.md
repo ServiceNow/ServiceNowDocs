@@ -2,7 +2,7 @@
 title: Share a data visualization in the Visualization Designer
 description: Share a visualization to provide view or edit permissions to users, groups, or roles. A user can access a shared visualization in any workspace on the original instance.You can change the access rights of persons with whom the data visualization is shared.Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/share-dv-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/share-dv-ac.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -69,7 +69,7 @@ Grant editing rights to the users, groups, or roles you share the visualization 
 </table>7.  Select **Confirm**.
 
 
-**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dv-tasks.md)
 
 ## Manage data visualization access
 

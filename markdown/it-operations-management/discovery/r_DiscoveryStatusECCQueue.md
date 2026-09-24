@@ -2,7 +2,7 @@
 title: The ECC queue for Discovery
 description: The External Communication Channel \(ECC\) Queue is a connection point between your ServiceNow instance and other systems that integrate with it, most commonly a MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DiscoveryStatusECCQueue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_DiscoveryStatusECCQueue.html
 release: australia
 product: Discovery
 classification: discovery
@@ -85,7 +85,7 @@ Save ECC queue attachments
 The normal behavior for Discovery sensors is to delete attachments to ECC queue entries on successful sensor processing. Enabling this property overrides this behavior, and forces attachments to be preserved. This is typically done for debugging purposes.To enable this property, navigate to **Discovery Definition** &gt; **Properties**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatus.md)
+</table>**Parent Topic:**[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryStatus.md)
 
 **Related topics**  
 

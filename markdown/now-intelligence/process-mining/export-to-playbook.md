@@ -2,7 +2,7 @@
 title: Export a process to Playbook
 description: Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/export-to-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/export-to-playbook.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -26,7 +26,7 @@ This task enables you to export any variant from within your process to playbook
 
 **Note:** You can export a maximum of 10 variants for a process graph.
 
-The property for the playbook generation is set in the Process Mining system properties. For more information, see [Playbook generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
+The property for the playbook generation is set in the Process Mining system properties. For more information, see [Playbook generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/data-cleanup.md).
 
 ## Procedure
 
@@ -73,5 +73,5 @@ The property for the playbook generation is set in the Process Mining system pro
     For information on Playbooks on Workflow Studio, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
 
 
-**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/analyze-get-process-insights.md)
 

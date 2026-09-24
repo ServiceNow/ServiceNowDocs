@@ -2,7 +2,7 @@
 title: Components installed with Microsoft Outlook Add-In for Legal Service Delivery
 description: Several types of components are installed with activation of the Microsoft Outlook Add-In for Legal Service Delivery application, including user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-outlook-addin-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-components.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -45,5 +45,5 @@ Provides administrative access to Microsoft Outlook Add-In for legal application
 sn\_outlook\_addin.outlook\_addin\_setup
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Microsoft Outlook Add-In for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-refrence.md)
+</table>**Parent Topic:**[Microsoft Outlook Add-In for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-refrence.md)
 

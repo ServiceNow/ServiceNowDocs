@@ -2,7 +2,7 @@
 title: Create a queue in RPA Hub
 description: Create a queue in RPA Hub to manage the work items that you want the robot to process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-queue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-queue.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Create a queue in RPA Hub to manage the work items that you want the robot to pr
 
 To access a queue, an RPA business user or a support user must be a part of **Managed by Group** and must have relevant roles such as RPA business user, RPA developer, RPA support user.
 
-\(Optional\) Configure the system properties related to **Activity Stream**, to add or remove the fields. The changes to these fields are captured in the work notes. For more information, see [Configure the system properties for an activity stream in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-sys-properties-activity.md).
+\(Optional\) Configure the system properties related to **Activity Stream**, to add or remove the fields. The changes to these fields are captured in the work notes. For more information, see [Configure the system properties for an activity stream in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-sys-properties-activity.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -30,9 +30,9 @@ A queue is a repository that can hold a number of work items. Work items can sto
 
 You can't delete a queue that is associated to a published bot process.
 
-For more information on queues implementation in RPA Hub, see [Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md).
+For more information on queues implementation in RPA Hub, see [Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/queues-implement-rpa.md).
 
-You can use the guided tour to get instructions on how to create a queue in the classic environment. For more information, see [Use Guided Tours in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-guided-tour-rpa-hub.md).
+You can use the guided tour to get instructions on how to create a queue in the classic environment. For more information, see [Use Guided Tours in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-guided-tour-rpa-hub.md).
 
 ## Procedure
 
@@ -55,17 +55,17 @@ You can use the guided tour to get instructions on how to create a queue in the 
     **Note:** Verify that the queue is not associated to any bot process. You can delete a queue which is associated to a retired bot process. Deleting a queue also deletes the associated work items.
 
 
--   **[Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-form.md)**  
+-   **[Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/queue-form.md)**  
 Use the Work Queue form to create a queue. A queue lists the work items that you want the robot to process.
 
-**Parent Topic:**[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md)
+**Parent Topic:**[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/queues-implement-rpa.md)
 
 **Related topics**  
 
 
-[Assign a bot process to a queue from Queues menu in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-botprocess-queue.md)
+[Assign a bot process to a queue from Queues menu in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/assign-botprocess-queue.md)
 
-[Unassign a bot process from a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/unassign-botprocess-queue.md)
+[Unassign a bot process from a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/unassign-botprocess-queue.md)
 
 [View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
 

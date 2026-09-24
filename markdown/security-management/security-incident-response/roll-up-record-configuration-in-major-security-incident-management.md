@@ -2,7 +2,7 @@
 title: Configure Rollup Records in Major Security Incident Management
 description: Configure Roll up records in Major Security Incident Management to control the information, which will be rolled up when the source record is linked/proposed/promoted as Major Security Incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/roll-up-record-configuration-in-major-security-incident-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/roll-up-record-configuration-in-major-security-incident-management.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -146,7 +146,7 @@ Script should rollup information to Linked Record\(sn\_msi\_m2m\_child\) table.-
 -   After the data is fetched, roll up the data to a Linked Record \(sn\_msi\_m2m\_child\) using MSIRollupEngine utility to roll up data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
+</table>**Parent Topic:**[Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
 
 **Related topics**  
 

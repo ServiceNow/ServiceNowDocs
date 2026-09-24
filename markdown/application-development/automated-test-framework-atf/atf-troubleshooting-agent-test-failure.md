@@ -2,7 +2,7 @@
 title: Troubleshoot test failures
 description: Use ATF troubleshooting agent to significantly reduce the skills and resources needed to troubleshoot test failures on covered metadata.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-troubleshooting-agent-test-failure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-troubleshooting-agent-test-failure.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -63,6 +63,6 @@ Role required: atf\_triager + now\_assist\_panel\_user
 
     When a test fails, the agent automatically starts the troubleshooting process. It identifies the step where the failure occurred and analyzes the root cause. The agent then recommends possible fixes. After you select a recommended option, the agent applies the fix, updates the test code, and reruns the test automatically. When the test passes, it provides a summary of the changes made to resolve the failure.
 
-    **Note:** See [Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md) if you want to execute a new application or a test.
+    **Note:** See [Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-use.md) if you want to execute a new application or a test.
 
 

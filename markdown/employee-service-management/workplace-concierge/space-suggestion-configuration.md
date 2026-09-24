@@ -2,7 +2,7 @@
 title: Space suggestion Configuration
 description: Administrators can configure space suggestions for employees to help employees reserve their preferred workspace. Employees can reserve a workspace based on their preferences using the Workplace Service Delivery for Mobile app. Workplace suggestions for an employee are derived from employee presence data, location preferences, employee's favorite workspaces, past and future reservation data, preferred collaborators, and standard services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/space-suggestion-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/space-suggestion-configuration.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -60,7 +60,7 @@ Option to select a suggestion type to display preferred workplace suggestions to
 -   Past and Future reservations: Workspace suggestions based on employee's past and future reservation data is considered and prioritized while suggesting a space to an employee.
 -   Proximity: Employee's preferred workplace collaborators. Preferred collaborators and their in-office days or workday schedule is taken into consideration when proposing a space to an employee.
 -   Standard services: Workspace suggestion based on preferred workplace services by an employee.
-For more information, see [Manage your in-office presence preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/workplace-preferences-emp-center.md) and [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md).
+For more information, see [Manage your in-office presence preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/workplace-preferences-emp-center.md) and [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/use-workplace-concierge.md).
 
 </td></tr><tr><td>
 
@@ -84,28 +84,28 @@ Suggestion Tag
 
 </td><td>
 
-Option to add a tag or label for a space suggestion type. For example,the tags can be added as**Preferred services**, **Near Collaborators**,**Preferred location**, **Your favorite**,**Reserved frequently**, and so on. The tags are displayed on the **Desk suggestions** card in Workplace Service Delivery for Mobile. For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md).
+Option to add a tag or label for a space suggestion type. For example,the tags can be added as**Preferred services**, **Near Collaborators**,**Preferred location**, **Your favorite**,**Reserved frequently**, and so on. The tags are displayed on the **Desk suggestions** card in Workplace Service Delivery for Mobile. For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
 5.  Set the properties in Workplace Concierge for employee to enable workplace suggestion types.
 
-    For more information, see [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md).
+    For more information, see [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md).
 
-    After the configuration is complete and required properties are enabled, employees can start managing their workplace schedule and preferences. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
+    After the configuration is complete and required properties are enabled, employees can start managing their workplace schedule and preferences. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
 
 
-**Parent Topic:**[Configure workplace space suggestions for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/configure-workplace-suggestions.md)
+**Parent Topic:**[Configure workplace space suggestions for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/configure-workplace-suggestions.md)
 
 **Related topics**  
 
 
 [User Space Suggestions]()
 
-[Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md)
+[Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md)
 
-[Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/components-installed-with-workplace-service-delivery.md)
+[Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/components-installed-with-workplace-service-delivery.md)
 
-[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md)
+[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 

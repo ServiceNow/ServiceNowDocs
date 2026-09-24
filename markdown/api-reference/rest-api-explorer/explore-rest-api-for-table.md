@@ -2,7 +2,7 @@
 title: Explore the REST API for a table
 description: You can explore the REST API for a table directly from that table. Explore the API using the REST API Explorer to quickly construct and test REST requests for that table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/explore-rest-api-for-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/explore-rest-api-for-table.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -37,5 +37,5 @@ Role required: itil, personalize\_dictionary, and rest\_api\_explorer
 
 Use the REST API Explorer to construct and test REST requests for the table.
 
-**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

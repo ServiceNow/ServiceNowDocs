@@ -2,7 +2,7 @@
 title: Duplicate PaCE policy versions
 description: You can create a duplicate policy from a policy version or multiple versions from two or more policy versions. If you want to use a locked policy, you must first create a duplicate version and then modify the policy version as required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-policy-version-duplicate\_2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-policy-version-duplicate\_2.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

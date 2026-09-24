@@ -2,7 +2,7 @@
 title: Configuring Time Recording for Field Service
 description: Agents record time worked on tasks and activities. Time recorded entries automatically generate time cards and time sheets for approval by managers. Configuring time recording is optional, but will save Field Service agents from having to record their time manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Configuring-time-recording.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/Configuring-time-recording.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -39,11 +39,11 @@ The Time Card form and the Time Sheet form have a Field Service view. For users 
 
 The steps for setting up Time Recording for Field Service are:
 
-1.  [Activate Time Recording for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Activate-time-recording.md)
+1.  [Activate Time Recording for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/Activate-time-recording.md)
 
     Install the Time Recording for Field Service plugin \(com.snc.wm\_time\_recording\) for if you have the admin role.
 
-2.  [Configure time recording categories for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-time-categories.md)
+2.  [Configure time recording categories for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configure-time-categories.md)
 
     Create time recording categories to accurately track the work that Field Service technicians do. For example, you may want to create a category called Training if there are regular trainings technicians complete.
 

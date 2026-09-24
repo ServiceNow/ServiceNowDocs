@@ -2,7 +2,7 @@
 title: Create a security incident subcategory
 description: Create subcategories for a category for a deeper classification of a security incident in Security Incident Response Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-subcategory-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-subcategory-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -48,7 +48,7 @@ Role required: sn\_si.admin
 
 The newly created subcategory is saved and appears on the Subcategory page.
 
-**Parent Topic:**[Category management in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/category-management-sir.md)
+**Parent Topic:**[Category management in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/category-management-sir.md)
 
 **Related topics**  
 

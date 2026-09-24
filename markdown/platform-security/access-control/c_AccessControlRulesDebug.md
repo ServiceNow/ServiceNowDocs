@@ -2,7 +2,7 @@
 title: ACL debugging tools
 description: Field level debugging and access ACL rule output messages are available to help you troubleshoot and debug ACLs. The ACL configuration watcher lets you know what related ACLs exist when you modify one.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/c\_AccessControlRulesDebug.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/c\_AccessControlRulesDebug.html
 release: australia
 product: Access Control
 classification: access-control

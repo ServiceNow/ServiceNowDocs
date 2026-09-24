@@ -2,7 +2,7 @@
 title: Advanced Work Assignment \(AWA\) release notes
 description: The ServiceNow Advanced Work Assignment \(AWA\) application automatically assigns work items to your agents based on their availability, capacity, and, optionally, skills. AWA was enhanced and updated in the Australia release.The ServiceNow Advanced Work Assignment \(AWA\) application automatically assigns work items to your agents based on their availability, capacity, and, optionally, skills. AWA was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/advanced-work-assignment-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/advanced-work-assignment-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -28,10 +28,10 @@ See [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/Serv
 
 -   **Browser requirements**
 
-    Advanced Work Assignment doesn’t support mobile devices or Microsoft Edge browsers. Instead, use Microsoft Edge - Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
+    Advanced Work Assignment doesn’t support mobile devices or Microsoft Edge browsers. Instead, use Microsoft Edge - Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/browser-support.md).
 
 
-**Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/conversational-interfaces-rn-landing.md)
+**Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/conversational-interfaces-rn-landing.md)
 
 ## Australia
 

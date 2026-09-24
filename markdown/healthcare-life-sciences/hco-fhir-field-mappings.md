@@ -2,7 +2,7 @@
 title: FHIR-to-HCLS field mappings
 description: For each of the four FHIR R4 resources, the Healthcare Operations HL7 FHIR Integration maps FHIR fields to Healthcare Operations target tables and upserts records — matching the primary HCLS record on the FHIR resource ID \(stored as an external identifier\) and related records on their natural keys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-field-mappings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-field-mappings.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-16"

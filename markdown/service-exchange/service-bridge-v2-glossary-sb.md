@@ -2,7 +2,7 @@
 title: Service Exchange glossary
 description: A list of terms used in Service Exchange.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-glossary-sb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-glossary-sb.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -79,7 +79,7 @@ A filter criteria that determine which consumers are entitled to specific Servic
 
 ### configuration revision
 
-A versioned update to various [entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-glossary-sb.md), such as a remote record producer, remote task definition, or FDS offering, which enables providers to introduce new features without disrupting existing consumer entitlements.
+A versioned update to various [entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-glossary-sb.md), such as a remote record producer, remote task definition, or FDS offering, which enables providers to introduce new features without disrupting existing consumer entitlements.
 
 **Related topics**  
 
@@ -262,7 +262,7 @@ A catalog of services created by the provider and made available to consumers as
 
 ### remote record producer
 
-A configuration record that defines variables and inputs a consumer must provide to submit a request. When used, it creates a [provider task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-glossary-sb.md) on the provider instance and triggers the appropriate fulfillment action. Task updates remain visible in both the provider and consumer instances throughout the process.
+A configuration record that defines variables and inputs a consumer must provide to submit a request. When used, it creates a [provider task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-glossary-sb.md) on the provider instance and triggers the appropriate fulfillment action. Task updates remain visible in both the provider and consumer instances throughout the process.
 
 Also know as RRP.
 

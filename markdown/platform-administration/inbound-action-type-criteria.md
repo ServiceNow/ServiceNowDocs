@@ -2,7 +2,7 @@
 title: Criteria for matching email to inbound actions
 description: Default conditions of active inbound actions are used to manage incoming email. Inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/inbound-action-type-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/inbound-action-type-criteria.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -93,5 +93,5 @@ Create new record
 </td></tr></tbody>
 </table>If more than one inbound action is available for a particular type of email, the instance uses the Table field to match the email to a particular table. If there is also more than one action for the inbound action's table, the instance uses the **Order** field to determine the order in which the actions run.
 
-**Parent Topic:**[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/actions-inbound-email.md)
+**Parent Topic:**[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/actions-inbound-email.md)
 

@@ -2,7 +2,7 @@
 title: AI agent
 description: Enhance IT operations with AI-driven, autonomous artifact creation such as problem records, knowledge base articles, and playbooks using LEAP AI agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/leap-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/leap-ai-agent.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -44,11 +44,11 @@ The LEAP AI agent autonomously scans active automation opportunities and acts on
 
 ## Eligibility thresholds
 
-An automation opportunity is eligible for knowledge base article and problem record creation when it has a minimum of 15 incidents or a severity of Critical or High. You can change the incident count threshold \(default: 15\) and the severity threshold \(default: Critical and High\) on the LEAP Settings page. For the list of settings, see [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md).
+An automation opportunity is eligible for knowledge base article and problem record creation when it has a minimum of 15 incidents or a severity of Critical or High. You can change the incident count threshold \(default: 15\) and the severity threshold \(default: Critical and High\) on the LEAP Settings page. For the list of settings, see [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md).
 
 ## Identify AI-created artifacts
 
-Artifacts that the LEAP AI agent creates are marked with an AI indicator on the home page and the automation opportunity details page, so that you can tell AI-created artifacts apart from those created manually. For more information, see [LEAP AI indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-ai-indicators.md).
+Artifacts that the LEAP AI agent creates are marked with an AI indicator on the home page and the automation opportunity details page, so that you can tell AI-created artifacts apart from those created manually. For more information, see [LEAP AI indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-ai-indicators.md).
 
 ## Activate or deactivate the LEAP AI agent
 

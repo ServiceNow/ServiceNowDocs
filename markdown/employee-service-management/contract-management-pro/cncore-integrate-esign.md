@@ -2,7 +2,7 @@
 title: Configure an e-signature provider
 description: Configure an electronic signature provider to enable users to sign contract documents electronically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-integrate-esign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-integrate-esign.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -159,9 +159,9 @@ The conﬁguration for the electronic signature is ready to be used for signing 
 
 **Note:** \(Optional\) You can view, edit, and delete the record.
 
-For information on configuring external storage, see [Configure an external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.md).
+For information on configuring external storage, see [Configure an external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.md).
 
-**Parent Topic:**[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
+**Parent Topic:**[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
 
 **Related topics**  
 

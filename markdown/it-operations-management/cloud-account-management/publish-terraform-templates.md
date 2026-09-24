@@ -2,7 +2,7 @@
 title: Publish Terraform templates
 description: Publish the Terraform template defined by the application in GitHub to enable version control, collaboration, and centralized storage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/publish-terraform-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/publish-terraform-templates.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -154,7 +154,7 @@ Role required: Terraform admin
     Don’t modify the template as the variables are closely connected to the application.
 
 
-**Parent Topic:**[Setting up Terraform and GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/about-terraform-git-and-servicenow_0.md)
+**Parent Topic:**[Setting up Terraform and GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/about-terraform-git-and-servicenow_0.md)
 
 **Related topics**  
 

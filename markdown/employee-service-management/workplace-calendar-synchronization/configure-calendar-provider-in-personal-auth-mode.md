@@ -2,7 +2,7 @@
 title: Configure the Microsoft Exchange Online calendar provider in personal authentication mode
 description: Enhance your workplace reservation experience with the Workplace Calendar Synchronization application to synchronize reservations with your calendar provider. Configure Microsoft Exchange Online to synchronize reservations with your calendar provider using personal authentication mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/configure-calendar-provider-in-personal-auth-mode.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/configure-calendar-provider-in-personal-auth-mode.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -40,7 +40,7 @@ Role required: sn\_wsd\_rsvsync.admin
 
 3.  On the Provider form, fill in the fields.
 
-    For a description of the field values, see [Provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/wsd-calendar-provider-form-fields.md).
+    For a description of the field values, see [Provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/wsd-calendar-provider-form-fields.md).
 
     **Note:** The **Strict mode** field is deprecated and you must set the Exchange Online Sync Integration Mode property to Strict, Personal, or Normal mode. Additionally, the strict mode email has been updated to Delegated user email.
 
@@ -49,11 +49,11 @@ Role required: sn\_wsd\_rsvsync.admin
 
 ## What to do next
 
-To access resource calendars and generate a subscription ID, you must add a Reservable Sync Configuration. For more information, see [Add multiple Reservable Sync Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.md).
+To access resource calendars and generate a subscription ID, you must add a Reservable Sync Configuration. For more information, see [Add multiple Reservable Sync Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.md).
 
-Execute an instance scan to check the synchronization configuration. For more information, see [Run Instance scan to check Microsoft Exchange Online synchronization configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/run-instance-scan-on-your-workplace-cal-sync-configs.md).
+Execute an instance scan to check the synchronization configuration. For more information, see [Run Instance scan to check Microsoft Exchange Online synchronization configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/run-instance-scan-on-your-workplace-cal-sync-configs.md).
 
-**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
+**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
 
 **Related topics**  
 

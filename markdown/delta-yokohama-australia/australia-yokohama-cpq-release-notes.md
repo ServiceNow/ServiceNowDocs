@@ -2,11 +2,11 @@
 title: Combined CPQ release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for CPQ from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-cpq-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-cpq-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 8
+last_updated: "2026-09-24"
+reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,7 +91,53 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key cpq-transaction-converse\]](https://www.servicenow.com/docs/access?context=cpq-transaction-converse&family=australia&ft:locale=en-US)**
+-   **[Configuration AI Harness](https://www.servicenow.com/docs/access?context=cpq-config-converse&family=australia&ft:locale=en-US)**
+
+Configure complex products including sets, product pickers, and solution configurations with improved transparency. The Configuration AI Agent now provides justification for field value selections and aligns better with admin-uploaded documentation through intelligent tagging for user guidance, admin flow, field descriptions, and product descriptions. Identify configuration failures through automated diagnostics, receive AI-assisted suggestions to fix issues, and apply fixes with auto-evaluation to verify results. Monitor configuration quality across blueprints with portfolio-wide statistics and trend analysis to identify coverage gaps.
+
+-   **[Allow child product offering selection based on date](https://www.servicenow.com/docs/access?context=create-multiple-child-configs&family=australia&ft:locale=en-US)**
+
+Add optional characteristics and child product offerings to published product definitions without creating a new version. Support effective start dates for optional child offerings.
+
+-   **[MACD for Product Inventory](https://www.servicenow.com/docs/access?context=create-multiple-child-configs&family=australia&ft:locale=en-US)**
+
+Load, configure, and save multiple Product Inventory with MACD support including runtime pricing and multiple quantity handling. Display multiple quantity lines as separate composite BOM lines although all the lines undergo changes as a single configuration.
+
+
+ -   **[Price and quantity ramps in the CPQ Configurator](https://www.servicenow.com/docs/access?context=defining-products-with-ramps&family=australia&ft:locale=en-US)**
+
+Use the CPQ Configurator to configure price and quantity ramps for subscription products with recurring pricing. View and manage ramp segments through a summary table and detailed modal, apply quantity updates as a delta across segments, and relaunch the configurator for ramped products to support MACD scenarios.
+
+-   **[Source line configuration field mappings](https://www.servicenow.com/docs/access?context=enable-solution-configuration&family=australia&ft:locale=en-US)**
+
+Reduce manual data entry during configuration by defining mappings in the CPQ admin UI that automatically populate config fields when a session initializes. Map incoming request data such as line or characteristics to product picker subfields and other config fields, and import or export mappings as part of a blueprint export or standalone CSV.
+
+-   **[Config AI Agent-to-Agent \(A2A\) support](https://www.servicenow.com/docs/access?context=cpq-transaction-manager-rn&family=australia&ft:locale=en-US)**
+
+Allow agents to communicate directly with Config AI using the A2A protocol to generate and validate product configurations as part of broader agentic workflows. Onboarding and offboarding of the Config AI agent is handled automatically based on a tenant setting.
+
+-   **[ServiceNow CPQ Configurator guided setup](https://www.servicenow.com/docs/access?context=setup-cpq-integrator&family=australia&ft:locale=en-US)**
+
+Use the guided setup for initial configuration of the CPQ configurator to define product pricing, create pricing rules, and create complex product bundles. The guided setup provides a structured step-by-step process that streamlines the initial setup process.
+
+-   **[Manage quotes using the Quote AI Agent](https://www.servicenow.com/docs/access?context=manage-quote-using-quote-ai-agent&family=australia&ft:locale=en-US)**
+
+Automating quote creation, product configuration, discount application, and client communication through the Quote AI Agent in Now Assist.
+
+-   **[CPQ Quote Experience in CPQ](https://www.servicenow.com/docs/access?context=sales-crm-tm-quoting-configure&family=australia&ft:locale=en-US)**
+
+Create and manage quotes in the Quote Experience within Sales CRM, a modern quoting interface built on the configurable ServiceNow quoting engine. Configure the quote layout with refined UI features. Users can build quotes, submit them for approval directly from the quoting experience, and advance them through configurable approval stages before an order is created. Approvals integrate with the standard ServiceNow approval engine.
+
+-   **[Approvals in the CPQ Quote Experience](https://www.servicenow.com/docs/access?context=configuring-advanced-approval-management&family=australia&ft:locale=en-US)**
+
+Configure a complete approval framework for quotes in the Quote Experience in Sales CRM. Define approval workflows through configurable stages, rules, and trigger conditions that integrate with the standard ServiceNow approval engine. Set up the approver experience, including notification channels \(email, in-app, and dashboard\), escalation rules for overdue requests, delegation for approver coverage, and comment requirements for audit purposes. Approvers receive notifications through their configured channels and can review, approve, reject, or delegate requests directly from the quote record or approval dashboard before an order is created.
+
+-   **[Opportunity and quote synchronization](https://www.servicenow.com/docs/access?context=sync-quote-to-opportunity&family=australia&ft:locale=en-US)**
+
+Enable sales users to designate a quote as the primary quote for an opportunity and synchronize its lines back to the source opportunity record. The Enable Sync and Disable Sync events, integration, rules, and fields are productized into the Sales CRM quoting experience. Only one quote can be primary at a time per opportunity.
+
+
+ -   **[\[Placeholder link text to key cpq-transaction-converse\]](https://www.servicenow.com/docs/access?context=cpq-transaction-converse&family=australia&ft:locale=en-US)**
 
 Manage transaction lines using natural language. You can upload CSV or XLSX files directly in the chat to add or update lines, map file columns to transaction fields through a guided conversation, preview the changes, and apply or cancel them before execution. Target specific transaction lines by referencing line numbers or ranges in your prompts, enabling precise updates such as modifying field values or removing selected lines.
 
@@ -106,6 +152,56 @@ Use the event start time column in the transaction edit history to help admins t
 -   **[Price and quantity ramps in the CPQ Configurator](https://www.servicenow.com/docs/access?context=cpq-modify-a-product-subscription-with-ramped-pricing-and-quantities&family=australia&ft:locale=en-US)**
 
 Use the CPQ Configurator to configure price and quantity ramps for subscription products with recurring pricing. View and manage ramp segments directly within the configuration session through a summary table and detailed modal. Apply quantity updates as a delta across segments from the effective date, and save all changes back to the source. Relaunch the configurator for ramped products to support MACD scenarios, with child lines inheriting the correct ramp associations.
+
+
+ -   **[Transaction Access Control](https://www.servicenow.com/docs/access?context=cpq-transaction-manager-transaction-access-control&family=australia&ft:locale=en-US)**
+
+Control precisely who can view and edit each transaction to improve security and compliance using Transaction Access Control. Admins and creators automatically receive full access and can grant access to others. Any user with access can also grant or remove access for others.
+
+-   **[Transaction AI – Bulk Line Update via File Upload](https://www.servicenow.com/docs/access?context=cpq-transaction-converse&family=australia&ft:locale=en-US)**
+
+Enables AI column and line item mapping to allow for seamless transition from third-party systems. Transaction AI can be used to add items from favorites enabling users to quickly add commonly used products via voice or text. Triggers events for users via voice or chat
+
+-   **[AI Admin Uploads for Advanced Product Configurator and Transaction Manager](https://www.servicenow.com/docs/access?context=ai-admin-uploads&family=australia&ft:locale=en-US)**
+
+Enables admins to upload business and blueprint related context documents to provide Configuration AI and Transaction AI more context of business, standards product information etc.
+
+-   **[Export Lines UI Effect](https://www.servicenow.com/docs/access?context=transaction-manager-layouts-ui-effects&family=australia&ft:locale=en-US)**
+
+Export Transaction Lines to a .csv file via a new UI effect. The exported file includes all lines in the transaction that meet the current line sort, filter, and column show/hide settings.
+
+-   **[Layout editor](https://www.servicenow.com/docs/access?context=layout_editor&family=australia&ft:locale=en-US)**
+
+Design and maintain layouts in a visual-based editor. Add and organize layout components, configure UI Effect and element properties, manage theming and more, all in an intuitive visual interface.
+
+-   **Share product favorites**
+
+Improve collaboration and user efficiency by sharing saved favorite products and configurations with other users, enabling sharing and reuse of product configurations.
+
+-   **Tenant-configurable namespace prefixes for Salesforce fields**
+
+Configure a custom namespace at the tenant level to align Salesforce fields and references with your managed package. When a custom namespace is set, CPQ uses it for all generated Salesforce fields and all field lookups instead of the default LGK\_ prefix. If no custom namespace is configured, the system defaults to LGK\_ to preserve compatibility with existing tenants.
+
+-   **[Dynamic selection of Sales CRM catalog items in the CPQ admin UI](https://www.servicenow.com/docs/access?context=dynamic-catalog-item-selection&family=australia&ft:locale=en-US)**
+
+Select product offerings, product specifications, and product characteristic values directly in the CPQ admin UI without manually entering system IDs. Search and select Sales CRM catalog items using built-in UI selectors when configuring products, creating product rules, or setting up pickers, advanced product actions, BOM enrichments, and library functions.
+
+-   **[Node cloning](https://www.servicenow.com/docs/access?context=node-cloning-for-solution-configuration&family=australia&ft:locale=en-US)**
+
+Duplicate an existing solution configuration node in a set, directly from the solution configuration navigation sidebar to use it as the starting point for a new node. The original node in a set must be in the valid state.
+
+-   **[Config Converse](https://www.servicenow.com/docs/access?context=cpq-config-converse&family=australia&ft:locale=en-US)**
+
+Configure complex products using natural language. Buyers can submit a configuration request through a prompt field on an administrator-designed landing page. The request is processed by an AI agent, which interprets the input and drives the product configuration session. For renewal scenarios, Config AI can reuse a previous configuration as a starting point, enabling faster upsell and cross-sell opportunities while maintaining continuity across renewal cycles. Using Config AI, you can:
+
+    -   Submit product configuration requests using natural language through a prompt field on the landing page.
+    -   Complete product configuration through a conversational interface within the buying experience.
+    -   Design the Config Converse landing page using the CPQ layout editor with configurable elements such as text, images, fields, and a prompt component.
+    -   Allow buyers to skip the landing page using a dismissal preference in the layout editor.
+    -   Check for a predicted configuration after the initial buyer request. Apply it automatically when Smart Predict is enabled for both the tenant and the layout. Smart Predict must be enabled separately at the tenant level and at the layout level.
+-   **[Enable order creation from a quote](https://www.servicenow.com/docs/access?context=configure-create-order-integration&family=australia&ft:locale=en-US)**
+
+Create an order directly from a quote in the CPQ Quote experience. Convert an entire quote into an order in a single step, or select specific top-level line items to order only part of a quote. Quote line items and their related details carry straight onto the order as order lines, giving sales teams a faster, more accurate quote-to-order handoff with less manual rework.
 
 
 </td></tr></tbody>
@@ -488,5 +584,5 @@ Australia
  For more information, see [ServiceNow CPQ Configurator](https://www.servicenow.com/docs/access?context=explore-servicenowcpq&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Create a narrative disclosure on local system
 description: Create an Operational Sustainability Management narrative disclosure for your organization and store it on your local system. After you create a disclosure, you can download the document, edit it, add metrics to it, and upload it back into the Operational Sustainability Management instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-disclosure-on-local.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-disclosure-on-local.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -126,15 +126,15 @@ Users who must approve the disclosure.
 
     Before you perform the next step, wait for one minute for the data to reflect in the tracking table. Ensure that the custom properties, Document ID and Disclosure Number of the disclosure documents for a disclosure record are not updated or deleted.
 
-5.  To modify and upload the document that is created, refer to [Upload a disclosure document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/upload-a-disclosure-document.md).
+5.  To modify and upload the document that is created, refer to [Upload a disclosure document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/upload-a-disclosure-document.md).
 
 6.  To move the disclosure to the next state, select **Move to Work in Progress**.
 
 7.  To request approval from the necessary approvers, select **Request Approval**.
 
 
--   **[Upload a disclosure document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/upload-a-disclosure-document.md)**  
+-   **[Upload a disclosure document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/upload-a-disclosure-document.md)**  
 Upload locally created disclosures in the Operational Sustainability Management application instance.
 
-**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-disclosures.md)
+**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-disclosures.md)
 

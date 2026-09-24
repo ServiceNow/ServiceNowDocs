@@ -2,7 +2,7 @@
 title: GlideDynamicAttribute - Global
 description: The GlideDynamicAttribute API provides access to dynamic attribute metadata.Gets the value of the group name property of a dynamic attribute object.Gets the value of the name property of a dynamic attribute object.Gets the name of a dynamic attribute within its namespace.Gets the name of a dynamic attribute namespace.Gets the value of the path property of a dynamic attribute object.Gets the value of the type property of a dynamic attribute object.Returns whether an object is a transient dynamic attribute.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideDynamicAttributeAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideDynamicAttributeAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,7 +20,7 @@ This API provides methods that enable you to get dynamic schema values defined i
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
-[GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md) methods usable with dynamic schema:
+[GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateAPI.md) methods usable with dynamic schema:
 
 -   addAggregate\(\)
 -   addHaving\(\)
@@ -31,7 +31,7 @@ To use this API to create dynamic attributes you must have the dynamic\_schema\_
 -   orderBy\(\)
 -   orderByAggregate\(\)
 
-[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) methods usable with dynamic schema:
+[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordAPI.md) methods usable with dynamic schema:
 
 -   addQuery\(\)
 -   getDisplayValue\(\)
@@ -49,12 +49,12 @@ To use this API to create dynamic attributes you must have the dynamic\_schema\_
 
 See also:
 
--   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
--   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
--   [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md)
--   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+-   [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementAPI.md)
+-   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideDynamicAttribute - getGroupName\(\)
 
@@ -423,7 +423,7 @@ Boolean
 
 Flag that indicates if a dynamic attribute is transient.Valid values:
 
--   true: The dynamic attribute is transient. Dynamic attributes are defined in the Dynamic Attribute \[dynamic\_attribute\] table with a data type and a sys\_id. See [GlideDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md).
+-   true: The dynamic attribute is transient. Dynamic attributes are defined in the Dynamic Attribute \[dynamic\_attribute\] table with a data type and a sys\_id. See [GlideDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicAttributeAPI.md).
 -   false: The dynamic attribute is not transient. Transient dynamic attributes are dynamic attributes that have been added to a DynamicAttributeStore field without a definition in the Dynamic Attribute \[dynamic\_attribute\] table. Transient dynamic attributes are handled as strings and have no sys\_id.
 
 </td></tr></tbody>

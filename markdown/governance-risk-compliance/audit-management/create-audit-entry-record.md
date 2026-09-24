@@ -2,7 +2,7 @@
 title: Create an audit entry record
 description: Create audit entry records to track third-line audit objects in the Audit Workspace. Audit entry records are read-only after the first save and are hidden from second-line users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-audit-entry-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/create-audit-entry-record.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -54,5 +54,5 @@ Role required: sn\_audit\_ws.third\_line\_manager
 
 Third-line records are hidden from second-line users. Third-line risks and their associated risk statements and entities are excluded from the risk and compliance score roll-up calculation.
 
-**Parent Topic:**[Audit entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-entry-overview.md)
+**Parent Topic:**[Audit entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-entry-overview.md)
 

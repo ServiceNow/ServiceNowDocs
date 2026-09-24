@@ -2,7 +2,7 @@
 title: Example: Field mapping
 description: The Category breakdown maps the Category field on the incident table to the Incident.Category breakdown source, which references the Choices\[sys\_choice\_list\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/example-field-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/example-field-mapping.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -32,5 +32,5 @@ Finally, you see the Category field of some records on the Incidents table. This
 
 \[Omitted image "incident-table-category.png"\] Alt text: Category fields of Incident records. Field values match the Label field on the Choices table, to which the Category field is mapped.
 
-**Parent Topic:**[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
+**Parent Topic:**[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
 

@@ -2,7 +2,7 @@
 title: Virtual Agent secure password inputs
 description: The Include a password input toggle switch on the Action utility properties sheet lets you enter passwords securely for use in Virtual Agent conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-secure-inputs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-secure-inputs.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -30,7 +30,7 @@ If you enable this toggle switch, you see messages about clients that are suppor
 -   Enter the text for a confirmation prompt
 -   Enter the text to use for messages about channels that aren't secure
 
-**Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md).
+**Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md).
 
 \[Omitted image "additional-password-prompts.png"\] Alt text: Action utility with Include a password input toggle activated, and password detail prompts exposed.
 
@@ -45,9 +45,9 @@ Note the following points about how password-related inputs are handled securely
 -   When users enter a password on a channel, users can toggle the Hide text icon \[Omitted image "hide-password-icon.png"\] Alt text: Hide text icon. to show or hide the password.
 -   ServiceNow admins can mark a specific channel as secure. If topic authors attempt to include a channel that isn't marked as secure, a warning message appears.
 
-    For more information about creating secure channels, see [Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md).
+    For more information about creating secure channels, see [Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md).
 
 -   Passwords are masked \(not readable\) in queues, tables, and logs.
 
-**Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
+**Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
 

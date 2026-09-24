@@ -2,7 +2,7 @@
 title: Track work orders on the Business Location Service Portal
 description: Enable your location staff to track work orders for their business locations using the Business Location Service Portal \(BLSP\). It enables you to view and manage work orders, helping you track tasks and updates directly related to your specific locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-work-orders-on-the-blsp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/track-work-orders-on-the-blsp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

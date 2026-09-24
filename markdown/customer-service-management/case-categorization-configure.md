@@ -2,7 +2,7 @@
 title: Configure record categorization
 description: Activate the required plugins, import training data, and create and train a model to predict field values for case and interaction records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-categorization-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-categorization-configure.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -72,11 +72,11 @@ Set up and deploy at least one categorization model.
 
 </td><td>
 
-For details, see [Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-cat-solution.md).
+For details, see [Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-cat-solution.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Record categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-categorization-overview.md)
+[Record categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-categorization-overview.md)
 

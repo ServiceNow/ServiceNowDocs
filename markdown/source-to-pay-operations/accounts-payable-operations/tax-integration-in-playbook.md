@@ -2,7 +2,7 @@
 title: Tax integration in playbook
 description: The Accounts Payable Operations playbook enables AP specialists and tax specialists to perform invoice tax validation using tax engine integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-integration-in-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/tax-integration-in-playbook.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,7 +31,7 @@ Role required: AP specialist, tax specialist
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md). Invoices can be entered manually or extracted using DocIntel. For more information on invoice extraction, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.md).
+    You can create an invoice manually. For more information on invoices, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md). Invoices can be entered manually or extracted using DocIntel. For more information on invoice extraction, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.md).
 
 4.  Select **View Invoice processing case**.
 
@@ -47,7 +47,7 @@ Role required: AP specialist, tax specialist
 
     4.  Select the **Review invoice lines** activity and manually review the invoice lines associated with the invoice.
 
-        **Note:** When tax integration is inactive, you can create tax lines from related list of invoice lines or invoice case. For more information on tax lines in related list see [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md). If tax integration is enabled, you can add tax lines using the related list but the tax lines are deleted and new tax lines are added as a response from external tax engine. Tax mentioned for each invoice line in the invoice copy is entered or extracted as supplier tax \(editable\) at invoice line level and the system tax \(read only, derived from external tax engine\) is the sum total of system tax \(read only\) for all the tax lines of that particular invoice line.
+        **Note:** When tax integration is inactive, you can create tax lines from related list of invoice lines or invoice case. For more information on tax lines in related list see [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md). If tax integration is enabled, you can add tax lines using the related list but the tax lines are deleted and new tax lines are added as a response from external tax engine. Tax mentioned for each invoice line in the invoice copy is entered or extracted as supplier tax \(editable\) at invoice line level and the system tax \(read only, derived from external tax engine\) is the sum total of system tax \(read only\) for all the tax lines of that particular invoice line.
 
     5.  Select **Add new invoice lines** to create invoice lines.
 
@@ -146,7 +146,7 @@ Tax amount on the invoice line is greater than the tax \(considering the varianc
 </td></tr></tbody>
 </table>6.  Select **Review exceptions**.
 
-    The list of exceptions raised for the invoice is listed. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md) and [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md).
+    The list of exceptions raised for the invoice is listed. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md) and [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md).
 
     The invoice tax validation is successful.
 

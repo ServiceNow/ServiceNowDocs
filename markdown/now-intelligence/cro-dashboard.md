@@ -2,7 +2,7 @@
 title: Chief Risk Officer \(CRO\) Dashboard
 description: The Chief Risk Officer \(CRO\) uses this dashboard to get a single pane glass view of end-to-end Governance, Risk, and Compliance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cro-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/cro-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

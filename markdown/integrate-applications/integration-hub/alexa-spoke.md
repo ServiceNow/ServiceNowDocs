@@ -2,7 +2,7 @@
 title: Amazon Alexa Spoke
 description: Manage intents, skills, vendors, and slots in your Amazon Alexa account from your ServiceNow instance. Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/alexa-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/alexa-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -90,5 +90,5 @@ The Amazon Alexa spoke provides actions to automate tasks when events occurs in 
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Amazon Alexa spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ssetup-alexa.md).
+For information about setting up the spoke, see [Set up the Amazon Alexa spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/ssetup-alexa.md).
 

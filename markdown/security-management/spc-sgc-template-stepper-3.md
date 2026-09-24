@@ -2,7 +2,7 @@
 title: Select a connector template
 description: Select a template to support your API's structure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/spc-sgc-template-stepper-3.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/spc-sgc-template-stepper-3.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Select a template to support your API's structure.
 
 These templates provide you with options that are based on API structures that are widely used by security tool vendors. When you select a template, you’re choosing a configuration that aligns with industry-standard ways of organizing and communicating with APIs. Selecting a common response format \(JSON\), HTTP methods \(GET or POST\), and well-known pagination strategies makes connecting with a wide variety of security tools easier.
 
-You have the option to get guidance for selecting a template with a ServiceNow Otto for Unified Security Exposure Management skill for this step. See [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-skills-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-api-connector.md) about using the skill in connector framework.
+You have the option to get guidance for selecting a template with a ServiceNow Otto for Unified Security Exposure Management skill for this step. See [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-now-assist-skills-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-now-assist-api-connector.md) about using the skill in connector framework.
 
 Role required: sn\_sec\_spc\_core.developer
 
@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-See [Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/select-api-template.md) for the steps for using ServiceNow Otto®.
+See [Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/select-api-template.md) for the steps for using ServiceNow Otto®.
 
 </td></tr><tr><td id="d140173e124">
 

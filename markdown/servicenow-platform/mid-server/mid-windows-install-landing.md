@@ -2,7 +2,7 @@
 title: Installing MID Server on Windows
 description: Using the ITOM Infra Services Workspace, MID Servers can be deployed to Windows with a variety of authentication and installation methods. For authentication, choose between private key JWT, basic authentication, or mutual authentication.Using the ITOM Infra Services Workspace, MID Servers can be deployed and configured manually with a ZIP file.Using the ITOM Infra Services Workspace, MID Servers can be deployed with the Windows installer \(MSI\). Basic authentication is less secure than other authentication types.Using the ITOM Infra Services Workspace, MID Servers can be deployed and configured manually with a ZIP file. Basic authentication is less secure than other authentication types.Using the ITOM Infra Services Workspace, MID Servers can be deployed for mutual authentication. Mutually authentication must be authorized and prepared on the instance by ServiceNow support.Using the ITOM Infra Services Workspace, MID Servers can be deployed using ZIP for mutual authentication. Mutually authentication must be authorized and prepared on the instance by ServiceNow support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-windows-install-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-windows-install-landing.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -21,7 +21,7 @@ Using the ITOM Infra Services Workspace, MID Servers can be deployed to Windows 
 ![Set up indicator for installation phase](../image/ProgressBarInstall.png)
 
 </td></tr></tbody>
-</table>-   Verify that the host computer satisfies the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
+</table>-   Verify that the host computer satisfies the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 -   The MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1.
 -   Ensure that the Microsoft Application Experience Lookup Service is enabled on the MID Server host. If this service is disabled, the MID Server auto-upgrade might fail, causing the MID Server to go down. For information on managing issues with the Application Experience service, see [KB0597552](https://support.servicenow.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0597552).
 
@@ -44,7 +44,7 @@ Upgraded MID Servers might use different Java versions depending on their operat
 -   MID Servers upgraded from earlier versions use the OpenJDK provided with the MID Server installer. This version of the OpenJDK was tested and certified for use with these MID Servers.
 -   MID Servers upgraded on any other operating system versions also automatically upgrade the JRE to the version provided with the installation package.
 
-**Parent Topic:**[Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-installation-landing.md)
+**Parent Topic:**[Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-installation-landing.md)
 
 ## Install MID Server on Windows with private key JWT using ZIP
 
@@ -67,7 +67,7 @@ Role required: admin
     -   **Authentication type:** ServiceNow certificate
     -   **I'm installing the MID Server on:** Windows
     -   **I want to install using a:** Manual configuration via zip file
-    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
+    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
 
 5.  To proceed, select **Next: Configuration**.
 
@@ -79,7 +79,7 @@ Role required: admin
 
 7.  To configure a Service Account, create a dedicated non-admin service account for the MID Server.
 
-    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md).
+    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-install-prereqs.md).
 
 8.  Download the Windows ZIP file from the installation plan.
 
@@ -225,7 +225,7 @@ Set a name for this MID Server. This name must be unique on the host. \(mid-uswe
 
 ### What to do next
 
-To optimize your MID Server, consider configuring it to be part of a cluster or set IP ranges. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md).
+To optimize your MID Server, consider configuring it to be part of a cluster or set IP ranges. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md).
 
 ## Install MID Server on Windows with basic authentication
 
@@ -248,13 +248,13 @@ Role required: admin
     -   **Authentication type:** Basic authentication
     -   **I'm installing the MID Server on:** Windows
     -   **I want to install using a:** Windows installer \(MSI\)
-    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
+    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
 
 5.  To proceed, select **Next: Download and Install**.
 
 6.  Create a ServiceNow user for this MID Server and grant it **mid\_server** role.
 
-    For more information on creating users, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
+    For more information on creating users, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
 
     **Note:** This user should be unique for each MID Server using basic authentication.
 
@@ -262,11 +262,11 @@ Role required: admin
 
 8.  Open the installer with Administrator level privileges.
 
-    For more details, see [Install a MID Server on Windows with guided installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md).
+    For more details, see [Install a MID Server on Windows with guided installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-install-prereqs.md).
 
 9.  Create a dedicated non-admin service account for the MID Server.
 
-    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md).
+    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-install-prereqs.md).
 
 10. Verify that the MID Server is running.
 
@@ -275,7 +275,7 @@ Role required: admin
 
 ### What to do next
 
-Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
+Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
 
 ## Install MID Server on Windows with basic authentication using ZIP
 
@@ -298,7 +298,7 @@ Role required: admin
     -   **Authentication type:** Basic authentication
     -   **I'm installing the MID Server on:** Windows
     -   **I want to install using a:** Manual configuration via zip file
-    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
+    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
 
 5.  To proceed, select **Next: Download and Install**.
 
@@ -308,7 +308,7 @@ Role required: admin
 
 8.  To configure a Service Account, create a dedicated non-admin service account for the MID Server.
 
-    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md).
+    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-install-prereqs.md).
 
 9.  Navigate to `\conf\wrapper-override.conf` and edit the following:
 
@@ -460,7 +460,7 @@ Optional, set to your proxy password
 
 ### What to do next
 
-Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
+Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
 
 ## Install MID Server on Windows with mutual authentication
 
@@ -474,7 +474,7 @@ Role required: admin
 
 1.  To enable Mutual Authentication, the instance must be authorized and prepared by ServiceNow support.
 
-    For more information, see [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-mid-mutual-auth.md).
+    For more information, see [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/install-mid-mutual-auth.md).
 
 2.  On the instance, navigate to **ITOM Infra Services Workspace**.
 
@@ -487,13 +487,13 @@ Role required: admin
     -   **Authentication type:** Custom certificate \(mutual TLS\)
     -   **I'm installing the MID Server on:** Windows
     -   **I want to install using a:** Windows installer \(MSI\)
-    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
+    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
 
 6.  To proceed, select **Next: Download and Install**.
 
 7.  Create a ServiceNow user for this MID Server and grant it **mid\_server** role.
 
-    For more information on creating users, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
+    For more information on creating users, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
 
     **Note:** This user should be unique for each MID Server using basic authentication.
 
@@ -501,11 +501,11 @@ Role required: admin
 
 9.  Open the installer with Administrator level privileges.
 
-    For more details, see [Install a MID Server on Windows with guided installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md).
+    For more details, see [Install a MID Server on Windows with guided installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-install-prereqs.md).
 
 10. To configure a Service Account, create a dedicated non-admin service account for the MID Server.
 
-    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md).
+    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-install-prereqs.md).
 
 11. Verify that the MID Server is running.
 
@@ -514,7 +514,7 @@ Role required: admin
 
 ### What to do next
 
-Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
+Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
 
 ## Install MID Server on Windows with mutual authentication using ZIP
 
@@ -528,7 +528,7 @@ Role required: admin
 
 1.  To enable Mutual Authentication, the instance must be authorized and prepared by ServiceNow support.
 
-    For more information, see [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-mid-mutual-auth.md).
+    For more information, see [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/install-mid-mutual-auth.md).
 
 2.  On the instance, navigate to **ITOM Infra Services Workspace**.
 
@@ -541,7 +541,7 @@ Role required: admin
     -   **Authentication type:** Custom certificate \(mutual TLS\)
     -   **I'm installing the MID Server on:** Windows
     -   **I want to install using a:** Manual configuration via zip file
-    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
+    **Note:** If this is your first time installing a MID Server, use the command line installer instead of installing manually. See [Install MID Server with the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ipki-install-command.md) for more information.
 
 6.  To proceed, select **Next: Download and Install**.
 
@@ -551,7 +551,7 @@ Role required: admin
 
 9.  To configure a Service Account, create a dedicated non-admin service account for the MID Server.
 
-    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md).
+    This account must have the **Log in as a Service** right and **Read, Write, Execute** permissions for the MID Server installation folder. For more information, see [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-install-prereqs.md).
 
 10. Navigate to `\conf\wrapper-override.conf` and edit the following:
 
@@ -703,5 +703,5 @@ Optional, set to your proxy password
 
 ### What to do next
 
-Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
+Consider selecting the clusters, applications, capabilities, and IP ranges for this MID Server. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md), [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md), [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md) respectively.
 

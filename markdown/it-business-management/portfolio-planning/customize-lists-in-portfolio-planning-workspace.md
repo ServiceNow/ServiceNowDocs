@@ -2,7 +2,7 @@
 title: Customize Lists in Portfolio Planning Workspace
 description: Add custom tables to the Lists menu in Portfolio Planning Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/customize-lists-in-portfolio-planning-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/customize-lists-in-portfolio-planning-workspace.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -21,7 +21,7 @@ Add custom tables to the Lists menu in Portfolio Planning Workspace.
 Role required: admin
 
 -   Ensure that your application scope is set to **Portfolio Planning**.
--   [Enable adding custom tables to the Lists menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-adding-custom-tables-to-the-lists-menu.md).
+-   [Enable adding custom tables to the Lists menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/enable-adding-custom-tables-to-the-lists-menu.md).
 
 ## About this task
 
@@ -46,8 +46,8 @@ For more information of configuring lists in a workspace, see [Lists](https://ra
 
 4.  On the form, fill in the fields.
 
-    -   [UX List Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ux-list-category-form-portfolio-planning.md).
-    -   [UX List form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ux-list-form-portfolio-planning.md).
+    -   [UX List Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/ux-list-category-form-portfolio-planning.md).
+    -   [UX List form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/ux-list-form-portfolio-planning.md).
 5.  Select **Submit**.
 
     Repeat this procedure until you've created all the custom categories and lists.

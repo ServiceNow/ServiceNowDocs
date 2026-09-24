@@ -2,7 +2,7 @@
 title: Multi-factor Authentication enforcement
 description: Enforcement of MFA for non-SSO logins to ServiceNow from the Yokohama release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-enforcement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-enforcement.html
 release: australia
 product: Authentication
 classification: authentication
@@ -33,20 +33,20 @@ Here's more details about MFA enforcement:
 -   Enforced to all the **non-snc\_external** users and **non-SSO** login.
 -   Integration with Basic auth and OAuth resource owner password credential grant does not require MFA from Yokohama.
 
-To know more about the changes due to enforcement, see [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/changes-mfa-enforcement.md).
+To know more about the changes due to enforcement, see [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md).
 
-To know more about MFA, see [Exploring Multi-factor Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/explore-mfa.md).
+To know more about MFA, see [Exploring Multi-factor Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/explore-mfa.md).
 
 **Related topics**  
 
 
-[Configuring Multi-factor Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-mfa.md)
+[Configuring Multi-factor Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-mfa.md)
 
-[Using Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-use.md)
+[Using Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-use.md)
 
-[MFA enforcement properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-enforcement-properties.md)
+[MFA enforcement properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-enforcement-properties.md)
 
-[Troubleshooting Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/troubleshoot-mfa-enforcement.md)
+[Troubleshooting Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/troubleshoot-mfa-enforcement.md)
 
-[Frequently asked questions - Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/faq-mfa.md)
+[Frequently asked questions - Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/faq-mfa.md)
 

@@ -2,7 +2,7 @@
 title: Create an automation goal
 description: Create an automation goal to manage the progress and estimate the outcomes of an automation request. One goal can be associated with multiple automation requests. But an automation request can be associated with only one goal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-automation-goal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/create-automation-goal.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -32,15 +32,15 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values, see [Automation goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-goal-form.md).
+    For a description of the field values, see [Automation goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-goal-form.md).
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-and-define.md)
+**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-and-define.md)
 
 **Related topics**  
 
 
-[Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-request.md)
+[Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-automation-request.md)
 

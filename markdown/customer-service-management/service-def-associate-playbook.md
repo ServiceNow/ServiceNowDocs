@@ -2,7 +2,7 @@
 title: Associate a playbook with a service definition
 description: After creating a service definition, you can associate a playbook with the definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-def-associate-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/service-def-associate-playbook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: \(playbook\_experience.admin + sn\_csm\_case\_types.service\_defi
 
 A playbook provides agents with step-by-step guidance for resolving a specific type of case. If a service definition has an associated playbook, the agent can use the playbook in a tab on the case record.
 
-When the agent selects **Create Case** on the [case type selector screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals.md), the system displays the new case record and launches the playbook associated with the service in a tab on the record page.
+When the agent selects **Create Case** on the [case type selector screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-type-select-modals.md), the system displays the new case record and launches the playbook associated with the service in a tab on the record page.
 
 **Note:** This is an optional task.
 

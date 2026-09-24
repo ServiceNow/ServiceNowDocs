@@ -2,7 +2,7 @@
 title: Virtual Machine Explorer dashboard
 description: The Discovery Admin Workspace Virtual Machine Explorer dashboard displays information on the activity and capacity of your virtual machine \(VM\) instances as revealed by the discovery process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/vm-explorer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/vm-explorer.html
 release: australia
 product: Discovery
 classification: discovery
@@ -88,7 +88,7 @@ Pie chart
 Displays the percent of VMs grouped by the following states: on, off, or other.Virtual Machine Instances \[cmdb\_ci\_vm\_instance\] table is the source table for this chart.
 
 </td></tr></tbody>
-</table>**Note:** When you first access the VM Explorer dashboard after installing Discovery Admin Workspace, the Virtual machines with server CI and Virtual Machines with no deep dive discovery indicators might not display scores. For instructions on how to collect data for these scores, see [Run historical data collection for Virtual Machine Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_RunHistoricalDataCollectVME.md).
+</table>**Note:** When you first access the VM Explorer dashboard after installing Discovery Admin Workspace, the Virtual machines with server CI and Virtual Machines with no deep dive discovery indicators might not display scores. For instructions on how to collect data for these scores, see [Run historical data collection for Virtual Machine Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_RunHistoricalDataCollectVME.md).
 
 ## Virtual Machine Instance
 

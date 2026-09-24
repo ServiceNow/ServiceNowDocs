@@ -2,7 +2,7 @@
 title: Add resource requirements for a work order task
 description: Add the resources needed to complete a crew work order task, such as necessary agent skills or equipment items, to avoid delays after the task is assigned.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/add-resource-requirement-wot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/add-resource-requirement-wot.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

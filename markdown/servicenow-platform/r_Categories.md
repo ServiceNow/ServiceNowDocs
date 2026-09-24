@@ -2,7 +2,7 @@
 title: Assessment scorecard categories
 description: The Categories view displays a bar chart showing the average ratings for each category in the selected time interval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_Categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_Categories.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Select from these reporting periods:
 
 \[Omitted image "ScorecardCategories.png"\] Alt text: Scorecard categories
 
-**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 

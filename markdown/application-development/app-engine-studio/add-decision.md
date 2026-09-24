@@ -2,7 +2,7 @@
 title: Add a decision
 description: Create automation for decisions in App Engine Studio \(AES\). The automation decouples decision logic from code by enabling you to create and manage decision rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-decision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/add-decision.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +18,7 @@ Create automation for decisions in App Engine Studio \(AES\). The automation dec
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -91,8 +91,8 @@ ServiceNow provides several additional resources on adding decisions in App Engi
 \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: ServiceNow University [Introduction to App Engine Studio on-demand course](https://learning.servicenow.com/lxp?id=learning_course_prev&course_id=ae0beaabdb4e8550788d2509139619dc)
 
 </td></tr></tbody>
-</table>-   **[Edit a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-decision.md)**  
+</table>-   **[Edit a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/edit-decision.md)**  
 To update or change an existing decision for an app built in App Engine Studio \(AES\), edit it in Workflow Studio.
 
-**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md)
+**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-automation.md)
 

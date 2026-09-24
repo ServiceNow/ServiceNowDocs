@@ -2,7 +2,7 @@
 title: Configure real-time code resolution with AI
 description: Follow these steps to configure real-time code resolution with AI suggested fixes for Impact Platform Health.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/configure-ai-code-fix-for-platform-health.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-ai-code-fix-for-platform-health.html
 release: australia
 topic_type: task
 last_updated: "2026-07-15"
@@ -26,9 +26,9 @@ Visibility of real-time messaging can also be configured to limit which users re
 
 The following are minimum prerequisites:
 
--   Install and configure the Impact Store App. See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md) for details.
--   Scan Engine configured: See [Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-initial-scan-engine-settings.md) for details.
--   Now Assist for Impact, version 3.03: See [Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md) for details.
+-   Install and configure the Impact Store App. See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-platform.md) for details.
+-   Scan Engine configured: See [Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-initial-scan-engine-settings.md) for details.
+-   Now Assist for Impact, version 3.03: See [Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/activate-now-assist-skills-in-now-assist-for-impact.md) for details.
 -   Now Assist for Platform, version 11.01
 
 ## Procedure
@@ -67,5 +67,5 @@ The following are minimum prerequisites:
 14. Assign the `sn_impact_gen_ai_.ai_fix_user` role to relevant users or groups.
 
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

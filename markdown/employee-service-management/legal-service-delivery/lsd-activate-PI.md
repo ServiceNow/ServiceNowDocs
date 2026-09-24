@@ -2,7 +2,7 @@
 title: Activate Predictive Intelligence for Legal Service Delivery
 description: You can activate the Predictive Intelligence for Legal Service Delivery plugin \(sn\_lg\_pi\) for Legal Service Delivery if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-activate-PI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-activate-PI.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -32,7 +32,7 @@ Role required: admin
 
 Roles are installed with Predictive Intelligence for Legal Service Delivery:
 
-For more information, see [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md).
+For more information, see [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ For more information, see [Components installed for Advanced Work Assignment for
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configure Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-PI-configure-landing.md)
+**Parent Topic:**[Configure Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-PI-configure-landing.md)
 

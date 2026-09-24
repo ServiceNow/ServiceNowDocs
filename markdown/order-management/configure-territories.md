@@ -2,7 +2,7 @@
 title: Configuring the Territory
 description: Create territories to optimize the assignment of a territory to CRM data. Map these territories to the territory model and levels to maintain the hierarchy. Provide conditions for automated assignments, and onboard members with role-based access in a territory for restricted permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-territories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-territories.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -117,7 +117,7 @@ Used during assignment rules, this flag indicates whether the parent territory c
 **Related topics**  
 
 
-[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-sales-territory-management.md)
 
-[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md)
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-sales-territory-management.md)
 

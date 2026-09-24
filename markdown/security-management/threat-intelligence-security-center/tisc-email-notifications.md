@@ -2,7 +2,7 @@
 title: Email Notifications
 description: Use email notifications to send selected users email notifications about specific tasks within the application, such as updates to observables/indicators/various other objects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-email-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-email-notifications.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -49,7 +49,7 @@ The following table details the email notification rules that are provisioned in
 
 **Note:** Clicking on each email notification will take you to the classic UI, so that you can take necessary actions such as viewing or editing or creating the notifications.
 
-**Parent Topic:**[Manage email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-notifications.md)
+**Parent Topic:**[Manage email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-notifications.md)
 
 **Related topics**  
 

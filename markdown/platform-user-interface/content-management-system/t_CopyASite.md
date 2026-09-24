@@ -2,7 +2,7 @@
 title: Copy a site
 description: To create a new site quickly, you can copy an existing site.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CopyASite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_CopyASite.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -26,7 +26,7 @@ The site copy option creates a complete standalone copy of the site and all its 
 
 Images are not included when you use the Copy Site option. They are stored separately in the sys\_attachments table.
 
-To copy just a few pages without duplicating all the resources \(CSS, blocks, menus\), use the page copy option. Page copy duplicates the page but not the resources used in the page. For more information, see [Copy a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CopyAPage.md).
+To copy just a few pages without duplicating all the resources \(CSS, blocks, menus\), use the page copy option. Page copy duplicates the page but not the resources used in the page. For more information, see [Copy a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CopyAPage.md).
 
 ## Procedure
 
@@ -41,10 +41,10 @@ To copy just a few pages without duplicating all the resources \(CSS, blocks, me
     A progress bar shows the copy process. When the process is complete, the Site form shows information for the new site.
 
 
-**Parent Topic:**[Content sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentSite.md)
+**Parent Topic:**[Content sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentSite.md)
 
 **Related topics**  
 
 
-[Create a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateANewSite.md)
+[Create a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateANewSite.md)
 

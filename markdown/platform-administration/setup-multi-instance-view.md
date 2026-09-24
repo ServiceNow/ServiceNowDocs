@@ -2,7 +2,7 @@
 title: Set up Multi-Instance View
 description: Configure Multi-Instance View to see consolidated activity across all connected instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/setup-multi-instance-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/setup-multi-instance-view.html
 release: australia
 topic_type: task
 last_updated: "2026-04-08"

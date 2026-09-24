@@ -2,7 +2,7 @@
 title: Configuring the Employee Center for OT
 description: Configure the Employee Center for Operational Technology \(OT\) so that you and other users can access the options available in the portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/configuring-ot-employee-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/configuring-ot-employee-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,12 +27,12 @@ Configure the Employee Center for Operational Technology \(OT\) so that you and 
 
     Install and configure the Operational Technology Incident Management application needed to use the **Report an incident** request.
 
-    For more information about installing and configuring the application, see [Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md).
+    For more information about installing and configuring the application, see [Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md).
 
 3.  Add more connected content to the Employee Center for OT.
 
     You can optionally add content to the Industrial services topic page as needed for your organization. For more information about how to add content in the Employee Center, see [Add menu items to primary navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/add-menu-items.md).
 
 
-**Parent Topic:**[Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-employee-portal-landing.md)
+**Parent Topic:**[Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/ot-employee-portal-landing.md)
 

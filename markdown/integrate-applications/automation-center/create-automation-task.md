@@ -2,7 +2,7 @@
 title: Create an automation task
 description: Create an automation task to effectively manage the activities associated with the automation request. However, this is an optional step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-automation-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/create-automation-task.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -18,7 +18,7 @@ Create an automation task to effectively manage the activities associated with t
 
 ## Before you begin
 
-Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-request.md).
+Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-automation-request.md).
 
 Verify that the associated automation request is either in the **Planned** or **In Progress** state.
 
@@ -48,7 +48,7 @@ There are five types of automation tasks:
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-task-form.md).
+    For a description of the field values, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-task-form.md).
 
 7.  Select **Save**.
 
@@ -57,14 +57,14 @@ There are five types of automation tasks:
 
 ## What to do next
 
-Create an automation resource for the automation task. For more information, see [Create an automation resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-resource.md).
+Create an automation resource for the automation task. For more information, see [Create an automation resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-automation-resource.md).
 
-**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-and-define.md)
+**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-and-define.md)
 
 **Related topics**  
 
 
-[Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-task-form.md)
+[Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-task-form.md)
 
-[Create an automation resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-resource.md)
+[Create an automation resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-automation-resource.md)
 

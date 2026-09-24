@@ -2,7 +2,7 @@
 title: DLP Incident Response overview
 description: Learn how you can use the ServiceNow AI Platform and the Data Loss Prevention Incident Response \(DLP IR\) application. Manage sensitive information for your customers, such as the financial and proprietary data, health records, or social security numbers. Automate the remediation workflows with the DLP Incident Response application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/understanding-data-loss-prevention.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/understanding-data-loss-prevention.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -29,7 +29,7 @@ The Data Loss Prevention Incident Response application includes the following ca
 -   A unified workspace where your DLP operations team can track the trends on the open incidents, top offenders, incidents by scan source, and can view, edit, assign, and close the DLP incidents across multiple sources \(endpoints, networks, and email\).
 -   Administrative controls that define the email templates for end-user coaching and communication, assignment rules for automatic assignment of incidents, auto-escalation rules, and delegation for incident responses.
 
-**Parent Topic:**[Exploring Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/exploring-dlp.md)
+**Parent Topic:**[Exploring Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/exploring-dlp.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Add and configure the Portal Data List widget
 description: Add a Portal Data List widget to your portal and modify its data, appearance, and behavior. You can use the Portal Data List widget to display different case-related data in a card or list format on your portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -18,9 +18,9 @@ Add a Portal Data List widget to your portal and modify its data, appearance, an
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
 
-If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
+If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
 Role required: sp\_admin
 
@@ -141,13 +141,13 @@ Role required: sp\_admin
     ]
     ```
 
-    For more information, see [Portal Data List widget JSON parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-datalist-widget-data-json.md).
+    For more information, see [Portal Data List widget JSON parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/portal-datalist-widget-data-json.md).
 
     Each category in the widget displays a list of filtered records from a selected table. The default table is the Case \[sn\_customerservice\_case\] table. In a category, you can further filter the records and display them in tabs using the **pre\_defined\_filters** parameter. You can also configure the filter options displayed in the filter icon using the **run\_time\_filters** parameter.
 
 12. On the Instance form, fill in the fields.
 
-    For a description of the field values, see [Portal Data List widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r-port-data-list-inst-options.md).
+    For a description of the field values, see [Portal Data List widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r-port-data-list-inst-options.md).
 
 13. Select **Save**.
 

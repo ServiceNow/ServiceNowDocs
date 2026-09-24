@@ -2,7 +2,7 @@
 title: User-created integrations in DevOps Change Velocity
 description: User-created integrations are for integrating additional planning, coding, and test tools that are not available by default in the DevOps Change Velocity application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-tool-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/dev-ops-tool-integration.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -16,7 +16,7 @@ breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 
 User-created integrations are for integrating additional planning, coding, and test tools that are not available by default in the DevOps Change Velocity application.
 
-The DevOps Change Velocity application includes tool definitions for integrating some common planning, coding, and [DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md), but you can also set up user-created integrations for additional tools in your DevOps environment.
+The DevOps Change Velocity application includes tool definitions for integrating some common planning, coding, and [DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md), but you can also set up user-created integrations for additional tools in your DevOps environment.
 
 ## Integration objects
 
@@ -30,7 +30,7 @@ DevOps tool integration consists of these objects.
 
     When connecting, the subflow for the specific tool is called and the connection state is updated. The connection status message is shown on the form.
 
-    See [Connect capability subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) for more details.
+    See [Connect capability subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) for more details.
 
 -   **Discover** action:
 
@@ -38,7 +38,7 @@ DevOps tool integration consists of these objects.
 
     The transformed payload consists of an array of objects as a JSON string. Elements vary depending on the tool type.
 
-    See [Discover capability subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) for more details.
+    See [Discover capability subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) for more details.
 
 -   **Import** action:
 
@@ -52,13 +52,13 @@ DevOps tool integration consists of these objects.
 
     The source tool is configured manually \(by your integration developer\) to send raw data to the ServiceNow instance. The raw payload is then transformed into a standard JSON object using a subflow.
 
-    See the [Notification capability subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) and the [DevOps - POST /devops/tool/\{capability\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md) endpoint of the [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md) for more details.
+    See the [Notification capability subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) and the [DevOps - POST /devops/tool/\{capability\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md) endpoint of the [DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md) for more details.
 
     **Note:** If a subflow is not specified, default handling of notifications occurs \(`original payload` is automatically copied to `transformed payload`\).
 
     This behavior is useful when the transactional data of the tool is supported by ServiceNow DevOps as is.
 
-    See the expected standard payloads in the [Notification capability subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) for more details.
+    See the expected standard payloads in the [Notification capability subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) for more details.
 
 
 ## DevOps integration configuration overview
@@ -67,7 +67,7 @@ Tool integration configuration can be completed by your integration developer an
 
 -   **Integration developer**
     -   Create a tool integration record in DevOps to define the tool you are integrating \(source tool\).
-    -   Create a Workflow Studio [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) to collect and transform data from the tool you are integrating \(source tool\).
+    -   Create a Workflow Studio [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) to collect and transform data from the tool you are integrating \(source tool\).
     -   Create a tool capability mapping record in DevOps to map the tool integration record to the tool type capability.
 
         **Note:** Notifications \(webhook\) capability is supported. Connect and discover capabilities are also supported.
@@ -417,20 +417,20 @@ Azure DevOps
 -   GitHub - Load
 
 </td></tr></tbody>
-</table>-   **[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)**  
+</table>-   **[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)**  
 Test tool integration lets you view test results in DevOps for Jenkins, Azure DevOps, GitHub, GitHub Enterprise, and GitLab unit, functional, and performance tests.
--   **[DevOps user-created security tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-security-tool-integration.md)**  
+-   **[DevOps user-created security tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-security-tool-integration.md)**  
 You can integrate additional security tools that are not supported in the base system in DevOps Change Velocity.
--   **[DevOps user-created orchestration tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-user-created-orchestration-tool-integration.md)**  
+-   **[DevOps user-created orchestration tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-user-created-orchestration-tool-integration.md)**  
 Integrate DevOps Change Velocity with any orchestration tool that is not supported in the base system.
--   **[Create a DevOps tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-dev-ops-integrations.md)**  
+-   **[Create a DevOps tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/set-up-dev-ops-integrations.md)**  
 To create a DevOps tool integration, your integration developer configures DevOps tool integration settings, and a Workflow Studio subflow to collect and transform data from the source tool. Then your DevOps admin configures your DevOps tool connections.
--   **[Creating DevOps subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md)**  
+-   **[Creating DevOps subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md)**  
 For user-created integrations, create a DevOps Workflow Studio subflow to collect and transform data from the tool you are integrating.
--   **[Add custom fields for a planning tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/add-custom-field-for-a-planning-tool-integration.md)**  
+-   **[Add custom fields for a planning tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/add-custom-field-for-a-planning-tool-integration.md)**  
 Add custom fields into your planning tool integration to improve configurability and access business-specific information, which facilitates more informed decision-making.
--   **[Create a tool integration from the DevOps Change Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-a-tool-integration-from-the-devops-change-workspace.md)**  
+-   **[Create a tool integration from the DevOps Change Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/create-a-tool-integration-from-the-devops-change-workspace.md)**  
 Create a tool integration from the DevOps Change Workspace for integrating additional orchestration, planning, and coding tools that are not available by default in the DevOps Change Velocity application.
 
-**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
+**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
 

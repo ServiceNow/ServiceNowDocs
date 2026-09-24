@@ -2,7 +2,7 @@
 title: Mobile experience components available in offline mode
 description: Use the tables to view the various components and features that are either fully, partially or not supported in offline mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/offline-capabilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/offline-capabilities.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-08"
@@ -673,5 +673,5 @@ Assign a user to a task.
 |Chat|Virtual agent \(VA\)|n/a|n/a|n/a|Self-service chat for employees or customers.|
 |Chat|Sidebar|n/a|n/a|n/a|ServiceNow Sidebar is a real-time, record-based collaboration tool that allows agents to privately chat and share knowledge with subject matter experts to quickly resolve tasks, cases, and incidents.|
 
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md)
+**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-offline-mode.md)
 

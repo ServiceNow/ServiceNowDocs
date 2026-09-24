@@ -2,7 +2,7 @@
 title: Manage quotes using the Quote AI Agent
 description: Use the Quote AI Agent to create a quote, modify an existing quote, or review a quote that the agent generated automatically from a trigger condition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/manage-quote-using-quote-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/manage-quote-using-quote-ai-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"
@@ -118,5 +118,5 @@ Review the draft quote that the agent created, including the products, quantitie
 
 The quote is created, updated, or finalized and attached to the opportunity. The agent updates the opportunity work notes with a summary of the actions taken and notifies you through Microsoft Teams and ServiceNow Otto for CPQ.
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

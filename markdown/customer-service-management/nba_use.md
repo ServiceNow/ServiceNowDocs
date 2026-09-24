@@ -2,7 +2,7 @@
 title: Use Recommended Actions to resolve cases
 description: As an agent, you can use Recommended Actions to help address customer issues and resolve cases quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/nba\_use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/nba\_use.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

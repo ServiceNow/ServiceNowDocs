@@ -2,7 +2,7 @@
 title: Service Builder
 description: Create and edit services and service offerings using the ServiceNow Service Builder application. Service Builder is an interactive, guided experience as you create and edit services and service offering details. Even though Service Builder is a feature of Service Portfolio Management, its plugin is part of the Digital Portfolio Management list of products in the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-builder/service-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-builder/service-builder.html
 release: australia
 product: Service Builder
 classification: service-builder
@@ -47,7 +47,7 @@ Selecting **Continue** takes you through each step, starting with the **Details*
 
 You can edit your services and offerings at any time. You can also duplicate them \(create a copy\) to edit services, as needed so that you can create other services and offerings quickly. The contextual guidance in the experience walks you through how to do these tasks.
 
-After you edit a service or an offering, the published version stays active until the draft that you’re working on becomes the new published version. For more information, see [Service Builder approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder/service-builder-states.md).
+After you edit a service or an offering, the published version stays active until the draft that you’re working on becomes the new published version. For more information, see [Service Builder approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-builder/service-builder-states.md).
 
 |Home page tab|Description|
 |-------------|-----------|
@@ -57,9 +57,9 @@ After you edit a service or an offering, the published version stays active unti
 **Related topics**  
 
 
-[Service Builder approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder/service-builder-states.md)
+[Service Builder approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-builder/service-builder-states.md)
 
-[Create a service in Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder/create-service.md)
+[Create a service in Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-builder/create-service.md)
 
-[Create a service offering in Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder/create-edit-service-offering.md)
+[Create a service offering in Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-builder/create-edit-service-offering.md)
 

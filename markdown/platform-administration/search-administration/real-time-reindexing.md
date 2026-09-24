@@ -2,7 +2,7 @@
 title: Reindex a table without impacting text search results
 description: Rebuild text search indexes without adversely impacting search results. You can continue to perform text searches on a table while the index regeneration takes place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/real-time-reindexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/real-time-reindexing.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -18,7 +18,7 @@ Rebuild text search indexes without adversely impacting search results. You can 
 
 ## Before you begin
 
-The table that you want to rebuild the index for must already be configured for indexing and searching. For details on this configuration process, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
+The table that you want to rebuild the index for must already be configured for indexing and searching. For details on this configuration process, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 Role required: admin
 
@@ -62,5 +62,5 @@ This reindexing method doesn't purge the entire text search index before the reb
 
 The system reindexes the text search for the specified table. For large tables, such as sys\_metadata, reindexing can take a couple of hours, but you can still perform text searches on the table while the script is running.
 
-**Parent Topic:**[Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md)
+**Parent Topic:**[Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/t_RegenerateATextIndexForATable.md)
 

@@ -2,7 +2,7 @@
 title: Create a custom command in ServiceNow CLI
 description: Manage your custom application from the command line by creating custom commands in the ServiceNow CLI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/create-command.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-cli/create-command.html
 release: australia
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -428,5 +428,5 @@ Required. Command that the argument applies to.
 
 When the user runs the ServiceNow CLI command, the system executes the associated REST API call and returns the result to the ServiceNow CLI.
 
-**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-cli/servicenow-cli.md)
 

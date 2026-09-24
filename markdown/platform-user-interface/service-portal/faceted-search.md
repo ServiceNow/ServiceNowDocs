@@ -2,7 +2,7 @@
 title: Faceted Search widget
 description: The Faceted Search widget displays search results and search facets defined for a search source. The Faceted Search widget enables end users to filter search results for a more meaningful result set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/faceted-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/faceted-search.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -142,10 +142,10 @@ Placeholder
 
 Text that appears in the search box before the user enters anything. By default, the placeholder text is `Search`.
 
- **Note:** This instance option applies only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+ **Note:** This instance option applies only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-ais-sp.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-widgets.md)
+</table>**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/search-widgets.md)
 
 **Related topics**  
 

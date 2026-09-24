@@ -2,7 +2,7 @@
 title: Exploring Public Sector Digital Services
 description: Learn about Public Sector Digital Services \(PSDS\) features to help create a seamless support experience for constituents, businesses, internal agencies, and external agencies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/exploring-public-sector-digital-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/exploring-public-sector-digital-services.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,33 +16,33 @@ Learn about Public Sector Digital Services \(PSDS\) features to help create a se
 
 ## Public Sector Digital Services Overview
 
-Public Sector Digital Services helps government agencies manage the complete lifecycle of constituent public service delivery. The solution is built on a government data model that standardizes how constituents, businesses, households, agencies, and service interactions are represented across your implementation. You can use this foundation as-is or extend it to create workflows that are specific to your agency's processes. Public Sector Digital Services includes a set of applications that support common government service types. Many are playbook-driven, guiding agents through each stage of a service request, from intake to decision. Others support different kinds of work—for example, the Investigative Case Management solution helps investigators process investigations and connect the records and evidence related to a case. Constituents and businesses access services through self-service portals, and agents manage their work from a configurable workspace. [ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/sn-otto-for-psds.md) adds AI capabilities to help agents work through cases faster, including case summarization, chat summarization, and resolution notes generation. Public Sector Digital Services supports three primary service delivery scenarios: government to constituent, government to business, and government to agency. You can implement one or more of these scenarios depending on your agency's requirements.
+Public Sector Digital Services helps government agencies manage the complete lifecycle of constituent public service delivery. The solution is built on a government data model that standardizes how constituents, businesses, households, agencies, and service interactions are represented across your implementation. You can use this foundation as-is or extend it to create workflows that are specific to your agency's processes. Public Sector Digital Services includes a set of applications that support common government service types. Many are playbook-driven, guiding agents through each stage of a service request, from intake to decision. Others support different kinds of work—for example, the Investigative Case Management solution helps investigators process investigations and connect the records and evidence related to a case. Constituents and businesses access services through self-service portals, and agents manage their work from a configurable workspace. [ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/sn-otto-for-psds.md) adds AI capabilities to help agents work through cases faster, including case summarization, chat summarization, and resolution notes generation. Public Sector Digital Services supports three primary service delivery scenarios: government to constituent, government to business, and government to agency. You can implement one or more of these scenarios depending on your agency's requirements.
 
 ## Public Sector Applications
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Investigative Case Management \[Omitted image "bus-observable.svg"\] Alt text:Handle investigative cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-explore-inv-case-management.md)
+[Investigative Case Management \[Omitted image "bus-observable.svg"\] Alt text:Handle investigative cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-explore-inv-case-management.md)
 
 </td><td>
 
-[Grants Management \[Omitted image "bus-explore-careers.svg"\] Alt text:Handle applications for grants submitted by public sector users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
+[Grants Management \[Omitted image "bus-explore-careers.svg"\] Alt text:Handle applications for grants submitted by public sector users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-using-grants-management-playbook.md)
 
 </td><td>
 
-[Social Benefits Playbook \[Omitted image "bus-handshake.svg"\] Alt text:Handle applications for social benefit programs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-exploring-pbs-social-benefits.md)
+[Social Benefits Playbook \[Omitted image "bus-handshake.svg"\] Alt text:Handle applications for social benefit programs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-exploring-pbs-social-benefits.md)
 
 </td></tr><tr><td>
 
-[License and Permit Playbook \[Omitted image "bus-profile.svg"\] Alt text:Handle license and permit requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-exploring-pbs-license-permit.md)
+[License and Permit Playbook \[Omitted image "bus-profile.svg"\] Alt text:Handle license and permit requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-exploring-pbs-license-permit.md)
 
 </td><td>
 
-[Information Request Playbook \[Omitted image "bus-discover.svg"\] Alt text:Handle public record and information requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-exploring-pbs-information-request.md)
+[Information Request Playbook \[Omitted image "bus-discover.svg"\] Alt text:Handle public record and information requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-exploring-pbs-information-request.md)
 
 </td><td>
 
-[Service Request Playbook \[Omitted image "bus-demand-management.svg"\] Alt text:Handle non-emergency service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-exploring-pbs-service-request.md)
+[Service Request Playbook \[Omitted image "bus-demand-management.svg"\] Alt text:Handle non-emergency service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-exploring-pbs-service-request.md)
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Walk constituents through the process of submitting a grant proposal, applying f
 
 </td><td>
 
-[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/playbooks-psds-exploring.md)
+[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/playbooks-psds-exploring.md)
 
 </td><td>
 
@@ -110,7 +110,7 @@ Drive self-service from a portal that is integrated with knowledge articles, ser
 
 </td><td>
 
-[Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/portals-psds-exploring.md)
+[Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/portals-psds-exploring.md)
 
 </td><td>
 
@@ -122,7 +122,7 @@ Improve your agent efficiency for faster resolution and a better constituent exp
 
 </td><td>
 
-[Playbooks and Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/using-public-sector-workspace-for-government-agents.md)
+[Playbooks and Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/using-public-sector-workspace-for-government-agents.md)
 
 </td><td>
 
@@ -134,7 +134,7 @@ Manage case interactions and service level agreements \(SLAs\), product model re
 
 </td><td>
 
-[Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-case-management.md)
+[Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-case-management.md)
 
 </td><td>
 
@@ -146,7 +146,7 @@ Increase productivity with automated case detail and comment summarization, so a
 
 </td><td>
 
-[Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/sn-otto-for-psds.md)
+[Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/sn-otto-for-psds.md)
 
 </td><td>
 
@@ -158,7 +158,7 @@ Get at-a-glance visibility and a deep understanding of the data and identify are
 
 </td><td>
 
-[Analytics and Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-content-pack.md)
+[Analytics and Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-content-pack.md)
 
 </td><td>
 
@@ -170,7 +170,7 @@ Embed a messenger-like pop-up inside any website to interact with ServiceNow fea
 
 </td><td>
 
-[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/using-va-for-public-sector-digital-services.md)
+[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/using-va-for-public-sector-digital-services.md)
 
 </td><td>
 
@@ -182,7 +182,7 @@ A dedicated, customizable workspace for government agents and agents from extern
 
 </td><td>
 
-[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-csm-workspace.md)
+[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-using-csm-workspace.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Enable domain separation on reports
 description: Activate the domain separation plugin to enable reports to display content based on data, rules, and settings from the logged-on user domain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_EnsureDomainSepOnAReport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_EnsureDomainSepOnAReport.html
 release: australia
 product: Reporting
 classification: reporting
@@ -39,7 +39,7 @@ Follow these steps to ensure domain separation on reports if the MSP Extensions 
     **Domain** fields appear on reports, and this field references a table. After a domain field exists on a form, all records within the table will have the domain field enabled. By default, all these records are global.
 
 
-**Parent Topic:**[Domain separation and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/domain-separation-in-reporting.md)
+**Parent Topic:**[Domain separation and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/domain-separation-in-reporting.md)
 
 **Related topics**  
 

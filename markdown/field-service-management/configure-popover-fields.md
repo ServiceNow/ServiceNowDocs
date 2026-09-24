@@ -2,7 +2,7 @@
 title: Configure popover fields
 description: Configure the fields that appear in task popovers across Dispatcher Workspace, including the task panel, calendar, and map markers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-popover-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configure-popover-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-05-08"
@@ -18,7 +18,7 @@ Configure the fields that appear in task popovers across Dispatcher Workspace, i
 
 Role required: admin
 
-The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.task\_panel\_card\_hover\_popover must be enabled to see popovers on the task card. The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.calendar\_event\_hover\_popover must be enabled to see popovers on events in the calendar. These fields are enabled by default. For more information, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md).
+The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.task\_panel\_card\_hover\_popover must be enabled to see popovers on the task card. The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.calendar\_event\_hover\_popover must be enabled to see popovers on events in the calendar. These fields are enabled by default. For more information, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_PropInstallWFieldServMgmnt.md).
 
 ## Procedure
 

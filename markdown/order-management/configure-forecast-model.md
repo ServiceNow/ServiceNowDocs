@@ -2,7 +2,7 @@
 title: Configure Forecast Model
 description: The forecast model is a framework used to predict future sales based on historical data, current sales activities, and other relevant factors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-forecast-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-forecast-model.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -217,7 +217,7 @@ The new forecast model is created. You can view it on the Forecast Models page.
 **Related topics**  
 
 
-[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-sales-forecasting.md)
 
-[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-forecasting.md)
 

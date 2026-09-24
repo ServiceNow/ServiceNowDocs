@@ -2,7 +2,7 @@
 title: Report on extended tables
 description: Learn how to include fields from tables that extend the Task table in a single report. For example, you could include both incidents and problems in a single report.Watch the video to learn how to use dot-walking, dynamic filters, and database views to access data on extended, or related, tables.Dot-walking provides access to fields on extended, or related, tables, enabling you to report on fields from those tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_AccessFieldExtendedTable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_AccessFieldExtendedTable.html
 release: australia
 product: Reporting
 classification: reporting
@@ -75,7 +75,7 @@ The video shows how to create a report with data from multiple tables using the 
     The report shows the open incidents and their categories and the open problems with the number of their related incidents.
 
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Related tables in reporting
 

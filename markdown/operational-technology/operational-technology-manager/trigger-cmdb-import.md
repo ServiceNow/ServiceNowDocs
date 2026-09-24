@@ -2,7 +2,7 @@
 title: Trigger a CMDB import for valid staging records
 description: Trigger a Configuration Management Database \(CMDB\) import for your valid staging records to directly import them into the CMDB
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/trigger-cmdb-import.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/trigger-cmdb-import.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -39,5 +39,5 @@ Role required: ot\_excel\_import\_user
 7.  Review the newly imported OT devices in OT List module in the Industrial Workspace.
 
 
-**Parent Topic:**[Using the Service Graph Connector for Microsoft Excel through import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/use-excel-sgc-through-import-tasks.md)
+**Parent Topic:**[Using the Service Graph Connector for Microsoft Excel through import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/use-excel-sgc-through-import-tasks.md)
 

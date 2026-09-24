@@ -2,7 +2,7 @@
 title: Create a contract renewal request
 description: Create a contract renewal request for contracts that are nearing their expiry date or are already expired.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/create-contract-renew-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/create-contract-renew-req.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -133,7 +133,7 @@ The substate of the contract that is being renewed is set to **Renewal in proces
 
 ## What to do next
 
-If the parent contract doesn't have child contracts, select the [Build renewal task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/fill-cont-renew-info.md).
+If the parent contract doesn't have child contracts, select the [Build renewal task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/fill-cont-renew-info.md).
 
-If the parent contract has child contracts, select the [Contract selection task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/select-contract.md).
+If the parent contract has child contracts, select the [Contract selection task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/select-contract.md).
 

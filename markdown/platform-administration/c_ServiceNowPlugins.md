@@ -2,7 +2,7 @@
 title: ServiceNow plugins
 description: Plugins are software components that provide features and functionalities within a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_ServiceNowPlugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_ServiceNowPlugins.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,8 +25,8 @@ Plugins and applications are separate components on the ServiceNow AI Platform.
 
 All plugins are provided by ServiceNow, but some plugins are activated differently.
 
--   A set of plugins are activated on your instance by default. You can activate additional plugins on your instance depending on your business needs. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
--   Other plugins require activation by ServiceNow personnel. To request activation, follow the steps in [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md).
+-   A set of plugins are activated on your instance by default. You can activate additional plugins on your instance depending on your business needs. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ActivateAPlugin.md).
+-   Other plugins require activation by ServiceNow personnel. To request activation, follow the steps in [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_RequestAPlugin.md).
 
 There are some plugins that you can't activate or upgrade on your instance and the button is greyed out. This situation can happen in the following cases:
 
@@ -44,7 +44,7 @@ There are some plugins that you can't activate or upgrade on your instance and t
 After a plugin is activated, you cannot disable or deactivate it. You should thoroughly test, in a non-production instance, the specific features and functionalities that are installed when you activate the plugin before using them in a production instance. See [Uninstall a ServiceNow plugin \[KB0716414\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0716414).
 
 -   If necessary, you can hide or disable the functionality by restricting access through the use of roles and ACLs.
--   Some plugins support rollback contexts. For details on using rollback contexts, see [Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md).
+-   Some plugins support rollback contexts. For details on using rollback contexts, see [Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md).
 
 A warning message appears if the alter table or create table operation fails when you activate or upgrade a plugin. Contact Customer Service and Support for help with processing any skipped tables.
 
@@ -52,18 +52,18 @@ A warning message appears if the alter table or create table operation fails whe
 
 You can test a plugin on your personal developer instance \(PDI\) before launching it in a production instance. If a plugin isn't active by default on a PDI, you can activate the plugin without requesting or purchasing it.
 
-To activate a plugin on a PDI, use the All Applications page on your instance. If the plugin isn't available on the All Applications page, activate it from the . For more information, see [Activate a plugin on a personal developer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-plugin-pdi.md).
+To activate a plugin on a PDI, use the All Applications page on your instance. If the plugin isn't available on the All Applications page, activate it from the . For more information, see [Activate a plugin on a personal developer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/activate-plugin-pdi.md).
 
 **Note:** Some plugins aren't available for activation on PDIs.
 
--   **[Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md)**  
+-   **[Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ActivateAPlugin.md)**  
 You can activate most plugins to expand features and functionalities in the ServiceNow AI Platform.
--   **[Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md)**  
+-   **[Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_RequestAPlugin.md)**  
 If a plugin does not appear in the Application Manager, you cannot activate it yourself. Request activation of the plugin by ServiceNow personnel.
--   **[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)**  
+-   **[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-of-plugins.md)**  
 You can view all plugins available to you in the Application Manager if you have the admin role.
 
-**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/p_CoreConfigurationOverview.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Check device health using ServiceNow Otto for ITSM Virtual Agent
 description: Use the ServiceNow Otto for ITSM Virtual Agent to monitor device performance, diagnose potential issues, and use suggested resolutions to address them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -18,9 +18,9 @@ Use the ServiceNow Otto for ITSM Virtual Agent to monitor device performance, di
 
 ## Before you begin
 
--   Install the Digital End-User Experience \(sn\_dex\) application. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md).
+-   Install the Digital End-User Experience \(sn\_dex\) application. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/install-app-device-health.md).
 -   Configure ServiceNow Otto for ITSM to access the Check Device health topic in the Virtual Agent chat box.
--   Install the Desktop Assistant \[sn\_dex\_desktop\] plugin if you're launching Virtual Agent from Desktop Assistant. For more information, see [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
+-   Install the Desktop Assistant \[sn\_dex\_desktop\] plugin if you're launching Virtual Agent from Desktop Assistant. For more information, see [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: none
 
@@ -143,7 +143,7 @@ Single resolution
 
 </td><td>
 
-Depending on the fallback action configured in the resolution, the Virtual Agent redirects you to a live agent, creates an incident, or prompts you to create an incident.The DEX administrator configures the resolutions and fallback actions. For more information, see [Engagement Settings for Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/engagement-settings.md).
+Depending on the fallback action configured in the resolution, the Virtual Agent redirects you to a live agent, creates an incident, or prompts you to create an incident.The DEX administrator configures the resolutions and fallback actions. For more information, see [Engagement Settings for Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/engagement-settings.md).
 
 </td></tr><tr><td>
 

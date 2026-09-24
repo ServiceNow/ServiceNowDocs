@@ -2,12 +2,12 @@
 title: Investigate a low-scoring session
 description: Determine the root cause of a low quality or safety score by working through the session detail, trace timeline, and span-level input and output data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-investigate-session-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-investigate-session-task.html
 release: australia
 topic_type: task
 last_updated: "2026-04-08"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Investigate sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -102,5 +102,5 @@ Trace and span detail for a session is available only for a limited time. To rev
 
 After identifying the root cause, coordinate with the product owner to adjust the agent's configuration, prompts, or tool access. Monitor subsequent sessions to verify that the issue is resolved.
 
-**Parent Topic:**[Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
+**Parent Topic:**[Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
 

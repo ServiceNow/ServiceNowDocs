@@ -2,7 +2,7 @@
 title: Configure the Google API credentials for Cloud Discovery
 description: Create Google API credentials to allow Cloud Discovery to access the data on your Google account securely.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-create-google-api-credentials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-create-google-api-credentials.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,12 +61,12 @@ Actions
 3.  Select **New**.
 4.  In the form, fill in the fields according to the form description.
 
-For description of the form fields, see [Google API Credentials Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/google-api-credentials-form.md).
+For description of the form fields, see [Google API Credentials Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/google-api-credentials-form.md).
 
 5.  Select **Submit**.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Set up Google Cloud Platform service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/set-up-gcp-service-accounts.md)
+**Parent Topic:**[Set up Google Cloud Platform service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/set-up-gcp-service-accounts.md)
 

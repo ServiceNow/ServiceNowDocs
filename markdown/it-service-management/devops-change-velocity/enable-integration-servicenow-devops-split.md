@@ -2,7 +2,7 @@
 title: Enable integration with ServiceNow DevOps in Split tool
 description: Enable integration with ServiceNow DevOps in Split tool and restrict approvers to only the enabled integration for your environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/enable-integration-servicenow-devops-split.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/enable-integration-servicenow-devops-split.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -35,5 +35,5 @@ Role required: admin in Split organization
 5.  Select **Integrations** from the drop-down and select the integration configured in step 2 as, and select **Save**.\[Omitted image "split-restrict-approver.png"\] Alt text: Restrict approvers for environment
 
 
-**Parent Topic:**[Split.io integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/split-integration-devops-classic.md)
+**Parent Topic:**[Split.io integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/split-integration-devops-classic.md)
 

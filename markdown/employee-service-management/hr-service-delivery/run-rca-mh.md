@@ -2,7 +2,7 @@
 title: RCA approvals for Manager Hub
 description: After you install Manager Hub, you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/run-rca-mh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/run-rca-mh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -39,7 +39,7 @@ After you install Manager Hub, you might encounter Restricted Caller Access \(RC
     **Note:** The fix script can approve the RCAs that exist at the time of execution. After running the RCA script, if you install new plugins, such as Human Resources Scoped App \[com.sn\_hr\_core\], Human Resources: Integrations \[sb\_hr\_integration\], Journey Accelerator \[sn\_ja\], Journey Designer \[sn\_jny\], and Document Template \[sn\_doc\], rerun the RCA script to approve the new RCAs.
 
 
-**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 

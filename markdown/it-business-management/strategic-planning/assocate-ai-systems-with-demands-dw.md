@@ -2,7 +2,7 @@
 title: Create AI systems
 description: Create AI systems from directly within the demand workflow and associate them with your demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/assocate-ai-systems-with-demands-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/assocate-ai-systems-with-demands-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -41,6 +41,6 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 Associate your demands with the created AI systems:
 
--   Using the AI checkpoint stage in your demand playbook. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+-   Using the AI checkpoint stage in your demand playbook. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 -   Using the **AI Associations** section in the **Details** tab.
 

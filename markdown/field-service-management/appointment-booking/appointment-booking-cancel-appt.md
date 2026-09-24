@@ -2,7 +2,7 @@
 title: Cancel an appointment for a customer
 description: Dispatchers and agents can cancel appointments for customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/appointment-booking-cancel-appt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/appointment-booking/appointment-booking-cancel-appt.html
 release: australia
 product: Appointment Booking
 classification: appointment-booking

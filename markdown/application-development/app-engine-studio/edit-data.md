@@ -2,7 +2,7 @@
 title: Modify application data tables
 description: Use Table Builder to modify data tables used in your application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/edit-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/edit-data.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -41,9 +41,9 @@ You can perform the following actions in Table Builder:
     **Note:** This feature is only available if your licensing entitles you to "exclusive low code capability" and you have Table Builder for App Engine installed. Contact your Solutions consultant for more information.
 
 
-See [Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-builder.md) for more information on editing tables in Table Builder.
+See [Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/table-builder.md) for more information on editing tables in Table Builder.
 
 **Note:** To delete a table from your application, select the Additional actions icon \(\[Omitted image "edit-data-ellipsis-icon.png"\] Alt text: Additional actions.\) for an existing table in your application, and then select **Delete** and follow the instructions.
 
-**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md)
+**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-data.md)
 

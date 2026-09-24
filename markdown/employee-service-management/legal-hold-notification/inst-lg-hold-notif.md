@@ -2,7 +2,7 @@
 title: Install Legal Hold Notification
 description: Install the Legal Hold Notification plugin to be able to create a legal hold notification matter, add custodians, issue the legal hold notice, and close the legal hold notification matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/inst-lg-hold-notif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-hold-notification/inst-lg-hold-notif.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -34,7 +34,7 @@ The following items are installed with Legal Hold Notification:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/comp-inst-lg-hold-notif.md).
+For more information, see [Components installed with Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/comp-inst-lg-hold-notif.md).
 
 ## Procedure
 
@@ -61,7 +61,7 @@ For more information, see [Components installed with Legal Hold Notification](ht
 
 ## What to do next
 
-If the Legal Counsel Center application hasn’t been previously installed, you must install it to start using Legal Hold Notification. For more information, see [Install Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.md).
+If the Legal Counsel Center application hasn’t been previously installed, you must install it to start using Legal Hold Notification. For more information, see [Install Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.md).
 
-**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
+**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
 

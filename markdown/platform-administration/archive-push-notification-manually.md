@@ -2,7 +2,7 @@
 title: Archive push notifications manually
 description: You can manually archive push notifications on demand instead of waiting for the instance to archive them based on a scheduled job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/archive-push-notification-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/archive-push-notification-manually.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ You can manually archive push notification messages that meet the default archiv
 4.  Click **Run Archive Now**.
 
 
-**Parent Topic:**[Push notification retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/push-notification-retention.md)
+**Parent Topic:**[Push notification retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/push-notification-retention.md)
 

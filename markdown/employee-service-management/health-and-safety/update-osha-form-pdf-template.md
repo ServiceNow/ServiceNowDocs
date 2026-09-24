@@ -2,7 +2,7 @@
 title: Update an OSHA form PDF template
 description: Update a saved OSHA form PDF template if changes to an OSHA form PDF file are required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/update-osha-form-pdf-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/update-osha-form-pdf-template.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -62,7 +62,7 @@ The Health and Safety Incident Management OSHA Content Pack includes preconfigur
 
     2.  Select the corresponding system property for the OSHA form PDF template that you updated.
 
-        For information on the OSHA form PDF template system properties, see [Health and Safety Incident Management OSHA Content Pack properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/properties-installed-osha-content-pack.md).
+        For information on the OSHA form PDF template system properties, see [Health and Safety Incident Management OSHA Content Pack properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/properties-installed-osha-content-pack.md).
 
     3.  Update the sys\_id that you copied in step 2.
 
@@ -73,5 +73,5 @@ The Health and Safety Incident Management OSHA Content Pack includes preconfigur
 
 The new OSHA form PDF template is available and is used when exporting the corresponding OSHA form.
 
-**Parent Topic:**[Setting up the OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/configuring-osha-forms.md)
+**Parent Topic:**[Setting up the OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/configuring-osha-forms.md)
 

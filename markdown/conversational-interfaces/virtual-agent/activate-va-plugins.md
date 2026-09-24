@@ -2,7 +2,7 @@
 title: Install Virtual Agent plugins
 description: Install Virtual Agent plugins for your business areas. These plugins contain predefined conversations and Virtual Agent assets that help users with common self-service tasks, such as creating or updating cases or providing answers to frequently asked questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/activate-va-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/activate-va-plugins.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Install Virtual Agent plugins for your business areas. These plugins contain pre
 
 ## Before you begin
 
-[Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
+[Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
 Role required: admin or virtual\_agent\_admin
 
@@ -37,5 +37,5 @@ Role required: admin or virtual\_agent\_admin
 
 ## What to do next
 
-For more information about available Virtual Agent plugins, see [Additional plugins for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/additional-va-plugins.md) and [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md).
+For more information about available Virtual Agent plugins, see [Additional plugins for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/additional-va-plugins.md) and [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md).
 

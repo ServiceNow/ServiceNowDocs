@@ -2,7 +2,7 @@
 title: Update roadmap item dependencies
 description: Update or delete the dependencies for the planning items on your roadmap so that they reflect any change of plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -85,7 +85,7 @@ Steps
 1.  Select **Edit**.
 2.  In the Dependency details form, update the required fields and select **Save**.
 
-For field information, see [Dependency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/dependency-form.md).
+For field information, see [Dependency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/dependency-form.md).
 
 </td></tr><tr><td id="d193815e231">
 
@@ -99,5 +99,5 @@ For field information, see [Dependency form](https://raw.githubusercontent.com/S
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
+**Parent Topic:**[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
 

@@ -2,7 +2,7 @@
 title: Generate default mapping configurations
 description: Generate default mapping configurations to create table maps for the available applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/generate-default-mapping-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/generate-default-mapping-configurations.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

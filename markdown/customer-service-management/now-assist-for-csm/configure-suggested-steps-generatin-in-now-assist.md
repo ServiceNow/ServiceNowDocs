@@ -2,7 +2,7 @@
 title: Configure Suggested Steps Generation
 description: Configure suggested steps generation to analyze clusters of similar cases and suggest next steps for case resolution for accelerated and consistent agent case troubleshooting.Learn how to enable the suggested steps generation in the CRM Workspace after skill activation.Replace the default sn\_customerservice\_agent and sn\_customerservice.consumer\_agent role with a custom role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -83,7 +83,7 @@ Input fields
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
-    -   For customizing access control, see [Customize access control for suggested steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.md)
+    -   For customizing access control, see [Customize access control for suggested steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.md)
 7.  Toggle **Display** to determine if suggested step recommendations appear in In-product desktop, displaying AI skills on forms and workspaces.
 
 8.  After selecting **Review and Activate** to examine changes, select **Done** to close the Suggested Steps Generation settings.

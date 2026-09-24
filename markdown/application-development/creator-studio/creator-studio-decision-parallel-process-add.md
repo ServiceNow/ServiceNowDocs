@@ -2,7 +2,7 @@
 title: Add a parallel process to an app's playbook in Creator Studio
 description: Create parallel processes in Creator Studio to make things happen in your app at the same time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-decision-parallel-process-add.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-decision-parallel-process-add.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -46,7 +46,7 @@ Activities on a process's parallel branches run at the same time as other specif
 
 6.  Add activities to the parallel branch as needed.
 
-    For more information, see [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-activities-automation.md).
+    For more information, see [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-activities-automation.md).
 
 7.  If you want to have several activities happen in a parallel process as soon as the playbook is triggered, complete the following steps.
 
@@ -57,5 +57,5 @@ Activities on a process's parallel branches run at the same time as other specif
     3.  Select the **Save and close** button.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-working-with-automations.md)
 

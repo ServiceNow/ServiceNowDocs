@@ -2,7 +2,7 @@
 title: Move conflicts for projects created via Excel upload
 description: Review the conflicts and decide whether you want to resolve or ignore them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/excel-upload-conflicts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/excel-upload-conflicts.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -112,7 +112,7 @@ Allocation Mismatch
 
 </td><td>
 
-The user's allocation doesn't match the allocation of the selected destination.For more information about allocations, see [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-cost-center-department-floor.md).
+The user's allocation doesn't match the allocation of the selected destination.For more information about allocations, see [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-cost-center-department-floor.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Flexible Destination
 
 </td><td>
 
-The selected destination is a flexible or shared location, not a fixed assignment.For more information about flexible and permanent spaces, see [Configure a workspace or desk as flexible or permanent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/assign-a-flex-perm-space.md).
+The selected destination is a flexible or shared location, not a fixed assignment.For more information about flexible and permanent spaces, see [Configure a workspace or desk as flexible or permanent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/assign-a-flex-perm-space.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ Capacity Exceeded
 
 </td><td>
 
-The selected destination exceeds its capacity when the move is completed.For more information about defining the capacity of a location, see [Define the capacity of workplace areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/define-capacity-of-workplace-areas-wsd.md).
+The selected destination exceeds its capacity when the move is completed.For more information about defining the capacity of a location, see [Define the capacity of workplace areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/define-capacity-of-workplace-areas-wsd.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ Duplicate destination location
 If the uploaded Excel sheet has the same location listed in two different rows, this conflict will occur.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

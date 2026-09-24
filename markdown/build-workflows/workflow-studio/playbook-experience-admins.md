@@ -2,7 +2,7 @@
 title: Designing Playbook Experience
 description: After building playbooks in Workflow Studio, Playbook Experience administrators can configure the layouts and further customize playbook functions during runtime.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-experience-admins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/playbook-experience-admins.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

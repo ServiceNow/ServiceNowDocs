@@ -2,7 +2,7 @@
 title: Obtaining data from Workday using REST APIs
 description: Access data from Workday using REST APIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/obtain-data-from-workday-using-rest-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/obtain-data-from-workday-using-rest-api.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -27,7 +27,7 @@ You can download, edit, or delete the metadata file using the icons.
 
 After you upload the file, its entities appear in the Model Manager.
 
-For more information and detailed steps, see [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
+For more information and detailed steps, see [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
 
-For API details, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+For API details, see .
 

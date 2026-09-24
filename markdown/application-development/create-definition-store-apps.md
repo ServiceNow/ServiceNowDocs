@@ -2,7 +2,7 @@
 title: Create a definition for your store application
 description: Create a definition for your store app to define the licensing metrics you want collected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/create-definition-store-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/create-definition-store-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -144,5 +144,5 @@ Create a new version of the application and publish it to the ServiceNow Store. 
 
 To change the definition of an application already on the ServiceNow Store, you must create a new definition, submit a new version of the application, and go through the review process.
 
-**Parent Topic:**[Custom licensing for ISV applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/custom-licensing-isv-apps.md)
+**Parent Topic:**[Custom licensing for ISV applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/custom-licensing-isv-apps.md)
 

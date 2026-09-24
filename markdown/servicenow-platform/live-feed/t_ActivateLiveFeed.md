@@ -2,7 +2,7 @@
 title: Activating Live Feed
 description: Live Feed is active for all instances. An administrator can activate the Live Feed plugin if it is not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_ActivateLiveFeed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/t\_ActivateLiveFeed.html
 release: australia
 product: Live Feed
 classification: live-feed

@@ -2,7 +2,7 @@
 title: Score items in a portfolio plan
 description: Score your items using the Scoring framework attributes that generate a score, that helps in prioritizing and ranking the items in your portfolio plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/score-planning-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/score-planning-items.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -50,12 +50,12 @@ The score for each item is populated based on the scoring attribute values and c
 
 **Note:** To generate a final score for a pre-defined scoring framework, all the attributes of a scoring framework need to have values.
 
-**Parent Topic:**[Scoring planning items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/using-scoring-frameworks-in-startegic-planning-workspace.md)
+**Parent Topic:**[Scoring planning items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/using-scoring-frameworks-in-startegic-planning-workspace.md)
 
 **Related topics**  
 
 
-[Scoring in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/scoring-in-strategic-planning.md)
+[Scoring in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/scoring-in-strategic-planning.md)
 
-[Custom scoring frameworks in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/custom-scoring-frameworks-in-strategic-planning.md)
+[Custom scoring frameworks in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/custom-scoring-frameworks-in-strategic-planning.md)
 

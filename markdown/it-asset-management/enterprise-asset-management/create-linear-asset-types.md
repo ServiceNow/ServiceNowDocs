@@ -2,7 +2,7 @@
 title: Create linear asset types
 description: Create linear asset types to categorize linear assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-linear-asset-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-linear-asset-types.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

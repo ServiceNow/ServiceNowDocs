@@ -2,7 +2,7 @@
 title: Add a related area to a compliance case
 description: Add an area that is related to the compliance case or event that is reported in the GRC: Compliance Case Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/add-related-areas-to-compliance-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/add-related-areas-to-compliance-case.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -51,5 +51,5 @@ You can specify the related areas for a compliance case or reported event. Relat
 10. Select **Save**.
 
 
-**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

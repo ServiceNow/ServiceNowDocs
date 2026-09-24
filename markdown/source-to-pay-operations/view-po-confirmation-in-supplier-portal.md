@@ -2,7 +2,7 @@
 title: View a confirmation in Supplier Collaboration Portal
 description: As a supplier contact, view a purchase order exception in the Supplier Collaboration Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/view-po-confirmation-in-supplier-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/view-po-confirmation-in-supplier-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-09-03"
@@ -35,5 +35,5 @@ Role required: sn\_slm.contact
     For a description of the field values, see .
 
 
-**Parent Topic:**[Managing purchase order confirmations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/managing-po-confirmations.md)
+**Parent Topic:**[Managing purchase order confirmations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/managing-po-confirmations.md)
 

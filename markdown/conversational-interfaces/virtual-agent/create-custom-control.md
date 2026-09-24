@@ -2,7 +2,7 @@
 title: Create a Virtual Agent custom control
 description: Build a custom input or response control that topic authors can use in topics or topic blocks. In Virtual Agent conversations, an input control gathers information from end users, while a response control displays information to end users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-custom-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-custom-control.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -19,11 +19,11 @@ Build a custom input or response control that topic authors can use in topics or
 
 ## Before you begin
 
-[Create the custom control definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-custom-control-definition.md).
+[Create the custom control definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-custom-control-definition.md).
 
-**Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md).
+**Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md).
 
-**Tip:** Developers and topic authors may need to access custom controls created in other application scopes. To give them access, see [Configure cross-scope access privileges for topic blocks and custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.md).
+**Tip:** Developers and topic authors may need to access custom controls created in other application scopes. To give them access, see [Configure cross-scope access privileges for topic blocks and custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -150,7 +150,7 @@ Type
 
 </td><td>
 
-Type of data being passed to the topic block. For example, **String**, **Boolean**, and so on. The fields change according to your choice. For more information, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-data-types.md).
+Type of data being passed to the topic block. For example, **String**, **Boolean**, and so on. The fields change according to your choice. For more information, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-data-types.md).
 
 </td></tr><tr><td>
 
@@ -211,9 +211,9 @@ Default value for the variable. This value can be used when previewing the block
 
 8.  Select the custom control node and complete the property sheet as follows:
 
-    -   For a custom input control, fill in the [Custom input properties sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-input-properties-form.md).
-    -   For a secure custom input control, fill in the [Secure custom input properties sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/secure-custom-input-properties-form.md).
-    -   For a custom response control, fill in the [Custom output properties sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-response-properties-form.md).
+    -   For a custom input control, fill in the [Custom input properties sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/custom-input-properties-form.md).
+    -   For a secure custom input control, fill in the [Secure custom input properties sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/secure-custom-input-properties-form.md).
+    -   For a custom response control, fill in the [Custom output properties sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/custom-response-properties-form.md).
 9.  To create the control, select **Save** and then **Publish**.
 
 
@@ -223,5 +223,5 @@ If you selected **Available on the palette** in the Properties page, the Custom 
 
 ## What to do next
 
-[Add a custom control to a Virtual Agent topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/embed-custom-control.md).
+[Add a custom control to a Virtual Agent topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/embed-custom-control.md).
 

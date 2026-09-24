@@ -2,7 +2,7 @@
 title: Organization Chart widget
 description: The Organization Chart widget shows employees in a tree structure relative to their manager. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/org-chart-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/org-chart-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -166,7 +166,7 @@ Portal page that opens when you click a card. Use the page ID.
  **Note:** The **URL** field overwrites the **Page** field. To specify a page rather than a URL, leave the **URL** field blank.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

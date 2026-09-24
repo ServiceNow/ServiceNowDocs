@@ -2,7 +2,7 @@
 title: Exploring the publishing center in Enterprise Architecture Workspace
 description: The Publishing Center is a centralized capability in the Enterprise Architecture Workspace. It helps you configure, manage, and track publishing activities from a single location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/publishing-center-in-ea-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/publishing-center-in-ea-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -85,16 +85,16 @@ You can view all the publishing activity, including:
 
 Publishing history provides traceability and operational insight, making it easier to audit changes and understand when published content was last refreshed.
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/explore-eaw.md)
 
 **Related topics**  
 
 
-[Working with the publishing center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/working-with-publishing-center.md)
+[Working with the publishing center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/working-with-publishing-center.md)
 
-[Published TRM catalog experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/published-trm-cat-exp.md)
+[Published TRM catalog experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/published-trm-cat-exp.md)
 
-[Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/access-the-published-kb.md)
+[Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/access-the-published-kb.md)
 
-[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/understand-publishing-output.md)
 

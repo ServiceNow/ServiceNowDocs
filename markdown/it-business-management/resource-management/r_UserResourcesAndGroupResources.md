@@ -2,7 +2,7 @@
 title: User resources and group resources
 description: When allocating resources, a resource manager might need to work with an administrator to add users to a group with pps\_resource role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/r\_UserResourcesAndGroupResources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/r\_UserResourcesAndGroupResources.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -30,12 +30,12 @@ The Resource Manager view in **Resource** &gt; **Resources** &gt; **Users** list
 
 The Resource Manager view in **Resource** &gt; **Resources** &gt; **Groups** lists only the groups with the pps\_resource role. When a resource manager creates a new group from this view, the pps\_resource role is added by default to the group record. Although resource managers have write access to several fields, the only fields that they should edit are **Average Daily FTE Hours/Hours Per Person Day** and **Hourly rate**.
 
--   **[Update the resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/update-resource-capacity.md)**  
+-   **[Update the resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/update-resource-capacity.md)**  
 From the Resource Manager view, update the capacity of a user for a specific duration. Based on the schedule of the user and the specified duration, the capacity of the user is accordingly populated in all resource aggregate tables.
--   **[Update the resource aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/update-aggregate-capacity.md)**  
+-   **[Update the resource aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/update-aggregate-capacity.md)**  
 From the Resource Manager view, you can update the resource aggregates for a specific time frame.
 
-**Parent Topic:**[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md)
+**Parent Topic:**[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/r_AllocatingResources.md)
 
 **Related topics**  
 

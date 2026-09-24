@@ -2,7 +2,7 @@
 title: Import outdoor elements
 description: Import outdoor elements that you want to display on the indoor map. This can be a graphic element such as a logo or a an outdoor parking lot with parking spaces that needs to be created as Places.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/import-outdoor-elements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/import-outdoor-elements.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -38,7 +38,7 @@ Role required: map admin, map editor, map editor limited
 
 7.  Edit the georeference.
 
-    For more information about editing georeferences, see [Import Raster files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/import-raster-files.md).
+    For more information about editing georeferences, see [Import Raster files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/import-raster-files.md).
 
 8.  Select the layer type.
 
@@ -46,18 +46,18 @@ Role required: map admin, map editor, map editor limited
 
 10. Create a place on your campus by selecting **New point** or **New polygon**.
 
-    For more information about creating a polygon and point, see [Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-buildings.md).
+    For more information about creating a polygon and point, see [Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/manage-buildings.md).
 
 11. Make sure that you select the floor on a campus.
 
 12. Start creating directions.
 
-    For more information, see [Manage Directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/enable-interactive-locations.md).
+    For more information, see [Manage Directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/enable-interactive-locations.md).
 
 
-**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Working with boundary editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/working-with-boundary-editor.md)
+**Previous topic:**[Working with boundary editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/working-with-boundary-editor.md)
 
-**Next topic:**[Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-buildings.md)
+**Next topic:**[Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/manage-buildings.md)
 

@@ -2,7 +2,7 @@
 title: Legal Matter Management
 description: The ServiceNow Legal Matter Management application enables you to complete legal requests that need cross-departmental tasking and a workflow with a mechanism to store supporting documents and track important milestones. AI workflow summarizes matters, helping legal teams quickly understand context and resolve issues
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/legal-matter-management-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/legal-matter-management-landing-page.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -24,15 +24,15 @@ The ServiceNow® Legal Matter Management application enables you to complete leg
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how employees, paralegal staff, and lawyers use Legal Matter Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-management-overview.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how employees, paralegal staff, and lawyers use Legal Matter Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/legal-matter-management-overview.md)
 
 </td><td>
 
-[Set up \[Omitted image "bus-sdlc.svg"\] Alt text: Set up legal matter templates and complete other configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/setting-up-legal-matter-managemment.md)
+[Set up \[Omitted image "bus-sdlc.svg"\] Alt text: Set up legal matter templates and complete other configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/setting-up-legal-matter-managemment.md)
 
 </td><td>
 
-[Assign \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Assign legal matters to matter owners.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/assign-legal-matter.md)
+[Assign \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Assign legal matters to matter owners.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/assign-legal-matter.md)
 
 </td></tr><tr><td>
 
@@ -40,11 +40,11 @@ The ServiceNow® Legal Matter Management application enables you to complete leg
 
 </td><td>
 
-[Analytics and Reporting \[Omitted image "bus-actionable-analytics.svg"\] Alt text: Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
+[Analytics and Reporting \[Omitted image "bus-actionable-analytics.svg"\] Alt text: Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-management-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/legal-matter-management-reference.md)
 
 </td></tr></tbody>
 </table>

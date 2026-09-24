@@ -2,7 +2,7 @@
 title: Planned task scripts
 description: Several business rules and one script include determines the dynamic calculation of crucial Planned Task fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/r\_PlannedTaskScripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/r\_PlannedTaskScripts.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -31,5 +31,5 @@ Several business rules and one script include determines the dynamic calculation
 |Set top task|Sets top tasks to maintain hierarchy of tasks.|
 |Set top task on children|Sets top tasks on child tasks to maintain hierarchy of tasks.|
 
-**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
+**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
 

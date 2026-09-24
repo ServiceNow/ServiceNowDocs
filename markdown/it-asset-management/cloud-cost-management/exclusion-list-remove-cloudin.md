@@ -2,7 +2,7 @@
 title: Remove a resource from the Excluded Resources list
 description: You can remove a resource from the Excluded Resources list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/exclusion-list-remove-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/exclusion-list-remove-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -33,5 +33,5 @@ When you remove a resource from the Excluded Resources list, the resource appear
 3.  In the Actions on selected rows list, select **Delete**.
 
 
-**Parent Topic:**[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
+**Parent Topic:**[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

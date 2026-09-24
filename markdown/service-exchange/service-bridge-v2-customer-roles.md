@@ -2,7 +2,7 @@
 title: Personas for consumers
 description: Learn about the different personas in the Service Exchange application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-customer-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-customer-roles.html
 release: australia
 product: Service Exchange
 classification: service-exchange

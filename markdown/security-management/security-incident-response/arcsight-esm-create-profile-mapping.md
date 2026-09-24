@@ -2,7 +2,7 @@
 title: Create mappings for ArcSight ESM event ingestion integration
 description: In this step, you ingest sample correlation events and map values to the SIR security incident fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-create-profile-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/arcsight-esm-create-profile-mapping.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -74,7 +74,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 7.  Open the script editor and continue editing.
 
-    For more information about the script editor, see [Use the script editor to format correlation event values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/arcsight-esm-create-profile-script.md).**Incident generation filtering conditions**
+    For more information about the script editor, see [Use the script editor to format correlation event values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/arcsight-esm-create-profile-script.md).**Incident generation filtering conditions**
 
 8.  After you have completed the preceding field mapping steps, you can use the same field values in the Incident Generation Conditions builder to define additional criteria that an incoming correlation event must satisfy to create a SIR security incident.
 

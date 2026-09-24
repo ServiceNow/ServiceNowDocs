@@ -2,7 +2,7 @@
 title: Configure Service Graph Connector for AWS using the guided setup
 description: Set up the AWS environment and scheduled jobs to pull in AWS data into the CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/configure-aws-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -24,13 +24,13 @@ To use this Service Graph Connector, you need a subscription to a Subscription U
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   Discovery Core plugin \(com.snc.discovery.core\), which is automatically installed by Discovery.
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 
-Ensure that you’ve completed the prerequisites for setting up AWS. See [Configure the AWS environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-task-overview.md).
+Ensure that you’ve completed the prerequisites for setting up AWS. See [Configure the AWS environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-task-overview.md).
 
 **Note:** When upgrading from an earlier version, ensure that you’ve updated the SSM documents and IAM permissions in your AWS instance.
 
@@ -39,7 +39,7 @@ Ensure that you’ve completed the prerequisites for setting up AWS. See [Config
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 
@@ -57,7 +57,7 @@ If you upgrade the connector, complete the following tasks before the upgrade pr
 After you've installed the latest version of the Service Graph Connector for AWS:
 
 -   Perform a full import of data from your AWS instance. Verify that the **Use last run datetime** field value is cleared for all the AWS data sources in the Data Source \[sys\_data\_source\] table.
--   Download and rerun the AWS scripts. See [Configure the AWS environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-task-overview.md).
+-   Download and rerun the AWS scripts. See [Configure the AWS environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-task-overview.md).
 
 ## Procedure
 
@@ -67,7 +67,7 @@ After you've installed the latest version of the Service Graph Connector for AWS
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **AWS** &gt; **Setup**.
 
-3.  [Configure the AWS environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-task-overview.md).
+3.  [Configure the AWS environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-task-overview.md).
 
     **Note:** For the Download the scripts task, select **Configure** to download the scripts.
 
@@ -425,12 +425,12 @@ Connection
 
 </td><td>
 
-Connection alias associated with the AWS environment setup and configured in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md).
+Connection alias associated with the AWS environment setup and configured in step [4.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.md).
 
 </td></tr></tbody>
 </table>    4.  Select **Submit** to return to the guided setup.
 
-    5.  Repeat steps from [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md) to [5.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md) to add multiple EKS EC2 resources.
+    5.  Repeat steps from [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.md) to [5.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.md) to add multiple EKS EC2 resources.
 
         All the EKS EC2 resources are added to the SG-AWS-EKS-Master \[sn\_aws\_integ\_sg\_aws\_eks\_master\] table.
 
@@ -482,7 +482,7 @@ Connection alias associated with the AWS environment setup and configured in ste
 
     5.  Select **Update**.
 
-    6.  Repeat the steps [7.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md) to [7.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md) for each scheduled job for data import.
+    6.  Repeat the steps [7.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.md) to [7.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.md) for each scheduled job for data import.
 
     7.  Select the back icon \(&lt;\) to return to the guided setup page.
 
@@ -547,13 +547,13 @@ Connection alias associated with the AWS environment setup and configured in ste
         6.  Set the Create new Connection &amp; Credentials Alias Record task to complete by selecting **Mark as Complete**.
     7.  Update properties for the new instance for the Service Graph Connector for AWS by selecting **Configure** for the Configure AWS environment for the new Instance task.
 
-        For more information, follow the step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md) discussed earlier for configuring the properties of the AWS connection available by default.
+        For more information, follow the step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.md) discussed earlier for configuring the properties of the AWS connection available by default.
 
         When you're done updating the properties, set the Configure AWS environment for the new Instance task to complete by selecting **Mark as Complete**.
 
     8.  Enter the EKS EC2 Resource details by selecting **Configure** for the Update EKS Resource Details task.
 
-        For more information, follow the step [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md) discussed earlier for configuring the EKS EC2 Resource details for the AWS connection available by default.
+        For more information, follow the step [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.md) discussed earlier for configuring the EKS EC2 Resource details for the AWS connection available by default.
 
         When you're done updating the properties, set the Update EKS Resource Details task to complete by selecting **Mark as Complete**.
 
@@ -564,14 +564,14 @@ Connection alias associated with the AWS environment setup and configured in ste
         3.  Select the scheduled data import that you want to activate.
         4.  On the Scheduled Data Import form, modify the field values for the scheduled job.
         5.  Select **Update**.
-        6.  Repeat the steps [8.i.iii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md) to [8.i.v](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-aws-integration.md) for each scheduled job for data import.
+        6.  Repeat the steps [8.i.iii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.md) to [8.i.v](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-aws-integration.md) for each scheduled job for data import.
         7.  Close the tab for the Scheduled Data Imports list and return to the guided setup tab.
         8.  Set the Configure the Scheduled Imports task to complete by selecting **Mark as Complete** in the guided setup.
 
 **Related topics**  
 
 
-[Handling import failures for large AWS resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-large-data-vol.md)
+[Handling import failures for large AWS resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-large-data-vol.md)
 
-[Handling memory utilization errors for Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-memory.md)
+[Handling memory utilization errors for Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-memory.md)
 

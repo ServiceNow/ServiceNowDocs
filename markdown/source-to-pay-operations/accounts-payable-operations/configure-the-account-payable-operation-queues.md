@@ -2,7 +2,7 @@
 title: Configure the Accounts Payable Operations queues
 description: Configure Advanced Work Assignment queues to automatically route supplier communications, including email and chat to the appropriate accounts payable agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-the-account-payable-operation-queues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/configure-the-account-payable-operation-queues.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -51,7 +51,7 @@ Role required: admin
 
 ## What to do next
 
-[Configure Agent chat for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.md)
+[Configure Agent chat for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.md)
 
-**Parent Topic:**[Configure Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-advanced-work-assignment-for-apo.md)
+**Parent Topic:**[Configure Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/configure-advanced-work-assignment-for-apo.md)
 

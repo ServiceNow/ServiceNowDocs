@@ -2,7 +2,7 @@
 title: Create invoice cost allocation form
 description: Field descriptions for the Create invoice cost allocation form used to distribute invoice line costs across cost centers and ledger accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -105,7 +105,7 @@ Ledger account
 Ledger account that incurs the cost of the allocated transaction amount.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

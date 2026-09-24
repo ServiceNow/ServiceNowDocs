@@ -2,7 +2,7 @@
 title: Export project tasks
 description: The task being exported must be associated with a project that uses either the Project Management Schedule or the Default MS Project schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ExportProjectTasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_ExportProjectTasks.html
 release: australia
 product: Project Management
 classification: project-management
@@ -37,5 +37,5 @@ Role required: it\_project\_manager
     Refer to Microsoft product documentation for instructions.
 
 
-**Parent Topic:**[Export project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ExportAProjectWithTheProjectForm.md)
+**Parent Topic:**[Export project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ExportAProjectWithTheProjectForm.md)
 

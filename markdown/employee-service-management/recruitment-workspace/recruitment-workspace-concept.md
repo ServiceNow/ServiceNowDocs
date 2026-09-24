@@ -2,7 +2,7 @@
 title: Recruitment workspace
 description: Increase productivity with a flexible workspace that facilitates effective communications among the hiring manager, the hiring team, and the applicants.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/recruitment-workspace-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/recruitment-workspace-concept.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -27,7 +27,7 @@ The Recruitment workspace enables you to have:
 -   Improved applicant experience with constant engagement.
 -   Improved hiring decisions with Talent profiles and pool.
 
-For more information on the Talent Pool tab in the Recruitment workspace, see [Talent pool record view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/talent-pool-view.md).
+For more information on the Talent Pool tab in the Recruitment workspace, see [Talent pool record view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/talent-pool-view.md).
 
-For more information on using different features on the Recruitment workspace, see [Get overview of recruitment workload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-oveview.md).
+For more information on using different features on the Recruitment workspace, see [Get overview of recruitment workload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/recruitment-workspace-oveview.md).
 

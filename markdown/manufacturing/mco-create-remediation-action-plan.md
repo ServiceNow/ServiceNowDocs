@@ -2,7 +2,7 @@
 title: Create a remediation action plan
 description: Create a remediation action plan for product quality investigation case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-remediation-action-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-remediation-action-plan.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: admin
 
 3.  On the Remediation Action Plan form, fill in the fields.
 
-    For a description of the field values, see [Remediation action plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-remediation-action-plan-form.md).
+    For a description of the field values, see [Remediation action plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-remediation-action-plan-form.md).
 
 4.  Select **Save**.
 

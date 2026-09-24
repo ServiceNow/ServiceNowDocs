@@ -2,7 +2,7 @@
 title: Configure L1 IT Service Desk AI Specialist profile settings
 description: Modify the profile of the L1 IT Service Desk AI Specialist to set its assignment groups, roles, and language proficiencies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/config-profile-l1-sd-ai-spec-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/config-profile-l1-sd-ai-spec-sow.html
 release: australia
 topic_type: task
 last_updated: "2026-08-25"

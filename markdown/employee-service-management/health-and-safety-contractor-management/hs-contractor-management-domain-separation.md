@@ -2,7 +2,7 @@
 title: Domain separation and Health and Safety Contractor Management
 description: Domain separation is supported for Health and Safety Contractor Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-domain-separation.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -37,7 +37,7 @@ All tables in the Health and Safety Contractor Management can be domain-separate
 -   Each table in Health and Safety Contractor Management includes the domain separation fields **Domain** and **Domain path**.
 -   Customers can use these fields to configure domain separation in their implementation of Health and Safety Contractor Management.
 
-**Parent Topic:**[Health and Safety Contractor Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-reference.md)
+**Parent Topic:**[Health and Safety Contractor Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-reference.md)
 
 **Related topics**  
 

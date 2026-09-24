@@ -2,7 +2,7 @@
 title: Assign a matter owner
 description: Assign a matter owner \(fulfiller\) for the legal hold matter to be responsible for managing it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/assign-matter-owner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-hold-notification/assign-matter-owner.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -18,7 +18,7 @@ Assign a matter owner \(fulfiller\) for the legal hold matter to be responsible 
 
 ## Before you begin
 
-If the Legal Counsel Center application hasn’t been previously installed, you must install it to start using Legal Hold Notification. For more information, see [Install Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.md).
+If the Legal Counsel Center application hasn’t been previously installed, you must install it to start using Legal Hold Notification. For more information, see [Install Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.md).
 
 Role required: admin
 
@@ -45,5 +45,5 @@ The legal matter state changes from New to Assigned.
 
 A matter owner \(fulfiller\) is assigned to the legal hold matter.
 
-**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

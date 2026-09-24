@@ -2,7 +2,7 @@
 title: File a customer agreement for a customer
 description: File the customer agreement that is prepared for a customer so that you can to set up a new credit card account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/file-customer-agreement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-card-operations/file-customer-agreement.html
 release: australia
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -22,7 +22,7 @@ Role required: sn\_bom\_document.agent
 
 ## About this task
 
-This document service task is automatically created for a new credit card case when the credit card task to [determine the card's terms and conditions and update the customer agreement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/determine-card-terms-conditions-disclosures.md) completes.
+This document service task is automatically created for a new credit card case when the credit card task to [determine the card's terms and conditions and update the customer agreement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-card-operations/determine-card-terms-conditions-disclosures.md) completes.
 
 ## Procedure
 

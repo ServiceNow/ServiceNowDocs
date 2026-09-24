@@ -2,7 +2,7 @@
 title: Create planned work records
 description: Create a list of planned work records based on the number of configured work schedules, matching records, or the number of templates mapped to the schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-planned-work-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/create-planned-work-records.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -18,13 +18,13 @@ Create a list of planned work records based on the number of configured work sch
 
 ## Before you begin
 
-You must assign a schedule to the work plan. For more information, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-work-plan.md).
+You must assign a schedule to the work plan. For more information, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configure-work-plan.md).
 
 Role required: sn\_fsm\_planned\_wm.planned\_work\_admin and model\_manager
 
 ## About this task
 
-The planned work records are used by the Planned Maintenance Nightly Run schedule job to create work orders. For more information, see [Run a scheduled job to execute a planned work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/run-schedule-job-planned-work.md).
+The planned work records are used by the Planned Maintenance Nightly Run schedule job to create work orders. For more information, see [Run a scheduled job to execute a planned work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/run-schedule-job-planned-work.md).
 
 Apply a work plan to the matching records and schedules to create planned work records. If multiple schedules are defined for a work plan, they all take effect on the matching records while creating planned work records. This same functionality exists for the work schedules that are used to apply the specific schedule to the matching records in the associated work plan.
 

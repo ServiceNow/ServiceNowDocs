@@ -2,7 +2,7 @@
 title: Edit a chat assistant
 description: Edit a chat assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/edit-assistant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/edit-assistant.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,7 +18,7 @@ Edit a chat assistant.
 
 ## Before you begin
 
-See [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/view-assistants.md)
+See [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/view-assistants.md)
 
 Role required: virtual\_agent\_admin or admin
 
@@ -40,7 +40,7 @@ When editing a chat assistant, actions may differ.
 
 2.  From the **Assistants** tab, select **Edit** for the assistant that you want to edit.
 
-    If you’re only able to view an assistant and are unable to edit it, it’s because you don’t have permission to edit the assistant in a specific domain. For more information about assistants in different domains, see [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/view-assistants.md).
+    If you’re only able to view an assistant and are unable to edit it, it’s because you don’t have permission to edit the assistant in a specific domain. For more information about assistants in different domains, see [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/view-assistants.md).
 
     Edit mode opens the assistant in a sub-tab where you can manage and test your chat assistant.
 
@@ -61,20 +61,20 @@ When editing a chat assistant, actions may differ.
     The main action buttons include:
 
     -   **Save**: Saves updates made to the assistant configuration.
-    -   **Test assistant**: Test panel is an overlay. For more information about testing a chat assistant, see [Test a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/test-assistant.md).
+    -   **Test assistant**: Test panel is an overlay. For more information about testing a chat assistant, see [Test a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/test-assistant.md).
     -   **Activate/Deactivate**: Turn on or off an assistant. One or more display experiences must be selected to activate an assistant.
-    1.  To edit chat features, select the **Edit chat features** link. The **Settings** &gt; **Additional chat features** page is displayed. For more information about web search mode, response streaming, document uploads, closed chats and voice input, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
-    2.  Customize assistant settings by selecting **Go to settings** link. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
-    3.  To add a display experience, select the **Go to display experiences** link. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md). For ServiceNow Otto panel assistants, see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md).
-    4.  To migrate NLU topics, select the **Migrate topics** link. The Topic Migration application opens a new browser tab. For more information, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/migrate-nlu-llm.md).
+    1.  To edit chat features, select the **Edit chat features** link. The **Settings** &gt; **Additional chat features** page is displayed. For more information about web search mode, response streaming, document uploads, closed chats and voice input, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
+    2.  Customize assistant settings by selecting **Go to settings** link. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
+    3.  To add a display experience, select the **Go to display experiences** link. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md). For ServiceNow Otto panel assistants, see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md).
+    4.  To migrate NLU topics, select the **Migrate topics** link. The Topic Migration application opens a new browser tab. For more information, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/migrate-nlu-llm.md).
     5.  To manage promoted assets, select the **Manage** button. The **Information sources** &gt; **Promoted** page is displayed. All the assets that have been manually promoted for the assistant are shown.
 4.  From the **Information sources** tab, select the page that needs editing.
 
     \[Omitted image "sno-edit-search-0826.png"\] Alt text: Edit information sources of your assistant.
 
-    -   In **Search sources**, assign search sources to a chat assistant. Search sources are used to determine what the assistant looks at to answer user queries. If there were any search configurations that were previously done, those configurations would remain. For more information, see [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
-    -   In **Knowledge Graphs**, edit your Knowledge Graph schema to represent semantic relationships in your data. For more information, see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
-    -   In **MCP servers**, manage the MCP servers that are assigned to an assistant. For more information, see [Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/assign-mcp-servers.md).
+    -   In **Search sources**, assign search sources to a chat assistant. Search sources are used to determine what the assistant looks at to answer user queries. If there were any search configurations that were previously done, those configurations would remain. For more information, see [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
+    -   In **Knowledge Graphs**, edit your Knowledge Graph schema to represent semantic relationships in your data. For more information, see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
+    -   In **MCP servers**, manage the MCP servers that are assigned to an assistant. For more information, see [Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/assign-mcp-servers.md).
     -   In **Suggestions**, view and edit your promoted items and prompts. Prompts help users ask better questions and get more accurate responses. Turn on the prompt library to allow users in the premium chat experience to create custom prompts and view and use predefined default prompts. Be sure to activate the ones that point people to useful actions and features they may otherwise miss. Activated prompts will appear in the prompt library modal.
 
         \[Omitted image "sno-edit-prompt-0826.png"\] Alt text: Manage prompts in prompt library.
@@ -89,9 +89,9 @@ When editing a chat assistant, actions may differ.
         -   Created by: The ServiceNow user who created the prompt record. Default prompts are shown as created by ServiceNow. They can be edited.
         -   Categories: Groups prompts by the task or use case they support \(for example, explain a concept, find a policy, or write a summary\). This field is currently read-only.
         -   Active: Toggle to turn each prompt on or off. Inactive prompts won’t appear in the prompt library. Prompt library remains visible in Assistant Designer even if the feature toggle is turned off. Existing prompt records can still be managed.
-        For more information, see [Prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-prompt-library.md).
+        For more information, see [Prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/now-assist-prompt-library.md).
 
-    -   In **Asset types**, add assets or migrate NLU topics. Assets are the building blocks of each assistant, providing them with instructions and functionality for helping users. They range from simple actions to complex AI agents. The **All assets** page shows the assets that are currently assigned to the assistant. For more information about the various assets such as topics, subflows, actions, custom skills, and AI agents, see [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
+    -   In **Asset types**, add assets or migrate NLU topics. Assets are the building blocks of each assistant, providing them with instructions and functionality for helping users. They range from simple actions to complex AI agents. The **All assets** page shows the assets that are currently assigned to the assistant. For more information about the various assets such as topics, subflows, actions, custom skills, and AI agents, see [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
     -   In **Asset visibility**, all assets that are assigned to the assistant are shown.
         -   Discoverable: Discoverable assets can be found and used by your assistant when they match what a user says.
         -   Visible: Visible assets appear when users select **Show me everything** in the assistant.
@@ -110,17 +110,17 @@ When editing a chat assistant, actions may differ.
 
     -   In **Basic details**, you can edit the name and description of the assistant. Names can't be duplicative of another assistant. You can set your assistant as a primary assistant and link it to secondary assistants.
 
-        **Note:** For ServiceNow Otto panel Platform and Developer assistants, the basic details, such as name and description, can't be edited. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
+        **Note:** For ServiceNow Otto panel Platform and Developer assistants, the basic details, such as name and description, can't be edited. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
 
-    -   In **AI agent support**, you can prioritize AI agents during skills discovery. For more information, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
-    -   In **Display experiences**, you can select at least one portal, or integrate with your preferred messaging channels, to display your assistant. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
-    -   In **Branding**, configure branding for standard, enhanced, or premium chat experiences. For more information, see [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
-    -   In **Chat features**, by default, all chat experiences except web search, are turned on. For more information, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
+    -   In **AI agent support**, you can prioritize AI agents during skills discovery. For more information, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
+    -   In **Display experiences**, you can select at least one portal, or integrate with your preferred messaging channels, to display your assistant. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+    -   In **Branding**, configure branding for standard, enhanced, or premium chat experiences. For more information, see [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
+    -   In **Chat features**, by default, all chat experiences except web search, are turned on. For more information, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
     -   In **Chat experience**, you can edit your greeting and closing messages, and fallback options. When an instance is upgraded, your premium messages and premium fallbacks are pre-filled with your legacy messages and legacy fallbacks.
 
         **Note:** Premium messages and premium fallbacks are only pre-filled with your legacy messages and legacy fallbacks upon an instance upgrade. After upgrading your instance, if you create an assistant that uses enhanced chat and later switch to premium chat, the legacy messages and legacy fallbacks from enhanced chat must be reconfigured in premium messages and premium fallbacks.
 
-        For more information, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
+        For more information, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 
-    -   In **Response feedback**, when a user rates a response, a response feedback form appears. Configure the options so that users can share feedback regarding what worked about the response, or what needs improvement. For more information, see [Manage response feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/manage-sentiment-survey.md).
+    -   In **Response feedback**, when a user rates a response, a response feedback form appears. Configure the options so that users can share feedback regarding what worked about the response, or what needs improvement. For more information, see [Manage response feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/manage-sentiment-survey.md).
 

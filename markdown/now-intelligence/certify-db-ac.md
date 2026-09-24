@@ -2,7 +2,7 @@
 title: Certify a Platform Analytics dashboard
 description: Certify a dashboard to indicate that it is company-approved and recommended for use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/certify-db-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/certify-db-ac.html
 release: australia
 topic_type: task
 last_updated: "2026-04-29"

@@ -2,7 +2,7 @@
 title: Manage customer registration requests
 description: Users with the customer administrator role can approve or reject registration requests that customers submit from the Customer Service Portal.Approve a registration request from a user that was submitted from the Customer Service Portal with a valid registration code.Approve a registration request from a user that was submitted from the Customer Service Portal with an invalid registration code.Reject a registration request from a user that was submitted from the Customer Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-cust-registration-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/manage-cust-registration-requests.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,9 +17,9 @@ Users with the customer administrator role can approve or reject registration re
 **Related topics**  
 
 
-[Approve a registration request with a valid registration code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests.md)
+[Approve a registration request with a valid registration code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/manage-cust-registration-requests.md)
 
-[Reject a registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests.md)
+[Reject a registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/manage-cust-registration-requests.md)
 
 ## Approve a registration request with a valid registration code
 

@@ -2,7 +2,7 @@
 title: Install the application and configure Microsoft Defender for Endpoint integration
 description: Install and configure the Microsoft Defender for Endpoint integration from the ServiceNow Store on your ServiceNow AI Platform instance. Start creating capability profiles using the configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/install-microsoft-defender-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/install-microsoft-defender-source.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

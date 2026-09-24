@@ -2,7 +2,7 @@
 title: View and track third-party contract review request as a legal user
 description: View the details of a third-party contract review request after it has been submitted and track the activities in the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-tpc-view-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-tpc-view-request.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery

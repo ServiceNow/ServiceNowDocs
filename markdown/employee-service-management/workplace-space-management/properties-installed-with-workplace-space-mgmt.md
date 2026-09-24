@@ -2,7 +2,7 @@
 title: Properties installed with Workplace Space Management
 description: Customize the properties available with Workplace Space Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/properties-installed-with-workplace-space-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/properties-installed-with-workplace-space-mgmt.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -39,7 +39,7 @@ This property enables you to specify the default measuring unit of an area.-   T
 -   Default value: **sq\_feet**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Space Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Space Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md)
 
 **Related topics**  
 

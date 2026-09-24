@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP model management
 description: Manage model inputs, outputs, and mappings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-manage-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-manage-models.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

@@ -2,7 +2,7 @@
 title: View all stakeholders
 description: View a comprehensive list of stakeholders to understand their influence and interest levels across your business architecture. This view helps you identify key stakeholders and their organizational relationships.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-stakeholders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-view-all-stakeholders.html
 release: australia
 topic_type: task
 last_updated: "2026-08-02"
@@ -34,10 +34,10 @@ Role required: sn\_apm.apm\_user
 
 The list of stakeholders displays the **Name**, **Description**, **Stakeholder type**, **Influence level**, **Interest level**, **Department**, and **Group** columns.
 
-**Parent Topic:**[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-stakeholders.md)
+**Parent Topic:**[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-stakeholders.md)
 
 **Related topics**  
 
 
-[Add or edit a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-stakeholder.md)
+[Add or edit a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-or-edit-a-stakeholder.md)
 

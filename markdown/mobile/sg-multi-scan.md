@@ -2,7 +2,7 @@
 title: Multi-scan for mobile applications
 description: Use multi-scan to quickly scan multiple barcodes or groups of codes. With multi-scan, you can input information for your assets faster than manual entry or individual scans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-multi-scan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-multi-scan.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -55,5 +55,5 @@ After scanning your items, use the review screen to review, delete, and submit s
 -   Delete item \(3\): Tap the **delete** icon \(\[Omitted image "delete-scan-item.png"\] Alt text: Delete item icon\) next to a scanned item to remove that item.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile barcode scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-scanning.md)
+</table>**Parent Topic:**[Mobile barcode scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-scanning.md)
 

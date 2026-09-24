@@ -2,7 +2,7 @@
 title: Components installed with Source-to-Pay Common Architecture
 description: Several types of components are installed with the installation of the Source-to-Pay Common Architecture application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-common-architecture.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/common-service-delivery/components-installed-with-source-to-pay-common-architecture.html
 release: australia
 product: Common Service Delivery
 classification: common-service-delivery

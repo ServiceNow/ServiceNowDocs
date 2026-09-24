@@ -2,7 +2,7 @@
 title: Enable recursive summarization for large inputs
 description: Use recursive summarization to break down the requests to the large language models \(LLMs\) into smaller pieces so that you can maintain the context for generative AI capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/enable-recursive-summarization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generative-ai-controller/enable-recursive-summarization.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -45,5 +45,5 @@ Recursive summarization is enabled for the OneExtend Capability for the fields s
 
 ## What to do next
 
-Configure generative AI skills in the AI Admin Hub console to use this capability. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+Configure generative AI skills in the AI Admin Hub console to use this capability. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md).
 

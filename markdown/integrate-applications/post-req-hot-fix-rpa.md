@@ -2,7 +2,7 @@
 title: Post requisites after installing a hot fix
 description: Perform these tasks after installing a hot fix for either Universal App Connector \(UAC\) or Chromium connector on your instance to verify the hot fix is accurately downloaded.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/post-req-hot-fix-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/post-req-hot-fix-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,14 +53,14 @@ This procedure is applicable if you are using Google Chrome, or Edge application
 4.  Launch either RPA Desktop Design Studio, Unattended Robot, or Attended Robot and proceed.
 
 
-**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-build.md)
 
 **Related topics**  
 
 
-[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md)
+[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/universal-app-connector.md)
 
-[Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/chrome-connector.md)
+[Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/chrome-connector.md)
 
-[Configuring RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-configure.md)
+[Configuring RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-configure.md)
 

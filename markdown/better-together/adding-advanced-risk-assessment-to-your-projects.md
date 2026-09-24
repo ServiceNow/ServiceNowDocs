@@ -2,7 +2,7 @@
 title: Improve visibility into organizational risk exposure with advanced project risk assessment
 description: With advanced risk assessment for your projects, you can easily identify if any projects pose potential organizational risks and quickly decide on mitigating actions. Combine project risk management with enterprise risk management and get better visibility into your organization's overall risk exposure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/adding-advanced-risk-assessment-to-your-projects.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/adding-advanced-risk-assessment-to-your-projects.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -75,5 +75,5 @@ To get started with assessing your project risks, follow these steps:
     Role: sn\_risk.admin, it\_project\_manager.
 
 
-**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/solutions-gallery.md)
 

@@ -2,7 +2,7 @@
 title: Is AD Account Locked activity
 description: The Is AD Account Locked activity determines whether an Active Directory user account is locked.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_IsADAccountLocked.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/r\_IsADAccountLocked.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -20,7 +20,7 @@ An account may be locked automatically if a user enters an incorrect password mo
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
 
-**Note:** This activity replaces an AD activity by the same name available in prior releases. If you have a workflow that uses the deprecated activity, your workflow will continue to work normally after upgrading to Instanbul. However, all new workflows must use the custom version of this activity, which was built with the [PowerShell activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_PowershellActivityDesigner.md).
+**Note:** This activity replaces an AD activity by the same name available in prior releases. If you have a workflow that uses the deprecated activity, your workflow will continue to work normally after upgrading to Instanbul. However, all new workflows must use the custom version of this activity, which was built with the [PowerShell activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_PowershellActivityDesigner.md).
 
 ## Input variables
 
@@ -34,7 +34,7 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Variable|Description|
 |--------|-----------|
 |result|Either **success** or **failure**.|
-|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md).|
+|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAParsingRule.md).|
 |output|The query result.|
 
 ## Conditions
@@ -45,5 +45,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Unlocked|The AD account is unlocked.|
 |Failure|An error occurred while processing the query. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchActiveDirectoryActivities.md)
 

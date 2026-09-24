@@ -2,7 +2,7 @@
 title: Respond to attestations from the Employee Center
 description: Respond to your attestations by logging in to the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-employee-center.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

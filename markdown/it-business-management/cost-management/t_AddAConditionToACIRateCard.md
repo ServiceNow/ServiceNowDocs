@@ -2,7 +2,7 @@
 title: Add a condition to a CI rate card
 description: If you're adding a condition to a CI rate card, use the Update CI List related link to create the relationship between the configuration item or items and the rate card.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/t\_AddAConditionToACIRateCard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/cost-management/t\_AddAConditionToACIRateCard.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -45,5 +45,5 @@ Role required: financial\_mgmt\_admin
 8.  Select **Return to rate card**.
 
 
-**Parent Topic:**[CI rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_CIRateCards.md)
+**Parent Topic:**[CI rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/cost-management/c_CIRateCards.md)
 

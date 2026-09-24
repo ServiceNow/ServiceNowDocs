@@ -2,7 +2,7 @@
 title: Activate the Knowledge Article View page on upgrade
 description: If upgrading from a previous release, take advantage of the latest article view features by activating the Knowledge Article View page route map. New capabilities include article versioning and using links and images in article feedback. This map is active by default in new instances and applies to all portals in the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/redirect-knowledge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/redirect-knowledge.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -45,5 +45,5 @@ After activating the **Knowledge Article View** page route map, you can:
 
 Your end users view knowledge articles in the Service Portal using the **kb\_article\_view** page.
 
-**Parent Topic:**[Upgrading Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/upgrading-service-portal.md)
+**Parent Topic:**[Upgrading Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/upgrading-service-portal.md)
 

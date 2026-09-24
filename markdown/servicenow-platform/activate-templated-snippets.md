@@ -2,7 +2,7 @@
 title: Activate response templates
 description: You can activate response templates \(formerly known as templated snippets\) \[com.sn\_templated\_snip\] if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/activate-templated-snippets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/activate-templated-snippets.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,10 +56,10 @@ Allows scoped applications to restrict access to public tables and script includ
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/components-installed-with-response-templates.md)**  
+-   **[Components installed with response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/components-installed-with-response-templates.md)**  
 Several types of components are installed with activation of the Templated Responses \(com.sn\_templated\_snip\) plugin, including tables and user roles.
 
-**Parent Topic:**[Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md)
+**Parent Topic:**[Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/response-templates-templated-snippets.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: View article optimization analysis
 description: Learn how to navigate to Article optimization in Knowledge Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/view-article-optimization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/view-article-optimization.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

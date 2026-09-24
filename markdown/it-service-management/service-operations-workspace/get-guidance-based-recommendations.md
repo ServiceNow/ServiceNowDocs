@@ -2,7 +2,7 @@
 title: Get guidance-based recommendations
 description: Get actionable real-time recommendations in the side panel to help address customer issues and resolve issues quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/get-guidance-based-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/get-guidance-based-recommendations.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -52,5 +52,5 @@ For records other than incidents \(such as Incident Tasks, Problems, Problem tas
     The AI-powered search results in the following eight record types: Incident, Incident Tasks, Problem, Problem tasks, Change request, Change task, Interaction, and Request.
 
 
-**Parent Topic:**[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)
+**Parent Topic:**[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)
 

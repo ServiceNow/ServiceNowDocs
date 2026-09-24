@@ -2,7 +2,7 @@
 title: Add a user to a contract
 description: A contract can cover specific users. For example, you may use a contract to hire a group of temporary workers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_AddAUserToAContract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/contract-management/t\_AddAUserToAContract.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -41,7 +41,7 @@ Role required: contract\_manager or admin
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_CreateAContract.md)
+**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/t_CreateAContract.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Install Implementation agent
 description: Install the Implementation Agent to enable an admin home dashboard where you can access and set up Core Business Suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/inst-implement-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/inst-implement-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -55,7 +55,7 @@ Role required: admin
 
 ## What to do next
 
-Set up the Core Business Suite. For more information, see [Install Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/set-up-cbs.md).
+Set up the Core Business Suite. For more information, see [Install Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/set-up-cbs.md).
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

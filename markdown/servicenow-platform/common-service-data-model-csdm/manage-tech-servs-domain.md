@@ -2,7 +2,7 @@
 title: Service Delivery domain in the CSDM model
 description: The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the services that conform to CSDM to internal and external users and organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -24,14 +24,14 @@ The tables in the Service Delivery domain represent the technology that your bus
 
 -   Technology management service \(formerly Technical service\) \[cmdb\_ci\_service\_technical\] table. The **Service Classification** is Technical Service.
 -   Technology management offering \(formerly Technical service offering\) \[service\_offering\] table. The **Service Classification** is Technical Service.
--   Request catalog. Technology consumers can request Technology management offerings through a request catalog. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
+-   Request catalog. Technology consumers can request Technology management offerings through a request catalog. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog.md).
 -   Dynamic CI group \[cmdb\_ci\_query\_based\_service\] table. **Service Classification** is Technical Service. Technology management services in Event Management use the cmdb\_ci\_query\_based\_service table.
 -   Service instance \(formerly Application service\) \[cmdb\_ci\_service\_auto\] tables. The **Service Classification** is Application Service.
     -   For manually-created and Service Mapping: Mapped Application Service \[cmdb\_ci\_service\_discovered\] table \(included in the base system\).
     -   When query-based: \[cmdb\_ci\_query\_based\_service\].
     -   When tag-based: \[cmdb\_ci\_service\_by\_tags\].
 
-The CIs in this domain are deployed instances of digital products and their related and discoverable components \(such as installed applications, servers, and network components\) plus documentation of the services that provide and support the deployed instances. The domain also represents the portfolio of Technology management services in use. For more information on life cycles, see [Definitions of life-cycle values for tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-tangible-physical.md).
+The CIs in this domain are deployed instances of digital products and their related and discoverable components \(such as installed applications, servers, and network components\) plus documentation of the services that provide and support the deployed instances. The domain also represents the portfolio of Technology management services in use. For more information on life cycles, see [Definitions of life-cycle values for tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-tangible-physical.md).
 
 The services are operational, which means that you can select them for ITSM Incident Management, Problem Management, or Change Management.
 
@@ -82,7 +82,7 @@ Technology management services can be managed as part of the Service Portfolio i
 
 ## Technology management offerings
 
-Technology consumers can request Technology management offerings \(TMO\) through the request catalog. Catalogs are described in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md). The consumer can typically select the following features and options:
+Technology consumers can request Technology management offerings \(TMO\) through the request catalog. Catalogs are described in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog.md). The consumer can typically select the following features and options:
 
 -   Level of performance
 -   Location or geography
@@ -94,7 +94,7 @@ Technology consumers can request Technology management offerings \(TMO\) through
 -   Technical approval group \(for change\)
 -   Packaging options \(commitments\)
 
-**Tip:** Use dynamic CI groups to significantly improve management. For more information, see [Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md).
+**Tip:** Use dynamic CI groups to significantly improve management. For more information, see [Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md).
 
 Technology management offerings typically have the following components:
 
@@ -123,7 +123,7 @@ Dynamic CI groups are mapped to the \[cmdb\_ci\_query\_based\_service\] table an
 
     You don’t have Service Mapping enabled yet, but you have 12 servers and three database instances in MyAppServiceProd. You can replace your spreadsheets with a dynamic CI group as a service instance.
 
-    See [Use the Dynamic CI Group method to populate application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md).
+    See [Use the Dynamic CI Group method to populate application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md).
 
 -   **Managed group of Infrastructure CIs**
 
@@ -160,7 +160,7 @@ Service instances are the entry points for the Service Mapping feature. Service 
 
 Service instances are key relationship entities for IT Service Management \(ITSM\), IT Operations Management \(ITOM\), Strategic Portfolio Management \(SPM\), and Customer Service Management \(CSM\).
 
-Service instances include relationships between business applications, business services, Technology management services, applications, and infrastructure CIs. You can expose a service instance by using the related business or Technology management offering. For more information, see [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+Service instances include relationships between business applications, business services, Technology management services, applications, and infrastructure CIs. You can expose a service instance by using the related business or Technology management offering. For more information, see [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 Types of service instance in the Service Instance data model:
 
@@ -179,8 +179,8 @@ The table that a service instance maps to depends on the method used to create i
 |Tags|cmdb\_ci\_service\_tags|
 |Manual entry, using the Create a Service Instance form \(formerly, the Create an Application Service form\)|cmdb\_ci\_service\_discovered|
 
--   For more information about service instances and the methods you can use to create them, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md) and [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
--   You can specify required attributes for service instances. For more information, see [Modify the attributes and relationships required for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/modify-req-fields-appservice.md).
+-   For more information about service instances and the methods you can use to create them, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/application-services.md) and [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
+-   You can specify required attributes for service instances. For more information, see [Modify the attributes and relationships required for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/modify-req-fields-appservice.md).
 -   You can set a relationship between a service instance and the components of other CSDM domains. See [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_ServiceMappingOverview.md).
 
 ## Applications
@@ -192,7 +192,7 @@ An application is any program or module that defines behavior and performs a spe
 -   The instance is limited to the applications on a single host. This limitation ensures that applications are uniquely identified during discovery.
 -   There's a one-to-many \(and not a one-to-one\) relationship between the application and the service instance. A single installed application, such as a database instance, may support multiple service instances depending on the configuration and the use of the applications.
 
-**Note:** The application table \[cmdb\_ci\_appl\] isn't an inventory or portfolio of your applications. Don't make the mistake of storing managed application details in the application table. Those details \(inventory or application portfolio objects\) belong in the business application table \(as documented in [Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/design-domain.md)\).
+**Note:** The application table \[cmdb\_ci\_appl\] isn't an inventory or portfolio of your applications. Don't make the mistake of storing managed application details in the application table. Those details \(inventory or application portfolio objects\) belong in the business application table \(as documented in [Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/design-domain.md)\).
 
 ## Infrastructure CIs
 
@@ -204,10 +204,10 @@ The underlying infrastructure components or CIs can be complicated. The complexi
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
+**Parent Topic:**[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
 
 **Related topics**  
 
 
-[Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md)
+[Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md)
 

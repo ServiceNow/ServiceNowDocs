@@ -2,7 +2,7 @@
 title: Run the Workday on demand job
 description: Use the ad-hoc Workday on-demand data import job to pull data for all activated Workday reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/run-workday-on-demand-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/run-workday-on-demand-job.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create a risk manually
 description: Risk administrators can create risk records when they see a potential for a gain or loss of value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/t\_CreateRisk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/t\_CreateRisk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -143,7 +143,7 @@ Owner for the risk.**Note:** The owner is always added as a respondent.
 
     This tab is only visible if you have the Advanced Risk plugin activated. The scores of the risk assessment methodology selected as the primary are displayed in the risk scoring section. If the Advanced Risk plugin is not activated, then the following sections for classic risk appear.
 
-4.  To fill in the fields for the risk appetite section, see [Define the risk appetite for a risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/define-risk-appetite-on-risk.md).
+4.  To fill in the fields for the risk appetite section, see [Define the risk appetite for a risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/define-risk-appetite-on-risk.md).
 
 5.  On the form, fill in the fields.
 
@@ -325,5 +325,5 @@ Enter a reasonable justification for the selected response
 13. Select **Submit**.
 
 
-**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

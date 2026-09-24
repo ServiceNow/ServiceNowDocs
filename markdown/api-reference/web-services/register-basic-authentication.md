@@ -2,7 +2,7 @@
 title: Register Basic Authentication
 description: Register basic authentication for your inbound API integrations to effectively monitoring their API usage on the Inbound API Usage Dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/register-basic-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/register-basic-authentication.html
 release: australia
 product: Web Services
 classification: web-services
@@ -76,5 +76,5 @@ Specify the integration name.**Note:** The integration name is auto filled for O
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Registered integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/registered-integrations.md)
+**Parent Topic:**[Registered integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/registered-integrations.md)
 

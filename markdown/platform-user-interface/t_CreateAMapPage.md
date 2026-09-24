@@ -2,7 +2,7 @@
 title: Create a map page
 description: Your ServiceNow instance provides several default map pages. You can also create custom map pages with the script examples described in this page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateAMapPage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateAMapPage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -132,13 +132,13 @@ Script
 
 </td><td>
 
-Create a script to define the type of data to display on this map. For more information, see [Scripting for map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/scripting-for-map-pages.md).
+Create a script to define the type of data to display on this map. For more information, see [Scripting for map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/scripting-for-map-pages.md).
 
 </td></tr></tbody>
 </table>4.  Save the record.
 
 
-**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
+**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_MapPages.md)
 
 **Related topics**  
 

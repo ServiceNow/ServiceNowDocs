@@ -2,7 +2,7 @@
 title: Record time worked on a task using the Mobile Agent application
 description: Manage and record time worked on work order tasks and asset tasks. After you start working on a task, you can pause and resume work. You can also record the time worked manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/record-time-mobile-agent-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/record-time-mobile-agent-app.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -16,12 +16,12 @@ breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent a
 
 Manage and record time worked on work order tasks and asset tasks. After you start working on a task, you can pause and resume work. You can also record the time worked manually.
 
--   **[Pause a task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/pause-task-mobile-agent-app.md)**  
+-   **[Pause a task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/pause-task-mobile-agent-app.md)**  
 Record a break from a work order task or asset task in the Mobile Agent application if you’re not continuing to work on it. Resume the task when you start working on it again. The system automatically tracks and calculates the actual time taken to complete the task even though the work was interrupted.
--   **[Record time worked for a task manually using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-time-worked-manually.md)**  
+-   **[Record time worked for a task manually using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-time-worked-manually.md)**  
 Record time worked on a work order task or asset task manually and provide any additional comments on the task using the Mobile Agent application.
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 

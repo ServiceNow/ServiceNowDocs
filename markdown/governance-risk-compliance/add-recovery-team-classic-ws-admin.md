@@ -2,7 +2,7 @@
 title: Create a recovery team
 description: Create a recovery team from the administration menu in the BCM classic Workspace with an admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-recovery-team-classic-ws-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-recovery-team-classic-ws-admin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: sn\_bcm.admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

@@ -2,7 +2,7 @@
 title: Customize the My security metrics dashboard
 description: Customize the My security metrics dashboard with metrics from various sources like graphs and charts to suit your organization's specific requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/customize-my-security-metrics-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/customize-my-security-metrics-dashboard.html
 release: australia
 product: Security Center
 classification: security-center
@@ -51,5 +51,5 @@ Implement and customize My security metrics dashboard. Add metrics and content t
     2.  Select **Confirm**.
 
 
-**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md)
 

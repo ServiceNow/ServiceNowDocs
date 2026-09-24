@@ -2,10 +2,10 @@
 title: Create or edit approval levels
 description: Define the levels of users and user groups that are going to approve the exception requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-or-edit-approval-levels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-create-or-edit-approval-levels.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Unified Approval Rules Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -137,5 +137,5 @@ Select an option from:-   Assigned to
 </table>6.  To save the changes, select **Update**.
 
 
-**Parent Topic:**[Unified Approval Rules Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-rules-overiew.md)
+**Parent Topic:**[Unified Approval Rules Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approval-rules-overiew.md)
 

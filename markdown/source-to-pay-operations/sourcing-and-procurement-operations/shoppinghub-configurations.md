@@ -2,7 +2,7 @@
 title: ShoppingHub configurations
 description: ShoppingHub configurations control the shopper experience for procurement workflows, including request modifications and sourcing checkouts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -34,25 +34,25 @@ To configure these properties, navigate to **System Properties** and search for 
 
 **Note:** Other ShoppingHub behavior such as catalog rules, approval policies, checkout record producers, and UI images is configured through the ShoppingHub Configuration table \(`sn_shop_shopnow_content`\), not through system properties.
 
--   **[Enable a shopper to purchase on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.md)**  
+-   **[Enable a shopper to purchase on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.md)**  
 Configure the Shopping Hub to enable a shopper to purchase on behalf of another user.
--   **[Purchase modification configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-modification-configuration.md)**  
+-   **[Purchase modification configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-modification-configuration.md)**  
 As an admin, you can configure the conditions that must be met for the purchase modification records to be available to the shopper for editing or canceling.
--   **[Configure sourcing checkout details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-table.md)**  
+-   **[Configure sourcing checkout details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-table.md)**  
 Manage the Shopping Hub configuration to standardize the request fulfillment at the checkout. You can ensure the accuracy and availability of the required items in the procurement catalogs.
--   **[Enable user actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-request-revisions.md)**  
+-   **[Enable user actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-request-revisions.md)**  
 Configure the edit and cancel options to enable modifications to the purchases.
 
-**Parent Topic:**[Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 
 **Related topics**  
 
 
-[Enable a shopper to purchase on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.md)
+[Enable a shopper to purchase on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.md)
 
-[Purchase modification configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-modification-configuration.md)
+[Purchase modification configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-modification-configuration.md)
 
-[Configure sourcing checkout details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-table.md)
+[Configure sourcing checkout details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-table.md)
 
-[Enable user actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-request-revisions.md)
+[Enable user actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-request-revisions.md)
 

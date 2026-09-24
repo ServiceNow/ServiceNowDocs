@@ -2,7 +2,7 @@
 title: Dynamic scheduling system properties
 description: Set up properties to customize the behavior and functionality of the dynamic scheduling process according to your organization's needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/dynamic-sched-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/dynamic-sched-system-properties.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -204,7 +204,7 @@ The **Window start date** field gets updated based on the delivery date of the t
 **Related topics**  
 
 
-[Example - Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/example-for-dynamic-scheduling.md)
+[Example - Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/example-for-dynamic-scheduling.md)
 
-[Configure dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
+[Configure dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
 

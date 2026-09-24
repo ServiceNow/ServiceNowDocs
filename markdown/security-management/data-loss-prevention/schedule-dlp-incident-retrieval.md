@@ -2,7 +2,7 @@
 title: Schedule the Symantec DLP Incident Retrieval
 description: Set a schedule to retrieve the incident data and ingest Symantec DLP incidents that match the criteria in the profile. Configure the schedule to define how and when you pull incidents from Symantec.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/schedule-dlp-incident-retrieval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/schedule-dlp-incident-retrieval.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -120,5 +120,5 @@ Date from when data is supposed to be retrieved from Symantec. This field can be
 
 After successful creation and activation of the profile, the incidents are retrieved periodically as per the configuration set in the profile and added into DLP incidents table.
 
-**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
+**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
 

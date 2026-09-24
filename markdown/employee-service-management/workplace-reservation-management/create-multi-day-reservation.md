@@ -2,7 +2,7 @@
 title: Create a multi-day reservation
 description: Workplace users can now reserve a space covering multiple days. Employees can reserve a space that spans across multiple days.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-multi-day-reservation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/create-multi-day-reservation.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -20,7 +20,7 @@ Workplace users can now reserve a space covering multiple days. Employees can re
 
 Multi-day reservations can be made when **Max days for multi-day** Reservable Module property value is set in the Reservable module configuration. Default value of this property is set to 1. If the value for **Max days for multi-day** property is set to 1, then it will be considered a single day reservation and multi-day reservation will not be allowed. If the **Max days for multi-day** value is more than 1, the **All day** or single day reservation option is disabled on the reservation portal.
 
-For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 This property is dependent on the **Max days in future** value. If the value of **Max days for multi-day** is more than **Max days in future** Reservable Module property, application will show a validation error and will not create a multi-day reservation.
 
@@ -30,15 +30,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Select any of the following context menu navigation options to make a multi-day.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d520916e102">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d520797e102">
 
 Location
 
-</th><th align="left" id="d520916e105">
+</th><th align="left" id="d520797e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d520916e111">
+</th></tr></thead><tbody><tr><td id="d520797e111">
 
 **Application navigation filter**
 
@@ -46,7 +46,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d520916e135">
+</td></tr><tr><td id="d520797e135">
 
 **From Employee Center Portal**
 
@@ -65,7 +65,7 @@ Make a reservation portal page opens for you to make workplace reservations.
 
 2.  Select a Reservable Module configuration.
 
-    For example, select any of the following Reservable Module configuraiton. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+    For example, select any of the following Reservable Module configuraiton. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
     -   Desks
     -   Desks with an Area
@@ -121,11 +121,11 @@ From**Note:** The time directive fields \(From, time, To\) are also available on
 
 </td><td>
 
-Start date of your reservation.-   Employees can't select a date and create a reservation if the start date exceeds the Max days in future Reservable module value. Thisn’t value is configured on the Reservable module by your administrator. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+Start date of your reservation.-   Employees can't select a date and create a reservation if the start date exceeds the Max days in future Reservable module value. Thisn’t value is configured on the Reservable module by your administrator. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 When the Max days in future value is configured by your administrator, you can’t select a date past the max allowed date. The dates in the calendar date picker are inactive for dates that are too far in future.
 
-**Note:** If the Max days in future value isn’t configured, the date selection isn’t restricted. Date selection is based on the Max number of occurrences value. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+**Note:** If the Max days in future value isn’t configured, the date selection isn’t restricted. Date selection is based on the Max number of occurrences value. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 -   If you enter an invalid date which is greater than what is specified in the **Max days in future** value, the application resets the date to the current date.
 
@@ -152,7 +152,7 @@ End date of your reservation. Select a number of days or dates on the calendar t
 
 If you enter an invalid date which is greater than what is specified in the **Max days in future** value, the application resets the date to the current date.
 
-**Note:** If the **Max days in future** value isn’t enabled, then the date selection isn’t restricted and is based on the **Max number of occurrences** value configured in the Reservable module. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+**Note:** If the **Max days in future** value isn’t enabled, then the date selection isn’t restricted and is based on the **Max number of occurrences** value configured in the Reservable module. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 </td></tr><tr><td>
 
@@ -172,7 +172,7 @@ Recurring
 
 Option to reserve the workplace items on a recurring basis. Specify the number of days and the number of times that you want to repeat the reservation in a recurring series.For weekly reservations, select the days of the week for the reservation. The Recurring option is displayed based on the configuration that your admin has set. Also, if there are any recurring reservation conflicts, they’re auto-resolved if your admin has configured the same.
 
-Auto-resolve recurring conflicts&lt;/uicontrol&gt; option is enabled on the Reservable module form. The application tries to auto-resolve recurring reservation conflicts. For more information, see [Auto-resolve recurring reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/recurring-reservations.md).
+Auto-resolve recurring conflicts&lt;/uicontrol&gt; option is enabled on the Reservable module form. The application tries to auto-resolve recurring reservation conflicts. For more information, see [Auto-resolve recurring reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/recurring-reservations.md).
 
 **Note:** Adding extra services option isn’t available for Recurring reservations.
 
@@ -190,7 +190,7 @@ Add another building
 
 </td><td>
 
-Reserve multiple workplace items spanning multiple buildings. The buildings time zones are different for a same date and time in a reservation.**Note:** This option is available if you have selected **Allow multiple reservations** check box on the **Reservable Module** &gt; **Reservable Module Configuration** tab. For more information, see [Create multi-building reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-building-reservation.md).
+Reserve multiple workplace items spanning multiple buildings. The buildings time zones are different for a same date and time in a reservation.**Note:** This option is available if you have selected **Allow multiple reservations** check box on the **Reservable Module** &gt; **Reservable Module Configuration** tab. For more information, see [Create multi-building reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-building-reservation.md).
 
 </td></tr></tbody>
 </table>6.  Select **Add another building**.
@@ -201,7 +201,7 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
 
     **Note:** This option is available if you've selected **Allow multiple reservations** check box on the Reservable Module Configuration.
 
-    For more information, see [Create multi-building reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-building-reservation.md).
+    For more information, see [Create multi-building reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-building-reservation.md).
 
 7.  Click **Search**.
 
@@ -327,7 +327,7 @@ Add notes
 
 Option to add the meeting note to a reservation using the rich text editor. The notes can be shared with the meeting invitees. Users can also copy and paste text to the editor. The message can contain a maximum of 65,000 characters.Note is saved on the reservation record. Employees can update the note when required. The invitees receive a notification when note is added or updated. The reservation summary page shows the summary of the meeting note.
 
-This option is available only if you have selected the **Allow reservation message** option on the Reservation widget configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+This option is available only if you have selected the **Allow reservation message** option on the Reservation widget configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 </td></tr><tr><td>
 
@@ -398,7 +398,7 @@ For example: In case if you have selected space arrangements as an extra service
 -   Application tries to retain the services. In case while updating a reservation, the space or location is not changed, then the services are visible and employees can update the reservation after changing the date and time.
 -   In case, if space or location is changed while updating a reservation, then the application tries to propose the available services and applicable for a new location. Employees must select the suggested services and add it to their reservation while updating it.
 -   In case if you are adding a space while updating a reservation, then you must add the services manually.
-**Note:** In case, if you add a service item, a new case is created. If you update the reservation date, time, or location and update services by retaining or discarding them, then a reference is added to the new service \(replacement case for\) on the new case record and also a reference is added to the old service. A summary is added to the new case for items that are added, updated, or removed. For more information, see [View and track workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-workplace-cases.md).
+**Note:** In case, if you add a service item, a new case is created. If you update the reservation date, time, or location and update services by retaining or discarding them, then a reference is added to the new service \(replacement case for\) on the new case record and also a reference is added to the old service. A summary is added to the new case for items that are added, updated, or removed. For more information, see [View and track workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/view-workplace-cases.md).
 
 </td></tr><tr><td>
 
@@ -423,7 +423,7 @@ Click **Remove** to remove the services from a reservation. A confirmation messa
 
     On the **Reservation Details** page, select **Change date, time, or location** to update a reservation.
 
-    On the Update meeting room reservation page, modify the **Start date and time** and **End date and time**. For more information about how to modify a reservation, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md). If the item doesn't require any approval, the selected workplace item is reserved. The reservation details are displayed on the Reservation summary page. The state of the request is updated to **Confirmed**.
+    On the Update meeting room reservation page, modify the **Start date and time** and **End date and time**. For more information about how to modify a reservation, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md). If the item doesn't require any approval, the selected workplace item is reserved. The reservation details are displayed on the Reservation summary page. The state of the request is updated to **Confirmed**.
 
 16. When you update a reservation, the Reservation details page shows the **Retain extra services** option to retain the services from the previous location and reservation.
 
@@ -451,7 +451,7 @@ Click **Remove** to remove the services from a reservation. A confirmation messa
 
         **Note:** When a conflicting recurring reservation gets auto-resolved with the auto-resolution feature, it's status in **Reservation subtype** column is shown as **Exception** on the Workplace Reservations table.
 
-        For more information, see [Auto-resolve recurring reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/recurring-reservations.md).
+        For more information, see [Auto-resolve recurring reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/recurring-reservations.md).
 
 21. The Reservation Summary page shows reserved spaces and it's status along with the duration for the reservation in case of multi-day reservation.
 
@@ -468,7 +468,7 @@ Click **Remove** to remove the services from a reservation. A confirmation messa
             The reservation details are shared after the state of the reservation is **Confirmed**. If you edit the reservation details after sharing, the application will prompt you asking whether you want to send an email update to the users that you shared the reservation details with earlier.
 
     -   Update Reservation details
-    -   Cancel Reservation: To edit or cancel your reservations, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
+    -   Cancel Reservation: To edit or cancel your reservations, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
 23. Click **Check in** to check in a reservation, if the workplace item that you've reserved requires check-in and check-out.
 
     In the case an employee checks in their reservation, the complete reservation is checked in. The admin can indicate if a check in is allowed when there is still an active reservation happening on that space.
@@ -522,7 +522,7 @@ Review your reservation details on the Reservation summary page.
 
                 -   Start date and time: The first day of the multi-day reservation is shown. Start time is the start time of the reservation.
                 -   End date and time: The End date and time of the reservation is pre-filled.
-                For more information about multi-day reservation, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
+                For more information about multi-day reservation, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
 
             **Note:** If the start day \(current date\) of a shared reservation is past the value set in the **Max number of days for browse near a person** Reservable module property, the **Browse all spaces** clickable link will not show pre-filled dates on the Make a reservation search page. Application shows a validation error message "**Reservation date for the selected user has changed. Select a date**'. In this case, employees must manually, select the **Start date and time** and **End date and time**.
 
@@ -558,7 +558,7 @@ Review your reservation details on the Reservation summary page.
 
                 -   Start date and time: The first day of the multi-day reservation is shown. Start time is the start time of the reservation.
                 -   End date and time: The End date and time of the reservation is pre-filled.
-                For more information about multi-day reservation, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
+                For more information about multi-day reservation, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
 
             **Note:** If the start day \(current date\) of a shared reservation is past the value set in the **Max number of days for browse near a person** Reservable module property, the **Browse all spaces** clickable link will not show pre-filled dates on the Make a reservation search page. Application shows a validation error message "**Reservation date for the selected user has changed. Select a date**'. In this case, employees must manually, select the **Start date and time** and **End date and time**.
 
@@ -570,8 +570,8 @@ Review your reservation details on the Reservation summary page.
 
     The reservation details are shared after the state of the reservation is **Confirmed**. If you edit the reservation details after sharing, the application will prompt you asking whether you want to send an email update to the users that you shared the reservation details with earlier.
 
--   To edit or cancel your reservations, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
--   To download an iCalendar, see [Download an iCalendar for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/generate-ical.md).
+-   To edit or cancel your reservations, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
+-   To download an iCalendar, see [Download an iCalendar for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/generate-ical.md).
 -   To view, add, or remove any invitees from the reservation, do the following:
 
     1.  On the Reservation summary page, select the **Invitees** tab.
@@ -597,12 +597,12 @@ Review your reservation details on the Reservation summary page.
     -   When a reservation is created, they will receive an email notification that they are invited to the reservation.
     -   When a reservation is cancelled or updated.
     -   When an invitee or visitor is removed from the reservation, they will receive an email notification that the invite has been canceled for them.
-    **Note:** If push notifications are enabled in your organization and you have the Workplace Service Delivery for Mobile application, you will receive notifications for your reservation on your mobile device. For more information on reservation-related push notifications, see [Mobile push notifications for workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reservation-push-notifications.md).
+    **Note:** If push notifications are enabled in your organization and you have the Workplace Service Delivery for Mobile application, you will receive notifications for your reservation on your mobile device. For more information on reservation-related push notifications, see [Mobile push notifications for workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reservation-push-notifications.md).
 
-    For more information about making multi-day reservation using the Space Details page, see [Set a location as favorite using the Space details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/set-a-location-as-favorite.md).
+    For more information about making multi-day reservation using the Space Details page, see [Set a location as favorite using the Space details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/set-a-location-as-favorite.md).
 
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

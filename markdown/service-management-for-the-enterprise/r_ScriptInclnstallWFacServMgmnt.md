@@ -2,7 +2,7 @@
 title: Script includes installed with Facilities Service Management
 description: Script includes are used to store JavaScript that runs on the server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_ScriptInclnstallWFacServMgmnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_ScriptInclnstallWFacServMgmnt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -185,5 +185,5 @@ FacilitiesViewerUtils
 Contains utility methods for the floor plan viewer.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
+</table>**Parent Topic:**[Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
 

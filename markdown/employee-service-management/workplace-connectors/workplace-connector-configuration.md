@@ -2,7 +2,7 @@
 title: Configure connectors for badging data
 description: Configure the connector configuration table \[sn\_wsd\_wc\_connector\_config\] to fetch the badging spoke data records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/workplace-connector-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-connectors/workplace-connector-configuration.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
@@ -34,7 +34,7 @@ Role required: sn\_wsd\_wc.admin
 
 4.  In the **Target table** field, select the target table for the badging spoke data.
 
-    In this case, it’s the Employee Attendance Data table. For more information, see [Employee attendance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/employee-attendance.md).
+    In this case, it’s the Employee Attendance Data table. For more information, see [Employee attendance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/employee-attendance.md).
 
 5.  In the **Type** field, select the type of data the connector processes from the drop-down list.
 
@@ -49,9 +49,9 @@ Role required: sn\_wsd\_wc.admin
 7.  Select **Submit** to save the connector configuration.
 
 
-**Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
-**Previous topic:**[Create a badging data provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/wsd-connector-badging-providers.md)
+**Previous topic:**[Create a badging data provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/wsd-connector-badging-providers.md)
 
-**Next topic:**[Provider connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/provider-configuration-ovw.md)
+**Next topic:**[Provider connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/provider-configuration-ovw.md)
 

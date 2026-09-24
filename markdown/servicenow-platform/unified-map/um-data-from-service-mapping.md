@@ -2,7 +2,7 @@
 title: Service Mapping data that appears on maps
 description: Service instances that are populated using Service Mapping methods are included in maps. Service Mapping provides significant information for mapped service instances \(application services\) \[cmdb\_ci\_service\_discovered\] such as relationships and grouping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/um-data-from-service-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/um-data-from-service-mapping.html
 release: australia
 product: Unified Map
 classification: unified-map

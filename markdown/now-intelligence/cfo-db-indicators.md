@@ -2,7 +2,7 @@
 title: Chief Financial Officer Dashboard indicators
 description: Indicators provide the data used in most of the dashboard’s visualizations. The indicators are used across the dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cfo-db-indicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/cfo-db-indicators.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,8 +16,8 @@ Indicators provide the data used in most of the dashboard’s visualizations. Th
 
 This dashboard employs all three kinds of indicators, Automated, Formula, and Manual. For more information about configuring indicators, see
 
--   [Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/automated-indicators.md)
--   [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
+-   [Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/automated-indicators.md)
+-   [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
 
 <table id="table_zcc_dry_mgc"><thead><tr><th>
 

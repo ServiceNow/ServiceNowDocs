@@ -2,7 +2,7 @@
 title: Guided Decision Playbook Migration
 description: Guided decisions are an activity type within a playbook that presents users with a series of structured questions. Based on the user's answers, the decision branches to a recommended action — such as a resolution path, a next step, or an escalation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/guided-decisions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/guided-decisions.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-06"

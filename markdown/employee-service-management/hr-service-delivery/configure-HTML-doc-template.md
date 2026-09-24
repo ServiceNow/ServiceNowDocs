@@ -2,7 +2,7 @@
 title: Configure an HTML document template
 description: Create or modify the document template with your unique company logo and audience criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-HTML-doc-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-HTML-doc-template.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -89,7 +89,7 @@ Use the formatting tools in the **Body** to apply formatting options, such as bo
  **Note:**
 
 -   Jelly and CSS Styling are not supported.
--   You can also use [Document template scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-template-scripts.md) to dynamically change the text in the HTML body.
+-   You can also use [Document template scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/document-template-scripts.md) to dynamically change the text in the HTML body.
 **Note:** When the **Sanitize** option is enabled, final HTML generated after token replacement \(field tokens, document template scripts, template blocks, and similar elements\) is sanitized. Always enable the **Sanitize** option to secure your HTML templates.
 
 </td></tr><tr><td>
@@ -308,7 +308,7 @@ Space from the left of the page until the starting of the HTML content or space 
 6.  Select **Add blocks**.
 
     1.  To add an existing document block to the template, in Search blocks, type in the name of an existing document block, select the document block, and select **Insert**.
-    2.  To add a new document block to the template, click **Create New Block**. For more information, see [Create document blocks in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-doc-blc.md).
+    2.  To add a new document block to the template, click **Create New Block**. For more information, see [Create document blocks in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-doc-blc.md).
 7.  To automatically generate Table of Contents \(TOC\) and page numbers in the document that is generated from an HTML template, perform the following steps:
 
     1.  In the **Table of Contents** field, select the TOC configuration that you want to apply on the HTML template.
@@ -319,7 +319,7 @@ Space from the left of the page until the starting of the HTML content or space 
 
 8.  To translate content in templates using Localization Framework, select **Translate**.
 
-    For more information, see [Use Localization Framework for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/doc-lzt-fm.md).
+    For more information, see [Use Localization Framework for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/doc-lzt-fm.md).
 
 9.  To save your document and remain on the **HTML Document Template** form, click **Save**.
 

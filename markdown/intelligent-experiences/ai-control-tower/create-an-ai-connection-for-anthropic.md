@@ -2,7 +2,7 @@
 title: Create an AI connection for Anthropic
 description: Create an AI connection for Anthropic in AI Control Tower using the AI Service Graph Connector for Anthropic \(version 2.0.7\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-anthropic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-an-ai-connection-for-anthropic.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

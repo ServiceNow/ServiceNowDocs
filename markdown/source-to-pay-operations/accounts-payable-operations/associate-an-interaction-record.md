@@ -2,7 +2,7 @@
 title: Associate an interaction record in Accounts Payable Operations
 description: Associate an interaction record to an existing invoice case in Source-to-Pay workspace to track related communications and case activity in one place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/associate-an-interaction-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/associate-an-interaction-record.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -45,5 +45,5 @@ Role required: admin
     |ID of related record|Auto-populates after the **Document table** field is filled.|
 
 
-**Parent Topic:**[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
+**Parent Topic:**[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
 

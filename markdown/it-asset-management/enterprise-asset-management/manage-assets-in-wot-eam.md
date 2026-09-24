@@ -2,7 +2,7 @@
 title: Manage assets in a work order task
 description: Add, remove, or move enterprise assets across work order tasks to manage the work performed on specific assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/manage-assets-in-wot-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/manage-assets-in-wot-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

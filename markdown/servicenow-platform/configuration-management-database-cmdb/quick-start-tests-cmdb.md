@@ -2,7 +2,7 @@
 title: Quick start tests for Configuration Management Database \(CMDB\)
 description: Validate that Configuration Management Database \(CMDB\) still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/quick-start-tests-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/quick-start-tests-cmdb.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

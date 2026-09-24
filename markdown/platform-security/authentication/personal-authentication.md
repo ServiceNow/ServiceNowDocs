@@ -2,7 +2,7 @@
 title: Personal Authentication
 description: Personal authentication enables you to securely connect and manage your OAuth-based integrations like Microsoft OneDrive or Google Drive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/personal-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/personal-authentication.html
 release: australia
 product: Authentication
 classification: authentication
@@ -22,7 +22,7 @@ The OAuth 2.0 Credentials module in ServiceNow `(oauth_2_0_credentials)`enables 
 
 **Note:** You need the oauth\_admin role for OAuth specific configurations.
 
-Use the Credential form to configure OAuth 2.0 credentials with `integration_type = Personal`. For more information, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
+Use the Credential form to configure OAuth 2.0 credentials with `integration_type = Personal`. For more information, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
 Personal authentication is supported only for the following OAuth 2.0 grant types:
 

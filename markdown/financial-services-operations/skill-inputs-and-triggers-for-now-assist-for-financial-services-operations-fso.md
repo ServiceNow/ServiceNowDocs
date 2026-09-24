@@ -2,7 +2,7 @@
 title: Skill inputs for ServiceNow Otto for Financial Services Operations \(FSO\)
 description: Review the inputs for each skill to see how a skill is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

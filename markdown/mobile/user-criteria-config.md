@@ -2,7 +2,7 @@
 title: Assign mobile user criteria permissions
 description: Apply user criteria permissions to segment your users into different groups, such as location, department, or company.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/user-criteria-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/user-criteria-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Apply user criteria permissions to segment your users into different groups, suc
 
 ## About this task
 
-You can apply user criteria permissions to certain components of your mobile apps. For a complete list, see [Mobile components where user roles and user criteria permissions apply](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/components-roles-criteria.md). The instructions in this topic demonstrate how to apply user criteria to any one of the supported components. Some components can have either user criteria or user roles associated with them, in such a situation you must select whether this component is to be assigned a user criteria or a user role.
+You can apply user criteria permissions to certain components of your mobile apps. For a complete list, see [Mobile components where user roles and user criteria permissions apply](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/components-roles-criteria.md). The instructions in this topic demonstrate how to apply user criteria to any one of the supported components. Some components can have either user criteria or user roles associated with them, in such a situation you must select whether this component is to be assigned a user criteria or a user role.
 
 **Note:** If you don't add user criteria to any of the components, all users who have access to the mobile app can see those components. There may be a situation where users may still not see certain components as user role permissions may be implemented.
 
@@ -50,7 +50,7 @@ When working with user criteria in the Mobile App Builder, you assign existing u
 
 4.  Select a record that supports the assignment of user criteria from the **Record type** field.
 
-    For a list of the mobile components that you can assign user criteria, see [Mobile components where user roles and user criteria permissions apply](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/components-roles-criteria.md).
+    For a list of the mobile components that you can assign user criteria, see [Mobile components where user roles and user criteria permissions apply](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/components-roles-criteria.md).
 
 5.  If your selected record has the option of both user roles and user criteria, then in the **Access control type** field select **User criteria**.
 
@@ -67,7 +67,7 @@ When working with user criteria in the Mobile App Builder, you assign existing u
 
 ## What to do next
 
-By default, when you apply a user criteria to a component the user criteria is in an active state. To change the state from active to inactive, see [Define user criteria status as active or inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/user-criteria-active-inactive.md).
+By default, when you apply a user criteria to a component the user criteria is in an active state. To change the state from active to inactive, see [Define user criteria status as active or inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/user-criteria-active-inactive.md).
 
-**Parent Topic:**[User criteria permissions in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/user-criteria-permissions.md)
+**Parent Topic:**[User criteria permissions in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/user-criteria-permissions.md)
 

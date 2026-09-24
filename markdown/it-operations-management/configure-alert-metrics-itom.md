@@ -2,7 +2,7 @@
 title: Configure alert metrics
 description: Configure the metrics you want to be visible for Service Operations Workspace alerts or use the metrics configured with the base system to focus on relevant data for faster troubleshooting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-alert-metrics-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/configure-alert-metrics-itom.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,10 +30,10 @@ Role required: evt\_mgmt\_admin
 
 3.  On the form, fill in the fields.
 
-    For information on the fields, see [Metrics View Configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metrics-view-config-fields.md).
+    For information on the fields, see [Metrics View Configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metrics-view-config-fields.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/workspace-dashboard-use.md)
 

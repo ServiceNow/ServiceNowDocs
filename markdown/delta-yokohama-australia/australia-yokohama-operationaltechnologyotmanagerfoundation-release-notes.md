@@ -2,11 +2,11 @@
 title: Combined Operational Technology \(OT\) Manager Foundation release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Operational Technology \(OT\) Manager Foundation from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-operationaltechnologyotmanagerfoundation-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-operationaltechnologyotmanagerfoundation-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -90,7 +90,12 @@ Zurich
 
 </td><td>
 
--   **[Search for a related record](https://www.servicenow.com/docs/access?context=search-related-records-ot-cmdb-tables-now-assist-otm&family=zurich&ft:locale=en-US)**
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[Search for a related record](https://www.servicenow.com/docs/access?context=search-related-records-ot-cmdb-tables-now-assist-otm&family=zurich&ft:locale=en-US)**
 
 Use the OT CMDB search function to find an OT configuration item \(CI\) and OT device information in an OT CMDB table.
 
@@ -147,7 +152,17 @@ Zurich
 
 </td><td>
 
--   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+-   **[Now Assist for OTM was renamed to OT Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=zurich&ft:locale=en-US)**
+
+Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
+
+
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+ -   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
 The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
@@ -156,6 +171,11 @@ The skills are automatically available to appropriate role users for the applica
 -   **[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
 
 Agentic workflows and their AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&family=zurich&ft:locale=en-US).
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -264,6 +284,8 @@ Yokohama
 Operational Technology \(OT\) Manager Foundation is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://www.servicenow.com/docs/access?context=install-operational-technology-manager&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Operational Technology \(OT\) Manager Foundation is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -274,6 +296,8 @@ Zurich
 
 Operational Technology \(OT\) Manager Foundation is a ServiceNow AI Platform feature that is available with activation of the Operational Technology Manager \(com.sn\_ot\_foundation\). For details, see [Install Operational Technology Manager](https://www.servicenow.com/docs/access?context=install-operational-technology-manager&family=zurich&ft:locale=en-US).
 
+
+**Important:** OT Manager Foundation is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -500,5 +524,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

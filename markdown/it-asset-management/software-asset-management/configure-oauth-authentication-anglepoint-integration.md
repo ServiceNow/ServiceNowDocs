@@ -2,7 +2,7 @@
 title: Configure OAuth 2.0 authentication for the Anglepoint integration
 description: Configure OAuth 2.0 authentication to enable users to access Anglepoint integration resources through APIs using OAuth tokens.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/configure-oauth-authentication-anglepoint-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/configure-oauth-authentication-anglepoint-integration.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -39,5 +39,5 @@ Role required: admin
 
 The Anglepoint Elevate platform sends the credential information that you specified for your API connection to `https://*&lt;servicenow-instance-url&gt;*.service-now.com/oauth_token.do` using an HTTP Post request. Your ServiceNow instance responds to the request by generating OAuth tokens and then sending them to the Anglepoint Elevate platform. The Anglepoint Elevate platform can then use these tokens to make API requests for accessing the Anglepoint integration resources on your ServiceNow instance.
 
-**Parent Topic:**[Configuring the API authentication method for the Anglepoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configuring-auth-method-anglepoint-integration.md)
+**Parent Topic:**[Configuring the API authentication method for the Anglepoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configuring-auth-method-anglepoint-integration.md)
 

@@ -2,7 +2,7 @@
 title: Editing source code in the Rich Content Editor
 description: Modify the HTML and CSS source code for all the elements in the canvas or for a specific element.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/rce-editing-source-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/rce-editing-source-code.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -48,7 +48,7 @@ Build the layout using HTML elements, directly edit the CSS for an element to ad
     \[Omitted image "rce-remove-css.gif"\] Alt text: User unsuccessfully tries to delete a CSS rule using the delete key, so they use the Remove CSS button, which removes the highlighted code
 
 
-**Note:** This feature is not available by default. An Admin must enable the **Edit code** property. See [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
+**Note:** This feature is not available by default. An Admin must enable the **Edit code** property. See [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
 
 ## Important considerations
 

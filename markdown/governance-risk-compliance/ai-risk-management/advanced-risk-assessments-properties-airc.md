@@ -2,7 +2,7 @@
 title: Set up Advanced Risk assessments properties
 description: Enable Advanced Risk Assessments \(ARA\) to confirm that risk‑based assessments and risk score roll‑up function correctly in the AI Risk and Compliance application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -47,7 +47,7 @@ When **Migrate to Advanced Risk Assessments** is set to **No**:
 -   Supports risk‑based assessments for AI assets.
 -   Risk score roll-up isn't supported for risk-based assessments on AI assets. As a result, rolled-up risk scores aren't displayed in the AI Risk and Compliance dashboards.
 
-For descriptions of all available Advanced Risk properties, see [Advanced Risk properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/advanced-risk-properties-ref.md).
+For descriptions of all available Advanced Risk properties, see [Advanced Risk properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/advanced-risk-properties-ref.md).
 
 ## Procedure
 
@@ -63,7 +63,7 @@ For descriptions of all available Advanced Risk properties, see [Advanced Risk p
 **Related topics**  
 
 
-[Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md)
+[Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md)
 
-[Advanced Risk properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/advanced-risk-properties-ref.md)
+[Advanced Risk properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/advanced-risk-properties-ref.md)
 

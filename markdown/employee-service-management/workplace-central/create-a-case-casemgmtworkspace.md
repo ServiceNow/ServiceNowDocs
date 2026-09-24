@@ -2,7 +2,7 @@
 title: Create a workplace service case
 description: As a case manager, apart from managing the workplace cases, you can also create a raise workplace service request directly using the Workplace Central Case management workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-a-case-casemgmtworkspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/create-a-case-casemgmtworkspace.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -51,7 +51,7 @@ Submit a workplace service request on behalf of an employee for any reason. You 
     -   Submit a maintenance request
 5.  Select **Submit**.
 
-    To fill the form, refer to [Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md) topics.
+    To fill the form, refer to [Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md) topics.
 
 6.  Select **Submit** to submit the request.
 
@@ -60,7 +60,7 @@ Submit a workplace service request on behalf of an employee for any reason. You 
 
 The workplace service request is submitted and a workplace case is created. Refresh the **All active cases** list to view the workplace case.
 
-**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-case-management.md)
+**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-case-management.md)
 
 **Related topics**  
 

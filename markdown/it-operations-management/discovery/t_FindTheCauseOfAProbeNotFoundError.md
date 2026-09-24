@@ -2,7 +2,7 @@
 title: Find the cause of a "Probe not found" error
 description: Verify the correct sys\_id of the probe associated with the probe parameter in the payload of the ECC Queue input record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_FindTheCauseOfAProbeNotFoundError.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_FindTheCauseOfAProbeNotFoundError.html
 release: australia
 product: Discovery
 classification: discovery
@@ -39,7 +39,7 @@ Role required: discovery\_admin or admin
     If the sys\_id of the probe record does not match the value in the payload, try to determine the cause of the incorrect value.
 
 
-**Parent Topic:**[Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryErrorMessages.md)
+**Parent Topic:**[Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryErrorMessages.md)
 
 **Related topics**  
 

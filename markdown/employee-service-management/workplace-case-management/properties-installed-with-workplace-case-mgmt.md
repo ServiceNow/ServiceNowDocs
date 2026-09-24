@@ -2,7 +2,7 @@
 title: Properties installed with Workplace Case Management
 description: Customize the properties available with Workplace Case Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/properties-installed-with-workplace-case-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/properties-installed-with-workplace-case-mgmt.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -60,14 +60,14 @@ sn\_wsd\_case.lead\_time\_info\_msg\_for\_limited\_services
 
 </td><td>
 
-Controls whether lead-time messaging appears when ordering workplace services. When enabled, regular users see an informational message indicating which items are available, and users with the bypass role receive a warning when ordering services within their lead time.For more information about lead time, see [Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/add-workplace-service-items.md).
+Controls whether lead-time messaging appears when ordering workplace services. When enabled, regular users see an informational message indicating which items are available, and users with the bypass role receive a warning when ordering services within their lead time.For more information about lead time, see [Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/add-workplace-service-items.md).
 
 -   Type: Boolean
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Case Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workpalce-case-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Case Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workpalce-case-mgmt-references.md)
 
 **Related topics**  
 

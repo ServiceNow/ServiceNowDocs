@@ -2,7 +2,7 @@
 title: Update your skill proficiency level
 description: Update and track your proficiency level for each skill that you list in your skills profile by using the Skills Foundation application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/update-skill-proficiency-level.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/update-skill-proficiency-level.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -43,5 +43,5 @@ Role required: sn\_skills\_int.emp
 
 Your skill proficiency level is successfully updated in your skills profile.
 
-**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/using-skills-intelligence.md)
+**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/using-skills-intelligence.md)
 

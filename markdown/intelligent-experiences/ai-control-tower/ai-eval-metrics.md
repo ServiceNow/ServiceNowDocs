@@ -2,7 +2,7 @@
 title: Evaluation metrics and calculations
 description: Metrics against which conversations are evaluated and calculation of adjusted scores.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-eval-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-eval-metrics.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

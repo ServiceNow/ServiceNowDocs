@@ -2,7 +2,7 @@
 title: Define trigger conditions
 description: Define trigger conditions that start a sequence by configuring simple triggers, or combining multiple triggers for initiating workflows from multiple record-based events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/define-trigger-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/define-trigger-conditions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Define trigger conditions that start a sequence by configuring simple triggers, 
 
 **Note:** Multi-trigger capability is available only with Playbooks versions 28.1 and higher on the Zurich release. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/process-automation-designer-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/process-automation-designer-rn.md).
 
-Assign delegated developer roles to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/grant-delegated-developer-permissions.md).
+Assign delegated developer roles to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/grant-delegated-developer-permissions.md).
 
 Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
@@ -62,7 +62,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 The triggers that you've created appear under the Record based triggers section on the Triggers pane.
 
-**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-customer-engagement-sequence.md)
+**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-customer-engagement-sequence.md)
 
 **Related topics**  
 

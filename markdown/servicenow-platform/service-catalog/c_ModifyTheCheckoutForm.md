@@ -2,7 +2,7 @@
 title: Modifications in the checkout form
 description: You can modify the checkout form to use an alternate description field or to add request item number for each line.Add the request item number to display this number as an extra column on the checkout form. By default, the request item number is not displayed in the list.Use an alternate description field to describe your category item in the checkout form. By default, the short\_description column of the catalog item appears as the item description.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ModifyTheCheckoutForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/c\_ModifyTheCheckoutForm.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -20,7 +20,7 @@ By default, the checkout forms list the **Description**, **Delivery Date**, **St
 
 \[Omitted image "CheckoutDefault.png"\] Alt text: Screenshot for checkout default
 
-**Parent Topic:**[Legacy flexible checkout and delivery forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_FlexibleCheckoutAndDeliveryForms.md)
+**Parent Topic:**[Legacy flexible checkout and delivery forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_FlexibleCheckoutAndDeliveryForms.md)
 
 ## Add the request item number on checkout form
 

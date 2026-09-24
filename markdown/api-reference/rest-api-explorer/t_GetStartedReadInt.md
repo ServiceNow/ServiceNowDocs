@@ -2,7 +2,7 @@
 title: Read the inserted incident
 description: Use a GET request to view a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t\_GetStartedReadInt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/t\_GetStartedReadInt.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -47,5 +47,5 @@ Use the sys\_id from the POST response Location header to run a GET request.
     \[Omitted image "rest-api-exp-get-response-2.png"\] Alt text: REST API Explorer GET response
 
 
-**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

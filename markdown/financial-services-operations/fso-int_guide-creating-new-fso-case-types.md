@@ -2,7 +2,7 @@
 title: Creating FSO Case Types
 description: If you need a new case type that can't be extended from an existing application, you can create one by extending the FSO Base Case \(sn\_bom\_case\) table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-creating-new-fso-case-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-creating-new-fso-case-types.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -38,5 +38,5 @@ When implementing, for example, ACH payment disputes, you may want to create a n
 -   The attributes needed to capture the ACH disputes
 -   Different teams processing disputes that have differing access and training requirements
 
-**Parent Topic:**[Using case types and service definitions in FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-work_case_types.md)
+**Parent Topic:**[Using case types and service definitions in FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-int_guide-work_case_types.md)
 

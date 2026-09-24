@@ -2,7 +2,7 @@
 title: Add forms to UI Builder pages
 description: Use the Form component to add one or more forms to UI Builder pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-forms-to-ui-builder-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/add-forms-to-ui-builder-pages.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -76,5 +76,5 @@ If isMapped to app shell is set to true, the form handles these events automatic
 
 For detailed information about the Form component and its properties, see [Form Overview](https://developer.servicenow.com/dev.do#!/reference/next-experience/washingtondc/now-components/form%20record%20page/overview) on the ServiceNow Developer Site.
 
-**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md)
 

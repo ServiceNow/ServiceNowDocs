@@ -2,7 +2,7 @@
 title: Create a time sheet
 description: As a time card user, you can create a time sheet to group all your time cards for the given week and submit them in a single step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/create-time-sheet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/create-time-sheet.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -73,7 +73,7 @@ Week starts on
 
 </td><td>
 
-Starting date of the week for which the time sheet is created.**Note:** The [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/create-time-sheet-policy.md) **Week starts on** controls the start day of the week.
+Starting date of the week for which the time sheet is created.**Note:** The [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/create-time-sheet-policy.md) **Week starts on** controls the start day of the week.
 
 </td></tr><tr><td>
 
@@ -121,12 +121,12 @@ Any additional information.
 
 ## What to do next
 
-Add time cards to the time sheet. You can use the related links and related list to add time cards. You can also add time cards using the [Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/worker-portal.md).
+Add time cards to the time sheet. You can use the related links and related list to add time cards. You can also add time cards using the [Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/worker-portal.md).
 
 |Field|Description|
 |-----|-----------|
 |Generate Time Cards|Link to generate time cards for the assigned project tasks.|
-|Copy from previous time sheet|Link to open the **Copy Time Sheet** window for you to [copy the time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/copy-time-sheet.md) from previous time sheets.|
+|Copy from previous time sheet|Link to open the **Copy Time Sheet** window for you to [copy the time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/copy-time-sheet.md) from previous time sheets.|
 |Time Sheet Portal|Link to open the Time Sheet Portal to view and manage the time sheet.|
 
 <table id="table_p3s_zyz_2dc"><thead><tr><th>
@@ -146,5 +146,5 @@ Time Cards
 List of the time cards that are part of the time sheet. To create a time card, click **New**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-sheets.md)
+</table>**Parent Topic:**[Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/time-sheets.md)
 

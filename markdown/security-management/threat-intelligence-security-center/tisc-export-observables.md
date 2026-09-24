@@ -2,7 +2,7 @@
 title: Export intelligence data
 description: Use the export feature to manually export the intelligence data in various formats.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-export-observables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-export-observables.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -41,7 +41,7 @@ Currently, the export functionality is limited to observables, indicators, and c
     -   If the selection exceeds 10,000 records, then an error message displays indicating that the maximum limit for the selected format type has been surpassed, and only the first 10,000 records will be exported.
     -   If the export format is CSV and the record limit is exceeded, an alert message is displayed indicating that the export is **in progress** state, along with a link to view the export status. You can click the link to view the status, and refresh the record. Once it moves to **processed** state you can download the attachment.
 
-        **Note:** When you export records in STIX 2.1 format Traffic Light Protocol \(TLP\) definitions applied to the intelligence object are included in the export as TLP 2.0 marking definition objects. For more information, see [Define Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-market-definition.md).
+        **Note:** When you export records in STIX 2.1 format Traffic Light Protocol \(TLP\) definitions applied to the intelligence object are included in the export as TLP 2.0 marking definition objects. For more information, see [Define Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/define-market-definition.md).
 
 5.  Select **Export**.
 
@@ -50,7 +50,7 @@ Currently, the export functionality is limited to observables, indicators, and c
     A confirmation message indicating that the export is successful and your download is complete displays.
 
 
-**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 

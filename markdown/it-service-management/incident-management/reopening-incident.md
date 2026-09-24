@@ -2,7 +2,7 @@
 title: Reopening an incident
 description: Reopen a resolved incident from the incident’s resolution notification email or from the incident form in Incident Management to further investigate an issue that is still impacting you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/reopening-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/reopening-incident.html
 release: australia
 product: Incident Management
 classification: incident-management

@@ -2,7 +2,7 @@
 title: Set the order of your workspaces in the Unified Navigation Workspaces menu
 description: Control the display order of workspaces in the Unified Navigation Workspaces menu by setting a numerical order value on each workspace record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-order-workspace-unified-navigation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-order-workspace-unified-navigation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 

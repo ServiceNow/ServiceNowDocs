@@ -2,7 +2,7 @@
 title: Perform a partial migration of Performance Analytics widgets
 description: Migrate a selection of your Performance Analytics widgets Platform Analytics indicator visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-partial-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-partial-widgets.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

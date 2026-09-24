@@ -2,7 +2,7 @@
 title: Set up catalog branding
 description: Customize the appearance of catalogs in Virtual Agent to match your business' branding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-catalogs-branding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-catalogs-branding.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -102,5 +102,5 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
 Catalog color themes now match your branding.
 
-**Parent Topic:**[Using catalogs and autopilot in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-catalogs.md)
+**Parent Topic:**[Using catalogs and autopilot in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-catalogs.md)
 

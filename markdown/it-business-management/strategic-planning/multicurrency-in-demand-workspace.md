@@ -2,7 +2,7 @@
 title: Multicurrency in Next Experience for Demand Management
 description: Manage and track demand financials in your corporate currency, regional currency, or project currency using the multicurrency feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/multicurrency-in-demand-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/multicurrency-in-demand-workspace.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -32,7 +32,7 @@ To enable multicurrency features in Next Experience for Demand Management, activ
 
 ## Currency preferences
 
-You can specify your currency preference for managing demand financials: a functional currency, a regional currency, or a local currency. For more information, see [Select demand currency preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/select-demand-currency-preference-dw.md).
+You can specify your currency preference for managing demand financials: a functional currency, a regional currency, or a local currency. For more information, see [Select demand currency preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/select-demand-currency-preference-dw.md).
 
 ## Demand currency view
 

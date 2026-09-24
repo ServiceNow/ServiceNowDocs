@@ -2,7 +2,7 @@
 title: Configure modal background loading
 description: Configure a modal to load large selections of records added to a related list in the background.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-asychronous-record-addition-declarative-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-up-asychronous-record-addition-declarative-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

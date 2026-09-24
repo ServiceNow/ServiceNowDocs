@@ -2,7 +2,7 @@
 title: Create capacity function
 description: Create a capacity function in the Telecommunications Network Inventory application. You can use this function to calculate the capacity of your network assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-capacity-function.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-capacity-function.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -39,7 +39,7 @@ The system selects the capacity functions based on their priority to calculate t
 
 3.  On the form, fill in the fields.
 
-    To learn more about the fields, see [Capacity Function form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/capacity-function-form.md).
+    To learn more about the fields, see [Capacity Function form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/capacity-function-form.md).
 
 4.  Select **Submit**.
 
@@ -50,12 +50,12 @@ The capacity function record is created.
 
 ## What to do next
 
-You can use the function for capacity calculation or use it within the definition record to determine the capacity. To learn more about how to create a capacity definition, see [Create capacity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-capacity-definition.md).
+You can use the function for capacity calculation or use it within the definition record to determine the capacity. To learn more about how to create a capacity definition, see [Create capacity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-capacity-definition.md).
 
-**Parent Topic:**[Configuring capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
+**Parent Topic:**[Configuring capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
 
 **Related topics**  
 
 
-[Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/capacity-management-reporting.md)
+[Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/capacity-management-reporting.md)
 

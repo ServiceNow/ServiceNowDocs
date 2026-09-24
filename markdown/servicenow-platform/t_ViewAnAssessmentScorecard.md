@@ -2,7 +2,7 @@
 title: View an assessment scorecard
 description: The Assessments application prepares printable scorecards. A scorecard displays easy-to-interpret assessment results, in which the current calculated ratings for an assessable record are compared to previous ratings or to the ratings of other records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewAnAssessmentScorecard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ViewAnAssessmentScorecard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,22 +37,22 @@ See Vendor Performance in . [Project Portfolio Suite](https://raw.githubusercont
 3.  Under **Related Links**, click **View Scorecard**.
 
 
--   **[Create a link to a scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateALinkToAScorecard.md)**  
+-   **[Create a link to a scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateALinkToAScorecard.md)**  
 Users with the admin role can create UI actions that allow users to view scorecards from tables.
--   **[Assessment scorecard averages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_Averages.md)**  
+-   **[Assessment scorecard averages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_Averages.md)**  
 The Averages view compares the current ratings for an assessable record in each metric category with the average, minimum, and maximum values from all assessable records in the filter. All ratings are from assessments generated over the trailing twelve months \(TTM\).
--   **[Assessment scorecard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_Categories.md)**  
+-   **[Assessment scorecard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_Categories.md)**  
 The Categories view displays a bar chart showing the average ratings for each category in the selected time interval.
--   **[Assessment scorecard category metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CategoryMetrics.md)**  
+-   **[Assessment scorecard category metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_CategoryMetrics.md)**  
 The Category Metrics view displays the weighted average results for each metric within a category. Use this view to learn how individual metrics affect the overall rating for the category.
--   **[Assessment scorecard head-to-head compare view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_HeadToHeadCompare.md)**  
+-   **[Assessment scorecard head-to-head compare view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_HeadToHeadCompare.md)**  
 The Head to Head Compare view allows you to compare the ratings of two assessable records of the same type. Select an assessable record from the choice list to compare against the current record's trailing twelve month \(TTM\) ratings.
--   **[Assessment scorecard history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_History.md)**  
+-   **[Assessment scorecard history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_History.md)**  
 The History view compares the current ratings for each category with ratings from the previous three years or four quarters.
--   **[Live feed view of assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_LiveFeed.md)**  
+-   **[Live feed view of assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_LiveFeed.md)**  
 The Live Feed view displays Live Feed conversations that apply to the assessable record. Users can view the group feed, including tagged comments, and add comments of their own.
--   **[Assessment scorecard ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_Ratings.md)**  
+-   **[Assessment scorecard ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_Ratings.md)**  
 The scorecard ratings section displays various ratings for the assessable record.
 
-**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentProcess.md)
+**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentProcess.md)
 

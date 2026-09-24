@@ -2,7 +2,7 @@
 title: Monitoring data usage in Hermes
 description: Monitor data usage in Hermes over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/monitoring-data-usage-hermes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/monitoring-data-usage-hermes.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -92,7 +92,7 @@ Topics with the prefix \[Internal\] are for applications used only by ServiceNow
 
 **Note:** When **All** is selected for both the Application ID and Hermes Topic, the Topic Usage Data table displays two roll-up rows: one for external topics \(\*All Topics\*\) and one for internal topics \(\[Internal\]\*All Topics\*\).
 
-**Parent Topic:**[Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
+**Parent Topic:**[Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
 
 **Related topics**  
 

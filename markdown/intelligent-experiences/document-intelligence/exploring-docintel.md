@@ -2,7 +2,7 @@
 title: Exploring Document Intelligence
 description: Document Intelligence helps you to quickly and accurately classify and extract information from documents using artificial intelligence \(AI\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/exploring-docintel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/document-intelligence/exploring-docintel.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -18,7 +18,7 @@ Document Intelligence helps you to quickly and accurately classify and extract i
 
 **Important:**
 
-This product has been deprecated and replaced by [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md) \(NADI\) — the GenAI-powered evolution of Document Intelligence. NADI fully supports document extraction, processing, and multimodal capabilities through GenAI and third-party frontier models, with no model training required.
+This product has been deprecated and replaced by [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md) \(NADI\) — the GenAI-powered evolution of Document Intelligence. NADI fully supports document extraction, processing, and multimodal capabilities through GenAI and third-party frontier models, with no model training required.
 
 ## Document Intelligence overview
 
@@ -63,13 +63,13 @@ Start fast with a no-code set-up that enables data extraction from many document
 
 </td><td>
 
-[Set up document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/set-up-document-extraction-use-cases.md)
+[Set up document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/set-up-document-extraction-use-cases.md)
 
 </td><td>
 
-[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+ [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -77,13 +77,13 @@ Enable categorization for any type of document you define.
 
 </td><td>
 
-[Set up document classification use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/set-up-document-classification-use-cases.md)
+[Set up document classification use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/set-up-document-classification-use-cases.md)
 
 </td><td>
 
-[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+ [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -91,13 +91,13 @@ Automate intelligently with responsible, feedback-driven AI for continual learni
 
 </td><td>
 
-[Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/configure-data-extraction-modes.md)
+[Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/configure-data-extraction-modes.md)
 
 </td><td>
 
-[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+ [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -105,13 +105,13 @@ Seamlessly integrate document processing steps into workflows​.
 
 </td><td>
 
-[Integrating Document Intelligence with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/integrating-docintel.md)
+[Integrating Document Intelligence with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/integrating-docintel.md)
 
 </td><td>
 
-[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+ [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -119,13 +119,13 @@ Accelerate extraction of structured and semi-structured documents such as forms,
 
 </td><td>
 
-[Extract fields using the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/doc-intel-workspace.md)
+[Extract fields using the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/doc-intel-workspace.md)
 
 </td><td>
 
-[DocIntel Creation Agent \[sn\_docintel.creation\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+[DocIntel Creation Agent \[sn\_docintel.creation\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+ [DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -133,13 +133,13 @@ Accelerate classification of single and multi-page documents.
 
 </td><td>
 
-[Classify documents using the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-the-docintel-workspace-to-classify.md)
+[Classify documents using the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-the-docintel-workspace-to-classify.md)
 
 </td><td>
 
-[DocIntel Creation Agent \[sn\_docintel.creation\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+[DocIntel Creation Agent \[sn\_docintel.creation\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+ [DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr></tbody>
 </table>

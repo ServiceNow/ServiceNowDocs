@@ -2,7 +2,7 @@
 title: Create an equipment record by using design and assign
 description: Create an equipment record using the design and assign function in the Telecommunications Network Inventory application. By creating the equipment and its related inventory records, you can fulfill an order request for an equipment record.DOC1090321
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-equipment-record-design-and-assign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-equipment-record-design-and-assign.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -22,7 +22,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-When you instantiate an equipment template, it creates the corresponding configuration item \(CI\) records in the equipment table. To learn more about the equipment tables, see [Equipment extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/equipment-extension-classes.md).
+When you instantiate an equipment template, it creates the corresponding configuration item \(CI\) records in the equipment table. To learn more about the equipment tables, see [Equipment extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/equipment-extension-classes.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ When you instantiate an equipment template, it creates the corresponding configu
 
     4.  On the **Add equipment details** section, fill in the fields.
 
-        For a description of the field valuesTo learn more about the fields, see [Equipment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/equipment-form.md).
+        For a description of the field valuesTo learn more about the fields, see [Equipment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/equipment-form.md).
 
     5.  Select **Next**.
 
@@ -60,7 +60,7 @@ When you instantiate an equipment template, it creates the corresponding configu
 
 7.  On the **Details** tab, fill in the fields.
 
-    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 8.  Select **Save**.
 
@@ -70,7 +70,7 @@ When you instantiate an equipment template, it creates the corresponding configu
 
 10. On the **Task Attribute** tab, fill in the fields.
 
-    For a description of the field values, see [Equipment task attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/equipment-task-attribute-form.md).
+    For a description of the field values, see [Equipment task attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/equipment-task-attribute-form.md).
 
 11. Select **Submit**.
 
@@ -79,14 +79,14 @@ When you instantiate an equipment template, it creates the corresponding configu
 
 The equipment record is created along with the associated inventory records. These records are generated depending on the model relationship attached with the inventory model.
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 
 **Related topics**  
 
 
-[Create an inventory template for a logical composite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-template-logical-composite.md)
+[Create an inventory template for a logical composite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-template-logical-composite.md)
 
-[Add an equipment or rack to logical composite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/add-equipment-rack-logical-composite.md)
+[Add an equipment or rack to logical composite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/add-equipment-rack-logical-composite.md)
 
-[Remove an equipment or rack from logical composite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/remove-equipment-rack-logical-composite.md)
+[Remove an equipment or rack from logical composite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/remove-equipment-rack-logical-composite.md)
 

@@ -2,7 +2,7 @@
 title: Approval assistance AI agent
 description: This AI agent handles all queries related to approval records for the current user.This AI agent that enables you to see your list of pending approvals, as well as see the details about your pending approvals. You can then approve or reject requests and tickets in ServiceNow Otto for Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/plat-approval-assistance-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-approval-assistance-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -25,7 +25,7 @@ The agent retrieves and filters pending approvals, provides detailed information
     -   Generate and display a checklist evaluation for the approval, grouping criteria by status and providing reference article links.
     -   Prompt the user to choose an approval action, handle e-signature requirements if applicable, and confirm the result of the action.
 
-For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md).
+For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-approval-assistance-ai-agent.md).
 
 <table><thead><tr><th>
 
@@ -57,7 +57,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-agents-overview.md)
+</table>**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-ai-agents-overview.md)
 
 ## Using the approval assistance AI agent
 

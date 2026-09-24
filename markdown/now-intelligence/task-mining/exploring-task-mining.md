@@ -2,7 +2,7 @@
 title: Exploring Task Mining
 description: Use Task Mining to identify inefficiencies in work tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/exploring-task-mining.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/exploring-task-mining.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -96,7 +96,7 @@ Explore application use beyond the ServiceNow AI Platform to understand how appl
 
 To learn more about configuring and using Task Mining, see the following topics:
 
--   [Configuring Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/configuring-task-mining.md)
--   [Using Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/using-task-mining.md)
--   [Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)
+-   [Configuring Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/configuring-task-mining.md)
+-   [Using Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/using-task-mining.md)
+-   [Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/reference-task-mining.md)
 

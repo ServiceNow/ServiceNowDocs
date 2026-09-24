@@ -2,7 +2,7 @@
 title: View a quiz result
 description: You can view quiz results for each question and category, or view the quiz scorecard for a detailed breakdown.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewAQuizResult.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ViewAQuizResult.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,17 +29,17 @@ Quiz results are stored in the Metric Result \[asmt\_metric\_result\] table and 
     \[Omitted image "QuizResults.png"\] Alt text: Quiz results
 
 
--   **[View a quiz designer scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAQuizDesignerScorecard.md)**  
+-   **[View a quiz designer scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAQuizDesignerScorecard.md)**  
 The quiz scorecard opens in the Category Results view.
--   **[Modify the weight of a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAQuizCategoryResult.md)**  
+-   **[Modify the weight of a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAQuizCategoryResult.md)**  
 View category results stored in the Assessment Category Result \[asmt\_category\_result\] table, which display the overall ratings for each category based on the weighted value for each scored question, and edit the default Weight value.
 
-**Parent Topic:**[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
+**Parent Topic:**[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizDesigner.md)
 
 **Related topics**  
 
 
-[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
+[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizDesigner.md)
 
-[Publish a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PublishaQuiz.md)
+[Publish a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_PublishaQuiz.md)
 

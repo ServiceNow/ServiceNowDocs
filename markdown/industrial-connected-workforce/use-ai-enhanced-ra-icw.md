@@ -2,7 +2,7 @@
 title: Contextualize an external document for a deviation in the Digital Factory Workspace
 description: With the AI Enhanced Recommended Actions for Industrial Connected Workforce, contextualize an external document to get an explanation of why the document is relevant to a deviation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/use-ai-enhanced-ra-icw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/use-ai-enhanced-ra-icw.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,12 +37,12 @@ Role required: sn\_icw.deviation\_user and sn\_ai\_enhanced\_ra.document\_user
 
 ## What to do next
 
-You can generate an action plan based on the contextualized external documents and information available in the deviation. For more information see, [Generate an action plan to resolve a deviation in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/generate-action-plan-ai-enhanced-ra-icw.md).
+You can generate an action plan based on the contextualized external documents and information available in the deviation. For more information see, [Generate an action plan to resolve a deviation in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/generate-action-plan-ai-enhanced-ra-icw.md).
 
-**Parent Topic:**[Using AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/using-ai-enhanced-ra-icw.md)
+**Parent Topic:**[Using AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/using-ai-enhanced-ra-icw.md)
 
 **Related topics**  
 
 
-[Contextualize an external document in ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/use-ai-enhanced-ra-icw-mobile.md)
+[Contextualize an external document in ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/use-ai-enhanced-ra-icw-mobile.md)
 

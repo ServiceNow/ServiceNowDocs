@@ -2,7 +2,7 @@
 title: Add or edit expense lines
 description: Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-expense-line-prj-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/create-expense-line-prj-wrkspc.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -77,7 +77,7 @@ Select **New expense line** using the More actions option.\[Omitted image "fin-n
 </td></tr></tbody>
 </table>4.  On the Create expense line form, fill the fields.
 
-    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-exp-line-form-spw.md).
+    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-exp-line-form-spw.md).
 
 5.  Select **Save**.
 
@@ -90,5 +90,5 @@ Select **New expense line** using the More actions option.\[Omitted image "fin-n
 8.  Update the expense values as needed and select **Save**.
 
 
-**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

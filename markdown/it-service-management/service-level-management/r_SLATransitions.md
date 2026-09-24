@@ -2,7 +2,7 @@
 title: SLA transitions
 description: SLA records pass through a series of transitions during processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/r\_SLATransitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/r\_SLATransitions.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -45,5 +45,5 @@ SLA conditions determine what action is performed on a task SLA record.
 
 Each of these conditions is defined as a method within a Script Include, referenced by an SLA Conditions Rule record.
 
-**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-management-reference.md)
 

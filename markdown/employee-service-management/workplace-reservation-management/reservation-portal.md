@@ -2,7 +2,7 @@
 title: Make a reservation
 description: The 'Make a reservation' form also referred to as the Reservation portal, is a central location for reserving workplace items, such as meeting rooms and desks. You can also view and manage your reservations. After a reservation request is confirmed, you're notified about the reservation details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/reservation-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/reservation-portal.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -30,10 +30,10 @@ The 'Make a reservation' form enables you to do the following:
 
 -   View workplace items such as meeting rooms and desks for your location or for a different location.
 -   View the availability of a meeting room or desk before making a reservation request.
--   Use workplace floor maps to find and reserve a space within Workplace Core. To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, see [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-admin.md).
+-   Use workplace floor maps to find and reserve a space within Workplace Core. To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, see [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-mappedin-admin.md).
 -   Check for any standard services that are available with workplace items, such as whiteboards, seating capacity, and projector.
 -   Reserve a workplace item for yourself or on behalf of someone else.
--   Reserve multiple buildings for a single reservation. For more information, see [Create multi-building reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-building-reservation.md).
+-   Reserve multiple buildings for a single reservation. For more information, see [Create multi-building reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-building-reservation.md).
 -   View the details of the reservations that you've created.
 -   Modify or cancel the reservations that you've created.
 -   Share reservation details with others.
@@ -61,7 +61,7 @@ If a reservation occurrence conflicts with an existing reservation on a particul
 -   The employee can find an alternative space easily if no alternative space was found.
 -   The employee is notified when the application assigns an alternative space.
 
-For more information about automatically resolving recurring conflicts, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md) and [Create a reservation]().
+For more information about automatically resolving recurring conflicts, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md) and [Create a reservation]().
 
 If Workplace Reservation Management is unable to find a new workplace, date, and time, relevant messages are shown to the user so that the conflicted reservation can be manually resolved by selecting a different workplace item or by changing the time of the reservation.
 

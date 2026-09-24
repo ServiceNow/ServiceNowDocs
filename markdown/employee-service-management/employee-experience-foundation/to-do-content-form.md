@@ -2,7 +2,7 @@
 title: To-do content form
 description: Use the To-do content form to add to-dos to your portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/to-do-content-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/to-do-content-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,7 +43,7 @@ Defines the kind of to-do link. -   Button Complete: Employee selects a button t
 -   View Link: Employee selects a link to complete the task.
 -   E-Signature: Requires an e-signature to complete to task.
 
- **Note:** For more information, see [Add or modify content type for Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-content-types.md).
+ **Note:** For more information, see [Add or modify content type for Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-content-types.md).
 
 </td></tr><tr><td>
 
@@ -61,7 +61,7 @@ Block content
 
 The block content for the to-do.Appears when you check **Use block content**.
 
-**Note:** For more information, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
+**Note:** For more information, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
 
 </td></tr><tr><td>
 
@@ -97,7 +97,7 @@ The video link you want an employee to click.Appears when you select **Play Vide
 
  Define video links in Link Content.
 
-**Note:** For more information, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
+**Note:** For more information, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Link
 
 The link you want an employee to click.Appears when **View Link** is selected from **Content type**.
 
- Define links in Link Content. For more information, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
+ Define links in Link Content. For more information, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
 
 **Note:** Depending on your configurations or extensions, your link may open in a new window.
 
@@ -122,7 +122,7 @@ Area to provide detailed information about the task. Use the editing tools to en
  Appears if you do not check **Use block content**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

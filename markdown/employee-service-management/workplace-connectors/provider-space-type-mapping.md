@@ -2,7 +2,7 @@
 title: Provider Space Type Mappings
 description: This table maps workplace space types or locations with external ids provided by the space occupancy data providers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/provider-space-type-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-connectors/provider-space-type-mapping.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
@@ -35,9 +35,9 @@ Role required: admin
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Previous topic:**[Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md)
+**Previous topic:**[Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md)
 
-**Next topic:**[Configure Provider Space Mapping for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/provider-space-mappings-occupancy.md)
+**Next topic:**[Configure Provider Space Mapping for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/provider-space-mappings-occupancy.md)
 

@@ -2,7 +2,7 @@
 title: Export demands
 description: Share data with stakeholders or perform further analysis outside the platform by exporting demand records from Next Experience for Demand Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/export-demands-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/export-demands-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

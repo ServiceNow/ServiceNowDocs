@@ -2,7 +2,7 @@
 title: Create long-term memory category
 description: Add a long-term memory category to add it an AI agent while setting up long term memory
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-ltm-category-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-ltm-category-new.html
 release: australia
 topic_type: task
 last_updated: "2026-03-24"

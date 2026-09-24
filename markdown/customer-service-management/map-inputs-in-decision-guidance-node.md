@@ -2,7 +2,7 @@
 title: Reuse answers at decision points
 description: Link inputs to reuse answers from prior nodes in Decision Tree Builder. For example, in a decision tree that deals with a loan application, you could reuse the input related to the customer’s salary at multiple decision points to determine the loan eligibility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/map-inputs-in-decision-guidance-node.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/map-inputs-in-decision-guidance-node.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 Linked inputs can be used to create path conditions.
 
-For more information about input mapping and exceptions related to input mapping, see [Linking inputs in decision tree nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guided-decision-tree-input-mapping.md).
+For more information about input mapping and exceptions related to input mapping, see [Linking inputs in decision tree nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/guided-decision-tree-input-mapping.md).
 
 ## Procedure
 

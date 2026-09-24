@@ -2,7 +2,7 @@
 title: Conversations overview
 description: Conversations with managers, peers, and mentors are a critical part of your career growth. Identify and manage the important conversations you have.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-conversations-ovrvw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/egd-conversations-ovrvw.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -18,16 +18,16 @@ Conversations with managers, peers, and mentors are a critical part of your care
 
 You must have the Career Conversations app installed for Conversations to work.
 
-**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-explore.md)
+**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-explore.md)
 
 **Related topics**  
 
 
-[Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-activities-landing-page.md)
+[Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/career-conversations/egd-activities-landing-page.md)
 
-[Install Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-activities-install.md)
+[Install Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/career-conversations/egd-activities-install.md)
 
-[Create a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-create-growth-conversation.md)
+[Create a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/career-conversations/egd-create-growth-conversation.md)
 
-[Update a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-act-update-growth-conversation.md)
+[Update a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/career-conversations/egd-act-update-growth-conversation.md)
 

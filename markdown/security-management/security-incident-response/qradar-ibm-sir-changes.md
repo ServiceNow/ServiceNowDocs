@@ -2,7 +2,7 @@
 title: Security Incident Response form after offense ingestion
 description: After an IBM QRadar offense has been ingested, a security incident is created and the corresponding updates are made to the security incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm-sir-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/qradar-ibm-sir-changes.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -22,7 +22,7 @@ A worknote is posted with details of the offense that triggered the security inc
 
 Select the offense link to navigate to the internal security incident record. The **Click here** hyperlink takes you to the IBM QRadar dashboard where you can view the offense details.
 
-If you had selected the **Log work note for new offense** option in the Offense Aggregation Criteria as described in the [Mapping IBM QRadar offense fields to security incident response fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ibm-qradar-mapping-process.md), a worknote is posted when the offense is aggregated.
+If you had selected the **Log work note for new offense** option in the Offense Aggregation Criteria as described in the [Mapping IBM QRadar offense fields to security incident response fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ibm-qradar-mapping-process.md), a worknote is posted when the offense is aggregated.
 
 ## Aggregated offenses
 
@@ -40,11 +40,11 @@ To enable the offense updates feature navigate to **IBM QRadar Integration** &gt
 
 ## Recent IBM QRadar events
 
-Select the **Fetch Recent IBM QRadar Events** option under the **Related Links** to view the most recent IBM QRadar events. By default, a maximum number of 100 events are displayed. You can modify this default setting in the [Configuration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/qradar-ibm-intg-settings.md).
+Select the **Fetch Recent IBM QRadar Events** option under the **Related Links** to view the most recent IBM QRadar events. By default, a maximum number of 100 events are displayed. You can modify this default setting in the [Configuration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/qradar-ibm-intg-settings.md).
 
 ## Recent IBM QRadar Flows
 
 Using the Integration Hub and Flow Designer, several flows, subflows, actions are available with the IBM QRadar integration. When you select the **Fetch Recent IBM QRadar Flows** option under the Related Links, the most recent flows are retrieved. To view these flows, select **Recent IBM QRadar Flows**.
 
-By default, a maximum number of 100 flows are displayed. You can modify this default setting in the [Configuration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/qradar-ibm-intg-settings.md).
+By default, a maximum number of 100 flows are displayed. You can modify this default setting in the [Configuration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/qradar-ibm-intg-settings.md).
 

@@ -2,7 +2,7 @@
 title: Add Early Warning criteria to a risk rule
 description: Add the Early Warning flag or Admiralty score as a weighted criterion in a risk rule to prioritize vulnerable items based on vulnerability intelligence data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/add-armis-early-warning-risk-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/add-armis-early-warning-risk-rule.html
 release: australia
 topic_type: task
 last_updated: "2026-07-09"
@@ -56,10 +56,10 @@ Role required: sn\_sec\_calculator.admin
 
 To preview how the updated risk rule scores existing vulnerable items, select **Preview** in the Criteria section before saving the rule.
 
-**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
+**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/armis-early-warning-integration.md)
 
 **Related topics**  
 
 
-[Define fields and weights for the risk rule for Unified Security Exposure Management risk calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-vuln-calc-define-risk-rule-fields.md)
+[Define fields and weights for the risk rule for Unified Security Exposure Management risk calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-vuln-calc-define-risk-rule-fields.md)
 

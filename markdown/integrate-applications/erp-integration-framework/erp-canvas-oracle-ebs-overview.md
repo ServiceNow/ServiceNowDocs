@@ -2,7 +2,7 @@
 title: Oracle E-Business Suite support in Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP reads business data from Oracle E-Business Suite \(EBS\) 12.2 or later through REST services, without copying the data into ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -21,7 +21,7 @@ Zero Copy Connector for ERP reads business data from Oracle E-Business Suite \(E
 
 Oracle EBS is available as a selectable ERP software option when you create an ERP system. Oracle forms its own ERP software family, separate from SAP.
 
-For the steps to create the system, see [Create an Oracle E-Business Suite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-an-oracle-ebs-connection.md).
+For the steps to create the system, see [Create an Oracle E-Business Suite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-create-an-oracle-ebs-connection.md).
 
 ## Supported protocols
 
@@ -39,5 +39,5 @@ Oracle EBS metadata discovery is manual.
 
 ## Security
 
-For information about role requirements and transport security for Oracle EBS connections, see [Security for Oracle E-Business Suite connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-security.md).
+For information about role requirements and transport security for Oracle EBS connections, see [Security for Oracle E-Business Suite connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-security.md).
 

@@ -2,7 +2,7 @@
 title: Upsell or Downsell a customer contract line
 description: Upsell or downsell a customer contract line on the CRM Workspace. You can reduce or increase the quantities of the products specified in the customer contract line.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-upsell-downsell-service-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cce-upsell-downsell-service-contract.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,7 +49,7 @@ Role required:
 
 8.  Select **Modify**.
 
-    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-cont-ent-workflows-csm.md).
+    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-cont-ent-workflows-csm.md).
 
     -   In case of a partial swap, three quote lines are created. You can select the quote number from the confirmation message to view the quote line items. The quote is approved and the status changes to **Complete** to create an order with three order line items.
     -   In case of a full swap, two quote lines are created. You can select the quote number from the confirmation message to view the quote line items. The quote is approved and the status changes to **Complete** to create an order with two order line items.

@@ -2,7 +2,7 @@
 title: Create an insight rule
 description: Create an insight rule to generate custom insights for an automation business process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-insight-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/create-insight-rule.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -37,10 +37,10 @@ When an insight rule is processed, it generates an insight. Insights appear on t
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Creating insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-insights.md)
+**Parent Topic:**[Creating insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/creating-insights.md)
 
 **Related topics**  
 
 
-[Insight rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/insight-rule-form.md)
+[Insight rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/insight-rule-form.md)
 

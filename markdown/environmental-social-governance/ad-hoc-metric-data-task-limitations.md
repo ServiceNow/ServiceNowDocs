@@ -2,7 +2,7 @@
 title: Ad hoc metric data task limitations
 description: Ad hoc metric data tasks don't support certain features that are available for scheduled metric data tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/ad-hoc-metric-data-task-limitations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/ad-hoc-metric-data-task-limitations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-30"
@@ -50,5 +50,5 @@ Ad hoc metric data tasks don't support certain features that are available for s
 
 For calculated metric definitions with the **Calculation level** field set to **Entity**, ad hoc task data contributes to the metric score. This is the only exception. All other limitations listed before apply to both manual and calculated metric definitions.
 
-**Parent Topic:**[Create ad hoc metric data tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-adhoc-metric-data-task.md)
+**Parent Topic:**[Create ad hoc metric data tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-adhoc-metric-data-task.md)
 

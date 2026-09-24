@@ -2,7 +2,7 @@
 title: CPQ Configurator
 description: The ServiceNow CPQ Configurator interface streamlines the process of configuring and pricing customizable products that are added to Sales Customer Relationship Management transactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/explore-servicenowcpq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-servicenowcpq.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -59,8 +59,8 @@ The following workflow describes the tasks involved in configuring and using the
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Generate and maintain blueprints that contain configuration logic \(rules, attributes, product relationships\) for complex products.|[Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-configurable-prod-offerings.md)|Product catalog admins|
-|Quickly and accurately configure complex products based on requirements and product attributes, without requiring extensive knowledge of product structure and hierarchies.|[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)|Sales and order agents, customers|
+|Generate and maintain blueprints that contain configuration logic \(rules, attributes, product relationships\) for complex products.|[Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-configurable-prod-offerings.md)|Product catalog admins|
+|Quickly and accurately configure complex products based on requirements and product attributes, without requiring extensive knowledge of product structure and hierarchies.|[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)|Sales and order agents, customers|
 
 ## Product-based and attribute-based configuration
 
@@ -78,8 +78,8 @@ CPQ uses an attribute-based configuration model instead of a traditional product
 
 To learn more about configuring and using the ServiceNow CPQ Configurator, see:
 
--   [Set up ServiceNow CPQ Configurator without guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-servicenow-cpq.md)
--   [Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-configurable-prod-offerings.md)
--   [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
+-   [Set up ServiceNow CPQ Configurator without guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-servicenow-cpq.md)
+-   [Create configurable product offerings and associated blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-configurable-prod-offerings.md)
+-   [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
 -   Online help \(access help topics in the ServiceNow CPQ Configurator interface for product catalog admins\)
 

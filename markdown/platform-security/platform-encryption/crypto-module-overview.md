@@ -2,7 +2,7 @@
 title: Cryptographic module overview
 description: The Key Management Framework \(KMF\) is centered around managing Cryptographic modules. Use these modules to select a cryptographic mechanism and define where they're applied on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/crypto-module-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/crypto-module-overview.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -45,7 +45,7 @@ The following screen shows these high-level components in a cryptographic module
 
 \[Omitted image "crypto-components.png"\] Alt text: Shows the components of a cryptographic module
 
-For details on creating cryptographic modules, see [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md).
+For details on creating cryptographic modules, see [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/create-cryptographic-module.md).
 
-**Parent Topic:**[Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/explore-kmf.md)
+**Parent Topic:**[Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/explore-kmf.md)
 

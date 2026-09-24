@@ -2,7 +2,7 @@
 title: Evaluate the repaired asset in the Hardware Asset Workspace
 description: Evaluate the repaired asset and confirm if the asset is redeployable or should be disposed of. The Repair flow completes after the repaired asset is evaluated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/evaluate-repaired-ham-asset-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/evaluate-repaired-ham-asset-ws.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -42,7 +42,7 @@ Role required: asset
 
 9.  Record the time worked on the task.
 
-    You can either use the timer or record the time manually. For more details, see [Record time worked on asset repair tasks in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/record-repair-time-ham-ws.md).
+    You can either use the timer or record the time manually. For more details, see [Record time worked on asset repair tasks in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/record-repair-time-ham-ws.md).
 
     An entry for the time you worked is created in the **Time Worked** tab of the Evaluate asset task.
 
@@ -70,7 +70,7 @@ Role required: asset
     1.  The repair order and the repair order line are in the Completed stage.
     2.  The state of the asset changes to In stock and the substate changes to Available.
 
-**Parent Topic:**[Fulfill repair orders in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfill-ham-repair-orders-ws.md)
+**Parent Topic:**[Fulfill repair orders in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/fulfill-ham-repair-orders-ws.md)
 
 **Related topics**  
 

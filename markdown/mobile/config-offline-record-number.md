@@ -2,7 +2,7 @@
 title: Define the number of displayed records in offline mode
 description: Define the number of records to display to users in offline mode. Choose between 0 through 1000 records. This range gives you the flexibility to display different amounts to the user in online and offline modes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-offline-record-number.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-offline-record-number.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -55,5 +55,5 @@ This is an example of how the number of records is calculated:
 6.  Select **Save**.
 
 
-**Parent Topic:**[Supported screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/screens-offline.md)
+**Parent Topic:**[Supported screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/screens-offline.md)
 

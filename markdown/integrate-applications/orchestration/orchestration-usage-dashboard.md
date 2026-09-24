@@ -2,12 +2,12 @@
 title: Use the Orchestration Usage dashboard
 description: This dashboard shows an overview of Orchestration usage metrics to show customers how their organization uses Orchestration and to support license compliance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/orchestration-usage-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/orchestration-usage-dashboard.html
 release: australia
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Classic Orchestration, Workflow Data Fabric]
 ---

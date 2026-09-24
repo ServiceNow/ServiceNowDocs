@@ -2,7 +2,7 @@
 title: Create a visitor badge template
 description: Create an HTML template that can be used to print badges for your workplace locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/create-visitor-badge-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/create-visitor-badge-template.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -92,12 +92,12 @@ Paper size that is used to print the badge.
 
 ## What to do next
 
-Assign the badge template to a workplace location. For more information, see [Assign badge templates to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/assign-badge-location.md).
+Assign the badge template to a workplace location. For more information, see [Assign badge templates to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/assign-badge-location.md).
 
--   **[Assign badge templates to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/assign-badge-location.md)**  
+-   **[Assign badge templates to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/assign-badge-location.md)**  
 Assign a badge template to a workplace location.
 
-**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 

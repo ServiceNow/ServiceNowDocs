@@ -2,7 +2,7 @@
 title: Domain separation and Audit Management
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Audit Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-management-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/audit-management-domain-separation.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -116,7 +116,7 @@ The following changes are made to the domain assignment process to manage data s
 |Observation|Engagement|
 |Plan|User|
 
-**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-reference.md)
+**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-management-reference.md)
 
 **Related topics**  
 

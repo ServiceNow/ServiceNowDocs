@@ -2,7 +2,7 @@
 title: Types of differences between CDM applications
 description: Descriptions and examples of differences between CDM applications when using the Config Data Analyzer tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-cda-diff-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-cda-diff-types.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

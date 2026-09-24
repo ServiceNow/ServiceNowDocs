@@ -2,7 +2,7 @@
 title: Assigning and managing alerts
 description: Learn how to assign and manage alerts in Express List.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/assigning-and-managing-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/assigning-and-managing-alerts.html
 release: australia
 product: Event Management
 classification: event-management

@@ -2,7 +2,7 @@
 title: Generative AI summarization on the standard ticket page
 description: On the standard ticket page, requesters can quickly access a generative AI summary of the ticket and its recent activity at the top. To display this summary, make sure the Summary fields is set up on the Ticket configuration page and that the ServiceNow Otto in Standard Ticket Page skill is enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/genai-summary-standard-ticket-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/genai-summary-standard-ticket-page.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -22,7 +22,7 @@ The **Summarize** button appears when at least one field is configured. If no fi
 
 Each summary uses a set structure for consistency, making information easy to understand and improving communication in the ticketing process.
 
-**Parent Topic:**[Standard ticket page for a requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/stpage-req-item.md)
+**Parent Topic:**[Standard ticket page for a requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/stpage-req-item.md)
 
 **Related topics**  
 

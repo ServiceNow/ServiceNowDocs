@@ -2,7 +2,7 @@
 title: Recordless RESTMessageV2 example
 description: You can use the RESTMessageV2\(\) constructor with no parameters to define a REST message entirely in the script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_RecordlessRESTMessageV2Example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/r\_RecordlessRESTMessageV2Example.html
 release: australia
 product: Web Services
 classification: web-services
@@ -27,5 +27,5 @@ restMessage.setRequestBody("{\"short_description\" : \"Test incident\"}");
 var response = restMessage.execute();
 ```
 
-**Parent Topic:**[Scripting outbound REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ScriptingOutboundREST.md)
+**Parent Topic:**[Scripting outbound REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ScriptingOutboundREST.md)
 

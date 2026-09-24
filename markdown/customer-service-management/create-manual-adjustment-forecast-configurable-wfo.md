@@ -2,7 +2,7 @@
 title: Create a manual adjustment for a forecast
 description: Adjust forecasts manually to fine-tune them for greater accuracy. Create the adjustment for a specified time period and analyze how it impacts your forecast.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-manual-adjustment-forecast-configurable-wfo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-manual-adjustment-forecast-configurable-wfo.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -125,5 +125,5 @@ The total is 34.
     -   The adjusted values will be used in the resource conversion formula and the demand forecast displayed on the calendar.
     -   Any other manual adjustment configurations that were created would be unpublished and moved to **Draft** state.
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-demand-forecast-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-demand-forecast-configurable-wfo-cs.md)
 

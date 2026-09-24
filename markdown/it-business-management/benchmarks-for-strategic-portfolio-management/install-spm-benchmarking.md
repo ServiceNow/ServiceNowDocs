@@ -2,7 +2,7 @@
 title: Install SPM Benchmarks
 description: As an admin, you can install the SPM Benchmarks application \(sn\_spm\_bm\) from the ServiceNow Store.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/benchmarks-for-strategic-portfolio-management/install-spm-benchmarking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/benchmarks-for-strategic-portfolio-management/install-spm-benchmarking.html
 release: australia
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
@@ -30,7 +30,7 @@ The following items are installed with SPM Benchmarks:
 -   Roles
 -   Scheduled jobs
 
-For more information, see [Components installed with SPM Benchmarking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/components-installed-with-spm-benchmarking.md).
+For more information, see [Components installed with SPM Benchmarking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/benchmarks-for-strategic-portfolio-management/components-installed-with-spm-benchmarking.md).
 
 ## Procedure
 
@@ -51,5 +51,5 @@ For more information, see [Components installed with SPM Benchmarking](https://r
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/configuring-benchmarks.md)
+**Parent Topic:**[Configuring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/benchmarks-for-strategic-portfolio-management/configuring-benchmarks.md)
 

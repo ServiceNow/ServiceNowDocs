@@ -2,7 +2,7 @@
 title: Assign topics to external content
 description: Assign topics to external learning content in Learning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/assign-external-content-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/assign-external-content-topics.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -31,5 +31,5 @@ Role required:sn\_lc.learning\_admin, sn\_lc.learning\_course\_catalog\_admin
 4.  Select a topic to be added as connected content to the external learning course.
 
 
-**Parent Topic:**[View external Learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/view-external-learning-content.md)
+**Parent Topic:**[View external Learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/view-external-learning-content.md)
 

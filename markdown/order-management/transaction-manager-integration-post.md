@@ -2,7 +2,7 @@
 title: ServiceNow Quote Experience Integration - POST
 description: Learn how to write data to a third-party application suh as Salesforce by using the POST integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-integration-post.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/transaction-manager-integration-post.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ Learn how to write data to a third-party application suh as Salesforce by using 
 
 ## Prerequisites
 
-This article assumes that you have a CPQ environment that is integrated to a corresponding Salesforce environment. Before you continue, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md) to complete the necessary integrations.
+This article assumes that you have a CPQ environment that is integrated to a corresponding Salesforce environment. Before you continue, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md) to complete the necessary integrations.
 
-When the end user initiates a function that writes CPQ data back to the corresponding Salesforce transaction record, CPQ must have the Salesforce transaction’s record identifier on hand. To understand how to retrieve the Salesforce transaction ID and save it into CPQ for future use, see [ServiceNow Quote Experience Integration - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integration-get.md).
+When the end user initiates a function that writes CPQ data back to the corresponding Salesforce transaction record, CPQ must have the Salesforce transaction’s record identifier on hand. To understand how to retrieve the Salesforce transaction ID and save it into CPQ for future use, see [ServiceNow Quote Experience Integration - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/transaction-manager-integration-get.md).
 
 ## Salesforce setup
 
@@ -99,11 +99,11 @@ Add Connection
 
 The screenshot below shows the external connection as “Salesforce” in the POST integration.
 
-If you want to create a new connection, see the "Creating a Connection" section in [ServiceNow Quote Experience Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integrations.md).
+If you want to create a new connection, see the "Creating a Connection" section in [ServiceNow Quote Experience Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/transaction-manager-integrations.md).
 
 \[Omitted image "cpq-txn-mgr-integration-post-add-connection.png"\] Alt text: ServiceNow Quote Experience Setup
 
-To POST data back to Salesforce, you need the Salesforce transaction record ID. If you have not yet set up the GET integration to fetch the transaction ID, see [ServiceNow Quote Experience Integration - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integration-get.md).
+To POST data back to Salesforce, you need the Salesforce transaction record ID. If you have not yet set up the GET integration to fetch the transaction ID, see [ServiceNow Quote Experience Integration - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/transaction-manager-integration-get.md).
 
 ## Add integration
 
@@ -163,7 +163,7 @@ This transformation template is added to the Transformation Template area of the
 
 \[Omitted image "cpq-txn-mgr-integration-post-add-2.png"\] Alt text: ServiceNow Quote Experience Setup
 
-For more information about Handlebar syntax, see [ServiceNow Quote Experience Integrations - Handlebars syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integrations-handlebar-syntax.md).
+For more information about Handlebar syntax, see [ServiceNow Quote Experience Integrations - Handlebars syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/transaction-manager-integrations-handlebar-syntax.md).
 
 ## Debugging the POST call
 
@@ -187,5 +187,5 @@ To use the Integration Admin interface to debug a POST call that is not working 
 **Related topics**  
 
 
-[ServiceNow Quote Experience Integration - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integration-get.md)
+[ServiceNow Quote Experience Integration - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/transaction-manager-integration-get.md)
 

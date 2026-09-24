@@ -2,7 +2,7 @@
 title: Use the script editor to format alert values for the Splunk Enterprise Security Event Ingestion integration
 description: In addition to the directly mapped fields from the ingested notable event values, and the values you enter manually, use the script editor to format field values on the security incident during the mapping step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest\_script\_editor-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest\_script\_editor-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

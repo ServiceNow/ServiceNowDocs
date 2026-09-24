@@ -2,7 +2,7 @@
 title: Exploring ATF troubleshooting agent
 description: ATF troubleshooting agent streamlines the process of figuring out why tests are failing on specific metadata.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-troubleshooting-agent-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-troubleshooting-agent-explore.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -63,12 +63,12 @@ This role is required to access metadata tables to accurately troubleshoot test 
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Simplify test failure diagnosis|[Troubleshoot test failures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-troubleshooting-agent-test-failure.md)|atf\_triager + now\_assist\_panel\_user|
+|Simplify test failure diagnosis|[Troubleshoot test failures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-troubleshooting-agent-test-failure.md)|atf\_triager + now\_assist\_panel\_user|
 
 ## What to explore next
 
 To learn more about configuring and using ATF troubleshooting agent, see:
 
--   [Install ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-agent-install.md)
--   [Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-troubleshooting-agent-test-failure.md)
+-   [Install ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/test-agent-install.md)
+-   [Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-troubleshooting-agent-test-failure.md)
 

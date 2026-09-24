@@ -2,7 +2,7 @@
 title: User Space Suggestions
 description: Employee recommended workspace suggestions are cached in the User Space Suggestions \(sn\_wsd\_core\_user\_space\_suggestions\) table record. This table gets automatically updated when employees use the workplace preferences option to update their reservations, workplace services, presence and collaborators information. Application uses this cached data while proposing a workspace suggestion to an employee.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/userspace-suggestions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/userspace-suggestions.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -63,9 +63,9 @@ Space types
 
 Indicates the Space type column option in the Spaces table record. For example, Workplace/Desks. For more information, see:
 
--   [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md)
--   [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-a-space.md)
--   [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md)
+-   [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md)
+-   [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-a-space.md)
+-   [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/add-space-type-configuration-wsd.md)
 
 
 </td></tr><tr><td>
@@ -74,7 +74,7 @@ Building
 
 </td><td>
 
-Indicates the building proposed to an employee or a building selected by an employee based on workplace preferences and suggestions. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md) and [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md).
+Indicates the building proposed to an employee or a building selected by an employee based on workplace preferences and suggestions. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md) and [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/use-workplace-concierge.md).
 
 </td></tr><tr><td>
 
@@ -88,16 +88,16 @@ System ID of the default Reservable module that is used. For example, the **Desk
 </table>    **Note:** The cached data in the User Space suggestions \(sn\_wsd\_core\_user\_space\_suggestions\) is purged after 48 hours by the application.
 
 
-**Parent Topic:**[Configure workplace space suggestions for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/configure-workplace-suggestions.md)
+**Parent Topic:**[Configure workplace space suggestions for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/configure-workplace-suggestions.md)
 
 **Related topics**  
 
 
 [Space suggestion Configuration]()
 
-[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md)
+[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 
-[Manage your in-office presence preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/workplace-preferences-emp-center.md)
+[Manage your in-office presence preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/workplace-preferences-emp-center.md)
 
-[Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md)
+[Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md)
 

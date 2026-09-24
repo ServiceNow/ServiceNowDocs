@@ -2,7 +2,7 @@
 title: Use case: Data isolation and monitoring with domain separation
 description: Optimizing data isolation and monitoring with domain separation ensures financial institutions protect sensitive information, improve operational efficiency, and maintain compliance by securely segregating departmental data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-domain-separation-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-domain-separation-use-case.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

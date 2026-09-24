@@ -2,7 +2,7 @@
 title: Citrix Xen Hyper-V Discovery
 description: ServiceNow Discovery uses the Citrix Xen Hyper-V pattern to find and map instances. Discover these resources by installing the pattern applications from the ServiceNow Store and add Citrix Xen Hyper-V to the Linux Server Pattern’s Extension Section.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/citrix-xen-hyper-v-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/citrix-xen-hyper-v-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -41,7 +41,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create an extension section after the Linux Server pattern**
 
-    Create an extension section after the Linux Server pattern and associate the **Citrix Xen HyperV** pattern to be triggered after the execution of the Linux Server discovery pattern. For more information on creating extension sections, see [Enhance patterns without modifying identification sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/modify-pattern-using-extensions.md).
+    Create an extension section after the Linux Server pattern and associate the **Citrix Xen HyperV** pattern to be triggered after the execution of the Linux Server discovery pattern. For more information on creating extension sections, see [Enhance patterns without modifying identification sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/modify-pattern-using-extensions.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -324,5 +324,5 @@ Relationships created by Citrix Xen Hyper-V Discovery
 |cmdb\_ci\_hyper\_v\_server|Define resources for :: Gets resources from|cmdb\_ci\_hyper\_v\_resource\_pool|
 |cmdb\_ci\_hyper\_v\_instance|Registered on :: Has registered|cmdb\_ci\_hyper\_v\_server|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

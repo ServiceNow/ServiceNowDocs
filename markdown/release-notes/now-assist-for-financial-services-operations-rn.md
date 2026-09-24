@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Financial Services Operations \(FSO\) release notes
 description: The ServiceNow ServiceNow Otto for Financial Services Operations \(FSO\) application brings generative and agentic AI to Financial Services Operations. Features include AI agents, case summarization, customer profile and interaction context summarization, disputes intake via Virtual Agent, and support for third-party language models. ServiceNow Otto for FSO was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Financial Services Operations \(FSO\) application brings generative and agentic AI to Financial Services Operations. Features include AI agents, case summarization, customer profile and interaction context summarization, disputes intake via Virtual Agent, and support for third-party language models. ServiceNow Otto for FSO was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Financial Services Operations \(FSO\) application brings generative and agentic AI to Financial Services Operations. Features include AI agents, case summarization, customer profile and interaction context summarization, disputes intake via Virtual Agent, and support for third-party language models. ServiceNow Otto for FSO was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Financial Services Operations \(FSO\) application brings generative and agentic AI to Financial Services Operations. Features include AI agents, case summarization, customer profile and interaction context summarization, disputes intake via Virtual Agent, and support for third-party language models. ServiceNow Otto for FSO was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Financial Services Operations \(FSO\) application brings generative and agentic AI to Financial Services Operations. Features include AI agents, case summarization, customer profile and interaction context summarization, disputes intake via Virtual Agent, and support for third-party language models. ServiceNow Otto for FSO was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-financial-services-operations-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-financial-services-operations-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ See [AI in Financial Services Operations](https://raw.githubusercontent.com/Serv
     Install ServiceNow Otto for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
 
 ## August 2026
 
@@ -51,7 +51,7 @@ The ServiceNow® ServiceNow Otto for Financial Services Operations \(FSO\) appli
 
 -   **[Now Assist &gt; ServiceNow Otto announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 ## July 2026

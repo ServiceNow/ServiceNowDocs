@@ -2,7 +2,7 @@
 title: Viewing ETTR predictions
 description: View the examples of ETTR views across the journey of a case which indicates the estimated time to resolve based on the historical data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-regression-solution-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/create-regression-solution-hr.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -37,10 +37,10 @@ Once you configure ETTR, you can see the **HR Case Resolution Time** option. See
 
 Based on the configuration, the views may be different for your implementation.
 
-**Parent Topic:**[HR PIWB template: Recommend estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-ettr.md)
+**Parent Topic:**[HR PIWB template: Recommend estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-piwb-ettr.md)
 
 **Related topics**  
 
 
-[Estimated time to resolve HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/train-model-ettr.md)
+[Estimated time to resolve HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/train-model-ettr.md)
 

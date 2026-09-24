@@ -2,7 +2,7 @@
 title: View IBM PVU mappings for the legacy IBM PVU Process Pack
 description: Every rule listed in the IBM PVU Table is represented by one PVU mapping record in the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_ViewingIBMPVUMappings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/t\_ViewingIBMPVUMappings.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -47,5 +47,5 @@ For example, in the IBM PVU Table there is one line with processor name POWER5 Q
     |Rule publication date|Date published by IBM on the PVU Rules table.|
 
 
-**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
+**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
 

@@ -2,7 +2,7 @@
 title: Execute a scan suite as a provider
 description: Execute a scan suite to identify issues in your instance and review the scan results.Modify the scan suite schedule to change when a scan suite runs automatically in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/se-execute-scan-check.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/se-execute-scan-check.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -39,7 +39,7 @@ Role required: admin \(sb\_admin\)
     You see all identified issues categorized by priority: high, medium, and low. You can click an individual issue to view resolution details.
 
 
-**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-administer.md)
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-administer.md)
 
 ## Modify the scan suite schedule as a provider
 
@@ -63,5 +63,5 @@ Role required: admin \(sb\_admin\)
 **Related topics**  
 
 
-[Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-se-center.md)
+[Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-se-center.md)
 

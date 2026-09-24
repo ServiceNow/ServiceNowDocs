@@ -2,7 +2,7 @@
 title: Complete a legal matter task
 description: When you finish working on an assigned matter task, mark the task as complete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/complete-matter-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/complete-matter-task.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -39,5 +39,5 @@ Role required: sn\_lg\_ops.legal\_user
 
 The matter task is completed and its state updates to Review. It sent to the matter owner for approval.
 
-**Parent Topic:**[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)
+**Parent Topic:**[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)
 

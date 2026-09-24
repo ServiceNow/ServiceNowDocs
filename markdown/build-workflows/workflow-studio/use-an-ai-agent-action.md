@@ -2,7 +2,7 @@
 title: Use an AI agent action
 description: Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/use-an-ai-agent-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/use-an-ai-agent-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -120,5 +120,5 @@ Since this example runs in supervised mode, the flow pauses until the support us
 
 After the support user provides the necessary response, the flow continues running the action and provides it output values. The flow uses these output values to send an email message.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

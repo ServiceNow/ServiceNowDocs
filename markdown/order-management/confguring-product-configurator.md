@@ -2,7 +2,7 @@
 title: Setting up the Configurator
 description: Control the product options displayed in the Configurator interface by using the Open State Management API framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/confguring-product-configurator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/confguring-product-configurator.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

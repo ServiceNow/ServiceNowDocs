@@ -2,7 +2,7 @@
 title: Create a product non-conformance case
 description: Create a non-conformance case report for products that had an issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-non-conformance-case-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-product-non-conformance-case-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: Quality Issue Management Admin or Product Non-conformance Triager
 
 3.  On the Product Non-conformance Case form, fill in the fields.
 
-    For a description of the field values, see [Product details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-non-conformance-case-form.md).
+    For a description of the field values, see [Product details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-product-non-conformance-case-form.md).
 
 4.  Select **Save**.
 
@@ -44,7 +44,7 @@ Role required: Quality Issue Management Admin or Product Non-conformance Triager
 
 8.  On the Product Non Conformance Case task form, fill in the fields.
 
-    For a description of the field values, see [Product non-conformance case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-non-conformance-case-task-form.md).
+    For a description of the field values, see [Product non-conformance case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-product-non-conformance-case-task-form.md).
 
 9.  Select **Save**.
 

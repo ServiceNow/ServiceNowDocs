@@ -2,11 +2,11 @@
 title: Combined Order Management release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Order Management from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-ordermanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-ordermanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 5
+last_updated: "2026-09-24"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,21 @@ Zurich
 
 </td><td>
 
--   **[Support for complex characteristics for orders](https://www.servicenow.com/docs/access?context=som-using&family=zurich&ft:locale=en-US)**
+-   **[Move order](https://www.servicenow.com/docs/access?context=move-order&family=zurich&ft:locale=en-US)**
+
+The move order helps agents to perform move journey that requires location change, the location and change of attribute values, the location change and add or delete the product.
+
+
+ -   **[Pricing Adjustments for order line items](https://www.servicenow.com/docs/access?context=add-pricing-adjustment-to-an-order-line-item&family=zurich&ft:locale=en-US)**
+
+Enables order agents to quickly view, add, and edit manual price adjustments for order line items directly from the list view, reducing clicks and streamlining the process. This new experience makes it easier for order agents to enter manual price adjustments and provides a holistic view of both automatic and manual adjustments.
+
+-   **[Summarization for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-mgmt-summarize-order&family=zurich&ft:locale=en-US)**
+
+Summarizes complex orders across products, services, and fulfillment tasks. This helps agents quickly understand status, take the right actions, and avoid navigating fragmented views. This results in easier next steps and improved productivity. For more information, see the [ServiceNow Otto for Order Management release notes](https://www.servicenow.com/docs/access?context=now-assist-order-management-rn&family=zurich&ft:locale=en-US).
+
+
+ -   **[Support for complex characteristics for orders](https://www.servicenow.com/docs/access?context=som-using&family=zurich&ft:locale=en-US)**
 
 Take advantage of the following complex characteristics for orders:
 
@@ -89,6 +103,40 @@ Australia
 Track order progress through configurable fulfillment milestones mapped to order specifications. Milestones are automatically generated when order lines are created and can be manually marked as reached. View milestone details, track milestone status on order lines, and associate milestones with tasks for integrated fulfillment tracking and visibility.
 
 
+ -   **[Derived pricing on order line items](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=australia&ft:locale=en-US)**
+
+Improve pricing accuracy by letting the system automatically manage derived order lines based on pricing rule responses. When pricing rules are evaluated, the system handles line-level changes for you based on source product offer lines and their date ranges:
+
+    -   Adds new system-generated lines when pricing rules require them.
+    -   Updates existing derived lines when pricing conditions change.
+    -   Removes derived lines that no longer apply.
+    -   Restricts editing and copying on system-generated lines to preserve pricing integrity.
+
+ -   **[Order header tasks](https://www.servicenow.com/docs/access?context=order-header-tasks&family=australia&ft:locale=en-US)**
+
+Create and track tasks at the order and top order line level, independent of order line items, across all stages of the order lifecycle from pre-decomposition through post-fulfillment to support operational tasks such as customer onboarding, compliance review, approval tracking, customer notifications, and post-activation follow-up.
+
+
+ -   **[Customer entities on Order](https://www.servicenow.com/docs/access?context=som-create-product-order&family=australia&ft:locale=en-US)**
+
+Capture Deal Type \(Direct or Indirect\) and Route to Market on every order to ensure the right parties are assigned, and deal structure is consistent from quote through to order.
+
+
+ -   **[Delta pricing on orders](https://www.servicenow.com/docs/access?context=net-pricing-sp-contracts&family=australia&ft:locale=en-US)**
+
+Calculate pricing and quantity changes during MACD activities and renewals by deriving deltas from existing products, contracts, or purchases. This improves accuracy when processing order modifications.
+
+    -   Defaults contract type and contract line type when empty, based on the order and line actions being performed.
+    -   Adds delta pricing–related header and line fields, along with pricing adjustment rule identifiers and conditions, and supports mapping these fields across order, product instance, and order copy flows.
+-   **[Price and quantity ramps on order line items](https://www.servicenow.com/docs/access?context=defining-products-with-ramps&family=australia&ft:locale=en-US)**
+
+View price and quantity ramps directly on order line items to model planned changes over time within a single order, providing visibility into pricing changes without managing multiple orders. For more information, see the [Product Catalog Management and Pricing Management release notes](https://www.servicenow.com/docs/access?context=product-catalog-pricing-management-rn&family=australia&ft:locale=en-US)
+
+-   **[Manage order updates with ServiceNow Otto](https://www.servicenow.com/docs/access?context=bulk-update-order-lines-with-now-assist&family=australia&ft:locale=en-US)**
+
+Use a conversational AI assistant to improve order triage and resolution. The assistant understands order context and supports guided actions such as updating shipping addresses and quantities across order line items.
+
+
 </td></tr></tbody>
 </table>## Changes
 
@@ -108,7 +156,12 @@ Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[Changes to OM integration with SPM](https://www.servicenow.com/docs/access?context=configure-site-project-product-offering&family=zurich&ft:locale=en-US)**
+
+Use OM integration with SPM to create program, reuse program, create site project and reuse site project in the SPM.
+
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -206,6 +259,8 @@ Zurich
 Install Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -216,6 +271,8 @@ Australia
 
 Install Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -380,5 +437,5 @@ Australia
  See [Order management](https://www.servicenow.com/docs/access?context=explore-order-management&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

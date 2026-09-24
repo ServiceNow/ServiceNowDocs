@@ -2,7 +2,7 @@
 title: Resource generators in Recommended Actions
 description: Resource generators in Recommended Actions provide resources that you can use as inputs to actions such as guidances and field recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-resource-generators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-resource-generators.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Resource generators provide resources such as a knowledge article, a set of case
 
 Another way to think of a resource generator is as a function with inputs and outputs. For example, you can create a resource generator that predicts a knowledge article and then use that knowledge article as a recommended action for a case.
 
-You can select a resource generator from the list or create a resource generator. For a complete list of resource generators that are included with the Recommended Actions application, see [Components installed with Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-installed-components.md).
+You can select a resource generator from the list or create a resource generator. For a complete list of resource generators that are included with the Recommended Actions application, see [Components installed with Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-installed-components.md).
 
 ## Resource generator types
 
@@ -201,5 +201,5 @@ The **sn\_nb\_action\_adv.similarity\_prediction.timeout** system property contr
 **Related topics**  
 
 
-[Create a resource generator in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-resource-generators-create.md)
+[Create a resource generator in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-resource-generators-create.md)
 

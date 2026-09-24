@@ -2,7 +2,7 @@
 title: Create an achievement rule item
 description: Create an achievement rule item to define if all or a count of items need to be completed to receive an achievement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/achievement-rule-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/achievement-rule-item.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -20,7 +20,7 @@ Create an achievement rule item to define if all or a count of items need to be 
 
 Role required: sn\_lep.achievement\_manager
 
-Create an achievement rule. For more information see, [Create an achievement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-achievement-rule.md).
+Create an achievement rule. For more information see, [Create an achievement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-achievement-rule.md).
 
 ## Procedure
 
@@ -92,7 +92,7 @@ Order in which the achievement rule item appears.
 </table>5.  Select **Submit**.
 
 
-**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-learning-achievements.md)
+**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-learning-achievements.md)
 
 **Related topics**  
 

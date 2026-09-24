@@ -2,7 +2,7 @@
 title: Generate knowledge article with ServiceNow Otto
 description: As an agent, generate knowledge articles for closed work order tasks within the CSM/FSM Configurable Workspace and classic environment with ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/na-fsm-generate-kb-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/na-fsm-generate-kb-article.html
 release: australia
 product: Work Order Management
 classification: work-order-management

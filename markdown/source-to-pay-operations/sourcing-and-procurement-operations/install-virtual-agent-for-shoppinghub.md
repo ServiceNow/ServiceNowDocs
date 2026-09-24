@@ -2,7 +2,7 @@
 title: Install Virtual Agent for Sourcing and Procurement Operations
 description: Install Virtual Agent for Sourcing and Procurement Operations from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/install-virtual-agent-for-shoppinghub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/install-virtual-agent-for-shoppinghub.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -54,5 +54,5 @@ Activate the following plugins:
 6.  Select **Install**.
 
 
-**Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)
+**Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)
 

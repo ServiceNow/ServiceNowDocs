@@ -2,7 +2,7 @@
 title: AI summarization of email interactions
 description: Email Interaction uses AI to generate summaries of email threads, reducing the time agents spend reading full conversation histories. Summaries can be generated on demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/eaai-ai-summarization-email-interactions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/eaai-ai-summarization-email-interactions.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-11"
@@ -67,7 +67,7 @@ When using AI summarization for email interactions, consider the following limit
 **Related topics**  
 
 
-[Using Email Interaction for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-email-interaction-customer-service-management.md)
+[Using Email Interaction for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-email-interaction-customer-service-management.md)
 
-[System properties for configuring Email Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/system-properties-for-configuring-email-as-an-interaction.md)
+[System properties for configuring Email Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/system-properties-for-configuring-email-as-an-interaction.md)
 

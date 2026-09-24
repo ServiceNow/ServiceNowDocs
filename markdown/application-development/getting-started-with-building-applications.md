@@ -2,7 +2,7 @@
 title: Learning about developing on the ServiceNow AI Platform
 description: Using the ServiceNow Creator Workflow products, you can create intuitive experiences that run on the powerful ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/getting-started-with-building-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/getting-started-with-building-applications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,12 +18,12 @@ Using the ServiceNow Creator Workflow products, you can create intuitive experie
 
 Use this document to discover how to:
 
--   [Find all ServiceNow developer products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-ex-overview.md)
--   [Understand low-code and pro-code development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/low-vs-pro-code.md)
--   [Understand ServiceNow licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/licensing.md)
--   [Get support as a developer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_support-servicenow-developers.md)
--   [Understand the various ServiceNow user interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/understand-different-ui-experiences.md)
--   [Learn the basics of being a developer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/software-dev-cycle.md)
+-   [Find all ServiceNow developer products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-ex-overview.md)
+-   [Understand low-code and pro-code development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/low-vs-pro-code.md)
+-   [Understand ServiceNow licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/licensing.md)
+-   [Get support as a developer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/r_support-servicenow-developers.md)
+-   [Understand the various ServiceNow user interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/understand-different-ui-experiences.md)
+-   [Learn the basics of being a developer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/software-dev-cycle.md)
 
 Please use the reader feedback feature to suggest additional topics.
 

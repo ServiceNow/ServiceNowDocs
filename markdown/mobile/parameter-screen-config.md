@@ -2,7 +2,7 @@
 title: Configure an input form screen
 description: Configure an input parameter so that your users can see a list of records from their mobile app. To access a record from the list, a user just has to tap the record name.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/parameter-screen-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/parameter-screen-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -80,7 +80,7 @@ Available offline
 
 </td><td>
 
-Option to make the input form screen is available in offline mode. For details on offline mode, see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md).
+Option to make the input form screen is available in offline mode. For details on offline mode, see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-offline-mode.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Track timestamps for input updates
 
 </td><td>
 
-Option to add timestamps for inputted data. For example, use this option to track inputs from various users within an input form screen. The timestamp data is extracted using scripted code of the action item type “script”. For an example script to demonstrate how to extract timestamp data, see [Using timestamps to track user changes in an input form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/track-timestamp-script.md).
+Option to add timestamps for inputted data. For example, use this option to track inputs from various users within an input form screen. The timestamp data is extracted using scripted code of the action item type “script”. For an example script to demonstrate how to extract timestamp data, see [Using timestamps to track user changes in an input form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/track-timestamp-script.md).
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Fetch Type
 
 </td><td>
 
-Fetch type settings determine when data is loaded in screens. Change your fetch type to optimize load time performance for your screens. Select from **Background**, **Dynamic prefetch**, **On-demand**, or **Prefetch** as required for your setup. For more information about these options, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/applet-fetch-types.md).
+Fetch type settings determine when data is loaded in screens. Change your fetch type to optimize load time performance for your screens. Select from **Background**, **Dynamic prefetch**, **On-demand**, or **Prefetch** as required for your setup. For more information about these options, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/applet-fetch-types.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Header Card
 
 </td><td>
 
-An optional mobile view to display at the top of your input form screen. There can only be one header card for each input form screen. Select **Choose** to add an existing header card, or select **New** to configure one. For more information on view configuration, see [Understanding mobile cards and legacy cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-itemvew-v-viewconfig.md).**Note:** The header card supports buttons for navigation purposes only. Buttons can be used to navigate to another screen. Any other button functionality is not supported within the header card.
+An optional mobile view to display at the top of your input form screen. There can only be one header card for each input form screen. Select **Choose** to add an existing header card, or select **New** to configure one. For more information on view configuration, see [Understanding mobile cards and legacy cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mcb-itemvew-v-viewconfig.md).**Note:** The header card supports buttons for navigation purposes only. Buttons can be used to navigate to another screen. Any other button functionality is not supported within the header card.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -251,7 +251,7 @@ Inputs
 
 </td><td>
 
-Input fields that you want to appear on your input form screen. Select **New** to add a new input field. For more information about configuring input fields, see [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-inputs.md).
+Input fields that you want to appear on your input form screen. Select **New** to add a new input field. For more information about configuring input fields, see [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/param-screen-config-inputs.md).
 
 </td></tr><tr><td>
 
@@ -259,7 +259,7 @@ Variables
 
 </td><td>
 
-Variables that are to be used in your input form screen. Variables define what information is collected from the user automatically or the default information for an input. Select **New** to add a new variable. For more information about configuring variables, see [Configure attributes for input form screen variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-variables.md).
+Variables that are to be used in your input form screen. Variables define what information is collected from the user automatically or the default information for an input. Select **New** to add a new variable. For more information about configuring variables, see [Configure attributes for input form screen variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/param-screen-config-variables.md).
 
 </td></tr><tr><td>
 
@@ -267,7 +267,7 @@ Actions
 
 </td><td>
 
-Actions that you want to appear on an Input field to trigger a UI rule. Created actions will be shown on the keyboard when the user selects the specified input. For more information about configuring actions, see [Configure input sources in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-actions.md).
+Actions that you want to appear on an Input field to trigger a UI rule. Created actions will be shown on the keyboard when the user selects the specified input. For more information about configuring actions, see [Configure input sources in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/param-screen-config-actions.md).
 
 </td></tr><tr><td>
 
@@ -275,7 +275,7 @@ UI rules
 
 </td><td>
 
-Define what elements of the mobile interface displays and which fields update when certain conditions are met. For more information, see [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-rules.md).
+Define what elements of the mobile interface displays and which fields update when certain conditions are met. For more information, see [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-ui-rules.md).
 
 </td></tr><tr><td>
 
@@ -285,7 +285,7 @@ Pages
 
 **Note:** This field displays when you select **Custom page and section setup** in the **Input form page display** area.
 
-The sections or inputs that appear on your input form screen when there are multiple pages. Select **New** to define a new page. For more information about configuring pages, see [Configure input form pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-page-config.md).
+The sections or inputs that appear on your input form screen when there are multiple pages. Select **New** to define a new page. For more information about configuring pages, see [Configure input form pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-page-config.md).
 
 </td></tr><tr><td>
 
@@ -295,7 +295,7 @@ Section mappings
 
 **Note:** This field displays when you select **Custom page and section setup** in the **Input form page display** area.
 
-The way that sections are displayed on your input form screen. You can configure how each section displays and the order of sections. Select **New** to define a new section mapping. For more information about configuring section mappings, see [Configure input form sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-sections-create.md).
+The way that sections are displayed on your input form screen. You can configure how each section displays and the order of sections. Select **New** to define a new section mapping. For more information about configuring section mappings, see [Configure input form sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-sections-create.md).
 
 </td></tr><tr><td>
 
@@ -309,7 +309,7 @@ Define an input form screen action to display as an icon in the top menu section
 
 There can only be one function instance per input form screen, either as a top menu icon or within the top menu function.
 
- For more information, see [Configure input form screen actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/input-form-screen-actions-config.md).
+ For more information, see [Configure input form screen actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/input-form-screen-actions-config.md).
 
 </td></tr><tr><td>
 
@@ -323,7 +323,7 @@ Define an input form screen action to display within the more menu \(\[Omitted i
 
 There can only be one function instance per input form screen, either as a top menu icon or within the top menu function.
 
- For more information, see [Configure input form screen actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/input-form-screen-actions-config.md).
+ For more information, see [Configure input form screen actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/input-form-screen-actions-config.md).
 
 </td></tr></tbody>
 </table>6.  Select **Save**.

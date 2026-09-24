@@ -2,7 +2,7 @@
 title: Report a major incident from Security Incident Response
 description: Report a critical incident from Security Incident Response in the Digital resilience incident reporting application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/report-inci-from-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/report-inci-from-sir.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,7 +51,7 @@ Security Incident Response reporting workflow consists of the following steps:
 
     The assessment template is aligned with the Digital Operational Resilience classification for major Information and Communication Technology \(ICT\) incidents. The same assessment template is tagged in the reported incident.
 
-    The analyst assigned to the case assesses the incident's impact on factors such as critical services, clients, data and data losses, reputation, service downtime, geographical spread, and economy. These sections in the template help you determine the impact of the incident and whether it should be reported to the regulators. The template also responds to the questions in the questionnaire. For information on the assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    The analyst assigned to the case assesses the incident's impact on factors such as critical services, clients, data and data losses, reputation, service downtime, geographical spread, and economy. These sections in the template help you determine the impact of the incident and whether it should be reported to the regulators. The template also responds to the questions in the questionnaire. For information on the assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 3.  Select **Accept work**.
 

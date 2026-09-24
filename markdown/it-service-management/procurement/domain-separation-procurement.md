@@ -2,7 +2,7 @@
 title: Domain separation and Procurement
 description: Domain separation is supported in Procurement processing. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/domain-separation-procurement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/procurement/domain-separation-procurement.html
 release: australia
 product: Procurement
 classification: procurement
@@ -32,7 +32,7 @@ For more information on support levels, see [Application support for domain sepa
 
 To create or edit Purchase Orders \(POs\) or PO line items that distinguish the domain, customers must be working in the proper domain. When adjusting any configuration, you should be in the domain where you're doing the work. Use the domain picker to choose the correct domain to work in.
 
-**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/procurement/c_Procurement.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Setup Telecommunications Customer 360
 description: Use the Telecom Customer 360 guided setup to configure the unified customer view for your organization. Complete the three setup tasks to define your cards and configure their data and settings. Verify the page layout before customer service agents use it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/telecom-cust-360-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/telecom-cust-360-landing.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,10 +73,10 @@ Use the guided setup option to review the default configuration for the Telecomm
 
 ## Result
 
-After the cards have been configured, customer service agents can start using the Telecommunications Customer 360 application. See [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md) for details.
+After the cards have been configured, customer service agents can start using the Telecommunications Customer 360 application. See [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-home-page.md) for details.
 
--   **[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-variables.md)**  
+-   **[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-variables.md)**  
 Configure the properties for each card, such as data tables, query conditions, and display fields.
 
-**Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure.md)
+**Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure.md)
 

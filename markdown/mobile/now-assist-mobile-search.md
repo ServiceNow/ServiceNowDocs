@@ -2,7 +2,7 @@
 title: Otto AI Search on Mobile
 description: Use ServiceNow Otto Search on Mobile to provide actionable AI-generated or AI-selected answers to user searches. You can see citations for the sources that were used by Otto and navigate to them from the generated answer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/now-assist-mobile-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/now-assist-mobile-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"

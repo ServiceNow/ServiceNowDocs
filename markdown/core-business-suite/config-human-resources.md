@@ -2,7 +2,7 @@
 title: Configure Human Resources
 description: Configure the Human Resources \(HR\) business unit to manage payroll inquiries, benefits questions, and general HR requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/config-human-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/config-human-resources.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -107,5 +107,5 @@ Role required: admin, sn\_cbs.admin
     -   To create Portal or Workspace notification, see [Trigger conditions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/notif-trigger-form.md).
     -   After configuring notifications, select **Mark as configured**.
 
-**Parent Topic:**[Configure Core Business Suite using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-cbs-using-guided-setup.md)
+**Parent Topic:**[Configure Core Business Suite using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/config-cbs-using-guided-setup.md)
 

@@ -2,7 +2,7 @@
 title: Create a block list for the Check Point NGTP integration
 description: Create a Block List in your ServiceNow AI Platform instance. Once approved and activated, you can create entries for these Block Lists from observables determined to be malicious on Now Platform Security Incident Response \(SIR\) incidents and request approval to block them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-block-list-for-chk-pt-ngtp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-block-list-for-chk-pt-ngtp.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

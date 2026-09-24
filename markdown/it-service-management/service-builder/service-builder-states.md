@@ -2,7 +2,7 @@
 title: Service Builder approval flow
 description: As you create and edit services and service offerings in Service Builder, various states get assigned and change on the services' way to being published \(approved\). Administrators enable the standard approval flow and can even customize it using the subflow option in Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-builder/service-builder-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-builder/service-builder-states.html
 release: australia
 product: Service Builder
 classification: service-builder

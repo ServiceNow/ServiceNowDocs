@@ -2,7 +2,7 @@
 title: Workplace contract new record form
 description: As lease administrator and manager you can use the workplace contract new record form to create new lease contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/workplace-contract-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/workplace-contract-form.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -322,9 +322,9 @@ Percentage increase or decrease in price of contract. A negative percentage indi
  You can specify a value for either **Cost adjustment** or **Cost adjustment percentage** but not both.
 
 </td></tr></tbody>
-</table>For detailed information on how to create workplace contract, see [Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
+</table>For detailed information on how to create workplace contract, see [Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
 
-**Parent Topic:**[Workplace Lease Administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/workplace-lease-references.md)
+**Parent Topic:**[Workplace Lease Administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/workplace-lease-references.md)
 
 **Related topics**  
 

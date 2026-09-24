@@ -2,7 +2,7 @@
 title: ITOM Cloud Accelerate
 description: ITOM Cloud Accelerate workflows streamline cloud automation across the cloud adoption journey via self-service catalogs and controlled workflows. It expedites application migration by facilitating assessment, planning, and resource migration tracking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/itom-cloud-accelerate-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/itom-cloud-accelerate-landing-page.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -24,30 +24,30 @@ ITOM Cloud Accelerate enables organizations to validate their cloud assets again
 
 These automated processes empower businesses to quicken their journey towards cloud transformation by automating operations on Day 0, Day 1, and Day 2. It offers the following features:
 
--   **[Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-landing.md)**
+-   **[Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cam-landing.md)**
 
-    Use the ServiceNow® [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-landing.md) app for efficiently managing and provisioning of cloud accounts. The app allows you to either obtain manual approvals for account creation—ensuring that the process is closely monitored and verified by relevant stakeholders—or to automate the approval process based on predefined rules and conditions, saving time and reducing manual intervention.
+    Use the ServiceNow® [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cam-landing.md) app for efficiently managing and provisioning of cloud accounts. The app allows you to either obtain manual approvals for account creation—ensuring that the process is closely monitored and verified by relevant stakeholders—or to automate the approval process based on predefined rules and conditions, saving time and reducing manual intervention.
 
--   **[Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/csc-home.md)**
+-   **[Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/csc-home.md)**
 
     Use the ServiceNow® Cloud Services Catalog app for simplified, assisted, and featured interface to access cloud resources. You can also publish cloud offerings to a catalog and manage the usage and life cycle of those resources.
 
--   **[Cloud Migration Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-migration-landing-page.md)**
+-   **[Cloud Migration Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/cloud-migration-landing-page.md)**
 
     Use the ServiceNow® Cloud Migration Assessment application to plan, organize, and track the process of relocating your enterprise IT resources and workloads to cloud platforms. Analyze the IT resources using dashboards that visualize and summarize information on resources by different categories.
 
--   **[Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-configuration-governance.md)**
+-   **[Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/cloud-configuration-governance.md)**
 
     Use the ServiceNow® Cloud Configuration Governance application to check the configuration settings of cloud resources in your organization against a set of policies to identify violations. After identifying the violation, use remediation workflows to mitigate them.
 
--   **[Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-actions-library-landing-page.md)**
+-   **[Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/cloud-actions-library-landing-page.md)**
 
     Use the ready-to-use actions and subflows of the ServiceNow® Cloud Action Library application to interact with the cloud resources of the organization. ServiceNow® ITOM Cloud Accelerate features, such as Cloud Configuration Governance, use these actions to operate.
 
 
 ## ITOM Cloud Accelerate licensing
 
-The ServiceNow AI Platform® uses a licensing method where your organization is billed for using ITOM Cloud Accelerate. The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-su-licensing-landing-page.md).
+The ServiceNow AI Platform® uses a licensing method where your organization is billed for using ITOM Cloud Accelerate. The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-su-licensing-landing-page.md).
 
 ## Deploying ITOM Cloud Accelerate
 

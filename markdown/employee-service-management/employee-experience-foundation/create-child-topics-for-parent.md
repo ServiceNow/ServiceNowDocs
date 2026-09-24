@@ -2,7 +2,7 @@
 title: Create a child topic
 description: Create child topics for the parent topic in the taxonomy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-child-topics-for-parent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/create-child-topics-for-parent.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -34,7 +34,7 @@ User criteria required: Taxonomy Manager, Taxonomy Contributor, Topic Manager, T
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields and description, see [Topic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/topic-form.md).
+    For more information on the fields and description, see [Topic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/topic-form.md).
 
 5.  Click **Submit**.
 
@@ -42,5 +42,5 @@ User criteria required: Taxonomy Manager, Taxonomy Contributor, Topic Manager, T
 **Related topics**  
 
 
-[Associate connected content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/associate-content-to-topics.md)
+[Associate connected content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/associate-content-to-topics.md)
 

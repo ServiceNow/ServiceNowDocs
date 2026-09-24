@@ -2,7 +2,7 @@
 title: Submit a legal request through Now Mobile
 description: Submit a request to seek legal services from your organization's legal department.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/submit-legal-request-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/submit-legal-request-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile

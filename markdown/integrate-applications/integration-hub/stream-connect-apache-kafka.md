@@ -2,13 +2,13 @@
 title: Using Stream Connect for Apache Kafka
 description: Connect your Apache Kafka environment to your ServiceNow instance with Stream Connect for Apache Kafka.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-apache-kafka.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/stream-connect-apache-kafka.html
 release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 14
+reading_time_minutes: 13
 breadcrumb: [Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -56,13 +56,13 @@ Stream Connect uses the following terms.
 
 -   **Topic aliases**
 
-    A [topic alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/manage-topic-alias.md) is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic. A topic alias can be moved to different instances and connected to a different underlying topic on each instance.
+    A [topic alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/manage-topic-alias.md) is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic. A topic alias can be moved to different instances and connected to a different underlying topic on each instance.
 
 -   **Subscriptions**
 
     A subscription is a record associated with a consumer. It stores configuration information about the consumer, such as the name of the Kafka topic to consume messages from and the number of partitions the topic has. The subscription record is created when a Kafka stream is activated.
 
-    Each subscription record has several metrics that enable you to view the performance of the consumer reading from the topic. For more information, see [Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/kafka-subscriptions-statistics.md).
+    Each subscription record has several metrics that enable you to view the performance of the consumer reading from the topic. For more information, see [Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/kafka-subscriptions-statistics.md).
 
 -   **Partition groups**
 
@@ -101,34 +101,19 @@ Use the [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/Servi
 
 ## Direct Kafka
 
-Integrate your ServiceNow instance with your local Kafka environment with [Direct Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/direct-kafka.md). Build efficient integrations between your enterprise systems, enabling high-volume and robust integrations to exchange data between applications, and reduce data loss with the queuing mechanism if one environment is temporarily offline.
+Integrate your ServiceNow instance with your local Kafka environment with [Direct Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/direct-kafka.md). Build efficient integrations between your enterprise systems, enabling high-volume and robust integrations to exchange data between applications, and reduce data loss with the queuing mechanism if one environment is temporarily offline.
 
 With Direct Kafka, you can configure a custom Kafka connection to integrate Stream Connect on your instance with your local Kafka environment. This connection enables you to use Stream Connect and its features directly, without requiring the Hermes Messaging Service or a separate message replicator.
 
-## Stream Producer
-
-Automatically stream changes from ServiceNow tables to Kafka topics with Stream Producer.
-
-Stream Producer provides a configuration-based alternative to writing scripts or business rules for exporting data. It uses change data capture \(CDC\) technology to capture inserts, updates, and deletes on the tables you select. The captured changes are formatted as messages and sent to a Kafka topic, enabling real-time data synchronization with external applications.
-
-Stream Producer has the following benefits.
-
--   Eliminate dependency on business rules and custom scripts for data export.
--   Reduce performance impact on the ServiceNow instance.
--   Set it up once and automatically keep external data in sync.
--   Streamline complex data integration workflows.
-
-For details see [Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-producer.md).
-
 ## Stream Connect alerting
 
-Receive alerts and alert notifications for Stream Connect integrations. Stream Connect uses both active and scheduled monitoring to detect events across multiple components. If an issue is detected, the system creates an alert, logs a message to the Stream Connect Log, and sends out an alert notification. For details, see [Stream Connect alerting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-alert.md).
+Receive alerts and alert notifications for Stream Connect integrations. Stream Connect uses both active and scheduled monitoring to detect events across multiple components. If an issue is detected, the system creates an alert, logs a message to the Stream Connect Log, and sends out an alert notification. For details, see [Stream Connect alerting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/stream-connect-alert.md).
 
 ## Support for messages in an Avro format
 
 Import and create schemas to send and receive messages in an Apache Avro format. Using an Avro format can reduce the size of the payload and simplify your integration to your local Kafka instance.
 
-You can import Avro schemas directly from the Confluent Registry, or you can create your own schemas using a JSON file or a JSON-formatted string. The schemas are stored in ServiceNow and enable your producers and consumers to convert plain-text messages to an Avro format and back. For details, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/schema-management.md).
+You can import Avro schemas directly from the Confluent Registry, or you can create your own schemas using a JSON file or a JSON-formatted string. The schemas are stored in ServiceNow and enable your producers and consumers to convert plain-text messages to an Avro format and back. For details, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/schema-management.md).
 
 ## ETL, Transform Map, and Script Consumers
 
@@ -136,11 +121,11 @@ Import data from your Kafka environment using your existing RTE or transform map
 
 You can also use the Script Consumer to process data from your Kafka environment. The Script consumer is for more advanced use cases, such as when the data in the message isn't structured, or it requires data lookups using code.
 
-When you [Configure an Extract Transform Load \(ETL\) consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-etl-consumer.md), [Configure a Transform Map consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-transform-map-consumer.md), or [Configure a script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-script-consumer.md), you also need to [Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-kafka-stream.md).
+When you [Configure an Extract Transform Load \(ETL\) consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-etl-consumer.md), [Configure a Transform Map consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-transform-map-consumer.md), or [Configure a script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-script-consumer.md), you also need to [Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/create-kafka-stream.md).
 
 ## ProducerV2 API
 
-Publish events to a Kafka topic with the [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md).
+Publish events to a Kafka topic with the ProducerV2 API.
 
 ## Stream Connect Message Replication
 
@@ -148,7 +133,7 @@ You can replicate data between your Kafka environment and ServiceNow with Stream
 
 Stream Connect Message Replication enables you to configure and manage message replications directly from your ServiceNow instance. It uses a MID Server or MID Server cluster to run the data replications, so you don't need to configure or host additional replication services. It also simplifies the message replication setup by automatically generating the required certificates.
 
-For more information, see [Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md).
+For more information, see [Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/stream-connect-message-replication.md).
 
 ## Stream Connect logs
 
@@ -176,7 +161,7 @@ This property is not in the System Properties \[sys\_properties\] table by defau
 
 ## Domain separation
 
-Use Stream Connect topic namespaces to configure which domains can access a Kafka topic on a domain-separated instance. Group topics into ServiceNow namespaces, then link the namespaces to specific domains. For more information, see [Domain separation and Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/domain-separation-stream-connect.md).
+Use Stream Connect topic namespaces to configure which domains can access a Kafka topic on a domain-separated instance. Group topics into ServiceNow namespaces, then link the namespaces to specific domains. For more information, see [Domain separation and Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/domain-separation-stream-connect.md).
 
 ## Architecture diagram
 
@@ -221,28 +206,26 @@ The related TSOM product capabilities process the event data, quickly and effici
         **Note:** The above code is a partial, representative example focused on ingesting and parsing the message data to populate table records. It's intended to be helpful in guiding an implementation.
 
 
--   **[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-producer.md)**  
-Stream Producer enables you to automatically stream changes from ServiceNow tables to Kafka topics using change data capture \(CDC\), eliminating the need for custom scripts or business rules.
--   **[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)**  
+-   **[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/stream-connect-message-replication.md)**  
 Replicate data between your Apache Kafka environment and ServiceNow.
--   **[Stream Connect alerting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-alert.md)**  
+-   **[Stream Connect alerting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/stream-connect-alert.md)**  
 Receive alerts and alert notifications for Stream Connect integrations.
--   **[Using the Stream Connect Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-dashboard.md)**  
+-   **[Using the Stream Connect Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/stream-connect-dashboard.md)**  
 View detailed statistics for your Stream Connect integrations. Manage producers and consumers, view data usage, and create or edit topics and replicators with the ServiceNow® Stream Connect dashboard.
--   **[Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/schema-management.md)**  
+-   **[Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/schema-management.md)**  
 Import and create schemas to send and receive messages in an Apache Avro format. Using an Avro format can reduce the size of the payload and simplify your integration to your local Kafka instance.
--   **[Configure an Extract Transform Load \(ETL\) consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-etl-consumer.md)**  
+-   **[Configure an Extract Transform Load \(ETL\) consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-etl-consumer.md)**  
 Import and process data from your Kafka environment using your existing Robust Transform Engine \(RTE\) configurations.
--   **[Configure a Transform Map consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-transform-map-consumer.md)**  
+-   **[Configure a Transform Map consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-transform-map-consumer.md)**  
 Import and process data from your Kafka environment using your existing transform map configurations.
--   **[Configure a script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-script-consumer.md)**  
+-   **[Configure a script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-script-consumer.md)**  
 Use a script to import and process data from your Kafka environment.
--   **[Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-kafka-stream.md)**  
+-   **[Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/create-kafka-stream.md)**  
 Define a data stream for an Extract Transform Load \(ETL\), Transform Map, or Script consumer. A Kafka stream defines the stream of data to your consumer.
--   **[Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/kafka-subscriptions-statistics.md)**  
+-   **[Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/kafka-subscriptions-statistics.md)**  
 View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
--   **[Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/producer-statistics.md)**  
+-   **[Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/producer-statistics.md)**  
 View detailed information about a Stream Connect producer and its performance, including the producer type and ID, and the total number of bytes and messages produced to a topic.
 
-**Parent Topic:**[Importing and streaming data in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/importing-streaming-data-ih.md)
+**Parent Topic:**[Importing and streaming data in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/importing-streaming-data-ih.md)
 

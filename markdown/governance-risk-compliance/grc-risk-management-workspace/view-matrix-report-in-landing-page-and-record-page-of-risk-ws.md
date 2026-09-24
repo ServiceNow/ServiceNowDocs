@@ -2,7 +2,7 @@
 title: View matrix report in the landing page and record page of Risk Workspace
 description: Access and analyze the risk posture of your organization using entity-related data, such as risks, controls, KRIs, and events in a centralized, configurable grid-based view. The Matrix report reduces time spent switching views and helps risk managers assess data more easily, leading to more proactive and streamlined risk management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/view-matrix-report-in-landing-page-and-record-page-of-risk-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/view-matrix-report-in-landing-page-and-record-page-of-risk-ws.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -39,5 +39,5 @@ Risk Workspace and Matrix report plugin should be installed to use the feature.
     \[Omitted image "entity-related-matrix-report-record-risk-ws.png"\] Alt text: Matrix report on the record page.
 
 
-**Parent Topic:**[Matrix report in Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/matrix-report-in-risk-workspace.md)
+**Parent Topic:**[Matrix report in Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/matrix-report-in-risk-workspace.md)
 

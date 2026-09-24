@@ -2,7 +2,7 @@
 title: Context menu in the syntax editor
 description: View the context menu for script includes, Glide APIs, and tables in the JavaScript syntax editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/context-menu-syntax-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/context-menu-syntax-editor.html
 release: australia
 product: Scripts
 classification: scripts
@@ -36,5 +36,5 @@ You can configure whether to show the context menu in the syntax editor with the
 
 **Note:** Context menu options can be accessed only if the browser supports SharedWorker, such as Google Chrome and Mozilla Firefox.
 
-**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
+**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
 

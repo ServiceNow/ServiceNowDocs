@@ -2,7 +2,7 @@
 title: AI Admin Hub
 description: ServiceNow ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platform-now-assist-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/platform-now-assist-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +15,7 @@ breadcrumb: [Enable AI experiences]
 
 ServiceNow® ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows and AI agents. For more information see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows and AI agents. For more information see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-native-sku-overview.md).
 
 See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-start-guide/ta-p/2685044](https://www.servicenow.com/community/now-assist-articles/now-assist-quick-start-guide/ta-p/2685044) to read about the foundation of generative AI at ServiceNow®.
 
@@ -23,27 +23,27 @@ See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-s
 
 <table id="table_xdy_2jh_syb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-now-assist-platform.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Explore, configure, use, and analyze generative artificial intelligence \(AI\) features and skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Explore, configure, use, and analyze generative artificial intelligence \(AI\) features and skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-now-assist.md)
 
 </td><td>
 
-[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Analyze and monitor ServiceNow Otto performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md)
+[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Analyze and monitor ServiceNow Otto performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics.md)
 
 </td></tr><tr><td>
 
-[Now LLM Service model updates\[Omitted image "bus-datasheet.svg"\] Alt text:Learn about the Now LLM Service models.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md)
+[Now LLM Service model updates\[Omitted image "bus-datasheet.svg"\] Alt text:Learn about the Now LLM Service models.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles, data usage policy, and domain separation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-reference-landing.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles, data usage policy, and domain separation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-reference-landing.md)
 
 </td><td>
 
-[Generative AI Controller\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Customize your generative AI experience on the ServiceNow AI Platform with the Generative AI Controller.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/generative-ai-controller.md)
+[Generative AI Controller\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Customize your generative AI experience on the ServiceNow AI Platform with the Generative AI Controller.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/generative-ai-controller.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -63,5 +63,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

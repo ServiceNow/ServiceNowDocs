@@ -2,7 +2,7 @@
 title: Configure assets
 description: An asset is a specific product or instance that is supported for a customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-configure-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-configure-assets.html
 release: australia
 topic_type: task
 last_updated: "2026-07-01"

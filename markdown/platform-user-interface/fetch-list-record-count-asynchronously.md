@@ -2,7 +2,7 @@
 title: Configure list record count to load in the background
 description: Configure lists created from large tables to load the list record count in the background.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/fetch-list-record-count-asynchronously.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/fetch-list-record-count-asynchronously.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

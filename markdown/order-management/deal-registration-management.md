@@ -2,10 +2,10 @@
 title: Deal Registration
 description: Install the Deal Registration Management plugin \(com.snc.deal\_registration\_management\) to enable channel partners to identify and manage customer interest in products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/deal-registration-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/deal-registration-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -49,21 +49,21 @@ Deal registration involves several key personas:
 
 Deal registration provides channel partners exclusive rights to work on a particular deal or customer for a period of time.
 
-Install the Deal Registration Management plugin \(com.snc.deal\_registration\_management\). See [Install Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-deal-registration-management.md).
+Install the Deal Registration Management plugin \(com.snc.deal\_registration\_management\). See [Install Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-deal-registration-management.md).
 
 Deal registrations and deal registration line items help to manage and track the products that are associated with submitted deal registrations. The Deal Registration Management plugin can promote trust and transparency between enterprises and their partners.
 
 |Task|Description|Role|
 |----|-----------|----|
-|[Install Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-deal-registration-management.md)|Install the Deal Registration Management application from ServiceNow® Store.|admin|
-|[Data model for Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-deal-registration-management.md)|Add data in the deal registration tables to maintain and track deals and the line items linked to a deal registration..|Experience \(sn\_prm\_dr.deal\_reg\_ui\)|
-|[Roles and components of Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-deal-registration-management.md)|The Deal Registration Management \(com.snc.deal\_registration\_management\) application uses roles to provide access to information and identify internal and external users. Roles also maintain data security and establish different types of relationships between segments and partners.|admin|
+|[Install Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-deal-registration-management.md)|Install the Deal Registration Management application from ServiceNow® Store.|admin|
+|[Data model for Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/data-model-for-deal-registration-management.md)|Add data in the deal registration tables to maintain and track deals and the line items linked to a deal registration..|Experience \(sn\_prm\_dr.deal\_reg\_ui\)|
+|[Roles and components of Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/roles-and-components-of-deal-registration-management.md)|The Deal Registration Management \(com.snc.deal\_registration\_management\) application uses roles to provide access to information and identify internal and external users. Roles also maintain data security and establish different types of relationships between segments and partners.|admin|
 
 ## Deal Registration approvals
 
 Deal registration approvals provide a configurable workflow to verify that deals are reviewed and approved by the appropriate team members.
 
-Deal registration approvals use the [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-advanced-approval-for-sales.md) framework to create multi-step, configurable approval chains. This framework lets you define when approvals are required and who must approve at each step.
+Deal registration approvals use the [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-advanced-approval-for-sales.md) framework to create multi-step, configurable approval chains. This framework lets you define when approvals are required and who must approve at each step.
 
 The approval process has two layers: configuration and runtime. During configuration, an administrator sets up approval configurations, trigger conditions \(when approvals are needed\), approval rules \(who approves\), and approval chains \(the sequence of approvers\). At runtime, users submit deals for approval, and the system routes approval requests to the appropriate approvers based on the configuration.
 
@@ -90,21 +90,21 @@ Key task concepts:
 -   Tasks are visible in the Partner CRM Workspace but not on the Partner portal.
 -   When a deal is archived or deleted, all associated tasks are automatically archived or deleted.
 
--   **[Install Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-deal-registration-management.md)**  
+-   **[Install Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-deal-registration-management.md)**  
 Install the plugin \(com.snc.deal\_registration\_management\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
--   **[Data model for Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-deal-registration-management.md)**  
+-   **[Data model for Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/data-model-for-deal-registration-management.md)**  
 The deal registration management data model provides a framework for channel partners to establish a consistent and organized engagement model with channel partners.
--   **[Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-approvals-overview.md)**  
+-   **[Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-approvals-overview.md)**  
 Enable deal agents to submit deals for approval through a configurable approval workflow built on the Advanced Approval Management framework.
--   **[Deal registration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-tasks.md)**  
+-   **[Deal registration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-tasks.md)**  
 Create and manage tasks associated with a deal registration to organize work, track progress, and delegate deal-related activities.
 
-**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

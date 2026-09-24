@@ -2,7 +2,7 @@
 title: Components installed with Contract Workspace
 description: User roles are installed with activation of the Contract Workspace plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-comp-contract-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-comp-contract-workspace.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -69,7 +69,7 @@ Workspace administrator \[workspace\_admin\]
 -   UI notification admin \[ui\_notification\_admin\] - The UI notification admin role enables you to configure notification triggers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

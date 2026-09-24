@@ -2,7 +2,7 @@
 title: Sales Customer Relationship Management REST APIs
 description: Sales Customer Relationship Management \(Sales CRM\) APIs provide endpoints to create and manage Sales CRM entities such as pricing, leads, quotes, and orders from external systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-rest-apis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-rest-apis.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ Sales Customer Relationship Management \(Sales CRM\) APIs provide endpoints to c
 |[Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md)|The Sales CRM Pricing API provides endpoints to create, update, and retrieve pricing records.|
 |[Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/work-order-mgmt-api.md)|The Work Order Management API provides endpoints to create, update, and retrieve work orders.|
 
-**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-reference.md)
+**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-reference.md)
 
 **Related topics**  
 

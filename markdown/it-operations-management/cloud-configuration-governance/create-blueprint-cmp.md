@@ -2,7 +2,7 @@
 title: Build a Cloud Provisioning blueprint
 description: Use the blueprint designer to create custom blueprints for the Cloud Provisioning and Governance application. Blueprints are deprecated in the Orlando release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -23,7 +23,7 @@ Role required: sn\_cmp.cloud\_service\_designer
 **Note:**
 
 -   Starting with Orlando, Cloud Provisioning blueprints are available on instances upgraded from a previous release but you cannot create new blueprints. Resource profiles and custom-created blueprints will no longer be supported starting with the Australia release.
--   Use Cloud Provisioning cloud templates to create catalog items in place of blueprints. Cloud Provisioning [cloud templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-template.md) allow you to ingest Azure ARM, AWS CFT, Google Deployment Manager \(GDM\) and Terraform specification syntax in cloud catalog items to run your cloud deployment orchestration.
+-   Use Cloud Provisioning cloud templates to create catalog items in place of blueprints. Cloud Provisioning [cloud templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-cloud-template.md) allow you to ingest Azure ARM, AWS CFT, Google Deployment Manager \(GDM\) and Terraform specification syntax in cloud catalog items to run your cloud deployment orchestration.
 
 ## Procedure
 
@@ -72,16 +72,16 @@ Role required: sn\_cmp.cloud\_service\_designer
     To view all published catalog items, click **Published** in the Blueprints landing page.
 
 
--   **[Add a resource operation to the execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-resource-operation-cmp.md)**  
+-   **[Add a resource operation to the execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/add-resource-operation-cmp.md)**  
 The base system includes a large set of predefined resource operations. Rarely, you might add a custom operation for a resource.
--   **[Execute blueprint operations in parallel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/execute-blueprint-operations-parallel.md)**  
+-   **[Execute blueprint operations in parallel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/execute-blueprint-operations-parallel.md)**  
 You can execute your blueprint resource operations to run in a linear or in a parallel way.
--   **[Blueprint attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/blueprint-attributes.md)**  
+-   **[Blueprint attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/blueprint-attributes.md)**  
 When you add a blueprint operation to a resource, the system adds the appropriate attributes. You can choose whether or not to make the attributes available as catalog properties on the form when the system performs the operation.
--   **[Configure a blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md)**  
+-   **[Configure a blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md)**  
 Configure a rule that contains actions the system can take on blueprint attributes.
 
-**Parent Topic:**[Cloud Provisioning Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/blueprints.md)
+**Parent Topic:**[Cloud Provisioning Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/blueprints.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: An overview of alerts for Event Management operators
 description: Understand how alerts are generated from events, what to look for in an alert, and how alerts can be grouped together.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-events-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/operator-events-alerts.html
 release: australia
 product: Event Management
 classification: event-management
@@ -40,7 +40,7 @@ Lesson 2
 
 </td><td>
 
-[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-application-services.md)
+[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-application-services.md)
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Lesson 3
 
 </td><td>
 
-[Event Management operator workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-user-interfaces.md)
+[Event Management operator workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-user-interfaces.md)
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Lesson 4
 
 </td><td>
 
-[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md)
+[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-process.md)
 
 </td></tr></tbody>
 </table>Your organization already has an event monitoring tool in place, such as Microsoft System Center Operations Manager \(SCOM\), Nagios, SolarWinds, and so on. When an issue occurs on your network, such as a computer going down or a database failure, the event monitoring tools send events to your ServiceNow instance. The Event Management application processes the events according to the settings that your administrator configured, and then generates alerts. An alert is an indicator that the issue requires some type of action.
@@ -162,7 +162,7 @@ As another example, consider a loose network cable that causes momentary, repeat
 
 ## Continue the tutorial
 
-Proceed to the next lesson: [Application services for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-application-services.md).
+Proceed to the next lesson: [Application services for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-application-services.md).
 
-**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-guide-em.md)
+**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-guide-em.md)
 

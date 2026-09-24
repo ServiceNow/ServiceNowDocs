@@ -2,7 +2,7 @@
 title: Perform impact assessment on an AI use case
 description: Perform an impact assessment of an AI use case to identify risks like copyright issues, bias, privacy breaches, misinformation, or surveillance, enabling improved oversight and risk management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -102,7 +102,7 @@ Brief summary about the feedback to be discussed in the sidebar discussion.
 
 An AI Risk and Compliance Analyst evaluates the completed assessment along with the suggested list of risks and controls derived from the submitted information.
 
-Proceed to [Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md).
+Proceed to [Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md).
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

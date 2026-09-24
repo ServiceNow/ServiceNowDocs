@@ -2,7 +2,7 @@
 title: Activate PPM Standard \(Project Portfolio Management\)
 description: Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) if you have the admin role. This plugin installs the Project Portfolio Management applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/t\_ActivateProjectPortfolioSuiteWithFinancials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/t\_ActivateProjectPortfolioSuiteWithFinancials.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -41,7 +41,7 @@ The PPM Standard is the basic plugin for the PPM \(Project Portfolio Management\
 
 ## Result
 
-All PPM applications are installed in your ServiceNow instance, along with their user roles and tables. For more information, see [Components installed with Project Portfolio Management \(PPM\) Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/r_InstalledWithProjectPortfolioSuiteWithFinancials.md).
+All PPM applications are installed in your ServiceNow instance, along with their user roles and tables. For more information, see [Components installed with Project Portfolio Management \(PPM\) Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/r_InstalledWithProjectPortfolioSuiteWithFinancials.md).
 
-**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

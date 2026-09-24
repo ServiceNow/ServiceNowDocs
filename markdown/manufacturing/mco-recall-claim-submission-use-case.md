@@ -2,7 +2,7 @@
 title: Recall claim submission use case
 description: Use case scenarios demonstrate when and how to use the Dealer portal application to submit a recall claim. It provides practical examples of common recall management situations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-recall-claim-submission-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-recall-claim-submission-use-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-16"
@@ -33,7 +33,7 @@ James uses the MCO Dealer Portal to submit the recall claim through four key ste
 3.  Review: Check auto-populated details including problem description, required tools, parts, quantities, and labor codes.
 4.  Submit and Track: Submit the complete claim and monitor status in real time via the activity stream.
 
-The [Using the dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-dealer-portal.md) enables completeness and compliance before submission.
+The [Using the dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-use-dealer-portal.md) enables completeness and compliance before submission.
 
 ## Benefits
 

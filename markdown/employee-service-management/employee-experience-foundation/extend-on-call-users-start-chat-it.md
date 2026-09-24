@@ -2,7 +2,7 @@
 title: Extend On-Call Scheduling users to initiate Microsoft Teams Chat
 description: View the list of On-Call Scheduling users in Start Microsoft Teams chat for a change, request, or a request item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/extend-on-call-users-start-chat-it.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/extend-on-call-users-start-chat-it.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -41,5 +41,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Include On-call scheduling users to initiate Microsoft Teams chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/on-call-users-start-chat-it.md)
+**Parent Topic:**[Include On-call scheduling users to initiate Microsoft Teams chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/on-call-users-start-chat-it.md)
 

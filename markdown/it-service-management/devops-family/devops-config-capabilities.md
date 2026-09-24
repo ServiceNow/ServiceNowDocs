@@ -2,7 +2,7 @@
 title: DevOps Config powered by CDM and PaCE
 description: DevOps Config uses Configuration Data Management and Policy as Code Engine platform capabilities to manage configuration data and policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-capabilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-capabilities.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -88,5 +88,5 @@ These plugins are installed with core DevOps Config applications. They are criti
     These extensions include class descriptions, identification rules, identifier entries, and dependent relationships.
 
 
-**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-getting-started.md)
+**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-getting-started.md)
 

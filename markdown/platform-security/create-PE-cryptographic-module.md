@@ -2,7 +2,7 @@
 title: Create cryptographic module for Field Encryption
 description: Create a Field Encryption cryptographic module to define the mechanisms used for cryptographic operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/create-PE-cryptographic-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/create-PE-cryptographic-module.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: security\_admin  and sn\_kmf.cryptographic\_manager  or sn\_k
 
 ## About this task
 
-This procedure describes options that are available with Field Encryption with the base system and additional configuration options that become available with Field Encryption Enterprise functionality. Field Encryption Enterprise is available with a paid subscription. Refer to [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/encryption-sku.md) for supported features and options available with each offering. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise.
+This procedure describes options that are available with Field Encryption with the base system and additional configuration options that become available with Field Encryption Enterprise functionality. Field Encryption Enterprise is available with a paid subscription. Refer to [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/encryption-sku.md) for supported features and options available with each offering. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise.
 
 ## Procedure
 
@@ -68,7 +68,7 @@ To open the configuration options, click the newly created cryptographic module.
 
 **Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. A message displays at the top stating the allowance and the number of encrypted fields that you currently have is listed. Once that maximum allowance is met, the **Create new** button is grayed out and you're prevented from adding additional cryptographic modules.
 
-[Create a cryptographic specification for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-crypto-spec-pe.md).
+[Create a cryptographic specification for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/create-crypto-spec-pe.md).
 
-**Parent Topic:**[Using Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-column-level-encryption.md)
+**Parent Topic:**[Using Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-column-level-encryption.md)
 

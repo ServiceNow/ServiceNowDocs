@@ -2,7 +2,7 @@
 title: Compare snapshots from the same or different applications
 description: Use the Config Data Analyzer tool to find similarities and differences between two snapshots from the same or different applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-cda-snapshots-compare.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-cda-snapshots-compare.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -26,7 +26,7 @@ Role required: cdm\_viewer, cdm\_editor, or cdm\_admin
 
 You can compare and contrast snapshots from any deployable of the same or different applications.
 
-To see the changes between two snapshots from the same deployables, see [Compare two snapshots of a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-cda-snapshots-compare-changes.md).
+To see the changes between two snapshots from the same deployables, see [Compare two snapshots of a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-cda-snapshots-compare-changes.md).
 
 ## Procedure
 
@@ -100,7 +100,7 @@ Description
 
 </td><td>
 
-Statement of how the changesets differ. For example, the text might indicate that a CDI appears only in the reference changeset or that the values for a variable differ between the changesets. See [Types of differences between CDM applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-cda-diff-types.md) for the full list of difference types and their causes.
+Statement of how the changesets differ. For example, the text might indicate that a CDI appears only in the reference changeset or that the values for a variable differ between the changesets. See [Types of differences between CDM applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-cda-diff-types.md) for the full list of difference types and their causes.
 
 </td></tr><tr><td>
 

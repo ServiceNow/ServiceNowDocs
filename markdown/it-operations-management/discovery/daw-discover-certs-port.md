@@ -2,7 +2,7 @@
 title: Run Certificate Discovery via port scans in Discovery Admin Workspace
 description: Configure a certificate port probe in the Discovery Admin Workspace, so Discovery collects certificates from devices with secure ports open during your existing IP-based Discovery schedules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/daw-discover-certs-port.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/daw-discover-certs-port.html
 release: australia
 product: Discovery
 classification: discovery

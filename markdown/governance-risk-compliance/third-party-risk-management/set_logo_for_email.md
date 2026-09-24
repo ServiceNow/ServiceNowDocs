@@ -2,7 +2,7 @@
 title: Update the header and footer for email notifications
 description: Update the header and footer images used in email notifications by modifying image records for Third-party Risk Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/set\_logo\_for\_email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/set\_logo\_for\_email.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

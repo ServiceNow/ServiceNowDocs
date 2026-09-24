@@ -2,7 +2,7 @@
 title: Enable ATF test generation in Build Agent
 description: Enable the Build Agent to generate Automated Test Framework \(ATF\) tests automatically when you build and install applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-enable-atf-test-gen-ba.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-agent-enable-atf-test-gen-ba.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"

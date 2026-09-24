@@ -2,7 +2,7 @@
 title: Get started with Firewall Audits and Reporting
 description: Prior to diving into Firewall Audits and Reporting functionality, meet the necessary requirements by installing and activating the plugin, upgrading your instance, and obtaining the application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/get-started-firewall-audit-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/get-started-firewall-audit-reporting.html
 release: australia
 product: Discovery
 classification: discovery
@@ -39,6 +39,6 @@ Role required: admin
 
 4.  For Fortinet FortiManager discovery, review the additional requirements.
 
-    See [Fortinet FortiManager discovery requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/fortinet-fortimanager-discovery-requirements.md) for MID Server sizing, credential setup, and API endpoint information.
+    See [Fortinet FortiManager discovery requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/fortinet-fortimanager-discovery-requirements.md) for MID Server sizing, credential setup, and API endpoint information.
 
 

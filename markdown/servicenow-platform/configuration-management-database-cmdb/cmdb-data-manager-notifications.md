@@ -2,7 +2,7 @@
 title: Manage notifications for CMDB Data Manager
 description: The CMDB Data Manager supports several types of notifications that alert administrators, task assignees, and approvers about policy execution outcomes, task life-cycle events, and pending actions. All notifications are delivered via email using ServiceNow event-driven email actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-data-manager-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-data-manager-notifications.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -23,9 +23,9 @@ The following system properties control different behaviors of notifications:
 -   sn\_cmdb\_ws.glide.cmdb.data\_manager.rejected.task.notifications.group
 -   cmdb.data.manager.stale.task.life.in.days
 
-For information about these properties, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
+For information about these properties, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
 
-Most notifications don't require special configuration and trigger automatically when their specified conditions are met. Recipients are determined by role \(such as data\_manager\_admin\), task assignment, approval group membership, or a configurable user group. For information about the **Run policy scheduled job as**, **Run as**, and other policy setting, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+Most notifications don't require special configuration and trigger automatically when their specified conditions are met. Recipients are determined by role \(such as data\_manager\_admin\), task assignment, approval group membership, or a configurable user group. For information about the **Run policy scheduled job as**, **Run as**, and other policy setting, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 
 ## Notifications
 
@@ -126,7 +126,7 @@ Properties in the CMDB Data Manager Settings page:
 </td></tr></tbody>
 </table>-   **cmdb\_data\_management\_task \{task number\} Approval Request**
 
-    Sending this notification depends on whether the policy type is configured to require a review. For information about the **Needs review** field, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+    Sending this notification depends on whether the policy type is configured to require a review. For information about the **Needs review** field, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 
 <table id="table_spm_ykh_53c"><tbody><tr><td>
 

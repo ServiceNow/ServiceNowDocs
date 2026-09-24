@@ -2,7 +2,7 @@
 title: Create Lookup Request for IoC Changes workflow
 description: The Security Incident Response - Create Lookup Request for IoC Changes flow is triggered by the Lookup Security Incident Observables scheduled job to automatically look up IoCs that are added or changed. Malware scans are triggered only when new data is entered and only the new data is scanned.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_CreateScanRequestforIoCChanges.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/t\_CreateScanRequestforIoCChanges.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -31,14 +31,14 @@ The **Security Incident Response - Create Lookup Request for IoC Changes** workf
 The Flow Designer actions include:
 
 -   Audit Log Enrichment
--   [Create IoC Lookup Request activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_CreateMalwareScanRequest.md)
+-   [Create IoC Lookup Request activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/r_CreateMalwareScanRequest.md)
 
 \[Omitted image "ScanRequest4IoChangesWorkflow.png"\] Alt text: Security Incident Response - Create Lookup Request for IoC Changes workflow diagram
 
--   **[Create IoC Lookup Request activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_CreateMalwareScanRequest.md)**  
+-   **[Create IoC Lookup Request activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/r_CreateMalwareScanRequest.md)**  
 The **Create IoC Lookup Request** activity can be used with any workflow to create a malware lookup request for added or modified IoC fields.
 
-**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
+**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
 
 **Related topics**  
 

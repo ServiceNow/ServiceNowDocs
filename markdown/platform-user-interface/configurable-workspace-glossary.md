@@ -2,10 +2,10 @@
 title: Configurable Workspace glossary
 description: Learn about the terms and concepts used in Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configurable-workspace-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configurable-workspace-glossary.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 keywords: [dashboard]
 breadcrumb: [Reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]

@@ -2,7 +2,7 @@
 title: Create an applicable product
 description: An applicable product specifies the products to which the sales promotion is applied.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-applicable-prod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-applicable-prod.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

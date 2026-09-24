@@ -2,10 +2,10 @@
 title: Activate contextual email matching for CSM
 description: Activate the Contextual Email Matching skill in AI Skill Kit to link emails received on closed interactions by analyzing open cases linked to the closed interaction, enabling downstream flows to associate interactions with cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-contextual-email-matching-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-contextual-email-matching-csm.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [contextual email matching, Now Assist Skill Kit, CSM, Customer Service Management, email interaction, case matching, generative AI]
 breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]

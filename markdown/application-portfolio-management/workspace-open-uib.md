@@ -2,7 +2,7 @@
 title: Open a Configurable Workspace experience in UI Builder
 description: Access your Configurable Workspace experience in UI Builder for editing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/workspace-open-uib.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/workspace-open-uib.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

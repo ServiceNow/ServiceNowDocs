@@ -2,7 +2,7 @@
 title: Installing Workspace Builder
 description: Workspace Builder is available on the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/installing-workspace-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/workspace-builder/installing-workspace-builder.html
 release: australia
 product: Workspace Builder
 classification: workspace-builder
@@ -30,5 +30,5 @@ When you install Workspace Builder, you also install the following related items
 
 ## Licensing for Workspace Builder
 
-Workspace Builder requires an App Engine Enterprise license. For more information, see [App Engine products and offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-products-offerings.md).
+Workspace Builder requires an App Engine Enterprise license. For more information, see [App Engine products and offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-products-offerings.md).
 

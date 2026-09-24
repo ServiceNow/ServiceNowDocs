@@ -2,7 +2,7 @@
 title: Make a breakdown act as an interactive filter
 description: You can configure a Performance Analytics breakdown on a dashboard to act as an interactive filter for reports on the dashboard. The dashboard must be configured as a breakdown dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/make-breakdown-interactive-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/core-ui-interactive-filters/make-breakdown-interactive-filter.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
@@ -18,13 +18,13 @@ You can configure a Performance Analytics breakdown on a dashboard to act as an 
 
 ## Before you begin
 
-The dashboard should be configured with both reports and Performance Analytics widgets. The dashboard must be configured with at least one breakdown source for the Performance Analytics widgets to follow, as described in [Add breakdown sources to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ExistingBreakdownDashboard.md). Finally, the dashboard must have an interactive filter that is based on the same table as one of the breakdown sources.
+The dashboard should be configured with both reports and Performance Analytics widgets. The dashboard must be configured with at least one breakdown source for the Performance Analytics widgets to follow, as described in [Add breakdown sources to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_ExistingBreakdownDashboard.md). Finally, the dashboard must have an interactive filter that is based on the same table as one of the breakdown sources.
 
 Role required: pa\_power\_user, pa\_admin, or admin
 
 ## About this task
 
-When you select a [breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) and breakdown element on a dashboard, that element can be used to filter reports on the dashboard based on the filtering rules defined in an interactive filter.
+When you select a [breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) and breakdown element on a dashboard, that element can be used to filter reports on the dashboard based on the filtering rules defined in an interactive filter.
 
 ## Procedure
 
@@ -67,9 +67,9 @@ When you select a [breakdown](https://raw.githubusercontent.com/ServiceNow/Servi
 
 The selected breakdown acts as an interactive filter on the dashboard's reports.
 
-**Note:** Performance Analytics widgets on the dashboard do not follow interactive filters. Separately filter those widgets on the same breakdown source by using the breakdown dashboard controls. For more information, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+**Note:** Performance Analytics widgets on the dashboard do not follow interactive filters. Separately filter those widgets on the same breakdown source by using the breakdown dashboard controls. For more information, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
-**Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
+**Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
 
 **Related topics**  
 

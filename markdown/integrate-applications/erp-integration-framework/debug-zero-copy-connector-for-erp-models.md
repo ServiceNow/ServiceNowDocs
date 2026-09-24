@@ -2,7 +2,7 @@
 title: Debug Zero Copy Connector for ERP models
 description: Use the debug models option in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to see a log capturing the probe payload, payload response, status, and other information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/debug-zero-copy-connector-for-erp-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/debug-zero-copy-connector-for-erp-models.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -43,7 +43,7 @@ Keep the following guidance in mind when debugging Zero Copy Connector for ERP m
 
     Debug logs show flow engine context, probe communication, probe payload, payload response, status, and more.
 
-    For details about the columns in debug logs, see [Zero Copy Connector for ERP debug logs field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-debug-logs-columns.md).
+    For details about the columns in debug logs, see [Zero Copy Connector for ERP debug logs field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-debug-logs-columns.md).
 
 4.  To turn off debugging, navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Disable ERP Models Debugging**.
 

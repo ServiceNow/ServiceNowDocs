@@ -2,7 +2,7 @@
 title: Journey Accelerator integrations
 description: Extend Journey Accelerator capabilities by integrating other application into the Journey Accelerator experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/ja-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-accelerator/ja-integrations.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator

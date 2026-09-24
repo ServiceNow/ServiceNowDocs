@@ -2,7 +2,7 @@
 title: Summarize actions while transferring an HR case
 description: Transfer an HR case to another agent or assignment group by summarizing the actions until hand off. For example, an agent can transfer the case to another agent if the case is incorrectly assigned or needs troubleshooting by another agent or assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/tcase-now-assist-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/tcase-now-assist-hr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -39,7 +39,7 @@ Role required: sn\_hr\_core.case\_writer
 
     5.  Click **OK**.
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

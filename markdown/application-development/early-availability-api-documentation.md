@@ -2,7 +2,7 @@
 title: Early availability API documentation
 description: Early Availability includes access to API documentation for the latest release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/early-availability-api-documentation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/early-availability-api-documentation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,5 +25,5 @@ Server-side scoped APIs are for use within scoped applications, and may behave d
 
 Early Availability includes access to API documentation for the latest release.
 
-**Parent Topic:**[Early Availability guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/early-availability-guide.md)
+**Parent Topic:**[Early Availability guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/early-availability-guide.md)
 

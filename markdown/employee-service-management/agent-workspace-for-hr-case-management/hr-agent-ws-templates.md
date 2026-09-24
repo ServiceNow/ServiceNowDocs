@@ -2,7 +2,7 @@
 title: Templates in Agent Workspace for HR Case Management
 description: Create consistent recurring documents by developing templates using Document Templates and use them in a generic workflow in Agent Workspace for HR Case Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-templates.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -16,7 +16,7 @@ breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace, HR S
 
 Create consistent recurring documents by developing templates using Document Templates and use them in a generic workflow in Agent Workspace for HR Case Management.
 
-Use templates for communication letters to employees like verification letters or offer letters. Associating templates with an HR case and moving it to an appropriate working status, like Work in progress, retrieves the data from the case and integrates it with the template. For more information on how to configure and use a document template, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-overview.md).
+Use templates for communication letters to employees like verification letters or offer letters. Associating templates with an HR case and moving it to an appropriate working status, like Work in progress, retrieves the data from the case and integrates it with the template. For more information on how to configure and use a document template, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/document-templates-overview.md).
 
 Agents can use templates to generate document tasks and get sign-offs from the stakeholders. After all the participants sign the template, the signed document is generated.
 

@@ -2,7 +2,7 @@
 title: Cosmo SmartPredict
 description: Cosmo SmartPredict delivers AI-powered, in-context recommendations during configuration, helping users make informed decisions. It learns from live or uploaded data to generate accurate suggestions, improving configuration speed and consistency across blueprints. For clarity, suggestions are labeled Good, Better, or Best.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-cosmo-smartpredict.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-cosmo-smartpredict.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

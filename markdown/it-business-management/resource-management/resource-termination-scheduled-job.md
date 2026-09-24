@@ -2,7 +2,7 @@
 title: Scheduled job to handle resource effort termination
 description: Activate and define a scheduled job to automatically terminate requested or allocated efforts based on the last working day of the resource.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/resource-termination-scheduled-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/resource-termination-scheduled-job.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -30,10 +30,10 @@ Role required: admin
 
 4.  On the Scheduled Script Execution form, fill the fields.
 
-    For a description of the field names, see [Scheduled Script Execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/scheduled-script-execution-form-egm.md)
+    For a description of the field names, see [Scheduled Script Execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/scheduled-script-execution-form-egm.md)
 
 5.  Select **Update** to save your changes or **Execute Now** to run the scheduled job immediately.
 
 
-**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/configure-rmw.md)
+**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/configure-rmw.md)
 

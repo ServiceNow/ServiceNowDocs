@@ -2,7 +2,7 @@
 title: Edit PaCE policy tags
 description: Edit and remove tags from a PaCE policy as required. When editing a tag, you can also define who can view the tag.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-edit-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-edit-tags.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

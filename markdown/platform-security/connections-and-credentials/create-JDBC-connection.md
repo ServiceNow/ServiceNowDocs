@@ -2,7 +2,7 @@
 title: Create a JDBC connection
 description: The JDBC Connection provides the information custom JDBC actions or activities use to connect to various target databases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/create-JDBC-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/create-JDBC-connection.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -26,7 +26,7 @@ Role required: connection\_admin
 
 ## About this task
 
-JDBC credentials are retrieved separately by the activity designer template and support [external credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md), such as CyberArk.
+JDBC credentials are retrieved separately by the activity designer template and support [external credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md), such as CyberArk.
 
 ## Procedure
 
@@ -334,10 +334,10 @@ The specific MID Cluster you want to use. This field is available when **Use MID
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md)
+**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/connection-information.md)
 
 **Related topics**  
 
 
-[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md)
+[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md)
 

@@ -2,7 +2,7 @@
 title: Recalculating costs of all resource plans in a project
 description: Recalculate the resource costs of all resource plans in a project whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/recalculate-resource-costs-of-a-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/recalculate-resource-costs-of-a-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -28,7 +28,7 @@ Role required: project\_manager
 
 ## About this task
 
-This option recalculates the costs of all resource plans of the project at once. You can also open a resource plan from the **Resource Plans** related list to [recalculate the resource costs of an individual resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/recalculate-resource-costs.md).
+This option recalculates the costs of all resource plans of the project at once. You can also open a resource plan from the **Resource Plans** related list to [recalculate the resource costs of an individual resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/recalculate-resource-costs.md).
 
 ## Procedure
 
@@ -100,7 +100,7 @@ Option for including the planned cost of a Confirmed or Allocated plan.The optio
 -   Updates the recalculated resource costs on the respective cost fields on the resource plan form and the Resource Plans related list.
 -   Reflects the revised values on the respective cost fields of the project.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 

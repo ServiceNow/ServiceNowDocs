@@ -2,7 +2,7 @@
 title: Task Intelligence Analytics and Monitoring
 description: Use the Task Intelligence Admin Console to monitor, analyze, and assess the performance of your machine learning model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/task-intelligence-analytics-and-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/task-intelligence/task-intelligence-analytics-and-monitoring.html
 release: australia
 product: Task Intelligence
 classification: task-intelligence

@@ -2,7 +2,7 @@
 title: Add ARC catalog items to the Employee Center
 description: Give employees access to the Anonymous Report Center \(ARC\) by adding the catalog items to the Employee Center. Once added, employees can report misconduct or discrimination or open the ARC homepage from the Human Resources Employee Conduct page or via search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/add-arc-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/add-arc-menu.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

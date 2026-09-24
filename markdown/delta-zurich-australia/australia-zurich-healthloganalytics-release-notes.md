@@ -2,11 +2,11 @@
 title: Combined Health Log Analytics release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Health Log Analytics from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-healthloganalytics-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-healthloganalytics-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,42 @@ Zurich
 
 </td><td>
 
--   **[Facilitate Cribl log data ingestion by Health Log Analytics using the Cribl integration](https://www.servicenow.com/docs/access?context=il-connector-hla-cribl&family=zurich&ft:locale=en-US)**
+-   **[Export source types to an update set by log source](https://www.servicenow.com/docs/access?context=hla-export-sourcetypes-by-source&family=zurich&ft:locale=en-US)**
+
+Starting in version 38.0.16, export all source types related to one or more selected log sources to an update set together. You can then import the update set to the target environment.
+
+
+ -   **[Map log data to service instances and components for alerts in context](https://www.servicenow.com/docs/access?context=il-connector-hla-map-business-context&family=zurich&ft:locale=en-US)**
+
+Starting in version 38.0.16, map your logs to service instances and components so that Health Log Analytics can generate alerts in the correct context. Contextualizing your log data is especially important when the integration processes logs from multiple service instances and components.
+
+
+ -   **[Display Integrations Launchpad from the ITOM AIOps configuration center](https://www.servicenow.com/docs/access?context=itom-aiops-conf-center&family=zurich&ft:locale=en-US)**
+
+Starting in version 38.0.16, open the Integrations Launchpad from ITOM AIOps configuration center. The ITOM AIOps configuration center is a centralized workspace that enables you to configure and manage AIOps features from a single place.
+
+
+ -   **[Set up a GCP PubSub integration from the Integrations Launchpad](https://www.servicenow.com/docs/access?context=il-connector-hla-gcp-pubsub&family=zurich&ft:locale=en-US)**
+
+Starting in version 38.0.16, set up an integration from the Integrations Launchpad for receiving log messages that were published to a Google Cloud Platform \(GCP\) Pub/Sub topic and streaming them to your ServiceNow instance.
+
+
+ -   **[Set up a Microsoft Azure Event Hubs integration from the Integrations Launchpad](https://www.servicenow.com/docs/access?context=il-connector-hla-event-hubs&family=zurich&ft:locale=en-US)**
+
+Starting in version 38.0.16, set up an integration from the Integrations Launchpad for streaming events from Microsoft Azure Event Hubs to your ServiceNow instance.
+
+
+ -   **[Set up an Edge Delta TCP or REST integration from the Integrations Launchpad](https://www.servicenow.com/docs/access?context=il-connector-hla-edgedelta-tcp&family=zurich&ft:locale=en-US)**
+
+Starting in version 38.0.16, set up an integration from the Integrations Launchpad to enable Health Log Analytics to process Edge Delta log messages streaming into your ServiceNow instance over the TCP transport protocol or via REST.
+
+
+ -   **[Monitor ServiceNow instance logs with the ServiceNow Log Export data input](https://www.servicenow.com/docs/access?context=hla-data-input-log-export&family=zurich&ft:locale=en-US)**
+
+Starting in version 38.0.16, set up a data input for monitoring ServiceNow instance node logs from both Java code and JavaScript in Health Log Analytics.
+
+
+ -   **[Facilitate Cribl log data ingestion by Health Log Analytics using the Cribl integration](https://www.servicenow.com/docs/access?context=il-connector-hla-cribl&family=zurich&ft:locale=en-US)**
 
 Starting in version 37.0.15, use the Cribl log data integration to streamline Health Log Analytics data ingestion with Cribl. If your organization uses Cribl for filtering and routing large volumes of log data from various sources, the log format received by HLA is distinct from other types. The Cribl integration enables HLA to detect and separate transport headers from inner log messages in this format, forwarding only the inner message to the source type structure for processing. You can configure the Cribl integration conveniently through the Integrations Launchpad.
 
@@ -198,6 +233,8 @@ Zurich
 
 Install Health Log Analytics by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** [Health Log Analytics](https://www.servicenow.com/docs/access?context=health-log-analytics-rn&family=zurich&ft:locale=en-US) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -365,5 +402,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Create an Individual Life Claims case
 description: Begin the claim process by initiating an individual life claim case on behalf of the claimant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-an-individual-life-claim-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/create-an-individual-life-claim-case.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -108,5 +108,5 @@ A claim case is created in the New state and the workflow is triggered. If appli
 
 ## What to do next
 
-Assign cases to yourself and start working on them. For more information, see [Adjuster activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/adjuster-tasks-workspace-persona.md).
+Assign cases to yourself and start working on them. For more information, see [Adjuster activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/adjuster-tasks-workspace-persona.md).
 

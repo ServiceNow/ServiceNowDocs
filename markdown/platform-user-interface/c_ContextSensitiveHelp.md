@@ -2,7 +2,7 @@
 title: Context-sensitive help
 description: By default, the help link available in the product opens the welcome page of the help system, allowing you to enter search criteria for the information you want to find. With context-sensitive help, you can set a base URL for an external help system. The context-sensitive system properties define the base URLs for the default and custom help systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_ContextSensitiveHelp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_ContextSensitiveHelp.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -70,7 +70,7 @@ help.base.default
 
 </td><td>
 
-The base URL for custom help contexts in which the **ServiceNow Product Documentation** check box is cleared, and an absolute URL is not specified. When the base URL is set, the system creates the address of a help conext record by appending the target page or file name to the base URL. Custom help contexts using this base URL overwrite the help provided by default in your instance for the same table. For details, see [set base URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ContextSensitiveHelp.md).
+The base URL for custom help contexts in which the **ServiceNow Product Documentation** check box is cleared, and an absolute URL is not specified. When the base URL is set, the system creates the address of a help conext record by appending the target page or file name to the base URL. Custom help contexts using this base URL overwrite the help provided by default in your instance for the same table. For details, see [set base URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ContextSensitiveHelp.md).
 
 </td><td>
 
@@ -82,17 +82,17 @@ help.base.servicenow
 
 </td><td>
 
-The base URL for help contexts in which the **ServiceNow Wiki** check box is selected. This is the base URL for the help provided in your instance by default. Do not change this value. For details, see [Create a new help context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateANewHelpContext.md).
+The base URL for help contexts in which the **ServiceNow Wiki** check box is selected. This is the base URL for the help provided in your instance by default. Do not change this value. For details, see [Create a new help context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_CreateANewHelpContext.md).
 
 </td><td>
 
 http://servicenow.com/docs/?context=
 
 </td></tr></tbody>
-</table>-   **[Create a new help context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateANewHelpContext.md)**  
+</table>-   **[Create a new help context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_CreateANewHelpContext.md)**  
 You can create new help contexts to supplement or replace the default help contexts. For example, if your organization has heavily customized a form, you might create a new help context for that form. The customized help context could link to more relevant information, such as a company knowledge base article.
--   **[Help context types and prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_HelpContextTypes.md)**  
+-   **[Help context types and prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_HelpContextTypes.md)**  
 You can create a help context with the type **Form**, **List**, or **Record**, and link it to a particular table in your ServiceNow instance. If you have multiple help contexts, prioritization determines which help contexts apply to what a user views.
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

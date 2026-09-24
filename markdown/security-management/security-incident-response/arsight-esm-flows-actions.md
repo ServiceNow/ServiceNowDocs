@@ -2,7 +2,7 @@
 title: Flow Designer usage with ArcSight ESM event ingestion integration
 description: Using the Integration Hub and Flow Designer, several flows, subflows, and actions are available with the ArcSight ESM integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arsight-esm-flows-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/arsight-esm-flows-actions.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

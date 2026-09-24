@@ -2,7 +2,7 @@
 title: Assess safety hazards and risk levels for a risk analysis
 description: Review the identified hazards in a risk analysis and choose their control measures to assess how they impact and mitigate the risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/add-a-risk-and-its-controls-for-a-safety-risk-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/add-a-risk-and-its-controls-for-a-safety-risk-assessment.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -35,25 +35,25 @@ Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessme
     -   To create a new hazard assessment, select **New**.
     -   To review the hazards and controls that are imported from a predefined job, select from the list.
 
-        For more information, see [Create a risk analysis for a safety risk assessment from a job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/import-hazards-and-controls.md).
+        For more information, see [Create a risk analysis for a safety risk assessment from a job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/import-hazards-and-controls.md).
 
 6.  On the form, fill in the fields.
 
     1.  Select a hazard to perform its assessment.​
 
-        If this hazard assessment is for a predefined job in the job register, select the job and the applicable job step. For more information on job register, see [Jobs in job register](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-job-register.md).
+        If this hazard assessment is for a predefined job in the job register, select the job and the applicable job step. For more information on job register, see [Jobs in job register](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-define-job-register.md).
 
     2.  Identify what effect this hazard could have, for example, burns.
 
     3.  Select control measures that could help prevent this hazard.​
 
-        To define and use a control that is not available in the **Available Control Measures** field, select **Create new control**. For more information, see [Define Health and Safety control measures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-controls.md).
+        To define and use a control that is not available in the **Available Control Measures** field, select **Create new control**. For more information, see [Define Health and Safety control measures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-define-controls.md).
 
     4.  In **Inherent severity** and **Inherent likelihood** fields, choose the severity and likelihood of this hazard before controls.
 
     5.  In **Residual severity** and **Residual likelihood** fields, choose what the severity and likelihood of this hazard is, after those controls have been put in place.
 
-    For information on field descriptions, see [Hazard assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-hazard-assessment-form.md).
+    For information on field descriptions, see [Hazard assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-hazard-assessment-form.md).
 
 7.  Select **Save**.
 
@@ -66,7 +66,7 @@ Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessme
     -   The severity and likelihood of the hazard after controls are evaluated to show the hazard's risk level in the **Residual risk** field on the form. After controls, the risk level should be reduced.
     \[Omitted image "hs-hazard-assessment.png"\] Alt text: Hazard assessment form showing Inherent and Residual risk fields.
 
-    For more information on risk level calculation, see [Risk matrix form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-matrix-form.md).
+    For more information on risk level calculation, see [Risk matrix form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-risk-matrix-form.md).
 
 -   The hazard assessment is listed in the **Hazard assessments** tab of the risk analysis.
 
@@ -74,5 +74,5 @@ Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessme
 
 If a risk analysis includes more than one hazard, perform a hazard assessment for each.
 
-**Parent Topic:**[Safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-assessment.md)
+**Parent Topic:**[Safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-risk-assessment.md)
 

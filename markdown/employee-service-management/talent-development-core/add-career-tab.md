@@ -2,7 +2,7 @@
 title: Add the Career tab in the Employee Profile
 description: Add the Career tab and enable the Skills widget in the Career tab to upload your resume/LinkedIn profile and work with skills-related data in your Employee Profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/add-career-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/add-career-tab.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

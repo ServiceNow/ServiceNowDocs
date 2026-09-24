@@ -2,7 +2,7 @@
 title: Generate a report for an engagement in a classic report template
 description: Generate a report that summarizes the findings of an engagement to communicate the report findings to executives.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

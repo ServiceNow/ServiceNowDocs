@@ -2,10 +2,10 @@
 title: Reviewing an Approval Request
 description: Review an approval request form to perform the required action according to the role assigned to you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-review-approval-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-review-approval-request.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Unified Approvals View, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_sec\_exception.approver, sn\_sec\_exception.admin
 
 5.  Select **Now Assist Recommendation** option from the side panel to generate tailored recommendations for this request.
 
-    **Note:** Now Assist analyses risk rating, request details, questionnaire answers, vulnerability, and asset information for a request to provide Approve or Reject recommendations, confidence score, and reasoning to the approvers. For more information, see: [Generate approval recommendations with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-recommendation-skill.md)
+    **Note:** Now Assist analyses risk rating, request details, questionnaire answers, vulnerability, and asset information for a request to provide Approve or Reject recommendations, confidence score, and reasoning to the approvers. For more information, see: [Generate approval recommendations with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approval-recommendation-skill.md)
 
 6.  Select Approve or Reject at the top-right corner of the form, if you’re the assigned Approver for that request.
 
@@ -47,5 +47,5 @@ Role required: sn\_sec\_exception.approver, sn\_sec\_exception.admin
     **Note:** Approvers receive notifications or reminders for pending requests based on system configuration.
 
 
-**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-view.md)
+**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approval-view.md)
 

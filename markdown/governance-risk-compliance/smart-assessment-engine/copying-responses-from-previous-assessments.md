@@ -2,7 +2,7 @@
 title: Copying responses from previous assessments
 description: You can copy responses from previous assessments to save time and reduce repetition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/copying-responses-from-previous-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/copying-responses-from-previous-assessments.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine

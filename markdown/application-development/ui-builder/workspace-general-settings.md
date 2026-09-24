@@ -2,7 +2,7 @@
 title: Change the general settings in your workspace experience
 description: Change the general settings for your workspace experience in UI Builder to fit the needs of your organization. For example, you can modify the title, description, and path for your workspace experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/workspace-general-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/workspace-general-settings.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -20,7 +20,7 @@ This video show you how to perform the following procedure.
 
 ## Before you begin
 
-You must be in the correct application scope to edit the experience settings. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
+You must be in the correct application scope to edit the experience settings. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_ApplicationScope.md).
 
 Role required: ui\_builder\_admin
 
@@ -30,7 +30,7 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md).
 
 3.  Select **Experience settings** in the upper right.
 
@@ -52,5 +52,5 @@ Role required: ui\_builder\_admin
 6.  Click **Save**.
 
 
-**Parent Topic:**[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-workspace-settings.md)
+**Parent Topic:**[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-builder-workspace-settings.md)
 

@@ -2,7 +2,7 @@
 title: Enable a sales agreement in a quote
 description: Agents can enable a sales agreement for a quote. Once enabled in Quote Management, sales agreements are generated that show the product and service lines and other relevant details for the quote.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-create-sales-agreement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-create-sales-agreement.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Sales agreements filter the product catalog according to the agreement.
 
 3.  Add quote details to the quote and select **Enable sales agreement quote**.
 
-    When the **Enable sales agreement quote** is selected, the quote is set on a sales agreement workflow. See [Using Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-agreement-mgmt-using.md) for more information.
+    When the **Enable sales agreement quote** is selected, the quote is set on a sales agreement workflow. See [Using Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-agreement-mgmt-using.md) for more information.
 
 4.  Fill in the **Sales agreement start date** and **Sales agreement end date**.
 
@@ -42,7 +42,7 @@ Sales agreements filter the product catalog according to the agreement.
 
 6.  Use the **Catalog** tab to add quote line items to the quote.
 
-    See [Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-catalog-tab.md) for more information.
+    See [Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-catalog-tab.md) for more information.
 
 7.  Make other updates to the quote.
 
@@ -59,5 +59,5 @@ Sales agreements filter the product catalog according to the agreement.
 11. Select the sales agreement message to open the sales agreement.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

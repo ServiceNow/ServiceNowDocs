@@ -2,7 +2,7 @@
 title: The LocationLookup field
 description: Any text type can be defined as a LocationLookup component display type, which lets you use Google's API to pull address data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/the-location-lookup-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/the-location-lookup-field.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

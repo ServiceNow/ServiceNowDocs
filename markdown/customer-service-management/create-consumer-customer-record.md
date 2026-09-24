@@ -2,7 +2,7 @@
 title: Create a consumer or contact record
 description: Create a consumer or contact from the Lookup and Verify feature in the contextual side panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-consumer-customer-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-consumer-customer-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

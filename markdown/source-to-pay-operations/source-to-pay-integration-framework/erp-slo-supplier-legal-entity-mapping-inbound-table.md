@@ -2,7 +2,7 @@
 title: Supplier Legal Entity Mapping inbound staging table
 description: The Supplier Legal Entity Mapping inbound \[sn\_sap\_data\_int\_supplier\_stg\] staging table temporarily stores important data about the legal entities of a supplier before this data is sent to the Supplier Legal Entity Mapping \[sn\_fin\_supplier\_detail\] primary table. This staging table is delivered in a separate SAP data-integration scope rather than sn\_fcms\_intg, but it is populated as part of primary supplier data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-slo-supplier-legal-entity-mapping-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-slo-supplier-legal-entity-mapping-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

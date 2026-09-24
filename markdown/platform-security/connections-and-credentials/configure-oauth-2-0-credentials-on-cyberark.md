@@ -2,12 +2,12 @@
 title: Configure OAuth 2.0 credentials on CyberArk
 description: Configure your CyberArk vault with OAuth 2.0 credentials that the ServiceNow instance requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/configure-oauth-2-0-credentials-on-cyberark.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/configure-oauth-2-0-credentials-on-cyberark.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configure CyberArk, OAuth 2.0 authentication via MID Server using external credential storage, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -115,5 +115,5 @@ To store OAuth 2.0 credentials, first create an OAuth 2.0 credential template in
         The value that you copied and stored is used as the credential identifier in the ServiceNow instance.
 
 
-**Parent Topic:**[Configure CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-cyberark.md)
+**Parent Topic:**[Configure CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/configure-cyberark.md)
 

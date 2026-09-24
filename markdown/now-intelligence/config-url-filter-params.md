@@ -2,7 +2,7 @@
 title: Configure URL filter parameters on a dashboard
 description: Enable URL filter parameters on your dashboard to support encoding of filter values in the dashboard URL..
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/config-url-filter-params.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/config-url-filter-params.html
 release: australia
 topic_type: task
 last_updated: "2026-06-19"

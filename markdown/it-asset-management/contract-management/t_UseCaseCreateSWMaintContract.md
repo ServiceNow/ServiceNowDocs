@@ -2,7 +2,7 @@
 title: Create a software maintenance contract example
 description: One common use case for the Contract Management application is creating a contract to track maintenance payments for enterprise software. You can use this example to learn how to create a software maintenance contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_UseCaseCreateSWMaintContract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/t\_UseCaseCreateSWMaintContract.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -26,9 +26,9 @@ The goal of this example is to create a contract that shows the total amount of 
 
 ## Procedure
 
-1.  Create an [application model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md), adding a **Name** and specifying **Software License** in **Model categories**.
+1.  Create an [application model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_Models.md), adding a **Name** and specifying **Software License** in **Model categories**.
 
-2.  Create a [software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md), adding a **Name** and **Model Number**, and selecting the application model created in step 1.
+2.  Create a [software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_Models.md), adding a **Name** and **Model Number**, and selecting the application model created in step 1.
 
 3.  Create a new software entitlement by selecting the software model created in step 2.
 
@@ -101,10 +101,10 @@ Enter the value.
 
 11. Click **Update**.
 
-12. [Submit the contract for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_ObtainContractApproval.md).
+12. [Submit the contract for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/t_ObtainContractApproval.md).
 
 
-**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_CreateAContract.md)
+**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/t_CreateAContract.md)
 
 **Related topics**  
 
@@ -117,5 +117,5 @@ Enter the value.
 
 [Add a document to a contract]()
 
-[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOverview.md)
+[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMOverview.md)
 

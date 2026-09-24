@@ -2,7 +2,7 @@
 title: Activate GRC: Performance Analytics Integration
 description: The GRC: Performance Analytics Integration plugin provides an integration between Performance Analytics and the Risk Management and Policy and Compliance Management applications. This plugin provides more insight into organizational risk and compliance performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/activate-grc-pa-prem-integ-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/activate-grc-pa-prem-integ-2.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -43,7 +43,7 @@ This plugin includes demo data and activates related plugins if they are not alr
 
 After activating the GRC: Performance Analytics Integration plugin on an instance with customized related lists on content \(risk or control objective\) or items \(risk or control\), you may have to manually add the PA Indicator to content relationships and/or the PA indicator to item relationships.
 
-**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.md)
+**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.md)
 
 **Related topics**  
 

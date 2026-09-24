@@ -2,7 +2,7 @@
 title: Inventory Model form - General
 description: The General section in the Inventory Model form enables you to create, review, and modify the details of a model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-general.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-general.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -204,10 +204,10 @@ Certified
 Option that designates if this network asset is certified.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Inventory Model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-forms.md)
+</table>**Parent Topic:**[Inventory Model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-model-forms.md)
 
 **Related topics**  
 
 
-[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
+[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 

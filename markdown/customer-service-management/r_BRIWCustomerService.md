@@ -2,7 +2,7 @@
 title: Business rules installed with Customer Service Management
 description: Business rules are added with activation of Customer Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_BRIWCustomerService.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r\_BRIWCustomerService.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -473,5 +473,5 @@ Registration Request\[sn\_customerservice\_registration\]
 Checks if the registration is valid based on the user’s email address. If the user exists in the system or a request has already been submitted and is in the pending state, the registration request is not allowed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithCustomerService.md)
+</table>**Parent Topic:**[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_InstalledWithCustomerService.md)
 

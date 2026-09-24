@@ -2,7 +2,7 @@
 title: General guidelines for offline mode security and compliance
 description: When working offline mode, keep these security and compliance general guidelines in mind for usability and a good user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/general-guidelines-offline-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/general-guidelines-offline-security.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-01"
@@ -64,5 +64,5 @@ When working offline mode, keep these security and compliance general guidelines
     **Note:** A new cache download only updates the existing cache.
 
 
-**Parent Topic:**[Security and compliance in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/security-offline.md)
+**Parent Topic:**[Security and compliance in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/security-offline.md)
 

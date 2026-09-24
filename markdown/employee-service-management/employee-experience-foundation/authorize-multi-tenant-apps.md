@@ -2,7 +2,7 @@
 title: Authorize pre-published Azure apps to grant required permissions
 description: Authorize the pre-published apps to enable ServiceNow to make API calls to Microsoft to enable each of the ServiceNow for Teams application workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,5 +43,5 @@ To connect your ServiceNow instance to your M365 tenant and to Authorize apps, t
     \[Omitted image "notify-app-installed-02.png"\] Alt text: Notify connector app is installed.
 
 
-**Parent Topic:**[Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md)
+**Parent Topic:**[Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md)
 

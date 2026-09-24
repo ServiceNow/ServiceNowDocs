@@ -2,7 +2,7 @@
 title: Knowledge widget overview
 description: Knowledge articles provide self-service information to users through the Knowledge widget and conversational search. Use knowledge management to reduce support tickets and empower users to find answers independently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-knowledge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-knowledge.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -38,9 +38,9 @@ The conversational interface interprets employee questions and retrieves the mos
 **Related topics**  
 
 
-[Configure knowledge widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-knowledge-widget.md)
+[Configure knowledge widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-knowledge-widget.md)
 
-[Search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-search-sources.md)
+[Search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-add-search-sources.md)
 
-[Conversation-first catalog and knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-conversational-catalog.md)
+[Conversation-first catalog and knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-conversational-catalog.md)
 

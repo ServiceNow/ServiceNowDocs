@@ -2,7 +2,7 @@
 title: View permissions for a role
 description: Use Access Analyzer to view permissions for a selected role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/view-permissions-for-a-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/view-permissions-for-a-role.html
 release: australia
 product: Access Control
 classification: access-control

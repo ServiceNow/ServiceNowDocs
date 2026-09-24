@@ -2,7 +2,7 @@
 title: Configure special handling notes
 description: Use special handling notes to bring important case information to an agent’s attention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-special-handling-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-special-handling-notes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,9 +34,9 @@ Configure the desired entity tables to use special handling notes and then confi
 
     |Task|Description|
     |----|-----------|
-    |[Configure an entity table to use special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ConfigEntityToUseSHNotes.md)|Configuring an entity to use special handling notes adds the **Create Special Handling Notes** related link to the corresponding entity form.|
-    |[Configure a form to show special handling notes in a list or pop-up window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ConfigFormToShowOnScreenAlerts.md)|Configure a form to display special handling notes in either a list or a pop-up window.|
-    |[Configure the necessary properties to display special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_EnableOnScreenAlertProperties.md)|Configure properties that determine the frequency and the number of special handling notes that are displayed.|
+    |[Configure an entity table to use special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ConfigEntityToUseSHNotes.md)|Configuring an entity to use special handling notes adds the **Create Special Handling Notes** related link to the corresponding entity form.|
+    |[Configure a form to show special handling notes in a list or pop-up window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ConfigFormToShowOnScreenAlerts.md)|Configure a form to display special handling notes in either a list or a pop-up window.|
+    |[Configure the necessary properties to display special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_EnableOnScreenAlertProperties.md)|Configure properties that determine the frequency and the number of special handling notes that are displayed.|
 
 4.  To perform the task, select **Configure**.
 
@@ -46,5 +46,5 @@ Configure the desired entity tables to use special handling notes and then confi
 **Related topics**  
 
 
-[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OnScreenAlerts.md)
+[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_OnScreenAlerts.md)
 

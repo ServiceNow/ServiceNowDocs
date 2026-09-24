@@ -2,7 +2,7 @@
 title: Configure Microsoft SharePoint with Major Security Incident Management
 description: Establish a connection between Major Security Incident Management and Microsoft SharePoint to enable document collaboration and management of security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/config-sharepoint-msim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/config-sharepoint-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -38,7 +38,7 @@ Role required: admin, sn\_msi.workspace\_admin
     -   The Azure administrator must provide the access configuration.
     -   Grant the Sites.FullControl.All permission to the registered application.
     -   Remove the Sites.FullControl.All permission when the access is successfully granted.
-    **Note:** This is a two-phase process: **Phase 1 \(Azure portal\)** — temporarily grant Sites.FullControl.All at the API Permissions level on the App Registration to enable the site-level grant commands below. **Phase 2 \(commands\)** — execute one of the three methods to grant *write* access to the registered application at the SharePoint site level via the Microsoft Graph API. Once the ServiceNow connection is confirmed, return to the Azure portal and remove Sites.FullControl.All from API Permissions; the site-level write permission granted by the commands remains in place for ongoing MSIM operations. For the command reference for all three methods, see [Commands to grant Azure application access to the Microsoft SharePoint site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/grant-azure-app-access-sharepoint-site-commands.md).
+    **Note:** This is a two-phase process: **Phase 1 \(Azure portal\)** — temporarily grant Sites.FullControl.All at the API Permissions level on the App Registration to enable the site-level grant commands below. **Phase 2 \(commands\)** — execute one of the three methods to grant *write* access to the registered application at the SharePoint site level via the Microsoft Graph API. Once the ServiceNow connection is confirmed, return to the Azure portal and remove Sites.FullControl.All from API Permissions; the site-level write permission granted by the commands remains in place for ongoing MSIM operations. For the command reference for all three methods, see [Commands to grant Azure application access to the Microsoft SharePoint site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/grant-azure-app-access-sharepoint-site-commands.md).
 
 5.  Select **Set Up SharePoint Configuration** from the context menu.
 
@@ -79,5 +79,5 @@ Role required: admin, sn\_msi.workspace\_admin
     A successful message appears and the connection is established.
 
 
-**Parent Topic:**[Integrate Major Security Incident Management with Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-sharepoint.md)
+**Parent Topic:**[Integrate Major Security Incident Management with Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-msim-sharepoint.md)
 

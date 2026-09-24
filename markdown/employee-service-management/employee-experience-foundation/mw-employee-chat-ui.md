@@ -2,7 +2,7 @@
 title: Use Otto Chat Integration on employee portal
 description: Using the Moveworks AI assistant experience, your employees can access knowledge base, requests, and tasks leading to improved productivity and operational efficiencies.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,13 +31,13 @@ You can chat with the Moveworks assistant in a chat window and expand to full-pa
 **Related topics**  
 
 
-[Getting started with Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
+[Getting started with Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
 
-[Install Otto chat application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-install-app.md)
+[Install Otto chat application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-install-app.md)
 
-[Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
+[Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
 
-[Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
+[Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
 
-[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
+[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
 

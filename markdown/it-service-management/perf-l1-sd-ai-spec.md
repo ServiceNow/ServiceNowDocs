@@ -2,7 +2,7 @@
 title: View the performance of the L1 IT Service Desk AI Specialist
 description: Review performance analytics for the L1 IT Service Desk AI Specialist to track task execution success. You can use analytics to help make choices to tune the L1 IT Service Desk AI Specialist to suit your exact business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/perf-l1-sd-ai-spec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/perf-l1-sd-ai-spec.html
 release: australia
 topic_type: task
 last_updated: "2026-08-25"

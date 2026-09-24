@@ -2,10 +2,10 @@
 title: Cost
 description: Cost records the actual expenses associated with your AI systems, enabling AI Control Tower to compare these costs against productivity gains and calculate the net return on investment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mc-cost.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mc-cost.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---

@@ -2,7 +2,7 @@
 title: Create an Event Management similarity solution
 description: Create and train a solution that applies machine learning to a collection of words to target and suggest similar alerts in your instance dataset. For example, you can compare the text in a resolved alert record to an open alert record to reuse its resolution approach.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-solution-similarity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/create-solution-similarity.html
 release: australia
 product: Event Management
 classification: event-management
@@ -162,5 +162,5 @@ The system schedules the solution for training with the nearest training service
 
 Review the trained similarity solution examples in the **Similarity Examples** related link on your ML Solution Definition form.
 
-**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-similarity.md)
 

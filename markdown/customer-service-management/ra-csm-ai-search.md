@@ -2,7 +2,7 @@
 title: AI search in Recommended Actions
 description: Enable agents to use AI search in Recommended Actions to find relevant resources or resolutions for customer issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-ai-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,11 +39,11 @@ AI search harnesses advanced machine learning algorithms and natural language pr
 
 ## Configuring AI search in Recommended Actions
 
-Steps to configure AI search in Recommended Actions include enabling the AI search tab, mapping the AI search results with guidance inputs, and customizing the Recommended Actions component. Advanced customization options include adjusting the number of results to view on a page, identifying genius results to add to the search profile, and configuring search sources. For more information, see [Configuring AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search.md).
+Steps to configure AI search in Recommended Actions include enabling the AI search tab, mapping the AI search results with guidance inputs, and customizing the Recommended Actions component. Advanced customization options include adjusting the number of results to view on a page, identifying genius results to add to the search profile, and configuring search sources. For more information, see [Configuring AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-configuring-ai-search.md).
 
 ## Using AI search in Recommended Actions
 
-Enable customer service agents to use AI search for faster access to relevant information and take appropriate actions to resolve customer issues. For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba-use-ai-search.md).
+Enable customer service agents to use AI search for faster access to relevant information and take appropriate actions to resolve customer issues. For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba-use-ai-search.md).
 
 -   Accessing AI search: Agents can access the AI search tab in the contextual side panel of the workspace.
 -   Finding context-aware results: Agents can enter their search queries in the search bar. AI search uses natural language processing to understand user queries and considers task context to produce relevant results.

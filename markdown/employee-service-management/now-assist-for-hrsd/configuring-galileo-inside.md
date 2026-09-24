@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for HRSD – Galileo Inside
 description: Enable users to access functionality and benefits of the ServiceNow Otto for HRSD – Galileo Inside \[sn\_hr\_na\_galileo\] plugin by completing a short installation and configuration process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/configuring-galileo-inside.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/configuring-galileo-inside.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -55,10 +55,10 @@ Role required: sn\_hr\_na\_galileo.admin
 
 Next, assign the `sn_hr_na_galileo.read` role to users to enable them to interact with ServiceNow Otto for HRSD – Galileo Inside.
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Use ServiceNow Otto for HRSD – Galileo Inside to answer HR-related questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-galileo-inside.md)
+[Use ServiceNow Otto for HRSD – Galileo Inside to answer HR-related questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-galileo-inside.md)
 

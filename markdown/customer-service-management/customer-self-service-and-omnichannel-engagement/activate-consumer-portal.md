@@ -2,7 +2,7 @@
 title: Activate the Consumer and Customer Service Portals
 description: Activate the portal plugins to use the Consumer and Customer Service Portals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-consumer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-consumer-portal.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Install any one of the following plugins.
 
-<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d261170e76">
+<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d261174e76">
 
 Plugin name
 
-</th><th align="left" id="d261170e79">
+</th><th align="left" id="d261174e79">
 
 Plugin.
 
-</th></tr></thead><tbody><tr><td id="d261170e88">
+</th></tr></thead><tbody><tr><td id="d261174e88">
 
 **Customer Service Portal**
 
@@ -42,7 +42,7 @@ Plugin.
 
 com.snc.customer\_service\_portal
 
-</td></tr><tr><td id="d261170e97">
+</td></tr><tr><td id="d261174e97">
 
 **Consumer Service Portal**
 

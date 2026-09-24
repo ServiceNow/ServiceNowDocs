@@ -2,7 +2,7 @@
 title: Major Security Incident Management
 description: Track and manage various activities that are typically part of resolving a major security incident through Major Security Incident Management. Through an intuitive workspace, incident managers and those working on an incident can propose and promote incidents to major incidents, track major security incident activities, and easily collaborate with colleagues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/major-security-incident-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/major-security-incident-management.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -64,7 +64,7 @@ The following Security Operations applications are the standard Security Inciden
 3.  Security Support Common
 4.  Security Support Common Orchestration
 
-**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
+**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/exploring-major-security-incident-management.md)
 
 **Related topics**  
 

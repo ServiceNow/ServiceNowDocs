@@ -2,7 +2,7 @@
 title: Quick start tests
 description: Copy and customize quick start tests provided by the ServiceNow AI Platform to validate that your instance works after you make any configuration changes. For example, if you apply an upgrade or develop an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/quick-start-tests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/quick-start-tests.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -28,7 +28,7 @@ See [Getting started with quick start tests](https://www.youtube.com/watch?v=wV0
 
 ## Activation
 
-Each application or feature has its own plugin activation requirements for enabling quick start tests. See [Available quick start tests by application or feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/available-quick-start-tests.md) for activation information.
+Each application or feature has its own plugin activation requirements for enabling quick start tests. See [Available quick start tests by application or feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/available-quick-start-tests.md) for activation information.
 
 ## Managing copies
 
@@ -36,10 +36,10 @@ When you copy a test, Automated Test Framework populates the **Copied from** fie
 
 **Tip:** If a QST is updated, the previously copied versions of the QST does not have the recent changes. Review the old copies using **Copies to Review** for all the tests that have an associated warning message.
 
--   **[Available quick start tests by application or feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/available-quick-start-tests.md)**  
+-   **[Available quick start tests by application or feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/available-quick-start-tests.md)**  
 Validate that your instance still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize the ServiceNow -provided quick start tests to pass when using your instance-specific data.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-type-testing.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-test-type-testing.md)
 
 **Related topics**  
 

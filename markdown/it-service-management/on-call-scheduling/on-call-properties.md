@@ -2,7 +2,7 @@
 title: System properties for On-Call Scheduling
 description: The property settings configure On-Call Scheduling operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/on-call-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/on-call-properties.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -74,7 +74,7 @@ com.snc.on\_call\_rotation.log\_escalations
 
 </td><td>
 
-Enable logging of escalations. See [View details in an escalation log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/view-escalation-logs-oncall.md).Location: System Property \[sys\_properties\] table
+Enable logging of escalations. See [View details in an escalation log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/view-escalation-logs-oncall.md).Location: System Property \[sys\_properties\] table
 
 </td></tr><tr><td>
 
@@ -318,5 +318,5 @@ com.snc.on\_call\_rotation.new\_trigger\_engine
 If true, a new on-call trigger engine is activated which enables on-call subflows get triggered via flow runner queue. As the on-call subflows are marked as high priority they get processed faster via flow runner queue compared to the traditional event queue especially when multiple events are triggered at the same time and are in the process queue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
+</table>**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
 

@@ -2,7 +2,7 @@
 title: Revise an outbound request for the service order
 description: As a provider, revise the outbound request that was previously created for a service order by using the Order Management for Telecommunications, Media, and Technology application. This way, you can share any inflight order changes with the external systems during the order fulfillment process.OM revamp project - unable to validate this task against the UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-revise-outbound-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-mgt-revise-outbound-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ A new Updates available order attribute tracks for any updates in the service or
 
     -   Don't trigger this action by selecting **Cancel**.
     -   Initiate this template by selecting **OK**.
-    The revised order details are generated and sent to the external systems through the configured integration. To learn more, see [Integrating Order Management with southbound external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/order-mgt-integrate-southbound.md).
+    The revised order details are generated and sent to the external systems through the configured integration. To learn more, see [Integrating Order Management with southbound external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/order-mgt-integrate-southbound.md).
 
 
 **Related topics**  

@@ -2,7 +2,7 @@
 title: Test the Action utility
 description: Test the Action utility to make sure that the integrated action works as intended in the conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/test-flow-designer-va-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/test-flow-designer-va-integration.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -48,7 +48,7 @@ Topic authors can also see the test results in the Conversation Task FDIH Invoca
 
     By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
 
-    You can change this interval, as needed. To change the interval, see [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md).
+    You can change this interval, as needed. To change the interval, see [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md).
 
 5.  Troubleshoot the Action utility node:
 
@@ -57,5 +57,5 @@ Topic authors can also see the test results in the Conversation Task FDIH Invoca
 6.  Select **Save** when you're finished.
 
 
-**Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
+**Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
 

@@ -2,7 +2,7 @@
 title: Deny-Unless ACL
 description: Learn details about Deny-Unless ACLs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/acl-denial-behavior.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/acl-denial-behavior.html
 release: australia
 product: Access Control
 classification: access-control

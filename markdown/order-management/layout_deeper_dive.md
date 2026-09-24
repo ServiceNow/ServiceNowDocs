@@ -2,7 +2,7 @@
 title: Layout: a deeper dive
 description: Learn advanced layout concepts in CPQ, including tiers, column sets, and product list layouts. Understand how to structure pages, tabs, and sections in CSV files to create dynamic, responsive configuration interfaces with organized and intuitive user experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_deeper\_dive.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/layout\_deeper\_dive.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: My Safe Workplace
 description: Use the ServiceNow My Safe Workplace page to view all of your information and resources for returning to the workplace. Manage your requirement status for workplace entry, update your health status, track workspace reservations, and create requests for PPE or testing.Add or remove widgets that employees can view on My Safe Workplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/safe-workplace-today.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-readiness-core/safe-workplace-today.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -96,7 +96,7 @@ Key resources
 View featured knowledge articles.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-readiness-core.md)
+</table>**Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/employee-readiness-core.md)
 
 ## Set up My Safe Workplace
 

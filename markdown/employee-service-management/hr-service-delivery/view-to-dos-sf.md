@@ -2,7 +2,7 @@
 title: View to dos
 description: View details of the tasks that are pulled from HR Service Delivery Integration with SuccessFactors into ServiceNow application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/view-to-dos-sf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/view-to-dos-sf.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -118,7 +118,7 @@ Date and time by which the task has to be completed.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
+**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
 
 **Related topics**  
 

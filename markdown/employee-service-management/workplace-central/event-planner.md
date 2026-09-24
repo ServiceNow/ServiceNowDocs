@@ -2,7 +2,7 @@
 title: Event Planner
 description: Manage reservations requested in your organization in a simple event planner. As a Reservation planner, check the current day's planned reservations and view the reservation details. The schedule view also enables you to reschedule a reservation to another date and time by easily dragging and dropping it to another time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/event-planner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/event-planner.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -26,7 +26,7 @@ Ensure that you have installed the Calendar component \(sn\_calendar\) of versio
 
 Using the Event planner schedule view, you can perform various actions on reservation. However, note the following:
 
--   Open and view the Location directory portal from the Scheduled view. For more information, see [Open and view Location directory from Event Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/open-location-directory-eventplanner.md).
+-   Open and view the Location directory portal from the Scheduled view. For more information, see [Open and view Location directory from Event Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/open-location-directory-eventplanner.md).
 -   You can only manage reservations that are created using Workplace Core applications.
 -   You can manage single and occurrence reservations.
 -   You can manage a multi-location or a group reservation only by opening the reservation details and not with the schedule view.
@@ -45,11 +45,11 @@ The Event planner also provides you with an option to create a reservation. The 
 
 **Note:** In scheduled view, you cannot update a reservation after editing any custom field.
 
-The Event planner workspace provides you with great options in tracking your reservations. For more information about the key features and its capabilities, refer to [Workplace Central Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/event-planner-key-features-actions-views.md).
+The Event planner workspace provides you with great options in tracking your reservations. For more information about the key features and its capabilities, refer to [Workplace Central Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/event-planner-key-features-actions-views.md).
 
-For more information about the Reservation planner role, refer to [Components installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/components-installed-with-wsd-reservation-mgmt.md)
+For more information about the Reservation planner role, refer to [Components installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/components-installed-with-wsd-reservation-mgmt.md)
 
-**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for HR Service Delivery \(HRSD\)
 description: With the ServiceNow Otto for HR Service Delivery \(HRSD\) application, your agents can summarize the customer chat conversations and case details to get the context of the case, generate the case resolution notes, and wrap up cases faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/explore-now-assist-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/explore-now-assist-hr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -42,7 +42,7 @@ The ServiceNow Otto for HRSD application includes the generative AI skills and f
     -   Live Agent to Live Agent handoff summary: Summarizes the conversation when a live agent hands off a chat to another live agent and displays the summary in the Active Chat window. An agent can view a summary of the actions that were taken by a customer before hand off to another live agent.
     -   Chat wrap up summary: Accelerates the wrap-up time by populating the full chat summary when a conversation ends.
     -   Chat wrap up short description: Accelerates the wrap-up time by populating the short description that summarizes the requester issues when the conversation ends​.
-    For information on activating the chat summarization skill, see [Configure chat summarization and chat reply recommendation skills in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.md). For information on how to use the skill on Agent Workspace for HR Case Management, see [Summarize a chat conversation using ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-chat.md).
+    For information on activating the chat summarization skill, see [Configure chat summarization and chat reply recommendation skills in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.md). For information on how to use the skill on Agent Workspace for HR Case Management, see [Summarize a chat conversation using ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-chat.md).
 
     -   1: The agent accepts the chat with the requester and gets any additional details.
     -   2: The agent provides the details and ends the conversation.
@@ -52,13 +52,13 @@ The ServiceNow Otto for HRSD application includes the generative AI skills and f
 
     Provides an agent with a concise summary of a case, including the issue, actions that were taken, SLA, attachment summary and resolution information, depending on the state of the case. An agent can view a case summary to understand the case context, refresh the summary, and post the summary to the case work notes.
 
-    For information on activating the case summarization skill, see [Configure case or incident summarization in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md). For information on how to use the skill on Agent Workspace for HR Case Management or Core UI, see [Summarize an HR case using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-case.md).
+    For information on activating the case summarization skill, see [Configure case or incident summarization in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md). For information on how to use the skill on Agent Workspace for HR Case Management or Core UI, see [Summarize an HR case using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-case.md).
 
 -   **Resolution notes generation**
 
     Automatically generates the resolution notes for an agent when the state of a case is changed to Closed Complete. An agent can accept the AI-generated notes or edit the notes before saving it to the case.
 
-    For information on activating the resolution notes skill, see [Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md). For information on how to use the skill on Agent Workspace for HR Case Management, see [Generate resolution notes using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.md).
+    For information on activating the resolution notes skill, see [Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md). For information on how to use the skill on Agent Workspace for HR Case Management, see [Generate resolution notes using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.md).
 
 -   **Knowledge generation**
 
@@ -86,21 +86,21 @@ The admin activates the filters or creates custom filters to enable the Virtual 
     In situations where the LLM incorrectly identifies a phrase as a sensitive topic, employees can opt to continue the interaction with the Virtual Agent.
 
 
-For more information on the out-of-the-box filters and how they are mapped to chat queues and HR case services, see [Sensitivity detection filters mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.md).
+For more information on the out-of-the-box filters and how they are mapped to chat queues and HR case services, see [Sensitivity detection filters mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.md).
 
-For information on setting up sensitivity detection, see [Configure sensitivity detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.md).
+For information on setting up sensitivity detection, see [Configure sensitivity detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.md).
 
 ## Sentiment Analysis
 
 Sentiment analysis helps agents prioritize cases based on a sentiment score ranging from -5 to +5 to represent extremely negative to extremely positive. It is available in both the HR Agent workspace and core UI views.
 
-For more information on using sentiment analysis in HR Service Delivery, see [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/analyze-sentiments-now-assist.md).
+For more information on using sentiment analysis in HR Service Delivery, see [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/analyze-sentiments-now-assist.md).
 
 ## ServiceNow Otto panel in the Agent Workspace for HR Case Management
 
 The ServiceNow Otto panel provides agents with a conversational interface that they can use to request the chat and case summaries on demand.
 
-For more information about the ServiceNow Otto panel, see [Use the ServiceNow Otto panel in HR Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-panel-hr.md). \[Omitted image "now-assist-icon.png"\] Alt text: ServiceNow Otto panel menu in Workspace.
+For more information about the ServiceNow Otto panel, see [Use the ServiceNow Otto panel in HR Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-panel-hr.md). \[Omitted image "now-assist-icon.png"\] Alt text: ServiceNow Otto panel menu in Workspace.
 
 ## ServiceNow Otto for HRSD – Galileo Inside
 
@@ -110,5 +110,5 @@ HR professionals, managers, and employees can submit queries on topics including
 
 Galileo Inside uses Retrieval-Augmented Generation \(RAG\) to generate responses to user queries based on relevant articles and research, delivering accurate domain-specific information in real time.
 
-A one-time configuration provides continuous access to the Galileo library with monthly updates to ensure users have the latest information. For more information, see [Configure ServiceNow Otto for HRSD – Galileo Inside](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configuring-galileo-inside.md).
+A one-time configuration provides continuous access to the Galileo library with monthly updates to ensure users have the latest information. For more information, see [Configure ServiceNow Otto for HRSD – Galileo Inside](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configuring-galileo-inside.md).
 

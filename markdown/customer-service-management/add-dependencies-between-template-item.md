@@ -2,7 +2,7 @@
 title: Add task dependencies between template items
 description: Add dependencies between template items in a task plan template to control the sequence in which tasks are available to agents after the template is applied.Edit the fields of an existing dependency or remove it from the dependency map in a task plan template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-dependencies-between-template-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-dependencies-between-template-item.html
 release: australia
 topic_type: task
 last_updated: "2026-05-11"

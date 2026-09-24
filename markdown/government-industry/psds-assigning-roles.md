@@ -2,7 +2,7 @@
 title: Configure user roles and groups in Public Sector Digital Services
 description: The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, and establish different types of relationships between users and public sector entities. These roles control access to public sector data through UI-based features such as forms and lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-assigning-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-assigning-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Public Sector Digital Services provides many functional and granular roles that 
 
 You can assign roles to users or groups that have been configured in the ServiceNow AI Platform®. A user is an individual who can access your instance, and a group is a set of users who share a common purpose. The users associated with a group are listed as group members. After your users and groups are configured, you can assign roles to them. When you apply roles to groups, their members inherit the applied roles.
 
-For more information about roles, see [Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md).
+For more information about roles, see [Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md).
 
 **Note:** Role-based access controls govern UI interactions. They do not restrict access by users with system-level scripting privileges or elevated platform roles.
 

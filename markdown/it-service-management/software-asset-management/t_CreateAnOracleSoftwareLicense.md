@@ -2,7 +2,7 @@
 title: Create an Oracle software license for the legacy Oracle Process Pack
 description: To use the legacy Oracle process pack, you must create an Oracle software license.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_CreateAnOracleSoftwareLicense.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/t\_CreateAnOracleSoftwareLicense.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -30,7 +30,7 @@ Role required: sam
 
 4.  Select an Oracle model in the **Model** field.
 
-    The Oracle models in this list are created by the user. For more information, see [Manage software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_ManagingSoftwareModels.md).
+    The Oracle models in this list are created by the user. For more information, see [Manage software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/t_ManagingSoftwareModels.md).
 
 5.  Ensure that the **License metric** field specifies the correct license calculation type.
 
@@ -39,5 +39,5 @@ Role required: sam
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_OracleProcessPack.md)
+**Parent Topic:**[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_OracleProcessPack.md)
 

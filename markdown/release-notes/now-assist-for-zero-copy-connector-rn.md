@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Zero Copy Connector release notes
 description: The ServiceNow Otto for Zero Copy Connector application includes generative AI skills and AI agents that can help you use Zero Copy Connectors efficiently. ServiceNow Otto for Zero Copy Connector was enhanced and updated in the Australia release.The ServiceNow Otto for Zero Copy Connector application includes generative AI skills and AI agents that can help you use Zero Copy Connectors efficiently. ServiceNow Otto for Zero Copy Connector was enhanced and updated in the Australia release.The ServiceNow Otto for Zero Copy Connector application includes generative AI skills and AI agents that can help you use Zero Copy Connectors efficiently. ServiceNow Otto for Zero Copy Connector was enhanced and updated in the Australia release.The ServiceNow Otto for Zero Copy Connector application includes generative AI skills and AI agents that can help you use Zero Copy Connectors efficiently. ServiceNow Otto for Zero Copy Connector was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-zero-copy-connector-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-zero-copy-connector-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-07-27"
@@ -30,7 +30,7 @@ See [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/
     Install ServiceNow Otto for Zero Copy Connector by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## August 2026
 

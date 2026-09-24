@@ -2,7 +2,7 @@
 title: Request control tailoring
 description: Control tailoring requests enable you to modify baseline controls for an authorization package after the Select step without reverting the package to earlier workflow steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/request-control-tailoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/request-control-tailoring.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -52,10 +52,10 @@ When an overlay control modification in a control tailoring request is approved,
 
 While a control tailoring request is pending approval, the proposed changes don't take effect until the AO approves the request. After approval, the system applies the changes to baseline controls and updates related controls accordingly. Only one control tailoring request in New state is allowed per package at a time.
 
--   **[Create a control tailoring request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-control-tailoring-request.md)**  
+-   **[Create a control tailoring request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-control-tailoring-request.md)**  
 Create a control tailoring request to modify baseline controls for an authorization package after the Select step without reverting the package to earlier workflow steps.
--   **[Approve or reject a control tailoring request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/approve-reject-control-tailoring-request.md)**  
+-   **[Approve or reject a control tailoring request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/approve-reject-control-tailoring-request.md)**  
 As an Authorizing Official \(AO\) or AO Delegate, review and approve or reject control tailoring requests to ensure governance and oversight of baseline control modifications.
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

@@ -2,7 +2,7 @@
 title: Configure obligation review for the playbook
 description: Create a page in UI Builder that uses a viewport component to dynamically load obligation review content in the playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-add-obligation-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-add-obligation-playbook.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -109,5 +109,5 @@ Role required: admin
     If the parameters are not available, add them manually. For more information on modifying the page settings, see [Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-variant-settings.md).
 
 
-**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
+**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
 

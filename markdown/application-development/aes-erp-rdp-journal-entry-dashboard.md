@@ -2,7 +2,7 @@
 title: App Engine ERP Journal Entry Task dashboard
 description: The Manual Journal Entry Posting dashboard provides information and metrics about manual journal entry tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-journal-entry-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-journal-entry-dashboard.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -36,5 +36,5 @@ The Journal Entry Task dashboard provides charts and graphs with information abo
 
 The Journal Entry lists tab contains lists of journal tasks and lines. Select a journal task or journal line number to view the record and obtain details.
 
-**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
+**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-reference.md)
 

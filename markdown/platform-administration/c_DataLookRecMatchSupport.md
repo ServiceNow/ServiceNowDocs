@@ -2,7 +2,7 @@
 title: Data lookup and record matching support
 description: The data lookup and record matching feature enables administrators to define rules that automatically set one or more field values when certain conditions are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_DataLookRecMatchSupport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_DataLookRecMatchSupport.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

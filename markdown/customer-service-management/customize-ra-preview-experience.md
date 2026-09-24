@@ -2,7 +2,7 @@
 title: Customize a guidance preview experience in the UI Builder
 description: Customize a preview of a Recommended Actions card that displays in the contextual side panel using UI Builder. The preview experience includes a hint, an icon, a message, and an action button.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-ra-preview-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customize-ra-preview-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

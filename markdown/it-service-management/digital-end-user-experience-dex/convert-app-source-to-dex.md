@@ -2,7 +2,7 @@
 title: Convert an application source to DEX
 description: Convert a Visibility Content application to DEX monitoring. After conversion, the application is managed in the Application and Device Health system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/convert-app-source-to-dex.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/convert-app-source-to-dex.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -54,8 +54,8 @@ The Source field is updated to `sn_dex`. The application is now managed by DEX a
 
 After converting the application source:
 
--   Confirm that the application appears in the DEX Application Management view. See [DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md).
--   Enable performance or compliance monitoring on the application record. See [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
+-   Confirm that the application appears in the DEX Application Management view. See [DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md).
+-   Enable performance or compliance monitoring on the application record. See [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
-**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
+**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
 

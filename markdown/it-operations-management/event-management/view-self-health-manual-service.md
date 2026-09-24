@@ -2,7 +2,7 @@
 title: View the Event Management self-health application services map
 description: You can view Event Management application services maps to visualize configuration items \(CIs\) that comprise this service. The maps show the relations and connections between these CIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-self-health-manual-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/view-self-health-manual-service.html
 release: australia
 product: Event Management
 classification: event-management
@@ -86,5 +86,5 @@ MID Servers that have been validated are displayed. The MID Server status and th
 
 You can select the configuration item that has a critical alert and change the impact from parent to application service.
 
-**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/self-monitoring.md)
+**Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/self-monitoring.md)
 

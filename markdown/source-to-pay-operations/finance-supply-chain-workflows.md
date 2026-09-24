@@ -2,7 +2,7 @@
 title: Finance and Supply Chain workflows
 description: ServiceNow Finance and Supply Chain workflows coordinate finance, procurement, and supply chain activities on a workflow-driven platform, reducing manual effort and improving visibility across teams, systems, and suppliers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-supply-chain-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-supply-chain-workflows.html
 release: australia
 topic_type: concept
 last_updated: "2025-03-10"
@@ -23,12 +23,12 @@ Finance and Supply Chain workflows consist of components that support procuremen
 
 |Component|Where it belongs|Description|
 |---------|----------------|-----------|
-|[Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-operations-overview.md)|Product suite \(within Finance and Supply Chain workflows\)|Supports end-to-end procurement and payment processes by bringing together supplier, sourcing, purchasing, and payment workflows.|
-|[Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)|Product \(within Source-to-Pay Operations product suite\)|Manages supplier onboarding, offboarding, and ongoing supplier data management, including collaboration and governance.|
-|[Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)|Product \(within Source-to-Pay Operations product suite\)|Supports sourcing and procurement workflows, purchasing activities, and spend visibility.|
-|[Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)|Product \(within Source-to-Pay Operations product suite\)|Automates invoice processing, exception handling, approvals, and payment-related workflows.|
-|[Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-landing-page.md)|Application \(within Source-to-Pay Operations product suite\)|Helps teams manage purchase order exceptions and related tasks as part of procurement workflows.|
-|[Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-case-mgmt-landing-page.md)|Application \(within Finance and Supply Chain workflows\)|Supports finance service requests and inquiries, enabling finance teams to track, manage, and resolve finance-related requests.|
+|[Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-operations-overview.md)|Product suite \(within Finance and Supply Chain workflows\)|Supports end-to-end procurement and payment processes by bringing together supplier, sourcing, purchasing, and payment workflows.|
+|[Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)|Product \(within Source-to-Pay Operations product suite\)|Manages supplier onboarding, offboarding, and ongoing supplier data management, including collaboration and governance.|
+|[Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)|Product \(within Source-to-Pay Operations product suite\)|Supports sourcing and procurement workflows, purchasing activities, and spend visibility.|
+|[Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)|Product \(within Source-to-Pay Operations product suite\)|Automates invoice processing, exception handling, approvals, and payment-related workflows.|
+|[Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purchase-order-mgmt-landing-page.md)|Application \(within Source-to-Pay Operations product suite\)|Helps teams manage purchase order exceptions and related tasks as part of procurement workflows.|
+|[Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/fin-case-mgmt-landing-page.md)|Application \(within Finance and Supply Chain workflows\)|Supports finance service requests and inquiries, enabling finance teams to track, manage, and resolve finance-related requests.|
 
 ## Common capabilities across Finance and Supply Chain workflows
 

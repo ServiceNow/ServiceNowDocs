@@ -2,7 +2,7 @@
 title: Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)
 description: HR agents can prioritize cases based on case sentiment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/analyze-sentiments-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/analyze-sentiments-now-assist.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -80,7 +80,7 @@ Navigate in Agent Workspace for HR Case Management
     3.  Select the information icon \[Omitted image "icon-more-info.png"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned and then select the refresh icon to see the updated sentiment and sentiment trend.
 
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

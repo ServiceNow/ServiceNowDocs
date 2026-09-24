@@ -2,7 +2,7 @@
 title: Monitor the HR chat queue
 description: Employees can ask a question from the Chat with HR link on the HR Portal. Their question is placed in the HR chat queue, and any HR agent monitoring the queue can respond to it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_MonitorTheHRChatQueueIst.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_MonitorTheHRChatQueueIst.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -44,15 +44,15 @@ By default, all members of the HR group monitor the HR chat queue. When a questi
 
 3.  Accept a conversation in one of the following ways.
 
-<table id="choicetable_qpw_dmt_hcc"><thead><tr><th align="left" id="d540065e150">
+<table id="choicetable_qpw_dmt_hcc"><thead><tr><th align="left" id="d540069e150">
 
 Option
 
-</th><th align="left" id="d540065e153">
+</th><th align="left" id="d540069e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d540065e159">
+</th></tr></thead><tbody><tr><td id="d540069e159">
 
 **Accept a conversation from a queue**
 
@@ -60,7 +60,7 @@ Description
 
 Under **Queues**, click **Accept** by the queue.The conversation opens in the conversation pane and an entry appears in the **Cases** section of the sidebar.
 
-</td></tr><tr><td id="d540065e179">
+</td></tr><tr><td id="d540069e179">
 
 **Accept a transfer request**
 
@@ -80,5 +80,5 @@ Under **Cases**, click **Accept** by a transfer request.\[Omitted image "Connect
 
 If necessary, you can open a new HR case or incident from the conversation for further investigation. You can also transfer the conversation to a different agent or queue, or escalate the conversation to a higher priority queue.
 
-**Parent Topic:**[HR chat from lists and forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/chat-with-scoped-hr.md)
+**Parent Topic:**[HR chat from lists and forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/chat-with-scoped-hr.md)
 

@@ -2,7 +2,7 @@
 title: AI Service Graph Connector for n8n
 description: The AI Service Graph Connector for n8n enables you to discover and import AI assets from your n8n environment into ServiceNow AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/n8n.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/n8n.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

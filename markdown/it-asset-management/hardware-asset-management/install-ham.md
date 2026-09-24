@@ -2,7 +2,7 @@
 title: Install Hardware Asset Management from the ServiceNow Store
 description: You can install the Hardware Asset Management application \(sn\_hamp\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes demo data. Install related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/install-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/install-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -30,7 +30,7 @@ The following items are installed with Hardware Asset Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Installed with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/installed-with-ham.md).
+For more information, see [Installed with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/installed-with-ham.md).
 
 ## Procedure
 

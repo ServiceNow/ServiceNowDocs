@@ -2,7 +2,7 @@
 title: Maintenance plan calendar view
 description: After publishing a maintenance plan, the plan opens in a calendar view. The calendar view shows the plan details, maintenance items, schedules, plan records, and maintenance cases for a selected plan record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/cal-view-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-maintenance-management/cal-view-overview.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -71,7 +71,7 @@ Role required: admin
         -   State: Indicates status of a maintenance case.
         -   Assigned to: Indicates the user assigned to a workplace maintenance case.
         -   Assignment group: Indicates user group assigned to a workplace maintenance plan case.
-        For more information, see [Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-cases.md).
+        For more information, see [Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-cases.md).
 
 7.  If you selected **Skip Scheduling** while creating the plan, you can publish the plan here using the **Publish** option.
 
@@ -79,7 +79,7 @@ Role required: admin
 
 8.  To view the schedule plan for a maintenance record, click the **Schedules** tab.
 
-    You also have the option to create or copy a schedule. For more information, see [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-schedule.md).
+    You also have the option to create or copy a schedule. For more information, see [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-schedule.md).
 
 9.  Select **Plan records**.
 
@@ -98,7 +98,7 @@ Role required: admin
 
 10. Select **Maintenance cases** tab.
 
-    The workplace Maintenance cases are created only if the corresponding plan record can pick a template by satisfying a condition in the Workplace Maintenance Service Configuration \(sn\_wsd\_maintenance\_service\_config\) table. You can construct any condition on the Workplace Maintenance Service Configuration table, and the template is assigned to a maintenance case when a condition is satisfied. For more information, see [Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-service-config.md).
+    The workplace Maintenance cases are created only if the corresponding plan record can pick a template by satisfying a condition in the Workplace Maintenance Service Configuration \(sn\_wsd\_maintenance\_service\_config\) table. You can construct any condition on the Workplace Maintenance Service Configuration table, and the template is assigned to a maintenance case when a condition is satisfied. For more information, see [Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-service-config.md).
 
     |Column|Description|
     |------|-----------|
@@ -116,9 +116,9 @@ Role required: admin
 11. Select **Save.**
 
 
-**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
+**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
-**Previous topic:**[Create and publish maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-publish-maintenance-plans.md)
+**Previous topic:**[Create and publish maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-publish-maintenance-plans.md)
 
-**Next topic:**[Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-schedule.md)
+**Next topic:**[Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-schedule.md)
 

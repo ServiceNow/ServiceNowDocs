@@ -2,7 +2,7 @@
 title: Create post-provision operations
 description: Create post-provision tasks for newly provisioned catalog items by defining subflows, scripts, CAPI calls, or resource operations. For efficiency, set up a post-provision operation, eliminating the need for manual invocation. This approach enhances time management, ensuring seamless execution of desired actions on the catalog item after resource provisioning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-post-provisioning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-post-provisioning.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -91,7 +91,7 @@ Option for enabling the post-provision operation you want invoked.
 
     2.  Select the post-provision operation to update.
 
-        All attributes for the selected operation appear in the Operations list. You can either create expression mappings \(shown in the **Mapping** column\) for an attribute or can you generate variables for an attribute. See [Manage operation attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/manage-attributes.md) for more information.
+        All attributes for the selected operation appear in the Operations list. You can either create expression mappings \(shown in the **Mapping** column\) for an attribute or can you generate variables for an attribute. See [Manage operation attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/manage-attributes.md) for more information.
 
         \[Omitted image "manage-attributes-post-provision.png"\] Alt text: Post-provisioning attributes
 

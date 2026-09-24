@@ -2,7 +2,7 @@
 title: SAP element-level method descriptions
 description: The SAP connector provides various element-level methods that you can use to automate actions on the SAP screen UI elements, for example, a button or a check box.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/sap-element-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/sap-element-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

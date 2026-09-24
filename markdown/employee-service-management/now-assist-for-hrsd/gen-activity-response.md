@@ -2,7 +2,7 @@
 title: Generate activity responses for HR cases
 description: Use AI-powered activity response generation to instantly create, review, and refine work notes and comments in HR cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/gen-activity-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/gen-activity-response.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -23,8 +23,8 @@ Role required: sn\_hr\_core.case\_writer
 -   Install the following plugins:
     -   `uxc-generative-ai`
     -   Now Assist for HR Service Delivery \(HRSD\)
--   Your HR administrator must enable Activity Response Generation in Now Assist admin. For instructions, see [Configure Activity Response Generation for HR Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-activity.md).
--   Your HR administrator must configure NACM for HR Case Activity Response Generation. For instructions, see [Configuring the Now Assist Context Menu for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/customize-now-context-hrsd.md).
+-   Your HR administrator must enable Activity Response Generation in Now Assist admin. For instructions, see [Configure Activity Response Generation for HR Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-activity.md).
+-   Your HR administrator must configure NACM for HR Case Activity Response Generation. For instructions, see [Configuring the Now Assist Context Menu for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/customize-now-context-hrsd.md).
 
 ## Procedure
 
@@ -57,7 +57,7 @@ Role required: sn\_hr\_core.case\_writer
 9.  Select **Save** to save the work notes or comments.
 
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

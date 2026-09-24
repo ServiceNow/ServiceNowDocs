@@ -2,7 +2,7 @@
 title: Managing upgrade risk
 description: You will be notified of the possible conflicts that might result due to several customizations in a skipped metadata file, with a new UI message on the form pages of the metadata files.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-manage-upgrade-risk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-manage-upgrade-risk.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -67,7 +67,7 @@ The high risk and medium risk files are stored in the new sys\_metadata\_volatil
 
 **Note:** Risk is determined by the likelihood of a given metadata file being modified, which is predicted based on trends in updates from recent releases. Some files that may not currently exist in the system will be present in the table to account for future installation of apps/plugins.
 
-**Parent Topic:**[Administering Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-administration.md)
+**Parent Topic:**[Administering Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-administration.md)
 
 **Related topics**  
 

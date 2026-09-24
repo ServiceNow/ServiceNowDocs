@@ -2,7 +2,7 @@
 title: Add a flow from scratch
 description: If an existing automation template doesn't fit your application goal, define custom automation in App Engine Studio \(AES\) by building a new flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/create-scratch-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/create-scratch-flow.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,11 +18,11 @@ If an existing automation template doesn't fit your application goal, define cus
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
-If a pre-built flow already exists, you can easily add its template to your app and then customize it. For more information, see [Add a pre-built flow using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-flow-template.md).
+If a pre-built flow already exists, you can easily add its template to your app and then customize it. For more information, see [Add a pre-built flow using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/use-flow-template.md).
 
 ## Procedure
 
@@ -94,7 +94,7 @@ Run with roles
 
 Roles that the flow runs with. This option is available only when **Run as** is set to **User who initiates session**.
 
- To use a custom role for your flow, you must create one in **Security** first. For more information, see [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md).
+ To use a custom role for your flow, you must create one in **Security** first. For more information, see [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-security.md).
 
 </td></tr></tbody>
 </table>7.  On the summary screen, select **Edit this flow** to open your flow.
@@ -183,8 +183,8 @@ Test your flow until you're ready to activate it. For more information on testin
 
 **Note:** Your application can trigger only activated flows.
 
--   **[Modify a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-flow.md)**  
+-   **[Modify a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/edit-flow.md)**  
 To update or change an existing flow for an app you built in App Engine Studio \(AES\), edit it.
 
-**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md)
+**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-automation.md)
 

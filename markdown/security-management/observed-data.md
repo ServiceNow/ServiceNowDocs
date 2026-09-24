@@ -2,7 +2,7 @@
 title: Define observed data
 description: Define observed data that conveys information about cyber security-related entities such as files, systems, and networks using the STIX Cyber-observable Objects \(SCOs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/observed-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/observed-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -92,5 +92,5 @@ Infrastructure
 Lists systems, software services, and any associated physical or virtual resources that are associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Observed data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-observed-data.md)
+</table>**Parent Topic:**[Observed data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-observed-data.md)
 

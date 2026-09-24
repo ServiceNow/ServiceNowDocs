@@ -2,7 +2,7 @@
 title: Use Benchmarks data for value management analysis
 description: Manually collect historical Benchmarks data to analyze the benefits of year-over-year growth when you use the ServiceNow Benchmarks application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/analyze-business-value-historical-data-benchmarks-cf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/analyze-business-value-historical-data-benchmarks-cf.html
 release: australia
 product: Benchmarks
 classification: benchmarks

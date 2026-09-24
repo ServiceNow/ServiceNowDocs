@@ -2,7 +2,7 @@
 title: Use response templates in License and Permit Playbook
 description: Respond to cases by using the response templates in the contextual side panel in CRM Workspace. Good templates save you time by eliminating repetitive work. Response templates replace the static text with details from the license/permit application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/use-response-templates-lpr-psds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/use-response-templates-lpr-psds.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

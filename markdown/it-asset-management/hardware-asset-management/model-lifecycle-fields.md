@@ -2,7 +2,7 @@
 title: Model lifecycle form
 description: Fields on the hardware or consumable model lifecycle form and their descriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/model-lifecycle-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/model-lifecycle-fields.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -111,10 +111,10 @@ Description
 Description of the hardware or consumable model.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 
 **Related topics**  
 
 
-[Create an internal lifecycle in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-internal-lifecycle-hardware-models.md)
+[Create an internal lifecycle in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-internal-lifecycle-hardware-models.md)
 

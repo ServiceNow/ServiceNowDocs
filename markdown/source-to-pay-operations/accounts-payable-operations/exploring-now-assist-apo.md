@@ -2,7 +2,7 @@
 title: Explore ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: ServiceNow Otto for Accounts Payable Operations \(APO\) provides AP fulfillers with generative AI skills to summarize invoice cases, extract invoice data, map purchase order lines, and generate inquiry resolutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -36,7 +36,7 @@ The ServiceNow Otto for APO application includes the following:
 
     Provides AP fulfiller to automatically map the invoice lines with the purchase order lines.
 
-    The purchase order line-mapping skill generates the invoice line mapping and changes the invoice line status to review mapping state. The fulfiller can then manually review the mapping results. After the fulfiller reviews the mapping results, the invoice line status is changed to mapping complete. The purchase order lines mapped using the AI skill are controlled using the APO properties. For more information on the use of purchase order mapping in workspace, see [Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/set-apo-properties.md) and [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md).
+    The purchase order line-mapping skill generates the invoice line mapping and changes the invoice line status to review mapping state. The fulfiller can then manually review the mapping results. After the fulfiller reviews the mapping results, the invoice line status is changed to mapping complete. The purchase order lines mapped using the AI skill are controlled using the APO properties. For more information on the use of purchase order mapping in workspace, see [Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/set-apo-properties.md) and [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md).
 
 -   **Invoice case summarization**
 
@@ -64,7 +64,7 @@ The ServiceNow Otto for APO application includes the following:
 
     Resolve supplier questions use case uses the field extractor skills, which extracts the invoice number and supplier \(from the description and short description\) and updates the case. The inquiry classifier categorizes the case by reading description, short description and updates the subcategory in the case. The Inquiry resolution provider agent automatically provides resolution for the inquiry submitted by suppliers or employees. The agent analyzes the invoice, invoice lines, and other invoice-related tables \(tax, exceptions, approval history tables, purchase order tables, and knowledge base tables\).
 
-    The skill is activated upon assignment of an inquiry case to an AP agent. The Inquiry resolution provider AI agent uses the skill to generate invoice inquiry case resolution in the ServiceNow Otto panel. An agent reviews the resolution in the ServiceNow Otto panel. The agent is prompted with an input to close the case in the ServiceNow Otto panel. Upon confirmation, the case is closed with the appropriate closure code and closure details. If the agent chooses to respond with a "No", then the ServiceNow Otto panel chat window is terminated for manual closure. The resolution is updated in the activity history \(work notes\) of the case. For more information on the AI agent, see [Inquiry resolution provider AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-help-resolve-supplier-questions-agentic.md).
+    The skill is activated upon assignment of an inquiry case to an AP agent. The Inquiry resolution provider AI agent uses the skill to generate invoice inquiry case resolution in the ServiceNow Otto panel. An agent reviews the resolution in the ServiceNow Otto panel. The agent is prompted with an input to close the case in the ServiceNow Otto panel. Upon confirmation, the case is closed with the appropriate closure code and closure details. If the agent chooses to respond with a "No", then the ServiceNow Otto panel chat window is terminated for manual closure. The resolution is updated in the activity history \(work notes\) of the case. For more information on the AI agent, see [Inquiry resolution provider AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/apo-help-resolve-supplier-questions-agentic.md).
 
 -   **Relevant invoice finder**
 
@@ -72,7 +72,7 @@ The ServiceNow Otto for APO application includes the following:
 
     The skill compares the current invoice and its line descriptions with previously processed invoices and their line descriptions. It generates a relevance score from 0 through 1 for each item. These invoices are then returned in a ranked list, ordered by relevance.
 
-    The Recommend invoice owner AI agent uses this match score to suggest a [resolution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/resolution-plan-scenarios.md) for Missing or invalid business owner exceptions.
+    The Recommend invoice owner AI agent uses this match score to suggest a [resolution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/resolution-plan-scenarios.md) for Missing or invalid business owner exceptions.
 
 -   **Email response for invoice case**
 
@@ -100,15 +100,15 @@ The ServiceNow Otto for APO application includes the following:
     -   For each additional invoice or credit memo, the system creates a separate invoice processing case. These cases are available under the **Linked Cases** related list on the parent case.
     -   All supporting documents are automatically copied to both the parent case and each linked case, ensuring every case has the context it needs for processing.
     -   **Supporting documents only**: If no invoices or credit memos are found, you can either cancel the case or convert it into an inquiry case.
-    This skill accelerates invoice processing and manages substantial volumes of data across various formats, thereby reducing errors, enabling audit transparency, and eliminating manual intervention. The AI solution accurately classifies document types prior to invoice extraction, confirming that non-invoice documents such as contracts and receipts aren’t inadvertently processed as invoices. For more information on configuring the skill, see [Configure Accounts payable document classification skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-doc-classification-skill-apo.md).
+    This skill accelerates invoice processing and manages substantial volumes of data across various formats, thereby reducing errors, enabling audit transparency, and eliminating manual intervention. The AI solution accurately classifies document types prior to invoice extraction, confirming that non-invoice documents such as contracts and receipts aren’t inadvertently processed as invoices. For more information on configuring the skill, see [Configure Accounts payable document classification skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/config-doc-classification-skill-apo.md).
 
 
 **Related topics**  
 
 
-[Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/docintel-invoice-process-usecase.md)
+[Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/docintel-invoice-process-usecase.md)
 
-[Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md)
+[Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md)
 
-[Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-case-mgmt-overview.md)
+[Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-case-mgmt-overview.md)
 

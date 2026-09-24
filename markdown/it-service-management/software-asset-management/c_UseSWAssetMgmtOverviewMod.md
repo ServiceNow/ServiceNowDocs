@@ -2,7 +2,7 @@
 title: Use the legacy Software Asset Management plugin Overview module
 description: The Overview module is a homepage that displays charts and graphs to help you manage software assets in the organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_UseSWAssetMgmtOverviewMod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/c\_UseSWAssetMgmtOverviewMod.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -27,7 +27,7 @@ The overview shows the following compliance types:
 
 The graphs show important statistics about the software being tracked, including software that has been entitled but is not being used and the total number of unallocated licenses.
 
-**Parent Topic:**[Legacy Software Asset Management plugin Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SWAssetMgmtOverviewMod.md)
+**Parent Topic:**[Legacy Software Asset Management plugin Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_SWAssetMgmtOverviewMod.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create module life-cycle policy exceptions
 description: Create a module policy exception to change the life-cycle policy of a key only for a specific on one instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/create-module-policy-exceptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/create-module-policy-exceptions.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -88,5 +88,5 @@ The result that occurs when the condition in the **Policy Condition** field is m
 </table>6.  Select **Submit** to be returned to the Cryptographic Module table.
 
 
-**Parent Topic:**[Create a cryptographic module life-cycle policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module-lifecycle-policy.md)
+**Parent Topic:**[Create a cryptographic module life-cycle policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/create-cryptographic-module-lifecycle-policy.md)
 

@@ -2,7 +2,7 @@
 title: Problem Management use case
 description: The Problem Management use case is described in this section.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/pm-use-case-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/pm-use-case-example.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -55,5 +55,5 @@ To determine the impact and root cause, compete the following steps:
 2.  \(Optional\) Use the Service and Service Offering attributes on the Problem form to help narrow down the list of configuration items to choose from. This feature is not available with the base system and needs additional configuration.
 3.  \(Optional\) Use the Affected CI related list to identify the CIs that may have caused the problem.
 
-**Parent Topic:**[Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/pm-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/pm-use-case-product-view.md)
 

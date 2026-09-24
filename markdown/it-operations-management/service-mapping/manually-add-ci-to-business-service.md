@@ -2,7 +2,7 @@
 title: Manually add CIs to an application service
 description: Add configuration items to manually created application services or to services discovered by Service Mapping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/manually-add-ci-to-business-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/manually-add-ci-to-business-service.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -18,7 +18,7 @@ Add configuration items to manually created application services or to services 
 
 ## Before you begin
 
--   Verify that the CI type for the configuration item \(CI\) that you are planning to add, exists. If necessary, create the CI type as described in [Create CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md).
+-   Verify that the CI type for the configuration item \(CI\) that you are planning to add, exists. If necessary, create the CI type as described in [Create CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md).
 -   Add CIs to the CMDB for the device or application that you want to add, if necessary. See [Populate the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OptionsToPopulateCMDB.md) for more information.
 
 Role required: app\_service\_admin or service\_mapping\_admin
@@ -61,7 +61,7 @@ If working with an service instance discovered by Service Mapping, manually add 
 -   To add a temporary placeholder for a CI, which Service Mapping did not discover. In this case you are planning to perform necessary troubleshooting to ensure that Service Mapping discovers this CI in the future. For example, add an IBM WebSphere Message Broker to the Bank Customer Portal service.
 -   To create an service instance that combines entry points and CIs automatically discovered by Service Mapping with entry points and CIs from the CMDB. After you manually add an entry point, you can update the service instance with CIs from the CMDB based on the relationships defined there.
 
-For additional information related to Service Mapping, see [Pattern customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md) and [Enable traffic-based discovery for CI types or specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateATrafficBasedDiscoveryRule.md).
+For additional information related to Service Mapping, see [Pattern customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md) and [Enable traffic-based discovery for CI types or specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_CreateATrafficBasedDiscoveryRule.md).
 
 ## Procedure
 
@@ -122,7 +122,7 @@ Select the CI from the list of CIs of the selected CI type.**Note:** To eliminat
 
         **Note:** If you do not see the **Manually add a connection** option in the right-click menu, check that you are logged in with the user that belongs to the same domain as the application service.
 
-    3.  Configure attributes for the entry point as described in [Entry points attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_EntryPointsforBizSvcDef.md).
+    3.  Configure attributes for the entry point as described in [Entry points attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_EntryPointsforBizSvcDef.md).
 
     4.  Click **Submit**.
 
@@ -151,12 +151,12 @@ Select the CI from the list of CIs of the selected CI type.**Note:** To eliminat
         The map shows the CI with only one connector leading to it. If this CI had any manually added connections, they are removed together with the manually added CI.
 
 
-**Parent Topic:**[Fine-tune application services to implement owner requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/review-implement-business-service-maps.md)
+**Parent Topic:**[Fine-tune application services to implement owner requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/review-implement-business-service-maps.md)
 
 **Related topics**  
 
 
-[Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/link-services-to-services.md)
+[Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/link-services-to-services.md)
 
 [addCI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md)
 

@@ -2,7 +2,7 @@
 title: Map Magnit tasks
 description: Map an onboarding item name with HR task template to create an adhoc task for the contingent worker.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/magnit-task-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/magnit-task-mapping.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

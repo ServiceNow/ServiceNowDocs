@@ -2,7 +2,7 @@
 title: GlideEncrypter - Global \(deprecated\)
 description: The GlideEncrypter API provides methods to encrypt and decrypt strings using the Key Management Framework \(KMF\).Creates an instance of the GlideEncrypter class using a Key Management Framework \(KMF\) cryptographic module.Creates an instance of the GlideEncrypter class using a given encryption key.Decrypts a clear string using the KMF-based Advanced Encryption Standard \(AES\) algorithm.Encrypts a clear string using the Key Management Framework \(KMF\) algorithm.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideEncrypterAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideEncrypterAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -26,7 +26,7 @@ You can use this API in server scripts in the global scope. The GlideEncrypter c
 -   GlideEncrypter\(\)
 -   GlideEncrypter\(String key\)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideEncrypter - GlideEncrypter\(\)
 

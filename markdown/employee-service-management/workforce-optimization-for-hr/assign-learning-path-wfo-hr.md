@@ -2,7 +2,7 @@
 title: Assign a learning path to agents
 description: Assign a learning path to one or more agents and add a due date for them to complete the path.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/assign-learning-path-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/assign-learning-path-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -40,15 +40,15 @@ Role required: sn\_hr\_wfo.admin
 
 6.  In the **Assign learning path** window, assign the learning path to groups or team members.
 
-<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d622193e147">
+<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d622197e147">
 
 To
 
-</th><th align="left" id="d622193e150">
+</th><th align="left" id="d622197e150">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d622193e156">
+</th></tr></thead><tbody><tr><td id="d622197e156">
 
 **Assign the path to all groups that you directly and additionally manage**
 
@@ -56,7 +56,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d622193e168">
+</td></tr><tr><td id="d622197e168">
 
 **Assign the path to specific groups or team members**
 
@@ -77,5 +77,5 @@ Select **To my groups**.
     You can see the progress your agents have made as they work on a path.
 
 
-**Parent Topic:**[Learning in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/learning-wfo-hr.md)
+**Parent Topic:**[Learning in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/learning-wfo-hr.md)
 

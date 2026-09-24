@@ -2,7 +2,7 @@
 title: List method properties
 description: View or update the List method properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/list-method-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/list-method-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ View or update the List method properties.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/list-connector.md)
+**Parent Topic:**[List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/list-connector.md)
 

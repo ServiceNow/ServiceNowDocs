@@ -2,7 +2,7 @@
 title: Holidays
 description: You can define each individual holiday as a schedule entry to create exceptions to existing schedules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/c\_Holidays.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/c\_Holidays.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -26,7 +26,7 @@ The following example shows a schedule that includes the preceding holiday sched
 
 \[Omitted image "ScheduleWithChildSchedule.png"\] Alt text:
 
-**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_UseSchedules.md)
 
 **Related topics**  
 
@@ -47,7 +47,7 @@ The following example shows a schedule that includes the preceding holiday sched
 
 [Domain support and schedules]()
 
-[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_UseSchedules.md)
 
-[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md)
+[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_DefineASchedule.md)
 

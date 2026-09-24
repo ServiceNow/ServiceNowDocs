@@ -2,7 +2,7 @@
 title: Add a log correlator to identify related alerts
 description: In Health Log Analytics, detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-correlator-define.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-op-correlator-define.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -23,7 +23,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 ## About this task
 
-For information about the types and functions of log correlators, see [Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
+For information about the types and functions of log correlators, see [Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
 
 ## Procedure
 
@@ -65,10 +65,10 @@ The Log correlators related list displays the list of existing log correlators t
 </td></tr></tbody>
 </table>2.  Fill in the Log correlator form.
 
-    For a description of the fields, see [Log correlators form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-correlators-form-ref.md).
+    For a description of the fields, see [Log correlators form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-correlators-form-ref.md).
 
 3.  Select **Active** and then click **Submit**.
 
 
-**Parent Topic:**[Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
+**Parent Topic:**[Log correlators for identifying related alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
 

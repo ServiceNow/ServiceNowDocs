@@ -2,7 +2,7 @@
 title: ServiceNow Quote Experience
 description: CPQ provides a unified Quote Experience for creating, pricing, approving, and completing quotes. An integrated pricing service prices quotes manually or automatically, and consistent workflows and governance apply wherever your sales teams operate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quoting-experiences-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quoting-experiences-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-05"
@@ -65,7 +65,7 @@ The Quote Experience prices quotes through an integrated pricing service. When p
     Sales representatives can apply manual discounts, markdowns, or price overrides, and the pricing service can apply rule-driven adjustments such as volume tiers and promotions. A manual adjustment takes precedence over an automatic adjustment on the same line or header.
 
 
-For a conceptual overview of how the pricing service integrates with the Quote Experience, including pricing states and repricing, see [Pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pricing-in-quote-experience.md). Administrators configure the pricing connection and repricing behavior as part of setting up the quoting experience. For more information, see [Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md).
+For a conceptual overview of how the pricing service integrates with the Quote Experience, including pricing states and repricing, see [Pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pricing-in-quote-experience.md). Administrators configure the pricing connection and repricing behavior as part of setting up the quoting experience. For more information, see [Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md).
 
 ## Supported use cases for the CPQ
 
@@ -78,5 +78,5 @@ Use the Quote Experience when you need a scalable, configurable quote solution t
 **Related topics**  
 
 
-[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
+[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

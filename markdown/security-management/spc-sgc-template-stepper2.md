@@ -2,7 +2,7 @@
 title: Create connector alias and connection credentials
 description: Enter the connection URL and credential alias details for your API connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/spc-sgc-template-stepper2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/spc-sgc-template-stepper2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -75,7 +75,7 @@ Role required: sn\_sec\_spc\_core.developer
 
     You must save your changes before you can continue.
 
-    After you save your edits, the [Select template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-sgc-template-stepper-3.md) step is displayed and highlighted on the stepper.
+    After you save your edits, the [Select template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-sgc-template-stepper-3.md) step is displayed and highlighted on the stepper.
 
 
 Select the view connection link \(\[Omitted image "open-link-right-fill-24.svg"\] Alt text: Open link icon\) if you see the following message: `There are no credentials associated with the selected connection. Please update the connection via the View connection button.`

@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Resolve common issues with the Run UI Test Script step, including reference errors, elements that aren't found, step timeouts, comparison failures, and impersonation failures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/r\_run\_ui\_test\_script\_troubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/r\_run\_ui\_test\_script\_troubleshooting.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -69,7 +69,7 @@ Resolve common issues with the Run UI Test Script step, including reference erro
     -   Ensure that all Promises are awaited. An unawaited Promise silently discards its result, and the step might resolve before the action completes.
 -   **Comparison with `steps()` or `params()` always fails**
 
-    Use `==` or `String()` for comparisons. See the 'Comparison behavior' section in [Script helper functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_helpers.md) for more information.
+    Use `==` or `String()` for comparisons. See the 'Comparison behavior' section in [Script helper functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_helpers.md) for more information.
 
 -   **Impersonation fails**
     -   The ATF runner session requires the `impersonator` role.

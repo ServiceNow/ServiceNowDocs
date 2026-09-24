@@ -2,7 +2,7 @@
 title: Register a Microsoft Entra ID application
 description: Register an application through the Microsoft Entra ID portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/register-microsoft-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/register-microsoft-app.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -22,7 +22,7 @@ Watch this short video for an introduction to registering an application through
 
 ## Before you begin
 
-Microsoft Entra ID Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/integrate-with-microsoft.md) table.
+Microsoft Entra ID Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/integrate-with-microsoft.md) table.
 
 ## Procedure
 

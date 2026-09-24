@@ -2,7 +2,7 @@
 title: Review the pre-arbitration response and create a case filing
 description: Review the merchant’s response to the pre-arbitration and create a case filing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-pre-arbitration-response-and-create-case-filing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/review-pre-arbitration-response-and-create-case-filing.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -48,7 +48,7 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
     You can also view the merchant response as an attachment in the activity stream.
 
-    **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+    **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 8.  In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
 
@@ -94,5 +94,5 @@ Retrieve the letter by selecting `Get acknowledgement letter`. The letter can be
 1.  After a decision by Visa is available, you can access it by selecting **Get case filing response**.
 2.  The task is automatically closed and the **Review case filing response** task and appeal are available.
 
-**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

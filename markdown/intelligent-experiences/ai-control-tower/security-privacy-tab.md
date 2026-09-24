@@ -2,7 +2,7 @@
 title: Security &amp; privacy tab in AI Control Tower
 description: Review AI asset security metrics such as access issues, dormant and privileged AI agents, and map the relationships of your ServiceNow agents, agentic workflows, and tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/security-privacy-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/security-privacy-tab.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -24,7 +24,7 @@ The **Security &amp; privacy** tab of AI Control Tower offers a dashboard-based 
 
 ## ServiceNow AI Insights
 
-ServiceNow AI Insights require that the Now Assist AICT Security Posture Summarizer skill is enabled. For more details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+ServiceNow AI Insights require that the Now Assist AICT Security Posture Summarizer skill is enabled. For more details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 
 AI Control Tower AI insights summarize positives and potential issues to remediate to improve the overall security posture of your instance.
 
@@ -35,7 +35,7 @@ AI Control Tower AI insights summarize positives and potential issues to remedia
 
 ## Access map
 
-The **Access map** displays a node map detailing the relationships of your ServiceNow® agents, agentic workflows, and tools. You can use the map to review these relationships, configure agent details, and resolve access issues. The map includes filters for both agents and agentic workflows. You can open the access map by either navigating to **All** &gt; **AI Security and Privacy** &gt; **Access Map**, or selecting the link in the dashboard. See [Using the access map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/using-the-access-map.md) to learn how to use access map.
+The **Access map** displays a node map detailing the relationships of your ServiceNow® agents, agentic workflows, and tools. You can use the map to review these relationships, configure agent details, and resolve access issues. The map includes filters for both agents and agentic workflows. You can open the access map by either navigating to **All** &gt; **AI Security and Privacy** &gt; **Access Map**, or selecting the link in the dashboard. See [Using the access map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/using-the-access-map.md) to learn how to use access map.
 
 \[Omitted image "sp-tab-access-map.png"\] Alt text: AI Control Tower access map.
 
@@ -55,7 +55,7 @@ The AI asset security score is a measure of the health of your AI assets in term
 
     To see more information about your score, select **See details** in the **Security &amp; privacy** tab. A list view shows the AI assets that are included in your AI asset security score calculation. Your score is the average of all managed AI assets listed. Users should actively manage and review their agent assets and not rely solely on this AI asset security score.
 
-    You can exclude an AI asset from your score by selecting a row and selecting **Mute**. For example, you can mute an AI asset if you determine that remediating the asset’s issue would be a risky change. You can also configure the score to remove large language model \(LLM\) guardrail categories from the score or change the weights of categories. For more information, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
+    You can exclude an AI asset from your score by selecting a row and selecting **Mute**. For example, you can mute an AI asset if you determine that remediating the asset’s issue would be a risky change. You can also configure the score to remove large language model \(LLM\) guardrail categories from the score or change the weights of categories. For more information, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/data.md).
 
 <table id="simpletable_nqz_1sl_mhc"><thead><tr><th>
 
@@ -131,7 +131,7 @@ The AI asset security task to remediate the issue, if applicable.
 
     The area chart shows AI agents with elevated permissions such as an agent with admin or security admin permissions that can perform critical actions. Some workflows require that AI agents have elevated permissions to complete. Hover over a portion of the chart to see the exact number of privileged agents on that day.
 
-    To show AWS agent metrics, filter the metrics by selecting **AWS Bedrock** in the provider drop-down list. You must have an AWS account configured for your instance and the Now Assist AiSP AWS IAM Privileged Policy Checker skill enabled. For more details, see [AI connections setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-discovery-setup.md) and [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+    To show AWS agent metrics, filter the metrics by selecting **AWS Bedrock** in the provider drop-down list. You must have an AWS account configured for your instance and the Now Assist AiSP AWS IAM Privileged Policy Checker skill enabled. For more details, see [AI connections setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-discovery-setup.md) and [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 
     \[Omitted image "sp-tab-privilage-chart.png"\] Alt text: Area chart detailing the privileged AI agents.
 
@@ -143,7 +143,7 @@ The AI asset security task to remediate the issue, if applicable.
 
     The area chart shows AI agents that have not been active for over 90 days. Review dormant AI agent permissions to reduce security risk. Hover over a portion of the chart to see the exact number of dormant AI systems for that day.
 
-    To show AWS agent metrics, filter the metrics by selecting **AWS Bedrock** in the provider drop-down list. You must have an AWS account configured for your instance. For more details, see [AI connections setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-discovery-setup.md).
+    To show AWS agent metrics, filter the metrics by selecting **AWS Bedrock** in the provider drop-down list. You must have an AWS account configured for your instance. For more details, see [AI connections setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-discovery-setup.md).
 
     \[Omitted image "sp-tab-dormant-chart.png"\] Alt text: Area chart detailing dormant AI systems.
 
@@ -173,11 +173,11 @@ MCP server access metrics include MCP client-server interactions routed through 
 
 -   **Prompt injection**
 
-    These charts show prompt injection data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md).
+    These charts show prompt injection data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-guardian-analytics.md).
 
 -   **Offensive content**
 
-    These charts show offensive content data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md).
+    These charts show offensive content data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-guardian-analytics.md).
 
 -   **Sensitive data**
 
@@ -187,11 +187,11 @@ MCP server access metrics include MCP client-server interactions routed through 
 
 -   **Data integrity incident detection**
 
-    The Data integrity incident detection chart is designed to help show potential violations of certain LLM guardrail policies. ServiceNow analyzes the AI agent’s output from each of its tasks deterministically to detect potential violations. You can choose to include or omit these policies. For more information about policies and how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
+    The Data integrity incident detection chart is designed to help show potential violations of certain LLM guardrail policies. ServiceNow analyzes the AI agent’s output from each of its tasks deterministically to detect potential violations. You can choose to include or omit these policies. For more information about policies and how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/data.md).
 
 -   **Agent goal deviation**
 
-    The Agent goal deviation chart is designed to help identify when AI agents may have deviated from their intended role or objective during execution. Deviations include but aren’t limited to unauthorized actions or prompt injection attempts. The data is collected by analyzing agent execution history and then evaluated by AI. You can choose the data models to include or omit. Due to the probabilistic nature of the analysis by data model, not all occurrences may be identified. For information on how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
+    The Agent goal deviation chart is designed to help identify when AI agents may have deviated from their intended role or objective during execution. Deviations include but aren’t limited to unauthorized actions or prompt injection attempts. The data is collected by analyzing agent execution history and then evaluated by AI. You can choose the data models to include or omit. Due to the probabilistic nature of the analysis by data model, not all occurrences may be identified. For information on how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/data.md).
 
 -   **AI agent output with PII detected**
 
@@ -199,7 +199,7 @@ MCP server access metrics include MCP client-server interactions routed through 
 
     ServiceNow analyzes the AI agent's output from each of its tasks deterministically based on the widely known patterns listed to find out potential security vulnerabilities. For example, U.S. phone number, credit card number, or Social Security number.
 
-    You can choose to include or omit potential PII patterns to detect. For information on how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
+    You can choose to include or omit potential PII patterns to detect. For information on how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/data.md).
 
 -   **Agentic output injection detection**
 
@@ -207,7 +207,7 @@ MCP server access metrics include MCP client-server interactions routed through 
 
     ServiceNow analyzes the AI agent's output from each of its tasks deterministically based on the patterns listed to find out potential security vulnerabilities. For example, HTML tags shouldn't have scripts associated with them for cross-site script attacks \(XSS\), or stacked SQL queries could result in SQL injection attacks.
 
-    You can choose to include or omit potential patterns to detect. For information on how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md).
+    You can choose to include or omit potential patterns to detect. For information on how to configure data for this chart, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/data.md).
 
     **Note:** These security-vulnerable patterns are ever-evolving, so not all patterns may be identified.
 

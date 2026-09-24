@@ -2,7 +2,7 @@
 title: Update Topic Recommendations
 description: You can install updates to the Topic Recommendations application \(com.snc.va\_topic\_recommender\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/install-tr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/install-tr.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

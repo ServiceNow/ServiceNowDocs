@@ -2,7 +2,7 @@
 title: Create a serverless schedule for Microsoft CA discovery
 description: Create a serverless discovery schedule to discover Microsoft Certificate Authority \(CA\) certificates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ms-ca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ms-ca.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -19,7 +19,7 @@ Create a serverless discovery schedule to discover Microsoft Certificate Authori
 ## Before you begin
 
 -   Verify that the CA process is up and running on the host machine.
--   Verify that a Windows host was discovered during a previous horizontal discovery. For more information, see [Windows discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md).
+-   Verify that a Windows host was discovered during a previous horizontal discovery. For more information, see [Windows discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md).
 
 Role required: discovery\_admin
 
@@ -209,10 +209,10 @@ When searching on all request IDs, SAN is automatically discovered, so this para
 
 Either execute discovery immediately by selecting **Discover now** or wait until the predefined schedule triggers the discovery.
 
-**Parent Topic:**[Microsoft Certificate Authority \(CA\) certificates discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/microsoft-ca-discovery.md)
+**Parent Topic:**[Microsoft Certificate Authority \(CA\) certificates discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/microsoft-ca-discovery.md)
 
 **Related topics**  
 
 
-[Microsoft Certificate Authority \(CA\) certificates discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/microsoft-ca-discovery.md)
+[Microsoft Certificate Authority \(CA\) certificates discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/microsoft-ca-discovery.md)
 

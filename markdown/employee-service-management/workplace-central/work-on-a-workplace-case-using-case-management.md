@@ -2,7 +2,7 @@
 title: Work on a workplace case using Case management
 description: Update, edit, or resolve a workplace case at any time from a single workspace using the Workplace Central Case management workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/work-on-a-workplace-case-using-case-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/work-on-a-workplace-case-using-case-management.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -31,9 +31,9 @@ The Case Management dashboard enables you to work on a case at any time. You can
 -   Mark the checklist or add new checklist items.
 -   View the details of the employee who requested the case and mail them directly if necessary.
 -   View the workplace location on the floor map. For move cases, view the **From location** and **To location** on the map.
--   Create child cases and child tasks if needed. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+-   Create child cases and child tasks if needed. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
-For more information about the features and actions that you can perform in the workspace, see [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md).
+For more information about the features and actions that you can perform in the workspace, see [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md).
 
 ## Procedure
 
@@ -58,23 +58,23 @@ For more information about the features and actions that you can perform in the 
 
     The list view displays the cases as WCASEXXXX for normal workplace cases, WMCXXXX for maintenance cases, and WMOVEXXXX for move cases.
 
-    The case details are displayed in a new tab. For more information about the view, the actions that you can perform and additional features, see the Case details page section in the [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
+    The case details are displayed in a new tab. For more information about the view, the actions that you can perform and additional features, see the Case details page section in the [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
 
 5.  Summarize the case using ServiceNow Otto for WSD.
 
-    For more information about summarizing a workplace case, see [Summarize a workplace case using ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/summarize-workplace-case.md).
+    For more information about summarizing a workplace case, see [Summarize a workplace case using ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/summarize-workplace-case.md).
 
 6.  Make your changes.
 
-<table id="choicetable_g2k_xbt_v1c"><thead><tr><th align="left" id="d365805e232">
+<table id="choicetable_g2k_xbt_v1c"><thead><tr><th align="left" id="d365809e232">
 
 Action
 
-</th><th align="left" id="d365805e235">
+</th><th align="left" id="d365809e235">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d365805e241">
+</th></tr></thead><tbody><tr><td id="d365809e241">
 
 **Edit the case form fields**
 
@@ -89,7 +89,7 @@ You can edit details like the **Workplace service** using the case that was requ
 2.  Select **Save** to update the case.
 
 
-</td></tr><tr><td id="d365805e301">
+</td></tr><tr><td id="d365809e301">
 
 **Add a comment or work notes**
 
@@ -102,7 +102,7 @@ In the **Details** tab, do the following:1.  Go to the **Compose &amp; Activity*
 5.  Select **Save** to update the changes.
 
 
-</td></tr><tr><td id="d365805e345">
+</td></tr><tr><td id="d365809e345">
 
 **View the activities performed on the case**
 
@@ -110,7 +110,7 @@ In the **Details** tab, do the following:1.  Go to the **Compose &amp; Activity*
 
 In the **Details** tab, go to the **Activity** panel.
 
-</td></tr><tr><td id="d365805e360">
+</td></tr><tr><td id="d365809e360">
 
 **View the __Requested for__ employee details or send an email to the employee**
 
@@ -128,7 +128,7 @@ If no employee is specified in the **Requested for** field, the employee details
     3.  To send the email, select **Send email**.
 You can also view draft emails using the **View drafts** option.
 
-</td></tr><tr><td id="d365805e418">
+</td></tr><tr><td id="d365809e418">
 
 **View knowledge base articles related to the case**
 
@@ -140,7 +140,7 @@ Select the Knowledge Articles icon \[Omitted image "casemgmt-knowledgeicon.png"\
 -   To mark the article as useful, select **Helpful**.
 
 
-</td></tr><tr><td id="d365805e458">
+</td></tr><tr><td id="d365809e458">
 
 **View or upload attachments to the case**
 
@@ -150,7 +150,7 @@ Select the Attachment icon \[Omitted image "casemgmt-attachementicon.png"\] Alt 
 -   To upload a file, select **Select**.
 
 
-</td></tr><tr><td id="d365805e486">
+</td></tr><tr><td id="d365809e486">
 
 **View the template of the case or add a template**
 
@@ -161,11 +161,11 @@ Select the Template icon \[Omitted image "casemgmt-templateicon.png"\] Alt text:
 -   To view templates added by you, select the **My Templates** tab.
 To create a template, see:
 
--   [Create a Workplace case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-case-template.md)
--   [Create a Workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-task-template.md)
+-   [Create a Workplace case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/wsd-case-template.md)
+-   [Create a Workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/wsd-task-template.md)
 
 
-</td></tr><tr><td id="d365805e545">
+</td></tr><tr><td id="d365809e545">
 
 **View the workplace location specified in the case, view the From and To location of a move case, or view the asset location of a maintenance case**
 
@@ -179,15 +179,15 @@ Select the Location icon \[Omitted image "casemgmt-locationicon.png"\] Alt text:
 -   For a maintenance case, the **Workplace location** panel displays the location of the asset specified in the case. If an asset isn’t specified, then the workplace location selected in the case is specified.
 
 
-</td></tr><tr><td id="d365805e602">
+</td></tr><tr><td id="d365809e602">
 
 **View the fulfillment instructions**
 
 </td><td>
 
-Select the fulfillment Instructions icon \[Omitted image "casemgmt-fulfimenticon.png"\] Alt text:.To add fulfillment instructions, see [Add Fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/add-fulfillment-instructions.md).
+Select the fulfillment Instructions icon \[Omitted image "casemgmt-fulfimenticon.png"\] Alt text:.To add fulfillment instructions, see [Add Fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/add-fulfillment-instructions.md).
 
-</td></tr><tr><td id="d365805e625">
+</td></tr><tr><td id="d365809e625">
 
 **View or add checklist items**
 
@@ -198,27 +198,27 @@ Select the Checklist icon \[Omitted image "casemgmt-checklisticon.png"\] Alt tex
 -   Add a checklist item if necessary. If there are no checklist items, you can add them.
 
 
-</td></tr><tr><td id="d365805e651">
+</td></tr><tr><td id="d365809e651">
 
 **View the child cases or add a child case**
 
 </td><td>
 
 Go to the **Child Cases** tab.1.  View the child cases created with the case. Perform a refresh, edit columns, or apply a filter if necessary.
-2.  To create a child case, select **New**. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+2.  To create a child case, select **New**. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
 
-</td></tr><tr><td id="d365805e681">
+</td></tr><tr><td id="d365809e681">
 
 **View the child tasks or add a child task**
 
 </td><td>
 
 Go to the **Child Tasks** tab.-   View the child tasks created with the case. Perform a refresh, edit columns, or apply filter if necessary.
--   To create a child case, select **New**, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+-   To create a child case, select **New**, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
 
-</td></tr><tr><td id="d365805e711">
+</td></tr><tr><td id="d365809e711">
 
 **View the details of approvers**
 
@@ -226,7 +226,7 @@ Go to the **Child Tasks** tab.-   View the child tasks created with the case. Pe
 
 Go to the **Approvers** tab.
 
-</td></tr><tr><td id="d365805e723">
+</td></tr><tr><td id="d365809e723">
 
 **View the case SLAs and add an SLA**
 
@@ -234,9 +234,9 @@ Go to the **Approvers** tab.
 
 Go to the **Case SLAs** tab.-   View the SLA details associated with the case.
 -   Select **New** to add an SLA.
-To create the SLA definition, see [Create an SLA Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/create-sla-defn-case-mgmt.md).
+To create the SLA definition, see [Create an SLA Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/create-sla-defn-case-mgmt.md).
 
-</td></tr><tr><td id="d365805e755">
+</td></tr><tr><td id="d365809e755">
 
 **View the attached knowledge base articles**
 
@@ -244,7 +244,7 @@ To create the SLA definition, see [Create an SLA Definition](https://raw.githubu
 
 Go to the **Attached Knowledge** tab. View or add articles.
 
-</td></tr><tr><td id="d365805e767">
+</td></tr><tr><td id="d365809e767">
 
 **View the knowledge base articles viewed by the user**
 
@@ -252,23 +252,23 @@ Go to the **Attached Knowledge** tab. View or add articles.
 
 Go to the **KB Articles Read by User** tab. View or add articles.
 
-</td></tr><tr><td id="d365805e780">
+</td></tr><tr><td id="d365809e780">
 
 **View the related cases**
 
 </td><td>
 
-Go to the **Related cases** tab. View the cases or add a case if necessary. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+Go to the **Related cases** tab. View the cases or add a case if necessary. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
-</td></tr><tr><td id="d365805e799">
+</td></tr><tr><td id="d365809e799">
 
 **For a maintenance case, view the associated workplace cases**
 
 </td><td>
 
-Go to the **Workplace Cases** tab. View the cases or add a case if necessary. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+Go to the **Workplace Cases** tab. View the cases or add a case if necessary. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
-</td></tr><tr><td id="d365805e818">
+</td></tr><tr><td id="d365809e818">
 
 **View the workplace service items requested with the case**
 
@@ -282,9 +282,9 @@ Go to the **Requested Service Items** tab. View the service items, their status,
 
 ## Result
 
-The workplace case is updated or modified based on your changes. To cancel or delete the case, see [Cancel or delete a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/cancel-or-delete-a-case-casemgmtworkspace.md).
+The workplace case is updated or modified based on your changes. To cancel or delete the case, see [Cancel or delete a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/cancel-or-delete-a-case-casemgmtworkspace.md).
 
-**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-case-management.md)
+**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-case-management.md)
 
 **Related topics**  
 

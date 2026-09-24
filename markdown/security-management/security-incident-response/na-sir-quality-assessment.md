@@ -2,7 +2,7 @@
 title: Exploring Security incident quality assessment
 description: Use generative AI to create a quality assessment report of a security incident. The reports are generated using a predefined, natural language rule set. The report provides an overall assessment summary followed by the detailed assessment for all the rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/na-sir-quality-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/na-sir-quality-assessment.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,8 +21,8 @@ Use the Security Incident Quality Assessment skill to generate an assessment rep
 
 \[Omitted image "na-quality-report.png"\] Alt text: Security Incident Quality Analysis report.
 
--   **[Generate a quality assessment report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/na-sir-generate-quality-assessment-report.md)**  
+-   **[Generate a quality assessment report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/na-sir-generate-quality-assessment-report.md)**  
 Generate a quality assessment report for a security incident using a predefined rule set.
 
-**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-for-security.md)
+**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-now-assist-for-security.md)
 

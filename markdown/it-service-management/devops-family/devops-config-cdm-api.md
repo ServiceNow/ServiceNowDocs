@@ -2,7 +2,7 @@
 title: APIs and DevOps Config
 description: You can use DevOps Config and CDM APIs to access your config data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-cdm-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-cdm-api.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -63,5 +63,5 @@ You can use DevOps Config and CDM APIs to access your config data.
     Publish, unpublish, and export versions \(snapshots\) in CDM for shared components under shared libraries.
 
 
-**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-reference.md)
+**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-reference.md)
 

@@ -2,7 +2,7 @@
 title: Schedule and retrieve LogRhythm alarms
 description: After you preview the security incident with the LogRhythm alarms that you have selected and mapped, you are ready to schedule alarm retrieval. After you complete this step, the alarm profile is ready to be activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/schedule-and-alarm-retrieval-logrhythm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/schedule-and-alarm-retrieval-logrhythm.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -121,7 +121,7 @@ Enter specific alarm IDs. You pull the specified alarms, and you can enter multi
 
 ## What to do next
 
-After you configure the Ongoing Alarm Ingestion and One Time Retrieval details, the next step is to [Additional options for LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-alarm-closure-logrhythm.md).
+After you configure the Ongoing Alarm Ingestion and One Time Retrieval details, the next step is to [Additional options for LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/verify-alarm-closure-logrhythm.md).
 
-**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
+**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

@@ -2,10 +2,10 @@
 title: Grant Field Service for Audit roles
 description: The Audit Admin assigns a Field Service for Audit role to a person or group to enable them to create, view, update, or delete audit tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/fsm-audit-t-grant-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/fsm-audit-t-grant-roles.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail]
 ---
@@ -50,7 +50,7 @@ The Auditor, Audit Admin, or Author can perform operations allowed by the assign
 **Related topics**  
 
 
-[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-overview.md)
+[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/fsm-audit-overview.md)
 
-[Components installed with Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-reference.md)
+[Components installed with Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/fsm-audit-reference.md)
 

@@ -2,7 +2,7 @@
 title: Feedback form
 description: Learn about the fields of the feedback form. Use this form to create or edit the details of a feedback record in Feedback.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/feedback-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/product-feedback/feedback-form.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -140,14 +140,14 @@ Business application that this feedback is related to.
 </td></tr></tbody>
 </table>The following is the list of related tabs:
 
--   Product ideas tab: Displays all the ideas that are linked with the feedback record. For more information, see [Associate feedback with a product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-product-idea.md).
--   Planning items tab: Displays all the planning items that are linked with the feedback record. For more information, see [Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-planning-item.md).
--   Related items tab: Displays all the non-planning items that are linked with the feedback record. This tab is only available if the non-planning items are linked. For more information, see [Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md).
+-   Product ideas tab: Displays all the ideas that are linked with the feedback record. For more information, see [Associate feedback with a product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/associate-feedback-with-product-idea.md).
+-   Planning items tab: Displays all the planning items that are linked with the feedback record. For more information, see [Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/associate-feedback-with-planning-item.md).
+-   Related items tab: Displays all the non-planning items that are linked with the feedback record. This tab is only available if the non-planning items are linked. For more information, see [Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md).
 
-**Parent Topic:**[Form field information for Feedback application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/form-field-information-for-product-feedback.md)
+**Parent Topic:**[Form field information for Feedback application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/form-field-information-for-product-feedback.md)
 
 **Related topics**  
 
 
-[Create Feedback in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-feedback-in-sp.md)
+[Create Feedback in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/create-feedback-in-sp.md)
 

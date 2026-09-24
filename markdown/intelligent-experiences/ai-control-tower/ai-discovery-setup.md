@@ -2,7 +2,7 @@
 title: AI connections setup
 description: Explore the AI connections setup page and its features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-discovery-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-discovery-setup.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

@@ -2,7 +2,7 @@
 title: Create user criteria for event types in Workforce Optimization for ITSM
 description: Add a user criteria record to specify which users, roles, and groups can access event types in Workforce Optimization for ITSM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/user-criteria-event-types-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/user-criteria-event-types-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -46,7 +46,7 @@ Role required: admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Understanding user criteria for event types in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/understanding-user-criteria-event-types-wfo-itsm.md)
+**Parent Topic:**[Understanding user criteria for event types in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/understanding-user-criteria-event-types-wfo-itsm.md)
 
 **Related topics**  
 

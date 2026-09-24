@@ -2,7 +2,7 @@
 title: Values for date/time fields
 description: When you filter on fields of type date/time, such as the Created field on any task record, several time-related options are available, such as Today, This week, Last 3 months, and so on.You can filter date and time fields using the operators and values listed here.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_ValuesForDateTimeFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_ValuesForDateTimeFields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ A filter for **Last week** returns incidents from midnight on Sunday the week pr
 
 For the **at or before** and **at or after** filters, use midnight as a start or end point. For example, if you filter a list of incidents created **\[at or after\] \[Yesterday\]**, the resulting list shows all incidents created at midnight yesterday or later. If it is Thursday, August 7, and you filter a list of incidents created **\[at or before\] \[Last week\]**, the resulting list shows all incidents created at and before midnight on Sunday August 3, which is the end of last week.
 
-**Parent Topic:**[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)
+**Parent Topic:**[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ConditionBuilder.md)
 
 **Related topics**  
 

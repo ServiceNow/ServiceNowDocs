@@ -2,7 +2,7 @@
 title: View job tracker details from Workday
 description: Track every pull that has been performed from ServiceNow to Workday either by schedule job or manual reconciliation process. View details of the job, such as when did the job begin and end, when did the records start loading into staging tables, or did the job run completely or fail in between.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/w-job-tracker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/w-job-tracker.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -52,7 +52,7 @@ Role required: sn\_hr\_workday.admin
     |Import Set|Name of the import set that is pulled.|
 
 
-**Parent Topic:**[Using HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-hrsd-int-workday.md)
+**Parent Topic:**[Using HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-hrsd-int-workday.md)
 
 **Related topics**  
 

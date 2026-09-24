@@ -2,7 +2,7 @@
 title: Review a software reclamation rule
 description: Use reclamation rules to cancel user subscriptions that have limited to no activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/add-reclamation-rule-sub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/saas-license-management/add-reclamation-rule-sub.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -22,7 +22,7 @@ Role required: sam\_admin
 
 ## About this task
 
-When you create a direct integration profile or connect an SSO application, a reclamation rule is automatically created for the software. It's important that you review the reclamation rule to verify that it meets your specifications. For more information about the reclamation rules for each application, see [Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reclamation-rules.md) and [Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/m365-reclamation-rules.md).
+When you create a direct integration profile or connect an SSO application, a reclamation rule is automatically created for the software. It's important that you review the reclamation rule to verify that it meets your specifications. For more information about the reclamation rules for each application, see [Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/reclamation-rules.md) and [Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/m365-reclamation-rules.md).
 
 For SSO subscriptions, the reclamation rule checks for user logins.
 
@@ -62,7 +62,7 @@ Include usage from additional discovery sources
 
 </td><td>
 
-This field appears only when you are reviewing the Microsoft 365 and Office 365 reclamation rules. For more information, see [Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/m365-reclamation-rules.md).
+This field appears only when you are reviewing the Microsoft 365 and Office 365 reclamation rules. For more information, see [Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/m365-reclamation-rules.md).
 
  When selected, the usage for Microsoft Access and Publisher is considered from additional discovery solutions such as Microsoft SCCM or ACC-V for E3 to E1 optimization.
 
@@ -102,7 +102,7 @@ Time limit for no meaningful activity before a user account is added to the list
 
 View the reclamation candidates that are identified by your reclamation rule and start reclaiming user subscriptions.
 
-**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
+**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 
@@ -141,9 +141,9 @@ View the reclamation candidates that are identified by your reclamation rule and
 
 [Subscription exclusions for SaaS and SSO applications]()
 
-[Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-integration-profile.md)
+[Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-integration-profile.md)
 
-[Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reclamation-rules.md)
+[Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/reclamation-rules.md)
 
-[Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/m365-reclamation-rules.md)
+[Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/m365-reclamation-rules.md)
 

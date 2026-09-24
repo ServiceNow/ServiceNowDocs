@@ -2,7 +2,7 @@
 title: View interaction record in Accounts Payable Operations
 description: View interaction record details to analyze supplier interactions, take immediate actions, and link records to invoice cases requiring investigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/view-interaction-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/view-interaction-record.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -44,5 +44,5 @@ Role required: Account Payable agent
     |Transcript|Text record of the conversation between an agent and the supplier|
 
 
-**Parent Topic:**[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
+**Parent Topic:**[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
 

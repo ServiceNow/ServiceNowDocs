@@ -2,7 +2,7 @@
 title: Test GraphQL APIs with GraphQL Explorer
 description: Test query your GraphQL APIs using an integrated GraphQL testing tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/test-gql-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/test-gql-schema.html
 release: australia
 product: Web Services
 classification: web-services
@@ -18,9 +18,9 @@ Test query your GraphQL APIs using an integrated GraphQL testing tool.
 
 ## Before you begin
 
-Create a schema for your GraphQL API. For more information, see [Create a GraphQL schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/build-graphql-scripted-schema.md).
+Create a schema for your GraphQL API. For more information, see [Create a GraphQL schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/build-graphql-scripted-schema.md).
 
-Enabling introspective queries allows GraphQL Explorer to show the schemas on the instance in the Documentation Explorer and as auto-complete suggestions, which makes finding queries and mutations easier. For more information, see [Enable introspective queries for GraphQL schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/enable-introspective-queries-graphql-schemas.md).
+Enabling introspective queries allows GraphQL Explorer to show the schemas on the instance in the Documentation Explorer and as auto-complete suggestions, which makes finding queries and mutations easier. For more information, see [Enable introspective queries for GraphQL schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/enable-introspective-queries-graphql-schemas.md).
 
 **Note:** Don’t use introspective queries in a production environment.
 
@@ -38,7 +38,7 @@ The GraphQL Explorer integrates the GraphiQL IDE into the ServiceNow AI Platform
 
 3.  In the editor, enter a query to the schema.
 
-    Include both the application and schema namespaces in the query. For information about directives you can apply, see [Directives and global functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-graph-ql.md).
+    Include both the application and schema namespaces in the query. For information about directives you can apply, see [Directives and global functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/scripted-graph-ql.md).
 
     This example shows using both the application and schema namespaces:
 
@@ -96,7 +96,7 @@ The GraphQL Explorer integrates the GraphiQL IDE into the ServiceNow AI Platform
 
 If you need to view a list of previous queries, in left sidebar, select the Show History icon \(\[Omitted image "graphql-show-history.png"\] Alt text: Show History icon\).
 
-To access record data in a component, you can create a custom component and query your scripted GraphQL schema from the component. For more information, see [Query a GraphQL schema from a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/query-schema-from-component.md).
+To access record data in a component, you can create a custom component and query your scripted GraphQL schema from the component. For more information, see [Query a GraphQL schema from a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/query-schema-from-component.md).
 
-**Parent Topic:**[Query record data using the GraphQL API framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-graph-ql.md)
+**Parent Topic:**[Query record data using the GraphQL API framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/scripted-graph-ql.md)
 

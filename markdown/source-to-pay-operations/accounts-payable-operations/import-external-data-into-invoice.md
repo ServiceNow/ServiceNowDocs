@@ -2,7 +2,7 @@
 title: Import data into invoice
 description: Import bulk invoice data into Accounts Payable Operations using a transform map and Excel file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/import-external-data-into-invoice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/import-external-data-into-invoice.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,7 +31,7 @@ Role required: admin
 
 4.  Select **Import**.
 
-    The **Import external data into Invoice Import** page appears. For more information on importing data through transform map, see [Run transform to update invoice data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/run-transform.md).
+    The **Import external data into Invoice Import** page appears. For more information on importing data through transform map, see [Run transform to update invoice data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/run-transform.md).
 
     **Note:** Follow the same steps for invoice lines and invoice payment.
 

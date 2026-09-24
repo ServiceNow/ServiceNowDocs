@@ -2,7 +2,7 @@
 title: Get started with Certificate Inventory and Management
 description: Prior to diving into the Certificate Inventory and Management application's functionality, meet the necessary requirements by installing and activating the plugin, upgrading your instance, and obtaining the Certificate Inventory and Management application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/get-started-cert-inventory-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/get-started-cert-inventory-mgmt.html
 release: australia
 product: Discovery
 classification: discovery

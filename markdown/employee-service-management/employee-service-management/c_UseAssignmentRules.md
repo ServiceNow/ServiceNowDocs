@@ -18,13 +18,13 @@ HR Case has a business rule called Auto Assign that invokes matching rule logic.
 
 When auto assignment is triggered, the matching rules logic obtains a list of agents. The number of agents returned is based on a parameter that specifies the length of the list. The default is one.
 
-**Note:** For specific HR services, the auto-assignment functionality can be skipped. See Case options in [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+**Note:** For specific HR services, the auto-assignment functionality can be skipped. See Case options in [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 ## Matching Rules
 
 HR assignment rules use the Resource Matching Engine \[com.snc.matching\_rule\] plugin that is activated with the Human Resources Scoped App: Core \[com.sn\_hr\_core\] plugin. You can specify a table and a condition. By default, the base system sets an assignment group for each table and leaves the Assigned to field empty.
 
-For HR cases that meet these conditions, the hr\_AssignmentAPI script include is called to return a list of agents that are eligible for assignment. See [Add or modify a matching rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/CreateModMatchingRule.md).
+For HR cases that meet these conditions, the hr\_AssignmentAPI script include is called to return a list of agents that are eligible for assignment. See [Add or modify a matching rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/CreateModMatchingRule.md).
 
 **Note:** The base system provides matching rules for every COE table and HR task table.
 

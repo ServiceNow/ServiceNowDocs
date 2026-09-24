@@ -2,7 +2,7 @@
 title: Configure Sales Agreement Management
 description: Use the Sales Agreement Management application to create sales agreements between a buyer and a seller for future transactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-sales-agreement-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-sales-agreement-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -61,7 +61,7 @@ This plugin provides workflow to create and manage sales agreements.
 
 
 </td></tr></tbody>
-</table>For more information on the installed roles and tables, see [Components installed with Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-agreement.md). To view sales agreements from an account, you must manually configure the sales agreement related list on the Account form.
+</table>For more information on the installed roles and tables, see [Components installed with Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-sales-agreement.md). To view sales agreements from an account, you must manually configure the sales agreement related list on the Account form.
 
 ## Request apps from the ServiceNow Store
 

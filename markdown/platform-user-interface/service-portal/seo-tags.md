@@ -2,7 +2,7 @@
 title: Add meta tags to a public page
 description: Improve the searchability of Service Portal pages by adding meta tags. You can add the meta name and description attributes to a page, define the robots attribute, or create dynamic meta tags for pages that load record data based on a URL parameter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/seo-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/seo-tags.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -195,7 +195,7 @@ Select a field from the table defined in the **Table** field. This field is used
     ```
 
 
-**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md)
+**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/seo-sp.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a script for a transform definition
 description: Create the script at any time during the configuration of a definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAScriptForATransformDef.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAScriptForATransformDef.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

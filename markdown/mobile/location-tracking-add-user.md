@@ -2,7 +2,7 @@
 title: Enabling location tracking for users
 description: Enable location tracking for specified users. The same tracking location settings apply to all the selected users on the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/location-tracking-add-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/location-tracking-add-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: admin
 5.  Repeat these steps for each user who needs location tracking.
 
 
-**Parent Topic:**[Location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-location-tracking.md)
+**Parent Topic:**[Location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-location-tracking.md)
 

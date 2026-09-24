@@ -2,7 +2,7 @@
 title: Restart a learning challenge
 description: Restart a challenge when you want to reset the progress you have made on the challenge.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/restart-challenge-lxp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/restart-challenge-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -33,5 +33,5 @@ Role required: admin
 4.  On the **Do you want to restart this challenge** pop-up, click **Yes, I'm done**.
 
 
-**Parent Topic:**[Create a Learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-challenge.md)
+**Parent Topic:**[Create a Learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-challenge.md)
 

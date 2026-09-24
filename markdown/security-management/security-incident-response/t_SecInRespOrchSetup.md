@@ -2,7 +2,7 @@
 title: Set up Security Incident Response Orchestration
 description: Prior to using Security Incident Response Orchestration, perform steps to set up various parts of the system, including populating the CMDB, configuring the mid-server, and configuring credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_SecInRespOrchSetup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/t\_SecInRespOrchSetup.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -33,5 +33,5 @@ To use Security Incident Response, you need a fully populated CMDB with domain n
 3.  [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-install-prereqs.md).
 
 
-**Parent Topic:**[Security Incident Response Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_SecIncRespOrchestration.md)
+**Parent Topic:**[Security Incident Response Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/c_SecIncRespOrchestration.md)
 

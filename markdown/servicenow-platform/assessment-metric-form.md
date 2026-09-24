@@ -2,7 +2,7 @@
 title: Assessment Metric form
 description: Description of the field values for the Assessment Metric form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/assessment-metric-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/assessment-metric-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -280,10 +280,10 @@ Improvement Initiatives
 Displays improvement initiatives associated with the survey.**Note:** This related list is available only when there is at least one improvement initiative record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessment-reference.md)
+</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/assessment-reference.md)
 
 **Related topics**  
 
 
-[Configure an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-assessment.md)
+[Configure an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-assessment.md)
 

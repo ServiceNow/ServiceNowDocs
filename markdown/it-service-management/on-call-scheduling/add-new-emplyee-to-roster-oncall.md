@@ -2,7 +2,7 @@
 title: Add a new or returning employee to a roster
 description: You can add a new employee or an employee who had previously been a member to a roster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/add-new-emplyee-to-roster-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/add-new-emplyee-to-roster-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -98,5 +98,5 @@ Roster from which you navigated to the form.
     **Note:** For a returning employee: The instance displays two shift member records for the same employee with different start and end validity dates.
 
 
-**Parent Topic:**[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/managing-roster-members.md)
+**Parent Topic:**[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/managing-roster-members.md)
 

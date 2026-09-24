@@ -2,7 +2,7 @@
 title: Case action summaries
 description: Use a case action summary to provide updates to customers and internal stakeholders while a case is in progress.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-digest-case-action-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-digest-case-action-summary.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ Closing a case automatically closes the corresponding case action summary.
 **Related topics**  
 
 
-[Create a case action summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-action-summary.md)
+[Create a case action summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-action-summary.md)
 

@@ -2,7 +2,7 @@
 title: CSM Landing Page - Premium
 description: The CSM Landing Page - Premium provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ws-landing-page-premium.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-ws-landing-page-premium.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -99,7 +99,7 @@ Select an indicator to view a KPI details page.**Note:** This section is availab
 </td></tr></tbody>
 </table>## Create a landing page for CSM Configurable Workspace
 
-Use UI Builder to create landing pages for your agents. For more information, see [Create a CSM Configurable Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-landing-page.md).
+Use UI Builder to create landing pages for your agents. For more information, see [Create a CSM Configurable Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-landing-page.md).
 
 ## Create multiple landing pages
 

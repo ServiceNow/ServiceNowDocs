@@ -2,7 +2,7 @@
 title: Hermes Messaging Service roles
 description: These roles are available for the application
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/roles-by-product/roles\_hermesmessagingservice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/roles-by-product/roles\_hermesmessagingservice.html
 release: australia
 topic_type: reference
 last_updated: "2024-03-11"
@@ -98,5 +98,5 @@ Stream Connect administrators with the kafka\_namespace\_admin role can view mes
  For example, in a Managed Service Provider \(MSP\) instance with Kafka integrations in multiple domains, managing namespace definitions properly is important to maintain separation between domains, so don't grant this role to administrators within a single domain.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/roles-by-product/roles-for-all-products.md)
+</table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/roles-by-product/roles-for-all-products.md)
 

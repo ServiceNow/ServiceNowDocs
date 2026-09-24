@@ -2,7 +2,7 @@
 title: Apply a template to existing Board or Doc in CWM
 description: Apply predefined or custom templates to existing Boards or Docs in Collaborative Work Management workspace so that you can avoid inconsistencies in structure and format across your processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/apply-a-template-to-existing-space-board-or-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/apply-a-template-to-existing-space-board-or-doc.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,8 +18,8 @@ Apply predefined or custom templates to existing Boards or Docs in Collaborative
 
 ## Before you begin
 
--   [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
--   [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
+-   [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
+-   [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
 
 Role required: sn\_cwm.cwm\_user
 
@@ -89,5 +89,5 @@ The Template Center shows only the Doc page templates.
 
 The selected template is applied to your Board, Doc, or page and the data is displayed according to the template.
 
-**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
+**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 

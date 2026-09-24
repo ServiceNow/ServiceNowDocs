@@ -2,7 +2,7 @@
 title: View remediation tasks
 description: Event Management automatically creates a remediation task to capture every remediation that was applied to a CI or to an alert. It gives you an overall view of remediation activities in the organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_SAViewRemediationTasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_SAViewRemediationTasks.html
 release: australia
 product: Event Management
 classification: event-management
@@ -35,5 +35,5 @@ Role required: evt\_mgmt\_user
     |Task type|This task type is a remediation task.|
 
 
-**Parent Topic:**[CI Remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-remediation.md)
+**Parent Topic:**[CI Remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/ci-remediation.md)
 

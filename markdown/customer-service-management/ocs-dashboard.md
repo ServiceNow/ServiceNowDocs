@@ -2,7 +2,7 @@
 title: Outsourced Service Provider dashboard
 description: The Outsourced Service Provider dashboard enables monitoring of breached service-level agreements \(SLAs\), average resolution time, and case transfer percentages, among other metrics. You can utilize the insights to identify the areas of concern and to plan your case management strategy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ocs-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ocs-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ The number of cases that are in the open state.
 
 **Outsourced cases: Average overall CSAT**
 
-Average customer satisfaction \(CSAT\) based on survey results. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).
+Average customer satisfaction \(CSAT\) based on survey results. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).
 
 **Outsourced cases: Number of resolved cases**
 

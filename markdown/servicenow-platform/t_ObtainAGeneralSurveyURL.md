@@ -2,7 +2,7 @@
 title: Obtain and distribute a general survey URL
 description: You can distribute a general survey URL to allow any eligible user to open a survey questionnaire.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ObtainAGeneralSurveyURL.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ObtainAGeneralSurveyURL.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,7 +43,7 @@ When a survey user clicks the general survey URL, the system creates a survey in
 
 As a result, the survey user receives a second notification in addition to the notification that you sent with the general survey URL. This may confuse the survey user. To avoid this issue, you can deactivate auto-notification.
 
-**Parent Topic:**[Survey URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyURLs.md)
+**Parent Topic:**[Survey URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyURLs.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Product idea form
 description: Learn about the fields of the Product idea form. Use this form to create or edit the details of a product idea in AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-product-idea-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-product-idea-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-29"

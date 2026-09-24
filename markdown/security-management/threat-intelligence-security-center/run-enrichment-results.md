@@ -2,7 +2,7 @@
 title: Run Enrichment Actions within a case
 description: Use this section to understand how enrichments actions are performed on case\(s\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/run-enrichment-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/run-enrichment-results.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -51,7 +51,7 @@ Role required: sn\_sec\_tisc.admin
     \[Omitted image "tisc-observables-enrichments.png"\] Alt text: Enrichment actions
 
 
-**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 

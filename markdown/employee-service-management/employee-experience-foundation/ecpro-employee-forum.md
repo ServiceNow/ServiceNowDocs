@@ -2,7 +2,7 @@
 title: Employee Forums
 description: Employee Forums delivers Communities features to the Employee Center Pro portal to help employees connect, engage, and collaborate with other employees. Use Employee Forums to share business information, promote employee engagement, encourage ideas and feedback, and to give your employees a voice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-employee-forum.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ecpro-employee-forum.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

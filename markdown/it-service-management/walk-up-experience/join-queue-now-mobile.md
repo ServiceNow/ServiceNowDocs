@@ -2,7 +2,7 @@
 title: Join a queue at the Walk-up Experience Tech Lounge
 description: Join a queue at a ServiceNow Walk-up Experience Tech Lounge by using the Now Mobile app for immediate assistance with an issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/join-queue-now-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/join-queue-now-mobile.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -36,7 +36,7 @@ Role required: user
 
 4.  Tap **Join Queue**.
 
-    **Note:** This option is displayed only when the Tech Lounge is open. If the Tech Lounge is closed, wait to join a queue during the normal operating hours. Alternatively, you can book an appointment if the option is available. For more information on how to book an appointment, see [Book an appointment at a Walk-up Experience Tech Lounge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/make-appointment-now-mobile.md).
+    **Note:** This option is displayed only when the Tech Lounge is open. If the Tech Lounge is closed, wait to join a queue during the normal operating hours. Alternatively, you can book an appointment if the option is available. For more information on how to book an appointment, see [Book an appointment at a Walk-up Experience Tech Lounge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/make-appointment-now-mobile.md).
 
 5.  On the form, fill in the fields.
 
@@ -50,5 +50,5 @@ Role required: user
     Your visit details and position in the queue are displayed on the screen.
 
 
-**Parent Topic:**[Walk-up Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walk-up-experience-now-mobile.md)
+**Parent Topic:**[Walk-up Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walk-up-experience-now-mobile.md)
 

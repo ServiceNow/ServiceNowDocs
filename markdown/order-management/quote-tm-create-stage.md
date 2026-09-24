@@ -2,7 +2,7 @@
 title: Create a quote transaction stage
 description: Create a stage in the ServiceNow Quote Experience administration interface to define a phase in the quoting process, set entry criteria, and configure what happens when a user opens a transaction or remains inactive in that stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-stage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-create-stage.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -80,8 +80,8 @@ When creating a stage, you assign it a variable name that serves as a unique ide
 
     |Action type|Use when|
     |-----------|--------|
-    |**Rule group**|You need to execute conditional logic on timeout, such as updating fields or modifying the quote UI. For more information, see [Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-rules-and-rule-groups.md)|
-    |**Integration**|You need to call an external API or service on timeout, such as logging inactivity events, sending notifications, or updating external records. For more information, see [Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-integrations.md)|
+    |**Rule group**|You need to execute conditional logic on timeout, such as updating fields or modifying the quote UI. For more information, see [Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-rules-and-rule-groups.md)|
+    |**Integration**|You need to call an external API or service on timeout, such as logging inactivity events, sending notifications, or updating external records. For more information, see [Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-integrations.md)|
 
     Repeat this step for each additional action to run on timeout.
 
@@ -90,5 +90,5 @@ When creating a stage, you assign it a variable name that serves as a unique ide
     The stage is saved with its rule groupings, entry criteria, and configured stage behaviors. The stage is available in the Stages list and can be associated with a blueprint layout.
 
 
-**Parent Topic:**[Quote transaction stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-stages.md)
+**Parent Topic:**[Quote transaction stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-stages.md)
 

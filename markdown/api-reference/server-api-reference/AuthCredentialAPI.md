@@ -2,7 +2,7 @@
 title: AuthCredential - Scoped
 description: The AuthCredential\(\) API provides methods that enable you to build credentials for a REST request.Instantiates a new AuthCredential object, or modifies an existing one.Returns the value of an AuthCredential attribute.Sets an attribute for an AuthCredential object.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/AuthCredentialAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/AuthCredentialAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -37,7 +37,7 @@ var credential = new sn_cc.StandardCredentialsProvider().getAuthCredentialByID("
 
 Use the AuthCredential API in scoped scripts with the `sn_auth` namespace identifier.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## AuthCredential - AuthCredential\(Object authCredential\)
 

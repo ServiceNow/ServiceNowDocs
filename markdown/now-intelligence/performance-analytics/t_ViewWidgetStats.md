@@ -2,7 +2,7 @@
 title: View widget statistics
 description: You can view statistics about Performance Analytics widgets to help identify and resolve problems, such as if a widget is loading slowly on dashboards.These properties control how widget statistics are tracked and maintained.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_ViewWidgetStats.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_ViewWidgetStats.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

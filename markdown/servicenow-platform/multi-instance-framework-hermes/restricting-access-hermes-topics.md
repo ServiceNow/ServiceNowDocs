@@ -2,7 +2,7 @@
 title: Restricting access to Hermes
 description: Restrict access to Hermes by IP address.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/restricting-access-hermes-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/restricting-access-hermes-topics.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -22,10 +22,10 @@ To enable IP address filtering in the Hermes cluster, you must submit a request 
 
 For details on configuring access rules in the IP Address Access Control module, see [IP address access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_AccessControl.md).
 
--   **[Create an alert for unauthorized access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/create-alert-notification-hermes.md)**  
+-   **[Create an alert for unauthorized access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/create-alert-notification-hermes.md)**  
 Receive a notification when an attempt to access Hermes is received from an unauthorized IP address.
 
-**Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
+**Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
 
 **Related topics**  
 

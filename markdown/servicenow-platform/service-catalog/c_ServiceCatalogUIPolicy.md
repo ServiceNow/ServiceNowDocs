@@ -2,7 +2,7 @@
 title: Service catalog UI policy
 description: UI policies can be used to define custom process flows for tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ServiceCatalogUIPolicy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/c\_ServiceCatalogUIPolicy.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -44,8 +44,8 @@ Catalog UI policies control the behavior of catalog item forms when presented to
     **Note:** The UI policy for catalog items always takes precedence over UI policy for variable sets. You can change this behavior by editing the **glide.sc.ui\_policy.variable\_set\_run\_first** property.
 
 
--   **[Create a UI policy for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreatUIPolicyForSvcCalgIt.md)**  
+-   **[Create a UI policy for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreatUIPolicyForSvcCalgIt.md)**  
 You can apply UI policies for catalog items ordered in the service catalog.
 
-**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/debugging-service-catalog.md)
 

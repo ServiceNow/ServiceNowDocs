@@ -2,7 +2,7 @@
 title: Summarize an ER case interview using ServiceNow Otto for HRSD
 description: Use the ER interview summarization skill to obtain a comprehensive overview of the ER interview, which includes key details such as quick recap, key assertions and responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-er-interview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-er-interview.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -27,7 +27,7 @@ You can use the ER interview summarization skill in either Core UI or Agent Work
 -   In Core UI, the summary appears in a banner in the Interview record.
 -   In Agent Workspace for HR Case Management, the summary is generated in the **Interview** tab.
 
-**Note:** For information on how to configure the ER interview summarization skill, see [Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
+**Note:** For information on how to configure the ER interview summarization skill, see [Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
 ## Procedure
 
@@ -53,15 +53,15 @@ You can use the ER interview summarization skill in either Core UI or Agent Work
 
 7.  When you finish summarizing the interview record, you can add it to the interview notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d647764e223">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d647768e223">
 
 Option
 
-</th><th align="left" id="d647764e226">
+</th><th align="left" id="d647768e226">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d647764e232">
+</th></tr></thead><tbody><tr><td id="d647768e232">
 
 **Save the summary to interview notes**
 
@@ -72,7 +72,7 @@ Procedure
 3.  Select **Save to AI Interview Summary**.
 
 
-</td></tr><tr><td id="d647764e259">
+</td></tr><tr><td id="d647768e259">
 
 **Expand or collapse the interview summary**
 
@@ -80,7 +80,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d647764e280">
+</td></tr><tr><td id="d647768e280">
 
 **Provide feedback for interview summary**
 
@@ -88,7 +88,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d647764e303">
+</td></tr><tr><td id="d647768e303">
 
 **Copy the interview summary**
 
@@ -96,7 +96,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d647764e319">
+</td></tr><tr><td id="d647768e319">
 
 **View the information about the interview summary**
 
@@ -104,7 +104,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d647764e334">
+</td></tr><tr><td id="d647768e334">
 
 **Refine list**
 
@@ -114,7 +114,7 @@ Elaborate or shorten the summary.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

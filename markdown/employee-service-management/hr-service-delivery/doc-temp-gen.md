@@ -2,7 +2,7 @@
 title: Using Document Templates: Custom use case
 description: Understand how to use Document Templates outside of HR Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/doc-temp-gen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/doc-temp-gen.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -65,7 +65,7 @@ Role required: admin
         \[Omitted image "doc-tasks-rl.png"\] Alt text: Document tasks related list appears on the record form
 
 
-**Parent Topic:**[Using Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-doc-templates.md)
+**Parent Topic:**[Using Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-doc-templates.md)
 
 **Related topics**  
 

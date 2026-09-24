@@ -2,7 +2,7 @@
 title: Edit supplier details from the Source-to-Pay Workspace
 description: Add or modify the details of an existing supplier.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/edit-supplier-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/edit-supplier-details.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -32,7 +32,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 3.  Select the **Details** tab and update the fields in the Supplier and General sections as needed.\[Omitted image "edit-supplier-details-source-to-pay-workspace.png"\] Alt text: Selected tab for editing supplier details.
 
-    For descriptions of the fields on the **Details** tab, see [Manage supplier details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-ws-details-page.md).
+    For descriptions of the fields on the **Details** tab, see [Manage supplier details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-ws-details-page.md).
 
 4.  Select **Save**.
 
@@ -41,12 +41,12 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 The edited supplier details are updated in the system.
 
-**Parent Topic:**[Manage supplier details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-ws-details-page.md)
+**Parent Topic:**[Manage supplier details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-ws-details-page.md)
 
 **Related topics**  
 
 
-[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
+[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
-[Add a supplier location from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-location.md)
+[Add a supplier location from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-location.md)
 

@@ -2,7 +2,7 @@
 title: Set up the State model and Action task model
 description: Set up the Vulnerability state model and Action task model to manage the workflow of the Operational vulnerability record. These models define the workflow states and transition conditions for a record type and an action task, respectively. Both the Operational vulnerability record type and the action task adhere to the workflow states configured in their corresponding models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/establish-state-model-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/establish-state-model-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -95,7 +95,7 @@ When the state transition condition is fulfilled, the state gets updated or else
 
 3.  On the State model form, fill in the other fields.
 
-    For more information on the fields, see [GRC state model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-state-model-form-for-op-vul.md).
+    For more information on the fields, see [GRC state model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-state-model-form-for-op-vul.md).
 
 4.  Select **Submit**.
 

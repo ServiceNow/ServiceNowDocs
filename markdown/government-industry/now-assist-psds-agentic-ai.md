@@ -2,7 +2,7 @@
 title: Use agentic AI in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Use standalone agents to achieve specific automated outcomes with the Public Sector Digital Services AI Agent Collection application. ​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-agentic-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-agentic-ai.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -55,5 +55,5 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
-For information on the standalone Public Sector Digital Services AI agents, see [Standalone AI Agents in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-aiagents.md).
+For information on the standalone Public Sector Digital Services AI agents, see [Standalone AI Agents in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-aiagents.md).
 

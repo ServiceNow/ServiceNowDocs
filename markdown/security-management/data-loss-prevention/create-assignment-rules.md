@@ -2,7 +2,7 @@
 title: Create assignment rules
 description: Create assignment rules and assign the Data Loss Prevention Incident Response \(DLP IR\) incidents to user groups, end users, managers, or user from incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-assignment-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/create-assignment-rules.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -207,7 +207,7 @@ For example, you can use the email address field to identify the end user.
 6.  To reapply an assignment rule on all existing DLP incidents, select **Reapply**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

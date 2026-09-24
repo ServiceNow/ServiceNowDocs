@@ -2,7 +2,7 @@
 title: Agent submitting a case
 description: This use case illustrates how to enable an agent to submit a case for a known customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-agt\_submit\_case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-agt\_submit\_case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

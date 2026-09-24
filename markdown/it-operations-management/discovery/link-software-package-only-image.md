@@ -2,7 +2,7 @@
 title: Link software package information to images only
 description: Link software package information to images rather than containers to avoid empty records that associate to short-lived containers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/link-software-package-only-image.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/link-software-package-only-image.html
 release: australia
 product: Discovery
 classification: discovery
@@ -37,12 +37,12 @@ Software package information is linked to both images and containers when the **
 5.  Select **Update**.
 
 
-**Parent Topic:**[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-concept.md)
+**Parent Topic:**[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/container-image-concept.md)
 
 **Related topics**  
 
 
-[Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-task.md)
+[Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/container-image-task.md)
 
-[Container image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container_image_scan_pattern.md)
+[Container image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/container_image_scan_pattern.md)
 

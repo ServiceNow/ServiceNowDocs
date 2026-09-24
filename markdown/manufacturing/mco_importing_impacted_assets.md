@@ -2,7 +2,7 @@
 title: Importing impacted assets
 description: Recall campaign management enables you to import the impacted assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco\_importing\_impacted\_assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco\_importing\_impacted\_assets.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

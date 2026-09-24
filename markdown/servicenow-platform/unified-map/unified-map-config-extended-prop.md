@@ -2,7 +2,7 @@
 title: Configure which attributes to display in the Attributes panel
 description: Each class has a unique set of extended attributes that appear in the bottom section of the Attributes panel for a CI. For any class, you can specify which extended attributes should be displayed. These are general settings that only sn\_cmdb\_admin can configure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-config-extended-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/unified-map-config-extended-prop.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -24,7 +24,7 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-In the base system, extended attributes are preconfigured for many common classes. You can modify the default settings and configure settings for additional classes. This example shows where base attributes \(A\) and extended attributes \(B\) appear in the Attributes panel. For more information on the Attributes panel, see [View the attributes of a CI or a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-show-attributes.md)
+In the base system, extended attributes are preconfigured for many common classes. You can modify the default settings and configure settings for additional classes. This example shows where base attributes \(A\) and extended attributes \(B\) appear in the Attributes panel. For more information on the Attributes panel, see [View the attributes of a CI or a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-show-attributes.md)
 
 \[Omitted image "um-attributes-panel-annotated.png"\] Alt text: Attributes of the selected CI.
 
@@ -110,13 +110,13 @@ If selected, use the following process to determine which attributes to display.
 </td></tr></tbody>
 </table>3.  Select **Submit** or **Update**.
 
-    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md).
+    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/administer-unified-map.md).
 
 
-**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/administer-unified-map.md)
 
 **Related topics**  
 
 
-[View the attributes of a CI or a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-show-attributes.md)
+[View the attributes of a CI or a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-show-attributes.md)
 

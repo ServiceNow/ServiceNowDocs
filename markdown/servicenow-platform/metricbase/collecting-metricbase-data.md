@@ -2,7 +2,7 @@
 title: Defining and collecting MetricBase data
 description: Store time-series summaries of much larger data collections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/collecting-metricbase-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/metricbase/collecting-metricbase-data.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -24,23 +24,23 @@ MetricBase collects the metrics of how often you send data and what the aggregat
 
 \[Omitted image "mb-glide-relationship.png"\] Alt text: MetricBase and instance relationship
 
--   [Create a time-series definition in MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/set-up-data-monitoring.md)
+-   [Create a time-series definition in MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/set-up-data-monitoring.md)
 
     Specify the metric that you want to store, how often to collect it, and how long to store it in MetricBase.
 
--   [MetricBase retention policy schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-retention-policy-schedules.md)
+-   [MetricBase retention policy schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/metricbase-retention-policy-schedules.md)
 
     Specify how long MetricBase stores the time-series data in the MetricBase database.
 
--   [MetricBase retention policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-retention-policies.md)
+-   [MetricBase retention policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/metricbase-retention-policies.md)
 
     Retain data in MetricBase according to retention policies.
 
--   [Accessing MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/accessing-metricbase-data.md)
+-   [Accessing MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/accessing-metricbase-data.md)
 
     Access the time-series data that you sent to the MetricBase database in the way that is convenient to you.
 
--   [Detecting anomalies in MetricBase data using predictive models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-predictive-models.md)
+-   [Detecting anomalies in MetricBase data using predictive models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/metricbase-predictive-models.md)
 
     Distinguish normal data from anomalous data using predictive models.
 

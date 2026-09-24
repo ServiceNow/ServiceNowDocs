@@ -2,7 +2,7 @@
 title: Care Team Operations for Biomed Reference
 description: Reference topics provide additional information about Care Team Operations for Biomed components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-biomed-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

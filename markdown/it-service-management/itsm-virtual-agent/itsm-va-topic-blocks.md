@@ -2,7 +2,7 @@
 title: Reusable ITSM Virtual Agent pre-built topic blocks
 description: Reuse topic blocks to perform common functions in ITSM Virtual Agent conversations, such as creating an incident or performing a search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -106,7 +106,7 @@ This topic block initiates the **Open IT Ticket** conversation topic.
 
 ## Create MS Teams Meeting Link \(deprecated\)
 
-This topic block is deprecated. Use [Get MS Teams Meeting Link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md) instead.
+This topic block is deprecated. Use [Get MS Teams Meeting Link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md) instead.
 
 Users can request a Microsoft Teams meeting link using Virtual Agent. This topic block can be included in other topics. By default, this topic block runs in silent mode, and the output messages are not displayed.
 
@@ -114,7 +114,7 @@ Requirement: [Microsoft Teams Communication spoke](https://raw.githubusercontent
 
 ## Create Zoom Meeting Link
 
-For more actions, the [Zoom Meeting Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md) topic block is also available.
+For more actions, the [Zoom Meeting Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md) topic block is also available.
 
 Users can request a Zoom meeting link using Virtual Agent. This topic block can be included in other topics. By default, this topic block runs in silent mode, and the output messages are not displayed.
 
@@ -122,7 +122,7 @@ Requirement: [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
 ## Describe Virtual Machine
 
-Users can get details on any assigned virtual machine \(VM\) instance using the [Manage Virtual Machine topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/manage-virtual-machine.md) in Virtual Agent. Details include Provider, Region, Instance ID, and so forth.
+Users can get details on any assigned virtual machine \(VM\) instance using the [Manage Virtual Machine topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/manage-virtual-machine.md) in Virtual Agent. Details include Provider, Region, Instance ID, and so forth.
 
 Basic flow:
 
@@ -185,7 +185,7 @@ For information about this topic block, see [Service Catalog topic blocks in Vir
 
 ## Start Virtual Machine
 
-Users can start any assigned VM instance using the [Manage Virtual Machine topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/manage-virtual-machine.md). If the VM is already on or in a state where it cannot be started, Virtual Agent notifies the user.
+Users can start any assigned VM instance using the [Manage Virtual Machine topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/manage-virtual-machine.md). If the VM is already on or in a state where it cannot be started, Virtual Agent notifies the user.
 
 Basic flow:
 
@@ -226,7 +226,7 @@ Short description for the Incident record, if one is recorded.
 </td></tr></tbody>
 </table>## Stop Virtual Machine
 
-Users can stop any assigned VM instance using the [Manage Virtual Machine topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/manage-virtual-machine.md). If the VM is already off or is in a state where it cannot be stopped, Virtual Agent notifies the user.
+Users can stop any assigned VM instance using the [Manage Virtual Machine topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/manage-virtual-machine.md). If the VM is already off or is in a state where it cannot be stopped, Virtual Agent notifies the user.
 
 Basic flow:
 
@@ -266,7 +266,7 @@ Short description for the Incident record, if one is recorded.
 </td></tr></tbody>
 </table>## Terminate Virtual Machine
 
-Users can terminate any assigned virtual machine \(VM\) instance using the [Manage Virtual Machine topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/manage-virtual-machine.md). If the VM is already terminated or is in a state where it cannot be terminated, Virtual Agent notifies the user.
+Users can terminate any assigned virtual machine \(VM\) instance using the [Manage Virtual Machine topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/manage-virtual-machine.md). If the VM is already terminated or is in a state where it cannot be terminated, Virtual Agent notifies the user.
 
 Basic flow:
 
@@ -304,7 +304,7 @@ Short description for the Incident record, if one is recorded.
 </td></tr></tbody>
 </table>## Troubleshoot Cisco Webex
 
-Users can find a solution for common Webex issues. This topic block is used in the [Collaboration Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-it-issues-generic.md) topic.
+Users can find a solution for common Webex issues. This topic block is used in the [Collaboration Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-it-issues-generic.md) topic.
 
 If the user is not satisfied with the static help content for the issue, the fallback is AI search or contextual search. The type of search is dictated by the system property **sn\_itsm\_va.fallback\_search\_option**.​
 
@@ -317,7 +317,7 @@ If the user is not satisfied with the static help content for the issue, the fal
 
 ## Troubleshoot Microsoft Teams
 
-Users can find a solution for common Microsoft Teams issues. This topic block is used in the [Collaboration Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-it-issues-generic.md) topic.
+Users can find a solution for common Microsoft Teams issues. This topic block is used in the [Collaboration Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-it-issues-generic.md) topic.
 
 If the user is not satisfied with the static help content for the issue, the fallback is AI search or contextual search. The type of search is dictated by the system property **sn\_itsm\_va.fallback\_search\_option**.​
 
@@ -330,7 +330,7 @@ If the user is not satisfied with the static help content for the issue, the fal
 
 ## Troubleshoot Zoom
 
-Users can find a solution for common Zoom issues. This topic block is used in the [Collaboration Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-it-issues-generic.md) topic.
+Users can find a solution for common Zoom issues. This topic block is used in the [Collaboration Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/itsm-va-it-issues-generic.md) topic.
 
 If the user is not satisfied with the static help content for the issue, the fallback is AI search or contextual search. The type of search is dictated by the system property **sn\_itsm\_va.fallback\_search\_option**.​
 
@@ -346,16 +346,16 @@ If the user is not satisfied with the static help content for the issue, the fal
 
 Users can use the Cloud Access Interface to take action on virtual machines provisioned on Amazon AWS. The user must have the sn\_managevm\_va.cai\_vm\_user role.
 
-This topic block is used in the [virtual machine management CAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/manage-virtual-machine.md) pre-built topics. Available actions include Stop, Start, Terminate, or Describe the virtual machine.
+This topic block is used in the [virtual machine management CAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/manage-virtual-machine.md) pre-built topics. Available actions include Stop, Start, Terminate, or Describe the virtual machine.
 
 ## Virtual Machine Operation Azure
 
 Users can use the Cloud Access Interface to take action on virtual machines provisioned on Microsoft Azure. The user must have the sn\_managevm\_va.cai\_vm\_user role.
 
-This topic block is used in the [virtual machine management CAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/manage-virtual-machine.md) pre-built topics. Available actions include Stop, Start, Terminate, or Describe the virtual machine.
+This topic block is used in the [virtual machine management CAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/manage-virtual-machine.md) pre-built topics. Available actions include Stop, Start, Terminate, or Describe the virtual machine.
 
--   **[Employee Experience topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md)**  
+-   **[Employee Experience topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md)**  
 ITSM Virtual Agent helps you manage meetings in Microsoft Exchange Online. Using the Manage Meetings EXO v1.0 topic, you can schedule, reschedule, and cancel a meeting.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

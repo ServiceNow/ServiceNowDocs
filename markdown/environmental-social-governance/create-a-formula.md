@@ -2,7 +2,7 @@
 title: Create a formula
 description: Build your own formula using either entities or metric definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-formula.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-formula.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,5 +61,5 @@ When creating a formula, you can utilize functions like maximum, minimum, or ave
 8.  On the formula builder page, select **Need help?** to receive guidance on the necessary steps to build the formula.
 
 
-**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
+**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
 

@@ -2,7 +2,7 @@
 title: Configure metadata for fields, variables, and variables sets in a contract document
 description: As a contract configurator, add and configure metadata for fields, variable, and variable sets to pre-fill the information in the contract document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-addin-add-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-addin-add-metadata.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,9 +18,9 @@ As a contract configurator, add and configure metadata for fields, variable, and
 
 ## Before you begin
 
-The Microsoft Word add-in for ServiceNow Contracts must have been configured. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
+The Microsoft Word add-in for ServiceNow Contracts must have been configured. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
 
-A contract template must exist that is active and is in the Draft or Editing state. For more information, see [Create a contract template to contain content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.md).
+A contract template must exist that is active and is in the Draft or Editing state. For more information, see [Create a contract template to contain content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.md).
 
 Role required: sn\_cm\_core.contract\_config and canvas\_user
 
@@ -30,7 +30,7 @@ The metadata added for fields, variable, and variable sets act as placeholders f
 
 **Note:** In Contract Management Pro version 1.4.1, the Legal Contract Request form in Legal Counsel Center and Contract Workspace displays only mapped legal fields for variables in the contract fulfiller view. You therefore need to apply the **Field mapping** option when setting up Metadata mapping for legal contracts. For existing templates with Variable mapping, edit the template and update the configuration with **Field mapping**.
 
-For more information on editing a contract template, see [Edit a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-edit-ct-addin.md).
+For more information on editing a contract template, see [Edit a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-edit-ct-addin.md).
 
 -   The metadata of the type Field mapping gets its value from the table that the contract template is associated with.
 -   The metadata of type Variables gets its value from the record producer.
@@ -45,7 +45,7 @@ The following video walks you through the process of adding metadata for fields,
 
 3.  On the login screen, enter the credentials of the ServiceNow instance for which the Microsoft Word add-in is configured.
 
-    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-word-addin.md)
+    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-word-addin.md)
 
 4.  On the add-in screen in the **Templates** tab, select the contract template to which you want to add the metadata.
 
@@ -59,15 +59,15 @@ The following video walks you through the process of adding metadata for fields,
 
 7.  On the Create mapping form in the **Type** field, select either field mapping or variables.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d220940e300">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d220944e300">
 
 Type of metadata
 
-</th><th align="left" id="d220940e303">
+</th><th align="left" id="d220944e303">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d220940e309">
+</th></tr></thead><tbody><tr><td id="d220944e309">
 
 **Field mapping**
 
@@ -77,7 +77,7 @@ Fields available
 -   **Field Name**- The field is automatically set to the value of the **Mapping Field**. You can also modify the value.
 
 
-</td></tr><tr><td id="d220940e334">
+</td></tr><tr><td id="d220944e334">
 
 **Variables**
 
@@ -115,14 +115,14 @@ Validation errors might occur for the following reasons:
     -   The metadata is synced to the ServiceNow instance.
     **Note:**
 
-    If you have included the sys\_id variable, you must adjust this script to display it correctly. For more information, see [Configure fields in contract template to display correct sys\_id value in contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-adv-script.md).
+    If you have included the sys\_id variable, you must adjust this script to display it correctly. For more information, see [Configure fields in contract template to display correct sys\_id value in contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-addin-adv-script.md).
 
 9.  Add the metadata to other locations in the document or the header or footer of the Word document by selecting the tile and moving it to the desired location.
 
 10. View the metadata by logging in to your ServiceNow instance and navigating to the **Template Mappings** related list of the contract template.
 
 
-**Parent Topic:**[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
+**Parent Topic:**[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
 
 **Related topics**  
 

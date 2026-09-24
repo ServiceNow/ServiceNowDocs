@@ -2,7 +2,7 @@
 title: Workplace Case dashboard
 description: Use this dashboard to track the number of workplace cases that were created using the workplace services from the Workplace Service Delivery or from the Workplace Service Portal. Monitor the number of open cases, cases that require approval, and other cases on any given day.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/workplace-case-mgmt-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-dashboard.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -66,7 +66,7 @@ sn\_wsd\_case.manager
 |Active WSD Cases|List|List of active workplace cases on the current day.|
 |Unassigned Cases|List|List of unassigned workplace cases on the current day.|
 
-**Parent Topic:**[Analytics and Reporting Solutions for Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/analytics-reporting-case-mgmt.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/analytics-reporting-case-mgmt.md)
 
-**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
+**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
 

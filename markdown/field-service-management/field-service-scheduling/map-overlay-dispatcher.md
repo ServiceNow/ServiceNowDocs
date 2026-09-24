@@ -2,7 +2,7 @@
 title: Show map overlays in Dispatcher Workspace
 description: View real‑time traffic and other map overlays in Dispatcher Workspace to assess conditions that may affect technician travel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/map-overlay-dispatcher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/map-overlay-dispatcher.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

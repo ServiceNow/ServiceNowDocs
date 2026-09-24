@@ -2,7 +2,7 @@
 title: Configure mobile apps to access Health and Safety applications
 description: Configure the ServiceNow mobile apps to access Health and Safety applications for submitting safety incidents, observations, and job safety analyses \(JSAs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/configure-now-mobile-health-safety.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/configure-now-mobile-health-safety.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -34,7 +34,7 @@ Role required: none
 
     -   Now Mobile app for submitting safety incidents, observations, and JSAs, and viewing safety register documents.
 
-        For more information on using this mobile app, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
+        For more information on using this mobile app, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
     -   ServiceNow Agent mobile app for conducting inspection and audit surveys offline.
 
@@ -59,5 +59,5 @@ Role required: none
 
 -   For an instance with the Health and Safety Risk Management application, the **Create a job safety analysis** quick link appears in the **Home** tab of the Now Mobile app in your mobile device.
 
-**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
+**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 

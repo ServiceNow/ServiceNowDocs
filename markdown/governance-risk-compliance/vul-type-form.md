@@ -2,7 +2,7 @@
 title: Vulnerability Type form
 description: On the Vulnerability Type form, fill in the fields for Operational vulnerability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/vul-type-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/vul-type-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

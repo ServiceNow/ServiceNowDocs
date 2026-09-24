@@ -2,7 +2,7 @@
 title: Create a link to a scorecard
 description: Users with the admin role can create UI actions that allow users to view scorecards from tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateALinkToAScorecard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreateALinkToAScorecard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: assessment\_admin or admin
 
 ## Procedure
 
-1.  Generate [assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md) you want to evaluate.
+1.  Generate [assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md) you want to evaluate.
 
     For example, you might create a metric type called **Project** to assess project management records.
 
@@ -55,7 +55,7 @@ Role required: assessment\_admin or admin
 9.  Insert a new **View Scorecard** UI action record for each table where you want the related link to appear.
 
 
-**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 

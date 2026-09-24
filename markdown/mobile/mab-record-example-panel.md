@@ -2,7 +2,7 @@
 title: Mobile interface preview panel within a record screen
 description: The mobile interface preview panel helps you to identify the UI element you’re working on in the configuration panel within your mobile device. Record types with preview support display a live preview of how the components will appear on a mobile device instead of showing examples.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-record-example-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-record-example-panel.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

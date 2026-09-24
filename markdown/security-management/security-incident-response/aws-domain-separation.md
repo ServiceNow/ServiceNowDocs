@@ -2,7 +2,7 @@
 title: AWS Domain Separation
 description: Domain separation is supported for AWS Security Hub application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/aws-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/aws-domain-separation.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

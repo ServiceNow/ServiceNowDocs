@@ -2,7 +2,7 @@
 title: Care Team Work Management release notes
 description: The ServiceNow Care Team Work Management application enables clinicians to create and track ad-hoc and recurring tasks for their care team through the creation of orchestration and care team cases and tasks. Care Team Work Management is a new application in the Australia release.The ServiceNow Care Team Work Management application enables clinicians to create and track ad-hoc and recurring tasks for their care team through the creation of orchestration and care team cases and tasks. Care Team Work Management is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/hco-ctwm-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/hco-ctwm-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -31,9 +31,9 @@ See [Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/Ser
     Install Care Team Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 
 ## Australia
 

@@ -2,7 +2,7 @@
 title: Chief Customer Operations Officer \(CCO\) Dashboard
 description: The Chief Customer Operations Officer \(CCO\) dashboard provides the visibility into customer support and operations that helps leadership to fine-tune the operations for effectiveness. It provides a unified view of customer experience, service performance, and customer-impacting risk across the organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cco-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/cco-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

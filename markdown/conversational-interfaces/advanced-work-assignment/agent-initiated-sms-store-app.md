@@ -2,7 +2,7 @@
 title: Agent initiated SMS conversation
 description: Customer Service Management supports additional messaging channel such as SMS which tracks interactions between the agent and customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/agent-initiated-sms-store-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/agent-initiated-sms-store-app.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -18,7 +18,7 @@ Customer Service Management supports additional messaging channel such as SMS wh
 
 ## Requirements
 
-At least one provider configuration for messaging type channel must be available to view the **Compose SMS** option in the agent interaction screen. For more information about provider sys\_cs\_provider\_application.list, see [Create a channel identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md).
+At least one provider configuration for messaging type channel must be available to view the **Compose SMS** option in the agent interaction screen. For more information about provider sys\_cs\_provider\_application.list, see [Create a channel identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md).
 
 ## Phone number validation
 
@@ -83,5 +83,5 @@ There is an active interaction involving a different contact/consumer/user​
 </td></tr></tbody>
 </table>## Customize the behaviour of send from and to numbers
 
-The AgentInitiatedConversationUtil extension point is added to implement a customers' logic to change the default behaviour of the **Send from** and **Send to** fields. For more information, see [Associating user profiles on messaging interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/associate-user-profiles-messaging-interactions.md). For this store application, AgentInitiatedMessagingUtilExtPointImpl extension point is configured for fetching the from and to numbers.
+The AgentInitiatedConversationUtil extension point is added to implement a customers' logic to change the default behaviour of the **Send from** and **Send to** fields. For more information, see [Associating user profiles on messaging interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/associate-user-profiles-messaging-interactions.md). For this store application, AgentInitiatedMessagingUtilExtPointImpl extension point is configured for fetching the from and to numbers.
 

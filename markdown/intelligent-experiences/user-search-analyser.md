@@ -2,7 +2,7 @@
 title: User search analyzer
 description: Gain insights into user search queries and AI-powered search results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/user-search-analyser.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/user-search-analyser.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The User search analyzer dashboard page contains indicators that help admins und
 
 \[Omitted image "naa-usa-full-page.png"\] Alt text: User search analyzer dashboard page.
 
-The indicators on the User search analyzer dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the User search analyzer dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Search queries that yielded Knowledge Base articles and catalog items as Genius Result.
 -   Distribution of search queries by the source that they originated from, for example, ServiceNow Otto for Virtual Agent, Service Portal.
@@ -95,5 +95,5 @@ The indicators on the User search analyzer dashboard page provide the following 
     \[Omitted image "naa-usa-genius-result-top-ten-with-catalog-item.png"\] Alt text: Top 10 queries with Catalog Item Genius Result indicator.
 
 
-**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-analytics.md)
 

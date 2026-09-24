@@ -2,7 +2,7 @@
 title: Create a sample playbook
 description: Create a sample playbook to standardize and automate how Service Desk agents handle chat interactions with VIP users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/design-automated-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/design-automated-process.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -225,7 +225,7 @@ Your process appears in as a playbook. Here, agents and fulfillers can get a tas
 
 ## What to do next
 
-Customize the Playbook layout for deployment. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md)
+Customize the Playbook layout for deployment. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-customize-playbook.md)
 
-**Parent Topic:**[Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-processes.md)
+**Parent Topic:**[Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-processes.md)
 

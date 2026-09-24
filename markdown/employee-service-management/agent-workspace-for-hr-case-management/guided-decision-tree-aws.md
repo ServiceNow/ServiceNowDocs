@@ -2,7 +2,7 @@
 title: Use recommended actions
 description: Provides real‑time, actionable guidance, and relevant resources that help HR agents speed up case resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/guided-decision-tree-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/guided-decision-tree-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.case\_writer
 
 ## About this task
 
-**Note:** If there are any existing guided decisions, add those decisions within the [HR case context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/config-rc-hr.md) in [Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/recommended-actions-hrsd.md).
+**Note:** If there are any existing guided decisions, add those decisions within the [HR case context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/config-rc-hr.md) in [Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/recommended-actions-hrsd.md).
 
 ## Procedure
 

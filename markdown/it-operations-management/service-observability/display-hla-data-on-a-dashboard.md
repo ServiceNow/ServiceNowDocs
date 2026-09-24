@@ -2,7 +2,7 @@
 title: Add Health Log Analytics data
 description: Add a graph showing logs from Health Log Analytics \(HLA\) in a Service Observability dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/display-hla-data-on-a-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-observability/display-hla-data-on-a-dashboard.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -18,7 +18,7 @@ Add a graph showing logs from Health Log Analytics \(HLA\) in a Service Observab
 
 ## About this task
 
-You can add logs from [HLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-landing-page.md) to your Service Observability dashboards. These charts display with data scoped to the selected service.
+You can add logs from [HLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-landing-page.md) to your Service Observability dashboards. These charts display with data scoped to the selected service.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ Role required: sn\_sow\_svcobs.admin
     -   **Express list** alert: Select a service from the **Impacted services** column.
     The Service Details page opens and the Overview tab is displayed.
 
-    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/chart-error-states.md).
+    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/chart-error-states.md).
 
 2.  Open the template in editing mode.
 
@@ -56,7 +56,7 @@ Role required: sn\_sow\_svcobs.admin
 
     3.  In the **Add data source** page, navigate to **Health Log Analytics** &gt; **Log components**.
 
-    4.  Enter a saved search or select a component and then optionally add conditions or a Lucene query, as described in Step 5 of [Create log data dashboards and visualizations in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-data-dashboard-create.md).
+    4.  Enter a saved search or select a component and then optionally add conditions or a Lucene query, as described in Step 5 of [Create log data dashboards and visualizations in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-data-dashboard-create.md).
 
     5.  Once the filter is correct, choose **Add this source**.
 
@@ -69,5 +69,5 @@ Role required: sn\_sow\_svcobs.admin
 6.  To return the template to the default \(Certified\) version, use the **More actions** menu to select **Return to certified**.
 
 
-**Parent Topic:**[Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md)
+**Parent Topic:**[Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md)
 

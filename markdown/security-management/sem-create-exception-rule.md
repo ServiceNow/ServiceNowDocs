@@ -2,10 +2,10 @@
 title: Create an exception rule
 description: Create a rule to automatically request an exception for a specific condition for a group findings, such as a rule with a condition that is based on the vulnerability severity of these findings. With this rule, you can defer new and existing findings automatically if they match the approved rule condition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-exception-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-create-exception-rule.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ Create a rule to automatically request an exception for a specific condition for
 
 ## Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-acls-for-admin-rules.md)
 
 ## About this task
 
@@ -62,5 +62,5 @@ Email notifications are sent at every stage of the exception rule work flow. The
     The status of the request changes to In review. Until you submit the exception rule, it remains in the Draft state.
 
 
-**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exception-rule.md)
+**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exception-rule.md)
 

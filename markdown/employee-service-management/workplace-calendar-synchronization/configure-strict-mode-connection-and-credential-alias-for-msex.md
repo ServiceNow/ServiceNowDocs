@@ -2,7 +2,7 @@
 title: Configure strict mode Connection and Credential alias for Microsoft Exchange Online
 description: Establish a strict mode connection and credential alias for Microsoft Exchange Online. Ensure that the values for the connection and credentials alias are set as specified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/configure-strict-mode-connection-and-credential-alias-for-msex.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/configure-strict-mode-connection-and-credential-alias-for-msex.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -18,9 +18,9 @@ Establish a strict mode connection and credential alias for Microsoft Exchange O
 
 ## Before you begin
 
-[Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)
+[Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)
 
-**Note:** Starting from Workplace Calendar Synchronization version 2.0.1, to synchronize the reservations automatically with Microsoft Exchange Online, create a connection with Microsoft Exchange Online spoke version 3.2.1. If you have upgraded to Workplace Calendar Synchronization version 2.0.1, then the following procedure is no longer required. For more information on how to install Microsoft Exchange Online spoke and to set up a connection, refer to [Create a connection with Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.md).
+**Note:** Starting from Workplace Calendar Synchronization version 2.0.1, to synchronize the reservations automatically with Microsoft Exchange Online, create a connection with Microsoft Exchange Online spoke version 3.2.1. If you have upgraded to Workplace Calendar Synchronization version 2.0.1, then the following procedure is no longer required. For more information on how to install Microsoft Exchange Online spoke and to set up a connection, refer to [Create a connection with Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.md).
 
 Ensure that the application scope is set to **Microsoft Exchange Online Spoke**. Otherwise, do the following:
 
@@ -33,7 +33,7 @@ Role required: admin
 
 ## About this task
 
-Configure the default connection and credential alias to use the default entity profile created during the strict mode application registry \(in [Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)\). You can also create your own connection and credential alias, if you do not want to use the default alias. To create your own alias, refer to [Create your own credential and connection alias for strict mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-own-credential-and-connection-alias-for-strict-mode.md).
+Configure the default connection and credential alias to use the default entity profile created during the strict mode application registry \(in [Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)\). You can also create your own connection and credential alias, if you do not want to use the default alias. To create your own alias, refer to [Create your own credential and connection alias for strict mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-own-credential-and-connection-alias-for-strict-mode.md).
 
 ## Procedure
 
@@ -45,7 +45,7 @@ Configure the default connection and credential alias to use the default entity 
 
     1.  Select **MS Graph 1**.
 
-        On the form, check if the **OAuth Entity Profile** is set with the OAuth entity profile that was created when they created the strict mode app registry \(performed in [Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)\). If it is not set, then set the profile as specified.
+        On the form, check if the **OAuth Entity Profile** is set with the OAuth entity profile that was created when they created the strict mode app registry \(performed in [Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)\). If it is not set, then set the profile as specified.
 
     2.  To generate the OAuth token, select the **Get OAuth Token** related link.
 
@@ -57,7 +57,7 @@ Configure the default connection and credential alias to use the default entity 
 
     4.  Select **MS Graph 2**.
 
-        On the form, check if the **OAuth Entity Profile** is set with the OAuth entity profile that was created when they created the strict mode app registry \(performed in [Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)\). If it is not set, then set the profile as specified.
+        On the form, check if the **OAuth Entity Profile** is set with the OAuth entity profile that was created when they created the strict mode app registry \(performed in [Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)\). If it is not set, then set the profile as specified.
 
         **Warning:** If you are not prompted for the credential, it may use the credential of the logged-in user on the same browser, which is incorrect. You must close the browser and refresh to be prompted about the credential.
 
@@ -71,9 +71,9 @@ The Connection and credential alias is set.
 
 ## What to do next
 
-[Configure Microsoft Exchange Online calendar provider in strict mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-msex-strict-mode-calendar-providers.md)
+[Configure Microsoft Exchange Online calendar provider in strict mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/configure-msex-strict-mode-calendar-providers.md)
 
-**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md)
+**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure the frequency of updating the agent MID Server list
 description: By default, the list of MID servers connected to agents is updated once daily. If you have a dynamic environment that adds MID servers frequently, you may want to schedule updates more often, or execute the job on demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-update-mid-server-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-update-mid-server-list.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -43,5 +43,5 @@ Role required: agent\_client\_collector\_admin
     3.  Click **Update** to update the job frequency.
 
 
-**Parent Topic:**[Configuring Agent Client Collector with a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configuring-with-mid.md)
+**Parent Topic:**[Configuring Agent Client Collector with a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-configuring-with-mid.md)
 

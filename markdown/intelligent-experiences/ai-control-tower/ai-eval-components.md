@@ -2,7 +2,7 @@
 title: Components installed with the Evaluation dashboard
 description: Several types of components are part of the Evaluation tab, including scheduled jobs, tables, system properties, and flows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-eval-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-eval-components.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

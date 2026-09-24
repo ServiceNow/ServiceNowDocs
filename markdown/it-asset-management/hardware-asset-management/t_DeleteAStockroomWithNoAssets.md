@@ -2,7 +2,7 @@
 title: Delete a stockroom with no assets
 description: You can delete a stockroom that has no assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/t\_DeleteAStockroomWithNoAssets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/t\_DeleteAStockroomWithNoAssets.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -33,5 +33,5 @@ Role required: inventory\_admin
     **Note:** Transfer order history is deleted when you delete the stockroom.
 
 
-**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

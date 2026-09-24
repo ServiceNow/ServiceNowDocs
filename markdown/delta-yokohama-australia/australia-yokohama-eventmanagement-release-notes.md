@@ -2,11 +2,11 @@
 title: Combined Event Management release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Event Management from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-eventmanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-eventmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 10
+last_updated: "2026-09-24"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -84,6 +84,20 @@ Starting in version 26.7.0, execute response subflows automatically, manually, o
 Starting in version 26.7.0, link a CI to an alert for more accurate IT component mapping though the Improve Configuration Item \(CI identification option of Enrich Automation. This enhancement improves alert visibility, speeds up issue resolution, and ensures better correlation between alerts and infrastructure components.
 
 
+ -   **[View links between alerts in network traffic-based alert groups](https://www.servicenow.com/docs/access?context=el-network-traffic-based-link-view&family=yokohama&ft:locale=en-US)**
+
+Once a network traffic correlation is enabled, investigate network traffic alert group details and visualize connections through Link View in Express List®.
+
+
+ -   **[Group alerts using network traffic-based grouping](https://www.servicenow.com/docs/access?context=network-traffic-correlation-grouping&family=yokohama&ft:locale=en-US)**
+
+Group alerts efficiently with network traffic-based alert grouping, which uses discovered TCP connections with ML Service Mapping to correlate alerts on host CIs that have network traffic connections between them.
+
+-   **[New role for team level operators](https://www.servicenow.com/docs/access?context=r_InstalledWithEventManagement&family=yokohama&ft:locale=en-US)**
+
+Enhance team-level control over alert management with the evt\_team\_operator role. This role enables operators to manage Event Management operations within their assigned team, including reading and writing alerts, making configuration changes,updating Alert Automation, and setting up new integrations in the Integrations Launchpad.
+
+
 </td></tr><tr><td>
 
 Zurich
@@ -137,6 +151,40 @@ Starting in version 26.11.0, explore the new Dependency view for an alert. Acces
 -   **[Respond to multiple alerts in Express List](https://www.servicenow.com/docs/access?context=bulk-alert-response-express-list&family=zurich&ft:locale=en-US)**
 
 Starting in version 26.11.0, run response actions on multiple alerts at the same time in Express List.
+
+
+ -   **[View links between alerts in new alert groups in Express List®](https://www.servicenow.com/docs/access?context=el-link-view&family=zurich&ft:locale=en-US).**
+
+Starting in version 26.9.0, investigate alert group details and visualize connections through Link View in Express List®, now available for log analytics-based alert groups and mixed alert groups.
+
+-   **[Anomaly information for log analytic based alerts and metric intelligence alerts in preview panel in Express List®.](https://www.servicenow.com/docs/access?context=view-anomaly-alert-display&family=zurich&ft:locale=en-US)**
+
+Starting in version 26.9.0, review visualizations for anomaly information in log analytic-based alerts and metric intelligence alerts in the preview panel in Express List\[var.express-reg-tm\].
+
+-   **[Configure new property for automatic resume of the live list updates following a pause, and conﬁgure time ranges in Express List®](https://www.servicenow.com/docs/access?context=express-list&family=zurich&ft:locale=en-US)**
+
+Starting in version 26.9.0, admins gain the ability to conﬁgure the amount of time until the live list updates resume, after being paused in Express List®. Admins are also able to customize the time range options displayed in Express List®, such as the default time range.
+
+
+ -   **[Mixed alert grouping](https://www.servicenow.com/docs/access?context=alert-group-use-cases&family=zurich&ft:locale=en-US)**
+
+Combine CMDB-based and tag-based alert grouping strategies into cohesive groups that reduce noise, enabling faster and more effective response.
+
+-   **[AIOps 360 overview dashboard](https://www.servicenow.com/docs/access?context=aiops-360-overview-dashboard&family=zurich&ft:locale=en-US)**
+
+Gain actionable insights with a 360-degree dashboard that showcases product value, tracks operational efficiency, and highlights automation impact. Monitor alert handling, service health, and AIOps outcomes to drive smarter, faster decisions across IT operations.
+
+-   **[Mixed alert grouping in Service Operations Workspace](https://www.servicenow.com/docs/access?context=group-alert-sow-itom&family=zurich&ft:locale=en-US)**
+
+Choose how you want to group alerts from the **Criteria Type** field. Use the **Related CIs** option to combine CMDB-based and tag-based alert grouping.
+
+-   **[Application services for impact calculation](https://www.servicenow.com/docs/access?context=c_EMImpactCalculation&family=zurich&ft:locale=en-US)**
+
+Filter the application services to be considered in impact calculation for focused and accurate results.
+
+-   **[Metric connector in Integrations Launchpad](https://www.servicenow.com/docs/access?context=configure-metric-pull-connector&family=zurich&ft:locale=en-US)**
+
+Configure metric pull connectors to automate data retrieval and seamlessly integrate external metrics for efficient monitoring.
 
 
 </td></tr><tr><td>
@@ -205,6 +253,21 @@ The updated Test Automation section provides detailed insights into alert groups
 -   **[Validate CI identification in Enrich automation](https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&family=zurich&ft:locale=en-US)**
 
 Starting in version 26.11.0, you can ensure CI attributes are present in the **Additional info** field of the alert for accurate matching and test CI identification on sample events.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Automated regex generation](https://www.servicenow.com/docs/access?context=esc-notify-alert-sow-itom&family=zurich&ft:locale=en-US)**
+
+Effortlessly extract event field content into alert fields with automated regex generation, reducing manual effort and improving accuracy.
+
+
+ -   **[Group automation](https://www.servicenow.com/docs/access?context=group-alert-sow-itom&family=zurich&ft:locale=en-US)**
+
+Added the **Criteria Type** field, enabling you to choose how alerts are grouped.
 
 
 </td></tr><tr><td>
@@ -289,6 +352,9 @@ Zurich
 
 -   The "em\_alert\_lists\_auto\_refresh" table no longer controls live alert list updates in the Service Operation Workspace Lists. Use the new property, table sys\_ux\_list, to turn on and off live incoming alert updates.
 
+ -   Event Management connector: Deprecate unused V1 connector definitions during Event Management connector upgrades.
+-   vRealize connector: Enhance the vRealize event connector by replacing the deprecated XML API with a JSON-based API, ensuring compatibility with future versions.
+
 </td></tr><tr><td>
 
 Australia
@@ -333,6 +399,8 @@ Zurich
 Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://www.servicenow.com/docs/access?context=t_EMActivatePlugin&family=zurich&ft:locale=en-US).
 
 
+**Important:** Event Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -343,6 +411,8 @@ Australia
 
 Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://www.servicenow.com/docs/access?context=t_EMActivatePlugin&family=australia&ft:locale=en-US).
 
+
+**Important:** Event Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -561,5 +631,5 @@ Some apps are updated monthly or quarterly via the ServiceNow Store. For informa
  See [Event Management](https://www.servicenow.com/docs/access?context=c_EM&family=australia&ft:locale=en-US) or [Service Operations Workspace for ITOM](https://www.servicenow.com/docs/access?context=sow-landing-page-itom&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

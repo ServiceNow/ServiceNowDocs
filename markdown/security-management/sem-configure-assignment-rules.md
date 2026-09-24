@@ -2,7 +2,7 @@
 title: Configuring assignment rules
 description: By configuring assignment rules, you can automate the process of routing findings to the appropriate teams or individuals. By defining assignment criteria based on vulnerability attributes or affected assets, you can ensure timely and accurate ownership for remediation efforts.Create rules to assign findings automatically based on specific filter conditions. These rules apply to items as they’re imported or manually created.Reapply assignment rules to rerun assignment logic on existing findings or groups after they’ve already been created.Delete assignment rules after careful consideration of potential impacts on the assignment logic and operational workflows.Clear the Assigned to and Assignment group fields on vulnerable item records in the Vulnerability Response, Application Vulnerability Response, and Container Vulnerability Response applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-assignment-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-assignment-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,12 +21,12 @@ In the Security Exposure Management Workspace, you can set up a single assignmen
 
 Configuration of assignment rules includes the following steps.
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
+**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 
 
-[Assigning findings to remediation teams using assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-assigning-findings-to-remediation-teams.md)
+[Assigning findings to remediation teams using assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-assigning-findings-to-remediation-teams.md)
 
 ## Create or edit assignment rules
 
@@ -34,7 +34,7 @@ Create rules to assign findings automatically based on specific filter condition
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-acls-for-admin-rules.md)
 
 ### About this task
 
@@ -148,7 +148,7 @@ Reapply assignment rules to rerun assignment logic on existing findings or group
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-acls-for-admin-rules.md)
 
 ### About this task
 
@@ -193,7 +193,7 @@ Delete assignment rules after careful consideration of potential impacts on the 
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-acls-for-admin-rules.md)
 
 ### About this task
 
@@ -241,7 +241,7 @@ The **Unassign** UI action is supported in both the classic environment and the 
 -   Application vulnerable items \(AVITs\).
 -   Container vulnerable items \(CVITs\).
 
-**Important:** You can unassign host vulnerable items in bulk in the Vulnerability Manager Workspace. For more information, see [Using bulk edit in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-using-bulk-edit.md).
+**Important:** You can unassign host vulnerable items in bulk in the Vulnerability Manager Workspace. For more information, see [Using bulk edit in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-using-bulk-edit.md).
 
 ### Procedure
 
@@ -273,7 +273,7 @@ The request is approved by using a default, one-level approval workflow.
 
 -   If your request is approved, the state change approval record and the requested approval record transition to the Approved state. You and your groups are removed from the **Assigned to** and **Assignment group** fields. `Unassigned` is displayed in the **Assignment type** field, and the remediation task and VITs are displayed in the list of the Unassigned module for each product.
 
-    Notifications that records are unassigned are sent automatically to vulnerability managers or analysts in the Unassign notification group. To configure the approval flag, notifications, and default assignment group, see [Remove assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-assignment-rules.md).
+    Notifications that records are unassigned are sent automatically to vulnerability managers or analysts in the Unassign notification group. To configure the approval flag, notifications, and default assignment group, see [Remove assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-assignment-rules.md).
 
 -   If your request is rejected, the state of the change approval record and requested approval record transition to the Rejected state.
 

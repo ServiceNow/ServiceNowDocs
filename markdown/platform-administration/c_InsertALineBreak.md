@@ -2,7 +2,7 @@
 title: Insert a line break in the HTML editor
 description: When you use the Enter key, the editor creates a paragraph element \(&lt;p&gt;\) tag, which appears as a double space.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_InsertALineBreak.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_InsertALineBreak.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

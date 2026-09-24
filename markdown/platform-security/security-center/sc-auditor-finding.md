@@ -2,7 +2,7 @@
 title: Scan findings trend
 description: Review Security Center scan findings over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-auditor-finding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/sc-auditor-finding.html
 release: australia
 product: Security Center
 classification: security-center
@@ -75,5 +75,5 @@ The page shows SC Scan findings trend chart findings compared between the two se
     Select a chart type to control how the information your selected is visualized. See [Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/time-series-visualization-types.md).
 
 
-**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-scanning.md)
+**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-scanning.md)
 

@@ -2,7 +2,7 @@
 title: Create a maintenance token
 description: Create a maintenance token to use when uninstalling an agent from a Windows device. Administrators require maintenance tokens to ensure that unauthorized employees can't perform an uninstall.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-maintenance-token.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/create-maintenance-token.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -94,9 +94,9 @@ Select the **Unlock agents** \(\[Omitted image "unlock-icon-acc.png"\] Alt text:
 
 ## What to do next
 
-Uninstall the agent using the maintenance token, as described in [Uninstall an agent using a maintenance token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/uninstall-agent-maintenance-token.md).
+Uninstall the agent using the maintenance token, as described in [Uninstall an agent using a maintenance token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/uninstall-agent-maintenance-token.md).
 
 **Note:** Ensure that you use the maintenance token before it expires.
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

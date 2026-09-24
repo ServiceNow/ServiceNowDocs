@@ -2,7 +2,7 @@
 title: UI generation roles
 description: The following roles are installed for use with UI generation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/ui-generation-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/ui-generation-roles.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -39,5 +39,5 @@ Create experiences using AI-powered UI generation.
     None
 
 
-**Parent Topic:**[UI generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-reference.md)
+**Parent Topic:**[UI generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-reference.md)
 

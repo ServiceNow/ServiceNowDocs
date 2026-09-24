@@ -2,7 +2,7 @@
 title: Close a claim case
 description: Close the claim case when you've completed the claimed refund process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/close-claim-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-payment-operations/close-claim-case.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -47,5 +47,5 @@ If there's a Customer or Consumer Service Portal for customers, they get a notif
 
 A pre-configured email about the case closure is sent to the claim customer.
 
-**Parent Topic:**[Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
+**Parent Topic:**[Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
 

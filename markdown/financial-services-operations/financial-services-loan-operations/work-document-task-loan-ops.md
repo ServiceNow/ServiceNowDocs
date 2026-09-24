@@ -2,7 +2,7 @@
 title: Work on a document task to verify documents
 description: Work on a document task to manage and track documents \(inbound and outbound\) that are needed for a loan service case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/work-document-task-loan-ops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/work-document-task-loan-ops.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations

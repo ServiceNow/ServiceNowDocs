@@ -2,7 +2,7 @@
 title: IT Service Management AI agent collection create outages for a change request
 description: Use the create outages for a change request agentic workflow so users can associate outages with a change request easily in a conversational and intuitive way.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-create-outages-for-a-change-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-create-outages-for-a-change-request.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

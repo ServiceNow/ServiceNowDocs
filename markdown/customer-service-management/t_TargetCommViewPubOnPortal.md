@@ -2,7 +2,7 @@
 title: View a publication on the Customer Service Portal
 description: View the details of a publication on the Customer Service Portal and download any attachments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommViewPubOnPortal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_TargetCommViewPubOnPortal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,5 +46,5 @@ The **Publications** link on the customer service portal displays a list of curr
 **Related topics**  
 
 
-[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
 

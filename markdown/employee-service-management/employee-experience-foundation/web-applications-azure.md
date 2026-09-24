@@ -2,7 +2,7 @@
 title: Sync your applications from Microsoft Entra ID
 description: As an administrator, you can sync your single-sign-on applications and give one-click access to the applications. You can associate topics to the applications to launch useful applications right from the portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/web-applications-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/web-applications-azure.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -163,7 +163,7 @@ Option to mark the application as featured. Use the **Featured** option to promo
 
     Applications are fetched. You can proceed to associate topics that are suitable for the application.
 
-4.  To assign the topics to the applications, see [Assign topics to web applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-applications-topic-assignment.md).
+4.  To assign the topics to the applications, see [Assign topics to web applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-applications-topic-assignment.md).
 
 
 ## Result

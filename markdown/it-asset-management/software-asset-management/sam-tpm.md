@@ -2,7 +2,7 @@
 title: Use Software Asset Management and Application Portfolio Management to manage technology onboarding
 description: Use the Software Asset Management application along with Technology Reference Model \(TRM\) of Application Portfolio Management to manage onboarding of technologies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-tpm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/sam-tpm.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -38,5 +38,5 @@ On September 18, 2022, release 14.5 of PostgreSQL gets approved for use in TRM. 
 
 If you create another software model SW2, on September 19, 2022, and associate it with PostgreSQL, the **Certified** check box is set to true and the **Restricted software** check box is set to false in the SW2 form.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

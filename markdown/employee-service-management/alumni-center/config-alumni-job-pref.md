@@ -2,7 +2,7 @@
 title: Configure alumni job preferences
 description: Set the questions that the alumni can choose to receive tailored job recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/config-alumni-job-pref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/config-alumni-job-pref.html
 release: australia
 product: Alumni Center
 classification: alumni-center

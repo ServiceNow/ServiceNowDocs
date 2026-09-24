@@ -2,7 +2,7 @@
 title: Using generative AI in portal case form
 description: Guide requesters through a self-service flow to find solutions to their problems using Genius Results and reduce the number of cases created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

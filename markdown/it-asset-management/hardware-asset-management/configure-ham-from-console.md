@@ -2,7 +2,7 @@
 title: Configure Hardware Asset Management using the Configuration Console
 description: Configure the Hardware Asset Management application to manage hardware asset lifecycle, inventory, integrations, and team management setup from a centralized console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/configure-ham-from-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/configure-ham-from-console.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -20,7 +20,7 @@ Configure the Hardware Asset Management application to manage hardware asset lif
 
 The Hardware Asset Management \(HAM\) application must be installed on your ServiceNow instance.
 
-Role required: To access the Configuration Console, you must have the ham\_admin and ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/config-console-ham.md).
+Role required: To access the Configuration Console, you must have the ham\_admin and ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/config-console-ham.md).
 
 ## About this task
 
@@ -49,7 +49,7 @@ When you make changes through the Configuration Console, the system captures the
 
     -   From the Configuration Summary navigation menu, select a module.
     -   From the Setup status section, select **Get started** on the module that you want to configure.
-    You can configure the modules and their setup items in any order. For a complete list of modules and setup items, see [Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/config-console-modules-ham.md).
+    You can configure the modules and their setup items in any order. For a complete list of modules and setup items, see [Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/config-console-modules-ham.md).
 
 5.  After completing a setup item, select **Mark as configured**.
 

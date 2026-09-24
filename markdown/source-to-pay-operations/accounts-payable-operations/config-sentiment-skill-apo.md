@@ -2,7 +2,7 @@
 title: Configure Sentiment analysis for invoice case skill in ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Configure the Sentiment analysis skill in ServiceNow Otto for Accounts Payable Operations \(APO\) so that an accounts payable \(AP\) fulfiller can use generative AI skills to prioritize inquiry cases. This improves supplier collaboration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/config-sentiment-skill-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/config-sentiment-skill-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -43,7 +43,7 @@ Role required: admin
 
 5.  Review and activate the skill.
 
-    Review your choices and select **Activate** the skill. For more information on sentiment analysis in an invoice case, see [Analyze sentiments in invoice cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/analyze-sentiments-in-invoice-case.md).
+    Review your choices and select **Activate** the skill. For more information on sentiment analysis in an invoice case, see [Analyze sentiments in invoice cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/analyze-sentiments-in-invoice-case.md).
 
 
 ## Result

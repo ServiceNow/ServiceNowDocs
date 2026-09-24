@@ -2,7 +2,7 @@
 title: Generate an update set description
 description: Generate an update set description to quickly communicate the intent and scope of changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/generate-update-set-description.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/generate-update-set-description.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -21,7 +21,7 @@ Generate an update set description to quickly communicate the intent and scope o
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-You must have the release lifecycle documentation AI agent turned on in AI Agent Studio. For more information, see [Configure release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/configure-release-lifecycle-documentation-ai-agent.md).
+You must have the release lifecycle documentation AI agent turned on in AI Agent Studio. For more information, see [Configure release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/configure-release-lifecycle-documentation-ai-agent.md).
 
 Update sets must be in certain states for you to generate descriptions using the release lifecycle documentation AI agent. The following table explains what update set locations and states support description generation.
 
@@ -71,5 +71,5 @@ Role required: sn\_aia.viewer and update\_set\_admin
     The release lifecycle documentation AI agent generates the update set description, which might take several minutes. Once a description has been generated, the description is automatically added to the update set record.
 
 
-**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
+**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 

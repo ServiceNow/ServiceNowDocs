@@ -2,7 +2,7 @@
 title: Creating guidance and field recommendation in Recommended Actions
 description: Create guidances and field recommendations that you can use to configure recommended actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-config-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-config-recommendations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

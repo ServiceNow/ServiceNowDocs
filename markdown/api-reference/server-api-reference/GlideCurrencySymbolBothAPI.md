@@ -2,7 +2,7 @@
 title: GlideCurrencySymbol - Scoped, Global
 description: The GlideCurrencySymbol API provides methods to retrieve currency symbols.Returns the corresponding symbol for a given alphabetic currency code.Returns all currency symbols that are currently active on the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideCurrencySymbolBothAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideCurrencySymbolBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +22,7 @@ This API allows you to work with currency symbols anywhere on the ServiceNow AI 
 
 This API requires the FX Currency \(com.glide.currency2\) plugin, which is available by default. This API is provided within the `sn_currency` namespace.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencySymbol - getCurrencySymbol\(String letterCode\)
 

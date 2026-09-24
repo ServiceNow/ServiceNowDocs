@@ -2,7 +2,7 @@
 title: Allowed client error records
 description: Review the list of existing Allowed Client Error \[sys\_atf\_whitelist\] records to see which client errors produce warnings and which are ignored. Modify existing Allowed Client Error records as needed or create new ones.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/whitelisted-client-error-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/whitelisted-client-error-records.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -58,10 +58,10 @@ Description
 Description of the error you want to allow. If this client error was allowed from a test result, step result, or a test log, the test log description is copied into this field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/run-module.md)
+</table>**Parent Topic:**[Run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/run-module.md)
 
 **Related topics**  
 
 
-[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
+[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 

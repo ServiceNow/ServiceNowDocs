@@ -2,7 +2,7 @@
 title: Containment action form
 description: The containment action form lets you record details of products with quality issues and helps prevent their sale to new customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-containment-actions-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-containment-actions-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -144,5 +144,5 @@ Description
 Detailed description of the containment action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qim-form.md)
 

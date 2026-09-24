@@ -2,7 +2,7 @@
 title: Intelligent approvals
 description: Use AI to automatically evaluate incoming approval requests against your organization's policy documents. Requests that clearly meet policy criteria are approved or rejected automatically, while ambiguous cases are routed to human reviewers for approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/intelligent-approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/intelligent-approvals.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-03"
@@ -22,19 +22,19 @@ Learn how Intelligent Approvals connects policy intent directly to approval exec
 
 <table id="table_mp1_4d4_w3c" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Discover how AI interprets approval policies and automates decision-making](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/explore-intelligent-approvals.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Discover how AI interprets approval policies and automates decision-making](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/explore-intelligent-approvals.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up intelligent approvals and configure AI evaluation settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/configure-intelligent-approvals.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up intelligent approvals and configure AI evaluation settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/configure-intelligent-approvals.md)
 
 </td></tr><tr><td>
 
-[Build\[Omitted image "bus-compliance.svg"\] Alt text:Create and manage intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/build-intelligent-approvals.md)
+[Build\[Omitted image "bus-compliance.svg"\] Alt text:Create and manage intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/build-intelligent-approvals.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Access technical specifications and role documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/reference-intelligent-approvals.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Access technical specifications and role documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/reference-intelligent-approvals.md)
 
 </td></tr></tbody>
 </table>Intelligent approvals bridge the gap between business policy and approval execution. Upload natural-language policy documents, and have AI automatically evaluate incoming requests against these policies in real-time. The AI handles clear approvals and rejections automatically, and routes ambiguous cases to humans for approval. When policies change, update the document. There's no need for developer intervention to rewrite the workflow.

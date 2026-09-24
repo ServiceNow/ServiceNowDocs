@@ -2,7 +2,7 @@
 title: Create a composite geography
 description: Create a composite geography by combining different geographies into a single, powerful view for efficient planning. You can streamline tasks and optimize resources using a composite geography.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/create-a-composite-geography.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/create-a-composite-geography.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -105,5 +105,5 @@ The composite geography encompasses all the latitude, longitude, and geo points 
 
 ## What to do next
 
-Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
+Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
 

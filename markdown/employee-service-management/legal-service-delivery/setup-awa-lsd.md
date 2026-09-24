@@ -2,7 +2,7 @@
 title: Set up Advanced Work Assignment for Legal Service Delivery
 description: Configure various components, such as service channels, work item queues, and assignment rules that determine how a legal request should be routed to an agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/setup-awa-lsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/setup-awa-lsd.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -20,7 +20,7 @@ Configure various components, such as service channels, work item queues, and as
 
 Role required: sn\_lg\_awa.admin
 
-**Note:** Add the awa\_admin role as a contained role of sn\_lg\_awa.admin. For more information, see [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md).
+**Note:** Add the awa\_admin role as a contained role of sn\_lg\_awa.admin. For more information, see [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md).
 
 The base system includes the Advanced Work Assignment solution for General Legal Requests and Ethics Complaints. You can also configure it for other types of legal requests.
 

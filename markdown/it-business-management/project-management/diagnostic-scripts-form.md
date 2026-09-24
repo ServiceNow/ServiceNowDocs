@@ -2,7 +2,7 @@
 title: Diagnostic Scripts form
 description: Learn about the fields of diagnostic scripts form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/diagnostic-scripts-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/diagnostic-scripts-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -79,5 +79,5 @@ The code for the diagnostic script. The following example shows a diagnostic scr
 </table>**Related topics**  
 
 
-[Add diagnostic and fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-diagnostic-and-fix-script.md)
+[Add diagnostic and fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/add-diagnostic-and-fix-script.md)
 

@@ -2,7 +2,7 @@
 title: Request exception for a policy
 description: After a policy has been enabled and configured for exceptions, you can map a policy to a deployable and request an exception.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/policy-createmap-exception.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/policy-createmap-exception.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

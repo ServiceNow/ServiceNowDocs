@@ -2,7 +2,7 @@
 title: Add characteristic and characteristic options to a product offering
 description: Add characteristic and characteristic options to an existing product offering using the Product Offering Characteristic tab in Sales Customer Relationship Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-characteristics-to-product-offering.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-characteristics-to-product-offering.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,7 +51,7 @@ There are a number of ways to create characteristic and characteristic options. 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

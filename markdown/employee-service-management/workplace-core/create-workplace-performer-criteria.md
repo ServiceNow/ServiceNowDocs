@@ -2,7 +2,7 @@
 title: Create a workplace performer criteria
 description: Configure the users who are permitted to perform important actions in Workplace Service Delivery. Add approvers to approve workplace cases and reservations that are created through Workplace services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/create-workplace-performer-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/create-workplace-performer-criteria.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -62,7 +62,7 @@ User criteria
 
 </td><td>
 
-User criteria for the performer criteria for approvals. This field appears only if the **Is dynamic** option isn’t selected. To add a user criteria, refer to [Create a user criteria record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-user-criteria.md).
+User criteria for the performer criteria for approvals. This field appears only if the **Is dynamic** option isn’t selected. To add a user criteria, refer to [Create a user criteria record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-user-criteria.md).
 
 </td></tr><tr><td>
 
@@ -96,12 +96,12 @@ Users or user groups who perform any important Workplace Service Delivery applic
 
 The performer criteria are added for the selected table.
 
--   **[Create an approval definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-approval-defintion.md)**  
+-   **[Create an approval definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-approval-defintion.md)**  
 Add an approval definition so that you can implement an approval process that is over that definition. The approval is applied on reservations that match the conditions.
--   **[Add a workplace approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-workplace-approval-configuration.md)**  
+-   **[Add a workplace approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/add-workplace-approval-configuration.md)**  
 Add approvers to an approval definition. The assigned approvers receive the approval requests of those reservations that match the conditions defined in the approval definition.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

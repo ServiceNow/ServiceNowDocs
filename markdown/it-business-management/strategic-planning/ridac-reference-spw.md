@@ -2,7 +2,7 @@
 title: RIDAC reference
 description: Reference information to provide additional details about RIDAC such as the fields, user roles, tables, and system properties information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/ridac-reference-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/ridac-reference-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -17,5 +17,5 @@ breadcrumb: [RIDAC, Strategic Planning, Strategic Portfolio Management]
 
 Reference information to provide additional details about RIDAC such as the fields, user roles, tables, and system properties information.
 
-**Note:** This section covers reference information specific to RIDAC, including user roles, tables, and system properties. For common reference information about tables, roles, and system properties installed with Strategic Planning, see [Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md).
+**Note:** This section covers reference information specific to RIDAC, including user roles, tables, and system properties. For common reference information about tables, roles, and system properties installed with Strategic Planning, see [Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md).
 

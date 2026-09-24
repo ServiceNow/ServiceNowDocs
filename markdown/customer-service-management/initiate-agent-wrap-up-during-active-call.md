@@ -2,7 +2,7 @@
 title: Call Wrap-Up
 description: Call wrap-up enables agents to open the wrap-up modal, select wrap-up codes, and submit summary notes during an active call, so that call context is captured in real time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/initiate-agent-wrap-up-during-active-call.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/initiate-agent-wrap-up-during-active-call.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-13"
@@ -46,5 +46,5 @@ Agent-initiated wrap-up provides the following benefits:
     Agents handling complex or sensitive calls can document context as it happens, reducing the risk of incomplete or inaccurate notes.
 
 
-See: [Configure agent-initiated wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-agent-wrap-up-admin-workflow.md) and [Initiate wrap-up during an active call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-agent-wrap-up-agent-workflow.md).
+See: [Configure agent-initiated wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/initiate-agent-wrap-up-admin-workflow.md) and [Initiate wrap-up during an active call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/initiate-agent-wrap-up-agent-workflow.md).
 

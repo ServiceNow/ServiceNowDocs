@@ -2,7 +2,7 @@
 title: Configure File Explorer repository drive
 description: Configure the File Explorer repository drive to establish a connection between your MSIM workspace and Microsoft SharePoint, enabling team members to manage incident documents centrally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/file-explorer-repository-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/file-explorer-repository-config.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -105,5 +105,5 @@ Select the File Explorer REST tenant record. For more information on the tenant 
     **Note:** Using the **Test Connection** button, either MSI Administrator or MSI Manager can only validate the file repository configuration.
 
 
-**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)
+**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer.md)
 

@@ -2,7 +2,7 @@
 title: Invoice case form
 description: The invoice case form displays details about an invoice case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/invoice-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/invoice-case-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

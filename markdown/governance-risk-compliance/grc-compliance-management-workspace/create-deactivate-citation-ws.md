@@ -2,7 +2,7 @@
 title: Create a citation using the Compliance Workspace
 description: Authority documents, citations, and control objectives are usually downloaded from a third-party provider. However, citations can be created manually from an authority document using the Compliance Workspace. The Active option in a citation indicates whether the citation is active or inactive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/create-deactivate-citation-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/create-deactivate-citation-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

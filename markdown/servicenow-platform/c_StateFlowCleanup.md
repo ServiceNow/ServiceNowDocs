@@ -2,7 +2,7 @@
 title: State flow cleanup
 description: The business rules, client scripts, and UI actions that the system creates automatically to perform custom transitions exist only while the state flow records that use them are present.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_StateFlowCleanup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_StateFlowCleanup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -67,12 +67,12 @@ Work notes business rule
 All state flows with field controls or work notes are deleted
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UseStateFlows.md)
+</table>**Parent Topic:**[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_UseStateFlows.md)
 
 **Related topics**  
 
 
-[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UseStateFlows.md)
+[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_UseStateFlows.md)
 
-[Create a state flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAStateFlow.md)
+[Create a state flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAStateFlow.md)
 

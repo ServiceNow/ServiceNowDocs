@@ -2,7 +2,7 @@
 title: Add a document to a contract
 description: Contracts can be associated with documents. Linking a contract to related documents helps keep all relevant information about a contract together and easily accessible.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_AddADocumentToAContract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/contract-management/t\_AddADocumentToAContract.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -40,7 +40,7 @@ Role required: admin, contract\_manager\(core UI and Hardware Asset Workspace on
         1.  Click the Attachment \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon\) icon on the sidebar of the contract record.
         2.  In the Attachments window, click **Select** to search for and select the document that you want to add to the contract.
 
-**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_CreateAContract.md)
+**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/t_CreateAContract.md)
 
 **Related topics**  
 

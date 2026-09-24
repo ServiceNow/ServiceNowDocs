@@ -2,7 +2,7 @@
 title: Asset estate view
 description: Use the Asset estate view in the Hardware Asset Workspace to view the asset functions and notifications such as expiring assets, expiring lease contracts, and take appropriate actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/asset-estate-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/asset-estate-view.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -35,7 +35,7 @@ Use the Asset estate view in the Hardware Asset Workspace to view the asset func
 |Asset incident frequency|Assets that have been reported with frequent incidents.|
 |Hardware assets disposed \(YTD\) by model category|Assets disposed until the current date in this year and grouped by their model category.|
 
-To create hardware, software, consumable, bundle, pallet, mobile, and facility assets, select **New asset**. For more details, see [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingAssets.md).
+To create hardware, software, consumable, bundle, pallet, mobile, and facility assets, select **New asset**. For more details, see [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_CreatingAssets.md).
 
 ## Load reports on Asset estate view
 

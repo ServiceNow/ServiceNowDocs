@@ -2,7 +2,7 @@
 title: Set filter conditions
 description: Set filter conditions to limit the scope of your analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/filter-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/filter-conditions.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -105,5 +105,5 @@ You can provide only 2 steps here.
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/scope-analysis.md)
 

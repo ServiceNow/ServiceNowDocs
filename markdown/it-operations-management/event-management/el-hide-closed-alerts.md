@@ -2,7 +2,7 @@
 title: Hide closed alerts in Express List
 description: Choose whether to display the closed alerts in an alert group as well as the open alerts on the preview panel and in Link View.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-hide-closed-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-hide-closed-alerts.html
 release: australia
 product: Event Management
 classification: event-management

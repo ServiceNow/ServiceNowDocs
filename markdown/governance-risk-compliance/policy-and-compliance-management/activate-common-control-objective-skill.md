@@ -2,7 +2,7 @@
 title: Activate the common control objective creation skill
 description: When activating the common control objective creation skill, the system uses generative AI to analyze the accepted duplicate control objectives and to generate a common control objective.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/activate-common-control-objective-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/activate-common-control-objective-skill.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

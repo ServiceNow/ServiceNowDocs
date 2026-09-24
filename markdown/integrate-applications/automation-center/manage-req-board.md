@@ -2,7 +2,7 @@
 title: Manage automation requests
 description: Manage all automation requests from one location from the Request Board in the Automation Center Kanban board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/manage-req-board.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/manage-req-board.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -20,7 +20,7 @@ Manage all automation requests from one location from the Request Board in the A
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
-**Note:** Kanban board does not display any automation request from demo data. If you want to view the demo data in Kanban board, then you must run the fix script. For more information, see [Run fix script to view demo data on Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/run-fix-scripts.md).
+**Note:** Kanban board does not display any automation request from demo data. If you want to view the demo data in Kanban board, then you must run the fix script. For more information, see [Run fix script to view demo data on Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/run-fix-scripts.md).
 
 ## Procedure
 
@@ -74,7 +74,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
         2.  Select the **Add Task** icon.
 
-            The **Create New Automation Task** form is displayed. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-task-form.md).
+            The **Create New Automation Task** form is displayed. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-task-form.md).
 
             Verify that the associated automation request is either in the **Planned** or **In Progress** state.
 
@@ -88,11 +88,11 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
         2.  View any details or comments in the **Details** and **Comments** tab of the contextual panel.
         3.  In the **Tasks** tab, select the **Add Task** button.
 
-            The **Create New Automation Task** form is displayed. Provide the details. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-task-form.md).
+            The **Create New Automation Task** form is displayed. Provide the details. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-task-form.md).
 
 
--   **[Run fix script to view demo data on Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/run-fix-scripts.md)**  
+-   **[Run fix script to view demo data on Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/run-fix-scripts.md)**  
 To view automation requests from the demo data in your Kanban board, you must run the fix script.
 
-**Parent Topic:**[Automation Center Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/kanban.md)
+**Parent Topic:**[Automation Center Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/kanban.md)
 

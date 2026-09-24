@@ -2,7 +2,7 @@
 title: Roles for ServiceNow Otto for Finance and Procurement
 description: Grant fulfiller, requester, and supplier user roles to access generative AI skills for ServiceNow Otto for Finance and Procurement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/now-assist-common-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-common-roles.html
 release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
@@ -34,16 +34,16 @@ Grant fulfiller, requester, and supplier user roles to access generative AI skil
 |sn\_supplier\_gen\_ai.now\_assist\_fulfiller|Fulfiller role to access generative AI skills for Supplier Lifecycle Operations.|sn\_fsc\_genai.now\_assist\_fulfiller|
 |sn\_supplier\_gen\_ai.now\_assist\_supplier|Fulfiller role to access generative AI skills for Supplier Collaboration Portal|sn\_fsc\_genai.now\_assist\_supplier|
 
-**Parent Topic:**[Explore ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-exploring.md)
+**Parent Topic:**[Explore ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-exploring.md)
 
 **Related topics**  
 
 
 [Supporting information for ServiceNow Otto for Finance and Procurement]()
 
-[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 
-[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-slo.md)
+[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-slo.md)
 
-[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
+[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
 

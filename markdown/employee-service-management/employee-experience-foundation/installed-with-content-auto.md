@@ -2,7 +2,7 @@
 title: Components installed with Content Experiences
 description: Several types of components install with the activation of the Content Experiences \[sn\_cd\] plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/installed-with-content-auto.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/installed-with-content-auto.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -173,7 +173,7 @@ Content Experiences: Purge Campaign Data
 
 </td><td>
 
-Purges campaigns and users based on the Content Experiences Configurations Properties settings.See the Purging section in [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
+Purges campaigns and users based on the Content Experiences Configurations Properties settings.See the Purging section in [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
 
  Runs every hour by default.
 
@@ -217,7 +217,7 @@ Content Experiences: Update Campaign Audience
 
 Reevaluates the audience for a campaign and removes employees that no longer satisfy the criteria. Adds users that match your defined criteria to the campaign. Users show up in the Campaign Targets related list for a campaign.
 
- You can view the updated audience from the Campaign Targets tab of a campaign. See [View campaign targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-campaign-targets.md).
+ You can view the updated audience from the Campaign Targets tab of a campaign. See [View campaign targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/manage-campaign-targets.md).
 
  Runs daily by default.
 
@@ -233,7 +233,7 @@ Reevaluates the audience for a campaign and removes employees that no longer sat
 |Campaign Target \[sn\_ca\_campaign\_user\]|Who in your company is part of a campaign.|
 |Creation Status \[sn\_ca\_creation\_status\]|Tracks whether a campaign target has visited a particular widget instance that is part of the campaign.|
 
-**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

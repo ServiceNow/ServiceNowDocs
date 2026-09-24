@@ -2,7 +2,7 @@
 title: Performance Analytics for HR Service Delivery
 description: HR Performance Analytics measures key performance indicators to track HR performance over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/scoped-hr-performance-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/scoped-hr-performance-analytics.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,12 +35,12 @@ See [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/S
 
 Contact your account manager for more information.
 
--   **[Viewing HR Performance Analytics Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/viewing-hr-perf-analytics.md)**  
+-   **[Viewing HR Performance Analytics Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/viewing-hr-perf-analytics.md)**  
 HR Performance Analytics for the scoped version of HR Service Delivery helps you align resources and systems to strategic objectives.
--   **[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/human-resources-content-pack.md)**  
+-   **[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/human-resources-content-pack.md)**  
 Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 
 **Related topics**  
 

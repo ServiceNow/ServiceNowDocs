@@ -2,7 +2,7 @@
 title: Upgrade Monitor tool in Upgrade Console
 description: Leverage Upgrade Monitor to schedule upgrades, monitor their progress, and analyze post-upgrade results, including conflict resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-upgrade-monitor-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-upgrade-monitor-tool.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -20,18 +20,18 @@ Leverage Upgrade Monitor to schedule upgrades, monitor their progress, and analy
 
 Use the Upgrade Monitor module to schedule and monitor the status of an ongoing upgrade in your instance. You can also view the upgrade summary and the list of records causing conflicts in your instance once the upgrade is complete.
 
--   [Monitoring an upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-monitor-instance-upgrade.md): Monitor the progress of an ongoing upgrade in your instance
--   [Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-process-skipped-records.md): Resolve the differences between the upgraded and customized versions of a record by processing the skipped records list
--   [Resolve conflicts of a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-resolve-conflict.md): Resolve conflicts between your customized record and the changes associated with the upgrade
+-   [Monitoring an upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-monitor-instance-upgrade.md): Monitor the progress of an ongoing upgrade in your instance
+-   [Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-process-skipped-records.md): Resolve the differences between the upgraded and customized versions of a record by processing the skipped records list
+-   [Resolve conflicts of a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-resolve-conflict.md): Resolve conflicts between your customized record and the changes associated with the upgrade
 
--   **[Monitor an upgrade to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-monitor-instance-upgrade.md)**  
+-   **[Monitor an upgrade to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-monitor-instance-upgrade.md)**  
 Monitor the progress of an ongoing upgrade in an instance with the Upgrade Monitor. When the upgrade is done, you can view a summary of the results on the Upgrade Summary Report.
--   **[Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-process-skipped-records.md)**  
+-   **[Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-process-skipped-records.md)**  
 Process the skipped records list to resolve the differences between the upgraded and customized versions of a record. If you have customized or altered a record affected by this upgrade, such as a business rule or script, the upgrade generates a skip log record.
--   **[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-resolve-conflict.md)**  
+-   **[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-resolve-conflict.md)**  
 Reconcile differences between your customized record and the changes associated with the upgrade.
 
-**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-tools.md)
+**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-tools.md)
 
 **Related topics**  
 

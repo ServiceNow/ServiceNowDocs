@@ -2,7 +2,7 @@
 title: Supplier Location inbound staging table
 description: The Supplier location inbound \[sn\_fcms\_intg\_supplier\_location\_inbound\] staging table temporarily stores important data about the geographical location of a supplier before this data is sent to the Supplier Location \[sn\_slm\_m2m\_location\] and Location \[cmn\_location\] primary tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-slo-supp-location-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-slo-supp-location-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

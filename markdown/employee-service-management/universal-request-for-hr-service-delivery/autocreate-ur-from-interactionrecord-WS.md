@@ -2,7 +2,7 @@
 title: Create universal request automatically for department tickets via other channels
 description: Universal request is not automatically created when a fulfiller or employee creates a department ticket from channels other than the Service Portal or Virtual Agent topics. Create universal request automatically by adding the business rule to the specific service table, such as an Incident or a HR service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/autocreate-ur-from-interactionrecord-WS.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/autocreate-ur-from-interactionrecord-WS.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -53,7 +53,7 @@ Follow the given steps to enable create universal request automatically from an 
 6.  Create universal request record using the **UniversalRequestUtils** API and attach the universal request to the task.
 
 
-**Parent Topic:**[Unified ticket experience setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/unified-ticket-experience.md)
+**Parent Topic:**[Unified ticket experience setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/unified-ticket-experience.md)
 
 **Related topics**  
 

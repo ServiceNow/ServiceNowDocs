@@ -2,7 +2,7 @@
 title: Share the Success Dashboard indicators
 description: Share the Success Dashboard indicators with your respective leadership teams, ITSM or HR to view the dashboard and measure the performance of their respective implementations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/share-itsm-success-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-success-dashboard-indicators/share-itsm-success-dashboard.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -37,5 +37,5 @@ Role required: sn\_sd.success\_dashboard\_admin, or sn\_sd.success\_dashboard\_r
 7.  Select **Copy URL** to copy a link to the dashboard and send it through different means.
 
 
-**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
+**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
 

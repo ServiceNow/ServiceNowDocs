@@ -2,7 +2,7 @@
 title: Create an automated test suite
 description: Group automated tests into a suite you can execute as a batch.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-create-suite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-create-suite.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -28,7 +28,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 2.  Click **New**.
 
-    The system displays the [Test Suite New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-suite-record.md) form.
+    The system displays the [Test Suite New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-test-suite-record.md) form.
 
 3.  In the **Name** field, enter a name for this suite.
 
@@ -85,5 +85,5 @@ Enter a value that indicates whether you want the test suite to stop or continue
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md)
+**Parent Topic:**[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-suites-overview.md)
 

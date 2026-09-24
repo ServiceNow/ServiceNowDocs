@@ -2,7 +2,7 @@
 title: Configure Progress Tracker visibility
 description: Enable or disable whether the Progress Tracker displays on purchase requisition and purchase order records system-wide.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-tracker-visibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-tracker-visibility.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -52,9 +52,9 @@ The Progress Tracker is now enabled or disabled on PR and PO records according t
 
 ## What to do next
 
-To customize which states display in the Progress Tracker stepper or the order in which they appear, see [Configure PR and PO Progress Tracker states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.md). For system property reference, see [System properties for Progress Tracker visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-system-properties.md).
+To customize which states display in the Progress Tracker stepper or the order in which they appear, see [Configure PR and PO Progress Tracker states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.md). For system property reference, see [System properties for Progress Tracker visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-system-properties.md).
 
-**Parent Topic:**[Configure the Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-progress-tracker.md)
+**Parent Topic:**[Configure the Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-progress-tracker.md)
 
 **Related topics**  
 

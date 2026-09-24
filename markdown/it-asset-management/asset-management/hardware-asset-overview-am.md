@@ -2,7 +2,7 @@
 title: Hardware asset overview
 description: Enhance your Asset Management experience by using the modernized and user-friendly Hardware asset overview view. The Hardware asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/hardware-asset-overview-am.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/hardware-asset-overview-am.html
 release: australia
 product: Asset Management
 classification: asset-management

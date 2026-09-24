@@ -2,7 +2,7 @@
 title: Review and edit applications built using app generation
 description: After app generation creates an application, review and modify it in ServiceNow Studio to verify accuracy and extend functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-app-gen-review-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-app-gen-review-apps.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -17,7 +17,7 @@ breadcrumb: [Generate apps, App generation, AI tools and files, Use, ServiceNow 
 
 After app generation creates an application, review and modify it in ServiceNow Studio to verify accuracy and extend functionality.
 
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md).
 
 This video shows you how to review apps created using app generation in ServiceNow Studio.
 
@@ -33,7 +33,7 @@ Role required: now\_assist\_panel\_user
 
 1.  Navigate to **App Engine** &gt; **ServiceNow Studio**.
 
-    To learn more about the ServiceNow Studio home page, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
+    To learn more about the ServiceNow Studio home page, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
 
 2.  Select the ServiceNow Otto® icon.
 
@@ -45,7 +45,7 @@ Role required: now\_assist\_panel\_user
 
     The apps available for editing in the ServiceNow Otto® panel are custom applications you have created or to which you have access. If the application list is long, use the search box to find a specific application.
 
-    If you have the delegated\_developer or now\_assist\_panel\_user roles but do not see the app you need, contact your App Engine admin. Ask the admin to add you to the app as a delegated developer. For more information, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+    If you have the delegated\_developer or now\_assist\_panel\_user roles but do not see the app you need, contact your App Engine admin. Ask the admin to add you to the app as a delegated developer. For more information, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
     To edit an application with the app generation skill, your scope must match the app scope. If your scope does not match, the app generation skill changes your scope to the app scope automatically.
 
@@ -149,7 +149,7 @@ Role required: now\_assist\_panel\_user
 
         To see the workspace from an end-user perspective, select **Preview**.
 
-        For more information about UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+        For more information about UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-builder-overview.md).
 
     4.  Close the UI Builder tab.
 
@@ -174,7 +174,7 @@ Role required: now\_assist\_panel\_user
 
 ## What to do next
 
-Continue opening, verifying, and modifying items in the application files list as needed. For more information, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
+Continue opening, verifying, and modifying items in the application files list as needed. For more information, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
 
-**Parent Topic:**[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)
+**Parent Topic:**[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)
 

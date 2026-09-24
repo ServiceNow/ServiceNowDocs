@@ -2,7 +2,7 @@
 title: Manage an assessment-type action task
 description: Create and manage an action task for the Operational vulnerability, where the type of the task is assessment. You can then assign it to an appropriate task owner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-action-task-op-vul.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-action-task-op-vul.html
 release: australia
 topic_type: task
 last_updated: "2026-06-01"
@@ -30,7 +30,7 @@ After completing the steps outlined in this section, the state of the Operationa
 
 3.  On the Create New Action task form, fill in the fields.
 
-    For more information, see [Create Action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/action-task-form.md).
+    For more information, see [Create Action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/action-task-form.md).
 
 4.  In the **Type** field, select **Assessment**.
 
@@ -69,5 +69,5 @@ After completing the steps outlined in this section, the state of the Operationa
 
 The task owner then logs in and reviews the assigned action task. If necessary, the task owner creates an investigation-type action task or directly requests approval for the assessment-type action task.
 
-For more information, see [Manage an investigation-type action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-state-of-action-task.md) and [Request an approval for the action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-approval-for-action-task.md).
+For more information, see [Manage an investigation-type action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/update-state-of-action-task.md) and [Request an approval for the action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/request-approval-for-action-task.md).
 

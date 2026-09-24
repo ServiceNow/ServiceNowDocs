@@ -2,7 +2,7 @@
 title: Create demand from Digital Portfolio Management
 description: Create demand using the Digital Portfolio Management \(DPM\) application. DPM enables you to create demand for any business or technology management services that you own.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-create-demand-initiatives.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-create-demand-initiatives.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -18,7 +18,7 @@ Create demand using the Digital Portfolio Management \(DPM\) application. DPM en
 
 ## Before you begin
 
-For the required plugins to create a demand in Digital Portfolio Management, see the Demand Management area of [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-related-products.md).
+For the required plugins to create a demand in Digital Portfolio Management, see the Demand Management area of [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-related-products.md).
 
 Role required: sn\_dpm.dpm\_manager
 
@@ -52,5 +52,5 @@ You can manage and create demands for services or service offerings that you own
     The service **Plan** tab shows the new demand.
 
 
-**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
+**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-working-with.md)
 

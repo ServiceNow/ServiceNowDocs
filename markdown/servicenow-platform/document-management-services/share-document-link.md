@@ -2,7 +2,7 @@
 title: Share a document link
 description: Create and control document sharing based on classification for shared links with public access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/share-document-link.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/share-document-link.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -45,7 +45,7 @@ The **Share document** button is visible only when the document has a valid defa
 6.  Select **Done**.
 
 
-**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
+**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
 **Related topics**  
 

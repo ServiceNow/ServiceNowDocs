@@ -2,7 +2,7 @@
 title: Configure the GOV.UK Design System Service Portal Services Page
 description: Configure the Services page, which enables constituents to browse and search catalog items from different service catalogs and categories and see all services available to them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-browse-cat-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gds-browse-cat-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -31,7 +31,7 @@ This default page houses several GDS-adherent widgets and page components that e
 -   Catalog Search widget and Typeahead Search widget, which displays a search box that navigates to the search results page with information specific to the service catalog.
 -   UK GDS SC Categories widget, which displays the service catalog categories through the catalog selector dropdown and category tree in the sidebar.
 
-    **Note:** This widget renders the categories available in this widget from the Categories table in Service Catalog \[sc\_category\]. For more information on associating your portal with catalogs, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/associate-portal-catalog.md) and [Configure GOV.UK Design System Service Portal Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-catalog.md).
+    **Note:** This widget renders the categories available in this widget from the Categories table in Service Catalog \[sc\_category\]. For more information on associating your portal with catalogs, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/associate-portal-catalog.md) and [Configure GOV.UK Design System Service Portal Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-catalog.md).
 
 -   UK GDS SC Category Page widget, which lists the service catalog items available within a certain category.
 
@@ -44,5 +44,5 @@ This default page houses several GDS-adherent widgets and page components that e
 
 .
 
-For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
+For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
 

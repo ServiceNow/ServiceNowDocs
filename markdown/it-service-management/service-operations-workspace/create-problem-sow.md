@@ -2,7 +2,7 @@
 title: Create a problem in Service Operations Workspace
 description: Investigate the root cause of recurring incidents or a major incident. Provide a permanent fix to help prevent them from happening again.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-problem-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-problem-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -24,15 +24,15 @@ Role required: itil or problem\_coordinator
 
 1.  Create a problem from any of the following sources.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d343470e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d343449e52">
 
 Option
 
-</th><th align="left" id="d343470e55">
+</th><th align="left" id="d343449e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d343470e61">
+</th></tr></thead><tbody><tr><td id="d343449e61">
 
 **From any Problem list**
 
@@ -52,7 +52,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d343470e108">
+</td></tr><tr><td id="d343449e108">
 
 **From an incident**
 
@@ -63,7 +63,7 @@ Description
 3.  Select **Create problem**.
 
 
-</td></tr><tr><td id="d343470e135">
+</td></tr><tr><td id="d343449e135">
 
 **From a customer interaction regarding an issue with a cause that must be investigated**
 
@@ -73,17 +73,17 @@ Description
 2.  From the record page, select **Create problem**.
  **Note:** Enable the **Allow Problem creation from Interaction** \(**glide.problem.interaction.allow\_create**\) problem property from **Problem** &gt; **Problem Properties**.
 
-For more information, see [Configure properties for Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-problem-properties-sow.md).
+For more information, see [Configure properties for Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-problem-properties-sow.md).
 
 </td></tr></tbody>
 </table>2.  On the problem form, fill the fields in the **Details** tab.
 
-    For a description of the field values, see [Problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/problem-form-sow.md).
+    For a description of the field values, see [Problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/problem-form-sow.md).
 
 3.  Select **Save**.
 
 
-**Parent Topic:**[Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/problem-sow.md)
+**Parent Topic:**[Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/problem-sow.md)
 
 **Related topics**  
 

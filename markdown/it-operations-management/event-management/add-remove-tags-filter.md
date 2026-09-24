@@ -2,7 +2,7 @@
 title: Categorize alerts displayed in Express List
 description: Create different views of alerts by adding tags in Express List to enable you to easily identify and group alerts without the need for discovery or accessing the CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/add-remove-tags-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/add-remove-tags-filter.html
 release: australia
 product: Event Management
 classification: event-management

@@ -2,7 +2,7 @@
 title: Install the Task Mining agent for macOS
 description: Install the Task Mining desktop agent on macOS workstations and deploy the Task Mining agent to managed macOS devices using JAMF. This procedure creates the package, scripts, policies, and configuration profile required for enterprise deployment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/install-the-task-mining-agent-for-macos.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/install-the-task-mining-agent-for-macos.html
 release: australia
 product: Task Mining
 classification: task-mining

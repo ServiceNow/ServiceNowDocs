@@ -2,10 +2,10 @@
 title: Using accessibility features
 description: Accessibility features include keyboard navigation, color and style settings, using a screen reader, and search methods.Skip links allow users to quickly navigate to the main content on a page, list, or form, bypassing icons, banner text, navigation links, and other elements. Skip links are not visible until you tab to them.There are several color and style changes that make the platform more accessible.Screen elements in the platform have enhancements that make them accessible to screen readers.There are several ways to search for information in the user interface.With accessibility mode enabled, tab through cards in a task board. Use the card details button to view task card details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/keyboard-accessibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/keyboard-accessibility.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 6
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Tab-through provides the following options:
 
 -   Use skip links to shift focus to different parts of the page without tabbing through every element.
 -   On edit pages such as forms, the keyboard focus starts at the first editable field on the page.
--   If the **glide.ui.focus\_first\_element** user preference is enabled, page focus starts at the first input field at the top of the page content section. In a table, this field is usually the search option. In a form, the field is the first input field in the form. For more information about disabling initial field focus to improve accessibility, see [Turn off first field focus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_SetUpSect508ComplianceFeature.md).
+-   If the **glide.ui.focus\_first\_element** user preference is enabled, page focus starts at the first input field at the top of the page content section. In a table, this field is usually the search option. In a form, the field is the first input field in the form. For more information about disabling initial field focus to improve accessibility, see [Turn off first field focus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_SetUpSect508ComplianceFeature.md).
 -   Use tab-through and arrow keys to move items around in a slushbucket.
 -   When focused on tabs, use right/left arrow keys to switch tabs.
 -   Arrows keys work within menus to navigate between entries.
@@ -36,7 +36,7 @@ Tab-through provides the following options:
 -   In the application navigator when accessibility is enabled, tabbing moves you through each element for every module, including the **Edit application/module** and **Add to favorites** icons. Use the arrow keys to move through the application navigator without focusing on these additional elements.
 -   If accessibility mode is enabled, a help icon appears with the HTML field. The help icon indicates how to access and escape the HTML field toolbar.
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/p_NavigationAndUIConfiguration.md)
 
 ## Use skip links
 

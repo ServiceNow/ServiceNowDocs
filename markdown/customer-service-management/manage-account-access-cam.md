@@ -2,7 +2,7 @@
 title: Restrict contact access
 description: Restrict contact access to sold products and install bases by limiting the access for associated contacts and their access levels for customer access management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-account-access-cam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/manage-account-access-cam.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -76,5 +76,5 @@ Access that is restricted to entities based on associated contacts.
 **Related topics**  
 
 
-[Add additional contacts for the sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-additional-contacts-soldproduct.md)
+[Add additional contacts for the sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/adding-additional-contacts-soldproduct.md)
 

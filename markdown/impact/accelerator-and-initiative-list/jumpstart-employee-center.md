@@ -2,7 +2,7 @@
 title: Jumpstart Your Employee Center
 description: This Accelerator includes a demonstration of the possibilities and capabilities available with the ServiceNow Employee Center portal in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-employee-center.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

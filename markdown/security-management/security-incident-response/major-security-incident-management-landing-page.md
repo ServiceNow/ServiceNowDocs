@@ -2,7 +2,7 @@
 title: Major Security Incident Management
 description: The ServiceNow Major Security Incident Management application tracks the progress of Major Security Incident \(MSI\) from discovery to analysis, propose, promote, and link security incidents, and closure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/major-security-incident-management-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/major-security-incident-management-landing-page.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -20,31 +20,31 @@ Major Security Incident Management
 
 <table id="table_sxm_bbz_xtb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about how analysts, administrators, and managers use Major Security Incident Management \(MSIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about how analysts, administrators, and managers use Major Security Incident Management \(MSIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/exploring-major-security-incident-management.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-optimize-manage.svg"\] Alt text: Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-major-security-incident-management.md)
+[Configure \[Omitted image "bus-optimize-manage.svg"\] Alt text: Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-major-security-incident-management.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-sdlc.svg"\] Alt text: Extend MSIM capabilities by integrating with other Microsoft applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-with-other-applications.md)
+[Integrate \[Omitted image "bus-sdlc.svg"\] Alt text: Extend MSIM capabilities by integrating with other Microsoft applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-with-other-applications.md)
 
 </td></tr><tr><td>
 
-[Administer \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Administration tasks on how to tag incident records and configure labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-msi-administration-settings.md)
+[Administer \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Administration tasks on how to tag incident records and configure labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-msi-administration-settings.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-learn.svg"\] Alt text: Propose, promote, link, and reject major security incident records through the workspace management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/promoting-sir-to-msim.md)
+[Use \[Omitted image "bus-learn.svg"\] Alt text: Propose, promote, link, and reject major security incident records through the workspace management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/promoting-sir-to-msim.md)
 
 </td><td>
 
-[Status Reports \[Omitted image "bus-infographic.svg"\] Alt text: Monitor incident related tasks and improve processes through metrics, trend charts, and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
+[Status Reports \[Omitted image "bus-infographic.svg"\] Alt text: Monitor incident related tasks and improve processes through metrics, trend charts, and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 
 </td></tr><tr><td>
 
-[Additional Capabilities \[Omitted image "bus-case.svg"\] Alt text: Configure information to roll up records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
+[Additional Capabilities \[Omitted image "bus-case.svg"\] Alt text: Configure information to roll up records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
 
 </td><td>
 

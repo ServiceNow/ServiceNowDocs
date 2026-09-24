@@ -2,7 +2,7 @@
 title: View Threat Lookup Reputation Calculators
 description: You can view the Threat Lookup Finding Calculator to calculate the observable findings for your integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/view-threat-lookup-reputation-calculators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/view-threat-lookup-reputation-calculators.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -20,7 +20,7 @@ You can view the Threat Lookup Finding Calculator to calculate the observable fi
 
 Role required: sn\_sec\_tisc.admin
 
-To learn more about the Threat Lookup Reputation Calculators, see [Managing the Threat Lookup Reputation Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/manage-threat-lookup-reputation-calculator.md).
+To learn more about the Threat Lookup Reputation Calculators, see [Managing the Threat Lookup Reputation Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/manage-threat-lookup-reputation-calculator.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ To learn more about the Threat Lookup Reputation Calculators, see [Managing the 
         The value 1 indicates that one condition is used for the filtering.
 
 
-**Parent Topic:**[Configure Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-threat-lookup.md)
+**Parent Topic:**[Configure Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/configure-threat-lookup.md)
 

@@ -2,7 +2,7 @@
 title: Opt out of an individual experiment
 description: Opt out of a specific experiment while remaining enrolled in others.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/opt-out-individual-experiment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/opt-out-individual-experiment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

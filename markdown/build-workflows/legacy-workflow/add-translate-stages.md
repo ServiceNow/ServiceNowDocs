@@ -2,7 +2,7 @@
 title: Add and translate stages
 description: You can add default stages to use for a table, and stages to existing workflowYou can assign a stage set as a default set to any number of tables.If a stage required for a workflow has not been imported or is not in the stage set assigned to the workflow table, you can add it to the workflow manually.After stages are added to a workflow, you can assign them to the workflow activities.You can provide translations for workflow stage names so the names appear in the language selected for the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/add-translate-stages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/add-translate-stages.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -16,7 +16,7 @@ breadcrumb: [Workflow stages, Workflow management, Classic Workflow, Build workf
 
 You can add default stages to use for a table, and stages to existing workflow
 
-**Parent Topic:**[Workflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowStages.md)
+**Parent Topic:**[Workflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowStages.md)
 
 ## Add default stages for a table
 
@@ -99,7 +99,7 @@ The instance must already have language internationalization plugins installed. 
 
 ### About this task
 
-Language-specific text appears in [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md) displayed in a list, [workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowStageSets.md), and the Workflow Editor for users with that language selected. Language-specific text does not automatically appear when [displaying stages on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md). To translate stages on a form, add translated text to the workflow field choices.
+Language-specific text appears in [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md) displayed in a list, [workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowStageSets.md), and the Workflow Editor for users with that language selected. Language-specific text does not automatically appear when [displaying stages on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md). To translate stages on a form, add translated text to the workflow field choices.
 
 You can add translated text for any language enabled on the instance. For example, to translate workflow stages into French:
 

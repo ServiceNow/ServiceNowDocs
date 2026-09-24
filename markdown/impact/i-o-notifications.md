@@ -2,7 +2,7 @@
 title: Instance Observer alert notifications
 description: Notifications for alerts and other system activity are displayed on the Instance Observer banner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/i-o-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/i-o-notifications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ The \[Omitted image "io-bell-icon.png"\] Alt text: Bell icon. icon displays the 
 
 Notifications can be dismissed, marked as read, and managed through options to clear all or view history, which retains unread notifications for 72 hours and read ones for 7 days. The **View notification history** includes filtering and search capabilities by Instance, status, metric, and notification type.
 
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-alerts-intro.md)
 

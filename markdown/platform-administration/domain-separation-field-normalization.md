@@ -2,7 +2,7 @@
 title: Domain separation and Field Normalization
 description: Domain separation is unsupported in Field Normalization. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/domain-separation-field-normalization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/domain-separation-field-normalization.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

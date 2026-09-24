@@ -2,7 +2,7 @@
 title: Ignore a local change
 description: Ignoring a local change prevents updates to a record from generating new versions in the Local Changes list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_IgnoreALocalChange.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/t\_IgnoreALocalChange.html
 release: australia
 product: Team Development
 classification: team-development

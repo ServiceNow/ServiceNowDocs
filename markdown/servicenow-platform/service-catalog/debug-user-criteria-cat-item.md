@@ -2,7 +2,7 @@
 title: Debug user criteria of a catalog item
 description: Debug whether a user can access a catalog item based on the matched user criteria and fix any issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/debug-user-criteria-cat-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/debug-user-criteria-cat-item.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -22,9 +22,9 @@ Role required: catalog\_manager, catalog\_admin, or admin
 
 ## About this task
 
-You can only debug access issues based on user criteria, but not based on access control list rules \(ACLs\). For information about user criteria, see [Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogAccessControls.md).
+You can only debug access issues based on user criteria, but not based on access control list rules \(ACLs\). For information about user criteria, see [Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ServiceCatalogAccessControls.md).
 
-For any scripted user criteria that uses a session api such as gs.getUserID\(\), the session of the logged-in user is used. Edit the behavior of the scripted user criteria using the pre-defined *user\_id* variable in the **Script** field of a user criteria. For information about the Script field, see [Create a user criteria record in Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAUserCriteriaRecord.md).
+For any scripted user criteria that uses a session api such as gs.getUserID\(\), the session of the logged-in user is used. Edit the behavior of the scripted user criteria using the pre-defined *user\_id* variable in the **Script** field of a user criteria. For information about the Script field, see [Create a user criteria record in Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreateAUserCriteriaRecord.md).
 
 ## Procedure
 
@@ -68,5 +68,5 @@ For any scripted user criteria that uses a session api such as gs.getUserID\(\),
 6.  To edit the configuration of a user criteria, click its name under the **User Criteria** column.
 
 
-**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/debugging-service-catalog.md)
 

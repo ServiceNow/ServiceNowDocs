@@ -2,7 +2,7 @@
 title: Install the Task Mining agent for Windows
 description: Install the Task Mining desktop agent on Windows workstations using the installation wizard. Convert the agent installer to .intunewin format and deploy it to managed Windows devices through the Microsoft Intune admin center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/install-the-task-mining-agent-for-windows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/install-the-task-mining-agent-for-windows.html
 release: australia
 product: Task Mining
 classification: task-mining

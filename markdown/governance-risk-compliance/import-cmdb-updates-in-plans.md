@@ -2,7 +2,7 @@
 title: Scheduling auto-update of related assets
 description: You can schedule an auto-update of the related assets in the plans based on the source data and relationships in the CMDB. You can receive an email notification with details of the plan dependency updates from the BCM application. Dependencies are fetched from different sources such as BIA upstream dependency, BIA downstream dependencies, and CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/import-cmdb-updates-in-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/import-cmdb-updates-in-plans.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,13 +28,13 @@ Planning dependencies are fetched from different sources such as BIA upstream de
 
 Setting up the Planning dependency update configuration module is a one-time activity. Once the sources are configured in the Planning dependency update configuration module, the updates are synchronized in the plan.
 
-For more information on setting up the Planning dependency update configuration module, see [Configuring planning dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/confi-planning-dep-updates.md).
+For more information on setting up the Planning dependency update configuration module, see [Configuring planning dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/confi-planning-dep-updates.md).
 
 ## Using the updated dependencies with the Xanadu release
 
 You can use updated dependencies from the latest BIA record to conduct dependency assessments on assets. The Related item BIA, Related item Recovery Time Objective \(RTO\), Related item Recovery Point Objective \(RPO\), and Related item Recovery Tier columns determine recovery timeframes and data requirements. That data is displayed in the Required Recovery Timeframe and Required Data Backup columns of the BIA record.
 
-For more information on the source BIA records option in the Dependency configuration modules, see [Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-plan-dep-update-confi-module.md).
+For more information on the source BIA records option in the Dependency configuration modules, see [Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-plan-dep-update-confi-module.md).
 
 **Note:** The filter condition in the Element definition is used to add specific configuration items \(CIs\) via the pop-up. The **Update dependencies** UI action also considers the element definition's filter and retrieves the related CIs of the configuration item listed in the **Applies to** field of the BIA. These relationships are retrieved from the CI Relationships table.
 
@@ -80,7 +80,7 @@ See the workflow for using the **Update dependencies** UI action and updating th
     -   If the planning record matches any configuration filter, the application gets the dependencies in real time according to the sources in the configuration. Then, the BCM planner updates the planning record according to the **Fields to be updated** in the configuration. The plan workflow then continues for the next steps.
     -   If the planning record does not match the configuration filter, the plan workflow then continues for the next steps.
 
-For more information on updating the planning dependencies manually, see [Update the planning dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/import-cmdb-updates-in-bcp.md).
+For more information on updating the planning dependencies manually, see [Update the planning dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/import-cmdb-updates-in-bcp.md).
 
 **Note:**
 
@@ -100,10 +100,10 @@ If the planning record does not have any changes in the dependencies, then a sna
 
 When you create a business continuity plan, you must update the related assets in the plans. Beginning with the Australia release, the Data Relationships Framework \(com.sn\_app\_grc\_relationship\_config\) application supports the BCM application with the underlying framework to fetch the related assets in the plans. The Data Relationships Framework application is installed with the BCM application by default.
 
-For more information on the Data Relationships Framework, see [Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-relationship-framework.md).
+For more information on the Data Relationships Framework, see [Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/data-relationship-framework.md).
 
--   **[Update the planning dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/import-cmdb-updates-in-bcp.md)**  
+-   **[Update the planning dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/import-cmdb-updates-in-bcp.md)**  
 Update the plan dependencies manually from the snapshot if the scheduled job is not activated in the Planning dependency update configuration module. You can update the dependencies in an active plan.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

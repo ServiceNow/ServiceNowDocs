@@ -2,7 +2,7 @@
 title: Viewing links between alerts in mixed alert groups
 description: Link View displays the connections between alerts in mixed alert groups in Express List, including how alert attributes relate to each other within the group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/unified-alert-group-link-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/unified-alert-group-link-view.html
 release: australia
 product: Event Management
 classification: event-management
@@ -21,9 +21,9 @@ Link View for mixed alert groups shows the connections between alerts in groups 
 
 To view how different alert groups are visualized in Link View, see the description of Link view for the relevant alert group types. Currently, mixed groups are composed of Tag cluster alert groups, CMDB-based alert groups, related log entities and shared impacted services.
 
-For more information about alerts in the mixed alert group, see [Mixed alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/unified-grouping.md).
+For more information about alerts in the mixed alert group, see [Mixed alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/unified-grouping.md).
 
-For more information about Link View for related groups, see [Viewing links between alerts in tag-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/tag-based-link-view-express-list.md), and [Viewing links between alerts in CMDB-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-cmdb-based-link-view.md).
+For more information about Link View for related groups, see [Viewing links between alerts in tag-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/tag-based-link-view-express-list.md), and [Viewing links between alerts in CMDB-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-cmdb-based-link-view.md).
 
 \[Omitted image "link-view-mixed-group.png"\] Alt text: Sample mixed alert group in Link View
 
@@ -33,12 +33,12 @@ The preceding figure shows the Link View of a mixed alert group. The dashed line
 
 The Link View for a mixed alert group that includes related log entities and shared impacted services displays connected nodes. Each node represents a correlation source and attribute, including log analytics data, CMDB information, and impacted services. This information gives operators a picture of the scope and nature of the grouping at a glance.
 
-The Link View **Display** legend lists the meaning of the symbols used to represent the tags and their number of unique nodes. In the legend, defining tags are marked as **Correlation**. You can toggle between hiding and showing tag types to reduce noise. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/link-view-tags-icons-descriptions.md).
+The Link View **Display** legend lists the meaning of the symbols used to represent the tags and their number of unique nodes. In the legend, defining tags are marked as **Correlation**. You can toggle between hiding and showing tag types to reduce noise. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/link-view-tags-icons-descriptions.md).
 
 **Related topics**  
 
 
-[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-link-view.md)
+[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-link-view.md)
 
-[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
+[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
 

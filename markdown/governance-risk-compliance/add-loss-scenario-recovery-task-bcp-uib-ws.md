@@ -2,7 +2,7 @@
 title: Add loss scenarios
 description: Add a loss scenario and define the related asset dependencies in your business continuity plan. You can then view the details of the assets in BCM UIB Workspace and then plan a recovery strategy for an identified loss scenario.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,9 +61,9 @@ If the plan was created from a plan template, loss scenarios may already be pre-
 
 ## What to do next
 
-After the loss scenario is created, you can populate its **Recovery tasks** tab in bulk by selecting **Add groups** or **Add tasks**. The **Select task template groups** dialog automatically filters by the loss scenario's element definition \(for example, only groups applicable to Datacenters are shown for a Loss of Datacenters scenario\). For field-level details, see [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-a-recovery-task.md).
+After the loss scenario is created, you can populate its **Recovery tasks** tab in bulk by selecting **Add groups** or **Add tasks**. The **Select task template groups** dialog automatically filters by the loss scenario's element definition \(for example, only groups applicable to Datacenters are shown for a Loss of Datacenters scenario\). For field-level details, see [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-a-recovery-task.md).
 
 \[Omitted image "plan-loss-scenario-form.png"\] Alt text: Loss of Datacenters plan-loss-scenario record showing the Details tab.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

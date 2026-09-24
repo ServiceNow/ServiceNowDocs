@@ -2,7 +2,7 @@
 title: Visitor Reception Dashboard
 description: With the Visitor Reception Dashboard, you can track visitor registrations created in the application on any day. Track the statuses of visitors who are on the premises. View the number of visitors who are expected, have checked in, have checked out, are on break, or have not showed up.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/visitor-reception-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/visitor-reception-dashboard.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -18,7 +18,7 @@ With the Visitor Reception Dashboard, you can track visitor registrations create
 
 **Note:** The Workplace Visitor Management dashboard is migrated to Workplace Central. You can start using the migrated dashboards from Workplace Central. The out-of-the-box dashboards are also migrated to Workplace Central. Old dashboards are not supported for new Workplace Service Delivery customers. For existing customers, old dashboards are currently available but will be deprecated soon.
 
-For more information about the migrated dashboard, see [Reservation Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reservation-management-dashboard.md).
+For more information about the migrated dashboard, see [Reservation Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reservation-management-dashboard.md).
 
 \[Omitted image "visitor-reception-dashboard.png"\] Alt text: Visitor Reception Dashboard
 
@@ -77,9 +77,9 @@ The Visitor reception dashboard allows you to view the following visualizations.
 |Visitors that are checked out|List|Visitor registrations of the visitors who have checked out.|
 |Cancelled visitor registrations|List|Cancelled visitor registrations.|
 
-**Parent Topic:**[Analytics and Reporting Solutions for Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/analytics-reporting-for-visitor-mgmt.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/analytics-reporting-for-visitor-mgmt.md)
 
-**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
+**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
 
 **Related topics**  
 

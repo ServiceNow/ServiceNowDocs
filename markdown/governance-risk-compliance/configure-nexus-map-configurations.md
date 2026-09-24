@@ -2,7 +2,7 @@
 title: Configure the Nexus map configurations
 description: Configure the appearance of the Nexus map \(Resilience map\) for a specific main node by defining its UI settings. It involves defining visual elements such as colors, icons, and edge configurations. By configuring the settings at the Nexus map level, you can associate a single main node with multiple Nexus configurations, enabling flexible loading of settings for different entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-nexus-map-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-nexus-map-configurations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Role required: sn\_oper\_res.admin
 
     \[Omitted image "nexus-map-new-record-empty.png"\] Alt text: New record.
 
-    For more information on the fields, see [Nexus map configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/nexus-map-configuration-form.md).
+    For more information on the fields, see [Nexus map configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/nexus-map-configuration-form.md).
 
 4.  Enter a unique name for the Nexus map configuration in the **Name** field.
 
@@ -75,7 +75,7 @@ Role required: sn\_oper\_res.admin
 
 ## What to do next
 
-To configure the node settings for the Nexus map, see [Configure the Node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-node-configurations.md).
+To configure the node settings for the Nexus map, see [Configure the Node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-node-configurations.md).
 
-To configure the edge settings for the Nexus map, see [Configure the Edge configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-edge-configurations.md).
+To configure the edge settings for the Nexus map, see [Configure the Edge configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-edge-configurations.md).
 

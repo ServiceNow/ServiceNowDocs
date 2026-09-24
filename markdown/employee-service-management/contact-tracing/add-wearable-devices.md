@@ -2,7 +2,7 @@
 title: Add wearable devices assigned to employees
 description: Add wearable devices such as Bluetooth LE-enabled devices that are assigned to employees to enable them to connect to the Wi-Fi network in your workplaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/add-wearable-devices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/add-wearable-devices.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -86,5 +86,5 @@ MAC address of the device.Follow the steps in [Configuring the form layout](http
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/wifi-access-management.md)
+**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/wifi-access-management.md)
 

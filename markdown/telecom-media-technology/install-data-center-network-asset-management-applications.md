@@ -2,7 +2,7 @@
 title: Install Data Center and Network Asset Management applications
 description: Install all eligible Data Center and Network Asset Management applications from a single ServiceNow Store product. Use this procedure to install the apps your organization is entitled to in one step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/install-data-center-network-asset-management-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/install-data-center-network-asset-management-applications.html
 release: australia
 topic_type: task
 last_updated: "2026-06-26"

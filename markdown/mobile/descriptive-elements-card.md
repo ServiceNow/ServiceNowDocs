@@ -2,7 +2,7 @@
 title: Configure a card descriptive element for input form screens
 description: Add a card descriptive element before an input ﬁeld, within an input form screen. This additional on-screen information provides a context to your users, enabling them to better understand what is required as they enter data into an input form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/descriptive-elements-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/descriptive-elements-card.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,11 +16,11 @@ Add a card descriptive element before an input ﬁeld, within an input form scre
 
 ## Before you begin
 
-**Note:** Card descriptive elements are configured in the ServiceNow AI Platform, whereas image, text and rich text descriptive elements are configured in the Mobile App Builder. For the configuration of image, text, or rich text descriptive elements see, [Configure descriptive elements for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/descriptive-elements-script.md).
+**Note:** Card descriptive elements are configured in the ServiceNow AI Platform, whereas image, text and rich text descriptive elements are configured in the Mobile App Builder. For the configuration of image, text, or rich text descriptive elements see, [Configure descriptive elements for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/descriptive-elements-script.md).
 
 Role required: admin
 
-To use a mobile card within a descriptive element, a mobile card must be configured. For more information, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-card-builder.md).
+To use a mobile card within a descriptive element, a mobile card must be configured. For more information, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-card-builder.md).
 
 When using a preconfigured mobile card, consider the following:
 
@@ -32,7 +32,7 @@ When using a preconfigured mobile card, consider the following:
 
 <table id="table_sw1_f1b_cgc"><tbody><tr><td>
 
-You can add card descriptive elements to input ﬁelds, sections that contain input ﬁelds, or input form sections without any inputs. Descriptive elements can be a selection of simple text, rich text, an image or a mobile card that precedes an input. This topic deals with the configuration of descriptive element of type card. For the configuration of image, text, or rich text descriptive elements see, [Configure descriptive elements for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/descriptive-elements-script.md).
+You can add card descriptive elements to input ﬁelds, sections that contain input ﬁelds, or input form sections without any inputs. Descriptive elements can be a selection of simple text, rich text, an image or a mobile card that precedes an input. This topic deals with the configuration of descriptive element of type card. For the configuration of image, text, or rich text descriptive elements see, [Configure descriptive elements for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/descriptive-elements-script.md).
 
 </td><td>
 

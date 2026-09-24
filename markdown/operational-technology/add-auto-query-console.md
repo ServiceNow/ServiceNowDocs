@@ -2,7 +2,7 @@
 title: Create an Auto Query
 description: Create an Auto Query that you can run on demand for different Discovery Console for OT Assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/add-auto-query-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/add-auto-query-console.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -121,7 +121,7 @@ Role required: admin
 
     To do this, select both or either the **UDP Port Enumeration** and / or **TCP Port Enumeration** \(highlighted in the previous image\) from the Advanced Query Types. Each scan determines all open ports for their two respective protocols.
 
-    **Note:** For these query types to be available, verify your ScanScripts.json driver is up to date; if not, upload the latest version of this driver. For information, see [Edit the Query Driver on Metadata tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-query-driver-on-metadata.md).
+    **Note:** For these query types to be available, verify your ScanScripts.json driver is up to date; if not, upload the latest version of this driver. For information, see [Edit the Query Driver on Metadata tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/edit-query-driver-on-metadata.md).
 
 12. Select **Next**
 
@@ -149,5 +149,5 @@ Role required: admin
 
 The query is added to the Auto Query page.
 
-**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/auto-query-console.md)
+**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/auto-query-console.md)
 

@@ -2,7 +2,7 @@
 title: Customize story states of your Agile Development 2.0 dashboard reports
 description: Configure story states to reflect your customizations on the Agile Development 2.0 dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/customize-story-states-of-your-agile-dashboard-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/customize-story-states-of-your-agile-dashboard-reports.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -39,5 +39,5 @@ Role required: admin or pa\_admin
 7.  Click **Save**.
 
 
-**Parent Topic:**[Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/customizing-dashboard-reports.md)
+**Parent Topic:**[Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/customizing-dashboard-reports.md)
 

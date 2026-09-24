@@ -2,7 +2,7 @@
 title: Resource Management reports
 description: Resource Management reports provide the resource requester and resource managers with resource allocations, availability, and utilization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/c\_UsingResourceManagementReports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/c\_UsingResourceManagementReports.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -18,13 +18,13 @@ Resource Management reports provide the resource requester and resource managers
 
 **Important:** Resource Management reports is deprecated starting Zurich release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Alternatively, resource managers are encouraged to use the interactive Overview Dashboard in the Resource Management Workspace. For more information about dashboards, see [Overview dashboard in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md).
+Alternatively, resource managers are encouraged to use the interactive Overview Dashboard in the Resource Management Workspace. For more information about dashboards, see [Overview dashboard in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md).
 
 You can generate reports for the following types of information:
 
 -   **Availability**
 
-    Total time that the resources are available after both [Soft and hard allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md). Availability is capacity minus allocation. \[Omitted image "group\_availability\_report1.png"\] Alt text: A group availability report
+    Total time that the resources are available after both [Soft and hard allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/r_AllocatingResources.md). Availability is capacity minus allocation. \[Omitted image "group\_availability\_report1.png"\] Alt text: A group availability report
 
 -   **Forecasted Utilization**
 
@@ -47,10 +47,10 @@ You can generate reports for the following types of information:
     \[Omitted image "group\_member\_allocation\_details1.png"\] Alt text: Allocation details
 
 
--   **[View availability, utilization, and allocation reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_GenAvailUtilAllocationReport.md)**  
+-   **[View availability, utilization, and allocation reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_GenAvailUtilAllocationReport.md)**  
 You can view resource reports that focus on resource availability, utilization, and allocations.
--   **[Edit a resource management report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/ReportsNew.md)**  
+-   **[Edit a resource management report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/ReportsNew.md)**  
 Resource management reports show resource allocation details in different formats for different time periods. Configure and use these reports according to your business requirements.
 
-**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceManagement.md)
+**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourceManagement.md)
 

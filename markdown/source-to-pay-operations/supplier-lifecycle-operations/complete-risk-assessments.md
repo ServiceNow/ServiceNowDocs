@@ -2,7 +2,7 @@
 title: Complete a risk assessment from the Supplier Collaboration Portal
 description: As a supplier contact, you can view and complete your assigned risk assessments to help the supplier manager in evaluating a supplier before onboarding them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/complete-risk-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/complete-risk-assessments.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -87,7 +87,7 @@ The **Risk Assessments** tab shows assessments only if you've installed the Thir
 
 The risk assessment form is submitted and the supplier manager can evaluate it further.
 
-**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
+**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 
 **Related topics**  
 
@@ -116,5 +116,5 @@ The risk assessment form is submitted and the supplier manager can evaluate it f
 
 [Create a Universal Request from the Supplier Collaboration Portal]()
 
-[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
+[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 

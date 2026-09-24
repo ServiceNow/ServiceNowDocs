@@ -2,7 +2,7 @@
 title: Install Process Mining content pack
 description: Install the content pack to copy the process configurations set for the content pack to your process configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/install-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/install-content-pack.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -41,5 +41,5 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
     You can see the table name listed under **Content pack templates** tab. The table that is displayed here is the one on which the content pack is based.
 
 
-**Parent Topic:**[Creating process configurations using content pack templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/content-pack-config.md)
+**Parent Topic:**[Creating process configurations using content pack templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/content-pack-config.md)
 

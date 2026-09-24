@@ -2,7 +2,7 @@
 title: Configure a smart button using a parametrized URL
 description: Use parametrization to include record specific information in your smart buttons.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-config-smart-button-url.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-config-smart-button-url.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

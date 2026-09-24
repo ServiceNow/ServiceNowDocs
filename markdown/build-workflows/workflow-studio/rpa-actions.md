@@ -2,7 +2,7 @@
 title: Robotic Process Automation \(RPA\) Spoke
 description: With Robotic Process Automation, your flow designers can use actions to assign and unassign users to and from an attended automation process, add work items to a queue, update work items, fetch process jobs, get the status of a process job, and trigger a bot process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/rpa-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/rpa-actions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -453,5 +453,5 @@ Triggers a specific bot process to stop in RPA Hub. Returns robots details and p
 -   **Result**: String
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
+</table>**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/spokes.md)
 

@@ -2,7 +2,7 @@
 title: Maturity item details
 description: Fields on the Maturity item details form help you view and update the state and success goal of the maturity item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/maturity-item-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/maturity-item-details.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -55,7 +55,7 @@ Success goal
 
 </td><td>
 
-Success goal associated to the maturity item. For more information about creating a success goal, see [Create a success goal for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-suc-goal.md).
+Success goal associated to the maturity item. For more information about creating a success goal, see [Create a success goal for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-suc-goal.md).
 
 </td></tr><tr><td>
 
@@ -129,5 +129,5 @@ Work notes
 Notes about the maturity item, which are visible to all users within your organization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

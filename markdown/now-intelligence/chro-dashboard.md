@@ -2,7 +2,7 @@
 title: Chief Human Resources Officer \(CHRO\) Dashboard
 description: The Chief Human Resources Officer \(CHRO\) Dashboard helps the People leadership to run its business, to deliver value quickly, and to improve productivity and optimize risks. The CHRO Dashboard delivers a unified, real-time view of workforce operations and people strategy, providing insights across onboarding efficiency, employee care, continuous improvement, satisfaction, employee relations, talent acquisition, development, diversity, empowerment, and rewards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/chro-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/chro-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

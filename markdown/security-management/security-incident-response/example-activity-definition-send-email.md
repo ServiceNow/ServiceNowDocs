@@ -2,7 +2,7 @@
 title: Example Activity Definition: Send email
 description: The following is an example of Send email activity definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/example-activity-definition-send-email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/example-activity-definition-send-email.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -183,8 +183,8 @@ To add a new action to the activity card, you must create a record in the **Play
 2.  Select existing activity action against Action Assignment field.
 3.  Select **SIR Playbook Experience** against Playbook Experience field.
 
--   **[Create an Activity Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/steps-to-create-an-activity-action.md)**  
+-   **[Create an Activity Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/steps-to-create-an-activity-action.md)**  
 Following is procedure to create an activity action.
 
-**Parent Topic:**[Activity Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/build-activities.md)
+**Parent Topic:**[Activity Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/build-activities.md)
 

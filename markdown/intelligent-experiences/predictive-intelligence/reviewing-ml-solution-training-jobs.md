@@ -2,7 +2,7 @@
 title: Reviewing your ML solution training jobs
 description: Use the ML Solutions \(ML Training Jobs view\) module to monitor the training status and progress for Predictive Intelligence solutions. The module displays training jobs for both user interface and API solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/reviewing-ml-solution-training-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/reviewing-ml-solution-training-jobs.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence

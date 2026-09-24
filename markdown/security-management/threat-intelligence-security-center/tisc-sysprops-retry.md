@@ -2,7 +2,7 @@
 title: System properties for Webhooks
 description: The system properties for webhooks are explained below.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-sysprops-retry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-sysprops-retry.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -101,7 +101,7 @@ Integer
 30
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-webhooks.md)
+</table>**Parent Topic:**[Working with Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-webhooks.md)
 
 **Related topics**  
 

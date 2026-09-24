@@ -2,7 +2,7 @@
 title: Create an install base item
 description: Create an install base item in the Customer Service Management application that represents the instance of the product that has been configured for a customer. The install base item enables you to track all the purchases that were made by a customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-install-base-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-install-base-item.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -128,7 +128,7 @@ Service Context
 
 </td><td>
 
-Service that is associated to the underlying CI for calculating the impact severity from Event Management. For more information, see [Service health status for install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-health-pcso.md).**Note:** This field is only available if you have the Proactive Customer Service Operations with Event Management plugin installed. The health status of an install base item appears only if an install base item has a CI and a service context that is associated to it.
+Service that is associated to the underlying CI for calculating the impact severity from Event Management. For more information, see [Service health status for install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/service-health-pcso.md).**Note:** This field is only available if you have the Proactive Customer Service Operations with Event Management plugin installed. The health status of an install base item appears only if an install base item has a CI and a service context that is associated to it.
 
 Configure the form layout to add this field.
 
@@ -331,10 +331,10 @@ Install Base Related Parties
 
 </td><td>
 
-List of contacts, consumers, accounts, members, contributors, and service organizations that have access to an install base. For more information on Install Base Related Parties, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md).
+List of contacts, consumers, accounts, members, contributors, and service organizations that have access to an install base. For more information on Install Base Related Parties, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/adding-related-party-config-to-case.md).
 
 </td></tr></tbody>
-</table>    For more information on related lists, see [Related list for an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-base-related-list.md).
+</table>    For more information on related lists, see [Related list for an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/install-base-related-list.md).
 
 6.  Select **Update**.
 
@@ -350,5 +350,5 @@ List of contacts, consumers, accounts, members, contributors, and service organi
 **Related topics**  
 
 
-[Create and manage install base items for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-ib-items-for-business-locations.md)
+[Create and manage install base items for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-ib-items-for-business-locations.md)
 

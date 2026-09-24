@@ -2,7 +2,7 @@
 title: Manage touchpoints on an opportunity
 description: View, create, and delete touchpoints associated with an opportunity from the touchpoints related list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/manage-touchpoints-opportunity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/manage-touchpoints-opportunity.html
 release: australia
 topic_type: task
 last_updated: "2026-06-12"
@@ -48,9 +48,9 @@ Changes are saved to the opportunity. The Touchpoints tab reflects the current s
 **Related topics**  
 
 
-[Schedule a meeting from an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-meeting-opportunity.md)
+[Schedule a meeting from an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/schedule-meeting-opportunity.md)
 
-[Manage touchpoints on a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-lead.md)
+[Manage touchpoints on a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-touchpoints-lead.md)
 
-[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-crm-touchpoints.md)
+[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-crm-touchpoints.md)
 

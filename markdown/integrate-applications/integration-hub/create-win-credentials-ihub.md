@@ -2,7 +2,7 @@
 title: Create Connection and Credential alias for SCCM deployments
 description: Microsoft System Center Configuration Manager \(SCCM\) requires the appropriate credentials to deploy applications using the Client Software Distribution application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-win-credentials-ihub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/create-win-credentials-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -64,5 +64,5 @@ Client software distribution requires Windows credentials that have administrati
 
 Connection record and SCCM Server Instance are created and associated with the connection and credential alias.
 
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-sccm-ihub.md)
 

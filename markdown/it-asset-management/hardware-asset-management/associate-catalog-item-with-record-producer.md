@@ -2,7 +2,7 @@
 title: Associate a catalog item with a remote record producer
 description: Associate a service catalog item with your provider's remote record producer to send the order details to your provider for fulfillment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/associate-catalog-item-with-record-producer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/associate-catalog-item-with-record-producer.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

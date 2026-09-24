@@ -2,7 +2,7 @@
 title: Lead details form
 description: Field descriptions for editing or reviewing details on the Lead form for Lead Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/lead-details-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/lead-details-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-22"
@@ -263,5 +263,5 @@ Consumer record associated with the lead.
 |Notes|General notes related to the lead.|
 |Work Notes|Internal notes related to the lead, visible only to agents and administrators.|
 
-**Parent Topic:**[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-reference.md)
+**Parent Topic:**[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-reference.md)
 

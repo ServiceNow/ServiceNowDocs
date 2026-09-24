@@ -2,7 +2,7 @@
 title: Create Microsoft Azure application and authenticate users to access Employee Center in Microsoft Teams
 description: Create a Microsoft Azure application in the Microsoft Azure portal to enable agents to start and import the chat conversations, and assign permissions to users to view the Employee Center dashboard in the Microsoft Teams application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/authenticate-users-your-hub-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/authenticate-users-your-hub-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -218,5 +218,5 @@ Client ID for Outlook mobile application
     \[Omitted image "app-overview-azure-portal.png"\] Alt text: Application ID and the tenant ID from the app overview page
 
 
-**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_s_tnt.md)
+**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_employee_ex_s_tnt.md)
 

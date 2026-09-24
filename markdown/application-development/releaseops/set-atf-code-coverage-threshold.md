@@ -2,7 +2,7 @@
 title: Set Automated Test Framework \(ATF\) code coverage
 description: Define what percentage of code coverage results in Automated Test Framework \(ATF\) test failure tasks that require remediation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/set-atf-code-coverage-threshold.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/set-atf-code-coverage-threshold.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -24,7 +24,7 @@ Role required: sn\_releaseops.releaseops\_tester or sn\_releaseops.releaseops\_d
 
 The Automated Test Framework \(ATF\) code coverage threshold is the percentage of code that is covered by ATF test suites. By default, if ATF test suites cover less than 70 percent of the code in a deployment request, ReleaseOps transitions the deployment request to the **Reconciling** state and a test failure task is automatically created. You can adjust the ATF code coverage threshold in your deployment request assessment playbook.
 
-To learn more about ATF code coverage, see [Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/deployment-analyzer.md).
+To learn more about ATF code coverage, see [Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/deployment-analyzer.md).
 
 ## Procedure
 

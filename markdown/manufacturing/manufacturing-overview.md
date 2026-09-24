@@ -2,7 +2,7 @@
 title: Manufacturing Commercial Operations
 description: The  ServiceNow Manufacturing Commercial Operations \(MCO\) enables you to optimize sales, support, and service operations to enhance operational efficiency, lower costs, and improve productivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/manufacturing-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/manufacturing-overview.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,27 +15,27 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 
 <table id="table_ocg_knr_rbc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how Manufacturing Commercial Operations can help you with its key features and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how Manufacturing Commercial Operations can help you with its key features and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Manufacturing Commercial Operations to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/configuring-manufacturing-foundation.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Manufacturing Commercial Operations to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/configuring-manufacturing-foundation.md)
 
 </td><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend Manufacturing Commercial Operations capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-integrating-with-other-applications.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend Manufacturing Commercial Operations capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-integrating-with-other-applications.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:See how manufacturers, dealers, and consumers can use Manufacturing Commercial Operations to manage manufacturing ecosystems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-using.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:See how manufacturers, dealers, and consumers can use Manufacturing Commercial Operations to manage manufacturing ecosystems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-using.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Manufacturing Commercial Operations use cases and components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Manufacturing Commercial Operations use cases and components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-reference.md)
 
 </td><td>
 
-[Data Model\[Omitted image "bus-database.svg"\] Alt text:Framework for workflow integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/data-model.md)
+[Data Model\[Omitted image "bus-database.svg"\] Alt text:Framework for workflow integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/data-model.md)
 
 </td></tr><tr><td>
 
@@ -43,7 +43,7 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 
 </td><td>
 
-[ServiceNow Otto for MCO\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use ServiceNow Otto for MCO to enhance user productivity and efficiency through conversation and proactive experiences using Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/now-assist-for-MCO.md)
+[ServiceNow Otto for MCO\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use ServiceNow Otto for MCO to enhance user productivity and efficiency through conversation and proactive experiences using Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/now-assist-for-MCO.md)
 
 </td><td>
 

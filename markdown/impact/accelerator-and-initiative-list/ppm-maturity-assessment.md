@@ -2,7 +2,7 @@
 title: PPM Maturity Assessment
 description: This Accelerator assesses your current Project Portfolio Management \(PPM\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ppm-maturity-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/ppm-maturity-assessment.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

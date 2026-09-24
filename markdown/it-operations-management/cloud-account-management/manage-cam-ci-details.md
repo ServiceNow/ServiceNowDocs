@@ -2,7 +2,7 @@
 title: Managing the Cloud Account Management cloud asset details
 description: Use the cloud asset form in the Cloud Account Management to view, edit, and manage cloud asset details such as attributes, health, and records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/manage-cam-ci-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/manage-cam-ci-details.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

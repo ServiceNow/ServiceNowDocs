@@ -2,7 +2,7 @@
 title: View path-based ACLs
 description: Path-based Access Control Levels \(ACLs\) enable you to define access control rules for scripted REST API endpoints using their resource path. This can be done independently of the ACL references on the operation record. Path-based ACLs enable more flexible security configurations, especially for read-only APIs and guest user experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/view-path-based-acls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/view-path-based-acls.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -33,17 +33,17 @@ Role required: security\_admin or admin
     The related list displays ACLs that match the resource path of the current API operation. These ACLs aren’t referenced in the security box but are applied based on the path.
 
 
--   **[View path-based ACLs from REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/view-path-based-acls-from-rest-api-explorer.md)**  
+-   **[View path-based ACLs from REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/view-path-based-acls-from-rest-api-explorer.md)**  
 Path-based Access Control Levels \(ACLs\) enable you to define access control rules for scripted REST API endpoints using their resource path. This can be done independently of the ACL references on the operation record. Path-based ACLs enable more flexible security configurations, especially for read-only APIs and guest user experiences.
 
-**Parent Topic:**[Configure a scripted REST API to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_WbSvcRqACL.md)
+**Parent Topic:**[Configure a scripted REST API to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/t_WbSvcRqACL.md)
 
 **Related topics**  
 
 
-[Add a path-based ACL for a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/add-a-path-based-acl-for-a-scripted-rest-api.md)
+[Add a path-based ACL for a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/add-a-path-based-acl-for-a-scripted-rest-api.md)
 
-[Configure a scripted REST API resource to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_WbSvcOpRqACL.md)
+[Configure a scripted REST API resource to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/t_WbSvcOpRqACL.md)
 
-[View path-based ACLs from REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/view-path-based-acls-from-rest-api-explorer.md)
+[View path-based ACLs from REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/view-path-based-acls-from-rest-api-explorer.md)
 

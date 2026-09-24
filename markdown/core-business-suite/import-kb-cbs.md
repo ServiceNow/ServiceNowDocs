@@ -2,7 +2,7 @@
 title: Import Knowledge Base articles
 description: Import Knowledge Base articles from Word documents to populate your Core Business Suite knowledge bases with existing content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/import-kb-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/import-kb-cbs.html
 release: australia
 topic_type: task
 last_updated: "2026-07-28"
@@ -46,5 +46,5 @@ Import articles from `.doc` or `.docx` files to quickly populate knowledge bases
 
 You have imported documents to create Knowledge Base articles in Core Business Suite.
 
-**Parent Topic:**[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)
+**Parent Topic:**[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/kb-cbs.md)
 

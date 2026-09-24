@@ -2,7 +2,7 @@
 title: Create a responsibility access configuration in Sales CRM
 description: Grant a responsibility definition table-level access to leads, opportunities, and related entities by creating or updating a responsibility access configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-responsibility-access-configuration-sales-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-responsibility-access-configuration-sales-automation.html
 release: australia
 topic_type: task
 last_updated: "2026-08-14"
@@ -16,7 +16,7 @@ Grant a responsibility definition table-level access to leads, opportunities, an
 
 ## Before you begin
 
-The responsibility definition that you want to grant access for already exists. This task configures access for an existing responsibility definition. It does not create one. For the responsibility definitions provided with Sales Common, see [Related parties, responsibilities, and access included with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/responsibilities-sales-automation.md).
+The responsibility definition that you want to grant access for already exists. This task configures access for an existing responsibility definition. It does not create one. For the responsibility definitions provided with Sales Common, see [Related parties, responsibilities, and access included with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/responsibilities-sales-automation.md).
 
 Role required: admin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 A responsibility access configuration determines which records a responsibility can access. Each configuration maps a responsibility to an accessible table, access level, required role, and relationship table.
 
-For example, you can configure the Account Executive responsibility so that users connected through the Opportunity Team Member \[sn\_opty\_mgmt\_core\_opportunity\_team\_member\] table can read and write Opportunity records and work with related Quote records. For more information about how the responsibility framework uses these records to grant access to leads, opportunities, accounts, contacts, or CRM Touchpoints, see [Responsibility-based access to Sales CRM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/responsibility-based-access-crm-touchpoints.md).
+For example, you can configure the Account Executive responsibility so that users connected through the Opportunity Team Member \[sn\_opty\_mgmt\_core\_opportunity\_team\_member\] table can read and write Opportunity records and work with related Quote records. For more information about how the responsibility framework uses these records to grant access to leads, opportunities, accounts, contacts, or CRM Touchpoints, see [Responsibility-based access to Sales CRM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/responsibility-based-access-crm-touchpoints.md).
 
 ## Procedure
 
@@ -104,11 +104,11 @@ Users who have the required roles and are connected to a record through the resp
 **Related topics**  
 
 
-[Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-territory-management.md)
+[Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-sales-territory-management.md)
 
-[Components installed with Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-opportunity-management.md)
+[Components installed with Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-opportunity-management.md)
 
-[Components installed with CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-crm-touchpoints.md)
+[Components installed with CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-crm-touchpoints.md)
 
-[Components installed with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-common.md)
+[Components installed with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-sales-common.md)
 

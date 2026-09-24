@@ -2,7 +2,7 @@
 title: Mobile app prerequisites for enhanced chat
 description: ServiceNow Otto for Virtual Agent provides users with a content-driven and search-driven generative AI experience. Depending on whether you have opted into standard or enhanced chat when configuring your assistant, you can integrate three different mobile app components with an assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/mobile-prereqs-enhanced-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/mobile-prereqs-enhanced-chat.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -16,7 +16,7 @@ breadcrumb: [Create a chat assistant, View assistants, Configuring assistants ov
 
 ServiceNow Otto for Virtual Agent provides users with a content-driven and search-driven generative AI experience. Depending on whether you have opted into standard or enhanced chat when configuring your assistant, you can integrate three different mobile app components with an assistant.
 
-For information on choosing how you want ServiceNow Otto for Virtual Agent to display on your mobile app, see [Mobile Now Assist display experience for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-na-display-experience-va.md). To understand the differences between Now Assist in Virtual Agent standard and enhanced chat experiences, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+For information on choosing how you want ServiceNow Otto for Virtual Agent to display on your mobile app, see [Mobile Now Assist display experience for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-na-display-experience-va.md). To understand the differences between Now Assist in Virtual Agent standard and enhanced chat experiences, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 The three different mobile app components that admins can integrate with an assistant are a mobile search widget, chat launcher, and custom app.
 
@@ -48,7 +48,7 @@ Typing an utterance in the search bar opens a full-screen chat experience. Users
 
 </td><td>
 
-Admins must select the mobile search conﬁguration to be used. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+Admins must select the mobile search conﬁguration to be used. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
 </td></tr><tr><td>
 

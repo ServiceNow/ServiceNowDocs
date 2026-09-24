@@ -2,7 +2,7 @@
 title: Use AI skills and agents in Financial Services Operations with ServiceNow Otto panel
 description: Access AI-powered capabilities such as case summarization and dispute resolution assistance in Financial Services Operations by using the ServiceNow Otto panel. The panel provides conversational AI skills and agents to support case management workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/request-generative-ai-capabilities-in-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/request-generative-ai-capabilities-in-fso.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,15 +67,15 @@ Description
 **Related topics**  
 
 
-[Configure case summarization in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-now-assist-for-fso.md)
+[Configure case summarization in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-now-assist-for-fso.md)
 
-[Summarize a dispute or claims case with case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/summarize-case-using-now-assist-fso.md)
+[Summarize a dispute or claims case with case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/summarize-case-using-now-assist-fso.md)
 
-[Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-ai-agent-interaction-workspace.md)
+[Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/request-ai-agent-interaction-workspace.md)
 
-[Generate customer insights in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/generate-customer-insights-customer-360-workspace.md)
+[Generate customer insights in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/generate-customer-insights-customer-360-workspace.md)
 
-[Request AI agent support in the Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-insurance-ai-agent-interaction-workspace.md)
+[Request AI agent support in the Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/request-insurance-ai-agent-interaction-workspace.md)
 
-[Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/generate-insurance-customer-insights-customer-360.md)
+[Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/generate-insurance-customer-insights-customer-360.md)
 

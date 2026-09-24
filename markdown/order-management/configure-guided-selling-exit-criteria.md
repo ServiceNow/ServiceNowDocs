@@ -2,7 +2,7 @@
 title: Configure guided selling activities in a playbook
 description: Define the mandatory activities that sales agents must complete at each opportunity stage by configuring a playbook. Agents cannot advance an opportunity to the next stage until all activities for the current stage are complete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-guided-selling-exit-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-guided-selling-exit-criteria.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -17,7 +17,7 @@ Define the mandatory activities that sales agents must complete at each opportun
 
 ## Before you begin
 
-The opportunity stages for your sales cycle must be defined before you configure guided selling activities. For more information, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-opportunity-stages.md).
+The opportunity stages for your sales cycle must be defined before you configure guided selling activities. For more information, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-opportunity-stages.md).
 
 Role required: sn\_opty\_mgmt\_core.opportunity\_admin
 
@@ -77,9 +77,9 @@ The playbook is active. When an opportunity with the configured sales cycle type
 **Related topics**  
 
 
-[Guided selling on opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-guided-selling.md)
+[Guided selling on opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-guided-selling.md)
 
-[Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-opportunity-stages.md)
+[Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-opportunity-stages.md)
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-mgmt.md)
 

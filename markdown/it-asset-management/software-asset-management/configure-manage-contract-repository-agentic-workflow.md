@@ -2,7 +2,7 @@
 title: Configure the manage contract repository agentic workflow for Software Asset Management
 description: Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the manage contract repository agentic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/configure-manage-contract-repository-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/configure-manage-contract-repository-agentic-workflow.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -59,7 +59,7 @@ When a software contract record is created, the **Initiate contract extraction**
 
 ## What to do next
 
-[Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/extract-metadata-from-uploaded-contract-document.md)
+[Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/extract-metadata-from-uploaded-contract-document.md)
 
-**Parent Topic:**[Use manage contract repository agentic workflow in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manage-contract-repository-workflow.md)
+**Parent Topic:**[Use manage contract repository agentic workflow in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/manage-contract-repository-workflow.md)
 

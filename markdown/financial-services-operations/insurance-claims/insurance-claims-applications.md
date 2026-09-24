@@ -2,7 +2,7 @@
 title: Insurance claims applications in Financial Services Operations
 description: ServiceNow Financial Services Operations for Insurance offers several applications that support automated claims processing across different lines of business.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/insurance-claims-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/insurance-claims-applications.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -25,8 +25,8 @@ Review the following table for more information on the claims applications avail
 
 |Claims Application|Description|Implementation approach|
 |------------------|-----------|-----------------------|
-|[Commercial Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/commercial-lines-claims-landing-page.md)|The Commercial Lines Claims application enables your organization to create and manage commercial insurance claims.|Case type extension|
-|[Personal Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/personal-lines-claims-landing-page.md)|The Personal Lines Claims application enables you to quickly set up the various stages of the personal insurance claim process, starting from first notice of loss to claim closure.|Case type extension|
-|[Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/individual-life-claims-landing-page.md)|With the Individual Life Claims application, you can manage the initiation, processing, and resolving of individual life insurance policy claims for your customers.|Case type extension|
-|[Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-claims-flow.md)|The Insurance claims application provides a flexible framework to set up a comprehensive, end-to-end, generic claims workflow for your desired line of business.|Generic claim|
+|[Commercial Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/commercial-lines-claims-landing-page.md)|The Commercial Lines Claims application enables your organization to create and manage commercial insurance claims.|Case type extension|
+|[Personal Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/personal-lines-claims-landing-page.md)|The Personal Lines Claims application enables you to quickly set up the various stages of the personal insurance claim process, starting from first notice of loss to claim closure.|Case type extension|
+|[Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/individual-life-claims-landing-page.md)|With the Individual Life Claims application, you can manage the initiation, processing, and resolving of individual life insurance policy claims for your customers.|Case type extension|
+|[Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/insurance-claims-flow.md)|The Insurance claims application provides a flexible framework to set up a comprehensive, end-to-end, generic claims workflow for your desired line of business.|Generic claim|
 

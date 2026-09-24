@@ -2,7 +2,7 @@
 title: Configure Automated Mapping of OT devices using guided setup
 description: Use the Industrial Process Manager guided setup to automatically map OT devices to the ISA equipment model entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/map\_ot\_assets\_using\_guided\_setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/map\_ot\_assets\_using\_guided\_setup.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -96,12 +96,12 @@ Activate the scheduled flows to run scheduled mapping of all OT devices regularl
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 
 **Related topics**  
 
 
 [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md)
 
-[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

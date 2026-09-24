@@ -2,7 +2,7 @@
 title: Accelerate alert resolution with past incident analysis
 description: Use AI to investigate relevant past incidents and present effective strategies used to resolve them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/nai-past-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/nai-past-incidents.html
 release: australia
 product: Event Management
 classification: event-management

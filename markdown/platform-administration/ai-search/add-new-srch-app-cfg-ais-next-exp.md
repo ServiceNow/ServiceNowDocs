@@ -2,7 +2,7 @@
 title: Add a new Unified Navigation workspace search configuration to AI Search for Next Experience
 description: Enable Unified Navigation search for newly installed workspaces in AI Search for Next Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/add-new-srch-app-cfg-ais-next-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/add-new-srch-app-cfg-ais-next-exp.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -18,9 +18,9 @@ Enable Unified Navigation search for newly installed workspaces in AI Search for
 
 ## Before you begin
 
-The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-ais-next-experience-app.md).
+The AI Search for Next Experience ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/install-ais-next-experience-app.md).
 
-You must have already enabled AI Search for Next Experience on your instance. For details on this procedure, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-ais-next-exp-app.md).
+You must have already enabled AI Search for Next Experience on your instance. For details on this procedure, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-ais-next-exp-app.md).
 
 Role required: ais\_admin
 
@@ -42,11 +42,11 @@ When a new workspace application that includes a search application configuratio
 
     1.  Repeat the **Index searchable content and metadata for global search sources** task in the **Prerequisites** Guided Setup category.
 
-        For details on this procedure, see [Verify that your instance meets the prerequisites for AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/verify-ais-next-exp-prereqs.md).
+        For details on this procedure, see [Verify that your instance meets the prerequisites for AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/verify-ais-next-exp-prereqs.md).
 
     2.  Publish all search profiles and dictionaries provided by the new workspace.
 
-        To learn how to publish search profiles, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md). For details on publishing stop word and synonym dictionaries, see [Create stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-stop-word-ais.md) and [Create synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-synonym-ais.md).
+        To learn how to publish search profiles, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/publish-search-profile-ais.md). For details on publishing stop word and synonym dictionaries, see [Create stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-stop-word-ais.md) and [Create synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-synonym-ais.md).
 
 5.  If the new workspace's search application configuration shows **Needs migration** status, migrate it for use with AI Search.
 
@@ -99,5 +99,5 @@ AI Search for Next Experience updates to include the new workspace application's
 
 Notify all users of your instance that they need to log out and back in before they can use the new workspace search in AI Search for Next Experience.
 
-**Parent Topic:**[Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais-next-experience.md)
+**Parent Topic:**[Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configuring-ais-next-experience.md)
 

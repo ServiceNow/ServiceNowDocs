@@ -2,7 +2,7 @@
 title: Retail Task Management Core data model
 description: Learn about the Retail Task Management application by viewing the data model and role relationship diagrams. These diagrams show the relationships between the tables and roles within the application and provide an overall picture of how the Retail Task Management application operates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-retail-task-management-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/legacy-retail-task-management/rahi-retail-task-management-data-model.html
 release: australia
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
@@ -40,7 +40,7 @@ Installing the Multi-case creation plugin adds the Multiple case creation config
 
 The Multi Case Creation Config table holds the necessary information for multiple case creations.
 
-For more detailed information on how these fields are involved with the multi-store creation process, refer to [Configuring Retail Task Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-task-management-configuring.md).
+For more detailed information on how these fields are involved with the multi-store creation process, refer to [Configuring Retail Task Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/legacy-retail-task-management/rahi-retail-task-management-configuring.md).
 
-**Parent Topic:**[Retail Task Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-task-management-reference.md)
+**Parent Topic:**[Retail Task Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/legacy-retail-task-management/rahi-retail-task-management-reference.md)
 

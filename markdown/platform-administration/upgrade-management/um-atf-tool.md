@@ -2,7 +2,7 @@
 title: ATF Test Generator and Cloud Runner tool in Upgrade Console
 description: Leverage the power of ServiceNow's ATF Test Generator and Cloud Runner to create intelligent, comprehensive regression tests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-atf-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-atf-tool.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -28,7 +28,7 @@ You can achieve the following using the ATF Test Generator and Cloud Runner stor
 
 See [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-intro.md) for more information.
 
-**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-tools.md)
+**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-tools.md)
 
 **Related topics**  
 

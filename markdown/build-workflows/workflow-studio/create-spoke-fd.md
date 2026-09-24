@@ -2,7 +2,7 @@
 title: Create spoke and build actions by importing an OpenAPI Specification
 description: Automate an integration and generate reusable actions by importing an OpenAPI Specification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-spoke-fd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-spoke-fd.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -240,7 +240,7 @@ Required authentication mechanism for this integration. Ensure that the authenti
         |**processing**|The operation execution is in progress.|
         |**success**|The operation has been executed successfully.|
 
-    You can create flows and subflows in the spoke details page and use them in your integration. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md) and [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+    You can create flows and subflows in the spoke details page and use them in your integration. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md) and [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflows.md).
 
     Along with **Spoke activity log**, you can also view details of the available flows, subflows, and actions in the spoke details page.
 

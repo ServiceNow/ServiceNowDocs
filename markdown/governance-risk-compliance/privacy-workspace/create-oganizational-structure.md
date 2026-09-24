@@ -2,7 +2,7 @@
 title: Create an entity configuration
 description: Create an organizational structure by configuring entity-based access for different levels such as headquarters, regional offices, and subsidiaries. Define access rules for users and groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-oganizational-structure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/create-oganizational-structure.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -116,5 +116,5 @@ Option to set the configuration to active to enforce the access rules.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
+**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

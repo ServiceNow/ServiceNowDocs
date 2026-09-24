@@ -2,7 +2,7 @@
 title: Agent Client Collector upgrade properties
 description: System properties that control Agent Client Collector upgrade behavior, including the target version, rate limits, retry logic, and timeouts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-agent-upgrade-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-agent-upgrade-properties.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -43,5 +43,5 @@ These properties have default values suitable for most environments. Adjust them
 
 The **sn\_agent.agent\_upgrade\_version** property is specifically for overriding the upgrade target version. The **sn\_agent.agent\_version** property controls package download URLs, version display, and other system behaviors. Use **sn\_agent.agent\_upgrade\_version** when you want to target a specific version for upgrades without affecting other system behavior.
 
-**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

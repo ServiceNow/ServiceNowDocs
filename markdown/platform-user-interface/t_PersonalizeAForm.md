@@ -2,7 +2,7 @@
 title: Personalize a form
 description: When the form personalization feature is activated, users can personalize fields to appear on a specific form view according to individual preferences. Form personalization is available in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_PersonalizeAForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_PersonalizeAForm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -55,7 +55,7 @@ In contrast to configuring a form, personalizing a form does not enable users to
 5.  To restore the default form view, personalize the form and click **Reset**.
 
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UsingForms.md)
 
 **Related topics**  
 

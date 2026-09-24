@@ -2,7 +2,7 @@
 title: Sign up for your preferred shifts
 description: Specify one or more shifts in a schedule plan for which you would prefer to sign up.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sign-up-preferred-shifts-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/sign-up-preferred-shifts-wfo-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -65,5 +65,5 @@ You can receive notifications when your manager makes a schedule plan available 
     All shifts you have added for sign up will be submitted.
 
 
-**Parent Topic:**[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)
+**Parent Topic:**[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)
 

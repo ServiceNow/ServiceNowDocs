@@ -2,7 +2,7 @@
 title: ServiceNow Store
 description: Expand the capabilities of the ServiceNow AI Platform with hundreds of certified, ready-to-use apps, integrations, and products that are available on the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/servicenow-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/servicenow-store.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,31 +21,31 @@ The [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store
 
 <table id="table_u2g_3vp_tcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow Store and how apps, products, and integrations can help your organization enhance the ServiceNow AI Platform experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-servicenow-store.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow Store and how apps, products, and integrations can help your organization enhance the ServiceNow AI Platform experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/exploring-servicenow-store.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure notification preferences for each application you procure from the ServiceNow Store.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-servicenow-store.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure notification preferences for each application you procure from the ServiceNow Store.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configuring-servicenow-store.md)
 
 </td></tr><tr><td>
 
-[Get apps\[Omitted image "ind-shopping-cart.svg"\] Alt text:Procure apps for production and non-production instances of the ServiceNow AI Platform, or request trials for non-production instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-trials.md)
+[Get apps\[Omitted image "ind-shopping-cart.svg"\] Alt text:Procure apps for production and non-production instances of the ServiceNow AI Platform, or request trials for non-production instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/getting-apps-trials.md)
 
 </td><td>
 
-[Leave feedback\[Omitted image "bus-why-servicenow.svg"\] Alt text:Review the apps your organization uses so providers know what's working well and what future updates you want to see.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/reviewing-apps.md)
+[Leave feedback\[Omitted image "bus-why-servicenow.svg"\] Alt text:Review the apps your organization uses so providers know what's working well and what future updates you want to see.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/reviewing-apps.md)
 
 </td></tr><tr><td>
 
-[Get apps for an on-premise instance\[Omitted image "bus-download.svg"\] Alt text:Download encrypted apps to install on on-premise \(self-hosted\) instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-on-prem.md)
+[Get apps for an on-premise instance\[Omitted image "bus-download.svg"\] Alt text:Download encrypted apps to install on on-premise \(self-hosted\) instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/getting-apps-on-prem.md)
 
 </td><td>
 
-[Use a regulated environment\[Omitted image "ind-government.svg"\] Alt text:If your instance is in a regulated environment, you might need to get apps and products from an isolated federal or regional version of the ServiceNow Store.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-regulated-store.md)
+[Use a regulated environment\[Omitted image "ind-government.svg"\] Alt text:If your instance is in a regulated environment, you might need to get apps and products from an isolated federal or regional version of the ServiceNow Store.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/using-regulated-store.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get information about guest review form fields and types of ServiceNow Store listings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/store-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get information about guest review form fields and types of ServiceNow Store listings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/store-reference.md)
 
 </td><td>
 

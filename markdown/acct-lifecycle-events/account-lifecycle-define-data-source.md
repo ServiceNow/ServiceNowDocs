@@ -2,7 +2,7 @@
 title: Define the data source
 description: Before calculating the health, product adoption, or product usage score, you must specify the source from which data is to be collected. Data can be collected either through key performance metrics and external sources, or can be calculated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-define-data-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-define-data-source.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,8 +44,8 @@ Source
 
 Select the source from which the data is to be collected from the list.-   **PA indicator**: Select this option to use a PA indicator to collect performance analytics data at regular intervals and create records in the Context Engine Data table.
 -   **External**: Specify the external data source from which the data is to be collected. You must define how this data can be retrieved from the external source or use the [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md) to save this information in the Context Engine data table.
--   **Calculated**: Select this option to calculate the metric values dynamically using formulas based on a combination of existing base metrics. For more details, see [Define a calculated metric data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.md).
--   **Table**: Select this data source type to retrieve and analyze data from internal and external tables. To retrieve data from external sources, you must install the Workflow Data Fabric Hub application and create data fabric tables. For more details, see [Define a table data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-data-source-table.md).
+-   **Calculated**: Select this option to calculate the metric values dynamically using formulas based on a combination of existing base metrics. For more details, see [Define a calculated metric data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.md).
+-   **Table**: Select this data source type to retrieve and analyze data from internal and external tables. To retrieve data from external sources, you must install the Workflow Data Fabric Hub application and create data fabric tables. For more details, see [Define a table data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-data-source-table.md).
 **Note:** The sequence in which the metrics are calculated is based on the Execution order that defines which metrics are evaluated first. The Execution order is defined as follows:
 
 -   PA Indicator and External: 0 \(Metrics from these data sources are calculated first\).
@@ -86,7 +86,7 @@ Breakdown table
 
 </td><td>
 
-Select the source table against which the score is calculated.**Note:** This field is applicable only if the Source type is **Calculated** See [Define a calculated metric data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.md) for details.
+Select the source table against which the score is calculated.**Note:** This field is applicable only if the Source type is **Calculated** See [Define a calculated metric data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.md) for details.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Target table mapping
 
 </td><td>
 
-\(Optional\) If the Source type is **Calculated**, you can optionally specify the Target table, Target field, and Target query field. After data collection, the calculated score is written into the matching records where the context aligns with the Target query field. See [Define a calculated metric data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.md) for more details.
+\(Optional\) If the Source type is **Calculated**, you can optionally specify the Target table, Target field, and Target query field. After data collection, the calculated score is written into the matching records where the context aligns with the Target query field. See [Define a calculated metric data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-data-source-calculate.md) for more details.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Select how the aggregate score should be calculated from the list.-   Average
 -   Sum
 -   Max
 -   Min
--   Count \(This is applicable only if the Source type is **Table**\). See [Define a table data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-data-source-table.md) for details.
+-   Count \(This is applicable only if the Source type is **Table**\). See [Define a table data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-data-source-table.md) for details.
 The Aggregate score is useful if you select a Frequency that is different from the collection frequency of the PA indicator. For example, suppose the PA indicator collection frequency is set to Daily, and the Frequency is set to Weekly, and you want to calculate the aggregate score for the week. In this case, you can use the average or sum option to calculate the score.
 
 </td></tr><tr><td colspan="2">
@@ -180,7 +180,7 @@ The source record used to resolve the **Group by** fields. This field is automat
     **Note:** You can define multiple context tables for a single data source.
 
 7.  Enable the **Active** check box and select **Submit** to create the data source. You can associate the data source with one or more context tables.
-8.  Define color bands as necessary. See the [Set up the color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) for details. The color banding is applied to the health metric data displayed in the [Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-engage.md) tab on the Engagement home page.
+8.  Define color bands as necessary. See the [Set up the color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) for details. The color banding is applied to the health metric data displayed in the [Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-view-engage.md) tab on the Engagement home page.
 
-After setting up the data source and the context, the next step is to configure the context engine mapper. See the [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details.
+After setting up the data source and the context, the next step is to configure the context engine mapper. See the [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md) for details.
 

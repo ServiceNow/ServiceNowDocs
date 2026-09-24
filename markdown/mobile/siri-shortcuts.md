@@ -2,7 +2,7 @@
 title: Siri shortcuts
 description: Configure Siri shortcuts to give your users quick access to common app functions app using their iOS devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/siri-shortcuts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/siri-shortcuts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,13 +28,13 @@ By default, your iOS users can use the following pre-configured shortcuts in the
     -   The Agent Chat plugin \(com.glide.interaction.awa\) must be installed on your instance. For details on configuration, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-agent-chat.md).
     -   The mobile app must have a chat launcher quick action enabled. For details on enabling chat launcher, see [Enable Live Agent in the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/va-in-me.md).
 -   To search in the ServiceNow instance, the following conditions must be met:
-    -   The instance must have global search set up. For details on configuration, see [Global search for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-search-config.md).
+    -   The instance must have global search set up. For details on configuration, see [Global search for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-search-config.md).
     -   The global search must be configured on the first tab in the mobile app.
 
-For details about configuring a Siri shortcut on your instance, see [Configure a Siri shortcut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-siri-shortcuts-2.md).
+For details about configuring a Siri shortcut on your instance, see [Configure a Siri shortcut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-siri-shortcuts-2.md).
 
--   **[Configure a Siri shortcut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-siri-shortcuts-2.md)**  
+-   **[Configure a Siri shortcut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-siri-shortcuts-2.md)**  
 Change the destination screen of your Siri shortcuts to direct your users to a different screen than the default.
 
-**Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/imp-considerations.md)
+**Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/imp-considerations.md)
 

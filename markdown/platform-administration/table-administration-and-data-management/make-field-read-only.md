@@ -2,7 +2,7 @@
 title: Make a field read only
 description: Control whether a field is read only and whether it can be changed by a client script and server-side APIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/make-field-read-only.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/make-field-read-only.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -24,7 +24,7 @@ Role required: admin
 
 You can customize the behavior of a read-only field, including whether a client script or server-side API can modify the read-only field value. You control the read-only behavior by updating the **Read only option** field in a dictionary record.
 
-For details on read only options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/read-only-option.md).
+For details on read only options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/read-only-option.md).
 
 ## Procedure
 
@@ -72,5 +72,5 @@ Prevents any changes to the read-only field from both client scripts and server-
 </table>3.  Select **Update**.
 
 
-**Parent Topic:**[Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/read-only-option.md)
+**Parent Topic:**[Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/read-only-option.md)
 

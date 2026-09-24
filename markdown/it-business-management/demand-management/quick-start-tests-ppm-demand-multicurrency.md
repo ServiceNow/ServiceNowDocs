@@ -2,7 +2,7 @@
 title: Quick start tests for Multicurrency in Demand Management
 description: Validate that the multicurrency in Demand Management still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/quick-start-tests-ppm-demand-multicurrency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/quick-start-tests-ppm-demand-multicurrency.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -27,7 +27,7 @@ Demand currency quick start tests require activating the PPM Standard Multicurre
 |Verify cost in demand currency on cost plan|Validate the calculation of cost plan breakdown with budget reference rate and verify the roll up to cost plan in demand currency.|Quebec|
 |Verify benefit in demand currency on benefit plan|Validate the calculation of benefit plan breakdown with budget reference rate and verify the roll up to benefit plan in demand currency.|Quebec|
 
-**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-demand.md)
+**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/multicurrency-demand.md)
 
 **Related topics**  
 

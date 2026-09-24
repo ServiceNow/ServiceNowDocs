@@ -2,7 +2,7 @@
 title: Require unique values for a field
 description: The system allows you to require that a field's values be unique. When this is done, the system will not let two records have the same value for that field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_RequiringUniqueValuesForAField.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_RequiringUniqueValuesForAField.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,17 +30,17 @@ The system also doesn't allow you to add a unique index if a non-unique index al
 
 2.  Right-click the field label in the form and select **Configure Dictionary**.
 
-3.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add the **Unique** field if it does not already appear.
+3.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md) to add the **Unique** field if it does not already appear.
 
 4.  Select the **Unique** check box.
 
 5.  **Update**.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/customize-fields-now-platform-landing.md)
 
 **Related topics**  
 
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md)
 

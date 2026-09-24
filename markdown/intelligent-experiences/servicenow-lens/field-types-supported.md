@@ -2,7 +2,7 @@
 title: Field types supported
 description: Learn about the field types that are currently supported with the ServiceNow AI Lens application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/field-types-supported.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-lens/field-types-supported.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -116,5 +116,5 @@ table\_name
 The value is only populated when the exact internal name of table is identified.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
+</table>**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
 

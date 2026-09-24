@@ -2,7 +2,7 @@
 title: Activate the Generate regulatory action plan agentic workflow
 description: Configure and activate the Generate regulatory action plan agentic workflow. This workflow uses AI agents to transform regulatory insights into actionable compliance strategies by analyzing impacted areas and historical alerts, then generating structured tasks with clear ownership and timelines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-actions-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-actions-workflow.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -21,7 +21,7 @@ Configure and activate the Generate regulatory action plan agentic workflow. Thi
 
 Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
 
-The regulatory alert recommendation skill and a regulatory alert with impacted areas defined are required to generate an action plan. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
+The regulatory alert recommendation skill and a regulatory alert with impacted areas defined are required to generate an action plan. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 

@@ -2,7 +2,7 @@
 title: Log data auto-mapping and mapping in Health Log Analytics
 description: By default, the HLA Engine tries to auto-map every incoming log line to the correct tags. You can change automatic mapping results manually by defining a JavaScript function.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-automapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-automapping.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -31,30 +31,30 @@ In the example, Health Log Analytics extracts the string "online\_store". It ana
 
 -   **Stop extraction of unneeded data**
 
-    If an extracted string is not descriptive enough or contains redundant text or information, you can stop extracting such expendable data. For more information, see [Stop extraction of unneeded log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-data-exclude.md).
+    If an extracted string is not descriptive enough or contains redundant text or information, you can stop extracting such expendable data. For more information, see [Stop extraction of unneeded log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-data-exclude.md).
 
 -   **Ensuring extraction of specific data**
 
-    You can make sure that Health Log Analytics extracts specific desired terms. For more information, see [Extract specific log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-data-extract.md).
+    You can make sure that Health Log Analytics extracts specific desired terms. For more information, see [Extract specific log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-data-extract.md).
 
 
 ## AI-assisted log mapping with ServiceNow Otto for ITOM
 
 AI-assisted log mapping using ServiceNow Otto for ITOM recommends optimal mapping configurations based on your log patterns. This approach reduces manual setup effort and improves accuracy without requiring custom JavaScript functions.
 
-For this capability to be enabled, the integration must be activated by selecting the Activate with AI option. This option enables AI-powered automatic mapping of log data to service instances and components for contextual alerts. When the integration is activated, ServiceNow Otto for ITOM collects and analyzes log data and suggests the best log field for mapping. You can override the suggested mapping by selecting a different log field from each list, if needed. For more information, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
+For this capability to be enabled, the integration must be activated by selecting the Activate with AI option. This option enables AI-powered automatic mapping of log data to service instances and components for contextual alerts. When the integration is activated, ServiceNow Otto for ITOM collects and analyzes log data and suggests the best log field for mapping. You can override the suggested mapping by selecting a different log field from each list, if needed. For more information, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
 
 ## Mapping data input sources manually by defining a JavaScript function
 
-You can also change automatic mapping results manually by defining a JavaScript function. [Data input mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md) enables you to organize your log data by service instance and by availability zone. A single service instance can include multiple components, and a component can receive logs from many different source types. An service instance-component pair, however, is unique. Source types are based on a specific log structure and format. Service instances and components are defined more broadly and are therefore used mainly for logical mapping.
+You can also change automatic mapping results manually by defining a JavaScript function. [Data input mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-mapping.md) enables you to organize your log data by service instance and by availability zone. A single service instance can include multiple components, and a component can receive logs from many different source types. An service instance-component pair, however, is unique. Source types are based on a specific log structure and format. Service instances and components are defined more broadly and are therefore used mainly for logical mapping.
 
 Activating **Test mode** avoids blowing up Elasticsearch storage with sample data that is used only for perfecting the log data mapping. When the data input is in Test mode, Health Log Analytics doesn’t create the source types, sources, or any other objects it creates in the standard flow. It saves the streamed data in dedicated temporary Elasticsearch indices that appear as components in the Log viewer. When you publish the script and exit Test mode, these temporary indices are deleted to minimize storage space consumption.
 
 When you're defining a JavaScript function, select **Test** to view the outcome of the script as it is currently specified. This functionality enables you to preview the created source types and sources. You can then refine the script until it achieves the desired outcome. For example, it can be useful to compare the test outcome of several versions of the JavaScript function.
 
-**Note:** By default, the test processes 100 log data samples. You can customize this number in the system properties. For more information, see [Configure global Health Log Analytics system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure.md).
+**Note:** By default, the test processes 100 log data samples. You can customize this number in the system properties. For more information, see [Configure global Health Log Analytics system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-system-properties-configure.md).
 
-During the data input setup, the system might create an excessive total number of data input sources. For example, this can be due to a faulty mapping script. You can configure limits for the number of sources created per data input in the [system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure.md):
+During the data input setup, the system might create an excessive total number of data input sources. For example, this can be due to a faulty mapping script. You can configure limits for the number of sources created per data input in the [system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-system-properties-configure.md):
 
 |System property|Description|Default|
 |---------------|-----------|-------|
@@ -65,18 +65,18 @@ The number of log sources that a specific data input has created displays in the
 
 ## Binding log data
 
-Binding log data to Configuration Items \(CIs\) in the Configuration Management Database \(CMDB\) enables you to search the CMDB for endpoints that match a log. When you configure a data input, you bind log entries to a service instance that is bound to a CI in the CMDB. Binding log entries, service instances, and CIs enables the HLA Engine to correlate them for use in root cause analysis \(RCA\). For more information, see [Configure a Rsyslog, Filebeat, or Winlogbeat data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-rsyslog-beats.md) or [Configure an Elasticsearch data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-elastic.md).
+Binding log data to Configuration Items \(CIs\) in the Configuration Management Database \(CMDB\) enables you to search the CMDB for endpoints that match a log. When you configure a data input, you bind log entries to a service instance that is bound to a CI in the CMDB. Binding log entries, service instances, and CIs enables the HLA Engine to correlate them for use in root cause analysis \(RCA\). For more information, see [Configure a Rsyslog, Filebeat, or Winlogbeat data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-rsyslog-beats.md) or [Configure an Elasticsearch data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-elastic.md).
 
--   **[Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md)**  
+-   **[Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-mapping.md)**  
 Mapping raw log data that streams into your ServiceNow instance determines how Health Log Analytics processes the data. If HLA doesn't discover properties automatically, you can map data input sources manually.
--   **[Source type and log source relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.md)**  
+-   **[Source type and log source relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.md)**  
 Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
--   **[Header properties detection in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-header-detection.md)**  
+-   **[Header properties detection in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-header-detection.md)**  
 In Health Log Analytics, automatic header properties detection separates the transport header from the inner log message and forwards only the inner log message to the source type structure. The inner message contains the actual log data without including shipping information.
--   **[Extract specific log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-data-extract.md)**  
+-   **[Extract specific log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-data-extract.md)**  
 Set Health Log Analytics to extract specified terms from logs and map them to specific components.
--   **[Stop extraction of unneeded log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-data-exclude.md)**  
+-   **[Stop extraction of unneeded log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-data-exclude.md)**  
 If an extracted string of data is not descriptive enough or contains redundant text or information, you can set Health Log Analytics to stop extracting such data from your logs.
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
 

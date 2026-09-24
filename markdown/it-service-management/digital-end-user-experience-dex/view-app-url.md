@@ -2,7 +2,7 @@
 title: View the domain or URL for a web application
 description: View the domain or web address of a web application to access the application and use it effectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-app-url.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/view-app-url.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

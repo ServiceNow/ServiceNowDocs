@@ -2,7 +2,7 @@
 title: Performance Analytics terms
 description: Performance Analytics uses terms and concepts that can differ from industry norms due to the unique nature of the ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/performance-analytics-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/performance-analytics-glossary.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

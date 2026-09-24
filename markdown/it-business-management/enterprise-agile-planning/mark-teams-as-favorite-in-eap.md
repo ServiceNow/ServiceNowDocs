@@ -2,7 +2,7 @@
 title: Add or remove teams from Favorites in EAP
 description: Add the EAP teams that you frequently work with to Favorites so that you can save time navigating to them in the workspace without searching for them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/mark-teams-as-favorite-in-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/mark-teams-as-favorite-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -18,7 +18,7 @@ Add the EAP teams that you frequently work with to Favorites so that you can sav
 
 ## Before you begin
 
-[Define agile structure in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/define-agile-structure-in-eap.md).
+[Define agile structure in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/define-agile-structure-in-eap.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -47,5 +47,5 @@ Role required: sn\_apw\_advanced.eap\_user
     The team is removed from the Favorites section.
 
 
-**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md)
 

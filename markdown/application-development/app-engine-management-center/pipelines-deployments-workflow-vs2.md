@@ -2,7 +2,7 @@
 title: Pipelines and Deployments workflow
 description: As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in versions 24.1.2 and later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/pipelines-deployments-workflow-vs2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/pipelines-deployments-workflow-vs2.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center

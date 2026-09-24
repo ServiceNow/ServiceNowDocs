@@ -2,7 +2,7 @@
 title: Submit a legal request
 description: Submit a legal request for yourself or on behalf of another user to seek services from the legal department.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/submit-legal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/submit-legal-request.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -24,8 +24,8 @@ Role required: sn\_lg\_ops.legal\_user
 
 You can also submit a legal request through your mobile device or the Virtual Agent chat.
 
--   For more information on submitting a legal request through a mobile device, see [Submit a legal request through Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-mobile/submit-legal-request-mobile.md).
--   To submit a legal request through Virtual Agent chat, you must have the Legal Virtual Agent Conversations application installed on your instance. For more information, see [Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md).
+-   For more information on submitting a legal request through a mobile device, see [Submit a legal request through Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-mobile/submit-legal-request-mobile.md).
+-   To submit a legal request through Virtual Agent chat, you must have the Legal Virtual Agent Conversations application installed on your instance. For more information, see [Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-va-conversations.md).
 
 ## Procedure
 
@@ -50,7 +50,7 @@ You can also submit a legal request through your mobile device or the Virtual Ag
 
 -   A legal request is created in the New state.
 
--   The request is assigned to a group or user in the legal department based on the [assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md) set in the associated practice area.
+-   The request is assigned to a group or user in the legal department based on the [assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md) set in the associated practice area.
 -   The Standard Ticket page displays that has the following tabs to perform different tasks:
     -   Activity: Track the activity history of the request and post messages for the fulfiller working on the request.
     -   Attachments or Documents: Upload and manage the documents in the legal request.
@@ -60,5 +60,5 @@ You can also submit a legal request through your mobile device or the Virtual Ag
     -   Request Details: Review request details.
 -   If the administrator has configured notifications, you receive notifications about the progress of the request.
 
-**Parent Topic:**[Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/submitting-legal-request.md)
+**Parent Topic:**[Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/submitting-legal-request.md)
 

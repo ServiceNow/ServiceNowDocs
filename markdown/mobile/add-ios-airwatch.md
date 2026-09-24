@@ -2,7 +2,7 @@
 title: Add the ServiceNow app for iOS to Workspace ONE UEM
 description: Configure the ServiceNow app for iOS for Workspace ONE UEM distribution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/add-ios-airwatch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/add-ios-airwatch.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -63,5 +63,5 @@ Role required: admin
 
 After adding the app to Workspace ONE UEM, it appears in the **Apps &amp; Books** &gt; **Applications** &gt; **Native** &gt; **Public** section of the Workspace ONE UEM portal. Mobile users can download the app from the Workspace ON UEM App Catalog app.
 
-**Parent Topic:**[Workspace ONE UEM Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/airwatch-mdm.md)
+**Parent Topic:**[Workspace ONE UEM Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/airwatch-mdm.md)
 

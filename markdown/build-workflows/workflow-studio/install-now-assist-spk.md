@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto for Creator
 description: Install the ServiceNow Otto for Creator application to use the spoke generation skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/install-now-assist-spk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/install-now-assist-spk.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

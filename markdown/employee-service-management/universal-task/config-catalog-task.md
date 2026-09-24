@@ -2,7 +2,7 @@
 title: Configure the catalog items for your service
 description: Filter the catalog items that you want to show in the Submit Catalog Item task for your service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/config-catalog-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-task/config-catalog-task.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -47,9 +47,9 @@ You can add filters to manage the catalog items that are available to a user. Fo
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Configure Universal Task for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-ut-for-service.md)
+**Previous topic:**[Configure Universal Task for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/config-ut-for-service.md)
 
-**Next topic:**[Configure the roles to view employee forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-config-empform-view-roles.md)
+**Next topic:**[Configure the roles to view employee forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/ut-config-empform-view-roles.md)
 

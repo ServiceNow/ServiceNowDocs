@@ -2,7 +2,7 @@
 title: Reviewing scripts incompatible with guarded script
 description: Guarded script records scripts that use unsupported JavaScript features in the Incompatible Guarded Scripts list when transactions calling those scripts are sent to the server.Review scripts that are incompatible with guarded script and either rewrite them to use supported features or create an exemption for scripts that can't be rewritten.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/incompatible-guarded-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/incompatible-guarded-scripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -17,7 +17,7 @@ breadcrumb: [Guarded script evaluator, Sandbox environment, Server-side scriptin
 
 Guarded script records scripts that use unsupported JavaScript features in the Incompatible Guarded Scripts list when transactions calling those scripts are sent to the server.
 
-**Note:** When guarded script is in Phase 1: Detection, scripts sent from authenticated users are recorded in the Incompatible Guarded Scripts list only if they have incompatible syntax. Scripts with incompatible APIs aren't recorded until Phase 2: Syntax enforcement. For information about JavaScript features and APIs supported by guarded script, see [JavaScript features supported by guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md).
+**Note:** When guarded script is in Phase 1: Detection, scripts sent from authenticated users are recorded in the Incompatible Guarded Scripts list only if they have incompatible syntax. Scripts with incompatible APIs aren't recorded until Phase 2: Syntax enforcement. For information about JavaScript features and APIs supported by guarded script, see [JavaScript features supported by guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/guarded-script.md).
 
 From the Incompatible Guarded Scripts list, you can analyze each incompatible script and determine whether to move complex logic to a script include or create an exemption. Consider the following factors when analyzing scripts:
 
@@ -26,11 +26,11 @@ From the Incompatible Guarded Scripts list, you can analyze each incompatible sc
 -   Business criticality of the functionality
 -   Feasibility of rewriting using supported guarded script features
 
-Automatic exemptions are created for incompatible scripts sent by authenticated users and detected during Phase 1: Detection and Phase 2: Syntax enforcement. To further secure your instance, you can still review any scripts that have automatic exemptions, update them to be compatible with guarded script, and then remove the exemptions. For more information about automatic exemptions, see [Guarded script enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md).
+Automatic exemptions are created for incompatible scripts sent by authenticated users and detected during Phase 1: Detection and Phase 2: Syntax enforcement. To further secure your instance, you can still review any scripts that have automatic exemptions, update them to be compatible with guarded script, and then remove the exemptions. For more information about automatic exemptions, see [Guarded script enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/guarded-script.md).
 
 For more information about remediating incompatible scripts, see the [Server-Side Sandbox Runtime Replacement \[KB2944435\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2944435) article on the Now Support Knowledge Base.
 
-**Parent Topic:**[Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md)
+**Parent Topic:**[Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/guarded-script.md)
 
 ## Update scripts incompatible with guarded script
 
@@ -60,15 +60,15 @@ Role required: guarded\_script\_admin or admin
 
     **Note:** In addition to recording incompatible scripts, guarded script logs errors for rejected scripts. To identify rejected scripts, navigate to **System Logs** &gt; **System Log** &gt; **Errors** with the following message: `KittyScript validation failed for <script name> with error: <error message> Source code: <script source>`. Use the script name and source code in the error message to locate the corresponding entry in the Incompatible Guarded Scripts list.
 
-<table id="choicetable_jkt_gpt_v3c"><thead><tr><th align="left" id="d927715e374">
+<table id="choicetable_jkt_gpt_v3c"><thead><tr><th align="left" id="d923764e374">
 
 Option
 
-</th><th align="left" id="d927715e377">
+</th><th align="left" id="d923764e377">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d927715e383">
+</th></tr></thead><tbody><tr><td id="d923764e383">
 
 **Move complex logic to a script include**
 
@@ -79,15 +79,15 @@ For scripts that contain complex logic and can be rewritten, move the logic to a
 3.  Create a script include that includes the removed code.
 4.  On the Script Include form, select **Sandbox enabled**.
 5.  Update the original script to call the new script include using a simple function call, such as `MyScriptInclude.function()`.
-For more information about creating script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md). You can test updated scripts by running them from the Scripts - Background module with **Execute in sandbox?** selected. For more information, see [Scripts - Background module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptsBackground.md).
+For more information about creating script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ScriptIncludes.md). You can test updated scripts by running them from the Scripts - Background module with **Execute in sandbox?** selected. For more information, see [Scripts - Background module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ScriptsBackground.md).
 
-</td></tr><tr><td id="d927715e434">
+</td></tr><tr><td id="d923764e434">
 
 **Create an exemption**
 
 </td><td>
 
-For scripts that can't be rewritten and are business-critical, create an exemption. Exempt scripts are routed to the script sandbox evaluator instead of the guarded script evaluator. For more information, see [Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox.md).**Warning:** Exemptions bypass the enhanced security provided by the guarded script evaluator and should be used sparingly.
+For scripts that can't be rewritten and are business-critical, create an exemption. Exempt scripts are routed to the script sandbox evaluator instead of the guarded script evaluator. For more information, see [Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-sandbox.md).**Warning:** Exemptions bypass the enhanced security provided by the guarded script evaluator and should be used sparingly.
 
 1.  From the Incompatible Guarded Scripts list, select a script.
 2.  Select **Add Exemption**.

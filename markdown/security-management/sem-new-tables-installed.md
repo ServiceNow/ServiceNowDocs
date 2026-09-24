@@ -2,7 +2,7 @@
 title: Security Exposure Management Workspace Tables
 description: The following are the tables installed with Security Exposure Management. These tables store Security Exposure Management-related configuration, rules, findings, and other data required for exposure assessment, remediation, scoring, and exception management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-new-tables-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-new-tables-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ The following are the tables installed with Security Exposure Management. These 
 |Security Exposure Management|Widget Aggregation \[sn\_sec\_sem\_m2m\_widget\_dashboard\]|Stores mapping between widgets, findings table, aggregation, and dashboards data.|
 |Security Exposure Management|Widget Grouping \[sn\_sec\_sem\_widget\_grouping\]|Stores widget group definitions for aggregations associated with selected dashboard widgets.|
 
-**Parent Topic:**[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-components-installed.md)
+**Parent Topic:**[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-components-installed.md)
 

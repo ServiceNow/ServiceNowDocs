@@ -2,7 +2,7 @@
 title: Download the AWS scripts
 description: Download the AWS scripts included within the guided setup of the Service Graph Connector for AWS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-dwld.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-dwld.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

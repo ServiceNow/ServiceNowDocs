@@ -2,10 +2,10 @@
 title: Content Understanding integrations
 description: Content Understanding integrates with ServiceNow solutions to extract, analyze, and summarize information documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/content-understanding-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/content-understanding-integrations.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Content Understanding, Enable AI experiences]
 ---
@@ -26,10 +26,10 @@ Content Understanding connects with the following ServiceNow products and capabi
 |IT Service Management \(ITSM\)|Attachment summarization. Agents can view a summary of attachment content along with the record summary in ITSM. Attachment summarization is available in Now Assist for ITSM.|[Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-itsm-skill.md)|
 |ServiceNow Otto for Virtual Agent|Document chat. Agents can receive chat responses based on document content. Document chat is available in ServiceNow Otto for Virtual Agent.|[Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/upload-documents-na-va.md)|
 
-**Parent Topic:**[Content Understanding Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-reference.md)
+**Parent Topic:**[Content Understanding Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/content-understanding-reference.md)
 
 **Related topics**  
 
 
-[Document Intelligence tool for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/document-visual-intelligence-skill-kit-tool.md)
+[Document Intelligence tool for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/document-visual-intelligence-skill-kit-tool.md)
 

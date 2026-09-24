@@ -2,12 +2,12 @@
 title: Edit a trace connection
 description: Update the configuration of an established trace connection to change its credentials, collection frequency, MID Server, or other settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-edit-trace-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-edit-trace-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-06-30"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -34,5 +34,5 @@ Role required: sn\_ai\_governance.ai\_steward
 
 The connection is updated. If the connection is active, AI Control Tower uses the new configuration at the next collection interval.
 
-**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md)
+**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-trace-connections.md)
 

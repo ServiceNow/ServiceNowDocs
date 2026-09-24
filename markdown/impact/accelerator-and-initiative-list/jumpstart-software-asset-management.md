@@ -2,7 +2,7 @@
 title: Jumpstart Your Software Asset Management
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Software Asset Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-software-asset-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-software-asset-management.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

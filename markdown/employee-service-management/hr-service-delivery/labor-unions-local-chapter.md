@@ -2,7 +2,7 @@
 title: Create a local chapter
 description: Use Local Chapters to set up and track the chapters of your union. Local chapters are children to labor unions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/labor-unions-local-chapter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/labor-unions-local-chapter.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,7 +50,7 @@ Labor union
 
 </td><td>
 
-The name of the labor union that the local chapter belongs to.**Note:** For more information, see [Create a labor union](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-create.md).
+The name of the labor union that the local chapter belongs to.**Note:** For more information, see [Create a labor union](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-unions-create.md).
 
 </td></tr><tr><td>
 
@@ -81,8 +81,8 @@ The website URL of the local union chapter.
 
     If you select **Save**, the **Labor Union Contacts** and **Employee Union Memberships** tabs appear.
 
-    **Note:** For more information on **Labor Union Contacts**, see [Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-union-contacts.md). For more information on **Employee Union Memberships**, see [Create employee union memberships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-union-employee-membership.md).
+    **Note:** For more information on **Labor Union Contacts**, see [Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-union-contacts.md). For more information on **Employee Union Memberships**, see [Create employee union memberships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-union-employee-membership.md).
 
 
-**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions.md)
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-unions.md)
 

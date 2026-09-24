@@ -2,7 +2,7 @@
 title: Configure an escalation rule
 description: Escalate a workplace case to the relevant assignment group by using an escalation rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/configure-escalation-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/configure-escalation-rule.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -41,7 +41,7 @@ Role required: sn\_wsd\_case.admin or sn\_wsd\_case.manager
 
 The escalation rule is created. The rule is displayed under the Related links of those workplace cases that have the assignment group \(specified in **Escalated from**\) for which the rule is created.
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

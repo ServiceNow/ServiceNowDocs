@@ -2,7 +2,7 @@
 title: Delegated development and deployment
 description: Delegated development allows designated users without a system admin role to develop or deploy applications on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/c\_DelegatedDevelopment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/delegated-development-and-deployment/c\_DelegatedDevelopment.html
 release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -36,7 +36,7 @@ Available options
 
 </th></tr></thead><tbody><tr><td>
 
-Setting deployment permissions in Manage Developers. See [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
+Setting deployment permissions in Manage Developers. See [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Publishing and upgrades of specific applications. Publishing options include the
 
 </td></tr><tr><td>
 
-Assignment of deployment user roles to specific persons. See [Instance-specific deployment user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/delegated_deployment_user_roles.md).
+Assignment of deployment user roles to specific persons. See [Instance-specific deployment user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/delegated_deployment_user_roles.md).
 
 </td><td>
 
@@ -63,24 +63,24 @@ First-time installations and upgrades of all applications that contain the same 
 
 Developer and deployment permissions are application-specific. For example, a developer who has permission to access all file types for one application does not necessarily have any developer permissions for another application. Administrators must set developer \(and optionally deployment\) permissions for each application. Administrators must be familiar with application files and the system table structure to set developer permissions. For example, a developer expected to create advanced business rules needs both the **All File Types** and **Allow Scripting** developer permissions.
 
-**Important:** If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md) is enabled, only an application administrator for the target application can delegate developers for an application. Application administrators do not have system admin privileges. To enable a delegated developer to perform the functions granted in the developer permissions, the delegated developer must also be given the application administrator role.
+**Important:** If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-administration.md) is enabled, only an application administrator for the target application can delegate developers for an application. Application administrators do not have system admin privileges. To enable a delegated developer to perform the functions granted in the developer permissions, the delegated developer must also be given the application administrator role.
 
 Setting each permission grants one or more system-managed delegated development roles, allowing system admins to retain control over the system. System admins no longer have to elevate developers \(or users who deploy applications\) to the system admin role to enable them to develop or deploy applications.
 
 ## Developer and deployment permissions example
 
-As a system administrator, you want to assign Abel Tuter certain developer and deployment permissions for a specific application in your development instance. For more details on developer and deployment permissions, see [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
+As a system administrator, you want to assign Abel Tuter certain developer and deployment permissions for a specific application in your development instance. For more details on developer and deployment permissions, see [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
 
 \[Omitted image "ManageDevelopers2.png"\] Alt text: manage developers permissions..
 
 **Related topics**  
 
 
-[Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationFiles.md)
+[Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_ApplicationFiles.md)
 
 [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md)
 
 [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallUpdates.md)
 
-[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md)
+[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_SharingApplications.md)
 

@@ -2,7 +2,7 @@
 title: Report vaccination status to your organization
 description: Provide your organization with information about whether you received a vaccine and the date that you received it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/report-vaccination-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/report-vaccination-status.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -116,11 +116,11 @@ The type of attachment that you are submitting if it is required by a validator 
 
 ## What to do next
 
-Your organization might require that you be vaccinated before returning to the site. To check your progress on all site entry requirements, see [View your health and safety status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/view-health-safety-status.md).
+Your organization might require that you be vaccinated before returning to the site. To check your progress on all site entry requirements, see [View your health and safety status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/view-health-safety-status.md).
 
 **Note:** You are not considered fully vaccinated until 14 days after receiving your vaccination \(single-dose vaccine\) or your final dose \(multi-dose vaccine\).
 
 Depending on your organization's requirements, if your vaccine has a vaccine booster available, you might not be considered fully vaccinated until you report receiving your booster.
 
-**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/vaccination-status.md)
 

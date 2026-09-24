@@ -2,7 +2,7 @@
 title: Create an invoice line manually
 description: Create invoice lines manually for an invoice when the invoice automation process doesn't capture this information from an incoming invoice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-invoice-line.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-line.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -33,17 +33,17 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 5.  On the Create New Invoice Line form, fill in the fields.
 
-    For a description of the field values, see [Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md).
+    For a description of the field values, see [Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md).
 
 6.  Select **Save**.
 
 
--   **[Invoice rejection modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-rejection-modes.md)**  
+-   **[Invoice rejection modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-rejection-modes.md)**  
 Invoice rejection modes control how Accounts Payable Operations processes exceptions, automatically by system or manual review.
--   **[Reject an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/reject-an-invoice-manually.md)**  
+-   **[Reject an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/reject-an-invoice-manually.md)**  
 Review exceptions flagged for manual rejection and reject an invoice from the invoice case when AP specialist confirmation is required.
--   **[Credit memo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-type-credit-memo.md)**  
+-   **[Credit memo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-type-credit-memo.md)**  
 Credit memo invoices in Accounts Payable Operations represent reductions or offsets in amounts payable to suppliers and can be created for both PO and Non-PO invoices, with the system identifying them based on specific indicators such as negative amounts.
 
-**Parent Topic:**[Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice.md)
+**Parent Topic:**[Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice.md)
 

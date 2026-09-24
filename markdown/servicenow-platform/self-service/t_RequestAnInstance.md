@@ -2,7 +2,7 @@
 title: Request an instance
 description: Request the provisioning of a new Amazon EC2 instance through the service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/t\_RequestAnInstance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/self-service/t\_RequestAnInstance.html
 release: australia
 product: Self-service
 classification: self-service
@@ -45,5 +45,5 @@ Role required: admin
     Upon successful creation of the instance, you receive an email containing the instance ID, IP address, and the public DNS for the instances created.
 
 
-**Parent Topic:**[Amazon EC2 instance request from the Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/c_AmazonEC2InstanceRequest.md)
+**Parent Topic:**[Amazon EC2 instance request from the Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/self-service/c_AmazonEC2InstanceRequest.md)
 

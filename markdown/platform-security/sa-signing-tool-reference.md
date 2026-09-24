@@ -2,7 +2,7 @@
 title: Signing Tool arguments
 description: Learn about the available arguments for the Signing Tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/sa-signing-tool-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/sa-signing-tool-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

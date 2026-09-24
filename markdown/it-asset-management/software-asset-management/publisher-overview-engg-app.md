@@ -2,7 +2,7 @@
 title: Publisher overview for Bentley Systems in the Software Asset Workspace
 description: View license usage information for Bentley Systems and its software models in the publisher overview in the Software Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/publisher-overview-engg-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/publisher-overview-engg-app.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -174,5 +174,5 @@ Denial trends
 Denial trends for SewerCAD for the last 30 days.Select a bar to view the complete list of users that have been denied the specified software product.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/concurrent-licenses.md)
+</table>**Parent Topic:**[Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/concurrent-licenses.md)
 

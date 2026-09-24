@@ -2,7 +2,7 @@
 title: Synchronizing an asset class with a configuration item class and install base class
 description: You can synchronize the asset class, configuration item \(CI\) class, and the install base class by mapping the model categories in the Customer Service Management \(CSM\) application. With this synchronization, the data can flow between the different entities because the same information is replicated on both entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-a-sync-between-an-install-base-class-and-asset-class.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-a-sync-between-an-install-base-class-and-asset-class.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ You can synchronize the asset class, configuration item \(CI\) class, and the in
 
 ## Overview
 
-By mapping the install base class, configuration item class, and asset class fields, you can synchronize the information on both the install base item and the asset form. This mapping creates a bidirectional synchronization. For example, you can update any one of the **Location**, **Install date**, **Consumer**, **Account**, **State**, and **Contact** fields on the install base item form to create a synchronization between the install base item and the asset form. For more information on the different fields on the install base form, see [Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-install-base-item.md).
+By mapping the install base class, configuration item class, and asset class fields, you can synchronize the information on both the install base item and the asset form. This mapping creates a bidirectional synchronization. For example, you can update any one of the **Location**, **Install date**, **Consumer**, **Account**, **State**, and **Contact** fields on the install base item form to create a synchronization between the install base item and the asset form. For more information on the different fields on the install base form, see [Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-install-base-item.md).
 
 **Note:** You must update the **Consumer** and **Account** fields from the install base item to synchronize the updates to the asset form. Updating the fields on the asset form doesn’t synchronize the updates to the install base item.
 

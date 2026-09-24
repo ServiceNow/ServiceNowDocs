@@ -2,7 +2,7 @@
 title: Enable enhanced address model for accounts
 description: Use the Account Address table in the enhanced address data model feature to link a location with multiple accounts without creating duplicate location records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-enhanced-address-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-enhanced-address-model.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

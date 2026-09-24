@@ -2,7 +2,7 @@
 title: Approval with e-Signature for change requests
 description: Use e-signatures to add an additional layer of verification and compliance to change approval workflows. e-signatures are supported in both Core UI and Service Operations Workspace \(SOW\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/approval-e-signature-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/approval-e-signature-changes.html
 release: australia
 product: Change Management
 classification: change-management
@@ -41,5 +41,5 @@ Before you can use e-signatures with change approvals, verify the following requ
 -   Change approvals are configured for the relevant change models or change types using Flow Designer flows, legacy workflows, or change approval policies.
 -   Approvers have the appropriate roles to approve change requests.
 
-**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/exploring-change-management.md)
+**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 

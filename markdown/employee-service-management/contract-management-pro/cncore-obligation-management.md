@@ -2,7 +2,7 @@
 title: Obligation Management
 description: Obligation Management in Contract Management Pro enables you to track and fulfill contractual responsibilities by creating obligation records and managing associated tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-obligation-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-obligation-management.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -48,7 +48,7 @@ The AI-powered obligation extraction process uses the manage contract repository
 
 1.  As a contract admin with the AI role, activate the contract obligation extraction skill in the AI Admin Hub console.
 
-    For more information, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+    For more information, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 2.  As a contract admin, activate the business rules.
 3.  The obligation extraction process is automatically initiated when a contract record is created.
@@ -74,7 +74,7 @@ The manual Obligation Management workflow starts after the signed contract is ad
 1.  A contract manager reviews the contract in the contract repository and creates obligation records for key obligations.
 2.  The contract manager provides the obligation details, including an obligation task schedule, in the obligation record.
 
-    For more information, see [Create obligation records manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md).
+    For more information, see [Create obligation records manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md).
 
 3.  Obligation tasks are created.
     -   For an ad hoc schedule, the contract manager creates an obligation task from the **Obligation tasks** tab.
@@ -88,14 +88,14 @@ The manual Obligation Management workflow starts after the signed contract is ad
     -   If the obligation task is rejected, the state of the task changes to Open, and the assigned user continues to work on it.
     -   If the obligation task is approved, the state of the task changes to Completed.
 
--   **[Create obligations using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md)**  
+-   **[Create obligations using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md)**  
 Create obligation records for signed contracts to fulfill the responsibilities specified in the contract. You can create obligations manually or use AI to automatically extract obligations from contract documents.
--   **[Create obligations manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-work-on-ob-tasks.md)**  
+-   **[Create obligations manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-work-on-ob-tasks.md)**  
 As an obligation user, work on obligation tasks to fulfill the obligation specified in the contract, and submit them for review.
--   **[Cancel an obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cancel-ob-task.md)**  
+-   **[Cancel an obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-cancel-ob-task.md)**  
 Cancel an open obligation task in Obligation Management that is no longer required.
--   **[Approve or reject obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-ob-tasks.md)**  
+-   **[Approve or reject obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-ob-tasks.md)**  
 As an obligation fulfiller, review obligation tasks in Obligation Management that have been submitted for approval, and take the appropriate action.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

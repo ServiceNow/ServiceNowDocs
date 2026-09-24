@@ -2,7 +2,7 @@
 title: Export a snapshot of a configuration item
 description: You can export a snapshot of a configuration item from its timeline.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ExportCIHistoryChanges.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ExportCIHistoryChanges.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

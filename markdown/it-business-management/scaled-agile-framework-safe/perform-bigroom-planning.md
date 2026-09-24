@@ -2,7 +2,7 @@
 title: Plan a SAFe program increment
 description: Plan your SAFe program increments \(PIs\) and track the progress of stories and features in an interactive planning board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/perform-bigroom-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/perform-bigroom-planning.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -56,7 +56,7 @@ Roles required:
 
     Click the dependencies icon to show or hide dependencies between the stories.
 
-    For more information on story dependencies, see [Add dependencies to your SAFe stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/add-dependencies-safe-stories.md).
+    For more information on story dependencies, see [Add dependencies to your SAFe stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/add-dependencies-safe-stories.md).
 
 8.  Update the group capacity of a team's sprint by clicking the sprint name.
 
@@ -65,5 +65,5 @@ Roles required:
     **Note:** You can update the sprint details only if you have the safe\_scrum\_master role.
 
 
-**Parent Topic:**[SAFe PI planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-pi-planning-board.md)
+**Parent Topic:**[SAFe PI planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-pi-planning-board.md)
 

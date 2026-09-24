@@ -2,7 +2,7 @@
 title: Workflow activities
 description: Workflow activity properties reference
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/c\_WorkflowActivities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/c\_WorkflowActivities.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -20,7 +20,7 @@ Workflow activity properties reference
 
 Each activity performs a different task, such as running a script, sending notifications, or requesting approvals. Activities can succeed or fail, which can result in actions performed by other activities.
 
-For information about configuring different types of activities, click an activity name in the list below or see [Workflow activities reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/wf-activity-overview.md).
+For information about configuring different types of activities, click an activity name in the list below or see [Workflow activities reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-activities/wf-activity-overview.md).
 
 ## Core activities provided in the base system
 
@@ -28,7 +28,7 @@ For information about configuring different types of activities, click an activi
 -   [Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ConditionActivites.md)
 -   [Notification workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_NotificationActivity.md)
 -   [Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_NotifyActivities.md)
--   [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflows-as-subflows.md)
+-   [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/workflows-as-subflows.md)
 -   [Task workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_TaskActivities.md)
 -   [Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TimerActivities.md)
 -   [Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UtilityActivities.md)

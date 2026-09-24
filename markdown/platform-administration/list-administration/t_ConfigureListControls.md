@@ -2,7 +2,7 @@
 title: Configure list controls
 description: You can configure list controls, such as buttons and filters.The following example shows how to configure a list of related incidents in a problem record to suit specific business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ConfigureListControls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_ConfigureListControls.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -132,7 +132,7 @@ Hierarchical lists
 
 </td><td>
 
-See [Enable a hierarchical list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_EnableAHierarchicalList.md). Hierarchical list inserted into a record list. Hierarchical lists enable a user to view the contents of a record's related lists without leaving the record list form. This field is available for standard lists only.
+See [Enable a hierarchical list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/t_EnableAHierarchicalList.md). Hierarchical list inserted into a record list. Hierarchical lists enable a user to view the contents of a record's related lists without leaving the record list form. This field is available for standard lists only.
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ List edit tag
 
 </td><td>
 
-Unique tag that is sent to a [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md) as the script variable *listEditRefQualTag*. Enter an arbitrary string of letters or numbers.
+Unique tag that is sent to a [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ReferenceQualifiers.md) as the script variable *listEditRefQualTag*. Enter an arbitrary string of letters or numbers.
 
 </td></tr><tr><td>
 
@@ -211,7 +211,7 @@ User roles required to have links generated for fields that reference other file
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_ListConfiguration.md)
+**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/c_ListConfiguration.md)
 
 ## Example of configuring list controls
 

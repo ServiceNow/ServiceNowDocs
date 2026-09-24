@@ -2,7 +2,7 @@
 title: Retire or archive a template
 description: Move a published slice template to a Retired or Archived state when the template is no longer in use. When you retire a template, you can't use it in a service specification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/retire-archive-template-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/retire-archive-template-somt.html
 release: australia
 topic_type: task
 last_updated: "2026-04-07"

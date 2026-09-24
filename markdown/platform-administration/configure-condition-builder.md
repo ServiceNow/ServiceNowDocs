@@ -2,7 +2,7 @@
 title: Update a conditions field to use condition builder v2
 description: In Core UI, you can update a conditions field to display the version 2 condition builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-condition-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configure-condition-builder.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

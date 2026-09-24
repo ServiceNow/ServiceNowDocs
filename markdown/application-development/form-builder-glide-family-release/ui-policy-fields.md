@@ -2,7 +2,7 @@
 title: Policies and rules properties in Table Builder
 description: You can configure the basic field policies and rules for any field that you work with in Table Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/ui-policy-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/form-builder-glide-family-release/ui-policy-fields.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -20,7 +20,7 @@ You can configure the basic field policies and rules for any field that you work
 
 The UI Policies section enables you to configure how forms appear based on roles and user input.
 
-To understand the basic field properties, see [Create a UI policy in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-policies-rules.md).
+To understand the basic field properties, see [Create a UI policy in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-builder-policies-rules.md).
 
 The following table shows the field descriptions for the Policy details section when adding or editing a UI policy.
 
@@ -550,5 +550,5 @@ The following table shows field descriptions for the Workspace view rules sectio
 |Disable section collapsing|Option to enable or disable section collapsing.|
 |Default tab order|Order in which form tabs appear by default.|
 
-**Parent Topic:**[Table Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-reference.md)
+**Parent Topic:**[Table Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/fb-reference.md)
 

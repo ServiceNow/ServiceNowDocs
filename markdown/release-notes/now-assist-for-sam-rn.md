@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Software Asset Management \(SAM\) release notes
 description: The ServiceNow ServiceNow Otto for Software Asset Management \(SAM\) application brings generative AI to IT Asset Management. Now Assist for SAM was enhanced and updated was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Software Asset Management \(SAM\) application brings generative AI to IT Asset Management. Now Assist for SAM was enhanced and updated was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-sam-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-sam-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ See [ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubus
     TBD.
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## Australia
 

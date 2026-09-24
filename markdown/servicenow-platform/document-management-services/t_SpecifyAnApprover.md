@@ -2,7 +2,7 @@
 title: Specify an approver
 description: You can specify approvers for a document record after you save it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_SpecifyAnApprover.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/t\_SpecifyAnApprover.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -45,5 +45,5 @@ You can have one approver or multiple approvers. For example, set multiple appro
 6.  Repeat steps 2-5 to add more approvers.
 
 
-**Parent Topic:**[Create or request a new document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/t_CreateOrRequestANewDocument.md)
+**Parent Topic:**[Create or request a new document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/t_CreateOrRequestANewDocument.md)
 

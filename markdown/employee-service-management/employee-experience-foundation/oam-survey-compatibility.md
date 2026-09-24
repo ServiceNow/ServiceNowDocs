@@ -2,7 +2,7 @@
 title: Outlook Actionable Messages compatibility for surveys
 description: Survey definitions must be compatible with Outlook Actionable Messages \(OAM\) to display surveys in the Microsoft Outlook application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/oam-survey-compatibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/oam-survey-compatibility.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,7 +25,7 @@ The survey definition must meet the following conditions to be compatible with O
 -   The survey must not contain image scale questions with other question types. For more information, see [Survey question data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyQuestionDataTypes.md).
 -   The survey can only contain one image scale question.
 
-**Note:** If the survey contains more questions than the value of the **sn\_ms\_oam.feedback\_survey\_question\_count** system property, the survey opens on the portal specified in the **sn\_ms\_oam.portal.suffix** property. For more information, see [Configure system properties to update the survey question limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-survey-question-limit.md).
+**Note:** If the survey contains more questions than the value of the **sn\_ms\_oam.feedback\_survey\_question\_count** system property, the survey opens on the portal specified in the **sn\_ms\_oam.portal.suffix** property. For more information, see [Configure system properties to update the survey question limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-survey-question-limit.md).
 
-**Parent Topic:**[ServiceNow for Microsoft Outlook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-outlook-reference.md)
+**Parent Topic:**[ServiceNow for Microsoft Outlook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-ms-outlook-reference.md)
 

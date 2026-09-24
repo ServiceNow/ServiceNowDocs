@@ -2,7 +2,7 @@
 title: Train the similarity solution for Project Management to find similar projects
 description: Train the Similar Projects solution definition included within the Predictive Intelligence for PPM capability to find related projects when defining a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/train-similarity-solution-pm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/train-similarity-solution-pm.html
 release: australia
 product: Project Management
 classification: project-management
@@ -56,7 +56,7 @@ When the solution is complete, the similar projects appear in the Similar projec
 
 [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)
 
-[Predictive Intelligence for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/predictive-intelligence-for-project.md)
+[Predictive Intelligence for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/predictive-intelligence-for-project.md)
 
-[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 

@@ -2,7 +2,7 @@
 title: X Spoke \(formerly Twitter Spoke\)
 description: Use the X spoke \(formerly Twitter spoke\) to have private chats and group chats, and to automatically tweet messages or media in your X account from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/twitter-spoke-ol.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/twitter-spoke-ol.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -64,7 +64,7 @@ Tweets a message or media. Messages and media are tweeted as per X limits.**Note
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Spokes and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Spokes and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 The X Spoke provides AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance. For more information about AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
@@ -97,5 +97,5 @@ Integration Hub uses aliases to manage connection and credential information. Us
 
 **Note:** Two connection and credential alias records are needed for the X spoke. One for tweeting messages and other for tweeting media. Each alias should be associated with the respective X API.
 
-For information about setting up the spoke, see [Set up the X spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-x-spk.md).
+For information about setting up the spoke, see [Set up the X spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-x-spk.md).
 

@@ -2,7 +2,7 @@
 title: Move employees on a floor or to a different floor using the map
 description: Using the building's Floor map view, move single or multiple employees on a floor or to a different floor. Assign or unassign a space to an employee.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/move-employees-on-a-floor-or-to-a-different-floor-using-the-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/move-employees-on-a-floor-or-to-a-different-floor-using-the-map.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -197,7 +197,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
         To unassign an employee from the space, use the **Unassign** option.
 
 
-**Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/map-based-space-administration.md)
+**Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/map-based-space-administration.md)
 
 **Related topics**  
 

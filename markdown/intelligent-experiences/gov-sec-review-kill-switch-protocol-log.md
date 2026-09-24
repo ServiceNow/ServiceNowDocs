@@ -2,12 +2,12 @@
 title: Review the agent containment list
 description: The agent containment list shows agents that were deactivated and reinstated for the instance manually with kill switch protocol or automatically by policy enforcement. You can view audit log information for each AI agent which can help you stay compliant with regulatory guidance and your business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Contain AI agents manually using kill switch protocol, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -99,5 +99,5 @@ Select one of the following:-   **View details** — Opens a side panel with two
 </table>2.  Select **All**, **In progress**, or **Contained** to filter the list.
 
 
-**Parent Topic:**[Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)
+**Parent Topic:**[Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)
 

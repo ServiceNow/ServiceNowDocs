@@ -2,7 +2,7 @@
 title: MID Server certificate check policies
 description: MID Server uses four kinds of security checks to secure external traffic. The security checks use TLS/SSL certificate validation, hostname validation, Certificate Revocation List \(CRL\), and Online Certificate Status Protocol \(OCSP\) validation to improve security. Control these security checks with the MID Server certificate check policies table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-security-checks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-security-checks.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -86,7 +86,7 @@ For upgrading customers, the intranet policy has the certificate validation chec
 
 **Note:** Internal endpoints or URLs need to possess a valid CA signed certificate for a successful connection.
 
-For endpoints that host a self-signed certificate, either import the certificate to the MID Server trust store or disable the policy checks which validate that host. For more information about adding certificates, see [Add SSL certificates for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/add-ssl-certificates.md).
+For endpoints that host a self-signed certificate, either import the certificate to the MID Server trust store or disable the policy checks which validate that host. For more information about adding certificates, see [Add SSL certificates for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/add-ssl-certificates.md).
 
 After upgrading to Quebec, go to the certificate check policies table and make changes to policy configuration if necessary. Once the MID Server starts up and connects to the instance, any subsequent HTTPS connection originating from the MID server will start applying these certificate checks at runtime. Insecure connections are broken with appropriate error messages.
 
@@ -107,7 +107,7 @@ The default parameters in the **config.xml** are:
 
 Self-hosted or on-prem instances must add the following parameter for the **config.xml**: `<parameter name="mid.ssl.bootstrap.default.target_endpoint" value="FQDN_OF_THE_INSTANCE"/>`
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 

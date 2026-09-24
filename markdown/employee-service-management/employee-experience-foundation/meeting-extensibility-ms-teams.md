@@ -2,7 +2,7 @@
 title: Meeting Extensions for Microsoft Teams
 description: The Meeting extensions for Microsoft Teams enables the major incident manager, and the participants to view the communication tasks from within Microsoft Teams during an active conference call.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/meeting-extensibility-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/meeting-extensibility-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -24,15 +24,15 @@ The data on the **Incident details** tab and **Communication tasks** tab is upda
 
 You must perform the following activities to integrate Meeting Extensions app in ServiceNow instance:
 
-1.  Ensure you have completed Notify connector for Microsoft Teams related procedures. For more information, see [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md).
-2.  [Install Meeting Extensions for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-meeting-ext-ms-teams.md)
-3.  [Setting up the ServiceNow instance for Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-tenants.md)
-    -   [Integrate Meeting Extensions pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-multi-tenant.md)
-    -   [Integrate Meeting Extensions self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-single-tenant.md)
+1.  Ensure you have completed Notify connector for Microsoft Teams related procedures. For more information, see [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md).
+2.  [Install Meeting Extensions for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-meeting-ext-ms-teams.md)
+3.  [Setting up the ServiceNow instance for Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-tenants.md)
+    -   [Integrate Meeting Extensions pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-multi-tenant.md)
+    -   [Integrate Meeting Extensions self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-single-tenant.md)
 
-To use Meeting Extensions for Microsoft Teams with ServiceNow, see [Use Microsoft Teams Meeting Extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c-agent-ex-use-meet-ext.md).
+To use Meeting Extensions for Microsoft Teams with ServiceNow, see [Use Microsoft Teams Meeting Extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c-agent-ex-use-meet-ext.md).
 
-**Parent Topic:**[Explore Microsoft Teams integration for Agent Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_agent_experience.md)
+**Parent Topic:**[Explore Microsoft Teams integration for Agent Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_agent_experience.md)
 
 **Related topics**  
 

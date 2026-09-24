@@ -2,7 +2,7 @@
 title: Link an automated indicator to a benchmark
 description: To enable the comparison of indicators to ITSM and ITOM benchmarks, link an automated indicator to the corresponding benchmark KPI. A benchmark KPI can be linked to only one indicator. You can compare the linked indicators in the Analytics Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/link-automated-indicator-benchmark.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/link-automated-indicator-benchmark.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -30,7 +30,7 @@ Used together, benchmarking and Performance Analytics enables you to measure you
 
 ## Procedure
 
-1.  In the list of [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) or the list of formula indicators, identify which benchmark indicator you want to link to which other indicator.
+1.  In the list of [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) or the list of formula indicators, identify which benchmark indicator you want to link to which other indicator.
 
     Benchmark indicator names begin with the word **Benchmark**.
 
@@ -55,5 +55,5 @@ Used together, benchmarking and Performance Analytics enables you to measure you
 
 ## Result
 
-After you update the benchmark KPI record, you can compare the benchmark KPI and the automated indicator on the **Compare** tab of the Analytics Hub for the automated indicator. For more information and an example, see [Compare scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/scorecard-compare-tab.md).
+After you update the benchmark KPI record, you can compare the benchmark KPI and the automated indicator on the **Compare** tab of the Analytics Hub for the automated indicator. For more information and an example, see [Compare scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/scorecard-compare-tab.md).
 

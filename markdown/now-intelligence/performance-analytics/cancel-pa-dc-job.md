@@ -2,7 +2,7 @@
 title: Cancel a data collection job
 description: Cancel an active data collection job to stop the job from collecting scores.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/cancel-pa-dc-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/cancel-pa-dc-job.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -29,5 +29,5 @@ Role required: pa\_data\_collector and schedule\_admin, or admin
 3.  Click **Cancel Job**.
 
 
-**Parent Topic:**[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md)
+**Parent Topic:**[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ClctData.md)
 

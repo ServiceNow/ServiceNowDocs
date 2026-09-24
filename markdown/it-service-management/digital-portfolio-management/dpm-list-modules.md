@@ -2,7 +2,7 @@
 title: Work with lists in Digital Portfolio Management
 description: Work with lists in the Digital Portfolio Management Workspace. Lists enable you to view service and application information that is not in a personal portfolio or an enterprise portfolio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-list-modules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-list-modules.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -61,5 +61,5 @@ Use the **List** tab in Digital Portfolio Management \(DPM\), to view lists of s
         The copied link contains a unique list ID so when selected, it goes directly to the list that you want to share.
 
 
-**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
+**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-working-with.md)
 

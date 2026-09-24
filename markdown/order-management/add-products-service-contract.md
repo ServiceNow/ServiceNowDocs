@@ -2,7 +2,7 @@
 title: Add a sold product or install base item to a customer contract
 description: Add the sold products or the install base items covered to customer contracts, contract lines, or entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-products-service-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-products-service-contract.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -134,5 +134,5 @@ Procedure
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Using Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-post-sales-support.md)
+**Parent Topic:**[Using Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-post-sales-support.md)
 

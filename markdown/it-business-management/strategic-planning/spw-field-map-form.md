@@ -2,7 +2,7 @@
 title: Field Map form
 description: Learn about the fields of the Field Map form, which are used while creating a custom field mapping configuration for SPW Jira Integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/spw-field-map-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/spw-field-map-form.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -65,10 +65,10 @@ Internal Table
 Table in Strategic Planning.This field is auto-populated based on the Table Map selection.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
+</table>**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
 
 **Related topics**  
 
 
-[Create custom field mapping for SPW Jira integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/custom-mapping-configuration-spw-jira.md)
+[Create custom field mapping for SPW Jira integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/custom-mapping-configuration-spw-jira.md)
 

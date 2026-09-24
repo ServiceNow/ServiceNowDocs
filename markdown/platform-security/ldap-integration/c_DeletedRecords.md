@@ -2,7 +2,7 @@
 title: Record LDAP deletions
 description: By default, the instance does not delete any entries after they disappear from LDAP.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_DeletedRecords.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ldap-integration/c\_DeletedRecords.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

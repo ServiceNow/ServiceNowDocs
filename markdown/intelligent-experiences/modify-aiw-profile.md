@@ -2,7 +2,7 @@
 title: Edit the profile of an AI specialist in the legacy AI Agent Studio
 description: Modify the profile of an AI specialist in the legacy AI Agent Studio to set its name, description, roles, and assignment groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/modify-aiw-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/modify-aiw-profile.html
 release: australia
 topic_type: task
 last_updated: "2026-08-11"
@@ -23,7 +23,7 @@ Role required: sn\_aia.admin
 
 AI specialists profiles determine the unique specialties of the AI specialist. Choosing the right roles helps give your AI specialist the context necessary to accomplish its tasks.
 
-To learn how to modify the tasks that an AI specialist is capable of, see [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks.md).
+To learn how to modify the tasks that an AI specialist is capable of, see [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-tasks.md).
 
 ## Procedure
 

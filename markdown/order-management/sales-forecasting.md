@@ -2,7 +2,7 @@
 title: Sales Forecasting
 description: Project your future sales and revenue based on data from opportunities, historical performance, and pipeline analysis using Sales Forecasting. With this application, sales managers can allocate resources effectively, receive constructive feedback, and forecast sales with precision to make informed decisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/sales-forecasting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/sales-forecasting.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,6 +32,6 @@ Sales managers own the overall forecast for a group of sales representatives. Sa
 
 The following topics provide more information about configuring and using Sales Forecasting:
 
--   [Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-forecasting.md)
--   [Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+-   [Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-sales-forecasting.md)
+-   [Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-sales-forecasting.md)
 

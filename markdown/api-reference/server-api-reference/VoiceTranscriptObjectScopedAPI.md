@@ -2,7 +2,7 @@
 title: VoiceTranscriptObject - Scoped
 description: The VoiceTranscriptObject scriptable API provides methods to save third-party voice conversation transcript data to a table within a ServiceNow instance.Adds the specified messages to the specified voice transaction record.Creates a conversation record within the Conversation \[sys\_cs\_conversation\] table for the specified interaction.Terminates the specified voice interaction. Once called, no additional voice messages are translated and stored for the phone conversation.Saves third-party voice conversation transcript data to tables within a ServiceNow instance that is then accessible through Customer Service Management \(CSM\).Creates a voice interaction record within the Interaction \[interaction\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/VoiceTranscriptObjectScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/VoiceTranscriptObjectScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -24,7 +24,7 @@ When calling the `VoiceTranscriptObject` class, use the `sn_cs` namespace identi
 
 This API is available in the base ServiceNow system. Access is restricted by the ACLs imposed on the Interaction \[interaction\] and Conversation \[sys\_cs\_conversation\] tables.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## VoiceTranscriptObject - addVoiceInteractionMessage\(String interactionId, String Json\)
 
@@ -54,7 +54,7 @@ String
 
 </td><td id="VTO-interactionId-entry">
 
-Sys\_id of the interaction record to add the specified messages to. This value is returned by the [VoiceTranscriptObject - startVoiceInteraction\(String Json\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/VoiceTranscriptObjectScopedAPI.md) method.Table: Interaction \[interaction\]
+Sys\_id of the interaction record to add the specified messages to. This value is returned by the [VoiceTranscriptObject - startVoiceInteraction\(String Json\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/VoiceTranscriptObjectScopedAPI.md) method.Table: Interaction \[interaction\]
 
 </td></tr><tr id="vto-json_string-row"><td>
 
@@ -337,7 +337,7 @@ String
 
 </td><td>
 
-Sys\_id of the interaction record for which to create a conversation record. This value is returned by the [VoiceTranscriptObject - startVoiceInteraction\(String Json\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/VoiceTranscriptObjectScopedAPI.md) method and stored in the Interaction \[interaction\] table.
+Sys\_id of the interaction record for which to create a conversation record. This value is returned by the [VoiceTranscriptObject - startVoiceInteraction\(String Json\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/VoiceTranscriptObjectScopedAPI.md) method and stored in the Interaction \[interaction\] table.
 
 </td></tr><tr><td>
 

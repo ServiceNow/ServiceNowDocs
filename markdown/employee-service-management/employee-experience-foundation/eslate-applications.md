@@ -2,7 +2,7 @@
 title: Featured applications
 description: Employees can discover, access, and manage all their business applications from a single location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-applications.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -32,7 +32,7 @@ With the Featured applications, you can:
 -   Log in with single sign-on \(SSO\) integration.
 -   Review application descriptions and metadata to access details about the application.
 
-For more information on how to configure applications, see [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee-about.md).
+For more information on how to configure applications, see [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-application-employee-about.md).
 
 ## Quick access to applications
 

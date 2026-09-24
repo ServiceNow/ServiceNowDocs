@@ -2,7 +2,7 @@
 title: Send a scenario for approval
 description: After publishing the scenario, send your scenario for approval to workplace managers of your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/send-a-scenario-for-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/send-a-scenario-for-approval.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -21,7 +21,7 @@ After publishing the scenario, send your scenario for approval to workplace mana
 Ensure the following:
 
 1.  [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
-2.  [Publish a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/publish-a-scenario.md)
+2.  [Publish a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/publish-a-scenario.md)
 
 Role required: sn\_wsd\_spcmgmt.space\_planner
 
@@ -47,15 +47,15 @@ After you publish a scenario, send the scenario for approval. The scenario will 
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d390644e159">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d390648e159">
 
 Path
 
-</th><th align="left" id="d390644e162">
+</th><th align="left" id="d390648e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d390644e168">
+</th></tr></thead><tbody><tr><td id="d390648e168">
 
 **From the Scenarios list section**
 
@@ -69,7 +69,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d390644e193">
+</td></tr><tr><td id="d390648e193">
 
 **From the Buildings list section**
 
@@ -88,11 +88,11 @@ The stack plan view of the building opens.
 
 4.  Review the scenario.
 
-    Refer to [Review a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/review-a-scenario.md).
+    Refer to [Review a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/review-a-scenario.md).
 
 5.  If the scenario is not published, then publish the scenario.
 
-    Refer to [Publish a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/publish-a-scenario.md).
+    Refer to [Publish a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/publish-a-scenario.md).
 
 6.  After publishing, click **Send for approval** to send the scenario for approval.
 
@@ -132,7 +132,7 @@ The scenario approval process is completed.
 
 [Deploy a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 

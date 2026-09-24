@@ -2,7 +2,7 @@
 title: Maintaining AI assets
 description: There are important maintenance considerations for applications that include AI assets, which go beyond the maintenance practices for traditional custom applications. Learn about how to maintain applications that contain AI assets on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-maintaining-ai-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/dev-get-start-maintaining-ai-assets.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-31"
@@ -18,5 +18,5 @@ AI assets introduce additional considerations for application maintenance. Unlik
 
 AI Control Tower is the primary tool for monitoring and managing AI assets after deployment. AI Control Tower provides a centralized view of your skills, AI agents, and agentic workflows, including their performance, usage, and lifecycle status, so that you can identify issues and take action before they affect your users. For more information, see [AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md).
 
-**Parent Topic:**[Adding AI to your apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-adding-ai-to-your-apps.md)
+**Parent Topic:**[Adding AI to your apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-get-start-adding-ai-to-your-apps.md)
 

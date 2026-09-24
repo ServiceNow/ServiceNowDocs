@@ -2,7 +2,7 @@
 title: TCP connection discovery
 description: Discovery identifies and classifies information about TCP connections using the ADM and ADME probes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoTCPConnections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r\_DataCollDiscoTCPConnections.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -321,10 +321,10 @@ Controls the size of the result, including the payload.**Note:** If this is grea
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
+</table>**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_NetworkDevices.md)
 
 **Related topics**  
 
 
-[Application Dependency Mapping \(ADM\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ApplicationDependencyMapping.md)
+[Application Dependency Mapping \(ADM\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ApplicationDependencyMapping.md)
 

@@ -2,7 +2,7 @@
 title: Create a record in CSM Configurable Workspace
 description: Create a record in CSM Configurable Workspace from the Record tab menu.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-record-from-workspace-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-record-from-workspace-tab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

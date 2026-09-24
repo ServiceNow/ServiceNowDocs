@@ -2,7 +2,7 @@
 title: Microsoft OneLake
 description: The Microsoft OneLake connector provides read-only access to data and metadata in Microsoft OneLake.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/microsoft-onelake-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/microsoft-onelake-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
 
 The Microsoft OneLake connector provides read-only access to data and metadata in Microsoft OneLake.
 
-A connection admin can set up a connection to Microsoft OneLake in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Microsoft OneLake. This allows users to access Microsoft OneLake data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+A connection admin can set up a connection to Microsoft OneLake in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Microsoft OneLake. This allows users to access Microsoft OneLake data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md).
 
 **Important:** The Microsoft OneLake primary connector is in preview. A primary connector in preview is developed and supported by ServiceNow, but is still being enhanced to include all planned functionality. While in preview, a connector may have limitations in platform support or available features.
 
@@ -56,5 +56,5 @@ The following table lists supported Microsoft OneLake data types and the default
 **Related topics**  
 
 
-[Create a Microsoft OneLake connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-microsoft-onelake-connection.md)
+[Create a Microsoft OneLake connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-microsoft-onelake-connection.md)
 

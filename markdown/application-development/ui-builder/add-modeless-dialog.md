@@ -2,7 +2,7 @@
 title: Add modeless dialog to a UI Builder page
 description: Learn how to add a modeless dialog in UI Builder. A modeless dialog is a floating window containing content above a page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-modeless-dialog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/add-modeless-dialog.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -30,11 +30,11 @@ The following steps walk you through the process of configuring a button to open
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open or create a page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md).
 
 4.  In the content tree, move your mouse to **Modeless dialogs**, select the + icon, and select the **Modeless dialog** component.
 
@@ -155,5 +155,5 @@ The following steps walk you through the process of configuring a button to open
     \[Omitted image "modeless-dialog-minimized-component.png"\] Alt text: Minimized dialogs component selected with the drop down showing the draft email option.
 
 
-**Parent Topic:**[Create modeless dialogs in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-modeless-dialog.md)
+**Parent Topic:**[Create modeless dialogs in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/uib-modeless-dialog.md)
 

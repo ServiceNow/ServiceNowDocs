@@ -2,7 +2,7 @@
 title: Placeholder activity
 description: Display an activity card in Playbooks to indicate what a future activity does.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/placeholder-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/placeholder-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

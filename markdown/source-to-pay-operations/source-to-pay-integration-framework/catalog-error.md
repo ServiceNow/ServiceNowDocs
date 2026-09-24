@@ -2,7 +2,7 @@
 title: Catalog Error staging table
 description: The Catalog Error \[sn\_spend\_intg\_catalog\_error\] staging table temporarily stores important data about any catalog errors before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/catalog-error.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/catalog-error.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -21,7 +21,7 @@ The Catalog Error \[sn\_spend\_intg\_catalog\_error\] staging table temporarily 
 |Manufacturer/publisher part number \(MPN\)|String|Manufacturer or publisher’s unique identifier for the product.|
 |Supplier part number|String|Unique identifier assigned by a supplier to a specific product or part that they provide.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

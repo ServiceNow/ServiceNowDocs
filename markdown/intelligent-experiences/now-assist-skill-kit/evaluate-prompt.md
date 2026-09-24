@@ -2,7 +2,7 @@
 title: Evaluate a prompt
 description: Use the AI Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -113,7 +113,7 @@ Create a dataset from a data collection
     5.  Add more information and select **Submit**.
 
 
-**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Knowledge Breadcrumbs widget
 description: Help users navigate a knowledge base by adding the Knowledge Breadcrumbs widget. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/knowledge-breadcrumbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/knowledge-breadcrumbs.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -30,7 +30,7 @@ The widget also includes a search box so that you can search for an article by n
 
 Use the instance options to configure the Knowledge Breadcrumbs widget for a portal page.
 
-**Note:** The AI Search instance options apply only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+**Note:** The AI Search instance options apply only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-ais-sp.md).
 
 <table id="table_jtv_wws_jnb"><thead><tr><th>
 
@@ -101,7 +101,7 @@ AI Search Source Filter
 Content that portal users can search on, including tables in your instance or external data sources. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/km-widgets.md)
+</table>**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/km-widgets.md)
 
 **Related topics**  
 

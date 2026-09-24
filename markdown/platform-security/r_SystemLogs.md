@@ -2,7 +2,7 @@
 title: System log
 description: View warnings and errors for instance processes, records, and non-critical events, such as memory usage on the server machine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_SystemLogs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_SystemLogs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -63,7 +63,7 @@ Message
 
 </td><td>
 
-System-generated message regarding the nature of the occurrence.**Note:** Long messages and stack traces are collapsed by default and can be expanded. To disable, see [Disable stack trace formatting in system logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/diable-system-log-display.md).
+System-generated message regarding the nature of the occurrence.**Note:** Long messages and stack traces are collapsed by default and can be expanded. To disable, see [Disable stack trace formatting in system logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/diable-system-log-display.md).
 
 </td></tr><tr><td>
 

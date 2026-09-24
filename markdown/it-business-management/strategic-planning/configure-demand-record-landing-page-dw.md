@@ -2,7 +2,7 @@
 title: Configure the landing page for created demand records
 description: Configure a system property that controls which tab opens when a demand record is created. Set this property to match your team's workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/configure-demand-record-landing-page-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/configure-demand-record-landing-page-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -88,5 +88,5 @@ To change the landing page after setting this property, open the system property
 
 [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t\_AddAPropertyUsingSysPropsList.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
-[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-demand-from-dw.md)
+[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-demand-from-dw.md)
 

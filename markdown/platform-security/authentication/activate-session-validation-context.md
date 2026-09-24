@@ -2,7 +2,7 @@
 title: Activate session validation context
 description: Use session validation context to restrict access to ServiceNow when hijackers copy a user's session cookies from one device to another to impersonate the session or restricts the user's session access if they’re using an insecure network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-session-validation-context.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/activate-session-validation-context.html
 release: australia
 product: Authentication
 classification: authentication
@@ -45,5 +45,5 @@ To use the session validation, you must perform the following steps:
 
 ## Result
 
-The Session Validation feature is activated. You can configure the policy inputs and conditions for the policy to use the feature. To learn more, see [Tutorial: Configuring session validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/use-ip-session-context.md).
+The Session Validation feature is activated. You can configure the policy inputs and conditions for the policy to use the feature. To learn more, see [Tutorial: Configuring session validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/use-ip-session-context.md).
 

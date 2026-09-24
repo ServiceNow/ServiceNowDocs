@@ -2,7 +2,7 @@
 title: Set design-time access to application tables
 description: Set these access permissions to protect application tables at design-time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/t\_SetDesignTimeAccessToAppTables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/t\_SetDesignTimeAccessToAppTables.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,12 +54,12 @@ displays applications downloaded on this instance.
 6.  Click **Update**.
 
 
-**Parent Topic:**[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DesignTimeAccessToAppTables.md)
+**Parent Topic:**[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_DesignTimeAccessToAppTables.md)
 
 **Related topics**  
 
 
-[Example denying all design access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ExampleDenyingAllDesignAccess.md)
+[Example denying all design access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_ExampleDenyingAllDesignAccess.md)
 
-[Example allowing configuration records for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ExampleGrantingAccessToConfigRecs.md)
+[Example allowing configuration records for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_ExampleGrantingAccessToConfigRecs.md)
 

@@ -2,7 +2,7 @@
 title: Fields in the Onboard a Supplier form
 description: Use the Onboard a Supplier form to provide details about the supplier that you want to onboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/onboard-supp-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/onboard-supp-form.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -25,7 +25,7 @@ Use the Onboard a Supplier form to provide details about the supplier that you w
 |Primary contact email|Email of the supplier primary contact.|
 |Primary contact title|Title of the supplier primary contact.|
 
-**Parent Topic:**[Supplier Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
+**Parent Topic:**[Supplier Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
 
 **Related topics**  
 

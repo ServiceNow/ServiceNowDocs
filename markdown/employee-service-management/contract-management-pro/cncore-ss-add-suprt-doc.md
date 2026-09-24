@@ -2,7 +2,7 @@
 title: Add supporting documents to the contract request
 description: Add one or more supporting documents from your computer, cloud storage, or activity stream.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

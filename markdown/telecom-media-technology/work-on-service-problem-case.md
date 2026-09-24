@@ -2,7 +2,7 @@
 title: Diagnose and resolve a service problem case
 description: As a customer service agent, review, diagnose, resolve, and close a service problem case for the service-related issue experienced by the customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/work-on-service-problem-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/work-on-service-problem-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -60,9 +60,9 @@ The service problem case progresses through several stages from start to closure
 
     3.  Expand the cards in the **Available test suite**.
 
-        To set up the test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/settingup-test-specifications.md).
+        To set up the test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/settingup-test-specifications.md).
 
-        To set up a test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/setting-test-group.md).
+        To set up a test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 

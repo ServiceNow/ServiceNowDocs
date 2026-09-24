@@ -2,7 +2,7 @@
 title: Walk-up Experience for CSM user roles
 description: Walk-up Experience roles for different users who interact with in-person support queues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/walk-up-experience-user-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/walk-up-experience-user-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,5 +24,5 @@ Walk-up Experience roles for different users who interact with in-person support
 **Related topics**  
 
 
-[Activate Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-walk-up-experience-for-customer-service-management.md)
+[Activate Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-walk-up-experience-for-customer-service-management.md)
 

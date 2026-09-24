@@ -2,7 +2,7 @@
 title: Metrics
 description: Metrics of the machine identities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/machine-identity-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/machine-identity-metrics.html
 release: australia
 product: Identity
 classification: identity

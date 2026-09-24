@@ -2,7 +2,7 @@
 title: Recall an article that is being reviewed in Agent Workspace
 description: Recall an article that is being reviewed to stop the approval process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/recall-article-review-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/recall-article-review-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -20,7 +20,7 @@ Recall an article that is being reviewed to stop the approval process.
 
 You must have contribute access to the knowledge base that stores the knowledge article you want to recall.
 
-Ensure that the article versioning feature is enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md).
+Ensure that the article versioning feature is enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/article-versioning.md).
 
 Role required: agent\_workspace\_user
 
@@ -48,7 +48,7 @@ The article opens in edit mode and the workflow state of the article is changed 
 **Related topics**  
 
 
-[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md)
+[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-workspace.md)
 
-[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
+[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
 

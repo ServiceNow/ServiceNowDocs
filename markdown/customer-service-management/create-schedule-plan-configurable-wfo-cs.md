@@ -2,7 +2,7 @@
 title: Create a schedule plan
 description: Manage your team's schedule by creating a schedule plan that covers a span of time and includes your team's work shifts. You can also assign agents to shifts based on their skills and availability. This way, you can make sure that you are using your resources in the best way possible for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-schedule-plan-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-schedule-plan-configurable-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_shift\_planning.admin
 
 ## About this task
 
-You can set the number of days to cache agent schedules using the **sn\_shift\_planning.number\_of\_days\_to\_cache** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md). The **Total coverage/demand** row displays the number of agents covering each shift in a day. The day view displays the demand for the number of agents forecast for every hour in a day. For example, 4/5 shows that you have four agents scheduled for an hourly time slot, 11 AM to 12 PM and the agent demand forecast for that hour is 5.
+You can set the number of days to cache agent schedules using the **sn\_shift\_planning.number\_of\_days\_to\_cache** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md). The **Total coverage/demand** row displays the number of agents covering each shift in a day. The day view displays the demand for the number of agents forecast for every hour in a day. For example, 4/5 shows that you have four agents scheduled for an hourly time slot, 11 AM to 12 PM and the agent demand forecast for that hour is 5.
 
 ## Procedure
 
@@ -62,7 +62,7 @@ The schedule plan is created in Draft state.
 
 ## What to do next
 
-[Publish a schedule plan for visibility into team coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/generate-preview-schedule-plan-configurable-wfo-cs.md).
+[Publish a schedule plan for visibility into team coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/generate-preview-schedule-plan-configurable-wfo-cs.md).
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/scheduling-configurable-wfo-cs.md)
 

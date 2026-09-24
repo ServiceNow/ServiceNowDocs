@@ -2,7 +2,7 @@
 title: Remove a business capability from a business unit
 description: Remove business capabilities associated with a business unit in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-remove-business-capability-from-business-unit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-remove-business-capability-from-business-unit.html
 release: australia
 topic_type: task
 last_updated: "2026-08-03"
@@ -40,12 +40,12 @@ Role required: sn\_apm.apm\_user
 8.  Select **Remove**.
 
 
-**Parent Topic:**[Manage business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-units.md)
+**Parent Topic:**[Manage business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-business-units.md)
 
 **Related topics**  
 
 
-[Add a business capability to a business unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-capability-to-business-unit.md)
+[Add a business capability to a business unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-business-capability-to-business-unit.md)
 
-[View all business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-units.md)
+[View all business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-business-units.md)
 

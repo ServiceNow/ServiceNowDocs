@@ -2,7 +2,7 @@
 title: Enable map accessibility features
 description: Maps can use patterns or colors to identify locations. The accessibility toggle in the mobile device settings page controls how the map identifies locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/enable-indoor-map-access-features.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/enable-indoor-map-access-features.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

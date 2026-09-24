@@ -2,7 +2,7 @@
 title: View package details in CAM Workspace
 description: Use the authorization package overview page to view documents and evidence that help you to assess your organization's security posture.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -67,7 +67,7 @@ Role required:
         In the **Details** tab when the authorization package moves to the **Authorize** step you can view the following details:
 
         -   **Next Authorization Date**: This date is generated when the Authorization Package is moved to the Authorize step. The next authorization date will be set to three years from the date the package is moved to this step.
-        -   **Next Engagement Date**: The next engagement date is prepopulated based on the number of days defined on the **System Properties** page. For more information, see [Continuous Authorization and Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md).
+        -   **Next Engagement Date**: The next engagement date is prepopulated based on the number of days defined on the **System Properties** page. For more information, see [Continuous Authorization and Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md).
 
             On this date, a new engagement is created with controls, test plans carried over from previous engagements, and newly associated control tests and assessment procedures.
 
@@ -89,11 +89,11 @@ Role required:
 
     You can also generate ATO artifact reports such as Security Assessment Report \(SAR\) and Plan of Actions and Milestones \(POA&amp;Ms\) by selecting the More actions menu.
 
-    For more information on CAM ATO artifacts, see [ATO artifacts for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-cam-ws.md).
+    For more information on CAM ATO artifacts, see [ATO artifacts for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-cam-ws.md).
 
 7.  To generate OSCAL SSP, select the **Export OSCAL SSP** option from the More actions menu.
 
-    For more information, see [Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md) and [Export OSCAL SSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-oscal-models.md).
+    For more information, see [Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md) and [Export OSCAL SSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-oscal-models.md).
 
 8.  To move to the previous step of the authorization package and to update any details, select the **Back to previous step** option from the More actions menu.
 
@@ -143,7 +143,7 @@ Role required:
 
     The Reference for the control objective, sourced by NIST, is captured as **Source ID** in the header of the control objective.
 
-    The controls are grouped as a **Family**, and abbreviated with an ID that is defined as **Family ID**. These fields are editable and help you to identify the group to which the control belongs and are used in the Control allocation section for reporting purpose. The content for Family and Family ID is updated based on NIST 800-53. For more information, see [Control Requirement Details View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-cr-control-form.md).
+    The controls are grouped as a **Family**, and abbreviated with an ID that is defined as **Family ID**. These fields are editable and help you to identify the group to which the control belongs and are used in the Control allocation section for reporting purpose. The content for Family and Family ID is updated based on NIST 800-53. For more information, see [Control Requirement Details View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/cam-cr-control-form.md).
 
     1.  Select the Related control objectives related list.
 
@@ -158,8 +158,8 @@ Role required:
         The list shows those control objectives that aren’t already added to the related control objectives list of the package.
 
 
--   **[Apply overlays to the baseline controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/apply-overlay-to-baseline.md)**  
+-   **[Apply overlays to the baseline controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/apply-overlay-to-baseline.md)**  
 You can include overlays to the baseline control objectives in the Authorization Package using either addition, subtraction, or a custom action.
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

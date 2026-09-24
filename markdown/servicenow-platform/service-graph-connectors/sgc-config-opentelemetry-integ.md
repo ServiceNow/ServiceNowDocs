@@ -2,7 +2,7 @@
 title: Configure Service Graph Connector for OpenTelemetry
 description: Set up scheduled import jobs to pull in data from ServiceNow Cloud Observability \(formerly Lightstep\) into your Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -24,8 +24,8 @@ To use this Service Graph Connector, you need a subscription to a Subscription U
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
@@ -64,7 +64,7 @@ Role required: admin
     4.  Enter the API key details associated with the Cloud Observability application.
 
         1.  For the Set up the API key task, select **Configure**.
-        2.  In the **API Key** field of the API Key Credentials form, enter the API key associated with the Cloud Observability application that you noted down in step [4.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md).
+        2.  In the **API Key** field of the API Key Credentials form, enter the API key associated with the Cloud Observability application that you noted down in step [4.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md).
         3.  Select **Update**.
         4.  Set the Set up the API key task to complete by selecting **Mark as Complete**.
     5.  Test the Cloud Observability API connection to import data from the Cloud Observability application.
@@ -80,7 +80,7 @@ Role required: admin
 
         1.  For the Get projects task, select **Configure**.
         2.  Select **Get Projects**.
-        3.  When the Project properties related list is populated with all the projects included in the organization you specified in step [4.c.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md), select **X** to close the Get projects dialog box and return to the guided setup page.
+        3.  When the Project properties related list is populated with all the projects included in the organization you specified in step [4.c.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md), select **X** to close the Get projects dialog box and return to the guided setup page.
         4.  Set the Get projects task to complete by selecting **Mark as Complete**.
 5.  Configure additional configurations to set up lookback time, add excluded projects, run project diagnostics, and configure integration settings for service maps and stale configuration items \(CIs\).
 
@@ -100,7 +100,7 @@ Role required: admin
         2.  Select a project from the **Project** column.
         3.  Select the **Exclude project** check box.
         4.  Select **Update**.
-        5.  Repeat steps from [5.c.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) to [5.c.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) for each project that you want to exclude.
+        5.  Repeat steps from [5.c.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) to [5.c.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) for each project that you want to exclude.
         6.  Select **X** to close the Add excluded projects dialog box and return to the guided setup page.
         7.  Set the Add excluded projects task to complete by selecting **Mark as Complete**.
     4.  Run project diagnostics to test the Resource API response and ensure that the API contains the Kubernetes cluster name, Kubernetes namespace, and Kubernetes nodes.
@@ -112,7 +112,7 @@ Role required: admin
 
             If any of the Diagnostic tests have errors, follow the instructions in the **Diagnostics message** field to resolve the errors.
 
-        5.  Repeat the steps [5.d.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) to [5.d.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) for each project that you want to run diagnostics.
+        5.  Repeat the steps [5.d.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) to [5.d.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) for each project that you want to run diagnostics.
         6.  Set the Run project diagnostics task to complete by selecting **Mark as Complete**.
     5.  Configure the system properties for service maps and stale CIs.
 
@@ -172,7 +172,7 @@ Role required: admin
 
             -   The system automatically creates a user record for each webhook destination in your ServiceNow instance.
             -   The user name of the user record starts with `ls_api_*&lt;project\_name&gt;*` and the user is assigned the evt\_mgmt\_integration role.
-        5.  Repeat the steps [7.b.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) to [7.b.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) for each project for which you want to create a webhook.
+        5.  Repeat the steps [7.b.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) to [7.b.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-opentelemetry-integ.md) for each project for which you want to create a webhook.
         6.  Set the Create a webhook task to complete by selecting **Mark as Complete** in the guided setup.
     3.  Configure the system property for ingesting events that don’t have matching CIs in the CMDB.
 
@@ -184,9 +184,9 @@ Role required: admin
 **Related topics**  
 
 
-[Service Graph Connector for OpenTelemetry properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-otel-props.md)
+[Service Graph Connector for OpenTelemetry properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-otel-props.md)
 
-[Accessing the connection details of Service Graph Connector for OpenTelemetry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-otel-conn.md)
+[Accessing the connection details of Service Graph Connector for OpenTelemetry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-otel-conn.md)
 
-[Linking inferred services with CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-services.md)
+[Linking inferred services with CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-services.md)
 

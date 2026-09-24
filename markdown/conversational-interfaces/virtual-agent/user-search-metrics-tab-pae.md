@@ -2,7 +2,7 @@
 title: Using user search metrics with Virtual Agent
 description: By using user search metrics with the Virtual Agent application, you can see your users' queries and the results from their searches. With these metrics, you can identify the areas where you can improve Virtual Agent to offer more meaningful search results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/user-search-metrics-tab-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/user-search-metrics-tab-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -29,11 +29,11 @@ To access the **User Search Metrics** tab, you must have the chat analytics admi
 
 ## AI Search
 
-Virtual Agent topics may use AI search to suggest helpful resources to the user. When a user enters a query, AI search provides the most relevant results by using intelligent query features. To know more about AI search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) . To integrate Virtual Agent with AI Search, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md).
+Virtual Agent topics may use AI search to suggest helpful resources to the user. When a user enters a query, AI search provides the most relevant results by using intelligent query features. To know more about AI search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) . To integrate Virtual Agent with AI Search, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ai-search.md).
 
 ## Contextual Search
 
-Contextual search matches keywords to an existing database search to find potential matches to a query. Virtual Agent topics may use contextual search to resolve queries. For more information, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
+Contextual search matches keywords to an existing database search to find potential matches to a query. Virtual Agent topics may use contextual search to resolve queries. For more information, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
 
 ## Topic Links
 
@@ -54,5 +54,5 @@ The following table describes user search indicators visualized on the **User Se
 |Total number of search results clicked|Number of search results that users clicked on.|
 |Top 10 search results clicked|Search results that users clicked on the most.|
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

@@ -2,7 +2,7 @@
 title: Subscribe users to Data snapshots indicator target
 description: If you have targets set on a native Data snapshots indicator, you can specify users to receive emails about that target. Your instance must be configured to send emails.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/subscribe-users-to-ds-target.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/subscribe-users-to-ds-target.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Because responsible users cannot be configured for targets on Data snapshots ind
 
 ## Procedure
 
-1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-kpi-details.md).
+1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/view-kpi-details.md).
 
 2.  Select the target icon \(\[Omitted image "target-icon.png"\] Alt text: Target icon\) in the sidebar.
 
@@ -35,7 +35,7 @@ Because responsible users cannot be configured for targets on Data snapshots ind
 4.  Select users from the Users \[sys\_user\] table to receive email notifications when a target is met or missed.
 
 
-**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)
+**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details-targets.md)
 
 **Related topics**  
 

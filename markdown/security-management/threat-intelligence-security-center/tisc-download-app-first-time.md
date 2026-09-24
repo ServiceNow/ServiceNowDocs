@@ -2,7 +2,7 @@
 title: Download TISC application from ServiceNow Store
 description: Download and install the Threat Intelligence Security Center application to enable threat intelligence capabilities in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-download-app-first-time.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-download-app-first-time.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -22,7 +22,7 @@ Role required: sn\_sec\_tisc.admin
 
 ## Procedure
 
-1.  Follow the instructions for [installing an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md) and install the **Threat Intelligence Security Center Security Operations** application.
+1.  Follow the instructions for [installing an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/download-app-first-time.md) and install the **Threat Intelligence Security Center Security Operations** application.
 
 2.  After installation completes, you can open the Threat Intelligence Security Center Workspace by navigating to **Workspaces** &gt; **Threat Intelligence Security Center**
 
@@ -31,5 +31,5 @@ Role required: sn\_sec\_tisc.admin
 
 ## What to do next
 
-After you successfully install the application, verify that you complete all the tasks in [Set up Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/set-up-threat-intelligence-security-center.md) for a smooth integration.
+After you successfully install the application, verify that you complete all the tasks in [Set up Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/set-up-threat-intelligence-security-center.md) for a smooth integration.
 

@@ -2,7 +2,7 @@
 title: Configure localization in Conversational IVR with Amazon Connect
 description: Configure localization in Conversational IVR to use localization with Virtual Agent in other supported languages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/config-ivr-localization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/config-ivr-localization.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -60,5 +60,5 @@ Ensure that you have completed the IVR setup on both AWS Console and ServiceNow 
     \[Omitted image "ivr-set-lang-flow.png"\] Alt text: Illustration to set up language attributes for the new language added.
 
 
-**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-aws-account.md)
+**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-aws-account.md)
 

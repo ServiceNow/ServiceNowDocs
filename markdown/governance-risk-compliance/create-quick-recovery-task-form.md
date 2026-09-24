@@ -2,7 +2,7 @@
 title: Create a quick recovery task form
 description: Use the Create a quick recovery task form in the BCM Configurable Workspace to insert details on the recovery task quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-quick-recovery-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-quick-recovery-task-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-01"
@@ -117,5 +117,5 @@ All assets from plan
 Specifies the asset scope for the recovery task. Defaults to all assets defined in the plan. Update this field to narrow the scope when the task applies only to a subset of the plan's assets.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a quick recovery task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-quick-recovery-task.md)
+</table>**Parent Topic:**[Create a quick recovery task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-quick-recovery-task.md)
 

@@ -2,7 +2,7 @@
 title: Using Software Asset Management with Agent Client Collector
 description: Use the Agent Client Collector application to collect software inventory and usage data for the Software Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-agentclientcollector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/sam-agentclientcollector.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -20,5 +20,5 @@ An agent is useful in discovering software deployed on end user machines such as
 
 You can download the Agent Client Collector application from the ServiceNow Store.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

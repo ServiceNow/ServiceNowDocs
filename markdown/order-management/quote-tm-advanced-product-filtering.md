@@ -2,7 +2,7 @@
 title: Advanced product filtering for quotes
 description: Advanced product filtering dynamically controls which products appear in the quote catalog based on admin-defined business rules and transaction context in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-advanced-product-filtering.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-advanced-product-filtering.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
@@ -47,8 +47,8 @@ Product filter rules that reference managed tables do not need to be redeployed 
 
 **Note:** Any change made to a product filter rule itself — not just the referenced table data — must be redeployed for it to take effect.
 
--   **[Create a product filter rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-product-filter-rule.md)**  
+-   **[Create a product filter rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-product-filter-rule.md)**  
 Create a product filter rule in CPQ to dynamically include or exclude products from the quote catalog based on managed table data and transaction context.
 
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

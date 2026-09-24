@@ -2,7 +2,7 @@
 title: Send Email action
 description: Send an email to specified users or groups as an action in a flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/send-email-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/send-email-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -96,5 +96,5 @@ To verify that the email was generated when testing the action, review the email
 
 In this example, the system sends an email whenever an incident record is created where the Assigned to filed is not empty and when the incident category is inquiry/help. The incident trigger record provides the values used by the send email action. For example, the email is sent to the email address of the assigned to user, and the email subject and email body both refer to the incident number.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

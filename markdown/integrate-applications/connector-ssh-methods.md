@@ -2,7 +2,7 @@
 title: Secure Shell \(SSH\) connector methods
 description: The Secure Shell \(SSH\) connector methods establish an SSH connection, execute commands over the established connection, and disconnect the session.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connector-ssh-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connector-ssh-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -80,7 +80,7 @@ Password
 
 Secure string representation of the password. Password of the SSH account.
 
- You can use the SecureStringEncode component to encode the secure string password as mentioned in the following example. For more information, see [Use the SecureStringEncode component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-security-encryption-securestringencode.md).
+ You can use the SecureStringEncode component to encode the secure string password as mentioned in the following example. For more information, see [Use the SecureStringEncode component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-security-encryption-securestringencode.md).
 
 \[Omitted image "ssh-connect-pwd-example.png"\] Alt text: SecureStringEncode component is connected to the Connect method to pass the encoded password.
 
@@ -260,5 +260,5 @@ The following example shows the entire automation after adding the Disconnect me
 
 \[Omitted image "ssh-disconnect-example.png"\] Alt text: SSH connector automation workflow example.
 
-**Parent Topic:**[Secure Shell \(SSH\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ssh-connector.md)
+**Parent Topic:**[Secure Shell \(SSH\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ssh-connector.md)
 

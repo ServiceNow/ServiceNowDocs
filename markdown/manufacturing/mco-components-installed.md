@@ -2,7 +2,7 @@
 title: Components installed
 description: Several types of components are installed when you install the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-components-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-components-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +15,7 @@ breadcrumb: [Reference, Manufacturing Commercial Operations]
 
 Several types of components are installed when you install the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -374,13 +374,13 @@ Create, view, update, and cancel a non-conformance case. Create a correction act
 -   sn\_rm\_core.copq\_exp\_line\_creator
 
 </td></tr></tbody>
-</table>-   **[Components installed with additional plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-components-installed-with-other-product-workflows.md)**  
+</table>-   **[Components installed with additional plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-components-installed-with-other-product-workflows.md)**  
 Several types of components are installed when you activate the Customer Service Management and Cash to lead, applications.
 
-**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-reference.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-reference.md)
 
 **Related topics**  
 
 
-[Exploring Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-explore.md)
+[Exploring Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-explore.md)
 

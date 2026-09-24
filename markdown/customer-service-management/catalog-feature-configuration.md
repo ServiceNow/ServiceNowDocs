@@ -2,7 +2,7 @@
 title: Catalog feature configuration
 description: Understand the configuration of the Catalog feature in Engagement Messenger to configure the field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/catalog-feature-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/catalog-feature-configuration.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

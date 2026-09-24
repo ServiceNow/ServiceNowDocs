@@ -2,7 +2,7 @@
 title: CRM Workspace form headers
 description: Form headers in CRM Workspace provide agents with a brief description of the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-headers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-form-headers.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-30"
@@ -14,11 +14,11 @@ breadcrumb: [Form features, CRM Workspace features, CRM Workspace, Organize agen
 
 Form headers in CRM Workspace provide agents with a brief description of the case.
 
-Form headers typically include the case short description. They can also include the action bar, record tags, and the [record presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md).
+Form headers typically include the case short description. They can also include the action bar, record tags, and the [record presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page.md).
 
 \[Omitted image "csm-config-workspace-case-form-header.png"\] Alt text: Case form header that shows the short description, record tags, and action buttons such as Close Case, Save, and Assign to me
 
-For more information, see [Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-header.md)
+For more information, see [Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-form-header.md)
 
 **Note:** One form header configuration, **CSM/FSM Configurable Workspace Header Config**, is included with CRM Workspace.
 
@@ -31,7 +31,7 @@ The Record Information tab in the contextual side panel can include the followin
 -   Overview: Displays relevant information about the case including the account and contact, the case priority, and the state.
 -   Active SLA: Displays active SLAs for the case, including time remaining, the SLA state, and any breaches.
 
-The cards that appear in the Record Information tab can be configured in the ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-ribbon.md).
+The cards that appear in the Record Information tab can be configured in the ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-ribbon.md).
 
 \[Omitted image "csm-config-workspace-case-form-header-sidebar.png"\] Alt text: The overview card shows the customer information, the case priority, and case state.
 

@@ -2,7 +2,7 @@
 title: Upgrading your PDI
 description: Apply a patch or new release to your instance to upgrade your PDI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/upgrading\_your\_pdi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/upgrading\_your\_pdi.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Upgrading your instance may take a couple of hours to complete. Do not run the u
 
 You will receive an email when the upgrade is complete.
 
-**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/personal_developer_instance_guide.md)
 

@@ -2,7 +2,7 @@
 title: Compare a cloned or customized widget against a base widget
 description: Identify customizations to a widget so that you can revert your cloned or customized widgets and resolve issues on a portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/compare-with-base-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/compare-with-base-system.html
 release: australia
 product: Service Portal
 classification: service-portal

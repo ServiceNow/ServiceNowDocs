@@ -2,7 +2,7 @@
 title: Create a grouping for metric definitions
 description: Create a group and a subgroup for similar metric definitions. Creating these groups facilitates easy reporting and tracking. You can set the values for the group and the subgroup through choices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-classification-choice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-classification-choice.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,5 +44,5 @@ If you have many metric definitions that are similar, then you can create groups
 
 The grouping is ready to be used in the metric definition form under the Classification section.
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-grc-metrics.md)
 

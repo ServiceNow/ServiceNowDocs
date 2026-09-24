@@ -2,7 +2,7 @@
 title: Create assessments
 description: Create and manage assessments to enable end users to respond to DLP incidents. You can use the assessments to gather information about the sensitive data exposed or leaked from the DLP incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-and-manage-assessments-for-dlp-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/create-and-manage-assessments-for-dlp-incidents.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -59,7 +59,7 @@ DLP incident assessments help you identify potential threats and vulnerabilities
 10. After creating the different assessment questions for the first time, click **Save**, and then **Publish**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

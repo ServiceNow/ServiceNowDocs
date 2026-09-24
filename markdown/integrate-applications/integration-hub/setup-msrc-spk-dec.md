@@ -2,7 +2,7 @@
 title: Set up the Microsoft Security Response Center spoke
 description: Set up an outbound integration between your ServiceNow instance and the Microsoft Security Response Center instance by setting up a connection and credential record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-msrc-spk-dec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-msrc-spk-dec.html
 release: australia
 product: Integration Hub
 classification: integration-hub

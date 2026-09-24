@@ -2,7 +2,7 @@
 title: Default DevOps Config policies
 description: The DevOps Config Policy content pack contains a set of default DevOps Config policies to validate your configuration data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-default-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-default-policies.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -23,15 +23,15 @@ Select a category to view the DevOps Config policies available within the catego
 
 <table id="table_rm3_3ch_wxb" class="nav-card"><tbody><tr><td>
 
-[Generic\[Omitted image "devops-config-policy-compliance.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md)
+[Generic\[Omitted image "devops-config-policy-compliance.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-gen-policies.md)
 
 </td><td>
 
-[Kubernetes\[Omitted image "devops-config-kubernetes-logo.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-k8s-policies.md)
+[Kubernetes\[Omitted image "devops-config-kubernetes-logo.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-k8s-policies.md)
 
 </td></tr><tr><td>
 
-[Red Hat OpenShift\[Omitted image "devops-config-redhat-logo.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-os-policies.md)
+[Red Hat OpenShift\[Omitted image "devops-config-redhat-logo.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-os-policies.md)
 
 </td><td>
 

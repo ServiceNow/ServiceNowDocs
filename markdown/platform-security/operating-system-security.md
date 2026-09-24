@@ -2,7 +2,7 @@
 title: Operating system security
 description: Learn how the MID Server stores its ServiceNow AI Platform username and password in its configuration file, named config.xml, for secure authentication to the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/operating-system-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/operating-system-security.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Update an application or plugin
 description: Update an application or plugin to get the latest features that are compatible with your instance version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/update-application-app-mgr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/application-manager/update-application-app-mgr.html
 release: australia
 product: Application Manager
 classification: application-manager
@@ -51,19 +51,19 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 7.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
 
-    If any dependencies are categorized as "Needs to be procured from store" or "Installation blocked," procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block updates, see [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/updating-apps-app-manager.md).
+    If any dependencies are categorized as "Needs to be procured from store" or "Installation blocked," procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block updates, see [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/updating-apps-app-manager.md).
 
 8.  Install the update now or schedule installation for a later time.
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d97893e244">
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d97750e244">
 
 Installation option
 
-</th><th align="left" id="d97893e247">
+</th><th align="left" id="d97750e247">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d97893e253">
+</th></tr></thead><tbody><tr><td id="d97750e253">
 
 **Install now**
 
@@ -73,7 +73,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d97893e277">
+</td></tr><tr><td id="d97750e277">
 
 **Install later**
 
@@ -90,5 +90,5 @@ Procedure
 
 If you choose to install the update now, the application or plugin and its dependencies begin updating immediately. Scheduled updates begin at the chosen date and time.
 
-**Parent Topic:**[Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/updating-apps-app-manager.md)
+**Parent Topic:**[Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/updating-apps-app-manager.md)
 

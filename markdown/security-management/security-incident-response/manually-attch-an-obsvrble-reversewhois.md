@@ -2,7 +2,7 @@
 title: Initiate the lookup for Reverse Whois
 description: Initiate domain lookups using search terms in observables that you manually attach to a security incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manually-attch-an-obsvrble-reversewhois.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/manually-attch-an-obsvrble-reversewhois.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -45,11 +45,11 @@ Role required: sn\_si.analyst
 
 ## What to do next
 
-Verify the lookup results on the security incident. See [Verify expected results for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.md).
+Verify the lookup results on the security incident. See [Verify expected results for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.md).
 
-**Parent Topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/reversewhois-lookups.md)
+**Parent Topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/reversewhois-lookups.md)
 
-**Previous topic:**[\(Optional\) Install and configure Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/whois-install-and-config.md)
+**Previous topic:**[\(Optional\) Install and configure Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/whois-install-and-config.md)
 
-**Next topic:**[Verify expected results for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.md)
+**Next topic:**[Verify expected results for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.md)
 

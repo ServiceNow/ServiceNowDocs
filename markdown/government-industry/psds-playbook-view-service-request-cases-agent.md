@@ -2,7 +2,7 @@
 title: Track government service requests using Service Request Playbook
 description: Track all the service requests that are assigned to you or other agents in your government agency by using the Service Request Playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-playbook-view-service-request-cases-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-playbook-view-service-request-cases-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,6 +56,6 @@ When you select a case, a form opens with the following sections:
     -   Reported on
     -   Assigned to agency
     -   Assigned to
-    For a detailed description of these fields, see [Government Service Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/government-service-case-form.md).
+    For a detailed description of these fields, see [Government Service Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/government-service-case-form.md).
 
 

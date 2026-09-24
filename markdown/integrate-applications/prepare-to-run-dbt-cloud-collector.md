@@ -2,7 +2,7 @@
 title: Prepare to run the dbt Cloud collector
 description: Configure dbt Cloud and create authentication tokens before running the collector.Obtain required IDs from dbt Cloud URLs for collector configuration.Create a personal access token for metadata harvesting.Create a service account token with the required permissions for metadata harvesting.Enable documentation generation in dbt Cloud job settings. This setting must be enabled to successfully harvest dbt resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-dbt-cloud-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-dbt-cloud-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,18 +26,18 @@ Complete these preparation tasks before running the dbt Cloud collector.
 
 1.  Obtain the required IDs from dbt Cloud.
 
-    See [Obtain account, project, job, and run IDs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-dbt-cloud-collector.md).
+    See [Obtain account, project, job, and run IDs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-dbt-cloud-collector.md).
 
 2.  Create an API token based on your dbt Cloud plan.
 
-    -   Enterprise plan: See [Create a service token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-dbt-cloud-collector.md)
-    -   Team plan: See [Create a user token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-dbt-cloud-collector.md)
+    -   Enterprise plan: See [Create a service token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-dbt-cloud-collector.md)
+    -   Team plan: See [Create a user token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-dbt-cloud-collector.md)
 3.  Enable documentation generation in job settings.
 
-    See [Update job execution settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-dbt-cloud-collector.md).
+    See [Update job execution settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-dbt-cloud-collector.md).
 
 
-**Parent Topic:**[dbt Cloud metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/dbt-cloud-metadata-collector.md)
+**Parent Topic:**[dbt Cloud metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/dbt-cloud-metadata-collector.md)
 
 ## Obtain account, project, job, and run IDs
 

@@ -2,7 +2,7 @@
 title: Prepare to run the BigQuery collector
 description: Create a service account and configure authentication before running the collector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-bigquery-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-bigquery-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ The collector connects to BigQuery using a service account associated with your 
 
 See the [Google Cloud Platform predefined roles and permissions documentation](https://cloud.google.com/iam/docs/understanding-roles#predefined_roles) for additional information.
 
-**Parent Topic:**[BigQuery metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/bigquery-metadata-collector.md)
+**Parent Topic:**[BigQuery metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/bigquery-metadata-collector.md)
 

@@ -2,7 +2,7 @@
 title: Configure return results data
 description: Within the Mobile SDK, when interacting with data from a ServiceNow instance through a REST endpoint, you can configure what data is passed back in the return results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-config\_results\_returned.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-ios-config\_results\_returned.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -16,7 +16,7 @@ breadcrumb: [Interact with table data in a ServiceNow instance, Mobile SDK Devel
 
 Within the Mobile SDK, when interacting with data from a ServiceNow instance through a REST endpoint, you can configure what data is passed back in the return results.
 
-You configure what data to pass back using the [FetchConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FetchConfigiOSStructure.md) structure. This structure enables you to configure:
+You configure what data to pass back using the [FetchConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FetchConfigiOSStructure.md) structure. This structure enables you to configure:
 
 -   The specific records to return from a table.
 -   The specific fields to return from the records.
@@ -26,7 +26,7 @@ You configure what data to pass back using the [FetchConfiguration](https://raw.
 
 ## Configuring the specific records to return
 
-The [Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) structure within a FetchConfiguration call enables you to filter and sort the records that are fetched from a ServiceNow instance and passed back in the return results from a REST endpoint. This filter is passed in the **sysparm\_query** parameter of the REST API endpoint. For additional information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
+The [Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) structure within a FetchConfiguration call enables you to filter and sort the records that are fetched from a ServiceNow instance and passed back in the return results from a REST endpoint. This filter is passed in the **sysparm\_query** parameter of the REST API endpoint. For additional information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/c_TableAPI.md).
 
 You can initialize the Filter structure in four different ways depending on the desired filtering capabilities:
 
@@ -38,7 +38,7 @@ You can initialize the Filter structure in four different ways depending on the 
     Filter(query: "active=true^short_descriptionLIKEbroken"
     ```
 
-    To use this type of filtering, initialize the Filter structure using the [Filter - init\(query: String, queryCategory: String? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) function.
+    To use this type of filtering, initialize the Filter structure using the [Filter - init\(query: String, queryCategory: String? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) function.
 
 2.  Filter by criteria. This filter enables you to filter based on one or more filter criteria that are OR'd together.
 
@@ -68,7 +68,7 @@ You can initialize the Filter structure in four different ways depending on the 
     
     ```
 
-    To use this type of filtering, initialize the Filter structure using the [Filter - init\(criteria criteriaList: \[Criteria\], sortBy: \[Sort\]? = nil, queryCategory: String? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) function.
+    To use this type of filtering, initialize the Filter structure using the [Filter - init\(criteria criteriaList: \[Criteria\], sortBy: \[Sort\]? = nil, queryCategory: String? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) function.
 
 3.  Filter by keywords and conditions. This filter enables you to filter records based on specific keywords and conditions that are AND'd together.
 
@@ -86,7 +86,7 @@ You can initialize the Filter structure in four different ways depending on the 
     }
     ```
 
-    To use this type of filtering, initialize the Filter structure using the [Filter - init\(keywords: String? = nil, conditions: \[Condition\], sortBy: \[Sort\]? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) function.
+    To use this type of filtering, initialize the Filter structure using the [Filter - init\(keywords: String? = nil, conditions: \[Condition\], sortBy: \[Sort\]? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) function.
 
 4.  Filter by conditions. This filter enables you to filter records that meet all specified conditions \(AND'd together\).
 
@@ -102,12 +102,12 @@ You can initialize the Filter structure in four different ways depending on the 
     let filter = Filter(conditions: [condition1, condition2])
     ```
 
-    To use this type of filtering, initialize the Filter structure using the [Filter - init\(conditions: \[QueryProviding\], sorts: \[Sort\]? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) function.
+    To use this type of filtering, initialize the Filter structure using the [Filter - init\(conditions: \[QueryProviding\], sorts: \[Sort\]? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md) function.
 
 
 ## Configuring the specific fields to return
 
-The [FieldReadConfiguration structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FieldReadConfigurationiOSStruct.md) within the FetchConfiguration method call allows you to configure what fields to pass back in the return results. In addition, you can configure the format/content of the returned fields as:
+The [FieldReadConfiguration structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FieldReadConfigurationiOSStruct.md) within the FetchConfiguration method call allows you to configure what fields to pass back in the return results. In addition, you can configure the format/content of the returned fields as:
 
 -   display values
 -   actual values

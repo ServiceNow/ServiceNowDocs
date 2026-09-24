@@ -2,7 +2,7 @@
 title: Customizing a Virtual Agent chat experience
 description: Create different chat experiences for your end users based on the context in which they initiate a conversation with Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-conversation-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-conversation-settings.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -62,11 +62,11 @@ A chat experience consists of setup topics, promoted assets, and a search profil
 
     **Note:** Promoted topics may not be supported on all clients.
 
-    For more information, see [Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)
+    For more information, see [Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)
 
 -   **Search profile**
 
-    A search profile defines how Virtual Agent search results are generated for an AI Search application. The search application's configuration specifies a search profile to use, and also determines how the generated results are displayed to users. Virtual Agent uses a default search application configuration and search profile that controls the data sources used for searches. Its UI configuration \(set in the Entity View Action Mapping application\) controls the search results displayed in Genius Result answer cards and multi-link output. These configurations also apply to search results generated as a fallback when Virtual Agent can't determine the appropriate topic. For more information, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md).
+    A search profile defines how Virtual Agent search results are generated for an AI Search application. The search application's configuration specifies a search profile to use, and also determines how the generated results are displayed to users. Virtual Agent uses a default search application configuration and search profile that controls the data sources used for searches. Its UI configuration \(set in the Entity View Action Mapping application\) controls the search results displayed in Genius Result answer cards and multi-link output. These configurations also apply to search results generated as a fallback when Virtual Agent can't determine the appropriate topic. For more information, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ai-search.md).
 
 
 ## Get started with chat experiences
@@ -76,12 +76,12 @@ Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**, and th
 -   Configure the default chat experience, including the setup topics, promoted assets, and search criteria used. For example, you can activate the Virtual Agent Feedback setup topic so that it is applied to all your bot conversations.
 -   Create different custom chat experiences based on the context in which your end users run Virtual Agent. The settings that you define in a custom chat experience override the default chat experience.
 
--   **[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/working-setup-topics.md)**  
+-   **[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/working-setup-topics.md)**  
 Setup topics are part of a standard conversation structure applied to all your conversations, such as the welcome greeting or fallback responses. Setup topics run at the appropriate spot in a conversation based on the context, keywords, or utterances entered by the user, and any conditions that are specified for the setup topic.
--   **[Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-default-chat-experience.md)**  
+-   **[Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-default-chat-experience.md)**  
 Change the preconfigured Virtual Agent default chat experience or create a custom chat experience for your users. You can configure setup topics, specify promoted topics, and if needed, change the search profile.
--   **[Test chat experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-custom-experience.md)**  
+-   **[Test chat experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/test-custom-experience.md)**  
 After you create or modify a Virtual Agent chat experience, you can test \(simulate\) it to verify that it works as expected.
 
-**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
+**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

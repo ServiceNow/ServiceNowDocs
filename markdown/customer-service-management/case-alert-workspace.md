@@ -2,7 +2,7 @@
 title: Create a proactive case from an alert
 description: Create a case for customer install base affected by an alert to anticipate customer issues and address them proactively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-alert-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-alert-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator
 
 A proactive case is a case created on behalf of customers, whose install base is directly affected by an alert. You can open a proactive case manually or through automation. Customer service agents then work on cases. From the Alert form, you can also track the install base items affected by the alert.
 
-If the **Create Proactive Case** rule is enabled, a case is automatically created when an incident is created from an alert and the system has determined that there are external customer install base items affected. For more information, see [Activate an alert rule to automatically create a proactive case from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/automate-case-creation-alert.md).
+If the **Create Proactive Case** rule is enabled, a case is automatically created when an incident is created from an alert and the system has determined that there are external customer install base items affected. For more information, see [Activate an alert rule to automatically create a proactive case from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/automate-case-creation-alert.md).
 
 ITOM Event Management calculates the services \(CIs\) impacted by an alert and populates the em\_impacted\_ci\_table with the impacted services \(CIs\) and alert CI on the given alert.
 

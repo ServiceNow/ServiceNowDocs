@@ -2,7 +2,7 @@
 title: Sign in to Microsoft Outlook Add-In for Legal Service Delivery
 description: As a legal request fulfiller, sign in to Microsoft Outlook Add-In for Legal Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-outlook-addin-login.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-login.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -18,7 +18,7 @@ As a legal request fulfiller, sign in to Microsoft Outlook Add-In for Legal Serv
 
 ## Before you begin
 
-Ensure you have installed and configured Microsoft Outlook Add-In for Legal Service Delivery. For more information, see [Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
+Ensure you have installed and configured Microsoft Outlook Add-In for Legal Service Delivery. For more information, see [Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 
 Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfiller
 
@@ -26,15 +26,15 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
 1.  Sign in to Microsoft Outlook Add-In for Legal Service Delivery using any of the two methods.
 
-<table id="choicetable_kwh_4wy_wbc"><thead><tr><th align="left" id="d234524e84">
+<table id="choicetable_kwh_4wy_wbc"><thead><tr><th align="left" id="d234318e84">
 
 Method
 
-</th><th align="left" id="d234524e87">
+</th><th align="left" id="d234318e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d234524e93">
+</th></tr></thead><tbody><tr><td id="d234318e93">
 
 **Microsoft Outlook client**
 
@@ -45,7 +45,7 @@ Steps
 3.  On the Microsoft Outlook ribbon, select ServiceNow for Legal icon.
 
 
-</td></tr><tr><td id="d234524e125">
+</td></tr><tr><td id="d234318e125">
 
 **Outlook Web App**
 
@@ -67,5 +67,5 @@ Steps
 
 You are logged in and the Microsoft Outlook Add-In for Legal Service Delivery add-in lists the legal requests or matters you have access to.
 
-**Parent Topic:**[Use Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-use.md)
+**Parent Topic:**[Use Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-use.md)
 

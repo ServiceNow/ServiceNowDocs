@@ -2,7 +2,7 @@
 title: Create a flow with an external trigger
 description: Set up a flow with a base system external trigger definition. The flow responds to an event-driven external trigger from a third-party system. For example, run a flow when an issue is created in a third-party issue-tracking system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-a-flow-with-an-external-trigger-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-a-flow-with-an-external-trigger-definition.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -103,7 +103,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 5.  Add a trigger to your flow.
 
-    If you have a saved external trigger, the trigger is displayed under the installed third-party spoke for you to use. You can add additional conditions as required. See [Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-saved-external-trigger.md).
+    If you have a saved external trigger, the trigger is displayed under the installed third-party spoke for you to use. You can add additional conditions as required. See [Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-saved-external-trigger.md).
 
     1.  Under the TRIGGER section, select **Add a trigger**.
 
@@ -125,8 +125,8 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 8.  Activate the flow.
 
-    Activate the flow if the test returns the desired outcome. For more information on testing and activating your flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
+    Activate the flow if the test returns the desired outcome. For more information on testing and activating your flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-activate.md).
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

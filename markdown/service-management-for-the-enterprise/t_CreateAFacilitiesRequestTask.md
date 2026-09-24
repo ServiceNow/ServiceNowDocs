@@ -2,7 +2,7 @@
 title: Create a facilities request task
 description: Facilities request tasks are created from facilities requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateAFacilitiesRequestTask.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_CreateAFacilitiesRequestTask.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -196,8 +196,8 @@ Actual duration
 </table>5.  Click **Submit**.
 
 
--   **[Task windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_TaskWindows.md)**  
+-   **[Task windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_TaskWindows.md)**  
 A task window is the time period, bordered by start and end times, in which a task is performed.
 
-**Parent Topic:**[Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacRequestTasks.md)
+**Parent Topic:**[Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacRequestTasks.md)
 

@@ -2,7 +2,7 @@
 title: AI Search within App Engine Help Panel
 description: AI Search extends support to search within Help Panel for knowledge articles and embedded help documents. Only relevant content to the user will be displayed based on their role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/ai-search-within-help-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/ai-search-within-help-panel.html
 release: australia
 product: Adoption Services
 classification: adoption-services

@@ -2,7 +2,7 @@
 title: Now Mobile app for Software Asset Management
 description: Use the Now Mobile app to view the hardware and software assets that are assigned to you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/now-moile-app-for-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/now-moile-app-for-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -22,5 +22,5 @@ In the Now Mobile app, you can view a list of both installed software and subscr
 
 Tap any of your assets to view its details such as its business cost, its last activity, and other information. If you want to surrender the asset, tap **I don't need this anymore**. A removal candidate is generated so that the software asset manager can review and approve the removal request.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Create a SCIM ETL definition
 description: Use the SCIM ETL definitions to map the custom attributes with the sys\_user or sys\_user\_group tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/create-scim-etl-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/create-scim-etl-definitions.html
 release: australia
 product: Identity
 classification: identity

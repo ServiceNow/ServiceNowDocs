@@ -2,7 +2,7 @@
 title: Load data to ERP user mapping table for Source-to-Pay
 description: Set up Source-to-Pay \(S2P\) and ERP User ID mapping for the integration to work. The mapping is maintained for all active users who have the procurement buyer role in ERP. These users should be used in the requisition assignment rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/load-data-erp-user-mapping-psm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/load-data-erp-user-mapping-psm.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

@@ -2,7 +2,7 @@
 title: Enterprise model categories and corresponding classes
 description: Enterprise model categories and their corresponding Configuration Management Database \(CMDB\) configuration item \(CI\), asset, and model classes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/enterprise-model-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/enterprise-model-categories.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -796,7 +796,7 @@ sn\_ent\_wearable\_model​
 |Stage and Studio Lighting|cmdb\_ci\_stage\_studio\_lighting|sn\_ent\_mm\_prod\_equip\_asset|sn\_ent\_mm\_prod\_equip\_model​|
 |Multimedia Production Equipment General|cmdb\_ci\_multimedia\_production\_equipment|sn\_ent\_mm\_prod\_equip\_asset|sn\_ent\_mm\_prod\_equip\_model​|
 
-**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

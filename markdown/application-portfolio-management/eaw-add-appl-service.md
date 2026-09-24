@@ -2,7 +2,7 @@
 title: Add or edit an application service in the Enterprise Architecture Workspace
 description: Add or edit an application service of your organization in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-appl-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-appl-service.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,15 +34,15 @@ Role required: sn\_apm.apm\_analyst
     -   To update details of an existing application service, select the record then select **Edit**.
 6.  On the form, fill in the fields.
 
-    For field information, see [Application service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-app-service-form.md).
+    For field information, see [Application service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-app-service-form.md).
 
 7.  Select **Save** or **Update**.
 
 
-**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 
 
-[View all application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-app-services.md)
+[View all application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-app-services.md)
 

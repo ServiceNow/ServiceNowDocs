@@ -2,7 +2,7 @@
 title: Exploring Lifecycle Events
 description: Lifecycle Events enables you to automate the fulfillment of HR cases such as new hire onboarding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/exploring-lifecycle-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/exploring-lifecycle-events.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -75,7 +75,7 @@ sn\_hr\_le.admin or admin
 
 To learn more about configuring and using Lifecycle Events, see:
 
--   [Configuring Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configuring-lifecycle-events.md)
--   [Using Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/using-lifecycle-events.md)
--   [Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/lifecycle-events-reference.md)
+-   [Configuring Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configuring-lifecycle-events.md)
+-   [Using Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/using-lifecycle-events.md)
+-   [Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/lifecycle-events-reference.md)
 

@@ -2,7 +2,7 @@
 title: Activate Performance Analytics for Configuration Compliance
 description: Activate the content pack ServiceNow Store application for the Platform Analytics Solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/configuration-compliance-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/configuration-compliance-install.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

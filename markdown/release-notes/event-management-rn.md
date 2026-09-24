@@ -2,7 +2,7 @@
 title: Event Management release notes
 description: The ServiceNow Event Management application helps you to identify health issues across the datacenter on a single management console. Event Management was enhanced and updated in the Australia release.The ServiceNow Event Management application helps you to identify health issues across the datacenter on a single management console. Event Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/event-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/event-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_EMActivatePlugin.md).
 
 
-**Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-operations-management-rn-landing.md)
+**Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-operations-management-rn-landing.md)
 
 ## Australia
 

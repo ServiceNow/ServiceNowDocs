@@ -2,7 +2,7 @@
 title: Access the ServiceNow Store for a regulated environment
 description: Log in to the isolated instance of the ServiceNow Store contained in your regulated environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/access-regulated-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/access-regulated-store.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

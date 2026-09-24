@@ -2,7 +2,7 @@
 title: Enable Markdown in text fields
 description: Markdown lets you format rich text using an easy-to-remember plain text syntax.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/enable-markdown-in-text-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enable-markdown-in-text-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,5 +44,5 @@ CPQ text fields support Markdown, a widely used, lightweight markup language for
 
 [Markdown syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-[Markdown options for read-only text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_readonlytext_markdown_options.md)
+[Markdown options for read-only text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_readonlytext_markdown_options.md)
 

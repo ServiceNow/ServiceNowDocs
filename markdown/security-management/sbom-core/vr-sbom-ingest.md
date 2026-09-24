@@ -2,7 +2,7 @@
 title: Upload Software Bill of Materials files manually
 description: Upload Software Bill of Materials \(SBOM\) files manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-ingest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sbom-core/vr-sbom-ingest.html
 release: australia
 product: SBOM Core
 classification: sbom-core
@@ -31,15 +31,15 @@ Role required: sn\_sbom\_core.sbom\_ingest
 
     The method you use to upload your files depends on whether you have the SBOM Core or SBOM Response applications installed.
 
-<table id="choicetable_xcf_543_czb"><thead><tr><th align="left" id="d144497e86">
+<table id="choicetable_xcf_543_czb"><thead><tr><th align="left" id="d144600e86">
 
 Option
 
-</th><th align="left" id="d144497e89">
+</th><th align="left" id="d144600e89">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d144497e95">
+</th></tr></thead><tbody><tr><td id="d144600e95">
 
 **If you have installed SBOM Core**
 
@@ -58,7 +58,7 @@ The file name is displayed on the Choose an attachment file page.
 5.  Select **OK**.
 
 
-</td></tr><tr><td id="d144497e153">
+</td></tr><tr><td id="d144600e153">
 
 **If you have installed SBOM Response starting with v4.0**
 
@@ -90,9 +90,9 @@ These values help you associate this SBOM to a business application or product m
 The BOM queue page is displayed and the file is listed on the SBOM ingestion section along with upload status other information about the file.
 
 </td></tr></tbody>
-</table>2.  Upload SBOM files imported by the [Veracode Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/veracode-vuln-integration.md).
+</table>2.  Upload SBOM files imported by the [Veracode Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/veracode-vuln-integration.md).
 
-    **Note:** You can upload Veracode files in CycloneDX \(JSON and XML\) and SPDX \(XML\) formats only if you have installed and activated the Veracode integration with Application Vulnerability Response. See the [Veracode Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/veracode-vuln-integration.md) for more information.
+    **Note:** You can upload Veracode files in CycloneDX \(JSON and XML\) and SPDX \(XML\) formats only if you have installed and activated the Veracode integration with Application Vulnerability Response. See the [Veracode Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/veracode-vuln-integration.md) for more information.
 
 
 ## Result
@@ -105,5 +105,5 @@ After an SBOM is successfully processed, where you view the upload status depend
 **Related topics**  
 
 
-[Uploading Software Bill of Materials files using a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-preparing-upload.md)
+[Uploading Software Bill of Materials files using a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sbom-core/vr-sbom-preparing-upload.md)
 

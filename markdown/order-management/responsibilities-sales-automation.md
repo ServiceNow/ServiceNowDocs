@@ -2,7 +2,7 @@
 title: Related parties, responsibilities, and access included with Sales Common
 description: Default related party configurations, responsibilities, and access levels included with the Sales Common app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/responsibilities-sales-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/responsibilities-sales-automation.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"

@@ -2,7 +2,7 @@
 title: Unified sales and order management
 description: Sales CRM for Telecommunications consolidates product catalog, sales, and order fulfillment on one platform. It carries quote line items through to fulfilled services and decomposes customer orders into domain orders using catalog-defined rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/exploring-unified-sales-order-management-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/exploring-unified-sales-order-management-somt.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-14"
@@ -99,5 +99,5 @@ Because inventory is managed by the order throughout the fulfillment lifecycle:
 
 ## TMF standards support
 
-Sales CRM for Telecommunications aligns domain order creation and routing to TM Forum Open API standards, supporting standards-based integration with third-party fulfillment and provisioning systems. For more information about TMF APIs, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
+Sales CRM for Telecommunications aligns domain order creation and routing to TM Forum Open API standards, supporting standards-based integration with third-party fulfillment and provisioning systems. For more information about TMF APIs, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/tmt-api-reference.md).
 

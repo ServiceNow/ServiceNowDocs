@@ -2,7 +2,7 @@
 title: Activate the Service Mapping Candidates Impact skill
 description: The Service Mapping Candidates Impact skill analyzes connections and effects on servers. It enables generating an impact summary, using ServiceNow Otto. The skill is active by default. If needed, administrators can activate or deactivate the skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/activate-sm-candidates-impact-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/activate-sm-candidates-impact-skill.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -28,7 +28,7 @@ The Service Mapping Candidates Impact skill enables the agent to create a summar
 
 ## Before you begin
 
-Before activating the ServiceNow Otto skills, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+Before activating the ServiceNow Otto skills, you must install the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
 
 You must configure the following setting:
 

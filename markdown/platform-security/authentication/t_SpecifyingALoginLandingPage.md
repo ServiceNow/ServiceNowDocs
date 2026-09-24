@@ -2,7 +2,7 @@
 title: Specify a login landing page
 description: By default, users see their homepage on login. You can specify a different login landing page by using a system property or the content management system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SpecifyingALoginLandingPage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_SpecifyingALoginLandingPage.html
 release: australia
 product: Authentication
 classification: authentication

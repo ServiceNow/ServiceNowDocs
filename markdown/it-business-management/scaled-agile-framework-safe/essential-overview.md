@@ -2,7 +2,7 @@
 title: Essential SAFe
 description: Apply lean and agile principles to your Agile Release Trains and teams, and develop and deliver work with fewer defects in the shortest viable lead time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/essential-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/essential-overview.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -56,20 +56,20 @@ As a team member, you can plan and monitor activities within the team by accessi
 -   track all stories and view their transition from one state \(lane\) to another, in a visual task board.
 
 </td></tr></tbody>
-</table>-   **[Components installed with Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/installed-with-EssentialSAFe.md)**  
+</table>-   **[Components installed with Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/installed-with-EssentialSAFe.md)**  
 Several types of components are installed with activation of the Agile - Scaled Agile Framework - Essential SAFe plugin \(com.snc.sdlc.safe\), including tables and user roles.
--   **[Quick start tests for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/quick-start-tests-essentialSAFe.md)**  
+-   **[Quick start tests for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/quick-start-tests-essentialSAFe.md)**  
 Validate that Essential SAFe still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
--   **[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)**  
+-   **[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)**  
 Learn about the various SAFe entities that are used to successfully plan, track, and deliver your software products.
--   **[SAFe PI objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-pi-objectives.md)**  
+-   **[SAFe PI objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/safe-pi-objectives.md)**  
 Use SAFe program increment \(PI\) objectives to highlight the overall goals for a team or for an agile release train \(ART\) in a PI.
--   **[SAFe Board — ART level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/program-level-tabs.md)**  
+-   **[SAFe Board — ART level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/program-level-tabs.md)**  
 As a product manager, you can plan and monitor activities across teams within your agile release train \(ART\) by accessing the ART level on the SAFe Board.
--   **[SAFe Board — Team level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/team-level-tabs.md)**  
+-   **[SAFe Board — Team level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/team-level-tabs.md)**  
 As a team member, you can plan and monitor activities within your team by accessing the Team level on the SAFe Board.
 
-**Parent Topic:**[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/SAFeoverview.md)
+**Parent Topic:**[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/SAFeoverview.md)
 
 **Related topics**  
 

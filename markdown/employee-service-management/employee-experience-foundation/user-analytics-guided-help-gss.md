@@ -2,7 +2,7 @@
 title: Guided Self-Service Usage Insights
 description: Visually analyze Guided Self-Service usage, user behavior, and other information from the Usage Insights dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/user-analytics-guided-help-gss.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/user-analytics-guided-help-gss.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

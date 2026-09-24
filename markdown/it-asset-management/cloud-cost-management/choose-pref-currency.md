@@ -2,7 +2,7 @@
 title: Choose preferred currency for cost and usage data
 description: Choose your preferred currency from the available options that will be shown for all the billing and usage data. The currency that you choose becomes the display currency on all the dashboard widgets, recommendations \(rightsizing, business hours, unused resources, commitments\), budgets, and billing data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/choose-pref-currency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/choose-pref-currency.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -35,5 +35,5 @@ Role required: insights\_admin, insights\_owner or insights\_user
 
 The preferred currency is shown as the display currency in all dashboard widgets, recommendations, budgets, and billing data of the Cloud Cost Management Workspace.
 
-**Parent Topic:**[Set up or update preferred currency options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/setup-update-currency.md)
+**Parent Topic:**[Set up or update preferred currency options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/setup-update-currency.md)
 

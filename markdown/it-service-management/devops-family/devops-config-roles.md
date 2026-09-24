@@ -2,7 +2,7 @@
 title: DevOps Config roles
 description: DevOps Config uses these roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-roles.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -104,8 +104,8 @@ DevOps Config admin
 -   sn\_cdm.cdm\_admin
 
 </td></tr></tbody>
-</table>-   **[Roles in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-roles.md)**  
+</table>-   **[Roles in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-roles.md)**  
 List of roles and permissions in CDM.
 
-**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-reference.md)
+**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-reference.md)
 

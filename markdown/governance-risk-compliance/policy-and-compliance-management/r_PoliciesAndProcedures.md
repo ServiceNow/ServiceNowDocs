@@ -2,7 +2,7 @@
 title: Manage control objectives and policies
 description: The Policies and Procedures module contains overview and detailed information related to policy approvals, policies, and control objectives.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/r\_PoliciesAndProcedures.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/r\_PoliciesAndProcedures.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -96,30 +96,30 @@ Compliance managers catalog the control objectives and generate controls from th
 
 **Note:** UCF refers to control objectives as controls. When UCF data is imported, controls are imported into the control objectives table.
 
--   **[Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_DefineAPolicy.md)**  
+-   **[Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_DefineAPolicy.md)**  
 A policy defines an internal practice that processes must follow. Policies are defined as policies, procedures, standards, plans, checklists, frameworks, and templates.
--   **[Approve and publish a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_ApprovePolicy.md)**  
+-   **[Approve and publish a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_ApprovePolicy.md)**  
 When a policy is approved, it is automatically published.
--   **[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)**  
+-   **[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)**  
 After a policy has been published, you can create an acknowledgement campaign to define a group of your employees who must provide an acknowledgement that a particular policy is in compliance. When the campaign has been defined, you can submit the request to the audience.
--   **[Retire a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_RetireAPolicy.md)**  
+-   **[Retire a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_RetireAPolicy.md)**  
 Retiring a policy is part of the policy management process.
--   **[Create a GRC article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateArticleTemplate.md)**  
+-   **[Create a GRC article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_CreateArticleTemplate.md)**  
 Policy and Compliance managers can create templates for policy article publishing.
--   **[Create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAPolicyStatement.md)**  
+-   **[Create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_CreateAPolicyStatement.md)**  
 A control objective is an objective, direction, or standard that acts as guidance for company interactions and operations. Control objectives can be categorized, classified, and related to policies.
--   **[Deactivate a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_DeactivateAPolStatement.md)**  
+-   **[Deactivate a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_DeactivateAPolStatement.md)**  
 Deactivate control objectives that are no longer relevant to their citation or parent control objective.
--   **[Relate a control objective to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_RelatePolicyStateToPolicy.md)**  
+-   **[Relate a control objective to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_RelatePolicyStateToPolicy.md)**  
 Associate the control objective to a policy individually when the policy is in the review or draft state by clicking the edit button in the Control Objective related list.
--   **[Relate a control objective to a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_RelatePSToACitation.md)**  
+-   **[Relate a control objective to a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_RelatePSToACitation.md)**  
 A single control objective can be mapped to many citations from different authority documents. This function allows you to test a control objective once while complying with many different citations.
--   **[Create or deactivate a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateCitations.md)**  
+-   **[Create or deactivate a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_CreateCitations.md)**  
 Usually, authority documents, citations, and control objectives are downloaded from a third-party provider. However, citations can be created manually from an authority document. The **Active** option in a citation indicates whether the citation is active or inactive.
--   **[Create an authority document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAnAuthorityDocument.md)**  
+-   **[Create an authority document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_CreateAnAuthorityDocument.md)**  
 Authority documents manage a process and citations are created within them to manage points of the process. For example, the process called Building Security contains a citation for Entry Control.
--   **[Deactivate an authority document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_DeactivateAnAuthorityDoc.md)**  
+-   **[Deactivate an authority document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_DeactivateAnAuthorityDoc.md)**  
 The **Active** option in an authority document indicates whether the authority documents have been retired.
 
-**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 

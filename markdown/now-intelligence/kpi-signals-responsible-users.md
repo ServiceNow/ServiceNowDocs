@@ -2,7 +2,7 @@
 title: Configure responsibility for KPI Signals
 description: Besides security access, a user needs a level of responsibility to act on a signal. Responsibility is granted for individual indicator/breakdown element combinations \(KPIs\) that the KPI Signals application monitors.You can assign responsibility for KPI Signals for a KPI to yourself or someone else. You can also unassign responsibility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/kpi-signals-responsible-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/kpi-signals-responsible-users.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Even responsible users without workspace access get these email notifications.
 **Related topics**  
 
 
-[Configure signal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-signal-notifications.md)
+[Configure signal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-signal-notifications.md)
 
 ## Assign responsibility for signals
 
@@ -42,7 +42,7 @@ Role required: Any role if a responsible user, or pa\_admin or admin
 
 ### Procedure
 
-1.  Open KPI Signals for an indicator, as described in [View KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-kpi-signals.md).
+1.  Open KPI Signals for an indicator, as described in [View KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/view-kpi-signals.md).
 
 2.  Click the cogwheel \[Omitted image "kpi-signals-config-cogwheel.png"\] Alt text: Cogwheel button for KPI Signals configuration to open the KPI Signals configuration.
 

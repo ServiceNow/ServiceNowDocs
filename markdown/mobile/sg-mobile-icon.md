@@ -2,7 +2,7 @@
 title: Mobile icons
 description: Use icons to provide unique identifiers for navigation and actions in your mobile applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-icon.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-icon.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Icons can be used in the following places in mobile apps.
 
 **Note:**
 
--   To find a list of icon codes, see the topics for the icon font family you want to use in the [Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md).
+-   To find a list of icon codes, see the topics for the icon font family you want to use in the [Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-icon-reference.md).
 -   For a visual introduction to the mobile icons, see [Mobile UX Improvement with Icon Sections](https://youtu.be/GjSfqR0RL-g?si=TjwV65kBgsOBKZZX), a lesson in the ServiceNow Community Mobile App Academy on YouTube.com.
 
 -   navigation bars
@@ -37,7 +37,7 @@ There are three basic types of icons.
 -   User icons
 -   Image icons
 
-Each type is designed to be used for distinct purposes and locations in your mobile apps. For visual examples of these icons, see the [Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md).
+Each type is designed to be used for distinct purposes and locations in your mobile apps. For visual examples of these icons, see the [Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-icon-reference.md).
 
 ## Font icons
 
@@ -64,7 +64,7 @@ Font icons are the largest group of icons. There are several font families which
 
 Image icons are not font-type icons. They are designed to be used on navigation tabs and on image-type section destinations. These are the same section destinations that font icons from the **now-mobile-icons** font family are used on.
 
-For information about configuring the icon section destination, see [Adding images to an icon section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/add-image-icon-section.md).
+For information about configuring the icon section destination, see [Adding images to an icon section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/add-image-icon-section.md).
 
 ## User icons
 

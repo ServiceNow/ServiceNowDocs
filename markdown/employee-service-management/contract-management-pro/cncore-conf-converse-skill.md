@@ -2,7 +2,7 @@
 title: Configure Conversational contract search and insights
 description: Configure Conversational contract search and insights skill to enable searching information in contracts using natural language and dialogue-driven queries, making it easier to find relevant information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-conf-converse-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-conf-converse-skill.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -21,27 +21,27 @@ Configure Conversational contract search and insights skill to enable searching 
 
 Complete the following steps to configure Conversational contract search and insights.
 
--   **[Copy contract documents to contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-conv-copy-docs-to-cntr.md)**
+-   **[Copy contract documents to contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-conv-copy-docs-to-cntr.md)**
 
     Copy signed contract documents into the contract repository for conversational search.
 
--   **[Index contracts table for conversational search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-converse-search-indexing.md)**
+-   **[Index contracts table for conversational search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-converse-search-indexing.md)**
 
     Index the data for conversational search.
 
--   **[Configure conversational search tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-kg-table.md)**
+-   **[Configure conversational search tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-kg-table.md)**
 
     Configure Knowledge graph tags to identify which tables should be used for answering natural language questions in conversational search.
 
--   **[Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-users-agentic-wf.md)**
+-   **[Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-conf-users-agentic-wf.md)**
 
     Set the data access permissions for the agentic workflow- Conversational Contract Search.
 
--   **[Configuring user access and data permissions for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-users-ai-agents.md)**
+-   **[Configuring user access and data permissions for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-conf-users-ai-agents.md)**
 
     Set the data access permissions for the Agent- Search contracts AI.
 
--   **[Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)**
+-   **[Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)**
 
     Set the data access permissions for the skills- Contracts query enhancer, Contracts query classifier and Search contract with contextual input.
 

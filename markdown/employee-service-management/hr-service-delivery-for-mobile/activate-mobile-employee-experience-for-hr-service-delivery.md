@@ -2,7 +2,7 @@
 title: Activate HR Service Delivery for mobile
 description: Activate the HR Service Delivery for mobile plugin \(sn\_hr\_mobile\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-mobile/activate-mobile-employee-experience-for-hr-service-delivery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery-for-mobile/activate-mobile-employee-experience-for-hr-service-delivery.html
 release: australia
 product: HR Service Delivery for mobile
 classification: hr-service-delivery-for-mobile
@@ -24,7 +24,7 @@ Role required: admin
 
 HR Service Delivery for mobile activates these related plugins if they are not already active:
 
--   [Now Mobile app \[sn\_me\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
+-   [Now Mobile app \[sn\_me\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
 -   Surveys for mobile \[com.sn\_msc\]
 
 ## Procedure
@@ -42,10 +42,10 @@ HR Service Delivery for mobile activates these related plugins if they are not a
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Now Mobile for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-mobile/components-installed-with-now-mobile-hr.md)**  
+-   **[Components installed with Now Mobile for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-mobile/components-installed-with-now-mobile-hr.md)**  
 Several types of components install with the activation of the Now Mobile for HR Service Delivery plugin, including tables and user roles.
--   **[Configurations for the Now Mobile app for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-mobile/hr-mobile-configuration.md)**  
+-   **[Configurations for the Now Mobile app for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-mobile/hr-mobile-configuration.md)**  
 Configure options for the Now Mobile app for HR Service Delivery.
 
-**Parent Topic:**[HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-mobile/mobile-employee-experience-for-hr-service-delivery.md)
+**Parent Topic:**[HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-mobile/mobile-employee-experience-for-hr-service-delivery.md)
 

@@ -2,7 +2,7 @@
 title: Generate and improve Docs content with ServiceNow Otto for Strategic Portfolio Management
 description: Generate content with ServiceNow Otto for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -112,5 +112,5 @@ Whether the content in the Doc is added manually or generated using Now Assist, 
     **Important:** Because the output is AI-generated, review it to ensure accuracy.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 

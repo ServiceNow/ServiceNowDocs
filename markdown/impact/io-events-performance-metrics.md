@@ -2,7 +2,7 @@
 title: Event queues performance metrics
 description: The metrics provide the event performance snapshot within the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-events-performance-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-events-performance-metrics.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-20"
@@ -42,7 +42,7 @@ This represents the delta change in the number of high priority events that are 
 
 If the high priority events processed delta is at zero, then it means that the queue has nothing further to process or there has been a failure in the event processor.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

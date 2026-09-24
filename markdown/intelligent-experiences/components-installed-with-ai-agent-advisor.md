@@ -2,7 +2,7 @@
 title: Components installed with AI Agent Advisor
 description: Several components are installed with the AI Agent Advisor application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/components-installed-with-ai-agent-advisor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/components-installed-with-ai-agent-advisor.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-30"
@@ -23,7 +23,7 @@ The following roles are installed with AI Agent Advisor.
 -   AI Agent Advisor UI \[sn\_agent\_miner.app\_ui\]
 -   AI Agent Advisor read only \[sn\_agent\_miner.app\_read\_only\]
 
-For information on the roles installed with AI Agent Advisor, see [AI Agent Advisor roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-roles.md).
+For information on the roles installed with AI Agent Advisor, see [AI Agent Advisor roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-advisor-roles.md).
 
 ## Tables installed
 
@@ -42,7 +42,7 @@ The following tables are installed with AI Agent Advisor.
 -   AI Agent Advisor Scheduled Jobs \[sn\_agent\_miner\_sysauto\_script\]
 -   AI Agent Advisor Tool Match \[sn\_agent\_miner\_tool\_match\]
 
-**Parent Topic:**[AI Agent Advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-reference.md)
+**Parent Topic:**[AI Agent Advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-advisor-reference.md)
 
 **Related topics**  
 

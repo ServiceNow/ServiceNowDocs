@@ -2,7 +2,7 @@
 title: Add an attachment to a Visual Task Board card
 description: You can add an attachment to a record within a Visual Task Board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/add-an-attachment-vtb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/add-an-attachment-vtb.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -35,5 +35,5 @@ Adding an attachment to a task card also adds the attachment to the underlying t
 3.  Click **Add Attachment** and select a file to add as an attachment.
 
 
-**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

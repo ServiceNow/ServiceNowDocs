@@ -2,7 +2,7 @@
 title: Summarize a document with Smart Docs
 description: Use the ServiceNow Otto panel to summarize a supported document or ask questions about its content instead of reading the entire document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/summarize-a-document-with-smart-docs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/summarize-a-document-with-smart-docs.html
 release: australia
 product: Audit Management
 classification: audit-management

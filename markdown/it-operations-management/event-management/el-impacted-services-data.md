@@ -2,7 +2,7 @@
 title: View data on impacted services on the preview panel in Express List
 description: View extra information on the preview panel about impacted services that are bound to alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-impacted-services-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-impacted-services-data.html
 release: australia
 product: Event Management
 classification: event-management
@@ -62,7 +62,7 @@ Displays the severity, the business criticality, and a short description of the 
 
 \[Omitted image "el-impacted-services-popup.png"\] Alt text: View service map link on the Impacted Services pop-up.
 
-The service map shows the impacted path of alerts, enabling you to quickly assess their effect on the service. For more information, see [View unified service map and the impact paths in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-impact-tree.md).
+The service map shows the impacted path of alerts, enabling you to quickly assess their effect on the service. For more information, see [View unified service map and the impact paths in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/view-impact-tree.md).
 
 If metrics data exists for this service, you can open the Metric Explorer from the pop-up by selecting **View related metrics**.
 

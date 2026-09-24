@@ -2,7 +2,7 @@
 title: General guidelines for streaming data to Health Log Analytics
 description: This section helps you identify the appropriate data input for streaming your specific data type to the Health Log Analytics \(HLA\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-streaming-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-streaming-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -109,5 +109,5 @@ Varies by tool
 -   Datadog: Use the Vector Agent data input to stream data from Datadog to Health Log Analytics.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-reference.md)
+</table>**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-reference.md)
 

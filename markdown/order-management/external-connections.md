@@ -2,7 +2,7 @@
 title: Set up External connections for configuration rules
 description: External connections enable enrichments in CPQ to retrieve data from systems outside CPQ for use in configuration rules, such as fetching third-party pricing or product attributes during a configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/external-connections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/external-connections.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -50,5 +50,5 @@ When a path uses a parameter variable, wrap the value in `encodeURIComponent()` 
 **Related topics**  
 
 
-[Create an external connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-external-connection.md)
+[Create an external connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-external-connection.md)
 

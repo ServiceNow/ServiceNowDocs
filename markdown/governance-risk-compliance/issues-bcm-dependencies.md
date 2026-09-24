@@ -2,7 +2,7 @@
 title: Dependencies for integrating the Issues module with BCM
 description: Certain GRC applications are required for Issues integration with BCM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/issues-bcm-dependencies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/issues-bcm-dependencies.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-17"

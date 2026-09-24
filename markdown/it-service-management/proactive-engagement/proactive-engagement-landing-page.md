@@ -2,7 +2,7 @@
 title: Proactive Engagement
 description: Proactive Engagement assists organizations to improve employee productivity and satisfaction by proactively detecting and enabling employees to self-solve digital experience issues on a day-to-day basis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/proactive-engagement-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/proactive-engagement/proactive-engagement-landing-page.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -26,19 +26,19 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) 
 
 <table id="table_uvp_xgb_p1c" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how Proactive Engagement can help you with its key features and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/exploring-proactive-engagement.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how Proactive Engagement can help you with its key features and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/exploring-proactive-engagement.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Proactive Engagement to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/configuring-proactive-engagement.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Proactive Engagement to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/configuring-proactive-engagement.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:See how users can leverageProactive Engagement framework to resolve issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/using-proactive-engagement.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:See how users can leverageProactive Engagement framework to resolve issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/using-proactive-engagement.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Proactive Engagement.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/proactive-engagement-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Proactive Engagement.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/proactive-engagement-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

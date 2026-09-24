@@ -2,7 +2,7 @@
 title: Invoice tax line staging table
 description: The invoice tax line inbound \[sn\_spend\_intg\_imp\_invoice\_tax\_line\] staging table temporarily stores important data about the invoice tax line before this data is sent to the \[sn\_shop\_invoice\_tax\_line\] primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/inbound-invoice-tax-line-staging-table-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/inbound-invoice-tax-line-staging-table-apo.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -27,7 +27,7 @@ The following table lists the fields for the invoice tax line inbound \[sn\_shop
 |Supplier Tax|String|The amount charged by the supplier.|
 |Supplier Tax Rate|Decimal|The tax rate calculated by the third-party tax calculation engine.|
 
-**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/inbound-staging-tables-for-apo.md)
+**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/inbound-staging-tables-for-apo.md)
 
 **Related topics**  
 

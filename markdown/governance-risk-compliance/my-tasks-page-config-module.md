@@ -2,7 +2,7 @@
 title: My tasks page configurations
 description: If you are the Business Continuity Management application user, you can use My tasks page configurations in the General Administration module to view your assigned tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/my-tasks-page-config-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/my-tasks-page-config-module.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ My tasks page in the Home page displays the assigned tasks for the logged-in use
 
 \[Omitted image "my-tasks-page-all-tabs.png"\] Alt text: My tasks page in BCM UIB Workspace.
 
-For more information on My tasks page view in BCM UIB Workspace, see [My tasks page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/my-tasks-page-uib-ws.md).
+For more information on My tasks page view in BCM UIB Workspace, see [My tasks page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/my-tasks-page-uib-ws.md).
 
-**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

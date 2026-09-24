@@ -2,7 +2,7 @@
 title: Valid classes
 description: There are certain classes and class types that are valid for the level geometry file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_ValidClasses.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_ValidClasses.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -52,5 +52,5 @@ There are certain classes and class types that are valid for the level geometry 
     -   Shelf
     -   Bin
 
-**Parent Topic:**[Level geometry file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_LevelFile.md)
+**Parent Topic:**[Level geometry file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_LevelFile.md)
 

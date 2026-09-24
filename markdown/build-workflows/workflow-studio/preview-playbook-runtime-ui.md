@@ -2,7 +2,7 @@
 title: Preview an activity's runtime UI
 description: See how an activity will appear to end users when the playbook runs. Use the preview to confirm the activity's appearance as you work, and adjust its configuration before you activate the playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/preview-playbook-runtime-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/preview-playbook-runtime-ui.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -75,5 +75,5 @@ The preview appears in the activity property panel, beside the **Details**, **Au
 8.  Select **Save and close** to close the preview.
 
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

@@ -2,7 +2,7 @@
 title: Working on scheduled tasks in Dispatcher Workspace
 description: Learn about different ways to view tasks in the Scheduled state​.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/view-and-assign-scheduled-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/view-and-assign-scheduled-tasks.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -35,15 +35,15 @@ Role required: wm\_dispatcher, wm\_admin, and wm\_agent
 
 1.  You can view tasks in the Scheduled state in one of the following roles​.
 
-<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d160082e113">
+<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d160187e113">
 
 role
 
-</th><th align="left" id="d160082e116">
+</th><th align="left" id="d160187e116">
 
 steps
 
-</th></tr></thead><tbody><tr><td id="d160082e122">
+</th></tr></thead><tbody><tr><td id="d160187e122">
 
 **wm\_dispatcher**
 
@@ -53,7 +53,7 @@ steps
 2.  View the list of scheduled tasks in the dispatcher group.
 
 
-</td></tr><tr><td id="d160082e152">
+</td></tr><tr><td id="d160187e152">
 
 **wm\_admin**
 
@@ -63,7 +63,7 @@ steps
 2.  View the list of all scheduled tasks.
 
 
-</td></tr><tr><td id="d160082e182">
+</td></tr><tr><td id="d160187e182">
 
 **wm\_agent**
 

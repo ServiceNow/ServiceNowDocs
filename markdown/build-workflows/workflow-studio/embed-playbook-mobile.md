@@ -2,7 +2,7 @@
 title: Embed a playbook in ServiceNow mobile
 description: Embed a playbook in ServiceNow mobile by creating a screen in Mobile App Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/embed-playbook-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/embed-playbook-mobile.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -20,7 +20,7 @@ Embed a playbook in ServiceNow® mobile by creating a screen in Mobile App Build
 
 Role required: admin
 
-If you haven't configured your playbook for ServiceNow® mobile in UI Builder yet, see [Configure a playbook for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-playbook-mobile.md).
+If you haven't configured your playbook for ServiceNow® mobile in UI Builder yet, see [Configure a playbook for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configure-playbook-mobile.md).
 
 ## Procedure
 

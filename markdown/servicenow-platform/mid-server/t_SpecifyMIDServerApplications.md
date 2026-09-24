@@ -2,7 +2,7 @@
 title: Configure a default MID Server for each application
 description: You can configure a default MID Server that an application can use if all other possible MID Servers are unavailable. You can narrow down the list of applications that are included in the definition of ALL.You can narrow down the list of applications that are included in the definition of ALL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_SpecifyMIDServerApplications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/t\_SpecifyMIDServerApplications.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -107,7 +107,7 @@ Cloud Management uses the MID Server for cloud resource discovery, and provision
 5.  Click **Update**.
 
 
-**Parent Topic:**[MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
+**Parent Topic:**[MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerSelector.md)
 
 ## Select applications to include in the definition of ALL for a MID Server
 

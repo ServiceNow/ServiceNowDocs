@@ -2,7 +2,7 @@
 title: Manage check-in and check-out reservations
 description: Reservation check in and check- out reminders are managed through the Check-in and check out reminder scheduled jobs
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/check-in-check-out-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/check-in-check-out-process.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -21,7 +21,7 @@ The following properties are being used in this scheduled job:
 -   sn\_wsd\_rsv.time\_before\_check\_in\_out\_reminder
 -   sn\_wsd\_rsv.time\_when\_reservation\_cancelled\_without\_check\_in
 
-Ensure check-in is required on the Reservable module at the space level. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+Ensure check-in is required on the Reservable module at the space level. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 -   This can be enforced through the Reservable Module property value **Override check-in policy**” on the Reservable Module to **always require check-in**
 -   This can be managed at the space level. Space is indicated as check-in required. Set **Override check-in policy** on the Reservable Module to **no override**.
@@ -135,7 +135,7 @@ If the reservation is checked in, employee receives an email notification.
     The daily scheduled job **Reservation daily tasks** closes all reservations at the end of the office working hours. Reservation may be closed the day after. The check-in state for reservations that are checked-in is indicated as **no\_check\_out**.
 
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

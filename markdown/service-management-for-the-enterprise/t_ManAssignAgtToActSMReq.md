@@ -2,7 +2,7 @@
 title: Manually assign agents to active requests
 description: Use this procedure to assign agents to active requests in service management \(SM\) applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_ManAssignAgtToActSMReq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_ManAssignAgtToActSMReq.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Use this procedure to assign agents to active requests in service management \(S
     An email notification is automatically sent to the assigned agent when email notifications are set up for the instance.
 
 
-**Parent Topic:**[Agent assignment methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_AgentAssignment.md)
+**Parent Topic:**[Agent assignment methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_AgentAssignment.md)
 

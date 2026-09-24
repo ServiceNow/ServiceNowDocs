@@ -2,7 +2,7 @@
 title: General guidelines for using app generation
 description: To get the best results from app generation, provide clear and detailed descriptions of your application requirements during your conversation with ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-app-gen-guidelines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-app-gen-guidelines.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -17,7 +17,7 @@ breadcrumb: [Explore, App generation, AI tools and files, Use, ServiceNow Studio
 
 To get the best results from app generation, provide clear and detailed descriptions of your application requirements during your conversation with ServiceNow Otto®.
 
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md).
 
 ## How do I have a productive conversation with app generation?
 
@@ -72,5 +72,5 @@ App generation works best when you include specific details about your requireme
 
 For more information about having productive conversations with ServiceNow Otto®, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/llm-instruction-guidelines.md).
 
-**Parent Topic:**[Exploring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.md)
+**Parent Topic:**[Exploring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-exploring-now-assist-gen.md)
 

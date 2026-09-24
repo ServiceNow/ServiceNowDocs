@@ -2,7 +2,7 @@
 title: Applications installed with ServiceNow Otto for ITOM
 description: Table that lists applications installed with the ServiceNow Otto for IT Operations Management \(ITOM\) application. When you update your application, any newly required application dependencies are installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/app-now-assist-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/app-now-assist-itom.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -26,11 +26,11 @@ Table that lists applications installed with the ServiceNow Otto for IT Operatio
 **Related topics**  
 
 
-[Plugins or applications installed with ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.md)
+[Plugins or applications installed with ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.md)
 
-[Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md)
+[Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/plugin-app-itom-visibility.md)
 
-[Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-app-itom-health.md)
+[Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/plugin-app-itom-health.md)
 
-[Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-itom-optimization.md)
+[Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/plugin-itom-optimization.md)
 

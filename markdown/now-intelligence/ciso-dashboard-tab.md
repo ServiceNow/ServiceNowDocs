@@ -2,7 +2,7 @@
 title: Chief Information Security Officer \(CISO\) Dashboard pillars
 description: Organizing insights across these pillars empowers CISOs to proactively reduce risk, improve compliance, strengthen incident responses, accelerate vulnerability remediation, and maintain audit readiness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/ciso-dashboard-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/ciso-dashboard-tab.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

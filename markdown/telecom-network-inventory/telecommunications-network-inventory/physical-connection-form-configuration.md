@@ -2,7 +2,7 @@
 title: Physical Connection form - Configuration
 description: The Configuration section in the Physical Connection form enables you to create a physical connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/physical-connection-form-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-form-configuration.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -30,7 +30,7 @@ Port A
 
 </td><td>
 
-Network interface that is used in the Port A connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network interface. To learn more, see [Define the network interface details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-interfaces.md).
+Network interface that is used in the Port A connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network interface. To learn more, see [Define the network interface details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-interfaces.md).
 
 </td></tr><tr><td>
 
@@ -57,7 +57,7 @@ Port Z
 
 </td><td>
 
-Network interface that is used in the Port Z connection. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a network interface. To learn more, see [Define the network interface details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-interfaces.md).
+Network interface that is used in the Port Z connection. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a network interface. To learn more, see [Define the network interface details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-interfaces.md).
 
 </td></tr><tr><td>
 
@@ -65,7 +65,7 @@ Vendor
 
 </td><td>
 
-Name of the network asset's vendor. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a vendor code. To learn more, see [Create manufacturer and vendor codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/add-company-designate-manufacturer-tni.md).
+Name of the network asset's vendor. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a vendor code. To learn more, see [Create manufacturer and vendor codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/add-company-designate-manufacturer-tni.md).
 
 </td></tr><tr><td>
 
@@ -113,12 +113,12 @@ Distance is expressed in meters.
 
 
 </td></tr></tbody>
-</table>**Note:** To learn about the remaining configuration fields that are common to most of the Inventory menu forms, see [Commonly used network asset instance configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-configuration-fields.md).
+</table>**Note:** To learn about the remaining configuration fields that are common to most of the Inventory menu forms, see [Commonly used network asset instance configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-configuration-fields.md).
 
-**Parent Topic:**[Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/physical-connection-forms.md)
+**Parent Topic:**[Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-forms.md)
 
 **Related topics**  
 
 
-[Define the physical connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-physical-connections.md)
+[Define the physical connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-physical-connections.md)
 

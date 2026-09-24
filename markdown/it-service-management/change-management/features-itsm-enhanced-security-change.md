@@ -2,7 +2,7 @@
 title: ITSM Enhanced Security Features for Change Management
 description: Help prevent unauthorized access to change-related tables using deny-unless ACLs. A deny-unless authentication ACL restricts access for a non-authenticated user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/features-itsm-enhanced-security-change.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/features-itsm-enhanced-security-change.html
 release: australia
 product: Change Management
 classification: change-management
@@ -47,10 +47,10 @@ The change task table is a child of the task \[task\] table and inherits all the
 </td></tr></tbody>
 </table>**Note:** For new or zboot instances, the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin is automatically installed.
 
-The ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin can be installed and activated by an admin via a support request. Existing or upgrade users must test and evaluate the results in their non-production instance and then install the plugin and implement the security change in their production instance. For more information, see [Activate ITSM Enhanced Security Features for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/activate-itsm-enhanced-security-change.md).
+The ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin can be installed and activated by an admin via a support request. Existing or upgrade users must test and evaluate the results in their non-production instance and then install the plugin and implement the security change in their production instance. For more information, see [Activate ITSM Enhanced Security Features for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/activate-itsm-enhanced-security-change.md).
 
--   **[Activate ITSM Enhanced Security Features for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/activate-itsm-enhanced-security-change.md)**  
+-   **[Activate ITSM Enhanced Security Features for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/activate-itsm-enhanced-security-change.md)**  
 Prevent unauthorized access to change-related tables using deny-unless ACLs by activating the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin.
 
-**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/reference-change-management.md)
+**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/reference-change-management.md)
 

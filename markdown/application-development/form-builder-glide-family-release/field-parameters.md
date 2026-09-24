@@ -2,7 +2,7 @@
 title: Field configuration in Table Builder
 description: You can configure the basic field properties for any field within Table Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/field-parameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/form-builder-glide-family-release/field-parameters.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -308,7 +308,7 @@ Attribute value that you can set to alter the field behavior that is described b
 </td></tr></tbody>
 </table>## Formula
 
-A formula allows you to calculate the value of a column without writing a script. You can use one of the predefined formulas or combine two are more formulas to calculate the column value. For information on the predefined formulas and examples, see [Formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md).
+A formula allows you to calculate the value of a column without writing a script. You can use one of the predefined formulas or combine two are more formulas to calculate the column value. For information on the predefined formulas and examples, see [Formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md).
 
 In the Formula section, select **Edit** or **+ Add** to edit or add a formula.
 
@@ -316,10 +316,10 @@ In the Formula section, select **Edit** or **+ Add** to edit or add a formula.
 |-----|-----------|
 |Formula editor|A text-editor like interface that allows you to enter and edit formulas.|
 
--   **[Formulas for column values in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md)**  
+-   **[Formulas for column values in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md)**  
 You can use a predefined function and create a formula to calculate the value of a column without writing a script. Use a predefined function or create a nested formula by using the existing predefined functions to calculate the column value type.
--   **[Add a formula to a column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/add-formula-column-table-builder.md)**  
+-   **[Add a formula to a column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/add-formula-column-table-builder.md)**  
 Use a predefined function or create a formula to calculate a value for a column without writing a script in Table Builder. You can use two or more functions to create a formula according to your requirements.
 
-**Parent Topic:**[Table Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-reference.md)
+**Parent Topic:**[Table Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/fb-reference.md)
 

@@ -2,7 +2,7 @@
 title: Major Incident workbench — the Collaborate tab
 description: The Collaborate tab helps you to view and manage communication tasks that use conference as their communication channel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/mi-workbench-collaborate-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/mi-workbench-collaborate-tab.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -18,11 +18,11 @@ The **Collaborate** tab helps you to view and manage communication tasks that us
 
 \[Omitted image "collaborate-view.png"\] Alt text: The Collaborate tab
 
-Like the **Summary** tab, you can add a new communication plan by clicking **Add**. You can create communication task for an existing plan by clicking **Add Call**. For more information, see [Add-communication-plan-from-mim-workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/add-comm-plan-from-mim-workbench.md). If you want to add or remove recipients from a particular plan after the plan is saved, select **Manage Participants**.
+Like the **Summary** tab, you can add a new communication plan by clicking **Add**. You can create communication task for an existing plan by clicking **Add Call**. For more information, see [Add-communication-plan-from-mim-workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/add-comm-plan-from-mim-workbench.md). If you want to add or remove recipients from a particular plan after the plan is saved, select **Manage Participants**.
 
 To initiate a conference call, select **Initiate**. If the communication task is a one-time task, then after the call is ended, the status of the task changes to **Complete**. If task is recurring, the status of the task changes to **Open** and it displays the number of times the conference call is initiated.
 
-**Note:** When you add a user group to the conference call, the group itself is added to the call, and the escalation hierarchy is automatically followed once you start the call. Set the **com.snc.iam.conference\_call\_follow\_on\_call\_escalation** property to true. For more information about the property, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
+**Note:** When you add a user group to the conference call, the group itself is added to the call, and the escalation hierarchy is automatically followed once you start the call. Set the **com.snc.iam.conference\_call\_follow\_on\_call\_escalation** property to true. For more information about the property, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/on-call-properties.md).
 
 Under each task, the Active participant section displays the active participants and the Inactive participant section displays the inactive participants.
 
@@ -38,11 +38,11 @@ To start a call, populate the **sn\_major\_inc\_mgmt.notify\_webrtc\_number** pr
 
 To send a Microsoft Teams notification from major incident workbench, see [Send a notification from Major incident management workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/send-mim-notification.md). The procedure applies to both the **Collaborate** and **Communicate** tabs. To  Initiate Microsoft Teams group chat from MIM workbench, see [Initiate Microsoft Teams group chat from MIM workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/initiate-ms-teams-group-chat-mim-workbench.md).
 
-For information on process flow for slack communication, see [Process flow for Slack communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/process-flow-slack.md).
+For information on process flow for slack communication, see [Process flow for Slack communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/collaboration-services/process-flow-slack.md).
 
-For information on how to add a collaborative communication task, see [Add a collaborative communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/add-collaborate-task.md).
+For information on how to add a collaborative communication task, see [Add a collaborative communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/collaboration-services/add-collaborate-task.md).
 
-**Parent Topic:**[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/mi-workbench-ui-elements.md)
+**Parent Topic:**[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/mi-workbench-ui-elements.md)
 
 **Related topics**  
 

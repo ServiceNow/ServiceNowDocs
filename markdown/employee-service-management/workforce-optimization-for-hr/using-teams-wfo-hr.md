@@ -2,7 +2,7 @@
 title: Teams in Workforce Optimization for HR
 description: Use Teams to track and analyze performance trends for your teams from a single location. You can monitor the trends for each agent within your team and compare your agents or team members with one another.Analyze trends to monitor your team's performance and adherence within a KPI group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/using-teams-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/using-teams-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -27,7 +27,7 @@ With Teams, you can do the following:
 -   Targets can be set on the KPIs through the team performance page at the global or individual level. When such targets are set, the trendline reflects the targets.
 -   Drill down to the individual agent level to view a 360 degree view of the current work, historical KPIs, presence history, channel capacity utilization, skills, and upcoming time-offs.
 
-**Parent Topic:**[Using Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.md)
+**Parent Topic:**[Using Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.md)
 
 **Related topics**  
 

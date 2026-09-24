@@ -2,7 +2,7 @@
 title: Publishing news articles
 description: News articles can be published via a publish plan or using Content templates to auto-generate publish plans. These auto-generated publish plans are inactive by default and must be activated for News articles to appear in the portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-publish-news-articles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-content-publish-news-articles.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +19,7 @@ News articles can be published via a publish plan or using Content templates to 
 ## Before you begin
 
 -   Role required: sn\_cd.content\_manager
--   Complete the steps to [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md)
+-   Complete the steps to [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md)
 
 ## About this task
 
@@ -75,7 +75,7 @@ sn\_kg\_tag
 </td></tr></tbody>
 </table>3.  Click **Save availability**.
 
-4.  Review the auto-generated publish plans and edit as necessary, such as to change the audience or publishing dates, or create publish plans: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
+4.  Review the auto-generated publish plans and edit as necessary, such as to change the audience or publishing dates, or create publish plans: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 
     **Note:** If you edit an auto-generated publish plan, verify you select the **Active** option.
 

@@ -2,7 +2,7 @@
 title: Pre-authorization
 description: A pre-authorization request is a process to confirm the approval before initiating activities, such as repairs, material procurement, or labor costs that are included under warranty or service agreements. This procedure confirms that all required inspections and criteria are satisfied and authorized by the Warranty Specialist. When a claim is created, approved pre-authorization requests can be used to generate claim jobs, avoiding reentering of claim details. This streamlines approval workflows and reduces processing delays.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-pre-auth-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-pre-auth-request.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -57,5 +57,5 @@ James submits a complete pre-authorization request for high-cost air conditionin
 
 [mco-pre-auth-request-use]
 
-[Pre-authorization requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-agents-pre-auth-requests.md)
+[Pre-authorization requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-agents-pre-auth-requests.md)
 

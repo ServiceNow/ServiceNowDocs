@@ -2,7 +2,7 @@
 title: Federal plugin
 description: The ServiceNow, Inc. Federal plugin provides data elements for public sector customers. These align with HCIM \(Human Capital Information Model\), the Federal human capital management data standard. HCIM was developed by the Human Resources Line of Business at the Office of Personnel Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/fed-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/fed-view.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -36,15 +36,15 @@ The following are some key benefits of the Federal plugin:
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Set up Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-fed.md) \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the plugin to get started
+[Set up Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-fed.md) \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the plugin to get started
 
 </td><td>
 
-[Using Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-fed-app.md) \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the plugin to promote interoperability between agencies or shared service providers.
+[Using Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-fed-app.md) \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the plugin to promote interoperability between agencies or shared service providers.
 
 </td><td>
 
-[Federal plugin reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/refer-fed.md) \[Omitted image "bus-learn.svg"\] Alt text: Get details about tables in the plugin
+[Federal plugin reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/refer-fed.md) \[Omitted image "bus-learn.svg"\] Alt text: Get details about tables in the plugin
 
 </td></tr></tbody>
 </table>## Additional resources

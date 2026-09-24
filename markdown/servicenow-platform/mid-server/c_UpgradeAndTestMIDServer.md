@@ -2,7 +2,7 @@
 title: MID Server upgrades
 description: Upgrade MID Servers manually, or automatically through the instance. MID Server automatic upgrade is triggered when the instance upgrades and the MID Server no longer has the same version. The new MID Server package is downloaded from install.service-now.com, replaces the old one, and the MID Server starts with the new version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/c\_UpgradeAndTestMIDServer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/c\_UpgradeAndTestMIDServer.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -30,7 +30,7 @@ Upgrade MID Servers manually, or automatically through the instance. MID Server 
 
 -   **MID Server operating system compatibility**
 
-    Upgrading Windows or Linux MID Servers with 32-bit operating systems is not supported. For supported operating systems and other host requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
+    Upgrading Windows or Linux MID Servers with 32-bit operating systems is not supported. For supported operating systems and other host requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 
 
 The MID Server can't upgrade on a Windows host if the Windows Application Experience service is turned off. For information on the error that is displayed and instructions for re-enabling this service, see [KB0597552](https://support.servicenow.com/kb_view.do?sysparm_article=KB0597552#appex&_ga=2.137899701.402632408.1615226320-1555493315.1610383440).
@@ -51,7 +51,7 @@ Any MID Server with a version different from the instance version needs to upgra
 
 When the MID Servers check the version each hour, they look at the **mid.version.override** property first. If this property is empty, the MID Servers get their version information from the **mid.buildstamp** property. If an override version is configured, the MID Servers use this value and ignore the version information in the **mid.buildstamp** property. This override value remains when the instance is restarted and is passed to the MID Servers. The value in the **mid.version.override** property is cleared during an upgrade, which forces the MID Server to reset itself to the version in the **mid.buildstamp** property.
 
-In addition to **mid.version.override**, the MID Server version can also be controlled with the configuration parameter **mid.pinned.version** which pins the MID Server to a specific version.To pin a MID Servers, set the **mid.pinned.version** parameter with the name of that version in the **config.xml** file of each MID Server. Use the format **&lt;version&gt;-mm-dd-yyyy**. This setting overrides the property setting for the pinned MID Server version. For instructions, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md). The value set in this parameter is not affected by an upgrade.
+In addition to **mid.version.override**, the MID Server version can also be controlled with the configuration parameter **mid.pinned.version** which pins the MID Server to a specific version.To pin a MID Servers, set the **mid.pinned.version** parameter with the name of that version in the **config.xml** file of each MID Server. Use the format **&lt;version&gt;-mm-dd-yyyy**. This setting overrides the property setting for the pinned MID Server version. For instructions, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md). The value set in this parameter is not affected by an upgrade.
 
 **Warning:** Using **mid.version.override** and **mid.pinned.version** is not recommended. The different versions on the MID Server and instance can cause outage issues on the MID Server.
 
@@ -68,12 +68,12 @@ In addition to **mid.version.override**, the MID Server version can also be cont
 
 -   **Manual**
 
-    Manually start the upgrade by clicking a related link on the MID Server record. Use this method when you do not want to wait until the next hourly automatic update or if your upgrade failed and you want to force an upgrade. See [Trigger MID Server upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/trigger-mid-server-upgrade.md) for instructions.
+    Manually start the upgrade by clicking a related link on the MID Server record. Use this method when you do not want to wait until the next hourly automatic update or if your upgrade failed and you want to force an upgrade. See [Trigger MID Server upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/trigger-mid-server-upgrade.md) for instructions.
 
 
 ## Upgrade process
 
-1.  **Pre-upgrade Check:**Before starting the actual MID Server upgrade process, the MID Server runs a set of tests to make sure that the host machine meets the minimum requirements. Any errors encountered during this automatic test prevent the upgrade from occurring until the issues are resolved. The pre-upgrade test is enabled by default but can be disabled by adding and setting a system property. See [MID Server pre-upgrade check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-pre-upgrade-check.md) for more information.
+1.  **Pre-upgrade Check:**Before starting the actual MID Server upgrade process, the MID Server runs a set of tests to make sure that the host machine meets the minimum requirements. Any errors encountered during this automatic test prevent the upgrade from occurring until the issues are resolved. The pre-upgrade test is enabled by default but can be disabled by adding and setting a system property. See [MID Server pre-upgrade check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-pre-upgrade-check.md) for more information.
 2.  **Download the packages:**The MID Server downloads upgrade packages from install.service-now.com. These packages are in zip format and are downloaded to the agent folder in the **package/incoming** folder.
 3.  **Digital Signature Verification**
 
@@ -144,7 +144,7 @@ For example, the default timeout may not be long enough for certain JVM level co
 
 -   **Upgrading**
 
-    The MID Server status is changed to Upgrading while the upgrade is running. The Upgrading state is similar to the [**Paused**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_PauseTheMIDServer.md) state. This is avoids potential miscommunication between the new version of the instance and the previous version of the MID Server during upgrade. While in the Upgrading state, you cannot resume or restart the MID Server. However, you can perform the same actions that you can when the MID Server is in the Paused state.
+    The MID Server status is changed to Upgrading while the upgrade is running. The Upgrading state is similar to the [**Paused**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_PauseTheMIDServer.md) state. This is avoids potential miscommunication between the new version of the instance and the previous version of the MID Server during upgrade. While in the Upgrading state, you cannot resume or restart the MID Server. However, you can perform the same actions that you can when the MID Server is in the Paused state.
 
     **Note:** If you are using an Istanbul instance but you are upgrading a pre-Istanbul MID Server to Istanbul, these upgrade states are not available. They are only available for MID Servers that are already on Istanbul.
 
@@ -159,7 +159,7 @@ For example, the default timeout may not be long enough for certain JVM level co
 
 ## MID Server upgrade history
 
-Use the MID Server Upgrade History module for troubleshooting problems with MID Server upgrades. The module contains a record of each instance upgrade. Those records provide step-by-step status details for each MID Server's upgrade process. If an error occurs, it is noted in the step and a message is dynamically generated with further details. The table cleanup job automatically deletes issues that haven't been detected for 30 days, regardless of their state. For further information, see [MID Server Upgrade History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-upgrade-history.md).
+Use the MID Server Upgrade History module for troubleshooting problems with MID Server upgrades. The module contains a record of each instance upgrade. Those records provide step-by-step status details for each MID Server's upgrade process. If an error occurs, it is noted in the step and a message is dynamically generated with further details. The table cleanup job automatically deletes issues that haven't been detected for 30 days, regardless of their state. For further information, see [MID Server Upgrade History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-upgrade-history.md).
 
 ## JRE TrustStore certificate migration during JRE updates
 
@@ -173,14 +173,14 @@ In order for a certificate to be migrated it must be:
 
 The MID Server identifies when a JRE upgrade is about to take place and begins the migration process. Before the migration, the MID Server creates a backup of the original TrustStore as a fall-back in the event of failure. If there is a failure, the backup TrustStore can be manually restored.
 
--   **[MID Server pre-upgrade check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-pre-upgrade-check.md)**  
+-   **[MID Server pre-upgrade check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-pre-upgrade-check.md)**  
 Prior to an upgrade, the MID Server runs tests to identify issues that could cause the upgrade process to fail or result in a MID Server outage.
--   **[Pinning a MID Server to a specific version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-version-selection.md)**  
+-   **[Pinning a MID Server to a specific version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-version-selection.md)**  
 You can pin all the MID Servers in your environment to a specific version by setting a system property, or you can configure specific versions for individual MID Servers.
--   **[Trigger MID Server upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/trigger-mid-server-upgrade.md)**  
+-   **[Trigger MID Server upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/trigger-mid-server-upgrade.md)**  
 MID Servers automatically upgrade to match the instance build the next time they communicate with the instance after an instance upgrade. Use this procedure only if you want to upgrade a MID Server immediately or retry the upgrade after an Upgrade failed status.
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 

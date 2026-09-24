@@ -2,7 +2,7 @@
 title: Components installed with the HL7 FHIR Spoke
 description: Several types of components are installed with the HL7 FHIR Spoke, including Workflow Studio actions, a Connection &amp; Credential Alias and configuration template, script includes, and application menu modules. The spoke installs no custom tables or roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/fhir-spoke-installed-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/fhir-spoke-installed-components.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -19,7 +19,7 @@ Several types of components are installed with the HL7 FHIR Spoke, including Wor
 
 ## Flow Designer actions installed
 
-The spoke installs eight read-only actions, grouped into four Integration Hub categories. For each action's inputs and outputs, see [HL7 FHIR Spoke actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fhir-spoke-actions.md).
+The spoke installs eight read-only actions, grouped into four Integration Hub categories. For each action's inputs and outputs, see [HL7 FHIR Spoke actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/fhir-spoke-actions.md).
 
 |Category|Actions|
 |--------|-------|

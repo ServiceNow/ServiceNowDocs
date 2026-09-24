@@ -2,7 +2,7 @@
 title: Related information
 description: Find more information about the Operational Technology \(OT\) extension classes and related applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-request-management/oper-tech-request-management-related-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-request-management/oper-tech-request-management-related-information.html
 release: australia
 product: Operational Technology Request Management
 classification: operational-technology-request-management
@@ -36,5 +36,5 @@ The extension classes help you understand how Operational Technology Management 
     The ServiceNow IT Service Management application enables engineers to resolve OT device and production process issues quickly.
 
 
-**Parent Topic:**[Operational Technology Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/operational-technology-request-management-reference.md)
+**Parent Topic:**[Operational Technology Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-request-management/operational-technology-request-management-reference.md)
 

@@ -2,7 +2,7 @@
 title: Managing stage-oriented releases
 description: Managing a stage-oriented release involves completing objectives and closing the release when the work is done and meets the defined release criteria, rather than waiting for the planned end date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-working-stage-release.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-working-stage-release.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -34,17 +34,17 @@ The following is the general flow that a stage-oriented release goes through:
 -   When all phases in the release are completed, the release moves to the Review state.
 -   When the review of the release is completed, the release moves to the Completed state.
 
-For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-product-release.md).
+For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-product-release.md).
 
 ## Working on a stage-oriented release
 
 <table id="table_g42_jt4_kyb" class="nav-card"><tbody><tr><td>
 
-[Work on a release for a single product or service\[Omitted image "dpr-icon-rls-single.png"\] Alt text: Single product release icon.Learn about working on a stage-oriented release to deliver a single product or service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-stage-release.md)
+[Work on a release for a single product or service\[Omitted image "dpr-icon-rls-single.png"\] Alt text: Single product release icon.Learn about working on a stage-oriented release to deliver a single product or service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-work-stage-release.md)
 
 </td><td>
 
-[Work on a release for multiple products\[Omitted image "dpr-icon-rls-multi.png"\] Alt text: Multi-product release icon.Learn about working on a stage-oriented release to deliver multiple products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-stage-multi.md)
+[Work on a release for multiple products\[Omitted image "dpr-icon-rls-multi.png"\] Alt text: Multi-product release icon.Learn about working on a stage-oriented release to deliver multiple products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-work-release-stage-multi.md)
 
 </td></tr></tbody>
 </table>

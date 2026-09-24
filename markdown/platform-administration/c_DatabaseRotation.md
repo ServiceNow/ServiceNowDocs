@@ -2,7 +2,7 @@
 title: Applying database rotation techniques
 description: Manage table size growth, archive data, and boost query performance by configuring database rotation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_DatabaseRotation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_DatabaseRotation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -53,12 +53,12 @@ Table Extension
 `sys_email`
 
 </td></tr></tbody>
-</table>-   **[Activate database rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateDatabaseRotation.md)**  
+</table>-   **[Activate database rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ActivateDatabaseRotation.md)**  
 Learn how to activate database rotation.
--   **[Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md)**  
+-   **[Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_TableRotation.md)**  
 Optimize performance and manage data lifecycle by rotating tables, allowing older data to be systematically archived while maintaining system efficiency.
--   **[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension.md)**  
+-   **[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-extension.md)**  
 Partition and preserve data sets for extended periods without overwriting.
 
-**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataManagement.md)
+**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_DataManagement.md)
 

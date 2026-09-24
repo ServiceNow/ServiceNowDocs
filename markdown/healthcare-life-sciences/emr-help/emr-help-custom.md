@@ -2,7 +2,7 @@
 title: Customize the URL and REST API task parameters for EMR systems
 description: Use scripted extension points to manipulate URL parameters and REST API task parameters for an EMR system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-help-custom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/emr-help-custom.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -18,7 +18,7 @@ Use scripted extension points to manipulate URL parameters and REST API task par
 
 ## Before you begin
 
-Install the EMR Help application. For more information, see [Install EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/install-emr-help.md).
+Install the EMR Help application. For more information, see [Install EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/install-emr-help.md).
 
 Role required: admin
 

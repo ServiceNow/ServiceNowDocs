@@ -2,7 +2,7 @@
 title: Configure assignment rules
 description: Configure rules to automatically assign cases to specific agents or groups based on the rule conditions. You can either modify predefined assignment rules or create new ones.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-assignment-rules-fso-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-assignment-rules-fso-applications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

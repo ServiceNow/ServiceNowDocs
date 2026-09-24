@@ -2,7 +2,7 @@
 title: Deploy changes
 description: Deploy your changes to an instance to preview and publish experiences, pages, and widgets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: task
 last_updated: "2026-08-06"

@@ -2,7 +2,7 @@
 title: Components and Roles installed with Public Sector Digital Services Core
 description: Several types of components such as tables, user roles, and flows are installed when you activate the Public Sector Digital Services Core plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/installed-with-public-sector-digital-services-core.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/installed-with-public-sector-digital-services-core.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -26,12 +26,12 @@ The following plugins are activated when you enable the Public Sector Digital Se
 
 Demo data is available for this feature.
 
-**Note:** For information about the roles installed when you activate the Public Sector Digital Services Core plugin, as well as other Public Sector Digital Services applications, see [Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md).
+**Note:** For information about the roles installed when you activate the Public Sector Digital Services Core plugin, as well as other Public Sector Digital Services applications, see [Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md).
 
--   **[Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)**  
+-   **[Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md)**  
 The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, and establish different types of relationships between users. These roles control access to public sector data through UI-based features such as forms and lists.
--   **[Properties installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/properties-installed-with-psds.md)**  
+-   **[Properties installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/properties-installed-with-psds.md)**  
 Use the system properties that are added with the activation of the Public Sector Digital Services application to configure access control to application data.
--   **[Plugins installed with Public Sector Digital Services Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/plugins-installed-with-psds-addtl-plugins.md)**  
+-   **[Plugins installed with Public Sector Digital Services Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/plugins-installed-with-psds-addtl-plugins.md)**  
 These plugins are automatically installed with the following Public Sector Digital Services applications, if they aren't already active.
 

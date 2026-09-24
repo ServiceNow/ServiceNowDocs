@@ -2,7 +2,7 @@
 title: Add amendment tabs to contract repository record
 description: To view the details of the contract amendment, add the amendment related tabs to the contract repository record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-BU-amend-relatedlist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-BU-amend-relatedlist.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -56,9 +56,9 @@ You must add these tabs to the contract repository record for your workspace.
 
 The Contract amendment related tabs are available from your workspace to view the amendment details.
 
-For more information on contract amendment, see [Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-amend-landing.md).
+For more information on contract amendment, see [Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-amend-landing.md).
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 

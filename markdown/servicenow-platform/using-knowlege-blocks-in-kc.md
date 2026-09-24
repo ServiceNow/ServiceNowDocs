@@ -2,7 +2,7 @@
 title: Using knowledge blocks in the Knowledge Center
 description: Use knowledge blocks to simplify knowledge authoring for writers and knowledge consumption for readers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/using-knowlege-blocks-in-kc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/using-knowlege-blocks-in-kc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

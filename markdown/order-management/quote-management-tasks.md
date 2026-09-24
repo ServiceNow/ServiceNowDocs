@@ -2,7 +2,7 @@
 title: Add tasks to a quote
 description: Create a single or multiple tasks for a quote and assign those to different agents. Tasks are the various actions that agents perform to create a quote.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ Role required: sales\_manager
     The quote task is added to the main quote.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

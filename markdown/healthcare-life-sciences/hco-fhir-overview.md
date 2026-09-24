@@ -2,7 +2,7 @@
 title: What the EMR Provider Directory Sync does
 description: The EMR Provider Directory Sync imports provider-directory data from a FHIR R4 server into the Healthcare Operations data model on a schedule. Organizations, locations, practitioners, and care-team memberships stay current without manual maintenance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-16"

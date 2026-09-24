@@ -2,7 +2,7 @@
 title: Create a new case from an email message in Microsoft Outlook
 description: If a customer whose contact details are available sends an email stating an issue, you can easily create a customer service case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-new-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-new-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Telecom Discrepancy Identification and Reconciliation
 description: Use the Telecom Discrepancy Identification and Reconciliation capability to keep your CMDB or Telecommunications Network Inventory \(TNI\) in sync with your live telecom network. This solution continuously audits and compares discovered data with inventory records. It helps you detect, classify, and automatically remediate inconsistencies before they impact service quality, assurance, or fulfillment processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/exploring-telecom-reconciliation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/exploring-telecom-reconciliation.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -45,7 +45,7 @@ Once the discovery process is complete, the CMDB Compliance framework identifies
 -   Follow-On Tasks: Automatically generated for each failed audit. These tasks document and categorize the identified discrepancies.
 -   Remediation Subflows: Launched from Follow-On Tasks to resolve discrepancies by updating, decommissioning, or realigning Configuration Items \(CIs\).
 
-**Note:** For more information, see [Discrepancy identification – types of discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/discrepancy-identification-types-of-discrepancies.md).
+**Note:** For more information, see [Discrepancy identification – types of discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/discrepancy-identification-types-of-discrepancies.md).
 
 ## CMDB Compliance and Telecom Discrepancy Identification &amp; Reconciliation
 
@@ -83,7 +83,7 @@ You can use the following audits to identify the discrepancies in the discovered
 -   Manual remediation can be initiated using a "Remediate" UI action button in the task form.
 -   Remediation steps are recorded in work notes for visibility and auditing.
 
-**Note:** For more information on how to build a subflow, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
+**Note:** For more information on how to build a subflow, see .
 
 ## Follow-On Task types created for failed Audit Result Records
 
@@ -113,11 +113,11 @@ Automate reconciliation of network inventory discrepancies and enhance operation
 **Related topics**  
 
 
-[Discrepancy identification – types of discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/discrepancy-identification-types-of-discrepancies.md)
+[Discrepancy identification – types of discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/discrepancy-identification-types-of-discrepancies.md)
 
-[Activate Telecom Discrepancy and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.md)
+[Activate Telecom Discrepancy and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.md)
 
-[Run Telecom Discrepancy audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/run-audits.md)
+[Run Telecom Discrepancy audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/run-audits.md)
 
-[Telecom discrepancy identification and reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/system-properties-affecting-telecom-discrepancy-identification-reconciliation.md)
+[Telecom discrepancy identification and reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/system-properties-affecting-telecom-discrepancy-identification-reconciliation.md)
 

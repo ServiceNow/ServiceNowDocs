@@ -2,7 +2,7 @@
 title: Pause the MID Server
 description: Pause the MID Server to temporarily prevent it from polling the ECC Queue for work or sending Discovery results back to the instance.The MID server can be put into a Paused state to temporarily prevent it from polling the ECC Queue for work or sending Discovery results back to the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_PauseTheMIDServer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/t\_PauseTheMIDServer.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -27,7 +27,7 @@ Role required: agent\_admin
 </td></tr></tbody>
 </table>## About this task
 
-You can only pause [validated MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md). You might want to pause the MID Server when your network infrastructure is undergoing changes. This prevents applications like Discovery from throwing errors during a particular maintenance window.
+You can only pause [validated MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ValidateAMIDServer.md). You might want to pause the MID Server when your network infrastructure is undergoing changes. This prevents applications like Discovery from throwing errors during a particular maintenance window.
 
 A paused MID Server continues processing commands that it had already retrieved before it was paused. When you resume the MID Server, the MID Server starts retrieving new commands to process.
 
@@ -48,7 +48,7 @@ A paused MID Server continues processing commands that it had already retrieved 
 4.  To resume MID Server processing, select **Resume MID** under **Related Links**.
 
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
@@ -85,21 +85,21 @@ A paused MID Server continues processing commands that it had already retrieved 
 
 The MID server can be put into a **Paused** state to temporarily prevent it from polling the ECC Queue for work or sending Discovery results back to the instance.
 
-Unlike stopping the MID Server from the [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md) or [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md) server command line on the MID Server machine, pausing the MID server is something that you can do from the instance. The MID Server pause feature is available starting with the Istanbul release.
+Unlike stopping the MID Server from the [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-install-prereqs.md) or [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md) server command line on the MID Server machine, pausing the MID server is something that you can do from the instance. The MID Server pause feature is available starting with the Istanbul release.
 
-**Note:** You can only pause [validated MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md).
+**Note:** You can only pause [validated MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ValidateAMIDServer.md).
 
 You can still perform these actions when the MID Server is paused:
 
--   [Access the MID Server logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md) and delete log entries.
+-   [Access the MID Server logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/ecc-queue-mid-server.md) and delete log entries.
 -   View MID server statistics. While the MID Server is in the **Paused** state it stops generating statistics. But you can still view the statistics generated before you paused the MID Server.
 -   Retrieve the MID Server thread dump.
--   Make and save [configuration changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md) and property changes to the server. The changes take effect after the MID Server is resumed.
+-   Make and save [configuration changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerConfiguration.md) and property changes to the server. The changes take effect after the MID Server is resumed.
 -   Clear the ECC queue.
 
-The [MID server heartbeat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerHeartbeat.md) continues to function while the MID Server is in the **Paused** state. If the MID Server is upgraded while it is in the **Paused** state, the MID Server state automatically changes to **Up** after successful upgrade. It does not return to the **Paused** state.
+The [MID server heartbeat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerHeartbeat.md) continues to function while the MID Server is in the **Paused** state. If the MID Server is upgraded while it is in the **Paused** state, the MID Server state automatically changes to **Up** after successful upgrade. It does not return to the **Paused** state.
 
-During [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md), paused MID Servers can still be selected but are prioritized below MID Servers that are not paused.
+During [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerSelector.md), paused MID Servers can still be selected but are prioritized below MID Servers that are not paused.
 
 ### Events that occur during MID Server pause
 
@@ -107,6 +107,6 @@ The **vCenter** and **SNMP** event collectors, continue to run and process event
 
 To prevent these events from being processed, stop the extensions from running. For more information, see:
 
--   [Configure and run the vCenter event collector extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_VCenterEventProcessorExtension.md)
--   [Configure the SNMP Trap Collector Extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_SNMPTrapCollectorExtension.md)
+-   [Configure and run the vCenter event collector extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_VCenterEventProcessorExtension.md)
+-   [Configure the SNMP Trap Collector Extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_SNMPTrapCollectorExtension.md)
 

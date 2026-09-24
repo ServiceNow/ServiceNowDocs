@@ -2,7 +2,7 @@
 title: Customize Case Insights Ask AI button system properties
 description: Update the Case Insights Ask AI button system properties to control the drop-down and quick questions displayed on the CSM Case Insights section in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customize-ask-ai-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/customize-ask-ai-system-properties.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

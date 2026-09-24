@@ -2,7 +2,7 @@
 title: Reassess a risk assessment project
 description: Reassess a risk assessment project to assess any completed risk assessment project. It verifies that risks are reviewed and updated to reflect new insights or changing conditions, maintaining alignment with organizational goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/reassess-risk-assessment-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/reassess-risk-assessment-project.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -47,7 +47,7 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
 
 ## What to do next
 
-[Perform assessment on a risk assessment project in stacked view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-assessment-on-risk-assessment-project.md)
+[Perform assessment on a risk assessment project in stacked view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/perform-assessment-on-risk-assessment-project.md)
 
-**Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)
+**Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)
 

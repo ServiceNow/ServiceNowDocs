@@ -2,7 +2,7 @@
 title: Add a data visualization from an exploration to a dashboard
 description: Put the visualization contained in a response from AI Data Explorer on a new or existing dashboard. Do so without interrupting your workflow in your exploration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-data-viz-from-expl-to-dboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/add-data-viz-from-expl-to-dboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: now\_assist\_explorer\_user and ownership or editing rights to th
 
 1.  Launch AI Data Explorer.
 
-    For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-ai-data-explorer.md).
+    For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/launch-ai-data-explorer.md).
 
 2.  Open or create an exploration.
 
@@ -53,5 +53,5 @@ To save your visualization in the dashboard, select **Save** in the dashboard co
 
 \[Omitted image "nowass-expl-imp-viz-w-followup.png"\] Alt text: Dashboard and exploration after visualization is copied and follow-up is asked
 
-**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ask-expl-questions.md)
+**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/ask-expl-questions.md)
 

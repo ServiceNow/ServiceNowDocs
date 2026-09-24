@@ -2,7 +2,7 @@
 title: Working with SRM teams
 description: Manage schedules and define escalation policies for your team. That way, your team sees who is on call and accountable and can have the confidence that critical alerts or incidents are acknowledged in a timely manner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-work-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-work-teams.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -38,18 +38,18 @@ Choices are:
 
 The Your team requests section contains team cards for any pending requests, if there are any.
 
-The Your teams section contains cards that provide information about a specific team. Each card shows the status, name, manager, team email, current shift name and duration, and primary responder. See [Manage your SRM team details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-manage-team-details.md) for more information.
+The Your teams section contains cards that provide information about a specific team. Each card shows the status, name, manager, team email, current shift name and duration, and primary responder. See [Manage your SRM team details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-manage-team-details.md) for more information.
 
--   **[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md)**  
+-   **[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-create-team.md)**  
 Request to create a team to start monitoring your services. Teams are responsible for the issues that occur in the associated services.
--   **[Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)**  
+-   **[Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)**  
 Set up an on-call schedule to make sure that someone is available to respond to incidents and critical alerts.
--   **[Set up escalation policies for your team in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-escalation-policies.md)**  
+-   **[Set up escalation policies for your team in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-create-escalation-policies.md)**  
 Set up an escalation policy for your team to ensure that alerts or incidents are resolved in a timely manner by the appropriate team member.
 
-**Parent Topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/using-service-reliability-management.md)
+**Parent Topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 
-**Previous topic:**[Working with integrations in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-integrations.md)
+**Previous topic:**[Working with integrations in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-work-integrations.md)
 
-**Next topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md)
+**Next topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-create-team.md)
 

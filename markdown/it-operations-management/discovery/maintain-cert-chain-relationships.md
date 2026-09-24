@@ -2,7 +2,7 @@
 title: Maintaining certificate chain relationships
 description: Maintaining certificate chain relationships via certificate import verifies the integrity and security of digital certificates, validating their authenticity in a system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/maintain-cert-chain-relationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/maintain-cert-chain-relationships.html
 release: australia
 product: Discovery
 classification: discovery

@@ -2,7 +2,7 @@
 title: Limitations of ServiceNow Otto for RPA Hub
 description: The limitations of the RPA bot generation skill are as follows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/limitations-rpa-bot-gen-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/limitations-rpa-bot-gen-skill.html
 release: australia
 topic_type: reference
 last_updated: "2025-07-31"
@@ -17,7 +17,7 @@ The limitations of the RPA bot generation skill are as follows.
 
 -   **AI Search and LLM timeout**
 
-    The RPA bot generation skill relies on AI Search and large language models \(LLM\) to understand the user instructions and flow creation. The timeout limits and rate-limiting behavior of these APIs collectively apply to the RPA bot generation skill. For more information about AI search system properties, see [AI Search system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-properties-ais.md). For more information about API rate limits, see [Inbound REST API rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/inbound-REST-API-rate-limiting.md). For more information about configuring rate limiting for providers, see [Configure rate limiting for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-rate-limit.md).
+    The RPA bot generation skill relies on AI Search and large language models \(LLM\) to understand the user instructions and flow creation. The timeout limits and rate-limiting behavior of these APIs collectively apply to the RPA bot generation skill. For more information about AI search system properties, see [AI Search system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-properties-ais.md). For more information about API rate limits, see . For more information about configuring rate limiting for providers, see [Configure rate limiting for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-rate-limit.md).
 
 -   **Component scope in Yokohama release**
 
@@ -51,7 +51,7 @@ The limitations of the RPA bot generation skill are as follows.
 
 -   **Automation for Windows, Java, or browser applications**
 
-    For automating Windows, Java, or browser-based applications, RPA Desktop Design Studio suggests generic UI actions such as SetValue, GetValue, or Click. These actions are a part of the Universal app connector. You must configure these actions manually, including capturing screens and adding elements via the field window. For more information about these methods, see [Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md).
+    For automating Windows, Java, or browser-based applications, RPA Desktop Design Studio suggests generic UI actions such as SetValue, GetValue, or Click. These actions are a part of the Universal app connector. You must configure these actions manually, including capturing screens and adding elements via the field window. For more information about these methods, see [Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/universal-app-connector.md).
 
 -   **Expression-based components**
 
@@ -62,5 +62,5 @@ The limitations of the RPA bot generation skill are as follows.
     If the large language model \(LLM\) returns a method that doesn’t exist in the RPA Desktop Design Studio, then such methods are displayed as unknown components in the generated automation workflow.
 
 
-**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-reference.md)
+**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-reference.md)
 

@@ -2,7 +2,7 @@
 title: Align with your brand by using the Unified Navigation component
 description: Align your experience more closely with your brand by editing the Unified Navigation component and its subcomponents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/edit-unified-navigation-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/edit-unified-navigation-component.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -87,5 +87,5 @@ The Unified Navigation component is made up of several subcomponents that you mu
 
 ## Result
 
-If your theme is published, your Unified Navigation edits will be visible to users who have your theme applied upon refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your Unified Navigation edits will be visible to users who have your theme applied upon refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 

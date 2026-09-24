@@ -2,7 +2,7 @@
 title: Outage tracking for install base
 description: Provide visibility into any current or upcoming outages affecting a customer's install base, enhancing transparency and reducing the number of customer-reported cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/outage-tracking-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/outage-tracking-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,13 +47,13 @@ This feature requires the Proactive Customer Service Operations Management plugi
 **Related topics**  
 
 
-[Associate an outage to a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-outage-case.md)
+[Associate an outage to a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-outage-case.md)
 
-[Create an outage from a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-outages-csm.md)
+[Create an outage from a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/track-outages-csm.md)
 
-[Track outages for install base items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-outages-aw.md)
+[Track outages for install base items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/track-outages-aw.md)
 
-[Proactive Customer Service - Advanced dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-proactive-monit-dashboard.md)
+[Proactive Customer Service - Advanced dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-proactive-monit-dashboard.md)
 
-[View install base information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-info.md)
+[View install base information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-install-base-info.md)
 

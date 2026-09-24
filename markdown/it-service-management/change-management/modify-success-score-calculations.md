@@ -2,7 +2,7 @@
 title: Modify score calculation
 description: Modify the multiplier values in the formula indicators to calculate the final success score.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/modify-success-score-calculations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/modify-success-score-calculations.html
 release: australia
 product: Change Management
 classification: change-management
@@ -33,5 +33,5 @@ Role required: admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-score-calculation.md)
+**Parent Topic:**[Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-score-calculation.md)
 

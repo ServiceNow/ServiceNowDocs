@@ -2,7 +2,7 @@
 title: Setting up the Zoom spoke for Zoom extension for Omnichannel Callback
 description: Enable the Zoom spoke to perform various actions such as creating meetings, rescheduling meetings, deleting a meeting, or fetching the participant details from your Zoom account by integrating your Zoom account with your ServiceNow instance.Create a connected app in your Zoom account to enable OAuth 2.0 authentication with the Zoom spoke.Use the information generated during Zoom account configuration to register the Zoom spoke as an OAuth provider and allow the instance to request OAuth 2.0 tokens.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/callback-over-zoom/setup-zoom-spoke-omni.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/callback-over-zoom/setup-zoom-spoke-omni.html
 release: australia
 product: Callback over Zoom
 classification: callback-over-zoom

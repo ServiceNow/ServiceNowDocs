@@ -2,7 +2,7 @@
 title: Use the ActionSet OCR ClickText action
 description: Perform a mouse device action on a text in an image in the Internet Explorer browser or Windows applications by specifying the text using the OCR ClickText action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionset-ocr-clicktext.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-actionset-ocr-clicktext.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,13 +20,13 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the OCR ClickText action. For more information about these properties, see [OCR Click Text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actionset-actions-properties.md).
+You can configure the properties for the OCR ClickText action. For more information about these properties, see [OCR Click Text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/actionset-actions-properties.md).
 
 ## Procedure
 
 1.  Right-click the anchor.
 
-    To know about the anchor, see how to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    To know about the anchor, see how to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/anchor.md).
 
 2.  Navigate to **OCR** &gt; **Click Text**.
 
@@ -47,5 +47,5 @@ You can configure the properties for the OCR ClickText action. For more informat
 8.  To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionsui-actionset.md)
+**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionsui-actionset.md)
 

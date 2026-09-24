@@ -2,7 +2,7 @@
 title: Customizing roadmap item dependency display
 description: Improve the efficiency of identifying the relationships between your planning items by choosing how the dependencies are displayed on the roadmap view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/customizing-roadmap-item-dependency-display-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/customizing-roadmap-item-dependency-display-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -74,5 +74,5 @@ Roadmap view
 \[Omitted image "only-dependencies.png"\] Alt text: Roadmap showing only items with dependencies.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Personalize roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.md)
+</table>**Parent Topic:**[Personalize roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.md)
 

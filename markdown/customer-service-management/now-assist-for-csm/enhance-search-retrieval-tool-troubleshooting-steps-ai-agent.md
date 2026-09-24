@@ -2,7 +2,7 @@
 title: Configure the Troubleshooting steps identification AI agent to use the Search retrieval tool
 description: Configure the Troubleshooting steps identification AI agent to use the Search retrieval tool to fetch relevant cases and knowledge articles, including their attachments, to help solve your issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/enhance-search-retrieval-tool-troubleshooting-steps-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/enhance-search-retrieval-tool-troubleshooting-steps-ai-agent.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

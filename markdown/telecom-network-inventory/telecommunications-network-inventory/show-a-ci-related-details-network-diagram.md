@@ -2,7 +2,7 @@
 title: View the details of a network diagram
 description: View the details of a connection node and visualize the underlying connection elements of a logical connection by using the network diagram in the Telecommunications Network Inventory. You can understand the detailed overview of the logical connection and how the connection elements are connected to each other.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/show-a-ci-related-details-network-diagram.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/show-a-ci-related-details-network-diagram.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -84,7 +84,7 @@ Select the protection path icon \(\[Omitted image "icon-protection-path.png"\] A
 
 You can’t expand the underlying connection elements of a protection path. To view the details of the protection path, select the protection path node, and then select **View Details** in the details pane.
 
-To learn more about to create a protection path, see [Create a protection path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-a-protection-path.md).
+To learn more about to create a protection path, see [Create a protection path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-a-protection-path.md).
 
 </td></tr><tr><td id="d33383e252">
 
@@ -98,7 +98,7 @@ To learn more about to create a protection path, see [Create a protection path](
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
+**Parent Topic:**[Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
 
 **Related topics**  
 
@@ -107,5 +107,5 @@ To learn more about to create a protection path, see [Create a protection path](
 
 [Create a protection path]()
 
-[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
+[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
 

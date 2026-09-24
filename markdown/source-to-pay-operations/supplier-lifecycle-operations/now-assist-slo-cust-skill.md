@@ -2,7 +2,7 @@
 title: Customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill for Case summarization
 description: If you have the admin role, you can customize a ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) skill. By customizing a skill, supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-cust-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-cust-skill.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -41,7 +41,7 @@ From the AI Admin Hub, you can select the input table, related records, and fiel
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs for each skill, see [Configure skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md).
+    For information about the inputs for each skill, see [Configure skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md).
 
     1.  Enter a name and description for the skill.
 
@@ -140,7 +140,7 @@ Description of the base input field value.
 **Related topics**  
 
 
-[Customize ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/cust-now-assist-slo-va.md)
+[Customize ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/cust-now-assist-slo-va.md)
 
-[Configure skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md)
+[Configure skill input for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md)
 

@@ -2,7 +2,7 @@
 title: Generate a Case Report using a template
 description: Use a predefined report template to generate case reports. These reports include post investigation report or an executive summary report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/view-case-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/view-case-reports.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -24,7 +24,7 @@ Role required: sn\_sec\_tisc.analyst
 
 Generate case reports using predefined templates.
 
-For information about generating a report using AI, see [Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.md).
+For information about generating a report using AI, see [Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ For information about generating a report using AI, see [Generate a Case Report 
 
 5.  Select **New with Template** as the report generation method.
 
-    For information about generating a report using AI, see [Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.md).
+    For information about generating a report using AI, see [Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.md).
 
 6.  Select a report template from the list.
 
@@ -50,7 +50,7 @@ For information about generating a report using AI, see [Generate a Case Report 
 
     -   Select the \[Omitted image "icon-tisc-report-edit.png"\] Alt text: Edit report details icon**Edit report details** icon to edit the report name and description.
     -   Select the \[Omitted image "icon-tisc-report-expand.png"\] Alt text: Expand icon**Expand** icon to insert additional content — for example, Observables or Indicators — into the report.
-    -   Type `/` to use a slash command and insert dynamic content, such as a record count, a specific record or field, or a system user. For the available slash commands and supported tables, see [Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md).
+    -   Type `/` to use a slash command and insert dynamic content, such as a record count, a specific record or field, or a system user. For the available slash commands and supported tables, see [Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md).
     -   Select **Save Content** to save your changes and enable **Publish**.
     -   Select **Preview** to generate a PDF preview of the current content.
 8.  When your edits are complete, select **Publish**.
@@ -58,7 +58,7 @@ For information about generating a report using AI, see [Generate a Case Report 
     After publishing, download the report as a PDF or share it with stakeholders by email.
 
 
-**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 

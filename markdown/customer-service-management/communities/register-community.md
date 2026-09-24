@@ -2,7 +2,7 @@
 title: Self-register to a community
 description: Once you have accessed a public forum and decided to join the community, you can self-register by signing up and accepting the community Terms and Conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/register-community.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/register-community.html
 release: australia
 product: Communities
 classification: communities
@@ -76,7 +76,7 @@ If the community Terms and Conditions are updated, all community users are promp
     4.  Click **User Profile** or **Notification Preferences** to edit your community profile or your notification and subscription settings.
 
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

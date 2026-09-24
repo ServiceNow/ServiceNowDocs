@@ -2,7 +2,7 @@
 title: Design Assign IP Address Validation subflow
 description: The TNI Design Assign IP Address Validation subflow enables you to validate the IP address records in the Telecommunications Network Inventory application. You can use this flow action to configure the activities in a Design and Assign playbook for logical connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-design-assign-ip-address-validation-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/tni-design-assign-ip-address-validation-subflow.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -37,7 +37,7 @@ To learn more about the variable data types, see [Flow Designer input and output
 
 If the IP address is already used, then the subflow passes the following message "**IP address has already been created. Please try creating another one.**"
 
-**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
+**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 
 **Related topics**  
 

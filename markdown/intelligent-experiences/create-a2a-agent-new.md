@@ -2,7 +2,7 @@
 title: Create an external AI agent
 description: Create external AI agents in AI Agent Studio to connect the ServiceNow AI Platform with third-party agentic AI providers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-a2a-agent-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-a2a-agent-new.html
 release: australia
 topic_type: task
 last_updated: "2026-08-28"
@@ -84,11 +84,11 @@ Role required: sn\_aia.admin
 
     Choose which credentials access your external AI agent's execution endpoint. You can select an existing alias or create one. If you create one, a modal displays with options for configuring an OAuth or API Key authentication.
 
-    **Note:** For more information about the API Key credential, see [A2A API Key credential behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/a2a-api-key-credential-behavior.md).
+    **Note:** For more information about the API Key credential, see [A2A API Key credential behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/a2a-api-key-credential-behavior.md).
 
 6.  Configure access control lists \(ACLs\) for the external AI agent.
 
-    **Note:** The ACLs determine who has access to discover and execute the AI agent. To learn more about the ACLs you can create in AI Agent Studio and how to add more advanced security configurations, see [Implement access control in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/implement-aias-security-new.md).
+    **Note:** The ACLs determine who has access to discover and execute the AI agent. To learn more about the ACLs you can create in AI Agent Studio and how to add more advanced security configurations, see [Implement access control in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/implement-aias-security-new.md).
 
     **Important:** This is a required step. If you have previously configured an external AI agent without creating an ACL, you must generate an ACL before you can make other modifications.
 
@@ -151,7 +151,7 @@ Your external AI agent is configured with the context necessary for it to be use
 
 ## What to do next
 
-You can [test your AI agent on a record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-asset-new.md) to see an example execution. You can also [create an automated agentic evaluation to test the AI agent over repeated interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/launch-aia-eval.md). Automated evaluations can recommend specific optimizations if the LLM judges find underlying patterns for low success rates.
+You can [test your AI agent on a record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-asset-new.md) to see an example execution. You can also [create an automated agentic evaluation to test the AI agent over repeated interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/launch-aia-eval.md). Automated evaluations can recommend specific optimizations if the LLM judges find underlying patterns for low success rates.
 
 Activate your AI agent and make it ready for use by selecting **Activate**.
 

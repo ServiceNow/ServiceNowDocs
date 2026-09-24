@@ -2,7 +2,7 @@
 title: Assessment scorecard ratings
 description: The scorecard ratings section displays various ratings for the assessable record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_Ratings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_Ratings.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ Click a category to view the category record. Point to a category to display a l
 
 \[Omitted image "VendorScorecardTrendChart.png"\] Alt text: Vendor scorecard trend chart
 
-**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 

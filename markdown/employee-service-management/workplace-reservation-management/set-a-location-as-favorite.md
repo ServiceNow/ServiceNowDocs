@@ -2,7 +2,7 @@
 title: Set a location as favorite using the Space details page
 description: Mark your most reserved workplace location as favorite in the Workplace Service Portal. Once the location is set as favorite, it is displayed first whenever you search for locations to make a reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/set-a-location-as-favorite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/set-a-location-as-favorite.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -31,7 +31,7 @@ You can set a location as favorite from any one of the following locations in th
 
 After you set a workplace location as your favorite, you can directly reserve that location from the My favorites page on the Employee Center.
 
-**Note:** For more information about the derivation logic used by Workplace Reservation Management on the Space details page to assign reservable modules, see [Reservable module derivation logic for Space details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reservation-logic-for-myfavorites-space-details.md).
+**Note:** For more information about the derivation logic used by Workplace Reservation Management on the Space details page to assign reservable modules, see [Reservable module derivation logic for Space details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reservation-logic-for-myfavorites-space-details.md).
 
 ## Procedure
 
@@ -64,7 +64,7 @@ After you set a workplace location as your favorite, you can directly reserve th
 
 9.  Map view shows the selected workplace spaces on a map, if maps are enabled by your organization.
 
-    If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
+    If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
 
 10. Select **Reserve**.
 
@@ -120,7 +120,7 @@ After you set a workplace location as your favorite, you can directly reserve th
 
 The location is added to your favorites list.
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

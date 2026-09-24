@@ -2,12 +2,12 @@
 title: Governing AI assets
 description: Manage AI assets across the life cycle using AI Risk and Compliance, with integrated Security and Privacy oversight for risk, compliance, and security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-governing-ai-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-governing-ai-assets.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI Control Tower, Enable AI experiences]
 ---
 

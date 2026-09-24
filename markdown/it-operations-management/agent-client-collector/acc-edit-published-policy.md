@@ -2,7 +2,7 @@
 title: Edit a published policy
 description: A policy with a status of published has been passed through the MID Server and sent to the agent. To edit a published policy, you must enable editing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-edit-published-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-edit-published-policy.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

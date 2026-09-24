@@ -2,12 +2,12 @@
 title: View information in a security incident
 description: You can perform several other actions on an existing security incident using the related links.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/perform-addtl-tasks-on-si.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/perform-addtl-tasks-on-si.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_si.basic
 
 <table id="choicetable_k4s_q45_c5"><tbody><tr><td id="d223743e56">
 
-**[View Manual Runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)**
+**[View Manual Runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md)**
 
 </td><td>
 
@@ -44,7 +44,7 @@ View any workflow associated with this incident.
 
 </td></tr><tr><td id="d223743e81">
 
-**[Add Multiple Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-multiple-si-observables.md)**
+**[Add Multiple Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/add-multiple-si-observables.md)**
 
 </td><td>
 
@@ -52,7 +52,7 @@ Adds a list of observables in comma, new line, tab, or pipe delimited formats.
 
 </td></tr><tr><td id="d223743e97">
 
-**[Add to Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/case-mgmt.md)**
+**[Add to Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/case-mgmt.md)**
 
 </td><td>
 
@@ -92,7 +92,7 @@ Displays all standard related lists and any lists added manually. **Note:** Manu
 
 </td></tr><tr><td id="d223743e160">
 
-**[Show Affected Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/show-affected-items-for-si.md)**
+**[Show Affected Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/show-affected-items-for-si.md)**
 
 </td><td>
 
@@ -100,7 +100,7 @@ Displays the lists of CIs, users, and services directly affected by this inciden
 
 </td></tr><tr><td id="d223743e176">
 
-**[Show Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/show-related-items-for-si.md)**
+**[Show Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/show-related-items-for-si.md)**
 
 </td><td>
 
@@ -108,7 +108,7 @@ Displays the lists of related incidents, CIs, users, and groups affected by this
 
 </td></tr><tr><td id="d223743e192">
 
-**[Show IoC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/show-ioc-info-for-si.md)**
+**[Show IoC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/show-ioc-info-for-si.md)**
 
 </td><td>
 
@@ -116,7 +116,7 @@ Displays the lists of observables, indicators, malware, modes and methods, and s
 
 </td></tr><tr><td id="d223743e209">
 
-**[Show Enrichment Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/show-enrich-data-for-si.md)**
+**[Show Enrichment Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/show-enrich-data-for-si.md)**
 
 </td><td>
 
@@ -124,7 +124,7 @@ Displays the lists of enrichment data, processes, services, statistics, lookups,
 
 </td></tr><tr><td id="d223743e225">
 
-**[Show Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/show-response-tasks-for-si.md)**
+**[Show Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/show-response-tasks-for-si.md)**
 
 </td><td>
 
@@ -140,7 +140,7 @@ If this security incident was generated from an external application, directly o
 
 </td></tr><tr><td id="d223743e256">
 
-**[Scan for Vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_SubmitThrtReqFromSecInc.md)**
+**[Scan for Vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/t_SubmitThrtReqFromSecInc.md)**
 
 </td><td>
 

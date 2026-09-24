@@ -2,7 +2,7 @@
 title: Map settings
 description: Map settings allow the facilities staff or users to choose the appearance of their floor plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_MapSettings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_MapSettings.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,5 +14,5 @@ breadcrumb: [Interactive facility maps, Facilities Service Management overview, 
 
 Map settings allow the facilities staff or users to choose the appearance of their floor plan.
 
-**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
+**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
 

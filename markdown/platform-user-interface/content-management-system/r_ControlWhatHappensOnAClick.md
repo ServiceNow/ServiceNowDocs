@@ -2,7 +2,7 @@
 title: Control what happens on a click
 description: Since a CMS system uses multiple pages you have to tell the system which page to use to display drill through content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/r\_ControlWhatHappensOnAClick.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/r\_ControlWhatHappensOnAClick.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -45,12 +45,12 @@ A gauge target page is a separate CMS page that is used to display the drill-thr
     A gauge target page is a normal CMS page, with one special requirement. Somewhere on that page, there must be a **Gauge Target block**. This market block tells the system where to output the drill through data.
 
 
-**Parent Topic:**[CMS gauge support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSGaugeSupport.md)
+**Parent Topic:**[CMS gauge support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_CMSGaugeSupport.md)
 
 **Related topics**  
 
 
-[CMS gauge support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSGaugeSupport.md)
+[CMS gauge support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_CMSGaugeSupport.md)
 
-[Put a gauge on a CMS page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_PutAGaugeOnACMSPage.md)
+[Put a gauge on a CMS page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_PutAGaugeOnACMSPage.md)
 

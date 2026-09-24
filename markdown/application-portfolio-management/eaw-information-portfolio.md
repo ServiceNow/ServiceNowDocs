@@ -2,7 +2,7 @@
 title: Exploring the information portfolio
 description: Use the information portfolio to capture information from the assets of your organization as information objects. You can categorize the information assets and determine its business application use. You can also connect the different layers where data exists and map the layers. Mapping helps to retrieve the information and track the information flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-information-portfolio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-information-portfolio.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,19 +31,19 @@ Enterprise Architecture integrates with ServiceNow Discovery that finds database
 
 CMDB plugin has the Information Object \(cmdb\_ci\_information\_object\) CI. When the Enterprise Architecture plugin is activated, the data domain field gets added to the cmdb\_ci\_information\_object table. The data domain field references the Data Domain table, which is included in the Enterprise Architecture plugin.
 
--   **[Exploring data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-domains.md)**  
+-   **[Exploring data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-data-domains.md)**  
 A data domain is a collection of information objects. A data domain categorizes information objects.
--   **[Exploring information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-information-objects.md)**  
+-   **[Exploring information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-information-objects.md)**  
 An information object captures the logical data for a business application. It also describes the type of data that is interchanged between the application and the database.
--   **[Exploring architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-architectural-artifacts.md)**  
+-   **[Exploring architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-architectural-artifacts.md)**  
 Architectural artifacts are created to describe a system, solution, or state of an enterprise. The goal of architectural artifacts in Enterprise Architecture is to enable enterprise architects to create and manage artifacts in their organization.
--   **[Exploring architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-arch-decision-records.md)**  
+-   **[Exploring architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-arch-decision-records.md)**  
 Use the Architectural Decision Records \(ADR\) to explain your infrastructure. ADR is a type of artifact that helps you to understand the background of a specific architectural decision.
 
-**Parent Topic:**[Exploring Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/portfolio-list-view.md)
+**Parent Topic:**[Exploring Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/portfolio-list-view.md)
 
 **Related topics**  
 
 
-[Working with information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-info-portfoliodita.md)
+[Working with information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-info-portfoliodita.md)
 

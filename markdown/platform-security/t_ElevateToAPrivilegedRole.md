@@ -2,7 +2,7 @@
 title: Elevate to a privileged role
 description: The base system admin can elevate to a privileged role to have access to the features of High Security Settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ElevateToAPrivilegedRole.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ElevateToAPrivilegedRole.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Role required: admin
 4.  End role elevation by returning to the dialog box in step 2, and deselecting the role.
 
 
-**Parent Topic:**[Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md)
+**Parent Topic:**[Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_ElevatedPrivilege.md)
 
 **Related topics**  
 

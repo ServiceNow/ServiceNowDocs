@@ -2,7 +2,7 @@
 title: Purchase requisition line-level questions in Shopping Hub
 description: Line-level questions let procurement admins capture product-specific information during checkout, improving data accuracy and enabling flexible purchase requisition workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/prl-question-shoppinghub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/prl-question-shoppinghub.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -26,7 +26,7 @@ Role required: sn\_shop.procurement\_administrator
 
 Plugin required: Shopping Hub \(sn\_spend\_uib\)
 
-For more information about creating configurable, line-level questions for shoppers, see [Configure line-level questions in ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-additional-information-prl.md).
+For more information about creating configurable, line-level questions for shoppers, see [Configure line-level questions in ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-additional-information-prl.md).
 
 ## How it works
 
@@ -62,5 +62,5 @@ The additional information also appears on the Purchase details page under My pu
 
 \[Omitted image "sh-my-purchases-add-info.png"\] Alt text: Purchase details page in My purchases
 
-**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
+**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
 

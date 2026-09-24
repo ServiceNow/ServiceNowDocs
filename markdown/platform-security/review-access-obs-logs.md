@@ -2,7 +2,7 @@
 title: Review Access Observer logs
 description: Use information in the Access Observer log records for insights on how your data is accessed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/review-access-obs-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/review-access-obs-logs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -135,5 +135,5 @@ Session ID
 ID of the session in which the column was accessed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-observer.md)
+</table>**Parent Topic:**[Access observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-observer.md)
 

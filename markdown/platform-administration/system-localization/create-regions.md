@@ -2,7 +2,7 @@
 title: Create regions for language selection in portals
 description: Create regions to group languages in the language selector in portal headers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/create-regions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/create-regions.html
 release: australia
 product: System Localization
 classification: system-localization

@@ -2,7 +2,7 @@
 title: Execute a reactive scan
 description: Execute a reactive scan to set up a scan that runs automatically on an execution tracker failure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-reactive-scan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/instance-scan/hs-reactive-scan.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -41,7 +41,7 @@ The **Trigger Type** in the Scan Trigger form should match the **Source Table** 
     The reactive scan is now set up to automatically scan the execution tracker of the failed process which appears on the scan results table.
 
 
-**Parent Topic:**[Executing a scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-scans.md)
+**Parent Topic:**[Executing a scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/instance-scan/hs-execute-scans.md)
 
 **Related topics**  
 

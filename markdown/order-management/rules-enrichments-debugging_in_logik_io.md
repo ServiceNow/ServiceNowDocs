@@ -2,7 +2,7 @@
 title: Debugging in CPQ
 description: How to use the debugger to perfect your scripts before deployment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/rules-enrichments-debugging\_in\_logik\_io.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/rules-enrichments-debugging\_in\_logik\_io.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Comment out blocks of codes: When a script becomes long, it may be necessary to 
 
 Comment out debug JSON for future use: If you are continually updating a rule during implementation, itʼs a good idea to save your debugging JSON either at the top or bottom of the script inside a comment block. That way, when the script is saved, the JSON can also be saved for future reference.
 
-For more tips on these features, see [Using comments and the console to debug scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rules-enrichments-comments-and-console_log.md).
+For more tips on these features, see [Using comments and the console to debug scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/rules-enrichments-comments-and-console_log.md).
 
 ## How to use the debugger
 
@@ -137,7 +137,7 @@ The structure of the JSON you use depends on the object type of each field, as w
     }
     ```
 
-    To learn more about defaulting a setʼs fields, see [Scripting: How to populate set values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md).
+    To learn more about defaulting a setʼs fields, see [Scripting: How to populate set values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md).
 
 
 ## Context-specific JSON formatting
@@ -174,7 +174,7 @@ On configuration and reconfiguration, inputs are entered in JSON format, using t
 }
 ```
 
-For more information about how to use the **userEdited** property, see [Scripting: Checking for first and subsequent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments_on_configurer_and_reconfigure_behavior.md)
+For more information about how to use the **userEdited** property, see [Scripting: Checking for first and subsequent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enrichments_on_configurer_and_reconfigure_behavior.md)
 
 ## Context-specific JSON formatting: product pickers
 

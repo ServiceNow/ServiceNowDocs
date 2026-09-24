@@ -2,7 +2,7 @@
 title: Configure dashboard deletion actions in the Workflow Studio
 description: Using the Workflow Studio, you can add actions to the dashboard deletion process. Actions may include sending an email to the dashboard's users or generating an approval request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/delete-db-in-ac-wf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/delete-db-in-ac-wf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,5 +62,5 @@ There are three possible outputs:
 
 For more information, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-error-evaluation.md).
 
-**Parent Topic:**[Delete a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/delete-db-in-ac.md)
+**Parent Topic:**[Delete a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/delete-db-in-ac.md)
 

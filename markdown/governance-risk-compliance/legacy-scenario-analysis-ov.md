@@ -2,7 +2,7 @@
 title: Legacy scenario analysis
 description: By performing a scenario analysis, you can determine the risks that might impact your business. You can analyze the impact of the scenarios and events on your business services. You can also track the actions and improvements from the scenario analysis in Operational Resilience Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/legacy-scenario-analysis-ov.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/legacy-scenario-analysis-ov.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ When a plan approver approves the plan approval, it triggers a response task for
 
 As an owner of the scenario analysis, you can verify the status of the services and calculate the possible disruptions. After the response tasks have been completed, you can request an analysis approval for your scenario analysis. When an analysis approver approves the scenario analysis, you can close it and monitor its status in Operational Resilience Workspace.
 
-**Note:** Starting with Operational Resilience, version 22.3.1, the advanced scenario analysis experience is displayed in the Operational Resilience Workspace by default. To enable the legacy scenario analysis entry points, see [Enable the legacy scenario analysis flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/activate-scenario-analysis-legacy-flow.md).
+**Note:** Starting with Operational Resilience, version 22.3.1, the advanced scenario analysis experience is displayed in the Operational Resilience Workspace by default. To enable the legacy scenario analysis entry points, see [Enable the legacy scenario analysis flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/activate-scenario-analysis-legacy-flow.md).
 
 ## Tasks to set up the legacy scenario analysis
 

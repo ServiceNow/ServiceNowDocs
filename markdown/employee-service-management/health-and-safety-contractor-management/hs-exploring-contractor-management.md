@@ -2,7 +2,7 @@
 title: Exploring Health and Safety Contractor Management
 description: Learn more about Health and Safety Contractor Management and review the benefits it can provide for different users in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/hs-exploring-contractor-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-contractor-management/hs-exploring-contractor-management.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -83,7 +83,7 @@ Prequalify contractor companies and their workers to keep track of their health 
 
 </td><td>
 
-[Add contractor company and worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md)
+[Add contractor company and worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md)
 
 </td><td>
 
@@ -96,7 +96,7 @@ Confirm prerequisite training and document uploads for contractor workers before
 
 </td><td>
 
-[Task assignment for contractors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-assign-tasks-contractor-worker.md)
+[Task assignment for contractors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-assign-tasks-contractor-worker.md)
 
 </td><td>
 
@@ -108,7 +108,7 @@ Gather prerequisite documents form the contractor company and its workers.
 
 </td><td>
 
-[Contractor documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-add-document-contractor-worker.md)
+[Contractor documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-add-document-contractor-worker.md)
 
 </td><td>
 
@@ -120,7 +120,7 @@ Track all contractor workers and know who is on site at all times.
 
 </td><td>
 
-[Site access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-grant-site-access-worker.md)
+[Site access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-grant-site-access-worker.md)
 
 </td><td>
 
@@ -132,7 +132,7 @@ Add contractor worker on incident and observation.
 
 </td><td>
 
-[People involved in a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/add-hs-people-involved.md)
+[People involved in a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/add-hs-people-involved.md)
 
 </td><td>
 
@@ -144,7 +144,7 @@ Add contractor worker on incident and observation.
 
 To learn more about configuring and using Health and Safety Contractor Management, see:
 
--   [Configuring Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-configuring-contractor-management.md)
--   [Managing contractors for health and safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-using-contractor-management.md)
--   [Health and Safety Contractor Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-reference.md)
+-   [Configuring Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-configuring-contractor-management.md)
+-   [Managing contractors for health and safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-using-contractor-management.md)
+-   [Health and Safety Contractor Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-reference.md)
 

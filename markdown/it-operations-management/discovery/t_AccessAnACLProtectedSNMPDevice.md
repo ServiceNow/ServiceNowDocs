@@ -2,7 +2,7 @@
 title: Access an ACL-protected SNMP device
 description: Access an SNMP device protected by an ACL using a Discovery behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_AccessAnACLProtectedSNMPDevice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_AccessAnACLProtectedSNMPDevice.html
 release: australia
 product: Discovery
 classification: discovery
@@ -40,7 +40,7 @@ A specific type of Access Control List \(ACL\) on an SNMP device can prevent Dis
 
         This action saves the record and creates the Discovery Functionality related list in the form.
 
-    3.  To complete this behavior \(as shown in [Figure 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_AccessAnACLProtectedSNMPDevice.md)\) we must create functionalities using the MID Servers we installed for that purpose.
+    3.  To complete this behavior \(as shown in [Figure 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_AccessAnACLProtectedSNMPDevice.md)\) we must create functionalities using the MID Servers we installed for that purpose.
 
         For the functionality that scans for the WMI protocol, we must define criteria that specify the Windows domain and MID Server being used. Because this Discovery is being performed on one Windows domain, we can configure a functionality for WMI and SSH \(**All except SNMP**\) using the same MID Server.
 
@@ -158,7 +158,7 @@ Be sure to enable the criteria by selecting this check box \(**true**\).
     \[Omitted image "DiscoveryBehaviorScheduleACL.png"\] Alt text: Schedule Record
 
 
-**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
+**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryBehaviors.md)
 
 **Related topics**  
 

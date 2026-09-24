@@ -2,7 +2,7 @@
 title: Configure which external apps are available for deep linking
 description: Administrators can define which external apps can be used in deep links with the glide.sg.allowed\_external\_deeplinks property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-allow-deeplink.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-allow-deeplink.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -76,5 +76,5 @@ Only third-party apps listed in value of the property can be linked to using dee
 
 **Note:** If the value of this property is left empty, or the property is deleted, there are no restrictions on deep linking to third-party apps.
 
-**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/additional-mobile-configuration.md)
 

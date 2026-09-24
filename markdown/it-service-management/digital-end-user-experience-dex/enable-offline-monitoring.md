@@ -2,7 +2,7 @@
 title: Enable offline monitoring
 description: Enable offline monitoring so that metrics collected on a device while it's disconnected from the instance are automatically resent once the device reconnects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/enable-offline-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/enable-offline-monitoring.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

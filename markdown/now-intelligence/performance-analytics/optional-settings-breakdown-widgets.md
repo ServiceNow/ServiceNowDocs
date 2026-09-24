@@ -2,7 +2,7 @@
 title: Additional settings for breakdown widgets
 description: Breakdown widgets have the following optional settings for the date range, the display, the grouping breakdown, and for the column contents. Not all options are available for all visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/optional-settings-breakdown-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/optional-settings-breakdown-widgets.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -18,17 +18,17 @@ Breakdown widgets have the following optional settings for the date range, the d
 
 **Important:** This topic is not a guide to creating breakdown widgets. It is a guide to extra, optional settings that are common across breakdown widget types. FOR INSTRUCTIONS ON CREATING TIME SERIES WIDGETS, PLEASE SEE THE APPROPRIATE "CREATE" TOPIC:
 
--   [Create a scorecard visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-scorecard-widget.md)
--   [Create a pie, donut, or semi-donut visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-pie-widget.md)
--   [Create a pyramid or a funnel visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-pyramid-funnel-widget.md)
--   [Create a column visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-column-bkdown-widget.md)
--   [Create a Pareto visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-pareto-bkdown-widget.md)
--   [Create a line visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-line-bkdown-widget.md)
--   [Create a columns and total visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-column-total-bkdown-widget.md)
--   [Create a stacked column visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-stacked-column-bkdown-widget.md)
--   [Create a relative compare visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-relative-compare-bkdn.md)
--   [Create a pivot scorecard visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-pivot-scorecard-breakdown.md)
--   [Create a treemap visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-treemap-breakdown.md)
+-   [Create a scorecard visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-scorecard-widget.md)
+-   [Create a pie, donut, or semi-donut visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-pie-widget.md)
+-   [Create a pyramid or a funnel visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-pyramid-funnel-widget.md)
+-   [Create a column visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-column-bkdown-widget.md)
+-   [Create a Pareto visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-pareto-bkdown-widget.md)
+-   [Create a line visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-line-bkdown-widget.md)
+-   [Create a columns and total visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-column-total-bkdown-widget.md)
+-   [Create a stacked column visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-stacked-column-bkdown-widget.md)
+-   [Create a relative compare visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-relative-compare-bkdn.md)
+-   [Create a pivot scorecard visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-pivot-scorecard-breakdown.md)
+-   [Create a treemap visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-treemap-breakdown.md)
 
 The available settings depend on the selected visualization. The following example is for a Scorecard visualization.
 
@@ -177,7 +177,7 @@ Show confidence bands
 
 </td><td>
 
-Display confidence bands in this chart. For information about how the confidence band is calculated, see [Widget confidence bands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optional-settings-ts-widgets.md).
+Display confidence bands in this chart. For information about how the confidence band is calculated, see [Widget confidence bands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/optional-settings-ts-widgets.md).
 
 </td></tr><tr><td>
 
@@ -260,7 +260,7 @@ Breakdown on Y axis
 
 </td><td>
 
-Pivot Analytics Hub breakdown widgets display [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the X axis and indicators as the Y axis by default. Select this check box to display breakdown elements as the Y axis and indicators as the X axis.
+Pivot Analytics Hub breakdown widgets display [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the X axis and indicators as the Y axis by default. Select this check box to display breakdown elements as the Y axis and indicators as the X axis.
 
 </td></tr><tr><td id="row_widget_show_total">
 

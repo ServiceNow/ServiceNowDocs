@@ -2,14 +2,14 @@
 title: Configure multimodal captioning for AI Search
 description: Use the AI Search Admin console to select the visual language model \(VLM\) provider and model for multimodal captioning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-06-16"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Use the AI Search Admin console to select the visual language model \(VLM\) prov
 
 ## Before you begin
 
--   The Platform Multimodal Service plugin \(com.glide.platform\_mm\_service\) must be installed on your instance. If the plugin is not installed, multimodal captioning options will not appear in the AI Search Admin console. For more information, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+-   The Platform Multimodal Service plugin \(com.glide.platform\_mm\_service\) must be installed on your instance. If the plugin is not installed, multimodal captioning options will not appear in the AI Search Admin console. For more information, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
 -   Role required: ais\_admin
 
 
@@ -56,8 +56,8 @@ Changes to the provider and model take effect immediately for multimodal caption
 
 AI Search administrators have additional configuration options available, as follows:
 
--   AI Search administrators can activate multimodal captioning for individual AI Search indexed sources. For details on this procedure, see [Activate multimodal captioning for attachments from an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-multimodal-captioning.md).
--   Connector administrators can activate multimodal captioning in the crawl settings for an external content connector. To learn about configuring crawl settings for external content connectors, see [Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md).
+-   AI Search administrators can activate multimodal captioning for individual AI Search indexed sources. For details on this procedure, see [Activate multimodal captioning for attachments from an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-multimodal-captioning.md).
+-   Connector administrators can activate multimodal captioning in the crawl settings for an external content connector. To learn about configuring crawl settings for external content connectors, see [Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md).
 
-**Parent Topic:**[Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/using-ais-admin-console.md)
+**Parent Topic:**[Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/using-ais-admin-console.md)
 

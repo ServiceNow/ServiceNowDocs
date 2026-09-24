@@ -2,7 +2,7 @@
 title: Integrate inbound events
 description: This example illustrates how to create a notification from an inbound JSON request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_IntegratingInboundEvents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_IntegratingInboundEvents.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -65,5 +65,5 @@ The following example steps assume you have your own demonstration instance.
     \[Omitted image "rest-import-set-table.png"\] Alt text: Import set table showing an event record that matches the JSON request data
 
 
-**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/references-inbound-email.md)
+**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/references-inbound-email.md)
 

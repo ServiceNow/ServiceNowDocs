@@ -2,7 +2,7 @@
 title: Create a sales process record
 description: Monitor and track sales activities for a customer account by creating a sales process record in Lead-to-Cash Process Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-sales-process-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-sales-process-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,14 +49,14 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
 ## What to do next
 
-Track and manage sales process using the sales process dashboard. For more information, see [Navigating the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/navigating-sales-process-dashboard.md) and [Monitoring and tracking sales activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitor-track-sales-activities.md).
+Track and manage sales process using the sales process dashboard. For more information, see [Navigating the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/navigating-sales-process-dashboard.md) and [Monitoring and tracking sales activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/monitor-track-sales-activities.md).
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-process-management.md)
 
 **Related topics**  
 
 
-[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-cash-process-management.md)
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-lead-cash-process-management.md)
 
-[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-lead-cash-process-management.md)
 

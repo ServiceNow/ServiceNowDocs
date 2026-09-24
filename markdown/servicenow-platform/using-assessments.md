@@ -2,7 +2,7 @@
 title: Using assessments
 description: Before you create assessments, assign the assessment\_admin role to the appropriate users in your organization and determine your objectives for the assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/using-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/using-assessments.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,12 +14,12 @@ breadcrumb: [Assessments, Assessments and Surveys, Exploring Service Administrat
 
 Before you create assessments, assign the assessment\_admin role to the appropriate users in your organization and determine your objectives for the assessment.
 
--   **[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentProcess.md)**  
+-   **[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentProcess.md)**  
 Before you create assessments, assign the assessment\_admin role to the appropriate users in your organization and determine your objectives for the assessment.
--   **[Take an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_TakeAnAssessment.md)**  
+-   **[Take an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_TakeAnAssessment.md)**  
 Take the assessments assigned to you from the assessment and survey queue.
--   **[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)**  
+-   **[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)**  
 In the Assessments application, assessment administrators create and administer metric types and assessable records.
 
-**Parent Topic:**[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_Assessments.md)
+**Parent Topic:**[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_Assessments.md)
 

@@ -2,7 +2,7 @@
 title: Kubernetes Visibility Agent support matrix
 description: The Kubernetes Visibility Agent component is supported on several versions of Kubernetes and OpenShift and in various Kubernetes environments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-support-matrix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/cnov-support-matrix.html
 release: australia
 product: Discovery
 classification: discovery
@@ -28,12 +28,12 @@ In regulated markets that require FIPS-140 compliant code, the Kubernetes Visibi
 -   The main informer image is FIPS-140 compliant.
 -   The daemonset image used for traffic discovery is FIPS-140 compliant.
 
--   **[Kubernetes Visibility Agent \(KVA\) Performance Benchmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kva-p-benchmark.md)**  
+-   **[Kubernetes Visibility Agent \(KVA\) Performance Benchmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/kva-p-benchmark.md)**  
 Performance tests are available for Kubernetes Visibility Agent \(KVA\) to help you estimate load, memory, and CPU on the Instance and Kubernetes cluster.
--   **[Discovering Kubevirt Virtual Machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discover-KVM.md)**  
+-   **[Discovering Kubevirt Virtual Machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discover-KVM.md)**  
 KubeVirt provides a unified development platform where developers can build, modify, and deploy applications in both Application Containers and Virtual Machines.
--   **[Running Kubernetes Visibility Agent \(KVA\) at Scale](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-kva-at-scale.md)**  
+-   **[Running Kubernetes Visibility Agent \(KVA\) at Scale](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/running-kva-at-scale.md)**  
 When you run Kubernetes Visibility Agent \(KVA\) \(formerly CNO for Visibility\) on more than 100 clusters, configure your system properties to help prevent loss of data from the informers.
 
-**Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-reference.md)
+**Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-reference.md)
 

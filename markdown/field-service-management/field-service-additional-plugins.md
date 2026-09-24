@@ -2,7 +2,7 @@
 title: Additional plugins for Field Service Management
 description: After Field Service Management is activated, you can activate additional plugins that provide demo data and enable a variety of features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-additional-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-additional-plugins.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -266,7 +266,7 @@ com.snc.fsm\_advanced\_parts\_sourcing
 
 </td><td>
 
-Enables Field Service agents to request and source multiple parts. Agents can receive mobile notifications when part requests are raised by their peers. **Note:** This plugin installs several system components such as tables, business rules, and scripts. For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-part-souring-components.md).
+Enables Field Service agents to request and source multiple parts. Agents can receive mobile notifications when part requests are raised by their peers. **Note:** This plugin installs several system components such as tables, business rules, and scripts. For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/advanced-part-souring-components.md).
 
 </td></tr><tr><td>
 
@@ -404,5 +404,5 @@ Activates the Sidebar AI feature on the Field Service Mobile Agent application.
 </table>**Related topics**  
 
 
-[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 

@@ -2,7 +2,7 @@
 title: Activate the rationalization skill for control objective
 description: Activate this skill to generate recommendations that are similar to the selected control objective.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/activate-the-rationalization-skill-for-control-objective.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/activate-the-rationalization-skill-for-control-objective.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

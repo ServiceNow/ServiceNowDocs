@@ -2,7 +2,7 @@
 title: Create or modify a record producer for legal services through Catalog Builder
 description: Create or modify a record producer using a catalog template to define an intake form for a legal service. Employees can use these intake forms on the Legal Service Portal to submit a legal request or legal matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/create-record-producer-catalog-builder-legal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/create-record-producer-catalog-builder-legal.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -33,25 +33,25 @@ For more information about catalog item templates and catalog items, see [Catalo
 
 1.  Open Catalog Builder from the application navigator or from an intake form.
 
-<table id="choicetable_umx_jtg_cvb"><thead><tr><th align="left" id="d606689e97">
+<table id="choicetable_umx_jtg_cvb"><thead><tr><th align="left" id="d606693e97">
 
 Option
 
-</th><th align="left" id="d606689e100">
+</th><th align="left" id="d606693e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d606689e106">
+</th></tr></thead><tbody><tr><td id="d606693e106">
 
 **From an Intake form**
 
 </td><td>
 
-1.  [Open an intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md) that has a record producer selected.
+1.  [Open an intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/associate-categories-practice-area.md) that has a record producer selected.
 2.  Click the **Edit in Catalog Builder** related link.
 
 
-</td></tr><tr><td id="d606689e133">
+</td></tr><tr><td id="d606693e133">
 
 **From the application navigator**
 
@@ -88,11 +88,11 @@ Destination
 
 **Table**: -   For legal requests: Default is **Legal Request \[sn\_lg\_ops\_request\]**.
 
-You can select a [practice area table for legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-pa-tables.md) as required.
+You can select a [practice area table for legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-request-pa-tables.md) as required.
 
 -   For legal matters: Default is **Legal Matter \[sn\_lg\_matter\_matter\]**.
 
-You can select a [practice area table for legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-pa-tables.md) as required.
+You can select a [practice area table for legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/legal-matter-pa-tables.md) as required.
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Location
 -   **Catalogs**: Default is **Legal Operations Catalog**.
 -   **Categories**: Legal Request for legal requests and Legal Matter for legal matters.
 
-You can select a different catalog and [category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/add-catalog-categories.md) based on your requirements.
+You can select a different catalog and [category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/add-catalog-categories.md) based on your requirements.
 
 </td></tr><tr><td>
 
@@ -132,5 +132,5 @@ Select users with specific roles who are granted access to the record producer.
 5.  In the **Review and Submit** step, review the record producer and click **Submit** to publish the record producer in the selected catalog.
 
 
-**Parent Topic:**[Managing record producers for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/record-producers-legal-services.md)
+**Parent Topic:**[Managing record producers for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/record-producers-legal-services.md)
 

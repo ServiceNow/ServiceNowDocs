@@ -2,7 +2,7 @@
 title: Configure the scenario planning type and scope
 description: Configure the scenario planning type and select the scope of portfolios to determine the way you want to plan and work on your portfolios. You can also specify using Investment Funding for funding demands and projects in your portfolios.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/configure-scenario-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-management/configure-scenario-planning.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -92,7 +92,7 @@ When you select a planning window, all the demands and projects falling within t
 
     **Note:** This option is available only when the Investment Funding for PPM \(com.snc.investment\_planning\_pmo\) plugin is active and planning type is selected as **Annual Financial and Resource Capacity Based Planning**.
 
-    -   If the planning scope is **Single Selected Portfolio**, the target amount of that portfolio is retrieved from the **New Fund** column for the selected portfolio investment. For more information, see [Allocate funds to an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/allocate-funds-to-investment.md).
+    -   If the planning scope is **Single Selected Portfolio**, the target amount of that portfolio is retrieved from the **New Fund** column for the selected portfolio investment. For more information, see [Allocate funds to an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/investment-funding/allocate-funds-to-investment.md).
     -   If the planning scope is **All Portfolios**, specify a source to retrieve the target amount.
         1.  Select a funding entity from the Funding Entity list from which your demands and projects will be funded.
         2.  Select the transaction table for the selected funding entity from the Funding Record list.
@@ -103,8 +103,8 @@ When you select a planning window, all the demands and projects falling within t
 
 The scenario planning configuration is updated and all scenario plans and confirmed plans are deleted. The configuration changes also updates the Portfolio Planning Workbench to enable you to do scenario planning based on the updated planning type and scope.
 
--   **[Impact of modifying the scenario planning type and scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/change-planning-mode-type.md)**  
+-   **[Impact of modifying the scenario planning type and scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/change-planning-mode-type.md)**  
 Modifying the planning type and scope impacts the demands and project selection in your planning scenarios and portfolio planning. You can change the planning type and scope at any time during portfolio planning.
 
-**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/portfolio-planning-overview.md)
 

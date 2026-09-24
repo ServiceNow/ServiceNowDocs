@@ -2,7 +2,7 @@
 title: Create an interaction
 description: Create and manage interaction records in Accounts Payable Operations to track supplier requests received through chat, email, or the Supplier Collaboration Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-new-interaction-record-in-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-new-interaction-record-in-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,16 +25,16 @@ Role required: Account Payable Operations agent
 
 1.  Navigate to **All** &gt; **Source-to-Pay Workspace**.
 
-    Based on the supplier interaction with the agent, an interaction record is auto-created. For more information about the fields in an interaction record, see [Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/interaction-record.md).
+    Based on the supplier interaction with the agent, an interaction record is auto-created. For more information about the fields in an interaction record, see [Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/interaction-record.md).
 
 2.  Click**Create a case**.
 
-    If the supplier chat has a new inquiry, then use create a case. For more information about creating invoice inquiry case, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
+    If the supplier chat has a new inquiry, then use create a case. For more information about creating invoice inquiry case, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
 3.  Click **Save**.
 
     New Interaction record is created.
 
 
-**Parent Topic:**[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
+**Parent Topic:**[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
 

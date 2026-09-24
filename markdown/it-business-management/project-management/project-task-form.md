@@ -2,7 +2,7 @@
 title: Project task form
 description: Learn about the fields of project task form. The fields appear when the Project Portfolio Management is active and the Project form is in the Basic view. Configure the form to display the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/project-task-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -78,7 +78,7 @@ State
 
 </td><td>
 
-Current state of the project. The states include: Pending, Open, Work in Progress, Closed Complete, Closed Incomplete, Closed Skipped.The state is automatically rolled up from the project tasks. For more information, see [Project calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectWorkbenchProjectCalc.md) and [Parent-child rollup task calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ParentChildRollupTaskCalcs.md).
+Current state of the project. The states include: Pending, Open, Work in Progress, Closed Complete, Closed Incomplete, Closed Skipped.The state is automatically rolled up from the project tasks. For more information, see [Project calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectWorkbenchProjectCalc.md) and [Parent-child rollup task calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ParentChildRollupTaskCalcs.md).
 
 </td></tr><tr><td>
 
@@ -210,7 +210,7 @@ Constraint date
 
 </td><td>
 
-A read-only field that determines the start date for tasks with **Start no earlier than**, **Start no later than**, and **Start on specific date** constraints. Use the **Move project** related link to change this date. For more information, see [Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-planned-start-date-of-project.md).
+A read-only field that determines the start date for tasks with **Start no earlier than**, **Start no later than**, and **Start on specific date** constraints. Use the **Move project** related link to change this date. For more information, see [Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/change-planned-start-date-of-project.md).
 
 </td></tr><tr><td>
 
@@ -282,10 +282,10 @@ Original planned date and time for the task to end.
 
 |Field|Description|
 |-----|-----------|
-|Checklist|[Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectTaskChecklist.md) to track items that must be completed for the task.|
+|Checklist|[Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectTaskChecklist.md) to track items that must be completed for the task.|
 
 **Related topics**  
 
 
-[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
+[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateATaskFromAProject.md)
 

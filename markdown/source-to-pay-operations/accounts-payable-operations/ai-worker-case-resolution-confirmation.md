@@ -2,7 +2,7 @@
 title: AI worker case resolution confirmation
 description: AI worker agent marks invoice cases as resolved and triggers supplier confirmation through Supplier Collaboration Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -33,12 +33,12 @@ The workflow performs the following actions:
 
 The supplier receives the confirmation request and uses the Supplier Collaboration Portal to validate or challenge the resolution. The supplier's response is recorded, the case status is updated accordingly, and the AI worker and relevant team members are notified of the outcome.
 
--   **[Invoice case resolution using AI worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-case-resolution-using-ai-worker.md)**  
+-   **[Invoice case resolution using AI worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-case-resolution-using-ai-worker.md)**  
 Mark an invoice inquiry case and payment inquiry as resolved to start an automated workflow that requests supplier confirmation through Supplier Collaboration Portal.
--   **[Email resolution notifications for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/email-resolution-notifications-for-apo.md)**  
+-   **[Email resolution notifications for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/email-resolution-notifications-for-apo.md)**  
 AI worker agent resolves the case and moves it to awaiting acceptance, then sends an email with resolution details and accept/reject buttons.
 
-**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Manage profile tabs and visibility in Employee Profile
 description: Enable the display of work-related content in the employee profile to help customize the public profile visibility settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/manage-employee-profile-tabs-visibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/manage-employee-profile-tabs-visibility.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -65,7 +65,7 @@ For employees, the tab UI appears only when more than one tab is available for d
 
 6.  On the Tab widget mapping form, fill in the fields.
 
-    For a description of the field values, see [Tab widget mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/tab-widget-mapping-form.md). The Tab widget mapping **sys\_id** is available in the **tabWidgetMappingId** variable of the widget options object.
+    For a description of the field values, see [Tab widget mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/tab-widget-mapping-form.md). The Tab widget mapping **sys\_id** is available in the **tabWidgetMappingId** variable of the widget options object.
 
     **Note:** The **widgetTitle**, **tabWidgetMappingId**, and **isUserSelectionEnabled** variables are available only within the scope of the Employee Profile tab UI.
 
@@ -81,5 +81,5 @@ The admin can use the instance options to configure the visibility of the naviga
 **Related topics**  
 
 
-[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
+[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 

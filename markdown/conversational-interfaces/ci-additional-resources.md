@@ -2,7 +2,7 @@
 title: Additional resources for Conversational Interfaces
 description: If you’re looking for Conversational Interfaces \(CI\) best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ci-additional-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/ci-additional-resources.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

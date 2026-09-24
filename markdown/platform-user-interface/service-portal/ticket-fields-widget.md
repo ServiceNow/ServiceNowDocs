@@ -2,7 +2,7 @@
 title: Ticket Fields widget
 description: The Ticket Fields widget displays information about a request that a user has made. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/ticket-fields-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/ticket-fields-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -53,7 +53,7 @@ Text to communicate the expected resolution time of the ticket. This text is dis
  The default is `${Tickets are picked up within <br/> 4 hours (M-F 9-5)}`. Ensure that any changes you make are within the curly braces.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

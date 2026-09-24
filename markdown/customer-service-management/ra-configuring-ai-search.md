@@ -2,7 +2,7 @@
 title: Configuring AI search in Recommended Actions
 description: As an admin, configure AI search in Recommended Actions to enable agents to perform an AI search to find relevant resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-configuring-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-configuring-ai-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Deselect the **Hide Search** button in UI Builder to display the AI search tab i
 
 </td></tr><tr><td>
 
-[Create a context and select a search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-contexts-create.md)
+[Create a context and select a search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-contexts-create.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ Deselect the **Hide Search** button in UI Builder to display the AI search tab i
 
 </td></tr><tr><td>
 
-[Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md)
+[Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-create-search-result-mapping-for-ai-search.md)
 
 </td><td>
 
@@ -51,7 +51,7 @@ Map AI search results with guidance inputs to enable the AI search results to be
 
 </td></tr><tr><td>
 
-[Automatically map AI search results with guidance inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search-automatically.md)
+[Automatically map AI search results with guidance inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-configuring-ai-search-automatically.md)
 
 </td><td>
 
@@ -59,7 +59,7 @@ Automatically create AI search results for a search configuration application in
 
 </td></tr><tr><td>
 
-[Configure dynamic filters in AI Search for Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configure-contextual-filtering.md)
+[Configure dynamic filters in AI Search for Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-configure-contextual-filtering.md)
 
 </td><td>
 

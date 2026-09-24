@@ -2,10 +2,10 @@
 title: Combined Intelligence for CSM release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Intelligence for CSM from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-intelligenceforcsm-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-intelligenceforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -228,6 +228,14 @@ Yokohama
 Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=yokohama&ft:locale=en-US).
 
 
+**Important:** The following applications are available in ServiceNow Store:
+
+-   Recommended Actions \(sn\_nb\_action\)
+-   Recommended Actions for Customer Service \(sn\_cs\_nb\_action\)
+-   Task Intelligence for Customer Service \(com.snc.csm\_ml\_task\)
+
+For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -238,6 +246,15 @@ Zurich
 
 Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=zurich&ft:locale=en-US).
 
+
+**Important:** The following applications are available in ServiceNow Store:
+
+-   Guided Decisions Experience \(sn\_ga\_exp\)
+-   Recommended Actions \(sn\_nb\_action\)
+-   Recommended Actions for Customer Service \(sn\_cs\_nb\_action\)
+-   Task Intelligence for Customer Service \(com.snc.csm\_ml\_task\)
+
+For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -451,5 +468,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

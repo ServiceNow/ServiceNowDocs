@@ -2,7 +2,7 @@
 title: Add a phase to a legal matter
 description: Add a phase to a matter to track specific tasks to complete the matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/add-phases-to-legal-matter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/add-phases-to-legal-matter.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -34,15 +34,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d670706e108">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d670710e108">
 
 Option
 
-</th><th align="left" id="d670706e111">
+</th><th align="left" id="d670710e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d670706e117">
+</th></tr></thead><tbody><tr><td id="d670710e117">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d670706e146">
+</td></tr><tr><td id="d670710e146">
 
 **As a collaborator**
 
@@ -80,7 +80,7 @@ A phase is added to the matter.
 
 ## What to do next
 
-[Add tasks in the phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md) to manage activities in the matter. If the task has to be done by a different user, assign it to them.
+[Add tasks in the phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md) to manage activities in the matter. If the task has to be done by a different user, assign it to them.
 
 **Parent Topic:**[Work on a legal matter]()
 

@@ -2,7 +2,7 @@
 title: Design considerations for mobile apps
 description: Use mobile design and product principles to give your users the best mobile experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-design-consideration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-design-consideration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

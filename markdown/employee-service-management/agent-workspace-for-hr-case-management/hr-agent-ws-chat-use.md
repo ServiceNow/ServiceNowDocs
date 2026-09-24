@@ -2,7 +2,7 @@
 title: Working from the agent inbox in Agent Workspace for HR Case Management
 description: Use the agent inbox to manage your incoming work, such as chats, HR cases, and interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-chat-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-chat-use.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

@@ -2,7 +2,7 @@
 title: Redact sensitive data from a document in Information Request Playbook
 description: As a legal reviewer, you can redact sensitive data from PDF documents by either searching keywords or selecting text in Information Request Playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbooks-doc-redaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-ir-playbooks-doc-redaction.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

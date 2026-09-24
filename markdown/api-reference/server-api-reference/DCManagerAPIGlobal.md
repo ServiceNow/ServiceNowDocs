@@ -2,7 +2,7 @@
 title: DCManager - Global
 description: The DCManager API enables you to group data by type.Assigns pre-defined or user-defined data classifications to existing dictionary entries.Removes all data classifications for the specified dictionary entries.Returns a list of all data classifications available in the current domain.Retrieves all data classifications for the specified dictionary entries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DCManagerAPIGlobal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/DCManagerAPIGlobal.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -27,7 +27,7 @@ This API requires the Data Classification \[com.glide.data\_classification\] plu
 
 For more information, see [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## DCManager - classify\(String dictEntries, String dataClasses\)
 

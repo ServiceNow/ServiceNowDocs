@@ -2,7 +2,7 @@
 title: View a repair claim case
 description: View the repair claim cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-view-repair-cc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-view-repair-cc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Get and update change request details in Azure DevOps pipeline
 description: Get and update the change request details associated with an Azure DevOps pipeline.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/update-change-request-details-in-an-azure-devops-pipeline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/update-change-request-details-in-an-azure-devops-pipeline.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -22,7 +22,7 @@ Ensure that you meet the following prerequisites before you perform this procedu
 
 -   Connect, configure the Azure DevOps tool and discover existing repositories, orchestration tasks, and pipelines.
 -   Install the following custom extension tasks on your Azure DevOps instance.
-    -   ServiceNow extension to integrate Azure Pipelines with DevOps Change Velocity. For more information, see [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
+    -   ServiceNow extension to integrate Azure Pipelines with DevOps Change Velocity. For more information, see [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
 
 Role required:
 
@@ -118,5 +118,5 @@ Update function
 </table>5.  Save the changes.
 
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

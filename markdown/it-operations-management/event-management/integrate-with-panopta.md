@@ -2,7 +2,7 @@
 title: Integrate Panopta as a data source
 description: Integrate the Panopta cloud-based monitoring solution with Event Management. To add Panopta as a data source, configuration is required in Panopta.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/integrate-with-panopta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/integrate-with-panopta.html
 release: australia
 product: Event Management
 classification: event-management
@@ -24,12 +24,12 @@ When the Event Management integration is configured in Panopta, add the integrat
 
 ## Optional Event Management configuration
 
-Configure an alert action rule for launch in context of Panopta. For more information, see [Launch web application from alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMLaunchAnApplication.md) and [Create or edit an alert action rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
+Configure an alert action rule for launch in context of Panopta. For more information, see [Launch web application from alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMLaunchAnApplication.md) and [Create or edit an alert action rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMCreateAlertRule.md).
 
-**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-listener-transform-script.md)
 
 **Related topics**  
 
 
-[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connectors-and-listeners.md)
+[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/connectors-and-listeners.md)
 

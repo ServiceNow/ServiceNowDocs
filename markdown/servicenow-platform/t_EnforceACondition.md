@@ -2,7 +2,7 @@
 title: Enforce a condition to delete an assessable record
 description: By default, the system does not delete assessable records, even if you change the table or conditions for the type and the existing assessable records no longer match.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_EnforceACondition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_EnforceACondition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,10 +33,10 @@ The system can be configured so you can trigger the deletion of assessable recor
     The system does not automatically delete assessable records, even if the **Enforce condition** check box is selected. You must click **Generate Assessable Records** with the check box selected every time you want the system to delete non-matching assessable records.
 
 
-**Parent Topic:**[Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_assessable-records.md)
+**Parent Topic:**[Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_assessable-records.md)
 
 **Related topics**  
 
 
-[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 

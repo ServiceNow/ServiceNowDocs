@@ -2,7 +2,7 @@
 title: CPQ and Salesforce managed packages
 description: Learn about the CPQ Extension Package and the CPQ Extension for Salesforce CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io-salesforce\_managed\_packages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/logik\_io-salesforce\_managed\_packages.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,10 +20,10 @@ CPQ offers two managed packages for Salesforce\(SFDC\) orgs: the CPQ Extension P
 
 This is the base package for CPQ interacting with Salesforce. This package allows the user to:
 
--   Enable any SFDC Product2 record to be a CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configurable-products-explore.md).
+-   Enable any SFDC Product2 record to be a CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configurable-products-explore.md).
 -   Launch the CPQ Admin from in Salesforce by navigating to the Salesforce Products tab, select the list view of 'CPQ View', find a CPQ enabled product, and click the corresponding Click Here link located in the View CPQ Setup column or through the Product2 record itself by clicking the link in the **View ServiceNow CPQ.io Setup** section on the product's page.
--   Support embedding the CPQ UI in Salesforce applications outside of CPQ using Visualforce. See [Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
--   Call CPQ admin APIs using Salesforce Tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md).
+-   Support embedding the CPQ UI in Salesforce applications outside of CPQ using Visualforce. See [Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
+-   Call CPQ admin APIs using Salesforce Tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/admin-apis-authentication-via-salesforce-connected-app.md).
 
 Notable components of this package include:
 
@@ -66,7 +66,7 @@ Notable components of this package include:
         For more information on these objects and the user capabilities they add review the following video: [Delta BOM Feature.mp4](https://drive.google.com/file/d/10Uffs0C7aFWPqkLYRILqZcwgIq2-uxsp/view?usp=sharing)
 
 -   Custom Salesforce REST endpoint that creates a quote and quote lines based on a previously saved configuration, without going through Salesforce CPQ's UI. For more information, review this video: [Request for quote for Omnichannel using APIs.mp4](https://drive.google.com/file/d/1yaPTCzjU12lNLbznqlQ7CxmQskX_YOQ8/view?usp=sharing)
--   [Flightpath](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-flightpath.md): allows the administrator to understand how the rules engine responds to end-user inputs by presenting a visual interaction between inputs and triggered rule actions.
+-   [Flightpath](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-flightpath.md): allows the administrator to understand how the rules engine responds to end-user inputs by presenting a visual interaction between inputs and triggered rule actions.
 -   Configuration Line Item to quote line flow: flow template to populate quote line fields from Configuration Line Item object.
 
     \[Omitted image "cpq-managed-packages-flow-template.png"\] Alt text: Workflow

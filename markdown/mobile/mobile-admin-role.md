@@ -2,7 +2,7 @@
 title: Mobile admin role
 description: Administrators can assign roles that grant specific permissions, which govern what users and groups with that role can do within the ServiceNow Mobile Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-admin-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-admin-role.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

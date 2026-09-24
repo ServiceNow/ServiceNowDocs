@@ -2,7 +2,7 @@
 title: Empty state display
 description: Use an empty state to indicate to your users that the displayed page does not contain data. You can add an image, text, and buttons to direct users to perform an action, view a particular screen, or review specific information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/empty-state-handling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/empty-state-handling.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

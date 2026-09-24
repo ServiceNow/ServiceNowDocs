@@ -2,7 +2,7 @@
 title: Use Predictive Intelligence in Workflow Studio with ML actions
 description: Use Predictive Intelligence actions in Workflow Studio to create flows that incorporate your model predictions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/use-predictive-intelligence-flow-designer-ml-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/use-predictive-intelligence-flow-designer-ml-actions.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence

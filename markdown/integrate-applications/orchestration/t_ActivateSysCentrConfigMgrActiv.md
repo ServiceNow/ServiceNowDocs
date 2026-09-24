@@ -2,7 +2,7 @@
 title: Request SCCM activities
 description: The Orchestration - System Center Configuration Manager plugin installs the SCCM activity pack that deploys software from an SCCM host and manages user and device collections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_ActivateSysCentrConfigMgrActiv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/t\_ActivateSysCentrConfigMgrActiv.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -76,5 +76,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_SCCMActivityPack.md)
+**Parent Topic:**[SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_SCCMActivityPack.md)
 

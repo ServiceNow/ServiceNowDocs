@@ -2,7 +2,7 @@
 title: Set target budget for a fiscal year
 description: When planning for a portfolio or all portfolios, start by selecting the fiscal period for the demands and projects that you want to work with. You then set the target amounts for both operating and capital expenses of portfolios when Scenario Planning is not integrated with Investment Funding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/select-fiscal-period-set-target.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-management/select-fiscal-period-set-target.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -28,9 +28,9 @@ Internal groups typically provide the target amount for a fiscal year. The targe
 
 If Scenario Planning is integrated with Investment Funding, the target amount is retrieved from the top investment fund allocated for a single portfolio or all portfolios.
 
-For information on how to configure the investment funding settings for a single portfolio or all portfolios, see [Configure the scenario planning type and scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/configure-scenario-planning.md).
+For information on how to configure the investment funding settings for a single portfolio or all portfolios, see [Configure the scenario planning type and scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/configure-scenario-planning.md).
 
-For information on creating a top level investment and allocating funds, see the [Create a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/create-top-level-investment.md) topic.
+For information on creating a top level investment and allocating funds, see the [Create a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/investment-funding/create-top-level-investment.md) topic.
 
 ## Procedure
 
@@ -85,7 +85,7 @@ The portfolio capital and operational expense target for different fiscal years 
 
 ## What to do next
 
-Start creating scenarios for portfolio planning. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/create-scenarios.md).
+Start creating scenarios for portfolio planning. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/create-scenarios.md).
 
-**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/portfolio-planning-overview.md)
 

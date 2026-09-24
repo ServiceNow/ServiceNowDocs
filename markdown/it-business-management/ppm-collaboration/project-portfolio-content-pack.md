@@ -2,7 +2,7 @@
 title: Project Portfolio Management Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/project-portfolio-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/project-portfolio-content-pack.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -44,12 +44,12 @@ In some solutions, System Administrator is the **Run As** user for data collecti
 
 This solution replaces the Project Portfolio Suite \(com.snc.pa.ppm\) Solution. If you activated an earlier version of the solution and then upgraded your instance, you still have and can still use the earlier solution. You can also activate the newer version without losing data from existing indicators and breakdowns. If you activate the newer version, run a historical data collection job to populate new indicators and breakdowns for the Time Sheet dashboard.
 
--   **[PMO dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/pmo-dashboard.md)**  
+-   **[PMO dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/pmo-dashboard.md)**  
 The PMO dashboard provides comprehensive reports to the portfolio and program managers. The dashboard uses Platform Analytics to provide a trend of historical data as well as regular reports. It gives an overview of your investments, provides a pipeline view of upcoming intake and a calendar view of upcoming dates.
--   **[Analytics Time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/time-sheet-dashboard.md)**  
+-   **[Analytics Time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/time-sheet-dashboard.md)**  
 The Analytics Time sheet provides comprehensive time sheet activities and reports to the time card approvers and time card users. The dashboard uses Performance Analytics to provide a trend of historical data and regular reports. It gives an overview of the time sheet activities of resources, time sheet approval and rejection rate, over-allocated and under-allocated resource counts.
 
-**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 
 **Related topics**  
 

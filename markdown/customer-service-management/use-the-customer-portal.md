@@ -2,7 +2,7 @@
 title: Using the Customer Service Portal
 description: Search for information about a question or an issue, or request assistance from a customer service agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-the-customer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-the-customer-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Your Customer Service Management Service Portal activity usually begins on the h
 
 **Note:** If any active outages exist for your install base, they are displayed on the homepage.
 
-**Note:** A new customer service portal experience is available on the business portal. For details, see [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-business-portal.md).
+**Note:** A new customer service portal experience is available on the business portal. For details, see [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-the-business-portal.md).
 
 From the Customer Service Portal homepage, you can access and use the following features:
 
@@ -200,7 +200,7 @@ View a list of featured community content.
 **Related topics**  
 
 
-[Customer contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_PortalSelfRegistration.md)
+[Customer contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_PortalSelfRegistration.md)
 
-[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_LogInToPortalFirstTime.md)
+[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_LogInToPortalFirstTime.md)
 

@@ -2,7 +2,7 @@
 title: Update data mapping in a data fabric table
 description: Update the data mapping between a source table and a data fabric table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/update-data-fabric-table-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/update-data-fabric-table-zcc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,7 +56,7 @@ A data steward might need to update the field mapping for a data fabric table in
         For details on creating a record ACL rule, see [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
 
     -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectTheDisplayValue.md).
-<table id="choicetable_mqw_2tf_w2c"><tbody><tr><td id="d671924e197">
+<table id="choicetable_mqw_2tf_w2c"><tbody><tr><td id="d670846e197">
 
 **Add a reference**
 
@@ -69,7 +69,7 @@ A data steward might need to update the field mapping for a data fabric table in
 5.  Select **Set reference**.
 
 
-</td></tr><tr><td id="d671924e233">
+</td></tr><tr><td id="d670846e233">
 
 **Remove a reference**
 
@@ -85,5 +85,5 @@ In the Type column, change the column type from **Reference** back to the data t
 7.  Select **Finish**.
 
 
-**Parent Topic:**[Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md)
+**Parent Topic:**[Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md)
 

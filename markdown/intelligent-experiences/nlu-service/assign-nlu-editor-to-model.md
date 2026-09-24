@@ -2,7 +2,7 @@
 title: Assign an NLU editor to a model
 description: Assign an editor to review your Natural Language Understanding \(NLU\) model translations and edit model content. Delegate the maintenance, testing, and optimization of model content to an editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/assign-nlu-editor-to-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/assign-nlu-editor-to-model.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -18,7 +18,7 @@ Assign an editor to review your Natural Language Understanding \(NLU\) model tra
 
 ## Before you begin
 
--   Create a model, or use an existing one. For translation review, create both primary and secondary \(translated\) models. For more information on multilingual model groups, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
+-   Create a model, or use an existing one. For translation review, create both primary and secondary \(translated\) models. For more information on multilingual model groups, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/multilingual-model-managent.md).
 -   Assign the nlu\_editor role to users. See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
 -   Role required: nlu\_admin. The nlu\_editor can't assign another editor to models.
 
@@ -29,20 +29,20 @@ The nlu\_admin can delegate model content work to an nlu\_editor. Assign languag
 The nlu\_editor can do the following, when assigned to a model:
 
 -   Train and test the model.
--   [Export an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/export-nlu-model.md) as CSV.
+-   [Export an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/export-nlu-model.md) as CSV.
 -   When a model or intent is in the **Needs review** state, the editor can mark it as **Reviewed**.
 -   Modify the model's confidence threshold.
 -   Edit the model name and description in **Settings**.
 -   Review, edit, and approve translated utterances.
 -   Add, edit, and delete training utterances.
--   Annotate training utterances \(add references to [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/using-nlu-vocabulary.md) and [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/entities.md)\).
+-   Annotate training utterances \(add references to [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/using-nlu-vocabulary.md) and [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/entities.md)\).
 -   Update entity properties \(except the entity name in a secondary model\).
 -   Add, edit, or delete the model's vocabulary.
 -   View the **Vocabulary sources** module \(read only\).
--   Add, activate, and de-activate [NLU intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/intents.md) in primary and secondary models.
--   Resolve conflicting intents; also access the [Cross-model Conflict Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-intent-conflict-review-resolution.md) module.
--   View the [Irrelevance detection in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/irrelevance-detection-nlu.md) module.
--   Add, edit, or delete a test utterance in a test set; also access the [Multi-model Batch Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/batch-testing-nlu.md) module.
+-   Add, activate, and de-activate [NLU intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/intents.md) in primary and secondary models.
+-   Resolve conflicting intents; also access the [Cross-model Conflict Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-intent-conflict-review-resolution.md) module.
+-   View the [Irrelevance detection in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/irrelevance-detection-nlu.md) module.
+-   Add, edit, or delete a test utterance in a test set; also access the [Multi-model Batch Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/batch-testing-nlu.md) module.
 
 **Note:** The editor must be assigned to a model and in the model's application scope to take these actions, unless otherwise indicated.
 
@@ -54,7 +54,7 @@ The nlu\_editor can't do the following:
 -   Import primary model content to a secondary \(translated\) model.
 -   Sync or edit vocabulary sources.
 -   View model performance.
--   Provide feedback in [NLU Expert Feedback Loop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md).
+-   Provide feedback in [NLU Expert Feedback Loop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md).
 -   Manage other editors, such as assigning an editor to a model or removing an editor from a model.
 
 \[Omitted image "assign-editor1U.png"\] Alt text: In the Build and train your model phase, the Intents need review card is highlighted. In the list of the model's intents, three intents are marked as Needs review.

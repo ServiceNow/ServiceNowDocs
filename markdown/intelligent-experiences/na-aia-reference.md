@@ -2,7 +2,7 @@
 title: ServiceNow Otto AI agents reference
 description: Find more information about user roles, tables, and the different properties that are installed in ServiceNow Otto AI agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-aia-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/na-aia-reference.html
 release: australia
 topic_type: reference
 last_updated: "2025-10-27"

@@ -2,7 +2,7 @@
 title: Export a report to PDF
 description: Export a report to PDF to use it outside of your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/export-report-pdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/export-report-pdf.html
 release: australia
 product: Reporting
 classification: reporting
@@ -44,7 +44,7 @@ File type
 
 </td><td>
 
-Export data visualizations in one of their supported formats. \(See [Supported export formats for different data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-visualization-vd.md).\) Select **Embedded PNG** or **Embedded LIST** to embed the exported file in the email body instead of sending it as an attached file or ZIP. You can edit the email around the image.
+Export data visualizations in one of their supported formats. \(See [Supported export formats for different data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).\) Select **Embedded PNG** or **Embedded LIST** to embed the exported file in the email body instead of sending it as an attached file or ZIP. You can edit the email around the image.
 
 </td></tr><tr><td>
 
@@ -75,5 +75,5 @@ Choose Portrait or Landscape. Not available when exporting to Microsoft PowerPoi
 
 When the export is complete, you see either a download link or a message that the export will be delivered to the recipient.
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)
 

@@ -2,7 +2,7 @@
 title: Explore AI agents for Health and Safety
 description: AI agents help to improve live agent productivity by using AI agents to perform tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-exploring.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety

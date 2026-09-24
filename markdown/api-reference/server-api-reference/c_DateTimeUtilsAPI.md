@@ -2,7 +2,7 @@
 title: DateTimeUtils - Global
 description: The DateTimeUtils script include is a collection of date/time functions.Converts Microsoft AD integer8 DateTime format into GlideDateTime format.Convert milliseconds to a GlideDateTime object
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_DateTimeUtilsAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_DateTimeUtilsAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The DateTimeUtils script include is a collection of date/time functions.
 
 You can use this script include in any server-side script, and is available through GlideAjax.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## DateTimeUtils - int8ToGlideDateTime\(Number int64\)
 

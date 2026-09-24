@@ -2,7 +2,7 @@
 title: Create an OT Discovery schedule and run the Discovery process
 description: Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/run-discovery-for-operational-technology.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/run-discovery-for-operational-technology.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ Define Operational Technology \(OT\) Discovery schedules that orchestrate how an
 Do the following actions before you run IT Discovery for OT Networks:
 
 -   Install and configure the standard Discovery application. To learn more, see [Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-setup.md).
--   Install the CMDB CI Class Models plugin. To learn more, see [Operational Technology \(OT\) extension classes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/install-operation-technology-ot-extension-classes.md).
+-   Install the CMDB CI Class Models plugin. To learn more, see [Operational Technology \(OT\) extension classes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/install-operation-technology-ot-extension-classes.md).
 -   Install the Mid Server. To learn more, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md).
 
 Role required: ot\_discovery\_admin
@@ -115,5 +115,5 @@ Purdue level that you want the OT discovery schedule to run in or select **--Non
 
 When the IT Discovery for OT Networks process runs, it creates a history record in the Discovery Status related list.
 
-**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/discovery-for-operational-technology.md)
+**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/discovery-for-operational-technology.md)
 

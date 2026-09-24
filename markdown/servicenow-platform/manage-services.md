@@ -2,7 +2,7 @@
 title: Manage service capabilities
 description: Give your customers tailored catalogs for products, and create portals for service requests, using the ServiceNow Service Catalog app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/manage-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/manage-services.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,15 +16,15 @@ Give your customers tailored catalogs for products, and create portals for servi
 
 <table id="table_oyp_mhr_r5b" class="nav-card"><tbody><tr><td>
 
-[Self-service \[Omitted image "bus-person.svg"\] Alt text: Design an efficient front-end for your organization's IT support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/r_EmployeeSelfService.md)
+[Self-service \[Omitted image "bus-person.svg"\] Alt text: Design an efficient front-end for your organization's IT support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/self-service/r_EmployeeSelfService.md)
 
 </td><td>
 
-[Service administration \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Control settings in all the support services for your business apps on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceAdministration.md)
+[Service administration \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Control settings in all the support services for your business apps on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_ServiceAdministration.md)
 
 </td><td>
 
-[Service Catalog\[Omitted image "bus-service-catalog.svg"\] Alt text:Create and manage catalogs to give your customers self-service options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)
+[Service Catalog\[Omitted image "bus-service-catalog.svg"\] Alt text:Create and manage catalogs to give your customers self-service options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog.md)
 
 </td></tr></tbody>
 </table>## Self-service

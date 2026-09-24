@@ -2,7 +2,7 @@
 title: Administer table and field descriptions
 description: Users with the report\_description\_admin role can add and edit table and field descriptions that users see when they create reports.Users with the admin role can enable the report\_description\_admin role. Users with this role can add and edit table and field descriptions.Users with the report\_description\_admin role can add and edit table and field descriptions that users see when they create reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/admin-table-field-descriptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/admin-table-field-descriptions.html
 release: australia
 product: Reporting
 classification: reporting
@@ -22,7 +22,7 @@ In the Report Designer, the user sees the table descriptions on the **Data** tab
 
 \[Omitted image "field-hint-in-report-designer.png"\] Alt text: Group by field in Configure tab showing field description.
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## Enable the report description admin role
 

@@ -2,7 +2,7 @@
 title: Quick start tests for multicurrency in Next Experience for Demand Management
 description: Quick tests enable you to validate that the multicurrency feature in Next Experience for Demand Management works correctly after configuration changes such as applying an upgrade or developing an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/quick-start-tests-for-multicurrency-in-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/quick-start-tests-for-multicurrency-in-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

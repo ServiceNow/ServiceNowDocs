@@ -2,7 +2,7 @@
 title: Set up work order synchronization in Care Team Operations for Facilities
 description: The Field Service Management \[com.snc.work\_management\] plugin is required for work order synchronization to function with Care Team Operations for Facilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-fsm-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-facilities-fsm-plugin.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

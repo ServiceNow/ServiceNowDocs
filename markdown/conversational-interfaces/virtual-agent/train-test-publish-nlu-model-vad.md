@@ -2,7 +2,7 @@
 title: Train and test your NLU model in Assistant Designer Asset library
 description: Use the NLU Intent tab to train and try a Natural Language Understanding \(NLU\) model that is mapped to a topic without leaving Assistant Designer Asset library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -61,5 +61,5 @@ You can publish the model at the same time as the Virtual Agent topic if the mod
 
 For more information on providing feedback using thumbs icons in the results, see [Test panel feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-model-panel-feedback.md).
 
-**Parent Topic:**[Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md)
+**Parent Topic:**[Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-designer-testing.md)
 

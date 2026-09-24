@@ -2,10 +2,10 @@
 title: Inbound Request
 description: Track the status of Sales CRM workflows and enable agents to track the status of any synchronous and asynchronous flows. It also supports processing dependent records sequentially to make sure that the data stays accurate and consistent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som\_request\_tracker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som\_request\_tracker.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Sales and Service API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -352,5 +352,5 @@ Archive the records in the Inbound Request table and determine when to clean up 
 **Related topics**  
 
 
-[Inbound Request Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inbound-request-configuration-table.md)
+[Inbound Request Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/inbound-request-configuration-table.md)
 

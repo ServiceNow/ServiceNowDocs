@@ -2,7 +2,7 @@
 title: Turn on the flow summarization skill
 description: Turn on the flow summarization skill to generate a summary of what a flow or subflow does.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-the-flow-summarization-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/turn-on-the-flow-summarization-skill.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -40,5 +40,5 @@ Turn on the flow summarization skill to generate a summary of what a flow or sub
     \[Omitted image "na-creator-flow-skills-active.png"\] Alt text: Flow summarization skill listed as active skill
 
 
-**Parent Topic:**[Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-summarization-landing.md)
+**Parent Topic:**[Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-summarization-landing.md)
 

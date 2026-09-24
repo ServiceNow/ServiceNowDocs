@@ -2,7 +2,7 @@
 title: Configure the script field for records screens
 description: Configure script screen fields to display calculated or personalized content in your mobile forms, without modifying the underlying database values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/record-screen-script-type-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/record-screen-script-type-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Configure script screen fields to display calculated or personalized content in 
 
 Role required: admin
 
-**Note:** For use cases and examples of how the script screen field is used, see [Dynamic variable support in record screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/record-screen-script-type.md).
+**Note:** For use cases and examples of how the script screen field is used, see [Dynamic variable support in record screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/record-screen-script-type.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ Type
 
 </td><td>
 
-Type of screen field. For a list of types and a description of how they're used, see [Screen fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-screen-field-enhancements.md).For this configuration, select **Script**.
+Type of screen field. For a list of types and a description of how they're used, see [Screen fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-screen-field-enhancements.md).For this configuration, select **Script**.
 
 </td></tr><tr><td>
 
@@ -99,10 +99,10 @@ Script that runs when the record screen is displayed. The script must return a J
 
 6.  Enter your script in the **Execution Script** area, including any dynamic variables.
 
-    **Note:** For configuration information, see [Dynamic variable support in record screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/record-screen-script-type.md).
+    **Note:** For configuration information, see [Dynamic variable support in record screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/record-screen-script-type.md).
 
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Add screen fields to a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-add-screen-field.md)
+**Parent Topic:**[Add screen fields to a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-add-screen-field.md)
 

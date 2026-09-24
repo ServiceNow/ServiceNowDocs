@@ -2,7 +2,7 @@
 title: Map states to playbook stages
 description: Map workflow states to playbook stages so that the issue state and guided activities remain synchronized as an issue moves through its lifecycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/map-states-to-playbook-stages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/map-states-to-playbook-stages.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,7 +18,7 @@ Map workflow states to playbook stages so that the issue state and guided activi
 
 ## Before you begin
 
-The workflow's state model and playbook must already be selected on the Workflow components step. See [Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md). The playbook must contain the stages that you want to map.
+The workflow's state model and playbook must already be selected on the Workflow components step. See [Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md). The playbook must contain the stages that you want to map.
 
 Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
@@ -49,7 +49,7 @@ The selected playbook stages appear in the **Playbook stage** column. The state-
 
 ## What to do next
 
-Set the trigger condition and priority for the workflow. See [Set the trigger condition and priority for a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-the-trigger-condition-and-priority-for-a-workflow.md).
+Set the trigger condition and priority for the workflow. See [Set the trigger condition and priority for a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/set-the-trigger-condition-and-priority-for-a-workflow.md).
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

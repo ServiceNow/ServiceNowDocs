@@ -2,7 +2,7 @@
 title: Change metrics collection frequency
 description: Change how often the DEX metrics are collected for specific criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/change-metrics-collection-frequency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/change-metrics-collection-frequency.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

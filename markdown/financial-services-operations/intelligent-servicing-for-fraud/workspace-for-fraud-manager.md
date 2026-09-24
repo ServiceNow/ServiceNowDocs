@@ -2,7 +2,7 @@
 title: Workspace for fraud manager
 description: Managers can use Intelligent Servicing for Fraud workspace to view the cases and tasks, approve or reject records sent to them for review, and track their related activities. Also, you can view the performance analytics dashboard and process optimization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/workspace-for-fraud-manager.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/intelligent-servicing-for-fraud/workspace-for-fraud-manager.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud

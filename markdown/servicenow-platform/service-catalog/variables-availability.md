@@ -2,7 +2,7 @@
 title: Variable support in various channels
 description: Service Catalog variables are supported in various channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/variables-availability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/variables-availability.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -50,7 +50,7 @@ Service Catalog variables are supported in various channels.
 |Wide Single Line Text|Yes|Yes|Yes|Yes|Yes|Yes|
 |Yes / No|Yes|Yes|Yes|Yes|Yes|Yes|
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -65,7 +65,7 @@ Service Catalog variables are supported in various channels.
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

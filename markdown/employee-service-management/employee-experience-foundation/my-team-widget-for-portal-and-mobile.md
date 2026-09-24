@@ -2,7 +2,7 @@
 title: Employee profile for Now Mobile
 description: Employee profile on Now Mobile provides customizable and compact information about employees and their organizational hierarchy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/my-team-widget-for-portal-and-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/my-team-widget-for-portal-and-mobile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -40,10 +40,10 @@ You can also search for employees by typing their name in the search bar provide
 
 You can avoid this redirection by upgrading to the new Now Mobile profile page.
 
-For more information on configuring Employee profile, see [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md).
+For more information on configuring Employee profile, see [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md).
 
--   **[Upgrade search redirection to the new Now Mobile profile page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/upgrade-to-new-now-mobile-ui.md)**  
+-   **[Upgrade search redirection to the new Now Mobile profile page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/upgrade-to-new-now-mobile-ui.md)**  
 Upgrade to the new Now Mobile profile page for an enhanced user-navigational experience.
 
-**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
+**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
 

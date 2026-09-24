@@ -2,7 +2,7 @@
 title: Staffing and Roles Review – Total
 description: Guidance on effective role alignment
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/staffing-and-roles-review-total.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/staffing-and-roles-review-total.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

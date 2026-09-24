@@ -2,7 +2,7 @@
 title: Configuring App Engine ERP Rapid Deployment Packs
 description: Installing App Engine ERP Rapid Deployment Packs from the ServiceNow Store makes them available to use on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-configure.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-13"
@@ -21,5 +21,5 @@ For detailed steps, see [Install a ServiceNow Store application](https://raw.git
 
 For more information, see [https://store.servicenow.com/store](https://store.servicenow.com/store).
 
-**Parent Topic:**[App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-overview.md)
+**Parent Topic:**[App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-overview.md)
 

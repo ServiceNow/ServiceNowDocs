@@ -2,7 +2,7 @@
 title: Hardware Asset Workspace roles
 description: Details of the out-of-the-box roles that can access Hardware Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/ham-workspace-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/ham-workspace-roles.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -132,5 +132,5 @@ sam
 Access to Software Asset Management features included with Asset Management. Different roles such as sam\_admin, sam\_user, and sam\_developer are required to use the Software Asset Management application.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

@@ -2,7 +2,7 @@
 title: Create a field map
 description: Field maps establish a relationship between a field in an import set table and a field in the target table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_CreatingAFieldMap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/t\_CreatingAFieldMap.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -165,5 +165,5 @@ Check box to make case-sensitive coalesce values result in the creation of new r
 7.  Click **Update**.
 
 
-**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

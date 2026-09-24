@@ -2,7 +2,7 @@
 title: Create a metric
 description: Create a metric to perform calculations on your data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-metric.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-metric.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -296,7 +296,7 @@ Name of the user as the data owner.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Approval**Note:** This section appears only when the Metric approval property is set to Simple. For more information see, [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
+Approval**Note:** This section appears only when the Metric approval property is set to Simple. For more information see, [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/components-installed-with-esg.md).
 
 </td></tr><tr><td>
 
@@ -392,5 +392,5 @@ Groups that can view the record.
 
 The metric is saved in the Metrics list.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-grc-metrics.md)
 

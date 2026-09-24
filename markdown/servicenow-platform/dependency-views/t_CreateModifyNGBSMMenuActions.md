@@ -2,7 +2,7 @@
 title: Create or modify Dependency Views menu actions
 description: To modify an existing menu option, first you create a copy of the original menu action record, and then you modify the copy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMenuActions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMenuActions.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -113,7 +113,7 @@ Menu action type being created, either a menu option or a menu separator. The me
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Manage resource allocations in Resource Management Workspace
 description: Manage resource allocations to change efforts, start and end dates, extend and so on to adjust resources based on their availability and the priority of the tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/manage-resource-allocations-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/manage-resource-allocations-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -86,5 +86,5 @@ Using this window, you can directly change the dates, effort value, and status t
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md)
 

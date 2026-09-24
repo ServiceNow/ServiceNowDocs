@@ -2,7 +2,7 @@
 title: Exploring Zero Copy Connector for ERP content packs
 description: Use Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs to view examples and create an ERP model faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/exploring-erp-content-packs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/exploring-erp-content-packs.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

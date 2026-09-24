@@ -2,7 +2,7 @@
 title: Configure the demand AI skills
 description: Configure the generative AI skills for demands by defining their triggers, display locations, and access settings to make it available to users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/configure-demand-summarization-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/configure-demand-summarization-skill.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -36,7 +36,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 5.  Review the input fields for the skill.
 
-    For more information, see [Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/skill-inputs-for-ai-skills.md).
+    For more information, see [Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/skill-inputs-for-ai-skills.md).
 
     A check mark next to each step indicates whether the step is completed, partially completed, or not completed. After configuring a step, select **Save and continue** to go to the next step. Return to a previous step by selecting **Back**.
 
@@ -67,7 +67,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 **Related topics**  
 
 
-[Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/summarize-demand-in-demand-workspace.md)
+[Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/summarize-demand-in-demand-workspace.md)
 
-[AI skills for Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/now-assist-skills-in-demand-workspace.md)
+[AI skills for Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/now-assist-skills-in-demand-workspace.md)
 

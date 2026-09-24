@@ -2,7 +2,7 @@
 title: Exploring MCP Server Console
 description: Learn about how you can use Model Context Protocol \(MCP\) servers to allow AI applications to access data and perform actions on a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-mcp-server-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/exploring-mcp-server-console.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-29"
@@ -61,9 +61,9 @@ The following infographic shows the workflow for AI administrators to get starte
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Integrate with any AI application and MCP client using a standard protocol.|[Create a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-mcp-server.md)|AI administrator|
-|Control which tools and fields are exposed to MCP clients.|[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md)|AI administrator|
-|Securely access functionality from a ServiceNow instance in any external employee experience.|[Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-client-connect-server.md)|AI administrator|
+|Integrate with any AI application and MCP client using a standard protocol.|[Create a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-mcp-server.md)|AI administrator|
+|Control which tools and fields are exposed to MCP clients.|[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/creating-tools-mcp-server.md)|AI administrator|
+|Securely access functionality from a ServiceNow instance in any external employee experience.|[Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-client-connect-server.md)|AI administrator|
 
 ## Quickstart Server in MCP Server Console
 
@@ -80,12 +80,12 @@ MCP Server Console includes a preconfigured Quickstart Server to help you get st
 
 To learn more about configuring and using MCP Server Console, see:
 
--   [Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
--   [Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-client-connect-server.md)
--   [MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
+-   [Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-mcp-server-console.md)
+-   [Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-client-connect-server.md)
+-   [MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-server-console-reference.md)
 
 **Related topics**  
 
 
-[Model Context Protocol Client Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-client.md)
+[Model Context Protocol Client Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-client.md)
 

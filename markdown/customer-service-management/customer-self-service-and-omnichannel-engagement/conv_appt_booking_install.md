@@ -2,7 +2,7 @@
 title: Install Conversational Appointment Booking
 description: Install the Conversational Appointment Booking application \(sn\_va\_appt\_schedul\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/conv\_appt\_booking\_install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/conv\_appt\_booking\_install.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -29,7 +29,7 @@ Conversational Appointment Booking requires the following plugins. Ensure that t
 -   **Required ServiceNow plugins**
     -   **Walk-Up for CSM \(com.snc.walkup\_for\_csm\)**
 
-        **Note:** Conversational Appointment Booking can be used without the Walk-Up for CSM plugin. However, custom control and Virtual Agent topic blocks shown in [Configure Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/conv-appt-booking-config.md) cannot be used without this plugin.
+        **Note:** Conversational Appointment Booking can be used without the Walk-Up for CSM plugin. However, custom control and Virtual Agent topic blocks shown in [Configure Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/conv-appt-booking-config.md) cannot be used without this plugin.
 
         The following items are installed with this plugin:
 

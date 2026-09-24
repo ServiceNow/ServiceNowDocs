@@ -2,7 +2,7 @@
 title: Indicators used in the CMDB success advisor for HAM dashboard
 description: Indicators enable viewing of high-level metrics that highlight data quality, completeness, and synchronization issues across hardware assets and configuration items \(CIs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

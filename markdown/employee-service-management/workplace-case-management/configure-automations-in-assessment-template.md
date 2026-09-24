@@ -2,7 +2,7 @@
 title: Configure Automations in Smart Assessment template
 description: Set up automations to trigger predefined actions whenever assessment templates are published. You can define action set types that determine how and when automated actions execute within the assessment workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/configure-automations-in-assessment-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/configure-automations-in-assessment-template.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -78,5 +78,5 @@ The automation is now active and will execute configured actions when the assess
 -   To edit automation, select the automation, and select \[Omitted image "wsd\_edit\_threedots.png"\] Alt text: and select**Edit details**.
 -   To delete automation, select the automation, and select \[Omitted image "wsd\_edit\_threedots.png"\] Alt text: and select **Delete automation**.
 
-**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
+**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
 

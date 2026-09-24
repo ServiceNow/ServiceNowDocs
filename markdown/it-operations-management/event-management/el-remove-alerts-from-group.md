@@ -2,7 +2,7 @@
 title: Remove alerts from an alert group in Express List
 description: Remove secondary alerts from an alert group directly from the Express List pane or from the preview panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-remove-alerts-from-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-remove-alerts-from-group.html
 release: australia
 product: Event Management
 classification: event-management
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     You can remove alerts from a group regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_p5t_wdl_5bc"><thead><tr><th align="left" id="d223549e104">
+<table id="choicetable_p5t_wdl_5bc"><thead><tr><th align="left" id="d223359e104">
 
 Location
 
-</th><th align="left" id="d223549e107">
+</th><th align="left" id="d223359e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d223549e113">
+</th></tr></thead><tbody><tr><td id="d223359e113">
 
 **The Express List pane**
 
@@ -52,7 +52,7 @@ Action
 
 **Note:** When you are trying to remove the only secondary alert from an alert group, thereby ungrouping the group, a message displays that enables you to undo the action.
 
-</td></tr><tr><td id="d223549e151">
+</td></tr><tr><td id="d223359e151">
 
 **The Express List preview panel for a group of alerts**
 

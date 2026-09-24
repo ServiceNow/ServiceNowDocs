@@ -2,7 +2,7 @@
 title: Use filters in the Conversation tab
 description: You can filter out conversation for a deeper understanding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/conversation-tab-filtering-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/conversation-tab-filtering-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,7 +25,7 @@ To filter the conversations, select filter icon and select **Advanced view** but
 
 The filter editor consists of the following:
 
--   Field: A list based on relevant tables. For more information about the field options, see [Field options in the Filter Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-tab-filtering-pae.md).
+-   Field: A list based on relevant tables. For more information about the field options, see [Field options in the Filter Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-tab-filtering-pae.md).
 -   Operator: A list of operators that is contextually generated based on the selected field.
 -   Value: A text entry field or a list that is contextually generated based on the selected field.
 
@@ -41,8 +41,8 @@ To save a condition that you created in the condition builder, select **Save fil
 |------|-----------|
 |Channel|Conversations that used the specified channel.|
 |Conversation Time|Conversations within the specified date and time.|
-|Duration|Conversations within the specified time duration. You can edit the definition of duration to be a session duration, rather than an active messaging duration. For more information, see [Create custom override definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-custom-definitions-pae.md).|
-|End State|Conversations with the specified state that is based on how conversations ended. The values for the end states are stored in the Interactions \[interactions\] table. For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).|
+|Duration|Conversations within the specified time duration. You can edit the definition of duration to be a session duration, rather than an active messaging duration. For more information, see [Create custom override definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-custom-definitions-pae.md).|
+|End State|Conversations with the specified state that is based on how conversations ended. The values for the end states are stored in the Interactions \[interactions\] table. For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-interactions.md).|
 |Events|Specific events that are triggered in a conversation.|
 |Feedback Result|Conversations for the specified feedback type.|
 |Language|Conversations for the specified language based on the user's language setting.|
@@ -56,5 +56,5 @@ To save a condition that you created in the condition builder, select **Save fil
 |Topics|Conversations that used the specified topics in the chat.|
 |Type|Conversations that are of the specified type such as live agent only or Virtual Agent only.|
 
-**Parent Topic:**[Conversations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-tab-pae.md)
+**Parent Topic:**[Conversations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-tab-pae.md)
 

@@ -2,7 +2,7 @@
 title: Import scope from an existing safety audit
 description: Import scope to copy the audit details, people involved, and objectives \(including criteria and items for review\) from an existing audit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-import-scope-existing-safety-audit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-import-scope-existing-safety-audit.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -53,5 +53,5 @@ The following information is copied from the selected audit to the current audit
 
 After importing, review all copied fields before saving. In particular, update the audit dates, locations, and assigned person as these values typically differ for the new audit period.
 
-**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
+**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
 

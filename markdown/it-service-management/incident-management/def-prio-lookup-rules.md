@@ -2,7 +2,7 @@
 title: Define priority lookup rules
 description: Define impact and urgency combinations that determine incident priority and the SLA for each priority for an organization. Only administrators and data lookup administrators can configure these rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/def-prio-lookup-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/def-prio-lookup-rules.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -62,5 +62,5 @@ Priority lookup rules are organizational configurations set by administrators. T
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-configuration.md)
 

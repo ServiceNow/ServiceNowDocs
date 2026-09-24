@@ -2,7 +2,7 @@
 title: Create an assignment data lookup rule
 description: Automatically assign a record using Data Lookup and Record Matching.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_DataLookupRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/t\_DataLookupRule.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -52,7 +52,7 @@ In this example, the Assignment Data Lookup rule automatically assigns any incid
 
 \[Omitted image "Assignment\_Data\_Lookup.png"\] Alt text: Assignment data lookup
 
-**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
+**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
 
 **Related topics**  
 

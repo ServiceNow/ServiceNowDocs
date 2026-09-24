@@ -2,7 +2,7 @@
 title: Activate Field Service Task Bundling
 description: Activate the Task Bundling plugin \(com.snc.fsm\_task\_bundle\) for Field Service Management if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/activate-work-order-task-bundling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/activate-work-order-task-bundling.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

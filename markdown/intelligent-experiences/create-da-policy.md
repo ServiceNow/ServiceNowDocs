@@ -2,7 +2,7 @@
 title: Create a desktop action policy
 description: Desktop action policies control which users are subject to resource access rules. Configure a policy to define the user criteria and link the rules that govern automated resource access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-da-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-da-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-08-21"
@@ -85,12 +85,12 @@ Description of the policy explaining the policy's purpose, affected resources, a
 
     You can either create rules for this policy or link existing rules. Rules can be linked to multiple policies, so you can reuse rules across different policies.
 
-    -   From the Resource Access Rules related list, select **New** to create a resource access rule. For more information, see [Create a desktop action access rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-da-access-rule.md).
-    -   To link an existing resource access rule, navigate to the Resource Access Rule record. On the Policy related list, select **Edit** to add the policies to link to this rule. For more information, see [the step for linking policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-da-access-rule.md).
+    -   From the Resource Access Rules related list, select **New** to create a resource access rule. For more information, see [Create a desktop action access rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-da-access-rule.md).
+    -   To link an existing resource access rule, navigate to the Resource Access Rule record. On the Policy related list, select **Edit** to add the policies to link to this rule. For more information, see [the step for linking policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-da-access-rule.md).
 6.  On the Desktop action policy form, select **Active**.
 
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Controlling what AI Desktop Actions can access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/security_policy_governance_concept.md)
+**Parent Topic:**[Controlling what AI Desktop Actions can access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/security_policy_governance_concept.md)
 

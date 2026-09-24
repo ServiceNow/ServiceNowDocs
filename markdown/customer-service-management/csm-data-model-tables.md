@@ -2,7 +2,7 @@
 title: Service Model Foundation tables and plugins
 description: Tables that are included with or modified by the plugins that enable the Service Model Foundation feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-model-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-data-model-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up y
 
 Tables that are included with or modified by the plugins that enable the Service Model Foundation feature.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 The Service Model Foundation feature adds new tables or modifies existing tables when you activate the following plugins:
 

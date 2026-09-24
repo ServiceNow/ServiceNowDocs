@@ -2,7 +2,7 @@
 title: Destroy Rules in TISC
 description: View the destroy rules that are provisioned in the base system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-destroy-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-destroy-rules.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

@@ -2,7 +2,7 @@
 title: Classify xNFs for Telecom Juniper MX SSH Router Pattern
 description: To access a full list of OIDs that will be classified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/classifying-xnfs-juniper-router-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/classifying-xnfs-juniper-router-pattern.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -32,7 +32,7 @@ Classifier name: **Standard Network Router**.
 
     **Note:**
 
-    For more information on how to add additional OIDs to the classifier, see [Direct Discovery using Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.md).
+    For more information on how to add additional OIDs to the classifier, see [Direct Discovery using Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.md).
 
     The List of Specific OIDs to call this Pattern:
 
@@ -124,5 +124,5 @@ Telecom Juniper MX SSH Router
     -   show chassis hardware \| no-more \| display xml
     -   show interface media \| no-more \| display xml
 
-**Parent Topic:**[Use Telecom Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/using-telecom-discovery-patterns.md)
+**Parent Topic:**[Use Telecom Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/using-telecom-discovery-patterns.md)
 

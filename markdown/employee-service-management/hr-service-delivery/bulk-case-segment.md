@@ -2,7 +2,7 @@
 title: Create a user segment group
 description: User segment groups allow you to specify values for a group of users, or with multiple segments specify different values for different groups of users. Segments allows you to ensure that your bulk case creation is correct before executing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/bulk-case-segment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/bulk-case-segment.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -78,7 +78,7 @@ Depending on the HR service selected when creating a bulk case request, addition
 -   Course start date
 -   Course end date
 -   Course cost
-For more information on what fields appear, see [Configure the HR case creation form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-case-creation-form-for-hr-service.md). The base system only provides additional fields for the Tuition Reimbursement Inquiry and Tuition Reimbursement Request HR services.
+For more information on what fields appear, see [Configure the HR case creation form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-case-creation-form-for-hr-service.md). The base system only provides additional fields for the Tuition Reimbursement Inquiry and Tuition Reimbursement Request HR services.
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Determines who to create the bulk HR case for:-   Upload file:
 
     The **Bulk Case Request** form returns with the user segment group you created. If your user group segment has many cases, the status for the segment is **Processing**.
 
-    **Note:** You can still review and edit your user segment group. For more information, see [Manage a user group segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/bulk-case-segment-manage.md).
+    **Note:** You can still review and edit your user segment group. For more information, see [Manage a user group segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/bulk-case-segment-manage.md).
 
 4.  When the status is **Processed**, the **Create cases** button appears at the top right and above the related list tabs.
 
@@ -130,5 +130,5 @@ Determines who to create the bulk HR case for:-   Upload file:
 6.  Select the **Cases created** tab to view a list of cases created.
 
 
-**Parent Topic:**[Creating bulk cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/bulk-case.md)
+**Parent Topic:**[Creating bulk cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/bulk-case.md)
 

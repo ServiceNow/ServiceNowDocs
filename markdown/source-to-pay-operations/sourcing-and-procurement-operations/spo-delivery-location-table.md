@@ -2,7 +2,7 @@
 title: Delivery Location \[sn\_shop\_delivery\_location\] table
 description: The Delivery Location \[sn\_shop\_delivery\_location\] table stores delivery address information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-delivery-location-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-delivery-location-table.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,7 +37,7 @@ This table contains the following fields.
 |Address verification|Choice|Indicates whether this delivery address is a real, shippable location. The options are Pending review, Valid address, or Invalid address.|
 |Address approval|Choice|Indicates whether this delivery address can be used for user purchases. The options are Company approved, Not approved, Pending Review, or One time approval.|
 
-**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Delete a saved Dependency Views map view
 description: Use the Saved Views module to delete a previously saved view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_DeleteSavedMapView.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_DeleteSavedMapView.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -29,7 +29,7 @@ Role required: sn\_cmdb\_admin or admin
 3.  Select **Delete** from the **Actions on selected rows** drop-down menu.
 
 
-**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 

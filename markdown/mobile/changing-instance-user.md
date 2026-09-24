@@ -2,7 +2,7 @@
 title: Changing accounts on your mobile device
 description: Use multiple  ServiceNow accounts on a single mobile device to quickly change to different accounts without the need to log out and log in. You can also automatically receive notifications from any of the accounts you're logged in to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/changing-instance-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/changing-instance-user.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

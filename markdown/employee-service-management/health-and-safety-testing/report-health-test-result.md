@@ -2,7 +2,7 @@
 title: Report your COVID-19 diagnostic test result
 description: If you would like to provide your company with an update on your health status, report your COVID-19 diagnostic test result.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-testing/report-health-test-result.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-testing/report-health-test-result.html
 release: australia
 product: Health and Safety Testing
 classification: health-and-safety-testing
@@ -41,5 +41,5 @@ You must have agreed to a user privacy consent in order to be able to report you
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/health-safety-testing.md)
+**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-testing/health-safety-testing.md)
 

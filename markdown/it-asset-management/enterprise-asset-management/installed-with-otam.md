@@ -2,7 +2,7 @@
 title: Installed with OT Asset Management
 description: The user role components, plugins, and applications are installed with activation of the com.sn\_otam plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/installed-with-otam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/installed-with-otam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -87,7 +87,7 @@ sn\_eam.asset\_technician
 |Risk Heat Map \(com.sn\_risk\_heatmap\)|Provides a heatmap component that enables you to visualize the risk posture of your organization.|
 |Geo Map Component \(com.sn\_geo\_map\)|Provides the capability to track the location of the assets using indoor maps.|
 
-**Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-asset-management.md)
+**Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/ot-asset-management.md)
 
 **Related topics**  
 

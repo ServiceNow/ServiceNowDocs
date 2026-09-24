@@ -2,7 +2,7 @@
 title: Build the Microsoft Word template using the add-in
 description: Build the Microsoft Word template using the add-in. The Word Templates module provides the Digital resilience incident \(DRI\) Word templates that are used to generate Microsoft Word reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/build-word-template-using-add-in.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/build-word-template-using-add-in.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -131,7 +131,7 @@ Option to update the generated Microsoft Word template report with fields from t
 
     \[Omitted image "document-designer-add-in-panel-tabs.png"\] Alt text: Document designer add-in panel tabs.
 
-    **Note:** The reporting items that appear in the panel are obtained from the records you created in the Reporting Configurations module. For information, see [Create reporting configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-reporting-configurations.md).
+    **Note:** The reporting items that appear in the panel are obtained from the records you created in the Reporting Configurations module. For information, see [Create reporting configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-reporting-configurations.md).
 
 5.  Select a reporting item and select **Add** to insert the item at the cursor position in the Word document.
 
@@ -147,5 +147,5 @@ Option to update the generated Microsoft Word template report with fields from t
 **Related topics**  
 
 
-[Generate a Microsoft Word report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-word-report.md)
+[Generate a Microsoft Word report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/generate-word-report.md)
 

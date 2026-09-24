@@ -2,7 +2,7 @@
 title: Activate the sitemap configuration and definition records for the Knowledge Portal
 description: Include knowledge articles in your sitemap by activating the sitemap configuration and definition records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-sitemap-generator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/config-sitemap-generator.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -49,5 +49,5 @@ Beginning with the Australia release, the Sitemap Generator configuration is ava
 
 All active sitemaps regenerate once in a day and include content from any of their active sitemap definitions.
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

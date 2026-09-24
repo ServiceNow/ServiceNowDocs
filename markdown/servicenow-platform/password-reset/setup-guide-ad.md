@@ -2,7 +2,7 @@
 title: Set up Microsoft Active Directory for Password Reset
 description: Enable connections to Active Directory \(AD\) by activating the Password Reset Windows App and Microsoft AD for Password Reset available in the ServiceNow Store.Request the Password Reset Windows App \(Password Reset Orchestration\) \(com.glideapp.password\_reset\_desktop\) plugin that enables connections to the Active Directory \(AD\) credential store types. No other components are installed.The Password Reset Windows Application enables a user, who forgets the password or is locked out of a Windows computer, to reset the password directly from the Windows login screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/setup-guide-ad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/setup-guide-ad.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -112,15 +112,15 @@ By default, when a user requests a reset, the instance sends the user a URL with
 ### Restrictions on the Password Reset Windows Application
 
 -   The Password Reset Windows Application does not support custom verifications.
--   The Password Reset Windows Application uses the base-system CAPTCHA service even if the Password Reset application is configured to use Google reCAPTCHA with the web interface. See the section titled "Settings on the Details tab" in [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md). .
--   The Password strength indicator is not supported. See [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateACredentialStore.md).
--   For some verification types, you can use only one verification. Custom verifications are not supported. See [Password Reset verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_PWRVerifications.md) for details.
+-   The Password Reset Windows Application uses the base-system CAPTCHA service even if the Password Reset application is configured to use Google reCAPTCHA with the web interface. See the section titled "Settings on the Details tab" in [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md). .
+-   The Password strength indicator is not supported. See [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateACredentialStore.md).
+-   For some verification types, you can use only one verification. Custom verifications are not supported. See [Password Reset verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/c_PWRVerifications.md) for details.
 -   Custom UI macros configured on the **Process** &gt; **Advanced** page are not supported \(for example, entry, success, or failure macros\). The system displays only the default success and failure messages.
--   The Password Reset Windows Application supports newline characters in the **Password rule hint** text. Other formatting is not supported \(bold, underline, hyperlink, and so on\). See [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateACredentialStore.md).
+-   The Password Reset Windows Application supports newline characters in the **Password rule hint** text. Other formatting is not supported \(bold, underline, hyperlink, and so on\). See [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateACredentialStore.md).
 
 ### Password Reset Windows Application installation requirements
 
-Activate the Password Reset Windows App \(Password Reset Orchestration\) \(com.glideapp.password\_reset\_desktop\) plugin and activate the Microsoft AD for Password Reset store app to use the Password Reset Windows Application. You must [activate the Password Reset Windows App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/setup-guide-ad.md) to use the Password Reset Windows Application.
+Activate the Password Reset Windows App \(Password Reset Orchestration\) \(com.glideapp.password\_reset\_desktop\) plugin and activate the Microsoft AD for Password Reset store app to use the Password Reset Windows Application. You must [activate the Password Reset Windows App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/setup-guide-ad.md) to use the Password Reset Windows Application.
 
 <table id="table_sjp_y3t_2r"><thead><tr><th>
 

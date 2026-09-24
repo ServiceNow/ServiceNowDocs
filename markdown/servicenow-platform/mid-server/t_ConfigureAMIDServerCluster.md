@@ -2,7 +2,7 @@
 title: Configure a MID Server cluster
 description: Group multiple MID Servers to form clusters, then configure clusters for fail-over protection or load balancing. Load-balancing clusters automatically balance work between each MID Server to improve stability and performance, as well as handle fail-over. Fail-over clusters have a configured order used to determine which MID Server to use next if a failure occurs.MID Server clusters enable multiple MID Servers with the appropriate capabilities to be grouped together for load balancing and fail-over protection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_ConfigureAMIDServerCluster.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/t\_ConfigureAMIDServerCluster.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -18,7 +18,7 @@ Group multiple MID Servers to form clusters, then configure clusters for fail-ov
 
 ## Before you begin
 
-Ensure that all MID Servers in the cluster have the same [capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) \(Supported Applications, IP Ranges, and Capabilities\). A MID Server should not belong to more than one cluster.
+Ensure that all MID Servers in the cluster have the same [capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ConfigureCapabilities.md) \(Supported Applications, IP Ranges, and Capabilities\). A MID Server should not belong to more than one cluster.
 
 Role required: admin
 
@@ -46,7 +46,7 @@ Create a new cluster or edit an existing cluster.
 6.  Select appropriate MID Servers for this cluster from the slushbucket.
 
 
-**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 
 ## MID Server clusters
 

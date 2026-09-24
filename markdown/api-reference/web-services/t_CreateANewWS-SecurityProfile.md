@@ -2,7 +2,7 @@
 title: Create a new WS-Security profile
 description: Create a new WS Security profile to define how to authenticate a web services message when WS-Security is enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_CreateANewWS-SecurityProfile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_CreateANewWS-SecurityProfile.html
 release: australia
 product: Web Services
 classification: web-services
@@ -44,14 +44,14 @@ Role required: web\_service\_admin or admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 
 **Related topics**  
 
 
-[SOAP web services security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+[SOAP web services security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 
-[WS-Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+[WS-Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 
-[WS-Security profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+[WS-Security profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 

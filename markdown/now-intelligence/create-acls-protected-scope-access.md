@@ -2,7 +2,7 @@
 title: Create ACLs for AI Data Explorer and Query Generation protected scope access
 description: Create Access Control Lists \(ACLs\) in protected scopes to enable AI Data Explorer and Query Generation to access tables within those scopes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-acls-protected-scope-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-acls-protected-scope-access.html
 release: australia
 topic_type: task
 last_updated: "2026-03-30"
@@ -84,9 +84,9 @@ AI Data Explorer and Query Generation can now access tables within the protected
 
 You must also create and approve Restricted Caller Access \(RCA\) records to enable Query Generation to fetch data from protected scope tables through API calls.
 
-**Parent Topic:**[Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-aide-secure-scope-apps.md)
+**Parent Topic:**[Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/enable-aide-secure-scope-apps.md)
 
-**Previous topic:**[Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-aide-secure-scope-apps.md)
+**Previous topic:**[Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/enable-aide-secure-scope-apps.md)
 
-**Next topic:**[Approve RCA records for AI Data Explorer and Query Generation protected scope access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-rca-records-protected-scope-access.md)
+**Next topic:**[Approve RCA records for AI Data Explorer and Query Generation protected scope access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-rca-records-protected-scope-access.md)
 

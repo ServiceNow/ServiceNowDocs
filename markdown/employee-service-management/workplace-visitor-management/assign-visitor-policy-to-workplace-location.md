@@ -2,7 +2,7 @@
 title: Assign visitor policy to a workplace location
 description: Add one or more workplace location to a visitor policy. Visitors who are registered to arrive at that locations will receive an email notification in prior to accept the policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/assign-visitor-policy-to-workplace-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/assign-visitor-policy-to-workplace-location.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -20,7 +20,7 @@ Add one or more workplace location to a visitor policy. Visitors who are registe
 
 **Warning:** This topic is only applicable for Workplace Visitor Management version 1.19 or earlier.
 
-In Workplace Visitor Management version 2.0.0 or later, you must create a visit requirement and attach the policy in the Acknowledgment tab. For more information, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
+In Workplace Visitor Management version 2.0.0 or later, you must create a visit requirement and attach the policy in the Acknowledgment tab. For more information, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
 
 Role required: sn\_wsd\_visitor.admin
 
@@ -48,12 +48,12 @@ You can also assign visitor policy by selecting the workplace location in **Buil
 
     3.  On the Location Policy form, fill in the fields.
 
-        For a description of the field values, see [Location Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/location-policy-form.md).
+        For a description of the field values, see [Location Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/location-policy-form.md).
 
 
 ## Result
 
 The visitor policy is assigned to the selected workplace location.
 
-**Parent Topic:**[Create a visitor policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/create-visitor-policy.md)
+**Parent Topic:**[Create a visitor policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/create-visitor-policy.md)
 

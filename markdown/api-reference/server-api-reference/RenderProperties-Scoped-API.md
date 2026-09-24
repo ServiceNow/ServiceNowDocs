@@ -2,7 +2,7 @@
 title: RenderProperties - Scoped
 description: The RenderProperties API provides methods to obtain information about the current page and is available in Jelly scripts and in UI-action conditions and scripts.Returns the encoded query from the URL sent to the page.Returns the list control object for the page.Returns the value of the specified URL parameter.Returns the URL where the request originated.Returns the name of the view in use.Returns the window's properties.Returns true if the page is part of Studio.Returns true if this is an interactive session. An interactive session is when a user has logged in as opposed to a REST request.Returns true when the sysparm\_collection\_related\_file URL parameter is set.Returns true when the sys\_is\_related\_list URL-parameter is true. Returns false if the parameter is not present.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/RenderProperties-Scoped-API.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/RenderProperties-Scoped-API.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The RenderProperties API provides methods to obtain information about the curren
 
 Access RenderProperties methods using the static variable `RP`.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Scoped RenderProperties - getEncodedQuery\(\)
 

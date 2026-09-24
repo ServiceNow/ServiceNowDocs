@@ -2,7 +2,7 @@
 title: TuneUp Your Hardware Asset Management
 description: The TuneUp Your Hardware Asset Management \(HAM\) Accelerator provides guidance on maintaining and governing Hardware Asset Management health to optimize value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-hw-asset-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/tuneup-hw-asset-management.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

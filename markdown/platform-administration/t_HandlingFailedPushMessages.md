@@ -2,7 +2,7 @@
 title: Requeue failed push notification messages
 description: Push notification delivery might fail for various reasons. You can view which messages failed and requeue them to be sent out if necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_HandlingFailedPushMessages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_HandlingFailedPushMessages.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: admin
 
 **Note:** There is no way for the instance to guarantee or confirm push message delivery. For more information on how Apple handles push notifications, see the [Local and Remote Notification Programming Guide](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#/apple_ref/doc/uid/TP40008194-CH8-SW1) for Apple developers.
 
-Messages can also fail to send for several reasons, such as a large message queue or other issue with the instance. You can use a [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_PushNotificationProperties.md) to control how long the instance queues a push notification after it is triggered.
+Messages can also fail to send for several reasons, such as a large message queue or other issue with the instance. You can use a [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_PushNotificationProperties.md) to control how long the instance queues a push notification after it is triggered.
 
 Push notification message payload size is limited by provider:
 
@@ -44,10 +44,10 @@ Your instance does not send push messages that exceed this limitation. System lo
 
 3.  If some push notifications continue to fail, consider increasing the value in the **glide.push.notification.ttl\_seconds** property.
 
-    See [Push notification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_PushNotificationProperties.md) for more information.
+    See [Push notification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_PushNotificationProperties.md) for more information.
 
 
-**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md)
+**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_PushNotifications.md)
 
 **Related topics**  
 

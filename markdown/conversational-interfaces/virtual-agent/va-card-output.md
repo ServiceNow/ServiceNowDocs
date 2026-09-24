@@ -2,7 +2,7 @@
 title: Card bot response control
 description: Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance. You can include rich content, such as a video or image.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-card-output.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-card-output.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -26,10 +26,10 @@ The Card bot response can show the following types of content:
 
     In the Australia release, only YouTube videos are supported.
 
-    **Tip:** You can also use the [Video bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-video-bot-response.md) to include YouTube videos in conversations. The Video bot response control includes a navigation button that pauses the conversation. If you want the user to watch the video before continuing with the conversation, use this navigation button. When users have finished watching the video, they can click this navigation button to continue with the conversation.
+    **Tip:** You can also use the [Video bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-video-bot-response.md) to include YouTube videos in conversations. The Video bot response control includes a navigation button that pauses the conversation. If you want the user to watch the video before continuing with the conversation, use this navigation button. When users have finished watching the video, they can click this navigation button to continue with the conversation.
 
 
-**Note:** If you previously created conversations that use the [HTML bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-html-output.md) to generate card layouts, consider updating your conversations to use the Card bot response control. The Card displays information from a record in your instance and contains a link to that related record. Or, it can display images and can include rich content such as a video.
+**Note:** If you previously created conversations that use the [HTML bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-html-output.md) to generate card layouts, consider updating your conversations to use the Card bot response control. The Card displays information from a record in your instance and contains a link to that related record. Or, it can display images and can include rich content such as a video.
 
 ## Card bot response control properties
 
@@ -344,7 +344,7 @@ Partial support
 
 </td><td>
 
-Some types of output are only available on devices with screens. For nonscreen devices, the card title is read. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).
+Some types of output are only available on devices with screens. For nonscreen devices, the card title is read. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).
 
 </td></tr></tbody>
 </table>## Example Glide record query
@@ -457,5 +457,5 @@ Card output
  \[Omitted image "Card-MSteams-03.png"\] Alt text: Microsoft Teams video card, showing header title Video Example, and placeholder line Video Example Description.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

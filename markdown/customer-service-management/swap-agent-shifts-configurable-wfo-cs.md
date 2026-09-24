@@ -2,7 +2,7 @@
 title: Swap agent shifts in Workforce Optimization for Customer Service
 description: Swap an agent's shift in an assignment group with another agent who can work on that shift and skip the approval process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/swap-agent-shifts-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/swap-agent-shifts-configurable-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ Role required: sn\_shift\_planning.admin
     The team calendar displays the updated schedule.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/scheduling-configurable-wfo-cs.md)
 

@@ -2,7 +2,7 @@
 title: Composite Fields
 description: A composite field combines information from two fields in a table to form a single field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/composite-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/composite-fields.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -28,5 +28,5 @@ For example, the **Task** field on the Project Tasks list displays the short des
     -   To search by the number using the list header, enter an asterisk \(\*\) before the search term. For example, \*PRJTASK0010016.
     -   To search by the number using the filter, create a condition similar to: \[Task\] \[contains\] \[PRJTASK0010016\].
 
-**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-reference.md)
+**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/demand-management-reference.md)
 

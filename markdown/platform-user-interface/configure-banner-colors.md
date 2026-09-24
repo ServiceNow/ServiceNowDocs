@@ -2,7 +2,7 @@
 title: Configure colors for banner illustrations
 description: Configure and control the colors automatically applied to banner illustrations to keep your visual experience engaging while maintaining brand recognition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-banner-colors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-banner-colors.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,7 +73,7 @@ As a category, all banner illustrations share color hook mappings. As a result, 
 
 The new colors are applied to all banner illustration types.
 
-If your theme is published, your banner illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your banner illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Banner illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/banners-in-tb.md)
+**Parent Topic:**[Banner illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/banners-in-tb.md)
 

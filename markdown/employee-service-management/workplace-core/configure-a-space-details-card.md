@@ -2,7 +2,7 @@
 title: Configure a space details card
 description: Configure a space card in the Location Directory, Kiosk Indoor Mapping, or Reservation by updating the card's template with the specific details that you want to customize. You can configure a new field, button, or style for each space card.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/configure-a-space-details-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/configure-a-space-details-card.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -77,5 +77,5 @@ Card configuration allows you to customize the appearance and features of space 
     \[Omitted image "wsd-card-config-user.png"\] Alt text: field details configuration on the space card.
 
 
-**Parent Topic:**[Configure a workplace card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-workplace-card.md)
+**Parent Topic:**[Configure a workplace card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/configure-workplace-card.md)
 

@@ -2,7 +2,7 @@
 title: View and use the Condition with Event BR \(Demo\) activity set
 description: You can trigger activity sets using an event that is included in the Condition with Event BR \(Demo\) activity set or you can create and use server-side code \(business rule, event script, scheduled job, etc.\) that triggers the check\_activity\_set\_trigger event into the HR Activity Set Trigger Check workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/le-evaluation-interval-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/le-evaluation-interval-process.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -39,5 +39,5 @@ Role required: admin
     -   The **Trigger type** is **Condition**.
     -   When the **State** of the LE/HR case changes to **Work in Progress**, the **Condition with Event BR \(Demo\)** activity set triggers and sends a email.
 
-**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
+**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

@@ -2,7 +2,7 @@
 title: Import skills through file upload
 description: Import your industry specific skills data to your Skills Foundation application using a predefined skills import template so you can import your data in the required format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/file-upload-skills-import.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/file-upload-skills-import.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

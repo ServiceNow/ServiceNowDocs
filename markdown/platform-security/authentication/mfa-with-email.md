@@ -2,7 +2,7 @@
 title: Email as an MFA factor
 description: Multi-factor authentication \(MFA\) with Email as a factor for your authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-with-email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-with-email.html
 release: australia
 product: Authentication
 classification: authentication

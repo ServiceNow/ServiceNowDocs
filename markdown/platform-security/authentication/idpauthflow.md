@@ -2,7 +2,7 @@
 title: Multi-Provider SSO \(SAML\) IdP authentication flow
 description: Describes the different entities that can authenticate a user through the SAML multi-SSO.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/idpauthflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/idpauthflow.html
 release: australia
 product: Authentication
 classification: authentication

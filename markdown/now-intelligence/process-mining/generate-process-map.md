@@ -2,7 +2,7 @@
 title: Mine a project
 description: After you’ve configured the data you want to visualize, you can begin mining the project.An analyst, power user, or administrator can cancel a mining job currently in process.When attempting to mine a project, the project workflow record shows one of these states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/generate-process-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/generate-process-map.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -59,7 +59,7 @@ This limit will decrease depending on the number of tables you have configured o
 
 If the extraction completes successfully, the project card shows the mining state as **Available**.
 
-**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-proj.md)
 
 ## Cancel a mining job
 

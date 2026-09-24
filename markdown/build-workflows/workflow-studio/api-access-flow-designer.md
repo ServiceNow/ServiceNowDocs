@@ -2,7 +2,7 @@
 title: API access to Workflow Studio flows
 description: Application developers can access Workflow Studio functionality through APIs for flows, subflows, and actions. Flow authors can enable individual flows, subflows, and actions to be client callable during design.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/api-access-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/api-access-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -46,7 +46,7 @@ By default, the flows, subflows, and actions can only be called by the FlowAPI w
 
 ## Run as support
 
-Flows and subflows can run as either the system user or the user who initiates the session. Set this behavior from the [flow properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md). All API quick methods ignore the run as property, and always run as the system user.
+Flows and subflows can run as either the system user or the user who initiates the session. Set this behavior from the [flow properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md). All API quick methods ignore the run as property, and always run as the system user.
 
 Actions always run as the user who initiates the session.
 

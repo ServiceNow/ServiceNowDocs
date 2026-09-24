@@ -2,7 +2,7 @@
 title: Set up OAuth authentication for a clone target
 description: Complete a one-time OAuth setup to register a target instance for cloning. This process generates a Client ID on the target instance and authorizes the connection from the source instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/setup-clone-oauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/setup-clone-oauth.html
 release: australia
 topic_type: task
 last_updated: "2026-06-10"
@@ -46,7 +46,7 @@ Roles required:
 
     Users with identity\_type = machine can no longer log in to the instance UI. This configuration supports Basic Auth for automated and integration traffic only.
 
-      recommends using OAuth for cloning. For more information, see [Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-troubleshooting.md).
+      recommends using OAuth for cloning. For more information, see [Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/register-target-instance-troubleshooting.md).
 
 5.  Select **Setup OAuth on Target**.
 
@@ -83,6 +83,6 @@ The target instance is registered and authorized for clone requests.
 
 ## What to do next
 
--   To submit a clone request to the new target, see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md).
+-   To submit a clone request to the new target, see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_StartAClone.md).
 -   To reset or re-authorize OAuth for this target, see .
 

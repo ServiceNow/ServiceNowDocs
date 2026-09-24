@@ -2,7 +2,7 @@
 title: Install the ServiceNow Document Designer add-in
 description: Install the ServiceNow Document designer add-in to your Microsoft Word document to create audit and CAM report templates and generate report content using the AI Reporting Assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/install-document-designer-referencing-for-cam-ato2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/continuous-risk-monitoring/install-document-designer-referencing-for-cam-ato2.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -41,15 +41,15 @@ To configure the HTTP response headers for add-in for Microsoft Word in the brow
 
 If you encounter a security constraint error during sign-in after installing the add-in, see the [Known error: Scoped UI page \(sn\_outlook\_addin\_OutlookLogin\) inaccessible without login in Australia \[KB3134148\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3134148) article in the Now Support Knowledge Base. This affects Australia Patch 3 and later, and Zurich Patch 10 and later.
 
--   **[Reference information for Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/properties-for-document-designer.md)**  
+-   **[Reference information for Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/properties-for-document-designer.md)**  
 There are several properties that get installed with the Document designer plugin. These properties help to control the various aspects of how the plugin works.
 
-**Parent Topic:**[Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
+**Parent Topic:**[Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
 
-**Parent Topic:**[Microsoft Word based audit report templates using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/document-designer-template.md)
+**Parent Topic:**[Microsoft Word based audit report templates using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/document-designer-template.md)
 
 **Related topics**  
 
 
-[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)
+[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)
 

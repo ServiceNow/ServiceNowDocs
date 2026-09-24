@@ -2,7 +2,7 @@
 title: Set up the SAM advisor dashboard manually
 description: If the SAM advisor dashboard was not configured automatically, set it up manually by selecting the software products that define the SAM advisor scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cmdb-sa-sam-manual-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/cmdb-sa-sam-manual-setup.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -56,5 +56,5 @@ The SAM data collection begins immediately via the **CMDB Advisor - SAM Daily Da
 
 Once initial data collection completes, you receive a notification indicating that insights for the software products in your SAM advisor scope are ready for review.
 
-To update the scope after initial setup, select **Edit dashboard scope** on the SAM advisor dashboard. See [Manage SAM advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-optimize-dashboard.md).
+To update the scope after initial setup, select **Edit dashboard scope** on the SAM advisor dashboard. See [Manage SAM advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/cmdb-sa-sam-optimize-dashboard.md).
 

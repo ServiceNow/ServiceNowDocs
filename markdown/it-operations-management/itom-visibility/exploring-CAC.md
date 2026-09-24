@@ -2,7 +2,7 @@
 title: Exploring Cryptographic Asset Compliance
 description: Cryptographic Asset Compliance provides centralized visibility and control of cryptographic assets for proactive risk assessment and post-quantum cryptography \(PQC\) readiness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/exploring-CAC.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/exploring-CAC.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -25,7 +25,7 @@ As quantum computing advances are anticipated to threaten traditional cryptograp
 
 The typical workflow when implementing Cryptographic Asset Compliance includes the following activities:
 
-1.  Set up discovery: Set up certificate discovery in ServiceNow [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt.md) and cloud discovery in ServiceNow [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md) \(for AWS and Azure\) so cryptographic assets can be found. A scheduled job then syncs the discovered assets into Cryptographic Asset Compliance.
+1.  Set up discovery: Set up certificate discovery in ServiceNow [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-inventory-mgmt.md) and cloud discovery in ServiceNow [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r-discovery.md) \(for AWS and Azure\) so cryptographic assets can be found. A scheduled job then syncs the discovered assets into Cryptographic Asset Compliance.
 2.  Review inventory: Analyze discovered cryptographic assets in the inventory, including certificates and keys across all connected sources.
 3.  Assess risks: Review the risk indicators identified for your assets, such as weak or quantum-vulnerable algorithms and certificate authority trust or ownership gaps. Use the AI-generated summary and recommendations to understand each asset's risk.
 4.  Monitor and maintain: Use dashboards to track cryptographic asset health, PQC compliance status, and quantum vulnerable algorithms.
@@ -58,11 +58,11 @@ Establish a trusted, up-to-date inventory of cryptographic assets and monitor it
 
 </td><td>
 
--   [Configuring the discovery of cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/set-up-cryptographic-asset-discovery.md)
--   [Configure trusted certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/add-trusted-certificate-authorities.md)
--   [Cryptographic Asset Compliance Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/home-dashboard-CAC.md)
--   [View and manage cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/manage-inventory.md)
--   [View cryptographic asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/view-asset-details.md)
+-   [Configuring the discovery of cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/set-up-cryptographic-asset-discovery.md)
+-   [Configure trusted certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/add-trusted-certificate-authorities.md)
+-   [Cryptographic Asset Compliance Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/home-dashboard-CAC.md)
+-   [View and manage cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/manage-inventory.md)
+-   [View cryptographic asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/view-asset-details.md)
 
 </td><td>
 
@@ -74,9 +74,9 @@ Monitor the health of cryptographic assets, investigate risk indicators, and tra
 
 </td><td>
 
--   [Cryptographic Asset Compliance Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/home-dashboard-CAC.md)
--   [View and manage cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/manage-inventory.md)
--   [View cryptographic asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/view-asset-details.md)
+-   [Cryptographic Asset Compliance Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/home-dashboard-CAC.md)
+-   [View and manage cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/manage-inventory.md)
+-   [View cryptographic asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/view-asset-details.md)
 
 </td><td>
 
@@ -85,7 +85,7 @@ Cryptographic Asset usersn\_itom\_cac.user
 </td></tr></tbody>
 </table>## What to explore next
 
--   [Post-quantum cryptography overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/pqc-overview-CAC.md)
--   [Cryptographic risk indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/risk-indicators-CAC.md)
--   [About Policy as Code Engine policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/policies-and-risk-indicators.md)
+-   [Post-quantum cryptography overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/pqc-overview-CAC.md)
+-   [Cryptographic risk indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/risk-indicators-CAC.md)
+-   [About Policy as Code Engine policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/policies-and-risk-indicators.md)
 

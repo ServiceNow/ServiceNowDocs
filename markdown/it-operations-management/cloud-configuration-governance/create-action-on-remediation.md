@@ -2,7 +2,7 @@
 title: Create an action for an 'on Task Remediation' policy
 description: The on Task remediation trigger fires when a user resubmits a failed request. A policy that is triggered by the on Task Remediation trigger can start approval subflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-action-on-remediation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-action-on-remediation.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

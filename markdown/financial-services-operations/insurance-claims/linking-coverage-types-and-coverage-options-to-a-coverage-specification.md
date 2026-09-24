@@ -2,7 +2,7 @@
 title: Link the coverage types and coverage options to a coverage specification
 description: Link the coverage types and coverage options to a coverage specification in the Insurance claims application. This way, you associate all the available coverage types and options to the coverage specification and define the protections and risks that are covered by an insurance policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/linking-coverage-types-and-coverage-options-to-a-coverage-specification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/linking-coverage-types-and-coverage-options-to-a-coverage-specification.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -18,7 +18,7 @@ Link the coverage types and coverage options to a coverage specification in the 
 
 ## Before you begin
 
-Ensure you have created a coverage specification, coverage types, and coverage type options. For more information, see [Create a coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/creating-a-coverage-specification.md).
+Ensure you have created a coverage specification, coverage types, and coverage type options. For more information, see [Create a coverage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/creating-a-coverage-specification.md).
 
 Role required: admin
 

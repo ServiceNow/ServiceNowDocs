@@ -2,7 +2,7 @@
 title: Related record access
 description: Related record access enable consistent control over what records users are able to access between related tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/related-record-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/related-record-access.html
 release: australia
 product: Access Control
 classification: access-control

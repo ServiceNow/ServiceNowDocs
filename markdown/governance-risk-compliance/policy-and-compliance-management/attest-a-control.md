@@ -2,7 +2,7 @@
 title: Attest a control
 description: Attestations are surveys that gather evidence to prove that a control is implemented. If the control attestation and respondents fields are selected, when the control moves from the Draft state to the Attest state, a notification is sent to the attestation respondents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/attest-a-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/attest-a-control.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

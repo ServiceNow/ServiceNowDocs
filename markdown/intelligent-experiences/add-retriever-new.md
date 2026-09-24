@@ -2,7 +2,7 @@
 title: Add a search retrieval tool to an AI agent
 description: Add a search retrieval tool to an AI agent to enable it to retrieve and incorporate relevant information from defined sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-retriever-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-retriever-new.html
 release: australia
 topic_type: task
 last_updated: "2026-06-05"

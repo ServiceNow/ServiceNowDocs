@@ -2,7 +2,7 @@
 title: About client-side Secrets Management
 description: Learn how use Secrets Management to manage access to secrets and groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/understand-sec-man.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/understand-sec-man.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-01"
@@ -112,5 +112,5 @@ After being encrypted with the public key, the private key is needed to decrypt 
 \[Omitted image "sm-cse-process-5.svg"\] Alt text: The credential is now encrypted with the public key which needs the private key to decrypt
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-secrets-management.md)
+</table>**Parent Topic:**[Exploring Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/exploring-secrets-management.md)
 

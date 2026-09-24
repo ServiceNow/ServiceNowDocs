@@ -2,7 +2,7 @@
 title: Card Configuration examples
 description: Add buttons, fields, and sections to the workplace card configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/card-configuration-examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/card-configuration-examples.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Ser
 
 Add buttons, fields, and sections to the workplace card configuration.
 
-**Note:** The following examples are to customize the card configurations in Workplace Core. For more information about configuring the cards, see [Configure a workplace card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-workplace-card.md).
+**Note:** The following examples are to customize the card configurations in Workplace Core. For more information about configuring the cards, see [Configure a workplace card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/configure-workplace-card.md).
 
 ## Customizing the card style
 
@@ -193,7 +193,7 @@ After hiding the element, make sure that you remove the custom logic, or surroun
 }); */
 ```
 
-**Parent Topic:**[Workplace Core references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-references.md)
+**Parent Topic:**[Workplace Core references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-references.md)
 
 **Related topics**  
 

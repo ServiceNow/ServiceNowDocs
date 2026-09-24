@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Process Mining
 description: Use ServiceNow ServiceNow Otto for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/exp-na-process-mining.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/exp-na-process-mining.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -24,7 +24,7 @@ This feature is accessible to customers with both Process Mining and GenAI.
 
 ## Transition Work Notes Analysis skill
 
-ServiceNow Otto for Process Mining includes the Transition Work Notes Analysis skill. This skill must be activated to use ServiceNow Otto for Process Mining to analyze work notes. For more information, see [Activate work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-na-skill.md).
+ServiceNow Otto for Process Mining includes the Transition Work Notes Analysis skill. This skill must be activated to use ServiceNow Otto for Process Mining to analyze work notes. For more information, see [Activate work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-na-skill.md).
 
 **Note:** You can use the ServiceNow Otto feature for work notes analysis with 5-50 eligible work notes. If there are less than 25 eligible work notes, the system will not run clustering, but will put all the work notes into one LLM call, otherwise clustering will be performed before calling the LLM.
 
@@ -38,18 +38,18 @@ Once activated and configured, ServiceNow Otto for Process Mining uses an LLM to
 
 ## Process Inefficiency Highlights skill
 
-ServiceNow Otto for Process Mining includes the Process Inefficiency Highlights skill. This skill must be activated to use ServiceNow Otto for Process Mining to generate highlights for improvement opportunities. For more information, see [Activate Process Inefficiency Highlights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-highlight-skills.md).
+ServiceNow Otto for Process Mining includes the Process Inefficiency Highlights skill. This skill must be activated to use ServiceNow Otto for Process Mining to generate highlights for improvement opportunities. For more information, see [Activate Process Inefficiency Highlights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-highlight-skills.md).
 
 ## Intent and Activity Analysis skill
 
-ServiceNow Otto for Process Mining includes the Intent and Activity Analysis skill. This skill must be activated to use ServiceNow Otto for Process Mining to understand the intent of the requester and gain insight into the related tasks and actions needed to complete the tasks. For more information, see [Activate Process Inefficiency Highlights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-highlight-skills.md).
+ServiceNow Otto for Process Mining includes the Intent and Activity Analysis skill. This skill must be activated to use ServiceNow Otto for Process Mining to understand the intent of the requester and gain insight into the related tasks and actions needed to complete the tasks. For more information, see [Activate Process Inefficiency Highlights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-highlight-skills.md).
 
 ## What to explore next
 
 To learn more about configuring and using ServiceNow Otto for Process Mining, see:
 
--   [Configuring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/config-na-proc-min.md)
--   [Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)
+-   [Configuring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/config-na-proc-min.md)
+-   [Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-na-process-mining.md)
 
-**Parent Topic:**[ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/now-assist.md)
+**Parent Topic:**[ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/now-assist.md)
 

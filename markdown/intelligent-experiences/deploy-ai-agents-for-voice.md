@@ -2,7 +2,7 @@
 title: Deploy AI voice agents
 description: AI voice agents are generative AI-powered agents that bring natural, conversational experiences to phone-based support. As part of the broader AI agent ecosystem, they connect with telephony providers to replace rigid menu trees with seamless and human-like interactions that can help make support faster and more intuitive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/deploy-ai-agents-for-voice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/deploy-ai-agents-for-voice.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-28"
@@ -32,17 +32,17 @@ When you create or edit a voice assistant, you configure communication channels 
 -   **LLMs \(large language model\):** Azure OpenAI, Google Gemini, and AWS Claude. Now LLM Service is also supported but limited to English language only.
 -   **Telephony providers:** Twilio \(WebSocket\), Genesys \(WebSocket and SIP\), Amazon Connect \(PSTN\), 3CLogic \(WebSocket\), Five9 \(SIP\), NICE CXone \(SIP\), and Custom \(SIP\). Mobile and web applications are supported through the Web Real-Time Communication \(WebRTC\) channel.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Deploying AI voice agents
 
 To get started with AI voice agents, perform the following steps.
 
-1.  [Install AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-voice-agents-plugins.md)
+1.  [Install AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-ai-voice-agents-plugins.md)
 2.  [Configure user identification and authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-authentication-factors-for-ai-voice-agents.md)
-3.  [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md)
-4.  [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-voice-enabled-ai-agent.md)
-5.  [Test AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-voice-agents.md)
+3.  [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-an-ai-voice-service.md)
+4.  [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-voice-enabled-ai-agent.md)
+5.  [Test AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-voice-agents.md)
 
 ## AI limitations
 
@@ -54,9 +54,9 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md).
 
 ## Privacy notice
 

@@ -2,7 +2,7 @@
 title: Who should use this guide
 description: This guide provides a holistic view of agentic development on the ServiceNow AI Platform. It helps you understand the range of agentic development approaches available, from fully automated code generation to agentic development workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-audience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-audience.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Export a report to PDF
 description: Create Portable Document Format \(PDF\) reports for compliance cases or requests using predefined or customized templates in the Compliance Workspace. This feature enables the stakeholders who may not have access to the application can still access the data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/export-pdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/export-pdf.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

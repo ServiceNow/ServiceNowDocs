@@ -2,7 +2,7 @@
 title: Product Adoption Roadmap and Capabilities Map tables
 description: Following are the tables that are synced with your entitled capabilities, the usage status of your capabilities, and any changes made to your Product Adoption Roadmaps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/product-adoption-roadmap-capabilities-map-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/product-adoption-roadmap-capabilities-map-mapping.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -81,5 +81,5 @@ Following are the tables that are synced with your entitled capabilities, the us
 |sys\_mod\_count|sn\_impact\_common\_capabilities\_map|sys\_mod\_count|x\_snc\_cusp\_customer\_application|
 |sys\_created\_by|sn\_impact\_common\_capabilities\_map|sys\_created\_by|x\_snc\_cusp\_customer\_application|
 
-**Parent Topic:**[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/table-field-level-mapping.md)
+**Parent Topic:**[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/table-field-level-mapping.md)
 

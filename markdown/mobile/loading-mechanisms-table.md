@@ -2,7 +2,7 @@
 title: Loading mechanisms for input form UI elements
 description: Use this table to see which loading mechanisms support specific UI elements in an input form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/loading-mechanisms-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/loading-mechanisms-table.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ Use this table to see which loading mechanisms support specific UI elements in a
 
 For more information, refer to the following topics:
 
--   For inputs, see [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-var-attr.md).
--   For input actions, see [Configure input form actions in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/input-actions-configure.md).
--   For descriptive elements, see [Configure descriptive elements for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/descriptive-elements-script.md).
+-   For inputs, see [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-var-attr.md).
+-   For input actions, see [Configure input form actions in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/input-actions-configure.md).
+-   For descriptive elements, see [Configure descriptive elements for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/descriptive-elements-script.md).
 
 <table id="table_bdv_hvb_p2c"><thead><tr><th>
 
@@ -420,7 +420,7 @@ Yes
 
 </td><td>
 
-For configuration of mobile cards, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-card-builder.md).
+For configuration of mobile cards, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-card-builder.md).
 
 </td></tr></tbody>
 </table>

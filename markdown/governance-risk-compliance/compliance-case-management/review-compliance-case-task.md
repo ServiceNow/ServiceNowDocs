@@ -2,7 +2,7 @@
 title: Review and close an action task
 description: Review and close an action task after an action task owner provides responses and observations for the case in the GRC: Compliance Case Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/review-compliance-case-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/review-compliance-case-task.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -82,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Work on an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.md)
+**Parent Topic:**[Work on an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.md)
 

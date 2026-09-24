@@ -2,7 +2,7 @@
 title: ServiceNow AI agents as secondary agents
 description: Integrate ServiceNow AI agents into other agentic AI systems, such as Google Cloud or Azure OpenAI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/secondary-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/secondary-agent.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-18"
@@ -50,5 +50,5 @@ Once you save the record, a Connection &amp; Credential Alias \[sys\_alias\] rec
 
 When the record is created, you can go back to the External Agent Callback Registry record you created and select **Verify URL** to test the connection works as expected.
 
-**Parent Topic:**[Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-external-aia.md)
+**Parent Topic:**[Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-external-aia.md)
 

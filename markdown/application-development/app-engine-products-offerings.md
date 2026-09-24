@@ -2,7 +2,7 @@
 title: App Engine products and offerings
 description: App Engine is a ServiceNow AI Platform suite of products to help boost productivity by automating workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-products-offerings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-products-offerings.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

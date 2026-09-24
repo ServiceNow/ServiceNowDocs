@@ -2,7 +2,7 @@
 title: Synchronization of information between Order Management and Field Service Management - Workflow scenario
 description: The integration between Order Management and Field Service Management provides support for the end-to-end order fulfillment process. The following scenario shows the seamless synchronization of data, customer information, status, and other updates between Order Management and Field Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/scenario-synch-omt-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/scenario-synch-omt-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Add custom business rules to Service Level Agreement \(SLA\) considerations
 description: Prior to adding custom business rules to the task SLA table, you must consider a few points regarding the processing and calculation of the task SLA based on your organization’s needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/r\_AddCustomBusRuleToSLACons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/r\_AddCustomBusRuleToSLACons.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -35,5 +35,5 @@ You can add custom fields to the task SLA table and write business rules to popu
     -   Fields being ignored, overwritten, or both the next time the SLA is calculated.
     -   Incorrect calculations of other values on the task SLA.
 
-**Parent Topic:**[Using Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/using-service-level-management.md)
+**Parent Topic:**[Using Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/using-service-level-management.md)
 

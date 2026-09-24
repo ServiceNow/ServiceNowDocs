@@ -2,7 +2,7 @@
 title: Setting up Advanced Work Assignment for Source-to-Pay Operations
 description: Plan and configure your implementation of Advanced Work Assignment for Source-to-Pay Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo-setup.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -29,12 +29,12 @@ Setting up Advanced Work Assignment for Source-to-Pay Operations involves config
 
 For more information, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md).
 
--   **[Configure Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-awa-spo.md)**  
+-   **[Configure Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-awa-spo.md)**  
 Configure various components, such as service channels, work item queues, and assignment rules that determine how emails and chat interactions should be routed to agents.
--   **[Configure the Sourcing and Procurement Operations queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-awa-spo-queues.md)**  
+-   **[Configure the Sourcing and Procurement Operations queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-awa-spo-queues.md)**  
 Configure the Advanced Work Assignment for Source-to-Pay Operations queues to ensure that email and chat requests are routed and assigned to specific agents belonging to defined groups.
--   **[Configure Agent Chat for Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-agent-chat-spo.md)**  
+-   **[Configure Agent Chat for Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-agent-chat-spo.md)**  
 Use Agent Chat Settings to configure Agent Chat for Source-to-Pay Workspace.
 
-**Parent Topic:**[Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo.md)
+**Parent Topic:**[Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo.md)
 

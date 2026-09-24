@@ -2,7 +2,7 @@
 title: Create a Virtual Agent Bot Interconnect shell topic to call Microsoft Power Virtual Agents topics
 description: To access topics in the Power Virtual Agents secondary bot, you must create at least one Virtual Agent Bot Interconnect topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-primary-va-topic-ms-pva.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-primary-va-topic-ms-pva.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +21,7 @@ To access topics in the Power Virtual Agents secondary bot, you must create at l
 
 Create one or more topics in Microsoft Power Virtual Agents.
 
-[Add the Direct Line secret key to your Virtual Agent Bot Interconnect instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-dl-secret-key-sn-instance.md).
+[Add the Direct Line secret key to your Virtual Agent Bot Interconnect instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-dl-secret-key-sn-instance.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -48,7 +48,7 @@ There are two ways to integrate Microsoft Power Virtual Agents topics with Bot I
 
 3.  Set the topic discovery toggle switch to **LLM** or **NLU/Keyword**, depending on which type you want to create.
 
-4.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) for your Power Virtual Agents topics.
+4.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) for your Power Virtual Agents topics.
 
     In case of NLU topics, include the Power Virtual Agents topic names as either keywords or utterances in the corresponding ServiceNow Virtual Agent intent. In case of LLM topics, the topic name and description of the Bot Interconnect topic should match the topic name and description of the Power Virtual Agents topic.
 
@@ -118,9 +118,9 @@ Test your configuration. You can execute the topics that are available in the se
 
 **Note:** Conversations always remain open in Power Virtual Agents.
 
-**Parent Topic:**[Using Microsoft Power Virtual Agents as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-api-ms-powerva.md)
+**Parent Topic:**[Using Microsoft Power Virtual Agents as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-va-api-ms-powerva.md)
 
-**Previous topic:**[Add the Direct Line secret key to your Virtual Agent Bot Interconnect instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-dl-secret-key-sn-instance.md)
+**Previous topic:**[Add the Direct Line secret key to your Virtual Agent Bot Interconnect instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-dl-secret-key-sn-instance.md)
 
-**Next topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-sn-secondary-bot-with-sn-primary.md)
+**Next topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-sn-secondary-bot-with-sn-primary.md)
 

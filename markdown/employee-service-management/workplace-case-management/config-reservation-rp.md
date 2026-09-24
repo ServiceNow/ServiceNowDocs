@@ -2,7 +2,7 @@
 title: Configuring a record producer for reservation
 description: Configure a record producer to integrate it with Workplace Reservation Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/config-reservation-rp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/config-reservation-rp.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -31,9 +31,9 @@ The dual approach with a record producer and a custom widget provides a streamli
 
 ## Enabling a record producer for editing
 
-You must first create a record producer on the Workplace Case or Workplace Case Extension tables and configure it for editing. For more information, see [Configuring a record producer for request edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/config-case-edit-rp.md).
+You must first create a record producer on the Workplace Case or Workplace Case Extension tables and configure it for editing. For more information, see [Configuring a record producer for request edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/config-case-edit-rp.md).
 
-For more information about creating a record producer, see [Configure a Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-create-record-producer.md).
+For more information about creating a record producer, see [Configure a Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/wsd-create-record-producer.md).
 
 While creating the record producer, make sure that you follow these steps.
 
@@ -62,9 +62,9 @@ While creating the record producer, make sure that you follow these steps.
 
 To map the record producer to the reservation page, you must first add it to the **Record producer** field of the workplace service. You must then add it to the **Record producer for reservation** field of the same workplace service.
 
-For more information about the fields of a workplace service, see [Workplace Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-service-form.md).
+For more information about the fields of a workplace service, see [Workplace Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-service-form.md).
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

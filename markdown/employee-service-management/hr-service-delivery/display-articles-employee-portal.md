@@ -2,7 +2,7 @@
 title: Displaying related knowledge articles for completing tasks
 description: Display knowledge articles that help in completing HR and Content tasks in the Employee Service Center To-dos page and the HR Ticket page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/display-articles-employee-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/display-articles-employee-portal.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,7 +35,7 @@ The Similar Knowledge Articles for HR Task and Similar Knowledge Articles for Co
 -   The Content Delivery \(com.sn\_content\_delivery\) plugin is required to display related articles for Content tasks.
 -   The**glide.platform\_ml.auto\_training.enabled** system property is set to true.
 
-You can [manually train the predictive models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md) if they are not auto trained by default. After you manually train the predictive models, navigate to the **Service Portal Configuration** module and select the Widget editor. Search for **Recommended articles for to dos**, click **Edit Option Schema**, and add the configured solution definitions in the following widget options:
+You can [manually train the predictive models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md) if they are not auto trained by default. After you manually train the predictive models, navigate to the **Service Portal Configuration** module and select the Widget editor. Search for **Recommended articles for to dos**, click **Edit Option Schema**, and add the configured solution definitions in the following widget options:
 
 -   Solution name for Content Task
 -   Solution name for HR Task

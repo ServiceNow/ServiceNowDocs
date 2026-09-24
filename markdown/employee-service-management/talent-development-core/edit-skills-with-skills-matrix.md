@@ -2,12 +2,12 @@
 title: Edit skills and proficiencies in the Skills Matrix
 description: Edit skills data and their proficiency levels to manage the progression at each role level in a role group using the Skills Matrix in the Skills Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/edit-skills-with-skills-matrix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/edit-skills-with-skills-matrix.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Working with job architecture, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -47,7 +47,7 @@ Role required: sn\_skills\_int.admin
 11. Select **Save**.
 
 
-**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/job-architecture-working.md)
+**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/job-architecture-working.md)
 
 **Related topics**  
 

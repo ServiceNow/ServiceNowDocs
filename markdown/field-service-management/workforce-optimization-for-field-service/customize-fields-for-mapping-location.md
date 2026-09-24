@@ -2,7 +2,7 @@
 title: Customize fields for mapping location
 description: Customize ad-hoc fields for setting location appropriate location for work orders pr work order tasks when you add location using map interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/customize-fields-for-mapping-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/customize-fields-for-mapping-location.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -44,7 +44,7 @@ The location table and records will be updated as per the customized location.
 **Related topics**  
 
 
-[Field Service with Service Locations Support components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/service-locations-components.md)
+[Field Service with Service Locations Support components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/service-locations-components.md)
 
-[Assign ad-hoc Service Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/field-service-with-service-locations.md)
+[Assign ad-hoc Service Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/field-service-with-service-locations.md)
 

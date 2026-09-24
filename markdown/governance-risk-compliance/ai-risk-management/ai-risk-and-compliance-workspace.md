@@ -2,7 +2,7 @@
 title: AI Risk and Compliance workspace
 description: The AI Risk and Compliance workspace is the central hub for AI risk and compliance managers to monitor risk posture, track assessments, manage controls and issues, and oversee AI cases across the enterprise.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -27,9 +27,9 @@ An AI risk and compliance manager must have a full view of the risks associated 
 
 The home page of the AI risk and compliance workspace meets these requirements and displays the relevant data across the following tabs.
 
--   [Risk and compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md)
--   [Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/operations-tab.md)
--   [AI cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
+-   [Risk and compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md)
+-   [Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/operations-tab.md)
+-   [AI cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
 
 You can access the AI risk and compliance workspace by navigating to **All** &gt; **AI Risk and Compliance Workspace**.
 
@@ -38,13 +38,13 @@ You can access the AI risk and compliance workspace by navigating to **All** &gt
 **Related topics**  
 
 
-[Risk &amp; compliance tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md)
+[Risk &amp; compliance tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md)
 
-[Operations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/operations-tab.md)
+[Operations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/operations-tab.md)
 
-[AI cases tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
+[AI cases tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
 
-[Configure AI Risk and Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/configure-airc-workspace.md)
+[Configure AI Risk and Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/configure-airc-workspace.md)
 
-[Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md)
+[Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/configure-airc-properties.md)
 

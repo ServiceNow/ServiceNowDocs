@@ -2,7 +2,7 @@
 title: Add and configure the Retail KPI widget
 description: Display report data in card format on your portal. You can display the report data by adding and configuring the Retail KPI widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-portal-configure-retail-kpi-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-portal-configure-retail-kpi-widget.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Display report data in card format on your portal. You can display the report da
 
 ## Before you begin
 
-The Retail Core \[com.sn\_retail\_core\] plugin must be activated. For more information, see [Activate Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-install.md).
+The Retail Core \[com.sn\_retail\_core\] plugin must be activated. For more information, see [Activate Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-install.md).
 
 The page to which you want to add the widget must exist. For more information, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-page-configurable-portal-widget.md).
 
@@ -178,7 +178,7 @@ Role required: admin
 
     **Note:**
 
-    For more information, see [Retail KPI JSON parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/retail-kpi-json-parameters.md).
+    For more information, see [Retail KPI JSON parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/retail-kpi-json-parameters.md).
 
     Review sys\_report table records to validate configurations in use with the Retail KPI widget.
 

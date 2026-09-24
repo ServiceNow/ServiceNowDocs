@@ -2,7 +2,7 @@
 title: Create diagram for a business capability form
 description: An Enterprise architect can create a diagram using Lucidchart for a business capability maps and associate it with an architectural artifact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-diagram-bc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-diagram-bc.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -108,10 +108,10 @@ Folder
 Name of the Lucid folder. Select the folder where you want to save the diagram. When you select a folder, its sub folders are displayed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Create a Lucidchart diagram for a business capability in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-cap.md)
+[Create a Lucidchart diagram for a business capability in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-lucid-diagram-cap.md)
 

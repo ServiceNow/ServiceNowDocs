@@ -2,7 +2,7 @@
 title: Revert normalization of hardware and consumable models
 description: Revert the normalization of hardware and consumable models in the Hardware Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/revert-norm-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/revert-norm-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -20,7 +20,7 @@ Revert the normalization of hardware and consumable models in the Hardware Asset
 
 Role required: Users with assetor model\_admin role \(without Domain separation\), assetor model\_admin and domain\_admin \(with Domain separation\).
 
-**Note:** The model\_admin role is available only if the OT Asset Management application is activated on your ServiceNow instance. This role enables you to revert the normalization status of OT hardware models. For more details on OT assets, see [OT Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-asset-ws-otam.md). The model\_admin role includes the mode\_manager sub-role.
+**Note:** The model\_admin role is available only if the OT Asset Management application is activated on your ServiceNow instance. This role enables you to revert the normalization status of OT hardware models. For more details on OT assets, see [OT Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/ot-asset-ws-otam.md). The model\_admin role includes the mode\_manager sub-role.
 
 ## About this task
 
@@ -76,5 +76,5 @@ After the revert normalization process is complete, the following changes take p
 -   The deactivated rule can no longer normalize any more models. The deactivated rule can't be reactivated. It’s a one-time procedure.
 -   The **Revert Normalization** option on the model record is replaced with the **Normalize** option.
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

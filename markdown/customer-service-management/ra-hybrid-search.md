@@ -2,7 +2,7 @@
 title: Hybrid search in Recommended Actions
 description: Hybrid search combines keyword-based and semantic search to surface more relevant results in CRM Workspace, helping agents find KB articles and guided actions even when their phrasing does not match article content exactly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-hybrid-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-hybrid-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-07"

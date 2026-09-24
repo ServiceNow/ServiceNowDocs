@@ -2,7 +2,7 @@
 title: Setting up Financial Services Operations Integration with Socure
 description: Integrate your Socure account with your ServiceNow instance so that you can perform the required activities for onboarding new customers. Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/setting-up-fso-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/setting-up-fso-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

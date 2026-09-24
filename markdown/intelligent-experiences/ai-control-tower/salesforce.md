@@ -2,7 +2,7 @@
 title: AI Service Graph Connector for Salesforce
 description: The AI Service Graph Connector for Salesforce enables to discover and import AI agents, models, prompts, tools, and track agent usage from your Salesforce environment into ServiceNow AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/salesforce.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/salesforce.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

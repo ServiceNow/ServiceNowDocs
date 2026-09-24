@@ -2,7 +2,7 @@
 title: Configure the Rocket BlueZone emulator
 description: Configure the Rocket BlueZone emulator on the RPA Desktop Design Studio by capturing the Rocket BlueZone emulator screens and their elements. After capturing the screens, you can use the screen and element methods to automate actions on the screens and elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/bluezone-emulator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/bluezone-emulator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,7 +50,7 @@ Role required: none
 
         \[Omitted image "terminal-conn-bluezone-screen-added.png"\] Alt text: BlueZone emulator screen added in the terminal Connector window and Project Explorer.
 
-        When you capture multiple screens and elements and want to automate tasks on one screen or element, the connector must first find the screen or element by using the match rules. To know about the match rules, see [Use the screen or element match rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/find-the-screen-or-element-to-perform-automation.md).
+        When you capture multiple screens and elements and want to automate tasks on one screen or element, the connector must first find the screen or element by using the match rules. To know about the match rules, see [Use the screen or element match rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/find-the-screen-or-element-to-perform-automation.md).
 
 5.  Capture an element from the BlueZone emulator screen.
 
@@ -101,7 +101,7 @@ Role required: none
 
 6.  Use the screen match rules to enable the terminal connector to locate a screen or element.
 
-    When you capture multiple screens, fields, or tables and want to automate tasks on one screen or element, the connector must first find the screen or element. To enable the connector to find the screen or element, use the screen match rules at [Use the screen or element match rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/find-the-screen-or-element-to-perform-automation.md).
+    When you capture multiple screens, fields, or tables and want to automate tasks on one screen or element, the connector must first find the screen or element. To enable the connector to find the screen or element, use the screen match rules at [Use the screen or element match rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/find-the-screen-or-element-to-perform-automation.md).
 
 7.  View the screen and element methods.
 
@@ -114,10 +114,10 @@ Role required: none
         The methods appear in the Object Explorer pane.
 
 
-**Parent Topic:**[Configure the Terminal connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-terminal-connector.md)
+**Parent Topic:**[Configure the Terminal connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-terminal-connector.md)
 
 **Related topics**  
 
 
-[Rocket BlueZone emulator methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/bluezone-emulator-methods.md)
+[Rocket BlueZone emulator methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/bluezone-emulator-methods.md)
 

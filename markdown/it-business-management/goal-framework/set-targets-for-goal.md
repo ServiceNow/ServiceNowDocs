@@ -2,7 +2,7 @@
 title: Create targets for a goal using Goal Framework or Goal Framework for SPM
 description: Create SMART targets for goals to track and measure the progress of the goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/set-targets-for-goal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/goal-framework/set-targets-for-goal.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -63,7 +63,7 @@ Steps
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For field information, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-form.md).
+    For field information, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/target-form.md).
 
 3.  Click **Submit**.
 

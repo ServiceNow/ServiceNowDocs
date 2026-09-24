@@ -2,7 +2,7 @@
 title: Implement Autonomous L1 Agent for Workplace
 description: Use the Autonomous L1 Agent for Workplace agent that automatically resolves frequently asked General Inquiry workplace cases without requiring manual agent intervention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/implement-autonomous-l1-agent-for-workplace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/implement-autonomous-l1-agent-for-workplace.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -72,7 +72,7 @@ The following sequence describes the full lifecycle of a General Inquiry case ha
     When a human agent manually resolves a case \(Path B outcome\), the resolved case is added to the agent's knowledge corpus. Subsequent cases with similar questions are resolved autonomously.
 
 
-**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 

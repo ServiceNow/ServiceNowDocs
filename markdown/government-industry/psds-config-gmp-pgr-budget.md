@@ -2,7 +2,7 @@
 title: Establish the Grant Program Budget in Grants Management
 description: Grant Program Managers can define, categorize, and allocate the total program budget across budget categories and award types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-pgr-budget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-pgr-budget.html
 release: australia
 topic_type: task
 last_updated: "2026-06-23"

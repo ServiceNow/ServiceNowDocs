@@ -2,7 +2,7 @@
 title: Service Graph Connector for ServiceNow OT Discovery Guided Setup
 description: Use the Guided Setup for the Service Graph Connector for ServiceNow OT Discovery to lead you through the installation, connection, configuration, and integration steps for the OT Discovery environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgc-ot-discovery-guided-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/sgc-ot-discovery-guided-setup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Use the Guided Setup for the Service Graph Connector for ServiceNow OT Discovery
 
 ## Before you begin
 
-Review the [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery prerequisites and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-prereq-settings.md) section before beginning.
+Review the [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery prerequisites and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-prereq-settings.md) section before beginning.
 
 Role required: admin
 
@@ -44,7 +44,7 @@ Role required: admin
 
 9.  Choose the OT Discovery Collector OS package that matches your machine's OS.
 
-    **Note:** If you have a closed network, download the Sensor package and the containerized versions of the Console and Collector packages. When ready, in stall the Console first, install the Sensor after that and, finally, install the Collector. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
+    **Note:** If you have a closed network, download the Sensor package and the containerized versions of the Console and Collector packages. When ready, in stall the Console first, install the Sensor after that and, finally, install the Collector. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/air-gapped-networks-installation.md).
 
 10. Return to the previous page and select **Mark as complete**.
 
@@ -89,7 +89,7 @@ Role required: admin
 
 ## What to do next
 
-The next step in the Guided Setup is [Configure the OT Discovery connections &amp; credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-the-ot-discovery-connections-credentials.md).
+The next step in the Guided Setup is [Configure the OT Discovery connections &amp; credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-the-ot-discovery-connections-credentials.md).
 
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-ot-discovery.md)
 

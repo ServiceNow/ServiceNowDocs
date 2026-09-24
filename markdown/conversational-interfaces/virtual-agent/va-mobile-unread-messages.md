@@ -2,7 +2,7 @@
 title: Now Mobile notification of unread chat and Virtual Agent messages
 description: When Now Mobile app users navigate away from the app after starting an active conversation, they can automatically receive Virtual Agent mobile push notifications informing them of new, unread chat messages and  Virtual Agent notifications that have arrived.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-mobile-unread-messages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-mobile-unread-messages.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -53,5 +53,5 @@ The content of Virtual Agent push notification messages sent to Now Mobile users
 
 **Note:** System action messages that are displayed to users during live chat or virtual agent conversations are not included in Virtual Agent push notifications or in the count of unread messages. The exception is the system message for the live agent timeout: `The conversation is timing out, are you still there?` This message is sent as a push notification since it is time-sensitive and informs users that the conversation might be closed if they do not respond.
 
-**Parent Topic:**[Configure Virtual Agent for a ServiceNow mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.md)
+**Parent Topic:**[Configure Virtual Agent for a ServiceNow mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.md)
 

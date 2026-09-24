@@ -2,7 +2,7 @@
 title: Get overview of recruitment workload
 description: Recruiters can use the Recruitment workspace overview section to have enhanced visibility into their workload that prospects to effective prioritization of work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/recruitment-workspace-oveview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/recruitment-workspace-oveview.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -60,5 +60,5 @@ You can view the requisition and its associated job applications.
 
 View all the applications associated with a job requisition. The application data comes from the designated application tracking system \(ATS\) in your organization.
 
-**Parent Topic:**[Using Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/use-recruit-workspace.md)
+**Parent Topic:**[Using Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/use-recruit-workspace.md)
 

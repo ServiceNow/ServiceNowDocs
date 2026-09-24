@@ -2,7 +2,7 @@
 title: Create a purchasing assignment rule
 description: Automatically assign a sourcing request, negotiation, or purchase requisition to a procurement specialist user or a task fulfiller’s group based on pre-defined conditions by using a purchasing assignment rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-purchasing-assignment-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-purchasing-assignment-rule.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -18,7 +18,7 @@ Automatically assign a sourcing request, negotiation, or purchase requisition to
 
 ## Before you begin
 
-To create a purchasing assignment rule, you must have set up your product catalog \(with the necessary product categories, product models, and supplier products\) and should be able to raise a purchase request. For more information on how to set up your product catalog, see [Create a product category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-product-model-categories.md), [Create a product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-product-models.md), and [Add a supplier product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product.md). You should have also set up user attributes on the sys\_user record appropriately.
+To create a purchasing assignment rule, you must have set up your product catalog \(with the necessary product categories, product models, and supplier products\) and should be able to raise a purchase request. For more information on how to set up your product catalog, see [Create a product category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-product-model-categories.md), [Create a product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-product-models.md), and [Add a supplier product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product.md). You should have also set up user attributes on the sys\_user record appropriately.
 
 Role required: sn\_shop.procurement\_administrator
 
@@ -93,5 +93,5 @@ Combination of conditions that must be met before the task is assigned to a user
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

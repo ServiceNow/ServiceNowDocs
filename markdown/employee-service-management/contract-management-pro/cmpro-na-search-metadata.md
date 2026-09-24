@@ -2,7 +2,7 @@
 title: Search in contract metadata
 description: Ask question in the ServiceNow Otto panel to search for information related to contract fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-search-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-search-metadata.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -39,7 +39,7 @@ Contract fulfillers and assignment group managers with the sn\_cm\_gen\_ai.ai\_c
 
 **Note:** The agentic workflow isn’t supported in the Virtual Agent panel.
 
-For feature limitations, see [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
+For feature limitations, see [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
 
 ## Procedure
 
@@ -74,5 +74,5 @@ For feature limitations, see [AI capabilities in Contract Management Pro](https:
     After viewing contract field search results, the system asks whether you want to search within the contract documents. Select **Yes** to search within contract documents. The system displays matching results with AI reasoning. Previously shown contract field search results remain visible above the new document search results.
 
 
-**Parent Topic:**[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-agentic-use-conv-search.md)
+**Parent Topic:**[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-agentic-use-conv-search.md)
 

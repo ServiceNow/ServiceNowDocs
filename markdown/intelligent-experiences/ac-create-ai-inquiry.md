@@ -2,12 +2,12 @@
 title: Create an AI inquiry
 description: Submit an AI inquiry to ask a question or request information related to AI governance, such as a question about a policy, a process, or a specific AI asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-create-ai-inquiry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-create-ai-inquiry.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI inquiries, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 

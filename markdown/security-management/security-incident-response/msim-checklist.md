@@ -2,7 +2,7 @@
 title: Checklist for MSIM setup
 description: Before using the ServiceNow Major Security Incident Management \(MSIM\) application, download the application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/msim-checklist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/msim-checklist.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -18,7 +18,7 @@ Before using the ServiceNow® Major Security Incident Management \(MSIM\) applic
 
 Track your progress with the setup, installation, and configuration from the following table.
 
-**Note:** The roles assigned for Major Security Incident Management application are listed in the further following sections, for more information, see [Major Security Incident Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msi-roles.md).
+**Note:** The roles assigned for Major Security Incident Management application are listed in the further following sections, for more information, see [Major Security Incident Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msi-roles.md).
 
 Use the following checklist to guide you through the end-to-end steps to install and configure Major Security Incident Management application.
 
@@ -38,7 +38,7 @@ Verify that the Major Security Incident Management application is installed and 
 
 Major Security Incident Management v1.1.1 is available on ServiceNow® Store.
 
- Follow these instructions: [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+ Follow these instructions: [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/download-app-first-time.md).
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ The following roles are involved throughout the incident life-cycle of Major Sec
 -   MSI Manager \[sn\_msi.workspace\_manager\]
 -   MSI Responder \[sn\_msi.workspace\_responder\]
 
-For more detailed information on each role, see [Major Security Incident Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msi-roles.md).
+For more detailed information on each role, see [Major Security Incident Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msi-roles.md).
 
 </td></tr><tr><td>
 
@@ -114,9 +114,9 @@ Verify that you have created and configured Microsoft SharePoint Drive and neces
 
 To verify the drive configurations, setup Microsoft SharePoint File Explorer Connector, Folder, and File Actions and Folder Templates:
 
--   [Configure File Explorer repository drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-repository-config.md): Create connection from Microsoft SharePoint to ServiceNow® instance.
--   [Configure Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/folder-file-action-settings.md): Configure and control the individual Folder and File Actions displayed on the File Explorer Component.
--   [Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-folder-templates.md): Configure to create unique folders for different Major Security Incident types.
+-   [Configure File Explorer repository drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer-repository-config.md): Create connection from Microsoft SharePoint to ServiceNow® instance.
+-   [Configure Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/folder-file-action-settings.md): Configure and control the individual Folder and File Actions displayed on the File Explorer Component.
+-   [Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer-folder-templates.md): Configure to create unique folders for different Major Security Incident types.
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Verify that you have successfully established a connection to Microsoft Teams Ch
 
 </td><td>
 
-To establish Microsoft Teams Chat Connector application connection with ServiceNow® instance, follow the procedure explained here: [Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msim-micorsoft-team-requirements.md).
+To establish Microsoft Teams Chat Connector application connection with ServiceNow® instance, follow the procedure explained here: [Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-micorsoft-team-requirements.md).
 
 </td></tr><tr><td>
 
@@ -134,8 +134,8 @@ Verify that you have configured Microsoft teams with ServiceNow AI Platform® in
 
 To verify Microsoft Teams configuration with ServiceNow® instance, follow the procedure as explained here:
 
--   [Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
--   [Create a chat channel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-chat-channel-template-for-msim.md)
+-   [Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
+-   [Create a chat channel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-chat-channel-template-for-msim.md)
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Verify that the Major Security Incident Administration - Notifications settings 
 
 </td><td>
 
-As an MSI Administrator, trigger email notifications when a security incident is proposed and are sent to all those users and groups who are configured to the notifications list. For more information, see [Set notification preferences for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-msi-administration-settings.md).
+As an MSI Administrator, trigger email notifications when a security incident is proposed and are sent to all those users and groups who are configured to the notifications list. For more information, see [Set notification preferences for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-msi-administration-settings.md).
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ Verify that the SI to MSI Promotion Flow Designer flows are copied and activated
 Both the **SI to MSI Promotion \(SharePoint\)** and **SI to MSI Promotion \(Teams\)** flows must be copied and activated independently. If only one flow is active, only the corresponding component \(File Explorer or Chat\) is set up when a security incident is promoted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
+</table>**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/exploring-major-security-incident-management.md)
 
 **Related topics**  
 

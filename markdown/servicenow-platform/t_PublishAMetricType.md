@@ -2,7 +2,7 @@
 title: Publish a metric type
 description: Before it is possible to generate assessments, an assessment administrator must publish the associated metric type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_PublishAMetricType.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_PublishAMetricType.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ The **State** field on the Assessment Metric Type form indicates whether the typ
     **Note:** A metric type cannot be moved back to the **Draft** state after it has been published.
 
 
-**Parent Topic:**[Scheduled assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ScheduledAssessments.md)
+**Parent Topic:**[Scheduled assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_ScheduledAssessments.md)
 

@@ -2,7 +2,7 @@
 title: Open Requested Item Reports dashboard
 description: To view the current state of open item requests, see the Open Requested Item Reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/open-req-item-reports-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/open-req-item-reports-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -67,5 +67,5 @@ Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon
 Heatmap letting you explore the number of open item requests by any combination of state, assignment group, and priority, for any age bucket or for all ages.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/request-content-pack.md)
+</table>**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/request-content-pack.md)
 

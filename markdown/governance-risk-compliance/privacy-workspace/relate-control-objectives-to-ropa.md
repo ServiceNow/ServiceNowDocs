@@ -2,7 +2,7 @@
 title: Map a control objective to a question response
 description: Map the control objectives to the responses of the assessment questions to automatically create and apply the respective controls on the processing activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/relate-control-objectives-to-ropa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/relate-control-objectives-to-ropa.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -89,5 +89,5 @@ To create and apply controls for a response, perform the following steps.1.  In 
 
 The control objectives are related to the processing activity.
 
-**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
+**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
 

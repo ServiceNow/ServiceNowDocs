@@ -2,7 +2,7 @@
 title: Enterprise Service Management Integrations Framework
 description: The ServiceNow Enterprise Service Management Integrations Framework application contains common components that can be used for integrating your ServiceNow application with third-party systems. It uses the flow designer capability to communicate with external instances and third-party systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-integrations-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-integrations-framework.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,15 +24,15 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-hr-integ.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-hr-integ.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Enterprise Service Management Integrations Framework for third party integrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-integrations-framework.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Enterprise Service Management Integrations Framework for third party integrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/use-integrations-framework.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ent-service-mgmt-int-framework-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/ent-service-mgmt-int-framework-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

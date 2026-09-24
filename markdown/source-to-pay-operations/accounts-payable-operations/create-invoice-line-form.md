@@ -2,7 +2,7 @@
 title: Create New Invoice Line form
 description: Field descriptions for the Create New Invoice Line form used to add invoice line details such as pricing, tax amounts, accounting information, and shipping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -48,12 +48,12 @@ Field descriptions for the Create New Invoice Line form used to add invoice line
 |Unit|The unit or rate in which this product is billed by the supplier.|
 |Supplier part number|The part number of the supplier product.|
 
--   **[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)**  
+-   **[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)**  
 Field descriptions for the Create New Invoice form, organized by section, for entering invoice details, supplier information, accounting data, and address.
--   **[Invoice Line form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-line-form-related-list.md)**  
+-   **[Invoice Line form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-line-form-related-list.md)**  
 Tab descriptions for the Invoice Line form, including details, exceptions, and goods receipts. Use this reference when reviewing or completing invoice line records in Accounts Payable Operations.
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Use cases for updating the information registers
 description: Users with third-party registers and contractual details spread across various systems can automate the process of populating their information registers. This section outlines common scenarios for recording third-party data into Digital resilience third-party registers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/use-cases-for-contra-arrangements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/use-cases-for-contra-arrangements.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -53,5 +53,5 @@ The process for modifying the registers manually involves the following tasks:
 
 3.  Final step of exporting data: Lastly, data can be exported using a template, specifically Microsoft Excel based output. Users can export data into Microsoft Excel sheet for future reference or sharing with regulatory authorities. The Microsoft Excel template in Digital resilience third-party registers is aligned with \(DORA\) regulatory requirements.
 
-**Parent Topic:**[Exploring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/exploring-digi-resi-third-party-registers.md)
+**Parent Topic:**[Exploring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/exploring-digi-resi-third-party-registers.md)
 

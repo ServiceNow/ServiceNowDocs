@@ -2,7 +2,7 @@
 title: Properties installed with Project Management
 description: There are several Project properties that you can configure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/r\_InstalledWithProjectManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/r\_InstalledWithProjectManagement.html
 release: australia
 product: Project Management
 classification: project-management
@@ -206,5 +206,5 @@ Generate the status report as read-onlysn\_pw.doc\_status\_report\_read\_only
 The property restrict edits in the status report. The property sets the status report to read-only.Default value: true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-management-reference.md)
+</table>**Parent Topic:**[Project Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-management-reference.md)
 

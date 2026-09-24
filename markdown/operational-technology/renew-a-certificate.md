@@ -2,7 +2,7 @@
 title: Renew a certificate
 description: This section describes how to renew a certificate on the Certificates page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/renew-a-certificate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/renew-a-certificate.html
 release: australia
 topic_type: task
 last_updated: "2026-07-01"
@@ -45,5 +45,5 @@ Role required: admin
     **Note:** This renewal does not generate a new private key pair. The Console keeps track of old and the new certificates. To avoid issues, renew the Sensors and Collectors certificates at the same time. Renew all certificates at least 48 hours before the expiration date and verify that all devices are online to verify the automated retrieval occurs. After they are retrieved, there is a small interruption as the Sensor and Collectors restart to load the new certificates.
 
 
-**Parent Topic:**[Certificates page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/certificates-page.md)
+**Parent Topic:**[Certificates page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/certificates-page.md)
 

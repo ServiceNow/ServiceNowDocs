@@ -2,7 +2,7 @@
 title: Test suite results examples
 description: Examples of relationship terms and how aggregated results roll up for test suites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-rollup-xmpls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-rollup-xmpls.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -52,5 +52,5 @@ If you are viewing the test suite results record for \(B\) Test Suite 1.3, the *
 
 \[Omitted image "test-suite-hierarchy-all-suites.png"\] Alt text: Child Test Suites Results
 
-**Parent Topic:**[Suite results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/suite-results-module.md)
+**Parent Topic:**[Suite results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/suite-results-module.md)
 

@@ -2,7 +2,7 @@
 title: Previewing and approving a content request item
 description: Content requesters can preview content request items before they approve it to be published.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-gov-preview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-content-gov-preview.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -24,7 +24,7 @@ The content requester can preview the content item that appears in a preview por
 
 **Note:** Only rich content, news, and portal type content can be previewed.
 
-The portal used for previews is determined by the sn\_ca.campaign.preview.portal\_url\_suffix system property found in **Properties** under Content Experiences Configurations. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md) and [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
+The portal used for previews is determined by the sn\_ca.campaign.preview.portal\_url\_suffix system property found in **Properties** under Content Experiences Configurations. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md) and [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
 
 ## Email notification
 

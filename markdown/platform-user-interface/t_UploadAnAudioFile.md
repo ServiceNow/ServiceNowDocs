@@ -2,7 +2,7 @@
 title: Manage audio files
 description: You can upload and store .mp3 or .ogg audio files. Once uploaded, you can reference audio files using HTML.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_UploadAnAudioFile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_UploadAnAudioFile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ The Database Storage for Audio Files \(com.glide.db\_audio\) feature must be act
         ```
 
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

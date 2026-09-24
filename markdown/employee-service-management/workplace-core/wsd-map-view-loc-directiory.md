@@ -2,7 +2,7 @@
 title: Work with the Map view on the Location Directory
 description: Work with Map view to search for workplace users, locations, spaces, and neighborhoods. Get directions to a workplace location, meeting rooms, or an employee to collaborate quickly and effectively. Filter spaces based on reservation and occupancy states, space types, or neighborhoods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/wsd-map-view-loc-directiory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/wsd-map-view-loc-directiory.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -39,7 +39,7 @@ Work with Map view to search for workplace users, locations, spaces, and neighbo
 -   Control the Map display setting options to display permanent and private workplace profile users.
 -   Show or hide neighborhoods for a location.
 
-For more information, see [Configure map properties for Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-map-properties-location-directory.md).
+For more information, see [Configure map properties for Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/configure-map-properties-location-directory.md).
 
 The latitude and longitude of your regions, sites, campuses, and buildings must be created. If the latitude and longitude aren’t specified, you can’t view a campus or its buildings on the map. Contact your administrator for more information.
 

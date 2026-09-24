@@ -2,7 +2,7 @@
 title: Upgrade Preview tool in Upgrade Console
 description: Use the Upgrade Preview module to have an insight about the experience of an upgrade prior to the actual upgrade. You can explore and preview upgrades to different ServiceNow release versions and see how your instance might be impacted with your current configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-upgrade-preview-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-upgrade-preview-tool.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -16,15 +16,15 @@ breadcrumb: [Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer th
 
 Use the Upgrade Preview module to have an insight about the experience of an upgrade prior to the actual upgrade. You can explore and preview upgrades to different ServiceNow release versions and see how your instance might be impacted with your current configurations.
 
--   [Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-previewed-changes.md): Preview the changes that have been predicted to occur after an upgrade.
--   [Upgrade Preview form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-preview-form1.md): Alternate view of a previewed upgrade.
+-   [Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-previewed-changes.md): Preview the changes that have been predicted to occur after an upgrade.
+-   [Upgrade Preview form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-upgrade-preview-form1.md): Alternate view of a previewed upgrade.
 
--   **[View previewed upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-preview-form1.md)**  
+-   **[View previewed upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-upgrade-preview-form1.md)**  
 Use the Upgrade Preview form to have an alternate view of a previewed upgrade.
--   **[Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-previewed-changes.md)**  
+-   **[Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-previewed-changes.md)**  
 Use the previewed changes table to view the list of total records that are predicted to change when the upgrade occurs.
 
-**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-tools.md)
+**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-tools.md)
 
 **Related topics**  
 

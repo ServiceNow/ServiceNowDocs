@@ -2,7 +2,7 @@
 title: Activate Procurement
 description: You can activate the Procurement plugin that provides core procurement capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_ActivateProcurement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/procurement/t\_ActivateProcurement.html
 release: australia
 product: Procurement
 classification: procurement
@@ -35,10 +35,10 @@ Role required: procurement\_admin, procurement\_user
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/r_InstalledWithProcurement.md)**  
+-   **[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/procurement/r_InstalledWithProcurement.md)**  
 Several types of components are installed with Procurement.
 
-**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/procurement/c_Procurement.md)
 
 **Related topics**  
 

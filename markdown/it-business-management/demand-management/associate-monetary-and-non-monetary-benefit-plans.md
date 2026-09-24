@@ -2,7 +2,7 @@
 title: Associate monetary and non-monetary benefit plans
 description: Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/associate-monetary-and-non-monetary-benefit-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/associate-monetary-and-non-monetary-benefit-plans.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -61,7 +61,7 @@ On the Benefit Plan form, fill in the **Associated benefit** field with the bene
 </td><td>
 
 1.  On the Benefit Plan form, select **Associate new benefit**.
-2.  On the form, fill in the fields. For details, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-benefit-plan.md) and [Create a non-monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-a-non-monetary-benefit-plan-for-a-demand.md).
+2.  On the form, fill in the fields. For details, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/create-demand-benefit-plan.md) and [Create a non-monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/create-a-non-monetary-benefit-plan-for-a-demand.md).
 
 
 </td></tr></tbody>
@@ -76,5 +76,5 @@ The selected benefit plan is associated with another plan.
 
 Select the **View Associated benefit plan** related link to view the associated benefit plan.
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md)
 

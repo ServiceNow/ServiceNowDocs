@@ -2,7 +2,7 @@
 title: RCA approvals for ServiceNow Otto for HR Service Delivery \(HRSD\)
 description: After you install ServiceNow Otto for HR Service Delivery \(HRSD\), you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/run-rca-now-assist-hrsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/run-rca-now-assist-hrsd.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -37,5 +37,5 @@ After you install ServiceNow Otto for HR Service Delivery \(HRSD\), you might en
 5.  Click **Run Script** to allow all the requested RCAs.
 
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

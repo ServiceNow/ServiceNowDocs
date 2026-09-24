@@ -2,7 +2,7 @@
 title: View Overall supplier dashboard
 description: You can view the Overall supplier dashboard to get the enterprise-wide insights for the entire suppliers base.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/view-overall-supp-db.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/view-overall-supp-db.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -52,10 +52,10 @@ Role required: sn\_slm.admin, sn\_slm.supplier\_manager
     -   Lowest five performing suppliers: List of the suppliers with the lowest KPIs scores
     -   Top five industries with suppliers in action plans: Chart showing industries with the maximum number of suppliers having active action plans
 
-**Parent Topic:**[Overall supplier dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/overall-supplier-db.md)
+**Parent Topic:**[Overall supplier dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/overall-supplier-db.md)
 
 **Related topics**  
 
 
-[Overall supplier dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/overall-supplier-db.md)
+[Overall supplier dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/overall-supplier-db.md)
 

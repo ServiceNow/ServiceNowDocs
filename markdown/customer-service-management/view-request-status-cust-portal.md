@@ -2,7 +2,7 @@
 title: View the status of a request, change request, or registration request
 description: Users with the snc\_external role can view the status of requests and change requests from the Customer Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-request-status-cust-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-request-status-cust-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Role required: snc\_external
 **Related topics**  
 
 
-[Request an item or service from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-request-from-portal.md)
+[Request an item or service from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-request-from-portal.md)
 
-[Approve a change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/approve-request-from-cust-portal.md)
+[Approve a change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/approve-request-from-cust-portal.md)
 

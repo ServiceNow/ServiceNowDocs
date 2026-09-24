@@ -2,7 +2,7 @@
 title: Enable WS-Security verification
 description: Administrators can enable Web Services Security \(WSS\) verification from the Web Services system properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_EnableWS-SecurityVerification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_EnableWS-SecurityVerification.html
 release: australia
 product: Web Services
 classification: web-services
@@ -30,24 +30,24 @@ Role required: web\_service\_admin or admin
 
 3.  Click **Save**.
 
-4.  Create a [WS-security profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CreateANewWS-SecurityProfile.md).
+4.  Create a [WS-security profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_CreateANewWS-SecurityProfile.md).
 
-5.  Update the user record for the [Mid Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetupMIDServerRole.md) and [ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ODBCDriver.md) to [mark these users as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md).
+5.  Update the user record for the [Mid Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetupMIDServerRole.md) and [ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ODBCDriver.md) to [mark these users as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md).
 
-6.  Download and install the latest [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md) and [ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ODBCDriver.md).
+6.  Download and install the latest [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md) and [ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ODBCDriver.md).
 
 7.  To validate SOAP request signatures, upload the remote web service's certificate as a JKS and create the web service's WSS Username Token Profile.
 
     **Note:** Because ServiceNow WSS implementation does not verify the CA certificate, you do not need to upload the web service's CA certificate.
 
 
--   **[Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md)**  
+-   **[Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md)**  
 Allow internal integration communications to bypass the WSS authentication requirement by marking their user accounts as internal integration users.
 
-**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 
 **Related topics**  
 
 
-[Basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+[Basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 

@@ -2,7 +2,7 @@
 title: Configure advanced settings for Amazon CloudWatch data inputs in Health Log Analytics manually
 description: Configure advanced settings for data inputs used for streaming log data from Amazon CloudWatch to your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-adv-cloudwatch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-adv-cloudwatch.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -36,13 +36,13 @@ You can set system parameters for reading log data that determine the actions th
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [Amazon CloudWatch data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-cloudwatch-ref.md).
+    For a description of the fields, see [Amazon CloudWatch data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-cloudwatch-ref.md).
 
     The **Character encoding** field is read-only. By default, the character encoding used for this data input is UTF-8.
 
 5.  In the Streaming Sources related list, verify that this data input is streaming log data from all relevant endpoint devices.
 
-    For more information about streaming sources, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
+    For more information about streaming sources, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
 
 6.  Select **Save**.
 
@@ -64,10 +64,10 @@ You can set system parameters for reading log data that determine the actions th
 8.  Select **Publish** to publish the data input to the MID Server.
 
 
-**Parent Topic:**[Advanced data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)
+**Parent Topic:**[Advanced data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)
 
 **Related topics**  
 
 
-[Configure an Amazon CloudWatch data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-cloudwatch.md)
+[Configure an Amazon CloudWatch data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-cloudwatch.md)
 

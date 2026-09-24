@@ -2,7 +2,7 @@
 title: Configure project type fields and layouts
 description: Define custom fields and a unique form layout to support configuration independence across different types of projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configure-project-type-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/configure-project-type-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -42,7 +42,7 @@ Each project type configuration consists of a dynamic category and a custom form
 
 3.  Fill in the fields on the form.
 
-    For a description of the field values, see [Project type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-type-form-pw.md).
+    For a description of the field values, see [Project type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-type-form-pw.md).
 
 4.  Select **Save** to create and save the project type configuration.
 
@@ -51,5 +51,5 @@ Each project type configuration consists of a dynamic category and a custom form
 
 The project type configuration is saved and activated. Project records assigned to a project type display the custom form view and associated fields. Records assigned to other project types aren't affected.
 
-**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-pw.md)
+**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-pw.md)
 

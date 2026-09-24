@@ -2,7 +2,7 @@
 title: Integration Hub
 description: Integration Hub is a prebuilt low-code platform for adding integrations to prebuilt connectors. Use Integration Hub to connect your custom app to third-party applications without having to write custom code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-integration-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/dev-get-start-integration-hub.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-22"
@@ -37,5 +37,5 @@ Integration Hub provides prebuilt spokes for popular platforms like Slack, Micro
 
 When you want to integrate your custom app with a system that doesn't have a prebuilt spoke, you can build a custom integration directly in Workflow Studio using REST steps, SOAP steps, or script steps. This approach gives you full control over how data is formatted and sent, but requires more technical knowledge than using a prebuilt spoke. For more information, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-steps.md).
 
-**Parent Topic:**[Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-integrations.md)
+**Parent Topic:**[Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-get-start-integrations.md)
 

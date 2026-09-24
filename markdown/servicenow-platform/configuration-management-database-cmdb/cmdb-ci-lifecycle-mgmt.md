@@ -2,7 +2,7 @@
 title: CMDB CI Lifecycle Management \(legacy\)
 description: From the time of its creation until it's no longer needed, a CMDB CI would typically transition through several operational states. CI LIfecycle Management provides the mechanism to define states and actions for a CI and lets you apply appropriate actions based on a CI's state to tailor the management of CI lifecycle to business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -16,7 +16,7 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 From the time of its creation until it's no longer needed, a CMDB CI would typically transition through several operational states. CI LIfecycle Management provides the mechanism to define states and actions for a CI and lets you apply appropriate actions based on a CI's state to tailor the management of CI lifecycle to business needs.
 
-The CMDB Data Manager is now a more comprehensive and integrated solution for managing CI life cycle operations such as deletion and archival, in bulk. For information about the CMDB Data Manager, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
+The CMDB Data Manager is now a more comprehensive and integrated solution for managing CI life cycle operations such as deletion and archival, in bulk. For information about the CMDB Data Manager, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
 Terms associated with CI Lifecycle Management:
 
@@ -94,24 +94,24 @@ Whenever CI’s **Status**/**Hardware Status** changes, it is synchronized to th
 
 For more information about mapping **Asset State** and **Substate** fields to a CI's **Status**/**Hardware Status** \(if its hardware\) field, see [Map asset state and CI hardware status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ManagingAssets.md). And for more information about retiring assets, see [Retire assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ManagingAssets.md).
 
--   **[Get started with CI Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/get-started-cilifecyclemgmt.md)**  
+-   **[Get started with CI Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/get-started-cilifecyclemgmt.md)**  
 Follow these high level steps to get started and to track activities of the CI Lifecycle Management module of the CMDB application.
--   **[Lifecycle management APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/state_mgmt-api.md)**  
+-   **[Lifecycle management APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/state_mgmt-api.md)**  
 CI Lifecycle Management provides a set of state management APIs for manipulating CI operational states, and applying CI actions.
--   **[Components installed by CI Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/tbls-instld-ci-lifecycle-mgmt.md)**  
+-   **[Components installed by CI Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/tbls-instld-ci-lifecycle-mgmt.md)**  
 Several types of components are installed by CI Lifecycle Management \(included in the com.snc.cmdb plugin\), including tables, scheduled jobs, and properties.
--   **[Activate the CI Lifecycle Management scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/enable-cilifecyclemgmt-job.md)**  
+-   **[Activate the CI Lifecycle Management scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/enable-cilifecyclemgmt-job.md)**  
 When starting to use the CI Lifecycle Management module, ensure to activate the **CI Lifecycle Management - Restore Internal State Management Tables** scheduled job which is disabled by default. This scheduled job continuously checks and maintains the data integrity of all internal CI Lifecycle Management tables.
--   **[Define a CI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/define-cmdb-ci-action.md)**  
+-   **[Define a CI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/define-cmdb-ci-action.md)**  
 Define a CI Lifecycle Management CI action that can be later applied to CIs.
--   **[Define compatible CI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dfn-cmptbl-cmdb-ci-action.md)**  
+-   **[Define compatible CI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/dfn-cmptbl-cmdb-ci-action.md)**  
 Allow a CMDB CI Lifecycle Management operation in which two specified CI actions can be applied simultaneously to a CI.
--   **[Define a not-allowed CI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/non-allowed-cmdb-ci-action.md)**  
+-   **[Define a not-allowed CI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/non-allowed-cmdb-ci-action.md)**  
 Define a restriction for CI Lifecycle Management in which a specified action is not allowed for a CI that is in a specified operational state.
--   **[Set priority for an operational state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/set-priority-operational-state.md)**  
+-   **[Set priority for an operational state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/set-priority-operational-state.md)**  
 CI Lifecycle Management allows multiple operators or automations to simultaneously set different operational states for a CI. A CI can have only a single operational state, so in this case, the cumulative operational state of the CI is set to the one with the highest priority. It is recommended that you specify a priority for each operational state that you define so that a cumulative state can be correctly calculated.
--   **[Define a non-allowed operational transition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/not-allowed-oprtionl-trnston.md)**  
+-   **[Define a non-allowed operational transition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/not-allowed-oprtionl-trnston.md)**  
 Define a restriction for CI Lifecycle Management in which a specified CI cannot transition from one operational state to another.
 
-**Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
+**Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
 

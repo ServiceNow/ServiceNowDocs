@@ -2,7 +2,7 @@
 title: Talent pool
 description: Talent pools help you group similar talent profiles in one place to identify the best profile for the job. It also helps to optimize communication and engagement with the targeted profiles simultaneously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/talent-pool-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/talent-pool-overview.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,7 +28,7 @@ The collection of similar talent profiles results in a shorter time-to-hire, usi
 
 2.  Talent pools can be independent of any job requisition. It can only be a gathering of similar profiles as a means to better talent management and future hiring usage.
 
-You can use Talent Pool after setting up the Talent Profile. For more information, see [Configuring Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-tp.md).
+You can use Talent Pool after setting up the Talent Profile. For more information, see [Configuring Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-tp.md).
 
 ## Talent pool benefits
 
@@ -58,11 +58,11 @@ To create campaigns within the Hiring Experiences workspace:
 -   You must have the Content Experiences plugin \(sn\_ca\) activated.
 -   You must have the sn\_ca.campaign\_manager or the sn\_ca.campaign\_approver role to view the campaigns.
 
-For more information on creating targeted campaigns, see [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
+For more information on creating targeted campaigns, see [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 
 The Talent pool section displays all the Talent pools that you can access that are segregated in three types - Owned, Collaborated, or shared.
 
-You can filter the pools by their types, **Export** the details of the section as a downloadable file, or **Create talent pool** directly from the Talent pool section. For more information, see [Create Talent pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-talent-pool.md).
+You can filter the pools by their types, **Export** the details of the section as a downloadable file, or **Create talent pool** directly from the Talent pool section. For more information, see [Create Talent pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-talent-pool.md).
 
-Similar options are available for the All talent section where all the talent profiles in your organization are displayed. You can use the **Create talent** button to add a talent profile to the All talent list. For more information, see [Create talent profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-talent-ta.md).
+Similar options are available for the All talent section where all the talent profiles in your organization are displayed. You can use the **Create talent** button to add a talent profile to the All talent list. For more information, see [Create talent profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-talent-ta.md).
 

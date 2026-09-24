@@ -2,7 +2,7 @@
 title: Show date and time formats on forms preference
 description: Learn more about the Show date and time formats on forms accessibility preference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/show-date-time-formats-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/show-date-time-formats-forms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

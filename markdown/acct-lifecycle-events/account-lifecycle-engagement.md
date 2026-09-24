@@ -2,7 +2,7 @@
 title: Engagement
 description: Engagements can document and track interactions between the service provider and customer accounts throughout the customer success journey.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-engagement.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,5 +23,5 @@ The engagement record is used to:
 -   Create automated triggers: Configure automatic actions based on engagement conditions or related data using health, risk, outcome, and usage frameworks with AI capabilities.
 -   Provide enhanced reporting and analytics: Generates reports and insights related to account health, satisfaction levels, and engagement frequency.
 
-For more details on the engagement record and its features, see [Engagement home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-engage.md).
+For more details on the engagement record and its features, see [Engagement home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-view-engage.md).
 

@@ -2,7 +2,7 @@
 title: Mobile SDK
 description: The ServiceNow mobile SDK enables users to develop native iOS and Android mobile apps using an integrated development environment and give mobile apps access to existing ServiceNow data and workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-sdk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-sdk.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

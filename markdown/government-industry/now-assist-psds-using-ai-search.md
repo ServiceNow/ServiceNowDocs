@@ -2,7 +2,7 @@
 title: Using AI Search in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Agents can search for information with single turn Q&amp;A using the AI Search feature in ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-using-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-using-ai-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,5 +28,5 @@ A search application configuration specifies the search engine and the settings 
 
 An admin can define and customize the source tables and knowledge bases that the ServiceNow Otto AI Search indexes data from by customizing the search profiles within the search application configuration for ServiceNow Otto for Public Sector Digital Services \(PSDS\).
 
-For more information on search application configurations, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-app-cfgs-ais.md). For more information on how to set up and customize AI Search for use with ServiceNow Otto for Public Sector Digital Services \(PSDS\), see [Configure AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring-ai-search-toggle.md).
+For more information on search application configurations, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-app-cfgs-ais.md). For more information on how to set up and customize AI Search for use with ServiceNow Otto for Public Sector Digital Services \(PSDS\), see [Configure AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-configuring-ai-search-toggle.md).
 

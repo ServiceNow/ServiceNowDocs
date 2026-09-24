@@ -2,11 +2,11 @@
 title: Combined Customer Success Management release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Customer Success Management from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-customersuccessmanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-customersuccessmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 8
+last_updated: "2026-09-24"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -131,6 +131,36 @@ The granular admin role enables developers and administrators to complete admini
 Read-only field protections have been moved from the client side to the server side. This move prevents users from updating read-only fields through client-side methods.
 
 
+ -   **[Success report dashboard](https://www.servicenow.com/docs/access?context=account-lifecycle-success-report-overview&family=zurich&ft:locale=en-US)**
+
+Use the Success report dashboard to see the overall view of all the engagements under your hierarchy and manage your entire customer portfolio. Monitor engagement metrics, risk indicators, and get insights into onboarding and adoption status, risk indicators, onboarding and adoption insights, and expansion and renewal metrics.
+
+
+ -   **[Product adoption and usage](https://www.servicenow.com/docs/access?context=account-lifecycle-product-adopt&family=zurich&ft:locale=en-US)**
+
+Measure product adoption trends and proactively guide users to achieve desired outcomes using products and services that have been purchased. Identify active and power users and areas where additional training or support is required due to low engagement.
+
+
+ -   **[Implementation record](https://www.servicenow.com/docs/access?context=account-lifecycle-imp-record&family=zurich&ft:locale=en-US)**
+
+Track the progress of a partner or customer implementing a product or a service. Get a centralized view of the implementation status, identify risks, and run playbooks to mitigate issues.
+
+
+ -   **[Engagement hierarchy](https://www.servicenow.com/docs/access?context=account-lifecycle-view-engage&family=zurich&ft:locale=en-US)**
+
+View aggregate hierarchical data for an engagement. Make informed decisions, improve customer satisfaction through detailed tracking, identify risks early, and help prevent escalations.
+
+
+ -   **[Engagement timeline](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoint-planner&family=zurich&ft:locale=en-US)**
+
+View a chronological list of critical events related to an engagement. Review timelines to recall past events, customer interactions, and identify any issues.
+
+
+ -   **[Contextual color bands](https://www.servicenow.com/docs/access?context=account-lifecycle-setup-color-banding&family=zurich&ft:locale=en-US)**
+
+Associate thresholds and visual representations to health metric data. View product adoption and usage information relative to a specific product.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -140,6 +170,51 @@ Australia
 -   **[Product adoption roadmap versioning](https://www.servicenow.com/docs/access?context=account-lifecycle-par-versioning&family=australia&ft:locale=en-US)**
 
 Track the history of published roadmap states and restore an earlier version as needed. Publishing a roadmap creates a version record with a complete snapshot of the lanes and items. You can revert to any previous version without losing the roadmap.
+
+
+ -   **[Customer Discovery Hub](https://www.servicenow.com/docs/access?context=account-lifecycle-customer-discovery-hub&family=australia&ft:locale=en-US)**
+
+Customer Discovery Hub provides a structured way to capture and preserve customer business context from pre-sales through the post-sale handoff. Sales teams document business needs, challenges, expectations, and use cases that automatically carry forward to engagement records. This gives customer success managers immediate insight into customer objectives and success criteria.
+
+
+ -   **[Adaptive desktop actions](https://www.servicenow.com/docs/access?context=now-assist-adaptive-desktop-actions&family=australia&ft:locale=en-US)**
+
+Use adaptive desktop actions in Customer Success Management to test prompt-driven models on your workflows.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ -   **[Squad resource identifier](https://www.servicenow.com/docs/access?context=now-assist-squad-resource-identifier&family=australia&ft:locale=en-US)**
+
+Recommend internal experts based on engagement context, skill set, region, and real-time availability. Assist customer success teams to quickly identify and connect with the right individuals to support success plays, initiatives, or critical escalations. This helps to promote faster and more effective collaboration across engagements.
+
+-   **[Product release email communication](https://www.servicenow.com/docs/access?context=now-assist-product-release-email-communication&family=australia&ft:locale=en-US)**
+
+Automatically draft, refine, and publish release announcement emails. It identifies the right stakeholders, helps to ensure consistent messaging, and streamlines distribution.
+
+-   **[Recommend risk signal solutions](https://www.servicenow.com/docs/access?context=now-assist-tmt-resolve-risk&family=australia&ft:locale=en-US)**
+
+Monitor solution records linked to risk signals and automatically sync updates back to the original risk signal record. Notify customer success managers with a summarized status, and prompt them to close resolved risks.
+
+-   **[Generate product adoption roadmaps using Now Assist](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-par-roadmap&family=australia&ft:locale=en-US)**
+
+Use generative AI to create product adoption roadmaps by analyzing customer characteristics, identifying similar products, and matching customer goals. Provide contract-level insights to support more effective renewal conversations and expansion opportunities.
+
+-   **[Support renewals and expansion](https://www.servicenow.com/docs/access?context=now-assist-tmt-renewal-analyzer&family=australia&ft:locale=en-US)**
+
+Analyze renewal readiness automatically by evaluating health scores, product usage, and value achievement metrics using the Renewal Insight Engine.
+
+-   **[Product adoption roadmap](https://www.servicenow.com/docs/access?context=account-lifecycle-par-roadmap&family=australia&ft:locale=en-US)**
+
+Enable customer success managers to create structured roadmaps that can guide customers through adoption of purchased products based on business value and current adoption scores. The planner supports two planning levels—Product \(strategic\) and Capabilities \(tactical\)—with sequencing to establish clear adoption pathways.
 
 
 </td></tr></tbody>
@@ -191,7 +266,12 @@ Australia
 
 </td><td>
 
--   **[Touchpoint home page](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoint-home&family=australia&ft:locale=en-US)**
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[Touchpoint home page](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoint-home&family=australia&ft:locale=en-US)**
 
 Internal touchpoints ensure that the internal teams are aligned on the objectives and outcomes of the engagement.
 
@@ -294,6 +374,8 @@ Yokohama
 Install Customer Success Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Customer Success Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -305,6 +387,8 @@ Zurich
 Install Customer Success Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Customer Success Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -315,6 +399,8 @@ Australia
 
 Install Customer Success Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Customer Success Management is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -543,5 +629,5 @@ Australia
  See [Account Lifecycle Events](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

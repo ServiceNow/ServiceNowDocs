@@ -2,7 +2,7 @@
 title: Activity Configuration Detail form
 description: Use the Activity Configuration Detail form to specify which records you want to retrieve from a table when certain conditions are met for a basic activity configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/activity-configuration-detail-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/activity-configuration-detail-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -104,7 +104,7 @@ Section that displays the fields corresponding to the table that you selected in
 -   **Field 2**
 -   **Action group**
 
-When you select **Action group**, you can perform actions right from the my active items section itself. For more information on action groups, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md).
+When you select **Action group**, you can perform actions right from the my active items section itself. For more information on action groups, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/action-group-framework.md).
 
 This section appears only when **Basic** is selected from the **Activity card mapping** field.
 
@@ -117,7 +117,7 @@ Advanced Card View
 In the Card mapping script section, add a JSON script to retrieve records from a table based on the on-screen example. This section appears only when **Scripted** is selected from the **Activity card mapping** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

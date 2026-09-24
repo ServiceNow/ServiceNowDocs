@@ -2,7 +2,7 @@
 title: Scheduling in service operation workspace
 description: View and manage schedules, shifts and time-off request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -136,10 +136,10 @@ Displays list of upcoming tasks assigned to you.-   For agent it might be upcomi
 -   For Manager, this might be a list of gaps and conflicts, time-off request for upcoming shift.
 
 </td></tr></tbody>
-</table>-   **[Manage your work and schedule absence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/work-on-a-schedule-in-sow.md)**  
+</table>-   **[Manage your work and schedule absence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-a-schedule-in-sow.md)**  
 Request absence and provide coverage for a shift. You can also request over-time for a shift.
--   **[Manage shifts in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-shifts-in-service-operation-workspace.md)**  
+-   **[Manage shifts in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-shifts-in-service-operation-workspace.md)**  
 Accept or reject absences requests, resolve gaps and conflicts by providing coverage and scheduling extra time for a shift.
 
-**Parent Topic:**[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)
+**Parent Topic:**[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)
 

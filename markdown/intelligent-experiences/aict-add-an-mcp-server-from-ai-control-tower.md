@@ -2,7 +2,7 @@
 title: Add an MCP server from AI Control Tower
 description: Add an MCP server manually from AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-add-an-mcp-server-from-ai-control-tower.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-add-an-mcp-server-from-ai-control-tower.html
 release: australia
 topic_type: task
 last_updated: "2026-09-03"

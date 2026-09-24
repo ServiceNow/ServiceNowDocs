@@ -2,7 +2,7 @@
 title: Use the View menu icon in Manager Hub
 description: Use the View menu icon \( View menu icon \) to view org menu, interact with an employee or assign a learning course.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/view-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/view-menu.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -38,9 +38,9 @@ Schedule conversation
 
 </td><td>
 
-Schedule a conversation with an employee.If you have the Microsoft Outlook integration for Manager Hub, the Schedule a conversation form opens. For more information, see [Schedule a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/schedule-conversation-form.md).
+Schedule a conversation with an employee.If you have the Microsoft Outlook integration for Manager Hub, the Schedule a conversation form opens. For more information, see [Schedule a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/schedule-conversation-form.md).
 
-If you don't have the Microsoft Outlook integration for Manager Hub, the Create a conversation form opens. For more information, see [Create a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-conversation-form.md).
+If you don't have the Microsoft Outlook integration for Manager Hub, the Create a conversation form opens. For more information, see [Create a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-conversation-form.md).
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Assign learning
 
 </td><td>
 
-Assign a learning course to an employee.For more information, see [Assign learning form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/assign-learning-form.md).
+Assign a learning course to an employee.For more information, see [Assign learning form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/assign-learning-form.md).
 
 **Note:** You can only assign learning for direct reports.
 
@@ -85,7 +85,7 @@ View articles as employee
 View articles visible to an employee.**Note:** You can only view articles visible to your direct reports.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
+</table>**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 

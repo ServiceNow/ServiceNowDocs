@@ -2,7 +2,7 @@
 title: JSON parameter in Configurable Portal Widgets
 description: JSON parameter in Configurable Portal Widgets
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/json-parameter-in-configurable-portal-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/json-parameter-in-configurable-portal-widgets.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure a launcher screen header
 description: Create a launcher screen header to define how the title of the screen appears.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/create-alp-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/create-alp-header.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

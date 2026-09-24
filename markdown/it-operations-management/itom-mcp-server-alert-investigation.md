@@ -2,7 +2,7 @@
 title: Alert investigation with an AI client
 description: Investigate alerts using the ITOM MCP Server Console with an MCP Client application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-mcp-server-alert-investigation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-mcp-server-alert-investigation.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-14"

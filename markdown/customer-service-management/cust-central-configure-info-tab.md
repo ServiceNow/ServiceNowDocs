@@ -2,7 +2,7 @@
 title: Configure the Customer Information view using CRM Workspace
 description: Configure the display of the Customer Information view using CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cust-central-configure-info-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cust-central-configure-info-tab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

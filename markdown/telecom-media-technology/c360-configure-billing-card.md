@@ -2,7 +2,7 @@
 title: Configure the billing card variables
 description: Configure the variables in the billing card.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-configure-billing-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-configure-billing-card.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,10 +38,10 @@ Role required: sn\_telecom\_c360.admin
     |Invoice search field|The search criteria to be used to filter the list of billing accounts to be displayed.|
 
 
-**Parent Topic:**[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-variables.md)
+**Parent Topic:**[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-variables.md)
 
 **Related topics**  
 
 
-[Billing card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-billing-card.md)
+[Billing card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-billing-card.md)
 

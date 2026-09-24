@@ -2,7 +2,7 @@
 title: Access external courses using Coaching with Learning
 description: Add courses from external sources such as Udemy, Pluralsight, or Cornerstone to enable your users to gain skills from external content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/integrate-external-courses-configurable-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/integrate-external-courses-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -22,7 +22,7 @@ Add courses from external sources such as Udemy, Pluralsight, or Cornerstone to 
 
 Role required: sn\_wfo\_cfg\_itsm.manager
 
-You must integrate Coaching with third-party learning management systems. For information on how to perform this integration, see [Integrate Coaching with Learning with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.md).
+You must integrate Coaching with third-party learning management systems. For information on how to perform this integration, see [Integrate Coaching with Learning with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.md).
 
 ## Procedure
 
@@ -43,7 +43,7 @@ You must integrate Coaching with third-party learning management systems. For in
     You can review and learn the external course.
 
 
-**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
+**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a milestone
 description: A milestone is a project task with a duration of zero \(0\). Use milestones to mark key dates in your project, such as key decision points, approvals, and holidays. Milestones are treated like any other project task and you can create dependencies between tasks and milestones.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateMilestones.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_CreateMilestones.html
 release: australia
 product: Project Management
 classification: project-management
@@ -30,10 +30,10 @@ Role required: it\_project\_manager
 
 2.  Open the planning console Gantt chart and verify that it appears as a diamond.
 
-    You can also convert a task to milestone through [Planning console tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_PlanningConsoleTasks.md).
+    You can also convert a task to milestone through [Planning console tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_PlanningConsoleTasks.md).
 
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 

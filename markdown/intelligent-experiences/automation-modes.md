@@ -2,10 +2,10 @@
 title: Automation modes
 description: Automation modes in the Information Extraction skill determine whether predictions are accepted automatically or routed to a human agent for review before a document task completes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/automation-modes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/automation-modes.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Information Extraction skill, Explore, Content Understanding, Enable AI experiences]
 ---
@@ -62,7 +62,7 @@ Use this mode when errors could lead to significant costs, or when prediction re
 </table>**Related topics**  
 
 
-[Predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictions.md)
+[Predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictions.md)
 
-[Turn on full automation mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/turn-on-full-automation.md)
+[Turn on full automation mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/turn-on-full-automation.md)
 

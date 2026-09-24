@@ -2,7 +2,7 @@
 title: Role requirements for Field Encryption
 description: Learn about the roles required to configure Field Encryption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/fe-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/fe-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ Managing requires the following roles. Since is based on the Key Management Fram
 -   sn\_kmf.admin
 -   sn\_kmf.cryptographic\_manager
 
-For complete details on details on roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/kmf-roles.md).
+For complete details on details on roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/kmf-roles.md).
 
 ## Admin and Security Admin
 
@@ -56,5 +56,5 @@ Use the following process to assign this role to a user.
 4.  Search for `sn_kmf.cryptographic_manager` and add the role the selected user.
 5.  Select **Save**.
 
-**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-column-level-encryption.md)
 

@@ -2,7 +2,7 @@
 title: Add an action for a safety risk
 description: Add an action to address an identified risk or implement control measures necessary to improve workplace safety. You can add multiple actions for a hazard or control measure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-add-action-risk-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-add-action-risk-assessment.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -22,7 +22,7 @@ Role required: sn\_hs\_rm.risk\_assessment\_manager, sn\_hs\_rm.risk\_assessment
 
 ## About this task
 
-You can add actions from the Actions tab on a Health and Safety record or by using the Action planner in the contextual sidebar. For more information on Action planner, see [Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md).
+You can add actions from the Actions tab on a Health and Safety record or by using the Action planner in the contextual sidebar. For more information on Action planner, see [Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md).
 
 ## Procedure
 
@@ -32,15 +32,15 @@ You can add actions from the Actions tab on a Health and Safety record or by usi
 
 3.  Create an action from a risk assessment record or the Risk actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d767737e97">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d767741e97">
 
 Option
 
-</th><th align="left" id="d767737e100">
+</th><th align="left" id="d767741e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d767737e106">
+</th></tr></thead><tbody><tr><td id="d767741e106">
 
 **From a Risk assessment record \(Scheduled actions\)**
 
@@ -50,11 +50,11 @@ Steps
 2.  In the list, open a risk assessment.
 3.  In the **Action schedules** tab, set up actions for the risk assessment.
 
-For more information, see [Create a Health and Safety action schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/create-health-safety-action-schedule.md).
+For more information, see [Create a Health and Safety action schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/create-health-safety-action-schedule.md).
 
  The action schedule creates actions in the **Risk actions** tab and auto-assigns them to individuals using the condition builder.
 
-</td></tr><tr><td id="d767737e151">
+</td></tr><tr><td id="d767741e151">
 
 **From the Risk actions list**
 
@@ -64,7 +64,7 @@ For more information, see [Create a Health and Safety action schedule](https://r
 2.  Select **New**.
 3.  On the form, fill in the fields.
 
-For information on field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-action-form.md).
+For information on field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 4.  Select **Save**.
 
@@ -83,5 +83,5 @@ If needed, you can share the action, independent of the risk, with other groups 
 -   The action is duplicated and appears in the **My Tasks** list of the assigned user on the Employee Center.
 -   The action is also listed in the **Actions** list on the Health and Safety Workspace.
 
-**Parent Topic:**[Safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-assessment.md)
+**Parent Topic:**[Safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-risk-assessment.md)
 

@@ -2,7 +2,7 @@
 title: Use tags in the Activity stream
 description: Use tags to filter through the Activity stream.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tags-activity-stream-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tags-activity-stream-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: workspace\_user
 
 Use tags to filter activities in the Activity stream by dynamic and static states that are not offered in filter lists.
 
-**Important:** Tags are enabled and created by your administrator. For instructions, see [Configure tags for the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tags-activity-stream-admin.md).
+**Important:** Tags are enabled and created by your administrator. For instructions, see [Configure tags for the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tags-activity-stream-admin.md).
 
 ## Procedure
 

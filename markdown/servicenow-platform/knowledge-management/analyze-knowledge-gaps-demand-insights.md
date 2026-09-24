@@ -2,7 +2,7 @@
 title: Analyze knowledge gaps from a demand insights dashboard and create knowledge gap feedback tasks
 description: Use the demand insights dashboard for your tasks to analyze candidate knowledge gaps and create knowledge gap feedback tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -35,7 +35,7 @@ A demand insights dashboard displays tasks as topics for which your knowledge ba
 
 2.  To view similar tasks grouped together, click a bar in the Pareto chart.
 
-    Each bar represents a collection of similar tasks grouped together because they are likely to be on the same topic. The bars covering the largest number of tasks start from the left in a descending order. The blue line indicates how many bars you must analyze to cover 80% of all tasks that don't have good knowledge coverage. For more information, see [Pareto chart for Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/pareto-report-demand-insights.md).
+    Each bar represents a collection of similar tasks grouped together because they are likely to be on the same topic. The bars covering the largest number of tasks start from the left in a descending order. The blue line indicates how many bars you must analyze to cover 80% of all tasks that don't have good knowledge coverage. For more information, see [Pareto chart for Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/pareto-report-demand-insights.md).
 
 3.  To generate a representative sample to see a smaller list, in the Knowledge Curation Tasks list, click **Generate Representative Sample**.
 
@@ -43,15 +43,15 @@ A demand insights dashboard displays tasks as topics for which your knowledge ba
 
 4.  Analyze the sample to create a knowledge gap feedback task or ignore the tasks within a collection.
 
-<table id="choicetable_vcr_p5r_hlb"><thead><tr><th align="left" id="d309298e130">
+<table id="choicetable_vcr_p5r_hlb"><thead><tr><th align="left" id="d309505e130">
 
 Action
 
-</th><th align="left" id="d309298e133">
+</th><th align="left" id="d309505e133">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d309298e139">
+</th></tr></thead><tbody><tr><td id="d309505e139">
 
 **Report a knowledge gap to create a feedback task**
 
@@ -69,7 +69,7 @@ The **Description** field is automatically populated with frequently appearing w
 4.  Click **Submit**.
 
 
-</td></tr><tr><td id="d309298e179">
+</td></tr><tr><td id="d309505e179">
 
 **Ignore a collection to avoid its tasks from being reported as knowledge gaps**
 
@@ -87,12 +87,12 @@ If tasks within a collection are reported as knowledge gaps, a common feedback t
 
 If you select an ignored collection from the demand insights dashboard, you can no longer report tasks within the collection as knowledge gaps.
 
-**Parent Topic:**[Configuration tasks for knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuration-tasks-for-knowledge-demand-insights.md)
+**Parent Topic:**[Configuration tasks for knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuration-tasks-for-knowledge-demand-insights.md)
 
 **Related topics**  
 
 
-[Demand Insights for Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/demand-insights-cases-dashboard.md)
+[Demand Insights for Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/demand-insights-cases-dashboard.md)
 
-[Demand Insights for Incidents dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/demand-insights-incidents-dashboard.md)
+[Demand Insights for Incidents dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/demand-insights-incidents-dashboard.md)
 

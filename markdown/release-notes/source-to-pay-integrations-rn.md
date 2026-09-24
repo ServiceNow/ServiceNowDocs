@@ -2,7 +2,7 @@
 title: Source-to-Pay Operations Integrations release notes
 description: he ServiceNow Source-to-Pay Operations extends its capabilities by integrating with third-party applications. The Source-to-Pay Operations integration with SAP, Oracle EBS, Coupa, SAP Ariba, and Oracle Financial Cloud are new applications in the Australia release.he ServiceNow Source-to-Pay Operations extends its capabilities by integrating with third-party applications. The Source-to-Pay Operations integration with SAP, Oracle EBS, Coupa, SAP Ariba, and Oracle Financial Cloud are new applications in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/source-to-pay-integrations-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/source-to-pay-integrations-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ See [Source-to-Pay integration with third-party applications](https://raw.github
     **Important:** Due to a performance issue identified with the upgrade fix script, the sourcing fix script has been modified. This script will no longer execute automatically during the upgrade process. Instead, it is now delivered as an on-demand job. Administrators must manually execute this job outside of business hours after the upgrade is complete.
 
 
-**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/source-to-pay-operations-rn-landing.md)
+**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/source-to-pay-operations-rn-landing.md)
 
 ## Australia
 

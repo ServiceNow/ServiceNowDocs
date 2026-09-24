@@ -2,7 +2,7 @@
 title: ServiceNow Otto for FSM release notes
 description: The ServiceNow ServiceNow Otto for FSM application brings generative AI to Field Service Management. ServiceNow Otto for FSM was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for FSM application brings generative AI to Field Service Management. ServiceNow Otto for FSM was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-fsm-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-fsm-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ See  for more information.
     The ServiceNow Otto for FSM application requires Field Service Management.
 
 
-**Parent Topic:**[Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/field-service-management-rn.md)
+**Parent Topic:**[Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/field-service-management-rn.md)
 
 ## Australia
 

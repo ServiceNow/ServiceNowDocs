@@ -2,7 +2,7 @@
 title: Convert homepages to individual dashboards
 description: Populate the Homepage migration status table and then determine which homepages to convert to dashboards. You can convert homepages to individual dashboards or you can convert multiple homepages to tabs on the same dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/hpm-convert-homepages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/hpm-convert-homepages.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -55,5 +55,5 @@ Update menus that open converted homepages to open the new dashboards.
 
 Navigate to **All** &gt; **Self Service** &gt; **Dashboards**. Open the **All** tab to see the tiles for the converted dashboards.
 
-[Retire a homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/hpm-retire-homepages.md).
+[Retire a homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/hpm-retire-homepages.md).
 

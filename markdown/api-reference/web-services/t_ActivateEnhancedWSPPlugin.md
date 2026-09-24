@@ -2,7 +2,7 @@
 title: Activate the Enhanced Web Service Provider - Common plugin
 description: Administrators can activate the Enhanced Web Service Provider - Common plugin to enable unsigned WS-Security requests and specify what authentication requirements SOAP requests have.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ActivateEnhancedWSPPlugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_ActivateEnhancedWSPPlugin.html
 release: australia
 product: Web Services
 classification: web-services
@@ -35,8 +35,8 @@ Role required: admin.
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Installed with the Enhanced Web Service Provider - Common plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_InstallWEnhancedWSPCommPlugin.md)**  
+-   **[Installed with the Enhanced Web Service Provider - Common plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_InstallWEnhancedWSPCommPlugin.md)**  
 The following components installed with the Enhanced Web Service Provider - Common plugin.
 
-**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 

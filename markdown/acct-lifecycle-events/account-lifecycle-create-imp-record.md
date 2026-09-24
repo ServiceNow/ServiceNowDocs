@@ -2,7 +2,7 @@
 title: Create an implementation record
 description: Track the progress of a partner or customer implementing a product or a service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-imp-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-imp-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -274,5 +274,5 @@ Enter any additional information in the Close notes field.
     -   Select **View all** to view all the implementation records associated with the engagement. The list of records is displayed on a separate page.
     -   Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to open and edit the implementation record.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

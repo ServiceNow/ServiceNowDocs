@@ -2,7 +2,7 @@
 title: Configure the Walk-up Experience portal
 description: Create engaging walk-up center service portals featuring your logo, portal theme, desired catalog, links to a knowledge base and social community, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/configure-walkup-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/configure-walkup-portal.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -41,7 +41,7 @@ Role required: sn\_walkup.walkup\_admin or admin
 
 6.  In the form designer header drop-down list, select or search for any of the configurable walk-up forms to customize your portal appearance.
 
-<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d297600e171">
+<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d297579e171">
 
 **Walk-up context \[wu\_context\]**
 
@@ -49,7 +49,7 @@ Role required: sn\_walkup.walkup\_admin or admin
 
 Online check-in channel for requesters to join a walk-up queue before physically arriving at the walk-up location. Identifies a walk-up requester and the description of the associated interaction.
 
-</td></tr><tr><td id="d297600e180">
+</td></tr><tr><td id="d297579e180">
 
 **Walk-up Location Queue \[wu\_location\_queue\]**
 
@@ -57,7 +57,7 @@ Online check-in channel for requesters to join a walk-up queue before physically
 
 Physical walk-up location interaction queue to manage and administer the service center. You can establish walk-up locations, set hours of operation, enable online check-in, determine assignment groups, associate stockrooms, as well as design the queue time display and position notification system.
 
-</td></tr><tr><td id="d297600e189">
+</td></tr><tr><td id="d297579e189">
 
 **Walk-up Reason \[wu\_m2m\_location\_queue\_reason\]**
 
@@ -65,7 +65,7 @@ Physical walk-up location interaction queue to manage and administer the service
 
 Reasons why a requester needs walk-up support.
 
-</td></tr><tr><td id="d297600e198">
+</td></tr><tr><td id="d297579e198">
 
 **Walk-up Reason for Visit \[wu\_reason\]**
 
@@ -77,5 +77,5 @@ Order in which reasons for a visit should be prioritized at a walk-up location.
 </table>    You can modify the form content to meet your portal requirements. For more details, refer to [Form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/basic-form-administration.md) .
 
 
-**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

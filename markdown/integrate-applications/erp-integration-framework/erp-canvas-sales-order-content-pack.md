@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP Quote to Cash content pack
 description: The Zero Copy Connector for ERP Quote to Cash content pack contains models and process extensions for sales order processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

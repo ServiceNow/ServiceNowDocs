@@ -2,7 +2,7 @@
 title: Approve or reject the processing of custodial and non-custodial data
 description: Review and approve or reject the processing of a custodial or non-custodial record of a digital forensic request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/approve-reject-dft-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/approve-reject-dft-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,5 +62,5 @@ Reject
 -   The state of the legal request remains Assigned.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing digital forensics requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/managing-legal-dft-request.md)
+</table>**Parent Topic:**[Managing digital forensics requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/managing-legal-dft-request.md)
 

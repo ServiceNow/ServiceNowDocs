@@ -2,7 +2,7 @@
 title: Exploring My Resources
 description: Observe and interact with discovered resources by using the My Resources option under More tab on the Employee Center toolbar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/explore-my-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-services-catalog/explore-my-resources.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -28,8 +28,8 @@ The following example shows resource categories and filters. You can access reso
 
 The cloud resources are categorised as above. You can access one of the categories to manage them.
 
--   **[Manage My Resources and resource filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/managing-my-resources.md)**  
+-   **[Manage My Resources and resource filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/managing-my-resources.md)**  
 Access the resources that you own, resources that are owned by a group, or anyone's resources by using the resource filter. You can then find the information that you need by using sorting functions, conditions, categories, and keywords.
 
-**Parent Topic:**[Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/csc-home.md)
+**Parent Topic:**[Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/csc-home.md)
 

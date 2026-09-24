@@ -2,7 +2,7 @@
 title: Languages table
 description: The Languages \[sys\_language\] table contains a list of the languages for which translated text is available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/r\_LanguagesTable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/r\_LanguagesTable.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -24,7 +24,7 @@ To enable translation to a new language, add a record to the Languages table. Th
 -   Active: Indicator that shows whether the language has been activated \(true\) for this instance or not \(false\)
 -   Fallback: Name of the language that the instance uses if a translation is not available
 
-**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslationTables.md)
+**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/r_TranslationTables.md)
 
 **Related topics**  
 

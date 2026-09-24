@@ -2,7 +2,7 @@
 title: Configure PaCE Restricted Caller Access Privileges \(RCA\)
 description: Define cross-scope access to an application, application resource \(such as an access control role, a business rule, a UI action, or a script include\), or event. You can use a requested RCA to grant store apps access to protected resources in the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-rca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-rca.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -39,9 +39,9 @@ Role required: admin
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pace.md)
+**Parent Topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-pace.md)
 
-**Previous topic:**[Map an PaCE eligibility policy to a grant model using Grants Management Eligibility Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-map-eligibility-policy.md)
+**Previous topic:**[Map an PaCE eligibility policy to a grant model using Grants Management Eligibility Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-map-eligibility-policy.md)
 
-**Next topic:**[Configure the Smart Assessment Engine for Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-smart-assessment-engine.md)
+**Next topic:**[Configure the Smart Assessment Engine for Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-smart-assessment-engine.md)
 

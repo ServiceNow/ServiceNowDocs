@@ -2,7 +2,7 @@
 title: Teradata metadata collector
 description: The Teradata metadata collector harvests read-only metadata from a Teradata account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/teradata-metadata-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/teradata-metadata-collector.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-18"
@@ -19,7 +19,7 @@ The collector harvests metadata from Teradata, including user defined functions,
 
 ## Authentication supported
 
-The collector authenticates to Teradata using [username and password](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/June-2022/Network-Security/Authentication-Mechanisms). Before running the collector, set up a dedicated database user with the required permissions. See [Prepare to run the Teradata Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-teradata-collector.md).
+The collector authenticates to Teradata using [username and password](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/June-2022/Network-Security/Authentication-Mechanisms). Before running the collector, set up a dedicated database user with the required permissions. See [Prepare to run the Teradata Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-teradata-collector.md).
 
 ## Metadata cataloged
 
@@ -280,10 +280,10 @@ The collector identifies: -   The associated column in an upstream view or table
 -   Stored procedures used to create tables or transient tables created during the execution scope of a stored procedure
 
 </td></tr></tbody>
-</table>-   **[Prepare to run the Teradata Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-teradata-collector.md)**  
+</table>-   **[Prepare to run the Teradata Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-teradata-collector.md)**  
 Create a dedicated Teradata user with the permissions required for the metadata collector to harvest metadata from a target database.
--   **[Create a Teradata metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-teradata-metadata-collector.md)**  
+-   **[Create a Teradata metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-teradata-metadata-collector.md)**  
 Create a collector to import metadata from Teradata.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-metadata-collectors-dc.md)
 

@@ -2,7 +2,7 @@
 title: Configure the account onboarding data import task
 description: Use the Import Builder to configure the account onboarding data import task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-import-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-import-builder.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,9 +58,9 @@ Use the Import Builder to configure the account onboarding data import task.
 
 ## What to do next
 
-Add this newly created activity definition in the Process Automation Designer and follow the instructions in [Add the data import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-add-data-import.md) section to create an onboarding playbook task.
+Add this newly created activity definition in the Process Automation Designer and follow the instructions in [Add the data import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-add-data-import.md) section to create an onboarding playbook task.
 
 .
 
-**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure.md)
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-configure.md)
 

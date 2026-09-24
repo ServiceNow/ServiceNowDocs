@@ -2,7 +2,7 @@
 title: Find alternative suppliers
 description: If a supplier's inability to fulfill an order creates a shortfall, find an alternative supplier. Review open orders with other suppliers for the same material at the required location. You can then request for expedited delivery or increased quantities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/find-alternative-suppliers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/find-alternative-suppliers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,14 +44,14 @@ Role required: sn\_poem\_core.operational\_buyer
 
 A purchase order revision is created for the alternative supplier and is assigned to the supplier contact.
 
-**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/resolving-purchase-order-exceptions.md)
 
 **Related topics**  
 
 
-[Confirm a resolution for a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/confirm-resolution.md)
+[Confirm a resolution for a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/confirm-resolution.md)
 
-[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-po-exception-task.md)
+[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/view-po-exception-task.md)
 
-[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
 

@@ -2,7 +2,7 @@
 title: Legacy: Open Changes State Monitor dashboard
 description: This workbench dashboard enables you to view and assess all open changes separated into status brackets: New, Assessed, Authorized, Scheduled, Implemented, and Reviewed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-state-monitor-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-state-monitor-dashboard.html
 release: australia
 product: Change Management
 classification: change-management
@@ -18,7 +18,7 @@ This workbench dashboard enables you to view and assess all open changes separat
 
 **Important:**
 
-Starting in Xanadu release, the Core UI Open Changes State Monitor dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change.md) to view, and track the open changes.
+Starting in Xanadu release, the Core UI Open Changes State Monitor dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change.md) to view, and track the open changes.
 
 \[Omitted image "change-open-changes-state-monitor.png"\] Alt text: Open Changes State Monitor dashboard
 
@@ -48,5 +48,5 @@ Starting in Xanadu release, the Core UI Open Changes State Monitor dashboard is 
 -   Age
 -   Assignment Group
 
-**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-content-pack.md)
+**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-content-pack.md)
 

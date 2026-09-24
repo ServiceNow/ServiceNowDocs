@@ -2,7 +2,7 @@
 title: Translating to an unsupported language
 description: Translate the interface of an instance to a language for which ServiceNow does not provide an internationalization \(I18N\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/self-localize.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/self-localize.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -28,21 +28,21 @@ All interface items are stored as translatable strings in the translation tables
 
 There is a very large number of translatable strings on the platform. Exporting all of them and translating them manually is probably not a realistic possibility. Consider exporting filtered subsets of the strings from each table and then translating them. To download a file of translatable strings, see [KB0860203](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0860203).
 
-You can use the Localization Framework application to translate to an unsupported language or to translate large amounts of custom UI string content in a supported language. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md).
+You can use the Localization Framework application to translate to an unsupported language or to translate large amounts of custom UI string content in a supported language. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/localization-framework-landing.md).
 
 ## Procedure
 
-1.  [Create a language record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_CreateANewLanguageRecord.md) for the unsupported language.
+1.  [Create a language record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_CreateANewLanguageRecord.md) for the unsupported language.
 
-2.  Export and translate the strings that you want to translate, as described in [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateTheInterface.md).
+2.  Export and translate the strings that you want to translate, as described in [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_TranslateTheInterface.md).
 
-3.  Import the translated document back into the instance as an import set, as described in [Import a translation from an Excel spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateTheInterface.md).
+3.  Import the translated document back into the instance as an import set, as described in [Import a translation from an Excel spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_TranslateTheInterface.md).
 
-4.  [Create a language choice for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_CreateANewChoiceRecord.md) to select the new language.
+4.  [Create a language choice for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_CreateANewChoiceRecord.md) to select the new language.
 
 
 **Related topics**  
 
 
-[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslationTables.md)
+[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/r_TranslationTables.md)
 

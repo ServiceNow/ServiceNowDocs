@@ -2,7 +2,7 @@
 title: Create a matching rule for anonymous chat
 description: Create one matching rule for each agent queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-match-rule-anonymous-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-match-rule-anonymous-chat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

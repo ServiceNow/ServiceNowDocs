@@ -2,7 +2,7 @@
 title: Associate healthcare locations with a healthcare organizations
 description: Associate healthcare locations with healthcare organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -24,7 +24,7 @@ You can also associate multiple healthcare organizations with a healthcare locat
 
 For example, a single ICU room in a hospital might be used by multiple departments, such as cardiology and neurology. You would associate those departments \(Healthcare organizations\) with the ICU room \(a Healthcare location\) using the steps that follow.
 
-For more information, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
+For more information, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 
 ## Before you begin
 

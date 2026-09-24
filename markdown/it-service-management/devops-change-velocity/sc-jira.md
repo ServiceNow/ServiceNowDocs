@@ -2,7 +2,7 @@
 title: Onboard Jira to DevOps Change Velocity — Service Catalog
 description: Create, connect, discover, and configure your Jira Server or Jira Cloud instance using the ServiceNow Service Catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/sc-jira.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/sc-jira.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -77,7 +77,7 @@ Jira Cloud
     2.  Enter the password or access token to access this instance.
 **OAuth 2.0 with 3LO**
 
-Select the OAuth credential record. For more information, see [Connect a Jira tool using OAuth 2.0 with 3LO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/connect-a-jira-tool-using-oauth-2-0-with-3lo.md).
+Select the OAuth credential record. For more information, see [Connect a Jira tool using OAuth 2.0 with 3LO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/connect-a-jira-tool-using-oauth-2-0-with-3lo.md).
 
 5.  If you want to configure webhooks for all the projects discovered in your Jira instance, then select the option **Do you wish to configure webhook for the tool?**
 
@@ -87,7 +87,7 @@ Select the OAuth credential record. For more information, see [Connect a Jira to
 
 
 </td></tr></tbody>
-</table>    For a list of all the permissions required on the credentials for connecting to Jira, see Jira permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/tool-req-permission.md).
+</table>    For a list of all the permissions required on the credentials for connecting to Jira, see Jira permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/tool-req-permission.md).
 
 5.  Select **Order Now**.
 
@@ -159,5 +159,5 @@ Select the dates for which you want to import the data. By default, the last 30 
     A request is created. When the request is approved, the plan objects are associated to the app record, which enables real-time tracking. Historical data is also imported for the selected plans. The **Track** field is automatically enabled for imported plans.
 
 
-**Parent Topic:**[Jira integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jira-integration-dev-ops.md)
+**Parent Topic:**[Jira integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/jira-integration-dev-ops.md)
 

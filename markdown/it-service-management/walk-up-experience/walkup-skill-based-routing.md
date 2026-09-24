@@ -2,7 +2,7 @@
 title: Configure skill-based routing in Walk-up Experience
 description: Route work items to assigned groups. Use skill-based routing to ensure that the right work goes to the right agent depending on the walk-up reasons.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/walkup-skill-based-routing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/walkup-skill-based-routing.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -25,8 +25,8 @@ Identify skills for a specific set of conditions defined for walk-up reasons. Us
 
 For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md)
 
--   **[Route walk-up tasks to skilled agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-routing-tasks-to-skilled-agents.md)**  
+-   **[Route walk-up tasks to skilled agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-routing-tasks-to-skilled-agents.md)**  
 Use business rules to automatically route walk-up tasks to the agents based on their skill set.
 
-**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

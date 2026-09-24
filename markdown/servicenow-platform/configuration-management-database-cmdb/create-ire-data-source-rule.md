@@ -2,7 +2,7 @@
 title: Create an IRE data source rule
 description: When using Identification and Reconciliation Engine \(IRE\), you can prevent a specific discovery \(data\) source from inserting new CIs for a specific class. Create IRE data source rules for discovery sources that you don't trust in creating CIs but continue to trust in updating those CIs that exist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-ire-data-source-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/create-ire-data-source-rule.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -70,5 +70,5 @@ If later, a permitted discovery source successfully inserts a CI that matches th
 3.  Later payloads in which the non-permitted discovery source updates the respective CI, run successfully.
 4.  IRE allows the discovery source, that was previously prohibited from inserting the CI, to update that same CI which now exists in the CMDB.
 
-**Parent Topic:**[Configuring CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-ire.md)
+**Parent Topic:**[Configuring CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/configuring-ire.md)
 

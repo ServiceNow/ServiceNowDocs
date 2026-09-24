@@ -2,7 +2,7 @@
 title: Accept a live chat from a requester
 description: Automatically create an incident by accepting a live chat or phone call from a requester.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/accept-chat-ai-native-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/accept-chat-ai-native-itsm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -57,5 +57,5 @@ Role required: sn\_service\_desk\_agent
 
 \[Omitted image "incident-ai-native-itsm.png"\] Alt text: Ai native incident form with no chat panel.
 
-**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)
+**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/fulfiller-experience-ai-native-itsm.md)
 

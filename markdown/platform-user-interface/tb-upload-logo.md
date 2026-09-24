@@ -2,7 +2,7 @@
 title: Upload a new logo to your Theme Builder theme
 description: If you previously applied a custom or default ServiceNow logo to your theme during theme creation, you can upload a new one in Theme Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-upload-logo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-upload-logo.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -63,8 +63,8 @@ For information on granular roles, see [Granular admin roles](https://raw.github
     If you delete your logo, the ServiceNow logo is used.
 
 
--   **[Resize a logo for your login screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-resize-logo.md)**  
+-   **[Resize a logo for your login screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-resize-logo.md)**  
 After you have uploaded a logo for your login screen, you can resize the logo by creating and setting a system property.
 
-**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)
+**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-with-global-styles.md)
 

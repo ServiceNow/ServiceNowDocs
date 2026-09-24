@@ -2,7 +2,7 @@
 title: View invoices on the Business Portal
 description: Access your invoices and invoice line details from the Business Portal to track billing information and identify discrepancies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/view-invoices-business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-invoices-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,14 +40,14 @@ Role required: sn\_customerservice.customer
 3.  Select an invoice record number to view its details.
 
 
-**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 
 
-[Dispute a specific line item on an invoice against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-invoice-case-single.md)
+[Dispute a specific line item on an invoice against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-invoice-case-single.md)
 
-[Dispute multiple invoices against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-invoice-case-multiple.md)
+[Dispute multiple invoices against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-invoice-case-multiple.md)
 
-[View invoice case details in the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-invoice-cases-business-portal.md)
+[View invoice case details in the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-invoice-cases-business-portal.md)
 

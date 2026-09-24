@@ -2,7 +2,7 @@
 title: Case and account escalation process
 description: The case and account escalation process follows several steps from request to completion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-escalation-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-escalation-process.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ The case and account escalation process follows several steps from request to co
     -   The escalation template
     -   The watch list for the escalation
 2.  If approval is required for an escalation request, approvers from the selected approval group review and approve or reject the escalation request. The chosen approval subflow then updates the approval status accordingly.
-3.  Following approval, the agent manages the escalation as it progresses using the [escalation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-escalation-form.md). For example, the agent can add users to the watch list and update the escalation trend.
+3.  Following approval, the agent manages the escalation as it progresses using the [escalation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-escalation-form.md). For example, the agent can add users to the watch list and update the escalation trend.
 
     **Note:** Updates to the escalation form send email notifications to the current user and to users on the watch list.
 

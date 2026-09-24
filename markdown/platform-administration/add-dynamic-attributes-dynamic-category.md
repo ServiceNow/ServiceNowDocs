@@ -2,7 +2,7 @@
 title: Include dynamic attributes in a dynamic category
 description: Categorize specific dynamic attributes by relating a dynamic attribute to a dynamic category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/add-dynamic-attributes-dynamic-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/add-dynamic-attributes-dynamic-category.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

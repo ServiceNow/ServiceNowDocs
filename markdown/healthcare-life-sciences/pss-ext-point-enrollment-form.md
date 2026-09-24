@@ -2,7 +2,7 @@
 title: Configure the submission flow of the enrollment request form
 description: Use scripted extension points to decide what records are created or updated after an enrollment request form is submitted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-ext-point-enrollment-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-ext-point-enrollment-form.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

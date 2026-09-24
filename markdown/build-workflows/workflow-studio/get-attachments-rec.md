@@ -2,7 +2,7 @@
 title: Get Attachments on Record action
 description: Access the list and count of the attachments associated with the provided source record as data pills in a flow. Use flow logic or scripting to process each attachment in the list of the attachments that the action returns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/get-attachments-rec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/get-attachments-rec.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -64,5 +64,5 @@ This example illustrates getting all attachments from an incident record. Leavin
 
 In this example, the incident record contained two attachments.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

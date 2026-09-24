@@ -2,7 +2,7 @@
 title: Publish the VA topic template for legal name change
 description: Publish the Workday Legal Name Change Template which contains an NLU model that recognizes and processes employee utterances, intentions \(intents\), and objects of, or contexts for, an action \(entities\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/nlu-awd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/nlu-awd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -33,7 +33,7 @@ Role required: sn\_hr\_workday.admin
 4.  Click **Publish**.
 
 
-**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
 
 **Related topics**  
 

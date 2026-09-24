@@ -2,7 +2,7 @@
 title: Add a product to an existing provider in CAPI
 description: The Cloud Provisioning and Governance Cloud API \(CAPI\) offers many providers, such as AWS and Azure, and products, such as EC2 instances. However, you can add products to existing providers for new types of cloud resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-provider.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,7 +19,7 @@ The Cloud Provisioning and Governance Cloud API \(CAPI\) offers many providers, 
 ## Before you begin
 
 -   Role required: admin
--   Review [Default CAPI APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/default-apis.md) and make sure the provider and product that you want to create are not already provided.
+-   Review [Default CAPI APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/default-apis.md) and make sure the provider and product that you want to create are not already provided.
 -   Familiarize yourself with the cloud provider API so that you know how to create REST calls to the provider. If you are not familiar with the headers, authentication requirements, endpoint, and data that you can pass into the provider API, you cannot build your own CAPI components.
 
 ## About this task
@@ -94,7 +94,7 @@ CI Class
 
 </td><td>
 
-A CMDB table you need to associate with the resource type. If you do not see the correct CMDB table, see [Create a CI class for a virtual cloud resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-a-ci-class-cloud.md) for instructions on how to create one.
+A CMDB table you need to associate with the resource type. If you do not see the correct CMDB table, see [Create a CI class for a virtual cloud resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-a-ci-class-cloud.md) for instructions on how to create one.
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Pattern
 
 </td><td>
 
-The pattern that is used to discover the resource type. Select from the [Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md) lookup list or [create a new pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md).
+The pattern that is used to discover the resource type. Select from the [Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md) lookup list or [create a new pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ The order in which resource type is provisioned or discovered. Specify the order
 
 ## What to do next
 
-[Create a CI class for a virtual cloud resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-a-ci-class-cloud.md) if necessary, or [Create or extend a CAPI interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-interface.md)
+[Create a CI class for a virtual cloud resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-a-ci-class-cloud.md) if necessary, or [Create or extend a CAPI interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-interface.md)
 
-**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
+**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

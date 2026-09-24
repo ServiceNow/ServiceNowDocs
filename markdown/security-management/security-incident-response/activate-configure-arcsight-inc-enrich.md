@@ -2,7 +2,7 @@
 title: Get started with the HPE ArcSight Logger
 description: HPE ArcSight Logger streams real-time data and categorizes them into specific logs and easily integrates with Security Operations. Before you can use the HPE ArcSight Logger - Incident Enrichment integration, you must download it from the ServiceNow Store and add API URL and login credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activate-configure-arcsight-inc-enrich.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/activate-configure-arcsight-inc-enrich.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -22,7 +22,7 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/download-app-first-time.md).
 
 2.  When the installation is complete, navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configurations**.
 
@@ -42,7 +42,7 @@ Role required: sn\_si\_admin
     |Earliest Result \(days\)|The earliest results you want to see in number of days.|
     |Max Rows|The maximum number of rows you want to search.|
     |All Peers|The default is unchecked and searches only the local logger you are connected to. When checked, it searches all the loggers that are connected to one another.|
-    |Include raw data samples in search results|Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the **number of rows of raw data** property in [Security Incident Response properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/installed-with-sir.md).|
+    |Include raw data samples in search results|Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the **number of rows of raw data** property in [Security Incident Response properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/installed-with-sir.md).|
     |MID Server|Select **Any** to use any active MID Server, or select a specific MID Server name.|
 
     **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Workflow Editor**.
@@ -56,5 +56,5 @@ Role required: sn\_si\_admin
 7.  To return to the original list of integration configuration cards, select **No** from the **Show Configurations** drop-down list.
 
 
-**Parent Topic:**[HPE ArcSight Logger - Incident Enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/arcsight-logger-landing-page.md)
+**Parent Topic:**[HPE ArcSight Logger - Incident Enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/arcsight-logger-landing-page.md)
 

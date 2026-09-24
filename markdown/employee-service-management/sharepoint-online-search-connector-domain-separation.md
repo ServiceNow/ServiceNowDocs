@@ -2,7 +2,7 @@
 title: Domain separation and SharePoint Online Search Connector
 description: Domain separation is unsupported for the SharePoint Online Search Connector .
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/sharepoint-online-search-connector-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/sharepoint-online-search-connector-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

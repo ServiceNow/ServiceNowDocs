@@ -2,7 +2,7 @@
 title: Customize segment button colors in the segmented control area
 description: Customize the color of segment buttons to help users identify a tapped segment button. For example, use a darker color to indicate that it is a selected button.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/dynamic-segmented-control-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/dynamic-segmented-control-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

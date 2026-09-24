@@ -2,7 +2,7 @@
 title: Managing HTML content in knowledge articles
 description: You can manage HTML content in knowledge articles by using the HTML editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/including-html-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/including-html-content.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -24,7 +24,7 @@ You can perform the following functions for HTML content in knowledge articles:
 -   Copy content from external sources and paste them as simple text into the editor. For more information, see [Paste content into the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/paste.md-editor.md).
 -   View and edit the HTML source code by using the source code iconavailable on the HTML toolbar. For more information, see [Extended functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ExtendedFunctions.md).
 
-    **Note:** To insert or edit a code snippet, see [Format a code snippet automatically in knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/insert-code-html-editor.md).
+    **Note:** To insert or edit a code snippet, see [Format a code snippet automatically in knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/insert-code-html-editor.md).
 
 -   Expand the HTML field to use the full form view for easier editing by using the full screen icon . For more information, see [Extended functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ExtendedFunctions.md).
 

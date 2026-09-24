@@ -2,7 +2,7 @@
 title: Respond to a risk assessment
 description: Conduct risk assessments to assess risks in the Operational Sustainability Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/respond-to-a-risk-asmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/respond-to-a-risk-asmt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,5 +62,5 @@ Role required: sn\_esg.data\_owner
     |**Reassign**|If the assessment must be assigned to someone else, select this option.|
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-risk-management.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-risk-management.md)
 

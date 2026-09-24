@@ -2,7 +2,7 @@
 title: Add an MCP Server with API Key
 description: Add an MCP Server with an API Key in the AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-mcp-server-api-key-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-mcp-server-api-key-new.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -81,7 +81,7 @@ A unique code or password to identify and authenticate the user or application w
 
 7.  Define Security controls for the MCP Servers.
 
-    For more information, see [Define security controls for MCP Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-mcp.md).
+    For more information, see [Define security controls for MCP Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-mcp.md).
 
 8.  Define the Tools for the Model Context Protocol Sever.
 

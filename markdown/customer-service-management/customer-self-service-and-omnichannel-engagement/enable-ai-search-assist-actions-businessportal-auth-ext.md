@@ -2,7 +2,7 @@
 title: Configure AI Search Assist Actions for authenticated external users in Business and Consumer Portal
 description: Enable the AI Search Assist Actions to search knowledge articles in the Business and Consumer portal. It applies for authenticated external users with the snc\_external role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-assist-actions-businessportal-auth-ext.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-assist-actions-businessportal-auth-ext.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -57,10 +57,10 @@ Role required: web\_service\_admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[AI Search Assist for authenticated external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-for-business-portal-auth-external.md)
+**Parent Topic:**[AI Search Assist for authenticated external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-for-business-portal-auth-external.md)
 
 **Related topics**  
 
 
-[Configure AI Search Assist for authenticated external users in the Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-assist-portal-auth-external-businessportal.md)
+[Configure AI Search Assist for authenticated external users in the Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-assist-portal-auth-external-businessportal.md)
 

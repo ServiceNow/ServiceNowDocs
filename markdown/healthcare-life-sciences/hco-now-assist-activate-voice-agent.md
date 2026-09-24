@@ -2,7 +2,7 @@
 title: Activate the Care Team Operations Case Creation AI voice agent
 description: Activate the Care Team Operations Case Creation AI voice agent to enable care team members to create and manage cases over the phone.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-activate-voice-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-now-assist-activate-voice-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"

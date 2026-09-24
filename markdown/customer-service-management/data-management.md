@@ -2,7 +2,7 @@
 title: Getting started with Customer Service Management
 description: Activate the Customer Service plugin and plan your Customer Service Management implementation by installing additional plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/data-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/data-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md)
+[Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ActivateCustomerService.md)
 
 </td><td>
 
@@ -32,7 +32,7 @@ As an admin, activate the Customer Service plugin \(com.sn\_customerservice\). T
 
 </td></tr><tr><td>
 
-[Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/plugins-activated-with-csm.md)
+[Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/plugins-activated-with-csm.md)
 
 </td><td>
 
@@ -40,7 +40,7 @@ Refer the list of related CSM plugins that are activated after activating the Cu
 
 </td></tr><tr><td>
 
-[Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md)
+[Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_CustServMgmtAddtlPluginsTable.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Refer the list of additional CSM plugins that you can activate after activating 
 
 </td></tr><tr><td>
 
-[Customer Service properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-properties.md)
+[Customer Service properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-csm-properties.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Customize settings for several different features, including email communication
 
 </td></tr><tr><td>
 
-[Configure foundation data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-foundation-data.md)
+[Configure foundation data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-csm-foundation-data.md)
 
 </td><td>
 

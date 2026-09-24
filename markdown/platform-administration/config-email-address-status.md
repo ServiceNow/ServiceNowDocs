@@ -2,7 +2,7 @@
 title: Configure bounce email address status
 description: Configure a bounced email address status according to type, class, subject, and details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/config-email-address-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/config-email-address-status.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,10 +35,10 @@ For detailed information on status codes and explanations of the components, see
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Email bounce management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-bounce.md)
+**Parent Topic:**[Email bounce management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-bounce.md)
 
 **Related topics**  
 
 
-[Check the status of bounced email addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/change-bounce-email-status.md)
+[Check the status of bounced email addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/change-bounce-email-status.md)
 

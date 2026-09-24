@@ -2,7 +2,7 @@
 title: Raise a delivery plan change request
 description: Submit a request in the Supplier Collaboration Portal header to create a purchase order exception.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/raise-delivery-plan-chg-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/raise-delivery-plan-chg-req.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,12 +35,12 @@ Role required: sn\_slm.contact
 
 5.  On the Delivery plan change form, fill in the fields.
 
-    For a description of the field values, see [Delivery plan change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-delivery-plan-change.md).
+    For a description of the field values, see [Delivery plan change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/create-delivery-plan-change.md).
 
 6.  Select **Submit**.
 
     The application creates an exception and assigns it to the operational buyer.
 
 
-**Parent Topic:**[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)
+**Parent Topic:**[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/reporting-delivery-plan-issues.md)
 

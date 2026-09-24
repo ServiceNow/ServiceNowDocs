@@ -2,7 +2,7 @@
 title: Exploring Service Observability
 description: Service Observability helps operations teams triage and manage incidents in a complex and distributed production system. It combines external observability monitoring systems' telemetry with related data from the Configuration Management Database \(CMDB\) and displays both in a single workflow in the Service Operations Workspace \(SOW\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/exploring-service-observability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-observability/exploring-service-observability.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -35,7 +35,7 @@ Service Observability supports the following observability vendors:
 -   Splunk Observability and logs from Splunk Enterprise
 -   Zabbix on-premise
 
-Service Observability also supports MetricBase as a data source. For setup instructions, see [Create and manage MetricBase data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/create-and-manage-metricbase-data-mappings.md).
+Service Observability also supports MetricBase as a data source. For setup instructions, see [Create and manage MetricBase data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/create-and-manage-metricbase-data-mappings.md).
 
 Service Observability supports the following databases:
 
@@ -47,7 +47,7 @@ After connecting an observability vendor to Service Observability, you map servi
 
 With this data mapping, Service Observability displays metrics for entities such as host, database, or network components, along with details about related CI information. Operators use these metrics and contextual information, including current incidents and alerts, to assess service health.
 
-**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-service-health-in-service-observability.md) AI skills to generate an analysis for them.
+**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/analyze-service-health-in-service-observability.md) AI skills to generate an analysis for them.
 
 For example, you use Dynatrace to monitor your `checkout` service, databases, and hosts. Metrics from all these entities use the tag `checkout-service` to denote requests coming from that service. By mapping the `checkout` service CI to the Dynatrace data tagged with `checkout-service`, Service Observability retrieves metrics for those databases, hosts, and related CIs. It then displays them together. Operators can pinpoint issues on entities related to the service and narrow down the mitigation process without having to leave the SOW.
 
@@ -125,8 +125,8 @@ Consolidate data from existing monitoring tools, network health tools, cloud pro
 
 </td><td>
 
--   [Connect a Service Observability data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/connect-an-observability-data-source.md)
--   [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md)
+-   [Connect a Service Observability data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/connect-an-observability-data-source.md)
+-   [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md)
 
 .
 
@@ -140,7 +140,7 @@ Increase efficiency and reduce mean time to resolution \(MTTR\). View combined m
 
 </td><td>
 
-[View service health metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/view-service-health-metrics.md)
+[View service health metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/view-service-health-metrics.md)
 
 </td><td>
 
@@ -152,7 +152,7 @@ See related changes to the system and alerts associated with a service in one pl
 
 </td><td>
 
-[View overall service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/view-overall-service-health.md).
+[View overall service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/view-overall-service-health.md).
 
 </td><td>
 
@@ -164,8 +164,8 @@ Use generative AI to analyze metric data and find insights to help determine ser
 
 </td><td>
 
--   [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md)
--   [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-service-health-in-service-observability.md)
+-   [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md)
+-   [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/analyze-service-health-in-service-observability.md)
 
 </td><td>
 
@@ -189,7 +189,7 @@ Customize dashboard templates.
 
 </td><td>
 
-[Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md)
+[Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md)
 
 </td><td>
 
@@ -200,8 +200,8 @@ Admins
 
 To learn more about configuring and using Service Observability, see:
 
--   [Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/configuring-service-observability.md)
--   [View overall service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/view-overall-service-health.md)
--   [View service health metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/view-service-health-metrics.md)
--   [Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/service-observability-reference.md)
+-   [Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/configuring-service-observability.md)
+-   [View overall service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/view-overall-service-health.md)
+-   [View service health metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/view-service-health-metrics.md)
+-   [Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/service-observability-reference.md)
 

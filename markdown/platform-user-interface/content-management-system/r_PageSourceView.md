@@ -2,7 +2,7 @@
 title: Page source view
 description: Use the tools available in your browser to view the frame source page and understand what URL address bars pass between system frame sets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/r\_PageSourceView.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/r\_PageSourceView.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -22,5 +22,5 @@ This Firefox functionality is useful when stepping through the menu items sectio
 
 \[Omitted image "FrameView.png"\] Alt text: In Firefox, navigate to This Frame, Open Frame in New Tab.
 
-**Parent Topic:**[View links between system elements and URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_LinkToContent.md)
+**Parent Topic:**[View links between system elements and URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_LinkToContent.md)
 

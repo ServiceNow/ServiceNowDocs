@@ -2,7 +2,7 @@
 title: Start a direct or group conversation
 description: You can start a conversation with one or more users in Connect Chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_StartAConversation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/t\_StartAConversation.html
 release: australia
 product: Connect
 classification: connect

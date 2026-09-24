@@ -2,7 +2,7 @@
 title: Personal Deposit Operations dashboard
 description: With the Financial Services Personal Deposit Operations dashboard, you can get an insight into how your team and business are performing for the deposit service requests received for your financial services. You can monitor the status of the deposit service cases, see trends, and drill down into the details from a single view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-personal-deposit-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-personal-deposit-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

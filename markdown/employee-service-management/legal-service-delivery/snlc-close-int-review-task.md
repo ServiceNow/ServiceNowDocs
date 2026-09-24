@@ -2,7 +2,7 @@
 title: Cancel a review task
 description: As a contract fulfiller, cancel a review task irrespective of its state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-close-int-review-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-close-int-review-task.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d239444e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d239448e55">
 
 Method
 
-</th><th align="left" id="d239444e58">
+</th><th align="left" id="d239448e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d239444e64">
+</th></tr></thead><tbody><tr><td id="d239448e64">
 
 **My Work listing**
 
@@ -44,7 +44,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d239444e111">
+</td></tr><tr><td id="d239448e111">
 
 **Delegated to me listing**
 
@@ -56,7 +56,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d239444e158">
+</td></tr><tr><td id="d239448e158">
 
 **Contract Review Tasks listing**
 
@@ -68,7 +68,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d239444e205">
+</td></tr><tr><td id="d239448e205">
 
 **Contract Request Reviews tab**
 
@@ -97,5 +97,5 @@ Steps
 -   The review task is canceled and the cancellation comments appear in the Additional Comments section of the contract request.
 -   When all the review tasks are cancelled or closed, the contract request State updates to Work in progress.
 
-**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-expert-review.md)
 

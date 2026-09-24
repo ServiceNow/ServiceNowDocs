@@ -2,7 +2,7 @@
 title: Configure and manage the Action Plan Guided Tour for Journey Accelerator
 description: As an administrator \[admin\] or a guided tour administrator \[guided\_tour\_admin\], you can manage and update the Action Plan Guided Tour for Journey Accelerator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/ja-guided-tour.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-accelerator/ja-guided-tour.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator

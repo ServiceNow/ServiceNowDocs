@@ -2,7 +2,7 @@
 title: Configure scheduled offline caching
 description: Configure offline caching so your field technicians can receive scheduled updates to their offline data cache. Scheduled downloads are based on the user's work schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/scheduled-offline-caching.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/scheduled-offline-caching.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-09"
@@ -30,7 +30,7 @@ The offline payloads that your instance generates are based on the times recorde
 
 ## Scheduled Jobs associated with offline caching
 
-These scheduled jobs are automatically scheduled for only users who enable background downloading on their app. For information on how users can enable this feature, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-end-user.md).
+These scheduled jobs are automatically scheduled for only users who enable background downloading on their app. For information on how users can enable this feature, see [Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-end-user.md).
 
 -   **Populate Agents Daily Schedule Table**
 
@@ -94,10 +94,10 @@ glide.sg.offline.attachment.max\_total\_bytes
 Defines the total amount of storage the offline cache can use for attachments in bytes.
 
 </td></tr></tbody>
-</table>For information on other related offline system properties, see [System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-system-properties.md).
+</table>For information on other related offline system properties, see [System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-system-properties.md).
 
--   **[General guidelines for scheduling offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/general-guidelines-schedule-caching.md)**  
+-   **[General guidelines for scheduling offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/general-guidelines-schedule-caching.md)**  
 When scheduling offline caches keep these general guidelines in mind for usability and a good user experience.
 
-**Parent Topic:**[Scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-caching-scheduled.md)
+**Parent Topic:**[Scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-caching-scheduled.md)
 

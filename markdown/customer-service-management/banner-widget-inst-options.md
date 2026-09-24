@@ -2,7 +2,7 @@
 title: Portal Banner widget instance options form
 description: Instance options enable you to configure the Portal Banner widget on a portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/banner-widget-inst-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/banner-widget-inst-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -184,7 +184,7 @@ Buttons Condition Script
 
 </td><td>
 
-Script to show or hide the primary or secondary button.You can use the scripted extension point to implement the condition script. By default, the new script displays both buttons and doesn’t include any condition. For more information, see [Provide web page link buttons to display on the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-scripted-extension-banner.md).
+Script to show or hide the primary or secondary button.You can use the scripted extension point to implement the condition script. By default, the new script displays both buttons and doesn’t include any condition. For more information, see [Provide web page link buttons to display on the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-scripted-extension-banner.md).
 
 </td></tr><tr><td>
 
@@ -200,11 +200,11 @@ Widget Option Schema
 
 </td><td>
 
-Defines the parameters of the widget that you want to add.For more information, see [Add a widget in the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-option-schema.md).
+Defines the parameters of the widget that you want to add.For more information, see [Add a widget in the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-option-schema.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Add and configure the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.md)
+[Add and configure the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.md)
 

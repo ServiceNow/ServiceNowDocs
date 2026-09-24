@@ -2,7 +2,7 @@
 title: The sidebar
 description: Use the sidebar element to display persistent information, such as visualizations, product details, or alternate shopping carts, across tiers in a configuration. Define its position and content in the layout CSV file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_sidebar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/layout\_sidebar.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -62,7 +62,7 @@ Add width properties to the sidebar value to define how wide the sidebar compone
 
 ## Use case: 3D visualizer
 
-The sidebar can host 3D visualization tools used during configuration. Any changes to fields tied to the visualization are visible to end users regardless of the tier they are on. For more information, see [Integrating CPQ with visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik-io-integration-wtih-visualization-tools.md).
+The sidebar can host 3D visualization tools used during configuration. Any changes to fields tied to the visualization are visible to end users regardless of the tier they are on. For more information, see [Integrating CPQ with visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/logik-io-integration-wtih-visualization-tools.md).
 
 ## Use case: product information
 

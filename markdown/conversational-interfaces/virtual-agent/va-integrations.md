@@ -2,7 +2,7 @@
 title: Deploying Virtual Agent topics in other channels
 description: When creating a topic or topic block, you can specify the chat channels in which the topic or topic block will run. During conversation design, Virtual Agent Designer provides built-in guardrails to help you tailor your conversations to those channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-integrations.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,15 +17,15 @@ breadcrumb: [Exploring other Virtual Agent features, Build and deploy, Virtual A
 
 When creating a topic or topic block, you can specify the chat channels in which the topic or topic block will run. During conversation design, Virtual Agent Designer provides built-in guardrails to help you tailor your conversations to those channels.
 
-In Virtual Agent, a channel is a chat interface or application in which Virtual Agent interacts with end users. Default channels are the chat applications natively supported by Virtual Agent, such as the Slack, Microsoft Teams, Workplace, and Facebook Messenger applications, and the web and mobile clients. Virtual Agent also supports custom channels created through the [conversational custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md) feature, which enables third-party applications \(other chat providers\) to work in Virtual Agent.
+In Virtual Agent, a channel is a chat interface or application in which Virtual Agent interacts with end users. Default channels are the chat applications natively supported by Virtual Agent, such as the Slack, Microsoft Teams, Workplace, and Facebook Messenger applications, and the web and mobile clients. Virtual Agent also supports custom channels created through the [conversational custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md) feature, which enables third-party applications \(other chat providers\) to work in Virtual Agent.
 
-For example, admins can build a custom conversational chat integration for a specific messaging provider, such as Skype. Admins also define the controls that can be used in topics that run in these channels. For details about creating channels for chat providers and specifying the controls used in a channel, see [Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
+For example, admins can build a custom conversational chat integration for a specific messaging provider, such as Skype. Admins also define the controls that can be used in topics that run in these channels. For details about creating channels for chat providers and specifying the controls used in a channel, see [Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
 
 ## Specifying channels in your topics or topic blocks
 
 When you create or edit a topic or topic block, you can specify the applicable channels in the **Channels** field under Advanced properties in the Topic Properties page. Applicable channels are the custom channels created for your instance through the conversational custom chat integrations. Use this field to specify chat clients in which the topic or topic block will run.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 \[Omitted image "va-prop-channelsup-2.png"\] Alt text: The Topic Properties page displaying the Channels support field under Advanced properties, along with the Channels pop-up.
 
@@ -56,7 +56,7 @@ To see a list of the available channels in your instance, use the filter icon \(
 
 \[Omitted image "va-custom-channels-2.png"\] Alt text: Use the filter icon to find topics based on channel support on the Assistant Designer Asset library.
 
-The default channels in Virtual Agent are the web chat and mobile clients and also the Virtual Agent messaging integrations for the Slack, Microsoft Teams, Workplace, and Facebook Messenger messaging applications. In the previous example, SMS is an available chat channel that was created for your instance through a conversational chat integration. When you choose a channel, the home page lists your topics \(cards\) by channel type. For more information, see [Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
+The default channels in Virtual Agent are the web chat and mobile clients and also the Virtual Agent messaging integrations for the Slack, Microsoft Teams, Workplace, and Facebook Messenger messaging applications. In the previous example, SMS is an available chat channel that was created for your instance through a conversational chat integration. When you choose a channel, the home page lists your topics \(cards\) by channel type. For more information, see [Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
 
-**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
+**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
 

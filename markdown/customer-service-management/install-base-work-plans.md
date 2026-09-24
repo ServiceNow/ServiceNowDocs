@@ -2,7 +2,7 @@
 title: Install base work plans
 description: You can create an install base work plan on the Customer Service Management application to get the details that are related to an install base item. Work plans help you to create, maintain, and view the basic details of an install base item. You can also plan for the regular and timely maintenance of the install base item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-base-work-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/install-base-work-plans.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ A work plan provides the information that you need about the regular maintenance
 
 You assign your customer and consumer service agents with the sn\_fsm\_planned\_wm.planned\_work\_read role so that they can have read access to all the planned work management tables.
 
-You can also create a work plan in the CRM Workspace. To create a work plan in the workspace, see [Create a work plan in Customer Service Management \(CSM\) Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-work-plans-in-workspace.md).
+You can also create a work plan in the CRM Workspace. To create a work plan in the workspace, see [Create a work plan in Customer Service Management \(CSM\) Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-work-plans-in-workspace.md).
 
 ## Related lists for work plans
 
@@ -40,7 +40,7 @@ Work plans
 
 </td><td>
 
-Manage the maintenance requirements of an install base item. They include information on how often maintenance must be performed, what the maintenance activities are for the install base, and the order in which they must be performed. To create a work plan, see [Create a work plan with Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-work-plans.md).
+Manage the maintenance requirements of an install base item. They include information on how often maintenance must be performed, what the maintenance activities are for the install base, and the order in which they must be performed. To create a work plan, see [Create a work plan with Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-work-plans.md).
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Work Orders
 
 </td><td>
 
-Create work orders for field service agents to perform scheduled maintenance activities for the install base item. To create a work order, see [Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-work-orders.md).Select the related list from the install base form to create a work order for an install base item.
+Create work orders for field service agents to perform scheduled maintenance activities for the install base item. To create a work order, see [Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-work-orders.md).Select the related list from the install base form to create a work order for an install base item.
 
 Select the Work order related list from the planned work schedule form to create a work order for a work plan.
 

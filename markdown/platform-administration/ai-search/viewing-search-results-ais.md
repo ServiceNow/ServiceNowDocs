@@ -2,7 +2,7 @@
 title: Viewing search results in AI Search
 description: Learn about the components that AI Search uses to display results for search queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/viewing-search-results-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/viewing-search-results-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -90,9 +90,9 @@ Displays dynamic filter options for refining search results by field value. To e
 
 </td><td>
 
-Displays the icon, summary field values, title, and text snippet for each search result. Select a result to view its source record in a new browser tab, preserving the state of your search in the current tab. The display settings for search results may be customized by modifying their EVAM properties. As an example, search results for Service Catalog items might be customized to display item images along with icons and field values. To learn about customizing search result display settings, see [Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-search-result-card-opts.md).
+Displays the icon, summary field values, title, and text snippet for each search result. Select a result to view its source record in a new browser tab, preserving the state of your search in the current tab. The display settings for search results may be customized by modifying their EVAM properties. As an example, search results for Service Catalog items might be customized to display item images along with icons and field values. To learn about customizing search result display settings, see [Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-search-result-card-opts.md).
 
- Search results for attachments may be displayed separately or may appear grouped with their parent search results. Each grouped attachment displays an icon indicating the attachment file type. For more details on how grouped attachments appear in the search results list, see [Group attachment search results with their parent results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/group-attachment-srch-results-ais.md).
+ Search results for attachments may be displayed separately or may appear grouped with their parent search results. Each grouped attachment displays an icon indicating the attachment file type. For more details on how grouped attachments appear in the search results list, see [Group attachment search results with their parent results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/group-attachment-srch-results-ais.md).
 
 **Note:** When you select an attachment search result, the system may display the attachment in a new browser tab or may prompt you to download the attachment.
 
@@ -130,5 +130,5 @@ Description
 Displays the auto-corrected query term used for the search. To repeat the search using your original search query term, select the link in the **Search instead for &lt;original\_term&gt;** line of the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md)
+</table>**Parent Topic:**[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/use-ais.md)
 

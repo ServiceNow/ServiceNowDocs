@@ -2,7 +2,7 @@
 title: Create a data transfer
 description: Record a data transfer directly on a processing activity if it wasn't captured as part of a hierarchy relationship.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-a-data-transfer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/create-a-data-transfer.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -51,5 +51,5 @@ Role required: sn\_privacy.analyst
 
 The data transfer record appears in the **Regulatory details** &gt; **Data transfers** tab of the processing activity.
 
-**Parent Topic:**[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md)
+**Parent Topic:**[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/data-transfers.md)
 

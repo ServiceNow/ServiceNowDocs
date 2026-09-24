@@ -2,7 +2,7 @@
 title: Reviewing data integrations for HAM
 description: Review both existing and suggested Discovery patterns and Service Graph Connectors to improve your HAM data coverage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-integration-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-integration-details.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

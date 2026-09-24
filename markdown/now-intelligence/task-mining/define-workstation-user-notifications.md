@@ -2,7 +2,7 @@
 title: Customize Task Mining notifications for workstation users
 description: Use Task Mining notifications to notify workstation users that their work is being monitored, request consent, and inform them if they have any actions to take.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/define-workstation-user-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/define-workstation-user-notifications.html
 release: australia
 product: Task Mining
 classification: task-mining

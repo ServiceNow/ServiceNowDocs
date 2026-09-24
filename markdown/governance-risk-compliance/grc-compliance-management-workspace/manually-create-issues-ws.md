@@ -2,7 +2,7 @@
 title: Manually create GRC issues using the Compliance Workspace
 description: Using the Compliance Workspace, GRC you can manually create issues to document policy, risk, or audit observations, or to accept any GRC problems. You can also identify the source of the issue to help analyze and classify the issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/manually-create-issues-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/manually-create-issues-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -32,7 +32,7 @@ Role required: compliance\_admin, compliance\_manager, or sn\_compliance.user
 
 4.  Click **New**.
 
-    For field descriptions of the Create New Issue form, see [Compliance workspace issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/new-issue-form-compliance-ws.md).
+    For field descriptions of the Create New Issue form, see [Compliance workspace issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/new-issue-form-compliance-ws.md).
 
     **Note:** Starting with Version 12.0.1 of the Policy and Compliance Management application, the minimum role for the **Assigned to** user on the Issues form is GRC Business User \[sn\_grc.business\_user\]. The minimum role for the **Issue manager** is GRC User \[sn\_grc.\_user\].
 
@@ -44,7 +44,7 @@ Role required: compliance\_admin, compliance\_manager, or sn\_compliance.user
 
     If the due date for the SLA changes, a new SLA is created. The SLA is completed when the issue transitions to **Closed Complete** or **Closed Incomplete**. Also, if the **Due date** or **Assigned to** fields are empty, or the state is New, the SLA is cancelled.
 
-    Also starting with Version 12.0.1, remediation tasks can be created by users with the **Assigned to** user and issue manager, as well as any user with the [GRC Business User role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/assign-user-roles.md).
+    Also starting with Version 12.0.1, remediation tasks can be created by users with the **Assigned to** user and issue manager, as well as any user with the [GRC Business User role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/assign-user-roles.md).
 
     You can navigate to the issue record that you created and use the related lists to.
 

@@ -2,7 +2,7 @@
 title: Create integration flow for ATS
 description: Create the integration flow with your preferred ATS to send job requisition data to the ATS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-your-integration-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/create-your-integration-flow.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,5 +31,5 @@ You can export the list of job requisitions from the Job Requisition \[sn\_ta\_h
 
 For more information, see [Exporting data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ExportData.md).
 
-**Parent Topic:**[Send job requisitions to the ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/send-a-job-requisition-to-the-ats.md)
+**Parent Topic:**[Send job requisitions to the ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/send-a-job-requisition-to-the-ats.md)
 

@@ -2,7 +2,7 @@
 title: Add the Billing Profile Reader role to the Microsoft Azure service principal
 description: Assign the Billing Profile Reader role to the Azure service principal for your Microsoft Customer Agreement \(MCA\) account to download Azure price sheet data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/add-billing-profile-reader-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/add-billing-profile-reader-azure.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -43,10 +43,10 @@ The Billing Profile Reader role provides the required permissions to download pr
 
 ## What to do next
 
-[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
+[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
 
 **Related topics**  
 
 
-[Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.md)
+[Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.md)
 

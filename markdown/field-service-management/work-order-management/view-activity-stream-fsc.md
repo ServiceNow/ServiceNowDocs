@@ -2,7 +2,7 @@
 title: Track or add work order task information on a mobile device
 description: View activities related to your work order task through the Field Service Contractor for mobile application. You can also add documents, images, or work notes to the work order task record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-activity-stream-fsc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/view-activity-stream-fsc.html
 release: australia
 product: Work Order Management
 classification: work-order-management

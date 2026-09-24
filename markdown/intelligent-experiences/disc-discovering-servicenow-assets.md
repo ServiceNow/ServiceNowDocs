@@ -2,12 +2,12 @@
 title: Discovering ServiceNow AI assets automatically
 description: Populate your AI asset inventory automatically with every skill, agent, and model running natively on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-discovering-servicenow-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-discovering-servicenow-assets.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-05"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Discovering AI assets, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 

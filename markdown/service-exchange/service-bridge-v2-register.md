@@ -2,7 +2,7 @@
 title: Connect to a provider
 description: Complete the registration process to establish a connection to the provider instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-register.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-register.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -65,9 +65,9 @@ If the state is **Validation Failed**, you must resolve all issues identified du
 **Related topics**  
 
 
-[Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-se-center.md)
+[Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-se-center.md)
 
-[Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-scan-checks.md)
+[Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-scan-checks.md)
 
-[Register a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-onboarding.md)
+[Register a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-onboarding.md)
 

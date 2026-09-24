@@ -2,7 +2,7 @@
 title: Download AI Desktop Actions installer for adaptive desktop actions
 description: Download and install the AI Desktop Actions installer on your macOS machine for running adaptive desktop actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/download-agentic-desktop-installer-adaptive.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/download-agentic-desktop-installer-adaptive.html
 release: australia
 topic_type: task
 last_updated: "2025-11-02"
@@ -42,8 +42,8 @@ Role required: sn\_aia.admin or now\_assist\_panel\_user
 
 ## What to do next
 
--   Configure policies and rules to control access to various resources. For more information, see [Controlling what AI Desktop Actions can access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/security_policy_governance_concept.md).
--   Use AI Desktop Actions to run adaptive desktop actions for desktop and web. For more information, see [Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use_ai_desktop_actions_adaptive.md).
+-   Configure policies and rules to control access to various resources. For more information, see [Controlling what AI Desktop Actions can access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/security_policy_governance_concept.md).
+-   Use AI Desktop Actions to run adaptive desktop actions for desktop and web. For more information, see [Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/use_ai_desktop_actions_adaptive.md).
 
-**Parent Topic:**[Configuring AI Desktop Actions for adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-adaptive-path-desktop-da.md)
+**Parent Topic:**[Configuring AI Desktop Actions for adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ad-adaptive-path-desktop-da.md)
 

@@ -2,7 +2,7 @@
 title: Impact operating model
 description: The Impact operating model is a research-backed system of key activities, personalized to your organization, to help drive faster time to value with the ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-operating-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-operating-model.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -30,6 +30,6 @@ Delivered by your Impact Squad, our unique operating model includes a fit-for-pu
 
         Impact's standard initiatives are executed in consistent, timely intervals to keep you on pace.
 
-    ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, and credits, discounts, and additional benefits made available to you depending on the level of Impact package procured. For information about Guided, Advanced, and Total packages, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages.md).
+    ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, and credits, discounts, and additional benefits made available to you depending on the level of Impact package procured. For information about Guided, Advanced, and Total packages, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-packages.md).
 
 

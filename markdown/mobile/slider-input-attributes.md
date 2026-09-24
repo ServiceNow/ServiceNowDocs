@@ -2,7 +2,7 @@
 title: Slider types and their input attributes
 description: Review the sections to see slider type examples and learn which input attributes are used to create them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/slider-input-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/slider-input-attributes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Number render types and compatible input attributes, Input form scr
 
 Review the sections to see slider type examples and learn which input attributes are used to create them.
 
-The sections within this topic show the types of sliders that you can create and the input attributes needed to create them. For more information about all the input attributes, see the Number inputs section in the topic [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-var-attr.md).
+The sections within this topic show the types of sliders that you can create and the input attributes needed to create them. For more information about all the input attributes, see the Number inputs section in the topic [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-var-attr.md).
 
 **Note:**
 
@@ -84,5 +84,5 @@ Use a decorative step slider to improve the overall look and feel of the user in
 -   EnforceStepSize: Optional
 -   Decoration
 
-For more information, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/decorative-slider.md).
+For more information, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/decorative-slider.md).
 

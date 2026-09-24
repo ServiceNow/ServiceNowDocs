@@ -2,7 +2,7 @@
 title: Create flow Service Catalog variables
 description: Create Service Catalog variables that are only available to a specific Service Catalog flow. Flow-specific variables are available to catalog tasks and actions in the flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-catalog-variables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-flow-catalog-variables.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -24,7 +24,7 @@ Role required: flow\_designer or admin
 
 Flow Service Catalog variables display in the **Catalog Variables** field of the Create Catalog Task and Get Catalog Variables actions. They display in the **Flow:variablename** format and are only available to the flow in which they are defined.
 
-For more information about Service Catalog actions, see [Create Catalog Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-catalog-task-flow-designer.md) and [Get Catalog Variables action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/get-cat-variables-flow-designer.md).
+For more information about Service Catalog actions, see [Create Catalog Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-catalog-task-flow-designer.md) and [Get Catalog Variables action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/get-cat-variables-flow-designer.md).
 
 ## Procedure
 
@@ -728,5 +728,5 @@ If the catalog item has a variable that's making the item non-conversational, fo
 
 Access the variable in the flow by adding a Create Catalog Task or Get Catalog Variables action.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

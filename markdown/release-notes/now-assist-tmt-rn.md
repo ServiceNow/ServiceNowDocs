@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes
 description: The ServiceNow ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-tmt-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-tmt-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](http
     Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## Australia Early Availability
 

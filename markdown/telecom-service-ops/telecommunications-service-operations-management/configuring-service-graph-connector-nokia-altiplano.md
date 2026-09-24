@@ -2,7 +2,7 @@
 title: Configure Nokia Altiplano service graph connector
 description: Configure the Nokia Altiplano service graph connector to import physical and logical inventory data from the Nokia Altiplano Access Network SDN Controller into your CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configuring-service-graph-connector-nokia-altiplano.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/configuring-service-graph-connector-nokia-altiplano.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -39,42 +39,42 @@ The following sections are available under the Nokia Altiplano navigation pane. 
 |Section|Description|
 |-------|-----------|
 |Setup|Configure MID Server, define Altiplano connections, and schedule imports.|
-|Data Sources|Predefined data sources for bulk and filtered discovery \(SGC-Nokia Altiplano Bulk Discovery, SGC-Nokia Altiplano Filtering Discovery\). Enable parallel loading if needed. For more information on parallel loading, see [Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md).|
+|Data Sources|Predefined data sources for bulk and filtered discovery \(SGC-Nokia Altiplano Bulk Discovery, SGC-Nokia Altiplano Filtering Discovery\). Enable parallel loading if needed. For more information on parallel loading, see [Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md).|
 |Import Schedules|Manage scheduling for each Altiplano connection alias. Run jobs manually or at defined intervals.|
 |Connections &amp; Credential Aliases|Define aliases for each Altiplano instance. Store connection metadata and credentials.|
 |Connections|Define Altiplano instance details, such as URL, selected MID Server, credential reference, and connection alias reference.|
 |Credentials|Create Altiplano credentials using Basic Auth.|
 |Filters|Configure filtering parameters used in filtered discovery \(for example, by device IP or name\).|
-|Properties|Modify system behavior using connector-specific properties. For more information, see [System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md).|
+|Properties|Modify system behavior using connector-specific properties. For more information, see [System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md).|
 
 ## Supported Nokia Altiplano versions
 
 -   Minimum supported version: 24.6
 -   Supported OLT: Lightspan MF-2
 
-**Note:** Fore more information, see [Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md).
+**Note:** Fore more information, see [Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md).
 
 ## Access the Guided Setup
 
 Use the guided setup to simplify the configuration process. This setup provides an organized sequence of steps to help you complete integration quickly and correctly. To access the guided setup:
 
 1.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Nokia Altiplano** &gt; **Setup**.
-2.  Follow the task sequence to configure MID Server settings, Nokia Altiplano connections, filters, and import schedules. For more information, see [Set up Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/initial-setup-procedure.md).
+2.  Follow the task sequence to configure MID Server settings, Nokia Altiplano connections, filters, and import schedules. For more information, see [Set up Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/initial-setup-procedure.md).
 
 **Related topics**  
 
 
-[Set up Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/initial-setup-procedure.md)
+[Set up Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/initial-setup-procedure.md)
 
-[Set up multiple Nokia Altiplano instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/multi-instance-setup.md)
+[Set up multiple Nokia Altiplano instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/multi-instance-setup.md)
 
-[Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
+[Configure concurrent import and parallel loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.md)
 
-[Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md)
+[Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md)
 
-[Run and verify a Nokia Altiplano import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-nokia-altiplano-service-graph-connector.md)
+[Run and verify a Nokia Altiplano import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-nokia-altiplano-service-graph-connector.md)
 
-[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
+[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
 
-[Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
+[Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
 

@@ -2,7 +2,7 @@
 title: Updates page
 description: The Updates page shows available updates for your Sensor firmware.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/updates-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/updates-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ The Updates page is organized into the following sections.
 
 \[Omitted image "new-ui-updates2.png"\] Alt text: Updates
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/using-discovery-console.md)
 

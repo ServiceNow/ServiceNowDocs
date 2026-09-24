@@ -2,7 +2,7 @@
 title: Connect a Jira tool using OAuth 2.0 with 3LO
 description: Authenticate a Jira tool connection using OAuth 2.0 with three-legged OAuth \(3LO\) to enable secure, delegated access to your Jira account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/connect-a-jira-tool-using-oauth-2-0-with-3lo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/connect-a-jira-tool-using-oauth-2-0-with-3lo.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -132,5 +132,5 @@ Order to apply this credential. For example, `100`.
     6.  Save the record.
 
 
-**Parent Topic:**[Onboard Jira to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-jira-tool-dev-ops.md)
+**Parent Topic:**[Onboard Jira to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/create-jira-tool-dev-ops.md)
 

@@ -2,7 +2,7 @@
 title: Summarize a record by using ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Generate AI-powered summaries of invoice and inquiry case records in ServiceNow Otto for Accounts Payable Operations \(APO\) to quickly understand status, completed actions, and next steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/now-assist-summarize-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/now-assist-summarize-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

@@ -2,7 +2,7 @@
 title: Push logs
 description: Consult the push log to track the status of push notifications that are queued to send from your system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/push-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/push-log.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

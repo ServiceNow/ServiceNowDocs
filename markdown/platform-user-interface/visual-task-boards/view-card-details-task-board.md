@@ -2,7 +2,7 @@
 title: View card details in a Visual Task Board
 description: With accessibility mode enabled, tab through cards in a task board. Use the card details button to view task card details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/view-card-details-task-board.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/view-card-details-task-board.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -39,5 +39,5 @@ Role required: none
 6.  To exit the card, press **Escape**.
 
 
-**Parent Topic:**[Visual Task Board accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/accessibility-vtb.md)
+**Parent Topic:**[Visual Task Board accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/accessibility-vtb.md)
 

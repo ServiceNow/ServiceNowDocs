@@ -2,7 +2,7 @@
 title: Graph Query Builder
 description: Graph Query Builder provides a visual interface for building and running Knowledge Graph queries without writing code. You can also use natural language to generate queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/using-graph-query-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/using-graph-query-builder.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

@@ -2,7 +2,7 @@
 title: Configuring AI Desktop Actions for defined path desktop actions
 description: AI Desktop Actions to execute predefined automation sequences on your desktop. Defined path actions provide consistent, repeatable workflows for common desktop tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ad-defined-path-da.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ad-defined-path-da.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-26"
@@ -15,10 +15,10 @@ breadcrumb: [Configure, AI Desktop Actions, Enable AI experiences]
 
 AI Desktop Actions to execute predefined automation sequences on your desktop. Defined path actions provide consistent, repeatable workflows for common desktop tasks.
 
--   **[Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md)**  
+-   **[Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/download-agentic-desktop-installer.md)**  
 Download the AI Desktop Actions installer so that you can install AI Desktop Actions on your Windows machine for designing and running defined desktop actions.
--   **[Download and install .Net Desktop Runtime for AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-dot-network-framework-ad.md)**  
+-   **[Download and install .Net Desktop Runtime for AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-dot-network-framework-ad.md)**  
 Reduce setup time and prevent installation errors by downloading and installing .Net Desktop Runtime following the instructions.
 
-**Parent Topic:**[Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md)
+**Parent Topic:**[Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-agentic-desktop.md)
 

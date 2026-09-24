@@ -2,7 +2,7 @@
 title: Login widget
 description: The login widget controls user access to your site. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/login-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/login-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -48,7 +48,7 @@ After self-registering their PIV/CAC card, a user can log in by inserting their 
 
 Before a user can register their PIV/CAC card, an administrator must activate certificate-based authentication and then set up PIV/CAC authentication. For more information on this setup process, see [Personal Identity Verification \(PIV\) card or Common Access Card \(CAC\) based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication.md).
 
-For more information on how a user self-registers their PIV/CAC card, see [Register your PIV/CAC card for Service Portal login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/piv-cac-login.md).
+For more information on how a user self-registers their PIV/CAC card, see [Register your PIV/CAC card for Service Portal login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/piv-cac-login.md).
 
 ## Instance options
 
@@ -59,7 +59,7 @@ Use the instance options to configure the login widget for a portal page.
 |Show panel|Show or hide the panel that appears behind the login widget. The panel helps the widget stand out from the page background rather than blending in.|
 |Use Advanced View|Changes the widget layout. Adds the **Forgot Password?** link to the left of the **Login** button and adds field names for **User name** and **Password** instead of hint text.|
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

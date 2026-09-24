@@ -2,7 +2,7 @@
 title: Manage an assistant chat experience
 description: Manage the chat experience of your assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,7 +18,7 @@ Manage the chat experience of your assistant.
 
 ## Before you begin
 
-See [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
+See [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -266,7 +266,7 @@ No
 
     \[Omitted image "sno-chat-premium-fallbacks-0826.png"\] Alt text: Activate fallback options.
 
-    For premium fallbacks, web search fallback is dependent on your web search mode setting in [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md). If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available where you can turn it on or off.
+    For premium fallbacks, web search fallback is dependent on your web search mode setting in [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md). If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available where you can turn it on or off.
 
     **Note:** For ServiceNow Otto panel - Platform assistant, web search, record producer, and custom fallback are available options. End this chat and survey are available for the standard chat experience.
 
@@ -289,7 +289,7 @@ No
 
         If the instance is self-hosted or regulated, the warning message won't be shown.
 
-        **Note:** For the premium chat experience, web search fallback requires web search mode to be turned on. To ensure that web search mode is turned on, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
+        **Note:** For the premium chat experience, web search fallback requires web search mode to be turned on. To ensure that web search mode is turned on, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
 
     3.  Direct the user to a record producer catalog item to create an incident or a case by turning on **Record producer**.
 
@@ -299,12 +299,12 @@ No
 
     4.  End the chat between the user and the assistant by turning on **End this chat**. End this chat is a fallback option for the standard chat experience. For the enhanced chat experience, conversations don't end. The text input is used for the fallback button in the assistant, and the default text input is **End this chat**. The button label default is **End this chat**.
     5.  Select a topic from the **Custom fallback topic** field by turning on **Custom fallback**. There isn't a default topic. The text input is used for the fallback button in the assistant. The default text input is **Custom fallback button**.
-    For more information about fallback options, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
+    For more information about fallback options, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
 
 4.  Select **Save and continue**.
 
 
 ## What to do next
 
-See [Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/review-assistant-settings.md).
+See [Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/review-assistant-settings.md).
 

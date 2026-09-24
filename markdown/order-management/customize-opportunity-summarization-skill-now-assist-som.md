@@ -2,7 +2,7 @@
 title: Customize the opportunity summarization skill in ServiceNow Otto for Sales Automation
 description: Configure the opportunity summarization skill to generate AI-powered opportunity summaries in the CRM Workspace, including which data sources and fields contribute to the summary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/customize-opportunity-summarization-skill-now-assist-som.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/customize-opportunity-summarization-skill-now-assist-som.html
 release: australia
 topic_type: task
 last_updated: "2026-05-27"
@@ -158,5 +158,5 @@ Description of the base input field value.
 **Related topics**  
 
 
-[Summarize an opportunity using ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-som-summarize-opportunity.md)
+[Summarize an opportunity using ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/now-assist-som-summarize-opportunity.md)
 

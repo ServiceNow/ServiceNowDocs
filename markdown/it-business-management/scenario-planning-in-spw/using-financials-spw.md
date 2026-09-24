@@ -2,7 +2,7 @@
 title: Managing financials for planning items in Strategic Planning Workspace
 description: Manage budgets, cost plans, expense lines, and labor costs for planning items in Strategic Planning Workspace. View, analyze, and compare financial performance at the required cadence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/using-financials-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/using-financials-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -32,11 +32,11 @@ In the Cost screen, you can:
 -   The parent project widgets display the consolidated values of forecasted costs and expenses.
 -   Identify and manage costs using the **Project/Demand** column for any sub-project or demand directly from Cost view of the parent planning item.
 -   Reforecast all the cost plan values for future fiscal periods by double-clicking to edit the value in the least time scale view, either by month or by period.
--   Manage cost plans for your planning items. For more information, see [Add, edit, or delete cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-cost-plan-spw.md).
--   Add or edit expense lines for your planning items to record any planned or unplanned expenses. For more information, see [Add or edit expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-expense-line.md).
--   Generate labor costs based on the resource assignments. For more information, see [Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/gen-labor-costs-spw.md).
--   Create and compare baselines to capture the financial snapshot of your planning items. For more information, see [Create and compare financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-compare-baselines.md).
--   [Configure widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-financial-widgets.md) to get a high-level overview of the financial data for your planning item.
+-   Manage cost plans for your planning items. For more information, see [Add, edit, or delete cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-cost-plan-spw.md).
+-   Add or edit expense lines for your planning items to record any planned or unplanned expenses. For more information, see [Add or edit expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-expense-line.md).
+-   Generate labor costs based on the resource assignments. For more information, see [Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/gen-labor-costs-spw.md).
+-   Create and compare baselines to capture the financial snapshot of your planning items. For more information, see [Create and compare financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-compare-baselines.md).
+-   [Configure widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configure-financial-widgets.md) to get a high-level overview of the financial data for your planning item.
 -   All financial details from sub-projects will be aggregated and displayed in the parent project's cost plans and widgets.
 
 **Tip:** Cost view gives you enhanced user experience to customize the left pane columns by using the personalize icon \(\[Omitted image "icon-personalize.png"\] Alt text: Personalize gear icon.\) and by saving user preferences to retain the customizations made to hide, view, or adjust columns, time scope viewing, and so on.
@@ -52,7 +52,7 @@ Financial users can now perform the following financial activities in Investment
 -   Allocate and manage the budget.
 -   View simple financials data.
 
-**Important:** New customers should install the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin to enable multicurrency feature and [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
+**Important:** New customers should install the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin to enable multicurrency feature and [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
 
 Using this feature, you can work on financial reporting at a global level and see the real-time currency conversions of your financial records.
 
@@ -60,7 +60,7 @@ Organizations operation at a global or multinational level, the work is planned 
 
 You can monitor and track the financials in one currency, and capture the costs in a different currency.
 
-Using multicurrency, you can see all the costs in the currency you choose for the planning item, instead of restricting to use Functional currency defined in your locale. For more information on how to choose investment currency of your planning items, see [Configure multicurrency for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/config-investment-currency-spw-fin.md).
+Using multicurrency, you can see all the costs in the currency you choose for the planning item, instead of restricting to use Functional currency defined in your locale. For more information on how to choose investment currency of your planning items, see [Configure multicurrency for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/config-investment-currency-spw-fin.md).
 
 Financial records and widgets will display the costs based on the currency selection.
 
@@ -135,8 +135,8 @@ View only planned costs for the full range and manage the planned costs using th
 </td></tr></tbody>
 </table>**Note:**
 
--   If you don’t see the Budget allocation or Budget vs forecast display options, [enable the budget allocation property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.md) and [configure the budget attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md) at instance level.
--   To work on budget allocation using the Next Experience, [Activate a scheduled job to migrate budget to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
+-   If you don’t see the Budget allocation or Budget vs forecast display options, [enable the budget allocation property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.md) and [configure the budget attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md) at instance level.
+-   To work on budget allocation using the Next Experience, [Activate a scheduled job to migrate budget to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
 
 The last selected view is saved as user preferences.
 
@@ -148,11 +148,11 @@ The last selected view is saved as user preferences.
 
 ## Baseline view
 
-Create a financial to capture a snapshot of the financial changes for your planning items. You can create on-demand baselines manually or automatically at a required cadence using a scheduler job. For more information, see [Create a baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-compare-baselines.md)
+Create a financial to capture a snapshot of the financial changes for your planning items. You can create on-demand baselines manually or automatically at a required cadence using a scheduler job. For more information, see [Create a baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-compare-baselines.md)
 
 **Note:** Baselines created on the parent project include cost plans and expense lines from all of the child projects to calculate and give you a better breakdown of the financial performance of the projects and sub-projects.
 
-[Compare baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-compare-baselines.md) to compare the difference in costs between latest status against a baseline or between any two baselines.
+[Compare baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-compare-baselines.md) to compare the difference in costs between latest status against a baseline or between any two baselines.
 
 **Note:** Each baseline is tagged with a number based on the order that they’re created. The Current Financials baseline captures the financials details in real-time and is always represented with a flag icon \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
 
@@ -239,7 +239,7 @@ Plan and approve the budget for a shorter planning cycle at monthly, quarterly, 
 
 **Note:** If the budget is allocated monthly, the total budget is rolled up to quarterly and yearly level. Similarly, if the budget is allocated at a quarterly or yearly level, the equal breakdown happens until monthly level.
 
-For more information on how to allocate, approve, and handle budget for planning items, see, [Manage budget of your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/fin-manage-budget-spw.md).
+For more information on how to allocate, approve, and handle budget for planning items, see, [Manage budget of your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/fin-manage-budget-spw.md).
 
 **Tip:** In the budget allocation view, Portfolio managers review the EAC to understand the financial projections made by Project managers and use the **Copy cost as budget** option to allocate the entire planned cost as budget.
 
@@ -251,8 +251,8 @@ Product managers can compare the latest cost with the approved budget by Capex o
 
 You can migrate the budget of existing active projects and demands items from the Classic UI to Next Experience. Financials in the Next Experience has new budget data model that facilitates to store the budget at a detailed level by monthly breakdowns and cost types. You can migrate the budget for active projects and demands individually or by bulk using the scheduled job.
 
--   Migrate budget of active projects from Classic UI to Next Experience. For more information, see [Migrate budget of active projects to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/fin-migrate-budget-project-ppm.md).
--   Migrate budget of active demands from Classic UI to Next Experience. For more information, see [Migrate budget of active demands to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/fin-migrate-budget-demand.md).
+-   Migrate budget of active projects from Classic UI to Next Experience. For more information, see [Migrate budget of active projects to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/fin-migrate-budget-project-ppm.md).
+-   Migrate budget of active demands from Classic UI to Next Experience. For more information, see [Migrate budget of active demands to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/fin-migrate-budget-demand.md).
 
 **Note:** The migrated budget is captured in the `sn_invst_pln_invst_budget` table to enable the lean budgeting for required time scope.
 
@@ -285,7 +285,7 @@ Budget allocation logic is divided into three focus areas: past fiscal periods, 
 
 ## Benefit plans
 
-Monetary benefit plans capture potential benefits accrued while executing a planning item. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a planning item. You can create and manage [monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.md) and [non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/fin-manage-non-monetary-benefit-plans-spw.md) to capture the potential benefits of your planning items.
+Monetary benefit plans capture potential benefits accrued while executing a planning item. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a planning item. You can create and manage [monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.md) and [non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/fin-manage-non-monetary-benefit-plans-spw.md) to capture the potential benefits of your planning items.
 
 Instead of switching between the financials record page and benefit plan tabs, you can now manage cost and benefit plans from the Cost and benefits view. You can also leverage the new financials experience with the side panel and grids for quick forecasting and tracking of monetary benefit plans.
 

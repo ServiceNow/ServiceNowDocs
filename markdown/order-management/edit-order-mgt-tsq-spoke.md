@@ -2,7 +2,7 @@
 title: Edit the Order Qualification Request
 description: Use the Order Qualification Request integration request type in the Order Management for Telecommunications application to process the customer order qualification requests and retrieve the results from the external inventory systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/edit-order-mgt-tsq-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/edit-order-mgt-tsq-spoke.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,12 +47,12 @@ The Order Qualification Request type is used to integrate order management with 
     -   For more information on how to create a spoke, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spokes.md). As shown in the demo subflow, ensure that the response from the third-party system passed to the Process Qualification Response block.
     -   When the Process Qualification Request subflow is invoked, the response from the third-party inventory system is received either synchronously or asynchronously, and the Result is updated in the customer order.
 
-**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-about.md)
+**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-tsq-about.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

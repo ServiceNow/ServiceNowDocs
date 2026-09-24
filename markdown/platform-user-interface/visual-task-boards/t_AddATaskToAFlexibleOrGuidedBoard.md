@@ -2,7 +2,7 @@
 title: Add a task to a flexible or guided Visual Task Board
 description: Cards in a flexible or guided board represent records on whichever table the board is associated with.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_AddATaskToAFlexibleOrGuidedBoard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_AddATaskToAFlexibleOrGuidedBoard.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -35,7 +35,7 @@ Role required: none
     A new task card appears in the lane.
 
 
-**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
+**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
 
 **Related topics**  
 

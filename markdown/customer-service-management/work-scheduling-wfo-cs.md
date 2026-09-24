@@ -2,7 +2,7 @@
 title: Work scheduler in Workforce Optimization for Customer Service
 description: Manage the work of all your teams from a central location. You can get visibility into your entire teams’ workload. From your team's calendar, you can assess the task complexity level and work capacity, and assign or reassign work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/work-scheduling-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/work-scheduling-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,9 +18,9 @@ The following image provides a high-level overview of Work scheduler.\[Omitted i
 
 As an administrator, you can:
 
--   Create work configurations that managers can view in their work queue. For information on setting up work configurations, see [Set up a work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-work-scheduler-wfo-cs.md).
--   Create work scheduler cards and configure them based on your needs. For more information, see [Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md).
--   Associate the work scheduler cards with work configurations. For more information, see [Associate a work scheduler card to the work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-card-config-wfo-cs.md).
+-   Create work configurations that managers can view in their work queue. For information on setting up work configurations, see [Set up a work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-work-scheduler-wfo-cs.md).
+-   Create work scheduler cards and configure them based on your needs. For more information, see [Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-workscheduler-card-wfo-cs.md).
+-   Associate the work scheduler cards with work configurations. For more information, see [Associate a work scheduler card to the work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-card-config-wfo-cs.md).
 
 As a manager, you can:
 
@@ -38,10 +38,10 @@ Easily find tasks you need to complete in the Scheduling module.
 
 |Benefit|User|Finding tasks to complete in Work scheduler|
 |-------|----|-------------------------------------------|
-|Activate Work scheduler in Workforce Optimization for Customer Service.|admin|[Activate Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-configurable-wfo-cs.md)|
-|Refer to the components such as system properties used in Work scheduler.|[Any Work scheduler role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-scheduler-wfo-cs-reference.md)|[Understand components used in Work scheduler in Workforce Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-scheduler-wfo-cs-reference.md)|
-|Set up Work scheduler for the Work scheduler managers so that assign work items based on their teams' skills, availability, and capacity.|[Work scheduler admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md)|[Set up Work scheduler in Workforce Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-work-scheduler-wfo-cs.md)|
-|Manage your teams' work assignments easily by customizing your work queue to display the most relevant work items.|[Work scheduler manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md)|[Use Work scheduler in Workforce Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-scheduler-wfo-cs.md)|
+|Activate Work scheduler in Workforce Optimization for Customer Service.|admin|[Activate Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/request-configurable-wfo-cs.md)|
+|Refer to the components such as system properties used in Work scheduler.|[Any Work scheduler role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/work-scheduler-wfo-cs-reference.md)|[Understand components used in Work scheduler in Workforce Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/work-scheduler-wfo-cs-reference.md)|
+|Set up Work scheduler for the Work scheduler managers so that assign work items based on their teams' skills, availability, and capacity.|[Work scheduler admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md)|[Set up Work scheduler in Workforce Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-work-scheduler-wfo-cs.md)|
+|Manage your teams' work assignments easily by customizing your work queue to display the most relevant work items.|[Work scheduler manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md)|[Use Work scheduler in Workforce Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/work-scheduler-wfo-cs.md)|
 
-**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-configurable-wfo-cs.md)
 

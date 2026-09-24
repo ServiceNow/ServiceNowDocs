@@ -2,7 +2,7 @@
 title: Raise HR requests
 description: Raise an HR request for general requests, payroll, or benefits on CBS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/request-emp-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/request-emp-cbs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ Role required: sn\_cbs.requestor
         -   [HR service catalog management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-catalog-management.md).
         -   [Report an issue with your payslip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/payslips-awd.md).
 
-**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-using-parent.md)
+**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-using-parent.md)
 

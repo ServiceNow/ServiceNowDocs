@@ -2,7 +2,7 @@
 title: Learning Core
 description: The ServiceNow Learning Core application enables you to build a learning content repository by integrating with third-party Learning Management Systems, such as Cornerstone OnDemand, Udemy, PluralSight, Sumtotal and Saba learning systems. It allows you to configure learning catalogs that contain course items from both external learning systems and internal learning systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-core\_overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/learning-core\_overview.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -18,33 +18,33 @@ The ServiceNow Learning Core application enables you to build a learning content
 
 Learning Core provides the base set of tables, content, learning bases, roles, and access configuration that are used in the Learning Posts application and other coaching applications. Learning Core can be activated only as a dependent plugin.
 
-Learning Core integrates with Cornerstone OnDemand, Pluralsight, Udemy, Sumtotal, and Saba learning systems. Activate only the learning system that you to plan use. For more information, see [Integrate Learning Core with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/setup-learning-third-party-1.md).
+Learning Core integrates with Cornerstone OnDemand, Pluralsight, Udemy, Sumtotal, and Saba learning systems. Activate only the learning system that you to plan use. For more information, see [Integrate Learning Core with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/setup-learning-third-party-1.md).
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Learn about how Learning Core works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core.md)
+[Explore \[Omitted image "icon-explore.png"\] Learn about how Learning Core works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-core.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-explore.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/setup-learning-third-party-1.md)
+[Configure \[Omitted image "bus-explore.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/setup-learning-third-party-1.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-sdlc.svg"\] Alt text: Integrating with third-party learning management systems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/setup-learning-third-party-1.md)
+[Integrate \[Omitted image "bus-sdlc.svg"\] Alt text: Integrating with third-party learning management systems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/setup-learning-third-party-1.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Create, curate, and manage learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-ln-content.md)
+[Use \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Create, curate, and manage learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-ln-content.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Consolidate reports in each repository, course catalogs, and learning tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/ln-administration.md)
+[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Consolidate reports in each repository, course catalogs, and learning tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/ln-administration.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: More information on other components installed with Learning Core.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: More information on other components installed with Learning Core.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-core-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

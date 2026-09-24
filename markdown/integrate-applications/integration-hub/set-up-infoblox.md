@@ -2,7 +2,7 @@
 title: Set up the Infoblox spoke
 description: Integrate the ServiceNow instance and Infoblox using basic authentication to authenticate ServiceNow requests.Create Connection records to your Infoblox account. The Infoblox spoke connection and credential aliases use these connections to perform actions in Infoblox.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-infoblox.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-infoblox.html
 release: australia
 product: Integration Hub
 classification: integration-hub

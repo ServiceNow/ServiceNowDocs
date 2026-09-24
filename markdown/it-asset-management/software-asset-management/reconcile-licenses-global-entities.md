@@ -2,7 +2,7 @@
 title: Reconciliation of licenses across global entities
 description: Share entitlements across different entities within your organization by creating consumption rules for entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/reconcile-licenses-global-entities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/reconcile-licenses-global-entities.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -89,5 +89,5 @@ If you're upgrading from a Pre Australia release and based on what you have sele
 
 -   Non-grouping: **None** is selected. No consumption rule is created as reconciliation runs without grouping. The entitlements can be used by any group.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

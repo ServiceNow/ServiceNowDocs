@@ -2,7 +2,7 @@
 title: Controlling the sort sequence used to display lists
 description: All lists have a default sort sequence based on the type of fields present in the list.For any list, if the user has clicked a column header to sort by that column, then that action is remembered. The next time that list is displayed, the same field is used to order the list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/c\_ControlTheListSortSequence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/c\_ControlTheListSortSequence.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -40,16 +40,16 @@ An administrator can set the sort order of records displayed for a table in the 
 
 ## Sorting a column in a list according to session language
 
-By default, when sorting columns in lists, the field values are ordered according to the English alphabet. To support sorting a column according to the user's session language, you can configure the instance behavior and behavior of individual columns. See [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sorting-session-language.md).
+By default, when sorting columns in lists, the field values are ordered according to the English alphabet. To support sorting a column according to the user's session language, you can configure the instance behavior and behavior of individual columns. See [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/sorting-session-language.md).
 
 **Related topics**  
 
 
-[System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SystemDictionary.md)
+[System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_SystemDictionary.md)
 
 [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
 
-[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
+[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
 
 ## Sort order control
 

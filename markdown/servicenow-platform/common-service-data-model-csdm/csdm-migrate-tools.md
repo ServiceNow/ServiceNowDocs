@@ -2,7 +2,7 @@
 title: Assistance with the CSDM life-cycle synchronization process
 description: Several features help you to promote accuracy and completeness for the process of syncing legacy data with life-cycle data in the CSDM framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -20,7 +20,7 @@ Several features help you to promote accuracy and completeness for the process o
 
 -   **Legacy status values that are auto-updated**
 
-    Several legacy statuses are automatically mapped to the **Life Cycle Stage** and **Life Cycle Stage Status** fields. For more information, see [Legacy status values that are auto-updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-status-auto-updated.md).
+    Several legacy statuses are automatically mapped to the **Life Cycle Stage** and **Life Cycle Stage Status** fields. For more information, see [Legacy status values that are auto-updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-status-auto-updated.md).
 
 -   **Data migration script**
 
@@ -33,13 +33,13 @@ Several features help you to promote accuracy and completeness for the process o
     -   CMDB dashboard: Each tab provides key metrics that evaluate configuration and customizations in the CMDB.
     -   The metrics provide visible results of evaluation. Color codes and weighted priority help with planning.
     -   Each metric includes a link to a remediation playbook with background and plays for remediation.
-    See [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+    See [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
 -   **CSDM Data Foundations dashboard**
 
     Navigate to **All** &gt; **Configuration** and then select **CSDM Data Foundations Dashboard**.
 
-    The CSDM dashboard focuses on key data elements to support you in implementing the CSDM framework. The reports on each tab display the data metrics that are appropriate for the maturity of your organization's CSDM implementation stage \(foundation, crawl, walk, run, and fly\). See [CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md). In particular, the **Crawl** tab presents a report titled **CIs with Mismatched Operational Status and Life Cycle Stage** that shows a summary of life-cycle value mismatches among CMDB, asset, and IBI and enables you to view mismatch details. See ['Crawl' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-crawl-tab.md).
+    The CSDM dashboard focuses on key data elements to support you in implementing the CSDM framework. The reports on each tab display the data metrics that are appropriate for the maturity of your organization's CSDM implementation stage \(foundation, crawl, walk, run, and fly\). See [CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md). In particular, the **Crawl** tab presents a report titled **CIs with Mismatched Operational Status and Life Cycle Stage** that shows a summary of life-cycle value mismatches among CMDB, asset, and IBI and enables you to view mismatch details. See ['Crawl' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-crawl-tab.md).
 
 -   **View the contents of life-cycle tables**
 
@@ -51,13 +51,13 @@ Several features help you to promote accuracy and completeness for the process o
 
 -   **The life-cycle synchronization process presents the discrepancy report**
 
-    When you start the synchronization process, the discrepancy report [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md) helps you to isolate and remediate mapping issues or missing data issues before proceeding with migration and synchronization. The report identifies issues and presents links that take you to the mappings that must be resolved before you can synchronize the data.
+    When you start the synchronization process, the discrepancy report [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md) helps you to isolate and remediate mapping issues or missing data issues before proceeding with migration and synchronization. The report identifies issues and presents links that take you to the mappings that must be resolved before you can synchronize the data.
 
 
-**Parent Topic:**[Migrate and synchronize existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/migrate.md)
+**Parent Topic:**[Migrate and synchronize existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/migrate.md)
 
 **Related topics**  
 
 
-[Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)
+[Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)
 

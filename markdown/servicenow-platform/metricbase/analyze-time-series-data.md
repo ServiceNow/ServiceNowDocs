@@ -2,7 +2,7 @@
 title: Retrieving MetricBase data using REST and JavaScript
 description: Use JavaScript or REST APIs to insert and retrieve time-series data from the MetricBase database and to run transforms on the data. The transformations enable you to visualize time-series data in a variety of ways.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/analyze-time-series-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/metricbase/analyze-time-series-data.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -33,5 +33,5 @@ For information about the MetricBase JavaScript APIs that return time-series dat
 -   [TransformPart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformPartScopedAPI.md) — Specify details of the transform to be done.
 -   [TransformResult](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformResultScopedAPI.md) — Return the object that contains the result of the transformation.
 
-Experiment and get familiar with the JavaScript APIs by using the [MetricBase Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-data-explorer.md) that comes with the MetricBase Demo.
+Experiment and get familiar with the JavaScript APIs by using the [MetricBase Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/metricbase-data-explorer.md) that comes with the MetricBase Demo.
 

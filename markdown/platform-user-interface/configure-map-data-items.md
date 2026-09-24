@@ -2,7 +2,7 @@
 title: Configure map data items
 description: Add map data items to render data on your Map Page using the Classic Environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-map-data-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-map-data-items.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,7 +43,7 @@ Create a container for your map data items first, then configure and select the 
 
 ## Map Data Item form
 
-Select the options in the table to successfully create a map data item. Use this configuration with the examples in [Add a map filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-map-filters.md) and [Configure a map filter data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-map-filters.md) to successfully create a map filter.
+Select the options in the table to successfully create a map data item. Use this configuration with the examples in [Add a map filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-up-map-filters.md) and [Configure a map filter data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-up-map-filters.md) to successfully create a map filter.
 
 |Field|Description|
 |-----|-----------|
@@ -55,7 +55,7 @@ Select the options in the table to successfully create a map data item. Use this
 
 ## What to do next
 
-Create [map markers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-map-markers.md) for your map.
+Create [map markers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-map-markers.md) for your map.
 
-**Parent Topic:**[Create an advanced Map Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-advanced-map-page.md)
+**Parent Topic:**[Create an advanced Map Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-advanced-map-page.md)
 

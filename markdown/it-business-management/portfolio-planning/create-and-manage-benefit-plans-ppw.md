@@ -2,7 +2,7 @@
 title: Create a monetary benefit plan for a demand
 description: Create and manage monetary benefit plans to track potential monetary benefits during demand execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +18,7 @@ Create and manage monetary benefit plans to track potential monetary benefits du
 
 ## Before you begin
 
-Enable the monetary benefit plans for demands. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-financial-budget-allocation-for-demands-ppw.md).
+Enable the monetary benefit plans for demands. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/enable-financial-budget-allocation-for-demands-ppw.md).
 
 Role required: it\_demand\_manager
 
@@ -73,7 +73,7 @@ Procedure
 </td></tr></tbody>
 </table>5.  On the Benefit Plan form, complete the fields.
 
-    For a description of the field names, see [Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/monetary-benefit-plan-form-ppw.md).
+    For a description of the field names, see [Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/monetary-benefit-plan-form-ppw.md).
 
 6.  Select **Save**.
 

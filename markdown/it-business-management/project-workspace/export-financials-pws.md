@@ -2,7 +2,7 @@
 title: Export financials as Excel or CSV file
 description: Export the costs or baseline comparison data of your projects to share them with your stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/export-financials-pws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/export-financials-pws.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -40,5 +40,5 @@ Role required: it\_project\_manager
     **Note:** You can export financials data from Cost view and Baselines comparison view.
 
 
-**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

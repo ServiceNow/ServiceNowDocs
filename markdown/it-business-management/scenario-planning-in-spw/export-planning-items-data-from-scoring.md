@@ -2,7 +2,7 @@
 title: Export planning items data from Scoring to Excel or CSV
 description: Export the data of portfolio plan items from your portfolio plan into a Microsoft Excel or CSV file. You can share this data and collaborate with your business stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/export-planning-items-data-from-scoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/export-planning-items-data-from-scoring.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -39,5 +39,5 @@ Role required: sn\_align\_core.apw\_user
         A file with the selected format is exported. By default, the name of the file is **ABC\_Scoring\_List** where ABC is the name of the portfolio plan you exported the data from.
 
 
-**Parent Topic:**[Scoring planning items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/using-scoring-frameworks-in-startegic-planning-workspace.md)
+**Parent Topic:**[Scoring planning items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/using-scoring-frameworks-in-startegic-planning-workspace.md)
 

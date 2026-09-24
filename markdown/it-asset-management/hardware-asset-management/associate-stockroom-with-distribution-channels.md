@@ -2,7 +2,7 @@
 title: Link stockrooms into a distribution channel
 description: Link two geographically related stockrooms to create a distribution channel and make the distribution of assets more efficient. You can assign a preference order for each channel to source assets to the stockroom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/associate-stockroom-with-distribution-channels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/associate-stockroom-with-distribution-channels.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -33,7 +33,7 @@ When you create a distribution channel, the function is automatically set to Inb
 
 **Note:**
 
-You can't create distribution channels for a stockroom that doesn't support sourcing assets through distribution channels. For more details, see [Exclude a stockroom from distribution channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/exclude-stockroom-from-distribution-channel.md).
+You can't create distribution channels for a stockroom that doesn't support sourcing assets through distribution channels. For more details, see [Exclude a stockroom from distribution channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exclude-stockroom-from-distribution-channel.md).
 
 ## Procedure
 
@@ -108,12 +108,12 @@ Option that indicates whether the distribution channel is active for sourcing as
 -   The distribution channel is added to the list shown in the **Distribution Channel** tab.
 -   The base stockroom is added as an outbound distribution channel for the channel stockroom. The **Function** field of the base stockroom is set to **Outbound**.
 
-**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 
 **Related topics**  
 
 
-[Create a transfer order from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_CreatingTransferOrderFromReq.md)
+[Create a transfer order from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/t_CreatingTransferOrderFromReq.md)
 
-[Source requests from local stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/consume-local-asset-stock.md)
+[Source requests from local stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/consume-local-asset-stock.md)
 

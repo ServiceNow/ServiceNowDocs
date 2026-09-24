@@ -2,7 +2,7 @@
 title: View the brand and theme setting in your portal experience
 description: View the theme setting for your portal experience in UI Builder. The theme sets the visual style of the experience and provides a consistent look and feel across all pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/portal-view-theme-setting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/portal-view-theme-setting.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -26,7 +26,7 @@ Role required: ui\_builder\_admin
 
 2.  Open a portal experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Select **Experience settings** in the UI Builder header.
 
@@ -42,5 +42,5 @@ Role required: ui\_builder\_admin
 -   **Theme Builder** enables you to create, edit, manage, and apply Next Experience themes using a friendly visual interface. For more information, see [Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md).
 -   If you are an admin user comfortable working in style records and JSON code, you can create a custom theme to override the default Polaris style. This option gives you the most control over typefaces, colors, and images \(including the banner and logo\) in a theme. For more information, see [Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md).
 
-**Parent Topic:**[Configure UI Builder portal experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-portal-settings.md)
+**Parent Topic:**[Configure UI Builder portal experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-builder-portal-settings.md)
 

@@ -2,7 +2,7 @@
 title: Raise a move request for a space change
 description: Create a move request to relocate to another space. Specify why you want to move and when you want to move. You can select a space that is located in your current building or at a different building. You can also select a desk directly on the floor map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/request-desk-change.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/request-desk-change.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -134,7 +134,7 @@ Find a space on a floor
 
 </td><td>
 
-Option to directly select the new target desk on the floor map. If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
+Option to directly select the new target desk on the floor map. If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
 
 </td></tr><tr><td>
 
@@ -202,9 +202,9 @@ Depending on your platform, do one of the following to view your requests:
 
 If you want to cancel a request, Click **Cancel Request**. When the request is resolved, select **Accept** or **Reject**.
 
-**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md)
 
-**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-mov-mgmt-setup.md)
+**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-mov-mgmt-setup.md)
 
 **Related topics**  
 

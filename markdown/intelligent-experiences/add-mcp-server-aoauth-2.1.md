@@ -2,7 +2,7 @@
 title: Add an MCP server with OAuth 2.1
 description: Add an MCP server with OAuth 2.1 in the AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-mcp-server-aoauth-2.1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-mcp-server-aoauth-2.1.html
 release: australia
 topic_type: task
 last_updated: "2025-07-02"
@@ -143,7 +143,7 @@ Web address to revoke the previously provided token.
 
 11. Define Security controls for the MCP Servers.
 
-    For more information, see [Define security controls for MCP Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-mcp.md).
+    For more information, see [Define security controls for MCP Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-mcp.md).
 
 12. Define the Tools for the Model Context Protocol Sever.
 

@@ -2,7 +2,7 @@
 title: Reconnect CPQ after refreshing the Salesforce org
 description: Reconnect the CPQ environment to a new or refreshed SFDC org.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/reconnect-logik-after-refreshing-the-salesforce-org.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/reconnect-logik-after-refreshing-the-salesforce-org.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

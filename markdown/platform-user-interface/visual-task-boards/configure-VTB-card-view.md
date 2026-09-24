@@ -2,7 +2,7 @@
 title: Configure the card view on a Visual Task Board
 description: Configure the fields that appear on a card in a task board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/configure-VTB-card-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/configure-VTB-card-view.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -28,12 +28,12 @@ Role required: admin
 
 3.  Under the Form view and section, select the VTB view.
 
-    You may need to create a VTB view for the form. For more information, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-delete-view.md).
+    You may need to create a VTB view for the form. For more information, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-delete-view.md).
 
 4.  Select the fields to appear on the card by adding or removing the fields from the **Selected** column.
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

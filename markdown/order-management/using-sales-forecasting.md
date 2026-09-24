@@ -2,7 +2,7 @@
 title: Using Sales Forecasting
 description: Sales Forecasting uses the current opportunities in the system to predict future opportunity amounts.​ The Opportunity Management application contains the list of opportunities created for the customers and each of these opportunities are in different stages of the sales cycles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/using-sales-forecasting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-sales-forecasting.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ You can view the Sales Forecast dashboard to see the current sales status and ta
 
 ## Using the Sales Forecast dashboard
 
-To access the Sales Forecast dashboard, navigate to **CSM/FSM Configurable Workspace** and select the **Sales Forecast** view. Select the refresh icon \[Omitted image "form-refresh.png"\] Alt text: to see the latest sales forecast data. Select **Update Forecast** on the dashboard to fetch the data to generate the latest forecast information. The Active Forecasts list on the side panel displays the forecast models configured for your Sales Forecasting dashboard. Select the forecast model that you want to view. You can view forecasts with one hierarchy or two hierarchies. You can customize your Sales Forecast dashboard columns and view. For more info, see [Customizing Sales Forecast dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customizing-sales-forecast-dashboard.md).
+To access the Sales Forecast dashboard, navigate to **CSM/FSM Configurable Workspace** and select the **Sales Forecast** view. Select the refresh icon \[Omitted image "form-refresh.png"\] Alt text: to see the latest sales forecast data. Select **Update Forecast** on the dashboard to fetch the data to generate the latest forecast information. The Active Forecasts list on the side panel displays the forecast models configured for your Sales Forecasting dashboard. Select the forecast model that you want to view. You can view forecasts with one hierarchy or two hierarchies. You can customize your Sales Forecast dashboard columns and view. For more info, see [Customizing Sales Forecast dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customizing-sales-forecast-dashboard.md).
 
 \[Omitted image "sales-forecasting-dashboard.png"\] Alt text: Sales Forecast dashboard.
 
@@ -38,31 +38,31 @@ Commit, Strong Upside, Upside, and Pipeline represent different stages of certai
 
 The Rest of American group with the owner as Mathew Moore in FY 2026 Q1 displays that the team’s quota has been set at $1,500. The agent working under the owner is Charlotte Turner who has already closed \(Won column\) $1,900 in sales. You can select the “i” icon for an agent and view all the opportunities for that agent and the total value in each forecast category.
 
-Under Active Forecasts, you can view other forecast models that have a primary and a secondary hierarchy, such as territory and product family or sales team and product family. This dashboard enables forecast owners to view and manage forecasts drill down by two dimensions, for example, territory hierarchy and product family for a given period. Users can filter the forecast by territory, product family, the forecast owner, and the period. The **Update Forecast** button triggers a manual recalculation of rollup values. Each row represents a territory–product family pairing, such as Global – Workflows. The expand/collapse icons can be drilled into to reveal further sub-territories. Sales managers can review their committed forecast hierarchy numbers at each level and override values where their judgment differs at their hierarchy level. For more info, see [Submitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submitting-a-forecast.md). The product family dimension lets them see which product lines are driving or lagging behind their overall target numbers. If you select the **Base** option on the Forecast model, a forecast record is created for each forecast source. For more info, see [Configure Forecast Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-forecast-model.md). These forecast records are visible on the dashboard below the sales agents to whom they are assigned. Sales agents can review and adjusts the value of the forecast records assigned to them.
+Under Active Forecasts, you can view other forecast models that have a primary and a secondary hierarchy, such as territory and product family or sales team and product family. This dashboard enables forecast owners to view and manage forecasts drill down by two dimensions, for example, territory hierarchy and product family for a given period. Users can filter the forecast by territory, product family, the forecast owner, and the period. The **Update Forecast** button triggers a manual recalculation of rollup values. Each row represents a territory–product family pairing, such as Global – Workflows. The expand/collapse icons can be drilled into to reveal further sub-territories. Sales managers can review their committed forecast hierarchy numbers at each level and override values where their judgment differs at their hierarchy level. For more info, see [Submitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/submitting-a-forecast.md). The product family dimension lets them see which product lines are driving or lagging behind their overall target numbers. If you select the **Base** option on the Forecast model, a forecast record is created for each forecast source. For more info, see [Configure Forecast Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-forecast-model.md). These forecast records are visible on the dashboard below the sales agents to whom they are assigned. Sales agents can review and adjusts the value of the forecast records assigned to them.
 
 As a sales agent, you can view the status of each opportunity that you own. As the sale progresses, you can update the Forecast Category field of the opportunity and the new data is updated on the dashboard. You can adjust a forecast value and the adjustment propagates up both the primary \(territory\) hierarchy and the secondary \(product family\) hierarchy, so all related rollup records reflect the change automatically. You can view the total amount in each sales stage and track the status of the quota target assigned to you. Select **Submit Forecast** to view the Submission Entry tab.
 
-**Note:** Submit Forecast is available only if you select **Submission Required** in the Forecast model. For more info, [Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting-terminology.md).
+**Note:** Submit Forecast is available only if you select **Submission Required** in the Forecast model. For more info, [Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-forecasting-terminology.md).
 
 \[Omitted image "adjust-forecast.png"\] Alt text: Forcecast view for agent
 
 The Submission Entry tab displays the cumulative value of all the opportunities for each category for that agent. The agent can adjust the value of the forecast for any category depending on the latest insights. For any of the categories, enter the adjusted value of the forecast in **Owner Adjusted Value** field. Enter a reason for the adjusted forecast value in the **Owner Adjustment Reason** field. Select **Update** to save the adjusted forecast values. Select **Submit Forecast** to finalize the forecast values. After submitting these forecast values, they cannot be changed.
 
--   **[Create forecast adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-forecast-adjustment.md)**  
+-   **[Create forecast adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-forecast-adjustment.md)**  
 Modify system-generated forecast values based on your judgment and prediction. Sales agents can adjust their individual forecasts and managers can modify team forecasts to align with overall targets. Sales managers can override team-level adjustments and the system automatically recalculates the roll-ups to reflect the updated forecast values.
--   **[Submitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submitting-a-forecast.md)**  
+-   **[Submitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/submitting-a-forecast.md)**  
 Sales agents and managers can finalize and submit forecasts in defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit the forecasts in the specified time frame.
--   **[Reopening and resubmitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reopening-and-resubmitting-a-forecast.md)**  
+-   **[Reopening and resubmitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/reopening-and-resubmitting-a-forecast.md)**  
 Adjust the values of a submitted forecast by reopening it and resubmitting the updated forecast within the current submission window.
--   **[Customizing Sales Forecast dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customizing-sales-forecast-dashboard.md)**  
+-   **[Customizing Sales Forecast dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customizing-sales-forecast-dashboard.md)**  
 Customize the columns that are displayed on your Sales Forecast dashboard and set your preferred column order to match your workflow.
 
-**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-opportunity-mgt.md)
 
 **Related topics**  
 
 
-[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-forecasting.md)
+[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-sales-forecasting.md)
 
-[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-forecasting.md)
 

@@ -2,7 +2,7 @@
 title: Using Asset Management
 description: Use the Asset Management application to manage your assets efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/using-asset-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/using-asset-management.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -16,20 +16,20 @@ breadcrumb: [Base Asset Management, Common applications, Asset Management]
 
 Use the Asset Management application to manage your assets efficiently.
 
--   **[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-asset-ci.md)**  
+-   **[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/work-with-asset-ci.md)**  
 Asset and configuration item \(CI\) management refers to creating assets, setting appropriate states and substates, synchronizing assets and CIs, managing consumables, and retiring assets.
--   **[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_AssetClasses.md)**  
+-   **[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/c_AssetClasses.md)**  
 The default asset classes are Hardware, Software License, Consumable, Bundle, Software Entitlement, and Facility. These general classes can be used to manage various assets.
--   **[Create fixed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_CreatingFixedAssets.md)**  
+-   **[Create fixed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/c_CreatingFixedAssets.md)**  
 Fixed assets are containers that can hold multiple assets. Fixed assets are commonly tracked at the corporate level by a finance or accounting department, but may contain IT assets such as hardware and software.
--   **[Consumables life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_FollowLifeCycleConsumbl.md)**  
+-   **[Consumables life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/c_FollowLifeCycleConsumbl.md)**  
 Consumables are assets that are not tracked individually, but as a group of the same model.
--   **[Stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_Stockrooms.md)**  
+-   **[Stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/c_Stockrooms.md)**  
 Stockrooms are places to which assets are assigned.
--   **[Manage pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/manage-preallocated-asset.md)**  
+-   **[Manage pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/manage-preallocated-asset.md)**  
 Manage pre-allocated assets, which are the assets that the vendor still owns, but has agreed to store in a customer stockroom for just-in-time procurement.
--   **[Manage transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/manage-transfer-orders.md)**  
+-   **[Manage transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/manage-transfer-orders.md)**  
 Manage the asset movement from one stockroom to the other using transfer order.
--   **[Use Organization Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/org-mgmt.md)**  
+-   **[Use Organization Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/org-mgmt.md)**  
 The Organization Management application provides an easy way to perform such asset management tasks as updating users and adding vendors.
 

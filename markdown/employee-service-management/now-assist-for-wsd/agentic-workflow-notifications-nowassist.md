@@ -2,7 +2,7 @@
 title: Review notifications in the ServiceNow Otto panel
 description: Review notifications by AI agents in the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -33,7 +33,7 @@ Role required: now\_assist\_panel\_role, sn\_wsd\_rsv.reservation\_planner, sn\_
 
     AI agents notifies Workplace Event Planners about actions taken through case resolution and case summarization notes in the conversational interface. Select and open the notifications in the conversation interface to review the case summarization and resolution notes.
 
-    For example, an emergency maintenance request is submitted and assigned to a user in the Workplace Event Planners assignment group. When an emergency meeting request is submitted, a workplace case task is created. For more information, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/submit-emergency-maint-request.md) and [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
+    For example, an emergency maintenance request is submitted and assigned to a user in the Workplace Event Planners assignment group. When an emergency meeting request is submitted, a workplace case task is created. For more information, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/submit-emergency-maint-request.md) and [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
 
     Workplace Event planners are notified by AI agents for blocking a location and moving an existing reservation from a blocked location to another. AI agents notifies the Workplace Event planner user using the Now Assist panel and performs the following activities in the conversational interface:
 
@@ -61,11 +61,11 @@ Role required: now\_assist\_panel\_role, sn\_wsd\_rsv.reservation\_planner, sn\_
         **Note:** Multi-location reservations aren't supported by AI agents.
 
     -   AI agents share case summarization and resolution notes with Workplace Event Planners.
-    The emergency maintenance case activities are also added to the work notes of the emergency maintenance case. Workplace Event planners can review the work notes to understand the activities performed by AI agents. For more information, see [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
+    The emergency maintenance case activities are also added to the work notes of the emergency maintenance case. Workplace Event planners can review the work notes to understand the activities performed by AI agents. For more information, see [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
 
     Another example can be when a change event request is submitted by a workplace user. The change event request case is submitted to update an existing reservation's date, time, and duration. The change event request case is assigned to a user in the Workplace Event Planners assignment group. AI agentic workflow Help Manage workplace reservations is triggered when the case is assigned to a Workplace Event Planner.
 
-    For more information, see [Submit a change event request for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/submit-change-event-reservation.md) and [View change event reservation case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-case-change-event-reservation.md).
+    For more information, see [Submit a change event request for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/submit-change-event-reservation.md) and [View change event reservation case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/view-case-change-event-reservation.md).
 
     Select and open the notifications in the conversation interface to review the case summarization and resolution notes.
 
@@ -83,6 +83,6 @@ Role required: now\_assist\_panel\_role, sn\_wsd\_rsv.reservation\_planner, sn\_
         \[Omitted image "wsd-now-assist-panel-three-rsv-locations.png"\] Alt text: AI agents showing three available locations to move an existing reservation to a new date, time, and duration.
 
     -   AI agents then provide case resolution notes and summarization for Workplace Event planners to review.
-    The team of AI agents updates an existing reservation with a new date, time, or duration. AI agents notifies Workplace Event Planners using the conversational interface about the changed date and time for a reservation. If the old location is not available for reservation, AI agents move the reservation with updated date and time to a new location. For more information, see [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
+    The team of AI agents updates an existing reservation with a new date, time, or duration. AI agents notifies Workplace Event Planners using the conversational interface about the changed date and time for a reservation. If the old location is not available for reservation, AI agents move the reservation with updated date and time to a new location. For more information, see [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
 
 

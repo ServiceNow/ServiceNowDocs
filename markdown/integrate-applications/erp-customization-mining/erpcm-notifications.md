@@ -2,7 +2,7 @@
 title: Getting notifications for ERP Semantic Mining connection updates
 description: ERP Semantic Mining can email you about the success and failures of ERP \(Enterprise Resource Planning\) system connections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-customization-mining/erpcm-notifications.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -29,7 +29,7 @@ The notification email that you receive contains a link that takes you to the re
 
 ## Selecting your email notifications
 
-Notification emails aren’t enabled by default, and you must configure them for yourself in your ServiceNow AI Platform preferences. For details on configuring notifications, see [Configure notifications for ERP Semantic Mining tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-enable-notifications.md).
+Notification emails aren’t enabled by default, and you must configure them for yourself in your ServiceNow AI Platform preferences. For details on configuring notifications, see [Configure notifications for ERP Semantic Mining tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/erpcm-enable-notifications.md).
 
 Before you can set up notifications for yourself, your admin must add you to the ERP Semantic Mining Notification group. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAUserToAGroup.md).
 
@@ -41,5 +41,5 @@ Notifications appear in the Notifications table, which you can access by navigat
 
 The ECM Statistical Data Extractor flow in Workflow Studio runs automatically to power notifications. You can customize the flow in Workflow Studio. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-edit.md).
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

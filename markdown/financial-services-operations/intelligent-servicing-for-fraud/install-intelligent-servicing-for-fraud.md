@@ -2,7 +2,7 @@
 title: Install Intelligent Servicing for Fraud
 description: You can install the Intelligent Servicing for Fraud application \(sn\_bom\_fraud\) if you have the admin role. The application includes the demo data and installs that are related to ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/install-intelligent-servicing-for-fraud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/intelligent-servicing-for-fraud/install-intelligent-servicing-for-fraud.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
@@ -33,7 +33,7 @@ The following items are installed with the Intelligent Servicing for Fraud appli
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Intelligent Servicing for Fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/intelligent-servicing-for-fraud/installed-with-intelligent-servicing-fraud.md).
+For more information, see [Components installed with Intelligent Servicing for Fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/intelligent-servicing-for-fraud/installed-with-intelligent-servicing-fraud.md).
 
 ## Procedure
 

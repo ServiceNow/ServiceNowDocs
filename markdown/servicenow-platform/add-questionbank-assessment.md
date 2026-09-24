@@ -2,7 +2,7 @@
 title: Add a metric category and metric in the question bank for assessments
 description: Reuse the question categories \(metric categories\) and questions \(metrics\) added in the question bank for assessments. You can add metric categories or metrics from the question bank to an assessment, or from the assessment to a question bank.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/add-questionbank-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/add-questionbank-assessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,13 +38,13 @@ Role required: admin or assessment\_admin
 
 6.  In the Assessment Metric form, fill the fields.
 
-    For more information on assessment metric fields, refer to [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetric.md)
+    For more information on assessment metric fields, refer to [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAMetric.md)
 
 7.  Click **Submit**.
 
 
--   **[Configure metric categories or metrics for an assessment using the question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-questionbank-assessment.md)**  
+-   **[Configure metric categories or metrics for an assessment using the question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-questionbank-assessment.md)**  
 Reuse question categories \(metric categories\) and questions \(metrics\) from the **Question Bank** module while creating or updating an assessment.
 
-**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentProcess.md)
+**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentProcess.md)
 

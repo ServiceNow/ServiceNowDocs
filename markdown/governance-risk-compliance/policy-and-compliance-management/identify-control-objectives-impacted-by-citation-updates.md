@@ -2,7 +2,7 @@
 title: Use Control Objective Impact Analyzer skill to identify control objectives
 description: Identify and manage control objectives impacted by latest citation updates by using the Control Objective Impact Analyzer generative AI skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/identify-control-objectives-impacted-by-citation-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/identify-control-objectives-impacted-by-citation-updates.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

@@ -2,7 +2,7 @@
 title: Configure banking customer interaction context summary skill in ServiceNow Otto for FSO
 description: Configure the customer interaction context summary skill in ServiceNow Otto for FSO to enable AI-powered summaries when initiating a banking customer interaction in Agentic Contact Center for Banking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-customer-contextual-summarization-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-customer-contextual-summarization-fso.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,9 +19,9 @@ Configure the customer interaction context summary skill in ServiceNow Otto for 
 Verify the ServiceNow Otto for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\) is installed.
 
 -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
--   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-now-assist-skills.md).
+-   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-fso-now-assist-skills.md).
 
-**Note:** This skill is dependent on the customer profile summarization AI skill. For more information, see [Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-profile-summarization-fso.md).
+**Note:** This skill is dependent on the customer profile summarization AI skill. For more information, see [Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-customer-profile-summarization-fso.md).
 
 Role required: admin
 
@@ -56,9 +56,9 @@ The skill is activated.
 
 ## What to do next
 
-Configure AI indexing for the sources that this AI skill uses to retrieve data and generate summaries. For more information, see [Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-ai-indexing-fso-contact-center.md).
+Configure AI indexing for the sources that this AI skill uses to retrieve data and generate summaries. For more information, see [Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-ai-indexing-fso-contact-center.md).
 
 You can choose which service provider to use for this skill in ServiceNow Otto admin. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
 
-**Parent Topic:**[Configuring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Configuring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-agentic-contact-center-for-banking.md)
 

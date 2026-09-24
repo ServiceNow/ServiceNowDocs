@@ -64,16 +64,16 @@ For wet signatures, after all signatories have signed and returned the contract 
 
 The requester and legal department members can access the signed contract document from the Legal Contracts repository.
 
--   **[Create a legal request for a third-party contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-submit-request-tpc.md)**  
+-   **[Create a legal request for a third-party contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-submit-request-tpc.md)**  
 Submit contracts or third-party terms and conditions to the legal team for review.
--   **[View and track third-party contract review request as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-view-request.md)**  
+-   **[View and track third-party contract review request as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-tpc-view-request.md)**  
 View the details of a third-party contract review request after it has been submitted and track the activities in the request.
--   **[Modify a third-party review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-update-contract-tpc.md)**  
+-   **[Modify a third-party review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-update-contract-tpc.md)**  
 As a requester, modify a legal request to update the request details or replace the attached contract document with an updated version.
--   **[Work on a third-party contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-work-tpc-review-request.md)**  
+-   **[Work on a third-party contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-work-tpc-review-request.md)**  
 As a member of the legal contracts support team, review and revise a third-party contract document. You can email the revised document to stakeholders to verify the revisions and then send the ready document for signature from within the legal request.
 
-**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: OAuth 2.0
 description: OAuth 2.0 lets users access instance resources through external clients by obtaining a token rather than by entering login credentials with each resource request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_OAuthApplications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/c\_OAuthApplications.html
 release: australia
 product: Authentication
 classification: authentication
@@ -127,5 +127,5 @@ A grant type is the way that the client obtains the access token. The following 
 
 ## Storage of authentication credentials
 
-The OAuth client secret is stored as a **password2** type field, which is encrypted with KMF. User passwords, which are used to check incoming endpoint requests, are stored as a hash value in the User table in a **password** type field \(SHA 256\). For details on this encryption, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md)
+The OAuth client secret is stored as a **password2** type field, which is encrypted with KMF. User passwords, which are used to check incoming endpoint requests, are stored as a hash value in the User table in a **password** type field \(SHA 256\). For details on this encryption, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/password-2way-encrypted-fields.md)
 

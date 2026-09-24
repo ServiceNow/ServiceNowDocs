@@ -2,7 +2,7 @@
 title: Timer connector methods
 description: Learn about the Timer connector methods and event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/timer-connector-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/timer-connector-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ The event starts when the Start method starts.
 |SignalTime|Data Out|Integer|The system date and time when the trigger starts operating.|Yes|
 |ElapsedTime|Data Out|Integer|Total time in the timer elapsed.|Yes|
 
-**Parent Topic:**[Timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/timer.md)
+**Parent Topic:**[Timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/timer.md)
 

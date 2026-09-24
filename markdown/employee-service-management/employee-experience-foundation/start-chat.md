@@ -2,7 +2,7 @@
 title: Customize Start Microsoft Teams chat UI action
 description: Enables you to extend the Start Microsoft Teams chat UI actions to the tables you require.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/start-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/start-chat.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -122,5 +122,5 @@ Check this box.Copy and paste the **Workspace Client Script**of the existing Sta
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Customize UI actions for IT Service Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ui-actions-ms-teams.md)
+**Parent Topic:**[Customize UI actions for IT Service Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ui-actions-ms-teams.md)
 

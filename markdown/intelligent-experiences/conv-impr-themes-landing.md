@@ -2,7 +2,7 @@
 title: Conversation Improvement Themes
 description: The Conversation Improvement Themes application helps to transform Conversation Evaluators evaluations that are part of AI Control Tower into long-term performance insights by analyzing conversation quality data over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/conv-impr-themes-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/conv-impr-themes-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,19 +18,19 @@ The Conversation Improvement Themes application helps to transform Conversation 
 
 <table id="table_ok3_clg_ghc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conv-impr-themes-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/conv-impr-themes-explore.md)
 
 </td><td>
 
-[Activate\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conv-impr-themes-activate.md)
+[Activate\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/conv-impr-themes-activate.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conv-impr-themes-use.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/conv-impr-themes-use.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Additional information about Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conv-impr-themes-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Additional information about Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/conv-impr-themes-reference.md)
 
 </td><td>
 
@@ -58,5 +58,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

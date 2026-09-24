@@ -2,7 +2,7 @@
 title: Set Platform Analytics dashboards as home for all users
 description: You can set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/set-pae-dashboards-as-home-for-all-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/set-pae-dashboards-as-home-for-all-users.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ All users see the last dashboard that they visited when they log in to ServiceNo
 
 ## What to do next
 
-[Set a specific dashboard as home for all users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/set-specific-db-as-home-for-all-users.md)
+[Set a specific dashboard as home for all users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/set-specific-db-as-home-for-all-users.md)
 

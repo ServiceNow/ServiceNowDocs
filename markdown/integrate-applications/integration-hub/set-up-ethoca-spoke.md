@@ -2,7 +2,7 @@
 title: Set up Ethoca spoke
 description: Integrate the ServiceNow instance with the Ethoca account using the using the OAuth protocol \(version 1.0a\) for the Consumer Clairty category and using Basic Auth credentials for the Issuers Alert Management category to authenticate ServiceNow requests.Integrate the ServiceNow instance with the Ethoca account in the Consumer Clarity category using the OAuth protocol \(version 1.0a\) to securely authorize and authenticate ServiceNow requests.Use the certificate generated during the Ethoca account configuration to sign the request and payloads.Create a credential record for your Ethoca account. The Ethoca spoke connection and credential alias uses these credentials to authorize actions.Create a connection record for your Ethoca account. The Ethoca spoke connection and credential aliases use these connections to perform actions in Ethoca.Integrate the ServiceNow instance with the Ethoca account in the Issuer Alerts Management category using Basic Auth credentials to authenticate ServiceNow requests.Create credentials to access a ServiceNow instance.Create a connection record for your Ethoca account. The Ethoca spoke connection and credential aliases use these connections to perform actions in Ethoca Alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-ethoca-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-ethoca-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -28,9 +28,9 @@ Integrate the ServiceNow instance with the Ethoca account in the Consumer Clarit
 
 Follow these steps:
 
--   [Attach a Ethoca certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
--   [Create credential records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
--   [Create connection records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
+-   [Attach a Ethoca certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
+-   [Create credential records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
+-   [Create connection records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
 
 ### Attach a Ethoca certificate
 
@@ -188,8 +188,8 @@ Integrate the ServiceNow instance with the Ethoca account in the Issuer Alerts M
 
 Follow these steps:
 
--   [Create basic auth credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
--   [Create connection records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
+-   [Create basic auth credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
+-   [Create connection records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-ethoca-spoke.md)
 
 ### Create basic auth credentials
 

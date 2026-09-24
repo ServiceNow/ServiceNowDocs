@@ -2,7 +2,7 @@
 title: Activate Task-Outage Relationship
 description: Activate the Task-Outage Relationship plugin \(com.snc.task\_outage\) to track outage duration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-outage/activate-task-outage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/task-outage/activate-task-outage.html
 release: australia
 product: Task Outage
 classification: task-outage
@@ -39,10 +39,10 @@ The Task-Outage Relationship plugin creates a many-to-many relationship between 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Task-Outage Relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-outage/components-instld-with-task-outage.md)**  
+-   **[Components installed with Task-Outage Relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-outage/components-instld-with-task-outage.md)**  
 The Task Outage table is installed with activation of the Task-Outage Relationship plugin \(com.snc.task\_outage\).
 
-**Parent Topic:**[Task Outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-outage/task-outage.md)
+**Parent Topic:**[Task Outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/task-outage/task-outage.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Sourcing and Procurement Operations Virtual Agent conversations and topic blocks
 description: A topic conversation defines the dialog between the Virtual Agent \(chat support bot\) and the user, which enables you to gather information for a specific business need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-virtual-agent-topics-and-topic-blocks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-virtual-agent-topics-and-topic-blocks.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -43,5 +43,5 @@ As part of the Sourcing and Procurement Operations product, the following Virtua
 
 To view just the reusable topic functions, navigate to the Topics page in Virtual Agent Designer and select the **Topic Blocks** tab. For detailed information, see [Reusable topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/topic-blocks-overview.md).
 
-**Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)
+**Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)
 

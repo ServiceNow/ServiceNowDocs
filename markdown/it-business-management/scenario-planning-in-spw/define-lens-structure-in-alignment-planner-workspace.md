@@ -2,7 +2,7 @@
 title: Add or modify lens structure in Strategic Planning
 description: Add entities to your lens and build its structure so that your planning managers can start creating their portfolio plans in Strategic Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/define-lens-structure-in-alignment-planner-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/define-lens-structure-in-alignment-planner-workspace.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-For a lens, add entities to build a new lens structure or to modify the existing structure. You can add up to six entities in a lens structure. For more information on lens and its structure, see [Lens configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-lens-in-alignment-planner-workspace.md).
+For a lens, add entities to build a new lens structure or to modify the existing structure. You can add up to six entities in a lens structure. For more information on lens and its structure, see [Lens configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configuring-lens-in-alignment-planner-workspace.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ For a lens, add entities to build a new lens structure or to modify the existing
 
     2.  On the form, fill in the fields.
 
-        For field information, see [Lens structure form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/lens-structure-form-alignment-planner-workspace.md).
+        For field information, see [Lens structure form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/lens-structure-form-alignment-planner-workspace.md).
 
     3.  Select **Submit.**
 
@@ -64,7 +64,7 @@ For a lens, add entities to build a new lens structure or to modify the existing
     -   APW Default
 3.  Update the roadmap configuration for the tables all planning item types that you associate with this lens:
 
-    Add the bottom entity of this lens structure and its parent to **Group by fields** and **Color by fields**. These fields are used as the default group by and color by settings for the portfolio roadmap. See [Customize planning item display preferences for roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md).
+    Add the bottom entity of this lens structure and its parent to **Group by fields** and **Color by fields**. These fields are used as the default group by and color by settings for the portfolio roadmap. See [Customize planning item display preferences for roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md).
 
-4.  Validate your lens configuration and activate it. See [Activate a lens in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/activate-lens-alignment-planner-workspace.md).
+4.  Validate your lens configuration and activate it. See [Activate a lens in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/activate-lens-alignment-planner-workspace.md).
 

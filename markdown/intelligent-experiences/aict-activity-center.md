@@ -2,12 +2,12 @@
 title: Activity Center
 description: Track and act on the governance work generated across AI Control Tower from a single workspace, including lifecycle tasks, security tasks, change and offboarding requests, and AI recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-activity-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-activity-center.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-16"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
 ---
 
@@ -43,7 +43,7 @@ On the Work page, items are organized by ownership across four tabs: **Assigned 
 -   Track the items you've submitted for review on the **Submitted by you** tab. View the cases, issues, policy exceptions, and inquiries that you've created, along with their current status.
 -   As an AI steward, review and approve a change request before it disrupts production. From the **Requests** sub-tab on the **Team** or **Assigned to you** tab, see the change requests and offboarding requests waiting for AI steward approval. For example, review the impact on related sub-systems before approving an asset owner's request to swap out the AI model backing an agent.
 -   As an AI Asset Owner, access and act on risk and compliance lifecycle tasks. Tasks include impact assessments and control attestations. The Activity Center surfaces AI asset tasks, issues, policy exceptions, and AI cases for the asset owner.
--   Create a case, issue, policy exception, or inquiry without leaving Activity Center. For more information, see [Managing AI tasks and approvals in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-managing-tasks-and-approvals.md).
+-   Create a case, issue, policy exception, or inquiry without leaving Activity Center. For more information, see [Managing AI tasks and approvals in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-managing-tasks-and-approvals.md).
 
-On the **Recommendations** page, you can resolve a backlog of similar AI recommendations by filtering the full list of AI-generated recommendations by category, priority, confidence, or outcome. For example, filter by the **Improve inventory signal** outcome to work through several assets that are missing descriptions in one pass. For more information about how recommendations are generated, prioritized, and resolved, see [Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-recommendations-ai-insights.md).
+On the **Recommendations** page, you can resolve a backlog of similar AI recommendations by filtering the full list of AI-generated recommendations by category, priority, confidence, or outcome. For example, filter by the **Improve inventory signal** outcome to work through several assets that are missing descriptions in one pass. For more information about how recommendations are generated, prioritized, and resolved, see [Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-recommendations-ai-insights.md).
 

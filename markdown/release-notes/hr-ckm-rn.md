@@ -2,7 +2,7 @@
 title: Case and Knowledge Management release notes
 description: The ServiceNow Case and Knowledge Management application enables you to standardize the documentation, interaction, and fulfillment of employee inquiries and requests, which helps to improve HR efficiency and services over time. Case and Knowledge Management was enhanced and updated in the Australia release.The ServiceNow Case and Knowledge Management application enables you to standardize the documentation, interaction, and fulfillment of employee inquiries and requests, which helps to improve HR efficiency and services over time. Case and Knowledge Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/hr-ckm-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/hr-ckm-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ See [Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow
     Case and Knowledge Management is available with activation of the Human Resources Scoped app: Core \[com.sn\_hr\_core\]. See [Activate Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/activate-case-and-knowledge-management-scoped.md) for more information.
 
 
-**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md)
+**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/hr-service-delivery-landing.md)
 
 ## Australia
 

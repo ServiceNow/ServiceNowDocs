@@ -2,7 +2,7 @@
 title: Summarize a chat conversation using ServiceNow Otto for HR Service Delivery \(HRSD\)
 description: Summarize a Virtual Agent chat history in the ServiceNow Otto for HR Service Delivery \(HRSD\) application. You can also summarize an interaction when the chat ends. The summary includes all points of the handoff, including the Virtual Agent conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-chat.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -18,7 +18,7 @@ Summarize a Virtual Agent chat history in the ServiceNow Otto for HR Service Del
 
 ## Before you begin
 
-[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 Role required: sn\_hr\_core.case\_writer
 
@@ -65,7 +65,7 @@ You can make a copy of this skill to configure it to meet your business needs. F
     **Note:** Generative AI doesn’t override an existing short description that is in the HR case template.
 
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

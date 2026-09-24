@@ -2,7 +2,7 @@
 title: Handling a large amount of in-progress update sets
 description: You can batch a large group of update sets in the Clone Admin Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-update-sets-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/clone-update-sets-example.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

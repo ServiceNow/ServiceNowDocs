@@ -2,7 +2,7 @@
 title: ServiceNow Studio supported file types using code search
 description: Reference the file types that ServiceNow Studio supports when using code search to locate scripts and metadata across an instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sn-studio-file-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sn-studio-file-types.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -315,5 +315,5 @@ sp\_widget
 Describe objects that contain content and can be added to or embedded in portal pages. Use the base system widgets provided with the Service Portal, clone and modify widgets, or develop custom widgets to fit your own needs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
+</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
 

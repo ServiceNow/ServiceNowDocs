@@ -2,7 +2,7 @@
 title: Configure an HR service
 description: Create or modify an HR service to define the request to fulfillment process for that case type. Examples of HR services include benefits enrollment, direct deposit setup, and background check requests by third-party providers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-hr-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-hr-service.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -348,18 +348,18 @@ Description of the HR service.
     **Note:** If you added a custom column to an HR COE table, you must create a UI policy action \(**Visible** field is set to **False**\) to hide it from other HR services that use that HR COE table. For example, if you add a custom column to the HR Payroll Case \[sn\_hr\_core\_case\_payroll\] table, it appears in all HR services related to this table. The custom column appears even after you add it for a specific HR service. For more information, see UI policies.
 
 
--   **[Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md)**  
+-   **[Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md)**  
 If the fulfillment type of an HR service is set to **Service Activity**, configure one or more service activities. Service activities can be approvals, tasks, or child HR services.
--   **[Configure the HR case creation form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-case-creation-form-for-hr-service.md)**  
+-   **[Configure the HR case creation form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-case-creation-form-for-hr-service.md)**  
 Configure the fields that appear on the HR case creation form for an HR service.
--   **[Configure the HR case form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-case-form-for-hr-service.md)**  
+-   **[Configure the HR case form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-case-form-for-hr-service.md)**  
 Configure the fields that appear on the HR case form for an HR service.
--   **[Add a custom column \(field\) to an HR table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-custom-column-hr-table.md)**  
+-   **[Add a custom column \(field\) to an HR table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-custom-column-hr-table.md)**  
 You can add custom columns \(fields\) to an HR table.
 
-**Parent Topic:**[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-configuration.md)
+**Parent Topic:**[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-configuration.md)
 
-**Previous topic:**[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-configuration.md)
+**Previous topic:**[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-configuration.md)
 
-**Next topic:**[Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md)
+**Next topic:**[Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md)
 

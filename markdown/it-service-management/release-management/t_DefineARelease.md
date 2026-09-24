@@ -2,7 +2,7 @@
 title: Define a release in Release Management
 description: During the release planning process, release managers define the type of the release \(major, minor, and so on.\), schedule of the release \(planned start and end dates\), required phase, phase tasks, and the scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/t\_DefineARelease.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/release-management/t\_DefineARelease.html
 release: australia
 product: Release Management
 classification: release-management
@@ -70,7 +70,7 @@ State
 
 </td><td>
 
-State of the release such as Draft, Work in progress, testing, or others.If you want to customize the options in this list, reach out to your admin. Custom states can be added according to the default state categories of the release table. [Learn more about the default states of the release table.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/default-state-categories-for-release-and-release-task-tables.md)
+State of the release such as Draft, Work in progress, testing, or others.If you want to customize the options in this list, reach out to your admin. Custom states can be added according to the default state categories of the release table. [Learn more about the default states of the release table.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/release-management/default-state-categories-for-release-and-release-task-tables.md)
 
 </td></tr><tr><td>
 
@@ -134,8 +134,8 @@ Duration of the release in days. When you submit the form, this field auto-popul
 
     Add a child release by clicking **New** in the Releases related list in the Release form.
 
--   [Define a release phase in Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/t_DefineAReleasePhase.md).
--   [Define scope of a release in Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/t_ScopeARelease.md).
+-   [Define a release phase in Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/release-management/t_DefineAReleasePhase.md).
+-   [Define scope of a release in Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/release-management/t_ScopeARelease.md).
 
-**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_Release.md)
+**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/release-management/c_Release.md)
 

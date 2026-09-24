@@ -2,7 +2,7 @@
 title: Filter your In-store operations cases and tasks in Retail Mobile
 description: Use the filter within Retail Mobile to limit displayed cases or tasks based on specified keywords.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-filter-cases-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-filter-cases-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 
 **My Work** now displays case and tasks as based on your specified filter criteria. To reset these filters, select **Clear**.
 
-**Parent Topic:**[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)
+**Parent Topic:**[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)
 

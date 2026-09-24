@@ -2,7 +2,7 @@
 title: Dynamic output configuration options
 description: Use these options to configure your dynamic outputs for a parent action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/dynamic-output-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/dynamic-output-options.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -25,7 +25,7 @@ Use these options to configure your dynamic outputs for a parent action.
 |Action|Select a data gathering action that generates values as JSON output.|
 |Depends-on Another Input|Enable this option to require an input value from the parent action to be passed as an input to the data gathering action. If enabled, select a dependent input from the parent action.|
 
-**Parent Topic:**[Dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-outputs.md)
+**Parent Topic:**[Dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/dynamic-outputs.md)
 
 **Related topics**  
 

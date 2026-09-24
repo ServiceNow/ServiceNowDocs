@@ -2,7 +2,7 @@
 title: Time limited authentication with SMS - Twilio Tutorial
 description: Set up time limited authentication with MFA factors such as SMS using Twilio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/time-based-authentication-with-mfa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/time-based-authentication-with-mfa.html
 release: australia
 product: Authentication
 classification: authentication
@@ -33,7 +33,7 @@ After a successful configuration, the system generates a link, and then shares t
 
 **Note:**
 
--   TLA should always be followed by MFA and MFA should be enabled by admin using Adaptive Authentication for TLA login. To know more about how to configure MFA with Adaptive Authentication, see [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-context.md).
+-   TLA should always be followed by MFA and MFA should be enabled by admin using Adaptive Authentication for TLA login. To know more about how to configure MFA with Adaptive Authentication, see [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-auth-context.md).
 -   TLA should be used for the users who have limited privileges.
 
 ## Procedure
@@ -46,7 +46,7 @@ After a successful configuration, the system generates a link, and then shares t
 
     3.  Provide the **Account SID** and **Auth token** \(created from Twilio\) and save the record.
 
-    **Note:** You can create your own provider configuration and use that for TLA. In this example, it is Twilio. To know more about how to create a MFA provider configuration, see [Configure MFA Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-mfa-provider.md).
+    **Note:** You can create your own provider configuration and use that for TLA. In this example, it is Twilio. To know more about how to create a MFA provider configuration, see [Configure MFA Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-mfa-provider.md).
 
 2.  Configuring and enabling Time limited authentication\(TLA\) record.
 

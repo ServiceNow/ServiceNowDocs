@@ -2,7 +2,7 @@
 title: Data subject types
 description: Data subjects are individuals whose personal data is collected, used, and processed by an organization. Data subject classification enables organizations to define and manage distinct groups, enabling a granular and context-specific representation of data processing activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/data-subjects.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/data-subjects.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -30,5 +30,5 @@ The Privacy Management application provides 64 data subject types by default. An
 -   Enhanced risk management: Supports the identiﬁcation of high-risk \(vulnerable\) data subject types such as children, patients, and so on by enabling configuration of vulnerable groups.
 -   Operational efficiency: Enables standardized classiﬁcation and reuse of data subject groups across multiple privacy workﬂows.
 
-**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
+**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 

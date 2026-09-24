@@ -2,7 +2,7 @@
 title: Spotlights on Platform Analytics dashboards
 description: You can list Spotlights and show them in a dashboard on a configurable workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/spotlights-configurable-workspaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/spotlight/spotlights-configurable-workspaces.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -20,12 +20,12 @@ To show Spotlight in Platform Analytics, create a dashboard in the inline editor
 
 \[Omitted image "dashboard-spotlights.png"\] Alt text: A List component in the inline dashboard editor, showing the Spotlight table
 
-**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight.md)
 
 **Related topics**  
 
 
-[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md)
+[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md)
 
-[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-analytics-list.md)
+[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md)
 

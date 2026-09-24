@@ -2,7 +2,7 @@
 title: Create an alert query
 description: An alert query is a set of alerts that meet specific criteria for a particular service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMCreateAlertGroup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMCreateAlertGroup.html
 release: australia
 product: Event Management
 classification: event-management
@@ -38,7 +38,7 @@ You can learn about Event Management basics, including alert queries, from this 
 
 3.  On the **Alert Query** form, fill in the fields.
 
-    For a description of the field values, see [Alert Query form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-query-form.md)
+    For a description of the field values, see [Alert Query form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-query-form.md)
 
     **Note:** In the **Filter** field:
 
@@ -48,10 +48,10 @@ You can learn about Event Management basics, including alert queries, from this 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/application-service-event-management.md)
+**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/application-service-event-management.md)
 
 **Related topics**  
 
 
-[Create alert group manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_SAAddAlertCorrelatedAlertGrp.md)
+[Create alert group manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_SAAddAlertCorrelatedAlertGrp.md)
 

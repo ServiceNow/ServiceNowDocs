@@ -2,7 +2,7 @@
 title: OAuth issues
 description: Learn how to fix OAuth token refresh issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/troubleshoot-oauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/troubleshoot-oauth.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ Your OAuth provider and server have different refresh time periods. Refresh time
 
 Refer to your OAuth provider's documentation when configuring OAuth. See [OAuth Inbound and Outbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/api-inbound-and-outbound.md) for more information.
 
-**Parent Topic:**[Troubleshoot synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-synthetic-monitors.md)
+**Parent Topic:**[Troubleshoot synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/troubleshoot-synthetic-monitors.md)
 

@@ -2,7 +2,7 @@
 title: Configure report templates
 description: Report templates in TISC help you generate standardized reports for cases and threat intelligence investigations. Use these templates to track ongoing security investigations and communicate threat information to different audiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-report-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-report-templates.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

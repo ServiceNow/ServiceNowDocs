@@ -2,7 +2,7 @@
 title: Automated Test Framework use case: reference a value from a previous step
 description: This use case illustrates assigning a form field the value of an output variable from a previous step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-use-backref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-use-backref.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -43,10 +43,10 @@ Automated Test Framework: In this example, the second step references an output 
     \[Omitted image "atf-use-backref-03.png"\] Alt text: Field values validation test step
 
 
-**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-use-cases.md)
 
 **Related topics**  
 
 
-[Pass values from one automated test step to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-retrieve-value.md)
+[Pass values from one automated test step to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-retrieve-value.md)
 

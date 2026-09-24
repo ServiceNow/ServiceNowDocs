@@ -2,7 +2,7 @@
 title: Activate an entitled GRC ServiceNow Store application
 description: After an application has been given entitlement, you can activate it. This process applies to applications downloaded to sub-production instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/activate-entitled-grc-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/activate-entitled-grc-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

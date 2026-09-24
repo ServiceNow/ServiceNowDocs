@@ -2,7 +2,7 @@
 title: Purchase requisition state model
 description: Reference for the complete purchase requisition \(PR\) state model, including the standard progression sequence and alternative progression branches that a PR can follow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pr-state-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/pr-state-model.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -48,7 +48,7 @@ Deviation branches for cases where a PR does not follow the happy path.
 |Pending Revision|Entered from Pending Review or Pending Approval when an approver rejects the PR because it does not meet requirements. From Pending Revision, the PR can loop back to Pending Review once the requestor makes the required changes.|
 |Closed Rejected|A terminal state reached from Pending Review, Pending Approval, or Final Review when the PR is rejected. The PR cannot transition out of Closed Rejected.|
 |Closed Canceled|A terminal state reached from multiple points when the PR is canceled. The PR cannot transition out of Closed Canceled. The underlying test suite covers both a buyer-initiated and a shopper-initiated cancellation path. Both terminate at Closed Canceled. The tracker does not currently distinguish who canceled the PR.|
-|Pending Cancellation|Not modeled as a distinct state on purchase requisitions. A PR that is canceled transitions directly to Closed Canceled with no intermediate "pending" step. The purchase order state model does define a distinct Pending Cancellation alternative progression. For details, see [Purchase order state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/po-state-model.md).|
+|Pending Cancellation|Not modeled as a distinct state on purchase requisitions. A PR that is canceled transitions directly to Closed Canceled with no intermediate "pending" step. The purchase order state model does define a distinct Pending Cancellation alternative progression. For details, see [Purchase order state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/po-state-model.md).|
 |Pending Supplier Confirmation|Punchout PRs only. This state is part of the punchout variant standard progression. The state is entered after Final Review and before Pending Submission. The PR waits for the supplier to confirm the punchout order.|
 
 Each step in the stepper payload carries one of four status values: `done`, `current`, `upcoming`, or `terminal_negative` \(used for Closed Rejected and Closed Canceled\).
@@ -69,13 +69,13 @@ Each step in the stepper payload carries one of four status values: `done`, `cur
 |Closed Rejected|An approver has rejected the PR at a stage where rejection is terminal \(no further revision is allowed\).|
 |Closed Canceled|The PR has been canceled by a system administrator or authorized user.|
 |Pending Supplier Confirmation|Punchout PRs only. The punchout order has passed Final Review and is awaiting the supplier's confirmation before moving to Pending Submission.|
-|Pending Cancellation|Not modeled for purchase requisitions. A canceled PR goes directly to Closed Canceled. This is a purchase order-only alternative progression. For details, see [Purchase order state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/po-state-model.md).|
+|Pending Cancellation|Not modeled for purchase requisitions. A canceled PR goes directly to Closed Canceled. This is a purchase order-only alternative progression. For details, see [Purchase order state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/po-state-model.md).|
 
 ## Info card and work items
 
-For each PR state, the Progress Tracker info card displays different work items and assignment sources. For the complete field reference and state-specific content, see [Progress Tracker component reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-info-card.md).
+For each PR state, the Progress Tracker info card displays different work items and assignment sources. For the complete field reference and state-specific content, see [Progress Tracker component reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-info-card.md).
 
-**Parent Topic:**[Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
+**Parent Topic:**[Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
 
 **Related topics**  
 

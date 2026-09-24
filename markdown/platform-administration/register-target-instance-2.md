@@ -2,7 +2,7 @@
 title: System property error
 description: Troubleshoot a system property error that occurs while registering a target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/register-target-instance-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/register-target-instance-2.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ The `glide.db.clone.allow_clone_target` system property is set to `False`.
 5.  Select **Update**.
 
 
-**Parent Topic:**[Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-troubleshooting.md)
+**Parent Topic:**[Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/register-target-instance-troubleshooting.md)
 

@@ -2,7 +2,7 @@
 title: Manually create an SRM incident
 description: Create an incident if you think an issue poses a serious risk and should be taken care of as soon as possible.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-create-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-create-incident.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -176,7 +176,7 @@ Choose a state for the incident. Choices are:-   New \(default\)
 -   On Hold
 -   Resolved
 -   Canceled
-See [SRM incident states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-incident-states.md) for more information.
+See [SRM incident states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-incident-states.md) for more information.
 
 </td></tr><tr><td>
 
@@ -238,8 +238,8 @@ Enter any relevant resolution information.
 
 10. Select **Save**.
 
-    The incident appears with comments, work notes, and incident activity captured in the **Activity** stream. For more information on incident fields, see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
+    The incident appears with comments, work notes, and incident activity captured in the **Activity** stream. For more information on incident fields, see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
 
-**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

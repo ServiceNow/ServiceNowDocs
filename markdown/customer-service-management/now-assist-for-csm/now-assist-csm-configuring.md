@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Otto for Customer Service Management \(CSM\)
 description: If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -91,7 +91,7 @@ For earlier versions, go to [Application Manager](https://raw.githubusercontent.
 
 [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 
-[Using agentic AI in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
+[Using agentic AI in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 
-[Customer Service Management AI agent collection triage cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/case-resolving-use-case.md)
+[Customer Service Management AI agent collection triage cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/case-resolving-use-case.md)
 

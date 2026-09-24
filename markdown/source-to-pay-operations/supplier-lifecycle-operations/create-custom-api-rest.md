@@ -2,7 +2,7 @@
 title: Create a REST message for a custom API
 description: Create a REST message request and send it to a custom API endpoint to fetch the latest supplier news.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-custom-api-rest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/create-custom-api-rest.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -70,18 +70,18 @@ Role required: admin
 
 ## What to do next
 
-[Add and configure the Get News data resource in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-config-news-data-resource.md).
+[Add and configure the Get News data resource in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-config-news-data-resource.md).
 
-**Parent Topic:**[Configuring a custom API to dynamically fetch supplier news](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supplier-news-api.md)
+**Parent Topic:**[Configuring a custom API to dynamically fetch supplier news](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-supplier-news-api.md)
 
-**Previous topic:**[Configuring a custom API to dynamically fetch supplier news](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supplier-news-api.md)
+**Previous topic:**[Configuring a custom API to dynamically fetch supplier news](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-supplier-news-api.md)
 
-**Next topic:**[Add and configure the Get News data resource in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-config-news-data-resource.md)
+**Next topic:**[Add and configure the Get News data resource in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-config-news-data-resource.md)
 
 **Related topics**  
 
 
-[Add and configure the Get News data resource in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-config-news-data-resource.md)
+[Add and configure the Get News data resource in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-config-news-data-resource.md)
 
-[Update the field names in the UX client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-client-script.md)
+[Update the field names in the UX client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/update-client-script.md)
 

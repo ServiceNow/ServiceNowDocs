@@ -2,7 +2,7 @@
 title: Create a task for a digital forensic legal matter
 description: Create a task for a digital forensic legal matter and add instructions and to-do items in a checklist for the task owner to work on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/create-dft-matter-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/create-dft-matter-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,15 +30,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d345594e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d345598e105">
 
 Option
 
-</th><th align="left" id="d345594e108">
+</th><th align="left" id="d345598e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d345594e114">
+</th></tr></thead><tbody><tr><td id="d345598e114">
 
 **As an assignee**
 
@@ -50,7 +50,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d345594e143">
+</td></tr><tr><td id="d345598e143">
 
 **As a collaborator**
 
@@ -61,7 +61,7 @@ The state of the legal matter updates to Work in Progress.
 
 
 </td></tr></tbody>
-</table>4.  To add a matter task, in the **Tasks** tab, click **New** to [add a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md).
+</table>4.  To add a matter task, in the **Tasks** tab, click **New** to [add a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md).
 
     The matter task is created and **Artifacts**, **Approvers**, and **Data Source Details** tabs are displayed.
 
@@ -85,7 +85,7 @@ Search source
 
 </td><td>
 
-Source in which the digital evidence is to be investigated.One or more fields appear on the form based on the data source configuration. For more information, see [Configure a data source for digital forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-forensics-search-sources.md).
+Source in which the digital evidence is to be investigated.One or more fields appear on the form based on the data source configuration. For more information, see [Configure a data source for digital forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/configure-forensics-search-sources.md).
 
 </td></tr><tr><td>
 
@@ -134,14 +134,14 @@ Option for indicating that the custodian has been notified of the legal hold on 
 
     -   In the **Instructions** section, click **Add** to add instructions for the assigned user to do for completing the task.
     -   In the **Checklist** section, click **Create** to add to-do items to track the progress of activities in the matter task.
-7.  [Add an artifact \(folder\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md) in which you or the assigned person can upload files related to the task or its investigation.
+7.  [Add an artifact \(folder\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md) in which you or the assigned person can upload files related to the task or its investigation.
 
 8.  In the **Details** tab of the Task form, select a user in the **Assigned to** field to assign the task to work on.
 
 
 ## What to do next
 
-The assigned user can [work on the matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/work-on-dft-matter-task.md) by following the instructions and completing the checklist items.
+The assigned user can [work on the matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/work-on-dft-matter-task.md) by following the instructions and completing the checklist items.
 
-**Parent Topic:**[Work on a digital forensic legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/work-on-dft-legal-matter.md)
+**Parent Topic:**[Work on a digital forensic legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/work-on-dft-legal-matter.md)
 

@@ -2,7 +2,7 @@
 title: Create a course catalog
 description: Create a course catalog to maintain courses under one category and drive access control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-course-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/create-course-catalog.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -28,17 +28,17 @@ Role required: sn\_lc.learning\_admin, sn\_lc.learning\_course\_catalog\_admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Course catalog form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/course-catalog-table.md).
+    For a description of the field values, see [Course catalog form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/course-catalog-table.md).
 
 4.  Select **Submit**.
 
 
--   **[Create courses to add to a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-course-to-catalog.md)**  
+-   **[Create courses to add to a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-course-to-catalog.md)**  
 After creating a course catalog, create new course items to add to the course catalog and categorize them accordingly.
--   **[Define user access to course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/define-user-access-to-cc.md)**  
+-   **[Define user access to course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/define-user-access-to-cc.md)**  
 After creating a course catalog, define user access criteria at the course catalog level.
 
-**Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-ln-content.md)
+**Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-ln-content.md)
 
 **Related topics**  
 
@@ -53,7 +53,7 @@ After creating a course catalog, define user access criteria at the course catal
 
 [Create a learning task]()
 
-[Create courses to add to a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-course-to-catalog.md)
+[Create courses to add to a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-course-to-catalog.md)
 
-[Define user access to course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/define-user-access-to-cc.md)
+[Define user access to course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/define-user-access-to-cc.md)
 

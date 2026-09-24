@@ -2,7 +2,7 @@
 title: Create configuration revisions
 description: As a provider, you can edit and create revisions of entitlements that contain updated functionality that can be developed and deployed to consumers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-config-rev.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-create-config-rev.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -27,11 +27,11 @@ A configuration can be one of the following:
 
 **Note:** The following sections describe the various stages in the configuration revision life-cycle of a remote task definition. You can:
 
--   [Create a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
--   [Archive a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
--   [Retire a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
--   [Copy a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
--   [Delete a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
+-   [Create a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md)
+-   [Archive a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md)
+-   [Retire a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md)
+-   [Copy a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md)
+-   [Delete a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md)
 
 You can follow the same process to create revisions for a remote record producer.
 
@@ -44,7 +44,7 @@ You can follow the same process to create revisions for a remote record producer
 
     \[Omitted image "service-bridge-v2-remote-task-defn1.jpg"\] Alt text: Service Exchange Remote Task Definition
 
-    Note the **Compatibility** field. This field shows the Service Exchange version that is being used by the provider. If the consumer is using a compatible Service Exchange version, data can be synced between the provider and consumer instances. But if the consumer isn’t using a compatible version, any new entitlements can’t be activated until the corresponding Service Exchange version is upgraded. See [Mismatched version support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-mismatch-version.md) for additional information.
+    Note the **Compatibility** field. This field shows the Service Exchange version that is being used by the provider. If the consumer is using a compatible Service Exchange version, data can be synced between the provider and consumer instances. But if the consumer isn’t using a compatible version, any new entitlements can’t be activated until the corresponding Service Exchange version is upgraded. See [Mismatched version support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-mismatch-version.md) for additional information.
 
 3.  Select **Checkout**.
 4.  A new revision of the configuration is created and the State is set to **In Draft**.

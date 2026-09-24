@@ -2,7 +2,7 @@
 title: Add entities for fiscal calendars
 description: Identify the entities that will follow the fiscal calendars you have created. This ensures that data collection is consistent, as each entity follows the designated calendar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/add-entities-for-a-fiscal-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/add-entities-for-a-fiscal-calendar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: sn\_grc\_metric.admin
     3.  Select **Save**.
 
 
-**Parent Topic:**[Create fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/enable-custom-fiscal-year.md)
+**Parent Topic:**[Create fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/enable-custom-fiscal-year.md)
 

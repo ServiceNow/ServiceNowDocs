@@ -2,7 +2,7 @@
 title: Delete the incident
 description: Delete the incident using a DELETE request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t\_GetStartedDeleteInt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/t\_GetStartedDeleteInt.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -43,5 +43,5 @@ Use the REST API Explorer to send the following request:
 5.  Verify that the response **Status code** is `204`.
 
 
-**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

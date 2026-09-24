@@ -2,7 +2,7 @@
 title: Configuring AI in Catalog Builder
 description: Install and configure AI in Catalog Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configuring-catalog-item-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/configuring-catalog-item-generation.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -19,7 +19,7 @@ Install and configure AI in Catalog Builder.
 
 You must activate the Catalog item generation skill.
 
-**Parent Topic:**[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
+**Parent Topic:**[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 
 **Related topics**  
 

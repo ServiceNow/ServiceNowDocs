@@ -2,7 +2,7 @@
 title: Convert application service maps into PDFs
 description: You may want to create a PDF for a map to share information about the service content with other people. PDFs are especially useful during the review and approve process for application services discovered by Service Mapping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/convert-service-into-pdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/convert-service-into-pdf.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -47,5 +47,5 @@ The PDF of an application service map shows the name of the application service 
     The PDF appears in the downloads folder on your computer.
 
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 

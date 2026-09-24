@@ -2,7 +2,7 @@
 title: Create a finance case
 description: Create a finance case on behalf of a requester to track the progress.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/create-case-from-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/create-case-from-ws.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -44,12 +44,12 @@ Role required: sn\_fin\_ops.specialist
 
 7.  On the Create New Finance Case form, fill in the fields.
 
-    For more information on the form fields and descriptions, see [Create a finance case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/create-fin-inquiry-form.md).
+    For more information on the form fields and descriptions, see [Create a finance case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/create-fin-inquiry-form.md).
 
 8.  Select **Save**.
 
-    A new finance case is created. For more information on viewing finance cases, see [View a case from Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/view-case-fin-ops-ws.md).
+    A new finance case is created. For more information on viewing finance cases, see [View a case from Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/view-case-fin-ops-ws.md).
 
 
-**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Define a communication task
 description: Define a communication task for a communication plan. When a plan gets attached to a table, the tasks related to the plan need to be executed to resolve the issue. You can associate multiple tasks with a communication plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/create-comm-task-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/task-communications-management/create-comm-task-definition.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management
@@ -122,7 +122,7 @@ Time by which you want to send a notification. For example, if the communication
 
 Define communication channel for the task.
 
-**Parent Topic:**[Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/create-comm-plan-definition.md)
+**Parent Topic:**[Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/task-communications-management/create-comm-plan-definition.md)
 
 **Related topics**  
 

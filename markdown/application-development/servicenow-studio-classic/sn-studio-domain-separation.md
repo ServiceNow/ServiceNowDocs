@@ -2,7 +2,7 @@
 title: Domain separation and ServiceNow Studio
 description: Domain separation is not supported for ServiceNow Studio. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sn-studio-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sn-studio-domain-separation.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -23,5 +23,5 @@ Domain separation is not supported for ServiceNow Studio. Domain separation enab
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
+**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 

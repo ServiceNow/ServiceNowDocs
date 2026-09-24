@@ -2,7 +2,7 @@
 title: GCP PubSub data input configuration fields
 description: Description of the fields on the GCP PubSub data input configuration form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -161,5 +161,5 @@ The subscription Health Log Analytics uses to receive log data that is published
 |Rate limit|The maximum number of events per second that this data input processes.|-1|
 |Drop if queue is full|Option to discard logs if many processes are waiting in the queue to access the MID Server.|Clear|
 
-**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

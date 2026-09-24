@@ -2,7 +2,7 @@
 title: Log in to instances on IP-restricted networks with your mobile device
 description: Learn how to log in with your mobile device to a ServiceNow instance that uses adaptive authentication to restrict access based on IP addresses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/login2-ip-restricted-networks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/login2-ip-restricted-networks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

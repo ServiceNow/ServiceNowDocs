@@ -2,12 +2,12 @@
 title: Email notifications for order cases
 description: The manage order operations AI agent sends automated emails to your B2B customers when an order case is opened from a Business Portal chat conversation and when the order case is closed with a successful resolution. The Manage Order Operations application includes two default email templates that you can customize.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-case-email-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-case-email-notifications.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-19"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Order Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
@@ -28,7 +28,7 @@ To customize the subject, content, or formatting of these default email template
 
 The application scope must be set to Manage Order Operations. You can change the application scope using the application picker \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation bar.
 
-**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-order-operations.md)
+**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-manage-order-operations.md)
 
 **Related topics**  
 

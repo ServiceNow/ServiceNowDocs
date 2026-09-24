@@ -2,7 +2,7 @@
 title: Configure sensitivity detection
 description: Configure sensitivity detection in the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -45,12 +45,12 @@ Configurations are available on the ServiceNow Otto Admin Panel settings as part
 5.  Select **Applicability** to choose what filters apply to active virtual agents.\[Omitted image "sd-na-admin-panel-applicability.png"\] Alt text: Shows the ability to add virtual agents to sensitive phrases
 
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
 [bundle-platai.add-semantic-filtering-for-sensitive-information]
 
-[Sensitivity detection filters mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.md)
+[Sensitivity detection filters mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.md)
 

@@ -2,7 +2,7 @@
 title: Transfer records to remediation efforts in the Security Exposure Management Workspace
 description: You can transfer records from existing remediation efforts into new remediation efforts in the Vulnerability Manager Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-transfer-VI-to-RE.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-transfer-VI-to-RE.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ If confronted by a zero-day threat or a very critical vulnerability that you wan
 
 Say, for example, you created a remediation effort that has one, high-priority vulnerability in it. Because this vulnerability is widespread and potentially impacts the other areas in your environment, you might have records that are associated with this vulnerability already in existing remediation efforts. To combine these records so they are all in one remediation effort, you can transfer any records from existing remediation efforts into a new remediation effort.
 
-**Note:** You cannot transfer records from recurring remediation efforts into new remediation efforts. For more information, see [Create a recurring remediation effort in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-create-recurringRE-steal-VI.md).
+**Note:** You cannot transfer records from recurring remediation efforts into new remediation efforts. For more information, see [Create a recurring remediation effort in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vr-ws-create-recurringRE-steal-VI.md).
 
 Role required:
 
@@ -62,7 +62,7 @@ Role required:
     -   By Assignment group
     -   By Assignment group and finding
     -   By Assignment group and vulnerability
-    -   None \(No remediation tasks are created\). Use this method if you want to add records manually to a remediation task for this effort. See [Create a remediation task on-demand from Remediation Effort in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-create-rt-frm-re.md).
+    -   None \(No remediation tasks are created\). Use this method if you want to add records manually to a remediation task for this effort. See [Create a remediation task on-demand from Remediation Effort in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vr-ws-create-rt-frm-re.md).
 8.  To automatically refresh the duplicate findings, you must select the **Automatically refresh duplicate vulnerable items for the created remediation tasks** option.
 
 9.  Select **Next**.
@@ -83,8 +83,8 @@ Role required:
 
     **Note:** If there are neither any records available from the watch topic, nor any records selected for transfer, the **Create Remediation Effort** button is deactivated.
 
-    For more information on how the Remediation Tasks associated with the Remediation Efforts are impacted by records transfer, see [Transferring records or record carry over](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-re-lifecycle.md).
+    For more information on how the Remediation Tasks associated with the Remediation Efforts are impacted by records transfer, see [Transferring records or record carry over](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vr-ws-re-lifecycle.md).
 
 
-**Parent Topic:**[Use Remediation Effort records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ws-remed-eff-rcd.md)
+**Parent Topic:**[Use Remediation Effort records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-ws-remed-eff-rcd.md)
 

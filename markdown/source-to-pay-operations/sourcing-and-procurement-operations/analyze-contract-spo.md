@@ -2,7 +2,7 @@
 title: Analyze a contract document from Source-to-Pay Workspace
 description: As a contract fulfiller, analyze a contract document with generative AI to identify non-standard and missing clauses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/analyze-contract-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/analyze-contract-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -48,15 +48,15 @@ For more information, see [Contract review using ServiceNow Otto for Contract Ma
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d162215e159">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d162112e159">
 
 Method
 
-</th><th align="left" id="d162215e162">
+</th><th align="left" id="d162112e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d162215e168">
+</th></tr></thead><tbody><tr><td id="d162112e168">
 
 **Run Now Assist analysis on a single contract document**
 
@@ -66,7 +66,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with Now Assist**.
 
 
-</td></tr><tr><td id="d162215e195">
+</td></tr><tr><td id="d162112e195">
 
 **Run Now Assist analysis on multiple contract documents**
 
@@ -84,7 +84,7 @@ Steps
 
     \[Omitted image "spo-cmro-rca-message.png"\] Alt text: RCA approvals for Now Assist in Contract Management.
 
-    For more information about approving restricted caller access \(RCA\) privileges to allow cross-scope access to Now Assist in Contract Management, see [RCA approvals for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/approve-rca-contracts-spo.md).
+    For more information about approving restricted caller access \(RCA\) privileges to allow cross-scope access to Now Assist in Contract Management, see [RCA approvals for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/approve-rca-contracts-spo.md).
 
 7.  Select **Analyze contract**.
 
@@ -106,10 +106,10 @@ Steps
     You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Contract analysis states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-na-states.md)
 
 
--   **[RCA approvals for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/approve-rca-contracts-spo.md)**  
+-   **[RCA approvals for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/approve-rca-contracts-spo.md)**  
 Approve restricted caller access \(RCA\) privileges to allow cross-scope access to Now Assist in Contract Management.
 
-**Parent Topic:**[Using Now Assist for Contract Management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-now-assist-cmpro-spo.md)
+**Parent Topic:**[Using Now Assist for Contract Management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-now-assist-cmpro-spo.md)
 
 **Related topics**  
 

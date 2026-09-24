@@ -2,7 +2,7 @@
 title: Configure notifications in IO
 description: Configure notifications and alerts to monitor your Instance Observer instance and receive alerts when specified conditions are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-self-serve-alerts-vid-tut.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-self-serve-alerts-vid-tut.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"
@@ -124,7 +124,7 @@ Option to integrate Instance Observer with a third-party monitoring tool.
 
 ## What to do next
 
-[Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md)
+[Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-io-alerts.md)
 
-**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts.md)
+**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-alerts.md)
 

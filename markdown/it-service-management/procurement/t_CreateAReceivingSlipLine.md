@@ -2,7 +2,7 @@
 title: Create a receiving slip line
 description: When assets arrive at a stockroom and you receive them, a receiving slip is created on the purchase order. You create a receiving slip line to identify the specific assets and quantities that were received.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_CreateAReceivingSlipLine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/procurement/t\_CreateAReceivingSlipLine.html
 release: australia
 product: Procurement
 classification: procurement
@@ -52,7 +52,7 @@ If the asset already exists, the asset record is updated when you save the recei
 
 The **Receiving stockroom** field on the Receiving Slip record becomes read-only.
 
-**Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_ReceiveAssets.md)
+**Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/procurement/c_ReceiveAssets.md)
 
 **Related topics**  
 

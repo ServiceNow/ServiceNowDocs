@@ -2,7 +2,7 @@
 title: Manage an announcement for communicating about major incidents
 description: Create and manage an announcement to broadcast messages for Service Portal users to keep them informed about the ongoing major incident. Major incident managers can create and deploy announcements from Service Operations Workspace \(SOW\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-announcements-major-inc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-announcements-major-inc.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -247,5 +247,5 @@ Portals that display the announcement. If this field is empty, the announcement 
 
 If the **Type** is **Banner**, test your announcement by navigating to the portal defined in the **Portals** field. If the **Type** is **Widget** or a custom type, test your announcement by navigating to the page with the associated widget instance.
 
-**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
+**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
 

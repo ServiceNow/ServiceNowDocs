@@ -2,7 +2,7 @@
 title: Components installed with Task Communications Management
 description: Several types of components are installed with the Task Communications Management plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/components-installed-with-tcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/task-communications-management/components-installed-with-tcm.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management
@@ -237,5 +237,5 @@ Configure all Task Communications Management features including communication pl
 </td></tr></tbody>
 </table>To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Activate Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/activate-tcm-plugin.md)
+**Parent Topic:**[Activate Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/task-communications-management/activate-tcm-plugin.md)
 

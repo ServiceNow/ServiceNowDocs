@@ -2,7 +2,7 @@
 title: Run your test assignments in Test Management 2.0
 description: Run your test assignments and capture the results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/run-your-test-assignments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/run-your-test-assignments.html
 release: australia
 product: Test Management
 classification: test-management
@@ -92,9 +92,9 @@ Test results are saved to the Test Result form. The overall status of the test i
 
 ## What to do next
 
-To view the full history of test runs and results across all test plans, navigate to **Test Management 2.0** &gt; **Test Runs**. For more information about monitoring test plan progress, see [Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-board.md).
+To view the full history of test runs and results across all test plans, navigate to **Test Management 2.0** &gt; **Test Runs**. For more information about monitoring test plan progress, see [Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/test-management/test-board.md).
 
-**Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/release-readiness-testing.md)
+**Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/test-management/release-readiness-testing.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Register an instance for cloning
 description: Register your target instance before requesting your clone. OAuth authentication is the recommended method and requires a one-time setup per target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-target-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configure-target-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-08-26"
@@ -41,7 +41,7 @@ You can register a target instance from the Clone Admin Console or during a clon
 
 5.  Choose an authentication method:
 
-    -   **OAuth \(recommended\):** Select **Setup OAuth on Target** and follow the OAuth setup workflow. See [Set up OAuth authentication for a clone target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/setup-clone-oauth.md) for detailed steps.
+    -   **OAuth \(recommended\):** Select **Setup OAuth on Target** and follow the OAuth setup workflow. See [Set up OAuth authentication for a clone target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/setup-clone-oauth.md) for detailed steps.
     -   **Basic authentication \(fallback\):** If the target instance does not support OAuth, enter credentials for a user account with the clone\_admin and soap roles. Ensure the user's identity\_type is set to machine on the user record.
 6.  Select **Save** or **Add Target** \(depending on authentication method\).
 
@@ -54,5 +54,5 @@ The target instance is configured and registered for cloning.
 
 ## What to do next
 
-To submit a clone request to the registered target, see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md).
+To submit a clone request to the registered target, see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_StartAClone.md).
 

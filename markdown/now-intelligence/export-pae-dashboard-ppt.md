@@ -2,7 +2,7 @@
 title: Export a Platform Analytics dashboard
 description: Export a Platform Analytics experience dashboard to PDF or Microsoft PowerPoint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/export-pae-dashboard-ppt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/export-pae-dashboard-ppt.html
 release: australia
 topic_type: task
 last_updated: "2026-08-14"
@@ -20,7 +20,7 @@ Role required: Any, as long as the user has access to the dashboard.
 
 **Note:**
 
--   This task only applies to dashboards created in the inline editor. Technical dashboards don't have the **Export** option in the **More actions** menu. For more information, see [Technical dashboards compared to inline dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-vs-in-line-dashboards.md).
+-   This task only applies to dashboards created in the inline editor. Technical dashboards don't have the **Export** option in the **More actions** menu. For more information, see [Technical dashboards compared to inline dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/technical-vs-in-line-dashboards.md).
 -   Dashboards can be exported only as PowerPoint and PDF, however, in a dashboard some of the data visualizations can't be exported, as shown in the following table:
 
 <table id="table_rfj_tf5_zjc"><thead><tr><th>
@@ -76,10 +76,10 @@ PowerPoint \(PPT\)
 </table>-   Only the supported data visualizations and Lists are exported, not Headings or Rich Text or any other element.
 -   Content is not necessarily exported in the order it appears on the dashboard.
 -   Because the length of a list can't be predicted, list visualizations are intentionally placed at the end of exported PDFs.
--   Depending on your entitlements, you may be able export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md).
+-   Depending on your entitlements, you may be able export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-db-dv-now-assist-panel.md).
 -   Dashboards exported to PowerPoint include the title above and the description below each visualization in an editable format if this information is provided in the source visualization.
 
--   You can also export individual data visualizations from a dashboard to a PNG or JPEG file. For more information, see [Download a data visualization from a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-data-vis-from-dboard.md).
+-   You can also export individual data visualizations from a dashboard to a PNG or JPEG file. For more information, see [Download a data visualization from a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-data-vis-from-dboard.md).
 
 ## Procedure
 
@@ -156,7 +156,7 @@ You can select whether to apply to the export any values that have been set in f
 
 The dashboard with selected tabs and filters is exported to a PDF or PowerPoint file and delivered by the chosen method.
 
-**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 

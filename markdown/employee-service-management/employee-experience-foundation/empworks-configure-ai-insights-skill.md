@@ -2,7 +2,7 @@
 title: Configure a custom AI insights skill for a task type
 description: Configure a task to use a custom Now Assist skill for AI insights in the Task details widget. Optionally add a custom script to pre-process input or post-process the skill response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +27,7 @@ Role required: sn\_hr\_sp.esc\_admin or admin
 
 ## About this task
 
-AI insights help employees understand task details and make informed decisions. Configure a skill for each task type that requires AI-generated insights in the **Task details** widget. Learn about task scope and action widget configuration from [Configure task scope and action widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-action-widget.md)
+AI insights help employees understand task details and make informed decisions. Configure a skill for each task type that requires AI-generated insights in the **Task details** widget. Learn about task scope and action widget configuration from [Configure task scope and action widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-action-widget.md)
 
 You can configure custom skills to provide task-specific insights. Examples include:
 
@@ -96,12 +96,12 @@ The skill run fails if the selected skill does not accept **sys\_id** and **tabl
 
 The skill execution script fails if it does not return a response that matches the skill output contract. When the script fails, you see a generic error message instead of insights.
 
-Understand the basics of AI insights skill, see [AI insights skill reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-ai-insights-skill-ref.md).
+Understand the basics of AI insights skill, see [AI insights skill reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-ai-insights-skill-ref.md).
 
 **Related topics**  
 
 
-[AI insights skill reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-ai-insights-skill-ref.md)
+[AI insights skill reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-ai-insights-skill-ref.md)
 
-[Configure task scope and action widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-action-widget.md)
+[Configure task scope and action widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-action-widget.md)
 

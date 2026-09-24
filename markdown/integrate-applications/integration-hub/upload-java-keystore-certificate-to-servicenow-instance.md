@@ -2,7 +2,7 @@
 title: Upload Java KeyStore certificate to ServiceNow instance
 description: Upload the Java KeyStore certificate to your ServiceNow instance to enable the creation of connections and credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/upload-java-keystore-certificate-to-servicenow-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/upload-java-keystore-certificate-to-servicenow-instance.html
 release: australia
 product: Integration Hub
 classification: integration-hub

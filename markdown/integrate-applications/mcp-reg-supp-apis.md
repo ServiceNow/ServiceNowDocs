@@ -2,7 +2,7 @@
 title: Supported APIs
 description: APIs supported in this version of the ServiceNow MCP Registry application are listed here.Retrieves a paginated list of registered MCP servers.Retrieve all available versions for a specific MCP server.Retrieve detailed configuration for a specific MCP server version, including complete package definitions, transport configurations, and metadata.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mcp-reg-supp-apis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mcp-reg-supp-apis.html
 release: australia
 topic_type: reference
 last_updated: "2026-02-13"

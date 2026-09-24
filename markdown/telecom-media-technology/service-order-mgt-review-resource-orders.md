@@ -2,7 +2,7 @@
 title: Review the domain resource orders that are associated with a service order
 description: Review the domain resource orders that were generated for a selected service order line item so that you can ensure that all the related details are correct and complete.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 7, 2025.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-review-resource-orders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-order-mgt-review-resource-orders.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,15 +28,15 @@ The domain resource orders manage the resources required for fulfillment of the 
 
 2.  Select an associated resource order to review or create a resource order.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d39533e72">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d39537e72">
 
 Task
 
-</th><th align="left" id="d39533e75">
+</th><th align="left" id="d39537e75">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39533e81">
+</th></tr></thead><tbody><tr><td id="d39537e81">
 
 **Review an existing resource order**
 
@@ -48,7 +48,7 @@ Action
 -   To filter existing resource orders, click the filter icon \[Omitted image "form-filter.png"\] Alt text:.
 
 
-</td></tr><tr><td id="d39533e124">
+</td></tr><tr><td id="d39537e124">
 
 **Create a resource order**
 

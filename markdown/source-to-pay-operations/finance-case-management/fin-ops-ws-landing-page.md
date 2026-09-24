@@ -2,7 +2,7 @@
 title: Finance Operations Workspace landing page
 description: As a Finance Specialist \(sn\_fin\_ops.specialist\), view a summary of the important items, your performance, and recent activities on your cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/fin-ops-ws-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/fin-ops-ws-landing-page.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -30,7 +30,7 @@ The landing page has the following components.\[Omitted image "fin-ops-ws.png"\]
 |Recently updated cases|
 |My active cases|View up to five of your active cases. Select **View all** to view all your active cases. The finance cases open in the Finance Operations Workspace, while the other cases and tasks that you have access to open in the Source-to-Pay Workspace.|
 
-**Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
+**Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
 
 **Related topics**  
 

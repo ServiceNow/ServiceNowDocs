@@ -2,7 +2,7 @@
 title: Configure the Platform Analytics Solution for Self-Service Analytics for Customer Service
 description: Run diagnostics, review and customize components, and start collecting data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ssa-solution-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ssa-solution-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -70,7 +70,7 @@ A ServiceNow AI Platform administrator must have installed the content pack plug
 **Related topics**  
 
 
-[Platform Analytics Solutions for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-content-pack.md)
+[Platform Analytics Solutions for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-content-pack.md)
 
 [Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service-analytics.md)
 

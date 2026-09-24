@@ -2,7 +2,7 @@
 title: Components installed with the Incident plugin
 description: Several types of components are installed with activation of the Incident plugin in Incident Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/installed-with-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/installed-with-incident.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -70,5 +70,5 @@ Incident\[incident\]
 The Incident table is extended from the Task \[task\] table. It inherits all the fields, rules, and policies from the Task table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-incident-plugin.md)
+</table>**Parent Topic:**[Activate Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/activate-incident-plugin.md)
 

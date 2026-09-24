@@ -2,7 +2,7 @@
 title: Create an agent for Task Mining requests
 description: Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/create-agent.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -25,7 +25,7 @@ Role required: sn\_ac.automation\_admin, sn\_ac.automation\_technical\_user
 Consider the following when using this feature:
 
 -   Only requests created from Task Mining are supported. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/integration-with-automation-center.md).
--   User task step summarization skill must be activated and the automation request must be in **In progress** state. For more information about the skill, see [Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md).
+-   User task step summarization skill must be activated and the automation request must be in **In progress** state. For more information about the skill, see [Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/activate-skill.md).
 
 ## Procedure
 
@@ -62,5 +62,5 @@ Consider the following when using this feature:
     The agent is created for the automation request.
 
 
-**Parent Topic:**[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/integrating-with-task-mining.md)
+**Parent Topic:**[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/integrating-with-task-mining.md)
 

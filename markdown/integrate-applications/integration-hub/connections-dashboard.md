@@ -2,7 +2,7 @@
 title: Using the Connections dashboard
 description: View and configure your connection and credential aliases through a simplified interface. Add new connections, edit existing connections, and view connection details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/connections-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/connections-dashboard.html
 release: australia
 product: Integration Hub
 classification: integration-hub

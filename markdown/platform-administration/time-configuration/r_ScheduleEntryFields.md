@@ -2,7 +2,7 @@
 title: Schedule entry fields
 description: You can only associate a schedule entry with one schedule. The Schedule Entries related list contains the definitions of the time periods you want to include in or exclude from the schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_ScheduleEntryFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/r\_ScheduleEntryFields.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -59,7 +59,7 @@ When
 
 </td><td>
 
-Date and time to which the schedule entry applies. If the schedule entry applies to a full 24-hour day, select the **All day** check box.**Note:** Changing the global date and time format in the **glide.sys.date\_format** System Properties setting has significant impact on schedule calculations made when you select the **All day** check box. To learn more, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md).
+Date and time to which the schedule entry applies. If the schedule entry applies to a full 24-hour day, select the **All day** check box.**Note:** Changing the global date and time format in the **glide.sys.date\_format** System Properties setting has significant impact on schedule calculations made when you select the **All day** check box. To learn more, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/r_FormatDateAndTimeFields.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Monthly type
 
 </td><td>
 
-[Monthly schedule repetition frequency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_RepeatAMonthlySchedule.md). This field is only visible when the **Repeats** field has a value of **Monthly**. Monthly repeat options include:-   Repeat on a specific day of the month
+[Monthly schedule repetition frequency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_RepeatAMonthlySchedule.md). This field is only visible when the **Repeats** field has a value of **Monthly**. Monthly repeat options include:-   Repeat on a specific day of the month
 -   Repeat on a specific day in a specific week of the month
 -   Repeat on the last day of the month
 -   Repeat on a specific weekday in the last week of the month
@@ -146,12 +146,12 @@ Type
 \[Optional\] Schedule entry description.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md)
+</table>**Parent Topic:**[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_DefineASchedule.md)
 
 **Related topics**  
 
 
-[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_UseSchedules.md)
 
-[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md)
+[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_DefineASchedule.md)
 

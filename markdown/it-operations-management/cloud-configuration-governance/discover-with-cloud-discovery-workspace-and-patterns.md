@@ -2,7 +2,7 @@
 title: Discover using Cloud Operations Workspace and Patterns
 description: You can now schedule and perform discovery using Cloud Discovery Workspace and Discovery and Service Mapping Patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/discover-with-cloud-discovery-workspace-and-patterns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/discover-with-cloud-discovery-workspace-and-patterns.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -84,5 +84,5 @@ Cloud Discovery schedules display in a new tab of your browser.
 
 Install and use the latest Discovery and Service Mapping Patterns, at least version 1.15, as the default mechanism for performing Discovery.
 
-**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-general-setup-day-2.md)
+**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-mgt-general-setup-day-2.md)
 

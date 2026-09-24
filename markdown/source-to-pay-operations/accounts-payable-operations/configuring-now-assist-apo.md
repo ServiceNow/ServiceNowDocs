@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Configure ServiceNow Otto for Accounts Payable Operations so that AP fulfillers can use generative AI skills in the Source-to-Pay Workspace and in Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

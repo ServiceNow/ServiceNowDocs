@@ -2,11 +2,11 @@
 title: Combined Clone Admin Console release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Clone Admin Console from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-cloneadminconsole-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-cloneadminconsole-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -141,6 +141,33 @@ Australia
 Clone Admin Console now uses JWT certificate-based authentication instead of username and password authentication, improving security and simplifying cross-instance authentication.
 
 
+ -   **[Updated clone menu navigation items](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+All clone-related functions are now available under the Clone Admin Console menu navigation item.
+
+-   **[Submit a new clone even if another clone is scheduled](https://www.servicenow.com/docs/access?context=t_StartAClone&family=australia&ft:locale=en-US)**
+
+Create an additional clone request even if there’s already a future clone for that target. This feature removes the previous limitation where any new clone requests were not allowed until all existing requests were canceled. You can now submit new clone requests if more than five days apart from existing ones.
+
+-   **[Clone summary](https://www.servicenow.com/docs/access?context=t_StartAClone&family=australia&ft:locale=en-US)**
+
+Help prevent clone conflicts with the **Clone summary**, which highlights clones that are scheduled in the next 30 days that involve the same target instance.
+
+-   **[Configuration tab](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+All clone-related settings are now grouped under a single **Configuration** tab for improved organization and discoverability.
+
+-   **[Clone Home Renamed to Clone Activity](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+The **Clone Home** menu item has been renamed to **Clone Activity** to be more descriptive of the page's purpose and improve navigation clarity.
+
+-   **Clone profile script updates**
+
+Fixed an issue where setting a script in the clone\_cleanup\_script table to active=false or active=true did not apply consistently across all clone profiles the script was listed on. Changes now propagate correctly.
+
+Both the source and target instances must be on Australia Patch 5 or a subsequent release to use cleanup script status.
+
+
 </td></tr></tbody>
 </table>## Removed
 
@@ -230,6 +257,8 @@ Zurich
 
 Install the Clone Admin Console by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Clone Admin Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -397,5 +426,5 @@ Australia
  See [Instance Clone](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Add MetricBase charts to Service Observability dashboard templates
 description: Add MetricBase data to charts on Service Observability dashboard templates when you want to view those metrics in context of Service Observability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/add-metric-base-charts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-observability/add-metric-base-charts.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -36,7 +36,7 @@ Role required: sn\_sow\_svcobs.admin
     -   **Express list** alert: Select a service from the **Impacted services** column.
     The Service Details page opens and the Overview tab is displayed.
 
-    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/chart-error-states.md).
+    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/chart-error-states.md).
 
 2.  Open the template in editing mode.
 
@@ -65,5 +65,5 @@ Role required: sn\_sow\_svcobs.admin
 6.  To return the template to the default \(Certified\) version, use the **More actions** menu to select **Return to certified**.
 
 
-**Parent Topic:**[Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md)
+**Parent Topic:**[Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md)
 

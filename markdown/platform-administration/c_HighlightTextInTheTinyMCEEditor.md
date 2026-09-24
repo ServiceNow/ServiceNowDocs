@@ -2,7 +2,7 @@
 title: Highlight text in TinyMCE
 description: On the bottom bar of TinyMCE, the path of HTML tags for the text at the cursor position is displayed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_HighlightTextInTheTinyMCEEditor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_HighlightTextInTheTinyMCEEditor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Set up the environment to manage approvals
 description: Complete the setup tasks before creating approval configurations and workflows. These prerequisites enable the approval system for a CPQ implementation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/setup-approvals-prerequisites.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/setup-approvals-prerequisites.html
 release: australia
 topic_type: task
 last_updated: "2026-06-16"
@@ -31,7 +31,7 @@ Set up the environment to administer and manage approvals.
 
     2.  Search for and install the following plugins, if not already installed:
 
-        -   Advanced Approvals Plugin: Provides the core approval management framework. For more information, see [Install Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-advanced-approval-management.md)
+        -   Advanced Approvals Plugin: Provides the core approval management framework. For more information, see [Install Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-advanced-approval-management.md)
         -   Quote Management - Advanced \(App id: sn\_quote\_mgmt\_adv\): Required for approving transactions.
     3.  Confirm that all plugins show as active in the Plugins list.
 
@@ -72,11 +72,11 @@ Set up the environment to administer and manage approvals.
 
 4.  Configure UI effects and layout for the approval experience.
 
-    For more information, see [Configure approval events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-approval-events.md).
+    For more information, see [Configure approval events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-approval-events.md).
 
 5.  Set up stage transitions for the approval workflow.
 
-    For more information, see [Configure stages and entry criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-stages-entry-criteria.md).
+    For more information, see [Configure stages and entry criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-stages-entry-criteria.md).
 
 6.  Verify all prerequisites are complete.
 
@@ -97,12 +97,12 @@ Set up the environment to administer and manage approvals.
 
 Proceed with the following tasks:
 
--   [Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-configuration.md)
--   [Create conditions that trigger approval workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-approval-trigger-conditions.md)
--   [Create approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-rules.md)
--   [Create approval chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-chain.md)
--   [Define an approval user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-users.md)
--   [Define an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-groups.md)
+-   [Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-configuration.md)
+-   [Create conditions that trigger approval workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-approval-trigger-conditions.md)
+-   [Create approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-rules.md)
+-   [Create approval chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-chain.md)
+-   [Define an approval user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-users.md)
+-   [Define an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-groups.md)
 
-After approvals are configured, end users can submit approval requests using the approval interface. For user-facing tasks, see [Review and approve a submitted quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-and-approve-quote.md).
+After approvals are configured, end users can submit approval requests using the approval interface. For user-facing tasks, see [Review and approve a submitted quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/review-and-approve-quote.md).
 

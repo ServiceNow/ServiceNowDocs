@@ -2,7 +2,7 @@
 title: Upgrade Monitor schedule states
 description: When an upgrade is scheduled, the Upgrade Monitor displays information about the next scheduled upgrade. It displays the date and time when the next scheduled upgrade will start. If there is no upgrade scheduled, the Upgrade Monitor displays Status: No upgrade detected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-monitor-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-monitor-states.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management

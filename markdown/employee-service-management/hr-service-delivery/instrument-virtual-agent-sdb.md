@@ -2,7 +2,7 @@
 title: Configure the Virtual Agent topics
 description: Configure the Virtual Agent \(VA\) topics for HR Success Dashboard indicators to display data correctly in case you have topics other than the base system topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/instrument-virtual-agent-sdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/instrument-virtual-agent-sdb.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

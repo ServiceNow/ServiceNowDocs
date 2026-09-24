@@ -2,7 +2,7 @@
 title: Upload a signed contract document
 description: Upload a signed contract document that you have received from the signatories. You must upload a contract document for a wet signature workflow, an offline signature workflow when the contract was signed outside the system or if one of the signatories in the electronic signature workflow decides to do a wet signature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -73,5 +73,5 @@ For own paper contracts, the state of the request updates to **Closed complete**
 
 For third-party contracts, the state of the request and the contract status updates to **Contract signed**. To close the contract request, select **Close complete**.
 
-**Parent Topic:**[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
 

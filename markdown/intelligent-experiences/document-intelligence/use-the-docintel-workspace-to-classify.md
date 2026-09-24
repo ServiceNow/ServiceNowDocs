@@ -2,7 +2,7 @@
 title: Classify documents using the Document Intelligence workspace
 description: Use the Document Intelligence workspace to label your documents. The workspace enables you to train the AI model by providing direct input and by validating or correcting the recommendations provided by DocIntel.Classify your documents in the Classify panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/use-the-docintel-workspace-to-classify.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/document-intelligence/use-the-docintel-workspace-to-classify.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -16,7 +16,7 @@ breadcrumb: [Complete a document task, Use, Document Intelligence \(Legacy\), En
 
 Use the Document Intelligence workspace to label your documents. The workspace enables you to train the AI model by providing direct input and by validating or correcting the recommendations provided by DocIntel.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Overview of the Document Intelligence workspace
 
@@ -24,8 +24,8 @@ The Document Intelligence \(DocIntel\) workspace provides features that enable y
 
 To get started with the Document Intelligence workspace, complete the following:
 
--   [Create a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/upload-documents-for-extraction.md) for a document classification use case, upload a document, and process the task.
--   After DocIntel has processed the task, you can begin using the workspace. See [Complete a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/extract-data-from-documents.md).
+-   [Create a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/upload-documents-for-extraction.md) for a document classification use case, upload a document, and process the task.
+-   After DocIntel has processed the task, you can begin using the workspace. See [Complete a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/extract-data-from-documents.md).
 
 ## Layout of the Document Intelligence workspace
 
@@ -86,7 +86,7 @@ If the categories are already auto-filled with values, you can review them to en
 
     -   Begin typing in the **Category** field and select a recommendation from the list.
 
-        The recommendation with the highest [confidence score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/docintel-confidence-scores.md) displays at the top of the list.
+        The recommendation with the highest [confidence score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/docintel-confidence-scores.md) displays at the top of the list.
 
     -   Select **Mixed categories** for a multi-page document that includes more than one document type.
 

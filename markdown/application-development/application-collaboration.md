@@ -2,7 +2,7 @@
 title: Application collaboration
 description: People with admin privileges can manage the permissions of developers collaborating on an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/application-collaboration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/application-collaboration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

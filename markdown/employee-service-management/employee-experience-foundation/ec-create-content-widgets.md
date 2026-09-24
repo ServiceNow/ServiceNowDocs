@@ -2,7 +2,7 @@
 title: Create and edit content from portal widgets
 description: Use the widget authoring shortcuts to create and edit rich, banner, styled, and news \(edit only\) content directly from the employee portal. When you use the widget shortcuts, the system generates a publish plan to deliver the content to that specific widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-create-content-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-create-content-widgets.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +18,7 @@ Use the widget authoring shortcuts to create and edit rich, banner, styled, and 
 
 ## Before you begin
 
-Role required: sn\_cd.content\_manager and editing permission for this topic or page. For more information on ownership permissions, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md)
+Role required: sn\_cd.content\_manager and editing permission for this topic or page. For more information on ownership permissions, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md)
 
 ## About this task
 
@@ -31,7 +31,7 @@ The following widgets offer authoring shortcuts:
     **Note:** On the topic page, selecting any heading—including quick link headings—allows you to access **Instance options**. Within the instance window, you can modify the current heading levels. Once changes are made, select **Save** to apply the changes; the updated heading level will be reflected on the topic page, enhancing overall visibility.
 
 
-For more information on which widgets support which content type, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
+For more information on which widgets support which content type, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
 
 \[Omitted image "edit-content-widget.png"\] Alt text: Enable the Author view toggle to create and edit content from widgets
 
@@ -56,16 +56,16 @@ For more information on which widgets support which content type, see [Publishin
 
 ## What to do next
 
-If necessary, modify the publish plan. See [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
+If necessary, modify the publish plan. See [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 
 **Related topics**  
 
 
-[Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md)
+[Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md)
 
-[Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md)
+[Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md)
 
-[Create banner content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-banner.md)
+[Create banner content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-banner.md)
 
-[Create customized media with styled content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.md)
+[Create customized media with styled content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.md)
 

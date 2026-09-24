@@ -2,7 +2,7 @@
 title: Create SAP users, roles, and authorizations
 description: Create the SAP user, roles, and authorization objects required for the Software Asset Management integration with the central and satellite SAP systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-sap-users-roles-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-sap-users-roles-auth.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -179,5 +179,5 @@ Table Name
 
 ## What to do next
 
-Select the Remote Function Call \(RFC\) connections that the SAP ABAP program uses to import data from your SAP clients. For details, see [Select SAP clients to import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/select-sap-clients-import.md).
+Select the Remote Function Call \(RFC\) connections that the SAP ABAP program uses to import data from your SAP clients. For details, see [Select SAP clients to import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/select-sap-clients-import.md).
 

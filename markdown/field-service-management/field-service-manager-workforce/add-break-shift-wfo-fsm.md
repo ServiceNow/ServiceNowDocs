@@ -2,7 +2,7 @@
 title: Add schedule breaks to a shift
 description: After creating a work shift, you can add schedule breaks to the shift.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/add-break-shift-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/add-break-shift-wfo-fsm.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

@@ -2,7 +2,7 @@
 title: Email Intent to Action Agentic Workflow
 description: The Email agentic workflow automates inbound email processing by intelligently interpreting requests, extracting required information, performing actions, and generating responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/email-agentic-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

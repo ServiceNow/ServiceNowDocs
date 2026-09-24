@@ -2,7 +2,7 @@
 title: Create and Configure an Identity Provider in ServiceNow to Authenticate with Epic
 description: Set up an Identity Provider in your ServiceNow instance to enable OIDC for Healthcare Operations Core.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/create-identity-provider-hco.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/create-identity-provider-hco.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

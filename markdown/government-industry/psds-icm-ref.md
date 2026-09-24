@@ -2,7 +2,7 @@
 title: Public Sector Digital Services Investigative Case Management reference
 description: Reference tables and forms for configuring and using Investigative Case Management capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-icm-ref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ Reference tables and forms for configuring and using Investigative Case Manageme
 **Related topics**  
 
 
-[Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-entity-man-completeness-rules.md)
+[Completeness Rules by Investigative Case Management Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-entity-man-completeness-rules.md)
 
-[Investigative Case Management case forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-case-forms.md)
+[Investigative Case Management case forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-case-forms.md)
 

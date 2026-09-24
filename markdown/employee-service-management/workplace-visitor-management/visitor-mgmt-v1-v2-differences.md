@@ -2,12 +2,12 @@
 title: Differences between Workplace Visitor Management versions
 description: Workplace Visitor Management version 2.0.0 introduces significant architectural, data model, portal, security, and feature changes compared to earlier versions \(1.19 or earlier\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/visitor-mgmt-v1-v2-differences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/visitor-mgmt-v1-v2-differences.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -46,7 +46,7 @@ Uses the `sn_wsd_visitor_m2m_location_policy` table to link locations to policie
 
 </td><td>
 
-Policies are part of visit requirements, which can then be applied to workplace locations. For more information about creating visit requirements, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
+Policies are part of visit requirements, which can then be applied to workplace locations. For more information about creating visit requirements, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Removes **license\_plate** and **parking\_type** from `sn_wsd_visitor_visitor`. 
 |Renders dates and times in the recipient's time zone using a configurable format, but date and time strings are not localized.|Wraps date and time strings in `gs.getMessage()` to support localization across languages.|
 |Emails include policy accept and decline buttons.|Removes policy accept and decline buttons from emails. Policy acceptance is handled through the requirements flow and signing templates.|
 
-**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 

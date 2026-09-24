@@ -2,7 +2,7 @@
 title: StandaloneClientMethods
 description: Standalone client methods are methods that you can use within your client JavaScripts, such as reflistOpen, but aren't a part of any class or API.Shows the reference field data in a standard pop-up window. This method is commonly used when selecting a magnifying glass icon, beside any reference field, in UI 16 forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/StandaloneClientMethods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/StandaloneClientMethods.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -18,7 +18,7 @@ Standalone client methods are methods that you can use within your client JavaSc
 
 You can directly access these methods within a client script without any constructor or other type of instantiation before use.
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 
 ## Standalone - reflistOpen \(String target, String elementName, String refTableName, String dependent, String useQBE, String refQualElements, String additionalQual, String parentID, String forceReference, String ignoreTargetValue\)
 

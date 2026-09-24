@@ -2,7 +2,7 @@
 title: Name suggestions for application service candidates
 description: Automated Service Suggestions provides meaningful name suggestions for service identification, which you can access on the Application Service Suggestions tab in the Service Mapping workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/app-services-name-suggestions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/app-services-name-suggestions.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -73,12 +73,12 @@ AFP \(Application fingerprint\)
 Name suggestions taken from the top three application fingerprints associated with the candidate.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
+</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-reference.md)
 
 **Related topics**  
 
 
-[Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/auto-serv-suggest.md)
+[Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/auto-serv-suggest.md)
 
-[Map application services based on Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/map-application-suggestion.md)
+[Map application services based on Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/map-application-suggestion.md)
 

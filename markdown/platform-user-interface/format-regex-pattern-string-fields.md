@@ -2,7 +2,7 @@
 title: Configure inline validation for string fields
 description: Configure guidance text to display in string fields with format requirements such as account ID, SSN, or SIN. Use regular expression inline validation to display an error message if the input doesn't meet format requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/format-regex-pattern-string-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/format-regex-pattern-string-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

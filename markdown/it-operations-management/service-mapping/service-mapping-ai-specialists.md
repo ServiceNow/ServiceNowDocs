@@ -2,7 +2,7 @@
 title: AI Agents for Service Mapping
 description: The Service Mapping AI agents automate the creation and maintenance of service maps in the Configuration Management Database \(CMDB\), reducing manual effort for Service Mapping administrators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/service-mapping-ai-specialists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/service-mapping-ai-specialists.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -89,7 +89,7 @@ Tag-Based Service Map Creation AI Agent process:
 
 ## Activation and monitoring
 
-All agents are inactive by default. A user who has the Service Mapping admin role activates them from the Service Mapping home page. For procedural information, see [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-ai-specialists.md).
+All agents are inactive by default. A user who has the Service Mapping admin role activates them from the Service Mapping home page. For procedural information, see [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/activate-sm-ai-specialists.md).
 
 The Service Mapping AI Agent and Tag-Based Service Map Creation AI Agent are activated together through a single workspace activation button. The Business App Mapping AI Agent is activated independently.
 
@@ -97,7 +97,7 @@ The Service Mapping AI Agent and Tag-Based Service Map Creation AI Agent are act
 
 No configuration in AI Agent Studio is required for Service Mapping administrators; AI Agent Studio is used by platform administrators or users who have the AI admin role to manage agent definitions and token usage.
 
-After activation, administrators can monitor activity and review results in the **AI Activity** section of the Service Mapping list navigation. For more information, see [Service Mapping AI Agent activity list tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md).
+After activation, administrators can monitor activity and review results in the **AI Activity** section of the Service Mapping list navigation. For more information, see [Service Mapping AI Agent activity list tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md).
 
 Service maps created by any AI Agent are non-operational by default and can be made operational from the application service record in the Mapped Application Services list.
 
@@ -115,5 +115,5 @@ You can change the value according to your needs, with consideration of your AI 
 
 **Note:** Raising the quota results in a higher AI resource consumption.
 
-**Parent Topic:**[AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
+**Parent Topic:**[AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
 

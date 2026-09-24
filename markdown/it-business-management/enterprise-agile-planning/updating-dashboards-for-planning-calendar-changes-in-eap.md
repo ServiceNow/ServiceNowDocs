@@ -2,7 +2,7 @@
 title: Updating dashboards for planning calendar changes in EAP
 description: Update the EAP dashboard configuration whenever there are changes to the planning calendar for any currently active configurations in Enterprise Agile Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/updating-dashboards-for-planning-calendar-changes-in-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/updating-dashboards-for-planning-calendar-changes-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -28,9 +28,9 @@ To ensure this change, you must configure new dashboards according to the latest
 
 This procedure involves a series of tasks as listed here:
 
-1.  For the latest planning calendar, create a dashboard or duplicate the existing dashboard and add the reports that your teams want to have. See [Create a dashboard in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-a-dashboard-in-eap.md).
-2.  [Add a tag to the EAP dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/add-tag-to-the-eap-dashboard.md).
-3.  [Associate the EAP read-only role to the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/add-the-eap-read-only-role-to-the-dashboard.md).
-4.  Add the newly created dashboard to the EAP configuration that has the planning calendar change. See [Add EAP dashboards to an Agile configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/associate-the-eap-dashboard-with-agile-configuration.md).
-5.  \(Optional\) [Create implementation of a Scripted Extension Point in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-or-update-scripted-extension-point-in-eap.md).
+1.  For the latest planning calendar, create a dashboard or duplicate the existing dashboard and add the reports that your teams want to have. See [Create a dashboard in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-a-dashboard-in-eap.md).
+2.  [Add a tag to the EAP dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/add-tag-to-the-eap-dashboard.md).
+3.  [Associate the EAP read-only role to the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/add-the-eap-read-only-role-to-the-dashboard.md).
+4.  Add the newly created dashboard to the EAP configuration that has the planning calendar change. See [Add EAP dashboards to an Agile configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/associate-the-eap-dashboard-with-agile-configuration.md).
+5.  \(Optional\) [Create implementation of a Scripted Extension Point in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-or-update-scripted-extension-point-in-eap.md).
 

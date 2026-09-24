@@ -2,7 +2,7 @@
 title: Add internal search sources
 description: Add internal search sources to include ServiceNow table content in Employee Slate conversational search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-add-internal-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-add-internal-search.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

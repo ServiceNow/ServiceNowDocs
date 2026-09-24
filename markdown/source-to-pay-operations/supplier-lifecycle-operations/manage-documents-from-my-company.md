@@ -2,7 +2,7 @@
 title: Manage documents from My Company page
 description: You can upload, update, and download documents and document templates from the document widget on the My Company page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-my-company.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-my-company.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -22,7 +22,7 @@ Role required: sn\_slm.contact
 
 ## About this task
 
-Access to the Documents widget on the My Company page is controlled by the user criteria admins set on the Manage access tab when creating the supplier document configuration. For more information, see [Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md).
+Access to the Documents widget on the My Company page is controlled by the user criteria admins set on the Manage access tab when creating the supplier document configuration. For more information, see [Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md).
 
 ## Procedure
 
@@ -98,5 +98,5 @@ To download a document:
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md)
+**Parent Topic:**[Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md)
 

@@ -2,7 +2,7 @@
 title: Adaptive authentication for Trusted Mobile apps
 description: Access your ServiceNow from untrusted networks by using the Now Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mobile-adaptive-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mobile-adaptive-authentication.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,7 +2,7 @@
 title: Configuring ServiceNow for Microsoft Outlook
 description: Configure ServiceNow for Microsoft Outlook to provide employees with seamless self-service without leaving the Outlook client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configuring-sn-ms-outlook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configuring-sn-ms-outlook.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -22,5 +22,5 @@ The following table lists the tasks required to configure ServiceNow for Microso
 
 |Task|Description|
 |----|-----------|
-|[Configure system properties to update the survey question limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-survey-question-limit.md)|Update the question limit for a survey displayed in Microsoft Outlook.|
+|[Configure system properties to update the survey question limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-survey-question-limit.md)|Update the question limit for a survey displayed in Microsoft Outlook.|
 

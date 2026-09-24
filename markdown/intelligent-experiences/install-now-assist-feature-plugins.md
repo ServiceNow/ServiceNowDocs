@@ -2,7 +2,7 @@
 title: Install plugins for ServiceNow Otto
 description: Install plugins for ServiceNow Otto to enable generative AI on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/install-now-assist-feature-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/install-now-assist-feature-plugins.html
 release: australia
 topic_type: task
 last_updated: "2026-05-20"
@@ -24,7 +24,7 @@ Follow these instructions to get started with AI Admin Hub:
 1.  To get started with ServiceNow Otto, you must install at least one generative AI application on your instance.
 2.  License any ServiceNow generative AI software from the ServiceNow Store and install it through the Application Manager to access AI Admin Hub.
 3.  The AI Admin Hub console guides your implementation, starting with installation.
-4.  Check out the [ServiceNow Otto Journey Checklist for more information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
+4.  Check out the [ServiceNow Otto Journey Checklist for more information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-now-assist.md)
 
 ## About this task
 
@@ -38,7 +38,7 @@ Explore 'View default-active skills' to find the list of skills currently activa
 
 Generative AI applications often function interdependently. ServiceNow Otto Suites help reduce runtime errors and update issues by bundling compatible versions of generative AI applications together during installation and updates.
 
-For more information about how ServiceNow Otto Suites work, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
+For more information about how ServiceNow Otto Suites work, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-suites-app-mgr.md).
 
 For details about available ServiceNow Otto Suites and their compatibility with ServiceNow AI Platform versions, see [Now Assist Suite release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html).
 
@@ -72,7 +72,7 @@ For details about available ServiceNow Otto Suites and their compatibility with 
 
 7.  In the **Select suite version** drop-down menu, select a ServiceNow Otto Suite version.
 
-    The available suite versions are compatible with your instance. If you have other generative AI applications already installed on your instance, they might require update for suite compatibility. For more information about ServiceNow Otto Suite compatibility, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
+    The available suite versions are compatible with your instance. If you have other generative AI applications already installed on your instance, they might require update for suite compatibility. For more information about ServiceNow Otto Suite compatibility, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-suites-app-mgr.md).
 
     If you haven't installed a ServiceNow Otto Suite version yet, you have the option to choose **none** in the version selector. This option enables you to begin using ServiceNow Otto Suites at a time that works best for your organization.
 
@@ -94,15 +94,15 @@ For details about available ServiceNow Otto Suites and their compatibility with 
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d127763e455">
+<table><thead><tr><th align="left" id="d126168e455">
 
 Installation option
 
-</th><th align="left" id="d127763e458">
+</th><th align="left" id="d126168e458">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d127763e464">
+</th></tr></thead><tbody><tr><td id="d126168e464">
 
 **Install now**
 
@@ -112,7 +112,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d127763e488">
+</td></tr><tr><td id="d126168e488">
 
 **Install later**
 
@@ -139,5 +139,5 @@ If you encounter issues installing or updating applications, see this [knowledge
 
 ## What to do next
 
-[Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) or [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+[Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-now-assist-panel.md) or [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 

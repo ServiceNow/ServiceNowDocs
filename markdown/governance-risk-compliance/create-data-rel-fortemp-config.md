@@ -2,7 +2,7 @@
 title: Configure the data relationships
 description: Configure the data relationships in the Template Configurations module, which helps you to navigate from a record in the template configuration to any table. When you create these paths, you can fetch necessary data from each of these records in the BCM report template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-data-rel-fortemp-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-data-rel-fortemp-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -114,5 +114,5 @@ Table from which the data is obtained. This field is automatically populated.
 
 ## What to do next
 
-Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Set up the content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-content-config-for-temp-config.md).
+Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Set up the content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-content-config-for-temp-config.md).
 

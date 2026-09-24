@@ -2,12 +2,12 @@
 title: Build Agent governance
 description: Governance controls in Build Agent help with code quality, security, and compliance when generating applications. The Build Agent automated safeguards prevent common development issues and enforce organizational standards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-governance.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-24"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -56,7 +56,7 @@ If your organization uses AI Risk and Compliance, generated agents can be evalua
 
 For more information, see [AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md).
 
-For more information on governance, agentic development and other ServiceNow development tools, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-governance.md).
+For more information on governance, agentic development and other ServiceNow development tools, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-governance.md).
 
 ## Cross-scope privileges
 
@@ -79,13 +79,13 @@ When Build Agent runs a background script using one of the script tools, several
     After a script runs, Build Agent returns a rollback context you can use to revert the operation. Rollback requires the same approval step as the original run. Only scripts run by Build Agent can be reverted using this mechanism.
 
 
-For more information on using the script tools, see [Build Agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-tools.md).
+For more information on using the script tools, see [Build Agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-tools.md).
 
 ## Custom skills and rules
 
 Admins can define custom skills and rules to enforce organizational standards and guide Build Agent behavior across sessions. Rules apply automatically to every session at the configured scope. Skills provide on-demand guidance that Build Agent can draw on when needed.
 
-For more information, see [Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-configure-custom-skills-rules.md).
+For more information, see [Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-configure-custom-skills-rules.md).
 
-**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-build-agent.md)
 

@@ -2,7 +2,7 @@
 title: Install AI voice agents
 description: Install the required plugins to enable AI voice agents on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/install-ai-voice-agents-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/install-ai-voice-agents-plugins.html
 release: australia
 topic_type: task
 last_updated: "2025-12-05"

@@ -2,7 +2,7 @@
 title: Retail unified case and task data model
 description: Learn about the unified retail case and task data model which helps understand the relationships between various case and task tables within retail. These extensions are designed to support distinct operational needs such as managing customer complaints, store inquiries, in-store operations, and HQ communications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-retail-unified-cas-task-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-retail-unified-cas-task-data-model.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,5 +18,5 @@ Learn about the unified retail case and task data model which helps understand t
 
 \[Omitted image "unified-data-model.png"\] Alt text: Data model showing how unified cases and tasks interact.
 
-**Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-reference.md)
+**Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-reference.md)
 

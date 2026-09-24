@@ -2,7 +2,7 @@
 title: Defining Approval Rules
 description: To define a new approval rule, navigate to Managed Documents Administration Approval Rules and click New.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/r\_DefiningApprovalRules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/r\_DefiningApprovalRules.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -32,10 +32,10 @@ The following approval rules are available in the base system.
 |Internal policy|type=Policy ^ audience=Internal|
 |Development policy|type=Policy ^ department=Development|
 
-**Parent Topic:**[Defining Document Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md)
+**Parent Topic:**[Defining Document Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md)
 
 **Related topics**  
 
 
-[Defining Document Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md)
+[Defining Document Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md)
 

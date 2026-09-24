@@ -2,7 +2,7 @@
 title: Cancel or delete a case
 description: As a case manager, cancel a workplace case at any time if it’s no longer required. As an admin, delete a case record completely from the application if it’s no longer required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/cancel-or-delete-a-case-casemgmtworkspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/cancel-or-delete-a-case-casemgmtworkspace.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -66,7 +66,7 @@ Role required: admin \(to delete a case\) and sn\_wsd\_case.manager \(to cancel 
         The workplace case record, the associated SLAs and more are deleted from the application.
 
 
-**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-case-management.md)
+**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-case-management.md)
 
 **Related topics**  
 

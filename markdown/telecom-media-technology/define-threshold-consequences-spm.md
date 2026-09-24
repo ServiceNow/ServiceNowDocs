@@ -2,7 +2,7 @@
 title: Define measure consequences for the threshold rules
 description: Set actions or responses to trigger when the test measure results fall outside the predefined acceptable limits.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/define-threshold-consequences-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/define-threshold-consequences-spm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Domain separation and Universal Task
 description: Domain separation is supported for ServiceNow Universal Task. Universal Task enables agents to request extra information from the employee or to task the employee to accomplish an activity, in order to resolve a ticket. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/domain-sep-universal-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-task/domain-sep-universal-task.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -53,7 +53,7 @@ The following Data tables are data separated.
 -   sn\_uni\_task\_template
 -   sn\_uni\_task\_employee\_form
 
-**Parent Topic:**[Setting up and configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/set-up-universal-task.md)
+**Parent Topic:**[Setting up and configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/set-up-universal-task.md)
 
 **Related topics**  
 

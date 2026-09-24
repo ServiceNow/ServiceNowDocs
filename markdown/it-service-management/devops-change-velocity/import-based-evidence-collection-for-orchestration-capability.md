@@ -2,7 +2,7 @@
 title: Import based evidence collection
 description: Reduce instance overhead by skipping step-level pipeline processing for accelerated change management and evidence collection for GitHub Actions, Azure DevOps \(ADO\), Jenkins and GitLab orchestration tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/import-based-evidence-collection-for-orchestration-capability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/import-based-evidence-collection-for-orchestration-capability.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -20,7 +20,7 @@ All relevant evidence in the pipeline is attached to the change request using im
 
 ## Enable import based evidence collection
 
-You can enable this feature by switching on the **Import based evidence collection for orchestration capability** toggle in the Properties page. For more information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
+You can enable this feature by switching on the **Import based evidence collection for orchestration capability** toggle in the Properties page. For more information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 Switching the toggle modifies how the pipeline events are processed. When switched on, the setting reduces instance overhead by skipping step-level processing in the pipeline. The skipped step-level events are ignored with the processing details, "IGNORED: This event is ignored because the 'Import based evidence collection for orchestration capability' property is enabled". Conversely, switching off reverts to the standard mode, where all inbound events undergo processing.
 
@@ -35,7 +35,7 @@ When the change step in a pipeline is triggered, a callback record is created wi
     -   For release pipeline, even if the property is enabled, the evidence collection happens based on processing step-level events.
 -   **For GitHub Actions**
     -   When the property is enabled, the evidence collection happens based on the workflow completion event only \(step level events aren’t processed to reduce the instance overhead\).
-    -   If you’re using GitHub Actions Deployment Gates in any of your steps, then you must configure the GitHub app, and the evidence collection happens based on the workflow completion event. For more information on deployment gates, see [GitHub Deployment Gates for ServiceNow DevOps Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-deployment-gate-for-servicenow-devops-change.md).
+    -   If you’re using GitHub Actions Deployment Gates in any of your steps, then you must configure the GitHub app, and the evidence collection happens based on the workflow completion event. For more information on deployment gates, see [GitHub Deployment Gates for ServiceNow DevOps Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/github-deployment-gate-for-servicenow-devops-change.md).
 -   **Jenkins**
 
     When the property is enabled, the evidence collection happens based on the pipeline completion event only \(step level events aren’t processed to reduce the instance overhead\).
@@ -69,5 +69,5 @@ When the change step in a pipeline is triggered, a callback record is created wi
 -   Troubleshooting and error handling frameworks remain unaffected.
 -   If you’re upgrading, the **Import based evidence collection for orchestration capability** property is turned off by default.
 
-**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

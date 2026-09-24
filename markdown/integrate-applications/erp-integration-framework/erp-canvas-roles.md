@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP roles
 description: Zero Copy Connector for ERP roles give team members the access they must have to configure ERP systems, build models, or read ERP data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-roles.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

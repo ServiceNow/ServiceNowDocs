@@ -2,7 +2,7 @@
 title: Using Test generation
 description: Leverage the power of ServiceNow Otto technology to streamline test creation with the Test generation application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/tg-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-generation/tg-use.html
 release: australia
 product: Test Generation
 classification: test-generation
@@ -20,10 +20,10 @@ Starting with the Australia release, Test generation is being prepared for futur
 
 Implement the following within the Test generation application to automatically generate comprehensive tests.
 
--   **[Generate a test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-implement.md)**  
+-   **[Generate a test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-implement.md)**  
 Simplify and automate your testing process with Test generation. Describe your desired test, and ServiceNow Otto empowered Test generation application automatically generates the necessary tests.
--   **[Edit a generated test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-edit-test.md)**  
+-   **[Edit a generated test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/tg-edit-test.md)**  
 You can edit a Test generation generated test after the preview is generated in the test generation process.
 
-**Parent Topic:**[Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/test-generation-intro.md)
+**Parent Topic:**[Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/test-generation-intro.md)
 

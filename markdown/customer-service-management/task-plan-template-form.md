@@ -2,7 +2,7 @@
 title: Task Plan Template form
 description: The Task Plan Template form displays details about a task plan template record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/task-plan-template-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/task-plan-template-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

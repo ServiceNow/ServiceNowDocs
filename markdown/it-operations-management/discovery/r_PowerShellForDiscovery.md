@@ -2,7 +2,7 @@
 title: PowerShell for Discovery and Service Mapping
 description: MID Servers use PowerShell and PowerShell Remoting for accessing configuration items \(CIs\) during horizontal and top-down discovery. Review MID Server parameters and script includes, probe parameters, and credentials for using PowerShell.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_PowerShellForDiscovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_PowerShellForDiscovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -48,7 +48,7 @@ The following descriptions explain how MID Servers use PowerShell to deploy prob
     -   GenerateWMIScriptPS1: Generates a PowerShell script for PowerShell discovery.
 -   **MID Server parameters for PowerShell**
 
-    Optional parameters for the MID Server can be found at [MID Server parameters for PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/mid-server-parameter-powershell.md). After changing the setting for any parameter, be sure to restart the MID Server service.
+    Optional parameters for the MID Server can be found at [MID Server parameters for PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/mid-server-parameter-powershell.md). After changing the setting for any parameter, be sure to restart the MID Server service.
 
 
 ## PowerShell version requirements
@@ -82,14 +82,14 @@ Windows PowerShell has four different execution policies. Customers can set the 
 
 **Note:** If you have any policy other than Unrestricted, the script needs to be signed.
 
--   **[Set up MID Servers to use PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetUpAMIDServerToUsePowerShell.md)**  
+-   **[Set up MID Servers to use PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_SetUpAMIDServerToUsePowerShell.md)**  
 Configure MID Servers in your organization to use PowerShell for horizontal and top-down discovery of Windows servers.
--   **[PowerShell remoting for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/powershell-remoting.md)**  
+-   **[PowerShell remoting for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/powershell-remoting.md)**  
 Probe developers can use the PowerShell remote execution framework to automatically handle remote execution of scripts on target devices. The unified framework removes inconsistencies in remote execution, increases efficiency, and improves stability.
--   **[PowerShell commands run by Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/powershell-cmdlets-run-by-discovery.md)**  
+-   **[PowerShell commands run by Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/powershell-cmdlets-run-by-discovery.md)**  
 These are the PowerShell cmdlets and their parameters that Discovery runs to control and automate the administration of Windows servers and applications. Included are the probe parameters and MID Server scripts that contain the commands.
--   **[MID Server parameters for PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/mid-server-parameter-powershell.md)**  
+-   **[MID Server parameters for PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/mid-server-parameter-powershell.md)**  
 Parameters control the behavior of a particular MID Server and have lower precedence than MID Server properties.
 
-**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

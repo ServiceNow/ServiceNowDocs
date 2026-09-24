@@ -2,7 +2,7 @@
 title: Risk assessment methodologies
 description: The AI Risk and Compliance application uses risk assessment methodologies \(RAMs\) to define the scoring frameworks and classification criteria used during risk assessments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-rams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/airc-rams.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -114,7 +114,7 @@ When models or datasets require independent governance evaluation. Unlike AI sys
  It's selected when initiating a risk assessment on an AI model or dataset and evaluates characteristics such as data sensitivity, intended use, and associated risk factors.
 
 </td></tr></tbody>
-</table>For information about coordinating multiple risk assessments together, see [Risk assessment project in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/risk-assessment-project-airc.md).
+</table>For information about coordinating multiple risk assessments together, see [Risk assessment project in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/risk-assessment-project-airc.md).
 
 **Important:** Automated and advanced risk scoring behavior depends on RAM configuration. To enable risk score roll-up across AI assets, install the Advanced Risk application and migrate to Advanced Risk Assessments. This is a one-way configuration change.
 
@@ -130,9 +130,9 @@ To configure automated risk classification during intake, specify the `sn_grc_ai
 
 To define the default RAM used for risk assessments across AI systems, set the `sn_grc_ai_gov.aisystem_primary_ram` property.
 
-For more information, see [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
+For more information, see [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
 
-**Important:** To enable risk score roll-up across AI assets, install the Advanced Risk application and set the Migrate to Advanced Risk Assessments property to Yes. This is a one-way configuration change that permanently transitions risk calculation and roll-up behavior to the Advanced Risk framework. See [Set up Advanced Risk assessments properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.md).
+**Important:** To enable risk score roll-up across AI assets, install the Advanced Risk application and set the Migrate to Advanced Risk Assessments property to Yes. This is a one-way configuration change that permanently transitions risk calculation and roll-up behavior to the Advanced Risk framework. See [Set up Advanced Risk assessments properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.md).
 
 ## Automated risk classification workflow
 
@@ -149,7 +149,7 @@ A typical assessment sequence for an AI system demonstrates how these components
 5.  After the assessment is marked as closed complete, the system generates risk and control records and maps them to the AI asset. The Risk assessment for AI inventory RAM then evaluates each identified risk using quantitative scoring to calculate inherent and residual risk scores.
 6.  For AI systems subject to the EU AI Act, additional assessments such as the EU AI Act Conformity Assessment and the Fundamental Rights Impact Assessment \(FRIA\) provide specialized regulatory evaluation.
 
-Throughout this progression, assessment outcomes and risk scores inform governance decisions about whether an AI system can advance to the next life-cycle phase. For an overview of how these activities align with life-cycle stages, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
+Throughout this progression, assessment outcomes and risk scores inform governance decisions about whether an AI system can advance to the next life-cycle phase. For an overview of how these activities align with life-cycle stages, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
 
 **Note:** Automated risk classification provides early risk context only. It doesn't approve deployment, initiate life-cycle workflows, or replace downstream impact or risk assessments.
 

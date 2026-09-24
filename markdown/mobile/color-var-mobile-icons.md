@@ -2,7 +2,7 @@
 title: Color variable support for icons
 description: Learn how to use color variables to change theming in your mobile map screens
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-mobile-icons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/color-var-mobile-icons.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ Mobile icons have a **Set appearance** section used to define the appearance of 
 
  Using this style you can define any color variable from the UX Theme Properties \[sys\_ux\_theme\_property\] table. For a list available variables see the color design guide below.
 
- For details on creating map screens, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-navig.md).
+ For details on creating map screens, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-ui-section-config-navig.md).
 
- For details on creating icons in mobile, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
+ For details on creating icons in mobile, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-icon.md).
 
 </td><td>
 

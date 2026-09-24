@@ -2,7 +2,7 @@
 title: Create schedule entries in the Schedule calendar
 description: Add events such as meeting, time-off, or appointment to display them in the schedule calendar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/create-events-next-experience-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/create-events-next-experience-ui.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -70,5 +70,5 @@ A calendar view displays events for a specified time period. A time line view di
             **Note:** If the **Timezone** field value is **Floating**, then the calendar uses the start and end dates from the time zone of the logged-in user.
 
 
-**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/using-time-configuration.md)
+**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/using-time-configuration.md)
 

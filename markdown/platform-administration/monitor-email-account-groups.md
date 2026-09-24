@@ -2,7 +2,7 @@
 title: Monitor email account groups
 description: Use the Email Account Groups \[sys\_email\_account\] table to check the status of email account groups processed by email reader jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/monitor-email-account-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/monitor-email-account-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,8 +16,8 @@ Use the Email Account Groups \[sys\_email\_account\] table to check the status o
 
 ## Before you begin
 
-1.  [Create email account groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-account-group.md).
-2.  [Enable email account group processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-group-processing.md).
+1.  [Create email account groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-email-account-group.md).
+2.  [Enable email account group processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/enable-group-processing.md).
 
 Role required: email\_account\_admin or admin
 
@@ -113,6 +113,6 @@ Processing state of the email account group: -   Unclaimed: The account group is
 
 If fine-tuning email accounts, consider doing one of the following:
 
--   Create another [email account group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-account-group.md).
--   Create another [email reader job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-reader-job.md) to process email account groups concurrently.
+-   Create another [email account group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-email-account-group.md).
+-   Create another [email reader job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-email-reader-job.md) to process email account groups concurrently.
 

@@ -2,7 +2,7 @@
 title: Activate Field Service Marketplace
 description: You can activate the Field Service Marketplace plugin \( com.snc.fsm\_marketplace\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data if they aren’t already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -30,7 +30,7 @@ The following items are installed with Field Service Marketplace:
 -   Business rules
 -   Script includes
 
-For more information, see [Field Service Marketplace components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/contractor-marketplace-cmpnts.md).
+For more information, see [Field Service Marketplace components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/contractor-marketplace-cmpnts.md).
 
 **Note:** To utilize automation in Field Service Marketplace, the Dynamic Scheduling plugin must be installed and the **Use task filters for determining contractor tasks** property must be enabled.
 

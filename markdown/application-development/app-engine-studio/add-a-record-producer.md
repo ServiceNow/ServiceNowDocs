@@ -2,7 +2,7 @@
 title: Add a record producer
 description: A record producer enables users to create task-based records, such as an incident record, in apps you create in App Engine Studio \(AES\) without creating a request. It enables a better end-user experience by standardizing requests using a simplified form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-a-record-producer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/add-a-record-producer.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,9 +18,9 @@ A record producer enables users to create task-based records, such as an inciden
 
 ## Before you begin
 
-Create a data table that the record producer will add a new record to when a user fills out the form. For more information, [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md).
+Create a data table that the record producer will add a new record to when a user fills out the form. For more information, [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-data.md).
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -156,8 +156,8 @@ Review and submit the record producer.
 
 For the record producer you want to edit, select the menu icon \(\[Omitted image "menu-icon-purple.png"\] Alt text: Menu icon\) and select **Edit**.
 
--   **[Sample record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/record-producers-example.md)**  
+-   **[Sample record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/record-producers-example.md)**  
 A record producer experience that you create in App Engine Studio \(AES\) is a service catalog form that generates a task record, such as an incident, instead of a request.
 
-**Parent Topic:**[Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
+**Parent Topic:**[Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-experience.md)
 

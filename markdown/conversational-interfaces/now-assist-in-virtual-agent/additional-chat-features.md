@@ -2,7 +2,7 @@
 title: Enable additional chat features
 description: Add chat features to your chat assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,7 +18,7 @@ Add chat features to your chat assistant.
 
 ## Before you begin
 
-See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
+See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -57,11 +57,11 @@ By default, all chat features, except web search mode, are turned on.
 
     **Note:** Dynamic Translation can be turned off in the AI Admin Hub. Turning off Dynamic Translation impacts the entire instance.
 
-    For more information, see [Chat streaming responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/streaming-responses-requestor.md).
+    For more information, see [Chat streaming responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/streaming-responses-requestor.md).
 
 3.  **Allow document uploads** so that users can ask questions about content or get a document summary.
 
-    For more information on file formats for uploading files to an assistant, see [Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/upload-documents-na-va.md).
+    For more information on file formats for uploading files to an assistant, see [Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/upload-documents-na-va.md).
 
 4.  **Show closed chats** to allow users to view past chat history.
 
@@ -69,10 +69,10 @@ By default, all chat features, except web search mode, are turned on.
 
 5.  **Allow voice input** so that users can speak to their assistant instead of typing.
 
-    -   For ServiceNow Otto for Virtual Agent assistants, voice input is available for premium chat. For more information, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md)
+    -   For ServiceNow Otto for Virtual Agent assistants, voice input is available for premium chat. For more information, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md)
     -   For ServiceNow Otto panel – Platform assistant, voice input is available for standard, enhanced, and premium chat. Azure Speech Service is used for standard chat and enhanced chat and Cartesia for premium chat. For more information about voice input, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-standard.md), [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced.md), or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-premium.md).
 
 ## What to do next
 
-See [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
+See [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 

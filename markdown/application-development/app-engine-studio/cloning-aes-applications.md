@@ -2,7 +2,7 @@
 title: Cloning instances with AES
 description: Learn how to protect the data, tables, and templates you've created in App Engine Studio when using System Clone to copy instances from production to non-production.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/cloning-aes-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/cloning-aes-applications.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -117,5 +117,5 @@ ServiceNow provides several additional resources on cloning instances with App E
 **Note:** You must log in to ServiceNow University to access this resource.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring App Engine Studio and related apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-setup.md)
+</table>**Parent Topic:**[Configuring App Engine Studio and related apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-setup.md)
 

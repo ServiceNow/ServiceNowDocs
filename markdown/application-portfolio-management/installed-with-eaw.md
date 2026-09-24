@@ -2,7 +2,7 @@
 title: Components installed with Enterprise Architecture Workspace
 description: Several types of components are installed with activation of the Enterprise Architecture Workspace plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/installed-with-eaw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/installed-with-eaw.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -300,5 +300,5 @@ Architectural Artifact Version \[sn\_apm\_architectural\_version\]
 |Default title for doc page collection|EA doc page \[sn\_apm\_ws\_ea\_doc\_page\]| |
 |Populate default values for version note|Architectural Artifact Version \[sn\_apm\_architectural\_version\]| |
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 

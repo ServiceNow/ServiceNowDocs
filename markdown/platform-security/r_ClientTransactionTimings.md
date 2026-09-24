@@ -2,7 +2,7 @@
 title: Client transaction timings
 description: The Client Transaction Timings plugin enhances the system logs by providing additional information about the durations of transactions taking place between the client and the server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_ClientTransactionTimings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_ClientTransactionTimings.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

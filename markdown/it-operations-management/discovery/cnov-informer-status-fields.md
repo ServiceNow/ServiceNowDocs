@@ -2,7 +2,7 @@
 title: Kubernetes Visibility Agent Informer status fields
 description: The fields in the Kubernetes Visibility Agent Informers table sn\_acc\_visibility\_kubernetes\_informer describe the status of the Informer pods deployed in your Kubernetes clusters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-informer-status-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/cnov-informer-status-fields.html
 release: australia
 product: Discovery
 classification: discovery
@@ -81,7 +81,7 @@ The status of the Informer. Possible values are: Up, Down, Paused.
 
  **Note:** The status of an Informer is considered Down when no message has been received in the last 15 minutes.
 
- When the auto-retirement feature is enabled, clusters with Informers in the Down state for an extended period may be automatically retired during full discovery cycles. For more information, see [Enable automatic retirement for inactive Kubernetes cluster CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/remove-inactive-cis.md).
+ When the auto-retirement feature is enabled, clusters with Informers in the Down state for an extended period may be automatically retired during full discovery cycles. For more information, see [Enable automatic retirement for inactive Kubernetes cluster CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/remove-inactive-cis.md).
 
 </td></tr><tr><td>
 
@@ -100,5 +100,5 @@ Upgrade Status
 The upgrade status of Informers in the cluster. Possible values are: Upgrade Pending, Upgrading, Desired image in use, Upgrade using kubectl/Helm.**Note:** When the upgrade status of an Informer is Upgrade using kubectl/Helm, contact your Kubernetes admin to upgrade the informer manually.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-reference.md)
+</table>**Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-reference.md)
 

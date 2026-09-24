@@ -2,7 +2,7 @@
 title: My tasks page view
 description: My tasks page displays a single-pane view of your pending tasks, tasks assigned to your user group, and the tasks that are on your watchlist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/my-tasks-page-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/my-tasks-page-uib-ws.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ A typical My tasks page for a logged-in user is shown in the example.
 
 \[Omitted image "my-tasks-bcm-ws.png"\] Alt text: My tasks page.
 
-For more information on the My tasks page configurations module in the application, see [My tasks page configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/my-tasks-page-config-module.md).
+For more information on the My tasks page configurations module in the application, see [My tasks page configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/my-tasks-page-config-module.md).
 
 **Note:** On the **My pending tasks**, **My items**, and **Watchlist** tabs, you can only view the records that are in-progress. The closed and canceled records are not displayed on these tabs. You can view the closed and canceled records in their respective forms in BCM UIB Workspace.
 
@@ -50,5 +50,5 @@ If you have the BCM administrator role, you can customize BCM UIB Workspace by u
 
 If you have the BCM manager or BCM user roles, you can also get relevant recommendations on your business continuity tasks on the Home page.
 
-To view more information on the Tasks Page Configuration, see [Update the Tasks Page Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/view-tasks-page-configurations.md).
+To view more information on the Tasks Page Configuration, see [Update the Tasks Page Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/view-tasks-page-configurations.md).
 

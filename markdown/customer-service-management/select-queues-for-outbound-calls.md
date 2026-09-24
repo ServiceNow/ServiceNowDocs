@@ -2,7 +2,7 @@
 title: Queue selection for outbound calls
 description: Queue selection for outbound calls enables agents to route calls through a specific queue directly from the Global Call window, improving routing accuracy and reporting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/select-queues-for-outbound-calls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/select-queues-for-outbound-calls.html
 release: australia
 topic_type: concept
 last_updated: "2026-01-02"
@@ -64,5 +64,5 @@ Queue selection for outbound calls provides the following capabilities for conta
     Queue selection is embedded within the keypad and phone directory, as required by the CCaaS platform.
 
 
-See: [Using queues for outbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-queues-for-outbound-calls.md) and [Select queues from keypad, directory, and Interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/select-queue-for-outbound-calls-from-keypad.md).
+See: [Using queues for outbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-queues-for-outbound-calls.md) and [Select queues from keypad, directory, and Interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/select-queue-for-outbound-calls-from-keypad.md).
 

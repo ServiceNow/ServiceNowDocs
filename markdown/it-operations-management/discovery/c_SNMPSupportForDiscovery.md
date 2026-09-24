@@ -2,7 +2,7 @@
 title: SNMP support for Discovery
 description: Discovery supports SNMP versions 1, 2c, and 3. If you have an active SNMP v3 credential, valid options for SNMP version are v3 or All. If you have an active SNMP v1 or v2 credential \(community string\), valid options for SNMP version are v1, v2c, or All. Default is All.Set up your credentials so Discovery can access SNMPv3 targets.You must also set the SNMP version after choosing the appropriate credential.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_SNMPSupportForDiscovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c\_SNMPSupportForDiscovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -20,7 +20,7 @@ MID Servers support all SNMP protocol versions by default. You can set a MID Ser
 
 For SNMP credentials information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
 
-SNMP probe parameters can be used while discovering an SNMP device. See [SNMP probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_SNMPProbeParameters.md) for more information.
+SNMP probe parameters can be used while discovering an SNMP device. See [SNMP probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_SNMPProbeParameters.md) for more information.
 
 ## Add an SNMPv3 user credential in Discovery
 

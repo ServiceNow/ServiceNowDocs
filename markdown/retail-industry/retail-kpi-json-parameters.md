@@ -2,7 +2,7 @@
 title: Retail KPI JSON parameters
 description: JSON parameters define aspects of the Retail KPI list widget on the portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/retail-kpi-json-parameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/retail-kpi-json-parameters.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Outsourced Customer Service
 description: Outsourcing is a business practice where an enterprise hires another company or individuals to perform tasks, manage operations, or provide services. These functions were previously handled by the enterprise's own employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/outsourced-service-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/outsourced-service-provider.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,11 +39,11 @@ Activating the Outsourced Service Provider plugin adds the Outsourced Customer S
 **Related topics**  
 
 
-[Set up Outsourced Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-outsourced-cust-serv.md)
+[Set up Outsourced Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-outsourced-cust-serv.md)
 
-[Outsourced Service Provider agent tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-agent-tasks.md)
+[Outsourced Service Provider agent tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/osp-agent-tasks.md)
 
-[Outsourced Service Provider manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-manager-tasks.md)
+[Outsourced Service Provider manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/osp-manager-tasks.md)
 
-[Roles for Outsourced Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/roles-ocs.md)
+[Roles for Outsourced Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/roles-ocs.md)
 

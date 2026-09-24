@@ -2,7 +2,7 @@
 title: Predict service and transfer HR cases agentic workflow
 description: Analyze an HR case and automatically route it to the most appropriate HR service with the predict service and transfer HR cases agentic workflow. Optimize HR Case Management, ensuring that cases are handled by the most appropriate teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/predict-transfer-hrcase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/predict-transfer-hrcase.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

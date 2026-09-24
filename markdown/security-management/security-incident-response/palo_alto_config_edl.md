@@ -2,7 +2,7 @@
 title: Create an EDL for Palo Alto Networks Next-Generation Firewall
 description: Create an External Dynamic List \(EDL\) in your ServiceNow AI Platform instance. Once approved and activated, you can create entries for EDLs from observables determined to be malicious on ServiceNow AI Platform Security Incident Response \(SIR\) incidents and request approval to block them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/palo\_alto\_config\_edl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/palo\_alto\_config\_edl.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -72,7 +72,7 @@ This check box is cleared by default to indicate that the EDL is inactive. When 
 
 </td><td>
 
-Check box is selected by default to automatically tag the observable and the associated security incident record if the observable is blocked on an EDL. When selected, the Tag type and EDL tag for observables fields are available on the form.**Note:** A tag name is created by default from the value you enter in the **Name** field with an EDL- prefix, for example, EDL-Malware OutBound IP. You can change the tag name and color. See: [\(Optional\) Edit the security tag name for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_edit_sectag_name.md). The tag name is displayed in the EDL tag for observables field once the EDL is saved.
+Check box is selected by default to automatically tag the observable and the associated security incident record if the observable is blocked on an EDL. When selected, the Tag type and EDL tag for observables fields are available on the form.**Note:** A tag name is created by default from the value you enter in the **Name** field with an EDL- prefix, for example, EDL-Malware OutBound IP. You can change the tag name and color. See: [\(Optional\) Edit the security tag name for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto_edit_sectag_name.md). The tag name is displayed in the EDL tag for observables field once the EDL is saved.
 
  When the check box is cleared, no tag is created, and the Tag type and EDL tag for observables fields are not available on the form.
 
@@ -94,7 +94,7 @@ Tags that are available from the choice list.A Block list is a list of observabl
 
  An Allow list is a list of observables you want the Palo Alto Networks Next-Generation Firewall to allow.
 
- By default, the Block list tag color is black, and the Allow list tag color is gray. You can change the color. See: [\(Optional\) Edit the security tag name for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_edit_sectag_name.md).
+ By default, the Block list tag color is black, and the Allow list tag color is gray. You can change the color. See: [\(Optional\) Edit the security tag name for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto_edit_sectag_name.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Clear the check box to manually activate the EDL after receiving notice via emai
 
 </td><td>
 
-This field is displayed only if the Display tag check box is selected. Field is automatically populated after the EDL is saved with a default value from the Name field. For more information on changing the default tag name and color, see [\(Optional\) Edit the security tag name for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_edit_sectag_name.md)
+This field is displayed only if the Display tag check box is selected. Field is automatically populated after the EDL is saved with a default value from the Name field. For more information on changing the default tag name and color, see [\(Optional\) Edit the security tag name for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto_edit_sectag_name.md)
 
 </td></tr><tr><td>
 
@@ -223,9 +223,9 @@ Delete the record.
 
 Activate an EDL manually, or with a ServiceNow AI Platform change request.
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Supported External Dynamic Lists for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_supported_edls.md)
+**Previous topic:**[Supported External Dynamic Lists for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto_supported_edls.md)
 
-**Next topic:**[Activate an EDL for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-activate-edl.md)
+**Next topic:**[Activate an EDL for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto-activate-edl.md)
 

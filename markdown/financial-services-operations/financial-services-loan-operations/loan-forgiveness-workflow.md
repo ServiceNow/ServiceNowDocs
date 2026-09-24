@@ -2,7 +2,7 @@
 title: Loan Forgiveness workflow
 description: Learn how bank agents, using the Loan Forgiveness workflow, resolve a loan service request for a waiver or forgiveness of an outstanding loan with the bank. The workflow applies to both business and personal loan service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/loan-forgiveness-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/loan-forgiveness-workflow.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations

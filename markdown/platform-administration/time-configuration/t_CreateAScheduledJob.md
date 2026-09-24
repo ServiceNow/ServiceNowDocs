@@ -2,7 +2,7 @@
 title: Create a scheduled job
 description: Create a scheduled job on the Schedule Job \[sysauto\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_CreateAScheduledJob.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/t\_CreateAScheduledJob.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -40,27 +40,27 @@ Create all new scheduled jobs using this method.
 
 The fields presented depend on the type of scheduled job required.
 
--   **[Automate generation and distribution of a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/schedule-report.md)**  
+-   **[Automate generation and distribution of a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/schedule-report.md)**  
 Generate and distribute scheduled reports via email.
--   **[Automatically generate something from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleTheGenerationOfAnEntity.md)**  
+-   **[Automatically generate something from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_ScheduleTheGenerationOfAnEntity.md)**  
 Schedule the generation of entities, which include changes, incidents, and CIs.
--   **[Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md)**  
+-   **[Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_ScheduleAScriptExecution.md)**  
 Schedule both conditional and non-conditional scripts. If Domain Separation is installed in the instance, you can also select, filter, sort, and schedule scripts based on their assigned domains.
--   **[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)**  
+-   **[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)**  
 The run types; **Day and Month in Year**, **Day in Week in Month in Year**, and **Week in Month**, require the fields; **Day**, **Month**, and **Year** to be visible. Child tables which don’t display those fields can't create jobs with that run type selected.
 
-**Parent Topic:**[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
+**Parent Topic:**[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_ScheduledJobs.md)
 
 **Related topics**  
 
 
-[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
 
-[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
+[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
 
-[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
+[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_SetASystemTimeZone.md)
 
-[Special cases in job schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_SpecialCasesInJobSchedules.md)
+[Special cases in job schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/r_SpecialCasesInJobSchedules.md)
 
-[View a schedule item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ViewAScheduleItem.md)
+[View a schedule item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_ViewAScheduleItem.md)
 

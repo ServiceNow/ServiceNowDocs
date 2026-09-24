@@ -2,7 +2,7 @@
 title: Relate business capabilities to view in Digital Portfolio Management
 description: You can relate business capabilities for a service or for a business application to see them in the Digital Portfolio Management \(DPM\) Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-business-capability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-business-capability.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -56,12 +56,12 @@ You can create a business capability by navigating to **All** &gt; **CSDM** &gt;
     -   On the business capability record, in the Related Items section.
     -   In the DPM Workspace, on the Info tab of a service or business application.
 
-**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 
 **Related topics**  
 
 
-[View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-service-details.md)
+[View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-service-details.md)
 
-[View business application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-business-apps-details.md)
+[View business application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-business-apps-details.md)
 

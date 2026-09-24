@@ -2,11 +2,11 @@
 title: Combined API release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for API from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-api-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-api-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 17
+last_updated: "2026-09-24"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -389,334 +389,6 @@ Endpoints
 -   DELETE /api/sn\_csm\_pricing/pricingengine/pricing\_context/\{pricing\_context\_id\}
 
 </td></tr></tbody>
-</table><table><thead><tr><th>
-
-Application
-
-</th><th>
-
-App Version
-
-</th><th>
-
-Release month
-
-</th><th>
-
-API
-
-</th><th>
-
-Endpoints
-
-</th></tr></thead><tbody><tr><td>
-
-Omnichannel Callback
-
-</td><td>
-
-2.0.4
-
-</td><td>
-
-2026-02
-
-</td><td>
-
-[Omnichannel Callback API](https://www.servicenow.com/docs/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-Added new endpoints, /get and /close, for retrieving and closing a given callback record. The third endpoint, /actions, allows you to perform create, update, close, and cancel operations for a callback in an external, third-party system with routing capabilities.
-
--   PATCH api/sn\_omichannel\_callback/get
--   POST api/sn\_omni\_callback/actions
--   POST api/sn\_omni\_callback/callback/close
-
-</td></tr><tr><td>
-
-Contact Center Integration Core
-
-</td><td>
-
-1.5.0
-
-</td><td>
-
-2026-01
-
-</td><td>
-
-[External ID Mapping API](https://www.servicenow.com/docs/access?context=external-id-mapping-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
--   GET /sn\_ct\_ctr\_it\_core/external\_id\_mapping/table/\{tableName\}/documentId/\{documentId\}
--   PUT /sn\_ct\_ctr\_it\_core/external\_id\_mapping/table/\{tableName\}/documentId/\{documentId\}
-
-</td></tr><tr><td>
-
-Digital Product Release
-
-</td><td>
-
-2.3.0
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[Digital Product Release API](https://www.servicenow.com/docs/access?context=digital-product-release-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
--   GET /sn\_dpr/digital\_product\_release/bundle/\{sysId\}
--   GET /sn\_dpr/digital\_product\_release/releases/\{releaseId\}/policies/status
--   POST /sn\_dpr/digital\_product\_release/product\_enhancement
--   POST /sn\_dpr/digital\_product\_release/release
--   POST /sn\_dpr/digital\_product\_release/release/\{releaseId\}/key\_date
--   POST /sn\_dpr/digital\_product\_release/release/\{releaseId\}/policies/run
--   POST /sn\_dpr/digital\_product\_release/release/\{releaseId\}/related\_task
--   POST /sn\_dpr/digital\_product\_release/release\_calendar
--   POST /sn\_dpr/digital\_product\_release/release\_id/\{releaseId\}/complete\_phase
--   POST /sn\_dpr/digital\_product\_release/release\_target
--   PUT /sn\_dpr/digital\_product\_release/release/\{sysId\}/retarget
-
-</td></tr><tr><td>
-
-Threat Intelligence Security Center for Security Operations
-
-</td><td>
-
-3.14.4
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[TISC TAXII Server API](https://www.servicenow.com/docs/access?context=taxii-server-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
--   GET /sn\_sec\_tisc/taxii\_server/taxii2
--   GET /sn\_sec\_tisc/taxii\_server/\{api\_root\}
--   GET /sn\_sec\_tisc/taxii\_server/\{api\_root\}/collections
--   GET /sn\_sec\_tisc/taxii\_server/\{api\_root\}/collections/\{id\}
--   GET /sn\_sec\_tisc/taxii\_server/\{api\_root\}/collections/\{id\}/manifest
--   GET /sn\_sec\_tisc/taxii\_server/\{api\_root\}/collections/\{id\}/objects
--   GET /sn\_sec\_tisc/taxii\_server/\{api\_root\}/collections/\{id\}/objects/\{object\_id\}
--   GET /sn\_sec\_tisc/taxii\_server/\{api\_root\}/collections/\{id\}/objects/\{object\_id\}/versions
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-6.0.9
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[Party Management Open API](https://www.servicenow.com/docs/access?context=tmf-party-management-open-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-New API for managing parties with a relationship to the enterprise. Supports the following methods:
-
--   DELETE /api/sn\_tmf\_api/v1/party/individual/\{id\}
--   GET /api/sn\_tmf\_api/v1/party/individual/\{id\}
--   GET /api/sn\_tmf\_api/v1/party/individual
--   GET/api/ sn\_tmf\_api/v1/party/organization/\{id\}
--   GET /api/sn\_tmf\_api/v1/party/organization
--   PATCH/api/sn\_tmf\_api/v1/party/individual/\{id\}
--   PATCH /api/sn\_tmf\_api/v1/party/organization/\{id\}
--   POST /api/sn\_tmf\_api/v1/party/individual
--   POST /api/sn\_tmf\_api/v1/party/organization
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-6.0.9
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
--   DELETE /sn\_prd\_invt/order/product/\{id\}
--   PATCH /sn\_prd\_invt/order/product/\{id\}
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-6.0.9
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[Service Catalog Open API](https://www.servicenow.com/docs/access?context=service-catalog-open-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-Supports new methods for service offerings and service candidate entity:-   DELETE /api/sn\_tmf\_api/catalogmanagement/serviceCategory/\{id\}
--   GET /api/sn\_tmf\_api/catalogmanagement/serviceCategory
--   GET /api/sn\_tmf\_api/catalogmanagement/serviceCategory/\{id\}
--   PATCH /api/sn\_tmf\_api/catalogmanagement/serviceCategory/\{id\}
--   POST /api/sn\_tmf\_api/catalogmanagement/serviceCategory
-
-</td></tr><tr><td>
-
-Threat Intelligence Security Center for Security Operations
-
-</td><td>
-
-3.14.4
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[TISC Intel Exchange API](https://www.servicenow.com/docs/access?context=tisc-intel-ex-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-POST /sn\_sec\_tisc/tisc\_intel\_sharing\_api/post\_intel
-
-</td></tr><tr><td>
-
-Threat Intelligence Security Center for Security Operations
-
-</td><td>
-
-3.14.4
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[TISC RPZ API](https://www.servicenow.com/docs/access?context=tisc-rpz-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-POST /sn\_sec\_tisc/rpz\_export
-
-</td></tr><tr><td>
-
-Network Inventory Advanced
-
-</td><td>
-
-10.0
-
-</td><td>
-
-2025-08
-
-</td><td>
-
-[DCIM Metric Data Feed API](https://www.servicenow.com/docs/access?context=dcim-metric-data-feed-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-POST /api/sn\_ni\_adv/dcim/feed/\{vendorname\}
-
-</td></tr><tr><td>
-
-Omnichannel Callback
-
-</td><td>
-
-2.0.2
-
-</td><td>
-
-2025-08
-
-</td><td>
-
-[Omnichannel Callback API](https://www.servicenow.com/docs/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
--   POST /api/sn\_omni\_callback/callback/attempt
--   POST /api/sn\_omni\_callback/callback/create
--   PATCH /api/sn\_omni\_callback/callback/update
-
-</td></tr><tr><td>
-
-Quote Management
-
-</td><td>
-
-6.0.1
-
-</td><td>
-
-2025-08
-
-</td><td>
-
-[Quote Management API](https://www.servicenow.com/docs/access?context=quote-management-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
--   DELETE /sn\_tmf\_api/quote\_management\_api/quote/\{id\}
--   GET /sn\_tmf\_api/quote\_management\_api/quote
--   GET /sn\_tmf\_api/quote\_management\_api/quote/\{id\}
--   PATCH /sn\_tmf\_api/quote\_management\_api/quote/\{id\}
--   POST /sn\_tmf\_api/quote\_management\_api/quote
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-4.1.1
-
-</td><td>
-
-2025-08
-
-</td><td>
-
-[Work Order Management API](https://www.servicenow.com/docs/access?context=work-order-mgmt-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
--   CANCEL /sn\_tmf\_api/work\_order\_management\_api/cancelWorkOrder
--   GET /sn\_tmf\_api/work\_order\_management\_api/workordermanagement
--   GET /sn\_tmf\_api/work\_order\_management\_api/workorder/\{id\}
--   PATCH /sn\_tmf\_api/work\_order\_management\_api/workOrder/\{id\}
--   POST /sn\_tmf\_api/work\_order\_management\_api/workOrder
-
-</td></tr></tbody>
 </table>
 
 </td></tr><tr><td>
@@ -884,6 +556,30 @@ v0.1
 -   overrideAttributeValues\(\)
 -   postHierarchyConsolidation\(\)
 -   preProcess\(\)
+
+</td></tr><tr><td>
+
+MCP Client
+
+</td><td>
+
+v1.0.1
+
+</td><td>
+
+2026-05
+
+</td><td>
+
+[MCPClient - Scoped](https://www.servicenow.com/docs/access?context=MCPClientAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   MCPClient\(\)
+-   getServers\(\)
+-   getToolInfo\(\)
+-   invokeTool\(\)
+-   listTools\(\)
 
 </td></tr></tbody>
 </table><table><thead><tr><th>
@@ -1117,320 +813,9 @@ POST /now/helprequest/action/create\_or\_update
 -   DELETE /api/sn\_csm\_pricing/pricingengine/pricing\_context/\{pricing\_context\_id\}
 
 </td></tr></tbody>
-</table><table><thead><tr><th>
-
-Application
-
-</th><th>
-
-App Version
-
-</th><th>
-
-Release month
-
-</th><th>
-
-API
-
-</th><th>
-
-Endpoints
-
-</th></tr></thead><tbody><tr><td>
-
-Product Catalog Management
-
-</td><td>
-
-v19.2.0
-
-</td><td>
-
-2026-08
-
-</td><td>
-
-[Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
-POST /eligible-catalog-category-hierarchy is a new endpoint that retrieves the complete product catalog-category hierarchy for a given context \(customer, currency, pricing rules, etc.\). The endpoint automatically applies eligibility rules to filter out ineligible catalogs and categories, ensuring that only offerings qualified for the requesting customer are returned.**Note:** This REST API wraps the [CatalogSearchAPI – getEligibleCatalogCategoryHierarchy\(Object input\)](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-getCatHierarchy&family=australia&ft:locale=en-US) JavaScript API.
-
-</td></tr><tr><td>
-
-Smart Assessment Engine
-
-</td><td>
-
- 
-
-</td><td>
-
-2026-08
-
-</td><td>
-
-[Reassign Assessment API](https://www.servicenow.com/docs/access?context=reassign-assessment-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
-The new Reassign Assessment API provides a streamlined way to transfer assessment ownership within Smart Assessment workflows. This endpoint enables dynamic reassignment of in-progress assessments when team members change roles, leave the organization, or when assessments need to be delegated to more appropriate team members.
-
-</td></tr><tr><td>
-
-AI Control Tower
-
-</td><td>
-
-v6.0.0
-
-</td><td>
-
-2026-07
-
-</td><td>
-
-[AI Assets Inventory API](https://www.servicenow.com/docs/access?context=ai-assets-inventory-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
--   GET /asset-class
--   GET /details
-
-</td></tr><tr><td>
-
-Healthcare and Life Sciences Service Management Core
-
-</td><td>
-
-v1.0
-
-</td><td>
-
-2026-07
-
-</td><td>
-
-[HL7 Inbound API](https://www.servicenow.com/docs/access?context=hl7-inbound-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
-POST /message
-
-</td></tr><tr><td>
-
-Product Catalog Management
-
-</td><td>
-
-v20.0
-
-</td><td>
-
-2026-07
-
-</td><td>
-
-[Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
-POST /api/sn\_prd\_pm/catalog/search**Note:** This REST API wraps the [CatalogSearchAPI – getEligibleCatalogCategoryHierarchy\(Object input\)](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-getCatHierarchy&family=australia&ft:locale=en-US) JavaScript API.
-
-</td></tr><tr><td>
-
-Usage Insight Data Export
-
-</td><td>
-
-1.0.1
-
-</td><td>
-
-2026-07
-
-</td><td>
-
-[UXA Data Export Service API](https://www.servicenow.com/docs/access?context=usage-insight-data-exp-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
-POST /sn\_uxa\_data\_export/data\_export
-
-</td></tr><tr><td>
-
-Workplace Service Delivery
-
-</td><td>
-
-3.3.1
-
-</td><td>
-
-2026-05
-
-</td><td>
-
-[WSD Presence API](https://www.servicenow.com/docs/access?context=wsd_presence-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
--   DELETE /\{collaborator\_id\}
--   DELETE /exception
--   GET /collaborator
--   GET /exception
--   GET /presence
--   GET /routine
--   PATCH /routine
--   POST /collaborator
--   POST /exception
--   POST /routine
--   PUT /exception
-
-</td></tr><tr><td>
-
-Workplace Service Delivery
-
-</td><td>
-
-3.3.1
-
-</td><td>
-
-2026-05
-
-</td><td>
-
-[WSD User API](https://www.servicenow.com/docs/access?context=wsd_user-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
-GET /context
-
-</td></tr><tr><td>
-
-Workplace Service Delivery
-
-</td><td>
-
-3.3.1
-
-</td><td>
-
-2026-05
-
-</td><td>
-
-[WSD Unified Search API](https://www.servicenow.com/docs/access?context=wsd_unified-search-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
--   POST /users\_and\_locations
--   GET /current\_location
-
-</td></tr><tr><td>
-
-Synthetic monitoring
-
-</td><td>
-
-1.5.1
-
-</td><td>
-
-2026-03
-
-</td><td>
-
-[SyntheticsAsyncBulkCreate API](https://www.servicenow.com/docs/access?context=synth-async-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
--   GET /synthetics\_async\_bulk\_create/\{job\_id\}
--   POST /synthetics\_async\_bulk\_create
-
-</td></tr></tbody>
 </table>|API|Operations|
 |---|----------|
 |[Warranty Claims SOAP API](https://www.servicenow.com/docs/access?context=warranty-claims-SOAP-API&family=australia&ft:locale=en-US)|ProcessRepairOrder: A STAR SOAP operation used to process and exchange repair operation–level information between systems in a standardized STAR XML format.|
-
-<table><thead><tr><th>
-
-Application
-
-</th><th>
-
-App Version
-
-</th><th>
-
-Release month
-
-</th><th>
-
-Module
-
-</th><th>
-
-Types
-
-</th></tr></thead><tbody><tr><td>
-
-Mobile SDK Libraries - Android
-
-</td><td>
-
-2.22.0
-
-</td><td>
-
-2026-06
-
-</td><td>
-
-NowVoice
-
-</td><td>
-
--   [NowVoiceCallbacks interface - Android](https://www.servicenow.com/docs/access?context=NowVoiceCallbacksAndroidInt&family=australia&ft:locale=en-US)
--   [NowVoiceEndpoint class - Android](https://www.servicenow.com/docs/access?context=NowVoiceEndpointAndroidClass&family=australia&ft:locale=en-US)
--   [NowVoiceSDK object - Android](https://www.servicenow.com/docs/access?context=NowVoiceSDKAndroidAPI&family=australia&ft:locale=en-US)
--   [NowVoiceService class - Android](https://www.servicenow.com/docs/access?context=NowVoiceServiceAndroidAPI&family=australia&ft:locale=en-US)
--   [NowVoiceTheme interface - Android](https://www.servicenow.com/docs/access?context=NowVoiceThemeAndroidInterface&family=australia&ft:locale=en-US)
--   [NowVoiceThemeDark class - Android](https://www.servicenow.com/docs/access?context=NowVoiceThemeDarkAndroidClass&family=australia&ft:locale=en-US)
--   [NowVoiceUiConfiguration class - Android](https://www.servicenow.com/docs/access?context=NVoiceUiConfigAndroidClass&family=australia&ft:locale=en-US)
--   [TranscriptMessage class - Android](https://www.servicenow.com/docs/access?context=TranscriptMsgAndroidClass&family=australia&ft:locale=en-US)
-
-</td></tr><tr><td>
-
-Mobile SDK Libraries - iOS
-
-</td><td>
-
-2.22.0
-
-</td><td>
-
-2026-06
-
-</td><td>
-
-NowVoice
-
-</td><td>
-
--   [NowVoice API - iOS](https://www.servicenow.com/docs/access?context=NowVoiceiOSAPI&family=australia&ft:locale=en-US)
--   [NowVoiceCallbacks structure - iOS](https://www.servicenow.com/docs/access?context=NowVoiceCallbacksiOSStruct&family=australia&ft:locale=en-US)
--   [NowVoiceDefaultTheme structure - iOS](https://www.servicenow.com/docs/access?context=NVoiceDefThemeiOSStruct&family=australia&ft:locale=en-US)
--   [NowVoiceEndpoint structure - iOS](https://www.servicenow.com/docs/access?context=NowVoiceEndpointiOSStruct&family=australia&ft:locale=en-US)
--   [NowVoiceService class - iOS](https://www.servicenow.com/docs/access?context=NowVoiceServiceiOSAPI&family=australia&ft:locale=en-US)
--   [NowVoiceThemeable protocol - iOS](https://www.servicenow.com/docs/access?context=NVoiceThemeableiOSProtocol&family=australia&ft:locale=en-US)
--   [NowVoiceTranscriptMessage typealias - iOS](https://www.servicenow.com/docs/access?context=NVoiceTrnstMsgiOSta&family=australia&ft:locale=en-US)
--   [NowVoiceUIConfiguration structure - iOS](https://www.servicenow.com/docs/access?context=NowVoiceUIConfigiOSStruct&family=australia&ft:locale=en-US)
-
-</td></tr></tbody>
-</table>
 
 </td></tr></tbody>
 </table>## Changes
@@ -1496,67 +881,6 @@ send\(\) - Added a return value and error handling.
 </td><td>
 
 setHttpMethod\(\) - Added support for HEAD method calls via the **method** parameter.
-
-</td></tr></tbody>
-</table><table><thead><tr><th>
-
-Application
-
-</th><th>
-
-App Version
-
-</th><th>
-
-Release month
-
-</th><th>
-
-API
-
-</th><th>
-
-Endpoints
-
-</th></tr></thead><tbody><tr><td>
-
-Lead to Cash Core
-
-</td><td>
-
-1.7.1
-
-</td><td>
-
-2026-02
-
-</td><td>
-
-[LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-createInstance\(\) now supports the **allowedContextTypes** parameter, enabling partial synchronization of updates or deletions for selected Related Parties back to the originating Opportunity. Previously, partial synchronization behavior was limited to quote line items only.
-
-</td></tr><tr><td>
-
-Lead to Cash Core
-
-</td><td>
-
-1.6
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-To allow more complex business needs, getPrimitivesEPService\(\) supports the new **context.entityConfigId** parameter, which invokes createInstance\(\) script without any defined mapping using only the entity's configuration ID.
 
 </td></tr></tbody>
 </table><table><thead><tr><th>
@@ -1648,349 +972,6 @@ Enable the **referenceItems** properties of the incoming payload to be populated
 setHttpMethod\(\) - Added support for HEAD method calls via the **method** parameter.
 
 </td></tr></tbody>
-</table><table><thead><tr><th>
-
-Application
-
-</th><th>
-
-App Version
-
-</th><th>
-
-Release month
-
-</th><th>
-
-API
-
-</th><th>
-
-Endpoints
-
-</th></tr></thead><tbody><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-3.1.0
-
-</td><td>
-
-2026-02
-
-</td><td>
-
-[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-When submitting a change payload with a new or updated service location \(via **productOrderItem.product.place.id**\), the request is now processed as a move order. This means that the product order remains the same but the service is fulfilled in the new designated location.-   [Product Order Open API - PATCH /sn\_ind\_tmt\_orm/order/productOrder/\{id\}](https://www.servicenow.com/docs/access?context=tmf_prod_order-PATCH-ord-productOrder-id&family=zurich&ft:locale=en-US)
--   [Product Order Open API - PATCH /sn\_ind\_tmt\_orm/productorder/\{id\}](https://www.servicenow.com/docs/access?context=tmf_prod_order-PATCH-productorder-id&family=zurich&ft:locale=en-US)
--   [Product Order Open API - POST /sn\_ind\_tmt\_orm/order/productOrder](https://www.servicenow.com/docs/access?context=tmf_prod_order-POST-ord-productOrder&family=zurich&ft:locale=en-US)
--   [Product Order Open API - POST /sn\_ind\_tmt\_orm/productorder](https://www.servicenow.com/docs/access?context=tmf_prod_order-POST-productOrder&family=zurich&ft:locale=en-US)
-
-</td></tr><tr><td>
-
-Omnichannel Callback
-
-</td><td>
-
-2.0.4
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[Omnichannel Callback API](https://www.servicenow.com/docs/access?context=omichannel-callback-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-Added voicemail information to the callbackContext request parameter in the following endpoints:
-
--   POST api/sn\_omni\_callback/callback/create
--   POST api/sn\_omni\_callback/callback/update
-
-</td></tr><tr><td>
-
-Proactive Service Experience Workflows
-
-</td><td>
-
-7.7.1
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[Trouble Ticket Open API](https://www.servicenow.com/docs/access?context=trouble-ticket-open-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-Now supports creating, retrieving, and filtering on the Service Problem Case ticket type.-   GET /sn\_ind\_tsm\_sdwan/ticket/troubleTicket 
--   GET /sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}
--   PATCH /sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}
--   POST /sn\_ind\_tsm\_sdwan/ticket/troubleTicket
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-6.0.9
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[Product Catalog Open API](https://www.servicenow.com/docs/access?context=product-catalog-open-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-Various methods are enhanced with the following parameters:-   **externalSystem**: Specifies the external system of the product offering catalog.
--   **internalVersion**: Specifies the version of the product offering.
--   **prodSpecCharValueUse.​valueType**: Supports more complex product characteristic value types, like choice, check box, objects, and so on.
--   **version**: Specifies the external version of the product offering.
-
-Enhanced the version and supports external system logic and complex characteristics.
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-6.0.9
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[Service Catalog Open API](https://www.servicenow.com/docs/access?context=service-catalog-open-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-Various methods are enhanced with the following parameters:-   **externalSystem**: Specifies the external system of the service specification.
--   **internalVersion**: Specifies the version of the service specification.
--   **specCharacteristic.valueType**: Supports more complex service characteristic value types, like choice, check box, objects, and so on.
--   **version**: Specifies the external version of the service specification.
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-6.0.9
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-Various methods are enhanced with the following parameters:-   **externalSystem**: Specifies the external system of the product order.
--   **internalVersion**: Specifies the version of the product specification.
--   **productOrderItem.product.productCharacteristic.valueType**: Supports more complex product characteristic value types, like choice, check box, objects, and so on.
--   **productOrderItem.product.productSpecification.version**: Specifies the external version of the product specification.
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-6.0.9
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[Service Order Open API](https://www.servicenow.com/docs/access?context=service-order-open-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-Various methods are enhanced with the following parameters:-   **externalSystem**: Specifies the external system of the service order.
--   **serviceOrderItem.service.serviceCharacteristic.valueType**: Supports more complex service characteristic value types, like choice, check box, objects, and so on.
--   **serviceOrderItem.service.serviceSpecification.internalVersion**: Specifies the version of the service specification.
--   **serviceOrderItem.service.serviceSpecification.version**: Specifies the external version of the service specification.
-
-</td></tr><tr><td>
-
-Threat Intelligence Security Center for Security Operations
-
-</td><td>
-
-3.14.4
-
-</td><td>
-
-2025-12
-
-</td><td>
-
-[TISC API](https://www.servicenow.com/docs/access?context=tisc-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-POST /sn\_sec\_tisc/threat\_intel\_data/observables now supports filtering observables on tags and taxonomies.
-
-</td></tr><tr><td>
-
-Accounts Payable Invoice Processing
-
-</td><td>
-
-v9.5.17
-
-</td><td>
-
-2025-08
-
-</td><td>
-
-[AP Invoice API](https://www.servicenow.com/docs/access?context=ap-invoice-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-The following endpoints now support attachments:-   POST sn\_spend\_intg/ap\_invoice/json
--   POST sn\_spend\_intg/ap\_invoice/xml
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-4.1.1
-
-</td><td>
-
-2025-08
-
-</td><td>
-
-[Service Order Open API](https://www.servicenow.com/docs/access?context=service-order-open-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-The following endpoints now support complex service characteristic value types via the **serviceOrderItem.service.serviceCharacteristic.valueType** parameter:-   GET /sn\_tmf\_api/order/serviceOrder
--   GET /sn\_tmf\_api/order/serviceOrder/\{id\}
--   PATCH /sn\_tmf\_api/order/serviceOrder/\{id\}
--   POST /sn\_tmf\_api/order/serviceOrder
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-4.1.1
-
-</td><td>
-
-2025-08
-
-</td><td>
-
-[Product Catalog Open API](https://www.servicenow.com/docs/access?context=product-catalog-open-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-The following productSpecification endpoints are updated to support complex product specification characteristic value types via the **productSpecCharacteristic.valueType** parameter:-   POST /sn\_tmf\_api/catalogmanagement/productSpecification
--   PATCH /sn\_tmf\_api/catalogmanagement/productSpecification/\{id\}
--   GET /sn\_tmf\_api/catalogmanagement/productSpecification/\{id\}
--   GET /sn\_tmf\_api/catalogmanagement/productSpecification
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-4.1.1
-
-</td><td>
-
-2025-08
-
-</td><td>
-
-[Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-The following endpoints now support complex product characteristic value types via the **productCharacteristic.valueType** parameter:-   GET /sn\_prd\_invt/product
--   GET /sn\_prd\_invt/product/\{id\}
--   GET /sn\_prd\_invt/productinventory
--   GET /sn\_prd\_invt/productinventory/\{inventoryId\}
--   POST /sn\_prd\_invt/product
--   POST /sn\_prd\_invt/productinventory
-
-</td></tr><tr><td>
-
-Telecommunication Open APIs
-
-</td><td>
-
-4.1.1
-
-</td><td>
-
-2025-08
-
-</td><td>
-
-[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-The following endpoints now support complex product characteristic value types via the **productOrderItem.product.productCharacteristic.valueType** parameter:-   GET /sn\_ind\_tmt\_orm/order/productOrder
--   GET /sn\_ind\_tmt\_orm/order/productOrder/\{id\}
--   GET /sn\_ind\_tmt\_orm/productorder
--   GET /sn\_ind\_tmt\_orm/productorder/\{id\}
--   PATCH /sn\_ind\_tmt\_orm/order/productOrder/\{id\}
--   PATCH /sn\_ind\_tmt\_orm/productOrder/\{id\}
--   POST /sn\_ind\_tmt\_orm/order/productOrder
--   POST /sn\_ind\_tmt\_orm/productOrder
-
-</td></tr><tr><td>
-
-Virtual Agent API
-
-</td><td>
-
-4.0.0
-
-</td><td>
-
-2025-08
-
-</td><td>
-
-[Virtual Agent Bot Integration API](https://www.servicenow.com/docs/access?context=bot-api&family=zurich&ft:locale=en-US)
-
-</td><td>
-
-New options for the **action** request body parameter with corresponding examples.POST /sn\_va\_as\_service/bot/integration
-
-</td></tr></tbody>
 </table>
 
 </td></tr><tr><td>
@@ -2028,9 +1009,7 @@ Australia
 
 </td><td>
 
--   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.
--   NowAnalyticsService and NowAnalyticsServiceDelegate have been removed from Mobile SDK - iOS.
--   NowAnalyticsSDK has been removed from Mobile SDK - Android.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -2061,13 +1040,19 @@ The getGroupName\(\) method returns null for migrated attributes and newly creat
 Customers are urged to migrate to the current [Dynamic Attribute](https://www.servicenow.com/docs/access?context=working-with-dynamic-schema&family=zurich&ft:locale=en-US) definitions to take advantage of future improvements in features and functionality. For migration details, see the [Dynamic Schema Zurich Migration Guide \[KB2146133\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133) article in the Now Support Knowledge Base.
 
 
+ -   For existing instances that upgrade to the Zurich release, the GlideEncrypter API is available for use but has been updated to automatically use the Key Management Framework algorithm. See [GlideEncrypter - Global \(deprecated\)](https://www.servicenow.com/docs/access?context=GlideEncrypterAPI&family=zurich&ft:locale=en-US) for more information on how to continue calling this API.
+-   For all new instances created starting with the Zurich release, the GlideEncrypter API is no longer supported. Directly use the [Key Management Framework](https://www.servicenow.com/docs/access?context=encryption&family=zurich&ft:locale=en-US) instead for all cryptography operations.
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
-No updates for this release.
+-   NowAnalyticsService and NowAnalyticsServiceDelegate have been removed from Mobile SDK - iOS.
+-   NowAnalyticsSDK has been removed from Mobile SDK - Android.
+
+ -   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -2088,33 +1073,34 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 The following APIs are available by default:
 
--   Identification and Reconciliation
--   IdentificationEngine
--   IdentificationEngineScriptableApi
--   GlideDynamicAttribute
--   GlideDynamicAttributeStore
--   GlideDynamicNamespace
--   GlideCurrencyCode
--   GlideCurrencySymbol
--   GlideForm \(Next Experience\)
--   GlideModal \(Next Experience\)
--   GlideNavigation \(Next Experience\)
--   GlideQueryCondition
--   GlideRecord
--   GlideSysAttachment
--   GlideUser\(Next Experience\)
--   StopWatch \(Next Experience\)
+    -   Identification and Reconciliation
+    -   IdentificationEngine
+    -   IdentificationEngineScriptableApi
+    -   GlideDynamicAttribute
+    -   GlideDynamicAttributeStore
+    -   GlideDynamicNamespace
+    -   GlideCurrencyCode
+    -   GlideCurrencySymbol
+    -   GlideForm \(Next Experience\)
+    -   GlideModal \(Next Experience\)
+    -   GlideNavigation \(Next Experience\)
+    -   GlideQueryCondition
+    -   GlideRecord
+    -   GlideSysAttachment
+    -   GlideUser\(Next Experience\)
+    -   StopWatch \(Next Experience\)
+The following APIs require plugin activation:
 
- The following APIs require plugin activation:
-
--   ProducerV2 requires the ServiceNow Stream Connect Installer plugin \(com.glide.hub.stream\_connect.installer\).
--   Product Order Open API requires the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin.
--   Service Order Open API requires the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin.
--   The Omnichannel Callback API requires the Omnichannel Callback \(omnichannel\_callback plugin\) plugin.
--   Party Management Open API requires the Telecommunications Open APIs \(sn\_tmf\_api\) and Customer Service Management \(com.sn\_customerservice\) plugins.
--   The SegmentHandle, SegmentHandler, and sn\_erp\_integration API APIs require the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) plugin.
+    -   ProducerV2 requires the ServiceNow Stream Connect Installer plugin \(com.glide.hub.stream\_connect.installer\).
+    -   Product Order Open API requires the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin.
+    -   Service Order Open API requires the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin.
+    -   The Omnichannel Callback API requires the Omnichannel Callback \(omnichannel\_callback plugin\) plugin.
+    -   Party Management Open API requires the Telecommunications Open APIs \(sn\_tmf\_api\) and Customer Service Management \(com.sn\_customerservice\) plugins.
+    -   The SegmentHandle, SegmentHandler, and sn\_erp\_integration API APIs require the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) plugin.
 
 </td></tr><tr><td>
 
@@ -2122,29 +1108,30 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 The following APIs are available by default:
 
--   ATF Code Coverage API
--   Attachment API
--   GlideAggregate
--   GlideDate
--   GlideTime
--   GlideElement
--   GlideElementDescriptor
--   GlideElementDynamicAttributeStore
--   GlideForm
--   GlideForm\(Next Experience\)
+    -   ATF Code Coverage API
+    -   Attachment API
+    -   GlideAggregate
+    -   GlideDate
+    -   GlideTime
+    -   GlideElement
+    -   GlideElementDescriptor
+    -   GlideElementDynamicAttributeStore
+    -   GlideForm
+    -   GlideForm\(Next Experience\)
+The following APIs require plugin activation:
 
- The following APIs require plugin activation:
-
--   CopyDynamicSchemaAPI API requires the Dynamic Schema Support \(com.glide.dynamic\_schema\) plugin.
--   Help Request API requires the Interactions Management \(com.glide.interaction\) plugin.
--   MIDHermesProducer requires the MID Hermes API \(com.glide.mid.hermes\_api\) plugin.
--   Party Management Open API requires the Customer Service Base Entities \(com.snc.cs\_base\) plugin.
--   Wrap Up API requires the requires the Interactions Management \(com.glide.interaction.awa\) plugin.
--   WSD Presence API requires the Workplace Service Delivery Core \(com.sn\_wsd\_core\) plugin.
--   WSD Unified Search API requires the Workplace Service Delivery Core \(com.sn\_wsd\_core\) plugin.
--   WSD User API requires the Workplace Service Delivery Concierge \(com.sn\_wsd\_concierge\), Workplace Service Delivery Core \(com.sn\_wsd\_core\), and Workplace Service Delivery Reservation \(com.sn\_wsd\_rsv\) plugins.
+    -   CopyDynamicSchemaAPI API requires the Dynamic Schema Support \(com.glide.dynamic\_schema\) plugin.
+    -   Help Request API requires the Interactions Management \(com.glide.interaction\) plugin.
+    -   MIDHermesProducer requires the MID Hermes API \(com.glide.mid.hermes\_api\) plugin.
+    -   Party Management Open API requires the Customer Service Base Entities \(com.snc.cs\_base\) plugin.
+    -   Wrap Up API requires the requires the Interactions Management \(com.glide.interaction.awa\) plugin.
+    -   WSD Presence API requires the Workplace Service Delivery Core \(com.sn\_wsd\_core\) plugin.
+    -   WSD Unified Search API requires the Workplace Service Delivery Core \(com.sn\_wsd\_core\) plugin.
+    -   WSD User API requires the Workplace Service Delivery Concierge \(com.sn\_wsd\_concierge\), Workplace Service Delivery Core \(com.sn\_wsd\_core\), and Workplace Service Delivery Reservation \(com.sn\_wsd\_rsv\) plugins.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -2302,5 +1289,5 @@ Australia
  See [API implementation and reference](https://www.servicenow.com/docs/access?context=api-implementation-reference&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

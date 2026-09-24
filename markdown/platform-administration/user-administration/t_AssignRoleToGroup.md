@@ -2,7 +2,7 @@
 title: Assign a role to a group
 description: You can assign a role to a group to grant access to applications and modules to group members.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_AssignRoleToGroup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/t\_AssignRoleToGroup.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -37,5 +37,5 @@ When you assign roles to groups rather than to individual users, members of the 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md)
+**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/t_CreateARole.md)
 

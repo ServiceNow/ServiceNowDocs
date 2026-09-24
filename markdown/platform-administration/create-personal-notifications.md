@@ -2,10 +2,10 @@
 title: Create personal notifications
 description: Create personal notifications, which are subscriptions to notifications of importance to you. You can apply conditions that control specific content included in your personal notification, and also enable or disable the channels for delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-personal-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-personal-notifications.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Subscription-based notifications, Preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -59,5 +59,5 @@ A personal notification is a subscribable notification that you can customize by
 7.  Navigate back by selecting the left back arrow \(**&lt;**\) at the top of the form or by selecting the **Notifications** tab.
 
 
-**Parent Topic:**[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md)
+**Parent Topic:**[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_SubscriptionBasedNotifications.md)
 

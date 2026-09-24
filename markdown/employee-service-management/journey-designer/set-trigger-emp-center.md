@@ -2,7 +2,7 @@
 title: Set Onboarding ramp up trigger to use Employee Center portal
 description: Set Onboarding ramp-up trigger to use Employee Center portal in the trigger configuration so the onboarding ramp-up plan workflow is accessible through the portal. Without setting the portal, the trigger will not be visible or usable in the Employee Center portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/set-trigger-emp-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/set-trigger-emp-center.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -43,5 +43,5 @@ Role required: admin
 6.  Select **Update**.
 
 
-**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
+**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
 

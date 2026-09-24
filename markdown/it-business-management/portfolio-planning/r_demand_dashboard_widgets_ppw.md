@@ -2,7 +2,7 @@
 title: Data Quality tab
 description: The Data Quality tab quantifies the demand, demand tasks, and assessment records that have missing information in key fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/r\_demand\_dashboard\_widgets\_ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/r\_demand\_dashboard\_widgets\_ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

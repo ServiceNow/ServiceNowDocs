@@ -2,7 +2,7 @@
 title: Create a checklist for work order tasks using the Mobile Agent application
 description: Manage your work order tasks by creating a checklist of all items that you must complete for a work order or work order task using the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/manage-work-orders-using-checklist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/manage-work-orders-using-checklist.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -55,7 +55,7 @@ Role required: wm\_agent
 
 The checklist is displayed in the specified order in the Checklist section.
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 

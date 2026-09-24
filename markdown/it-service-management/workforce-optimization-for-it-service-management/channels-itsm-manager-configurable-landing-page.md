@@ -2,7 +2,7 @@
 title: Workforce Optimization for ITSM Channels landing page
 description: Manage queues and analyze the status of incidents and chats using the Channels landing page. You can also monitor team performance and work assignments from one location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/channels-itsm-manager-configurable-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/channels-itsm-manager-configurable-landing-page.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -74,5 +74,5 @@ As a channel manager, you can monitor key information such as the number of SLAs
 |Available agents|Single score\[Omitted image "single-score.png"\] Alt text: Single score| |Number of agents currently available to work on work items.|
 |Total open incidents|Bar chart\[Omitted image "bar-trend.svg"\] Alt text: Bar chart| |Total number of incidents that are in various workflow states and have not been closed.|
 
-**Parent Topic:**[Workforce Optimization for ITSM landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-landing-pages.md)
+**Parent Topic:**[Workforce Optimization for ITSM landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-landing-pages.md)
 

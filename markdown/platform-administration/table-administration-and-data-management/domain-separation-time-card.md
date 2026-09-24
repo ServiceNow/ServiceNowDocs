@@ -2,7 +2,7 @@
 title: Domain separation and Time Card
 description: Domain separation is supported in Time Card. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/domain-separation-time-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/domain-separation-time-card.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -30,7 +30,7 @@ For more information on support levels, see [Application support for domain sepa
 
 For more information about using domain separation with Time Card, see [https://community.servicenow.com/community?id=community\_article&amp;sys\_id=616d706edbb318d066f1d9d9689619c1](https://community.servicenow.com/community?id=community_article&sys_id=616d706edbb318d066f1d9d9689619c1).
 
-**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/time-card-management.md)
 
 **Related topics**  
 

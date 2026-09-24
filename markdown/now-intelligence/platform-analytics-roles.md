@@ -2,7 +2,7 @@
 title: Platform Analytics roles
 description: Platform Analytics has both unique roles and roles from other applications that apply to it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/platform-analytics-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/platform-analytics-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -122,7 +122,7 @@ Role for Usage Insights administrative privileges
 
 </td><td>
 
-All other Usage Insights admin and viewer roles. For more information, see [Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/components-installed-user-exp-analytics.md).
+All other Usage Insights admin and viewer roles. For more information, see [Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/components-installed-user-exp-analytics.md).
 
 </td><td>
 
@@ -151,7 +151,7 @@ analytics\_filter\_admin
 
 </td><td>
 
-Role for editing or deleting any Platform Analytics filter. Can add filters to the filter library. For more information, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md).
+Role for editing or deleting any Platform Analytics filter. Can add filters to the filter library. For more information, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/interactive-filters-workspace.md).
 
 </td><td>
 
@@ -171,7 +171,7 @@ dashboard\_admin
 
 </td><td>
 
-Can create, edit, duplicate, share, and delete any dashboard. These rights extend to both Platform Analytics and responsive dashboards. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_DashboardRoles.md).Can schedule the export of all dashboards on an instance. Can also delete scheduled exports.
+Can create, edit, duplicate, share, and delete any dashboard. These rights extend to both Platform Analytics and responsive dashboards. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md).Can schedule the export of all dashboards on an instance. Can also delete scheduled exports.
 
 </td><td>
 
@@ -208,7 +208,7 @@ pa\_kpi\_signal\_admin
 
 </td><td>
 
-Can activate KPI Signals for an indicator. For more information, see [Activate KPI Signals monitoring for an indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-signals-monitor.md).
+Can activate KPI Signals for an indicator. For more information, see [Activate KPI Signals monitoring for an indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/activate-signals-monitor.md).
 
 </td><td>
 
@@ -230,7 +230,7 @@ Role for Performance Analytics administrative privileges. Equivalent to admin ro
 
 -   viz\_admin
 -   analytics\_filter\_admin
--   All other Performance Analytics roles. For more information, see [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_PARoles.md).
+-   All other Performance Analytics roles. For more information, see [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/r_PARoles.md).
 
 </td><td>
 
@@ -275,7 +275,7 @@ sn\_process\_optimization\_analyst
 
 </td><td>
 
-Can configure a Process Mining map on a dashboard. For more information, see [Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-po-map.md).
+Can configure a Process Mining map on a dashboard. For more information, see [Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-po-map.md).
 
 </td><td>
 
@@ -445,7 +445,7 @@ Any role, if you created the dashboard.dashboard\_admin or higher for any dashbo
 
 </td></tr><tr><td>
 
-[Configure dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-db-in-ac.md)
+[Configure dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-db-in-ac.md)
 
 </td><td>
 
@@ -453,7 +453,7 @@ Any role, if you created the dashboard or have had it shared with you with editi
 
 </td></tr><tr><td>
 
-[Configure dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-ac-db-settings.md) except scheduled refreshes
+[Configure dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-ac-db-settings.md) except scheduled refreshes
 
 </td><td>
 
@@ -461,7 +461,7 @@ Any role, if you created the dashboard or have had it shared with you with editi
 
 </td></tr><tr><td>
 
-[Schedule dashboard refreshes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-ac-db-settings.md)
+[Schedule dashboard refreshes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-ac-db-settings.md)
 
 </td><td>
 
@@ -469,7 +469,7 @@ dashboard\_admin or higher
 
 </td></tr><tr><td>
 
-[Configure dashboard tab cache timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-ac-db-timeout.md)
+[Configure dashboard tab cache timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-ac-db-timeout.md)
 
 </td><td>
 
@@ -477,7 +477,7 @@ admin
 
 </td></tr><tr><td>
 
-[Create dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/db-categories.md)
+[Create dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/db-categories.md)
 
 </td><td>
 
@@ -485,7 +485,7 @@ analytics\_categories\_admin or higher
 
 </td></tr><tr><td>
 
-[Assign categories to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/db-categories.md)
+[Assign categories to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/db-categories.md)
 
 </td><td>
 
@@ -598,7 +598,7 @@ Any role, to delete a data visualization that you created. viz\_admin or higher 
 
 </td></tr><tr><td>
 
-[Control data source availability by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-use-data-source-acl.md)
+[Control data source availability by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-use-data-source-acl.md)
 
 </td><td>
 
@@ -606,7 +606,7 @@ admin
 
 </td></tr><tr><td>
 
-[Configure visualization interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-go-data.md)
+[Configure visualization interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-go-data.md)
 
 </td><td>
 
@@ -614,7 +614,7 @@ Any role if you have the right to edit the data visualization. The viewer needs 
 
 </td></tr><tr><td>
 
-[Use service catalog variables in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-rep-sc-variables.md)
+[Use service catalog variables in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-rep-sc-variables.md)
 
 </td><td>
 
@@ -622,7 +622,7 @@ viz\_creator or higher
 
 </td></tr><tr><td>
 
-[Create coloring rules for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/colors-dv.md)
+[Create coloring rules for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/colors-dv.md)
 
 </td><td>
 
@@ -672,22 +672,22 @@ analytics\_filter\_admin or higher
 </td></tr></tbody>
 </table>|Use case|Role|
 |--------|----|
-|[Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-po-map.md)|sn\_process\_optimization\_analyst|
-|[Activate KPI Signals monitoring for an indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-signals-monitor.md)|pa\_kpi\_signal\_admin|
-|Create or edit an exploration in [AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-ai-data-explorer.md)|now\_assist\_explorer\_user|
+|[Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-po-map.md)|sn\_process\_optimization\_analyst|
+|[Activate KPI Signals monitoring for an indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/activate-signals-monitor.md)|pa\_kpi\_signal\_admin|
+|Create or edit an exploration in [AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/launch-ai-data-explorer.md)|now\_assist\_explorer\_user|
 
-**Parent Topic:**[Platform Analytics experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-exp-reference.md)
+**Parent Topic:**[Platform Analytics experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-exp-reference.md)
 
 **Related topics**  
 
 
-[Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_PARoles.md)
+[Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/r_PARoles.md)
 
-[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
+[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 
-[Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-roles.md)
+[Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-roles.md)
 
-[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md)
 
-[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dv-tasks.md)
 

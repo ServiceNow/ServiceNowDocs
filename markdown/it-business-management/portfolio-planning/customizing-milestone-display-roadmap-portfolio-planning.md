@@ -2,7 +2,7 @@
 title: Customizing milestone display on roadmap
 description: Easily track the milestones of your roadmap timeline or its planning items by choosing how the milestones are displayed on the roadmap view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -66,7 +66,7 @@ Roadmap view
 -   Green: Achieved
 -   Black/Dark gray: Upcoming
 
- **Note:** If the total number of item-level milestones, including the milestones for unscheduled items, exceeds 100, the item milestone indicators aren’t visible on the roadmap. You can work with your admin to change this number to a value of your preference. For more information, see [Update the display limit of items for Prioritization and Roadmap in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-items-display-limit-backlog-prioritization-roadmap.md).
+ **Note:** If the total number of item-level milestones, including the milestones for unscheduled items, exceeds 100, the item milestone indicators aren’t visible on the roadmap. You can work with your admin to change this number to a value of your preference. For more information, see [Update the display limit of items for Prioritization and Roadmap in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/update-items-display-limit-backlog-prioritization-roadmap.md).
 
 </td><td>
 
@@ -85,5 +85,5 @@ Roadmap view
  \[Omitted image "milestone-icon.png"\] Alt text: Milestone indicator.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Personalize roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.md)
+</table>**Parent Topic:**[Personalize roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.md)
 

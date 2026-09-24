@@ -2,7 +2,7 @@
 title: Print a workplace case
 description: As a case manager, apart from managing workplace cases, you can also print a workplace case using the Workplace Central Case management workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/print-a-workplace-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/print-a-workplace-case.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -44,7 +44,7 @@ Role required: sn\_wsd\_case.case\_reader, sn\_wsd\_case.case\_writer, sn\_wsd\_
     The workplace case report is available in both the Activity and Attachments sections.
 
 
-**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-case-management.md)
+**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-case-management.md)
 
 **Related topics**  
 

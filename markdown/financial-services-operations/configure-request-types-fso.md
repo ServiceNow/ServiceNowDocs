@@ -2,7 +2,7 @@
 title: Configure request types
 description: You can review the available request types and configure the ones that you need so that your agents can create cases for these request types from both the Platform and Workspace UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-request-types-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-request-types-fso.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

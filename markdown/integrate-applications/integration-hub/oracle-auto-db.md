@@ -2,7 +2,7 @@
 title: Oracle Autonomous DB Spoke
 description: Manage the Oracle Autonomous Database operations from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/oracle-auto-db.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/oracle-auto-db.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -75,5 +75,5 @@ The Oracle Autonomous DB spoke provides actions to automate Oracle Autonomous DB
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Set up the Oracle Autonomous DB spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-oracle-auto-db.md).
+For information about setting up the spoke, see [Set up the Oracle Autonomous DB spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-oracle-auto-db.md).
 

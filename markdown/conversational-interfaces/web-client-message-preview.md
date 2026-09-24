@@ -2,7 +2,7 @@
 title: Enable message preview on the chat widget
 description: Admins can allow their end users to see a preview of any new or unread messages waiting for them when the chat window is minimized.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/web-client-message-preview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/web-client-message-preview.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -49,5 +49,5 @@ The end user can either:
 
 The badge icon appears only when there are new or unread messages. The badge icon is updated every 10 seconds, and displays the first new or unread message.
 
-**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-configuring-chat-features.md)
 

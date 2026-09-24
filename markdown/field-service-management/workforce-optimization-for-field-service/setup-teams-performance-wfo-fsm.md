@@ -2,7 +2,7 @@
 title: Setting up Teams Workforce Optimization for Field Service
 description: Organize your teams into assignment groups and create reports for those groups so that you can gain visibility into the team's performance.Create key performance indicator \(KPI\) groups with the KPIs that matter most to your teams. When you associate KPI groups with assignment groups, you can monitor your team's performance.Assign one or more managers to each KPI assignment group so that they can gain visibility into the group and monitor the team's performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/setup-teams-performance-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/setup-teams-performance-wfo-fsm.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -23,7 +23,7 @@ As an administrator, you can configure KPIs as well as child KPIs. The child KPI
 **Related topics**  
 
 
-[Teams in Workforce Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/using-teams-wfo-fsm.md)
+[Teams in Workforce Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/using-teams-wfo-fsm.md)
 
 ## Create KPI groups to monitor team performance
 

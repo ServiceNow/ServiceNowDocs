@@ -2,7 +2,7 @@
 title: Create a product quality investigation
 description: Create a non-conformance case task report for products that had an issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-quality-investigation-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-product-quality-investigation-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: admin
 
 3.  On the Product Quality Investigation Task form, fill in the fields.
 
-    For a description of the field values, see [Product quality investigation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-quality-investigation-task-form.md).
+    For a description of the field values, see [Product quality investigation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-product-quality-investigation-task-form.md).
 
 4.  Select **Save**.
 
@@ -34,7 +34,7 @@ Role required: admin
 **Related topics**  
 
 
-[Discuss form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-discuss-sidebar.md)
+[Discuss form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-discuss-sidebar.md)
 
-[Notes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-notes.md)
+[Notes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-notes.md)
 

@@ -2,7 +2,7 @@
 title: Bulk import map examples
 description: Mapping your source employee documents to required elements in Employee Document Management is crucial for a successful bulk import.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/edm-map-examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/edm-map-examples.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -494,5 +494,5 @@ An example of Employee Document Import Map.
 
 When a connection to your source repository is confirmed and import maps are set up correctly, you can click **Start staging job** from Related Links.
 
-**Parent Topic:**[Employee document management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-bulk-uploads.md)
+**Parent Topic:**[Employee document management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-uploads.md)
 

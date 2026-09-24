@@ -2,7 +2,7 @@
 title: AI Analytics Q and A agent
 description: Use the AI Analytics Q and A agent to get answers about AI analytics metrics, dashboard widgets, and calculations by asking questions in the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-ask-analytics-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-ask-analytics-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -21,7 +21,7 @@ The AI Analytics Q and A agent answers natural-language questions about AI analy
 
 **Note:** The AI Analytics Q and A agent is not listed in AI Admin Hub under AI skills. It is built into the ServiceNow Otto conversational experience and is not available for separate configuration. The agent does not consume any assists from your entitlements.
 
-The AI Analytics Q and A agent may work with other AI agents to accomplish tasks. For more information on AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
+The AI Analytics Q and A agent may work with other AI agents to accomplish tasks. For more information on AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-ai-agents.md).
 
 Responses from the AI Analytics Q and A agent are generated using AI and may be inaccurate or incomplete. Review a response before you act on it.
 

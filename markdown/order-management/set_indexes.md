@@ -2,7 +2,7 @@
 title: Using set indexes
 description: Watch a video that demonstrates how to use set indexes to drive a product rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/set\_indexes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/set\_indexes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,5 +25,5 @@ The following video demonstrates set indexes and how to use them to drive a prod
 **Related topics**  
 
 
-[Hiding the set grid and field grid indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/how_to_hide_the_setfield_grid_index.md)
+[Hiding the set grid and field grid indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/how_to_hide_the_setfield_grid_index.md)
 

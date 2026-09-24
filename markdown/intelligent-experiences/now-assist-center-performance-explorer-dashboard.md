@@ -2,7 +2,7 @@
 title: AI Admin Center Performance Explorer dashboard
 description: Use the AI Admin Center Performance Explorer dashboard to review and analyze the execution details of assistants and AI agents across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-performance-explorer-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-performance-explorer-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -112,8 +112,8 @@ The **Agents** tab displays a list of individual AI agent executions. Use the **
 
 -   **Inferred CSAT**
 
-    The inferred customer satisfaction score for the execution, calculated based on interaction signals. See [Exploring Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conversational-intelligence/exploring-conversation-insights.md) for more information.
+    The inferred customer satisfaction score for the execution, calculated based on interaction signals. See [Exploring Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/conversational-intelligence/exploring-conversation-insights.md) for more information.
 
 
-**Parent Topic:**[View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md)
+**Parent Topic:**[View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-ai-usage.md)
 

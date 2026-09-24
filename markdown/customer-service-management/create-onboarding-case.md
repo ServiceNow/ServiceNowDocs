@@ -2,7 +2,7 @@
 title: Create an onboarding case
 description: Create a case to onboard new customers or to onboard existing customers for new products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-onboarding-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-onboarding-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,15 +35,15 @@ If the case playbook for onboarding is available, you can use the playbook to gu
 
 2.  Select the case type.
 
-<table id="choicetable_tyb_yjz_vmb"><thead><tr><th align="left" id="d186585e112">
+<table id="choicetable_tyb_yjz_vmb"><thead><tr><th align="left" id="d186511e112">
 
 Interface
 
-</th><th align="left" id="d186585e115">
+</th><th align="left" id="d186511e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d186585e121">
+</th></tr></thead><tbody><tr><td id="d186511e121">
 
 **CRM Workspace**
 
@@ -54,7 +54,7 @@ In the Select Case Type popup window:1.  Select a **Case Type**.
 3.  Click **Create Case**.
 
 
-</td></tr><tr><td id="d186585e152">
+</td></tr><tr><td id="d186511e152">
 
 **Platform**
 
@@ -67,15 +67,15 @@ Select Customer Onboarding in the list of available case types in the intercepto
 
     -   If the onboarding case is for an existing customer, fill in the **Account** and **Contact** or **Consumer** fields.
     -   If the onboarding case is for a new customer, enable the **New customer** check box and fill in the fields in the New Customer Information form section.
-<table id="choicetable_xsw_jlz_vmb"><thead><tr><th align="left" id="d186585e194">
+<table id="choicetable_xsw_jlz_vmb"><thead><tr><th align="left" id="d186511e194">
 
 Field
 
-</th><th align="left" id="d186585e197">
+</th><th align="left" id="d186511e197">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d186585e203">
+</th></tr></thead><tbody><tr><td id="d186511e203">
 
 **Customer type**
 
@@ -83,7 +83,7 @@ Description
 
 The type of customer, either Business or Individual.
 
-</td></tr><tr><td id="d186585e212">
+</td></tr><tr><td id="d186511e212">
 
 **Business name**
 
@@ -91,7 +91,7 @@ The type of customer, either Business or Individual.
 
 The name of the business. This field is displayed and is required when you select Business as the customer type. **Note:** You can enter customer names in this field but not partner names.
 
-</td></tr><tr><td id="d186585e224">
+</td></tr><tr><td id="d186511e224">
 
 **User name**
 
@@ -99,7 +99,7 @@ The name of the business. This field is displayed and is required when you selec
 
 The name of the contact or consumer. This field is displayed and is required when you select Individual as the customer type.
 
-</td></tr><tr><td id="d186585e233">
+</td></tr><tr><td id="d186511e233">
 
 **Email address**
 
@@ -107,7 +107,7 @@ The name of the contact or consumer. This field is displayed and is required whe
 
 The email address for the user. This address is used for notifications.
 
-</td></tr><tr><td id="d186585e243">
+</td></tr><tr><td id="d186511e243">
 
 **Phone number**
 
@@ -120,15 +120,15 @@ The phone number for the user.
 
     Use this related list to create the users or business entities that should be included in the onboarding case. Click **New** and fill in the fields on the Related Party form.
 
-<table id="choicetable_idk_n31_wmb"><thead><tr><th align="left" id="d186585e270">
+<table id="choicetable_idk_n31_wmb"><thead><tr><th align="left" id="d186511e270">
 
 Field
 
-</th><th align="left" id="d186585e273">
+</th><th align="left" id="d186511e273">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d186585e279">
+</th></tr></thead><tbody><tr><td id="d186511e279">
 
 **Type**
 
@@ -147,7 +147,7 @@ Use the **Type** field to select the authorization type of the additional member
 -   Account
 
 
-</td></tr><tr><td id="d186585e325">
+</td></tr><tr><td id="d186511e325">
 
 **User**
 
@@ -155,7 +155,7 @@ Use the **Type** field to select the authorization type of the additional member
 
 The name of the contact being added as an additional member.
 
-</td></tr><tr><td id="d186585e334">
+</td></tr><tr><td id="d186511e334">
 
 **Consumer**
 
@@ -163,7 +163,7 @@ The name of the contact being added as an additional member.
 
 The name of the consumer being added as an additional member.
 
-</td></tr><tr><td id="d186585e343">
+</td></tr><tr><td id="d186511e343">
 
 **Account**
 
@@ -174,7 +174,7 @@ The name of the account being added as an additional member.
 </td></tr></tbody>
 </table>5.  Fill in the fields on the Case form.
 
-    For more information and field descriptions, see [Create a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustServApp.md).
+    For more information and field descriptions, see [Create a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_CreateACaseFromCustServApp.md).
 
 6.  Click **Save**.
 

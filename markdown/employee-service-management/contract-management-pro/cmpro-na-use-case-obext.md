@@ -2,7 +2,7 @@
 title: Create use cases for contract obligation extraction
 description: Create obligation extraction use cases to specify the types of key contractual obligation that you want AI to detect and extract from contract documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -202,9 +202,9 @@ The use case is created for the contract obligation extraction skill. The LLM us
 
 ## What to do next
 
-[Map a use case for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-map-usecase-obext.md)
+[Map a use case for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-map-usecase-obext.md)
 
-**Parent Topic:**[Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md)
+**Parent Topic:**[Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md)
 
 **Related topics**  
 

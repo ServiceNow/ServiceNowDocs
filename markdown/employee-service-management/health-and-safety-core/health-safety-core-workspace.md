@@ -2,7 +2,7 @@
 title: Health and Safety Workspace
 description: The Health and Safety Workspace provides a single location for safety teams to process safety records. Agents can use it to manage incidents, risks, contracts, or cases depending on the applications installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/health-safety-core-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/health-safety-core-workspace.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core

@@ -2,7 +2,7 @@
 title: Steps to configure an external credential vault in RPA Hub
 description: Use this list of steps to guide you through all the tasks of configuring an external credential vault in RPA Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/config-ext-cred-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/config-ext-cred-rpa.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -149,7 +149,7 @@ For failure status, this result output must be assigned with a JSON object of th
 
 </td></tr><tr><td>
 
-2. Create an external credential vault record. For more information, see [Create an external credential vault record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-ext-cred-rpa.md).
+2. Create an external credential vault record. For more information, see [Create an external credential vault record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-ext-cred-rpa.md).
 
 </td><td>
 
@@ -169,7 +169,7 @@ For reference, see the sample **Demo CyberArk Subflow** that uses **RPA CyberArk
 
 </td><td>
 
-For more information about configuring these fields, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-set-botprocess.md), [Create an application credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-application-credential.md), and [Create a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/map-totp-credential-set-rpa.md).
+For more information about configuring these fields, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-credential-set-botprocess.md), [Create an application credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-application-credential.md), and [Create a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/map-totp-credential-set-rpa.md).
 
 </td></tr></tbody>
 </table>

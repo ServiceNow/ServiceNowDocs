@@ -2,7 +2,7 @@
 title: Edit staged users for Alumni Center
 description: Use Staged Alumni to ensure the import set upload and transform process ran correctly. It also ensures that your uploaded alumni are configured with the correct user ID.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/asc-staged-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/asc-staged-users.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -132,7 +132,7 @@ Proposed user ID
 
 </td><td>
 
-The user ID created after you fill in the fields and click **Generate Proposed User ID**.The user ID creates based on the personal email address provided with a suffix from the properties. For more information on the suffix, see [Properties for Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-properties.md).
+The user ID created after you fill in the fields and click **Generate Proposed User ID**.The user ID creates based on the personal email address provided with a suffix from the properties. For more information on the suffix, see [Properties for Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/asc-properties.md).
 
 </td></tr></tbody>
 </table>6.  Select **Save**.
@@ -149,7 +149,7 @@ The user ID created after you fill in the fields and click **Generate Proposed U
 
 12. Select **Import All**.
 
-    For more information about the default state for staged alumni, see [Properties for Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-properties.md).
+    For more information about the default state for staged alumni, see [Properties for Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/asc-properties.md).
 
     The Import Approved Staged to Alumni scheduled job runs.
 

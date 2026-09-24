@@ -2,7 +2,7 @@
 title: Create an exploration in the architecture analyzer
 description: You can create an exploration to begin analyzing relationships between architectural entities using the architecture analyzer in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-exploration-in-arch-analyzer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-exploration-in-arch-analyzer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -88,10 +88,10 @@ In the Architecture Analyzer you can also perform the following:
 
         2.  In the **Delete** pop-up window, select **Delete**. The exploration is permanently deleted.
 
-**Parent Topic:**[Working with architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-architecture-analyzer.md)
+**Parent Topic:**[Working with architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-architecture-analyzer.md)
 
 **Related topics**  
 
 
-[Exploring the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-explore-arch-analyzer.md)
+[Exploring the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-explore-arch-analyzer.md)
 

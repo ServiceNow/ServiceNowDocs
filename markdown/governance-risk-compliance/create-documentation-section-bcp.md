@@ -2,7 +2,7 @@
 title: Create documentation sections
 description: Create a documentation section in the business continuity plan. You can then document the recovery capabilities of your business continuity plan in BCM UIB Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-documentation-section-bcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-documentation-section-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,5 +61,5 @@ These UI actions are available for the documentation sections:
 8.  To reset a documentation section to its template, select the More actions \(**...**\) icon and then select **Reset to template**.
 
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

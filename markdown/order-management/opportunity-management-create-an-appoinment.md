@@ -2,7 +2,7 @@
 title: Create an appointment from Opportunity Management
 description: Create appointments with the required stakeholders to move the business discussion forward for your opportunity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-create-an-appoinment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management-create-an-appoinment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sales\_manager
 
 ## About this task
 
-You can create appointments only after creating an opportunity task. To create an opportunity task, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md).
+You can create appointments only after creating an opportunity task. To create an opportunity task, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-tasks-tab.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ You can create appointments only after creating an opportunity task. To create a
 
 4.  On the Create New Appointment form, fill in the fields.
 
-    For more information, see [Create new appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-appointments-form.md).
+    For more information, see [Create new appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-appointments-form.md).
 
 5.  Select **Save**.
 
@@ -42,5 +42,5 @@ You can create appointments only after creating an opportunity task. To create a
 **Related topics**  
 
 
-[Schedule an appointment from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-appointment-crm-touchpoint.md)
+[Schedule an appointment from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/schedule-appointment-crm-touchpoint.md)
 

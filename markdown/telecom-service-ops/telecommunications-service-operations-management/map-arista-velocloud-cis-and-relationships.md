@@ -2,7 +2,7 @@
 title: Mapping Arista VeloCloud CIs and relationships
 description: Use the Service Graph Connector \(SGC\) for Arista VeloCloud to map discovered physical and logical SD-WAN resources to telecom-aligned configuration item \(CI\) classes in the Configuration Management Database \(CMDB\). SGC support consistent service modeling, provide visibility into network components, and automate the creation of logical and physical relationships.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/map-arista-velocloud-cis-and-relationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/map-arista-velocloud-cis-and-relationships.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

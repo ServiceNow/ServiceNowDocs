@@ -2,7 +2,7 @@
 title: Boolean operators allow conditional search results
 description: Construct complex searches using Boolean AND, OR, and NOT operators in global text searches.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/c\_BooleanOperators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/c\_BooleanOperators.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -67,7 +67,7 @@ Excludes documents that contain the search term after the NOT operator \(a diffe
  You can't use the NOT operator to exclude all terms in your search. For example, the following search returns no results: `NOT "10 minutes"`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_IntroductionToSearching.md)
+</table>**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_IntroductionToSearching.md)
 
 **Related topics**  
 

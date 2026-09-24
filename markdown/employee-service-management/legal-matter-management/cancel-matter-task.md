@@ -2,7 +2,7 @@
 title: Cancel a legal matter task
 description: You can cancel a matter task if it no longer requires any action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/cancel-matter-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/cancel-matter-task.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -43,5 +43,5 @@ Role required: sn\_lg\_ops.legal\_user
 
 The matter task is cancelled and its state updates to Cancelled.
 
-**Parent Topic:**[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)
+**Parent Topic:**[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)
 

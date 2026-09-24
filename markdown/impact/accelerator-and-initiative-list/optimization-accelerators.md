@@ -2,7 +2,7 @@
 title: Optimization Accelerators
 description: Optimization Accelerators provide standardized user story design documentation and configuration capabilities to accelerate platform and product adoption in customer sub-production environments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/optimization-accelerators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/optimization-accelerators.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -27,6 +27,6 @@ Accelerator outputs and formats have common standardized features, but may diffe
 
 |Accelerator|Guided package|Guided + Platform Optimization|Advanced package|Total package|Integrated Success|On-Demand|
 |:---------:|:------------:|:----------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
-|[Optimization Capability Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-capability-configuration.md)| |✓| |✓|✓| |
-|[Optimization Capability Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-capability-design.md)| |✓| |✓|✓| |
+|[Optimization Capability Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/optimization-capability-configuration.md)| |✓| |✓|✓| |
+|[Optimization Capability Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/optimization-capability-design.md)| |✓| |✓|✓| |
 

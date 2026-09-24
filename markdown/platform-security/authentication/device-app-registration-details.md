@@ -2,7 +2,7 @@
 title: Registration details of registered devices
 description: View the details of devices that are registered with your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/device-app-registration-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/device-app-registration-details.html
 release: australia
 product: Authentication
 classification: authentication

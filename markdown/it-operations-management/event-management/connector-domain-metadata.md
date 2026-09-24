@@ -2,7 +2,7 @@
 title: Connector domain metadata
 description: Override push connector default domain metadata values installed with Event Management with the values in the event HTTP request, including the URL, headers, request body \(payload\), and connector parameters. Override pull connector domain metadata values with connector parameters only.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/connector-domain-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/connector-domain-metadata.html
 release: australia
 product: Event Management
 classification: event-management
@@ -125,7 +125,7 @@ You can reference domain metadata from the request body \(JSON payload\) by sett
     \}
 
 
-**Note:** For information on connector parameters, see [Configure domain separation for push connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/personalize-domain-separation-push-connectors.md).
+**Note:** For information on connector parameters, see [Configure domain separation for push connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/personalize-domain-separation-push-connectors.md).
 
-**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-management-reference.md)
 

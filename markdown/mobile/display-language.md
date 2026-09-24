@@ -2,7 +2,7 @@
 title: Languages on your mobile device
 description: Select a language for your ServiceNow mobile app that may differ from the language defined for your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/display-language.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/display-language.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Select a language for your ServiceNow mobile app that may differ from the langua
 
 **Note:** This capability is available from ServiceNow mobile app version 16.0.
 
-For a list of supported languages, see [Localization on mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/localization-mobile-device.md).
+For a list of supported languages, see [Localization on mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/localization-mobile-device.md).
 
 ## Sources of languages for ServiceNow mobile apps
 

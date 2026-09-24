@@ -2,7 +2,7 @@
 title: Generate troubleshooting guidance for SaaS and SSO integrations by using ServiceNow Otto for Software Asset Management \(SAM\)
 description: Generate error messages and detailed guidance to troubleshoot runtime job failures for SaaS and SSO integrations. These recommendations enable you to resolve common configuration issues and reduce downtime.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/troubleshooting-saas-now-assist-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/troubleshooting-saas-now-assist-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -90,5 +90,5 @@ The ServiceNow Otto for SAM application generates the troubleshooting details th
 5.  After the connection validation is successful, publish the integration profile by selecting **Publish**.
 
 
-**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam.md)
 

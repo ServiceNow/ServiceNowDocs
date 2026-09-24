@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Workplace Service Delivery \(WSD\)
 description: The ServiceNow Otto for WSD assists Workplace Service Delivery workplace employees to book meeting spaces conveniently and quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/now-assist-wsd-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-overview.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -58,13 +58,13 @@ The following Agentic AI workflows are available for ServiceNow Otto for WSD:-  
 -   Optimize cleaning activities
 -   Automate map updates
 
-For more information, see [Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+For more information, see [Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 </td></tr></tbody>
 </table>## What to explore next
 
 To learn more about configuring and using ServiceNow Otto for Workplace Service Delivery \(WSD\), see:
 
--   [Configuring ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-configuring.md)
--   [Using ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using.md)
+-   [Configuring ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-configuring.md)
+-   [Using ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-using.md)
 

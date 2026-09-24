@@ -2,7 +2,7 @@
 title: Request Service Mapping
 description: Service Mapping is available under the ITOM Visibility subscription and requires activation by ServiceNow personnel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_ActivateServiceMappingPlugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/t\_ActivateServiceMappingPlugin.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -95,5 +95,5 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md)
+[Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md)
 

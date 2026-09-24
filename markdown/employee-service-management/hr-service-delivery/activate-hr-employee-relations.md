@@ -2,7 +2,7 @@
 title: Activate Employee Relations
 description: You can activate Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_relations\] if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.Several types of components are installed with activation of the Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_relations\] plugin, including tables, and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/activate-hr-employee-relations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/activate-hr-employee-relations.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

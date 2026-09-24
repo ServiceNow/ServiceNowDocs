@@ -2,7 +2,7 @@
 title: View and manage Walk-up Experience appointments from application navigator
 description: Viewing upcoming scheduled Walk-up Experience appointments provides technicians with an estimate of future queue demand and workload. Managers can view future appointments and adjust staffing at walk-up queue locations to best support demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/view-manage-walkup-appoint-nav.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/view-manage-walkup-appoint-nav.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -47,5 +47,5 @@ Upcoming appointments also display with a small calendar icon next to the user n
     3.  Select **Update** to save any changes you make to the interaction form.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

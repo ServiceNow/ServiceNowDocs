@@ -2,7 +2,7 @@
 title: Configure the business continuity plan template
 description: Configure the business continuity plan template in the Business Continuity Management application for your business. You can use the plan template to recover a specific primary element such as Employees or Web Servers. Similarly, you can create a plan template for different plan authoring types such as documentation, loss scenarios, and recovery tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-a-bcp-template-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-a-bcp-template-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ By configuring the plan template, you can:
 
 3.  On the Plan Template form, fill in the fields.
 
-    For more information on the fields, see [Plan Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/plan-template-form.md).
+    For more information on the fields, see [Plan Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/plan-template-form.md).
 
     **Note:** The synchronization fields are:
 
@@ -57,8 +57,8 @@ By configuring the plan template, you can:
 6.  Select **Submit**.
 
 
--   **[Plan Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/plan-template-form.md)**  
+-   **[Plan Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/plan-template-form.md)**  
 Use the Plan Template form in BCM UIB Workspace to input details regarding the business continuity plan.
 
-**Parent Topic:**[Configuring plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-admin-plan-templates.md)
+**Parent Topic:**[Configuring plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-admin-plan-templates.md)
 

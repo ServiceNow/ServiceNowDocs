@@ -2,7 +2,7 @@
 title: Corrective action charges
 description: Create correction action charges to enable the expenses incurred to address a non-conformance and implement measures to help prevent its recurrence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco\_corrective\_action\_charges.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco\_corrective\_action\_charges.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 3.  On the corrective action charges form, fill in the fields.
 
-    For a description of the field values, see [Corrective action charges form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco_corrective_action_charges_form.md).
+    For a description of the field values, see [Corrective action charges form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco_corrective_action_charges_form.md).
 
 4.  Select **Save**.
 

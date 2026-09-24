@@ -2,7 +2,7 @@
 title: Set up ML-based opportunity scoring and insights
 description: Give your sales team a win probability score and supporting insights on every open opportunity by training a machine learning \(ML\) model on your closed deals and activating the jobs that score opportunities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/set-up-opty-score-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/set-up-opty-score-insights.html
 release: australia
 topic_type: task
 last_updated: "2026-08-06"
@@ -22,7 +22,7 @@ You must have installed the ServiceNow Otto for Sales Automation \(sn\_som\_gen\
 -   Opportunity Management ML \(sn\_opty\_mgmt\_ml\)
 -   Opportunity Management AI Features \(com.sn\_opty\_mgmt\_ai\)
 
-If either application is missing from your instance, install it using the Application Manager. For more information, see [Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-ai-capabilities-sales-crm.md).
+If either application is missing from your instance, install it using the Application Manager. For more information, see [Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-ai-capabilities-sales-crm.md).
 
 To score and test opportunities without waiting for historical data, select the **Load demo data** option during installation. Demo data populates the Opportunity Feature \[sn\_opty\_ml\_feature\] table with sample opportunities that the model can train on.
 
@@ -166,5 +166,5 @@ Open opportunities show a win probability score from 0 to 100. Insights explain 
 
 ## What to do next
 
-[View opportunity scores and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-opty-scores-insights.md)
+[View opportunity scores and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-opty-scores-insights.md)
 

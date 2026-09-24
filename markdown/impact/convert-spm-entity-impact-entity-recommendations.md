@@ -2,7 +2,7 @@
 title: Manage work items with recommendations for the Impact Store Application
 description: Convert an Impact entity to an SPM entity either from the Impact home page or from the Recommendations list. Creating an Impact entity and associating the SPM record details help you to avoid manual intervention in converting the entities from Impact to SPM portals, and thereafter any duplication of entities in the process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/convert-spm-entity-impact-entity-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/convert-spm-entity-impact-entity-recommendations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure update set integration
 description: Configure the update set integration to automatically synchronize update set scan results from developer instances to the production instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/update-set-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/update-set-integration.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -16,7 +16,7 @@ Configure the update set integration to automatically synchronize update set sca
 
 ## Before you begin
 
-My SN Instances registration and authentication must be complete. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
+My SN Instances registration and authentication must be complete. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md).
 
 Role required: admin
 
@@ -35,7 +35,7 @@ Role required: admin
 
 Update set scans completed on developer instances sync automatically to the Production instance.
 
-**Parent Topic:**[Deployment and synchronization integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/deployment-sync-integrations.md)
+**Parent Topic:**[Deployment and synchronization integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/deployment-sync-integrations.md)
 
 **Related topics**  
 

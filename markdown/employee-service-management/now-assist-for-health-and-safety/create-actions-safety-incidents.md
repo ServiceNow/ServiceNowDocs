@@ -2,7 +2,7 @@
 title: Create actions for safety incidents agentic workflow
 description: Use the Create actions for safety incidents agentic workflow to suggest actions automatically for a specific incident and create actions in the Health and Safety workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/create-actions-safety-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/create-actions-safety-incidents.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety

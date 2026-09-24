@@ -2,7 +2,7 @@
 title: Example resource pool that limits choices to cost center
 description: You can use resource pools with blueprints to limit the choices on the cloud catalog request form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/use-case-resource-pool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/use-case-resource-pool.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

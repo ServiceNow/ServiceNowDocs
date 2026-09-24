@@ -2,7 +2,7 @@
 title: Add opportunity tasks
 description: Create opportunity tasks to capture additional details of your customer's requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-tasks-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management-tasks-tab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Role required: sales\_manager
 
 4.  On the Opportunity Task form, fill in the fields.
 
-    For more information, see [Create new opportunity task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-opportunity-task-form.md).
+    For more information, see [Create new opportunity task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-opportunity-task-form.md).
 
 5.  Select **Save**.
 
@@ -37,10 +37,10 @@ Role required: sales\_manager
 
 ## What to do next
 
-You can create appointments in your opportunity tasks. To learn more, see [Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-an-appoinment.md).
+You can create appointments in your opportunity tasks. To learn more, see [Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-create-an-appoinment.md).
 
 **Related topics**  
 
 
-[Create a related task from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-touchpoint-related-tasks.md)
+[Create a related task from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-touchpoint-related-tasks.md)
 

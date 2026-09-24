@@ -2,7 +2,7 @@
 title: Register Power BI application
 description: Register an application in Azure and create client credentials for Power BI collector authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-powerbi-collector-register-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-powerbi-collector-register-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -65,5 +65,5 @@ Register an application in Azure to obtain the client ID and client secret neede
         Save this value. You will use it when configuring the Power BI collector.
 
 
-**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-powerbi-collector.md)
+**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-powerbi-collector.md)
 

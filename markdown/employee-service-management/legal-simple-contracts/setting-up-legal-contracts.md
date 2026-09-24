@@ -2,7 +2,7 @@
 title: Configure Legal Simple Contracts
 description: Set up the foundation data for legal simple contracts so employees can use them to submit a legal request to the legal department.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/setting-up-legal-contracts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/setting-up-legal-contracts.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -18,15 +18,15 @@ Set up the foundation data for legal simple contracts so employees can use them 
 
 As an administrator, install and configure components for Legal Simple Contracts.
 
--   **[Install Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/install-legal-simple-contracts.md)**
+-   **[Install Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/install-legal-simple-contracts.md)**
 
     Install Legal Simple Contracts application that enables employees to submit legal requests for getting legal support and guidance for contracts.
 
--   **[Activate Word Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-install-wdt.md)**
+-   **[Activate Word Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/lsc-install-wdt.md)**
 
     By default Legal Simple Contracts support legal contract templates in HTML and PDF format. To enable the support for legal contract template in Microsoft Word format, install Word Document Templates \(sn\_doc\_word\) plugin.
 
--   **[Configure Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/config-legal-simple-cont.md)**
+-   **[Configure Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/config-legal-simple-cont.md)**
 
     Set up the foundation data for legal simple contracts so employees can use them to submit a legal request to the legal department.
 

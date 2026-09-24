@@ -2,7 +2,7 @@
 title: Upload the Microsoft 365 Copilot, Visio Online, and Project Online usage reports to your ServiceNow instance
 description: Monitor the usage activity data for Microsoft 365 Copilot, Visio Online, and Project Online to identify reclamation candidates based on low usage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/upload-usage-reports-copilot-visio-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/upload-usage-reports-copilot-visio-project.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -153,5 +153,5 @@ Action
 </table>
 ## What to do next
 
-The usage activity reports that you uploaded can be monitored for license optimization and generation of reclamation candidates. For details, see [Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md).
+The usage activity reports that you uploaded can be monitored for license optimization and generation of reclamation candidates. For details, see [Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/o365-usage-activity.md).
 

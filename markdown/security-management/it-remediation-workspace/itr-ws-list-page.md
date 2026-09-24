@@ -2,7 +2,7 @@
 title: List page in the IT Remediation Workspace
 description: The List view in the IT Remediation Workspace permits remediation owners to view the records \(VITs, AVITs, CVITs, and TRs\) assigned to them and their assignment groups, and remediate these vulnerabilities and misconfigurations. You can also view the list of preferred solutions that are recommended for remediating the host vulnerable items \(VITs\). Along with these lists, you can view the list of exception requests and penetration test assessment requests raised by you, penetration test findings associated with your penetration test assessment requests, supported libraries and other supported data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/itr-ws-list-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/it-remediation-workspace/itr-ws-list-page.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -28,7 +28,7 @@ The lists and links on the List page provide you with easy access to records and
 -   **Lists** tab: Displays the default lists for remediation efforts, remediation tasks, vulnerable items \(VITs, AVITs, or CVITs\), solutions, exceptions, and configuration test results \(TRs\), etc. For more information, see the following table.
 -   **My Lists** tab: Displays any list that you’ve renamed from the List tab and any list that you create.
 
-    You can also create your own list of records. For more information, see [Create a list in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-IT-list-view.md).
+    You can also create your own list of records. For more information, see [Create a list in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/vr-ws-IT-list-view.md).
 
 
 **Tip:**
@@ -310,5 +310,5 @@ sn\_vulc.remediation\_owner
 </table>**Related topics**  
 
 
-[Use the List view in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-vmws-list-view-duplicate.md)
+[Use the List view in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vr-ws-vmws-list-view-duplicate.md)
 

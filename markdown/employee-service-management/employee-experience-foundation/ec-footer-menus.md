@@ -2,7 +2,7 @@
 title: Footer Menus form
 description: Use the Footer Menus form to create a new footer menu that you want to appear on your Employee Center or Employee Center Pro.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-footer-menus.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-footer-menus.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -59,9 +59,9 @@ Order
 The order in which you want the menu to appear in the footer.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Footer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-footer-config.md)
+</table>**Parent Topic:**[Footer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-footer-config.md)
 
-**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

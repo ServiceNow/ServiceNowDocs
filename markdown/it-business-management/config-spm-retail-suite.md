@@ -2,7 +2,7 @@
 title: Configure Retail Strategic Portfolio Management Suite
 description: Configure Retail Strategic Portfolio Management Suite \(SPM Retail\) to manage store life cycle projects such as new store openings, closures, refurbishments, relocations, and technology refreshes. Follow the configuration overview or use guided setup to get started.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/config-spm-retail-suite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/config-spm-retail-suite.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-11"
@@ -17,10 +17,10 @@ Configure Retail Strategic Portfolio Management Suite \(SPM Retail\) to manage s
 
 1.  Install the Retail Strategic Portfolio Management Suite from the ServiceNow Store.
 
-    For more information, see [Install Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/install-spm-r-store-app.md).
+    For more information, see [Install Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/install-spm-r-store-app.md).
 
 2.  Add members to Retail HQ Group who can receive playbook stage approval requests.
 
-    For more information, see [Add members to HQ group to complete playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/add-members-to-hq-group-spmr.md).
+    For more information, see [Add members to HQ group to complete playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/add-members-to-hq-group-spmr.md).
 
 

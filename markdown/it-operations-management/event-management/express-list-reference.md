@@ -2,7 +2,7 @@
 title: Express List reference
 description: Reference topics provide additional information for configuring and using Express List.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/express-list-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/express-list-reference.html
 release: australia
 product: Event Management
 classification: event-management

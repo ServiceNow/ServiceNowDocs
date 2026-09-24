@@ -2,7 +2,7 @@
 title: Twilio Spoke
 description: Use the Twilio spoke to send SMS, make voice calls, create conference calls, manage calls, manage short codes, notify services, and messaging services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/twilio-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/twilio-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -93,5 +93,5 @@ Integration Hub uses aliases to manage connection and credential information. Us
 
 **Note:** Three connection and credential alias records are needed for the Twilio spoke. One each for Twilio Base, Twilio Notify, and Twilio Messaging. Each alias should be associated with the respective Twilio API.
 
-For information about setting up the spoke, see [Set up Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-twilio.md).
+For information about setting up the spoke, see [Set up Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-twilio.md).
 

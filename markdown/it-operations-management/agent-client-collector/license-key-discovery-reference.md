@@ -2,7 +2,7 @@
 title: License key discovery and access control tables
 description: Reference information for the tables, fields, access control, and scheduled job used by license key discovery in Agent Client Collector for Visibility Content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/license-key-discovery-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/license-key-discovery-reference.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -137,5 +137,5 @@ The following scheduled job supports license key discovery.
 |---|--------|---------|
 |Refresh License Key Config File|Daily at 8:30 a.m. UTC|Runs only when the **sn\_acc\_vis\_content.enable\_license\_key\_discovery** property is set to `true` and the SAM Professional plugin \(com.snc.samp\) is activated.|
 
-**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

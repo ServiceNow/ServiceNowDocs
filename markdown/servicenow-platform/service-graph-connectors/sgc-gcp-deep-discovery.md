@@ -2,7 +2,7 @@
 title: Deep discovery for Service Graph Connector for GCP
 description: The SG-GCP Execute Patch Job and SG-GCP Get Patch Job scheduled import jobs enable deep discovery by running patch jobs at the GCP project level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -22,8 +22,8 @@ The Service Graph Connector for GCP uses OS Config Patch jobs on GCP projects to
 
 The following scheduled imports execute the OS Config Patch jobs, and then read and delete the output:
 
--   [SG-GCP Execute Patch Job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
--   [SG-GCP Get Patch Job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
+-   [SG-GCP Execute Patch Job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
+-   [SG-GCP Get Patch Job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
 
 ## Deep discovery connection properties
 
@@ -65,10 +65,10 @@ Using the deep discovery information, Application Dependency Mapping \(ADM\) cre
 
 [Service Graph Connector for GCP - Deep Discovery Setup Instructions \[KB2213095\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2213095) article in the Now Support Knowledge Base
 
-**Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
+**Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
 
 **Related topics**  
 
 
-[Service Graph Connector for GCP properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-gcp-props.md)
+[Service Graph Connector for GCP properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-sgc-gcp-props.md)
 

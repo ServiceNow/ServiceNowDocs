@@ -2,7 +2,7 @@
 title: Use the screen or element match rules
 description: Use the screen or element match rules to match a screen or element from among multiple screens and elements with its corresponding rules. Match rules enables the connector to identify the appropriate screen or element and perform tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/find-the-screen-or-element-to-perform-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/find-the-screen-or-element-to-perform-automation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -212,5 +212,5 @@ Use this locator when you want to capture data from an emulator screen in the ta
     \[Omitted image "terminal-connector-match-all.png"\] Alt text: Screen and element match.
 
 
-**Parent Topic:**[Configure the Terminal connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-terminal-connector.md)
+**Parent Topic:**[Configure the Terminal connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-terminal-connector.md)
 

@@ -2,7 +2,7 @@
 title: Create a Knowledge Base
 description: Knowledge bases are created in Knowledge Center and can be created at a business unit level or at a product level in the Core Business Suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/create-kb-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/create-kb-cbs.html
 release: australia
 topic_type: task
 last_updated: "2026-07-28"
@@ -36,5 +36,5 @@ Create knowledge bases to organize and manage knowledge articles for your organi
     For a description of the field values, see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-a-knowledgebase.md).
 
 
-**Parent Topic:**[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)
+**Parent Topic:**[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/kb-cbs.md)
 

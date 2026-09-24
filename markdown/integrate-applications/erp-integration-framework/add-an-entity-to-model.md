@@ -2,7 +2,7 @@
 title: Adding an entity to a model
 description: Specify the operation entity that Zero Copy Connector for ERP \(Enterprise Resource Planning\) uses for read, update, or create operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/add-an-entity-to-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

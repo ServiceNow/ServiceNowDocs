@@ -2,7 +2,7 @@
 title: Potential knowledge gaps
 description: The Potential Knowledge Gap helps in finding missing or incomplete knowledge coverage by analyzing service interactions. Gap recommendations is set to available after you activate the Knowledge Gaps skills in AI Admin Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/potential-knowledge-gaps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/potential-knowledge-gaps.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills

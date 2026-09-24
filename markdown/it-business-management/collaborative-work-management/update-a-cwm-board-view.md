@@ -2,7 +2,7 @@
 title: Update a CWM Board view
 description: Modify the display preferences of your Collaborative Work Management \(CWM\)Boards and update the existing personal or shared views.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/update-a-cwm-board-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/update-a-cwm-board-view.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -32,7 +32,7 @@ Role required: sn\_cwm.cwm\_user
 
 4.  Modify the display preferences of the Board data using the personalization settings, sorting, filtering, and adding custom columns.
 
-    For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
+    For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
 
 5.  Select **Save view**.
 
@@ -49,5 +49,5 @@ Role required: sn\_cwm.cwm\_user
 
 The current view is updated with the changes that you made.
 
-**Parent Topic:**[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/board-views-in-cwm.md)
+**Parent Topic:**[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/board-views-in-cwm.md)
 

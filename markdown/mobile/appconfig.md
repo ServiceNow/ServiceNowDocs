@@ -2,7 +2,7 @@
 title: AppConfig for Mobile Apps
 description: Use AppConfig to define a default instance and browser for your managed mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/appconfig.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/appconfig.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -100,5 +100,5 @@ Use the following configuration keys with one of the following values to define 
 |MaasS360|IBM MAAS360|
 |Citrix|Citrix Secure|
 
-**Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/imp-considerations.md)
+**Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/imp-considerations.md)
 

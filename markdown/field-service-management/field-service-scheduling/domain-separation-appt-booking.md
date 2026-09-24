@@ -2,7 +2,7 @@
 title: Domain Separation and Appointment Booking
 description: Domain separation is supported for Appointment Booking. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/domain-separation-appt-booking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/domain-separation-appt-booking.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

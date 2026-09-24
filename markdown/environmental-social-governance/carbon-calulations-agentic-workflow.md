@@ -2,7 +2,7 @@
 title: Carbon calculations using AI agents
 description: Automates the creation of calculated metric definition \(CMD\) records and formulas for Scope 3 carbon emissions categories. Uses AI-powered document analysis and semantic matching to confirm accuracy, reducing manual effort for ESG program managers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/carbon-calulations-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/carbon-calulations-agentic-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ The benefits are as follows:
 -   Promotes transparency and traceability by providing step-by-step guidance and workflow audit logs.
 -   Simplifies user experience through an intuitive conversational assistant embedded in the Now Assist Panel.
 
-**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/exploring-now-assist-for-esg.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/exploring-now-assist-for-esg.md)
 

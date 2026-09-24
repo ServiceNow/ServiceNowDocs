@@ -2,7 +2,7 @@
 title: Actionable push notification script example
 description: You can use this JSON script example to configure an actionable push notification for ServiceNow mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/actionable-push-notification-1a.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/actionable-push-notification-1a.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ The following example script creates a push notification that your users can see
 })(current, message, attributes);
 ```
 
-**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
+**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/actionable-push-notification.md)
 

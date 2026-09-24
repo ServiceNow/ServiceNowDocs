@@ -2,7 +2,7 @@
 title: Minimize risk by assessing suppliers during the onboarding process
 description: With Risk Assessments Integration for Supplier Lifecycle Operations, you can identify and assess potential supplier risks when onboarding new suppliers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/better-tprm-slo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/better-tprm-slo.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -217,5 +217,5 @@ Get started with Risk Assessments Integration for Supplier Lifecycle Operations 
 11. The supplier manager closes the due diligence request \(case\).
 12. As a supplier manager, you can use the risk assessment result data in combination with any other data to determine whether to continue or cancel the onboarding process.
 
-**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/solutions-gallery.md)
 

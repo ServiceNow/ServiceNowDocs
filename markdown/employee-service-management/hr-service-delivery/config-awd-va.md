@@ -2,7 +2,7 @@
 title: Configure Virtual Agent topics for HR Service Delivery Advanced Integration with Workday
 description: Complete the configuration steps to enable your employees place requests to the Workday system using the ServiceNow Otto for HRSD Virtual Agent topics in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-awd-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/config-awd-va.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,11 +28,11 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 3.  Create subflows aligning with Template Integration Gateway.
 
-    See [Create a subflow using Template Integration Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-integration-gateway.md).
+    See [Create a subflow using Template Integration Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-integration-gateway.md).
 
     **Note:** You can use the default subflows that have been created for Workday for the Request Time off and Get Time Off Balance Virtual Agent topics.
 
-4.  [Configure Integration Provider Mapping \(Decision table\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-integration-mapping.md) by adding input choices and configuring conditions on input choices and results.
+4.  [Configure Integration Provider Mapping \(Decision table\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-integration-mapping.md) by adding input choices and configuring conditions on input choices and results.
 
 5.  Create a Virtual Agent topic block:
 

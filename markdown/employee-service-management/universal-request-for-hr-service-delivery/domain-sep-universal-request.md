@@ -2,7 +2,7 @@
 title: Domain separation and Universal Request
 description: Domain separation is supported for ServiceNow Universal Request. Universal Request helps Help Desk agents to resolve cases across the enterprise for a better employee experience. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/domain-sep-universal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/domain-sep-universal-request.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -47,7 +47,7 @@ Configuration tables \(strict domain separation\)
 
 Data tables \(data separated\): universal\_request.
 
-**Parent Topic:**[Setting up and configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/setup-configure-ur.md)
+**Parent Topic:**[Setting up and configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/setup-configure-ur.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Generate an authorization package summary
 description: Generate an AI-powered summary of an authorization package to view its status, key metrics, and operational information in a single consolidated view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t\_generate\_authorization\_package\_summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t\_generate\_authorization\_package\_summary.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -72,8 +72,8 @@ Authorization package summarization provides the following benefits:
     -   Select **Refresh** icon to refresh the summary with updated package information.
     -   Select **Share to work notes** to share the summary to work notes for team collaboration.
 
--   **[Reactivate Authorization package summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_enable_authorization_package_summarization_skill.md)**  
+-   **[Reactivate Authorization package summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t_enable_authorization_package_summarization_skill.md)**  
 Activate or deactivate the authorization package summarization skill from the AI Admin Panel to control whether users can generate summaries.
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

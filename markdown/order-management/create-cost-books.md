@@ -2,7 +2,7 @@
 title: Create and publish a cost book
 description: Create a cost book that defines the unit costs for products and services in Sales Customer Relationship Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-cost-books.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-cost-books.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -132,5 +132,5 @@ Ending date and time of the cost book. After the ending time, the cost book is n
 
 ## What to do next
 
-[Create a cost book line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-cost-book-lines.md).
+[Create a cost book line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-cost-book-lines.md).
 

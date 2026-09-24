@@ -2,7 +2,7 @@
 title: Copy and Paste in the Rich Content Editor
 description: Copy and paste HTML and CSS source code for elements in the canvas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/rce-copy-paste-source-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/rce-copy-paste-source-code.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -16,7 +16,7 @@ breadcrumb: [Microsites, Creating employee communications, Authoring and managin
 
 Copy and paste HTML and CSS source code for elements in the canvas.
 
-Directly [edit the CSS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/rce-editing-source-code.md) for an element to add styling, or copy-paste code to migrate content from other sources.
+Directly [edit the CSS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/rce-editing-source-code.md) for an element to add styling, or copy-paste code to migrate content from other sources.
 
 **Important:** For the May 2025 release, if any pasted content has a **background-color**, the right-hand panel will not display the color unless it is formatted with **background-image styling**. The background acts as layers to add **background-color**, **gradient**, and **image** to your content. The edit code feature can be used to adjust the pasted styling from **background-color** to the corresponding value for **background-image CSS**, if you want the color to be displayed on the right-hand panel.
 
@@ -80,5 +80,5 @@ The ability to add color opacity to the canvas is a useful function available to
     -   If the component enables nested components \(for example Tab, Accordion, or Row\), then content is appended within the parent container.
 -   If components are deselected when selected out of the canvas, it enables paste with source formatting.
 
-For more information on editing source code, see [Editing source code in the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/rce-editing-source-code.md)
+For more information on editing source code, see [Editing source code in the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/rce-editing-source-code.md)
 

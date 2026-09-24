@@ -2,7 +2,7 @@
 title: Purchase Order Management release notes
 description: The ServiceNow Purchase Order Management application helps you identify, track, and resolve anomalies or irregularities in the purchase order \(PO\) execution process. Purchase Order Management was enhanced and updated in the Australia release.The ServiceNow Purchase Order Management application helps you identify, track, and resolve anomalies or irregularities in the purchase order \(PO\) execution process. Purchase Order Management was enhanced and updated in the Australia release.The ServiceNow Purchase Order Management application helps you identify, track, and resolve anomalies or irregularities in the purchase order \(PO\) execution process. Purchase Order Management was enhanced and updated in the Australia release.The ServiceNow Purchase Order Management application helps you identify, track, and resolve anomalies or irregularities in the purchase order \(PO\) execution process. Purchase Order Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/purchase-order-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/purchase-order-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The ServiceNow® Purchase Order Management application helps you identify, track
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -49,7 +49,7 @@ See [Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/Ser
     Install Purchase Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/source-to-pay-operations-rn-landing.md)
+**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/source-to-pay-operations-rn-landing.md)
 
 ## June 2026
 

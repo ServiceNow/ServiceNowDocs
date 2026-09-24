@@ -2,7 +2,7 @@
 title: Define business calendar filtering options
 description: Define date and time filtering options for a business calendar. These filtering options are in addition to the standard date and time filtering in the ServiceNow AI Platform. You can provide your users with additional filtering options when they use the business calendar with ServiceNow AI Platform packages and functional areas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/define-business-calendar-filtering-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/define-business-calendar-filtering-options.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -24,7 +24,7 @@ Role required: business\_calendar\_admin
 
 To learn more about standard filtering options, see [Values for date/time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ValuesForDateTimeFields.md).
 
-**Note:** The easiest way to create business calendar filtering options and associate them with a business calendar is to use the Business Calendar Filter Options related list in the Business Calendar form. To learn more about creating a business calendar, see [Create a business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/create-business-calendar.md).
+**Note:** The easiest way to create business calendar filtering options and associate them with a business calendar is to use the Business Calendar Filter Options related list in the Business Calendar form. To learn more about creating a business calendar, see [Create a business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/create-business-calendar.md).
 
 ## Procedure
 
@@ -98,5 +98,5 @@ Application that is associated with this business calendar. If you are working o
 
 Records are created in the Business Calendar Filter Option \(business\_calendar\_filter\_option\) table. If you create business calendar filtering options in the Business Calendar Filter Options related list in the Business Calendar form, these records are also associated with the specific business calendar.
 
-**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md)
+**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/business-calendars.md)
 

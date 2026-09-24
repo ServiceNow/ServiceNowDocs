@@ -2,7 +2,7 @@
 title: Configure a sequence to fulfill items in order guides
 description: Configure a sequence in Playbooks to fulfill items in order guides. Once you define a sequence, you don't have to manually check whether required items have been fulfilled before fulfilling their dependent items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/generate-order-guide-sequence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/generate-order-guide-sequence.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -85,7 +85,7 @@ Sequence generated for order guides with only record producers as rule base item
     Watch this six-minute video to understand how to configure a sequence to fulfill items in order guides.
 
 
-**Parent Topic:**[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md)
+**Parent Topic:**[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md)
 
 **Related topics**  
 

@@ -2,10 +2,10 @@
 title: Review and activate
 description: Review your configuration selections before completing the setup for a use case. Return to any previous step to make changes before finalizing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/review-and-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/review-and-activate.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Set up a use case, Information Extraction skill, Configure, Content Understanding, Enable AI experiences]
 ---
@@ -30,5 +30,5 @@ Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_d
 **Related topics**  
 
 
-[Review predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-predictions.md)
+[Review predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-predictions.md)
 

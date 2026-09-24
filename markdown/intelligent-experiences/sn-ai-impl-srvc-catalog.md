@@ -2,7 +2,7 @@
 title: Service Catalog readiness for AI on the ServiceNow AI Platform
 description: A well-structured Service Catalog is essential to unlocking the full potential of ServiceNow Otto. As the backbone of many self-service workflows, the catalog enables ServiceNow Otto to interpret user requests accurately, present the right options, and minimize friction in the experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-srvc-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sn-ai-impl-srvc-catalog.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     Identify catalog items with fewer than 15 variables. \(Items with more than 15 variables are better suited to be submitted as pop-up links to forms.\)
 
-    **Note:** Conversational catalog items require ServiceNow® Otto for Virtual Agent. For details, see [ServiceNow Otto for Virtual Agent readiness on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-nava.md).
+    **Note:** Conversational catalog items require ServiceNow® Otto for Virtual Agent. For details, see [ServiceNow Otto for Virtual Agent readiness on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sn-ai-impl-nava.md).
 
     Why? These are easier to convert and provide quick AI wins.
 

@@ -2,7 +2,7 @@
 title: Event record form
 description: Use the Event record form to create an event that you can associate with a scenario and assess its impact on your services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/event-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/event-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

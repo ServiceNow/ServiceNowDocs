@@ -2,7 +2,7 @@
 title: Create a household staff relationship
 description: Create a relationship between a staff member at a business organization \(formerly business location\) and a household.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-staff-household-relationship.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-staff-household-relationship.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Users who have been added as staff members to a business organization \(formerly
 
 Relationships are based on responsibilities. A responsibility definition describes a role or a function that supports a customer or consumer. To create a household relationship, use the Relationship Manager responsibility.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 

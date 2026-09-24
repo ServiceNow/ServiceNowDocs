@@ -2,7 +2,7 @@
 title: Set up approval levels
 description: Assign multiple levels of approvals to users or groups to support each step of your BIA, BCP, or events workflow processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setup-bcm-approval-levels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/setup-bcm-approval-levels.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,12 +52,12 @@ Role required: sn\_bcm.admin
 
         \[Omitted image "approval-rule-level-2-configuration.png"\] Alt text: Rule for level 2.
 
-        In the filter condition, you can select the source table on which rule the approval rule is evaluated. Optionally, you can apply additional condition on the source table. You can select a field to filter the source records based on the Applies to table of the approval configuration. You can configure for which records, level 1 should trigger level 2.For more information, see [Approval Rule New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/approval-rule-new-record-form.md).
+        In the filter condition, you can select the source table on which rule the approval rule is evaluated. Optionally, you can apply additional condition on the source table. You can select a field to filter the source records based on the Applies to table of the approval configuration. You can configure for which records, level 1 should trigger level 2.For more information, see [Approval Rule New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/approval-rule-new-record-form.md).
 
     2.  Select **Submit**.
 
     The approval rule is now configured for the approval level. When a business continuity plan is created in the BCM Configurable Workspace and later it is sent for a review and an approval, the multiple approval levels are displayed in the **Approval levels** tab of the business continuity plan as shown in the example.\[Omitted image "approval-levels-tab-of-plan.png"\] Alt text: Approval levels in the plan.
 
 
-**Parent Topic:**[Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-approval-configuration.md)
+**Parent Topic:**[Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-approval-configuration.md)
 

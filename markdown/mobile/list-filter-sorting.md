@@ -2,7 +2,7 @@
 title: Configure sorting capabilities within mobile filters
 description: Use the sorting option in lists and maps to help users organize their filtered results and enable them to view the most relevant information. Examples of configurable sorting options are: recently added, assigned to \(ascending\), assigned to \(descending\), and highest priority first.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/list-filter-sorting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/list-filter-sorting.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,13 +16,13 @@ Use the sorting option in lists and maps to help users organize their filtered r
 
 ## Before you begin
 
-A sorting option entitled Default always displays at the top of the sorting list. The values of the default sorting are defined using the **Add sort** and **Sorted by** fields within a data item. See, [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-data-item.md). If values are not defined within a data item, the default sorting definitions of the instance are taken from the web-based platform definition.
+A sorting option entitled Default always displays at the top of the sorting list. The values of the default sorting are defined using the **Add sort** and **Sorted by** fields within a data item. See, [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-create-data-item.md). If values are not defined within a data item, the default sorting definitions of the instance are taken from the web-based platform definition.
 
 Role required: admin
 
 ## About this task
 
-By default, when creating item sorting, the instance creates an ascending and descending variant of the item sorting. Each of these entries contains the text "\(Ascending\)" and "\(Descending\)" next to the sorting entry. To change the default display option, see [Configure sorting display options for mobile filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/list-filter-sorting-attributes.md).
+By default, when creating item sorting, the instance creates an ascending and descending variant of the item sorting. Each of these entries contains the text "\(Ascending\)" and "\(Descending\)" next to the sorting entry. To change the default display option, see [Configure sorting display options for mobile filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/list-filter-sorting-attributes.md).
 
 **Note:** Filters and sorting options use the same defined categories, as defined by item views and cards.
 
@@ -57,7 +57,7 @@ By default, when creating item sorting, the instance creates an ascending and de
 
 3.  Repeat step 2 to display additional sorting options.
 
-    **Note:** To change the sorting display attributes, see [Configure sorting display options for mobile filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/list-filter-sorting-attributes.md).
+    **Note:** To change the sorting display attributes, see [Configure sorting display options for mobile filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/list-filter-sorting-attributes.md).
 
 4.  Add a filter category that contains your item sorting.
 
@@ -117,7 +117,7 @@ By default, when creating item sorting, the instance creates an ascending and de
 
 ## Result
 
-Your filter sorting configuration may look like the one in the image. Each item sorting has an ascending and descending sorting option associated with it. To change the default display options, see [Configure sorting display options for mobile filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/list-filter-sorting-attributes.md).
+Your filter sorting configuration may look like the one in the image. Each item sorting has an ascending and descending sorting option associated with it. To change the default display options, see [Configure sorting display options for mobile filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/list-filter-sorting-attributes.md).
 
 \[Omitted image "mobile-filter-sort-menu.png"\] Alt text: Mobile filter item sorting menu with default setup.
 

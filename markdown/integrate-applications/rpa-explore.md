@@ -2,7 +2,7 @@
 title: Learn about RPA suite of applications
 description: Learn about the Robotic Process Automation \(RPA\) Hub applications, types of automations, benefits, high-level architecture, and workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rpa-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/rpa-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,21 +19,21 @@ Learn about the Robotic Process Automation \(RPA\) Hub applications, types of au
 
 The following Robotic Process Automation \(RPA\) applications operate and interact with each other in an enterprise environment to automate tasks efficiently.
 
--   **[RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-landing-page.md)**
+-   **[RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-landing-page.md)**
 
     The ServiceNow® RPA Hub application provides a centralized orchestration to deploy, monitor, manage, measure, and verify compliance of all robots at an enterprise level.
 
--   **[Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-runtime-landing-page.md)**
+-   **[Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-runtime-landing-page.md)**
 
     The ServiceNow® Unattended Robot is a software agent that you install on a Windows machine. Unattended Robot can execute unattended automations without requiring any human intervention.
 
     The ServiceNow® Unattended Robot Login Agent is a software agent that you install on a Windows machine with Unattended Robot. You can use this application to unlock or to perform a self-login to the robot machine when an unattended bot process is triggered.
 
--   **[Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rda-runtime-landing-page.md)**
+-   **[Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rda-runtime-landing-page.md)**
 
     The ServiceNow® Attended Robot is a software agent that you install on a Windows machine. Attended Robot can execute attended automations that require human intervention.
 
--   **[RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-landing-page.md)**
+-   **[RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-landing-page.md)**
 
     The ServiceNow® RPA Desktop Design Studio is a Windows native application that is used by RPA developers to design or configure automation workflows.
 
@@ -89,7 +89,7 @@ The following diagram shows the process workflow of the Robotic Process Automati
 
 ## Integration with Workflow Studio
 
-Robotic Process Automation \(RPA\) Hub provides an integration with the Workflow Studio application. This integration enables you to integrate ServiceNow workflows with Robotic Process Automation by using ServiceNow components for Workflow Studio. For more information about RPA Hub actions and subflow, see [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-actions.md).
+Robotic Process Automation \(RPA\) Hub provides an integration with the Workflow Studio application. This integration enables you to integrate ServiceNow workflows with Robotic Process Automation by using ServiceNow components for Workflow Studio. For more information about RPA Hub actions and subflow, see [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-actions.md).
 
 ## Key Management Framework
 
@@ -97,7 +97,7 @@ RPA Hub uses the ServiceNow® Key Management Framework for all the sensitive dat
 
 ## Important information for upgrading RPA Hub to Australia
 
-Ensure that you upgrade the current installed Microsoft Software Installers \(MSIs\) \(RPA Desktop Design Studio, Attended Robot, Unattended Robot, and Unattended Robot Login Agent\), by downloading the RPA applications. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/download-installer-rpa.md).
+Ensure that you upgrade the current installed Microsoft Software Installers \(MSIs\) \(RPA Desktop Design Studio, Attended Robot, Unattended Robot, and Unattended Robot Login Agent\), by downloading the RPA applications. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/download-installer-rpa.md).
 
 **Important:** The following upgrade steps are applicable only when you’re upgrading from San Diego or Tokyo to Australia.
 
@@ -113,10 +113,10 @@ If you upgrade to the Utah version without updating the system property value, t
 
 To learn more about configuring Robotic Process Automation, see:
 
--   [RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-landing-page.md)
--   [Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-runtime-landing-page.md)
--   [Unattended Login Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-rpa-runtime-login-agent.md)
--   [Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rda-runtime-landing-page.md)
--   [ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-now-assist-studio.md)
--   [RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-landing-page.md)
+-   [RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-landing-page.md)
+-   [Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-runtime-landing-page.md)
+-   [Unattended Login Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-rpa-runtime-login-agent.md)
+-   [Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rda-runtime-landing-page.md)
+-   [ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-now-assist-studio.md)
+-   [RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-landing-page.md)
 

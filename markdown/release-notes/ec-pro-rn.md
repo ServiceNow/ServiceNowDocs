@@ -2,7 +2,7 @@
 title: Employee Center Pro release notes
 description: The ServiceNow Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.The ServiceNow Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/ec-pro-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/ec-pro-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ See [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNo
     The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
 
 
-**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/uex-rn-landing.md)
 
 ## Australia
 

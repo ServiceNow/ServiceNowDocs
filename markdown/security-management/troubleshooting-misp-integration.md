@@ -2,7 +2,7 @@
 title: Troubleshooting MISP integration
 description: This section covers important troubleshooting tips that can help you resolve common issues you can encounter when setting up or running MISP integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/troubleshooting-misp-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/troubleshooting-misp-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ This section covers important troubleshooting tips that can help you resolve com
 
 ## SSL issues
 
-When connecting through the MISP integration, ensure that you’ve installed a valid CA certificate on the MISP server, which hasn’t expired. You can import RSA or your own certificates into the platform and ensure that the common name of the certificate matches the host name. For more information, see [Install and configure the MISP integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-and-configure-misp.md) and [MISP user roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md).
+When connecting through the MISP integration, ensure that you’ve installed a valid CA certificate on the MISP server, which hasn’t expired. You can import RSA or your own certificates into the platform and ensure that the common name of the certificate matches the host name. For more information, see [Install and configure the MISP integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-and-configure-misp.md) and [MISP user roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-user-roles-and-permissions.md).
 
-**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
+**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-administration.md)
 
 **Related topics**  
 

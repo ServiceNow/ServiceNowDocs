@@ -2,7 +2,7 @@
 title: IT Service Management AI agent collection create standard change request
 description: Use the create standard change request agentic workflow to help users create a standard, normal, or emergency change request in a conversational and intuitive way.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-create-change-request-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-create-change-request-workflow.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

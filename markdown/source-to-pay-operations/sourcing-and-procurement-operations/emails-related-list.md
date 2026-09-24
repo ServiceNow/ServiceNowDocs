@@ -2,7 +2,7 @@
 title: View received, sent, and draft emails on procurement records
 description: Procurement specialists can see the emails associated with a purchase requisition, purchase order, or procurement case directly on the record, instead of switching to a separate mailbox.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/emails-related-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/emails-related-list.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -47,5 +47,5 @@ The email related lists appear in the following interfaces:
     \[Omitted image "procurement-emails-ws.png"\] Alt text: Emails tab showing the Received Emails section with one email from janice.brown@example.com regarding the purchase requisition.
 
 
-**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
+**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 

@@ -2,7 +2,7 @@
 title: Import Raster files
 description: After creating your campus, buildings, and floor, upload and import the raster floor plan sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/import-raster-files.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/import-raster-files.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -18,7 +18,7 @@ After creating your campus, buildings, and floor, upload and import the raster f
 
 ## Before you begin
 
-For more information about raster source file requirements, [Raster file requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/raster-requirements.md).
+For more information about raster source file requirements, [Raster file requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/raster-requirements.md).
 
 Role required: map admin, map editor, map editor limited
 
@@ -69,9 +69,9 @@ Role required: map admin, map editor, map editor limited
     **Note:** Raster files are flat files and therefore, places have to be created manually.
 
 
-**Parent Topic:**[Raster file requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/raster-requirements.md)
+**Parent Topic:**[Raster file requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/raster-requirements.md)
 
-**Previous topic:**[Raster file requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/raster-requirements.md)
+**Previous topic:**[Raster file requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/raster-requirements.md)
 
-**Next topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
+**Next topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 

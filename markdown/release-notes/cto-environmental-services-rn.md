@@ -2,7 +2,7 @@
 title: Care Team Operations for Environmental Services release notes
 description: The ServiceNow Care Team Operations for Environmental Services application contains case types to report and fulfill facilities issues as part of Healthcare Operations. Care Team Operations for Environmental Services was enhanced and updated in the Australia release.The ServiceNow Care Team Operations for Environmental Services application contains case types to report and fulfill facilities issues as part of Healthcare Operations. Care Team Operations for Environmental Services was enhanced and updated in the Australia release.The ServiceNow Care Team Operations for Environmental Services application contains case types to report and fulfill facilities issues as part of Healthcare Operations. Care Team Operations for Environmental Services was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/cto-environmental-services-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/cto-environmental-services-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -37,9 +37,9 @@ See [Care Team Operations for Environmental Services](https://raw.githubusercont
     If you have the feature administrator role you can now complete tasks that were initially reserved for users with the broader administrator role.
 
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 
 ## April 2026
 

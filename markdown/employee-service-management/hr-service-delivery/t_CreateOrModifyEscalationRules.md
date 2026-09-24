@@ -2,7 +2,7 @@
 title: Configure escalation rules for HR cases
 description: Create escalation rules to automatically route HR cases from one tier to another based on agent skills and workload.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyEscalationRules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateOrModifyEscalationRules.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -55,10 +55,10 @@ The system uses roles, groups, skills, and location to determine the appropriate
 
 You can view group information by selecting any tier in the **Escalate from** or **Escalate to** fields. The escalation rule takes effect immediately for new case assignments.
 
-**Parent Topic:**[Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md)
+**Parent Topic:**[Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManageRoles.md)
 
 **Related topics**  
 
 
-[Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md)
+[Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ManageHRGroups.md)
 

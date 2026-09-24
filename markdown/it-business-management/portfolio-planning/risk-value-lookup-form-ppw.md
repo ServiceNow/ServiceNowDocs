@@ -2,7 +2,7 @@
 title: Risk value lookup form
 description: The risk value lookup form information is used to rate the impact and probability of a risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/risk-value-lookup-form-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/risk-value-lookup-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

@@ -2,7 +2,7 @@
 title: Bubble charts for assessments
 description: A bubble chart is a dynamically updated graph that plots assessment results for multiple assessable records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_bubble-chart-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_bubble-chart-assessments.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,5 +16,5 @@ A bubble chart is a dynamically updated graph that plots assessment results for 
 
 Assessment administrators can create and use bubble charts to compare the relative standing of assessable records in three metric categories. The X- and Y-axes each represent a different category. Assessable records are plotted on the chart as circular markers, or bubbles, which vary in size according to scores for the third category.
 
-**Parent Topic:**[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_view-bubble-chart-assessments.md)
+**Parent Topic:**[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_view-bubble-chart-assessments.md)
 

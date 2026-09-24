@@ -2,7 +2,7 @@
 title: AWS OpsWorks Spoke
 description: Manage elastic load balancers, instances, relational database services, and others in AWS OpsWorks account from the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/aws-opsworks-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/aws-opsworks-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -87,5 +87,5 @@ The AWS OpsWorks spoke provides actions to automate  tasks when events occurs in
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the AWS OpsWorks spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-aws-opsworks.md).
+For information about setting up the spoke, see [Set up the AWS OpsWorks spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-aws-opsworks.md).
 

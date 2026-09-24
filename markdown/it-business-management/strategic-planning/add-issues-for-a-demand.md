@@ -2,7 +2,7 @@
 title: Add issues to a demand
 description: Add an issue to a demand to escalate a risk or to track an unexpected problem. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-issues-for-a-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/add-issues-for-a-demand.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -38,7 +38,7 @@ Role required: it\_demand\_manager
 
 7.  On the Issue form, fill in the fields.
 
-    For a description of the field values, see [Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/issue-form-dw.md).
+    For a description of the field values, see [Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/issue-form-dw.md).
 
 8.  Select **Save**.
 

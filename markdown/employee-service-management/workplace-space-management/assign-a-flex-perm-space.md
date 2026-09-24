@@ -2,7 +2,7 @@
 title: Configure a workspace or desk as flexible or permanent
 description: Define if a space is flexible or permanent. On the Reservation portal, the availability of a space for a user profile depends on its assignment type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/assign-a-flex-perm-space.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/assign-a-flex-perm-space.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -20,7 +20,7 @@ Define if a space is flexible or permanent. On the Reservation portal, the avail
 
 Ensure the following:
 
--   The space is added in the application. Otherwise, refer to [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-a-space.md).
+-   The space is added in the application. Otherwise, refer to [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-a-space.md).
 -   The **Space type** field of the space is set to **Workspace/desk**.
 
 Role required: sn\_wsd\_spcmgmt.manager
@@ -60,7 +60,7 @@ You can specify if a desk or workspace is a permanent space or flexible. If you 
 
 The space is configured as flexible or permanent based on the assignment type that you selected.
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

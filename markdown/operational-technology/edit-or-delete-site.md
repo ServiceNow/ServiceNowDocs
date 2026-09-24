@@ -2,7 +2,7 @@
 title: Edit or delete a Site
 description: Edit a site to update its information or delete a site that no longer exists on your Discovery Console for OT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-or-delete-site.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/edit-or-delete-site.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: admin
         **Note:** If devices are associated to a Site, the Site can't be deleted.
 
 
-**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sites-page.md)
+**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sites-page.md)
 

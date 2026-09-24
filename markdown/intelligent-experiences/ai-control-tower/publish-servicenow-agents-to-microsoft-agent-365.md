@@ -2,7 +2,7 @@
 title: Publish ServiceNow agents to Microsoft Agent 365
 description: Publish ServiceNow agents to Microsoft Agent 365 so that end users can discover and interact with them from the Microsoft ecosystem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/publish-servicenow-agents-to-microsoft-agent-365.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/publish-servicenow-agents-to-microsoft-agent-365.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

@@ -2,7 +2,7 @@
 title: Debug a Service Catalog variable
 description: Monitor changes in the state and the value of a Service Catalog variable due to catalog client scripts, catalog UI policies, and catalog data lookups. You can diagnose and resolve issues related to such changes, and track client-side scripting errors on this tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/debug-a-service-catalog-variable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/debug-a-service-catalog-variable.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -48,7 +48,7 @@ Role required: admin or catalog\_admin
     |-----|-----------|
     |Item|Current catalog item.|
     |Variable|Variable that is being watched.|
-    |Type|[Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) of the variable.|
+    |Type|[Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md) of the variable.|
     |Create roles|User type that can create values for the variable.|
     |Write roles|User type that can edit values for the variable.|
     |Read roles|User type that can read values for the variable.|
@@ -77,5 +77,5 @@ Role required: admin or catalog\_admin
 10. To close the pane, click the Close icon \(\[Omitted image "CloseLog.png"\] Alt text: Close icon \).
 
 
-**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/debugging-service-catalog.md)
 

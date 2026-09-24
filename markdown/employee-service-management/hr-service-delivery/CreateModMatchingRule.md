@@ -2,7 +2,7 @@
 title: Add or modify a matching rule
 description: You can add or modify a matching rule to assign HR cases to specific users or groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/CreateModMatchingRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/CreateModMatchingRule.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

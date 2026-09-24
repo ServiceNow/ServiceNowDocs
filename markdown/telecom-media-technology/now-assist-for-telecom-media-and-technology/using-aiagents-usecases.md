@@ -2,7 +2,7 @@
 title: Using agentic workflows in ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Use the ServiceNow Otto for TMT agentic workflows to complete tasks autonomously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/using-aiagents-usecases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/using-aiagents-usecases.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

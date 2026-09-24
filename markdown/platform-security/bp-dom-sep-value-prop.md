@@ -2,7 +2,7 @@
 title: Domain separation value proposition
 description: With domain separation, service providers can have a multitenant instance architecture that delivers offerings efficiently and securely to their clients. Strong universal process standards, data-driven process design, strict governance, and centralized administration help to maximize these benefits.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-dom-sep-value-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-dom-sep-value-prop.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -32,5 +32,5 @@ Here is an quick view of these benefits.
 |Data segregation|Services provided by the instance owner|
 |Global reporting| |
 
-**Parent Topic:**[Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md)
+**Parent Topic:**[Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-what-is-domain-separation.md)
 

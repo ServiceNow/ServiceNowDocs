@@ -2,7 +2,7 @@
 title: Create a dynamic report
 description: After running a saved query in the CMDB Query Builder, create a dynamic report that continuously updates to show the latest query results. You can use a dynamic report as any other report created using Reporting and you can add it to Performance Analytics dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-dynamic-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/create-dynamic-report.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

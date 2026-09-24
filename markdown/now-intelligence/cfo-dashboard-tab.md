@@ -2,7 +2,7 @@
 title: Chief Financial Officer Dashboard pillars
 description: Organizing insights into these five pillars promotes CFO focus on delivering value quickly, improving productivity and optimizing risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cfo-dashboard-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/cfo-dashboard-tab.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

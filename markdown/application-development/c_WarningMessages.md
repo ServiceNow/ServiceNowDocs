@@ -2,7 +2,7 @@
 title: Contextual development edit messages
 description: The platform displays a message if you attempt to edit a Store Application record when you're in a different application scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/c\_WarningMessages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_WarningMessages.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure Advanced Work Assignment chat queue
 description: Create or modify the default chat queue for UR in Advanced Work Assignment automatically assign work items to your agents, based on their availability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-config-awa-queue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-config-awa-queue.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -36,5 +36,5 @@ Ensure that you have activated the Agent Chat \(com.glide.interaction.awa\) plug
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Chat queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-chat-queues.md)
+**Parent Topic:**[Configure Chat queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/config-chat-queues.md)
 

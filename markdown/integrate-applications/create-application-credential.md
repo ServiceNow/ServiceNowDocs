@@ -2,7 +2,7 @@
 title: Create an application credential in RPA Hub
 description: Create an application credential to add the application user name and password. An unattended robot can use this application credential to log in to an application when the automation is executed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-application-credential.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-application-credential.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,15 +16,15 @@ Create an application credential to add the application user name and password. 
 
 ## Before you begin
 
-Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/credential-management-rpa-hub.md).
+Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/credential-management-rpa-hub.md).
 
-Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess-config.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-botprocess-config.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/select-botprocess.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_business\_user, or sn\_rpa\_fdn.rpa\_admin
 
 ## About this task
 
-You can't delete an application credential when the life-cycle stage status of the associated bot process is set to **Published**. For more information, see [Life-cycle stage statuses \(LLCS\) of a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/lifecycle-stages-botprocess.md).
+You can't delete an application credential when the life-cycle stage status of the associated bot process is set to **Published**. For more information, see [Life-cycle stage statuses \(LLCS\) of a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/lifecycle-stages-botprocess.md).
 
 You can't edit the **Name** and **Application Name** fields when the life-cycle stage status of the associated bot process is set to **Published**. You can edit the application password irrespective of what the life-cycle stage is of the associated bot process.
 
@@ -35,9 +35,9 @@ If an application credential uses an external credential vault, make sure that t
 In RPA Hub, you can retrieve the robot credentials, application credentials, or a Time-based One-time Password \(TOTP\) seed in two ways:
 
 -   From ServiceNow credentials record \(application credential, robot credential, or TOTP authenticator\).
--   From an external credential vault. For more information, see [External credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/external-credentials-rpa.md).
+-   From an external credential vault. For more information, see [External credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/external-credentials-rpa.md).
 
-If the **External Credential** check box is selected in an application credential record, then the **SetApplicationCredential** component in RPA Desktop Design Studio doesn’t set the credentials and an error is displayed. For more information about the component, see [Use the SetApplicationCredential component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-credentials-setappcredential.md).
+If the **External Credential** check box is selected in an application credential record, then the **SetApplicationCredential** component in RPA Desktop Design Studio doesn’t set the credentials and an error is displayed. For more information about the component, see [Use the SetApplicationCredential component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-credentials-setappcredential.md).
 
 ## Procedure
 
@@ -123,7 +123,7 @@ JSON that acts as an input to the subflow mapped in the selected external creden
 
 The value must be in a JSON format. You can’t enter an empty JSON value.
 
-For more information about the JSON, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/config-ext-cred-rpa.md).
+For more information about the JSON, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/config-ext-cred-rpa.md).
 
 This field appears only when the **External Credential** option is selected.
 

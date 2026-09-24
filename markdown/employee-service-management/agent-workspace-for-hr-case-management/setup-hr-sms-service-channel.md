@@ -2,7 +2,7 @@
 title: Set up HR Service Delivery Conversational SMS service channel
 description: Configure the Conversational SMS service channel store app for HR Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/setup-hr-sms-service-channel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/setup-hr-sms-service-channel.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

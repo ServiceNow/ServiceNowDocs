@@ -2,7 +2,7 @@
 title: SSHCommand path
 description: The SSHCommand probe computes the default path from the following sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_SSHCommandPath.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c\_SSHCommandPath.html
 release: australia
 product: Discovery
 classification: discovery
@@ -31,5 +31,5 @@ By default, the MID Server searches for SSH commands in the following paths:
 -   /bin
 -   /sbin
 
-**Parent Topic:**[SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SSHCommandProbe.md)
+**Parent Topic:**[SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_SSHCommandProbe.md)
 

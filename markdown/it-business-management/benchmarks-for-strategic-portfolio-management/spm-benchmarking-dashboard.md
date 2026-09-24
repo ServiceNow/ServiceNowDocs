@@ -2,7 +2,7 @@
 title: SPM Benchmarks dashboard
 description: View and learn about the SPM Benchmarks dashboard features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/benchmarks-for-strategic-portfolio-management/spm-benchmarking-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/benchmarks-for-strategic-portfolio-management/spm-benchmarking-dashboard.html
 release: australia
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
@@ -42,5 +42,5 @@ The SPM Benchmarks dashboard enables you to do the following.
     -   **Number of users**- Select this option to compare your data based on the number of users.
     -   **Region**- Select this option to compare your data based on the region.
 
-**Parent Topic:**[Exploring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/exploring-benchmarks.md)
+**Parent Topic:**[Exploring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/benchmarks-for-strategic-portfolio-management/exploring-benchmarks.md)
 

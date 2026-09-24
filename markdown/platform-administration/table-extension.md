@@ -2,7 +2,7 @@
 title: Table extension
 description: Partition and preserve data sets for extended periods without overwriting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-extension.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-extension.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,10 +25,10 @@ Table extension partitions data across tables, which allows you to archive data 
 
 Table extension requires a union query when you query for a time range that spans multiple tables. Union queries are less efficient than queries against a single table. Improperly configured table extensions can cause the system to query across multiple extension tables unnecessarily, resulting in slower query performance and higher database load.
 
--   **[Apply table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TableExtensionExample.md)**  
+-   **[Apply table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_TableExtensionExample.md)**  
 Preserve data sets using table extension.
 
-**Parent Topic:**[Applying database rotation techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseRotation.md)
+**Parent Topic:**[Applying database rotation techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_DatabaseRotation.md)
 
 **Related topics**  
 

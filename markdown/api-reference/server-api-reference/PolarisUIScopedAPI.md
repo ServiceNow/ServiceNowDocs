@@ -2,7 +2,7 @@
 title: PolarisUI - Scoped
 description: The PolarisUI API provides methods for enabling Next Experience on direct UI pages.Checks if the current page can use the Next Experience UI.Returns a list of CSS class names used by the Next Experience UI.Checks if the Next Experience UI is enabled for the current user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PolarisUIScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/PolarisUIScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -24,7 +24,7 @@ For more information about Next Experience, see [the Next Experience UI](https:/
 
 The PolarisUI API is provided within the `sn_ui` namespace.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## PolarisUI - canUsePolarisCSS\(\)
 
@@ -37,7 +37,7 @@ This method returns `true` if all of the following conditions are met.
 -   The referrer HTTP request header does not contain `sysparm_use_polaris=false`.
 -   The page or its parent plugin are not denied use of Next Experience by a record in the Page Theme Support \[sys\_page\_theme\] table.
 
-Use this method to conditionally change behavior or [jelly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md) output if Next Experience is enabled.
+Use this method to conditionally change behavior or [jelly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_JellyTags.md) output if Next Experience is enabled.
 
 |Name|Type|Description|
 |----|----|-----------|

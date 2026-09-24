@@ -2,7 +2,7 @@
 title: Tables installed with License and Permit Playbook
 description: This section describes the tables installed with the License and Permit Playbook application and shows how they store and manage information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-lp-playbook-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-data-model-lp-playbook-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -137,5 +137,5 @@ Contains the details of license and permit items that have been issued or receiv
 Install Base Item \(sn\_install\_base\_item\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services License and Permit Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-lp-playbook.md)
+</table>**Parent Topic:**[Public Sector Digital Services License and Permit Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-data-model-lp-playbook.md)
 

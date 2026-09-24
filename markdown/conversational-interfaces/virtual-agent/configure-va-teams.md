@@ -2,7 +2,7 @@
 title: Manage the ServiceNow Virtual Agent integration with Microsoft Teams
 description: Manage your ServiceNow Virtual Agent bot branding and customize the bot messages in your ServiceNow instance after integration with Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-va-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-va-teams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -44,12 +44,12 @@ Manage your ServiceNow® Virtual Agent bot branding and customize the bot messag
 
 6.  Select the **Branding** tab to brand your Now Virtual Agent bot.
 
-    For more information about branding your bot, see [Configure branding for your ServiceNow Virtual Agent bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-msteams-branding.md).
+    For more information about branding your bot, see [Configure branding for your ServiceNow Virtual Agent bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-msteams-branding.md).
 
 7.  Select the **Bot Messages** tab to create and edit a bot message.
 
-    For more information, see [Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-bot-messages.md).
+    For more information, see [Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-bot-messages.md).
 
 
-**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-msteams.md)
 

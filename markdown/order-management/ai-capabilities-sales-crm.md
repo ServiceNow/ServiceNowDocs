@@ -2,7 +2,7 @@
 title: AI capabilities in Sales CRM
 description: Sales CRM includes generative and agentic AI capabilities that helps you automate sales workflows and enables sales teams to work more efficiently within your CRM environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/ai-capabilities-sales-crm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/ai-capabilities-sales-crm.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
@@ -36,28 +36,28 @@ Each ServiceNow Otto plugin packages the individual AI plugins and required depe
 
 |Benefit|Feature|Store plugin|Used with|
 |-------|-------|------------|---------|
-|Manage the lead life cycle using an agentic workflow.|[Nurturing leads using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/help-nurture-new-leads-agentic-workflow.md)|Sales Development AI Agents \(com.sn\_sd\_ai\_agents\)|Lead Management|
-|Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using natural language.|[CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md)|Opportunity Management AI Features \(com.sn\_opty\_mgmt\_ai\)|Opportunity Management|
-|Get an immediate view of key details, customer needs, recent activity, and risks about an opportunity without reviewing multiple records.|[Summarize opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-som-summarize-opportunity.md)|Opportunity Management AI Features \(com.sn\_opty\_mgmt\_ai\)|Opportunity Management|
-|Score opportunities, surface risk signals, and deliver qualitative insights that help sellers and leaders make faster, more confident decisions using machine learning.|[View opportunity scores and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-opty-scores-insights.md)|Opportunity Management ML \(sn\_opty\_mgmt\_ml\)|Opportunity Management|
-|Associate sales emails with CRM records using AI-powered workflow.|[AI sales activity association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-ai-sales-activity-association.md)|AI sales activity association \(com.sn\_act\_assoc\_agent\)|Activity Management|
+|Manage the lead life cycle using an agentic workflow.|[Nurturing leads using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/help-nurture-new-leads-agentic-workflow.md)|Sales Development AI Agents \(com.sn\_sd\_ai\_agents\)|Lead Management|
+|Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using natural language.|[CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-opportunity-records.md)|Opportunity Management AI Features \(com.sn\_opty\_mgmt\_ai\)|Opportunity Management|
+|Get an immediate view of key details, customer needs, recent activity, and risks about an opportunity without reviewing multiple records.|[Summarize opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/now-assist-som-summarize-opportunity.md)|Opportunity Management AI Features \(com.sn\_opty\_mgmt\_ai\)|Opportunity Management|
+|Score opportunities, surface risk signals, and deliver qualitative insights that help sellers and leaders make faster, more confident decisions using machine learning.|[View opportunity scores and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-opty-scores-insights.md)|Opportunity Management ML \(sn\_opty\_mgmt\_ml\)|Opportunity Management|
+|Associate sales emails with CRM records using AI-powered workflow.|[AI sales activity association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-ai-sales-activity-association.md)|AI sales activity association \(com.sn\_act\_assoc\_agent\)|Activity Management|
 
 ## ServiceNow Otto for CPQ
 
 |Benefit|Feature|Store plugin|Used with|
 |-------|-------|------------|---------|
-|Generate a consolidated report of a quote record to quickly understand the quote without manually reviewing multiple fields, line items, or related records.|[Summarize a quote using quote summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/summarize-quote.md)|Summarization for Quote Management \(com.sn\_qut\_sum\_skill\)|Quote Experience|
-|Automate and streamline the sales quote creation and modification process by using AI to detect quote needs from triggers like opportunity stage changes and keywords.|[Manage quotes using the Quote AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-quote-using-quote-ai-agent.md)|Summarization for Quote Management \(com.sn\_qut\_sum\_skill\)|Quote Experience|
-|Enable agents to submit quotes for approval and approvers to take action on approval requests directly from their MCP client, such as the Claude Desktop application.|[Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-advanced-approval-mgmt-ai.md)|Advanced Approval Management AI \(sn\_adv\_apr\_mgt\_ai\)|Advanced Approval Management|
+|Generate a consolidated report of a quote record to quickly understand the quote without manually reviewing multiple fields, line items, or related records.|[Summarize a quote using quote summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/summarize-quote.md)|Summarization for Quote Management \(com.sn\_qut\_sum\_skill\)|Quote Experience|
+|Automate and streamline the sales quote creation and modification process by using AI to detect quote needs from triggers like opportunity stage changes and keywords.|[Manage quotes using the Quote AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-quote-using-quote-ai-agent.md)|Summarization for Quote Management \(com.sn\_qut\_sum\_skill\)|Quote Experience|
+|Enable agents to submit quotes for approval and approvers to take action on approval requests directly from their MCP client, such as the Claude Desktop application.|[Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-advanced-approval-mgmt-ai.md)|Advanced Approval Management AI \(sn\_adv\_apr\_mgt\_ai\)|Advanced Approval Management|
 
 ## ServiceNow Otto for Order Management benefits
 
 |Benefit|Feature|Store app|Used with|
 |-------|-------|---------|---------|
-|Make more accurate and faster decisions and improve customer responsiveness by generating order summaries for complex orders.|[Summarize orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-mgmt-summarize-order.md)|Summarization for Order Management \(com.sn\_ord\_sum\_skill\)|Order Management|
-|Improve productivity of order agents by enabling them to update order and order line details in bulk.|[Manage order updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/bulk-update-order-lines-with-now-assist.md)|Assist Order Management AI Agent \(com.sn\_order\_cap\_aias\)|Order Management|
-|Enable B2B customers to request changes to orders via chat and voice options.|[Manage order operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)|Manage Order Operations \(com.sn\_ord\_ops\_aias\)|Business Portal|
-|Enable B2B customers to dispute invoices using chat and voice options.|[Manage invoice operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)|Manage Invoice Operations \(com.sn\_inv\_ops\_aias\)|Business Portal|
+|Make more accurate and faster decisions and improve customer responsiveness by generating order summaries for complex orders.|[Summarize orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/now-assist-order-mgmt-summarize-order.md)|Summarization for Order Management \(com.sn\_ord\_sum\_skill\)|Order Management|
+|Improve productivity of order agents by enabling them to update order and order line details in bulk.|[Manage order updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/bulk-update-order-lines-with-now-assist.md)|Assist Order Management AI Agent \(com.sn\_order\_cap\_aias\)|Order Management|
+|Enable B2B customers to request changes to orders via chat and voice options.|[Manage order operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-business-portal.md)|Manage Order Operations \(com.sn\_ord\_ops\_aias\)|Business Portal|
+|Enable B2B customers to dispute invoices using chat and voice options.|[Manage invoice operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-business-portal.md)|Manage Invoice Operations \(com.sn\_inv\_ops\_aias\)|Business Portal|
 
 **Important:**
 
@@ -68,7 +68,7 @@ Each ServiceNow Otto plugin packages the individual AI plugins and required depe
 
 ## What to do next
 
-Install and configure the AI plugins to enable generative and agentic AI features that support Sales CRM workflows. For more information, see [Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-ai-capabilities-sales-crm.md).
+Install and configure the AI plugins to enable generative and agentic AI features that support Sales CRM workflows. For more information, see [Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-ai-capabilities-sales-crm.md).
 
 ## Troubleshoot and get help
 

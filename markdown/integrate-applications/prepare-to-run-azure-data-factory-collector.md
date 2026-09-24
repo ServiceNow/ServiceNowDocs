@@ -2,7 +2,7 @@
 title: Prepare to run the Azure Data Factory collector
 description: Set up Azure data assets, authentication, and permissions before running the collector.Register an Azure application and create a client secret for Service Principal authentication.Obtain Azure subscription and tenant IDs for collector configuration.Grant Reader role to the Service Principal for Azure Data Factory access.Import dataset schemas to enable column and lineage harvesting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-azure-data-factory-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-azure-data-factory-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,22 +26,22 @@ The collector uses Azure Service Principal for authentication. You must register
 
 1.  Register an application in Azure Active Directory and create credentials.
 
-    See [Register application and create client secret](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-azure-data-factory-collector.md).
+    See [Register application and create client secret](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-azure-data-factory-collector.md).
 
 2.  Obtain required Azure IDs.
 
-    See [Obtain subscription and tenant IDs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-azure-data-factory-collector.md).
+    See [Obtain subscription and tenant IDs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-azure-data-factory-collector.md).
 
 3.  Grant Service Principal access to Data Factory data assets.
 
-    See [Grant Service Principal access to Data Factory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-azure-data-factory-collector.md).
+    See [Grant Service Principal access to Data Factory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-azure-data-factory-collector.md).
 
 4.  Prepare datasets for lineage harvesting.
 
-    See [Prepare to harvest lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-azure-data-factory-collector.md).
+    See [Prepare to harvest lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-azure-data-factory-collector.md).
 
 
-**Parent Topic:**[Azure Data Factory metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/azure-data-factory-metadata-collector.md)
+**Parent Topic:**[Azure Data Factory metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/azure-data-factory-metadata-collector.md)
 
 ## Register application and create client secret
 

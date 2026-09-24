@@ -2,7 +2,7 @@
 title: Zero-day vulnerability tracking
 description: Learn how to analyze RSS Feeds coming into the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-zero-vul.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-zero-vul.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -48,7 +48,7 @@ Whenever a new RSS Feed is created into the system, and it has a mention of ‘Z
     2.  Notify the concerned TISC Teams and VR Teams.
 
 
-**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 

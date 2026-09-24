@@ -2,7 +2,7 @@
 title: Reject a claims
 description: Reject a claims that was raised by the dealer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-reject-all-sp-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-reject-all-sp-claims.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales promotion**.
 
-    **Note:** To learn how to create and navigate to the Review &amp; approve form, see [Create a sales promotion claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-sls-pro-claim-case.md).
+    **Note:** To learn how to create and navigate to the Review &amp; approve form, see [Create a sales promotion claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-sls-pro-claim-case.md).
 
 2.  Select **Review &amp; approve** from **Activities**.
 

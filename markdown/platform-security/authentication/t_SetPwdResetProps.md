@@ -2,7 +2,7 @@
 title: Configure Password Reset properties
 description: You can specify properties that configure the Password Reset experience for end users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SetPwdResetProps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_SetPwdResetProps.html
 release: australia
 product: Authentication
 classification: authentication

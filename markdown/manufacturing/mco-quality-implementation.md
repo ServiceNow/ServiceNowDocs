@@ -2,7 +2,7 @@
 title: Quality implementation
 description: A product non-conformance case \(PNCC\) captures a reported quality issue, and a product quality investigation \(PQI\) analyzes its root cause for resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-quality-implementation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-quality-implementation.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-13"

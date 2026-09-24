@@ -2,7 +2,7 @@
 title: Integrating Threekit visualization
 description: Integrate Threekit for visualization. Sync configuration inputs with visual updates to enhance user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/threekit-visualization-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/threekit-visualization-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ Notes:
 -   `apiSubdomain`: The subdomain of your Threekit environment URL.
 -   `eventFields` contains key-value pairs where each key is the variable names of the CPQ field passed to Threekit. The corresponding values are the variable names, as defined in Threekit.
 
-To learn more about the use of Threekit visualization with a set repeater, see [Use case: Pairing set repeaters and visualization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-case-pairing-set-repeaters-and-visualization-components.md)
+To learn more about the use of Threekit visualization with a set repeater, see [Use case: Pairing set repeaters and visualization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-case-pairing-set-repeaters-and-visualization-components.md)
 
-For a discussion of the features available in supported visualization applications in integration with CPQ, see [Integrating CPQ with visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik-io-integration-wtih-visualization-tools.md).
+For a discussion of the features available in supported visualization applications in integration with CPQ, see [Integrating CPQ with visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/logik-io-integration-wtih-visualization-tools.md).
 

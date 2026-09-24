@@ -2,7 +2,7 @@
 title: Contract analysis states
 description: The ServiceNow Otto for Contract Management Pro analysis follows a workflow and moves through a series of states, which are displayed in the contract request. The contract analysis details are available in the activity stream and are also communicated by an email notification to the contract fulfiller, contract collaborator, and assignment group manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-states.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -41,5 +41,5 @@ The following table describes the status of the documents in the Analyze contrac
 |Analysis in progress|Analysis is in progress.|
 |Error|Error occurred while evaluating the details for the contract analysis.|
 
-**Parent Topic:**[Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
+**Parent Topic:**[Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
 

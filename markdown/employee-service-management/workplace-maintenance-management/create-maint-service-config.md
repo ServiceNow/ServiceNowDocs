@@ -2,7 +2,7 @@
 title: Create plan service configuration
 description: Configure a plan service to associate workplace services and set scheduling conditions for a plan record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/create-maint-service-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-maintenance-management/create-maint-service-config.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -34,7 +34,7 @@ Role required: admin
 
         Select the lookup list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup list icon.\) and workplace service for a plan record. For example: Cleaning desk.
 
-        For more information, see [Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-workplace-services.md).
+        For more information, see [Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-workplace-services.md).
 
     2.  Order: Integer-based value.
 
@@ -46,7 +46,7 @@ Role required: admin
 
         \[Omitted image "wsd-schedule-conditions-plan-service-config.png"\] Alt text: Create plan service configuration.
 
-        For more information about Workplace services, see [Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-workplace-services.md).
+        For more information about Workplace services, see [Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-workplace-services.md).
 
         .
 
@@ -62,7 +62,7 @@ Role required: admin
 
         \[Omitted image "workplace-template-configuration-new.png"\] Alt text: Workplace template configuration form showing workplace service for a plan record.
 
-        For more information, see [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md) and [Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-cases.md).
+        For more information, see [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md) and [Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-cases.md).
 
 4.  Select **Save**.
 
@@ -78,12 +78,12 @@ Role required: admin
 
     This record is updated in the Workplace Maintenance Service Configuration table.
 
-    For more information, see [Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-cases.md).
+    For more information, see [Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-cases.md).
 
 
-**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
+**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
-**Previous topic:**[Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-workplace-services.md)
+**Previous topic:**[Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-workplace-services.md)
 
-**Next topic:**[Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-cases.md)
+**Next topic:**[Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-cases.md)
 

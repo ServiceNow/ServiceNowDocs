@@ -2,7 +2,7 @@
 title: Increase the allowed number of breadcrumb entries
 description: You can add a property to allow for a larger number of breadcrumb entries in the filter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/increase-breadcrumb-entries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/increase-breadcrumb-entries.html
 release: australia
 product: List Administration
 classification: list-administration

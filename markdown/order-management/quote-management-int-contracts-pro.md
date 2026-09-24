@@ -2,7 +2,7 @@
 title: Quote Management integration with Contract Management Pro
 description: The Quote Management integration with Contract Management Pro is known as Contract Management for Sales CRM \(com.sn\_som\_clm\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-int-contracts-pro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-int-contracts-pro.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,11 +29,11 @@ A contract generation process consists of the following steps:
     -   **Inititate Contract** UI action is visible only when a quote is in Completed state.
     -   After you submit the contract creation form, it creates a contract request record.
     -   The new contract request triggers the workflow to generate the legal sales contract.
-    To learn more, see [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-create-contract.md).
+    To learn more, see [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-create-contract.md).
 
 -   When the contract workflow is complete, the state of the contract request is changed to Closed complete.
 
 ## What to do next
 
-To learn more, see [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-integrate-contract-management.md).
+To learn more, see [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-integrate-contract-management.md).
 

@@ -2,7 +2,7 @@
 title: Data normalization
 description: Data extracted from documents is converted into a standard format. This ensures that values appear consistently across all fields, making the data easier to group, analyze, and integrate with other applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/data-normalization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/data-normalization.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -91,5 +91,5 @@ For example, consider a use case with a Date field. The default interpretation o
 
 In such cases, you may need to confirm or correct the interpretation of ambiguous dates. Depending on the configuration of the field within the use case, automated document processing may pause so you can verify that the conversion is accurate.
 
-**Parent Topic:**[Content Understanding Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-reference.md)
+**Parent Topic:**[Content Understanding Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/content-understanding-reference.md)
 

@@ -2,7 +2,7 @@
 title: Create announcements
 description: Create announcements to highlight important content on the EmployeeWorks Web App home page, such as new policies, required actions, or featured knowledge articles as a carousel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-create-employee-slate-announcement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-create-employee-slate-announcement.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,7 +26,7 @@ Role required: content\_manager or content\_admin
 You can create announcements from scratch or from existing knowledge articles and catalog items in one of the following ways.
 
 -   Manual creation: Create announcements from scratch by entering all content manually in the editor view.
--   Conversational authoring: Prompt, chat, and generate announcements from existing knowledge articles or catalog items. For more information, see [Create an announcement using Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md).
+-   Conversational authoring: Prompt, chat, and generate announcements from existing knowledge articles or catalog items. For more information, see [Create an announcement using Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md).
 
 ## Procedure
 
@@ -84,7 +84,7 @@ You can create announcements from scratch or from existing knowledge articles an
 
     The announcement appears in the Employee Comms widget according to the priority and freshness algorithm.
 
-    **Note:** For a list of fields, see [Announcement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-employee-slate-announcement-fields.md).
+    **Note:** For a list of fields, see [Announcement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-employee-slate-announcement-fields.md).
 
     **Note:** Publishing creates a version of the announcement and locks the published content from further inline edits.
 
@@ -110,7 +110,7 @@ After publishing an announcement, you can manage versions and visibility:
 **Related topics**  
 
 
-[Create an announcement using Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md)
+[Create an announcement using Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md)
 
-[Conversational authoring for announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-conversational-authoring-announcements.md)
+[Conversational authoring for announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-conversational-authoring-announcements.md)
 

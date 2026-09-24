@@ -2,7 +2,7 @@
 title: Communication form
 description: Field descriptions on the form for a communication task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/create-new-communication-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/create-new-communication-form.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -73,5 +73,5 @@ Recipients
 People who receive the communication.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/critical-event-management-reference.md)
+</table>**Parent Topic:**[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/critical-event-management-reference.md)
 

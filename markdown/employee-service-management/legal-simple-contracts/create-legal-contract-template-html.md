@@ -2,7 +2,7 @@
 title: Create a legal contract template of type HTML
 description: Create a document template of type HTML.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/create-legal-contract-template-html.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/create-legal-contract-template-html.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts

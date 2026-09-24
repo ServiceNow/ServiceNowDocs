@@ -2,7 +2,7 @@
 title: Automating system responses to inbound email
 description: Save time from responding to emails manually when you configure your instance to send replies, create incidents, or update records automatically in response to inbound emails.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/processing-inbound-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/processing-inbound-emails.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ Save time from responding to emails manually when you configure your instance to
 You can define system responses to inbound emails in two ways:
 
 -   Create an inbound email flow in Workflow Studio
--   Script an [inbound email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md)
+-   Script an [inbound email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_InboundEmailActions.md)
 
 ## Inbound email trigger in Workflow Studio
 

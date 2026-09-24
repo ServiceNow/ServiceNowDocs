@@ -2,7 +2,7 @@
 title: Bulk edit in the Security Exposure Management Workspace
 description: In the Security Exposure Management Workspace, the bulk edit feature enables you to update multiple findings simultaneously, streamlining the management and remediation process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-workspace-bulk-edit-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-workspace-bulk-edit-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,14 +20,14 @@ Roles required:
 
 You can perform the following tasks using the bulk edit feature in the Security Exposure Management Workspace:
 
--   [Assign records to an assignment group in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-assign.md)
--   [Request bulk exception in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-exception.md)
--   [Remove assignments for host vulnerable items in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md)
--   [Bulk edit for false positive in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md)
--   [Close records in bulk in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-close-records.md)
+-   [Assign records to an assignment group in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-assign.md)
+-   [Request bulk exception in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-exception.md)
+-   [Remove assignments for host vulnerable items in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md)
+-   [Bulk edit for false positive in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md)
+-   [Close records in bulk in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-close-records.md)
 
--   **[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)**  
+-   **[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-using-bulk-edit.md)**  
 Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, and assign multiple findings to an assignment group simultaneously.
 
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

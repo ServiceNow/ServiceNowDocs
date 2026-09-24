@@ -2,7 +2,7 @@
 title: Remove assignments from remediation tasks for you or your groups
 description: Reassign the test result records in the Configuration Compliance application if the records have been incorrectly assigned to you or your group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-unassign-trg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/cc-unassign-trg.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -42,11 +42,11 @@ The **Unassign** button is displayed on remediation task records in any state ot
 
 ## Result
 
-The request is approved by using a default, one-level approval workflow. For more information, see [Approve an unassign request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/approve-an-unassign-request-in-configuration-compliance.md).
+The request is approved by using a default, one-level approval workflow. For more information, see [Approve an unassign request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/approve-an-unassign-request-in-configuration-compliance.md).
 
 -   If your request is approved, the state change approval record and the requested approval record transition to **Approved**. You and your groups are removed from the **Assigned to** and **Assignment group** fields. `Unassigned` is displayed in the **Assignment type** field, and the remediation task is displayed on the list of the Unassigned module for the Configuration Compliance application.
 
-    Notifications that records are unassigned are sent automatically to vulnerability managers or analysts in the Unassign notification group. For more information about the notifications and the properties for this feature, see [Removing assignments from Configuration Compliance test result groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-unassigninng-trg.md).
+    Notifications that records are unassigned are sent automatically to vulnerability managers or analysts in the Unassign notification group. For more information about the notifications and the properties for this feature, see [Removing assignments from Configuration Compliance test result groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/cc-unassigninng-trg.md).
 
 -   If your request is rejected, the state change approval record and the requested approval record transition to Rejected.
 

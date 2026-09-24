@@ -2,7 +2,7 @@
 title: Create and manage sold products for a business organization
 description: Staff members with the location agent role can manage sold products for their business organizations \(formerly business locations\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-sp-for-business-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-sp-for-business-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_manager, sn\_customerservice.svc\_location\_
 
 Staff members with the sn\_customerservice\_manager role can create sold products by choosing the appropriate product model. In contrast, staff members with the sn\_customerservice.svc\_location\_agent role can only view the list of sold products installed at any service organization.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
@@ -83,5 +83,5 @@ Internal or external entity that is involved in providing service to the custome
 **Related topics**  
 
 
-[Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sold-item.md)
+[Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-sold-item.md)
 

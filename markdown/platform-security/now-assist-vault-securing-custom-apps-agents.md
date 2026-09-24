@@ -2,7 +2,7 @@
 title: Securing custom apps with the Vault agents agentic workflow
 description: Use the securing custom apps with Vault agents agentic workflow to get recommended data classifications and available protections for a custom application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/now-assist-vault-securing-custom-apps-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/now-assist-vault-securing-custom-apps-agents.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-23"
@@ -56,5 +56,5 @@ Uses various tools to perform the following:-   Analyzes the table schema and it
 </td></tr></tbody>
 </table>There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
-**Parent Topic:**[Use agentic AI in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
+**Parent Topic:**[Use agentic AI in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/use-now-assist-vault-agentic-ai.md)
 

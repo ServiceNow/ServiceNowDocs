@@ -2,7 +2,7 @@
 title: Configure special handling notes summarization in ServiceNow Otto for Customer Service Management \(CSM\)
 description: Activate the Special Handling Notes summarization skill to enable ServiceNow Otto for CSM to generate concise summaries of special handling notes on the Case Insights section.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-special-handling-notes-summarization-in-now-assist-for-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/configure-special-handling-notes-summarization-in-now-assist-for-csm.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

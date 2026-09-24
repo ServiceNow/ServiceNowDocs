@@ -2,7 +2,7 @@
 title: Quick start tests for Leader Hub
 description: Validate that Leader Hub still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/quick-start-tests-leader-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/quick-start-tests-leader-hub.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -70,12 +70,12 @@ Release version
 Xanadu
 
 </td></tr></tbody>
-</table>To learn more about Leader Hub, see [Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-landing.md).
+</table>To learn more about Leader Hub, see [Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-landing.md).
 
--   **[Run quick start tests for Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-run-quick-start-tests.md)**  
+-   **[Run quick start tests for Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-run-quick-start-tests.md)**  
 Run quick start tests to verify the Leader Hub app still works after each upgrade and deployment of new applications or integrations. If you customized Leader Hub, you must configure the quick start tests to ensure they're compatible with your customizations.
 
-**Parent Topic:**[Installing and configuring Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-install-config.md)
+**Parent Topic:**[Installing and configuring Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-install-config.md)
 
 **Related topics**  
 

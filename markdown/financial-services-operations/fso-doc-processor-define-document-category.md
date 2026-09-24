@@ -2,7 +2,7 @@
 title: Define a document category
 description: Define document categories to categorize the different document types that are used across Financial Services Operations applications. An example of a document category could be Proof of Identity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-doc-processor-define-document-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-doc-processor-define-document-category.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Role required: sn\_doc\_processor.admin
 
 ## What to do next
 
-[Associate document types to a document category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/doc-processor-associate-document-types-to-category.md)
+[Associate document types to a document category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/doc-processor-associate-document-types-to-category.md)
 
-**Parent Topic:**[Configuring Financial Services Operations Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-fso-document-processor.md)
+**Parent Topic:**[Configuring Financial Services Operations Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-fso-document-processor.md)
 

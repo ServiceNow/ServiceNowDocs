@@ -2,7 +2,7 @@
 title: Alerts in Service Operations Workspace
 description: The Service Operations Workspace interface displays an alerts list and details on specific alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-alert-workspace-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/view-alert-workspace-itom.html
 release: australia
 product: Event Management
 classification: event-management

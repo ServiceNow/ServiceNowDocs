@@ -2,7 +2,7 @@
 title: Planning AI work from Inventory in AI Control Tower
 description: View all planning data for a specific AI system in one location. The Plan tab automatically filters goals, intake items, and delivery records to show only those linked to your selected AI system across Strategize, Prioritize, and Execute workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-inventory-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-inventory-plan.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-29"
@@ -49,7 +49,7 @@ The Strategize sub-tab displays the Goal and Target lists, both filtered to show
 |Goal|sn\_gf\_goal|Goals where the product model matches the product model of the selected AI system.|
 |Target|sn\_gf\_goal\_target|Targets where the product model matches the product model of the selected AI system.|
 
-To edit a goal or target record, see [Edit a strategize record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-edit-a-strategize-record.md).
+To edit a goal or target record, see [Edit a strategize record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-edit-a-strategize-record.md).
 
 ## Prioritize
 
@@ -61,7 +61,7 @@ The Prioritize sub-tab displays the Demand, Feedback, and Product idea lists, al
 |Feedback|sn\_align\_core\_feedback|Feedback records where the product model matches the product model of the selected AI system.|
 |Product idea|sn\_align\_core\_product\_idea|Product ideas where the product model matches the product model of the selected AI system.|
 
-To create an intake record, see [Create an intake record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-create-intake-record.md). To edit an existing intake record, see [Manage intake records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-edit-an-intake-record.md).
+To create an intake record, see [Create an intake record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-create-intake-record.md). To edit an existing intake record, see [Manage intake records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-edit-an-intake-record.md).
 
 ## Execute
 
@@ -72,12 +72,12 @@ The Execute sub-tab displays the Project and Epic lists, both filtered to show o
 |Project|pm\_project|Projects where the product model matches the product model of the selected AI system.|
 |Epic|sn\_align\_core\_scrum\_epic|Epics where the product model matches the product model of the selected AI system.|
 
-To create a project or epic, see [Create a project or epic in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-create-project-or-epic.md). To edit an existing project or epic, see [Edit a project or epic in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-edit-project-or-epic.md).
+To create a project or epic, see [Create a project or epic in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-create-project-or-epic.md). To edit an existing project or epic, see [Edit a project or epic in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-edit-project-or-epic.md).
 
-**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-managing-ai-assets.md)
+**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-managing-ai-assets.md)
 
 **Related topics**  
 
 
-[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-using.md)
+[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-using.md)
 

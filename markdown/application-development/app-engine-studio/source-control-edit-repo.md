@@ -2,7 +2,7 @@
 title: Edit a Git repository configuration
 description: You can edit a Git repository's integration with App Engine Studio \(AES\) to change the network protocol selection, credentials or other field entries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-edit-repo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/source-control-edit-repo.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -94,5 +94,5 @@ Saved credentials to use for the source control connection. All application deve
 5.  Select **Save**.
 
 
-**Parent Topic:**[AES integration with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-integration.md)
+**Parent Topic:**[AES integration with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-source-control-integration.md)
 

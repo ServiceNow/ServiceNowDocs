@@ -2,7 +2,7 @@
 title: Enable external customers to create requests
 description: Enable your external customers to create and track requests from the Customer and Consumer Service Portals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-customer-request-from-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-customer-request-from-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Each submitted request generates a case, with the request record associated to t
 **Related topics**  
 
 
-[Create a request on behalf of a customer or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-create-request-for-customer.md)
+[Create a request on behalf of a customer or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/agent-create-request-for-customer.md)
 
-[Request an item or service from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-request-from-portal.md)
+[Request an item or service from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-request-from-portal.md)
 

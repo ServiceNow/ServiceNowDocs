@@ -2,7 +2,7 @@
 title: Use agentic AI in ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: Use agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -52,5 +52,5 @@ Looking for an AI agent?
 
 -   There may be AI agents installed with ServiceNow Otto that aren’t used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md)
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
--   For information on the standalone ServiceNow Otto for IRM AI agents, see [Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/standalone-ai-agents-in-risk-sustainability.md).
+-   For information on the standalone ServiceNow Otto for IRM AI agents, see [Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/standalone-ai-agents-in-risk-sustainability.md).
 

@@ -2,7 +2,7 @@
 title: Base Asset Management
 description: The ServiceNow Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/c\_AssetManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/c\_AssetManagement.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Asset management business practices have a common set of goals.
 
 Asset Management and the Configuration Management Database \(CMDB\) are related, but have different goals. Asset Management focuses on the financial tracking of company property. Configuration management focuses on building and maintaining elements that create an available network of services.
 
-**Parent Topic:**[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management-core.md)
+**Parent Topic:**[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/asset-management-core.md)
 
 **Related topics**  
 

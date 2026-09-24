@@ -2,7 +2,7 @@
 title: Add and publish best practices to the article
 description: Add your organization's custom best practices to the Catalog Best Practices article and publish them to make them available to the LLM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/add-and-publish-custom-catalog-item-best-practices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/add-and-publish-custom-catalog-item-best-practices.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -67,5 +67,5 @@ While editing the article, the previous published version remains active and is 
     Publishing immediately makes the article available to the LLM. The LLM reads only from the latest published version.
 
 
-**Parent Topic:**[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
+**Parent Topic:**[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
 

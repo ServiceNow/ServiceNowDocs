@@ -2,7 +2,7 @@
 title: Get a list of widgets per page
 description: Get a summary of all widgets that appear on Service Portal pages. Use this data to better understand widget customizations and page usage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/portal-analyzer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/portal-analyzer.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -49,7 +49,7 @@ Use the exported list to consider which pages and widgets to focus on while rede
     For more information on exporting list data, see [List export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/export-list-data.md).
 
 
-**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/using-portal-analytics.md)
+**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/using-portal-analytics.md)
 
 **Related topics**  
 

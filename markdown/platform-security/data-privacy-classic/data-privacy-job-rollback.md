@@ -2,7 +2,7 @@
 title: Data privacy job rollback
 description: Database changes are captured for actions like jobs and scripts so that the changes can be rolled back. Roll back a data privacy job for when human error inadvertently anonymizes incorrect user information. The rollback de-anonymizes the data from the data privacy job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/data-privacy-job-rollback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-privacy-classic/data-privacy-job-rollback.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic

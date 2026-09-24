@@ -2,7 +2,7 @@
 title: Getting started with the Asset library in Assistant Designer
 description: The Assistant Designer Asset library includes a diagram tool for creating and managing assets, which are blueprints for conversations between a Virtual Agent and a user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -29,21 +29,21 @@ You can also view and manage the following in Assistant Designer:
 
     -   Conversational subflows and actions are available in Assistant Designer only if ServiceNow Otto in Virtual Agent has been configured.
     -   Conversational subflows and actions are also shown in Assistant Designer if the ServiceNow Otto Panel is available. For more information on the ServiceNow Otto Panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
-    -   Conversational subflows and actions only appear to users during a conversation if the Subflows and actions skill is turned on in ServiceNow Otto Admin. For more information, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
+    -   Conversational subflows and actions only appear to users during a conversation if the Subflows and actions skill is turned on in ServiceNow Otto Admin. For more information, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
     **Note:** Conversational subflows and actions aren't applicable to the Virtual Agent Designer legacy topic cards page view.
 
 -   Custom skills
 
-    You can view custom skills created in AI Skill Kit through Assistant Designer. For more information, see [Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-custom-skills.md).
+    You can view custom skills created in AI Skill Kit through Assistant Designer. For more information, see [Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-custom-skills.md).
 
 -   AI agents
 
-    You can view AI agents created in AI Agent Studio through Assistant Designer. For more information, see [Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md).
+    You can view AI agents created in AI Agent Studio through Assistant Designer. For more information, see [Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md).
 
 
 Virtual Agent can use either large language model \(LLM\) or Natural Language Understanding \(NLU\) to match the user's request with the appropriate conversation or topic.
 
-With LLM topic discovery, you can use generative AI through ServiceNow Otto in Virtual Agent to match the user's request with the desired conversation or topic. With ServiceNow Otto in Virtual Agent, you can test and publish your models from within Assistant Designer. ServiceNow Otto in Virtual Agent uses LLMs and generative AI skills to improve deflection rates. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md).
+With LLM topic discovery, you can use generative AI through ServiceNow Otto in Virtual Agent to match the user's request with the desired conversation or topic. With ServiceNow Otto in Virtual Agent, you can test and publish your models from within Assistant Designer. ServiceNow Otto in Virtual Agent uses LLMs and generative AI skills to improve deflection rates. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-llm.md).
 
 With NLU/keyword topic discovery, the topic author associates the topic with an intent within an NLU model. An intent describes what the user wants to achieve. User utterances are matched with intents to determine the most appropriate topic for the user. Associating a topic with a model and intent is called mapping.
 
@@ -51,7 +51,7 @@ If you're using ServiceNow NLU/keyword topic discovery, then Assistant Designer 
 
 ## Assistant Designer Asset library
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 When you open Assistant Designer, the Asset library lists the assets in your instance. These assets include topics, topic blocks, setup topics, small talk topics, custom controls, subflows, actions, and AI agents.
 
@@ -66,7 +66,7 @@ In the Asset library, you can access and edit any of these assets, and create to
 -   Conversational subflows and actions are available in Assistant Designer if ServiceNow Otto for Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the ServiceNow Otto panel is available. For more information on the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 -   MCP Server capabilities that you add to an assistant are stored in the sys\_gen\_ai\_skills table at run time, the same underlying table used for other conversational assets. But they don't appear as an asset in the Asset library. MCP Servers aren't treated as a conversational asset, so you can only view and manage them from within the Assistant create/edit flow, in their own dedicated section. Because they don't appear in the Asset library, you can't update their Discoverable, Visible, or Promoted status.
 
-You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar \[Omitted image "search-icon.png"\] Alt text: and filter icon \[Omitted image "filter-icon.png"\] Alt text: to quickly organize and find your topics. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topics-page.md).
+You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar \[Omitted image "search-icon.png"\] Alt text: and filter icon \[Omitted image "filter-icon.png"\] Alt text: to quickly organize and find your topics. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topics-page.md).
 
 Each topic list entry identifies the asset and provides the following information by default:
 
@@ -97,9 +97,9 @@ For LLM topics, the **Select assistant** list enables you to filter the assets b
 
 \[Omitted image "vad-home-assist.png"\] Alt text: Select an assistant.
 
-You can create assistants from **Conversational interfaces** &gt; **Assistants**. For more information about creating assistants, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
+You can create assistants from **Conversational interfaces** &gt; **Assistants**. For more information about creating assistants, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
 
-For more information about LLM assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
+For more information about LLM assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
 ## Topic properties
 
@@ -107,14 +107,14 @@ Use the topic **Properties** tab to identify a Virtual Agent asset and how it’
 
 Use the **Properties** tab to do the following:
 
--   Specify the name and type of asset, such as [topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md), [custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-controls.md), and so on.
+-   Specify the name and type of asset, such as [topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/topic-blocks-overview.md), [custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/custom-controls.md), and so on.
 -   Specify the model type, purpose of the topic, and which assistants can run this topic for ServiceNow Otto customers.
 -   Specify the model type, add a topic description, specify the purpose of the topic, and select which assistants can run this topic for ServiceNow Otto customers.
--   Control who uses the topic and [what channels it can run in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md).
--   Associate [live agent variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md) with a topic.
+-   Control who uses the topic and [what channels it can run in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrate-virtual-agent.md).
+-   Associate [live agent variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/live-agent-chat-context-vars.md) with a topic.
 -   Add keywords to the topic or map the topic to a ServiceNow NLU model and intent.
 
-For more information, see [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md).
+For more information, see [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md).
 
 ## Topic flow
 
@@ -128,26 +128,26 @@ As you create or update your design, you might find it helpful to switch between
 
 Use the **Flow** tab to do the following:
 
--   Design your topic flow. For more information, see [Design the flow of your topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/design-va-topic.md).
--   Add script variables. For more information, see [Define script variables for a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-script-variables-topic.md).
--   Add entities to your topic. For more information, see [Use system-derived entities in your topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-system-entities-va-topic.md).
--   Add nodeless entities, if you’re creating a topic for [Add nodeless NLU entities to your topic flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-nodeless-entities-input-vars.md).
+-   Design your topic flow. For more information, see [Design the flow of your topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/design-va-topic.md).
+-   Add script variables. For more information, see [Define script variables for a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/define-script-variables-topic.md).
+-   Add entities to your topic. For more information, see [Use system-derived entities in your topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-system-entities-va-topic.md).
+-   Add nodeless entities, if you’re creating a topic for [Add nodeless NLU entities to your topic flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-nodeless-entities-input-vars.md).
 
-For more information, see [Topic Flow tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-flow-tab.md).
+For more information, see [Topic Flow tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-flow-tab.md).
 
 ## NLU model and intent mappings
 
 If you activated NLU on your instance, the **NLU Intent** tab is available for your topics in Virtual Agent Designer. Once you have bound the topic to a model and intent on the **Properties** tab, you can use the **NLU Intent** tab to do the following:
 
--   Review utterances used in your topic. For more information, see [Review and edit utterances and associated entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.md).
--   Train your NLU models. For more information, see [Train, test, and publish your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md).
+-   Review utterances used in your topic. For more information, see [Review and edit utterances and associated entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.md).
+-   Train your NLU models. For more information, see [Train, test, and publish your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md).
 
     Test the topic model with user utterances to see if it triggers the appropriate intent and topic. You can also test entity recognition.
 
 
 **Note:** The virtual\_agent\_admin role includes the nlu\_admin role, which enables topic authors to work on ServiceNow models.
 
-For more information about this tab, see [Topic NLU Intent tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-nlu-intent-tab.md).
+For more information about this tab, see [Topic NLU Intent tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-nlu-intent-tab.md).
 
 ## Topic languages
 
@@ -156,52 +156,52 @@ The **Languages** tab displays the topic's translation status for languages that
 Use the **Languages** tab to do the following:
 
 -   View translation status for activated language plugins.
--   Test your topic with a given language. For more information, see [View and test the topic in a specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-nlu-language-model.md).
--   Edit translations. For more information, see [Edit the topic translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/edit-translations-va-topics.md).
--   Request translations. For more information, see [Request topic translations in additional languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-lf-translate-va.md).
--   View and update NLU language and entity mapping. For more information, see [View or modify NLU language mappings and entity mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/map-nlu-language-model.md).
+-   Test your topic with a given language. For more information, see [View and test the topic in a specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/test-nlu-language-model.md).
+-   Edit translations. For more information, see [Edit the topic translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/edit-translations-va-topics.md).
+-   Request translations. For more information, see [Request topic translations in additional languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-lf-translate-va.md).
+-   View and update NLU language and entity mapping. For more information, see [View or modify NLU language mappings and entity mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/map-nlu-language-model.md).
 
-    For more information, see [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md).
+    For more information, see [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md).
 
 
-For more information about this tab, see [Topic Languages tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-languages-tab.md).
+For more information about this tab, see [Topic Languages tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-languages-tab.md).
 
--   **[Designing a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/design-va-topic.md)**  
+-   **[Designing a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/design-va-topic.md)**  
 Walk through the design of an example Virtual Agent topic that enables users to view incidents they submitted. The example highlights various design controls that can be used to build the conversation flow.
--   **[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)**  
+-   **[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)**  
 Use Assistant Designer Asset library to create and modify Virtual Agent topics \(conversations\). Build your topic to meet a specific objective or goal, such as fulfilling a user's request or helping a user complete a task.
--   **[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/llm-topic-migration.md)**  
+-   **[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/llm-topic-migration.md)**  
 The topic migration workflow enables you to migrate your existing Natural Language Understanding \(NLU\)/keyword topics into new large language model \(LLM\) topics.
--   **[Duplicating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md)**  
+-   **[Duplicating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md)**  
 Create a topic or topic block by copying an existing Virtual Agent topic or topic block and customize it.
--   **[Testing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/testing-enhanced-chat-conversations.md)**  
+-   **[Testing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/testing-enhanced-chat-conversations.md)**  
 Simulate and test assistant conversations from Asset library.
--   **[Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-llm-topics.md)**  
+-   **[Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/test-llm-topics.md)**  
 Preview, test, and debug topics that use large language models \(LLMs\) in the Assistant Designer chat window.
--   **[Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md)**  
+-   **[Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-designer-testing.md)**  
 Use the chat test window to preview, test, and debug Natural Language Understanding \(NLU\)/Keyword topics.
--   **[Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md)**  
+-   **[Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md)**  
 Investigate and resolve unexpected behavior in your custom Virtual Agent topics, topic blocks, and controls.
--   **[Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md)**  
+-   **[Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md)**  
 Deploy an inactive topic or an updated topic to save it and make it available to users on Virtual Agent clients.
--   **[Delete a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/delete-virtual-agent-topic.md)**  
+-   **[Delete a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/delete-virtual-agent-topic.md)**  
 Delete a Virtual Agent topic that is no longer needed.
--   **[Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)**  
+-   **[Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)**  
 Promote assets including conversational subflows, conversational actions, and topics in Assistant Designer, after associating them with a large language model \(LLM\) assistant, to have them suggested to the user by the LLM assistant.
--   **[Reorder promoted LLM conversational subflows, actions, and topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/sort-promoted-va-topics.md)**  
+-   **[Reorder promoted LLM conversational subflows, actions, and topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/sort-promoted-va-topics.md)**  
 Rearrange LLM assets like conversational subflows, conversational actions, and topics to the desired order after promoting them for recommendation by the Virtual Agent.
--   **[Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md)**  
+-   **[Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md)**  
 Manage asset settings from the Asset library for individual active assets.
--   **[Add a condition builder to promoted assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-condition-builder-promoted-topics.md)**  
+-   **[Add a condition builder to promoted assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-condition-builder-promoted-topics.md)**  
 You can define a condition for a given promoted Virtual Agent asset to bring it higher up on the list of promoted assets in a panel conversation.
--   **[Managing conversational subflows in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-conversational-subflows.md)**  
+-   **[Managing conversational subflows in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-conversational-subflows.md)**  
 View and manage conversational subflows through Assistant Designer.
--   **[Managing conversational actions in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-conversational-actions.md)**  
+-   **[Managing conversational actions in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-conversational-actions.md)**  
 View and manage conversational actions through Assistant Designer.
--   **[Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-custom-skills.md)**  
+-   **[Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-custom-skills.md)**  
 View custom skills through Assistant Designer Asset library.
--   **[Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md)**  
+-   **[Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md)**  
 View AI agents created in AI Agent Studio through Assistant Designer.
 
-**Parent Topic:**[Building and deploying Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-virtual-agent.md)
+**Parent Topic:**[Building and deploying Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-virtual-agent.md)
 

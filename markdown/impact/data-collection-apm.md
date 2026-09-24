@@ -2,7 +2,7 @@
 title: Impact Value Management Data Collection for APM
 description: Install and configure the Data Collection Content Pack for APM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/data-collection-apm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/data-collection-apm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,21 +16,21 @@ Install and configure the Data Collection Content Pack for APM.
 
 Perform the steps in the following order:
 
-1.  [Install the Data Collection Pack for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-install.md)
-2.  [Configure Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-config.md)
-3.  [Activate Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-activate.md)
-4.  [Review APM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-installation-artifacts.md)
+1.  [Install the Data Collection Pack for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-apm-install.md)
+2.  [Configure Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-apm-config.md)
+3.  [Activate Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-apm-activate.md)
+4.  [Review APM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-apm-installation-artifacts.md)
 
-You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-upgrade.md).
+You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-all-upgrade.md).
 
--   **[Install the Data Collection Pack for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-install.md)**  
+-   **[Install the Data Collection Pack for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-apm-install.md)**  
 To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
--   **[Configure Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-config.md)**  
+-   **[Configure Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-apm-config.md)**  
 Configure Data Collection for APM.
--   **[Activate Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-activate.md)**  
+-   **[Activate Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-apm-activate.md)**  
 Activate the Data Collection Pack for APM after you enable and configure it.
--   **[Review APM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-installation-artifacts.md)**  
+-   **[Review APM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-apm-installation-artifacts.md)**  
 The data collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 
-**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-toolkit.md)
 

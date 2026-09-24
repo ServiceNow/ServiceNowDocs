@@ -2,7 +2,7 @@
 title: Privileged SSH commands for probe-based discovery
 description: These tables display the SSH commands run by Discovery probes during horizontal discovery. These SSH commands require elevated privileges to run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-ssh-command-require-priv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discovery-ssh-command-require-priv.html
 release: australia
 product: Discovery
 classification: discovery
@@ -23,9 +23,9 @@ These examples assume that the user name is **Disco**. Substitute the actual use
 
 **Note:** Sudo commands don’t work with private key credentials, because there’s no password to supply to the sudo command. A solution is to add the NOPASSWD option to the sudo configuration. For example, you might enter: `disco ALL=(root) NOPASSWD:/usr/sbin/dmidecode,/usr/sbin/lsof,/sbin/ifconfig`.
 
-For information on commands that don’t require elevated rights, see [Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ssh-probe-commands.md).
+For information on commands that don’t require elevated rights, see [Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-ssh-probe-commands.md).
 
-For information on commands used by Service Mapping during the top-down discovery, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md) and [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
+For information on commands used by Service Mapping during the top-down discovery, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_CommandsnCredentials.md) and [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 ## SSH key not validated
 
@@ -211,10 +211,10 @@ Gets list of process IDs \(PIDs\) with socket information.**/etc/sudoers line ex
 For each PID, gets and processes the output for S\_IFSOCK.**/etc/sudoers line example**: `Disco ALL=(root) /usr/bin/pfiles`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SSHCommandProbe.md)
+</table>**Parent Topic:**[SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_SSHCommandProbe.md)
 
 **Related topics**  
 
 
-[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
+[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-command-probe-pattern.md)
 

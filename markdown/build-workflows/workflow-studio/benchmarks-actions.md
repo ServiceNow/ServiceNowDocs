@@ -2,7 +2,7 @@
 title: Benchmarks Spoke
 description: Provides read-only actions for the read-only Benchmark Recommendation Evaluator flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/benchmarks-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/benchmarks-actions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -88,5 +88,5 @@ Evaluate the conditions and script specified for the recommendation.
 -   Score
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
+</table>**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/spokes.md)
 

@@ -2,7 +2,7 @@
 title: Save Microsoft Word document as a template
 description: Save your Microsoft Word document as a template using the Design template provided in the Document designer, enabling you to create a reusable template in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-bcm-word-temp-using-docudesigner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-bcm-word-temp-using-docudesigner.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ Role required: sn\_bcm.admin, sn\_bcm.manager
 
 ## About this task
 
-Install and activate the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) plugin. For more information, see [Install Document designer with Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/install-document-designer-with-word-plugin.md).
+Install and activate the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) plugin. For more information, see [Install Document designer with Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/install-document-designer-with-word-plugin.md).
 
-Confirm that you have the templates configured. For more information, see [Set up the template configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-document-designer-templates.md).
+Confirm that you have the templates configured. For more information, see [Set up the template configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-document-designer-templates.md).
 
 ## Procedure
 

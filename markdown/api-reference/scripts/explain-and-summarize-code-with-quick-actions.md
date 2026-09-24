@@ -2,7 +2,7 @@
 title: Explain and summarize code
 description: Get a summary of the code or a comprehensive explanation of its functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/explain-and-summarize-code-with-quick-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/explain-and-summarize-code-with-quick-actions.html
 release: australia
 product: Scripts
 classification: scripts

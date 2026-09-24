@@ -2,7 +2,7 @@
 title: Default highlight color for different case states
 description: Default values for the background and text color for all case states on the Portal Case Cards widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/portal-case-cards-widget-default-color.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/portal-case-cards-widget-default-color.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ Default values for the background and text color for all case states on the Port
 **Related topics**  
 
 
-[Display the integer values of all case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/integer-value-case-states.md)
+[Display the integer values of all case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/integer-value-case-states.md)
 

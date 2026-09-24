@@ -2,7 +2,7 @@
 title: Jumpstart Your Now Assist in Virtual Agent
 description: The Jumpstart Your Now Assist in Virtual Agent \(VA\) Accelerator provides a demonstration of the possibilities and capabilities of Now Assist in Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-now-assist-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-now-assist-virtual-agent.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

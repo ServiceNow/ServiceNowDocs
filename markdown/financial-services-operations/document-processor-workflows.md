@@ -2,7 +2,7 @@
 title: Document Processor workflows
 description: The Financial Services Document Processor application installs automated workflows for enabling document collection and verification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/document-processor-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/document-processor-workflows.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,6 +42,6 @@ The following is a typical loan workflow in the Financial Services Loan Operatio
 4.  A document verification task is generated.
 5.  A document agent manually verifies or rejects the document, or approves or rejects an exception or deferral request.
 
-    **Note:** For documents specified to required OCR processing, Document Intelligence can automatically extract data and verify a document if the extracted data attributes are sufficiently provided. For more information, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md).
+    **Note:** For documents specified to required OCR processing, Document Intelligence can automatically extract data and verify a document if the extracted data attributes are sufficiently provided. For more information, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/integration-with-document-intelligence.md).
 
 

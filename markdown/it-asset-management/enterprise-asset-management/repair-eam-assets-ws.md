@@ -2,7 +2,7 @@
 title: Complete the repair asset task in the Enterprise Asset Workspace
 description: Complete the repair of the asset and confirm if the asset is repaired, unrepairable, or redeployable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/repair-eam-assets-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/repair-eam-assets-ws.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -42,7 +42,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
 
 9.  Record the time worked on the task.
 
-    You can either use the timer or record the time manually. For more details, see [Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md).
+    You can either use the timer or record the time manually. For more details, see [Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md).
 
     An entry for the time you worked is created in the **Time Worked** tab of the Repair asset task.
 
@@ -55,7 +55,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
     -   If the asset can be redeployed, select **Redeployable**.
 12. In the **Failure code** field, select the code that corresponds to the reason for the asset failure.
 
-    This field shows the failure code that you selected in the Troubleshoot task. However, you can update this field if the reason for the asset failure differs from what was identified in the Troubleshoot task. For more details on codes, see [Manage failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md).
+    This field shows the failure code that you selected in the Troubleshoot task. However, you can update this field if the reason for the asset failure differs from what was identified in the Troubleshoot task. For more details on codes, see [Manage failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md).
 
     **Note:** The Failure code field value that you selected is also displayed in the Evaluate Asset task and the repair order line.
 
@@ -89,9 +89,9 @@ Role required: sn\_eam.enterprise\_asset\_technician
 
 ## What to do next
 
-[Evaluate the repaired asset in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/evaluate-repaired-eam-asset-ws.md).
+[Evaluate the repaired asset in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/evaluate-repaired-eam-asset-ws.md).
 
-**Parent Topic:**[Manually fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
+**Parent Topic:**[Manually fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
 
 **Related topics**  
 

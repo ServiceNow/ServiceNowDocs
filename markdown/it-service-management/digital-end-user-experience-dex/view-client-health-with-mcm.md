@@ -2,7 +2,7 @@
 title: View client health with MCM
 description: View client health metrics with the Microsoft Configuration Manager \(MCM\) application. The metrics include MCM metrics by device count, MCM versions installed on user devices, and device count where MCM action hasn't run in the last 24 hours.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-client-health-with-mcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/view-client-health-with-mcm.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -21,14 +21,14 @@ View client health metrics with the Microsoft Configuration Manager \(MCM\) appl
 
 -   Add or enable MCM for monitoring.
 
-    For more details, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/add-new-application.md).
+    For more details, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/add-new-application.md).
 
 -   Configure Advanced monitoring for MCM.
 
-    For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
+    For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
 
-[Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
+[Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
 Role required: admin
 
@@ -42,6 +42,6 @@ Role required: admin
 
 4.  Select **Client health**.
 
-    For more information, see [Installed application — Client health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installed-application-client-health-page.md).
+    For more information, see [Installed application — Client health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/installed-application-client-health-page.md).
 
 

@@ -2,7 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for Trellix
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from Trellix. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-trellix-classes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/cmdb-trellix-classes.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -153,5 +153,5 @@ The following attributes in the Storage Disk \[cmdb\_ci\_storage\_disk\] table a
 **Related topics**  
 
 
-[Service Graph Connector for Trellix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-integration-trellix.md)
+[Service Graph Connector for Trellix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-trellix.md)
 

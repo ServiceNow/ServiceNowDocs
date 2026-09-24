@@ -2,7 +2,7 @@
 title: Configure Employee Readiness Surveys notifications
 description: The administrator can add or modify Employee Readiness Surveys notifications. Users with the sn\_imt\_checkin.checkin\_admin or survey\_admin role can view the base system survey and copy it to make changes, or add a new survey.Modify the Employee Readiness Surveys base system email notification.Add a new Employee Readiness Surveys email notification to use in Emergency Outreach to send the survey link.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/config-employee-readiness-survey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/config-employee-readiness-survey.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -16,7 +16,7 @@ breadcrumb: [Employee Readiness Surveys, Safe Workplace, Health and Safety, Empl
 
 The administrator can add or modify Employee Readiness Surveys notifications. Users with the sn\_imt\_checkin.checkin\_admin or survey\_admin role can view the base system survey and copy it to make changes, or add a new survey.
 
-**Parent Topic:**[Employee Readiness Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-readiness-surveys.md)
+**Parent Topic:**[Employee Readiness Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/employee-readiness-surveys.md)
 
 ## Modify the Employee Readiness Surveys notification
 

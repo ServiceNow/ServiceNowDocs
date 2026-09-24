@@ -2,7 +2,7 @@
 title: Order management
 description: The Order Management application streamlines the order life cycle from capture to fulfillment. It automates decomposition, enrichment, and orchestration workflows, empowering users to accelerate delivery, reduce fallouts, and manage complex orders efficiently through a unified workspace and customer portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/explore-order-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-order-management.html
 release: australia
 topic_type: concept
 last_updated: "2025-12-04"
@@ -60,14 +60,14 @@ The following illustration describes the tasks involved in configuring and using
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Create and implement enrichment flows that the system applies during order orchestration.|[Configure order enrichment flows using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-enrichment.md)|Process admin|
-|Configure jeopardy management rules to monitor fulfillment tasks ans alert managers when tasks are at risk.|[Configuring Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-jeopardy-management.md)|Fulfillment managers|
-|Detect errors or exceptions during order processing and take corrective actions to improve SLA compliance and expedite order processing.|[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)|Fallout agent|
-|Create and track orders via the workspace, or import orders from third-party systems.|[Methods of creating orders in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-capture-methods-som.md)|Order agents|
-|Speed up fulfillment with orchestration workflows driven by an advanced product catalog using the order orchestration UI.|[Using the order orchestration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/orchestration-plans-for-order-fulfillment.md)|Fulfillment agents, fulfillment managers|
-|Track orders, prioritize tasks, and allocate resources using Gantt charts to see order status and risks.|[View an order timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-order-timelines.md)|Fulfillment agents, fulfillment managers|
-|Drive flexibility and efficiency of complex order orchestration by processing domain orders when the required information becomes available.|[Staggered decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/staggered-decomposition.md)|Fulfillment agents|
-|Enable post-sale support and drive customer satisfaction by effectively managing customers requests for disconnecting, suspending, or resuming products or services.|[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md)|Order agents|
+|Create and implement enrichment flows that the system applies during order orchestration.|[Configure order enrichment flows using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-order-enrichment.md)|Process admin|
+|Configure jeopardy management rules to monitor fulfillment tasks ans alert managers when tasks are at risk.|[Configuring Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-jeopardy-management.md)|Fulfillment managers|
+|Detect errors or exceptions during order processing and take corrective actions to improve SLA compliance and expedite order processing.|[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/fallout-management-overview.md)|Fallout agent|
+|Create and track orders via the workspace, or import orders from third-party systems.|[Methods of creating orders in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-capture-methods-som.md)|Order agents|
+|Speed up fulfillment with orchestration workflows driven by an advanced product catalog using the order orchestration UI.|[Using the order orchestration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/orchestration-plans-for-order-fulfillment.md)|Fulfillment agents, fulfillment managers|
+|Track orders, prioritize tasks, and allocate resources using Gantt charts to see order status and risks.|[View an order timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-order-timelines.md)|Fulfillment agents, fulfillment managers|
+|Drive flexibility and efficiency of complex order orchestration by processing domain orders when the required information becomes available.|[Staggered decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/staggered-decomposition.md)|Fulfillment agents|
+|Enable post-sale support and drive customer satisfaction by effectively managing customers requests for disconnecting, suspending, or resuming products or services.|[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/managing-orders.md)|Order agents|
 
 ## Order Management variants
 
@@ -131,8 +131,8 @@ Order Management for Telecommunications, Media, and Technology is part of the Sa
 
 To learn more about configuring and using Order Management, see:
 
--   [Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
--   [Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
--   [Extending Order Management with ServiceNow applications and integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-integrating.md)
--   [Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+-   [Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
+-   [Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md)
+-   [Extending Order Management with ServiceNow applications and integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-integrating.md)
+-   [Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-reference.md)
 

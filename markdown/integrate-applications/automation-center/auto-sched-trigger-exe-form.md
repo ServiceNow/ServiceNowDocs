@@ -2,7 +2,7 @@
 title: Automation Scheduled Trigger Execution form
 description: Use the Automation Scheduled Trigger Execution form to define the type of insight trigger and map an insight rule to a new scheduled script in Automation Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/auto-sched-trigger-exe-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/auto-sched-trigger-exe-form.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -149,5 +149,5 @@ Business Calendar
 Business calendar entry that you’re using to determine the business calendar start or end date for the scheduled job. This field appears only if you select **Business Entry: Start Date** or **Business Entry: End Date** in the **Time** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-reference.md)
 

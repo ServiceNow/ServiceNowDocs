@@ -2,7 +2,7 @@
 title: Legacy: Problem daily 7d - 28d dashboard
 description: Track the progress made by different assignment groups in resolving problems in the daily, weekly, and monthly time frames.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-daily-7d-28d-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/problem-daily-7d-28d-dashboard.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -18,7 +18,7 @@ Track the progress made by different assignment groups in resolving problems in 
 
 **Important:**
 
-Starting in Xanadu release, the Problem daily 7d - 28d dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem.md) to view, and track the open problems.
+Starting in Xanadu release, the Problem daily 7d - 28d dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem.md) to view, and track the open problems.
 
 \[Omitted image "problem-daily.png"\] Alt text: The Problem daily tab of the Problem daily 7 day to 28 day dashboard
 

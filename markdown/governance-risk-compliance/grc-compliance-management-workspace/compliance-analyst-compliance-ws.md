@@ -2,7 +2,7 @@
 title: Compliance Home page for the Compliance Analyst
 description: The compliance analyst home page in the Compliance Workspace enables the compliance analyst to track compliance activities and helps compliance managers to ensure that the organization is compliant with various regulations and policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/compliance-analyst-compliance-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/compliance-analyst-compliance-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

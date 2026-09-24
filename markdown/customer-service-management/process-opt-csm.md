@@ -2,7 +2,7 @@
 title: Integrating with Process Mining
 description: Integrate Customer Service Management with the Process Mining application to analyze processes relevant to your KPIs, and identify bottlenecks associated with customer service cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/process-opt-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/process-opt-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

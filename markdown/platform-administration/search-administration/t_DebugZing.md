@@ -2,7 +2,7 @@
 title: Debug Zing
 description: Debugging messages create a log of search processes as they occur. These messages may help administrators configure optimal performance settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_DebugZing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/t\_DebugZing.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -45,7 +45,7 @@ Role required: admin
 
     3.  Press Enter.
 
-5.  Locate the stemmed terms and compare the numbers in the list to the debug output from step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_DebugZing.md).
+5.  Locate the stemmed terms and compare the numbers in the list to the debug output from step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/t_DebugZing.md).
 
     If the numbers are different, the UI node's cache is stale.
 
@@ -54,7 +54,7 @@ Role required: admin
 7.  Select the **Reset Text Search Caches** related link and select **OK**.
 
 
-**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_IntroductionToSearching.md)
+**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_IntroductionToSearching.md)
 
 **Related topics**  
 

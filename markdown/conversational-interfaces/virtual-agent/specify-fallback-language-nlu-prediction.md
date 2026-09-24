@@ -2,7 +2,7 @@
 title: Specify a fallback language for locale-specific languages and NLU prediction
 description: Provide language locale support by specifying a fallback language for Virtual Agent to use for topics, keywords, and NLU prediction. For example, the ServiceNow platform doesn't support Mexican Spanish \(mx-es\), but it does support Spanish \(es\), which you can designate as the fallback language for a better user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/specify-fallback-language-nlu-prediction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/specify-fallback-language-nlu-prediction.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -50,5 +50,5 @@ Custom locales appear in the Languages \[sys\_language\] table, along with their
 
 \[Omitted image "fallback-lang-new-locales.png"\] Alt text: The Languages table with custom locales configured. Highlighted entries for Belgium, Luxembourg, and Switzerland have standard French as a fallback, while Canadian French has no Fallback.
 
-**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

@@ -2,7 +2,7 @@
 title: Domain separation and Microsoft Graph Security API alert ingestion
 description: Domain separation is supported for this application. The Microsoft Graph Security API integration ingests alerts from Microsoft Graph security providers and automatically creates security incidents. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-domain-sep.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ms-graph-domain-sep.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

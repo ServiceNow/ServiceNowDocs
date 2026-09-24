@@ -2,7 +2,7 @@
 title: User Criteria form
 description: Add a user criteria record to decide which users, roles, and groups can access a quick link.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-user-criteria-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-user-criteria-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -113,7 +113,7 @@ Match All
 Option to make every condition required when the user criteria is applied. The conditions are set in the previous fields, such as Companies, Locations, Departments, and so on.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

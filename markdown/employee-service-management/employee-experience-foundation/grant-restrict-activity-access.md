@@ -2,7 +2,7 @@
 title: Restrict access to an activity
 description: Apply user criteria to an activity to define which users, groups, and roles can access the activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/grant-restrict-activity-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/grant-restrict-activity-access.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -34,26 +34,26 @@ In the My active items widget, the activity that a user does not have access to 
 
 3.  Click the **Activity Access** tab.
 
-<table id="choicetable_bpj_pmm_1rb"><thead><tr><th align="left" id="d736853e83">
+<table id="choicetable_bpj_pmm_1rb"><thead><tr><th align="left" id="d736857e83">
 
 To
 
-</th><th align="left" id="d736853e86">
+</th><th align="left" id="d736857e86">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d736853e92">
+</th></tr></thead><tbody><tr><td id="d736857e92">
 
 **Add a new user criteria**
 
 </td><td>
 
 1.  Click **New**.
-2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-user-criteria-form.md).
+2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-user-criteria-form.md).
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d736853e127">
+</td></tr><tr><td id="d736857e127">
 
 **Edit an existing user criteria**
 

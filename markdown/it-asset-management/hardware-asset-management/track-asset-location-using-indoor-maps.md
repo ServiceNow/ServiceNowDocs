@@ -2,7 +2,7 @@
 title: Track asset location using indoor maps
 description: Locate and track the consumables and hardware, bundle, and pallet assets in your organization by using indoor maps. Indoor maps provide an interactive interface that enables you to visualize the location of your assets within your campuses, buildings, floors, and places.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/track-asset-location-using-indoor-maps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/track-asset-location-using-indoor-maps.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -67,7 +67,7 @@ Role required: admin or asset
     2.  Select the values for the **Department**, **User**, or **Model category** filters in the Filter by dialog box.
 
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

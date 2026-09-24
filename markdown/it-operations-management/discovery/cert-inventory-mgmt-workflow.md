@@ -2,7 +2,7 @@
 title: Certificate alerts and notifications
 description: From version 1.2.0 onward, Certificate Inventory and Management integrates with Event Management, providing a unified solution for streamlined operations. This integration enables the generation of events and notifications, with the added capability of sending alerts to Slack. Certificate Inventory and Management also supports sending certificate notifications via email and Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-inventory-mgmt-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/cert-inventory-mgmt-workflow.html
 release: australia
 product: Discovery
 classification: discovery
@@ -16,16 +16,16 @@ breadcrumb: [Configure, Certificate Inventory and Management, ITOM Visibility, I
 
 From version 1.2.0 onward, Certificate Inventory and Management integrates with Event Management, providing a unified solution for streamlined operations. This integration enables the generation of events and notifications, with the added capability of sending alerts to Slack. Certificate Inventory and Management also supports sending certificate notifications via email and Microsoft Teams.
 
--   **[Manage events and alerts with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/integrating-certs-event-mgmt.md)**  
+-   **[Manage events and alerts with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/integrating-certs-event-mgmt.md)**  
 In Certificate Inventory and Management version 1.2.0 and later, Event Management can create events and alerts for both expiring and expired certificates, enhancing the system's monitoring capabilities.
--   **[Receive certificate notifications on Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/receive-cert-slack-notifications.md)**  
+-   **[Receive certificate notifications on Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/receive-cert-slack-notifications.md)**  
 In Version 1.2.0 of Certificate Inventory and Management, set up Slack notifications to stay informed about expiring and expired certificates. Receive detailed alerts with convenient URL links for additional information.
--   **[Receive certificate notifications via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/receive-email-certificate-notifications.md)**  
+-   **[Receive certificate notifications via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/receive-email-certificate-notifications.md)**  
 Configure certificate notifications to be delivered via email to relevant recipients.
--   **[Renew certificates via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/renew-cert-ms-outlook-email.md)**  
+-   **[Renew certificates via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/renew-cert-ms-outlook-email.md)**  
 Certificate renewal notifications are sent to users configured in the **Certificate notification policy** table via email 60 days before a certificate expires or after a certificate expires.
--   **[Receive certificate notifications via Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-ms-teams-cert-notifications.md)**  
+-   **[Receive certificate notifications via Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/configure-ms-teams-cert-notifications.md)**  
 Configure certificate notifications to be delivered to a Microsoft Teams channel so that you can receive alerts and initiate certificate renewal workflows directly from Microsoft Teams.
 
-**Parent Topic:**[Configuring Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-config.md)
+**Parent Topic:**[Configuring Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-inventory-mgmt-config.md)
 

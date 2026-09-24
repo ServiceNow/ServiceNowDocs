@@ -2,7 +2,7 @@
 title: Install Collaboration services
 description: You can install the Collaboration services application \(sn\_tcm\_collab\_hook\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/install-collaboration-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/collaboration-services/install-collaboration-services.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services
@@ -38,7 +38,7 @@ Role required: admin
 
 ## About this task
 
-For the tables that are installed with Collaboration services, refer [Components installed with Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/installed-with-collaboration-services.md)
+For the tables that are installed with Collaboration services, refer [Components installed with Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/collaboration-services/installed-with-collaboration-services.md)
 
 .
 

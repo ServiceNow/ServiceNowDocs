@@ -2,7 +2,7 @@
 title: Closing requests and app notifications in Creator Studio
 description: The records that your app creates when a form is completed are not automatically closed, and some notifications are not automatic and must be configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-closing-requests-and-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-closing-requests-and-notifications.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -20,13 +20,13 @@ The records that your app creates when a form is completed are not automatically
 
 After an app's automation is done and the request is fulfilled, users must manually close the request record in the Request App Workspace. When fulfillers manually close the request, the ServiceNow AI Platform emails the person who made the request to notify them that the request is closed.
 
-Additionally, you can create a playbook in the app to automatically email the requester when their request is closed. For more information, see [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-activities-automation.md).
+Additionally, you can create a playbook in the app to automatically email the requester when their request is closed. For more information, see [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-activities-automation.md).
 
 ## Default notifications for apps built with Creator Studio
 
 Apps created in Creator Studio send the following notifications by default.
 
-**Note:** Admins can customize the default notification emails for events listed in the following table. For details, see [Administering notification emails in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/crs-admining-notifications.md).
+**Note:** Admins can customize the default notification emails for events listed in the following table. For details, see [Administering notification emails in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/crs-admining-notifications.md).
 
 |Event|Recipient|Trigger|
 |-----|---------|-------|
@@ -47,5 +47,5 @@ For more information on notifications from the ServiceNow AI Platform, see [Crea
 |The requested app is approved and created by the admin|Creator Studio Restricted User who requested app creation|
 |The app creation request has been fulfilled|App Engine Admin group|
 
-**Parent Topic:**[I've built my app in Creator Studio, now what?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-made-your-app-now-what.md)
+**Parent Topic:**[I've built my app in Creator Studio, now what?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-made-your-app-now-what.md)
 

@@ -2,7 +2,7 @@
 title: Create schema
 description: Create schema to create delimited files in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-schema.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/create-schema.html
 release: australia
 product: Integration Hub
 classification: integration-hub

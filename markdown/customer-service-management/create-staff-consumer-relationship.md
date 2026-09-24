@@ -2,7 +2,7 @@
 title: Create a consumer staff relationship
 description: Create a relationship between a staff member at a business organization \(formerly business location\) and a consumer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-staff-consumer-relationship.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-staff-consumer-relationship.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Create a relationship between a staff member at a business organization \(former
 
 Role required: admin, sn\_crm\_consumer\_relationship\_data\_manager, sn\_customerservice\_manager, sn\_customerservice.svc\_location\_manager, sn\_customerservice.svc\_location\_manager\_contributor, and sn\_bus\_loc.location\_relationship\_manager
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## About this task
 

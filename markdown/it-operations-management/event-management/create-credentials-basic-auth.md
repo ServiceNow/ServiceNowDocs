@@ -2,7 +2,7 @@
 title: Create basic auth server credentials
 description: Create credentials to access a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-credentials-basic-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/create-credentials-basic-auth.html
 release: australia
 product: Event Management
 classification: event-management

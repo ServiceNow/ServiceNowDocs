@@ -2,7 +2,7 @@
 title: Facilities move management
 description: Employees and managers can request single user moves. Members of the facilities staff can use the enterprise move tool to plan and execute large move scenarios involving multiple people, assets/CIs, and departments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_FacMoveMgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_FacMoveMgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,12 +24,12 @@ The Facilities Move Management application benefits your organization in the fol
 
 **Note:** This feature is no longer available for new customers.
 
--   **[Facilities move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacMoveRequests.md)**  
+-   **[Facilities move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacMoveRequests.md)**  
 Both employees and managers can request a move, which initiates the workflow of tasks to complete that move. Any user can submit a move request through the Facilities catalog. Users with the Facilities staff role can also create and update facilities requests using the move request form directly.
--   **[Facilities move request templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacMoveReqTemplates.md)**  
+-   **[Facilities move request templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacMoveReqTemplates.md)**  
 The facilities staff adds templates to the facilities catalog, so users can select from subcategories for their request type.
--   **[Enterprise move](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_EnterpriseMove.md)**  
+-   **[Enterprise move](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_EnterpriseMove.md)**  
 Facility teams use Enterprise Move to plan and execute move scenarios in support of large or complex employee move requests.
 
-**Parent Topic:**[Facilities Service Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesServiceManagement.md)
+**Parent Topic:**[Facilities Service Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesServiceManagement.md)
 

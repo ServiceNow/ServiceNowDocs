@@ -2,7 +2,7 @@
 title: Manage HAM advisor scope in CMDB success advisor
 description: Manage the scope of your advisor for Hardware Asset Management \(HAM\) by editing model categories in CMDB success advisor to support your targeted HAM outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-optimize-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-optimize-dashboard.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

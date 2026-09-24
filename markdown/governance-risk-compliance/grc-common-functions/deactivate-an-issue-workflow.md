@@ -2,7 +2,7 @@
 title: Deactivate an issue workflow
 description: Stop an active workflow from being evaluated for new issues on its table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/deactivate-an-issue-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/deactivate-an-issue-workflow.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -24,7 +24,7 @@ Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
 ## About this task
 
-Deactivating a workflow does not delete it. You can activate the workflow again later. See [Review and activate a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/review-and-activate-a-workflow.md).
+Deactivating a workflow does not delete it. You can activate the workflow again later. See [Review and activate a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/review-and-activate-a-workflow.md).
 
 Existing issues that are already associated with the workflow continue to use it and aren't affected by deactivation. Deactivation only prevents the workflow from being evaluated for new issues.
 
@@ -45,5 +45,5 @@ If this workflow has no trigger condition and the lowest priority number on its 
 
 The workflow status changes to Inactive. The workflow is no longer evaluated for new issues on its table.
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

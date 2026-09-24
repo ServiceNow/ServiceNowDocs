@@ -2,7 +2,7 @@
 title: Customize the related records view in Service Request Playbook
 description: You can customize the related records view in Service Request Playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-playbook-customizing-rel-records-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-playbook-customizing-rel-records-view.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

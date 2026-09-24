@@ -2,7 +2,7 @@
 title: Employee Profile Header Configuration form
 description: Use the Employee Profile Header Configuration form to create a header for a profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/profile-header-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/profile-header-config-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -53,7 +53,7 @@ Format in which the primary user information is to be displayed. Available optio
 |Channel|List of available channels.|
 |Show Presence Status|Option to show the user presence status for the selected channel.|
 
-**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

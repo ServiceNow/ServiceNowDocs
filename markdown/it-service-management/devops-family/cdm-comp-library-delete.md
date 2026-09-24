@@ -2,7 +2,7 @@
 title: Delete a component library
 description: Delete a component library and all of its components if no application is using the library's components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-comp-library-delete.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-comp-library-delete.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

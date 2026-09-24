@@ -2,7 +2,7 @@
 title: Remediation compliance analysis AI agent
 description: This Unified Security Exposure Management agent provides insights around remediation target compliance. It provides SLA or compliance statistics about remediation targets. The agent can break down these numbers by attributes such as severity, assignment group, or configuration class item class.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/usem-remediation-compliance-analysis-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/usem-remediation-compliance-analysis-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -63,7 +63,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -123,5 +123,5 @@ Analyze vulnerability remediation status
 </td></tr></tbody>
 </table>Learn more about Unified Security Exposure Management at [Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/unified-security-exposure-management-landing-page.md).
 
-**Parent Topic:**[Unified Security Exposure Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/usem-ai-agents-overview.md)
+**Parent Topic:**[Unified Security Exposure Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/usem-ai-agents-overview.md)
 

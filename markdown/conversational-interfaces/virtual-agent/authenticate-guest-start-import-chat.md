@@ -2,7 +2,7 @@
 title: Authenticate guest users to initiate and import chat from Microsoft Teams
 description: Assign permissions to guest users to initiate and import chat conversations with employees from Microsoft Teams to a ServiceNow instance for a self-configured app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/authenticate-guest-start-import-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/authenticate-guest-start-import-chat.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -49,5 +49,5 @@ Role required: Microsoft Azure admin
 9.  Select **Yes** in the pop-up dialog box to save the settings.
 
 
-**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
+**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
 

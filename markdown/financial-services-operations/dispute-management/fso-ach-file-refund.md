@@ -2,7 +2,7 @@
 title: File ACH return
 description: File a return to ODFI for a disputed transaction if it has been determined to be eligible for a refund.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-file-refund.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/fso-ach-file-refund.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -45,5 +45,5 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 9.  Close the task.
 
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/process-dispute-ach.md)
 

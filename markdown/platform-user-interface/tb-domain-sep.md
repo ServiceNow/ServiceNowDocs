@@ -2,7 +2,7 @@
 title: Theme Builder and domain separation
 description: Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-domain-sep.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-domain-sep.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ Domain separation enables you to separate data, processes, and administrative ta
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md)
+**Parent Topic:**[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configuring-next-experience-with-theme-builder.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Enable actionable knowledge feedback
 description: The actionable knowledge feedback feature is available when the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\) plugin is activated and the actionable knowledge feedback properties are enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-act-know-feedback-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/configure-act-know-feedback-properties.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -82,17 +82,17 @@ Select the check box to enable actionable feedback task generation for the negat
 </table>3.  Click **Save**.
 
 
--   **[Create field mapping from an HR case to a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/map-hrcase-knowledge-article.md)**  
+-   **[Create field mapping from an HR case to a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/map-hrcase-knowledge-article.md)**  
 Copy information from an HR case into a knowledge article by creating custom mapping between the HR case table and the KCS article table.
--   **[Add a property to enable creating knowledge articles from HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/property-hrcase-knowledge-article.md)**  
+-   **[Add a property to enable creating knowledge articles from HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/property-hrcase-knowledge-article.md)**  
 Add a property, which is required to allow users to create a knowledge article from an HR case.
--   **[Create a UI action to enable creating knowledge articles from HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ui-action-hrcase-article.md)**  
+-   **[Create a UI action to enable creating knowledge articles from HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/ui-action-hrcase-article.md)**  
 Create a UI action to add the Knowledge check box to the HR case form.
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 
 **Related topics**  
 
 
-[Actionable Knowledge Feedback Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Actionable Knowledge Feedback Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 

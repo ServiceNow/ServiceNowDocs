@@ -2,7 +2,7 @@
 title: Using the Demands Dashboard
 description: The Demands Dashboard provides a centralized view of demand data, metrics, and visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/using-the-demands-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/using-the-demands-dashboard.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

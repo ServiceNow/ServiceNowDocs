@@ -2,7 +2,7 @@
 title: Resolving connection setup issues in Workplace Calendar Synchronization
 description: This section helps administrators troubleshoot connection setup issues in Workplace Calendar Synchronization. Calendar sync integrates ServiceNow Workplace with external calendar providers — Microsoft Exchange Online and Google Calendar — to synchronize room and resource availability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/troubleshooting-workplace-calendar-synchronization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/troubleshooting-workplace-calendar-synchronization.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

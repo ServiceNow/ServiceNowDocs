@@ -2,7 +2,7 @@
 title: Set up the Kubernetes spoke
 description: Integrate the ServiceNow instance and Kubernetes using an API key and certificate to authenticate ServiceNow requests.Generate an access token and a certificate from your Kubernetes account for API key authentication.Upload the Kubernetes client certificate to your ServiceNow instance to authenticate API requests to the Kubernetes host machine.Add and configure the Kubernetes connection to authenticate ServiceNow requests in Kubernetes spoke.A system property prevents the Kubernetes spoke from processing Kubernetes responses. Set the com.glide.communications.httpclient.verify\_hostname system property to false to enable the integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-kubernetes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-kubernetes.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -91,7 +91,7 @@ Role required: admin
 
         \[Omitted image "kubernetes-conf-temp.png"\] Alt text: Connection for the Kubernetes spoke.
 
-    -   To manage more than one Kubernetes spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Kubernetes spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "kubernetes-configure-temp.png"\] Alt text: First-time connection configuration.

@@ -2,7 +2,7 @@
 title: Mapping Nokia Altiplano CIs and Relationships in CMDB
 description: Use the Service Graph Connector for Nokia Altiplano to map discovered physical and logical network resources to telecom-aligned Configuration item \(CI\) classes in the CMDB. The connector supports consistent service modeling, visibility into chassis-level components, and automation of logical and physical relationships.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/data-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/data-mapping.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

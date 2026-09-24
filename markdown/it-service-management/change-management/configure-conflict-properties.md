@@ -2,7 +2,7 @@
 title: Detect change conflicts
 description: Detect change conflicts by setting Change Management conflict analysis properties. Use the resulting information to calculate conflicts for change requests and review and modify the change to eliminate conflicts.Conflict detection includes properties that determine how the conflict detection capability is executed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-conflict-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/configure-conflict-properties.html
 release: australia
 product: Change Management
 classification: change-management
@@ -32,12 +32,12 @@ By default, not all properties are selected in the Change Management Conflict An
 
 3.  Configure the remaining customization properties.
 
-    For more information on conflict detection properties, see [Conflict detection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-conflict-properties.md).
+    For more information on conflict detection properties, see [Conflict detection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-conflict-properties.md).
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
+**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md)
 
 **Related topics**  
 

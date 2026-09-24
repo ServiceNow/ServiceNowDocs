@@ -2,7 +2,7 @@
 title: Export pricing entities
 description: Export pricing entities as a JSON file and save the file to your local download directory so that it can be imported to another ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/export-pricing-entities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/export-pricing-entities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -57,5 +57,5 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator
 
 ## What to do next
 
-[Import pricing entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/import-pricing-entities.md).
+[Import pricing entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/import-pricing-entities.md).
 

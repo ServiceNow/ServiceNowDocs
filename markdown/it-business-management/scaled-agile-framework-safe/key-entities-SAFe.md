@@ -2,7 +2,7 @@
 title: SAFe entities
 description: Learn about the various SAFe entities that are used to successfully plan, track, and deliver your software products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -60,20 +60,20 @@ Learn about the various SAFe entities that are used to successfully plan, track,
     Program Increments in SAFe are further segmented into sprints for teams involved in it, and are measured in terms of weeks.
 
 
--   **[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)**  
+-   **[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)**  
 Create an epic within SAFe. An epic is the largest unit of work that has one common objective such customer request, or business requirement. An epic is further decomposed into features for implementation and delivery by SAFe agile release trains \(ARTs\).
--   **[Define a feature in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFefeature.md)**  
+-   **[Define a feature in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-SAFefeature.md)**  
 Create a feature in SAFe and break it down into smaller user stories for implementation and delivery by SAFe teams.
--   **[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)**  
+-   **[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)**  
 Create high-level definitions of your requirements in the form of stories in SAFe.
--   **[Define an Agile Release Train](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeprogram.md)**  
+-   **[Define an Agile Release Train](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-SAFeprogram.md)**  
 From SAFe, define an Agile Release Train \(ART\) which is a group of agile teams working towards a single solution.
--   **[Define a program increment in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeprogramincrement.md)**  
+-   **[Define a program increment in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-SAFeprogramincrement.md)**  
 With SAFe, define a program increment \(PI\). A program increment is typically 8–12 weeks long, during which an ART delivers incremental value in the form of working, tested software and systems.
--   **[Define a SAFe team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeteams.md)**  
+-   **[Define a SAFe team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/create-SAFeteams.md)**  
 From SAFe, create an agile team and associate it to an ART.
 
-**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
+**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/essential-overview.md)
 
 **Related topics**  
 

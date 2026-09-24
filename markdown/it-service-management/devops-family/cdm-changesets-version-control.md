@@ -2,7 +2,7 @@
 title: Changesets and version control in CDM
 description: A changeset is a draft copy of an application that you can update and save as often as needed. When you are satisfied with your changes, you can commit the changeset to apply the changes to the application. Committing
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-changesets-version-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-changesets-version-control.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -33,5 +33,5 @@ Sometimes, UserA and UserB are working at the same time on two different changes
 
 An open changeset with conflicts is blocked—it cannot be committed. The system notifies you of conflicts with a warning message on the page. In addition, the **State** value in the header changes from **Open** to **Blocked**.
 
-See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md) for descriptions of the types of conflicts that the system identifies.
+See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-changeset-conflicts.md) for descriptions of the types of conflicts that the system identifies.
 

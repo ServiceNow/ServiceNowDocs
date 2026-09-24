@@ -2,7 +2,7 @@
 title: Activity timer log components
 description: The activity timer log feature is available with the Activity Timer Reporting plugin \(sn\_activity\_timer\_reporting\). This plugin adds user tables, user roles, UIB page properties, a script include, and a scheduled job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activity-timer-log-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activity-timer-log-components.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-05"

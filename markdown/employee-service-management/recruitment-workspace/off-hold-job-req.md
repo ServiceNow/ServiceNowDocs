@@ -2,7 +2,7 @@
 title: Withdraw hold on a job requisition
 description: Withdraw the hold put on a job requisition when it is needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/off-hold-job-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/off-hold-job-req.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -33,7 +33,7 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 The job requisition is off hold and ready to be taken forward.
 
-**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
+**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/manage-job-reqs.md)
 
 **Related topics**  
 

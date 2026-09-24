@@ -2,7 +2,7 @@
 title: Configure a severity map in the Security Exposure Management Workspace
 description: Security Exposure Management Workspace severity mapping transforms third-party source severity fields to recognizable fields in Unified Security Exposure Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-severity-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-severity-map.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Security Exposure Management Workspace severity mapping transforms third-party s
 
 ## Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-acls-for-admin-rules.md)
 
 ## About this task
 

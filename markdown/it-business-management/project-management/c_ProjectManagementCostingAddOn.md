@@ -2,7 +2,7 @@
 title: Costing add-on in Project Management
 description: The Project Management costing add-on connects the Project Management application to the Cost Management application to allow for estimating and tracking the costs associated with projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_ProjectManagementCostingAddOn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/c\_ProjectManagementCostingAddOn.html
 release: australia
 product: Project Management
 classification: project-management
@@ -44,7 +44,7 @@ The following business rules are added or modified with this plugin:
 |Project Cost Rollup|Planned task \[planned\_task\]|Default: **true**. This property is from Cost Management. When an expense line is created against any task of **planned\_tasktype** and this property is true, the system gets a sum of the costs for all the expense lines and sets the total cost in the **work\_cost** field.|
 |Process Top Task Parent|\[fm\_expense\_line\]|Default: **true**|
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 

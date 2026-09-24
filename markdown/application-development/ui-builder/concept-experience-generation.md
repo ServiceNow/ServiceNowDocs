@@ -2,12 +2,12 @@
 title: Experience Generation
 description: Experience Generation is a ServiceNow Otto capability in UI Generation that uses AI to generate fully functional, multi-page experiences from plain-English descriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/concept-experience-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/concept-experience-generation.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Explore, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -71,12 +71,12 @@ When ServiceNow Otto generates an experience, it creates the following component
     -   Filtered list: Displays records from the selected table with filtered views, sortable columns, and export and create actions.
     -   Simple record: A detail view that fulfillers use to view, edit, and act on individual records.
 
-**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/exploring-ui-generation.md)
 
 **Related topics**  
 
 
-[Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/generate-ui.md)
+[Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/generate-ui.md)
 
-[Use case: Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/use-case-experience-generation.md)
+[Use case: Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/use-case-experience-generation.md)
 

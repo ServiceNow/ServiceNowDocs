@@ -2,7 +2,7 @@
 title: Create model categories
 description: You can add custom model categories for your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_CreatingModelCategories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/product-catalog/t\_CreatingModelCategories.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -111,7 +111,7 @@ Allow pre-allocation
 
 </td><td>
 
-Add and track items in this category as[Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingPreAllocatedAssets.md).
+Add and track items in this category as[Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_CreatingPreAllocatedAssets.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Allow in bundle
 
 </td><td>
 
-Use items in this category in [bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_CreatingBundledModels.md).
+Use items in this category in [bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_CreatingBundledModels.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Prevents the system from automatically creating assets in a specific model categ
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ModelCategories.md)
+**Parent Topic:**[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_ModelCategories.md)
 
 **Related topics**  
 

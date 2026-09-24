@@ -2,7 +2,7 @@
 title: Display ServiceNow cases on an Adobe Experience Manager page
 description: Use case components available within Adobe Experience Manager \(AEM\) to access customer service cases from the ServiceNow instance and display them on an AEM-based website.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/aem-display-case-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/aem-display-case-components.html
 release: australia
 topic_type: task
 last_updated: "2023-08-03"
@@ -16,7 +16,7 @@ Use case components available within Adobe Experience Manager \(AEM\) to access 
 
 ## Before you begin
 
-Define the cross-origin resource sharing \(CORS\) rule to access the Case API and CSM Attachment API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-integration-setup.md).
+Define the cross-origin resource sharing \(CORS\) rule to access the Case API and CSM Attachment API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/aem-integration-setup.md).
 
 Role required: AEM author
 
@@ -100,7 +100,7 @@ Custom CSS class
 
 </td><td id="component-custom-css-desc">
 
-Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-style-components.md).
+Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/aem-style-components.md).
 
 </td></tr></tbody>
 </table>8.  Set the New Case component properties for users to create a customer service case in your ServiceNow instance from your AEM page.
@@ -201,7 +201,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-style-components.md).
+Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/aem-style-components.md).
 
 </td></tr></tbody>
 </table>9.  Set the Case View component properties to display customer service cases and any comments and attachments, if available, from a ServiceNow instance.
@@ -262,7 +262,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-style-components.md).
+Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/aem-style-components.md).
 
 </td></tr></tbody>
 </table>10. Set the Case List component properties to display a list of customer service cases.
@@ -339,7 +339,7 @@ Custom CSS class
 
 </td><td>
 
-Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-style-components.md).
+Custom CSS class for applying custom styles to this component. For more information, see [Customizing the colors of ServiceNow components in AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/aem-style-components.md).
 
 </td></tr></tbody>
 </table>

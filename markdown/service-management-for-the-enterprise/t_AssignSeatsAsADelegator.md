@@ -2,7 +2,7 @@
 title: Assign users to seats
 description: Delegators receive an email notification requesting that they assign seats using Move Details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_AssignSeatsAsADelegator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_AssignSeatsAsADelegator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: admin
     \[Omitted image "UsersAssigned.png"\] Alt text: In this figure, the users have all been moved to the Assigned destination section of the Moves tab.
 
 
-**Parent Topic:**[Enterprise move scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_EnterMoveScenarios.md)
+**Parent Topic:**[Enterprise move scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_EnterMoveScenarios.md)
 

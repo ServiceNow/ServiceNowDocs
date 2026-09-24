@@ -2,7 +2,7 @@
 title: Classify HR data
 description: Assign data classifications to HR application-specific table columns in the Dictionary \[sys\_dictionary\] table. The assigned columns will appear in the “Classified Dictionary Entries” related list for a data classification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/classify-hr-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/classify-hr-data.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -41,5 +41,5 @@ Role required: data\_classification\_admin
     See [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataDictionaryTables.md) for additional information.
 
 
-**Parent Topic:**[ServiceNow Vault for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/vault-hr-service-delivery.md)
+**Parent Topic:**[ServiceNow Vault for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/vault-hr-service-delivery.md)
 

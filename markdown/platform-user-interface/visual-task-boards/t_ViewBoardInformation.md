@@ -2,7 +2,7 @@
 title: View Visual Task Boards details
 description: You can display the key information about any Visual Task Board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ViewBoardInformation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_ViewBoardInformation.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -33,5 +33,5 @@ The board information displays.
 
 \[Omitted image "BoardInfoFlyout.png"\] Alt text: The board information appears
 
-**Parent Topic:**[Viewing and sharing Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/viewing-sharing-vis-task-brds.md)
+**Parent Topic:**[Viewing and sharing Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/viewing-sharing-vis-task-brds.md)
 

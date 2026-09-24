@@ -2,7 +2,7 @@
 title: Workforce Optimization for HR Domain Separation
 description: Domain separation is supported for Workforce Optimization for HR. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/wfo-hr-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/wfo-hr-domain-separation.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -36,7 +36,7 @@ The goal of Workforce Optimization for Customer Service is to simplify the daily
 
 Domain separation is supported.
 
-**Parent Topic:**[Configuring Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
+**Parent Topic:**[Configuring Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
 
 **Related topics**  
 

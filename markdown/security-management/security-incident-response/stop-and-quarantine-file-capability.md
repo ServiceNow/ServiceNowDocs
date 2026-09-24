@@ -2,7 +2,7 @@
 title: Configure Stop and Quarantine File capability in Microsoft Defender for Endpoint
 description: Stop and quarantine files from the Microsoft Defender platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/stop-and-quarantine-file-capability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/stop-and-quarantine-file-capability.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -51,7 +51,7 @@ You can run the Stop and Quarantine File action on the particular observables of
 9.  View the automation activities of the execution, and validate them.
 
 
-**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
+**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Follow up on an anonymous report
 description: You can retrieve your anonymous report to submit or view comments and updates from the agents working on your anonymous report. You must have the report key and report number to access your anonymous report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/follow-up-on-anonymous-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-incident-management/follow-up-on-anonymous-report.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -53,7 +53,7 @@ After submitting the anonymous report, you’ll see a modal dialogue requesting 
 9.  Select **Post**.
 
 
-**Parent Topic:**[Managing an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing_anonymous_safety_concern.md)
+**Parent Topic:**[Managing an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/managing_anonymous_safety_concern.md)
 
 **Related topics**  
 

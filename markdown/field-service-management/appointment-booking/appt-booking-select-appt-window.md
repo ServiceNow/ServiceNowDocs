@@ -2,7 +2,7 @@
 title: Select an Appointment window
 description: To book or reschedule an appointment for a service, use the Select Appointment pop-up window. To see what time slots are available, choose your preferred day and time, and then submit your appointment request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/appt-booking-select-appt-window.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/appointment-booking/appt-booking-select-appt-window.html
 release: australia
 product: Appointment Booking
 classification: appointment-booking

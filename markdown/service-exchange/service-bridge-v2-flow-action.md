@@ -2,7 +2,7 @@
 title: Flow action
 description: Workflow Studio predefined actions help you preserve mapped variable integrity and maintain flow compatibility across configuration revisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-flow-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-flow-action.html
 release: australia
 product: Service Exchange
 classification: service-exchange

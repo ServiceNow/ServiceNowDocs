@@ -2,7 +2,7 @@
 title: AI connections
 description: AI connection is a core feature of the AI Control Tower. It provides a unified view of all AI assets across hyperscalers, AI apps, and agentic AI frameworks via Service Graph Connectors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/enterprise-ai-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/enterprise-ai-discovery.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -57,5 +57,5 @@ For customers using both ServiceNow and cloud platforms, AI connections are unif
 
 AI connection in the AI Control Tower enables enterprises to automatically find, catalog, and manage AI assets across cloud platforms through AI connections.
 
-[AI connections setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-discovery-setup.md) can be accessed from Configurations page in AI Control Tower.
+[AI connections setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-discovery-setup.md) can be accessed from Configurations page in AI Control Tower.
 

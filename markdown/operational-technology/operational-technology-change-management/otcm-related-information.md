@@ -2,7 +2,7 @@
 title: Related information
 description: Find more information about the OT extension classes and related applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/otcm-related-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-change-management/otcm-related-information.html
 release: australia
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -32,5 +32,5 @@ The extension classes help you understand how Operational Technology Management 
     When integrated with Operational Technology Change Management, the ServiceNow IT Service Management application enables engineers to resolve OT device and production process issues quickly.
 
 
-**Parent Topic:**[Operational Technology Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/oper-tech-change-management-reference.md)
+**Parent Topic:**[Operational Technology Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-change-management/oper-tech-change-management-reference.md)
 

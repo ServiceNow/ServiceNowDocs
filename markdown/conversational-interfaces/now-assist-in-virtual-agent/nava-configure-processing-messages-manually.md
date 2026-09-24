@@ -2,7 +2,7 @@
 title: Configure processing messages
 description: For ServiceNow Otto panel premium chat, configure processing messages to control the status updates that appear in the chat interface while ServiceNow Otto works on a request. You can customize the text of processing messages to better reflect your organization's terminology or the specific actions your AI agents perform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/nava-configure-processing-messages-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-configure-processing-messages-manually.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

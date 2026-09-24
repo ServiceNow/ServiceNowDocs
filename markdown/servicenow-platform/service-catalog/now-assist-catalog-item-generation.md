@@ -2,7 +2,7 @@
 title: Catalog item generation
 description: Use the Catalog item generation skill to create catalog items of your choice using AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/now-assist-catalog-item-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/now-assist-catalog-item-generation.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -29,10 +29,10 @@ This skill is available in the following workflow and product.
 |--------|-------|
 |Creator|[Exploring ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-now-assist-for-creator.md)|
 
-**Parent Topic:**[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
+**Parent Topic:**[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 
 **Related topics**  
 
 
-[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
+[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 

@@ -2,7 +2,7 @@
 title: Cisco Webex Meetings Spoke
 description: Manage users of the Cisco Webex Meetings application. Get a list of all users, view user activity, and deactivate user accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/cisco-webex-meetings-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/cisco-webex-meetings-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -45,11 +45,11 @@ The Cisco Webex Meetings spoke provides actions to automate Webex tasks when eve
 
 ## Webex Meetings account requirements
 
-The Cisco Webex Meetings spoke requires creating a custom app in Cisco DevNet to generate OAuth 2.0 tokens. See [Create a Webex OAuth application in Cisco DevNet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webex-meetings-spoke.md).
+The Cisco Webex Meetings spoke requires creating a custom app in Cisco DevNet to generate OAuth 2.0 tokens. See [Create a Webex OAuth application in Cisco DevNet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webex-meetings-spoke.md).
 
 ## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-This spoke uses the Webex alias record to authorize actions. For information about setting up the spoke, see [Set up Cisco Webex Meetings spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webex-meetings-spoke.md).
+This spoke uses the Webex alias record to authorize actions. For information about setting up the spoke, see [Set up Cisco Webex Meetings spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webex-meetings-spoke.md).
 

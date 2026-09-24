@@ -2,7 +2,7 @@
 title: Create notification channels
 description: You can add channels to receive your notifications. A notification channel is an email account or voice message system that you have access to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-channel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-channel.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -95,7 +95,7 @@ The service provider for SMS messages.
 
 ## What to do next
 
-To receive notifications on your new notification channel, you must enable the channel for individual notifications. After you enable the channel for a notification, you can set conditions to further control the notifications that you receive on the channel. For more information, see [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/apply-notification-conditions.md).
+To receive notifications on your new notification channel, you must enable the channel for individual notifications. After you enable the channel for a notification, you can set conditions to further control the notifications that you receive on the channel. For more information, see [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/apply-notification-conditions.md).
 
-**Parent Topic:**[Setting notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-notification-preferences.md)
+**Parent Topic:**[Setting notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-notification-preferences.md)
 

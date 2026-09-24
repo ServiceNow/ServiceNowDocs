@@ -2,7 +2,7 @@
 title: Add the tree picker attribute
 description: A limit of 1000 has been placed on the number of nodes returned to the tree picker. This limit is configurable with the glide.ui.group\_heirarchy.max\_nodes property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_AddTheTreePickerAttribute.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_AddTheTreePickerAttribute.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: personalize\_dictionary
     If there are multiple attributes, use a comma to separate them without any spaces between.
 
 
-**Parent Topic:**[Tree picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_TreePicker.md)
+**Parent Topic:**[Tree picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_TreePicker.md)
 

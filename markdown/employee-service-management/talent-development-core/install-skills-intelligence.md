@@ -2,7 +2,7 @@
 title: Install Skills Foundation
 description: You can install the Skills Foundation application \(com.sn\_skills\_int\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/install-skills-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/install-skills-intelligence.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

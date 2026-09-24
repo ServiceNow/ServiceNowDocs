@@ -2,7 +2,7 @@
 title: Quick start test for Workplace Visitor Management
 description: Validate Workplace Visitor Management after any configuration change such as an upgrade or after developing a functionality. Copy and customize these quick start test when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/quick-start-tests-wsd-visitor-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/quick-start-tests-wsd-visitor-mgmt.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -34,10 +34,10 @@ Workplace Visitor Management quick start tests require activating the Workplace 
 |----|-----------|---------------|
 |Test Register Guest|Ensure that the workplace users or employees can access the record producer and that the form has all the mandatory field values before submitting the record.|Washington DC|
 
--   **[Run quick start test for Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/quick-start-test-visitor-mgmt.md)**  
+-   **[Run quick start test for Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/quick-start-test-visitor-mgmt.md)**  
 Workplace Visitor Management provides quick start test that you can run on your instance.
 
-**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 

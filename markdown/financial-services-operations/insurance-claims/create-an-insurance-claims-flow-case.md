@@ -2,7 +2,7 @@
 title: Initiate an Insurance claims case
 description: Initiate an Insurance claims case on behalf of a claimant by using the Insurance claims application. When a customer calls in to report a claim, a claim intake specialist follows this procedure to capture important details and initiate a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-an-insurance-claims-flow-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/create-an-insurance-claims-flow-case.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -102,5 +102,5 @@ A claim case is created in the New state and the workflow is triggered. The case
 
 ## What to do next
 
-Processors and adjusters assign cases to themselves and start working on them. For more information, see [Process an Insurance claims case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/process-an-insurance-claims-flow-case.md) and [Work on Insurance claims adjuster tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/manage-an-insurance-claims-flow-case.md).
+Processors and adjusters assign cases to themselves and start working on them. For more information, see [Process an Insurance claims case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/process-an-insurance-claims-flow-case.md) and [Work on Insurance claims adjuster tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/manage-an-insurance-claims-flow-case.md).
 

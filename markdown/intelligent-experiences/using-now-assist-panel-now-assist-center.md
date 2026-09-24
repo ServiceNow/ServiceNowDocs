@@ -2,7 +2,7 @@
 title: Using the conversational experience in AI Admin Center
 description: Use the ServiceNow Otto panel to perform AI administration and setup tasks through a conversational interface directly in AI Admin Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/using-now-assist-panel-now-assist-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/using-now-assist-panel-now-assist-center.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -56,13 +56,13 @@ The self-healing AI agent can help with issues such as:
 -   Feature flags or activation toggles in an unexpected state
 -   Compatibility conflicts between plugins or versions
 
-For more information, see [Self-healing AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-self-healing-agent.md).
+For more information, see [Self-healing AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-self-healing-agent.md).
 
 ## AI Admin Center help AI agent
 
 Based on your chat request, the help AI agent may be engaged to find answers to your AI admin questions based on ServiceNow documentation. The AI agent responses provide relevant descriptions, instructions, references, and links to source documents that support your product experience.
 
-For more information, see [AI Admin Center help AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-help-agent.md).
+For more information, see [AI Admin Center help AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-help-agent.md).
 
 ## AI Analytics Q and A AI agent
 
@@ -76,5 +76,5 @@ The AI Analytics Q and A AI agent can address topics such as:
 -   Deflection log states and common deflection scenarios
 -   Changes to AI analytics dashboards between releases, such as updated or removed indicators and new dashboards
 
-For more information, see [AI Analytics Q and A agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-ask-analytics-agent.md).
+For more information, see [AI Analytics Q and A agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-ask-analytics-agent.md).
 

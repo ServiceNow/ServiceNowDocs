@@ -2,7 +2,7 @@
 title: Risk Score Calculator for Additional Related Tables
 description: The Risk Score Calculator is provisioned with one risk-scoring rule as part of the base system to calculate the risk score of security incidents based on user-defined criteria. However, you can customize and include additional related tables to calculate the risk score.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/risk-score-calculator-related-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/risk-score-calculator-related-tables.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -63,5 +63,5 @@ Role required: sn\_si.admin.
     \[Omitted image "risk-br-relation-score.png"\] Alt text: Add Relation To Score Calculator Queue business rule
 
 
-**Parent Topic:**[Define the new Risk Score Calculator Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/define-risk-score-calculator-rules-sir.md)
+**Parent Topic:**[Define the new Risk Score Calculator Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/define-risk-score-calculator-rules-sir.md)
 

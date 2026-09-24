@@ -2,7 +2,7 @@
 title: Jumpstart Your Walk-up Experience
 description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow’s Walk-Up Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-walkup-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-walkup-experience.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

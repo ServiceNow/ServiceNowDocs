@@ -2,7 +2,7 @@
 title: Create assets manually
 description: The ServiceNow AI Platform does not create an asset automatically under certain conditions. You can create an asset manually as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_CreatingAssetsManually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/product-catalog/t\_CreatingAssetsManually.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -42,7 +42,7 @@ Follow these steps to create an asset manually.
     This action creates assets from all CIs deferred for verification in this model category. This option is only available for users with the admin role.
 
 
-**Parent Topic:**[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ModelCategories.md)
+**Parent Topic:**[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/c_ModelCategories.md)
 
 **Related topics**  
 

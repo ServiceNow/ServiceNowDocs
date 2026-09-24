@@ -2,7 +2,7 @@
 title: Set up a software model for an SCCM application
 description: Using the applications discovered on the SCCM server, set up a software model used by the Software Asset Management application to manage licenses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-sw-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd-sw-model.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -49,5 +49,5 @@ You can link an SCCM application to an existing software model or create a new m
         The view returns to the SCCM Applications form.
 
 
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-sccm-ihub.md)
 

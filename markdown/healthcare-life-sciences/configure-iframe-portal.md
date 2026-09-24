@@ -2,7 +2,7 @@
 title: Configure iFrame embedding for Care Team Portal
 description: For the Care Team Portal to successfully launch in Hyperspace via Hyperdrive, the portal must be configured to work within an iFrame.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/configure-iframe-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/configure-iframe-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

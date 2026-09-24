@@ -2,7 +2,7 @@
 title: AI Search in Service Portal
 description: Configure the ServiceNow AI Search application for Service Portal so that portal users can take advantage of intelligent query features and quickly find the answers they need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/ai-search.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -42,7 +42,7 @@ Configure the ServiceNow AI Search application for Service Portal so that portal
 
     \[Omitted image "ais-tab-filters.png"\] Alt text: Tab filters example
 
-    For more information on using facets and tabs, see [Faceted Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/faceted-search.md).
+    For more information on using facets and tabs, see [Faceted Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/faceted-search.md).
 
 
 For more information on AI Search features, see [Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/explore-ais.md).
@@ -53,9 +53,9 @@ AI Search is a ServiceNow AI Platform feature that is active by default.
 
 AI Search is enabled in Service Portal for all new and zBoot customers by default.
 
-If you're upgrading to Australia as an existing customer, AI Search is inactive in Service Portal by default. You can enable it by updating the portal record. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+If you're upgrading to Australia as an existing customer, AI Search is inactive in Service Portal by default. You can enable it by updating the portal record. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-ais-sp.md).
 
-**Note:** Search widgets that you copied or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/reclassify-search-widgets.md).
+**Note:** Search widgets that you copied or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/reclassify-search-widgets.md).
 
 ## Configuring AI Search for Service Portal
 
@@ -70,32 +70,32 @@ Configure AI Search in Service Portal by defining the following:
     Defines how search results are displayed. For more information on defining a search results configuration, see [Define a composite dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-composite-dataset.md).
 
 
-You can change the search application configuration or search results configuration that your portal uses by updating the portal record. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+You can change the search application configuration or search results configuration that your portal uses by updating the portal record. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-ais-sp.md).
 
 To use a different search application or search results configuration for a specific search widget, update the widget instance options. AI Search is used in the following widgets:
 
--   [Homepage Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/home-page-search-widget.md)
--   [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/typeahead-search-widget.md)
--   [Faceted Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/faceted-search.md)
--   [Catalog Homepage Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/cat-homepage-search-widget.md)
--   [Knowledge Breadcrumbs widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/knowledge-breadcrumbs.md)
+-   [Homepage Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/home-page-search-widget.md)
+-   [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/typeahead-search-widget.md)
+-   [Faceted Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/faceted-search.md)
+-   [Catalog Homepage Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/cat-homepage-search-widget.md)
+-   [Knowledge Breadcrumbs widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/knowledge-breadcrumbs.md)
 
-To configure the search results payload to navigate to and display the appropriate portal page for a selected data source, define an AI Search results action. For more information, see [Define an AI Search Results Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ais-results-action.md).
+To configure the search results payload to navigate to and display the appropriate portal page for a selected data source, define an AI Search results action. For more information, see [Define an AI Search Results Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/ais-results-action.md).
 
 You can configure the action buttons in genius results by defining an Entity View Action Mapping \(EVAM\) action. For more information, see [Define an EVAM action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-action.md).
 
-You can customize the look and feel of the AI Search experience in Service Portal by updating the relevant CSS variables. For more information on these variables, see [Theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ais-sp-css-vars.md).
+You can customize the look and feel of the AI Search experience in Service Portal by updating the relevant CSS variables. For more information on these variables, see [Theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/ais-sp-css-vars.md).
 
 ## Browser support
 
 With AI Search enabled in Service Portal, users must log in with a browser such as Google Chrome, Mozilla Firefox, Microsoft Edge \(Chromium\), or Apple Safari.
 
--   **[Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md)**  
+-   **[Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-ais-sp.md)**  
 Enable and define the AI Search experience in your portal.
--   **[Define an AI Search Results Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ais-results-action.md)**  
+-   **[Define an AI Search Results Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/ais-results-action.md)**  
 Configure which portal page opens when a result is selected from the list of search results.
--   **[Create a CSS include to override theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/css-override-ais-theming-sp.md)**  
+-   **[Create a CSS include to override theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/css-override-ais-theming-sp.md)**  
 Override theming for AI Search in Service Portal to match your company branding.
 
-**Parent Topic:**[Configuring search in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-service-portal.md)
+**Parent Topic:**[Configuring search in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/search-service-portal.md)
 

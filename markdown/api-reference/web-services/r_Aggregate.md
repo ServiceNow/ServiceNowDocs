@@ -2,7 +2,7 @@
 title: aggregate
 description: Query a table using an aggregate function including SUM, COUNT, MIN, MAX, LAST, and AVG.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_Aggregate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/r\_Aggregate.html
 release: australia
 product: Web Services
 classification: web-services
@@ -181,5 +181,5 @@ More than one HAVING can be added to the request, so you can use HAVING expressi
 </SOAP-ENV:Envelope>
 ```
 
-**Parent Topic:**[Data Retrieval API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_DataRetrievalAPI.md)
+**Parent Topic:**[Data Retrieval API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_DataRetrievalAPI.md)
 

@@ -2,7 +2,7 @@
 title: Integrate Password Reset with your Microsoft Entra ID
 description: When the Microsoft Entra ID Integration for Password Reset store app is activated, the Password Reset application can manage passwords of a Microsoft Entra ID application. The application manages passwords by referencing a Microsoft Entra ID user with appropriate roles and password change privileges.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/Config-credential-store-micro-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/Config-credential-store-micro-azure.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -31,7 +31,7 @@ Role required: admin
 
 ## What to do next
 
-Create a connection to the credential store as described in [Configure the connection to an AD credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/config-ad-credential-store.md).
+Create a connection to the credential store as described in [Configure the connection to an AD credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/config-ad-credential-store.md).
 
-**Parent Topic:**[Credential Store for Password Reset for Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/credentials-store-micro-ad.md)
+**Parent Topic:**[Credential Store for Password Reset for Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/credentials-store-micro-ad.md)
 

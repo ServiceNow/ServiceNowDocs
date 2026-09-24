@@ -2,7 +2,7 @@
 title: Define the mitigation coverage
 description: Define mitigation coverage per technique to gain visibility into how well your organization can prevent related attacks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-the-mitigation-coverage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-the-mitigation-coverage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +23,7 @@ Define mitigation coverage per technique to gain visibility into how well your o
 
 The mitigation coverage definitions are used in the overall mitigation and technique coverage mapping. You can use the base system mitigation coverage. The base system mitigation coverage consists of coverage types None, Poor, Fair, Good, Very Good, and Excellent. The base system mitigation coverage is also associated with pre-defined colors, and coverage percentages. You can customize the coverage types \(add or remove coverage types\), coverage percentages for lower limits and higher limits, and colors, or create your custom mitigation coverage.
 
-The customizations that you make to the coverage types, colors, or percentages are used in the mitigation coverage mapping and also in the [heat map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-heatmap-and-navigator.md).
+The customizations that you make to the coverage types, colors, or percentages are used in the mitigation coverage mapping and also in the [heat map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md).
 
 ## Procedure
 
@@ -45,7 +45,7 @@ Overall Technique Mitigation Coverage
 
 </td><td>
 
-Name of the technique mitigation coverage. The [base system mitigation coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/technique-mitigation-coverage-definitions.md) consists of None, Poor, Fair, Good, Very Good, or Excellent.
+Name of the technique mitigation coverage. The [base system mitigation coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/technique-mitigation-coverage-definitions.md) consists of None, Poor, Fair, Good, Very Good, or Excellent.
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Description
 
 </td><td>
 
-Overall mitigation detection coverage. See the base system definition in the [technique mitigation coverage definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/technique-mitigation-coverage-definitions.md).
+Overall mitigation detection coverage. See the base system definition in the [technique mitigation coverage definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/technique-mitigation-coverage-definitions.md).
 
 </td></tr></tbody>
 </table>    **Note:** Ensure that you don't overlap the coverage percentage ranges if you customize the percentage limits \(lower or higher\). For example, if a coverage record has the ranges 0 to 20, then the next consecutive record must have lower limit range of 21 or higher to avoid overlapping the coverage percentage range.
@@ -85,10 +85,10 @@ Overall mitigation detection coverage. See the base system definition in the [te
 3.  To add an entry, select **New**, complete the entries, and select **Submit**.
 
 
--   **[Technique mitigation coverage definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/technique-mitigation-coverage-definitions.md)**  
+-   **[Technique mitigation coverage definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/technique-mitigation-coverage-definitions.md)**  
 Define your organization's mitigation coverage so that you can effectively measure and detect specific adversary techniques.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

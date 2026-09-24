@@ -2,7 +2,7 @@
 title: Resolve an out-of-sync principal class state in the Data Foundations advisor
 description: Resolve a principal class sync discrepancy by reviewing and updating the Data Foundations advisor scope in the Set principal classes dialog box.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-resolve-class-sync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-resolve-class-sync.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -23,13 +23,13 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-When other tools or processes change principal class designations outside the advisor, the Data Foundations advisor scope and the principal class state in the CMDB can diverge. An out-of-sync notification appears on the dashboard when this occurs. For more information, see [Principal class sync in Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-sync.md).
+When other tools or processes change principal class designations outside the advisor, the Data Foundations advisor scope and the principal class state in the CMDB can diverge. An out-of-sync notification appears on the dashboard when this occurs. For more information, see [Principal class sync in Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-sync.md).
 
 ## Procedure
 
 1.  Navigate to the Data Foundations advisor dashboard.
 
-    See [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
+    See [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
 
 2.  Open the Set principal classes dialog box.
 
@@ -46,5 +46,5 @@ When other tools or processes change principal class designations outside the ad
 
 ## Result
 
-The advisor scope is updated, and the out-of-sync notification no longer appears on the dashboard. For more information about selecting and managing principal classes, see [Getting started with Data Foundations advisor dashboard setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-get-started.md).
+The advisor scope is updated, and the out-of-sync notification no longer appears on the dashboard. For more information about selecting and managing principal classes, see [Getting started with Data Foundations advisor dashboard setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-get-started.md).
 

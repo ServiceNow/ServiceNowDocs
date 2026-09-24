@@ -2,7 +2,7 @@
 title: Domain Migration Tool
 description: Use the Domain Migration Tool to move a customer from a domain-separated environment to their own dedicated instance.Move a customer from a domain-separated environment into their own dedicated instance environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/tenant-domain-migration-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/tenant-domain-migration-tool.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -90,7 +90,7 @@ Role required: admin
 
 1.  Elevate to the security\_admin role.
 
-    See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md) for details.
+    See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md) for details.
 
 2.  Navigate to **All** &gt; **Domain Admin** &gt; **Domain Migration Tool**.
 
@@ -111,7 +111,7 @@ Role required: admin
 
 7.  Navigate to **All** &gt; **Domain Separation Center** &gt; **Configure Audits** .
 
-    See [Domain Separation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separation-center.md) for additional information.
+    See [Domain Separation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/domain-separation-center.md) for additional information.
 
 8.  Set the **Validate Domain Separated Table Schema** audit to **Active** and assign a schedule.
 
@@ -119,7 +119,7 @@ Role required: admin
 
 9.  Run the **Audit Schedule** that includes the schema.
 
-    See [Execute audits immediately](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/execute-audits-immediately.md) for details.
+    See [Execute audits immediately](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/execute-audits-immediately.md) for details.
 
 10. Address issues returned from the audit.
 

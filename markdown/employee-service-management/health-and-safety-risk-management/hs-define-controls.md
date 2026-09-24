@@ -2,7 +2,7 @@
 title: Define Health and Safety control measures
 description: Define effective control measures to eliminate or minimize the risks associated with each workplace hazard to help prevent workplace accidents and injuries. Maintain a list of all the controls in place in your organization for every type of job and the associated risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-define-controls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-define-controls.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -25,7 +25,7 @@ Role required: sn\_hs\_rm.risk\_manager or sn\_hs\_rm.risk\_data\_manager
 -   Review and update your list of control measures regularly to ensure its continued effectiveness.
 -   Risk assessment manager can also create a control measure during the hazard assessment for a risk assessment. If a control is not available in the **Available Control Measures** field, they can select **Create new control** to define and use a new control.
 
-    For more information, see [Assess safety hazards and risk levels for a risk analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/add-a-risk-and-its-controls-for-a-safety-risk-assessment.md).
+    For more information, see [Assess safety hazards and risk levels for a risk analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/add-a-risk-and-its-controls-for-a-safety-risk-assessment.md).
 
 
 ## Procedure
@@ -56,7 +56,7 @@ Control measure category
 
 </td><td>
 
-Category under which this control measure is organized. The list in this field displays items from the Hierarchy of controls \[sn\_hs\_rm\_hierarchy\_of\_controls\] table.For more information on control measure categories, see [Create a safety control measure category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-safety-hierarchy-controls.md).
+Category under which this control measure is organized. The list in this field displays items from the Hierarchy of controls \[sn\_hs\_rm\_hierarchy\_of\_controls\] table.For more information on control measure categories, see [Create a safety control measure category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-create-safety-hierarchy-controls.md).
 
 </td></tr><tr><td>
 
@@ -88,5 +88,5 @@ Option to mark this control measure available for use. A control measure must be
     -   **Add control measures** window on a JSA form.
     -   **Available Control Measures** field on the Hazard assessment form when conducting a risk assessment.
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

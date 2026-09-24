@@ -2,7 +2,7 @@
 title: Create group in Core Business Suite module
 description: Create custom groups for specific Core Business Suite functions and assign roles to group members.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/create-group-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/create-group-cbs.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
@@ -33,12 +33,12 @@ Create custom groups to organize users for specific business functions within Co
 
 4.  On the Create group page, fill in the fields and select **Save**.
 
-    For more details on the field descriptions, see [Create group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/groups-cbs-ref.md).
+    For more details on the field descriptions, see [Create group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/groups-cbs-ref.md).
 
 
 ## Result
 
 You created a custom group. You can start adding people to the group.
 
-**Parent Topic:**[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/groups-cbs.md)
+**Parent Topic:**[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/groups-cbs.md)
 

@@ -2,7 +2,7 @@
 title: Associate MITRE Techniques to a Case
 description: Associate one or more MITRE technique to a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-associate-mitre-technique.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-associate-mitre-technique.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -56,7 +56,7 @@ Role required: sn\_sec\_tisc.analyst
 
     **Note:**
 
-    Only the tactic and technique pairs that MITRE currently maps are offered, so you can't associate a pair that MITRE has stopped mapping. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
+    Only the tactic and technique pairs that MITRE currently maps are offered, so you can't associate a pair that MITRE has stopped mapping. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
 
 9.  Select **Save**.
 
@@ -80,5 +80,5 @@ Role required: sn\_sec\_tisc.analyst
     **Note:** Select pop out icon to pop out the associated matrix card to view in a new tab.
 
 
-**Parent Topic:**[Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md)
+**Parent Topic:**[Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md)
 

@@ -2,7 +2,7 @@
 title: Install and activate Incident Communications Management
 description: Install and activate the Incident Communications Management \(com.snc.iam\) plugin if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/t\_ActivateIncidentAlertManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/t\_ActivateIncidentAlertManagement.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -35,10 +35,10 @@ Role required: major\_incident\_manager, ia\_admin, or admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/config-inci-comm-mngmt.md)
+**Parent Topic:**[Configuring Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/config-inci-comm-mngmt.md)
 
 **Related topics**  
 
 
-[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/c_IncidentAlertManagement.md)
+[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertManagement.md)
 

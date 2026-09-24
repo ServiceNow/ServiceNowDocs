@@ -2,7 +2,7 @@
 title: Components installed with Vaccine Administration Management
 description: Several types of components are installed with Vaccine Administration Management, including user roles and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-installed-with-vaccine-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/vaccine-administration-management/hcls-installed-with-vaccine-mgmt.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management

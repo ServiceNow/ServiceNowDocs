@@ -2,7 +2,7 @@
 title: Maturity item details
 description: Fields on the Maturity item details form help you view and update the state and success goal of the maturity item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-maturity-item-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/sam-maturity-item-details.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -58,7 +58,7 @@ Success goal
 
 </td><td>
 
-Success goal associated to the maturity item. For more information about creating a success goal, see [Create success goals for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-success-goals.md).
+Success goal associated to the maturity item. For more information about creating a success goal, see [Create success goals for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-success-goals.md).
 
 </td></tr><tr><td>
 
@@ -132,5 +132,5 @@ Work notes
 Notes about the maturity item, which are visible to all users within your organization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 

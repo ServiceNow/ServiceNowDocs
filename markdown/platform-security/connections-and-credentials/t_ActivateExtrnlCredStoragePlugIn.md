@@ -2,7 +2,7 @@
 title: Request external credential storage for Discovery and Orchestration
 description: The External Credential Storage plugin is available by request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/t\_ActivateExtrnlCredStoragePlugIn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/t\_ActivateExtrnlCredStoragePlugIn.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -79,5 +79,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md)
+**Parent Topic:**[External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md)
 

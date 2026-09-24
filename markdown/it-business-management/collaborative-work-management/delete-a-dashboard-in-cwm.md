@@ -2,7 +2,7 @@
 title: Delete a dashboard in Collaborative Work Management
 description: Delete a dashboard in a CWM Board when your team no longer needs it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/delete-a-dashboard-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/delete-a-dashboard-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -19,7 +19,7 @@ Delete a dashboard in a CWM Board when your team no longer needs it.
 
 ## Before you begin
 
-Confirm that a dashboard is created. For more information, see [Create a dashboard for a CWM Board in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.md).
+Confirm that a dashboard is created. For more information, see [Create a dashboard for a CWM Board in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -52,5 +52,5 @@ You can't delete the predefined dashboards: Team progress and Team sprint tracke
 
 The dashboard is deleted. A confirmation message appears. The dashboard selector returns to the Team progress dashboard.
 
-**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
 

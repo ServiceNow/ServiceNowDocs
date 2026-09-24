@@ -2,7 +2,7 @@
 title: Stash local changes
 description: App developers can remove and save changes locally to apply them later in App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-stash-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/source-control-stash-changes.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -48,9 +48,9 @@ Stashing changes removes them from the current application and saves them for a 
 ## What to do next
 
 -   Close dialog
--   [Manage stashes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-manage-stashes.md)
+-   [Manage stashes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/source-control-manage-stashes.md)
 
 To learn more, see [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md)
 
-**Parent Topic:**[Stash changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/stash-changes.md)
+**Parent Topic:**[Stash changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/stash-changes.md)
 

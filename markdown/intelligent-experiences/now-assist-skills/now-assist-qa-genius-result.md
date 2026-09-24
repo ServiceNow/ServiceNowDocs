@@ -2,7 +2,7 @@
 title: Q&amp;A Genius Results
 description: The Q&amp;A Genius Results skill enables users to get answers to their questions from knowledge articles, external sources, and uploaded files directly in the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-qa-genius-result.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/now-assist-qa-genius-result.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills

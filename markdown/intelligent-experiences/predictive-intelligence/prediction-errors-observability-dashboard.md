@@ -2,7 +2,7 @@
 title: Reviewing prediction errors with the Observability Dashboard
 description: The Observability Dashboard offers a unified view and actionable insights for errors detected in Predictive Intelligence. Use this dashboard to visualize logged errors and gain information on prediction reliability and potential problem areas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/prediction-errors-observability-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/prediction-errors-observability-dashboard.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -42,9 +42,9 @@ The table logs the following types of granular errors.
 -   Internal prediction failures — identifies instances when the model was unable to generate a prediction.
 -   Low confidence predictions — records log results falling below a defined confidence threshold.
 
-**Note:** Errors in training aren't included in this table.For a dashboard reporting on training errors, see [Predictive Intelligence Usage Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intel-usage-analytics.md).
+**Note:** Errors in training aren't included in this table.For a dashboard reporting on training errors, see [Predictive Intelligence Usage Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/predictive-intel-usage-analytics.md).
 
 \[Omitted image "prediction-errors-observability-dashboardZ2.png"\] Alt text: The lower section of the Predictive Intelligence Observability dashboard, showing two widgets: Error Types by Capability, Successful and Unsuccessful Predictions Breakdown by Date.
 
-**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
 

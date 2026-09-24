@@ -2,7 +2,7 @@
 title: Getting started with process automation
 description: Learn how process automation applications can help you use the ServiceNow AI Platform to transform your manual business processes into digitized, automated workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/getting-started-process-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/getting-started-process-automation.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -27,11 +27,11 @@ ServiceNow process automation applications help you digitize, visualize, and man
 
 The ServiceNow process automation applications that you can use to digitize your business processes into automated workflows on the ServiceNow AI Platform include:
 
--   **[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)**
+-   **[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md)**
 
     Flows enables process owners to automate approvals, tasks, notifications, and record operations without having to code.
 
--   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)**
+-   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer.md)**
 
     Playbook enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
 
@@ -54,8 +54,8 @@ Many different user roles are involved in creating effective digitized, automate
 To find out more about how you can use Workflow Studio and Playbooks to digitize your business processes, try checking out these resources:
 
 -   [Flow Designer fundamentals course](https://nowlearning.service-now.com/lxp?id=overview&sys_id=af2b04171b6f80905c28997fbd4bcb05&type=course)
--   [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md)
--   [Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-processes.md)
+-   [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/exploring-flows.md)
+-   [Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-processes.md)
 
-**Parent Topic:**[Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-workflow-studio.md)
+**Parent Topic:**[Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/exploring-workflow-studio.md)
 

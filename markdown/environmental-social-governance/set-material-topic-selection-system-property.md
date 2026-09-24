@@ -2,7 +2,7 @@
 title: Set Material topic selection system property
 description: Set the Material topic selection system property to enable the Socialsuite integration features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/set-material-topic-selection-system-property.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/set-material-topic-selection-system-property.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ The **Sync Topics** button becomes available and the material topics heatmap dis
 
 ## What to do next
 
-[Create a Socialsuite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-socialsuite-connection.md)
+[Create a Socialsuite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-socialsuite-connection.md)
 
-**Parent Topic:**[Integrating Operational Sustainability Management with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.md)
+**Parent Topic:**[Integrating Operational Sustainability Management with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.md)
 

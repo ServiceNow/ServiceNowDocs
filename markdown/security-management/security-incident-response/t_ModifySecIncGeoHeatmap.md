@@ -2,7 +2,7 @@
 title: Modify security incident map
 description: Administrators in the global domain, can modify how the security incident map handles security incidents using filters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_ModifySecIncGeoHeatmap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/t\_ModifySecIncGeoHeatmap.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -35,5 +35,5 @@ Role required: sn\_si.admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Security incident map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_SecurityIncidentGeoHeatmap.md)
+**Parent Topic:**[Security incident map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/c_SecurityIncidentGeoHeatmap.md)
 

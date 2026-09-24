@@ -2,7 +2,7 @@
 title: Exception Management Overview
 description: When your organization can't comply with a published finding or security policy, standard, or guideline, you can request an exception. Exception management entails requesting, reviewing, approving, or rejecting exceptions to a finding or remediation task \(RT\) that can’t be remediated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-exception-management-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-exception-management-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -46,16 +46,16 @@ You can personalize the columns and rows with the help of the setting icon on th
     When an exception request for a particular finding or remediation task expires, the impacted finding or remediation task reverts to its **Open** state.
 
 
--   **[Approver roles required for Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approve-or-reject-request.md)**  
+-   **[Approver roles required for Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approve-or-reject-request.md)**  
 You can see the required roles for the approvers in the Security Exposure Management Workspace.
--   **[Questionnaire support in Exception Management via Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-smart-assessment-exp-management.md)**  
+-   **[Questionnaire support in Exception Management via Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-smart-assessment-exp-management.md)**  
 Configure advanced questionnaires as part of the exception management process using Smart Assessment. This enables Remediation Owners to provide more detailed context for Exception Requests and enables Approvers to configure conditional questions to gather information for informed decision making.
--   **[Defer a Remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-defer-rem-task.md)**  
+-   **[Defer a Remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-defer-rem-task.md)**  
 If you identify a finding or remediation task for which a fix is not yet available and can be safely deferred without additional analysis, you can use the **Request Exception** feature.
--   **[Request an extension for a deferred remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-extend-defer-rem.md)**  
+-   **[Request an extension for a deferred remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-extend-defer-rem.md)**  
 As a remediation owner, you’re no longer required to wait until the deferred due date to make this request. Request an extension for a deferred remediation task before it reaches its deferred until due date.
--   **[Request a false positive for a vulnerable item or remediate task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-falsepst-reqst.md)**  
+-   **[Request a false positive for a vulnerable item or remediate task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-falsepst-reqst.md)**  
 Indicate a false positive request for a finding or a remediation task in the Security Exposure Management Workspace. A false positive is a condition where a scanner incorrectly reports that a finding exists in the system due to situations such as an incorrect classification, improper logic, or an algorithm in the scanner.
 
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

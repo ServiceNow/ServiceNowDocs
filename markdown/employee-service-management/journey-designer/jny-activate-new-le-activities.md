@@ -2,7 +2,7 @@
 title: Activate new Lifecycle Events activities
 description: Journey designer customers must activate the following Lifecycle Events activities to enable support for the Pre-hire experience: Account/role setup and notification and Transition pre-hire to employee. These activities facilitate the transition of roles through which the employee navigates during the preboarding process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-activate-new-le-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-activate-new-le-activities.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -66,5 +66,5 @@ The activity set in which this activity is nested is triggered when the date in 
 
 Configure the widgets for the Pre-hire experience to ensure that they meet your organization's specifications.
 
-**Parent Topic:**[Enable and configure the Pre-hire Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-pre-hire-enable-configure.md)
+**Parent Topic:**[Enable and configure the Pre-hire Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-pre-hire-enable-configure.md)
 

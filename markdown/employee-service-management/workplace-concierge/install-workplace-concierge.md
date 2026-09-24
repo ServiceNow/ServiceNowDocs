@@ -2,7 +2,7 @@
 title: Install Workplace Concierge
 description: Install the Workplace Concierge application from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/install-workplace-concierge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/install-workplace-concierge.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -56,7 +56,7 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configure Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/configure-workplace-concierge.md)
+**Parent Topic:**[Configure Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/configure-workplace-concierge.md)
 
 **Related topics**  
 

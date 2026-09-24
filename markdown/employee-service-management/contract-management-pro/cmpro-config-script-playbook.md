@@ -2,7 +2,7 @@
 title: Add a script include method for the Playbook tab
 description: Add a script include method that controls the Playbook tab visibility on the contract repository record by verifying plugin availability and applying conditional logic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-config-script-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-config-script-playbook.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -49,5 +49,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
+**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
 

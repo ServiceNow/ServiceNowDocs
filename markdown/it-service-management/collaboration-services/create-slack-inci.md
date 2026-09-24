@@ -2,7 +2,7 @@
 title: Create slack channel for an incident
 description: Create a private or a public slack channel to collaborate with support teams or send a communication to keep stakeholders informed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/create-slack-inci.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/collaboration-services/create-slack-inci.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

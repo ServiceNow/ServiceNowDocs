@@ -2,7 +2,7 @@
 title: Scan Engine Developer dashboard
 description: The Developer dashboard includes trend charts and the following overview modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-development-team-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/scan-engine-development-team-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-29"

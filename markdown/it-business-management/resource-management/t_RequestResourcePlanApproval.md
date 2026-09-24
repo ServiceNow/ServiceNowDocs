@@ -2,7 +2,7 @@
 title: Request resources
 description: After you create a resource plan, request resources from the resource manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_RequestResourcePlanApproval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/t\_RequestResourcePlanApproval.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -37,7 +37,7 @@ Role required: it\_project\_manager, resource\_user
 
 The resource plan moves to the Requested state and is ready for review by the resource manager.
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 

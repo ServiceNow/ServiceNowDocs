@@ -2,7 +2,7 @@
 title: Display the integer values of all case states
 description: Display the integer values of all of the states associated with cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/integer-value-case-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/integer-value-case-states.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -36,5 +36,5 @@ The Value column on the Choices page displays the integer values of all the stat
 **Related topics**  
 
 
-[Default highlight color for different case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-case-cards-widget-default-color.md)
+[Default highlight color for different case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/portal-case-cards-widget-default-color.md)
 

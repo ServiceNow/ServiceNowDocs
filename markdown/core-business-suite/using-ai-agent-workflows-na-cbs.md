@@ -2,7 +2,7 @@
 title: Agentic Workflow in ServiceNow Otto for Core Business Suite \(CBS\)
 description: Agentic workflow in ServiceNow Otto for Core Business Suite \(CBS\) supports the Core Business Suite setup process through a conversational interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/using-ai-agent-workflows-na-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/using-ai-agent-workflows-na-cbs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-23"
@@ -55,5 +55,5 @@ The following AI agents are used to support the conversational setup process for
 
 For more information on the AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
-**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
+**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/now-assist-cbs.md)
 

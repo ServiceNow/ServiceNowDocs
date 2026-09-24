@@ -2,7 +2,7 @@
 title: Supplier contact
 description: Field descriptions for the \[vm\_vdr\_contact\] table, which stores supplier contact details used in the Supplier Collaboration Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/supplier-contact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/supplier-contact.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,5 +29,5 @@ You can view the supplier contact details.
 |User ID|String|User ID to identify the supplier|
 |Title|String|The designated title of the supplier.|
 
-**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
+**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

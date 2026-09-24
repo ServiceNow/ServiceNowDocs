@@ -2,7 +2,7 @@
 title: Organize favorites in Next Experience
 description: Find entries in the Next Experience Favorites menu quickly by organizing your favorites in a folder structure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/organize-favorites-next-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/organize-favorites-next-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

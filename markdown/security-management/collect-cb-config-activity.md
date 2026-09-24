@@ -2,7 +2,7 @@
 title: Collect Carbon Black Configurations Flow Action
 description: The Collect Carbon Black Configurations flow action gathers configuration information to use in the flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/collect-cb-config-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/collect-cb-config-activity.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ The output variables contain data that can be used in subsequent activities.
 |use\_mid\_server|Determines whether the REST activity uses the MID server to interact with Carbon Black or not.|
 |api\_token|Third-party integration API key.|
 
-**Parent Topic:**[Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-cb-get-running-processes-workflow.md)
+**Parent Topic:**[Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-cb-get-running-processes-workflow.md)
 

@@ -2,7 +2,7 @@
 title: Create New Invoice task form
 description: Field descriptions for the Create New Invoice task form used to create invoice inquiry tasks and exception tasks and complete the required details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-apm-task-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-apm-task-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -104,10 +104,10 @@ Description
 Detailed description about the task.
 
 </td></tr></tbody>
-</table>-   **[Invoice task form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-task-form-related-list.md)**  
+</table>-   **[Invoice task form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-task-form-related-list.md)**  
 Descriptions of the tabs on the Invoice task form and the information each tab contains for invoice tasks.
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

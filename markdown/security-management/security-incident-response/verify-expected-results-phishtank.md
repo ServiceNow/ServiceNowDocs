@@ -2,7 +2,7 @@
 title: Verify expected results for PhishTank
 description: Observables are generated automatically by a security incident and scanned by the application. Lookup results are displayed on the Threat Lookup Results tab at the bottom of the security incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-expected-results-phishtank.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/verify-expected-results-phishtank.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -51,9 +51,9 @@ Role required: sn\_si.analyst
 
 If you don't see results under the **Threat Lookup Results** tab, verify that the observable is a type that is supported for lookup by the integration.
 
-**Parent Topic:**[PhishTank integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/phishtank-lookups.md)
+**Parent Topic:**[PhishTank integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/phishtank-lookups.md)
 
-**Previous topic:**[Install and configure PhishTank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-configure-phishtank.md)
+**Previous topic:**[Install and configure PhishTank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/install-and-configure-phishtank.md)
 
-**Next topic:**[\(Optional\) Manually attach an observable for PhishTank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/attach-an-observable-manually-phishtank.md)
+**Next topic:**[\(Optional\) Manually attach an observable for PhishTank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/attach-an-observable-manually-phishtank.md)
 

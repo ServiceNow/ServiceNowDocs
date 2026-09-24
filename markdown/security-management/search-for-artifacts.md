@@ -2,7 +2,7 @@
 title: Search for security artifacts
 description: You can perform a keyword search on any security artifact list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/search-for-artifacts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/search-for-artifacts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ Role required: sn\_ti.case\_user\_write
     When artifacts that match your entry are found, they are displayed.
 
 
-**Parent Topic:**[Security artifact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-artifact-analysis.md)
+**Parent Topic:**[Security artifact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-artifact-analysis.md)
 
 **Related topics**  
 

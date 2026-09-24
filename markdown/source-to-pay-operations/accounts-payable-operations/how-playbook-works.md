@@ -2,7 +2,7 @@
 title: Playbook activities
 description: Playbooks in Accounts Payable Operations display the stages and activities for processing invoice cases and tracking progress through each stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/how-playbook-works.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/how-playbook-works.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -33,5 +33,5 @@ The stages and activities in a playbook life cycle are configured using [Process
 
 The playbook work area appears in the center part of the playbook section. It displays the action taken for the current activity, depending on the configured activity view.
 
-**Parent Topic:**[Playbook for updating the invoice primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/playbooks.md)
+**Parent Topic:**[Playbook for updating the invoice primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/playbooks.md)
 

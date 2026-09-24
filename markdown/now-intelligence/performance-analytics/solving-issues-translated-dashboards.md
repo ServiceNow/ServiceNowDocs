@@ -2,7 +2,7 @@
 title: Solving issues on translated dashboards
 description: Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/solving-issues-translated-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/solving-issues-translated-dashboards.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

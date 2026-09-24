@@ -2,7 +2,7 @@
 title: Generate a knowledge article from multiple closed cases
 description: Generate a draft knowledge article from multiple closed supplier cases using ServiceNow Otto for SLO, then review and publish it to the knowledge base.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/generate-article-multiple-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/generate-article-multiple-cases.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

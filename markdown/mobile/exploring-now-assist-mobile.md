@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Mobile
 description: With ServiceNow Otto for Mobile, your users can generate case resolution notes to wrap up cases faster, generate answers to search questions, and augment the Virtual Agent experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/exploring-now-assist-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/exploring-now-assist-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-14"

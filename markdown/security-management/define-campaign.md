@@ -2,7 +2,7 @@
 title: Define a campaign
 description: Define a campaign to group adversarial behaviors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-campaign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-campaign.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -219,5 +219,5 @@ Vulnerabilities
 Lists a weakness or defect in a software or hardware that attackers exploit which is associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-campaigns.md)
+</table>**Parent Topic:**[Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-campaigns.md)
 

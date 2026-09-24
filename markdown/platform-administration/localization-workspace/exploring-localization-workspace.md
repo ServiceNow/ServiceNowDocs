@@ -2,7 +2,7 @@
 title: Exploring Localization Workspace
 description: Localization Workspace is a targeted translation management experience for content owners and translation requesters. With Localization Workspace you can manage and deliver multilingual content at scale.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/exploring-localization-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/exploring-localization-workspace.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -38,7 +38,7 @@ Localization Workspace is available for on-premise \(self-hosted\) customers. It
 |Localization Workspace user|sn\_lw.user|
 |Terminology Manager|sn\_lw.terminology\_manager|
 
-For more information see [Localization Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace-roles.md).
+For more information see [Localization Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/localization-workspace-roles.md).
 
 ## Localization Workspace benefits
 
@@ -52,7 +52,7 @@ For more information see [Localization Workspace Roles](https://raw.githubuserco
 
 To learn more about setting up and using Localization Workspace, see:
 
--   [Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/configuring-localization-workspace.md)
--   [Requesting translations in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/requesting-translations-localization-workspace.md)
--   [Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace-reference.md)
+-   [Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/configuring-localization-workspace.md)
+-   [Requesting translations in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/requesting-translations-localization-workspace.md)
+-   [Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/localization-workspace-reference.md)
 

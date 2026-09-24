@@ -2,7 +2,7 @@
 title: Schedule a meeting from an opportunity
 description: Schedule a client meeting directly from an opportunity record to associate it with the opportunity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/schedule-meeting-opportunity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/schedule-meeting-opportunity.html
 release: australia
 topic_type: task
 last_updated: "2026-06-09"
@@ -57,13 +57,13 @@ To view all meetings for the opportunity, select the **Meetings** tab.
 **Related topics**  
 
 
-[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-mgmt-using.md)
 
-[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-opportunity.md)
+[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-touchpoints-opportunity.md)
 
-[Compose emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-emails-tab.md)
+[Compose emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-emails-tab.md)
 
-[Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md)
+[Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-tasks-tab.md)
 
-[Collaborate with stakeholders by using the sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-sidebars-teams.md)
+[Collaborate with stakeholders by using the sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-sidebars-teams.md)
 

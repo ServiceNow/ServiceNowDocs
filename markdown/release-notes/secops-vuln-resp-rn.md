@@ -2,7 +2,7 @@
 title: Vulnerability Response release notes
 description: The ServiceNow Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Vulnerability Response was enhanced and updated in the Australia release.The ServiceNow Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Vulnerability Response was enhanced and updated in the Australia release.The ServiceNow Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Vulnerability Response was enhanced and updated in the Australia release.The ServiceNow Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Vulnerability Response was enhanced and updated in the Australia release.The ServiceNow Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Vulnerability Response was enhanced and updated in the Australia release.The ServiceNow Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Vulnerability Response was enhanced and updated in the Australia release.The ServiceNow Vulnerability Response application brings security and IT together to enable you to remediate your most critical vulnerabilities more quickly and efficiently. Vulnerability Response was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/secops-vuln-resp-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/secops-vuln-resp-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-07-24"
@@ -43,7 +43,7 @@ See [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/Servic
     Starting with the Australia release, the Patch update and Collection fields on patch deployment records for the Microsoft SCCM and HCL BigFix Patch Orchestration integrations are deprecated in favor of new multi-value Patch updates and Collections fields, which support deploying more than one patch to more than one collection or computer group in a single deployment. Existing values in the deprecated fields are automatically migrated to the new fields during the upgrade. The deprecated fields remain on the form but are no longer used to create new deployments.
 
 
-**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/security-operations-rn-landing.md)
+**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/security-operations-rn-landing.md)
 
 ## September 2026
 

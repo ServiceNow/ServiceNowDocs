@@ -2,7 +2,7 @@
 title: Domain separation and Portfolio Planning
 description: If any conrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file. In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conref at the end that describes domain separation.Domain separation is supported for Portfolio Planning. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/domain-separation-and-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/domain-separation-and-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -38,9 +38,9 @@ After you enable domain separation on your ServiceNow instance, the data of Port
 
 ## Domain separated tables in Portfolio Planning
 
-All the tables installed with Portfolio Planning support domain separation. For a complete list of tables, see [Components installed with Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/installed-with-portfolio-planning.md).
+All the tables installed with Portfolio Planning support domain separation. For a complete list of tables, see [Components installed with Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/installed-with-portfolio-planning.md).
 
-**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
+**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/portfolio-planning-reference.md)
 
 **Related topics**  
 

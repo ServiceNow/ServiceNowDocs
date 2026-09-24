@@ -2,7 +2,7 @@
 title: User information metrics
 description: The metrics provide the user information performance snapshot within the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-user-info-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-user-info-metrics.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-27"
@@ -36,7 +36,7 @@ Application nodes can generally support large numbers that is, a few hundred of 
 -   If all application nodes show evidence of high session counts, review session timeouts to ensure that these are set to a reasonable value that is, 30 minutes with 90 minutes absolute maximum. If session timeouts are already reasonable, this may be an indication that additional application nodes should be added to the instance.
 -   If one or more individual application nodes show unusually high session count, check whether other application nodes have recently restarted which may have caused active users to be 'moved' to remaining nodes causing a session imbalance. In this case, restart the node\(s\) with extremely high session count.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

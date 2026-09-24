@@ -2,7 +2,7 @@
 title: Customize data display in Kiosks
 description: Create implementations to customize the display of data in the Schedule and Time off tabs based on your location or any other criterion according to your organizational requirement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-implementation-kiosk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/create-implementation-kiosk.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -44,5 +44,5 @@ Role required: admin
 
 You can view data on the **Schedule** and **Time off** tabs based on your location or any other user criterion you've set.
 
-**Parent Topic:**[Schedule in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/shift-time-kiosk-ec.md)
+**Parent Topic:**[Schedule in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/shift-time-kiosk-ec.md)
 

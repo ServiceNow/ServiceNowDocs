@@ -2,7 +2,7 @@
 title: RegressionSolution - Global
 description: The RegressionSolution API is a scriptable object used in Predictive Intelligence stores.Creates a regression solution.Cancels a job for a solution object that has been submitted for training.Gets the active RegressionSolutionVersion object.Gets all versions of a RegressionSolution object.Gets the latest version of a solution.Gets the name of the object to use for interaction with the store.Gets solution object properties.Gets a solution by provided version number.Activates a specified version of a solution in the store.Submits a training job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/RegressionSolutionAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/RegressionSolutionAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,18 +20,18 @@ This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) 
 
 The solution setup-to-training flow is as follows:
 
-1.  Create a dataset using the [DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) API.
-2.  Optional. Build an encoder using the [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md) API.
-3.  Use the [constructor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md) to create a regression solution object.
-4.  Add the solution object to the regression solution store using the [RegressionSolutionStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionStoreAPI.md) method.
-5.  Train the solution using the [submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md) method. This creates a version of the object that you can manage using the [RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) API.
-6.  Get predictions using the [RegressionSolutionVersion – predict\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) method.
+1.  Create a dataset using the [DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DatasetDefinitionAPI.md) API.
+2.  Optional. Build an encoder using the [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md) API.
+3.  Use the [constructor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionAPI.md) to create a regression solution object.
+4.  Add the solution object to the regression solution store using the [RegressionSolutionStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionStoreAPI.md) method.
+5.  Train the solution using the [submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionAPI.md) method. This creates a version of the object that you can manage using the [RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) API.
+6.  Get predictions using the [RegressionSolutionVersion – predict\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) method.
 
 **Note:** This API runs with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see [Query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/query-acl-rule.md).
 
 For usage guidelines, refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ml-apis.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## RegressionSolution - RegressionSolution\(Object config\)
 
@@ -86,7 +86,7 @@ Object
 
 </td><td>
 
-[DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) name.
+[DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DatasetDefinitionAPI.md) name.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Object
 
 </td><td>
 
-Optional. Trained encoder object to assign to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md).
+Optional. Trained encoder object to assign to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md).
 
 </td></tr><tr><td>
 
@@ -296,7 +296,7 @@ Gets the active RegressionSolutionVersion object.
 
 |Type|Description|
 |----|-----------|
-|Object|Active [RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) object.|
+|Object|Active [RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) object.|
 
 The following example shows how to get an active RegressionSolution version from the store and return its training status.
 
@@ -326,7 +326,7 @@ Gets all versions of a RegressionSolution object.
 
 |Type|Description|
 |----|-----------|
-|Array|Existing versions of a solution object. See also [RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) API.|
+|Array|Existing versions of a solution object. See also [RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) API.|
 
 The following example shows how to get all RegressionSolution version objects and call the getVersionNumber\(\) and getStatus\(\) solution version methods on them.
 
@@ -360,7 +360,7 @@ Gets the latest version of a solution.
 
 |Type|Description|
 |----|-----------|
-|Object|[RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) object corresponding to the latest version of a [RegressionSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md).|
+|Object|[RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) object corresponding to the latest version of a [RegressionSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionAPI.md).|
 
 The following example shows how to get the latest version of a solution and return its training status.
 
@@ -446,7 +446,7 @@ Object
 
 </td><td>
 
-Contents of the Dataset and [RegressionSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md) object details in the [RegressionSolutionStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionStoreAPI.md).```
+Contents of the Dataset and [RegressionSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionAPI.md) object details in the [RegressionSolutionStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionStoreAPI.md).```
 {
   "datasetProperties": {Object},
   "domainName": "String",
@@ -469,7 +469,7 @@ Contents of the Dataset and [RegressionSolution\(\)](https://raw.githubuserconte
 
 </td><td>
 
-Lists the properties of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) object associated with the solution.
+Lists the properties of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DatasetDefinitionAPI.md) object associated with the solution.
 
  ```
 {
@@ -553,7 +553,7 @@ Domain name associated with this dataset. See [Domain separation and Predictive 
 
 </td><td>
 
-Encoder object assigned to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EncoderAPI.md).Data type: Object.
+Encoder object assigned to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/EncoderAPI.md).Data type: Object.
 
 </td></tr><tr><td>
 
@@ -700,7 +700,7 @@ Gets a solution by provided version number.
 
 |Type|Description|
 |----|-----------|
-|Object|Specified version of the [RegressionSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md) object on which you can call [RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) API methods.|
+|Object|Specified version of the [RegressionSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionAPI.md) object on which you can call [RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) API methods.|
 
 The following example shows how to get the training status of a solution by version number.
 
@@ -746,7 +746,7 @@ String
 
 </td><td>
 
-Name of the [RegressionSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md) object version to activate.Activating this version deactivates any other version.
+Name of the [RegressionSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionAPI.md) object version to activate.Activating this version deactivates any other version.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -763,7 +763,7 @@ sn_ml.RegressionSolution.setActiveVersion("ml_incident_categorization");
 
 Submits a training job.
 
-**Note:** Before running this method, you must first add a solution to the store using the [RegressionSolutionStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionStoreAPI.md) method.
+**Note:** Before running this method, you must first add a solution to the store using the [RegressionSolutionStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionStoreAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -771,7 +771,7 @@ Submits a training job.
 
 |Type|Description|
 |----|-----------|
-|Object|[RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) object corresponding to the [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RegressionSolutionAPI.md) being trained.|
+|Object|[RegressionSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionVersionAPI.md) object corresponding to the [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RegressionSolutionAPI.md) being trained.|
 
 The following example shows how to create a dataset, apply it to a solution, add the solution to a store, and submit the training job.
 

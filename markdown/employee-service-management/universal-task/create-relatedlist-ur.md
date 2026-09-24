@@ -2,7 +2,7 @@
 title: Add a Universal Task related list
 description: Add a Universal Task related list to a service-specific form in both the ServiceNow AI Platform and Agent Workspace to let agents view a universal task for the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/create-relatedlist-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-task/create-relatedlist-ur.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -45,9 +45,9 @@ Role required: admin
     For more information on adding related lists, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md).
 
 
-**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Create UI actions for your service with Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-uiactions-for-ut.md)
+**Previous topic:**[Create UI actions for your service with Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/config-uiactions-for-ut.md)
 
-**Next topic:**[Add a Task tab on the Standard Ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-stdtktpage-for-ut.md)
+**Next topic:**[Add a Task tab on the Standard Ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/config-stdtktpage-for-ut.md)
 

@@ -2,7 +2,7 @@
 title: Employee Slate configuration for CBS
 description: Core Business Suite provides two setup options for configuring Employee Slate as the default employee support portal. You can select any one according to your organizational requirement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/employee-slate-config-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/employee-slate-config-cbs.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-05"
@@ -59,10 +59,10 @@ An AI-native employee portal with Now Assist. A fully native path with no extern
 </td></tr></tbody>
 </table>To set up any option, install the application and set it up in your Configuration Console.
 
--   **[Configure Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-es-cbs-moveworks.md)**  
+-   **[Configure Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/config-es-cbs-moveworks.md)**  
 Configure Employee Slate for Moveworks to provide a conversational interface for employee portal queries on CBS. Use the Configuration Summary page to complete setup across five sections and export the finished configuration.
--   **[Configure Employee Slate for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-es-cbs-na.md)**  
+-   **[Configure Employee Slate for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/config-es-cbs-na.md)**  
 Configure Employee Slate for Now Assist to provide a conversational interface for employee portal queries on CBS. Use the Configuration Summary page to complete setup across six sections and export the finished configuration.
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

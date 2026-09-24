@@ -2,7 +2,7 @@
 title: Old Inbound integrations experience
 description: Old experience - Inbound integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/old-inbound-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/old-inbound-integrations.html
 release: australia
 product: Authentication
 classification: authentication
@@ -20,15 +20,15 @@ Old experience - Inbound integrations.
 
 You can perform the OAuth inbound configuration, depending on the following type of grant type:
 
--   [OAuth authorization code grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthAuthorizationCodeFlow.md)
+-   [OAuth authorization code grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_OAuthAuthorizationCodeFlow.md)
 
     **Note:** For authorization code flow, user needs to complete the Authentication by local login, SSO or MFA and then provide consent.
 
--   [Password grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_AuthorizeAccessEndpiont.md)
--   [JWT bearer grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-jwt-endpoint.md)
--   [ID token flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/add-OIDC-entity.md)
--   [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthImplicitGrants.md)
--   [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/client-credentials.md)
+-   [Password grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_AuthorizeAccessEndpiont.md)
+-   [JWT bearer grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-jwt-endpoint.md)
+-   [ID token flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/add-OIDC-entity.md)
+-   [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_OAuthImplicitGrants.md)
+-   [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/client-credentials.md)
 
 Configure OAuth integration that includes the following enhancements from Zurich release:
 

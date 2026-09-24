@@ -2,7 +2,7 @@
 title: Generate Webhook URL
 description: Define a Webhook registry for generating the Webhook URL. Urjanet uses the Webhook URL to send real time data to the Operational Sustainability Management application when an Urjanet statement data is either generated or modified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-webhook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/configure-webhook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,5 +46,5 @@ A statement in Urjanet refers to a bill. Whenever a new statement is generated i
 
 Paste the URL that is generated in the Urjanet console to get real-time Urjanet statement data. For more information, contact your system administrator.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

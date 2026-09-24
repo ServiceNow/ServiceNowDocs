@@ -2,7 +2,7 @@
 title: Summarize a record through chat
 description: Quickly understand the contents of a record through a conversation with ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -21,9 +21,9 @@ Quickly understand the contents of a record through a conversation with ServiceN
 
 Role required: admin
 
-Verify that the custom app record summarization skill is activated and configured. For more information, see [Activate the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.md).
+Verify that the custom app record summarization skill is activated and configured. For more information, see [Activate the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.md).
 
-The following procedure describes how to summarize a record through chat in the ServiceNow Otto panel. You can also summarize a record in-product within Core UI or a custom workspace. For more information, see [Summarize a record in-product using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.md).
+The following procedure describes how to summarize a record through chat in the ServiceNow Otto panel. You can also summarize a record in-product within Core UI or a custom workspace. For more information, see [Summarize a record in-product using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.md).
 
 ## Procedure
 
@@ -65,5 +65,5 @@ If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
+**Parent Topic:**[Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
 

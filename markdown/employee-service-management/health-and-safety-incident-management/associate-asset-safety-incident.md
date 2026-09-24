@@ -2,7 +2,7 @@
 title: Associate an asset with a safety incident
 description: Associate an enterprise asset with a safety incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/associate-asset-safety-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-incident-management/associate-asset-safety-incident.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -24,7 +24,7 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 Add all the assets that are involved in an incident.
 
-**Note:** The assets can be associated only when the Expanded Model and Asset Classes \[sn\_ent\] application is installed. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
+**Note:** The assets can be associated only when the Expanded Model and Asset Classes \[sn\_ent\] application is installed. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
 
 ## Procedure
 
@@ -61,5 +61,5 @@ The selected asset is listed in the Assets involved section of the activity. It 
 
 Add a root cause analysis to perform root cause analysis for this incident.
 
-**Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
+**Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
 

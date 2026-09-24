@@ -2,7 +2,7 @@
 title: Configure the Security incident resolution plan skill
 description: Add your existing runbooks to the resolution plan generation skill. The runbooks provide additional context to the resolution plan generation skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/config-resolution-plan-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/config-resolution-plan-skill.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -52,5 +52,5 @@ Role required: sn\_si.admin
 10. Select **Save and continue**.
 
 
-**Parent Topic:**[Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)
+**Parent Topic:**[Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/activate-skills-for-now-assist-security-incident.md)
 

@@ -2,7 +2,7 @@
 title: Troubleshoot workflows
 description: Troubleshooting tools for workflows enable administrators to isolate execution paths, compare contexts, and track incomplete activities.Use the controls in a workflow timeline to isolate specific execution paths or compare multiple execution paths over time.Highlight execution paths and rollbacks to locate activities that may have been left in an unresolved state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_TroubleshootWorkflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/c\_TroubleshootWorkflows.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -20,7 +20,7 @@ Troubleshooting tools for workflows enable administrators to isolate execution p
 
 The workflow timeline provides a visual representation of the workflow, including transitions and the elapsed time for each activity. A troubleshooting tool for highlighting execution paths helps users perform forensics on a workflow. The highlighting feature can group multiple execution paths in various colors and can isolate [rollback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ApprovalAndRollbackActivities.md) processing. Use the workflow highlighter to isolate incomplete tasks and approvals. You can also enable a workflow performance timing feature to troubleshoot slow workflows.
 
-**Parent Topic:**[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md)
+**Parent Topic:**[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowOverview.md)
 
 ## Execution path troubleshooting in timelines
 
@@ -33,7 +33,7 @@ Timelines show how the activities in the workflow progressed in relation to one 
 **Related topics**  
 
 
-[Workflow timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowTimelines.md)
+[Workflow timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowTimelines.md)
 
 ## Execution history table
 

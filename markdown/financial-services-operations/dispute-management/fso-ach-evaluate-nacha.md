@@ -2,7 +2,7 @@
 title: Evaluate Nacha operating guidelines
 description: Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When enabled, the Nacha operating guidelines check AI agent can verify eligibility automatically based on documents such as a valid Written Statement of Unauthorized Debit \(WSUD\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -34,7 +34,7 @@ To access the knowledge base article:
 2.  Navigate to the knowledge base Dispute Compliance Documents.
 3.  Open the knowledge base article Nacha Operating Guidelines for Return Codes.
 
-**Note:** When the Nacha operating guidelines check AI agent is enabled, it can perform this evaluation for you, using the same knowledge article installed with the Dispute Rules Content Pack for Nacha to verify required documentation and confirm actions occur within the allowed time frames. To enable this capability, make sure that the AI Search option is turned on. See [Using Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-use.md) for more information about the content pack. When the Nacha operating guidelines check AI agent isn't enabled, use the knowledge base article earlier to evaluate the guidelines manually.
+**Note:** When the Nacha operating guidelines check AI agent is enabled, it can perform this evaluation for you, using the same knowledge article installed with the Dispute Rules Content Pack for Nacha to verify required documentation and confirm actions occur within the allowed time frames. To enable this capability, make sure that the AI Search option is turned on. See [Using Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-use.md) for more information about the content pack. When the Nacha operating guidelines check AI agent isn't enabled, use the knowledge base article earlier to evaluate the guidelines manually.
 
 ## Procedure
 
@@ -83,12 +83,12 @@ To access the knowledge base article:
 
 ## Result
 
-The **Final action** field is updated as **Eligible** or **Ineligible**. The task navigates to the next task, [Review ACH dispute return recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-review-recommendation.md).
+The **Final action** field is updated as **Eligible** or **Ineligible**. The task navigates to the next task, [Review ACH dispute return recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/fso-ach-review-recommendation.md).
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/process-dispute-ach.md)
 
 **Related topics**  
 
 
-[Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
+[Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
 

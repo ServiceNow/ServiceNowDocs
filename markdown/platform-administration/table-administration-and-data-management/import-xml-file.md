@@ -2,7 +2,7 @@
 title: Import data from XML
 description: After you have successfully exported data from the source instance to XML, import the XML file directly to the target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/import-xml-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/import-xml-file.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management

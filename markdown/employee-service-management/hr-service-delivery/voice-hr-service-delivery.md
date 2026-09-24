@@ -2,7 +2,7 @@
 title: ServiceNow Voice for HR Service Delivery
 description: The ServiceNow Voice for HR Agent Workspace provides seamless interactive voice response \(IVR\) and calling experiences for your employees and agents by integrating a cloud contact center provider with the robust capabilities of the Agent Workspace for HR Case Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/voice-hr-service-delivery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/voice-hr-service-delivery.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,5 +24,5 @@ Use ServiceNow Voice to facilitate inbound and outbound telephone calls for serv
 
 For more information, see [Integrating ServiceNow Voice for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-voice-hr-agent.md).
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 

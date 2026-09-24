@@ -2,7 +2,7 @@
 title: Active Directory activity pack
 description: The Active Directory \(AD\) activity pack enables an administrator to create, delete, and manage objects in Windows Active Directory, such as users, groups, and computers, using a ServiceNow Orchestration workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/c\_OrchActiveDirectoryActivities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/c\_OrchActiveDirectoryActivities.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -26,9 +26,9 @@ Your instance must have access to a MID Server configured to use PowerShell to r
 
 ## Custom Active Directory activities
 
-Orchestration provides custom Active Directory activities that were created with the Orchestration [Create a PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAPowershellActivity.md), starting with the Geneva release. These activities perform the same functions as AD activities by the same name from previous releases and replace those activities for all new workflows. Existing workflows from earlier versions that were created with legacy AD activities continue to function normally after an upgrade to Istanbul. However, all new workflows must use these custom AD activities. The Powershell activity template gives workflow administrators the ability to store input and output variables from the [Query AD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_QueryAD.md) activity in the [Databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
+Orchestration provides custom Active Directory activities that were created with the Orchestration [Create a PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAPowershellActivity.md), starting with the Geneva release. These activities perform the same functions as AD activities by the same name from previous releases and replace those activities for all new workflows. Existing workflows from earlier versions that were created with legacy AD activities continue to function normally after an upgrade to Istanbul. However, all new workflows must use these custom AD activities. The Powershell activity template gives workflow administrators the ability to store input and output variables from the [Query AD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_QueryAD.md) activity in the [Databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
 
-**Note:** To use the Active Directory custom activities, you must [request activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ActivateAnActivityPack.md) of the Orchestration - Active Directory plugin.
+**Note:** To use the Active Directory custom activities, you must [request activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_ActivateAnActivityPack.md) of the Orchestration - Active Directory plugin.
 
 ## Active Directory credentials with LDAP
 
@@ -38,30 +38,30 @@ If you are using an LDAP Server with MID Servers, note that Orchestration and Ac
 
 All Active Directory activities use port 389 for LDAP access. If you are using AD activities with Oracle Virtual Directory \(OVD\) as a proxy, set up pass-through on port 389 only.
 
--   **[Add User to Group AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_AddUserToGroupADActivity.md)**  
+-   **[Add User to Group AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_AddUserToGroupADActivity.md)**  
 The Add User to Group activity adds a user to a group in Windows Active Directory.
--   **[Change AD User Password activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_ChangeADUserPassword.md)**  
+-   **[Change AD User Password activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_ChangeADUserPassword.md)**  
 The Change AD User Password activity changes the password for an Active Directory user account.
--   **[Create AD Object activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_CreateADObject.md)**  
+-   **[Create AD Object activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_CreateADObject.md)**  
 The Create AD Object activity creates an object in Windows Active Directory.
--   **[Disable AD User Account activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_DisableADUserAccount.md)**  
+-   **[Disable AD User Account activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_DisableADUserAccount.md)**  
 The Disable AD User Account activity disables a Windows Active Directory user account, making it inactive.
--   **[Enable AD User Account activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_EnableADUserAccount.md)**  
+-   **[Enable AD User Account activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_EnableADUserAccount.md)**  
 The Enable AD User Account activity enables a Windows Active Directory user account, making it active.
--   **[Is AD Account Locked activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_IsADAccountLocked.md)**  
+-   **[Is AD Account Locked activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_IsADAccountLocked.md)**  
 The Is AD Account Locked activity determines whether an Active Directory user account is locked.
--   **[Query AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_QueryAD.md)**  
+-   **[Query AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_QueryAD.md)**  
 The Query AD activity retrieves entries from the Windows Active Directory based on an LDAP search filter and stores the results as a JSON string that can be used in the data bus.
--   **[Remove AD Object activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_RemoveADObject.md)**  
+-   **[Remove AD Object activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_RemoveADObject.md)**  
 The Remove AD Object activity deletes an object from Windows Active Directory.
--   **[Remove User from Group AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_RemoveUserFromGroupADActivity.md)**  
+-   **[Remove User from Group AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_RemoveUserFromGroupADActivity.md)**  
 The Remove User from Group activity removes a user from a group in Windows Active Directory.
--   **[Reset AD User Password activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_ResetADUserPassword.md)**  
+-   **[Reset AD User Password activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_ResetADUserPassword.md)**  
 The Reset AD User Password activity resets the password of a user account in Windows Active Directory.
--   **[Unlock AD Account activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_UnlockADAccount.md)**  
+-   **[Unlock AD Account activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_UnlockADAccount.md)**  
 The Unlock AD Account activity unlocks a locked Active Directory user account.
--   **[Update AD Object activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_UpdateADObject.md)**  
+-   **[Update AD Object activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_UpdateADObject.md)**  
 The Update AD Object activity updates an object in Windows Active Directory.
 
-**Parent Topic:**[Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md)
+**Parent Topic:**[Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md)
 

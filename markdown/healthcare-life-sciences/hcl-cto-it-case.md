@@ -2,7 +2,7 @@
 title: Healthcare IT case overview
 description: Use the Healthcare IT case to create case types for IT-related healthcare operational requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcl-cto-it-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcl-cto-it-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

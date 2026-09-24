@@ -2,7 +2,7 @@
 title: Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications
 description: Create the specification relationships and optional decomposition rules that define the associations between the product, service, and resource specifications for a product that you offer. These relationships impact how an order is fulfilled for a customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-specification-relationships-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/create-specification-relationships-somt.html
 release: australia
 topic_type: task
 last_updated: "2026-04-06"

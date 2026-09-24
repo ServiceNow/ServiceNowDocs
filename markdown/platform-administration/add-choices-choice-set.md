@@ -2,7 +2,7 @@
 title: Add choices to a dynamic choice set
 description: Build out a dynamic choice set by defining the choices that belong to it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/add-choices-choice-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/add-choices-choice-set.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

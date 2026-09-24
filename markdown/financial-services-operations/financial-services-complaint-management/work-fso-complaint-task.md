@@ -2,7 +2,7 @@
 title: Work on a complaint task for a complaint case
 description: Work on a complaint task to perform a legal review or to provide business unit inputs for the associated complaint service case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/work-fso-complaint-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-complaint-management/work-fso-complaint-task.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -20,7 +20,7 @@ Work on a complaint task to perform a legal review or to provide business unit i
 
 Role required: sn\_bom\_compl.agent or sn\_bom\_compl.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 

@@ -2,7 +2,7 @@
 title: Explore generating or exporting dashboards and visualizations in the ServiceNow Otto panel
 description: Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/exploring-analytics-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/exploring-analytics-assist.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ The now\_assist\_panel\_user role is required to use the dashboard and visualiza
 
 ## Activation
 
-The data visualization generation and dashboard and visualization export skills are included with Workflow Data Fabric applications from the ServiceNow Store. You have to activate the skills after installation. For more information, see [Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-now-ass-skills-pa.md).
+The data visualization generation and dashboard and visualization export skills are included with Workflow Data Fabric applications from the ServiceNow Store. You have to activate the skills after installation. For more information, see [Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configuring-now-ass-skills-pa.md).
 
 ## Supported user interfaces
 
@@ -49,5 +49,5 @@ Similarly, access the dashboard and visualization export skill by starting a con
 
 \[Omitted image "nowass-dv-list.png"\] Alt text: Result of the query showing a list of indicators.
 
-**Parent Topic:**[Dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-assist-landing-page.md)
+**Parent Topic:**[Dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-assist-landing-page.md)
 

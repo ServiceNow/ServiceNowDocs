@@ -2,7 +2,7 @@
 title: Organize components in UI Builder pages
 description: Column layouts organize components on a UI Builder page. Learn how column layouts are used in UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/work-layouts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/work-layouts.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -26,16 +26,16 @@ Column layouts in UI Builder use standards-based Cascading Style Sheets \(CSS\) 
 
 **Note:** If you have existing UI Builder pages created in an earlier release \(Utah or Tokyo\), you can upgrade to Vancouver or Washington DC and add column layouts to the pages.
 
--   **[Column layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/column-layout.md)**  
+-   **[Column layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/column-layout.md)**  
 Column layouts are used to design and organize UI Builder pages.
--   **[Upgrading layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/upgrade-layout-uib.md)**  
+-   **[Upgrading layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/upgrade-layout-uib.md)**  
 Upgrade layouts created in Quebec and Rome to the new layout system.
--   **[Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/flexbox-uib.md)**  
+-   **[Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/flexbox-uib.md)**  
 Create a Flexbox layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.
--   **[Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/css-grid-uib.md)**  
+-   **[Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/css-grid-uib.md)**  
 Create a CSS Grid layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.
--   **[Change the layout of a page created in Quebec or Rome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/change-layout.md)**  
+-   **[Change the layout of a page created in Quebec or Rome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/change-layout.md)**  
 Add and modify your layout design to change the way your page looks. Choose how components are displayed on a page through Cascading Style Sheets \(CSS\) web layout technologies, such as Flexbox and CSS Grid.
 
-**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-builder.md)
 

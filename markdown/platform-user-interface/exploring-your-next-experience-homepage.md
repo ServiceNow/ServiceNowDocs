@@ -2,7 +2,7 @@
 title: Exploring your Next Experience default landing page
 description: Access the Next Experience default landing page to see your work at a glance and identify where you can start.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/exploring-your-next-experience-homepage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/exploring-your-next-experience-homepage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

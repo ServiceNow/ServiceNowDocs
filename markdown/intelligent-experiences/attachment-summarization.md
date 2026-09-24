@@ -2,10 +2,10 @@
 title: Attachment Summarization
 description: The attachment summarization skill summarizes a record's attachments alongside the record summary, so agents can review key content without opening each file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/attachment-summarization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/attachment-summarization.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, Content Understanding, Enable AI experiences]
 ---
@@ -31,5 +31,5 @@ With the Attachment Summarization skill, agents can view a concise summary of ea
 **Related topics**  
 
 
-[Configure Attachment Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-attachment-summarization-skill.md)
+[Configure Attachment Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-attachment-summarization-skill.md)
 

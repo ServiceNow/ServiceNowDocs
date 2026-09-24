@@ -2,7 +2,7 @@
 title: Workplace Manager Dashboard
 description: Use the Workplace Manager dashboard to monitor the space allocation and workplace maintenance activities at your office campus. For any given day, you can view the details for available spaces, space reservations, pending workplace requests, arrival times for different locations, employee arrivals, and maintenance tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/workplace-manager-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/workplace-manager-dashboard.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -72,5 +72,5 @@ sn\_wsd\_core.workplace\_manager
 
 **Parent Topic:**[Workplace dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
+**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
 

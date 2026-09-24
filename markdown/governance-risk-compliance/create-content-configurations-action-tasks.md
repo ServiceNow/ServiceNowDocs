@@ -2,7 +2,7 @@
 title: Create Content configurations
 description: Set up the content configurations in the Template Configurations module to define the data you want to view or fetch when creating a report template. You can configure it to display a list of records or aggregated data, such as a list of remediation tasks or top priority issues. You can fetch up to 200 records from any table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-content-configurations-action-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-content-configurations-action-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -123,7 +123,7 @@ To specify table or data that you want to insert in the content block as a table
 **Related topics**  
 
 
-[Create reporting configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-reporting-configurations.md)
+[Create reporting configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-reporting-configurations.md)
 
-[Download the manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-manifest-file.md)
+[Download the manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/download-manifest-file.md)
 

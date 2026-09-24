@@ -2,7 +2,7 @@
 title: Components installed with ServiceNow Voice for HR Agent Workspace
 description: Several contact flows and operation handlers are installed with ServiceNow Voice for HR Agent Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instld-with-hr-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instld-with-hr-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -30,5 +30,5 @@ Operation handlers are reusable code components that get executed on the Service
 |createHRInteraction|Creates an interaction record in the ServiceNow instance for the incoming calls.|
 |fetchHRInteraction|Fetches interaction and processes sn\_cti\_hr\_cnt.enable\_ims\_update sys property for creating conversation.|
 
-**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-reference.md)
+**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/ccc-reference.md)
 

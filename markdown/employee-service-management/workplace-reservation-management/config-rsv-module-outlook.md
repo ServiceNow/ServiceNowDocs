@@ -2,7 +2,7 @@
 title: Configure Reservable Module for Microsoft Outlook
 description: Configure Reservable Module settings for Microsoft Outlook in Workplace Reservation Management version 3.0.2. Employees can create a meeting or an event in the Microsoft Outlook calendar, and reserve a space using the Workplace Reservation Management manifest add-in file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/config-rsv-module-outlook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/config-rsv-module-outlook.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -70,7 +70,7 @@ Role required: admin
 
         Option to configure invitees, reservation subject, reservation cancel notes, additional details record producer, display reservation on behalf of, and so on.
 
-    For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+    For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 4.  Select the **Reservable Table Configuration** tab to configure locations for reservation.
 
@@ -172,7 +172,7 @@ Available in
 
 </td><td>
 
-Select **Outlook Add-in** to enable Microsoft Outlook Add-in reservations. For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/outlook-create-rsv.md)**Note:** If you’re updating or migrating from Microsoft Outlook Add-in 1.12.2 or earlier, the default Reservable Module's sys\_id in the **sn\_wsd\_msaddin.default\_reservable\_module** is updated to Workplace Reservation Management 3.0.2. Employees can continue using the default Reservable Module after migrating. They can also use a different Reservable Module assigned to them. For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md).
+Select **Outlook Add-in** to enable Microsoft Outlook Add-in reservations. For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/outlook-create-rsv.md)**Note:** If you’re updating or migrating from Microsoft Outlook Add-in 1.12.2 or earlier, the default Reservable Module's sys\_id in the **sn\_wsd\_msaddin.default\_reservable\_module** is updated to Workplace Reservation Management 3.0.2. Employees can continue using the default Reservable Module after migrating. They can also use a different Reservable Module assigned to them. For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md).
 
 </td></tr><tr><td>
 
@@ -218,7 +218,7 @@ Enable browse by neighborhood
 
 </td><td>
 
-Reservation admin can indicate if neighborhood spaces are available for reservations. Employees can search in the context of a neighborhood and only the available spaces in a neighborhood are displayed for space reservation. For more information, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).This option is also available on the Now Mobile app.
+Reservation admin can indicate if neighborhood spaces are available for reservations. Employees can search in the context of a neighborhood and only the available spaces in a neighborhood are displayed for space reservation. For more information, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).This option is also available on the Now Mobile app.
 
 </td></tr><tr><td>
 
@@ -344,7 +344,7 @@ Allow Multiple Building Reservations
 
 </td><td>
 
-Option to add multiple buildings and select spaces from the buildings in a single reservation. The buildings can belong to different regions or locations and can be from different time zones. **Note:** Adding multiple buildings to a reservation is available only on the Workplace Service Portal. Recurring reservations aren’t supported for multi-building reservations. For more information, see [Create multi-building reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-building-reservation.md).
+Option to add multiple buildings and select spaces from the buildings in a single reservation. The buildings can belong to different regions or locations and can be from different time zones. **Note:** Adding multiple buildings to a reservation is available only on the Workplace Service Portal. Recurring reservations aren’t supported for multi-building reservations. For more information, see [Create multi-building reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-building-reservation.md).
 
 </td></tr><tr><td>
 
@@ -390,7 +390,7 @@ Max days for multi-day
 
 </td><td>
 
-Option to make a multi-day reservation. Employees can reserve an available space covering or spanning multiple days. For example, 5 days or more. For more information, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).Default value for this Reservable Module property is 1. To make a single day reservation, set the value to 1. Value 0 \(zero\) isn’t enabled.
+Option to make a multi-day reservation. Employees can reserve an available space covering or spanning multiple days. For example, 5 days or more. For more information, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).Default value for this Reservable Module property is 1. To make a single day reservation, set the value to 1. Value 0 \(zero\) isn’t enabled.
 
 When the **Max days for multi-day** value is more than 1, the **All day** option is inactive on the Reservation portal while making a reservation.
 
@@ -490,7 +490,7 @@ Max days for multi-day
 
 </td><td>
 
-Option to make a multi-day reservation. Employees can reserve an available space covering or spanning multiple days. For example, 5 days or more. For more information, [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
+Option to make a multi-day reservation. Employees can reserve an available space covering or spanning multiple days. For example, 5 days or more. For more information, [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
 
  Default value for this Reservable Module property is 1. To make a single day reservation, set the value to 1. Empty value or zero isn’t enabled.
 
@@ -585,7 +585,7 @@ Warn employee about presence exception
 
 </td><td>
 
-Option to warn employees if their presence is set to remote on the date of the reservation. The warning is displayed based on the [presence routine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/explore-workplace-concierge.md) of the employee. This option is available if [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/workplace-concierge-feat.md) is installed.
+Option to warn employees if their presence is set to remote on the date of the reservation. The warning is displayed based on the [presence routine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/explore-workplace-concierge.md) of the employee. This option is available if [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/workplace-concierge-feat.md) is installed.
 
 </td></tr><tr><td>
 
@@ -600,7 +600,7 @@ Option to enable employees to invite attendees to their reservation. Employees c
 
 **Note:** For Microsoft Outlook Add-in reservations, you should set the**sn\_wsd\_rsv.display\_invitees\_on\_outlook** value to true. If the **Allow invitees** option is selected and the **sn\_wsd\_rsv.display\_invitees\_on\_outlook** is set to true,employees can see the option to select invitees when making a reservation using Microsoft Outlook Add-in.
 
-For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
+For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
 
 If **Allow invitees** is set to false, and **sn\_wsd\_rsv.display\_invitees\_on\_outlook** property is set to true, then the property value is given priority and employees are allowed to add invitees to a reservation. If **Allow invitees** is true, and **sn\_wsd\_rsv.display\_invitees\_on\_outlook** is set to false, employees can’t add invitees to a reservation.
 
@@ -650,7 +650,7 @@ Additional details record producer
 
 </td><td>
 
-Option to link to the record producer that you have configured with additional fields. You can display additional fields on the reservation form. For more information, refer to [Configure reservable module with additional details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-reservable-module-with-custom-fields.md).
+Option to link to the record producer that you have configured with additional fields. You can display additional fields on the reservation form. For more information, refer to [Configure reservable module with additional details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/configure-reservable-module-with-custom-fields.md).
 
 </td></tr><tr><td>
 

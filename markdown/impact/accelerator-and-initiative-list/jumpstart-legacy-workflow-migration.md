@@ -2,7 +2,7 @@
 title: Jumpstart Your Workflow Automation: Flows
 description: This Accelerator provides an overview and applied demonstration of Flows in Workflow Studio, covering triggers, actions, sub-flows, and low-code automation capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-legacy-workflow-migration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-legacy-workflow-migration.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

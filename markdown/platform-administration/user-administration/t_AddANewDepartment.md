@@ -2,7 +2,7 @@
 title: Add a department
 description: Departments provide another way to categorize users, groups, and assets. You can add departments and assign them to users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_AddANewDepartment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/t\_AddANewDepartment.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -37,5 +37,5 @@ An administrator may need to configure the form to show all the fields listed in
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Creating users, companies, and departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/using-user-administration.md)
+**Parent Topic:**[Creating users, companies, and departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/using-user-administration.md)
 

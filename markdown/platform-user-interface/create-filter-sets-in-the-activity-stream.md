@@ -2,7 +2,7 @@
 title: Use filter sets in the Activity stream
 description: Create and save filter sets with custom conditions in the Activity stream.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-filter-sets-in-the-activity-stream.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/create-filter-sets-in-the-activity-stream.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

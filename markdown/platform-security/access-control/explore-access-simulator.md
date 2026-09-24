@@ -2,7 +2,7 @@
 title: Exploring Access Simulator
 description: Access Simulator helps you pre-validate how access to a specified table would change once a role or group is assigned or removed from the user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/explore-access-simulator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/explore-access-simulator.html
 release: australia
 product: Access Control
 classification: access-control
@@ -22,10 +22,10 @@ Use Access Simulator to simulate access requirements of your users on a specifie
 
 Use Access Simulator to pre-validate access for a selected user by:
 
--   [Adding Roles to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/add-role-to-user.md)
--   [Removing Roles from users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/remove-role-from-user.md)
--   [Adding users to Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/add-user-to-group.md)
--   [Removing users from Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/remove-user-from-group.md)
+-   [Adding Roles to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/add-role-to-user.md)
+-   [Removing Roles from users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/remove-role-from-user.md)
+-   [Adding users to Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/add-user-to-group.md)
+-   [Removing users from Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/remove-user-from-group.md)
 
-To learn more about Access Simulator settings and Enable Take Actions, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/configure-access-simulator.md).
+To learn more about Access Simulator settings and Enable Take Actions, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/configure-access-simulator.md).
 

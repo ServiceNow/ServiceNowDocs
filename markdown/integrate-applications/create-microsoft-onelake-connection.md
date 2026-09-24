@@ -2,7 +2,7 @@
 title: Create a Microsoft OneLake connection
 description: Establish a zero copy connection to a Microsoft OneLake system in Zero Copy Connector Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-microsoft-onelake-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-microsoft-onelake-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

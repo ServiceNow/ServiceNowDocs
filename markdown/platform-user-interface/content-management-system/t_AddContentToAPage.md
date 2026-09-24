@@ -2,7 +2,7 @@
 title: Add content to a page
 description: After you define the page settings, set the content of the page by adding content blocks. Setting content blocks is similar to how you add content to homepages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_AddContentToAPage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_AddContentToAPage.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -35,10 +35,10 @@ Role required: content\_admin or admin
     Create content blocks by adding one of the content blocks named **\*New \[block type\]** to the page.
 
 
-**Parent Topic:**[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentPages.md)
+**Parent Topic:**[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentPages.md)
 
 **Related topics**  
 
 
-[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)
+[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentBlocks.md)
 

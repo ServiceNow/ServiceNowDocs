@@ -2,7 +2,7 @@
 title: Considerations for activating Next Experience
 description: Next Experience delivers a next generation, intuitive, personalized experience to drive productivity, improve engagement, and surface insights across the ServiceNow AI Platform. Your path to activating Next Experience may depend on your instance's level of customization.How to enable or disable the Next Experience UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-adoption-paths.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-adoption-paths.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,9 +39,9 @@ If you're an existing customer who has made any of the following modifications t
 
 You can use the following tools and APIs with your implementation partner to help adjust your customizations to work well with the new Next Experience theme:
 
--   Scriptable PolarisUI API
--   [Next Experience client scripting globals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-exp-client-script-globals.md)
--   Jelly tags
+-   [Scriptable PolarisUI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PolarisUIScopedAPI.md)
+-   [Next Experience client scripting globals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-exp-client-script-globals.md)
+-   [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
 
 ## Existing customer who upgraded previously
 
@@ -49,7 +49,7 @@ If you upgraded your instance in an earlier release and no longer see the Turn o
 
 This approach applies to existing customers who deferred adoption during upgrade or who are activating Next Experience at a later time. To migrate to Next Experience after an upgrade:
 
-1.  Enable the Next Experience using the system property described in [Enable Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
+1.  Enable the Next Experience using the system property described in [Enable Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-adoption-paths.md).
 2.  Reload your instance.
 
 ## Existing customer opting out of the Next Experience UI prior to an upgrade
@@ -85,7 +85,7 @@ For more information, see:
 -   [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615)
 -   [KB1157068 – Live Feed Is Not Supported in Next Experience](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1157068)
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
 
 ## Enable Next Experience
 
@@ -97,9 +97,9 @@ Role required: admin
 
 ### About this task
 
-As an administrator, you can enable Next Experience for all users on your Australia instance, or let users enable or disable unified navigation for themselves. After Next Experience is enabled at the instance level, users can choose to enable or disable it for their own session from the user menu. For more information, see [Configure Next Experience user experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-next-experience-user-experience.md).
+As an administrator, you can enable Next Experience for all users on your Australia instance, or let users enable or disable unified navigation for themselves. After Next Experience is enabled at the instance level, users can choose to enable or disable it for their own session from the user menu. For more information, see [Configure Next Experience user experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-next-experience-user-experience.md).
 
-If you're a new customer running the Australia release, Next Experience is enabled by default. If you're upgrading, see the information at [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md) before you enable Next Experience.
+If you're a new customer running the Australia release, Next Experience is enabled by default. If you're upgrading, see the information at [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-adoption-paths.md) before you enable Next Experience.
 
 **Warning:** It's not recommended that you enable or disable the Next Experience UI until you've learned the impact of how that might affect your instance functionality. You might need assistance from the modification authors or an established partner to ensure a seamless activation.
 

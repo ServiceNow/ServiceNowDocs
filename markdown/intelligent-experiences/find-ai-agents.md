@@ -2,7 +2,7 @@
 title: Find AI agents
 description: Find available AI agents in AI Agent Studio to explore your options when creating agentic workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/find-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/find-ai-agents.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,15 +27,15 @@ AI agents are autonomous systems that interact with their environment to gather 
 
 1.  View the available AI agents in AI Agent Studio.
 
-<table id="choicetable_lzk_2kw_s2c"><thead><tr><th align="left" id="d157712e77">
+<table id="choicetable_lzk_2kw_s2c"><thead><tr><th align="left" id="d156094e77">
 
 Current location
 
-</th><th align="left" id="d157712e80">
+</th><th align="left" id="d156094e80">
 
 Navigation option
 
-</th></tr></thead><tbody><tr><td id="d157712e86">
+</th></tr></thead><tbody><tr><td id="d156094e86">
 
 **AI Agent Studio Overview page**
 
@@ -43,7 +43,7 @@ Navigation option
 
 Select the **Explore all** button in the Ready-made agentic workflow and AI agents section, and then select the **AI agents** tab.
 
-</td></tr><tr><td id="d157712e103">
+</td></tr><tr><td id="d156094e103">
 
 **AI Agent Studio Overview page**
 
@@ -51,7 +51,7 @@ Select the **Explore all** button in the Ready-made agentic workflow and AI agen
 
 View the Recent agentic workflows and AI agents activity section on the **AI agents** tab to see the most recently added or changed agents.**Note:** You see a list of the AI agents only when there's recent activity of the AI agents on your instance.
 
-</td></tr><tr><td id="d157712e119">
+</td></tr><tr><td id="d156094e119">
 
 **Anywhere else**
 

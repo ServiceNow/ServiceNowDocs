@@ -2,10 +2,10 @@
 title: Content insights AI agent
 description: The Content insights AI agent understands documents and images, answers questions, extracts structured data, and summarizes content within a single interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cu-content-insights-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cu-content-insights-ai-agent.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, Content Understanding, Enable AI experiences]
 ---
@@ -57,7 +57,7 @@ The agent provides three capabilities:
 **Related topics**  
 
 
-[Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-extract-information-from-document.md)
+[Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cu-extract-information-from-document.md)
 
-[Use cases in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-use-cases.md)
+[Use cases in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cu-use-cases.md)
 

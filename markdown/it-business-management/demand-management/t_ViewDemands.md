@@ -2,7 +2,7 @@
 title: View demands
 description: You can view existing demands at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_ViewDemands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/t\_ViewDemands.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -48,12 +48,12 @@ The **Project** field displays the project name after the demand manager creates
     -   **Demand**: if an idea is promoted to a demand, the pop-up window displays the current state of the demand as well as the idea.
     -   **Project**, **Enhancement**, **Change**, or **Defect**: If a demand is accepted, the pop-up window displays the current state of the resulting artifact in addition to the demand and idea.\[Omitted image "demand-stage-fields.png"\] Alt text: Demand stage field pop-up shows the demand and project stages.
 
--   **[View an artifact created from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_ViewAnArtifactCreatedFromADemand.md)**  
+-   **[View an artifact created from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_ViewAnArtifactCreatedFromADemand.md)**  
 As the demand manager, you can view an artifact created from a demand.
--   **[View a demand summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_ViewADemandSummary.md)**  
+-   **[View a demand summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_ViewADemandSummary.md)**  
 Hover over a bubble in the demand workbench bubble chart to display a summary of the demand information.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

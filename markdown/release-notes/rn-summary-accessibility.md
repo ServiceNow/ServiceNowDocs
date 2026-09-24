@@ -2,10 +2,10 @@
 title: Accessibility information for all Australia features and products
 description: Cumulative release notes summary on accessibility information for Australia features and products. Some products have specific accessibility information or exceptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-accessibility.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-23"
 reading_time_minutes: 8
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -304,5 +304,5 @@ UI Builder
 The expanded drop-down menus for column properties are compatible with screen readers, making interface navigation easier for screen reader users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/release-notes-summaries.md)
 

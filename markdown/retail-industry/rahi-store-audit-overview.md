@@ -2,7 +2,7 @@
 title: Retail Store Audit Operations
 description: Retail Store Audit Operations lets Plan Authors publish structured audit plans that automatically generate Store Audit Cases and Audit Tasks for field Auditors to complete across selected store locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-store-audit-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
@@ -29,13 +29,13 @@ HQ Auditors complete their assigned Store Audit Cases in CSM/FSM Workspace; Loca
 
 **Note:** The Store Audit Case and Audit Task list views don't have **New** or **Add** buttons—records are only created by the playbook or generation flow. Generated records remain visible from the **Retail cases** list.
 
--   **[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-overview.md)**  
+-   **[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/fsm-audit-overview.md)**  
 Field Service for Audit is a shared plugin that any product can use to create, assign, and track audit tasks on a common data model and access structure.
 
-**Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-explore.md)
+**Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-explore.md)
 
 **Related topics**  
 
 
-[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-overview.md)
+[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/fsm-audit-overview.md)
 

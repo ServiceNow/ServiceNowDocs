@@ -2,7 +2,7 @@
 title: Activate the Offboarding knowledge transfer trigger
 description: Enable the offboarding knowledge transfer trigger to ensure that the workflow runs at the right time during the employee offboarding process. This trigger automates knowledge discovery and categorization, reduces manual effort for managers, and improves consistency in knowledge transfer processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/activate-trigger-offboarding-kt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/activate-trigger-offboarding-kt.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -67,5 +67,5 @@ Role required: admin \[virtual\_agent\_admin\]
 
 The offboarding knowledge transfer trigger is now active. When an employee's offboarding journey begins, the system automatically initiates the knowledge transfer process with the manager through ServiceNow Otto.
 
-**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
+**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

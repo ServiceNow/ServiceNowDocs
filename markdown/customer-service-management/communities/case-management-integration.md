@@ -2,7 +2,7 @@
 title: Create a case from a discussion
 description: In order to engage your internal experts to reply to discussion threads, you can create cases directly from community questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/case-management-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/case-management-integration.html
 release: australia
 product: Communities
 classification: communities
@@ -27,10 +27,10 @@ Two sets of users can create cases from questions:
 -   Customer service agents, consumer service agents, and customer service managers.
 -   Users with the sn\_customerservice.proxy\_case\_creator role. Community administrators and community moderators inherit this role.
 
--   **[Administer create case from discussion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/case-mgmt-integration-administer.md)**  
+-   **[Administer create case from discussion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/case-mgmt-integration-administer.md)**  
 Configure parameters for the case generated from the community discussion so that it can be routed accordingly.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

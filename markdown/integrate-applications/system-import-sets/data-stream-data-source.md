@@ -2,7 +2,7 @@
 title: Data Stream \(Integration Hub\) data source
 description: Enable platform Data Sources to load data from Integration Hub Data Stream actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/data-stream-data-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/data-stream-data-source.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -16,7 +16,7 @@ breadcrumb: [Data sources, Import sets, Imports, Workflow Data Fabric]
 
 Enable platform Data Sources to load data from Integration Hub Data Stream actions.
 
-A Data Stream is a stream of response data larger than 10 MB or data that returns paginated results. Successful execution of the Data Stream action returns a complex data output stream that the Data Source consumes. For more information, see [Data stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md).
+A Data Stream is a stream of response data larger than 10 MB or data that returns paginated results. Successful execution of the Data Stream action returns a complex data output stream that the Data Source consumes. For more information, see [Data stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/data-stream-actions.md).
 
 Complex data allows you to encode and store structured data in a machine-readable format. Based on Data Source configuration, complex objects can be either flattened into an import table or serialized completely as JSON data into a single column.
 

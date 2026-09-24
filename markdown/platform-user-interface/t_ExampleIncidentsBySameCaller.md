@@ -2,7 +2,7 @@
 title: Add incidents by same caller related list
 description: This example adds the existing relationship, Incidents by Same Caller, to incident forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ExampleIncidentsBySameCaller.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ExampleIncidentsBySameCaller.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -55,10 +55,10 @@ Notes and limitations:
 
 Additional use case: You can enable a similar relationship for the Request table to display **Requests by the Same Caller** using **Requested For** on the Request table.
 
-**Parent Topic:**[Create defined related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateDefinedRelatedLists.md)
+**Parent Topic:**[Create defined related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_CreateDefinedRelatedLists.md)
 
 **Related topics**  
 
 
-[bundle-crapiref.c_GlideSystem]
+[GlideSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md)
 

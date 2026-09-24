@@ -2,7 +2,7 @@
 title: Create a country code
 description: Created topic for STRY55294083 - DOC1071773 Create, review, update, or delete a country code by using the Telecommunications Network Inventory application. A country can have multiple phone formats and phone validations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create\_a\_country\_code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create\_a\_country\_code.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -49,7 +49,7 @@ Create a country code and add conditions to it so that you can manage, review, o
 
 ## What to do next
 
-Create an area code. For information, see [Create an area code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_an_area_code.md).
+Create an area code. For information, see [Create an area code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_an_area_code.md).
 
-**Parent Topic:**[Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
+**Parent Topic:**[Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
 

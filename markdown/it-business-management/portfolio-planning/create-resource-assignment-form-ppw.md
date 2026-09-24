@@ -2,7 +2,7 @@
 title: Resource assignment form
 description: The resource assignment form enables you to create a resource assignment record for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-resource-assignment-form-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-resource-assignment-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

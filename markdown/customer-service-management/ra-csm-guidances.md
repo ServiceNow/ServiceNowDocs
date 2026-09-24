@@ -2,7 +2,7 @@
 title: Guidances in Recommended Actions
 description: A guidance is an action that an agent can take or information that an agent can share as they work to resolve tasks, such as customer service cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidances.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-guidances.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -76,8 +76,8 @@ Default guidance for search results
 
 Default guidance that can be used for any search sources that don't have dedicated mapped guidances. For more information, see the following topics:
 
--   [Automatically map AI search results with guidance inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search-automatically.md)
--   [Default guidance for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-default-guidance-search.md)
+-   [Automatically map AI search results with guidance inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-configuring-ai-search-automatically.md)
+-   [Default guidance for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-default-guidance-search.md)
 
 .
 
@@ -176,7 +176,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Attach and share article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md)
+[Attach and share article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-attach-share-article.md)
 
 </td><td>
 
@@ -186,7 +186,7 @@ This guidance recommends knowledge articles to an agent who is working on a task
 
 </td></tr><tr><td>
 
-[Share KB in chat interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-share-kb-chat.md)
+[Share KB in chat interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-share-kb-chat.md)
 
 </td><td>
 
@@ -199,10 +199,10 @@ Recommended Actions is a component that you can add to a record page in [UI Buil
 
 The Recommended Actions component includes two views: a preview view \(card view\) and a detail view \(full article view\). How these views are displayed is determined by the Recommended Actions configuration. For more information, see the following topics:
 
--   [Create a guidance in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-create.md)
--   [Configure a guidance preview experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidance-configure-preview.md)
--   [Customize a guidance preview experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-ra-preview-experience.md)
--   [Customize a guidance detail view in U Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-ra-detail-experience.md)
+-   [Create a guidance in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-create.md)
+-   [Configure a guidance preview experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidance-configure-preview.md)
+-   [Customize a guidance preview experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customize-ra-preview-experience.md)
+-   [Customize a guidance detail view in U Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customize-ra-detail-experience.md)
 
 The Recommended Actions component includes **Recommended Action Specific Configuration** property. Users with the administrator role can use this property to configure the following settings:
 

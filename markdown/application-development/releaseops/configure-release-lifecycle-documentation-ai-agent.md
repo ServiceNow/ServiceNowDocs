@@ -2,7 +2,7 @@
 title: Configure release lifecycle documentation AI agent
 description: Configure the release lifecycle documentation AI agent to start automating your app governance tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/configure-release-lifecycle-documentation-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/configure-release-lifecycle-documentation-ai-agent.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -33,7 +33,7 @@ By default, the release lifecycle documentation AI agent is inactive. To use the
 
 1.  Install the ServiceNow Otto for Creator application and all plugins.
 
-    For more information, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md).
+    For more information, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/install-now-assist-for-creator.md).
 
 2.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 
@@ -47,7 +47,7 @@ By default, the release lifecycle documentation AI agent is inactive. To use the
 
     By default, using the release lifecycle documentation AI agent requires the update\_set\_admin and sn\_aia.viewer roles. You can add additional role requirements if needed.
 
-    For more information about the roles required, see [Roles required for using the release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/release-lifecycle-documentation-ai-agent-roles.md). For more information about defining AI agent access, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
+    For more information about the roles required, see [Roles required for using the release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/release-lifecycle-documentation-ai-agent-roles.md). For more information about defining AI agent access, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
 6.  In the side panel, select **Select channels and status**.
 
@@ -66,6 +66,6 @@ By default, the release lifecycle documentation AI agent is inactive. To use the
 
 Start using the release lifecycle documentation AI agent to generate update set descriptions and release notes.
 
--   [Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/generate-release-notes.md)
--   [Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/generate-update-set-description.md)
+-   [Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/generate-release-notes.md)
+-   [Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/generate-update-set-description.md)
 

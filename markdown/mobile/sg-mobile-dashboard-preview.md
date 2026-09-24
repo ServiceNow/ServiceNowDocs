@@ -2,7 +2,7 @@
 title: Create a mobile analytics preview
 description: Use a mobile analytic preview within a mobile dashboard to display data visualizations on your launcher screen pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-dashboard-preview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-dashboard-preview.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 To display a data visualization in a launcher screen you need a chart or single score report. For information about creating data visualizations, see [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md) and [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
-For details about data visualization settings and configurations that are available for display in the mobile platform, see [Data visualization fields available for display in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-visualization-mobile-fields.md).
+For details about data visualization settings and configurations that are available for display in the mobile platform, see [Data visualization fields available for display in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/data-visualization-mobile-fields.md).
 
 ## Procedure
 
@@ -88,7 +88,7 @@ Data Visualization
 
 Data visualization to be displayed in your chart preview.Click the arrow to display a list of all data visualizations hosted on the instance. If you select a data visualization not supported for mobile, when you open the launcher screen, a message displays which states that the content can't be shown.
 
-For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md). For information about the data displayed in data visualizations for mobile devices, see [Data visualization fields available for display in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-visualization-mobile-fields.md).
+For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md). For information about the data displayed in data visualizations for mobile devices, see [Data visualization fields available for display in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/data-visualization-mobile-fields.md).
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Destination screen navigation
 
 </td><td>
 
-Select **Choose** to select an existing navigation type function to use when a user taps the chart preview or select **New** to create a navigation function. For more information, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-nav-functions.md).
+Select **Choose** to select an existing navigation type function to use when a user taps the chart preview or select **New** to create a navigation function. For more information, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-nav-functions.md).
 
 </td></tr></tbody>
 </table>6.  Select Data visualization in the **Type** field.
@@ -132,5 +132,5 @@ Select **Choose** to select an existing navigation type function to use when a u
 
 ## What to do next
 
-After creating a mobile analytics dashboard preview, you need to create a data visualization chart screen. For more information, see [Create a chart screen for a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-single-score-applet.md).
+After creating a mobile analytics dashboard preview, you need to create a data visualization chart screen. For more information, see [Create a chart screen for a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-single-score-applet.md).
 

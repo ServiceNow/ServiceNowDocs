@@ -2,7 +2,7 @@
 title: Default configurations for important dates
 description: Predefined set of important dates configurations are available to use once you have activated Manager Hub from ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/manager-hub-imp-dates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/manager-hub-imp-dates.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +27,7 @@ Predefined set of important dates configurations are available to use once you h
 
 For more details, navigate to **All** &gt; **Manager Hub** &gt; **Administration** &gt; **Important Dates Configuration**.
 
-**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 

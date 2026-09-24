@@ -2,7 +2,7 @@
 title: Create an automated test in Assistant Designer Asset library
 description: Create automated tests in Assistant Designer Asset library, and run tests regularly against ideal conversation topic flows. You can create multiple automated tests for a topic to capture different conversation flows for various situations such as ideal conversation paths or errors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-automated-test-vad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-automated-test-vad.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -27,7 +27,7 @@ Role required: atf\_test\_designer, atf\_ws\_designer, atf\_test\_admin, virtual
 
 As you work on a published topic, setup topic, or small talk topic, select **Test** on the header bar to run your conversation in a chat test window. The default test window is the web \(Service Portal\) chat client. Use the **Create test case** button to create a test case and save the test case in the Automated Test Framework.
 
-**Note:** You can find a list of NLU/Keyword test cases by selecting the **Manage NLU/Keyword test cases** toggle switch on the Assistant Designer Asset library page. Automated tests are also listed on the Automated Test Framework \(ATF\) Tests \[sys\_atf\_test\] table. For more information on managing NLU/Keyword test cases, see [Manage and run automated test cases in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/manage-automated-test-cases.md)
+**Note:** You can find a list of NLU/Keyword test cases by selecting the **Manage NLU/Keyword test cases** toggle switch on the Assistant Designer Asset library page. Automated tests are also listed on the Automated Test Framework \(ATF\) Tests \[sys\_atf\_test\] table. For more information on managing NLU/Keyword test cases, see [Manage and run automated test cases in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/manage-automated-test-cases.md)
 
 ## Procedure
 
@@ -89,5 +89,5 @@ The test case is saved. To review your saved test case, select **Manage** on the
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Automated testing for Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/automated-testing-va-topics.md)
+**Parent Topic:**[Automated testing for Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/automated-testing-va-topics.md)
 

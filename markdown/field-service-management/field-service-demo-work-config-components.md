@@ -2,7 +2,7 @@
 title: Field Service Demo Work Configuration components
 description: Several type of components like tables, script includes, and business rules are installed for Field Service Demo Work Configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-demo-work-config-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-demo-work-config-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Components installed with additional plugins, Reference, Field Serv
 
 Several type of components like tables, script includes, and business rules are installed for Field Service Demo Work Configuration.
 
-Install the Field Service Demo Work Configuration for Break fix \(com.snc.fsm\_mri\_scanner\_breakfix\_work\_config\) plugin for a Field Service Work Configurations demo workflow. For more information see [Configuring Field Service Work Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configuring-work-configs.md).
+Install the Field Service Demo Work Configuration for Break fix \(com.snc.fsm\_mri\_scanner\_breakfix\_work\_config\) plugin for a Field Service Work Configurations demo workflow. For more information see [Configuring Field Service Work Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configuring-work-configs.md).
 
 ## Tables
 
@@ -116,5 +116,5 @@ Break fix - Field Service Work Order Summary
 Work order summary template for MRI Scanner breakfix example workflow for Work Configurations.**Note:** The questionnaire is available only if Field Service Demo Work Configuration for Break fix \(com.snc.fsm\_mri\_scanner\_breakfix\_work\_config\) plugin is installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 

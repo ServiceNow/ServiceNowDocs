@@ -2,7 +2,7 @@
 title: Summarize an Operational Technology incident by using ServiceNow Otto for Operational Technology \(OT\) Service Management
 description: Understand the Operational Technology \(OT\) incident context and respond to user questions by using the OT incident summarization skill in the ServiceNow Otto for OT Service Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/summarize-ot-incident-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/summarize-ot-incident-now-assist.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -101,5 +101,5 @@ To view details about the summary, select the more info icon \(\[Omitted image "
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-now-assist-otsm.md)
+**Parent Topic:**[Using ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/using-now-assist-otsm.md)
 

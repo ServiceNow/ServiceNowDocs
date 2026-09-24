@@ -2,7 +2,7 @@
 title: Create a case from the Consumer Service Portal
 description: As a user with the consumer role, you can create cases from the Consumer Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-consumer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-case-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ The new case is created and added to the Cases list. To view the case, select th
 **Related topics**  
 
 
-[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-consumer-portal.md)
+[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-cases-consumer-portal.md)
 
-[Chat with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-chat-agent-consumer-portal.md)
+[Chat with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/start-chat-agent-consumer-portal.md)
 

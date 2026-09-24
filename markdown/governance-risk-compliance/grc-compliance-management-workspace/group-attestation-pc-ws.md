@@ -2,7 +2,7 @@
 title: Group assessments for similar assessments in the Tasks page
 description: Provide response to similar assessments by grouping the assessments based on metric type, and additionally the same entity, control objective, or category in the Tasks page of the Compliance Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/group-attestation-pc-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/group-attestation-pc-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -38,7 +38,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
 5.  Select a **Response type** in the Group assessments pop-up.
 
-    For more information on the response types, see [Group attestations using Same Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
+    For more information on the response types, see [Group attestations using Same Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
 
 6.  Select a criterion to group the assessments in the **Group by** list.
 

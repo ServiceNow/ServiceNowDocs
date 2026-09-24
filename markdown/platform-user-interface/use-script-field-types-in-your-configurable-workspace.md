@@ -2,7 +2,7 @@
 title: Configure script fields for a workspace
 description: Configure a Configurable Workspace to support script fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-script-field-types-in-your-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/use-script-field-types-in-your-configurable-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

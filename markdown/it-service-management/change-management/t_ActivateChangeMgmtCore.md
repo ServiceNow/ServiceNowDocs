@@ -2,7 +2,7 @@
 title: Activate Change Management - Core
 description: You can activate the Change Management - Core plugin \(com.snc.change\_management\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ActivateChangeMgmtCore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_ActivateChangeMgmtCore.html
 release: australia
 product: Change Management
 classification: change-management
@@ -49,7 +49,7 @@ The Type value on existing the Change Requests will be updated as following:
 
 ## What to do next
 
-You can activate one or more of the following [plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md):
+You can activate one or more of the following [plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md):
 
 -   State model \(com.snc.change\_management.state\_model\)
 -   Change Management - Collision Detector \(com.snc.change.collision\)
@@ -60,12 +60,12 @@ You can activate one or more of the following [plugins](https://raw.githubuserco
 -   Mass update CI \(com.snc.change\_management.mass\_update\_ci\)
 -   CAB workbench \(com.snc.change\_management.cab\)
 
-You can now [configure Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md).
+You can now [configure Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-change-management.md).
 
--   **[Installed with Change Management - Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/r_InstlldWthChngMgmtCore.md)**  
+-   **[Installed with Change Management - Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/r_InstlldWthChngMgmtCore.md)**  
 Several types of components are installed with the Change Management - Core.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

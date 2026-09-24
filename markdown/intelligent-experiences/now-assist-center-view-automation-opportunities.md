@@ -2,7 +2,7 @@
 title: View your automation opportunities
 description: Review the automation opportunities that AI Agent Advisor has identified for your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-view-automation-opportunities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-view-automation-opportunities.html
 release: australia
 topic_type: task
 last_updated: "2026-07-30"
@@ -17,7 +17,7 @@ Review the automation opportunities that AI Agent Advisor has identified for you
 
 ## Before you begin
 
-Automation discovery must be set up and an analysis run must be completed. For more information, see [Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md).
+Automation discovery must be set up and an analysis run must be completed. For more information, see [Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-automation-discovery-setup.md).
 
 Role required: sn\_na\_center.nac\_admin
 
@@ -114,7 +114,7 @@ The status is empty for an opportunity that has at least one step requiring an A
 
 ## What to do next
 
-Implement an automation opportunity. For more information, see [Implement an automation opportunity from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md).
+Implement an automation opportunity. For more information, see [Implement an automation opportunity from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-automation-opportunity-now-assist-center.md).
 
-**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
+**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 

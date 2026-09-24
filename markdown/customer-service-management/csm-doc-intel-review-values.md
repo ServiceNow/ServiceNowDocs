@@ -2,7 +2,7 @@
 title: Review and submit values predicted by Document Intelligence
 description: Agents can extract, validate, and update the key values from valid attachments in the case using the Document Intelligence interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-doc-intel-review-values.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-doc-intel-review-values.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

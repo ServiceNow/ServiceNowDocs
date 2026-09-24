@@ -2,7 +2,7 @@
 title: Enable and disable Search Suggestions in Zing
 description: Enable the Search Suggestions application to improve the Zing search user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/enable-search-suggestions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/enable-search-suggestions.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -58,7 +58,7 @@ On new instances, the first parameter is set to **true** and the second is set t
     2.  In the **Value** field, double-click the value and select **true** to enable suggestions, or **false** to disable Search Suggestions globally.
 
 
-**Parent Topic:**[Zing displays search suggestions as users enter search terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-suggestions-zing.md)
+**Parent Topic:**[Zing displays search suggestions as users enter search terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/search-suggestions-zing.md)
 
 **Related topics**  
 

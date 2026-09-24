@@ -2,7 +2,7 @@
 title: Using formatters
 description: A formatter is a form element used to display information that is not a field in the record. Add formatters to a form by configuring the form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_Formatters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_Formatters.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Activity formatter
 
 Displays the list of activities, or history, on a task form.
 
- For an example of an activity formatter, see [Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md).
+ For an example of an activity formatter, see [Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ActivityFormatter.md).
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Process flow formatter
 
 Displays the different stages in a linear process flow across the top of a record.
 
- For an example of a process flow formatter, see [Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ProcessFlowFormatter.md).
+ For an example of a process flow formatter, see [Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_ProcessFlowFormatter.md).
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Parent breadcrumbs formatter
 
 Provides breadcrumbs to show the parent or parents of the current task.
 
- For an example of a parent breadcrumbs formatter, see [Parent breadcrumbs formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TaskParentBreadcrumbsFormatter.md).
+ For an example of a parent breadcrumbs formatter, see [Parent breadcrumbs formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_TaskParentBreadcrumbsFormatter.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Approval summarizer formatter
 
 Displays dynamic summary information about the request being approved.
 
- For an example of an approval summarizer formatter, see [Approval summarizer formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ApprovalSummarizerFormatter.md).
+ For an example of an approval summarizer formatter, see [Approval summarizer formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_ApprovalSummarizerFormatter.md).
 
 </td></tr><tr><td>
 
@@ -77,22 +77,22 @@ Displays on the CI form a toolbar for viewing the relationships between the curr
 
 To create a custom formatter, create a UI macro to define content for the formatter, then create a formatter that refers to the UI macro. You can then add the formatter to a form.
 
--   **[Create a UI macro for a formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIMacro.md)**  
+-   **[Create a UI macro for a formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateAUIMacro.md)**  
 Create a UI macro to define the content that the formatter displays.
--   **[Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md)**  
+-   **[Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateAFormatter.md)**  
 Create the formatter after creating the UI macro that defines the content.
--   **[Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md)**  
+-   **[Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ActivityFormatter.md)**  
 The activity formatter provides an easy way to track items not saved with a field in the record, for example, journal fields like comments and work notes.
--   **[Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ProcessFlowFormatter.md)**  
+-   **[Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_ProcessFlowFormatter.md)**  
 The process flow formatter provides a graphical summary of the stages in a process. The formatter is typically shown at the top of forms that are part of a process.
--   **[Parent breadcrumbs formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TaskParentBreadcrumbsFormatter.md)**  
+-   **[Parent breadcrumbs formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_TaskParentBreadcrumbsFormatter.md)**  
 The parent breadcrumbs formatter on the Task table provides breadcrumbs that show the parent or parents of the current task. This formatter can be used also on any table that extends Task.
--   **[Approval summarizer formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ApprovalSummarizerFormatter.md)**  
+-   **[Approval summarizer formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_ApprovalSummarizerFormatter.md)**  
 The approval summarizer formatter creates the summary at the bottom of an approval form.
--   **[Override a formatter with macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_UIMacroOverride.md)**  
+-   **[Override a formatter with macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_UIMacroOverride.md)**  
 The system uses formatters to handle complex rendering of specific form elements.
--   **[Limit the number of activity stream entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/limit-activity-stream-entries.md)**  
+-   **[Limit the number of activity stream entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/limit-activity-stream-entries.md)**  
 You can set a system property to limit the number of entries allowed in an activity stream.
 
-**Parent Topic:**[Administering forms on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/form-administration.md)
+**Parent Topic:**[Administering forms on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/form-administration.md)
 

@@ -2,7 +2,7 @@
 title: Radware-appDirector load balancer discovery
 description: Discovery of Radware load balancers is performed by SNMP.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/radware-appdirector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/radware-appdirector.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -57,5 +57,5 @@ The following data is collected on the Load Balancer Services `[cmdb_ci_lb_servi
 |Operational Status|operational\_status|
 |Install Status|install\_status|
 
-**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

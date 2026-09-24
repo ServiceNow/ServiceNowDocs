@@ -2,7 +2,7 @@
 title: Enabling the mobile experience for Mobile Time Sheets
 description: Enable the mobile experience for Mobile Time Sheets so users can fill out time sheets and user managers can approve or reject them from their mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/enable-timesheet-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/time-card-management/enable-timesheet-mobile.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -35,5 +35,5 @@ Role required: admin
 
 [Log in to an instance with a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/login-end-user.md).
 
-**Parent Topic:**[Install Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/install-timesheet-mobile.md)
+**Parent Topic:**[Install Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/install-timesheet-mobile.md)
 

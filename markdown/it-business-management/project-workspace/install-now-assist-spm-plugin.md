@@ -2,7 +2,7 @@
 title: Install AI plugins
 description: Install AI plugins to enable generative AI on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/install-now-assist-spm-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/install-now-assist-spm-plugin.html
 release: australia
 product: Project Workspace
 classification: project-workspace

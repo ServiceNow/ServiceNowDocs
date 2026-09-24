@@ -2,7 +2,7 @@
 title: Care Team Operations for Biomed case table
 description: The Care Team Operations for Biomed Case \[sn\_cto\_biomed\_case\] enables streamlined support for operational healthcare IT use cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-case-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-biomed-case-table.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Other additional Security Incident Response setup tasks
 description: If you are an administrator in the global domain, you configure how Security Incident Response handles day-to-day operations.To protect investigations and keep security incidents private, you can restrict Security Incident Response access to security-specific roles and ACLs. Non-security administrators can be restricted from access, unless you expressly allow them entry.The Restricted Caller Access \(RCA\) feature enables an administrator to define cross-scope access to an application or application resource and allow or deny access requests. This feature is enabled in Security Incident Response by default so security analysts can protect sensitive security-related information.Validate that Security Incident Response still works after you make any configuration changes, such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_ConfigureSIM.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/t\_ConfigureSIM.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

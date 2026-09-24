@@ -2,7 +2,7 @@
 title: L1 IT Service Desk AI Specialist release notes
 description: The ServiceNow L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, the appropriate request item, such as a software access, is proposed. The L1 IT Service Desk AI Specialist is a new application in the Australia release. See the following sections for release notes by version.The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Australia release.The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/l1-service-desk-ai-specialist-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/l1-service-desk-ai-specialist-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-24"
@@ -44,7 +44,7 @@ See [L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/Service
     Multi-language support for the L1 IT Service Desk AI Specialist may vary.
 
 
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-service-management-rn-landing.md)
 
 ## Version 2.0
 

@@ -2,7 +2,7 @@
 title: Smart Documents
 description: Accelerate document insights with instant text and voice summaries, interactive Q&amp;A, and FAQs and redaction using ServiceNow Otto in Document Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-skills-smart-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/now-assist-skills-smart-documents.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills

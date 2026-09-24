@@ -2,7 +2,7 @@
 title: NLQ Genius Results
 description: NLQ \(Natural Language Query\) Genius Results use NLQ processing to surface relevant results from tables that match your search query. Each NLQ Genius Result answer card displays a preview of records from matching tables. You can navigate to a matching table's list view or the CMDB workspace directly from the Genius Result answer card.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/genius-result-nlq-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/genius-result-nlq-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -61,7 +61,7 @@ When you select **View full table** in an NLQ Genius Result answer card, the act
 -   If the table was found by an Analytics Overview table query, the system displays it in list view.
 -   If the table was found by a CMDB table query, the system displays it in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-workspace.md).
 
-Search administrators can customize these actions. For more information, see the [Configure navigation actions for NLQ Genius Result answer cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-nav-action-nlq-grs.md) section.
+Search administrators can customize these actions. For more information, see the [Configure navigation actions for NLQ Genius Result answer cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-nav-action-nlq-grs.md) section.
 
 ## Review feedback
 
@@ -84,12 +84,12 @@ NLQ Genius Results don't support the following table query options:
 -   Trend and single score visualizations
 -   Keywords that return results in non-list formats, such as `total`, `count`, or `average`
 
--   **[Display NLQ Genius Result answers in Service Portal search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/display-nlq-gr-service-portal-apps.md)**  
+-   **[Display NLQ Genius Result answers in Service Portal search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/display-nlq-gr-service-portal-apps.md)**  
 Configure the system to display search result preview lists for NLQ Genius Result answers in Service Portal search applications.
--   **[Configure navigation actions for NLQ Genius Result answer cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-nav-action-nlq-grs.md)**  
+-   **[Configure navigation actions for NLQ Genius Result answer cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-nav-action-nlq-grs.md)**  
 Configure the navigation actions that trigger when a user selects **View full table** on an NLQ Genius Result action card. Each navigation action includes a redirection payload and can optionally include filters for a table's name, the NLQ source that returned the table, or the search profile used by the search application.
--   **[System properties for NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/sys-properties-nlq-gr.md)**  
+-   **[System properties for NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/sys-properties-nlq-gr.md)**  
 A system property determines whether the system displays search result preview lists for NLQ Genius Result answers in Service Portal search applications.
 
-**Parent Topic:**[Genius Result configurations in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/default-genius-result-configs-ais.md)
+**Parent Topic:**[Genius Result configurations in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/default-genius-result-configs-ais.md)
 

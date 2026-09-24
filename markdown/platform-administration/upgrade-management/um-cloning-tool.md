@@ -2,7 +2,7 @@
 title: Cloning tool in Upgrade Console
 description: Utilize the System Clone application to duplicate an entire database from one instance to another. This cloning process, commonly employed to replicate a production instance for pre-production testing, leverages the latest nightly backup as the data source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-cloning-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-cloning-tool.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -23,9 +23,9 @@ You can achieve the following using the System Clone tool:
 -   Clone a ServiceNow instance from a backup.
 -   Clone a ServiceNow instance over a production instance.
 
-See [Exploring Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-instance-clone.md) for more information.
+See [Exploring Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/exploring-instance-clone.md) for more information.
 
-**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-tools.md)
+**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-tools.md)
 
 **Related topics**  
 

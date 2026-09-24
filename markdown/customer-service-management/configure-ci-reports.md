@@ -2,7 +2,7 @@
 title: Configure reports for the Customer Information view
 description: Configure which reports to display on the Customer Information view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-ci-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-ci-reports.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

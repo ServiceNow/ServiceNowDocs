@@ -2,7 +2,7 @@
 title: Manage and review automation executions
 description: Manage and review your automation executions, including their states, so that you can make sure that they are on track.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/view-automation-executions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/view-automation-executions.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -33,10 +33,10 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 5.  Review the information on the Automation Executions page.
 
 
-**Parent Topic:**[Execute and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/execute-and-monitor.md)
+**Parent Topic:**[Execute and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/execute-and-monitor.md)
 
 **Related topics**  
 
 
-[Automation execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-execution-form.md)
+[Automation execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-execution-form.md)
 

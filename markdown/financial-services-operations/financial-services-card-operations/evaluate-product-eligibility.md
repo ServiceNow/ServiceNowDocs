@@ -2,7 +2,7 @@
 title: Evaluate the product eligibility for a customer
 description: Evaluate the eligibility of the requested product for the customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/evaluate-product-eligibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-card-operations/evaluate-product-eligibility.html
 release: australia
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -20,7 +20,7 @@ Evaluate the eligibility of the requested product for the customer.
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 

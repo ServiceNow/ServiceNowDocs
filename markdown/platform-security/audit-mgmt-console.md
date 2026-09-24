@@ -2,7 +2,7 @@
 title: Configure auditing using Audit Management Console
 description: Use Audit Management Console module to experience a more enhanced way of defining and configuring the audit capability within your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/audit-mgmt-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/audit-mgmt-console.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,6 +48,6 @@ Role required: admin
 
 6.  Select **Save** to save the latest modifications.
 
-    Select **Clear All** to remove all the columns being enabled. See [Setup your audit retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/setup-audit-retention.md) for more information about audit data retention.
+    Select **Clear All** to remove all the columns being enabled. See [Setup your audit retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/setup-audit-retention.md) for more information about audit data retention.
 
 

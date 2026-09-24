@@ -2,7 +2,7 @@
 title: View favorite territories on a map
 description: View and manage territories and their associated resource details in the list view and on a map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/move-territories-to-my-selection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/move-territories-to-my-selection.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

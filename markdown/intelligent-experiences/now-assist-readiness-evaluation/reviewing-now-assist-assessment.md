@@ -2,7 +2,7 @@
 title: Reviewing your AI assessment
 description: This automated assessment process evaluates potential implementation impacts and provides actionable insights for your AI products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
@@ -19,7 +19,7 @@ This automated assessment process evaluates potential implementation impacts and
 
 Navigate to **Workspaces** &gt; **AI Readiness Evaluation** and select the assessment icon \[Omitted image "na-assessment-icon.png"\] Alt text: to review your AI assessment.
 
-**Note:** Before viewing your AI assessments, you must first have run the scheduled jobs to get the assessment results. If you haven't run your scheduled jobs, you are prompted to do so on an individual job level. For more information on running scheduled jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md) and [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
+**Note:** Before viewing your AI assessments, you must first have run the scheduled jobs to get the assessment results. If you haven't run your scheduled jobs, you are prompted to do so on an individual job level. For more information on running scheduled jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md) and [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
 
 The summary tab provides a consolidated summary of features, including AI capabilities across AI Search, Virtual Agent \(VA\), IT Service Management \(ITSM\), Customer Service Management \(CSM\), and HR Service Delivery \(HRSD\), as well as their corresponding estimated remediation efforts. The results shown are estimates. You should evaluate results provided by AI Readiness Evaluation for accuracy and appropriateness for your use case.
 
@@ -50,5 +50,5 @@ You can select **Download Report** to export the entire assessment report in PDF
 
 \[Omitted image "nare-assessment-nava.png"\] Alt text: ServiceNow Otto for Virtual Agent assessment is shown, along with relevant Virtual Agent questions and answers.
 
-After reviewing the assessment and making the suggested assessment changes, rerun your scheduled jobs to see how your results improve. For more information on rerunning a specific job or all jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md).
+After reviewing the assessment and making the suggested assessment changes, rerun your scheduled jobs to see how your results improve. For more information on rerunning a specific job or all jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md).
 

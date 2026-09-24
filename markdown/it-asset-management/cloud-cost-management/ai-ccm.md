@@ -2,7 +2,7 @@
 title: AI in Cloud Cost Management
 description: Set up, manage, and optimize your generative AI solutions on the ServiceNow AI Platform from a single workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/ai-ccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/ai-ccm.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -24,7 +24,7 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
 For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-For more information about AI capabilities in Cloud Cost Management, see [Analyze cloud spend using the Cloud cost summarizer generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/spend-summary-otto-ccm.md).
+For more information about AI capabilities in Cloud Cost Management, see [Analyze cloud spend using the Cloud cost summarizer generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/spend-summary-otto-ccm.md).
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 

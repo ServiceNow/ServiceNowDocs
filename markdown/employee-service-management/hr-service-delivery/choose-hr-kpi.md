@@ -2,7 +2,7 @@
 title: Customizing HR benchmarks
 description: Choose HR KPIs based on your business requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/choose-hr-kpi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/choose-hr-kpi.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

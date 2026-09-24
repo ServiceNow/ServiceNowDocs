@@ -2,7 +2,7 @@
 title: Log Trace Message workflow activity
 description: The Log Trace Message activity writes a trace message to the workflow log.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/c\_LogTraceMessage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/c\_LogTraceMessage.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

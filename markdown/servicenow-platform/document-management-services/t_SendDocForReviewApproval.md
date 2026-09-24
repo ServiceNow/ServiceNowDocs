@@ -2,7 +2,7 @@
 title: Send a document out for review and approval
 description: When a document is ready, send it out for review and approval. If a reviewer or approver is not identified in the document record, the document is moved directly to the publishing stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_SendDocForReviewApproval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/t\_SendDocForReviewApproval.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -43,5 +43,5 @@ Role required: document\_management\_user
 6.  In the Document Revisions list, the revision you approved is now in the Ready for Publishing stage.
 
 
-**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
+**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/c_ManagedDocuments.md)
 

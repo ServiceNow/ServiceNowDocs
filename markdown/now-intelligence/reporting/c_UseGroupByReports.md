@@ -2,7 +2,7 @@
 title: Group records in list reports
 description: Grouped list reports can display only the records in each group that are configured to appear in a normal list. You can group rows of information in list reports by specific fields. You cannot group list reports by service catalog variables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_UseGroupByReports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/c\_UseGroupByReports.html
 release: australia
 product: Reporting
 classification: reporting

@@ -2,7 +2,7 @@
 title: Configure risk heatmaps
 description: Within a risk assessment methodology \(RAM\), configure the heatmap visualization for inherent and residual assessments. Use different heatmaps for different risk assessment methodologies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/configure-risk-heatmap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/configure-risk-heatmap.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -51,5 +51,5 @@ Configure the heatmap using the prepackaged heatmap widgets. Map the configured 
 
 The selected heatmap appears on the dashboard.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

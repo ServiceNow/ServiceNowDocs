@@ -2,7 +2,7 @@
 title: Connect work from other ServiceNow apps to CWM Boards
 description: Enable a consolidated view of all relevant work by connecting work items from different ServiceNow applications to a Board in Collaborative Work Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/connect-work-to-cwm-boards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/connect-work-to-cwm-boards.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -71,7 +71,7 @@ Role required: sn\_cwm.cwm\_user
 
 -   The Board is refreshed to load and display all the connected work items.
 -   Any existing information such as Assigned to, State, and Start and End dates is also shown on the Board.
--   With the Sprint planning view enabled, you can see all these connected work items in the Backlog list. For more information about performing sprint planning, see [Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md).
+-   With the Sprint planning view enabled, you can see all these connected work items in the Backlog list. For more information about performing sprint planning, see [Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md).
 
 \[Omitted image "cwm-connected-work-board.png"\] Alt text: CWM Board with connected work items displayed in the List view.
 
@@ -79,12 +79,12 @@ Role required: sn\_cwm.cwm\_user
 
 To enable additional fields from any connected work table, change the form layout configuration for the Default view of the table. You can then surface these fields as columns in CWM. For more information, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
-**Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
+**Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 
 **Related topics**  
 
 
-[Manage connected work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/manage-connected-work-item-types-in-cwm.md)
+[Manage connected work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/manage-connected-work-item-types-in-cwm.md)
 
-[Update filter conditions for connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/update-conditions-for-connected-work-in-cwm.md)
+[Update filter conditions for connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/update-conditions-for-connected-work-in-cwm.md)
 

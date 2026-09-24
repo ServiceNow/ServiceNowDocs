@@ -2,7 +2,7 @@
 title: Group findings by fix
 description: Use a remediation task rule to group the findings that share a fix, so your team can remediate them together as a single unit of work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/group-findings-by-fix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/group-findings-by-fix.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
@@ -26,7 +26,7 @@ Prerequisites:Role required: none
 
 USEM remediation task rules automatically group findings into remediation tasks based on conditions you define. When Fix Intelligence for SEM links findings to fixes, you can group findings by their fix so that a single remediation task covers the findings that fix resolves.
 
-Fix Intelligence for SEM ships one remediation task rule out of the box, in an inactive state, that groups findings by assignment group and fix. Ensure that the rule is active. For how remediation task rules work and how to create them, see [Configuring remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-remediation-task-rules.md) and [Create remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-remediation-task-rules.md).
+Fix Intelligence for SEM ships one remediation task rule out of the box, in an inactive state, that groups findings by assignment group and fix. Ensure that the rule is active. For how remediation task rules work and how to create them, see [Configuring remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-remediation-task-rules.md) and [Create remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-remediation-task-rules.md).
 
 ## Procedure
 
@@ -47,12 +47,12 @@ Fix Intelligence for SEM ships one remediation task rule out of the box, in an i
 
 Findings that share a fix and the same assignment group are grouped into a single remediation task. It helps your team plan and track the fix as one unit of work. The remediation task appears on the fix, and your team can run the full remediation workflow from the Remediation Task record. The workflow includes creating a change request, requesting an exception, and starting the investigation. Grouping by fix effectively de-duplicates many findings into one actionable remediation task.
 
-**Parent Topic:**[Using Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-fix-intel-security-exposure-management.md)
+**Parent Topic:**[Using Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-fix-intel-security-exposure-management.md)
 
 **Related topics**  
 
 
-[Configuring remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-remediation-task-rules.md)
+[Configuring remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-remediation-task-rules.md)
 
-[Create remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-remediation-task-rules.md)
+[Create remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-remediation-task-rules.md)
 

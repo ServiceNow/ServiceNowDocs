@@ -2,7 +2,7 @@
 title: Auto Query page
 description: The Auto Query page contains the automatic asset queries for the Discovery Console for OT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/auto-query-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/auto-query-console.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -62,16 +62,16 @@ Use the drop-down **Actions** button to select additional options.
     -   **Location Set**: Sets a label and a location field using the Site name.
     -   **SNMP**: Queries to discover SNMP service. This tries only the SNMP port.
     -   **OS Detection**: Use with caution, especially in production environments. This query can disrupt or crash poorly configured or sensitive assets. Queries Linux / Windows endpoint for any discoverable services.
--   **Quick Scans**: When selected, this selection displays a list of any current Quick Scans. You can create a Quick Scan by selecting the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:. Set the parameters of the Quick Scan in the Create Quick Scan page. Quick Scans are meant to run quickly and only once. Quick Scan targets can be assets selected by their URLs, IP Addresses, or IP ranges. For more information on Quick Scans, see [Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-quick-scan.md).
+-   **Quick Scans**: When selected, this selection displays a list of any current Quick Scans. You can create a Quick Scan by selecting the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:. Set the parameters of the Quick Scan in the Create Quick Scan page. Quick Scans are meant to run quickly and only once. Quick Scan targets can be assets selected by their URLs, IP Addresses, or IP ranges. For more information on Quick Scans, see [Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/create-quick-scan.md).
 
--   **[Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-auto-query-console.md)**  
+-   **[Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/add-auto-query-console.md)**  
 Create an Auto Query that you can run on demand for different Discovery Console for OT Assets.
--   **[Create an Auto Query ignore list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-ignore-auto-query.md)**  
+-   **[Create an Auto Query ignore list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/create-ignore-auto-query.md)**  
 Create an Auto Query to exclude specified asset IP addresses from receiving scanning traffic.
--   **[Edit an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/editing-an-auto-query.md)**  
+-   **[Edit an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/editing-an-auto-query.md)**  
 Edit an Auto Query to change or add parameters to your scan.
--   **[Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-quick-scan.md)**  
+-   **[Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/create-quick-scan.md)**  
 Create a **Quick Scan** from the Auto Query page.
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/using-discovery-console.md)
 

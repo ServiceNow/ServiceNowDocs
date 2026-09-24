@@ -2,7 +2,7 @@
 title: Edit a project form
 description: Use application rationalization to edit details of an existing project associated with a business application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-edit-project-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-edit-project-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -129,10 +129,10 @@ Business Capabilities
 One or more business capabilities to associate the project with.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Edit a project associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-a-project-associated-with-a-business-application.md)
+[Edit a project associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-edit-a-project-associated-with-a-business-application.md)
 

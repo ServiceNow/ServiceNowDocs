@@ -2,7 +2,7 @@
 title: Install the ServiceNow Add-in for Microsoft Outlook
 description: Installing the ServiceNow Add-in for Microsoft Outlook enables you to interact with the ServiceNow platform from within Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-servicenow-outlook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/install-servicenow-outlook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

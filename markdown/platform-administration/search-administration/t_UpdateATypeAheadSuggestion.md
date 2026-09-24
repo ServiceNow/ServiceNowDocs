@@ -2,7 +2,7 @@
 title: Update a type-ahead suggestion
 description: The knowledge base and global text searches provide suggestions as you type. These type-ahead suggestions are compiled on a nightly basis by a scheduled job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_UpdateATypeAheadSuggestion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/t\_UpdateATypeAheadSuggestion.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -37,7 +37,7 @@ Use the following procedure if you need to refresh the type-ahead suggestions li
 3.  Run the scheduled job.
 
 
-**Parent Topic:**[Global text search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/r_GlobalTextSearchSuggestions.md)
+**Parent Topic:**[Global text search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/r_GlobalTextSearchSuggestions.md)
 
 **Related topics**  
 

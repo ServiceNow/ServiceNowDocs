@@ -2,7 +2,7 @@
 title: Import pricing entities
 description: Import pricing entities to a target instance by using the ServiceNow Platform import function.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/import-pricing-entities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/import-pricing-entities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

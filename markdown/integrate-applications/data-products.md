@@ -2,7 +2,7 @@
 title: Data Products
 description: Create and manage data products and data interfaces to enable data sharing and consumption across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-products.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/data-products.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-07"
@@ -20,19 +20,19 @@ Learn how data products enable you to package and share data assets as reusable 
 
 <table id="table_nhy_5zz_v3c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about data products and data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-products.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about data products and data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/explore-data-products.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-data-products.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-data-products.md)
 
 </td><td>
 
-[Manage data interfaces\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Create data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-interfaces_wdf.md)
+[Manage data interfaces\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Create data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-data-interfaces_wdf.md)
 
 </td></tr><tr><td>
 
-[Manage data products\[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text:Create and publish data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-products-wdf.md)
+[Manage data products\[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text:Create and publish data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-data-products-wdf.md)
 
 </td><td>
 

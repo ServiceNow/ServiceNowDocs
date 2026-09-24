@@ -2,7 +2,7 @@
 title: View event details and monitor event task completion
 description: View the event details and add impacted items to start an event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-exercise-crisis-event-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-exercise-crisis-event-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,11 +34,11 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     You can view and update all the details of an event. However, you cannot edit the event type.
 
-    A crisis manager should be able to report a crisis event with the information provided in the details tab. For more information, see [Manage a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-crisis-event.md).
+    A crisis manager should be able to report a crisis event with the information provided in the details tab. For more information, see [Manage a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/manage-crisis-event.md).
 
 7.  Select the **Impacts** tab to add impacted items.
 
-    To add a list of impacted items and activated plans to the event, see [Add impacted assets and plans to an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/associate-plan-task-event.md).
+    To add a list of impacted items and activated plans to the event, see [Add impacted assets and plans to an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/associate-plan-task-event.md).
 
 8.  Select **Event Tasks** tab.
 
@@ -62,7 +62,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
         **Note:** If the activated plan refers to a different plan to recover a related asset, then all those related plans are listed below the main activated plan as **Related plans** in the left pane.
 
-        For more information on the planning and execution of a recovery event, see [Data flow, planning, execution, and recovery of related plan assets in event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/planning-execution-event-bcm.md).
+        For more information on the planning and execution of a recovery event, see [Data flow, planning, execution, and recovery of related plan assets in event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/planning-execution-event-bcm.md).
 
     2.  To add an ad hoc task to the event, click the **Add ad hoc task** button.
 

@@ -2,7 +2,7 @@
 title: OAuth authorization code grant flow
 description: Authorization code grant flow allows a user to access a resource by authenticating directly with an OAuth server that trusts the resource, in contrast with authenticating with username/password credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_OAuthAuthorizationCodeFlow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/c\_OAuthAuthorizationCodeFlow.html
 release: australia
 product: Authentication
 classification: authentication
@@ -62,7 +62,7 @@ https://myinstance.service-now.com/oauth_token.do?grant_type=authorization_code&
 
 The endpoint on the instance returns an access token and a refresh token. The refresh token can be used to request additional access tokens.
 
-You can manage the tokens, including revoking the token, in the instance. See [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ManageTokens.md).
+You can manage the tokens, including revoking the token, in the instance. See [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_ManageTokens.md).
 
 \[Omitted image "AuthCodeGrantFlow3.png"\] Alt text: Client application sends a token to ServiceNow instance, which then sends a JSON payload of data
 
@@ -74,7 +74,7 @@ Example GET request for the JSON payload of data for the Incident \[incident\] t
 https://myinstance.service-now.com/api/now/table/incident?access_token={the_token}
 ```
 
-**Note:** The system also supports [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthImplicitGrants.md), also known as implicit grant code flow.
+**Note:** The system also supports [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_OAuthImplicitGrants.md), also known as implicit grant code flow.
 
 ## Integration support
 

@@ -2,7 +2,7 @@
 title: Legacy Software Asset Management plugin Overview module
 description: The Overview module for the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin is a homepage that displays various software asset management reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_SWAssetMgmtOverviewMod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/c\_SWAssetMgmtOverviewMod.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -16,14 +16,14 @@ breadcrumb: [Legacy Software Asset Management plugin, ITSM Software Asset Manage
 
 The Overview module for the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin is a homepage that displays various software asset management reports.
 
--   **[Use the legacy Software Asset Management plugin Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UseSWAssetMgmtOverviewMod.md)**  
+-   **[Use the legacy Software Asset Management plugin Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_UseSWAssetMgmtOverviewMod.md)**  
 The Overview module is a homepage that displays charts and graphs to help you manage software assets in the organization.
--   **[Legacy Software Asset Management plugin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/r_SoftwareAssetManagementRoles.md)**  
+-   **[Legacy Software Asset Management plugin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/r_SoftwareAssetManagementRoles.md)**  
 The legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin adds the following user role.
--   **[Installed with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/r_InstalledWithSoftwareAssetMgmt.md)**  
+-   **[Installed with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/r_InstalledWithSoftwareAssetMgmt.md)**  
 A number of tables, properties, user roles, script includes, client scripts, UI policies, and business rules are installed with the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 
-**Parent Topic:**[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
+**Parent Topic:**[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
 
 **Related topics**  
 

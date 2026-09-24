@@ -2,7 +2,7 @@
 title: Create a Microsoft SQL Server connection
 description: Establish a zero copy connection to a Microsoft SQL Server database in Zero Copy Connector Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-sqlserver-connection-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-sqlserver-connection-zcc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -112,7 +112,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

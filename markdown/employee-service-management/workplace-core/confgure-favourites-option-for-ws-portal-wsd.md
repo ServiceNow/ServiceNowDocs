@@ -2,7 +2,7 @@
 title: Enable favorites option for Workplace Service Portal
 description: Enable employees to set a workplace location as their favorite while using the Workplace Service Portal. Integrate with Employee Service Center to configure the favorites option.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/confgure-favourites-option-for-ws-portal-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/confgure-favourites-option-for-ws-portal-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -51,7 +51,7 @@ Configure the favorites option so that employees can set any workplace location 
 
 The favorites option is enabled for employees to set any workplace location as their favorite.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

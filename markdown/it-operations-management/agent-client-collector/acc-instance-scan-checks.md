@@ -2,7 +2,7 @@
 title: Agent Client Collector health instance scan checks
 description: The Agent Client Collector \(ACC\) health instance scan suite includes checks that detect anomalies and issues on your instance. Use this reference to identify what each check does and when it applies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-instance-scan-checks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-instance-scan-checks.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -98,5 +98,5 @@ For details on instance scans, see [Instance Scan](https://raw.githubusercontent
 
 For details on executing the Agent Client Collector health instance scan suite, see [Execute a suite scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hc-execute-suite-scan.md).
 
-**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

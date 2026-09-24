@@ -2,7 +2,7 @@
 title: Cases and case tasks
 description: Customer service cases store information about customers, their questions and issues, and related information. Case tasks are created and assigned to users to complete the work necessary to resolve cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-cases-case-tasks-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-cases-case-tasks-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -69,9 +69,9 @@ Information that is gathered as part of resolving a case can be included in the 
 </td></tr></tbody>
 </table>For more information about cases and case records, see the following topics:
 
--   [Create a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustServApp.md)
--   [Create a customer service case of a specific type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-of-specific-case-type.md)
--   [Customer service case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServiceCaseForm.md)
+-   [Create a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_CreateACaseFromCustServApp.md)
+-   [Create a customer service case of a specific type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-of-specific-case-type.md)
+-   [Customer service case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_CustomerServiceCaseForm.md)
 
 ## Case tasks
 
@@ -94,8 +94,8 @@ Depending on a user's assigned roles, case tasks appear in a number of different
 
 For more information about case tasks and case task records, see the following topics:
 
--   [Create a task for a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-for-cust-service-case.md)
--   [Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-task-form.md)
+-   [Create a task for a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-task-for-cust-service-case.md)
+-   [Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-task-form.md)
 
 ## Cases, case tasks and related parties
 
@@ -113,7 +113,7 @@ Users with the admin role can remove related parties from cases. When an admin a
 
 ## Case task integration with Service Definitions
 
-The [service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md) feature enables you to create connections between products, services, and case types.
+The [service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-service-definitions.md) feature enables you to create connections between products, services, and case types.
 
 -   Agents can use configured service definitions to quickly create cases of the right type based on the selected product or service.
 -   Customers can use configured service definitions to quickly discover and request the services they need.

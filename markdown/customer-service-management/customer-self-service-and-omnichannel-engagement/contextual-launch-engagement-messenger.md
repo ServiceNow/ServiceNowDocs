@@ -2,7 +2,7 @@
 title: Deep linking feature in Engagement Messenger
 description: Set a workflow as a default launch screen in Engagement Messenger either using custom code or a parameterized URL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-engagement-messenger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-engagement-messenger.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

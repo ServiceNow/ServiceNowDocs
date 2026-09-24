@@ -2,7 +2,7 @@
 title: Creating automated fallout records
 description: With Fallout Management, a provider can create automated fallout records for specific order tasks so that your orders can continue processing through to completion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/creating-automated-manual-fallout-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/creating-automated-manual-fallout-records.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,12 +48,12 @@ You can define a workflow that automatically creates fallout records whenever in
 
 Even when the right data structure is submitted in an external system, errors can happen due to the business logic that is implemented in the external system.
 
-**Parent Topic:**[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)
+**Parent Topic:**[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/fallout-management-overview.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

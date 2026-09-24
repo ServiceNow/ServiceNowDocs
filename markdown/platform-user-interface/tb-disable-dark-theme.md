@@ -2,7 +2,7 @@
 title: Disable the dark theme in all Next Experience instances
 description: Disable the Next Experience dark theme in all of Next Experience instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-disable-dark-theme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-disable-dark-theme.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ Role required: admin
 3.  Disable the dark theme in all of your Next Experience instances by setting `glide.ui.polaris.dark_themes_enabled` to **False**.
 
 
-**Parent Topic:**[Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-working-in-dark-theme.md)
+**Parent Topic:**[Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-working-in-dark-theme.md)
 

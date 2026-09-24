@@ -2,7 +2,7 @@
 title: CRM Workspace features
 description: CRM Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-feature-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-feature-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Multi-tab interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-interface.md)
+[Multi-tab interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-interface.md)
 
 </td><td>
 
@@ -32,7 +32,7 @@ Displays information using tabs and sub-tabs which enable agents to work on mult
 
 </td></tr><tr><td>
 
-[Contextual display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-interface.md)
+[Contextual display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-interface.md)
 
 </td><td>
 
@@ -40,7 +40,7 @@ Displays information that provides agents with a complete view of a customer's h
 
 </td></tr><tr><td>
 
-[Agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-interface.md)
+[Agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-interface.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Agents see their assignments in their CRM Workspace inbox. Work assignments appe
 
 </td></tr><tr><td>
 
-[Landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-landing-pages.md)
+[Landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspace-landing-pages.md)
 
 </td><td>
 
@@ -64,15 +64,15 @@ Provide filtered lists of cases, interactions, and other records such as account
 
 </td></tr><tr><td>
 
-[Record details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-interface.md)
+[Record details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-interface.md)
 
 </td><td>
 
-Content pages determine how information is displayed in the workspace. [Record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md) display information about the current record. This can include details such as the account, contact, and priority for a case record or the communication channel, short description, and state for an interaction record.
+Content pages determine how information is displayed in the workspace. [Record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-record-pages.md) display information about the current record. This can include details such as the account, contact, and priority for a case record or the communication channel, short description, and state for an interaction record.
 
 </td></tr><tr><td>
 
-[Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-side-panel-components.md)
+[Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-side-panel-components.md)
 
 </td><td>
 
@@ -80,7 +80,7 @@ Provides agents with access to tools and information directly from the record pa
 
 </td></tr><tr><td>
 
-[Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-activity-stream.md)
+[Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-activity-stream.md)
 
 </td><td>
 
@@ -96,7 +96,7 @@ The Compose area in a configurable workspace record page enables agents to commu
 
 </td></tr><tr><td>
 
-[Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md)
+[Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page-modeless-dialogs.md)
 
 </td><td>
 
@@ -104,7 +104,7 @@ Windows that overlay the main window content in a workspace. Agents can use mode
 
 </td></tr><tr><td>
 
-[Form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-form-templates.md)
+[Form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspace-form-templates.md)
 
 </td><td>
 
@@ -112,17 +112,17 @@ Use form templates to populate fields on new records with selected values. Creat
 
 </td></tr><tr><td>
 
-[Search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-side-panel-components.md)
+[Search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-side-panel-components.md)
 
 </td><td>
 
 Global search enables you to search multiple record types at once from the Next Experience Unified Navigation [search field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-ais-next-experience-app.md).
 
- The Recommended Actions tab in the contextual side panel includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md) functionality. This search feature displays an initial set of search results based on the text in the case short description, including knowledge articles. Agents can also enter different search keywords and repeat the search.
+ The Recommended Actions tab in the contextual side panel includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-ai-search.md) functionality. This search feature displays an initial set of search results based on the text in the case short description, including knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 </td></tr><tr><td>
 
-[AI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
+[AI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
 
 </td><td>
 
@@ -130,7 +130,7 @@ Use the ServiceNow Otto for Customer Service Management \(CSM\) application to s
 
 </td></tr><tr><td>
 
-[Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-chat-summary.md)
+[Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-chat-summary.md)
 
 </td><td>
 
@@ -138,7 +138,7 @@ The chat summarization feature automatically creates summaries of chat conversat
 
 </td></tr><tr><td>
 
-[Chat session tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-chat-session-tabs.md)
+[Chat session tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspace-chat-session-tabs.md)
 
 </td><td>
 
@@ -146,7 +146,7 @@ Visual indicators on chat session tabs, such as colors and icons, alert agents t
 
 </td></tr><tr><td>
 
-[Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-and-verify-overview.md)
+[Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/lookup-and-verify-overview.md)
 
 </td><td>
 
@@ -154,7 +154,7 @@ Use this feature to enable agents to quickly look up contacts or consumers using
 
 </td></tr><tr><td>
 
-[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-action-status-csm-workspace.md)
+[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-action-status-csm-workspace.md)
 
 </td><td>
 
@@ -167,13 +167,13 @@ A number of additional applications are available for use with CRM Workspace.
 
 |Feature|Description|
 |-------|-----------|
-|[AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/awa-csm-overview.md)|Use Advanced Work Assignment \(AWA\) to automatically assign work items to agents based on their availability, capacity, and skills.|
-|[Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md)|Use Customer Central to provide agents with all of the information about a customer in one central location. This feature enables agents to quickly zoom in on the customer issue and provide efficient and supportive service.|
-|[ServiceNow Link Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-chrome-link-manager.md)|Use the ServiceNow Link Manager feature to manage and organize browser tabs within a ServiceNow instance.|
-|[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md)|Use Workforce Optimization for Customer Service to manage and maintain the productivity of your workforce. Efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.|
-|[Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md)|Use case types to handle different types of customer issues. A case type identifies the processes and the data needed to resolve a specific type of issue, such as a lost or missing credit card.|
-|[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/proactive-service-operations.md)|Use this feature to track the digital services used by your customers and to proactively create cases for service disruptions.|
-|[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)|Use playbooks to provide step-by-step guidance for completing the tasks needed to resolve specific types of customer service cases.|
-|[Guided Decisions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-guided-decisions.md)|Use guided decisions to resolve complex cases faster and more efficiently by guiding customer service agents through a structured troubleshooting process.|
-|[Estimated time to resolve a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ettr.md)|Use machine learning to predict the estimated time to resolve a case \(ETTR\) based on case attributes such as the short description, category, priority, and assignment group.|
+|[AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/awa-csm-overview.md)|Use Advanced Work Assignment \(AWA\) to automatically assign work items to agents based on their availability, capacity, and skills.|
+|[Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md)|Use Customer Central to provide agents with all of the information about a customer in one central location. This feature enables agents to quickly zoom in on the customer issue and provide efficient and supportive service.|
+|[ServiceNow Link Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspace-chrome-link-manager.md)|Use the ServiceNow Link Manager feature to manage and organize browser tabs within a ServiceNow instance.|
+|[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-wfo-cs.md)|Use Workforce Optimization for Customer Service to manage and maintain the productivity of your workforce. Efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.|
+|[Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-case-types.md)|Use case types to handle different types of customer issues. A case type identifies the processes and the data needed to resolve a specific type of issue, such as a lost or missing credit card.|
+|[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/proactive-service-operations.md)|Use this feature to track the digital services used by your customers and to proactively create cases for service disruptions.|
+|[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md)|Use playbooks to provide step-by-step guidance for completing the tasks needed to resolve specific types of customer service cases.|
+|[Guided Decisions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-guided-decisions.md)|Use guided decisions to resolve complex cases faster and more efficiently by guiding customer service agents through a structured troubleshooting process.|
+|[Estimated time to resolve a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ettr.md)|Use machine learning to predict the estimated time to resolve a case \(ETTR\) based on case attributes such as the short description, category, priority, and assignment group.|
 

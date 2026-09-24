@@ -2,7 +2,7 @@
 title: Tax engine integration
 description: Integrate an external tax engine to validate supplier taxes and enable accurate, conforming straight-through processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-engine-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/tax-engine-integration.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -93,7 +93,7 @@ The Accounts Payable Operations serves as entry point for tax calculation. When 
 
 </td><td>
 
--   If tax calculation from external tax system is required, a record is created in the tax staging table \[sn\_spend\_intg\_tax\_staging\]. The tax status is set to in progress. For more information on tax status, see [Tax status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-status.md)
+-   If tax calculation from external tax system is required, a record is created in the tax staging table \[sn\_spend\_intg\_tax\_staging\]. The tax status is set to in progress. For more information on tax status, see [Tax status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/tax-status.md)
 -   If tax calculation isn’t required from external tax system, then the invoice processing continues through the regular exception flow and proceeds to approval or payment.
 
 </td></tr><tr><td>
@@ -106,7 +106,7 @@ The Source-to-Pay integration framework is a processing layer between Accounts P
 -   Mapping tables are used during request creation \(outbound\) and response processing \(inbound\) between APO attributes and external tax system fields.
 -   Responses from the tax engine stored in the same staging table.
 -   Invoice tax status is updated based on the response.
--   Failed records are processed manually. For more information on the tables, see [Configuration tables and prerequisites for tax integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-tax-integ.md).
+-   Failed records are processed manually. For more information on the tables, see [Configuration tables and prerequisites for tax integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/config-tax-integ.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ The integration processes an invoice through the following stages:
 -   Connectivity - The integration authenticates to Vertex over OAuth by using the client-credentials grant, through a reusable connection template and a connection alias. The connection attributes for product and API version are configurable for each environment.
 -   Transformation - The integration converts the staging record into the Vertex request format, sends it to Vertex, and converts the response back into the staging format by using a shared field-mapping table.
 
-    For more information on the mappings and jurisdictions, see [Tax integration field map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-integration-field-map-fields.md), [Jurisdictions main table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/jurisdiction-master-table.md).
+    For more information on the mappings and jurisdictions, see [Tax integration field map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/tax-integration-field-map-fields.md), [Jurisdictions main table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/jurisdiction-master-table.md).
 
 
 ## Tax validation modes

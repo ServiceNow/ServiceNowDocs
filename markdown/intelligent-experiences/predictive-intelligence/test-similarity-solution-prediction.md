@@ -2,7 +2,7 @@
 title: Test a similarity solution prediction
 description: Once your machine-learning \(ML\) solutions are trained, you can call on the Predictive Intelligence API to make a solution prediction. In this example procedure, we use the REST API Explorer application to test a similarity solution prediction for resolved incident recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/test-similarity-solution-prediction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/test-similarity-solution-prediction.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -117,7 +117,7 @@ This scenario illustrates a similarity solution prediction for a hypothetical ML
         \[Omitted image "predict-intel-simtest-soldef-recommendation.png"\] Alt text: Shows the user the Resolution notes in one of the Incident records.
 
 
-**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
 
 **Related topics**  
 

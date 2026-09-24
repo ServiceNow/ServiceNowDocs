@@ -2,7 +2,7 @@
 title: Define field mappings for a solution configuration
 description: Define field mappings on a configurable product action to pass field values from the parent blueprint to the child blueprint when a child configuration is created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/define-field-mappings-sol-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/define-field-mappings-sol-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-26"
@@ -17,7 +17,7 @@ Define field mappings on a configurable product action to pass field values from
 
 ## Before you begin
 
--   A configurable product action exists on the parent blueprint. For more information, see [Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-configurable-product-action.md).
+-   A configurable product action exists on the parent blueprint. For more information, see [Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-configurable-product-action.md).
 -   The source fields \(on the parent blueprint\) and the target fields \(on the child blueprint\) exist and are of the same field type.
 
 Role required: admin
@@ -62,13 +62,13 @@ Field values from the source fields on the parent blueprint are passed to the ta
 
 After defining field mappings:
 
--   To test mapping behavior, launch the parent product in the quoting application and verify that the target fields receive the expected values in the child configuration. See [Launch a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/launch-solution.md).
+-   To test mapping behavior, launch the parent product in the quoting application and verify that the target fields receive the expected values in the child configuration. See [Launch a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/launch-solution.md).
 -   To verify field type compatibility, see [Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 **Related topics**  
 
 
-[Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-configurable-product-action.md)
+[Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-configurable-product-action.md)
 
 [Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

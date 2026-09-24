@@ -2,7 +2,7 @@
 title: Queue a local change for a push
 description: Application developers can queue a local change for a push to ensure the changes are available to other developers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_QueueALocalChangeForAPush.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/t\_QueueALocalChangeForAPush.html
 release: australia
 product: Team Development
 classification: team-development

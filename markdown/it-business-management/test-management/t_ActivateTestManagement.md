@@ -2,7 +2,7 @@
 title: Activate Test Management
 description: To activate the Test Management \(com.snc.test\_mgmt\) plugin you must have an admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_ActivateTestManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/t\_ActivateTestManagement.html
 release: australia
 product: Test Management
 classification: test-management
@@ -26,7 +26,7 @@ Role required: admin
 
 There are two ways to activate the Test Management plugin:
 
--   [As an individual application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_ActivateTestManagement.md)
+-   [As an individual application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/test-management/t_ActivateTestManagement.md)
 -   As part of the Project Portfolio Suite with Financials plugin.
 
 ## Procedure

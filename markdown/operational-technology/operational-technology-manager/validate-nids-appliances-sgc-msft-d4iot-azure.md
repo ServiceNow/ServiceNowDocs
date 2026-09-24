@@ -2,7 +2,7 @@
 title: Validate NIDS sensors
 description: Validate the Network IDS \(NIDS\) sensors once they're imported to prepare for the device import. Sensors only pass the validation if they aren't in learning mode as such sensors are not eligible for device import.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/validate-nids-appliances-sgc-msft-d4iot-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/validate-nids-appliances-sgc-msft-d4iot-azure.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -65,5 +65,5 @@ The **Life Cycle Stage** and **Life Cycle Stage Status** fields are used to capt
     -   zone
     -   isa\_entity\_site \(only available if you have the Industrial Process Manager application installed\)
 
-**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-azure.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-azure.md)
 

@@ -2,7 +2,7 @@
 title: AI Readiness Evaluation reference
 description: AI Readiness Evaluation admins and implementers can work with select system properties for additional customization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-reference.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation

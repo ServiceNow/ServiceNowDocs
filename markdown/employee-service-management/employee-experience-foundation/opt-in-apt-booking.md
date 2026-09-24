@@ -2,7 +2,7 @@
 title: Opt in to unified appointment booking
 description: Opt in to unified appointment booking and enable it for the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/opt-in-apt-booking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/opt-in-apt-booking.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

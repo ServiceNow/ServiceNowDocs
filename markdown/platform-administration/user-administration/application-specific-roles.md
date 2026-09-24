@@ -2,7 +2,7 @@
 title: Application specific roles
 description: Applications you install on your instance may include additional roles. Follow the links in this section to see roles installed along with applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/application-specific-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/application-specific-roles.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -506,7 +506,7 @@ AI Search
 
 </td><td>
 
-[Components installed with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/components-installed-ais.md)
+[Components installed with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/components-installed-ais.md)
 
 </td></tr><tr><td>
 
@@ -698,7 +698,7 @@ State Model
 
 </td><td>
 
-[Installed with State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/state-management/installed-state-model.md)
+[Installed with State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/state-management/installed-state-model.md)
 
 </td></tr><tr><td>
 
@@ -1253,5 +1253,5 @@ Teamspaces
 [Installed with teamspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_InstalledWithTeamspaces.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
+</table>**Parent Topic:**[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/r_BaseSystemRoles.md)
 

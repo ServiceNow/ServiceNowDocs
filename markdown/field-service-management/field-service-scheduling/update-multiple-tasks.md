@@ -2,7 +2,7 @@
 title: Update multiple work order tasks simultaneously
 description: Save time and update multiple work order tasks at once in the calendar in Dispatcher Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/update-multiple-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/update-multiple-tasks.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

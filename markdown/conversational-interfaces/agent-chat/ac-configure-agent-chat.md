@@ -2,7 +2,7 @@
 title: Setting up Agent Chat
 description: Configure Agent Chat to enable live agents to chat with customers and manage various conversation features for agents and end users. Through Agent Chat, agents interact with end users, create incident or case records, or transfer chats to another agent or queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ac-configure-agent-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -24,9 +24,9 @@ Configure the following before starting this task:
 -   Install the Agent Chat plugin \(com.glide.interaction.awa\).
 -   If you want to use the Profanity Filter, activate the Profanity Filter plugin \(sn\_va\_profanity\).
 -   In Advanced Work Assignment:
-    -   Configure [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
-    -   Define [work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-queues.md).
-    -   Set up [work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-assignment.md).
+    -   Configure [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
+    -   Define [work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-queues.md).
+    -   Set up [work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-assignment.md).
 -   [Update your Live Feed profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_UpdateYourProfile.md) to display agent names and avatars in the chat client.
 -   [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-va-in-sp.md)
 
@@ -193,7 +193,7 @@ Profanity detection
 
 </td><td>
 
-Select **View all** to display the Profanity Filter settings screen. This option only displays if the Profanity Filter plugin has been installed. For more information, see [Configuring the Profanity Filter settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-profanity-settings.md).
+Select **View all** to display the Profanity Filter settings screen. This option only displays if the Profanity Filter plugin has been installed. For more information, see [Configuring the Profanity Filter settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-profanity-settings.md).
 
 </td></tr><tr><td>
 
@@ -205,7 +205,7 @@ Select **View all** to display the Conversation History screen.
 
  Set maximum number of past conversation to display in the conversation window. Also, apply filters to only show what is most relevant to agents based on channel type, assignment group, and more.
 
- For details on configuring the Conversation History options, see [Setting up conversation history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-conversation-history.md).
+ For details on configuring the Conversation History options, see [Setting up conversation history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-conversation-history.md).
 
 </td></tr></tbody>
 </table><table id="table_c35_jd1_2yb"><thead><tr><th>
@@ -224,11 +224,11 @@ Quick action configurations
 
 Select **View all** to display the Quick Action Toolbar Controls screen.
 
- For details on configuring the toolbar controls, see [Setting up quick action toolbar controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
+ For details on configuring the toolbar controls, see [Setting up quick action toolbar controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
+**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

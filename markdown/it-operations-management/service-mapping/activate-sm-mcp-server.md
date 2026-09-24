@@ -2,7 +2,7 @@
 title: Activate the CMDB MCP Server for Service Mapping tools
 description: Activate the CMDB MCP Server and configure the OAuth inbound integration so that external AI clients can connect to your ServiceNow instance and query application service data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/activate-sm-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/activate-sm-mcp-server.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -23,7 +23,7 @@ Before activating the CMDB MCP Server, confirm the following requirements are me
 
 -   You have the latest version of the MCP Platform Manager plugin activated.
 -   You have at least version 1.1.1 of the CMDB MCP Server \[sn\_cmdb\_mcp\_server\] application installed.
--   You have the roles required as described in [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
+-   You have the roles required as described in [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
 
 Role required: admin assigned with the sn\_mcp\_server.admin role, and the oauth\_admin \(or mi\_admin\) role
 
@@ -33,7 +33,7 @@ Role required: admin assigned with the sn\_mcp\_server.admin role, and the oauth
 
 The Service Mapping MCP tools are delivered as part of the CMDB MCP Server. Activating it exposes five read-only tools and one write tool that AI clients can use to query live application service data. The OAuth inbound integration for this server is auto-generated when the server is installed. You must locate this integration, verify its configuration, and add the redirect URL for the AI client before users can authenticate.
 
-For detailed information, see [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+For detailed information, see [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-mcp-server.md)
 
 ## Procedure
 
@@ -82,7 +82,7 @@ The CMDB MCP Server is active and the OAuth inbound integration is configured. U
 
 ## What to do next
 
-Share the following details with users so they can connect their AI clients: the server URL, the OAuth Client ID, and the OAuth Client Secret. For instructions on connecting Claude Desktop, see [Connect Claude Desktop to the Service Mapping MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.md).
+Share the following details with users so they can connect their AI clients: the server URL, the OAuth Client ID, and the OAuth Client Secret. For instructions on connecting Claude Desktop, see [Connect Claude Desktop to the Service Mapping MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.md).
 
-**Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+**Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-mcp-server.md)
 

@@ -2,7 +2,7 @@
 title: Create or modify a lens in Strategic Planning
 description: Start defining your company's planning perspectives in Strategic Planning by creating a lens.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-a-lens-in-alignment-planner-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/create-a-lens-in-alignment-planner-workspace.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -32,17 +32,17 @@ Create a lens record and add the type of items \(Project, Demand, and others\) t
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Lens form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/lens-form-alignment-planner-workspace.md).
+    For field information, see [Lens form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/lens-form-alignment-planner-workspace.md).
 
 4.  Select **Submit**.
 
 
 ## What to do next
 
-[Add or modify lens structure in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/define-lens-structure-in-alignment-planner-workspace.md).
+[Add or modify lens structure in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/define-lens-structure-in-alignment-planner-workspace.md).
 
 **Related topics**  
 
 
-[Lenses in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/lens-alignment-planner-workspace.md)
+[Lenses in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/lens-alignment-planner-workspace.md)
 

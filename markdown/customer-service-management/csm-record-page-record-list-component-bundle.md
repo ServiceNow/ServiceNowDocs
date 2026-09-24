@@ -2,7 +2,7 @@
 title: Record List component bundle
 description: The Record List component bundle is a list component bundle that uses a dedicated controller to configure list actions such as sorting, filtering, and grouping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-record-page-record-list-component-bundle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-record-page-record-list-component-bundle.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

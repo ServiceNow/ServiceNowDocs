@@ -2,7 +2,7 @@
 title: HTML syntax editor
 description: The HTML syntax editor provides support for editing HTML and Jelly scripts and defines what's rendered when the page is displayed. The HTML syntax editor can contain either static XHTML or dynamically generated content defined as Jelly, and can call script includes and UI Macros.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/html-syntax-editor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/html-syntax-editor.html
 release: australia
 product: Scripts
 classification: scripts
@@ -25,5 +25,5 @@ The syntax editor has these features.
 
 \[Omitted image "HTMLSyntaxEditor.png"\] Alt text: Syntax editor for HTML and Jelly scripts.
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

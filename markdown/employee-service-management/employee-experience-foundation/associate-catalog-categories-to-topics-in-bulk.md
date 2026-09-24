@@ -2,7 +2,7 @@
 title: Associate content from catalog categories to a topic
 description: Associate content from multiple catalog categories to a topic in the taxonomy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/associate-catalog-categories-to-topics-in-bulk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/associate-catalog-categories-to-topics-in-bulk.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -41,7 +41,7 @@ Role required: catalog\_admin, taxonomy\_admin, or any user that meets the Taxon
 
 ## What to do next
 
-For more information, see [Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/track-new-content.md).
+For more information, see [Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/track-new-content.md).
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Set up the SAP Fieldglass spoke
 description: Integrate the ServiceNow instance and SAP Fieldglass account using API keys to authenticate ServiceNow requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/fieldglass-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/fieldglass-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub

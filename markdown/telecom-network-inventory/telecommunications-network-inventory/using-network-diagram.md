@@ -2,7 +2,7 @@
 title: Network diagram
 description: Use the network diagram in the Telecommunications Network Inventory application to view a hierarchical map of the circuit and its underlying connection elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -16,17 +16,17 @@ breadcrumb: [Use, Telecommunications Network Inventory]
 
 Use the network diagram in the Telecommunications Network Inventory application to view a hierarchical map of the circuit and its underlying connection elements.
 
--   **[View the details of a network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/show-a-ci-related-details-network-diagram.md)**  
+-   **[View the details of a network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/show-a-ci-related-details-network-diagram.md)**  
 View the details of a connection node and visualize the underlying connection elements of a logical connection by using the network diagram in the Telecommunications Network Inventory. You can understand the detailed overview of the logical connection and how the connection elements are connected to each other.
--   **[Download a network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/download-network-diagram.md)**  
+-   **[Download a network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/download-network-diagram.md)**  
 Download the entire canvas of the network diagram based on your map selection in the Telecommunications Network Inventory application. You can use it as a reference to visualize the circuit.
--   **[Create a protection path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-a-protection-path.md)**  
+-   **[Create a protection path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-a-protection-path.md)**  
 Create a protection path for the logical connection in the Telecommunications Network Inventory application. You can use this protection path as an alternative route in case the primary path \(logical connection\) fails or experiences significant issues.
 
-**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
+**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
 
 **Related topics**  
 
 
-[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
+[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
 

@@ -2,7 +2,7 @@
 title: Track an In-store operations case created from a store plan
 description: Monitor the progress of an In-store operations case from the CSM/FSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-track-in-store-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-track-in-store-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: sn\_rtl\_instore\_ops.manager
     You can edit and save case details, or select **Close case** to close the case.
 
 
-**Parent Topic:**[Track In-store operations cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-in-store-ops-track.md)
+**Parent Topic:**[Track In-store operations cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-in-store-ops-track.md)
 

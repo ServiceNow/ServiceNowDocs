@@ -2,7 +2,7 @@
 title: Chat summarization
 description: Use the chat summarization feature to automatically create summaries of chat conversations. The chat summary enables an agent to quickly gain an understanding of the interaction without reading the entire transcript of the conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-chat-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-ws-chat-summary.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

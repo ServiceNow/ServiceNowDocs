@@ -2,7 +2,7 @@
 title: View data insights
 description: You can view data insights to see the completeness and distribution of your generated data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/view-data-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/view-data-insights.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit

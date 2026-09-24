@@ -2,7 +2,7 @@
 title: Request for domain separation in Dynamic Translation
 description: Enable the support for the Dynamic Translation framework in domain-separated instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/activate-domainsep-dyn-transl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation/activate-domainsep-dyn-transl.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -79,12 +79,12 @@ Select the date and time to activate the plugin.
 
 ## What to do next
 
-For information about configuring domain separation in Dynamic Translation, see [Domain separation and Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/domain-sep-dynamic-translation.md).
+For information about configuring domain separation in Dynamic Translation, see [Domain separation and Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/domain-sep-dynamic-translation.md).
 
-**Parent Topic:**[Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/configuring-dynamic-translation.md)
+**Parent Topic:**[Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/configuring-dynamic-translation.md)
 
 **Related topics**  
 
 
-[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-of-plugins.md)
 

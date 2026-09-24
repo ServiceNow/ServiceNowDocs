@@ -2,7 +2,7 @@
 title: Customer Service Management roles
 description: These roles are available for the application
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/roles-by-product/roles\_customerservicemanagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/roles-by-product/roles\_customerservicemanagement.html
 release: australia
 topic_type: reference
 last_updated: "2024-03-11"
@@ -453,5 +453,5 @@ All users.
 For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/roles-by-product/roles-for-all-products.md)
+</table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/roles-by-product/roles-for-all-products.md)
 

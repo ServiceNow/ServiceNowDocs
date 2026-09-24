@@ -2,7 +2,7 @@
 title: Content Management integration points
 description: Integration points use content blocks in CMS to link different applications together using static and dynamic methods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_CMSIntegrationPoints.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/c\_CMSIntegrationPoints.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -27,16 +27,16 @@ The templates work together to pass data attributes or [Unique record identifier
 
 Understanding how content types work can mean the difference between a site with 20 pages versus a site with 200 pages. There is a time for both types of data calls. Depending on the task, there are appropriate times to use static content and times for dynamic methods.
 
--   **[View links between system elements and URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_LinkToContent.md)**  
+-   **[View links between system elements and URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_LinkToContent.md)**  
 You can view the links between your system elements and their URLs to render more specific content within your site.
--   **[Static methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_StaticMethods.md)**  
+-   **[Static methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_StaticMethods.md)**  
 Static methods in the CMS application were created for ease of use.
--   **[Dynamic methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_DynamicMethods.md)**  
+-   **[Dynamic methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_DynamicMethods.md)**  
 While static methods are a powerful navigational tool, you have more control over data rendering using the dynamic methods.
--   **[Example integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_IntegrationPointsExample.md)**  
+-   **[Example integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_IntegrationPointsExample.md)**  
 Each element on the page links to a specific URL point.
 
-**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 **Related topics**  
 

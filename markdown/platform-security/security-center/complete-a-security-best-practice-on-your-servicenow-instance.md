@@ -2,7 +2,7 @@
 title: Complete a security best practice
 description: Complete a security best practice to implement security configurations on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/complete-a-security-best-practice-on-your-servicenow-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/complete-a-security-best-practice-on-your-servicenow-instance.html
 release: australia
 product: Security Center
 classification: security-center
@@ -55,5 +55,5 @@ Complete the following steps to implement security best practices on your Servic
     You can complete a security best practice at any time. You don't have to complete all the steps and it's ok if you skip them. However, consider inserting a comment in the Activity subtab when completing a security best practice when you have not completed all the steps for an audit reference.
 
 
-**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-best-practices-manager.md)
+**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-best-practices-manager.md)
 

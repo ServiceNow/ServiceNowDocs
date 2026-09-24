@@ -2,7 +2,7 @@
 title: Microsoft Azure Virtual Machine Spoke
 description: Manage the Microsoft Azure Virtual Machine \(VM\) from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/azure-vir-mach-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/azure-vir-mach-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -275,5 +275,5 @@ Integration Hub uses aliases to manage connection and credential information, an
 
 ## Set up the Microsoft Azure Virtual Machine Spoke
 
-To execute the actions of the Microsoft Azure Virtual Machine Spoke, you must first install and configure the Microsoft Azure Resource Management Spoke. No separate configuration of the Microsoft Azure Virtual Machine Spoke is necessary. To view the procedure to set up the Microsoft Azure Resource Management Spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-res-mngmt.md).
+To execute the actions of the Microsoft Azure Virtual Machine Spoke, you must first install and configure the Microsoft Azure Resource Management Spoke. No separate configuration of the Microsoft Azure Virtual Machine Spoke is necessary. To view the procedure to set up the Microsoft Azure Resource Management Spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-res-mngmt.md).
 

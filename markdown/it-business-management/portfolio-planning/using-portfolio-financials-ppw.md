@@ -2,7 +2,7 @@
 title: Managing portfolio financials in Portfolio Planning
 description: View the financial breakdown of estimates, approved costs, benefits, and actuals and so on for portfolio financials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/using-portfolio-financials-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/using-portfolio-financials-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -24,10 +24,10 @@ Using the portfolio financials, portfolio managers can:
 
 -   Track the financial performance and status of planning items.
 -   Arrive at an informed decision by analyzing the estimated cost and benefits of a planning item while planning and prioritizing for the next Portfolio cycle.
--   View the financials based on the expense type or cost type depending on the [budget attribute configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/config-budget-allocation-attribute-ppw.md).
+-   View the financials based on the expense type or cost type depending on the [budget attribute configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/config-budget-allocation-attribute-ppw.md).
 -   Avoid overspending on planning items by comparing the approved budget with the latest forecast and actuals.
 
-**Important:** New and existing customers need to configure the portfolio financials to view the financials of your planning items at portfolio level. For more information, see [Configure portfolio financials in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/config-portfolio-fin-ppw.md).
+**Important:** New and existing customers need to configure the portfolio financials to view the financials of your planning items at portfolio level. For more information, see [Configure portfolio financials in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/config-portfolio-fin-ppw.md).
 
 The portfolio financials view supports Demands and Projects with Fiscal Calendar type configuration only.
 

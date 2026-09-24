@@ -2,7 +2,7 @@
 title: Modal illustrations in Theme Builder
 description: Modal illustrations accompany user guidance or support messaging about added features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/modals-in-tb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/modals-in-tb.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,10 +34,10 @@ To override the default modal illustrations with custom images, upload each imag
 |Format|SVG|
 |File size limit|2 MB|
 
--   **[Configure colors for modal illustrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-modal-colors.md)**  
+-   **[Configure colors for modal illustrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-modal-colors.md)**  
 Configure and control the colors automatically applied to modal illustrations to keep your visual experience engaging while maintaining brand recognition.
--   **[Override modal illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/override-modal-with-custom-images.md)**  
+-   **[Override modal illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/override-modal-with-custom-images.md)**  
 Modify or override the default modal illustrations with your own custom images to promote visual elements that reflect your company's branding.
 
-**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-image-styles.md)
+**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-with-image-styles.md)
 

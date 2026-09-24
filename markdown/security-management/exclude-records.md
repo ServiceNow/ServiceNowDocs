@@ -2,7 +2,7 @@
 title: Exclude security artifacts from a case
 description: You can remove artifacts from the lists of supporting artifacts. They are not permanently removed and can be returned to the case as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/exclude-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/exclude-records.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ Role required: sn\_ti.case\_user\_write
     The selected artifacts are removed from the list.
 
 
-**Parent Topic:**[Security artifact exclusion and inclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/artifact-inclusion-exclusion.md)
+**Parent Topic:**[Security artifact exclusion and inclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/artifact-inclusion-exclusion.md)
 
 **Related topics**  
 

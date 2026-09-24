@@ -2,7 +2,7 @@
 title: Escalations in On-Call Scheduling
 description: An escalation is a mechanism that ensures that important issues are addressed in a timely manner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/escalations-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/escalations-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -26,23 +26,23 @@ Shift administrators and shift managers can define trigger rules and configure e
 
 **Note:** If an escalation trigger rule is defined for the On-Call: Conference Call Escalation workflow, then the time between reminders is set to 60 seconds irrespective of the **Time between reminders** field value in the associated escalation policy.
 
-For information about escalation policy, see [Create an escalation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-custom-esc-policy-oncall.md).
+For information about escalation policy, see [Create an escalation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/create-custom-esc-policy-oncall.md).
 
-For information about escalation trigger rule, see [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md).
+For information about escalation trigger rule, see [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md).
 
--   **[Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)**  
+-   **[Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)**  
 To design an escalation process for a task, you define a trigger rule and configure one or more escalation policies.
--   **[Track the progress of an escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/track-escalation-progress-oncall.md)**  
+-   **[Track the progress of an escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/track-escalation-progress-oncall.md)**  
 Use the On-Call Escalation Tracking page for full visibility into the time line of an active or closed escalation as it progresses through its on-call escalation path.
--   **[View details in an escalation log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/view-escalation-logs-oncall.md)**  
+-   **[View details in an escalation log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/view-escalation-logs-oncall.md)**  
 View the escalation log record for full details on the time line and actions for an on-call escalation as it progressed through the on-call escalation path. You can also access escalation and escalation notification information from reports.
 
-**Parent Topic:**[Defining On-Call Scheduling escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/defining-escalation-process-and-template.md)
+**Parent Topic:**[Defining On-Call Scheduling escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/defining-escalation-process-and-template.md)
 
 **Related topics**  
 
 
-[Legacy: Viewing Escalation Overview reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-esc-oview-report-oncall.md)
+[Legacy: Viewing Escalation Overview reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/viewing-esc-oview-report-oncall.md)
 
-[Legacy: Viewing the Performance reports for escalations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-performance-report-oncall.md)
+[Legacy: Viewing the Performance reports for escalations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/viewing-performance-report-oncall.md)
 

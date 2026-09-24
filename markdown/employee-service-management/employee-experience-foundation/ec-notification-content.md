@@ -2,7 +2,7 @@
 title: Notification content
 description: Create email, push, and SMS notifications to send messages directly to your employees. Messages can also be sent as part of a campaign.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-notification-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-notification-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -73,9 +73,9 @@ Notify supports the concept of SMS concatenation. The maximum length of a single
 
 </td></tr></tbody>
 </table>-   Configure notifications to work with an SMS service provider or configure a Twilio account. See [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md).
--   Create notification content. See [Create email, SMS, or push notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-notification-content.md).
--   Map SMS content to a campaign \(Content Experiences\). See [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-campaigns.md).
--   Schedule content \(Content Experiences\). See [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-campaigns.md), [Create content for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-content.md), or [Create campaign bundles/stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-campaign-bundles.md), or [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
+-   Create notification content. See [Create email, SMS, or push notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-notification-content.md).
+-   Map SMS content to a campaign \(Content Experiences\). See [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-campaigns.md).
+-   Schedule content \(Content Experiences\). See [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-campaigns.md), [Create content for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-content.md), or [Create campaign bundles/stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-campaign-bundles.md), or [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
 -   Run scheduled jobs:
     -   Content Experiences: Send SMS Notifications: Responsible for sending SMS notifications for campaigns. Default value is to run every hour.
     -   Content Experiences: Update Campaign Audience: Reevaluates the audience for a campaign and removes employees that no longer satisfy the criteria.

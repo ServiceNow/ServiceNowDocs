@@ -2,7 +2,7 @@
 title: Create a scenario
 description: Create a scenario with a building. Add, update, or remove space allocations before publishing and deploying a scenario. Manage and update your scenarios using the Stack plan and Floor map component tabs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-multi-building-scenario.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/create-multi-building-scenario.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -45,15 +45,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
 
 3.  Create a scenario by selecting **Create a scenario** from either of the following options.
 
-<table id="choicetable_fwz_mgg_3vb"><thead><tr><th align="left" id="d579037e157">
+<table id="choicetable_fwz_mgg_3vb"><thead><tr><th align="left" id="d579041e157">
 
 Path
 
-</th><th align="left" id="d579037e160">
+</th><th align="left" id="d579041e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d579037e166">
+</th></tr></thead><tbody><tr><td id="d579041e166">
 
 **From the Space Optimization tab**
 
@@ -61,7 +61,7 @@ Action
 
 Select **Create scenario**.
 
-</td></tr><tr><td id="d579037e178">
+</td></tr><tr><td id="d579041e178">
 
 **From a scenarios list section**
 
@@ -69,7 +69,7 @@ Select **Create scenario**.
 
 Select **Create scenario**.
 
-</td></tr><tr><td id="d579037e190">
+</td></tr><tr><td id="d579041e190">
 
 **From the Buildings section**
 
@@ -82,7 +82,7 @@ Select **Create scenario**.
 </td></tr></tbody>
 </table>4.  On the Scenario details form, fill in the fields.
 
-    For a description of the field values, see [Scenario details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/scenario-details-form.md).
+    For a description of the field values, see [Scenario details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/scenario-details-form.md).
 
 5.  Select **Save scenario**.
 
@@ -95,7 +95,7 @@ The new scenario is created in the **Processing** state and takes some time to m
 
 \[Omitted image "wsd-scenario-creation-page.png"\] Alt text: The Scenarios page showing list of scenarios.
 
-For more information about scenario states, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
+For more information about scenario states, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
 
 After a scenario moves to the **Draft** state, you can open the scenario and select the view options for the scenario.
 
@@ -104,11 +104,11 @@ After a scenario moves to the **Draft** state, you can open the scenario and sel
 
 ## What to do next
 
-To create a copy of an existing scenario, see [Create a copy of an existing scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-copy-of-scenario.md).
+To create a copy of an existing scenario, see [Create a copy of an existing scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-copy-of-scenario.md).
 
-View or edit the scenario by using the stack plan or the floor map. For more information, see [Viewing or editing a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/viewing-editing-scenario.md).
+View or edit the scenario by using the stack plan or the floor map. For more information, see [Viewing or editing a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/viewing-editing-scenario.md).
 
-**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 

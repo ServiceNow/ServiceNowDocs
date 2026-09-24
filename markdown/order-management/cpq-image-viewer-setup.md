@@ -2,7 +2,7 @@
 title: Setting up the Image Viewer
 description: You can use the Image Viewer to add images to fields for viewing in a media carousel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-image-viewer-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-image-viewer-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

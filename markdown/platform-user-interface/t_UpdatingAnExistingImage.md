@@ -2,7 +2,7 @@
 title: Update an existing image
 description: You can change an existing image to an updated version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_UpdatingAnExistingImage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_UpdatingAnExistingImage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Role required: image\_admin or content\_admin
     **Note:** If the new image does not appear as expected, clear the browser cache.
 
 
-**Parent Topic:**[Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md)
+**Parent Topic:**[Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_StoringImagesInTheDatabase.md)
 
 **Related topics**  
 

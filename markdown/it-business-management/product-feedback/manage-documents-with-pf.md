@@ -2,7 +2,7 @@
 title: Manage documentation in Feedback application
 description: Capture documents, files, or resources associated with a product idea in the Doc tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/manage-documents-with-pf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/product-feedback/manage-documents-with-pf.html
 release: australia
 product: Product Feedback
 classification: product-feedback

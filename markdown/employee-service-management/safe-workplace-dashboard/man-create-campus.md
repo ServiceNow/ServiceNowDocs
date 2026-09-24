@@ -2,7 +2,7 @@
 title: Manually map a location and campus
 description: Manually map an existing location to an existing campus and site using Campus Locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-dashboard/man-create-campus.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace-dashboard/man-create-campus.html
 release: australia
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -37,5 +37,5 @@ Role required: sn\_imt\_dashboard.admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Create a campus to appear on the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.md)
+**Parent Topic:**[Create a campus to appear on the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.md)
 

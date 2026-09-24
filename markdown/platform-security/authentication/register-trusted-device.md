@@ -2,7 +2,7 @@
 title: Register a trusted device
 description: Register a trusted device to access the ServiceNow instance outside the network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/register-trusted-device.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/register-trusted-device.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,7 +2,7 @@
 title: Migrating indicator scores
 description: The Performance Analytics Scores \[pa\_scores\] table was split into two tables. This structure helps with processing large numbers of scores. You can migrate your scores from the old table structure to the new, using the score migration tool.Schedule the automated migration process to move existing scores to the new table structure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-scores-migration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/pa-scores-migration.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

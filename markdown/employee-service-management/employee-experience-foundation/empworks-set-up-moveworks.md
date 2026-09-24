@@ -2,7 +2,7 @@
 title: Set up Moveworks for Employee Slate
 description: Set up Moveworks for Employee Slate by connecting the Moveworks AI Assistant and configuring the portal in the Product Configuration console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-set-up-moveworks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-set-up-moveworks.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,11 +33,11 @@ Setup combines two streams of work. The first stream configures the Moveworks ch
 
 1.  Configure the Moveworks chatbot for Employee Slate.
 
-    For the procedure, see [Configure the Moveworks chatbot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md).
+    For the procedure, see [Configure the Moveworks chatbot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md).
 
 2.  Configure EmployeeWorks Web App in the Product Configuration console.
 
-    For the procedure, see [Configure EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-employee-slate-moveworks.md).
+    For the procedure, see [Configure EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-employee-slate-moveworks.md).
 
 
 ## Result

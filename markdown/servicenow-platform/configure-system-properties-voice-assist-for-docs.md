@@ -2,7 +2,7 @@
 title: Configure Document Voice Interaction
 description: Enable and configure Document Voice Interaction to after installing ServiceNow Otto for Document Voice
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-system-properties-voice-assist-for-docs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configure-system-properties-voice-assist-for-docs.html
 release: australia
 topic_type: task
 last_updated: "2026-07-24"

@@ -2,7 +2,7 @@
 title: Link parent contract requests
 description: Link parent contracts during drafting and negotiation phases to establish hierarchical relationship between the parent and child contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +18,7 @@ Link parent contracts during drafting and negotiation phases to establish hierar
 
 ## About this task
 
-This task links a parent contract request without copying any fields from it. If you also want to inherit configured fields from the parent into the child contract request, use [Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md) instead.
+This task links a parent contract request without copying any fields from it. If you also want to inherit configured fields from the parent into the child contract request, use [Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md) instead.
 
 The following video walks you through the process of linking a parent contract request.\[Omitted video\] Description: Video providing step-by-step instructions on linking parent contract request, approximately one minute long.
 
@@ -38,15 +38,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d367273e88">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d367277e88">
 
 Method
 
-</th><th align="left" id="d367273e91">
+</th><th align="left" id="d367277e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d367273e97">
+</th></tr></thead><tbody><tr><td id="d367277e97">
 
 **Contract Workspace listing**
 
@@ -58,7 +58,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d367273e144">
+</td></tr><tr><td id="d367277e144">
 
 **Workspace used by your application**
 
@@ -91,5 +91,5 @@ Steps
     \[Omitted image "cmpro-parent-child-link.png"\] Alt text: Parent-child hierarchy in the Related contract requests tab
 
 
-**Parent Topic:**[Linking parent-child contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-linking-parent-child.md)
+**Parent Topic:**[Linking parent-child contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-linking-parent-child.md)
 

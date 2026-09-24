@@ -2,7 +2,7 @@
 title: Domain separation and Digital Product Release
 description: Domain separation is supported for Digital Product Release. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-domain-separation-digital-product-release.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-domain-separation-digital-product-release.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -36,7 +36,7 @@ All tables in Digital Product Release can be domain-separated and include the re
 -   Each table in Digital Product Release includes the domain separation field called **Domain**.
 -   Customers can use this field to configure domain separation in their implementation of Digital Product Release.
 
-**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-reference.md)
+**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-reference.md)
 
 **Related topics**  
 

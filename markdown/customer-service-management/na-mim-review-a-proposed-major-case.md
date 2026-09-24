@@ -2,7 +2,7 @@
 title: Review a proposed major case
 description: When the AI workflow proposes a new major case, review the suggestion and approve or reject it to determine whether a major issue lifecycle is initiated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/na-mim-review-a-proposed-major-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/na-mim-review-a-proposed-major-case.html
 release: australia
 topic_type: task
 last_updated: "2026-06-03"

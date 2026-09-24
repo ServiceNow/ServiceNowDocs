@@ -2,7 +2,7 @@
 title: Create external systems
 description: Create a custom external system to organize integrations beyond the default systems.Change the name of an external system or the image depicting the system.Find and explore external systems through search and filtering.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connecthub-create-external-systems.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connecthub-create-external-systems.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Interaction page for Agentic Contact Center for Insurance
 description: The Interaction page is a dedicated workspace for insurance CSR \(customer service representative\) agents. It consolidates customer identification, interaction history, and live call transcript analysis into a single view during active customer interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/interactionpage-agentic-contact-centre-for-insurance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/interactionpage-agentic-contact-centre-for-insurance.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-25"
@@ -25,7 +25,7 @@ As the conversation progresses, the AI agent processes the customer's request, a
 
 CSRs can also type their own questions directly into the ServiceNow Otto panel at any time. The panel displays responses from the AI agent in a structured format that may include insights, recommendations, and guidance based on the content and sentiment of the conversation.
 
-For more information, see [Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/explore-agentic-contact-center-for-insurance.md).
+For more information, see [Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/explore-agentic-contact-center-for-insurance.md).
 
 ## Policyholder context summary
 
@@ -40,7 +40,7 @@ The customer summary includes:
 
 The customer summary is not visible when no account or consumer has been associated with the interaction.
 
-For more information, see [Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-context.md).
+For more information, see [Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/summarize-insurance-customer-context.md).
 
 ## Interaction form
 
@@ -93,7 +93,7 @@ For more information, see the following topics:
 
 [CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
 
-[Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/explore-agentic-contact-center-for-insurance.md)
+[Exploring Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/explore-agentic-contact-center-for-insurance.md)
 
-[Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/customer-360-insurance-agentic-contact-centre.md)
+[Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/customer-360-insurance-agentic-contact-centre.md)
 

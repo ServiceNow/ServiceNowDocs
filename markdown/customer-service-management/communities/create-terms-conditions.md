@@ -2,7 +2,7 @@
 title: Create community Terms and Conditions
 description: Community members must follow the community rules of conduct. Create community Terms and Conditions and them share to build a successful community. Every community user must review and accept the Terms and Conditions before contributing to a community.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-terms-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/create-terms-conditions.html
 release: australia
 product: Communities
 classification: communities
@@ -38,15 +38,15 @@ You can disable Terms and Conditions using the **sn\_communities.disable\_terms\
 
 2.  Complete one of the following actions to save the Terms and Conditions.
 
-<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d69492e154">
+<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d69496e154">
 
 To
 
-</th><th align="left" id="d69492e157">
+</th><th align="left" id="d69496e157">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d69492e163">
+</th></tr></thead><tbody><tr><td id="d69496e163">
 
 **Submit**
 
@@ -54,7 +54,7 @@ Do this
 
 Click **Submit** to save your Terms and Conditions.
 
-</td></tr><tr><td id="d69492e175">
+</td></tr><tr><td id="d69496e175">
 
 **Activate**
 
@@ -70,7 +70,7 @@ Click **Submit** to save your Terms and Conditions.
 </table>    You can view which community users have accepted the Terms and Conditions and when. Navigate to **Community** &gt; **User Profile** &gt; **Community Profiles**. View or add, if necessary, the **Accepted TC**, **Accepted TC Date**, and **Accepted TC Number** fields.
 
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

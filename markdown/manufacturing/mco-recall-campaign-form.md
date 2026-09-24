@@ -2,7 +2,7 @@
 title: Recall campaign form
 description: The recall campaign form provides the original equipment manufacturer \(OEM\) with the required information to initiate a recall campaign.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-recall-campaign-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-recall-campaign-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -137,12 +137,12 @@ Recall campaign Work notes
 Additional notes, if any.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaigns.md)
+[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-rc-my-campaigns.md)
 
-[View All campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-all-campaigns.md)
+[View All campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-rc-all-campaigns.md)
 

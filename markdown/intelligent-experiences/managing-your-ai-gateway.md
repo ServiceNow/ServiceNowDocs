@@ -2,7 +2,7 @@
 title: Managing your AI Gateway
 description: Manage your AI Gateway tab on the MCP server record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/managing-your-ai-gateway.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/managing-your-ai-gateway.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"
@@ -50,7 +50,7 @@ The Tools sub-tab lists the tools exposed by the MCP server through the AI Gatew
 
 Before MCP server tools are activated, the system scans them to determine whether they pose a potential security threat. Threat categories are based on the OWASP MCP Top 10, the ten most critical MCP-related security vulnerabilities as defined by OWASP. For more information, see [OWASP MCP Top 10](https://owasp.org/www-project-mcp-top-10/).
 
-System properties control whether Now Assist Guardian tool scanning and more advanced scanning are enabled. For more information, see [System properties for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-reference-system-properties.md).
+System properties control whether Now Assist Guardian tool scanning and more advanced scanning are enabled. For more information, see [System properties for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-reference-system-properties.md).
 
 |Threat category|Description|
 |---------------|-----------|

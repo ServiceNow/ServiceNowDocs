@@ -2,7 +2,7 @@
 title: Modify the greeting text on the landing page
 description: Customize the header message that is a part of the greeting text on the home page. This creates a personalized user experience and sets the right tone for the information presented.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/modify-greeting-text-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/modify-greeting-text-itom.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -505,5 +505,5 @@ Suppose you are on call until Monday, March 21. You can update your greetings to
 6.  Select **Update**.
 
 
-**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/customize-sow-landing-page-itom.md)
+**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/customize-sow-landing-page-itom.md)
 

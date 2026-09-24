@@ -2,7 +2,7 @@
 title: Fix service mapping errors using discovery messages
 description: Service Mapping does not offer semi-automated resolution options for errors that require advanced resolution. Fix such errors using symptoms and discovery messages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/fix-errors-by-discovery-messages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/fix-errors-by-discovery-messages.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -18,7 +18,7 @@ Service Mapping does not offer semi-automated resolution options for errors that
 
 ## Before you begin
 
-Try fixing errors using semi-automated resolution options as described in [Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md).
+Try fixing errors using semi-automated resolution options as described in [Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md).
 
 Role required: service\_mapping\_admin
 
@@ -62,7 +62,7 @@ The following discovery message is displayed: `The map does not display the enti
 
 Reduce the application service size.-   For an application service mapped using pattern-based and traffic-based discovery, perform the following actions:
     -   If you use customized discovery patterns and mapping results in very large service instances, modify the patterns so that they don't map irrelevant CIs.
-    -   [Split the service into smaller services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-segment-to-business-service-map.md).
+    -   [Split the service into smaller services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/add-segment-to-business-service-map.md).
 -   For an application service converted from an application service, perform the following actions:
     -   Review the converted service instance to identify CI relations irrelevant or redundant for this service. Remove such CI relations in the CMDB.
     -   Decide how many levels of related CIs you must include into this service instance. If necessary, [change the number of levels used in conversion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/update-services-from-cmdb.md) to reduce the service size.
@@ -74,8 +74,8 @@ The following discovery message is displayed in a tag-based service instance: **
 
 </td><td>
 
-Perform the following actions: -   [Modify tag definitions used for mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/modify-tag-category-family.md) to make sure Service Mapping includes only relevant CIs in the service instance.
--   If necessary, [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md) to change which CIs Service Mapping includes in tag-based service instances.
+Perform the following actions: -   [Modify tag definitions used for mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/modify-tag-category-family.md) to make sure Service Mapping includes only relevant CIs in the service instance.
+-   If necessary, [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag_discovery_configuration.md) to change which CIs Service Mapping includes in tag-based service instances.
 
 
 </td></tr><tr><td>
@@ -219,7 +219,7 @@ The service instance map shows a different load balancer from the one you expect
 
 </td><td>
 
-Perform the procedure described in [Upload the rctrlx.exe file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/upload-rctrlx-file.md).
+Perform the procedure described in [Upload the rctrlx.exe file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/upload-rctrlx-file.md).
 
 </td></tr><tr><td>
 
@@ -235,7 +235,7 @@ Perform the following steps:1.  \(Optional for grayed out segments\) Identify th
 </table>5.  Click **Run Discovery**.
 
 
-**Parent Topic:**[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
+**Parent Topic:**[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
 
 **Related topics**  
 

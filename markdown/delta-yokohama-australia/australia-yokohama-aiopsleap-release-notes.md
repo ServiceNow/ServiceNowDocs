@@ -2,11 +2,11 @@
 title: Combined AIOps LEAP release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for AIOps LEAP from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-aiopsleap-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-aiopsleap-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -78,6 +78,19 @@ Yokohama
 -   **[Enhanced opportunities page](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
 
 Enhancements &amp; Design changes to load all opportunities and enable to select all cards.
+
+
+ -   **[Incident clustering and comprehensive summaries](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+
+AIOps LEAP smartly categorizes IT incidents based on short descriptions and assignment groups. It uses historical data to get a deeper understanding of issues and summarizes them into actionable resolutions. AIOps LEAP consolidates information from different incidents to help with decision making and serves as a repository of knowledge.
+
+-   **[Group incidents to create automation opportunities](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+
+AIOps LEAP uses the ServiceNow® GAF \(Group Action Framework\) plugin to organize and group incidents based on specific parameters. These groups are clusters or automation opportunities. They are created by analyzing incident data such as work notes and resolution notes. AIOps LEAP uses these automation opportunities to generate resolution steps to help solve similar future incidents.
+
+-   **[Automation recommendations and playbook generation](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+
+AIOps LEAP identifies frequent issues and offers automation recommendations to address them. It streamlines and optimizes operational processes by creating actionable playbooks based on historical data and resolution workflows. Additionally, it builds a knowledge base by documenting workflows and solutions through detailed resolution steps, enabling further analysis, learning, and continuous improvement. These resolution steps can be shared across teams to facilitate collaboration and enhance operational efficiency, even without formal playbook creation. Thus, automated playbook generation is a valuable output of the AIOps LEAP platform.
 
 
 </td></tr><tr><td>
@@ -280,7 +293,7 @@ Now Assist Admin
 
 </td></tr></tbody>
 </table>
-
+**Important:** AIOps LEAP is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -292,6 +305,8 @@ Zurich
 
 Install AIOps LEAP by requesting ServiceNow Otto for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** AIOps LEAP is available under ServiceNow Otto for IT Operations Management \(ITOM\) in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -506,5 +521,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

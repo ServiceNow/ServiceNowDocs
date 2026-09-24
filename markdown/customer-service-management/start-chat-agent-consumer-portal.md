@@ -2,7 +2,7 @@
 title: Chat with an agent from the Consumer Service Portal
 description: Chat with a virtual agent or a customer service agent from the Consumer Service Portal to resolve issues quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/start-chat-agent-consumer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/start-chat-agent-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ If the agent creates a case or links the discussion to an existing case, you can
 **Related topics**  
 
 
-[Pre-chat from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-pre-chat.md)
+[Pre-chat from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-pre-chat.md)
 
-[Chat anonymously with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-anonymous-chat-with-agent.md)
+[Chat anonymously with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/start-anonymous-chat-with-agent.md)
 

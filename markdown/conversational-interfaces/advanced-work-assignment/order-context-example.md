@@ -2,7 +2,7 @@
 title: Create a queue for order issues
 description: Create a queue for the Chat service channel that routes order issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/order-context-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/order-context-example.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

@@ -2,7 +2,7 @@
 title: CRM Workspace record pages and page templates
 description: Use record pages to display information in CRM Workspace. Use page templates to create record pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-pages-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-ws-pages-templates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ A record page provides the base structure for how a record is displayed in CRM W
 
 Record pages include elements such as layouts, containers, and components to display record information. Some record pages leverage additional logic using presets, controllers, and extension points.
 
-Several [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md) are included with CRM Workspace. You can use these record pages as is or you can customize them to suit your needs.
+Several [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-record-pages.md) are included with CRM Workspace. You can use these record pages as is or you can customize them to suit your needs.
 
 ## Record templates
 
@@ -28,7 +28,7 @@ A page template is a blueprint or a model of a record page that displays informa
 
 Page templates can include components, data resources, extension points, and a layout. When you create a page or a page variant from a page template, you start from a base structure that you can customize to meet your needs.
 
-The Customer Service application includes several [page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-page-templates.md) that you can use to create pages.
+The Customer Service application includes several [page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-page-templates.md) that you can use to create pages.
 
 ## Workspace record page interoperability
 

@@ -2,7 +2,7 @@
 title: Enhancing event task management with Hierarchical view
 description: The Hierarchical view for event tasks has been enhanced with several key features. It now displays dependencies between tasks, and shows color-coded states with planned start and end dates. Dependencies can be updated directly through the Hierarchical view \(Gantt chart\), streamlining event task management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/managing-enhanced-hierarchical-view-in-event-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/managing-enhanced-hierarchical-view-in-event-tasks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -82,5 +82,5 @@ You can view the actual start and end dates in the Gantt chart. To view the date
 
 You can toggle between viewing planned dates and actual dates using the switch button, enabling easy comparison and tracking the progress of the project.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

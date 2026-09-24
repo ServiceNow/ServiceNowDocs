@@ -2,7 +2,7 @@
 title: Invoice exception definition form
 description: Field descriptions for the Invoice exception definition form used to create and configure invoice exception definitions in Accounts Payable Invoice Processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-exception-definition-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-exception-definition-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -109,7 +109,7 @@ Mechanism that the exception engine uses to evaluate invoice exceptions.-   Subf
 -   Script defines the logic to determine if the exception applies to an invoice.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

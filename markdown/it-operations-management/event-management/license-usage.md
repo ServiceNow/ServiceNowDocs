@@ -2,7 +2,7 @@
 title: View Event Management license usage
 description: Event Management is licensed based on the number of CIs bound to alerts during the last year. For alerts not bound to CIs, the system calculates the number of nodes that can send events to the instance during the last year.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/license-usage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/license-usage.html
 release: australia
 product: Event Management
 classification: event-management

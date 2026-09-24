@@ -2,7 +2,7 @@
 title: CMDB classes targeted in AI Service Graph Connector for IBM
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from IBM. The data is saved in tables that extend from the Configuration Item \[cmdb\_ci\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-sgc-ibm-classes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-sgc-ibm-classes.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

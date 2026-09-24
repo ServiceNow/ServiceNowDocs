@@ -2,7 +2,7 @@
 title: Disable attorney client privilege for legal matter
 description: Disable privileged and confidential status of a legal matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-acp-disable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/lmm-acp-disable.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -32,15 +32,15 @@ As a fulfiller or matter owner, you can disable attorney client privilege on a l
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d748652e102">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d748656e102">
 
 Option
 
-</th><th align="left" id="d748652e105">
+</th><th align="left" id="d748656e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d748652e111">
+</th></tr></thead><tbody><tr><td id="d748656e111">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d748652e140">
+</td></tr><tr><td id="d748656e140">
 
 **As a collaborator**
 

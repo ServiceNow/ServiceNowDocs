@@ -2,7 +2,7 @@
 title: Outbound REST authentication
 description: Outbound REST messages support multiple types of authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_OutboundRESTAuth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_OutboundRESTAuth.html
 release: australia
 product: Web Services
 classification: web-services
@@ -51,12 +51,12 @@ Authentication requirement for REST Outbound are as follows:
 -   When scripting new REST messages configured with authentication you must use the RESTMessageV2 API. The legacy RESTMessage APIs do not support current authentication formats.
 -   AWS credentials or any other custom authentication are supported only with the [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rest-request-action-designer.md), not with the RestMessage API.
 
--   **[Configure a REST message with basic auth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfigureRESTMsgBasicAuth.md)**  
+-   **[Configure a REST message with basic auth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_ConfigureRESTMsgBasicAuth.md)**  
 Configure an outbound REST message to provide basic authentication credentials with each request.
--   **[Configure a REST message with OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfigureARESTMessageWithOAuth.md)**  
+-   **[Configure a REST message with OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_ConfigureARESTMessageWithOAuth.md)**  
 You can configure an outbound REST message to send OAuth credentials with the request.
--   **[Outbound REST mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTMutualAuthentication.md)**  
+-   **[Outbound REST mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_OutboundRESTMutualAuthentication.md)**  
 Mutual authentication causes the web service provider and consumer to authenticate with each other before communicating.
 
-**Parent Topic:**[Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md)
+**Parent Topic:**[Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_OutboundRESTWebService.md)
 

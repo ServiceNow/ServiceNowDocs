@@ -2,7 +2,7 @@
 title: Add a trigger to an AI agent
 description: In the guided setup for an AI agent, add triggers to run the AI agent automatically when certain conditions are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-trigger-aia-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-trigger-aia-new.html
 release: australia
 topic_type: task
 last_updated: "2026-06-04"
@@ -22,9 +22,9 @@ Role required: sn\_aia.admin
 
 Adding a trigger is optional. If you want your AI agent to be used only in chats, you don't need to add a trigger. Only add a trigger if you want to invoke the AI agent automatically when some event occurs. Triggers can be added, edited, and removed at any time, and an agent with no trigger can still be used in chat.
 
-A trigger determines how often and how widely the agent runs, so scope the condition before activating it. A condition that matches a large set of records invokes the agent for each of them, and a scheduled trigger processes a capped number of records per run, ten by default. [Test the agent manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-asset-new.md) against a single record that meets the condition first.
+A trigger determines how often and how widely the agent runs, so scope the condition before activating it. A condition that matches a large set of records invokes the agent for each of them, and a scheduled trigger processes a capped number of records per run, ten by default. [Test the agent manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-asset-new.md) against a single record that meets the condition first.
 
-If you don't want to add a trigger, skip to the next step, [Select channels and messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia-new.md).
+If you don't want to add a trigger, skip to the next step, [Select channels and messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aia-new.md).
 
 ## Procedure
 
@@ -79,5 +79,5 @@ You have added triggers to your AI agent to run it automatically under the speci
 
 ## What to do next
 
-Scroll down to the next section of the guided setup, **Channel and display**, to [configure where the AI agent can be invoked and set processing messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia-new.md).
+Scroll down to the next section of the guided setup, **Channel and display**, to [configure where the AI agent can be invoked and set processing messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aia-new.md).
 

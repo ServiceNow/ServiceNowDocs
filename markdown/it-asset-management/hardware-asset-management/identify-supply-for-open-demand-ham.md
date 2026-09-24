@@ -2,7 +2,7 @@
 title: Identify the supply for open demands in the Hardware Asset Workspace
 description: Use the Open demands report to determine available stock within local stockrooms and distribution channels to fulfill sourcing requests that are open.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/identify-supply-for-open-demand-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/identify-supply-for-open-demand-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -39,5 +39,5 @@ Role required: asset
 4.  To view the current stock availability in the distribution channel stockrooms for all open requests for a model and determine if there is sufficient quantity, select the number shown in the **Remote stockroom quantity** column.
 
 
-**Parent Topic:**[Manage stockrooms with inventory reports in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-stockroom-inventory-report-ham.md)
+**Parent Topic:**[Manage stockrooms with inventory reports in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-stockroom-inventory-report-ham.md)
 

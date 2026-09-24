@@ -2,7 +2,7 @@
 title: Automate the incident updates and closures by the SIR incident status
 description: Automate the incident updates and closures by the SIR incident status. The Microsoft Azure Sentinel integration has a bi-directional interface that enables both incidents to create security incidents and to update the incidents after the security incident is created or closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/automate-incident-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/automate-incident-updates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

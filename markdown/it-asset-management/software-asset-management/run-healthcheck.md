@@ -2,7 +2,7 @@
 title: Run a health check scan for Software Asset Management
 description: Run a health check scan on your Software Asset Management configurations and get recommendations on fixing any errors that might exist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/run-healthcheck.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/run-healthcheck.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -58,7 +58,7 @@ You can run a health check scan to find the health score for the complete config
 **Related topics**  
 
 
-[Software Asset Management health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-health-check.md)
+[Software Asset Management health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-health-check.md)
 
-[Health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/health-check-dboard.md)
+[Health check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/health-check-dboard.md)
 

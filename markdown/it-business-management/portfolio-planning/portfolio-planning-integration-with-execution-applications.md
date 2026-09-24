@@ -2,7 +2,7 @@
 title: Portfolio Planning with Project Portfolio Management
 description: Facilitate execution of the work planned in Portfolio Planning in ServiceNow Project Portfolio Management \(PPM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/portfolio-planning-integration-with-execution-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/portfolio-planning-integration-with-execution-applications.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -28,7 +28,7 @@ While planning personas like portfolio managers or product owners use Portfolio 
 -   Synchronize updates for linked planning items of Portfolio Planning with PPM.
 -   Track the progress of the linked planning items in Portfolio Planning.
 
-To get started on integrating Portfolio Planning with PPM, see [Configuring Portfolio Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.md).
+To get started on integrating Portfolio Planning with PPM, see [Configuring Portfolio Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.md).
 
-**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

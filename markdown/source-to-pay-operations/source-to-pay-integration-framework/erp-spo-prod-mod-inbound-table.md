@@ -2,7 +2,7 @@
 title: Product Model Stage inbound staging table
 description: The Product Model Stage inbound \[sn\_fcms\_intg\_cmdb\_model\_stage\] staging table temporarily stores important data about product models before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-prod-mod-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-prod-mod-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

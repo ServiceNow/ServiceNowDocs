@@ -2,14 +2,14 @@
 title: AI Search activity reports
 description: Reports summarize your AI Search configurations and trends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-activity-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-admin-console-activity-reports.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Track your AI Search activity, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -26,5 +26,5 @@ Reports summarize your AI Search configurations and trends.
 |Documents by indexed sources|Donut \(\[Omitted image "donut-icon.png"\] Alt text: Donut icon.\)|sn\_ais\_admin\_tools\_ai\_search\_dashboard\_total\_indexed\_documents|Shows the number of searchable records indexed by AI Search, grouped by indexed source.|
 |Queries by search profile|Donut \(\[Omitted image "donut-icon.png"\] Alt text: Donut icon.\)|sys\_search\_event|Shows the number of search queries, grouped by search profile used.|
 
-**Parent Topic:**[Track your AI Search activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-track-activity.md)
+**Parent Topic:**[Track your AI Search activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-track-activity.md)
 

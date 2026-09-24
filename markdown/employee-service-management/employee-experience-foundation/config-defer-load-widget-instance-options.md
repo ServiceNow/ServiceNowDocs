@@ -2,7 +2,7 @@
 title: Modify homepage banner instance for high-traffic
 description: You can configure the instance options to control the display of widgets and improve the homepage banner instance for high-traffic experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-defer-load-widget-instance-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-defer-load-widget-instance-options.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -91,12 +91,12 @@ You can find a similar experience for the following widgets:
     We're experiencing heavy usage. Try again later.
     ```
 
-    For more information, see [Popular topics widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-popular-topics.md).
+    For more information, see [Popular topics widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-popular-topics.md).
 
 -   **My active items**: During high-traffic, the widget doesn't display the count of items.
 
 **Related topics**  
 
 
-[Defer load in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-load-expe-defer-load.md)
+[Defer load in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-load-expe-defer-load.md)
 

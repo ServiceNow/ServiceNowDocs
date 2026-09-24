@@ -2,7 +2,7 @@
 title: Configure the organization classification decision table
 description: Edit the decision table that classifies imported FHIR Organizations as internal or external business locations, so that the classification matches how your organization defines internal and external entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-configure-decision-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-configure-decision-table.html
 release: australia
 topic_type: task
 last_updated: "2026-06-16"

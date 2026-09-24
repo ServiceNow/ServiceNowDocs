@@ -2,10 +2,10 @@
 title: Specify the duration of an exception requested for a remediation task
 description: Use system properties to limit the duration for which an exception is requested for a remediation task. Remediation of the remediation task is deferred for the specified period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-ex-req-sysprop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-ex-req-sysprop.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure Exception Management for Security Exposure Management, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -39,5 +39,5 @@ The `sn_vulc.exception_max_request_days` property is used to specify the maximum
     The record is updated and saved.
 
 
-**Parent Topic:**[Configure Exception Management for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exp-mngmt-vr.md)
+**Parent Topic:**[Configure Exception Management for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exp-mngmt-vr.md)
 

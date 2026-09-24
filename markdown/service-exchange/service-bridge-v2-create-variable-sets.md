@@ -2,7 +2,7 @@
 title: Create a variable set in Service Exchange for remote record producers
 description: Create variable sets for a remote record producer in Service Exchange for Providers application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-variable-sets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-create-variable-sets.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -123,7 +123,7 @@ Description of the variable set.
 
     1.  In the Variables related list, click **New**.
 
-    2.  Follow the steps listed in [Create variables for remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-assign-variables-ser-defn.md) to create variables.
+    2.  Follow the steps listed in [Create variables for remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-assign-variables-ser-defn.md) to create variables.
 
         **Note:** For a multi-row variable set:
 
@@ -133,6 +133,6 @@ Description of the variable set.
 
     Repeat the above steps to create additional variable sets for the same remote record producer.
 
-    For more information on variable sets and the layout, see .
+    For more information on variable sets and the layout, see [Variable set layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_DefineVariableSetLayout.md).
 
 

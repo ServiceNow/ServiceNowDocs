@@ -2,7 +2,7 @@
 title: Create an entity type
 description: Create an entity type for the entities in your system. Entity types enable you to find and create entities that have the same attributes and that match a set of filter conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-entity-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-entity-type.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,7 +62,7 @@ The entity type is created. The new entity type form is displayed with the **Det
 
 ## What to do next
 
-You can also [update an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/update-entity-type.md).
+You can also [update an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/update-entity-type.md).
 
-**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/entities-in-esg.md)
+**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/entities-in-esg.md)
 

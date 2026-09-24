@@ -2,7 +2,7 @@
 title: Components installed with Investment Funding
 description: Several types of components are installed with activation of the Investment Funding \(sn\_invst\_pln\) plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/installed-with-investment-funding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/investment-funding/installed-with-investment-funding.html
 release: australia
 product: Investment Funding
 classification: investment-funding
@@ -154,5 +154,5 @@ Investment\[sn\_invst\_pln\_invst\_investment\]
 Stores investment details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/activate-investment-funding.md)
+</table>**Parent Topic:**[Install Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/investment-funding/activate-investment-funding.md)
 

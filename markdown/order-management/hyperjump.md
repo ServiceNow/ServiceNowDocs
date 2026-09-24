@@ -2,7 +2,7 @@
 title: Hyperjump
 description: Hyperjump shows you a configuration as a graphic diagram.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/hyperjump.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/hyperjump.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create request as manager using the Kronos catalog item
 description: Trigger events in Kronos when an item is requested in the Service Catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/kronos-serv-cat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/kronos-serv-cat.html
 release: australia
 product: Integration Hub
 classification: integration-hub

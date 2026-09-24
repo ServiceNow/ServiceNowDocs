@@ -2,7 +2,7 @@
 title: Create custom Scan Engine definitions
 description: The Scan Engine contains preexisting base system definitions and you can create your own.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/create-scan-engine-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/create-scan-engine-definitions.html
 release: australia
 topic_type: task
 last_updated: "2026-08-21"
@@ -16,7 +16,7 @@ The Scan Engine contains preexisting base system definitions and you can create 
 
 ## Before you begin
 
-**Note:** The Impact Guided package allows up to 10 active custom definitions in a single instance. Definitions in excess will be disabled when a scan is executed. The Impact Total package or the Platform Health add-on with the Guided package may have unlimited active custom definitions in a single instance. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md) for details.
+**Note:** The Impact Guided package allows up to 10 active custom definitions in a single instance. Definitions in excess will be disabled when a scan is executed. The Impact Total package or the Platform Health add-on with the Guided package may have unlimited active custom definitions in a single instance. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-packages1.md) for details.
 
 Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
 
@@ -62,7 +62,7 @@ Select the severity level of the finding for the definition that displays when r
 -   **Recommend**: Prevents users from modifying the record unless they provide an exception reason for why the definition was not followed or until the definition's conditions are met.
 -   **Suggest**: Prompts users to check if there is a better solution available.
 -   **Review**: Calls out less serious items for review. This does not contribute to technical debt.
-See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/understand-scan-engine-results-findings.md) for additional information.
+See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/understand-scan-engine-results-findings.md) for additional information.
 
 </td></tr><tr><td id="d47080e203">
 
@@ -70,7 +70,7 @@ See [Understand scan results and findings](https://raw.githubusercontent.com/Ser
 
 </td><td>
 
-Upgradeability, manageability, performance, security, or user experienceFor details, see [Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md).
+Upgradeability, manageability, performance, security, or user experienceFor details, see [Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/view-modify-scan-engine-properties.md).
 
 </td></tr><tr><td id="d47080e222">
 
@@ -173,7 +173,7 @@ Sets the definition’s rule type:-   Fails if script includes text
 
 -   Allows a definition to be defined such that it enables the ability to automatically apply recommended changes to objects in your ServiceNow instance.
 -   When selected, the **Proposed Fix Script** field displays.
- **Note:** This functionality is available in either the Impact Total package or the Platform Health add-on. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages.md) for entitlement information.
+ **Note:** This functionality is available in either the Impact Total package or the Platform Health add-on. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-packages.md) for entitlement information.
 
 </td></tr><tr><td id="d47080e443">
 
@@ -341,5 +341,5 @@ A description of the steps for resolving the finding related to this definition.
 </table>7.  Select **Save** in the Additional Actions drop down menu to save the new definition, then configure the Applicable Tables.
 
 
-**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md)
+**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/view-modify-scan-engine-properties.md)
 

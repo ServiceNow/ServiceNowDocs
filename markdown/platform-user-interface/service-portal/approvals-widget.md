@@ -2,7 +2,7 @@
 title: Approvals widget
 description: Users can approve or reject items directly within Service Portal. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/approvals-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/approvals-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -22,7 +22,7 @@ The Approvals widget displays data from the Approvals \[sysapproval\_approver\] 
 
 \[Omitted image "WidgetApprovals.png"\] Alt text: Approvals widget
 
-You can enable e-signature for the approvals widget to require reauthentication for your users. For more information on enabling e-signature, see [Enable e-signature for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-esignature-sp.md).
+You can enable e-signature for the approvals widget to require reauthentication for your users. For more information on enabling e-signature, see [Enable e-signature for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-esignature-sp.md).
 
 ## Instance options
 
@@ -34,10 +34,10 @@ Use the instance options to change the appearance of the approvals widget.
 |Glyph|Add an icon to display beside the widget name.|
 |Buttons stacked side by side|If this check box is selected, the Approve and Reject buttons appear horizontally beside each other. If this check box is cleared, the Approve and Reject buttons appear stacked vertically.|
 |Max number of elements shown in the list|Limit the number of approvals users see on a page. The default number is 10. Only enter numbers greater than 0.|
-|Who can view instances/who cannot view instances|Control who can or can’t view a widget instance with [user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md). User criteria must be enabled for this option to appear.|
+|Who can view instances/who cannot view instances|Control who can or can’t view a widget instance with [user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/user-criteria.md). User criteria must be enabled for this option to appear.|
 |Comments mandatory for rejection|Require approvers to provide comments when rejecting an approval. The comments are added to the Approval record. By default, providing comments is optional.|
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

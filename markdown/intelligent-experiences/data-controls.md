@@ -2,7 +2,7 @@
 title: Data controls
 description: Data controls in AI Control Tower enable you to manage how ServiceNow Otto traffic and data are handled across ServiceNow and external datacenters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/data-controls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/data-controls.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-14"
@@ -40,5 +40,5 @@ To prevent ServiceNow Otto from bursting to Microsoft Azure datacenters, select 
 
 **Note:** The Data sharing and Data overflow processing cards are available for a sub-prod \(managed\) instance in read-only mode, when Multi-instance setup is configured and active.
 
-**Parent Topic:**[Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configure-servicenow-ai-settings.md)
+**Parent Topic:**[Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-servicenow-ai-settings.md)
 

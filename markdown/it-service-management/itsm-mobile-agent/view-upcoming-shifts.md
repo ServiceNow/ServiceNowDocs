@@ -2,7 +2,7 @@
 title: View upcoming shifts with On-Call Scheduling
 description: Use the My work feature in the ITSM Mobile Agent app to view your upcoming shifts and request time off.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/view-upcoming-shifts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/view-upcoming-shifts.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

@@ -2,12 +2,12 @@
 title: JSON Web token bearer grant
 description: Configuring an OAuth JSON Web Token \(JWT\) bearer grant secures token-based authentication without user interaction. Use this flow when a client application needs secure, unattended access to ServiceNow resources, either as itself or on behalf of a user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/jwt-bearer-grant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/jwt-bearer-grant.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -42,7 +42,7 @@ The JWT must be signed using the client’s private key. It must include the fol
 **Related topics**  
 
 
-[JSON Web token grant workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/using-json-web-token-grant.md)
+[JSON Web token grant workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/using-json-web-token-grant.md)
 
-[Configure an OAuth JSON web token bearer grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-an-oauth-jwt-bearer-grant.md)
+[Configure an OAuth JSON web token bearer grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-an-oauth-jwt-bearer-grant.md)
 

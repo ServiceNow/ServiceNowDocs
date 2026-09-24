@@ -2,7 +2,7 @@
 title: Knowledge content migration from v2 to v3
 description: To use the new functionality available in knowledge v3 with legacy articles, you must migrate these articles out of the default knowledge base.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_KMv3MigrateKnowledgeContent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/t\_KMv3MigrateKnowledgeContent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -20,14 +20,14 @@ To migrate knowledge content, move articles out of the default knowledge base by
 
 After you migrate a knowledge article, the legacy feedback functionality is automatically replaced with the new knowledge feedback mechanisms. Legacy feedback is copied to the Live Feed Message \[live\_message\] table to ensure previously submitted feedback is available for knowledge v3 articles.
 
-**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/using-knowledge-management.md)
 
 **Related topics**  
 
 
-[Move a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_MoveAnArticle.md)
+[Move a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_MoveAnArticle.md)
 
-[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
+[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
 
-[Migrate to Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_KMv3Migration.md)
+[Migrate to Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/c_KMv3Migration.md)
 

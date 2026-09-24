@@ -2,7 +2,7 @@
 title: Configuring Retention Period
 description: Configure the retention period for Identity and Access Audit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/configure-retention-period.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/configure-retention-period.html
 release: australia
 product: Identity
 classification: identity

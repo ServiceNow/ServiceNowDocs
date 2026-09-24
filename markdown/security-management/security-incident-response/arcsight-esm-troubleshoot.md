@@ -2,7 +2,7 @@
 title: Troubleshooting ArcSight ESM event ingestion integration
 description: This section provides information on how to troubleshoot any errors that may occur during event ingestion.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-troubleshoot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/arcsight-esm-troubleshoot.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

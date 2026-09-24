@@ -2,7 +2,7 @@
 title: Preview and test ITSM Virtual Agent Lite topics
 description: Run a pre-built IT Service Management \(ITSM\) Virtual Agent Lite topic to decide whether you want to deploy it to your end users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/test-valite-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/test-valite-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -48,5 +48,5 @@ Role required: virtual\_agent\_admin or admin
 
 ## What to do next
 
-If you'd like to deploy a topic, [duplicate and publish the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-publish-valite-topic.md) so that it's available to your users.
+If you'd like to deploy a topic, [duplicate and publish the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/duplicate-publish-valite-topic.md) so that it's available to your users.
 

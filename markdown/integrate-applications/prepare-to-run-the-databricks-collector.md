@@ -2,7 +2,7 @@
 title: Prepare to run the Databricks collector
 description: Complete authentication and permission configuration tasks before running the Databricks metadata collector.Generate a personal access token or service principal secret to authenticate the Databricks connection.Grant necessary permissions for Unity Catalog, Jobs, and system tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-the-databricks-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-the-databricks-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,14 +22,14 @@ Role required: admin
 
 1.  Generate Databricks credentials.
 
-    For detailed instructions, see [Generate credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-the-databricks-collector.md).
+    For detailed instructions, see [Generate credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-the-databricks-collector.md).
 
 2.  Configure permissions.
 
-    For detailed instructions, see [Configure permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-the-databricks-collector.md).
+    For detailed instructions, see [Configure permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-the-databricks-collector.md).
 
 
-**Parent Topic:**[Databricks metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/databricks-metadata-collector.md)
+**Parent Topic:**[Databricks metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/databricks-metadata-collector.md)
 
 ## Generate credentials
 

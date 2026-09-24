@@ -2,7 +2,7 @@
 title: Task Plan Templates tables
 description: The Task Plan Templates application includes tables that store task plan template, template item, and template item condition records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/task-plan-templates-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/task-plan-templates-tables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -58,9 +58,9 @@ Stores template item condition records.You can add conditions to a template item
 </table>**Related topics**  
 
 
-[Task Plan Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-template-form.md)
+[Task Plan Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/task-plan-template-form.md)
 
-[Template item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-template-item-form.md)
+[Template item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/task-plan-template-item-form.md)
 
-[Template item condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-template-item-condition-form.md)
+[Template item condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/task-plan-template-item-condition-form.md)
 

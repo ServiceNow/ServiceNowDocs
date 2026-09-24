@@ -2,7 +2,7 @@
 title: Password Reset Windows Application
 description: The Password Reset Windows Application enables a user, who forgets the password or is locked out of a Windows computer, to reset the password directly from the Windows login screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/win-password-reset-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/win-password-reset-overview.html
 release: australia
 product: Password Reset
 classification: password-reset

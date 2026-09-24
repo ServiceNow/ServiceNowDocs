@@ -2,7 +2,7 @@
 title: Get Log Data Flow
 description: If Security Incident Response, Threat Intelligence, and Palo Alto Networks - Firewall are activated, the Security Operations Palo Alto Networks - Get Log Data flow automatically executes when the Source IP for observables in a security incident is changed.The Palo Alto Firewall: Get Log flow action schedules a query on the firewall to retrieve logs and returns a JobID used to retrieve the log data.After the Palo Alto Firewall: Get Log action queues the search query to the firewall and the job runs, the Palo Alto Firewall: Job Data Action action retrieves the threat log data from the firewall.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-threat-log-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/get-threat-log-data.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

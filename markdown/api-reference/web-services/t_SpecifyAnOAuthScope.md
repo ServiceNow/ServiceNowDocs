@@ -2,7 +2,7 @@
 title: Specify an OAuth scope
 description: Specify the OAuth scopes that you get from the provider. Scopes can be any level of access specified by the provider, such as read, write, or any string, including a URL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_SpecifyAnOAuthScope.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_SpecifyAnOAuthScope.html
 release: australia
 product: Web Services
 classification: web-services
@@ -43,5 +43,5 @@ Role required: admin
     The scope is added to the profile.
 
 
-**Parent Topic:**[OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuthProviderAndScope.md)
+**Parent Topic:**[OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_OAuthProviderAndScope.md)
 

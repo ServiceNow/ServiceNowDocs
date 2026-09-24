@@ -2,7 +2,7 @@
 title: Catalog Agent conversational status conditions
 description: Conditions that determine whether a catalog item can deliver a fully conversational experience in the Premium chat interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-conv-limitations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/catalog-conv-limitations.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -41,5 +41,5 @@ Premium chat is a conversational interface powered by ServiceNow Otto. Instead o
 -   Conversational catalog items that don't support agentic AI may be discoverable, but they don't appear within the conversation in the Premium chat experience. These catalog items open as forms that requesters can fill out and submit.
 -   Meeting these requirements doesn't require rebuilding a catalog item from scratch. Often, small adjustments, such as reducing the number of visible questions, removing an unused client script, or switching a field type, are enough to make an item eligible for the full agentic AI experience.
 
-**Parent Topic:**[Catalog Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-agent-reference-1.md)
+**Parent Topic:**[Catalog Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-agent-reference-1.md)
 

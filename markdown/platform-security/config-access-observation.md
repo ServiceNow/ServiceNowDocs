@@ -2,7 +2,7 @@
 title: Configure access observation
 description: Create an access observation record to review access to a data column during a specified time window.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/config-access-observation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/config-access-observation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -113,5 +113,5 @@ The time at which observation begins. This field is only visible if **Start job 
 
 Once the observation window your defined has started, you can see each instance where the column was access detailed in the records on the Access Observer log \[sys\_data\_ob\_log\] table.
 
-**Parent Topic:**[Access observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-observer.md)
+**Parent Topic:**[Access observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-observer.md)
 

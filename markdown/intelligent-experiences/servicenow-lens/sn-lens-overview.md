@@ -2,7 +2,7 @@
 title: ServiceNow AI Lens desktop app landing page overview
 description: Learn about the ServiceNow AI Lens desktop application landing page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/sn-lens-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-lens/sn-lens-overview.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens

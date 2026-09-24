@@ -2,7 +2,7 @@
 title: Single-line text
 description: The single-line text variable creates a field to enter a single line of text.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/single-line-text.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/single-line-text.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -16,11 +16,11 @@ breadcrumb: [Types of service catalog variables, Service catalog variables, Serv
 
 The single-line text variable creates a field to enter a single line of text.
 
-For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variable-attributes.md).
+For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/variable-attributes.md).
 
 \[Omitted image "VariableSingleLineTextG.png"\] Alt text: A single-line text variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -35,7 +35,7 @@ For attributes supported by this variable, see [variable attributes](https://raw
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

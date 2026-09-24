@@ -2,7 +2,7 @@
 title: Set up mobile push as a contact method for an on-call escalation
 description: Enable users to receive mobile push notifications for on-call escalations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/set-up-mobile-push-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/set-up-mobile-push-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -30,14 +30,14 @@ Role required: admin
 
 2.  Select **Mobile push** as your preferred notification channel while defining the escalation settings for a user group.
 
-    For information on escalation settings, see [Escalation and reminder settings for rosters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/escalation-remind-settings-oncall.md).
+    For information on escalation settings, see [Escalation and reminder settings for rosters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/escalation-remind-settings-oncall.md).
 
 3.  For the required user group, create a trigger rule that uses the On-Call: Assign by Acknowledgement trigger workflow.
 
     If a user or shift manager sets the preferred contact channel as mobile push, a mobile push notification is sent to the user along with the actions that a user can perform.
 
-    For information on creating a trigger rule, see [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md).
+    For information on creating a trigger rule, see [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md).
 
 
-**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/configuration.md)
+**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/configuration.md)
 

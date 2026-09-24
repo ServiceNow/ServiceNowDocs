@@ -2,7 +2,7 @@
 title: Start a conference call
 description: Start a conference call from a task or an incident communication plan by inviting one or more users to join a call. The conference will not start until at least two participants join.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/start-a-conference-call.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/start-a-conference-call.html
 release: australia
 product: Notify
 classification: notify
@@ -50,7 +50,7 @@ Call participants can include:
 
 6.  To select ad-hoc participants,
 
-<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d172878e151">
+<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d173073e151">
 
 **Click the reference lookup icon, and select the relevant user.**
 
@@ -58,7 +58,7 @@ Call participants can include:
 
 Click **Add to selected**.
 
-</td></tr><tr><td id="d172878e163">
+</td></tr><tr><td id="d173073e163">
 
 **Enter the participant's phone number**
 
@@ -78,5 +78,5 @@ Click **Add to selected**.
     **Note:** VoIP phone systems, which do not use touch tone phones, may encounter issues with recognizing key presses. To avoid problems, ensure that conference call users use touch tone phones, or configure your VoIP system settings to recognize key presses, as described in your VoIP system documentation.
 
 
-**Parent Topic:**[Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyConferenceCalls.md)
+**Parent Topic:**[Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifyConferenceCalls.md)
 

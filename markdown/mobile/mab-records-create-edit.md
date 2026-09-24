@@ -2,7 +2,7 @@
 title: Create new records or select existing records from the categories home screen
 description: Select existing records or create new records in the Mobile App Builder categories home screen to build your mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-records-create-edit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-records-create-edit.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

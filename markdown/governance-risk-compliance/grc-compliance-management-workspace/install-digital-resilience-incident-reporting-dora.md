@@ -2,7 +2,7 @@
 title: Install Digital Resilience Incident Reporting application
 description: Install the Digital Operational Resilience Management application from the Application Manager to enable DORA framework management and compliance workflows in the Compliance Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/install-digital-resilience-incident-reporting-dora.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/install-digital-resilience-incident-reporting-dora.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

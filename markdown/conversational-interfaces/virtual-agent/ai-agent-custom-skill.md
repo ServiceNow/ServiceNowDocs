@@ -2,7 +2,7 @@
 title: Using AI agents in Virtual Agent topics
 description: Use an AI agent custom skill to have it perform a task passed to it, such as compiling info on a KB article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/ai-agent-custom-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/ai-agent-custom-skill.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +19,7 @@ Use an AI agent custom skill to have it perform a task passed to it, such as com
 
 There may be AI agents installed with the Now Assist application that are not used in use cases. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
-An AI agent performs a task that you pass to it inside the AI Connector utility in Virtual Agent Designer. For more information on the AI Connector utility, see [AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-ai-connector-utility.md).
+An AI agent performs a task that you pass to it inside the AI Connector utility in Virtual Agent Designer. For more information on the AI Connector utility, see [AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-ai-connector-utility.md).
 
 For example, you can use the AI Agent in the AI Connector utility to get all data on a Knowledge Base article. The AI Agent provides the article if it is available or notifies you if it can't find it. The agent also provides data on the consolidation itself by way of its output mappings.
 
@@ -47,5 +47,5 @@ When the AI agent performs its job, it generates the full plan showing the input
 
 \[Omitted image "ai-agent-execution-plan.png"\] Alt text: Execution plan for consolidating KB00090.
 
-**Parent Topic:**[Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md)
+**Parent Topic:**[Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md)
 

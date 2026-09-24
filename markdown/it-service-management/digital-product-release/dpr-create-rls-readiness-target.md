@@ -2,7 +2,7 @@
 title: Create a release readiness target
 description: Create release readiness targets to define the dates by which the releases must be ready for deployment. These targets help you to track and manage capacity and conflicts while ensuring a smooth delivery of your products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-create-rls-readiness-target.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-create-rls-readiness-target.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -41,7 +41,7 @@ Role required: sn\_dpr\_model.release\_calendar\_admin orsn\_dpr\_model.release\
     -   To modify an existing release readiness target, open the release readiness target from the calendar or list.
 5.  In the dialog box, fill in the fields.
 
-    For more information on release readiness target field descriptions, see [Release readiness target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/create-release-readiness-target-form.md).
+    For more information on release readiness target field descriptions, see [Release readiness target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/create-release-readiness-target-form.md).
 
 6.  Select **Next**.
 

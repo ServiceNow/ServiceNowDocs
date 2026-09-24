@@ -2,7 +2,7 @@
 title: Add external dependencies between projects from Project Workspace
 description: Set up a dependency between tasks of different projects using the new Project Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/add-external-dependencies-between-projects-from-project-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/add-external-dependencies-between-projects-from-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -28,7 +28,7 @@ External dependencies help you understand the impact on project schedules when t
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  From the data grid, select the project task to which you want to add the dependency.
 
@@ -55,10 +55,10 @@ External dependencies help you understand the impact on project schedules when t
 
 You can navigate to the external project directly from the current project to view the status or update the details of the predecessor task. From the row context menu of the dependent task, select **View project**.
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 
 **Related topics**  
 
 
-[Adding external dependencies for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/external-dependencies.md)
+[Adding external dependencies for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/external-dependencies.md)
 

@@ -2,7 +2,7 @@
 title: Add an MCP server tool to an AI agent
 description: Add an MCP tool to an AI agent in the AI Agent Studio so that your users can access the MCP server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-mcp-server-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-mcp-server-tool.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

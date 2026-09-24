@@ -2,7 +2,7 @@
 title: Submit a legal request for sales contract review
 description: Submit a legal request to the legal team for review and legal support for a sales contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/submit-legal-request-sales-contract-review.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/submit-legal-request-sales-contract-review.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -28,15 +28,15 @@ You can submit a request for review of a sales contract to engage legal counsel,
 
 1.  Access the sales contract review intake form.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d489086e54">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d489090e54">
 
 Option
 
-</th><th align="left" id="d489086e57">
+</th><th align="left" id="d489090e57">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d489086e63">
+</th></tr></thead><tbody><tr><td id="d489090e63">
 
 **Using __Employee Center__**
 
@@ -47,7 +47,7 @@ Description
 3.  Search for and open the **Sales Contract Review** request item.
 
 
-</td></tr><tr><td id="d489086e106">
+</td></tr><tr><td id="d489090e106">
 
 **Using __Legal Service Portal__**
 
@@ -135,5 +135,5 @@ Additional information about the sales contract.
 
 The legal request is created and assigned to the legal sales contract group.
 
-**Parent Topic:**[Sales contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-request-sales-contracts.md)
+**Parent Topic:**[Sales contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/legal-request-sales-contracts.md)
 

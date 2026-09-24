@@ -2,7 +2,7 @@
 title: Configuring Order Management for Service Exchange Consumers
 description: As a customer, you must complete some configuration tasks so that you can set up the Order Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-configuring-customers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-mgt-configuring-customers.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

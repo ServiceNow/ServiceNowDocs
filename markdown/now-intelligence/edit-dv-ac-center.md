@@ -2,7 +2,7 @@
 title: Edit a data visualization in the Visualization Designer
 description: After you create a data visualization, you can return to it and edit the data visualization's appearance and other aspects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/edit-dv-ac-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/edit-dv-ac-center.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,10 +30,10 @@ Role required: You can edit any data visualization you own unless it is a shared
 4.  Select the information icon \(\[Omitted image "icon-info-ac.png"\] Alt text: Info icon\) to edit name, description, certification, and requester information.
 
 
--   **[Data visualization details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-visualization-details.md)**  
+-   **[Data visualization details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-visualization-details.md)**  
 The Details pane gives you an overview of key information about the data visualization that you are currently editing.
--   **[Certify a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/certify-dv-ac.md)**  
+-   **[Certify a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/certify-dv-ac.md)**  
 Certify a data visualization to indicate that it is company-approved for reuse.
 
-**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dv-tasks.md)
 

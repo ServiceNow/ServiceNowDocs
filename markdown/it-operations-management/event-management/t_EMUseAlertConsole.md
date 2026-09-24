@@ -2,7 +2,7 @@
 title: Monitor incoming alerts
 description: You can monitor incoming alerts in Service Operations Workspace. You can also monitor and manage alerts in the Event Management interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMUseAlertConsole.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMUseAlertConsole.html
 release: australia
 product: Event Management
 classification: event-management
@@ -134,7 +134,7 @@ Impacted Services
 
 </td><td>
 
-Lists the services affected by this alert group. Select an impacted service to view its record.**Note:** You can access the Service Map in Service Operations Workspace directly from the impacted service form by selecting **Service Map**. The service map shows the impacted path of alerts, enabling you to quickly assess their effect on the service. For more information, see [View unified service map and the impact paths in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-impact-tree.md).
+Lists the services affected by this alert group. Select an impacted service to view its record.**Note:** You can access the Service Map in Service Operations Workspace directly from the impacted service form by selecting **Service Map**. The service map shows the impacted path of alerts, enabling you to quickly assess their effect on the service. For more information, see [View unified service map and the impact paths in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/view-impact-tree.md).
 
 \[Omitted image "el-imp-service-open-map.png"\] Alt text: Service Map button on the impacted service form.el-imp-service-open-map.png
 
@@ -187,9 +187,9 @@ If Operational Intelligence is activated, you can right-click an alert and click
 **Related topics**  
 
 
-[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/operational-metrics.md)
+[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/operational-metrics.md)
 
-[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
+[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewAlert.md)
 
-[Alert grouping types and creation methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/Alert-Groups.md)
+[Alert grouping types and creation methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/Alert-Groups.md)
 

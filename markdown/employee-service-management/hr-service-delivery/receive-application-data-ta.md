@@ -2,7 +2,7 @@
 title: Receive application and applicant data from ATS
 description: Import the application and applicant details from your integrated ATS into the system for processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/receive-application-data-ta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/receive-application-data-ta.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,8 +17,8 @@ breadcrumb: [ATS integration, Integrate, Hiring Experiences, HR Service Delivery
 
 Import the application and applicant details from your integrated ATS into the system for processing.
 
--   **[Create Integration Flow to pull data from ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-integration-flow-applctn.md)**  
+-   **[Create Integration Flow to pull data from ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-integration-flow-applctn.md)**  
 Create the integration flow with your preferred ATS to pull in data.
 
-**Parent Topic:**[Integrate with your ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-ats.md)
+**Parent Topic:**[Integrate with your ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-ats.md)
 

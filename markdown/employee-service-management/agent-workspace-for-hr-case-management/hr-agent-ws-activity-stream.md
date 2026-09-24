@@ -2,7 +2,7 @@
 title: Using the activity stream in Agent Workspace for HR Case Management
 description: Use the activity stream section of Agent Workspace for HR Case Management to document work notes \(private\) or comments, respond to emails, or view the state of the HR case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-activity-stream.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-activity-stream.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

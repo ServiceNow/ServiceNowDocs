@@ -2,7 +2,7 @@
 title: Update terms and conditions
 description: Update the terms and conditions in your new contract. You can also view the terms and conditions carried over to the new contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/update-terms-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/update-terms-conditions.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -80,5 +80,5 @@ Multiple terms and conditions are displayed in the **Terms and Conditions** tab 
 
 ## What to do next
 
-[Add rate cards to the new contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/update-rate-card.md)
+[Add rate cards to the new contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/update-rate-card.md)
 

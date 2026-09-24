@@ -12,7 +12,7 @@ reading_time_minutes: 1
 
 The List DNS C-records activity retrieves all canonical \(CNAME\) records from a specified Infoblox server.
 
-The DNS activities use the [REST web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md) template to manage DNS records using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
+The DNS activities use the [REST web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md) template to manage DNS records using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Infoblox DDI** &gt; **DNS**.
 

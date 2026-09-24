@@ -2,7 +2,7 @@
 title: Enterprise Architecture shapes
 description: Use the Enterprise Architecture shapes to create diagrams with icons related to enterprise architecture.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-ea-shapes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-ea-shapes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 |\[Omitted image "icon-ai-prompt.png"\] Alt text: AI prompt digital asset|AI Prompt Digital Asset|
 |\[Omitted image "icon-ai-system.png"\] Alt text: AI system digital asset|AI System Digital Asset|
 
-**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-shapes.md)
+**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-shapes.md)
 

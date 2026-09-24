@@ -2,7 +2,7 @@
 title: Using checklists in Agent Workspace for HR Case Management
 description: Creating and using checklists on an HR case or task helps you resolve issues faster, more efficiently, and with fewer errors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-checklist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-checklist.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -20,7 +20,7 @@ The Checklists appears as a tab in the contextual side panel.
 
 \[Omitted image "agent-ws-hr-checklist.png"\] Alt text: Checklists tab in contextual side panel showing checklist items for HR case resolution
 
-When the configuration for an HR service or HR task template has checklists, they automatically appear. Having a checklist for an HR service or HR task template ensures consistency when resolving issues. For information on configuring checklists, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md) and [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-task-template.md).
+When the configuration for an HR service or HR task template has checklists, they automatically appear. Having a checklist for an HR service or HR task template ensures consistency when resolving issues. For information on configuring checklists, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md) and [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-task-template.md).
 
 -   **Creating a checklist directly into an HR case**
 

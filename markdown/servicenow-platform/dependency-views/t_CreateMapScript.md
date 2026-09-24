@@ -2,7 +2,7 @@
 title: Create or edit a dependency type
 description: Use one of the dependency types provided, or create a custom dependency type with a script that will execute in real time to generate a custom view of a Dependency Views map for a specific CI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_CreateMapScript.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_CreateMapScript.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -74,7 +74,7 @@ The following dependency types are available with [Service Mapping](https://raw.
 
 In a Dependency Views map, you can click **Dependency Type** to apply a custom script defined in a dependency type.
 
-**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 

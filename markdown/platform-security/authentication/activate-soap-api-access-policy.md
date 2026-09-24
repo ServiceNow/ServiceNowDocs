@@ -2,7 +2,7 @@
 title: Activate SOAP API access policy
 description: For SOAP API access policy, install the SOAP API Access Policy \(com.glide.soap.policy\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-soap-api-access-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/activate-soap-api-access-policy.html
 release: australia
 product: Authentication
 classification: authentication

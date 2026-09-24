@@ -2,7 +2,7 @@
 title: Convert a shape to a group shape
 description: Group shapes enable you to combine multiple related shapes into a single container for better organization and clarity in diagrams. It’s useful for representing logical groupings such as a set of applications under a business capability, related processes under a value stream stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-group-ungroup-shape.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-group-ungroup-shape.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ You can convert all general shapes to group shapes, except shapes such as actor,
     \[Omitted image "modeling-grop-ungroup-shape.gif"\] Alt text: Change a general shape to a group shape
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 

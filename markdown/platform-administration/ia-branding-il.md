@@ -2,7 +2,7 @@
 title: Branding
 description: Build the theme and experiences to reflect your brand's values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-branding-il.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-branding-il.html
 release: australia
 topic_type: reference
 last_updated: "2025-12-04"
@@ -24,5 +24,5 @@ You can see the following information on the Branding page:
 
 See [Branding and theming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migration-branding-theming.md) for more information.
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
 

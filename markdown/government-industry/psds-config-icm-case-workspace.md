@@ -2,7 +2,7 @@
 title: Configure Investigative Case Management Case Workspace
 description: Configuring case workspace data for Investigative Case Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-icm-case-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-icm-case-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

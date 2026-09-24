@@ -2,7 +2,7 @@
 title: Set rows active or inactive
 description: Set rows in a Decision Tables as active or inactive to include or exclude their conditions and rules during execution without deleting them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/set-active-inactive-rows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/set-active-inactive-rows.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -33,5 +33,5 @@ Mark a Decision Tables row as active or inactive:
     \[Omitted image "active-rows.png"\] Alt text: Setting rows as active
 
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

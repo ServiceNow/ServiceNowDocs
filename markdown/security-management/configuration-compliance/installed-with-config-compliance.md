@@ -2,7 +2,7 @@
 title: Components installed with Configuration Compliance
 description: Several types of components are installed with activation of the Configuration Compliance plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/installed-with-config-compliance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/installed-with-config-compliance.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

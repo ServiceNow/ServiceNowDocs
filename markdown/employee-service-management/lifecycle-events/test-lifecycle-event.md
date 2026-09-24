@@ -2,7 +2,7 @@
 title: Preview and test a lifecycle event
 description: Preview and test a lifecycle event for different audience types. You can preview a lifecycle event to validate which activities will trigger or not for a particular audience. You can then create a test lifecycle event case for different users and select which activities to include or exclude in your test.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/test-lifecycle-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/test-lifecycle-event.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -38,11 +38,11 @@ Role required: sn\_hr\_le.admin
 
 5.  Click the **Show inapplicable activities and sets** button so it turns green if you want to show all activities and activity sets that are not applicable for the subject person.
 
-    For more information, see [Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/test-lifecycle-event.md).
+    For more information, see [Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/test-lifecycle-event.md).
 
 6.  Click the **Show indeterminate activities and sets** button so it turns green if you want to show all activities and activity sets that cannot be determined for the subject person.
 
-    For more information, see [Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/test-lifecycle-event.md).
+    For more information, see [Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/test-lifecycle-event.md).
 
 7.  Click **Preview** to preview the lifecycle event workflow.
 
@@ -51,5 +51,5 @@ Role required: sn\_hr\_le.admin
     An HR case for the lifecycle event for the selected subject person is created.
 
 
-**Parent Topic:**[Using the Test Activity Sets tool for a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md)
+**Parent Topic:**[Using the Test Activity Sets tool for a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md)
 

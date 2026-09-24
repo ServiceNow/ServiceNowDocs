@@ -2,7 +2,7 @@
 title: Communicate using emails from the Source-to-Pay Workspace
 description: Compose and send emails directly from an invoice inquiry case or an invoice processing case in the Source-to-Pay Workspace to communicate with suppliers and stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/send-emails-apm-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/send-emails-apm-ws.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -55,5 +55,5 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist, sn\_ap\_apm.admin, sn\
     -   To send the email instantly, select **Send Email**.
     -   To save the email as draft to send later, select **Save as draft**.
 
-**Parent Topic:**[Composing emails with predefined content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.md)
+**Parent Topic:**[Composing emails with predefined content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Dot-walking examples
 description: Access fields on a related table from a form, list, or script by dot-walking. This topic includes examples of the different ways that you can dot-walk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/dot-walking-examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/dot-walking-examples.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -129,5 +129,5 @@ The tree picker interface has an expandable, hierarchical view that you can use 
 
 **Note:** You can configure the tree picker to pick up to 1,000 nodes when you configure the **glide.ui.group\_heirarchy.max\_nodes** property. To set the property, open the [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md) for the field, and add `tree_picker=true` to the **Attributes** field. If there are multiple attributes, use a comma to separate them without any spaces between.
 
-**Parent Topic:**[Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md)
+**Parent Topic:**[Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_DotWalking.md)
 

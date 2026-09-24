@@ -2,7 +2,7 @@
 title: Convert quotes into orders
 description: Use the Customer Order tab to convert a quote into a customer order in Quote Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-customer-orders-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-customer-orders-tab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ The quote must be in an Active state and the quote state must be set to Complete
     The **Order Line Item** view displays the order line items, pricing adjustments, and order tasks.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

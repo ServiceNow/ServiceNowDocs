@@ -2,7 +2,7 @@
 title: View external matter details
 description: As a legal fulfiller, view the external matter details fetched from in the legal matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-lt-view-em-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/lmm-lt-view-em-details.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -24,15 +24,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d159709e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d159713e51">
 
 Method
 
-</th><th align="left" id="d159709e54">
+</th><th align="left" id="d159713e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d159709e60">
+</th></tr></thead><tbody><tr><td id="d159713e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -42,7 +42,7 @@ Action
 2.  Select **View All** option on the Matters widget.
 
 
-</td></tr><tr><td id="d159709e95">
+</td></tr><tr><td id="d159713e95">
 
 **Using Legal Counsel Center lists**
 
@@ -53,7 +53,7 @@ Action
 3.  In the Lists tab, navigate to **Matters** &gt; **All**.
 
 
-</td></tr><tr><td id="d159709e145">
+</td></tr><tr><td id="d159713e145">
 
 **Using platform view**
 
@@ -71,5 +71,5 @@ Action
 4.  Select link in the Legal Tracker matter link field to open and view the matter in Legal Tracker.
 
 
-**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
+**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
 

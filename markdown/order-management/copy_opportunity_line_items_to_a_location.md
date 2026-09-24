@@ -2,10 +2,10 @@
 title: Copy opportunity line items to a location
 description: Duplicate existing line items to another location using Copy on the Line items tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/copy\_opportunity\_line\_items\_to\_a\_location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/copy\_opportunity\_line\_items\_to\_a\_location.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -65,7 +65,7 @@ This copies the line items to a new location.In the **Service location** filter,
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

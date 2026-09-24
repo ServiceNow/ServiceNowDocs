@@ -2,7 +2,7 @@
 title: Application Manager release notes
 description: The ServiceNow Application Manager enables you to install, update, and manage licensed applications and plugins for your instance. Application Manager was enhanced and updated in the Australia release.The ServiceNow Application Manager enables you to install, update, and manage licensed applications and plugins for your instance. Application Manager was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/application-manager-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/application-manager-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -30,10 +30,10 @@ See [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
 -   **Upgrade information**
 
-    Application Manager is active by default on instances on the Australia release. Upgrade your instance to Australia patch 4 or later to use the latest features. For information about upgrading your ServiceNow AI Platform instance, see [Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md).
+    Application Manager is active by default on instances on the Australia release. Upgrade your instance to Australia patch 4 or later to use the latest features. For information about upgrading your ServiceNow AI Platform instance, see [Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-prepare-landing-page.md).
 
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
 ## Australia
 

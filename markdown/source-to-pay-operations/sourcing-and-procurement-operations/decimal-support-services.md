@@ -2,7 +2,7 @@
 title: Decimal quantity support for service-based purchases in Shopping Hub
 description: As a shopper, you can now specify decimal quantity values for service-based products when you create or edit a purchase requisition \(PR\) or purchase order \(PO\) in Shopping Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/decimal-support-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/decimal-support-services.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -25,7 +25,7 @@ This functionality provides the following benefits:
 -   You can specify decimal quantities for selected service-based products.
 -   You can enable or disable decimal support for a service product by configuring its UOM.
 
-**Important:** Starting with Yokohama Patch 12 and Zurich Patch 6, Shopping Hub supports decimal quantities for service-based products. If you upgraded to Yokohama Patch 12 or Zurich Patch 6 and cannot specify decimal quantities for services, you must run a script from the Scripts - Background module. For more information, see [Run the fix script to enable decimal quantities for services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/run-fix-script-decimal-qty.md).
+**Important:** Starting with Yokohama Patch 12 and Zurich Patch 6, Shopping Hub supports decimal quantities for service-based products. If you upgraded to Yokohama Patch 12 or Zurich Patch 6 and cannot specify decimal quantities for services, you must run a script from the Scripts - Background module. For more information, see [Run the fix script to enable decimal quantities for services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/run-fix-script-decimal-qty.md).
 
 ## How to configure
 
@@ -65,8 +65,8 @@ The following points describe how this capability works:
     \[Omitted image "sh-decimal-edit-good.png"\] Alt text: Edit form for product type Good howing decimal quantity 1.4 with error message "Decimal values are not supported".
 
 
--   **[Run the fix script to enable decimal quantities for services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/run-fix-script-decimal-qty.md)**  
+-   **[Run the fix script to enable decimal quantities for services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/run-fix-script-decimal-qty.md)**  
 After upgrading to Yokohama Patch 12 or Zurich Patch 6, if you are unable to specify decimal quantities for services, you must run a background fix script to enable support for decimal quantities.
 
-**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
+**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
 

@@ -2,7 +2,7 @@
 title: Using an app in DevOps Config
 description: When you create an app in DevOps Config, not only is it the container for the config data of the application, but the application model you choose links DevOps Config with other ServiceNow products, including DevOps Change Velocity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/devops-config-app.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -34,5 +34,5 @@ Mapping:
 -   1:1 mapping between DevOps Config app and SDLC-C​
 -   1:1 mapping between DevOps Change Velocity and SDLC-C​
 
-**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-getting-started.md)
+**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-getting-started.md)
 

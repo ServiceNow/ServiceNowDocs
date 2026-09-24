@@ -2,7 +2,7 @@
 title: Alert links in network traffic-based alert groups
 description: View the connections between alerts in network traffic-based alert groups in Express List by using Link View. Network traffic-based alert groups are created by analyzing network traffic connections between processes across hosts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-network-traffic-based-link-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-network-traffic-based-link-view.html
 release: australia
 product: Event Management
 classification: event-management
@@ -25,7 +25,7 @@ In this sample Link View of a network traffic-based alert group, the dashed line
 **Related topics**  
 
 
-[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-link-view.md)
+[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-link-view.md)
 
-[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
+[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
 

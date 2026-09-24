@@ -2,7 +2,7 @@
 title: Platform Analytics overview
 description: Provides a role-specific, quick direct view of the Dashboards, Data Visualizations, Indicators, Filters, and Scheduled exports from the Platform Analytics library. Also provides a direct link to the Usage Insights page for the Platform Analytics library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/analytics-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/analytics-center.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Library pages like this one include a navigation pane that provides access to th
 
 \[Omitted image "overview-left-nav-admin.png"\] Alt text: Left navigation pane in PA library for analytics admin users
 
-**Note:** Users with non-admin roles \(roles other than analytics admin category\) can only access Dashboards, Data Visualizations, and Indicators in the left navigation pane. For more information on role-based access and enabled actions, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
+**Note:** Users with non-admin roles \(roles other than analytics admin category\) can only access Dashboards, Data Visualizations, and Indicators in the left navigation pane. For more information on role-based access and enabled actions, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
 \[Omitted image "overview-left-nav-non-admin.png"\] Alt text: Left navigation pane in PA library for users with non-admin roles
 

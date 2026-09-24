@@ -2,7 +2,7 @@
 title: View an assessment category result
 description: Category results contain values that represent an evaluated record's performance in a specific metric category. Each category result record stores data from one assessment group. Category result values are calculated based on category and metric weights and from metric result values for the same category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewACategoryResult.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ViewACategoryResult.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -116,14 +116,14 @@ Record evaluated as the assessment subject. You may need to configure the form t
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[View a quiz designer scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAQuizDesignerScorecard.md)
+**Parent Topic:**[View a quiz designer scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAQuizDesignerScorecard.md)
 
 **Related topics**  
 
 
-[Assessment results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AssessmentResults.md)
+[Assessment results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_AssessmentResults.md)
 
 [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
 
-[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md)
+[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAMetricResult.md)
 

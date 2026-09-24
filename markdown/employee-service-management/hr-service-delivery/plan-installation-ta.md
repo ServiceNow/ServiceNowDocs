@@ -2,7 +2,7 @@
 title: Plan your installation
 description: Identify the requirements and plan your installation of the Hiring Experiences suite.The following plugins are required to use all the features in the Hiring Experiences suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/plan-installation-ta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/plan-installation-ta.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +17,7 @@ breadcrumb: [Configure, Hiring Experiences, HR Service Delivery, Employee Servic
 
 Identify the requirements and plan your installation of the Hiring Experiences suite.
 
-**Parent Topic:**[Configuring Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-frmwrk-ta.md)
+**Parent Topic:**[Configuring Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-frmwrk-ta.md)
 
 ## Dependencies of Hiring Experiences
 

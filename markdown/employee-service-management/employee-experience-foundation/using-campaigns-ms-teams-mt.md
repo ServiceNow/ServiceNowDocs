@@ -2,7 +2,7 @@
 title: Sending notifications to employees using Microsoft Teams
 description: Integrate Microsoft Teams with the Employee Center to enable content managers to send notifications to employees through Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams-mt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams-mt.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -22,11 +22,11 @@ Send messages on Microsoft Teams to drive employee action, such as to read an ar
 
 The Employee Center contains two features, which content managers can use to send communications to employees:
 
--   **[Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md)**
+-   **[Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-publish-content.md)**
 
     Content Publishing provides a workflow to create and publish employee communications.
 
--   **[Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)**
+-   **[Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)**
 
     Content Experiences provides a robust publishing configuration which controls the content availability, duration, and audience.
 
@@ -45,18 +45,18 @@ You must have the following plugins installed in your environment:
 
 ## Configuring a Microsoft Teams notification
 
-1.  [Create notification content for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-publish-teams-mt.md)
-2.  \(Optional\) [Translate the notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/campaign-translation-support-mt.md)
+1.  [Create notification content for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-campaign-content-publish-teams-mt.md)
+2.  \(Optional\) [Translate the notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/campaign-translation-support-mt.md)
 3.  Publish the content:
-    -   Use **Content Publishing** &gt; **Schedule Content** to make the content available to employees: [Schedule delivery of Microsoft Teams notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/schedule-delivery-content-mt.md)
-    -   To include the content in a multi-stage, multi-channel campaign, use **Content Experiences** &gt; **Content Experience Builder**: [Create Microsoft Teams notification content with Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-notification-content-exp-builder-mt.md)
+    -   Use **Content Publishing** &gt; **Schedule Content** to make the content available to employees: [Schedule delivery of Microsoft Teams notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/schedule-delivery-content-mt.md)
+    -   To include the content in a multi-stage, multi-channel campaign, use **Content Experiences** &gt; **Content Experience Builder**: [Create Microsoft Teams notification content with Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-notification-content-exp-builder-mt.md)
 
--   **[Send automatic campaign notifications in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/enable-activity-feed-mt.md)**  
+-   **[Send automatic campaign notifications in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/enable-activity-feed-mt.md)**  
 Automatically send campaign notifications in Microsoft Teams for better collaboration and efficient communication.
--   **[Create a Microsoft Teams campaign with content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-publishing-mt.md)**  
+-   **[Create a Microsoft Teams campaign with content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-campaign-content-publishing-mt.md)**  
 Create and distribute the Microsoft Teams campaigns using direct content publishing if you have the admin role.
--   **[Create Microsoft Teams campaigns with the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-exp-builder-mt.md)**  
+-   **[Create Microsoft Teams campaigns with the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-campaign-content-exp-builder-mt.md)**  
 If you have the admin role, you can create campaigns using the Content Experience Builder to distribute content to employees.
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
 

@@ -2,12 +2,12 @@
 title: Manage comments in Docs
 description: Edit, reply to, or delete comments in Docs to maintain relevant discussions and keep your documentation organized.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/manage-comments-in-cwm-docs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/manage-comments-in-cwm-docs.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [CWM, collaborative work management, docs, comments, manage, edit, delete, reply]
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Edit, reply to, or delete comments in Docs to maintain relevant discussions and 
 
 ## Before you begin
 
-[Add comments to Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.md).
+[Add comments to Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -84,5 +84,5 @@ You can manage existing comments in Docs by editing your own comments, replying 
     -   If the text that had the comment is deleted, the comments are deleted. If text that has comments is replaced by AI-generated text, the comments are deleted.
     -   Copying content with comments to a new location does not duplicate the comments.
 
-**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-docs.md)
 

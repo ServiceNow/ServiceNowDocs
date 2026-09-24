@@ -2,12 +2,12 @@
 title: MID Server File Cleaner
 description: A monitor thread runs in the MID Server to clean up old files, to keep the size and quantity of files within the install folder manageable, and to prevent performance issues with the MID Servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid\_file\_cleaner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid\_file\_cleaner.html
 release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -60,9 +60,9 @@ The MID File Cleaner can be disabled completely for all folders, by adding the M
 
 On the MID Server form, click New on the "Configuration Parameters" related list, select mid.file\_cleaner.disabled, and enter the value "true".
 
-This can also be manually added to the config.xml file: `<parameter name="mid.file_cleaner.disabled" value="true"/>`. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md) for more information.
+This can also be manually added to the config.xml file: `<parameter name="mid.file_cleaner.disabled" value="true"/>`. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md) for more information.
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 

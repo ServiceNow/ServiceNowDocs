@@ -2,7 +2,7 @@
 title: Licensing
 description: Understand the different types of software licenses and subscriptions available with ServiceNow applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/licensing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/licensing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

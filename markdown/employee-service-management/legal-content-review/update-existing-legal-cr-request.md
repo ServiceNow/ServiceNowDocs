@@ -2,7 +2,7 @@
 title: Update a Legal Content Review request
 description: Update request details, add comments, or upload documents in a Legal Content Review request you submitted while it is still in the New or Assigned state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-content-review/update-existing-legal-cr-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-content-review/update-existing-legal-cr-request.html
 release: australia
 product: Legal Content Review
 classification: legal-content-review
@@ -48,15 +48,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 9.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d130663e157">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d130569e157">
 
 Option
 
-</th><th align="left" id="d130663e160">
+</th><th align="left" id="d130569e160">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d130663e166">
+</th></tr></thead><tbody><tr><td id="d130569e166">
 
 **If the Attachments tab is visible**
 
@@ -67,7 +67,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d130663e205">
+</td></tr><tr><td id="d130569e205">
 
 **If the Documents tab is visible**
 
@@ -86,5 +86,5 @@ A link to the document is listed in the **External URL** column of the documents
     **Note:** The **Approvals** tab appears only when the Legal Content Review request or its attachment has approval records.
 
 
-**Parent Topic:**[Legal Content Review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-content-review/legal-content-review-requests.md)
+**Parent Topic:**[Legal Content Review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-content-review/legal-content-review-requests.md)
 

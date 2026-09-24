@@ -2,7 +2,7 @@
 title: Create an API user for the Anglepoint integration
 description: Create a user who is permitted to access the APIs used by the Anglepoint integration. These APIs provide the given user access to the Anglepoint integration resources that are available on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-anglepoint-integration-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-anglepoint-integration-user.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -231,5 +231,5 @@ Photo of the user.
     5.  Verify that all selected roles appear on the **Roles** related tab.
 
 
-**Parent Topic:**[Creating a connection for the Anglepoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/creating-connection-anglepoint-elevate-platform.md)
+**Parent Topic:**[Creating a connection for the Anglepoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/creating-connection-anglepoint-elevate-platform.md)
 

@@ -2,7 +2,7 @@
 title: Set controls to customize alerts on the map dynamically
 description: Use a set of controls on the crisis map to display the alerts that are critical to your asset locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/control-crisis-map-bcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/control-crisis-map-bcm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

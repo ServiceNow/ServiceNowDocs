@@ -2,7 +2,7 @@
 title: Content engagement
 description: Content engagement enhances news articles by providing users with a way to comment and react to articles. Managers can measure the effectiveness of their content using engagement metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-content-engagement.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,7 +30,7 @@ Content engagement includes a comment reporting workflow, where employees can re
 
 ## Engagement analytics
 
-Content analytics provides visualizations for employee engagement metrics in the [Content engagement dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-pro-content-engagement-dashboard.md).
+Content analytics provides visualizations for employee engagement metrics in the [Content engagement dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-pro-content-engagement-dashboard.md).
 
 Additionally, you can review visualizations for a specific news article, including total views count, engagement trends by day, and unique views by day. Navigate to the news article content item and select **View analytics report** in the form context menu.
 
@@ -38,10 +38,10 @@ Additionally, you can review visualizations for a specific news article, includi
 
 Content engagement is installed as a plugin. The features are enabled through the Content Publishing properties and delivered to employees via news article widgets. Follow these steps to setup Content engagement:
 
-1.  [Activate Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/installing-content-engagement.md)
-2.  Enable Content engagement in Content Publishing properties: [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
-3.  [Configure a custom reaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ce-configure-reaction.md) \(optional\)
-4.  Enable Content engagement in Content templates: [Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-templates.md) \(optional\).
+1.  [Activate Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/installing-content-engagement.md)
+2.  Enable Content engagement in Content Publishing properties: [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
+3.  [Configure a custom reaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ce-configure-reaction.md) \(optional\)
+4.  Enable Content engagement in Content templates: [Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-templates.md) \(optional\).
 
 |Role|Access|
 |----|------|

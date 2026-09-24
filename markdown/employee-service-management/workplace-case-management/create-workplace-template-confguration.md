@@ -2,7 +2,7 @@
 title: Create a workplace template configuration
 description: Define a template that must be applied to fulfill a workplace case. Set conditions based on common employee responses for requests. The template will be applied to those workplace cases that match the conditions specified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/create-workplace-template-confguration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/create-workplace-template-confguration.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -56,7 +56,7 @@ A Workplace template configuration can be directly applied to a workplace servic
 
 The Workplace template configuration is added. The template will be applied to those workplace services or workplace service activities that match the specified condition.
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

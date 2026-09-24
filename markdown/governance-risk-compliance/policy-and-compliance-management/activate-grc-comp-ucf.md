@@ -2,7 +2,7 @@
 title: Activate Compliance UCF
 description: The GRC: Compliance UCF \(com.sn\_comp\_ucf\) plugin is available as a separate subscription.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/activate-grc-comp-ucf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/activate-grc-comp-ucf.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -43,5 +43,5 @@ This plugin includes demo data and activates related plugins if they are not alr
 
 Configure the source of your control library using an API key supplied by UCF \(this is the recommended method\) or using the UCF Common Controls Hub, which you can purchase as a subscription from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For more information, see [Common Controls Hub](https://commoncontrolshub.com/pricing/) or [Unified Compliance Framework](https://www.unifiedcompliance.com/company/).
 
-**Parent Topic:**[Manage the UCF integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage_compliance_frameworks.md)
+**Parent Topic:**[Manage the UCF integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/manage_compliance_frameworks.md)
 

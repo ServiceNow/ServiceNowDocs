@@ -2,7 +2,7 @@
 title: Create a Sidebar discussion for a record
 description: Collaborate with others by creating a Sidebar discussion for a task or interaction record. These discussions can be created from a Next Experience page or Core UI record page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-discussions-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/sidebar-discussions-record.html
 release: australia
 product: Sidebar
 classification: sidebar
@@ -91,7 +91,7 @@ Add participants
 
 Select the user or user group to include in the discussion. If an assignment group was entered for this case/interaction/incident, this field is pre-populated with its members. -   If you select individual users, only those users with access to the record can be added as participants.
 -   If you select a user group, only those users within the group who have access to the record are added as participants.
-For more information, see [Configuring Sidebar member query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/configure-sidebar-member-query.md).
+For more information, see [Configuring Sidebar member query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/configure-sidebar-member-query.md).
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ Select the More options icon \[Omitted image "ci\_more\_options\_icon.png"\] Alt
     -   If the user selects the message preview card, the corresponding message displays with the exact message containing the @mention highlighted.
 6.  An email notification is sent to the user if:
 
-    -   the user doesn't read the messages within 24 hours. The email is sent as a reminder to view the messages and resume the discussion. See [Sidebar requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/sidebar-requester-mapping.md) for more information about requester mapping for email notifications.
+    -   the user doesn't read the messages within 24 hours. The email is sent as a reminder to view the messages and resume the discussion. See [Sidebar requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-requester-mapping.md) for more information about requester mapping for email notifications.
     -   if a requester is added to an existing discussion.
 7.  To close the discussion dialog \(but not exit the discussion\), select the Close icon \[Omitted image "sidebar-x-icon.png"\] Alt text: Close icon..
 

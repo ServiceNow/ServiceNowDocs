@@ -2,7 +2,7 @@
 title: Industrial Guided Tasks release notes
 description: The ServiceNow Industrial Guided Tasks \(IGT\) application enables structured and guided execution of operational tasks using step-by-step digital workflows. IGT helps you maintain consistent work quality, safety compliance, and traceable execution. Industrial Guided Tasks is a new application in the Australia release.The ServiceNow Industrial Guided Tasks \(IGT\) application enables structured and guided execution of operational tasks using step-by-step digital workflows. IGT helps you maintain consistent work quality, safety compliance, and traceable execution. Industrial Guided Tasks is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/industrial-guided-tasks-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/industrial-guided-tasks-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ See [Exploring Industrial Guided Tasks](https://raw.githubusercontent.com/Servic
     Industrial Guided Tasks is automatically installed when you install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. You can request ICW Mobile from the ServiceNow Store.
 
 
-**Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/industrial-connected-workforce-rn-landing.md)
+**Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/industrial-connected-workforce-rn-landing.md)
 
 ## Australia Early Availability
 

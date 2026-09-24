@@ -2,7 +2,7 @@
 title: Run UI Test Script Developer Guide
 description: The Run UI Test Script test step runs a client-side test script in the browser to drive and verify the user interface with no server-side execution needed. Use this step to automate multi-step UI journeys on both classic and Now Experience pages, like navigating, filling fields, clicking, impersonating users, uploading attachments, and asserting page state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/c\_run\_ui\_test\_script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/c\_run\_ui\_test\_script.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -59,14 +59,14 @@ The internal DOM structure of ServiceNow pages and components can change between
 
 The test step has access to the following global APIs. Each has its own reference topic.
 
--   [screen — DOM queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_screen.md) — find elements on the tested page with shadow-DOM-aware queries.
--   [user — user interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_user.md) — simulate realistic user interactions, such as clicks, typing, and keyboard input.
--   [sn\_atf — utility APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_sn_atf.md) — navigate, evaluate code in the page, impersonate users, upload attachments, and use shadow-DOM utilities.
--   [expect — assertions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_expect.md) — assert element and value conditions.
--   [Script helper functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_helpers.md) — `waitFor`, `within`, `steps`, and `params`.
--   [Element predicates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_predicates.md) — synchronous Boolean checks such as `isVisible` and `isEnabled`.
+-   [screen — DOM queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_screen.md) — find elements on the tested page with shadow-DOM-aware queries.
+-   [user — user interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_user.md) — simulate realistic user interactions, such as clicks, typing, and keyboard input.
+-   [sn\_atf — utility APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_sn_atf.md) — navigate, evaluate code in the page, impersonate users, upload attachments, and use shadow-DOM utilities.
+-   [expect — assertions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_expect.md) — assert element and value conditions.
+-   [Script helper functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_helpers.md) — `waitFor`, `within`, `steps`, and `params`.
+-   [Element predicates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_predicates.md) — synchronous Boolean checks such as `isVisible` and `isEnabled`.
 
-For end-to-end scripts, see [UI Test Script examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_examples.md). For common issues, see [Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/r_run_ui_test_script_troubleshooting.md).
+For end-to-end scripts, see [UI Test Script examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_examples.md). For common issues, see [Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/r_run_ui_test_script_troubleshooting.md).
 
 ## Shadow DOM support
 

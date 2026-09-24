@@ -2,7 +2,7 @@
 title: Configure API credentials for OpenAI
 description: Configure your API credentials to use OpenAI as your LLM provider for Generative AI Controller capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-openai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-openai.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -53,5 +53,5 @@ You can now use capabilities labeled with OpenAI as your LLM provider for Genera
 
 If you want to use generative AI capabilities through your MID Server, open the new Connection record, select the **Use MID server** check box, and save the record.
 
-Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md).
 

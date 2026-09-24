@@ -2,7 +2,7 @@
 title: Indirect Discovery using Service Graph Connectors
 description: ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-service-graph-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-service-graph-connector.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -136,11 +136,11 @@ As a result, the discovered CI is in both the cmdb\_ci and tni\_entity tables.
 **Related topics**  
 
 
-[Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
+[Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
 
-[Telecom Discovery via Cisco Meraki SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-cisco-meraki.md)
+[Telecom Discovery via Cisco Meraki SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-cisco-meraki.md)
 
-[Telecom Discovery via Fortinet SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-fortinet.md)
+[Telecom Discovery via Fortinet SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-fortinet.md)
 
-[Telecom discovery via Arista VeloCloud SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-arista-velocloud.md)
+[Telecom discovery via Arista VeloCloud SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-arista-velocloud.md)
 

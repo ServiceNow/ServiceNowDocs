@@ -2,7 +2,7 @@
 title: Questionnaire support in Exception Management via Smart Assessment
 description: Configure advanced questionnaires as part of the exception management process using Smart Assessment. This enables Remediation Owners to provide more detailed context for Exception Requests and enables Approvers to configure conditional questions to gather information for informed decision making.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-smart-assessment-exp-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-smart-assessment-exp-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,12 +32,12 @@ You can use the **Smart Assessment** to manage the Questionnaires in Security Ex
 
 Templates can be accessed/edited by the Smart Assessment Template Reader: **sn\_vul\_cmn.smart\_assessment\_template\_manager**.
 
--   **[Questionnaire Configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-compensating-controls-approval-rule.md)**  
+-   **[Questionnaire Configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-compensating-controls-approval-rule.md)**  
 You can define distinct questionnaire for a distinct collection of vulnerabilities or remediation tasks by filtering the vulnerabilities or remediation tasks respectively.
--   **[Configure an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-assessment-template.md)**  
+-   **[Configure an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-assessment-template.md)**  
 Assessment templates contain the questions prompted during the request process \(such as, when requesting an exception\). The above-mentioned preconfigured templates are provided with smart assessment. You can also create your own templates as required.
--   **[Use case for False positive or Request Exception Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ques-for-false-positive-or-request-exp.md)**  
+-   **[Use case for False positive or Request Exception Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-ques-for-false-positive-or-request-exp.md)**  
 Scenario when the questionnaire for False Positive or Request Exception is raised but not filled completely.
 
-**Parent Topic:**[Exception Management Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-exception-management-overview.md)
+**Parent Topic:**[Exception Management Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-exception-management-overview.md)
 

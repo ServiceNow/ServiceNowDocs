@@ -2,7 +2,7 @@
 title: Set up a gating approval via an approval rule
 description: You can set up a gating approval via an approval rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/t\_SetUpAGatingApprViaApprovalRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/t\_SetUpAGatingApprViaApprovalRule.html
 release: australia
 product: Approvals
 classification: approvals
@@ -119,5 +119,5 @@ An optional server script to programmatically specify who the approver should be
     2.  You can't get duplicate approvers, for example, if two rules both want Fred Luddy to approve a particular request, the system will only create one approval entry for him.
     3.  By default all requests start out in a **Not yet requested** approval state. Approval notifications will not go out until the request's approval state is set to **Requested**. You can do that manually, or you can do it in script, but the easiest way to do it is to use the **Set State** field to automatically set the request to **Requested**.
 
-**Parent Topic:**[Gating approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_GatingApprovals.md)
+**Parent Topic:**[Gating approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/c_GatingApprovals.md)
 

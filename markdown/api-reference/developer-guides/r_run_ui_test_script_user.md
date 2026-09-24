@@ -2,7 +2,7 @@
 title: user — user interactions
 description: The user API simulates realistic user interactions in a Run UI Test Script step. Each interaction fires the same events a real browser user produces, such as focus, input, change, blur, and keyboard events, so that client scripts and reactive frameworks respond correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/r\_run\_ui\_test\_script\_user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/r\_run\_ui\_test\_script\_user.html
 release: australia
 product: Developer Guides
 classification: developer-guides

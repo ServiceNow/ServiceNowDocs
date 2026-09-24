@@ -2,7 +2,7 @@
 title: Overview of reporting and analytics for developers
 description: Most applications that you create have some level of reporting requirements. Reports should be actionable to drive change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/reporting-and-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/reporting-and-dashboards.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ In Platform Analytics, you have several possibilities for showing multiple data 
 -   Create the data visualizations and the dashboards inside the Platform Analytics experience, but then place the dashboards inside UI Builder pages using the Dashboard page template. This approach lets you use the convenience and special features of the Platform Analytics experience to create dashboards, data visualizations, and filters in your own experiences/workspaces. This approach also gives you the freedom to customize the page configuration partially. For more information, see [Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/adding-analytics-center-to-ws.md).
 -   Create a [technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) and populate it inside UI Builder. This approach is almost the same as creating your own UI Builder page from scratch, but the dashboard is available in the dashboard library, has dashboard details, and can be shared like other dashboards. For more information, see [Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md).
 
-**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-design-elements.md)
+**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-design-elements.md)
 

@@ -2,7 +2,7 @@
 title: Stop an unattended bot process in RPA Hub
 description: Stop the unattended bot process to abort the automation by the selected robot. If robot pool is enabled for a particular bot process, then the execution is stopped for all the robots of the robot pool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/stop-bot-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/stop-bot-process.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,13 +16,13 @@ Stop the unattended bot process to abort the automation by the selected robot.If
 
 ## Before you begin
 
-Start a bot process. For more information, see [Start an unattended bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/start-bot-process.md).
+Start a bot process. For more information, see [Start an unattended bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/start-bot-process.md).
 
-Verify that the life cycle stage status of the bot process is either in **Published**, **In Maintenance**, or **Build**. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Verify that the life cycle stage status of the bot process is either in **Published**, **In Maintenance**, or **Build**. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/select-botprocess.md).
 
 Verify that the life cycle stage status of the assigned robot is **In Use** and the state of the robot is **Busy**.
 
-Ensure you are familiar with graceful stop concepts. For more information, see [Using Graceful Stop functionality in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/graceful-stop-rpa.md).
+Ensure you are familiar with graceful stop concepts. For more information, see [Using Graceful Stop functionality in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/graceful-stop-rpa.md).
 
 To use the **Graceful Stop** toggle, ensure the Graceful Stop component is used in the selected package version in RPA Desktop Design Studio. Graceful stop is applicable for assigned robots as well as robots in robot pool.
 
@@ -30,7 +30,7 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_support\_user, sn\
 
 ## About this task
 
-Another way to stop an unattended bot process is via triggering the **Stop Process** Action in Workflow Studio. For more information, see [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-actions.md).
+Another way to stop an unattended bot process is via triggering the **Stop Process** Action in Workflow Studio. For more information, see [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-actions.md).
 
 ## Procedure
 
@@ -55,16 +55,16 @@ Another way to stop an unattended bot process is via triggering the **Stop Proce
 9.  Select **Stop Process**.
 
 
-**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/monitoring-automations-rpa.md)
+**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/monitoring-automations-rpa.md)
 
 **Related topics**  
 
 
-[Edit a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-botprocess.md)
+[Edit a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/edit-botprocess.md)
 
-[Launch in Studio from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/launch-studio.md)
+[Launch in Studio from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/launch-studio.md)
 
-[Publish a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-bot-process.md)
+[Publish a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/publish-bot-process.md)
 
-[Retire a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/retire-bot-process.md)
+[Retire a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/retire-bot-process.md)
 

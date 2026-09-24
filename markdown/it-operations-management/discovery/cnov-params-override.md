@@ -2,7 +2,7 @@
 title: Override Informer parameters from the Instance
 description: Control Kubernetes Visibility Agent Informer execution parameters from the ServiceNow Instance to avoid dependence on your Kubernetes admin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-params-override.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/cnov-params-override.html
 release: australia
 product: Discovery
 classification: discovery
@@ -57,5 +57,5 @@ For information about the purpose of each parameter, see the [Kubernetes Visibil
 3.  Change the configured value as needed, and then select **Update**.
 
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-deploy-install.md)
 

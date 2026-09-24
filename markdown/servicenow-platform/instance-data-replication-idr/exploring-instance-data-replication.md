@@ -2,7 +2,7 @@
 title: Exploring Instance Data Replication
 description: Instance Data Replication \(IDR\) replicates data updates on one instance, called the producer instance, to one or more other instances, called the consumer instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/exploring-instance-data-replication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instance-data-replication-idr/exploring-instance-data-replication.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -50,13 +50,13 @@ This image shows how IDR replicates data from multiple tables on a producer inst
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Continuously replicate inserts and updates from a producer instance to one or more consumer instances in near-real time, ensuring minimal delay.|[Continuous replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/continuous-replication.md)|Administrator|
-|Schedule replication of historical inserts and updates from a producer instance to one or more consumer instances at predefined intervals.|[Scheduled replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/scheduled-replication.md)|Administrator|
-|Continuously replicate inserts and updates from a producer instance to a consumer instance in near-real time, with changes on either side replicated back to the other.|[Bidirectional replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/bidirectional-replication.md)|Administrator|
-|Continuously replicate inserts and updates from a producer instance to specific, distinguished consumer instances in near-real time, ensuring each consumer instance receives updates independently.|[Discrete replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/discrete-producer-replication-sets.md)|Administrator|
-|Map producer data to tables and table columns that are named differently on consumer instances. For example, you can modify and map table columns to localize data for different locales.|[Transform replication data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/modify-replicated-data.md)|Administrator|
-|Modify producer data before replicating it to a consumer instance using an adapter. For example, you can configure adapters that perform string and mathematical operations, such as converting one currency to another, or converting one time zone to another.|[Transform replication data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/modify-replicated-data.md)|Administrator|
-|Trigger post-replication workflows such as generating notifications or validating replication using business rules.|[Triggering workflows after replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/modifying-replication-behavior-idr.md)|Administrator|
+|Continuously replicate inserts and updates from a producer instance to one or more consumer instances in near-real time, ensuring minimal delay.|[Continuous replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/continuous-replication.md)|Administrator|
+|Schedule replication of historical inserts and updates from a producer instance to one or more consumer instances at predefined intervals.|[Scheduled replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/scheduled-replication.md)|Administrator|
+|Continuously replicate inserts and updates from a producer instance to a consumer instance in near-real time, with changes on either side replicated back to the other.|[Bidirectional replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/bidirectional-replication.md)|Administrator|
+|Continuously replicate inserts and updates from a producer instance to specific, distinguished consumer instances in near-real time, ensuring each consumer instance receives updates independently.|[Discrete replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/discrete-producer-replication-sets.md)|Administrator|
+|Map producer data to tables and table columns that are named differently on consumer instances. For example, you can modify and map table columns to localize data for different locales.|[Transform replication data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/modify-replicated-data.md)|Administrator|
+|Modify producer data before replicating it to a consumer instance using an adapter. For example, you can configure adapters that perform string and mathematical operations, such as converting one currency to another, or converting one time zone to another.|[Transform replication data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/modify-replicated-data.md)|Administrator|
+|Trigger post-replication workflows such as generating notifications or validating replication using business rules.|[Triggering workflows after replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/modifying-replication-behavior-idr.md)|Administrator|
 
 ## IDR limitations and when not to use IDR
 
@@ -74,14 +74,14 @@ This image shows how IDR replicates data from multiple tables on a producer inst
     -   Seeding must not take longer than seven days to complete.
     -   You can only create one scheduled replication set, with only one outbound entry in that set.
     -   
-**Warning:** IDR overwrites data on instances and can replicate sensitive data. Avoid potential data loss and data exposure, by testing your IDR implementation in a pre-production environment. See [data privacy in IDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/data-privacy-consumers-idr.md) for more information.
+**Warning:** IDR overwrites data on instances and can replicate sensitive data. Avoid potential data loss and data exposure, by testing your IDR implementation in a pre-production environment. See [data privacy in IDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/data-privacy-consumers-idr.md) for more information.
 
 ## What to explore next
 
 To learn more about configuring and using IDR, see:
 
--   [Configuring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/configuring-instance-data-replication.md)
--   [Replicating data with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/replicating-data.md)
--   [Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
--   [Instance Data Replication reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/reference-instance-data-replication.md)
+-   [Configuring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/configuring-instance-data-replication.md)
+-   [Replicating data with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/replicating-data.md)
+-   [Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
+-   [Instance Data Replication reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/reference-instance-data-replication.md)
 

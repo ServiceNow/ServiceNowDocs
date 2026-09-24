@@ -2,7 +2,7 @@
 title: Add questions from a question bank to a template
 description: Add one or more published questions from a question bank to an assessment template instead of creating the same questions again.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-add-questions-from-question-bank.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-add-questions-from-question-bank.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -20,7 +20,7 @@ Add one or more published questions from a question bank to an assessment templa
 
 Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_admin
 
-To view and select questions from a question bank, you also need the sn\_smart\_asmt.question\_bank\_reader role together with one of the roles configured in the question bank's category. For more information, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
+To view and select questions from a question bank, you also need the sn\_smart\_asmt.question\_bank\_reader role together with one of the roles configured in the question bank's category. For more information, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 
 ## About this task
 
@@ -30,7 +30,7 @@ Only published questions in question banks whose purposes match the template's p
 
 1.  Open an assessment template for updates.
 
-    For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+    For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
 2.  Select a section, subsection, or question in the content tree and then select **Add question from question bank**.
 
@@ -56,7 +56,7 @@ The imported questions keep their question bank configuration, such as response 
 **Related topics**  
 
 
-[Publish questions in a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-publish.md)
+[Publish questions in a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-publish.md)
 
-[Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/question-bank.md)
+[Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/question-bank.md)
 

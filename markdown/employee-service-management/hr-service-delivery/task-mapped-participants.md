@@ -2,7 +2,7 @@
 title: Document tasks generation
 description: Document tasks can be generated either automatically or manually. The tasks get generated in the order defined for the participants.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/task-mapped-participants.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/task-mapped-participants.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,5 +43,5 @@ Document tasks are manually initiated when you click the **Initiate document tas
 
 **Note:** Initiating document tasks from a Preview model is not available for a word document template.
 
-**Parent Topic:**[Using Document Templates: HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/understanding-doc-templates.md)
+**Parent Topic:**[Using Document Templates: HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/understanding-doc-templates.md)
 

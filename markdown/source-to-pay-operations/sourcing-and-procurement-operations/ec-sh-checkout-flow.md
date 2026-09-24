@@ -2,7 +2,7 @@
 title: Shopper checkout experiences based on installed applications
 description: The following figure illustrates the checkout experiences for shoppers based on whether they have installed Employee Center, Shopping Hub, or both.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/ec-sh-checkout-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/ec-sh-checkout-flow.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations

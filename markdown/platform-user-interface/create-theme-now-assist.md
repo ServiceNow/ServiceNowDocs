@@ -2,7 +2,7 @@
 title: Create a theme using ServiceNow Otto
 description: Use ServiceNow Otto to generate themes from your brand image or brand guidelines. Color palettes are extracted automatically, producing visually consistent themes without requiring brand color codes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-theme-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/create-theme-now-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,8 +18,8 @@ Use ServiceNow Otto® to generate themes from your brand image or brand guidelin
 
 This feature requires:
 
--   The ServiceNow Otto for Creator application must be installed. See 
--   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/turn-on-theme-creation-workflow.md).
+-   The ServiceNow Otto for Creator application must be installed. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+-   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/turn-on-theme-creation-workflow.md).
 -   The ServiceNow Otto® panel must be turned on. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Role required:
@@ -117,7 +117,7 @@ Your theme is saved as a draft in Theme Builder and appears in the Unpublished s
 
 ## What to do next
 
-Customize and publish your theme in Theme Builder. See [Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md) and [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+Customize and publish your theme in Theme Builder. See [Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-edit-theme.md) and [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)
+**Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/theme-creation-with-ai.md)
 

@@ -2,7 +2,7 @@
 title: Add an activity to a playbook
 description: Add preselected optional activities to a Playbook Experience if available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-add-optional-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/playbook-add-optional-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -55,5 +55,5 @@ The selected optional activity appears in your playbook.
 
 \[Omitted image "playbook-add-activity-complete.png"\] Alt text: Optional activities appear in the location selected.
 
-**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

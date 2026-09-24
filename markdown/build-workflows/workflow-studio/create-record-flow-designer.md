@@ -2,7 +2,7 @@
 title: Create Record action
 description: Creates a record on any table. You can dynamically add and configure fields for the record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-record-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-record-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -68,5 +68,5 @@ In this example, the flow runs when a priority 1 network incident changes to the
 
 In this example, the action creates problem record PRB00400002, which was created from INC0000002. You can use the Record runtime value to open the new record.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

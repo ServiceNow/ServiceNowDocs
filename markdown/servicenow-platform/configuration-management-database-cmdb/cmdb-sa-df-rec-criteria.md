@@ -2,7 +2,7 @@
 title: Create the principal class recommendation criteria property
 description: Create the sn\_cmdb\_advisor.principal\_class\_recommendation\_criteria system property to filter which CI classes CMDB success advisor considers when generating principal class recommendations for the Data Foundations advisor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-rec-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-rec-criteria.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -80,5 +80,5 @@ CMDB success advisor uses the predefined set of CI classes as recommendations on
 **Related topics**  
 
 
-[Principal classes in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-principal-class.md)
+[Principal classes in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-principal-class.md)
 

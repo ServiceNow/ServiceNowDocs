@@ -2,7 +2,7 @@
 title: Duplicate part request
 description: Create a duplicate part request to request the same list of parts that you requested in the past.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/duplicate-part-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/duplicate-part-request.html
 release: australia
 product: Work Order Management
 classification: work-order-management

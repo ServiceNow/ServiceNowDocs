@@ -2,7 +2,7 @@
 title: Components installed with Content Governance
 description: Several types of components install with the activation of the Content Governance \[sn\_cg\] plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-installed-content-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-installed-content-governance.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -38,7 +38,7 @@ Demo data is available for this feature.
 |Content Request Item \[sn\_cg\_content\_request\_item\]|Content created from the Content Governance interface|
 |Content Request \[sn\_cg\_content\_request\]|Request for content created by an employee or manager|
 
-**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

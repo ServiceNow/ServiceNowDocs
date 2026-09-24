@@ -2,7 +2,7 @@
 title: Close a hardware asset repair task using the Mobile Agent application
 description: Complete an assigned hardware asset repair task and mark the task as closed using the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/complete-repair-task-mobile-app-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/complete-repair-task-mobile-app-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -98,7 +98,7 @@ In the **Evaluation result** field, select any of the following:-   **Redeployab
 
 The state of the repair task changes to Closed Complete.
 
-**Parent Topic:**[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
+**Parent Topic:**[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
 
 **Related topics**  
 

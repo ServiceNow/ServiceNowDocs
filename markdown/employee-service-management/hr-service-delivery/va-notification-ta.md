@@ -2,7 +2,7 @@
 title: Virtual Agent notifications
 description: Virtual Agent notifications help the hiring manager and the recruiter remain updated about the recent changes in their requisitions and corresponding applications keeping the communication channel smooth.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/va-notification-ta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/va-notification-ta.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -60,7 +60,7 @@ You can also:
 
 The Virtual Agent notifications feature is only available with the Microsoft Teams.
 
-For more information on setting up Virtual Agent with Microsoft Teams, see [Configure Virtual Agent notifications in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-va-ta.md).
+For more information on setting up Virtual Agent with Microsoft Teams, see [Configure Virtual Agent notifications in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-va-ta.md).
 
-**Parent Topic:**[Notifications in Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/notifications-ta.md)
+**Parent Topic:**[Notifications in Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/notifications-ta.md)
 

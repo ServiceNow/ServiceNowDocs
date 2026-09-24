@@ -2,7 +2,7 @@
 title: Installing Hardware Asset Management
 description: The Hardware Asset Management \(HAM\) application can be installed from the Product Hub or the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/installing-ham-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/installing-ham-app.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

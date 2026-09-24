@@ -2,7 +2,7 @@
 title: Create a view-by configuration
 description: Create a configuration to filter the view of the scenario planner or building overview.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/create-view-by-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/create-view-by-config.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -28,12 +28,12 @@ Role required: sn\_wsd\_spcmgmt.admin
 
 3.  On the View by Configuration form, fill in the fields.
 
-    For a description of the field values, see [View by Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/view-by-configuration-form.md).
+    For a description of the field values, see [View by Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/view-by-configuration-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Edit mentor preferences
 description: As a mentor, edit your preferences based on your skills, focus areas, and topics of interest that you would like to discuss with your mentor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/edit-mentor-preferences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/mentoring/edit-mentor-preferences.html
 release: australia
 product: Mentoring
 classification: mentoring
@@ -30,7 +30,7 @@ Role required: none
 
 3.  On the Mentor preferences form, fill in the fields.
 
-    For a description of the field values, see [Mentor preferences form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/edit-mentor-prf-form.md).
+    For a description of the field values, see [Mentor preferences form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mentoring/edit-mentor-prf-form.md).
 
 4.  Select **Save and close**.
 

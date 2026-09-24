@@ -2,7 +2,7 @@
 title: Industrial Connected Workforce Core release notes
 description: The ServiceNow Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the entire ICW suite. This application provides the shared data models, governance structures, workflows, and integration framework required for consistent and reliable industrial operations. All other ICW applications depend on ICW Core for unified execution, cross‑application interoperability, and enterprise‑wide alignment. ICW Core is a new application in the Australia release.The ServiceNow Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the entire ICW suite. This application provides the shared data models, governance structures, workflows, and integration framework required for consistent and reliable industrial operations. All other ICW applications depend on ICW Core for unified execution, cross‑application interoperability, and enterprise‑wide alignment. ICW Core is a new application in the Australia release.The ServiceNow Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the entire ICW suite. This application provides the shared data models, governance structures, workflows, and integration framework required for consistent and reliable industrial operations. All other ICW applications depend on ICW Core for unified execution, cross‑application interoperability, and enterprise‑wide alignment. ICW Core is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/icw-core-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/icw-core-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ See, [ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aust
     ICW Core is automatically installed when you install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/industrial-connected-workforce-rn-landing.md)
+**Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/industrial-connected-workforce-rn-landing.md)
 
 ## Australia General Availability
 

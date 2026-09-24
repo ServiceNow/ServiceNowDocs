@@ -2,7 +2,7 @@
 title: Change the layout of Dependency Views map
 description: You can select from different layout options for your Dependency Views map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_ChangeLayoutNGBSMMap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_ChangeLayoutNGBSMMap.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -36,7 +36,7 @@ Role required: none
         **Related Services** displays application services related to the CIs currently displaying in the map. If Event Management is activated then technical services and manual services are included. You can double-click a service to display the map in the Event Management dashboard.
 
 
-**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 

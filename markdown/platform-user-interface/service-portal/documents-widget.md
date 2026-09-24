@@ -2,7 +2,7 @@
 title: Documents widget
 description: You can add, edit, or delete documents associated with records based on user permissions through the Documents widget. You can use this widget in your portal or clone and customize it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/documents-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/documents-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -79,7 +79,7 @@ Metadata form view
 The configured form view to be opened when **Edit Document** is selected or while uploading a single file. By default, the **dw** form view is selected. This form contains only **Name** and **Description** fields.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

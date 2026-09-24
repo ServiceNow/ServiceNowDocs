@@ -2,7 +2,7 @@
 title: Configure the Chromium connector
 description: Capture one or more web pages from the Google Chrome or Microsoft Edge browser and then the elements on the web pages by configuring the Chromium connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-chrome-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-chrome-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,10 +18,10 @@ Capture one or more web pages from the Google Chrome or Microsoft Edge browser a
 
 Software prerequisites: The ServiceNow, Inc. RPA Google Chrome and the ServiceNow® Store RPA Microsoft Edge extensions are added. To add the extensions, see:
 
--   [Add the ServiceNow RPA Edge extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/add-servicenow-edge-extension.md).
--   [Add the ServiceNow RPA Chrome extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/add-google-chrome-extension-rpa.md).
+-   [Add the ServiceNow RPA Edge extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/add-servicenow-edge-extension.md).
+-   [Add the ServiceNow RPA Chrome extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/add-google-chrome-extension-rpa.md).
 
-Ensure you have installed the Chromium plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+Ensure you have installed the Chromium plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-plugins-rpa-studio.md).
 
 Ensure that at least one website or application is open or active on both the Microsoft Edge and the Google Chrome browsers.
 
@@ -57,8 +57,8 @@ Role required: none
 
 11. Use the context dialog to capture the elements.
 
-    To use the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-context-dialog.md).
+    To use the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-context-dialog.md).
 
 
-**Parent Topic:**[Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/chrome-connector.md)
+**Parent Topic:**[Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/chrome-connector.md)
 

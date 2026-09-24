@@ -2,7 +2,7 @@
 title: View and track legal request details
 description: View the details of a legal request after it has been submitted and track request activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/view-legal-request-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/view-legal-request-details.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -42,5 +42,5 @@ Role required: sn\_lg\_ops.legal\_user
 5.  Track the request's activities and post messages for the fulfiller working on it by accessing the **Activity** tab.
 
 
-**Parent Topic:**[Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/submitting-legal-request.md)
+**Parent Topic:**[Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/submitting-legal-request.md)
 

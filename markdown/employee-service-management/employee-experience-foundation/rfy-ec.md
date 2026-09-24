@@ -2,7 +2,7 @@
 title: Recommended for you
 description: Recommended for you displays catalog items and knowledge articles, enabling you to view information that is most relevant to you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/rfy-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/rfy-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -37,7 +37,7 @@ Learn about the version, license, and other requirements to use **Recommended fo
 
     **Note:** ML-based recommendations are available only for EC Pro customers or PI entitlement such as HRSD Pro, ITSM Pro, LSD, WSD.
 
--   Enable Employee Profile first to activate recommendations based on the Employee Profile table. Employee Profile is used to formulate recommendations that have similar profile users. For more information, see [Manage the employee profile AI and ML model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/train-employee-profile-model.md)
+-   Enable Employee Profile first to activate recommendations based on the Employee Profile table. Employee Profile is used to formulate recommendations that have similar profile users. For more information, see [Manage the employee profile AI and ML model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/train-employee-profile-model.md)
 
 To make the widget visible on the Employee Center home page:
 
@@ -45,11 +45,11 @@ To make the widget visible on the Employee Center home page:
 2.  Verify that you run **Set primary topics for Employee taxonomy** manually after installing the application.
 3.  Verify you have articles or catalog item with non-empty **Taxonomy Topic** field​.
 
-For more information, see [Configure the Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-rfy.md)
+For more information, see [Configure the Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-rfy.md)
 
 ## How Recommended for you works
 
-Administrators, developers, and advanced users can configure the widget options​. **Recommended for you** highlights the most viewed knowledge article and most requested catalog items across all employees for a time period defined in the [Modify the Recommended for you widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-recommended-for-you.md) by the portal administrator.
+Administrators, developers, and advanced users can configure the widget options​. **Recommended for you** highlights the most viewed knowledge article and most requested catalog items across all employees for a time period defined in the [Modify the Recommended for you widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-recommended-for-you.md) by the portal administrator.
 
 -   Knowledge articles recommendations are based on the view count of article.
 -   Catalog item recommendations are based on the number of times it is requested for.
@@ -60,5 +60,5 @@ Administrators, developers, and advanced users can configure the widget options�
 **Related topics**  
 
 
-[View the Recommended for you content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/rfy-employee.md)
+[View the Recommended for you content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/rfy-employee.md)
 

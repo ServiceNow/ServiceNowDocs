@@ -2,7 +2,7 @@
 title: Edit document metadata
 description: Update document properties such as owner, type, classification, and access settings from the Documents panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/edit-document-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/edit-document-metadata.html
 release: australia
 product: Audit Management
 classification: audit-management

@@ -2,7 +2,7 @@
 title: Map preview
 description: Use theMap Preview to display maps and test directions that you have created in the Indoor Mapping Map Studio. Testing directions will ensure that directions graphs in wayfinding works as expected for employees and visitors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/map-preview-indoor-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/map-preview-indoor-mapping.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -28,11 +28,11 @@ Role required: map admin, map editor, map editor limited
 
 2.  Select a campus.
 
-    Create one if you do not have a campus in the map studio. For more information about how to create a campus, see [Create a campus with buildings and floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/create-a-campus-building-and-floor.md)
+    Create one if you do not have a campus in the map studio. For more information about how to create a campus, see [Create a campus with buildings and floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/create-a-campus-building-and-floor.md)
 
 3.  Click **Preview**.
 
-    The map opens in the **Preview** mode. If the view is not enabled, nothing will appear in Preview. For more information, see [Edit with view editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/edit-with-view-editor.md).
+    The map opens in the **Preview** mode. If the view is not enabled, nothing will appear in Preview. For more information, see [Edit with view editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/edit-with-view-editor.md).
 
 4.  In the search field, search for places on the Campus, for example: Meeting room 101.
 
@@ -65,9 +65,9 @@ Role required: map admin, map editor, map editor limited
     Change the Campus from the **Campus** drop-down list on the top right menu on the map studio.
 
 
-**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[View editor content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/view-editor-content.md)
+**Previous topic:**[View editor content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/view-editor-content.md)
 
-**Next topic:**[Print a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/print-map.md)
+**Next topic:**[Print a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/print-map.md)
 

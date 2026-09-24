@@ -2,7 +2,7 @@
 title: Scan the QR code to reserve a space
 description: Scan the QR code of a workplace and quickly reserve a space using the Now Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/scan-qr-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-for-mobile/scan-qr-code.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -32,7 +32,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 4.  Tap **See my reservations** to see your existing reservations for a selected space.
 
-    Select a space from the list of spaces to view the Reservation Information screen. For more information about the Reservation Information screen, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/make-a-reservation-on-mobile.md).
+    Select a space from the list of spaces to view the Reservation Information screen. For more information about the Reservation Information screen, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/make-a-reservation-on-mobile.md).
 
 5.  Tap **Reserve** to reserve a location for a selected space.
 
@@ -45,7 +45,7 @@ Role required: sn\_wsd\_core.workplace\_user
         -   Suggestion for available reservation time slots is displayed in horizontal blocks with a scroll bar.
         -   To view the time slots in a vertical list, select **View all**.
 
-            The time slot duration is dependent on the **Max duration**and **Min duration** values configured by your administrator in the Reservable Module configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+            The time slot duration is dependent on the **Max duration**and **Min duration** values configured by your administrator in the Reservable Module configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
             The time displayed in the time slot considers the Start time of the working day \(sn\_wsd\_rsv.day\_start\) and End time of the working day \(sn\_wsd\_rsv.day\_end\) properties set by your administrator. If office hours are from 9 AM to 5 PM, then all the available reservation slots between 9 to 5 are divided into 2-hour intervals \(based on the values that you’ve provided for Max and Min duration\). However, if there are any existing reservations, then these aren’t displayed. Only available time slots for a reservation are displayed. If the available slot for a reservation is from 9 AM to 12 PM, and the maximum duration for a meeting is two hours, then 9–11 is the first time slot and 11–12 is the next time slot.
 
@@ -68,7 +68,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 10. Tap **Check in** to check in your reservation.
 
-    For more information, see [Check in or check out a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/check-in-out-rsv-on-mobile.md).
+    For more information, see [Check in or check out a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/check-in-out-rsv-on-mobile.md).
 
 11. Select the **Actions** drop-down options to:
 
@@ -100,9 +100,9 @@ Role required: sn\_wsd\_core.workplace\_user
     2.  To edit the reservation, tap **Edit reservation**.
 
 
-**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
+**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
 
-**Previous topic:**[Share your reservation details with other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/share-rsv-details.md)
+**Previous topic:**[Share your reservation details with other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/share-rsv-details.md)
 
-**Next topic:**[Work with Location Directory for Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/view-location-directory-mobile.md)
+**Next topic:**[Work with Location Directory for Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/view-location-directory-mobile.md)
 

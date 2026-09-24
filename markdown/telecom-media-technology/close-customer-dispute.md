@@ -2,7 +2,7 @@
 title: Close a customer dispute
 description: Notify the customer of the outcome, capture the customer's feedback, and record closing information before closing the dispute.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/close-customer-dispute.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/close-customer-dispute.html
 release: australia
 topic_type: task
 last_updated: "2026-07-27"
@@ -65,7 +65,7 @@ Resolution notes
 
 </td><td>
 
-Detailed summary to resolve the dispute.**Note:** If you’re using the ServiceNow Otto for TMT application, you can generate the resolution notes using the ServiceNow Otto component. To learn more, see [Generate resolution notes for ADR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution-notes-ad.md).
+Detailed summary to resolve the dispute.**Note:** If you’re using the ServiceNow Otto for TMT application, you can generate the resolution notes using the ServiceNow Otto component. To learn more, see [Generate resolution notes for ADR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution-notes-ad.md).
 
 </td></tr></tbody>
 </table>6.  Select **Continue**.
@@ -80,7 +80,7 @@ Detailed summary to resolve the dispute.**Note:** If you’re using the ServiceN
 
 9.  To generate a deadlock letter, draft the letter content and select **Generate and send**.
 
-    **Note:** If you are using the ServiceNow Otto for TMT application, you can generate the deadlock letter details using the ServiceNow Otto component. To learn more, see [Generate a deadlock letter using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-deadlock-letter.md).
+    **Note:** If you are using the ServiceNow Otto for TMT application, you can generate the deadlock letter details using the ServiceNow Otto component. To learn more, see [Generate a deadlock letter using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-deadlock-letter.md).
 
     The system creates a PDF of the letter, sends it to the customer by email, and adds the PDF to the dispute's attachments. The sent email is displayed at the Notify regulator step.
 
@@ -101,7 +101,7 @@ Detailed summary to resolve the dispute.**Note:** If you’re using the ServiceN
 
 The dispute is marked closed. The closing information is saved with the dispute record and is available for future reference or auditing.
 
-**Parent Topic:**[Using Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/use-alternative-dispute-resolution-case.md)
+**Parent Topic:**[Using Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/use-alternative-dispute-resolution-case.md)
 
 **Related topics**  
 
@@ -114,5 +114,5 @@ The dispute is marked closed. The closing information is saved with the dispute 
 
 [View a Customer Dispute Management case record]()
 
-[Customer Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/alternative-dispute-resolution.md)
+[Customer Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/alternative-dispute-resolution.md)
 

@@ -2,7 +2,7 @@
 title: Generate correlation insights in the ServiceNow Otto panel
 description: Generate correlation insights from the ServiceNow Otto panel to help you connect past events to the security incident that you're working on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/generate-correlation-insights-now-assist-for-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/generate-correlation-insights-now-assist-for-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -71,5 +71,5 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
     5.  Return to the security incident record and refresh the page.
 
 
-**Parent Topic:**[Exploring correlation insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/generating-insights-for-now-assist-for-security.md)
+**Parent Topic:**[Exploring correlation insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/generating-insights-for-now-assist-for-security.md)
 

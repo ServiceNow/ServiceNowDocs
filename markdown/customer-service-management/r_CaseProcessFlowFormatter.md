@@ -2,7 +2,7 @@
 title: Case process flow formatter
 description: The process flow formatter provides a graphical summary of the stages of a customer service case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_CaseProcessFlowFormatter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r\_CaseProcessFlowFormatter.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create records from inbound queue table async form
 description: The Create records from inbound queue table async scheduled job form enables you to configure a scheduled job for asynchronous order processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-records-from-inbound-queue-table-async-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-records-from-inbound-queue-table-async-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-23"
@@ -121,10 +121,10 @@ Time zone
 Time zone in which you're operating your business.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-reference.md)
 
 **Related topics**  
 
 
-[Configure a scheduled job for asynchronous order creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/running-scheduled-job.md)
+[Configure a scheduled job for asynchronous order creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/running-scheduled-job.md)
 

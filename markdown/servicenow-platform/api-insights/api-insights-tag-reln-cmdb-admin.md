@@ -2,7 +2,7 @@
 title: Automating creating tag-based relationship mapping within API Insights
 description: You can configure and automate creating CMDB relationships between APIs and application services or business applications based on API tags.Establish relationships between APIs and application services by defining tag-based mapping rules for APIs available within the API Insights application.You can use a scheduled job to automatically create CMDB relationships between APIs and application services or business applications based on API tags.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-tag-reln-cmdb-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/api-insights/api-insights-tag-reln-cmdb-admin.html
 release: australia
 product: API Insights
 classification: api-insights

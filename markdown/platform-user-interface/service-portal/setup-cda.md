@@ -2,7 +2,7 @@
 title: Set up Cloud Deployment Automation
 description: Set up the Cloud Deployment Automation application by configuring the Service Portal page to use the default catalog items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/setup-cda.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/setup-cda.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -91,5 +91,5 @@ Set up the Cloud Deployment Automation application by configuring the Service Po
         \[Omitted image "cda-catalogs.png"\] Alt text: Cloud Deployment Automation catalogs.
 
 
-**Parent Topic:**[Cloud Deployment Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/cloud-dep-auto.md)
+**Parent Topic:**[Cloud Deployment Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/cloud-dep-auto.md)
 

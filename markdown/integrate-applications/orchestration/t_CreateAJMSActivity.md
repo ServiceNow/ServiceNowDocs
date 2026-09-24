@@ -2,7 +2,7 @@
 title: Create a JMS activity
 description: Create a custom JMS activity to retrieve or send messages to external systems using the Java Messaging Service.Configure your system to use Java Messaging Service \(JMS\) with a custom Orchestration JMS activity.You use execution parameters to create the input process script in the Preprocessing form.Use these parameters to create a post-processing script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_CreateAJMSActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/t\_CreateAJMSActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -39,17 +39,17 @@ The JMS activity supports third party JMS providers whose JMS client application
 
     Your JMS credentials must have permission for the target database and proper configuration for the corresponding JMS connection. Credentials must be set up before you can create a JMS activity.
 
-2.  Create or verify your [JMS connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAJMSActivity.md) .
+2.  Create or verify your [JMS connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAJMSActivity.md) .
 
     Your JMS connection must be configured with valid JMS credentials set up before you can create a JMS activity.
 
-3.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md).
+3.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/create-custom-activities.md).
 
     This action creates a custom activity using a template.
 
-4.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md), configure the JMS Execution Command.
+4.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/CreateInputVariables.md), configure the JMS Execution Command.
 
-<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d179892e164">
+<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d179874e164">
 
 **Configure your credential**
 
@@ -57,7 +57,7 @@ The JMS activity supports third party JMS providers whose JMS client application
 
 Fill in the fields necessary for your database connection.
 
-</td></tr><tr><td id="d179892e173">
+</td></tr><tr><td id="d179874e173">
 
 **Connection Factory**
 
@@ -65,7 +65,7 @@ Fill in the fields necessary for your database connection.
 
 Name of the JMS Connection Factory. You should create or verify your JMS connection. This configuration links the name of the Initial Context Factory with the URL of the JMS provider.
 
-</td></tr><tr><td id="d179892e182">
+</td></tr><tr><td id="d179874e182">
 
 **Destination Type**
 
@@ -78,7 +78,7 @@ Type of destination used for this message:-   **Queue**: Message is queued for p
 -   **Topic**: Message is used for publish and subscribe communication.
 
 
-</td></tr><tr><td id="d179892e209">
+</td></tr><tr><td id="d179874e209">
 
 **Destination Name**
 
@@ -86,7 +86,7 @@ Type of destination used for this message:-   **Queue**: Message is queued for p
 
 Name of the queue or topic destination that is configured on the JMS provider.
 
-</td></tr><tr><td id="d179892e218">
+</td></tr><tr><td id="d179874e218">
 
 **Message Type**
 
@@ -94,7 +94,7 @@ Name of the queue or topic destination that is configured on the JMS provider.
 
 The JMS message type value. Only the **Text Message** type is supported. The queue or topic destination must be configured to receive or send only Text Message. Other message types are dropped, since the JMS Activity cannot process them.
 
-</td></tr><tr><td id="d179892e231">
+</td></tr><tr><td id="d179874e231">
 
 **Operation**
 
@@ -102,7 +102,7 @@ The JMS message type value. Only the **Text Message** type is supported. The que
 
 The programmatic operation to perform on the destination. The choices are **PUT** or **GET**.
 
-</td></tr><tr><td id="d179892e246">
+</td></tr><tr><td id="d179874e246">
 
 **Timeout \(Secs\)**
 
@@ -110,7 +110,7 @@ The programmatic operation to perform on the destination. The choices are **PUT*
 
 Allowed time to wait for a message in the message queue before it times out, in seconds. The default is **30**.
 
-</td></tr><tr><td id="d179892e258">
+</td></tr><tr><td id="d179874e258">
 
 **Custom message headers**
 
@@ -118,7 +118,7 @@ Allowed time to wait for a message in the message queue before it times out, in 
 
 The custom header values in a name/value pair format, that is available on the JMS destination. **Note:** This is only supported for a **PUT** operation.
 
-</td></tr><tr><td id="d179892e273">
+</td></tr><tr><td id="d179874e273">
 
 **Message payload**
 
@@ -126,7 +126,7 @@ The custom header values in a name/value pair format, that is available on the J
 
 Actual message content or payload that is sent to the JMS destination.**Note:** This is only supported for a **PUT** operation.
 
-</td></tr><tr><td id="d179892e288">
+</td></tr><tr><td id="d179874e288">
 
 **Credential tag**
 
@@ -134,7 +134,7 @@ Actual message content or payload that is sent to the JMS destination.**Note:** 
 
 A tag for an individual credential for a JMS activity in an Orchestration workflow.
 
-</td></tr><tr><td id="d179892e297">
+</td></tr><tr><td id="d179874e297">
 
 **Required MID Server capabilities**
 
@@ -146,10 +146,10 @@ MID Server to use, by capabilities.
 </table>
 ## What to do next
 
--   Use [auto-mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/automap-output-variable-inputs.md) to generate outputs and parsing rules
--   If you do not use auto-mapping, you can manually [create output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAnOutputVariable.md) and [create parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md)
+-   Use [auto-mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/automap-output-variable-inputs.md) to generate outputs and parsing rules
+-   If you do not use auto-mapping, you can manually [create output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAnOutputVariable.md) and [create parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAParsingRule.md)
 
-**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ActivityDesignerComponents.md)
+**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_ActivityDesignerComponents.md)
 
 ## Create a JMS connection for an Orchestration activity
 
@@ -169,7 +169,7 @@ The MID Server must have the correct JMS connection factories for your organizat
 
 2.  Click **New** and add.
 
-<table id="choicetable_yqs_2c4_5y"><tbody><tr><td id="d179892e459">
+<table id="choicetable_yqs_2c4_5y"><tbody><tr><td id="d179874e459">
 
 **Name**
 
@@ -177,7 +177,7 @@ The MID Server must have the correct JMS connection factories for your organizat
 
 A unique and descriptive name for identifying the file in the instance.
 
-</td></tr><tr><td id="d179892e468">
+</td></tr><tr><td id="d179874e468">
 
 **Version**
 
@@ -185,7 +185,7 @@ A unique and descriptive name for identifying the file in the instance.
 
 A version number for the file, if one is available.
 
-</td></tr><tr><td id="d179892e477">
+</td></tr><tr><td id="d179874e477">
 
 **Source**
 
@@ -193,7 +193,7 @@ A version number for the file, if one is available.
 
 Location of the JAR file for reference purposes. Source information is not used by the system.
 
-</td></tr><tr><td id="d179892e486">
+</td></tr><tr><td id="d179874e486">
 
 **Description**
 
@@ -210,7 +210,7 @@ Short description of the JAR file and its purpose in the instance.
 
 5.  Click **New**, add the following, and click **Submit**.
 
-<table id="choicetable_gqc_pd4_5y"><tbody><tr><td id="d179892e540">
+<table id="choicetable_gqc_pd4_5y"><tbody><tr><td id="d179874e540">
 
 **Name**
 
@@ -218,7 +218,7 @@ Short description of the JAR file and its purpose in the instance.
 
 Unique name of this connection factory.
 
-</td></tr><tr><td id="d179892e549">
+</td></tr><tr><td id="d179874e549">
 
 **Initial Context Factory**
 
@@ -226,7 +226,7 @@ Unique name of this connection factory.
 
 Name of the JNDI class that is used to create the InitialContext. **Note:** For example, to connect to ActiveMQ V5.10 \(JMS Provider\), the value is `org.apache.activemq.jndi.ActiveMQInitialContextFactory`.
 
-</td></tr><tr><td id="d179892e564">
+</td></tr><tr><td id="d179874e564">
 
 **Provider URL**
 

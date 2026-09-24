@@ -2,7 +2,7 @@
 title: Apache Kafka data input configuration fields
 description: Description of the fields on the Apache Kafka data input configuration form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-kafka-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-kafka-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -229,7 +229,7 @@ Reference to the Apache Kafka credentials.You can display the Kafka SSL credenti
 -   **SASL\_SSL** - SASL authenticated, SSL channel.
 -   **SASL\_PLAINTEXT** - SASL authenticated, non-encrypted channel.
 
-For a description of the fields on the Kafka SSL credentials form, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
+For a description of the fields on the Kafka SSL credentials form, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
 
 </td><td>
 
@@ -261,8 +261,8 @@ logs
 |Character encoding|The character encoding for this data input.|UTF-8|
 |Drop if queue is full|Option to discard logs if there is a load on the MID Server.|False|
 
--   **[Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md)**  
+-   **[Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md)**  
 Description of the fields on the Kafka SSL credentials form.
 
-**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

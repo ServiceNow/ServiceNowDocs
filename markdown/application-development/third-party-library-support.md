@@ -2,7 +2,7 @@
 title: Third-party library support in Australia
 description: Review which common third-party libraries are supported, partially supported, or unsupported by the ServiceNow IDE and ServiceNow SDK.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/third-party-library-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/third-party-library-support.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

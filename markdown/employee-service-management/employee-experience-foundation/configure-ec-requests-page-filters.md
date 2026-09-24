@@ -2,7 +2,7 @@
 title: Create or modify a request filter
 description: Create or modify a request filter for the requests page in the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-ec-requests-page-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-ec-requests-page-filters.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

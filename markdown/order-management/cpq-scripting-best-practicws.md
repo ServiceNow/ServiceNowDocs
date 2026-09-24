@@ -2,7 +2,7 @@
 title: General guidelines for scripting
 description: Write efficient scripts using a JavaScript-like language. Follow these general guidelines for naming, variables, and table access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-scripting-best-practicws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-scripting-best-practicws.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -173,12 +173,12 @@ Choose variable declaration based on scope and mutability requirements. Use `con
 
 Excessive table queries can impact performance. Minimize queries by fetching necessary data once and storing it in variables.
 
-To learn about general guideliines for using the `lookup` function, see [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/table_queries.md).
+To learn about general guideliines for using the `lookup` function, see [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/table_queries.md).
 
 **Related topics**  
 
 
-[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/scripting.md)
+[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/scripting.md)
 
 [CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

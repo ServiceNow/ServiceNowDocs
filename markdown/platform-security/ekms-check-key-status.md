@@ -2,7 +2,7 @@
 title: Check External Key Management Service Key Status
 description: View the status of your Amazon Web Services Key Management System \(AWS KMS\) key in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ekms-check-key-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-check-key-status.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Roles required: admin, security\_admin, and sn\_kmf.cryptographic\_manager
 
 Verify that you have:
 
--   [Configured an External Key Management Service \(EKMS\) key definition.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configure-external-key-definition.md)
+-   [Configured an External Key Management Service \(EKMS\) key definition.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-configure-external-key-definition.md)
 -   Security Admin or Crypto Manager role.
 
 ## About this task
@@ -44,7 +44,7 @@ You can check your AWS KMS key status at any time to verify its current state. C
     -   **Unavailable** - Your instance can't connect to AWS. This can be due to authentication issues with your EKMS configuration, network connectivity problems, or AWS service disruptions.
 4.  Note the status and the last synchronization time.
 
-    The automatic synchronization job runs every 30 minutes. The synchronization timestamp shows when the status was last updated from AWS. This default frequency is configurable if you need a different synchronization interval. See [Change synchronization frequency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-change-synchronization-frequency.md).
+    The automatic synchronization job runs every 30 minutes. The synchronization timestamp shows when the status was last updated from AWS. This default frequency is configurable if you need a different synchronization interval. See [Change synchronization frequency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-change-synchronization-frequency.md).
 
 
 ## Result
@@ -63,10 +63,10 @@ Based on the key status you see:
 
 **Important:** If your key is disabled or pending deletion, you must re-enable the key to create or update records in tables with encrypted field configurations.
 
-**Parent Topic:**[Using External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-using-external-key-management.md)
+**Parent Topic:**[Using External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-using-external-key-management.md)
 
 **Related topics**  
 
 
-[Change the status of an AWS KMS Key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-change-status-aws-kms-key.md)
+[Change the status of an AWS KMS Key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-change-status-aws-kms-key.md)
 

@@ -2,7 +2,7 @@
 title: Close a work order task as complete
 description: Only agents can close work order tasks assigned to them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CloseAWorkOrderTaskAsComplete.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_CloseAWorkOrderTaskAsComplete.html
 release: australia
 product: Work Order Management
 classification: work-order-management

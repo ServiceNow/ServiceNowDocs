@@ -2,12 +2,12 @@
 title: Create a SAM Foundation entitlement allocation
 description: A user or device allocation can be added to a software entitlement to specify a user or device to which rights have been allocated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/t\_AddAnEntitlementAllocationSAMF.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management-foundation-plugin/t\_AddAnEntitlementAllocationSAMF.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create an entitlement, Configuring the classic Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -116,5 +116,5 @@ License key of the software.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md)
+**Parent Topic:**[Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md)
 

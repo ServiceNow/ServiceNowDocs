@@ -2,7 +2,7 @@
 title: Work on amendment request
 description: Review and work on an amendment request for an existing contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-amend-work.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-amend-work.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -73,15 +73,15 @@ Identify the legal and contract requests created for amendment using the followi
 
 3.  Modify legal request.
 
-<table id="choicetable_rxb_zfw_fhc"><thead><tr><th align="left" id="d752785e246">
+<table id="choicetable_rxb_zfw_fhc"><thead><tr><th align="left" id="d752789e246">
 
 Options
 
-</th><th align="left" id="d752785e249">
+</th><th align="left" id="d752789e249">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d752785e255">
+</th></tr></thead><tbody><tr><td id="d752789e255">
 
 **Add collaborators**
 
@@ -91,7 +91,7 @@ If you need help from other fulfillers to work on the legal request, add them in
 
 The collaborators are notified via email that they’ve been added as collaborators to a legal request.
 
-</td></tr><tr><td id="d752785e274">
+</td></tr><tr><td id="d752789e274">
 
 **Update the users in watch list and requested for**
 
@@ -159,14 +159,14 @@ Update the **Watch list** and **Requested for**.Any changes done to the **Watch 
 
     |Options|Steps|
     |-------|-----|
-    |**Ad hoc approval**|[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-initiate-approval-cr.md)|
-    |**Internal review**|[Request an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-add-review-task.md).|
+    |**Ad hoc approval**|[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-initiate-approval-cr.md)|
+    |**Internal review**|[Request an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-add-review-task.md).|
     |**Email communication**|Set up an email to stakeholders to request to have the completed contract document reviewed and the changes confirmed using **Compose Email** option.|
     |**Signature workflow**| |
 
 12. Send the contract amendment document for signature.
 
-    For more information, see [Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
+    For more information, see [Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 
 
 ## Result
@@ -184,5 +184,5 @@ Update the **Watch list** and **Requested for**.Any changes done to the **Watch 
 
     -   Attachment pane: View the certificate of completion for the contract and amendment requests if electronic signature was selected.
 
-**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
+**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
 

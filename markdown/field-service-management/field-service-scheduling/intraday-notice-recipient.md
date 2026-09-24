@@ -2,7 +2,7 @@
 title: Change the recipients of notifications for intraday schedule automation
 description: You can change who receives notifications related to intraday schedule automation, so only the necessary recipients receive the notifications. For example, if an agent is late for a task, you can configure notifications to only be sent to the dispatcher.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/intraday-notice-recipient.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/intraday-notice-recipient.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

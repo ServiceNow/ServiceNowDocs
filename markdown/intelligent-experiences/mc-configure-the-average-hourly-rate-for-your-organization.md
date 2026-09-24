@@ -2,10 +2,10 @@
 title: Configure average hourly rate for your organization
 description: Set the average hourly rate that the Cost Framework uses to convert hours saved into financial savings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---

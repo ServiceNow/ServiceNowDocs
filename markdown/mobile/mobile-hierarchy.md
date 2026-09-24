@@ -2,7 +2,7 @@
 title: Mobile hierarchy
 description: Learn the components of ServiceNow mobile and how they work together to assist you in configuring, modifying, and creating applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-hierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-hierarchy.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,19 +34,19 @@ This image represents the structure of the ServiceNow mobile framework. The next
 
 -   **Navigation bar**
 
-    Each mobile app config has a navigation bar that appears at the bottom of the screen. A navigation bar can have up to five icons, called navigation bar tabs. By default, navigation bars have a notification and settings navigation bar tab. For information about how to create a navigation bar, see [Configure the navigation bar and navigation tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-sg-application-menu.md).
+    Each mobile app config has a navigation bar that appears at the bottom of the screen. A navigation bar can have up to five icons, called navigation bar tabs. By default, navigation bars have a notification and settings navigation bar tab. For information about how to create a navigation bar, see [Configure the navigation bar and navigation tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-sg-application-menu.md).
 
 -   **Navigation bar tabs**
 
     Each tab in the navigation bar represents a screen or launcher screen. When you add more than five tabs to the navigation bar, a **More** tab appears. Tapping the **More** tab opens a list view showing additional tabs.
 
-    For information on how to create navigation bar tabs, see [Configure the navigation bar and navigation tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-sg-application-menu.md).
+    For information on how to create navigation bar tabs, see [Configure the navigation bar and navigation tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-sg-application-menu.md).
 
 -   **Launcher screens**
 
     Launcher screens serve as landing pages or home pages for your users. Launcher screens contain a configurable header, and sections to provide access to screens in several formats. You can also configure launcher screens with a search bar and quick actions, which give your users access to commonly used functions.
 
-    For more detail on launcher screens, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md).
+    For more detail on launcher screens, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-applet-launcher.md).
 
 -   **Screens**
 
@@ -69,7 +69,7 @@ This image represents the structure of the ServiceNow mobile framework. The next
 
     Icon records are located on the Icons \[sys\_sg\_icon\] table.
 
-    For more information on icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
+    For more information on icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-icon.md).
 
 -   **Item streams**
 
@@ -85,7 +85,7 @@ This image represents the structure of the ServiceNow mobile framework. The next
 
     Data items are located on the data items \[sys\_sg\_data\_item\] table.
 
-    For more detail on data items, see [Data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-data-item.md).
+    For more detail on data items, see [Data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-data-item.md).
 
 -   **Item configurations**
 
@@ -106,13 +106,13 @@ This image represents the structure of the ServiceNow mobile framework. The next
 
     Screen types determine what a screen looks like and how your users are able to interact with it. You can create these screen types:
 
-    -   [Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/calendar-screen.md)
-    -   [Chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/chart-screen.md)
-    -   [Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/form-screen.md)
-    -   [Grouped list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/grouped-list-screen.md)
-    -   [List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/list-screen.md)
-    -   [Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/map-screen.md)
-    -   [URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/url-screen.md)
+    -   [Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/calendar-screen.md)
+    -   [Chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/chart-screen.md)
+    -   [Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/form-screen.md)
+    -   [Grouped list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/grouped-list-screen.md)
+    -   [List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/list-screen.md)
+    -   [Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/map-screen.md)
+    -   [URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/url-screen.md)
     In addition to these types, you can add the following screens to segments in your record screen:
 
     -   Details screen
@@ -125,6 +125,6 @@ This image represents the structure of the ServiceNow mobile framework. The next
 
     Functions are located on the Function \[sys\_sg\_button\] table.
 
-    For more information on functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
+    For more information on functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-mobile-button-types.md).
 
 

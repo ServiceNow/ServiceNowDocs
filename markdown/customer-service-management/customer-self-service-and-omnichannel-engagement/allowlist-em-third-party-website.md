@@ -2,7 +2,7 @@
 title: Enable Engagement Messenger on a website when third-party application cookies are blocked
 description: Configure a custom URL for the ServiceNow instance that helps prevent web browsers from blocking Engagement Messenger when cross-origin iframes and third-party cookies are blocked.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/allowlist-em-third-party-website.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/allowlist-em-third-party-website.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

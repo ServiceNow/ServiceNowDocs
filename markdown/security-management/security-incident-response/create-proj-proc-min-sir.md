@@ -2,7 +2,7 @@
 title: Create process mining project for security incidents
 description: Create a project in Process Mining Workspace using the pre-build process models definitions from the content pack to scan through audit logs of security incident records and identify inefficiencies in your security incident life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-proj-proc-min-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-proj-proc-min-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

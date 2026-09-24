@@ -2,7 +2,7 @@
 title: Space request approvals, states, actions, and key features
 description: As a space planner, execute the space allocation requests raised in the organization using the Workplace Central Space Optimization dashboard. Using the Workplace Central Space Optimization dashboard to avoid multiple tasks about checking the availability, allocating spaces manually, and other process involved while space planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/space-request-states-and-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/space-request-states-and-view.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -98,7 +98,7 @@ A space request has the following states:
     -   The deployment process is unsuccessful if any one workplace case is not implemented successfully, that is, if any one case is closed with the Closed incomplete state.
 -   **Closed complete**: If the deployment is successfully implemented, then the space request is closed and the state is set to Closed complete. If the deployment fails, then the space request is closed and the state is set to Closed incomplete.
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

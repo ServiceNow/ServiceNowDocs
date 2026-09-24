@@ -2,7 +2,7 @@
 title: Modify a non-self-served contract request
 description: As a requester, modify the contract request to update the request details or replace the attached contract document with an updated version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-update-nss-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-update-nss-contract.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -31,7 +31,7 @@ Role required: sn\_cm\_core.contract\_user
     |Action|Steps|
     |------|-----|
     |**Modify the request details**|Modify the fields of the non-self-served review request.|
-    |**Add and classify documents**|For more information, see [Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md) and [Reclassify contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)|
+    |**Add and classify documents**|For more information, see [Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md) and [Reclassify contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)|
     |**Delete documents**|In the Documents section, select the Delete icon \(\[Omitted image "lsd-tpc-delete.png"\] Alt text: Delete icon\) next to the document you want to delete.|
 
 3.  Select **Save** to update the record.

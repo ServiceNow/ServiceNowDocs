@@ -2,7 +2,7 @@
 title: Configure Service Graph Connector for Observability - Dynatrace using guided setup
 description: Use the Service Graph Connector for Observability - Dynatrace to ingest Configuration Management Database \(CMDB\) data from Dynatrace using REST APIs. This connector is the second generation of the Service Graph Connector for Observability - Dynatrace application developed by ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/configure-dynatrace-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/configure-dynatrace-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -24,8 +24,8 @@ To use this Service Graph Connector, you need a subscription to a Subscription U
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
@@ -35,7 +35,7 @@ Dependencies and requirements:
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Procedure
 
@@ -421,8 +421,8 @@ Dynatrace API Key.**Note:** The API Key must be prefixed with `api-token`.
     8.  If using a Grail-enabled tenant, select the OAuth 2.0 client credentials alias created earlier in the Add another OAuth connection task.
 
         1.  For the Link connection record with OAuth client credentials task, select **Configure**.
-        2.  In the **OAuth 2.0 Connection and Credentials Alias** field, search for and select the OAuth connection alias you created in the step [8.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-dynatrace-integration.md).
-        3.  In the **Service Graph connection record**, search for and select the connection record you created in step [8.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-dynatrace-integration.md).
+        2.  In the **OAuth 2.0 Connection and Credentials Alias** field, search for and select the OAuth connection alias you created in the step [8.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-dynatrace-integration.md).
+        3.  In the **Service Graph connection record**, search for and select the connection record you created in step [8.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-dynatrace-integration.md).
         4.  Select **Submit**.
         5.  Return to the guided setup page.
         6.  Set the Link connection record with OAuth client credentials task to complete by selecting **Mark as Complete**.

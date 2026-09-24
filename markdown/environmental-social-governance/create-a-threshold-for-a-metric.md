@@ -2,7 +2,7 @@
 title: Create a threshold for a metric
 description: Create thresholds for metrics and metric definitions to monitor performance. Thresholds serve as reference points based on specific criteria. Each threshold can be assigned a unique color and configured with conditions and subsequent actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-threshold-for-a-metric.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-threshold-for-a-metric.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Configure thresholds to define multiple performance levels, set specific ranges 
 
 **Important:**
 
-Threshold evaluation does not apply to ad hoc metric data tasks. For more information, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
+Threshold evaluation does not apply to ad hoc metric data tasks. For more information, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ Threshold evaluation does not apply to ad hoc metric data tasks. For more inform
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values, see [Metric Threshold form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/metric-threshold-form-fields.md).
+    For a description of the field values, see [Metric Threshold form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/metric-threshold-form-fields.md).
 
 6.  Select **Submit**.
 
@@ -55,5 +55,5 @@ Threshold evaluation does not apply to ad hoc metric data tasks. For more inform
 
 To add custom actions that trigger on threshold breach, see the [How to Add Custom Actions on Threshold Breach in GRC Metrics \[KB3072359\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB3072359) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-grc-metrics.md)
 

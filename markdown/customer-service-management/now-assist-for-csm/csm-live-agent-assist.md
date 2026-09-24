@@ -2,7 +2,7 @@
 title: Customer Service Management Live interaction recommendations AI agent for voice channel
 description: Live interaction recommendations AI agent is an agentic capability within ServiceNow Otto Customer Service Management \(CSM\) that provides real-time recommendations to human agents during live customer interactions on the voice channel. When a customer contacts a support agent, this AI agent analyzes the ongoing conversation transcript, retrieves relevant knowledge and customer context, and surfaces actionable recommendations directly within the CSM Configurable workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/csm-live-agent-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/csm-live-agent-assist.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -17,7 +17,7 @@ breadcrumb: [Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Ma
 
 Live interaction recommendations AI agent is an agentic capability within ServiceNow Otto® Customer Service Management \(CSM\) that provides real-time recommendations to human agents during live customer interactions on the voice channel. When a customer contacts a support agent, this AI agent analyzes the ongoing conversation transcript, retrieves relevant knowledge and customer context, and surfaces actionable recommendations directly within the CSM Configurable workspace.
 
-**Important:** Starting with v7.0 of Customer Service Management AI agent collection, the Live Agent Assist AI agent has been renamed to Live Interaction Recommendations AI agent. Some of its entities have also been renamed. For a list of old and new names, see [Renamed entities in Live Agent Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/live-agent-assist-renamed-entities.md).
+**Important:** Starting with v7.0 of Customer Service Management AI agent collection, the Live Agent Assist AI agent has been renamed to Live Interaction Recommendations AI agent. Some of its entities have also been renamed. For a list of old and new names, see [Renamed entities in Live Agent Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/live-agent-assist-renamed-entities.md).
 
 Live interaction recommendations AI agent reduces handle time, improves first-contact resolution, and helps agents deliver consistent, accurate responses throughout the live voice interaction.
 
@@ -42,7 +42,7 @@ Live interaction recommendations AI agent is triggered when the customer call la
 
     -   Queries the Knowledge Graph if additional customer details are required.
     -   Searches knowledge articles if recommendations need to be generated from a KB article.
-    For more information on the data sources, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/csm-live-agent-assist.md).
+    For more information on the data sources, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/csm-live-agent-assist.md).
 
 2.  Recommendation Generation: synthesizes results for the customer query from the customer context, KB article, and Knowledge Graph to generate actionable, cited recommendations for the agent.
 3.  Clarification Query Handling: manages scenarios where the transcript is ambiguous, presenting clarifying questions to the agent.
@@ -143,7 +143,7 @@ Procedure:
     The Otto panel appears with the interaction ID.
 
 2.  After you gather details about customer requirements, select the **Get Recommendations** button on the ServiceNow Otto panel.
-    -   The AI agent analyzes the conversation and generates recommendations or asks more questions. The processing icon appears while the agent processes the conversation before generating the next steps. If the customer asks multiple queries, you will be asked to choose the query you want to address first. You can pick a query and address one after another based on the customer's priority. For more information on how the recommendations are generated from the sources, see [Live interaction recommendations AI agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/csm-live-agent-assist.md).
+    -   The AI agent analyzes the conversation and generates recommendations or asks more questions. The processing icon appears while the agent processes the conversation before generating the next steps. If the customer asks multiple queries, you will be asked to choose the query you want to address first. You can pick a query and address one after another based on the customer's priority. For more information on how the recommendations are generated from the sources, see [Live interaction recommendations AI agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/csm-live-agent-assist.md).
     -   When the recommendations are generated for a query, the sources from which the recommendations are generated appear under the **Sources and more** section following the recommendations. You can open these sources for further details. When you select the **Sources and more** button, the ServiceNow Otto panel expands where you continue your conversation with the AI agent and view the list of sources.
 3.  As you progress through the conversation, select the **Get Recommendations** button to get the recommendations.
 4.  Clarification handling: If the AI Agent needs additional context before generating a recommendation, it displays clarifying questions with rendered option buttons, then waits for user selection.

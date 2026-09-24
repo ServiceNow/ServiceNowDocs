@@ -2,7 +2,7 @@
 title: Reopen an assessment
 description: Reopen an assessment to send out more questionnaires and document requests to collect required additional information from the third party or engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/trpm-reopen-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/trpm-reopen-assessment.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

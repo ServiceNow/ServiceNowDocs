@@ -2,7 +2,7 @@
 title: Import run history
 description: The import history gives status information about individual import operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_ImportRunHistory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/r\_ImportRunHistory.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -34,5 +34,5 @@ Error Codes are related to a transformation. Not all errors produce error codes.
 -   **800** Invalid target record or field.
 -   **900** Transform script error.
 
-**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

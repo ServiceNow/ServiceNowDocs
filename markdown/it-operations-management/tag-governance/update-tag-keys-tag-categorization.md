@@ -2,7 +2,7 @@
 title: Add or delete tag keys for Tag Categorization
 description: Tag keys define the values available within a tag category. Add or delete tag keys to keep your tag categorization structure current as data management and classification requirements change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/update-tag-keys-tag-categorization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/tag-governance/update-tag-keys-tag-categorization.html
 release: australia
 product: Tag Governance
 classification: tag-governance
@@ -18,7 +18,7 @@ Tag keys define the values available within a tag category. Add or delete tag ke
 
 ## Before you begin
 
-Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
+Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 Role required: tag\_governance\_admin
 

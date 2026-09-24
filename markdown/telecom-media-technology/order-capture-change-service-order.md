@@ -2,7 +2,7 @@
 title: Change a service order inventory record
 description: As a provider, learn how to change a service order inventory record in the ServiceNow AI Platform for your consumers.OM revamp project - This topic has been removed from the SOM bundle on Oct 14, 2025. Content has been covered in the new create-macd-orders.dita topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-capture-change-service-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-capture-change-service-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

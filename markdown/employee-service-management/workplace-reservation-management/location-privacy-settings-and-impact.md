@@ -2,7 +2,7 @@
 title: Location privacy settings and impact
 description: Set location privacy on workplace reservations and workplace profiles in your organization. Implement privacy throughout the organization or only on a building using the Workplace Service Delivery location privacy settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -67,14 +67,14 @@ The **Enable employee location privacy** field provides the following options:
 -   **Yes**: Select this option if you want to set privacy on the workplace profile.
 -   **No**: Select this option if you don’t want to set privacy on the workplace profile.
 
-To specify privacy on a workplace profile, refer to [Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md). The location privacy is implemented as follows:
+To specify privacy on a workplace profile, refer to [Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md). The location privacy is implemented as follows:
 
 -   If set you set the field as **Yes**, then privacy is set on the workplace profile.
 -   If you set the field as **No**, then the workplace profile isn't set as private. Even if the building to which the workplace profile is located has privacy enabled, the workplace profile will still remain private.
 
 ## Reservable module setting
 
-Apart from the location privacy settings that you make in the system properties or on a building, the application also enables you to make a setting on the reservable module. You can enable employees to set the space details as private while making reserving a space that belongs to the reservable module. Use the **Enable employees to make spaces as private** option to specify your location preference. For more information, refer to [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+Apart from the location privacy settings that you make in the system properties or on a building, the application also enables you to make a setting on the reservable module. You can enable employees to set the space details as private while making reserving a space that belongs to the reservable module. Use the **Enable employees to make spaces as private** option to specify your location preference. For more information, refer to [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 The privacy override of a space while making a reservation, depends on the following:
 
@@ -153,7 +153,7 @@ Depending on the location privacy preferences, the following areas are affected.
     If a reservation is made using the Reservable Sync Configuration, then the privacy is implemented on the reservation based on the privacy setup made on the building to which the space belongs.
 
 
-**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
+**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 **Related topics**  
 

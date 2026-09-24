@@ -2,7 +2,7 @@
 title: Delete a custom component
 description: Delete a component to remove a custom component and all its instances from the Web Embeddables application and websites. You can only delete custom components that are in a deactivated state. Once deleted, the custom components can’t be restored.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/delete-custom-comp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/delete-custom-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -18,7 +18,7 @@ Delete a component to remove a custom component and all its instances from the W
 
 ## Before you begin
 
-You must create a custom component. For more information, see [Create a custom component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-custom-comp.md).
+You must create a custom component. For more information, see [Create a custom component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-custom-comp.md).
 
 Role required: sn\_embeddable\_core.emb\_admin
 

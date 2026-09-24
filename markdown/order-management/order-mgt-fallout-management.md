@@ -2,7 +2,7 @@
 title: Fallout Management data model
 description: Manage and fix the processing issues that occur during the fulfillment of a customer or service order. With Fallout Management, you can identify the order processing exceptions and create a fallout record to investigate and resolve the underlying processing issue. Fallout Management enables a customer or service order to continue until it's completed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-fallout-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-fallout-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -122,14 +122,14 @@ Attachments
 File attachments for the fallout record. Select **Browse** to add the file as an attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-reference.md)
 
 **Related topics**  
 
 
-[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)
+[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/fallout-management-overview.md)
 
-[Creating automated fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-automated-manual-fallout-records.md)
+[Creating automated fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/creating-automated-manual-fallout-records.md)
 
 [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 

@@ -2,7 +2,7 @@
 title: Isolate a layer in the CAD editor
 description: CAD editor provides the ability to isolate a layer from multiple layers while editing your CAD file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/isolate-layer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/isolate-layer.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -45,7 +45,7 @@ Role required: admin
     **Note:** Blocks can’t be edited but attributes within a block can be edited.
 
 
-**Parent Topic:**[Configure CAD objects using the CAD Editor tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/cad-editor-v2-ovw.md)
+**Parent Topic:**[Configure CAD objects using the CAD Editor tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/cad-editor-v2-ovw.md)
 
 **Related topics**  
 

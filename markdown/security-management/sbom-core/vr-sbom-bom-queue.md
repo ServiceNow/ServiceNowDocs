@@ -2,7 +2,7 @@
 title: View upload status for Software Bill of Materials files
 description: Check the upload status for the Software Bill of Materials \(SBOM\) files that you upload in the BOM Queue module in the Software Bill of Materials \(SBOM\) Workspace. Track the files that you upload successfully, your upload history, and errors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-bom-queue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sbom-core/vr-sbom-bom-queue.html
 release: australia
 product: SBOM Core
 classification: sbom-core

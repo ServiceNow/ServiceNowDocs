@@ -2,7 +2,7 @@
 title: Create a report
 description: On instance upgraded to Australia, you can create Core UI reports in the legacy Report Designer tool to visualize and analyze current instance data or temporary data that you have imported.Enter a question on the Report Designer form, and Analytics Q&amp;A generates a report. Analytics Q&amp;A gives you a choice of data sources and picks an appropriate visualization.When you edit a form, you can also choose to save, share, run, delete, or view more information about the report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_CreateYourOwnReport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_CreateYourOwnReport.html
 release: australia
 product: Reporting
 classification: reporting
@@ -38,7 +38,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 </td><td>
 
-**All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select a report with the UI version **Core**. Edit the report according to its type. For more information, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
+**All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select a report with the UI version **Core**. Edit the report according to its type. For more information, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 </td></tr><tr><td id="d203009e149">
 
@@ -63,15 +63,15 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboar
 
     The report is generated.
 
-    **Note:** For details on creating a specific report type, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
+    **Note:** For details on creating a specific report type, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 
 
-[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md)
+[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_EditADashboard.md)
 
 ## Create a report with Analytics Q&amp;A
 
@@ -81,9 +81,9 @@ Enter a question on the Report Designer form, and Analytics Q&amp;A generates a 
 
 Analytics Q&amp;A requires Natural Language Query \(NLQ\).
 
-NLQ also must be enabled for use with the Report Designer, in [Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-properties.md). Check with your administrator.
+NLQ also must be enabled for use with the Report Designer, in [Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-properties.md). Check with your administrator.
 
-**Note:** This topic refers to Reporting in the Core UI. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
+**Note:** This topic refers to Reporting in the Core UI. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
 
 Analytics Q&amp;A is not available when using Microsoft Internet Explorer.
 
@@ -127,7 +127,7 @@ When you edit a form, you can also choose to save, share, run, delete, or view m
 
 **Note:**
 
-On net new Australia instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
+On net new Australia instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
 
 All actions are available from the upper right side of the form, from the **Save** and **Share** lists and the **Info**, **Delete**, and **Run** buttons. Available report options vary depending on the role of the user working with the report.
 
@@ -171,7 +171,7 @@ Share
 
 </td><td>
 
-Enables you to set the visibility of the report. Options are **Me**, **Everyone**, and **Groups and Users**. See [Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ShareASetting.md) for more information on sharing.This option is available from the Sharing icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\).
+Enables you to set the visibility of the report. Options are **Me**, **Everyone**, and **Groups and Users**. See [Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_ShareASetting.md) for more information on sharing.This option is available from the Sharing icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\).
 
 </td></tr><tr><td>
 
@@ -187,7 +187,7 @@ Add to Dashboard
 
 </td><td>
 
-Adds the current report to a dashboard. For details on how to edit reports and other dashboard content, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md).
+Adds the current report to a dashboard. For details on how to edit reports and other dashboard content, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_EditADashboard.md).
 
 </td></tr><tr><td>
 
@@ -259,7 +259,7 @@ Save as data source
 
 </td><td>
 
-Opens the [Create new report source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportSources.md) window in which you can save the report conditions as a report source that can be reused for other reports.
+Opens the [Create new report source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_ReportSources.md) window in which you can save the report conditions as a report source that can be reused for other reports.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -277,5 +277,5 @@ Creates the report based on the conditions and layout you select.
 </table>**Related topics**  
 
 
-[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 

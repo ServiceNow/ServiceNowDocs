@@ -2,7 +2,7 @@
 title: Task activity timeline preset and controller
 description: Use the Task activity timeline preset and controller to add the Timeline component as a standalone component on task record pages such as case or incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-record-page-timeline-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-record-page-timeline-component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ The timeline uses icons to display record events and colors to show ranges of ti
 -   Select the **Show details** toggle to display more information.
 -   Hover over the icons to show tool tips.
 
-For more information about the timeline features, see [CSM Configurable Workspace form ribbon and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-agent-workspace-ribbon.md).
+For more information about the timeline features, see [CSM Configurable Workspace form ribbon and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-agent-workspace-ribbon.md).
 
 \[Omitted image "component-timeline.png"\] Alt text: The timeline component shows record activities, the duration of each activity, and who performed the activity using colors and icons.
 
@@ -28,6 +28,6 @@ The [Timeline component](https://horizon.servicenow.com/workspace/components/sn-
 
 To add the Timeline component to a record page as a standalone component, the admin can select the **Task activity timeline preset and controller** and complete the component configuration. For more information, see the following topics:
 
--   [Add the Timeline component as a standalone component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-timeline-component-as-standalone.md)
--   [Enable the Timeline component to refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-timeline-component-to-refresh.md)
+-   [Add the Timeline component as a standalone component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/add-timeline-component-as-standalone.md)
+-   [Enable the Timeline component to refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-timeline-component-to-refresh.md)
 

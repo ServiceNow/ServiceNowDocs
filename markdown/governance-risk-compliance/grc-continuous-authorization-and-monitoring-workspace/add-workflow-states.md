@@ -2,7 +2,7 @@
 title: Create GRC workflow states
 description: Add Governance, Risk, and Compliance workflow states to a state model to define the individual steps in your workflow. Each workflow state represents a phase in the authorization package life cycle and determines what you can do at that stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-workflow-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-workflow-states.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -72,10 +72,10 @@ The workflow states appear in the workflow states related list on the state mode
 
 ## What to do next
 
-[Configure transition between state models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-state-transitions.md)
+[Configure transition between state models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-state-transitions.md)
 
--   **[Configure transition between state models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-state-transitions.md)**  
+-   **[Configure transition between state models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-state-transitions.md)**  
 Create state model transitions to define valid paths between workflow states. State model transitions control how authorization packages move from one step to another and verify that packages follow the correct sequence through your workflow.
 
-**Parent Topic:**[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-create-state-model.md)
+**Parent Topic:**[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-create-state-model.md)
 

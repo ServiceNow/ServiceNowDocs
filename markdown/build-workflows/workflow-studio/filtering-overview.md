@@ -2,7 +2,7 @@
 title: Filter decision tables
 description: Apply filters to condition and result columns in the Decision Tables in Workflow Studio to view, modify, and reorder a subset of rows without exporting the table to Excel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/filtering-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/filtering-overview.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

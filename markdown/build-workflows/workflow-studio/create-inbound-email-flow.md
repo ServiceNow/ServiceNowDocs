@@ -2,7 +2,7 @@
 title: Create a flow with an inbound email trigger
 description: Start a flow when your instance receives an email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-inbound-email-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-inbound-email-flow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -47,20 +47,20 @@ Role required: flow\_designer or admin
 
 9.  Add stages to the flow to report progress to the requester.
 
-    See [Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-stages.md).
+    See [Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-designer-stages.md).
 
 10. Test the flow.
 
-    To test access controls for an inbound email flow, impersonate a typical inbound email user and manually trigger the flow.. For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+    To test access controls for an inbound email flow, impersonate a typical inbound email user and manually trigger the flow.. For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-test.md).
 
 11. If the test is successful, activate the flow.
 
-    For more information, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
+    For more information, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-activate.md).
 
 
 ## Result
 
 When an inbound email meets the conditions that you set, the associated flow triggers and runs the actions.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

@@ -2,7 +2,7 @@
 title: Delete a card from the Desktop Assistant home page
 description: Delete a card from the Desktop Assistant home page when you no longer need it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/delete-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/delete-card.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

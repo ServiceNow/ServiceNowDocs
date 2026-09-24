@@ -2,7 +2,7 @@
 title: Issue form on Project Workspace
 description: Learn about the fields on the Issue form of the Project Workspace. Use this form to add an issue to your projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/issue-form-project-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/issue-form-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -133,5 +133,5 @@ Work notes
 Information to record and track the work accomplished for resolving the issue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
+</table>**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
 

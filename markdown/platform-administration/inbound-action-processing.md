@@ -2,7 +2,7 @@
 title: Inbound email action processing
 description: The system determines which inbound actions to run by comparing the inbound email type and inbound action conditions to the incoming email message. Certain properties are available to set the reply and forwarding prefixes in the email subject lines that your instance recognizes when processing inbound emails.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/inbound-action-processing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/inbound-action-processing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -111,8 +111,8 @@ The following examples illustrate how the instance matches randomized watermarks
 
 |Subject Line or Body Contents|Matching Results|
 |-----------------------------|----------------|
-|Ref:MSG0000008\_ aLJc130zDhCVuh3spXmt|The instance recognizes this string as a watermark and searches the Email Watermarks \[sys\_watermark\] table for a record with the number MSG0000008\_ aLJc130zDhCVuh3spXmt. If this watermark exists, the instance matches the email to the associated record. If this watermark does not exist, the system processes inbound email messages as described in [Criteria for matching email to inbound actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/inbound-action-type-criteria.md).|
-|Ref:MSGWTR0000008\_wfLLz42IxCgUvG2JlYnh|The instance recognizes this string as a watermark and searches the Email Watermarks \[sys\_watermark\] table for a record with the number MSGWTR0000008\_wfLLz42IxCgUvG2JlYnh. If this watermark exists, the instance matches the email to the associated record. If this watermark does not exist, the system processes inbound email messages as described in [Criteria for matching email to inbound actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/inbound-action-type-criteria.md).|
+|Ref:MSG0000008\_ aLJc130zDhCVuh3spXmt|The instance recognizes this string as a watermark and searches the Email Watermarks \[sys\_watermark\] table for a record with the number MSG0000008\_ aLJc130zDhCVuh3spXmt. If this watermark exists, the instance matches the email to the associated record. If this watermark does not exist, the system processes inbound email messages as described in [Criteria for matching email to inbound actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/inbound-action-type-criteria.md).|
+|Ref:MSGWTR0000008\_wfLLz42IxCgUvG2JlYnh|The instance recognizes this string as a watermark and searches the Email Watermarks \[sys\_watermark\] table for a record with the number MSGWTR0000008\_wfLLz42IxCgUvG2JlYnh. If this watermark exists, the instance matches the email to the associated record. If this watermark does not exist, the system processes inbound email messages as described in [Criteria for matching email to inbound actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/inbound-action-type-criteria.md).|
 
 ## Matching record numbers in the Subject line or Body
 
@@ -179,5 +179,5 @@ Example INC0005574
 The instance recognizes this subject as a new email because it does not contain a matching reply or forward prefix. It uses the inbound action for new emails to create an incident and associates the new incident with the email.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/actions-inbound-email.md)
+</table>**Parent Topic:**[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/actions-inbound-email.md)
 

@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP standard remote and extraction tables
 description: Standard enterprise resource planning \(ERP\) remote tables and extraction tables are available in Zero Copy Connector for ERP.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

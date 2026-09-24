@@ -2,7 +2,7 @@
 title: Related information
 description: Find more information about the Network Intrusion Detection System \(NIDS\) extension class, OT extension classes, and related applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/otm-related-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/otm-related-information.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -36,5 +36,5 @@ The extension classes help you understand how Operational Technology Management 
     The CMDB CI Class Models store app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships.
 
 
-**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

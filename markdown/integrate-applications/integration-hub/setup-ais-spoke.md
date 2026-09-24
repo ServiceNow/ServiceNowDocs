@@ -2,7 +2,7 @@
 title: Set up the AI Search spoke
 description: Configure the AI Search spoke to index content from a third-party application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ais-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-ais-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

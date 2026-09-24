@@ -2,7 +2,7 @@
 title: Invoice Case Management
 description: Invoice case management enables agents to resolve invoice discrepancies and exceptions in the Source-to-Pay Workspace through structured workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/acc-pay-case-mgmt-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-case-mgmt-overview.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -17,7 +17,7 @@ breadcrumb: [Explore, Accounts Payable Operations, Finance and Supply Chain]
 
 Invoice case management enables agents to resolve invoice discrepancies and exceptions in the Source-to-Pay Workspace through structured workflows.
 
-Invoice Case Management \(com.sn\_ap\_cm\) is a dependent application and is automatically installed along with the Accounts Payable Operations \(com.sn\_ap\_apm\) application. However, you can also install Invoice Case Management independently. For more information, see [Install Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.md).
+Invoice Case Management \(com.sn\_ap\_cm\) is a dependent application and is automatically installed along with the Accounts Payable Operations \(com.sn\_ap\_apm\) application. However, you can also install Invoice Case Management independently. For more information, see [Install Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.md).
 
 The agent \[sn\_ap\_cm.agent\] and Invoice Case Management administrator \[sn\_ap\_cm.admin\] roles can access the Invoice Case Management application.
 
@@ -25,7 +25,7 @@ Open the Invoice Case Management application by navigating to **All** &gt; **Acc
 
 **Note:** Check your entitlements to determine whether you have access to Invoice case management.
 
-**Parent Topic:**[Explore Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.md)
+**Parent Topic:**[Explore Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Authentication and document access in policy authoring
 description: Policy authoring now supports a hybrid authentication model that combines a shared system account with personal user credentials to enable document operations in Microsoft SharePoint and Google Drive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/personal-auth-and-document-access-policy-authoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/personal-auth-and-document-access-policy-authoring.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

@@ -2,7 +2,7 @@
 title: View and manage alerts
 description: Business Continuity Management integrates with the Crisis Map to provide you the capability of identifying a threat and its geolocation from your asset locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-interface-bcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/crisis-map-interface-bcm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

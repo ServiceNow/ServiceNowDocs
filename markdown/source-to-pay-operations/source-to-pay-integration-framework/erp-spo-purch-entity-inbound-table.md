@@ -2,7 +2,7 @@
 title: Purchase Entity Stage inbound staging table
 description: The Purchase Entity Stage inbound \[sn\_fcms\_intg\_imp\_purchase\_entity\] staging table temporarily stores important data about purchase entities before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-purch-entity-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-purch-entity-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

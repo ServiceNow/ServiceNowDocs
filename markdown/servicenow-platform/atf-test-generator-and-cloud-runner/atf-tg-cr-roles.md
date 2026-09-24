@@ -2,7 +2,7 @@
 title: ATF Test Generator and Cloud Runner roles
 description: ATF Test Generator and Cloud Runner is installed with these roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-roles.html
 release: australia
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
@@ -18,8 +18,8 @@ ATF Test Generator and Cloud Runner is installed with these roles.
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
--   **[System Administrator \[admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-roles-1.md)**  
+-   **[System Administrator \[admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-roles-1.md)**  
 The admin role is required to access and use the ATF Test Generator and Cloud Runner store application.
 
-**Parent Topic:**[ATF Test Generator and Cloud Runner reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-ref.md)
+**Parent Topic:**[ATF Test Generator and Cloud Runner reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-ref.md)
 

@@ -2,7 +2,7 @@
 title: Create a machine identity access control
 description: Enable administrators to define and enforce granular control for integration users by introducing User Access Profiles. This feature provides an additional layer of security and control, allowing admins to specify the exact resources \(REST APIs and SOAP APIs\) that an integration user can access, ensuring tighter governance and minimizing security risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/create-a-machine-identity-access-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/create-a-machine-identity-access-control.html
 release: australia
 product: Access Control
 classification: access-control

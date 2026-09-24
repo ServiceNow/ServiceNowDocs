@@ -2,7 +2,7 @@
 title: Integrating Operational Sustainability Management \(formerly ESG\) with Workday
 description: The Operational Sustainability Integration with Workday plugin enables users to import HR data that is required for operational sustainability reporting from Workday into the Operational Sustainability Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/integrate-esg-with-workday.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/integrate-esg-with-workday.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

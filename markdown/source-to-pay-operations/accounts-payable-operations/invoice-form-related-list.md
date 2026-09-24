@@ -2,7 +2,7 @@
 title: Invoice form tabs
 description: Descriptions of the tabs on the Invoice form, including details, invoice lines, exceptions, payments, and related records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-form-related-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-form-related-list.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -82,5 +82,5 @@ Goods receipts
 Displays the corresponding goods receipt information for the invoice.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)
+</table>**Parent Topic:**[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)
 

@@ -2,7 +2,7 @@
 title: View workplace scenarios
 description: Track the number of scenarios created in your workplace. View the scenarios that are in the published state, in the draft state, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-space-optimization-board.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/view-space-optimization-board.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -22,7 +22,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
 ## About this task
 
-View the scenarios created in your workplace using the Space optimization module. The Space optimization module provides you with metrics for scenarios based on their current state. You get a list of total scenarios and of scenarios that were created based on buildings. At any time, you can monitor the status of a scenario by checking the Space optimization module. For more information about the Space optimization module, refer to [Space Optimization - Key features and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/space-optmization-features-and-actions-.md).
+View the scenarios created in your workplace using the Space optimization module. The Space optimization module provides you with metrics for scenarios based on their current state. You get a list of total scenarios and of scenarios that were created based on buildings. At any time, you can monitor the status of a scenario by checking the Space optimization module. For more information about the Space optimization module, refer to [Space Optimization - Key features and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/space-optmization-features-and-actions-.md).
 
 ## Procedure
 
@@ -65,7 +65,7 @@ View the scenarios created in your workplace using the Space optimization module
         The **Buildings** tab opens.
 
 
-**Parent Topic:**[Manage Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/manage-workplace-central.md)
+**Parent Topic:**[Manage Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/manage-workplace-central.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Change the order of flow execution
 description: Integration capability implementations specify the flow to be executed. In the base system, flows are executed sequentially, in the order specified in the implementation. You can change the order as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/change-wf-execution-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/change-wf-execution-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Role required: sn\_sec\_cmn.write
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Integration capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/integration-capabilities.md)
+**Parent Topic:**[Integration capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/integration-capabilities.md)
 
 **Related topics**  
 

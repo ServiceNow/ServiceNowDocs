@@ -2,7 +2,7 @@
 title: Manage a business contact or related party from an Application
 description: Additional business contacts can be edited or removed by a government service agent before a license or permit case reaches the Process stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-multi-party-remove-business-contact.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-multi-party-remove-business-contact.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

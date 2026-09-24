@@ -2,7 +2,7 @@
 title: Deploy the Microsoft Viva integrations package in Microsoft SharePoint
 description: Deploy the Microsoft Viva integrations package in the Microsoft SharePoint admin center to enable the display of card details in the Microsoft Viva dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/deploy-viva-sharepoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/deploy-viva-sharepoint.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -37,5 +37,5 @@ Role required: SharePoint administrator
 7.  Select **Enable app**.
 
 
-**Parent Topic:**[Managing Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-viva.md)
+**Parent Topic:**[Managing Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/manage-viva.md)
 

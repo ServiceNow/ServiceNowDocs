@@ -2,7 +2,7 @@
 title: Script includes installed
 description: These script includes are installed with the Client Software Distribution plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-script-incl-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd-script-incl-installed.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -89,5 +89,5 @@ CSDDemoDataUtilAjax
 Populates demo data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/comp-installed-csd-ihub.md)
+</table>**Parent Topic:**[Components installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/comp-installed-csd-ihub.md)
 

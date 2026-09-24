@@ -2,7 +2,7 @@
 title: Close an Asset put away task
 description: Add the asset drop-off location for an open Asset put away task and close it in the Hardware Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/close-put-away-task-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/close-put-away-task-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -82,5 +82,5 @@ Description
 -   Closed tasks aren’t displayed in the Open put away tasks list.
 -   The task closure is captured in the **Activity** tab. The name of the user who closed the task is shown in the work notes.
 
-**Parent Topic:**[Manage asset put away using the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+**Parent Topic:**[Manage asset put away using the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
 

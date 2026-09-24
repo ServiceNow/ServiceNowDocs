@@ -2,7 +2,7 @@
 title: Test the ServiceNow components without setting up a custom URL
 description: Enables you to test the ServiceNow components on your sandbox instance without setting up a custom URL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/test-sn-comp-without-custom-url.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/test-sn-comp-without-custom-url.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

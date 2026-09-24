@@ -2,7 +2,7 @@
 title: Select a field as the table display value
 description: Only one field can be defined as the display value for a table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SelectTheDisplayValue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_SelectTheDisplayValue.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

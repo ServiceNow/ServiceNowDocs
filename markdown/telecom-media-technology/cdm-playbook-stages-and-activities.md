@@ -2,7 +2,7 @@
 title: CDM playbook stages and activities
 description: The Customer Dispute Management \(CDM\) case includes stages and activities that guide dispute resolution from intake through closure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/cdm-playbook-stages-and-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/cdm-playbook-stages-and-activities.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-28"

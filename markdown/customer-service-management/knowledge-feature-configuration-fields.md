@@ -2,7 +2,7 @@
 title: Knowledge feature configuration
 description: Understand the configuration and related lists of the Knowledge feature in Engagement Messenger to configure the field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/knowledge-feature-configuration-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/knowledge-feature-configuration-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

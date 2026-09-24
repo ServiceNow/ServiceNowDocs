@@ -2,7 +2,7 @@
 title: Quick start tests for Knowledge Management
 description: Validate that Knowledge Management still works after you make any configuration change, such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/quick-start-tests-knowledge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/quick-start-tests-knowledge.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

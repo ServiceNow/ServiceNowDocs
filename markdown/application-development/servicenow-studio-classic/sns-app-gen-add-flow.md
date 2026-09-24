@@ -2,7 +2,7 @@
 title: Add a flow to a custom application with app generation
 description: Add a flow to a custom application by asking ServiceNow Otto. Describe what you want the flow to do, or ask ServiceNow Otto for suggestions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-app-gen-add-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-app-gen-add-flow.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -19,7 +19,7 @@ Add a flow to a custom application by asking ServiceNow Otto®. Describe what yo
 
 ## Before you begin
 
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md).
 
 Role required: now\_assist\_panel\_user
 
@@ -55,8 +55,8 @@ Use the app generation skill to add one or more flows to a custom application wh
 
 9.  Preview and save the application to view the new flow.
 
-    For more information, see [Review and edit applications built using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-review-apps.md).
+    For more information, see [Review and edit applications built using app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-review-apps.md).
 
 
-**Parent Topic:**[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)
+**Parent Topic:**[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)
 

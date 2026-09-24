@@ -2,7 +2,7 @@
 title: Zing can expand search results with synonyms
 description: Expand search results to include additional search terms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/search-synonyms-expand-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/search-synonyms-expand-results.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -37,18 +37,18 @@ By default, synonyms don't use the same weight as regular search terms. Synonyms
 
 Zing doesn't expand the `%` and `*` wildcard characters when looking for synonyms that match your search term. These characters are treated as literal characters when finding matching synonyms. As an example, if you search for `issu*`, Zing doesn't find synonyms for `issue`, but it does find synonyms for `issu*`.
 
--   **[Enable search synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/enable-text-index-synonyms.md)**  
+-   **[Enable search synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/enable-text-index-synonyms.md)**  
 Enabling text index synonyms allows Zing to expand text searches with additional search keywords.
--   **[Create synonym dictionaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-synonym-dictionaries.md)**  
+-   **[Create synonym dictionaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-synonym-dictionaries.md)**  
 You can create synonym dictionaries to expand Zing text searches with additional search keywords.
--   **[Select synonym dictionaries for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/select-synonym-dictionaries.md)**  
+-   **[Select synonym dictionaries for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/select-synonym-dictionaries.md)**  
 Search administrators can specify one or more synonym dictionaries available to a particular table.
--   **[Disable synonyms for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/disable-synonyms-for-a-table.md)**  
+-   **[Disable synonyms for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/disable-synonyms-for-a-table.md)**  
 By default, Zing uses all active synonym dictionaries when a user performs a text search. Search administrators can disable synonym dictionary usage on a per-table basis.
--   **[Debug synonym searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/debug-synonym-searches.md)**  
+-   **[Debug synonym searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/debug-synonym-searches.md)**  
 You can view debug messages to determine if synonym searches are working as expected.
 
-**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 

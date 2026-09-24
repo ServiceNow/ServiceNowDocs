@@ -2,7 +2,7 @@
 title: Grouping assessments for control attestations
 description: Control attestation feature is enhanced to display all the control related information in the assessment page. You can also group assessments for a user and combine them together. Therefore, all assessments that the user has to assess can be done together without having to assess one after the other.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/combined-assessments-control-attest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/combined-assessments-control-attest.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -38,5 +38,5 @@ When you open an assessment in the **Details** pane on the right, the following 
 
 You can group a list of assessments assigned to a particular user as Combined Assessments and assign a new name for the grouped assessments.
 
-To group assessments, see [Combine assessments for control attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assess-combine-attest.md).
+To group assessments, see [Combine assessments for control attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/smart-assess-combine-attest.md).
 

@@ -2,7 +2,7 @@
 title: Integrating Microsoft 365 with Management Reporting of Risk
 description: The Management Reporting of Risk \(sn\_grc\_mgmt\_report\) integration provides reporting capabilities to Risk reporting managers to report ServiceNow Risk Management system data, list reports, charts, pivot, and multi-pivot reports using Microsoft Word.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/integrating-o365-with-management-reporting-of-risk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/integrating-o365-with-management-reporting-of-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

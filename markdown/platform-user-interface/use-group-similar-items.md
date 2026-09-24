@@ -2,7 +2,7 @@
 title: Use Group similar items
 description: Use AI to group similar records in a list based on their short descriptions and generate a group summary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-group-similar-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/use-group-similar-items.html
 release: australia
 topic_type: task
 last_updated: "2026-08-27"

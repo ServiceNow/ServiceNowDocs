@@ -2,7 +2,7 @@
 title: Components installed with Health and Safety Core
 description: Several types of components are installed with installation of the Health and Safety Core data model, including tables, user roles, and scheduled jobs. This data model is automatically installed with Health and Safety applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/components-installed-hs-core.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/components-installed-hs-core.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -144,7 +144,7 @@ Safety compliance manager
 
 Administrator for Health and Safety reporting-related tasks who can:-   Manage list of establishments
 -   Review and determine which injuries and illnesses are recordable
--   Access and manage report generation such as OSHA 300 log, 300A summary, and 301 incident reports. For more information, see [Health and Safety injury and illness reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/injury-illness-reports.md).
+-   Access and manage report generation such as OSHA 300 log, 300A summary, and 301 incident reports. For more information, see [Health and Safety injury and illness reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/injury-illness-reports.md).
 
 </td><td>
 
@@ -810,7 +810,7 @@ AI action suggestion
 
 </td><td>
 
-Staging table that stores all AI-suggested actions that are generated in the Action Planner.This table is installed only when the ServiceNow Otto for Health and Safety \(sn\_hs\_gen\_ai\) application is installed on your instance. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
+Staging table that stores all AI-suggested actions that are generated in the Action Planner.This table is installed only when the ServiceNow Otto for Health and Safety \(sn\_hs\_gen\_ai\) application is installed on your instance. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
 
 </td></tr><tr><td>
 
@@ -820,7 +820,7 @@ Health and Safety document \(Deprecated\)
 
 </td><td>
 
-Stores Health and Safety related documents. This table has been deprecated.**Note:** All Health and Safety related documents are now stored in the Health and Safety document \[sn\_ohs\_im\_document\_v2\] table. For information on migrating your existing safety documents from the deprecated table into the new Health and Safety document \[sn\_ohs\_im\_document\_v2\] table, see [Migrate existing safety documents to the Document library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-migrate-sync-existing-safety-document-docs-library.md).
+Stores Health and Safety related documents. This table has been deprecated.**Note:** All Health and Safety related documents are now stored in the Health and Safety document \[sn\_ohs\_im\_document\_v2\] table. For information on migrating your existing safety documents from the deprecated table into the new Health and Safety document \[sn\_ohs\_im\_document\_v2\] table, see [Migrate existing safety documents to the Document library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-migrate-sync-existing-safety-document-docs-library.md).
 
 </td></tr><tr><td>
 
@@ -860,7 +860,7 @@ Asset
 
 </td><td>
 
-Maps Health and Safety task \[sn\_ohs\_im\_task\] to Enterprise Asset​ to track assets involved in incidents​ and observations.**Note:** Installs only when Expanded Model and Asset Classes \[sn\_ent\] application is installed. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
+Maps Health and Safety task \[sn\_ohs\_im\_task\] to Enterprise Asset​ to track assets involved in incidents​ and observations.**Note:** Installs only when Expanded Model and Asset Classes \[sn\_ent\] application is installed. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
 
 </td></tr><tr><td>
 
@@ -1013,7 +1013,7 @@ Health and Safety visitor
 Stores records of all visitors that have visited your organization or site.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-core-reference.md)
+</table>**Parent Topic:**[Health and Safety Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-core-reference.md)
 
 **Related topics**  
 

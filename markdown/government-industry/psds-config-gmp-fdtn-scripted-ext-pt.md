@@ -2,7 +2,7 @@
 title: Configure scripted extension points in Grants Management
 description: Enable publishing of grant programs and authorized representative activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-17"
@@ -57,9 +57,9 @@ Role required: admin
 
 The publishing extension point is implemented. Grant programs and authorized representative activities can now be published. Publishing a grant program moves it to the Accepting Applications state and makes it available to contacts for proposals.
 
-**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-foundation.md)
+**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-foundation.md)
 
-**Previous topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-foundation.md)
+**Previous topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-foundation.md)
 
-**Next topic:**[Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)
+**Next topic:**[Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)
 

@@ -2,7 +2,7 @@
 title: LLM topic block for Conversational Catalog Requests
 description: The LLM topic block is a Virtual Agent topic component that connects a conversational catalog request to ServiceNow Otto. It enables generative AI to interpret requester input during the conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_llm\_topic\_block\_ccr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/c\_llm\_topic\_block\_ccr.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -31,5 +31,5 @@ The LLM topic block offers the following benefits in Conversational Catalog Requ
 -   Enables a single conversational topic to resolve requests across multiple catalog categories, reducing the number of Virtual Agent topics a designer must maintain.
 -   Transfers conversation context from the Virtual Agent session to ServiceNow Otto, so the AI response reflects what the requester has already described rather than starting from an empty prompt.
 
-**Parent Topic:**[Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/explore.md)
+**Parent Topic:**[Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/explore.md)
 

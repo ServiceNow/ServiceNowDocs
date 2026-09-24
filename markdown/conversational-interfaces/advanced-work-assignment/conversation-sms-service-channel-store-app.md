@@ -2,7 +2,7 @@
 title: Conversational SMS service channel
 description: Using the Conversational SMS service channel app on the ServiceNow Store, workspace agents can provide support for long-running SMS conversations and conversations that use multiple service channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/conversation-sms-service-channel-store-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/conversation-sms-service-channel-store-app.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

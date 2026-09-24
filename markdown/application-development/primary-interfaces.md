@@ -2,7 +2,7 @@
 title: Primary interfaces
 description: The primary way for users to interact with a data model is through forms and lists or through mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/primary-interfaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/primary-interfaces.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -52,5 +52,5 @@ Self-paced training: [Mobile Applications](https://developer.servicenow.com/dev.
 
 Other resources: [Mobile Resources](https://community.servicenow.com/community?id=community_blog&sys_id=98855a4edba9fbc0fece0b55ca9619e0)
 
-**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-design-elements.md)
+**Parent Topic:**[Create design elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-design-elements.md)
 

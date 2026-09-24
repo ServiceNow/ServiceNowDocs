@@ -2,7 +2,7 @@
 title: Vault Suite
 description: Vault Suite deploys the complete set of ServiceNow Vault capabilities on your instance automatically, eliminating manual plugin setup.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/vault-suite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/vault-suite.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-25"
@@ -140,7 +140,7 @@ com.glide.platform.cloud\_encryption
 Encrypts data at rest at the cloud platform level.**Note:** Cloud Encryption is not installed automatically with Vault Suite because the product plugin is installed when a new instance is provisioned. To add Cloud Encryption to a previously provisioned instance, see [KB1117369](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1117369).
 
 </td></tr></tbody>
-</table>**Note:** To install Vault Suite, check your entitlements to determine whether you have the ServiceNow Vault subscription, then request it from the ServiceNow Store. For installation steps, see [Install Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/install-vault-suite.md).
+</table>**Note:** To install Vault Suite, check your entitlements to determine whether you have the ServiceNow Vault subscription, then request it from the ServiceNow Store. For installation steps, see [Install Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/install-vault-suite.md).
 
-**Parent Topic:**[Exploring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-servicenow-vault.md)
+**Parent Topic:**[Exploring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/exploring-servicenow-vault.md)
 

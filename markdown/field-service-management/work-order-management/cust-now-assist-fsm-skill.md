@@ -2,7 +2,7 @@
 title: Customize a KB generation skill in ServiceNow Otto for Field Service Management \(FSM\)
 description: As an admin, you can clone the KB generation skill and customize the input fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/cust-now-assist-fsm-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/cust-now-assist-fsm-skill.html
 release: australia
 product: Work Order Management
 classification: work-order-management

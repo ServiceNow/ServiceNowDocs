@@ -2,7 +2,7 @@
 title: Integrate ServiceNow voice assistant with a custom SIP provider
 description: Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with a custom Session Initiation Protocol \(SIP\) provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-voice-service-with-custom-sip.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-voice-service-with-custom-sip.html
 release: australia
 topic_type: task
 last_updated: "2026-08-24"
@@ -17,7 +17,7 @@ Enable users to get support from AI voice agents by integrating a ServiceNow voi
 
 ## Before you begin
 
--   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md) for more information.
+-   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-an-ai-voice-service.md) for more information.
 -   Access to your SIP-capable telephony system with permissions to configure SIP trunks.
 
 Role required: sn\_aia.admin
@@ -76,5 +76,5 @@ Connect any SIP-capable telephony system to a ServiceNow voice assistant using t
 
 Your custom SIP provider is connected to the ServiceNow voice assistant. Incoming calls routed through your SIP trunk are handled by the AI voice agent. When call handling is complete, the voice assistant transfers or terminates the call according to the configured transfer method.
 
-**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
+**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
 

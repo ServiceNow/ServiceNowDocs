@@ -2,7 +2,7 @@
 title: Intelligent Task Recommendations components
 description: Several types of components are installed with the Intelligent Task Recommendations components feature, including tables and business rules.Intelligent Task Recommendations uses the following properties.There are two types of recommendation criteria, filter constraints and ranking criteria. The system provides a set of predefined criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/fsm-task-recommendation-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/fsm-task-recommendation-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -119,18 +119,18 @@ Task Recommendation Policy \[task\_rec\_recommendation\_policy\]
 Prevents the deletion of a policy if the policy is specified in the **Default task recommendation policy** field of the Task Recommendation Applicability form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 
 **Related topics**  
 
 
-[Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-task-recommendation.md)
+[Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-task-recommendation.md)
 
-[Configuring Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/administer-task-recommendations.md)
+[Configuring Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/administer-task-recommendations.md)
 
-[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
 
-[Assign tasks to yourself based on Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/recommend-task-fsm-mobile.md)
+[Assign tasks to yourself based on Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/recommend-task-fsm-mobile.md)
 
 ## Intelligent Task Recommendations system properties
 

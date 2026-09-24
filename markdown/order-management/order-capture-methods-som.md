@@ -2,7 +2,7 @@
 title: Methods of creating orders in Sales Customer Relationship Management
 description: Orders can be created by agents, customers, or using APIs in ServiceNow Order Management. Irrespective of where or how you create orders, all orders can be managed, tracked, and fulfilled using Order Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-capture-methods-som.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-capture-methods-som.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -88,7 +88,7 @@ Your ServiceNow instances can be integrated with the instances of your customers
 
 ## Order creation by B2B customers
 
-Business-to-Business \(B2B\) customers can leverage self-service capabilities provided through the Business Portal to browse products and submit orders. These orders are then processed by the order and fulfillment agents. For more information, see [Create orders from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-create-an-order-using-customer-portal.md).
+Business-to-Business \(B2B\) customers can leverage self-service capabilities provided through the Business Portal to browse products and submit orders. These orders are then processed by the order and fulfillment agents. For more information, see [Create orders from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-create-an-order-using-customer-portal.md).
 
 ## Post-capture order record generation
 
@@ -102,7 +102,7 @@ When you capture or directly enter a customer or service order, the correspondin
 **Related topics**  
 
 
-[Creating orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-orders-som.md)
+[Creating orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/creating-orders-som.md)
 
-[Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-customer-orders-tab.md)
+[Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-customer-orders-tab.md)
 

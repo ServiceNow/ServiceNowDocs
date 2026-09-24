@@ -2,7 +2,7 @@
 title: Add Zoom connection
 description: Use the information generated during Zoom account configuration to register DEX for Zoom as an OAuth provider and enable the instance to request OAuth 2.0 tokens. Add the Zoom connection in Workflow Studio to perform actions in Zoom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/add-zoom-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/add-zoom-connection.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

@@ -2,7 +2,7 @@
 title: Migrate NLU topics to LLM topics
 description: Migrate one or more of your existing Natural Language Understanding \(NLU\) or keyword topics into new large language model \(LLM\) topics while maintaining your original NLU/keyword topics. After migration is complete, choose whether to publish your new LLM topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/migrate-nlu-llm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/migrate-nlu-llm.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -30,7 +30,7 @@ Role required: virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin
 
     \[Omitted image "llm-topic-migration-vad.png"\] Alt text: Migrate Topics to LLM is an option in the Assistant Designer Asset library side panel.
 
-    **Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+    **Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
     The Topic Migration workflow opens in a new browser tab.
 
@@ -99,7 +99,7 @@ Current topic descriptions are used as the LLM topic descriptions rather than us
 
     \[Omitted image "llm-topic-migration-migration-complete.png"\] Alt text: When topic migration is complete, the Download migration log option appears and you can select this option to view additional data on the success or failure of your topic migration.
 
-    The migration complete progression bar appears and displays a dynamic percentage of completeness. During migration, the Migration status column updates dynamically with the values changing from `Not started` to either `Failed` or `Complete`. After migration is complete, any topic blocks selected, or those associated with the selected topics, are automatically published. You can choose to select **Download migration log** or **Next**. Selecting **Download migration log** downloads a .CSV file of the Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table data. For more information on this table data, see [NLU to LLM migration log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.md). Selecting **Next** continues the workflow to the Review descriptions step.
+    The migration complete progression bar appears and displays a dynamic percentage of completeness. During migration, the Migration status column updates dynamically with the values changing from `Not started` to either `Failed` or `Complete`. After migration is complete, any topic blocks selected, or those associated with the selected topics, are automatically published. You can choose to select **Download migration log** or **Next**. Selecting **Download migration log** downloads a .CSV file of the Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table data. For more information on this table data, see [NLU to LLM migration log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.md). Selecting **Next** continues the workflow to the Review descriptions step.
 
 9.  Continue to the Review descriptions step by selecting **Next**.
 
@@ -107,7 +107,7 @@ Current topic descriptions are used as the LLM topic descriptions rather than us
 
 10. Choose one of the following scenarios.
 
-    **Note:** The display name, not the internal name, of the new LLM topics appears. The display name of the new LLM topics matches the existing NLU topic's display name. If you select the LLM topic link, you are redirected to that topic in Assistant Designer Asset library through a new browser tab or window. For additional information about strong LLM topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
+    **Note:** The display name, not the internal name, of the new LLM topics appears. The display name of the new LLM topics matches the existing NLU topic's display name. If you select the LLM topic link, you are redirected to that topic in Assistant Designer Asset library through a new browser tab or window. For additional information about strong LLM topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 <table id="choicetable_vjq_sfm_wbc"><thead><tr><th align="left" id="d125265e514">
 
@@ -176,5 +176,5 @@ The original NLU topic's utterances are compared against the new LLM topic descr
 
 After you navigate away from the topic migration workflow, the topics that you migrated, but didn’t publish, can be managed and published from the Assistant Designer Asset library canvas. If you choose to migrate other topics in the future, the topic migration workflow restarts from the beginning.
 
-**Parent Topic:**[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/llm-topic-migration.md)
+**Parent Topic:**[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/llm-topic-migration.md)
 

@@ -2,7 +2,7 @@
 title: Alumni job opportunities
 description: Discover job opportunities tailored to your skills and interests, and explore roles that align with your experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/alumni-job-opportunities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/alumni-job-opportunities.html
 release: australia
 product: Alumni Center
 classification: alumni-center
@@ -67,9 +67,9 @@ Track your job application status.**Note:** Your application is processed in the
 
 </td><td>
 
-Your job preferences​ that help in generating job recommendations. For more information, see [Alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/alumni-job-preferences.md).
+Your job preferences​ that help in generating job recommendations. For more information, see [Alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/alumni-job-preferences.md).
 
-**Note:** Admin can configure this form according to the organization requirements. For more information, see [Configure alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/config-alumni-job-pref.md).
+**Note:** Admin can configure this form according to the organization requirements. For more information, see [Configure alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/alumni-center/config-alumni-job-pref.md).
 
 </td></tr><tr><td>
 

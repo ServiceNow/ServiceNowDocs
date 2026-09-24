@@ -2,7 +2,7 @@
 title: Analyze cloud spend using the Cloud cost summarizer generative AI skill
 description: View actionable optimization insights with a comprehensive AI-generated summary of your cloud spend trends, top cost drivers, and budget alignment with your selected filters and groupings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/spend-summary-otto-ccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/spend-summary-otto-ccm.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -18,7 +18,7 @@ View actionable optimization insights with a comprehensive AI-generated summary 
 
 ## Before you begin
 
-All the required plugins must be installed for the Cloud cost summarizer generative AI skill to function smoothly. For more details, see [Supported version and required plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/supporting-info-ai-ccm.md).
+All the required plugins must be installed for the Cloud cost summarizer generative AI skill to function smoothly. For more details, see [Supported version and required plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/supporting-info-ai-ccm.md).
 
 Role required: insights\_admin
 
@@ -76,5 +76,5 @@ If you found that the summary was helpful, select the helpful icon \[Omitted ima
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

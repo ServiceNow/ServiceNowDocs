@@ -2,7 +2,7 @@
 title: Components installed with Store Audit Operations
 description: Reference information for roles, tables, fields, and workspace configuration artifacts for Retail Store Audit Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-store-audit-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-30"
@@ -84,12 +84,12 @@ The application defines six scoped roles. All `sys_name` values are prefixed `sn
 
 **Note:** `wm_audit_task` is an out-of-the-box FSM Audit table, not a custom extension introduced by this application.
 
-**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-installed-with-plugins.md)
 
 **Related topics**  
 
 
-[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
+[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-overview.md)
 
-[Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-fulfill-audit.md)
+[Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-t-fulfill-audit.md)
 

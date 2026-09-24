@@ -2,7 +2,7 @@
 title: Create a theme variant
 description: Create a theme variant from the Coral theme. A theme variant uses customizable styling CSS variables and branding options to tailor the visual experience for your users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/create-theme-variant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/create-theme-variant.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -53,5 +53,5 @@ Role required: admin
 9.  Select **Submit**.
 
 
-**Parent Topic:**[Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CustomCSS.md)
+**Parent Topic:**[Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/c_CustomCSS.md)
 

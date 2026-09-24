@@ -2,7 +2,7 @@
 title: Related information
 description: Find more information about the Network Intrusion Detection System \(NIDS\) extension class, OT extension classes, and related applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/mpm-related-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/mpm-related-information.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -31,10 +31,10 @@ The extension classes help you understand how Operational Technology Management 
 
 ## Related applications
 
--   **[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)**
+-   **[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/operational-technology-manager.md)**
 
     The Operational Technology Manager application enables you to aggregate OT device data from multiple sources, so that you can build the foundational data relationships used in the Industrial solution.
 
 
-**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
+**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
 

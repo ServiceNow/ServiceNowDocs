@@ -2,7 +2,7 @@
 title: Commands to grant Azure application access to the Microsoft SharePoint site
 description: Use one of the following three methods to grant your registered Azure application write access to the Microsoft SharePoint site at the site level, using the Microsoft Graph API.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/grant-azure-app-access-sharepoint-site-commands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/grant-azure-app-access-sharepoint-site-commands.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -123,5 +123,5 @@ These references are external to ServiceNow® and are provided for tooling insta
 -   [Microsoft Graph API — Site Permissions reference](https://learn.microsoft.com/en-us/graph/api/site-post-permissions)
 -   [Microsoft Entra ID App Registration reference](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app)
 
-**Parent Topic:**[Integrate Major Security Incident Management with Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-sharepoint.md)
+**Parent Topic:**[Integrate Major Security Incident Management with Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-msim-sharepoint.md)
 

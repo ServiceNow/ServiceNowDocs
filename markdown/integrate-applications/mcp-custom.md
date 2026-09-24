@@ -2,7 +2,7 @@
 title: Client registration using custom connector
 description: Define a custom connector by providing your own MCP endpoint URL and authentication configuration if the registry does not contain a connector for the system you need.Create an MCP Connector with OAuth 2.1 for connecting to external systems or applications that support MCP.Create an MCP Connector with API key for connecting to external systems or applications that support MCP.Create an MCP Connector with Basic Authentication for connecting to external systems or applications that support MCP.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mcp-custom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mcp-custom.html
 release: australia
 topic_type: task
 last_updated: "2026-06-05"
@@ -84,7 +84,7 @@ Add system \(Optional\)
 
 </td><td>
 
-Click the \[Omitted image "icon-plus.png"\] Alt text: Plus icon. icon to add an external system. For more information, see [Create external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connecthub-create-external-systems.md).**Note:** If you already have an existing system, you can use that system for the MCP connector.
+Click the \[Omitted image "icon-plus.png"\] Alt text: Plus icon. icon to add an external system. For more information, see [Create external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connecthub-create-external-systems.md).**Note:** If you already have an existing system, you can use that system for the MCP connector.
 
 </td></tr><tr><td>
 
@@ -327,7 +327,7 @@ Add system \(Optional\)
 
 </td><td>
 
-Click the \[Omitted image "icon-plus.png"\] Alt text: Plus icon. icon to add an external system. For more information, see [Create external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connecthub-create-external-systems.md).**Note:** If you already have an existing system, you can use that system for the MCP connector.
+Click the \[Omitted image "icon-plus.png"\] Alt text: Plus icon. icon to add an external system. For more information, see [Create external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connecthub-create-external-systems.md).**Note:** If you already have an existing system, you can use that system for the MCP connector.
 
 </td></tr><tr><td>
 
@@ -410,7 +410,7 @@ Add system \(Optional\)
 
 </td><td>
 
-Click the \[Omitted image "icon-plus.png"\] Alt text: Plus icon. icon to add an external system. For more information, see [Create external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connecthub-create-external-systems.md).**Note:** If you already have an existing system, you can use that system for the MCP connector.
+Click the \[Omitted image "icon-plus.png"\] Alt text: Plus icon. icon to add an external system. For more information, see [Create external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connecthub-create-external-systems.md).**Note:** If you already have an existing system, you can use that system for the MCP connector.
 
 </td></tr><tr><td>
 

@@ -2,7 +2,7 @@
 title: Associate learning content to a topic
 description: Add learning content to a topic page to provide employees with quick access to training and career development.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/add-learning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/add-learning.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -24,8 +24,8 @@ User Criteria required: Taxonomy Manager, Taxonomy Contributor, Topic Manager, T
 
 Do the following steps:
 
-1.  Install the Learning \[sn\_lep\] application: [Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/configuring-learning.md)
-2.  Provide employees with the Talent Development license to enable access to the learning content: [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-employee-profile-licensing.md)
+1.  Install the Learning \[sn\_lep\] application: [Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/configuring-learning.md)
+2.  Provide employees with the Talent Development license to enable access to the learning content: [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-employee-profile-licensing.md)
 3.  Navigate to the **Scheduled jobs** &gt; **Refresh access to all apps** and click **Execute Now**.
 
     This adds a new record to the Employee Application Access \[sn\_employee\_app\_access.list\] table.

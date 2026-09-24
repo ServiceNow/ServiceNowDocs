@@ -2,7 +2,7 @@
 title: Create a cloud catalog item
 description: Create a cloud catalog item for provisioning, based on a template or an existing blueprint, and publish the catalog item to provide a service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-cloud-catalog-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-cloud-catalog-item.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -154,18 +154,18 @@ Full description of the catalog item. This description appears in the service ca
 
     |Action|Description|
     |------|-----------|
-    |Export Catalog Item|Exports all the components \(such as blueprints, resource blocks, rules\) of the catalog item from one environment to the other. See [Moving Cloud Provisioning and Governance content across environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/move-content-intro.md).|
+    |Export Catalog Item|Exports all the components \(such as blueprints, resource blocks, rules\) of the catalog item from one environment to the other. See [Moving Cloud Provisioning and Governance content across environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/move-content-intro.md).|
     |Item Diagnostic|Identifies possible issues with the catalog item data and configuration. See [Item diagnostic report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ItemDiagnostic.md)|
-    |Manage Attributes|See [Manage operation attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/manage-attributes.md).|
+    |Manage Attributes|See [Manage operation attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/manage-attributes.md).|
     |Reset Catalog Item|Resets \(to the last change you made\) any customizations that you've made to the catalog item.|
 
 
 ## What to do next
 
-[Create a cloud template-based catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-template.md).
+[Create a cloud template-based catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-cloud-template.md).
 
 **Related topics**  
 
 
-[Create a catalog item from a Terraform template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/catalog-item-terraform-template.md)
+[Create a catalog item from a Terraform template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/catalog-item-terraform-template.md)
 

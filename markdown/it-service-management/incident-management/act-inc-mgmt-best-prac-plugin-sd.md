@@ -2,7 +2,7 @@
 title: Activate Incident Management Best Practice – San Diego
 description: Activate the Incident Management Best Practice — San Diego plugin \(com.snc.best\_practice.incident.sandiego\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/act-inc-mgmt-best-prac-plugin-sd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/act-inc-mgmt-best-prac-plugin-sd.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -39,5 +39,5 @@ The Incident Management Best Practice – San Diego plugin modifies the problem 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Incident Management Best Practice – San Diego](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/inc-mgmt-best-prac-plugin-sd.md)
+**Parent Topic:**[Incident Management Best Practice – San Diego](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/inc-mgmt-best-prac-plugin-sd.md)
 

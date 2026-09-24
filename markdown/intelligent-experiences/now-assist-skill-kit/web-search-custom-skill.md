@@ -2,7 +2,7 @@
 title: Web search custom skill
 description: The web search custom skill performs an internet search to answer a query. Web search is used whenever the LLM and AI Search are unable to provide results or whenever web search mode is activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/web-search-custom-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/web-search-custom-skill.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -29,9 +29,9 @@ Web Search AI choices are available in the OneExtend Definition Configs related 
 
 \[Omitted image "web-search-custom-skill-03.png"\] Alt text: Credentials table showing the Perplexity API key entry, with Active value set to true.
 
-For more information on how to work with the **AI Search answers** OneExtend capability, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md).
+For more information on how to work with the **AI Search answers** OneExtend capability, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md).
 
-For more information on how to add web search as a tool in the AI Skill Kit, see [Add a web search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-web-search.md).
+For more information on how to add web search as a tool in the AI Skill Kit, see [Add a web search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/add-web-search.md).
 
-**Parent Topic:**[AI Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
+**Parent Topic:**[AI Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
 

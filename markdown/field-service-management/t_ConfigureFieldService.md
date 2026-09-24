@@ -2,7 +2,7 @@
 title: Global domain configurations
 description: Administrators in the global domain can select configuration settings that determine how Field Service Management handles daily operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/t\_ConfigureFieldService.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/t\_ConfigureFieldService.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -410,7 +410,7 @@ Enable this option to consider agent's schedules, skills, teams, and coaching to
 
 </td><td>
 
-[Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
+[Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 </td></tr><tr><td>
 
@@ -422,11 +422,11 @@ Enable this option to consider the technician-demand channel association during 
 
 </td><td>
 
--   [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md)
+-   [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md)
 -   Enable **Enable Shift Scheduling for FSM to determine availability** configuration.
--   [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md)
--   [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
--   [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md)
+-   [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md)
+-   [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
+-   [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md)
 
 
 </td></tr><tr><td>

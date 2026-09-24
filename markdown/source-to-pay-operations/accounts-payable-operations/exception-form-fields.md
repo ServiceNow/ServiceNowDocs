@@ -2,7 +2,7 @@
 title: Invoice exception form
 description: Field descriptions for the Invoice Exception form, organized by section, for reviewing and resolving invoice exceptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/exception-form-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/exception-form-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -33,12 +33,12 @@ Field descriptions for the Invoice Exception form, organized by section, for rev
 |Supplier|Supplier who delivers the product or service.|
 |Total amount|Total amount to be paid to the supplier.|
 
--   **[Invoice exception form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/exception-form-tabs.md)**  
+-   **[Invoice exception form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/exception-form-tabs.md)**  
 Descriptions of the tabs on the Invoice exception form, including the invoice exception information available for exception resolution.
--   **[Invoice exception rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.md)**  
+-   **[Invoice exception rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.md)**  
 Reference information for Invoice Exception Rules in Accounts Payable Operations. Use this topic to understand each form field and its configuration options.
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

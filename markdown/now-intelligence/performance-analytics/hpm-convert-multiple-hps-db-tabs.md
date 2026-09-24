@@ -2,7 +2,7 @@
 title: Convert homepages to dashboard tabs
 description: After you populate the Homepage migration status table, you can convert one or more homepages to tabs on new or existing dashboards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/hpm-convert-multiple-hps-db-tabs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/hpm-convert-multiple-hps-db-tabs.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -58,5 +58,5 @@ Update menus that point to the converted homepages to point to the new dashboard
 
 Navigate to **All** &gt; **Self Service** &gt; **Dashboards**. Open the **All** tab to see the tiles for the converted dashboards.
 
-[Retire a homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/hpm-retire-homepages.md).
+[Retire a homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/hpm-retire-homepages.md).
 

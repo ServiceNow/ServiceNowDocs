@@ -2,7 +2,7 @@
 title: View your teams using the Care Team Portal
 description: View your teams from directly within the Care Team Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-cto-view-teams-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-cto-view-teams-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

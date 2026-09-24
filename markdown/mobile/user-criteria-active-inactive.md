@@ -2,7 +2,7 @@
 title: Define user criteria status as active or inactive
 description: Learn how to define a user criteria component's status as active or inactive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/user-criteria-active-inactive.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/user-criteria-active-inactive.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ Role required: admin
 9.  Select and hold \(or right-click\) in the header and select **Save** from the menu.
 
 
-**Parent Topic:**[User criteria permissions in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/user-criteria-permissions.md)
+**Parent Topic:**[User criteria permissions in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/user-criteria-permissions.md)
 

@@ -2,12 +2,12 @@
 title: Using ServiceNow Otto for Zero Copy Connector skills
 description: ServiceNow Otto for Zero Copy Connector includes skills that can make working with connectors more efficient.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-for-zero-copy-connectors-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/now-assist-for-zero-copy-connectors-skills.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 

@@ -2,7 +2,7 @@
 title: Request a false positive for a set of test results
 description: Raise a false positive request for a set of test results within a remediation task in the IT Remediation Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/vmws-tr-false-positive.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/it-remediation-workspace/vmws-tr-false-positive.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -45,7 +45,7 @@ Role required: sn\_vulc.remediation\_owner
 
 7.  On the Take Questionnaire modal, answer the questions to provide additional information about your request to the approver and select **Submit**.
 
-    **Note:** The Take Questionnaire modal appears only when the **Enable questionnaire to mark false positive** check box is selected in the Exception Management Configuration form. For more information on how a questionnaire is configured, see [Configure Exception Management for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/configure-exception-management-configuration-compliance.md).
+    **Note:** The Take Questionnaire modal appears only when the **Enable questionnaire to mark false positive** check box is selected in the Exception Management Configuration form. For more information on how a questionnaire is configured, see [Configure Exception Management for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/configure-exception-management-configuration-compliance.md).
 
 
 ## Result

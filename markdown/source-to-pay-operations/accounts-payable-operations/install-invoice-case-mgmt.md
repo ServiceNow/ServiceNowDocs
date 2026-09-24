@@ -2,7 +2,7 @@
 title: Install Invoice Case Management
 description: Install the Invoice Case Management \(sn\_ap\_cm\) application as an admin to include demo data and related ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -24,7 +24,7 @@ Install the Invoice Case Management \(sn\_ap\_cm\) application as an admin to in
 -   The Accounts Payable Invoice Processing \(sn\_ap\_apm\) application installs the following dependent plugins:
     -   Source-to-Pay Common Architecture \(com.snc.sn\_shop\)
     -   Supplier Collaboration Portal
-    -   [Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-operations-overview.md)
+    -   [Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-operations-overview.md)
 
 Role required: admin
 
@@ -37,7 +37,7 @@ The following items are installed with Invoice Case Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md).
+For more information, see [Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md).
 
 ## Procedure
 
@@ -62,10 +62,10 @@ For more information, see [Components installed with Invoice Case Management](ht
 6.  Select **Install**.
 
 
--   **[Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md)**  
+-   **[Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md)**  
 Reference information for the roles, scheduled jobs, and tables installed with the Invoice Case Management plugin during activation.
 
-**Parent Topic:**[Configure Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md)
+**Parent Topic:**[Configure Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md)
 
 **Related topics**  
 

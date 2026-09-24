@@ -2,7 +2,7 @@
 title: HL7 FHIR Spoke actions reference
 description: The HL7 FHIR Spoke provides eight read-only Workflow Studio actions — a look-up-by-ID action and a stream action for each of the four FHIR R4 provider-directory resources. This reference lists the key inputs and outputs of each action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/fhir-spoke-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/fhir-spoke-actions.html
 release: australia
 product: Integration Hub
 classification: integration-hub

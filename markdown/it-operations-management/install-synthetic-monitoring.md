@@ -2,7 +2,7 @@
 title: Install synthetic monitoring
 description: You can install the synthetic monitoring application \(com.snc.uib.sow\_synthetics\) with the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/install-synthetic-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/install-synthetic-monitoring.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ The following items are installed with synthetic monitoring:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/components-installed-with-synthetic-monitoring.md).
+For more information, see [Components installed with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/components-installed-with-synthetic-monitoring.md).
 
 ## Procedure
 
@@ -57,7 +57,7 @@ For more information, see [Components installed with synthetic monitoring](https
 
 ## What to do next
 
-[Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md)
+[Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-synthetic-monitoring-locations.md)
 
-**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-synthetic-monitoring.md)
+**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configuring-synthetic-monitoring.md)
 

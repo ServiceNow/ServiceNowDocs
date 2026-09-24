@@ -2,7 +2,7 @@
 title: Create a kiosk configuration
 description: Create a kiosk configuration, assign a homepage, and link a kiosk device module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-services-kiosk/create-kiosk-device-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-services-kiosk/create-kiosk-device-config.html
 release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -23,7 +23,7 @@ Create a kiosk configuration, assign a homepage, and link a kiosk device module.
 -   The kiosk device automatically maintains the session before it times out. The session timeout value can be configured in the **glide.ui.session\_timeout** property.
 -   The kiosk header contains the session refresh API; ensure that you do not remove or replace the kiosk theme or the kiosk header.
 
-    For information about customizing the kiosk header, see [Customize the kiosk header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/customize-kiosk-header.md).
+    For information about customizing the kiosk header, see [Customize the kiosk header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/customize-kiosk-header.md).
 
 
 Role required: sn\_wsd\_kiosk.admin
@@ -38,7 +38,7 @@ Role required: sn\_wsd\_kiosk.admin
 
 3.  On the Kiosk configuration form, fill in the fields.
 
-    For a description of the field values, see [Kiosk configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/kiosk-configuration-form.md).
+    For a description of the field values, see [Kiosk configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/kiosk-configuration-form.md).
 
 4.  Select **Submit**.
 
@@ -68,9 +68,9 @@ Module configuration
 
 </td><td>
 
-Configuration record for the kiosk module.For more information about creating a module, see [Create a kiosk module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/create-kiosk-module.md).
+Configuration record for the kiosk module.For more information about creating a module, see [Create a kiosk module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/create-kiosk-module.md).
 
-For more information about creating a map configuration, see [Configure map features for kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/config-map-features.md).
+For more information about creating a map configuration, see [Configure map features for kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/config-map-features.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Order of preference of the kiosk module.
     -   The kiosk device automatically maintains the session before it times out. The session timeout value can be configured in the **glide.ui.session\_timeout** property.
     -   The kiosk header contains the session refresh API; ensure that you do not remove or replace the kiosk theme or the kiosk header.
 
-        For information about customizing the kiosk header, see [Customize the kiosk header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/customize-kiosk-header.md).
+        For information about customizing the kiosk header, see [Customize the kiosk header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/customize-kiosk-header.md).
 
 7.  Select **Submit**.
 
@@ -113,5 +113,5 @@ Order of preference of the kiosk module.
 
 You have configured a kiosk configuration and linked it to a kiosk module.
 
-**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

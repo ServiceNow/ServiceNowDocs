@@ -2,7 +2,7 @@
 title: Kiosk Indoor Mapping
 description: Enhance visitor and employee experiences by providing indoor maps in kiosks across your workplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/kiosk-indoor-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/kiosk-indoor-mapping.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -56,7 +56,7 @@ To access the Kiosk Indoor Mapping module, navigate to **All** &gt; **Workplace 
 
 \[Omitted image "kiosk-indoor-mapping-dashboard.png"\] Alt text: Kiosk Indoor Mapping Module on Workplace Central. Kiosk indoor mapping configurations list and Features configurations list are displayed.
 
-**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 

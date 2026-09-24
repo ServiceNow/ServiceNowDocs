@@ -2,7 +2,7 @@
 title: Distribute a quiz
 description: When you finish configuring the answers for the quiz questions, you are ready to distribute the quiz.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_DistributeAQuiz.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_DistributeAQuiz.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ You can send the quiz to all the category users configured for the quiz or to a 
 
 3.  Edit the published quiz.
 
-    See [Modifying Published Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifyAPublishedQuiz.md) to learn how various modifications affect the quiz contents.
+    See [Modifying Published Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ModifyAPublishedQuiz.md) to learn how various modifications affect the quiz contents.
 
 4.  Resend a quiz to either on category user or all category users.
 
@@ -41,12 +41,12 @@ You can send the quiz to all the category users configured for the quiz or to a 
     **Note:** These buttons are hidden if there are no category users defined for the quiz.
 
 
-**Parent Topic:**[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
+**Parent Topic:**[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_CreateQuizzesWithForms.md)
 
 **Related topics**  
 
 
-[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateaQuiz.md)
 
-[Modify a published quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifyAPublishedQuiz.md)
+[Modify a published quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ModifyAPublishedQuiz.md)
 

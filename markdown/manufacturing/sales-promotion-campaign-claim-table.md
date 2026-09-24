@@ -2,7 +2,7 @@
 title: Sales Promotion Campaign Claim tables
 description: This section explains the sales promotion campaign claims tables in Manufacturing Commercial Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/sales-promotion-campaign-claim-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/sales-promotion-campaign-claim-table.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -143,5 +143,5 @@ Stores the case line item records.
 </td></tr></tbody>
 </table>To learn more about the Case and Case Line, see [Case Lines and Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-mgmt-case-lines.md).
 
-**Parent Topic:**[Sales promotion campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/sales-promotion-campaign-claims.md)
+**Parent Topic:**[Sales promotion campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/sales-promotion-campaign-claims.md)
 

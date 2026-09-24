@@ -2,7 +2,7 @@
 title: Hide the Platform Analytics library banner
 description: On instances that will not be migrated to Platform Analytics experience, set a system property to hide the banner that links to the Platform Analytics experience library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/hide-platform-analytics-library-banner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/hide-platform-analytics-library-banner.html
 release: australia
 topic_type: task
 last_updated: "2026-03-20"

@@ -2,7 +2,7 @@
 title: ICM Entity Management Person form
 description: The Person form allows you to create a new person entity record within an investigative case, and capture as many identifiable details about the person as possible. The person entity will automatically link to the case, with options to link to another case, or another entity. Not all fields are mandatory, but a minimum amount of information is required for the record to be searchable within ICM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-case-forms-enm-pers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-icm-ref-case-forms-enm-pers.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -284,7 +284,7 @@ Status
 
 </td><td>
 
-The status of the person in relation to the case. For more information on the options for person status, see [Person status form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/person-status-form.md).
+The status of the person in relation to the case. For more information on the options for person status, see [Person status form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/person-status-form.md).
 
 </td></tr><tr><td>
 

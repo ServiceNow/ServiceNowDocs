@@ -2,7 +2,7 @@
 title: Attachments
 description: Learn about the Attachments component in the tabs sidebar for a Configurable Workspace record page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/attachments-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/attachments-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

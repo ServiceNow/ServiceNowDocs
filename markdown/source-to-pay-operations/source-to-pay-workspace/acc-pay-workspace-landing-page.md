@@ -2,7 +2,7 @@
 title: APO landing page
 description: The Source-to-Pay Workspace provides a centralized view of information and role-specific tasks, enabling quick access to relevant information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-landing-page.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -305,10 +305,10 @@ Widget
 
 </td><td>
 
-View the list of invoice tasks that are assigned to the assignment group of the current user. For more information on the fields of invoice tasks, see [Create New Invoice task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-apm-task-form.md)
+View the list of invoice tasks that are assigned to the assignment group of the current user. For more information on the fields of invoice tasks, see [Create New Invoice task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-apm-task-form.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)
+</table>**Parent Topic:**[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)
 
 **Related topics**  
 

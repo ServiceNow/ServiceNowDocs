@@ -2,7 +2,7 @@
 title: Submit a policy service request
 description: Help your customers by submitting a policy service request for them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/submit-ins-policy-service-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/submit-ins-policy-service-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,9 +18,9 @@ Help your customers by submitting a policy service request for them.
 
 Role required: sn\_ins\_policy\_b2c.homeowner\_policy\_processor, sn\_ins\_policy\_b2c.auto\_policy\_processor, or sn\_ins\_policy\_b2c.contributor
 
-**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-core-roles.md).
+**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-core-roles.md).
 
-**Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -89,5 +89,5 @@ Based on the request type, a policy service case is created in the New state. Th
 -   Click **View Details** to open the policy service case and view its details. You can also add additional information in the **Comments** field that can help the policy processor in resolving the case.
 -   A policy processor can start working on the case and its tasks.
 
-**Parent Topic:**[Using Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-financial-services-insurance-policy-operations.md)
+**Parent Topic:**[Using Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/using-financial-services-insurance-policy-operations.md)
 

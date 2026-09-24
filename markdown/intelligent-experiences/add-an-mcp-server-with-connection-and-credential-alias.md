@@ -2,7 +2,7 @@
 title: Add an MCP Server with Connection and Credential Alias
 description: Add an MCP Server by selecting a Connection and Credential Alias record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-an-mcp-server-with-connection-and-credential-alias.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-an-mcp-server-with-connection-and-credential-alias.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

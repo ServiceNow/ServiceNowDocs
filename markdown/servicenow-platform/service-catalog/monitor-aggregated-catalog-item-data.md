@@ -2,7 +2,7 @@
 title: Monitoring aggregated catalog item data
 description: Monitor aggregated catalog item data like fulfillment automation coverage, translation coverage, and conversational coverage using the Service Catalog Overview dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/monitor-aggregated-catalog-item-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/monitor-aggregated-catalog-item-data.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -32,7 +32,7 @@ The Catalog item translation coverage graph is displayed only if you have enable
 
 \[Omitted image "sc-overview-dashboard.png"\] Alt text: Service Catalog Overview dashboard
 
-**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
+**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 
 **Related topics**  
 

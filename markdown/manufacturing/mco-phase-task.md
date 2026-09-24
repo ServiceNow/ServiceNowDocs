@@ -2,7 +2,7 @@
 title: Adding a phase task
 description: Agents workspace enables the manufacturers to add the phase task details for the recall campaigns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-phase-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-phase-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
 
 3.  On the Phase task form, fill in the fields.
 
-    For a description of the field values, see [Phase task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-phase-task-form.md).
+    For a description of the field values, see [Phase task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-phase-task-form.md).
 
 4.  Select **Submit**.
 

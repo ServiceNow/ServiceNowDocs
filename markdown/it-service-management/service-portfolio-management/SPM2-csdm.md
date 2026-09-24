@@ -2,7 +2,7 @@
 title: Applying the CSDM guidelines to Service Portfolio Management
 description: Service data relates to each other using different applications in different ways. Service Portfolio Management references the Common Service Data Model \(CSDM\) framework to bring service-related data together in a single view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-csdm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-portfolio-management/SPM2-csdm.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -240,7 +240,7 @@ An abstract and ideally visual representation \(model\) of how an organization d
 Typically represents the various elements of how an organization operates. It usually incorporates strategy positions such as the innovation model, degree of intelligent automation, industry alignment, provider delivery models, and the business expectations of IT.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-configuring.md)
+</table>**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-portfolio-management/SPM2-configuring.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Install additional HAM applications using Product Hub
 description: Install the HAM applications and plugins included in your subscription tier that are not yet installed in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/install-additional-ham-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/install-additional-ham-apps.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -50,5 +50,5 @@ Use this procedure to install additional HAM applications and plugins after your
 
 ## What to do next
 
-To configure the installed application, see [Configure Hardware Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configure-ham-from-console.md).
+To configure the installed application, see [Configure Hardware Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configure-ham-from-console.md).
 

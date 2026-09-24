@@ -2,7 +2,7 @@
 title: Facilities service management process
 description: The facilities administrator creates the campus and configures the application with workflow, agent assignment, and other considerations. Employees make facilities and move requests that are tracked to specific locations anywhere on the campus.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_FacilitiesSMProcess.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_FacilitiesSMProcess.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,10 +39,10 @@ Be sure to identify people within your organization that can be assigned the fol
     Schedules and assigns the tasks to facilities staff.
 
 
--   **[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesRequests.md)**  
+-   **[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesRequests.md)**  
 A facilities request is a record in the system that tracks a proposed change to the physical facility of the organization. Typical facilities requests include the reporting of something bring broken or an issue like a beeping smoke alarm.
--   **[Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacRequestTasks.md)**  
+-   **[Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacRequestTasks.md)**  
 A facilities request contains one or more tasks. These tasks allow qualifiers to define separate activities that must be done to complete a facilities request.
 
-**Parent Topic:**[Facilities Service Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesServiceManagement.md)
+**Parent Topic:**[Facilities Service Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesServiceManagement.md)
 

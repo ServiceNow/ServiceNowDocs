@@ -2,7 +2,7 @@
 title: Obtaining Zero Copy Connector for ERP metrics and statistics
 description: Use the Zero Copy Connector for ERP \(Enterprise Resource Planning\) home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-obtaining-erp-canvas-metrics-and-statistics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-obtaining-erp-canvas-metrics-and-statistics.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

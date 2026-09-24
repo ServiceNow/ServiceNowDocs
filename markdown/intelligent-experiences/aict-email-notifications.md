@@ -2,7 +2,7 @@
 title: AI Control Tower email notifications
 description: Identify the email notifications that AI Control Tower sends automatically, the events that trigger each notification, and the recipients. These notifications keep AI Stewards, asset owners, and assignees informed so that they can take action promptly on AI asset approvals and lifecycle events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-email-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-email-notifications.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-11"

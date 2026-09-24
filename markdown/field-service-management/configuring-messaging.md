@@ -2,7 +2,7 @@
 title: Configuring communication from Dispatcher Workspace
 description: Sending messages to agents from Dispatcher Workspace enables you to collaborate faster and communicate more effectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/configuring-messaging.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configuring-messaging.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ For more information on using the Sidebar to communicate, see [Using Sidebar](ht
 
 ## About Sidebar for the Field Service Mobile Agent application
 
-Messaging from the Sidebar in the Mobile Agent application is available upon activation of the Sidebar for Field Service Management plugin \(com.sn\_fsm\_sidebar\). For more information, see [Activate Sidebar for the Field Service Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-sidebar-mobile.md).
+Messaging from the Sidebar in the Mobile Agent application is available upon activation of the Sidebar for Field Service Management plugin \(com.sn\_fsm\_sidebar\). For more information, see [Activate Sidebar for the Field Service Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-sidebar-mobile.md).
 

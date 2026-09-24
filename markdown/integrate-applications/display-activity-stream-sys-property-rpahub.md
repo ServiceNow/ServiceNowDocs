@@ -2,7 +2,7 @@
 title: Display an activity stream for bot processes and robots in RPA Hub
 description: Configure the system property to display an activity stream for bot processes and robots in RPA Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/display-activity-stream-sys-property-rpahub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/display-activity-stream-sys-property-rpahub.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

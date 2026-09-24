@@ -2,7 +2,7 @@
 title: Create a catalog item for your Operational Technology Service Catalog
 description: Create a catalog item for the Operational Technology \(OT\) Service Catalog using the catalog builder so that other users can submit OT requests categorized by catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-request-management/create-catalog-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-request-management/create-catalog-item.html
 release: australia
 product: Operational Technology Request Management
 classification: operational-technology-request-management
@@ -41,7 +41,7 @@ You can create catalog items for the OT Service Catalog in the catalog builder. 
 
 6.  On the **Create catalog item** form, fill in the fields.
 
-    For more information about the Catalog Item form fields, see [Operational Technology Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/catalog-item-form-ot-request.md).
+    For more information about the Catalog Item form fields, see [Operational Technology Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-request-management/catalog-item-form-ot-request.md).
 
     **Note:** You can’t remove the OT Catalog Item Variable Set from the Questions section. The OT Catalog Item Variable Set is what distinguishes OT requests from other requests. You can instead create new questions for your item form by selecting **Insert New Question**. For more information about inserting a new question, see [Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-question-cat-builder.md).
 
@@ -58,5 +58,5 @@ You can create catalog items for the OT Service Catalog in the catalog builder. 
 
 The catalog item is created and available for other users to select when they create an OT request in the OT Service Catalog.
 
-**Parent Topic:**[Configuring Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.md)
+**Parent Topic:**[Configuring Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-request-management/configuring-operational-technology-request-management.md)
 

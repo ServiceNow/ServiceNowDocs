@@ -2,7 +2,7 @@
 title: Mismatched version support
 description: Providers and consumers using different versions of the Service Exchange applications can exchange and synchronize data between their ServiceNow instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-mismatch-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-mismatch-version.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -29,5 +29,5 @@ The following is an example scenario:
 **Related topics**  
 
 
-[Configuring revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-config-revision.md)
+[Configuring revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-config-revision.md)
 

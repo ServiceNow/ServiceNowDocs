@@ -2,7 +2,7 @@
 title: Components installed with Workplace Move Management
 description: Several types of components are installed with the Workplace Move Management application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/components-installed-with-workplace-move-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/components-installed-with-workplace-move-mgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -117,7 +117,7 @@ Workplace Move Case\[sn\_wsd\_move\_case\]
 
 </td><td>
 
-Stores information about all the move cases and child move cases created in the application.**Note:** This table is a child table of Workplace tasks \[sn\_wsd\_core\_workplace\_task\] in Workplace Core. If **WSD: Archive old workplace tasks** archival rule is applied then Workplace Move Case \[sn\_wsd\_move\_case\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
+Stores information about all the move cases and child move cases created in the application.**Note:** This table is a child table of Workplace tasks \[sn\_wsd\_core\_workplace\_task\] in Workplace Core. If **WSD: Archive old workplace tasks** archival rule is applied then Workplace Move Case \[sn\_wsd\_move\_case\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
 
 </td></tr><tr><td>
 
@@ -133,8 +133,8 @@ Workplace Move Task\[sn\_wsd\_move\_task\]
 
 </td><td>
 
-Stores information about all the move tasks and child move tasks created in the application.**Note:** If **WSD: Archive old workplace tasks** archival rule is applied then Workplace Move Task \[sn\_wsd\_move\_task\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
+Stores information about all the move tasks and child move tasks created in the application.**Note:** If **WSD: Archive old workplace tasks** archival rule is applied then Workplace Move Task \[sn\_wsd\_move\_task\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Move Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-move-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Move Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-move-mgmt-references.md)
 

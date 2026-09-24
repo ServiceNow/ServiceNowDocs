@@ -2,7 +2,7 @@
 title: Cancel a post case review
 description: Cancel a post case review that hasn’t been approved, rejected, or no longer requested state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cancel-pcr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cancel-pcr.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,5 +34,5 @@ Role required: sn\_customerservice\_manager or admin
 **Related topics**  
 
 
-[Re-open a post case review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/reopen-case-review-document.md)
+[Re-open a post case review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/reopen-case-review-document.md)
 

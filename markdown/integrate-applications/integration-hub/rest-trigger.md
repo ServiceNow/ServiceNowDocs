@@ -2,7 +2,7 @@
 title: REST API trigger
 description: Start a flow from an inbound API call or webhook from an external system. Configure the trigger start conditions without having to write or maintain custom code.Create a flow that starts when a third-party system sends a REST request to your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/rest-trigger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/rest-trigger.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -55,7 +55,7 @@ Depending on how you configure the endpoint, flow designers have access to these
 
 When setting up the trigger, define what the inbound data will look like. You can then use the associated data pills within the actions in your flow. When the system receives an inbound request that starts the flow, it uses the runtime values sent in the request.
 
-**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/building-integrations-ih.md)
 
 ## Create a flow using the REST API trigger
 
@@ -176,5 +176,5 @@ Copy the execution ID in the result and navigate to the Executions tab in Flow D
 
 \[Omitted image "rest-trigger-execution.png"\] Alt text:
 
-To troubleshoot issues, you can debug the REST query or check the flow execution details. See [Debug REST queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/debugging-rest-queries.md) and [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
+To troubleshoot issues, you can debug the REST query or check the flow execution details. See Debug REST queries and [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
 

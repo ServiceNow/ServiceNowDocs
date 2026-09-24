@@ -2,12 +2,12 @@
 title: Exploring Test Agent
 description: Test Agent autonomously manages end‑to‑end test authoring, execution, and troubleshooting from a single prompt.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-agent-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-21"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -28,7 +28,7 @@ Test Agent delivers the following measurable outcomes:
 -   Greater release confidence: Automated tests enforce quality gates and validate code health before promoting to production.
 -   Seamless test reuse and execution: All generated ATF tests are stored in the standard sys\_atf\_tests table within the target application scope and can be reused to schedule and run regression tests, just like manually authored ATF tests.
 
-Test Agent can generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list tests. List step support extends test coverage beyond form-based interactions to include list view interactions on the ServiceNow AI Platform. For more information on list and related list test steps, see [List and Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-list-related-list.md).
+Test Agent can generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list tests. List step support extends test coverage beyond form-based interactions to include list view interactions on the ServiceNow AI Platform. For more information on list and related list test steps, see [List and Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/test-steps-list-related-list.md).
 
 ## Test Agent users
 
@@ -44,13 +44,13 @@ Test Agent has the following users.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|One-stop shop experience|[Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md)|admin|
+|One-stop shop experience|[Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-use.md)|admin|
 
 ## What to explore next
 
 To learn more about configuring and using Test Agent, see:
 
--   [Test Agent access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-access.md)
--   [Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md)
--   [Test Agent guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-exceptions.md)
+-   [Test Agent access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-access.md)
+-   [Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-use.md)
+-   [Test Agent guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-exceptions.md)
 

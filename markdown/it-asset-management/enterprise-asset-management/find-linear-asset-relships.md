@@ -2,7 +2,7 @@
 title: Find linear asset relationships
 description: You can find relationships between linear assets such as overlapping, continuing, or intersecting assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/find-linear-asset-relships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/find-linear-asset-relships.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -43,5 +43,5 @@ You may want to find a relationship between linear assets to associate them with
     For each record, the kind of relationship it has with the linear asset is mentioned such as continuing, overlapping, or intersecting.
 
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

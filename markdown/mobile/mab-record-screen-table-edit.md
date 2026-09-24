@@ -2,7 +2,7 @@
 title: Edit record reference entries in record screen tables
 description: Edit existing entries in the record screen tables in the Mobile App Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-record-screen-table-edit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-record-screen-table-edit.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

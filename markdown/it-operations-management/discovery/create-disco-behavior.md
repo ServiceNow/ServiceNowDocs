@@ -2,7 +2,7 @@
 title: Create a Discovery behavior
 description: Create a Discovery behavior to determine which probes Shazzam launches and which MID Server is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-disco-behavior.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/create-disco-behavior.html
 release: australia
 product: Discovery
 classification: discovery
@@ -142,9 +142,9 @@ Enter the actual name of the MID Server \(`mid_server`\) or domain \(`win_domain
 
 ## What to do next
 
-[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) of type **Configuration Item**, and select **Use Behavior** for the MID Server selection method.
+[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md) of type **Configuration Item**, and select **Use Behavior** for the MID Server selection method.
 
-**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
+**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryBehaviors.md)
 
 **Related topics**  
 

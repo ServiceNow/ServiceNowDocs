@@ -2,7 +2,7 @@
 title: Manage spaces using Space Planning
 description: As a space planner, manage the spaces, their assignments, and their allocations using the Space Planning module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/manage-spaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/manage-spaces.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -36,15 +36,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 4.  Manage the spaces based on your requirement.
 
-<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d321224e101">
+<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d321432e101">
 
 Action
 
-</th><th align="left" id="d321224e104">
+</th><th align="left" id="d321432e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d321224e110">
+</th></tr></thead><tbody><tr><td id="d321432e110">
 
 **Create a space**
 
@@ -53,9 +53,9 @@ Steps
 1.  On the Spaces list, select **New**.
 2.  On the Create New Space form, fill in the fields based on your requirement.
 3.  Select **Save**.
- **Important:** If you have Workplace Space Management installed, the Create New Space form contains fields from the `Space` form. For more information about the Space form, see [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-a-space.md).
+ **Important:** If you have Workplace Space Management installed, the Create New Space form contains fields from the `Space` form. For more information about the Space form, see [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-a-space.md).
 
-</td></tr><tr><td id="d321224e156">
+</td></tr><tr><td id="d321432e156">
 
 **Edit spaces**
 
@@ -70,7 +70,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d321224e194">
+</td></tr><tr><td id="d321432e194">
 
 **Edit space allocations**
 
@@ -95,7 +95,7 @@ If you have Workplace Space Management, you can select the Cost Center, Departme
 6.  Select **Apply**.
 
 
-</td></tr><tr><td id="d321224e258">
+</td></tr><tr><td id="d321432e258">
 
 **Remove space allocations**
 
@@ -110,7 +110,7 @@ Allocation types are available only if you have the Workplace Space Management.
 4.  Review the current allocation details, then select **Save**.
 
 
-</td></tr><tr><td id="d321224e297">
+</td></tr><tr><td id="d321432e297">
 
 **Export space details**
 
@@ -137,5 +137,5 @@ If you select email, you must enter the email address of the recipient.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Working with Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-planning.md)
+**Parent Topic:**[Working with Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-planning.md)
 

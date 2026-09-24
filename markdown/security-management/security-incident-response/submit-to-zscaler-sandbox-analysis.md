@@ -2,7 +2,7 @@
 title: Submit to Zscaler Sandbox analysis
 description: Use the Zscaler Internet Access products sandbox service to analyzes files in a virtual environment to detect malicious behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/submit-to-zscaler-sandbox-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/submit-to-zscaler-sandbox-analysis.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

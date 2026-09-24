@@ -2,7 +2,7 @@
 title: Create a CSM Table Map for Retail Task Management Core
 description: Create a CSM table map to create multi-store case configurations for use with your service definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-retail-create-csm-table-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/legacy-retail-task-management/rahi-retail-create-csm-table-map.html
 release: australia
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management

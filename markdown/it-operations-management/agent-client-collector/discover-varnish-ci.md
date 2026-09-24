@@ -2,7 +2,7 @@
 title: Enable running of Varnish checks
 description: Use application fingerprints to discover the Varnish CI, to enable running Varnish checks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/discover-varnish-ci.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/discover-varnish-ci.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -49,5 +49,5 @@ The varnishstat CI is discovered and a record is created in the u\_cmdb\_ci\_var
 
 The Varnish policies and checks are available to run.
 
-**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

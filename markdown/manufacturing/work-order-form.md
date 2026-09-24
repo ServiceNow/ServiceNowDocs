@@ -2,7 +2,7 @@
 title: Work order form
 description: Create and track field service work orders for on-site correction, containment, or repair activities linked to a QIM record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/work-order-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/work-order-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-16"
@@ -235,10 +235,10 @@ Latest completion date
 Date when the previous work order for the schedule occurrence was completed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qim-form.md)
 
 **Related topics**  
 
 
-[Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-work-order.md)
+[Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-work-order.md)
 

@@ -2,7 +2,7 @@
 title: Roles installed with Compliance Case Management
 description: The GRC: Compliance Case Management installs the essential role to perform respective day-to-day operational tasks towards managing compliance cases for the enterprise to perform their respective tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/roles-compliance-case-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/roles-compliance-case-management.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -127,5 +127,5 @@ NA
 </td></tr></tbody>
 </table>For more information, see [https://www.servicenow.com/products/employee-center.html](https://www.servicenow.com/products/employee-center.html).
 
-**Parent Topic:**[Compliance Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/reference-data-compliance-case-management.md)
+**Parent Topic:**[Compliance Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/reference-data-compliance-case-management.md)
 

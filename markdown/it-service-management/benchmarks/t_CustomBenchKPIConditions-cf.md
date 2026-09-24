@@ -2,7 +2,7 @@
 title: Link or customize a benchmark KPI
 description: You can customize KPI conditions to fit the needs of your organization better.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_CustomBenchKPIConditions-cf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/t\_CustomBenchKPIConditions-cf.html
 release: australia
 product: Benchmarks
 classification: benchmarks

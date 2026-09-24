@@ -2,7 +2,7 @@
 title: Add a CIMD client
 description: Add a CIMD client that connects to MCP servers through AI Gateway.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-a-cimd-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-a-cimd-client.html
 release: australia
 topic_type: task
 last_updated: "2026-08-27"

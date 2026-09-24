@@ -2,7 +2,7 @@
 title: Capture Additional Data From Epic Within ServiceNow Record Producers
 description: Update the variable values in existing record producers to capture tokenized data from Epic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-update-variables-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-update-variables-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure correlation rules
 description: Enable or disable the Correlation rules or customize them according to your business requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/configure-correlation-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/configure-correlation-rules.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -40,5 +40,5 @@ The correlation rules that generate potential relationships are disabled by defa
 5.  Select **Update**.
 
 
-**Parent Topic:**[Automated correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/automated-correlation-rules.md)
+**Parent Topic:**[Automated correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/automated-correlation-rules.md)
 

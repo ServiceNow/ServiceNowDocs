@@ -2,7 +2,7 @@
 title: Disabling KPI Signals
 description: KPI Signals can be disabled on request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/disabling-kpi-signals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/disabling-kpi-signals.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,5 +18,5 @@ KPI Signals is activated by default. If you do not want this feature, request a 
 
 **Important:** If you reactivate KPI Signals, signal detection resumes from the time you originally deactivated the feature, not from the time you reactivated it.
 
-**Parent Topic:**[Configuring KPI Signals for an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-kpi-signals.md)
+**Parent Topic:**[Configuring KPI Signals for an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configuring-kpi-signals.md)
 

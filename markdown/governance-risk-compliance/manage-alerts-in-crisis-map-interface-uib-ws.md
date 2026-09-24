@@ -2,7 +2,7 @@
 title: Manage alerts from the map interface
 description: Manage alerts from the Crisis map interface to identify threats and their geo-locations relative to your assets. You can open alerts for details, dismiss them when resolved, adjust the impacted area boundaries, or undo recent changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -81,5 +81,5 @@ The Crisis map interface has been optimized to handle over 10,000 resources and 
     5.  To revert the impacted area, select the **More options** icon and select **Revert impacted area**.
 
 
-**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-collective-tasks.md)
+**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/crisis-map-collective-tasks.md)
 

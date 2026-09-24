@@ -2,7 +2,7 @@
 title: Look Up Records step
 description: Look up multiple records on any table using defined conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/lookup-records-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/lookup-records-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -61,7 +61,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## Outputs
@@ -72,7 +72,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
     Data type: **Records**
 
-    List of record Sys IDs found based on the lookup criteria that you provided. For more information, see [Records.\[Table\] data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/records-data.md).
+    List of record Sys IDs found based on the lookup criteria that you provided. For more information, see [Records.\[Table\] data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/records-data.md).
 
 -   **Table**
 
@@ -93,7 +93,7 @@ Use these general guidelines when working with the Look Up Records action.
 
 -   **Process records with For Each flow logic**
 
-    Use For Each flow logic to iterate through a list of records. For more information about using For Each flow logic, see [For Each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-for-each.md). Alternatively, you can use a Script step to process a list of records within a custom action.
+    Use For Each flow logic to iterate through a list of records. For more information about using For Each flow logic, see [For Each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic-for-each.md). Alternatively, you can use a Script step to process a list of records within a custom action.
 
 -   **Set Max Results to improve performance**
 
@@ -108,5 +108,5 @@ Use these general guidelines when working with the Look Up Records action.
 
 \[Omitted image "look-up-records-example.png"\] Alt text: Example Look Up Records step in an action.
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

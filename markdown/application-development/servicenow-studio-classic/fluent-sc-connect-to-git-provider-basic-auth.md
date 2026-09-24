@@ -2,7 +2,7 @@
 title: Connect to a Git provider using basic authentication
 description: Connect to a Git domain or repository using basic authentication credentials to manage applications in Fluent source control from ServiceNow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-basic-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-basic-auth.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -54,9 +54,9 @@ Your Git credentials are associated with your user on the instance and used for 
 
 ## What to do next
 
-After initializing or cloning a repository, you can begin using Fluent source control. For more information, see [Using Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-using-fluent-source-control.md).
+After initializing or cloning a repository, you can begin using Fluent source control. For more information, see [Using Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-using-fluent-source-control.md).
 
 To manage existing Git credentials, use the `Git: Manage Git credentials` command from the command palette.
 
-**Parent Topic:**[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)
+**Parent Topic:**[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)
 

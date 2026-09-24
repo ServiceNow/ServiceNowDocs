@@ -2,7 +2,7 @@
 title: Create a group for Care Team Agents
 description: Create a group for care team agents with the sn\_cto.care\_team\_agent role assigned so that users added to this group will inherit the collection of roles needed for care team agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-create-group-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-create-group-agents.html
 release: australia
 topic_type: task
 last_updated: "2026-04-02"

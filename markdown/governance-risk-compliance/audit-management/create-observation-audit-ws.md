@@ -2,7 +2,7 @@
 title: Create an observation for an engagement
 description: Create an audit observation to present a summary of problems, discoveries, and recommendations. The audit team can then review the observations to determine if the observation is a reportable issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-observation-audit-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/create-observation-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

@@ -2,7 +2,7 @@
 title: Use Employee Profile with HR Service Delivery
 description: Learn how the Employee Profile plugin works with HR Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-profile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +27,7 @@ On activating the Employee Profile plugin with HR Service Delivery, the followin
 
 **Note:** If you need to run the one-time scheduled job again, make sure to first activate the job and allow for the invalidated RCA before running it. Do not run the job on a scheduled basis.
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Import risk data in to a Microsoft Word
 description: Import and insert data such as Risk data points and reports into a Microsoft Word report document from a ServiceNow instance. You can only import and insert the data that is configured in your reporting configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/import-risk-data-ms-word.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/import-risk-data-ms-word.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

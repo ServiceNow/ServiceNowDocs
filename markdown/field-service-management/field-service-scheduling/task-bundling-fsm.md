@@ -2,7 +2,7 @@
 title: Bundling work order tasks
 description: Logically grouping similar tasks into a bundle enables agents to track, start, and complete related tasks at once instead of individually with Field Service Task Bundling.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/task-bundling-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/task-bundling-fsm.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -18,7 +18,7 @@ Logically grouping similar tasks into a bundle enables agents to track, start, a
 
 An administrator must activate the Field Service Task Bundling plugin to bundle work order tasks. Work order task bundling is then added to the instance, and dispatchers are able to bundle work order tasks into logical groups.
 
-For information about configuring the Field Service Task Bundling plugin, see [Configuring Task Bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configuring-fsm-task-bundling.md).
+For information about configuring the Field Service Task Bundling plugin, see [Configuring Task Bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configuring-fsm-task-bundling.md).
 
 With work order task bundling, dispatchers can do the following:
 
@@ -44,7 +44,7 @@ When a bundle is created, a work order task and work order number are assigned. 
 
 If any task in a bundle enables overtime, then the entire bundle is set to enable overtime.
 
-Administrators can configure dynamic bundling policies and rules to bundle tasks automatically. For more information, see [Dynamic task bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dynamic-task-bundling.md).
+Administrators can configure dynamic bundling policies and rules to bundle tasks automatically. For more information, see [Dynamic task bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/dynamic-task-bundling.md).
 
 ## Assigning bundles
 
@@ -58,7 +58,7 @@ After a bundle is assigned, a field service agent can accept or reject the tasks
 
 When an agent rejects a subtask in a bundle, the bundle is moved back to the Pending Dispatch state. If the bundle was schedule locked, the bundle is also unlocked to enable reassignment of the bundle.
 
-For more information, see [Accept or reject a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_AcceptOrRejectAWorkOrderTask.md).
+For more information, see [Accept or reject a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_AcceptOrRejectAWorkOrderTask.md).
 
 ## Changing a bundle
 
@@ -84,7 +84,7 @@ Like work order tasks, work order task bundles can be optimized by route, schedu
 
 -   **Dynamic scheduling**
 
-    Dynamic scheduling automatically schedules work order tasks and work order tasks bundles to agents. For more information, see [Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/dynamic-scheduling.md).
+    Dynamic scheduling automatically schedules work order tasks and work order tasks bundles to agents. For more information, see [Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/dynamic-scheduling.md).
 
     To ensure dynamic bundling runs before dynamic scheduling, admins can enable the **Dynamic Bundling before Dynamic Scheduling**\(**com.snc.dynamic.scheduling.bundle\_before\_scheduling**\) property.
 

@@ -2,7 +2,7 @@
 title: Create or modify actions of a safety incident on the Mobile Agent app
 description: Add an action to address the root causes of the safety incident. You can add multiple actions for the incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-create-modify-actions-safety-incidents-mobile-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-create-modify-actions-safety-incidents-mobile-agent.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -40,10 +40,10 @@ Role required: sn\_ohs\_im.manager or sn\_ohs\_im.agent
 
 6.  On the form, fill in the details.
 
-    For more details on field description, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-action-form.md).
+    For more details on field description, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 7.  Tap **Submit**.
 
 
-**Parent Topic:**[Manage Health and Safety incident using the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-manage-safety-incident-mobile-agent.md)
+**Parent Topic:**[Manage Health and Safety incident using the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-manage-safety-incident-mobile-agent.md)
 

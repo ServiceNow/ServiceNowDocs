@@ -2,7 +2,7 @@
 title: Exploring Workflow Studio
 description: Work with playbooks, flows, subflows, actions, data streams, and decision tables from a single consolidated interface. See operational details of your workflow applications and configure integration connections and credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/exploring-workflow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/exploring-workflow-studio.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -165,10 +165,10 @@ Workflow Studio combines playbooks, flows, subflows, actions, decision tables, a
     Workflow Studio contains execution details for all workflow object types. You no longer have to switch between applications to see execution details for a particular object type.
 
 
--   **[Getting started with process automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-process-automation.md)**  
+-   **[Getting started with process automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-process-automation.md)**  
 Learn how process automation applications can help you use the ServiceNow AI Platform® to transform your manual business processes into digitized, automated workflows.
--   **[When to use flows and Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/when-to-use-flows-and-playbooks.md)**  
+-   **[When to use flows and Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/when-to-use-flows-and-playbooks.md)**  
 Use these general guidelines to determine when to create a flow or a playbook.
 
-**Parent Topic:**[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)
+**Parent Topic:**[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio.md)
 

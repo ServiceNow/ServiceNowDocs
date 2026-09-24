@@ -2,7 +2,7 @@
 title: Viewing session analytics
 description: The Usage Insights Sessions page in the Data Foundation module lists filterable application sessions you can drill down into for more detailed insights. Refine the sessions list to focus on data such as selected screens or events for your application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/viewing-sessions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/viewing-sessions.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -114,12 +114,12 @@ You can filter a Users list by date range, user type, and country by default. Us
 
 You can view a breakdown analysis of sessions by grouping them according to country, state, device type, hourly usage, and so on. The Geographic Analytics visualization, which was available until the Xanadu release, has been replaced by this Analysis Breakdown.
 
--   **[Session Details record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/session-details-record.md)**  
+-   **[Session Details record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/session-details-record.md)**  
 View statistics and timeline details for a specific user session.
--   **[User sessions record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-sessions-record.md)**  
+-   **[User sessions record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/user-sessions-record.md)**  
 View overall session statistics for a user, and event timeline details for a user's specific sessions.
--   **[Page properties analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/page-properties-analytics.md)**  
+-   **[Page properties analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/page-properties-analytics.md)**  
 Page properties are metadata attributes that describe a page, such as the page name, owning team, language, or category. By enriching pages with properties, you can segment usage data by attributes that are meaningful to your organization instead of by page identifier alone.
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/using-uxa.md)
 

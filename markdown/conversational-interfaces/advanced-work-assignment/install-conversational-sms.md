@@ -2,7 +2,7 @@
 title: Install Conversational SMS service channel
 description: You can install the Conversational SMS service channel application \(sn\_awa\_sms\_int\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/install-conversational-sms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/install-conversational-sms.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -28,7 +28,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** The Conversational SMS service channel is automatically installed with an application that implements an SMS provider, such as the Conversational SMS Integration with Twilio \(sn\_va\_sms\_twilio\) application. For more information, see [Install Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/install-sms-twilio.md).
+**Note:** The Conversational SMS service channel is automatically installed with an application that implements an SMS provider, such as the Conversational SMS Integration with Twilio \(sn\_va\_sms\_twilio\) application. For more information, see [Install Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/install-sms-twilio.md).
 
 ## Procedure
 
@@ -43,5 +43,5 @@ Role required: admin
 
 ## What to do next
 
-[Set up the Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/configure-conversational-sms.md)
+[Set up the Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/configure-conversational-sms.md)
 

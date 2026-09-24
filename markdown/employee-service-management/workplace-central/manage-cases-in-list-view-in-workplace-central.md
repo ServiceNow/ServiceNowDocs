@@ -2,7 +2,7 @@
 title: Manage workplace cases in List view in Workplace Central
 description: The List view tab provides a traditional list view of cases in Workplace Central.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/manage-cases-in-list-view-in-workplace-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/manage-cases-in-list-view-in-workplace-central.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -57,7 +57,7 @@ The List view tab exposes standard presentational list component actions, includ
 
 \[Omitted image "casemgmt-listview-tab.png"\] Alt text:
 
-**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-case-management.md)
+**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-case-management.md)
 
 **Related topics**  
 

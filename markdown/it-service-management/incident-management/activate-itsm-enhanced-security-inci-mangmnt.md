@@ -2,7 +2,7 @@
 title: Activate ITSM Enhanced Security Features for Incident Management
 description: Prevent unauthorized access to incident-related tables using deny unless authenticated ACLs by activating the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/activate-itsm-enhanced-security-inci-mangmnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/activate-itsm-enhanced-security-inci-mangmnt.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -37,5 +37,5 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Features of enhanced security model adoption for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md)
+**Parent Topic:**[Features of enhanced security model adoption for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md)
 

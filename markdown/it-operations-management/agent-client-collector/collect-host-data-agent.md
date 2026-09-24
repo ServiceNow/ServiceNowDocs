@@ -2,7 +2,7 @@
 title: Run host data collection for an agent
 description: Collect data on the host being monitored by an agent. Manually collecting host data ensures that the host's files are up to date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/collect-host-data-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/collect-host-data-agent.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -35,5 +35,5 @@ Role required: agent\_client\_collector\_admin
 
 Data is collected for the specified agents. The collection status is indicated in the page's **Host data collection** column.
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/data-collection-enabling.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

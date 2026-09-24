@@ -2,7 +2,7 @@
 title: View the license report for the Cloud Cost Management application
 description: View details of the subscriptions purchased and consumed by your organization for the managed IT resource types such as Server, End User Computing Device, and Database using the ITAM License Report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/view-license-report-ccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/view-license-report-ccm.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -45,5 +45,5 @@ Role required: admin, usage\_admin
     -   **Subscription Unit Ratio**: Predefined ratios that determine how many assets of a Resource category require a subscription. For example, the defined ratio of 1:1 for Server means that every asset of that resource category requires one Subscription Unit.
     -   **Total Subscription Units Consumed**: The number of subscriptions per Resource category that your organization consumed. The licensing module calculates this number by applying the Subscription Unit Ratio to the Resource Total Count for each Resource Category.
 
-**Parent Topic:**[Manage Cloud Cost Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/managing-ccm-subscriptions.md)
+**Parent Topic:**[Manage Cloud Cost Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/managing-ccm-subscriptions.md)
 

@@ -2,7 +2,7 @@
 title: CAB meeting attendance using the CAB workbench
 description: 
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/attend-cab-meeting-using-cab-workbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/attend-cab-meeting-using-cab-workbench.html
 release: australia
 product: Change Management
 classification: change-management
@@ -16,7 +16,7 @@ breadcrumb: [Working with the CAB Workbench, Use, Change Management, IT Service 
 
 View the details of a CAB meeting and its agenda by navigating to **Change** &gt; **Change Advisory Board** &gt; **CAB Workbench**. From the calendar, you can view the CAB meeting schedule for a day, week, or month. To view details of a meeting, select the meeting and then select **Open** in the pop-up window.
 
-**Note:** If the system property **sn\_change\_cab.com.snc.change\_management.cab.use\_sow\_meeting** is set to true and you have the sn\_sow.sow\_user role, the CAB meeting opens in the CAB Workbench in Service Operations Workspace. If it is set to false, the meeting opens in the Core UI. For more information, see [Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/r_ChangeManagementProperties.md).
+**Note:** If the system property **sn\_change\_cab.com.snc.change\_management.cab.use\_sow\_meeting** is set to true and you have the sn\_sow.sow\_user role, the CAB meeting opens in the CAB Workbench in Service Operations Workspace. If it is set to false, the meeting opens in the Core UI. For more information, see [Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/r_ChangeManagementProperties.md).
 
 \[Omitted image "cab-meeting.png"\] Alt text: CAB meeting details.
 
@@ -86,5 +86,5 @@ View the details of a current change in the form view or in the calendar view.**
  **Note:** For standard change proposals, the **Change**, **Proposal**, and **Change Request Values** tabs provide information on change request meeting, proposal, and change request values. The show form \(\[Omitted image "show-form.png"\] Alt text: Show form icon.\) and the show calendar \(\[Omitted image "show-calendar.png"\] Alt text: Show calendar icon.\) icons do not appear for standard change proposals.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-cab-workbench-cf.md)
+</table>**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/using-cab-workbench-cf.md)
 

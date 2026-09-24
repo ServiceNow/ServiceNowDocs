@@ -2,7 +2,7 @@
 title: Display field values as interaction record tab titles
 description: Display field values, such as contact or consumer names, as titles on interaction record tabs in CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-display-values-as-tab-titles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-display-values-as-tab-titles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

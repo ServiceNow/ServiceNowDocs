@@ -2,7 +2,7 @@
 title: Compliance Home page for the IT compliance manager
 description: The Compliance Workspace provides an exclusive home page for the IT compliance manager to view the IT-related risk and compliance data. The workspace helps the IT compliance manager to centrally manage internal standards, policies, and control processes that are exclusively IT-related to comply with the external regulatory standards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/it-compliance-manager-compliance-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/it-compliance-manager-compliance-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -18,8 +18,8 @@ The Compliance Workspace provides an exclusive home page for the IT compliance m
 
 ## Configuring IT Compliance Workspace
 
--   To set up the IT Compliance Home page, see [Configuring IT compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/set-up-steps-it-compliance-ws.md).
--   For information on the tables that support IT compliance workspace and the user roles, see [Components installed with Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
+-   To set up the IT Compliance Home page, see [Configuring IT compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/set-up-steps-it-compliance-ws.md).
+-   For information on the tables that support IT compliance workspace and the user roles, see [Components installed with Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## IT Compliance Home page
 

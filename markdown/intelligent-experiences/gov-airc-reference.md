@@ -2,7 +2,7 @@
 title: Risk and Compliance reference
 description: Reference information about the scope of Risk and Compliance visibility in AI Control Tower, including key terminology used across these views.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-airc-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-13"

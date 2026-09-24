@@ -2,7 +2,7 @@
 title: Integration accounts with Web Service Access set to false
 description: Display the findings about the accounts that are authentication ServiceNow with the Web Service Access set to false under the Security findings in the Machine Identity Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/integration-accounts-wsa-false.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/integration-accounts-wsa-false.html
 release: australia
 product: Identity
 classification: identity

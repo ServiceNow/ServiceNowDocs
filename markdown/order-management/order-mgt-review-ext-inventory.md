@@ -2,7 +2,7 @@
 title: Review the external product inventory details for a customer order
 description: Review the external inventory details of the customer orders that you’ve received from the external Configure, Price, and Quote \(CPQ\) system during the order capture process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-review-ext-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-review-ext-inventory.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -93,12 +93,12 @@ During the inflight order changes, the state of the external product inventory I
     |**Delete the external product inventory details**|Select the options icon \[Omitted image "more-options.png"\] Alt text: next to the **Save** button, and then select **Delete**.|
 
 
-**Parent Topic:**[External product inventory ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/ext-inventory-id.md)
+**Parent Topic:**[External product inventory ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/ext-inventory-id.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

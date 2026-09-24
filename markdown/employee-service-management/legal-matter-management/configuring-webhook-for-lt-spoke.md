@@ -2,7 +2,7 @@
 title: Configure the webhook registry
 description: Configure a callback URL for communication between the Legal Matter Management and Legal Tracker applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/configuring-webhook-for-lt-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/configuring-webhook-for-lt-spoke.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -122,5 +122,5 @@ Password to access the webhook information.
 
 The webhook for the Legal Tracker application is successfully configured and the matter updates in Legal Tracker will be synced to Legal Matter Management and the details can be seen in external matter records. For a working webhook configuration, the Health status must be Healthy. For any wrong configurations, the Health status is shown as Broken.
 
-**Parent Topic:**[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)
+**Parent Topic:**[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)
 

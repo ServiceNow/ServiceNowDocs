@@ -2,7 +2,7 @@
 title: Import entities
 description: Reuse entities that you have created across your other Natural Language Understanding \(NLU\) models. Importing entities saves time and helps improve the intents in your model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/import-common-entities-nlu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/import-common-entities-nlu.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -67,5 +67,5 @@ Use the imported entities to annotate the utterances of the model. Train your mo
 **Related topics**  
 
 
-[Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/import-nlu-intent.md)
+[Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/import-nlu-intent.md)
 

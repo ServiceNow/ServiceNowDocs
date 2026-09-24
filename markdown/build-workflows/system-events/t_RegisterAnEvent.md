@@ -2,7 +2,7 @@
 title: Register an event
 description: You can register an event for a specific table and a business rule that fires the event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/t\_RegisterAnEvent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/system-events/t\_RegisterAnEvent.html
 release: australia
 product: System Events
 classification: system-events
@@ -94,5 +94,5 @@ Short description of the purpose of the event.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/managing-system-events.md)
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/system-events/managing-system-events.md)
 

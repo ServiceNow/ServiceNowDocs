@@ -2,7 +2,7 @@
 title: Guest users experience on Business Portal
 description: Guest users can view the header, footer, knowledge articles cards, and resources menu on the home page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/guest-users-experience-business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/guest-users-experience-business-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,12 +22,12 @@ They can also view taxonomy topic cards showcasing public content, such as artic
 
 However, on selecting any card, button or menu items, the guest users are redirected to the login page.
 
-**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 
 
-[Guest users experience on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guest-users-experience-consumer-portal.md)
+[Guest users experience on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/guest-users-experience-consumer-portal.md)
 
-[Enable language selection for guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-language-selection-guest-users-businessportal.md)
+[Enable language selection for guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-language-selection-guest-users-businessportal.md)
 

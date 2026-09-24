@@ -2,7 +2,7 @@
 title: Run a single data job
 description: Running the data job/jobs is the fourth step in transforming a field. This topic explains how to run a single data job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_RunASingleDataJob.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_RunASingleDataJob.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

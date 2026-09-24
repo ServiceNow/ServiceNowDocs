@@ -2,7 +2,7 @@
 title: Create a non-monetary benefit plan for a project
 description: Create a non-monetary benefit plan to specify the estimated benefit in a category spanning one or more fiscal periods. Project benefit plans capture the potential non-financial benefits accrued by the project when the project is executed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -36,9 +36,9 @@ The non-monetary benefit plan breakdown records are automatically created when y
 
 5.  On the form, fill in the fields.
 
-    For more information, see [Non-monetary benefit plans form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/non-monetary-benefit-plans-form.md).
+    For more information, see [Non-monetary benefit plans form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/non-monetary-benefit-plans-form.md).
 
-    **Note:** When you move the project or the milestone date, the associated benefit plans also change accordingly based on whether the benefit plan is tied to the project start date, end date, or one of the project milestones. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** controls the behavior for project date changes.
+    **Note:** When you move the project or the milestone date, the associated benefit plans also change accordingly based on whether the benefit plan is tied to the project start date, end date, or one of the project milestones. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** controls the behavior for project date changes.
 
 6.  Select **Submit**.
 
@@ -46,12 +46,12 @@ The non-monetary benefit plan breakdown records are automatically created when y
 ## What to do next
 
 -   On the Benefit Plan form, view the benefit breakdown by fiscal period in the Non-monetary Benefit Plan Breakdowns related list.
--   [Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/associate-monetary-and-non-monetary-benefit-plans-project.md), so that you can capture the potential benefits \(financial and non-financial\) accrued by the project for the hybrid benefit plans.
+-   [Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/associate-monetary-and-non-monetary-benefit-plans-project.md), so that you can capture the potential benefits \(financial and non-financial\) accrued by the project for the hybrid benefit plans.
 
--   **[Update a non-monetary benefit plan breakdown for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-a-non-monetary-benefit-plan-breakdown-for-a-project.md)**  
+-   **[Update a non-monetary benefit plan breakdown for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/update-a-non-monetary-benefit-plan-breakdown-for-a-project.md)**  
 Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -100,5 +100,5 @@ Update a non-monetary benefit plan breakdown record that specifies the estimated
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Update a non-monetary benefit plan breakdown for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-a-non-monetary-benefit-plan-breakdown-for-a-project.md)
+[Update a non-monetary benefit plan breakdown for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/update-a-non-monetary-benefit-plan-breakdown-for-a-project.md)
 

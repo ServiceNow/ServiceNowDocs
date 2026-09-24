@@ -2,7 +2,7 @@
 title: Mobile AI Voice Agent
 description: The Mobile AI Voice Agent feature extends ServiceNow's voice agent capabilities to mobile devices, allowing users to receive automated support through natural voice conversations instead of text-based chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-voice-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-voice-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

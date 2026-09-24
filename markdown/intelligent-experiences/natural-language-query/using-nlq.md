@@ -2,7 +2,7 @@
 title: Using Natural Language Query
 description: With Natural Language Query \(NLQ\), you can query data in your tables by entering requests in natural, everyday language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/using-nlq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/natural-language-query/using-nlq.html
 release: australia
 product: Natural Language Query
 classification: natural-language-query

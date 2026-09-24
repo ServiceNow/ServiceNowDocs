@@ -2,7 +2,7 @@
 title: Components installed with AI Control Tower
 description: Several types of components are installed with activation of AI Control Tower, including plugins, user roles, and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-installed-with.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-installed-with.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-11"
@@ -17,7 +17,7 @@ Several types of components are installed with activation of AI Control Tower, i
 
 ## Plugins installed
 
-Activation of AI Control Tower installs the following plugins. Additional plugins listed in [Additional plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-installed-with.md) extend AI Control Tower with capabilities for discovery, security, dashboards, and reporting.
+Activation of AI Control Tower installs the following plugins. Additional plugins listed in [Additional plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-installed-with.md) extend AI Control Tower with capabilities for discovery, security, dashboards, and reporting.
 
 |Plugin|Plugin ID|Description|
 |------|---------|-----------|

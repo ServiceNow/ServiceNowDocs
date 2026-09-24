@@ -2,7 +2,7 @@
 title: How parent/child relationships function when multiple BOMs are displayed
 description: See how product relationships are displayed in a product list that includes more than one bill of materials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/how\_do\_parentchild\_relationships\_function\_when\_multiple\_boms\_are\_displayed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/how\_do\_parentchild\_relationships\_function\_when\_multiple\_boms\_are\_displayed.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

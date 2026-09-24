@@ -2,7 +2,7 @@
 title: Approve or reject a task
 description: Review the tasks that are assigned to you and approve or reject them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/approve-reject-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/approve-reject-task.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -35,10 +35,10 @@ Role required: sn\_slm.contact or sn\_slm.admin
 4.  In the **Do you want to approve the following:** field, enter your comments and select **Approve** or **Reject**.
 
 
-**Parent Topic:**[Viewing supplier contact tasks from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/my-to-dos.md)
+**Parent Topic:**[Viewing supplier contact tasks from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/my-to-dos.md)
 
 **Related topics**  
 
 
-[Viewing supplier contact tasks from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/my-to-dos.md)
+[Viewing supplier contact tasks from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/my-to-dos.md)
 

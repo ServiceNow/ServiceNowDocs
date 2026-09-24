@@ -2,7 +2,7 @@
 title: Now Mobile app
 description: Use the Now Mobile app to view the assets that are assigned to you, to report any issues with your assets, and to remotely receive new assets. Create incidents to report any issues with your assets to your IT department.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/now-mobile-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/now-mobile-asset.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -55,7 +55,7 @@ To display additional asset task types in the Now Mobile app **My Group tasks** 
 
 For guidance on using the Mobile App Builder to create custom mobile experiences, see [Building mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/build-mobile-apps-landing.md).
 
-**Parent Topic:**[Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/mobile-my-asset.md)
+**Parent Topic:**[Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/mobile-my-asset.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: NowData framework - iOS
 description: The NowData framework contains methods that enable the instantiation of NowData services, such as NowGraphQLService, NowTableService, NowAPIService \(for custom APIs\), and NowAttachmentService.Creates an instance of NowApiService, and once complete, calls the specified completion handler.Creates an instance of NowAttachmentService, and after completion, calls the specified completion handler.Creates an instance of NowGraphQLService, and once complete, calls the specified completion handler.Creates an instance of NowTableService, and after it completes, calls the specified completion handler.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowDataAPIiOS.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowDataAPIiOS.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API impl
 
 The NowData framework contains methods that enable the instantiation of NowData services, such as NowGraphQLService, NowTableService, NowAPIService \(for custom APIs\), andNowAttachmentService.
 
-**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowData - makeApiService\(instanceUrl: URL, path: String, completion: @escaping \(\(Result&lt;NowApiService, NowServiceError&gt;\) -&gt; Void\)\)
 
@@ -64,7 +64,7 @@ completion
 
 </td><td>
 
-@escaping \(\(Result​&lt;[NowApiService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAPIServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)
+@escaping \(\(Result​&lt;[NowApiService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowAPIServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)
 
 </td><td>
 
@@ -102,7 +102,7 @@ Creates an instance of NowAttachmentService, and after completion, calls the spe
 |Name|Type|Description|
 |----|----|-----------|
 |instanceUrl|URL|URL of the ServiceNow instance whose attachments are to be accessed by the service.|
-|completion|@escaping \(\(Result​&lt;[NowAttachmentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAttachmentServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called with a `Result<NowAttachmentService, NowServiceError>` containing either an initialized `NowAttachmentService` instance or a `NowServiceError` indicating why the initialization failed.|
+|completion|@escaping \(\(Result​&lt;[NowAttachmentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowAttachmentServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called with a `Result<NowAttachmentService, NowServiceError>` containing either an initialized `NowAttachmentService` instance or a `NowServiceError` indicating why the initialization failed.|
 
 |Type|Description|
 |----|-----------|
@@ -152,7 +152,7 @@ Creates an instance of NowGraphQLService, and once complete, calls the specified
 |Name|Type|Description|
 |----|----|-----------|
 |instanceUrl|URL|URL of the ServiceNow instance providing GraphQL services.|
-|completion|@escaping \(\(Result​&lt;[NowGraphQLService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowGraphQLServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called with a `Result<NowGraphQLService, NowServiceError>` containing either an initialized `NowGraphQLService` instance or a `NowServiceError` indicating why the initialization failed.|
+|completion|@escaping \(\(Result​&lt;[NowGraphQLService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowGraphQLServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called with a `Result<NowGraphQLService, NowServiceError>` containing either an initialized `NowGraphQLService` instance or a `NowServiceError` indicating why the initialization failed.|
 
 |Type|Description|
 |----|-----------|
@@ -179,7 +179,7 @@ Creates an instance of NowTableService, and after it completes, calls the specif
 |Name|Type|Description|
 |----|----|-----------|
 |instanceUrl|URL|URL of the ServiceNow instance whose tables are to be accessed by the service.|
-|completion|@escaping \(\(Result​&lt;[NowTableService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called with a `Result<NowTableService, NowServiceError>` containing either an initialized `NowTableService` instance or a `NowServiceError` indicating why the initialization failed.|
+|completion|@escaping \(\(Result​&lt;[NowTableService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called with a `Result<NowTableService, NowServiceError>` containing either an initialized `NowTableService` instance or a `NowServiceError` indicating why the initialization failed.|
 
 |Type|Description|
 |----|-----------|

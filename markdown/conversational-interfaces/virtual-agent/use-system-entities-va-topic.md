@@ -2,7 +2,7 @@
 title: Use system-derived entities in an NLU topic
 description: Associate system-derived entities such as such as date, time, duration, or location with a node in a topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/use-system-entities-va-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/use-system-entities-va-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,7 +24,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  [Create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) called `Booking Reservations`.
+1.  [Create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) called `Booking Reservations`.
 
     When completing the **Properties** tab, make sure that you choose the Booking Reservations NLU model that you created in an earlier exercise.
 
@@ -199,7 +199,7 @@ Slide this toggle switch to enable topic switching.
 
 Use additional system-derived entities for your Booking a Reservation topic. For example, you can use system-derived entities to capture the dates that the user wants to travel.
 
-For more information about default system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-system-entities.md).
+For more information about default system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/nlu-system-entities.md).
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

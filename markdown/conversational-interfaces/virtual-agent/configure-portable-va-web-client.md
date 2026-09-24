@@ -2,7 +2,7 @@
 title: Configure the portable Virtual Agent chat widget
 description: Configure the portable Virtual Agent chat widget to run Virtual Agent on third-party web pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-portable-va-web-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-portable-va-web-client.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,9 +20,9 @@ Configure the portable Virtual Agent chat widget to run Virtual Agent on third-p
 
 **Note:**
 
-For the enhanced chat Virtual Agent display experience, the assistant's **Allow public access for this assistant** check box must be selected to instantiate correctly, regardless if you want guest sessions. Go to **Conversational Interfaces** &gt; **Assistant Designer** &gt; **\[Assistant name\]** and select **Edit**. While editing the assistant, go to **Settings** &gt; **Display experiences**, and then select the **Allow public access for this assistant** check box and **Save**. For more information about this check box, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+For the enhanced chat Virtual Agent display experience, the assistant's **Allow public access for this assistant** check box must be selected to instantiate correctly, regardless if you want guest sessions. Go to **Conversational Interfaces** &gt; **Assistant Designer** &gt; **\[Assistant name\]** and select **Edit**. While editing the assistant, go to **Settings** &gt; **Display experiences**, and then select the **Allow public access for this assistant** check box and **Save**. For more information about this check box, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
-For the standard chat Virtual Agent display experience, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the sn\_va\_web\_client\_app\_embed page for public access. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_MakeAPagePublic.md) and [Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-public-access-web-client.md).
+For the standard chat Virtual Agent display experience, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the sn\_va\_web\_client\_app\_embed page for public access. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_MakeAPagePublic.md) and [Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/enable-public-access-web-client.md).
 
 Role required: admin
 
@@ -239,7 +239,7 @@ The number of seconds to cache the client session. After an initial CORS request
 
 ## What to do next
 
-[Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-portable-va-client-website.md).
+[Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-portable-va-client-website.md).
 
-**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
+**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
 

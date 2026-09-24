@@ -2,7 +2,7 @@
 title: Configure the Customer and Consumer Service Portals
 description: Configure the Customer and Consumer Service Portals to provide information and support for your customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

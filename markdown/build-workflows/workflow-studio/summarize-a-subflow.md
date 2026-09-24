@@ -2,7 +2,7 @@
 title: Summarize a subflow
 description: Generate a summary of a subflow with ServiceNow Otto for Creator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/summarize-a-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/summarize-a-subflow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -48,5 +48,5 @@ ServiceNow Otto for Creator generates a summary of the subflow. The subflow summ
 
 You can regenerate the subflow summary by selecting the **Refresh summary** icon next to the summary creation date.
 
-**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflows.md)
 

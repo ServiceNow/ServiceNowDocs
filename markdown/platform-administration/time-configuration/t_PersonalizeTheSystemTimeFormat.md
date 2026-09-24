@@ -2,7 +2,7 @@
 title: Personalize the system time format
 description: You can personalize the format in which time values appear in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_PersonalizeTheSystemTimeFormat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/t\_PersonalizeTheSystemTimeFormat.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -18,7 +18,7 @@ You can personalize the format in which time values appear in your instance.
 
 ## Before you begin
 
-An administrator must add the **Time format** field to the Self-Service view of the User form. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+An administrator must add the **Time format** field to the Self-Service view of the User form. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md).
 
 Role required: Admin
 
@@ -35,7 +35,7 @@ Personalizing the time format does not change global settings or impact the way 
 3.  Select **Update**.
 
 
-**Parent Topic:**[Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md)
+**Parent Topic:**[Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/r_FormatDateAndTimeFields.md)
 
 **Related topics**  
 

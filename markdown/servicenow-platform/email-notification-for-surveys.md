@@ -2,7 +2,7 @@
 title: Email notifications for surveys
 description: When an administrator creates a survey and assigns it to a user, an email notification is sent to the user. Selecting the survey link in the email notification redirects the user to the survey page, where the user can take the survey. This type of survey is called a non-triggered survey.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/email-notification-for-surveys.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/email-notification-for-surveys.html
 release: australia
 topic_type: concept
 last_updated: "2025-01-30"
@@ -18,7 +18,7 @@ Triggered surveys are sent when a defined trigger condition is met. The OOB even
 
 To configure the teams that must receive the notification, or modify the notification content, navigate to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications** and open the **Survey Invitation** notification.
 
-**Note:** You can include an embedded survey in the survey email notification by using the **Outlook Actionable Message** check box. After you select this check box and save the survey, a validation is run to verify that all survey questions are supported. This field is available only when the Outlook Actionable Messages \(sn\_ms\_oam\) plugin is installed. For more information, see [Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/outlook-actionable-messages.md).
+**Note:** You can include an embedded survey in the survey email notification by using the **Outlook Actionable Message** check box. After you select this check box and save the survey, a validation is run to verify that all survey questions are supported. This field is available only when the Outlook Actionable Messages \(sn\_ms\_oam\) plugin is installed. For more information, see [Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/outlook-actionable-messages.md).
 
 ## Base system Survey Invitation notification
 
@@ -26,7 +26,7 @@ ServiceNow includes a pre-configured **Survey Invitation** notification for surv
 
 To locate a notification, navigate to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications** and open the **Survey Invitation** notification.
 
-**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 

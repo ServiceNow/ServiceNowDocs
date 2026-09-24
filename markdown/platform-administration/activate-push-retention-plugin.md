@@ -2,7 +2,7 @@
 title: Activate the Push Retention plugin
 description: The Push Retention plugin \(com.glide.push\_retention\) provides the retention policy for push notifications, so that you can specify when the system archives and destroys push notification records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/activate-push-retention-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/activate-push-retention-plugin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,10 +30,10 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Push notification retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/push-notification-retention.md)
+**Parent Topic:**[Push notification retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/push-notification-retention.md)
 
 **Related topics**  
 

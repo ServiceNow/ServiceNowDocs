@@ -2,7 +2,7 @@
 title: Field Service Management glossary
 description: Learn about terms and concepts that are unique to Field Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/glossary-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/glossary-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-12"
@@ -16,7 +16,7 @@ Learn about terms and concepts that are unique to Field Service Management.
 
 Glossary terms are listed alphabetically.
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 
 ## access hours
 

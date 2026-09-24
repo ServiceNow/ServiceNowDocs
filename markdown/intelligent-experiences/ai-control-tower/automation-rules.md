@@ -2,7 +2,7 @@
 title: Automation rules
 description: The Automation rules define how AI assets are set to be under managed assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/automation-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/automation-rules.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -37,5 +37,5 @@ Only active rules are evaluated during scheduled runs; inactive rules are skippe
 
 For information on Managed and Unmanaged assets, see [AI assets- Managed and Unmanaged](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-For information on creating rules, see [Create an Automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-automation-rules.md)
+For information on creating rules, see [Create an Automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/create-automation-rules.md)
 

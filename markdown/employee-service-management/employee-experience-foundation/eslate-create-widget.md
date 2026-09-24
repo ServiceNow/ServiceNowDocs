@@ -2,7 +2,7 @@
 title: Create a widget with the AI-powered Widget Builder
 description: Use the AI-powered Widget Builder to generate an Employee Slate widget from a natural-language prompt. Refine the widget properties and publish the widget to the widget library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-create-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-create-widget.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

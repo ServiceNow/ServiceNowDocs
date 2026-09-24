@@ -2,7 +2,7 @@
 title: Configure a Date filter in the inline editor
 description: Let users select predefined periods or specify custom start and end dates for the data on a dashboard tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-date-filter-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-date-filter-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Let users select predefined periods or specify custom start and end dates for th
 
 ## Before you begin
 
-**Important:** This procedure assumes you’ve created a filter in the Filter designer or added a filter to your dashboard with the Date filter type. For instructions, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md).
+**Important:** This procedure assumes you’ve created a filter in the Filter designer or added a filter to your dashboard with the Date filter type. For instructions, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-filter-library.md).
 
 Role required: In the dashboard inline editor: dashboard\_admin, or you must be the dashboard owner or have had editing rights shared with you.
 
@@ -30,7 +30,7 @@ For time series data visualizations showing table or indicator data, the data ag
 
 ## Procedure
 
-1.  Create a filter and select the Date filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md).
+1.  Create a filter and select the Date filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-filter-library.md).
 
 2.  Specify the data to filter.
 
@@ -68,12 +68,12 @@ The filter is ready to use when you exit editing mode.
 
 ## What to do next
 
-If you have the required roles, add the filter to the filter library. You can also reconfigure, delete, or duplicate the filter. For more information, see [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md).
+If you have the required roles, add the filter to the filter library. You can also reconfigure, delete, or duplicate the filter. For more information, see [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-filters-configurable-workspaces.md).
 
 **Related topics**  
 
 
-[Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md)
+[Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-filters-configurable-workspaces.md)
 
-[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-dv-follow-filters-or-not.md)
+[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-dv-follow-filters-or-not.md)
 

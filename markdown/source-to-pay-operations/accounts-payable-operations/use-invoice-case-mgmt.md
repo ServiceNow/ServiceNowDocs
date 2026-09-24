@@ -2,7 +2,7 @@
 title: Using Invoice Case Management
 description: Manage and resolve invoice inquiry cases raised by employees and suppliers using Invoice Case Management to address invoice-related issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -17,10 +17,10 @@ breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 
 Manage and resolve invoice inquiry cases raised by employees and suppliers using Invoice Case Management to address invoice-related issues.
 
--   **[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)**  
+-   **[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)**  
 Invoice inquiry cases help resolve invoice-related issues raised by suppliers or employees through structured case workflows.
 
-**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

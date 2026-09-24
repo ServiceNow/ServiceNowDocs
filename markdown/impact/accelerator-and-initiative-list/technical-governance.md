@@ -2,7 +2,7 @@
 title: Technical Governance
 description: Guidance on technical governance management of the ServiceNow AI Platform
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/technical-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/technical-governance.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

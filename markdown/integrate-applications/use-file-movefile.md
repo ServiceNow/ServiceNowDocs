@@ -2,7 +2,7 @@
 title: Use the MoveFile component
 description: Move a file from an existing location to a new location as part of an automation Workflow by using the MoveFile component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-file-movefile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-file-movefile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the MoveFile component. For more information about these properties, see [Properties of the File components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-file-prop.md).
+You can configure the properties for the MoveFile component. For more information about these properties, see [Properties of the File components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-file-prop.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the MoveFile component. For more informatio
 
 2.  Drag the MoveFile component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the MoveFilecomponent to the corresponding ports of the other components as described in the following table.
 
@@ -43,5 +43,5 @@ You can configure the properties for the MoveFile component. For more informatio
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[File](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/file.md)
+**Parent Topic:**[File](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/file.md)
 

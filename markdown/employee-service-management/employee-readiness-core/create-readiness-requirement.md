@@ -2,7 +2,7 @@
 title: Create a health and safety requirement
 description: Create requirements to track when employees are ready to return to the workplace or visit a site. You can also create requirements that visitors must complete before entering the workplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/create-readiness-requirement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-readiness-core/create-readiness-requirement.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -22,7 +22,7 @@ Role required: sn\_imt\_core.admin
 
 ## About this task
 
-Use health and safety requirements to define the requirements that employees must fulfill before they can return to the workplace, or that visitors must fulfill before entering the workplace. Create separate requirements for employees and visitors. A requirement must apply to either employees or visitors, not both. Employee Readiness Core provides some [pre-built requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/included-health-safety-requirements.md). However, you can create additional requirements using data from any of the Safe Workplace suite or Emergency Response Management apps.
+Use health and safety requirements to define the requirements that employees must fulfill before they can return to the workplace, or that visitors must fulfill before entering the workplace. Create separate requirements for employees and visitors. A requirement must apply to either employees or visitors, not both. Employee Readiness Core provides some [pre-built requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/included-health-safety-requirements.md). However, you can create additional requirements using data from any of the Safe Workplace suite or Emergency Response Management apps.
 
 Health and safety requirements are built with [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). Before creating a requirement, make sure that you're familiar with the basics of ServiceNow® Workflow Studio.
 
@@ -288,7 +288,7 @@ Add conditions to filter the records from the table that will trigger the flow.
 
 ## What to do next
 
-When you create the requirement, it's not active by default. You must activate the requirement before you can track whether employeesor visitors have fulfilled the requirement. For instructions, see [Activate a health and safety requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/activate-readiness-requirement.md).
+When you create the requirement, it's not active by default. You must activate the requirement before you can track whether employeesor visitors have fulfilled the requirement. For instructions, see [Activate a health and safety requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/activate-readiness-requirement.md).
 
-**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

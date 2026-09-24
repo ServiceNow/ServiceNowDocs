@@ -2,7 +2,7 @@
 title: ServiceNow IDE user interface
 description: The ServiceNow IDE user interface contains many of the same features as Visual Studio Code for the Web and some unique functionality for creating ServiceNow applications.Learn about features of the ServiceNow IDE user interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -43,34 +43,34 @@ Learn about features of the ServiceNow IDE user interface.
 
 \[Omitted image "servicenow-ide-user-interface.png"\] Alt text: Identify features in the ServiceNow IDE.
 
-1.  [ServiceNow IDE home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Get started creating workspaces and applications and view existing workspaces. Switch between development environments using the experience switcher.
+1.  [ServiceNow IDE home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Get started creating workspaces and applications and view existing workspaces. Switch between development environments using the experience switcher.
 2.  Activity Bar
-    -   [File Explorer view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Navigate through applications in your workspace and their code.
-    -   [Search view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Find content within files.
-    -   [Source Control view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Integrate with a Git repository for version control of your code.
-    -   [File Categories view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Create, update, and view application metadata.
-    -   [Now SDK view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Synchronize changes to application metadata or build and install applications.
-    -   [Manage menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Access and configure various aspects of the user interface.
-3.  [Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Write source code and view application metadata through embedded ServiceNow AI Platform user interfaces.
-4.  [Status bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): View status information about your applications and files and build applications.
+    -   [File Explorer view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Navigate through applications in your workspace and their code.
+    -   [Search view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Find content within files.
+    -   [Source Control view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Integrate with a Git repository for version control of your code.
+    -   [File Categories view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Create, update, and view application metadata.
+    -   [Now SDK view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Synchronize changes to application metadata or build and install applications.
+    -   [Manage menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Access and configure various aspects of the user interface.
+3.  [Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Write source code and view application metadata through embedded ServiceNow AI Platform user interfaces.
+4.  [Status bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): View status information about your applications and files and build applications.
 
-In addition to these features, you can open the command palette to run a variety of commands to develop applications, manage files, use source control, and more. For more information, see [Command palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md).
+In addition to these features, you can open the command palette to run a variety of commands to develop applications, manage files, use source control, and more. For more information, see [Command palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md).
 
 ### ServiceNow IDE home page
 
 \[Omitted image "servicenow-ide-welcome.png"\] Alt text: The ServiceNow IDE home page with the user's workspaces listed.
 
-Create workspaces, access existing workspaces, and create or open applications. Clone a Git repository to add an existing application from a remote repository. To get started creating workspaces and applications, see [Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md). To clone a Git repository, see [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md).
+Create workspaces, access existing workspaces, and create or open applications. Clone a Git repository to add an existing application from a remote repository. To get started creating workspaces and applications, see [Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md). To clone a Git repository, see [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md).
 
 \[Omitted image "servicenow-ide-exp-switcher.png"\] Alt text: Experience switcher from the ServiceNow IDE
 
-Work in the right environment for your task by using the experience switcher to switch between developing in ServiceNow IDE, ServiceNow Studio, and Creator Studio. For information about configuring the experience switcher, see [Configure non-default access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configure-access-experience-switcher.md).
+Work in the right environment for your task by using the experience switcher to switch between developing in ServiceNow IDE, ServiceNow Studio, and Creator Studio. For information about configuring the experience switcher, see [Configure non-default access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/configure-access-experience-switcher.md).
 
 ### File Explorer view
 
 \[Omitted image "servicenow-ide-file-explorer.png"\] Alt text: File Explorer view
 
-Navigate through applications in a workspace and add files or folders. In the Outline section, view the outline of the active file in the editor. In the Timeline section, view a history of changes to the active file. For information about the default application file structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
+Navigate through applications in a workspace and add files or folders. In the Outline section, view the outline of the active file in the editor. In the Timeline section, view a history of changes to the active file. For information about the default application file structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 ### Search view
 
@@ -87,19 +87,19 @@ To search for files by name, open the search box with the following keyboard sho
 
 \[Omitted image "servicenow-ide-source-control.png"\] Alt text: Source Control view
 
-See changes to files grouped by application and the type of change. Stage, commit, and push changes to a remote repository and pull changes into your local repository. Create and checkout branches for your applications. In the Commits section, see the commit history for branches in the repository. To get started integrating with source control providers, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md).
+See changes to files grouped by application and the type of change. Stage, commit, and push changes to a remote repository and pull changes into your local repository. Create and checkout branches for your applications. In the Commits section, see the commit history for branches in the repository. To get started integrating with source control providers, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md).
 
 ### File Categories view
 
 \[Omitted image "servicenow-ide-create-file.png"\] Alt text: File Categories view
 
-Create, update, and view application metadata in the most applicable embedded ServiceNow AI Platform user interface in the editor. If you need to create some application metadata outside of source code, you can create application files from the File Categories view. For more information, see [Create an application file in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md).
+Create, update, and view application metadata in the most applicable embedded ServiceNow AI Platform user interface in the editor. If you need to create some application metadata outside of source code, you can create application files from the File Categories view. For more information, see [Create an application file in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md).
 
 ### Now SDK view
 
 \[Omitted image "servicenow-ide-now-sdk.png"\] Alt text: Now SDK view
 
-Run commands from the ServiceNow SDK application packaging service to synchronize changes to application metadata or build and install an application. For more information, see [Synchronizing applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/synchronizing-applications.md) and [Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md).
+Run commands from the ServiceNow SDK application packaging service to synchronize changes to application metadata or build and install an application. For more information, see [Synchronizing applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/synchronizing-applications.md) and [Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md).
 
 ### Manage menu
 
@@ -121,7 +121,7 @@ Switch between tabs and split the editor into groups. If a file has unsaved chan
 
 \[Omitted image "servicenow-ide-unsaved-changes.png"\] Alt text: File with unsaved changes.
 
-To get started developing applications in source code, see [Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md).
+To get started developing applications in source code, see [Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md).
 
 ### Status bar
 
@@ -137,7 +137,7 @@ From the status bar, the panel opens and displays more information about problem
 
 \[Omitted image "servicenow-ide-command-palette.png"\] Alt text: Command palette
 
-Run commands to configure the user interface, develop applications, manage files, use source control, access a list of keyboard shortcuts, and more. The command palette includes commands unique to the ServiceNow IDE and Visual Studio Code commands. For a list of commands specific to the ServiceNow IDE, see [ServiceNow IDE commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-commands.md).
+Run commands to configure the user interface, develop applications, manage files, use source control, access a list of keyboard shortcuts, and more. The command palette includes commands unique to the ServiceNow IDE and Visual Studio Code commands. For a list of commands specific to the ServiceNow IDE, see [ServiceNow IDE commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-commands.md).
 
 To open the command palette, use one of the following keyboard shortcuts:
 

@@ -2,7 +2,7 @@
 title: Map iconography in Dispatcher Workspace
 description: Unique map pins and icons in the dispatch map that mark the location of tasks and agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/r\_DispatcherView.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/r\_DispatcherView.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ Unique map pins and icons in the dispatch map that mark the location of tasks an
 |\[Omitted image "completed-route.png"\] Alt text: Completed route.|The lighter-colored line on the dispatch map shows the route that a Field Service agent has completed.|
 |\[Omitted image "pending-route.png"\] Alt text: Pending route.|The darker-colored line on the dispatch map shows the route that a Field Service agent is planning to complete.|
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 

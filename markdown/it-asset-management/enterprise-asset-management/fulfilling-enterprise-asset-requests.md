@@ -2,7 +2,7 @@
 title: Fulfilling enterprise asset requests
 description: You can fulfill enterprise asset requests that have been submitted through the Service Catalog application. You can fulfill these requests either manually or through the help manage enterprise asset requests agentic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/fulfilling-enterprise-asset-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/fulfilling-enterprise-asset-requests.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -16,8 +16,8 @@ breadcrumb: [Using Service Catalog for Enterprise Asset Management requests and 
 
 You can fulfill enterprise asset requests that have been submitted through the Service Catalog application. You can fulfill these requests either manually or through the help manage enterprise asset requests agentic workflow.
 
--   **[Fulfill enterprise asset requests by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)**  
+-   **[Fulfill enterprise asset requests by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)**  
 You can use the help manage enterprise asset requests agentic workflow to fulfill enterprise asset requests autonomously. The workflow uses a collection of AI agents to automatically source assets for these requests.
--   **[Manually fulfill enterprise asset requests by using the enterprise asset request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-assetrequest.md)**  
+-   **[Manually fulfill enterprise asset requests by using the enterprise asset request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-eam-assetrequest.md)**  
 Use the enterprise asset request flow to request, source, and deploy catalog items from the Service Catalog application.
 

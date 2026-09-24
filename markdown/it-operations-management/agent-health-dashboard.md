@@ -2,7 +2,7 @@
 title: Agent Health dashboard
 description: The Agent Health dashboard provides visibility into the status and distribution of agents installed in your system. It allows you to quickly assess the number of deployed agents and their distribution, helping you prioritize your work more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-health-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-health-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -100,7 +100,7 @@ Line graph
 
 Agents that automatically stopped collecting data after crossing the CPU usage threshold. The CPU usage threshold is configurable in the `acc.yml` configuration file.
 
- For more information on the `acc.yml` configuration file, see [Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-yml-options.md).
+ For more information on the `acc.yml` configuration file, see [Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-yml-options.md).
 
 </td></tr><tr><td>
 

@@ -2,7 +2,7 @@
 title: Recalculate costs of a resource plan
 description: Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/recalculate-resource-costs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/recalculate-resource-costs.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -27,7 +27,7 @@ Role required: resource\_manager
 
 ## About this task
 
-To update the costs of all the resource plans of a project or demand in one go, you can use the **Recalculate Resource Costs** option from the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) or [demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.md).
+To update the costs of all the resource plans of a project or demand in one go, you can use the **Recalculate Resource Costs** option from the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) or [demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.md).
 
 ## Procedure
 
@@ -56,7 +56,7 @@ To update the costs of all the resource plans of a project or demand in one go, 
 -   Updates the recalculated resource costs on the respective cost fields on the resource plan form and the **Resource Plans** related list of the associated project or demand.
 -   Reflects the revised values on the respective cost fields of associated project or demand.
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 

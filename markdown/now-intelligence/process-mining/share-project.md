@@ -2,7 +2,7 @@
 title: Share a Process Mining project
 description: Share a project so that other have access to the data, and enable a process owner to analyze further.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/share-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/share-project.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -54,5 +54,5 @@ You can share a project in two ways:
     5.  To remove any user, group, or role from giving the access to the project, from the **Actions** list for that user, group, or role select **Remove**.
 
 
-**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-process-mining.md)
 

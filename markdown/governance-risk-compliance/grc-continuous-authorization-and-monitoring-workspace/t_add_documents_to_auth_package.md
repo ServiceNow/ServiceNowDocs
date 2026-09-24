@@ -2,7 +2,7 @@
 title: Add documents to records
 description: Link documents from your workspace, cloud storage, or local drives to authorization packages, boundaries, and engagements. You can organize documents into folders and grant access to other users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t\_add\_documents\_to\_auth\_package.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t\_add\_documents\_to\_auth\_package.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -85,5 +85,5 @@ Authorization packages, boundaries, and engagements include a Documents side pan
     Documents are successfully linked to your record and appear in the Documents panel. You can now manage permissions, create versions, and set up approval workflows for these documents.
 
 
-**Parent Topic:**[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)
+**Parent Topic:**[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)
 

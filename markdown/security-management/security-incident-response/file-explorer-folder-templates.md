@@ -2,7 +2,7 @@
 title: Create Folder Templates
 description: Use Folder Templates to automatically create unique folders for different Major Security Incident types. The folder templates within the File Explorer Component are used to create a base folder structure for the security incident in the Microsoft SharePoint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/file-explorer-folder-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/file-explorer-folder-templates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -67,5 +67,5 @@ Role required: sn\_msi.workspace\_admin
     \[Omitted image "fe-related-flow-designer-execution.png"\] Alt text: Flow designer subflows
 
 
-**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)
+**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer.md)
 

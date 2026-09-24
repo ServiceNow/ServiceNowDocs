@@ -2,7 +2,7 @@
 title: Add conversion rates using a custom rate table
 description: You can create a custom rate table to ensure repeatable and consistent calculations. In a custom rate table, you control the conversion rates and the frequency of rate conversions. If you don't define custom rate tables, FX Currency fields use the System Conversion Currency Rate \[fx\_system\_rate\] table, which updates rates daily from the ECB \(European Central Bank\) website.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/custom-rate-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/currency-administration/custom-rate-table.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -41,7 +41,7 @@ A conversion rate can be quoted in different ways.
 
 5.  Complete the remaining fields to create the new extended table.
 
-    For more details, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md) for details.
+    For more details, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_CreateATable.md) for details.
 
 6.  Click **Submit**.
 
@@ -119,7 +119,7 @@ After you create the custom rate table:
     To use it for a specific FX Currency field, change the **Conversion Rate Table** field setting in **System Localization** &gt; **FX Currency Configuration.**
 
 
-**Parent Topic:**[Setting up defaults required for FX Currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/setting-up-defaults-fx-currency-use.md)
+**Parent Topic:**[Setting up defaults required for FX Currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/setting-up-defaults-fx-currency-use.md)
 
 **Related topics**  
 
@@ -132,9 +132,9 @@ After you create the custom rate table:
 
 [Update a Currency Instance record]()
 
-[FX Currency values in import and export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-values-import-export.md)
+[FX Currency values in import and export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency-values-import-export.md)
 
-[Configuring FX Currency global settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-configure.md)
+[Configuring FX Currency global settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency-configure.md)
 
-[Specify the rate table and date source for currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-conv-rate-table-date-source.md)
+[Specify the rate table and date source for currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency-conv-rate-table-date-source.md)
 

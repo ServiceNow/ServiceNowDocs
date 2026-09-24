@@ -2,7 +2,7 @@
 title: Configure an email notification for a privacy consent request
 description: Configure an email notification to use in the Emergency Outreach app to request that employees review the organization's privacy policy and provide their consent to use their data for contact tracing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/configure-privacy-email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/configure-privacy-email.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -64,5 +64,5 @@ Role required: admin
 11. Click **Update**.
 
 
-**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-privacy-consent-settings.md)
+**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/set-up-privacy-consent-settings.md)
 

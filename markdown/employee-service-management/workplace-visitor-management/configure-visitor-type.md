@@ -2,7 +2,7 @@
 title: Configure a visitor type
 description: Create a visitor type that can be used to categorize visitors for your hosts or reception staff.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/configure-visitor-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/configure-visitor-type.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -52,7 +52,7 @@ Role required: sn\_wsd\_visitor.admin
     The visitor type is created and is available to hosts and reception staff members.
 
 
-**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 

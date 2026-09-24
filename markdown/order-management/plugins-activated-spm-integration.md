@@ -2,7 +2,7 @@
 title: Plugins activated for the Strategic Portfolio Management \(SPM\) integration
 description: The Strategic Portfolio Management \(SPM\) integration is included with the Order Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/plugins-activated-spm-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/plugins-activated-spm-integration.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

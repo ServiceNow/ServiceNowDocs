@@ -2,7 +2,7 @@
 title: On-call bulk roster template Excel file
 description: The roster template workbook contains one sheet per mapped group, prefilled with shift template details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/oc-bulk-schedule-roster-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/oc-bulk-schedule-roster-template.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -19,7 +19,7 @@ The roster template workbook contains one sheet per mapped group, prefilled with
 
 When you select **Download template** on the roster upload step of the On-call Onboarding wizard, the wizard generates the `roster_template.xlsx` workbook. The wizard prefills each sheet with the shift template details for the group that you mapped in the wizard.
 
-For more information, see [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
+For more information, see [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
 
 \[Omitted image "oc-roster-template-sheet.png"\] Alt text: Screenshot showing the roster template workbook with group sheets, group members list, and roster details including rotation interval and member assignment fields.
 
@@ -112,5 +112,5 @@ If validation flags an issue, refer to the following tables for the cause and re
 |Duplicate member|The same name appears twice under one roster.|Remove the duplicate if it wasn't intentional.|
 |Member not in the group|The person is added to the roster but isn't currently an active member of the group.|The person is still scheduled, but this usually signals a mismatch worth double-checking.|
 
-**Parent Topic:**[Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md)
+**Parent Topic:**[Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md)
 

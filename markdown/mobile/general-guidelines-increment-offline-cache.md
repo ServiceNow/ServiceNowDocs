@@ -2,7 +2,7 @@
 title: General guidelines for incremental ofﬂine caching
 description: When working with incremental offline caching keep these general guidelines in mind for usability and a good user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/general-guidelines-increment-offline-cache.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/general-guidelines-increment-offline-cache.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-01"
@@ -41,5 +41,5 @@ When working with incremental offline caching keep these general guidelines in m
     -   Any updates beyond 10 in that hour are deferred to the next hour.
     -   If changes occur in quick succession, the push schedule follows the minimum wait constraint, even if fewer than the maximum pushes have been used.
 
-**Parent Topic:**[Incremental offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-cache-incremental.md)
+**Parent Topic:**[Incremental offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-cache-incremental.md)
 

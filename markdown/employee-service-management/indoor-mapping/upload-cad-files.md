@@ -2,7 +2,7 @@
 title: Upload CAD files
 description: Import floor plans by uploading the CAD files in bulk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/upload-cad-files.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/upload-cad-files.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -30,7 +30,7 @@ Role required: sn\_map\_core.map\_admin
 
 4.  On the Floor plan import group form, fill in the fields.
 
-    For a description of the field values, see [Floor map import group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/import-group-form.md).
+    For a description of the field values, see [Floor map import group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/import-group-form.md).
 
 5.  Select **Submit**.
 
@@ -45,11 +45,11 @@ Role required: sn\_map\_core.map\_admin
 
 ## What to do next
 
--   Work on the import tasks that are created for your import group. For more information about working on import tasks, see [Work on an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/work-import-task.md).
+-   Work on the import tasks that are created for your import group. For more information about working on import tasks, see [Work on an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/work-import-task.md).
 
     After the import tasks are created, the Automate map updates AI agentic workflow is triggered for each task. The Map Admin Agent autonomously retrieves sources for the uploaded CAD file and resumes the import task. If the source isn't found, the agent moves the task to the `Waiting user input` state.
 
-    For more information about the Automate map updates AI agentic workflow, see [Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md).
+    For more information about the Automate map updates AI agentic workflow, see [Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md).
 
     **Note:** If you selected **Supervised AI execution** in the Floor map import group form, you must manually trigger the AI agent for every import task.
 

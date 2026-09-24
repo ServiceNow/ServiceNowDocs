@@ -2,7 +2,7 @@
 title: Atlassian Administration Spoke
 description: The Atlassian Administration spoke provides actions to view and analyze meaningful usage data for Atlassian Administration subscriptions. The spoke downloads subscription information and usage, pulls group details, and removes users from a group.Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/atlassian-administration-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/atlassian-administration-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

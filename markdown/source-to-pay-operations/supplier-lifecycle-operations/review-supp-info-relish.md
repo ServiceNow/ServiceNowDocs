@@ -2,7 +2,7 @@
 title: Review supplier information using Relish
 description: Using Relish integration, checking supplier's banking details, tax information, physical addresses, and sanction screening can be done efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -19,7 +19,7 @@ Using Relish integration, checking supplier's banking details, tax information, 
 **Important:**
 
 -   Check your entitlements to determine whether you have access to Relish integration.
--   The SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\) must be installed for reviewing supplier information using Relish. For more information on Relish integration, see [Relish Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.md).
+-   The SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\) must be installed for reviewing supplier information using Relish. For more information on Relish integration, see [Relish Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.md).
 
 The details of the following case types in the **Review supplier primary data request** playbook can be verified using Relish integration:
 
@@ -28,21 +28,21 @@ The details of the following case types in the **Review supplier primary data re
 -   Tax information change request: For verifying updated tax details
 -   Conduct sanction screening: For verifying that the supplier is not found in any sanction list
 
--   **[Verify supplier location change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/verify-supplier-location.md)**  
+-   **[Verify supplier location change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/verify-supplier-location.md)**  
 When a location change request is assigned to a supplier manager and they start working on it, they can verify the new location using Relish.
--   **[Verify banking information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/verify-banking-information.md)**  
+-   **[Verify banking information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/verify-banking-information.md)**  
 When a banking details change request is assigned to a supplier manager and they start working on it, they can verify the details using Relish.
--   **[Verify tax information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/validate-tax-information.md)**  
+-   **[Verify tax information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/validate-tax-information.md)**  
 When a tax information change request is assigned to a supplier manager and they start working on it, they can verify the tax details using Relish.
--   **[Conduct sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.md)**  
+-   **[Conduct sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/conduct-sanction-screening.md)**  
 When a sanction screening request for compliance verification is assigned to a supplier manager and they start working on it, they can verify the details using Relish.
--   **[Conduct bulk sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/perform-bulk-sanction-screening.md)**  
+-   **[Conduct bulk sanction screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/perform-bulk-sanction-screening.md)**  
 Supplier managers can conduct sanction screening for multiple suppliers simultaneously using the bulk sanction screening feature.
 
-**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
+**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 
 **Related topics**  
 
 
-[Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md)
+[Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md)
 

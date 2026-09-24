@@ -2,7 +2,7 @@
 title: Agentic evaluation run results
 description: Learn about agentic evaluation runs and the meaning behind different evaluation scores from the agentic evaluation results page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-eval-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-eval-metrics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-25"
@@ -24,7 +24,7 @@ After you've reviewed your evaluation results, you can archive your evaluation o
 
 You can export the evaluation results as a report. The report is formatted as a .csv file that includes the individual sys\_ids of the execution records and the metric scores for each.
 
-For more information on AI agent usage and other analytics, you can review the [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-dashboard.md) in the AI Agent Studio.
+For more information on AI agent usage and other analytics, you can review the [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-dashboard.md) in the AI Agent Studio.
 
 ## Evaluation results overview
 

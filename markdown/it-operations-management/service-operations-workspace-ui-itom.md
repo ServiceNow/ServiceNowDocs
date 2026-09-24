@@ -2,7 +2,7 @@
 title: Service Operations Workspace for ITOM user interface
 description: Explore the interface to understand how an operator can prioritize tasks and offer solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-ui-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-operations-workspace-ui-itom.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ For each tile, select the \[Omitted image "icon-open-el.png"\] Alt text: Open in
 
 To access information on alerts from List, select the List icon \(\[Omitted image "lists-icon-itom.png"\] Alt text: List icon\).
 
-The **Lists** tab displays predefined lists, while the **My Lists** tab allows users to create and customize their own lists for personalized task management. For detailed instructions on creating a list, see [Create a list in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-list-sow-itom.md).
+The **Lists** tab displays predefined lists, while the **My Lists** tab allows users to create and customize their own lists for personalized task management. For detailed instructions on creating a list, see [Create a list in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-list-sow-itom.md).
 
 \[Omitted image "list-tab-sow-itom.png"\] Alt text: List tab
 

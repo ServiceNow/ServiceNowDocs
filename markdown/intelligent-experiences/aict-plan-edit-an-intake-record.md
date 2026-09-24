@@ -2,7 +2,7 @@
 title: Manage intake records
 description: Update the details of an existing intake record to reflect changes in scope, priority, or other relevant information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-edit-an-intake-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-edit-an-intake-record.html
 release: australia
 topic_type: task
 last_updated: "2026-04-23"
@@ -34,9 +34,9 @@ Role required: sn\_ai\_governance.ai\_steward
 
     For field information, see:
 
-    -   [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-demand-form.md)
-    -   [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-feedback-form.md)
-    -   [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-product-idea-form.md)
+    -   [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-demand-form.md)
+    -   [Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-feedback-form.md)
+    -   [Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-product-idea-form.md)
 6.  Select **Update**.
 
     The edited record is displayed in the respective list if it meets the list's display criteria.

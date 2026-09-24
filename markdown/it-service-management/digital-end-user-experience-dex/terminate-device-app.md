@@ -2,7 +2,7 @@
 title: Terminate a process on your device
 description: Terminate a process on your device to boost performance and free up valuable resources for smoother operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/terminate-device-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/terminate-device-app.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -51,5 +51,5 @@ The process is terminated.
 
 In the contextual side panel, select the Playbook icon \(\[Omitted image "icon-playbook.png"\] Alt text: Playbook icon\) to access the current device action and to review the action execution history of the device.
 
-**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-remedial-actions.md)
+**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-remedial-actions.md)
 

@@ -2,7 +2,7 @@
 title: Work on a document task to verify documents for a policy service case
 description: Work on a document task to manage and track documents \(inbound and outbound\) that are needed for a policy service case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-document-task-ins-policy-ops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/work-document-task-ins-policy-ops.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -93,5 +93,5 @@ If the customer is not able to submit a document and seeks an exemption from sub
 -   The document task moves to the Closed Complete state and the associated case moves to the next stage.
 -   A new task that is based on the configured workflow is automatically generated in a respective task tab of the associated case. The new task is assigned to an assignment group or agent based on the assignment rules.
 
-**Parent Topic:**[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-ins-policy-case.md)
+**Parent Topic:**[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/work-ins-policy-case.md)
 

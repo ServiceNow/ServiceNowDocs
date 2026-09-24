@@ -2,7 +2,7 @@
 title: Using ServiceNow Otto for Virtual Agent
 description: Reserve a space using the create a reservation agent and get insights on your collaborators using the Workplace Collaboration agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/create-rsv-agent-ovw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/create-rsv-agent-ovw.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -27,10 +27,10 @@ Visit these resources about ServiceNow Otto for Virtual Agent.
 -   [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 -   [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md).
 
--   **[Making reservations using the Create a reservation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/using-reservation-agent.md)**  
+-   **[Making reservations using the Create a reservation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/using-reservation-agent.md)**  
 The Create a reservation agent enables employees to find an available space and create workplace reservations quickly.
--   **[Using the workplace collaboration Agent for space suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/suggest-space-agent.md)**  
+-   **[Using the workplace collaboration Agent for space suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/suggest-space-agent.md)**  
 The Workplace Collaboration Agent provides insights on your team members in-office attendance. Based on this information, the reservation agent finds and reserves a space for reservation and collaboration. The collaboration agent considers your colleague's in-office days, location, and suggests a space for collaboration when you're in office.
 
-**Parent Topic:**[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
+**Parent Topic:**[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 

@@ -2,7 +2,7 @@
 title: View AI L1 SPO Service Desk Specialist progress
 description: Track the steps the AI L1 SPO Service Desk Specialist performs when processing a procurement case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/view-ztsd-na-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-ztsd-na-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -38,5 +38,5 @@ Role required: sn\_shop.procurement\_specialist
 7.  In the **Review output** section, review the generated response.
 
 
-**Parent Topic:**[AI L1 SPO Service Desk Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ztsd-agent-na-spo.md)
+**Parent Topic:**[AI L1 SPO Service Desk Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/ztsd-agent-na-spo.md)
 

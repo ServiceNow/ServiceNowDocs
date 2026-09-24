@@ -2,7 +2,7 @@
 title: ITOM Visibility use case
 description: The ITOM Visibility use cases are described in this section.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/itom-visibility-use-case-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/itom-visibility-use-case-example.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -57,7 +57,7 @@ The Service Map tab displays a visual representation of the service.
 
 \[Omitted image "service-map-diagram.png"\] Alt text: Service map diagram.
 
-**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
+**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
 
 **Related topics**  
 

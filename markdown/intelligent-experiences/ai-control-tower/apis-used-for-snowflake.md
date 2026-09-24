@@ -2,7 +2,7 @@
 title: Snowflake Statements API Reference
 description: The connector uses the Snowflake Statements API to query AI assets and usage data. The following queries are executed during discovery and usage collection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/apis-used-for-snowflake.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/apis-used-for-snowflake.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

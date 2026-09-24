@@ -2,7 +2,7 @@
 title: Dynamic variable support in record screens
 description: Use the script screen field in record screens to display dynamic field values. The script runs to determine the field value before it displays in your form. The value returned by the script doesn't replace the database value. For example, you can display translated content for dynamic variables within an email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/record-screen-script-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/record-screen-script-type.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Add screen fields to a record screen, Screen fields, Configure a de
 
 Use the script screen field in record screens to display dynamic field values. The script runs to determine the field value before it displays in your form. The value returned by the script doesn't replace the database value. For example, you can display translated content for dynamic variables within an email.
 
-**Note:** The script field for record screens is configured within the ServiceNow AI Platform and not in the Mobile App Builder, as is the case for the other screen fields within the record screen. For configuration steps, [Configure the script field for records screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/record-screen-script-type-config.md).
+**Note:** The script field for record screens is configured within the ServiceNow AI Platform and not in the Mobile App Builder, as is the case for the other screen fields within the record screen. For configuration steps, [Configure the script field for records screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/record-screen-script-type-config.md).
 
 ## Use case
 
@@ -27,7 +27,7 @@ The following considerations must be met when configuring dynamic variables in t
 -   In the **Type** field, select **Script**.
 -   In the **Form field** field, select a field that contains the dynamic variable you want to use.
 
-For full configuration instructions, see [Configure the script field for records screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/record-screen-script-type-config.md).
+For full configuration instructions, see [Configure the script field for records screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/record-screen-script-type-config.md).
 
 ## Working with the Execution Script field
 
@@ -135,5 +135,5 @@ Consider the following when working with a JSON script:
     ```
 
 
-**Parent Topic:**[Add screen fields to a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-add-screen-field.md)
+**Parent Topic:**[Add screen fields to a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-add-screen-field.md)
 

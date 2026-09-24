@@ -2,7 +2,7 @@
 title: Campaign fields and states
 description: Fields and states for campaigns and campaign cycles, used to define a metric set and track it through collection, approval, and closure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/campaign-fields-and-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/campaign-fields-and-states.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-04"
@@ -48,5 +48,5 @@ Fields and states for campaigns and campaign cycles, used to define a metric set
 |Approval|Metric data tasks in the campaign cycle are awaiting approval.|
 |Closed|The campaign cycle is complete.|
 
-**Parent Topic:**[GRC: Metrics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/grc-metrics-reference.md)
+**Parent Topic:**[GRC: Metrics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/grc-metrics-reference.md)
 

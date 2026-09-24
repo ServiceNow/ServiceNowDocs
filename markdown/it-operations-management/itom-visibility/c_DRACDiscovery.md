@@ -2,7 +2,7 @@
 title: Dell Remote Assistant Card discovery
 description: The Dell Remote Assistant Card \(DRAC\) and Integrated Remote Assistance Card \(iDRAC\) provide users with tools and functionality to monitor, troubleshoot, and repair servers. You can generate DNS URLs to access out-of-band devices when security prevents access from IP addresses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_DRACDiscovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/c\_DRACDiscovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -26,7 +26,7 @@ To identify the DRAC, Discovery uses the **SNMP – DRAC** probe. This probe use
 
 -   **Run network discovery**
 
-    For information on configuring and running network discovery to discover DRAC devices, see [Run network Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_NetworkDiscovery.md).
+    For information on configuring and running network discovery to discover DRAC devices, see [Run network Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_NetworkDiscovery.md).
 
 
 ## Data collected
@@ -47,5 +47,5 @@ To identify the DRAC, Discovery uses the **SNMP – DRAC** probe. This probe use
 
 A **DNS URL** is generated for configuration items in the **Out-Of-Band Device** list if the configuration item has a **Name** and **DNS Domain**. The **DNS URL** enables you to access the out-of-band device page when the SSL certificate forbids navigating through the **IP URL**. The **DNS URL** has the format `https://Name.DNS_Domain`. If either the **Name** or **DNS Domain** field is empty, the **DNS URL** contains the value in the **URL** field.
 
-**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

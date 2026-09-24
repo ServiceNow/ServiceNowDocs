@@ -2,7 +2,7 @@
 title: Extract data with Document Intelligence
 description: Manually extract invoice data when Document Intelligence completes document processing but fails to auto-populate the required invoice fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/extract-data-with-di.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/extract-data-with-di.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,7 +31,7 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
+    You can create an invoice manually. For more information on invoices, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 4.  Select **View invoice processing case**.
 
@@ -49,10 +49,10 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
     -   When the document extraction is completed either automatically or manually and all the required invoice details are populated, then the invoice is submitted automatically. The **Review header details** and **Review invoice lines** cards are set to auto-complete.
     -   When the document extraction is completed either automatically or manually, but the required fields are missing, then manually populate the invoice line fields or add invoice lines using **Review invoice lines**.
-    For more information on manual creation of invoice, see [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md).
+    For more information on manual creation of invoice, see [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md).
 
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Document Intelligence processing with playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-di-with-playbook.md)
+**Parent Topic:**[Document Intelligence processing with playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-di-with-playbook.md)
 

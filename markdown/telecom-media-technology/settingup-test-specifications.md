@@ -2,7 +2,7 @@
 title: Setting up test definitions
 description: Define tests for a particular service type, product model, or inventory to troubleshoot the service-related problems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/settingup-test-specifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/settingup-test-specifications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

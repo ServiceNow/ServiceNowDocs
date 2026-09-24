@@ -2,7 +2,7 @@
 title: Rules to archive data
 description: Create rules to archive and delete data according to your organizational policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/archive-data-ta.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/archive-data-ta.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,5 +23,5 @@ Create archive and destroy rules to archive data and delete the archived records
 
 For more information, see [System Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ArchiveData.md).
 
-**Parent Topic:**[Modify purge policies to clean up data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-purge-pollicies-ta.md)
+**Parent Topic:**[Modify purge policies to clean up data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-purge-pollicies-ta.md)
 

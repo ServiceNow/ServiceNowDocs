@@ -2,7 +2,7 @@
 title: Request a risk intelligence report
 description: Request a risk intelligence report \(RIR\) or score to gain insight on how trustworthy a particular third party can be using the Third-party Risk Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-tp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-tp.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -18,7 +18,7 @@ Request a risk intelligence report \(RIR\) or score to gain insight on how trust
 
 ## Before you begin
 
-You must set up and register all risk intelligence providers and set up request types so that they’re available as selections in the risk intelligence report form. For more information, see [Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md), [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md), and [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
+You must set up and register all risk intelligence providers and set up request types so that they’re available as selections in the risk intelligence report form. For more information, see [Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md), [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md), and [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager
 
@@ -36,11 +36,11 @@ You can order different types of risk intelligence reports such as credit risk r
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md). To create a risk intelligence report request that is associated with a due diligence request, see [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md).
+    For descriptions of all these fields, see [Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md). To create a risk intelligence report request that is associated with a due diligence request, see [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md).
 
 4.  In the Sanction section of the form, enter any sanctions-related information.
 
-    For information on how to track sanctions screening information, see [Track sanctions-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-track-sanctions.md).
+    For information on how to track sanctions screening information, see [Track sanctions-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintel-track-sanctions.md).
 
 5.  Select **Save**.
 

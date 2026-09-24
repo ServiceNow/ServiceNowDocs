@@ -2,7 +2,7 @@
 title: Knowledge article view component
 description: Displays knowledge articles along with the key details like title, content, author, view count, read time, and others. You can also rate the article and switch the language according to your preferred locale.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-know-article-view-comp-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-know-article-view-comp-overview.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

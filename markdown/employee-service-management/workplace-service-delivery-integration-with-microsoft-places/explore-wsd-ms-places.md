@@ -2,7 +2,7 @@
 title: Explore WSD for Microsoft places
 description: Manage and create all your workplace service requests from the WSD for Microsoft places application integrated with Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/explore-wsd-ms-places.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/explore-wsd-ms-places.html
 release: australia
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places
@@ -30,10 +30,10 @@ As a workplace user, the application enables you to perform the following action
 -   You can create a **Catering** service request from **Reservation services**.
 -   You can create service requests like **Badge request**, **Heating &amp; Cooling**, **Tech support**, and **Cleaning** requests from **Site services**.
 
-For more information about raising service requests, refer to [Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md).
+For more information about raising service requests, refer to [Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md).
 
 **Related topics**  
 
 
-[WSD for Microsoft places- Key features and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/wsd-for-ms-places-key-features-and-actions.md)
+[WSD for Microsoft places- Key features and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/wsd-for-ms-places-key-features-and-actions.md)
 

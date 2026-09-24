@@ -2,7 +2,7 @@
 title: POM landing page
 description: As an operational buyer, use the Purchase Order Management \(POM\) landing page to view a snapshot of your assigned purchase exceptions and tasks and take actions to resolve them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/purch-order-mgmt-tab-s2pws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/purch-order-mgmt-tab-s2pws.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -151,7 +151,7 @@ Widget
 Displays the number of all exception tasks that are assigned to you. Select the exception tasks count link to view the list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)
+</table>**Parent Topic:**[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)
 
 **Related topics**  
 

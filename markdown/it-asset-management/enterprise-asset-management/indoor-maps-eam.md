@@ -2,7 +2,7 @@
 title: Indoor maps in Enterprise Asset Management
 description: Indoor mapping provides granular location tracking to visualize asset location on a floor map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/indoor-maps-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/indoor-maps-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -53,7 +53,7 @@ To use indoor maps in the Enterprise Asset Workspace, fulfill the following requ
 
 4.  Configure the option to display the **Asset indoor map** tab in the Enterprise asset estate view of the Enterprise Asset Workspace.
 
-    For detailed instructions, see [Configure tabs in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/configure-model-asset-class-tabs.md).
+    For detailed instructions, see [Configure tabs in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/configure-model-asset-class-tabs.md).
 
     **Note:** This tab appears only if the **Include in tab** option is enabled in the Asset indoor map tab configuration.
 
@@ -62,5 +62,5 @@ To use indoor maps in the Enterprise Asset Workspace, fulfill the following requ
     **Note:** For indoor maps to show assets in the Enterprise Asset Workspace, assets must be assigned to a location of the type **place** or **room** in the Location \[cmn\_location\] table. To view newly created locations within the Enterprise Asset Management application, synchronize the locations from Map Studio to the Location \[cmn\_location\] table. You can associate the locations created in Map Studio with pre-existing records or new records in the Location \[cmn\_location\] table. For more information, see [Synchronize Indoor Mapping map data with CMN location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sync-ind-mapping-cmn-location.md).
 
 
-For more details on using indoor maps, see [Track assets using indoor maps in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/track-enterprise-assets-indoor-maps.md).
+For more details on using indoor maps, see [Track assets using indoor maps in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/track-enterprise-assets-indoor-maps.md).
 

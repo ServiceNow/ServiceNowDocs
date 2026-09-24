@@ -2,7 +2,7 @@
 title: Loan Drawdown workflow
 description: Learn how bank agents, using the Loan Drawdown workflow, resolve a loan service request for disbursement of the drawdown amount from a line of credit that has been pre-approved. The workflow applies to business loans only.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/loan-drawdown-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/loan-drawdown-workflow.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations

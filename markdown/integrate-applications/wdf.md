@@ -2,7 +2,7 @@
 title: Workflow Data Fabric Home
 description: Unify data from different systems into one consistent, governed layer. Package trusted, business-ready Data Products with built-in context and meaning. Simplify how teams discover, understand, and reuse data through the catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/wdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/wdf.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,15 +18,15 @@ Unify data from different systems into one consistent, governed layer. Package t
 
 <table id="table_atd_1jc_hhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Workflow Data Fabric concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-workflow-data-fabric.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Workflow Data Fabric concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/exploring-workflow-data-fabric.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to set up Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-workflow-data-fabric.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to set up Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configuring-workflow-data-fabric.md)
 
 </td><td>
 
-[Ask Now Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how to use ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ask-now-assist-for-recommendation.md)
+[Ask Now Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how to use ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ask-now-assist-for-recommendation.md)
 
 </td></tr><tr><td>
 
@@ -34,11 +34,11 @@ Unify data from different systems into one consistent, governed layer. Package t
 
 </td><td>
 
-[Build data assets\[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text:Learn about data products and data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-products.md)
+[Build data assets\[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text:Learn about data products and data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-products.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Workflow Data Fabric key terms and background information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Workflow Data Fabric key terms and background information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/workflow-data-fabric-reference.md)
 
 </td></tr></tbody>
 </table>

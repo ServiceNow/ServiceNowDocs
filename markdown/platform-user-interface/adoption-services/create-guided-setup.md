@@ -2,7 +2,7 @@
 title: Create a Guided Setup
 description: Create a Guided Setup to assist users with planning the roll-out of a product and performing the basic configurations to go live.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/create-guided-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/create-guided-setup.html
 release: australia
 product: Adoption Services
 classification: adoption-services

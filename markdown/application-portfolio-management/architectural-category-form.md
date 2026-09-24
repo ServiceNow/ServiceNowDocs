@@ -2,7 +2,7 @@
 title: Architectural category form
 description: Architectural category enables Enterprise architects to categorize and manage artifacts efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/architectural-category-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/architectural-category-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,10 +22,10 @@ Architectural category enables Enterprise architects to categorize and manage ar
 |Description|Description of the category.|
 |Parent Category|Hierarchical category. Select the parent category from the Architectural Categories page.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add or edit an architectural artifact category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-edit-arch-art-category.md)
+[Add or edit an architectural artifact category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-edit-arch-art-category.md)
 

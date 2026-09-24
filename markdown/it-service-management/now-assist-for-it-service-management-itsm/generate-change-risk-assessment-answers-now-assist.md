@@ -2,7 +2,7 @@
 title: Generate change risk assessment answers by using ServiceNow Otto for IT Service Management \(ITSM\)
 description: Use ServiceNow Otto for IT Service Management \(ITSM\) to automatically generate answers and reasoning for change risk assessment questions directly from a change request in Core UI or Service Operations Workspace for ITSM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -23,7 +23,7 @@ Roles required: `sn_change_write`, `change_manager`
 
 ## About this task
 
-This skill is active by default and available to users with the appropriate roles. The skill is automatically available to users with the appropriate roles. For more information, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+This skill is active by default and available to users with the appropriate roles. The skill is automatically available to users with the appropriate roles. For more information, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
 When you trigger the skill, AI reviews the change request, related records, and additional knowledge—such as compliance details, policies, or other relevant information. AI then suggests an answer and provides reasoning for each supported question in the risk assessment. The **Reasoning** field explains why AI selected each answer. You can review and adjust the suggested answers before submitting, or complete the assessment manually.
 
@@ -31,7 +31,7 @@ When you trigger the skill, AI reviews the change request, related records, and 
 
 The skill supports Likert-scale questions only. Each option in a Likert-scale question has a numerical value, which the system uses to calculate the risk score. Questions that are not Likert-scale type open without a **Reasoning** field, and you select the answer manually.
 
-To configure the data that the answer generator skill reads to suggest answers for change risk assessment questions, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
+To configure the data that the answer generator skill reads to suggest answers for change risk assessment questions, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
 
 This AI capability for generating change risk assessment answers and reasoning requires a platform version of Zurich patch 11 or Australia patch 4.
 
@@ -45,7 +45,7 @@ This AI capability for generating change risk assessment answers and reasoning r
 
     |Interface|Procedure|
     |---------|---------|
-    |**Core UI**|Under **Related Links**, select **Risk Assessment**. In the **Change Request Risk Assessment Answer Generator Skill** dialog, select **Generate Answers**. For more information on risk assessment, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_RskAsmtCalc.md).|
+    |**Core UI**|Under **Related Links**, select **Risk Assessment**. In the **Change Request Risk Assessment Answer Generator Skill** dialog, select **Generate Answers**. For more information on risk assessment, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_RskAsmtCalc.md).|
     |**Service Operations Workspace for ITSM**|Under the **Risk Evaluation** section, select **Assess Risk**. In the **Generate Risk Assessment Using AI** dialog, select **Generate Answers**.|
 
     A loading indicator appears while the answers generate. When generation is complete, the pre-filled assessment page opens with a suggested answer and a **Reasoning** field for each supported question. The **Reasoning** field explains why AI selected the answer, based on the change request context.
@@ -68,15 +68,15 @@ This AI capability for generating change risk assessment answers and reasoning r
     -   Select **Generate** to create a new risk assessment.
 6.  After you submit the risk assessment in Service Operations Workspace for ITSM, view, edit, or regenerate the saved answers.
 
-<table id="choicetable_sow_options"><thead><tr><th align="left" id="d476432e322">
+<table id="choicetable_sow_options"><thead><tr><th align="left" id="d476365e322">
 
 Option
 
-</th><th align="left" id="d476432e325">
+</th><th align="left" id="d476365e325">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d476432e331">
+</th></tr></thead><tbody><tr><td id="d476365e331">
 
 **View the saved answers**
 
@@ -84,7 +84,7 @@ Procedure
 
 In the **Record information** panel, select **View risk assessment**. The **Change Risk Assessment** dialog opens in read-only mode and shows the saved answers and reasoning for each question.
 
-</td></tr><tr><td id="d476432e349">
+</td></tr><tr><td id="d476365e349">
 
 **Edit the saved answers**
 
@@ -92,7 +92,7 @@ In the **Record information** panel, select **View risk assessment**. The **Chan
 
 Select **Assess Risk** again. The **Change Risk Assessment** dialog opens with the answers from the previous assessment copied in. Update any answers as needed, then submit the assessment.When you edit an assessment, the plain assessment page opens with the existing answers and no **Reasoning** field.
 
-</td></tr><tr><td id="d476432e369">
+</td></tr><tr><td id="d476365e369">
 
 **Regenerate the answers with the current change request context**
 

@@ -2,7 +2,7 @@
 title: OpenFrame events for work items, agent presence, and interactions
 description: Use OpenFrame events to achieve better integration between Advanced Work Assignment \(AWA\) and Computer telephony integration \(CTI\) and aide in improved call routing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/openframe-cti-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/openframe-cti-events.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ As a CTI developer, ensure that you subscribe to the following events by using t
 |openframe\_awa\_workitem\_rejected|Events are sent to OpenFrame when a work item is rejected by an agent.|
 |openframe\_agent\_off\_interaction|Events are sent to OpenFrame indicating the presence of an agent on chat as off or available.|
 
-Add and activate an OpenFrame configuration by navigating to **OpenFrame** &gt; **Configurations**. For more information, see [Create an OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAnOpenFrameConfiguration.md).
+Add and activate an OpenFrame configuration by navigating to **OpenFrame** &gt; **Configurations**. For more information, see [Create an OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_CreateAnOpenFrameConfiguration.md).
 
 ## Sample payloads
 
@@ -189,5 +189,5 @@ openframe\_agent\_off\_interaction
 </table>**Related topics**  
 
 
-[OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md)
+[OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_OpenFrameOverview.md)
 

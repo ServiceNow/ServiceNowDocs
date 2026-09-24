@@ -2,7 +2,7 @@
 title: Change the sync schedule
 description: Adjust how often the EMR Provider Directory Sync imports data by editing the FHIR Sync — Daily scheduled job directly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-configure-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-configure-schedule.html
 release: australia
 topic_type: task
 last_updated: "2026-06-16"

@@ -2,7 +2,7 @@
 title: GlideElement - Global
 description: The GlideElement API provides a number of convenient script methods for dealing with fields and their values. GlideElement methods are available for the fields of the current glide record.Determines if the user's role permits the creation of new entries in the associated field.Determines whether the user's role permits them to read the associated GlideRecord.Determines whether the user's role permits them to write to the associated GlideRecord.Determines if the current field has been modified. This functionality is available for all available data types, except Journal fields.Determines if the previous value of the current field matches the specified object.Determines if the new value of a field, after a change, matches the specified object.Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Debugs the object and adds debug messages using setError\(String\).Returns the value of the specified attribute from the dictionary.Gets the base table of the field.Returns a specified Boolean-type attribute from the dictionary as a Boolean value.Generates a choice list for a field. Returns the choice values from the base table only, not from the extended table.Gets the choice label for the current choice value.Gets the number of debug messages logged by debug\(\).Returns the field \(element\) that a specified field is dependent on.Returns the name of the table that a field is dependent on.Returns the formatted display value of the field.Returns the formatted display value of a field, or a specified substitute value if the display value is null or empty.Gets the display value of the field in the language passed as a parameter.Returns a dynamic attribute definition for this GlideElement.Returns a dynamic namespace object that is configured for the GlideElement.Gets the name of the dynamic namespace configured for the GlideElement.Returns an element descriptor, which provides information about specific fields, rather than the data inside of those fields.Returns the value for the specified element.Returns any error message associated with the specified element.Gets the escaped value for the current element.Gets the CSS style for the field.Retrieves the platform object associated with the field's value.Gets a glide record.Returns the HTML value of a field.Returns the HTML value of a field, or a specified substitute value if the HTML value is null or empty.Returns either the most recent journal entry or all journal entries.Returns the object's label.Gets the label value of the field in the language passed as a parameter.Returns the name of the field.Returns a GlideRecord object for a given reference element.Get the CSS style for the value.Returns the name of the table that contains the field.Retrieves the display value for the associated field and escapes the HTML.Returns the value of the field in the database.Retrieves the XHTML value of a field.Gets the XML value of a field as a string.Determines if a field has a specified attribute.Determines if the user has the right to perform a particular operation.Determines if the field has a value.Determines whether the field is null.Sets the duration field to a number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Sets the display value of the field.Adds an error message to the associated field.Sets the initial value of a field.Adds a journal entry and author as a work note or comment field.Sets the value of a field.Converts the field's value to a string.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideElementAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_GlideElementAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideElement API provides a number of convenient script methods for dealing with fields and their values. GlideElement methods are available for the fields of the current glide record.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideElement - canCreate\(\)
 
@@ -78,7 +78,7 @@ I can create new records for the field Problem statement for - PRB0001001
 
 ### Scoped equivalent
 
-To use the canCreate\(\) method in a scoped application, use the corresponding scoped method: [canCreate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the canCreate\(\) method in a scoped application, use the corresponding scoped method: [canCreate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - canRead\(\)
 
@@ -118,7 +118,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the canRead\(\) method in a scoped application, use the corresponding scoped method: [canRead\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the canRead\(\) method in a scoped application, use the corresponding scoped method: [canRead\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - canWrite\(\)
 
@@ -158,7 +158,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the canWrite\(\) method in a scoped application, use the corresponding scoped method: [canWrite\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the canWrite\(\) method in a scoped application, use the corresponding scoped method: [canWrite\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - changes\(\)
 
@@ -203,7 +203,7 @@ if (!current.assigned_to.nil() && current.assigned_to.changes()) {
 
 ### Scoped equivalent
 
-To use the changes\(\) method in a scoped application, use the corresponding scoped method: [changes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the changes\(\) method in a scoped application, use the corresponding scoped method: [changes\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - changesFrom\(Object value\)
 
@@ -236,7 +236,7 @@ else {
 
 ### Scoped equivalent
 
-To use the changesFrom\(\) method in a scoped application, use the corresponding scoped method: [changesFrom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the changesFrom\(\) method in a scoped application, use the corresponding scoped method: [changesFrom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - changesTo\(Object value\)
 
@@ -271,7 +271,7 @@ else {
 
 ### Scoped equivalent
 
-To use the changesTo\(\) method in a scoped application, use the corresponding scoped method: [changesTo\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the changesTo\(\) method in a scoped application, use the corresponding scoped method: [changesTo\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - dateNumericValue\(\)
 
@@ -295,7 +295,7 @@ Output: 98000
 
 ### Scoped equivalent
 
-To use the dateNumericValue\(\) method in a scoped application, use the corresponding scoped method: [dateNumericValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the dateNumericValue\(\) method in a scoped application, use the corresponding scoped method: [dateNumericValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - debug\(Object o\)
 
@@ -342,7 +342,7 @@ The value of the tree_picker attribute in the location column is true
 
 ### Scoped equivalent
 
-To use the getAttribute\(\) method in a scoped application, use the corresponding scoped method: [getAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getAttribute\(\) method in a scoped application, use the corresponding scoped method: [getAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getBaseTableName\(\)
 
@@ -420,7 +420,7 @@ false
 
 ### Scoped equivalent
 
-To use the getBooleanAttribute\(\) method in a scoped application, use the corresponding scoped method: [getBooleanAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getBooleanAttribute\(\) method in a scoped application, use the corresponding scoped method: [getBooleanAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getChoices\(String dependent\)
 
@@ -445,7 +445,7 @@ var choices = glideRecord.urgency.getChoices();
 
 ### Scoped equivalent
 
-To use the getChoices\(\) method in a scoped application, use the corresponding scoped method: [getChoices\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getChoices\(\) method in a scoped application, use the corresponding scoped method: [getChoices\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getChoiceValue\(\)
 
@@ -491,7 +491,7 @@ The label of the current priority '4' for the change request - CHG0000011 is - 4
 
 ### Scoped equivalent
 
-To use the getChoiceValue\(\) method in a scoped application, use the corresponding scoped method: [getChoiceValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getChoiceValue\(\) method in a scoped application, use the corresponding scoped method: [getChoiceValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getDebugCount\(\)
 
@@ -622,7 +622,7 @@ for (var i = 0; i < fields.size(); i++) {
 
 ### Scoped equivalent
 
-To use the getDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getDisplayValueExt\(Number maxChar, String nullSub\)
 
@@ -704,11 +704,11 @@ The Display Value of the Configuration Item for the incident - INC0000069 is NYC
 
 Gets the display value of the field in the language passed as a parameter.
 
-The result is only applicable to translatable field types such as **Choice**, **Translated Field**, and **Translated Text**. For other field types, the result defaults to [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+The result is only applicable to translatable field types such as **Choice**, **Translated Field**, and **Translated Text**. For other field types, the result defaults to [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 You must have the corresponding language plugin to retrieve a translated value. For information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
 
-See also [Scoped GlideElement - getLabelLang\(String language\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+See also [Scoped GlideElement - getLabelLang\(String language\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -737,7 +737,7 @@ getDisplayValueLang: Akzeptieren
 
 ### Scoped equivalent
 
-To use the getDisplayValueLang\(\) method in a scoped application, use the corresponding scoped method: [getDisplayValueLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getDisplayValueLang\(\) method in a scoped application, use the corresponding scoped method: [getDisplayValueLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getDynamicAttribute\(\)
 
@@ -747,9 +747,9 @@ Dynamic attributes have a defined data type and a sys\_id. For more details on d
 
 See also:
 
--   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
--   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
--   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -778,9 +778,9 @@ Dynamic attributes have a defined data type and a sys\_id. For more details on d
 
 See also:
 
--   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
--   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
--   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -823,9 +823,9 @@ Dynamic attributes have a defined data type and a sys\_id. For more details on d
 
 See also:
 
--   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
--   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
--   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -880,7 +880,7 @@ for (i=0; i<fields.size(); i++) {
 
 ### Scoped equivalent
 
-To use the getED\(\) method in a scoped application, use the corresponding scoped method: [getED\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getED\(\) method in a scoped application, use the corresponding scoped method: [getED\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getElementValue\(String value\)
 
@@ -918,7 +918,7 @@ Output
 
 Returns any error message associated with the specified element.
 
-Use the [setError\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md) method to set an error on a specific field \(element\).
+Use the [setError\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementAPI.md) method to set an error on a specific field \(element\).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1024,7 +1024,7 @@ for (var i = 0; i < fields.size(); i++) {
 
 Retrieves the platform object associated with the field's value.
 
-For a use case, see [Modify GlideDateTime field values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UsefulFieldScripts.md).
+For a use case, see [Modify GlideDateTime field values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_UsefulFieldScripts.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1083,7 +1083,7 @@ Duration display value: 8 Hours
 
 ### Scoped equivalent
 
-To use the getGlideObject\(\) method in a scoped application, use the corresponding scoped method: [getGlideObject\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getGlideObject\(\) method in a scoped application, use the corresponding scoped method: [getGlideObject\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getGlideRecord\(\)
 
@@ -1156,7 +1156,7 @@ if(gr.next()){
 
 ### Scoped equivalent
 
-To use the getHTMLValue\(\) method in a scoped application, use the corresponding scoped method: [getHTMLValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getHTMLValue\(\) method in a scoped application, use the corresponding scoped method: [getHTMLValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getHTMLValueExt\(Number maxChar, String nullSub\)
 
@@ -1231,7 +1231,7 @@ for (var i = 0; i < na.length; i++)
 
 ### Scoped equivalent
 
-To use the getJournalEntry\(\) method in a scoped application, use the corresponding scoped method: [getJournalEntry\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getJournalEntry\(\) method in a scoped application, use the corresponding scoped method: [getJournalEntry\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getLabel\(\)
 
@@ -1270,7 +1270,7 @@ while(now_GR.next()) {
 
 ### Scoped equivalent
 
-To use the getLabel\(\) method in a scoped application, use the corresponding scoped method: [getLabel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getLabel\(\) method in a scoped application, use the corresponding scoped method: [getLabel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getLabelLang\(String language\)
 
@@ -1280,8 +1280,8 @@ You must have the corresponding language plugin to retrieve a translated value. 
 
 See also:
 
--   [getDisplayValueLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
--   [getLabel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
+-   [getDisplayValueLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
+-   [getLabel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1310,7 +1310,7 @@ getLabelLang: Titel
 
 ### Scoped equivalent
 
-To use the getLabelLang\(\) method in a scoped application, use the corresponding scoped method: [getLabelLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getLabelLang\(\) method in a scoped application, use the corresponding scoped method: [getLabelLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getName\(\)
 
@@ -1371,7 +1371,7 @@ Field Value: Luddy
 
 ### Scoped equivalent
 
-To use the getName\(\) method in a scoped application, use the corresponding scoped method: [getName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getName\(\) method in a scoped application, use the corresponding scoped method: [getName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getRefRecord\(\)
 
@@ -1406,7 +1406,7 @@ if (grUSER.isValidRecord())
 
 ### Scoped equivalent
 
-To use the getRefRecord\(\) method in a scoped application, use the corresponding scoped method: [getRefRecord\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getRefRecord\(\) method in a scoped application, use the corresponding scoped method: [getRefRecord\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getStyle\(\)
 
@@ -1462,7 +1462,7 @@ if (current.approver.getTableName() == "sysapproval_approver") {
 
 ### Scoped equivalent
 
-To use the getTableName\(\) method in a scoped application, use the corresponding scoped method: [getTableName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getTableName\(\) method in a scoped application, use the corresponding scoped method: [getTableName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getTextAreaDisplayValue\(\)
 
@@ -1590,7 +1590,7 @@ Priority 1
 
 ### Scoped equivalent
 
-To use the getValue\(\) method in a scoped application, use the corresponding scoped method: [Scoped GlideElement - getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the getValue\(\) method in a scoped application, use the corresponding scoped method: [Scoped GlideElement - getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - getXHTMLValue\(\)
 
@@ -1764,7 +1764,7 @@ if (current.start_date.changes() || current.end_date.changes() || current.assign
 
 ### Scoped equivalent
 
-To use the nil\(\) method in a scoped application, use the corresponding scoped method: [nil\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the nil\(\) method in a scoped application, use the corresponding scoped method: [nil\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - setDateNumericValue\(Number milliseconds\)
 
@@ -1795,7 +1795,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setDateNumericValue\(\) method in a scoped application, use the corresponding scoped method: [setDateNumericValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the setDateNumericValue\(\) method in a scoped application, use the corresponding scoped method: [setDateNumericValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - setDisplayValue\(Object displayValue\)
 
@@ -1811,13 +1811,13 @@ Sets the display value of the field.
 
 ### Scoped equivalent
 
-To use the setDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [setDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the setDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [setDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - setError\(String errorMessage\)
 
 Adds an error message to the associated field.
 
-You can retrieve the error message using the [getError\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md) method.
+You can retrieve the error message using the [getError\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1841,13 +1841,13 @@ if ((!current.u_date1.nil()) && (!current.u_date2.nil())) {
 
 ### Scoped equivalent
 
-To use the setError\(\) method in a scoped application, use the corresponding scoped method: [setError\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the setError\(\) method in a scoped application, use the corresponding scoped method: [setError\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - setInitialValue\(Object value\)
 
 Sets the initial value of a field.
 
-This method had been deprecated. Use [GlideElement - setValue\(Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md) for this functionality.
+This method had been deprecated. Use [GlideElement - setValue\(Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementAPI.md) for this functionality.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1931,7 +1931,7 @@ now_GR.insert();
 
 ### Scoped equivalent
 
-To use the setValue\(\) method in a scoped application, use the corresponding scoped method: [setValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the setValue\(\) method in a scoped application, use the corresponding scoped method: [setValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
 ## GlideElement - toString\(\)
 
@@ -1967,5 +1967,5 @@ function doit() {
 
 ### Scoped equivalent
 
-To use the toString\(\) method in a scoped application, use the corresponding scoped method: [toString\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+To use the toString\(\) method in a scoped application, use the corresponding scoped method: [toString\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 

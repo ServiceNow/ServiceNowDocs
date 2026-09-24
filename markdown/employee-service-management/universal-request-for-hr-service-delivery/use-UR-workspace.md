@@ -2,7 +2,7 @@
 title: Using Universal Request in Agent Workspaces
 description: As a Routing Agent, use the Universal Request in Agent Workspaces to view, create, edit and resolve universal requests.The Universal Request is a task that a requester creates from any of the following sources, such as mobile application, service portal, agent workspace, or using a virtual agent chat. As a routing agent, you can create universal requests from the Universal Request application on behalf of the requester to track and resolve issues.Convert an Interaction Record to a Universal Request from the Universal Request Agent Workspace.Change the state of the universal request to Canceled to cancel the request if the issue is resolved already or you no longer require the request.Find similar Universal Requests that are open and closed, Knowledge articles, Catalog items, and Pinned articles using the Agent Assist capability in the Agent Workspace.You can transfer a primary ticket back to Universal Request, service set \(department\), or service either with resolution or without resolution.Mark a universal request as restricted when you identify the request contains sensitive information.You can unrestrict a restricted universal request if you identify that the request does not have any sensitive information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/use-UR-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/use-UR-workspace.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -22,7 +22,7 @@ You can start working on Universal Request in the Agent Workspaces from one of t
 -   List queue
 -   Global search
 
-**Parent Topic:**[Universal Request in Agent Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/universal-request-workspace.md)
+**Parent Topic:**[Universal Request in Agent Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/universal-request-workspace.md)
 
 ## Create a universal request in Agent Workspace
 
@@ -240,7 +240,7 @@ Role required: sn\_uni\_req.routing\_agent or admin
 
 Consider the following scenario. An IT service desk agent with a routing agent role receives a phone call on a request and creates a new call record or an Interaction Record with the notes. After reviewing the record, the agent realizes that the request belongs to HR and not IT. In this case, the IT Agent can create a Universal Record from the interaction record and assign it to the HR assignment group.
 
-**Note:** Universal Request is not automatically created when a fulfiller creates a department ticket from an Interaction Record. You have to perform few manual steps to get this. For more information, see [Create universal request automatically for department tickets via other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/autocreate-ur-from-interactionrecord-WS.md).
+**Note:** Universal Request is not automatically created when a fulfiller creates a department ticket from an Interaction Record. You have to perform few manual steps to get this. For more information, see [Create universal request automatically for department tickets via other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/autocreate-ur-from-interactionrecord-WS.md).
 
 ### Procedure
 
@@ -338,7 +338,7 @@ When you transfer a ticket back to universal request, you can transfer it with o
 
 \[Omitted image "route-dialog-aws.png"\] Alt text: Choose transfer reason
 
-Configure the **sn\_uni\_req.transfer\_type** property in the **Universal Request properties** page to determine how to handle the primary ticket transfers. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
+Configure the **sn\_uni\_req.transfer\_type** property in the **Universal Request properties** page to determine how to handle the primary ticket transfers. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
 ### Procedure
 
@@ -350,7 +350,7 @@ Configure the **sn\_uni\_req.transfer\_type** property in the **Universal Reques
 
 4.  In the **Transfer Ticket** dialog, provide the following details.
 
-    **Note:** Based on your transfer type configuration, the given fields are displayed. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
+    **Note:** Based on your transfer type configuration, the given fields are displayed. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
     -   **Department**: Select the department from the list.
     -   **Service**: Select the specific service of the chosen department.
@@ -362,7 +362,7 @@ Configure the **sn\_uni\_req.transfer\_type** property in the **Universal Reques
 
 5.  Click **Transfer**.
 
-    The ticket is transferred based on the transfer and transfer type configuration. For more information, see [Transfer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/configure-route-state.md).
+    The ticket is transferred based on the transfer and transfer type configuration. For more information, see [Transfer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/configure-route-state.md).
 
 
 ## Restrict universal request access in Agent Workspace

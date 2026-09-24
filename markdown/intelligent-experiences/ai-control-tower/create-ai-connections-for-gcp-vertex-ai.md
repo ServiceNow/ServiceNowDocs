@@ -2,7 +2,7 @@
 title: Create an AI connection for GCP Vertex AI \(v1.2.4\)
 description: Create an AI connection for GCP Vertex AI in AI Control Tower using the  AI Service Graph Connector for GCP Vertex AI \(version 1.2.4\)
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connections-for-gcp-vertex-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-ai-connections-for-gcp-vertex-ai.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

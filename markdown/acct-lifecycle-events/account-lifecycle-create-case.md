@@ -2,7 +2,7 @@
 title: Create an account onboarding case
 description: When the customer service agent creates an account, an account onboarding case is generated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,8 +26,8 @@ Role required: sn\_acct\_lc.agent
 
 3.  Select **New**.
 
-    The account onboarding playbook is launched. You can configure the various activities and create the account onboarding case. See [Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure.md) for details.
+    The account onboarding playbook is launched. You can configure the various activities and create the account onboarding case. See [Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-configure.md) for details.
 
 
-**Parent Topic:**[Manage account onboarding cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-acct-onboard.md)
+**Parent Topic:**[Manage account onboarding cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-acct-onboard.md)
 

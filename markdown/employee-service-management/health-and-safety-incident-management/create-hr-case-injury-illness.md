@@ -2,7 +2,7 @@
 title: Create an HR case from an injury or illness
 description: Create an HR case for an employee who is on leave because of an injury or illness or needs any other assistance from the HR department.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/create-hr-case-injury-illness.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-incident-management/create-hr-case-injury-illness.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -20,10 +20,10 @@ Create an HR case for an employee who is on leave because of an injury or illnes
 
 Ensure that the following conditions are met:
 
--   The Health and Safety Case Management \(sn\_hs\_cm\) application is installed on your ServiceNow instance. For more information, see [Install Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/install-hs-case-management.md).
--   The Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is installed on your instance. For more information on activating it, see [Activate Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md).
--   HR service property for creating an HR case for an injury is configured. For more information, see [Configure HR service for creating an HR case for an injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-configure-hr-service-property-case-injury.md).
--   **Employee** is selected in the **Person type** field on the injury and illness record. For more information, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
+-   The Health and Safety Case Management \(sn\_hs\_cm\) application is installed on your ServiceNow instance. For more information, see [Install Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/install-hs-case-management.md).
+-   The Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is installed on your instance. For more information on activating it, see [Activate Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md).
+-   HR service property for creating an HR case for an injury is configured. For more information, see [Configure HR service for creating an HR case for an injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-configure-hr-service-property-case-injury.md).
+-   **Employee** is selected in the **Person type** field on the injury and illness record. For more information, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
 
 Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations\_manager, and sn\_hs\_cm.case\_manager
 
@@ -35,15 +35,15 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 3.  Open an injury and illness record to add the HR case to.
 
-<table id="choicetable_HRcase"><thead><tr><th align="left" id="d77259e161">
+<table id="choicetable_HRcase"><thead><tr><th align="left" id="d77263e161">
 
 Option
 
-</th><th align="left" id="d77259e164">
+</th><th align="left" id="d77263e164">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77259e170">
+</th></tr></thead><tbody><tr><td id="d77263e170">
 
 **From a safety incident**
 
@@ -55,7 +55,7 @@ Steps
 4.  In the **Add injury and illness** activity, select the injury and illness report to add the case to.
 
 
-</td></tr><tr><td id="d77259e206">
+</td></tr><tr><td id="d77263e206">
 
 **From an injury and illness list**
 
@@ -71,7 +71,7 @@ Steps
 
 ## Result
 
-The HR case is created and added to the **HRSD case record** field on the injury form. For more information, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
+The HR case is created and added to the **HRSD case record** field on the injury form. For more information, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
 
-**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
+**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

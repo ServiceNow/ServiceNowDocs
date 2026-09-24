@@ -2,7 +2,7 @@
 title: Choice list field type
 description: A choice list is a type of field that lets the user select from a pre-defined set of choices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_ChoiceLists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_ChoiceLists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

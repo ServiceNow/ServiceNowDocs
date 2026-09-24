@@ -2,7 +2,7 @@
 title: Set up a configurable product in a Salesforce-integrated environment
 description: Configure a Salesforce product to use external configuration with ServiceNow blueprints when using current Salesforce Managed Package installations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: admin
 
 If your CPQ SF Managed Package was installed in June 2022 or later, follow these steps to associate a configurable product with a blueprint.
 
-**Note:** If your CPQ SF Managed Package was installed before June 2022, see [Set up a configurable product in legacy Salesforce environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment-older-managed-package.md).
+**Note:** If your CPQ SF Managed Package was installed before June 2022, see [Set up a configurable product in legacy Salesforce environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment-older-managed-package.md).
 
 ## Procedure
 
@@ -46,7 +46,7 @@ If your CPQ SF Managed Package was installed in June 2022 or later, follow these
 **Related topics**  
 
 
-[Set up a configurable product in a headless environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-configurable-product-in-a-headless-environment.md)
+[Set up a configurable product in a headless environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-configurable-product-in-a-headless-environment.md)
 
-[Set up blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/blueprints_101.md)
+[Set up blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/blueprints_101.md)
 

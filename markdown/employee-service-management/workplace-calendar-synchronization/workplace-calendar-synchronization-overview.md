@@ -2,7 +2,7 @@
 title: Explore Workplace Calendar Synchronization
 description: Enhance your workplace reservation experience. Synchronize your reservations with your calendar provider by using the ServiceNow Workplace Calendar Synchronization application. Enable your employees to make reservations with ServiceNow Workplace Reservation Management or with your organization's calendar service providers, such as Microsoft Exchange Online.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-overview.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -39,7 +39,7 @@ As an admin, you can do the following:
 
 -   Configure connections with a calendar service.
 -   Configure workplace items that require synchronization when they’re reserved.
--   Monitor events and calendar events that are created in the applications. For information about how events work, refer to [Events in Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/events-in-workplace-calendar-synchronization.md).
+-   Monitor events and calendar events that are created in the applications. For information about how events work, refer to [Events in Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/events-in-workplace-calendar-synchronization.md).
 -   For Google Calendar and Microsoft Exchange, receive calendar updates via synchronization deltas \(Sync deltas\). A Sync delta contains a token using which the application retrieves only the changes that happened since the last interval instead of displaying the complete calendar history of the workplace item.
 
     **Note:** If you’re using Microsoft Exchange Online, you cannot view synchronization deltas.
@@ -77,5 +77,5 @@ When you synchronize your calendar provider and Workplace Reservation Management
 -   Privacy of the reservation
 -   Invitees of the reservation
 
-**Parent Topic:**[Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-feat.md)
+**Parent Topic:**[Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-feat.md)
 

@@ -2,7 +2,7 @@
 title: Action-based location tracking for Field Service Management example
 description: Make updates to action-based location tracking for more accurate tracking of an agent’s location. That way you can make scheduling adjustments on the fly if you see they’re location is farther away than anticipated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/custom-tracking-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/custom-tracking-fsm.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

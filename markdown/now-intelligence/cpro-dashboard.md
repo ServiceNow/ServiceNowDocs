@@ -2,7 +2,7 @@
 title: Chief Procurement Officer \(CPRO\) Dashboard
 description: The Chief Procurement Officer Dashboard provides a consolidated view of the enterprise procurement performance across spending, requisitions, sourcing operations, negotiations, and contract life cycle management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cpro-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/cpro-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

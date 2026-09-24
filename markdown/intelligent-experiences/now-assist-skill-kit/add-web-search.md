@@ -2,7 +2,7 @@
 title: Add a web search tool
 description: Add a web search tool to your skill to retrieve web content and include it as context in your prompt.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/add-web-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/add-web-search.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -178,9 +178,9 @@ The maximum number of tokens to include from search results. Default is 1000.
 
 ## What to do next
 
-After adding the web search tool, reference its `response` output in your prompt using the **+ Inputs and tools** button in the prompt editor. To learn more, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md).
+After adding the web search tool, reference its `response` output in your prompt using the **+ Inputs and tools** button in the prompt editor. To learn more, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md).
 
-To learn more about configuring the web search capability, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md).
+To learn more about configuring the web search capability, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md).
 
-**Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
+**Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

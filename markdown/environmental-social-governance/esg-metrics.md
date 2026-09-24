@@ -2,7 +2,7 @@
 title: Exploring GRC: Metrics
 description: A metric is used to measure and evaluate the effectiveness of your organizational processes. A metric or a combination of metrics can provide an insight into a system, component, or process. The GRC: Metrics application enables other applications to assess, compare, and track the performance of the processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/esg-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/esg-metrics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

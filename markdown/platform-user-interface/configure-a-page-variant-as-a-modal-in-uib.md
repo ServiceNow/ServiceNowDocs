@@ -2,7 +2,7 @@
 title: Configure a page variant as a modal in UIB
 description: Define your page variant to appear as a modal using UI Builder configurations. This steps acts as part of the process to configure an action button to open a custom modal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-a-page-variant-as-a-modal-in-uib.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-a-page-variant-as-a-modal-in-uib.html
 release: australia
 topic_type: task
 last_updated: "2025-01-30"
@@ -18,10 +18,10 @@ Define your page variant to appear as a modal using UI Builder configurations. T
 
 Complete the following actions:
 
--   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-new-form-action.md)
+-   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-a-new-form-action.md)
 -   [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md)
--   Open your record page in UIB or create a page variant in UIB
--   [Design your page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/design-a-page-variant-in-uib.md)
+-   Open your record page in UIB or [create a page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md)
+-   [Design your page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/design-a-page-variant-in-uib.md)
 
 Role required: admin
 

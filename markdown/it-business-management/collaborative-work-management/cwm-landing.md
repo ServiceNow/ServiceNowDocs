@@ -2,7 +2,7 @@
 title: Collaborative Work Management
 description: ServiceNow Collaborative Work Management \(CWM\) provides a central hub to plan, visualize, manage, and collaborate on work with your teams. Save time and improve the efficiency of your team by avoiding switching between multiple tools to manage the progress of work and goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/cwm-landing.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -24,19 +24,19 @@ CWM enables planning tasks in detail, organizing unplanned work and its resource
 
 <table id="table_ww1_zz5_rzb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and business value of CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/exploring-cwm.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and business value of CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/exploring-cwm.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/configuring-cwm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/configuring-cwm.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-community.svg"\] Alt text:Start collaborating on work with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-spaces.md)
+[Use\[Omitted image "bus-community.svg"\] Alt text:Start collaborating on work with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-spaces.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about roles, tables, and system properties of CWM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/reference-cwm.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about roles, tables, and system properties of CWM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/reference-cwm.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

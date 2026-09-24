@@ -2,7 +2,7 @@
 title: Inputs for AI skills
 description: Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portfolio Management application. By configuring the inputs for a skill, you can determine how and when a skill is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/skill-inputs-for-ai-skills-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/skill-inputs-for-ai-skills-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

@@ -2,7 +2,7 @@
 title: Export Revocation Request Configuration
 description: Start the certificate revocation process by selecting the certificate that you want to revoke. Provide the required configuration properties. Export this transaction as part of an update set, which is imported into the protected instance for approval and execution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/export\_certificate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/export\_certificate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -80,5 +80,5 @@ Email address of the users who are authorized to approve the revocation request.
 
 ## Result
 
-The export process downloads an XML file to your local machine for use in the steps detailed in [Configure Code Signing Enterprise on your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cse-ppi-config.md).
+The export process downloads an XML file to your local machine for use in the steps detailed in [Configure Code Signing Enterprise on your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cse-ppi-config.md).
 

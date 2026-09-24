@@ -2,7 +2,7 @@
 title: Commercial Lines Claims workflows
 description: The Commercial Lines Claims application installs automated workflows that you can configure for any claims tasks. These workflows create cases and routes any tasks accordingly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/commercial-lines-claims-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/commercial-lines-claims-workflows.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

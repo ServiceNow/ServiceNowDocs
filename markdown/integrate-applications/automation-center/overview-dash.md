@@ -2,7 +2,7 @@
 title: Automation Center Overview dashboard
 description: The Automation Center Workspace landing page is the Overview dashboard, which contains basic score cards, lists, and reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/overview-dash.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/overview-dash.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -172,5 +172,5 @@ You can filter the data by department. If no department is selected, the data is
 |Requests to be deployed|Displays the automation requests ready to be deployed.\[Omitted image "overview-future-3.png"\] Alt text: Requests to be deployed|
 |Most recent requests|Lists the automation requests sorted from most recent to oldest.\[Omitted image "overview-future-4.png"\] Alt text: Most recent requests|
 
-**Parent Topic:**[Automation Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-workspace-ui.md)
+**Parent Topic:**[Automation Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-workspace-ui.md)
 

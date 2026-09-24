@@ -2,7 +2,7 @@
 title: Create response due date rules
 description: Set up the response due date rules to determine the time you want to give your end users to respond to the assigned Data Loss Prevention Incident Response \(DLP IR\) incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/setup-response-due-date-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/setup-response-due-date-rules.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -129,7 +129,7 @@ Escalate
 
 </td><td>
 
-Option to escalate the DLP incident to someone if the response due date has been breached. For more information, see [Add multiple users to access DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/add-multiple-users-to-access-dlp-incidents.md)
+Option to escalate the DLP incident to someone if the response due date has been breached. For more information, see [Add multiple users to access DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/add-multiple-users-to-access-dlp-incidents.md)
 
 </td></tr><tr><td>
 
@@ -183,10 +183,10 @@ Option to search and select a user group to escalate DLP incidents to. This fiel
 4.  Click **Submit**.
 
 
--   **[Add multiple users to access DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/add-multiple-users-to-access-dlp-incidents.md)**  
+-   **[Add multiple users to access DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/add-multiple-users-to-access-dlp-incidents.md)**  
 Use the escalation chain feature to allow all the respective users who are involved in the incident to access the DLP incidents from the list view, though the incident is assigned to a different user.
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

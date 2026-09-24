@@ -2,7 +2,7 @@
 title: Modify an email notification
 description: Edit an email notification created for an app in App Engine Studio \(AES\) to change it. For example, modify when to send the email notification, who receives it, and what it contains.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/edit-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/edit-notification.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +18,7 @@ Edit an email notification created for an app in App Engine Studio \(AES\) to ch
 
 ## Before you begin
 
-You can perform this task if you're either an administrator or a developer for the application. The required developer permission is **All File Types**. For more information on being a developer for an application, see [Delegated development in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+You can perform this task if you're either an administrator or a developer for the application. The required developer permission is **All File Types**. For more information on being a developer for an application, see [Delegated development in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 Role required: admin or delegated\_developer
 
@@ -32,7 +32,7 @@ Role required: admin or delegated\_developer
 
 4.  Edit the notification by taking the appropriate actions.
 
-    For more information on working with notification fields, see [Add an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-notification.md).
+    For more information on working with notification fields, see [Add an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-notification.md).
 
 5.  Change the template you're using.
 
@@ -45,5 +45,5 @@ Role required: admin or delegated\_developer
 6.  To save your changes, select **Save**.
 
 
-**Parent Topic:**[Add an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-notification.md)
+**Parent Topic:**[Add an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-notification.md)
 

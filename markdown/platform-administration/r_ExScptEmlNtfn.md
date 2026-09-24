@@ -2,7 +2,7 @@
 title: Example scripting for email notifications
 description: Examples of scripting for email notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_ExScptEmlNtfn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_ExScptEmlNtfn.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -87,7 +87,7 @@ if(!current.watch_list.nil()){
       email.addAddress("cc", user.email, user.getDisplayValue());}}
 ```
 
-**Parent Topic:**[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScriptingForEmailNotifications.md)
+**Parent Topic:**[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ScriptingForEmailNotifications.md)
 
 **Related topics**  
 

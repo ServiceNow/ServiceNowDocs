@@ -2,7 +2,7 @@
 title: Clone terminology
 description: A reference topic that contains various terms and definitions for cloning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-terminology.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/clone-terminology.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -98,5 +98,5 @@ You can divide your clone operation into 2 steps. 1.  Cloning from production to
 You can save time if you're dealing with multiple instances and experience long clone durations. Using this strategy, you perform lengthy operations such as post-clone cleanup scripts or excluding Task data older than 90 days only once. The clones in step 2 have a lighter footprint and complete faster.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-clone-reference.md)
+</table>**Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/instance-clone-reference.md)
 

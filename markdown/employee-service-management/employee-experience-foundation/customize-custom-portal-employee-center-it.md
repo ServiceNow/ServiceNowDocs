@@ -2,7 +2,7 @@
 title: Embed a custom portal
 description: Embed your custom portal to replace the Employee Center tab in Microsoft Teams by configuring the system property. The custom portal shows up in the Employee Center tab in Microsoft Teams.You can hide the chat option for your custom portal that appears in the Employee Center tab within Microsoft Teams.You can hide the logout option for your custom portal that appears in the Employee Center tab within Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/customize-custom-portal-employee-center-it.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/customize-custom-portal-employee-center-it.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -106,7 +106,7 @@ For example: `Frame-ancestors 'self' https://teams.microsoft.com *.office.com *.
 </table>    5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-dashboard-admin-it.md)
+**Parent Topic:**[Configuring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-dashboard-admin-it.md)
 
 ## Hide the chat button on the custom portal
 

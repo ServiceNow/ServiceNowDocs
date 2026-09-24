@@ -2,7 +2,7 @@
 title: Properties installed with Workplace Service Delivery for Mobile
 description: Several properties are available with Workplace Service Delivery for Mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/properties-installed-with-wsd-for-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-for-mobile/properties-installed-with-wsd-for-mobile.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -44,9 +44,9 @@ This property shows the **Toggle map view** option while making a reservation fr
 </td></tr></tbody>
 </table>**Note:** These properties are derived from the system properties \[sys\_properties.list\] table.
 
-**Parent Topic:**[Workplace Service Delivery for Mobile references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-references.md)
+**Parent Topic:**[Workplace Service Delivery for Mobile references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-references.md)
 
-**Previous topic:**[Components installed with Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/components-wsd-mobile.md)
+**Previous topic:**[Components installed with Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/components-wsd-mobile.md)
 
-**Next topic:**[Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/Indoor-mapping.md)
+**Next topic:**[Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/Indoor-mapping.md)
 

@@ -2,10 +2,10 @@
 title: Industry-specific data model scenarios
 description: The Service Model Foundation data model is vital for modeling the business organization structure. It can be configured and applied across different industry verticals. Each example demonstrates how internal and external organizations \(formerly internal and external business locations\), and customer relationships are structured to support real-world operational models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/smf-data-model-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/smf-data-model-example.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 10
 breadcrumb: [Data model, Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Data model, Overview, Configure Service Model Foundation, Data mode
 
 The Service Model Foundation data model is vital for modeling the business organization structure. It can be configured and applied across different industry verticals. Each example demonstrates how internal and external organizations \(formerly internal and external business locations\), and customer relationships are structured to support real-world operational models.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Exploring Service Model Foundation across industries
 

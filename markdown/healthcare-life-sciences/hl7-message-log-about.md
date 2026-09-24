@@ -2,7 +2,7 @@
 title: HL7 message log
 description: The HL7 message log stores every inbound HL7 v2.x message received by ServiceNow, along with its ACK response, extracted metadata, and processing status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-message-log-about.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-message-log-about.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-11"

@@ -2,7 +2,7 @@
 title: Look Up Record action
 description: Look up a record from any table based on defined conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/lookup-record-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/lookup-record-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -117,5 +117,5 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 \[Omitted image "flow-example-look-up-record.png"\] Alt text: Example Look Up Record action in a flow.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

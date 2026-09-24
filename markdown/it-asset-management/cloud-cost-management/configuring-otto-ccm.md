@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Otto for Cloud Cost Management \(CCM\)
 description: Configure the ServiceNow Otto for Cloud Cost Management application to use the generative AI skills for spend summarization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/configuring-otto-ccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/configuring-otto-ccm.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

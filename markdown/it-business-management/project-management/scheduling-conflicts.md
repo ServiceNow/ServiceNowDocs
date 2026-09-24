@@ -2,7 +2,7 @@
 title: Schedule conflicts between project tasks
 description: Scheduling conflict helps you to identify project tasks that are not honoring dependencies. A scheduling conflict occurs when one project task prevents other task from starting on the specified date because of dependencies or constraint types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/scheduling-conflicts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/scheduling-conflicts.html
 release: australia
 product: Project Management
 classification: project-management
@@ -41,7 +41,7 @@ When a scheduling conflict is identified, you can identify such tasks in the pla
 -   The calendar icon \(\[Omitted image "calendar-icon.png"\] Alt text: Calendar icon\) on the client side planning console changes to red \(\[Omitted image "pc-task-dep-icon.png"\] Alt text: Conflict icon\) to indicate the conflict.
 -   The calendar icon on the server side planning console changes to red \(\[Omitted image "pc-task-dep-icon.png"\] Alt text: Conflict icon\) to indicate the conflict.
 
-**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 

@@ -2,14 +2,14 @@
 title: Generate a playbook from a knowledge base article
 description: Use an existing knowledge base article to generate a playbook using AI. The stages and activities are automatically populated based on the article content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/generate-playbook-from-kb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/generate-playbook-from-kb.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-06-24"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbook generation from a KB article, Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -19,7 +19,7 @@ Use an existing knowledge base article to generate a playbook using AI. The stag
 
 ## Before you begin
 
-Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook Generation with KB** skill is turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
+Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook Generation with KB** skill is turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
 
 **Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
@@ -147,12 +147,12 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 
 After you generate the playbook, test and activate the playbook from the header.
 
-**Parent Topic:**[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-generation-from-kb.md)
+**Parent Topic:**[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-generation-from-kb.md)
 
 **Related topics**  
 
 
-[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-generation-from-kb.md)
+[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-generation-from-kb.md)
 
-[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md)
+[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/generate-a-playbook-outline.md)
 

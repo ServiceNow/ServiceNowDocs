@@ -2,10 +2,10 @@
 title: Extract information from documents
 description: The Extract Information from documents skill \(Information Extraction skill\) uses generative AI to automatically extract content from documents and images, and to respond to questions about that content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cu-extract-information-from-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cu-extract-information-from-document.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Explore, Content Understanding, Enable AI experiences]
 ---
@@ -18,7 +18,7 @@ With the Information Extraction skill, you can extract specific fields, tabular 
 
 You configure this skill in the AI Admin Hub. You can define one or more use cases that specify what to extract from a particular type of document. For example, a use case for purchase order forms extracts date and number, captures an itemized list with prices, and answers questions about specific terms in the descriptions.
 
-**Important:** The Extract Information from documents skill can't be cloned. To use the skill, create a new use case or copy an existing one. For more information, see [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-use-case.md) or [Copy a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-copy-use-case.md).
+**Important:** The Extract Information from documents skill can't be cloned. To use the skill, create a new use case or copy an existing one. For more information, see [Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/set-up-use-case.md) or [Copy a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-copy-use-case.md).
 
 ## Define the information to extract
 
@@ -54,7 +54,7 @@ The Extract information from documents skill supports the following scenarios:
 **Related topics**  
 
 
-[Use cases in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-use-cases.md)
+[Use cases in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cu-use-cases.md)
 
-[Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/automation-modes.md)
+[Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/automation-modes.md)
 

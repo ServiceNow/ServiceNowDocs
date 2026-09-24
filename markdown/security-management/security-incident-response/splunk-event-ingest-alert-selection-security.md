@@ -2,7 +2,7 @@
 title: Set Correlation rules
 description: After you have created a profile for a scheduled notable event type ingestion, select a Splunk Enterprise Security correlation rule name for this profile for which you want to map corresponding notable events to a ServiceNow AI Platform Security Incident Response security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-alert-selection-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest-alert-selection-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -52,5 +52,5 @@ View the available correlation rules in your ServiceNow AI Platform instance so 
 
 ## What to do next
 
-[Map notable events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-map-alerts-security.md)
+[Map notable events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-map-alerts-security.md)
 

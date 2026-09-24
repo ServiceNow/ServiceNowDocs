@@ -2,7 +2,7 @@
 title: Create a kiosk module
 description: Create a kiosk module and module configurations to decide the flow and pages that must be displayed on a kiosk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-services-kiosk/create-kiosk-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-services-kiosk/create-kiosk-module.html
 release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -23,7 +23,7 @@ Create a kiosk module and module configurations to decide the flow and pages tha
 -   The kiosk device automatically maintains the session before it times out. The session timeout value can be configured in the **glide.ui.session\_timeout** property.
 -   The kiosk header contains the session refresh API; ensure that you do not remove or replace the kiosk theme or the kiosk header.
 
-    For information about customizing the kiosk header, see [Customize the kiosk header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/customize-kiosk-header.md).
+    For information about customizing the kiosk header, see [Customize the kiosk header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/customize-kiosk-header.md).
 
 
 Role required: sn\_wsd\_kiosk.admin
@@ -99,9 +99,9 @@ Configuration table
 
 Table that contains the configuration flow for the kiosk. A configuration flow specifies the pages and features for the kiosk.For example, for visitor check in, select the Kiosk Check-in Flow Configuration \[sn\_wsd\_visitor\_checkin\_flow\_configuration\] table.
 
-For visitor check out, select the Kiosk Check-out Flow Configuration \[sn\_wsd\_visitor\_checkout\_flow\_configuration\] table. For more information about visitor management flows, see [Create a flow for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/create-kiosk-flow.md)
+For visitor check out, select the Kiosk Check-out Flow Configuration \[sn\_wsd\_visitor\_checkout\_flow\_configuration\] table. For more information about visitor management flows, see [Create a flow for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/create-kiosk-flow.md)
 
-For a kiosk indoor map, select the Kiosk indoor mapping feature configuration \[sn\_wsd\_indoor\_map\_feature\_configuration\] table. For more information about indoor mapping flows, see [Configure map features for kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/config-map-features.md).
+For a kiosk indoor map, select the Kiosk indoor mapping feature configuration \[sn\_wsd\_indoor\_map\_feature\_configuration\] table. For more information about indoor mapping flows, see [Configure map features for kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/config-map-features.md).
 
 </td></tr><tr><td>
 
@@ -129,5 +129,5 @@ Visitors can use the camera to scan QR codes or to take their picture.
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

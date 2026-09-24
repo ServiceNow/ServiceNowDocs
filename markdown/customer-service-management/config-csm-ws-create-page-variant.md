@@ -2,7 +2,7 @@
 title: Creating pages and page variants
 description: You can create new pages or customize existing pages in UI Builder to display table and record information in CSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-create-page-variant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-ws-create-page-variant.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -144,7 +144,7 @@ The system chooses a record page by evaluating the settings on the available act
 -   If there is an active page with one or more conditions and those conditions are met, the system chooses that page.
 -   If there are two active pages with the same conditions, the system chooses the page with the lowest order value.
 
-For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
+For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 **Related topics**  
 

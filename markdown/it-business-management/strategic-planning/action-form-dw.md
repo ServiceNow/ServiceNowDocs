@@ -2,7 +2,7 @@
 title: Action form
 description: The action form enables you to create an action for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/action-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/action-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

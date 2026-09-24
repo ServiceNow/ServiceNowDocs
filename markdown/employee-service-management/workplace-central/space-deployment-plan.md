@@ -2,7 +2,7 @@
 title: Space Deployment Plan
 description: A space deployment plan contains information about how the changes made in the scenario impact the building's spaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/space-deployment-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/space-deployment-plan.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -103,7 +103,7 @@ Workplace case
 Workplace case record that is created for allocation changes to the workplace location.Workplace cases are created after a scenario is deployed. The value in this column is empty for assignment type changes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

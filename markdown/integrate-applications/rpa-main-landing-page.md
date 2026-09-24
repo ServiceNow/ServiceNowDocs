@@ -2,7 +2,7 @@
 title: Robotic Process Automation \(RPA\) Hub
 description: Use the ServiceNow Robotic Process Automation \(RPA\) Hub to enable end-to-end automation for your organization. With a combination of UI interactions and element-based automations that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rpa-main-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/rpa-main-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## What you can do with AI
 
-Use ServiceNow Otto for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements. For more information, see [ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-now-assist-studio.md).
+Use ServiceNow Otto for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements. For more information, see [ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-now-assist-studio.md).
 
 The following generative AI capabilities are available:
 
@@ -35,6 +35,6 @@ The following generative AI capabilities are available:
 -   [Ask or answer questions in the community forum](https://www.servicenow.com/community/forums/filteredbylabelpage/board-id/automation-engine-forum/label-name/rpa%20hub)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
--   [Robotic Process Automation \(RPA\) Hub glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-glossary.md)
+-   [Robotic Process Automation \(RPA\) Hub glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-glossary.md)
 -   [RPA General Guidelines](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1651495)
 

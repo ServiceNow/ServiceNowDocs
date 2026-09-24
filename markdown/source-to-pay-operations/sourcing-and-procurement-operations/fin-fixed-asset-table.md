@@ -2,7 +2,7 @@
 title: Fixed Asset \[sn\_fin\_fixed\_asset\] table
 description: The Fixed Asset \[sn\_fin\_fixed\_asset\] table stores information related to: Fixed assets purchased from suppliers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/fin-fixed-asset-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/fin-fixed-asset-table.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -35,7 +35,7 @@ This table contains the following fields.
 |Salvage value|Currency|Amount that the fixed asset is worth after it reaches the end of its useful life.|
 |ERP Source|Reference|ERP source system associated with the fixed asset.|
 
-**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
 
 **Related topics**  
 

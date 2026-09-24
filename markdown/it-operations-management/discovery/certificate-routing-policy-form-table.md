@@ -2,7 +2,7 @@
 title: Certificate routing policy form for EJBCA ACME
 description: To automate the processes of your certificate life cycle, you must fill out a routing policy form that populates your Certificate Signing Requests. This table shows you the required fields and values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/certificate-routing-policy-form-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/certificate-routing-policy-form-table.html
 release: australia
 product: Discovery
 classification: discovery
@@ -239,5 +239,5 @@ Email Address
 Email address of the administrator in the organization making the certificate signing request for the given Subject Common Name. Enter an email address or `*`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

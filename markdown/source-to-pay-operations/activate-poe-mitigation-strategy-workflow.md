@@ -2,7 +2,7 @@
 title: Review the define PO exception mitigation strategy workflow
 description: Review the define PO exception mitigation strategy agentic workflow that uses agentic support to identify and execute mitigation strategies for purchase order exceptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/activate-poe-mitigation-strategy-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/activate-poe-mitigation-strategy-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -104,5 +104,5 @@ Model providers that this agentic workflow doesn’t support.All model providers
 
 After reviewing the agentic workflow, you can get started by selecting **Otto** button on a purchase order exception record or the exception card on the **Purchase order management** tab in the Source-to-Pay Workspace.
 
-**Parent Topic:**[Configure ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md)
+**Parent Topic:**[Configure ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md)
 

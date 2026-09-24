@@ -2,7 +2,7 @@
 title: Create invoice cost allocation manually
 description: Manually allocate invoice line cost across multiple cost centers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,17 +29,17 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist, admin
 
 3.  Select an **invoice** &gt; **Invoice line**.
 
-    For more information on invoice line, see [Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice.md).
+    For more information on invoice line, see [Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice.md).
 
 4.  Select **Cost allocations**.
 
 5.  Select **New**.
 
-    The invoice cost allocation form displays. For more information on the cost allocation form, see [Create invoice cost allocation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation-form.md)
+    The invoice cost allocation form displays. For more information on the cost allocation form, see [Create invoice cost allocation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation-form.md)
 
     **Note:**
 
-    -   During cost allocation, if the total allocated quantity or amount across different cost centers or ledger accounts isn’t equal to the invoice line quantity or subtotal, then the invoice cost allocation exception occurs. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md).
+    -   During cost allocation, if the total allocated quantity or amount across different cost centers or ledger accounts isn’t equal to the invoice line quantity or subtotal, then the invoice cost allocation exception occurs. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md).
     -   When you delete an invoice line record, you’re prompted with a pop-up message to confirm the deletion of an invoice line record removes its associated cost allocation record.
     -   When you select allocation type as cost center for the first record and save the changes, the subsequent records also will inherit the same allocation type.
 6.  Select **Save**.
@@ -49,5 +49,5 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist, admin
 
 The cost allocation form is added to the invoice line.
 
-**Parent Topic:**[Invoice cost allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-line-cost-allocation.md)
+**Parent Topic:**[Invoice cost allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-line-cost-allocation.md)
 

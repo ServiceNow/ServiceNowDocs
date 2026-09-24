@@ -2,7 +2,7 @@
 title: Connect an EAP team with CWM
 description: Establish a connection to CWM by setting your EAP team's Agile tool to Collaborative Work Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/connect-an-eap-team-with-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/connect-an-eap-team-with-cwm.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -51,5 +51,5 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 ## What to do next
 
-Navigate to **Workspaces** &gt; **Collaborative Work Management** to start managing this team's work. To learn more, see [Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md) and [Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md).
+Navigate to **Workspaces** &gt; **Collaborative Work Management** to start managing this team's work. To learn more, see [Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-boards.md) and [Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md).
 

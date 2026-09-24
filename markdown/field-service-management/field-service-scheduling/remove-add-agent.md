@@ -2,7 +2,7 @@
 title: Remove a temporarily added agent from Dispatcher Workspace
 description: You can remove an agent from Dispatcher Workspace that you temporarily added.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/remove-add-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/remove-add-agent.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

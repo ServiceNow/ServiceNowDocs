@@ -2,7 +2,7 @@
 title: Cancel a scan
 description: Cancel or abort an ongoing scan by either selecting Cancel Scan in the scan execution modal or the Cancel Scan related link in the results record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-cancel-scan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/instance-scan/hs-cancel-scan.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -59,7 +59,7 @@ Role required: admin
     **Note:** Since the scan is already cancelled, the Cancel Scan related link doesn’t show up.
 
 
-**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 

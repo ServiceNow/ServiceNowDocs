@@ -2,7 +2,7 @@
 title: Create a messaging notification
 description: Notifications define when a message is sent, who it is sent to, and what it contains. To send a notification to Slack or Teams, add a messaging content record to the notification and configure the notification messaging channel. Notifications that require action must be sent to individual users instead of groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-messaging-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-messaging-notification.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -146,7 +146,7 @@ Advanced condition
 
 </td><td>
 
-Create a script to define more filter conditions, like sending a notification based on the current messaging record, changing field values, or changing system properties. [The advanced condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_OptSpecifyingAdvancedCond.md) script must return **true** or set a global answer variable to **true** to send the notification.
+Create a script to define more filter conditions, like sending a notification based on the current messaging record, changing field values, or changing system properties. [The advanced condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_OptSpecifyingAdvancedCond.md) script must return **true** or set a global answer variable to **true** to send the notification.
 
  The advanced condition script uses the following global variables:
 
@@ -233,5 +233,5 @@ Select this check box if the event parameter 2 contains one or more notification
 8.  Click **Update**.
 
 
-**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/messaging-integration.md)
 

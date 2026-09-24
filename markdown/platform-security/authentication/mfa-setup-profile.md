@@ -2,7 +2,7 @@
 title: Set up Multi-factor authentication on your user profile
 description: Enable multi-factor authentication for your account in your user profile settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-setup-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-setup-profile.html
 release: australia
 product: Authentication
 classification: authentication
@@ -22,7 +22,7 @@ Role required: none
 
 Multi-factor authentication must be enabled on your instance.
 
-**Note:** Your administrator may require that you use multi-factor authentication. In this case, you are automatically prompted when you log in. See [Set up Multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md). Use the process below if your administrator allows you to opt-in to multi-factor authentication.
+**Note:** Your administrator may require that you use multi-factor authentication. In this case, you are automatically prompted when you log in. See [Set up Multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md). Use the process below if your administrator allows you to opt-in to multi-factor authentication.
 
 ## Procedure
 

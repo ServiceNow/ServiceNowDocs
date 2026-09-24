@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Setup release notes
 description: The ServiceNow ServiceNow Otto for Setup application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. ServiceNow Otto for Setup is a new application in the Australia release.The ServiceNow ServiceNow Otto for Setup application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. ServiceNow Otto for Setup is a new application in the Australia release.The ServiceNow ServiceNow Otto for Setup application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. ServiceNow Otto for Setup is a new application in the Australia release.The ServiceNow ServiceNow Otto for Setup application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. ServiceNow Otto for Setup is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-setup-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-setup-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ See [ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/Ser
     Install ServiceNow Otto for Setup by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
 ## June 2026
 

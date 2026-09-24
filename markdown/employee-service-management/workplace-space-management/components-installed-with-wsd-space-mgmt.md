@@ -2,7 +2,7 @@
 title: Components installed with Workplace Space Management
 description: Several types of components are installed with the Workplace Space Management application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/components-installed-with-wsd-space-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/components-installed-with-wsd-space-mgmt.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -134,7 +134,7 @@ As a Project Owner, you can create and manage Schedule Plans.
 </td></tr></tbody>
 </table>## Tables installed with Workplace Space Management
 
-**Note:** Neighborhood is moved from Workplace Space Management \[version\] to Workplace Core \[version\]. For more information, see [Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/components-installed-with-workplace-service-delivery.md).
+**Note:** Neighborhood is moved from Workplace Space Management \[version\] to Workplace Core \[version\]. For more information, see [Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/components-installed-with-workplace-service-delivery.md).
 
 <table id="table_t5k_1kj_qpb"><thead><tr><th>
 
@@ -241,7 +241,7 @@ KPI Configuration\[sn\_wsd\_spcmgmt\_kpi\_configuration\]
 Stores information about the KPIs that are configured for Workplace Space Management.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Space Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Space Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md)
 
 **Related topics**  
 

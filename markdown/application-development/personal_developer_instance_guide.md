@@ -2,7 +2,7 @@
 title: Personal developer instance guide
 description: ServiceNow offers free personal developer instances \(PDIs\) to Developer Program members to learn, explore, and experiment with the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/personal\_developer\_instance\_guide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/personal\_developer\_instance\_guide.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,32 +20,32 @@ Personal Developer Instances \(PDIs\) can be used to test application ideas with
 
 Learn more on the [ServiceNow Developer Site](https://developer.servicenow.com).
 
--   **[Understanding PDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/understanding_pdis.md)**  
+-   **[Understanding PDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/understanding_pdis.md)**  
 PDIs require you to select a specific release and maintain consistent usage to avoid hibernation.
--   **[Get a development instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-dev-instance.md)**  
+-   **[Get a development instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/get-dev-instance.md)**  
 Request a personal development instance to build and test applications.
--   **[Obtaining a PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/obtaining_a_pdi.md)**  
+-   **[Obtaining a PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/obtaining_a_pdi.md)**  
 Get a new instance to run a PDI on the latest generally available release.
--   **[Accessing your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accessing_your_pdi.md)**  
+-   **[Accessing your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/accessing_your_pdi.md)**  
 Open your PDI and start building in the instance.
--   **[Activating a plugin from your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/activating_a_plugin_from_your_pdi.md)**  
+-   **[Activating a plugin from your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/activating_a_plugin_from_your_pdi.md)**  
 One option to get started using an instance is to activate a plugin directly for your PDI.
--   **[Activating a PDI plugin from the developer site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/activating_a_pdi_plugin_from_the_developer_site.md)**  
+-   **[Activating a PDI plugin from the developer site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/activating_a_pdi_plugin_from_the_developer_site.md)**  
 Activate your PDI plugin from the Developer Site to start working on an instance.
--   **[Managing email properties for your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/managing_email_properties_for_your_pdi.md)**  
+-   **[Managing email properties for your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/managing_email_properties_for_your_pdi.md)**  
 Configure properties within your PDI to start sending and receiving emails.
--   **[Releasing your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releasing_your_pdi.md)**  
+-   **[Releasing your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releasing_your_pdi.md)**  
 Release your PDI to unassign the instance from you, reset to its original state, and reassign it to another Developer Program member.
--   **[Changing your instance user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/changing_your_instance_user_role.md)**  
+-   **[Changing your instance user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/changing_your_instance_user_role.md)**  
 Change your PDI user role to either App Engine Studio Creator or Admin for different views and levels of access.
--   **[Removing demo data from your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/removing_demo_data_from_your_pdi.md)**  
+-   **[Removing demo data from your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/removing_demo_data_from_your_pdi.md)**  
 If you do not need the demo data in your PDI included by default, remove it from your PDI.
--   **[Resetting your PDI to its initial state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/resetting_your_pdi_to_its_initial_state.md)**  
+-   **[Resetting your PDI to its initial state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/resetting_your_pdi_to_its_initial_state.md)**  
 Reset your PDI to its initial state to start work with a fresh instance.
--   **[Upgrading your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/upgrading_your_pdi.md)**  
+-   **[Upgrading your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/upgrading_your_pdi.md)**  
 Apply a patch or new release to your instance to upgrade your PDI.
--   **[Getting instance assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/getting_instance_assistance.md)**  
+-   **[Getting instance assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/getting_instance_assistance.md)**  
 Get assistance for common issues accessing an instance and give feedback.
 
-**Parent Topic:**[Learning about developing on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/getting-started-with-building-applications.md)
+**Parent Topic:**[Learning about developing on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/getting-started-with-building-applications.md)
 

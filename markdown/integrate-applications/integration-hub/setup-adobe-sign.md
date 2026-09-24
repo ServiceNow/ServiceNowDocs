@@ -2,7 +2,7 @@
 title: Synchronize Adobe Sign group with ServiceNow
 description: Synchronize ServiceNow with the required group in Adobe Sign to access the group specific documents, and agreements from the Adobe Sign spoke.Create a custom OAuth application from your Adobe Sign account to enable OAuth 2.0 authentication with the Adobe Sign spoke.Configure the webhook in your Adobe Sign application to enable Adobe Sign to send data to ServiceNow when a participant signs an agreement or document.Add and configure a Adobe Sign spoke connection to authenticate ServiceNow requests.Allow Adobe Sign spoke to create group admin user role when an Adobe Sign group is synchronized with ServiceNow tables by configuring the application access of the required ServiceNow tables.Synchronize ServiceNow with the required group in Adobe Sign by creating a record in the AdobeSign Group Details \[sn\_adobesign\_spoke\_adobesign\_group\_details\] table.Synchronize ServiceNow with the required group in Adobe Sign to access the documents and agreements that are specific to the group, from the Adobe Sign spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-adobe-sign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-adobe-sign.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -118,7 +118,7 @@ Role required: admin
 
         \[Omitted image "adobe-sign-connection.png"\] Alt text: Connection for Adobe Sign spoke
 
-    -   To manage more than one Adobe Sign spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Adobe Sign spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "adobe-sign-connection-configure.png"\] Alt text: First-time connection configuration.

@@ -2,7 +2,7 @@
 title: Create a business rule for a custom table map configuration
 description: Create a business rule to enable import for your new custom table map configuration from and Project Portfolio Management \(PPM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-a-bussiness-rule-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-a-bussiness-rule-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

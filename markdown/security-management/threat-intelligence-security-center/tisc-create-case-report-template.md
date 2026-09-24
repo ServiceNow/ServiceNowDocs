@@ -2,7 +2,7 @@
 title: Create a Case Report using a template
 description: Generate a case report from a published report template, such as a post-investigation report or an executive summary, and then preview, publish, and share it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-case-report-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-create-case-report-template.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -47,7 +47,7 @@ Role required: sn\_sec\_tisc.analyst
 
     -   Select the \[Omitted image "icon-tisc-report-edit.png"\] Alt text: Edit report details icon**Edit report details** icon to edit the report name and description.
     -   Select the \[Omitted image "icon-tisc-report-expand.png"\] Alt text: Expand icon**Expand** icon to insert additional content — for example, Observables or Indicators — into the report.
-    -   Type `/` to use a slash command and insert dynamic content, such as a record count, a specific record or field, or a system user. For the available slash commands and supported tables, see [Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md).
+    -   Type `/` to use a slash command and insert dynamic content, such as a record count, a specific record or field, or a system user. For the available slash commands and supported tables, see [Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md).
     -   Select **Save Content** to save your changes and enable **Publish**.
     -   Select **Preview** to generate a PDF preview of the current content.
 8.  When your edits are complete, select **Publish**.
@@ -55,5 +55,5 @@ Role required: sn\_sec\_tisc.analyst
     After publishing, download the report as a PDF or share it with stakeholders by email.
 
 
-**Parent Topic:**[Create Case Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-case-report.md)
+**Parent Topic:**[Create Case Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-create-case-report.md)
 

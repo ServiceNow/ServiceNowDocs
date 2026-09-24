@@ -2,7 +2,7 @@
 title: Avoiding domain path in scripts
 description: Domain paths can cause the values of your script to change or even break, so don't use them in scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-no-domain-path-in-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-no-domain-path-in-scripts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ Use the **sys\_domain** field in your scripts rather than depending on the domai
 
 The ServiceNow platform does not capture the sys\_domain\_path values in an update set in order to avoid issues with differences in the domain hierarchy for each instance. Therefore, you should validate the domain hierarchy after you import an update set to ensure that the domain path values for your records are correct.
 
-To learn more about domain path, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md) and [Domain Separation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separation-center.md).
+To learn more about domain path, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ActivateDomainSeparation.md) and [Domain Separation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/domain-separation-center.md).
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

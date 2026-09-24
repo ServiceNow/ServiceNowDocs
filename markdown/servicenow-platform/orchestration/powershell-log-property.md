@@ -2,12 +2,12 @@
 title: PowerShell log property
 description: Enable debug messages to display from PowerShell.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/powershell-log-property.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/powershell-log-property.html
 release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [MID Servers for Orchestration, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,5 +40,5 @@ Enable the PowerShell log property for each MID Server. If the MID Server field 
 
 **Note:** All the debug messages that come back to the instance are also saved to the MID Server log file. The log file might have additional debug messages generated from Java code, which might help the debug process.
 
-**Parent Topic:**[MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationMID.md)
+**Parent Topic:**[MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationMID.md)
 

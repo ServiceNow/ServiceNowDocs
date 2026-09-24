@@ -2,7 +2,7 @@
 title: Schedule the Early Warning for Security Exposure Management integrations
 description: You can schedule the integration import times on the records in the Vulnerability Integrations \[sn\_vul\_int\_fw\_integration\] table and launch them on-demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/schedule-ew-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/schedule-ew-integration.html
 release: australia
 topic_type: task
 last_updated: "2025-12-09"
@@ -33,7 +33,7 @@ Role required: sn\_vul\_int\_fw.configure\_integrations
 
 ## What to do next
 
-[View Early Warning for Security Exposure Management integration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-armis-early-warning-health.md)
+[View Early Warning for Security Exposure Management integration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-armis-early-warning-health.md)
 
-**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
+**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/armis-early-warning-integration.md)
 

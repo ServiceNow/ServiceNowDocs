@@ -2,7 +2,7 @@
 title: Household-member relationship for an install base item
 description: Your customer service managers can set up a household-member relationship among the members of one household by using the Customer Service Management application. The established relationship between the consumers in that household means that only the household members can access the install base items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/household-relationship-for-an-install-base-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/household-relationship-for-an-install-base-item.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Create relationships, Configure Service Model Foundation, Data mode
 
 Your customer service managers can set up a household-member relationship among the members of one household by using the Customer Service Management application. The established relationship between the consumers in that household means that only the household members can access the install base items.
 
-The household relationship can be used to assign responsibilities between two consumers within the same household with the Household Member Relationship table \[sn\_customer\_rel\_household\_member\_relationship\]. This relationship gives household members additional access to edit and update an install base item. To learn more about how to create a household relationship, see [Create a relationship between household members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-household-member-relation.md).
+The household relationship can be used to assign responsibilities between two consumers within the same household with the Household Member Relationship table \[sn\_customer\_rel\_household\_member\_relationship\]. This relationship gives household members additional access to edit and update an install base item. To learn more about how to create a household relationship, see [Create a relationship between household members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-household-member-relation.md).
 
 Setting up a household-member relationship limits the access to the household members. Only the household members can access the household install bases.
 
@@ -25,7 +25,7 @@ After a household-member relationship is established between two consumers, the 
 **Related topics**  
 
 
-[Create relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-relationships.md)
+[Create relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-data-model-relationships.md)
 
-[Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md)
+[Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/adding-related-party-config-to-case.md)
 

@@ -2,7 +2,7 @@
 title: Map functions with push actions on the actionable push notification
 description: Associate functions to the actions in your notification so the instance uses the correct function for each action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/actionable-push-notification-4.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/actionable-push-notification-4.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -76,5 +76,5 @@ In the push action instance shown here, the `Approve` push action is selected in
 
 \[Omitted image "action-push-example-2.png"\] Alt text: Push action instance associating an action with a function
 
-**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
+**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/actionable-push-notification.md)
 

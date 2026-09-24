@@ -2,7 +2,7 @@
 title: Pricing in the ServiceNow Quote Experience
 description: The Quote Experience prices quotes through an integrated pricing service. Pricing runs when you reprice a quote or when a change affects pricing, and it applies both rep-entered and rule-driven adjustments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/pricing-in-quote-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/pricing-in-quote-experience.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-26"
@@ -20,7 +20,7 @@ When pricing is enabled for a deployment, the Quote Experience connects to a pri
 
 You enable pricing by connecting the ServiceNow Quote Experience to the pricing service and turning on the productized pricing integration tenant setting. With the productized integration, field-to-context mappings load automatically from the quote blueprint when you deploy it, so you do not hand-configure request and response transformations.
 
-If a pricing input has no matching quote field during deployment, the deployment records a warning and continues. It does not fail. Administrators set up the pricing connection and integration during configuration. For more information, see [Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md).
+If a pricing input has no matching quote field during deployment, the deployment records a warning and continues. It does not fail. Administrators set up the pricing connection and integration during configuration. For more information, see [Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md).
 
 ## Pricing states
 

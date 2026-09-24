@@ -2,7 +2,7 @@
 title: Create or update a component library
 description: Create a component library to manage components that can be reused across multiple applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-comp-library-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-comp-library-create.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -76,6 +76,6 @@ A component library is created. The state of the library is set to Not Available
 
 ## What to do next
 
-1.  [Add shared component in a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-comp-library-add-component.md).
-2.  [Activate a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-comp-library-activate.md).
+1.  [Add shared component in a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-comp-library-add-component.md).
+2.  [Activate a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-comp-library-activate.md).
 

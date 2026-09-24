@@ -2,7 +2,7 @@
 title: Create a request with the facilities request form
 description: Facilities staff members create requests using the Facilities Request form, allowing them to associate the request with a configuration item \(CI\), like printers or projectors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateReqWFacRequestForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_CreateReqWFacRequestForm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -163,5 +163,5 @@ Provides a checklist of tasks that must be completed before the case is closed.C
     \[Omitted image "WarrantyCheck.png"\] Alt text: Task form for a facilities request.
 
 
-**Parent Topic:**[Facilities request creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_FacilitiesRequestCreation.md)
+**Parent Topic:**[Facilities request creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_FacilitiesRequestCreation.md)
 

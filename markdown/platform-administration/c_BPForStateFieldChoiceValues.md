@@ -2,7 +2,7 @@
 title: Configure state field choice values
 description: State fields are a subset of choice list fields. Keep the following information in mind when you configure choice values for the state field.Follow these examples for modifying the states of incidents and change requests.Business rules in the system make assumptions about state values. You can troubleshoot business rules to see the order in which they run and see how it affects changes you make to State field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_BPForStateFieldChoiceValues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_BPForStateFieldChoiceValues.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

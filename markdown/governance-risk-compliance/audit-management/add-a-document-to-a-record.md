@@ -2,7 +2,7 @@
 title: Add a document to a record
 description: Add a new or existing document to an engagement, control test, or evidence record from the Documents panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/add-a-document-to-a-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/add-a-document-to-a-record.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -22,7 +22,7 @@ Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
 ## About this task
 
-You can add a document only while the record is open. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/manage-documents-panel.md).
+You can add a document only while the record is open. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 ## Procedure
 

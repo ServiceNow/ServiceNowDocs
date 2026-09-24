@@ -2,7 +2,7 @@
 title: Install DevOps Change Velocity
 description: Install the DevOps Change Velocity application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/activate-dev-ops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/activate-dev-ops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -128,11 +128,11 @@ To install the DevOps application on a subprod instance, navigate to the DevOps 
 
 Installing DevOps Change Velocity also installs the dependent applications, user roles, tables, scheduled jobs, and other components.
 
-See [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
+See [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
 
 ## What to do next
 
-[Assign roles and tasks using workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/assign-roles-tasks-workspace.md).
+[Assign roles and tasks using workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/assign-roles-tasks-workspace.md).
 
-**Note:** Roles that are installed with DevOps Change Velocity are listed in [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
+**Note:** Roles that are installed with DevOps Change Velocity are listed in [Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/installed-with-dev-ops.md).
 

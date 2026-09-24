@@ -2,7 +2,7 @@
 title: Create an automation request in Task Mining
 description: As a business analyst, review the task timeline for identifying task optimization opportunities and automation candidates. Then, submit an automation request from Task Mining to create an automation in Automation Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/create-automation-request-tm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/create-automation-request-tm.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"
@@ -66,15 +66,15 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 7.  Select the task improvement action that you want to take, and select **Continue**.
 
-<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d23095e288">
+<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d23084e288">
 
 Option
 
-</th><th align="left" id="d23095e291">
+</th><th align="left" id="d23084e291">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23095e297">
+</th></tr></thead><tbody><tr><td id="d23084e297">
 
 **Generate with AI**
 
@@ -82,7 +82,7 @@ Description
 
 Open an Automation Center request based on the improvement opportunity. Populate the **Description** and **Detailed sequence of steps** fields with data from the tasks. For more information, see step 8.
 
-</td></tr><tr><td id="d23095e315">
+</td></tr><tr><td id="d23084e315">
 
 **Complete manually**
 
@@ -120,5 +120,5 @@ In this example, an HR analyst captures the employee onboarding workflow:
 
 ## What to do next
 
-In Automation Center, generate automations to create automation blocks from user task patterns captured using Task Mining. For more information, see [Create automation blocks from the automation request in Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/generate-automations-tm.md).
+In Automation Center, generate automations to create automation blocks from user task patterns captured using Task Mining. For more information, see [Create automation blocks from the automation request in Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/generate-automations-tm.md).
 

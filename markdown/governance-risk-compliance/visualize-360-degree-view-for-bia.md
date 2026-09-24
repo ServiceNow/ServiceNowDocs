@@ -2,7 +2,7 @@
 title: Visualize 360° relationships for BIAs
 description: Visualize the 360° relationships for a business impact analysis and its associated entities in BCM UIB Workspace. You can access the 360° view at any time while creating a business impact analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/visualize-360-degree-view-for-bia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/visualize-360-degree-view-for-bia.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,5 +67,5 @@ The configurations for the 360° view are stored in **360° View Configurations*
 7.  To navigate to the BIA again, select the BIA or list view in the breadcrumb navigation on the page.
 
 
-**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

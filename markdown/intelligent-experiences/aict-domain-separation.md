@@ -2,12 +2,12 @@
 title: Domain separation and AI Control Tower
 description: Domain separation is supported for AI Control Tower. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-20"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, domain separation, AI Control Tower, multi-tenant, MSP]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, domain separation, AI Control Tower, multi-tenant, MSP]
 breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
 ---
 
@@ -62,8 +62,6 @@ For inventory and discovery, domain separation keeps each domain's AI assets dis
 -   External AI systems registered with an API key are added to the domain of the user who created the key. A warning helps prevent registering an asset in the wrong domain with a key issued to another domain.
 -   Automation rules and their templates show both the current domain's own records and any records inherited from a parent domain that haven't been overridden, but only the rules created within the current domain actually run.
 -   Asset tags are scoped by domain, so a tag created for an asset in one domain doesn't appear in another domain's asset views.
--   Shadow AI's detected services, usage events, and per-user and per-device usage aggregates are scoped by domain, so a detection made in one domain doesn't surface in another domain's view.
--   The AI services registry that Shadow AI checks to recognize a domain as an AI service is shared, not domain-separated, since whether something is an AI service doesn't depend on which tenant detected it.
 
 ## Monitoring
 

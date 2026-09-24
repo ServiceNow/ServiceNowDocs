@@ -2,7 +2,7 @@
 title: Define LDAP organizational units
 description: An organizational unit \(OU\) definition specifies the LDAP source directories available to the integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_DefineLDAPOrganizationalUnits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ldap-integration/t\_DefineLDAPOrganizationalUnits.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

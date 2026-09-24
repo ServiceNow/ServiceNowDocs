@@ -2,7 +2,7 @@
 title: Search Security Operations
 description: You can find information quickly in any Security Operations application using the search icon in the screen header. Zing is the text indexing and search engine that performs all text searches in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/t\_SearchSecOps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/t\_SearchSecOps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ Role required: sn\_si.read or higher
     If you have the Security Incident Response plugin activated, the search criteria you entered present any matching short description text, CIs, IP addresses, or URLs in your security incidents, Security Incident Response tasks, or security requests. If you have the Vulnerability Response or Threat Intelligence plugins activated, the search results include vulnerabilities, vulnerable items, vulnerable entries, observables, IoCs, and attack mode/methods.
 
 
-**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-ops-common-functionality.md)
 
 **Related topics**  
 

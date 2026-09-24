@@ -2,7 +2,7 @@
 title: Cloud Deployment Automation
 description: Automates the deployment and provisioning of the AWS CloudFormation services using Service Catalog or Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/cloud-dep-auto.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/cloud-dep-auto.html
 release: australia
 product: Service Portal
 classification: service-portal

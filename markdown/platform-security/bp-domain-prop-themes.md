@@ -2,7 +2,7 @@
 title: Customizing domain properties and themes
 description: You can customize your customers' company properties and themes within the domains that you have configured. Customization makes their instances fit in with their companies' overall look and feel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-prop-themes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-domain-prop-themes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ By default, when you have the service provider plugin installed, the standard bu
 
 With all of these tables, except the Task table, you can override the domain that a record is created in. This gives you more customization options.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

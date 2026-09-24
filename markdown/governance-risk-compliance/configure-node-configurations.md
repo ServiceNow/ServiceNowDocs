@@ -2,7 +2,7 @@
 title: Configure the Node configurations
 description: Configure the settings for the selected node. It helps you to determine the UI display in the Nexus map. You can select the table associated with the node and configure the primary label, icon, secondary label, tooltip, and so on for the node.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-node-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-node-configurations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Role required: sn\_oper\_res.admin
 
     \[Omitted image "node-config-new-record.png"\] Alt text: Node configuration new record.
 
-    For more information on the fields, see [Node configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/node-configuration-form.md).
+    For more information on the fields, see [Node configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/node-configuration-form.md).
 
 4.  Select the table in the **Table** field.
 
@@ -69,5 +69,5 @@ Role required: sn\_oper\_res.admin
 
 ## What to do next
 
-To customize the map display such as assigning specific colors and icons to nodes that meet certain conditions, configure the Node status configuration. For more information, see [Configure the Node status configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-node-status-configurations.md).
+To customize the map display such as assigning specific colors and icons to nodes that meet certain conditions, configure the Node status configuration. For more information, see [Configure the Node status configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-node-status-configurations.md).
 

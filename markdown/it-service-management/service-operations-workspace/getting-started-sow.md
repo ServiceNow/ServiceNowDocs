@@ -2,7 +2,7 @@
 title: Getting started with Service Operations Workspace for ITSM
 description: Set up Service Operations Workspace by procuring the required license, configuring the Admin Center, and assigning the workspace to your agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/getting-started-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/getting-started-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -22,7 +22,7 @@ Procure the ITSM Standard license or above for ServiceNow IT Service Management 
 
 1.  Procure the ITSM Standard license or higher.
 2.  Activate the Service Operations Workspace.
-3.  Configure the [Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/admin-center-sow.md).
+3.  Configure the [Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/admin-center-sow.md).
 4.  Assign the workspace to your agent groups.
 
 ## Service Operations Workspace Admin Center
@@ -36,11 +36,11 @@ It provides effortless and quick access to manage most configurations in Service
 **Related topics**  
 
 
-[Roles in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/roles-in-sow.md)
+[Roles in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/roles-in-sow.md)
 
-[Users in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/users-sow-itsm.md)
+[Users in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/users-sow-itsm.md)
 
-[Access controls in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/access-controls-sow-itsm.md)
+[Access controls in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/access-controls-sow-itsm.md)
 
-[Landing page redirection in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-redirection-sow-itsm.md)
+[Landing page redirection in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/landing-page-redirection-sow-itsm.md)
 

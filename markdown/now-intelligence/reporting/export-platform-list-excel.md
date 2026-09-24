@@ -2,7 +2,7 @@
 title: Export platform list to Excel
 description: A list displays a set of records from a table. You can export information from lists in the classic environment to a spreadsheet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/export-platform-list-excel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/export-platform-list-excel.html
 release: australia
 product: Reporting
 classification: reporting

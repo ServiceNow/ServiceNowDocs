@@ -2,7 +2,7 @@
 title: Validate FDS subscriptions items as a provider
 description: Configure the sample data received from the consumer to validate a foundation data sync \(FDS\) subscription item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-fds-validate-subs-items-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-fds-validate-subs-items-provider.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -62,15 +62,15 @@ After the consumer sends the sample, the system creates a subscription for each 
 
 6.  Configure incoming data using either IntegrationHub ETL or a transform map depending on whether you are working with a Configuration Management Database \(CMDB\) or a non-CMDB table.
 
-<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d36186e203">
+<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d36190e203">
 
 Option
 
-</th><th align="left" id="d36186e206">
+</th><th align="left" id="d36190e206">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36186e212">
+</th></tr></thead><tbody><tr><td id="d36190e212">
 
 **Configure data integration for CMDB tables**
 
@@ -81,7 +81,7 @@ Description
 A message is displayed stating that you're about to navigate to the ETL Transform Map Assistant guided setup.
 
 2.  Confirm your choice by selecting **OK**.
-3.  Use the guided setup to complete the mapping to integrate the consumer's data into your CMDB. For details, see .
+3.  Use the guided setup to complete the mapping to integrate the consumer's data into your CMDB. For details, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrationhub-etl.md).
 
 The system creates a basic field mappings based on matching field names. Review and customize the mappings as needed for your instance.
 
@@ -90,7 +90,7 @@ The system creates a basic field mappings based on matching field names. Review 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d36186e257">
+</td></tr><tr><td id="d36190e258">
 
 **Configure data integration for CMDB tables \(__Maintain sysID__ enabled by the provider\)**
 
@@ -105,7 +105,7 @@ A message is displayed stating that you’re about to navigate to the Transform 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d36186e299">
+</td></tr><tr><td id="d36190e300">
 
 **Configure data integration for non-CMDB table**
 
@@ -130,14 +130,14 @@ After you complete the configuration, the state of the subscription item and of 
 
 ## What to do next
 
-[Accept the subscription.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-fds-accept-sups-provider.md)
+[Accept the subscription.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-fds-accept-sups-provider.md)
 
 **Related topics**  
 
 
-[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
+[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
 
-[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
+[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
 
-[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/using-provider-bound-fds-consumer.md)
+[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/using-provider-bound-fds-consumer.md)
 

@@ -2,7 +2,7 @@
 title: Payload Builder step
 description: Enable action designers to easily create name-value pairs in JSON and XML payloads using dynamic data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/payload-build-step-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/payload-build-step-action-designer.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -20,7 +20,7 @@ Enable action designers to easily create name-value pairs in JSON and XML payloa
 
 Available as an Workflow Studio action step. Users with the action\_designer role can create a custom action with one or more action steps.
 
-**Note:** For JSON, this step is deprecated and replaced by the [JSON Builder step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/json-build-step-action-designer.md).
+**Note:** For JSON, this step is deprecated and replaced by the [JSON Builder step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/json-build-step-action-designer.md).
 
 ## Fields
 

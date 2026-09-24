@@ -2,7 +2,7 @@
 title: View product usage and capability data
 description: View the product usage and capability data for a specific sold product over a period of time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-prod-cap-usage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-prod-cap-usage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Product adoption, Customer success, Use, Customer Success Managemen
 
 View the product usage and capability data for a specific sold product over a period of time.
 
-Product usage data provides insights into how customers interact with a product. It encompasses various metrics and data points that help understand how effectively a product is being adopted and used. This data helps customer success managers to analyze the data, identify areas for improvement, and make informed decisions. The data that appears on this page is configured using the DEC Insights Visualizations table. See [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md) for details.
+Product usage data provides insights into how customers interact with a product. It encompasses various metrics and data points that help understand how effectively a product is being adopted and used. This data helps customer success managers to analyze the data, identify areas for improvement, and make informed decisions. The data that appears on this page is configured using the DEC Insights Visualizations table. See [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md) for details.
 
 1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
 2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workpace** and select the **List** icon.
@@ -47,5 +47,5 @@ The Capabilities tab displays a list of all capabilities associated with the sel
 
 This page shows the capability adoption score over the last 12 weeks. The metrics that contribute the usage data are also displayed.
 
-**Parent Topic:**[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)
+**Parent Topic:**[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)
 

@@ -2,12 +2,12 @@
 title: Summarize an order using Summarization for Order Management
 description: Generate a summary of a complex order for faster, more accurate decision-making and improved customer responsiveness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/now-assist-order-mgmt-summarize-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/now-assist-order-mgmt-summarize-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -88,5 +88,5 @@ If you want to check details about the summary, select the more info icon \[Omit
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md)
 

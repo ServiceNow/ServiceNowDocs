@@ -2,7 +2,7 @@
 title: Setting up Soft Booking
 description: Soft Booking allows dispatchers to schedule tasks without triggering immediate notifications or downstream workflows. This feature provides dispatchers with a "planning buffer" to optimize agent schedules before confirming tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/setting-up-soft-booking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/setting-up-soft-booking.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -29,5 +29,5 @@ Turning off Use scheduled state moves all tasks from Scheduled to Assigned. A pr
 **Related topics**  
 
 
-[Configure the Scheduled state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-scheduled-state.md)
+[Configure the Scheduled state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configure-scheduled-state.md)
 

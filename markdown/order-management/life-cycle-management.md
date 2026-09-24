@@ -2,7 +2,7 @@
 title: Customer contract life cycle
 description: A customer contract goes through the various states in each phase of its life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/life-cycle-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/life-cycle-management.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -108,5 +108,5 @@ Exceptionally, when a contract line or entitlement in the Suspended state has re
 
 A customer contract line associated with a customer contract must be created within the customer contract's start and end dates. Any modification to the dates of customer contract lines must comply with the date range of the parent service contract.
 
-**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pss-reference.md)
+**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pss-reference.md)
 

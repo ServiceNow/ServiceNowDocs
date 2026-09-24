@@ -2,7 +2,7 @@
 title: HR Service Delivery Process Mining
 description: Integrating the Process Mining application with the HR Service Delivery application enables you to analyze processes relevant to your KPIs. You can identify bottlenecks associated with HR service cases and, if installed, Lifecycle Events cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/process-opt-hrsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/process-opt-hrsd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

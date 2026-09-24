@@ -2,7 +2,7 @@
 title: Set up your retail support team
 description: Set up your retail support team by creating a group then assigning the sn\_retail.support\_agent role to members of that group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-setup-support-team.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-setup-support-team.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

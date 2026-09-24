@@ -2,7 +2,7 @@
 title: Create custom notifications in Next Experience
 description: Provide better context and information about users' work by creating custom content for in-product notifications in Next Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-custom-notifications-next-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-custom-notifications-next-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -232,5 +232,5 @@ The UI Notification Inbox \[ui\_notification\_inbox\] table lists all sent notif
 
 If users receive duplicate notifications, verify that the notification trigger has only one content provider. If the notification has both a Next Experience and Workspace content provider, remove the Workspace content provider from the notification trigger to send only the Next Experience notification with custom content.
 
-**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-provider-notification-using.md)
+**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-provider-notification-using.md)
 

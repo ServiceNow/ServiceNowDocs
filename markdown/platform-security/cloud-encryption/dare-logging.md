@@ -2,7 +2,7 @@
 title: Cloud Encryption logging
 description: Learn about logging options for Cloud Encryption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cloud-encryption/dare-logging.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cloud-encryption/dare-logging.html
 release: australia
 product: Cloud Encryption
 classification: cloud-encryption
@@ -56,5 +56,5 @@ Looking at the Sys Audits\[sys\_audit\] table, admins can the Cloud Encryption K
 
 \[Omitted image "dare-log-2.png"\] Alt text: Key definition for a withdrawn key
 
-**Parent Topic:**[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
+**Parent Topic:**[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cloud-encryption/dare-overview.md)
 

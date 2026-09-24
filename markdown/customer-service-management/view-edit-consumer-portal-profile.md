@@ -2,7 +2,7 @@
 title: View or edit a consumer profile
 description: View and update your consumer profile, including personal information and contact details, from the Consumer Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-edit-consumer-portal-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-edit-consumer-portal-profile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

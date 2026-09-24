@@ -2,7 +2,7 @@
 title: Add a ground truth to each dataset record
 description: Add a ground truth to each record in a dataset. A ground truth is an expected correct output for a given record. During evaluation in Now Assist Skill Kit, your custom skill's actual output is compared against the ground truth to measure accuracy and identify areas for improvement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/add-ground-truth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/add-ground-truth.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit

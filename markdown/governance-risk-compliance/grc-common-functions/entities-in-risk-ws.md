@@ -2,7 +2,7 @@
 title: An entity in the workspace view
 description: The Entity form in the workspace provides a complete view of an entity across your organization. The Entity form is listed under the Library menu of the List view in the workspace. Select an entity in the list view so that you can display its overview, details, hierarchy, entity types, or downstream risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -217,8 +217,8 @@ Stakeholders with customizable roles relevant to single and composite entities, 
 
 \[Omitted image "360-degree-view-of-the-entity.png"\] Alt text: 360 degree view of the entity
 
--   **[Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-ws.md)**  
+-   **[Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-new-entity-ws.md)**  
 Create an entity for your enterprise. In Governance, Risk, and Compliance, entities can be people, processes, departments, applications, or objects. These entities have controls that are defined to mitigate their exposure, and their audits must be completed.
 
-**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
 

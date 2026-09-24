@@ -2,7 +2,7 @@
 title: Add a reusable topic block to a calling topic or topic block
 description: Add a reusable topic block to a calling \(parent\) topic or topic block to run a specific function or task in the calling topic. You specify input parameters used in the topic block, and you specify output parameters that are used by the calling topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Add a reusable topic block to a calling \(parent\) topic or topic block to run a
 
 ## Before you begin
 
-Review the topic blocks available on the home page in Virtual Agent. You can [create a new topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-topic-blocks.md). You can also use a pre-built topic block, duplicate it, and customize it. Pre-built topic blocks are installed automatically with the Glide Virtual Agent plugin, as well as the [Virtual Agent conversation plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md) for Customer Service Management, HR Service Delivery, and ITSM.
+Review the topic blocks available on the home page in Virtual Agent. You can [create a new topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-topic-blocks.md). You can also use a pre-built topic block, duplicate it, and customize it. Pre-built topic blocks are installed automatically with the Glide Virtual Agent plugin, as well as the [Virtual Agent conversation plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md) for Customer Service Management, HR Service Delivery, and ITSM.
 
 Verify that the topic block you want to use is published and active.
 

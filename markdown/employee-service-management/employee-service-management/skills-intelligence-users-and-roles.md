@@ -55,7 +55,7 @@ You can assign these roles to the appropriate roles, groups, or users in your ap
 |sn\_skills\_int\_role\_level\_m2m\_ind\_title|Stores the data related to the industry titles imported into your ServiceNow instance.|
 |sn\_skills\_int\_employee\_role\_level\_m2m|Stores the relationship of how an employee maps to a role level and whether it’s a primary role.|
 |sn\_skills\_int\_role\_level\_skill|Stores skills at the role level.|
-|sn\_skills\_int\_proficiency\_autofill\_config|Stores the configuration for proficiency autofill. For more information, see [Set the job proficiency level automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/proficiency-autofill-config.md).|
+|sn\_skills\_int\_proficiency\_autofill\_config|Stores the configuration for proficiency autofill. For more information, see [Set the job proficiency level automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/proficiency-autofill-config.md).|
 |sn\_skills\_int\_extracted\_skill|Stores skills extracted from a resume upload.|
 |sn\_skills\_int\_skill\_onboarding\_prediction|Stores the match/duplicate skill predictions from the custom skills imported.|
 |sn\_skills\_int\_skill\_onboarding|Stores the custom skills imported.|

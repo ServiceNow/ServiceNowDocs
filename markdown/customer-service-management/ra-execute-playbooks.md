@@ -2,7 +2,7 @@
 title: Execute a playbook from Recommended Actions
 description: Launch and execute a playbook directly from the Suggested Action tab in the Recommended Actions panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-execute-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-execute-playbooks.html
 release: australia
 topic_type: task
 last_updated: "2026-07-06"

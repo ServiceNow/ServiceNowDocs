@@ -2,7 +2,7 @@
 title: Configure dashboard data broker
 description: Activate the Dashboard data broker preset and configure the data broker to potentially speed the loading of dashboards by prefetching some data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-dashboard-data-broker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configure-dashboard-data-broker.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -69,7 +69,7 @@ This data broker prefetches data only on direct page loads. It does not apply on
 8.  Save the page and open it in runtime.
 
 
-**Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/adding-analytics-center-to-ws.md)
+**Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/adding-analytics-center-to-ws.md)
 
 **Related topics**  
 

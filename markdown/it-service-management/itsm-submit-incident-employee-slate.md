@@ -2,10 +2,10 @@
 title: Submit an incident in Employee Slate
 description: Save time in submitting and resolving incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-submit-incident-employee-slate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-submit-incident-employee-slate.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Employee experience in Employee Slate, Simplified IT Service Management, IT Service Management]
 ---
@@ -37,5 +37,5 @@ Role required: none
     \[Omitted image "ai-native-submit-incident-form-empslate.png"\] Alt text: Submit an incident form in Employee Slate
 
 
-**Parent Topic:**[Employee experience in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-using-employee-slate.md)
+**Parent Topic:**[Employee experience in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/employee-experience-using-employee-slate.md)
 

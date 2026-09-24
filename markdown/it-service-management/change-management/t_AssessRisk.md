@@ -2,7 +2,7 @@
 title: Perform risk assessment
 description: You can perform risk assessment of existing change requests after the risk assessment criteria are defined. After assessing the risk, you can view the risk assessment responses in the change request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_AssessRisk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_AssessRisk.html
 release: australia
 product: Change Management
 classification: change-management
@@ -48,12 +48,12 @@ The **Risk Assessment** related link is available only when the change request m
     Users with survey\_admin or survey\_reader role can navigate to **Legacy Surveys** &gt; **Survey Responses** and filter by **Instance**. Survey instances are individual assessments distinguished by the date and time when they are taken.
 
 
-**Parent Topic:**[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_RskAsmtCalc.md)
+**Parent Topic:**[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_RskAsmtCalc.md)
 
 **Related topics**  
 
 
 [Define risk assessments]()
 
-[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_RskAsmtCalc.md)
+[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_RskAsmtCalc.md)
 

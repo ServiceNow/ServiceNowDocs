@@ -2,7 +2,7 @@
 title: Components installed with ITSM Roles — Request Management
 description: Several user roles are installed with the activation of the ITSM Roles - Request Management plugin \(com.snc.itsm.roles.request\_management\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/req-mgmnt-roles-instld-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/request-management/req-mgmnt-roles-instld-itsm.html
 release: australia
 product: Request Management
 classification: request-management
@@ -87,5 +87,5 @@ Write access to the comments for the Requested Item \(sc\_req\_item\).**Note:** 
 NA
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request ITSM Roles - Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-itsm-roles-rm.md)
+</table>**Parent Topic:**[Request ITSM Roles - Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/request-itsm-roles-rm.md)
 

@@ -2,7 +2,7 @@
 title: Activate Workforce Optimization for Customer Service
 description: Workforce Optimization for Customer Service solution is highly modular, offering a wide range of capabilities such as Channel Management, Scheduling, Coaching, and Teams applications in CSM Manager Workspace. The Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) plugin activates all other dependent plugins to enable users to the Channel Management, Scheduling, Coaching, and Teams applications in Workforce Optimization for Customer Service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/request-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/request-configurable-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-configurable-wfo-cs.md)
 

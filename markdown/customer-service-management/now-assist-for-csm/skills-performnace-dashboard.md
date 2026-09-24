@@ -2,7 +2,7 @@
 title: Skills performance dashboard
 description: The skills performance dashboard helps you monitor how ServiceNow Otto for CSM skills are being used across CSM records and interactions. Use this dashboard to identify high-performing skills, track adoption trends, and spot skills that need attention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/skills-performnace-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/skills-performnace-dashboard.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

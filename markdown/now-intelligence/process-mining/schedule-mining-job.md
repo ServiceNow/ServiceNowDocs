@@ -2,7 +2,7 @@
 title: Schedule a Process Mining job
 description: Schedule a Process Mining job to mine one or more projects later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/schedule-mining-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/schedule-mining-job.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -44,5 +44,5 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 -   View a successfully generated project from Analyst workbench.
 -   Navigate to **All** &gt; **Process Mining** &gt; **Scheduled Jobs** &gt; **All Jobs** to view scheduled process mining jobs.
 
-**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-proj.md)
 

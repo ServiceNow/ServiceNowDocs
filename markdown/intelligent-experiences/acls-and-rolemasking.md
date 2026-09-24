@@ -2,7 +2,7 @@
 title: ACLs, role masking, and user identities in AI Agent Studio
 description: Access control lists \(ACLs\) and role masking serve distinct security functions in AI Agent Studio. The difference between these two mechanisms helps you configure agents with the correct permissions and access boundaries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/acls-and-rolemasking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/acls-and-rolemasking.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-26"

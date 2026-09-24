@@ -2,7 +2,7 @@
 title: Synthetic monitoring properties
 description: Synthetic monitoring includes the following properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/synthetics-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/synthetics-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ Controls logging output. Valid values are:-   debug
 -   crit
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-reference.md)
+</table>**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/synthetic-monitoring-reference.md)
 

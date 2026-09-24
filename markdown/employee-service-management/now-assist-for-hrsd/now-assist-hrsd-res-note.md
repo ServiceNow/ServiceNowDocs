@@ -2,7 +2,7 @@
 title: Generate resolution notes using ServiceNow Otto for HRSD
 description: Generate the resolution notes for a case using the resolution notes generation skill. You can improve the quality of the resolution notes by providing a summary of the issue and the steps that were taken to resolve the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -18,7 +18,7 @@ Generate the resolution notes for a case using the resolution notes generation s
 
 ## Before you begin
 
-[Configure resolution notes generation for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.md)
+[Configure resolution notes generation for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.md)
 
 Role required: sn\_hr\_core.case\_writer
 
@@ -38,15 +38,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  Select one of the following in the **Add resolution notes** window.
 
-<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d363991e127">
+<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d363995e127">
 
 Option
 
-</th><th align="left" id="d363991e130">
+</th><th align="left" id="d363995e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d363991e136">
+</th></tr></thead><tbody><tr><td id="d363995e136">
 
 **Save notes**
 
@@ -54,7 +54,7 @@ Description
 
 Add resolution notes to the **Close notes** field.**Note:** Review the generated text and make sure it's accurate. You may edit the notes or delete them to provide your own.
 
-</td></tr><tr><td id="d363991e150">
+</td></tr><tr><td id="d363995e150">
 
 **Skip notes**
 
@@ -78,7 +78,7 @@ Skip adding resolution notes to the case.
     3.  Select **Insert** to add the generated content into the **Close notes** field.
 
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

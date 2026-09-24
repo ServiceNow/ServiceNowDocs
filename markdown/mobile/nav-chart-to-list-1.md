@@ -2,7 +2,7 @@
 title: Create a parameterized list for your chart
 description: Create the list that users see when they tap on your chart screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/nav-chart-to-list-1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/nav-chart-to-list-1.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -303,9 +303,9 @@ Determine which specific values you want to pass to this screen.
 
 ## What to do next
 
-Configure the List item config for your list screen to choose the cards and fields that will appear on this list. For more information, see [List screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/list-screen.md).
+Configure the List item config for your list screen to choose the cards and fields that will appear on this list. For more information, see [List screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/list-screen.md).
 
-If you're adding an analytics preview to the launcher screen UI section. See, [Configure an analytics UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-reports.md).
+If you're adding an analytics preview to the launcher screen UI section. See, [Configure an analytics UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-ui-section-config-reports.md).
 
-**Parent Topic:**[Configure a navigation from a chart to a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/nav-chart-to-list.md)
+**Parent Topic:**[Configure a navigation from a chart to a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/nav-chart-to-list.md)
 

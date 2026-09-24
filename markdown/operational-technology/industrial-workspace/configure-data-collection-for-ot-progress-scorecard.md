@@ -2,7 +2,7 @@
 title: Configure the data collection for the Operational Technology Progress Scorecard
 description: Configure the data collection for Operational Technology \(OT\) Progress Scorecard so that you can collect and display the daily data for all indicators from Performance Analytics. This configuration ensures that your OT data is displayed accurately on the scorecard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-data-collection-for-ot-progress-scorecard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/configure-data-collection-for-ot-progress-scorecard.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -49,5 +49,5 @@ The OT Progress Scorecard is now showing the correct site data for your users.
 
 **Note:** The OT Progress Scorecard uses Performance Analytics. Performance Analytics only saves the scores for 5 months. If want to preserve your scores and compare site data for more than 5 months, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
 
-**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
+**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
 

@@ -2,7 +2,7 @@
 title: Reduce motion preference
 description: Learn more about the Reduce motion accessibility preference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/reduce-motion-pref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/reduce-motion-pref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

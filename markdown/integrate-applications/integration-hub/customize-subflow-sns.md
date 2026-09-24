@@ -2,7 +2,7 @@
 title: Customize event management
 description: Customize the management of events \(Notification, Subscription Confirmation, and Unsubscribe Confirmation\) you receive for your ServiceNow instance from Amazon SNS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/customize-subflow-sns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/customize-subflow-sns.html
 release: australia
 product: Integration Hub
 classification: integration-hub

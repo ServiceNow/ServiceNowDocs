@@ -2,7 +2,7 @@
 title: Using UI policies
 description: UI policies dynamically change the behavior of information on a form and control custom process flows for tasks.Create a UI policy to define custom process flows for tasks.Create a UI policy to implement controls in the Incident form when the state changes to Resolved.Any scripts you create for UI policies run on the client side.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAUIPolicy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAUIPolicy.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create an event profile for the Proofpoint Integration for Security Operations
 description: Create an event profile to identify the events you want to import from the Proofpoint product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/proofpoint-integration-secops-create-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/proofpoint-integration-secops-create-profile.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

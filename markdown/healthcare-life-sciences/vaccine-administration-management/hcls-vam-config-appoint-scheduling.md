@@ -2,7 +2,7 @@
 title: Configuring appointment scheduling for a vaccination center
 description: You can configure advanced appointment scheduling for a vaccination center based on the available inventory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-vam-config-appoint-scheduling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/vaccine-administration-management/hcls-vam-config-appoint-scheduling.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -20,6 +20,6 @@ As a user with the sn\_vaccine\_sm.admin role, you can configure the scheduling 
 
 Also, you can configure location-specific and inventory-based appointment scheduling. For details, see:
 
--   [Configure advanced appointment scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/configure-location-level-weekly-schedule-config.md).
--   [Configure inventory-based scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/configure-scheduling-by-inventory.md).
+-   [Configure advanced appointment scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/vaccine-administration-management/configure-location-level-weekly-schedule-config.md).
+-   [Configure inventory-based scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/vaccine-administration-management/configure-scheduling-by-inventory.md).
 

@@ -2,7 +2,7 @@
 title: View domain relationships
 description: The domain map offers domain administrators a read-only representation of the active domains on the instance and how they relate to each other.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ViewDomainRelationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ViewDomainRelationships.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

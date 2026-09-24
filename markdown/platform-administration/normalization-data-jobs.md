@@ -2,7 +2,7 @@
 title: Normalization and transformation data jobs
 description: The system uses data jobs to change field values during normalization and transformation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/normalization-data-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/normalization-data-jobs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Administrators must manually start data jobs that apply field changes. All trans
 
 **Note:**
 
-If the Field Normalization plugin is active, the normalization engine executes on insert of records into a table according to normalization rules. To learn more about this plugin, see [Activate Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-field-normalization.md).
+If the Field Normalization plugin is active, the normalization engine executes on insert of records into a table according to normalization rules. To learn more about this plugin, see [Activate Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/activate-field-normalization.md).
 
 If the Field Normalization plugin is not active, a data job runs to normalize the values. The data job saves the previous values in the rolled back fields to revert them if necessary.
 

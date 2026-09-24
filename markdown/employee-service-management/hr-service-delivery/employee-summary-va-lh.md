@@ -2,7 +2,7 @@
 title: Use the Employee Summary Virtual Agent topic in Leader Hub
 description: Activate and use the Employee Summary Virtual Agent topic to access employee contribution summaries, view consolidated profiles, and track employee progress.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/employee-summary-va-lh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/employee-summary-va-lh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -49,8 +49,8 @@ Role required: sn\_egd\_lh.admin
 
 3.  View the Employee Summary reports topic.
 
-    For more information, see [View employee summary reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/employee-summary-lh.md).
+    For more information, see [View employee summary reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/employee-summary-lh.md).
 
 
-**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-using.md)
+**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-using.md)
 

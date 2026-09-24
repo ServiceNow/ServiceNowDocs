@@ -2,7 +2,7 @@
 title: Disconnect a service
 description: As a provider, disconnect a service, or service order, in the ServiceNow AI Platform for your customers. For example, you might want to disconnect your current 4G connectivity to upgrade it to 5G connectivity.OM revamp project - This topic has been removed from the SOM bundle on Oct 14, 2025. Content has been covered in the new create-macd-orders.dita topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-capture-disconnect-service-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-capture-disconnect-service-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

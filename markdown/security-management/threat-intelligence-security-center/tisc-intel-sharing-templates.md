@@ -2,7 +2,7 @@
 title: Configuring Outbound Intel Sharing Templates
 description: Outbound Intel Sharing Templates enable you to define and control the data shared externally from the Threat Intelligence Security Center \(TISC\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -22,7 +22,7 @@ Role required: sn\_sec\_tisc.admin
 
 ## About this task
 
-The primary purpose of the sharing templates is to prefill the sharing record details such as sharing record name, description, outbound intelligence profile or groups. For more information, see [Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md).
+The primary purpose of the sharing templates is to prefill the sharing record details such as sharing record name, description, outbound intelligence profile or groups. For more information, see [Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md).
 
 These templates specify which entities and attributes are included and the system settings for sharing.
 
@@ -159,7 +159,7 @@ Outbound Intel Sharing Profiles
 
 </td><td>
 
-Indicates the Outbound Intel Sharing Profiles. This value is pre-populated within the outbound intelligence sharing record.For more information, see [Configuring Outbound Intel Sharing Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-sharing-profiles.md).
+Indicates the Outbound Intel Sharing Profiles. This value is pre-populated within the outbound intelligence sharing record.For more information, see [Configuring Outbound Intel Sharing Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-outbound-sharing-profiles.md).
 
 </td></tr><tr><td>
 
@@ -167,7 +167,7 @@ Outbound Intel Sharing Groups
 
 </td><td>
 
-Indicates the Outbound Intel Sharing Groups. This value is pre-populated within the outbound intelligence sharing record.For more information, see [Configuring Outbound Intel Sharing Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-config-inbound-sharing-groups.md).
+Indicates the Outbound Intel Sharing Groups. This value is pre-populated within the outbound intelligence sharing record.For more information, see [Configuring Outbound Intel Sharing Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-config-inbound-sharing-groups.md).
 
 </td></tr><tr><td>
 
@@ -231,7 +231,7 @@ Indicates the Outbound Intelligence Exclusion Rules. By default the value in thi
 8.  **Template Sharing Controls:**
 9.  Navigate to **Template Sharing Controls** section.
 
-    Template Sharing Controls displays all the sharing controls defined for the selected template, and these sharing controls. These are dependent on the main sharing controls known as outbound intelligence sharing controls. For more information, see [Configuring Outbound Intel Sharing Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-sharing.md).
+    Template Sharing Controls displays all the sharing controls defined for the selected template, and these sharing controls. These are dependent on the main sharing controls known as outbound intelligence sharing controls. For more information, see [Configuring Outbound Intel Sharing Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-outbound-sharing.md).
 
 10. Select **Add** inside the **Template Sharing Controls** section.
 
@@ -251,7 +251,7 @@ Indicates the Outbound Intelligence Exclusion Rules. By default the value in thi
 
     Once the template sharing controls are published, they become available for use within intelligence outbound sharing templates.
 
-    **Important:** These templates are also applicable during sharing data from GUI setup and can be accessed from the Threat Intelligence Library. For more information, see [Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md).
+    **Important:** These templates are also applicable during sharing data from GUI setup and can be accessed from the Threat Intelligence Library. For more information, see [Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md).
 
 14. Select **Edit** button to make any necessary changes to the template.
 
@@ -285,7 +285,7 @@ Indicates the Outbound Intelligence Exclusion Rules. By default the value in thi
     **Note:** On the **Outbound Intel Sharing Templates** page list view, you can also perform various actions such as **Duplicate**, **Enable**, or **Disable** by selecting one or more templates.
 
 
-**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
+**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
 
 **Related topics**  
 
@@ -302,9 +302,9 @@ Indicates the Outbound Intelligence Exclusion Rules. By default the value in thi
 
 [Working on the Redaction Library]()
 
-[Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md)
+[Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md)
 
-[Automated Sharing of Outbound Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-outbound-intel-share.md)
+[Automated Sharing of Outbound Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-automated-outbound-intel-share.md)
 
-[Automated Sharing of TAXII Collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-share-taxii.md)
+[Automated Sharing of TAXII Collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-automated-share-taxii.md)
 

@@ -2,7 +2,7 @@
 title: Exploring Financial Services Operations Integration with Visa
 description: Learn how you can use the Financial Services Operations Integration with Visa application to seamlessly connect with dispute workflows and manage dispute resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/exploring-financial-services-operations-integration-with-visa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/exploring-financial-services-operations-integration-with-visa.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

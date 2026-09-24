@@ -2,7 +2,7 @@
 title: Work on an incident pattern record
 description: Understand the fields and related lists of the incident pattern record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-work-on-incident-pattern-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/hs-work-on-incident-pattern-record.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -34,11 +34,11 @@ Role required: sn\_ohs\_im.manager and sn\_ohs\_im.agent
 
     1.  Review the **Details** tab to analyze factors such as, urgency, confidence score, and the AI generated pattern summary.
 
-        For more information on the fields of the **Details** tab, see [Incident pattern form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-record-details-tab.md).
+        For more information on the fields of the **Details** tab, see [Incident pattern form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-record-details-tab.md).
 
     2.  Create actions in the **Health and safety actions** tab based on the analysis.
 
-        For more information, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-action-form.md).
+        For more information, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-action-form.md).
 
     3.  Review the **Related incidents** tab for the list of safety incidents that form the pattern.
 
@@ -47,5 +47,5 @@ Role required: sn\_ohs\_im.manager and sn\_ohs\_im.agent
         The similar patterns are auto-generated.
 
 
-**Parent Topic:**[Incident pattern analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis.md)
+**Parent Topic:**[Incident pattern analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis.md)
 

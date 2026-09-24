@@ -2,7 +2,7 @@
 title: Build a visual flow for Guided Self-Service
 description: Create a visual playbook flow of activities so that employees can find information in a more intuitive and visual way.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/gss-guided-help-pad-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/gss-guided-help-pad-playbook.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ Create a visual playbook flow of activities so that employees can find informati
 
 Understand the basics of playbooks and workflow studio [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/building-a-process.md).
 
-Review the information from [Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md).
+Review the information from [Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md).
 
 Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
@@ -64,5 +64,5 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
 ## Result
 
-GSS is configured to guide employees. For more information, see [Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md).
+GSS is configured to guide employees. For more information, see [Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md).
 

@@ -2,7 +2,7 @@
 title: Working with quick filters
 description: Quick filters are easily accessible filters that are available on, security incidents and response tasks lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-quick-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/configure-quick-filters.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -84,10 +84,10 @@ The base system provides the following quick filters for each response task:
 9.  Click **Update**.
 
 
--   **[Add or modify quick filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add_quick_filters.md)**  
+-   **[Add or modify quick filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/add_quick_filters.md)**  
 Add or modify quick filters for security incidents or response tasks within the list view.
 
-**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 

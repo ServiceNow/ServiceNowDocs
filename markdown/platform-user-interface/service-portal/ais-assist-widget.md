@@ -2,7 +2,7 @@
 title: AI Search Assist widget
 description: Improve incident deflection for Service Portal users by displaying the most relevant search results within a record producer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/ais-assist-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/ais-assist-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -26,7 +26,7 @@ The widget is included in the **Create Incident** record producer form to displa
 
 The AI Search Assist widget doesn't include instance options.
 
-**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-widgets.md)
+**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/search-widgets.md)
 
 **Related topics**  
 

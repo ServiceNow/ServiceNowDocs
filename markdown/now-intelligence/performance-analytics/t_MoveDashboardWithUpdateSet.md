@@ -2,7 +2,7 @@
 title: Move a Core UI dashboard with an update set
 description: Portal pages related to dashboard tabs aren’t automatically transferred in update sets. You can add portal pages to update sets from a dashboard record using the Unload Dashboard function. The Unload Dashboard function unloads the entire dashboard with all related tabs, including portal pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_MoveDashboardWithUpdateSet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_MoveDashboardWithUpdateSet.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -29,7 +29,7 @@ This procedure doesn’t move the content of the dashboard \(such as reports, PA
 
 **Important:** Make sure that the dashboard content is either in the same update set as the dashboard record or is already present in the target instance. Errors result if the moved dashboard points to content that doesn’t exist on the target instance.
 
-Additional steps may be necessary if you are moving a dashboard on a scoped application. For more information, see [Update set id 'global' is different than update set scope id](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.md).
+Additional steps may be necessary if you are moving a dashboard on a scoped application. For more information, see [Update set id 'global' is different than update set scope id](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.md).
 
 **Tip:** If you have difficulty with this procedure, contact Customer Service and Support.
 
@@ -63,18 +63,18 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
     For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RetrieveAnUpdateSet.md).
 
-    On the Remote Instance page, the **Retrieved Update Sets** related list shows all retrieved update sets. Select the update set to see if there are errors. Errors are shown on the **Retrieved Update Set** form in a related list called **Update Set Preview Problems**. See [Solving errors on dashboards moved with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.md).
+    On the Remote Instance page, the **Retrieved Update Sets** related list shows all retrieved update sets. Select the update set to see if there are errors. Errors are shown on the **Retrieved Update Set** form in a related list called **Update Set Preview Problems**. See [Solving errors on dashboards moved with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.md).
 
 8.  On the target instance, make sure that all the tabs of the dashboard have associated portal pages.
 
-    Follow the procedure in [Validate that tabs are moved to a target dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/validate-dashboard-tabs-moved.md).
+    Follow the procedure in [Validate that tabs are moved to a target dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/validate-dashboard-tabs-moved.md).
 
     If the portal page is missing in the Tab form, select the search icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text:\) next to the **Page** field to search for the associated portal page.
 
     **Note:** If you can’t find the associated portal page in the target instance, follow these steps to move each missing portal page through the update:
 
     1.  Navigate to **Homepage Admin** &gt; **Pages**.
-    2.  Filter the list to show only the portal page with the sys\_id you copied when following the procedure in [Validate that tabs are moved to a target dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/validate-dashboard-tabs-moved.md).
+    2.  Filter the list to show only the portal page with the sys\_id you copied when following the procedure in [Validate that tabs are moved to a target dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/validate-dashboard-tabs-moved.md).
     3.  Right-click the record and select **Unload Portal Page**.
 
         \[Omitted image "unload-portal-page.png"\] Alt text: Portal page record context menu with the item Unload portal page selected.

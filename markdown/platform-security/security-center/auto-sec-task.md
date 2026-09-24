@@ -2,7 +2,7 @@
 title: Automatic Security Task generation
 description: Learn about how and when your instance generates Security Tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/auto-sec-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/auto-sec-task.html
 release: australia
 product: Security Center
 classification: security-center
@@ -26,19 +26,19 @@ Security Tasks can be automatically generated. Automatic Security Task generatio
 
 -   **Event notification**
 
-    A Security Task is generated when a security event notification triggers \(meets conditions of it's policy\). As with metrics, there’s only one open task for a policy, with a new task being generated if the previous one is closed, and the notification triggers again. For details on security event notifications, see [Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-policies.md).
+    A Security Task is generated when a security event notification triggers \(meets conditions of it's policy\). As with metrics, there’s only one open task for a policy, with a new task being generated if the previous one is closed, and the notification triggers again. For details on security event notifications, see [Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-policies.md).
 
 -   **Hardening score deviation**
 
-    When the hardening score degrades below the configured threshold value \(default 3\), a Security Task is generated. For example, if the hardening score is 97, and is 94 the next day, a Security Task is created just after the score of 94 is calculated. Only a single open task is created. The platform will not generate another task if the score lowers again the next day from 94 to 91. For details on your hardening score, see [Hardening compliance score trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/score-trend.md).
+    When the hardening score degrades below the configured threshold value \(default 3\), a Security Task is generated. For example, if the hardening score is 97, and is 94 the next day, a Security Task is created just after the score of 94 is calculated. Only a single open task is created. The platform will not generate another task if the score lowers again the next day from 94 to 91. For details on your hardening score, see [Hardening compliance score trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/score-trend.md).
 
 -   **Customer Action**
 
-    A Security Task is generated whenever a Customer Action is installed. For details on Customer Actions, see [Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/critical-updates.md).
+    A Security Task is generated whenever a Customer Action is installed. For details on Customer Actions, see [Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/critical-updates.md).
 
 -   **Banner announcement**
 
-    A Security Task is generated for each new banner announcement. For details on banner announcements, see [ServiceNow Security Center announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/scc-banner.md).
+    A Security Task is generated for each new banner announcement. For details on banner announcements, see [ServiceNow Security Center announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/scc-banner.md).
 
 
 ## Automatically generated security settings
@@ -54,5 +54,5 @@ Configuration options for automatically generated Security Tasks are found in th
     The value in the field represents the amount by which the hardening score must degrade \(since the last daily score\) to generate a Security Task. This value must be a positive integer. The default value is 3.
 
 
-**Parent Topic:**[Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md)
+**Parent Topic:**[Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-task-manager.md)
 

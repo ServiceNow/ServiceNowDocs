@@ -2,7 +2,7 @@
 title: Parallel stages in Azure DevOps release pipelines
 description: Parallel stages in a release pipeline are now processed concurrently and displayed in the DevOps pipeline UI in real time. Base system pre-deployment conditions and release gates enable you to create change requests that include details from parallel stages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/parallel-stages-ado-release-pipelines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/parallel-stages-ado-release-pipelines.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -127,5 +127,5 @@ Ensure that you review the following considerations before upgrading.
 
 **Note:** A package is created for each start stage but any one package is associated per pipeline execution.
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

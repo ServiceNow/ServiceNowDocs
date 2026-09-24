@@ -2,7 +2,7 @@
 title: Viewing all tables
 description: View a list of all tables on your instance and the number of active data management rules configured on each table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/data-management-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/data-management-tables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Access table information in the Data Management Console in one of the following 
 -   Monitor data usage for logical tables, including the Incident \[incident\], Problem \[problem\], and Change Request \[change\_request\] tables.
 -   Review storage breakdowns across tables in a unified view. Use this data to identify which tables contain the most archived data to adjust rule conditions or schedules.
 -   Estimate future object storage requirements by accounting for the compression in columnar storage. Base your storage forecasts on actual object storage growth rates rather than primary database removal rates, as these metrics don't correlate directly.
--   Access data usage and rule details by selecting a table in the list. See [Viewing data usage by table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-table-data.md).
+-   Access data usage and rule details by selecting a table in the list. See [Viewing data usage by table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/data-management-table-data.md).
 

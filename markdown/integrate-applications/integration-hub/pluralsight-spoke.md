@@ -2,7 +2,7 @@
 title: Pluralsight Spoke
 description: Manage users, learning, courses, and so on in the Pluralsight Skills account from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/pluralsight-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/pluralsight-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -168,5 +168,5 @@ Look up Users
 Retrieves details of the users in Pluralsight.
 
 </td></tr></tbody>
-</table>See [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-pluralsight-spk.md) for information about setting up the Pluralsight spoke.
+</table>See [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-pluralsight-spk.md) for information about setting up the Pluralsight spoke.
 

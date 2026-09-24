@@ -2,7 +2,7 @@
 title: View and manage financial plans in Project Workspace
 description: Use the Financials tab in Project Workspace to capture the costs and benefits of a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/view-plan-financials-in-project-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/view-plan-financials-in-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -34,7 +34,7 @@ The **Financials** tab provides a detailed breakdown of the cost components of a
 
 ## Procedure
 
-1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-the-project-workspace.md) the required project in [project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-classic.md).
+1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/access-the-project-workspace.md) the required project in [project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-classic.md).
 
 2.  Click the **Financials** tab.
 
@@ -97,8 +97,8 @@ The **Financials** tab provides a detailed breakdown of the cost components of a
         The aggregated amount in the **Cost in project currency** field is clear if there are cost plans of sub-projects with different project currency.
 
 
--   **[Configure a widget for project financial metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-widget-project-financials.md)**  
+-   **[Configure a widget for project financial metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-widget-project-financials.md)**  
 Configure a widget to view and track the financial metrics of a project on the **Financials** tab of the Project Workspace page.
 
-**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-classic.md)
 

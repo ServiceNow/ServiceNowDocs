@@ -2,7 +2,7 @@
 title: Customize system notifications
 description: Create custom notifications, which are subscriptions to notifications of importance to you, and apply conditions that control specific content included in your custom notification. You can also enable or disable the channels for delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-custom-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-custom-notifications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-**Note:** Custom notifications for Next Experience do not support the setting for the affected record the notification is based on. For notifications that require an associated affected record, see [Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-personal-notifications.md).
+**Note:** Custom notifications for Next Experience do not support the setting for the affected record the notification is based on. For notifications that require an associated affected record, see [Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-personal-notifications.md).
 
 ## Procedure
 
@@ -55,5 +55,5 @@ Role required: none
 8.  Select **Save**.
 
 
-**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-notification-prefrences.md)
+**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/advanced-notification-prefrences.md)
 

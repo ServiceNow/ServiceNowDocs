@@ -2,7 +2,7 @@
 title: Edit a draft demand in Employee Slate
 description: Update the details of a draft demand in Employee Slate before submitting it for a demand manager's review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/edit-an-active-demand-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/edit-an-active-demand-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -64,7 +64,7 @@ Action
 
 3.  Update the fields.
 
-    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-form-ppw.md).
+    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/demand-form-ppw.md).
 
 4.  Select **Save**.
 

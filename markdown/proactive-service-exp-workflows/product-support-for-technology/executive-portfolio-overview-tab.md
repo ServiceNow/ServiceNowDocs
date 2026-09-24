@@ -2,7 +2,7 @@
 title: Portfolio overview tab fields
 description: The Portfolio overview tab displays revenue retention metrics, renewal risks, growth opportunities, and an AI-generated portfolio briefing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-overview-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-overview-tab.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -30,10 +30,10 @@ The Portfolio overview tab displays revenue retention metrics, renewal risks, gr
 |Net revenue retention|Percentage of recurring revenue retained from existing customers, including expansions, upsells, and cross-sells minus churn and downsells. Net revenue retention can exceed 100% when expansion revenue outweighs losses.|
 |Opportunities by stage|Distribution of active expansion and renewal opportunities across sales stages. Provides visibility into pipeline status at each stage.|
 
-**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 
 
-[Executive Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-page.md)
+[Executive Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-page.md)
 

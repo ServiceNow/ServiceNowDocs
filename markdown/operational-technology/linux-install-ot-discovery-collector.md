@@ -2,7 +2,7 @@
 title: Install OT Discovery Collector on a Linux system
 description: Install the OT Discovery Collector on a Linux system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/linux-install-ot-discovery-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/linux-install-ot-discovery-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-27"
@@ -26,7 +26,7 @@ Install the OT Discovery Collector on a Linux system.
 
 Role required: admin
 
-**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
+**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/air-gapped-networks-installation.md).
 
 ## Procedure
 
@@ -97,5 +97,5 @@ journalctl -f -a -u SNDiscoveryCollector
 
 .
 
-**Parent Topic:**[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-the-collector.md)
+**Parent Topic:**[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configuring-the-collector.md)
 

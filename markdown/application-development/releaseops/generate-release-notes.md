@@ -2,7 +2,7 @@
 title: Generate release notes
 description: Generate release notes to document app changes and versions over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/generate-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/generate-release-notes.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -21,7 +21,7 @@ Generate release notes to document app changes and versions over time.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-You must have the release lifecycle documentation AI agent turned on in AI Agent Studio. For more information, see [Configure release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/configure-release-lifecycle-documentation-ai-agent.md).
+You must have the release lifecycle documentation AI agent turned on in AI Agent Studio. For more information, see [Configure release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/configure-release-lifecycle-documentation-ai-agent.md).
 
 A release must be in the **Complete** state to generate release notes using the release lifecycle documentation AI agent.
 
@@ -68,5 +68,5 @@ Role required: sn\_aia.viewer, update\_set\_admin, and sn\_releaseops.release\_n
     5.  Select **Regenerate**.
 
 
-**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
+**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 

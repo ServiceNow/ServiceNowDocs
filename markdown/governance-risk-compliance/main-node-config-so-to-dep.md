@@ -2,7 +2,7 @@
 title: Service offering to dependencies Main node configuration
 description: The Service offering to dependencies Main node configuration defines the relationships from a Service offering to its dependencies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/main-node-config-so-to-dep.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/main-node-config-so-to-dep.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

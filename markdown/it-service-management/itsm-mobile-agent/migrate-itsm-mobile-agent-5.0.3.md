@@ -2,7 +2,7 @@
 title: Migration to ITSM Mobile Agent 5.0.3
 description: Migration to ITSM Mobile Agent 5.0.3 enables the Next Experience theme and accessibility compliance in ITSM Mobile Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/migrate-itsm-mobile-agent-5.0.3.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/migrate-itsm-mobile-agent-5.0.3.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

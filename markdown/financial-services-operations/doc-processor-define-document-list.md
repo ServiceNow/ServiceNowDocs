@@ -2,7 +2,7 @@
 title: Create a document list definition
 description: Create a document list definition to later associate document list items to. For example, create a Contact onboarding document list definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/doc-processor-define-document-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/doc-processor-define-document-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ Role required: sn\_doc\_processor.admin
 
 ## What to do next
 
-[Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/doc-processor-associate-document-list-items-to-category.md)
+[Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/doc-processor-associate-document-list-items-to-category.md)
 
-**Parent Topic:**[Configuring Financial Services Operations Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-fso-document-processor.md)
+**Parent Topic:**[Configuring Financial Services Operations Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-fso-document-processor.md)
 

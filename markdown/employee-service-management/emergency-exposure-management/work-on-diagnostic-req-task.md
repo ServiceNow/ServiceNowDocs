@@ -2,7 +2,7 @@
 title: Fetch potentially exposed user data from a data source
 description: Work on the diagnostic request task to get information about potentially impacted users from a selected data source and populate the corresponding related lists on the Diagnostic Request form.Fetch potentially exposed user information from the Cisco Wi-Fi access log data and populate the corresponding related lists on the Diagnostic Request form.Upload a spreadsheet containing the Zebra MotionWorks proximity data to fetch a list of potentially exposed users and populate the corresponding related lists on the Diagnostic Request form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/work-on-diagnostic-req-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-exposure-management/work-on-diagnostic-req-task.html
 release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -22,7 +22,7 @@ Role required: sn\_imt\_diagnosis.diagnostics\_admin or admin
 
 ## About this task
 
-The diagnostic request task is created from the diagnostic request task configuration for the data source type selected in the Diagnostic Request form. For more information, see [Create or modify a diagnostic request task configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/create-diagnostic-task-config.md).
+The diagnostic request task is created from the diagnostic request task configuration for the data source type selected in the Diagnostic Request form. For more information, see [Create or modify a diagnostic request task configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/create-diagnostic-task-config.md).
 
 ## Procedure
 
@@ -43,7 +43,7 @@ The diagnostic request task is created from the diagnostic request task configur
 
 The state of the diagnostic request task updates to Close. The potentially exposed users from the data source are added to the corresponding related list on the Diagnostic Request form.
 
-**Parent Topic:**[Identify potentially exposed users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/use-emergency-exposure-mgnt.md)
+**Parent Topic:**[Identify potentially exposed users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/use-emergency-exposure-mgnt.md)
 
 ## Fetch potentially exposed user data from Cisco DNA Spaces
 
@@ -57,15 +57,15 @@ Role required: sn\_imt\_diagnosis.diagnostics\_admin or admin
 
 1.  Access the potentially exposed user information through an attachment having the Cisco Wi-Fi access log data or by generating a report through the Cisco DNA Spaces portal.
 
-<table id="choicetable_gsw_cnz_qmb"><thead><tr><th align="left" id="d421625e181">
+<table id="choicetable_gsw_cnz_qmb"><thead><tr><th align="left" id="d421629e181">
 
 Options
 
-</th><th align="left" id="d421625e184">
+</th><th align="left" id="d421629e184">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d421625e190">
+</th></tr></thead><tbody><tr><td id="d421629e190">
 
 **Attach a Wi-Fi access log file**
 
@@ -77,7 +77,7 @@ Steps
 4.  Click **Update**.
  The state of the diagnostic request task updates to Close.
 
-</td></tr><tr><td id="d421625e232">
+</td></tr><tr><td id="d421629e232">
 
 **Generate a report and post data through the Cisco portal**
 

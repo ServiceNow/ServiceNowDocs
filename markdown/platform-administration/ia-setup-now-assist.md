@@ -2,7 +2,7 @@
 title: Set up ServiceNow Otto with ServiceNow Otto for Setup
 description: Implement the following steps to set up ServiceNow Otto with ServiceNow Otto for Setup on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-setup-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-setup-now-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -59,5 +59,5 @@ Role required: admin
     See [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) for more information on configuration of ServiceNow Otto Admin module.
 
 
-**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)
+**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-administer.md)
 

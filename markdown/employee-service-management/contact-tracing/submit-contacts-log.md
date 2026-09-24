@@ -2,7 +2,7 @@
 title: Submit a list of contacts that you interacted with at the workplace
 description: Submit a list of people that you've come into contact with at the workplace to help your organization identify on-site employees who may have been in contact with a potentially exposed coworker.If you receive a mobile push notification to submit the daily contact log, you can submit a list of people that you interacted with on a day.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/submit-contacts-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/submit-contacts-log.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -43,7 +43,7 @@ If you're among the employees who have returned to the workplace, you receive mo
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Tracking employee contacts using daily logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/employee-daily-log.md)
+**Parent Topic:**[Tracking employee contacts using daily logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/employee-daily-log.md)
 
 ## Submit the daily contact log from a mobile phone
 
@@ -51,7 +51,7 @@ If you receive a mobile push notification to submit the daily contact log, you c
 
 ### Before you begin
 
-To receive mobile push notifications, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
+To receive mobile push notifications, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: sn\_imt\_checkin.dailylog\_user
 

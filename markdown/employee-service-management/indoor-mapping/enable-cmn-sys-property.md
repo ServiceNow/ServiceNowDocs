@@ -2,7 +2,7 @@
 title: Enable the CMN location property
 description: To synchronize CMN Location types with Indoor Mapping, enable the system property sn\_map\_core.cmn\_location\_sync\_enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/enable-cmn-sys-property.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/enable-cmn-sys-property.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -35,9 +35,9 @@ Role required: admin
     **Note:** If Workplace Service Delivery is installed in your system, this property should be set to **false**. You can enable this property \(if it is set to false and if Workplace Service Delivery is not installed \) to synchronize CMN locations and location types with Indoor Mapping map data.
 
 
-**Parent Topic:**[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/sync-cmn-location.md)
+**Parent Topic:**[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/sync-cmn-location.md)
 
-**Previous topic:**[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/sync-cmn-location.md)
+**Previous topic:**[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/sync-cmn-location.md)
 
-**Next topic:**[Add CMN locations and map it to Indoor Mapping Place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/enable-cmn-location-types.md)
+**Next topic:**[Add CMN locations and map it to Indoor Mapping Place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/enable-cmn-location-types.md)
 

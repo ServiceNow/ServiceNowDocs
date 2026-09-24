@@ -2,7 +2,7 @@
 title: User profile page
 description: The user profile page displays gamification information that showcases the user's expertise.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-ui-user-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/gamification-ui-user-profile.html
 release: australia
 product: Communities
 classification: communities
@@ -71,5 +71,5 @@ Clicking the info icon displays the forum or topic levels and the point ranges.
 
 \[Omitted image "CommunitiesForumTopicExpertiseWidget.png"\] Alt text: Forum Expertise and Topic Expertise widgets displaying user’s top areas of expertise in completed levels and points.
 
-**Parent Topic:**[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-UI.md)
+**Parent Topic:**[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/communities-gamification-UI.md)
 

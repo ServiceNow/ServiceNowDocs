@@ -2,7 +2,7 @@
 title: Request Change Management - Risk Assessment
 description: To activate Change Management capability to predict change risk using Predictive Intelligence, request the Change Management - Risk Intelligence plugin \(com.snc.change\_management.ml.risk\) through the Now Support Customer Service system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/request-cm-risk-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/request-cm-risk-assessment.html
 release: australia
 product: Change Management
 classification: change-management
@@ -91,10 +91,10 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with Change Management - Risk Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-risk-intelligence.md)**  
+-   **[Components installed with Change Management - Risk Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-risk-intelligence.md)**  
 Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, that includes tables.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

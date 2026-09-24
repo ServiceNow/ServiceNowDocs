@@ -2,12 +2,12 @@
 title: Configure the Tanium environment for the Service Graph Connector for Tanium Endpoints
 description: Configure your Tanium environment to import data using the Service Graph Connector for Tanium Endpoints.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-tanium-endpoints-configure-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-tanium-endpoints-configure-task.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Tanium Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,11 +35,11 @@ After you configure an identity, create an API token. Provide the resulting API 
 
 1.  Configure an identity for binding the API token that is used by the Service Graph Connector for Tanium Endpoints:
 
-    -   [Configure a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-configure-service-account.md) \(default identity\)
-    -   [Configure a persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-configure-persona.md) \(alternative identity; to be used only when a service account is not permitted\)
+    -   [Configure a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-configure-service-account.md) \(default identity\)
+    -   [Configure a persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-configure-persona.md) \(alternative identity; to be used only when a service account is not permitted\)
     Create an identity that has only the roles required by the integration.
 
-2.  [Create an API token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-create-api-token.md)
+2.  [Create an API token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-create-api-token.md)
 
     After configuring the identity \(service account or persona\), generate the API token to be used by the Service Graph Connector for Tanium Endpoints.
 

@@ -2,7 +2,7 @@
 title: HR Centers of Excellence data model
 description: Organize HR data, services, and processes by functional discipline with the HR Centers of Excellence \(COEs\) data model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -48,7 +48,7 @@ This structure enables you to categorize HR services by functional area, and you
 
 Before configuring individual HR services, review and set up the categorization structure for them. This foundational step ensures that your services are properly organized within the COE framework.
 
-**Note:** For a list of base system COEs and how to enable or disable them, see [Enable or disable an HR Center of Excellence \(COE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-center-of-excellence-coe.md).
+**Note:** For a list of base system COEs and how to enable or disable them, see [Enable or disable an HR Center of Excellence \(COE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-center-of-excellence-coe.md).
 
 ## Roles
 
@@ -57,8 +57,8 @@ The following roles can create and configure COEs:
 -   System administrator \(admin\).
 -   Lifecycle event administrator \(sn\_hr\_le.admin\) with the Delegated Developer \(delegated\_developer\) role.
 
--   **[HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-categorization.md)**  
+-   **[HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-categorization.md)**  
 HR services are categorized under one of the HR Centers of Excellence \(COEs\), which are part of a data model that organizes HR data, services, and processes by functional discipline.
 
-**Parent Topic:**[HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-administration.md)
+**Parent Topic:**[HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-administration.md)
 

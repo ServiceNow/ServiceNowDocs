@@ -2,7 +2,7 @@
 title: Request a Manager instance
 description: Request a Manager instance from the Multi-instance page to configure multi-instance management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/request-a-manager-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/request-a-manager-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
@@ -39,5 +39,5 @@ This task can be performed if you're logged in from a sub-prod \(managed\) insta
 
 The request is sent to your Manager instance for approval.
 
-**Parent Topic:**[Multi-instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-multi-instance.md)
+**Parent Topic:**[Multi-instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-multi-instance.md)
 

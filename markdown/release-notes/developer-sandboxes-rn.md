@@ -2,7 +2,7 @@
 title: Developer Sandboxes release notes
 description: The ServiceNow Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. Developer Sandboxes was enhanced and updated in the Australia release.The ServiceNow Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. Developer Sandboxes was enhanced and updated in the Australia release.The ServiceNow Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. Developer Sandboxes was enhanced and updated in the Australia release.The ServiceNow Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. Developer Sandboxes was enhanced and updated in the Australia release.The ServiceNow Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. Developer Sandboxes was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/developer-sandboxes-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/developer-sandboxes-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-07-20"
@@ -20,7 +20,7 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 -   Upgrading an instance recreates sandboxes and backs up any update sets.
 -   A new plugin supports clone preservation when cloning an instance with sandboxes.
 
-See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sandboxes-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -29,7 +29,7 @@ See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNo
     Contact your ServiceNow account manager to install Developer Sandboxes.
 
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## June 2026
 
@@ -37,7 +37,7 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 
 ### What's changed
 
--   **[Upgrade enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
+-   **Upgrade enhancements**
 
     Automatic backups for upgrades are now working correctly. This issue is related to PRB2017438.
 
@@ -48,7 +48,7 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 
 ### What's changed
 
--   **[Schema change for shared tables isolates the table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dsb-installed-with.md)**
+-   **Schema change for shared tables isolates the table**
 
     To ensure configuration consistency, if you make a schema change, such as adding a column, to a shared table, the table now becomes an isolated table on the sandbox that initiated the schema change.
 
@@ -59,19 +59,19 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 
 ### What's changed
 
--   **[Upgrade enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
+-   **Upgrade enhancements**
 
     After an upgrade, Developer Sandboxes now recreates the sandboxes on an instance and automatically backs up update sets to the base instance.
 
--   **[Queuing for successive sandbox creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/allocating-sandboxes.md)**
+-   **Queuing for successive sandbox creation**
 
     To improve performance, Developer Sandboxes has implemented queuing when multiple sandboxes are created in succession.
 
--   **[SSO support for vanity URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-general-guidelines.md)**
+-   **SSO support for vanity URLs**
 
     Instances with vanity URLs can now support Single Sign-On \(SSO\).
 
--   **[New vibe coding documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)**
+-   **New vibe coding documentation**
 
     Documentation is now available that introduces vibe coding, which is a natural language approach to application development in ServiceNow, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
@@ -82,11 +82,11 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 
 ### What's new
 
--   **[New granular roles for administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dsb-installed-with.md)**
+-   **New granular roles for administration**
 
     Several new granular roles enable developers to complete administrative and configuration tasks without requiring the full admin role.
 
--   **[Support for separate indices for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-sandboxes.md)**
+-   **Support for separate indices for AI Search**
 
     AI Search \(AIS\) now maintains separate indices for each sandbox environment, ensuring development activities that rely on AIS are correctly supported.
 
@@ -95,11 +95,11 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 
 ### What's changed
 
--   **[Clarified sandbox initialization status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/allocating-sandboxes.md)**
+-   **Clarified sandbox initialization status**
 
     An error status message now appears on the instance home page when there’s an initialization error when allocating a sandbox.
 
--   **[Developer Sandboxes home page hidden when product is inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-sbx-entitlements.md)**
+-   **Developer Sandboxes home page hidden when product is inactive**
 
     The Developer Sandboxes home page is unavailable when Developer Sandboxes is inactive on an instance.
 

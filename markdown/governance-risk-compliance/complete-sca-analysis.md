@@ -2,7 +2,7 @@
 title: Mark the scenario analysis as complete
 description: Complete the Scenario analysis after all required playbook steps are finished to lock the record and make the results available for reporting and governance review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/complete-sca-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/complete-sca-analysis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

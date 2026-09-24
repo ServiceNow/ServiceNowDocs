@@ -2,7 +2,7 @@
 title: Configuring additional columns for Prioritization page in Portfolio Planning
 description: Configure what columns must be displayed on the Prioritization page of portfolio plans so that your planning managers can select the appropriate data points they need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/customizing-the-columns-for-prioritization-page-in-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/customizing-the-columns-for-prioritization-page-in-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

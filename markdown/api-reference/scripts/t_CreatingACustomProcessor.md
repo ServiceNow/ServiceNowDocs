@@ -2,7 +2,7 @@
 title: Create a custom processor
 description: Create a custom processor to execute a script from a URL query. This feature is deprecated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/t\_CreatingACustomProcessor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/t\_CreatingACustomProcessor.html
 release: australia
 product: Scripts
 classification: scripts
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 When complete, you can do the following tasks:
 
@@ -61,5 +61,5 @@ The following example steps assume you have your own demonstration instance.
 10. When prompted, enter the credentials for a valid user.
 
 
-**Parent Topic:**[Processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Processors.md)
+**Parent Topic:**[Processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Processors.md)
 

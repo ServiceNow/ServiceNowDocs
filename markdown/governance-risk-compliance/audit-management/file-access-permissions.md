@@ -2,7 +2,7 @@
 title: File access permissions
 description: The Workspace administrators with the sn\_grc\_workspace.admin role can configure the file access permissions for the users and groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/file-access-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/file-access-permissions.html
 release: australia
 product: Audit Management
 classification: audit-management

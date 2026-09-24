@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Smart Assessment Engine \(SAE\)
 description: Use the ServiceNowServiceNow Otto for Smart Assessment Engine \(SAE\) application to empower your teams to draft assessment responses by reusing previously answered questions from classic and smart assessments along with supporting documents. Quickly understand record context, reduce manual effort, and respond to assessments faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/servicenow-otto-for-smart-assessment-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/servicenow-otto-for-smart-assessment-engine.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -20,15 +20,15 @@ Use the ServiceNow®ServiceNow Otto for Smart Assessment Engine \(SAE\) applicat
 
 <table id="table_dy3_xj4_jjc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for SAE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/exploring-servicenow-otto-for-sae.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for SAE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/exploring-servicenow-otto-for-sae.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for SAE application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-servicenow-otto-for-smart-assessment-engine.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for SAE application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/configure-servicenow-otto-for-smart-assessment-engine.md)
 
 </td><td>
 
-[Using ServiceNow Otto for Smart Assessment Engine \(SAE\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/using-servicenow-otto-for-sae-skills.md)\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for SAE
+[Using ServiceNow Otto for Smart Assessment Engine \(SAE\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/using-servicenow-otto-for-sae-skills.md)\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for SAE
 
 </td></tr></tbody>
 </table>**Note:** This feature is available starting with Australia Patch 6.

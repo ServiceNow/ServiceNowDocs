@@ -2,7 +2,7 @@
 title: Configure Mobile AI Voice Agent
 description: Follow these steps to enable the Mobile AI Voice Agent feature for your mobile app users. The AI Voice Agent can also be configured for a custom app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-mobile-ai-voice-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-mobile-ai-voice-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,5 +52,5 @@ Role required: admin
     For steps on how to configure your function with a voice assistant, see [Integrate voice assistant with mobile app launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
 
 
-**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configuring-now-assist-mobile.md)
 

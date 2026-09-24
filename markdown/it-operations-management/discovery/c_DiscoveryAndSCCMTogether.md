@@ -2,7 +2,7 @@
 title: Discovery and SCCM together
 description: Use these guidelines to avoid common issues when you use Discovery and System Center Configuration Manager \(SCCM\) together.When Discovery and SCCM are both enabled on a system, the software records found through both tools could overwrite each other.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryAndSCCMTogether.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c\_DiscoveryAndSCCMTogether.html
 release: australia
 product: Discovery
 classification: discovery
@@ -66,5 +66,5 @@ To determine how software data is collected, configure the **glide.discovery.sof
 
 ### What to do next
 
-Use these Discovery properties to avoid software data discrepancy between Discovery and SCCM: **glide.discovery.enable.software\_simplify** and **glide.discovery.enable.software\_simplify\_sccm**. See [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md) for more information.
+Use these Discovery properties to avoid software data discrepancy between Discovery and SCCM: **glide.discovery.enable.software\_simplify** and **glide.discovery.enable.software\_simplify\_sccm**. See [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_DiscoveryProperties.md) for more information.
 

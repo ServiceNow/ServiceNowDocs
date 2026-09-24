@@ -2,7 +2,7 @@
 title: Use hierarchical list view for quote line items
 description: Sales agents can view quote line items as a hierarchical list, which helps to view the parent and child relationship between line items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-view-hierarchical-line-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-view-hierarchical-line-items.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: sales\_agent
     |Toggle \[Omitted image "icon-list-toggle.png"\] Alt text:|Toggles between hierarchical view and standard view.|
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

@@ -2,7 +2,7 @@
 title: Map a missing custom application to a product subscription in Subscription Management
 description: Map a custom application to a product subscription when that application isn't shown in the Unmapped custom applications tab of Subscription Management. To stay in compliance, you must map custom tables that belong to a custom application to a product subscription.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/map-missing-custom-app-sub-mgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/map-missing-custom-app-sub-mgt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,5 +61,5 @@ Subscription Management can't display product subscription recommendations for s
 
 One or more custom applications are mapped to a product subscription and your custom table entitlement count is updated. Updates made through the Custom Application form show in Subscription Management the next day.
 
-**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
+**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

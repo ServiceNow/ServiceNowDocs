@@ -2,7 +2,7 @@
 title: Logging an incident
 description: Log incident records from sources such as email, service desk, service catalog, or external applications as per your convenience. You can also generate incident using business rules or SOAP messaging.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/logging-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/logging-incident.html
 release: australia
 product: Incident Management
 classification: incident-management

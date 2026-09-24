@@ -2,7 +2,7 @@
 title: Move application files in a Git repository
 description: Move application files linked to source control to any folder in the repository from ServiceNow Studio to store supporting content, such as automated tests, alongside the applications they support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-move-app-files-in-git-repo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-sc-move-app-files-in-git-repo.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -18,7 +18,7 @@ Move application files linked to source control to any folder in the repository 
 
 ## Before you begin
 
-[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 Role required: Source control credentials with write access
 
@@ -53,5 +53,5 @@ Linking an application to source control generates a properties text file called
     The source control integration reads the updated path and directs subsequent operations to the new folder location.
 
 
-**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
 

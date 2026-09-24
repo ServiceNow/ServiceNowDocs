@@ -2,7 +2,7 @@
 title: Create a needs template and set the catalog relationship
 description: Define a needs template for a decision tree and associate the template with the product catalog to which it belongs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-publish-needs-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-publish-needs-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -113,7 +113,7 @@ Stage of the needs template:-   Draft: Initial state of the needs template. The 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

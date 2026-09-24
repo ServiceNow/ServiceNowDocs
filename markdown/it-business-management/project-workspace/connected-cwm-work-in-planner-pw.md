@@ -2,7 +2,7 @@
 title: Connected CWM work on the project planning page
 description: Understand how the connected Collaborative Work Management \(CWM\) tasks are displayed on your project's planning page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/connected-cwm-work-in-planner-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/connected-cwm-work-in-planner-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -25,7 +25,7 @@ Only the first level of the CWM hierarchy is displayed under a project task. Nes
 
 Each connected CWM item appears with standard columns for name, assignee, status, and dates. A Board icon marks each connected CWM row so that you can distinguish it from project tasks. The rows are collapsible under their parent project task.
 
-The display of connected items is controlled by a per-user setting. To turn the display on or off, see [Show or hide connected CWM tasks on the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/show-hide-connected-tasks-in-planner-pw.md).
+The display of connected items is controlled by a per-user setting. To turn the display on or off, see [Show or hide connected CWM tasks on the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/show-hide-connected-tasks-in-planner-pw.md).
 
 Inline editing is not supported for connected CWM rows on the planning page. To edit a connected item, open it either in the side panel of the Project planning page or in CWM. To edit a CWM task, you need the sn\_cwm.cwm\_user role.
 
@@ -43,7 +43,7 @@ The indicator clears automatically when the dates are corrected to fit within th
 
 ## What team members see in CWM
 
-Team members work with the same connected items from within CWM Boards, list views, and My Work. For details on the CWM side of the integration, see [CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md).
+Team members work with the same connected items from within CWM Boards, list views, and My Work. For details on the CWM side of the integration, see [CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md).
 
-**Parent Topic:**[Project Workspace integration with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/cwm-integration-pw.md)
+**Parent Topic:**[Project Workspace integration with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/cwm-integration-pw.md)
 

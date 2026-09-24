@@ -2,7 +2,7 @@
 title: Configure page security by role
 description: Set up pages to be public or filter them by role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-page-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/configure-page-security.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -49,7 +49,7 @@ Public pages won't require a user login; anyone can access them. All other optio
 
 ## What to do next
 
-Follow the steps in [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-widget-security.md) to configure security for the widgets on your page.
+Follow the steps in [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-widget-security.md) to configure security for the widgets on your page.
 
-**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/portal-security.md)
+**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/portal-security.md)
 

@@ -2,7 +2,7 @@
 title: Get Opportunities Details custom action
 description: The Get Opportunities Details action retrieves a single Opportunity record from the Salesforce application based on the record Id. This action is invoked when the user opens the form for the Opportunity record in the remote table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-details-opportunities-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-details-opportunities-action.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ The **Get Opportunities Details** action retrieves a single Opportunity record f
 
 ## Action inputs
 
-The **Get Opportunities Details** action takes a single integer parameter that identifies the Salesforce Account ID. This parameter is set by the form based on the sys\_id that was provided to the remote table in the remote table script. For more information, see [Example script that queries the Opportunity table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-opportunity-table-script.md).
+The **Get Opportunities Details** action takes a single integer parameter that identifies the Salesforce Account ID. This parameter is set by the form based on the sys\_id that was provided to the remote table in the remote table script. For more information, see [Example script that queries the Opportunity table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-opportunity-table-script.md).
 
 \[Omitted image "get-opportunity-details-action.jpg"\] Alt text: Get Opportunity Details page with Action Input section and Action Outline side panel with: Pre Processing script, REST step, and Post Processing script inputs.
 
@@ -46,5 +46,5 @@ The pre-processing output is a query similar to the other custom actions.
 
 These steps and outputs are the same as for the other custom actions except there is no maximum number of records parameter and no information message.
 
-**Parent Topic:**[Create Salesforce spoke actions to retrieve opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-salesforce-spoke.md)
+**Parent Topic:**[Create Salesforce spoke actions to retrieve opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-integration-salesforce-spoke.md)
 

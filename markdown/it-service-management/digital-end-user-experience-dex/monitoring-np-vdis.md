@@ -2,7 +2,7 @@
 title: Non-persistent VDI monitoring configuration
 description: Monitor non-persistent Virtual Desktop Infrastructures \(VDIs\) with Digital End-User Experience \(DEX\) so your organization can track performance issues and troubleshoot device and application performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/monitoring-np-vdis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/monitoring-np-vdis.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -43,22 +43,22 @@ Monitoring non-persistent VDIs with Digital End-User Experience provides the fol
 
 To enable monitoring on a non-persistent VDI pool, complete the following tasks on a reference device used to create the golden image.
 
-1.  [Install Agent Client Collector on a non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-on-np-vdi-golden-image.md).
+1.  [Install Agent Client Collector on a non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/install-acc-on-np-vdi-golden-image.md).
 
     Install Agent Client Collector on the reference device using the MID-less installation method, configure non-persistent mode in `acc.yml`, and verify host data and policy synchronization.
 
-2.  [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
+2.  [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
 
     Install the DEX browser extension on the reference device for monitoring web applications.
 
-3.  [Prepare non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/prepare-np-vdi-golden-image.md).
+3.  [Prepare non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/prepare-np-vdi-golden-image.md).
 
     Remove the registration certificate, agent identifier, cached databases, and logs from the reference device, and update `acc.yml` so that each duplicate VDI registers with a unique identity.
 
-4.  [Manage logon and logoff scripts for non-persistent VDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configure-np-vdis.md).
+4.  [Manage logon and logoff scripts for non-persistent VDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/configure-np-vdis.md).
 
     Place the logon and logoff scripts in your VDI management tool and update the authentication steps to connect to your persistent storage.
 
 
-For policy reference content for non-persistent VDIs, see [Non-persistent VDI parameters, scripts, and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/non-persistent-vdi-scripts.md).
+For policy reference content for non-persistent VDIs, see [Non-persistent VDI parameters, scripts, and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/non-persistent-vdi-scripts.md).
 

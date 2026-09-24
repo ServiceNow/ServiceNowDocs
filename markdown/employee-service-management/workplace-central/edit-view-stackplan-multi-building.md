@@ -2,7 +2,7 @@
 title: Edit a scenario using the stack plan
 description: Edit a scenario using the stack plan to allocate spaces to departments, cost centers, workplace entities, or neighborhoods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/edit-view-stackplan-multi-building.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/edit-view-stackplan-multi-building.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -20,7 +20,7 @@ Edit a scenario using the stack plan to allocate spaces to departments, cost cen
 
 Ensure that you have created a scenario, and it is in the Draft state. For more information, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
-**Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
+**Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
 
 \[Omitted image "wsd-central-review-changes.png"\] Alt text: Space details panel displaying a warning about reviewing allocation changes.
 
@@ -53,15 +53,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
     -   When you select a bar or space to view the number of allocated spaces, the borders of the selected bar or space are highlighted.
 5.  Edit the stack plan based on your requirement.
 
-<table id="choicetable_ej5_fmc_kfc"><thead><tr><th align="left" id="d167483e195">
+<table id="choicetable_ej5_fmc_kfc"><thead><tr><th align="left" id="d167487e195">
 
 Action
 
-</th><th align="left" id="d167483e198">
+</th><th align="left" id="d167487e198">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d167483e204">
+</th></tr></thead><tbody><tr><td id="d167487e204">
 
 **Zoom in or out on the stack plan**
 
@@ -69,7 +69,7 @@ Steps
 
 Use the zoom options \(\[Omitted image "zoom-options.png"\] Alt text: Zoom options.\) on the stack plan.
 
-</td></tr><tr><td id="d167483e219">
+</td></tr><tr><td id="d167487e219">
 
 **Resize a bar**
 
@@ -86,7 +86,7 @@ This step is applicable if the Group by option is Workplace Entity.
 
 5.  Select **Apply**, then save the scenario.
 
-</td></tr><tr><td id="d167483e265">
+</td></tr><tr><td id="d167487e265">
 
 **Move a bar to a different floor**
 
@@ -109,7 +109,7 @@ This field is applicable if the Group by option is Workplace Entity.
 
 6.  Select **Apply**, then save the scenario.
 
-</td></tr><tr><td id="d167483e334">
+</td></tr><tr><td id="d167487e334">
 
 **Drag a bar to a different floor**
 
@@ -122,7 +122,7 @@ This step is applicable if the Group by option is Workplace Entity.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Viewing or editing a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/viewing-editing-scenario.md)
+**Parent Topic:**[Viewing or editing a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/viewing-editing-scenario.md)
 
 **Related topics**  
 

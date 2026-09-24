@@ -2,12 +2,12 @@
 title: Review scores across your AI portfolio
 description: Assess the quality and safety of your AI systems by reviewing scores, identifying low-scoring systems, and learning which metrics are affecting each score.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-review-scores-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-review-scores-task.html
 release: australia
 topic_type: task
 last_updated: "2026-04-03"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Review scores, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -69,8 +69,8 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
     For example, a gradual decline in Tool choice accuracy from 85% to 62% over three weeks indicates a quality regression across your AI portfolio that warrants investigation.
 
-    To add a dotted-line metric to your scoring formula, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md).
+    To add a dotted-line metric to your scoring formula, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-metric-templates.md).
 
 
-**Parent Topic:**[Reviewing quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)
+**Parent Topic:**[Reviewing quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)
 

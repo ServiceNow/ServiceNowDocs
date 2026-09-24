@@ -2,7 +2,7 @@
 title: Provide immediate final credit
 description: Issue immediate final credit to the Visa card holder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/provide-immediate-final-credit-visa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/provide-immediate-final-credit-visa.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -20,7 +20,7 @@ Issue immediate final credit to the Visa card holder.
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -61,5 +61,5 @@ Based on business rules, the bank can make a determination to issue immediate fi
 
 The task state updates to Closed Complete. The dispute transaction moves to the Chargeback stage.
 
-**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-stage.md)
+**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/investigate-stage.md)
 

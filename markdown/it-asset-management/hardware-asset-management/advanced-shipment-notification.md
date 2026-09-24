@@ -2,7 +2,7 @@
 title: Use Advanced Shipment Notification
 description: Use Advanced Shipment Notification \(ASN\) to automate and create asset records when your assets are in transit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/advanced-shipment-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/advanced-shipment-notification.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -24,7 +24,7 @@ Use Advanced Shipment Notification \(ASN\) to automate and create asset records 
     -   The model ID provided in the template is defined in your ServiceNow instance.
     -   The shipping address in the template matches the shipping address in the Location \[cmn\_location\] table.
     -   The shipping carrier in the template is available in the Shipping carrier \[sn\_itam\_common\_shipping\_carrier\] table.
-    For more details on all ASN data validations, see [Advanced Shipment Notification \(ASN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asn-for-ham.md).
+    For more details on all ASN data validations, see [Advanced Shipment Notification \(ASN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asn-for-ham.md).
 
 
 Role required: ham\_admin, ham\_user, procurement\_admin, asset, sn\_hamp.ham\_asn\_admin, or admin
@@ -105,7 +105,7 @@ For rows that were ignored:
 2.  Resolve the identified issues within the ASN template.
 3.  Create a Shipment Notification Upload record to import the updated template.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

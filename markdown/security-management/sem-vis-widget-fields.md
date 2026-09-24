@@ -2,7 +2,7 @@
 title: Visualization widget fields
 description: Use this reference to understand the fields available on the Visualization widget form. These fields define how the widget appears, behaves, and groups data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-vis-widget-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-vis-widget-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -79,5 +79,5 @@ Data filter \[Optional\]
 Add filter conditions to refine the data displayed in the widget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Unified Security Exposure Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/unified-security-exposure-management-reference.md)
+</table>**Parent Topic:**[Unified Security Exposure Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/unified-security-exposure-management-reference.md)
 

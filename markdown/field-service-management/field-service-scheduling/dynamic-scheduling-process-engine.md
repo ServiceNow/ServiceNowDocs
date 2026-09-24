@@ -2,7 +2,7 @@
 title: Learn Dynamic scheduling process engine
 description: Dynamic scheduling streamlines the allocation of work orders and tasks to field service agents in real-time. This intricate process ensures that each task is matched with the most appropriate agent at the most suitable moment, thoughtfully considering a range of variables, including agent availability, location, skills, and workload.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/dynamic-scheduling-process-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/dynamic-scheduling-process-engine.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -60,5 +60,5 @@ The following is the process flow diagram for Dynamic Scheduling.
 **Related topics**  
 
 
-[Roles and personas required for Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/roles-and-personas-for-dynamic-scheduling.md)
+[Roles and personas required for Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/roles-and-personas-for-dynamic-scheduling.md)
 

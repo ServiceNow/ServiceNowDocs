@@ -2,7 +2,7 @@
 title: Configure transition between state models
 description: Create state model transitions to define valid paths between workflow states. State model transitions control how authorization packages move from one step to another and verify that packages follow the correct sequence through your workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-state-transitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-state-transitions.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -73,10 +73,10 @@ Role required: sn\_irm\_cont\_auth.admin
 
 ## What to do next
 
-[Create GRC model state transition conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-state-transition-conditions.md)
+[Create GRC model state transition conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-state-transition-conditions.md)
 
--   **[Create GRC model state transition conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-state-transition-conditions.md)**  
+-   **[Create GRC model state transition conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-state-transition-conditions.md)**  
 Add Governance, Risk, and Compliance model state transition conditions to a state transition to validate data before enabling authorization packages to move between workflow steps. Transition conditions verify that the required information is complete and accurate before packages proceed.
 
-**Parent Topic:**[Create GRC workflow states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-workflow-states.md)
+**Parent Topic:**[Create GRC workflow states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-workflow-states.md)
 

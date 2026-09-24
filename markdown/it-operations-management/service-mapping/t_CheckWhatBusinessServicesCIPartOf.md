@@ -2,7 +2,7 @@
 title: Check CI dependencies
 description: You can see if a particular configuration item \(CI\) is part of other application services and check if it depends on other CIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_CheckWhatBusinessServicesCIPartOf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/t\_CheckWhatBusinessServicesCIPartOf.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -41,14 +41,14 @@ While Service Mapping shows position of a CI in a particular application service
 4.  To view the map of another application service containing this CI, click the relevant link.
 
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 
 **Related topics**  
 
 
 [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md)
 
-[Application service maps in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_UndestandMaps.md)
+[Application service maps in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_UndestandMaps.md)
 
 [Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_BusinesssServiceManagementMaps.md)
 

@@ -2,7 +2,7 @@
 title: Jeopardy Management
 description: Jeopardy Management is a risk assessment tool that monitors fulfillment tasks, assesses the risk level, and alerts fulfillment managers when the assigned task time is in jeopardy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/jeopardy-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/jeopardy-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -80,6 +80,6 @@ Jeopardy Management assesses all tasks in a workflow and adjusts the risk level 
 
 For information on configuring and using Jeopardy Management, see:
 
--   [Configuring Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-jeopardy-management.md)
--   [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+-   [Configuring Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-jeopardy-management.md)
+-   [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/monitoring-jeopardy-management.md)
 

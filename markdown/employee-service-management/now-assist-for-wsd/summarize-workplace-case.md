@@ -2,7 +2,7 @@
 title: Summarize a workplace case using ServiceNow Otto for WSD
 description: Use the workplace case summarization skill to summarize the case context and take appropriate action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/summarize-workplace-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/summarize-workplace-case.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -22,7 +22,7 @@ Role required: sn\_wsd\_case.workplace\_agent
 
 ## About this task
 
-As an admin, you can configure the workplace case summarization skill to customize the input fields and output summary. For more information about customizing the skill, see [Configure the workplace case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/customize-workplace-summarization.md).
+As an admin, you can configure the workplace case summarization skill to customize the input fields and output summary. For more information about customizing the skill, see [Configure the workplace case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/customize-workplace-summarization.md).
 
 You can use the workplace case summarization skill in either the Core UI or Workplace Central.
 
@@ -45,7 +45,7 @@ You can use the workplace case summarization skill in either the Core UI or Work
 
     The list view displays the cases as WCASEXXXX for normal workplace cases, WMCXXXX for maintenance cases, and WMOVEXXXX for move cases.
 
-    The case details are displayed in a new tab. For more information about the Case details page, see [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
+    The case details are displayed in a new tab. For more information about the Case details page, see [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
 
 4.  In the Workplace Case summary by ServiceNow Otto component, select **Summarize**.
 
@@ -53,15 +53,15 @@ You can use the workplace case summarization skill in either the Core UI or Work
 
 5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about the case.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d255802e201">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d255806e201">
 
 Option
 
-</th><th align="left" id="d255802e204">
+</th><th align="left" id="d255806e204">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d255802e210">
+</th></tr></thead><tbody><tr><td id="d255806e210">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -72,7 +72,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d255802e237">
+</td></tr><tr><td id="d255806e237">
 
 **Expand or collapse the summary**
 
@@ -80,7 +80,7 @@ Procedure
 
 Select **Show more** or **Show less** to see more or fewer summary details.
 
-</td></tr><tr><td id="d255802e252">
+</td></tr><tr><td id="d255806e252">
 
 **Provide feedback for the summary**
 
@@ -88,7 +88,7 @@ Select **Show more** or **Show less** to see more or fewer summary details.
 
 If you think that the summary was helpful, select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text:. If you think that the summary wasn’t helpful, select the not helpful icon \[Omitted image "icon-not-helpful.png"\] Alt text:.This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d255802e273">
+</td></tr><tr><td id="d255806e273">
 
 **Copy the case summary**
 
@@ -96,7 +96,7 @@ If you think that the summary was helpful, select the helpful icon \[Omitted ima
 
 Select the copy icon \[Omitted image "icon-copy.png"\] Alt text: to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d255802e288">
+</td></tr><tr><td id="d255806e288">
 
 **View the information about the case summary**
 

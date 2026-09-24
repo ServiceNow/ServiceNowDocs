@@ -2,7 +2,7 @@
 title: Configure a Lens launcher button
 description: Add a ServiceNow AI Lens button to input form screens to enable users to quickly extract data from attachments and complete forms faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/configure-lens-launcher-button.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/configure-lens-launcher-button.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ If any Inputs in an input form screen have the **DisableAILensAutoFill** attribu
 
 3.  Select the input form screen on which you want to configure the launcher button, or select **New** to create an input form screen.
 
-    See [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md) for instructions on how to create an input form screen.
+    See [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-config.md) for instructions on how to create an input form screen.
 
 4.  Under the **Presentation style** category, set the style to **Screen** to allow the addition of function instances.
 
@@ -88,12 +88,12 @@ Creates a button under the three-dot menu in the top header. -   **Name** — En
 
 A lens launcher button now appears in the location you selected — either in the top header or under the three-dot menu. When a user taps the button, Lens opens in the context of the table you configured, allowing users to interact with the associated data directly from the mobile interface.
 
--   **[Add optional prompts to the ServiceNow AI Lens Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/add-optional-prompts.md)**  
+-   **[Add optional prompts to the ServiceNow AI Lens Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/add-optional-prompts.md)**  
 Add optional prompts to the ServiceNow AI Lens launcher button.
--   **[Enable attachment IDs for write-back actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/making-attachment-ids-available-for-write-back-actions.md)**  
+-   **[Enable attachment IDs for write-back actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/making-attachment-ids-available-for-write-back-actions.md)**  
 Enable write-back actions to use attachment IDs in your ServiceNow AI Lens launcher button.
--   **[Configure Lens launcher using scripted screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-lens-launcher-scripted-screen.md)**  
+-   **[Configure Lens launcher using scripted screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-lens-launcher-scripted-screen.md)**  
 Configure a ServiceNow AI Lens launcher button with scripted screen.
 
-**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configuring-now-assist-mobile.md)
 

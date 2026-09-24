@@ -2,7 +2,7 @@
 title: Choosing an Integration Approach
 description: You have several options to integrate your data with your platform. Review the Integration Guidance decision matrix to determine which is the best approach for your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-choosing-an-integration-approach.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-choosing-an-integration-approach.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Purchase Order Confirmation Line table
 description: A purchase order \(PO\) confirmation line is a supplier's line-level response acknowledging whether a purchase order line can be delivered under the requested terms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/po-confirmation-line-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/po-confirmation-line-table.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-08"
@@ -39,10 +39,10 @@ The Purchase Order Confirmation Line \[sn\_poem\_po\_confirmation\_line\] table 
 |Updates|Integer|Number of fields edited every time the record is updated.|
 |Unit|Reference|Unit of measure of this confirmation line.|
 
-**Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/master-data-tables-for-pom.md)
+**Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/master-data-tables-for-pom.md)
 
 **Related topics**  
 
 
-[View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-purch-order-exception.md)
+[View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/view-purch-order-exception.md)
 

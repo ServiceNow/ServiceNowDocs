@@ -2,7 +2,7 @@
 title: Creating employee communications
 description: Content Publishing offers robust communications creation tools that enable you to create, manage, and publish a variety of content types including portal content, notifications, mobile content, and tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-publish-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-publish-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -40,13 +40,13 @@ To create employee communications using Content Publishing, follow the process s
 
 5.  Translate your content
 
-    Request a language translation for the content you are creating. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-switch-language.md).
+    Request a language translation for the content you are creating. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 
 6.  Configure publishing
 
-    Configure publishing to control when the content becomes available, who can see it, and for how long. See [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
+    Configure publishing to control when the content becomes available, who can see it, and for how long. See [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
 
-    Alternatively, you can build out a more robust publishing configuration using [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
+    Alternatively, you can build out a more robust publishing configuration using [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 
 
 -   Create various employee communications portal content including news articles, rich content microsites, announcements, banners, links to other content, and calendar events.
@@ -66,7 +66,7 @@ Content Library allows you to manage your content within a single, unified inter
 
 To publish content to the Workspace or UIB Workspace, you must use the Schedule content form, as the Content Library does not offer the option to publish to the Workspace or UIB Workspace.
 
-For more information on Publishing content, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
+For more information on Publishing content, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
 
 ## Creating and publishing content
 
@@ -100,17 +100,17 @@ Create and publish content in the Content Library using the following process:
 
 -   **\(Optional\) 5. Translate your content**
 
-    Select a different language to view your session in or request a language translation for the content you are creating. For more information, see [Configuring translation for Content Publishing after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-multiple-language-support.md).
+    Select a different language to view your session in or request a language translation for the content you are creating. For more information, see [Configuring translation for Content Publishing after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-multiple-language-support.md).
 
     **Note:** Only translate content you are done creating and formatting the content. For best results, we do not recommend that you add or remove components or change the formatting after translation.
 
-    For rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md)
+    For rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-audience.md)
 
 -   **6. Configure publishing**
 
-    Add one or more publish plans to determine when the content becomes available, who can see it, and for how long. See [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
+    Add one or more publish plans to determine when the content becomes available, who can see it, and for how long. See [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 
-    Alternatively, you can build out a more robust publishing configuration using [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
+    Alternatively, you can build out a more robust publishing configuration using [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 
     \[Omitted image "ec-content-library6.png"\] Alt text: Content library - configure publishing
 
@@ -118,31 +118,31 @@ Create and publish content in the Content Library using the following process:
 ## Supported platforms and content formats
 
 -   **Articles and Pages**
-    -   [Rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content.md): Provides the ability to create and schedule long form content using a drag-and-drop method without the knowledge of coding. Rich content helps you to easily and visually create high quality curated content that matches the Service Portal look and feel with limited technical knowledge. You can target Rich content to any Portal page.
-    -   [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-news-articles.md): Combines content creation features from the Rich Content Editor with new publishing methods that enable high volume content publishing to keep employees updated on company news and announcements.
+    -   [Rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content.md): Provides the ability to create and schedule long form content using a drag-and-drop method without the knowledge of coding. Rich content helps you to easily and visually create high quality curated content that matches the Service Portal look and feel with limited technical knowledge. You can target Rich content to any Portal page.
+    -   [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-news-articles.md): Combines content creation features from the Rich Content Editor with new publishing methods that enable high volume content publishing to keep employees updated on company news and announcements.
 -   **Portal**
 
     Reach more people in your organization with greater effectiveness and efficiency by creating meaningful content that can be distributed through multiple channels with Content Experiences and Content Publishing. You can create different types of content that includes:
 
-    -   [Styled content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.md): Allows you access to a suite of tools and fields to create custom banners, block, or video content. Styled content is fast and easy to use without having to use HTML/CSS code. For banners you can use features that define your text color, text alignment, add buttons or links, background color, background image, and change the gradient of the image.
-    -   [Video](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-video.md): Place videos into your Employee Center or Employee Center Pro.
+    -   [Styled content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.md): Allows you access to a suite of tools and fields to create custom banners, block, or video content. Styled content is fast and easy to use without having to use HTML/CSS code. For banners you can use features that define your text color, text alignment, add buttons or links, background color, background image, and change the gradient of the image.
+    -   [Video](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-video.md): Place videos into your Employee Center or Employee Center Pro.
 
         **Note:** Use styled content for videos if you want to add heading and body text, reference variables from either the User or HR profile table, and other features that contribute to the over-all style of your video.
 
-    -   [URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-url.md): Links that take your employees to content.
-    -   [Image-based link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-image.md): Links to content that are also an image.
-    -   [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-events.md): Content for company events that have a specific start and end date and time.
-    -   [Banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-banner.md): Attention grabbing banners that promote a message or content to your employees.
-    -   [Rich text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-richtext.md): Use rich text to enhance your content or message using common formatting options like bold or italics.
-    -   [Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-calendar.md): Provides your employees with a quick way of viewing scheduled events
--   **[Mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-content.md)**
+    -   [URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-url.md): Links that take your employees to content.
+    -   [Image-based link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-image.md): Links to content that are also an image.
+    -   [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-events.md): Content for company events that have a specific start and end date and time.
+    -   [Banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-banner.md): Attention grabbing banners that promote a message or content to your employees.
+    -   [Rich text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-richtext.md): Use rich text to enhance your content or message using common formatting options like bold or italics.
+    -   [Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-portal-calendar.md): Provides your employees with a quick way of viewing scheduled events
+-   **[Mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-mobile-content.md)**
 
     Create different types of content that your employees can view on their mobile devices. The type of mobile content you can create are:
 
     -   Mobile Banner: A banner that captures attention for a mobile device.
     -   Mobile Text Card: Content for a mobile device that includes a heading text and link to content.
     -   Mobile Video: Video that can be accessed from a mobile device.
--   **[Notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-notification-content.md)**
+-   **[Notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-notification-content.md)**
 
     Send content directly to your employees as a notification. The types of notifications are:
 
@@ -154,9 +154,9 @@ Create and publish content in the Content Library using the following process:
 
         -   [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-landing-page.md)
         -   [Enable SMS delivery with the email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_EnableTheSMSDeliveryOption.md)
-        -   [Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
-    -   Microsoft Teams: Notifications sent to your employees via Microsoft Teams. This requires the ServiceNow for Microsoft Teams integration. See [Sending notifications to employees using Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams-mt.md).
--   **[To-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-to-do-content.md)**
+        -   [Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
+    -   Microsoft Teams: Notifications sent to your employees via Microsoft Teams. This requires the ServiceNow for Microsoft Teams integration. See [Sending notifications to employees using Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams-mt.md).
+-   **[To-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-to-do-content.md)**
 
     Create content that prompts your employees to complete an assigned task. To-dos are:
 
@@ -164,11 +164,11 @@ Create and publish content in the Content Library using the following process:
     -   E-Signature: Prompts an employee to sign a document to complete the to-do.
     -   Play Video: Provides a video that after viewing completes the to-do.
     -   View Link: Provides a link to content that after accessing completes the to-do.
--   **[Pulse survey content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-pulse-content.md)**
+-   **[Pulse survey content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-pulse-content.md)**
 
     To receive feedback from your employees, create and send Pulse surveys that can drive action and measure impact.
 
--   **[Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md)**
+-   **[Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md)**
 
     Employee Forums help your employees connect, engage, and collaborate with other employees. Use Employee Forums to share business information, promote employee engagement, encourage ideas and feedback, and to give your employees a voice.
 
@@ -182,8 +182,8 @@ Create and publish content in the Content Library using the following process:
 
 |Feature|Description|
 |-------|-----------|
-|[Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md)|Content managers use the Content Library as a one-stop location for creating and publishing content for employees in various content formats and publishing platforms.|
-|[Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md)|Content managers either create a publish plan or schedule content \(depending on the content type\) to deliver content to employees.|
+|[Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-streamline-content.md)|Content managers use the Content Library as a one-stop location for creating and publishing content for employees in various content formats and publishing platforms.|
+|[Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md)|Content managers either create a publish plan or schedule content \(depending on the content type\) to deliver content to employees.|
 
 Content Publishing allows you to create information from different areas:
 
@@ -209,39 +209,39 @@ Select a tile to learn about the available platforms and content formats, and to
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Microsites \[Omitted image "bus-management-console.svg"\] Alt text: Assemble HTML-based rich content using a drag-and-drop interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content.md)
+[Microsites \[Omitted image "bus-management-console.svg"\] Alt text: Assemble HTML-based rich content using a drag-and-drop interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-rich-content.md)
 
 </td><td>
 
-[News articles \[Omitted image "bus-demand-management.svg"\] Alt text: Keep employees updated on company news and announcements.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-news-articles.md)
+[News articles \[Omitted image "bus-demand-management.svg"\] Alt text: Keep employees updated on company news and announcements.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-news-articles.md)
 
 </td><td>
 
-[Company events \[Omitted image "bus-events.svg"\] Alt text: Host live company events in the employee portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-company-events.md)
+[Company events \[Omitted image "bus-events.svg"\] Alt text: Host live company events in the employee portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-company-events.md)
 
 </td></tr><tr><td>
 
-[Portal \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Create portal content in a variety of formats including video, URL, banners, and events.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
+[Portal \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Create portal content in a variety of formats including video, URL, banners, and events.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
 
 </td><td>
 
-[Notification \[Omitted image "bus-email.svg"\] Alt text: Create email, push, and SMS notifications to send messages directly to your employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-notification-content.md)
+[Notification \[Omitted image "bus-email.svg"\] Alt text: Create email, push, and SMS notifications to send messages directly to your employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-notification-content.md)
 
 </td><td>
 
-[Mobile \[Omitted image "bus-ebook.svg"\] Alt text: Create content specifically for viewing on mobile devices.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-content.md)
+[Mobile \[Omitted image "bus-ebook.svg"\] Alt text: Create content specifically for viewing on mobile devices.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-mobile-content.md)
 
 </td></tr><tr><td>
 
-[To-do \[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Create tasks that prompt employees to take action.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-to-do-content.md)
+[To-do \[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Create tasks that prompt employees to take action.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-to-do-content.md)
 
 </td><td>
 
-[Pulse survey \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Send Pulse surveys to employees to obtain feedback.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-pulse-content.md)
+[Pulse survey \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Send Pulse surveys to employees to obtain feedback.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-pulse-content.md)
 
 </td><td>
 
-[Employee Forums \[Omitted image "bus-community.svg"\] Alt text: Create content that appears on employee forums.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md)
+[Employee Forums \[Omitted image "bus-community.svg"\] Alt text: Create content that appears on employee forums.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md)
 
 </td></tr><tr><td>
 
@@ -253,7 +253,7 @@ Select a tile to learn about the available platforms and content formats, and to
 
 </td><td>
 
-[Microsoft Teams \[Omitted image "bus-chat.svg"\] Alt text: Send messages on Microsoft Teams to drive employee action.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams-mt.md)
+[Microsoft Teams \[Omitted image "bus-chat.svg"\] Alt text: Send messages on Microsoft Teams to drive employee action.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams-mt.md)
 
 </td></tr></tbody>
 </table>

@@ -2,7 +2,7 @@
 title: Technology Account 360 Overview tab
 description: The Overview tab in the Technology Account 360 displays touchpoints, escalations, milestones, and a daily account briefing for the customer account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-overview-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-overview-tab.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -62,7 +62,7 @@ Escalations
 
 Total number of support cases formally escalated for this account. Escalations indicate issues unresolved through standard support that required elevated or management attention.
 
- For more information about escalation, see [About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md).
+ For more information about escalation, see [About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md).
 
 </td></tr><tr><td>
 
@@ -85,10 +85,10 @@ Timeline showing the important stages of the customer's implementation or usage 
  Use the plus \(\[Omitted image "icon-plus.png"\] Alt text: Plus Icon.\) or minus \(\[Omitted image "icon-minus.png"\] Alt text: Minus Icon.\) icon to zoom out the milestone timeline. Select the now \(\[Omitted image "icon-now.png"\] Alt text: Now Icon.\) icon to view the current milestones.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+</table>**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 
 
-[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)
+[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)
 

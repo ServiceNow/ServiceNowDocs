@@ -2,7 +2,7 @@
 title: Setting up Rally OAuth 2.0 credentials for DevOps
 description: Authenticate a Rally tool connection using OAuth 2.0 credentials.Register a Rally OAuth application for DevOps Change Velocity.Use the information generated during Rally account configuration to register Rally as an OAuth provider and enable the instance to request OAuth 2.0 tokens.Create a credential record for the Rally account previously created to authorize actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/setting-up-rally-oauth-2-0-credentials-for-devops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/setting-up-rally-oauth-2-0-credentials-for-devops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -18,7 +18,7 @@ Authenticate a Rally tool connection using OAuth 2.0 credentials.
 
 Configure your Rally account, register Rally in the application registry, and create a credential record for the Rally account.
 
-**Parent Topic:**[Rally integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/rally-devops-integration.md)
+**Parent Topic:**[Rally integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/rally-devops-integration.md)
 
 ## Register a Rally OAuth application for DevOps
 

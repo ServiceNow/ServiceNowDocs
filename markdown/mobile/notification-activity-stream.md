@@ -2,7 +2,7 @@
 title: Configure notifications for mobile activity stream mentions
 description: Configure your instance to send an email notification or a push notification when a user mentions a contact’s name within a mobile activity stream record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/notification-activity-stream.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/notification-activity-stream.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,10 +14,10 @@ breadcrumb: [Push notifications, Before implementation, Configuration detail, Co
 
 Configure your instance to send an email notification or a push notification when a user mentions a contact’s name within a mobile activity stream record.
 
--   **[Configure push notifications for mobile activity stream mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mentions-config.md)**  
+-   **[Configure push notifications for mobile activity stream mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mentions-config.md)**  
 Enable users to alert their contacts, through the use push notifications, that they are mentioned in a thread. The user enters the `@` character followed by the contact's name in a record's activity stream, for their contact to be alerted.
--   **[Customize email notifications for mobile activity stream mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mentions-mobile-in-email.md)**  
+-   **[Customize email notifications for mobile activity stream mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mentions-mobile-in-email.md)**  
 Enable users to alert their contacts by email that they are mentioned in a thread. The user enters the `@` character followed by the contact's name in a record's activity stream, for their contact to be alerted. This feature is enabled by default.
 
-**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-push-notifications.md)
 

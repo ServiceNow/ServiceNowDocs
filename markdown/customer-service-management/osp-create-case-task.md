@@ -2,7 +2,7 @@
 title: Create a case task
 description: An OSP agent creates a case task after a case has been assigned. As an agent, you can work on the case adding work notes and additional comments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-create-case-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/osp-create-case-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

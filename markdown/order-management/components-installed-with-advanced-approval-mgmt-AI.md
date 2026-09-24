@@ -2,7 +2,7 @@
 title: Components installed with Advanced Approval Management AI
 description: MCP tools are installed with activation of the Advanced Approval Management AI plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-with-advanced-approval-mgmt-AI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/components-installed-with-advanced-approval-mgmt-AI.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-29"
@@ -70,5 +70,5 @@ For requesters:-   Recall an approval request for a quote
 -   Add an ad-hoc approver \(user or group\) to an in-progress approval request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-cpq.md)
+</table>**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/reference-cpq.md)
 

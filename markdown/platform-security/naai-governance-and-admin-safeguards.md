@@ -2,7 +2,7 @@
 title: Governance and admin safeguards
 description: Find guidance on preparing your instance for AI deployment, maintaining domain separation, and reducing risk across your Now Assist implementation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-governance-and-admin-safeguards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-governance-and-admin-safeguards.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -53,7 +53,7 @@ The following topics describe how to use the Now Assist Readiness Evaluation app
 
 Domain separation lets you isolate data and processes across multiple business units or tenants on a single ServiceNow instance. The following topics describe domain separation support across Now Assist products.
 
--   **[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)**
+-   **[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_DomainSeparation.md)**
 
     Understand how domain separation works on the ServiceNow AI Platform and how to configure it to keep data isolated across your organization.
 
@@ -74,5 +74,5 @@ Domain separation lets you isolate data and processes across multiple business u
     Domain separation is supported for Now Assist in Virtual Agent. Learn how domain separation affects AI configuration and data visibility in the virtual agent.
 
 
-**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)
+**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-security.md)
 

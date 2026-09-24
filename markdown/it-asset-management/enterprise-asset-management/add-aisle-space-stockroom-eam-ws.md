@@ -2,7 +2,7 @@
 title: Add aisles and spaces to a stockroom in the Enterprise Asset Workspace
 description: Add details of aisles and spaces in a stockroom to provide granular location details of an asset in that stockroom. The aisle and space details enable you to locate and pick an asset in the stockroom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-aisle-space-stockroom-eam-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/add-aisle-space-stockroom-eam-ws.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -71,7 +71,7 @@ A space is associated with an aisle in the stockroom. You can add a space only a
     -   The space is added to the list in the Aisle and spaces tab.
     -   The display name of the space is automatically set based on the **Aisle** and **Space** fields. For example, the display name of the space whose aisle is aisle\_001 and space is space\_001 is **aisle\_001 - space\_001**.
 
-**Parent Topic:**[Manage enterprise asset picking within your stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
+**Parent Topic:**[Manage enterprise asset picking within your stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
 
 **Related topics**  
 

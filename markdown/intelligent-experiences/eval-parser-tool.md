@@ -2,7 +2,7 @@
 title: Agentic evaluation parser tool
 description: Use the outputs of the agentic evaluation parser tool in your scripts for custom metrics to customize the criteria for effective AI agents and agentic workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/eval-parser-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/eval-parser-tool.html
 release: australia
 topic_type: concept
 last_updated: "2025-08-19"

@@ -2,7 +2,7 @@
 title: Notify - Global
 description: The Notify API allows you to interact with Notify calls and SMS messages using scripts.Calls the specified E.164-compliant telephone number.Creates a new conference call GlideRecord.Resumes a call after it was put in a queue \(on hold\).Forwards the specified call to a different call recipient.Returns a list of client sessions that are available to receive calls.Returns the sys\_id of a specified call's parent call.Returns all phone numbers and short codes available to Notify.Returns client tokens for any active telephony drivers for use in WebRTC or mobile clients.Returns the maximum amount of time that a client session stays active for a specified telephony driver before automatically timing out.Determines whether the specified phone number has the specified capability.Removes the specified caller from the current Notify conference call.Performs one or more actions on an active Notify phone call.Mutes the specified conference call participant.Puts the specified call into a queue \(on hold\).Sends a specified SMS message to the specified list of Notify clients \(phone numbers\).Sends an SMS text message to an E.164-compliant phone number.Unmutes the specified conference call participant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_NotifyAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_NotifyAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The Notify API allows you to interact with Notify calls and SMS messages using s
 
 Access the global Notify class and its associated methods in the `SNC` namespace.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Notify - call\(String notifyPhoneNumber, String toPhoneNumber, GlideRecord conferenceCall, GlideRecord conferenceCallRecord, String userSysId, String groupSysId, GlideRecord sourceRecord\)
 
@@ -182,7 +182,7 @@ if (conferenceGr.isValid) {
 
 ### Scoped equivalent
 
-To use the call\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - call\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the call\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - call\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - conferenceCall\(GlideRecord sourceRecord\)
 
@@ -213,7 +213,7 @@ for (var i in participants) {
 
 ### Scoped equivalent
 
-To use the conferenceCall\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - conferenceCall\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the conferenceCall\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - conferenceCall\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 **Related topics**  
 
@@ -247,7 +247,7 @@ if (notifyCallGr.isValid) {
 
 ### Scoped equivalent
 
-To use the dequeueCall\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - dequeueCall\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the dequeueCall\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - dequeueCall\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - forwardCall\(GlideRecord call, String destination, String dtmf\)
 
@@ -280,7 +280,7 @@ if (notifyCallGr.isValid) {
 
 ### Scoped equivalent
 
-To use the forwardCall\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - forwardCall\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the forwardCall\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - forwardCall\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - getAvailableClients\(String notifyNumber\)
 
@@ -323,7 +323,7 @@ gs.info('isLoggedInUserAvailable - ' + isLoggedInUserAvailable);
 
 ### Scoped equivalent
 
-To use the getAvailableClients\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - getAvailableClients\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the getAvailableClients\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - getAvailableClients\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - getParentCallID\(GlideRecord callRecord\)
 
@@ -371,7 +371,7 @@ for (var i = 0; i < list.size(); i++) {
 
 ### Scoped equivalent
 
-To use the getPhoneNumbers\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - getPhoneNumbers\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the getPhoneNumbers\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - getPhoneNumbers\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - getTokens\(GlideRecord, record\)
 
@@ -427,7 +427,7 @@ while (notifyGroup.next()) {
 
 ### Scoped equivalent
 
-To use the getTokens\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - getTokens\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the getTokens\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - getTokens\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - getTokenTTL\(String owner\)
 
@@ -481,7 +481,7 @@ gs.info("Token TTL for " + owner + " --> " + ttl);
 
 ### Scoped equivalent
 
-To use the getTokenTTL\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - getAvailableClients\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the getTokenTTL\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - getAvailableClients\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - hasCapability\(String notifyPhoneNumber, String capability\)
 
@@ -528,7 +528,7 @@ gs.info(SNC.Notify.hasCapability('+185xxxxxxxx', capability)); // false
 
 ### Scoped equivalent
 
-To use the hasCapability\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - hasCapability\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the hasCapability\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - hasCapability\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - kick\(GlideRecord participant\)
 
@@ -555,13 +555,13 @@ if (notifyParticipantGr.isValid) {
 
 ### Scoped equivalent
 
-To use the kick\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - kick\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the kick\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - kick\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - modifyCall\(GlideRecord callRecord, NotifyAction notifyAction\)
 
 Performs one or more actions on an active Notify phone call.
 
-Available actions that you can perform on calls include queuing or dequeueing the call, reading text, playing audio, or forwarding the call. You can also create custom actions Call the modifyCall\(\) method after you have specified all the actions that you want to apply to the specified call. Refer to the [NotifyAction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_NotifyActionApi.md) API documentation for more information about available actions.
+Available actions that you can perform on calls include queuing or dequeueing the call, reading text, playing audio, or forwarding the call. You can also create custom actions Call the modifyCall\(\) method after you have specified all the actions that you want to apply to the specified call. Refer to the [NotifyAction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_NotifyActionApi.md) API documentation for more information about available actions.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -596,7 +596,7 @@ if (callRecord.next()) {
 
 ### Scoped equivalent
 
-To use the modifyCall\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - modifyCall\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the modifyCall\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - modifyCall\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - mute\(GlideRecord participantRecord\)
 
@@ -623,7 +623,7 @@ if (notifyParticipantGr.isValid) {
 
 ### Scoped equivalent
 
-To use the mute\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - mute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the mute\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - mute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - queueCall\(GlideRecord callRecord\)
 
@@ -652,7 +652,7 @@ if (notifyCallGr.isValid) {
 
 ### Scoped equivalent
 
-To use the queueCall\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - queueCall\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the queueCall\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - queueCall\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - sendBulkSMS\(String notifyPhoneNumber, Array toPhoneNumbers, String messageBody, GlideRecord source\)
 
@@ -735,7 +735,7 @@ if (incidentGr.isValid()) {
 
 ### Scoped equivalent
 
-To use the sendBulkSMS\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - sendBulkSMS\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the sendBulkSMS\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - sendBulkSMS\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - sendSMS\(String notifyPhoneNumber, String toPhoneNumber, String messageBody, GlideRecord source\)
 
@@ -766,7 +766,7 @@ if (incidentGr.isValid()) {
 
 ### Scoped equivalent
 
-To use the sendSMS\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - sendSMS\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the sendSMS\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - sendSMS\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 
 ## Notify - unmute\(GlideRecord participantRecord\)
 
@@ -793,5 +793,5 @@ if (notifyParticipantGr.isValid) {
 
 ### Scoped equivalent
 
-To use the unmute\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - unmute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/notifyScopedAPI.md).
+To use the unmute\(\) method in a scoped application, use the corresponding scoped method: [NotifyScoped - unmute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/notifyScopedAPI.md).
 

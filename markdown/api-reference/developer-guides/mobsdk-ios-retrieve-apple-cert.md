@@ -2,7 +2,7 @@
 title: Generate and retrieve an iOS push certificate
 description: You must retrieve your unique iOS push certificate from your Apple Developer account so that you can associate it to your Mobile SDK applications that leverage push notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-retrieve-apple-cert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-ios-retrieve-apple-cert.html
 release: australia
 product: Developer Guides
 classification: developer-guides

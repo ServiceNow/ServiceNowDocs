@@ -2,7 +2,7 @@
 title: Review the Legal Invention Disclosure request
 description: Review a Legal Invention Disclosure request and either approve it to be sent for a patent approval or request clarification from the requester.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-invention-disclosure/request-for-clarification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-invention-disclosure/request-for-clarification.html
 release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -34,7 +34,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller, sn\_lg\_ip.patent\_fulfiller
 
 6.  Review the request.
 
-    -   If you are satisfied with the information provided, create the related matter. For more information, see [Create a matter or add a Legal Invention Disclosure request to an existing matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/create-matter.md).
+    -   If you are satisfied with the information provided, create the related matter. For more information, see [Create a matter or add a Legal Invention Disclosure request to an existing matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/create-matter.md).
     -   If you are not satisfied with the information, select **Clarification Required**, fill in the details about the information needed in the Clarification Required dialog box, and select **Submit**.
 
 ## Result
@@ -43,5 +43,5 @@ Role required: sn\_lg\_ops.legal\_fulfiller, sn\_lg\_ip.patent\_fulfiller
 -   The State is updated to Assigned.
 -   The Application status in Legal Counsel Center is updated to Clarification Required.
 
-**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
+**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
 

@@ -2,12 +2,12 @@
 title: Configure scripted extension points for the manage order operations AI agent
 description: Configure scripted extension points so that the manage order operations chat assistant can check product availability, validate order exception requests for delivery, quantity, and shipping location, and evaluate quote thresholds against your external inventory, ERP, or pricing systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-atp-api-call.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-atp-api-call.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Order Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
@@ -128,10 +128,10 @@ To enable real-world functionality such as querying on-hand quantities, delivery
 
 9.  Validate your implementation by requesting order changes from the Business Portal using the ServiceNow Otto Virtual Agent.
 
-    For more information, see [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/request-order-changes-now-assist.md).
+    For more information, see [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/request-order-changes-now-assist.md).
 
 
-**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-order-operations.md)
+**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-manage-order-operations.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: User Metrics
 description: User Metrics displays the user MFA enrollment trends on ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/user-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/user-metrics.html
 release: australia
 product: Authentication
 classification: authentication
@@ -18,8 +18,8 @@ User Metrics displays the user MFA enrollment trends on ServiceNow.
 
 User Metrics on the MFA Dashboard are as follows:
 
--   [Users enrolled in Multi-factor Authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/user-metrics.md)
--   [Privileged admins without Multi-factor Authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/user-metrics.md)
+-   [Users enrolled in Multi-factor Authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/user-metrics.md)
+-   [Privileged admins without Multi-factor Authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/user-metrics.md)
 
 ## Users enrolled in Multi-factor Authentication \(MFA\)
 

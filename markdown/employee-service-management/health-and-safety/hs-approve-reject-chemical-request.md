@@ -2,7 +2,7 @@
 title: Approve or reject a chemical request
 description: The approver or the chemical manager can approve or reject the chemical request in the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-approve-reject-chemical-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-approve-reject-chemical-request.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -51,5 +51,5 @@ To view the state of the request as a chemical manager on the Health and Safety 
 2.  In the primary navigation, select **Environmental Management** \(\[Omitted image "icon-hs-envt-mgmt.png"\] Alt text: environmental management\) icon.
 3.  In the **Chemical requests** list, select the **Approved** section.
 
-**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-using-chemical-management.md)
+**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-using-chemical-management.md)
 

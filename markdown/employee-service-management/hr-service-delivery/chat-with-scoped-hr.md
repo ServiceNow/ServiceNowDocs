@@ -2,7 +2,7 @@
 title: HR chat from lists and forms
 description: You can chat with employees about their HR services request from any HR list or form in HR Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/chat-with-scoped-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/chat-with-scoped-hr.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -26,12 +26,12 @@ In the chat widow, click the icon next to the HR case number to access the detai
 
 See [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Connect.md).
 
--   **[Manage the HR chat queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageTheHRChatQueue.md)**  
+-   **[Manage the HR chat queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ManageTheHRChatQueue.md)**  
 You can configure the HR department chat queue and review the chat records to measure how well employees are being assisted when they initiate a conversation.
--   **[Monitor the HR chat queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_MonitorTheHRChatQueueIst.md)**  
+-   **[Monitor the HR chat queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_MonitorTheHRChatQueueIst.md)**  
 Employees can ask a question from the **Chat with HR** link on the HR Portal. Their question is placed in the HR chat queue, and any HR agent monitoring the queue can respond to it.
--   **[Create an HR case from a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateAnHRCaseFromAChat.md)**  
+-   **[Create an HR case from a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateAnHRCaseFromAChat.md)**  
 If an HR chat results in the need to open a case, create the case directly from the conversation.
 
-**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

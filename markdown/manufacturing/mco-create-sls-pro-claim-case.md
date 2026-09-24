@@ -2,7 +2,7 @@
 title: Create a sales promotion claim case
 description: Submit a sales promotion claim case to request incentive amounts for a completed sale.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-sls-pro-claim-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-sls-pro-claim-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

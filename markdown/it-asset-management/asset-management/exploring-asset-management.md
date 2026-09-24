@@ -2,7 +2,7 @@
 title: Exploring Asset Management Workspace
 description: The user interface of the Asset Management application is enhanced to make it more user-friendly and intuitive, enabling you to manage your hardware installations better.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/exploring-asset-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/exploring-asset-management.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -32,11 +32,11 @@ The Asset Workspace is a unified medium with multiple views that help you manage
 
 The Asset Workspace contains the following views:
 
--   [Hardware asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/hardware-asset-overview-am.md)
--   [Inventory view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/inventory-view-am.md)
--   [Asset estate view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/asset-estate-view-am.md)
--   [Model management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/model-management-view-am.md)
--   [Contract management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/contract-mgmt-view-am.md)
+-   [Hardware asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/hardware-asset-overview-am.md)
+-   [Inventory view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/inventory-view-am.md)
+-   [Asset estate view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-estate-view-am.md)
+-   [Model management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/model-management-view-am.md)
+-   [Contract management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/contract-mgmt-view-am.md)
 
 If you’re upgrading to the Vancouver release, you must activate the Asset Management Workspace \(sn\_itam\_workspace\) plugin to use the Asset Workspace.
 

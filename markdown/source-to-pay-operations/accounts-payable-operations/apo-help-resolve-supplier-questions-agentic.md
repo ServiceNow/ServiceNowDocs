@@ -2,7 +2,7 @@
 title: Inquiry resolution provider AI agent
 description: Use the Inquiry resolution provider AI agent to process high volume repetitive invoice inquiries across multiple channels to significantly reduce the workload of human agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/apo-help-resolve-supplier-questions-agentic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/apo-help-resolve-supplier-questions-agentic.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -35,5 +35,5 @@ The following table lists the agents that are used in the APO.
 **Related topics**  
 
 
-[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
+[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
 

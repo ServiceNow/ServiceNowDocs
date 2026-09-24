@@ -2,7 +2,7 @@
 title: Execute the scheduled jobs
 description: Execute the scheduled jobs required for the main node relationships. After the scheduled jobs are executed, CSDM objects with their configured relationships are imported into Operational Resilience for reporting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/execute-sch-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/execute-sch-jobs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -77,6 +77,6 @@ Before running the scheduled job, verify that the relationships are set up for a
     -   sn\_oper\_res\_critical\_service\_outage
     -   sn\_oper\_res\_incident
     -   sn\_oper\_res\_issue
-    The business views are mapped into the entity hierarchy. Red flags for the entities, such as Failed controls, High risks, Issues, Vulnerability response, are displayed in the reports on the landing page. For more information, see [Business services overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bs-ov.md).
+    The business views are mapped into the entity hierarchy. Red flags for the entities, such as Failed controls, High risks, Issues, Vulnerability response, are displayed in the reports on the landing page. For more information, see [Business services overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bs-ov.md).
 
 

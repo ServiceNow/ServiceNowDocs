@@ -2,7 +2,7 @@
 title: Add a business rule for a new trouble ticket event
 description: When adding a new trouble ticket event to your implementation, you must add a business rule to your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/prd\_evt\_not-dev\_gd-add\_bus\_rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/prd\_evt\_not-dev\_gd-add\_bus\_rule.html
 release: australia
 product: Developer Guides
 classification: developer-guides

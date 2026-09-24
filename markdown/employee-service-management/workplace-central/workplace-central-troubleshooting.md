@@ -2,7 +2,7 @@
 title: Workplace Central troubleshooting
 description: Troubleshoot issues that you face in the Workplace Central application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/workplace-central-troubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/workplace-central-troubleshooting.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -31,7 +31,7 @@ After transferring Workplace Central data between ServiceNow ServiceNow instance
 3.  On the Fix Script details page, select **Run Fix Script**.
 
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

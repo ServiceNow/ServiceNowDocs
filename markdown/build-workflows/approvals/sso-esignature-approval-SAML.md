@@ -2,12 +2,12 @@
 title: Use Multi-Provider SSO to set up an SSO approval for a SAML 2.0 authentication
 description: An SSO approval with e-signature requires configuration on the SAML IdP and the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/sso-esignature-approval-SAML.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/approvals/sso-esignature-approval-SAML.html
 release: australia
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Build workflows]
 ---
@@ -28,7 +28,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 1.  Activate or upgrade to SAML 2.0 with the [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateMultipleProviderSSO.md).
 
-2.  Activate the [Approval with E-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/activate-approval-esignature.md).
+2.  Activate the [Approval with E-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/approvals/activate-approval-esignature.md).
 
 3.  Navigate to **Multi-Provider SSO** &gt; **Identity Providers** and verify your 2.0 SAML IdP configuration Advanced tab shows the **Force AuthnRequest** attribute checked.
 

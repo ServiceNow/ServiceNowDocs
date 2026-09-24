@@ -2,7 +2,7 @@
 title: Approval process management
 description: You can view the list of users who can approve or reject a DD request and also view the details of their approval actions. In addition, you can view the approval levels for a request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -47,7 +47,7 @@ Select the **State** value for a request to view the **Details** tab for the req
 
 \[Omitted image "tprm-ws-dd-mgt-approval-levels-tab.png"\] Alt text: Viewing approval levels.
 
-**Note:** For more information on how Third-party risk \(TPR\) admins can set approval levels and rules, see [Set up the approval levels for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.md) and [Set up the approval rules for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.md).
+**Note:** For more information on how Third-party risk \(TPR\) admins can set approval levels and rules, see [Set up the approval levels for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.md) and [Set up the approval rules for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.md).
 
 ## Approval business rules
 
@@ -61,19 +61,19 @@ The following business rules are included when the Third-party Risk Due Diligenc
 |Roll up approval and update DD|Approval \[sn\_tprm\_approval\]|Marks next approval record as **Requested** if multiple approvals are required. If all required approval records are approved, then the due diligence record state is updated to **Approved**.|
 |Cancel existing approvals|Third-party due diligence request \[sn\_tprm\_dd\_request\]|Cancels approval requests if the state of the approval record is updated to **No longer required**.|
 
--   **[Approval rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ar-form.md)**  
+-   **[Approval rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ar-form.md)**  
 The approval rule form captures all the information needed to create an approval rule. An admin or third-party risk admin can create an approval rule.
 
-**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
 **Related topics**  
 
 
-[Approving or rejecting requests for due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-approving.md)
+[Approving or rejecting requests for due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-approving.md)
 
-[Set up the approval levels for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.md)
+[Set up the approval levels for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.md)
 
-[Set up the approval rules for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.md)
+[Set up the approval rules for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.md)
 
-[Approval rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ar-form.md)
+[Approval rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ar-form.md)
 

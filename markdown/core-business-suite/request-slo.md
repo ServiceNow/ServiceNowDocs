@@ -2,7 +2,7 @@
 title: Raise a general supplier request
 description: Raise a general request for any common query or issue as a supplier on CBS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/request-slo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/request-slo.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,5 +38,5 @@ Role required: sn\_slm.contact
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-using-parent.md)
+**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-using-parent.md)
 

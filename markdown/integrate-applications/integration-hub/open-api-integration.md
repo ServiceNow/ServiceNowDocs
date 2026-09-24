@@ -2,7 +2,7 @@
 title: OpenAPI support in the REST step
 description: Populate REST step fields and action inputs with information imported from an OpenAPI Specification. Import specifications by providing a URL to the YAML or JSON, or copying and pasting content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/open-api-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/open-api-integration.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -38,7 +38,7 @@ By default, the system can import OpenAPI Specifications up to 10 MB. To increas
 
 ## Specification management
 
-Import an OpenAPI Specification by selecting options in the REST step. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md). Importing an OpenAPI Specification creates a record in the OpenAPIs \[sys\_openapi\] table. You can view or delete specification records directly from this table. To update a specification, delete it and import it again.
+Import an OpenAPI Specification by selecting options in the REST step. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/rest-request-action-designer.md). Importing an OpenAPI Specification creates a record in the OpenAPIs \[sys\_openapi\] table. You can view or delete specification records directly from this table. To update a specification, delete it and import it again.
 
 ## Design considerations
 

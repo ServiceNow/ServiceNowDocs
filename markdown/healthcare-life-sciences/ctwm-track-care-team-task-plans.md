@@ -2,7 +2,7 @@
 title: Track care team task plans
 description: Once you’ve published a task plan, you can track progress of all healthcare orchestration cases and tasks from within the Healthcare Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-track-care-team-task-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-track-care-team-task-plans.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

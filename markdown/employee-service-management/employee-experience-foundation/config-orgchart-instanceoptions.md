@@ -2,7 +2,7 @@
 title: Modify the org chart widget display
 description: The org chart widget displays the employees and organization hierarchy. You can configure the instance options to control the number of employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-orgchart-instanceoptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-orgchart-instanceoptions.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -46,7 +46,7 @@ Role required: sp\_admin or admin
 **Related topics**  
 
 
-[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
+[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
 
-[Configure eligible users for org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-eligible-users-orgchart.md)
+[Configure eligible users for org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-eligible-users-orgchart.md)
 

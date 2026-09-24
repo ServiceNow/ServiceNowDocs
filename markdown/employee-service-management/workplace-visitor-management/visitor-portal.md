@@ -2,7 +2,7 @@
 title: Visitor portal
 description: Use the visitor portal to manage your visits, complete pre-check tasks, and manage personal data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/visitor-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/visitor-portal.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -29,7 +29,7 @@ The portal also provides profile and data management capabilities. As a visitor,
 
 \[Omitted image "wsd-visitor-portal.png"\] Alt text: Visitor portal displaying a list of visits and their pre-check tasks. A single visit is selected and the details are displayed on a separate panel.
 
-**Parent Topic:**[Exploring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
+**Parent Topic:**[Exploring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
 
 **Related topics**  
 

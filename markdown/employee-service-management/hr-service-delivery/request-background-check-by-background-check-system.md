@@ -2,7 +2,7 @@
 title: Request a background check through a third-party background check provider
 description: Request a background check for an employee through a third-party background check provider such as First Advantage, Accurate, or Sterling.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/request-background-check-by-background-check-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/request-background-check-by-background-check-system.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -18,7 +18,7 @@ Request a background check for an employee through a third-party background chec
 
 ## Before you begin
 
-An HR integrations administrator must have set up the integration between HR Service Delivery and the third-party background check system before requests can be made. See [HR Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/scoped-hr-third-party-integrations.md) for more information.
+An HR integrations administrator must have set up the integration between HR Service Delivery and the third-party background check system before requests can be made. See [HR Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/scoped-hr-third-party-integrations.md) for more information.
 
 Role required: sn\_hr\_core.case\_writer
 
@@ -38,7 +38,7 @@ Role required: sn\_hr\_core.case\_writer
 
 4.  Fill in the other fields on the form, as appropriate.
 
-    For further details on the form fields, see [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/search-hr-case.md).
+    For further details on the form fields, see [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/search-hr-case.md).
 
 5.  Click **Create Case**.
 
@@ -57,5 +57,5 @@ As the background check application progresses, the status is updated in the **B
 
 To view the background check details, navigate to the **Background Check Details** related list.
 
-**Parent Topic:**[Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/search-hr-case.md)
+**Parent Topic:**[Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/search-hr-case.md)
 

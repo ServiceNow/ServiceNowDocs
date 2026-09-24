@@ -2,7 +2,7 @@
 title: View relationships of business applications and service instances in the DPM Admin Center
 description: In the DPM Admin Center, you can see a comprehensive view of your business applications and service instances. You can see incidents, problems, and changes that are related to your business applications and incidents and changes that are related to your service instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-view-related-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-view-related-records.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -71,10 +71,10 @@ The relationships of business applications and service instances enable you to s
     After you select a numbered item on the card, another tab opens and displays all the service instances related to your selected criterion. For example, you could see all service instances related to incidents through affected CIs. In this example, you can drill down to see the source incident record.
 
 
-**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-admin-center.md)
+**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-admin-center.md)
 
 **Related topics**  
 
 
-[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-admin-center.md)
+[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-admin-center.md)
 

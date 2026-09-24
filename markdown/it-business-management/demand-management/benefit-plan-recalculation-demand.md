@@ -2,7 +2,7 @@
 title: Benefit plan updates and recalculation in demand currency
 description: Changes to the entered currency, benefit, offset type, or fiscal period of a benefit plan update all related amount fields and breakdowns. The related demand fields are recalculated and reflected in demand currency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/benefit-plan-recalculation-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/benefit-plan-recalculation-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -44,5 +44,5 @@ Changes to the entered currency, benefit, offset type, or fiscal period of a ben
     -   The **Benefit in demand currency** of the benefit plan is recalculated in demand currency.
     -   The value in the **Financial benefit in demand currency** field of the demand is recalculated.
 
-**Parent Topic:**[Enable demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/enable-multicurrency-demand.md)
+**Parent Topic:**[Enable demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/enable-multicurrency-demand.md)
 

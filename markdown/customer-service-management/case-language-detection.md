@@ -2,7 +2,7 @@
 title: Language detection
 description: The language detection feature uses a pre-trained model to detect the language used to create customer service cases. You can configure the model to add the language to the Language field on the case record and/or add the language as a skill for the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-language-detection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-language-detection.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ The language detection feature uses a pre-trained model to detect the language u
 Agents can save time by not having to manually select the language for each case or rely on a manual process for case routing. You can use the language skill stored in the Task Skills table to route cases to the assignment groups and agents with the necessary language skills.
 
 -   Cases can be routed automatically with [Advanced Work Assignment \(AWA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md).
--   Cases can be assigned to agents based on language skills using the [assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-workbench.md).
+-   Cases can be assigned to agents based on language skills using the [assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-assignment-workbench.md).
 -   Cases can be assigned based on the value in the **Language** field.
 
 **Note:** Routing based on detected language must be configured separately.
@@ -43,7 +43,7 @@ If the language exists in the Languages table, the system does the following, de
 -   Stores the prediction results in the Predictor Results for Task table \[ml\_predictor\_results\_task\].
 -   Stores the language skill in the Task Skills table \[task\_m2m\_skill\].
 
-For more information, see [Create a model to detect case language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-language-solution.md).
+For more information, see [Create a model to detect case language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-language-solution.md).
 
 ## Prediction results
 
@@ -51,16 +51,16 @@ The system stores feedback on prediction results in the Predictor Result \[ml\_p
 
 For language detection, the Predictor Result table stores the prediction results from the Language Detection Service spoke. The **Detected Language** field stores the language returned by the Language Detection Services spoke.
 
-The Predictor Result table also stores information about skipped and failed predictions. For more information about this table, see [Components installed with Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-categorization-components.md).
+The Predictor Result table also stores information about skipped and failed predictions. For more information about this table, see [Components installed with Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-categorization-components.md).
 
-**Parent Topic:**[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md)
+**Parent Topic:**[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intelligence.md)
 
 **Related topics**  
 
 
-[Configure language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-language-detection-configure.md)
+[Configure language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-language-detection-configure.md)
 
-[Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-admin-center.md)
+[Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-admin-center.md)
 
-[Create a model to detect case language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-language-solution.md)
+[Create a model to detect case language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-language-solution.md)
 

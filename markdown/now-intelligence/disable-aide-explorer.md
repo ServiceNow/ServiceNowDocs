@@ -2,7 +2,7 @@
 title: Remove data visualization links to AI Data Explorer in a specific workspace
 description: If you don't want data visualizations in a specific workspace to have an entry point for AI Data Explorer, add the workspace to the PAAI Canvas Workspace Configs table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/disable-aide-explorer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/disable-aide-explorer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ Role required: now\_assist\_explorer\_admin or higher
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-aide-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-aide-explorer.md)
 

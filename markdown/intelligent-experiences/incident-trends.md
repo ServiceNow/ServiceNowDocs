@@ -2,7 +2,7 @@
 title: Platform Analyze task trends agentic workflow
 description: Use the Platform Analyze task trends agentic workflow to detect recurring task patterns so that you can understand the root cause and get recommendations to prevent them from happening in future.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/incident-trends.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/incident-trends.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-21"
@@ -38,9 +38,9 @@ The default input fields considered for analysis are the following:
 
 You can con figure additional input fields using a Now Assist Skill Config Var Set \[sn\_nowassist\_skill\_config\_var\_set\]. See the Additional configuration section for more information.
 
-The agents, tools, and triggers associated with the Analyze task trends agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version instead.
+The agents, tools, and triggers associated with the Analyze task trends agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version instead.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
@@ -48,7 +48,7 @@ To access this workflow, you must have ServiceNow Otto for Platform installed on
 
 For this agentic workflow to behave as expected, you should have at least 500 records on your task table.
 
-You must also configure Group Action Framework \(GAF\). See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md) for more information on what GAF is and how to set it up. The Incident, Case and HR Case tables use the default GAF records, but you can configure GAF for other task tables.
+You must also configure Group Action Framework \(GAF\). See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/group-action-framework.md) for more information on what GAF is and how to set it up. The Incident, Case and HR Case tables use the default GAF records, but you can configure GAF for other task tables.
 
 GAF is set up for certain applications for you. If you want the agentic workflow to have its own system of categorization different from the main application, you can clone an existing action strategy skill and use the clone in the var set described in the **Additional configuration** section. This enables you to train the groupings differently for different agentic resources.
 
@@ -58,7 +58,7 @@ GAF is set up for certain applications for you. If you want the agentic workflow
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_analyze\_trnds.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to access for trend analysis. For example, you can add the itil role to the agentic workflow's list of approved roles so that it can access Incident records.
 
@@ -198,7 +198,7 @@ Action Skill ID
 
 The Group Action Framework action skill dedicated to selecting and mapping representative records for each group and summarizing them
 
- See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md) for information about setting up GAF.
+ See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/group-action-framework.md) for information about setting up GAF.
 
 </td><td>
 
@@ -230,17 +230,17 @@ The first step of the guided setup includes a complete list of included AI agent
 
 ## In-product agentic AI and UI actions
 
-Agentic workflows can be accessed in the Core UI and in workspaces in the AI Activity panel. From there, you can track their progress, provide or review input, and see the results of the work performed. For more information, see [In-product agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/in-product-agentic-ai.md) for more details about the AI Activity panel.
+Agentic workflows can be accessed in the Core UI and in workspaces in the AI Activity panel. From there, you can track their progress, provide or review input, and see the results of the work performed. For more information, see [In-product agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/in-product-agentic-ai.md) for more details about the AI Activity panel.
 
 To enable users to access agentic workflows with UI actions, you can open the agentic workflow in AI Agent Studio and navigate to the **Select channels and access** step. You can select a UI action as a possible way to access the workflow
 
-If you don't see your UI actions after configuring it in AI Agent Studio, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`. See [Enable the in-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-inproduct-aia.md).
+If you don't see your UI actions after configuring it in AI Agent Studio, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`. See [Enable the in-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-inproduct-aia.md).
 
 ## Testing the Analyze task trends agentic workflow
 
-You can manually test an agentic workflow execution or access on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the name of the workflow, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
+You can manually test an agentic workflow execution or access on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the name of the workflow, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aia-use-case.md).
 
-If you want to evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md).
+If you want to evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/execute-aia-eval.md).
 
 ## Sample utterance
 
@@ -259,7 +259,7 @@ When invoking the agentic workflow, if you want to use additional filters, such 
 
 ## Troubleshooting
 
-When running this agentic workflow, it's possible to see an error that states "I couldn't analyze as I didn't have the required resources." This error occurs when GAF isn't configured for the table you want to analyze. See [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-gaf.md) for steps to configure GAF for the table. If you're still having issues after GAF is configured, reach out to Now Support.
+When running this agentic workflow, it's possible to see an error that states "I couldn't analyze as I didn't have the required resources." This error occurs when GAF isn't configured for the table you want to analyze. See [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-gaf.md) for steps to configure GAF for the table. If you're still having issues after GAF is configured, reach out to Now Support.
 
 ## AI agents used in the Analyze task trends agentic workflow
 
@@ -273,5 +273,5 @@ The following table lists the agents that are used in the Analyze task trends ag
 
 ## Other Platform agentic workflows
 
-For more information on other agentic workflows that are associated with the Platform workflow, see [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-use-cases.md).
+For more information on other agentic workflows that are associated with the Platform workflow, see [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-use-cases.md).
 

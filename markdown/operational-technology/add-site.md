@@ -2,7 +2,7 @@
 title: Add a Site
 description: Add a site to your Discovery Console for OT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/add-site.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/add-site.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -121,5 +121,5 @@ Role required: admin
 
 The system creates the site and returns you to the Sites page where your new site appears in the list.
 
-**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sites-page.md)
+**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sites-page.md)
 

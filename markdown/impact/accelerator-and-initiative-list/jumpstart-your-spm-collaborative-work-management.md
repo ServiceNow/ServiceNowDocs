@@ -2,7 +2,7 @@
 title: Jumpstart Your Strategic Portfolio Management - Collaborative Work Management
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Collaborative Work Management \(CWM\) with Strategic Portfolio Management \(SPM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-spm-collaborative-work-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-spm-collaborative-work-management.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

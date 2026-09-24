@@ -2,7 +2,7 @@
 title: Migrate from legacy change risk assessments
 description: Users can migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/legacy-change-risk-assessment-migration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/legacy-change-risk-assessment-migration.html
 release: australia
 product: Change Management
 classification: change-management
@@ -70,8 +70,8 @@ Capture the results in the update set created and later mark the update set as c
 
 **Note:** The given procedure is a suggested practice. Alternatively, you can capture each migrated Change Risk Assessment in their own update set. You can also capture the results of disabling of the Change Management - Risk Assessment \[Legacy\] using `disable_legacy_change_risk_assessment.js` in a separate update set.
 
--   **[Migrated risk assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/migrated-risk-assessment-components.md)**  
+-   **[Migrated risk assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/migrated-risk-assessment-components.md)**  
 When you migrate a change risk assessment, the system maps records from legacy risk assessment to the new risk assessment tables.
 
-**Parent Topic:**[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-risk-conflict-analysis.md)
+**Parent Topic:**[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-risk-conflict-analysis.md)
 

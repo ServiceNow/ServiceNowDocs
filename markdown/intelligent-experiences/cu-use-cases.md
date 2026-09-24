@@ -2,10 +2,10 @@
 title: Use cases in Information Extraction skill
 description: Use cases in the Information Extraction skill define what documents to process and what information to extract, so generative AI can accurately retrieve structured data from unstructured documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cu-use-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cu-use-cases.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [use case, information extraction, generative AI]
 breadcrumb: [Information Extraction skill, Explore, Content Understanding, Enable AI experiences]
@@ -85,11 +85,11 @@ Follow
 **Related topics**  
 
 
-[Predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictions.md)
+[Predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictions.md)
 
-[Content Understanding personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/personas.md)
+[Content Understanding personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/personas.md)
 
-[Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/automation-modes.md)
+[Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/automation-modes.md)
 
-[Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-use-case.md)
+[Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/set-up-use-case.md)
 

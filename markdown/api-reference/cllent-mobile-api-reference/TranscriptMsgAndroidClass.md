@@ -2,7 +2,7 @@
 title: TranscriptMessage class - Android
 description: Represents a single message in the voice session transcript.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/TranscriptMsgAndroidClass.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/TranscriptMsgAndroidClass.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 Represents a single message in the voice session transcript.
 
-TranscriptMessages are passed to [NowVoiceCallbacks - onMessageReceived\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksAndroidInt.md).
+TranscriptMessages are passed to [NowVoiceCallbacks - onMessageReceived\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksAndroidInt.md).
 
 <table id="table_vx2_klw_nva5" class="parameters"><thead><tr><th>
 
@@ -66,5 +66,5 @@ override fun onMessageReceived(message: TranscriptMessage) {
 }
 ```
 
-**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

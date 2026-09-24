@@ -2,7 +2,7 @@
 title: Archive rules in Industrial Guided Tasks
 description: Archive rules in the Industrial Guided Tasks are designed to manage and organize records, so that you can focus on current and relevant data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/archive-rules-industrial-guided-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/archive-rules-industrial-guided-tasks.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -24,5 +24,5 @@ The archiving rules support data hygiene and system usability by making sure tha
 
 For more information on archive rules, see [Create an archive rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md).
 
-**Parent Topic:**[Configuring Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/configuring-industrial-guided-tasks.md)
+**Parent Topic:**[Configuring Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/configuring-industrial-guided-tasks.md)
 

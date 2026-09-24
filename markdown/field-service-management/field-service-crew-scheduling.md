@@ -2,7 +2,7 @@
 title: Field Service Crew Operations
 description: Simplify your scheduling process and create a crew of Field Service technicians that can be assigned to work together using the Field Service Crew Operations feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-crew-scheduling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-crew-scheduling.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,13 +34,13 @@ Field Service Crew Operations provides easier assignment of multiple agents to t
 **Related topics**  
 
 
-[Activate Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-fsm-crew-scheduling.md)
+[Activate Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/activate-fsm-crew-scheduling.md)
 
-[Field Service Crew Operations components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/crew-scheduling-components.md)
+[Field Service Crew Operations components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/crew-scheduling-components.md)
 
-[Configuring Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-crew-operations.md)
+[Configuring Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-crew-operations.md)
 
-[Add crews to a territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/add-crews-to-a-territory.md)
+[Add crews to a territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/add-crews-to-a-territory.md)
 
-[Using Field Service Crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/Using-crew-operations-fsm.md)
+[Using Field Service Crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/Using-crew-operations-fsm.md)
 

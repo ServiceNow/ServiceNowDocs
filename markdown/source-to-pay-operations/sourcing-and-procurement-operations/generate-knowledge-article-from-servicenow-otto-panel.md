@@ -2,7 +2,7 @@
 title: Generate a knowledge article from the ServiceNow Otto panel
 description: Generate a draft knowledge article from a closed procurement case using the ServiceNow Otto panel, then review and publish it to make it available in the knowledge base.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/generate-knowledge-article-from-servicenow-otto-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/generate-knowledge-article-from-servicenow-otto-panel.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -50,5 +50,5 @@ Role required: sn\_spend\_gen\_ai.now\_assist\_fulfiller
 
 Your knowledge article is published, linked to the case, and discoverable in the knowledge base.
 
-**Parent Topic:**[Generate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-generate-knowledge-article.md)
+**Parent Topic:**[Generate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-generate-knowledge-article.md)
 

@@ -2,7 +2,7 @@
 title: Setting up Slack as a contact method
 description: You configure Slack to enable users to receive Slack notifications for escalations. To offer Slack as a contact method for shift members, you install the IntegrationHub spoke for Slack.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/slack-setup-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/slack-setup-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -67,5 +67,5 @@ The Slack spoke automates On-Call Scheduling notifications and responds to them.
     This action performs appropriate operations when the user clicks **Accept** or **Reject** from Slack. It invokes the utility methods to perform actions from the OnCallSlackUtils script include.
 
 
-**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/configuration.md)
+**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/configuration.md)
 

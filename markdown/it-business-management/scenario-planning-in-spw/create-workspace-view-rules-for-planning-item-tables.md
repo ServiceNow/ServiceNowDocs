@@ -2,7 +2,7 @@
 title: Create workspace view rules for planning item forms in Strategic Planning
 description: Define workspace view rules for the form views of new planning item types in Strategic Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +18,7 @@ Define workspace view rules for the form views of new planning item types in Str
 
 ## Before you begin
 
--   [Create form views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-form-views-for-planning-item-tables-in-apw.md)
+-   [Create form views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-form-views-for-planning-item-tables-in-apw.md)
 -   Ensure the application scope in your instance is set to Portfolio Planning
 
 Role required: admin
@@ -31,7 +31,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For field information, see [View rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/new-view-rule-form.md).
+    For field information, see [View rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/new-view-rule-form.md).
 
 4.  In the Conditions section, select **Add Filter Condition** and add the following condition:
 
@@ -44,5 +44,5 @@ Role required: admin
 
 ## What to do next
 
-[Enable custom item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.md).
+[Enable custom item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.md).
 

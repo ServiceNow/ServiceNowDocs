@@ -2,7 +2,7 @@
 title: Dynamic operators
 description: The dynamic operator, is \(dynamic\), lists predefined dynamic filter options where the condition value is computed from a value in a reference field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_UsingTheDynamicOperator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/r\_UsingTheDynamicOperator.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ The dynamic operator, **is \(dynamic\)**, lists predefined dynamic filter option
 
 The following dynamic filter options are available by default.
 
-**Note:** Administrators can [create new dynamic filter options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_DynamicFilterOptions.md).
+**Note:** Administrators can [create new dynamic filter options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_DynamicFilterOptions.md).
 
 |Target table of reference field|Option label|Description|
 |-------------------------------|------------|-----------|
@@ -33,7 +33,7 @@ The following table contains examples and descriptions of dynamic filter conditi
 |Caller|is \(dynamic\)|Me|Computes the value of Caller based on the current user viewing the list.|
 |Assignment group|is \(dynamic\)|One of My Groups|Computes the value of Assignment group based on the current user viewing the list.|
 
-**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md)
+**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Filters.md)
 
 **Related topics**  
 

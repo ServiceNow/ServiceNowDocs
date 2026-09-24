@@ -2,7 +2,7 @@
 title: Manage your calendar with the Calendar Management assistant
 description: Use the Calendar Management specialized assistant for scheduling tasks. The assistant blocks time, reschedules meetings, checks attendee availability, and adds conferencing details from one scoped AI assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-use-calendar-assistant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-use-calendar-assistant.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

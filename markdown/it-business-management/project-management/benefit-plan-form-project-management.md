@@ -2,7 +2,7 @@
 title: Benefit Plan form
 description: Learn about the fields of benefit plan form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/benefit-plan-form-project-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/benefit-plan-form-project-management.html
 release: australia
 product: Project Management
 classification: project-management
@@ -185,7 +185,7 @@ Entered benefit
 
 </td><td>
 
-Benefit incurred from the project or demand specified in terms of entered currency.If the selected currency is different from the functional currency, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the **Total planned benefit** of the project.
+Benefit incurred from the project or demand specified in terms of entered currency.If the selected currency is different from the functional currency, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the **Total planned benefit** of the project.
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Functional currency
 
 </td><td>
 
-Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-properties.md). For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the **Total planned benefit** of the project.
+Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-properties.md). For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the **Total planned benefit** of the project.
 
 </td></tr><tr><td>
 
@@ -239,5 +239,5 @@ Check box to indicate that the benefit is recurring for all the fiscal periods i
 </table>**Related topics**  
 
 
-[Create a monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-project-benefit-plan.md)
+[Create a monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-project-benefit-plan.md)
 

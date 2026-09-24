@@ -2,7 +2,7 @@
 title: Configure HR Multi Instance Integration for Provider
 description: Plan and implement the configuration of HR Multi Instance Integration for Provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-hr-multi-instance-1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/config-hr-multi-instance-1.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,7 +28,7 @@ Plan and implement the configuration of HR Multi Instance Integration for Provid
 2.  Configure HR Multi Instance Integration for Provider by performing the following steps:
     1.  Register a service bridge consumer. A company or account must exist for the consumer in the provider instance and user must be associated with the company. If you want to enable domain separation, you must associate a domain to the company. For more information, see [Register a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-onboarding.md).
 
-        **Note:** Import users from a consumer instance into the provider instance before registering a service bridge consumer. For more information, see [Import users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/import-users-hr-mii.md).
+        **Note:** Import users from a consumer instance into the provider instance before registering a service bridge consumer. For more information, see [Import users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/import-users-hr-mii.md).
 
     2.  Create a remote record producer and publish it. For more information, see [Remote catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-apps.md).
 
@@ -38,5 +38,5 @@ Plan and implement the configuration of HR Multi Instance Integration for Provid
         -   Create a remote record producer under the HR Multi Instance Integration Base scope so that the catalogs are available on the consumer instance. After you revise a remote record producer, you must update the value in the **Record producer** field in HR service.
         -   When creating remote record producers, select the flow **Create HR case from provider task**. This step is required for auto- creating an HR case from a provider task when the remote record producer is triggered.
     3.  [Enable magic links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-magic-links.md) to let consumer users complete assigned tasks from provider instance. Magic links enable consumer users to directly access the linked resource in the provider instance without having to manually log in.
-    4.  Configure an HR service to trigger a case when the remote record producer is triggered. When you create an HR service, select the configured remote record producer in the **Record producer** field. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+    4.  Configure an HR service to trigger a case when the remote record producer is triggered. When you create an HR service, select the configured remote record producer in the **Record producer** field. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 

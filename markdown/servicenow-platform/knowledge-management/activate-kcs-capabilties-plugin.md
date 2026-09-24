@@ -2,7 +2,7 @@
 title: Activate Knowledge Management KCS Capabilities
 description: You can activate the Knowledge Management KCS Capabilities plugin \(com.snc.knowledge\_kcs\_capabilities\) to enable the use of certain KCS roles and KCS article states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/activate-kcs-capabilties-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/activate-kcs-capabilties-plugin.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -35,5 +35,5 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

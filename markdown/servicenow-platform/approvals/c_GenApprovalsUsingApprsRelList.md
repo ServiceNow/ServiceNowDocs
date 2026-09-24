@@ -2,7 +2,7 @@
 title: Generate approvals using the approvers related list
 description: It is possible to manually add approvers to a request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/c\_GenApprovalsUsingApprsRelList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/c\_GenApprovalsUsingApprsRelList.html
 release: australia
 product: Approvals
 classification: approvals
@@ -18,10 +18,10 @@ It is possible to manually add approvers to a request.
 
 Additional approvers can be added by clicking the **Edit** button in the Approvers section near the bottom of a request. When an approver is added manually, the status for that approver defaults to **Not Yet Requested**. When the status of the approver changes to **Requested**, the approver is sent an email requesting approval action.
 
-**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_Approvals.md)
+**Parent Topic:**[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_Approvals.md)
 
 **Related topics**  
 
 
-[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_Approvals.md)
+[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/r_Approvals.md)
 

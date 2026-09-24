@@ -2,7 +2,7 @@
 title: Edit the label of Submit button for a record producer
 description: For a record producer submission experience that you can relate to, edit the label of the Submit button.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/edit-recprdcr-submit-label.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/edit-recprdcr-submit-label.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -41,7 +41,7 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md)
+**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/now-mobile-catalog.md)
 
 **Related topics**  
 

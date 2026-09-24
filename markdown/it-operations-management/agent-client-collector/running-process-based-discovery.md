@@ -2,7 +2,7 @@
 title: Running process-based discovery
 description: Running process-based discovery extends File-Based Discovery \(FBD\) with process-based path detection, enabling the Agent Client Collector for Visibility Content agent to detect software running outside of standard configured scan directories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/running-process-based-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/running-process-based-discovery.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -29,12 +29,12 @@ A directory-only scan cannot detect applications installed outside standard scan
 
 ## Platform coverage
 
-Running process-based discovery supports Windows, Linux, and macOS. Coverage scope varies by operating system and depends on the privileges granted to the agent service account. For platform-specific coverage details and privilege requirements, see [Running process-based discovery platform coverage and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.md).
+Running process-based discovery supports Windows, Linux, and macOS. Coverage scope varies by operating system and depends on the privileges granted to the agent service account. For platform-specific coverage details and privilege requirements, see [Running process-based discovery platform coverage and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.md).
 
--   **[Enable running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/enable-running-process-based-discovery.md)**  
+-   **[Enable running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/enable-running-process-based-discovery.md)**  
 Enable running process-based discovery so that the Agent Client Collector for Visibility Content agent detects software running from directories outside your configured File-Based Discovery scan paths.
--   **[Exclude directories from running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/exclude-directories-running-process-based-discovery.md)**  
+-   **[Exclude directories from running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/exclude-directories-running-process-based-discovery.md)**  
 Exclude specific directories from running process-based discovery so that processes running from those locations aren't recorded or included in File-Based Discovery scans.
 
-**Parent Topic:**[Agent Client Collector File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/file-based-discovery-overview.md)
+**Parent Topic:**[Agent Client Collector File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/file-based-discovery-overview.md)
 

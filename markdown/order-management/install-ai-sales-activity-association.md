@@ -2,12 +2,12 @@
 title: Install AI sales activity association
 description: You can install the AI sales activity association application \(com.sn\_act\_assoc\_agent\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-ai-sales-activity-association.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-ai-sales-activity-association.html
 release: australia
 topic_type: task
 last_updated: "2026-06-30"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Activity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -60,12 +60,12 @@ For associating emails to Lead records, install Lead Management separately.
 ## What to do next
 
 -   Index the Lead \[sn\_lead\_mgmt\_core\_lead\] and Opportunity \[sn\_opty\_mgmt\_core\_opportunity\] tables, so that the records from these tables are searchable by the agentic AI workflow. For more information, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/index-single-source-ais.md).
--   [Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/promote-crm-outlook-emails.md)
+-   [Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/promote-crm-outlook-emails.md)
 
 **Related topics**  
 
 
 [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/indexing-content-ais.md)
 
-[Install Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-lead-management.md)
+[Install Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-lead-management.md)
 

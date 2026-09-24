@@ -2,7 +2,7 @@
 title: Enable Claim workspace, Fraud score, and Claim summary pages
 description: Enable Fraud score and Claim summary pages on the claim case so that a claims manager, adjuster, or processor can view them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/enable-fraud-score-and-claim-summary-pages-pers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/enable-fraud-score-and-claim-summary-pages-pers.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

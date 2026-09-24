@@ -2,7 +2,7 @@
 title: Collaboration services for Zoom reference
 description: Reference topics providing additional information about ServiceNow Collaboration services for Zoom components and forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/reference-sn-zoom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/reference-sn-zoom.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,8 +18,8 @@ Reference topics providing additional information about ServiceNow Collaboration
 
 For more information about the API scope for ServiceNow Collaboration services for Zoom, see [Setup Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-zoom.md)
 
--   **[API permissions/scope for ServiceNow integration with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/api-scope-sn-integ-zoom.md)**  
+-   **[API permissions/scope for ServiceNow integration with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/api-scope-sn-integ-zoom.md)**  
 The list of the API permissions/scope requested by the ServiceNow Collaboration services for Zoom are as follows.
 
-**Parent Topic:**[ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn_zoomIntegration.md)
+**Parent Topic:**[ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn_zoomIntegration.md)
 

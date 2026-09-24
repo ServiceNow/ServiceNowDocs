@@ -2,7 +2,7 @@
 title: Reservation Management dashboard
 description: Use the Reservation Management dashboard to monitor the reservations and meeting frequency in your organization. On any day, you can view details such as number of reservations, peak meeting times, and number of meetings for different locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/reservation-management-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/reservation-management-dashboard.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -20,7 +20,7 @@ Use the Reservation Management dashboard to monitor the reservations and meeting
 
 Old dashboards are not supported for new Workplace Service Delivery customers. For existing customers, old dashboards are currently available but will be deprecated soon.
 
-For more information about the migrated dashboard, see [Reservation Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reservation-management-dashboard.md).
+For more information about the migrated dashboard, see [Reservation Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reservation-management-dashboard.md).
 
 \[Omitted image "reservation-management-dashboard.png"\] Alt text: Reservation Management dashboard
 
@@ -65,7 +65,7 @@ sn\_wsd\_rsv.manager
 |Location reservations per day this week|Stacked columns \[Omitted image "stacked-column-bkdown-icon.png"\] Alt text: Stacked columns icon|Number of reservations made each day for the current week.|
 |Location reservations today|List|Number of reservations scheduled for today grouped by location.|
 
-**Parent Topic:**[Analytics and Reporting Solutions for Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/analytics-reporting-for-rsv-mgmt.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/analytics-reporting-for-rsv-mgmt.md)
 
-**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
+**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
 

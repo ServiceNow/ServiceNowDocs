@@ -2,7 +2,7 @@
 title: Request the Cloud Provisioning and Governance application
 description: The Cloud Provisioning and Governance application is available as a separate subscription and requires the Cloud Provisioning and Governance plugin \(com.snc.cloud.mgmt\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/request-plugin-cloud-mgt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/request-plugin-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -79,11 +79,11 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-aws-setup-day-1.md)
+[Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-mgt-aws-setup-day-1.md)
 
-[Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-azure-setup-guide.md)
+[Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-mgt-azure-setup-guide.md)
 
-[Day 1 setup guide for Google Cloud through Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-gcp-setup-day-1.md)
+[Day 1 setup guide for Google Cloud through Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-mgt-gcp-setup-day-1.md)
 
-[Day 1 setup guide for VMware on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-vmware-setup-guide.md)
+[Day 1 setup guide for VMware on Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-mgt-vmware-setup-guide.md)
 

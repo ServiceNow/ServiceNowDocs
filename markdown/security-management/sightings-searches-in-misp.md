@@ -2,7 +2,7 @@
 title: Sighting searches in MISP
 description: You can perform sighting searches on observables in the MISP instance to determine how often certain types of attacks, such as phishing attacks or communications with a malicious IP or URL, occur in your network. Each occurrence is considered a sighting.Enable the sighting search in MISP to run automatically so that the Security Operations Integration - Sightings Search workflow is triggered whenever new observables are associated with a security incident.Select individual or multiple observables and perform a manual sighting search in the ServiceNow AI Platform MISP integration for Security Operations application to determine the prevalence of a threat over time.Report threat data sightings so that you can react to false positives in your data and increase your awareness when a true positive threat occurs. You can also add an expiration date for a particular observable or attribute.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sightings-searches-in-misp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sightings-searches-in-misp.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,13 +26,13 @@ Sightings that are created in MISP by users of organizations that are marked as 
 
 ## Sighting searches in SIR
 
-The [Security Operations Integration - Sightings Search workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-sightings-search-workflow.md) executes the sightings search. This flow accepts a list of observables, finds any implementing capabilities, creates the queries that are based on the sighting search configurations, and executes the searches that are based on the configured flow.
+The [Security Operations Integration - Sightings Search workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-sightings-search-workflow.md) executes the sightings search. This flow accepts a list of observables, finds any implementing capabilities, creates the queries that are based on the sighting search configurations, and executes the searches that are based on the configured flow.
 
-Sighting searches helps analysts to determine the prevalence of a threat over time. You can select individual or multiple observables and the date range for your search from a security incident. Results are included in the Security Incident [Sightings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-searches-in-misp.md), [Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-sightings-search-results.md), and [Sightings Search Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-sightings-search-details.md) related lists.
+Sighting searches helps analysts to determine the prevalence of a threat over time. You can select individual or multiple observables and the date range for your search from a security incident. Results are included in the Security Incident [Sightings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-searches-in-misp.md), [Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-sightings-search-results.md), and [Sightings Search Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-sightings-search-details.md) related lists.
 
-As you start to analyze an incident, you can set up your ServiceNow AI Platform to [automatically perform a sightings search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-searches-in-misp.md) or [manually perform an observable sightings search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-searches-in-misp.md) to identify other users in your organization who are impacted by the same phishing attack.
+As you start to analyze an incident, you can set up your ServiceNow AI Platform to [automatically perform a sightings search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-searches-in-misp.md) or [manually perform an observable sightings search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-searches-in-misp.md) to identify other users in your organization who are impacted by the same phishing attack.
 
-**Parent Topic:**[Using MISP to investigate and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-misp-to-detect-and-analyze-threats.md)
+**Parent Topic:**[Using MISP to investigate and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-misp-to-detect-and-analyze-threats.md)
 
 ## Enable automatic sighting searches in MISP
 
@@ -40,13 +40,13 @@ Enable the sighting search in MISP to run automatically so that the Security Ope
 
 ### Before you begin
 
-Verify that the [Sightings Search Configuration profile for MISP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-sightings-search.md) is active.
+Verify that the [Sightings Search Configuration profile for MISP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configure-sightings-search.md) is active.
 
 Role required: sn\_si.analyst
 
 ### About this task
 
-If you enable [the sighting search capability to run automatically in the MISP integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/review-the-misp-integration-settings.md), the sighting search in MISP triggers when new observables are associated with a security incident. By default, the **Run Sighting Search automatically when new observables are associated with the security incident** option is enabled.
+If you enable [the sighting search capability to run automatically in the MISP integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/review-the-misp-integration-settings.md), the sighting search in MISP triggers when new observables are associated with a security incident. By default, the **Run Sighting Search automatically when new observables are associated with the security incident** option is enabled.
 
 ### Procedure
 
@@ -56,7 +56,7 @@ If you enable [the sighting search capability to run automatically in the MISP i
 
 3.  Review the work notes after new observables have been associated with the security incident.
 
-    A work note is posted when the [Security Operations Integration - Sightings Search workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-sightings-search-workflow.md) has triggered.
+    A work note is posted when the [Security Operations Integration - Sightings Search workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-sightings-search-workflow.md) has triggered.
 
     The following example shows the work notes section.
 
@@ -64,7 +64,7 @@ If you enable [the sighting search capability to run automatically in the MISP i
 
 4.  View the aggregated information of observables that are seen across all the events \(global\) and categorized by their internal or external sightings after the workflow execution has completed.
 
-    View the information in the [Sightings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-searches-in-misp.md), [Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-sightings-search-results.md) and [Sightings Search Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-sightings-search-details.md) related lists.The following example shows the sightings search record that was created in the Sightings related list.
+    View the information in the [Sightings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-searches-in-misp.md), [Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-sightings-search-results.md) and [Sightings Search Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-sightings-search-details.md) related lists.The following example shows the sightings search record that was created in the Sightings related list.
 
     \[Omitted image "misp-sightings-tab.png"\] Alt text: View the Sightings Search record that was created in the Sightings tab.
 
@@ -140,7 +140,7 @@ Select individual or multiple observables and perform a manual sighting search i
 
 ### Before you begin
 
--   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
 -   Role required: sn\_si.analyst
 
 ### Procedure
@@ -195,7 +195,7 @@ Range of dates to search. Default dates are as follows:-   The date and time tha
 
 ### Result
 
-A Sightings Search record is created. After the workflow execution has completed, you can view the aggregated information of observables that are seen across all the events \(global\) and categorized by their internal or external sightings. Aggregate and associated sightings data are displayed in the security incident under the [Sightings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-searches-in-misp.md), [Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-sightings-search-results.md), and [Sightings Search Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-sightings-search-details.md) related lists.
+A Sightings Search record is created. After the workflow execution has completed, you can view the aggregated information of observables that are seen across all the events \(global\) and categorized by their internal or external sightings. Aggregate and associated sightings data are displayed in the security incident under the [Sightings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sightings-searches-in-misp.md), [Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-sightings-search-results.md), and [Sightings Search Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-sightings-search-details.md) related lists.
 
 ## Report sightings to MISP
 
@@ -203,7 +203,7 @@ Report threat data sightings so that you can react to false positives in your da
 
 ### Before you begin
 
--   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
 -   Role required: sn\_si.analyst
 
 ### About this task

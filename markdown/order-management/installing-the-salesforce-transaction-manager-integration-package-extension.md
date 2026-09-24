@@ -2,7 +2,7 @@
 title: Installing the Salesforce ServiceNow Quote Experience Integration Package extension
 description: Install the Salesforce ServiceNow Quote Experience Integration Package Extension to enable ServiceNow Quote Experience with Salesforce.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -74,7 +74,7 @@ Optionally, allow microphone access for Cosmo Converse \(currently in beta\). Co
 
 ## CPQ: Set up the runtime client token
 
-The CPQ runtime client token facilitates authentication for communications from Salesforce to CPQ. For steps to create a runtime client token in CPQ, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-runtime-client.md). For this ServiceNow Quote Experience use case, please be sure to enable permissions on this runtime client for TRANSACTION, and add a valid User ID that is recognized by the corresponding Salesforce environment.
+The CPQ runtime client token facilitates authentication for communications from Salesforce to CPQ. For steps to create a runtime client token in CPQ, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-runtime-client.md). For this ServiceNow Quote Experience use case, please be sure to enable permissions on this runtime client for TRANSACTION, and add a valid User ID that is recognized by the corresponding Salesforce environment.
 
 Note that in CPQ Admin, the runtime client token must be updated to include TRANSACTION in its permissions and itself as an origin. \(For example, the runtime client token for `https://test-txn.test02.cpq` must have an origin of `https://test-txn.test02.cpq`.\) Also, when a runtime client token includes TRANSACTION, a user must be included. Make sure that the user has permission to perform the Create Transaction event.
 
@@ -325,7 +325,7 @@ View: access to each event, per stage
 
 </td><td>
 
-For information about how to perform fine-grained access administration \(recommended\), see the Events CSV File section in [Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-views.md).
+For information about how to perform fine-grained access administration \(recommended\), see the Events CSV File section in [Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-views.md).
 
  To administer access in a less precise way, go to Events in CPQ Transaction Admin, Select the **Create Transaction** event, Select **Edit Event Access**, and set the event access to Active. By default, the event is active across all stages and views.
 

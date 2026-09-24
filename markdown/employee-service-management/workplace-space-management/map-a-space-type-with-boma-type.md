@@ -2,7 +2,7 @@
 title: Map a space type with BOMA type
 description: Using Workplace Space Management, map a space type that you created using Workplace Core with a BOMA type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/map-a-space-type-with-boma-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/map-a-space-type-with-boma-type.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -20,8 +20,8 @@ Using Workplace Space Management, map a space type that you created using Workpl
 
 Ensure the following:
 
--   Space type is configured. To configure a space type, refer to [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
--   BOMA type is configured. To configure a BOMA type, refer to [Configure a BOMA type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/configure-a-boma-type.md).
+-   Space type is configured. To configure a space type, refer to [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
+-   BOMA type is configured. To configure a BOMA type, refer to [Configure a BOMA type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/configure-a-boma-type.md).
 
 Role required: sn\_wsd\_core.admin and sn\_wsd\_spcmgmt.manager
 
@@ -48,7 +48,7 @@ Role required: sn\_wsd\_core.admin and sn\_wsd\_spcmgmt.manager
 
 The space type is mapped with a BOMA type. All the spaces that are assigned to this space type, will be classified with the selected BOMA type.
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 

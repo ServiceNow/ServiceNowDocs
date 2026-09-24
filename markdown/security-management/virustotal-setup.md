@@ -2,7 +2,7 @@
 title: VirusTotal integration setup
 description: VirusTotal is a free service that analyzes suspicious files and URLs and facilitates the quick detection of viruses, worms, trojans, and all kinds of malware. It integrates easily with Security Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/virustotal-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/virustotal-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

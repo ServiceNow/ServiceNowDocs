@@ -2,12 +2,12 @@
 title: Working with quick links
 description: Add quick links for easy reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/quick\_links.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/quick\_links.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Quick links section, Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -55,5 +55,5 @@ You can add and modify any useful quick links and bookmark those links that help
     6.  Click **Delete** to delete the links while editing that were bookmarked.
 
 
-**Parent Topic:**[Quick links section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/quick-links.md)
+**Parent Topic:**[Quick links section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/quick-links.md)
 

@@ -2,7 +2,7 @@
 title: Prepare non-persistent VDI reference device
 description: Remove the registration certificate, agent identifier, cached databases, and logs from the reference device before sealing it as a golden image. This cleanup confirms that each VDI duplicated from the image registers with a unique identity on first start.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/prepare-np-vdi-golden-image.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/prepare-np-vdi-golden-image.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -20,8 +20,8 @@ Remove the registration certificate, agent identifier, cached databases, and log
 
 Complete the following tasks before you prepare the golden image:
 
--   [Install Agent Client Collector on a non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-on-np-vdi-golden-image.md)
--   [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md)
+-   [Install Agent Client Collector on a non-persistent VDI reference device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/install-acc-on-np-vdi-golden-image.md)
+-   [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md)
 
 Role required: sn\_dex.admin and administrator access on the reference device
 
@@ -68,5 +68,5 @@ The reference device is ready to be sealed as a golden image. The Agent Client C
 
 ## What to do next
 
-Configure the VDI pool to use the golden image. See [Manage logon and logoff scripts for non-persistent VDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configure-np-vdis.md).
+Configure the VDI pool to use the golden image. See [Manage logon and logoff scripts for non-persistent VDIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/configure-np-vdis.md).
 

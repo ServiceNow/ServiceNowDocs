@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Strategic Portfolio Management release notes
 description: The ServiceNow ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. ServiceNow Otto for Strategic Portfolio Management was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. ServiceNow Otto for Strategic Portfolio Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-spm-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-spm-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ See [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubuserc
 
 **Important:** ServiceNow Otto for SPM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## Australia
 

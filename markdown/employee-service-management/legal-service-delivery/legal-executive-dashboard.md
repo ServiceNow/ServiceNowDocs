@@ -2,7 +2,7 @@
 title: Legal Executive dashboard
 description: With the Legal Executive dashboard, you can get an insight into how your team and business are performing for resolving Legal service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/legal-executive-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/legal-executive-dashboard.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -20,7 +20,7 @@ From a single place, you can track the status of legal requests and matters, ana
 
 **Note:** The classic version of Legal Executive Dashboard has been deprecated. If you open a saved URL to access the classic Legal Executive Dashboard, the Next Experience dashboard is automatically displayed. If you have customized the classic version, review and migrate your customizations to the Next Experience Legal Executive Dashboard.
 
-For reports and metrics on legal requests and legal matters and the trend analysis, see [Legal Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-operations-dashboard.md).
+For reports and metrics on legal requests and legal matters and the trend analysis, see [Legal Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-operations-dashboard.md).
 
 \[Omitted image "legal-executive-dashboard.gif"\] Alt text: Legal Executive dashboard showing widgets and reports.
 
@@ -962,5 +962,5 @@ Legal Matter \[sn\_lg\_matter\_matter\]
 Number of legal matters created from legal fulfillers in various regions so far this year is displayed on a map.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and Reporting Solutions for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
+</table>**Parent Topic:**[Analytics and Reporting Solutions for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 

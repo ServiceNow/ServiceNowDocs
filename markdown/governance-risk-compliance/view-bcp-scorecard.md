@@ -2,7 +2,7 @@
 title: View plan details in scorecards
 description: Use the Overview tab to gain a quick understanding of how robust your business continuity and emergency plans are. This tab gives an overview of the scores of important plan elements, each as a scorecard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-bcp-scorecard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-bcp-scorecard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,9 +40,9 @@ Your emergency action plan must be customized to your workplace and include info
 
     In the **Overview** tab, you can see the scorecards that are graphical representations of the progress of the plan for making it complete towards its goal.
 
-    The different scorecards that are available to view in the **Overview** tab depend on the value that has been selected in the **Plan authoring type** field of the [Configure a business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bcp-template.md) used in this plan.
+    The different scorecards that are available to view in the **Overview** tab depend on the value that has been selected in the **Plan authoring type** field of the [Configure a business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-bcp-template.md) used in this plan.
 
-    **Note:** If your plan is in **Approved** state, then you can view the **Plan Usage and Results** section. However, you can view all the details of a plan in the **Plan Details** section irrespective of the plan being in any state. For more information, see [Plan overview scorecards for plan usage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/plan-overview-scorecards.md).
+    **Note:** If your plan is in **Approved** state, then you can view the **Plan Usage and Results** section. However, you can view all the details of a plan in the **Plan Details** section irrespective of the plan being in any state. For more information, see [Plan overview scorecards for plan usage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/plan-overview-scorecards.md).
 
 5.  To complete pending documentation sections, identify teams and individuals for the unassigned recovery teams.
 

@@ -2,7 +2,7 @@
 title: Domain separation and AI Agent Advisor
 description: Domain separation is not supported for AI Agent Advisor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/domain-separation-ai-agent-advisor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/domain-separation-ai-agent-advisor.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-17"
@@ -24,7 +24,7 @@ Domain separation allows you to separate data, processes, and administrative tas
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[AI Agent Advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-reference.md)
+**Parent Topic:**[AI Agent Advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-advisor-reference.md)
 
 **Related topics**  
 

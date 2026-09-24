@@ -2,7 +2,7 @@
 title: Customer 360 page for Agentic Contact Center for Insurance
 description: The Customer 360 page gives policy servicing and claims servicing CSRs a consolidated view of a customer's profile, policies, coverage, and AI-generated summary, drawn from core insurance and CRM. The view is based on the scope of the respective roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/customer-360-insurance-agentic-contact-centre.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/customer-360-insurance-agentic-contact-centre.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-26"
@@ -53,7 +53,7 @@ The following table shows the available actions in the Customer 360 page.
 
 |Name|Description|
 |----|-----------|
-|Ask Otto|Opens the ServiceNow Otto panel and initiates the Insurance CSR customer insights AI agent. The AI agent uses the customer's profile and policy data to surface contextual responses. For more information, see [Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/generate-insurance-customer-insights-customer-360.md).|
+|Ask Otto|Opens the ServiceNow Otto panel and initiates the Insurance CSR customer insights AI agent. The AI agent uses the customer's profile and policy data to surface contextual responses. For more information, see [Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/generate-insurance-customer-insights-customer-360.md).|
 |Create case|Opens the Create case window to create a case for the customer.|
 
 **Related topics**  

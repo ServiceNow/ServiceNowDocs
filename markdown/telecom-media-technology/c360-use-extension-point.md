@@ -2,7 +2,7 @@
 title: Extension points in Telecommunications Customer 360
 description: Use scripted extension points to configure the display of the cards on the Telecommunications Customer 360 consumer page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-use-extension-point.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-use-extension-point.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-26"
@@ -29,16 +29,16 @@ To access the available extension points, type `sys_extension_point.list` in the
 |sn\_telecom\_ra.UseCaseGuidanceNAPConfig|Configure behavior for use case guidances that trigger agentic workflows. Implement `canInteractWithUser` to control whether the agent can interact with the human agent in the panel. Implement `forceNewConversation` to control whether a new conversation is created. Implement `getWindowConfigOverrides` to provide window configuration overrides for the panel.|
 |sn\_telecom\_c360.VoiceInteractionDataProvider|Control the behavior of the Customer 360 record page when opened as a sub page from a voice interaction. Implement the provided methods to customize the consumer lookup alternate flow and to control which cards or layout columns are hidden.|
 
-**Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure.md)
+**Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure.md)
 
 **Related topics**  
 
 
-[bundle-crapiref.extension-points]
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
 
-[bundle-crapiref.scripted-extension-points]
+[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-extension-points.md)
 
-[bundle-crapiref.ui-extension-points]
+[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)
 
-[bundle-crapiref.client-extension-points]
+[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/client-extension-points.md)
 

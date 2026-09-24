@@ -2,11 +2,11 @@
 title: Combined ServiceNow Otto for Strategic Portfolio Management release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for Strategic Portfolio Management from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforstrategicportfoliomanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicenowottoforstrategicportfoliomanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
 
@@ -92,15 +92,67 @@ Generate measurable targets from goals information and optional context with the
     -   Receive proactive, AI-based notifications when project milestones or critical tasks could lead to delays using Monitor project task agent. Use the Enable critical task alerts option from planning page to enable the project task monitor AI agent.
     -   Choose the recipients to whom you want to send the project insights email.
 
+ -   **[New third-party AI model provider options available for Now Assist](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
+
+Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
+
+
+ -   **[Write planning item skill](https://www.servicenow.com/docs/access?context=using-now-assist-for-spm&family=yokohama&ft:locale=en-US)**
+    -   Use this skill to improve record quality and user satisfaction by enabling AI assistance in the Description field across all Strategic Planning Workspace forms, including product idea, demand, epic, project, capability, feature, and story.
+    -   Enable text refinement with the **Elaborate** and **Shorten** options on planning items to support product managers and agile team members in creating and editing content more effectively.
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key bundle-itbm.refine-text-with-write-planning-item-skill\]](https://www.servicenow.com/docs/access?context=refine-text-with-write-planning-item-skill&family=zurich&ft:locale=en-US)**
+-   **[Schedule project insights email](https://www.servicenow.com/docs/access?context=email-project-summary-skill-pw&family=zurich&ft:locale=en-US)**
+    -   Schedule project insights email in the Configure project insights modal. The project email is emailed to the project managers and users and continues on the selected schedule that you select until the project is inactive or paused.
+    -   Schedule and instantly send the project insights email to your project managers by selecting the **Send preview** button.
+    -   Track important updates such as the delayed end dates, the status turning red, or the state updates of your projects and receive project insights email on the schedule that you select.
+    -   Select the email frequency that works for you: weekly, bi-weekly or monthly.
+    -   Monitor critical elements such as milestones, resources, projects, and project tasks.
+    -   Receive proactive, AI-based notifications when project milestones or critical tasks could lead to delays using Monitor project task agent. Use the Enable critical task alerts option from planning page to enable the project task monitor AI agent.
+    -   Choose the recipients to whom you want to send the project insights email.
+-   **[Identify similar records using Now Assist](https://www.servicenow.com/docs/access?context=identify-similar-demand-records&family=zurich&ft:locale=en-US)**
+
+Detect similar existing demand records when creating or editing a demand using the identify similar records skill. The skill compares the **Name**, **Description**, and **Business Case** fields for contextual similarity.
+
+-   **[Accelerate target creation with the target generation skill](https://www.servicenow.com/docs/access?context=generate-targets-for-goal&family=zurich&ft:locale=en-US)**
+
+Generate measurable targets from goals information and optional context with the target generation skill. The skill automatically populates key fields in the target creation form, helping teams define clear, measurable outcomes and create targets quickly.
+
+-   **[Generate acceptance criteria for stories](https://www.servicenow.com/docs/access?context=eap-generate-acceptance-criteria-for-stories&family=zurich&ft:locale=en-US)**
+
+Generate clear, consistent acceptance criteria for user stories with the acceptance criteria generation skill. By leveraging story context and predefined templates, the skill helps you align with requirements.
+
+-   **[Enhancements to Story generation](https://www.servicenow.com/docs/access?context=generate-stories-from-epics-now-assist-eap&family=zurich&ft:locale=en-US)**
+
+Use the upgraded agile story generation skill to convert epics into actionable user stories quickly. Powered by an agentic workflow, the skill analyzes epic details to recommend the optimal number of stories, enables adjustments, refines story content, and creates story records.
+
+
+ -   **[\[Placeholder link text to key bundle-itbm.refine-text-with-write-planning-item-skill\]](https://www.servicenow.com/docs/access?context=refine-text-with-write-planning-item-skill&family=zurich&ft:locale=en-US)**
 
 Simplify record creation and updates by using the refine records skill with Now Assist context menu. Improve record quality by enabling AI-assisted text refinement in the text fields of Product idea, Demand, Epic, Projects, Capability, Feature, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
+
+
+ -   **[Configure ACLs for custom roles](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
+
+Update the ACLs for custom roles that require access to Now Assist skills.
+
+-   **[Generate and improve Docs content](https://www.servicenow.com/docs/access?context=generate-summarize-and-refine-content-of-docs-with-now-assist-spm&family=zurich&ft:locale=en-US)**
+
+Help improve your content and productivity with the ability to enter custom prompts directly in the Docs, alongside the Summarize, Elaborate, and Shorten options.
+
+Generate content with ServiceNow Otto for SPM directly in your Docs. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+
+You can interact with Now Assist directly in your Doc to create content, add context, or improve existing sections.
+
+
+ -   **[New third-party AI model provider options available for Now Assist](https://www.servicenow.com/docs/access?context=ai-model-providers&family=zurich&ft:locale=en-US)**
+
+Google Gemini 2.0 Flash, Google Gemini 2.5 Pro, and AWS Claude 3.7 Sonnet are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI GPT-4.1 and GPT-4.1 mini.
 
 
 </td></tr><tr><td>
@@ -133,7 +185,22 @@ Yokohama
 
 </td><td>
 
--   **[More actions context menu UI enhancements](https://www.servicenow.com/docs/access?context=email-project-summary-skill-pw&family=yokohama&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+ -   **[More actions context menu UI enhancements](https://www.servicenow.com/docs/access?context=email-project-summary-skill-pw&family=yokohama&ft:locale=en-US)**
     -   Email project summary option has been renamed to Configure project insights.
     -   Enable critical task alerts option has been added.
     -   Disable critical task alerts option has been added.
@@ -153,6 +220,24 @@ The email project summary skill has been renamed to the project insights generat
     -   The **Identify similar demands** button has been added to the demand form to identify and view any similar demands with the identify similar demands skill.
     -   The Similar Demands related list has been added, which displays the list of similar demand records identified by Now Assist.
 
+ -   **[Skill name updates](https://www.servicenow.com/docs/access?context=now-assist-spm&family=yokohama&ft:locale=en-US)**
+    -   Renamed the Project Gen AI Docs skill to the Project doc summarization \(Project Workspace\) skill.
+    -   Renamed the Planning item Gen AI Docs skill to the Planning item doc summarization \(Strategic Planning\) skill.
+    -   Renamed the EAP Teams Gen AI Docs skill to the EAP doc summarization \(Enterprise Agile Planning\) skill.
+    -   Renamed the Story generation skill to Agile story generation \(Enterprise Agile Planning\).
+    -   Added the Write planning items skill in Strategic Planning.
+-   **[Animation support for Now assist buttons and icons](https://www.servicenow.com/docs/access?context=now-assist-spm&family=yokohama&ft:locale=en-US)**
+    -   Added hover animation in the Now Assist \(\[Omitted image "image.summarize-na-button"\] Alt text: summarize-button.\) icon for the **Summarize** button on the feedback list and Docs.
+    -   Added the Now Assist \(\[Omitted image "image.email-project-summary-na-button"\] Alt text: email-project-summary-button.\) icon in the Email project summary button.
+    -   Added hover animation in the Now Assist \(\[Omitted image "image.summarize-docs-page-button"\] Alt text: summarize-button-on-docs-page.\) icon for the Now Assist button in the Docs page.
+
+ -   **[UI enhancements](https://www.servicenow.com/docs/access?context=now-assist-spm&family=yokohama&ft:locale=en-US)**
+
+The following UI enhancements were made:
+
+    -   Added hover animation for the Now Assist \(\[Omitted image "image.now-assist-icon-spm"\] Alt text: now-assist-icon.\) icon.
+    -   Added a loader for the Now Assist side panel for a more engaging loading experience.
+
 </td></tr><tr><td>
 
 Zurich
@@ -163,6 +248,46 @@ Zurich
 
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
+
+ -   **[More actions context menu UI enhancements](https://www.servicenow.com/docs/access?context=email-project-summary-skill-pw&family=zurich&ft:locale=en-US)**
+    -   Email project summary option has been renamed to Configure project insights.
+    -   Enable critical task alerts option has been added.
+    -   Disable critical task alerts option has been added.
+-   **[Configure project insights modal UI enhancements](https://www.servicenow.com/docs/access?context=email-project-summary-skill-pw&family=zurich&ft:locale=en-US)**
+    -   Email project summary modal has been renamed to Configure project insights modal.
+    -   **Disable email summary** check box has been renamed to **Pause cadence** check box.
+    -   Choose topics, personalize content, and set frequency setup have been added.
+    -   **Project tasks**, **Milestones**, and **Resources** check boxes have been added.
+    -   **Include critical path task changes** check box has been removed.
+    -   **Schedule and send** button has been renamed to **Schedule** button.
+    -   **Send preview** button has been added to send an email instantly.
+-   **[Skill name updates](https://www.servicenow.com/docs/access?context=email-project-summary-skill-pw&family=zurich&ft:locale=en-US)**
+
+The email project summary skill has been renamed to the project insights generation skill.
+
+-   **[Demand Management UI changes](https://www.servicenow.com/docs/access?context=identify-similar-demand-records&family=zurich&ft:locale=en-US)**
+    -   The **Identify similar demands** button has been added to the demand form to identify and view any similar demands with the identify similar demands skill.
+    -   The Similar Demands related list has been added, which displays the list of similar demand records identified by Now Assist.
+
+ -   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+
+The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
+
+    -   New customers: When you install an AI product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
+
+ -   **[ppm.ai\_project\_manager\_agent user role](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
+
+The agentic workflow, agents, and scheduled jobs are configured to run under the new ppm.ai\_project\_manager\_agent user role instead of the administrator account.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Email project summary modal UI changes](https://www.servicenow.com/docs/access?context=configure-agents-project-task-monitoring&family=zurich&ft:locale=en-US)**
+    -   The **Enable AI Agents to monitor task changes on the critical path** check box has been added.
+    -   The **Users** option has been added under Recipients to add recipients or users for the project summary email.
 
 </td></tr><tr><td>
 
@@ -511,5 +636,5 @@ Australia
  See [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

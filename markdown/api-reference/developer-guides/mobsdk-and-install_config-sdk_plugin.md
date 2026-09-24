@@ -2,7 +2,7 @@
 title: Install and configure the Mobile SDK scoped application
 description: Before writing any application that leverages the Mobile SDK, you must install and configure the Mobile SDK scoped application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-install\_config-sdk\_plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-and-install\_config-sdk\_plugin.html
 release: australia
 product: Developer Guides
 classification: developer-guides

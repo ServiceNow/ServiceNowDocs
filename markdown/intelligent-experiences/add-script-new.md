@@ -2,7 +2,7 @@
 title: Add a script tool to an AI agent
 description: Add a script tool to an AI agent to enable it to execute custom scripts to perform specialized tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-script-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-script-new.html
 release: australia
 topic_type: task
 last_updated: "2026-06-05"

@@ -2,7 +2,7 @@
 title: Chat summarization in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Use the chat summarization feature in ServiceNow Otto for Public Sector Digital Services \(PSDS\) to automatically generate summaries of chat conversations in Virtual Agent. The chat summary enables an agent to quickly gain an understanding of the interaction without reading the entire transcript. This saves your requester from having to repeat information they provided to the Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-exploring-chat-sum.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-exploring-chat-sum.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

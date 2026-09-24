@@ -2,7 +2,7 @@
 title: Associate feedback with a product idea
 description: Link a feedback record with one or multiple product ideas that can be planned, prioritized, and executed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/associate-feedback-with-product-idea.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/product-feedback/associate-feedback-with-product-idea.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -26,7 +26,7 @@ Role required: pf\_user
 
 2.  Select **Feedback**.
 
-3.  Select **Feedback** and then [Create feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-feedback-in-sp.md).
+3.  Select **Feedback** and then [Create feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/create-feedback-in-sp.md).
 
 4.  Once the feedback is created, select **Link Product idea** to link the product idea.
 
@@ -38,7 +38,7 @@ Role required: pf\_user
 **Related topics**  
 
 
-[Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-planning-item.md)
+[Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/associate-feedback-with-planning-item.md)
 
-[Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
+[Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
 

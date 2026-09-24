@@ -2,7 +2,7 @@
 title: CSDM implementation stage — Run
 description: In the Run stage, you set up the relationship between a technology and the business that sells and consumes the technology.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-implement-run-stage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/csdm-implement-run-stage.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -34,7 +34,7 @@ When you use ITSM, you must understand the impact that a technology can have on 
 
 \[Omitted image "implementation-stage-run.png"\] Alt text: Tables that you work on during the Run stage.
 
-**Note:** Some of the classes that you implement in this stage are logical CIs. Logical CIs aren’t created through Discovery, so their **Model ID** values might not refer to product model \(application model, service model, or software model\) records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
+**Note:** Some of the classes that you implement in this stage are logical CIs. Logical CIs aren’t created through Discovery, so their **Model ID** values might not refer to product model \(application model, service model, or software model\) records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
 
 -   **Business service portfolio \[service\_portfolio\] table**
 
@@ -58,8 +58,8 @@ When you use ITSM, you must understand the impact that a technology can have on 
 
 -   **Request catalog**
 
-    A catalog \(sometimes called a request catalog, service catalog, or service request catalog\) is a set of business and technical products, services, service commitment options, and offerings that users can order on a self-service basis. You can manage a catalog to present your available products and services to users as catalog items. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
+    A catalog \(sometimes called a request catalog, service catalog, or service request catalog\) is a set of business and technical products, services, service commitment options, and offerings that users can order on a self-service basis. You can manage a catalog to present your available products and services to users as catalog items. Catalogs are described in detail in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog.md).
 
 
-**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
+**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
 

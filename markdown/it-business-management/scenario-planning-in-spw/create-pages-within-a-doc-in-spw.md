@@ -2,7 +2,7 @@
 title: Create and manage pages and subpages for planning items
 description: Flexibly organize information for your planning items by creating, duplicating, and deleting pages and subpages in Strategic Planning Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-pages-within-a-doc-in-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/create-pages-within-a-doc-in-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

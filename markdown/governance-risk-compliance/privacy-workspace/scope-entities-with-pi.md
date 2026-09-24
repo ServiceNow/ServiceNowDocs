@@ -2,7 +2,7 @@
 title: Scope entities to discover processing activities with personal information
 description: Determine which entities have and process personal information using the ServiceNow Configuration Management Database \(CMDB\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -26,7 +26,7 @@ Role required: sn\_privacy.manager
 
 In the Configuration Management Database \(CMDB\), you can search the database for entities that process personal data using one of the following methods:
 
--   Using the predefined queries and selecting only those applications and processes that have associated information objects. For more information about information objects and their role in Privacy Management, see [Information objects in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/information-object-in-privacy.md). For information on how to scope entities with personal information, see [Scope entities to discover processing activities with personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.md)
+-   Using the predefined queries and selecting only those applications and processes that have associated information objects. For more information about information objects and their role in Privacy Management, see [Information objects in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/information-object-in-privacy.md). For information on how to scope entities with personal information, see [Scope entities to discover processing activities with personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.md)
 -   Building your own query. For more information on building the CMDB queries, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/querying-cmdb.md)
 
 To filter entities that contain personal data, you must filter the entities using the appropriate queries. ServiceNow® provides two default queries for you to use to filter entities with personal data. The default queries are provided for the following tables:
@@ -63,5 +63,5 @@ You can also create your own queries. This procedure demonstrates using the defa
 
 \[Omitted image "entity-filters-io.png"\] Alt text: Predefined queries with associated information objects.
 
-**Parent Topic:**[Entity scoping to plan a privacy program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/entity-scoping-in-privacy-mgmt.md)
+**Parent Topic:**[Entity scoping to plan a privacy program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/entity-scoping-in-privacy-mgmt.md)
 

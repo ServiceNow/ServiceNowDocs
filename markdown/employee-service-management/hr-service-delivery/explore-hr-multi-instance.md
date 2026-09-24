@@ -2,7 +2,7 @@
 title: Explore HR Multi Instance Integration
 description: Learn about the benefits and key offerings of the HR Multi Instance Integration application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/explore-hr-multi-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/explore-hr-multi-instance.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -34,7 +34,7 @@ Partners and service providers for HR service fulfillment often are running thei
 **Note:** HR Multi Instance Integration is dependent on the following plugins:
 
 -   [Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
--   [Human Resources Scoped App: Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
+-   [Human Resources Scoped App: Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
 
 ## HR Multi Instance Integration users
 
@@ -160,7 +160,7 @@ Consumer employee
 
 To learn more about configuring and using HR Multi Instance Integration, see:
 
--   [Configuring HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-hr-mii-bs.md)
--   [Using HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-mii.md)
--   [Reference for HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-hr-multi-instance.md)
+-   [Configuring HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-hr-mii-bs.md)
+-   [Using HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-mii.md)
+-   [Reference for HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-hr-multi-instance.md)
 

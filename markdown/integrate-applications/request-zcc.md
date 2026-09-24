@@ -2,7 +2,7 @@
 title: Request Zero Copy Connectors
 description: Create zero copy connections and data fabric tables after requesting the Zero Copy Connectors app through the Now Support Service Catalog. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:If it isn't already installed, the app installs the Zero Copy Connector Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/request-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/request-zcc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -76,5 +76,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Configuring Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-zcc.md)
+**Parent Topic:**[Configuring Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configuring-zcc.md)
 

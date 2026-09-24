@@ -2,7 +2,7 @@
 title: Management view
 description: Use the Inventory management view in the Telecommunications Network Inventory Workspace to get a detailed view of your network inventory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/inventory-management-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/inventory-management-view.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -113,7 +113,7 @@ Port availability
 Number of available ports across the equipment models.
 
 </td></tr></tbody>
-</table>**Note:** To learn more about how the count data is collected and refreshed in the workspace landing page, see [Data collection and refresh for the Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-collection-niw-widgets.md). To learn how to customize the content that appears in each widget, see [Customizing the content in your Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customizing-content-in-your-network-inventory-workspace-widgets.md).
+</table>**Note:** To learn more about how the count data is collected and refreshed in the workspace landing page, see [Data collection and refresh for the Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/data-collection-niw-widgets.md). To learn how to customize the content that appears in each widget, see [Customizing the content in your Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/customizing-content-in-your-network-inventory-workspace-widgets.md).
 
 ## Inventory list tab
 
@@ -138,5 +138,5 @@ You can perform the following actions in the **Inventory list** tab.
 
 To open the Inventory management view, select the database search icon \(\[Omitted image "icon-database-search.png"\] Alt text: Database Search Icon\) on the side panel.
 
-**Parent Topic:**[Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-network-inventory-workspace.md)
+**Parent Topic:**[Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/exploring-network-inventory-workspace.md)
 

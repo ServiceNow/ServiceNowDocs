@@ -2,7 +2,7 @@
 title: Use prompt assistance
 description: Use prompt assistance to get a jump start with your prompt development by selecting an example from the prompt library or using ServiceNow Otto to generate one.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/use-prompt-assistance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/use-prompt-assistance.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -37,7 +37,7 @@ Role required: sn\_skill\_builder.admin
     \[Omitted image "nask-pa-ai.png"\] Alt text: Prompt assistance AI generated panel
 
 
-**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

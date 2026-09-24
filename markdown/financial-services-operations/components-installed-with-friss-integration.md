@@ -2,7 +2,7 @@
 title: Components installed with Financial Services Operations Integration with FRISS
 description: Several types of components are installed with activation of the Financial Services Operations Integration with FRISS \(com.sn\_fso\_intg\_friss\) plugin, including tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/components-installed-with-friss-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/components-installed-with-friss-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ The ServiceNow Integration Hub Starter Pack Installer \[com.glide.hub.integratio
 |Plugin|Description|
 |------|-----------|
 |FRISS Spoke \(com.sn\_friss\_spoke\)|Provides a list of the actions to solve the fraudulent activity in the insurance industry. The actions include reducing the number of false reporting of claims, increasing the number of avoided claims, and processing the genuine claims immediately.|
-|Financial Services Operations Core \(sn\_bom\)|Stores the customer data that is needed to make claim requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md).|
+|Financial Services Operations Core \(sn\_bom\)|Stores the customer data that is needed to make claim requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-core-data-model.md).|
 
 ## Tables installed
 
@@ -75,5 +75,5 @@ Claim Fraud Indicator\[sn\_fso\_intg\_friss\_indicator\]
 Stores details on the indicators that contribute to the fraud score.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-friss-overview.md)
+</table>**Parent Topic:**[Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integration-with-friss-overview.md)
 

@@ -2,7 +2,7 @@
 title: Modify supporting documents in third-party contract request
 description: As a legal fulfiller, add, remove, or reclassify supporting documents submitted in a third-party contract review request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-tpc-mod-supporting-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-tpc-mod-supporting-doc.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -36,15 +36,15 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 
 6.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d391814e118">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d391818e118">
 
 Action
 
-</th><th align="left" id="d391814e121">
+</th><th align="left" id="d391818e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d391814e127">
+</th></tr></thead><tbody><tr><td id="d391818e127">
 
 **Add supporting documents**
 
@@ -77,15 +77,15 @@ This option is available only when external storage is enabled. The **External s
 3.  \(Optional\) Add more information about the document in the **Work notes** field.
 
 
-</td></tr><tr><td id="d391814e279">
+</td></tr><tr><td id="d391818e279">
 
 **Reclassify supporting documents**
 
 </td><td>
 
-[Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)
+[Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)
 
-</td></tr><tr><td id="d391814e293">
+</td></tr><tr><td id="d391818e293">
 
 **Remove the supporting document**
 
@@ -100,5 +100,5 @@ This option is available only when external storage is enabled. The **External s
 </table>7.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Work on a third-party contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-work-tpc-review-request.md)
+**Parent Topic:**[Work on a third-party contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-work-tpc-review-request.md)
 

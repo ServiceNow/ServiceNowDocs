@@ -2,7 +2,7 @@
 title: SSH step
 description: The SSH step executes SSH commands on an external \*nix system through a ServiceNow MID Server. The step also stores scripts and commands for the \*nix systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/ssh-step-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/ssh-step-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -27,7 +27,7 @@ The SSH step is available as an Workflow Studio action step. Users with the acti
 
 ## Sanitizing inputs
 
-Escape all user inputs to eliminate the possibility of a malicious user executing arbitrary commands on your target server. Escape and validate data pills before the command field uses them by sanitizing arguments using [Sanitize shell arguments transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/sanitize-shell-arguments-transform-functions.md). This transform function category automatically appears when a data pill is dropped into the **Command** input.
+Escape all user inputs to eliminate the possibility of a malicious user executing arbitrary commands on your target server. Escape and validate data pills before the command field uses them by sanitizing arguments using [Sanitize shell arguments transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/sanitize-shell-arguments-transform-functions.md). This transform function category automatically appears when a data pill is dropped into the **Command** input.
 
 ## Fields
 
@@ -151,7 +151,7 @@ Command
 
 </td><td>
 
-Command that runs on the target directory. The command can also include MID Server scripts. See [Advanced SSH script options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ssh-step-action-designer.md) for more information.**Note:** Escape and validate data pills before the command field uses them by sanitizing arguments using a preprocessing [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md). For more information, see [Sanitizing arguments using the escape class and function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/jdbc-step.md).
+Command that runs on the target directory. The command can also include MID Server scripts. See [Advanced SSH script options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/ssh-step-action-designer.md) for more information.**Note:** Escape and validate data pills before the command field uses them by sanitizing arguments using a preprocessing [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/javascript-step-action-designer.md). For more information, see [Sanitizing arguments using the escape class and function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/jdbc-step.md).
 
 </td></tr><tr><td>
 
@@ -178,7 +178,7 @@ Option to elevate privileges to execute the script.
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## Advanced SSH script options
@@ -216,5 +216,5 @@ rm ~/specialFunctions.py
 
 To see the list of available MID Server scripts, navigate to **MID Server** &gt; **Script Files**.
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)
 

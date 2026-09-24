@@ -2,7 +2,7 @@
 title: Enable attribute-based resource assignments
 description: Enable the property to work on attribute-based resource assignments to request efforts for your planning items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/enable-resource-assignments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/enable-resource-assignments.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -40,5 +40,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
+**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
 

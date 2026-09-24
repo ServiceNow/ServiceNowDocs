@@ -2,7 +2,7 @@
 title: Integrating ServiceNow Voice with Virtual Agent
 description: ServiceNow Voice with Virtual Agent allows you to use the ServiceNow Virtual Agent conversation as an IVR \(Interactive Voice Response\) in phone and to use the existing ServiceNow Advanced Work Assignment to find an agent in case of an escalation and allows agents to work in ServiceNow Workspace to manage the incoming cases on the queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/integrate-voice-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/integrate-voice-va.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -55,7 +55,7 @@ The following example workflow shows the use of ServiceNow Voice for Virtual Age
     **Note:** This step in the flow applies only when the caller is an existing customer.
 
 
-**Parent Topic:**[Integrating Voice with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-ccc-other-apps.md)
+**Parent Topic:**[Integrating Voice with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integrate-ccc-other-apps.md)
 
 **Related topics**  
 

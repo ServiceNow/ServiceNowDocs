@@ -2,7 +2,7 @@
 title: Sales promotion campaign use case
 description: Use case scenarios demonstrate when and how to use the Sales Promotion application to create and manage a promotion campaign. This example shows how to streamline promotion setup, claim processing, and dealer visibility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-sales-promotion-campaign-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-sales-promotion-campaign-use-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-24"
@@ -33,7 +33,7 @@ Create and manage the promotion using the Sales Promotion application through fo
 3.  Target: Select eligible products \(2024 Epsilon EV\) and dealer regions \(North America dealerships\).
 4.  Publish and Monitor: Publish campaign to dealers via portal and track claims and approvals in real-time.
 
-The [Sales promotion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sales-promotion.md) workspace provides real-time visibility into active promotions, claims, and approval status.
+The [Sales promotion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-sales-promotion.md) workspace provides real-time visibility into active promotions, claims, and approval status.
 
 ## Benefits
 

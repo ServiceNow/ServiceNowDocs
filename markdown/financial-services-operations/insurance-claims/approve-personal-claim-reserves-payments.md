@@ -2,7 +2,7 @@
 title: Approve a reserve or payment amount
 description: A claims manager can approve claim reserve and payment amounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/approve-personal-claim-reserves-payments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/approve-personal-claim-reserves-payments.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

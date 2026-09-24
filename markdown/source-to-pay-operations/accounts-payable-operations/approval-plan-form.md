@@ -2,7 +2,7 @@
 title: Approval Plan form
 description: Field descriptions for the Approval Plan form used to review and configure invoice approval plans, including routing methods, decision methods, and approval statuses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/approval-plan-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/approval-plan-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -32,7 +32,7 @@ Field descriptions for the Approval Plan form used to review and configure invoi
 |Approver group list|List of groups containing the users responsible for approving the plan.|
 |Short description|Short description of the approval plan in the following format: Invoice approval required for &lt;supplier name&gt;.|
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

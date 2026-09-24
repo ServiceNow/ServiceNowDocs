@@ -2,7 +2,7 @@
 title: Incident communication plan state model
 description: Incident communication plan state model helps you to understand the different states through which a plan can progress and track the plan through its states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/incident-comm-plan-new-state-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/incident-comm-plan-new-state-model.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -31,5 +31,5 @@ The following two properties are responsible for different actions that take pla
 
 **Note:** The **Close open Incident Communication Plans when Incident is closed or canceled** and **Close open Incident Communication Tasks when an Incident Communication Plan is closed or canceled** property is visible when you activate the Incident Communications Management plugin \(com.snc.iam\). This property is set to false for both new and existing customers.
 
-For more information on the old Incident Communications Plan state model, see [Incident communication plan state model \(old\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/r_IncidentAlertLifeCycle.md).
+For more information on the old Incident Communications Plan state model, see [Incident communication plan state model \(old\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/r_IncidentAlertLifeCycle.md).
 

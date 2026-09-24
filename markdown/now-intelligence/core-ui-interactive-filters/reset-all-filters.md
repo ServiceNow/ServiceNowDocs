@@ -2,7 +2,7 @@
 title: Reset all interactive filters on a dashboard tab
 description: Reset all applied filters on a dashboard tab to view the default value or the unfiltered data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/reset-all-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/core-ui-interactive-filters/reset-all-filters.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
@@ -35,7 +35,7 @@ If there is a default value on a filter, resetting the filters returns that filt
 3.  Click the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text:\) and select **Reset Filters**.
 
 
-**Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
+**Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
 
 **Related topics**  
 

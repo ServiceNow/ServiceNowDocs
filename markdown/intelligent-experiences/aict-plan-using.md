@@ -2,7 +2,7 @@
 title: Planning and tracking AI work in AI Control Tower
 description: Use the Strategize, Prioritize, and Execute pages in the Plan menu of AI Control Tower to manage AI work from goal alignment through delivery tracking.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-using.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
@@ -19,12 +19,12 @@ AI Plan organizes portfolio work across three pages that reflect the natural pro
 
 |Page|Use when|Learn more|
 |----|--------|----------|
-|Strategize|You want to assess how AI systems align to organizational goals, review goal and target status, or identify strategic priorities that are off track.|[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-strategize.md)|
-|Prioritize|You want to review incoming AI demand, product ideas, or feedback, identify intake with no owner, or create intake records.|[Prioritizing AI plan in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-use-the-prioritize-tab.md)|
-|Execute|You want to track active AI projects and epics, view delivery status, or create projects and epics.|[Monitoring AI plan execution in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-execute.md)|
+|Strategize|You want to assess how AI systems align to organizational goals, review goal and target status, or identify strategic priorities that are off track.|[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-strategize.md)|
+|Prioritize|You want to review incoming AI demand, product ideas, or feedback, identify intake with no owner, or create intake records.|[Prioritizing AI plan in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-use-the-prioritize-tab.md)|
+|Execute|You want to track active AI projects and epics, view delivery status, or create projects and epics.|[Monitoring AI plan execution in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-execute.md)|
 
 **Related topics**  
 
 
-[AI Control Tower plan reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-reference.md)
+[AI Control Tower plan reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-reference.md)
 

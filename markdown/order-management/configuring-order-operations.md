@@ -2,7 +2,7 @@
 title: Configuring the order operations applications
 description: Learn how to configure the order operations applications to help sales and support teams to monitor the sales processes, and manage post-sale support and returns respectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-order-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-order-operations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,11 +20,11 @@ Installing and configuring the following applications involve installing the app
 
     Install and configure the Order Operations Case Management application customer service agents to create cases for multiple customer orders or for specific products in an order.
 
-2.  [Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-cash-process-management.md)
+2.  [Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-lead-cash-process-management.md)
 
     Install the Lead-to-Cash Process Management application, and set up business object groups and relationships so that sales process managers can create and monitor sales process records.
 
-3.  [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-return-merchandise-authorization-plugin.md)
+3.  [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activate-return-merchandise-authorization-plugin.md)
 
     Activate the RMA Case Management plugin that enables your sales organization to manage and triage return cases for customer products and services, addressing returns, replacements, and repair use cases.
 
@@ -32,7 +32,7 @@ Installing and configuring the following applications involve installing the app
 **Related topics**  
 
 
-[Order operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-operations-landing.md)
+[Order operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-operations-landing.md)
 
-[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-operations.md)
+[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-operations.md)
 

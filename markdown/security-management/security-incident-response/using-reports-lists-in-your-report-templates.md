@@ -2,7 +2,7 @@
 title: Use Reports Lists in Report Templates
 description: Use report lists to define and include the related list artifacts to generate lists in the PDF based on your configured MSI list records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-reports-lists-in-your-report-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/using-reports-lists-in-your-report-templates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -42,10 +42,10 @@ Role required: sn\_msi.workspace\_manager
     |**Observables**|The related list of observables view in the status report.|
 
 
-**Parent Topic:**[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-report-template.md)
+**Parent Topic:**[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-report-template.md)
 
 **Related topics**  
 
 
-[Create a List Type Element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-list-type-element.md)
+[Create a List Type Element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-list-type-element.md)
 

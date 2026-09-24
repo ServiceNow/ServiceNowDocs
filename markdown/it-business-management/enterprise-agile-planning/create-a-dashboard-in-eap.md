@@ -2,7 +2,7 @@
 title: Create a dashboard in EAP
 description: Create a dashboard to track key metrics for your custom Agile configuration by creating a dashboard or duplicating and editing a default EAP dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-a-dashboard-in-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/create-a-dashboard-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -18,7 +18,7 @@ Create a dashboard to track key metrics for your custom Agile configuration by c
 
 ## Before you begin
 
-[Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-eap-configuration.md)
+[Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-eap-configuration.md)
 
 Role required: sn\_apw\_advanced.eap\_admin
 
@@ -37,12 +37,12 @@ Role required: sn\_apw\_advanced.eap\_admin
 
     For more information, see step 6 through 10 in [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md).
 
-    For information about the default indicators, see [Enterprise Agile Planning Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-indicators.md).
+    For information about the default indicators, see [Enterprise Agile Planning Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/eap-indicators.md).
 
 4.  Select **Save**.
 
 
 ## What to do next
 
-[Add a tag to the EAP dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/add-tag-to-the-eap-dashboard.md).
+[Add a tag to the EAP dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/add-tag-to-the-eap-dashboard.md).
 

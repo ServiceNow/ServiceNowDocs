@@ -2,7 +2,7 @@
 title: Work with the inquiry resolution provider agent
 description: Use the inquiry resolution provider agent to generate resolutions to invoice inquiry cases raised by suppliers and employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/apo-ai-agent-use-case-trigger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/apo-ai-agent-use-case-trigger.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -79,5 +79,5 @@ Enter the objective of the task as `Help me resolve invoice inquiry INVC0001001`
 **Related topics**  
 
 
-[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
+[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
 

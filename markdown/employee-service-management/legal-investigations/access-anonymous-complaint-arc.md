@@ -2,7 +2,7 @@
 title: Access your anonymous report from the Anonymous Report Center portal
 description: You can follow up on your anonymous report to view comments and updates from the legal fulfiller working on it or add comments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/access-anonymous-complaint-arc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-investigations/access-anonymous-complaint-arc.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -26,15 +26,15 @@ Role required: None
 
 1.  Open the Anonymous Report Center portal either via Employee Center portal or using a direct URL.
 
-<table id="choicetable_rlf_djt_h5b"><thead><tr><th align="left" id="d489457e72">
+<table id="choicetable_rlf_djt_h5b"><thead><tr><th align="left" id="d489461e72">
 
 Option
 
-</th><th align="left" id="d489457e75">
+</th><th align="left" id="d489461e75">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d489457e81">
+</th></tr></thead><tbody><tr><td id="d489461e81">
 
 **From Employee Center**
 
@@ -45,7 +45,7 @@ Steps
 3.  From **Ethics and Compliance** category, select **Anonymous Ethics Complaint**.
 
 
-</td></tr><tr><td id="d489457e132">
+</td></tr><tr><td id="d489461e132">
 
 **Using direct URL that does not require a log in**
 
@@ -53,7 +53,7 @@ Steps
 
 Navigate to the Anonymous Report Center by accessing your instance URL and adding a /arc suffix. For example, https://example.com/arc
 
-</td></tr><tr><td id="d489457e141">
+</td></tr><tr><td id="d489461e141">
 
 **From Legal Service Portal**
 
@@ -88,5 +88,5 @@ Navigate to the Anonymous Report Center by accessing your instance URL and addin
     The report is displayed in the Standard Ticket Page.
 
 
-**Parent Topic:**[Submit a complaint through the Anonymous Report Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/submit-complaint-arc.md)
+**Parent Topic:**[Submit a complaint through the Anonymous Report Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/submit-complaint-arc.md)
 

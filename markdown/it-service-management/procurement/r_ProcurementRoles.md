@@ -2,7 +2,7 @@
 title: Procurement roles
 description: The Procurement application uses the following roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/r\_ProcurementRoles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/procurement/r\_ProcurementRoles.html
 release: australia
 product: Procurement
 classification: procurement
@@ -53,7 +53,7 @@ financial\_mgmt\_user, model\_manager
 Can create purchase orders without a request. Can view requests and requested items. Can view transfer orders. Can create a purchase order or transfer order when sourcing items for a request. Can view the vendor catalog. Can view and refresh gauges in the Procurement Overview module.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
+</table>**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/procurement/c_Procurement.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Calculate software licenses using the legacy Software Asset Management plugin
 description: Software calculations use license calculation types to determine how software licenses are counted in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/r\_CalculateSoftwareLicenses.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/r\_CalculateSoftwareLicenses.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -22,7 +22,7 @@ You can use the default license types provided by the legacy Software Asset Mana
 |-----|-----------|
 |Name|The name of the license type.|
 |Query table|The table that is being used for data. Possible values are Software install and Software usage.|
-|Count by|The calculation type by which the [license calculation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/r_LicenseCalculationTypes.md) counts software licenses.|
+|Count by|The calculation type by which the [license calculation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/r_LicenseCalculationTypes.md) counts software licenses.|
 
-**Parent Topic:**[License calculations with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UseLicenseCalculations.md)
+**Parent Topic:**[License calculations with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_UseLicenseCalculations.md)
 

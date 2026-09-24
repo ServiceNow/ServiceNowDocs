@@ -2,7 +2,7 @@
 title: Application services with Oracle GlassFish Servers
 description: Service Mapping can discover application services containing Oracle GlassFish Servers.Map an service instance containing an Oracle GlassFish Server correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/mapping-services-glassfish.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/mapping-services-glassfish.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -44,7 +44,7 @@ Pattern \(or probe if indicated\)
 
 </th></tr></thead><tbody><tr id="glassfish-supported-app"><td>
 
-[Oracle GlassFish Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/mapping-services-glassfish.md)
+[Oracle GlassFish Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/mapping-services-glassfish.md)
 
 </td><td>
 
@@ -103,7 +103,7 @@ Horizontal and top-down
 GlassFish WAR
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
+</table>**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 
 ## Map application services containing Oracle GlassFish Servers
 

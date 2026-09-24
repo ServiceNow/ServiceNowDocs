@@ -2,7 +2,7 @@
 title: Install Quote Self-Service
 description: Quote Self-Service is automatically installed when you install the Quote Management application. If you install a different application, you must add the Quote Self-Service as a plugin dependency before installation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-self-service-quote\_generic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-self-service-quote\_generic.html
 release: australia
 topic_type: task
 last_updated: "2026-05-25"

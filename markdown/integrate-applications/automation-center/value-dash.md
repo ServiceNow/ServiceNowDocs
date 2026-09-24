@@ -2,7 +2,7 @@
 title: Automation Center Value dashboard
 description: The Automation Center Value dashboard provides summary information about the states of goals and automations along with the actual and estimated cost and time saved for all active and future automations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/value-dash.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/value-dash.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -33,7 +33,7 @@ You can access the Value dashboard in either of two ways:
 
 The Goals chart displays the summary of automation goals categorized by their state along with the estimated cost saved per year.
 
-For information about automation goals, see [Create an automation goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-goal.md).
+For information about automation goals, see [Create an automation goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-automation-goal.md).
 
 By default, the Goals chart provides details of all automation goals with associated active automation requests for the day you’re viewing the data.
 
@@ -126,5 +126,5 @@ Use the **Intake source** and **Goal** filters to limit your results to a specif
 
 \[Omitted image "value-fut-auto.png"\] Alt text: Future automations
 
-**Parent Topic:**[Automation Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-workspace-ui.md)
+**Parent Topic:**[Automation Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-workspace-ui.md)
 

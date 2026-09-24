@@ -2,7 +2,7 @@
 title: Activate teamspaces
 description: You can activate one or all teamspace plugins to use the teamspaces feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ActivateTeamspaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_ActivateTeamspaces.html
 release: australia
 product: Project Management
 classification: project-management
@@ -45,7 +45,7 @@ You must activate a teamspace plugin to use the teamspace feature. Following tea
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_Teamspaces.md)
+**Parent Topic:**[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_Teamspaces.md)
 
 **Related topics**  
 

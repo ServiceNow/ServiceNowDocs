@@ -2,7 +2,7 @@
 title: Form Data Collector
 description: Learn about the Form Data Collector. This application is used to assist with populating case form fields during a customer's interaction with a Virtual Agent chatbot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/learn-about-the-form-data-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/learn-about-the-form-data-collector.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -93,5 +93,5 @@ The Form Data Collector in Disputes intake via Virtual Agent will bypass the fol
 -   Did you make this transaction while commuting?
 -   What best describes your billing issue?
 
-**Parent Topic:**[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)
+**Parent Topic:**[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)
 

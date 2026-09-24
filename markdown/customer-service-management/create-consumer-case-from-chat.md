@@ -2,7 +2,7 @@
 title: Create a consumer case from a chat
 description: If a consumer chat results in the need to open a case, create the case directly from the conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-consumer-case-from-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-consumer-case-from-chat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

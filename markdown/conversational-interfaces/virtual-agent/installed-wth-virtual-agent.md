@@ -2,7 +2,7 @@
 title: Installed with Virtual Agent
 description: Various types of components are installed with activation of the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/installed-wth-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/installed-wth-virtual-agent.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -113,11 +113,11 @@ With the Virtual Agent Administrator \[virtual\_agent\_admin\] role, users can c
 -   If the Virtual Agent admin is granted access to AI Search-related tables, the search application administrator role \[search\_application\_admin\] is included.
 -   If the Virtual Agent admin is granted access to Entity View Action Mapper tables, the EVAM admin role \[evam\_admin\] is included.
 -   For multilanguage support, the localization\_requestor role is included by default. For more information, see [Localization Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/roles-localization-framework.md) .
--   For more information on the roles contained in virtual\_agent\_admin, see [Virtual Agent roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/VA-roles.md).
+-   For more information on the roles contained in virtual\_agent\_admin, see [Virtual Agent roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/VA-roles.md).
 
 ## Users installed
 
-The Glide Conversation Server plugin \(com.glide.cs\) automatically installs a virtual agent user \(virtual.agent\) in the User \[sys\_user\] table. Ongoing [Virtual Agent interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md) are assigned to this virtual agent user. If you're using Advanced Work Assignment \(AWA\), interactions assigned to the virtual agent user are not routed by AWA. The virtual agent user is also used in the default web chat branding settings to associate a virtual agent user profile with a bot avatar.
+The Glide Conversation Server plugin \(com.glide.cs\) automatically installs a virtual agent user \(virtual.agent\) in the User \[sys\_user\] table. Ongoing [Virtual Agent interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-interactions.md) are assigned to this virtual agent user. If you're using Advanced Work Assignment \(AWA\), interactions assigned to the virtual agent user are not routed by AWA. The virtual agent user is also used in the default web chat branding settings to associate a virtual agent user profile with a bot avatar.
 
 ## Tables installed
 

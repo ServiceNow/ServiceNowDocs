@@ -2,7 +2,7 @@
 title: Install Discovery
 description: Configure Discovery to lay the groundwork for AIOps success by establishing a key foundation for your team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/install-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/install-discovery.html
 release: australia
 product: Event Management
 classification: event-management

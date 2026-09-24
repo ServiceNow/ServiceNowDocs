@@ -2,7 +2,7 @@
 title: Create a request through the facilities catalog
 description: Employees use the Facilities catalog to submit requests. The catalog provides several different categories so users can choose the one that closely relates to their request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateAReqThroughFacCatalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_CreateAReqThroughFacCatalog.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: none
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Facilities request creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_FacilitiesRequestCreation.md)
+**Parent Topic:**[Facilities request creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_FacilitiesRequestCreation.md)
 

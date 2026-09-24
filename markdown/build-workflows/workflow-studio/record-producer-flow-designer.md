@@ -2,7 +2,7 @@
 title: Record Producer action
 description: Create a Task record from a Record Producer Catalog Item \[sc\_cat\_item\]. The Task record inherits values from the catalog item's variable values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/record-producer-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/record-producer-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -98,7 +98,7 @@ Completion status of the action. The flow execution details page displays one of
 </td></tr></tbody>
 </table>## Error messages
 
-If an error occurs with this action, the following error messages appear in the [execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md) page.
+If an error occurs with this action, the following error messages appear in the [execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-details.md) page.
 
 |Error message|Description|
 |-------------|-----------|
@@ -110,12 +110,12 @@ Follow these design considerations when creating flows that contain Record Produ
 
 -   **Escape quotation marks from string data pills with the String Replace transform function**
 
-    Complex string variables are converted into JSON format when stored in the system. To prevent any JSON formatting errors, you can use a Replace String transform function to escape the quotation marks present in any string data pills you use for catalog variables. See [String transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/string-transform-functions.md).
+    Complex string variables are converted into JSON format when stored in the system. To prevent any JSON formatting errors, you can use a Replace String transform function to escape the quotation marks present in any string data pills you use for catalog variables. See [String transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/string-transform-functions.md).
 
 -   **Use transform functions to validate data pills**
 
-    Whenever you use a data pill to provide data for an action input, you can use a transform function to validate the data. See [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md) for a list of available transform functions.
+    Whenever you use a data pill to provide data for an action input, you can use a transform function to validate the data. See [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/transform-functions.md) for a list of available transform functions.
 
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

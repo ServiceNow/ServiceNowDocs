@@ -2,7 +2,7 @@
 title: Closing idle bot-to-bot conversations
 description: In bot-to-bot integrations \(Virtual Agent API\), abandoned conversations that are "idle" for more than an hour are automatically closed by the scheduled job, Time Out Abandoned B2B Conversations. This job runs hourly each day.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-b2b-open-conversation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-b2b-open-conversation.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -85,5 +85,5 @@ To change the time that this hourly scheduled job runs or to make other adjustme
     The job runs at the specified time and frequency.
 
 
-**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

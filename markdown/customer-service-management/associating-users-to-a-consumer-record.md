@@ -2,7 +2,7 @@
 title: Creating and associating a Unified Consumer user to a consumer record
 description: Create and associate a Unified Consumer user with a consumer record so that your user can access the Customer Service Portal \(CSP\). This process involves creating a Unified Consumer user through a consumer form and then associating the user to a consumer record.Create a Consumer User through the User lookup list on the consumer form.Associate a user with a consumer record in the Customer Service Management \(CSM\) application. After the association is done, you can access the Consumer Service Portal \(CSP\) as a consumer to search for information, create cases, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associating-users-to-a-consumer-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associating-users-to-a-consumer-record.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -49,7 +49,7 @@ You can create both the internal \(snc\_internal\) and external \(snc\_external\
 
 ### What to do next
 
-Associate an existing user with a consumer record. For more information, see [Associate an existing user with a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associating-users-to-a-consumer-record.md).
+Associate an existing user with a consumer record. For more information, see [Associate an existing user with a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associating-users-to-a-consumer-record.md).
 
 ## Associate an existing user with a consumer record
 

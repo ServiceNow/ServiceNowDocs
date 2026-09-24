@@ -2,7 +2,7 @@
 title: Create an archive rule in Data Management Console
 description: Define a rule for archiving records.Define one or more conditions that identify the records to be archived.Delete archived records after a specified amount of time by configuring optional destroy rule conditions.Archive, clear, or delete related records when an archive rule runs.View a summary of your archive rule and decide whether to activate it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dmc-create-archive-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dmc-create-archive-rule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,7 +64,7 @@ Steps
 
     2.  Enter a name and description for the rule.
 
-        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) for references to this rule.
+        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_DisplayValues.md) for references to this rule.
 
     3.  Select **Save and continue**.
 
@@ -181,7 +181,7 @@ Role required: admin
         For example, you create an archive rule on the Problem \[problem\] table. You can include related incident records by selecting the **Problem in Incident** field reference field on the Incident \[incident\] table.
 
         -   The **Archive** action archives any incident record that references an archived problem.
-        -   The **Clear** action updates any incident record with a reference to the archived problem record by clearing the reference. If the reference is a [many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md), the related record rule deletes the reference instead of clearing the reference.
+        -   The **Clear** action updates any incident record with a reference to the archived problem record by clearing the reference. If the reference is a [many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md), the related record rule deletes the reference instead of clearing the reference.
         -   The **Delete** action deletes any incident record that references the archived problem record.
     -   **Document ID fields**
 

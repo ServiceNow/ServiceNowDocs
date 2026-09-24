@@ -2,7 +2,7 @@
 title: Configure a merit review scoring rubric for a grants proposal
 description: Create a knowledge article containing information on how merit reviewers are to score the proposals, known as a rubric.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-create-rubric.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-create-rubric.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"
@@ -55,5 +55,5 @@ An ownership group reviews and approves the article. Once approved, it can be pu
 
 All knowledge articles are available for selection under both the Rubric section of the Merit Review activity, as well as the Article number section of the Resources and support activity, once the Knowledge article resource type is selected.
 
-**Parent Topic:**[Configure the Merit Review Scoring Framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-scoring-framework.md)
+**Parent Topic:**[Configure the Merit Review Scoring Framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-scoring-framework.md)
 

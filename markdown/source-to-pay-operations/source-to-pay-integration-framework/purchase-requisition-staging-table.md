@@ -2,7 +2,7 @@
 title: Purchase Requisition staging table
 description: The Purchase requisition \[sn\_spend\_intg\_purchase\_requisition\] staging table temporarily stores important data about purchase requests before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/purchase-requisition-staging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/purchase-requisition-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -52,7 +52,7 @@ The Purchase requisition \[sn\_spend\_intg\_purchase\_requisition\] staging tabl
 |Total estimated shipping|String|Estimated cost associated with the shipping of goods or services.|
 |Total estimated tax|String|Estimated amount of tax applicable to the goods or services requested in a Purchase Requisition \(PR\).|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

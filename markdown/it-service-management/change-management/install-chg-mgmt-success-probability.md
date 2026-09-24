@@ -2,7 +2,7 @@
 title: Activate Change Management Success Probability
 description: You can activate the Change Management - Success Probability plugin \(com.snc.change\_management.success\_probability\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/install-chg-mgmt-success-probability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/install-chg-mgmt-success-probability.html
 release: australia
 product: Change Management
 classification: change-management
@@ -39,7 +39,7 @@ Activate the Change Management Success Probability \(com.snc.change\_management.
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

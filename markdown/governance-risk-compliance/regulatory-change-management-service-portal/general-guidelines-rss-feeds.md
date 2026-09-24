@@ -2,7 +2,7 @@
 title: General guidelines for RSS feeds
 description: When an RSS feed isn't working, common errors or issues often stem from improper formatting, server issues, or misconfiguration. An RCM administrator can remediate some of the common errors that users may encounter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/general-guidelines-rss-feeds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/general-guidelines-rss-feeds.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -51,5 +51,5 @@ RSS issues often arise from invalid XML syntax, incorrect URLs, server or authen
     Upgrade your instance and debug by looking at the execution logs for the flow titled **Pull RSS feed into regulatory change**.
 
 
-**Parent Topic:**[RSS feeds overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rss-feeds.md)
+**Parent Topic:**[RSS feeds overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/rss-feeds.md)
 

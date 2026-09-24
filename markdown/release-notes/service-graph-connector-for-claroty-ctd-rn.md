@@ -2,7 +2,7 @@
 title: Service Graph Connector Integration for Claroty CTD release notes
 description: The ServiceNow Service Graph Connector Integration for Claroty CTD application integrates Claroty Continuous Threat Detection \(CTD\) with the ServiceNow Operational Technology Manager. This application is currently supported for the Australia release, but it will be deprecated in a future release. See the following sections for release notes by version.The Service Graph Connector Integration for Claroty CTD application is being prepared for future deprecation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/service-graph-connector-for-claroty-ctd-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/service-graph-connector-for-claroty-ctd-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-27"
@@ -22,7 +22,7 @@ The ServiceNow® Service Graph Connector Integration for Claroty CTD application
 
 See [Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-cmdb-integration-claroty-ctd.md) for more information.
 
-**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/operational-technology-rn-landing.md)
+**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/operational-technology-rn-landing.md)
 
 ## Version 2.2.0
 

@@ -2,7 +2,7 @@
 title: Create or modify Badge Reader Integration event handlers
 description: Configure actions associated with a badge scan event and define the code to execute when a badge is scanned.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/create-or-modify-badge-event-handlers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/create-or-modify-badge-event-handlers.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -57,5 +57,5 @@ The code entered in the **Script** field of the Badge Event Handler form is exec
 6.  Click **Submit** to create the record.
 
 
-**Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-badge-read-integ-config.md)
+**Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-badge-read-integ-config.md)
 

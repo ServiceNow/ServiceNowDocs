@@ -2,7 +2,7 @@
 title: Configuring Playbooks
 description: Set up and monitor Playbooks and Playbook Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/setting-up-process-automation-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/setting-up-process-automation-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -25,16 +25,16 @@ Set up and monitor Playbooks and Playbook Experience.
 -   Configure Playbooks user access and properties.
 -   Configure accessibility preferences to make the Playbooks authoring experience more accessible.
 
--   **[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md)**  
+-   **[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activate-process-automation-designer.md)**  
 Activate the Workflow Studio application to create flows, playbooks, and more for any of your use cases.
--   **[Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md)**  
+-   **[Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md)**  
 Turn on the ServiceNow Otto for Creator skills for using generative AI for creating and managing Playbooks.
--   **[Change the default LLM for playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/change-default-llm-playbook-generation.md)**  
+-   **[Change the default LLM for playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/change-default-llm-playbook-generation.md)**  
 Choose either the NowLLM/Mixtral model or OpenAI's GPT-4o as the default LLM to generate your playbooks.
--   **[Administering Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/administering-process-automation-designer.md)**  
+-   **[Administering Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/administering-process-automation-designer.md)**  
 Monitor and troubleshoot issues by reviewing playbook executions.
--   **[Configure accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/view-all-buttons-without-hover.md)**  
+-   **[Configure accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/view-all-buttons-without-hover.md)**  
 View all buttons in a playbook diagram by default, without the need to hover or select any element.
 
-**Parent Topic:**[Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
+**Parent Topic:**[Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 

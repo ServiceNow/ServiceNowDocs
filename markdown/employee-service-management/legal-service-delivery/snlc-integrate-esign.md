@@ -2,7 +2,7 @@
 title: Configure an e-signature provider for legal contracts
 description: Configure an electronic signature provider to enable users to sign contract documents electronically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-integrate-esign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-integrate-esign.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -147,5 +147,5 @@ Additional configuration items based on your electronic signature provider. Prov
 
 The configuration of the e-signature app is published and is ready to be used for the electronic signing of contract documents.
 
-**Parent Topic:**[Configuring external applications for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-set-legal-ext-app-config.md)
+**Parent Topic:**[Configuring external applications for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-set-legal-ext-app-config.md)
 

@@ -2,7 +2,7 @@
 title: Create an app in source code
 description: Create an application to develop in source code in ServiceNow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/create-an-app-in-source-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/create-an-app-in-source-code.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -19,7 +19,7 @@ Create an application to develop in source code in ServiceNow Studio.
 
 ## Before you begin
 
-**Note:** You can use Build Agent to help you create and edit applications in ServiceNow Studio. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+**Note:** You can use Build Agent to help you create and edit applications in ServiceNow Studio. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md).
 
 Role required: admin
 
@@ -43,7 +43,7 @@ Role required: admin
 
 7.  For scoped applications, enter a scope name and press Enter.
 
-    The scope name should fill automatically from the application name. The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_NamespaceIdentifier.md).
+    The scope name should fill automatically from the application name. The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_NamespaceIdentifier.md).
 
 8.  Enter a package name for the application and press Enter.
 
@@ -59,7 +59,7 @@ Role required: admin
 
 ## Result
 
-An application with the default application structure is added to the instance and open in the Explorer. For information about the application structure, see the Application Structure section of the [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md) topic.
+An application with the default application structure is added to the instance and open in the Explorer. For information about the application structure, see the Application Structure section of the [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md) topic.
 
 \[Omitted image "sn-studio-app-open-explorer.png"\] Alt text: An application open in the Explorer tab.
 
@@ -69,9 +69,9 @@ In the status bar, a message confirms whether the application was created. If th
 
 ## What to do next
 
-From your Git provider, create a dedicated Git repository for the application. Initialize a local Git repository for your application and push it to the remote repository. For more information, see [Initialize a Git repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-initialize-git-repo.md).
+From your Git provider, create a dedicated Git repository for the application. Initialize a local Git repository for your application and push it to the remote repository. For more information, see [Initialize a Git repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-initialize-git-repo.md).
 
 In ServiceNow Studio, start developing your application in source code with ServiceNow Fluent, writing custom JavaScript modules, or adding third-party libraries.
 
-**Parent Topic:**[Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md)
+**Parent Topic:**[Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md)
 

@@ -2,7 +2,7 @@
 title: Reapply the default configurations
 description: If the default configurations aren’t applied for Core Business Suite or its business units, reapply the default configurations by running a script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/reset-default-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/reset-default-configurations.html
 release: australia
 topic_type: task
 last_updated: "2026-04-05"
@@ -47,5 +47,5 @@ Role required: admin
     After the script completes, the script-completed page displays the execution logs followed by a success message.
 
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

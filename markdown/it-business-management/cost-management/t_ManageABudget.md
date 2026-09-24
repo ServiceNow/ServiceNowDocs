@@ -2,7 +2,7 @@
 title: Create or update a budget
 description: Cost management provides budgets for you to plan expenses for a certain time period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/t\_ManageABudget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/cost-management/t\_ManageABudget.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -42,12 +42,12 @@ Role required: financial\_mgmt\_admin
 
 ## What to do next
 
-Review the related lists for this budget and update them as necessary. See [Budget related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_BudgetRelatedRecords.md).
+Review the related lists for this budget and update them as necessary. See [Budget related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/cost-management/c_BudgetRelatedRecords.md).
 
-**Parent Topic:**[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
+**Parent Topic:**[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
 
 **Related topics**  
 
 
-[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
+[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
 

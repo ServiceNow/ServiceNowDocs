@@ -2,7 +2,7 @@
 title: Create custom style classes and rules
 description: Use style classes rules in UI Builder to apply custom visual styling to UI elements by referencing CSS classes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/custom-style-classes-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/custom-style-classes-rules.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -30,7 +30,7 @@ Control the appearance of fields, containers, buttons, and other interface compo
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
@@ -69,5 +69,5 @@ Control the appearance of fields, containers, buttons, and other interface compo
 13. Select **Preview** to test the applied style class or style rule.
 
 
-**Parent Topic:**[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md)
+**Parent Topic:**[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md)
 

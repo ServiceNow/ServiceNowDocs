@@ -2,7 +2,7 @@
 title: Installation and setup guide for environments linked to Salesforce orgs
 description: Step-by-step instructions for setting up CPQ in an environment linked to a Salesforce org.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

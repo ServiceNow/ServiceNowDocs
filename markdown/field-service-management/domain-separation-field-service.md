@@ -2,7 +2,7 @@
 title: Domain separation and Field Service Management
 description: Domain separation provides a structured and efficient way to manage complex, multi-tiered organizational environments. It allows for tailored access and control, ensuring that users see only the data relevant to their domain, enhancing security and efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/domain-separation-field-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/domain-separation-field-service.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

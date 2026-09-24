@@ -2,7 +2,7 @@
 title: View actions in the Digital End-User Experience Action Library
 description: View and use various services available for a device in the Digital End-User Experience Action Library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-actions-in-actions-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/view-actions-in-actions-library.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

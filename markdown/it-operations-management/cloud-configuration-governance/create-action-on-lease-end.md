@@ -2,7 +2,7 @@
 title: Create an action for an 'on Lease end' policy
 description: A policy that is triggered by the on Lease end trigger can send a notification or perform a Start, Stop, or Deprovision life cycle operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-action-on-lease-end.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-action-on-lease-end.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

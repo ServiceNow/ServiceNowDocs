@@ -2,7 +2,7 @@
 title: Discovering similar closed cases for HR cases
 description: Help an HR agent resolve the current case by displaying similar closed cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/train-model-closed-caseshr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/train-model-closed-caseshr.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

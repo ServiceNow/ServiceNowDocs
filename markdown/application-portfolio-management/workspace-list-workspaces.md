@@ -2,7 +2,7 @@
 title: List of workspaces reference conkeyrefs
 description: List of all workspaces ServiceNow offers to target specific users and issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/workspace-list-workspaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/workspace-list-workspaces.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     DEX Application &amp; Device Health is a centralized workspace, dedicated to monitoring the performance, security, and compliance of the digital workplace.
 
--   **[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)**
+-   **[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/explore-eaw.md)**
 
     The Enterprise Architecture Workspace is part of the Application Portfolio Management \(APM\) application. The workspace is a unified interface with multiple views that help you manage your portfolio efficiently. You can use these views to stay up to date with your tasks, insights, tasks that need attention, portfolio health, and dashboards.
 

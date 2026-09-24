@@ -2,12 +2,12 @@
 title: Portfolio plan RIDACs
 description: Portfolio plan RIDAC provides a unified view of all risks, issues, decisions, actions, and changes that belong to a specific portfolio plan. Access portfolio governance items directly within the portfolio plan without navigating to separate RIDAC records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/portfolio-plan-ridac-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/portfolio-plan-ridac-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -68,10 +68,10 @@ Portfolio managers use portfolio plan RIDAC to:
 
 Access the portfolio plan RIDAC page from within a portfolio plan to view all governance items associated with that portfolio. The RIDAC page displays items that belong to planning items within the portfolio plan, giving you a complete governance picture without navigating to separate risk, issue, decision, action, or change management menus.
 
-**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
+**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 
 **Related topics**  
 
 
-[Create RIDAC item for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-ridac-for-planning-item-spw.md)
+[Create RIDAC item for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-ridac-for-planning-item-spw.md)
 

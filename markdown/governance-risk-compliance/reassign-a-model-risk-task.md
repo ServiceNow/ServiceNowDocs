@@ -2,7 +2,7 @@
 title: Reassign model assessments and validations
 description: Reassign an model risk assessment or validation to another assignee from the stakeholder list of the model risk record when the task is in the In-progress state. It ensures that the task continues without delay if the original assignee is unavailable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/reassign-a-model-risk-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/reassign-a-model-risk-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ Model validators \[sn\_model\_risk\_mgmt.model\_validator\] can also reassign ta
 7.  Select **Reassign model task**.
 
 
-**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-mrm.md)
 

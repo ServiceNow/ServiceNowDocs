@@ -2,7 +2,7 @@
 title: Configure post-assessment actions
 description: Automate actions based on assessment responses in Smart Assessment Engine. Template designers can predefine actions using a rule engine, such as updating fields, creating follow-up assessments, or generating other records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -19,7 +19,7 @@ Automate actions based on assessment responses in Smart Assessment Engine. Templ
 ## Before you begin
 
 -   A subflow must be available and mapped to the assessment template category for which you want to configure post-assessment actions. For more information about how to create and build subflows, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md) and [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
--   To make actions available in post-assessment workflows, link the subflow to the appropriate template category. For more information, see [Link subflow to template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/link-subflow-to-action-set.md).
+-   To make actions available in post-assessment workflows, link the subflow to the appropriate template category. For more information, see [Link subflow to template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/link-subflow-to-action-set.md).
 -   The Reusable Impact Framework plugin \(sn\_impact\_fwk\) and Post Assessment Actions for Smart Assessments plugin \(sn\_smart\_imp\_auto\) must be installed.
 
 Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_manager and sn\_smart\_imp\_auto.automation\_creator
@@ -83,7 +83,7 @@ Select **Add a standalone action set**.
 
     Based on the selected action type, new fields appear requiring additional details.
 
-    The options displayed in the **Action type** field are subflows linked to the chosen template's categories. For more information on automated actions, see [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
+    The options displayed in the **Action type** field are subflows linked to the chosen template's categories. For more information on automated actions, see [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
 
     **Note:** Responses from dropdown, check box, radio, and attachment question types cannot be passed as action parameters because they return structured or binary data that action parameters cannot accept.
 

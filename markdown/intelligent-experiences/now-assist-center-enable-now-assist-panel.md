@@ -2,7 +2,7 @@
 title: Enable the ServiceNow Otto panel
 description: Enable the ServiceNow Otto panel to have your AI companion perform setup, configuration, and administrative tasks more quickly using natural language prompts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-enable-now-assist-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-enable-now-assist-panel.html
 release: australia
 topic_type: task
 last_updated: "2026-07-30"
@@ -25,7 +25,7 @@ The ServiceNow Otto panel is turned on by default. If it is turned off, follow t
 
 The ServiceNow Otto panel must be enabled for administrators to use the conversational interface in AI Admin Center. When the panel is turned off, a banner appears on the home page notifying you that the conversational experience is unavailable, with a link to the settings page.
 
-For more information on the capabilities of the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+For more information on the capabilities of the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ For more information on the capabilities of the ServiceNow Otto panel, see [Serv
 
 The ServiceNow Otto panel is enabled and available globally via the ServiceNow Otto icon \(\[Omitted image "icon-ai-admin-center-otto-panel.png"\] Alt text: ServiceNow Otto icon.\) in the Next Experience Unified Navigation. The panel understands where users are in the application and can personalize responses accordingly, streamlining the completion of tasks.
 
-**Parent Topic:**[Configuring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist-center.md)
+**Parent Topic:**[Configuring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-now-assist-center.md)
 
 **Related topics**  
 

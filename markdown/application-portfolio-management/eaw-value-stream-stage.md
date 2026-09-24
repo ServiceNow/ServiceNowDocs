@@ -2,7 +2,7 @@
 title: Exploring value stream stages
 description: Value stream stages are a specific section within the overall value stream, encompassing a specific set of activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-value-stream-stage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-value-stream-stage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,12 +24,12 @@ The following relationships define the value stream stage model in Enterprise Ar
 
 In the Hire to Retire value stream, onboarding of new employees is a value stream stage.
 
-**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
+**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  
 
 
-[View value stream stage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-value-stream-stages.md)
+[View value stream stage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-value-stream-stages.md)
 
-[Add or edit a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-value-stream-stage.md)
+[Add or edit a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-or-edit-a-value-stream-stage.md)
 

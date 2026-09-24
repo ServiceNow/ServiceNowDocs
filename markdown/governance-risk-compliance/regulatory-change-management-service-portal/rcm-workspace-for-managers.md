@@ -2,7 +2,7 @@
 title: Regulatory Change Management overview page
 description: The Regulatory Change Management overview page provides a high-level view of the regulatory activities in your organization. If you have the sn\_grc\_reg\_change.manager role, you can view this page in the Compliance Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/rcm-workspace-for-managers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/rcm-workspace-for-managers.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

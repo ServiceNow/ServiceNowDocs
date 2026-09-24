@@ -2,7 +2,7 @@
 title: Delete a CI relationship from CMDB Group CI Relations
 description: Delete a CMDB group CI relationship to limit available relationships for CMDB alert grouping, helping to reduce noise and improve alert relevance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/delete-suggested-relationship.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/delete-suggested-relationship.html
 release: australia
 product: Event Management
 classification: event-management

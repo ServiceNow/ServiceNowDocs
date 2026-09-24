@@ -2,7 +2,7 @@
 title: Edit API settings
 description: Edit the API settings for the Discovery Console for OT to generate active tokens, remove denied tokens, or view the available API endpoints needed to communicate with the Service Graph Connector for ServiceNow OT Discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-api-settings-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/edit-api-settings-console.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -76,5 +76,5 @@ The Service Graph Connector for ServiceNow OT Discovery has been enhanced to mak
         The disk space available is limited to 1 GiB.
 
 
-**Parent Topic:**[Discovery Console for OT API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/api-discovery-console.md)
+**Parent Topic:**[Discovery Console for OT API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/api-discovery-console.md)
 

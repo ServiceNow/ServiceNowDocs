@@ -2,7 +2,7 @@
 title: Cloning with Hermes Messaging Service enabled
 description: To clone your database from one instance to another successfully with Hermes enabled, you must ensure that certain Hermes tables are preserved and excluded. The list of tables in the preserve list should match those in the exclude list and vice versa.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/cloning-with-hermes-messaging-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/cloning-with-hermes-messaging-service.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -80,7 +80,7 @@ Add the following Hermes tables to the Clone Exclude Tables list if they're miss
 -   sys\_kafka\_namespace
 -   sys\_kafka\_topic
 
-**Parent Topic:**[Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
+**Parent Topic:**[Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
 
 **Related topics**  
 

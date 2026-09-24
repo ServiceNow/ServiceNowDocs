@@ -2,7 +2,7 @@
 title: DEX Self-service categories form
 description: The DEX Self-service categories form presents elaborate data on the form fields and their corresponding descriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/dex-self-service-categories-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/dex-self-service-categories-form.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service

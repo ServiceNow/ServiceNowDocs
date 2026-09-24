@@ -2,7 +2,7 @@
 title: Tracking a job requisition in the Hiring tab
 description: Hiring manager can view the detailed status of an open job requisition to track and update. Hiring managers can refer to relevant hiring materials to enhance their knowledge base.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/view-status-my-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/view-status-my-request.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,5 +43,5 @@ The **Applications** tab lists all the applications on the job requisition and t
 
 The **Interview phases** tab lists all the interview phases set up for the job requisition and their respective details.
 
-**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
+**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/use-hiring.md)
 

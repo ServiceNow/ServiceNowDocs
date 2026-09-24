@@ -2,7 +2,7 @@
 title: The ServiceNow Store and private application repositories
 description: The ServiceNow Store provides two main repository mechanisms for application distribution: the ServiceNow Store and private \(company\) application repositories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/store-private-application-repositories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/store-private-application-repositories.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -38,5 +38,5 @@ The Application Repository respects cross-scope access privileges, which means a
 
 This is a critical security control that helps prevent unauthorized modifications in production. Confirm that only authorized developers have the admin or application\_creator roles needed to publish to the Application Repository in development.
 
-**Parent Topic:**[Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-started-deployment.md)
+**Parent Topic:**[Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/get-started-deployment.md)
 

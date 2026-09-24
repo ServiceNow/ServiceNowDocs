@@ -2,7 +2,7 @@
 title: Generate labor costs
 description: Generate labor costs to view the expenses of resources using resource assignments and cost plans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/generate-labor-cost-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/generate-labor-cost-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -30,12 +30,12 @@ Role required: it\_demand\_manager
 
 4.  On the Scheduled Script Execution form, fill the fields.
 
-    For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
+    For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/scheduled-script-execution-form.md).
 
 5.  Select **Update**.
 
-    **Tip:** Alternatively, as an admin, you can activate and define a scheduled job to generate labor costs at the required frequency. For more information, see [Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md).
+    **Tip:** Alternatively, as an admin, you can activate and define a scheduled job to generate labor costs at the required frequency. For more information, see [Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md).
 
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreatingDemands.md)
 

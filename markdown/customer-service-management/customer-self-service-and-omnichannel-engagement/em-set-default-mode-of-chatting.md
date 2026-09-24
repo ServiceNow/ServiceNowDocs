@@ -2,7 +2,7 @@
 title: Change the default chat mode for the Chat feature
 description: Set either asynchronous chatting through a chat window or synchronous mode through messaging as the default chat mode of the Chat feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/em-set-default-mode-of-chatting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/em-set-default-mode-of-chatting.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

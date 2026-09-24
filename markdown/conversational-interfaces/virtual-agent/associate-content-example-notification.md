@@ -2,7 +2,7 @@
 title: Associate content with the Asset Refresh notification
 description: After creating the actionable notification for the Asset Refresh topic, go back into the notification and add content. This links the notification with the Virtual Agent topic that you created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/associate-content-example-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/associate-content-example-notification.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -121,7 +121,7 @@ Delivery channels
 
 </td><td>
 
-Select **mweb**, which is the default channel for Virtual Agent. You can configure other channels to run Virtual Agent as well. For more information, see [Integrating Virtual Agent with other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md).
+Select **mweb**, which is the default channel for Virtual Agent. You can configure other channels to run Virtual Agent as well. For more information, see [Integrating Virtual Agent with other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrate-virtual-agent.md).
 
 </td></tr></tbody>
 </table>    4.  Select **Submit**.

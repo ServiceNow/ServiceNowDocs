@@ -2,7 +2,7 @@
 title: Split opportunity allocation
 description: Split an allocation row to divide its credit between two contributors while keeping, for example, the same product family and effective date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/split-an-opportunity-allocation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/split-an-opportunity-allocation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-30"
@@ -56,7 +56,7 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_allocation\_writer
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

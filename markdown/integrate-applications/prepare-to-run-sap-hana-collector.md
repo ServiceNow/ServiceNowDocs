@@ -2,7 +2,7 @@
 title: Prepare to run the SAP HANA collector
 description: Set up authentication and configure the necessary privileges before you run the SAP HANA metadata collector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-sap-hana-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-sap-hana-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-07-28"
@@ -34,5 +34,5 @@ An account is required with a role that has SELECT privileges on the resources t
     2.  Object privileges \(SELECT METADATA\)
 
 
-**Parent Topic:**[SAP HANA metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sap-hana-metadata-collector.md)
+**Parent Topic:**[SAP HANA metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/sap-hana-metadata-collector.md)
 

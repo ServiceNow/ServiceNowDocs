@@ -2,7 +2,7 @@
 title: Target Tables for n8n
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from a n8n project. The data is saved in tables that extend from the CMDB CI classes and other non-CMDB classes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/target-tables-for-n8n.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/target-tables-for-n8n.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

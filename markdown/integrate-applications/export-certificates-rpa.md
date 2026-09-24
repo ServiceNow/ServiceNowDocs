@@ -2,7 +2,7 @@
 title: Exporting Microsoft Active Directory certificates
 description: You can export Microsoft Active Directory certificates, such as root, intermediate, and a client authentication certificate, for authentication purposes. You then register the exported root and intermediate certificate in the ServiceNow instance and map the exported client authentication certificate to the user.Export an active directory \(AD\) root certificate in your Windows machine to register the exported certificate on the ServiceNow instance.Export an active directory \(AD\) intermediate certificate in your Windows machine to register the exported certificate on the ServiceNow instance.Export an active directory \(AD\) client authentication certificate in your Windows machine to map the exported certificate to the user on the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/export-certificates-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/export-certificates-rpa.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ You can export Microsoft Active Directory certificates, such as root, intermedia
 
 You must do these tasks in your Windows machine.
 
-If you don't have the user-generated certificates \(client authentication and code signing\), do the tasks in the following topics to export active directory certifications. For more information, see [Generating and installing user certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-user-certificates-rpa.md).
+If you don't have the user-generated certificates \(client authentication and code signing\), do the tasks in the following topics to export active directory certifications. For more information, see [Generating and installing user certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-user-certificates-rpa.md).
 
-**Parent Topic:**[Obtaining client authentication and code signing certificates for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-signing-certificate-rpa.md)
+**Parent Topic:**[Obtaining client authentication and code signing certificates for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/code-signing-certificate-rpa.md)
 
 ## Export a root certificate
 

@@ -2,7 +2,7 @@
 title: Generate process configuration using AI
 description: Use AI to generate a suggestion for the process configuration fields for a table, instead of selecting each field manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/gen\_process\_config\_ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/gen\_process\_config\_ai.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -73,5 +73,5 @@ AI analyzes your table's fields and how frequently they change, then suggests wh
 
 The fields you confirmed are applied to your process configuration.
 
-**Parent Topic:**[Creating process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/creating-process-config.md)
+**Parent Topic:**[Creating process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/creating-process-config.md)
 

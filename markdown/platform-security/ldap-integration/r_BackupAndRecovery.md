@@ -2,7 +2,7 @@
 title: Backup and recovery with ADAM
 description: All ADAM data can be backed up using standard file system backup methods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_BackupAndRecovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ldap-integration/r\_BackupAndRecovery.html
 release: australia
 product: LDAP integration
 classification: ldap-integration
@@ -23,7 +23,7 @@ ADAM has built-in replication utilities based on the same technology as AD. A fu
 **Related topics**  
 
 
-[Active Directory Application Mode \(ADAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_ActiveDirectoryApplicationMode.md)
+[Active Directory Application Mode \(ADAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ldap-integration/c_ActiveDirectoryApplicationMode.md)
 
 [http://www.microsoft.com/downloads/en/details.aspx?familyid=9688f8b9-1034-4ef6-a3e5-2a2a57b5c8e4&amp;displaylang=en%7C](http://www.microsoft.com/downloads/en/details.aspx?familyid=9688f8b9-1034-4ef6-a3e5-2a2a57b5c8e4&displaylang=en%7C)
 

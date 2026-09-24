@@ -2,7 +2,7 @@
 title: Edit a playbook in Creator Studio
 description: Update a playbook to change its settings, or rearrange or remove tasks, to make it work for your app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-edit-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-edit-automation.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -74,12 +74,12 @@ If you want to add complex, unsupported items to a playbook \(such as optional a
 
     3.  Update the **Label** and **Description** as needed, or any of the other properties of the activity.
 
-        For more information, see [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-activities-automation.md).
+        For more information, see [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-add-activities-automation.md).
 
 9.  Delete any unnecessary activities by hovering over the activity and selecting the delete icon \[Omitted image "cs-delete-icon.png"\] Alt text:.
 
 10. Make any advanced edits in Workflow Studio by selecting the more actions icon \[Omitted image "cs-more-actions-icon.png"\] Alt text: and selecting **Open in Workflow Studio**.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-working-with-automations.md)
 

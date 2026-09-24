@@ -2,7 +2,7 @@
 title: Connect to Jenkins using API token authentication
 description: Connect to Jenkins using API token authentication instead of user name and password.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/authenticate-jenkins-using-api-token.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/authenticate-jenkins-using-api-token.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity

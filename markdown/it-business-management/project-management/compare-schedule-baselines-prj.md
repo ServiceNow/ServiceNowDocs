@@ -2,7 +2,7 @@
 title: Compare schedule baselines of a project
 description: Compare baselines to review variance between tasks and identify which task has variance from the current planned end date and the baseline end date. The baseline variance column displays the amount of variance between the two date comparisons.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/compare-schedule-baselines-prj.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/compare-schedule-baselines-prj.html
 release: australia
 product: Project Management
 classification: project-management
@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-[Create schedule baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md) at various stages of a project, for example, at the end of each phase or after every calendar month or quarter. Each baseline captures the schedule information of project tasks at a particular moment. This snapshot provides a basis for comparison and helps you to identify and review the changes made to the project. Having multiple baselines and comparing them helps you track the performance of your projects.
+[Create schedule baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectBaseline.md) at various stages of a project, for example, at the end of each phase or after every calendar month or quarter. Each baseline captures the schedule information of project tasks at a particular moment. This snapshot provides a basis for comparison and helps you to identify and review the changes made to the project. Having multiple baselines and comparing them helps you track the performance of your projects.
 
 ## Procedure
 
@@ -74,10 +74,10 @@ Steps
     **Note:** Use the show or hide columns in gantt icon \(\[Omitted image "gear\_icon.png"\] Alt text: Show or hide coloumns in gantt icon\) to add these columns to the Planning Console.
 
 
-**Parent Topic:**[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
+**Parent Topic:**[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectBaseline.md)
 
 **Related topics**  
 
 
-[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectBaseline.md)
+[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectBaseline.md)
 

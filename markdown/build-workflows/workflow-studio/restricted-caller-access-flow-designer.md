@@ -2,7 +2,7 @@
 title: Restricted caller access to Workflow Studio flows
 description: Track flows and actions that require access to cross-scope resources. Allow or deny flows and actions access to cross-scope resources.Allow instances upgraded from San Diego and earlier releases to generate restricted caller access privilege requests for flows and actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/restricted-caller-access-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/restricted-caller-access-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

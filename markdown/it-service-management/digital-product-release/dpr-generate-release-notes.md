@@ -2,7 +2,7 @@
 title: Generate AI-powered release notes for a release
 description: Generate structured release notes for a release using AI-driven summarization, reducing manual effort and improving clarity for stakeholders. The release notes are generated from the release scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-generate-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/dpr-generate-release-notes.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -22,16 +22,16 @@ Generate structured release notes for a release using AI-driven summarization, r
 -   **Required applications and plugins:**
     -   Digital Product Release version 2.3 or later.
 
-        For more information, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-landing-page.md).
+        For more information, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-landing-page.md).
 
     -   ServiceNow Otto for ITSM plugin \(sn\_itsm\_gen\_ai\) version 12.0.0 or later.
 
-        For more information, see [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md).
+        For more information, see [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md).
 
 -   **Configuration:**
     -   The Generate Release Notes skill must be active.
 
-        For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
+        For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
 
     -   The release phase set as the release readiness must be in progress or completed.
 
@@ -66,7 +66,7 @@ The release notes are generated using the release scope data for the release:
 
 7.  To save the release notes, select **Save**.
 
-8.  If you [update the release scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-scope.md), you can regenerate the release notes by selecting **Regenerate**.
+8.  If you [update the release scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-work-release-scope.md), you can regenerate the release notes by selecting **Regenerate**.
 
     The existing release notes are replaced with the regenerated release notes, which include the latest release scope data.
 
@@ -83,5 +83,5 @@ The release notes are generated using the release scope data for the release:
 12. To add content manually or regenerate the release notes after they are published, select **Edit**.
 
 
-**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-releases.md)
+**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-manage-releases.md)
 

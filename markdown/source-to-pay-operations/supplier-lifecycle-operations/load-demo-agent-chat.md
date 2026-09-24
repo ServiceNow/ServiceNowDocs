@@ -2,7 +2,7 @@
 title: Activate Agent Chat and load demo data
 description: Activate Agent Chat and load demo data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -31,7 +31,7 @@ Role required: admin
 4.  In the Activate Plugin dialog box, select the **Load demo data** check box, and then select **Activate**.
 
 
-**Parent Topic:**[Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-awa.md)
+**Parent Topic:**[Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-awa.md)
 
 **Related topics**  
 
@@ -42,5 +42,5 @@ Role required: admin
 
 [Using Advanced Work Assignment for Supplier Lifecycle Operations]()
 
-[Source-to-Pay Workspace agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/agent-inbox-ws.md)
+[Source-to-Pay Workspace agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/agent-inbox-ws.md)
 

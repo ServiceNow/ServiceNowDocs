@@ -2,7 +2,7 @@
 title: Viewing Live Feed from records
 description: Interact with the record feed in any form that has Live Feed enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_ViewingLiveFeedFromRecords.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/c\_ViewingLiveFeedFromRecords.html
 release: australia
 product: Live Feed
 classification: live-feed

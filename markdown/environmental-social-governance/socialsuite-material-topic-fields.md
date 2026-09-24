@@ -2,10 +2,10 @@
 title: Socialsuite material topic fields
 description: Fields added to the Material Topic \(sn\_esg\_material\_topic\) table for Socialsuite integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/socialsuite-material-topic-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/socialsuite-material-topic-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -105,5 +105,5 @@ Materiality Decision
 Decision outcome from the materiality assessment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/reference-data-esg.md)
+</table>**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/reference-data-esg.md)
 

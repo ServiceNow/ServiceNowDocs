@@ -2,7 +2,7 @@
 title: Assign task created for filling Legal Tracker details
 description: As a legal fulfiller, assign the task created for filling Legal Tracker details to the task fulfiller.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-lt-assign-task-ocer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/lmm-lt-assign-task-ocer.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -18,7 +18,7 @@ As a legal fulfiller, assign the task created for filling Legal Tracker details 
 
 ## About this task
 
-When you submit an outside counsel request, you can choose to fill in the Legal Tracker details later by selecting **Create a task for entering Legal Tracker field details**. On approval of the outside counsel request, a task is created to fill in the Legal Tracker details. Assign this task to the legal user, legal fulfiller or matter fulfiller to fill in the details. For more information on submitting an outside counsel request, see [Request Outside Counsel engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/create-lt-outside-counsel-engagement.md).
+When you submit an outside counsel request, you can choose to fill in the Legal Tracker details later by selecting **Create a task for entering Legal Tracker field details**. On approval of the outside counsel request, a task is created to fill in the Legal Tracker details. Assign this task to the legal user, legal fulfiller or matter fulfiller to fill in the details. For more information on submitting an outside counsel request, see [Request Outside Counsel engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/create-lt-outside-counsel-engagement.md).
 
 ## Before you begin
 
@@ -32,15 +32,15 @@ Role required:
 
 1.  Open a task.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d661109e78">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d661113e78">
 
 Method
 
-</th><th align="left" id="d661109e81">
+</th><th align="left" id="d661113e81">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d661109e87">
+</th></tr></thead><tbody><tr><td id="d661113e87">
 
 **Using Legal Counsel Center homepage**
 
@@ -53,7 +53,7 @@ Action
 5.  From the list, open an unassigned task.
 
 
-</td></tr><tr><td id="d661109e131">
+</td></tr><tr><td id="d661113e131">
 
 **Using Legal Counsel Center lists**
 
@@ -67,7 +67,7 @@ Action
 6.  From the list, open an unassigned task.
 
 
-</td></tr><tr><td id="d661109e191">
+</td></tr><tr><td id="d661113e191">
 
 **Using platform view**
 
@@ -86,5 +86,5 @@ Action
 3.  Select **Save**.
 
 
-**Parent Topic:**[Approve or reject outside counsel engagement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-approve-oce.md)
+**Parent Topic:**[Approve or reject outside counsel engagement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-approve-oce.md)
 

@@ -2,7 +2,7 @@
 title: Sync the current file between a Visual Studio Code workspace and a ServiceNow instance
 description: Identify conflicting files and merge or overwrite the changes, between the current file in your Visual Studio Code workspace and your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/sync-current-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/sync-current-file.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,5 +56,5 @@ Role required: admin
     The changes are successfully synchronized upon the next synchronization. When the changes are merged successfully, the message **Sync completed successfully** appears at the bottom of the page.
 
 
-**Parent Topic:**[Synchronization between Visual Studio Code and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-sync.md)
+**Parent Topic:**[Synchronization between Visual Studio Code and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vscode-sync.md)
 

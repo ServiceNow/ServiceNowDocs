@@ -2,7 +2,7 @@
 title: CrowdStrike Spoke
 description: Manage licenses for CrowdStrike Falcon protection suite by fetching details of devices with active Falcon sensors installed and checking license compliance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/crowdstrike-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/crowdstrike-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

@@ -2,7 +2,7 @@
 title: Cancel work order appointment in CSM Agent Workspace
 description: Cancel an appointment for customer from a work order. Cancelling an appointment, cancels the associated work order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/Cancel-workorder-appointment-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/appointment-booking/Cancel-workorder-appointment-workspace.html
 release: australia
 product: Appointment Booking
 classification: appointment-booking

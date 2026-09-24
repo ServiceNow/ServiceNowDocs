@@ -2,7 +2,7 @@
 title: Confirm whether an invoice is a duplicate
 description: Review invoices flagged as suspected duplicates and confirm or reject the duplicate status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/confirm-duplicate-invoice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/confirm-duplicate-invoice.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -77,7 +77,7 @@ The status of the invoice changes to Confirmed duplicate and the state of the in
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 

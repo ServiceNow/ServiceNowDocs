@@ -2,7 +2,7 @@
 title: View loaded files for a plugin
 description: Get a related list view of all the files loaded for a plugin by clicking View all plugin duration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-view-loaded-files-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-view-loaded-files-plugin.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center

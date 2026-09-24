@@ -2,7 +2,7 @@
 title: Setting up the customer data for Insurance claims
 description: Before using the Insurance claims application, make sure that you have the customer data for your individual and business customers on your instance so that you can associate the policies with your customers and create incidents for them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/data-setup-for-insurance-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/data-setup-for-insurance-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

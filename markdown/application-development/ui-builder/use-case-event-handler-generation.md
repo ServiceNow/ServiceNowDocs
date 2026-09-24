@@ -2,12 +2,12 @@
 title: Use case: Configure an event handler with ServiceNow Otto
 description: Automate event handler configuration without writing manual binding expressions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/use-case-event-handler-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/use-case-event-handler-generation.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Use case, Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -30,7 +30,7 @@ With Event handler generation, the developer uses natural language prompts in th
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 ## Configuration steps
 
@@ -57,12 +57,12 @@ Perform the following steps to use the Event handler generation skill:
 
 Both event handlers can be configured with natural language prompts. The developer could set them up quickly without looking up payload field names or writing binding expressions manually. During runtime, selecting the button navigates the agent to the incident list, with the table parameter automatically populated from the workspace's state. Additionally, selecting any reference link in the task list opens the corresponding change request record in a new tab, pulling the table name and sys\_id directly from the selected row. The generated configurations are ready for immediate use. The developer retains full control and can edit any field using standard form controls before saving.
 
-**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-use-cases.md)
+**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-use-cases.md)
 
 **Related topics**  
 
 
-[Event handler generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/concept-event-handler-generation.md)
+[Event handler generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/concept-event-handler-generation.md)
 
-[Configure an event handler with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-an-event-handler-with-now-assist.md)
+[Configure an event handler with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configure-an-event-handler-with-now-assist.md)
 

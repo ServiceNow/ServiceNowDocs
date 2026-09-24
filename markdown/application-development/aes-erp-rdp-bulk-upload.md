@@ -2,7 +2,7 @@
 title: Bulk upload master data records
 description: Submit multiple master data requests in a single batch by importing a spreadsheet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-bulk-upload.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-bulk-upload.html
 release: australia
 topic_type: task
 last_updated: "2026-08-14"
@@ -19,7 +19,7 @@ Submit multiple master data requests in a single batch by importing a spreadshee
 
 Requestor access to the domain is required. A spreadsheet with record data in the format provided by the template must be prepared.
 
-Role required: An MDM Orchestrator bulk upload requestor role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator bulk upload requestor role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## Procedure
 
@@ -101,5 +101,5 @@ The records flow through the same enrichment, governance, and approval stages as
 
 If records were rejected, correct the file and upload it again as a new bulk request. Each upload is treated as a separate request.
 
-**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-use.md)
 

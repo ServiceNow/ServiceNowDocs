@@ -2,7 +2,7 @@
 title: Create custom filters on the schedule view
 description: Create custom filters in the schedule view to control which records appear in your list. You can set filter conditions to view only the records that meet your criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-custom-filters-on-schedule-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/create-custom-filters-on-schedule-view.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -75,5 +75,5 @@ The following are filter categories:
     **Note:** The selected or applied filter stays active until the user navigates back to the page and changes it.
 
 
-**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-view.md)
+**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-schedule-view.md)
 

@@ -2,7 +2,7 @@
 title: Transfer a case in Agent Workspace for HR Case Management
 description: Many cases are created as a General Inquiry case. After researching the employee's needs, you can transfer an existing case to a different HR service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-transfer-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-transfer-case.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -20,7 +20,7 @@ Many cases are created as a General Inquiry case. After researching the employee
 
 Role required: sn\_hr\_core.case\_writer
 
-For information on configuring HR case transfer or classification properties, see [Transfer an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reclassify-hr-case.md).
+For information on configuring HR case transfer or classification properties, see [Transfer an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reclassify-hr-case.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ For information on configuring HR case transfer or classification properties, se
 
 2.  Find the case you want to transfer.
 
-    For more information on finding an HR case, see [Using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md).
+    For more information on finding an HR case, see [Using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md).
 
 3.  Select the \[Omitted image "EllipsisIcon.png"\] Alt text: More icon more icon.
 

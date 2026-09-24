@@ -2,7 +2,7 @@
 title: Add a document to a workplace contract in Core UI
 description: Add documents to the workplace contract to maintain a record of all relevant documents and different versions of those documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/add-document-to-workplace-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/add-document-to-workplace-contract.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -55,5 +55,5 @@ Role required: sn\_wsd\_la.manager or sn\_wsd\_la.admin
     4.  Select OK.
 
 
-**Parent Topic:**[Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
 

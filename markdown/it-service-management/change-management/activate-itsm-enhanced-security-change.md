@@ -2,7 +2,7 @@
 title: Activate ITSM Enhanced Security Features for Change Management
 description: Prevent unauthorized access to change-related tables using deny-unless ACLs by activating the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-itsm-enhanced-security-change.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-itsm-enhanced-security-change.html
 release: australia
 product: Change Management
 classification: change-management
@@ -37,5 +37,5 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[ITSM Enhanced Security Features for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/features-itsm-enhanced-security-change.md)
+**Parent Topic:**[ITSM Enhanced Security Features for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/features-itsm-enhanced-security-change.md)
 

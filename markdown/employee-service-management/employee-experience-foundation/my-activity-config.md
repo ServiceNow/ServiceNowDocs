@@ -2,7 +2,7 @@
 title: My active items widget configuration
 description: The My active items widget displays all user activity that requires your input or review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/my-activity-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/my-activity-config.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,7 +30,7 @@ From **My Active Items** widget, admins can perform the following actions.
 
 You can now configure action framework to allow employees to perform actions from the My active items.
 
-​Configure **Action group** for the primary activity to complete suitable actions. For tasks, the approve and reject actions are available out-of-the-box. For more information, see [Enable task configuration for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.md)
+​Configure **Action group** for the primary activity to complete suitable actions. For tasks, the approve and reject actions are available out-of-the-box. For more information, see [Enable task configuration for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.md)
 
 **Note:** When you do not associate an action group with the tasks, the **View details** option appears to navigate to the activity details page.
 
@@ -42,7 +42,7 @@ The My Active Items widget is designed for optimal display and usability when co
 
 \[Omitted image "my-active-items-widget.png"\] Alt text: My active items widget showing the summary view at the top and the list view at the bottom of the widget.
 
-To change the display options, see [Perform an advanced activity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-my-activity.md).
+To change the display options, see [Perform an advanced activity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-my-activity.md).
 
 ## Summary view
 
@@ -58,14 +58,14 @@ You can do an advanced configuration or a basic configuration for an activity. U
 
 **Note:** When you do not associate an action group with the tasks, the **View details** option appears to navigate to the activity details page.
 
-For more information, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md).
+For more information, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/action-group-framework.md).
 
 **Note:** For actions to appear in my items widget, you can add the OOTB **Approvals action group** from **All** &gt; **Employee Center** &gt; **Administration** &gt; **To-dos Configurations**, click an existing to-dos configuration, navigate to the **To-do Configuration Details** record, and use the OOTB action group under **Fields Mapping**.
 
 **Related topics**  
 
 
-[Perform a basic activity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-my-basic-activity.md)
+[Perform a basic activity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-my-basic-activity.md)
 
-[Perform an advanced activity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-my-activity.md)
+[Perform an advanced activity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-my-activity.md)
 

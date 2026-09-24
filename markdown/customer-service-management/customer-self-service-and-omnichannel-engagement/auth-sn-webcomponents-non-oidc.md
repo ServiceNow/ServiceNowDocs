@@ -2,7 +2,7 @@
 title: Non OIDC authentication for ServiceNow components
 description: Generate a JSON Web Token \(JWT\) token to authenticate your ServiceNow components if your website doesn’t use OpenID Connect \(OIDC\) authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/auth-sn-webcomponents-non-oidc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/auth-sn-webcomponents-non-oidc.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -16,7 +16,7 @@ breadcrumb: [Set up Web Embeddables, Web Embeddables, Set up self-service, Confi
 
 Generate a JSON Web Token \(JWT\) token to authenticate your ServiceNow components if your website doesn’t use OpenID Connect \(OIDC\) authentication.
 
-**Note:** You can test ServiceNow components on your sandbox instance without setting up authentication. For more information, see [Test the ServiceNow components in a sandbox environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/test-sn-comp-we.md).
+**Note:** You can test ServiceNow components on your sandbox instance without setting up authentication. For more information, see [Test the ServiceNow components in a sandbox environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/test-sn-comp-we.md).
 
 ## Setting up a JWT token in the ServiceNow instance
 

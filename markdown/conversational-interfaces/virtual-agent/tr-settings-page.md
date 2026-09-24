@@ -2,7 +2,7 @@
 title: Topic Recommendations settings
 description: Use the Topic Recommendations settings page to configure analysis reports based on your ServiceNow data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/tr-settings-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/tr-settings-page.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -86,5 +86,5 @@ The schedule for running the analysis, which is triggered through the Run Topic 
 </table>**Related topics**  
 
 
-[Configure analysis reports for Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-tr-settings.md)
+[Configure analysis reports for Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/define-tr-settings.md)
 

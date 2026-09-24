@@ -2,7 +2,7 @@
 title: Portal prerequisites for enhanced chat
 description: ServiceNow Otto for Virtual Agent provides users with a content-driven and search-driven generative AI experience. To benefit from chat and search capabilities, your portal must have AI Search enabled before configuring your assistant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/prerequisites-enhanced-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/prerequisites-enhanced-chat.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -16,7 +16,7 @@ breadcrumb: [Create a chat assistant, View assistants, Configuring assistants ov
 
 ServiceNow Otto for Virtual Agent provides users with a content-driven and search-driven generative AI experience. To benefit from chat and search capabilities, your portal must have AI Search enabled before configuring your assistant.
 
-Standard chat or enhanced chat offers different experiences. Enhanced chat provides users with a resizable chat window and search experience. To understand the differences between standard chat, enhanced chat, and enhanced chat with an additional full-page experience option, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md). If you only want a chat experience, there's no dependency on a portal's search configuration. However, ensure that your portal has the default chat widget button.
+Standard chat or enhanced chat offers different experiences. Enhanced chat provides users with a resizable chat window and search experience. To understand the differences between standard chat, enhanced chat, and enhanced chat with an additional full-page experience option, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md). If you only want a chat experience, there's no dependency on a portal's search configuration. However, ensure that your portal has the default chat widget button.
 
 To benefit from enhanced chat's search capabilities, your portal should have AI Search enabled. To configure AI Search for your portal, navigate to **All** &gt; **AI Search Admin Home**. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-ais-sp.md).
 

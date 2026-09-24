@@ -2,7 +2,7 @@
 title: Set business hours for tasks in Jeopardy Management
 description: Use the sn\_ind\_tmt\_orm.order\_task\_schedule system property to set business hours for tasks in Jeopardy Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/set-business-hrs-jmtasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/set-business-hrs-jmtasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Role required: admin
 **Related topics**  
 
 
-[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/jeopardy-management.md)
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/jeopardy-management.md)
 
-[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/monitoring-jeopardy-management.md)
 

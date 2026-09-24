@@ -2,7 +2,7 @@
 title: Add or modify a transaction cancellation message
 description: The Quota Manager uses a UI page to control the contents of the transaction cancellation message.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/t\_ModifyTheTransCancellationPage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/platform-performance/t\_ModifyTheTransCancellationPage.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -32,10 +32,10 @@ Knowledge of [Apache Jelly](http://commons.apache.org/jelly/) is highly recommen
 
 3.  In the **HTML** field, add or modify the new cancellation message.
 
-    To add variable information to the cancellation message, see [Methods to add variable information to the cancellation message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/r_AddVarInfoToTheCancellationMsg.md).
+    To add variable information to the cancellation message, see [Methods to add variable information to the cancellation message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/r_AddVarInfoToTheCancellationMsg.md).
 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/maintain-monitor-now-platform.md)
+**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/maintain-monitor-now-platform.md)
 

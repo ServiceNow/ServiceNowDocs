@@ -2,7 +2,7 @@
 title: Add a compensating control to the library
 description: As a Vulnerability Manager or Analyst, add a list of compensatory controls to the Compensating Controls library in the Security Exposure Management Workspace, which can be applied for the risk reduction of host vulnerable items and remediation tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-compensatory-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-create-compensatory-control.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,21 +51,21 @@ Some commonly used compensating controls are shipped with the base system. You c
 
 Starting from v21.0 of Vulnerability Response, you can associate compensating controls with CVEs or TPEs after adding a compensating controls to the library. For more information on how to associate compensating controls, see .
 
--   **[Associate compensating controls with CVEs or TPEs for risk reduction requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-associate-controls-cve-risk-reduction.md)**  
+-   **[Associate compensating controls with CVEs or TPEs for risk reduction requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-associate-controls-cve-risk-reduction.md)**  
 As a Vulnerability Manager or Analyst, you can associate relevant compensating controls with a Common Vulnerability Entry \(CVE\) or Third-party Entry \(TPE\) in the Security Exposure Management Workspace, which can be used for reducing the risk posed by a vulnerability.
--   **[Disable or enable risk reduction for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-disable-risk-reduction.md)**  
+-   **[Disable or enable risk reduction for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-disable-risk-reduction.md)**  
 As a Vulnerability Manager and Analyst, you can disable or enable the risk reduction requests for the host vulnerabilities associated with a Common Vulnerability Entry \(CVE\) or Third-party Entry \(TPE\) in the Security Exposure Management Workspace.
 
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 
 **Related topics**  
 
 
-[Understanding compensating controls for risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/compensating-controls-overview.md)
+[Understanding compensating controls for risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/compensating-controls-overview.md)
 
-[Restrict or enable risk change for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/disable-risk-reduction.md)
+[Restrict or enable risk change for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/disable-risk-reduction.md)
 
 [associate-controls-cve-risk-reduction]
 
-[Impact of the compensating controls on risk score and expiration date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/requesting-approving-risk-reduction.md)
+[Impact of the compensating controls on risk score and expiration date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/requesting-approving-risk-reduction.md)
 

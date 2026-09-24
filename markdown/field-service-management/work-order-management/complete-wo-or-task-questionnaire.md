@@ -2,7 +2,7 @@
 title: Complete a questionnaire for a work order or task
 description: Complete a questionnaire for a work order or work order task. You can access and complete questionnaires from the Work Order or Work Order Task forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/complete-wo-or-task-questionnaire.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/complete-wo-or-task-questionnaire.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -58,5 +58,5 @@ Complete any remaining work and then close the task.
 **Related topics**  
 
 
-[Configuring survey-based work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-order-questionnaire.md)
+[Configuring survey-based work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/work-order-questionnaire.md)
 

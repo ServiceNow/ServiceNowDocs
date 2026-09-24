@@ -2,7 +2,7 @@
 title: Pause a work order task
 description: Record a break from a work order task in the Field Service application if you are unable to continue the work for any reason. You can resume the work order task when you start working on it again. The system automatically tracks and calculates the actual time taken to complete the task even though you worked at different intervals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/automate-time-recording-field-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/automate-time-recording-field-service.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -18,7 +18,7 @@ Record a break from a work order task in the Field Service application if you ar
 
 ## Before you begin
 
-The system administrator can choose to enable the **work.management.allow.auto.timecard** property so that time cards are automatically created when you start working on a task. The data of the time cards is stored in \[metric\_instance\] table and is controlled by **work.management.allow.auto.metric\_cleanup** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_InstalledWithFSM.md).
+The system administrator can choose to enable the **work.management.allow.auto.timecard** property so that time cards are automatically created when you start working on a task. The data of the time cards is stored in \[metric\_instance\] table and is controlled by **work.management.allow.auto.metric\_cleanup** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_InstalledWithFSM.md).
 
 Role required: wm\_agent
 

@@ -2,7 +2,7 @@
 title: Setting up Demand Forecast in Workforce Optimization for HR
 description: Configure the data you want to collect, modify forecast parameters and calibrate manual adjustments using Demand Forecast.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/setup-demand-forecast-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/setup-demand-forecast-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -16,14 +16,14 @@ breadcrumb: [Configure, Workforce Optimization overview, HR Service Delivery, Em
 
 Configure the data you want to collect, modify forecast parameters and calibrate manual adjustments using Demand Forecast.
 
--   **[Configure data collection for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-data-collection-df-wfo-hr.md)**  
+-   **[Configure data collection for Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/configure-data-collection-df-wfo-hr.md)**  
 Define the data you want to collect for cases, interactions, or any table to forecast the number of agents that you require for your staffing needs.
--   **[Modify forecast parameters to visualize forecast data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/modify-demand-forecase-parameters-wfo-hr.md)**  
+-   **[Modify forecast parameters to visualize forecast data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/modify-demand-forecase-parameters-wfo-hr.md)**  
 Configure and tweak forecast parameters to see how the forecast behaves when you vary the period length, periods to forecast, or algorithm. You can view the modified forecast on the time-series visualization.
--   **[Create a manual adjustment for a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-manual-adjustment-forecase-wfo-hr.md)**  
+-   **[Create a manual adjustment for a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/create-manual-adjustment-forecase-wfo-hr.md)**  
 Adjust forecasts manually to fine-tune them for greater accuracy. Create the adjustment for a specified time period and analyze how it impacts your forecast.
 
-**Parent Topic:**[Configuring Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
+**Parent Topic:**[Configuring Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Resource dashboard widget details
 description: Descriptions of dashboard widgets available in Resource Management Workspace for tracking resource allocation, utilization, and assignment status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rmw-dashboard-widget-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/rmw-dashboard-widget-details.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -148,5 +148,5 @@ Role allocation
 Bar chart displaying monthly breakdown view of the total number of allocated hours based on the user roles. Select the chart to get the drill down view of the resource allocations in the resource board.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/use-ra-rmw.md)
+</table>**Parent Topic:**[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/use-ra-rmw.md)
 

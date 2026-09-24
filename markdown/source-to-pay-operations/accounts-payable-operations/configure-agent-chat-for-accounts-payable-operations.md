@@ -2,7 +2,7 @@
 title: Configure Agent chat for Accounts Payable Operations
 description: Configure agent chat settings in Accounts Payable Operations to enable AP agents to interact with suppliers through live chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -46,12 +46,12 @@ The agent chat settings are configured to interact with an Accounts Payable Oper
 
 ## What to do next
 
-[Configure Agent chat for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.md)
+[Configure Agent chat for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.md)
 
-**Parent Topic:**[Configure Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-advanced-work-assignment-for-apo.md)
+**Parent Topic:**[Configure Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/configure-advanced-work-assignment-for-apo.md)
 
 **Related topics**  
 
 
-[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
+[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
 

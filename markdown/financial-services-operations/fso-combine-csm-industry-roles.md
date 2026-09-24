@@ -2,7 +2,7 @@
 title: Using agent connector and contributor roles in Financial Services Operations
 description: Financial Services Operations \(FSO\) applications install agent connector and contributor roles to manage and monitor user privileges effectively. To provide the right level of access, these roles must be paired with roles in the CSM Industry data model and contributor user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-combine-csm-industry-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-combine-csm-industry-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

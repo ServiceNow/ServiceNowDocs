@@ -2,7 +2,7 @@
 title: Export application rationalization data to Excel or CSV
 description: Export the application rationalization list view data to Microsoft Excel or CSV to obtain insights, share with stakeholders, and prepare for analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-export-app-rat-list-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-export-app-rat-list-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: sn\_apm.apm\_user
 
 A file with the selected format is downloaded and saved in your local system.
 
-**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-app-rat-list-view.md)
+**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-using-app-rat-list-view.md)
 

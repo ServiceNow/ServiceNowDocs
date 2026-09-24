@@ -2,7 +2,7 @@
 title: View suggested integrations for the Data Foundations advisor
 description: View integrations recommended for your Data Foundations advisor scope that are not yet installed, to identify opportunities to improve CI data coverage for your principal classes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-sugg-integ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-sugg-integ.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -21,7 +21,7 @@ View integrations recommended for your Data Foundations advisor scope that are n
 
 Role required: sn\_cmdb\_admin
 
-The Data Foundations advisor dashboard must be configured before you can access the **Data integrations** tab. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md).
+The Data Foundations advisor dashboard must be configured before you can access the **Data integrations** tab. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md).
 
 ## Procedure
 
@@ -42,5 +42,5 @@ The Data Foundations advisor dashboard must be configured before you can access 
 
 ## Result
 
-You have identified the integrations recommended for your Data Foundations scope. To evaluate attribute coverage for integrations that are already installed, see [Evaluate Data Foundations data integration coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-evaluate-data-integration.md).
+You have identified the integrations recommended for your Data Foundations scope. To evaluate attribute coverage for integrations that are already installed, see [Evaluate Data Foundations data integration coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-evaluate-data-integration.md).
 

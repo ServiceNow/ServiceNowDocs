@@ -2,7 +2,7 @@
 title: Automating and optimizing your services and operations using Service Operations Workspace
 description: You can expand services while reducing costs, delivering high-quality customer and employee experiences, and driving operational resilience. Use a single cloud platform that integrates IT processes such as incident, problem, and change with IT operations such as discovery, business service definitions, service mapping, and event management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/service-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/service-operations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -301,8 +301,8 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
         Role: itil.
 
 
--   **[Case Study: Enhancing Risk, Compliance, and Audit Management with ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/use-case-itom-risk-compliance-audit-mgmt.md)**  
+-   **[Case Study: Enhancing Risk, Compliance, and Audit Management with ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/use-case-itom-risk-compliance-audit-mgmt.md)**  
 The use case demonstrates how ITOM integration streamlined risk, compliance, and audit management for a financial institution by providing real-time operational visibility, automation, and enhanced risk assessments.
 
-**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/solutions-gallery.md)
 

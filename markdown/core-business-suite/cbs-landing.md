@@ -2,7 +2,7 @@
 title: Core Business Suite
 description: Core Business Suite \(CBS\) lays the foundation to unify disjointed processes. It’s a collection of modules that fulfills different business needs, for different personas, within a single product suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,11 +31,11 @@ Choose one of these tiles to get started.
 
 <table id="table_nxz_wtc_hgc" class="nav-card"><tbody><tr><td>
 
-[Employee support\[Omitted image "bus-webinar.svg"\] Alt text:Learn more about the applications and features available in CBS to enable employee support system in your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/exploring-emp-home.md)
+[Employee support\[Omitted image "bus-webinar.svg"\] Alt text:Learn more about the applications and features available in CBS to enable employee support system in your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/exploring-emp-home.md)
 
 </td><td>
 
-[Supplier support\[Omitted image "bus-webinar.svg"\] Alt text:Learn more about the applications and features available in CBS to enable supplier support system in your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/exploring-supplr-home.md)
+[Supplier support\[Omitted image "bus-webinar.svg"\] Alt text:Learn more about the applications and features available in CBS to enable supplier support system in your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/exploring-supplr-home.md)
 
 </td></tr></tbody>
 </table>

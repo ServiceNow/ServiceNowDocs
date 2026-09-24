@@ -2,7 +2,7 @@
 title: Workspace Builder components for home pages
 description: Several UI Builder components are available as elements to build home pages and contextual side panels in Workspace Builder. Workspace Builder helps you quickly create workspaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/workspace-builder-components-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/workspace-builder/workspace-builder-components-ref.html
 release: australia
 product: Workspace Builder
 classification: workspace-builder
@@ -77,5 +77,5 @@ Add text to your landing page with a rich text component to explain parts of you
 
 For more information on rich text components, see the [Developer site Rich text component reference](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-rich-text/overview).
 
-**Parent Topic:**[Workspace Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-reference.md)
+**Parent Topic:**[Workspace Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/workspace-builder-reference.md)
 

@@ -2,7 +2,7 @@
 title: Track inventory
 description: View a map that shows stockrooms with available parts relative to your location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-available-parts-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/view-available-parts-inventory.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -100,7 +100,7 @@ Do this
 
 </td><td>
 
-For more information, see [Perform asset audit for personal stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/perform-asset-audit.md).
+For more information, see [Perform asset audit for personal stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/perform-asset-audit.md).
 
 </td></tr></tbody>
 </table>
@@ -110,5 +110,5 @@ The stockroom locations' information appear in the form of interactive map and c
 
 ## What to do next
 
-[Request inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/request-inventory.md)
+[Request inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/request-inventory.md)
 

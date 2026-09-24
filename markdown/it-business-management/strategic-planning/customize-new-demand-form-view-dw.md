@@ -2,7 +2,7 @@
 title: Customize the demand record form
 description: Customize the demand form in Next Experience for Demand Management to configure which fields appear when users create a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/customize-new-demand-form-view-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/customize-new-demand-form-view-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

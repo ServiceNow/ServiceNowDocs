@@ -2,7 +2,7 @@
 title: Install ServiceNow Add-in for Microsoft Outlook
 description: Configure user roles and download the office add-in manifest file to use the ServiceNow add-in for Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/install-servicenow-add-in-for-outlook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/product-feedback/install-servicenow-add-in-for-outlook.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -47,12 +47,12 @@ Verify that you have a ServiceNow® add-in for Microsoft Outlook \(com.sn\_outlo
     You can connect to your Microsoft Outlook account with your ServiceNow® instance.
 
 
-**Parent Topic:**[Configuring Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
+**Parent Topic:**[Configuring Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
 
 **Related topics**  
 
 
-[Create feedback from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-feedback-from-outlook.md)
+[Create feedback from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/create-feedback-from-outlook.md)
 
-[Configure email for feedback submission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/configure-outlook-email-for-feedback.md)
+[Configure email for feedback submission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/configure-outlook-email-for-feedback.md)
 

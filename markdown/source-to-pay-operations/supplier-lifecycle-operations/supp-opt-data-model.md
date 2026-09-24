@@ -2,7 +2,7 @@
 title: Supplier Payment Optimization data model
 description: The diagram shows the tables and their relationships that comprise the Supplier Payment Optimization data model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supp-opt-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-opt-data-model.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -20,5 +20,5 @@ The diagram shows the tables and their relationships that comprise the Supplier 
 
 \[Omitted image "supp-opt-data-model2.png"\] Alt text: Supplier payment optimization data model
 
-**Parent Topic:**[Supplier Payment Optimization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-payment-opt-ref.md)
+**Parent Topic:**[Supplier Payment Optimization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-payment-opt-ref.md)
 

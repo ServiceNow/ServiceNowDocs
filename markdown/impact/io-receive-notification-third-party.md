@@ -2,7 +2,7 @@
 title: Configure alert notifications for a third-party application
 description: Set up a basic integration between Instance Observer \(IO\) and third-party integrations to route IO alert notifications to an external system in addition to emails and SMS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-receive-notification-third-party.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-receive-notification-third-party.html
 release: australia
 topic_type: task
 last_updated: "2026-04-28"
@@ -170,5 +170,5 @@ Webhook URL as configured on your third-party \(external\) application.For more 
         2.  As Notifications from \[Omitted image "io-bell-icon.png"\] Alt text: bell icon. Select **View Notification History** and filter with `Integration Failed`.
         3.  As an email notification with the integration name, error number, and the message.
 
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-alerts-intro.md)
 

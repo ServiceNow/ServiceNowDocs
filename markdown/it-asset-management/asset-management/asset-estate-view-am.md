@@ -2,7 +2,7 @@
 title: Asset estate view
 description: Use the Asset estate view in the Asset Workspace to create, view, and modify the assets and also manage asset functions and notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/asset-estate-view-am.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/asset-estate-view-am.html
 release: australia
 product: Asset Management
 classification: asset-management

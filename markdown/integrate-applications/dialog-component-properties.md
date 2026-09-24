@@ -2,7 +2,7 @@
 title: Dialog component properties
 description: Refer to the descriptions of the properties of the Dialog components. You can update the properties, if required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/dialog-component-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/dialog-component-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ Refer to the descriptions of the properties of the Dialog components. You can up
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/dialogs.md)
+**Parent Topic:**[Dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/dialogs.md)
 

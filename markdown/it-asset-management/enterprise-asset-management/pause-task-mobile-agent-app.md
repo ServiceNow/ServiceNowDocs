@@ -2,7 +2,7 @@
 title: Pause a task using the Mobile Agent application
 description: Record a break from a work order task or asset task in the Mobile Agent application if you’re not continuing to work on it. Resume the task when you start working on it again. The system automatically tracks and calculates the actual time taken to complete the task even though the work was interrupted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/pause-task-mobile-agent-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/pause-task-mobile-agent-app.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -52,7 +52,7 @@ Role required:
 
 Each time you pause or resume work on the task, the actual time you worked on the task is automatically calculated. An entry for the time worked is created in the Time worked time card.
 
-**Parent Topic:**[Record time worked on a task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-time-mobile-agent-app.md)
+**Parent Topic:**[Record time worked on a task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-time-mobile-agent-app.md)
 
 **Related topics**  
 

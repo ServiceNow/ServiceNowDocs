@@ -2,7 +2,7 @@
 title: Configure a slider option for a number input
 description: Create a slider option for a number input on your input form screen. Sliders help users visualize the input range and reduce errors by limiting choices to defined minimum and maximum values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/configure-slider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/configure-slider.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Create a slider option for a number input on your input form screen. Sliders hel
 
 Role required: admin
 
-This task assumes that you already have the basis of an input form screen configured before adding the slider option for a number input. For more information, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+This task assumes that you already have the basis of an input form screen configured before adding the slider option for a number input. For more information, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-config.md).
 
 ## About this task
 
@@ -29,9 +29,9 @@ Creating a slider render type is more involved than for the other render types: 
 -   Max input attribute
 -   StepSize input attribute
 
-You can add additional number input attributes to the ones listed. For a complete list, check the Number inputs section in [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-var-attr.md).
+You can add additional number input attributes to the ones listed. For a complete list, check the Number inputs section in [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-var-attr.md).
 
-To view how different types of sliders display, see [Slider types and their input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/slider-input-attributes.md).
+To view how different types of sliders display, see [Slider types and their input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/slider-input-attributes.md).
 
 |Slider containing a reference point|Decorative slider with number and textual indicator|
 |-----------------------------------|---------------------------------------------------|
@@ -53,7 +53,7 @@ To view how different types of sliders display, see [Slider types and their inpu
 
 5.  Scroll down to the Inputs section of the form and then either select an input to modify it or select  **New**  to create an input.
 
-    The Input form appears. For more information about configuring inputs, see [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-inputs.md).
+    The Input form appears. For more information about configuring inputs, see [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/param-screen-config-inputs.md).
 
 6.  In the **Input type** field within the **Settings** area, select **Number**.
 
@@ -77,9 +77,9 @@ To view how different types of sliders display, see [Slider types and their inpu
 
 15. Add any additional input parameters that are applicable to the slider you want to create.
 
-    For a list of the slider types, see [Slider types and their input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/slider-input-attributes.md).
+    For a list of the slider types, see [Slider types and their input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/slider-input-attributes.md).
 
-    **Note:** If you select the Decoration input attribute, which displays sections on the slider with corresponding labels, you must apply additional configuration. For more information, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/decorative-slider.md).
+    **Note:** If you select the Decoration input attribute, which displays sections on the slider with corresponding labels, you must apply additional configuration. For more information, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/decorative-slider.md).
 
 16. Select **Save**.
 

@@ -2,7 +2,7 @@
 title: Override a dynamic choice
 description: Make a choice appear differently in a specific dynamic namespace by creating a dynamic choice override.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/override-dynamic-choice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/override-dynamic-choice.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

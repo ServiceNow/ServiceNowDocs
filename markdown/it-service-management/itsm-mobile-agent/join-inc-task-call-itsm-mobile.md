@@ -2,7 +2,7 @@
 title: Join an active conference call from an incident task
 description: You can join an active conference call from an incident task record to discuss about the resolution of an incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/join-inc-task-call-itsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/join-inc-task-call-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

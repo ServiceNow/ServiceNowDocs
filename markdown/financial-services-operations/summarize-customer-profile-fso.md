@@ -2,7 +2,7 @@
 title: Summarize a banking customer profile with AI
 description: Use the Customer Profile Summarization skill to generate an AI-powered overview of a customer's status and information within the Customer 360 page in Agentic Contact Center for Banking. This feature helps customer service representatives quickly understand a customer's status to provide personalized, real-time support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/summarize-customer-profile-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/summarize-customer-profile-fso.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -78,16 +78,16 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 </table>
 ## What to do next
 
-Use an AI agent to engage in Q&amp;A, anticipate customer needs, and surface insights. For more information, see [Generate customer insights in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/generate-customer-insights-customer-360-workspace.md).
+Use an AI agent to engage in Q&amp;A, anticipate customer needs, and surface insights. For more information, see [Generate customer insights in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/generate-customer-insights-customer-360-workspace.md).
 
-**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/using-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[AI in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
+[AI in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
 
-[AI skills in Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-skills-agentic-contact-center-banking.md)
+[AI skills in Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/ai-skills-agentic-contact-center-banking.md)
 
-[Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-profile-summarization-fso.md)
+[Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-customer-profile-summarization-fso.md)
 

@@ -2,12 +2,12 @@
 title: Configure portable software discovery in Agent Client Collector for Visibility Content
 description: Configure portable software the Agent Client Collector for Visibility Content \(ACC-VC\) agent discovers by updating the config table. This ensures that only portable software that was configured is searched for and discovered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-package-discovery-accvc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/configure-package-discovery-accvc.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Discover portable software installed by package managers, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -55,10 +55,10 @@ Software discovery is governed by the Portable Software Package Discovery \(**sn
     |Status|When software is successfully discovered, value is **install ok installed**.|
 
 
-**Parent Topic:**[Discover portable software installed by package managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accvc-package-discovery.md)
+**Parent Topic:**[Discover portable software installed by package managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/accvc-package-discovery.md)
 
 **Related topics**  
 
 
-[Discover portable software installed by package managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accvc-package-discovery.md)
+[Discover portable software installed by package managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/accvc-package-discovery.md)
 

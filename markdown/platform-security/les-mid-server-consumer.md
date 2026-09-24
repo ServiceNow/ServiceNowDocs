@@ -2,7 +2,7 @@
 title: MID server consumer
 description: Use guided setup to step through the initial configuration of LES for MID server consumer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-mid-server-consumer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-mid-server-consumer.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,12 +30,12 @@ The categories page contains an overview and descriptions of the categories and 
 
 Complete the tasks under each category by following the setup instructions.
 
--   **[Guided setup for MID Server consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-guided-setup-mid-server.md)**  
+-   **[Guided setup for MID Server consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-guided-setup-mid-server.md)**  
 Implement the following steps for a complete guided setup for MID Server consumers.
--   **[Multi-consumer support using unique mid servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-multi-consumer.md)**  
+-   **[Multi-consumer support using unique mid servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-multi-consumer.md)**  
 You can now precisely manage log consumption with a new multi-consumer system, enabling dedicated consumers and MID servers for each specific log stream.
 
-**Parent Topic:**[Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-configure.md)
+**Parent Topic:**[Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-configure.md)
 
 **Related topics**  
 

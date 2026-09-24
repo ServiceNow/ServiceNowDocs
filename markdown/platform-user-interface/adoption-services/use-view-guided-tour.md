@@ -2,7 +2,7 @@
 title: Assign a view to Guided Tours
 description: You can assign a list or form view to a step in a guided tour.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/use-view-guided-tour.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/use-view-guided-tour.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -61,5 +61,5 @@ To assign a view to a tour step, you must know the view name. The name you see i
     3.  Verify that the step you modified displays the correct view.
 
 
-**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configure-guided-tours.md)
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/configure-guided-tours.md)
 

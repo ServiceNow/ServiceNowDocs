@@ -2,7 +2,7 @@
 title: Build workflows
 description: Transform manual tasks and mundane work into digital workflows. Modernize legacy processes with automation. Enable app development at all levels — no-code, low-code, and pro-code — from one platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/build-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/build-workflows.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,15 +19,15 @@ Increase the impact of your cross‑enterprise workflows by automating manual pr
 
 <table id="table_w4r_vzq_rvb" class="nav-card"><tbody><tr><td>
 
-[Workflow Studio \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Access workflow applications from a single interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)
+[Workflow Studio \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Access workflow applications from a single interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio.md)
 
 </td><td>
 
-[Workflow Studio flows \[Omitted image "bus-workflow.svg"\] Alt text: Build multi-step flows from reusable components without having to code.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md)
+[Workflow Studio flows \[Omitted image "bus-workflow.svg"\] Alt text: Build multi-step flows from reusable components without having to code.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/exploring-flows.md)
 
 </td><td>
 
-[Workflow Studio playbooks \[Omitted image "bus-anomaly-detection.svg"\] Alt text: Author cross-enterprise workflows and create a single, unified process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
+[Workflow Studio playbooks \[Omitted image "bus-anomaly-detection.svg"\] Alt text: Author cross-enterprise workflows and create a single, unified process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 
 </td></tr><tr><td>
 
@@ -35,11 +35,11 @@ Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-mana
 
 </td><td>
 
-[Workflow Studio decision tables \[Omitted image "bus-datasheet.svg"\] Alt text: Decouple decision logic from code by creating and maintaining decision rules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
+[Workflow Studio decision tables \[Omitted image "bus-datasheet.svg"\] Alt text: Decouple decision logic from code by creating and maintaining decision rules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/decision-designer-overview.md)
 
 </td><td>
 
-[Service Creator \[Omitted image "bus-service-catalog.svg"\] Alt text: Enables a department to offer custom services through the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/service-creator/c_ServiceCreator.md)
+[Service Creator \[Omitted image "bus-service-catalog.svg"\] Alt text: Enables a department to offer custom services through the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/service-creator/c_ServiceCreator.md)
 
 </td></tr></tbody>
 </table>## Workflow Studio
@@ -74,7 +74,7 @@ Service creator enables a department to offer custom services through the servic
 
 The ServiceNow AI Platform supports these classic workflow builder tools.
 
--   **[Classic Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_Approvals.md)**
+-   **[Classic Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/approvals/r_Approvals.md)**
 
     Classic approvals are a legacy process to require authorization on tasks before the work is done. In earlier releases, you could create approval records to define approval tasks and associate users or groups to approve or reject them. You can replace classic approvals with Workflow Studio flows or classic workflows.
 
@@ -82,34 +82,34 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     A business rule is a server-side script that runs when a record is displayed, inserted, updated, or deleted, or when a table is queried. You can replace classic business rules with Workflow Studio flows.
 
--   **[Classic Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/events.md)**
+-   **[Classic Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/system-events/events.md)**
 
     Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response to the conditions. You can replace classic events with Workflow Studio flows or Playbooks processes.
 
--   **[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md)**
+-   **[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowOverview.md)**
 
     Workflow is a legacy application that provided a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes. You can replace classic workflows with Workflow Studio flows or Playbooks processes.
 
 
 ## Applications and features
 
--   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)**
+-   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio.md)**
 
     Integrate workflow authoring, configuring, and monitoring into a single page experience. Consolidate Playbooks, Workflow Studio, Workflow Studio, Integration Hub integrations, and Decision Builder into one design environment.
 
--   **[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)**
+-   **[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer.md)**
 
     Playbook enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
 
--   **[Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md)**
+-   **[Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/exploring-flows.md)**
 
     Flows automate a repeatable multi-step process. When the flow trigger conditions are met, the flow runs a sequence of reusable actions and flow logic to complete the process.
 
--   **[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-actions.md)**
+-   **[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/exploring-actions.md)**
 
     Actions automate a repeatable task or operation within a flow. Flows run actions by passing them data as inputs. Actions run a sequence of steps to complete the task, and pass data to the flow as outputs.
 
--   **[Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md)**
+-   **[Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/decision-designer-overview.md)**
 
     Workflow Studio decision tables enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
@@ -117,11 +117,11 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     Interact with a business workflow in real time from within Workspace. Agents can use Playbook to update records, upload attachments, and complete tasks across multiple workflow activities.
 
--   **[Service Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/service-creator/c_ServiceCreator.md)**
+-   **[Service Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/service-creator/c_ServiceCreator.md)**
 
     Service creator enables a department to offer custom services through the service catalog, such as the HR department offering tuition reimbursement for further education.
 
--   **[Classic Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_Approvals.md)**
+-   **[Classic Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/approvals/r_Approvals.md)**
 
     Classic approvals are a legacy process to require authorization on tasks before the work is done. In earlier releases, you could create approval records to define approval tasks and associate users or groups to approve or reject them.
 
@@ -129,11 +129,11 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     A business rule is a server-side script that runs when a record is displayed, inserted, updated, or deleted, or when a table is queried.
 
--   **[Classic Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/events.md)**
+-   **[Classic Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/system-events/events.md)**
 
     Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response to the conditions.
 
--   **[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md)**
+-   **[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowOverview.md)**
 
     Workflow is a legacy application that provided a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes.
 

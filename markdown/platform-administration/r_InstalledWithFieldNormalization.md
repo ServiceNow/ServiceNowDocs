@@ -2,7 +2,7 @@
 title: Installed with field normalization
 description: Several components are installed with Field Normalization.Manage field normalization and transformation.Create test records for normalizations and transformations. Only records opened by users with this role are available for testing normalization and transformation rules in Test mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_InstalledWithFieldNormalization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_InstalledWithFieldNormalization.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

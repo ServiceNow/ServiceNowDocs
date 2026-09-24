@@ -2,7 +2,7 @@
 title: Schedule Management standalone activation
 description: Schedule Management as a standalone plugin supports to manage agent schedules, team calendars, shift swaps, time off, and adherence, with access from supported CSM workspaces without requiring the full WFO suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/schedule-management-as-a-standalone-activation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/schedule-management-as-a-standalone-activation.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-09"
@@ -26,5 +26,5 @@ Standalone installation supports the following use cases:
 
 **Note:** Existing WFO deployments that include Schedule Management continue to function after standalone activation. No additional configuration is required for existing integrated environments. Scheduling workflows, permissions, and integrations remain unchanged.
 
-**Parent Topic:**[Schedule Management in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/schedule-management-capabilities-in-csm-configurable-workspace.md)
+**Parent Topic:**[Schedule Management in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/schedule-management-capabilities-in-csm-configurable-workspace.md)
 

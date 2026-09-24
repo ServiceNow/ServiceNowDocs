@@ -2,7 +2,7 @@
 title: Workplace Central Event planner
 description: The Workplace Central Event planner is a one-stop workspace where you can check all the reservations requested in your organization at a time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/event-planner-key-features-actions-views.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/event-planner-key-features-actions-views.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -245,7 +245,7 @@ From the reservation details page, you can also open the reservation to view it 
 
 As a reservation planner, you can cancel a reservation if necessary using the **Cancel reservation** option.
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

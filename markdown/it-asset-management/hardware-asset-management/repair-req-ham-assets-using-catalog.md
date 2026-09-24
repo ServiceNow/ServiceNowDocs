@@ -2,7 +2,7 @@
 title: Request repair of hardware assets using Service Catalog
 description: Submit a Service Catalog request to repair hardware assets that are defective or pending repair in your stockroom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/repair-req-ham-assets-using-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/repair-req-ham-assets-using-catalog.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -74,5 +74,5 @@ Stockroom that has assets to be repaired.
 -   A repair order is created in the **Draft** stage.
 -   Each asset in the repair order is associated with a repair order line that is in the **Troubleshoot** stage.
 
-**Parent Topic:**[Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md)
+**Parent Topic:**[Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md)
 

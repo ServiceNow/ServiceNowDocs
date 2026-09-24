@@ -2,7 +2,7 @@
 title: ITSM Mobile email notification redirection via web
 description: Redirect the users to the ITSM Mobile application from the mobile web browser to open and view the task records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/itsm-ma-email-notification-redirection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/itsm-ma-email-notification-redirection.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

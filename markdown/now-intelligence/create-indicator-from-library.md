@@ -2,7 +2,7 @@
 title: Create an indicator from the library
 description: From the indicator library, you can launch a process to create different kinds of indicators from different sources
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-indicator-from-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-indicator-from-library.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,8 +61,8 @@ You are taken to the appropriate form, depending on your selection.
 
 Follow the instructions for the form that opens:
 
--   [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
--   [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md)
--   [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
--   [Using Performance Analytics with external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-external-data.md)
+-   [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
+-   [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md)
+-   [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
+-   [Using Performance Analytics with external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-external-data.md)
 

@@ -2,7 +2,7 @@
 title: Configuring AI Skill Kit
 description: Configure prompts and skills for AI Skill Kit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -22,12 +22,12 @@ To use AI Skill Kit, you must update your Otto plugins in the [Application Manag
 
 After you install the plugin, there are two parts to configuring a skill in AI Skill Kit. First, you must configure how to deploy the skill. Next, you must configure the prompt.
 
--   **[Configure a skill prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-prompt.md)**  
+-   **[Configure a skill prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/configure-skill-prompt.md)**  
 Configure your skill prompt to set the model that is used and the randomness and creativity of the response.
--   **[Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)**  
+-   **[Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)**  
 Configure where a skill appears in AI Admin Hub, review general information, set security controls, choose a provider, and add evaluation metrics.
--   **[Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md)**  
+-   **[Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/nask-access-control.md)**  
 You must define an access control list \(ACL\) and role restrictions for all skills. An ACL enables you to restrict who is able to access and execute a skill to only users with the correct role. Role restrictions enable users to limit roles during skill execution.
 
-**Parent Topic:**[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+**Parent Topic:**[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

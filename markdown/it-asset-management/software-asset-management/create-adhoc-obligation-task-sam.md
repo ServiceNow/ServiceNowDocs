@@ -2,7 +2,7 @@
 title: Create an ad hoc obligation task in Software Asset Workspace
 description: Create an obligation task required only once or at irregular intervals to track and fulfill an obligation specified in a contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-adhoc-obligation-task-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-adhoc-obligation-task-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -84,7 +84,7 @@ View the obligation record by navigating to one of the following paths:
 -   Navigate to the **Obligations tasks** tab within the obligation record.
 -   Navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Contracts** &gt; **Obligation tasks**.
 
-**Parent Topic:**[Manage obligation tasks in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manage-obligation-tasks-software-asset-workspace.md)
+**Parent Topic:**[Manage obligation tasks in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/manage-obligation-tasks-software-asset-workspace.md)
 
 **Related topics**  
 

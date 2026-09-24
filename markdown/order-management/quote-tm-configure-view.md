@@ -2,7 +2,7 @@
 title: Create a transaction view
 description: Create or modify a ServiceNow Quote Experience view by editing the fields CSV, events CSV, and views YAML files and importing them through the blueprint ZIP in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-configure-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-configure-view.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -16,7 +16,7 @@ Create or modify a ServiceNow Quote Experience view by editing the fields CSV, e
 
 ## Before you begin
 
-The personas to associate with the view must exist. For more information, see [Create a transaction persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-persona.md).
+The personas to associate with the view must exist. For more information, see [Create a transaction persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-persona.md).
 
 Access to the Matrix Loader for blueprint import is required.
 
@@ -49,5 +49,5 @@ View field and event access values cannot be modified in the ServiceNow Quote Ex
     The updated view takes effect when the blueprint deployment completes.
 
 
-**Parent Topic:**[Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-views.md)
+**Parent Topic:**[Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-views.md)
 

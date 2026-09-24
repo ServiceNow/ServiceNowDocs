@@ -2,7 +2,7 @@
 title: Update a privacy assessment request
 description: Update request details, add comments, or upload documents in a privacy assessment request you submitted while it is still in the New or Assigned state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-privacy/update-existing-legal-privacy-assessment-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-privacy/update-existing-legal-privacy-assessment-request.html
 release: australia
 product: Legal Simple Privacy
 classification: legal-simple-privacy
@@ -46,15 +46,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 10. Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d231824e154">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d231828e154">
 
 Option
 
-</th><th align="left" id="d231824e157">
+</th><th align="left" id="d231828e157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d231824e163">
+</th></tr></thead><tbody><tr><td id="d231828e163">
 
 **If the Attachments tab is visible**
 
@@ -65,7 +65,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d231824e202">
+</td></tr><tr><td id="d231828e202">
 
 **If the Documents tab is visible**
 
@@ -84,7 +84,7 @@ A link to the document is listed in the **External URL** column of the documents
     **Note:** The **Approvals** tab appears only when the privacy assessment request or an attachment has approval records.
 
 
-**Parent Topic:**[Privacy assessment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-privacy/privacy-assessment-requests.md)
+**Parent Topic:**[Privacy assessment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-privacy/privacy-assessment-requests.md)
 
 **Related topics**  
 

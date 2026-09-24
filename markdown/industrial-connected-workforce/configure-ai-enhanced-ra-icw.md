@@ -2,7 +2,7 @@
 title: Configure AI Enhanced Recommended Actions for Industrial Connected Workforce
 description: Configure AI Enhanced Recommended Actions for ICW to contextualize external sources related to a deviation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/configure-ai-enhanced-ra-icw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/configure-ai-enhanced-ra-icw.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,17 +25,17 @@ Configure AI Enhanced Recommended Actions for ICW to contextualize external sour
 
     Configure the crawl settings to specify the sites you want your Microsoft SharePoint Online external content connector to crawl.
 
-3.  [Set up the search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/set-up-ai-enhanced-ra-icw.md)
+3.  [Set up the search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/set-up-ai-enhanced-ra-icw.md)
 
     Set the search source in the **\[RA-ICW AI\] Search Profile** record to the Microsoft SharePoint Online external content connector you created.
 
-4.  [Edit the fields used for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/set-up-ai-enhanced-ra-icw.md)
+4.  [Edit the fields used for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/set-up-ai-enhanced-ra-icw.md)
 
     If needed, add or remove the deviation record fields leveraged during the search process.
 
 
--   **[Set up AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/set-up-ai-enhanced-ra-icw.md)**  
+-   **[Set up AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/set-up-ai-enhanced-ra-icw.md)**  
 Set up AI Enhanced Recommended Actions for ICW so that you can contextualize external sources related to a deviation.
 
-**Parent Topic:**[AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/ai-enhanced-ra-icw-landing.md)
+**Parent Topic:**[AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/ai-enhanced-ra-icw-landing.md)
 

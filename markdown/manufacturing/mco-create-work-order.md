@@ -2,7 +2,7 @@
 title: Create a work order
 description: When off-site work is required, create a work order to provide field service agents with the information they must fulfill the request. You can create a work order from scratch or from another existing work order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-work-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-work-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Role required: Quality Issue Management Admin, product non-conformance submitter
 
 5.  On the Work Order form, fill in the fields.
 
-    For a description of the field values, see [Work order form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/work-order-form.md).
+    For a description of the field values, see [Work order form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/work-order-form.md).
 
 6.  Select **Save**.
 

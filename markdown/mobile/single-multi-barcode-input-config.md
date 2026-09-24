@@ -2,7 +2,7 @@
 title: Configure input form screens with single and multi-scan barcode inputs
 description: Configure input fields that you can use to scan a single barcode one at a time or multiple barcodes without leaving the scanning interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/single-multi-barcode-input-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/single-multi-barcode-input-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,13 +16,13 @@ Configure input fields that you can use to scan a single barcode one at a time o
 
 ## Before you begin
 
-You must create an input form screen before you create inputs. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+You must create an input form screen before you create inputs. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-config.md).
 
 Role required: admin
 
 ## About this task
 
-Barcode inputs are available [offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md). [Mobile UI rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-rules.md) apply to barcode inputs.
+Barcode inputs are available [offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-offline-mode.md). [Mobile UI rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-ui-rules.md) apply to barcode inputs.
 
 ## Procedure
 
@@ -52,15 +52,15 @@ Barcode inputs are available [offline](https://raw.githubusercontent.com/Service
 
 6.  Depending on the type of barcode scan input you want to configure.
 
-<table id="choicetable_dwz_qrl_zvb"><thead><tr><th align="left" id="d51068e249">
+<table id="choicetable_dwz_qrl_zvb"><thead><tr><th align="left" id="d51015e249">
 
 Option
 
-</th><th align="left" id="d51068e252">
+</th><th align="left" id="d51015e252">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51068e258">
+</th></tr></thead><tbody><tr><td id="d51015e258">
 
 **Single scan barcode inputs**
 
@@ -68,7 +68,7 @@ Description
 
 When you finish configuring all the fields you want, select **Update**.
 
-</td></tr><tr><td id="d51068e270">
+</td></tr><tr><td id="d51015e270">
 
 **Multi-scan barcode inputs**
 

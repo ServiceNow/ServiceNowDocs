@@ -2,7 +2,7 @@
 title: Identify endless loops in blueprint rules
 description: Use the Rule Cycle Report to identify endless loops that may be hard to find during ordinary operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-identify-endless-loops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-identify-endless-loops.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

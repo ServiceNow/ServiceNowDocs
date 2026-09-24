@@ -2,7 +2,7 @@
 title: Monitor capacity subscription calculations in Subscription Management
 description: View how a capacity total is calculated to keep your subscription in compliance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/view-how-totals-calculated-capacity-subscriptions-v2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/view-how-totals-calculated-capacity-subscriptions-v2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 7.  If the capacity subscription is out of compliance, adjust the number of allocated resources or increase the capacity subscription.
 
 
-**Parent Topic:**[Monitoring capacity subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-capacity-subscriptions.md)
+**Parent Topic:**[Monitoring capacity subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/monitoring-capacity-subscriptions.md)
 

@@ -2,7 +2,7 @@
 title: Create an HR knowledge article
 description: Create or modify a knowledge article within an HR knowledge base to share HR information across your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-hr-knowledge-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/create-hr-knowledge-article.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,5 +27,5 @@ Role required: sn\_hr\_core.kb\_writer
 2.  Fill in the fields on the form. See [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-knowledge-article.md)
 
 
-**Parent Topic:**[HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-knowledge-management.md)
+**Parent Topic:**[HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-knowledge-management.md)
 

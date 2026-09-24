@@ -2,7 +2,7 @@
 title: Define a communication channel
 description: Define a communication channel for each communication task to determine which mode of communication to use for the task when a plan is attached to a table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/create-comm-channel-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/task-communications-management/create-comm-channel-definition.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management
@@ -191,7 +191,7 @@ Template applied when composing the notification message.
 
 After creating communication tasks and communication channels for those tasks, define contacts for the communication plan.
 
-**Parent Topic:**[Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/create-comm-plan-definition.md)
+**Parent Topic:**[Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/task-communications-management/create-comm-plan-definition.md)
 
 **Related topics**  
 

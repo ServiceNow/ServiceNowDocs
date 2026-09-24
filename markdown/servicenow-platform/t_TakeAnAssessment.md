@@ -2,7 +2,7 @@
 title: Take an assessment
 description: Take the assessments assigned to you from the assessment and survey queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_TakeAnAssessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_TakeAnAssessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,17 +67,17 @@ By default, you can't modify your answers to an assessment after submission. How
     To update your answers and resubmit an assessment that permits retakes, click the card to modify it.
 
 
--   **[Assessments in Service Portal and the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessment-service-portal-and-now-mobile-app.md)**  
+-   **[Assessments in Service Portal and the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/assessment-service-portal-and-now-mobile-app.md)**  
 If you've installed Service Portal, you can use the My Assessments and Surveys widget in Service Portal. Users can view and take assessments in Service Portal. Service Portal also supports assessments for users on mobile devices that have the Now Mobile app installed. The My Assessments and Surveys widget is available by default on the Service Portal home page.
--   **[Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentQuestionnaires.md)**  
+-   **[Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentQuestionnaires.md)**  
 In the assessment process, users complete assessment questionnaires on topics of interest to provide subjective data for future business decisions.
 
-**Parent Topic:**[Using assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-assessments.md)
+**Parent Topic:**[Using assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/using-assessments.md)
 
 **Related topics**  
 
 
-[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
-[Survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDefinitions.md)
+[Survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDefinitions.md)
 

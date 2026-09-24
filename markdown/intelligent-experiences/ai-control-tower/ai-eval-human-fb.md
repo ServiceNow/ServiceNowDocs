@@ -2,7 +2,7 @@
 title: Human feedback for evaluations
 description: Expand the Human feedback section to see details on evaluations and their satisfaction scores.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-eval-human-fb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-eval-human-fb.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

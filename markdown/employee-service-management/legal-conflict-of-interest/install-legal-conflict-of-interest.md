@@ -2,7 +2,7 @@
 title: Install Legal Conflict of Interest
 description: You can install the Legal Conflict of Interest application \(sn\_lg\_coi\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/install-legal-conflict-of-interest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-conflict-of-interest/install-legal-conflict-of-interest.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -38,7 +38,7 @@ The following items are installed with Legal Conflict of Interest:
 -   Tables
 -   Business Rules
 
-For more information, see [Components installed with Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/installed-with-legal-conflict-of-interest.md).
+For more information, see [Components installed with Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/installed-with-legal-conflict-of-interest.md).
 
 ## Procedure
 
@@ -71,5 +71,5 @@ Use the Legal Service Delivery Guided Setup to configure the application on your
 
 To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
 
-**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
+**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 

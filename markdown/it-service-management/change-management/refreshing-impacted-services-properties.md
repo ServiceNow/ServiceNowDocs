@@ -2,7 +2,7 @@
 title: Refresh impacted services properties
 description: Use the refresh impacted services properties to enable or disable the refresh impacted services capability, and to configure the criteria for additional refresh impacted services properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/refreshing-impacted-services-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/refreshing-impacted-services-properties.html
 release: australia
 product: Change Management
 classification: change-management
@@ -24,7 +24,7 @@ By configuring these properties, you can control the capabilities, such as:
 
 The following properties can be found in sys\_properties.list and on the Change properties page.
 
-The `com.snc.change_request.populate_service-offering` and `com.snc.change_request.populate_business_application` properties rely on CMDB relationships between the impacted service and its service offerings or business applications. For an offering or application to be added it its related list, it must be associated with an impacted configuration item identified by the refresh process. For more information on how, affected CIs roll up to impacted services, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
+The `com.snc.change_request.populate_service-offering` and `com.snc.change_request.populate_business_application` properties rely on CMDB relationships between the impacted service and its service offerings or business applications. For an offering or application to be added it its related list, it must be associated with an impacted configuration item identified by the refresh process. For more information on how, affected CIs roll up to impacted services, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
 
 <table id="table_ydl_qdx_v4b"><thead><tr><th>
 
@@ -92,5 +92,5 @@ If this property is set to true, then the `ChangeCollisionHelper` script include
 -   When false, the `Refresh impacted services is initiated` message doesn't appear.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/refresh-impacted-services-cis.md)
+</table>**Parent Topic:**[Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/refresh-impacted-services-cis.md)
 

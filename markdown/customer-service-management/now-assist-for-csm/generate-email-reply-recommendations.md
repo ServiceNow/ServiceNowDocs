@@ -2,7 +2,7 @@
 title: Generate an email response by using ServiceNow Otto for Customer Service Management \(CSM\)
 description: Generate an email response that is based on the case and email context by using the AI icon. With email response, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -40,15 +40,15 @@ An agent can do these actions by using the AI icon:
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d189116e123">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d189213e123">
 
 Method
 
-</th><th align="left" id="d189116e126">
+</th><th align="left" id="d189213e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d189116e132">
+</th></tr></thead><tbody><tr><td id="d189213e132">
 
 **Compose email from More actions**
 
@@ -61,7 +61,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d189116e177">
+</td></tr><tr><td id="d189213e177">
 
 **Compose an email from Activity stream**
 
@@ -75,15 +75,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d189116e225">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d189213e225">
 
 Email message window
 
-</th><th align="left" id="d189116e228">
+</th><th align="left" id="d189213e228">
 
 AI icon
 
-</th></tr></thead><tbody><tr><td id="d189116e234">
+</th></tr></thead><tbody><tr><td id="d189213e234">
 
 **Typed response**
 
@@ -98,7 +98,7 @@ Provides the option to change your tone:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d189116e264">
+</td></tr><tr><td id="d189213e264">
 
 **Left blank**
 
@@ -106,7 +106,7 @@ Provides the option to change your tone:
 
 Generates a recommended email response that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d189116e273">
+</td></tr><tr><td id="d189213e273">
 
 **Use template**
 
@@ -124,5 +124,5 @@ Generates a recommended email response that is based on the context of the email
 6.  Select **Send Email** or discard the draft if you don’t like the recommendation.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

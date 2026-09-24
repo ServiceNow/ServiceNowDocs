@@ -2,7 +2,7 @@
 title: Workplace Maintenance Management dashboard and analytics
 description: The Workplace Maintenance Management dashboard and reporting module provide high-level reporting on maintenance plans, plan records, and cases. Preventive maintenance dashboard provides insights for workplace managers and administrators on all plans, live active plans, plans in draft state, and maintenance cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/workplace-maintenance-management-dashboard-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-maintenance-management/workplace-maintenance-management-dashboard-overview.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -78,11 +78,11 @@ Graphically presented in a pie or line chart. Provides insights on the total num
 </td></tr></tbody>
 </table>Point to the graph or pie chart to view details. Selecting the pie chart or the graph takes the user to a tab that lists the maintenance cases.
 
-Selecting a plan from the list of plans take the user to a tab that lists the details for that plan record. Selecting the **New** button enables you to create a maintenance plan. For more information, see [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-schedule.md).
+Selecting a plan from the list of plans take the user to a tab that lists the details for that plan record. Selecting the **New** button enables you to create a maintenance plan. For more information, see [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-schedule.md).
 
-**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
+**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
-**Previous topic:**[Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-cases.md)
+**Previous topic:**[Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/create-maint-cases.md)
 
-**Next topic:**[Workplace Maintenance Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md)
+**Next topic:**[Workplace Maintenance Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md)
 

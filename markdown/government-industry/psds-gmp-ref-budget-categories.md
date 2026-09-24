@@ -2,7 +2,7 @@
 title: Budget categories in Grants Management
 description: Budget categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-ref-budget-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-gmp-ref-budget-categories.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-31"
@@ -14,7 +14,7 @@ breadcrumb: [Grants Management reference, Reference, Public Sector Digital Servi
 
 Budget categories.
 
-By default, Grants Management comes with these categories. To configure these and add more, see [Configure budget categories in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-budget-cat.md).
+By default, Grants Management comes with these categories. To configure these and add more, see [Configure budget categories in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-budget-cat.md).
 
 |Budget Category| |
 |---------------|---|

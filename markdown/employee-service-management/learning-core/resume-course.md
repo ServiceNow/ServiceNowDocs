@@ -2,7 +2,7 @@
 title: Resume a course
 description: Use this widget to easily access and resume any course that you may have left mid-way.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/resume-course.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/resume-course.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -31,7 +31,7 @@ Role required: admin
 3.  Select **Resume**.
 
 
-**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-your-learning.md)
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-your-learning.md)
 
 **Related topics**  
 

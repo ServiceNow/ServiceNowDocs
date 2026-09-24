@@ -2,7 +2,7 @@
 title: Create an HR case from a chat
 description: If an HR chat results in the need to open a case, create the case directly from the conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateAnHRCaseFromAChat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateAnHRCaseFromAChat.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -59,5 +59,5 @@ When you create an HR case from a support conversation, the system copies the co
     The system automatically shares the record in the conversation, copies the conversation to the record activity stream, and references the record on the Chat Queue Entry \[chat\_queue\_entry\] table. Any new journal fields added to the record do not appear in the chat. The system also changes the document ID for the conversation to reference the incident number instead of the entry in the Chat Queue Entry table.
 
 
-**Parent Topic:**[HR chat from lists and forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/chat-with-scoped-hr.md)
+**Parent Topic:**[HR chat from lists and forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/chat-with-scoped-hr.md)
 

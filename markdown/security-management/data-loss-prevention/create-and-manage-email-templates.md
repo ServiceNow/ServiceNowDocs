@@ -2,7 +2,7 @@
 title: Create email templates
 description: Create and manage the preconfigured email templates for sending notifications to your end users, user groups, or managers. With these templates, you can coach and communicate with your end users about the Data Loss Prevention Incident Response \(DLP IR\) incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-and-manage-email-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/create-and-manage-email-templates.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -319,7 +319,7 @@ Please review the response for these incidents ${link_to_incidents_in_period_use
 
 The end user receives a digest notification email with all the selected variable fields in the template.
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

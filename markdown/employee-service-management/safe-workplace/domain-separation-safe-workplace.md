@@ -2,7 +2,7 @@
 title: Domain separation and Safe Workplace suite
 description: The Safe Workplace suite applications support domain separation at the Basic level with the exception of Safe Workplace Dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/domain-separation-safe-workplace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/domain-separation-safe-workplace.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -44,7 +44,7 @@ The following applications use the Safe Workplace domain table:
 
 Admins must install the [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md)before working with these application tables. Most of those tables contain a **sys\_domain** field so they are able to be domain-separated if they have data that needs to be partitioned by domain.
 
--   Core domain table: Included in the [Safe Workplace plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/safe-workplace.md) is an sn\_imt\_core\_domain table. Domains in this table are iterated when scheduled jobs run.
+-   Core domain table: Included in the [Safe Workplace plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/safe-workplace.md) is an sn\_imt\_core\_domain table. Domains in this table are iterated when scheduled jobs run.
 -   Property table: The sn\_imt\_core\_property table extends the sys\_properties table and adds a sys\_domain field. Adding that field allows sys\_properties values to be overridden for a domain.
 
 **Note:** Values are handled differently for `password2`​ fields than for other property types. Therefore, the value displays as blank in the domain-separated properties list view.
@@ -104,12 +104,12 @@ You can navigate back to the record form by selecting a property name in the lis
 
 Learn more about how these properties function in the following topics:
 
--   [Health and Safety Testing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/configure-health-safety-testing.md)
--   [Contact Tracing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/configure-contact-tracing-properties.md)
--   [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md)
--   [Employee Health and Safety Status properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/config-emp-core-properties.md)
+-   [Health and Safety Testing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-testing/configure-health-safety-testing.md)
+-   [Contact Tracing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/configure-contact-tracing-properties.md)
+-   [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md)
+-   [Employee Health and Safety Status properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/config-emp-core-properties.md)
 
-**Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/safe-workplace.md)
+**Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/safe-workplace.md)
 
 **Related topics**  
 

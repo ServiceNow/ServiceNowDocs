@@ -2,7 +2,7 @@
 title: Create stories agentic workflow using ServiceNow Otto
 description: Use the Create stories agent to generate high-quality stories for planning items in Enterprise Agile Planning \(EAP\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -45,7 +45,7 @@ To access the Create stories agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Create stories**.
 
-To configure the Create stories agentic workflow and associated AI agents, see [Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-agents-project-task-monitoring.md).
+To configure the Create stories agentic workflow and associated AI agents, see [Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-agents-project-task-monitoring.md).
 
 ## AI agents used in the Create stories agentic workflow
 
@@ -53,5 +53,5 @@ To configure the Create stories agentic workflow and associated AI agents, see [
 
 ## Using the Create stories agentic workflow
 
-See [Generate multiple stories at once in EAP using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md).
+See [Generate multiple stories at once in EAP using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md).
 

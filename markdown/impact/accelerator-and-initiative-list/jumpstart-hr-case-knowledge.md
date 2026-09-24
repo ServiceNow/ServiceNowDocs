@@ -2,7 +2,7 @@
 title: Jumpstart Your HR Case and Knowledge
 description: This Accelerator provides a demonstration of the possibilities and capabilities of HR Case and Knowledge.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-hr-case-knowledge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-hr-case-knowledge.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

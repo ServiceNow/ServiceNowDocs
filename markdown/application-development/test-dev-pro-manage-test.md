@@ -2,7 +2,7 @@
 title: Test apps with pro-code tools
 description: Test your ServiceNow apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-pro-manage-test.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-dev-pro-manage-test.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Test your ServiceNow apps.
 
 <table id="table_fck_nq2_2vb" class="nav-card"><tbody><tr><td>
 
-[Automated Test Framework \[Omitted image "icon-atf.png"\] Alt text: Automated Test Framework. Create and run automated tests to confirm that your instance works after making a change.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework.md)
+[Automated Test Framework \[Omitted image "icon-atf.png"\] Alt text: Automated Test Framework. Create and run automated tests to confirm that your instance works after making a change.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/automated-test-framework.md)
 
 </td><td>
 
@@ -40,7 +40,7 @@ Test your ServiceNow apps.
 
 </td></tr><tr><td>
 
-[NOW Command Line Interface \(CLI\) \[Omitted image "icon-now-cli.png"\] Alt text: NOW Command Line Interface. Perform instance operations from your local system with a command-line interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/servicenow-cli.md)
+[NOW Command Line Interface \(CLI\) \[Omitted image "icon-now-cli.png"\] Alt text: NOW Command Line Interface. Perform instance operations from your local system with a command-line interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-cli/servicenow-cli.md)
 
 </td><td>
 

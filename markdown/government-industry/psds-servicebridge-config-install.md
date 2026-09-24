@@ -2,7 +2,7 @@
 title: Configure Service Exchange for Public Sector Digital Services
 description: To set up and configure the Service Exchange for Public Sector Digital Services application, follow these steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-config-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-servicebridge-config-install.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Install the Service Exchange for Public Sector Digital Services application.
 
 </td><td>
 
-See [Install Service Exchange for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-servicebridge-config-install-prov.md).
+See [Install Service Exchange for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-servicebridge-config-install-prov.md).
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Set up the Government Service Portal, the consumer-facing portal for Public Sect
 
 </td><td>
 
-See [Customize the Government Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/customize-government-service-portal.md).
+See [Customize the Government Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/customize-government-service-portal.md).
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Set up a Service Bridge connection between a Provider and a Consumer.
 
 </td><td>
 
-See [Connect a provider instance to a consumer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-servicebridge-config-connect-prov-consu.md).
+See [Connect a provider instance to a consumer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-servicebridge-config-connect-prov-consu.md).
 
 </td></tr><tr><td>
 

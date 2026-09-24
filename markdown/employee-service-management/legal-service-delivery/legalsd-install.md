@@ -2,7 +2,7 @@
 title: Activate the Analytics and Reporting Solution for Legal Service Delivery
 description: Activate the content pack ServiceNow Store application for the Analytics and Reporting Solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/legalsd-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/legalsd-install.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -37,5 +37,5 @@ Role required: admin
 4.  Install the application.
 
 
-**Parent Topic:**[Analytics and Reporting Solutions for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 

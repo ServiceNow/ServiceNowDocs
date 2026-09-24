@@ -2,7 +2,7 @@
 title: Activate OAuth
 description: By default, the OAuth 2.0 \(com.snc.platform.security.oauth\) plugin is active on new and upgraded instances. If the plugin is not active on your instance, you can activate it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_ActivateOAuth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_ActivateOAuth.html
 release: australia
 product: Authentication
 classification: authentication

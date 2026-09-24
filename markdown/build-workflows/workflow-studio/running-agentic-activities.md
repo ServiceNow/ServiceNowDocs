@@ -2,7 +2,7 @@
 title: Using Agentic Playbooks
 description: Monitor and complete agentic activities as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/running-agentic-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/running-agentic-activities.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -52,7 +52,7 @@ In the following example, Beth Anglin, a CSM / FSM Workspaces user, is creating 
 
 3.  Beth reviews the AI generated discount percentage and can update it if necessary. \[Omitted image "agentic-playbook-edit-discount.png"\] Alt text: Beth reviews the AI generates discount percentage and submits.
 
-    **Note:** If the activity is configured to be completed independently by AI agents, the agents calculate the offered discount percentage, populate the discount details, complete the activity, and automatically move to the next activity in the playbook. See [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md).
+    **Note:** If the activity is configured to be completed independently by AI agents, the agents calculate the offered discount percentage, populate the discount details, complete the activity, and automatically move to the next activity in the playbook. See [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configure-agentic-playbooks.md).
 
 4.  By selecting the **How** button, Beth can view a summary of the AI agents' calculation process. \[Omitted image "agentic-playbook-agent-how.png"\] Alt text: Beth clicks How button to view the process the AI agents took to calculate the discount.
 5.  After submitting the discount, AI agents start drafting an email for Beth, ensuring a seamless experience.

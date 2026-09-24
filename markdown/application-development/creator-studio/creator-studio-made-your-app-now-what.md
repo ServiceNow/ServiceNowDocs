@@ -2,7 +2,7 @@
 title: I've built my app in Creator Studio, now what?
 description: You've added forms and automation to your app, and customized the workspace list configurations. Now what?
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-made-your-app-now-what.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-made-your-app-now-what.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -49,10 +49,10 @@ You can open Creator Studio apps in other builders. For example, open it in Serv
 
 Got more questions? Take a look at the [Creator Studio FAQs on the Community site](https://www.servicenow.com/community/creator-studio-blogs/creator-studio-faqs/ba-p/2947282)!
 
-You can also [watch a quick video on how to contact your admin and check out some helpful resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-get-help-now.md).
+You can also [watch a quick video on how to contact your admin and check out some helpful resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-get-help-now.md).
 
--   **[Closing requests and app notifications in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-closing-requests-and-notifications.md)**  
+-   **[Closing requests and app notifications in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-closing-requests-and-notifications.md)**  
 The records that your app creates when a form is completed are not automatically closed, and some notifications are not automatic and must be configured.
 
-**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/building-apps-with-creator-studio.md)
 

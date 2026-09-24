@@ -2,7 +2,7 @@
 title: Edit a dashboard in the dashboard library
 description: Edit an existing dashboard in the Related Dashboards page to update details such as the display name, description, or the associated dashboard itself.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/edit-a-dashboard-in-the-dashboard-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/edit-a-dashboard-in-the-dashboard-library.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

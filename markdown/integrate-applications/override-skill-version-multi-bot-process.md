@@ -2,7 +2,7 @@
 title: Override a skill package version for multiple bot processes in RPA Hub
 description: Override a skill package version in RPA Hub for multiple bot processes that are associated with the same attended or unattended package. You can select the latest version of the skill package without publishing the attended or unattended package again from RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/override-skill-version-multi-bot-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/override-skill-version-multi-bot-process.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ In the **Bot Process** tab of the Skill package version form, you can override a
     The list shows the bot processes for the attended or unattended packages that are associated with the selected skill package.
 
 
-**Parent Topic:**[Package and package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/package-version-rpa-hub.md)
+**Parent Topic:**[Package and package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/package-version-rpa-hub.md)
 

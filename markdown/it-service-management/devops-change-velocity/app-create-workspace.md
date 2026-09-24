@@ -2,7 +2,7 @@
 title: Create an application - Workspace
 description: Create applications using the DevOps Change Workspace and associate pipelines, plans, and repositories to it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/app-create-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/app-create-workspace.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -146,6 +146,6 @@ The system generates a new DevOps application from that application model.
 
     \[Omitted image "app-ws-08.png"\] Alt text: Application summary.
 
-    If you skipped associating objects to the application or if you want to associate other objects, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
+    If you skipped associating objects to the application or if you want to associate other objects, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
 
 

@@ -2,7 +2,7 @@
 title: Configure the IBM Personal Communications emulator
 description: Configure the IBM Personal Communications \(PCOMM\) emulator on the RPA Desktop Design Studio by capturing the PCOMM emulator screens and their elements. After capturing the screens, you can use the screen and element methods to automate actions on the screens and elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/pcomm-emulator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/pcomm-emulator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ Role required: none
 
         \[Omitted image "PCOMM-emulator-screen-added.png"\] Alt text: PCOMM emulator screen added in the Screens and elements pane and under the TerminalSession object in the Project Explorer pane.
 
-        When you capture multiple screens and elements and want to automate tasks on one screen or element, the connector must first find the screen or element by using the match rules. To know about the match rules, see [Use the screen or element match rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/find-the-screen-or-element-to-perform-automation.md).
+        When you capture multiple screens and elements and want to automate tasks on one screen or element, the connector must first find the screen or element by using the match rules. To know about the match rules, see [Use the screen or element match rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/find-the-screen-or-element-to-perform-automation.md).
 
 5.  Capture an element from the Pcomm emulator screen.
 
@@ -103,7 +103,7 @@ Role required: none
 
 6.  Use the screen match rules to enable the terminal connector to locate a screen or element.
 
-    When you capture multiple screens, fields, or tables and want to automate tasks on one screen or element, the connector must first find the screen or element. To enable the connector to find the screen or element, use the screen match rules at [Use the screen or element match rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/find-the-screen-or-element-to-perform-automation.md).
+    When you capture multiple screens, fields, or tables and want to automate tasks on one screen or element, the connector must first find the screen or element. To enable the connector to find the screen or element, use the screen match rules at [Use the screen or element match rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/find-the-screen-or-element-to-perform-automation.md).
 
 7.  View the screen and element methods.
 
@@ -116,10 +116,10 @@ Role required: none
         The methods appear in the Object Explorer pane.
 
 
-**Parent Topic:**[Configure the Terminal connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-terminal-connector.md)
+**Parent Topic:**[Configure the Terminal connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-terminal-connector.md)
 
 **Related topics**  
 
 
-[IBM Personal Communications emulator methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/pcomm-terminal-methods.md)
+[IBM Personal Communications emulator methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/pcomm-terminal-methods.md)
 

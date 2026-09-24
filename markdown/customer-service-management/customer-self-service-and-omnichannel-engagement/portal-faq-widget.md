@@ -2,7 +2,7 @@
 title: Portal FAQ widget
 description: The Portal FAQ widget displays a frequently asked questions list \(FAQ\) from the selected knowledge table in the widget on the portal. It enables your users to find answers to their queries without the need to contact customer support or navigate through multiple knowledge article pages. You can filter the FAQs using options in the main navigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-faq-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-faq-widget.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -20,5 +20,5 @@ The following illustration shows five FAQs as the default view.
 
 \[Omitted image "portal-faqs-widget.png"\] Alt text: Portal FAQ widget displaying list of questions.
 
-For more information, see [Add and configure the Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-faq-widget-inst-optns.md).
+For more information, see [Add and configure the Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-faq-widget-inst-optns.md).
 

@@ -2,7 +2,7 @@
 title: Event Management process flow
 description: Event Management collects, analyzes, and converts events into alerts, enabling efficient tracking and remediation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/em-process-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/em-process-flow.html
 release: australia
 product: Event Management
 classification: event-management

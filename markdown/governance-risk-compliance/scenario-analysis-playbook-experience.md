@@ -2,7 +2,7 @@
 title: Building a scenario analysis using simulation
 description: Use the scenario analysis process to assess how critical services perform under adverse conditions using statistical simulation. Starting with Operational Resilience, version 22.3.1, Operational Resilience application, you can follow a guided playbook to perform a scenario analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/scenario-analysis-playbook-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/scenario-analysis-playbook-experience.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,12 +17,12 @@ Use the scenario analysis process to assess how critical services perform under 
 
 The playbook flow guides you from scoping a service and dependencies through to a treatment decision and, optionally, logging vulnerabilities and issues.
 
-**Note:** For the objectives, benefits, and known limitations of advanced scenario analysis, see [Scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-ov.md).
+**Note:** For the objectives, benefits, and known limitations of advanced scenario analysis, see [Scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/scenario-analysis-ov.md).
 
 Each scenario analysis runs in one of two methods, set in the **Method** field on the record:
 
--   **Statistical Modelling** — Default. Runs the simulation as described in [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-scenario-testing.md).
--   **Manual** — Uses an SME-driven assessment template on the Scenario Testing step instead of a simulation as described in [Run a scenario analysis using the manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/run-sca-manual-method.md). Omits the Reference Data and Results steps. All other playbook steps \(Scope, Scenarios, Treatment Decision, Operational Vulnerabilities, Issues\) are identical.
+-   **Statistical Modelling** — Default. Runs the simulation as described in [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/complete-sca-scenario-testing.md).
+-   **Manual** — Uses an SME-driven assessment template on the Scenario Testing step instead of a simulation as described in [Run a scenario analysis using the manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/run-sca-manual-method.md). Omits the Reference Data and Results steps. All other playbook steps \(Scope, Scenarios, Treatment Decision, Operational Vulnerabilities, Issues\) are identical.
 
 ## Playbook interface
 
@@ -41,13 +41,13 @@ The scenario analysis playbook contains required and optional stages. Scenario t
 
 The playbook guides you through the following steps:
 
-1.  Create a scenario analysis record \([Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sca-record.md)\)
-2.  Add service and dependencies as part of the scope: \([Define the scope and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-sca-scope-service-dep.md)\)
-3.  Add scenarios and review reference data \([Add scenarios and review reference data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-sca-scenarios-review-refdata.md)\)
-4.  Complete scenario testing \([Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-scenario-testing.md)\)
-5.  Review results and make a treatment decision \([Review results and decide the treatment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/review-sca-results-treatment-decision.md)\)
-6.  Log operational vulnerabilities and issues \(optional\) \([Log operational vulnerabilities and issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-sca-op-vul-and-issues.md)\)
-7.  Complete the scenario analysis \([Mark the scenario analysis as complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-analysis.md)\)
+1.  Create a scenario analysis record \([Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-sca-record.md)\)
+2.  Add service and dependencies as part of the scope: \([Define the scope and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-sca-scope-service-dep.md)\)
+3.  Add scenarios and review reference data \([Add scenarios and review reference data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-sca-scenarios-review-refdata.md)\)
+4.  Complete scenario testing \([Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/complete-sca-scenario-testing.md)\)
+5.  Review results and make a treatment decision \([Review results and decide the treatment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/review-sca-results-treatment-decision.md)\)
+6.  Log operational vulnerabilities and issues \(optional\) \([Log operational vulnerabilities and issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-sca-op-vul-and-issues.md)\)
+7.  Complete the scenario analysis \([Mark the scenario analysis as complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/complete-sca-analysis.md)\)
 
 The following table describes each stage in the scenario analysis playbook.
 
@@ -101,7 +101,7 @@ Historical risk-event records that the statistical model uses as reference data.
 
 </td><td>
 
-Simulation assessment that includes a questionnaire. For more information, see [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-scenario-testing.md).
+Simulation assessment that includes a questionnaire. For more information, see [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/complete-sca-scenario-testing.md).
 
 </td></tr><tr><td>
 
@@ -231,7 +231,7 @@ Playbook are created in Workflow Studio and displayed in workspace pages built i
 **Related topics**  
 
 
-[Verify the Smart Assessment templates setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-sae-templates-for-sca.md)
+[Verify the Smart Assessment templates setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-sae-templates-for-sca.md)
 
-[Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sca-record.md)
+[Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-sca-record.md)
 

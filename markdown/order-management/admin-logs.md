@@ -2,7 +2,7 @@
 title: The Admin Logs utility
 description: Learn how the Admin Logs utility helps you diagnose, monitor, and resolve configuration issues efficiently in your CPQ environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/admin-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/admin-logs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

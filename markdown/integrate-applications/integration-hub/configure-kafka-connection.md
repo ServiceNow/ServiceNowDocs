@@ -2,7 +2,7 @@
 title: Configure a Kafka connection
 description: Configure a connection to your Apache Kafka environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-kafka-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/configure-kafka-connection.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -19,7 +19,7 @@ Configure a connection to your Apache Kafka environment.
 ## Before you begin
 
 -   Role required: connection\_admin or message\_replication\_admin
--   [Create Kafka credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
+-   [Create Kafka credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
 
 ## About this task
 
@@ -150,5 +150,5 @@ Name of the MID Server or MID Cluster to use.
 
 [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md) with a **Connection type** of **Kafka**.
 
-**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)
+**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

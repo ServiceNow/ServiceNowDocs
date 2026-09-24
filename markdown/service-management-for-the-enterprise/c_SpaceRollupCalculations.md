@@ -2,7 +2,7 @@
 title: Space roll up calculations
 description: The Facilities Service Management application can roll up occupancy, area, and usage information from lower to higher levels in the space hierarchy. Roll ups apply to spaces that are designated as 'occupiable'. The occupancy values from that space are rolled up to the level above them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_SpaceRollupCalculations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_SpaceRollupCalculations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ The values that roll up are:
 
 The percent occupied calculation takes place based on the current and max occupancy values.
 
-**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_Manually-builtMaps.md)
+**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_Manually-builtMaps.md)
 

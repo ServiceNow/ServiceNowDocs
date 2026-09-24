@@ -2,7 +2,7 @@
 title: Configure how to display related items on the map
 description: Add related items categories, specify which information should appear on cards on the Unified Map Related items panel, and specify how related items \(events\) appear on the timeline and on badges. These are general settings that only sn\_cmdb\_admin can configure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-config-related-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/unified-map-config-related-items.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -24,7 +24,7 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings don't affect other copies of the Unified Map template. Configuration settings that non-admin users can specify are described in [Configure the Related items panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-configure-rel-items.md).
+These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings don't affect other copies of the Unified Map template. Configuration settings that non-admin users can specify are described in [Configure the Related items panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-configure-rel-items.md).
 
 Related items are grouped by category in the **Related items** panel. Related items also appear for CI badges on the map and timeline.
 
@@ -143,15 +143,15 @@ Optional end date field to use for a range on the timeline.
 </td></tr></tbody>
 </table>5.  Select **Submit** or **Update**.
 
-    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md).
+    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/administer-unified-map.md).
 
 
-**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/administer-unified-map.md)
 
 **Related topics**  
 
 
-[View related items for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-show-related-items.md)
+[View related items for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-show-related-items.md)
 
-[Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-timeline-working-on.md)
+[Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-timeline-working-on.md)
 

@@ -2,7 +2,7 @@
 title: Activate plugins
 description: If you have the admin role, you can install the Retail applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-operations-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-operations-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ The following items are installed with Retail:
 -   ServiceNow® Store applications
 -   Related Party Configurations
 
-For information about the components installed with each plugin, see respective associated links in [Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md).
+For information about the components installed with each plugin, see respective associated links in [Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-installed-with-plugins.md).
 
 ## Procedure
 

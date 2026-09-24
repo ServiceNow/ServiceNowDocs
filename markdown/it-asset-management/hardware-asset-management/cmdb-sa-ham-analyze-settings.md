@@ -2,7 +2,7 @@
 title: Analyzing CMDB settings for HAM
 description: Monitor and optimize Configuration Management Database \(CMDB\) settings that support configuration item \(CI\) to hardware asset synchronization, life cycle alignment, and Hardware Asset Management \(HAM\) data quality.Identify and evaluate settings including Hardware Asset Management \(HAM\) business rules, configuration item \(CI\) to asset field mappings, hardware model categories, and CMDB Data Manager policies that support synchronization and automation between hardware assets and CIs.The Configuration Management Database \(CMDB\) and Hardware Asset Management \(HAM\) settings review provides a configuration-level assessment of the CMDB configuration item \(CI\) classes and HAM assets for maintaining data accuracy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-analyze-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-analyze-settings.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -32,7 +32,7 @@ Settings are categorized as `Ideal` or `Requires attention`, enabling you to pri
 
 Navigate to the CMDB success advisor landing page and for the HAM card, select **View insights**. Select the **Settings** tab to access settings-related details. For more information, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-access.md).
 
-**Note:** The CMDB success advisor for HAM dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
+**Note:** The CMDB success advisor for HAM dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
 
 ## Required roles
 
@@ -66,7 +66,7 @@ CMDB administrator
 </td></tr></tbody>
 </table>## Settings features
 
-The **Settings** tab in the CMDB success advisor for HAM provides visibility into key configuration areas that promote accurate synchronization between hardware assets and CIs. These settings include business rules, field mappings, model categories, and Data Manager policies that support automated life cycle management and data integrity. To maintain CMDB data accuracy and HAM integration, regularly review and validate these settings. For more information, see [CMDB and HAM settings assessed in the CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-analyze-settings.md).
+The **Settings** tab in the CMDB success advisor for HAM provides visibility into key configuration areas that promote accurate synchronization between hardware assets and CIs. These settings include business rules, field mappings, model categories, and Data Manager policies that support automated life cycle management and data integrity. To maintain CMDB data accuracy and HAM integration, regularly review and validate these settings. For more information, see [CMDB and HAM settings assessed in the CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-analyze-settings.md).
 
 ## Evaluate CMDB settings for HAM
 
@@ -153,9 +153,9 @@ Opens the New policy form to create a policy for a CI class. The **Create policy
 
 [Administer CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/administer-data-manager.md)
 
-[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/c_ManagingAssets.md)
+[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/c_ManagingAssets.md)
 
-[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ModelCategories.md)
+[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_ModelCategories.md)
 
 ## CMDB and HAM settings assessed in the CMDB success advisor
 

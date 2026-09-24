@@ -2,7 +2,7 @@
 title: Install Care Team Operations for Biomed
 description: Install the Care Team Operations for Biomed application \[sn\_cto\_biomed\] if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-biomed-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

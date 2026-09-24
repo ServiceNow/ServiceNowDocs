@@ -2,7 +2,7 @@
 title: Register new assets
 description: Register new assets that are supported for customers and have not been registered previously using the ServiceNow Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/register-new-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/register-new-assets.html
 release: australia
 product: Work Order Management
 classification: work-order-management

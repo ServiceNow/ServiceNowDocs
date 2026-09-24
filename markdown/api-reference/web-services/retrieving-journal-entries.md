@@ -2,7 +2,7 @@
 title: Retrieve journal entries using direct web services
 description: To get the contents of a journal field, make a second soap request against the sys\_journal\_field table to pull the appropriate journal records back for the record in question.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/retrieving-journal-entries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/retrieving-journal-entries.html
 release: australia
 product: Web Services
 classification: web-services
@@ -29,7 +29,7 @@ To retrieve the journal entries, you will first need to query the incident for i
 <soapenv:Envelope xmlns:soapenv= "http://schemas.xmlsoap.org/soap/envelope/" xmlns:sys= "http://www.service-now.com/sys_journal_field" ><soapenv:Header /><soapenv:Body><sys:getRecords><element>comments</element><element_id>9d385017c611228701d22104cc95c371</element_id></sys:getRecords></soapenv:Body></soapenv:Envelope>
 ```
 
-**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md)
+**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_DirectWebServices.md)
 
 **Related topics**  
 

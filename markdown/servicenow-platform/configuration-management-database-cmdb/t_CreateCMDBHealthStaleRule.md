@@ -2,7 +2,7 @@
 title: Create a CMDB Health staleness rule
 description: If the staleness metric is in effect, then staleness rules are used to determine the percentage of stale CIs in the CMDB. This sum is then aggregated into the correctness KPI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CreateCMDBHealthStaleRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/t\_CreateCMDBHealthStaleRule.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

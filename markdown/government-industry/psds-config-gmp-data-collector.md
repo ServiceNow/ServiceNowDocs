@@ -2,7 +2,7 @@
 title: Create a case data collector for a PaCE policy in Grants Management
 description: Create a data collector within PaCE to use a set of data within a policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-data-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-data-collector.html
 release: australia
 topic_type: task
 last_updated: "2025-12-02"
@@ -102,7 +102,7 @@ A data collector for a policy version is now created.
 
 ## What to do next
 
-[Create an eligibility policy using PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-eligibility-policy.md)
+[Create an eligibility policy using PaCE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-create-eligibility-policy.md)
 
-**Parent Topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-eligibility.md)
+**Parent Topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-eligibility.md)
 

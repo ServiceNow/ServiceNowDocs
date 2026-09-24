@@ -2,7 +2,7 @@
 title: Associate a system property with a tracing system
 description: Associate a system property with a tracing system to enable additional control on the use of the tracing system's data source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/associate-sys-property-tracing-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-exposure-management/associate-sys-property-tracing-system.html
 release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For a list of system properties associated with various tracing systems, see [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md).
+For a list of system properties associated with various tracing systems, see [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md).
 
 ## Procedure
 

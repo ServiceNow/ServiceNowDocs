@@ -2,7 +2,7 @@
 title: Configure and test connections
 description: The SGC Central playbook launches when you start to configure and test connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgcc-configure-and-test-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/sgcc-configure-and-test-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-05-19"
@@ -97,5 +97,5 @@ This is optional. Check this box to use a MID Server for the connection.
 8.  Select **Continue** to move to the next step.
 
 
-**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-central-for-ot-discovery.md)
 

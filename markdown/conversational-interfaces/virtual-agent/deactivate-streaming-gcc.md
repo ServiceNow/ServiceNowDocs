@@ -2,7 +2,7 @@
 title: Deactivate streaming for all GCC customers in Microsoft Teams
 description: Control streaming in Microsoft Teams for any and all Government Community Cloud \(GCC\) varieties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/deactivate-streaming-gcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/deactivate-streaming-gcc.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -50,5 +50,5 @@ Streaming is disabled for your version of GCC in your instance.
 
 If you want to reactivate streaming, repeat these steps, but set the **Value** for all entries to `true`.
 
-**Parent Topic:**[Specialized Virtual Agent integrations for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/specialized-va-integs-msteams.md)
+**Parent Topic:**[Specialized Virtual Agent integrations for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/specialized-va-integs-msteams.md)
 

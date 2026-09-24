@@ -2,7 +2,7 @@
 title: Exit Loop flow logic
 description: Exit from a flow logic loop when the conditions of an If flow logic are met. Continue running the flow from the next step after the flow logic loop. This flow logic is also known as break.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/exit-loop-flow-logic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/exit-loop-flow-logic.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -46,7 +46,7 @@ In this example, there are 19 incidents assigned to the user, which meets the ex
 
 \[Omitted image "flow-logic-exit-loop-execution-details.png"\] Alt text: Execution details of an Exit Loop flow logic
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

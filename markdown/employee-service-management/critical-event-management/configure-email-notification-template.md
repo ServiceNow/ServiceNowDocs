@@ -2,7 +2,7 @@
 title: Configure notification templates to send email
 description: Configure notification templates that agents can use to compose and send emails during a critical event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/configure-email-notification-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/configure-email-notification-template.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management

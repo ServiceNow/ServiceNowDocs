@@ -2,7 +2,7 @@
 title: Export quotes
 description: Export a list of all quotes in Quote Management and provide it to a customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-export-quotes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-export-quotes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: sales\_agent
     The list of quotes is exported according to the parameters set.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

@@ -2,7 +2,7 @@
 title: Components installed with Lifecycle Events
 description: Several types of components install with the activation of the Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\] plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/components-installed-with-enterprise-onboarding-and-transitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/components-installed-with-enterprise-onboarding-and-transitions.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -145,9 +145,9 @@ None
 
 After the sn\_hr\_le.admin role has been assigned, remove the role from the admin role to suppress the IT system administrator from viewing sensitive HR information. The removal of the sn\_hr\_le.admin role from admin role ensures that only the Lifecycle Events administrator has access to the sensitive information.
 
-For more information about the process to remove an HR administrator role from the admin role, see [Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md).
+For more information about the process to remove an HR administrator role from the admin role, see [Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md).
 
-The Lifecycle Events administrator \(sn\_hr\_le.admin\) role with the Delegated Developer \(delegated\_developer\) role can also configure and create COEs. For more information, see [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).
+The Lifecycle Events administrator \(sn\_hr\_le.admin\) role with the Delegated Developer \(delegated\_developer\) role can also configure and create COEs. For more information, see [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).
 
 You can assign these roles to the appropriate roles, groups, or users in your application.
 
@@ -278,5 +278,5 @@ Tracks details about activities waiting to be triggered.
 </td></tr></tbody>
 </table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md).
 
-**Parent Topic:**[Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/lifecycle-events-reference.md)
+**Parent Topic:**[Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/lifecycle-events-reference.md)
 

@@ -2,7 +2,7 @@
 title: Enable integration for internal planning item
 description: Enable the integration for an internal planning item type to view portfolio financials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/fin-enable-integration-planning-item-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/fin-enable-integration-planning-item-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

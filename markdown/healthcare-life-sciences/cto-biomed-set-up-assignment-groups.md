@@ -2,7 +2,7 @@
 title: Set up assignment groups for Care Team Operations for Biomed
 description: Associate assignment groups within your healthcare biomed organizations so work orders can be fulfilled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-set-up-assignment-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-biomed-set-up-assignment-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

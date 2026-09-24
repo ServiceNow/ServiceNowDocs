@@ -2,7 +2,7 @@
 title: Add locations to an emission factor
 description: Add locations to an emission factor after you create the factor. The reason you must add locations to a factor is that an organization may have different locations and each location may have a different factor value for different periods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/add-locations-to-an-emission-factor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/add-locations-to-an-emission-factor.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -88,5 +88,5 @@ Value for the factor. For example, if natural gas emits 0.375 kg CO2eq/kWh ICV, 
 
 Each location may have a parent location. For example, if your location is **Tokyo**, the parent location of Tokyo is Japan. Similarly, the parent location of Japan is Asia Pacific. If you select a parent location such as **Japan** in the **Location** field and specify the value as **1.5**, then the metrics are calculated using the value of 1.5 for any location that does not have a record but has the parent location as Japan. Similarly, if you select **Asia Pacific** in the **Location** field and specify the value as **2.5**, then the metrics are calculated using the value of 2.5 for any location that does not have a record but has the parent location as Asia Pacific.
 
-**Parent Topic:**[Create an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-emission-factor.md)
+**Parent Topic:**[Create an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-emission-factor.md)
 

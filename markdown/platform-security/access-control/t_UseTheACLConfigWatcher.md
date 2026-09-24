@@ -2,7 +2,7 @@
 title: Use the ACL configuration watcher
 description: Use the ACL configuration watcher after you elevate to security\_admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/t\_UseTheACLConfigWatcher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/t\_UseTheACLConfigWatcher.html
 release: australia
 product: Access Control
 classification: access-control
@@ -20,7 +20,7 @@ Use the ACL configuration watcher after you elevate to security\_admin role.
 
 Role required: security\_admin
 
-[Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md)
+[Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md)
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Role required: security\_admin
 
     The Security Rules window appears. The system did not yet perform the database action on the ACL, so the changes are not yet saved.
 
-    These are examples of security rules on the Visual Task Board application's Private Task \[vtb\_task\] table. See [ACL configuration watcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/c_ACLConfigWatcher.md) for a description of the items on this window.
+    These are examples of security rules on the Visual Task Board application's Private Task \[vtb\_task\] table. See [ACL configuration watcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/c_ACLConfigWatcher.md) for a description of the items on this window.
 
     \[Omitted image "vtb\_task\_deativate.png"\] Alt text: Deactivating an ACL
 
@@ -42,7 +42,7 @@ Role required: security\_admin
 
     \[Omitted image "vtb\_task\_read\_modify.png"\] Alt text: Modifying an ACL
 
-4.  Just as with the [execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_ShowACLExecutionPlan.md), you can click **Show all** to show all related ACLs, including those that are overridden and generic ACLs that apply to all records, or click **Show Effective** to show only the immediate ACLs related to the one you are viewing.
+4.  Just as with the [execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/t_ShowACLExecutionPlan.md), you can click **Show all** to show all related ACLs, including those that are overridden and generic ACLs that apply to all records, or click **Show Effective** to show only the immediate ACLs related to the one you are viewing.
 
 5.  Hover your mouse over any of the ACLs to see a description.
 

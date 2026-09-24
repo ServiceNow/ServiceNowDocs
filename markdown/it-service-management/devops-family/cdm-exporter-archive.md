@@ -2,7 +2,7 @@
 title: Archive an exporter
 description: Archive an exporter to preserve its record and remove it from the lists that you use in your everyday work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-exporter-archive.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-exporter-archive.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

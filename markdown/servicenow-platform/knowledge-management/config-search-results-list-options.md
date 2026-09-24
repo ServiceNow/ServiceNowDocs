@@ -2,7 +2,7 @@
 title: Configure search results list widget instance options
 description: Configure widget instance options for the results list widget on the Knowledge Management Service Portal search results page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-search-results-list-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/config-search-results-list-options.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -184,5 +184,5 @@ The number of links displayed in the pagination bar.
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

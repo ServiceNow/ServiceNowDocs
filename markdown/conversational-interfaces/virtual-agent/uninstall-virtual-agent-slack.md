@@ -2,7 +2,7 @@
 title: Remove ServiceNow Virtual Agent integration with Slack
 description: Remove the ServiceNow Virtual Agent integration from your ServiceNow instance to disassociate the Slack app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/uninstall-virtual-agent-slack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/uninstall-virtual-agent-slack.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -51,5 +51,5 @@ Roles required:
     ServiceNow Virtual Agent integration with Slack is removed from your ServiceNow instance.
 
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-slack.md)
+**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-slack.md)
 

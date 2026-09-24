@@ -2,7 +2,7 @@
 title: Walk-up Check-in on Consumer Portal
 description: Schedule a walk-up appointment at a service center from the Consumer Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/walkup-checkin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/walkup-checkin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,11 +34,11 @@ Walk-up check-in lets you schedule an in-person appointment at your nearest serv
 
 3.  Schedule an appointment.
 
-    For details, see [Schedule appointments or join a queue from the Self Service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-walkup-checkin-online.md).
+    For details, see [Schedule appointments or join a queue from the Self Service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-walkup-checkin-online.md).
 
 
 **Related topics**  
 
 
-[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-on-consumer-portal.md)
+[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-on-consumer-portal.md)
 

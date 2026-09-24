@@ -2,7 +2,7 @@
 title: Enable intake forms for Microsoft Outlook Add-In for Legal Service Delivery
 description: Enable intake forms to be available as categories while submitting legal requests or matters from Microsoft Outlook using Microsoft Outlook Add-In for Legal Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-enable-intake-forms-addin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-enable-intake-forms-addin.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -43,5 +43,5 @@ Role required: sn\_lg\_ops.legal\_config
 
 The request category will be available while submitting a legal request from Microsoft Outlook Add-in.
 
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 

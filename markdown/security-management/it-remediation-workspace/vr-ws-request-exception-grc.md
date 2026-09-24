@@ -2,7 +2,7 @@
 title: Request an exception using GRC: Policy and Compliance Management in the IT Remediation Workspace
 description: Request a policy exception for the host vulnerable item \(VIT\), application vulnerable item \(AVIT\), container vulnerable item \(CVIT\) or remediation task \(VUL, AVUL, CVUL, or CRG\) from the IT Remediation Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/vr-ws-request-exception-grc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/it-remediation-workspace/vr-ws-request-exception-grc.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -49,7 +49,7 @@ Role required:
 
 5.  On the form, fill in the fields.
 
-    For more information on the form fields, see [Request exception form fields for policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/itr-ws-request-exception-form-grc.md).
+    For more information on the form fields, see [Request exception form fields for policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/itr-ws-request-exception-form-grc.md).
 
 6.  Select **Request Exception**.
 

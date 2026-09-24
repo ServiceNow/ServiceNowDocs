@@ -2,7 +2,7 @@
 title: Respond using the SIG
 description: Use the Shared Assessments Standardized Information Gathering questionnaire \(SIG\) to provide assessment documentation on the third-party portal. You can upload the pre-filled SIG spreadsheet or import a form-based questionnaire.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -75,7 +75,7 @@ Select the questionnaire and fill it out.
 **Related topics**  
 
 
-[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
 
-[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
+[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
 

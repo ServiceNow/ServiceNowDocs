@@ -2,7 +2,7 @@
 title: Install Enterprise Asset Management
 description: You can install the Enterprise Asset Management application \(com.sn\_eam\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/install-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -31,7 +31,7 @@ The following items are installed with Enterprise Asset Management:
 -   Store applications
 -   Roles
 
-For more information, see [Components installed with Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/installed-with-eam.md).
+For more information, see [Components installed with Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/installed-with-eam.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Setup or update your direct deposit
 description: As an employee, setup or update direct deposit from the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyADirectDeposit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateOrModifyADirectDeposit.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,7 +24,7 @@ Role required: none
 
 Employees can ask questions about or setup/update direct deposit by submitting a request through the Employee Center.
 
-Alternately, a manager can submit a tuition reimbursement request by opening an HR case: [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/search-hr-case.md).
+Alternately, a manager can submit a tuition reimbursement request by opening an HR case: [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/search-hr-case.md).
 
 ## Procedure
 
@@ -112,5 +112,5 @@ Displays when Percentage is selected for Deposit type. Enter the percentage amou
     The system creates an HR case and assigns it to the configured HR person. View the status of your request from the **My Requests** tab.
 
 
-**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

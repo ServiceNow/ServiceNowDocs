@@ -2,7 +2,7 @@
 title: Performance metrics
 description: Access the performance data of your team directly from your mobile with the ITSM Mobile Agent app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/perf-metrics-mob.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/perf-metrics-mob.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

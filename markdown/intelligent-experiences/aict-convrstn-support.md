@@ -2,7 +2,7 @@
 title: Conversational interface in AI Control Tower
 description: The conversational experience of the ServiceNow AI Platform is integrated into AI Control Tower via ServiceNow Otto. The conversational interface is a single natural-language entry point that spans all AI Control Tower capabilities: answering questions about your AI portfolio, surfacing data visualizations, navigating to the right context, and executing actions—all powered by the agent orchestration of AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-convrstn-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-convrstn-support.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-20"

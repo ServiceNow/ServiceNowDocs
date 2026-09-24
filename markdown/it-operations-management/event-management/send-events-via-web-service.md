@@ -2,7 +2,7 @@
 title: Pushing events to the instance using web service API
 description: You can use a web service interface, supported by ServiceNow, that operates on the JSON object as the data input and output format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/send-events-via-web-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/send-events-via-web-service.html
 release: australia
 product: Event Management
 classification: event-management
@@ -28,7 +28,7 @@ To insert records in the event \[em\_event\] table with a single call, use this 
 
 **Note:** Business rules on the event table are not invoked when this URL is used.
 
-Do not add additional fields to an event by adding a custom field to the event table \[em\_event\]. However, additional fields should be included in the **Additional information** \[additional\_info\] field of the event. For more information about how to include additional fields in events, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/populate-custom-alert-fields.md).
+Do not add additional fields to an event by adding a custom field to the event table \[em\_event\]. However, additional fields should be included in the **Additional information** \[additional\_info\] field of the event. For more information about how to include additional fields in events, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/populate-custom-alert-fields.md).
 
 For information about troubleshooting performance issues with inbound integrations, see [Troubleshooting inbound integrations performance](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0746875).
 
@@ -292,5 +292,5 @@ Optional – Indicates whether an event has been resolved or is no longer occurr
 **Related topics**  
 
 
-[Pushing events to the MID Server using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-via-MID-using-push.md)
+[Pushing events to the MID Server using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-collection-via-MID-using-push.md)
 

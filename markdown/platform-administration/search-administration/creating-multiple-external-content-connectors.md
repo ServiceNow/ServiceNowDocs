@@ -2,14 +2,14 @@
 title: Creating multiple external content connectors of the same type
 description: Admins can create multiple external content connectors of the same type on a single ServiceNow AI Platform instance. These connectors can crawl different source systems or the same source system. Connectors that crawl the same source system can include overlapping crawl locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/creating-multiple-external-content-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/creating-multiple-external-content-connectors.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
 last_updated: "2026-05-29"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Creating external content connectors, Explore, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -72,5 +72,5 @@ When creating multiple external content connectors of the same type on the same 
     Running crawl jobs for multiple external content connectors of the same type in parallel can cause contention when they send retrieved content to their shared indexed source. This contention may reduce the connectors' retrieval rate when their crawl jobs are run in parallel.
 
 
-**Parent Topic:**[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/creating-ext-cont-connectors.md)
+**Parent Topic:**[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/creating-ext-cont-connectors.md)
 

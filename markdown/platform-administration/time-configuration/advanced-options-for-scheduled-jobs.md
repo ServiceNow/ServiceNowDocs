@@ -2,7 +2,7 @@
 title: Advanced options for scheduled jobs
 description: Advanced scheduling options for scheduled jobs support greater flexibility in job planning and execution. You can configure jobs to start on a future date, end on a particular date, and define how the job should repeat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -67,14 +67,14 @@ Although the job is scheduled to start on June 1 at 00:00, it doesn't run at tha
 
 If you change the value of the **Repeat every** field to 2, the job runs every 2 days at 9:00 a.m. starting on June 1. That means it runs on June 1, June 3, June 5, and so on, continuing every other day until June 29—the last occurrence before the ending time of June 30 at 23:59.
 
-**Parent Topic:**[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
+**Parent Topic:**[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_ScheduledJobs.md)
 
 **Related topics**  
 
 
-[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
+[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_ScheduledJobs.md)
 
-[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
+[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
-[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)
+[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)
 

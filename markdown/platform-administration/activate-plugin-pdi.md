@@ -2,7 +2,7 @@
 title: Activate a plugin on a personal developer instance
 description: You can test a plugin on your personal developer instance \(PDI\) before launching it in a production instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/activate-plugin-pdi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/activate-plugin-pdi.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ All Applications page
 
 In your PDI, navigate to **System Applications** &gt; **All Available Applications** &gt; **All**. Find the plugin and then activate it.
 
- For more information on using the All Applications page, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+ For more information on using the All Applications page, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ActivateAPlugin.md).
 
 </td></tr><tr><td>
 

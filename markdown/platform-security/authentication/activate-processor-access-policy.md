@@ -2,7 +2,7 @@
 title: Activate Processor access policy
 description: For Processor, install the Processor Access policy \(com.glide.processor.policy\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-processor-access-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/activate-processor-access-policy.html
 release: australia
 product: Authentication
 classification: authentication
@@ -46,5 +46,5 @@ The following items are installed with Processor Access Policy:
 
 .
 
-Configure authentication profile for the processors, for more information see, [Configure Authentication profile for Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-auth-profile-processor.md).
+Configure authentication profile for the processors, for more information see, [Configure Authentication profile for Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-auth-profile-processor.md).
 

@@ -2,7 +2,7 @@
 title: Create a Data Loss Prevention Incident Response SLA definition
 description: Create a Data Loss Prevention Incident Response SLA definition that outlines the conditions and duration for responding to data breaches. Establishing clear expectations and protocols helps ensure a swift response to incidents, minimizing potential damage and enhancing overall data protection strategies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/dlp-sla-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/dlp-sla-definitions.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -29,14 +29,14 @@ Role required:
 
 2.  Create an SLA definition.
 
-    For a description of the field values, see [DLP SLA Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-sla-def-properties.md).
+    For a description of the field values, see [DLP SLA Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/dlp-sla-def-properties.md).
 
 3.  Select **Submit**.
 
     **Note:** Due date rules, escalations and SLA definitions are mutually exclusive. An SLA definition primarily determines when a particular SLA will start to be effective, stop, pause, or be triggered.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

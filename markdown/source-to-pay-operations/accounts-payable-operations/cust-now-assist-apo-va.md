@@ -2,7 +2,7 @@
 title: Customize ServiceNow Otto for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
 description: Configure the ServiceNow Otto virtual agent as an admin to enable supplier contacts to use generative AI skills in the Source-to-Pay Workspace and Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-va.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,7 +29,7 @@ Use the AI Admin Hub console to configure ServiceNow Otto for APO. This console 
 
 1.  Install the ServiceNow Otto for Accounts Payable Operations \(APO\) plugin \(com.snc.sn\_ap\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
     -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 

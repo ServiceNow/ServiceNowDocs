@@ -2,7 +2,7 @@
 title: Assign partition role for access to the partition
 description: Assign a partition role to users or user groups to grant them access to records within a specific partition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/assign-partition-role-ewd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/assign-partition-role-ewd.html
 release: australia
 topic_type: task
 last_updated: "2026-05-09"
@@ -16,7 +16,7 @@ Assign a partition role to users or user groups to grant them access to records 
 
 ## Before you begin
 
--   The partition and its associated role have been created and partition criteria have been configured for all supported tables. For details, see [Create and configure a partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-partition-ewd.md).
+-   The partition and its associated role have been created and partition criteria have been configured for all supported tables. For details, see [Create and configure a partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/create-partition-ewd.md).
 -   You have identified the users or user groups that should have access to the partition. If you want to create a specific user group for the partition you want to provide access to, create a user group. For details, see [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-groups.md).
 
 Role required: admin
@@ -50,6 +50,6 @@ For example, assigning the `it_ops` partition role to a user means they see only
 
 ## What to do next
 
--   Grant the EWD PMO \[sn\_spm\_ewd.ewd\_pmo\] role to users who require visibility across all partitions, such as PMO leads and portfolio managers who need enterprise-wide access across all functions. For details, see [Assign PMO role for visibility across all partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-pmo-roles-for-visibility-across-all-partitions.md).
--   Verify that the role assignment is working correctly by impersonating the user and confirming that record visibility matches the expected access level for the assigned role. For details, see [Verify partition configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/verify-partition-configuration-ewd.md).
+-   Grant the EWD PMO \[sn\_spm\_ewd.ewd\_pmo\] role to users who require visibility across all partitions, such as PMO leads and portfolio managers who need enterprise-wide access across all functions. For details, see [Assign PMO role for visibility across all partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/assign-pmo-roles-for-visibility-across-all-partitions.md).
+-   Verify that the role assignment is working correctly by impersonating the user and confirming that record visibility matches the expected access level for the assigned role. For details, see [Verify partition configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/verify-partition-configuration-ewd.md).
 

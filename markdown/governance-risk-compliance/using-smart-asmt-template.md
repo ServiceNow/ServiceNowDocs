@@ -2,7 +2,7 @@
 title: Using latest assessment template for conducting BIAs
 description: Beginning with the Yokohama release, you can use the latest assessment template for conducting a Business Impact Analysis \(BIA\). The BIA template is now integrated with the Smart Assessment Engine, enabling you to use the Smart Assessment along with the legacy assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/using-smart-asmt-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/using-smart-asmt-template.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ The workflow for integrating BIA with the Smart Assessment Engine is shown in th
 
 ## Configuring BIA templates
 
-You can configure the BIA template with the legacy or Smart Assessment. The legacy assessment shows only drop-down questions. The Smart Assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire. For more information, see [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-admin-tasks.md).
+You can configure the BIA template with the legacy or Smart Assessment. The legacy assessment shows only drop-down questions. The Smart Assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire. For more information, see [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-admin-tasks.md).
 
 ## Managing life cycle of Smart Assessment templates in BIAs
 
@@ -70,7 +70,7 @@ BIAs that use Smart Assessment templates inherit the template life cycle control
 
     Every quick edit is logged at the template level, time-stamped, and user-attributed, making all changes fully traceable for audit and governance purposes. Template managers are accountable for ensuring that quick edits preserve the original context and intent of the question. Quick edit is optional and can be enabled or disabled at the template category level.
 
-    For more information, see [Quick edit for published templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.md).
+    For more information, see [Quick edit for published templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.md).
 
 -   **When to use quick edit vs. versioning**
 
@@ -248,5 +248,5 @@ The UI page containing only the Smart Assessment component is created in the BCM
 -   The **Open assessment** action opens the Smart Assessment page for you to read the responses.
 -   The **Edit assessment** action opens the Smart Assessment page for you to edit the responses.
 
-**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

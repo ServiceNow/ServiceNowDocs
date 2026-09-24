@@ -2,7 +2,7 @@
 title: Trigger Condition form for surveys
 description: Description of the field values for the Trigger Condition form for surveys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/trigger-condition-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/trigger-condition-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -124,10 +124,10 @@ Condition
 Condition builder that defines the criteria that must be true to send the survey. For example, to send a survey whenever an incident closes, create the condition **\[State\] \[is\] \[Closed\]**.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/survey-reference.md)
 
 **Related topics**  
 
 
-[Configure a trigger condition for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateATriggerCondition.md)
+[Configure a trigger condition for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateATriggerCondition.md)
 

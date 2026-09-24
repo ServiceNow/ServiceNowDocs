@@ -2,7 +2,7 @@
 title: Edit service details form
 description: Edit an existing service owned by your team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-edit-service-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-edit-service-form.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -18,7 +18,7 @@ Edit an existing service owned by your team.
 
 ## Service Details form
 
-For more information, see [Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-edit-service.md).
+For more information, see [Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-edit-service.md).
 
 <table id="id_yty_w2n_zyb"><thead><tr><th>
 
@@ -180,5 +180,5 @@ Support by
 SRM team managing the service. Add by search or edit using the text editor.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
+</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

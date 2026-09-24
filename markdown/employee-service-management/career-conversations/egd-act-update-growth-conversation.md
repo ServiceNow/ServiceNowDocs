@@ -2,7 +2,7 @@
 title: Update a growth conversation in Career Conversations
 description: Use the Career Conversations app to update the agenda for an upcoming conversation with your employee or manager. Center the focus of the discussion around the employee's growth and development as a professional within your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/career-conversations/egd-act-update-growth-conversation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/career-conversations/egd-act-update-growth-conversation.html
 release: australia
 product: Career Conversations
 classification: career-conversations
@@ -18,7 +18,7 @@ Use the Career Conversations app to update the agenda for an upcoming conversati
 
 ## Before you begin
 
-You must provide your employees with a license to enable access to the Career Conversations app. For more information about employee licensing, refer to [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-employee-profile-licensing.md).
+You must provide your employees with a license to enable access to the Career Conversations app. For more information about employee licensing, refer to [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-employee-profile-licensing.md).
 
 Role required: employee \[sn\_egd\_act.employee\] or manager \[sn\_egd\_act.manager\]
 
@@ -35,15 +35,15 @@ Role required: employee \[sn\_egd\_act.employee\] or manager \[sn\_egd\_act.mana
 
 3.  Use the widget that corresponds to your role within your organization to select the conversation that you want to update.
 
-<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d112103e155">
+<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d112107e155">
 
 Role
 
-</th><th align="left" id="d112103e158">
+</th><th align="left" id="d112107e158">
 
 Widget
 
-</th></tr></thead><tbody><tr><td id="d112103e164">
+</th></tr></thead><tbody><tr><td id="d112107e164">
 
 **Employee**
 
@@ -51,7 +51,7 @@ Widget
 
 Your conversations
 
-</td></tr><tr><td id="d112103e173">
+</td></tr><tr><td id="d112107e173">
 
 **Manager**
 
@@ -109,5 +109,5 @@ Managers can manually close a conversation by indicating whether the conversatio
 
 Managers can provide a summary to reflect the details of a conversation that transpired when they select the option to complete a conversation. A notification is sent via email to the employee to indicate the conversation is complete. If the manager provided a summary, it is included in the email that the employee receives.
 
-**Parent Topic:**[Using the Career Conversations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-activities-use.md)
+**Parent Topic:**[Using the Career Conversations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/career-conversations/egd-activities-use.md)
 

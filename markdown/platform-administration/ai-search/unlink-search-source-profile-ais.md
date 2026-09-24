@@ -2,7 +2,7 @@
 title: Unlink a search source from a search profile
 description: Unlink search sources from a search profile to prevent their content from being searchable through that profile. Deleted search sources aren't automatically unlinked from search profiles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/unlink-search-source-profile-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/unlink-search-source-profile-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -43,7 +43,7 @@ The search source no longer appears in the Search Sources related list.
 
 ## What to do next
 
-To make the search source change take effect, publish the search profile you edited. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
+To make the search source change take effect, publish the search profile you edited. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md)
+**Parent Topic:**[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/defining-search-profiles-ais.md)
 

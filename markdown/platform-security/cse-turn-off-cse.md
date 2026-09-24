@@ -2,7 +2,7 @@
 title: Turn off Code Signing
 description: Disable code signing on your protected instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cse-turn-off-cse.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cse-turn-off-cse.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Role required: admin, codesigning\_admin
 
 7.  Log in to your protected instance.
 
-8.  Upload your configuration files using the steps in [Upload your Code Signing configuration file to your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cse-upload-cs-config.md).
+8.  Upload your configuration files using the steps in [Upload your Code Signing configuration file to your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cse-upload-cs-config.md).
 
 9.  Navigate to **All** &gt; **Code Signing** &gt; **Configuration** &gt; **Guided Setup** to open the Code Signing configuration page.
 

@@ -2,7 +2,7 @@
 title: ServiceNow DevOps change request state in Jenkins pipeline logs
 description: You can use the Jenkins Snippet Generator utility to configure how and when the change state and the corresponding policy conditions must be displayed in the Jenkins pipeline job logs. This enables developers to view the status of the change in the console logs of the pipeline itself.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/change-request-state-in-jenkins-pipeline-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/change-request-state-in-jenkins-pipeline-logs.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -97,5 +97,5 @@ The change policy input and decision conditions are stored in the Decisions \[sy
 
 If a change request does not get created due to any issue, then the reason for the failure and the state is also logged in the console.
 
-**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
+**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
 

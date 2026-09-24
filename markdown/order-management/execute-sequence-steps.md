@@ -2,7 +2,7 @@
 title: Complete predefined customer engagement tasks
 description: Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/execute-sequence-steps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/execute-sequence-steps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,10 +49,10 @@ Role required: Sequence executor \[sn\_crm\_sequence.executor\]
     The sequence is marked as Completed when you finish all activities in the sequence task.
 
 
-**Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-engagement-sequences.md)
+**Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-customer-engagement-sequences.md)
 
 **Related topics**  
 
 
-[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/complete-telesales-sequences.md)
+[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/complete-telesales-sequences.md)
 

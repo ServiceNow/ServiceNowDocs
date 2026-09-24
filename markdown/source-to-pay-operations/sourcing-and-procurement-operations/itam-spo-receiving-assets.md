@@ -2,7 +2,7 @@
 title: Receiving assets in Asset Management
 description: As part of the Better Together integration, all asset receiving is handled within ServiceNow's Asset Management product suite. When an item is initially received in Asset Management, a receipt is automatically generated in SPO in the Pending Submission state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-receiving-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-receiving-assets.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -43,5 +43,5 @@ After receiving the requested items, the asset manager or an employee can acknow
     .\[Omitted image "itam-spo-receive-po.png"\] Alt text: Asset receiving via Asset Management purchase orders.
 
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)
 

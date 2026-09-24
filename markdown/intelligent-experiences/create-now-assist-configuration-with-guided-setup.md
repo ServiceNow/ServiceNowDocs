@@ -2,7 +2,7 @@
 title: Create ServiceNow Otto context Menu configuration
 description: Create a new ServiceNow Otto context Menu configuration to deploy and activate a custom skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-now-assist-configuration-with-guided-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-now-assist-configuration-with-guided-setup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -85,5 +85,5 @@ Role required: sn\_skill\_builder.admin
 15. Select **Preview** and **Done**.
 
 
-**Parent Topic:**[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
+**Parent Topic:**[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
 

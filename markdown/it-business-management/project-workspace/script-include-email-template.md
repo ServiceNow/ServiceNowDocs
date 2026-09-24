@@ -2,7 +2,7 @@
 title: Update the project insights header and footer of email
 description: Use the script include to modifying the email template for project summary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/script-include-email-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/script-include-email-template.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -45,5 +45,5 @@ Role required: admin
     On completion, the project summary email template is customized with the header and footer.
 
 
-**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md)
+**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-na-spm.md)
 

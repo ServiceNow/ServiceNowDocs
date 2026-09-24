@@ -2,7 +2,7 @@
 title: Universal Request Router agentic workflow
 description: Enables employees to request a department agnostic ticket to avail services that are not readily accessible/understandable via the catalog listings or the services that require collaboration across multiple departments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/agentic-flow-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/agentic-flow-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -88,5 +88,5 @@ The AI agent decision log displays the AI agents that are working to predict the
 
 This is an example of how the Universal Request Router agentic workflow automatically predicts the department for the ticket, and creates a primary ticket for the identified department.\[Omitted image "ur-predict.png"\] Alt text:\[Omitted image "ur-predict-service.png"\] Alt text:
 
-**Parent Topic:**[Using agentic flows in Universal Request AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-ai-agent-collection.md)
+**Parent Topic:**[Using agentic flows in Universal Request AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-ai-agent-collection.md)
 

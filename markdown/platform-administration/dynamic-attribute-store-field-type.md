@@ -2,7 +2,7 @@
 title: Dynamic attribute store field type
 description: The dynamic attribute store field type stores one or more dynamic attributes and their values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-attribute-store-field-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-attribute-store-field-type.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configur
 
 The dynamic attribute store field type stores one or more dynamic attributes and their values.
 
-You can describe a record by capturing one or more dynamic attribute-value pairs as string objects in a dynamic attribute store field. For details on defining a flexible schema and creating a dynamic attribute store field to capture attributes and their values, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
+You can describe a record by capturing one or more dynamic attribute-value pairs as string objects in a dynamic attribute store field. For details on defining a flexible schema and creating a dynamic attribute store field to capture attributes and their values, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-schema.md).
 
 You can also simply capture attribute-value pairs on a record by adding a dynamic attribute store field to a table and populating the field with string data using the Glide API. After populating the field with string data, you can query the field just like any string field.
 

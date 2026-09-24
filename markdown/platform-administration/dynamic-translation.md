@@ -2,7 +2,7 @@
 title: Dynamic translation
 description: Using dynamic translation, you can customize email notifications automatically for users across multiple regions based on their preferred language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,22 +22,22 @@ For example, a requester whose language is set to French will automatically rece
 
 Using dynamic translation involves the following tasks:
 
-1.  [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/activate-dynamic-translation.md)
-2.  [Set system property for dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-notification-translation.md)
-3.  [Enable dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-dynamic-translation.md)
+1.  [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/activate-dynamic-translation.md)
+2.  [Set system property for dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/enable-email-notification-translation.md)
+3.  [Enable dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/enable-dynamic-translation.md)
 
 After dynamic translation is enabled, you can send emails and view or preview the translated email in the preferred languages of the recipients by accessing the **Translated Email Contents** tab.
 
 **Note:** The language preference of users mentioned in **cc** and **bcc** fields is not considered.
 
--   **[Enable dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-notification-translation.md)**  
+-   **[Enable dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/enable-email-notification-translation.md)**  
 Enable dynamic translation of notifications for the instance.
--   **[Configure the note banner for translated emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-email-notification-banner.md)**  
+-   **[Configure the note banner for translated emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/config-email-notification-banner.md)**  
 Configure the content for a translated email note banner displayed at the top of the page to display a customized message to the recipient.
--   **[Enable dynamic translation for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-dynamic-translation.md)**  
+-   **[Enable dynamic translation for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/enable-dynamic-translation.md)**  
 Enable dynamic translation for a notification to send dynamically translated emails to recipients in their preferred language.
 
-**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Product modules configuration in ServiceNow Otto for Setup
 description: Explore the following information to know more about the configurations of specific product modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-bu-conf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-bu-conf.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +15,7 @@ breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the S
 Explore the following information to know more about the configurations of specific product modules.
 
 -   Simplified IT Service Management \(ITSM\): See [Configuring Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-ai-native-itsm.md) for more information on configuration of ITSM product module.
--   Sourcing and Procurement Operations \(SPO\): See  for more information on configuration of SPO product module.
+-   Sourcing and Procurement Operations \(SPO\): See [Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configuring-spo.md) for more information on configuration of SPO product module.
 -   Core Business Suite Foundation \(CBS\): See [Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md) for more information on configuration of CBS product module.
 -   IT Operations Management \(ITOM\): See [Install ITOM using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-nowassist-setup-itom-aiops.md) for more information on configuration of ITOM product module.
 -   AI Admin Hub: See [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) for more information on configuration of AI Admin Hub module.
@@ -23,5 +23,5 @@ Explore the following information to know more about the configurations of speci
 -   Strategic Portfolio Management \(SPM\): See [Modules in ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-modules.md) for more information on configuration of the Strategic Portfolio Management \(SPM\) product module.
 -   AI Control Tower \(AICT\): See [Guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-guided-setup.md) for more information on configuration of the AICT module.
 
-**Parent Topic:**[Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)
+**Parent Topic:**[Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-landing.md)
 

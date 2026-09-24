@@ -2,7 +2,7 @@
 title: Create an intelligent approval
 description: Generate an intelligent approval policy from an existing policy document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/create-an-intelligent-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/create-an-intelligent-approval.html
 release: australia
 topic_type: task
 last_updated: "2026-07-01"
@@ -61,7 +61,7 @@ Role required: sn\_iap.policy\_manager or sn\_iap.policy\_admin
 
     \[Omitted image "intelligent-approval-create-07.png"\] Alt text: Intelligent approval generation status messages
 
-    If the system fails to generate intelligent approvals, verify that you have access permissions to both intelligent approvals and the system records that you want approved. For requirements, see [Configure intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/configure-intelligent-approvals.md).
+    If the system fails to generate intelligent approvals, verify that you have access permissions to both intelligent approvals and the system records that you want approved. For requirements, see [Configure intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/configure-intelligent-approvals.md).
 
 7.  Review the **Overview** and **Test results** tabs of your intelligent approval policy.
 
@@ -89,7 +89,7 @@ Role required: sn\_iap.policy\_manager or sn\_iap.policy\_admin
 
 11. Upload the updated policy document, and review the percentage of **AI approved/rejected** results.
 
-    For instructions on uploading a new source document, see [Update source document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/update-source-document.md).
+    For instructions on uploading a new source document, see [Update source document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/update-source-document.md).
 
 12. Select the three-dot menu, and select **Potential overlapping approvals**.
 

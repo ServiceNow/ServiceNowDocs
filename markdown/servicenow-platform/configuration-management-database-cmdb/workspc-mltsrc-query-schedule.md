@@ -2,7 +2,7 @@
 title: Schedule a CMDB 360 query for a report
 description: Set up a schedule to regularly query for CMDB 360 data. Use scheduled queries to provide CMDB 360 data to reports you create, which can provide insight into how discovery sources populate the CMDB and the reliability of those discovery sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-schedule.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -48,9 +48,9 @@ Create a CMDB 360 report to integrate CMDB 360 query results with platform [Repo
 **Related topics**  
 
 
-[Create a Get Records query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-get-records.md)
+[Create a Get Records query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-get-records.md)
 
-[Create a Find Gap query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.md)
+[Create a Find Gap query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.md)
 
-[Create a Compare Attribute Values query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.md)
+[Create a Compare Attribute Values query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.md)
 

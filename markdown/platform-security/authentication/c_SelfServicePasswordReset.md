@@ -2,7 +2,7 @@
 title: Password Reset
 description: The default self-service Password Reset process enables a user to reset the password without assistance from service desk agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_SelfServicePasswordReset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/c\_SelfServicePasswordReset.html
 release: australia
 product: Authentication
 classification: authentication
@@ -36,5 +36,5 @@ See [Configure your Password Reset process](https://raw.githubusercontent.com/Se
 **Note:**
 
 -   This feature works for locally authenticated users who enter the username and password specified in their user record. Users logging in to the instance via an SSO solution or an LDAP integration cannot reset passwords using the example self-service Password Reset process.
--   The end user must enable and configure notification preferences. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md). Administrators can x[modify the email that is sent to the end user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ModifyPasswordResetNotification.md).
+-   The end user must enable and configure notification preferences. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md). Administrators can x[modify the email that is sent to the end user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_ModifyPasswordResetNotification.md).
 

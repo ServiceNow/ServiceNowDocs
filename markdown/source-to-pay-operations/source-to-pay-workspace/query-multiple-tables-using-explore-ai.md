@@ -2,7 +2,7 @@
 title: Query multiple tables in AI Data Explorer
 description: Use natural-language prompts to retrieve and correlate data from multiple related tables in a single answer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/query-multiple-tables-using-explore-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/query-multiple-tables-using-explore-ai.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -48,5 +48,5 @@ Generative AI may produce inaccurate or incomplete information. Always validate 
 
 AI Data Explorer interprets your prompt and returns a consolidated answer that combines data from the relevant related tables.
 
-**Parent Topic:**[AI Data Explorer using multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/explore-ai-multi-tables.md)
+**Parent Topic:**[AI Data Explorer using multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/explore-ai-multi-tables.md)
 

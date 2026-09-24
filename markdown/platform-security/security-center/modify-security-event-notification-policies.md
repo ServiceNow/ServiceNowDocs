@@ -2,7 +2,7 @@
 title: Modify security event notification policies
 description: Modify the settings of your security event notification policies to align with your organization's requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/modify-security-event-notification-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/modify-security-event-notification-policies.html
 release: australia
 product: Security Center
 classification: security-center
@@ -34,8 +34,8 @@ Role required: admin
 
 5.  Start triggering notifications by selecting **Activate**.
 
-    See [Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/configure-preferences-for-security-event-notifications.md) to learn how to configure your new custom security event notification policy.
+    See [Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/configure-preferences-for-security-event-notifications.md) to learn how to configure your new custom security event notification policy.
 
 
-**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-policies.md)
+**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-policies.md)
 

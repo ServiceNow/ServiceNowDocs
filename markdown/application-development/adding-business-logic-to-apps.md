@@ -2,7 +2,7 @@
 title: Adding business logic to apps
 description: Business logic lets your app respond automatically to data changes, enforce rules, and perform calculations without requiring user intervention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/adding-business-logic-to-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/adding-business-logic-to-apps.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-01"
@@ -30,5 +30,5 @@ Script includes are reusable JavaScript libraries that you define once and call 
 
 Business rules and script includes are most effective when used together. Keeping business rules short and focused on triggering conditions, while moving complex logic into script includes, makes code easier to read, test, and maintain. This separation of concerns is a standard for ServiceNow development and becomes especially important as your app grows in complexity.
 
-**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-your-first-app.md)
 

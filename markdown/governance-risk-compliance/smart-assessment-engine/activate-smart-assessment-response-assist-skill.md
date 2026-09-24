@@ -2,7 +2,7 @@
 title: Activate Smart Assessment response assist skill
 description: Activate and configure the Smart Assessment response assist skill in ServiceNow Otto. The skill automatically drafts responses for assessment questionnaires by using previously answered questions and supporting documents to improve accuracy and consistency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -45,5 +45,5 @@ The Smart Assessment Response Assist skill is active and available for assessmen
 
 ## What to do next
 
-Configure AI response at template category level, for more information see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+Configure AI response at template category level, for more information see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 

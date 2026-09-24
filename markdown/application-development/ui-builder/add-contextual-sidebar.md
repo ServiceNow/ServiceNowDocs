@@ -2,7 +2,7 @@
 title: Add a contextual sidebar
 description: Add a contextual sidebar to a page with UI Builder to display related content using a vertical tab structure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-contextual-sidebar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/add-contextual-sidebar.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -32,11 +32,11 @@ For example, a document creation page might have the attachments component on on
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md). For information about creating a page variant, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md). For information about creating a page variant, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-variant.md)
 
 4.  On the stage, open the toolbox by selecting the **+ Add content** button.
 
@@ -93,7 +93,7 @@ Option to hide or display the tab.
 
 10. Select the component that you want to add to the tab.
 
-    The component displays under the tab in the content tree. For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    The component displays under the tab in the content tree. For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-components.md).
 
 11. To add another tab, select **+ Add** under the Tabs section.
 
@@ -102,5 +102,5 @@ Option to hide or display the tab.
 
 For detailed information about the configuration of the contextual sidebar and its properties, see [Tabs UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/washingtondc/now-components/now-tabs/uib-setup) on the ServiceNow Developer Site.
 
-**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md)
 

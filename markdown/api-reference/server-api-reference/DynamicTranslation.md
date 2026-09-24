@@ -2,7 +2,7 @@
 title: DynamicTranslation - Scoped
 description: The DynamicTranslation API provides methods that translate text, in real time, into multiple languages using translation service providers.Detects the language of the passed in text.Detects the languages of the passed in text strings.Translates the passed in text to one or more languages.Translates the passed in text strings to one or more languages.Determines whether the various methods in the DynamicTranslation API are enabled for a translation service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DynamicTranslation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/DynamicTranslation.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +22,7 @@ Currently this API supports two translation service providers: Microsoft Azure T
 
 When using these methods in a server-side script, use the `sn_dt_api` namespace identifier. Before you are able to use this API, you must activate the DynamicTranslation \(com.glide.dynamic\_translation\) plugin. For information on this plugin and additional information on Dynamic Translation, refer to [Dynamic translation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## DynamicTranslation - getDetectedLanguage\(String text, Object parms\)
 

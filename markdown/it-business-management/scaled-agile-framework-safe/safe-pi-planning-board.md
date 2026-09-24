@@ -2,7 +2,7 @@
 title: SAFe PI planning board
 description: Use a centralized board to plan your program increments \(PIs\) for an agile release train \(ART\). You can create and assign stories to teams, add and view story dependencies, track stories by sprints, and re-plan these stories if required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/safe-pi-planning-board.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/safe-pi-planning-board.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -41,7 +41,7 @@ The SAFe PI planning board contains the following components that guide you duri
     -   Green: A prerequisite story is scheduled in a sprint that's before the sprint of the dependent story.
     -   Yellow: A prerequisite story is scheduled in the same sprint as the dependent story.
     -   Red: A prerequisite story is scheduled in a sprint that's after the sprint of the dependent story. Review the dependency and reschedule the story as required.
-    If none of the stories are associated with a prerequisite or dependent story, the dependencies icon \(\[Omitted image "hide-dependencies.png"\] Alt text: Dependencies icon.\) is not visible. For information on how to add story dependencies, see [Add dependencies to your SAFe stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/add-dependencies-safe-stories.md).
+    If none of the stories are associated with a prerequisite or dependent story, the dependencies icon \(\[Omitted image "hide-dependencies.png"\] Alt text: Dependencies icon.\) is not visible. For information on how to add story dependencies, see [Add dependencies to your SAFe stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/add-dependencies-safe-stories.md).
 
 -   **Feature Backlog pane**
 
@@ -114,8 +114,8 @@ The SAFe PI planning board contains the following components that guide you duri
     View the list of all stories of the program by using the standard list view icon \(\[Omitted image "viewstandardlist.png"\] Alt text: Standard list view icon.\).
 
 
--   **[Plan a SAFe program increment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/perform-bigroom-planning.md)**  
+-   **[Plan a SAFe program increment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/perform-bigroom-planning.md)**  
 Plan your SAFe program increments \(PIs\) and track the progress of stories and features in an interactive planning board.
 
-**Parent Topic:**[SAFe Board — ART level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/program-level-tabs.md)
+**Parent Topic:**[SAFe Board — ART level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/program-level-tabs.md)
 

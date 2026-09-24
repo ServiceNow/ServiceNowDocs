@@ -2,7 +2,7 @@
 title: Delete all records from a table
 description: You may decide to delete all the records on a table without deleting the table itself. For example, the administrator may want to delete all incidents on a test instance without deleting the incident table itself.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_DeleteAllRecordsFromATable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/t\_DeleteAllRecordsFromATable.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -68,5 +68,5 @@ There are several methods for deleting table records. Depending on the number of
 
 The selected table is empty of records. The table still exists, and any references to the table on other tables \(such as business rules or reference fields\) are preserved.
 
-**Parent Topic:**[Deleting custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DeleteATable.md)
+**Parent Topic:**[Deleting custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DeleteATable.md)
 

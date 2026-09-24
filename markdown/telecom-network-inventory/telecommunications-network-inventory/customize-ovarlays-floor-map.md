@@ -2,7 +2,7 @@
 title: Customize overlays on the floor map
 description: Update the decision table to configure the overlays appearing on the floor map. You can view the operational data of the datacenters as overlay on the floor map in the Telecommunications Network Inventory application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/customize-ovarlays-floor-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/customize-ovarlays-floor-map.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -95,14 +95,14 @@ Customized overlay options are displayed on the floor map, and the color legend 
 
 ## What to do next
 
-Set up time duration for the operational data. To learn more, see [Customize overlay time series on the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customize-overlay-time-series-floor-map.md).
+Set up time duration for the operational data. To learn more, see [Customize overlay time series on the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/customize-overlay-time-series-floor-map.md).
 
-**Parent Topic:**[Configuring overlays on floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)
+**Parent Topic:**[Configuring overlays on floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)
 
 **Related topics**  
 
 
-[Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/capacity-management-reporting.md)
+[Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/capacity-management-reporting.md)
 
-[Time series metrics for datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/time-series-metrics.md)
+[Time series metrics for datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/time-series-metrics.md)
 

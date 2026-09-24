@@ -2,12 +2,12 @@
 title: Binding alerts to a specific host CI \(default binding\)
 description: Binding alerts to Configuration Items \(CIs\) using the Node field or the CI Identifier field ensures accurate event association. By comparing an event record’s Node or CI Identifier value, alerts are linked to the right system. This improves response, root cause analysis, and impact assessment by providing clear visibility into affected assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/binding-alert-CI-host-default.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/binding-alert-CI-host-default.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -52,7 +52,7 @@ Imagine a server \(Server-123\) in your network generates an event. The event re
     3.  If a match is found \(e.g., FQDN in the CMDB is also "Server-123.example.com"\), the alert is linked to that CI.
 2.  Applying Event Rules: Even if the Node resolves to Server-123, additional event rules might determine if the alert should be linked differently. For example, an event rule may specify that alerts from Server-123 should be linked to a parent CI \(like a cluster\) instead of the individual server.
 
-**Note:** You can also use Service Operations Workspace to bind alerts. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
+**Note:** You can also use Service Operations Workspace to bind alerts. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Fallback CI binding fields
 

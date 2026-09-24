@@ -2,7 +2,7 @@
 title: Configure all catalog items or record producers to create a universal request
 description: Reduce the implementation time by configuring all catalog items or all record producers at a time for universal request creation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configure-all-cat-items-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/configure-all-cat-items-ur.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -59,5 +59,5 @@ For information about service configurations, see [Service Configuration form](h
     2.  Click **Submit**.
 
 
-**Parent Topic:**[Service Catalog configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/ur-catalog-config.md)
+**Parent Topic:**[Service Catalog configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/ur-catalog-config.md)
 

@@ -2,7 +2,7 @@
 title: Integrate Virtual Agent with Google Chat
 description: Add either the Now Virtual Agent bot or self-configured bot to your ServiceNow instance to integrate with Google Chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/integrating-va-google-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/integrating-va-google-chat.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +21,7 @@ Add either the Now Virtual Agent bot or self-configured bot to your ServiceNow i
 
 Install the Google Chat plugin \[sn\_va\_google-chat\] on your ServiceNow instance before adding any integrations.
 
-For more information on Now Virtual Agent integrations with Google Chat, see [Exploring Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-ci-google-chat.md).
+For more information on Now Virtual Agent integrations with Google Chat, see [Exploring Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-ci-google-chat.md).
 
 Role required: admin or virtual\_agent\_admin.
 
@@ -49,5 +49,5 @@ Role required: admin or virtual\_agent\_admin.
 
 If an automated welcome message displays in the chat window, Google Chat is ready to use with Virtual Agent in your instance.
 
-**Parent Topic:**[Configuring your Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-google-chat.md)
+**Parent Topic:**[Configuring your Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-google-chat.md)
 

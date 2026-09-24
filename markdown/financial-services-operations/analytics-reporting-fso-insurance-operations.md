@@ -2,7 +2,7 @@
 title: Analytics and reporting for Personal Lines Servicing
 description: Personal Lines Servicing contains preconfigured dashboards with actionable data visualizations that can help your organization improve your business processes and quantify the value of self-service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/analytics-reporting-fso-insurance-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/analytics-reporting-fso-insurance-operations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Personal Lines Servicing contains preconfigured dashboards with actionable data 
 
 Use the Performance Analytics widgets on a dashboard to visualize data over time, analyze your business processes, and identify areas of improvement.
 
-The [Personal Lines Servicing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/personal-lines-servicing-dashboard.md) is available for Personal Lines Servicing.
+The [Personal Lines Servicing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/personal-lines-servicing-dashboard.md) is available for Personal Lines Servicing.
 
-**Parent Topic:**[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)
+**Parent Topic:**[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)
 

@@ -2,7 +2,7 @@
 title: Define a Product Model for License and Permit Playbook
 description: A product model record is required in a license/permit case application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-define-product-model-lp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-define-product-model-lp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

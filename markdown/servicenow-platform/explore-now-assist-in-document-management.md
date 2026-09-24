@@ -2,7 +2,7 @@
 title: Explore ServiceNow Otto in Document Management
 description: ServiceNow Otto in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/explore-now-assist-in-document-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/explore-now-assist-in-document-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-20"
@@ -41,7 +41,7 @@ Generate instant summaries and key document insights
 
 </td><td>
 
-[Generate a document summary by using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-document-summary-now-assist.md)
+[Generate a document summary by using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/generate-document-summary-now-assist.md)
 
 </td></tr><tr><td>
 
@@ -49,7 +49,7 @@ Extract key document insights through conversational interactions using generati
 
 </td><td>
 
-[Generate summary and ask questions using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ask-questions-faqs-now-assist.md)
+[Generate summary and ask questions using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/ask-questions-faqs-now-assist.md)
 
 </td></tr><tr><td>
 
@@ -57,7 +57,7 @@ Redact sensitive information from documents
 
 </td><td>
 
-[Redact sensitive data from documents using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/redact-sensitive-data-using-AI.md)
+[Redact sensitive data from documents using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/redact-sensitive-data-using-AI.md)
 
 </td></tr><tr><td>
 
@@ -65,13 +65,13 @@ Generate audio summaries and interact using voice based queries to extract infor
 
 </td><td>
 
-[Generate audio summaries and query documents using voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-audio-summary-voice-questions-now-assist.md)
+[Generate audio summaries and query documents using voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/generate-audio-summary-voice-questions-now-assist.md)
 
 </td></tr></tbody>
 </table>## What to explore next
 
 To learn more about configuring and using ServiceNow Otto in Document Management, see:
 
--   [Configure ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-now-assist-document-management.md)
--   [Use ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-now-assist-document-management.md)
+-   [Configure ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-now-assist-document-management.md)
+-   [Use ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/use-now-assist-document-management.md)
 

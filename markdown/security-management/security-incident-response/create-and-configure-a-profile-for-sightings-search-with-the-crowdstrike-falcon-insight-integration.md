@@ -2,7 +2,7 @@
 title: Create and configure a profile for the sighting search
 description: Use sightings searches for CrowdStrike Falcon Insight to locate infected machines across your organization's network and to address security incident response cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-and-configure-a-profile-for-sightings-search-with-the-crowdstrike-falcon-insight-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-and-configure-a-profile-for-sightings-search-with-the-crowdstrike-falcon-insight-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

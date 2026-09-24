@@ -2,7 +2,7 @@
 title: View automation logs in RPA Hub
 description: Automation logs are series of succession stages or a series of checkpoints that occur during the execution of a bot process. It enables monitoring and auditing the automation process. These logs are generated from the robot for unattended and attended bot processes.Use the Automation Logs form to view a list of the automation logs captured for a bot process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-automation-logs-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/view-automation-logs-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ Automation logs are series of succession stages or a series of checkpoints that 
 
 ## Before you begin
 
-Ensure that the **Track Automation Logs** check box on the Bot Process form is enabled. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Ensure that the **Track Automation Logs** check box on the Bot Process form is enabled. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/select-botprocess.md).
 
-Ensure to use the log component in the associated automation and populate the required details in RPA Desktop Design Studio. For more information about the component, see [Use the Log component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-general-log.md).
+Ensure to use the log component in the associated automation and populate the required details in RPA Desktop Design Studio. For more information about the component, see [Use the Log component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-general-log.md).
 
 Role required: sn\_rpa\_fdn.rpa\_business\_user, sn\_rpa\_fdn.rpa\_support\_user, sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_release\_manager, or sn\_rpa\_fdn.rpa\_admin
 
@@ -45,15 +45,15 @@ The automation logs store up to 8,000 records that are latest. Every 5 minutes, 
 
 3.  Navigate to the automation logs in one of the following ways.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d165239e159">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d165221e159">
 
 Option
 
-</th><th align="left" id="d165239e162">
+</th><th align="left" id="d165221e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d165239e168">
+</th></tr></thead><tbody><tr><td id="d165221e168">
 
 **From Bot Process menu**
 
@@ -65,7 +65,7 @@ Action
 4.  On the Automation Logs tab, view an associated automation log.
 
 
-</td></tr><tr><td id="d165239e201">
+</td></tr><tr><td id="d165221e201">
 
 **From Process Job menu**
 
@@ -76,7 +76,7 @@ Action
 3.  On the Automation Logs tab, view an associated automation log.
 
 
-</td></tr><tr><td id="d165239e231">
+</td></tr><tr><td id="d165221e231">
 
 **From Automation Logs menu**
 
@@ -88,7 +88,7 @@ Action
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/monitoring-automations-rpa.md)
+**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/monitoring-automations-rpa.md)
 
 ## Automation Logs form in RPA Hub
 

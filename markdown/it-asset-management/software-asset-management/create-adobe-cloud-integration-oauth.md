@@ -2,7 +2,7 @@
 title: Create an Adobe Cloud integration profile using OAuth
 description: Create an Adobe Cloud integration profile on your ServiceNow instance by using OAuth credentials to track your software subscriptions and to determine your license compliance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-adobe-cloud-integration-oauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-adobe-cloud-integration-oauth.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -112,7 +112,7 @@ Type of integration profile. This field is automatically set to Adobe subscripti
 
     The **Download subscriptions** check box is selected by default and you can't clear it.
 
-    For more information about the required roles and scopes, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/adobe-cloud-integration.md) table.
+    For more information about the required roles and scopes, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/adobe-cloud-integration.md) table.
 
 4.  Select **Submit**.
 
@@ -127,22 +127,22 @@ Type of integration profile. This field is automatically set to Adobe subscripti
     |Field|Description|
     |-----|-----------|
     |Connection Name|Name of the Adobe Cloud connection.|
-    |Connection URL \(Instance URL\)|URL for the connection. This field is automatically set to `https://<Instance Name>.adobelogin.com`. For more information about the steps to get the URL, see Step 9 in [Create a project and add APIs using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-adobe-cloud-oauth.md).|
-    |OAuth Client ID|Client ID that you generated while [creating an Adobe Cloud OAuth credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-adobe-cloud-oauth.md).|
-    |OAuth Client Secret|Client Secret that you retrieved while [creating an Adobe Cloud OAuth credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-adobe-cloud-oauth.md).|
+    |Connection URL \(Instance URL\)|URL for the connection. This field is automatically set to `https://<Instance Name>.adobelogin.com`. For more information about the steps to get the URL, see Step 9 in [Create a project and add APIs using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-adobe-cloud-oauth.md).|
+    |OAuth Client ID|Client ID that you generated while [creating an Adobe Cloud OAuth credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-adobe-cloud-oauth.md).|
+    |OAuth Client Secret|Client Secret that you retrieved while [creating an Adobe Cloud OAuth credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-adobe-cloud-oauth.md).|
     |OAuth Redirect URL|`https://<instance_name>/oauth_redirect.do`, where the instance name is the name of your ServiceNow instance.|
-    |Organization ID|Adobe Cloud Organization ID that you find while [creating an Adobe Cloud OAuth credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-adobe-cloud-oauth.md).|
+    |Organization ID|Adobe Cloud Organization ID that you find while [creating an Adobe Cloud OAuth credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-adobe-cloud-oauth.md).|
 
 8.  Select **Create and Get OAuth Token**.
 
-    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/adobe-cloud-integration.md) table.
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/adobe-cloud-integration.md) table.
 
 9.  On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
 
 ## Result
 
-Adobe subscription data is pulled into Software Asset Management when the **SAM - Import Adobe User Subscriptions** scheduled job runs. When the subscription data is pulled, the **SAM - Optimize Adobe Subscriptions** scheduled job runs monthly to optimize the Adobe Creative Cloud subscriptions. If complete subscription data isn't getting pulled accurately into the Software Asset Management application, see [Determine and verify Adobe subscription information in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/verify-adobe-info.md).
+Adobe subscription data is pulled into Software Asset Management when the **SAM - Import Adobe User Subscriptions** scheduled job runs. When the subscription data is pulled, the **SAM - Optimize Adobe Subscriptions** scheduled job runs monthly to optimize the Adobe Creative Cloud subscriptions. If complete subscription data isn't getting pulled accurately into the Software Asset Management application, see [Determine and verify Adobe subscription information in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/verify-adobe-info.md).
 
 This job completion results in the following:
 
@@ -162,11 +162,11 @@ This job completion results in the following:
 
 ## What to do next
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
 View the subscription data by navigating to **All** &gt; **SaaS License** &gt; **All User Subscriptions**. You can check the status of the **SAM - Import Adobe User Subscriptions** job by navigating to **All** &gt; **Software Asset** &gt; **Administration** &gt; **Job Results**.
 
-You can also view information about your Adobe subscriptions, compliance, and costs on the [Office 365 &amp; Adobe Cloud dashboard in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-saas-subscription-dash.md).
+You can also view information about your Adobe subscriptions, compliance, and costs on the [Office 365 &amp; Adobe Cloud dashboard in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-saas-subscription-dash.md).
 
 After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists:
 
@@ -178,10 +178,10 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-exclusions.md).
 
 **Related topics**  
 
 
-[Publisher optimizations for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/pub-opt-adobe.md)
+[Publisher optimizations for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/pub-opt-adobe.md)
 

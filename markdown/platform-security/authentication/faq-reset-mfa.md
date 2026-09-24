@@ -2,7 +2,7 @@
 title: MFA reset
 description: FAQ related to MFA reset and why it’s important.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/faq-reset-mfa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/faq-reset-mfa.html
 release: australia
 product: Authentication
 classification: authentication

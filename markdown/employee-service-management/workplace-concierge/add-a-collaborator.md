@@ -2,7 +2,7 @@
 title: Add a collaborator
 description: Coordinate your in-office days with your co-workers. Add them as your collaborators and view the days that your co-workers are present at the office.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/add-a-collaborator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-concierge/add-a-collaborator.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -30,7 +30,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the Presence dashboard.
 
-    For more information, see the steps mentioned [here](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/set-in-office-days.md).
+    For more information, see the steps mentioned [here](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/set-in-office-days.md).
 
 2.  On the Presence dashboard page, open the Add Routine window by selecting **Manage your settings**.
 
@@ -51,9 +51,9 @@ Role required: sn\_wsd\_core.workplace\_user
 
 The selected employees are added as your collaborators. You can view their in-office routine from the Employee Presence page.
 
-At any time, you can also remove a collaborator. For more information, see [Remove a collaborator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/remove-a-collaborator.md).
+At any time, you can also remove a collaborator. For more information, see [Remove a collaborator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/remove-a-collaborator.md).
 
-**Parent Topic:**[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md)
+**Parent Topic:**[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 
 **Related topics**  
 

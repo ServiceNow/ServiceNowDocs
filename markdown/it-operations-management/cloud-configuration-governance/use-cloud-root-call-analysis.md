@@ -2,7 +2,7 @@
 title: Use Cloud Root Cause Analysis reports
 description: Root Cause Analysis reports help you troubleshoot issues with Cloud Provisioning and Governance. Use the reports to view details about the Cloud Orchestration Trail and the Cloud API Trail.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/use-cloud-root-call-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/use-cloud-root-call-analysis.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -30,7 +30,7 @@ Role required: sn\_cmp.cloud\_operator or sn\_cmp.cloud\_admin
     -   **Stages**: groups data by the stage, which identifies when the transaction took place.
     -   **Components**: groups data by the component in the system that was involved in the transaction.
     -   **Steps**: groups data by the step, which is the descriptive step associated with a stage and component.
-    See [The Cloud Orchestration Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-orch-trail.md) for a list of possible steps.
+    See [The Cloud Orchestration Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-orch-trail.md) for a list of possible steps.
 
     Requests are also broken down by requester in the bar chart below. Stacks are broken down by datacenters.
 
@@ -46,7 +46,7 @@ Role required: sn\_cmp.cloud\_operator or sn\_cmp.cloud\_admin
 
 3.  Click any Cloud Orchestration API **Number** to view that specific record.
 
-    See [The Cloud Orchestration Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-orch-trail.md) for field descriptions.
+    See [The Cloud Orchestration Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-orch-trail.md) for field descriptions.
 
 4.  To view reports about the Cloud API Trail, click the **Cloud API Dashboard** tab.
 
@@ -60,6 +60,6 @@ Role required: sn\_cmp.cloud\_operator or sn\_cmp.cloud\_admin
 
 5.  Click any the data in the graphs to open the matching Cloud API Trail records.
 
-    See [The Cloud API Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-api-trail.md) for descriptions of the Cloud API Trail form fields.
+    See [The Cloud API Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-api-trail.md) for descriptions of the Cloud API Trail form fields.
 
 

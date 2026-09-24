@@ -2,7 +2,7 @@
 title: View benchmark KPI data
 description: Benchmarks KPI data is shown in Benchmarks dashboard built in Next Experience UI. Data includes values for your company instance, and for global data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t-newviewbenchkpidata-cf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/benchmarks/t-newviewbenchkpidata-cf.html
 release: australia
 product: Benchmarks
 classification: benchmarks

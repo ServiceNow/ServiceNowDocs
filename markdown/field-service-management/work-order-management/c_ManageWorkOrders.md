@@ -2,7 +2,7 @@
 title: Manage work orders
 description: Work orders are requests for off-site work. Users with the appropriate roles create the work orders and provide the necessary information needed for the work order tasks. Then other users qualify those work orders and create the tasks necessary to complete the work order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_ManageWorkOrders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/c\_ManageWorkOrders.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -61,7 +61,7 @@ Incident
 -   Priority
 -   Short description
 -   Description
- For more information, see [Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/incident-for-fsm.md).
+ For more information, see [Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/incident-for-fsm.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Change
 -   Priority
 -   Short description
 -   Description
- For more information, see [Integration with Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/change-for-fsm.md).
+ For more information, see [Integration with Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/change-for-fsm.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Project task**Note:** Before work orders can be created from project tasks, Fiel
 -   State
 -   Scheduled start
 -   Estimated end
- For more information about the synchronized fields, see [Integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/project-management-integration.md).
+ For more information about the synchronized fields, see [Integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/project-management-integration.md).
 
 </td></tr></tbody>
 </table>    Work orders can be filtered based on different attributes, such as qualification group, location, initiated from, priority, state, and so on. This help to create a group of similar work orders.

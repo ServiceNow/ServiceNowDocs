@@ -2,7 +2,7 @@
 title: Roles installed with Notify
 description: Notify adds the following roles.Administrator with privileges for Notify 2 functionality.Assign to users who need to view notify content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_NotifyRoles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/r\_NotifyRoles.html
 release: australia
 product: Notify
 classification: notify
@@ -22,7 +22,7 @@ If you have created a new role, then you must add the new role to the correspond
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Components installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/installed-with-notify2.md)
+**Parent Topic:**[Components installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/installed-with-notify2.md)
 
 ## Notify administrator \[notify\_setup\_admin\]
 

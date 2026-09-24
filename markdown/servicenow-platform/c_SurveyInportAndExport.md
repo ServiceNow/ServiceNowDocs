@@ -2,7 +2,7 @@
 title: Sharing surveys
 description: You can export a survey and then import it to a different ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyInportAndExport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_SurveyInportAndExport.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,14 +27,14 @@ The system exports a single XML file that contains a survey definition \[asmt\_m
 -   Survey users \[asmt\_m2m\_category\_user\]
 -   Trigger Condition \[asmt\_condition\]
 
--   **[Export a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ExportASurvey.md)**  
+-   **[Export a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ExportASurvey.md)**  
 You can export a survey and then import it to another instance.
--   **[Import a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ImportASurvey.md)**  
+-   **[Import a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ImportASurvey.md)**  
 You can import a survey that has been exported as an XML file. The exported XML file does not contain result data.
--   **[Use update sets for surveys and assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_UseUpdateSetsForSurveyAssess.md)**  
+-   **[Use update sets for surveys and assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_UseUpdateSetsForSurveyAssess.md)**  
 Use an update set to capture changes to surveys and assessments.
 
-**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 

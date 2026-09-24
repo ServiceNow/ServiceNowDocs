@@ -2,7 +2,7 @@
 title: Create collaboration descriptors to assign permissions
 description: Create descriptors in the collaboration application so that you can assign permissions to users or groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/create-collaboration-descriptors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/create-collaboration-descriptors.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

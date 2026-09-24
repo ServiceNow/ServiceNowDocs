@@ -2,7 +2,7 @@
 title: Audit observations
 description: Audit observations are the results of an audit. As an important part of the audit report, audit observations represent the results of reviews, analysis, interviews, and discussions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-observations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/audit-observations.html
 release: australia
 product: Audit Management
 classification: audit-management

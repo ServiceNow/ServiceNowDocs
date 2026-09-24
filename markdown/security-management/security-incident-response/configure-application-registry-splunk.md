@@ -2,7 +2,7 @@
 title: Configure Application Registry on the ServiceNow instance
 description: Register the application with the instance to use OAuth authorization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-application-registry-splunk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/configure-application-registry-splunk.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -136,5 +136,5 @@ Additional information to associate with the application.
 
 ## What to do next
 
-[Using ServiceNow Security Operations Integration add-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sn-secops-int-addon.md)
+[Using ServiceNow Security Operations Integration add-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-sn-secops-int-addon.md)
 

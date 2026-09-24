@@ -2,7 +2,7 @@
 title: Turn off experimentation framework
 description: Turn off experimentation framework to opt out of all current and future experiments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/disable-experimentation-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/disable-experimentation-framework.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

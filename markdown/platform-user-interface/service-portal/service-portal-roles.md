@@ -2,7 +2,7 @@
 title: Service Portal roles
 description: Service Portal installs these roles.Manages the configuration of portals created by Service Portal.Manages posting announcements to portals.Can create Usage Insights settings for Service Portal.Users with this role can view the Analytics Dashboard link and settings within in the application navigator, and have viewer role permissions for portal metrics in the Service Portal Analytics Dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/service-portal-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/service-portal-roles.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -18,7 +18,7 @@ Service Portal installs these roles.
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/reference-service-portal.md)
+**Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/reference-service-portal.md)
 
 ## Service Portal administrator \[sp\_admin\]
 

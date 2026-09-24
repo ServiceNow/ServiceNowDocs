@@ -2,7 +2,7 @@
 title: Add dependencies based on CI relationships in CMDB
 description: Add an item by referencing its CI relationship to drill down to the item that is related directly to the dependency group. You can map the item's relationship with the dependency group while assessing the business impact analysis of an asset that is at risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-dependencies-based-on-cmdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-dependencies-based-on-cmdb.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configuring the fulfiller experience in Simplified IT Service Management
 description: Enable an AI-first fulfiller experience for simplified incident and request management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/configuring-fulfiller-experience-ai-native-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configuring-fulfiller-experience-ai-native-itsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ The following experiences are available after configuring the fulfiller experien
 -   Simplified fulfiller experience with a unified record view and AI-embedded workflows.
 -   Improved triage and resolution of incidents by leveraging historical resolution patterns to inform decision-making, thereby enabling service desk agents to focus on resolving complex issues.
 
-For information about available AI agents for fulfiller configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+For information about available AI agents for fulfiller configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 ## Incident Management
 
@@ -55,7 +55,7 @@ Incident form is preconfigured.
 
 </td><td>
 
-Review and update the form layout based on business requirement. For information about creating an incident using Form Builder, see [Working with incident record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/working-incident-record-form.md) and [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/form-configurable-workspace.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident form configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Review and update the form layout based on business requirement. For information about creating an incident using Form Builder, see [Working with incident record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/working-incident-record-form.md) and [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/form-configurable-workspace.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident form configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Incident list and related lists are preconfigured.
 
 </td><td>
 
-Review and update list layouts based on business requirements. For information about updating these fields, see [Working with incident record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/working-incident-record-form.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident list configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Review and update list layouts based on business requirements. For information about updating these fields, see [Working with incident record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/working-incident-record-form.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident list configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ None
 
 </td><td>
 
-For information about incident categories and subcategories, see[Incident categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/r_CategorizingIncidents.md).For information about the Incident Category Configuration AI Agent that provides conversational AI-native experience for incident category configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+For information about incident categories and subcategories, see[Incident categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/r_CategorizingIncidents.md).For information about the Incident Category Configuration AI Agent that provides conversational AI-native experience for incident category configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -119,11 +119,11 @@ None
 
 </td><td>
 
-For information about incident assignment rules, [Define assignment rules for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_DefinAnAssignRuleIncidents.md).
+For information about incident assignment rules, [Define assignment rules for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_DefinAnAssignRuleIncidents.md).
 
  For information about business rules, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
 
- For information about the Incident routing configuration agent that provides conversational AI-native experience for incident routing configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+ For information about the Incident routing configuration agent that provides conversational AI-native experience for incident routing configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ SLAs and their associated flows are preconfigured for Incident Management. Respo
 
 </td><td>
 
-Review and update the definitions, flows, and notifications that are available with Service Level Management according to the incident process. For information about SLAs, see [Configure Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_ConfigureSLAs.md).For information about the SLA Management AI Agent that provides conversational AI-native experience for SLA configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Review and update the definitions, flows, and notifications that are available with Service Level Management according to the incident process. For information about SLAs, see [Configure Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/c_ConfigureSLAs.md).For information about the SLA Management AI Agent that provides conversational AI-native experience for SLA configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Notifications align with the default Employee Center notification template.
 
 </td><td>
 
-Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating an incident notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating an incident notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr></tbody>
 </table>## Request Management
@@ -190,7 +190,7 @@ Requested item form, list, and related lists are preconfigured.
 
 </td><td>
 
-Review and update the form layout based on business requirements. For information about requested items, see [Request Management architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-management-architecture.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for requested item form and list configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Review and update the form layout based on business requirements. For information about requested items, see [Request Management architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/request-management-architecture.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for requested item form and list configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Catalog task form, list and related lists are preconfigured.
 
 </td><td>
 
-Review the form layout and update based on business need. For information about catalog tasks, see [Request Management architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-management-architecture.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for catalog task form and list configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Review the form layout and update based on business need. For information about catalog tasks, see [Request Management architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/request-management-architecture.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for catalog task form and list configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -222,38 +222,38 @@ Notifications align with the default Employee Center notification template.
 
 </td><td>
 
-Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating a request notification, see [View request notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/view-request-notification.md).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating a request notification, see [View request notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/view-request-notification.md).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr></tbody>
 </table>## Major Incident Management
 
 Accelerates the resolution of a major incident and minimizes the business impact. A major incident is a highest-impact, highest-urgency incident that affects a large number of users, depriving the business of one or more crucial services.
 
-For information about configuring Major Incident Management from SOW Admin Center, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md).
+For information about configuring Major Incident Management from SOW Admin Center, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md).
 
 ## On-Call Scheduling
 
 Ensures that the right person is available to assign an incident to, by rotation through a hierarchy of duty rosters.
 
-For information about configuring On-Call Scheduling from SOW Admin Center, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md).
+For information about configuring On-Call Scheduling from SOW Admin Center, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md).
 
 ## Problem Management
 
 Manages the life cycle of all problems and prevents problems and resulting incidents from happening. It also aims to eliminate recurring incidents and minimize the impact of incidents that can’t be prevented.
 
-For information about configuring Problem Management from SOW Admin Center, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md).
+For information about configuring Problem Management from SOW Admin Center, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md).
 
 ## Walk-up Experience
 
 Enhances the user experience by providing in-person as well as remote assistance to the users for their IT-related issues.
 
-For information about configuring Walk-up Experience from SOW Admin Center, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md).
+For information about configuring Walk-up Experience from SOW Admin Center, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md).
 
 ## Analytics
 
 |Configuration|Description|Default configuration|Optional configurations|
 |-------------|-----------|---------------------|-----------------------|
-|Dashboard|Managing dashboards and data visualizations to track progress quickly.|Preconfigured dashboard on workspace landing page that provides visibility into agent workload with key metrics such as Assigned to you, Overdue, and Unassigned.|Edit the existing dashboard or create your own dashboard in Platform Analytics workspace. To create a dashboard using Platform Analytics, see [Platform Analytics KPIs and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/operational-success-kpi.md).|
+|Dashboard|Managing dashboards and data visualizations to track progress quickly.|Preconfigured dashboard on workspace landing page that provides visibility into agent workload with key metrics such as Assigned to you, Overdue, and Unassigned.|Edit the existing dashboard or create your own dashboard in Platform Analytics workspace. To create a dashboard using Platform Analytics, see [Platform Analytics KPIs and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/operational-success-kpi.md).|
 
 ## Otto for ITSM
 
@@ -279,7 +279,7 @@ Agentic workflows
 
 </td><td>
 
-An agentic workflow is a coordinated, multi‑step process where AI agents plan, act, and collaborate to achieve a complex business goal. For information about agentic workflows in ITSM, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
+An agentic workflow is a coordinated, multi‑step process where AI agents plan, act, and collaborate to achieve a complex business goal. For information about agentic workflows in ITSM, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
 
 </td><td>
 
@@ -296,7 +296,7 @@ AI skills
 
 </td><td>
 
-Prebuilt, LLM‑powered capabilities that surface in the right UI touchpoints and can be activated or configured by admins across workflow. For example, summarization, KB generation, and email drafting. For information about AI skills in ITSM, see [Using ServiceNow Otto for IT Service Management \(ITSM\) Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md).
+Prebuilt, LLM‑powered capabilities that surface in the right UI touchpoints and can be activated or configured by admins across workflow. For example, summarization, KB generation, and email drafting. For information about AI skills in ITSM, see [Using ServiceNow Otto for IT Service Management \(ITSM\) Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md).
 
 </td><td>
 
@@ -421,7 +421,7 @@ Core change models \(Normal, Standard, Emergency\) and Change Registration model
 
 </td><td>
 
-For more information, see [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-change-models-scm.md).
+For more information, see [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configure-change-models-scm.md).
 
 </td></tr><tr><td>
 
@@ -456,10 +456,10 @@ Notifications based on change definitions, showing each notification's name, act
 Review and update the pre-configured notifications, or create new ones.
 
 </td></tr></tbody>
-</table>For more information on Change Management, see [Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md).
+</table>For more information on Change Management, see [Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configuring-change-management-experience-in-it-service-management.md).
 
--   **[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)**  
+-   **[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configuring-change-management-experience-in-it-service-management.md)**  
 Configure Change Management through a guided experience that walks you through the core setup areas required to make Change Management operational.
 
-**Parent Topic:**[Configure integrations and ITSM experiences in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-ai-native-itsm.md)
+**Parent Topic:**[Configure integrations and ITSM experiences in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configure-ai-native-itsm.md)
 

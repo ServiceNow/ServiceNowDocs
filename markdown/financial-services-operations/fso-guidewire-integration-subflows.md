@@ -2,7 +2,7 @@
 title: Financial Services Operations Integration with Guidewire subflows
 description: The Financial Services Operations Integration with Guidewire provides these subflows to automate Guidewire tasks. These subflows can be customized as per business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-guidewire-integration-subflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-guidewire-integration-subflows.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -254,5 +254,5 @@ Get Personal Auto Claim
 Based on the Claim ID, this subflow retrieves a specific personal claim from Guidewire.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Operations Integration with Guidewire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-guidewire-landing-page.md)
+</table>**Parent Topic:**[Financial Services Operations Integration with Guidewire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integration-with-guidewire-landing-page.md)
 

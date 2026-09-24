@@ -2,7 +2,7 @@
 title: Define subflows for success plays
 description: Before you create a success play, you must define a subflow and add it to the Definition Records table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-config-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-config-subflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -75,5 +75,5 @@ Enter a description for this definition record.
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-**Parent Topic:**[Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md)
+**Parent Topic:**[Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-play.md)
 

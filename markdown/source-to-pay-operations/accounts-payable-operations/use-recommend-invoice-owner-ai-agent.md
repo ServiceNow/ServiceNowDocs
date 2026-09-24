@@ -2,7 +2,7 @@
 title: Use Recommend invoice owner AI agent
 description: Use the Recommend invoice owner AI agent to identify and assign business owners for Non-PO invoices and credit memos. The AI agent analyzes historically processed invoices to recommend the most likely business owner, which an accounts payable specialist can review, approve, or override.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/use-recommend-invoice-owner-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/use-recommend-invoice-owner-ai-agent.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -35,7 +35,7 @@ Role required: Accounts Payable specialist \(sn\_ap\_apm.accounts\_payable\_spec
 
 5.  Select **View plan**.\[Omitted image "apo-view-resolution-plan.png"\] Alt text: View resolution plan
 
-    The AI agent summarizes the exception and provides a resolution plan. For more details on the resolution plan, see [Resolution plan scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/resolution-plan-scenarios.md).
+    The AI agent summarizes the exception and provides a resolution plan. For more details on the resolution plan, see [Resolution plan scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/resolution-plan-scenarios.md).
 
 6.  Review and confirm the resolution plan.\[Omitted image "apo-confirm-resolution-plan.png"\] Alt text: Confirm recommendation
 

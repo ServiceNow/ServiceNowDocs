@@ -2,7 +2,7 @@
 title: Export hierarchy of models and templates
 description: Export a hierarchy of models, inventory templates, and all related records efficiently using the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-template.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -61,5 +61,5 @@ Role required: sn\_ni\_core.inventory\_admin
 
 The selected model or inventory template with all related records is downloaded in the selected format.
 
-**Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
+**Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 

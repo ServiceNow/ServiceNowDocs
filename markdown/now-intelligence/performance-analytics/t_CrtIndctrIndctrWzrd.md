@@ -2,7 +2,7 @@
 title: Create an automated indicator with a wizard
 description: Quickly create a Performance Analytics automated indicator with breakdowns, widgets, and data collection jobs for that indicator. You still need to be trained in Performance Analytics and to have planned your KPIs to use this wizard.There are several options for creating widgets to display the indicator data when creating an indicator and related records. You can create any or all of the available widget types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CrtIndctrIndctrWzrd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_CrtIndctrIndctrWzrd.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -18,7 +18,7 @@ Quickly create a Performance Analytics automated indicator with breakdowns, widg
 
 ## Before you begin
 
-Familiarize yourself with [Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PerformanceAnalytics.md) and create indicators only as part of an analytics strategy. Plan your KPIs with [KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md). Study the [Workflow for creating indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/workflow-automated-indicators.md).
+Familiarize yourself with [Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_PerformanceAnalytics.md) and create indicators only as part of an analytics strategy. Plan your KPIs with [KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/designing-pa-solution.md). Study the [Workflow for creating indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/workflow-automated-indicators.md).
 
 Ensure that there is at least one indicator source and a data collection job for the indicator source facts table.
 
@@ -28,7 +28,7 @@ Role required: pa\_contributor, pa\_data\_collector, pa\_power\_user, or pa\_adm
 
 ## About this task
 
-These instructions are for using a wizard to create a simple automated indicator quickly. If you need access to the full range of indicator parameters, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
+These instructions are for using a wizard to create a simple automated indicator quickly. If you need access to the full range of indicator parameters, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
 
 **Note:** If you are using domain separation, the indicator is created in the domain that you are currently in.
 
@@ -133,7 +133,7 @@ Conditions
 
 </td><td>
 
-An optional list of values and operations to apply to fields in the table that the indicator source uses. These conditions stack with any conditions that are specified in the indicator source.Several limitations exist for conditions on indicators. For more information, see the step for adding additional conditions in [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
+An optional list of values and operations to apply to fields in the table that the indicator source uses. These conditions stack with any conditions that are specified in the indicator source.Several limitations exist for conditions on indicators. For more information, see the step for adding additional conditions in [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
 
 </td></tr></tbody>
 </table>4.  In the **Breakdowns** tab, select which of the available breakdowns to apply to this indicator.
@@ -150,7 +150,7 @@ An optional list of values and operations to apply to fields in the table that t
 
 7.  In the **Widgets** tab, select any combination of time series, last score, and breakdown widgets to create.
 
-    You can also put the widgets in the tab of an existing dashboard. For more information about creating and displaying widgets from this wizard, see [Indicator creation widget options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CrtIndctrIndctrWzrd.md).
+    You can also put the widgets in the tab of an existing dashboard. For more information about creating and displaying widgets from this wizard, see [Indicator creation widget options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CrtIndctrIndctrWzrd.md).
 
 8.  In the Summary tab, review the changes, then click **Apply**.
 
@@ -166,11 +166,11 @@ If the data collection job is configured to collect scores from the past, a temp
 **Related topics**  
 
 
-[Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
+[Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
 
-[Indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_IndicatorSources.md)
+[Indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_IndicatorSources.md)
 
-[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md)
+[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ClctData.md)
 
 ## Indicator creation widget options
 
@@ -202,7 +202,7 @@ Time series
 
 </td><td>
 
-Runs a function on the indicator scores for a specific time period, such as a 7-day sum or average. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
+Runs a function on the indicator scores for a specific time period, such as a 7-day sum or average. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/applying-time-series-aggregations.md).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
 
 </td></tr><tr><td>
 
@@ -235,7 +235,7 @@ Time series
 
 </td><td>
 
-Runs a function on the indicator scores for a specific time period, such as a 7-day sum or average. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
+Runs a function on the indicator scores for a specific time period, such as a 7-day sum or average. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/applying-time-series-aggregations.md).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
 
 </td></tr><tr><td>
 
@@ -258,5 +258,5 @@ Select the number of periods to compare the score with. For example, if the **Ti
 **Related topics**  
 
 
-[Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Widgets.md)
+[Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_Widgets.md)
 

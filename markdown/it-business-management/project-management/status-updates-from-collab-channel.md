@@ -2,7 +2,7 @@
 title: Notifications for project updates in your collaboration tool
 description: Receive updates related to your project on your Slack channel or Microsoft team. Analyze the delayed and overdue tasks, follow closure of milestones, and monitor changes to risk, issue, decision, action, and change request \(RIDAC\) items of your project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/status-updates-from-collab-channel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/status-updates-from-collab-channel.html
 release: australia
 product: Project Management
 classification: project-management
@@ -89,10 +89,10 @@ When there is a change in the manager of your project, an update is made to the 
     Whenever a key milestone is closed, you are notified about the closure and the user who closed it, with a direct URL to the milestone task.
 
 
-**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-collab-overview.md)
+[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ppm-collab-overview.md)
 

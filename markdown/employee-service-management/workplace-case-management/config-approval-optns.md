@@ -2,7 +2,7 @@
 title: Configure Approval options
 description: Add approvers to approve cases created through Workplace services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/config-approval-optns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/config-approval-optns.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -61,7 +61,7 @@ The ServiceNow® Workplace Case Management application provides the following de
 
 The Approval option is added and will be listed wherever approvals are configured.
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

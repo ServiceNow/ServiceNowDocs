@@ -2,7 +2,7 @@
 title: Append to Flow Variables flow logic
 description: Append a value to one or more array of objects flow variables. Use flow data to generate values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/append-to-flow-variables-flow-logic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/append-to-flow-variables-flow-logic.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -64,7 +64,7 @@ In this example, a subflow looks up incidents where the category is Network. For
 
 The subflow execution details show that the output value of the incidents array of objects.
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

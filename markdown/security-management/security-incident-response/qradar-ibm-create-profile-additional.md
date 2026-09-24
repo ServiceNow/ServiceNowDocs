@@ -2,7 +2,7 @@
 title: Automate offense updates and closure based on SIR incident status
 description: The IBM QRadar integration has a bi-directional interface that allows for both offenses to create security incidents, as well as an ability to update the offenses once the security incident is created and/or closed with relevant incident details such as security incident number, assignment group, security incident URL, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm-create-profile-additional.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/qradar-ibm-create-profile-additional.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

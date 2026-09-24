@@ -2,7 +2,7 @@
 title: Workplace Advisor Overview
 description: Workplace Advisor is an AI-powered solution designed to help Space Planners and Facilities Managers optimize workplace management through intelligent insights and conversational support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/workplace-advisor-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/workplace-advisor-overview.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -30,12 +30,12 @@ Ask workplace reservation related questions in natural language and receive cont
 
 The system generates Insight Cards for key performance indicators on workplace operations such as occupancy, space utilization, reservation trends, and environmental metrics.
 
--   **[Workplace advisor QnA agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-advisor-qna.md)**  
+-   **[Workplace advisor QnA agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/workplace-advisor-qna.md)**  
 The workplace advisor QnA agentic workflow enables Reservation Managers to use the Now Assist panel to ask natural language questions about workplace reservations.
--   **[Insight cards on the Workplace Central dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.md)**  
+-   **[Insight cards on the Workplace Central dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.md)**  
 Display key metrics and AI-generated insights from workplace data sources using Insight cards on the Workplace Central dashboard. These Insight cards are auto-generated using generative AI, enabling Space Planners, and Facilities Managers to make data-driven decisions to optimize workplace resources. Insight cards provide proactive insights into various workplace metrics such as space utilization, occupancy rates, attendance patterns, and reservation trends.
 
-**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 

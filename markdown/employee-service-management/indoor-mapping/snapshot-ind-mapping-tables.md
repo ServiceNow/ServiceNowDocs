@@ -2,7 +2,7 @@
 title: Snapshot Impacted tables
 description: Few Indoor Mapping and Workplace Indoor Mapping tables are impacted during the snapshot process when the Indoor Mapping backup data is migrated to Workplace Service Delivery instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/snapshot-ind-mapping-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/snapshot-ind-mapping-tables.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -55,14 +55,14 @@ The following tables are affected during the snapshot process.
 -   sn\_map\_core\_m2m\_view\_type\_campus\_direction\_mode
 -   sn\_map\_core\_m2m\_view\_type\_campus\_reader
 
-**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
+**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/indoor-mapping-references.md)
 
-**Previous topic:**[Indoor Mapping terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-common-terminology.md)
+**Previous topic:**[Indoor Mapping terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/indoor-mapping-common-terminology.md)
 
-**Next topic:**[Map printing options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/map-printing-options.md)
+**Next topic:**[Map printing options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/map-printing-options.md)
 
 **Related topics**  
 
 
-[Create Snapshots to migrate Indoor Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/snapshot-ind-mapping.md)
+[Create Snapshots to migrate Indoor Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/snapshot-ind-mapping.md)
 

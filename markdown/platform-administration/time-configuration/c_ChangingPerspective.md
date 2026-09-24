@@ -2,7 +2,7 @@
 title: Changes in perspective
 description: Use the range selectors at the top of the timeline to change the perspective.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/c\_ChangingPerspective.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/c\_ChangingPerspective.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -24,5 +24,5 @@ The pink slider at the bottom of the timeline offers another way to change the p
 
 \[Omitted image "TimelinePerspectiveSlider.png"\] Alt text: timeline perspective slider
 
-**Parent Topic:**[Timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UsingTimelines.md)
+**Parent Topic:**[Timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_UsingTimelines.md)
 

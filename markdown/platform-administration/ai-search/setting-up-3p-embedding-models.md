@@ -2,7 +2,7 @@
 title: Configuring an external or custom embedding model
 description: You can connect and configure an external or custom embedding model in the AI Search Retrieval Augmented Generation \(RAG\) application to generate embeddings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/setting-up-3p-embedding-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/setting-up-3p-embedding-models.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -30,10 +30,10 @@ Configure your custom and third-party embedding models in the AI Search RAG appl
 
     You can integrate a third-party embedding model with your system:
 
-    1.  Set up a connection and credentials for a third-party embedding model. For more information, see [Setting up connection and credentials for third-party embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/setup-alias-for-3p-embedding-model.md).
-    2.  Activate a third-party embedding model. For more information, see [Activating the third-party embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-3p-embedding-model.md).
+    1.  Set up a connection and credentials for a third-party embedding model. For more information, see [Setting up connection and credentials for third-party embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/setup-alias-for-3p-embedding-model.md).
+    2.  Activate a third-party embedding model. For more information, see [Activating the third-party embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-3p-embedding-model.md).
 -   **Configuring custom embedding models**
 
-    You can configure a custom embedding model end-to-end by leveraging the Bring Your Own Embedding Model \(BYOM\) capability. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/creating-byom.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/creating-byom.md).
+    You can configure a custom embedding model end-to-end by leveraging the Bring Your Own Embedding Model \(BYOM\) capability. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/creating-byom.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/creating-byom.md).
 
 

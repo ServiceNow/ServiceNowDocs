@@ -2,7 +2,7 @@
 title: Authorization code grant
 description: The OAuth authorization code grant is a secure and widely used flow for web, mobile, or desktop apps that access user data with user consent. It supports both private clients \(using a client secret\), and public clients \(using PKCE\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/authorization-code-grant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/authorization-code-grant.html
 release: australia
 product: Authentication
 classification: authentication
@@ -32,7 +32,7 @@ In this flow, ServiceNow functions as both the authorization server \(handling u
 **Related topics**  
 
 
-[Authorization code grant workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authorization-workflow.md)
+[Authorization code grant workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/authorization-workflow.md)
 
-[Configure an OAuth authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-an-oauth-authorization-code-grant.md)
+[Configure an OAuth authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-an-oauth-authorization-code-grant.md)
 

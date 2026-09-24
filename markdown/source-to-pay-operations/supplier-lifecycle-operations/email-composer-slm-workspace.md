@@ -2,7 +2,7 @@
 title: Composing emails with predefined content from the Source-to-Pay Workspace
 description: Insert predefined content into the message body of emails that you send from the email client in the Source-to-Pay Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/email-composer-slm-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/email-composer-slm-workspace.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -49,14 +49,14 @@ After your email is composed, sent, and received by the intended recipient, you 
 
 ## Email composer configuration
 
-To view the **Compose Email** option in the More Actions menu, and to view your emailed message in the activity log of a supplier case or supplier task in Source-to-Pay Workspace, ensure that you add the role required to access this feature in the User Interface Properties page. For more information, see [Configure access to the compose email feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-access-compose-email.md).
+To view the **Compose Email** option in the More Actions menu, and to view your emailed message in the activity log of a supplier case or supplier task in Source-to-Pay Workspace, ensure that you add the role required to access this feature in the User Interface Properties page. For more information, see [Configure access to the compose email feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-access-compose-email.md).
 
--   **[Configure access to the compose email feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-access-compose-email.md)**  
+-   **[Configure access to the compose email feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-access-compose-email.md)**  
 Configure the role required to access the compose email feature that enables you to send emails directly from a supplier case or supplier task in the Source-to-Pay Workspace.
--   **[Communicate using emails from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/send-emails-slm-ws.md)**  
+-   **[Communicate using emails from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/send-emails-slm-ws.md)**  
 Compose and send emails directly from a supplier case or a supplier task in the Source-to-Pay Workspace.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 
@@ -85,7 +85,7 @@ Compose and send emails directly from a supplier case or a supplier task in the 
 
 [Emails view for supplier managers]()
 
-[Configure access to the compose email feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-access-compose-email.md)
+[Configure access to the compose email feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-access-compose-email.md)
 
-[Communicate using emails from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/send-emails-slm-ws.md)
+[Communicate using emails from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/send-emails-slm-ws.md)
 

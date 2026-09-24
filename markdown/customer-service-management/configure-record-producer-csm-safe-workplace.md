@@ -2,7 +2,7 @@
 title: Configure the health screening form
 description: Provide additional information on contacts or consumers to health screeners by adding fields to the health screening form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-record-producer-csm-safe-workplace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-record-producer-csm-safe-workplace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure the semantic index settings for legal request tables
 description: Configure the semantic index settings to define how AI Search indexes the content from the legal request tables in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/create-record-legal-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/create-record-legal-requests.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -99,7 +99,7 @@ The data from the legal request tables are indexed for AI Search according to th
 
 ## What to do next
 
-Add fields to the semantic index record by selecting **body**. For more information, see [Add fields to the semantic index for legal records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/add-field-legal-requests.md).
+Add fields to the semantic index record by selecting **body**. For more information, see [Add fields to the semantic index for legal records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/add-field-legal-requests.md).
 
-**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
+**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
 

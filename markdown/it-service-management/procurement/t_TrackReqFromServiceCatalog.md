@@ -2,7 +2,7 @@
 title: Track a request from the service catalog
 description: The Procurement application lets you track a request that was ordered from the service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_TrackReqFromServiceCatalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/procurement/t\_TrackReqFromServiceCatalog.html
 release: australia
 product: Procurement
 classification: procurement
@@ -39,7 +39,7 @@ Request REQ0000001: 4 items
     The **Requested Items** related list displays the items that were ordered. You can view the requested item, or view associated **Purchase Orders**, **Transfer Orders**, and **Assignments** on other related lists. A catalog task is automatically generated for each requested item to identify the source of the item, whether it must be purchased or transferred from a stockroom.
 
 
-**Parent Topic:**[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_UseProcurement.md)
+**Parent Topic:**[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/procurement/c_UseProcurement.md)
 
 **Related topics**  
 

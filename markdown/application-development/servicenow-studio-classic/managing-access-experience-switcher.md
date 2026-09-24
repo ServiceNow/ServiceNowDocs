@@ -2,7 +2,7 @@
 title: Managing access to the experience switcher
 description: The experience switcher can provide access to Creator Studio, ServiceNow Studio, ServiceNow IDE. However, whether you can see and select all of those depends on your role or access level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/managing-access-experience-switcher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/managing-access-experience-switcher.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -31,7 +31,7 @@ Admins can check the Experience Configurations table \[sn\_udc\_experience\_conf
 
 **Important:** Regardless of your role — including admin and delegated developer roles — if you have a Creator Studio role, you cannot access ServiceNow Studio or ServiceNow IDE.
 
-To grant non-default roles access to products in the experience switcher, update the Experience Visibility Controls table \[sn\_udc\_experience\_visibility\_control\]. For more information, see [Configure non-default access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configure-access-experience-switcher.md).
+To grant non-default roles access to products in the experience switcher, update the Experience Visibility Controls table \[sn\_udc\_experience\_visibility\_control\]. For more information, see [Configure non-default access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/configure-access-experience-switcher.md).
 
 ## Product installation determines access
 
@@ -45,8 +45,8 @@ To appear in the experience switcher, all products must be on the Yokohama versi
 
 For example, if you choose Creator Studio in the experience switcher but have the Xanadu version of Creator Studio installed, selecting it displays a page directing you to update the version.
 
--   **[Configure non-default access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configure-access-experience-switcher.md)**  
+-   **[Configure non-default access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/configure-access-experience-switcher.md)**  
 Grant non-default roles access to the experience switcher so users can switch between development environments in ServiceNow Studio.
 
-**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
+**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 

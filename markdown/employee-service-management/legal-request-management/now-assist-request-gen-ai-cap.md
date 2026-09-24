@@ -2,7 +2,7 @@
 title: Use the capabilities from the ServiceNow Otto panel
 description: Use the contextual AI capabilities, such as a request summary by using the conversational interface in the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/now-assist-request-gen-ai-cap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/now-assist-request-gen-ai-cap.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -46,5 +46,5 @@ For more information about the panel, see [ServiceNow Otto panel](https://raw.gi
     \[Omitted image "lsd-na-side-panel.png"\] Alt text: ServiceNow Otto panel with selections for generating a request summarization
 
 
-**Parent Topic:**[Summarize a legal request or matter by using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-summarize-case.md)
+**Parent Topic:**[Summarize a legal request or matter by using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-summarize-case.md)
 

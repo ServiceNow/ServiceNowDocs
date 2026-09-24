@@ -2,7 +2,7 @@
 title: Create a SOAP message
 description: Create a SOAP message to define the remote endpoint, WSDL, and authentication settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_CreateASOAPMessage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_CreateASOAPMessage.html
 release: australia
 product: Web Services
 classification: web-services
@@ -43,5 +43,5 @@ Role required: web\_service\_admin
     \[Omitted image "SoapMessageDemoi1.png"\] Alt text: Soap message demo 1
 
 
-**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPMessage.md)
+**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPMessage.md)
 

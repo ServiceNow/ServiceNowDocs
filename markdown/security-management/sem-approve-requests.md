@@ -2,7 +2,7 @@
 title: Approve or reject requests in the Security Exposure Management Workspace
 description: Approve or reject requests that are submitted by remediation owners.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-approve-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-approve-requests.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -115,7 +115,7 @@ Two
 The approval flow for risk reduction is same as the exception approvals \(deferrals\).
 
 </td></tr></tbody>
-</table>See [Vulnerability Response personas and granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-persona-overview.md) and [Assign the Vulnerability Response persona roles using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-assign-personas_SA.md) for more information about assigning persona roles to users and users to groups.
+</table>See [Vulnerability Response personas and granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/vr-persona-overview.md) and [Assign the Vulnerability Response persona roles using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/vr-assign-personas_SA.md) for more information about assigning persona roles to users and users to groups.
 
 **Note:**
 
@@ -140,15 +140,15 @@ The approval flow for risk reduction is same as the exception approvals \(deferr
 
 5.  Choose one of the following options to approve or reject the request.
 
-<table id="choicetable_p3t_h5x_wqb"><thead><tr><th align="left" id="d63401e333">
+<table id="choicetable_p3t_h5x_wqb"><thead><tr><th align="left" id="d63662e333">
 
 Option
 
-</th><th align="left" id="d63401e336">
+</th><th align="left" id="d63662e336">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d63401e342">
+</th></tr></thead><tbody><tr><td id="d63662e342">
 
 **Click the Details tab, enter text in the Comments field, and click Reject**
 
@@ -160,7 +160,7 @@ Description
 -   The Vulnerability State Change Approval record is no longer displayed on your Approvals list view in the workspace.
 
 
-</td></tr><tr><td id="d63401e366">
+</td></tr><tr><td id="d63662e366">
 
 **From either the __Request__ or __Details__ tabs, click Approve**
 
@@ -174,5 +174,5 @@ Description
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

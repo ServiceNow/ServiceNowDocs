@@ -2,7 +2,7 @@
 title: Event Management subflows in the base system
 description: The subflows provided with the base system appear in the Remediation Subflows area of alert management rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/subflows-provided.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/subflows-provided.html
 release: australia
 product: Event Management
 classification: event-management
@@ -146,7 +146,7 @@ This subflow applies the alert template.This subflow is provided for instances t
 
 </td></tr></tbody>
 </table>1.  Select the subflow that you need.
-2.  To customize a subflow, see [Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-custom-create-incident-subflow.md). This topic also describes the input parameters in a subflow.
+2.  To customize a subflow, see [Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-custom-create-incident-subflow.md). This topic also describes the input parameters in a subflow.
 3.  To specify when the workflow must be executed, double-click the cell under **Execution**.
 
     \[Omitted image "subflow-execution.png"\] Alt text: Subflow execution
@@ -154,7 +154,7 @@ This subflow applies the alert template.This subflow is provided for instances t
     .
 
 
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
+To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md).
 
-**Parent Topic:**[Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-management-rule.md)
+**Parent Topic:**[Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-management-rule.md)
 

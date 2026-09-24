@@ -2,7 +2,7 @@
 title: Data Context Engine \(DCE\) Insights
 description: DCE Insights is a Data Context Engine feature that enables the visualization of identified metrics for product and capability usage records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-dce-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-dce-insights.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ Configure DCE Insights to display contextually using relevant attributes of an e
     -   Adoption score
     -   Auxiliary metrics
 
-For more information on configuring DCE Insights, see [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md).
+For more information on configuring DCE Insights, see [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md).
 

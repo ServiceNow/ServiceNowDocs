@@ -2,7 +2,7 @@
 title: Enable running process-based discovery
 description: Enable running process-based discovery so that the Agent Client Collector for Visibility Content agent detects software running from directories outside your configured File-Based Discovery scan paths.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/enable-running-process-based-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/enable-running-process-based-discovery.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -46,9 +46,9 @@ The associated agent policy activates during the next agent synchronization. Fro
 
 ## What to do next
 
-For Linux and macOS hosts, complete the privilege configuration to obtain full coverage across all users. For details, see [Platform coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.md).
+For Linux and macOS hosts, complete the privilege configuration to obtain full coverage across all users. For details, see [Platform coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.md).
 
-To exclude specific directories from running process-based discovery, see [Exclude directories from running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/exclude-directories-running-process-based-discovery.md).
+To exclude specific directories from running process-based discovery, see [Exclude directories from running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/exclude-directories-running-process-based-discovery.md).
 
-**Parent Topic:**[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/running-process-based-discovery.md)
+**Parent Topic:**[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/running-process-based-discovery.md)
 

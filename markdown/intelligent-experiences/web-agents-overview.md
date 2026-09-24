@@ -2,7 +2,7 @@
 title: Adaptive desktop actions for web-based tasks
 description: Adaptive desktop actions enables AI agents to automate repetitive tasks across web applications through a browser extension. The agent interacts directly with the browser by clicking, typing, and scrolling, without preconfigured APIs, scripts, or back-end logic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/web-agents-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/web-agents-overview.html
 release: australia
 topic_type: concept
 last_updated: "2025-09-05"
@@ -55,7 +55,7 @@ You access desktop actions through the ServiceNow Otto panel that has enhanced c
 -   Periodic screenshots of the web pages the agent navigates
 -   Notifications when external websites require login credentials
 
-When you close the chat, you have the option to delete the chat log, including all screenshots containing sensitive information. For more information, see [Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-delete-chat-log.md).
+When you close the chat, you have the option to delete the chat log, including all screenshots containing sensitive information. For more information, see [Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-ai-wa-delete-chat-log.md).
 
 To run multiple tasks at once in adaptive desktop actions, open each task in a separate Chrome browser window, each with a different user profile,logging in with different ServiceNow users. This lets the tasks run in parallel instead of one at a time.
 
@@ -70,9 +70,9 @@ ServiceNow AI Desktop Actions rely on “computer use,” a beta technology prov
 **Related topics**  
 
 
-[Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md)
+[Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-agentic-desktop.md)
 
-[Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
+[Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-ai-agents-ad.md)
 
-[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
+[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/use-agentic-desktop.md)
 

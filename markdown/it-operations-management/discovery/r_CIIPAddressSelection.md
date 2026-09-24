@@ -2,7 +2,7 @@
 title: IP address selection properties
 description: You can use system properties to control the selection of IP address for specified configuration item \(CI\) classes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_CIIPAddressSelection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_CIIPAddressSelection.html
 release: australia
 product: Discovery
 classification: discovery
@@ -49,5 +49,5 @@ Enforce unique IP addresses: Ignores the IP address after Discovery encounters s
 -   Default value false
 
 </td></tr></tbody>
-</table>**Note:** After you define your IP collections, you can use Discovery generic attributes to automatically set field values on CIs discovered within a schedule, range set, or IP address range. For example, you can assign different locations to CIs based on which IP range they were discovered in. For more information, see [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/define-ci-attributes.md).
+</table>**Note:** After you define your IP collections, you can use Discovery generic attributes to automatically set field values on CIs discovered within a schedule, range set, or IP address range. For example, you can assign different locations to CIs based on which IP range they were discovered in. For more information, see [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/define-ci-attributes.md).
 

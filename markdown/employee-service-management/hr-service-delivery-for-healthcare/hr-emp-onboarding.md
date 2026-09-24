@@ -2,7 +2,7 @@
 title: Healthcare Employee Onboarding form
 description: A hiring agent or a manager places an onboarding request for a healthcare professional via the Healthcare Employee onboarding form in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-healthcare/hr-emp-onboarding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery-for-healthcare/hr-emp-onboarding.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -34,7 +34,7 @@ A hiring agent or a manager places an onboarding request for a healthcare profes
 |Manager|Reporting manager of the healthcare professional.|
 |Company Location|Location in which the healthcare organization is situated.|
 
-**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
+**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
 
 **Related topics**  
 

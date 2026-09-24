@@ -2,7 +2,7 @@
 title: Monitor event tasks and create ad-hoc tasks
 description: Monitor event task completion and create ad-hoc tasks as necessary in the exercise from the BCM Configurable Workspace. The tasks are then completed in a sequence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-an-event-task-to-exercise-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-an-event-task-to-exercise-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ The edit enhancement offers flexibility for managing the event tasks. The BCM ma
 -   Edit multiple recovery tasks in the **Task status**, **Actual start**, **Actual end**, **Assigned to**, **Assigned group**, and **Additional assignee** fields in the recovery tasks list at one go.
 -   Open a closed task for editing that was closed by mistake. For this scenario, the **Closed failed** task state is added to the tasks. Moving a task to the **Closed failed** state brings an entire exercise to a stop unless the program manager \(sn\_bcm.program\_manager\) unblocks the task and moves it to the **Closed complete** state.
 
-For more information on editing of tasks, see [Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md) and [Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
+For more information on editing of tasks, see [Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md) and [Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
 
 ## Procedure
 
@@ -72,7 +72,7 @@ For more information on editing of tasks, see [Structured workflows for Exercise
 
 5.  After the bulk add completes, wait for the auto-refresh banner to dismiss, or select **Refresh** to refresh the **Event tasks** list manually.
 
-    The **Event tasks** list does not auto-refresh row by row. Instead, the banner **The event tasks are updated. Select Refresh to see updated data. List will auto-refresh once all tasks are created.** is displayed while the system creates the tasks. About ten seconds after the last task is created, the list refreshes once. This avoids repeated refreshes on event tasks lists that contain many rows. For more information, see [Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-event-task-template-progress.md).
+    The **Event tasks** list does not auto-refresh row by row. Instead, the banner **The event tasks are updated. Select Refresh to see updated data. List will auto-refresh once all tasks are created.** is displayed while the system creates the tasks. About ten seconds after the last task is created, the list refreshes once. This avoids repeated refreshes on event tasks lists that contain many rows. For more information, see [Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-event-task-template-progress.md).
 
     \[Omitted image "event-tasks-auto-refresh-banner.png"\] Alt text: Yellow banner stating the event tasks are updated with a Refresh button.
 
@@ -88,7 +88,7 @@ For more information on editing of tasks, see [Structured workflows for Exercise
 
     **Note:** When you add an ad-hoc task to the exercise event that is in the **Work in progress** state and if the activated plan is in the **Work in progress** state, the tasks get moved to the **Open** state. If the activated plan is the **Pending** state, the task moves to the **Pending** state.
 
-    For more information on the fields in the New Event Task form, see [Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
+    For more information on the fields in the New Event Task form, see [Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
 
     **Note:** You cannot create an ad-hoc task for the activated plans that are in **Closed Complete** or **Closed Incomplete** state.
 
@@ -137,8 +137,8 @@ For more information on editing of tasks, see [Structured workflows for Exercise
     The event tasks are displayed in the **Event tasks** tab.
 
 
--   **[Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-event-task-form-uib-ws.md)**  
+-   **[Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-event-task-form-uib-ws.md)**  
 Use the Create New Event Task form in BCM UIB Workspace to add details about an event task.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

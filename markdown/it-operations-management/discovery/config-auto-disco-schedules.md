@@ -2,12 +2,12 @@
 title: Configure auto-created Discovery schedules
 description: Enable the system to automatically create Discovery schedules based on IP data from your IP Address Management \(IPAM\) connections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/config-auto-disco-schedules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/config-auto-disco-schedules.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [IPAM Discovery integration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -60,10 +60,10 @@ The IPAM to Discovery integration monitors your IPv6 network structure by tracki
 
 ## What to do next
 
-After you enable auto-created schedules and configure the IP data refresh settings, IPAM generates a corresponding Discovery schedule. The schedule is inactive when it's created, so make sure to activate it before it runs. For more information, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/activate-auto-disco-schedule.md).
+After you enable auto-created schedules and configure the IP data refresh settings, IPAM generates a corresponding Discovery schedule. The schedule is inactive when it's created, so make sure to activate it before it runs. For more information, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/activate-auto-disco-schedule.md).
 
 **Related topics**  
 
 
-[IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ipv6-ipam-disco-integration.md)
+[IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/ipv6-ipam-disco-integration.md)
 

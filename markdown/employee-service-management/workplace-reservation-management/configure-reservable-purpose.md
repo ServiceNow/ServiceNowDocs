@@ -2,7 +2,7 @@
 title: Configure a reservable purpose
 description: Create a purpose that describes the use of a workplace item. Add this purpose to a relevant workplace space or room so that the purpose is displayed on the reservation portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/configure-reservable-purpose.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/configure-reservable-purpose.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -43,12 +43,12 @@ The reservable purpose is added.
 
 ## What to do next
 
-[Add a reservable purpose to a workplace item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-reservable-purpose-to-workplace-item.md).
+[Add a reservable purpose to a workplace item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-reservable-purpose-to-workplace-item.md).
 
--   **[Add a reservable purpose to a workplace item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-reservable-purpose-to-workplace-item.md)**  
+-   **[Add a reservable purpose to a workplace item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-reservable-purpose-to-workplace-item.md)**  
 Define the purpose of a workplace item by adding a reservable purpose. The purpose is displayed in the details of the workplace item so that employees can select the appropriate item.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

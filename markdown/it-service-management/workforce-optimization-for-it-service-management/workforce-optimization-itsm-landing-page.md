@@ -2,7 +2,7 @@
 title: Workforce Optimization for ITSM
 description: Manage and maintain the productivity of your workforce from a single location using Workforce Optimization for ITSM. Using this application, you can efficiently manage your team's skills and schedules, route work assignments to your team, and monitor their performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-landing-page.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -34,31 +34,31 @@ Workforce Optimization for ITSM enables you to do these tasks:
 
 <table id="table_t5s_nxw_1yb" class="nav-card"><tbody><tr><td>
 
-[Optimize your workforce\[Omitted image "bus-explore.svg"\] Alt text: Learn how managers can use Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/exploring-workforce-optimization-wfo-itsm.md)
+[Optimize your workforce\[Omitted image "bus-explore.svg"\] Alt text: Learn how managers can use Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/exploring-workforce-optimization-wfo-itsm.md)
 
 </td><td>
 
-[Channels\[Omitted image "ind-service-provider.svg"\] Alt text: Route work to specific groups so that the right work goes to the right agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/exploring-channels-configurable-workforce-optimization-itsm.md)
+[Channels\[Omitted image "ind-service-provider.svg"\] Alt text: Route work to specific groups so that the right work goes to the right agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/exploring-channels-configurable-workforce-optimization-itsm.md)
 
 </td></tr><tr><td>
 
-[Schedule\[Omitted image "bus-calendar.svg"\] Alt text: Manage your agents' schedule effectively](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-schedule-configurable-wfo-itsm.md)
+[Schedule\[Omitted image "bus-calendar.svg"\] Alt text: Manage your agents' schedule effectively](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/explore-schedule-configurable-wfo-itsm.md)
 
 </td><td>
 
-[Work scheduler\[Omitted image "bus-1-1-meetings.svg"\] Alt text: Assign complex work items to agents based on their skills and availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-scheduling-wfo-itsm.md)
+[Work scheduler\[Omitted image "bus-1-1-meetings.svg"\] Alt text: Assign complex work items to agents based on their skills and availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/work-scheduling-wfo-itsm.md)
 
 </td></tr><tr><td>
 
-[Teams\[Omitted image "bus-3-person.svg"\] Alt text: Organize your teams into assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-teams-configurable-workforce-optimization-itsm.md)
+[Teams\[Omitted image "bus-3-person.svg"\] Alt text: Organize your teams into assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/explore-teams-configurable-workforce-optimization-itsm.md)
 
 </td><td>
 
-[Coaching\[Omitted image "bus-learn.svg"\] Alt text: Assess the quality of your teams' completed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-coaching-configurable-workforce-optimization-itsm.md)
+[Coaching\[Omitted image "bus-learn.svg"\] Alt text: Assess the quality of your teams' completed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/explore-coaching-configurable-workforce-optimization-itsm.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "bus-sdlc.svg"\] Alt text: Get details about Workforce Optimization for ITSM components such as roles, tables, and system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
+[Reference\[Omitted image "bus-sdlc.svg"\] Alt text: Get details about Workforce Optimization for ITSM components such as roles, tables, and system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Promoting alerts in Express List
 description: Learn how to promote an alert to an incident or generate a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/promoting-alerts-in-express-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/promoting-alerts-in-express-list.html
 release: australia
 product: Event Management
 classification: event-management

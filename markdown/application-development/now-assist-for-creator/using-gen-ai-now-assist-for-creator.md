@@ -2,7 +2,7 @@
 title: Using generative AI with ServiceNow Otto for Creator
 description: Use the generative AI skills available with ServiceNow Otto for Creator to help you build faster and smarter on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -36,5 +36,5 @@ ServiceNow Otto for Creator contains generative AI skills that empower you to bu
 |Test generation|Automated Test Framework|
 |UI generation|UI Builder|
 
-**Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
+**Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
 

@@ -2,7 +2,7 @@
 title: Add a security incident to a security case
 description: If you determine that a security incident requires a higher level of analysis, add it to a new or existing case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-sec-inc-to-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/add-sec-inc-to-case.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -56,5 +56,5 @@ Role required: sn\_si.admin, sn\_ti.case\_user\_write
 **Related topics**  
 
 
-[Security Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/case-mgmt.md)
+[Security Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/case-mgmt.md)
 

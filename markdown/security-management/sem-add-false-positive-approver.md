@@ -2,10 +2,10 @@
 title: Add an approver
 description: Users added to the False Positive, Unassign, Exception Approver group can approve findings and remediation tasks \(VULs\). Granting a false positive, unassign, exception is a single-level approval process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-add-false-positive-approver.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-add-false-positive-approver.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Unified Approvals View, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -31,5 +31,5 @@ Role required: sn\_vul.vulnerability\_admin
     All roles are granted to the user. The selected users are added to the Group Members list. These members can approve requests to mark VIs or remediation tasks as false positive. Once approved, the state of the record is updated to Closed and it is reopened only on the specified date.
 
 
-**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-view.md)
+**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approval-view.md)
 

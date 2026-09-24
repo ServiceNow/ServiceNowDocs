@@ -2,7 +2,7 @@
 title: App generation roles
 description: Assign the correct role before using the ServiceNow Otto for Creator app generation skill. The role you need depends on whether you are creating or editing an application.The administrator role grants access to all system features, functions, and data, regardless of security constraints. For app generation, assign this role only when no more specialized role is available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-na-app-gen-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-na-app-gen-roles.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -17,9 +17,9 @@ breadcrumb: [Reference, App generation, AI tools and files, Use, ServiceNow Stud
 
 Assign the correct role before using the ServiceNow Otto for Creator app generation skill. The role you need depends on whether you are creating or editing an application.
 
-To edit \(not create\) applications using app generation, assign the delegated\_developer or now\_assist\_panel\_user role. For more information, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+To edit \(not create\) applications using app generation, assign the delegated\_developer or now\_assist\_panel\_user role. For more information, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
-**Parent Topic:**[App generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)
+**Parent Topic:**[App generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)
 
 ## Administrator \[admin\] role for app generation
 

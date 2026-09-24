@@ -2,7 +2,7 @@
 title: Add targets for a goal in Strategic Planning
 description: Create SMART targets for goals to track and measure the progress of your goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -22,9 +22,9 @@ Role required: sn\_apw\_advanced.spw\_goal\_user and \(sn\_align\_core.apw\_user
 
 ## About this task
 
-If you’re using ServiceNow Otto for SPM, you can use the Target generation skill to generate targets for a goal. The skill uses the goal’s details and provided context to create a precise target for the goal. The more specific the input, the stronger the recommendations. For details, see [Generate targets for a goal in Strategic Planning Workspace using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/generate-targets-for-goal.md).
+If you’re using ServiceNow Otto for SPM, you can use the Target generation skill to generate targets for a goal. The skill uses the goal’s details and provided context to create a precise target for the goal. The more specific the input, the stronger the recommendations. For details, see [Generate targets for a goal in Strategic Planning Workspace using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/generate-targets-for-goal.md).
 
-Configuring a target source for your target updates the **Actuals to date** field on the Target form automatically. For more information on target automation, see [Target actuals automation in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-actuals-automation-spw.md).
+Configuring a target source for your target updates the **Actuals to date** field on the Target form automatically. For more information on target automation, see [Target actuals automation in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-actuals-automation-spw.md).
 
 A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R = Relevant, and T = Time-bound.
 
@@ -77,7 +77,7 @@ The Goal side panel opens with the **Details** tab.
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md).
+    For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md).
 
 3.  Select **Save**.
 
@@ -92,5 +92,5 @@ The target progress records are automatically created when you save the target p
 
 ## What to do next
 
-[Update the progress of the target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-progress-of-target-egm.md) manually if the target is not enabled for target automation.
+[Update the progress of the target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/update-progress-of-target-egm.md) manually if the target is not enabled for target automation.
 

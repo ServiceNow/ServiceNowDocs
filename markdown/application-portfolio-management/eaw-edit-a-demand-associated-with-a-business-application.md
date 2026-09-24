@@ -2,7 +2,7 @@
 title: Edit a demand associated with a business application
 description: Use application rationalization to edit existing demands associated with business applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-edit-a-demand-associated-with-a-business-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-edit-a-demand-associated-with-a-business-application.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,15 +38,15 @@ Role required: sn\_apm.apm\_analyst
 
 5.  On the Edit demand form, fill in the fields.
 
-    For a description of the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-demand-form.md).
+    For a description of the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-edit-demand-form.md).
 
 6.  Select **Update**.
 
 
-**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-app-rat-list-view.md)
+**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-using-app-rat-list-view.md)
 
 **Related topics**  
 
 
-[Edit a project associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-a-project-associated-with-a-business-application.md)
+[Edit a project associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-edit-a-project-associated-with-a-business-application.md)
 

@@ -2,7 +2,7 @@
 title: Orders for 5G sliced networks
 description: A communication service provider \(CSP\) can define 5G services in the technical catalog and manage the creation and fulfillment of these orders for a sliced network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/network-slice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/network-slice.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,12 +41,12 @@ The product catalog manager then uses the templates to define the new specificat
 
 After the 5G service specifications are created, they can be used in the slice order creation and fulfillment process. The 5G slice ordering process follows the existing order approval, decomposition, and fulfillment process in the Order Management application.
 
-**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-service-orders.md)
+**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/managing-service-orders.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

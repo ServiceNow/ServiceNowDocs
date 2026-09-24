@@ -2,7 +2,7 @@
 title: Override model ratings
 description: Override the risk rating and materiality tier of a model manually at any stages of its life-cycle. This helps maintain data accuracy, transparency, and governance when business context or expert judgment requires adjustments to system-calculated values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/override-model-ratings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/override-model-ratings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,5 +53,5 @@ Role required: sn\_model\_risk\_mgmt.model\_governance or sn\_model\_risk\_mgmt.
 9.  Select **Save**.
 
 
-**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-mrm.md)
 

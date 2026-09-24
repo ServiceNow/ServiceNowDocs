@@ -2,7 +2,7 @@
 title: Manage QR codes
 description: View, update, or print the already generated QR codes in the application. Before printing, you can change the conditions of already generated QR codes if required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/manage-qr-codes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/manage-qr-codes.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -39,5 +39,5 @@ Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
     -   To delete the QR code, click **Delete**.
 
-**Parent Topic:**[QR code management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/qr-code-mgmt.md)
+**Parent Topic:**[QR code management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/qr-code-mgmt.md)
 

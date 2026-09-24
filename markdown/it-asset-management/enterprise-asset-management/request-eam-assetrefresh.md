@@ -2,7 +2,7 @@
 title: Request an enterprise asset refresh
 description: Use the Enterprise Asset Refresh flow to track the assets that are nearing the end of their life cycle and replace them with new assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/request-eam-assetrefresh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/request-eam-assetrefresh.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -88,7 +88,7 @@ Available
 
 </td><td>
 
-Displays only those assets for which the **Eligible for Refresh** check box on the Asset page is selected. To view all assets that are nearing their end of life, execute the condition `Eligible for refresh is false`.**Note:** For details on the **Eligible for Refresh** check box, see [Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-fields-eam.md).
+Displays only those assets for which the **Eligible for Refresh** check box on the Asset page is selected. To view all assets that are nearing their end of life, execute the condition `Eligible for refresh is false`.**Note:** For details on the **Eligible for Refresh** check box, see [Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/asset-fields-eam.md).
 
 </td></tr></tbody>
 </table>7.  If you want to replace the aged hardware assets with different models of new hardware assets, do the following:

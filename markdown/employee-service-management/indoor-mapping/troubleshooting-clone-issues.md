@@ -2,7 +2,7 @@
 title: Resolving cloning issues in Indoor Mapping instances
 description: After cloning a Indoor Mapping source instance to a target instance, workplace administrators may observe missing attachments and data discrepancies in their target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/troubleshooting-clone-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/troubleshooting-clone-issues.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -93,9 +93,9 @@ Enter the following table information as required:-   **\[sn\_map\_core\_font\]*
         3.  From the Collection slush bucket, add your clone profile\(s\) to the Clone Profile List slush bucket.
         4.  Select **Save**.
 
-**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
+**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/indoor-mapping-references.md)
 
-**Previous topic:**[Bulk upload Excel columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/bulk-template-columns.md)
+**Previous topic:**[Bulk upload Excel columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/bulk-template-columns.md)
 
-**Next topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-feat.md)
+**Next topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-feat.md)
 

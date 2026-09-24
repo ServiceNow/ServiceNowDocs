@@ -2,7 +2,7 @@
 title: Non-monetary benefit plan form
 description: The non-monetary benefit plan form enables you to create non-monetary benefit plans for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/non-monetary-benefit-plan-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/non-monetary-benefit-plan-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

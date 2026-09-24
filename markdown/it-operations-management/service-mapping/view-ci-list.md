@@ -2,7 +2,7 @@
 title: View the list of CIs belonging to an application service
 description: View a complete list of CIs that make up an application service, including CIs not shown on the application service map: tracked configuration files, endpoints, processes, and network devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/view-ci-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/view-ci-list.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -56,5 +56,5 @@ The CI lists for empty application services, that do not contain any CIs contain
 7.  Select **View map** to navigate to the application service map.
 
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 

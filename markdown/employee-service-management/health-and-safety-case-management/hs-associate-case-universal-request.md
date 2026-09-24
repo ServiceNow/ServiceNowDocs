@@ -2,7 +2,7 @@
 title: Create associated tickets for Universal record within Health and Safety Workspace
 description: The agent working on the primary ticket of a Universal Request can request other departments for assistance in resolving a universal request \(UR\) by creating associated tickets for the UR.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-case-management/hs-associate-case-universal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-case-management/hs-associate-case-universal-request.html
 release: australia
 product: Health and Safety Case Management
 classification: health-and-safety-case-management

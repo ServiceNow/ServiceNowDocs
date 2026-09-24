@@ -2,7 +2,7 @@
 title: Reschedule a scan suite
 description: Change the schedule of your scan suites to suit your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/reschedule-suite-scan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/reschedule-suite-scan.html
 release: australia
 product: Security Center
 classification: security-center
@@ -94,5 +94,5 @@ Which timezone the schedule uses when determining when to run.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-suites.md)
+**Parent Topic:**[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sec-center-suites.md)
 

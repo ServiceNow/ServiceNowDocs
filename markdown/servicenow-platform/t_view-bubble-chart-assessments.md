@@ -2,7 +2,7 @@
 title: View a bubble chart for assessments
 description: Assessment administrators can view bubble charts to compare the relative standing of assessable records in three metric categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_view-bubble-chart-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_view-bubble-chart-assessments.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,14 +29,14 @@ Role required: assessment\_admin or admin
     **Note:** Demand managers and vendor managers can view bubble charts through the Demand Management and Vendor Performance applications. See [Project Portfolio Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_ProjectPortfolioSuite.md) for more information.
 
 
--   **[Bubble charts for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_bubble-chart-assessments.md)**  
+-   **[Bubble charts for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_bubble-chart-assessments.md)**  
 A bubble chart is a dynamically updated graph that plots assessment results for multiple assessable records.
--   **[Create a bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CreateBubbleCharts.md)**  
+-   **[Create a bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_CreateBubbleCharts.md)**  
 Assessment administrators can create bubble charts to compare the relative standing of assessable records in three metric categories.
--   **[Bubble chart components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_BubbleChartComponents.md)**  
+-   **[Bubble chart components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_BubbleChartComponents.md)**  
 The X- and Y-axes each represent a different metric category. Assessable records are plotted on the chart as circular markers, or bubbles, which vary in size according to scores for the third category.
--   **[Assessable record score summaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AssessableRecordScoreSummaries.md)**  
+-   **[Assessable record score summaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_AssessableRecordScoreSummaries.md)**  
 Point to a bubble to display a score summary for the assessable record the bubble represents.
 
-**Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md)
+**Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAMetricResult.md)
 

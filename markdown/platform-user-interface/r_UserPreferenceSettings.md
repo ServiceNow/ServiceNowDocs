@@ -2,7 +2,7 @@
 title: User preference settings
 description: User preferences primarily track the way individual users interact with various features so that new sessions activate the user's last settings. For example, user preferences track whether the user activates the tabbed or scrolling interface for multi-section forms. Other user preference records enable users with the admin role to adjust certain feature settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_UserPreferenceSettings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/r\_UserPreferenceSettings.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -295,7 +295,7 @@ Admin or User
 
 </td><td>
 
-Indicates whether the JavaScript editor and formatting controls are enabled or disabled for the user. The JavaScript editor icon \(\[Omitted image "jscript-icon.png"\] Alt text: JavaScript editor icon\) and formatting controls are available only in instances where the Syntax Editor plugin is active. This record updates automatically when a user clicks the icon to enable or disable script editing. For more information, see JavaScript syntax editor.**True** = enable script editor.
+Indicates whether the JavaScript editor and formatting controls are enabled or disabled for the user. The JavaScript editor icon \(\[Omitted image "jscript-icon.png"\] Alt text: JavaScript editor icon\) and formatting controls are available only in instances where the Syntax Editor plugin is active. This record updates automatically when a user clicks the icon to enable or disable script editing. For more information, see [JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SyntaxEditor.md).**True** = enable script editor.
 
  **False** = disable script editor.
 
@@ -860,7 +860,7 @@ Indicates whether users see UI15 or Core UI \(UI16\). The Core UI plugin \[com.g
  **Default value**: **True**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
+</table>**Parent Topic:**[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UserPreferences.md)
 
 **Related topics**  
 

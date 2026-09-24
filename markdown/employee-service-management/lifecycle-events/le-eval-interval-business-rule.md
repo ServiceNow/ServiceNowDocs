@@ -2,7 +2,7 @@
 title: View and use the Condition with Event BR \(Demo\) business rule
 description: You can view and use the Condition with Event BR \(Demo\) business rule to trigger an evaluation of your activity set faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/le-eval-interval-business-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/le-eval-interval-business-rule.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -49,5 +49,5 @@ Role required: admin
     The Timer was cancelled when the LE/HR case state was changed to **Work in Progress** and the **check\_activity\_set\_trigger** event was fired.
 
 
-**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
+**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

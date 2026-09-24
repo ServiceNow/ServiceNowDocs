@@ -2,7 +2,7 @@
 title: Order routing based on priority using Advanced Work Assignment
 description: AWA can be used to automatically route customer orders based on priority to specific agent categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-priority-awa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-mgt-priority-awa.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

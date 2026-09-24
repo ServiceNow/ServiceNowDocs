@@ -2,7 +2,7 @@
 title: Create a reservation including a virtual meeting link
 description: Enable employees who are located outside the office to join a reservation by using a virtual meeting link. A virtual meeting link is created for an employee selected in "On behalf of".
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/Create-reservation-with-virtual-meeting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/Create-reservation-with-virtual-meeting.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -18,7 +18,7 @@ Enable employees who are located outside the office to join a reservation by usi
 
 ## Before you begin
 
-**Note:** You can create a virtual meeting link only if your administrator has enabled the virtual meeting configuration. For more information, see [Configure a reservable purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-reservable-purpose.md) and [Create a reservation]().
+**Note:** You can create a virtual meeting link only if your administrator has enabled the virtual meeting configuration. For more information, see [Configure a reservable purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/configure-reservable-purpose.md) and [Create a reservation]().
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -26,15 +26,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_oxk_tfj_zsb"><thead><tr><th align="left" id="d175556e68">
+<table id="choicetable_oxk_tfj_zsb"><thead><tr><th align="left" id="d175533e68">
 
 Location
 
-</th><th align="left" id="d175556e71">
+</th><th align="left" id="d175533e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d175556e77">
+</th></tr></thead><tbody><tr><td id="d175533e77">
 
 **From application navigator**
 
@@ -42,7 +42,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d175556e98">
+</td></tr><tr><td id="d175533e98">
 
 **Employee Center**
 
@@ -79,7 +79,7 @@ Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Rese
 
     **Note:** While browsing near a person, if there are any private spaces, then they are not displayed in the search result.
 
-    **Note:** You can switch between the **Card view** tab and **Schedule view** tab to review the availability of workplace items. If your company uploads floor maps, view the maps using Mappedin or Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-admin.md).
+    **Note:** You can switch between the **Card view** tab and **Schedule view** tab to review the availability of workplace items. If your company uploads floor maps, view the maps using Mappedin or Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-mappedin-admin.md).
 
 5.  Sort the workplace items in alphabetical order or by using a filter with the **Show filter** option.
 
@@ -218,7 +218,7 @@ To view the reservation recording, go to Reservation summary of the reservation 
 
 -   **Any other virtual meeting providers**: The meeting link is added in the **Location** field of the email containing the meeting invite.
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

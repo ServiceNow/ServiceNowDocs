@@ -2,7 +2,7 @@
 title: Configure the HR case form for an HR service
 description: Configure the fields that appear on the HR case form for an HR service.Examples on how to configure the HR case form for an HR service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-case-form-for-hr-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-case-form-for-hr-service.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -72,7 +72,7 @@ Click the lock icon to search for a subject person related list you want to appe
     4.  Click **Save**.
 
 
-**Parent Topic:**[Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md)
+**Parent Topic:**[Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md)
 
 ## HR case form configuration examples
 
@@ -98,7 +98,7 @@ Once the configuration is complete, HR agents that are working on a 401\(k\) cas
 
 ### Requesting an e-signature for an HR document template
 
-You are configuring an HR service to request electronic signatures for HR document templates using [HR e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-e-signature.md). Unlike managed documents or knowledge articles, the HR document template that the signatory will sign is selected on the HR case form. Therefore, you need to add the **PDF Template** field to the HR case form for your HR service. This way, HR agents can select the HR document template that they want the employee to sign when creating that case type.
+You are configuring an HR service to request electronic signatures for HR document templates using [HR e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-e-signature.md). Unlike managed documents or knowledge articles, the HR document template that the signatory will sign is selected on the HR case form. Therefore, you need to add the **PDF Template** field to the HR case form for your HR service. This way, HR agents can select the HR document template that they want the employee to sign when creating that case type.
 
 First, on the HR service form, under the **HR Service Additional Information** related list, add the **PDF Template** field.
 

@@ -2,7 +2,7 @@
 title: Performance Analytics Edit Widget dialog box
 description: Fields in the dialog box for editing a Performance Analytics dashboard widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/edit-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/edit-widget.html
 release: australia
 product: Event Management
 classification: event-management
@@ -78,5 +78,5 @@ Select from the displayed options.-   Follow interactive filter
 -   Show when following filter
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-management-reference.md)
 

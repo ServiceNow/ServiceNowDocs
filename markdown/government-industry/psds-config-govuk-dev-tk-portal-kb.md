@@ -2,7 +2,7 @@
 title: Configure GOV.UK Design System Service Portal Knowledge Base
 description: Use Knowledge Base widgets to build a knowledge base for your GDS Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-kb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-govuk-dev-tk-portal-kb.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"

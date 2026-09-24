@@ -2,14 +2,14 @@
 title: Configure HubSpot for external content indexing
 description: Create and authorize a legacy public app in HubSpot to allow the HubSpot external content connector to access your HubSpot source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-hubspot-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-hubspot-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [HubSpot external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -88,12 +88,12 @@ To allow the connector to access your HubSpot source system via the HubSpot API,
 
 Provide the following items to your connector administrator:
 
--   The client ID that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-hubspot-external-content-indexing.md).
--   The client secret that you copied in step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-hubspot-external-content-indexing.md).
+-   The client ID that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-hubspot-external-content-indexing.md).
+-   The client secret that you copied in step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-hubspot-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a HubSpot external content connector to retrieve tickets, notes, and security principals from your HubSpot source system.
 
-For details on creating and configuring a HubSpot external content connector, see [Create a HubSpot external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-hubspot.md).
+For details on creating and configuring a HubSpot external content connector, see [Create a HubSpot external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-hubspot.md).
 
-**Parent Topic:**[HubSpot external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/hubspot-external-content-connector.md)
+**Parent Topic:**[HubSpot external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/hubspot-external-content-connector.md)
 

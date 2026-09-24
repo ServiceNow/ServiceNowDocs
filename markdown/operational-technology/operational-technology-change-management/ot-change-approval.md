@@ -2,7 +2,7 @@
 title: Operational Technology change approval
 description: The Operational Technology \(OT\) change approval lets reviewers approve your requested changes and suggest improvements as necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/ot-change-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-change-management/ot-change-approval.html
 release: australia
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -42,8 +42,8 @@ The OT change approval flow is as follows.
 
 The Advanced OT Change Model contains a change approval policy. You can also create your own approval policy. For more information about how to create an approval policy, see [Create change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-change-policy.md).
 
--   **[Add an approver to review a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/select_an_approval_group.md)**  
+-   **[Add an approver to review a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-change-management/select_an_approval_group.md)**  
 Add a group member, or approver, manually to your approval group to review your Operational Technology \(OT\) change request.
 
-**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

@@ -2,7 +2,7 @@
 title: Add a network interface template to a child or daughter card template
 description: As a last step, you can optionally add a network interface template to a child and daughter card template in the Network Inventory Workspace Lists view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/adding-network-interface-template-child-daughter-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/adding-network-interface-template-child-daughter-card.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -29,16 +29,16 @@ The following example shows a network interface template that was added to a chi
 You're done with creating inventory template relationships for this piece of equipment. To create another inventory template for another piece of equipment, do the following actions:
 
 1.  Create a default template for use in that inventory template relationship sequence.
-2.  Proceed to the Creating an inventory template for the equipment model topic, and repeat the entire process again. To learn more, see [Create an inventory template for the equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-an-inventory-template-for-the-equipment-model.md).
+2.  Proceed to the Creating an inventory template for the equipment model topic, and repeat the entire process again. To learn more, see [Create an inventory template for the equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-an-inventory-template-for-the-equipment-model.md).
 
-**Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
+**Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
 
-**Previous topic:**[Add an interface card template to the subslot templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/adding-interface-card-sub-slots.md)
+**Previous topic:**[Add an interface card template to the subslot templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/adding-interface-card-sub-slots.md)
 
-**Next topic:**[Create an inventory template for cable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-inventory-tenplate-cable-models.md)
+**Next topic:**[Create an inventory template for cable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-inventory-tenplate-cable-models.md)
 
 **Related topics**  
 
 
-[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
+[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 

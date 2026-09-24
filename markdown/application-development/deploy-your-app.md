@@ -2,7 +2,7 @@
 title: Deploy your app
 description: Once the application is built and validated, the application needs to be moved to the production environment. Applications can be moved through an application repository or by using Update Sets. Applications should be deployed to test environments prior to moving to production.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/deploy-your-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/deploy-your-app.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Publishing an application to the App Repo makes this version of the application 
 
 \[Omitted image "deploy-app-repo.png"\] Alt text: Deploy apps through the Application Repository
 
-For more information, see [Publishing an application to the application repo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md), Install an application.
+For more information, see [Publishing an application to the application repo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md), Install an application.
 
 ## Update Sets
 
@@ -86,7 +86,7 @@ Advantages of using Update Set batching are:
 -   Batching is similar to merging, except batching allows updates to be removed.
 -   Batch Update Sets are easy to deploy. Only the Parent Update Set needs to be processed.
 
-For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/system-update-sets.md).
 
 ## What to do next
 

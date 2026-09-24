@@ -2,7 +2,7 @@
 title: Enrich Observable WhoIs workflow
 description: The Enrich Observable WhoIs workflow performs enrichment on selected observables. If the observables are of a type recognized by the WhoisXML API Integration, the observables are enriched.The Observable Enrichment Lookup workflow activity initiates the observable enrichment process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/enrich-observable-whois-wf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/enrich-observable-whois-wf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,11 +20,11 @@ Role required: admin
 
 ## About this task
 
-This workflow is triggered by the [Security Operations Integration- Enrich Observable capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrich-observable-capability.md) when you perform enrichment on one or more observables, and the WhoIs implementation is selected.
+This workflow is triggered by the [Security Operations Integration- Enrich Observable capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/enrich-observable-capability.md) when you perform enrichment on one or more observables, and the WhoIs implementation is selected.
 
 \[Omitted image "enrich-observ-whois-wf.png"\] Alt text: Enrich Observable WhoIs workflow
 
-Activities specific to this integration are described here. For more information on other activities, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
+Activities specific to this integration are described here. For more information on other activities, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md).
 
 ## Observable Enrichment Lookup activity
 

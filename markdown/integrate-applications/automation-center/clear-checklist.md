@@ -2,7 +2,7 @@
 title: Clear a checklist
 description: Clear a checklist if you no longer need the checklist for your automation request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/clear-checklist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/clear-checklist.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -49,5 +49,5 @@ After the automation request is moved to the following states, the option to cle
     The checklist is deleted.
 
 
-**Parent Topic:**[Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/working-golive.md)
+**Parent Topic:**[Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/working-golive.md)
 

@@ -2,7 +2,7 @@
 title: Use the EncryptString component
 description: Encrypt a string by providing the encryption key with the EncryptString component in the RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-security-encryption-encryptstring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-security-encryption-encryptstring.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Encrypt String component. For more information about these properties, see [Properties of the Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-security-encryption-components.md).
+You can configure the properties for the Encrypt String component. For more information about these properties, see [Properties of the Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-security-encryption-components.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the Encrypt String component. For more info
 
 2.  Drag the Encrypt String component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Encrypt String component to the corresponding ports of the other components as described in the following table.
 
@@ -108,5 +108,5 @@ No
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/encryption-components.md)
+**Parent Topic:**[Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/encryption-components.md)
 

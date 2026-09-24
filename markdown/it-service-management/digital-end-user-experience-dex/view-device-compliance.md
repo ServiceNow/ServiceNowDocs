@@ -2,7 +2,7 @@
 title: View system compliance
 description: View whether the devices are adhering to your organization's application and policy compliance rules. Use this data to identify potential security risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-device-compliance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/view-device-compliance.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -31,6 +31,6 @@ Role required: admin
 
 3.  Select **System compliance**.
 
-    For more information about the system compliance metrics, see [DEX Insights reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/insights-reports.md).
+    For more information about the system compliance metrics, see [DEX Insights reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/insights-reports.md).
 
 

@@ -2,7 +2,7 @@
 title: Remove your PIN from a mobile app
 description: Remove the pin from a ServiceNow mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/remove-app-pin-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/remove-app-pin-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: admin
     Your app no longer configured with a security PIN.
 
 
-**Parent Topic:**[App PIN settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-app-pin-settings.md)
+**Parent Topic:**[App PIN settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-app-pin-settings.md)
 

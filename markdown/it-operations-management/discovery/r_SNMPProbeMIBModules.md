@@ -2,7 +2,7 @@
 title: SNMP probe MIB modules
 description: A management information base module \(MIB\) is a database that is used to manage elements in a network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_SNMPProbeMIBModules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_SNMPProbeMIBModules.html
 release: australia
 product: Discovery
 classification: discovery
@@ -51,5 +51,5 @@ The following table contains the MIBs that load automatically. The MIBs that are
 |SNMPv2-TC| |
 |UPS-MIB| |
 
-**Parent Topic:**[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SNMPProbe.md)
+**Parent Topic:**[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_SNMPProbe.md)
 

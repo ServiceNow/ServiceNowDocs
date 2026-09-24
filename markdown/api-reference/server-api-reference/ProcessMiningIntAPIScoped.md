@@ -2,7 +2,7 @@
 title: ProcessMiningIntegrationAPI - Scoped
 description: The ProcessMiningIntegrationAPI script include provides methods to manage process mining projects and retrieve findings and breakdowns.Creates a process mining project.Deletes a process mining project.Gets breakdown statistics for a process mining project.Gets findings for a process mining project.Gets the mining status of a process mining project.Retrieves a process mining project.Submits a process mining project for mining.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ProcessMiningIntAPIScoped.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/ProcessMiningIntAPIScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -53,7 +53,7 @@ The following system properties can be used to manage API functionality.
     Default: False.
 
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## ProcessMiningIntegrationAPI - createProject\(String table, Array activities, Array breakdowns, String encodedQuery, String templateType, Object permissions, Boolean autoRetire\)
 

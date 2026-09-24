@@ -2,7 +2,7 @@
 title: Hierarchy view configuration in Portfolio Planning
 description: Show or hide parent records of planning items shown in the Hierarchy view for high-level and regular portfolio plans by configuring system properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/hierarchy-display-config-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/hierarchy-display-config-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -37,5 +37,5 @@ Show or hide parent records of planning items shown in the Hierarchy view for hi
     \[Omitted image "hierarchy-show-full.png"\] Alt text: Hierarchy view showing the whole hierarchy.
 
 
-**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
+**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
 

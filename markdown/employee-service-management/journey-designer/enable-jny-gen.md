@@ -2,7 +2,7 @@
 title: Enable the Now Assist Journey generation skill
 description: Enable the Journey generation skill in ServiceNow Otto for HRSD using the AI Admin Hub console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/enable-jny-gen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/enable-jny-gen.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -49,5 +49,5 @@ Role required: sn\_jny.admin, sn\_nowassist\_admin.nsa\_admin
 9.  Complete the configuration by selecting **Activate**.
 
 
-**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

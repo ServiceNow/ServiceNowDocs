@@ -2,7 +2,7 @@
 title: Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using ServiceNow Otto
 description: As an agent or knowledge writer, quickly generate knowledge articles from resolved and closed incidents within the Service Operations Workspace for ITSM application and classic environment by using the ServiceNow Otto application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/Now-Assist-generate-article-SOW-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/Now-Assist-generate-article-SOW-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -50,7 +50,7 @@ The Knowledge generation skill is turned on by default. The skill will be automa
 
 To enable an agent to see the ServiceNow Otto experience on the Create Article page, configure the following knowledge base generation criteria:
 
--   Install the knowledge skills. For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
+-   Install the knowledge skills. For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
 -   Make sure that the following criteria are in place in the AI Admin Hub console:
     -   Specify the table record and input fields.
     -   Specify the conditions for the skill availability from the list of attributes.
@@ -101,15 +101,15 @@ Role required: itil
 
 6.  To add or update the knowledge article, follow the instructions in the table below.
 
-<table><thead><tr><th align="left" id="d344390e527">
+<table><thead><tr><th align="left" id="d344369e527">
 
 To add or update the knowledge article
 
-</th><th align="left" id="d344390e530">
+</th><th align="left" id="d344369e530">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d344390e536">
+</th></tr></thead><tbody><tr><td id="d344369e536">
 
 **In Service Operation Workspace**
 
@@ -122,7 +122,7 @@ Do this
 -   Click **Save**.
 
 
-</td></tr><tr><td id="d344390e571">
+</td></tr><tr><td id="d344369e571">
 
 **In Core UI**
 
@@ -146,15 +146,15 @@ To update it:
 
     \[Omitted image "now-assist-itsm-ai-search.png"\] Alt text: AI Search activated
 
-<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d344390e669">
+<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d344369e669">
 
 Type of UI
 
-</th><th align="left" id="d344390e672">
+</th><th align="left" id="d344369e672">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d344390e678">
+</th></tr></thead><tbody><tr><td id="d344369e678">
 
 **In Service Operation Workspace**
 
@@ -173,7 +173,7 @@ The Knowledge article is created and attached to all selected similar incidents.
 
 \[Omitted image "now-assist-itsm-sow-similar-inc-knowledge.png"\] Alt text: Knowledge created for similar incidentsSelect **Save** to save the article.
 
-</td></tr><tr><td id="d344390e747">
+</td></tr><tr><td id="d344369e747">
 
 **In Core UI**
 

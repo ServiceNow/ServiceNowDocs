@@ -2,7 +2,7 @@
 title: PAScorecard - Scoped
 description: The PAScorecard API enables you to fetch data about indicators and their associated records, such as breakdowns.Adds a query parameter to filter the returned scores.Perform a query based on the specified parameters and return the results as an object.Get the last query result as an object.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PAScorecard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/PAScorecard.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The PAScorecard API enables you to fetch data about indicators and their associa
 
 This API requires the Performance Analytics \(com.snc.pa.analytics\_center\) application and runs in the `SNC` namespace.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## PAScorecard - addParam\(String parameter, String value\)
 

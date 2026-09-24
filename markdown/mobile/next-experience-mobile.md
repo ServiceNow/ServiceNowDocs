@@ -2,7 +2,7 @@
 title: Next Experience in Mobile
 description: Learn about the ServiceNow Next Experience user interface and how to enable it on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/next-experience-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/next-experience-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

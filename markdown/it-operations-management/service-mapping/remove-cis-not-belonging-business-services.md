@@ -2,7 +2,7 @@
 title: Remove CIs not belonging to application services
 description: Remove CIs erroneously mapped as part of an application service by Service Mapping. Unnecessary CIs included in the map can generate irrelevant alerts in Event Management. For example, when creating an application service for a web portal, Service Mapping might automatically discover a connection to unaffiliated external services, such as PayPal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/remove-cis-not-belonging-business-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/remove-cis-not-belonging-business-services.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -82,7 +82,7 @@ The CI is marked as boundary on the map \(\[Omitted image "MapBoundaryIcon.png"\
 
 2.  Select **Show traffic based connections**.
 
-The Traffic Based Connections List opens. See [Traffic-based connections list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traffic-based-connections-list.md).
+The Traffic Based Connections List opens. See [Traffic-based connections list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/traffic-based-connections-list.md).
 
 3.  In the **Traffic Based Connections List**, identify the connection used to discover the unwanted CI.
 4.  Select `Remove` from the **User decision** field for this connection.
@@ -95,14 +95,14 @@ The Traffic Based Connections List opens. See [Traffic-based connections list](h
 
 </td><td>
 
-Perform the procedure described in [Manage CI connections for a single service using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-remove-ci-connections-services.md).
+Perform the procedure described in [Manage CI connections for a single service using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/add-remove-ci-connections-services.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Fine-tune application services to implement owner requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/review-implement-business-service-maps.md)
+**Parent Topic:**[Fine-tune application services to implement owner requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/review-implement-business-service-maps.md)
 
 **Related topics**  
 
 
-[Enable traffic-based discovery for CI types or specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateATrafficBasedDiscoveryRule.md)
+[Enable traffic-based discovery for CI types or specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_CreateATrafficBasedDiscoveryRule.md)
 

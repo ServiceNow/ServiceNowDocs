@@ -2,7 +2,7 @@
 title: Create a reminder in Agent Workspace for HR Case Management
 description: Create reminders for HR cases or tasks to receive notifications for follow-up actions by a specific date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-reminder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-reminder.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -26,7 +26,7 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Find the case you for which you want to add a reminder.
 
-    For more information on finding an HR case, see [Using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md).
+    For more information on finding an HR case, see [Using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md).
 
 3.  Select the \[Omitted image "EllipsisIcon.png"\] Alt text: More icon more icon.
 

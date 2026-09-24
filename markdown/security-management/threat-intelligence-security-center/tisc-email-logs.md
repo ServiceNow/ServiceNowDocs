@@ -2,7 +2,7 @@
 title: Email logs
 description: This section provides a clear visibility to the TISC administrators on the emails that are sent out using the configured email notification rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-email-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-email-logs.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -53,7 +53,7 @@ As an admin, you can create, view, and edit the notifications in the classic UI.
 
 \[Omitted image "tisc-email-logs.png"\] Alt text: Email Logs selected
 
-**Parent Topic:**[Manage email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-notifications.md)
+**Parent Topic:**[Manage email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-notifications.md)
 
 **Related topics**  
 

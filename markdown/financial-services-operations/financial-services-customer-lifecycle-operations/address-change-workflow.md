@@ -2,7 +2,7 @@
 title: Address change workflow
 description: Learn how agents, using the Address change workflow, resolve service requests for a change in customer's address. The workflow applies to both business and personal CLO service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/address-change-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-customer-lifecycle-operations/address-change-workflow.html
 release: australia
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations

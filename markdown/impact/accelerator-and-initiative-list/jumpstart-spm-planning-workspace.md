@@ -2,7 +2,7 @@
 title: Jumpstart Your Strategic Portfolio Management – Planning Workspace
 description: The Jumpstart Your Strategic Portfolio Management – Planning Workspace Accelerator provides a demonstration of the possibilities and capabilities of Planning Workspaces within Strategic Portfolio Management \(SPM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-spm-planning-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-spm-planning-workspace.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,7 +2,7 @@
 title: Manage delivery channel
 description: Add, edit, and delete delivery channels for notification preference rules in Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/work-on-a-notification-preference-rule-in-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/work-on-a-notification-preference-rule-in-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -41,5 +41,5 @@ Role required: rota\_manager, rota\_admin
 7.  Select **Save** to apply your changes.
 
 
-**Parent Topic:**[Create notification preference rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-notification-preference-rule.md)
+**Parent Topic:**[Create notification preference rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-notification-preference-rule.md)
 

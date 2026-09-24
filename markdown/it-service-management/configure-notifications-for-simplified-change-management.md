@@ -2,7 +2,7 @@
 title: Configure notifications for Simplified Change Management
 description: Add and manage notifications for Change Management to keep users informed about approvals, status updates, and task assignments at key steps in the change process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-notifications-for-simplified-change-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configure-notifications-for-simplified-change-management.html
 release: australia
 topic_type: task
 last_updated: "2026-05-11"
@@ -151,5 +151,5 @@ Create a script to perform certain actions, like sending a notification based on
 
 The notification is saved and appears in the **Notifications** list. It fires automatically whenever the defined conditions are met.
 
-**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
+**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configuring-change-management-experience-in-it-service-management.md)
 

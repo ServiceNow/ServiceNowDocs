@@ -2,14 +2,14 @@
 title: Configure SharePoint API permissions for your External Content Q&amp;A Genius Results OAuth 2.0 application
 description: Add the AllSites.FullControl SharePoint API delegated permission to your External Q&amp;A Genius Results OAuth 2.0 application in Microsoft Azure portal and grant admin consent to allow the application to access this permission. The OAuth 2.0 application for External Q&amp;A Genius Results requires the delegated permission to search your Microsoft SharePoint Online sites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/grant-perms-azure-ext-cont-qna-grs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/grant-perms-azure-ext-cont-qna-grs.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Q&amp;A Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Add the AllSites.FullControl SharePoint API delegated permission to your Externa
 
 ## Before you begin
 
-The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
+The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/install-now-assist-ais.md).
 
 You need to have an OAuth 2.0 application configured in Microsoft Azure portal for External Content Q&amp;A Genius Results. For details on this procedure, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-oauth-application-in-microsoft-azure.md).
 
@@ -86,7 +86,7 @@ Role required: admin
 
 ## What to do next
 
-Configure the OAuth 2.0 settings in your ServiceNow AI Platform® instance that are needed for External Content Q&amp;A Genius Results. For details on this procedure, see [Configure OAuth settings for External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
+Configure the OAuth 2.0 settings in your ServiceNow AI Platform® instance that are needed for External Content Q&amp;A Genius Results. For details on this procedure, see [Configure OAuth settings for External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-oauth-ext-cont-qna-gr.md).
 
-**Parent Topic:**[External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-qna.md)
+**Parent Topic:**[External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/external-content-qna.md)
 

@@ -2,7 +2,7 @@
 title: Privacy Workspace for the privacy manager
 description: The Privacy management dashboard provides a centralized interface for monitoring and managing privacy-related data processing activities within the organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-compliance-manager.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-compliance-manager.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -37,14 +37,14 @@ The following image shows the home page for the privacy manager.
 
 On the homepage, use the **Explore** button to analyze privacy data using natural language queries with AI Data Explorer. For information on installing, configuring, and using AI Data Explorer, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer.md).
 
--   **[Processing activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/processing-activity-tab.md)**  
+-   **[Processing activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/processing-activity-tab.md)**  
 The Processing activity tab on the Privacy management dashboard provides a comprehensive and real-time overview of all data processing activities across the organization.
--   **[Risk and compliance tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/risk-and-complaince-tab.md)**  
+-   **[Risk and compliance tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/risk-and-complaince-tab.md)**  
 The Risk and compliance tab on the privacy management dashboard provides a centralized view of privacy-related risk exposure and regulatory compliance performance.
--   **[Operations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/operations-tab-prm.md)**  
+-   **[Operations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/operations-tab-prm.md)**  
 The Operations tab on the privacy management dashboard offers visibility into operational performance across key privacy compliance processes, supporting proactive management and confirming adherence to regulatory and internal risk standards.
--   **[Privacy cases tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-cases-tab.md)**  
+-   **[Privacy cases tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/privacy-cases-tab.md)**  
 The Privacy cases tab on the privacy management dashboard serves as a centralized interface for monitoring, analyzing, and managing privacy-related incidents and requests within an organization.
 
-**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
+**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 

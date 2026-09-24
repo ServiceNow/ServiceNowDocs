@@ -2,7 +2,7 @@
 title: Set up a use case
 description: Create a use case to define the information to extract from a document for processing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/set-up-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/set-up-use-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,9 +17,9 @@ Create a use case to define the information to extract from a document for proce
 
 ## Before you begin
 
-Several predefined use cases are available within their defined workflow areas. Check whether the available use cases meet your requirements before creating a new one. For more information, see [Content Understanding integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-integrations.md).
+Several predefined use cases are available within their defined workflow areas. Check whether the available use cases meet your requirements before creating a new one. For more information, see [Content Understanding integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/content-understanding-integrations.md).
 
-Activate the Information Extraction skill. For more information, see [Activate the Extract Information from documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-info-extraction-skill.md).
+Activate the Information Extraction skill. For more information, see [Activate the Extract Information from documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-info-extraction-skill.md).
 
 Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_docintel.manager\]
 
@@ -53,11 +53,11 @@ After you define a use case, you can begin processing documents for it in the re
 
         If the files contain multiple languages, select the primary language.
 
-        For more information, see [Languages supported by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/languages-supported.md).
+        For more information, see [Languages supported by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/languages-supported.md).
 
     4.  Select a large language model \(LLM\) that will make predictions for the documents processed with this use case.
 
-        For more information, see [Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-llms.md).
+        For more information, see [Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cu-llms.md).
 
     5.  Turn on image mode to process images more efficiently.
 
@@ -101,9 +101,9 @@ After you define a use case, you can begin processing documents for it in the re
 
         The type of form depends on the type of field:
 
-        -   [Field form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/field-form.md)
-        -   [Question form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/question-form.md)
-        -   [Table form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/table-form.md)
+        -   [Field form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/field-form.md)
+        -   [Question form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/question-form.md)
+        -   [Table form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/table-form.md)
     4.  Select **Save**.
 
         The field, question, or table is added to the Information list for the use case.
@@ -113,7 +113,7 @@ After you define a use case, you can begin processing documents for it in the re
 
 ## What to do next
 
-1.  [Test a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-the-use-case.md)
-2.  [Add integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-integration.md)
-3.  [Review and activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-and-activate.md)
+1.  [Test a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-the-use-case.md)
+2.  [Add integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-integration.md)
+3.  [Review and activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-and-activate.md)
 

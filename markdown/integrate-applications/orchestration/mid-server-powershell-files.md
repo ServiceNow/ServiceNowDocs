@@ -2,7 +2,7 @@
 title: MID Server PowerShell files
 description: PowerShell functions are stored in script files \(\*.ps1\) that use a PowerShell Script module \(\*.psm1\) file name extension.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/mid-server-powershell-files.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/mid-server-powershell-files.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -27,7 +27,7 @@ The PowerShell functions are used by the PowerShell MID Server script files incl
 
 This script performs a few tasks, such as credential testing, password encryption, and the execution of scripts configured in the Orchestration Activity Designer or in MID Script Files. However, this document focuses on how PSScript.ps1 uses the `credential.psm1` module for testing access to remote hosts.
 
-The PowerShell variables are generally used directly in the [PowerShell execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md) or as arguments in the MID Server script file you specify. There are special variables that are passed to PSScript.ps1, such as **credType**.
+The PowerShell variables are generally used directly in the [PowerShell execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/CreateInputVariables.md) or as arguments in the MID Server script file you specify. There are special variables that are passed to PSScript.ps1, such as **credType**.
 
 \[Omitted image "credTypeExample.png"\] Alt text: Using credType in execution parameters
 
@@ -124,11 +124,11 @@ This module file stores the functions used by the PowerShell scripts shipped wit
 
 ## Exchange.psm1
 
-This module file stores the functions used by the PowerShell scripts shipped with the [Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationExchangeActivities.md) activity pack.
+This module file stores the functions used by the PowerShell scripts shipped with the [Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationExchangeActivities.md) activity pack.
 
 ## SCCM.psm1
 
-This module file stores the functions used by the PowerShell scripts shipped with the [SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_SCCMActivityPack.md) activity pack.
+This module file stores the functions used by the PowerShell scripts shipped with the [SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_SCCMActivityPack.md) activity pack.
 
-**Parent Topic:**[PowerShell protocols and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/powershell-protocols.md)
+**Parent Topic:**[PowerShell protocols and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/powershell-protocols.md)
 

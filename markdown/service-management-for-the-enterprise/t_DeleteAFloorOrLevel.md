@@ -2,7 +2,7 @@
 title: Delete a floor or level
 description: Before you can delete a floor, you must first delete any spaces defined for it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_DeleteAFloorOrLevel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_DeleteAFloorOrLevel.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,5 +25,5 @@ Before you can delete a floor, you must first delete any spaces defined for it.
     If the building has any assets associated with it, a warning box opens. If you click **Delete**, the associated asset is deleted.
 
 
-**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_Manually-builtMaps.md)
+**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_Manually-builtMaps.md)
 

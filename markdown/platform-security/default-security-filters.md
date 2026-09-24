@@ -2,7 +2,7 @@
 title: Default security filters
 description: Generally data filters are applied after absolute ACLs \(also sometimes called table-level ACLs\), and after row-level ACLs. They are applied by default, and can be impactful to system behavior if not used carefully.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/default-security-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/default-security-filters.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

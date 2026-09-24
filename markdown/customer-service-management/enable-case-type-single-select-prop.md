@@ -2,7 +2,7 @@
 title: Enable the case type single select property
 description: Enable the case type single select property so that customer service agents can use the case type single select version of the case type selector and create cases of a specific type with one click.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-case-type-single-select-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-case-type-single-select-prop.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,9 +24,9 @@ In CRM Workspace, there are three versions of the case type selector available t
 
 -   With the multi-select version, the agent selects a case type and optionally selects a category and subtype to narrow the available choices before creating a case. This is the default functionality.
 -   With the single-select version, the agent selects a case type and creates a case. The system populates some of the fields on the Case form with values that have been predefined in the selection configuration.
--   With the Product Service Select version, the agent selects a product and a service to create a case. For more information, see [Product Service select version of the case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals-product-service.md).
+-   With the Product Service Select version, the agent selects a product and a service to create a case. For more information, see [Product Service select version of the case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-type-select-modals-product-service.md).
 
-To use the single-select version, enable the **sn\_csm\_case\_types.case\_type\_single\_field\_select** property. You must also [create a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-type-single-selection.md).
+To use the single-select version, enable the **sn\_csm\_case\_types.case\_type\_single\_field\_select** property. You must also [create a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-type-single-selection.md).
 
 ## Procedure
 

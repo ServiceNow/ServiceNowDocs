@@ -2,7 +2,7 @@
 title: Configure third-party data integration for CSM
 description: Configure the required components to enable the third-party data integration feature for Agent Workspace for CSM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-third-party-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-third-party-integration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: admin
 
 2.  Identify the spoke action that retrieves the desired third-party data.
 
-    You can find the list of available actions in the spoke documentation. If an action that performs the desired task does not exist, you can create your own action by copying an existing action and modifying it to suit your needs. You can find an example of the custom spoke actions in [Create Salesforce spoke actions to retrieve Opportunities for use in the remote table definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-salesforce-spoke.md).
+    You can find the list of available actions in the spoke documentation. If an action that performs the desired task does not exist, you can create your own action by copying an existing action and modifying it to suit your needs. You can find an example of the custom spoke actions in [Create Salesforce spoke actions to retrieve Opportunities for use in the remote table definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-integration-salesforce-spoke.md).
 
     **Note:** Data Stream Actions cannot be used with the remote table.
 

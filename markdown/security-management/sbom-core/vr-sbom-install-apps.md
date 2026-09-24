@@ -2,7 +2,7 @@
 title: Install the supported applications for Software Bill of Materials
 description: Download and activate the required applications for the Software Bill of Materials \(SBOM\) application prior to uploading files.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-install-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sbom-core/vr-sbom-install-apps.html
 release: australia
 product: SBOM Core
 classification: sbom-core
@@ -41,7 +41,7 @@ Roles required: admin for download, installation, and activation of all applicat
     -   Vulnerability Response and its dependencies
     -   Vulnerability Response Integration with NVD
     -   SBOM Response
-    For more information about these and other supported SBOM applications, see [Exploring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-exploring.md).
+    For more information about these and other supported SBOM applications, see [Exploring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sbom-core/vr-sbom-exploring.md).
 
 3.  After you have downloaded the applications, navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
@@ -54,15 +54,15 @@ Roles required: admin for download, installation, and activation of all applicat
     -   Data Model for SBOM
     -   SBOM Core
     -   SBOM Response, which includes the OSV.dev and Deps.dev integrations and supports the Policy as Code Engine \(PaCE\) interface in the SBOM Workspace.
-    See [Configuring the Deps.dev, OSV.dev, and PaCE integrations for Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-config-osv-deps.md) for more information about configuring these integration applications after you have installed SBOM Response.
+    See [Configuring the Deps.dev, OSV.dev, and PaCE integrations for Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sbom-core/vr-sbom-config-osv-deps.md) for more information about configuring these integration applications after you have installed SBOM Response.
 
 5.  Activate integrations by navigating to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All** and selecting **Install**.
 
-    For more information about these integrations and the capabilities they provide, see [Exploring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-exploring.md).
+    For more information about these integrations and the capabilities they provide, see [Exploring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sbom-core/vr-sbom-exploring.md).
 
-    -   Vulnerability Response Integration with Veracode. See [Install the ServiceNow Vulnerability Response Integration with Veracode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/install-veracode.md) for more information.
-    -   Vulnerability Response Integration with NVD, which is required if you want to view the enhanced data for vulnerabilities associated with uploaded components. See [National Vulnerability Database \(NVD\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/nvd-vuln-integration.md) for more information.
-    -   CWE Comprehensive 2000 Integration. See [Configure and run the scheduled job for updating CWE records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/t_ConfigureScheduledJobsCWE.md) for more information about activating this scheduled job.
+    -   Vulnerability Response Integration with Veracode. See [Install the ServiceNow Vulnerability Response Integration with Veracode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/install-veracode.md) for more information.
+    -   Vulnerability Response Integration with NVD, which is required if you want to view the enhanced data for vulnerabilities associated with uploaded components. See [National Vulnerability Database \(NVD\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/nvd-vuln-integration.md) for more information.
+    -   CWE Comprehensive 2000 Integration. See [Configure and run the scheduled job for updating CWE records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/t_ConfigureScheduledJobsCWE.md) for more information about activating this scheduled job.
     A message is displayed after an application is successfully activated.
 
 6.  Assign the following roles to users.
@@ -90,5 +90,5 @@ Roles required: admin for download, installation, and activation of all applicat
 
 ## What to do next
 
-Upload your SBOM files. See [Upload Software Bill of Materials files manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-ingest.md) and [Uploading Software Bill of Materials files using a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-preparing-upload.md) for more information.
+Upload your SBOM files. See [Upload Software Bill of Materials files manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sbom-core/vr-sbom-ingest.md) and [Uploading Software Bill of Materials files using a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sbom-core/vr-sbom-preparing-upload.md) for more information.
 

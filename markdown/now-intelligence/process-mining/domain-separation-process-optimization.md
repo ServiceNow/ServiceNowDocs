@@ -2,7 +2,7 @@
 title: Domain separation and Process Mining
 description: Domain separation is supported in Process Mining. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/domain-separation-process-optimization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/domain-separation-process-optimization.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -55,7 +55,7 @@ A new CIM initiative added from a Process Mining workspace is created in the pro
     **Note:** Cascade domain changes are not supported.
 
 
-**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining-reference.md)
+**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-mining-reference.md)
 
 **Related topics**  
 

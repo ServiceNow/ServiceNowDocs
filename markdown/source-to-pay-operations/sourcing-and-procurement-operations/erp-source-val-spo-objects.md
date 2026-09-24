@@ -2,7 +2,7 @@
 title: ERP source validation on Sourcing and Procurement Operations objects
 description: Sourcing and Procurement Operations supports multi-ERP integration that enables you to use different ERP systems for different regions or lines of business, as required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/erp-source-val-spo-objects.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/erp-source-val-spo-objects.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -38,7 +38,7 @@ Cost center and GL account values are restricted by the ERP source on the object
 
 If there’s any record with different ERP sources, then an integration error task is raised. This is an indicator for your fulfiller to correct the record before processing it further.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Java KeyStore and Windows Certificate Store discovery
 description: Discovery uses the Collect Certificates extension section of the Linux Server and Windows OS – Servers patterns to discover certificates stored in the Java KeyStore or Windows Certificate Store. Discovering the certificate information requires installing and updating Discovery and Service Mapping Patterns and Certificate Inventory and Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/x509-certificates-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/x509-certificates-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -35,7 +35,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of the Discovery schedule**
 
-    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md)
+    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/running-discoveries.md)
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -247,5 +247,5 @@ Root Issuer \[root\_issuer\]
 A reference to the root certificate record. The reference is available if the issued certificate is a part of the same payload.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-patterns.md)
+</table>**Parent Topic:**[Certificate Inventory and Management patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-invt-mgmt-patterns.md)
 

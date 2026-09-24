@@ -2,7 +2,7 @@
 title: Headless Browser system properties
 description: Below is a table of the properties you must have as you set up the ServiceNow Headless Browser for Automated Test Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-headless-browser-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-headless-browser-properties.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -49,12 +49,12 @@ Below is a table of the properties you must have as you set up the ServiceNow® 
 |sn\_atf.headless.vp\_has\_role\_id|string|headless\_vp\_has\_role|The ID of the element verifying that the user has correct roles|
 |sn\_atf.headless.vp\_success\_id|string|headless\_vp\_success|The ID of the element signifying entire page loaded correctly|
 
-**Parent Topic:**[Headless Browser for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-headless-browser.md)
+**Parent Topic:**[Headless Browser for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-headless-browser.md)
 
 **Related topics**  
 
 
-[Headless Browser for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-headless-browser.md)
+[Headless Browser for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-headless-browser.md)
 
-[Exploring Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework.md)
+[Exploring Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/automated-test-framework.md)
 

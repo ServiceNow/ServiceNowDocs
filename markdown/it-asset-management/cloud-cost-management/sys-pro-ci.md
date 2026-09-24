@@ -2,7 +2,7 @@
 title: System properties for Cloud Cost Management
 description: These system properties are available for the Cloud Cost Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/sys-pro-ci.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/sys-pro-ci.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -434,5 +434,5 @@ Sets up the currency exchange rates based on the preferred currency. The table t
 -   Value: name of the table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
+</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 

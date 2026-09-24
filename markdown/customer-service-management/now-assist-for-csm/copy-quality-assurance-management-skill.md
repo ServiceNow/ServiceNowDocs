@@ -2,7 +2,7 @@
 title: Copy Automated quality assurance skill
 description: Copy the Automated quality assurance skill to experiment with settings and configure it for your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/copy-quality-assurance-management-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/copy-quality-assurance-management-skill.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -42,7 +42,7 @@ The skills that come with the AI applications have default configurations that a
     **Note:**
 
     -   For skill copy, admin can edit the name and description. Once the skill is copied, by default you see \(Copy\) as a suffix. Only one version of a skill can be active at a time. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
-    -   [Cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md) can also be done from AI Skill Kit.
+    -   [Cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md) can also be done from AI Skill Kit.
 
 ## Result
 
@@ -50,5 +50,5 @@ A copy of the Automated quality assurance skill is generated, and you're taken t
 
 ## What to do next
 
-Continue the steps in the guided setup to activate the skill. For more information, see [Activate Automated quality assurance skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/quality-assurance-management.md).
+Continue the steps in the guided setup to activate the skill. For more information, see [Activate Automated quality assurance skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/quality-assurance-management.md).
 

@@ -2,7 +2,7 @@
 title: Make an activity unavailable in playbooks
 description: Deactivate an activity to stop users from adding it to playbooks in Creator Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-hide-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-hide-activity.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -43,5 +43,5 @@ Role required: admin or app\_engine\_admin
 4.  Select **Update** to save the record.
 
 
-**Parent Topic:**[Administering activities in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-administering-activities.md)
+**Parent Topic:**[Administering activities in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-administering-activities.md)
 

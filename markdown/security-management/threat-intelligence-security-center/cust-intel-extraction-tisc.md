@@ -2,7 +2,7 @@
 title: Customize the threat intelligence extraction use cases
 description: Edit the prompts in the threat intelligence extraction use cases to change how AI extracts threat entities from the documents that your analysts upload.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/cust-intel-extraction-tisc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/cust-intel-extraction-tisc.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -64,5 +64,5 @@ ServiceNow Otto for Threat Intelligence Security Center \(TISC\) provides the th
 **Related topics**  
 
 
-[Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/cust-now-assist-tisc-skill.md)
+[Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/cust-now-assist-tisc-skill.md)
 

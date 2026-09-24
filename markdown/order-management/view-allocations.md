@@ -2,7 +2,7 @@
 title: View allocations for an opportunity
 description: View allocation details and distributed amounts for an opportunity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/view-allocations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-allocations.html
 release: australia
 topic_type: task
 last_updated: "2026-05-21"
@@ -44,7 +44,7 @@ The allocations for the opportunity are displayed in a read-only list and groupe
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

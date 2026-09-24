@@ -2,7 +2,7 @@
 title: Configure Azure AD SSO
 description: Configure Azure AD SSO in the Azure portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-azure-ad-sso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/configure-azure-ad-sso.html
 release: australia
 product: Authentication
 classification: authentication

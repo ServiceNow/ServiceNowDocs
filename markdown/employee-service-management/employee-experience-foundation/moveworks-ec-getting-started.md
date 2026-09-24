@@ -2,7 +2,7 @@
 title: Getting started with Otto Chat Integration
 description: Moveworks integration adds an AI assistant to Employee Center replacing the standard Virtual Agent with Moveworks conversational AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -45,22 +45,22 @@ For more information, see [Moveworks documentation](https://help.moveworks.com/)
 
 ## Useful tips and information
 
-Before getting started, see the reference information available at [ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md), for settings, observations, and troubleshooting.
+Before getting started, see the reference information available at [ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md), for settings, observations, and troubleshooting.
 
 **Note:** ServiceNow Otto Chat Integration is available on both Employee Center and Employee Center Pro.
 
 **Related topics**  
 
 
-[Getting started with Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
+[Getting started with Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
 
-[Install Otto chat application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-install-app.md)
+[Install Otto chat application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-install-app.md)
 
-[Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
+[Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
 
-[Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
+[Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
 
-[Use Otto Chat Integration on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
+[Use Otto Chat Integration on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
 
-[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
+[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
 

@@ -2,7 +2,7 @@
 title: Accessing the connection details of Service Graph Connector for OpenTelemetry
 description: You can access the connection details of the Service Graph Connector for OpenTelemetry in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.Access the details of an OpenTelemetry connection configured for the Service Graph Connector for OpenTelemetry.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-otel-conn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-otel-conn.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -47,7 +47,7 @@ Role required: admin
 **Related topics**  
 
 
-[Service Graph Connector for OpenTelemetry properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-otel-props.md)
+[Service Graph Connector for OpenTelemetry properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-otel-props.md)
 
 [Accessing the connection details of Service Graph Connectors]()
 

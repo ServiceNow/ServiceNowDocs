@@ -2,7 +2,7 @@
 title: Workplace Service Delivery Integration
 description: Create new reservations and make changes to existing reservations for your company events from the Workplace Service Management portal, which integrates with Employee Center Pro.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -59,19 +59,19 @@ The workplace service delivery integrates with employee center pro to provide yo
     New reservations or reservation changes are successfully executed and reflected within the portal reservation details.
 
 
--   **[Create Company Event with Workplace Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-wsd-integration-create-company-event.md)**  
+-   **[Create Company Event with Workplace Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-wsd-integration-create-company-event.md)**  
 Create new company events and make changes to existing company events from the Workplace Service Management portal, which integrates with Employee Center Pro.
--   **[Company Event Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-wsd-integration-troubleshooting.md)**  
+-   **[Company Event Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-wsd-integration-troubleshooting.md)**  
 Company event troubleshooting steps help resolve reservation changes and cancellations.
 
-**Parent Topic:**[Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-company-events.md)
+**Parent Topic:**[Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-company-events.md)
 
 **Related topics**  
 
 
-[Create Company Event with Workplace Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-wsd-integration-create-company-event.md)
+[Create Company Event with Workplace Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-wsd-integration-create-company-event.md)
 
-[Create a company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-company-event.md)
+[Create a company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-company-event.md)
 
-[Publishing company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-company-events.md)
+[Publishing company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-publish-company-events.md)
 

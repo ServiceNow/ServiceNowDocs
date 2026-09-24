@@ -2,7 +2,7 @@
 title: Assign roles for CMDB success advisor users
 description: Assign roles to control access to features, capabilities, and data in the CMDB success advisor application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-assign-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-assign-roles.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -160,7 +160,7 @@ Required to manage Discovery patterns with create and write access.
 Data Foundations and HAM dashboards
 
 </td></tr></tbody>
-</table>For more information, see [Exploring CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-explore.md).
+</table>For more information, see [Exploring CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-explore.md).
 
 ## Procedure
 

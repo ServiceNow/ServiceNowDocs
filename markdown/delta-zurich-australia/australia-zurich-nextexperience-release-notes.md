@@ -2,11 +2,11 @@
 title: Combined Next Experience release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Next Experience from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nextexperience-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-nextexperience-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 6
+last_updated: "2026-09-24"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -94,7 +94,12 @@ Australia
 
 </td><td>
 
--   **[Enable auto-focus on page alerts new accessibility preference](https://www.servicenow.com/docs/access?context=enable-auto-focus-on-page-alerts&family=australia&ft:locale=en-US)**
+-   **[In-Product Surveys](https://www.servicenow.com/docs/access?context=in-product-surveys-overview&family=australia&ft:locale=en-US)**
+
+Collect feedback from users as they work in Next Experience. Admins can turn off surveys at the instance level.
+
+
+ -   **[Enable auto-focus on page alerts new accessibility preference](https://www.servicenow.com/docs/access?context=enable-auto-focus-on-page-alerts&family=australia&ft:locale=en-US)**
 
 Turn on the Enable auto-focus on page alerts preference to automatically move focus to the page alert. See the Accessibility section for details.
 
@@ -122,7 +127,12 @@ Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -137,7 +147,21 @@ Australia
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **[Updated Coral theme](https://www.servicenow.com/docs/access?context=next-experience-theming&family=australia&ft:locale=en-US)**
+
+The Coral theme has been improved to enhance usability across web, mobile, and portal experiences that use Next Experience and Core UI:
+
+    -   A fully overhauled color system for smoother gradients and better contrast.
+    -   Softer outlines and more rounded components for a modern, accessible look.
+    -   A significantly improved dark mode with deeper blue tones for reduced eye strain.
+    -   New AI gradient styles and subtle animations to highlight intelligent features.
+    -   Smarter focus behavior that reduces visual clutter for mouse users.
+-   **New Works with ServiceNow badge added to user menu**
+
+The Works with ServiceNow badge now appears in the user menu for custom-branded accounts. This applies to web and mobile experiences with Next Experience or Core UI enabled. All other branding and theme settings remain unchanged. This update applies automatically.
 
 
 </td></tr></tbody>
@@ -416,5 +440,5 @@ Australia
  See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Contextual Search widget
 description: Contextual Search is an embedded widget that can be added to a record producer and used with the SC Catalog Item widget. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/contextual-search-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/contextual-search-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -22,7 +22,7 @@ To use this widget with other record producers, see [Define contextual search fo
 
 \[Omitted image "contextual-search-widget.png"\] Alt text: Contextual Search widget
 
-**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-widgets.md)
+**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/search-widgets.md)
 
 **Related topics**  
 

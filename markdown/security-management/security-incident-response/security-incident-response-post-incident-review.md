@@ -2,7 +2,7 @@
 title: Security Incident Response Post Incident Review
 description: Post incident review appears when an incident is moved to a Review state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-response-post-incident-review.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/security-incident-response-post-incident-review.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -16,7 +16,7 @@ breadcrumb: [Working with Security Incident Records, Use, Security Incident Resp
 
 Post incident review appears when an incident is moved to a Review state.
 
-For more detailed information on the conducting the post incident activities, see [Post incident review report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/new-post-incident-review-report.md)
+For more detailed information on the conducting the post incident activities, see [Post incident review report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/new-post-incident-review-report.md)
 
 The Post incident review consists of the following sections:
 
@@ -56,7 +56,7 @@ Reports
 Modify the runtime configurations and generate the report. Select the Report instance, modify the filters and save the report. The analyst can preview and download the PIR report.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
+</table>**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 

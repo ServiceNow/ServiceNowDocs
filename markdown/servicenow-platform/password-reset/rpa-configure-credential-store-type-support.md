@@ -2,7 +2,7 @@
 title: Configure a credential store type to support third-party password auto-generation
 description: Enable the subflows in credential store type to support third-party password auto-generation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/rpa-configure-credential-store-type-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/rpa-configure-credential-store-type-support.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -45,5 +45,5 @@ For more information about Robotic Process Automation, see [Robotic Process Auto
 7.  Click **Update** or save the changes.
 
 
-**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
+**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/customizing-password-reset.md)
 

@@ -2,7 +2,7 @@
 title: Approve or reject a legal matter task through Mobile Agent
 description: As a legal matter owner, you can review and approve or reject matter tasks that are marked as complete by the task owners.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/approve-reject-matter-task-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/approve-reject-matter-task-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile

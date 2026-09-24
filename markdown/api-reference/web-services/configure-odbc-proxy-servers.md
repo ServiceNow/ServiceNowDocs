@@ -2,7 +2,7 @@
 title: Configure ODBC to use proxy servers
 description: The ODBC driver can be configured to route its HTTP SOAP requests via an HTTP proxy server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/configure-odbc-proxy-servers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/configure-odbc-proxy-servers.html
 release: australia
 product: Web Services
 classification: web-services
@@ -48,5 +48,5 @@ To enable the use of proxy servers, the custom properties for proxy server setti
     |proxy\_user\_password|The proxy server user password, used with the proxy\_name value in an authenticating proxy configuration.|\*\*\*\*\*|
 
 
-**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-odbc.md)
+**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/configuring-odbc.md)
 

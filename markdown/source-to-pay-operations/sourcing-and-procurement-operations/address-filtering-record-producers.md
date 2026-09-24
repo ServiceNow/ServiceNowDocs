@@ -2,12 +2,12 @@
 title: Delivery address filtering in record producers
 description: Off-catalog record producer forms include address fields that enable shoppers to specify delivery locations. Removed delivery addresses do not appear in these fields, consistent with Shopping Hub checkout behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/address-filtering-record-producers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/address-filtering-record-producers.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [record producer, address filtering, removed addresses, off-catalog requestors, delivery location]
 breadcrumb: [Saved delivery addresses, Shopping Hub, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
@@ -43,5 +43,5 @@ Address filtering in record producers uses the same pattern as Shopping Hub chec
 -   If a user re-adds a previously removed address from the work directory, the address reappears as an available option in record producer forms.
 -   The same delivery addresses that are unavailable at checkout are unavailable in record producers, providing a consistent experience.
 
-**Parent Topic:**[Managing saved delivery addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-overview.md)
+**Parent Topic:**[Managing saved delivery addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/address-deletion-overview.md)
 

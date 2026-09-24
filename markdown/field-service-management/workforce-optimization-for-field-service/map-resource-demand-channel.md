@@ -2,7 +2,7 @@
 title: Associate technicians with demand channels
 description: Associate technicians in a territory with demand channels to appropriately assign tasks to the technicians.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/map-resource-demand-channel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/map-resource-demand-channel.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -22,10 +22,10 @@ Role required: sn\_fsm\_tp.territory\_resource\_manager
 
 Ensure you have enabled following.
 
--   Territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
--   Work force optimization. For more information, see [Configuring Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-wfo-fsm.md).
--   Enable **Enable Shift Scheduling for FSM to determine availability** and **Enable/disable association of territory resources with demand channels** configurations. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md).
--   Advanced Capacity and Reservations Management. For information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
+-   Territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
+-   Work force optimization. For more information, see [Configuring Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-wfo-fsm.md).
+-   Enable **Enable Shift Scheduling for FSM to determine availability** and **Enable/disable association of territory resources with demand channels** configurations. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ConfigureFieldService.md).
+-   Advanced Capacity and Reservations Management. For information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
 
 ## About this task
 

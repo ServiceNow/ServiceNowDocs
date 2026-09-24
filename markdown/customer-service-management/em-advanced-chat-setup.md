@@ -2,7 +2,7 @@
 title: Chat Setup configuration form
 description: Description of the Chat setup configuration form fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/em-advanced-chat-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/em-advanced-chat-setup.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

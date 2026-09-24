@@ -2,7 +2,7 @@
 title: Product details form
 description: The Product non-conformance details form enables you to add the case details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-non-conformance-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-product-non-conformance-case-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -178,10 +178,10 @@ Complaint details
 Complaint details, if any.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qim-form.md)
 
 **Related topics**  
 
 
-[Create a product non-conformance case using playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-playbook-create-non-conformance.md)
+[Create a product non-conformance case using playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-playbook-create-non-conformance.md)
 

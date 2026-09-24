@@ -2,7 +2,7 @@
 title: Edit or delete an event
 description: Dispatchers can change or delete a non-work order personal event if the event's details change after its creation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/edit-delete-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/edit-delete-event.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

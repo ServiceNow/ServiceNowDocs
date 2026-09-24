@@ -2,7 +2,7 @@
 title: Create a folder in the Documents panel
 description: Organize documents by creating folders and nested folders in the Documents panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-a-document-folder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/create-a-document-folder.html
 release: australia
 product: Audit Management
 classification: audit-management

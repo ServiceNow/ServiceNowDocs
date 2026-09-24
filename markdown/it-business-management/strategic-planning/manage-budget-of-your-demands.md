@@ -2,7 +2,7 @@
 title: Manage demand budgets
 description: Allocate, manage, and approve budget for your demands. Lean budgeting allocates budget for short planning cycles across fiscal periods, such as monthly, quarterly, or yearly. This approach differs from allocating budget to the complete duration of a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/manage-budget-of-your-demands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/manage-budget-of-your-demands.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -18,8 +18,8 @@ Allocate, manage, and approve budget for your demands. Lean budgeting allocates 
 
 ## Before you begin
 
--   Enable the property to work on budgeting. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/enable-financial-budget-allocation-for-demands.md).
--   Configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/configure-budget-attribute-at-instance-level-dw.md).
+-   Enable the property to work on budgeting. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/enable-financial-budget-allocation-for-demands.md).
+-   Configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/configure-budget-attribute-at-instance-level-dw.md).
 -   Role required: it\_demand\_manager
 
 ## Procedure

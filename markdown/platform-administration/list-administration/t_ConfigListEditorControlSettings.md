@@ -2,7 +2,7 @@
 title: Configure list control settings for the list editor
 description: You can configure the list control settings that affect the list editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ConfigListEditorControlSettings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_ConfigListEditorControlSettings.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -22,7 +22,7 @@ Role required: personalize\_control
 
 ## About this task
 
-[List control settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureListControls.md) customize the behavior of list functions for a table.
+[List control settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/t_ConfigureListControls.md) customize the behavior of list functions for a table.
 
 ## Procedure
 

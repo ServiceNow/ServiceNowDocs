@@ -2,7 +2,7 @@
 title: Enable users to view email details in activity stream
 description: As a contract configurator, specify the user roles to enable users to view email details in the activity stream of contract requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-enbl-user-email-astream.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-enbl-user-email-astream.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -50,7 +50,7 @@ Role required: admin
 
 The users with the assigned role that has been added to the system property can view email details in the activity stream of a contract request.
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 

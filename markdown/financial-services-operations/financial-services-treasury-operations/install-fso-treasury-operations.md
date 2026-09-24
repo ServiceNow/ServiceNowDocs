@@ -2,7 +2,7 @@
 title: Install Financial Services Treasury Operations
 description: You can install the Financial Services Treasury Operations application \(sn\_bom\_treasury\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-treasury-operations/install-fso-treasury-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-treasury-operations/install-fso-treasury-operations.html
 release: australia
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -31,7 +31,7 @@ The following items are installed with Financial Services Treasury Operations:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-treasury-operations/installed-with-fso-treasury-ops.md).
+For more information, see [Components installed with Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-treasury-operations/installed-with-fso-treasury-ops.md).
 
 ## Procedure
 

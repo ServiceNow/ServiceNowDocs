@@ -2,7 +2,7 @@
 title: Set up the process for self-registration on the Patient Portal
 description: You can manage the process of self-registration for your patients on the Patient Portal by using a service portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-registering-patients.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-registering-patients.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

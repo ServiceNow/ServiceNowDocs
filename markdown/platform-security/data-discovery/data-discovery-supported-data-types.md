@@ -2,7 +2,7 @@
 title: Data Discovery supported data types
 description: Check which field types are supported when using Data Discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/data-discovery-supported-data-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/data-discovery-supported-data-types.html
 release: australia
 product: Data Discovery
 classification: data-discovery

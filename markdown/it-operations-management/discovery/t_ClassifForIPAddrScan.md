@@ -2,7 +2,7 @@
 title: Modify classifiers for IP address discovery
 description: When you run an IP address type of discovery, port probes scan devices without the use of credentials, and then Discovery can determine which classifiers to use. You can add port probes and additional classifiers for IP address discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ClassifForIPAddrScan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_ClassifForIPAddrScan.html
 release: australia
 product: Discovery
 classification: discovery
@@ -63,10 +63,10 @@ To use IP address classification, follow these steps:
 
 4.  In the Classification Criteria related list, create a criteria filter that determines when this classifier applies to the discovered devices.
 
-    See the [IP address classification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/classification-parameters.md) for a list of the parameters you can use.
+    See the [IP address classification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/classification-parameters.md) for a list of the parameters you can use.
 
 
 ## What to do next
 
-Run a IP address discovery through the [Discovery Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to search for devices.
+Run a IP address discovery through the [Discovery Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to search for devices.
 

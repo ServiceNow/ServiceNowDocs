@@ -2,7 +2,7 @@
 title: Manage a proactive case created from an alert
 description: Work on a proactive case and resolve the proactive case as you would other customer service cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-internally-reported-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/manage-internally-reported-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -94,9 +94,9 @@ Propose a major case when multiple customers are affected. **Note:** If you don'
 **Related topics**  
 
 
-[Propose a case as a major case candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/propose-major-case-candidate.md)
+[Propose a case as a major case candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/propose-major-case-candidate.md)
 
-[Close a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CloseACase.md)
+[Close a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_CloseACase.md)
 
-[AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/awa-csm-overview.md)
+[AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/awa-csm-overview.md)
 

@@ -2,7 +2,7 @@
 title: Move delegators
 description: Facilities administrators assign move delegators to assign users to locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_EnterpriseMoveDelegators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_EnterpriseMoveDelegators.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,5 +16,5 @@ Facilities administrators assign move delegators to assign users to locations.
 
 Move delegators are usually managers or someone assigned by the manager, to determine which locations users are moving into. Delegators assign locations on the floor plan, which are added to the move scenario and carried over to the move request and subsequent move tasks.
 
-**Parent Topic:**[Activate a delegator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateADelegator.md)
+**Parent Topic:**[Activate a delegator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateADelegator.md)
 

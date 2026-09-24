@@ -2,7 +2,7 @@
 title: View software model results
 description: View compliance information for software model results from the Product Results list after reconciliation is run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_ViewSWModelResults.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/t\_ViewSWModelResults.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -155,7 +155,7 @@ Display name
 
 Name of the license metric that the software license is counted against when reconciliation runs.
 
- Select the **Display name** to open the corresponding License Metric Results record, where you can view more in-depth information about the license metric result. See [Software model results license metric results fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/license-metric-results-fields.md) for more details.
+ Select the **Display name** to open the corresponding License Metric Results record, where you can view more in-depth information about the license metric result. See [Software model results license metric results fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/license-metric-results-fields.md) for more details.
 
 </td></tr><tr><td>
 
@@ -556,15 +556,15 @@ Company
 Name of the company that has unlicensed software consumptions.
 
 </td></tr></tbody>
-</table>    The Licensed Installs related list contains the [software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_DiscoveryModels.md) that are licensed. To view more information about a licensed software installation, open the corresponding Software Installation record by selecting the **Display name**. Refer to [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-installation-fields.md) for detailed descriptions of each field in the Software Installation record.
+</table>    The Licensed Installs related list contains the [software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_DiscoveryModels.md) that are licensed. To view more information about a licensed software installation, open the corresponding Software Installation record by selecting the **Display name**. Refer to [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-installation-fields.md) for detailed descriptions of each field in the Software Installation record.
 
-    The Unlicensed Installs related list contains the [software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_DiscoveryModels.md) that are unlicensed. To view more information about an unlicensed software installation, open the corresponding Software Installation record by selecting the **Display name**. Refer to [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-installation-fields.md) for detailed descriptions of each field in the Software Installation record.
+    The Unlicensed Installs related list contains the [software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_DiscoveryModels.md) that are unlicensed. To view more information about an unlicensed software installation, open the corresponding Software Installation record by selecting the **Display name**. Refer to [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-installation-fields.md) for detailed descriptions of each field in the Software Installation record.
 
-    The Unlicensed Users related list contains the [SAP system users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md) that are unlicensed.
+    The Unlicensed Users related list contains the [SAP system users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md) that are unlicensed.
 
     **Note:** This related list is shown only for the SAP publisher.
 
-    The Removal Candidates related list contains removal candidates related to software installations. For more information, see [Removal candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAReclCandidate.md).
+    The Removal Candidates related list contains removal candidates related to software installations. For more information, see [Removal candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_AddAReclCandidate.md).
 
 4.  Execute remediation options for specific remediation actions by selecting an option from the Remediation Options related list and then selecting the applicable action.
 
@@ -649,8 +649,8 @@ When a purchase order is created, the status of any Purchase Rights remediation 
  Once a purchase order is created, the **Purchase order** field, containing the purchase order reference, is added to the remediation option.
 
 </td></tr></tbody>
-</table>    A confirmation message is shown and all applicable [removal candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAReclCandidate.md) are added to the Removal Candidates related list.
+</table>    A confirmation message is shown and all applicable [removal candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_AddAReclCandidate.md) are added to the Removal Candidates related list.
 
 
-**Parent Topic:**[Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md)
+**Parent Topic:**[Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-license-workbench.md)
 

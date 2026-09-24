@@ -2,7 +2,7 @@
 title: Configure a ringtone for critical alerts
 description: Select a preferred ringtone for your critical notifications in ITSM Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/configure-a-customized-ringtone-for-critical-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/configure-a-customized-ringtone-for-critical-alerts.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

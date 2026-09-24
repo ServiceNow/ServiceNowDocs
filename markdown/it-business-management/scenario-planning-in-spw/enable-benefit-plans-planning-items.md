@@ -2,7 +2,7 @@
 title: Add monetary and non-monetary benefit plans related lists
 description: Enable the monetary benefit plans and non-monetary benefit plans related lists for your planning item types such as Epics, Features, and Capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/enable-benefit-plans-planning-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/enable-benefit-plans-planning-items.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -56,6 +56,6 @@ Enable the monetary benefit plans and non-monetary benefit plans related lists f
 
 Create and manage monetary and non-monetary benefits plans for your planning items.
 
--   [Create monetary benefit plans for your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.md)
--   [Manage non-monetary benefit plans for your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/fin-manage-non-monetary-benefit-plans-spw.md)
+-   [Create monetary benefit plans for your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.md)
+-   [Manage non-monetary benefit plans for your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/fin-manage-non-monetary-benefit-plans-spw.md)
 

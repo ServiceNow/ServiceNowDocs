@@ -2,7 +2,7 @@
 title: Monitoring Workflow Data Fabric capability usage with Subscription Management
 description: You can monitor Workflow Data Fabric capability usage and the relative token use rate of each capability with Subscription Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/monitoring-wdf-capability-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/monitoring-wdf-capability-use.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Manage operation attributes
 description: You can specify attribute values for catalog items help cloud users to correctly provision catalog items. You can configure and manage attributes for provision, pre-provision, and post-provision operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/manage-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/manage-attributes.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -38,7 +38,7 @@ The attributes for provision, pre-provision, and post-provision operations are g
 
 4.  Configure the attributes for each operation.
 
-    -   **Mapping**: View the auto-generated mapping values for each attribute. Mappings specify where to pull the information in the system. To modify the expression mappings, double-click the mapping value and enter new values. Then click the check mark icon \(\[Omitted image "icon-check-mark.png"\] Alt text: check mark icon\). Expressions can hold the values for information that's dynamically generated in the system, such as the values for the selections that users make in the Cloud User Portal. See [Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/expressions-cloud-mgt.md).
+    -   **Mapping**: View the auto-generated mapping values for each attribute. Mappings specify where to pull the information in the system. To modify the expression mappings, double-click the mapping value and enter new values. Then click the check mark icon \(\[Omitted image "icon-check-mark.png"\] Alt text: check mark icon\). Expressions can hold the values for information that's dynamically generated in the system, such as the values for the selections that users make in the Cloud User Portal. See [Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/expressions-cloud-mgt.md).
     -   **Generate Variable**: Generates a variable for an attribute. Double-click the value \(**false**\), select **True**, and click the check mark icon \(\[Omitted image "icon-check-mark.png"\] Alt text: check mark icon\).
 5.  Click **Apply Changes** after you've made all the required changes.
 

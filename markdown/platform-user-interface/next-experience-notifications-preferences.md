@@ -2,7 +2,7 @@
 title: Configure Next Experience notification preferences
 description: Set up how you receive in-product and system notifications in Next Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-notifications-preferences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-notifications-preferences.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

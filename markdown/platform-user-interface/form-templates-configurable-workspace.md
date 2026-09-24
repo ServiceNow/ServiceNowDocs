@@ -2,7 +2,7 @@
 title: Form templates
 description: Learn about the Form Templates component in the tabs sidebar for a Configurable Workspace record page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/form-templates-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/form-templates-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

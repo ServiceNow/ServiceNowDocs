@@ -2,7 +2,7 @@
 title: Understanding Case and Knowledge Management
 description: Case and Knowledge Management for the scoped version of HR benefits your enterprise by automating standard HR processes within your organization that support relationships between employees and the HR department.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/c\_HRServiceAutomation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/c\_HRServiceAutomation.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -101,5 +101,5 @@ The following terminology is used for the application.
 |HR System Report Frequencies|System Report Frequencies defined for HR Systems Service|
 |HR System Report Types|HR System Report types used by HR System service|
 
-**Parent Topic:**[Explore Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
+**Parent Topic:**[Explore Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
 

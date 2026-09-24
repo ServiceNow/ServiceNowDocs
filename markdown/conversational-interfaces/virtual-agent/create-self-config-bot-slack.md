@@ -2,7 +2,7 @@
 title: Create a bot in Slack
 description: You must create a self-configured bot in the targeted workspace in Slack to be able to integrate with the Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-self-config-bot-slack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-self-config-bot-slack.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -75,5 +75,5 @@ Role required: none
     \[Omitted image "allow-bot-install.png"\] Alt text: Dialog box window for allowing or canceling installation of a Test Bot in a Slack workspace.
 
 
-**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
+**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
 

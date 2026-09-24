@@ -2,7 +2,7 @@
 title: Customer Engagement Sequences release notes
 description: The ServiceNow Customer Engagement Sequences application enables customer-focused teams to execute structured, personalized outreach and follow-up activities to engage customers throughout the time they're associated with your business. Customer Engagement Sequences was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/customer-engagement-sequences-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/customer-engagement-sequences-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-17"
@@ -33,5 +33,5 @@ See [Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow
     If you configured sequences with the Schedule call activity on a release before Zurich, the activity is now labeled **Schedule call - Deprecated** in the activity picker in Workflow Studio. Existing sequences continue to work, but the Call icon \[Omitted image "phone-fill-24.svg"\] Alt text: doesn't appear on the **Callback number** field on the Sequence Steps page during runtime. To enable the click-to-call capability, update the Customer Engagement Sequences application to use the new Schedule call activity.
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
 

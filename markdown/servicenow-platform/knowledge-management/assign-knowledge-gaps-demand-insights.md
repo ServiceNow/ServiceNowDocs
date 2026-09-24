@@ -2,7 +2,7 @@
 title: Assign knowledge gap feedback tasks to content authors
 description: Create assignment rules to assign knowledge gap feedback tasks to authors or groups of content creators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/assign-knowledge-gaps-demand-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/assign-knowledge-gaps-demand-insights.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -48,12 +48,12 @@ Knowledge gap feedback tasks created through the Knowledge Demand Insights featu
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuration tasks for knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuration-tasks-for-knowledge-demand-insights.md)
+**Parent Topic:**[Configuration tasks for knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuration-tasks-for-knowledge-demand-insights.md)
 
 **Related topics**  
 
 
 [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignmentModuleRule.md)
 
-[Analyze knowledge gaps from a demand insights dashboard and create knowledge gap feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.md)
+[Analyze knowledge gaps from a demand insights dashboard and create knowledge gap feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.md)
 

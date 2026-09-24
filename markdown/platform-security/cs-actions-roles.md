@@ -2,7 +2,7 @@
 title: Code Signing actions and required roles
 description: Reference table of Code Signing actions, their descriptions, and the roles required to perform them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-actions-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cs-actions-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-31"
@@ -74,5 +74,5 @@ Many Code Signing actions also require the security\_admin role, which is an ele
 |View MID Server configuration dashboard|Manage and configure trust relationships and certificate settings for MID Servers|codesigning\_admin, codesigning\_manager, codesigning\_auditor|Both|
 |Access Code Signing logs|Access logs to troubleshoot and identify Code Signing failure reasons|codesigning\_admin, codesigning\_manager, codesigning\_auditor|Both|
 
-**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-reference.md)
+**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-reference.md)
 

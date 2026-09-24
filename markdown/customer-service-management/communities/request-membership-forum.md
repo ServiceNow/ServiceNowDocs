@@ -2,7 +2,7 @@
 title: Request membership to a forum
 description: You must be a registered member of the community to request membership to a forum that is marked for membership only.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/request-membership-forum.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/request-membership-forum.html
 release: australia
 product: Communities
 classification: communities
@@ -39,7 +39,7 @@ Role required: sn\_communities.community\_user
     **Status** changes to **Request Access**.
 
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 
@@ -74,7 +74,7 @@ Role required: sn\_communities.community\_user
 
 [Gamification]()
 
-[Community access types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/access-types.md)
+[Community access types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/access-types.md)
 
-[Communities roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-roles.md)
+[Communities roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/communities-roles.md)
 

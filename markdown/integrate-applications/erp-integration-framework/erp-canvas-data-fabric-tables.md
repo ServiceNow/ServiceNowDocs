@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP data fabric tables
 description: View external records from a data fabric table in lists and forms the same way you view records in a physical table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-data-fabric-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-data-fabric-tables.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -25,8 +25,8 @@ The SAP ECC and SAP S/4HANA connectors provide read-only access to data and meta
 
 For details about the SAP connectors and data fabric tables, see:
 
--   [SAP ECC connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sap-ecc-primary-zcc.md)
--   [SAP S/4HANA connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sap-s4hana-primary-zcc.md)
--   [Data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-fabric-tables-zcc.md)
--   [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md)
+-   [SAP ECC connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/sap-ecc-primary-zcc.md)
+-   [SAP S/4HANA connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/sap-s4hana-primary-zcc.md)
+-   [Data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-fabric-tables-zcc.md)
+-   [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md)
 

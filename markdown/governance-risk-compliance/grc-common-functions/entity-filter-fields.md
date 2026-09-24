@@ -2,7 +2,7 @@
 title: Entity filter fields
 description: Descriptions of the fields displayed in the Entity filters related list under Entity type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/entity-filter-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/entity-filter-fields.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -28,5 +28,5 @@ Descriptions of the fields displayed in the Entity filters related list under En
 |Preferred for owner and class derivation|Give this filter priority for deriving entity owner and class when multiple filters apply to the same entity.|
 |Empty owner|Action to take when the source field returns no owner.|
 
-**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
+**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
 

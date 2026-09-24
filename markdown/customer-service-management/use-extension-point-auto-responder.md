@@ -2,7 +2,7 @@
 title: Include advanced contextual search results in Auto-Responder notifications
 description: Use scripted extension points to include the advanced contextual search results in email notifications for content suggested by the Auto-Responder feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-extension-point-auto-responder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-extension-point-auto-responder.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Use scripted extension points to include the advanced contextual search results 
 
 Role required: admin
 
--   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/predictive-intelligence-for-csm.md).
+-   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/predictive-intelligence-for-csm.md).
 -   Set the application scope to Email Notification Script for Contextual Search Results. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 ## About this task
@@ -42,7 +42,7 @@ An implementation is available in the base system for scripted extension points.
     -   Modify the existing script by going to the Implementations related list and clicking **CaseAutoresponder**.
     -   Create and register a custom script include.
 
-        For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/impl-scripted-ext-pts-custom-code.md).
+        For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/impl-scripted-ext-pts-custom-code.md).
 
 4.  Modify the script to use the extension points available through the CSMAdvancedEmailSearchResults script include.
 

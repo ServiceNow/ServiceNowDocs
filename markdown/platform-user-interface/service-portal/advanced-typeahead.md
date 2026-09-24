@@ -2,12 +2,12 @@
 title: Create an advanced typeahead template
 description: Configure the way typeahead results display with an advanced template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/advanced-typeahead.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/advanced-typeahead.html
 release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Define a search source, Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Complete the required fields in [Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-table-search-source.md).
+1.  Complete the required fields in [Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/add-table-search-source.md).
 
 2.  In the **Typeahead** tab of the **Search Source** record, select the **Advanced typeahead config** check box.
 
@@ -47,5 +47,5 @@ Role required: admin
     \[Omitted image "adv-typeahead-result.png"\] Alt text: Typeahead showing results for search term "apple".
 
 
-**Parent Topic:**[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-table-search-source.md)
+**Parent Topic:**[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/add-table-search-source.md)
 

@@ -2,7 +2,7 @@
 title: ClusteringSolutionVersion - Global
 description: The ClusteringSolutionVersion API is a scriptable object used in Predictive Intelligence stores.Cancels an update job on a trainer.Deletes cluster assignments from rows by position in table sequence or GlideDateTime.Gets assignments for a clustering solution.Gets information for a specified clustering solution in the store. The purity measurement provides insights as a percentage for the clustering fields on which the purity is based.Gets solution object properties and version number.Gets training completion status.Gets the top purity results for a clustering solution. The purity measurement provides insights as a percentage for the clustering fields on which the purity is based.Gets the status of the most recent clustering solution update job.Gets the version number of a solution object.Submits clustering update jobs with options to narrow results to a specific table and filter for matching records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ClusteringSolutionVersionAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/ClusteringSolutionVersionAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,18 +18,18 @@ The ClusteringSolutionVersion API is a scriptable object used in Predictive Inte
 
 This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-It is used for working with solution versions based on [ClusteringSolution API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) objects in the [ClusteringSolution store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionStoreAPI.md).
+It is used for working with solution versions based on [ClusteringSolution API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) objects in the [ClusteringSolution store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionStoreAPI.md).
 
 The system creates a solution version each time you train a solution definition. Most versions are created during scheduled solution training.
 
 Methods in this API are accessible using the following ClusteringSolution methods:
 
--   [getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
--   [getAllVersions\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
--   [getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
--   [getVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+-   [getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+-   [getAllVersions\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+-   [getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+-   [getVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## ClusteringSolutionVersion - cancelUpdateJob\(\)
 
@@ -43,7 +43,7 @@ Cancels an update job on a trainer.
 |----|-----------|
 |None| |
 
-The following example shows how to cancel an active training job that has been submitted using the [submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) method.
+The following example shows how to cancel an active training job that has been submitted using the [submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) method.
 
 ```
 var myCluster = new sn_ml.ClusteringSolutionStore.get("ml_x_snc_global_global_clustering_solution");
@@ -90,7 +90,7 @@ String
 
 </td><td>
 
-Deletes rows for clusters with `updated_since` values occurring before this value. Format must be provided as [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md).```
+Deletes rows for clusters with `updated_since` values occurring before this value. Format must be provided as [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeAPI.md).```
 { "updatedUntil" : "String" }
 ```
 
@@ -276,7 +276,7 @@ String
 
 </td><td>
 
-Optional. Date and time. Returns information for clusters with `sys_updated_on` after the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
+Optional. Date and time. Returns information for clusters with `sys_updated_on` after the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
 
 </td></tr><tr><td>
 
@@ -288,7 +288,7 @@ String
 
 </td><td>
 
-Optional. Date and time. Returns information for clusters with `sys_updated_on` before the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
+Optional. Date and time. Returns information for clusters with `sys_updated_on` before the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
 
 </td></tr></tbody>
 </table><table id="table_u1q_hxt_rhb" class="returns"><thead><tr><th>
@@ -500,7 +500,7 @@ String
 
 </td><td>
 
-Optional. Date and time. Returns information for clusters with `sys_updated_on` after the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md) format.
+Optional. Date and time. Returns information for clusters with `sys_updated_on` after the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeAPI.md) format.
 
 </td></tr><tr><td>
 
@@ -512,7 +512,7 @@ String
 
 </td><td>
 
-Optional. Date and time. Returns information for clusters with `sys_updated_on` before the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
+Optional. Date and time. Returns information for clusters with `sys_updated_on` before the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
 
 </td></tr></tbody>
 </table><table id="table_xk3_v3b_rlb" class="returns"><thead><tr><th>
@@ -606,7 +606,7 @@ Percentage value representing the purity of cluster quality.
 
 </td><td>
 
-System [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md) value representing the date and time at which this cluster was last updated.Data type: String
+System [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeScoped.md) value representing the date and time at which this cluster was last updated.Data type: String
 
 </td></tr></tbody>
 </table>The following example shows how to set the options object parameter and print the filtered cluster results.
@@ -687,7 +687,7 @@ Object
 
 </td><td>
 
-Contents of the Dataset and [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) version details. Results vary by object property setup.```
+Contents of the Dataset and [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) version details. Results vary by object property setup.```
 {
   "algorithmConfig": {Object},
   "datasetProperties": {Object},
@@ -788,7 +788,7 @@ K-means algorithm only. Percentile field to filter out records that are less sim
 
 </td><td>
 
-Lists the properties of the [DatatsetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) object associated with the solution.
+Lists the properties of the [DatatsetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DatasetDefinitionAPI.md) object associated with the solution.
 
  ```
 {
@@ -1091,7 +1091,7 @@ Object
 
 </td><td>
 
-JavaScript object containing training status information for a [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) object.```
+JavaScript object containing training status information for a [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ClusteringSolutionAPI.md) object.```
 {
   "state": "String",
   "percentComplete": "Number as a String",

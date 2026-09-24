@@ -2,7 +2,7 @@
 title: Create renewal certificate requests
 description: Manually initiate renewal requests for certificates using the Service Catalog for added flexibility and control.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-renew-cert-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/create-renew-cert-requests.html
 release: australia
 product: Discovery
 classification: discovery

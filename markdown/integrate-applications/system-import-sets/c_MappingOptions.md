@@ -2,7 +2,7 @@
 title: Mapping options
 description: You can map fields in a number of ways depending on the circumstances of the import and whether data must be transformed prior to loading onto a production table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_MappingOptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/c\_MappingOptions.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -165,5 +165,5 @@ var iCont = "" ;
   agr.update(); }
 ```
 
-**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

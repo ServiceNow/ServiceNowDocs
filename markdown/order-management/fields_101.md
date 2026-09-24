@@ -2,7 +2,7 @@
 title: Configure fields
 description: Learn about how fields in CPQ help structure data collection efficiently and about the various types of field. Associate fields with blueprints for consistent use across configurations, layouts, and rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/fields\_101.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/fields\_101.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,13 +20,13 @@ The usefulness of fields lies in their ability to structure data collection, mak
 
 In CPQ, fields are global. This means a field may be reused in any blueprint, rule, or layout without having to create a unique field for each.
 
--   [Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_csv_101.md)
+-   [Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_csv_101.md)
     -   Fields are the most granular component that make up a layout. A layout consists of many fields arranged into a navigational flow or page.
     -   Tabs, expandable sections, column sets, field grids, and headings provide additional organization to the fields in a configuration experience.
--   [Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rules_101.md)
+-   [Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/rules_101.md)
     -   Rules leverage fields as inputs to conditions, calculations, and logic.
     -   Rules act on fields. A rule may determine the value of a field, display a message associated with a field, hide a field, control the options available in a field, and send the information in a field to the Product List, all in the same rule.
--   [Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/blueprints_101.md)
+-   [Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/blueprints_101.md)
     -   Because fields are global across an environment, the only way for them to be a part of a specific configuration is to be associated with a blueprint.
     -   When all of the fields referenced by a rule are associated with a blueprint, the rule is associated with the blueprint without the need to specify it.
     -   When a field is associated with a blueprint, the field can be added to the layouts of the blueprint.
@@ -78,11 +78,11 @@ The following blueprint includes all the different field options and display var
 **Related topics**  
 
 
-[CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/system_fields_vs_partner_fields.md)
+[CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/system_fields_vs_partner_fields.md)
 
 [Field type display options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-[Grid-style fields and field collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/what_field_type_should_i_use_for_organizing_field_options_and_data.md)
+[Grid-style fields and field collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/what_field_type_should_i_use_for_organizing_field_options_and_data.md)
 
 [Boundaries and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

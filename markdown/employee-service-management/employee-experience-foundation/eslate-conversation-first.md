@@ -2,7 +2,7 @@
 title: Conversation-first experience
 description: EmployeeWorks Web App places a conversational AI assistant at the center of the employee experience. Employees ask questions, request services, and complete tasks in natural language from every page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-conversation-first.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-conversation-first.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

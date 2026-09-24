@@ -2,7 +2,7 @@
 title: Schedule a top-down discovery by Service Mapping
 description: After Service Mapping discovers configuration items \(CIs\) belonging to your service instance for the first time, it then rediscovers CIs to find changes and updates. Create or modify discovery schedules to control how often Service Mapping rediscovers services or CIs. For example, you may create custom discovery schedules to avoid redundant stress on the infrastructure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_CreateDiscoSchedForCITypes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/t\_CreateDiscoSchedForCITypes.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -22,7 +22,7 @@ Define your application services prior to defining discovery schedules for disco
 
 When creating a schedule for CI types or specific CIs, make sure that at least one application service containing the relevant CI is in the **operational** state.
 
-Learn about different types of [top-down discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/top-down-discovery-schedules.md).
+Learn about different types of [top-down discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/top-down-discovery-schedules.md).
 
 Role required: service\_mapping\_admin
 
@@ -117,15 +117,15 @@ This field contains the condition builder and is available when `Service Group A
 
 6.  Define the rediscovery frequency by selecting the relevant option from the **Run** list.
 
-    See [Run options for discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/discovery-schedule-run-options.md).
+    See [Run options for discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/discovery-schedule-run-options.md).
 
 7.  Click **Submit**.
 
 
--   **[Top-down discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/top-down-discovery-schedules.md)**  
+-   **[Top-down discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/top-down-discovery-schedules.md)**  
 Learn about schedules that trigger top-down discovery of application services.
 
-**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/advanced-business-service-definitions.md)
+**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/advanced-business-service-definitions.md)
 
 **Related topics**  
 
@@ -138,5 +138,5 @@ Learn about schedules that trigger top-down discovery of application services.
 
 [Service definition transfer from one instance to another]()
 
-[Pattern-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/pattern-based-discovery.md)
+[Pattern-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/pattern-based-discovery.md)
 

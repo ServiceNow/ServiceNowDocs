@@ -2,7 +2,7 @@
 title: Agent Client Collector File-Based Discovery properties
 description: Configure File-Based Discovery behavior using system properties that control scanning paths, performance throttling, and file filtering options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/file-based-discovery-configuration-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/file-based-discovery-configuration-properties.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -78,7 +78,7 @@ Delta Scan Frequency \(**sn\_acc\_vis\_content.file\_discovery.fresh\_scan\_freq
 
 </td><td>
 
-The number of delta scans to perform before forcing a full scan. This ensures data accuracy over time.For details on delta scanning, see [Agent Client Collector File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/file-based-discovery-overview.md).
+The number of delta scans to perform before forcing a full scan. This ensures data accuracy over time.For details on delta scanning, see [Agent Client Collector File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/file-based-discovery-overview.md).
 
 Default: 5
 
@@ -119,5 +119,5 @@ The throttling properties control how File-Based Discovery manages system resour
 
 Path properties support environment variables and wildcards for flexible directory specification. Use pipe separators \(\|\) for Windows paths and colon separators \(:\) for Linux and macOS paths. The ignore path properties allow you to exclude specific directories from scanning to improve performance and avoid unnecessary data collection.
 
-**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

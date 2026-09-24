@@ -2,7 +2,7 @@
 title: Run the entity onboarding job for Workday reports
 description: Run the specified scheduled job to get new entities that may have been added in Workday. Running this job ensures that the entity mapping table is updated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/run-scheduled-jobs-for-workday-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/run-scheduled-jobs-for-workday-reports.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Run the specified scheduled job to get new entities that may have been added in 
 
 ## Before you begin
 
-At least one [Workday report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-the-workday-reports.md) must be activated.
+At least one [Workday report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-the-workday-reports.md) must be activated.
 
 Role required: admin
 

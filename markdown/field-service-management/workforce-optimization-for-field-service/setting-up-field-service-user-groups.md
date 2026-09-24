@@ -2,7 +2,7 @@
 title: Setting up Field Service user groups
 description: Field Service Management groups are sets of users or agents, who perform specific tasks. Configuring your field service groups efficiently enables you to align the right skills and resources to the right tasks.Set up user groups for agents to execute the dispatched tasks for specific locations with the required parts and skills to work on the assigned task.Create a qualifier user group to review and qualify work orders to ensure that the work order tasks are created.Set up dispatcher user groups to dispatch tasks to agent user groups in order to meet the needs of specific areas.You can set up other types of user groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/setting-up-field-service-user-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/setting-up-field-service-user-groups.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -20,7 +20,7 @@ There are several types of user groups that serve different capabilities. The mo
 
 Additionally, you can create optional group types based on your specific needs, including user groups for initiators, managers, territory planners, and more. For example, you can create user groups for qualifiers to implement an additional qualification step to review and approve work orders. By setting up these groups, you can assign the appropriate roles and users to each group. The roles assigned to the group are automatically inherited by the users within that group, so you don’t need to individually assign roles to each user.
 
-For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
+For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
 For information about assigning a role to a user group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
 
@@ -278,7 +278,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table><tbody><tr><td id="d109006e429">
+<table><tbody><tr><td id="d109115e429">
 
 **Roles**
 
@@ -286,9 +286,9 @@ Role required: wm\_admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
 
-</td></tr><tr><td id="d109006e458">
+</td></tr><tr><td id="d109115e458">
 
 **Group Members**
 
@@ -298,7 +298,7 @@ Assign one or more agents from the list of available agents to the user group.
 
  For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAUserToAGroup.md).
 
-</td></tr><tr><td id="d109006e477">
+</td></tr><tr><td id="d109115e477">
 
 **Groups**
 
@@ -306,7 +306,7 @@ Assign one or more agents from the list of available agents to the user group.
 
 Create a child user group.
 
-</td></tr><tr><td id="d109006e486">
+</td></tr><tr><td id="d109115e486">
 
 **Skills**
 
@@ -314,9 +314,9 @@ Create a child user group.
 
 Assign one or more skills from the list of available skills to the user group.
 
- For more information on assigning skills, see [Manage Field Service and Customer Service skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/field-service-manager-agent-skills.md).
+ For more information on assigning skills, see [Manage Field Service and Customer Service skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/field-service-manager-agent-skills.md).
 
-</td></tr><tr><td id="d109006e508">
+</td></tr><tr><td id="d109115e508">
 
 **Locations Covered**
 
@@ -324,9 +324,9 @@ Assign one or more skills from the list of available skills to the user group.
 
 Assign one or more locations from the list of locations to the user group.
 
- For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
+ For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
-</td></tr><tr><td id="d109006e531">
+</td></tr><tr><td id="d109115e531">
 
 **Covered by Dispatch Groups**
 
@@ -334,7 +334,7 @@ Assign one or more locations from the list of locations to the user group.
 
 If dispatch groups have been created, assign one, or more dispatch groups to the agent user group.
 
-</td></tr><tr><td id="d109006e543">
+</td></tr><tr><td id="d109115e543">
 
 **Product Models**
 
@@ -366,7 +366,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d109006e666">
+<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d109115e666">
 
 **Roles**
 
@@ -374,9 +374,9 @@ Role required: wm\_admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
 
-</td></tr><tr><td id="d109006e695">
+</td></tr><tr><td id="d109115e695">
 
 **Group Members**
 
@@ -386,7 +386,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
  For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAUserToAGroup.md).
 
-</td></tr><tr><td id="d109006e714">
+</td></tr><tr><td id="d109115e714">
 
 **Groups**
 
@@ -394,7 +394,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
 Create a child user group.
 
-</td></tr><tr><td id="d109006e723">
+</td></tr><tr><td id="d109115e723">
 
 **Locations Covered**
 
@@ -402,7 +402,7 @@ Create a child user group.
 
 Assign one or more locations from the list of locations to the qualifier user group.
 
- For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
+ For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
 </td></tr></tbody>
 </table>6.  Click **Update**.
@@ -428,9 +428,9 @@ Role required: admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-    For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
+    For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
-<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d109006e870">
+<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d109115e870">
 
 **Roles**
 
@@ -438,9 +438,9 @@ Role required: admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md) .
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md) .
 
-</td></tr><tr><td id="d109006e899">
+</td></tr><tr><td id="d109115e899">
 
 **Group Members**
 
@@ -450,7 +450,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
  For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
 
-</td></tr><tr><td id="d109006e918">
+</td></tr><tr><td id="d109115e918">
 
 **Groups**
 
@@ -458,7 +458,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
 Create a child user group.
 
-</td></tr><tr><td id="d109006e927">
+</td></tr><tr><td id="d109115e927">
 
 **Locations Covered**
 
@@ -466,9 +466,9 @@ Create a child user group.
 
 Assign one or more locations from the list of locations to the dispatcher user group.
 
- For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
+ For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
-</td></tr><tr><td id="d109006e949">
+</td></tr><tr><td id="d109115e949">
 
 **Assignment Groups Covered\|**
 

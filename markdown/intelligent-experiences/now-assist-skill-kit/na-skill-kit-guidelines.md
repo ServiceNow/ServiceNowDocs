@@ -2,7 +2,7 @@
 title: General guidelines for AI Skill Kit
 description: General guidelines are available to use AI Skill Kit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -20,11 +20,11 @@ General guidelines are available to use AI Skill Kit.
 
 Think about the process of building a custom skill as having the following phases:
 
-1.  [Scoping the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/scoping-the-skill.md)
-2.  [Collecting data and creating a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/creating-a-dataset.md)
-3.  [Developing the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/developing-the-prompt.md)
-4.  [Conducting a performance evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/evaluating-the-prompt.md)
-5.  [Deploying and monitoring the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/deploying-and-monitoring.md)
+1.  [Scoping the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/scoping-the-skill.md)
+2.  [Collecting data and creating a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/creating-a-dataset.md)
+3.  [Developing the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/developing-the-prompt.md)
+4.  [Conducting a performance evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/evaluating-the-prompt.md)
+5.  [Deploying and monitoring the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/deploying-and-monitoring.md)
 
 \[Omitted image "MMASSET0020509-general-guidelines-now-assist-skill-kit-landing.png"\] Alt text: Stages of building a custom skill.
 

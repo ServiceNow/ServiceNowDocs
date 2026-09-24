@@ -2,7 +2,7 @@
 title: Recommended Actions for Service
 description: Use Recommended Actions for Service to display relevant actions to agents based on the context of a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-configure.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,24 +20,24 @@ The Recommended Actions for Service application displays recommendations for cas
 
 The Recommended Actions for Service application provides predefined guidances and recommendation context records tailored for Customer Service Management. It also provides workspace configurations that automatically display recommended actions and search results in the contextual side panel.
 
-For more information about recommended actions and AI search results, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-nba.md).
+For more information about recommended actions and AI search results, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-nba.md).
 
 ## Context records
 
-The Recommended Actions for Service application provides context records for the Case and Interaction tables. A [context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-contexts.md) enables agents to see recommendations for records from a specific table when certain rules are met.
+The Recommended Actions for Service application provides context records for the Case and Interaction tables. A [context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-contexts.md) enables agents to see recommendations for records from a specific table when certain rules are met.
 
--   [Case Context record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-context-records.md)
--   [Interaction Context record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-context-records.md)
+-   [Case Context record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-context-records.md)
+-   [Interaction Context record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-context-records.md)
 
 ## Guidances
 
 The Recommended Actions for Service application includes custom guidances for the following tables:
 
--   [Knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-custom-guidances.md)
--   [Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-custom-guidances.md)
--   [Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-custom-guidances.md)
--   [Problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-custom-guidances.md)
--   [Change Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-custom-guidances.md)
+-   [Knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-custom-guidances.md)
+-   [Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-custom-guidances.md)
+-   [Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-custom-guidances.md)
+-   [Problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-custom-guidances.md)
+-   [Change Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-custom-guidances.md)
 
 These guidances enable search results from the corresponding search source tables for the Case Context record. Customer service agents can see these results in the Recommended Actions tab in the contextual side panel.
 

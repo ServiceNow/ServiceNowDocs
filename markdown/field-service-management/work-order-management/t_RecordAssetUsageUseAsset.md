@@ -2,7 +2,7 @@
 title: Record the assets used during a work task
 description: Record any assets that you use during the execution of a task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_RecordAssetUsageUseAsset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_RecordAssetUsageUseAsset.html
 release: australia
 product: Work Order Management
 classification: work-order-management

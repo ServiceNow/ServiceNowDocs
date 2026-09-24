@@ -2,7 +2,7 @@
 title: Create and distribute MSIM Status Reports
 description: As a Major Security Incident \(MSI\) manager, you can create and distribute the different status reports to different stakeholders at various intervals based on the configured report template or a previous status report throughout the course of the major security incident resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/creating-and-distributing-major-security-incident-status-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/creating-and-distributing-major-security-incident-status-reports.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -232,7 +232,7 @@ Body of the email message.
     3.  Use the **Filter** action on the Status Reports view to filter the status reports based on certain conditions.
 
 
-**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 
@@ -255,5 +255,5 @@ Body of the email message.
 
 [Track collaboration activity via MSIM workspace]()
 
-[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
+[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 

@@ -2,7 +2,7 @@
 title: Improve data quality using the refine records skill
 description: Use the refine records skill to shorten or elaborate text in demand records, helping demand managers and users improve clarity and completeness before saving.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/improve-data-quality-using-the-refine-records-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/improve-data-quality-using-the-refine-records-skill.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -28,7 +28,7 @@ Role required: it\_demand\_manager, it\_demand\_user
 
 The refine records skill uses other fields in the form to generate content for rich or long text fields. You can select existing text or enter new text, then shorten or elaborate it without losing key information.
 
-To shorten or elaborate text fields using Playbook activities, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+To shorten or elaborate text fields using Playbook activities, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 **Note:** AI-generated content may be inaccurate or incomplete. Review all AI-generated text before saving the record.
 

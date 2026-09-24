@@ -2,7 +2,7 @@
 title: Enable run types for scheduled job child tables
 description: The run types; Day and Month in Year, Day in Week in Month in Year, and Week in Month, require the fields; Day, Month, and Year to be visible. Child tables which don’t display those fields can't create jobs with that run type selected.Identify child tables in scheduled jobs to promote consistent configuration across all related tables. This helps maintain data integrity and uniform processing logic throughout the table hierarchy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -18,7 +18,7 @@ The run types; **Day and Month in Year**, **Day in Week in Month in Year**, and 
 
 ## Before you begin
 
-Identify the child table for which you’re configuring new run times. To find child tables, follow the instructions in [Find child tables for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md).
+Identify the child table for which you’re configuring new run times. To find child tables, follow the instructions in [Find child tables for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md).
 
 Role required: system\_scheduler\_admin
 
@@ -40,7 +40,7 @@ Role required: system\_scheduler\_admin
     2.  Select the choices for **Run** that you want to add and select **Add**.
 
 
-**Parent Topic:**[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
+**Parent Topic:**[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
 ## Find child tables for scheduled jobs
 
@@ -68,11 +68,11 @@ There are two ways to locate child tables of a scheduled job; either by running 
 **Related topics**  
 
 
-[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
+[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_ScheduledJobs.md)
 
-[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
+[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
-[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
 
-[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)
+[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)
 

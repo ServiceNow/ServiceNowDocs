@@ -2,7 +2,7 @@
 title: Configure the GOV.UK Design System Service Portal record
 description: Use the portal record on the platform UI to change components of your GDS Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-portal-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gds-portal-record.html
 release: australia
 topic_type: task
 last_updated: "2026-06-01"

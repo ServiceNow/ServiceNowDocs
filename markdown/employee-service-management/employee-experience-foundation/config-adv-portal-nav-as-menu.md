@@ -2,7 +2,7 @@
 title: Configure advanced portal navigation
 description: Advanced Portal Navigation \(APN\) helps you design and configure an intuitive navigation for better information architecture and topic discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-adv-portal-nav-as-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-adv-portal-nav-as-menu.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +18,7 @@ Advanced Portal Navigation \(APN\) helps you design and configure an intuitive n
 
 ## Before you begin
 
-Before you start, ensure you understand the useful information available in [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
+Before you start, ensure you understand the useful information available in [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
 
 Role required: Admin and SP Admin
 
@@ -159,7 +159,7 @@ Submenu display type
 
 Indicates the rendering type that you want to display in the menu. This field appears only when **Menu** is selected at the root-level hierarchy.-   **Expanded**: Select this option to display in the expanded view.
 -   **Standard**: Select this option to display in the standard view. Out-of-the-box is Standard.
-For more information, see [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
+For more information, see [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
 
 </td></tr><tr><td>
 
@@ -237,5 +237,5 @@ All active navigation items associated with the portal and taxonomy are fetched 
 
 **Note:** For successful sync, ensure that the SP Menu Items are associated with the portal for which the Advanced Portal navigation record is configured.
 
-For more information, see [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
+For more information, see [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
 

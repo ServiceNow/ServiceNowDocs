@@ -2,7 +2,7 @@
 title: View a service offering in Service Portfolio Management
 description: View service offerings in Service Portfolio Management to find offerings that add value to your organization and external users. You can also view service offerings in the Service Builder application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-view-service-offering.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-portfolio-management/SPM2-view-service-offering.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -52,12 +52,12 @@ Role required: service\_editor
         **Note:** The same symbols apply as previously described.
 
 
-**Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
+**Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
 
 **Related topics**  
 
 
-[Create a service offering in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/create-or-mod-SPM2-service-offerings.md)
+[Create a service offering in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-portfolio-management/create-or-mod-SPM2-service-offerings.md)
 
-[Create a service offering in Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder/create-edit-service-offering.md)
+[Create a service offering in Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-builder/create-edit-service-offering.md)
 

@@ -2,7 +2,7 @@
 title: Disable attachments in mobile apps
 description: Disable attachments for mobile apps by using access control rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-disable-mobile-attach.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-disable-mobile-attach.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

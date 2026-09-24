@@ -2,7 +2,7 @@
 title: Personalized Answers on Employee Center
 description: Get personalized Answers about your leave balance within the ServiceNow system or with an integrated third-party application.Set up a third-party-integrated instance to provide employees with Personalized Answers for leave balances on Employee Center.Configure the leave balance-related actions or any other information like payroll, medical benefits. Configure the related actions depending on the data type.Configure the data fetch type according to your organizational requirement for Personalized Answers- time off on Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/personalized-answers-on-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/personalized-answers-on-employee-center.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

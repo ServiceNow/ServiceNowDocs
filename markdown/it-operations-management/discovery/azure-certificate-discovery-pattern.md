@@ -2,7 +2,7 @@
 title: Azure Key Vault certificate discovery
 description: Cloud Discovery uses Patterns to discover Azure Key Vault certificates. Discovering this data requires installing and updating Discovery and Service Mapping Patterns and Certificate Inventory and Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/azure-certificate-discovery-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/azure-certificate-discovery-pattern.html
 release: australia
 product: Discovery
 classification: discovery
@@ -24,7 +24,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of an Azure account**
 
-    For more information, see [Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-wizard.md)
+    For more information, see [Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cloud-discovery-wizard.md)
 
 -   **Verify the installation of the plugins**
 
@@ -42,7 +42,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of Cloud Discovery schedule**
 
-    For more information, see [Create a discovery schedule in Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-operations-disco-create-schedule.md)
+    For more information, see [Create a discovery schedule in Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cloud-operations-disco-create-schedule.md)
 
 
 ## Verify the REST API Permissions
@@ -236,5 +236,5 @@ The **Azure – Key Vault Certificates** pattern support the discovery of the fo
 |Unique Certificate ​\[cmdb\_ci\_certificate\]​|Hosts::Hosted on|Cloud Service Account​ \[cmdb\_ci\_cloud\_service\_account\]​|
 |Key Value​ \[cmdb\_key\_value\]​|Reference​|Unique Certificate​ \[cmdb\_ci\_certificate\]​|
 
-**Parent Topic:**[Certificate Inventory and Management patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-patterns.md)
+**Parent Topic:**[Certificate Inventory and Management patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-invt-mgmt-patterns.md)
 

@@ -2,7 +2,7 @@
 title: Configure a provider for your custom chat integration
 description: Create a new provider for your custom chat integration. Providers are defined in the Connections \[sys\_cs\_provider\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-provider-va-cccif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-provider-va-cccif.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Create a new provider for your custom chat integration. Providers are defined in
 
 ## Before you begin
 
-[Create a new channel for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-channel-va-cccif.md).
+[Create a new channel for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-channel-va-cccif.md).
 
 Role required: admin
 
@@ -134,7 +134,7 @@ Name of the contextual action script. The contextual action script supports cust
 
 ## What to do next
 
-[Set up message authentication for your custom chat configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-msg-auth-va-cccif.md)
+[Set up message authentication for your custom chat configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-msg-auth-va-cccif.md)
 
-**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md)
+**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md)
 

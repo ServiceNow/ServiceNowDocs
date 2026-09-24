@@ -2,7 +2,7 @@
 title: Configure cross-scope access privileges for topic blocks and custom controls
 description: Enable topic authors and developers to access Virtual Agent topic blocks and custom controls from other scoped applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Developers and topic authors may need to access [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md) and [custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-controls.md) created in other application scopes. To give them access, define cross-scope privilege records for the appropriate applications. For more information on cross-scope privileges, see [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_CrossScopePrivilegeRecord.md).
+Developers and topic authors may need to access [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/topic-blocks-overview.md) and [custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/custom-controls.md) created in other application scopes. To give them access, define cross-scope privilege records for the appropriate applications. For more information on cross-scope privileges, see [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_CrossScopePrivilegeRecord.md).
 
 ## Procedure
 
@@ -51,5 +51,5 @@ Developers and topic authors may need to access [topic blocks](https://raw.githu
 
 The cross-scope privilege is listed in the Cross scope privileges \[sys\_scope\_privilege\] table. Topic authors or developers can access the topic blocks or custom controls from the target scope.
 
-**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
+**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

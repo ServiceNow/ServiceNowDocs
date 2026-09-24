@@ -2,7 +2,7 @@
 title: Add an agent to the chat support assignment group
 description: Agents must be added to the chat support assignment group before they can receive chat requests. This assignment group is used by the Customer Service Management chat communication channel to route chat requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_AddAgentToChatSupAssignGroup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_AddAgentToChatSupAssignGroup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

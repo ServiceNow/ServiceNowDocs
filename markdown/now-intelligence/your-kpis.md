@@ -2,7 +2,7 @@
 title: Managing indicators from the Platform Analytics library
 description: The indicator library lists all the Performance Analytics indicators or KPIs to which you have access. Users who can create or edit indicators or Performance Analytics collection jobs have additional information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/your-kpis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/your-kpis.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Library pages like this one include a navigation pane that provides access to th
 
 You can see any automated, formula, external, or manual indicator that has **Show in library** enabled on its indicator record and to which you have access, including benchmark indicators. Select the name of an indicator to open it in KPI Details, in a new tab.
 
-You have several options for filtering what appears in the library. The numbered callouts in [Default indicator library view with basic functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/your-kpis.md) match the numbers in the following list:
+You have several options for filtering what appears in the library. The numbered callouts in [Default indicator library view with basic functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/your-kpis.md) match the numbers in the following list:
 
 1.  Under **Filter by**, you have the option to filter on bookmarked indicators. If you have the right to create indicators, you can also filter on the indicators that you have created.
 2.  Use the Search field to search by indicator name or description.
@@ -45,7 +45,7 @@ Sort the records according to a column's values by selecting the column label. R
 Privileged users have the following extra functionality:
 
 1.  Application navigator: Additional navigation destinations.
-2.  Creating indicators: Press **Create indicator** to open an empty Indicator form. For more information, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md) or [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
+2.  Creating indicators: Press **Create indicator** to open an empty Indicator form. For more information, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md) or [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
 3.  Indicators you created: You have an additional **Filter by** option, to see only the indicators you have created.
 4.  Indicator health: A row of tiles shows you useful statistics about the health of your indicators, such as how many automated and formula indicators do not have active collection jobs. The No active data collection job, Not viewed in 6 months, and Not viewed in one year tiles suggest how many indicators you may be able to delete. Conversely, Updated in the last 30 days gives you an idea how many indicators are truly active. Press a tile to filter the indicator list by that statistic.
 
@@ -61,7 +61,7 @@ Privileged users also see a different set of default columns. In place of the De
 -   The last time the indicator was viewed
 -   How many times in total it was viewed in the last year
 
-**Note:** A user with the pa\_admin role or higher might also see a panel with recommendations about problematic indicators. For more information, see [Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-library-recommendations.md).
+**Note:** A user with the pa\_admin role or higher might also see a panel with recommendations about problematic indicators. For more information, see [Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-library-recommendations.md).
 
 ## Indicator management for admin users with Data snapshots enabled
 
@@ -69,7 +69,7 @@ If you have not tried to enable Data snapshots on your instance, you have a bann
 
 \[Omitted image "datasnap-eligibility-banner.png"\] Alt text: Banner for checking Data snapshots eligibility.
 
-Press **Check instance eligibility** to see if your instance is eligible for Data snapshots and, if not, why. For more information, see [Activate Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md).
+Press **Check instance eligibility** to see if your instance is eligible for Data snapshots and, if not, why. For more information, see [Activate Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md).
 
 When your instance is eligible for Data snapshots, you have a banner announcing this fact and two new tiles, Data snapshots enabled and Data snapshots supported. You can select one or more indicators in the list and press **Enable Data Snapshots \(quantity of indicators selected\)**.
 
@@ -80,9 +80,9 @@ When your instance is eligible for Data snapshots, you have a banner announcing 
 **Related topics**  
 
 
-[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md)
+[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details.md)
 
-[Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md)
+[Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_Indicators.md)
 
 [Performance Analytics Essentials training](https://learning.servicenow.com/lxp?course_id=cbf7fac4db1a7340760a71043996194c&id=learning_course_prev)
 

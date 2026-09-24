@@ -2,7 +2,7 @@
 title: Customizing Configurable Workspace with declarative actions
 description: Engage with your Configurable Workspace forms, fields, lists, and related list pages by adding custom actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/declarative-actions-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/declarative-actions-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

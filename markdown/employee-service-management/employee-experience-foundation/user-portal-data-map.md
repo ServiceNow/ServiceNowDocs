@@ -2,7 +2,7 @@
 title: User portal data map
 description: User Portal Data Map table table is accessible only to the maint user and is auto-deleted in 30 days with an auto-flush job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/user-portal-data-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/user-portal-data-map.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -55,5 +55,5 @@ In the navigation filter, enter `sn_ex_sp_user_portal_data_map.list` to see the 
 **Related topics**  
 
 
-[Configure Mega menu async load system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-mega-menu-async-load.md)
+[Configure Mega menu async load system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-mega-menu-async-load.md)
 

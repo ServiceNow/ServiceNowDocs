@@ -2,7 +2,7 @@
 title: Client role assignment rules
 description: Use Client Role Assignment Rules to automatically assign or reassign a role to an employee.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_ClientRoleAssignRules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_ClientRoleAssignRules.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -46,15 +46,15 @@ To map conditions to a client role:
 
     You can also click the **Preview this record** icon to open the record.
 
-<table id="choicetable_myd_4sm_b2b"><thead><tr><th align="left" id="d383045e147">
+<table id="choicetable_myd_4sm_b2b"><thead><tr><th align="left" id="d383049e147">
 
 Field
 
-</th><th align="left" id="d383045e150">
+</th><th align="left" id="d383049e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d383045e156">
+</th></tr></thead><tbody><tr><td id="d383049e156">
 
 **Name**
 
@@ -62,7 +62,7 @@ Description
 
 Name of the HR condition.
 
-</td></tr><tr><td id="d383045e165">
+</td></tr><tr><td id="d383049e165">
 
 **Table**
 
@@ -70,7 +70,7 @@ Name of the HR condition.
 
 Table conditions are built on the HR profile \[sn\_hr\_core\_profile\] table only.Changing the table for client role assignment is not recommended.
 
-</td></tr><tr><td id="d383045e177">
+</td></tr><tr><td id="d383049e177">
 
 **Active**
 
@@ -78,7 +78,7 @@ Table conditions are built on the HR profile \[sn\_hr\_core\_profile\] table onl
 
 Check box for enabling condition.**Note:** Deactivate at the client role assignment level and not the conditions level.
 
-</td></tr><tr><td id="d383045e189">
+</td></tr><tr><td id="d383049e189">
 
 **User column**
 
@@ -86,7 +86,7 @@ Check box for enabling condition.**Note:** Deactivate at the client role assignm
 
 Together with the HR profile \[sn\_hr\_core\_profile\] table, filters users when evaluating a condition.
 
-</td></tr><tr><td id="d383045e199">
+</td></tr><tr><td id="d383049e199">
 
 **Condition**
 
@@ -106,5 +106,5 @@ Conditions the Assign HR Roles business rule uses to automatically assign a role
 8.  Click **Submit** or **Update** to save your changes.
 
 
-**Parent Topic:**[Client roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ClientRoles.md)
+**Parent Topic:**[Client roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ClientRoles.md)
 

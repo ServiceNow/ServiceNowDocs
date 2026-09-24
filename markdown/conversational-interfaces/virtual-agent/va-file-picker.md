@@ -2,7 +2,7 @@
 title: File Picker user input control
 description: Use the File Picker user input control in a Virtual Agent topic to prompt a user to upload an image or any file type. After the user uploads an image file, the image appears immediately in the Virtual Agent client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-file-picker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-file-picker.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -31,7 +31,7 @@ The live agent picker scenario:
 
 When a file upload is in progress, you can't upload or enter text for the file picker control. The uploaded files go through a virus scan and validation.
 
-You can link an uploaded file to a case you create using the Record Action utility. For more information, see [Record Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-record-action-util.md).
+You can link an uploaded file to a case you create using the Record Action utility. For more information, see [Record Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-record-action-util.md).
 
 The following table lists the details about the properties of the File Picker.
 
@@ -403,5 +403,5 @@ Not supported
 Not applicable
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
+</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

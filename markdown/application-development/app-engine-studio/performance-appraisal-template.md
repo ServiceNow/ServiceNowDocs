@@ -2,7 +2,7 @@
 title: Performance Review template
 description: Build an application in App Engine Studio \(AES\) using the Performance Review template to automate scheduling, notifications, and feedback for performance reviews.The following tables, experiences, automated workflows, and roles are included in the Performance Review template for App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/performance-appraisal-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/performance-appraisal-template.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -40,9 +40,9 @@ You can improve this template by incorporating the following features:
 -   Add performance improvement plan \(PIP\) process/individual development plans
 -   Include compensation info/annual performance review \(APR\)
 
-For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md).
+For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/template-library.md)
 
 ## Performance Review template contents
 

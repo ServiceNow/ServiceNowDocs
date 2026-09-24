@@ -2,7 +2,7 @@
 title: Check the status of bounced email addresses
 description: Choose the email address record that you want to modify, and update the state field as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/change-bounce-email-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/change-bounce-email-status.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Role required: admin
 3.  Select the confirm icon \(\[Omitted image "bus-checkmark-circle.svg"\] Alt text: Confirm icon.\) to confirm the status.
 
 
-**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/reference-email-admin.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/reference-email-admin.md)
 

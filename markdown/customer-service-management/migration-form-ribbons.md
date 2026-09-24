@@ -2,7 +2,7 @@
 title: Ribbons
 description: Learn how CSM Agent Workspace ribbons function with CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-form-ribbons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-form-ribbons.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,5 +22,5 @@ Ribbons help agents quickly scan relevant information about a record, such as a 
 
 Legacy ribbon widgets work in CRM Workspace, but not the legacy ribbon configurations. Add ribbon settings to a ribbon configuration to appear in CSM Configurable Workspace.
 
-For more information, see [Set up a ribbon configuration in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-ribbon.md).
+For more information, see [Set up a ribbon configuration in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-ribbon.md).
 

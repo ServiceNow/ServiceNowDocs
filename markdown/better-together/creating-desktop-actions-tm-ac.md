@@ -2,7 +2,7 @@
 title: Building desktop automations from Task Mining data
 description: Automatically convert desktop processes into executable AI agents: capture the task \(desktop processes\) in Task Mining, create desktop actions \(automation blocks\) and AI agent in Automation Center, and test and deploy the AI agent in AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/creating-desktop-actions-tm-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/creating-desktop-actions-tm-ac.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
@@ -27,7 +27,7 @@ This feature currently supports only Excel-to-browser interactions, where data i
     -   Workstation users use the Task Mining agent to capture their desktop processes end-to-end, including interactions across multiple applications for the selected project. Agent captures screenshots and UI interaction metadata of steps users perform.
     -   Business analyst runs a mining job on the project to generate an analysis of the collected data \(desktop activities\).
     -   Captured desktop activities are stored as tasks in Task Mining.
--   **[Stage 2: Automate \(Task Mining + Automation Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/create-automation-request-tm.md)**
+-   **[Stage 2: Automate \(Task Mining + Automation Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/create-automation-request-tm.md)**
     -   Business analysts review the task timeline to define specific optimization opportunities and automation candidates, and submit an automation request for the task in Task Mining.
     -   Automation Center captures the structured data in an automation request for AI-powered step generation and automation block creation.
     -   Technical users generate automation blocks \(on-screen and background tasks\) from the automation request in Automation Center.
@@ -148,10 +148,10 @@ Executing desktop actions
 
 ## What to explore next
 
--   [Requirements and limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/tm-ac-req-limitations.md)
--   [Create an automation request in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/create-automation-request-tm.md)
--   [Create automation blocks from the automation request in Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/generate-automations-tm.md)
--   [Create an AI agent and desktop actions from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/create-agent-automations.md)
+-   [Requirements and limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/tm-ac-req-limitations.md)
+-   [Create an automation request in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/create-automation-request-tm.md)
+-   [Create automation blocks from the automation request in Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/generate-automations-tm.md)
+-   [Create an AI agent and desktop actions from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/create-agent-automations.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure Service Graph Connector for GCP using the guided setup
 description: Set up scheduled import jobs to pull in data from a GCP project into your CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -24,8 +24,8 @@ To use this Service Graph Connector, you need a subscription to a Subscription U
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
@@ -35,7 +35,7 @@ Dependencies and requirements:
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Procedure
 
@@ -72,11 +72,11 @@ Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
             |Active|Option to activate the certificate.|
             |Type|Certificate container that is automatically set to **Java Key Store**. Leave the field value set to **Java Key Store**.|
             |Expires in days|Number of days until the certificate expires.|
-            |Key store password|Password to access the JKS certificate as noted down in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md).|
+            |Key store password|Password to access the JKS certificate as noted down in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md).|
             |Short description|Description of the X.509 certificate.|
 
         3.  Select the manage attachments icon \(\[Omitted image "AttachmentIcon.png"\] Alt text: Manage Attachments icon.\).
-        4.  Select **Choose file** to browse and upload the keystore.p12 file for the JKS certificate you created in step [4.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md).
+        4.  Select **Choose file** to browse and upload the keystore.p12 file for the JKS certificate you created in step [4.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md).
         5.  Close the dialog box.
         6.  Select the **Validate Stores/Certificates** related link.
         7.  On successful validation, select **Update** to return to the guided setup page.
@@ -109,7 +109,7 @@ Keystore
 
 </td><td>
 
-Name of the keystore that you created in step [4.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md).
+Name of the keystore that you created in step [4.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md).
 
 </td></tr><tr><td>
 
@@ -216,7 +216,7 @@ Select **projects** when the ServiceNow service account has access to data withi
         5.  Return to the guided setup page.
         6.  From the application picker, select the **Service Graph Connector for GCP** application scope.
         7.  Set the Clear Cache for Data Source and Scheduled Data Imports tables task to complete by selecting **Mark as Complete**.
-    5.  To create an X.509 certificate for the new GCP instance, repeat the step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md), and then set the Create X.509 certificate task to complete by selecting **Mark as Complete**.
+    5.  To create an X.509 certificate for the new GCP instance, repeat the step [4.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md), and then set the Create X.509 certificate task to complete by selecting **Mark as Complete**.
 
     6.  Add a new connection.
 
@@ -254,7 +254,7 @@ Keystore
 
 </td><td>
 
-Name of the keystore that you created in step [5.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md).
+Name of the keystore that you created in step [5.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md).
 
 </td></tr><tr><td>
 
@@ -300,7 +300,7 @@ Select **projects** when the ServiceNow service account has access to data withi
             If any of the tests have an error code or message or error sign, the connection failed and further troubleshooting is required.
 
         5.  Set the Test New Connection task to complete by selecting **Mark as Complete**.
-    8.  To configure the scheduled jobs to import data from the new GCP instance, repeat step [4.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md), and then set the Configure the Scheduled Imports task to complete by selecting **Mark as Complete**.
+    8.  To configure the scheduled jobs to import data from the new GCP instance, repeat step [4.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-config-gcp-integration.md), and then set the Configure the Scheduled Imports task to complete by selecting **Mark as Complete**.
 
 6.  Synchronize new data sources to import data from GCP instances.
 
@@ -358,9 +358,9 @@ Select **projects** when the ServiceNow service account has access to data withi
 **Related topics**  
 
 
-[Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-gcp.md)
+[Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-gcp.md)
 
-[Configure Service Graph Connector for GCP using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md)
+[Configure Service Graph Connector for GCP using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgcc-configure-gcp-integ.md)
 
-[Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
+[Deep discovery for Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-gcp-deep-discovery.md)
 

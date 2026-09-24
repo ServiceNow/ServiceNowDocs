@@ -2,7 +2,7 @@
 title: Return Merchandise Authorization roles
 description: Information about Return Merchandise Authorization \(RMA\) roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/return-merchandise-authorization-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/return-merchandise-authorization-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,5 +20,5 @@ Information about Return Merchandise Authorization \(RMA\) roles.
 |sn\_csm\_rma\_case.csm\_rma\_case\_viewer|This role provides granular access to read RMA cases and RMA case Lines.|None|
 |sn\_csm\_rma\_case.csm\_rma\_case\_writer|This role provides granular access to edit or update RMA cases and RMA case Lines.|sn\_csm\_rma\_case.viewer|
 
-**Parent Topic:**[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/return-merchandise-authorization-case-management-reference.md)
+**Parent Topic:**[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/return-merchandise-authorization-case-management-reference.md)
 

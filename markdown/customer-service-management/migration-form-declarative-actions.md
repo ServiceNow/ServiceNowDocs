@@ -2,7 +2,7 @@
 title: Declarative actions
 description: Learn how the Workspace declarative actions function with configurable workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-form-declarative-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-form-declarative-actions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

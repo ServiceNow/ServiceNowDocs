@@ -2,7 +2,7 @@
 title: Enable monetary benefit plans for demands
 description: Enable the benefit plans property to create and manage benefit plans for demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/enable-monetary-benefit-plans-for-demands-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/enable-monetary-benefit-plans-for-demands-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

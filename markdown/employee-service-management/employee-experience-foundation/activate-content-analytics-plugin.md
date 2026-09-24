@@ -2,7 +2,7 @@
 title: Activate Content Analytics
 description: Activate Content Analytics if you have an admin role to use the default analytics solution that provides web portal traffic analytics, as well as Content Experiences \(aka Campaigns\) related engagement statistics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -59,7 +59,7 @@ Content Analytics requires the following plugins to collect data and generate da
 
 ## What to do next
 
-[Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md)
+[Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md)
 
 **Related topics**  
 

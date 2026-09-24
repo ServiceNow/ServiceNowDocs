@@ -2,7 +2,7 @@
 title: Group dashboard elements
 description: Improve your layout control and dashboard customization capabilities, by organizing related elements into single visual and logical units. Configure backgrounds and borders according to group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/group-db-elements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/group-db-elements.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -55,5 +55,5 @@ Role required: If you have an internal role, you can create dashboards with the 
 
 Grouped elements on the dashboard remain together when elements on the dashboard are moved. These elements also share a border and background as though they were one unit.
 
-**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md)
+**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-db-in-ac.md)
 

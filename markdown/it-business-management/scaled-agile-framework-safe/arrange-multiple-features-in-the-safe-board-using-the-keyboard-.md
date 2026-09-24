@@ -2,7 +2,7 @@
 title: Arrange multiple features in the SAFe Board using the keyboard
 description: Use the keyboard to move and arrange multiple SAFe features in the Backlog tab of your SAFe Board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/arrange-multiple-features-in-the-safe-board-using-the-keyboard-.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/arrange-multiple-features-in-the-safe-board-using-the-keyboard-.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -45,5 +45,5 @@ You can use the keyboard to rearrange multiple features in the Backlog list or i
 7.  Fix the position of the features by pressing the Enter key.
 
 
-**Parent Topic:**[Manage your ART backlog from the SAFe Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/plan-program-backlog.md)
+**Parent Topic:**[Manage your ART backlog from the SAFe Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/plan-program-backlog.md)
 

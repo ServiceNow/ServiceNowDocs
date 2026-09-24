@@ -2,7 +2,7 @@
 title: Interview Management
 description: The Interview management application simplifies and optimizes the interview process through structured workflows, flexible scheduling options, automated reminders, and streamlined feedback collection, enabling faster and more collaborative hiring.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/interview-management-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/interview-management/interview-management-landing.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -20,19 +20,19 @@ The Interview management application simplifies and optimizes the interview proc
 
 <table id="table_mlp_lsc_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Interview management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/exploring-interview-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Interview management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/exploring-interview-management.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Interview management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/configuring-interview-management.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Interview management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/configuring-interview-management.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-1-1-meetings.svg"\] Alt text:Learn how to use Interview management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/using-interview-mgmnt.md)
+[Use\[Omitted image "bus-1-1-meetings.svg"\] Alt text:Learn how to use Interview management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/using-interview-mgmnt.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Important reference information about Interview management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/interview-management-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Important reference information about Interview management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/interview-management-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

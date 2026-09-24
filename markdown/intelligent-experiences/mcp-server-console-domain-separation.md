@@ -2,7 +2,7 @@
 title: Domain separation and MCP Server Console
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.Domain separation is supported for MCP Server Console. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-server-console-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mcp-server-console-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +37,7 @@ Domain separation limits the MCP tools and servers that a user can access based 
 -   An MCP tool can be attached to a server within the same domain.
 -   When a tool or server is created via the UI, it is stamped with the creating user's current `sys_domain`. This stamp is the source of truth for all visibility and scoping decisions.
 
-**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
+**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-server-console-reference.md)
 
 **Related topics**  
 

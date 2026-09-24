@@ -2,7 +2,7 @@
 title: Configure a service activity for an HR service
 description: If the fulfillment type of an HR service is set to Service Activity, configure one or more service activities. Service activities can be approvals, tasks, or child HR services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -40,18 +40,18 @@ Role required: sn\_hr\_core.admin
 
     On the Service Activity form, you can configure the following types of service activities:
 
-    -   [Approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-approval-to-fulfill-hr-service.md)
-    -   [Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-task-to-fulfill-hr-service.md)
-    -   [Child HR Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-child-hr-service-to-fulfill-hr-service.md)
+    -   [Approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-approval-to-fulfill-hr-service.md)
+    -   [Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-task-to-fulfill-hr-service.md)
+    -   [Child HR Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-child-hr-service-to-fulfill-hr-service.md)
     For each service activity type, follow the applicable task.
 
 
--   **[Configure an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-approval-to-fulfill-hr-service.md)**  
+-   **[Configure an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-approval-to-fulfill-hr-service.md)**  
 Configure a service activity that is an approval. Approvals require one or more users to approve the case before it can proceed.
--   **[Configure a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-task-to-fulfill-hr-service.md)**  
+-   **[Configure a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-task-to-fulfill-hr-service.md)**  
 Configure a service activity that is a task.
--   **[Configure a child HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-child-hr-service-to-fulfill-hr-service.md)**  
+-   **[Configure a child HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-child-hr-service-to-fulfill-hr-service.md)**  
 Configure a service activity that is a child HR service.
 
-**Parent Topic:**[Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md)
+**Parent Topic:**[Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md)
 

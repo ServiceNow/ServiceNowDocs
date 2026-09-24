@@ -2,7 +2,7 @@
 title: AI agents capabilities
 description: Lists the features supported by AI agents, including configuration options and functional capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-aia-capabilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/na-aia-capabilities.html
 release: australia
 topic_type: reference
 last_updated: "2026-02-08"

@@ -2,7 +2,7 @@
 title: Sales Customer Relationship Management glossary
 description: Learn about terms and concepts that are unique to Sales Customer Relationship Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-glossary.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ Learn about terms and concepts that are unique to Sales Customer Relationship Ma
 
 Glossary terms are listed alphabetically.
 
-**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-reference.md)
+**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-reference.md)
 
 ## account
 
@@ -85,7 +85,7 @@ The process of creating, managing, and executing legal sales contracts from comp
 
 Covered products refer to offerings that act as entitlements or contracts linked to a primary product, such as a warranty purchased with a phone.
 
-For more information, see [Add Covered Products using Contracts and Entitlement Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/adding-cov-prod-cceworkflows.md).
+For more information, see [Add Covered Products using Contracts and Entitlement Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/adding-cov-prod-cceworkflows.md).
 
 ## configurable pricing plans
 
@@ -135,13 +135,13 @@ A record created to investigate and resolve processing issues during order fulfi
 
 Classification of opportunities by closure certainty, with default categories including Won, Commit, Strong Upside, Upside, Pipeline, and Omitted.
 
-For more information, see [Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting-terminology.md).
+For more information, see [Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-forecasting-terminology.md).
 
 ## forecast model
 
 A framework predicting future sales.
 
-For more information, see [Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting-terminology.md).
+For more information, see [Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-forecasting-terminology.md).
 
 ## forecast roll-up method \(single/cumulative\)
 
@@ -187,7 +187,7 @@ Notifications generated when fulfillment tasks risk missing deadlines.
 
 A potential customer created from information captured through various channels.
 
-For more information, see [Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md).
+For more information, see [Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management.md).
 
 ## lead management workflow
 
@@ -229,7 +229,7 @@ A business process encompassing all activities and tasks involved in selling to 
 
 Order action types managing changes to customer orders and service inventories.
 
-For more information, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md).
+For more information, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-customer-order-types.md).
 
 ## matrix validations
 
@@ -243,7 +243,7 @@ A pricing method with monthly charges for products/services.
 
 A feature allowing multiple variations of child product offerings.
 
-For more information, see [Multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/multiple-child-offering-configurations.md).
+For more information, see [Multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/multiple-child-offering-configurations.md).
 
 ## needs analysis
 
@@ -281,7 +281,7 @@ Products/services added to an opportunity.
 
 Analyzing customer needs and generating product recommendations.
 
-For more information, see [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+For more information, see [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 
 ## orchestration
 
@@ -307,7 +307,7 @@ The process of breaking down a customer order into executable components includi
 
 Failures during order fulfillment due to errors or exceptions.
 
-For more information, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md).
+For more information, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/fallout-management-overview.md).
 
 ## order fulfillment
 
@@ -321,7 +321,7 @@ The structure of an order, including decomposed orders and tasks.
 
 Stages a customer order progresses through in Order Management including order creation, enrichment, decomposition, and orchestration, and fulfillment.
 
-For more information, see [Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md).
+For more information, see [Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md).
 
 ## order line items \(Order Management\)
 
@@ -335,13 +335,13 @@ The process of capturing, validating, decomposing, and tracking customer orders 
 
 The current stage of an order or an order line item in its life cycle, from initial creation through fulfillment and closure. Each state indicates what actions have been completed and what steps remain in the order processing workflow.
 
-For more information, see [Order life cycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-lifecycle-states.md).
+For more information, see [Order life cycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-lifecycle-states.md).
 
 ## order tasks
 
 Tasks needed to fulfill domain orders.
 
-For more information, see [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-order-decomposition.md).
+For more information, see [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-order-decomposition.md).
 
 ## order tracking
 
@@ -569,7 +569,7 @@ A lead meeting specific criteria, ready for sales engagement.
 
 Assigning sales quota targets to representatives or managers based on hierarchy, role, and forecast period.
 
-For more information, see [Set up sales quota](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setup-sales-quota.md).
+For more information, see [Set up sales quota](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/setup-sales-quota.md).
 
 ## sales targets
 
@@ -599,7 +599,7 @@ Delivering ordered products to specified locations.
 
 Individuals designated to sign quote PDF documents.
 
-For more information, see [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-configure-pdf-document-signers.md).
+For more information, see [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-configure-pdf-document-signers.md).
 
 ## strong upside
 
@@ -657,7 +657,7 @@ Tracking or managing different versions of entities in Sales Customer Relationsh
 
 Pricing adjustments based on item quantity.
 
-For more information, see [Configure volume pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-volume-pricing.md).
+For more information, see [Configure volume pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-volume-pricing.md).
 
 ## weighted amount
 

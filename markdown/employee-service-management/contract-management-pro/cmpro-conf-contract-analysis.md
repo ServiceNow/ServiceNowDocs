@@ -2,7 +2,7 @@
 title: Configuring contract analysis
 description: Configure use cases with associated field groups and fields, and map them to clauses and expected responses. AI uses the applicable use case to analyze a contract document and identify non-standard and missing clauses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,16 +17,16 @@ breadcrumb: [Configure AI capabilities, Configure, Contract Management Pro, Lega
 
 Configure use cases with associated field groups and fields, and map them to clauses and expected responses. AI uses the applicable use case to analyze a contract document and identify non-standard and missing clauses.
 
--   **[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)**  
+-   **[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)**  
 Create a use case for contract analysis that is used by AI to identify non-standard and missing clauses in a contract document.
--   **[Map a field group to a clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.md)**  
+-   **[Map a field group to a clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.md)**  
 Map field groups of a use case to clauses of a clause library. AI uses the mapped clause content to display suggestions for a missing or non-standard clause.
--   **[Map a field to an expected response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-exp-res-mapping.md)**  
+-   **[Map a field to an expected response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-exp-res-mapping.md)**  
 Map a field of a use case to an expected response. AI uses the field mapping to identify a non-standard clause in a contract document.
--   **[Map a use case for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-ca.md)**  
+-   **[Map a use case for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-ca.md)**  
 Map a use case to specific tables, and define conditions to apply the use case for contract analysis.
 
-**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 

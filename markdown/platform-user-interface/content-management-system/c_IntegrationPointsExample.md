@@ -2,7 +2,7 @@
 title: Example integration points
 description: Each element on the page links to a specific URL point.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_IntegrationPointsExample.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/c\_IntegrationPointsExample.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -48,5 +48,5 @@ Each element on the page links to a specific URL point.
     -   **Service Availability** URL: .`./home.do?sysparm_userpref_homepage=8ee772000a0a0bad00c38eb7e68b93d0`
     -   **Service Level Agreements \(SLA\)** URL: .`./home.do?sysparm_userpref_homepage=757e86a30a0006d4010a6851639498d1`
 
-**Parent Topic:**[Content Management integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSIntegrationPoints.md)
+**Parent Topic:**[Content Management integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_CMSIntegrationPoints.md)
 

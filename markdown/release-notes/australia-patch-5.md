@@ -2,7 +2,7 @@
 title: Australia Patch 5
 description: The Australia Patch 5 release contains important problem fixes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-patch-5.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/australia-patch-5.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-07"
@@ -18,7 +18,7 @@ The Australia Patch 5 release contains important problem fixes.
     -   Build date: 08-03-2026\_1111
     -   Build tag: glide-australia-02-11-2026\_\_patch5-07-20-2026
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -36,27 +36,27 @@ Australia Patch 5 includes fixes for security-related problems that affected cer
 
 ## Changes in Australia Patch 5
 
--   **[Adoption Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/adoption-services-rn.md)**
+-   **[Adoption Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/adoption-services-rn.md)**
 -   **[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure.md)**
 
     When sn\_dyn\_guidance\_user role is assigned, it also includes the genai\_admin role.
 
     **Note:** The genai\_admin role does not grant administrative privileges.
 
--   **[Integration Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/integration-hub-rn.md)**
+-   **[Integration Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/integration-hub-rn.md)**
 -   **[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub-usage-dashboard.md)**
 
-    The Integration Hub Usage Dashboard provides reports of usage by protocol. For more information about the service accounts contributing to each protocol, see [Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md).
+    The Integration Hub Usage Dashboard provides reports of usage by protocol. For more information about the service accounts contributing to each protocol, see .
 
 -   **[Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-data-input-kafka-credentials.md)**
 
     Updates to OAUTHBEARER, Token endpoint URL, Client ID, Client Secret, Scope, and OAUTH extensions.
 
--   **[Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-api-integration-usage-dashboard.md)**
+-   ****
 
     Monitor inbound integration usage requests, data egress, and domain-level usage through the Inbound API Integration Usage dashboard.
 
--   **[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/predictive-intelligence-rn.md)**
+-   **[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/predictive-intelligence-rn.md)**
 
     The sys property ML Trainer - Glide communication KAA \(glide.platform\_ml.kaa\_auth\_enabled\) implements KAA validation when mTLS is enabled.
 
@@ -133,7 +133,7 @@ Australia Patch 5 includes fixes for security-related problems that affected cer
 
     Starting with Dynamic Guidance version 28.4.3, the genai\_admin role is automatically included when the sn\_dyn\_guidance\_user role is assigned. The genai\_admin role does not grant administrative privileges.
 
--   **[View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md)**
+-   ****
 
     View integration request counts, data egress volume, and domain-level usage.
 
@@ -7735,16 +7735,16 @@ Unless any exceptions are noted, you can safely upgrade to this release version 
 
 -   [Australia Patch 4 Hotfix 2](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3143885)
 -   [Australia Patch 4 Hotfix 1](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3140560)
--   [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+-   [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-4.md)
 -   [Australia Patch 3 Hotfix 3](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3143614)
--   [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+-   [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 -   [Australia Patch 2 Hotfix 5a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142075)
 -   [Australia Patch 2 Hotfix 4b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3143888)
 -   [Australia Patch 2 Hotfix 3b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3138484)
--   [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
--   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+-   [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
+-   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 -   [Australia security and notable fixes](https://www.servicenow.com/docs/r/release-notes/australia-security-notables.html)
 -   [All other Australia fixes](https://www.servicenow.com/docs/r/release-notes/australia-all-other-fixes.html)
 
-**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/available-versions.md)
 

@@ -2,7 +2,7 @@
 title: GitHub Spoke
 description: Manage distributed version control and source code in GitHub from your ServiceNow instance. Create flows in ServiceNow to manage collaborative features such as tracking bugs, feature requests, tasks and so on, for projects in GitHub. View and analyze meaningful usage data for GitHub Enterprise Cloud and GitHub Enterprise Server software subscriptions so that you can reclaim stale licenses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/github-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/github-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -100,7 +100,7 @@ Use the GitHub Webhook Registries module to assign a token and provide the API p
 |Project Card Archived|Pull Request Updated At|Status Updated At|
 |Project Card Created At|Pull Request User|Webhook Event|
 
-To use other conditions in the routing policy, create a routing policy in the GitHub WebHook Routing Policies module and specify conditions according to your requirement. See [Set up bi-directional webhook for the GitHub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-biwebhoook-github.md) for information regarding setting up and configuring the webhooks.
+To use other conditions in the routing policy, create a routing policy in the GitHub WebHook Routing Policies module and specify conditions according to your requirement. See [Set up bi-directional webhook for the GitHub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-biwebhoook-github.md) for information regarding setting up and configuring the webhooks.
 
 ## Spoke triggers
 
@@ -121,7 +121,7 @@ ServiceNow supports specific events on GitHub that create triggers. You must fir
 |Release Deleted|Flow is triggered when a release is removed on GitHub.|
 |Release Released|Flow is triggered when a release is released on GitHub.|
 
-For information about setting up the triggers for the GitHub spoke, see [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-triggers-github-spoke.md). For more information about inbound integration, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
+For information about setting up the triggers for the GitHub spoke, see [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-triggers-github-spoke.md). For more information about inbound integration, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
 
 ## Spoke subflows
 
@@ -278,7 +278,7 @@ While customizing subflows, you must confirm that the subflows are configured to
 
 **Note:**
 
--   You must configure webhooks to use the spoke subflow. See [Set up bi-directional webhook for the GitHub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-biwebhoook-github.md) for information regarding setting up and configuring the webhook.
+-   You must configure webhooks to use the spoke subflow. See [Set up bi-directional webhook for the GitHub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-biwebhoook-github.md) for information regarding setting up and configuring the webhook.
 -   The sample subflows run as a user by default. It can be configured to run as a system.
 -   GitHub spoke supports application/json payload. Configure the GitHub webhook accordingly. See the [GitHub Developer](https://developer.github.com/) documentation for instructions on creating and configuring a webhook.
 
@@ -825,7 +825,7 @@ Retrieves information about the authenticated user.
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -863,5 +863,5 @@ The GitHub spoke adds these modules to your ServiceNow instance.
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the GitHub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-github-spoke.md).
+For information about setting up the spoke, see [Set up the GitHub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-github-spoke.md).
 

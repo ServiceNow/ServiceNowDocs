@@ -2,7 +2,7 @@
 title: Apply template to an existing project
 description: Apply one or multiple project templates to an existing project from the project form or Planning Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/apply-multiple-templates-prj.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/apply-multiple-templates-prj.html
 release: australia
 product: Project Management
 classification: project-management
@@ -75,7 +75,7 @@ Step
     Tasks from the template are added at the end of the last task.
 
 
-**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
+**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTemplates.md)
 
 **Related topics**  
 

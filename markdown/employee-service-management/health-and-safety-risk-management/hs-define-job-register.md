@@ -2,7 +2,7 @@
 title: Define a job in the job register
 description: Define jobs and their steps \(if any\), in the job register to predefine hazards and controls for each job type in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-define-job-register.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-define-job-register.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -41,15 +41,15 @@ Consequently, these predefined jobs simplify the process of submitting JSAs and 
 
 4.  Create a job.
 
-<table id="choicetable_l1q_grs_dcc"><thead><tr><th align="left" id="d770860e115">
+<table id="choicetable_l1q_grs_dcc"><thead><tr><th align="left" id="d770998e115">
 
 Option
 
-</th><th align="left" id="d770860e118">
+</th><th align="left" id="d770998e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d770860e124">
+</th></tr></thead><tbody><tr><td id="d770998e124">
 
 **Using the New button**
 
@@ -59,7 +59,7 @@ To define a job from scratch, select **New** in the list.-   If the job has mult
 -   If the job is one step and you want to outline hazards and controls on the job level, select **Single step**.
 
 
-</td></tr><tr><td id="d770860e150">
+</td></tr><tr><td id="d770998e150">
 
 **Copying an existing job**
 
@@ -99,15 +99,15 @@ Use details from an existing job to create a new one in the job register. Copyin
 
 8.  Associate hazards and controls with the job.
 
-<table id="choicetable_k4d_sw3_dcc"><thead><tr><th align="left" id="d770860e330">
+<table id="choicetable_k4d_sw3_dcc"><thead><tr><th align="left" id="d770998e330">
 
 Job type
 
-</th><th align="left" id="d770860e333">
+</th><th align="left" id="d770998e333">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d770860e339">
+</th></tr></thead><tbody><tr><td id="d770998e339">
 
 **For multi-step job**
 
@@ -118,7 +118,7 @@ Add hazards and controls for each step.1.  Navigate to **Job steps** tab.
 3.  In the **Hazards and controls** tab, select **New**.
 
 
-</td></tr><tr><td id="d770860e368">
+</td></tr><tr><td id="d770998e368">
 
 **For single-step job**
 
@@ -183,9 +183,9 @@ Controls that are selected to be added for the hazard.
 
 -   The job is listed in the **Job register** list under **Configuration** on the Health and Safety Workspace. The job is saved in the Job \[sn\_hs\_rm\_job\] table and job steps are saved in the Job step \[sn\_hs\_rm\_job\_step\] table.
 -   The job is available for selection on these forms:
-    -   JSA form when submitting a JSA. For more information, see [Submit JSA form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-submit-jsa-form.md).
-    -   Risks and controls form when conducting a risk assessment. For more information, see [Assess safety hazards and risk levels for a risk analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/add-a-risk-and-its-controls-for-a-safety-risk-assessment.md).
--   The job is also available to import hazards and controls from when performing a risk assessment. For more information, see [Create a risk analysis for a safety risk assessment from a job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/import-hazards-and-controls.md).
+    -   JSA form when submitting a JSA. For more information, see [Submit JSA form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-submit-jsa-form.md).
+    -   Risks and controls form when conducting a risk assessment. For more information, see [Assess safety hazards and risk levels for a risk analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/add-a-risk-and-its-controls-for-a-safety-risk-assessment.md).
+-   The job is also available to import hazards and controls from when performing a risk assessment. For more information, see [Create a risk analysis for a safety risk assessment from a job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/import-hazards-and-controls.md).
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

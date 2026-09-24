@@ -2,7 +2,7 @@
 title: Install Emergency Outreach
 description: You can install Emergency Outreach if you have the admin role.You can install Employee Readiness Surveys if you have the admin role. Installing Employee Readiness Surveys adds notification options to the Emergency Outreach app. A default health readiness survey is provided as an example.Several types of components are installed with Emergency Outreach, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/install-emergency-outreach.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-outreach/install-emergency-outreach.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -94,7 +94,7 @@ Emergency Outreach is installed on your instance.
 
 Optionally install Employee Readiness Surveys to use with Emergency Outreach. The Employee Readiness Surveys app enables you to evaluate the readiness of your employees to return to the workplace using Emergency Outreach notifications.
 
-**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-outreach/emergency-outreach.md)
 
 ## Install Employee Readiness Surveys to use with Emergency Outreach
 

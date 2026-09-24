@@ -2,7 +2,7 @@
 title: Set up the approval levels for due diligence requests
 description: Assign one or more approval levels to the users or groups that approve your due diligence requests in the Third-party Risk Management application. Because the approval levels are applied iteratively and each level contains different rules, you can help to ensure that the correct user or group is assigned as an approver.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -41,13 +41,13 @@ Role required: admin or sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 
 5.  Select **Submit**.
 
-    For information on setting up rules to assign to levels, see [Set up the approval rules for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.md).
+    For information on setting up rules to assign to levels, see [Set up the approval rules for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.md).
 
-    For more information on approval levels and rules, see [Approving or rejecting requests for due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-approving.md).
+    For more information on approval levels and rules, see [Approving or rejecting requests for due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-approving.md).
 
 
 **Related topics**  
 
 
-[Set up the approval rules for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.md)
+[Set up the approval rules for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.md)
 

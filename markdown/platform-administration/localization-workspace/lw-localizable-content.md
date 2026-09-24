@@ -2,7 +2,7 @@
 title: Types of Localizable content in Localization Workspace
 description: Localization Workspace collects available translatable content from across your instance when you create a translation request. You can make your content available by configuring permissions and creating an artifact record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-localizable-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-localizable-content.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -20,8 +20,8 @@ Localization Workspace collects available translatable content from across your 
 
 The availability of a content type is subject to its table and application scope permissions. Localization Workspace retrieves untranslated or partially translated documents when the following prerequisites are fulfilled.
 
--   If you have created a custom artifact, set cross-scope privileges to ensure that the corresponding content type can be selected in Localization Workspace. For more information see [Cross-scope privileges for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-cross-scope-privilege.md).
--   If the target tables are restricted, set Restricted Caller Access privileges to ensure that a content type can be selected in Localization Workspace. For more information see [Restricted Caller Access for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-restricted-caller-access.md)
+-   If you have created a custom artifact, set cross-scope privileges to ensure that the corresponding content type can be selected in Localization Workspace. For more information see [Cross-scope privileges for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-cross-scope-privilege.md).
+-   If the target tables are restricted, set Restricted Caller Access privileges to ensure that a content type can be selected in Localization Workspace. For more information see [Restricted Caller Access for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-restricted-caller-access.md)
 -   For Content Publishing material, add the role sn\_cd.content\_admin to your Localization Workspace group in the sys\_user\_group table. This role is needed to access Content Publishing items from Localization Workspace.
 
 ## Translatable content
@@ -32,7 +32,7 @@ A document may be considered partially translated when its original is updated a
 
 The following table lists the content types that are available by default when you install Localization Workspace. These are preconfigured with artifact records and cross-scope permissions.
 
-You can also configure your own custom artifacts. For more information, see [Create and configure a custom artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/create-configure-custom-artifact.md).
+You can also configure your own custom artifacts. For more information, see [Create and configure a custom artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/create-configure-custom-artifact.md).
 
 In this table the **Filter** column shows the query used to retrieve untranslated or partially translated content.
 
@@ -229,12 +229,12 @@ sys\_cs\_topic
 active=true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace-reference.md)
+</table>**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/localization-workspace-reference.md)
 
 **Related topics**  
 
 
-[Dynamic artifact detection in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-dynamic-artifact-detection.md)
+[Dynamic artifact detection in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-dynamic-artifact-detection.md)
 
-[Supported artifacts in Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/supported-artifacts-lf.md)
+[Supported artifacts in Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/supported-artifacts-lf.md)
 

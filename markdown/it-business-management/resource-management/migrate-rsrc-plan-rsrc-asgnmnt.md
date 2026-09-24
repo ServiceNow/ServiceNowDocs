@@ -2,7 +2,7 @@
 title: Migrate resource plans and cost plans to Next Experience
 description: Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-based cost plans. Then, work on the resource allocations and project financials using Project Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -18,7 +18,7 @@ Migrate resource plans and cost plans of your projects or demands to resource as
 
 ## Before you begin
 
--   Learn more about [Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
+-   Learn more about [Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
 -   Ensure the project or demand have resource plans and cost plans.
 -   Role required: resource\_user
 
@@ -36,7 +36,7 @@ Migrate resource plans and cost plans of your projects or demands to resource as
 
     \[Omitted image "rp-ra-migration-confirmation-window.png"\] Alt text: Resource plans migration confirmation window.
 
-    **Tip:** You can [Scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md).
+    **Tip:** You can [Scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md).
 
 
 ## Result
@@ -47,5 +47,5 @@ Resource plans are migrated to resource assignments, cost plans are migrated to 
 
 Create resource assignments to manage resource efforts.
 
-**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
+**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
 

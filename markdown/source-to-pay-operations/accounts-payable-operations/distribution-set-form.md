@@ -2,7 +2,7 @@
 title: Distribution set form
 description: Field descriptions for the Distribution set form, organized by section, for configuring automatic cost allocation across invoice lines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/distribution-set-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/distribution-set-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -35,7 +35,7 @@ Field descriptions for the Distribution set form, organized by section, for conf
 |Cost center|Cost center for which the distribution set is applied.|
 |Allocation percentage|Percentage cost that is split across cost centers.|
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

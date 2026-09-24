@@ -2,7 +2,7 @@
 title: Update the priority of an SRM incident
 description: If the priority of an incident should be changed, you can manually update it to reflect its new criticality.REVISE FOR SRM
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-update-incident-severity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-update-incident-severity.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -44,5 +44,5 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
     The new priority is reflected in the incident list view and incident header and form field.
 
 
-**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

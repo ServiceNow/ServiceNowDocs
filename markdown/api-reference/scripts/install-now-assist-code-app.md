@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto for Code
 description: Install the ServiceNow Otto for Creator application from the ServiceNow Store to get ServiceNow Otto for Code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/install-now-assist-code-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/install-now-assist-code-app.html
 release: australia
 product: Scripts
 classification: scripts
@@ -43,5 +43,5 @@ Role required: admin
         \[Omitted image "soc-code-skills.png"\] Alt text: The ServiceNow Otto for Code skills are active.
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/configuring-now-assist-code.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/configuring-now-assist-code.md)
 

@@ -2,7 +2,7 @@
 title: Create an article template and use it to create a knowledge article
 description: Create new article templates in addition to the pre-defined templates. Add new fields based on how you want to customize and display your content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/create-a-new-article-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/create-a-new-article-templates.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -189,5 +189,5 @@ Preview text displayed on the article template selector. Empty value will displa
 
 If you want to search for duplicate articles when creating an article from a new template, you must configure the article template table for contextual search. On the Table Configuration form, the **Search context** field must be set to **Knowledge ML Search**. For more information, see [Configure table for a contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineContextualSearchForForm.md).
 
-**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
+**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
 

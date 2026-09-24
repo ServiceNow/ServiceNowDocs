@@ -2,7 +2,7 @@
 title: Change synchronization frequency
 description: Modify the system property to change how often External Key Management Service \(EKMS\) synchronizes Amazon Web Service Key Management Service \(AWS KMS\) key status with your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ekms-change-synchronization-frequency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-change-synchronization-frequency.html
 release: australia
 topic_type: task
 last_updated: "2026-03-31"
@@ -45,5 +45,5 @@ After changing the frequency, monitor the synchronization job to verify it runs 
 
 **Note:** The next synchronization will occur based on your new interval setting.
 
-**Parent Topic:**[Using External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-using-external-key-management.md)
+**Parent Topic:**[Using External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-using-external-key-management.md)
 

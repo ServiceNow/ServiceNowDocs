@@ -2,7 +2,7 @@
 title: Workflow for the automated mapping feature
 description: The Industrial Process Manager includes an automated flow for the automated mapping feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/workflow-automated-dynamic-mapping-feature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/workflow-automated-dynamic-mapping-feature.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -42,5 +42,5 @@ The following is a typical workflow for the automated mapping feature.
 -   The Amazing admin activates or triggers the scheduled flow to automatically map OT devices for all sites on an instance.
 -   The Amazing editor can update the records that belong to the sites that they have editing access to.
 
-**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

@@ -2,7 +2,7 @@
 title: Track a hardware asset shipment
 description: Track the progress of your hardware asset shipment that isn't delivered and that has a carrier associated with an active integration profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/track-hardware-asset-shipments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/track-hardware-asset-shipments.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -39,7 +39,7 @@ The following fields on the Shipment details form show the tracking details rece
 -   Carrier pick-up date
 -   Carrier delivered date
 
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 

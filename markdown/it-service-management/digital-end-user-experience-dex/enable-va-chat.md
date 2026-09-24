@@ -2,7 +2,7 @@
 title: Enable Virtual Agent or chat
 description: Enable Virtual Agent to find solutions to your queries quickly and seamlessly, without having to wait on hold or speak with an agent by phone.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/enable-va-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/enable-va-chat.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

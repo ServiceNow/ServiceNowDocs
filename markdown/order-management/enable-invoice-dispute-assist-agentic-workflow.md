@@ -2,12 +2,12 @@
 title: Make the invoice dispute assist workflow available in the ServiceNow Otto panel
 description: Configure the invoice dispute assist agentic workflow in AI Agent Studio to make it available to agents in the ServiceNow Otto panel in the CSM/FSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/enable-invoice-dispute-assist-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enable-invoice-dispute-assist-agentic-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
@@ -58,7 +58,7 @@ Agentic workflows that are installed with ServiceNow Otto applications aren’t 
 
 Configure Chat Summarization to enable the summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
 
-**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-invoice-operations.md)
+**Parent Topic:**[Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-manage-invoice-operations.md)
 
 **Related topics**  
 

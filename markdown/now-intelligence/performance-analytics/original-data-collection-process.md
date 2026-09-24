@@ -2,7 +2,7 @@
 title: Log details for classic data collector
 description: Performance Analytics score collection follows the process described here. To aid troubleshooting, a mapping between job steps and log entries is provided.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/original-data-collection-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/original-data-collection-process.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -58,7 +58,7 @@ Flush snapshots
 
 </td><td>
 
-The ServiceNow AI Platform stores a maximum number of Performance Analytics [snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) in memory before offloading them to the database.
+The ServiceNow AI Platform stores a maximum number of Performance Analytics [snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) in memory before offloading them to the database.
 
 </td><td>
 
@@ -81,7 +81,7 @@ Stores count distinct aggregations as a hashcode instead of as separate values.
 
 Follow the data collection process as revealed in log messages. The log messages in each subprocess have been separated into their own tables.
 
-**Note:** This log is for the original data collector. If your instance uses this data collector, the system parameter **com.snc.pa.dc.hsql** exists and is "false." Otherwise, you are using the optimized data collector as described in [Optimizing data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optimized-data-collection.md). For more information about that log, see [Log details for optimized data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/log-details-optimized-dc.md).
+**Note:** This log is for the original data collector. If your instance uses this data collector, the system parameter **com.snc.pa.dc.hsql** exists and is "false." Otherwise, you are using the optimized data collector as described in [Optimizing data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/optimized-data-collection.md). For more information about that log, see [Log details for optimized data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/log-details-optimized-dc.md).
 
 <table id="table_kwh_k4g_qbb"><thead><tr><th>
 
@@ -145,7 +145,7 @@ Iterate steps for each indicator source
 
 </td><td>
 
-See table [Steps iterated for each indicator source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/original-data-collection-process.md).
+See table [Steps iterated for each indicator source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/original-data-collection-process.md).
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ Iterate steps for each collection period.
 
 </td><td>
 
-See table [Steps iterated for each collection period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/original-data-collection-process.md)
+See table [Steps iterated for each collection period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/original-data-collection-process.md)
 
 </td></tr><tr><td>
 
@@ -266,7 +266,7 @@ Run the map/reduce function to calculate indicator scores.
 
 </td><td>
 
-See the table [Steps of the map/reduce function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/original-data-collection-process.md)
+See the table [Steps of the map/reduce function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/original-data-collection-process.md)
 
 </td></tr><tr><td rowspan="2">
 
@@ -410,5 +410,5 @@ The map/reduce function completes.
 Applied map/reduce function
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data collection process and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/data-collection-process-logging.md)
+</table>**Parent Topic:**[Data collection process and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/data-collection-process-logging.md)
 

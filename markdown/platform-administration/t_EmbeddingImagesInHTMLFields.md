@@ -2,7 +2,7 @@
 title: Embed images in the HTML editor
 description: You can use the HTML field image picker to embed images into HTML fields, and to add images to the image library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EmbeddingImagesInHTMLFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_EmbeddingImagesInHTMLFields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

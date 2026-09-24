@@ -2,7 +2,7 @@
 title: Agentic AI for the Operational Technology Manager
 description: The Operational Technology \(OT\) Manager Foundation AI agent operates within agentic workflows to complete tasks autonomously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/now-assist-for-otm-use-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/now-assist-for-otm-use-cases.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -72,8 +72,8 @@ There might be AI agents installed on your instance that are not used in agentic
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
--   **[Import the OT device spreadsheet into OT CMDB agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/now-assist-otm-aiagents-import-ot-device-workflow.md)**  
+-   **[Import the OT device spreadsheet into OT CMDB agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/now-assist-otm-aiagents-import-ot-device-workflow.md)**  
 The Import OT device spreadsheet into OT CMDB agentic workflow automates the upload, validation, and import of OT device data into the OT CMDB.
 
-**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 

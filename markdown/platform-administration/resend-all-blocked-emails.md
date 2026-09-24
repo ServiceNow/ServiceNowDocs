@@ -2,7 +2,7 @@
 title: Resend all blocked emails
 description: Unblock the bounce email address and resend all blocked emails.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/resend-all-blocked-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/resend-all-blocked-emails.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: admin
     2.  From the **Actions on selected rows** drop-down, select **Resend Blocked Emails**.
 
 
-**Parent Topic:**[Email bounce management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-bounce.md)
+**Parent Topic:**[Email bounce management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-bounce.md)
 

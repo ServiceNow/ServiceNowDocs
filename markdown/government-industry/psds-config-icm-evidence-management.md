@@ -2,7 +2,7 @@
 title: Configure Investigative Case Management Evidence Management
 description: Configure settings related to Evidence Management, such as modifying evidence security classification levels, or configuring relationship types for an evidence record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-icm-evidence-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-icm-evidence-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,5 +19,5 @@ Configure settings related to Evidence Management, such as modifying evidence se
 
 [psds-config-icm-evidence-classification]
 
-[Configure relationship types for an evidence record in Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-evidence-relationship-type.md)
+[Configure relationship types for an evidence record in Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-icm-evidence-relationship-type.md)
 

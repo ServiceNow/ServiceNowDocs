@@ -2,7 +2,7 @@
 title: Use AI specialists in the legacy AI Agent Studio
 description: Onboard and view the performance and activity of AI specialists in the legacy AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-workforce-ais-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-workforce-ais-use.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-18"

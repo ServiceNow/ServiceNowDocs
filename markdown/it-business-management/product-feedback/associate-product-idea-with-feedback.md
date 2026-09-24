@@ -2,7 +2,7 @@
 title: Associate a product idea with feedback
 description: Link a product idea with one or multiple feedback records that can be analyzed, prioritized, and implemented.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/associate-product-idea-with-feedback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/product-feedback/associate-product-idea-with-feedback.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -26,7 +26,7 @@ Role required: pf\_user
 
 2.  Select **Feedback**.
 
-3.  Select **Product idea** and then [Create product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-product-idea-in-sp.md).
+3.  Select **Product idea** and then [Create product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/create-product-idea-in-sp.md).
 
 4.  From the Product ideas List page, select one or multiple ideas to associate.
 
@@ -40,9 +40,9 @@ Role required: pf\_user
 **Related topics**  
 
 
-[Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
+[Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
 
-[Associate a product idea with a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-product-idea-with-goals.md)
+[Associate a product idea with a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/associate-product-idea-with-goals.md)
 
-[Manage documentation in Feedback application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/manage-documents-with-pf.md)
+[Manage documentation in Feedback application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/manage-documents-with-pf.md)
 

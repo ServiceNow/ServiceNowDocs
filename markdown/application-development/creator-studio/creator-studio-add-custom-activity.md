@@ -2,7 +2,7 @@
 title: Make a custom activity available for playbooks in Creator Studio
 description: You must add custom activities to the Creator Studio Activities table \[sn\_creatorstudio\_activity\] before users can add them to playbooks when building apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-add-custom-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-add-custom-activity.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -133,5 +133,5 @@ The new activity appears in the activity picker in Creator Studio.
 
 \[Omitted image "crs-activity-added.png"\] Alt text: The activity we added appears at the end of the activity picker
 
-**Parent Topic:**[Administering activities in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-administering-activities.md)
+**Parent Topic:**[Administering activities in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-administering-activities.md)
 

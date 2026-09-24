@@ -2,7 +2,7 @@
 title: Creating global recovery teams and collaboration threads
 description: Recovery teams and collaboration help organizations coordinate business continuity responses using reusable teams and integrated communication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/recovery-team-collaboration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/recovery-team-collaboration.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-17"
@@ -91,15 +91,15 @@ Recovery teams and collaboration provide the following key capabilities:
 **Related topics**  
 
 
-[Create and manage a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recovery-team.md)
+[Create and manage a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-recovery-team.md)
 
-[List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/list-view-uib-ws.md)
+[List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/list-view-uib-ws.md)
 
-[Recovery teams, loss scenarios, and recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/recovery-teams.md)
+[Recovery teams, loss scenarios, and recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/recovery-teams.md)
 
-[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)
+[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)
 
-[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)
+[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)
 
-[Create Collaboration thread form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-collaboration-thread-crisis-event-form.md)
+[Create Collaboration thread form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-collaboration-thread-crisis-event-form.md)
 

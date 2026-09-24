@@ -2,7 +2,7 @@
 title: Using EAP with SPW Jira Integrations
 description: After configuration is complete for SPW Jira Integrations, use Enterprise Agile Planning \(EAP\) to bridge strategy and execution. Plan and schedule work in EAP, let teams deliver in Jira, and see progress and performance flow back to EAP for accurate, real‑time visibility.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/using-eap-with-spw-jira-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/using-eap-with-spw-jira-integrations.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -27,5 +27,5 @@ This workflow enables you to plan in EAP, execute in Jira, and monitor outcomes 
 
 \[Omitted image "jira-int-eap-reports.png"\] Alt text: Jira team execution reports in EAP.
 
-For more information on managing backlog and sprints using EAP, see [Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md) and [Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/pi-planning-eap.md).
+For more information on managing backlog and sprints using EAP, see [Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md) and [Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/pi-planning-eap.md).
 

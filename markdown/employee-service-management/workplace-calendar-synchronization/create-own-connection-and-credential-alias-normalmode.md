@@ -2,7 +2,7 @@
 title: Create your own connection and credential alias for Microsoft Exchange Online
 description: Configure your own connection and credential alias for Microsoft Exchange Online if you do not want to use the default connection and credential aliases provided by the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -29,7 +29,7 @@ Role required: admin
 
 ## About this task
 
-Create your own connection and credential alias, if you do not want to use the default alias. If you want to use the default alias, refer to [Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-and-credential-alias-for-msexchange-.md).
+Create your own connection and credential alias, if you do not want to use the default alias. If you want to use the default alias, refer to [Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-connection-and-credential-alias-for-msexchange-.md).
 
 ## Procedure
 
@@ -64,7 +64,7 @@ Create your own connection and credential alias, if you do not want to use the d
         |-----|------------|
         |Name|Name of the credential. Provide a unique name to differentiate from the default credentials provided by the application.|
         |Active|Option to activate the credential.|
-        |OAuth Entity Profile|Select the default OAuth entity profile that was generated when you performed the application registry in [Set up OAuth connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-connectivity-with-msexchange-for-calendar-sync.md).|
+        |OAuth Entity Profile|Select the default OAuth entity profile that was generated when you performed the application registry in [Set up OAuth connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/setup-connectivity-with-msexchange-for-calendar-sync.md).|
         |Applies to|Specify how you want to apply to the MID servers.|
         |Order|Order for the credential.|
 
@@ -106,9 +106,9 @@ The connection and credential record is created with specified credentials and c
 
 ## What to do next
 
-To use it for the calendar provider, see [Configure Microsoft Exchange Online calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-xsex-calendar-provider-in-normal-mode.md).
+To use it for the calendar provider, see [Configure Microsoft Exchange Online calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/configure-xsex-calendar-provider-in-normal-mode.md).
 
-**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
+**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
 
 **Related topics**  
 

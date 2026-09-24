@@ -2,7 +2,7 @@
 title: Shared data
 description: ServiceNow mobile apps communicate with a third party software for app crash reporting. No customer information is shared.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-security-shared-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-security-shared-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,5 +23,5 @@ ServiceNow mobile apps communicate with a third party software for app crash rep
     Uses Crashlytics for crash reporting.
 
 
-**Parent Topic:**[Mobile security practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-security-practices.md)
+**Parent Topic:**[Mobile security practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-security-practices.md)
 

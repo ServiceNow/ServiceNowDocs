@@ -2,7 +2,7 @@
 title: Microsoft Certificate Authority \(CA\) certificates discovery
 description: The ServiceNow Discovery application can discover Microsoft Certificate Authority \(CA\) certificates using the Microsoft CA - Certificate Management pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/microsoft-ca-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/microsoft-ca-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -34,11 +34,11 @@ Starting with version 1.27.0, Discovery and Service Mapping Patterns supports di
 
 -   **Verify previous Windows discovery**
 
-    Verify a Windows host was discovered during a previous horizontal discovery. For more information, see [Windows discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md).
+    Verify a Windows host was discovered during a previous horizontal discovery. For more information, see [Windows discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md).
 
 -   **Create a serverless discovery schedule**
 
-    Create a discovery schedule to perform targeted discovery of Microsoft CA certificates using the host on which the CA process is running. For more information, see [Create a serverless schedule for Microsoft CA discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ms-ca.md).
+    Create a discovery schedule to perform targeted discovery of Microsoft CA certificates using the host on which the CA process is running. For more information, see [Create a serverless schedule for Microsoft CA discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ms-ca.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -325,5 +325,5 @@ Information about the certificate that needs to be acted on by the CA or the cer
 
 The Microsoft CA - Certificate Management pattern doesn’t create any CI relationships.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

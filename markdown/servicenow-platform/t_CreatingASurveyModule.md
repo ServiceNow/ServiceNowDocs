@@ -2,7 +2,7 @@
 title: Create a survey module
 description: You can create a module that opens a survey.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreatingASurveyModule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreatingASurveyModule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ When a user clicks a survey module, the system performs one of the following act
 4.  Complete and save the form.
 
 
-**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 

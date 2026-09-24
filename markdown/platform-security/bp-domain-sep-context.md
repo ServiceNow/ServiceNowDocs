@@ -2,7 +2,7 @@
 title: Context and domain separation
 description: The context of a user's session determines the processes, data, and user interface \(UI\) as the user browses through list views, home pages, reports, and knowledge articles. The context is determined by the processes that you create, the business rules that you set, your workflows, and other factors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-sep-context.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-domain-sep-context.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ The context of the user session includes the user's home domain and any child do
 
 Service accounts that are used for integrations also have user session context. There is user context and records context, each with its own data in its own domain. These contexts affect the integrations. Database queries \(records\) are limited in the same way as interactive users \(users\), meaning that they work as normal but are limited by whatever constraints the developer has configured.
 
-You can learn about additional ways to add domains to a user’s session context in [Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-ds.md).
+You can learn about additional ways to add domains to a user’s session context in [Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-sp-reference-arch-ds.md).
 
 ## Record context
 
@@ -55,7 +55,7 @@ A record’s domain dictates the process, data, and the availability of UI eleme
 
 \[Omitted image "bp-record-context.png"\] Alt text: Record context
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

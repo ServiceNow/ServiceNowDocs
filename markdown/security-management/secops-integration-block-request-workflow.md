@@ -2,7 +2,7 @@
 title: Security Operations Integration - Block Request Flow
 description: The Security Operations Integration - Block Request flow is a high-level flow independent of integrations. It blocks observables associated with a security incident. Use it to fulfill an integration such as Palo Alto Networks - Firewall.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/secops-integration-block-request-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/secops-integration-block-request-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The **Security Operations Integration - Block Request** flow can be triggered on
 
 \[Omitted image "block-request-flow-V1.png"\] Alt text: Flow designer for Security Operations Integration- Block Request Flow
 
-Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
+Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md).
 
-**Parent Topic:**[Security Operations Integration- Block Request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/block-request-capability.md)
+**Parent Topic:**[Security Operations Integration- Block Request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/block-request-capability.md)
 

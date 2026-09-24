@@ -2,7 +2,7 @@
 title: Group contract documents by contract type in a contract request
 description: As an administrator, group the contract documents by contract type in a contract request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-srp-grouping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-config-srp-grouping.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -67,7 +67,7 @@ Customize the Standard Record Page \(SRP\) to display contract documents grouped
 
 The contract documents will be grouped by contract type in the Contract document tab while viewing a contract request.
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 

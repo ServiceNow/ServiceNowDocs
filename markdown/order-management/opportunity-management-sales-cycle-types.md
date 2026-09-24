@@ -2,7 +2,7 @@
 title: Create a sales cycle for an opportunity
 description: Create a sales cycle type for an opportunity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-sales-cycle-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management-sales-cycle-types.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,12 +39,12 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_setup\_writer
 
 ## What to do next
 
-Add sales cycle stages to your opportunity. To learn more, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-opportunity-stages.md).
+Add sales cycle stages to your opportunity. To learn more, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-opportunity-stages.md).
 
 **Related topics**  
 
 
-[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-mgmt-using.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

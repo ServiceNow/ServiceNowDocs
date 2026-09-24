@@ -2,7 +2,7 @@
 title: Enable OpenSSL secure signing for plugins
 description: Create a self-signed certificate for an Agent Client Collector plugin. The following procedure gives an example of how to create an x509 certificate using OpenSSL. For other certificate types, consult OpenSSL documentation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-signing-mechanism.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-signing-mechanism.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -31,7 +31,7 @@ Enabling an OpenSSL secure signing mechanism for plugins works with an Agent Cli
 
 1.  Create a plugin file with a `tar.gz` extension.
 
-    For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-edit-assets.md).
+    For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-edit-assets.md).
 
 2.  Generate your own secure self-certificate for the plugin file.
 
@@ -97,7 +97,7 @@ Enabling an OpenSSL secure signing mechanism for plugins works with an Agent Cli
 
 ## What to do next
 
-Add the self-signed `sign.crt` file to the agent host trust store, as described in [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
+Add the self-signed `sign.crt` file to the agent host trust store, as described in [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
 
-**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-certificates.md)
+**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-certificates.md)
 

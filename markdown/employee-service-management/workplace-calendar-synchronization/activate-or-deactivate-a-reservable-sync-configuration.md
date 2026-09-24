@@ -2,7 +2,7 @@
 title: Activate or deactivate a Reservable sync configuration
 description: You can activate or deactivate a reservable sync configuration if it is not required at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/activate-or-deactivate-a-reservable-sync-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/activate-or-deactivate-a-reservable-sync-configuration.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

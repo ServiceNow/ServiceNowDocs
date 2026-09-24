@@ -2,7 +2,7 @@
 title: Map a use case for contract analysis
 description: Map a use case to specific tables, and define conditions to apply the use case for contract analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-ca.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-ca.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -37,15 +37,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
 5.  In the Use case page, select **Save and continue**.
 
-    For more information on creating a use case, see [Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md).
+    For more information on creating a use case, see [Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md).
 
 6.  In the Clause mappings page, select **Save and continue**.
 
-    For more information on mapping a field group to a clause, see [Map a field group to a clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.md).
+    For more information on mapping a field group to a clause, see [Map a field group to a clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.md).
 
 7.  In the Expected response mappings page, select **Save and continue**.
 
-    For more information on mapping a field to an expected response, see [Map a field to an expected response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-exp-res-mapping.md).
+    For more information on mapping a field to an expected response, see [Map a field to an expected response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-exp-res-mapping.md).
 
 8.  In the Use case mappings page, select **New**.
 
@@ -115,7 +115,7 @@ Conditions under which the use case is applicable.For more information on using 
 
 The use case is mapped to specific tables and conditions. AI applies the use case for contract analysis when the conditions are met.
 
-**Parent Topic:**[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
+**Parent Topic:**[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
 
 **Related topics**  
 
@@ -126,5 +126,5 @@ The use case is mapped to specific tables and conditions. AI applies the use cas
 
 [Map a field to an expected response]()
 
-[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)
+[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)
 

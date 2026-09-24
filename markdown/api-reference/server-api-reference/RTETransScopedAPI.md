@@ -2,7 +2,7 @@
 title: RTETransformer - Scoped
 description: The RTETransformer API provides a method to transform and store an array of messages into a record in the associated ServiceNow instance based on a provided extract, transform, and load \(ETL\) definition.Instantiates an RTETransformer object.Transforms and stores an array of messages into a record in the associated ServiceNow instance based on a provided extract, transform, and load \(ETL\) definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/RTETransScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/RTETransScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +22,7 @@ Use the `sn_impex` namespace when accessing this API.
 
 For additional information, see [Define Robust Transform Engine operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/define-rte-operations.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## RTETransformer - RTETransformer\(String transformDefinitionId, Boolean verboseLogging, String source, Number batchSize\)
 

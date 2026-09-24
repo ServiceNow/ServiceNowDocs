@@ -2,10 +2,10 @@
 title: Combined ServiceNow AI Platform core feature release notes for upgrades from Xanadu to Australia
 description: Consolidated page of all release notes for ServiceNow AI Platform core feature from Xanadu to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowaiplatformcorefeature-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-servicenowaiplatformcorefeature-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -685,5 +685,5 @@ Control whether read-only fields can be updated through client scripts and serve
  Use the Feature Preview Program to choose which pre-release capabilities to activate and test on your instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-xanadu-australia/rn-combined-intro.md)
 

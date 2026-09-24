@@ -2,7 +2,7 @@
 title: Confirm access to Settings table
 description: As part of the configuration for Localization Workspace, confirm access to the Settings table of Localization Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-confirm-access-settings-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-confirm-access-settings-table.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -39,5 +39,5 @@ Localization Workspace requires access to a Localization Framework table, Settin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/configuring-localization-workspace.md)
+**Parent Topic:**[Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/configuring-localization-workspace.md)
 

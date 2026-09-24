@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto for Creator
 description: Install the ServiceNow Otto for Creator application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/install-now-assist-for-creator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-creator/install-now-assist-for-creator.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator

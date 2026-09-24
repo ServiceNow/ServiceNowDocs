@@ -2,7 +2,7 @@
 title: Reassign or accept the assigned action task
 description: Reassign or accept the assigned action task that is listed in the My items list of the Tasks module if you are the task owner. You must review the task details listed in the Details tab, reassign the action task to another task owner, or accept the work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/review-assigned-action-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/review-assigned-action-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure target tables
 description: Target tables are only used when defining real time anonymization policies. They are the basis for which users can select tables and columns in the policy creation process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/configure-data-discovery-target-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/configure-data-discovery-target-table.html
 release: australia
 product: Data Discovery
 classification: data-discovery

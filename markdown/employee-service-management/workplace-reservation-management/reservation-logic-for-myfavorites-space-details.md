@@ -2,7 +2,7 @@
 title: Reservable module derivation logic for Space details
 description: While selecting a reservable module from the Space details page, system identifies the reservable module based on the derivation logic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/reservation-logic-for-myfavorites-space-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/reservation-logic-for-myfavorites-space-details.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -34,9 +34,9 @@ The same selection criteria for reservation modules is applied in this case as w
 -   If **Recurring** is allowed for multiple modules, system checks for and assigns the reservable modules where **Allows all day** reservation is allowed.
 -   If **Recurring** is allowed and **All day** is also set, then, system selects a reservable module where **All day** is not mandatory.
 
-For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
-**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
+**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 **Related topics**  
 

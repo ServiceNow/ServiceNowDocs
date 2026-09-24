@@ -2,7 +2,7 @@
 title: Install Collaboration Services for Task Communications Management
 description: Install the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\) from ServiceNow Store to get the Slack functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/install-collab-services-for-tcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/task-communications-management/install-collab-services-for-tcm.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management

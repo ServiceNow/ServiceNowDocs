@@ -2,7 +2,7 @@
 title: Submit a change event request for a reservation
 description: As a workplace employee, request a change to the date, time, and duration of your planned event reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/submit-change-event-reservation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/submit-change-event-reservation.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -48,10 +48,10 @@ Role required: sn\_wsd\_core.workplace\_user
 
     When the change event request case is assigned to a Workplace Event Planner, AI agentic workflow **Help Manage workplace Reservations** is triggered. AI agents retrieve a reservation from case details, analyze the reservation, and update the reservation case notes for workplace event planners to review. If the same location is available for the updated date and time, application reserves a space for you. If you cannot find a location of your choice when you are changing the date, time, and duration of a reservation, application provides a link for you to select a preferred location manually.
 
-    For more information, see [View change event reservation case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-case-change-event-reservation.md) and [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
+    For more information, see [View change event reservation case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/view-case-change-event-reservation.md) and [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
 
 
-**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

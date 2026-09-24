@@ -2,7 +2,7 @@
 title: Create a checklist
 description: You can create a unique checklist for each task record. You can quickly create a checklist from a previously created template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateAChecklist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateAChecklist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -84,7 +84,7 @@ Under **Create from template**, select a template. The checklist items in the te
 11. Save the form.
 
 
-**Parent Topic:**[Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Checklists.md)
+**Parent Topic:**[Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Checklists.md)
 
 **Related topics**  
 

@@ -2,12 +2,12 @@
 title: Better together with other ServiceNow applications
 description: The integration of Strategic Planning with other ServiceNow applications helps portfolio and product managers to optimize planning, collaboration, and release management for their products.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/better-together-with-other-apps-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/better-together-with-other-apps-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ The integration of Strategic Planning with other ServiceNow applications helps p
 
 The ServiceNow® AI Control Tower workspace enables you to track and monitor all your strategic priorities, goals, targets, planning items, and execution items—projects and demands categorized as Artificial Intelligence in the Strategic Planning Workspace.
 
-Populate the **Type** field for strategic priorities, the **Category** field for goals, and the **Investment type** field for planning items with the **Artificial Intelligence** option to monitor their progress in the AI Control Tower workspace. For more information, see [Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/create-strategic-priority.md), [Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-goal-egm.md), and [Add a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md).
+Populate the **Type** field for strategic priorities, the **Category** field for goals, and the **Investment type** field for planning items with the **Artificial Intelligence** option to monitor their progress in the AI Control Tower workspace. For more information, see [Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/create-strategic-priority.md), [Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-goal-egm.md), and [Add a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md).
 
 When AI Control Tower is installed, the **AI strategy** tab appears in the AI Control Tower workspace, featuring different widgets for AI strategies, goals, targets, costs of planning items, prioritized work, and RIDAC details. For more information, see [AI strategy tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-strategy-ai-control-tower.md).
 
@@ -36,7 +36,7 @@ With the integration of ServiceNow Collaborative Work Management \(CWM\) with St
 
 The lenses supported to configure the CWM Board as a planning item are Organization, Project Portfolio, and Strategic Investments.
 
-For more information on integration of CWM with Strategic Planning, see [Connecting CWM with Strategic Planning or Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-cwm-spw.md). To learn how to update the lens configuration, see [Create or modify a lens in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-a-lens-in-alignment-planner-workspace.md).
+For more information on integration of CWM with Strategic Planning, see [Connecting CWM with Strategic Planning or Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-cwm-spw.md). To learn how to update the lens configuration, see [Create or modify a lens in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-a-lens-in-alignment-planner-workspace.md).
 
 ## Strategic Planning with Enterprise Architecture Workspace
 
@@ -51,5 +51,5 @@ Integrate ServiceNow Digital Portfolio Management \(DPM\) with Strategic Plannin
 
 For more information, see [Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpm-explore-cfw.md).
 
-**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
+**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

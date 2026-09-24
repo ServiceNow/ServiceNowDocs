@@ -2,7 +2,7 @@
 title: OpenAPI/Postman step
 description: Import the OpenAPI specification or a Postman collection of a third-party outbound REST web service and build an integration to the web service. The request details for the underlying REST API operation are derived from the OpenAPI specification or Postman collection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/open-api-step-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/open-api-step-action-designer.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -140,7 +140,7 @@ Attachment
 
 </td><td>
 
-Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the [JSONStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md) and [XMLStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.md) APIs in the Script step. **Note:** This field is available when you select **Binary** from the Request Type list.
+Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the JSONStreamingBuilder and XMLStreamingBuilder APIs in the Script step. **Note:** This field is available when you select **Binary** from the Request Type list.
 
 </td></tr><tr><td>
 

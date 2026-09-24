@@ -2,7 +2,7 @@
 title: Approval assignment scripts
 description: This is a searchable version of the useful approval and assignment scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_UsefulApprovalAssignmentScripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/r\_UsefulApprovalAssignmentScripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -169,8 +169,8 @@ For see [Viewing my approvals](https://raw.githubusercontent.com/ServiceNow/Serv
 
 -   **Custom approval UI macro**
 
-    For information on creating a custom approval UI macro, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md).
+    For information on creating a custom approval UI macro, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_UIMacros.md).
 
 
-**Parent Topic:**[Field script use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UsefulFieldScripts.md)
+**Parent Topic:**[Field script use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_UsefulFieldScripts.md)
 

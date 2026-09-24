@@ -2,7 +2,7 @@
 title: Using insurance applications
 description: Use Financial Services Operations insurance suite of applications to resolve mid-term policy changes and requests with agility and responsiveness.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-insurance-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-insurance-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,14 +22,14 @@ FSO insurance applications enable you to do the following:
 -   Eliminate administrative work from underwriting queues to prioritize written premium.
 -   Improve regulatory compliance through built-in controls and a complete audit trail.
 
--   **[Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/landing-agentic-contact-centre-for-insurance.md)**  
+-   **[Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/landing-agentic-contact-centre-for-insurance.md)**  
 Agentic Contact Center for Insurance enables insurance CSR agents to handle customer interactions more effectively by providing an AI-powered, unified workspace that displays customer summaries and interaction history. Agents can view previous cases and interactions in a single interface, reducing manual research and switching between applications during customer calls.
--   **[Property and Casualty Insurance Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-property-casualty-insurance-servicing.md)**  
+-   **[Property and Casualty Insurance Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-property-casualty-insurance-servicing.md)**  
 Property and Casualty Insurance Servicing policy service requests are supported through personal and commercial applications.
--   **[Life Insurance Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/life-insurance-servicing.md)**  
+-   **[Life Insurance Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/life-insurance-servicing.md)**  
 Life Insurance Servicing policy service requests are supported through individual life and group life applications.
--   **[Insurance claims applications in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-claims-applications.md)**  
+-   **[Insurance claims applications in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/insurance-claims-applications.md)**  
 ServiceNow® Financial Services Operations for Insurance offers several applications that support automated claims processing across different lines of business.
 
-**Parent Topic:**[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-overview.md)
+**Parent Topic:**[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-overview.md)
 

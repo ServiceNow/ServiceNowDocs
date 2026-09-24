@@ -2,7 +2,7 @@
 title: getGlobalTarget\(String indicator, Object onDate\)
 description: Returns the global target associated with the specified indicator for the specified date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/PAFU-getGlobalTarget\_S\_O.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/PAFU-getGlobalTarget\_S\_O.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -31,7 +31,7 @@ Example:
 pa.getGlobalTarget($[[% of open overdue incidents]],score_start);
 ```
 
-**Parent Topic:**[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
+**Parent Topic:**[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/PAFormulaUtils.md)
 
 **Related topics**  
 
@@ -56,5 +56,5 @@ pa.getGlobalTarget($[[% of open overdue incidents]],score_start);
 
 [getScore\(String indicator, Object onDate\)]()
 
-[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
+[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/PAFormulaUtils.md)
 

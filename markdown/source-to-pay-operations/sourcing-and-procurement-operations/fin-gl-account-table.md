@@ -2,7 +2,7 @@
 title: Ledger Account table
 description: The Ledger Account \[sn\_fin\_gl\_account\] table stores information related to: General ledger accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/fin-gl-account-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/fin-gl-account-table.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -43,7 +43,7 @@ The Ledger Account \[sn\_fin\_gl\_account\] table contains the following fields.
 |Risk rating|Choice|Risk rating of the ledger account. The options are High, Medium, or Low.|
 |Description|String|Detailed description of the ledger account.|
 
-**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
 
 **Related topics**  
 

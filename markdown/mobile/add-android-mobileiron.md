@@ -2,7 +2,7 @@
 title: Add the ServiceNow app for Android to MobileIron
 description: Configure the ServiceNow app for Android for MobileIron distribution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/add-android-mobileiron.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/add-android-mobileiron.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -70,5 +70,5 @@ For more information on the MobileIron App Catalog, see the [MobileIron document
 
 If your instance is on an internal network, you might need to configure the VPN. For more information, see the MobileIron documentation on [VPN configuration](http://mi.extendedhelp.mobileiron.com/49/all/en/desktop/VPN_Configuration.htm).
 
-**Parent Topic:**[MobileIron Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobileiron-mdm.md)
+**Parent Topic:**[MobileIron Mobile Device Management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobileiron-mdm.md)
 

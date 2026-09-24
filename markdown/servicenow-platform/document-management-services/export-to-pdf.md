@@ -2,7 +2,7 @@
 title: Export to PDF
 description: Export an individual record or list of records into a PDF format that supports accessibility. When this feature is enabled, accessibility tags are available in the PDF tag tree to help users who rely on-screen readers to navigate, understand, and interact with the generated PDF documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/export-to-pdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/export-to-pdf.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -54,5 +54,5 @@ To enable accessibility, select the **Accessible PDF** check box.
 
 To generate a single PDF record, see [Export data from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/export-form-data.md).
 
-**Parent Topic:**[PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/pdf-generation-accessibility.md)
+**Parent Topic:**[PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/pdf-generation-accessibility.md)
 

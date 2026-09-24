@@ -2,7 +2,7 @@
 title: Activate ServiceNow access control
 description: You request activation of the SNC Access Control plugin \(com.snc.snc\_access\_control\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ActivateSNCAccessControl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ActivateSNCAccessControl.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

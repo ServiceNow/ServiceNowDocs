@@ -2,7 +2,7 @@
 title: Automating tasks from Task Mining
 description: Automation Center can receive task recordings from Task Mining, breaks them into discrete automations, and generates an AI agent in AI Agent Studio that executes those automations using AI Desktop Actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automate-tasks-from-task-mining.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/automate-tasks-from-task-mining.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -65,19 +65,19 @@ Consider the following when using this feature:
 -   **UI-block anchor adjustment**: AI Desktop Actions UI blocks require anchors that identify the UI element to interact with. Anchors captured from Task Mining recordings may not match the format AI Desktop Actions expects and may require manual correction in the AI Desktop Actions editor.
 -   **No cross-product notification**: Automation Center users don't receive a notification when a Task Mining user submits an automation request. The business user and the technical user must coordinate directly.
 -   **Plugin dependencies**: Both Automation Center and AI Desktop Actions must be installed on the target instance before you can create an agent. ServiceNow Otto for Automation Center must be installed to use this feature.
--   **AI skill dependencies**: User task step summarization skill must be activated. For more information, see [Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md).
+-   **AI skill dependencies**: User task step summarization skill must be activated. For more information, see [Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/activate-skill.md).
 
--   **[Generate automations from a Task Mining request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-automations-tm.md)**  
+-   **[Generate automations from a Task Mining request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/generate-automations-tm.md)**  
 Use the **Automations** tab on an automation request to break down a Task Mining recording into discrete automations that Automation Center categorizes as UI-block or non-UI-block interactions.
--   **[Create an agent from automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-agent-automations.md)**  
+-   **[Create an agent from automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-agent-automations.md)**  
 After reviewing the automations on an automation request, create an AI agent in AI Agent Studio that uses those automations as tools to execute the recorded task on a Windows machine.
 
-**Parent Topic:**[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/integrating-with-task-mining.md)
+**Parent Topic:**[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/integrating-with-task-mining.md)
 
 **Related topics**  
 
 
-[Generate automations from a Task Mining request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-automations-tm.md)
+[Generate automations from a Task Mining request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/generate-automations-tm.md)
 
-[Create an agent from automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-agent-automations.md)
+[Create an agent from automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-agent-automations.md)
 

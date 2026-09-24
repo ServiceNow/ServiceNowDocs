@@ -2,7 +2,7 @@
 title: Tables installed with Twilio Direct driver
 description: The tables installed with Twilio Direct driver are described below.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/tables-twilio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/tables-twilio.html
 release: australia
 product: Notify
 classification: notify
@@ -57,5 +57,5 @@ Extends the basic auth credentials. The Account SID and Auth token are stored in
 Stores the history of callback test runs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/installed-with-twilio.md)
+</table>**Parent Topic:**[Components installed with Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/installed-with-twilio.md)
 

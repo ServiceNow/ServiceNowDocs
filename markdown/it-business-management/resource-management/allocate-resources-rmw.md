@@ -2,7 +2,7 @@
 title: Assign and approve unassigned work using Resource Management Workspace
 description: Filter the unassigned work to view priority requests and assign them to resources. Quickly connect with the requester via Microsoft Teams to get additional insights and approve the assigned work using the inline editing feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/allocate-resources-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/allocate-resources-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -29,7 +29,7 @@ The assign logic provides you with the flexibility and control for users when as
 ## Before you begin
 
 -   [Create an active employee definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/generate-profile-definition.md) for resources to view their allocation details on the Resource Management Workspace.
--   [Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md).
+-   [Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rmw-create-rsrc-card.md).
 -   Role required: resource\_user, resource\_manager
 
 ## Procedure
@@ -113,5 +113,5 @@ If no tasks appear in the Unassigned tasks tray, verify the following:
 5.  Check the date range. Verify the resource card's date range overlaps with the resource request dates. Requests outside the visible time frame will not display.
 6.  Confirm the permissions. Confirm you have the resource\_manager role, which is required to view and manage unassigned work.
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md)
 

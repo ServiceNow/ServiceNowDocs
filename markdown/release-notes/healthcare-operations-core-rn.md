@@ -2,7 +2,7 @@
 title: Healthcare Operations Core release notes
 description: The ServiceNow Healthcare Operations Core application streamlines and optimizes healthcare team operational tasks. Healthcare Operations Core was enhanced and updated in the Australia release.The ServiceNow Healthcare Operations Core application streamlines and optimizes healthcare team operational tasks. Healthcare Operations Core was enhanced and updated in the Australia release.The ServiceNow Healthcare Operations Core application streamlines and optimizes healthcare team operational tasks. Healthcare Operations Core was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/healthcare-operations-core-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/healthcare-operations-core-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -39,9 +39,9 @@ See [Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/Se
     If you have the feature administrator role you can now complete tasks that were initially reserved for users with the broader administrator role.
 
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/healthcare-life-sciences-rn-landing.md)
 
 ## April 2026
 

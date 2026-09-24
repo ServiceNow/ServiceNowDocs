@@ -2,7 +2,7 @@
 title: Create tax types to be used in an invoice
 description: Create tax types to categorize taxes applied to invoices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-tax-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-tax-types.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -88,5 +88,5 @@ State to make the tax type available.
 
 The tax type details are added.
 
-**Parent Topic:**[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-calculations-in-apo.md)
+**Parent Topic:**[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/tax-calculations-in-apo.md)
 

@@ -2,7 +2,7 @@
 title: Configure notifications
 description: Configure the content, the trigger conditions, and the recipients for the default notifications shipped with Employee Slate \(built for Now Assist\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-notifications.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

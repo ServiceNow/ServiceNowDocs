@@ -2,7 +2,7 @@
 title: Delete an app in Creator Studio
 description: Delete an app to remove it from Creator Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-delete-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-delete-app.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -18,7 +18,7 @@ Delete an app to remove it from Creator Studio.
 
 ## Before you begin
 
-To delete an app, you must be given permission to delete apps. For more information, see [Customized app collaboration permissions in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-collab-custom-permissions.md).
+To delete an app, you must be given permission to delete apps. For more information, see [Customized app collaboration permissions in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-collab-custom-permissions.md).
 
 ## Procedure
 
@@ -41,5 +41,5 @@ To delete an app, you must be given permission to delete apps. For more informat
 
 The app is removed from Creator Studio, but if it was deployed, the deployed app is still available.
 
-**Parent Topic:**[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-creating-apps.md)
+**Parent Topic:**[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-creating-apps.md)
 

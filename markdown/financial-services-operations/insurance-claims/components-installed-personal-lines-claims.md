@@ -2,7 +2,7 @@
 title: Components installed with Personal Lines Claims
 description: Several types of components are installed with activation of the sn\_ins\_claim\_pers plugin, including plugins, tables, and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/components-installed-personal-lines-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/components-installed-personal-lines-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -39,9 +39,9 @@ Enables the extension of tables from the Customer Service Management application
 
 |Store application|Description|
 |-----------------|-----------|
-|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md).|
+|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-core-data-model.md).|
 |Insurance Special Investigations|Insurance Special Investigations enables insurance carriers to route fraud investigation requests to SIU agents. Requests get routed via adjusters working on claim cases through workflows in the Personal Lines Claims application.|
-|Document Processor|Enables management of document services tasks that are used in insurance policy service cases. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integrating-with-document-processor.md).|
+|Document Processor|Enables management of document services tasks that are used in insurance policy service cases. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/integrating-with-document-processor.md).|
 |Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).|
 
 ## Roles installed

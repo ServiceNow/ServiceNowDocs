@@ -2,7 +2,7 @@
 title: Create an Operational Technology device in the Industrial Workspace
 description: Create an Operational Technology \(OT\) device in the Industrial Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/create-ot-ci-industrial-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/create-ot-ci-industrial-workspace.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -104,5 +104,5 @@ The top-level parent entity, or industrial site, where the device is located or 
 </table>9.  Select **Save**.
 
 
-**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 

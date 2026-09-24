@@ -2,7 +2,7 @@
 title: Delete an agentic workflow
 description: Delete an agentic workflow from AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/delete-aia-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/delete-aia-use-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

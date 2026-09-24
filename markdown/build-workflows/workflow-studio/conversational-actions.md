@@ -2,7 +2,7 @@
 title: Conversational actions
 description: Run a Workflow Studio action from a Now Assist conversation. Create and configure the conversational skill from Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/conversational-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/conversational-actions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -24,15 +24,15 @@ This Platform workflow skill is automatically activated when you install a Now A
 
 ## User role access
 
-Give personnel an appropriate role to access conversational subflows. See [User roles for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.md).
+Give personnel an appropriate role to access conversational subflows. See [User roles for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.md).
 
 ## Making an action conversation compatible
 
 To make an action conversation compatible, you must perform the following steps.
 
 -   Turn on the subflows and actions skill. See .
--   Give personnel an appropriate role to access conversational actions. See [User roles for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.md).
--   Choose action inputs that are compatible with Conversational Interfaces. See [Supported input data types for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/supported-input-data-types-for-conversational-subflows-and-actions.md).
+-   Give personnel an appropriate role to access conversational actions. See [User roles for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.md).
+-   Choose action inputs that are compatible with Conversational Interfaces. See [Supported input data types for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/supported-input-data-types-for-conversational-subflows-and-actions.md).
 -   Add tooltip hint text to all action inputs.
 -   Publish the action.
 
@@ -86,7 +86,7 @@ Conversational subflows and actions support a limited number of input data types
 **Related topics**  
 
 
-[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-subflows.md)
+[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/conversational-subflows.md)
 
-[Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-action-conversation-settings.md)
+[Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configure-action-conversation-settings.md)
 

@@ -2,7 +2,7 @@
 title: Time series reports for mobile
 description: Learn to use time series reports for mobile, which enable you to display a series of data points over successive intervals of time. For example, the number of incidents opened over a certain period. The mobile platform supports the following time series reports, line, spline, and step line.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-reporting-time-series.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-reporting-time-series.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Using data visualizations, Mobile platform dashboards, Using the mo
 
 Learn to use time series reports for mobile, which enable you to display a series of data points over successive intervals of time. For example, the number of incidents opened over a certain period. The mobile platform supports the following time series reports, line, spline, and step line.
 
-**Note:** For information on how to configure time series reports, you need to create mobile dashboard previews within a launcher screen. For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-dashboard-preview.md).
+**Note:** For information on how to configure time series reports, you need to create mobile dashboard previews within a launcher screen. For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-applet-launcher.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-dashboard-preview.md).
 
 <table id="table_jwk_r4p_1mb"><tbody><tr><td>
 

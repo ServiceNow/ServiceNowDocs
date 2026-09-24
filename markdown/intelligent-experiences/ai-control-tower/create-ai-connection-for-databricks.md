@@ -2,7 +2,7 @@
 title: Create an AI connection for Databricks
 description: Create an AI connection for Databricks in AI Control Tower using the  AI Service Graph Connector for Databricks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-databricks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-ai-connection-for-databricks.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

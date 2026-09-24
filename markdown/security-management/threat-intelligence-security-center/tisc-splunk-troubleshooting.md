@@ -2,7 +2,7 @@
 title: Troubleshoot the TISC add-on in Splunk
 description: Enable debug logging on the add-on, view the resulting log entries in Splunk, and check input execution status from the Input Metadata Lookup KV store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-splunk-troubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-splunk-troubleshooting.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -21,7 +21,7 @@ Enable debug logging on the add-on, view the resulting log entries in Splunk, an
 
 Role required: Splunk admin
 
-The TISC add-on is installed and configured. See [Configure TISC add-on in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-configure-splunk.md).
+The TISC add-on is installed and configured. See [Configure TISC add-on in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-configure-splunk.md).
 
 ## About this task
 
@@ -71,14 +71,14 @@ Use this procedure when an input is not pulling observables from TISC as expecte
 
 You have collected the diagnostic information needed to identify why an input failed or returned unexpected results. Provide the relevant log entries and the input's metadata record when raising a support case or working with the add-on team.
 
-**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
+**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
 
 **Related topics**  
 
 
-[Configure TISC add-on in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-configure-splunk.md)
+[Configure TISC add-on in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-configure-splunk.md)
 
-[Data storage in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-storage-splunk.md)
+[Data storage in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-storage-splunk.md)
 
-[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
+[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
 

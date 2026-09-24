@@ -2,7 +2,7 @@
 title: Track Usage Insights in Service Portal
 description: Track Usage Insights for Service Portal to monitor key performance indicators with the Usage Insights application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/create-sp-analytics-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/create-sp-analytics-settings.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -40,7 +40,7 @@ Portals that have been configured for tracking are listed in the Usage Insights 
 
     -   To track analytics only for authenticated users, clear the **Enable Unauthenticated User Tracking** check box.
     -   To track analytics for both unauthenticated and authenticated users, select the **Enable Unauthenticated User Tracking** check box.
-    **Note:** If you enabled unauthenticated user tracking, you might be required by law to notify unauthenticated users that you are tracking their usage for analysis. To display a legal notice, activate the Privacy Notice announcement, which is inactive by default. For more information, see [Activate the privacy notice for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/activate-privacy-notice.md).
+    **Note:** If you enabled unauthenticated user tracking, you might be required by law to notify unauthenticated users that you are tracking their usage for analysis. To display a legal notice, activate the Privacy Notice announcement, which is inactive by default. For more information, see [Activate the privacy notice for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/activate-privacy-notice.md).
 
 5.  Select **Update**.
 
@@ -49,7 +49,7 @@ Portals that have been configured for tracking are listed in the Usage Insights 
 
 You can now view user analytics tracking for the selected portal by navigating to **All** &gt; **Platform Analytics** &gt; **Usage Insights**. For more information on using the Usage Insights application, see [Overview of the Usage Insights application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-dashboard.md).
 
-**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-analytics.md)
+**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 

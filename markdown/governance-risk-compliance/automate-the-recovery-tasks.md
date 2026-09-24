@@ -2,7 +2,7 @@
 title: Automate recovery tasks
 description: Automate the manual recovery task within the business continuity plan. You can classify the manual recovery task as an automated task first and then attach an automated flow to it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/automate-the-recovery-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/automate-the-recovery-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ Automated tasks are executed sequentially until a manual task is encountered. If
 
 4.  On the form, fill in the fields.
 
-    For more information on creating a customized subflow for automating the tasks in the BCM application, see [Create a subflow form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-subflow-for-bcm.md).
+    For more information on creating a customized subflow for automating the tasks in the BCM application, see [Create a subflow form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-subflow-for-bcm.md).
 
     For more information on creating a subflow, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md).
 
@@ -206,8 +206,8 @@ Description and action steps about the issue.
     The Recovery task form now includes a Task classification column where the automated tasks are displayed. These automated tasks are executed automatically by the system as part of the plan.
 
 
--   **[Create a subflow form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-subflow-for-bcm.md)**  
+-   **[Create a subflow form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-subflow-for-bcm.md)**  
 Use the Create a subflow form to automate a manual recovery task within the business continuity plan.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

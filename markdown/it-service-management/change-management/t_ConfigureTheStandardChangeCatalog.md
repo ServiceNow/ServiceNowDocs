@@ -2,7 +2,7 @@
 title: Configure standard change catalog properties
 description: Configure the standard change catalog through the standard change properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ConfigureTheStandardChangeCatalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_ConfigureTheStandardChangeCatalog.html
 release: australia
 product: Change Management
 classification: change-management
@@ -18,7 +18,7 @@ Configure the standard change catalog through the standard change properties.
 
 ## Before you begin
 
-The Change Management - Standard Change Catalog \[com.snc.change\_management.standard\_change\_catalog\] plugin must be activated. The **Administration** menu and the **Standard Change Properties** module appear only after the plugin is active. To activate the plugin, see [Activate Change Management - Standard Change Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateStandardChangeCatalog.md).
+The Change Management - Standard Change Catalog \[com.snc.change\_management.standard\_change\_catalog\] plugin must be activated. The **Administration** menu and the **Standard Change Properties** module appear only after the plugin is active. To activate the plugin, see [Activate Change Management - Standard Change Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ActivateStandardChangeCatalog.md).
 
 Role required: admin
 
@@ -152,7 +152,7 @@ Specify the fields whose values are copied to one or more change task templates 
 
 You can create a standard change catalog. By default, the basic Standard Change Proposal workflow sends approval records to members of the Change Management group and the members should verify and modify the records, as appropriate.
 
-**Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
+**Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
 
 **Related topics**  
 

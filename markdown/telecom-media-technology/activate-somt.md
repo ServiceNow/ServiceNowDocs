@@ -2,7 +2,7 @@
 title: Activate Sales CRM for Telecommunications
 description: Activate the Sales CRM for Telecommunications plugin for Sales CRM for Telecommunications if you have the admin role. The application includes demo data and activate related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/activate-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/activate-somt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-31"

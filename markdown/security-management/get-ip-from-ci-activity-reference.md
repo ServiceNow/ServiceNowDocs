@@ -2,7 +2,7 @@
 title: Get IP from CI activity
 description: This workflow activity determines the IPV4 address associated with a configuration item \(CI\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/get-ip-from-ci-activity-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/get-ip-from-ci-activity-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Possible results for this activity are:
 |Success|An IPv4 address was returned.|
 |Failure|An IPv4 address could not be determined.|
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md)
 

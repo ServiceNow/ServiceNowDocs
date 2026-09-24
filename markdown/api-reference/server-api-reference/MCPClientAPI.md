@@ -2,7 +2,7 @@
 title: MCPClient - Scoped
 description: The MCPClient script include is the entry point for interacting with approved Model Context Protocol \(MCP\) servers. It provides methods for discovering approved servers, listing and inspecting the tools they expose, and invoking those tools.Instantiates an MCPClient object.Returns the list of MCP servers the caller is authorized to access. By default, only servers with an AI Governance approval status of approved are returned.Returns metadata for a single named tool on an approved MCP server.Invokes a named tool on an approved MCP server.Lists all tools exposed by a specified approved MCP server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/MCPClientAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/MCPClientAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,7 +20,7 @@ This script include requires the MCP Client plugin \(sn\_wdf\_mcp\_client\) and 
 
 Before calling this API, complete the required setup:
 
--   MCP server records must be created in the Model Context Protocol Server \[sn\_mcp\_server\] table, each with a valid connection alias configured for authentication.
+-   [MCP server records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/working-with-mcp-server-records.md) must be created in the Model Context Protocol Server \[sn\_mcp\_server\] table, each with a valid connection alias configured for authentication.
 -   The AI Governance plugin \(sn\_ai\_governance\) must be installed. MCP servers must go through the [AI Control Tower \(AICT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md) approval workflow and reach an `approved` governance status before calling invokeTool\(\) on the server.
 
 Typical method call order:
@@ -32,7 +32,7 @@ Typical method call order:
 
 For more information about tools and MCP schema, see [Model Context Protocol - Tools](https://modelcontextprotocol.io/specification/2025-06-18/server/tools).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## MCPClient - MCPClient\(\)
 
@@ -314,7 +314,7 @@ String
 
 </td><td>
 
-Name of the tool. Case sensitive.To view tool names, call [listTools\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MCPClientAPI.md).
+Name of the tool. Case sensitive.To view tool names, call [listTools\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/MCPClientAPI.md).
 
 </td></tr></tbody>
 </table><table id="table_gti_ret_03a" class="returns"><thead><tr><th>

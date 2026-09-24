@@ -2,7 +2,7 @@
 title: Manage time cards in the time sheet
 description: Manage your time cards in the ServiceNow Agent mobile app by performing actions such as submitting or deleting a time card or viewing notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/manage-timesheet-fsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/manage-timesheet-fsm-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

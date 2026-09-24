@@ -2,7 +2,7 @@
 title: Create an LDAP type data source
 description: Create an LDAP type data source record to define what data an import set should import.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/create-ldap-type-data-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/create-ldap-type-data-source.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -22,7 +22,7 @@ Role required: import\_admin
 
 ## About this task
 
-For additional information, see [LDAP type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_LDAPTypeDataSource.md).
+For additional information, see [LDAP type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/r_LDAPTypeDataSource.md).
 
 ## Procedure
 
@@ -110,5 +110,5 @@ Specifies how big the batches should be. Appears only when the **Use Batch Impor
 
 Define a transform map for the new data source and run an import.
 
-**Parent Topic:**[Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreateNewDataSource.md)
+**Parent Topic:**[Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_CreateNewDataSource.md)
 

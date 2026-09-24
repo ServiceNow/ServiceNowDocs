@@ -2,7 +2,7 @@
 title: Flow diagramming view
 description: Create and view flows as diagrams. See the paths a flow can follow and the connections between elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-diagramming-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-diagramming-view.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

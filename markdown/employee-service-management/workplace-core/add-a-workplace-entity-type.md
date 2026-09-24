@@ -2,7 +2,7 @@
 title: Add a workplace entity type
 description: Create an entity type according to your organizational requirement. You can group your workplace entities under this entity type and perform various actions on all entities that belong to this type at a time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/add-a-workplace-entity-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/add-a-workplace-entity-type.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -44,7 +44,7 @@ The entity type is created.
 
 ## What to do next
 
-[Add workplace entities to an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-workplace-entities-to-an-entity-type.md)
+[Add workplace entities to an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/add-workplace-entities-to-an-entity-type.md)
 
-**Parent Topic:**[Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-entity.md)
+**Parent Topic:**[Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-entity.md)
 

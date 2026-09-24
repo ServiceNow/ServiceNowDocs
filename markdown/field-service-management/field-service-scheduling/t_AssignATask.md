@@ -2,7 +2,7 @@
 title: Assign a work order task
 description: Assign agents to unassigned work order tasks using the Dispatcher Workspace map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/t\_AssignATask.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/t\_AssignATask.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

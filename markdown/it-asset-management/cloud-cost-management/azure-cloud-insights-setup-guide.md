@@ -2,7 +2,7 @@
 title: Configure Cloud Cost Management for Microsoft Azure
 description: The Cloud Cost Management application is available on the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/azure-cloud-insights-setup-guide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/azure-cloud-insights-setup-guide.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -105,7 +105,7 @@ You assign Cloud Cost Management roles to user groups and to individual users ba
 
 </td><td>
 
-[Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-roles.md)
+[Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/cloud-insights-roles.md)
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ To enable Discovery to communicate with your Microsoft Azure account, you specif
 
 </td><td>
 
-[Configuring access to CI data on your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.md)
+[Configuring access to CI data on your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.md)
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ You schedule the Discovery process to ensure that the CMDB data on resources rem
 
 </td><td>
 
-[Discovering your cloud resources for use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-discovery-cloudin.md)
+[Discovering your cloud resources for use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-discovery-cloudin.md)
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Billing Download jobs download, organize, and store billing data for your payer 
 
 </td><td>
 
-[Set up access to Microsoft Azure billing and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-billing-usage-data.md)
+[Set up access to Microsoft Azure billing and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/azure-billing-usage-data.md)
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ A Price Sheet Download job downloads and stores price sheet data. The Rightsizin
 
 </td><td>
 
-[Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.md)
+[Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.md)
 
 </td></tr><tr><td>
 
@@ -173,10 +173,10 @@ A Price Sheet Download job downloads and stores price sheet data. The Rightsizin
 
 </td><td>
 
--   [Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/rs-cloudin.md)
--   [Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/um-cloudin.md)
--   [Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/bh-cloudin.md)
--   [Unassigned resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/ur-cloudin.md)
+-   [Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/rs-cloudin.md)
+-   [Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/um-cloudin.md)
+-   [Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/bh-cloudin.md)
+-   [Unassigned resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/ur-cloudin.md)
 
 </td></tr></tbody>
 </table>

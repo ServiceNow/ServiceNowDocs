@@ -2,7 +2,7 @@
 title: Managing issues from Business Continuity Workspace
 description: Associate issues with business continuity plans to track problems identified during continuity planning. Create an issue or add an existing issue from the Issues related list on a plan record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/managing-issues-in-bcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/managing-issues-in-bcm.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-17"
@@ -19,7 +19,7 @@ Associate issues with business continuity plans to track problems identified dur
 
 -   **Prerequisites**
 
-    The GRC: Profiles application must be installed as a prerequisite for issue management. For more information, see [Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issues-bcm-dependencies.md).
+    The GRC: Profiles application must be installed as a prerequisite for issue management. For more information, see [Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/issues-bcm-dependencies.md).
 
 -   **Benefits**
 
@@ -40,7 +40,7 @@ Certain GRC applications are required for Issues integration with BCM:
 
 The **Issues** related list appears when BCM and these GRC applications are installed.
 
-For more information, see [Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issues-bcm-dependencies.md).
+For more information, see [Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/issues-bcm-dependencies.md).
 
 ## Classification and source
 
@@ -101,11 +101,11 @@ The "Record page vertical template" application is installed with GRC Base Works
 **Related topics**  
 
 
-[Issue modules in Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-issue-list-modules.md)
+[Issue modules in Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-issue-list-modules.md)
 
-[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)
+[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)
 
-[Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)
+[Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)
 
-[Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issues-bcm-dependencies.md)
+[Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/issues-bcm-dependencies.md)
 

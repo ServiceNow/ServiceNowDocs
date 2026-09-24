@@ -2,7 +2,7 @@
 title: AI-powered Software Spend Detection
 description: AI-powered spend detection identifies software purchases in imported spend transactions and normalizes the derived raw publisher and raw product to existing publisher and product records in Software Asset Management Content Library. This automation improves spend reporting accuracy and reduces manual classification effort.
 locale: en-us
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/spend-detection-ai-enhancements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/spend-detection-ai-enhancements.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -33,7 +33,7 @@ After a spend transaction import completes, the **SAM - Label Spend Transactions
     Matches the extracted publisher and product to the existing records in the Software Asset Management Content Library. This linking enables accurate spend reporting and license position tracking.
 
 
-For more details, see [Classify and normalize software spend transactions by using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/classify-normalize-software-spend-transactions.md) and [Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.md).
+For more details, see [Classify and normalize software spend transactions by using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/classify-normalize-software-spend-transactions.md) and [Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.md).
 
 Transactions not identified as software are not processed by the Spend transaction software normalization skill.
 
@@ -70,7 +70,7 @@ When the classification skill identifies a transaction as a non-software purchas
 
 After a transaction reaches the Labeled or Partially labeled state, the **Is managed** field is evaluated. When a matching software model exists in your Software Asset Management Content Library for the normalized publisher and product, the **Is managed** field is set to true.
 
-The maximum number of retry attempts is controlled by the **samp.spend\_prediction\_service.max\_label\_attempts** system property, which defaults to 3. You can update this property at any time. For more details, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-properties.md).
+The maximum number of retry attempts is controlled by the **samp.spend\_prediction\_service.max\_label\_attempts** system property, which defaults to 3. You can update this property at any time. For more details, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-properties.md).
 
 ## AI activity log
 
@@ -78,16 +78,16 @@ Track how many software transactions are processed by the AI pipeline using the 
 
 To access the card, go to **Software Asset Workspace** &gt; **Software asset overview**. The card appears under the **Activity center** section.
 
-**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-spend-detection.md)
 
 **Related topics**  
 
 
-[Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)
+[Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)
 
-[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/exploring-now-assist-sam.md)
+[AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/exploring-now-assist-sam.md)
 
-[Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.md)
+[Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.md)
 
-[Generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-generative-ai-skills-now-assist-sam.md)
+[Generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-generative-ai-skills-now-assist-sam.md)
 

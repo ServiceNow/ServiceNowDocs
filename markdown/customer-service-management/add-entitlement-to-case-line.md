@@ -2,7 +2,7 @@
 title: Add an entitlement to a case line
 description: Add one or more entitlements to a case line in CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-entitlement-to-case-line.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-entitlement-to-case-line.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

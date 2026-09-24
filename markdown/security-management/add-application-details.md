@@ -2,7 +2,7 @@
 title: Add application details
 description: Add application details for your integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/add-application-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/add-application-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

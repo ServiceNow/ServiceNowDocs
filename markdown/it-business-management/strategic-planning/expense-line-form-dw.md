@@ -2,7 +2,7 @@
 title: Expense line form
 description: The expense line form enables you to create an expense line for the actual expenses for your demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/expense-line-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/expense-line-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

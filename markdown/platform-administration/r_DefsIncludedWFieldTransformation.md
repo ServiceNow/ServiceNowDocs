@@ -2,7 +2,7 @@
 title: Default transform definitions
 description: The system offers default transform definitions for fields containing text, text numeric, and numeric values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_DefsIncludedWFieldTransformation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_DefsIncludedWFieldTransformation.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

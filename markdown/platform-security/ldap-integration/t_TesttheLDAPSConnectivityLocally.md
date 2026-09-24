@@ -2,7 +2,7 @@
 title: Test the LDAPS connectivity locally
 description: Test the LDAPS connectivity after installing the internal and third party certificates when you configure Microsoft Active Directory for SSL access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_TesttheLDAPSConnectivityLocally.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ldap-integration/t\_TesttheLDAPSConnectivityLocally.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

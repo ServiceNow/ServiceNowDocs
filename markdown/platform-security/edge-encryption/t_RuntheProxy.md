@@ -2,7 +2,7 @@
 title: Start the Edge Encryption proxy
 description: After an Edge Encryption proxy is installed and configured, you can start the proxy from the command line.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/t\_RuntheProxy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/edge-encryption/t\_RuntheProxy.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -32,7 +32,7 @@ Before starting the encryption proxy, verify the following:
 
 1.  Run the proxy server.
 
-<table id="choicetable_mpf_khb_tt"><tbody><tr><td id="d274167e99">
+<table id="choicetable_mpf_khb_tt"><tbody><tr><td id="d273553e99">
 
 **On a Linux machine**
 
@@ -42,7 +42,7 @@ Before starting the encryption proxy, verify the following:
 2.  Execute `./startup.sh`
 
 
-</td></tr><tr><td id="d274167e123">
+</td></tr><tr><td id="d273553e123">
 
 **On a Windows machine**
 
@@ -56,9 +56,9 @@ Perform the following steps from the command line as admin:1.  `cd` to `ServerNa
 </table>2.  Check the log on the proxy server to verify that the proxy is running.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/manual-proxy-install.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/manual-proxy-install.md)
 
-**Previous topic:**[Set the proxy server initial memory limit and upper bound memory limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/increase-memory.md)
+**Previous topic:**[Set the proxy server initial memory limit and upper bound memory limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/increase-memory.md)
 
-**Next topic:**[Obfuscate passwords in the properties file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_SetUpPasswordEncryption.md)
+**Next topic:**[Obfuscate passwords in the properties file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/t_SetUpPasswordEncryption.md)
 

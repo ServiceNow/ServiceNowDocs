@@ -2,7 +2,7 @@
 title: Chronological alert data in an alert group
 description: Visualize the chronological sequence of events within an alert group in Express List using the Timeline view. This feature provides a comprehensive overview of when the alerts occurred, their severity changes, and other pertinent data for efficient triage and Mean Time to Resolution \(MTTR\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-timeline-view-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-timeline-view-concept.html
 release: australia
 product: Event Management
 classification: event-management
@@ -35,5 +35,5 @@ The title of the Timeline view for an alert group summarizes the group's descrip
 **Related topics**  
 
 
-[View a timeline of the alerts in an alert group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-timeline-view.md)
+[View a timeline of the alerts in an alert group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-timeline-view.md)
 

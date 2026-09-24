@@ -2,7 +2,7 @@
 title: Configure left padding of a system number in a table
 description: You can configure the left padding of the system numbers on a table. For example, pad the Number field on an Incident, Problem, or Change Request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_RenumberingRecords.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_RenumberingRecords.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ You can configure the left padding of the system numbers on a table. For example
 
 ## Before you begin
 
-If you are configuring numbers on a custom table or a table that does not extend the task table, then, before performing the following procedure, you must prepare business rules and script includes. For more information, see [Prepare to left-pad number fields in custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PrepToLeftPadNumFldsInCustmTbls.md).
+If you are configuring numbers on a custom table or a table that does not extend the task table, then, before performing the following procedure, you must prepare business rules and script includes. For more information, see [Prepare to left-pad number fields in custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_PrepToLeftPadNumFldsInCustmTbls.md).
 
 Role required: admin
 
@@ -47,5 +47,5 @@ Role required: admin
     \[Omitted image "PaddedIncidentnumber.png"\] Alt text: Padded incident number
 
 
-**Parent Topic:**[Prepare to left-pad number fields in custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PrepToLeftPadNumFldsInCustmTbls.md)
+**Parent Topic:**[Prepare to left-pad number fields in custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_PrepToLeftPadNumFldsInCustmTbls.md)
 

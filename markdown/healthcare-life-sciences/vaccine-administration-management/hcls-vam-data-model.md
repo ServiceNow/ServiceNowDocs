@@ -2,7 +2,7 @@
 title: Vaccine Administration Management data model
 description: The Vaccine Administration Management application provides a data model that is used in the vaccine administration workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-vam-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/vaccine-administration-management/hcls-vam-data-model.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management

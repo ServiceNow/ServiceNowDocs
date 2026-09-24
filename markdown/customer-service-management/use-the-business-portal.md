@@ -2,7 +2,7 @@
 title: Using the Business Portal
 description: Search for answers to questions or known issues, or contact a customer service agent for assistance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-the-business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-the-business-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ From the Business Portal home page, you can access and use the following feature
 **Related topics**  
 
 
-[Customer contact self-registration on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_Business-PortalSelfRegistration.md)
+[Customer contact self-registration on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_Business-PortalSelfRegistration.md)
 
-[Guest users experience on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guest-users-experience-business-portal.md)
+[Guest users experience on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/guest-users-experience-business-portal.md)
 

@@ -2,7 +2,7 @@
 title: Create Respond automation
 description: Respond to alerts automatically by notifying appropriate stakeholders, escalating them as needed based on severity and type, or other executing response actions. This process ensures that alerts are managed promptly and effectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/respond-alert-sow-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/respond-alert-sow-itom.html
 release: australia
 product: Event Management
 classification: event-management
@@ -83,11 +83,11 @@ Description
 
 </td><td>
 
-Creates an incident for the alerts that match the specified filter.For details on mapping the alert fields to the incident fields, see [Alert field mapping on the Respond page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-field-mapping-respond-page.md).
+Creates an incident for the alerts that match the specified filter.For details on mapping the alert fields to the incident fields, see [Alert field mapping on the Respond page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-field-mapping-respond-page.md).
 
 **Note:** If you want incident fields to be automatically populated with default values, consider using **Create Incident \(advanced\)** in the **Response subflows** field. **Create Incident \(advanced\)** pre-populates incident fields even when you don’t explicitly customize them, which helps ensure consistent incident data and reduces configuration effort.
 
-The **Create incident and other response actions** option also executes selected subflows from Workflow Studio for alerts that match the specified condition. For example, you may select [out-of-the-box subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/subflows-provided.md) to restart services. You can also create your own [custom subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-custom-create-incident-subflow.md), leveraging hundreds of integrations available in Integration Hub.
+The **Create incident and other response actions** option also executes selected subflows from Workflow Studio for alerts that match the specified condition. For example, you may select [out-of-the-box subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/subflows-provided.md) to restart services. You can also create your own [custom subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-custom-create-incident-subflow.md), leveraging hundreds of integrations available in Integration Hub.
 
 \[Omitted image "respond-automation-actions-details.png"\] Alt text: Response subflow
 
@@ -128,7 +128,7 @@ To add another response action, select **+ Add response action**.
 
 Sends notifications to other systems using outbound webhooks. For example, this capability can be used to send a chat notification, create a case, or trigger an external runbook to remediate the issue.
 
- For details on configuring an outbound webhook, see [Outbound webhook parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/outbound-webhook-parameters.md).
+ For details on configuring an outbound webhook, see [Outbound webhook parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/outbound-webhook-parameters.md).
 
  To create an additional property, select **+ Add property**. The property can be any custom key-value pair that you want to include in the webhook payload, such as "Content-Type: application/json" or "Authorization: Bearer &lt;token&gt;".
 
@@ -143,7 +143,7 @@ Sends notifications to other systems using outbound webhooks. For example, this 
 
     \[Omitted image "respond-automation-details.png"\] Alt text: Respond automation details section
 
-    For information on the Automation details fields, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/automation-details-fields.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/automation-details-fields.md).
+    For information on the Automation details fields, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/automation-details-fields.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/automation-details-fields.md).
 
 10. Select **Save automation**.
 

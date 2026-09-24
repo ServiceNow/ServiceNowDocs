@@ -2,7 +2,7 @@
 title: Create new policy
 description: Create a Data Discovery policy to begin scanning tables for data patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/dds-new-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/dds-new-policy.html
 release: australia
 product: Data Discovery
 classification: data-discovery

@@ -2,7 +2,7 @@
 title: Configure air gap solution for Microsoft SCCM in a high-secure server
 description: Configure the air gap solution for the Service Graph Connector for Microsoft SCCM in your high-secure server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-high-secure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-high-secure.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -46,11 +46,11 @@ Role required: admin
 
     All the configurations required for the air gap solution are created in the Microsoft SCCM directory.
 
-6.  Copy the `GetSCCMData.ps1` and `SgSCCMHighSecureSetup.ps1` PowerShell scripts that you downloaded in step [3.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-high-secure.md) to the Microsoft SCCM directory.
+6.  Copy the `GetSCCMData.ps1` and `SgSCCMHighSecureSetup.ps1` PowerShell scripts that you downloaded in step [3.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-high-secure.md) to the Microsoft SCCM directory.
 
 7.  Start a PowerShell session, and run the `SgSCCMHighSecureSetup.ps1` script to generate the JSON configuration file that is used by the `GetSCCMData.ps1` script.
 
-    1.  At the prompt, enter the path for the Microsoft SCCM data directory that you created in step [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-high-secure.md).
+    1.  At the prompt, enter the path for the Microsoft SCCM data directory that you created in step [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-high-secure.md).
 
     2.  Enter a name for the configuration file, or press the Return key to accept the default value.
 
@@ -70,7 +70,7 @@ Role required: admin
 
     6.  Exit the PowerShell session.
 
-8.  Provide write and delete permissions for the Microsoft SCCM data directory and the child directories \(created in step [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-high-secure.md)\) to the account that will run the `GetSCCMData.ps1` script.
+8.  Provide write and delete permissions for the Microsoft SCCM data directory and the child directories \(created in step [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-high-secure.md)\) to the account that will run the `GetSCCMData.ps1` script.
 
     Delete permissions are required for old records to be cleaned up.
 
@@ -78,5 +78,5 @@ Role required: admin
 **Related topics**  
 
 
-[Configure air gap solution for Microsoft SCCM in a low-secure server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-low-secure.md)
+[Configure air gap solution for Microsoft SCCM in a low-secure server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-sccm-airgap-low-secure.md)
 

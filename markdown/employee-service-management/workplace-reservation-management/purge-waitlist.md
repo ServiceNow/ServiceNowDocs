@@ -2,7 +2,7 @@
 title: Purge a waitlist
 description: An auto flush rule on the Reservation Waiting List \(sn\_wsd\_rsv\_waitlist\) table purges expired waitlist records older than 30 days to maintain accurate waitlist management reporting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/purge-waitlist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/purge-waitlist.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -61,9 +61,9 @@ Waitlist entries that are cancelled, expired, or fulfilled are purged automatica
     Waitlist entries in terminal states older than the specified retention period are purged.
 
 
-**Parent Topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
+**Parent Topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
 
-**Previous topic:**[Create a schedule job for waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/schedule-job-waitlist.md)
+**Previous topic:**[Create a schedule job for waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/schedule-job-waitlist.md)
 
-**Next topic:**[Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md)
+**Next topic:**[Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md)
 

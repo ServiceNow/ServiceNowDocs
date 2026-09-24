@@ -2,7 +2,7 @@
 title: Hide seconds in date/time fields on mobile cards, record screen details pages, or activity streams
 description: Set the mobileCardsShowSeconds, recordScreenDetailsShowSeconds, or the activityStreamShowSeconds mobile properties to False to hide the display of seconds in date/time fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/hide-secs-mobcds-recscreen-actstrem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/hide-secs-mobcds-recscreen-actstrem.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,7 +67,7 @@ Application
 
 </td><td>
 
-Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe image\) on the instance banner. Then select **Application scope:_application\_scope_**. For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
+Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe image\) on the instance banner. Then select **Application scope:_application\_scope_**. For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -149,5 +149,5 @@ Mobile application that you want to send the mobile property to. This setting li
 
 After updating this property, the end user must refresh the app to get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md)
 

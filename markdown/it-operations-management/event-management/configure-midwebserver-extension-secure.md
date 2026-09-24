@@ -2,7 +2,7 @@
 title: Configure a secure MID Web Server extension
 description: Configure a TLS listener for extra security and encryption of data transferred to and from the MID Web Server extension. Access both a private key and a certificate \(or certificate chain\) from a Java keystore. Use these credentials during the TLS handshake where the MID Web Server and the client acknowledge each other.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-midwebserver-extension-secure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configure-midwebserver-extension-secure.html
 release: australia
 product: Event Management
 classification: event-management
@@ -28,10 +28,10 @@ Role required: agent\_client\_collector\_admin
 
 3.  In the **Authentication Type** field, select an authentication type to be used.
 
-    -   Keybased – See [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md)
+    -   Keybased – See [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md)
     -   Basic – Standard username/password authentication
-    -   API key – See [Configure MID Web Server API key authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/mid-web-server-api-key-authentication.md)
-    -   mTLS – See [MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)
+    -   API key – See [Configure MID Web Server API key authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/mid-web-server-api-key-authentication.md)
+    -   mTLS – See [MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)
 4.  Select either the MID unified keystore or the web server keystore.
 
     The MID Web Server unified keystore is the most efficient option. To enable backward compatibility and store keypairs in an additional keystore, use the Web server keystore. This option also allows you to use the MID unified keystore.
@@ -74,5 +74,5 @@ For more information, see the **Install custom certificates in the MID Server un
 **Related topics**  
 
 
-[Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enable-tls-agent.md)
+[Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/enable-tls-agent.md)
 

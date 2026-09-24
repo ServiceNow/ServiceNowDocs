@@ -2,7 +2,7 @@
 title: MISP event data
 description: You can review the MISP event data so that you can see detailed information about the MISP events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/misp-event-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/misp-event-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

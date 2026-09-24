@@ -2,7 +2,7 @@
 title: Adjusting component visibility in responsive authoring
 description: When creating pages with responsive authoring for different form factors, learn how to show or hide components by completing steps to hide an image at mobile size.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/responsive-authoring-component-visibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/responsive-authoring-component-visibility.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -36,11 +36,11 @@ In this procedure, show buttons across the top for the desktop and tablet form f
 
 2.  Open an experience to work in or create an experience by selecting **Create &gt; Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create a page from scratch with responsive authoring.
 
-    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-page.md).
 
 4.  At the top, check that the desktop form factor icon is selected.
 
@@ -173,5 +173,5 @@ In this procedure, show buttons across the top for the desktop and tablet form f
 21. Close the preview overlay by selecting the **X**.
 
 
-**Parent Topic:**[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/responsive-authoring.md)
+**Parent Topic:**[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/responsive-authoring.md)
 

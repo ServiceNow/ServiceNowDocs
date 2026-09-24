@@ -2,11 +2,11 @@
 title: Exploring L1 IT Service Desk AI Specialist
 description: The L1 IT Service Desk AI Specialist uses AI agents to accomplish bigger tasks, such as task triage or updating customers with solutions that worked for similar issues. Unlike AI agents that automate specific business tasks, the L1 IT Service Desk AI Specialist is designed to perform many relevant tasks to function like a member of your team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/exploring-l1-sd-ai-specialist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/exploring-l1-sd-ai-specialist.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-25"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [explore]
 breadcrumb: [L1 IT Service Desk AI Specialist, IT Service Management]
 ---
@@ -33,7 +33,7 @@ The tasks available to the L1 IT Service Desk AI Specialist include:
 -   Communicate updates
 -   Handle escalations and reroute tickets
 
-You can learn more about the different tasks and their options in [Configure L1 IT Service Desk AI Specialist tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md).
+You can learn more about the different tasks and their options in [Configure L1 IT Service Desk AI Specialist tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/config-tasks-l1-sd-ai-spec-sow.md).
 
 ## L1 IT Service Desk AI Specialist users
 
@@ -82,15 +82,15 @@ Service Desk managers have the capabilities of a standard Service Desk Agent \(s
 
 Follow this workflow to implement and manage the L1 IT Service Desk AI Specialist in your organization.
 
-1.  [Configure the L1 Service Desk AI Specialist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-l1-sd-ai-specialist.md)
+1.  [Configure the L1 Service Desk AI Specialist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configuring-l1-sd-ai-specialist.md)
 
-    -   [Basic details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/config-details-l1-sd-ai-spec-sow.md), including name, profile icon, department, and description.
-    -   [Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/config-profile-l1-sd-ai-spec-sow.md), including roles and assignment groups.
-    -   [Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md), which consist of its tasks.
-    Once you have configured the L1 IT Service Desk AI Specialist, you can [test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/test-l1-sd-ai-spec-sow.md) it on specific task records to preview how it works.
+    -   [Basic details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/config-details-l1-sd-ai-spec-sow.md), including name, profile icon, department, and description.
+    -   [Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/config-profile-l1-sd-ai-spec-sow.md), including roles and assignment groups.
+    -   [Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/config-tasks-l1-sd-ai-spec-sow.md), which consist of its tasks.
+    Once you have configured the L1 IT Service Desk AI Specialist, you can [test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/test-l1-sd-ai-spec-sow.md) it on specific task records to preview how it works.
 
-2.  [Monitor activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/activity-l1-sd-ai-spec.md) to review the records that the L1 IT Service Desk AI Specialist has worked on to verify the details.
-3.  [Track performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/perf-l1-sd-ai-spec.md), including analytics that show effectiveness, incident outcomes, and value and feedback. Use the analytics routinely to view the details in these areas. You can configure the L1 IT Service Desk AI Specialist to make changes at any time.
+2.  [Monitor activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/activity-l1-sd-ai-spec.md) to review the records that the L1 IT Service Desk AI Specialist has worked on to verify the details.
+3.  [Track performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/perf-l1-sd-ai-spec.md), including analytics that show effectiveness, incident outcomes, and value and feedback. Use the analytics routinely to view the details in these areas. You can configure the L1 IT Service Desk AI Specialist to make changes at any time.
 
 ## L1 IT Service Desk AI Specialist benefits
 
@@ -107,11 +107,11 @@ Follow this workflow to implement and manage the L1 IT Service Desk AI Specialis
 
 To learn more about configuring and using the L1 Service Desk AI Specialist, see:
 
--   [Configuring the L1 Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-l1-sd-ai-specialist.md)
--   [Using L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/using-l1-sd-ai-specialist.md)
--   [Reference for L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/reference-l1-sd-ai-specialist.md)
+-   [Configuring the L1 Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configuring-l1-sd-ai-specialist.md)
+-   [Using L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/using-l1-sd-ai-specialist.md)
+-   [Reference for L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/reference-l1-sd-ai-specialist.md)
 
 ## Related products
 
-For more information about ServiceNow Autonomous Workforce, which is made up of AI specialists, see , and review the .
+For more information about ServiceNow Autonomous Workforce, which is made up of AI specialists, see [Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-workforce.md), and review the [General guidelines for deploying an autonomous workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-ai-workforce.md).
 

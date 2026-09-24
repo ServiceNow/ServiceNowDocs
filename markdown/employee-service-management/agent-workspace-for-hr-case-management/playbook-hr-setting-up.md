@@ -2,7 +2,7 @@
 title: Setting up HR Service Delivery Playbook
 description: Set up HR Service Delivery Playbook so that your agents can easily manage, track, and lifecycle event cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-setting-up.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-setting-up.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -42,7 +42,7 @@ Set up HR Service Delivery Playbook so that your agents can easily manage, track
     -   Each activity shows an HR task, case, request, and others. The activities look at the HR Playbook Card Configuration table to match the lowest order record.
     -   The HR Playbook Card Configuration can have filters to determine what values to render.
     -   Use HR Playbook Card Configuration to configure cards.
-    -   For more information, see [Configure HR Service Delivery playbook card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-card-configuration.md).
+    -   For more information, see [Configure HR Service Delivery playbook card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-card-configuration.md).
 
 As an HR administrator, use this to configure how each playbook looks in HR Service Delivery Playbook for different types of records \(HR case, task, and others\). Different record types have different relevant information to show.
 

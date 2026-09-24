@@ -2,7 +2,7 @@
 title: Reviewing customer or partner accounts
 description: Learn how your order entry and fulfillment agents, managers, and fulfillers can use the 360 View in the Order Management application to get a better perspective about the activity that is associated with a customer's or partner's account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/reviewing-customer-accounts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/reviewing-customer-accounts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,15 +23,15 @@ As an order agent, manager, or fulfiller, you can use your customer's or partner
 
 **Note:** To learn how to create new customer accounts, see [Configure accounts and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-accounts-contacts.md) in Customer Service Management \(CSM\).
 
--   **[Review an account using the 360 View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-customer-account-360-view.md)**  
+-   **[Review an account using the 360 View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/review-customer-account-360-view.md)**  
 Review a customer or partner's account by using the 360 View in the Order Management application. You can track the service contracts of your customers or partners. You can also view customer and service orders, cases, products, and equipment to see how you can improve your customer service.
 
-**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

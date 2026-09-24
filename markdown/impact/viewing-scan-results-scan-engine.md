@@ -2,7 +2,7 @@
 title: View scan results for Scan Engine
 description: You can view scans in real-time as they run or after they're completed. 
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/viewing-scan-results-scan-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/viewing-scan-results-scan-engine.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ You can view scans in real-time as they run or after they're completed. 
 
 -   Fully configure the general and additional Scan Engine properties.
 
-    See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md) and [Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/additional-scan-engine-properties.md).
+    See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md) and [Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/additional-scan-engine-properties.md).
 
 -   Role required: sn\_se.scan\_engine\_user or sn\_se.scan\_engine\_admin
 
@@ -96,5 +96,5 @@ System messages and progress updates from the scan.
 </table>
 ## What to do next
 
-From the summary scan record, use the **Findings** related list to view all findings discovered during this scan. See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/understand-scan-engine-results-findings.md) for more information.
+From the summary scan record, use the **Findings** related list to view all findings discovered during this scan. See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/understand-scan-engine-results-findings.md) for more information.
 

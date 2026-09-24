@@ -2,7 +2,7 @@
 title: Transfer a primary ticket in Service Operations Workspace
 description: You can transfer a primary ticket to Universal Request, service set \(department\), or service either with resolution or without resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/transfer-primary-task-ur-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/transfer-primary-task-ur-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -53,5 +53,5 @@ Role required: itil
 
 After you select **Transfer**, the primary task is routed to the selected department or service. A new ticket is created for the target department, and the original primary task is linked to it in the Universal Request record under the **Associated Requests** related list.
 
-**Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/using-ur-sow.md)
+**Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/using-ur-sow.md)
 

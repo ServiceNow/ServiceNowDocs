@@ -2,7 +2,7 @@
 title: Purchase on behalf of another user in Shopping Hub
 description: Shoppers can purchase products and services on behalf of another user in Shopping Hub. When purchasing on behalf of another user, shoppers can also view the carts and purchases associated with that user. A shopper who is authorized to purchase on behalf of other users is referred to as a super shopper.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-on-behalf-sh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-on-behalf-sh.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -71,7 +71,7 @@ Role required: sn\_shop.shopping\_hub\_admin
 
 Plugin required: Shopping Hub \(sn\_spend\_uib\)
 
-verify that you configure the super shopper to purchase on behalf of other users. For more information, see [Enable a shopper to purchase on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.md).
+verify that you configure the super shopper to purchase on behalf of other users. For more information, see [Enable a shopper to purchase on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.md).
 
 ## How it works
 
@@ -107,5 +107,5 @@ If a user is selected from the **Shopping for** list \(for example, Warren Summe
 
 \[Omitted image "sh-purchase-behalf-disabled.png"\] Alt text: Shopping Hub product page with inactive "Purchase on behalf of" check box showing Warren Summers selected.
 
-**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
+**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
 

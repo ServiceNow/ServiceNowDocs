@@ -2,7 +2,7 @@
 title: Download an iCalendar for a reservation
 description: Add the reservation to your office calendar by downloading the iCalendar of the reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/generate-ical.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/generate-ical.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -32,15 +32,15 @@ For example, assume that your calendar provider is Microsoft Outlook. After you 
 
 1.  Navigate to **My Reservations** page from any of the following starting points.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d423130e66">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d422855e66">
 
 Location
 
-</th><th align="left" id="d423130e69">
+</th><th align="left" id="d422855e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d423130e75">
+</th></tr></thead><tbody><tr><td id="d422855e75">
 
 **From the application navigator**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **My Reservations**.
 
-</td></tr><tr><td id="d423130e96">
+</td></tr><tr><td id="d422855e96">
 
 **Employee Center**
 
@@ -92,7 +92,7 @@ Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **My Reser
 
 The reservation is added to your calendar.
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

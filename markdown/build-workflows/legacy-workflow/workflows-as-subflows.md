@@ -2,7 +2,7 @@
 title: Workflows used as subflows
 description: A workflow can launch another workflow as an activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/workflows-as-subflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/workflows-as-subflows.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -40,10 +40,10 @@ In this configuration, the workflow does not run the same subflow containing a *
 
 \[Omitted image "WorkflowCreateTaskSubflow2Diagram.png"\] Alt text:
 
--   **[Pass a variable from a workflow to a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_VariableWorkflowSubflow.md)**  
+-   **[Pass a variable from a workflow to a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/t_VariableWorkflowSubflow.md)**  
 Use this process to pass variables from a parent workflow to a subflow.
--   **[Prepare a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_PrepareASubflow.md)**  
+-   **[Prepare a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/t_PrepareASubflow.md)**  
 Review the process of preparing a subflow for use in a parent workflow, and for preparing the parent workflow to use a subflow.
 
-**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/managing-workflows.md)
+**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/managing-workflows.md)
 

@@ -2,12 +2,12 @@
 title: Configure endpoint operation mapping
 description: You can configure endpoint mapping on a storage volume to make a connection to a resource.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/configure-endpoint-mapping-cmp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/configure-endpoint-mapping-cmp.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Create a custom resource block, Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -92,7 +92,7 @@ Resource block that can present an **Endpoint** of the type that you specified. 
 </table>2.  Repeat the process for as many mappings as are needed.
 
 
-**Parent Topic:**[Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-resource-block.md)
+**Parent Topic:**[Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-resource-block.md)
 
 **Related topics**  
 

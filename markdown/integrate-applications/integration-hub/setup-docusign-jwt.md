@@ -2,7 +2,7 @@
 title: Set up Docusign eSignature spoke using JWT grant
 description: Integrate the ServiceNow instance and Docusign by using JWT grant to authenticate ServiceNow requests.Create a custom OAuth application from your Docusign account to enable OAuth 2.0 authentication with the Docusign eSignature spoke.Generate a JKS certificate for the JWT authentication of the Docusign eSignature spoke.Enable the JWT Bearer Grant token authentication by attaching a valid Java KeyStore \(JKS\) certificate to the Docusign eSignature spoke.Create a JSON Web Token \(JWT\) signing key to assign to your Java KeyStore certificate.Add a JSON Web Token \(JWT\) provider to your ServiceNow instance.Use the information generated during Docusign account configuration to register Docusign as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Obtain explicit consent for the ServiceNow application from Docusign.Create Credential records to the Docusign custom OAuth application you created during Docusign account configuration. The Docusign spoke connection and credential alias uses these credentials to authorize actions.Create Connection records to your Docusign account. The Docusign spoke connection and credential alias uses these connections to perform actions in DocuSsign.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-docusign-jwt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-docusign-jwt.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -48,7 +48,7 @@ Complete these steps from your Docusign account. See the [Docusign Developer Cen
 
 3.  Record the values of integrator key and secret key to register the app as a third-party OAuth provider on your ServiceNow instance.
 
-    You need these values when you [Register Docusign as OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-jwt.md)
+    You need these values when you [Register Docusign as OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-jwt.md)
 
 4.  Click **ADD RSA KEYPAIR** and record the **Keypair ID**, **Public Key**, and **Private Key**.
 
@@ -91,7 +91,7 @@ Role required: admin
 
 3.  Paste the Private Key you had earlier generated from your Docusign integrator app.
 
-    For more information, see [Configure Docusign account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-jwt.md).
+    For more information, see [Configure Docusign account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-jwt.md).
 
     **Note:** Ensure that you include both beginning and ending of the private key.
 
@@ -456,5 +456,5 @@ Connection URL
 
 ### What to do next
 
-Synchronize ServiceNow with Docusign to access Docusign accounts, templates, and envelopes from the Docusign spoke. See [Synchronize Docusign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sync-docusign-servicenow.md).
+Synchronize ServiceNow with Docusign to access Docusign accounts, templates, and envelopes from the Docusign spoke. See [Synchronize Docusign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/sync-docusign-servicenow.md).
 

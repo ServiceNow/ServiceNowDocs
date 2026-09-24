@@ -2,7 +2,7 @@
 title: Frequently asked questions about agentic evaluations
 description: Find answers to common questions about setting up and running evaluations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-eval-faqs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-eval-faqs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-18"

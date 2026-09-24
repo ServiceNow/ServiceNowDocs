@@ -2,7 +2,7 @@
 title: Creating execution plan tasks
 description: An execution plan contains one or more task templates. Each task template defines work that can be completed by a specific fulfillment group.Each execution plan contains one or more task templates that define actions that must be taken to fulfill a request.Administrators and catalog administrators can define conditions under which a particular execution plan task runs, or is skipped, when the relevant item is requested.Administrators can use a condition script in addition to or instead of any condition to determine whether a task runs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_CreatingExecutionPlanTasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/c\_CreatingExecutionPlanTasks.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -38,7 +38,7 @@ Requested Item ITEM0004 -- 1 X executive desktop
 -   Catalog Task0003 -- Install standard corporate application
 -   Catalog Task0004 -- Deliver computer to requester
 
-**Parent Topic:**[Execution Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ExecutionPlans.md)
+**Parent Topic:**[Execution Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ExecutionPlans.md)
 
 ## Define task templates
 

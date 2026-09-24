@@ -2,7 +2,7 @@
 title: HR Triaging Dashboard
 description: The HR Triaging Dashboard enables you to review your teams' case assignments in a layout where cases are displayed as cards. This layout enables easy movement of case cards between lanes, enabling you to review and reassign cases by auto-updating HR service, or user, or priority.Configure the settings in the Triaging Dashboard so that you can view your team's case assignments categorized by HR service, or priority, or assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-triaging-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-triaging-dashboard.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

@@ -2,7 +2,7 @@
 title: HR Service Delivery and CSDM tables
 description: HR Service Delivery manages \(contributes data to\) CSDM tables. HR Service Delivery also uses data from CSDM tables that other applications generate. Several ServiceNow products, therefore, benefit from and add value to HR Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hrsd-csdm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hrsd-csdm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

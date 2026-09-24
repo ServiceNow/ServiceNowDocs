@@ -2,7 +2,7 @@
 title: Activate a delegator
 description: Delegators assign users to seats in a scenario. Activating the delegator sends an email notification request that they assign seats using Move Details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_ActivateADelegator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_ActivateADelegator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,8 +31,8 @@ Role required: facilities\_staff or move\_basic
 5.  Click **Activate Delegators**.
 
 
--   **[Move delegators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_EnterpriseMoveDelegators.md)**  
+-   **[Move delegators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_EnterpriseMoveDelegators.md)**  
 Facilities administrators assign move delegators to assign users to locations.
 
-**Parent Topic:**[Enterprise move scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_EnterMoveScenarios.md)
+**Parent Topic:**[Enterprise move scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_EnterMoveScenarios.md)
 

@@ -2,7 +2,7 @@
 title: Save changes in Mobile App Builder
 description: Save all the changes you make within the Mobile App Builder with a single action. There is no need to save each change individually before moving onto another screen or record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-save.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-save.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

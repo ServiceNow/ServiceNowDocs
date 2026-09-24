@@ -2,7 +2,7 @@
 title: Bulk edit a site's Operational Technology Vulnerability Response assignment group
 description: Use the bulk edit feature to update the Operational Technology Vulnerability Response \(OT VR\) assignment group field in multiple site records at once.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/bulk-edit-assignment-group-otvr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/bulk-edit-assignment-group-otvr.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -41,5 +41,5 @@ Role required: cmdb\_ot\_isa\_admin
 
 The **OT VR assignment group** field is updated for each selected site.
 
-**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

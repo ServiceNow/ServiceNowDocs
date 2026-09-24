@@ -2,7 +2,7 @@
 title: Validate foundation data sync subscription items
 description: Configure the sample data received from the provider to validate a foundation data sync \(FDS\) subscription item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-validate-fds-subscription.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-validate-fds-subscription.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -61,15 +61,15 @@ After the provider sends the sample, a subscription is generated for each offeri
 
     The choice depends on whether you are working with a Configuration Management Database \(CMDB\), CMDB with **Maintain sysID** enabled by the provider, or a non-CMDB table.
 
-<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d26379e185">
+<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d26383e185">
 
 Option
 
-</th><th align="left" id="d26379e188">
+</th><th align="left" id="d26383e188">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26379e194">
+</th></tr></thead><tbody><tr><td id="d26383e194">
 
 **Configure data integration for CMDB tables**
 
@@ -80,14 +80,14 @@ Description
 A message is displayed stating that you’re about to navigate to the ETL Transform Map Assistant guided setup.
 
 2.  Confirm your choice by selecting **OK**.
-3.  Use the guided setup to complete the mapping to integrate third-party data into CMDB. For details, see .
+3.  Use the guided setup to complete the mapping to integrate third-party data into CMDB. For details, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrationhub-etl.md).
 
 **Note:** Since FDS provides display values for reference fields, if you want to use reference data, you must create a table lookup transform mapping to retrieve the Sys ID from the reference table. For more details, see [Foundation Data Sync :: Known issues and workarounds \[KB2299760\]](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=8a2b463c873aaadc57288519dabb354b)
 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d26379e237">
+</td></tr><tr><td id="d26383e238">
 
 **Configure data integration for CMDB tables \(__Maintain sysID__ enabled by the provider\)**
 
@@ -102,7 +102,7 @@ A message is displayed stating that you’re about to navigate to the Transform 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d26379e279">
+</td></tr><tr><td id="d26383e280">
 
 **Configure data integration for non-CMDB table**
 
@@ -127,5 +127,5 @@ After you complete the configuration, the state of the subscription item and of 
 
 ## What to do next
 
-[Accept the subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-accept-fds-subscription.md).
+[Accept the subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-accept-fds-subscription.md).
 

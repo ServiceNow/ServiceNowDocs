@@ -2,7 +2,7 @@
 title: Install the AES product and integrations
 description: Install the App Engine Studio \(AES\) product to verify that you get all the dependencies, integrations, and tools, such as templates and builders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-install-product-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/aes-install-product-integrations.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -51,5 +51,5 @@ Role required: admin
 
 App Engine Studio is installed on your instance.
 
-**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-installation-store.md)
 

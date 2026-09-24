@@ -2,7 +2,7 @@
 title: Add or edit a value stream
 description: Create or edit a value stream to organize and understand the flow of value creation in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-or-edit-a-value-stream.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-or-edit-a-value-stream.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,19 +34,19 @@ Role required: sn\_apm.apm\_user
     -   To update details of an existing value stream, select the value stream.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create value stream form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-value-stream-form.md).
+    For field information, see [Create value stream form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-new-value-stream-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-value-streams.md)
+**Parent Topic:**[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-value-streams.md)
 
 **Related topics**  
 
 
-[Add value stream stages to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-vs-stages-to-a-vs.md)
+[Add value stream stages to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-vs-stages-to-a-vs.md)
 
-[Associate an application model to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-an-application-model-to-a-value-stream.md)
+[Associate an application model to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-an-application-model-to-a-value-stream.md)
 
-[View value streams details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-value-streams.md)
+[View value streams details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-value-streams.md)
 

@@ -2,7 +2,7 @@
 title: Managing workplace shifts that you own
 description: Review the workplace shifts that you own in Workplace Core and update the shift details if necessary. You can also monitor the reservations and requests made for the workspaces associated with these shifts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/managing-shifts-you-own-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/managing-shifts-you-own-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -16,12 +16,12 @@ breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Servi
 
 Review the workplace shifts that you own in Workplace Core and update the shift details if necessary. You can also monitor the reservations and requests made for the workspaces associated with these shifts.
 
--   **[Update details of the shifts that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/update-shifts-you-own-wsd.md)**  
+-   **[Update details of the shifts that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/update-shifts-you-own-wsd.md)**  
 Review and modify the details of the workplace shifts that you own in Workplace Core. You can modify the general shift details, and add or remove employees or workplaces associated with the shift.
--   **[Review workplace reservations for shifts that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/review-workplace-reservation-requests-for-shifts-you-own-wsd.md)**  
+-   **[Review workplace reservations for shifts that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/review-workplace-reservation-requests-for-shifts-you-own-wsd.md)**  
 Review the workplace reservations and the reservation requests made for the shifts that you own in Workplace Core. You can identify pending requests and work with your workplace manager to resolve them.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

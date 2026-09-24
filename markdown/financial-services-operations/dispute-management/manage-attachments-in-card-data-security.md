@@ -2,7 +2,7 @@
 title: Manage attachments in Card Data Security
 description: Learn how attachments in the contextual side panel are handled in Card Data Security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.html
 release: australia
 product: Dispute Management
 classification: dispute-management

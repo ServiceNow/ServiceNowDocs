@@ -2,7 +2,7 @@
 title: Table form fields
 description: The Table form contains fields for defining a table and its columns for document extraction in a use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/table-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/table-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -79,7 +79,7 @@ Column type
 
 </td><td>
 
-Type of field in the table column — for example, a text or date field. For more information, see [Field types in Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/field-types.md). Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
+Type of field in the table column — for example, a text or date field. For more information, see [Field types in Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/field-types.md). Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/data-normalization.md).
 
 </td></tr><tr><td>
 
@@ -106,5 +106,5 @@ Create multiple tables
 When selected, keeps the form open after saving. Select this option when adding more than one table to the use case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Content Understanding forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-forms.md)
+</table>**Parent Topic:**[Content Understanding forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cu-forms.md)
 

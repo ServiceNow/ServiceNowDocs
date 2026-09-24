@@ -2,7 +2,7 @@
 title: Perform asset audit for personal stockrooms
 description: Verify and reconcile assets between a physical location such as the technician's stockroom and the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/perform-asset-audit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/perform-asset-audit.html
 release: australia
 product: Work Order Management
 classification: work-order-management

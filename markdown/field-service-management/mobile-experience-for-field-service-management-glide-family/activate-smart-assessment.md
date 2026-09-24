@@ -2,7 +2,7 @@
 title: Activate Smart Assessment for Field Service questionnaire
 description: You can activate the Smart Assessment for Field Service Questionnaire plugin \(sn\_fsm\_smart\_asmt\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-smart-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-smart-assessment.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -53,7 +53,7 @@ The following items are installed with Smart Assessment for Field Service Questi
 -   Script includes
 -   Scheduled job
 
-For more information, see [Smart Assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-components.md).
+For more information, see [Smart Assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/smart-assessment-components.md).
 
 ## Procedure
 
@@ -73,7 +73,7 @@ For more information, see [Smart Assessment components](https://raw.githubuserco
 **Related topics**  
 
 
-[Enable Smart Assessment Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/enable-smart-assessment-questionnaire.md)
+[Enable Smart Assessment Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/enable-smart-assessment-questionnaire.md)
 
-[Migrating to Smart Assessment from survey-based questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-sa-by-migrating.md)
+[Migrating to Smart Assessment from survey-based questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-sa-by-migrating.md)
 

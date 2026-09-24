@@ -2,7 +2,7 @@
 title: Case line characteristic form
 description: The case line characteristic form displays details about the product offering included in a case line item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-line-characteristics-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-line-characteristics-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

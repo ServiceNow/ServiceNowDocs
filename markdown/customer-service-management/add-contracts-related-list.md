@@ -2,7 +2,7 @@
 title: Add a service contract related list
 description: Add a service contract related list to the Accounts, Consumers, and Households pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-contracts-related-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-contracts-related-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,15 +28,15 @@ To see the contracts associated with Accounts, Consumers, and Households, respec
 
 1.  Add related lists to sold products and install base items.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d325279e65">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d325283e65">
 
 Add to
 
-</th><th align="left" id="d325279e68">
+</th><th align="left" id="d325283e68">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d325279e74">
+</th></tr></thead><tbody><tr><td id="d325283e74">
 
 **Accounts**
 
@@ -46,7 +46,7 @@ Procedure
 2.  Select the account.
 
 
-</td></tr><tr><td id="d325279e107">
+</td></tr><tr><td id="d325283e107">
 
 **Consumers**
 
@@ -56,7 +56,7 @@ Procedure
 2.  Select the consumer.
 
 
-</td></tr><tr><td id="d325279e140">
+</td></tr><tr><td id="d325283e140">
 
 **Households**
 

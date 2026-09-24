@@ -2,7 +2,7 @@
 title: Enable the Oracle GLAS V2 data collection method
 description: Enable the Oracle GLAS V2 data collection method to improve data collection performance in large-scale or high volume Oracle database environments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -42,7 +42,7 @@ Role required: glas\_admin or admin
 
 ## What to do next
 
-Run discovery again to begin data collection in V2. To verify data population, navigate to **All** &gt; **Oracle GLAS Data Collection** &gt; **GLAS V2 - Databases** and check the **Content** field. To download the collected data, see [Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.md).
+Run discovery again to begin data collection in V2. To verify data population, navigate to **All** &gt; **Oracle GLAS Data Collection** &gt; **GLAS V2 - Databases** and check the **Content** field. To download the collected data, see [Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.md).
 
-**Parent Topic:**[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
+**Parent Topic:**[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
 

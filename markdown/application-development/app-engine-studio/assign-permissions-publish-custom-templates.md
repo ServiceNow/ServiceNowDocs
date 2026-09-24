@@ -2,7 +2,7 @@
 title: Assign permissions to publish custom templates
 description: Assign permissions for developers to publish a custom template to the application repository or the ServiceNow Store. You can grant permissions to publish either a specific custom template or publish all existing custom templates in App Engine Studio \(AES\).Assign permissions to developers so they can publish an individual App Engine Studio \(AES\) custom template to the application repository or ServiceNow Store.Assign permissions for developers to publish custom App Engine Studio \(AES\) templates and applications to the app repository or ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/assign-permissions-publish-custom-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/assign-permissions-publish-custom-templates.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -16,7 +16,7 @@ breadcrumb: [Build a custom template, Use an app template, Create your app, Buil
 
 Assign permissions for developers to publish a custom template to the application repository or the ServiceNow Store. You can grant permissions to publish either a specific custom template or publish all existing custom templates in App Engine Studio \(AES\).
 
-**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/build-custom-template.md)
 
 ## Assign permissions to publish an individual custom template
 

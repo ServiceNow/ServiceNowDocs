@@ -2,7 +2,7 @@
 title: Edit a reservation using the event planner
 description: As a reservation planner, edit a reservation directly using the event planner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/edit-a-reservation-using-the-event-planner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/edit-a-reservation-using-the-event-planner.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -18,7 +18,7 @@ As a reservation planner, edit a reservation directly using the event planner.
 
 ## Before you begin
 
-You can also manage a reservation using the schedule view. Using the schedule view, you can edit the start and end time, or to move the reservation to another location. For more information, refer to [Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-view.md).
+You can also manage a reservation using the schedule view. Using the schedule view, you can edit the start and end time, or to move the reservation to another location. For more information, refer to [Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-schedule-view.md).
 
 Ensure that you have installed the Calendar component \(sn\_calendar\) of version 23.2.0 or later.
 
@@ -82,7 +82,7 @@ To manage a multi-location or a group reservation, you must open the reservation
 
 ## Result
 
-The changes are saved. To change the reservation timings or change the location, refer to [Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-view.md).
+The changes are saved. To change the reservation timings or change the location, refer to [Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-schedule-view.md).
 
-**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-event-planner.md)
 

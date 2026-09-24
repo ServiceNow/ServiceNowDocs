@@ -2,7 +2,7 @@
 title: Understand how trigger conditions work with a configuration item
 description: After you create a profile and select the FireEye capabilities that you want the profile to run, configure the profile settings so that it runs only when a set of specific conditions are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/understand-trigger-conditions-work-with-configuration-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/understand-trigger-conditions-work-with-configuration-item.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

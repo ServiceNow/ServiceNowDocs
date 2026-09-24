@@ -2,7 +2,7 @@
 title: Create an emergency notification and monitor its workflow
 description: Use the Emergency notification tab in the event workspace to create a notification for a crisis event or an exercise event where the exercise method is Functional.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-emergency-notification-everbridge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-emergency-notification-everbridge.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

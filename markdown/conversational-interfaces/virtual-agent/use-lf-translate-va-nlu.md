@@ -2,7 +2,7 @@
 title: Localize Virtual Agent topics that use NLU topic discovery
 description: Use the ServiceNow Localization Framework to manage the process of localizing Virtual Agent conversations that use Natural Language Understanding \(NLU\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Use the ServiceNow Localization Framework to manage the process of localizing Vi
 
 ## Before you begin
 
-Check the prerequisites for translating Virtual Agent components. For more information, see [Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md).
+Check the prerequisites for translating Virtual Agent components. For more information, see [Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/localize-va-topic.md).
 
 Make sure that your Virtual Agent topics are published and performing the way you want them to. Make any adjustments before you send them to localization.
 
@@ -54,7 +54,7 @@ Role required: virtual\_agent\_admin or admin
 
         **Note:** If a topic is already in localization, the corresponding check box is not available.
 
-    -   [Edit translations directly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/edit-translations-va-topics.md)
+    -   [Edit translations directly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/edit-translations-va-topics.md)
 7.  Click **Manage NLU translations**.
 
     The model opens in NLU Workbench. Request translations for your model group. For more information, see [Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translate-multilingual-model.md).
@@ -68,14 +68,14 @@ Once translations are published, they are made available to Virtual Agent topics
 
 ## What to do next
 
-You may need to [map a topic to secondary models or a language-specific model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/map-nlu-language-model.md).
+You may need to [map a topic to secondary models or a language-specific model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/map-nlu-language-model.md).
 
-When translations are done, you can [test localized NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-nlu-language-model.md).
+When translations are done, you can [test localized NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/test-nlu-language-model.md).
 
--   **[Map a topic to a secondary NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/map-nlu-language-model.md)**  
+-   **[Map a topic to a secondary NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/map-nlu-language-model.md)**  
 Map a Virtual Agent topic to a secondary model in the model group or to a standalone, single-language NLU model for each supported language.
--   **[Test topic and NLU model translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-nlu-language-model.md)**  
+-   **[Test topic and NLU model translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/test-nlu-language-model.md)**  
 Test a translated Virtual Agent topic and the localized NLU model to ensure that it works as expected in a conversation.
 
-**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md)
+**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

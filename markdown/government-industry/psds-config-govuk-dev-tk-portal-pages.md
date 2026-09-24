@@ -2,7 +2,7 @@
 title: Configure the GOV.UK Design System Service Portal Pages
 description: By default, the GOV.UK Developer Toolkit supplies you with pages that can be used as-is, or customized by adding and removing widgets in Service Portal Designer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-govuk-dev-tk-portal-pages.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -26,16 +26,16 @@ Several pages are included with the GOV.UK Developer Toolkit application for use
 
 |Page|Description|
 |----|-----------|
-|[Homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-homepage.md)|This page serves as an entry point to the GDS portal for UK citizens, enabling access to relevant public services, and navigation to high-priority actions, key information, quick links, and case updates.|
-|[Registration and Log-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-registlogin.md)|These pages enable a user to register or login to the portal, with different configurable forms and widgets for constituent, business contact, and business, registration.|
-|[User Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-profile-page.md)|This page provides the basic structure for UK constituents to view and manage their personal profiles, preferences, and activity history.|
-|[Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-browse-cat-page.md)|This page enables UK constituents to view all the public services available to them in the GDS Service Portal.|
-|[Case List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-case-list-page.md)|This page enables UK constituents to view all of their submitted requests for public services.|
-|[Case Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-stdt-page.md)|This page standardizes ticket views across the portal, allows UK constituents to track case status and communications, and staff agents to manage case details and documents.|
-|[Knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-knowl-page-cont.md)|These pages enable UK constituents to browse and search articles and guides, categorized into organized content sections \(Featured, Most Useful, Most Viewed\), without contacting support.|
-|[Frequently Asked Questions \(FAQs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-faq-page.md)|This page provides an organized, searchable, and accessible repository of frequently asked questions, enabling users to find answers to common questions about services, submissions, or portal functionality.|
+|[Homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-homepage.md)|This page serves as an entry point to the GDS portal for UK citizens, enabling access to relevant public services, and navigation to high-priority actions, key information, quick links, and case updates.|
+|[Registration and Log-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-registlogin.md)|These pages enable a user to register or login to the portal, with different configurable forms and widgets for constituent, business contact, and business, registration.|
+|[User Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-profile-page.md)|This page provides the basic structure for UK constituents to view and manage their personal profiles, preferences, and activity history.|
+|[Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-browse-cat-page.md)|This page enables UK constituents to view all the public services available to them in the GDS Service Portal.|
+|[Case List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-case-list-page.md)|This page enables UK constituents to view all of their submitted requests for public services.|
+|[Case Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-stdt-page.md)|This page standardizes ticket views across the portal, allows UK constituents to track case status and communications, and staff agents to manage case details and documents.|
+|[Knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-knowl-page-cont.md)|These pages enable UK constituents to browse and search articles and guides, categorized into organized content sections \(Featured, Most Useful, Most Viewed\), without contacting support.|
+|[Frequently Asked Questions \(FAQs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-faq-page.md)|This page provides an organized, searchable, and accessible repository of frequently asked questions, enabling users to find answers to common questions about services, submissions, or portal functionality.|
 |Record Producer|This page enables UK constituents to submit new cases or requests via a GDS-compliant form.|
-|[Error Handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-error-page.md)|These pages provides the basic structure for GDS-compliant error pages that display error messages with helpful links on a 404, 500, or 503 error.|
+|[Error Handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-error-page.md)|These pages provides the basic structure for GDS-compliant error pages that display error messages with helpful links on a 404, 500, or 503 error.|
 
 Navigate to **All &gt; Service Portal &gt; Pages** to see the Pages \[sp\_page\] table, which displays a list of pages available for use and customization within the portal.
 
@@ -71,7 +71,7 @@ By default, the GOV.UK Developer Toolkit supplies you with already-configured pa
 
     For widgets that do not contain any information by default, you must configure the options for their widget instances before they will appear on a portal page. For more information about configuring widget instance options, see [Configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConfigureWidgetInstances.md).
 
-    For more information on the library of widgets and other page components that are included with the GOV.UK Developer Toolkit and GDS Service Portal, see [GOV.UK Design System Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md).
+    For more information on the library of widgets and other page components that are included with the GOV.UK Developer Toolkit and GDS Service Portal, see [GOV.UK Design System Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-widget-lib.md).
 
 9.  Select the **Preview** tab to preview your changes to the page, or the \[Omitted image "psds\_spd\_new\_tab\_icon.png"\] Alt text: new tab icon icon to view the edited page in a new tab.
 

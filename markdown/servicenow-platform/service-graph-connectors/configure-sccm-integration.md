@@ -2,7 +2,7 @@
 title: Configure Service Graph Connector for Microsoft SCCM using the guided setup
 description: Set up and validate data source connection credentials to import Microsoft SCCM data into your CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/configure-sccm-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/configure-sccm-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -26,8 +26,8 @@ Confirm that you are in the Service Graph Connector for Microsoft SCCM applicati
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   Integration - JDBC \(com.snc.integration.jdbc\)
 -   Windows MID Server required for access to the SCCM environment.
 
@@ -43,11 +43,11 @@ To access Microsoft SCCM data, you must have appropriate access to the Microsoft
 
 Starting with Service Graph Connector for Microsoft SCCM version 3.0.4, support for multi-instance is introduced, enabling Service Graph Connector for Microsoft SCCM to connect to and import data from multiple Microsoft SCCM instances. This feature involves dynamically creating data sources and scheduled imports, requiring the granting of additional permissions. For more information about how to complete these steps, see [Service Graph Connector for Microsoft 3.0 Setup Guidelines \[KB1001248\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1001248) in Now Support.
 
-Air gap connections are available from version 3.7.0 of the Service Graph Connector for Microsoft SCCM. You can add either standard data sources or air gap data sources by using SGC Central. See [Configure Service Graph Connector for Microsoft SCCM using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-sccm-integ.md).
+Air gap connections are available from version 3.7.0 of the Service Graph Connector for Microsoft SCCM. You can add either standard data sources or air gap data sources by using SGC Central. See [Configure Service Graph Connector for Microsoft SCCM using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgcc-configure-sccm-integ.md).
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Procedure
 
@@ -71,12 +71,12 @@ Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
     6.  Set the **Update Data Source Access** task to complete by selecting **Mark as Complete**.
 
-    7.  Repeat the steps [4.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-sccm-integration.md) to [4.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-sccm-integration.md) for the Update Scheduled data import access task with the Scheduled data import \[scheduled\_data\_set\] table and set the task to complete by selecting **Mark as Complete**.
+    7.  Repeat the steps [4.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-sccm-integration.md) to [4.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-sccm-integration.md) for the Update Scheduled data import access task with the Scheduled data import \[scheduled\_data\_set\] table and set the task to complete by selecting **Mark as Complete**.
 
 5.  Configure the authentication credentials and configuration used for connecting to the Microsoft SCCM database.
 
-    -   To establish a JDBC connection to the SCCM database, proceed to step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-sccm-integration.md).
-    -   To use Windows JDBC-integrated authentication, proceed to step [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-sccm-integration.md).
+    -   To establish a JDBC connection to the SCCM database, proceed to step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-sccm-integration.md).
+    -   To use Windows JDBC-integrated authentication, proceed to step [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-sccm-integration.md).
     1.  Use a user name and password to establish a JDBC connection to the SCCM database.
 
         **Note:** Perform this step only when you want to use a user name and password to establish a JDBC connection. Otherwise, select **Skip** to skip the step.
@@ -397,15 +397,15 @@ To resolve issues when configuring the connector, you can view the following add
 **Related topics**  
 
 
-[Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md)
+[Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md)
 
-[CMDB classes targeted in Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sccm-classes.md)
+[CMDB classes targeted in Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-sccm-classes.md)
 
-[Configure Service Graph Connector for Microsoft SCCM using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-sccm-integ.md)
+[Configure Service Graph Connector for Microsoft SCCM using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgcc-configure-sccm-integ.md)
 
-[Enable Software Editions in Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/enable-software-editions-sccm.md)
+[Enable Software Editions in Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/enable-software-editions-sccm.md)
 
-[Accessing the connection details of Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-sccm-conn.md)
+[Accessing the connection details of Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-sccm-conn.md)
 
-[Configuring air gap connections for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-sccm-airgap.md)
+[Configuring air gap connections for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-sccm-airgap.md)
 

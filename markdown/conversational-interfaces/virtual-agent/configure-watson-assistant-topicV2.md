@@ -2,7 +2,7 @@
 title: Integrating Virtual Agent with IBM Watson Assistant for Assistant V2 API
 description: Configure the IBM Watson Assistant Chat Integration to run a dialog skill \(conversation\) created in IBM Watson Assistant with the Assistant V2 API. The V2 API enables the Virtual Agent chat widget to run a topic that uses Watson Assistant's intent disambiguation feature to improve topic discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-watson-assistant-topicV2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-watson-assistant-topicV2.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +19,7 @@ Configure the IBM Watson Assistant Chat Integration to run a dialog skill \(conv
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 With the IBM Watson Assistant v2 API chat integration, the chat widget communicates with an assistant instead of with a workspace. Workspaces are referred to as dialog skills. For information on IBM Watson Assistant, see [Migrating to the v2 API](https://cloud.ibm.com/docs/services/assistant?topic=assistant-api-migration&locale=en-us#overview) in the IBM Watson Assistant documentation.
 
@@ -148,5 +148,5 @@ The IBM Watson Assistant V2 API enables the chat widget to use the Watson Assist
     \[Omitted image "ExampleDisambiguationTopic.png"\] Alt text: Virtual Agent conversation showing additional intents discovered through the disambiguation feature.
 
 
-**Parent Topic:**[Integrating IBM Watson Assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ibm-watson-assistant-config.md)
+**Parent Topic:**[Integrating IBM Watson Assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ibm-watson-assistant-config.md)
 

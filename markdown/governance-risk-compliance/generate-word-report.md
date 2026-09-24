@@ -2,7 +2,7 @@
 title: Generate a Microsoft Word report
 description: Generate customized Microsoft Word reports for different records using Microsoft Word templates. This functionality enables you to streamline reporting in a standardized format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/generate-word-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/generate-word-report.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager \(The R
 
     \[Omitted image "word-rep-1.png"\] Alt text: Contents of the Microsoft Word report.\[Omitted image "word-rep-2.png"\] Alt text: Fields in the Microsoft Word report.
 
-    For information on Microsoft Word templates and Template configurations, see [Generating Microsoft Word reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/gen-word-reports.md).
+    For information on Microsoft Word templates and Template configurations, see [Generating Microsoft Word reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/gen-word-reports.md).
 
     The generation of Microsoft Word reports, required by the authorities for analysis in Digital resilience incident reporting, is completed with this step.
 

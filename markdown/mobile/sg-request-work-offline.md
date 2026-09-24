@@ -2,7 +2,7 @@
 title: Request offline mode
 description: Activate offline mode for mobile by requesting the activation of the SG Offline support plugin \(com.glide.sg.offline\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-request-work-offline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-request-work-offline.html
 release: australia
 topic_type: task
 last_updated: "2026-06-09"
@@ -70,7 +70,7 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Install and enable offline capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/enable-offline.md)
+**Parent Topic:**[Install and enable offline capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/enable-offline.md)
 
 **Related topics**  
 

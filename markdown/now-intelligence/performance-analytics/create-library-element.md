@@ -2,7 +2,7 @@
 title: Create a library element
 description: Convert an artifact and its children in a KPI tree into a KPI Composer cross-project library element.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-library-element.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/create-library-element.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -61,5 +61,5 @@ A library element starts out as Personal in scope. Only the user who created it 
 
 You cannot edit a library element from inside a project.
 
-**Parent Topic:**[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)
+**Parent Topic:**[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)
 

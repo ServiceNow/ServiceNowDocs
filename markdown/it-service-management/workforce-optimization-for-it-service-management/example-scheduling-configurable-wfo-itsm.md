@@ -2,7 +2,7 @@
 title: Example for using scheduling in Workforce Optimization for ITSM
 description: Understand how you can set up and publish agent schedules and how your agents can manage their own schedule based on an example.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/example-scheduling-configurable-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/example-scheduling-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -30,7 +30,7 @@ The manager and their team can manage schedules by performing the following step
 4.  Publish the schedule
 5.  Agents make requests to change the schedule or take time off
 
-    For more information, refer to [Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md).
+    For more information, refer to [Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md).
 
 6.  Approve requests
 
@@ -40,5 +40,5 @@ Get an overview of how you can monitor shifts and schedule for your entire team 
 
 Get an overview of how agents use the workspace to manage their schedule.
 
-For detailed information on creating and managing schedules using Workforce Optimization for ITSM, refer to [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
+For detailed information on creating and managing schedules using Workforce Optimization for ITSM, refer to [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
 

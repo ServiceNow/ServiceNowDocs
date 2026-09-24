@@ -2,7 +2,7 @@
 title: Get started with the mobile app for Approvals
 description: Access the My Approvals application instance on your mobile app to manage approval requests using your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/get-started-mobile-cat-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/get-started-mobile-cat-requests.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -33,7 +33,7 @@ Download the ServiceNow® mobile application on an iOS platform from the Apple A
 3.  Tap **My Approvals** to start managing your requests.
 
 
-**Parent Topic:**[Fulfiller experience in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/itsm-mobile-request-approval.md)
+**Parent Topic:**[Fulfiller experience in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/itsm-mobile-request-approval.md)
 
 **Related topics**  
 

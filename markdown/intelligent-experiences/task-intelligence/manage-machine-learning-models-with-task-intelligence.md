@@ -2,7 +2,7 @@
 title: Manage machine learning models with Task Intelligence
 description: Create, edit, train, and assess machine learning models to make predictions for customer service cases and incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/manage-machine-learning-models-with-task-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/task-intelligence/manage-machine-learning-models-with-task-intelligence.html
 release: australia
 product: Task Intelligence
 classification: task-intelligence

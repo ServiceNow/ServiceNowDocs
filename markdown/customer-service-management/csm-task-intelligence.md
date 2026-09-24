@@ -2,7 +2,7 @@
 title: Task Intelligence for Customer Service
 description: Task Intelligence for Customer Service offers several AI capabilities such as language detection, record categorization, Sentiment Analysis, and Document Intelligence. These capabilities automate several routine tasks across the case lifecycle and enable agents to focus on complex case resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-task-intelligence.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Record categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-categorization-overview.md)
+[Record categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-categorization-overview.md)
 
 </td><td>
 
@@ -41,7 +41,7 @@ This feature evaluates text in the email subject and body, the record short desc
 
 </td></tr><tr><td>
 
-[Sentiment Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-sentiment-analysis.md)
+[Sentiment Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-sentiment-analysis.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Help agents gauge customer emotions and better prioritize their work while enabl
 
 </td></tr><tr><td>
 
-[Language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-language-detection.md)
+[Language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-language-detection.md)
 
 </td><td>
 
@@ -68,7 +68,7 @@ Identify the language used to create a customer service case and add the languag
 
 </td></tr><tr><td>
 
-[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-document-intelligence.md)
+[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-document-intelligence.md)
 
 </td><td>
 
@@ -78,7 +78,7 @@ Document intelligence reduces the time needed to resolve the case by automating 
 
 </td></tr><tr><td>
 
-[Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-admin-center.md)
+[Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-admin-center.md)
 
 </td><td>
 
@@ -95,11 +95,11 @@ DocIntel Admin experience
 The Document Intelligence application includes the DocIntel Admin experience, which provides an easy-to-use interface that you can use to do the following:-   Create and configure document processing use cases
 -   Monitor the performance of Document Intelligence use cases
 
-For more information, see [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-di-use-case.md).
+For more information, see [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-di-use-case.md).
 
 </td></tr><tr><td>
 
-[Similar case recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/similar-case-recommendation.md)
+[Similar case recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/similar-case-recommendation.md)
 
 </td><td>
 
@@ -126,8 +126,8 @@ The Task Intelligence for Customer Service application \(com.snc.csm\_ml\_task\)
 
 After installing the Task Intelligence for Customer Service application, you can configure the different features and use the Task Intelligence Admin Console to create models. For more information, see:
 
--   [Install and configure Task Intelligence features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-task-intelligence.md)
--   [Set up and deploy Task Intelligence models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-task-intelligence.md)
+-   [Install and configure Task Intelligence features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-task-intelligence.md)
+-   [Set up and deploy Task Intelligence models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-task-intelligence.md)
 
 ## Using Task Intelligence for Customer Service
 
@@ -137,7 +137,7 @@ Use the Task Intelligence features to complete the following tasks:
 -   Review and submit values extracted by Document Intelligence
 -   Review Task Intelligence analytics and prediction history
 
-For more information about these tasks, see [Use Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-task-intelligence.md).
+For more information about these tasks, see [Use Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-task-intelligence.md).
 
 ## AI Prediction Banner Display Behavior
 

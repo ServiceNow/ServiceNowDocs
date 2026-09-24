@@ -2,7 +2,7 @@
 title: Extract fields using the draw tool
 description: Use the draw tool to extract information directly from text and tables on the document image.Use the draw tool to extract a single field directly from the document image.Use the draw tool to extract a table directly from the document image.Adjust the draw tool grid to better fit the information that you want to extract from the document image.Use the draw tool to review auto-filled fields directly from the document image panel.Edit the fields on the document image to make sure that the correct information is extracted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -16,7 +16,7 @@ breadcrumb: [Complete a document task, Use, Document Intelligence \(Legacy\), En
 
 Use the draw tool to extract information directly from text andtables on the document image.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Overview of the draw tool
 
@@ -66,15 +66,15 @@ If the field is auto-filled, a box already appears over the extracted text. You 
 
 5.  Adjust the box as needed.
 
-<table id="choicetable_kws_nrj_4bc"><thead><tr><th align="left" id="d269681e258">
+<table id="choicetable_kws_nrj_4bc"><thead><tr><th align="left" id="d266916e258">
 
 Option
 
-</th><th align="left" id="d269681e261">
+</th><th align="left" id="d266916e261">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269681e267">
+</th></tr></thead><tbody><tr><td id="d266916e267">
 
 **Resize the box**
 
@@ -84,7 +84,7 @@ Select the box. Drag the box edge or corner to the desired position.
 
  The updated text in the box is extracted and fills the related field in the document fields panel.
 
-</td></tr><tr><td id="d269681e282">
+</td></tr><tr><td id="d266916e282">
 
 **Remove the box**
 
@@ -94,7 +94,7 @@ Select the Remove the box icon \(\[Omitted image "icon-docintel-delete-grid.png"
 
  The box is deleted and the extracted value is removed from the field.
 
-</td></tr><tr><td id="d269681e303">
+</td></tr><tr><td id="d266916e303">
 
 **Extract to a different field**
 
@@ -120,7 +120,7 @@ Role required: sn\_docintel.extraction\_agent
 
 Use the following steps to extract a table from a document using the draw tool. The extracted data is used to fill the related table fields.
 
-If the table fields are auto-filled, a draw tool grid is already available based on the extracted fields. You can adjust the fields as needed. For more information, see [Adjust the draw tool grid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+If the table fields are auto-filled, a draw tool grid is already available based on the extracted fields. You can adjust the fields as needed. For more information, see [Adjust the draw tool grid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 You can select multiple sections of a table throughout the pages of a document.
 
@@ -128,7 +128,7 @@ You can select multiple sections of a table throughout the pages of a document.
 
 1.  In the document fields panel, expand the Tables section.
 
-    The Tables section only displays fields assigned to a table [field group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/manage-keys.md).
+    The Tables section only displays fields assigned to a table [field group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/manage-keys.md).
 
 2.  Select a table in the Tables section.
 
@@ -152,7 +152,7 @@ You can select multiple sections of a table throughout the pages of a document.
 
 5.  Adjust the grid as needed.
 
-    For more information, see [Adjust the draw tool grid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+    For more information, see [Adjust the draw tool grid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 6.  To select another section of the table on the same or a different page of the document:
 
@@ -195,7 +195,7 @@ Adjust the draw tool grid to better fit the information that you want to extract
 
 ### Before you begin
 
--   These steps apply to tables that have a draw tool grid on the document image. For more information, see [Extract a table using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+-   These steps apply to tables that have a draw tool grid on the document image. For more information, see [Extract a table using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 -   Role required: sn\_docintel.extraction\_agent
 
 ### About this task
@@ -218,15 +218,15 @@ Use the following steps to make changes to a grid. You can then extract the upda
 
     The text in the cell appears surrounded by a solid-line box if it’s already extracted. It appears in a dotted-line box if it isn’t extracted yet.
 
-<table id="choicetable_jmr_csy_11c"><thead><tr><th align="left" id="d269681e723">
+<table id="choicetable_jmr_csy_11c"><thead><tr><th align="left" id="d266916e723">
 
 Option
 
-</th><th align="left" id="d269681e726">
+</th><th align="left" id="d266916e726">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269681e732">
+</th></tr></thead><tbody><tr><td id="d266916e732">
 
 **Move the grid**
 
@@ -234,7 +234,7 @@ Description
 
 Drag the Move icon \(\[Omitted image "icon-docintel-dm-move-table.png"\] Alt text: Move icon.\) to the desired position.
 
-</td></tr><tr><td id="d269681e750">
+</td></tr><tr><td id="d266916e750">
 
 **Change a column header**
 
@@ -242,7 +242,7 @@ Drag the Move icon \(\[Omitted image "icon-docintel-dm-move-table.png"\] Alt tex
 
 Select the column header and select the column where the data will be extracted to in the table fields.
 
-</td></tr><tr><td id="d269681e762">
+</td></tr><tr><td id="d266916e762">
 
 **Make the first row a header row**
 
@@ -250,7 +250,7 @@ Select the column header and select the column where the data will be extracted 
 
 Select the row header and check the **This is a header row** check box.
 
-</td></tr><tr><td id="d269681e777">
+</td></tr><tr><td id="d266916e777">
 
 **Move a column or row border**
 
@@ -258,7 +258,7 @@ Select the row header and check the **This is a header row** check box.
 
 Drag the border to the desired position.
 
-</td></tr><tr><td id="d269681e790">
+</td></tr><tr><td id="d266916e790">
 
 **Add a new column or row**
 
@@ -268,7 +268,7 @@ Go to the outside border of the grid and select the Add a line icon \(\[Omitted 
 
  Adding a line splits the affected cells so they can be extracted to separate fields.
 
-</td></tr><tr><td id="d269681e811">
+</td></tr><tr><td id="d266916e811">
 
 **Remove a column or row border**
 
@@ -278,7 +278,7 @@ Select the Remove a line icon \(\[Omitted image "icon-docintel-delete-grid-line.
 
  Removing a line merges the affected cells so they can be extracted to the same fields.
 
-</td></tr><tr><td id="d269681e832">
+</td></tr><tr><td id="d266916e832">
 
 **Remove the grid**
 
@@ -288,7 +288,7 @@ Select the Remove the grid icon \(\[Omitted image "icon-docintel-delete-grid.png
 
  This action only removes the grid, not the extracted data.
 
-</td></tr><tr><td id="d269681e853">
+</td></tr><tr><td id="d266916e853">
 
 **Ignore a table column or row**
 
@@ -307,7 +307,7 @@ Use the draw tool to review auto-filled fields directly from the document image 
 
 ### Before you begin
 
--   These steps apply to tables that have a draw tool grid or single fields that have a draw tool boxon the document. For more information, see [Extract a table using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md)or [Extract a single field using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+-   These steps apply to tables that have a draw tool grid or single fields that have a draw tool boxon the document. For more information, see [Extract a table using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md)or [Extract a single field using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 -   Role required: sn\_docintel.extraction\_agent
 
 ### Procedure
@@ -327,7 +327,7 @@ Use the draw tool to review auto-filled fields directly from the document image 
     -   If the value is accurate, move on to review the next field.
     -   If the value must be changed, edit the field.
 
-        See [Edit a field on the document image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+        See [Edit a field on the document image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 3.  Repeat steps 1 and 2 for each field that you want to review.
 
@@ -338,7 +338,7 @@ Edit the fields on the document image to make sure that the correct information 
 
 ### Before you begin
 
--   These steps apply to tables that have a draw tool grid or single fields that have a draw tool boxon the document. For more information, see [Extract a table using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md)or [Extract a single field using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+-   These steps apply to tables that have a draw tool grid or single fields that have a draw tool boxon the document. For more information, see [Extract a table using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md)or [Extract a single field using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 -   Role required: sn\_docintel.extraction\_agent
 
 ### About this task

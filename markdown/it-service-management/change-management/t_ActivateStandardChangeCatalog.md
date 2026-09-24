@@ -2,7 +2,7 @@
 title: Activate Change Management - Standard Change Catalog
 description: You can activate the Change Management - Standard Change Catalog plugin \(com.snc.change\_management.standard\_change\_catalog\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ActivateStandardChangeCatalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_ActivateStandardChangeCatalog.html
 release: australia
 product: Change Management
 classification: change-management
@@ -56,10 +56,10 @@ Change management is used to create and manage change requests. Once this is act
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Installed with Change Management - Standard Change Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/r_InstlldWthStdChgCat.md)**  
+-   **[Installed with Change Management - Standard Change Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/r_InstlldWthStdChgCat.md)**  
 Several types of components are installed with Change Management - Standard Change Catalog.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
@@ -106,9 +106,9 @@ Several types of components are installed with Change Management - Standard Chan
 
 [Activate Change Management - Data Archiving]()
 
-[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
+[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
 
-[Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/r_ChangeManagementProperties.md)
+[Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/r_ChangeManagementProperties.md)
 
 [List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

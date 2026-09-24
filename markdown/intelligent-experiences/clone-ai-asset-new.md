@@ -2,7 +2,7 @@
 title: Duplicate an agentic AI asset
 description: Duplicate an agentic AI asset to create an identical copy that you can fine-tune with distinct instructions and tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/clone-ai-asset-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/clone-ai-asset-new.html
 release: australia
 topic_type: task
 last_updated: "2026-06-06"

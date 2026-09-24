@@ -2,7 +2,7 @@
 title: Timer workflow activity
 description: The Timer activity pauses the workflow for a specified period of time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_Timer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/r\_Timer.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -217,5 +217,5 @@ answer =(eod.getTime()- now.getTime())/1000;
 workflow.debug('Timer will fire @: '+ eod +'  '+(answer/60)+' minutes from now');
 ```
 
-**Parent Topic:**[Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_TimerActivities.md)
+**Parent Topic:**[Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-activities/c_TimerActivities.md)
 

@@ -2,7 +2,7 @@
 title: Configuring RIDAC in Portfolio Planning Workspace
 description: Run the scheduled job to populate the planning item field on RIDAC records that were created before the Portfolio Planning Workspace was installed. This job ensures legacy RIDAC records appear correctly in related lists and reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/configure-ridac-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/configure-ridac-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -19,7 +19,7 @@ Run the scheduled job to populate the planning item field on RIDAC records that 
 
 ## Configuration overview
 
-The primary administrative task for RIDAC in Portfolio Planning Workspace is to populate planning items on the existing RIDAC records. This ensures that all RIDAC items created in your system are properly linked to their associated planning items and appear correctly in the RIDAC home page, filter views, and integration points. For step-by-step instructions, see [Populate planning items on RIDAC records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-ridac-planning-items-ppw.md).
+The primary administrative task for RIDAC in Portfolio Planning Workspace is to populate planning items on the existing RIDAC records. This ensures that all RIDAC items created in your system are properly linked to their associated planning items and appear correctly in the RIDAC home page, filter views, and integration points. For step-by-step instructions, see [Populate planning items on RIDAC records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/update-ridac-planning-items-ppw.md).
 
 ## RIDAC configuration benefits
 

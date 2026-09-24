@@ -2,7 +2,7 @@
 title: View details for Zoom meetings initiated from chats
 description: View details for a Zoom meeting initiated from a chat by accessing the associated interaction record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-details-chat-zoom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-details-chat-zoom.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_manager
 
 ## About this task
 
-This task provides steps for a user with the sn\_customerservice\_manager role to access Zoom meeting details from an interaction record. For information about how users with other Notify roles view Zoom meeting details, see [Using Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-chat-zoom-connector.md).
+This task provides steps for a user with the sn\_customerservice\_manager role to access Zoom meeting details from an interaction record. For information about how users with other Notify roles view Zoom meeting details, see [Using Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-chat-zoom-connector.md).
 
 ## Procedure
 
@@ -153,5 +153,5 @@ Short description of the interaction. **Note:** The short description field is e
 </table>**Related topics**  
 
 
-[Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-chat-zoom.md)
+[Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/initiate-chat-zoom.md)
 

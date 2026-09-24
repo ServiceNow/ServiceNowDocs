@@ -2,7 +2,7 @@
 title: System settings for the Core UI
 description: You can define system settings to customize the Core UI for yourself. The gear icon, located within the banner frame, displays the system settings window.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_UI16BannerFrame.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/r\_UI16BannerFrame.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ You can define system settings to customize the Core UI for yourself. The gear i
 
 The system settings are organized by tab.
 
-**Note:** This information is applicable to the Core UI. For information about adjusting system settings with Next Experience enabled, see [Next Experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-preferences-next-experience.md).
+**Note:** This information is applicable to the Core UI. For information about adjusting system settings with Next Experience enabled, see [Next Experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-up-preferences-next-experience.md).
 
 <table id="table_kj4_twh_fr"><thead><tr><th>
 
@@ -76,7 +76,7 @@ Keyboard shortcuts enabled
 
 </td><td>
 
-Determines whether a user can access parts of the platform using keyboard shortcuts. For more information on available keyboard shortcuts, see [Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md).
+Determines whether a user can access parts of the platform using keyboard shortcuts. For more information on available keyboard shortcuts, see [Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_KeyboardShortcuts.md).
 
 </td></tr><tr><td>
 
@@ -185,7 +185,7 @@ Related list loading
 
 </td><td>
 
-Determines when related lists load on forms. For more information, see [Configure when a related list loads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureWhenARelatedListLoads.md).
+Determines when related lists load on forms. For more information, see [Configure when a related list loads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ConfigureWhenARelatedListLoads.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -275,7 +275,7 @@ JavaScript Log and Field Watcher
 
 </td><td>
 
-\(Administrators only\) Opens the client-side JavaScript debug window.
+\(Administrators only\) Opens the client-side [JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_JavaScriptDebugWindow.md).
 
 </td></tr><tr><td>
 
@@ -288,5 +288,5 @@ Places the inspect icon in the banner frame when this setting is enabled. Enable
 </td></tr></tbody>
 </table>\[Omitted image "UI16SystemMenu.png"\] Alt text: System Settings window
 
-**Parent Topic:**[Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UI16.md)
+**Parent Topic:**[Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UI16.md)
 

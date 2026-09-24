@@ -2,7 +2,7 @@
 title: HR Benchmarks
 description: The HR Benchmarks application provides you with an insight into the industry averages of your peers. Use your Key Performance Indicators \(KPIs\) to compare your performance with global benchmarks, which contributes to improved performance for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-benchmarks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-benchmarks.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

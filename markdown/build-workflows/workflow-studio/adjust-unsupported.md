@@ -2,7 +2,7 @@
 title: Modify decision tables in the classic UI
 description: Workflow Studio supports decision tables that were created in the classic environment. However, some data types and conditions from the classic environment aren’t fully supported in Workflow Studio. For unsupported field types and decisions with complex conditional logic, use the decision rule view to modify these condition expressions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/adjust-unsupported.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/adjust-unsupported.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -45,5 +45,5 @@ If a condition column has an unsupported data type, you can still change the lab
 -   In an unsupported condition column, cells without values are inactive. Use decision rule view to enter a value.
 -   When a value is entered for an unsupported condition column, the resulting decision row is an unsupported decision.
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

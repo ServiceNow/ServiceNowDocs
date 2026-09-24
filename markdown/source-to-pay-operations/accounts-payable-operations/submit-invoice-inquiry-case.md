@@ -2,7 +2,7 @@
 title: Submit an invoice inquiry
 description: Submit an invoice inquiry case through the Supplier Collaboration Portal to report an issue to the accounts payable team for evaluation and resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -64,7 +64,7 @@ Inquiry type- Choose the type of inquiry that you would like to ask an Account P
 -   Expedite payment request
 -   Payment term issue
 -   Invoice entry assistance
-For more information on invoice inquiry, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
+For more information on invoice inquiry, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
 </td></tr><tr><td id="d188378e170">
 
@@ -84,5 +84,5 @@ Description- Detailed description about the invoice inquiry.
 
 An Invoice inquiry case is created.
 
-**Parent Topic:**[Working with Supplier Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.md)
+**Parent Topic:**[Working with Supplier Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.md)
 

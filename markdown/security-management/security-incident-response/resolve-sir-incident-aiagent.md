@@ -2,7 +2,7 @@
 title: Resolve a security incident
 description: Chat with an AI agent in the ServiceNow Otto panel to resolve an incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/resolve-sir-incident-aiagent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/resolve-sir-incident-aiagent.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -144,9 +144,9 @@ Close the security incident
 
 </td><td>
 
-The AI agent closes the incident. For more information, see [Close a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/close-sir-incident-aiagent.md).
+The AI agent closes the incident. For more information, see [Close a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/close-sir-incident-aiagent.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Resolve security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/now-assist-sir-resolve-incident-ai-workflow.md)
+**Parent Topic:**[Resolve security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/now-assist-sir-resolve-incident-ai-workflow.md)
 

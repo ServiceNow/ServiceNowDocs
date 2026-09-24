@@ -2,7 +2,7 @@
 title: Request a change to a resource plan
 description: Request a change to the resource plan to modify a resource plan after you’ve submitted it for review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_RequestAChangeToAResourcePlan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/t\_RequestAChangeToAResourcePlan.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -35,7 +35,7 @@ You can change the resource plans that are in the Requested or Confirmed state. 
 
 The resource plan moves back to the Planning state and has the form fields enabled to make the required changes.
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 

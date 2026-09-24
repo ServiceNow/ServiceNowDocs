@@ -2,7 +2,7 @@
 title: Invoke the MatchingRuleProcessor API
 description: After you create one or more matching rules, you can invoke the MatchingRuleProcessor API and run the rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_InvokeMatchingRuleAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_InvokeMatchingRuleAPI.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

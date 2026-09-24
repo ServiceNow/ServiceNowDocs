@@ -2,7 +2,7 @@
 title: Domain Separation and HR Service Delivery
 description: The ServiceNow HR Service Delivery application improves the employee service experience by automating HR interactions and providing a single platform for all HR services. Domain separation is supported in HR Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-domain-separation.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -55,7 +55,7 @@ These users can choose to expand or collapse the domain scope to show or hide da
 
     **Note:**
 
-    -   For more details on domain separation in HR Service delivery, see [Guidance for proper HR Service Delivery domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-domain-rec.md).
+    -   For more details on domain separation in HR Service delivery, see [Guidance for proper HR Service Delivery domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-domain-rec.md).
     -   To learn more about process separation, see the Data Separation versus Process Separation section in this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0715934).
 -   When working in a domain-separated implementation, ensure that records are created at the right domain level so that it is visible to the right set of users.
 

@@ -2,7 +2,7 @@
 title: Amazon API Gateway discovery with Patterns
 description: The ServiceNow Discovery and Service Mapping applications use the Amazon AWS API Gateway pattern to find Amazon API Gateways and connections to other entities. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -28,11 +28,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the AWS prerequisites**
 
-    For more information, see the prerequisite section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
+    For more information, see the prerequisite section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 -   **Retire legacy data model CIs to avoid duplicates**
 
-    To avoid duplicate CIs, activate a schedule job to mark legacy data model CIs as retired. For more information, see [Retire legacy AWS API Gateway data model CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/retire-legacy-aws-api-gateway-cis.md).
+    To avoid duplicate CIs, activate a schedule job to mark legacy data model CIs as retired. For more information, see [Retire legacy AWS API Gateway data model CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/retire-legacy-aws-api-gateway-cis.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -190,10 +190,10 @@ Service Mapping performs the top-down discovery of the AWS API Gateways in the c
 -   VPC Link for Virtual Private Cloud
 -   HTTP endpoint defined as the configured URL on the API Gateway
 
--   **[Test patterns for discovering AWS API Gateway and AWS Lambda](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/test-patterns-for-discovering-aws-api-and-aws-lambda.md)**  
+-   **[Test patterns for discovering AWS API Gateway and AWS Lambda](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/test-patterns-for-discovering-aws-api-and-aws-lambda.md)**  
 Run the horizontal and top-down discovery using Amazon AWS API Gateway \[cmdb\_ci\_cloud\_gateway\] and Amazon AWS Lambda \[cmdb\_ci\_cloud\_function\] patterns. Verify that the result is as expected.
--   **[Retire legacy AWS API Gateway data model CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/retire-legacy-aws-api-gateway-cis.md)**  
+-   **[Retire legacy AWS API Gateway data model CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/retire-legacy-aws-api-gateway-cis.md)**  
 Avoid duplicate AWS API Gateway configuration items \(CIs\) by retiring legacy data model CIs through a scheduled job.
 
-**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

@@ -2,7 +2,7 @@
 title: Track project comments and collaborate with stakeholders
 description: When a project is in progress, you can take advantage of two platform features that help project participants interact and collaborate: journal fields and live feed. Two useful journal fields are Comments and Work notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_TrackProjCommentsCollabStake.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_TrackProjCommentsCollabStake.html
 release: australia
 product: Project Management
 classification: project-management
@@ -49,10 +49,10 @@ Role required: it\_project\_manager
     10. Personalize the Project form and add **Activities \(filtered\)**, which is the activity formatter, to the desired location on the Project form.
 
 
-**Parent Topic:**[Update a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_UpdateAProjectInProgress.md)
+**Parent Topic:**[Update a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_UpdateAProjectInProgress.md)
 
 **Related topics**  
 
 
-[Update a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_UpdateAProjectInProgress.md)
+[Update a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_UpdateAProjectInProgress.md)
 

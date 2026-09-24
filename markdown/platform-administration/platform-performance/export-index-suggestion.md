@@ -2,12 +2,12 @@
 title: Export a slow-query index suggestion to a non-production instance
 description: You can export an index suggestion from a production instance to a non-production instance for creation, evaluation, and testing before implementing the index on your production instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/export-index-suggestion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/platform-performance/export-index-suggestion.html
 release: australia
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Resolving slow queries, Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -44,8 +44,8 @@ This task involves exporting an index suggestion as an .xml file from your produ
 
     After the import, the imported index suggestion appears in the Index Suggestions table on your non-production instance.
 
-6.  To continue the index evaluation process on your non-production instance, you can [schedule the index suggestion for creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/create-index-slowquery.md) and [test index performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/test-index-performance.md).
+6.  To continue the index evaluation process on your non-production instance, you can [schedule the index suggestion for creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/create-index-slowquery.md) and [test index performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/test-index-performance.md).
 
 
-**Parent Topic:**[Resolving slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/resolving-slow-queries.md)
+**Parent Topic:**[Resolving slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/platform-performance/resolving-slow-queries.md)
 

@@ -2,7 +2,7 @@
 title: Create the Client Credentials system property
 description: Create the glide.oauth.inbound.client.credential.grant\_type.enabled system property to use Client Credentials grant type for OAuth inbound integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-cc-sys-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-cc-sys-prop.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,7 +2,7 @@
 title: Explore data asset relationships
 description: See the data assets, business terms, and governance objects connected to a data asset. Open the relationships view in Graph Explorer to expand, hide, and rearrange the graph.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-data-asset-relationships-dc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/explore-data-asset-relationships-dc.html
 release: australia
 topic_type: task
 last_updated: "2026-05-29"
@@ -65,5 +65,5 @@ The relationships view in Graph Explorer shows how a data asset connects to othe
 11. Use the controls in the diagram toolbar to zoom in, zoom out, or recenter the visualization.
 
 
-**Parent Topic:**[View data asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-data-asset-details.md)
+**Parent Topic:**[View data asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-data-asset-details.md)
 

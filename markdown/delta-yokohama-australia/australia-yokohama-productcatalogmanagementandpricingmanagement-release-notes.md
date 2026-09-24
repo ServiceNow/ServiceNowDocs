@@ -2,11 +2,11 @@
 title: Combined Product Catalog Management and Pricing Management release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Product Catalog Management and Pricing Management from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-productcatalogmanagementandpricingmanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-productcatalogmanagementandpricingmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 14
+last_updated: "2026-09-24"
+reading_time_minutes: 21
 breadcrumb: [Products combined by family]
 ---
 
@@ -109,7 +109,30 @@ Zurich
 
 </td><td>
 
--   **[Complex characteristics](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&family=zurich&ft:locale=en-US)**
+-   **[AI Search queries in the product catalog interface](https://www.servicenow.com/docs/access?context=configure-ai-search-prod-catalog&family=zurich&ft:locale=en-US)**
+
+Enable semantic search features that agents and customers can use in the product catalog to find relevant product offerings. Users can search by product offer attributes, characteristics, and child offerings, and also view auto-complete suggestions. AI Search supports queries with synonyms, multi-languages, Boolean operators, and auto-correction \(typo handling\). Product catalog admins can configure stop words, synonyms, and rules that control the search results displayed.
+
+
+ -   **[Derived product pricing](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=zurich&ft:locale=en-US)**
+
+Define dynamic product pricing relationships between products, where the price for a product is derived from the price of another product or transaction-level values, such as the total quote value or annual contract value \(ACV\). When sales or order agents add the product to a quote or order, they can see how the product price is derived in real time.
+
+-   **[Price and quantity ramps](https://www.servicenow.com/docs/access?context=defining-products-with-ramps&family=zurich&ft:locale=en-US)**
+
+Enable product catalog admins to identify configurable product offerings for which pricing ramps can be created. These product offerings must also have the recurring pricing method. Sales agents create price ramps for quote lines that define and schedule pricing and quantity changes as product deals evolve over a given time period.
+
+-   **[Product pricing changes related to MACD activities](https://www.servicenow.com/docs/access?context=net-pricing-sp-contracts&family=zurich&ft:locale=en-US)**
+
+Support different price bases, such as original prices, fresh prices, or zero prices, used to calculate pricing for products during MACD activities.
+
+
+ -   **[Create configurable offerings and blueprints](https://www.servicenow.com/docs/access?context=som-create-configurable-prod-offerings&family=zurich&ft:locale=en-US)**
+
+Enable product catalog admins to generate blueprints for configurable products using the CPQ Configurator. A blueprint contains the product attributes, product relationships, product and pricing rules, and child products that control the structure of a configurable product offering. It also contains configuration rules, such as inclusion, exclusion, and determination. Blueprints drive the agent and customer experience when configurable products are added using the configurator. Catalog admins can review and update an offering blueprint in the CPQ Configurator, then publish the product offering to the product catalog.
+
+
+ -   **[Complex characteristics](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&family=zurich&ft:locale=en-US)**
 
 Starting with Product Catalog Management Core v13.0, enable product catalog admins to define product and specification characteristics using an object-based structure that supports the following data types: integer, decimal, date and date time, and data arrays. For example, product catalog admins can use these new data types to define characteristics for communication products, such as routing characteristics, that have nested levels of characteristics and characteristic options. These complex characteristics can then be used to define conditions for setting decomposition, attribute propagation, and compatibility rules.
 
@@ -130,13 +153,53 @@ Australia
 
 </td><td>
 
--   **[Support manual pricing adjustments in the Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=sales-crm-pricing-api&family=australia&ft:locale=en-US)**
+-   **[Eligible catalog-category hierarchy API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US)**
+
+Enable external integrations and in-platform applications to retrieve the eligible catalog-category tree hierarchy by using a REST endpoint.
+
+
+ -   **[Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US)**
+
+Enable external integrations to query the product catalog by calling the `POST /api/sn_prd_pm/v1/catalog/search` endpoint. This REST API accepts a JSON request body and returns product offering and service specification results, including a semantic similarity score when AI Search is enabled. Users with the sn\_prd\_pm.product\_catalog\_viewer or sn\_prd\_pm.external\_product\_viewer role can access the endpoint.
+
+
+ -   **[Multilingual support for product catalog entities](https://www.servicenow.com/docs/access?context=product-catalog-multilingual-support&family=australia&ft:locale=en-US)**
+
+Certain key fields in Product Catalog Management tables, such as product offering name and description, have been changed in the Data Dictionary from type string to translated\_text. Admins can now set these product catalog fields to display in multiple languages in the product catalog interface.
+
+
+ -   **[Support manual pricing adjustments in the Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=sales-crm-pricing-api&family=australia&ft:locale=en-US)**
 
 Pass manual pricing adjustments as part of a pricing request payload using the Pricing API. External systems can include adjustment values directly in a pricing run, rather than fetch manual adjustments from the pricing database when running pricing calculations.
 
 -   **[Support external IDs in the Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=sales-crm-pricing-api&family=australia&ft:locale=en-US)**
 
 Submit pricing requests that use custom external IDs or codes to reference objects from external systems, such as product offerings, price lists, and cost books. Set a request-level flag that indicates external IDs are to be used for these objects rather than sys\_ids. For additional information, see [External ID support in Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=external-ids-pricingapi&family=australia&ft:locale=en-US).
+
+
+ -   **[Renewal pricing for products with price and quantity ramps](https://www.servicenow.com/docs/access?context=defining-products-with-ramps&family=australia&ft:locale=en-US)**
+
+Calculate renewal pricing for products with price and quantity ramps, using per year, per term, and price only uplift calculation methods.
+
+-   **[Derived pricing support for sold products](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=australia&ft:locale=en-US)**
+    -   Use the `DerivedProductPriceExtensionPoint` extension to determine whether a source line for a quote or sold product and a target line are pairs.
+    -   Use the `getAccountLevelDerivedPricedProductsLookupData(pricingEngineContext)` method to control the records scanned by the pricing engine to determine account-level derived prices for sold products.
+    -   The pricing engine does the following:
+        -   Displays a message indicating when a change to a source product affects the price of a derived product.
+        -   Checks product offerings and excludes product offerings with child offerings from derived pricing.
+
+ -   **[Product families](https://www.servicenow.com/docs/access?context=product-catalog-managment&family=australia&ft:locale=en-US)**
+
+Create product families to provide hierarchical classification similar to category trees. For example, you can use product families to roll up or aggregate measurable items, such as revenue forecasts for reporting or business insights.
+
+
+ -   **[Multi-attribute pricing rules](https://www.servicenow.com/docs/access?context=som-create-pricing-adjustment&family=australia&ft:locale=en-US)**
+
+Display attribute-based pricing on transaction lines, where the offer price is determined by the combination of attributes, by setting up attribute-based pricing for product offerings based on multiple, combined attributes using the Attribute Adjustment matrix.
+
+-   **[Blended pricing support for contract renewals](https://www.servicenow.com/docs/access?context=pricing-management&family=australia&ft:locale=en-US)**
+
+Enable sales agents to apply automatically calculated blended unit prices for renewals, based on the existing product price and the renewal uplift required. Blended pricing is used in upsell and down-sell scenarios and in contract line consolidation.
 
 
 </td></tr></tbody>
@@ -158,7 +221,20 @@ Yokohama
 
 </td><td>
 
--   **[Needs analysis in CRM Workspace](https://www.servicenow.com/docs/access?context=configuring-needs-analysis&family=yokohama&ft:locale=en-US)**
+-   **[Multiple configurations](https://www.servicenow.com/docs/access?context=multiple-child-offering-configurations&family=yokohama&ft:locale=en-US)**
+
+Define child product offerings that can have multiple configurations in configurable opportunities, quotes, and orders. Agents can clone or split a child product offering to create multiple product offering instances. Each quantity for an offering instance can then have its own unique configuration.
+
+-   **[Transient product offerings](https://www.servicenow.com/docs/access?context=configuring-transient-products&family=yokohama&ft:locale=en-US)**
+
+Define single-use product offerings, such as installation services or consulting services, as transient products that are fulfilled in ServiceNow Order Management. After orders for transient products are fulfilled, sold product or product inventory records are created but have an Inactive status. Move, Add, Change, Delete \(MACD\) actions aren't supported for the sold product or product inventory records of transient products.
+
+
+ -   **[Configurable pricing plan enhancements](https://www.servicenow.com/docs/access?context=configuring-pricing-plan&family=yokohama&ft:locale=en-US)**
+    -   Apply Renewal Adjustment step: This new step determines whether a contract renewal adjustment, either a markup or markdown amount or percentage, is to be calculated and applied. For example, as a pricing admin, you might want to apply a pricing uplift of a fixed amount at contract renewal. This renewal adjustment step is enabled by default, but you can change or remove it in a custom configurable pricing plan.
+    -   Extension point updates: The ListPriceExtensionPoint, which gathers the data needed to make required adjustments, now includes the adjustment data for contract renewals.
+
+ -   **[Needs analysis in CRM Workspace](https://www.servicenow.com/docs/access?context=configuring-needs-analysis&family=yokohama&ft:locale=en-US)**
 
 Starting with the Yokohama release, the options for configuring a needs analysis are available in the List view of the CRM Workspace and can be found by navigating to **Needs**.
 
@@ -174,7 +250,25 @@ Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[Support minor changes to published product offerings and specifications](https://www.servicenow.com/docs/access?context=minor-updates-published-offerings-specs&family=zurich&ft:locale=en-US)**
+
+Make minor changes to published versions of a product offering or specification, without creating a version. Minor updates include changes such as modifying the product offering display name, description, or product image.
+
+-   **[Configurable product offerings](https://www.servicenow.com/docs/access?context=som-create-product-offering&family=zurich&ft:locale=en-US)**
+
+The Create Product Offering form, used when creating product offerings, has two new options. The **Configurable** option indicates that the product offering is configurable and that it can be customized by agents and customers using the CPQ Configurator. The **Enable ramps** option indicates that price ramps can be defined for a configurable product.
+
+
+ -   **[CSM Pricing API](https://www.servicenow.com/docs/access?context=csm-pricing-api&family=zurich&ft:locale=en-US)**
+
+Use the Pricing REST API to enable integration of Pricing Management features with external applications. The CPQ Configurator is integrated with the Pricing REST API, to display pricing information for configurable products.
+
+-   **[Published pricing and product eligibility matrices](https://www.servicenow.com/docs/access?context=edit-published-matrices&family=zurich&ft:locale=en-US)**
+
+Starting with Context Rules Management v9.1.0, published pricing and product eligibility matrices can’t be edited. To change a published matrix, pricing or product catalog admins must generate a new version of the matrix. If needed, admins can use the **allow\_edit\_on\_published\_matrices** system property to enable editing of pricing and product eligibility matrices.
+
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -209,9 +303,38 @@ Australia
 
 </td><td>
 
--   **[Custom context variable enhancement](https://www.servicenow.com/docs/access?context=som-create-context-variable&family=australia&ft:locale=en-US)**
+-   **[Domain separation support](https://www.servicenow.com/docs/access?context=domain-separation-overview&family=australia&ft:locale=en-US)**
+
+Starting with Product Catalog Management Core v19.1.0, all product catalog tables support the basic level of domain separation.
+
+
+ -   **[Custom context variable enhancement](https://www.servicenow.com/docs/access?context=som-create-context-variable&family=australia&ft:locale=en-US)**
 
 Use the **Applicable to** field in the Context Variable form to indicate that a custom context variable is to be used for pricing. The pricing engine uses this indicator to resolve pricing in the correct transaction scope, to help prevent mispricing of product bundles.
+
+
+ -   **[Product catalog interface enhancement](https://www.servicenow.com/docs/access?context=using-product-catalog&family=australia&ft:locale=en-US)**
+
+Quickly identify products with derived pricing through product tiles that display a message stating that the product price varies. Pricing is calculated and updated automatically based on selections made.
+
+
+ -   **[Derived pricing enhancements](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=australia&ft:locale=en-US)**
+    -   The Derived Pricing Matrix supports the following enhancements:
+        -   Conditions defined on product offering fields for both source and target product offerings
+        -   Predefined formulas for specifying prices for target product offerings and using floor and ceiling price controls to maintain acceptable price ranges
+    -   Visibility into how the final price for derived products is determined.
+    -   Support for account-level scope, which uses both cart items and sold products when calculating derived prices.
+-   **[Price and quantity ramp enhancements](https://www.servicenow.com/docs/access?context=defining-products-with-ramps&family=australia&ft:locale=en-US)**
+    -   Enable sales agents to create custom ramp type segments for quotes. Agents can view the cumulative price of product offers across all ramp segments.
+    -   View ramps inside the CPQ Configurator.
+    -   Enable sales agents to create ramps for quotes with amendments, contract renewals, and cancellations.
+-   **[Delta pricing enhancement](https://www.servicenow.com/docs/access?context=net-pricing-sp-contracts&family=australia&ft:locale=en-US)**
+
+Show the delta pricing view in the CPQ Configurator during modify and amend flows.
+
+-   **[Configurable pricing plan enhancement](https://www.servicenow.com/docs/access?context=configuring-pricing-plan&family=australia&ft:locale=en-US)**
+
+The Floor and Ceiling Calculation step in the default pricing plan applies the minimum and maximum prices for a product or service to help avoid pricing that isn't competitive or results in poor margins.
 
 
 </td></tr></tbody>
@@ -323,6 +446,8 @@ Zurich
 The Product Catalog Management and Pricing Management features are included with Sales Customer Relationship Management store applications and don’t need activation. Depending on your entitlements, you can install the Product and Pricing Rules application for pricing and product eligibility matrices and the CPQ Integration application for the CPQ Configurator from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Product Catalog Management and Pricing Management are available in the ServiceNow Store. The blueprint feature introduced in this release is provided with the CPQ Integration application available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -333,6 +458,8 @@ Australia
 
 The Product Catalog Management and Pricing Management features are included with Sales Customer Relationship Management store applications and don’t need activation. Depending on your entitlements, you can install the Product and Pricing Rules application for pricing and product eligibility matrixes from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Product Catalog Management and Pricing Management are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -545,5 +672,5 @@ Australia
  See [Product Catalog Management](https://www.servicenow.com/docs/access?context=product-catalog-managment&family=australia&ft:locale=en-US) and [Product pricing](https://www.servicenow.com/docs/access?context=pricing-management&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

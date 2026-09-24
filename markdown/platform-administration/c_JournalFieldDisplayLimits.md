@@ -2,7 +2,7 @@
 title: Journal field display limits
 description: Journal fields can greatly increase the size of task records because they allow users to enter very large string values.You can set the maximum display size for journal fields by adding a system property.Set the size of the glide.max\_journal\_list\_size system property. When a journal field exceeds this size, the instance displays a preview rather than the field's entire contents. Users can click the Show All button to see the rest of the field's contents.To set the maximum number of entries the system shows in the activity formatter, edit the following system property. The activity formatter displays the entries starting with the most recent entry up to the maximum number.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_JournalFieldDisplayLimits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_JournalFieldDisplayLimits.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,11 +34,11 @@ Role required: admin
 
 ### About this task
 
-When a journal field exceeds the length set in this property, the instance shows a preview of the journal field instead of the field's entire contents. The preview includes a **Show All** button to display the rest of the field's contents. A [separate property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_JournalFieldDisplayLimits.md) determines the number of characters the preview displays.
+When a journal field exceeds the length set in this property, the instance shows a preview of the journal field instead of the field's entire contents. The preview includes a **Show All** button to display the rest of the field's contents. A [separate property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_JournalFieldDisplayLimits.md) determines the number of characters the preview displays.
 
 ### Procedure
 
-1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following settings.
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following settings.
 
     |Property|Value|
     |--------|-----|
@@ -105,5 +105,5 @@ Role required: admin
 **Related topics**  
 
 
-[Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md)
+[Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ActivityFormatter.md)
 

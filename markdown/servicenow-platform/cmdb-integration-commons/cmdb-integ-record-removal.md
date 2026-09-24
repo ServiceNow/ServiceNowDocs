@@ -2,7 +2,7 @@
 title: Managing CMDB data deletion
 description: The Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app uses post-script and transform map methods to remove imported Configuration Management Database \(CMDB\) records that were deleted later from the source third-party application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-integration-commons/cmdb-integ-record-removal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/cmdb-integration-commons/cmdb-integ-record-removal.html
 release: australia
 product: CMDB Integration Commons
 classification: cmdb-integration-commons
@@ -30,5 +30,5 @@ The transform map-based method checks the Source \[sys\_object\_source\] table f
 
 The Integration Commons Remove Record \[sn\_cmdb\_int\_util\_remove\_record\] staging table tracks non-updated CIs by storing target record details including the discovery source, source feed, target table sys\_id, and target table name of these CIs. The on-start script defined within the **Remove Record Transform Map** then deletes the records from the associated target tables.
 
-The transform map-based method is used by a Service Graph Connector to improve the data processing time. For example, the SG-Tanium Remove Software data source within the Service Graph Connector for Tanium removes software data using the transform map-based method. See [Service Graph Connector for Tanium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-tanium.md).
+The transform map-based method is used by a Service Graph Connector to improve the data processing time. For example, the SG-Tanium Remove Software data source within the Service Graph Connector for Tanium removes software data using the transform map-based method. See [Service Graph Connector for Tanium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-tanium.md).
 

@@ -2,7 +2,7 @@
 title: Select Territories in Dispatcher Workspace
 description: Quickly select territories to filter resources in Dispatcher Workspace. You can also save default territories to load each time you open Dispatcher Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/select-territory-dispatch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/select-territory-dispatch.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -22,7 +22,7 @@ Role required: wm\_dispatcher
 
 ## About this task
 
-You must turn off **Enable single select groups / territories** in settings to select multiple territories. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
+You must turn off **Enable single select groups / territories** in settings to select multiple territories. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## Procedure
 

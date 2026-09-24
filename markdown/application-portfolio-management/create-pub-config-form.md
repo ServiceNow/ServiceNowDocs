@@ -2,7 +2,7 @@
 title: Create publishing configuration form
 description: Specify the configuration that is used for publishing a Technology Reference Model \(TRM\) catalog to the knowledge base.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/create-pub-config-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/create-pub-config-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -64,12 +64,12 @@ Catalog link
 Link to access the published TRM catalog. This field is auto-populated with a URL after the catalog is published.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Create a configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/config-trm-data-to-publish.md)
+[Create a configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/config-trm-data-to-publish.md)
 
-[Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/publish-trm-cat-to-kb.md)
+[Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/publish-trm-cat-to-kb.md)
 

@@ -2,7 +2,7 @@
 title: Collaboration in assessments
 description: Collaboration in Smart Assessment Engine enables you to add multiple contributors to an assessment and support live collaboration with real-time updates. It also displays presence indicators to show who is active on the assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -24,7 +24,7 @@ To support larger and more complex assessments, collaboration is extended throug
 
 The Owner has the authority to assign or reassign the assessment and to add or remove contributors. Only the Owner can submit the assessment. Contributors can view the assessments assigned to them and see all participants listed in the side panel, but they can't reassign or submit the assessment. Contributors can respond to questions and add comments and attachments to the assessment.
 
-**Note:** Collaboration and combined assessments are mutually exclusive. An assessment with contributors already added to it isn't available for combining with other assessments, and once an assessment becomes part of a combined assessment, no contributors can be added to it. For more information, see [Combining assessments and copying responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/combine-assessments.md).
+**Note:** Collaboration and combined assessments are mutually exclusive. An assessment with contributors already added to it isn't available for combining with other assessments, and once an assessment becomes part of a combined assessment, no contributors can be added to it. For more information, see [Combining assessments and copying responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/combine-assessments.md).
 
 ## Question-level communication
 
@@ -43,7 +43,7 @@ Each question card includes a dynamic panel with three question-level communicat
     A way to mark a question that needs attention. Flags have three states: Unflagged, Flagged, and Resolved. In a typical reviewer-responder loop, a reviewer flags a question to indicate an unsatisfactory response, the responder updates the answer, and the reviewer resolves the flag. Flagging is enabled for all roles by default. To restrict it, an assessment administrator configures the **Question flag roles** field on the template category with the roles that can change a question's flag state. Users without a configured role can still see the flag state but can't change it.
 
 
-For details on configuring the **Worknote roles** and **Question flag roles** fields on a template category, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md). For step-by-step responder workflows, see [Add a comment or work note to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/add-comment-to-question.md) and [Flag or resolve a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/flag-a-question.md).
+For details on configuring the **Worknote roles** and **Question flag roles** fields on a template category, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md). For step-by-step responder workflows, see [Add a comment or work note to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/add-comment-to-question.md) and [Flag or resolve a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/flag-a-question.md).
 
 ## Access levels and roles
 

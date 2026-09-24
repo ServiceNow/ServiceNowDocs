@@ -2,7 +2,7 @@
 title: Assign spaces to an area
 description: Add spaces to an area to make them available for reservation. On the Reservation portal, when an employee searches for an area, all the available spaces that are assigned to that area are displayed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-neighbourhood-spaces-to-an-area.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-neighbourhood-spaces-to-an-area.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -35,7 +35,7 @@ Ensure that the spaces are assigned to the area.
 1.  Navigate to **All** &gt; **Workplace Core** &gt; **Space Administration** &gt; **Spaces** and select the space.
 2.  On the form, ensure that the **Area** field has a value.
 
-For more information, see [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
+For more information, see [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 
 Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_rsv.admin
 
@@ -77,7 +77,7 @@ If the reservable module to which the space is assigned has the **Enable restric
 
 To view the spaces assigned to an area, navigate to **Workplace Core** &gt; **Space Administration** &gt; **Areas** and select an area. The assigned spaces are displayed in the Spaces related list.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

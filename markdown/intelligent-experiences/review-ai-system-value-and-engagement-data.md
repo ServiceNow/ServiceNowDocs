@@ -2,10 +2,10 @@
 title: Review AI system value and engagement data
 description: Review productivity gains, cost savings, and engagement results for AI systems. AI stewards see data for every AI system on the instance. Product owners see data for the AI systems that list them in the Managed by field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/review-ai-system-value-and-engagement-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/review-ai-system-value-and-engagement-data.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Use, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---

@@ -2,7 +2,7 @@
 title: Set up a runtime client
 description: Configure a runtime client. Doing so creates a token that you can use to authenticate runtime calls. This can be useful when CPQ is embedded within a VisualForce page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/setting\_up\_a\_runtime\_client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/setting\_up\_a\_runtime\_client.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Configure a runtime client. Doing so creates a token that you can use to authent
 
 Runtime clients can be set up that provide a token for authentication of runtime calls when launching CPQ outside of the regular workflow. For example, CPQ may be started through a quote in Salesforce when embedding CPQ in a Visualforce page, Lightning web component, or HTML page.
 
-**Note:** This authentication can be used only by end users launching a CPQ configuration in runtime. To authenticate admin calls, users should leverage admin API keys. For a more complete discussion of admin API keys, see [Intro to admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-api-keys.md).
+**Note:** This authentication can be used only by end users launching a CPQ configuration in runtime. To authenticate admin calls, users should leverage admin API keys. For a more complete discussion of admin API keys, see [Intro to admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-admin-api-keys.md).
 
 ## Create a runtime client
 
@@ -46,5 +46,5 @@ When the runtime client has been created, click into it and copy the token:
 **Related topics**  
 
 
-[Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md)
+[Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md)
 

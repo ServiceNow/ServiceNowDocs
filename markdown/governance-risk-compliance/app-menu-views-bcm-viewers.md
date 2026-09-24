@@ -2,7 +2,7 @@
 title: Application menu options for BCM users
 description: The table lists the application menu options that are available for the main users of the business continuity management application to view and navigate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/app-menu-views-bcm-viewers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/app-menu-views-bcm-viewers.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ The table lists the application menu options that are available for the main use
 
 ## BCM application menu options
 
-For detailed information on user roles, see [Roles installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/installed-with-bcm.md) table.
+For detailed information on user roles, see [Roles installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/installed-with-bcm.md) table.
 
 <table id="table_tnn_nvs_kmb"><tbody><tr><td>
 
@@ -79,5 +79,5 @@ BCM viewer
 To view the workspace: **Business Continuity** &gt; **Business Continuity Workspace**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)
+</table>**Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)
 

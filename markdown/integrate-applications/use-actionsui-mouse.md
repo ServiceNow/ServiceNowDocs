@@ -2,7 +2,7 @@
 title: Use the Mouse component
 description: Simulate a mouse action, including alternative mouse device buttons, moves, drags, scrolls, and paste operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionsui-mouse.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-actionsui-mouse.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ Role required: none
 
 ## About this task
 
-The Mouse component uses hardware interrupts to simulate the actions of a computer mouse. You can use it to simulate a manual click, drag, move, scroll, or paste operation at an area that you specify in the [ActionSet Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actionset-actions-properties.md) window. Additionally, you can use it to interact with files, objects, menus, or any other items that typically respond to mouse input.
+The Mouse component uses hardware interrupts to simulate the actions of a computer mouse. You can use it to simulate a manual click, drag, move, scroll, or paste operation at an area that you specify in the [ActionSet Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/actionset-actions-properties.md) window. Additionally, you can use it to interact with files, objects, menus, or any other items that typically respond to mouse input.
 
-Many properties of the Mouse component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-actions-ui-components.md).
+Many properties of the Mouse component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-actions-ui-components.md).
 
 The properties unique to the Mouse component are given.
 
@@ -72,7 +72,7 @@ The properties unique to the Mouse component are given.
 
 8.  Add an anchor to the captured image by doing the following actions:
 
-    An anchor is a unique identifier that enables the Mouse component to identify the application where the component will perform an action. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Mouse component treats the whole captured image as an anchor. To know more about the anchor, see the steps to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    An anchor is a unique identifier that enables the Mouse component to identify the application where the component will perform an action. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Mouse component treats the whole captured image as an anchor. To know more about the anchor, see the steps to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/anchor.md).
 
     1.  In the Mouse component, right-click the image and click **Add Anchor**.
 
@@ -119,5 +119,5 @@ The properties unique to the Mouse component are given.
 
 Two Mouse components are used in this example. The first identifies the folder and drags it. The second identifies the destination folder and moves the folder inside.\[Omitted image "mouse-example.png"\] Alt text: Move a folder to another folder
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/actions-ui.md)
 

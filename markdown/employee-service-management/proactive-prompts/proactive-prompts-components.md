@@ -2,7 +2,7 @@
 title: Components installed with Proactive Prompts
 description: Several types of components install with the activation of the Proactive Prompts application, including user roles and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/proactive-prompts/proactive-prompts-components.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -213,7 +213,7 @@ Prompt users\[sn\_pp\_prompt\_users\]
 Stores the record level information qualified for the prompt when the **Collect records** field is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
+</table>**Parent Topic:**[Reference for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
 
 **Related topics**  
 

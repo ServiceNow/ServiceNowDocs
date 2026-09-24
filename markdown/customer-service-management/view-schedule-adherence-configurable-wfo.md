@@ -2,7 +2,7 @@
 title: Monitor schedule adherence of your agents
 description: Use schedule adherence to evaluate whether or not your agents are adhering to their assigned schedules. You can look for areas where low-value activity can be eliminated or reduced and further analyze staffing levels throughout the day.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-schedule-adherence-configurable-wfo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-schedule-adherence-configurable-wfo.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,11 +22,11 @@ Role required: sn\_shift\_planning.admin
 
 -   Adherence is a metric to analyze how closely agents follow their schedule in completing the work assignments. Conformance measures the work completed, regardless of when it was completed.
 -   A high adherence rate indicates that agents are sticking to their schedules and offering customer service when expected. Low adherence suggests changing the processes or decisions to manage the team efficiently. The numbers are highlighted in red for non-adherent agents.
--   Schedule adherence and conformance calculations are based on the formulas, agents' actual and planned work timings. The following are the default formulas that are used to calculate adherence and conformance for agents. However, your administrator can change the [formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-scheduling-configurable-wfo-cs.md), as required. The following components and formulas are used to calculate adherence and conformance:
+-   Schedule adherence and conformance calculations are based on the formulas, agents' actual and planned work timings. The following are the default formulas that are used to calculate adherence and conformance for agents. However, your administrator can change the [formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-scheduling-configurable-wfo-cs.md), as required. The following components and formulas are used to calculate adherence and conformance:
     -   The **shift\_planning\_clock-in** and **shift\_planning\_clock-out** scripts generate the agents' clock-in and clock-out events from the login and logout sessions. The business rule **Agent Time Work Event Trigger** generates clock-in and clock-out events whenever there is a change in agent's presence state.
     -   **Schedule Adherence**= \(Minutes worked in shift/Scheduled shift time in minutes + Overtime\)
     -   **Conformance**= \(Minutes worked in shift + Overtime\)/Scheduled shift time in minutes
--   The ideal adherence percentage by default is above 70, and conformance is between 80 to 120. However, your administrator can change the threshold values. For more information, see [Configure properties for schedule adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-scheduling-configurable-wfo-cs.md). The agents who do not qualify to the defined threshold values are considered as non-adherent and are highlighted in red.
+-   The ideal adherence percentage by default is above 70, and conformance is between 80 to 120. However, your administrator can change the threshold values. For more information, see [Configure properties for schedule adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-scheduling-configurable-wfo-cs.md). The agents who do not qualify to the defined threshold values are considered as non-adherent and are highlighted in red.
 
 ## Procedure
 
@@ -76,5 +76,5 @@ Example: A clock-in event gets generated when an agent logs in or changes the pr
     \[Omitted image "schedule-adherence-cs.png"\] Alt text: Schedule view in the Team Calendar displaying agent availability.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/scheduling-configurable-wfo-cs.md)
 

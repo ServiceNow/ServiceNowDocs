@@ -2,7 +2,7 @@
 title: Configure a manual cluster
 description: Provide redundancy capabilities of an entire cluster in case of failure of one or more CIs in that cluster. By viewing the relative impact of a cluster member on the cluster information, you can better understand the source of alerts and take remediation steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-manual-cluster.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configure-manual-cluster.html
 release: australia
 product: Event Management
 classification: event-management
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 In a manual service that was not discovered automatically, you can manually group a specific CI or a generic CI class under a logical cluster. The relative impact of a cluster member on the cluster can be configured in the impact tree.
 
-For more information, see [Alert impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMImpactCalculation.md).
+For more information, see [Alert impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/c_EMImpactCalculation.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ For more information, see [Alert impact calculation](https://raw.githubuserconte
 
     2.  In the CMDB CI Service \[cmdb\_ci\_service\_discovered\] table, select a manually created service.
 
-        To define a new application service, see [Manually create an application service in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-an-application-service.md).
+        To define a new application service, see [Manually create an application service in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-an-application-service.md).
 
     3.  Preview the record by selecting the Preview this record icon \(\[Omitted image "info.png"\] Alt text: Preview this record icon\).
 
@@ -65,10 +65,10 @@ For more information, see [Alert impact calculation](https://raw.githubuserconte
 
 The manual cluster is saved in the EM Impact Manual Cluster \[em\_impact\_manual\_cluster\] table. The impact calculation is recalculated automatically.
 
-**Parent Topic:**[Configuring CIs in a manual service as a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manual-cluster-in-a-manual-service.md)
+**Parent Topic:**[Configuring CIs in a manual service as a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manual-cluster-in-a-manual-service.md)
 
 **Related topics**  
 
 
-[Configuring CIs in a manual service as a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manual-cluster-in-a-manual-service.md)
+[Configuring CIs in a manual service as a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manual-cluster-in-a-manual-service.md)
 

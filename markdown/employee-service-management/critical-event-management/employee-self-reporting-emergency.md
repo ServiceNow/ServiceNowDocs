@@ -2,7 +2,7 @@
 title: Self-report your status
 description: Self-report your status as an employee in a critical event through the email or SMS notification that you receive from an agent or responder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/employee-self-reporting-emergency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/employee-self-reporting-emergency.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -24,15 +24,15 @@ Role required: sn\_critical.user
 
 1.  Open the email or SMS notification and respond.
 
-<table id="choicetable_iwx_5bh_ndc"><thead><tr><th align="left" id="d756683e57">
+<table id="choicetable_iwx_5bh_ndc"><thead><tr><th align="left" id="d756687e57">
 
 Notification
 
-</th><th align="left" id="d756683e60">
+</th><th align="left" id="d756687e60">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d756683e66">
+</th></tr></thead><tbody><tr><td id="d756687e66">
 
 **Email**
 
@@ -42,7 +42,7 @@ Steps
 2.  Select **Send**.
 
 
-</td></tr><tr><td id="d756683e90">
+</td></tr><tr><td id="d756687e90">
 
 **SMS**
 

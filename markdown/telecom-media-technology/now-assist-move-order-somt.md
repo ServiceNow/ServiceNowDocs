@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent Move order voice AI agent
 description: Use this agent to automatically create a customer move order capture journey.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-move-order-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-move-order-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

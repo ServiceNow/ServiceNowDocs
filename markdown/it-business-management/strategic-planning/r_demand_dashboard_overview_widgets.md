@@ -2,7 +2,7 @@
 title: Overview tab
 description: The Overview tab of the demand dashboard summarizes demand volume, activity, and risk across all demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/r\_demand\_dashboard\_overview\_widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/r\_demand\_dashboard\_overview\_widgets.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

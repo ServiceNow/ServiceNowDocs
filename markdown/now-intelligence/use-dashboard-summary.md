@@ -2,7 +2,7 @@
 title: Using Dashboard Summary
 description: Enable users of Platform Analytics experience dashboards to generate summaries of a dashboard's content using AI.Use AI to generate a summary of an inline dashboard. When information on the dashboard changes, you can regenerate the summary for updated information and details about what has changed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/use-dashboard-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/use-dashboard-summary.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-29"

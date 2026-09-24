@@ -2,7 +2,7 @@
 title: WorkflowModelManagerAjax - Global
 description: The WorkflowModelManagerAjax script include provides an AjaxProcessor wrapper for the WorkflowModelManager script include. This class derives from AbstractAjaxProcessor.Puts the execution history into the return parameter based on the query string.DMB This seems to be missing some information. Fix.Returns the final execution activity list based on a query string.Puts the rollback activity list into the return parameter based on the query string.needs help
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_WorkflowModelManagerAjaxAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_WorkflowModelManagerAjaxAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The WorkflowModelManagerAjax script include provides an AjaxProcessor wrapper fo
 
 Use this class in the Workflow Debug context menus.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## WorkflowModelManagerAjax - getExecutedHistory\( \)
 

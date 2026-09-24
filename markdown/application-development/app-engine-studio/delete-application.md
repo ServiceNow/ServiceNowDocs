@@ -2,7 +2,7 @@
 title: Remove an app from App Engine Studio
 description: If you have the appropriate permissions, you can remove an application from App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/delete-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/delete-application.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +18,7 @@ If you have the appropriate permissions, you can remove an application from App 
 
 ## Before you begin
 
-Role required: admin, delete application, or delegated developer with permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: admin, delete application, or delegated developer with permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 

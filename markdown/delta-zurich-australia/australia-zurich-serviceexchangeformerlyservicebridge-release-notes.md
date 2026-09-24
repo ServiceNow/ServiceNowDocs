@@ -2,11 +2,11 @@
 title: Combined Service Exchange \(formerly Service Bridge\) release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Service Exchange \(formerly Service Bridge\) from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-serviceexchangeformerlyservicebridge-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-serviceexchangeformerlyservicebridge-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -106,7 +106,46 @@ Australia
 
 </td><td>
 
--   **[Service Exchange Knowledge Assistant](https://www.servicenow.com/docs/access?context=now-assist-tmt-service-exchange-assistant-se&family=australia&ft:locale=en-US)**
+-   **[Connections tab in the Service Exchange Center](https://www.servicenow.com/docs/access?context=se-connections-tab&family=australia&ft:locale=en-US)**
+
+Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
+
+-   **[Improved consumer registration and onboarding](https://www.servicenow.com/docs/access?context=se-provider-center-onboarding&family=australia&ft:locale=en-US)**
+
+Onboard consumers faster with a guided, step-by-step registration experience. Consumers are automatically redirected to the new registration experience when upgrading to receive clearer progress indicators during onboarding, and receive actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.
+
+-   **[Improved FDS capabilities](https://www.servicenow.com/docs/access?context=service-bridge-v2-explore-foundation-data-sync&family=australia&ft:locale=en-US)**
+
+Improve your connection experience, by synchronizing Knowledge Base articles between provider and consumer instances.
+
+Reduce data inconsistencies by maintaining CMDB `sys_ids` when inserting net-new CIs through transform maps.
+
+Preserve CI functionality on the destination instance by automatically creating CI dependency relationships or managing them manually when the source sends relationship data.
+
+Get more referenced field data by including dot-walked fields in your outbound field configuration.
+
+-   **[Journal Field Framework enhancements](https://www.servicenow.com/docs/access?context=service-bridge-v2-expolre-journal-field-framework&family=australia&ft:locale=en-US)**
+
+Increase flexibility in journal data synchronization between provider and consumer instances by mapping multiple source fields to a single target journal field.
+
+Preserved all journal entries during synchronization by supporting journal field type `journal_input`, in addition to the existing journal field type.
+
+-   **[Simplified persona management](https://www.servicenow.com/docs/access?context=service-bridge-v2-customer-roles&family=australia&ft:locale=en-US)**
+
+Assign Service Exchange Remote Catalog personas to user groups or roles so that persona access is granted automatically based on group membership, reducing manual administration.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ -   **[Service Exchange Knowledge Assistant](https://www.servicenow.com/docs/access?context=now-assist-tmt-service-exchange-assistant-se&family=australia&ft:locale=en-US)**
 
 Get answers to your Service Exchange questions directly in Now Assist, without leaving your current work. The Service Exchange Knowledge Assistant agentic workflow generates answers grounded in documentation that matches the Service Exchange version installed on your instance, and includes links to the source documentation used for every answer.
 
@@ -157,6 +196,11 @@ Australia
 -   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[Health dashboard](https://www.servicenow.com/docs/access?context=se-se-center&family=australia&ft:locale=en-US)**
+
+The Health dashboard has been relocated to the Service Exchange Center. Access a more holistic view of system health that includes a resolution center, connection health, and built-in scan suites providing centralized visibility and faster troubleshooting of integration issues.
 
 
 </td></tr></tbody>
@@ -248,6 +292,8 @@ Australia
 
 Install Service Exchange by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Service Exchange is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -414,5 +460,5 @@ Australia
  See [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Common browser issues while using CPQ
 description: When cookies are blocked by the browser or by browser extensions, it can interfere with the use of CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/common\_browser\_issues\_while\_using\_logik\_io.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/common\_browser\_issues\_while\_using\_logik\_io.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

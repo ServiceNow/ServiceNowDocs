@@ -2,7 +2,7 @@
 title: Mapping alerts and events for the Splunk Enterprise Event Ingestion integration
 description: After you identify the sources for scheduled alert ingestion or manual event forwarding, the next step is to map individual event fields to the fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest-mapping.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -54,5 +54,5 @@ After creating a profile for an event, the process flow for the configuration is
 
 The next step is to ingest triggered alerts or export data and map values to the SIR security incident fields.
 
-**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
+**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
 

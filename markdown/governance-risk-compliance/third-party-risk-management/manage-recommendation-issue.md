@@ -2,7 +2,7 @@
 title: Create or dismiss issues using recommendations
 description: Accept recommendations to create issues based on historical assessment data, or dismiss recommendations that aren’t relevant. Accepting or dismissing issue recommendations helps reviewers efficiently act on AI‑predicted findings while retaining control over which issues are created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/manage-recommendation-issue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/manage-recommendation-issue.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

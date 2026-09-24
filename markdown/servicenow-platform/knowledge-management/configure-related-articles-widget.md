@@ -2,7 +2,7 @@
 title: Configure knowledge related articles widget instance options
 description: Configure the Knowledge Related Articles widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal. These options relate to the list of related articles mapped to an article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-related-articles-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/configure-related-articles-widget.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -62,12 +62,12 @@ The knowledge article view page displays the Related Articles section when an ar
 6.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 
 **Related topics**  
 
 
-[Map related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/map-related-articles.md)
+[Map related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/map-related-articles.md)
 
-[Knowledge Management Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-properties.md)
+[Knowledge Management Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-service-portal-properties.md)
 

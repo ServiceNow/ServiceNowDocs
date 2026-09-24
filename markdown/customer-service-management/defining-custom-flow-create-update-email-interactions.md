@@ -2,7 +2,7 @@
 title: Define a custom flow to create or update email interactions
 description: Define email-related business processes using Workflow Studio. This tool enables you to manage emails along with your customer service processes through a visual interface without having to design or request complex scripts.Create an interaction record to capture customer details.Modify existing interaction records, verifying that all email communication details are updated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/defining-custom-flow-create-update-email-interactions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/defining-custom-flow-create-update-email-interactions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

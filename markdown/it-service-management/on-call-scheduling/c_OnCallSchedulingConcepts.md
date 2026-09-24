@@ -2,7 +2,7 @@
 title: Definitions of On-Call Scheduling terms
 description: Some terms have specific meaning in the On-Call Scheduling application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/c\_OnCallSchedulingConcepts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/c\_OnCallSchedulingConcepts.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -53,10 +53,10 @@ Some terms have specific meaning in the On-Call Scheduling application.
     Roster members can request time off. Managers can plan for and manage holidays and requests for time off.
 
 
-**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
+**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
 
 **Related topics**  
 
 
-[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
+[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
 

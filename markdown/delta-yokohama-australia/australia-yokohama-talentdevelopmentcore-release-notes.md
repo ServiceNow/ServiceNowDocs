@@ -2,11 +2,11 @@
 title: Combined Talent Development Core release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Talent Development Core from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-talentdevelopmentcore-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-talentdevelopmentcore-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -80,6 +80,25 @@ Yokohama
 As a manager, use the growth conversations preparation AI agent to schedule and prepare for employee growth discussions. The agent provides a clear summary of employee activity and career journey, with data-driven talking points to make conversations more focused and impactful.
 
 **Note:** This feature is available when you have both ServiceNow Otto for HR Service Delivery \(HRSD\), which will install Now Assist for Talent and HR Talent AI Agent Collection
+
+
+ -   **[Credly integration](https://www.servicenow.com/docs/access?context=credly-spoke&family=yokohama&ft:locale=en-US)**
+
+As an employee, Credly integration now empowers you to display your digital credentials better demonstrating your skills in a tangible way.
+
+
+ -   **[View user credentials](https://www.servicenow.com/docs/access?context=view-achievement-credentials&family=yokohama&ft:locale=en-US)**
+
+As an administrator, Achievements and Credentials now enables you to view user credentials and use achievement credential templates to sync credentials from third-party credential providers, for example: CredlyImport latest badges and related skills with the **Refresh credentials** option.Credential badges are displayed in the skill activity insights.Skills related to Credentials \(badge template\) are synced to the user profile. New skills identified are added to the harmonisation queue. Once imported, dynamic skills are associated with the respective user profile.
+
+**Note:** Credential Core has a soft dependency on Skills Foundation \(8.0\).
+
+
+ -   **[Create a growth plan with the help of Now Assist](https://www.servicenow.com/docs/access?context=egd-create-growth-plan&family=yokohama&ft:locale=en-US)**
+
+As a Talent Development user, manage your career growth by creating a growth plan with the help of Now Assist. With Now Assist, you can provide details to craft a prompt that describes your career goals.
+
+**Note:** This feature is available when you have both Talent Development Core and ServiceNow Otto for HRSD installed.
 
 
 </td></tr><tr><td>
@@ -244,6 +263,8 @@ Yokohama
 
 Install Talent Development Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
+
+**Important:** Talent Development Core is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -455,5 +476,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

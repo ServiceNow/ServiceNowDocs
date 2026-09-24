@@ -2,7 +2,7 @@
 title: Exchange MailBox discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of Exchange Mailbox.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-ExchangeMailBox.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r-ExchangeMailBox.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -73,5 +73,5 @@ The following data is collected on the Exchange Mailboxes \[cmdb\_ci\_exchange\_
 |Installation directory|install\_directory|
 |Type|type|
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Software.md)
 

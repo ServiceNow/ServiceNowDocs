@@ -2,7 +2,7 @@
 title: Create an information request record using Information Request Playbook
 description: Create an information request record in the Public Sector Digital Services application by using an Information Request Playbook activity. By using a playbook, you can have an efficient, streamlined way to create and resolve an information request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbook-create-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-ir-playbook-create-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Create an information request record in the Public Sector Digital Services appli
 
 ## Before you begin
 
-**Note:** Before you start this procedure, verify that the Information Request Playbook application, which is separate from Public Sector Digital Services Core, is installed and enabled in the CRM Workspace. For instructions, see [Install Information Request Playbook for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/install-psds-information-request-playbook.md).
+**Note:** Before you start this procedure, verify that the Information Request Playbook application, which is separate from Public Sector Digital Services Core, is installed and enabled in the CRM Workspace. For instructions, see [Install Information Request Playbook for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/install-psds-information-request-playbook.md).
 
 Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agency\_agent, sn\_gsm.relationship\_agent, and sn\_gsm.service\_manager
 

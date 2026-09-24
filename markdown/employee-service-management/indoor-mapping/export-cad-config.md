@@ -2,7 +2,7 @@
 title: Export CAD configuration
 description: Export the updated CAD changes to your CAD file. Exporting the updated changes creates a copy of the modified CAD file in Indoor Mapping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/export-cad-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/export-cad-config.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -59,9 +59,9 @@ Role required: admin
     \[Omitted image "wsd-autocad-source-updatedfile.png"\] Alt text: Autocad source for CAD file showing the exported and updated file.
 
 
-**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
+**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
 
-**Previous topic:**[Closing a geometry or a polyline in a layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/editing-a-shape-autocadv2.md)
+**Previous topic:**[Closing a geometry or a polyline in a layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/editing-a-shape-autocadv2.md)
 
-**Next topic:**[Import CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/import-cad-config.md)
+**Next topic:**[Import CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/import-cad-config.md)
 

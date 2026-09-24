@@ -2,7 +2,7 @@
 title: Manually manage the domain for particular records
 description: By default, the system automatically assigns a domain based on the user's company record. In some cases, however, domain administrators want to manually manage which domain a particular record belongs to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ManuManDomPartRec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ManuManDomPartRec.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,5 +44,5 @@ The **Managed domain** field allows domain administrators to manually select a d
 **Related topics**  
 
 
-[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 

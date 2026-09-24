@@ -2,7 +2,7 @@
 title: DevOps Insights dashboard - Workspace
 description: The DevOps Insights dashboard provides a flexible graphical view of operational and business reports. Use the dashboard to evaluate the results of your overall DevOps process.The DevOps Insights Summary dashboard enables an overview of key metrics across various categories from accelerate to quality metrics along with a quick glance of the most active applications.The DevOps Insights Flow metrics reports help you visualize how work is moving through your development process. Uncover bottlenecks by determining which kinds of work \(such as stories or bugs\) are taking the longest.The DevOps Insights Change acceleration tab displays change acceleration metrics that focus on your path to automation, comparing automated changes to manual changes, change policy decisions, and ROI. You can use this information to verify that automated change requests are being resolved more quickly than manually approved change requests.The DevOps Insights Accelerate metrics are four key DevOps metrics that measure software delivery performance. Deployment frequency and lead time measure DevOps speed, while change failure rate and mean time to recovery are used to measure stability.The DevOps Insights Quality metrics dashboard enables a quick glance at data from tools such as SonarQube for code coverage, test pass percentage from your orchestration tools, vulnerabilities from security tools, and even overall bug counts.Development metrics focus on commit data that provides insights into how active and agile your teams are. With this information, you can reach full traceability of work by ensuring that commits are being tagged with the appropriate work items.Operational metrics reflect on the stability of your applications to enable you to ensure that your teams are moving fast without compromising release quality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-insights-dboard-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/devops-insights-dboard-ws.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -312,7 +312,7 @@ Number of DevOps changes that are pending approval by date range.
 
  By default, change requests in the New or Assess state are considered awaiting approval.
 
- To specify the states that are considered awaiting approval, update the **Change Request Awaiting States** property setting. For details, see [DevOps Insights properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-insights-workspace-properties.md).
+ To specify the states that are considered awaiting approval, update the **Change Request Awaiting States** property setting. For details, see [DevOps Insights properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-insights-workspace-properties.md).
 
 </td><td>
 
@@ -356,7 +356,7 @@ Net amount saved per month by automating DevOps changes.
 
  When a change is automated, a developer doesn’t have to manually fill out the change request and associate each work item, code commits, test results and other evidence and artifacts to the change. After this activity is automated, hours that would have been spent on filling out the change, searching, tracking down and attaching items from other tools to a change, will now be saved. More work items require a relatively increasing number of hours to associate them manually. Therefore, higher numbers of work items should result in more hours saved after the change is automated. Change acceleration savings are calculated by multiplying the hours saved by the average hourly developer cost.
 
- To change the default value of the average hourly developer cost, update the **Average Hourly developer Cost** property setting. For details, see [DevOps Insights properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-insights-workspace-properties.md).
+ To change the default value of the average hourly developer cost, update the **Average Hourly developer Cost** property setting. For details, see [DevOps Insights properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-insights-workspace-properties.md).
 
 </td><td>
 
@@ -368,7 +368,7 @@ Developer hours saved
 
 </td><td>
 
-Number of developer hours saved per month by automating DevOps changes.To change the default value of 1 \(one\) hour per developer, update the **X hours per Developer time** property setting. For details, see [DevOps Insights properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-insights-workspace-properties.md).
+Number of developer hours saved per month by automating DevOps changes.To change the default value of 1 \(one\) hour per developer, update the **X hours per Developer time** property setting. For details, see [DevOps Insights properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-insights-workspace-properties.md).
 
 </td><td>
 

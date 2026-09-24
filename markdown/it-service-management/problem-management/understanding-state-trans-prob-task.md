@@ -2,7 +2,7 @@
 title: Life cycle of a problem task
 description: A problem task is the smallest unit of work that you should perform to complete a problem. State transition of a problem task guides you through the stages of a problem task life cycle, from creation to closure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/understanding-state-trans-prob-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/understanding-state-trans-prob-task.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -29,7 +29,7 @@ By default, you can create the following types of tasks:
 
 **Note:**
 
-You can use Problem Management models to tailor processes for specific use cases. For more information, see [Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-models.md).
+You can use Problem Management models to tailor processes for specific use cases. For more information, see [Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/problem-mgmt-models.md).
 
-**Parent Topic:**[Problem Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/c_ProblemManagementProcess.md)
+**Parent Topic:**[Problem Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/c_ProblemManagementProcess.md)
 

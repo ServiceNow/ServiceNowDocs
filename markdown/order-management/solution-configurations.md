@@ -2,7 +2,7 @@
 title: Solution configurations
 description: Solution configurations let you link multiple blueprints together so buyers complete related product configurations in a single, connected session.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/solution-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/solution-configurations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -65,7 +65,7 @@ Solution configurations work well when you need to manage complex products as se
 **Related topics**  
 
 
-[Enable solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-solution-configuration.md)
+[Enable solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enable-solution-configuration.md)
 
 [Solution configuration terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

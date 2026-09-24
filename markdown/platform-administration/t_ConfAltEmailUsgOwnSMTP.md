@@ -2,7 +2,7 @@
 title: Enable using your own SMTP server
 description: Enable using your own SMTP server so that you can use the existing filtering, retention, or compliance aspects of your own SMTP server while also using the ServiceNow POP3 server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfAltEmailUsgOwnSMTP.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfAltEmailUsgOwnSMTP.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Enable using your own SMTP server so that you can use the existing filtering, re
 
 -   Role required: admin
 -   Email server required: SMTP
--   [Basic email properties:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfiguringStandardEmail.md) enabled
+-   [Basic email properties:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ConfiguringStandardEmail.md) enabled
 
 ## About this task
 
@@ -140,7 +140,7 @@ System Address Filter
 
 System address filter to apply to the email account. If left blank, the system uses the default system address filter for inbound or outbound email.
 
- For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-address-filters.md).
+ For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-address-filters.md).
 
 </td></tr><tr><td>
 
@@ -180,10 +180,10 @@ Option to create node logs for the raw data that is exchanged with the email ser
 
 Configure the SMTP server in your internal email architecture to forward email from the custom email address to the instance email address. Implement a spam filter on the custom email address.
 
-**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AlternateEmailConfigurations.md)
 
 **Related topics**  
 
 
-[Create an email account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureAnEmailAccount.md)
+[Create an email account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ConfigureAnEmailAccount.md)
 

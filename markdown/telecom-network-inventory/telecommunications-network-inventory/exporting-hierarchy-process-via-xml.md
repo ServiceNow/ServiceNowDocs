@@ -2,12 +2,12 @@
 title: Exporting hierarchy via XML
 description: Learn how to export a model or template and its related records as XML files for transfer to another ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/exporting-hierarchy-process-via-xml.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/exporting-hierarchy-process-via-xml.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Export hierarchy of models and templates, Explore, Telecommunications Network Inventory]
 ---
@@ -24,12 +24,12 @@ In the second stage, the administrator opens each related record link. The admin
 
 Sibling records at every level and their descendants are excluded. The selected record, all of its ancestors, and all of its descendants. Sibling records at every level and their descendants are excluded.
 
-To learn the step-by-step procedure for exporting a model or template hierarchy, see [Export hierarchy of models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-template.md).
+To learn the step-by-step procedure for exporting a model or template hierarchy, see [Export hierarchy of models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-template.md).
 
 **Related topics**  
 
 
-[Import model Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-model-excel-template.md)
+[Import model Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-model-excel-template.md)
 
-[Import template Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-template-excel.md)
+[Import template Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-template-excel.md)
 

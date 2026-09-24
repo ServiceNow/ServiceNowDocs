@@ -2,10 +2,10 @@
 title: Strategizing the AI plan
 description: The Strategize tab gives AI stewards a view of the AI strategic direction for their organization. Goals, targets, and strategic priorities that guide AI investment and governance decisions are tracked in one place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-strategize.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-strategize.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
 ---

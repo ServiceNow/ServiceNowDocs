@@ -2,7 +2,7 @@
 title: Extended functions in HTML field editor
 description: The extended functions available for working with HTML content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_ExtendedFunctions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_ExtendedFunctions.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -108,7 +108,7 @@ Edit HTML Source/Code
 
 </td><td>
 
-Opens HTML source code in a separate window. See [Editing in HTML Source Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseHTMLFields.md).
+Opens HTML source code in a separate window. See [Editing in HTML Source Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_UseHTMLFields.md).
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ Insert/Edit Embedded Media
 
 </td><td>
 
-Embeds a video from the video library or an attachment. You can also add videos to the video library with this feature. To learn more, see [Embedding Video in HTML Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EmbeddingVideoInHTMLFields.md).
+Embeds a video from the video library or an attachment. You can also add videos to the video library with this feature. To learn more, see [Embedding Video in HTML Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_EmbeddingVideoInHTMLFields.md).
 
 </td></tr><tr><td>
 
@@ -172,7 +172,7 @@ Insert/Edit Image
 
 </td><td>
 
-Inserts an image from the image library or an attachment. You can also add images to the image library with this feature. To learn more, see [Embedding Images in HTML Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EmbeddingImagesInHTMLFields.md).
+Inserts an image from the image library or an attachment. You can also add images to the image library with this feature. To learn more, see [Embedding Images in HTML Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_EmbeddingImagesInHTMLFields.md).
 
 </td></tr><tr><td>
 

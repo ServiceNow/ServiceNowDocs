@@ -2,7 +2,7 @@
 title: Open new cases in the same tab with ServiceNow Link Manager for Microsoft Edge
 description: Follow the steps below to install and activate ServiceNow Link Manager in Microsoft Edge.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-snow-link-manager-ms-edge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-snow-link-manager-ms-edge.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

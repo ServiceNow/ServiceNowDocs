@@ -2,7 +2,7 @@
 title: View Desktop Assistant usage metrics
 description: As a DEX administrator, view Desktop Assistant usage metrics of end users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-da-usage-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/view-da-usage-metrics.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -34,6 +34,6 @@ Role required: admin
 
     \[Omitted image "desktop-exp-dashboard.png"\] Alt text: Desktop Assistant usage metrics page
 
-    For more details on the usage metrics, see [Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-exp-dashboard.md).
+    For more details on the usage metrics, see [Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-desktop-exp-dashboard.md).
 
 

@@ -2,7 +2,7 @@
 title: Configure the OT Discovery connections &amp; credentials
 description: Configure the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery authentication credentials and configuration used to connect to the ServiceNow OT Discovery devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/configure-the-ot-discovery-connections-credentials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/configure-the-ot-discovery-connections-credentials.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -121,7 +121,7 @@ This field is mandatory.
 
 ## What to do next
 
-The next step is to [Generate imports and validate the connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-imports-validate-connections.md).
+The next step is to [Generate imports and validate the connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/generate-imports-validate-connections.md).
 
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-ot-discovery.md)
 

@@ -2,12 +2,12 @@
 title: Summarize a client script using ServiceNow Otto
 description: Use the client script summarization skill to generate a plain-language summary of a client script directly in the UI Builder editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/client-script-summarization-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/client-script-summarization-generation.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Use the client script summarization skill to generate a plain-language summary o
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 Turn on the Client script summarization skill.
 
@@ -63,14 +63,14 @@ A concise summary, information about where the client script is triggered, and a
 |-------|------------|----------|
 |Explain Code panel does not appear|Client script summarization skill is disabled, or user lacks the ui\_builder\_admin role.|Activate Client script summarization skill in AI Admin Hub. Confirm the user has the ui\_builder\_admin role.|
 
-**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-generation.md)
+**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-generation.md)
 
 **Related topics**  
 
 
 [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md)
 
-[Client script summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/client-script-summarization.md)
+[Client script summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/client-script-summarization.md)
 
-[Use case: Summarize a client script using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/use-case-client-script-summarization.md)
+[Use case: Summarize a client script using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/use-case-client-script-summarization.md)
 

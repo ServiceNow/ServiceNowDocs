@@ -2,7 +2,7 @@
 title: Employee Center plugins
 description: Discover the Employee Center plugins that are included out-of-the-box on a new ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/install-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/install-plugins.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

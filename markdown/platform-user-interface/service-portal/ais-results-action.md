@@ -2,7 +2,7 @@
 title: Define an AI Search Results Action
 description: Configure which portal page opens when a result is selected from the list of search results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/ais-results-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/ais-results-action.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -133,5 +133,5 @@ Custom query parameters to use in addition to the payload query parameters. For 
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ai-search.md)
+**Parent Topic:**[AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/ai-search.md)
 

@@ -2,7 +2,7 @@
 title: Customize a state for project or project task
 description: Add or modify a state of project or project task using dictionary override.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/customize-project-task-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/customize-project-task-states.html
 release: australia
 product: Project Management
 classification: project-management
@@ -36,7 +36,7 @@ As an example, the steps for adding custom states for **Work in progress** state
 
 ## Procedure
 
-1.  [Define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineADictionaryOverride.md) a new dictionary override for `pm_project_task` table under `[Task - State](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/view-default-project-task-states.md)` dictionary.
+1.  [Define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineADictionaryOverride.md) a new dictionary override for `pm_project_task` table under `[Task - State](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/view-default-project-task-states.md)` dictionary.
 
 2.  Specify the override attributes for the dictionary override in **Attributes** field as follows:
 
@@ -51,10 +51,10 @@ As an example, the steps for adding custom states for **Work in progress** state
 
 -   The project states can also be customized using the same steps.
 
-**Parent Topic:**[View default project and project task state categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/view-default-project-task-states.md)
+**Parent Topic:**[View default project and project task state categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/view-default-project-task-states.md)
 
 **Related topics**  
 
 
-[Project and project task states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-and-project-task-states.md)
+[Project and project task states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-and-project-task-states.md)
 

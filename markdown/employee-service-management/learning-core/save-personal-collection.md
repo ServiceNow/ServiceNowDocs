@@ -2,7 +2,7 @@
 title: Save courses to your personal collection
 description: Save courses of interest to your personal collection for easy access and to plan your learning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/save-personal-collection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/save-personal-collection.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -18,7 +18,7 @@ Save courses of interest to your personal collection for easy access and to plan
 
 ## Before you begin
 
-Create a personal course collection. For more information, see [Create a personal course collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-personal-collection.md).
+Create a personal course collection. For more information, see [Create a personal course collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-personal-collection.md).
 
 Role required: user
 
@@ -32,8 +32,8 @@ Role required: user
 
 4.  Select **Apply**.
 
-    **Note:** If you haven’t yet created a personal collection, see [Create a personal course collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-personal-collection.md).
+    **Note:** If you haven’t yet created a personal collection, see [Create a personal course collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-personal-collection.md).
 
 
-**Parent Topic:**[Create a personal course collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-personal-collection.md)
+**Parent Topic:**[Create a personal course collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-personal-collection.md)
 

@@ -2,7 +2,7 @@
 title: View work order trends topics
 description: Analyze the backlog of support work orders and identify clusters of work orders that point to similar underlying issues by using Predictive Intelligence for Field Service Management.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/view-wo-trends.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/view-wo-trends.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,5 +28,5 @@ Role required: wm\_admin or wm\_manager.
     -   Cluster size indicates the number of work orders in the cluster.
     -   Cluster quality gives a percentage value of how similar the work orders are.
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/analytics-reporting-fsm.md)
 

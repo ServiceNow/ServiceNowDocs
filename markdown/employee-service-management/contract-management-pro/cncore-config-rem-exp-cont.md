@@ -2,7 +2,7 @@
 title: Configure conditions to send reminder notifications for expiring contracts
 description: Configure contract repository rules to determine the expiration conditions under which reminder notifications for expiring contracts are sent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-rem-exp-cont.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-config-rem-exp-cont.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -46,7 +46,7 @@ Role required: sn\_cm\_core.contract\_admin
 
         \[Omitted image "cmpro-exp-reminder.png"\] Alt text: Conditions for expiration reminders.
 
-        For more information on these fields, see [Expiring Contracts Condition form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-email-notif-expcont-form.md).
+        For more information on these fields, see [Expiring Contracts Condition form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-email-notif-expcont-form.md).
 
     4.  Select **Submit**.
 
@@ -67,9 +67,9 @@ Role required: sn\_cm\_core.contract\_admin
 
 ## Result
 
-The contract expiration reminders will trigger based on the defined conditions for contract repository. For more information on configuring contract repository, see [Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contract-config.md).
+The contract expiration reminders will trigger based on the defined conditions for contract repository. For more information on configuring contract repository, see [Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-contract-config.md).
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 

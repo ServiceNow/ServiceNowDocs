@@ -2,7 +2,7 @@
 title: Create a Workplace task template
 description: A Task template simplifies the process of creating tasks in Workplace Case Management by populating fields automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/wsd-task-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/wsd-task-template.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -45,7 +45,7 @@ Create a task template for use when creating a workplace service.
 
 The task template is created. You can use this template for Workplace services.
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

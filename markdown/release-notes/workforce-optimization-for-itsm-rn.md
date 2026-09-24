@@ -2,7 +2,7 @@
 title: Workforce Optimization for ITSM release notes
 description: The ServiceNow Workforce Optimization for ITSM application helps IT managers automate the management, monitoring, and mentoring of their teams. This application is currently supported for the Australia release, but it will be deprecated in a future release.The ServiceNow Workforce Optimization for ITSM application helps IT managers automate the management, monitoring, and mentoring of their teams. This application is currently supported for the Australia release, but it will be deprecated in a future release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/workforce-optimization-for-itsm-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/workforce-optimization-for-itsm-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-06-01"
@@ -18,7 +18,7 @@ The ServiceNow® Workforce Optimization for ITSM application helps IT managers a
 
 ## Activation and other requirements
 
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-service-management-rn-landing.md)
 
 ## Australia
 

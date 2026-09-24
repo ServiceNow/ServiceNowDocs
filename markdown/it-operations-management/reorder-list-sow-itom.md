@@ -2,10 +2,10 @@
 title: Reorder list in Service Operations Workspace for ITOM
 description: Reorder lists to prioritize information and enhance workflow organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/reorder-list-sow-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/reorder-list-sow-itom.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -35,5 +35,5 @@ Role required: itil
     \[Omitted image "sow-reorder-list.png"\] Alt text: Reorder lists
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/workspace-dashboard-use.md)
 

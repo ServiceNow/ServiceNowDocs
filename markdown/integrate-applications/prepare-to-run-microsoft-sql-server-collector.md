@@ -2,10 +2,10 @@
 title: Prepare to run the Microsoft SQL Server collector
 description: Configure authentication and permissions before running the collector.Create a service account and grant permissions for NTLM authentication.Create a SQL Server login and grant permissions for username and password authentication.Register an Azure application and grant permissions for Service Principal authentication.Grant SQLAgentReaderRole permissions to harvest Agent job metadata.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-microsoft-sql-server-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-microsoft-sql-server-collector.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 keywords: [SQL Server Agent, Agent jobs, SQLAgentReaderRole, msdb database, SQL Server authentication, SQL Server login, username password, database permissions, SQL Server Agent, Agent jobs, SQLAgentReaderRole, msdb database]
 breadcrumb: [Microsoft SQL Server metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
@@ -27,15 +27,15 @@ The collector supports three authentication methods for Microsoft SQL Server. Al
 
 1.  Select an authentication method and complete the corresponding setup task.
 
-    -   Username and password authentication - See [Set up username and password authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-microsoft-sql-server-collector.md)
-    -   NTLM authentication- See [Set up NTLM authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-microsoft-sql-server-collector.md)
-    -   Microsoft Entra Service Principal authentication - See [Set up Service Principal authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-microsoft-sql-server-collector.md)
+    -   Username and password authentication - See [Set up username and password authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-microsoft-sql-server-collector.md)
+    -   NTLM authentication- See [Set up NTLM authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-microsoft-sql-server-collector.md)
+    -   Microsoft Entra Service Principal authentication - See [Set up Service Principal authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-microsoft-sql-server-collector.md)
 2.  Grant SQLAgentReaderRole permissions to harvest Agent job metadata.
 
-    See [Set up permissions for harvesting SQL Server Agent jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-microsoft-sql-server-collector.md).
+    See [Set up permissions for harvesting SQL Server Agent jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-microsoft-sql-server-collector.md).
 
 
-**Parent Topic:**[Microsoft SQL Server metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-sql-server-metadata-collector.md)
+**Parent Topic:**[Microsoft SQL Server metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/microsoft-sql-server-metadata-collector.md)
 
 ## Set up NTLM authentication
 

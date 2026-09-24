@@ -2,10 +2,10 @@
 title: OTM Licensing dashboard
 description: Use the OTM Licensing dashboard to assess resource consumption and status in relation to your acquired subscriptions. The dashboard provides dedicated reports for each OTM application, providing visual representations of daily usage counts and the average utilization of subscription units over a 90-day period. The OTM Licensing dashboard is an integral component of ITOM Licensing application version 4.0, accessible at ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/otm-licensing-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/otm-licensing-dashboard.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -79,5 +79,5 @@ Hover over the vertical bar in the Subscription units area for the desired day t
 The third area shows which version of the OTM Licensing is used on the instance every day. It helps explaining spikes in count every time the new version is installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[OTM SU Licensing References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/otm-su-licensing-references.md)
+</table>**Parent Topic:**[OTM SU Licensing References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/otm-su-licensing-references.md)
 

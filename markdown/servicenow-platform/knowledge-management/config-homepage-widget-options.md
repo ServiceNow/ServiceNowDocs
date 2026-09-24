@@ -2,7 +2,7 @@
 title: Configure the home page widget instance options
 description: Configure widget instance options for the widgets used to display popular articles on the Knowledge Management Service Portal homepage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-homepage-widget-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/config-homepage-widget-options.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -22,7 +22,7 @@ Role required: sp\_admin or admin
 
 ## About this task
 
-The homepage displays links to the featured, most viewed, and most useful articles using several widgets. The featured articles are displayed based on the keywords associated with the articles. For information on displaying articles in the Featured content section, see [Pin a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_PinAnArticle.md). Most viewed and most useful articles are displayed based on the highest view and use count of the articles.
+The homepage displays links to the featured, most viewed, and most useful articles using several widgets. The featured articles are displayed based on the keywords associated with the articles. For information on displaying articles in the Featured content section, see [Pin a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_PinAnArticle.md). Most viewed and most useful articles are displayed based on the highest view and use count of the articles.
 
 ## Procedure
 
@@ -51,5 +51,5 @@ The homepage displays links to the featured, most viewed, and most useful articl
 5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

@@ -2,7 +2,7 @@
 title: Activate the Platform Analytics Solution for Advanced AI Search Management Tools
 description: Activate the content pack ServiceNow Store application for the Platform Analytics Solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/install-adv-ais-mgmt-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/install-adv-ais-mgmt-tools.html
 release: australia
 product: Search Administration
 classification: search-administration

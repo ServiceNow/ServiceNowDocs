@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) analyze network incidents agentic workflow
 description: Use the Analyze network incidents agentic workflow to resolve incidents, helping customer agents to resolve network tickets by tracking them and creating an actionable task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/network-incident-analysis-usecase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/network-incident-analysis-usecase.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -93,7 +93,7 @@ Ticket readiness AI agent
 
 AI agent capable of predicting the incident fields like category, subcategory, priority, description, short description, and estimated time to resolve the incident using GAF on historic incident data.
 
- To activate the GAF, see [Activate Group Action Framework for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.md).
+ To activate the GAF, see [Activate Group Action Framework for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Network ticket actionable steps generation AI agent
 
 AI agent capable of generating actionable resolution steps for incoming incident using the Group Action Framework \(GAF\) and modifies the steps according to the human feedback.
 
- To activate the GAF, see [Activate Group Action Framework for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.md).
+ To activate the GAF, see [Activate Group Action Framework for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/activate-group-action-framework.md).
 
 </td></tr><tr><td>
 

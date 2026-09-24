@@ -2,7 +2,7 @@
 title: Communicate and share supporting documents for an invoice case from Business Portal
 description: Stay engaged on your invoice dispute case by communicating with a billing specialist and uploading supporting documents, such as proof of delivery or receipts, directly from the Business Portal to help expedite resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/manage-invoice-cases-bp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/manage-invoice-cases-bp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ You can use these tabs proactively without waiting to be contacted, for example,
 
 4.  Select a case for which you want to provide information.
 
-    For a description of the field values, see [Invoice case details on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-header-list-view.md).
+    For a description of the field values, see [Invoice case details on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/invoice-case-header-list-view.md).
 
 5.  View the case history and add comments from the **Activity** tab.
 
@@ -43,12 +43,12 @@ You can use these tabs proactively without waiting to be contacted, for example,
     You can drag files or use the Add attachments icon \[Omitted image "attachments-icon.png"\] Alt text: to browse and upload files from your system.
 
 
-**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 
 
-[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-management-configure-business-portal.md)
 
-[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-self-service-business-portal.md)
 

@@ -2,7 +2,7 @@
 title: Send data to the Employee Health Screening log
 description: Send data from a third-party system to the Employee Health Screening application log table. You can use this table to create reports and monitor health trends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/send-health-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/send-health-logs.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace

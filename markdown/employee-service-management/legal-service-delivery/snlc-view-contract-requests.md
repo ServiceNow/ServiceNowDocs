@@ -2,7 +2,7 @@
 title: View contract requests
 description: When a legal request is submitted a contract request associated with it is initiated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-view-contract-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-view-contract-requests.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -36,7 +36,7 @@ You can access contract request through the legal request or directly from the L
     -   Select **Collaborations** to see the contract requests where you are a collaborator.
     -   Select **All** to see all the contract requests.
 
-**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Customizations tracked by update sets
 description: Update sets track customizations to application tables, fields, and records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/customizations-tracked-update-sets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/system-update-sets/customizations-tracked-update-sets.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -78,5 +78,5 @@ For more information, see:
 
 The system creates a separate update set for each application that only contains changes associated with the application. This separation verifies that access settings for each application are properly evaluated and applied when committing update set changes.
 
-**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-sets-reference.md)
+**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/update-sets-reference.md)
 

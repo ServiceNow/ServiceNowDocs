@@ -2,7 +2,7 @@
 title: Add permissions to collaboration descriptors
 description: Add permissions to collaboration descriptors to manage your user's capabilities, such as the ability to delete the application or manage collaborators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/add-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/add-permissions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Role required: admin
 
 4.  To add or remove permissions to the descriptor, click the arrows.
 
-    For a list of permissions, see [Collaboration permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/collaboration-permissions.md).
+    For a list of permissions, see [Collaboration permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/collaboration-permissions.md).
 
 5.  Click **Save** and **Update**.
 

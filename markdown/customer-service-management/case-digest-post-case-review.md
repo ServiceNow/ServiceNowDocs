@@ -2,7 +2,7 @@
 title: Post case reviews
 description: Use a post case review to capture details about a resolved case, including a summary of the issue, affected assets, root cause, resolution, and any preventive measures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-digest-post-case-review.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-digest-post-case-review.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -96,7 +96,7 @@ The system administrator can enable post case review documents for major cases b
 **Related topics**  
 
 
-[Create a post case review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-review-document.md)
+[Create a post case review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-review-document.md)
 
-[Create a post case review for a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-review-document-mim.md)
+[Create a post case review for a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-review-document-mim.md)
 

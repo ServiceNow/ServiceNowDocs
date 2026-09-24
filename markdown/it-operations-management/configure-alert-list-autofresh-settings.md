@@ -2,10 +2,10 @@
 title: Configure live updates for alert lists
 description: Choose live updates for alert lists to receive real-time updates, or disable live updates and refresh the alert list manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-alert-list-autofresh-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/configure-alert-list-autofresh-settings.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -45,5 +45,5 @@ If an alert is updated and, as a result, no longer matches the active filter, Li
     -   When live updates are turned on, the setting is saved for future logins by the same user.
     -   When live updates are off, the refresh button displays a counter to show the number of changes since the last refresh. You can select the refresh button anytime to update the list manually.
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/workspace-dashboard-use.md)
 

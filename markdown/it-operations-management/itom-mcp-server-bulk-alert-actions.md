@@ -2,7 +2,7 @@
 title: Perform bulk alert actions from an MCP Client
 description: Use the Alert Actions tool in an MCP Client to assign, close, reopen, or acknowledge multiple related alerts as a group in a single request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-mcp-server-bulk-alert-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-mcp-server-bulk-alert-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-08-26"
@@ -23,7 +23,7 @@ Verify that:
 
 **Important:** The Alert Actions tool acts on alerts through an AI agent or MCP Client. You're interacting with AI. AI-generated responses may be inaccurate or incomplete. Review the confirmation and the linked alert after each action to verify the result.
 
-For more information about the Alert Actions tool, see [Alert actions with an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-mcp-server-alert-actions.md).
+For more information about the Alert Actions tool, see [Alert actions with an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-mcp-server-alert-actions.md).
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 

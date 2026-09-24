@@ -2,7 +2,7 @@
 title: Create a user criteria record for Change Management
 description: Create a user criteria record to control user access to widgets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-user-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/create-user-criteria.html
 release: australia
 product: Change Management
 classification: change-management
@@ -132,5 +132,5 @@ Defines any additional criteria, and returns true or false. This field is availa
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/manage-change-models.md)
+**Parent Topic:**[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/manage-change-models.md)
 

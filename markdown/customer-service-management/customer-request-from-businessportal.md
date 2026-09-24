@@ -2,7 +2,7 @@
 title: Request an item or service from the Business Portal
 description: Browse the catalog and create a request for an item or a service from the business portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-request-from-businessportal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-request-from-businessportal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner,
 
 Users can make requests for a product or service from the business portal. Customer administrators, partners, and case managers can also make requests.
 
-**Note:** Creating a request from the business Portal portal requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the administrator to [provide external customers with access to request records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-itsm-integration-view-request.md).
+**Note:** Creating a request from the business Portal portal requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the administrator to [provide external customers with access to request records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-itsm-integration-view-request.md).
 
 ## Procedure
 
@@ -44,5 +44,5 @@ Users can make requests for a product or service from the business portal. Custo
 **Related topics**  
 
 
-[View cases and case tasks from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-related-records-from-business-portal.md)
+[View cases and case tasks from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-related-records-from-business-portal.md)
 

@@ -2,7 +2,7 @@
 title: HTML field editors
 description: An HTML field enables you to insert HTML content directly, which is useful for rich text or custom HTML content within forms. An HTML editor provides simple functionality and HTML source mode editing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_UseHTMLFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_UseHTMLFields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

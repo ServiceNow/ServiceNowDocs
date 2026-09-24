@@ -2,7 +2,7 @@
 title: Include or exclude user access for event types​
 description: Add or remove access to users for any event type so that they can view event types that are relevant only to them.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/include-or-exclude-user-access-for-event-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/include-or-exclude-user-access-for-event-types.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -30,15 +30,15 @@ Role required: sn\_shift\_planning.admin​
 
 3.  Exclude or Include specific CRUD access for users to events.
 
-<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d350861e101">
+<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d350840e101">
 
 To
 
-</th><th align="left" id="d350861e104">
+</th><th align="left" id="d350840e104">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d350861e110">
+</th></tr></thead><tbody><tr><td id="d350840e110">
 
 **Exclude users for which you do not want to enable specific access to event types.__Important:__ For exclusion, a __Create__ access will deny the user from creating events because it excludes that access for the user. The same principle applies to any of the CRUD operations.
 
@@ -57,7 +57,7 @@ Do this
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d350861e167">
+</td></tr><tr><td id="d350840e167">
 
 **Include users for which you want to enable specific access to event types.__Important:__
 
@@ -83,5 +83,5 @@ For inclusion, for specific CRUD operation such as __Create__, the system evalua
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[Understanding user criteria for event types in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/understanding-user-criteria-event-types-wfo-itsm.md)
+**Parent Topic:**[Understanding user criteria for event types in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/understanding-user-criteria-event-types-wfo-itsm.md)
 

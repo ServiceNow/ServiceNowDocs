@@ -2,7 +2,7 @@
 title: Activity Definitions
 description: The ServiceNow AI Platform provides a few activity definitions within the base system. In addition, for the playbooks that SIR Workspace base system, there are a few activity definitions defined in the base system under Enterprise Security Case Management PAD Commons application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/build-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/build-activities.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -30,12 +30,12 @@ Here’s the list of activity definitions that are a part of the base system:
 |Delete Email|Security Incident \[sn\_si\_incident\]|Delete emails|Enterprise Security Case Management PAD Commons|
 |Yes No Outcome|Task \[task\]|Expected outcome|Enterprise Security Case Management PAD Commons|
 
--   **[Example Activity Definition: Send email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/example-activity-definition-send-email.md)**  
+-   **[Example Activity Definition: Send email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/example-activity-definition-send-email.md)**  
 The following is an example of Send email activity definition.
--   **[Submit to CSF X Sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/submit-to-csf-x-sandbox.md)**  
+-   **[Submit to CSF X Sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/submit-to-csf-x-sandbox.md)**  
 Submit to CSF X Sandbox is an example of an activity definition process.
 
-**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 

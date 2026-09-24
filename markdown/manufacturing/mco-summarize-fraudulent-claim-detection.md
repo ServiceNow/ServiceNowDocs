@@ -2,7 +2,7 @@
 title: Summarize fraudulent claim detection using agents
 description: Automatically detect fraudulent claims by identifying duplicates, similar claim patterns, reused dealer images, mismatched or incomplete supporting documents, usage inconsistencies, and abnormal claim spikes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-summarize-fraudulent-claim-detection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-summarize-fraudulent-claim-detection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ The App Anomaly Detection Rule \[com.sn\_anomaly\_detect\] framework identifies 
 
 Use case 1: Dealer submits repair claim with image.
 
-To submit the report in the Dealer portal, see [Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-submit-repair-claim.md).
+To submit the report in the Dealer portal, see [Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-submit-repair-claim.md).
 
 The repair claim appears in the Agents portal with Reject status.
 

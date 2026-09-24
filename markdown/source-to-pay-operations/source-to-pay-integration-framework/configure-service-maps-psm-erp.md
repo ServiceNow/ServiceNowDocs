@@ -2,7 +2,7 @@
 title: Configure service maps for Source-to-Pay
 description: For configuring service maps, provide the connection end point and the ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-psm-erp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-psm-erp.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

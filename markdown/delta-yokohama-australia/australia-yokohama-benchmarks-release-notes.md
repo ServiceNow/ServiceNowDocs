@@ -2,10 +2,10 @@
 title: Combined Benchmarks release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Benchmarks from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-benchmarks-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-benchmarks-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -77,6 +77,9 @@ Yokohama
 
 -   New KPIs are added to the Call deflection - percentage. These new KPIs help you understand the number of Incidents that are created using Proactive Engagement and Digital End-User Experience self service.
 -   New KPI is added to the self-solved percentage. This new KPI shares the number of times the issue is resolved using the Digital End-User Experience self service channels like Desktop Assistant, Now Assist panel, and Employee portal.
+
+ -   The new KPI **Knowledge Articles created using Now Assist** is added to Productivity moments. This primary indicator shows how many knowledge base articles are created using Now Assist in a given period of time.
+-   Leverage benchmarking for HRSM indicators to evaluate your performance in comparison to your peers.
 
 </td></tr><tr><td>
 
@@ -228,6 +231,8 @@ Yokohama
 
 Benchmarks is a ServiceNow AI Platform feature that is active by default. The new Benchmarks dashboard is automatically installed with Yokohama and is available from the ServiceNow Store.
 
+
+**Important:** Benchmarks is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -434,5 +439,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

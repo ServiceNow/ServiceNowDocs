@@ -2,7 +2,7 @@
 title: Create an application in DevOps Config
 description: Create an app in DevOps Config to manage its configuration data, and link DevOps Config with other ServiceNow products, including DevOps Change Velocity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/create-app-devops-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/create-app-devops-config.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -67,7 +67,7 @@ User groups that maintain the application.With the cdm\_admin role, you can add 
 
 If groups you're a member of are removed, you will lose access to the application.
 
-**Note:** A user with cdm\_all\_app\_access and one of the other roles \(cdm\_admin, cdm\_editor, or cdm\_viewer\) can see and manage the application even if they are not in those groups. For more information, see [Roles in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-roles.md).
+**Note:** A user with cdm\_all\_app\_access and one of the other roles \(cdm\_admin, cdm\_editor, or cdm\_viewer\) can see and manage the application even if they are not in those groups. For more information, see [Roles in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-roles.md).
 
 </td></tr><tr><td>
 

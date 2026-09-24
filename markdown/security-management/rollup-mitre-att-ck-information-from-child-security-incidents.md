@@ -2,7 +2,7 @@
 title: Rollup MITRE-ATT&amp;CK information from child security incidents
 description: If you have not enabled automatic rollup of MITRE-ATT&amp;CK information or MITRE ATLAS information, you can do this manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/rollup-mitre-att-ck-information-from-child-security-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/rollup-mitre-att-ck-information-from-child-security-incidents.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from child security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-att-ck-properties.md) or [automatic roll up of MITRE ATLAS information from child security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-atlas-properties.md), then the information is automatically rolled up. If you have not enabled automatic rollup, you can do this manually.
+If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from child security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configure-mitre-att-ck-properties.md) or [automatic roll up of MITRE ATLAS information from child security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configure-mitre-atlas-properties.md), then the information is automatically rolled up. If you have not enabled automatic rollup, you can do this manually.
 
 **Note:** Selecting **Roll up MITRE ATT&amp;CK Information to SI** rolls up both MITRE-ATT&amp;CK and MITRE ATLAS technique information from the selected child security incidents to the parent security incident. There is no separate action for MITRE ATLAS information.
 
@@ -41,7 +41,7 @@ If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from chil
 6.  Select **MITRE ATT&amp;CK Card** to view the origin of techniques.
 
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-features.md)
 
 **Related topics**  
 

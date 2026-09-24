@@ -2,7 +2,7 @@
 title: Using the MITRE-ATT&amp;CK dashboard
 description: The MITRE-ATT&amp;CK dashboard provides an executive view of the data source coverage, tactics, and techniques that are used in your organization.Use the MITRE-ATT&amp;CK dashboard to get an overview of the data source coverage, tactics, and techniques that are used in your organization.The MITRE-ATT&amp;CK Overview module consists of widgets that enable you to correlate the MITRE-ATT&amp;CK information with the security incident information in your environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/mitre-dashboards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/mitre-dashboards.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The MITRE-ATT&amp;CK Overview module displays MITRE-ATT&amp;CK information about
 
 \[Omitted image "mitre-overview-reports.png"\] Alt text: The MITRE-ATT&amp;CK Overview module shows four widgets.
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-features.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure Event Management domain separation
 description: You can configure Event Management for domain separation to create logically defined domains that limit unauthorized access to data. When domains are separated in Event Management, users can only see and manage alerts and events in their own \(tenant\) domain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigureDomainSeparation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMConfigureDomainSeparation.html
 release: australia
 product: Event Management
 classification: event-management
@@ -44,7 +44,7 @@ Supported. Separation is based on the domain user that sent events. User access 
 
 In a multi-domain environment, each MID Server can serve only one domain according to the integration user that it uses. In the configuration of the connector instance, make sure that the MID Server have same domain as Connector instance.
 
-To configure pull connectors to support custom domain separation, see [Configure domain separation for pull connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/personalize-domain-separation-pull-connectors.md).
+To configure pull connectors to support custom domain separation, see [Configure domain separation for pull connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/personalize-domain-separation-pull-connectors.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Remediation
 
 Supported. While editing alert management rules, users can only apply relevant workflows.
 
-For more information on domain separation in the Flow Designer, see Domain separation and Flow Designer.
+For more information on domain separation in the Flow Designer, see [Domain separation and Flow Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-domain-separation.md)
 
 </td></tr><tr><td>
 

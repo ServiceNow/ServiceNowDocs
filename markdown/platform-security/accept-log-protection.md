@@ -2,7 +2,7 @@
 title: Configuring the log protection plugin
 description: Configure the protection rules for each table and operation to complete the configuration of the log protection plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/accept-log-protection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/accept-log-protection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

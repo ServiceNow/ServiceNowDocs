@@ -2,7 +2,7 @@
 title: Pages, templates, and components
 description: Pages, templates, and components work together to build the Configurable Workspace experience. Understanding how they relate helps administrators design a playbook that works for their users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/pages-templates-and-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/pages-templates-and-components.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-14"

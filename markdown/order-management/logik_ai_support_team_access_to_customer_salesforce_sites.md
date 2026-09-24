@@ -2,7 +2,7 @@
 title: CPQ Support Team access to customer Salesforce sites
 description: Learn how CPQ support team members can securely access customer Salesforce and CPQ Admin environments for troubleshooting. This article outlines recommended access methods, user-management practices, and considerations for customers with stricter security policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_ai\_support\_team\_access\_to\_customer\_salesforce\_sites.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/logik\_ai\_support\_team\_access\_to\_customer\_salesforce\_sites.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

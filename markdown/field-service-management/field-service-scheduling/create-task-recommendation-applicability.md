@@ -2,7 +2,7 @@
 title: Map applications to Intelligent Task Recommendation policies
 description: Map applications to task recommendation policies. Provide access to these policies within those applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-task-recommendation-applicability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/create-task-recommendation-applicability.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -48,7 +48,7 @@ By default, Dispatcher Workspace and Mobile are mapped to a task recommendation 
 **Related topics**  
 
 
-[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
 
-[Assign tasks to yourself based on Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/recommend-task-fsm-mobile.md)
+[Assign tasks to yourself based on Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/recommend-task-fsm-mobile.md)
 

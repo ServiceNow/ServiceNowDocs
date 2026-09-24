@@ -2,7 +2,7 @@
 title: Modify a flow
 description: To update or change an existing flow for an app you built in App Engine Studio \(AES\), edit it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/edit-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/edit-flow.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,9 +18,9 @@ To update or change an existing flow for an app you built in App Engine Studio \
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
-Add logic and automation to your application. If you created an application using a template, logic and automation may already be added to your application. For more information on adding custom logic and automation, see [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md).
+Add logic and automation to your application. If you created an application using a template, logic and automation may already be added to your application. For more information on adding custom logic and automation, see [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-automation.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Add logic and automation to your application. If you created an application usin
 
     \[Omitted image "aes-edit-flow-purple.png"\] Alt text: Select to edit a flow
 
-    **Note:** When a flow is triggered by a record being created or updated in a data table, it's referred to as a record-based flow. Record-based flows display in the list of logic and automation with a distinct icon \(\[Omitted image "record-flow-icon.png"\] Alt text: Record-based flow.\). These flows open up within the **Flows** tab in Table Builder if you are licensed for Table Builder for App Engine and have it installed. Contact your account team for details. For more information on flows functionality in Table Builder, see [Flows in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/flows-tb.md).
+    **Note:** When a flow is triggered by a record being created or updated in a data table, it's referred to as a record-based flow. Record-based flows display in the list of logic and automation with a distinct icon \(\[Omitted image "record-flow-icon.png"\] Alt text: Record-based flow.\). These flows open up within the **Flows** tab in Table Builder if you are licensed for Table Builder for App Engine and have it installed. Contact your account team for details. For more information on flows functionality in Table Builder, see [Flows in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/flows-tb.md).
 
 4.  Take the appropriate actions to edit the flow.
 
@@ -78,5 +78,5 @@ In your flow, select the plus icon in the ACTION section, then proceed as you wo
 
 Test a flow to make certain it works the way you expect. For more information on testing flows, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-test.md).
 
-**Parent Topic:**[Add a flow from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-scratch-flow.md)
+**Parent Topic:**[Add a flow from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/create-scratch-flow.md)
 

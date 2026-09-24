@@ -2,7 +2,7 @@
 title: GitLab Spoke
 description: Manage the DevOps lifecycle in GitLab from your ServiceNow instance. Create flows in ServiceNow to manage branches, groups, issues, merge requests, projects, and source code in GitLab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/gitlab-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/gitlab-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -113,7 +113,7 @@ The GitLab spoke provides actions to automate GitLab tasks when events occur in 
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -181,5 +181,5 @@ The GitLab spoke provides Gitlab Token Management application that includes the 
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the GitLab spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gitlab-spoke.md).
+For information about setting up the spoke, see [Set up the GitLab spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-gitlab-spoke.md).
 

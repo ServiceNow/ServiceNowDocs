@@ -2,7 +2,7 @@
 title: Adoption tab in AI Control Tower
 description: Use the Adoption dashboard page to view data about user engagement and feedback, and adoption of every type of AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/aict-adoption-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/aict-adoption-tab.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

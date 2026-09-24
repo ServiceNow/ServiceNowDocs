@@ -2,7 +2,7 @@
 title: Activate a scheduled job to generate resource capacity
 description: Activate the scheduled job to auto-generate the resource capacity at required cadence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/generate-capacity-scheduled-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/generate-capacity-scheduled-job.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

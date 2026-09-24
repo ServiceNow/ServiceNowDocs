@@ -2,7 +2,7 @@
 title: Update an entity class
 description: Update an existing entity class that is associated with an entity. Entity classes are used to add the conceptual information about an entity or tag the entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/update-entity-class.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/update-entity-class.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ Role required: \(per product\)
     |Field|Description|
     |-----|-----------|
     |Tabs|
-    |Details tab|Information on the entity. See [Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity-class.md) for more information.|
+    |Details tab|Information on the entity. See [Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity-class.md) for more information.|
     |Related lists|
     |Entities|Details of the entity, such as name, owned by, and compliance score percentage. To add an entity, select **New**.|
     |Child classes|Details of the child classes for the selected parent entity class. To add a child entity class for the parent entity class, select **New**.|
@@ -43,5 +43,5 @@ Role required: \(per product\)
 5.  To visually explore the relationship between the upstream entities, downstream entities, entity, and entity type that is associated with the entity class, select **360° view**.
 
 
-**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/entities-in-esg.md)
+**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/entities-in-esg.md)
 

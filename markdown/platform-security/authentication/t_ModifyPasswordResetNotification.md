@@ -2,7 +2,7 @@
 title: Modify the Password Reset notification email text
 description: Users of the self-service Password Reset process receive an email notification when they request password reset. You can modify the text of the email and other aspects of the notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_ModifyPasswordResetNotification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_ModifyPasswordResetNotification.html
 release: australia
 product: Authentication
 classification: authentication

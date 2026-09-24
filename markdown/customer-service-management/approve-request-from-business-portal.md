@@ -2,7 +2,7 @@
 title: Approve, change, or registration request from Business Portal
 description: Users with the snc\_external role can view and approve requests and change requests from the business portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/approve-request-from-business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/approve-request-from-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,5 +48,5 @@ A request or change request may require approval from another employee within th
 **Related topics**  
 
 
-[View cases and case tasks from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-related-records-from-business-portal.md)
+[View cases and case tasks from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-related-records-from-business-portal.md)
 

@@ -2,7 +2,7 @@
 title: Add, edit, or delete cost plans
 description: Create a cost plan for a required duration to track your planned and actual expenses. Edit cost plans to adjust your planned expenses and delete any de-scoped forecasts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-cost-plan-prj-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/create-cost-plan-prj-wrkspc.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -50,7 +50,7 @@ A side panel opens to create a cost plan.
 
 2.  On the Cost plan form, fill the fields.
 
-For a description of the field names, see [Create cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-cost-plan-form-spw.md).
+For a description of the field names, see [Create cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-cost-plan-form-spw.md).
 
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create a new cost plan.
  The cost plans created for sub projects can be viewed in the Cost screen of the parent project.
@@ -78,10 +78,10 @@ You can edit a cost plan by one of the following ways.1.  Select the name of the
  **Note:** Deleted cost plans and the associated expense lines can’t be recovered.
 
 </td></tr></tbody>
-</table>    **Tip:** [Create a financial baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-compare-baselines.md) immediately after capturing the initial planned costs to have a snapshot of your planned costs. Use this baseline to compare it against the baselines from later dates, as the work progresses, to identify the variance between initial planned costs and actual expenses.
+</table>    **Tip:** [Create a financial baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-compare-baselines.md) immediately after capturing the initial planned costs to have a snapshot of your planned costs. Use this baseline to compare it against the baselines from later dates, as the work progresses, to identify the variance between initial planned costs and actual expenses.
 
     This helps you to plan for the future expenses and re-forecast the planned costs.
 
 
-**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

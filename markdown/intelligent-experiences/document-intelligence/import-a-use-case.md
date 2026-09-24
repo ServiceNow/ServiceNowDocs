@@ -2,7 +2,7 @@
 title: Import a document extraction use case
 description: Import a document extraction use case for use in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/import-a-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/document-intelligence/import-a-use-case.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -16,11 +16,11 @@ breadcrumb: [Manage document extraction use cases, Configure, Document Intellige
 
 Import a document extraction use case for use in your ServiceNow instance.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Before you begin
 
--   Update sets for a document extraction use case are downloaded according to the steps provided in [Export a document extraction use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/export-a-use-case.md).
+-   Update sets for a document extraction use case are downloaded according to the steps provided in [Export a document extraction use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/export-a-use-case.md).
 -   Ensure both instances have the same family release and the same version of Document Intelligence installed when exporting and importing use cases.
 -   Role required: sn\_docintel.manager
 
@@ -57,7 +57,7 @@ For more information, see [System update sets](https://raw.githubusercontent.com
 
 The use case is imported into the instance and appears in the use cases list.
 
-**Parent Topic:**[Manage document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/manage-use-cases.md)
+**Parent Topic:**[Manage document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/manage-use-cases.md)
 
 **Related topics**  
 

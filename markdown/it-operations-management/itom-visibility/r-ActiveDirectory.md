@@ -2,7 +2,7 @@
 title: Active Directory Domain Controller discovery
 description: The Discovery and Service Mapping Patterns application uses the Active Directory Domain Controller On Windows pattern to find Active Directory domain controllers running on a Windows server. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-ActiveDirectory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r-ActiveDirectory.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -35,7 +35,7 @@ When discovery runs on a domain controller, the pattern also creates LDAP endpoi
 
 -   **Schedule a horizontal discovery**
 
-    For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+    For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -57,5 +57,5 @@ The Active Directory Domain Controller On Windows pattern creates the following 
 |---|------------|---|
 |Active Directory Domain Controller \[cmdb\_ci\_ad\_controller\]|Runs on::Runs|Windows Server \[cmdb\_ci\_win\_server\]|
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Software.md)
 

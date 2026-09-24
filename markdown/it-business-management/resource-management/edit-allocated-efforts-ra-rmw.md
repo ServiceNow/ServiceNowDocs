@@ -2,7 +2,7 @@
 title: Edit allocated efforts for tasks with actual hours
 description: Edit allocated efforts for tasks which have partial actual efforts logged directly from the grid view. This keeps reported time accurate without rolling back time entries through other channels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/edit-allocated-efforts-ra-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/edit-allocated-efforts-ra-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -40,5 +40,5 @@ The total allocated hours for a task appear in the Task effort column of the gri
 
 The allocated hours for the selected period are updated. If there are any actual efforts captured for the past fiscal periods, they won't be affected with this change.
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md)
 

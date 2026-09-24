@@ -2,7 +2,7 @@
 title: Configure work prioritization for sourcing requests
 description: Configure the Priority defaulting for sourcing requests decision table to automatically assign priority levels to sourcing requests based on the organizational seniority of the business owner or other administrator-defined conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-sourcing-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-sourcing-requests.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -89,5 +89,5 @@ If your organization does not use job code hierarchy as the basis for sourcing p
 
 Sourcing requests are automatically assigned a priority level when they are created or updated. Procurement specialists can sort and filter their work queue by priority to work the most urgent sourcing requests first.
 
-**Parent Topic:**[Configuring work prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.md)
+**Parent Topic:**[Configuring work prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.md)
 

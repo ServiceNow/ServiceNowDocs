@@ -2,10 +2,10 @@
 title: Key Pair and Certificates
 description: The Key Pair and Certificates dashboard displays details about the cryptographic keys and digital certificates used for Code Signing. It includes information such as key type, certificate issuer, expiration date, and validity status. Use this dashboard to manage code signing certificate credentials, verify their validity, and help ensure secure and trusted Code Signing operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/code-signing-certificates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/code-signing-certificates.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Health and Status Dashboard, Code Signing, Platform Security]
 ---
@@ -106,5 +106,5 @@ Text field
 The certificate chain, which includes the digital certificate along with the intermediate and root certificates that establish a trust path.Select **View Chain** to view the certificate chain.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-health-and-status-dashboard.md)
+</table>**Parent Topic:**[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-health-and-status-dashboard.md)
 

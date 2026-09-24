@@ -2,7 +2,7 @@
 title: Generate a Knowledge article from the classic environment with ServiceNow Otto
 description: As an author or agent, generate Knowledge articles using ServiceNow Otto on tasks within the classic environment.As an author, generate Knowledge articles using ServiceNow Otto on tasks within the classic environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-coreui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-coreui.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -45,7 +45,7 @@ Role required: author or agent
     The article appears in a new tab with a unique ID.
 
 
-**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 
 **Related topics**  
 

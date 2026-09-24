@@ -2,12 +2,12 @@
 title: Set up an Identity Access Manager in AWS GovCloud
 description: Create AWS CloudFormation Identity Access Manager \(IAM\) resources for three AWS account types in the management account using the CloudFormation templates \(CFT\) to integrate ServiceNow Cloud Account management \(CAM\) with AWS GovCloud.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/set-up-iam-account-in-aws-govcloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/set-up-iam-account-in-aws-govcloud.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 7
 breadcrumb: [Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Create AWS CloudFormation Identity Access Manager \(IAM\) resources for three AW
 
 ## Before you begin
 
-Verify that the target user account has the required AWS IAM permissions. For more information, see [About Amazon Web Services API permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/about-aws-api-permissions.md).
+Verify that the target user account has the required AWS IAM permissions. For more information, see [About Amazon Web Services API permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/about-aws-api-permissions.md).
 
 **Note:** Always follow your organization's security policies when implementing IAM permissions.
 

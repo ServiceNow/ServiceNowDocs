@@ -2,7 +2,7 @@
 title: Assess the quality of completed tasks
 description: Assess the ability of your agents to resolve tasks or the quality of their completed tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/asses-completed-task-quality-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/asses-completed-task-quality-wfo-fsm.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -42,15 +42,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 3.  Perform assessments.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d108297e114">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d108192e114">
 
 To
 
-</th><th align="left" id="d108297e117">
+</th><th align="left" id="d108192e117">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d108297e123">
+</th></tr></thead><tbody><tr><td id="d108192e123">
 
 **Perform adhoc assessments**
 
@@ -65,7 +65,7 @@ The assessment screen appears in the right panel.
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d108297e163">
+</td></tr><tr><td id="d108192e163">
 
 **Use assessments triggered by coaching opportunities**
 

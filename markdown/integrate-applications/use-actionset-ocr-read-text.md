@@ -2,7 +2,7 @@
 title: Use the ActionSet OCR Read Text action
 description: Extract text from images in the desktop, Windows applications, and the Internet Explorer browser by using the OCR Read Text action in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionset-ocr-read-text.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-actionset-ocr-read-text.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Extract text from images in the desktop, Windows applications, and the Internet 
 
 ## Before you begin
 
-Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionsui-actionset.md).
+Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionsui-actionset.md).
 
 Role required: none
 
@@ -24,13 +24,13 @@ Role required: none
 
 The ActionSet OCR \(optical character recognition\) Read Text action can capture text from images and return it in standard text format.
 
-You can configure the properties for the OCR Read Text component. For more information about these properties, see [ActionSet OCR Read Text properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actionset-actions-properties.md).
+You can configure the properties for the OCR Read Text component. For more information about these properties, see [ActionSet OCR Read Text properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/actionset-actions-properties.md).
 
 ## Procedure
 
 1.  Right-click the anchor.
 
-    To know about the anchor, see how to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    To know about the anchor, see how to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/anchor.md).
 
 2.  Navigate to **OCR** &gt; **Read Text**.
 
@@ -63,5 +63,5 @@ You can configure the properties for the OCR Read Text component. For more infor
 8.  To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionsui-actionset.md)
+**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-actionsui-actionset.md)
 

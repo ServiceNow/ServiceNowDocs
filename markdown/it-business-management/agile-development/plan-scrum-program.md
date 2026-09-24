@@ -2,7 +2,7 @@
 title: Plan a scrum program
 description: Plan work for sprints, using a centralized view on Agile Board, of multiple scrum teams that are working together on a scrum program.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/plan-scrum-program.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/plan-scrum-program.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -18,8 +18,8 @@ Plan work for sprints, using a centralized view on Agile Board, of multiple scru
 
 ## Before you begin
 
--   [Create an epic backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-epic-backlog.md).
--   [Create a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-scrum-program.md).
+-   [Create an epic backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/create-epic-backlog.md).
+-   [Create a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/create-scrum-program.md).
 -   Role required: scrum\_sprint\_planner
 
 ## Procedure
@@ -52,10 +52,10 @@ Plan work for sprints, using a centralized view on Agile Board, of multiple scru
     -   Dropping the story back into the epic backlog pane clears the references of the sprint and assignment group from the story.
     -   Moving the story to the team's backlog lane clears only the sprint reference but retains the assignment group.
 
-**Parent Topic:**[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/planning-scrum-program-overview.md)
+**Parent Topic:**[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/planning-scrum-program-overview.md)
 
 **Related topics**  
 
 
-[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/planning-scrum-program-overview.md)
+[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/planning-scrum-program-overview.md)
 

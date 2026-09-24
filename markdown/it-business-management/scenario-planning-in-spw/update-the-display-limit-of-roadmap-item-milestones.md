@@ -2,7 +2,7 @@
 title: Update the display limit of Prioritization and Roadmap items
 description: Create a system property to update the display limit of the items shown in Prioritization and Roadmap views in Strategic Planning Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/update-the-display-limit-of-roadmap-item-milestones.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/update-the-display-limit-of-roadmap-item-milestones.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -89,5 +89,5 @@ Desired display limit count
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
+**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
 

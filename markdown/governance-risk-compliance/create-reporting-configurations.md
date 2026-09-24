@@ -2,7 +2,7 @@
 title: Create reporting configurations
 description: Use the Reporting configurations \(sn\_esg\_msoff\_intg\_o365\_reporting\_configuration\) module to manage Reporting configurations that are scoped to the Digital resilience incident \(DRI\) business domain. The Reporting configurations module is available in the Digital resilience incident reporting application menu.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-reporting-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-reporting-configurations.html
 release: australia
 topic_type: task
 last_updated: "2026-06-05"
@@ -53,7 +53,7 @@ The form fields shown on a Reporting configuration record depend on the value of
 
     **Note:** For the predefined DRIR Case Reporting configuration, Source type is set to Data visualization and Data visualization is set to 'Digital Resilience Incident Reporting Case'. Do not change these values unless you are creating a custom Reporting configuration.
 
-    To view more information on the fields, see [Create Reporting Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/reporting-config-form.md).
+    To view more information on the fields, see [Create Reporting Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/reporting-config-form.md).
 
 4.  To save the configuration, select **Submit**.
 
@@ -61,5 +61,5 @@ The form fields shown on a Reporting configuration record depend on the value of
 **Related topics**  
 
 
-[Download the manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-manifest-file.md)
+[Download the manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/download-manifest-file.md)
 

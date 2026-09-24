@@ -2,7 +2,7 @@
 title: Use the static WSDL
 description: Load the static WSDL into a SOAP client to make requests to the SOAP web service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_UsingAStaticWSDL.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/r\_UsingAStaticWSDL.html
 release: australia
 product: Web Services
 classification: web-services
@@ -47,5 +47,5 @@ Submitting a SOAP request to this web service endpoint returns the following to 
 </SOAP-ENV:Envelope>
 ```
 
-**Parent Topic:**[Create a scripted SOAP web service using a static WSDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/createSOAPwebserviceStaticWSDL.md)
+**Parent Topic:**[Create a scripted SOAP web service using a static WSDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/createSOAPwebserviceStaticWSDL.md)
 

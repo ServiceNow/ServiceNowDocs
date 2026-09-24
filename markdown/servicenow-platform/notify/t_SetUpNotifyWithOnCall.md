@@ -2,7 +2,7 @@
 title: Set up Notify with On-Call Scheduling
 description: You can configure on-call scheduling to use Notify functionality to send SMS alerts and assign users to tasks based on the SMS responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_SetUpNotifyWithOnCall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/t\_SetUpNotifyWithOnCall.html
 release: australia
 product: Notify
 classification: notify
@@ -67,7 +67,7 @@ Set up Notify with On-Call Scheduling for the first time or migrate from On-Call
     Each time the conditions for one of these trigger rules is met, the On-call: Assign by Acknowledgement workflow runs.
 
 
-**Parent Topic:**[Using Notify with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyWithOnCall.md)
+**Parent Topic:**[Using Notify with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifyWithOnCall.md)
 
 **Related topics**  
 
@@ -78,5 +78,5 @@ Set up Notify with On-Call Scheduling for the first time or migrate from On-Call
 
 [Key differences between on-call scheduling with NotifyNow and with Notify]()
 
-[Workflow editor title bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowEditorTitleBar.md)
+[Workflow editor title bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/r_WorkflowEditorTitleBar.md)
 

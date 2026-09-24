@@ -2,7 +2,7 @@
 title: Download the Edge Encryption proxy server
 description: Download the Edge Encryption proxy server application from your instance, and then copy the file to each computer that is to run the Edge Encryption proxy server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/t\_DownloadtheProxy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/edge-encryption/t\_DownloadtheProxy.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -45,7 +45,7 @@ Role required: security\_admin
 
 ## What to do next
 
-After downloading the Edge Encryption installer, [Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md). If installing manually, [Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/manual-proxy-install.md).
+After downloading the Edge Encryption installer, [Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/proxy-installer.md). If installing manually, [Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/manual-proxy-install.md).
 
-**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

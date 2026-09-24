@@ -2,7 +2,7 @@
 title: RWS Translation Management System spoke
 description: The RWS Translation Management System spoke provides subflows and actions to localize the artifacts using the RWS translation management system service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/sdl-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-framework/sdl-spoke.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -64,7 +64,7 @@ The following are the connection alias requirements.
 -   Connection type: HTTP
 -   Connection URL: For example, `https://languagecloud.sdl.com`. This is a sample URL. Users can have a different URL based on their geographical preference.
 
-See [Configure RWS TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/configure-sdl-tms.md) to connect to the RWS TMS services and use them to localize the artifacts.
+See [Configure RWS TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/configure-sdl-tms.md) to connect to the RWS TMS services and use them to localize the artifacts.
 
-**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md)
+**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/tms-configuration.md)
 

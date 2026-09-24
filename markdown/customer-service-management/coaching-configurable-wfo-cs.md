@@ -2,7 +2,7 @@
 title: Using Coaching in Workforce Optimization for Customer Service
 description: By using Coaching in Workforce Optimization for Customer Service, you can assess your team's abilities to efficiently resolve cases by reviewing their work at critical moments of customer service.Use Skills Overview to analyze skill data such as how many skills are assigned to users and tasks. You can also see how many experts you have for a particular skill and the overall skill coverage by your teams.Assess the ability of your agents to resolve cases or the quality of their completed tasks.Add or update skills for an agent. You can approve predicted skills if the skill is necessary for the agent to complete assigned tasks. You can also reject a skill if it doesn't apply to the agent.Use Coaching with Learning to train your agents with internal and external learning content. Organize similar content in catalogs. Assign learning tasks and track completion.Create a catalog to organize related content into categories.Create learning tasks for agents to keep track of their learning activities.Add internal courses so that agents can learn new content and enhance their skill set.Add courses from external sources such as Udemy, Pluralsight, or Cornerstone to enable your users to gain skills from external content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/coaching-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/coaching-configurable-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,11 +17,11 @@ By using Coaching in Workforce Optimization for Customer Service, you can assess
 With Coaching, you can do the following:
 
 -   Recommend training for your agents to address skill gaps.
--   Use the coaching opportunities that are available by [default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent needs.
+-   Use the coaching opportunities that are available by [default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent needs.
 -   Use assessments and surveys to apply consistent, measurable scores across teams.
 -   Use Predictive Intelligence to recommend skills for your agents and provide training to address those skill gaps.
 
-**Parent Topic:**[Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explore-coaching-configurable-wfo-cs.md)
+**Parent Topic:**[Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/explore-coaching-configurable-wfo-cs.md)
 
 ## Skills Overview in Workforce Optimization for Customer Service
 
@@ -37,7 +37,7 @@ Access Skills Overview from the Teams application:
 
 You can access the Skills Overview page when you click on a skill in a user profile page in any Workforce Optimization for Customer Service application.
 
-**Note:** You must enable the Coaching With Learning application to view the reports from the application. For enabling this application, see [Activate Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-configurable-wfo-cs.md).
+**Note:** You must enable the Coaching With Learning application to view the reports from the application. For enabling this application, see [Activate Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/request-configurable-wfo-cs.md).
 
 \[Omitted image "skills-overview-new.png"\] Alt text: Skill overview page displaying a skill assigned to tasks, agents, on-call experts, and a pie chart of skill coverage experience level dispersal.
 
@@ -141,7 +141,7 @@ Displays the percentage as well as the number of users with different levels of 
 </td></tr></tbody>
 </table>### Reports
 
-**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-configurable-wfo-cs.md).
+**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/request-configurable-wfo-cs.md).
 
 |Title|Type|Source table|Description|
 |-----|----|------------|-----------|
@@ -182,15 +182,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 3.  Do any of the following.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d161126e646">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d161042e646">
 
 To
 
-</th><th align="left" id="d161126e649">
+</th><th align="left" id="d161042e649">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d161126e655">
+</th></tr></thead><tbody><tr><td id="d161042e655">
 
 **Perform adhoc assessments**
 
@@ -202,7 +202,7 @@ Do this
 4.  select the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d161126e691">
+</td></tr><tr><td id="d161042e691">
 
 **Use assessments triggered by coaching opportunities**
 
@@ -340,15 +340,15 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d161126e1026">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d161042e1026">
 
 To
 
-</th><th align="left" id="d161126e1029">
+</th><th align="left" id="d161042e1029">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d161126e1035">
+</th></tr></thead><tbody><tr><td id="d161042e1035">
 
 **Add a skill**
 
@@ -359,7 +359,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d161126e1065">
+</td></tr><tr><td id="d161042e1065">
 
 **Update a skill level**
 
@@ -385,7 +385,7 @@ The skill gets automatically added to the agent.
 
 Use Coaching with Learning to train your agents with internal and external learning content. Organize similar content in catalogs. Assign learning tasks and track completion.
 
-**Important:** Coaching with Learning is available when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-configurable-wfo-cs.md).
+**Important:** Coaching with Learning is available when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/request-configurable-wfo-cs.md).
 
 ### Create a learning catalog
 
@@ -438,7 +438,7 @@ Role required: sn\_lc.task\_creator
 
 #### About this task
 
-Set learning task completion due dates to include or exclude weekends using the **exclude\_weekends\_on\_learning\_task\_due\_date** system property. For more information, see [Workforce Optimization for Customer Service Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+Set learning task completion due dates to include or exclude weekends using the **exclude\_weekends\_on\_learning\_task\_due\_date** system property. For more information, see [Workforce Optimization for Customer Service Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md).
 
 #### Procedure
 

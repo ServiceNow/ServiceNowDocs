@@ -2,7 +2,7 @@
 title: GOV.UK Design System Service Portal Widget Library
 description: Configurable Portal widgets provide you with the ability to configure the behavior, content, and layout of the GDS Service Portal by configuring widget settings and instance options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-widget-lib.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-govuk-widget-lib.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -16,7 +16,7 @@ Configurable Portal widgets provide you with the ability to configure the behavi
 
 Service Portal uses widgets for configuration. When you configure a page or a widget for a portal on the Service Portal Configuration page, you use Service Portal widgets to do so. The following is a list of base-system widgets that are included with the toolkit that enable you to configure various pages within the GDS Service Portal, and their instance options.
 
-You can use these widgets as is, or you can duplicate and edit them to suit your needs. For information on how to clone and edit a default GDS Service Portal widget, see [Customize Widgets for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-edit.md).
+You can use these widgets as is, or you can duplicate and edit them to suit your needs. For information on how to clone and edit a default GDS Service Portal widget, see [Customize Widgets for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-widgets-edit.md).
 
 For more information on using configurable widgets in portals, see [Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md).
 
@@ -109,5 +109,5 @@ Adding a widget to a page creates a new Widget Instance, as well as a record on 
 
 You can use widget instances to configure the location, properties, and CSS specific to that instance of the widget.
 
-For more information on configuring widget instances, see [Configure Widgets Instance Options for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.md).
+For more information on configuring widget instances, see [Configure Widgets Instance Options for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.md).
 

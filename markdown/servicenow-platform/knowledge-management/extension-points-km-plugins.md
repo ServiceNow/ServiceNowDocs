@@ -2,7 +2,7 @@
 title: Use extension points for Knowledge Management
 description: Use UI extension points to add knowledge article headers and footers to knowledge articles and to customize the email template for notifications when a knowledge article is commented on. Use scripted extension points to customize the feedback object used in the email template for notifications when a knowledge article is commented on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/extension-points-km-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/extension-points-km-plugins.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -20,7 +20,7 @@ Use UI extension points to add knowledge article headers and footers to knowledg
 
 The Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) must be activated to view the KMFeedbackNotification UI extension point and the KMFeedbackObject scripted extension point. These notifications are part of the Subscriptions feature, which is activated with this plugin.
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 Role required: admin
 
@@ -65,7 +65,7 @@ An implementation is delivered in the base system for scripted extension points.
     5.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 
 **Related topics**  
 

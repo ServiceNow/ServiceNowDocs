@@ -2,7 +2,7 @@
 title: Amazon EBS Spoke
 description: Manage block level storage volumes and snapshots in Amazon EBS from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/amazon-ebs-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/amazon-ebs-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -70,5 +70,5 @@ The Amazon EBS spoke provides actions to automate Amazon EBS tasks when events o
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Amazon EBS spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ebs.md).
+For information about setting up the spoke, see [Set up the Amazon EBS spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-ebs.md).
 

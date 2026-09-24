@@ -2,7 +2,7 @@
 title: Knowledge-based authentication \(Security Questions\)
 description: Knowledge-based authentication \(KBA\) is an identification and authentication method that verifies callers by prompting them to answer preconfigured questions across conversational AI channels, such as AI voice agents. KBA can be used to identify a caller, authenticate a caller, or both within the same interaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/knowledge-based-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/knowledge-based-authentication.html
 release: australia
 product: Authentication
 classification: authentication
@@ -36,7 +36,7 @@ When caller data is not stored in ServiceNow AI Platform, admins can configure a
 
 **Note:** Only `snc_external` users can be authenticated using external source.
 
-Script execution is limited to 15 seconds by default. To learn more configuration properties, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-answers.md).
+Script execution is limited to 15 seconds by default. To learn more configuration properties, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md).
 
 ## Context persistence
 
@@ -57,8 +57,8 @@ Starting `"nowassist-aia-voice", version: "5.0.3"` release, answers collected du
 
 For detailed configuration instructions, see:
 
--   [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-questions.md)
--   [Create KBA answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-answers.md)
--   [Map KBA questions to answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-kba-answer-mappings.md)
--   [AI voice agent service mapping with KBA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-kba-service-mappings.md)
+-   [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-questions.md)
+-   [Create KBA answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md)
+-   [Map KBA questions to answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-kba-answer-mappings.md)
+-   [AI voice agent service mapping with KBA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-kba-service-mappings.md)
 

@@ -2,7 +2,7 @@
 title: Import set tables in HR Service Delivery Integration with Workday Learning
 description: Import set tables into HR Service Delivery Integration with Workday Learning
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/import-set-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/import-set-tables.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -16,12 +16,12 @@ breadcrumb: [Use, HR Service Delivery Integration with Workday Learning, Integra
 
 Import set tables into HR Service Delivery Integration with Workday Learning
 
--   **[HR Service Delivery Integration with Workday Learning to-dos staging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/wdl-todos.md)**  
+-   **[HR Service Delivery Integration with Workday Learning to-dos staging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/wdl-todos.md)**  
 Import workday learning todos.
--   **[HR Service Delivery Integration with Workday Learning user course activity staging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/wdl-user-course-activity.md)**  
+-   **[HR Service Delivery Integration with Workday Learning user course activity staging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/wdl-user-course-activity.md)**  
 Import workday learning user course activity staging information.
 
-**Parent Topic:**[Using HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-workday-learning-intg.md)
+**Parent Topic:**[Using HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-workday-learning-intg.md)
 
 **Related topics**  
 

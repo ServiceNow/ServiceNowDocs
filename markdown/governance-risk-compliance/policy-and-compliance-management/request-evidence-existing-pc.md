@@ -2,7 +2,7 @@
 title: Reuse evidence from related engagement items
 description: Inform the audit and compliance user about the evidences that are already existing for the related items of an engagement. You can add such an evidence, if it is already existing for any of the related item table of an engagement for which you are requesting an evidence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/request-evidence-existing-pc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/request-evidence-existing-pc.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

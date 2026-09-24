@@ -2,7 +2,7 @@
 title: Skills Foundation
 description: The ServiceNow Skills Foundation application is an AI-driven platform that you can use in your organization to develop a workforce that is based on skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/skills-intelligence.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -44,19 +44,19 @@ Build a complete profile of your talent with a comprehensive view of the skills 
 
 <table id="jny-dsgn-info-model-table" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how the Skills Foundation application empowers customers on their journey toward Talent Development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/exploring-skills-intelligence.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how the Skills Foundation application empowers customers on their journey toward Talent Development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/exploring-skills-intelligence.md)
 
 </td><td>
 
-[Install and configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Skills Foundation app and related features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/configuring-skills-intelligence.md)
+[Install and configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Skills Foundation app and related features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/configuring-skills-intelligence.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn how to view and manage your skills profile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/using-skills-intelligence.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn how to view and manage your skills profile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/using-skills-intelligence.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-intelligence-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/skills-intelligence-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

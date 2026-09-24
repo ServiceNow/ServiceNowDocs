@@ -2,7 +2,7 @@
 title: Set up instance for CPQ integration
 description: Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-integration-create-certificates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-integration-create-certificates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -121,5 +121,5 @@ Role required: admin
 
 ## What to do next
 
-[Request a CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-logik-instance.md)
+[Request a CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-up-logik-instance.md)
 

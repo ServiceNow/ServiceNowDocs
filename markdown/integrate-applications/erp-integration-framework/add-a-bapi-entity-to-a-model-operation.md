@@ -2,7 +2,7 @@
 title: Add a BAPI entity to a model operation
 description: Specify the BAPI entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/add-a-bapi-entity-to-a-model-operation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/add-a-bapi-entity-to-a-model-operation.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -19,7 +19,7 @@ Specify the BAPI entity that a Zero Copy Connector for ERP \(Enterprise Resource
 
 ## Before you begin
 
-The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
+The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 This video was recorded in the Zurich release.
 

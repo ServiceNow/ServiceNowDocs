@@ -2,7 +2,7 @@
 title: Request Universal Request integration for Incident Management
 description: To activate the integration between Incident Management and Universal Request, request the Universal Request: Integration for Incident management plugin \(com.snc.incident.universal\_request\) through the Now Support Customer Service system. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/request-univ-req-integration-for-im.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/request-univ-req-integration-for-im.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -91,7 +91,7 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 
 **Related topics**  
 

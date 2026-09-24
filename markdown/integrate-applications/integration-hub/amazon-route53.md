@@ -2,7 +2,7 @@
 title: Amazon Route 53 Spoke
 description: Integrate ServiceNow instance with Amazon Route 53. Manage domain registrations, Domain Name System \(DNS\) routing, and health checking from your ServiceNow instance. Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/amazon-route53.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/amazon-route53.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -310,5 +310,5 @@ Removes tags that are associated to a hosted zone.
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Amazon Route 53 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-amazon-route53.md).
+For information about setting up the spoke, see [Set up the Amazon Route 53 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-amazon-route53.md).
 

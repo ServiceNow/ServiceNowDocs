@@ -2,7 +2,7 @@
 title: Issue readiness AI agent
 description: This AI agent scans the record fields and context of a ticket so it can determine if it is ready for a fulfiller to work on it.This AI agent analyzes a record's information, determines whether all relevant information is present on the record, and then makes a decision about whether the task is ready for work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/plat-ai-issue-readiness-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-ai-issue-readiness-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -26,7 +26,7 @@ This AI agent scans the record fields and context of a ticket so it can determin
     -   The task lacks information that is consistently present in similar records \(if available\) for the same type of request, and that missing information is relevant to fulfill the request \(for example, missing steps, confirmations, or outcome\).
     -   The overall quality or clarity of the task data is poor, such as unclear context that would reasonably block progress.
 
-For more information, see [Using the issue readiness AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-issue-readiness-ai-agent.md).
+For more information, see [Using the issue readiness AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-issue-readiness-ai-agent.md).
 
 <table><thead><tr><th>
 
@@ -58,7 +58,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-agents-overview.md)
+</table>**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-ai-agents-overview.md)
 
 ## Using the issue readiness AI agent
 
@@ -130,7 +130,7 @@ To use this AI agent, you must have the Requester Agents - Foundation plugin ins
 
 ### Testing the Issue Readiness AI agent
 
-You can manually test the AI agent execution on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md). Select the AI agent, start a manual test, and use utterances in the Task field like the ones below.
+You can manually test the AI agent execution on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aia.md). Select the AI agent, start a manual test, and use utterances in the Task field like the ones below.
 
 ### Sample prompts
 

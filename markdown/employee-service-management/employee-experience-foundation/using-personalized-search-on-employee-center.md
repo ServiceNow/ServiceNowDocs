@@ -2,7 +2,7 @@
 title: Use Personalized Answers
 description: Employees can use the AI-search enabled feature to seek information about their leave balance and more on the Employee Center search page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/using-personalized-search-on-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/using-personalized-search-on-employee-center.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,7 +26,7 @@ Employees can simply go to the Employee Center search page and look for their re
 
 Employee can quickly scan the remainder of leaves for the year and select **Request For Leaves** to apply for it. **View Policy** is entirely company-specific.
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

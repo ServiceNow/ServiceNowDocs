@@ -2,7 +2,7 @@
 title: Export document templates
 description: Download document templates in the required file format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/export-document-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/export-document-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,18 +43,18 @@ Role required: sn\_apm.apm\_user
     The template data is downloaded in the selected file format.
 
 
-**Parent Topic:**[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/document-templates-for-ea.md)
+**Parent Topic:**[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/document-templates-for-ea.md)
 
 **Related topics**  
 
 
-[View all document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-document-templates.md)
+[View all document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/view-document-templates.md)
 
-[Create a document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-manage-doc-templates.md)
+[Create a document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/create-manage-doc-templates.md)
 
-[Generate a document from a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-documents-for-diagrams.md)
+[Generate a document from a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/create-documents-for-diagrams.md)
 
-[View documents for a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-docs-for-diagram.md)
+[View documents for a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/view-docs-for-diagram.md)
 
-[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-arch-documents.md)
+[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/manage-arch-documents.md)
 

@@ -2,7 +2,7 @@
 title: ServiceNow Otto skills: Developer-oriented list
 description: The ServiceNow AI Platform offers a range of skills that support efficiency in each development workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-skills-list-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-skills-list-2.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -158,5 +158,5 @@ See [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceN
 |Supplier summarization|Summarizes supplier records.|
 |Negotiation summarization|Summarizes sourcing and negotiation activity.|
 
-**Parent Topic:**[Agentic development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-reference-landing.md)
+**Parent Topic:**[Agentic development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-reference-landing.md)
 

@@ -2,7 +2,7 @@
 title: Assign a knowledge article to a work order or work order task
 description: Add additional information to complete tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/add-knowledge-workorder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/add-knowledge-workorder.html
 release: australia
 product: Work Order Management
 classification: work-order-management

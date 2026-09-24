@@ -2,7 +2,7 @@
 title: AI in Financial Services Operations
 description: Financial Services Operations has AI skills and agentic AI to support front and back office tasks. Users can summarize case and customer details, enhance disputes intake with Disputes intake via Virtual Agent, and use agentic workflows and AI agents to automate dispute resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ Use AI in FSO to do the following:
 -   Use AI agents to resolve ACH dispute cases.
 -   Use AI agents and AI skills to support customer front-office interactions, and to discover customer insights.
 
-For a full list of all AI skills, AI agents, and agentic workflows in FSO, see [AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-capabilities-in-fso.md).
+For a full list of all AI skills, AI agents, and agentic workflows in FSO, see [AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/ai-capabilities-in-fso.md).
 
 Other AI features and skills are also available in ServiceNow Otto and ServiceNow Otto for Customer Service Management. For more information, see [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md) and [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md).
 
@@ -35,7 +35,7 @@ Other AI features and skills are also available in ServiceNow Otto and ServiceNo
 
 Personally identifiable information and other sensitive data can be masked so that it doesn't appear in generative AI prompts. Placeholder text is sent with the prompt instead, and that placeholder text is replaced with the original text after the response has been received. This two-way masking ensures that your users see the correct values, but the LLM provider isn't exposed to any sensitive information. For more information, see .
 
-**Important:** Exercise caution when using ServiceNow Otto with cases that contain sensitive data or other regulated workloads, such as healthcare claims. ServiceNow Otto should not be used for processing protected health information \(PHI\). When using ServiceNow Otto in a protected industry, validate and test the generated results in accordance with corresponding legislation and requirements. See [AI limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md) for more information.
+**Important:** Exercise caution when using ServiceNow Otto with cases that contain sensitive data or other regulated workloads, such as healthcare claims. ServiceNow Otto should not be used for processing protected health information \(PHI\). When using ServiceNow Otto in a protected industry, validate and test the generated results in accordance with corresponding legislation and requirements. See [AI limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md) for more information.
 
 ## Federal exclusion notice
 

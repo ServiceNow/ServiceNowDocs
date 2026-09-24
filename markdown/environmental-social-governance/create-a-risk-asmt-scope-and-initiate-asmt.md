@@ -2,7 +2,7 @@
 title: Create a risk assessment scope and initiate an assessment
 description: Create a risk assessment scope to define and identify risks for an entity. Identify assessors and approvers for assessments and define the frequency of assessments. After creating the scope, initiate the risk assessments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-risk-asmt-scope-and-initiate-asmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-risk-asmt-scope-and-initiate-asmt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Role required: sn\_esg\_risk\_mgmt.risk\_manager
     For information on the fields of the Risk Assessment Scope form, refer to [Create a risk assessment scope and initiate assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-risk-assess-scope.md).
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-risk-management.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-risk-management.md)
 

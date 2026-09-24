@@ -2,7 +2,7 @@
 title: Create Contractual arrangement form
 description: On the Create Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-cont-arrange-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-cont-arrange-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -762,5 +762,5 @@ Identification of alternative ICT TPP
 Supplementary details on the identification of alternative ICT third-party providers \(TPP\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-contract.md)
+</table>**Parent Topic:**[Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-drtp-reg-contract.md)
 

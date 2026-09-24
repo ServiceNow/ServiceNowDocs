@@ -2,7 +2,7 @@
 title: TLM lifecycle timelines on Gantt chart
 description: For Technology Lifecycle Management \(TLM\), the business applications and their related application services \(associated hardware models and software products\) are displayed in a hierarchical structure. The corresponding timelines of the application services are displayed as bars on the Gantt chart.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -60,7 +60,7 @@ Similarly, the TLM phase start date of the business application is considered as
 
 ## TLM risk calculation
 
-The TLM view also displays the upcoming TLM risks associated with any application services, based on their lifecycle dates. To calculate the risk associated with an application service, run the **Populate Technology Lifecycle Risks** scheduled job. For more details, see [Schedule a job to generate TLM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md). To learn more about technology lifecycle risk, see [Technology risk calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-technology-risk-calc.md).
+The TLM view also displays the upcoming TLM risks associated with any application services, based on their lifecycle dates. To calculate the risk associated with an application service, run the **Populate Technology Lifecycle Risks** scheduled job. For more details, see [Schedule a job to generate TLM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md). To learn more about technology lifecycle risk, see [Technology risk calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-technology-risk-calc.md).
 
 The hardware model and software product risk scores are derived from the TPM Technology Risk table \(sn\_apm\_tpm\_technology\_risk\). The risk values are rolled up to the application service level. The highest risk value of hardware models and software products associated with a single application service is considered the risk value of that application service. For example, application service A consists of two hardware models and three software products. The two hardware models have moderate risk while the two software products have low risk. However, one software product has high risk. In this scenario, the risk value of the application service is considered high.
 
@@ -78,10 +78,10 @@ The colors of the bars on the Gantt chart are based on their TLM phase. The TLM 
 
 To see the colors associated with each TLM risk type in the Upcoming TLM risk column, select the legend button \(\[Omitted image "legend-icon.png"\] Alt text: Legend button.\).
 
-**Parent Topic:**[Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
+**Parent Topic:**[Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
 
 **Related topics**  
 
 
-[View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
+[View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
 

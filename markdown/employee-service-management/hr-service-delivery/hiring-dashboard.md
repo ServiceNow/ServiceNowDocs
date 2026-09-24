@@ -2,7 +2,7 @@
 title: Hiring tab
 description: The hiring tab works as the source of truth for the hiring manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hiring-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hiring-dashboard.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,5 +25,5 @@ It provides information about the number of open requisitions by state.
 
 It also lists out all the job requisition by Job Title, Recruiter, State, and Last Updated data.
 
-**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
+**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/use-hiring.md)
 

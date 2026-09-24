@@ -2,7 +2,7 @@
 title: Set up Real-Time Transcription for ServiceNow Voice for IT Service Management
 description: Set up the properties in the Amazon Connect integration in order to enable Real-Time Transcription for IT Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/set-up-rtt-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/set-up-rtt-itsm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: admin
 
 For new deployments, the Real-Time Transcription feature is enabled during the guided setup for ServiceNow Voice.
 
-If you have already deployed ServiceNow Voice and are upgrading, go through all of the steps for [Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-setup.md), and the steps in this procedure, before completing the setup on Amazon Connect.
+If you have already deployed ServiceNow Voice and are upgrading, go through all of the steps for [Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/ccc-setup.md), and the steps in this procedure, before completing the setup on Amazon Connect.
 
 ## Procedure
 
@@ -57,5 +57,5 @@ If you have already deployed ServiceNow Voice and are upgrading, go through all 
 
 Proceed with the setup tasks on your Amazon Connect instance detailed in the setup guide.
 
-**Parent Topic:**[Configure Real Time Transcription for ServiceNow Voice for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-rtt-sn-voice-itsm.md)
+**Parent Topic:**[Configure Real Time Transcription for ServiceNow Voice for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-rtt-sn-voice-itsm.md)
 

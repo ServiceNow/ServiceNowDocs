@@ -2,7 +2,7 @@
 title: Create a test action to test a connection alias from a configuration template
 description: For connection aliases using a configuration template, you can create a test action that enables you to test the connection directly from the Action Properties section of actions contained in a flow in Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/test-alias-configuration-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/test-alias-configuration-template.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -65,5 +65,5 @@ This task is divided into two main steps. The first step describes how to create
 
 ## What to do next
 
-Test your connection directly in the Action Properties section of an action contained in a flow in Workflow Studio. For details, see Action-level connection selection in [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+Test your connection directly in the Action Properties section of an action contained in a flow in Workflow Studio. For details, see Action-level connection selection in [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
 

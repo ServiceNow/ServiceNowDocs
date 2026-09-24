@@ -2,7 +2,7 @@
 title: Request an order guide from Employee Center
 description: Request multiple catalog items together as an order guide from the Employee Center for a specific purpose.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-order-guide-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/request-order-guide-ec.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -22,7 +22,7 @@ Role required: requester
 
 ## About this task
 
-An order guide submits a single service catalog request that contains several catalog items so that you don't have to request each item manually. For more information, see [Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md).
+An order guide submits a single service catalog request that contains several catalog items so that you don't have to request each item manually. For more information, see [Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md).
 
 For example, a New Employee Hire order guide can contain several items that new employees commonly need, such as business cards, computer, and cell phone. After selecting this order guide, the customer can then provide information about the new employee, including location and job title. The order guide then submits an order for catalog items like business cards, based on the details provided.
 
@@ -79,12 +79,12 @@ For example, a New Employee Hire order guide can contain several items that new 
     The corresponding request is displayed in the My Requests page with the request number, estimated delivery date for the entire order, price, and the order status of individual ordered items.
 
 
-**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 
 **Related topics**  
 
 
-[Request an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_OrderProcess.md)
+[Request an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_OrderProcess.md)
 
-[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md)
+[Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md)
 

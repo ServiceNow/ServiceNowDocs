@@ -2,7 +2,7 @@
 title: Integration of Legal Service Delivery with third-party applications
 description: Extend Legal Service Delivery capabilities by integrating with third-party applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-integrate-thirdparty-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-integrate-thirdparty-apps.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery

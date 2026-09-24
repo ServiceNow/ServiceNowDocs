@@ -2,7 +2,7 @@
 title: Create an operational schedule for hardware assets
 description: Define the scheduled operational time, which is the duration during which the asset will be in use, by creating an operational schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-operational-schedule-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-operational-schedule-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -104,5 +104,5 @@ Description of the operational schedule.
 
 ## What to do next
 
-[Map hardware assets to an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-asset-schedule-ham.md).
+[Map hardware assets to an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-asset-schedule-ham.md).
 

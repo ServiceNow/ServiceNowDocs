@@ -2,7 +2,7 @@
 title: Activate the sitemap configuration and definition records for the Consumer Service Portal
 description: Include knowledge articles and catalogs in your sitemap by activating the sitemap configuration and definition records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-sitemap-confi-csp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-sitemap-confi-csp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -52,5 +52,5 @@ All active sitemaps regenerate once in a day and include content from any of the
 **Related topics**  
 
 
-[Sitemap generator for the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/sitemap-generator-csp.md)
+[Sitemap generator for the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/sitemap-generator-csp.md)
 

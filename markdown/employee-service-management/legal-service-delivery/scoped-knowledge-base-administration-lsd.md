@@ -2,7 +2,7 @@
 title: Scoped knowledge bases
 description: To protect knowledge bases containing sensitive articles, use a scoped knowledge base. Even system administrators and knowledge administrators can't administer scoped knowledge bases unless explicitly authorized through user criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/scoped-knowledge-base-administration-lsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/scoped-knowledge-base-administration-lsd.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery

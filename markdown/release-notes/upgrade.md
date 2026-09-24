@@ -2,7 +2,7 @@
 title: ServiceNow upgrades
 description: The upgrade process moves your instance to a new ServiceNow release version. Understand the difference between upgrading and patching, release definitions, rollback and backup options, and how to test your non-production and production instance upgrades.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrade.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/upgrade.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Prepare your upgrade, Australia release notes]
 
 The upgrade process moves your instance to a new ServiceNow release version. Understand the difference between upgrading and patching, release definitions, rollback and backup options, and how to test your non-production and production instance upgrades.
 
-Before you begin the upgrade process, read the [Australia release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/family-release-notes.md) and review the [upgrade and migration tasks for your applications and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade-and-migration-tasks.md).
+Before you begin the upgrade process, read the [Australia release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/family-release-notes.md) and review the [upgrade and migration tasks for your applications and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/upgrade-and-migration-tasks.md).
 
 \[Omitted image "upgrade-cycle-at-large.png"\] Alt text: Prepare, upgrade and test the test instance, upgrade and test production instance
 
@@ -135,8 +135,8 @@ Test
 
 </td><td>
 
--   Use the ServiceNow [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework.md) to assist you in testing your non-production instances.
--   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md).
+-   Use the ServiceNow Automated Test Framework to assist you in testing your non-production instances.
+-   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see Quick start tests.
 -   For extra testing coverage, you can also conduct user acceptance testing \(UAT\) on your non-production instances.
 
 </td></tr><tr><td>
@@ -145,10 +145,10 @@ Production
 
 </td><td>
 
-Conduct UAT.**Note:** The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework.md) is intended for use on non-production instances. On your production instance, conduct UAT only.
+Conduct UAT.**Note:** The Automated Test Framework is intended for use on non-production instances. On your production instance, conduct UAT only.
 
 </td></tr></tbody>
 </table>If you encounter any post-upgrade issues, document the issue's conditions, steps to reproduce the issue, and your customizations. [Contact Customer Service and Support](http://www.servicenow.com/support/contact-support.html) to open an incident for each issue, and provide this information accordingly. Customer Service and Support is available 24 hours a day, 7 days a week to assist you with any questions or issues.
 
-**Parent Topic:**[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md)
+**Parent Topic:**[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-prepare-landing-page.md)
 

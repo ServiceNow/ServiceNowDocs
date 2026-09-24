@@ -2,7 +2,7 @@
 title: Domain separation and Incident Management
 description: Domain separation is supported in Incident Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/domain-separation-incident-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/domain-separation-incident-management.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -53,7 +53,7 @@ Fulfillers see only incidents and incident tasks that have been created within t
 -   An ITIL user can associate child incidents only of those domains that they have access to.
 -   If a user has access to multiple domains, the domain specified on the current record drives the functionality of that record and reference fields.
 
-**Parent Topic:**[Reference section for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/reference-section-for-incident-management.md)
+**Parent Topic:**[Reference section for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/reference-section-for-incident-management.md)
 
 **Related topics**  
 

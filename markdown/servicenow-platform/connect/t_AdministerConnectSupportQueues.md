@@ -2,7 +2,7 @@
 title: Administer Connect Support queues
 description: You can define the support agents, default messages, schedule, and escalation path for each Connect Support queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_AdministerConnectSupportQueues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/t\_AdministerConnectSupportQueues.html
 release: australia
 product: Connect
 classification: connect

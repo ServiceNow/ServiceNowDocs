@@ -2,7 +2,7 @@
 title: Create a function field
 description: Create a function field to be able to group and stack a report by the results of the field's calculation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/create-function-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/create-function-field.html
 release: australia
 product: Reporting
 classification: reporting
@@ -62,7 +62,7 @@ Each function field requires a label, a return type, and a definition. The defin
 
 10. Select the fields that the function operates on.
 
-    Some functions require only one field; some require two or three fields. See [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md). Make sure that you separate the fields with commas.
+    Some functions require only one field; some require two or three fields. See [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/function-fields-reporting.md). Make sure that you separate the fields with commas.
 
 11. When the syntax is correct, you can save the function field.
 
@@ -77,5 +77,5 @@ Configured function fields appear in the **Group by** and **Additional group by*
 
 Use the created function field it in your report or data visualization configuration. For information on using function fields elsewhere on the ServiceNow AI Platform, see [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
 
-**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md)
+**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/function-fields-reporting.md)
 

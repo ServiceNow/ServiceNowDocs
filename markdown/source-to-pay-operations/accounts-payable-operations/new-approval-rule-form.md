@@ -2,7 +2,7 @@
 title: Approval Rule form
 description: Use the Approval Rule form when creating or configuring an approval rule to generate and route invoice or purchase order approvals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/new-approval-rule-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/new-approval-rule-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -79,7 +79,7 @@ The type of approval rule that determines how approval plans are generated and r
 -   Managerial Hierarchy
 -   Specified Users or Groups
 
-Depending on the rule type that you select, the associated fields appear. For more information, see [Approval rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule-types.md).
+Depending on the rule type that you select, the associated fields appear. For more information, see [Approval rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule-types.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Approval trigger conditions
 Conditions based on the approving object that determine the conditions under which an approval plan is created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

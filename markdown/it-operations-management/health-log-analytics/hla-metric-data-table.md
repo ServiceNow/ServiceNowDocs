@@ -2,7 +2,7 @@
 title: View log anomaly metrics in Health Log Analytics
 description: View and query all metrics that Health Log Analytics tracks from a single location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-metric-data-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-metric-data-table.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -33,7 +33,7 @@ The Metric Data table provides a centralized view of every metric that HLA colle
 
 1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Log Anomaly Detection** &gt; **All Metrics**.
 
-    The **Metric Data** table displays a record for each metric that HLA is collecting. For a description of the columns in the table, see [Metric Data table columns in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-metric-data-table-ref.md).
+    The **Metric Data** table displays a record for each metric that HLA is collecting. For a description of the columns in the table, see [Metric Data table columns in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-metric-data-table-ref.md).
 
 2.  Filter the table by log source, integration, source type, or metric type.
 
@@ -42,5 +42,5 @@ The Metric Data table provides a centralized view of every metric that HLA colle
 3.  Select a metric record to view its details.
 
 
-**Parent Topic:**[Administering Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-administer.md)
+**Parent Topic:**[Administering Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-administer.md)
 

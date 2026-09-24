@@ -2,7 +2,7 @@
 title: Template item form
 description: The Template item form displays details about a template item for a task plan template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/task-plan-template-item-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/task-plan-template-item-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

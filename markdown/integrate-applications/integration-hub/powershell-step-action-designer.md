@@ -2,7 +2,7 @@
 title: PowerShell step
 description: Run PowerShell scripts on remote machines from your ServiceNow instance through a MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/powershell-step-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/powershell-step-action-designer.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -164,7 +164,7 @@ Test PowerShell Step
 
 </td><td>
 
-Button to test the configured credential for the PowerShell step. For more information, see [Test a credential for the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-credential-powershell.md).
+Button to test the configured credential for the PowerShell step. For more information, see [Test a credential for the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/test-credential-powershell.md).
 
 </td></tr><tr><td>
 
@@ -252,10 +252,10 @@ To access input variables from the **Command** field, you must call them using s
     -   midScriptDirectory
     -   hresult
 
--   **[Configure logging for the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-logging-powershell-step.md)**  
+-   **[Configure logging for the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-logging-powershell-step.md)**  
 Add log messages to the scripts in your PowerShell step. Use log levels for improved logging and debugging.
--   **[Test a credential for the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-credential-powershell.md)**  
+-   **[Test a credential for the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/test-credential-powershell.md)**  
 Test a configured credential in the PowerShell step. Confirm the credential is working before building the rest of your step.
 
-**Parent Topic:**[Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md)
+**Parent Topic:**[Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integration-steps.md)
 

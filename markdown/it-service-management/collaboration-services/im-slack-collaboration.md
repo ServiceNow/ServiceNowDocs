@@ -2,7 +2,7 @@
 title: Slack integration - Incident Management
 description: With Slack integration, you can create a dedicated channel for incident responders to collaborate during an incident​ enabling bidirectional integration with slack. You can create and update an incident, view information such as who is on-call for a group or view the list of incidents assigned to you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/im-slack-collaboration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/collaboration-services/im-slack-collaboration.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

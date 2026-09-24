@@ -2,7 +2,7 @@
 title: Communicate using emails from Legal Counsel Center
 description: Compose and send emails directly from the legal request record form in the Legal Counsel Center. You can also save the email as a draft to send it later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/send-receive-email-legal-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/send-receive-email-legal-req.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -40,7 +40,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
     Using response templates, you can insert predefined content into the email body. Select the response template icon \(\[Omitted image "response-template-email-icon.png"\] Alt text: Response template icon.\) and find an appropriate response template based on the subject of your email. Copy and paste the template's content into the email body.
 
-    **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-lsd-response-template.md).
+    **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
 7.  Send it right away or save it as a draft to send later.
 
@@ -56,5 +56,5 @@ After the email is sent, it is added to the activity stream on the legal request
 
 Legal requests marked as Privileged and Confidential contain confidentiality markers for both system-generated notifications and fulfiller-initiated outbound emails.
 
-**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/work-on-legal-request.md)
 

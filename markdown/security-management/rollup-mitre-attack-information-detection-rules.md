@@ -2,7 +2,7 @@
 title: Rollup MITRE-ATT&amp;CK information from detection rules
 description: Enable rollup of MITRE-ATT&amp;CK information from the detection rules to the security incidents for better security incident and threat analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/rollup-mitre-attack-information-detection-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/rollup-mitre-attack-information-detection-rules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,8 +20,8 @@ Role required: none.
 
 Ensure that you have performed the following:
 
--   Enable the Rollup MITRE ATT&amp;ACK information automatically from alert rules to security incidents property in the Properties module. By default, this option is disabled. For more information, see [Review the MITRE-ATT&amp;CK system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-att-ck-properties.md).
--   Perform mapping of detection rules to MITRE-ATT&amp;CK TTPs in Detection Rules - MITRE ATT&amp;CK TTP Mapping module. The detection rule name must match the alert rule name that triggers the security incident. For more information, see [Create and map detection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-detection-rules.md).
+-   Enable the Rollup MITRE ATT&amp;ACK information automatically from alert rules to security incidents property in the Properties module. By default, this option is disabled. For more information, see [Review the MITRE-ATT&amp;CK system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configure-mitre-att-ck-properties.md).
+-   Perform mapping of detection rules to MITRE-ATT&amp;CK TTPs in Detection Rules - MITRE ATT&amp;CK TTP Mapping module. The detection rule name must match the alert rule name that triggers the security incident. For more information, see [Create and map detection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-detection-rules.md).
 
 ## About this task
 
@@ -50,7 +50,7 @@ If you do not intend to use the base system SIEM auto-extraction rules, then ena
     The origin of techniques should be Detection Rule.
 
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-features.md)
 
 **Related topics**  
 

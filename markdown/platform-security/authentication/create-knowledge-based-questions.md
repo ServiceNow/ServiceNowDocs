@@ -2,7 +2,7 @@
 title: Create KBA questions
 description: Create knowledge-based questions to use for caller identification and authentication in AI voice agent interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-knowledge-based-questions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-knowledge-based-questions.html
 release: australia
 product: Authentication
 classification: authentication

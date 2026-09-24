@@ -2,7 +2,7 @@
 title: Assign roles
 description: Assign roles to internal and external users to facilitate proper access to service organizations, business organizations \(formerly business locations\), and households. By assigning required roles, you can enable each user to have the necessary permissions to perform their tasks effectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-data-model-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-data-model-roles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: admin
 
 The Service Model Foundation plugins add the following roles to Customer Service Management.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 <table id="table_tls_5tk_2mb"><thead><tr><th>
 

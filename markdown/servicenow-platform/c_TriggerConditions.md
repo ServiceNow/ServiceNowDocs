@@ -2,7 +2,7 @@
 title: Survey trigger conditions
 description: Trigger conditions specify when to send a particular survey and the persons to send it to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_TriggerConditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_TriggerConditions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,12 +20,12 @@ Trigger conditions are ideal for sending transactional surveys. Transactional su
 
 **Note:** Trigger conditions are comparable to survey conditions in legacy surveys. If you migrate a legacy survey that has survey conditions, ensure that the survey conditions are deactivated before you recreate them as trigger conditions.
 
--   **[Configure a trigger condition for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateATriggerCondition.md)**  
+-   **[Configure a trigger condition for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateATriggerCondition.md)**  
 Configure trigger conditions to specify when to send a particular survey and the persons to send it to.
--   **[Trigger condition example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_TriggerConditionExample.md)**  
+-   **[Trigger condition example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_TriggerConditionExample.md)**  
 You can send out auto-triggered surveys when an incident is closed or resolved.
 
-**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Service Exchange Knowledge Assistant agentic workflow
 description: Use the Service Exchange Knowledge Assistant agentic workflow to get answers to Service Exchange questions directly in ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-service-exchange-assistant-se.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-service-exchange-assistant-se.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

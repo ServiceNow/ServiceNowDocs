@@ -2,7 +2,7 @@
 title: Custom app record summarization skill
 description: The ServiceNow Otto for App Engine custom app record summarization skill can generate summaries for the contents of records in custom applications and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -62,7 +62,7 @@ You can choose where you want record summarization to be available to your appli
 
     For more information about adding record summarization to a workspace, see the following resources:
 
-    -   [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+    -   [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md)
     -   [Components documentation for the AI summary card](https://horizon.servicenow.com/workspace/components/now-ai-summary-card?release=zurich)
     -   [UI Builder setup documentation for the AI summary card](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-ai-summary-card/uib-setup)
 -   **ServiceNow Otto® panel**

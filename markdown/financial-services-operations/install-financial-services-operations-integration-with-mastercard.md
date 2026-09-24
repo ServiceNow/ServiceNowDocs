@@ -2,7 +2,7 @@
 title: Install Financial Services Operations Integration with Mastercard
 description: If you have the admin role, you can install the Financial Services Operations Integration with Mastercard application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/install-financial-services-operations-integration-with-mastercard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/install-financial-services-operations-integration-with-mastercard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

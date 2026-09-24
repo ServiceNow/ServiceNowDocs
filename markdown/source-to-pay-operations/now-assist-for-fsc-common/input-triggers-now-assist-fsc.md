@@ -2,7 +2,7 @@
 title: Skill inputs for ServiceNow Otto for Finance and Procurement
 description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/input-triggers-now-assist-fsc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/now-assist-for-fsc-common/input-triggers-now-assist-fsc.html
 release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
@@ -67,5 +67,5 @@ Base input fields
 -   Activity
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customize a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/cust-now-assist-fsc-skill.md)
+</table>**Parent Topic:**[Customize a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/cust-now-assist-fsc-skill.md)
 

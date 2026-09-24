@@ -2,7 +2,7 @@
 title: Monitor the plan list and generate the PDF
 description: Monitor the list of the business continuity plans \(BCPs\) in the BCM mobile application. You can save and generate the PDF of a plan record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-plans-list-and-generate-pdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-plans-list-and-generate-pdf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

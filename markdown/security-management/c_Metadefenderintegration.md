@@ -2,7 +2,7 @@
 title: OPSWAT Metadefender integration overview
 description: OPSWAT Metadefender is a security solution that provides access to multiple anti-malware machines and easily integrates with Security Operations.The Threat Lookup - OPSWAT Metadefender flow performs a lookup on selected observables. If the observables are of a type recognized by OPSWAT Metadefender, the observables are scanned for malware, and the results are returned.Before you can use the OPSWAT Metadefender integration, you must download it from the ServiceNow Store.If you require an SSL connection for the integration, there are circumstances when the certificate provided by the third-party vendor is either not yet trusted in ServiceNow or has expired. This task is optional.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/c\_Metadefenderintegration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/c\_Metadefenderintegration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,13 +20,13 @@ Before you can use the OPSWAT Metadefender integration, you must activate the pl
 
 The Threat Lookup - OPSWAT Metadefender flow performs a lookup on selected observables. If the observables are of a type recognized by OPSWAT Metadefender, the observables are scanned for malware, and the results are returned.
 
-This flow is triggered by the [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-threat-lookups-capability.md) when you perform a threat lookup on one or more observables, and the OPSWAT Metadefender implementation is selected. For more information, see [Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/perform-lookups-on-observables.md).
+This flow is triggered by the [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-ops-threat-lookups-capability.md) when you perform a threat lookup on one or more observables, and the OPSWAT Metadefender implementation is selected. For more information, see [Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/perform-lookups-on-observables.md).
 
 Role required: sn\_si.admin
 
 \[Omitted image "flows-metadefender.png"\] Alt text: Threat Lookup - OPSWAT Metadefender flow
 
-For information on the activities used by this flow, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
+For information on the activities used by this flow, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md).
 
 ## Activate and configure the OPSWAT Metadefender integration
 
@@ -38,7 +38,7 @@ Role required: admin
 
 ### Procedure
 
-1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/download-app-first-time.md).
 
 2.  When the integration is complete, access the OPSWAT portal and obtain the Metadefender Cloud API Key
 
@@ -60,7 +60,7 @@ After it is configured, OPSWAT Metadefender can be selected for performing looku
 **Related topics**  
 
 
-[Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/perform-lookups-on-observables.md)
+[Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/perform-lookups-on-observables.md)
 
 ## Update your X.509 certificate
 

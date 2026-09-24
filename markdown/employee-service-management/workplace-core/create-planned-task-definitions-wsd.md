@@ -2,7 +2,7 @@
 title: Create planned task definitions
 description: Create planned task definitions in Workplace Core to help workplace managers easily generate tasks that are often repeated and independent of shifts such as cleaning coffee vending machines or cleaning floors. You can quickly specify the task details and the frequency at which the task is to be performed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/create-planned-task-definitions-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/create-planned-task-definitions-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -60,7 +60,7 @@ Workplace task template
 
 </td><td>
 
-Template used for the generated planned tasks. Selecting a template automatically populates certain fields such as **Assigned to**, **Short description**, and **Workplace task type** in the generated tasks. For information about workplace task templates, see [Configure a workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-workplace-task-template-wsd.md).
+Template used for the generated planned tasks. Selecting a template automatically populates certain fields such as **Assigned to**, **Short description**, and **Workplace task type** in the generated tasks. For information about workplace task templates, see [Configure a workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/configure-workplace-task-template-wsd.md).
 
 </td></tr><tr><td>
 
@@ -91,17 +91,17 @@ Date and time when the task should start.
 
 5.  If you accessed the form from Workplace Service Portal, on the verification page, you can create another planned task definition or generate planned tasks from this definition immediately.
 
-    **Note:** You can also use this definition to generate planned tasks later. See the instructions in the [Generate planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-planned-task-definitions-wsd.md) topic.
+    **Note:** You can also use this definition to generate planned tasks later. See the instructions in the [Generate planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-planned-task-definitions-wsd.md) topic.
 
-<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d340181e257">
+<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d340185e257">
 
 Option
 
-</th><th align="left" id="d340181e260">
+</th><th align="left" id="d340185e260">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d340181e266">
+</th></tr></thead><tbody><tr><td id="d340185e266">
 
 **Create another planned task definition**
 
@@ -109,7 +109,7 @@ Action
 
 Select **Add another task definition**.
 
-</td></tr><tr><td id="d340181e278">
+</td></tr><tr><td id="d340185e278">
 
 **Generate planned tasks immediately**
 
@@ -127,5 +127,5 @@ Select **Add another task definition**.
 -   The planned task definition is added to the list of all planned task definitions that you can view by navigating to **Workplace Core** &gt; **Workplace Tasks** &gt; **Planned Tasks Definitions**.
 -   If you created planned tasks from this definition, they are added to the list of all planned tasks. You can view those tasks by navigating to **Workplace Safety Management** &gt; **Workplace Tasks** &gt; **Planned Tasks**.
 
-**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
 

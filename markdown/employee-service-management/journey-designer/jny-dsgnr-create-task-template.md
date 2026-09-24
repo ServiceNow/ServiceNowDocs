@@ -2,7 +2,7 @@
 title: Create a task template
 description: Journey owners \(managers\) and mentors create templates of tasks, such as scheduling a meeting or taking a learning course, to assign to employees' journeys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-create-task-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-dsgnr-create-task-template.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -107,5 +107,5 @@ Option to set this task to optional.
 </table>4.  Select **Create task template**.
 
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

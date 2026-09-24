@@ -2,7 +2,7 @@
 title: Download Audit Management
 description: Before you run GRC: Audit Management \(com.sn\_audit\) in your instance, you must download it from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_ActivateGRCAudit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/t\_ActivateGRCAudit.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -22,8 +22,8 @@ Role required: admin
 
 ## Procedure
 
-1.  Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-grc-first-time.md).
+1.  Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/download-grc-first-time.md).
 
 
-**Parent Topic:**[Configuring Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-imple-overview.md)
+**Parent Topic:**[Configuring Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-imple-overview.md)
 

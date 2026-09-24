@@ -2,7 +2,7 @@
 title: Perform actions on nodes in a Dependency Views map
 description: You can view various related items for the nodes in a Dependency Views map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_PerformActionsOnNGBSMMap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_PerformActionsOnNGBSMMap.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -112,7 +112,7 @@ Starting at the selected icon, loads the next level of the map, past the setting
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 

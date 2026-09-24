@@ -2,7 +2,7 @@
 title: Create approval chains
 description: Optionally create approval chains that control the sequence in which two or more approval rules \(steps\) are run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-approval-chain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-approval-chain.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

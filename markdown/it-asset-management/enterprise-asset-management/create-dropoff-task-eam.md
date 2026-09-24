@@ -2,7 +2,7 @@
 title: Create a Drop off task for enterprise assets
 description: Create a Drop off task to return the enterprise assets in your personal stockroom to any other warehouse stockroom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-dropoff-task-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-dropoff-task-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -82,9 +82,9 @@ A Drop off task in the Open state is created and listed in the **Asset tasks** t
 
 ## What to do next
 
-[Drop off enterprise assets at a stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-eam-assets-drop-off.md).
+[Drop off enterprise assets at a stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/add-eam-assets-drop-off.md).
 
-**Parent Topic:**[Delivering enterprise assets in your personal stockroom through Drop off tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/drop-off-receive-assets-eam.md)
+**Parent Topic:**[Delivering enterprise assets in your personal stockroom through Drop off tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/drop-off-receive-assets-eam.md)
 
 **Related topics**  
 

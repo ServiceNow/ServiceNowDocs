@@ -2,7 +2,7 @@
 title: Add contract documents to non-self-served contract request
 description: As a contract user or the person for whom the contract was requested, add single or multiple contracts and classify them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

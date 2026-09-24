@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Sales CRM for Telecommunications AI agent Image to task plan template AI agent
 description: Use the AI agent to create a task plan template for a given specification based on the uploaded image file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-task-template-generation-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-task-template-generation-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

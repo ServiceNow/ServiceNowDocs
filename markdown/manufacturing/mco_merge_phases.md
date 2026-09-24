@@ -2,7 +2,7 @@
 title: Merge two or more phases
 description: Merge phases and sub-phases to reorganize and transfer assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco\_merge\_phases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco\_merge\_phases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

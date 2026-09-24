@@ -2,7 +2,7 @@
 title: Create Google API credentials
 description: To access data securely on your provider account, the Discovery process must be present with appropriate credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-google-api-credentials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/create-google-api-credentials.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

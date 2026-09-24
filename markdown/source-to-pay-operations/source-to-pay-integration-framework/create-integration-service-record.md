@@ -2,7 +2,7 @@
 title: Create Integration Service record
 description: Create Integration Service records to configure how ERP and external systems exchange data with Accounts Payable Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/create-integration-service-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/create-integration-service-record.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

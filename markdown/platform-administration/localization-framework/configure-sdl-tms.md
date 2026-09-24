@@ -2,7 +2,7 @@
 title: Configure RWS TMS in the Localization Framework
 description: Configure RWS TMS to use the RWS TMS service in the Localization Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/configure-sdl-tms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-framework/configure-sdl-tms.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -65,5 +65,5 @@ Roles required: connection\_admin
     Once the OAuth token is created, the ServiceNow® platform regenerates the token until the refresh token expires.
 
 
-**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md)
+**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/tms-configuration.md)
 

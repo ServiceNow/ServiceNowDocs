@@ -2,7 +2,7 @@
 title: Enable Outside Counsel to be added to Legal Invention Disclosure matters
 description: Enable outside counsels to be added to matters related to Legal Invention Disclosure request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-invention-disclosure/enable-the-outside-counsel-in-intake-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-invention-disclosure/enable-the-outside-counsel-in-intake-form.html
 release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -39,7 +39,7 @@ Role required: sn\_lg\_ip.patent\_config, sn\_lg\_matter.matter\_config
 
 ## What to do next
 
-[Associate an existing Outside Counsel to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/add-outside-counsel-to-existing-matter.md)
+[Associate an existing Outside Counsel to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/add-outside-counsel-to-existing-matter.md)
 
-**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
+**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 

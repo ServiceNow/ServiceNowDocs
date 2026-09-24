@@ -2,7 +2,7 @@
 title: Project field mapping
 description: During an import, values from Microsoft Project overwrite fields in project records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/r\_ProjectFieldMapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/r\_ProjectFieldMapping.html
 release: australia
 product: Project Management
 classification: project-management
@@ -172,7 +172,7 @@ Resource Group
 Assignment Group
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+</table>**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectImportAndExport.md)
 
 **Related topics**  
 
@@ -187,5 +187,5 @@ Assignment Group
 
 [Calendars and schedules- Limitations]()
 
-[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectImportAndExport.md)
 

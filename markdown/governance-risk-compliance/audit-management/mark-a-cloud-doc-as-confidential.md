@@ -2,7 +2,7 @@
 title: Mark a cloud file as a non-shareable file
 description: Select one of the already linked files and mark it as a non-sharable file. Once a cloud file is marked as non-sharable, it cannot be linked to another record, or it cannot be referenced by any other record​.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/mark-a-cloud-doc-as-confidential.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/mark-a-cloud-doc-as-confidential.html
 release: australia
 product: Audit Management
 classification: audit-management

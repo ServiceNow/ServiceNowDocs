@@ -2,7 +2,7 @@
 title: Monitoring and analytics for Field Service Management
 description: Manage, supervise, and monitor various managerial activities involved in Field Service Management, such as managing work order task assignments, approving agent time-off, workload, and others.The Emergency Exposure Management feature in Field Service Management helps identify field service agents and customers who may have visited an affected location. It helps find people who encounter an agent who has been classified as positive for a condition, such as COVID-19.Resolve work orders more efficiently by using Predictive Intelligence for Field Service Management to identify work orders with similar issues. Each group of similar work orders represents a work order trends topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/monitoring-analytics-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/monitoring-analytics-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,15 +16,15 @@ Manage, supervise, and monitor various managerial activities involved in Field S
 
 Monitoring and analytics for Field Service Management includes at least one of the following activities.
 
--   [Field Service Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-contractor-management.md)
+-   [Field Service Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-contractor-management.md)
 
     The Field Service Contractor Management application enables Field Service managers to outsource work by onboarding contractor companies and their staff, such as external managers and external agents.
 
--   [Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/monitoring-analytics-fsm.md)
+-   [Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/monitoring-analytics-fsm.md)
 
     Help identify Field Service technicians and customers who may have visited an affected location.
 
--   [Predictive analytics: Work order insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/monitoring-analytics-fsm.md)
+-   [Predictive analytics: Work order insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/monitoring-analytics-fsm.md)
 
     Identify work orders with similar issues and proactively solve problems.
 
@@ -59,7 +59,7 @@ The Emergency Exposure Management application enables you to do the following:
 **Related topics**  
 
 
-[Use Emergency Exposure Management for Field Service agent monitoring and assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/use-exposure-management-fsm.md)
+[Use Emergency Exposure Management for Field Service agent monitoring and assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/use-exposure-management-fsm.md)
 
 ## Predictive analytics: Work order insights
 
@@ -78,5 +78,5 @@ System administrators train solution definitions to identify and cluster similar
 **Related topics**  
 
 
-[View work order trends topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/view-wo-trends.md)
+[View work order trends topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/view-wo-trends.md)
 

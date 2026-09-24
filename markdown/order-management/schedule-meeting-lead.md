@@ -2,7 +2,7 @@
 title: Schedule a meeting from a lead
 description: Schedule a client meeting directly from a lead record to associate it with the lead.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/schedule-meeting-lead.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/schedule-meeting-lead.html
 release: australia
 topic_type: task
 last_updated: "2026-06-11"
@@ -53,16 +53,16 @@ To view all meetings for the lead, select the **Meetings** tab.
 
 **Note:** The **Meetings** tab displays both meetings linked directly to the lead and meetings linked to the lead's touchpoints.
 
-**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-using.md)
 
 **Related topics**  
 
 
-[Schedule a meeting from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-meeting-touchpoint.md)
+[Schedule a meeting from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/schedule-meeting-touchpoint.md)
 
-[Manage touchpoints on a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-lead.md)
+[Manage touchpoints on a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-touchpoints-lead.md)
 
-[Create new meeting form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-meeting-touchpoints-form.md)
+[Create new meeting form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-meeting-touchpoints-form.md)
 
-[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-activity-management.md)
 

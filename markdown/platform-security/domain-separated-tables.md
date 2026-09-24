@@ -2,7 +2,7 @@
 title: Domain Separated Tables
 description: You can see at a glance which tables are domain-separated in your instance with the Domain Separated Tables feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/domain-separated-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/domain-separated-tables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto for app summary generation
 description: Install the ServiceNow Otto for Creator application so that you can use app summary generation for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-app-summarize-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-app-summarize-install.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -52,7 +52,7 @@ Role required: admin
 
 Grant the admin and now.assist.creator roles, or the sn\_g\_app\_creator.app\_creator and now.assist.creator roles, to each user that you want to summarize apps.
 
-To summarize an app, see [Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md).
+To summarize an app, see [Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md).
 
-**Parent Topic:**[Configuring ServiceNow Otto for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-config-now-assis-app-summarize.md)
+**Parent Topic:**[Configuring ServiceNow Otto for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-config-now-assis-app-summarize.md)
 

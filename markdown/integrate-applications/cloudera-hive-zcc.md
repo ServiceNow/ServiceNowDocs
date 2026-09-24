@@ -2,7 +2,7 @@
 title: Cloudera Hive
 description: The Cloudera Hive connector provides read-only access to data and metadata in Cloudera Hive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/cloudera-hive-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/cloudera-hive-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
 
 The Cloudera Hive connector provides read-only access to data and metadata in Cloudera Hive.
 
-A connection admin can set up a connection to Cloudera Hive in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Cloudera Hive. This allows users to access Cloudera Hive data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+A connection admin can set up a connection to Cloudera Hive in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Cloudera Hive. This allows users to access Cloudera Hive data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md).
 
 **Important:** The Cloudera Hive primary connector is in preview. A primary connector in preview is developed and supported by ServiceNow, but is still being enhanced to include all planned functionality. While in preview, a connector may have limitations in platform support or available features.
 
@@ -60,5 +60,5 @@ The following table lists supported Cloudera Hive data types and the default mat
 **Related topics**  
 
 
-[Create a Cloudera Hive connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-cloudera-hive-connection.md)
+[Create a Cloudera Hive connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-cloudera-hive-connection.md)
 

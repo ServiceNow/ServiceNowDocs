@@ -2,7 +2,7 @@
 title: Lookup Next Hub function
 description: The Lookup Next Hub function enables you to take the network interface record as input and return the details of the related physical connection record. You can automatically get the details of the physical connection and interconnected ports of the equipment in the Telecommunications Network Inventory application when you use the Workflow Studio application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/lookup-next-hub-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/lookup-next-hub-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -79,7 +79,7 @@ The following table lists the information about the function output.
     \[Omitted image "cascade-action-4.png"\] Alt text: Display of use case 4 where Interface-2 and Interface-1 are connected to Equipment-1, Interface-3 and Interface-4 are connected to Equipment-2, and there is a physical connection between Interface-1 and Interface-3.
 
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

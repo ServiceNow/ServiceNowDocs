@@ -2,7 +2,7 @@
 title: Define style rules from Change Schedules View
 description: You can create style rules from the change schedules view when you want the style rules to be applied to the specific change schedule where it is defined.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/define-style-rules-from-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/define-style-rules-from-view.html
 release: australia
 product: Change Management
 classification: change-management
@@ -39,7 +39,7 @@ Role required: sn\_chg\_soc.change\_soc\_admin, sn\_change\_role, sn\_change\_wr
 5.  Click **Save**.
 
 
-**Parent Topic:**[Style rules definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/style-rules-definition.md)
+**Parent Topic:**[Style rules definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/style-rules-definition.md)
 
 **Related topics**  
 

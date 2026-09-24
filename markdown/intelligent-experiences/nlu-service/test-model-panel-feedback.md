@@ -2,7 +2,7 @@
 title: Test panel feedback
 description: When testing your NLU model on the Try model section of the test panel, use this feature to provide feedback on the model's intent predictions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/test-model-panel-feedback.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/test-model-panel-feedback.html
 release: australia
 product: NLU Service
 classification: nlu-service

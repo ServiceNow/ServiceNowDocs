@@ -2,7 +2,7 @@
 title: Workforce Optimization for CSM release notes
 description: The ServiceNow Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.The ServiceNow Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.The ServiceNow Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.The ServiceNow Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/workforce-optimization-csm-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/workforce-optimization-csm-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ See [Workforce Optimization for Customer Service](https://raw.githubusercontent.
     Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/customer-service-mgmt-rn-landing.md)
 
 ## June 2026
 

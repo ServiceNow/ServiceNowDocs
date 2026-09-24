@@ -2,7 +2,7 @@
 title: ITOM Mobile Agent reference
 description: Learn about ITOM Mobile Agent settings. You can view the app version, give feedback, and adjust your preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/itom-mobile-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/itom-mobile-settings.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management

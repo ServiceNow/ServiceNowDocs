@@ -2,7 +2,7 @@
 title: Universal linking for mobile
 description: Mobile universal links enable you to drive users to specific screens within a mobile app, that they would not be able to access via the ServiceNow platform web experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/universal-links-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/universal-links-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,12 +24,12 @@ After the user taps **View** in the banner, direct them to any record screen, fo
 
 \[Omitted image "universal-link-on-phone.png"\] Alt text: Universal link shown on phone image.
 
--   **[Enable mobile universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-enable.md)**  
+-   **[Enable mobile universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/universal-linking-enable.md)**  
 Enable the universal linking option if you want a web banner displayed on specified pages of the ServiceNow platform website. By default the mobile universal linking option is not available in the base system.
--   **[Enable expansion of universal linking to mobile browser \(MESP\) pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-unsupported.md)**  
+-   **[Enable expansion of universal linking to mobile browser \(MESP\) pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/universal-linking-unsupported.md)**  
 Enable the expanded universal linking option to display the web banner on mobile browser pages when the user does not have the appropriate mobile app installed. By default this mobile universal linking option is not available in the base system.
--   **[Mobile universal linking for supported URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-support-urls.md)**  
+-   **[Mobile universal linking for supported URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/universal-linking-support-urls.md)**  
 Use mobile universal linking to display a web banner on specified platform web pages to encourage users to work within a ServiceNow mobile app. Configure the supported URLs that facilitate this functionality to ensure that the banners are displayed on the correct web pages. These URLs also direct users to a defined location within the appropriate mobile app.
 
-**Parent Topic:**[Mobile URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-urls.md)
+**Parent Topic:**[Mobile URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-urls.md)
 

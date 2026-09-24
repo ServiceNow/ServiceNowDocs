@@ -2,7 +2,7 @@
 title: Demand task form
 description: The Demand Task form enables you to create or modify a demand task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-demand-task-form-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-demand-task-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

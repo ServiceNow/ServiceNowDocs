@@ -2,7 +2,7 @@
 title: Approve employee workplace reservation requests
 description: Review employee area and space reservation requests in Workplace Core and approve or reject them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/approve-workplace-reservation-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/approve-workplace-reservation-requests.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -18,7 +18,7 @@ Review employee area and space reservation requests in Workplace Core and approv
 
 ## Before you begin
 
-To approve or reject a workplace request using your mobile device, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
+To approve or reject a workplace request using your mobile device, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: approver\_user
 
@@ -26,15 +26,15 @@ Role required: approver\_user
 
 1.  Navigate to a reservation approval task.
 
-<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d713340e71">
+<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d713344e71">
 
 Application
 
-</th><th align="left" id="d713340e74">
+</th><th align="left" id="d713344e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d713340e80">
+</th></tr></thead><tbody><tr><td id="d713344e80">
 
 **Now Mobile**
 

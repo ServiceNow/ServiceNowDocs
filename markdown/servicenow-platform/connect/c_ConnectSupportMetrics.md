@@ -2,7 +2,7 @@
 title: Connect Support metrics
 description: Optional plugins provide a homepage and Performance Analytics dashboards, which contain helpful Connect Support metrics.Use the Connect Support homepage to view key indicators and metrics related to support conversations, queues, and agents.Use the Connect Support dashboards in Performance Analytics to understand trends in your support organization's performance over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/c\_ConnectSupportMetrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/c\_ConnectSupportMetrics.html
 release: australia
 product: Connect
 classification: connect
@@ -53,7 +53,7 @@ Performance Analytics - Context Sensitive Analytics for Chat\[com.snc.pa.chat.co
 Provides in-form analytics for Connect Support. These analytics are available as a related link on the Chat Queue Entry \[chat\_queue\_entry\] form, and also as the **Context Sensitive Analytics - Chat** dashboard.
 
 </td></tr></tbody>
-</table>**Note:** For more information about these plugins, including which other plugins they activate, see [Additional plugins for Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_ActivateConnectSupport.md).
+</table>**Note:** For more information about these plugins, including which other plugins they activate, see [Additional plugins for Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/connect/t_ActivateConnectSupport.md).
 
 **Related topics**  
 

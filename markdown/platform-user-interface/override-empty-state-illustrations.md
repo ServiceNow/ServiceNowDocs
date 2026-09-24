@@ -2,7 +2,7 @@
 title: Override empty state illustrations with custom images
 description: Modify or override the default empty state illustrations with your own custom images to promote visual elements that reflect your company's branding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/override-empty-state-illustrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/override-empty-state-illustrations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -96,7 +96,7 @@ Role required: admin
 
 ## Result
 
-If your theme is published, your custom images are visible to users who have your theme applied on refresh. For more information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your custom images are visible to users who have your theme applied on refresh. For more information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/empty-state-illustrations.md)
+**Parent Topic:**[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/empty-state-illustrations.md)
 

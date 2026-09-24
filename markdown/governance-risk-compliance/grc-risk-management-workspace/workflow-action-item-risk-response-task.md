@@ -2,7 +2,7 @@
 title: Workflow of action item in risk response task
 description: The action item workflow is a structured process for managing the granular tasks associated with risk response tasks, which are assigned to multiple stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/workflow-action-item-risk-response-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/workflow-action-item-risk-response-task.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -30,7 +30,7 @@ The action item workflow consists of the following stages:
 
 -   **Create action items**
 
-    The risk assessor or risk response task owner can create multiple strategies with various action items for each risk response task. Action items are specific, granular tasks defined within a risk response task to address and manage risks effectively. The risk response task owner defines a plan of action for the action item. Action items can be created when the risk response task is in either the Draft state or the Work in progress state. For more information, see [Create an action item in the risk response task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-action-item-risk-response-task.md).
+    The risk assessor or risk response task owner can create multiple strategies with various action items for each risk response task. Action items are specific, granular tasks defined within a risk response task to address and manage risks effectively. The risk response task owner defines a plan of action for the action item. Action items can be created when the risk response task is in either the Draft state or the Work in progress state. For more information, see [Create an action item in the risk response task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-action-item-risk-response-task.md).
 
     **Note:** You can create risk response action items for all types of risk response tasks except for Risk acceptance tasks.
 
@@ -45,5 +45,5 @@ The action item workflow consists of the following stages:
     **Important:** All action items associated with the risk response task must be closed to move the risk response task from Work in progress to Awaiting approval state.
 
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

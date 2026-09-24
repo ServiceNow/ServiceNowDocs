@@ -2,7 +2,7 @@
 title: Add decisions to a demand
 description: Add a decision to a demand to record the solution or plan for a risk or issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-decisions-for-a-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/add-decisions-for-a-demand.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -38,7 +38,7 @@ Role required: it\_demand\_manager
 
 7.  On the Decision form, fill in the fields.
 
-    For a description of the field values, see [Decision form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/decision-form-dw.md).
+    For a description of the field values, see [Decision form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/decision-form-dw.md).
 
 8.  Select **Save**.
 

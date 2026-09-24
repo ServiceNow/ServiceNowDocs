@@ -2,7 +2,7 @@
 title: Create a task on ServiceNow Agent
 description: As an agent, create work order tasks using the ServiceNow Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/mobile-agent-create-a-wot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/mobile-agent-create-a-wot.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -79,7 +79,7 @@ Location
 
 </td><td>
 
-Geographical area where the work needs to be done. The location is critical for determining the agent assigned to the task.If you don’t want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad-hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/service-locations-work-orders.md).
+Geographical area where the work needs to be done. The location is critical for determining the agent assigned to the task.If you don’t want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad-hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/service-locations-work-orders.md).
 
 </td></tr><tr><td>
 

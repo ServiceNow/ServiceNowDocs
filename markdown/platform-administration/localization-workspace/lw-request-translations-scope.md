@@ -2,7 +2,7 @@
 title: Request translations in Localization Workspace: Scope
 description: Select specific documents to add to a translation request in Localization Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-request-translations-scope.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-request-translations-scope.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace

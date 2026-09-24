@@ -2,7 +2,7 @@
 title: Sourcing and Procurement Operations integration with Employee Center
 description: As an employee, shopper, or requester, you can view all procurement case types available to you, knowledge articles, open to-dos and purchasing tasks assigned to you, track your requests, and even access your purchases on the Employee Center \(EC\) portal by integrating Sourcing and Procurement Operations with Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -80,36 +80,36 @@ Others include surveys, invoices, purchase orders, risk assessments, issues, shi
 
 **Note:** Admins can also configure these active items widgets in Employee Center. For more information, see [My active items widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/my-activity-config.md).
 
--   **[Search for punchout products in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ec-search-punchout-products.md)**  
+-   **[Search for punchout products in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/ec-search-punchout-products.md)**  
 You can search for punchout products directly in Employee Center using the AI search bar.
--   **[Tracking your procurement requests in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/track-proc-requests-on-ec.md)**  
+-   **[Tracking your procurement requests in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/track-proc-requests-on-ec.md)**  
 As a shopper, you can enjoy complete visibility into the progress of your requests by tracking your procurement cases in Employee Center.
--   **[Approve a request from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/approve-request-from-employee-center.md)**  
+-   **[Approve a request from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/approve-request-from-employee-center.md)**  
 Approve, reject, or request clarification on open purchase requisition lines and sourcing requests that are assigned to you, directly from Employee Center.
--   **[Provide more details on your purchase from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/provide-more-details-tasks-ec.md)**  
+-   **[Provide more details on your purchase from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/provide-more-details-tasks-ec.md)**  
 Provide additional information on your purchase from Employee Center by answering the follow-up questions that the procurement specialist has posted regarding your order. Your response to these to-dos ensures that the procurement specialist understands your exact requirements and has all the necessary information before proceeding with the sourcing request.
--   **[Confirm meeting a milestone for your service from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/confirm-meeting-milestone-ec.md)**  
+-   **[Confirm meeting a milestone for your service from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-meeting-milestone-ec.md)**  
 Provide confirmation from Employee Center on whether the supplier has met a milestone for a service you had ordered, so that payment can be processed to the supplier for that milestone. If a milestone hasn’t been met by the due date, you can raise a cancel request or propose a new completion date.
--   **[Review your service acknowledgment task from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/review-serv-ack-task-ec.md)**  
+-   **[Review your service acknowledgment task from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/review-serv-ack-task-ec.md)**  
 Review and acknowledge the receipt status of your ordered service from your supplier from Employee Center.
--   **[Confirm receipt of your order from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/confirm-receipt-task-ec.md)**  
+-   **[Confirm receipt of your order from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-receipt-task-ec.md)**  
 Provide confirmation of receipt of the items that you ordered that are in pending receipt state from Employee Center, so that payment is processed to the supplier accordingly. If you have not received the complete order, you can confirm receipt of a part of your order as well with the date when you received them.
--   **[View a link or video from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-link-video-ec.md)**  
+-   **[View a link or video from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-link-video-ec.md)**  
 Complete your task by viewing a link or video that your procurement specialist has assigned to you, directly from Employee Center. This action is listed as a task under **My Tasks**.
--   **[Upload a document from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/upload-document-task-ec.md)**  
+-   **[Upload a document from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/upload-document-task-ec.md)**  
 Complete the task that your procurement specialist has assigned to you by uploading a document, directly from Employee Center. This action is listed as a task under **My Tasks**.
--   **[Sign a document using DocuSign from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sign-document-task-ec.md)**  
+-   **[Sign a document using DocuSign from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/sign-document-task-ec.md)**  
 Provide your consent by signing a document using DocuSign, directly from Employee Center. This action is listed as a task under **My Tasks**.
--   **[Sign a document from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sign-document-sn-task-ec.md)**  
+-   **[Sign a document from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/sign-document-sn-task-ec.md)**  
 Provide your consent by signing a document, directly from Employee Center. This action is listed as a task under **My Tasks**.
--   **[Complete a form from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/complete-form-task-ec.md)**  
+-   **[Complete a form from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/complete-form-task-ec.md)**  
 Fill in a form that your procurement specialist has sent to you, and submit it directly from Employee Center. This action is listed as a task under **My Tasks**.
--   **[Raise a general inquiry for procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/raise-general-inquiry-for-procurement.md)**  
+-   **[Raise a general inquiry for procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/raise-general-inquiry-for-procurement.md)**  
 As a shopper, raise an inquiry for any pre-existing purchase or for any other queries that you may have regarding any procurement function​​.
--   **[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)**  
+-   **[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)**  
 ServiceNow® Virtual Agent for Sourcing and Procurement Operations enables shoppers to quickly find and purchase products that they're looking for from a vendor on ShoppingHub, by interacting with a virtual agent from Employee Center. It also allows shoppers to view purchases, procurement tasks, procurement cases, and even work on their to-dos. They can also get help from the procurement team using Virtual Agent.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 

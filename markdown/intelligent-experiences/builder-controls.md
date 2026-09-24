@@ -2,7 +2,7 @@
 title: Builder controls
 description: Builder controls in AI Control Tower enable you to govern AI assets and workflows by requiring human approval before an asset is deployed or a playbook is triggered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/builder-controls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/builder-controls.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-14"
@@ -41,5 +41,5 @@ The **Automatically trigger playbooks** setting controls whether an approval req
 
 **Note:** If you don't activate **Automatically trigger playbooks**, asset managers must initiate approval requests manually from the asset record.
 
-**Parent Topic:**[Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configure-servicenow-ai-settings.md)
+**Parent Topic:**[Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-servicenow-ai-settings.md)
 

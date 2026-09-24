@@ -2,7 +2,7 @@
 title: Change or remove the project task connection for a CWM item
 description: Reassign a CWM task or story to a different project task, or break the connection to a project task entirely, from the List view of the CWM Board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/change-project-task-connection-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/change-project-task-connection-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -19,7 +19,7 @@ Reassign a CWM task or story to a different project task, or break the connectio
 
 ## Before you begin
 
-The target project task must not have child project tasks. When a project task has child project tasks, moving a CWM item under it is blocked for all users. For details on assignee and hierarchy rules, see [Project task hierarchy and permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/project-task-rules-in-cwm.md).
+The target project task must not have child project tasks. When a project task has child project tasks, moving a CWM item under it is blocked for all users. For details on assignee and hierarchy rules, see [Project task hierarchy and permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/project-task-rules-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -51,16 +51,16 @@ The **Project task** column dropdown lists only project tasks that do not have c
     The **Project task**, **Project**, and parent fields are cleared. The item is no longer displayed under a project task on the Board.
 
 
-**Parent Topic:**[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
+**Parent Topic:**[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
 
 **Related topics**  
 
 
-[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
+[CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md)
 
-[Create a CWM task or story under a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-cwm-work-under-project-task.md)
+[Create a CWM task or story under a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-cwm-work-under-project-task.md)
 
-[Show the Project and Project task columns in a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/show-project-columns-in-cwm-list-view.md)
+[Show the Project and Project task columns in a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/show-project-columns-in-cwm-list-view.md)
 
-[Project task hierarchy and permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/project-task-rules-in-cwm.md)
+[Project task hierarchy and permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/project-task-rules-in-cwm.md)
 

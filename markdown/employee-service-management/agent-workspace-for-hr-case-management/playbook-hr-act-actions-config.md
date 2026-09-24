@@ -2,7 +2,7 @@
 title: Configure HR Playbook activity actions
 description: Use playbook actions to enable users to complete \(add buttons and lists\) and skip activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-act-actions-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-act-actions-config.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

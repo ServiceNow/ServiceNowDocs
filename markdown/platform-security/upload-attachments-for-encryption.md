@@ -2,7 +2,7 @@
 title: Upload attachments for encryption
 description: Protect sensitive files by encrypting record attachments using Field Encryption and Row Conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/upload-attachments-for-encryption.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/upload-attachments-for-encryption.html
 release: australia
 topic_type: task
 last_updated: "2026-07-28"
@@ -18,7 +18,7 @@ Protect sensitive files by encrypting record attachments using Field Encryption 
 
 Role required: Any role that aligns with the module access policy \(MAP\) created by the admin.
 
-**Note:** Additional setup is required when an email is matched to a record and the matched record's table has an encryption configuration. In this case, the attachments from the email are associated with that record. You need a module access policy \(MAP\) for the system user. If the sender is matched to a user in your instance, you also need a separate MAP that grants that user access to use the cryptographic module. This MAP is also required to permit impersonation. See [Module access policies for encrypting associated attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/fe-maps-inbound-email-attachment-encryption.md).
+**Note:** Additional setup is required when an email is matched to a record and the matched record's table has an encryption configuration. In this case, the attachments from the email are associated with that record. You need a module access policy \(MAP\) for the system user. If the sender is matched to a user in your instance, you also need a separate MAP that grants that user access to use the cryptographic module. This MAP is also required to permit impersonation. See [Module access policies for encrypting associated attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-maps-inbound-email-attachment-encryption.md).
 
 **Important:** Your administrator must create a separate Encrypted Field Configuration \(EFC\) for each table where your attachments require encryption. Attachment encryption does not automatically apply to extended \(child\) tables — for example, attachments on the incident, case, or problem table will not be encrypted unless a separate configuration is created for each of those tables.
 
@@ -51,5 +51,5 @@ The hash field stores a SHA-256 fingerprint of an attachment's content. Even tho
 
 Because of this, duplicate detection doesn't work for encrypted attachments, since ServiceNow uses the hash field to prevent identical attachments from being added to a record.
 
-**Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption-key-management.md)
+**Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption-key-management.md)
 

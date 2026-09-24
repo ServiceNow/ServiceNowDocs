@@ -2,7 +2,7 @@
 title: View the Agent Client Collector configuration file for an agent
 description: View the acc.yml Agent Client Collector configuration file without having to access the host server by retrieving the file from an agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-yml-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-yml-view.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -37,10 +37,10 @@ Role required: agent\_client\_collector\_admin
     \[Omitted image "acc-yml-attachment.png"\] Alt text: acc.yml configuration file as an attachment
 
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-server-deployment.md)
 
 **Related topics**  
 
 
-[Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-yml-options.md)
+[Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-yml-options.md)
 

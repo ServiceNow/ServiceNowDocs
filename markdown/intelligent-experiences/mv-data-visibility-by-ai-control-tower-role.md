@@ -2,10 +2,10 @@
 title: Role based data visibility
 description: The AI Control Tower shows value, engagement, and cost data for the AI systems in a user’s scope. AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-data-visibility-by-ai-control-tower-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-data-visibility-by-ai-control-tower-role.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
@@ -41,7 +41,7 @@ Product owners use scoped data to review value and engagement results, map AI sy
 **Related topics**  
 
 
-[Feature access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mv-feature-access-by-role.md)
+[Feature access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mv-feature-access-by-role.md)
 
-[Review AI system value and engagement data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-ai-system-value-and-engagement-data.md)
+[Review AI system value and engagement data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-ai-system-value-and-engagement-data.md)
 

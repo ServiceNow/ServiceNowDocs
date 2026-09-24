@@ -2,7 +2,7 @@
 title: Request-based chat - Start and import chat from field decorator
 description: Interact with a requester in Microsoft Teams from the chat icon from the workspace to quickly resolve the ticket.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/initiate-chat-record-field-decorator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/initiate-chat-record-field-decorator.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -126,5 +126,5 @@ Option to choose the default chat client.
     |Activities|Chat transcript|
 
 
-**Parent Topic:**[Request based chat - Start and import chat from classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/initiate-conversation-requester.md)
+**Parent Topic:**[Request based chat - Start and import chat from classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/initiate-conversation-requester.md)
 

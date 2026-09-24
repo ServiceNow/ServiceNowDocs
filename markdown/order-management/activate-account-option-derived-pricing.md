@@ -2,7 +2,7 @@
 title: Enable the Account scope option for derived pricing
 description: Enable the Account option so that it is available for selection in the Scope column of the Derived Pricing Matrix. By default, this option in the Choice List table is not enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/activate-account-option-derived-pricing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/activate-account-option-derived-pricing.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: EmployeeWorks notifications
 description: Notifications provide real-time alerts and updates about important events, task assignments, system changes, and organizational announcements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-slate-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-slate-notifications.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

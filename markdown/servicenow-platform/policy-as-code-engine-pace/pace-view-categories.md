@@ -2,7 +2,7 @@
 title: View PaCE policies associated with a category
 description: You can view the PaCE policies that have been assigned to a specific category. All the categories created, together with their associated policies, can be viewed in the All Categories table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-view-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-view-categories.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

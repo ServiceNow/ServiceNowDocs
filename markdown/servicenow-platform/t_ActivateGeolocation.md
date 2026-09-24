@@ -2,7 +2,7 @@
 title: Activate geolocation
 description: An administrator can activate the Geolocation plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ActivateGeolocation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ActivateGeolocation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,10 +33,10 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Geolocation.md)
+**Parent Topic:**[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_Geolocation.md)
 
 **Related topics**  
 
 
-[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Geolocation.md)
+[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_Geolocation.md)
 

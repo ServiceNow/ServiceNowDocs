@@ -2,7 +2,7 @@
 title: Jeopardy Management use cases
 description: Jeopardy Management use cases help you explore and understand how Jeopardy Management works in different scenarios in Order Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/jeopardy-management-use-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/jeopardy-management-use-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -65,7 +65,7 @@ Fulfillment managers and agent want Jeopardy Management to pause orders. When th
 **Related topics**  
 
 
-[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/jeopardy-management.md)
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/jeopardy-management.md)
 
-[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/monitoring-jeopardy-management.md)
 

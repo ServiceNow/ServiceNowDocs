@@ -2,7 +2,7 @@
 title: Activity Center All Recommendations
 description: View AI driven and expert suggested recommendations for training, content, and experts-on-demand offerings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-activity-center/recommendations-value-journey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-activity-center/recommendations-value-journey.html
 release: australia
 product: Impact Activity Center
 classification: impact-activity-center
@@ -27,5 +27,5 @@ View AI driven and expert suggested recommendations for training, content, and e
 
 Filter for specific recommendations and publish contextual recommendations or clean-up unused recommendations.
 
-**Parent Topic:**[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-activity-center/impact-activity-center.md)
+**Parent Topic:**[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-activity-center/impact-activity-center.md)
 

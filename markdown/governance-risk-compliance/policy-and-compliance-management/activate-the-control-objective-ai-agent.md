@@ -2,7 +2,7 @@
 title: Activate the Control Objective Change Agent
 description: Enable the Control Objective Change Agent in AI Agent Studio to automate compliance workflows using generative AI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/activate-the-control-objective-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/activate-the-control-objective-ai-agent.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

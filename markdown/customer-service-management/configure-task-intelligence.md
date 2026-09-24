@@ -2,7 +2,7 @@
 title: Configure Task Intelligence for Customer Service
 description: Install the Task Intelligence for Customer Service application and configure the different features: record categorization, language detection, Sentiment Analysis, and Document Intelligence for Customer Service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-task-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-task-intelligence.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,11 +20,11 @@ Complete the following tasks to install Task Intelligence for Customer Service a
 
 |Task|Description|
 |----|-----------|
-|[Install the Task Intelligence for Customer Service application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-task-intelligence-cs-app.md)|You can install the Task Intelligence for Customer Service application \(com.snc.csm\_ml\_task\) if you have the admin role.|
-|[Configure record categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-categorization-configure.md)|Activate the required plugins and import training data. Then you can create and train a model to predict field values.|
-|[Configure Sentiment Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-sentiment-analysis-configure.md)|Activate the required plugins, enable the sentiment analysis property, and assign roles. Then you can train a model to predict case sentiment.|
-|[Configure language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-language-detection-configure.md)|Activate the required plugins and the ServiceNow translator to use the language detection feature. Then you can set up a model to detect the case language.|
-|[Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-doc-intel-configuring-.md)|Enable Document Intelligence for Customer Service and create use cases to extract data.|
+|[Install the Task Intelligence for Customer Service application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/install-task-intelligence-cs-app.md)|You can install the Task Intelligence for Customer Service application \(com.snc.csm\_ml\_task\) if you have the admin role.|
+|[Configure record categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-categorization-configure.md)|Activate the required plugins and import training data. Then you can create and train a model to predict field values.|
+|[Configure Sentiment Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-sentiment-analysis-configure.md)|Activate the required plugins, enable the sentiment analysis property, and assign roles. Then you can train a model to predict case sentiment.|
+|[Configure language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-language-detection-configure.md)|Activate the required plugins and the ServiceNow translator to use the language detection feature. Then you can set up a model to detect the case language.|
+|[Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-doc-intel-configuring-.md)|Enable Document Intelligence for Customer Service and create use cases to extract data.|
 
 ## Set up and deploy Task Intelligence models
 
@@ -40,7 +40,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-cat-solution.md)
+[Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-cat-solution.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Create and train a model to predict fields for cases and interactions.
 
 </td></tr><tr><td>
 
-[Create a model to predict case sentiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-sentiment-solution.md)
+[Create a model to predict case sentiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-sentiment-solution.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Edit and test the pre-trained sentiment model to predict sentiment for customer 
 
 </td></tr><tr><td>
 
-[Create a model to detect case language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-language-solution.md)
+[Create a model to detect case language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-language-solution.md)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Edit and test the pre-trained model to detect the language used to create custom
 
 </td></tr><tr><td>
 
-[Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-di-use-case.md)
+[Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-di-use-case.md)
 
 </td><td>
 
@@ -72,7 +72,7 @@ Create a use case to identify the information to extract from email and case att
 
 </td></tr><tr><td>
 
-[Create a model to predict similar cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-model-to-predict-similar-cases.md)
+[Create a model to predict similar cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-a-model-to-predict-similar-cases.md)
 
 </td><td>
 
@@ -80,7 +80,7 @@ Test and edit the pre-trained similar cases model for predicting similarity in c
 
 </td></tr><tr><td>
 
-[Edit a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/edit-a-case-prediction-model.md)
+[Edit a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/edit-a-case-prediction-model.md)
 
 </td><td>
 
@@ -88,7 +88,7 @@ Edit the case models that have already been trained and deployed. Change the mod
 
 </td></tr><tr><td>
 
-[Export a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/export-a-task-intelligence-model.md)
+[Export a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/export-a-task-intelligence-model.md)
 
 </td><td>
 
@@ -96,7 +96,7 @@ Export a Task Intelligence model to another instance.
 
 </td></tr><tr><td>
 
-[Create a custom similar case model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-custom-similar-case-model.md)
+[Create a custom similar case model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-a-custom-similar-case-model.md)
 
 </td><td>
 
@@ -108,7 +108,7 @@ Set up a training model to help it recognize similarities between two types of t
 </table>**Related topics**  
 
 
-[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md)
+[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intelligence.md)
 
-[Use Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-task-intelligence.md)
+[Use Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-task-intelligence.md)
 

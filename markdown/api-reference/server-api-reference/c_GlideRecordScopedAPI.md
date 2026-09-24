@@ -2,7 +2,7 @@
 title: GlideRecord - Scoped
 description: The scoped GlideRecord API is used for database operations.Adds a filter to return active records.Adds an encoded query to other queries that may have been set.Applies a pre-defined GlideDBFunctionBuilder object to a record.Adds a filter to return records based on a relationship in a table related to the current GlideRecord.A filter that specifies records where the value of the field passed in the parameter is not null.Adds a filter to return records where the value of the specified field is null.Build a search query and return the rows that match the request.Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request.Adds a query using an encoded query string. Use this method to bypass query access.Specifies an orderBy column. Use this method to bypass query access.Specifies a descending orderBy column. Use this method to bypass query access.Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request. Use this method to bypass query access.Adds a query using an encoded query string. Use this method to enforce query access based on the user.Specifies an orderBy column. Use this method to enforce query access based on the user.Specifies a descending orderBy column. Use this method to enforce query access based on the user.Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request. The calling user must have access to perform the specified query operation on the field for this request to be added. Use this method to enforce query access based on the user.Determines if the Access Control Rules, which include the user's roles, permit inserting new records in this table.Determines if the Access Control Rules, which include the user's roles, permit deleting records in this table.Determines if the Access Control Rules \(ACLs\) permit reading records in this table. This method evaluates all ACL types, such as user roles, scripted ACLs, ACLs with scripted conditions, and so on.Determines if the Access Control Rules, which include the user's roles, permit editing records in this table.Sets a range of rows to be returned by subsequent queries.Deletes all records that satisfy the query.Deletes the current record.Disables the default optimization that prevents an extra database query from running when a user passes in a large number of sys\_ids, such as grIncident.addQuery\('sys\_id', 'IN', listOf200SysIds\). Returns the specified record in the current GlideRecord object.Returns the dictionary attributes for the specified field.Returns the current table's label.Retrieves the display value for the current record.Returns the element's descriptor.Retrieves the GlideElement object for the specified field.Returns an array of GlideElement objects. Each object describes a field in the current GlideRecord.Retrieves the query condition of the current result set as an encoded query string. Returns the field's label.Retrieves the last error message. If there is no last error message, null is returned.Retrieves the link to the current record.Retrieves the class name for the current record.Retrieves the number of rows \(records\) in the current GlideRecord object.Retrieves the name of the table associated with the GlideRecord.Gets the primary key of the record, which is usually the sys\_id unless otherwise specified.Retrieves the string value of an underlying element in a field.Creates an instance of the GlideRecord class for the specified table.Determines if there are any more records in the GlideRecord object.Inserts a new record using the field values that have been set for the current record.Creates an empty record suitable for population before an insert.Checks to see if the current database action is to be aborted.Verifies whether the specified encoded query is valid.Checks if the current record is a new record that has not yet been inserted into the database.Determines if the current table is valid or if the record was successfully retrieved.Verifies whether the syntax of the encoded query is correct.Determines if the specified field is defined in the current table.Determines if a record was actually returned by the query/get record operation.Verifies whether the record was created in a view or a table.Creates a new GlideRecord record, sets the default values for the fields, and assigns a unique ID to the record.Moves to the next record in the GlideRecord object.Moves to the next record in the GlideRecord. Provides the same functionality as next\(\), use this method if the GlideRecord has a column named next.Determines if an operation is insert, update, or delete.Specifies an orderBy column.Specifies a descending orderBy column.Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\).Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\). This method is intended to be used on tables in which there's a column named "query", which might cause errors running the query\(\) method.Sets a flag to indicate if the next database action \(insert, update, delete\) is to be aborted. This is often used in business rules.Sets the query category, which determines how the query is routed to a secondary database.Sets the limit for number of records are fetched by the GlideRecord query.Sets the sys\_id value for the current record.Stops a GlideRecord query from running a COUNT\(\*\) query.Sets the value of the field with the specified name to the specified value.Enables or disables running business rules, script engines, or audits.Updates the GlideRecord with any changes that have been made. If the record does not already exist, it is inserted.Updates each GlideRecord in a stated query with a specified set of changes.Updates a record and also inserts or updates any related records with the information provided.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideRecordScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_GlideRecordScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,7 +20,7 @@ The GlideRecord API is the primary means of interfacing with the database on the
 
 See the [GlideRecord](https://developer.servicenow.com/dev.do#!/learn/courses/utah/app_store_learnv2_scripting_utah_scripting_in_servicenow/app_store_learnv2_scripting_utah_server_side_scripting/app_store_learnv2_scripting_utah_gliderecord) article for details on building and running queries.
 
-For information on a class that performs the same functions as GlideRecord and enforces ACLs, see [Using GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md).
+For information on a class that performs the same functions as GlideRecord and enforces ACLs, see [Using GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md).
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
@@ -32,8 +32,8 @@ In most cases, don’t use dot-walking to get values from a record. Dot-walking 
 
 Instead of retrieving the entire object, you can use one of the following methods to copy the field values:
 
--   [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 If dot-walking through a GlideElement object is necessary, use the toString\(\) method to retrieve values. For example, you might need the current caller's manager sys\_id to set another reference field. The following example shows how to get the string value instead of the entire object:
 
@@ -43,11 +43,11 @@ var mgr = current.caller_id.manager.toString();
 
 See also:
 
--   [GlideAggregate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md)
--   [GlideElement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
--   [GlideQuery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideQueryGlobalAPI.md)
+-   [GlideAggregate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md)
+-   [GlideElement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
+-   [GlideQuery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideQueryGlobalAPI.md)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideRecord - addActiveQuery\(\)
 
@@ -75,7 +75,7 @@ Always test queries on a sub-production instance prior to deploying them on a pr
 
 You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
-**Note:** To enforce query access based on the user, use[addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+**Note:** To enforce query access based on the user, use[addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -332,9 +332,9 @@ while (target.next()) {
 
 Build a search query and return the rows that match the request.
 
-If you are familiar with SQL, this method is similar to the "where" clause. One or more addQuery\(\) calls can be made in a single query; in this case the queries are AND'ed. If any of the query statements need to be OR'ed, use the GlideQueryCondition method [addOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
+If you are familiar with SQL, this method is similar to the "where" clause. One or more addQuery\(\) calls can be made in a single query; in this case the queries are AND'ed. If any of the query statements need to be OR'ed, use the GlideQueryCondition method [addOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
 
-**Note:** To enforce query access based on the user, use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+**Note:** To enforce query access based on the user, use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 When addQuery\(\) is called with only two parameters, table name and comparison value, such as `myObj.addQuery('category','Hardware');`, the operator is assumed to be "equal to".
 
@@ -367,7 +367,7 @@ String
 Name of the table field to query, or one of the following reserved names:-   123TEXTQUERY321: Adds a string search term to the query. Specify the string you want to match as the value. Use this option to return records with field values containing the search string. This option searches against all fields in the table, which must be configured for indexing and search. For more information about configuring tables for indexing and search, see [Configure a single table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-single-table-for-indexing.md).
 -   123TEXTINDEXGROUP321: Adds a text index group to the query. Specify the name of the text index group from the Text Index Groups \[ts\_index\_group\] table you want to query as the value. Use this option to return search results from one of the tables in a text index group, with result relevancy scores normalized using that text index group's settings. For more information about configuring text index groups, see [Configure multiple tables for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/index-multiple-tables.md).
 
-**Note:** For more details on the use of the reserved names, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
+**Note:** For more details on the use of the reserved names, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
 
 </td></tr><tr><td>
 
@@ -411,13 +411,13 @@ now_GR.query();
 
 Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request.
 
-If you are familiar with SQL, this method is similar to the "where" clause. One or more addQuery\(\) calls can be made in a single query; in this case the queries are AND'ed. If any of the query statements need to be OR'ed, use the GlideQueryCondition method [addOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
+If you are familiar with SQL, this method is similar to the "where" clause. One or more addQuery\(\) calls can be made in a single query; in this case the queries are AND'ed. If any of the query statements need to be OR'ed, use the GlideQueryCondition method [addOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
 You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
-**Note:** To enforce query access based on the user, use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+**Note:** To enforce query access based on the user, use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -520,17 +520,17 @@ while(now_GR.next()) {
 
 Adds a query using an encoded query string. Use this method to bypass query access.
 
-Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
 
 Additional methods for system-level access that bypass query ACL checks:
 
--   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
-For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md).
+For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md).
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
@@ -580,16 +580,16 @@ Output:
 
 Specifies an orderBy column. Use this method to bypass query access.
 
-Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
 
 Additional methods for system-level access that bypass query ACL checks:
 
--   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
-Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -631,16 +631,16 @@ Output:
 
 Specifies a descending orderBy column. Use this method to bypass query access.
 
-Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
 
 Additional methods for system-level access that bypass query ACL checks:
 
--   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
-Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -682,15 +682,15 @@ Output:
 
 Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request. Use this method to bypass query access.
 
-Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
 
 Additional methods for system-level access that bypass query ACL checks:
 
--   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
@@ -798,7 +798,7 @@ Value on which to query \(not case-sensitive\).
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|[GlideQueryCondition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)|The query condition that was added to the GlideRecord.|
+|[GlideQueryCondition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)|The query condition that was added to the GlideRecord.|
 
 The following example shows how to explicitly return all active users named Fred.
 
@@ -827,18 +827,18 @@ This method returns only records that the current user has query access to \(bas
 
 Related methods:
 
--   [addEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
--   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
+-   [addEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
 
 Additional methods for enforcing query ACL checks:
 
--   [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
-For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md).
+For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md).
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
@@ -892,17 +892,17 @@ This method returns only records that the current user has query access to \(bas
 
 Related methods:
 
--   [orderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
--   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
+-   [orderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
 
 Additional methods for enforcing query ACL checks:
 
--   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
-Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -948,17 +948,17 @@ This method returns only records that the current user has query access to \(bas
 
 Related methods:
 
--   [orderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
--   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
+-   [orderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
 
 Additional methods for enforcing query ACL checks:
 
--   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
-Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1004,16 +1004,16 @@ This method returns only records that the current user has query access to \(bas
 
 Related methods:
 
--   [addQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
--   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
+-   [addQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
 
 Additional methods for enforcing query ACL checks:
 
--   [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
@@ -1121,7 +1121,7 @@ Value on which to query \(not case-sensitive\).
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|[GlideQueryCondition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)|The query condition that was added to the GlideRecord.|
+|[GlideQueryCondition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)|The query condition that was added to the GlideRecord.|
 
 The following shows how to return only users named Fred that the current user has permission to see.
 
@@ -1313,9 +1313,9 @@ Sets a range of rows to be returned by subsequent queries.
 
 See also:
 
--   [query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [setLimit\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [setNoCount\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [setLimit\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [setNoCount\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -1684,8 +1684,8 @@ In most cases, don’t use dot-walking to get values from a record. Dot-walking 
 
 Instead of retrieving the entire object, you can use one of the following methods to copy the field values:
 
--   [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 If dot-walking through a GlideElement object is necessary, use the toString\(\) method to retrieve values. For example, you might need the current caller's manager sys\_id to set another reference field. The following example shows how to get the string value instead of the entire object:
 
@@ -1695,8 +1695,8 @@ var mgr = current.caller_id.manager.toString();
 
 See also:
 
--   [GlideElement – toString\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
--   [getElements\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideElement – toString\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
+-   [getElements\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1737,8 +1737,8 @@ var mgr = current.caller_id.manager.toString();
 
 See also:
 
--   [GlideElement – toString\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
--   [getElement\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideElement – toString\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
+-   [getElement\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1746,7 +1746,7 @@ See also:
 
 |Type|Description|
 |----|-----------|
-|Array|Array of [GlideElement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md) objects. Each object describes a field in the current GlideRecord.|
+|Array|Array of [GlideElement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementScopedAPI.md) objects. Each object describes a field in the current GlideRecord.|
 
 The following example displays the value of the name field for the five most recent records created in the Question \[question\] table.
 
@@ -1951,7 +1951,7 @@ Retrieves the number of rows \(records\) in the current GlideRecord object.
 
 -   **Retrieving the number of records in GlideRecord or GlideAggregate**
 
-    The GlideRecord getRowCount\(\) and [GlideAggregate getAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md) APIs offer similar information. Use the following criteria to determine which option is best for you.
+    The GlideRecord getRowCount\(\) and [GlideAggregate getAggregate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md) APIs offer similar information. Use the following criteria to determine which option is best for you.
 
     -   The GlideRecord getRowCount\(\) method tells you how many records have been returned from a query along with the records themselves. If you need the number of records in the result set before or after you iterate over the set to perform actions on the records, use this method.
     -   The GlideAggregate getAggregate\(\) method retrieves only a count of records matching the query, excluding the actual records. The aggregate must be set on the GlideAggregate object before issuing the query.
@@ -2222,9 +2222,9 @@ false
 
 Verifies whether the specified encoded query is valid.
 
-If the specified encoded query is valid, then the query is applied, just as if you had called [addEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md). If the specified encoded query is invalid, then `sys_idNotValidnull` is added as the encoded query.
+If the specified encoded query is valid, then the query is applied, just as if you had called [addEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md). If the specified encoded query is invalid, then `sys_idNotValidnull` is added as the encoded query.
 
-**Note:** This method has been deprecated and replaced with the [isValidEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method which does not execute the query.
+**Note:** This method has been deprecated and replaced with the [isValidEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method which does not execute the query.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2487,7 +2487,7 @@ true
 
 Moves to the next record in the GlideRecord object.
 
-**Note:** This method fails if there is a field in the table called "next". If that is the case, use the method [\_next\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+**Note:** This method fails if there is a field in the table called "next". If that is the case, use the method [\_next\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2586,7 +2586,7 @@ Determines if an operation is insert, update, or delete.
 
 Knowing the operation enables using current.operation\(\) to make a generic business rule which can handle each operation uniquely.
 
-For information on using the global variable current, refer to [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
+For information on using the global variable current, refer to [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/business-rules-classic/c_BusinessRules.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2626,9 +2626,9 @@ if(current.operation() == "insert") {
 
 Specifies an orderBy column.
 
-Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [Scoped GlideRecord - orderByDesc\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [Scoped GlideRecord - orderByDesc\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
-**Note:** To enforce query access based on the user, use[addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+**Note:** To enforce query access based on the user, use[addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2664,9 +2664,9 @@ Please remove the latest hotfix from my PC
 
 Specifies a descending orderBy column.
 
-Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [Scoped GlideRecord - orderBy\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [Scoped GlideRecord - orderBy\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
-**Note:** To enforce query access based on the user, use[addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+**Note:** To enforce query access based on the user, use[addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2702,17 +2702,17 @@ Can't launch 64-bit Windows 7 virtual machine
 
 Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\).
 
-This method queries the GlideRecord table as well as any references of the table. For more information, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
+This method queries the GlideRecord table as well as any references of the table. For more information, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
 
-**Note:** This method fails if there is a field in the table called "query". If that is the case, use the[\_query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method instead.
+**Note:** This method fails if there is a field in the table called "query". If that is the case, use the[\_query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method instead.
 
 See the [GlideRecord](https://developer.servicenow.com/dev.do#!/learn/courses/utah/app_store_learnv2_scripting_utah_scripting_in_servicenow/app_store_learnv2_scripting_utah_server_side_scripting/app_store_learnv2_scripting_utah_gliderecord) article for details on building and running queries.
 
 See also:
 
--   [GlideAggregate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md)
--   [GlideQuery - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideQueryGlobalAPI.md)
--   [GlideQueryCondition - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideAggregate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md)
+-   [GlideQuery - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideQueryGlobalAPI.md)
+-   [GlideQueryCondition - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
 <table id="id_nxt_s5d_lpb" class="parameters"><thead><tr><th>
 
@@ -2793,15 +2793,15 @@ kb_feedback
 
 Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\). This method is intended to be used on tables in which there's a column named "query", which might cause errors running the query\(\) method.
 
-This method queries the GlideRecord table as well as any references of the table. For more information, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
+This method queries the GlideRecord table as well as any references of the table. For more information, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
 
 See the [GlideRecord](https://developer.servicenow.com/dev.do#!/learn/courses/utah/app_store_learnv2_scripting_utah_scripting_in_servicenow/app_store_learnv2_scripting_utah_server_side_scripting/app_store_learnv2_scripting_utah_gliderecord) article for details on building and running queries.
 
 See also:
 
--   [GlideAggregate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md)
--   [GlideQuery - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideQueryGlobalAPI.md)
--   [GlideQueryCondition - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideAggregate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md)
+-   [GlideQuery - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideQueryGlobalAPI.md)
+-   [GlideQueryCondition - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
 <table id="id_a3y_t5d_lpb" class="parameters"><thead><tr><th>
 
@@ -2964,9 +2964,9 @@ Sets the limit for number of records are fetched by the GlideRecord query.
 
 See also:
 
--   [chooseWindow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [setNoCount\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [chooseWindow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [setNoCount\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -3013,8 +3013,8 @@ Running query\(\) with some methods trigger a `COUNT(*)` query, such as the choo
 
 See also:
 
--   [chooseWindow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [chooseWindow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -3175,7 +3175,7 @@ The **glide.db.forced.chunk.threshold** system property sets the threshold above
 
 **Note:** Do not use this method with the chooseWindow\(\) or setLimit\(\) methods when working with large tables.
 
-This method sets new values and does not clear existing values. To clear an existing value, use the setValue\(\) method and set the field to 'NULL'. For more information, see [Setting a GlideRecord variable to 'NULL'](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_SettingAGlideRecordVariableToNull.md).
+This method sets new values and does not clear existing values. To clear an existing value, use the setValue\(\) method and set the field to 'NULL'. For more information, see [Setting a GlideRecord variable to 'NULL'](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_SettingAGlideRecordVariableToNull.md).
 
 |Name|Type|Description|
 |----|----|-----------|

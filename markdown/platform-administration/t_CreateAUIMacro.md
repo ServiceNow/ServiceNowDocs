@@ -2,7 +2,7 @@
 title: Create a UI macro for a formatter
 description: Create a UI macro to define the content that the formatter displays.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAUIMacro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAUIMacro.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -60,7 +60,7 @@ Role required: ui\_macro\_admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_Formatters.md)
 
 **Related topics**  
 

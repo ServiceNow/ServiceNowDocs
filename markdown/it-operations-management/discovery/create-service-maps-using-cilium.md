@@ -2,7 +2,7 @@
 title: Enable service maps using Cilium
 description: Enable application service maps based on the traffic between the workloads in Kubernetes by connecting to a Cilium agent already running in the cluster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-service-maps-using-cilium.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/create-service-maps-using-cilium.html
 release: australia
 product: Discovery
 classification: discovery
@@ -29,7 +29,7 @@ Role required: discovery\_admin.
 
 Cilium is open-source software that you can run in your Kubernetes cluster to control traffic and apply network policies. If Cilium is already running in the cluster, KVA can connect to the Cilium agent through its Hubble layer to pull traffic data. A DaemonSet pod is deployed with minimal permissions to collect this data and report it to the main Informer pod, which then sends it to the ServiceNow instance.
 
-This method requires fewer permissions than the ServiceNow DaemonSet method and reduces the effort required to get security approval in environments with strict permission policies. The outcomes are the same as the other service map methods. For more information, see [Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md).
+This method requires fewer permissions than the ServiceNow DaemonSet method and reduces the effort required to get security approval in environments with strict permission policies. The outcomes are the same as the other service map methods. For more information, see [Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-deploy-install.md).
 
 **Note:** Only the Helm chart installation method is supported for this feature. The `k8s_informer.yaml` file method is not supported.
 
@@ -44,7 +44,7 @@ This method requires fewer permissions than the ServiceNow DaemonSet method and 
 
 ## What to do next
 
-[Create application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-an-app-service-map-kva.md)
+[Create application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-an-app-service-map-kva.md)
 
-**Parent Topic:**[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enabling-application-service-maps.md)
+**Parent Topic:**[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/enabling-application-service-maps.md)
 

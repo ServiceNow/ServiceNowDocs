@@ -2,7 +2,7 @@
 title: Configure Widgets Instance Options for GOV.UK Design System Service Portal pages
 description: You can use widget instances to configure the location, properties, and CSS specific to that instance of the widget. Create unique instances of widgets by configuring the options for each instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.html
 release: australia
 topic_type: task
 last_updated: "2026-06-01"
@@ -16,7 +16,7 @@ You can use widget instances to configure the location, properties, and CSS spec
 
 ## Before you begin
 
-A page must already be created with widgets added to it. For information on how to create or edit a portal page and add widgets, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). You can also configure the existing widget instances on a base system page. For more information on the base system pages that come with the GOV.UK Developer Toolkit, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md).
+A page must already be created with widgets added to it. For information on how to create or edit a portal page and add widgets, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-pages.md). You can also configure the existing widget instances on a base system page. For more information on the base system pages that come with the GOV.UK Developer Toolkit, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-pages.md).
 
 Role required: admin, sp\_admin
 
@@ -38,9 +38,9 @@ You can use widget instances to configure the location, properties, and CSS spec
 
 **Note:** For widgets that do not contain any information by default, you must configure the options for their widget instances before they will appear on a portal page.
 
-For more information on configuring widget instances, see [Configure Widgets Instance Options for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.md).
+For more information on configuring widget instances, see [Configure Widgets Instance Options for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.md).
 
-For information on how to clone and edit a default GDS Service Portal widget, see [Customize Widgets for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-edit.md).
+For information on how to clone and edit a default GDS Service Portal widget, see [Customize Widgets for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-tk-portal-widgets-edit.md).
 
 ## Procedure
 

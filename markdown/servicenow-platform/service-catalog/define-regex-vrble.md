@@ -2,7 +2,7 @@
 title: Define a regular expression for a variable
 description: Define a regular expression \(regex\) to validate a variable value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/define-regex-vrble.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/define-regex-vrble.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -93,10 +93,10 @@ Character set that is considered while validating the regular expression.-   Non
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)
+**Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)
 
 **Related topics**  
 
 
-[Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md)
+[Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md)
 

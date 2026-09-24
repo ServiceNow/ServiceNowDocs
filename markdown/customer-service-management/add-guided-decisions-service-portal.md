@@ -2,7 +2,7 @@
 title: Add Guided Decisions to Service Portal
 description: Create or edit a page to add decision trees to Service Portal so internal users can troubleshoot their issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-guided-decisions-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-guided-decisions-service-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Create or edit a page to add decision trees to Service Portal so internal users 
 
 ## Before you begin
 
-The decision tree that you want to add to the Service Portal page must exist. For more information, see [Configuring decision trees in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/decision-trees-in-gdb.md).
+The decision tree that you want to add to the Service Portal page must exist. For more information, see [Configuring decision trees in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/decision-trees-in-gdb.md).
 
 Role required: sp\_admin or admin
 
@@ -32,15 +32,15 @@ These steps are intended for users with little to no coding experience.
 
 3.  From the Service Portal Designer, either select an existing page or add a new page.
 
-<table id="choicetable_bmv_x5r_c1c"><thead><tr><th align="left" id="d190918e111">
+<table id="choicetable_bmv_x5r_c1c"><thead><tr><th align="left" id="d190922e111">
 
 Option
 
-</th><th align="left" id="d190918e114">
+</th><th align="left" id="d190922e114">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d190918e120">
+</th></tr></thead><tbody><tr><td id="d190922e120">
 
 **Use an existing page**
 
@@ -48,7 +48,7 @@ Action
 
 Select the page.
 
-</td></tr><tr><td id="d190918e129">
+</td></tr><tr><td id="d190922e129">
 
 **Add a page**
 
@@ -77,12 +77,12 @@ Select the page.
 
 ## What to do next
 
-If you want the decision tree theme to match the Service Portal, you can apply a UX theme to change your existing theme. For more information, see [Match the theme of the decision tree component with the Service Portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/apply-new-theme-to-service-portal.md).
+If you want the decision tree theme to match the Service Portal, you can apply a UX theme to change your existing theme. For more information, see [Match the theme of the decision tree component with the Service Portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/apply-new-theme-to-service-portal.md).
 
 **Related topics**  
 
 
-[Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-guided-decisions.md)
+[Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-guided-decisions.md)
 
-[Configuring guidances and decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-guided-decisions.md)
+[Configuring guidances and decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-guided-decisions.md)
 

@@ -2,7 +2,7 @@
 title: SCPRelay probe
 description: The SCP Relay Probe copies a single file or the contents of a directory from one host to another, using the MID Server as a relay.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_SCPRelayProbe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_SCPRelayProbe.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ The SCP Relay Probe copies a single file or the contents of a directory from one
 
 The SCP Relay probe uses the same parameters as SSHCommand. Commands can be sent in or out of the context of a terminal \(tty\), and with or without sudo. Some commands, such as lsof, require being executed in the context of root to return the required information. When commands are sent in the context of a terminal, the path is automatically widened to include a set of default paths. You can further widen the path with the path\_override parameter. If the target machine is the local machine, SSH is not used; instead, a local shell is run to execute the command.
 
-For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetProbeParameters.md).
+For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_SetProbeParameters.md).
 
 The following parameters may be passed to the SCP Relay probe:
 
@@ -227,5 +227,5 @@ Name of the file to copy to the target.
 required
 
 </td></tr></tbody>
-</table>**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
+</table>**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 

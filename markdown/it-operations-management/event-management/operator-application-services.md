@@ -2,7 +2,7 @@
 title: Application services for Event Management operators
 description: As an Event Management operator, you need to understand what application services are.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-application-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/operator-application-services.html
 release: australia
 product: Event Management
 classification: event-management
@@ -28,7 +28,7 @@ Lesson 1
 
 </td><td>
 
-[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-events-alerts.md)
+[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-events-alerts.md)
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Lesson 3
 
 </td><td>
 
-[Event Management operator workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-user-interfaces.md)
+[Event Management operator workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-user-interfaces.md)
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Lesson 4
 
 </td><td>
 
-[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md)
+[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-process.md)
 
 </td></tr></tbody>
 </table>An application service is a collection of components, such as network devices, computers, and applications that offer a service to your organization. The services can be something like an email system or a website that tracks orders or requests in a database. Your administrator should have already specified the application services in your ServiceNow instance.
@@ -92,7 +92,7 @@ Event Management classifies application services into the following types:
 
 -   **Application services**
 
-    An application service can consist of discovered services, manual services, or both. A discovered service is an application service that the [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md) application finds \(if your organization uses [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)\). A manual service is an application service that your administrator configures by selecting and adding each CI and specifying the relationships between CIs.
+    An application service can consist of discovered services, manual services, or both. A discovered service is an application service that the [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_ServiceMappingOverview.md) application finds \(if your organization uses [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_ServiceMappingOverview.md)\). A manual service is an application service that your administrator configures by selecting and adding each CI and specifying the relationships between CIs.
 
 -   **Alert groups**
 
@@ -111,7 +111,7 @@ In this example, you can see how a **Major** alert on an Oracle database \(**PS 
 
 ## Continue the tutorial
 
-Proceed to the next lesson: [Event Management operator environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-user-interfaces.md).
+Proceed to the next lesson: [Event Management operator environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-user-interfaces.md).
 
-**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-guide-em.md)
+**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-guide-em.md)
 

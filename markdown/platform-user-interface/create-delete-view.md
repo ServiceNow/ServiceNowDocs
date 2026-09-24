@@ -2,7 +2,7 @@
 title: Create and delete views
 description: Administrators can create views and delete any views they have created. You can create or delete views from either the list view or the form view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-delete-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/create-delete-view.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -57,5 +57,5 @@ Role required: admin
     Do not delete the base system views.
 
 
-**Parent Topic:**[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md)
+**Parent Topic:**[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/view-management-overview.md)
 

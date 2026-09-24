@@ -2,7 +2,7 @@
 title: Interaction form
 description: The Interaction form displays information about a customer interaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/interaction-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/interaction-management/interaction-form.html
 release: australia
 product: Interaction Management
 classification: interaction-management
@@ -72,7 +72,7 @@ State
 
 </td><td>
 
-The current state of the interaction. For more information, see [Interaction states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-states.md).
+The current state of the interaction. For more information, see [Interaction states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/interaction-states.md).
 
 </td></tr><tr><td>
 
@@ -128,5 +128,5 @@ If using the Interaction wrap up feature, the system administrator can configure
  The default value for this field is false.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
+</table>**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
 

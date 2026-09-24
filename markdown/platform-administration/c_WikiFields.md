@@ -2,7 +2,7 @@
 title: Wiki field type
 description: Wikitext fields use the basic wiki markup language and support links to external URLs and to sources within the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_WikiFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_WikiFields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

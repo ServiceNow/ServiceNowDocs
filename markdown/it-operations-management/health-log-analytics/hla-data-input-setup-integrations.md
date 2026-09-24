@@ -2,7 +2,7 @@
 title: Set up integrations for Health Log Analytics from the Integrations Launchpad
 description: Set up integrations from the Event Management Integrations Launchpad in Service Operations Workspace for ITOM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,7 +19,7 @@ Set up integrations from the Event Management Integrations Launchpad in Service 
 
 ## Integrations Launchpad
 
-The Integrations Launchpad tool provides a unified interface for convenient integration with connectors that feed raw log messages from external sources into your ServiceNow instance for processing and analysis. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md).
+The Integrations Launchpad tool provides a unified interface for convenient integration with connectors that feed raw log messages from external sources into your ServiceNow instance for processing and analysis. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/integrations-launchpad.md).
 
 ## Integrations for Health Log Analytics
 
@@ -230,5 +230,5 @@ Enables Health Log Analytics to process log messages that are streaming into the
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
 

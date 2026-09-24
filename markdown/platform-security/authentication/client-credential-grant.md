@@ -2,7 +2,7 @@
 title: Client credentials grant
 description: Use the OAuth client credentials grant type for back-end services or automated integrations that access ServiceNow APIs without user interaction. The client application authenticates directly using its client ID and secret, and receives an access token that represents the application itself, and not the user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/client-credential-grant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/client-credential-grant.html
 release: australia
 product: Authentication
 classification: authentication
@@ -28,7 +28,7 @@ Use the OAuth client credentials grant type for back-end services or automated i
 **Related topics**  
 
 
-[Client credentials grant workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/client-credentials-grant-workflow.md)
+[Client credentials grant workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/client-credentials-grant-workflow.md)
 
-[Configure an OAuth Client credential grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-an-oauth-client-credential-grant.md)
+[Configure an OAuth Client credential grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-an-oauth-client-credential-grant.md)
 

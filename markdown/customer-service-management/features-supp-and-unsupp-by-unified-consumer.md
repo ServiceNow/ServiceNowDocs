@@ -2,7 +2,7 @@
 title: Supported and unsupported roles and features
 description: Explore the capabilities and limitations of the unified consumer role \(sn\_customerservice.unified\_consumer\) to understand the roles and features it supports. This analysis helps you can enhance the user experience and streamline administration, supporting a unified identity across different user contexts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/features-supp-and-unsupp-by-unified-consumer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/features-supp-and-unsupp-by-unified-consumer.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -203,9 +203,9 @@ Features
 </table>**Related topics**  
 
 
-[Configuring a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-employee-as-a-consumer.md)
+[Configuring a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-employee-as-a-consumer.md)
 
-[Roles installed with Employee as a Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/roles-installed-with-employee-as-consumer.md)
+[Roles installed with Employee as a Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/roles-installed-with-employee-as-consumer.md)
 
-[Setting up a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-a-user.md)
+[Setting up a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-a-user.md)
 

@@ -2,11 +2,11 @@
 title: Combined Notifications release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Notifications from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-notifications-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-notifications-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 6
+last_updated: "2026-09-24"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,13 +91,23 @@ Zurich
 With email agentic workflow you can intelligently handle new email agentic workflows by identifying intent, executing actions, &amp; drafting appropriate email responses.
 
 
+ -   **[Email diagnostics dashboard](https://www.servicenow.com/docs/access?context=email-diagnostics-dashboard&family=zurich&ft:locale=en-US)**
+
+With email diagnostics you can track bounce management, email delivery metrics, email sender, and reader jobs health.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[User mailbox integration](https://www.servicenow.com/docs/access?context=personal-corporate-mailbox&family=australia&ft:locale=en-US)**
+-   **[Notification agent](https://www.servicenow.com/docs/access?context=notification-creation-agent&family=australia&ft:locale=en-US)**
+
+The Notification agent enables platform administrators to create and modify email notifications and templates using natural language prompts, reducing the need of navigating complex forms &amp; scripts.
+
+
+ -   **[User mailbox integration](https://www.servicenow.com/docs/access?context=personal-corporate-mailbox&family=australia&ft:locale=en-US)**
 
 Enable agents to integrate their personal corporate mail boxes to send and receive emails.
 
@@ -213,6 +223,36 @@ Multiple intents can now be identified in inbound emails, allowing multiple repl
 -   **[Handle missing inputs for inbound email actions](https://www.servicenow.com/docs/access?context=email-agentic-workflow&family=australia&ft:locale=en-US)**
 
 Missing inputs for inbound email actions are now handled through configurable execution modes, allowing missing inputs to be requested, intents to be skipped, or processing to continue.
+
+
+ -   **[Create email client template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailClientTemplate&family=australia&ft:locale=en-US)**
+
+Added a check box for the email client template.
+
+-   **[Configure templates for personal corporate mailboxes](https://www.servicenow.com/docs/access?context=configure-personal-corporate-mailbox&family=australia&ft:locale=en-US)**
+
+Added a new **From Generation Type** for the User Email Addresses for email client templates.
+
+-   **[Integrate personal corporate mailbox for receiving emails](https://www.servicenow.com/docs/access?context=integrate-corporate-email-receiving&family=australia&ft:locale=en-US)**
+
+Added the Forwarding Address option for the email account type.
+
+
+ -   **[Send email using Microsoft Graph](https://www.servicenow.com/docs/access?context=send-email-using-ms-graph&family=australia&ft:locale=en-US)**
+
+Connect Microsoft email accounts using Microsoft Graph within the ServiceNow instance for sending outbound emails.
+
+-   **[Email threading for inbound reply email](https://www.servicenow.com/docs/access?context=c_InboundEmailActions&family=australia&ft:locale=en-US)**
+
+Enable classification of inbound emails by using the thread-index header for emails originating from Microsoft or Microsoft Outlook ecosystem.
+
+-   **[Column Level Encryption for email attachments](https://www.servicenow.com/docs/access?context=cle-for-email-attachments&family=australia&ft:locale=en-US)**
+
+Attachments from inbound emails are now encrypted when stored in CLE-enabled tables and decrypted when sent in outbound emails, ensuring secure access without requiring scripting.
+
+-   **[Enable push notifications for logged-out users](https://www.servicenow.com/docs/access?context=enable-notifications-logged-out-users&family=australia&ft:locale=en-US)**
+
+Push notifications can now be configured to be sent to users even when they are logged out, ensuring critical updates are not missed.
 
 
 </td></tr></tbody>
@@ -548,5 +588,5 @@ Australia
  See [Notifications](https://www.servicenow.com/docs/access?context=notifications&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

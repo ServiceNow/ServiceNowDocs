@@ -2,7 +2,7 @@
 title: Manage a checklist for a legal request through Mobile Agent
 description: Create and manage a checklist in an assigned legal request to ensure that you complete all the items necessary to fulfill the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/manage-checklist-for-request-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/manage-checklist-for-request-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile

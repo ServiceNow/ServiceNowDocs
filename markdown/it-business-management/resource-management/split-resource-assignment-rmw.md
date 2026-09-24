@@ -2,7 +2,7 @@
 title: Split resource assignments using Resource Management Workspace
 description: Splitting a resource assignment at a specific date creates a resource assignment for the same user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/split-resource-assignment-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/split-resource-assignment-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -27,7 +27,7 @@ Splitting a resource assignment at a specific date creates a resource assignment
 
 When to use split or reassign for assignments.
 
-Use Split when you need to divide a single resource's assignment into two time periods with different allocation levels, effort distributions, or tracking granularity. For example, split an assignment when a resource needs to reduce their allocation after a project milestone. Use Reassign \([Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-reassign-unassign-work.md)\) when you need to transfer work from one resource to another.
+Use Split when you need to divide a single resource's assignment into two time periods with different allocation levels, effort distributions, or tracking granularity. For example, split an assignment when a resource needs to reduce their allocation after a project milestone. Use Reassign \([Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rmw-reassign-unassign-work.md)\) when you need to transfer work from one resource to another.
 
 ## Procedure
 
@@ -60,5 +60,5 @@ One resource assignment ranges from July 16 to September 09, and the other assig
 
 Here, you can see an overlap of efforts for `Implement GenAI in docs` in month of September because the split is happening from September 10.
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md)
 

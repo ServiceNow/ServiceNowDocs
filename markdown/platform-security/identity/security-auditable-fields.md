@@ -2,7 +2,7 @@
 title: Security Auditable Fields
 description: Displays table and field level details that will be audited in the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/security-auditable-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/security-auditable-fields.html
 release: australia
 product: Identity
 classification: identity

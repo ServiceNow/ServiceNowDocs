@@ -2,7 +2,7 @@
 title: Data archiving rules for DevOps tables
 description: Base system table archiving rules ensure that DevOps data stored in the Configuration Management Database \(CMDB\) are systematically archived and purged.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/archive-devops-tables-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/archive-devops-tables-data.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -67,5 +67,5 @@ The data archiving rules feature considers and honors parent rules before indivi
 
 Base-system destroy rules are also enabled and activated on all the archived DevOps tables. By default, data is deleted from an archived table after 36 months or 1095 days have passed from the time the data is stored in the archive table. For more information, see [Create a destroy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md).
 
-**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

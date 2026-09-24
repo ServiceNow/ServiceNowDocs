@@ -2,7 +2,7 @@
 title: ServiceNow Otto in the Virtual Agent mobile client
 description: Use ServiceNow Otto in Native Mobile Virtual Agent to deliver more direct, relevant, and conversational responses to questions using generative AI. Virtual Agent also enables you to provide feedback on AI-generated responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/now-assist-mobile-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/now-assist-mobile-va.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"
@@ -21,5 +21,5 @@ ServiceNow Otto in Virtual Agent uses large language models \(LLM\)s and generat
 
 To give feedback on the answers provided by Otto, you can long press on a generated response to copy the message text or to mark the response as either helpful or unhelpful.
 
-Use the guided setup to set up ServiceNow Otto in Virtual Agent quickly and easily. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md). Virtual Agent must also be enabled for Mobile. For more information, see [Enable Virtual Agent for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-virtual-agent.md).
+Use the guided setup to set up ServiceNow Otto in Virtual Agent quickly and easily. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md). Virtual Agent must also be enabled for Mobile. For more information, see [Enable Virtual Agent for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-virtual-agent.md).
 

@@ -2,7 +2,7 @@
 title: Update a metric minimum and maximum value to match a template
 description: For assessment results to be properly calculated, the Min and Max values of a metric that uses a template must be equal to the smallest and largest template definition Value, respectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_UpdAMetrMinMaxValToMatchATmplate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_UpdAMetrMinMaxValToMatchATmplate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,14 +39,14 @@ To edit the minimum and maximum values for a question that has the Template data
     **Note:** When the data type is Template, a UI policy prevents the editing of Min and Max from the form.
 
 
-**Parent Topic:**[Create a metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetricTemplate.md)
+**Parent Topic:**[Create a metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAMetricTemplate.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md)
 
-[Create an assessment metric for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetric.md)
+[Create an assessment metric for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAMetric.md)
 
-[Create an assessment metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetricDefinition.md)
+[Create an assessment metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAMetricDefinition.md)
 

@@ -2,7 +2,7 @@
 title: In-product trigger for agentic AI in Customer Service Management
 description: In-product trigger for agentic AI shows agentic workflow status, presence indicators, and AI-generated insights directly on Customer Service Management \(CSM\) record and interaction pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/ai-workflow-pattern-in-customer-service-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/ai-workflow-pattern-in-customer-service-management.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

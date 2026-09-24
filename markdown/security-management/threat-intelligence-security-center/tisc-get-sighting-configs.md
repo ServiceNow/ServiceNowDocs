@@ -2,7 +2,7 @@
 title: Get started with Sighting Search Configurations
 description: Sighting Search Configurations define how threat intelligence data is searched and matched against your environment. Configure these settings to customize threat detection and improve security monitoring accuracy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-get-sighting-configs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-get-sighting-configs.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -18,12 +18,12 @@ Sighting Search Configurations define how threat intelligence data is searched a
 
 The Elasticsearch and Splunk Sighting Search integrations enrich observables with sighting information from your log data. Elasticsearch searches logs to add relevant sightings directly to observables, while Splunk searches, monitors, and analyzes machine-generated data across Security Operations. Download the Splunk Sighting Search integration from the ServiceNow Store.
 
--   **[Configure and enable Elasticsearch integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-elasticsearch-integration.md)**  
+-   **[Configure and enable Elasticsearch integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-elasticsearch-integration.md)**  
 Elasticsearch is a distributed, RESTful search and analytics engine that easily integrates with Security Operations.
--   **[Configure and enable Splunk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-splunk-integration.md)**  
+-   **[Configure and enable Splunk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-splunk-integration.md)**  
 Configure the Splunk Enrichment integration to automatically search your logs and add relevant sighting information to threat intelligence data.
--   **[Configure CrowdStrike NextGen SIEM sighting search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-crowdstrike-ngsiem-integration.md)**  
+-   **[Configure CrowdStrike NextGen SIEM sighting search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-crowdstrike-ngsiem-integration.md)**  
 Configure the CrowdStrike NextGen SIEM integration with your Falcon API credentials so that analysts can search CrowdStrike log data for activity that matches an observable.
 
-**Parent Topic:**[Configure Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-sighting-search.md)
+**Parent Topic:**[Configure Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/configure-sighting-search.md)
 

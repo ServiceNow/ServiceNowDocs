@@ -2,7 +2,7 @@
 title: Install and configure CrowdStrike Falcon Insight
 description: Install and configure the CrowdStrike Falcon Insight for Security Operations application from the ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/install-and-configure-crowdstrike-falcon-insight.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/install-and-configure-crowdstrike-falcon-insight.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

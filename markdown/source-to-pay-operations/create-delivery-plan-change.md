@@ -2,7 +2,7 @@
 title: Delivery plan change form
 description: Use the Delivery plan change form to provide deviations from a plan and create an exception.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/create-delivery-plan-change.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/create-delivery-plan-change.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -114,7 +114,7 @@ Proposed delivery date
 Revised delivery date.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Purchase Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-reference.md)
+</table>**Parent Topic:**[Purchase Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purchase-order-mgmt-reference.md)
 
 **Related topics**  
 
@@ -125,5 +125,5 @@ Revised delivery date.
 
 [Master data tables for Purchase Order Management]()
 
-[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)
+[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/reporting-delivery-plan-issues.md)
 

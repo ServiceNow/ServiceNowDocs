@@ -2,7 +2,7 @@
 title: PostgreSQL
 description: The PostgreSQL connector enables access to relational database data from your PostgreSQL instance without moving or copying data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/postgresql-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/postgresql-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +15,7 @@ breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
 
 The PostgreSQL connector enables access to relational database data from your PostgreSQL instance without moving or copying data.
 
-Connection admins set up connections to PostgreSQL in the Zero Copy Connector Hub and grant data stewards access. Data stewards use the connection to create data fabric tables and map data from PostgreSQL. Users can then access PostgreSQL data through the table list view or GlideRecord scripts. For details, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+Connection admins set up connections to PostgreSQL in the Zero Copy Connector Hub and grant data stewards access. Data stewards use the connection to create data fabric tables and map data from PostgreSQL. Users can then access PostgreSQL data through the table list view or GlideRecord scripts. For details, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md).
 
 For known limitations, see the Knowledge Base article [PostgreSQL connector known limitations \(KBB0010487\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
 
@@ -65,5 +65,5 @@ The connector also supports the following statistical aggregate pushdowns: `STDD
 **Related topics**  
 
 
-[Create a PostgreSQL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-postgresql-connection-zcc.md)
+[Create a PostgreSQL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-postgresql-connection-zcc.md)
 

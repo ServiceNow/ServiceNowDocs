@@ -2,7 +2,7 @@
 title: REST Message legacy workflow activity
 description: The legacy REST Message activity enables an administrator to override the REST endpoint or supply the variables configured in the REST Message module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_RESTMessageActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/r\_RESTMessageActivity.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -113,5 +113,5 @@ Sensor Script
 The script to execute after the request has been made and a response has been received. You can access the full response body from the *activity.output* variable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_UtilityActivities.md)
+</table>**Parent Topic:**[Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-activities/c_UtilityActivities.md)
 

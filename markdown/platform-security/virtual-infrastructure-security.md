@@ -2,7 +2,7 @@
 title: Virtual infrastructure security
 description: Use virtualization with the flexibility to install multiple MID Servers in virtualized operating systems and networks in shared physical hardware.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/virtual-infrastructure-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/virtual-infrastructure-security.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

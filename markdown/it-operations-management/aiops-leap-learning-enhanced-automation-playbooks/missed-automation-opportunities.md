@@ -2,12 +2,12 @@
 title: Missed automation opportunities
 description: Track instances where users could have benefited from generated resolution steps, knowledge base articles, or playbooks but didn't have access to them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/missed-automation-opportunities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/missed-automation-opportunities.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [missed opportunities, LEAP, automation tracking, resolution steps, playbooks, knowledge base]
 breadcrumb: [Automation opportunities overview, Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]

@@ -2,7 +2,7 @@
 title: Create a case or account escalation template
 description: Create a template for each type of case or account escalation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-escalation-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-escalation-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Suspend and resume products and services
 description: You can use suspend and resume actions to temporarily suspend or inactivate your product and service inventories. That way, you can capture a customer's suspend request and resume the products and services later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-suspend-resume-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-suspend-resume-action.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -59,12 +59,12 @@ For an inflight change of the suspend or resume type order, only Cancellation is
 
 In the order creation process for the suspend or resume action, you can use the external inventory ID in the payload instead of the system-generated ID for the inventory.
 
-**Parent Topic:**[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md)
+**Parent Topic:**[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/managing-orders.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

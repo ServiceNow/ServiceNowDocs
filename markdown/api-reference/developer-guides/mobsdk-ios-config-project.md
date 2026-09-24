@@ -2,7 +2,7 @@
 title: Configure your project
 description: Before writing any application that leverages the Mobile SDK for iOS, you must configure your project to use the SDK.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-config-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-ios-config-project.html
 release: australia
 product: Developer Guides
 classification: developer-guides

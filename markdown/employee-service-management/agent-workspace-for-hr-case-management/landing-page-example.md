@@ -2,7 +2,7 @@
 title: Landing page configuration example
 description: Learn how to configure a landing page through an example configuration process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/landing-page-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/landing-page-example.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -18,7 +18,7 @@ Learn how to configure a landing page through an example configuration process.
 
 ## Before you begin
 
-Create a variant of your landing page. For more information, see [Create a landing page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/configure-report-aws.md).
+Create a variant of your landing page. For more information, see [Create a landing page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/configure-report-aws.md).
 
 Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
@@ -95,5 +95,5 @@ The configuration example shows how you would configure an **HR Cases closed in 
     4.  Select **Save**.
 
 
-**Parent Topic:**[Create a landing page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/configure-report-aws.md)
+**Parent Topic:**[Create a landing page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/configure-report-aws.md)
 

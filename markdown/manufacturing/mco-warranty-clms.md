@@ -2,7 +2,7 @@
 title: Repair claim
 description: In the Repair claims workflow, the customer approaches the dealer with issues related to one or more products. The dealer diagnoses and fixes the issue​ and raises the reimbursement for the repair work performed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-warranty-clms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-warranty-clms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ In the Repair claims workflow, the customer approaches the dealer with issues re
 
 To learn more about configuring and using repair campaign, see:
 
--   [Repair claims data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-claims.md)
--   [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/install-manufacturing-commercial-operations-core.md)
--   [Implement a repair claim set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-set-up-repair-claim.md)
--   [Repair claim for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-claim-dealer.md)
--   [Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-repair-claim.md)
+-   [Repair claims data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-claims.md)
+-   [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/install-manufacturing-commercial-operations-core.md)
+-   [Implement a repair claim set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-set-up-repair-claim.md)
+-   [Repair claim for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-claim-dealer.md)
+-   [Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-use-repair-claim.md)
 

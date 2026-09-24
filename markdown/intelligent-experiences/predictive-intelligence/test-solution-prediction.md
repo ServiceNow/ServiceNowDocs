@@ -2,7 +2,7 @@
 title: Test a classification solution prediction
 description: Once your machine-learning \(ML\) solutions are trained, you can call on the Predictive Intelligence API to make a solution prediction. In this example procedure, we use the REST API Explorer to test a classification solution prediction for incident categorization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/test-solution-prediction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/test-solution-prediction.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -106,7 +106,7 @@ Result: When the form refreshes, an information message appears with the inciden
 
 **Note:** For some short descriptions, the prediction might not process because the solution does not have enough confidence in predicting the value for this input.
 
-**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
 
 **Related topics**  
 

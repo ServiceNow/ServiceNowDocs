@@ -2,7 +2,7 @@
 title: Account recovery context
 description: The account recovery context uses a policy to define how and when the account recovery can be established.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/account-recovery-context.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/account-recovery-context.html
 release: australia
 product: Authentication
 classification: authentication

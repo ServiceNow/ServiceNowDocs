@@ -2,7 +2,7 @@
 title: Microsoft Defender for Endpoint Default Settings
 description: There are additional configuration settings you must perform after you complete the installation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/microsoft-defender-default-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/microsoft-defender-default-settings.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

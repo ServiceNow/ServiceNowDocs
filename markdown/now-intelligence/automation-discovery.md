@@ -2,7 +2,7 @@
 title: Automation Discovery
 description: ServiceNow Automation Discovery helps you identify automation opportunities for your workflows. Use the discovery reports to implement or improve automation solutions like Virtual Agent \(VA\), and Agent assist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/automation-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/automation-discovery.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ For applications such as Virtual Agent, Automation Discovery helps you implement
 
 ## Installation
 
-Automation Discovery is available from the ServiceNow Store. For more information, see [Install Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/install-automation-discovery.md).
+Automation Discovery is available from the ServiceNow Store. For more information, see [Install Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/install-automation-discovery.md).
 
 ## Language support
 
@@ -54,7 +54,7 @@ The **Automation Discovery Reports** page lists your created reports. For each r
 |Frequency|Number of times to run the report.|
 |Status|Status of the report.|
 
-To create a new report, see [Create an Automation Discovery report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-auto-discovry-report.md).
+To create a new report, see [Create an Automation Discovery report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-auto-discovry-report.md).
 
 To view results, select the name of the report.
 

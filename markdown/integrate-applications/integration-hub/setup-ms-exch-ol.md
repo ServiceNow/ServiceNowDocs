@@ -2,7 +2,7 @@
 title: Set up Microsoft Exchange Online spoke
 description: Integrate the ServiceNow instance and Microsoft Exchange Online account by creating a custom OAuth application in Microsoft Exchange Online to authenticate ServiceNow requests.Provide authorization to the ServiceNow instance by registering an application with Azure AD.Perform actions in Microsoft Exchange Online by configuring connection records for your Microsoft Exchange Online account. The Microsoft Exchange Online spoke connection and credential alias uses these connections to perform actions.Create a credential record for the Microsoft Exchange Online spoke Mailbox actions. The Microsoft Exchange Online spoke connection and credential alias uses these credentials to authorize Mailbox actions.Configure a connection record for your Microsoft Exchange Online spoke Mailbox actions. The Microsoft Exchange Online spoke connection and credential aliases use these connections to perform only Mailbox actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ms-exch-ol.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-ms-exch-ol.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -40,7 +40,7 @@ Complete these steps from the Microsoft Azure portal. For instructions on regist
 
 2.  For the **Required Permissions**, select **Microsoft Graph**.
 
-    **Note:** The permissions displayed here are needed to use all the spoke actions. However if you want to use only some of the actions, you can add only the required permissions. For more information about the required permissions for each action, see [Spoke actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-exch-online-spoke.md).
+    **Note:** The permissions displayed here are needed to use all the spoke actions. However if you want to use only some of the actions, you can add only the required permissions. For more information about the required permissions for each action, see [Spoke actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/ms-exch-online-spoke.md).
 
     \[Omitted image "ms-exchange-online-spoke-permissions.png"\] Alt text: Permissions required for Microsoft Exchange Online spoke
 

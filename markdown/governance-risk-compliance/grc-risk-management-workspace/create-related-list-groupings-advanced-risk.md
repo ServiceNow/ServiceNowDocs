@@ -2,7 +2,7 @@
 title: Create related list groupings in Advanced Risk
 description: Simplify the groupings of related lists on a record page and customize them to your specific needs, assigning meaningful names in the process. This configuration enhances readability and user experience when interacting with the forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-related-list-groupings-advanced-risk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/create-related-list-groupings-advanced-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -180,5 +180,5 @@ The path of the UX screen. This option appears only when the **Type** field cont
 
 The following figure shows grouped related lists.\[Omitted image "related-list-groupings-advanced-risk.jpg"\] Alt text: How related lists are grouped on a form after configuration.
 
-**Parent Topic:**[Configuring Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-risk-mgmt.md)
+**Parent Topic:**[Configuring Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/configure-risk-mgmt.md)
 

@@ -2,7 +2,7 @@
 title: Using the Personal Authentication dashboard
 description: Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/personal-auth-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/personal-auth-dashboard.html
 release: australia
 product: Integration Hub
 classification: integration-hub

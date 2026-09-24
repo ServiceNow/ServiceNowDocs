@@ -2,7 +2,7 @@
 title: Components installed with e-signature
 description: Several types of components are installed with activation of e-signature, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/e-signature/components-installed-with-e-signature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/e-signature/components-installed-with-e-signature.html
 release: australia
 product: e-Signature
 classification: e-signature
@@ -96,5 +96,5 @@ E-signature acknowledgment table.
 </td></tr></tbody>
 </table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md).
 
-**Parent Topic:**[E-signature reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/esignature-reference.md)
+**Parent Topic:**[E-signature reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/e-signature/esignature-reference.md)
 

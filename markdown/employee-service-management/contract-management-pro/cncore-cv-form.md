@@ -2,7 +2,7 @@
 title: Clause Variation form
 description: Use the Clause Variation new record form to create or modify a clause variation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-cv-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-cv-form.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -106,7 +106,7 @@ Document
 
 </td><td>
 
-Select **Update** link to upload the document that has the modified content. The selected document should be of .docx file format and should have valid content controls. For more information, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md) .
+Select **Update** link to upload the document that has the modified content. The selected document should be of .docx file format and should have valid content controls. For more information, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md) .
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Advanced script
 Enables the **Script** field where you can define clause conditions on fields and variables of a table that isn’t directly linked to the contract template table. The condition determines when the clause variation is used in a contract.**Note:** The **Applies when** field is not available when you select the **Advanced script** check box.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

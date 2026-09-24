@@ -2,7 +2,7 @@
 title: Create a trigger definition
 description: Define the type of trigger that determines when to start running your playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-trigger-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-trigger-definition.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -29,7 +29,7 @@ Define the type of trigger that determines when to start running your playbook.
 
 3.  On the Trigger Definition form, in the **Label** field, enter any label for your trigger definition.
 
-    This label appears as a trigger option when you [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
+    This label appears as a trigger option when you [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-process-definition.md).
 
 4.  Next to the **Trigger Type** field, click the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\).
 
@@ -64,7 +64,7 @@ Define the type of trigger that determines when to start running your playbook.
 
 ## Result
 
-Your trigger definition is added to the Trigger Definition \[sys\_pd\_trigger\_definition\] table. You can now select your preset trigger when you [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
+Your trigger definition is added to the Trigger Definition \[sys\_pd\_trigger\_definition\] table. You can now select your preset trigger when you [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-process-definition.md).
 
-**Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
+**Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 

@@ -2,7 +2,7 @@
 title: Group Trails
 description: Displays audits of groups in the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/group-trails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/group-trails.html
 release: australia
 product: Identity
 classification: identity

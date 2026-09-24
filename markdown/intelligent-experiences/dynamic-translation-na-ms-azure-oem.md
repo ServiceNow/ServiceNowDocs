@@ -2,7 +2,7 @@
 title: Microsoft Azure OEM for Dynamic Translation in Now Assist
 description: Support multi-language input in Now Assist applications with the Microsoft Azure OEM translator service included in Generative AI Controller.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/dynamic-translation-na-ms-azure-oem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/dynamic-translation-na-ms-azure-oem.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-31"
@@ -26,7 +26,7 @@ When dynamic translation in the Generative AI Controller is enabled, your users'
 3.  Now Assist returns a response in English.
 4.  The English response is translated to the user's preferred language and displayed in the UI.
 
-For more information about enabling dynamic translation in this context, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md) and [Enable Dynamic Translation for capabilities in Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/enable-dynamic-translation-for-generative-ai-capabilities.md).
+For more information about enabling dynamic translation in this context, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md) and [Enable Dynamic Translation for capabilities in Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/enable-dynamic-translation-for-generative-ai-capabilities.md).
 
 From the Zurich release, this spoke has available support for specific regulated markets, subject to conditions. For information see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) on the Now Support portal.
 
@@ -70,16 +70,16 @@ You can use a different machine translation service in Generative AI Controller,
 
 6.  Select **Submit**.
 
-Alternatively, you can deactivate Dynamic Translation in this context using another sys property. For information see [Disable Dynamic Translation for LLM Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/disable-dynamic-translation-for-llm-va-conversations.md).
+Alternatively, you can deactivate Dynamic Translation in this context using another sys property. For information see [Disable Dynamic Translation for LLM Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/disable-dynamic-translation-for-llm-va-conversations.md).
 
-**Parent Topic:**[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
+**Parent Topic:**[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
 
 **Related topics**  
 
 
 [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation-overview.md)
 
-[Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/generative-ai-controller.md)
+[Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/generative-ai-controller.md)
 
-[Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translation-for-now-assist.md)
+[Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/translation-for-now-assist.md)
 

@@ -2,7 +2,7 @@
 title: Universal Task in Service Operations Workspace
 description: Agents can use the Universal Task application to create tasks for employees and to manage the request resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/using-ut-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/using-ut-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -16,12 +16,12 @@ breadcrumb: [Managing IT services in your organization, Service Operations Works
 
 Agents can use the Universal Task application to create tasks for employees and to manage the request resolution.
 
--   **[Create a universal task for a universal request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-ut-sow.md)**  
+-   **[Create a universal task for a universal request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-ut-sow.md)**  
 Create a universal task for a request and assign it to the employee or create multiple tasks for a request by using Universal Task.
--   **[Universal Task in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-ut-sow.md)**  
+-   **[Universal Task in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/components-installed-ut-sow.md)**  
 Several types of components are installed with activation of the Universal Task application, including tables and user roles.
 
-**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
+**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 
 **Related topics**  
 

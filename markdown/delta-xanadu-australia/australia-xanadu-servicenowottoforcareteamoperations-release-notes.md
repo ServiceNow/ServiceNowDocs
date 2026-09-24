@@ -2,10 +2,10 @@
 title: Combined ServiceNow Otto for Care Team Operations release notes for upgrades from Xanadu to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for Care Team Operations from Xanadu to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforcareteamoperations-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-servicenowottoforcareteamoperations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -525,5 +525,5 @@ Use the conversational abilities of Now Assist in Virtual Agent in Care Team Por
  See [ServiceNow Otto for Care Team Operations](https://www.servicenow.com/docs/access?context=now-assist-for-healthcare-and-life-sciences&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-xanadu-australia/rn-combined-intro.md)
 

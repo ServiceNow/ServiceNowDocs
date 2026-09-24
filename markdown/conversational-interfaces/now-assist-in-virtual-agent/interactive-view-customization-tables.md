@@ -2,7 +2,7 @@
 title: Interactive view customization tables
 description: Make your own user interface applicable to the interactive view with some customization in the following two tables: Now Canvas Definition \[sn\_now\_canvas\_definition.list\] and Now Canvas Configuration \[sn\_now\_canvas\_configuration.list\].
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/interactive-view-customization-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/interactive-view-customization-tables.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

@@ -2,7 +2,7 @@
 title: Create an export target
 description: Define where to export data to by creating an export target.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/t\_CreateAnExportTarget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-export-sets/t\_CreateAnExportTarget.html
 release: australia
 product: System Export Sets
 classification: system-export-sets

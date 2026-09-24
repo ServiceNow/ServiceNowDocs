@@ -2,7 +2,7 @@
 title: Extend the healthcare case table
 description: Extend the Healthcare case \[sn\_hcls\_case\] table to create a case type for viewing patient information within healthcare-related cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-extend-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-extend-table.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

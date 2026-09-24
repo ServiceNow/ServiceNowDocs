@@ -2,7 +2,7 @@
 title: Help manage workplace reservations agentic workflow
 description: The Help manage workplace reservations agentic AI workflow enables Workplace Event Planners with rescheduling a planned reservation. AI Agents gather relevant information from a workplace reservation and update an existing planned reservation with a new date, time, and duration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -16,7 +16,7 @@ breadcrumb: [Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Ott
 
 The Help manage workplace reservations agentic AI workflow enables Workplace Event Planners with rescheduling a planned reservation. AI Agents gather relevant information from a workplace reservation and update an existing planned reservation with a new date, time, and duration.
 
-AI agents retrieve the reservation from the change event reservation case details. AI agents analyze an existing reservation before updating it with a new date and time. If the old location is not available while updating an existing reservation, AI agents update and move the reservation to a new location. For more information, see [Submit a change event request for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/submit-change-event-reservation.md).
+AI agents retrieve the reservation from the change event reservation case details. AI agents analyze an existing reservation before updating it with a new date and time. If the old location is not available while updating an existing reservation, AI agents update and move the reservation to a new location. For more information, see [Submit a change event request for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/submit-change-event-reservation.md).
 
 A change event request is submitted for updating an existing reservation by a workplace user. A workplace case is created with a new workplace service. The workplace case is assigned to a user in the Workplace Event planners assignment group.
 
@@ -28,14 +28,14 @@ The team of AI agents autonomously perform the following:
 
     Workplace Event planners can respond to AI agents queries using the conversational interface of the ServiceNow Otto panel. AI agents take confirmation from Workplace planners before updating a reservation to another location if the old location is not available. It shows three workplace locations. You can select the location or ask the AI agents to show more locations. AI agent provides a link for you to select and navigate to the reservation page to manually select a location of your choice.
 
-    For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
+    For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
 -   Update the change event request case work notes with all the actions taken. Workplace Event planners can review the activity log to see the actions taken by AI agents to update a planned reservation event.
 
-    For more information, see [View change event reservation case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-case-change-event-reservation.md).
+    For more information, see [View change event reservation case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/view-case-change-event-reservation.md).
 
 
-For more information, see [View change event reservation case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-case-change-event-reservation.md).
+For more information, see [View change event reservation case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/view-case-change-event-reservation.md).
 
 ## Help manage workplace reservations
 
@@ -43,10 +43,10 @@ To access the Help manage workflow reservations:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview** &gt; **Help manage workplace reservations.**.
 
-    The Describe and Connect workflow is displayed. For more information, see [AI agents used in the Help manage workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
+    The Describe and Connect workflow is displayed. For more information, see [AI agents used in the Help manage workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
 
-2.  Select **Define Trigger** to review the trigger factor \(Emergency Meeting rooms\) for this agentic workflow. For more information, see [Triggers for Help manage workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md)
-3.  The **Select Display** option enables the Now Assist panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
+2.  Select **Define Trigger** to review the trigger factor \(Emergency Meeting rooms\) for this agentic workflow. For more information, see [Triggers for Help manage workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md)
+3.  The **Select Display** option enables the Now Assist panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
 
 ## AI agents used in the Help manage workplace reservations
 
@@ -136,9 +136,9 @@ In the Select display workflow, select **Display** to display the ServiceNow Ott
 
 **Note:** To view the output from a triggered use case, you should have the now\_assist\_panel\_role.
 
-Select this option to receive and review notifications by AI agents in the Now Assist panel. AI agents notify Event planners in the ServiceNow Otto panel with the case resolution and summarization notes. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
+Select this option to receive and review notifications by AI agents in the Now Assist panel. AI agents notify Event planners in the ServiceNow Otto panel with the case resolution and summarization notes. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
-**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 

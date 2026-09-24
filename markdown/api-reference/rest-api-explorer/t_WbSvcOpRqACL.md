@@ -2,7 +2,7 @@
 title: Configure a scripted REST API resource to require an ACL
 description: By default, API resources/endpoints inherit security settings from the parent API. Define custom Access Control Levels \(ACLs\) for a specific resource/endpoint to override the inherited settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t\_WbSvcOpRqACL.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-api-explorer/t\_WbSvcOpRqACL.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -45,12 +45,12 @@ The ACLs defined using the procedure in this document are only checked for authe
     Selecting an ACL for a resource overrides any ACLs selected for the parent web service. Leave this field empty to use the ACLs selected for the parent web service.
 
 
-**Parent Topic:**[Configure a scripted REST API to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_WbSvcRqACL.md)
+**Parent Topic:**[Configure a scripted REST API to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/t_WbSvcRqACL.md)
 
 **Related topics**  
 
 
-[Configure a scripted REST API to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_WbSvcRqACL.md)
+[Configure a scripted REST API to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/t_WbSvcRqACL.md)
 
-[Add a path-based ACL for a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/add-a-path-based-acl-for-a-scripted-rest-api.md)
+[Add a path-based ACL for a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/add-a-path-based-acl-for-a-scripted-rest-api.md)
 

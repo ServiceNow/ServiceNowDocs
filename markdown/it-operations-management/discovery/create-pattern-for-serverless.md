@@ -2,12 +2,12 @@
 title: Create pattern and schedule for standard serverless discovery
 description: To find application CIs that reside on an unknown host, create an infrastructure pattern for standard serverless discovery. After creating the pattern, create a Discovery schedule that triggers the pattern.After you create a pattern for standard serverless discovery, create a Discovery schedule and specify the pattern. Discovery triggers the pattern from the schedule rather than from a classifier.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-pattern-for-serverless.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/create-pattern-for-serverless.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Serverless Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -32,7 +32,7 @@ In the pattern, you must specify input parameters to explore the CI.
 
 3.  Specify an **Infrastructure** type pattern with the correct CI type that applies to the CIs you want to discover.
 
-    See [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md) for an explanation of all form fields.
+    See [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md) for an explanation of all form fields.
 
 4.  Create an identification section and save the pattern.
 
@@ -81,7 +81,7 @@ You can reuse this schedule to run the same pattern using different parameters.
 
 3.  Select **Serverless** in the **Discovery** field.
 
-    See [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) for explanation of other fields.
+    See [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md) for explanation of other fields.
 
 4.  Right-click the form header and select **Save**.
 
@@ -116,5 +116,5 @@ Check the Discovery status to see the Discovery log, the devices list, which hol
 **Related topics**  
 
 
-[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatus.md)
+[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryStatus.md)
 

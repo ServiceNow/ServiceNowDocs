@@ -2,7 +2,7 @@
 title: Manage obligations in the Hardware Asset Workspace
 description: Obligation Management in the Hardware Asset Workspace enables you to create obligation records to define specific instructions and obligation task types required to fulfill a contract obligation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/manage-obligations-in-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/manage-obligations-in-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -25,9 +25,9 @@ Hardware contracts such as leases, warranties, maintenance agreements, and purch
 -   Paying for repairs covered under warranty
 -   Incurring penalties from missed purchase obligations
 
-With Obligation Management in the Hardware Asset Workspace, contract managers can create, assign, and complete contractual obligations from a single workspace. For details, see [Hardware Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-cm-pro-integration.md).
+With Obligation Management in the Hardware Asset Workspace, contract managers can create, assign, and complete contractual obligations from a single workspace. For details, see [Hardware Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-cm-pro-integration.md).
 
-**Note:** You can also use the Manage contract repository agentic workflow to extract obligations from signed contracts and create obligation records automatically. For more details, see [Initiate metadata and obligation extraction from a signed contract in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/initiate-metadata-extraction-ham.md) and [Review AI-extracted obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/review-extracted-obligation-ham.md).
+**Note:** You can also use the Manage contract repository agentic workflow to extract obligations from signed contracts and create obligation records automatically. For more details, see [Initiate metadata and obligation extraction from a signed contract in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/initiate-metadata-extraction-ham.md) and [Review AI-extracted obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/review-extracted-obligation-ham.md).
 
 ## Obligation task types
 
@@ -61,10 +61,10 @@ The following workflow describes how users create and manage obligations for har
 5.  The approver with the sn\_cm\_obligation.obligation\_fulfiller role reviews and approves the task. For more information, see [Approve or reject obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-manage-ob-tasks.md).
 6.  After approval, the obligation task moves to the **Closed Complete** state.
 
--   **[Create an obligation record in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-obligation-records-ham.md)**  
+-   **[Create an obligation record in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-obligation-records-ham.md)**  
 Create an obligation record for signed contracts in the Hardware Asset Workspace to fulfill the responsibilities specified in the contract through obligation tasks.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

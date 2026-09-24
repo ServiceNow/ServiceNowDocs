@@ -2,7 +2,7 @@
 title: Schedule the export of data visualizations or dashboards
 description: Automate the export and mailing of data visualizations. Help colleagues build presentations, share information with external users, or track data over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/schedule-visn-export-vd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/schedule-visn-export-vd.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -153,5 +153,5 @@ A conditional script that determines if a scheduled job should run. The last exp
 11. Select **Save** to save the schedule.
 
 
-**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dv-tasks.md)
 

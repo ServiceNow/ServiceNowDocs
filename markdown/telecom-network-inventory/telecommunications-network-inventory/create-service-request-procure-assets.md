@@ -2,7 +2,7 @@
 title: Create a service request to procure assets
 description: Create a bill of materials for assets by using a record producer, and then create a service request to procure those assets. You can do both these actions by using the Telecommunications Network Inventory application integrations with the Hardware Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-service-request-procure-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-service-request-procure-assets.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -18,7 +18,7 @@ Create a bill of materials for assets by using a record producer, and then creat
 
 ## Before you begin
 
-Make sure to add the asset that you want to procure in the hardware catalog. To learn more, see [Publish an asset to the hardware catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/publish-asset-harware-calaog.md).
+Make sure to add the asset that you want to procure in the hardware catalog. To learn more, see [Publish an asset to the hardware catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/publish-asset-harware-calaog.md).
 
 Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
@@ -68,5 +68,5 @@ Quantity of the assets. Enter the required quantity of each asset in the **Quant
 
 A service request is created to procure the assets.
 
-**Parent Topic:**[Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md)
+**Parent Topic:**[Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md)
 

@@ -2,7 +2,7 @@
 title: Create entitlements for SAP
 description: Create software entitlements to record your license information for SAP products. You can create entitlements individually or import them from a spreadsheet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-entitlement-sap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-entitlement-sap.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -22,11 +22,11 @@ Role required: sam\_user or sam\_admin
 
 **Note:** The sam\_admin role is required to import entitlements.
 
-**Important:** You can create and import entitlements in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on creating entitlements in the Software Asset Management classic application. For details on creating entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md). For details on importing entitlements in the Software Asset Workspace, see [Import bulk entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-entitlements-workspace.md).
+**Important:** You can create and import entitlements in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on creating entitlements in the Software Asset Management classic application. For details on creating entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md). For details on importing entitlements in the Software Asset Workspace, see [Import bulk entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-entitlements-workspace.md).
 
 ## About this task
 
-The following steps describe information specific to SAP. For general instructions on creating software entitlements, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+The following steps describe information specific to SAP. For general instructions on creating software entitlements, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ The following steps describe information specific to SAP. For general instructio
 
 2.  On the form, fill in the fields.
 
-    **Note:** Only information specific to SAP software entitlements is shown in the following table. For a detailed description of all software entitlement fields, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+    **Note:** Only information specific to SAP software entitlements is shown in the following table. For a detailed description of all software entitlement fields, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
 <table id="table_zql_nkm_11b"><thead><tr><th>
 
@@ -68,7 +68,7 @@ Select any of the following values:
 
  The type of usage is defined by the **SAP license metric** field on the software model.
 
- For more information about license metrics, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
+ For more information about license metrics, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -96,7 +96,7 @@ Number of packs for SAP Engine measurement licenses.
 4.  After the form reloads, select **Publish**.
 
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Turn off collection of port data for SNMP network devices
 description: In some environments you may not want to collect the port data for SNMP network devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/t\_TurnOffCollectionOfPortData.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/t\_TurnOffCollectionOfPortData.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -37,5 +37,5 @@ Network devices can contain an extremely large number of ports. If individual po
 4.  Click the check mark to save the change.
 
 
-**Parent Topic:**[Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md)
+**Parent Topic:**[Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md)
 

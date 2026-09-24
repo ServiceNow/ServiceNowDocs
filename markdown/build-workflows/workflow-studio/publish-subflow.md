@@ -2,7 +2,7 @@
 title: Publish a subflow
 description: Publish a subflow to make it available to other users and to add it to activated flows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/publish-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/publish-subflow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -20,7 +20,7 @@ Publish a subflow to make it available to other users and to add it to activated
 
 Role required: flow\_designer or admin
 
-[Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md), [test the subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-subflow.md), and verify that it is working as expected.
+[Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-subflow.md), [test the subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-subflow.md), and verify that it is working as expected.
 
 ## About this task
 
@@ -39,5 +39,5 @@ When you make changes to a published subflow, the changes remain in the draft st
 
 The subflow can be added to activated flows. If you update the subflow after it is published, you must click **Publish** again to see the changes when the parent flow is run. After publishing changes, all parent flows that use the subflow are automatically updated to use the current version.
 
-**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflows.md)
 

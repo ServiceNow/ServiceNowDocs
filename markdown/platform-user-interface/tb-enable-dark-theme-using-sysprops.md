@@ -2,7 +2,7 @@
 title: Enable the Next Experience dark theme for limited classic environment and configurable workspaces
 description: Enable the Next Experience dark theme for limited classic environment and configurable workspaces by using system properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-enable-dark-theme-using-sysprops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-enable-dark-theme-using-sysprops.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: admin
     \[Omitted image "next-exp-enable-dark-theme-property.png"\] Alt text: Set system property value to true.
 
 
-**Parent Topic:**[Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-working-in-dark-theme.md)
+**Parent Topic:**[Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-working-in-dark-theme.md)
 

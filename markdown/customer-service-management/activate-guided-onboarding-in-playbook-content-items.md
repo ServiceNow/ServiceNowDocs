@@ -2,7 +2,7 @@
 title: Activate guided onboarding in Playbook content items
 description: Activate guided onboarding in playbook content items and verify that the new content item launches the playbook record generator that is associated with it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-guided-onboarding-in-playbook-content-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-guided-onboarding-in-playbook-content-items.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Reference for agentic evaluations
 description: Find technical reference material for roles, metrics, and output formats of agentic evaluations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ref-aia-eval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ref-aia-eval.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-16"

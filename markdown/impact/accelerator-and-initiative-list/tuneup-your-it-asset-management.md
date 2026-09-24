@@ -2,7 +2,7 @@
 title: TuneUp Your IT Asset Management
 description: Provides prescriptive guidance to improve IT Asset Management \(ITAM\) health.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-your-it-asset-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/tuneup-your-it-asset-management.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

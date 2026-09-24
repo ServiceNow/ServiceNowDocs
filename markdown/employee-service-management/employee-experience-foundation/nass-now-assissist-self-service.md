@@ -2,7 +2,7 @@
 title: Enhanced chat in Employee Center
 description: Learn more about the theme updates and how to get started with Now Assist enhanced chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

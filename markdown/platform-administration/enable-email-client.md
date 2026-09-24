@@ -2,7 +2,7 @@
 title: Enable the email client for a table
 description: Enable the email client for a table so that users can send emails directly from the table record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/enable-email-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/enable-email-client.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ The email client is enabled by default on the Incident \[incident\] table. You c
 6.  Select **Update**.
 
 
-**Parent Topic:**[Configure email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-email-client.md)
+**Parent Topic:**[Configure email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configuring-email-client.md)
 

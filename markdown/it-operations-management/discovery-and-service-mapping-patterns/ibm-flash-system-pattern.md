@@ -2,7 +2,7 @@
 title: IBM Flash System pattern-based discovery
 description: Discovery and Service Mapping Patterns finds IBM Flash System storage servers in your environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/ibm-flash-system-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/ibm-flash-system-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -47,11 +47,11 @@ The following diagram illustrates the tables and relationships that the Discover
     -   `POST /rest/v1/lsfabric`
 -   **Create an alias for a basic authentication credential**
 
-    For more information, see [Create an alias for a basic authentication credential for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-ibm-flash.md).
+    For more information, see [Create an alias for a basic authentication credential for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-ibm-flash.md).
 
 -   **Schedule a serverless discovery schedule**
 
-    For more information, see [Create a serverless discovery schedule for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ibm-flash.md).
+    For more information, see [Create a serverless discovery schedule for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ibm-flash.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -220,10 +220,10 @@ The IBM Flash System pattern creates the following relationships and references 
 |Disk \[cmdb\_ci\_disk\]|Computer \[computer\]|Storage Server \[cmdb\_ci\_storage\_server\]|
 |Fibre Channel Export \[cmdb\_ci\_fc\_export\]|Hosted by \[hosted\_by\]|Storage Server \[cmdb\_ci\_storage\_server\]|
 
--   **[Create an alias for a basic authentication credential for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-ibm-flash.md)**  
+-   **[Create an alias for a basic authentication credential for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-ibm-flash.md)**  
 Create an alias for a basic authentication credential to run IBM Flash System discovery.
--   **[Create a serverless discovery schedule for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ibm-flash.md)**  
+-   **[Create a serverless discovery schedule for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ibm-flash.md)**  
 Create a serverless discovery schedule to run IBM Flash System storage discovery.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

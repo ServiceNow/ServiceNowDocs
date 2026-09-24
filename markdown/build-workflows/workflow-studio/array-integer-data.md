@@ -2,7 +2,7 @@
 title: Array.Integer data type
 description: Store a sequence of numeric integer data in an array.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/array-integer-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/array-integer-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -45,5 +45,5 @@ You can use an array of integers to store the output of a script method call. Fo
 
 \[Omitted image "example-script-output-array-integers.png"\] Alt text: Script step that defines an output variable named Approver Sequence with the data type of Array.Integer
 
-**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md)
 

@@ -2,7 +2,7 @@
 title: Install Advanced Approval Management AI
 description: You can install the Advanced Approval Management AI application \(sn\_adv\_apr\_mgt\_ai\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they're not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-advanced-approval-management-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-advanced-approval-management-ai.html
 release: australia
 topic_type: task
 last_updated: "2026-06-29"

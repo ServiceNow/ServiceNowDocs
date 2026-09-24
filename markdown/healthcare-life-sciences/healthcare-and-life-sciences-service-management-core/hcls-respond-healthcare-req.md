@@ -2,7 +2,7 @@
 title: Respond to healthcare requests
 description: As a healthcare agent, you can respond to healthcare requests to resolve issues raised by a patient.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-respond-healthcare-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-respond-healthcare-req.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

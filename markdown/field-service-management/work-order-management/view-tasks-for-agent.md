@@ -2,7 +2,7 @@
 title: View the tasks assigned to an agent
 description: View an agent's assigned tasks and monitor their workload throughout the day.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-tasks-for-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/view-tasks-for-agent.html
 release: australia
 product: Work Order Management
 classification: work-order-management

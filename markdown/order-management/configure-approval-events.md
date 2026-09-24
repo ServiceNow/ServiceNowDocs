@@ -2,7 +2,7 @@
 title: Configure approval events
 description: Configure the approval system events that control the approval buttons and stage transitions for a CPQ implementation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-approval-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-approval-events.html
 release: australia
 topic_type: task
 last_updated: "2026-06-29"
@@ -19,7 +19,7 @@ Configure the approval system events that control the approval buttons and stage
 
 Role required: admin or sn\_adv\_appr\_mgmt.approval\_rule\_admin
 
-The environment setup must be complete so that the approval system events, integrations, rules, and fields are seeded in your instance. For more information, see [Set up the environment to manage approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setup-approvals-prerequisites.md).
+The environment setup must be complete so that the approval system events, integrations, rules, and fields are seeded in your instance. For more information, see [Set up the environment to manage approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/setup-approvals-prerequisites.md).
 
 ## About this task
 
@@ -228,5 +228,5 @@ All five approval events are configured. The Preview and View buttons appear in 
 
 ## What to do next
 
-Configure the stages and entry criteria that validate each approval state transition. For more information, see [Configure stages and entry criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-stages-entry-criteria.md).
+Configure the stages and entry criteria that validate each approval state transition. For more information, see [Configure stages and entry criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-stages-entry-criteria.md).
 

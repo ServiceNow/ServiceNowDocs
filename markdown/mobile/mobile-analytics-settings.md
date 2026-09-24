@@ -2,7 +2,7 @@
 title: Analytics settings for mobile
 description: Enable analytics tracking of your user journey in a mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-analytics-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-analytics-settings.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

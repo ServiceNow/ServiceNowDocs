@@ -2,7 +2,7 @@
 title: Configure SQL Server
 description: The following example configuration was performed on SQL Server 2008, installed on Windows Server 2008.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ConfiguringSQLServer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_ConfiguringSQLServer.html
 release: australia
 product: Web Services
 classification: web-services
@@ -100,5 +100,5 @@ EXEC sp_addlinkedserver
 
 After creating the linked server, you must update its properties to specify the login credentials.
 
-**Parent Topic:**[ODBC driver in SQL Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ODBCDrvrSQL20082012.md)
+**Parent Topic:**[ODBC driver in SQL Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ODBCDrvrSQL20082012.md)
 

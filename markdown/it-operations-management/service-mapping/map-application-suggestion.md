@@ -2,7 +2,7 @@
 title: Map application services based on Automated Service Suggestions
 description: Map a new application service based on automatically generated suggestions. Use the Automated Service Suggestions or Service Fingerprints features to create a new application service or add to an existing service in a few clicks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/map-application-suggestion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/map-application-suggestion.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -18,14 +18,14 @@ Map a new application service based on automatically generated suggestions. Use 
 
 ## Before you begin
 
--   Service Mapping Plus must be installed. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
--   Confirm that the application is ready to discover and map application services. See [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/readiness-dashboard-ml.md).
+-   Service Mapping Plus must be installed. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/install-service-mapping-plus.md).
+-   Confirm that the application is ready to discover and map application services. See [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/readiness-dashboard-ml.md).
 
 Role required: service\_mapping\_admin
 
 ## About this task
 
-In addition to being provided with automatically generated suggestions, you can also identify and choose an application service by using Service Fingerprints suggestions that include information about the components in the application service candidates. For more information, see [Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/auto-serv-suggest.md).
+In addition to being provided with automatically generated suggestions, you can also identify and choose an application service by using Service Fingerprints suggestions that include information about the components in the application service candidates. For more information, see [Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/auto-serv-suggest.md).
 
 ## Procedure
 
@@ -115,7 +115,7 @@ Name
 
 Pre-populated, unique name suggested for the new application service.
 
- Use this name. Enter a unique name, or select **Other name suggestions** for additional options. For more information, see [Name suggestions for application service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/app-services-name-suggestions.md).
+ Use this name. Enter a unique name, or select **Other name suggestions** for additional options. For more information, see [Name suggestions for application service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/app-services-name-suggestions.md).
 
 </td></tr><tr><td>
 
@@ -168,10 +168,10 @@ A specific application services group to which you want to add this service. The
 8.  Select **View map** to view the new or modified application service.
 
 
-**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/using-service-mapping.md)
 
 **Related topics**  
 
 
-[Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/auto-serv-suggest.md)
+[Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/auto-serv-suggest.md)
 

@@ -2,7 +2,7 @@
 title: Add security incident to shift handover report
 description: Chat with an AI agent in the ServiceNow Otto panel to add a security incident details to a shift handover report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-incident-shift-handover.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/add-incident-shift-handover.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -61,5 +61,5 @@ The AI agent displays the summary of all the updated and skipped sections.
 
 \[Omitted image "shifthandover-report-update.png"\] Alt text: Shift handover workflow result
 
-**Parent Topic:**[Generate SIR Shift Handover Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-incidents-shifthandover-ai-agent.md)
+**Parent Topic:**[Generate SIR Shift Handover Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/add-incidents-shifthandover-ai-agent.md)
 

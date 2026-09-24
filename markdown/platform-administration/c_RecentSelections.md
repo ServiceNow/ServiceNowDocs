@@ -2,7 +2,7 @@
 title: Recent selections
 description: Reference fields store a list of each user's recent selections to enable you to quickly select past values when filling in a reference field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_RecentSelections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_RecentSelections.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ The system adds a Recent Selection record whenever you insert or update a refere
 **Related topics**  
 
 
-[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_AvailableSystemProperties.md)
 

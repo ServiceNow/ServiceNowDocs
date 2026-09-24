@@ -2,7 +2,7 @@
 title: Approving or rejecting requests for due diligence
 description: Set up the approval levels and rules for due diligence requests in the Third-party Risk Management application to use while approving or rejecting requests after reviewing questionnaire responses and due diligence process results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-approving.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-approving.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -20,7 +20,7 @@ Set up the approval levels and rules for due diligence requests in the Third-par
 
 Approval levels and rules are used to determine which team members are assigned as approvers to the due diligence request. During the approval process, approvers review the external questionnaire responses and supporting documents that were provided by the third-party contact. They also consider any other information that was gathered during the due diligence process. Approvers can approve or reject due diligence requests depending on their interpretation of the information reviewed.
 
-For more information on managing approvals, approval levels, and approval rules, see [Approval process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.md).
+For more information on managing approvals, approval levels, and approval rules, see [Approval process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.md).
 
 **Note:** Any multi-level approvals related to a workflow require updates to be made using Workflow Studio. For more information on creating flows using Workflow Studio, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
 
@@ -41,11 +41,11 @@ With the Third-party due diligence default configuration, you can create three r
     -   Rule 1: All TPR administrators are assigned to approve an engagement in a specific region that has a high-risk rating.
     -   Rule 2: All TPR administrators are assigned to approve an engagement in a specific region that has a very high-risk rating.
 
-During the approval process, level 1 is triggered first. If all assigned users approve the conditions in level 1, then level 2 is triggered and so on. If any assigned user in level 1 has rejected the due diligence request, level 2 isn't triggered and the due diligence request is rejected. For more information on possible rating definitions, see [Set up risk rating scales for scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.md).
+During the approval process, level 1 is triggered first. If all assigned users approve the conditions in level 1, then level 2 is triggered and so on. If any assigned user in level 1 has rejected the due diligence request, level 2 isn't triggered and the due diligence request is rejected. For more information on possible rating definitions, see [Set up risk rating scales for scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.md).
 
-**Note:** You can use the Third-party due diligence default configuration included as part of the base system or deactivate the default configuration and create an approval configuration that applies to a different table. For more information, see [Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md).
+**Note:** You can use the Third-party due diligence default configuration included as part of the base system or deactivate the default configuration and create an approval configuration that applies to a different table. For more information, see [Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md).
 
-For more information on setting up approval levels and rules, see [Set up the approval levels for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.md) and [Set up the approval rules for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.md).
+For more information on setting up approval levels and rules, see [Set up the approval levels for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.md) and [Set up the approval rules for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.md).
 
 ## Approving due diligence requests
 
@@ -67,26 +67,26 @@ From this view, you can accomplish the following tasks:
 
 -   Review the internal questionnaire responses.
 
-    Navigate to the Due diligence request record page by selecting the Due Diligence Request \(DDR\) number and then selecting the Internal assessment \(INA\) number on the **Internal assessments** tab. For more information, see [IRQ process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.md).
+    Navigate to the Due diligence request record page by selecting the Due Diligence Request \(DDR\) number and then selecting the Internal assessment \(INA\) number on the **Internal assessments** tab. For more information, see [IRQ process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.md).
 
 -   Review the risk intelligence scores.
 
-    Navigate to the Due diligence request record page by selecting the DDR number and then selecting the **Risk intelligence scores** tab. For more information, see [Viewing risk intelligence scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-risk-intel-scores.md).
+    Navigate to the Due diligence request record page by selecting the DDR number and then selecting the **Risk intelligence scores** tab. For more information, see [Viewing risk intelligence scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-risk-intel-scores.md).
 
 -   Review the external questionnaire responses and supporting documents.
 
-    Navigate to the Due diligence request record page by selecting the DDR number and then selecting the External assessment \(VRA\) number on the **External assessments** tab. For more information, see [Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md).
+    Navigate to the Due diligence request record page by selecting the DDR number and then selecting the External assessment \(VRA\) number on the **External assessments** tab. For more information, see [Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md).
 
 -   Access the approval request record page.
 
-    Select one of the Requested states from the list to open the approval request record page. From this page, you can select **Approve** or **Reject**. For more information, see [Approval process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.md).
+    Select one of the Requested states from the list to open the approval request record page. From this page, you can select **Approve** or **Reject**. For more information, see [Approval process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.md).
 
 
 If the responses meet your requirements, one or more approvers approves the request, and the owner \(TPR manager or TPR assessor\) closes the due diligence request and the engagement. The third party or engagement state is now **Active**. If a contract is going to be prepared, an approver, TPR manager, or owner selects **Send to contract negotiator** and assigns a contract negotiator. The approved due diligence request's state is updated to the Contract Risk Process state and the contract risk negotiator is notified through an automated email.
 
-For more information, see [Managing the contract risk process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-contract-risk-process.md).
+For more information, see [Managing the contract risk process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-contract-risk-process.md).
 
-**Note:** This topic covers due diligence request \(DDR\)-level approval and rejection, which happens after all assessments in the request are closed. To review and follow up on individual question responses while an assessment is still in progress, including flagging unsatisfactory responses for a third party or engagement contact to update, see [Smart assessments with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sae-using.md).
+**Note:** This topic covers due diligence request \(DDR\)-level approval and rejection, which happens after all assessments in the request are closed. To review and follow up on individual question responses while an assessment is still in progress, including flagging unsatisfactory responses for a third party or engagement contact to update, see [Smart assessments with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-sae-using.md).
 
 ## Rejecting due diligence requests
 

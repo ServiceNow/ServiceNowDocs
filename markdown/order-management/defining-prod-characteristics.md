@@ -2,7 +2,7 @@
 title: Defining product characteristics and characteristic options
 description: As a product catalog admin, you create the characteristics and characteristic options for product offerings and specifications. Product characteristics are attributes that define and describe a product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/defining-prod-characteristics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/defining-prod-characteristics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,12 +47,12 @@ The following example shows a characteristic hierarchy for Routing Addresses, wh
 
 Defining a hierarchical attribute structure involves setting up the parent attribute, for example routing addresses, as an object type. You then define the characteristic relationships between the parent attribute and child attributes to establish the hierarchical structure and the order in which the child characteristics display in the product configurator.
 
-For details on defining characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md).
+For details on defining characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-product-config-add-characteristics.md).
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

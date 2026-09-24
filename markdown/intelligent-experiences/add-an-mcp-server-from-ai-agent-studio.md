@@ -2,7 +2,7 @@
 title: Add an MCP server from AI Agent Studio
 description: When you add an MCP server in AI Agent Studio, it's automatically discovered and synced to AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-an-mcp-server-from-ai-agent-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-an-mcp-server-from-ai-agent-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-09-03"

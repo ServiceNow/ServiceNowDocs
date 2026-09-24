@@ -2,7 +2,7 @@
 title: Create a skill
 description: Create a "German" skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/skills-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/skills-example.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

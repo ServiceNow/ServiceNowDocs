@@ -2,7 +2,7 @@
 title: Distribute reports
 description: Distribute reports to provide business information to other users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_DistributeReports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/c\_DistributeReports.html
 release: australia
 product: Reporting
 classification: reporting
@@ -16,7 +16,7 @@ breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performanc
 
 Distribute reports to provide business information to other users.
 
-On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/explore-data-vis-library.md).
+On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/explore-data-vis-library.md).
 
 ## Report access control
 
@@ -27,7 +27,7 @@ You can control who sees reports by applying a security state. You can make repo
 -   Visible to one or more specific roles
 -   Visible to one or more specific users or groups
 
-Sharing by user, group, or role, is the primary method of sharing reports. You can use access control lists \(ACLs\) to control access to the underlying table or [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) data. Users are able to view reports when the user does not have access rights to a data record in a data source or source table of a report. However, they are not able to see that record in a list view or in a drill-down view. Database-view-list reports require the reporting user to satisfy ACLs on the target data to view records in the list. Users without sufficient permissions see filtered list reports.
+Sharing by user, group, or role, is the primary method of sharing reports. You can use access control lists \(ACLs\) to control access to the underlying table or [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) data. Users are able to view reports when the user does not have access rights to a data record in a data source or source table of a report. However, they are not able to see that record in a list view or in a drill-down view. Database-view-list reports require the reporting user to satisfy ACLs on the target data to view records in the list. Users without sufficient permissions see filtered list reports.
 
 **Note:** ACLs for a table do not propagate to database views based on that table. Database views require separate ACLs.
 
@@ -37,18 +37,18 @@ If a user saves a global report as a group or personal report, the platform copi
 
 If a user opens a personal report and tries to save it as a group or global report, the security state is changed rather than copying the report.
 
--   **[Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ShareASetting.md)**  
+-   **[Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_ShareASetting.md)**  
 Control which users and groups can see a report in their Reports list.
--   **[Schedule emails of Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ScheduleAReport.md)**  
+-   **[Schedule emails of Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_ScheduleAReport.md)**  
 Generate and distribute scheduled reports via email.
--   **[Add a report to a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/add-report-to-dashboard.md)**  
+-   **[Add a report to a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/add-report-to-dashboard.md)**  
 Make actionable decisions faster by combining relevant reports and widgets onto a dashboard. Navigating to single reports and widgets is time-consuming and less efficient.
--   **[Export a report to PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/export-report-pdf.md)**  
+-   **[Export a report to PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/export-report-pdf.md)**  
 Export a report to PDF to use it outside of your ServiceNow instance.
--   **[\(Legacy\) Publish a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_PublishAReport.md)**  
+-   **[\(Legacy\) Publish a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_PublishAReport.md)**  
 Publish a report to create a URL that anyone can use to access the report, including people who are not users. When anyone navigates to the URL, the report is generated with current data from the instance. Reports are available until they are unpublished.
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: LLM description and instruction guidelines for Virtual Agent topics
 description: When you create large language model \(LLM\) topics, you provide instructions that determine the behavior of the LLM and a description that determines how the topic is discovered by the LLM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

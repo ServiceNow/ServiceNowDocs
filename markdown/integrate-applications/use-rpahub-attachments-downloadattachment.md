@@ -2,7 +2,7 @@
 title: Use the DownloadAttachment component
 description: Download the attachments from the ServiceNow table record to the local drive by using the DownloadAttachment component in the RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-rpahub-attachments-downloadattachment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-rpahub-attachments-downloadattachment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: none
 
 The maximum size of the attachments is 1024 MB.
 
-You can configure the properties for the DownloadAttachment component. For more information about these properties, see [Properties of the Attachment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-attachment-components.md).
+You can configure the properties for the DownloadAttachment component. For more information about these properties, see [Properties of the Attachment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-attachment-components.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ You can configure the properties for the DownloadAttachment component. For more 
 
 2.  Drag the DownloadAttachment component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the DownloadAttachment component to the corresponding ports of the other components.
 
@@ -125,5 +125,5 @@ Boolean
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/attachments.md)
+**Parent Topic:**[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/attachments.md)
 

@@ -2,7 +2,7 @@
 title: Validate that tabs are moved to a target dashboard
 description: When you move a dashboard with an update set, validate that the tabs are moved to the target instance and are populated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/validate-dashboard-tabs-moved.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/validate-dashboard-tabs-moved.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -22,7 +22,7 @@ Role required: admin.
 
 ## About this task
 
-Moving dashboards from one instance to another requires associating the sys\_id values of dashboard tabs with the sys\_id values of the associated portal pages. This task explains how to find these values and map them to each other if there are problems with moving the dashboard. Perform this task after you [Move a Core UI dashboard with an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_MoveDashboardWithUpdateSet.md).
+Moving dashboards from one instance to another requires associating the sys\_id values of dashboard tabs with the sys\_id values of the associated portal pages. This task explains how to find these values and map them to each other if there are problems with moving the dashboard. Perform this task after you [Move a Core UI dashboard with an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_MoveDashboardWithUpdateSet.md).
 
 ## Procedure
 

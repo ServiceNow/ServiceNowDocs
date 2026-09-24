@@ -2,7 +2,7 @@
 title: Assign the reported vulnerability to an analyst
 description: Assign a reported vulnerability to an analyst in the Operational Resilience Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/assign-vul-to-analyst.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/assign-vul-to-analyst.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

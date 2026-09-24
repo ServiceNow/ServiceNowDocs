@@ -2,7 +2,7 @@
 title: Create a parent-child relationship on the planning console
 description: The WBS section of the planning console allows you to create parent-child relationships for new tasks or move around existing tasks in a new parent-child relationship. The position of a task in the hierarchy and the level of indentation determine the parent-child relationship it has with the tasks above or below it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateParentChildRelatConsole.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_CreateParentChildRelatConsole.html
 release: australia
 product: Project Management
 classification: project-management
@@ -39,7 +39,7 @@ In this example, the System Readiness Assessment task is a child of the Planning
     |Indent icon \(\[Omitted image "demote\_icon.png"\] Alt text: Indent icon\)|Makes the highlighted task a child of the task above it.|
 
 
-**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
+**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 
 **Related topics**  
 
@@ -58,5 +58,5 @@ In this example, the System Readiness Assessment task is a child of the Planning
 
 [Create a dependency from the planning console]()
 
-[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
+[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 

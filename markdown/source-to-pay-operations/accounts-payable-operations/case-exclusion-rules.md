@@ -2,7 +2,7 @@
 title: Case exclusion rules
 description: Case exclusion rules let an AP admin define conditions that stop Invoice Case Management from creating a case from an inbound email. Use exclusion rules to filter out emails that don't need agent attention, so that AP agents focus on genuine invoice inquiries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/case-exclusion-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/case-exclusion-rules.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,8 +31,8 @@ The following points describe how case exclusion rules work:
 -   When an inbound email matches any active rule, the exclusion engine ignores the email and does not create a case.
 -   Exclusion rules apply only to invoice inquiry cases. They don't affect processing cases.
 
--   **[Create case exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-case-exclusion-rules.md)**  
+-   **[Create case exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-case-exclusion-rules.md)**  
 Create a case exclusion rule to stop Invoice Case Management from opening a case when an inbound email matches conditions that you define. You can also modify or delete existing rules to keep your email filtering current.
 
-**Parent Topic:**[Work on an invoice processing case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-manual-invoice-ingestion-case.md)
+**Parent Topic:**[Work on an invoice processing case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-manual-invoice-ingestion-case.md)
 

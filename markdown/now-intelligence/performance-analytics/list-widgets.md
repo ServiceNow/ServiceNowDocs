@@ -2,7 +2,7 @@
 title: List widgets
 description: List widgets show the scores of multiple indicators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/list-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/list-widgets.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -34,7 +34,7 @@ Description
 
 </td><td>
 
-[Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-scorecard-list-widget.md)
+[Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-scorecard-list-widget.md)
 
 </td><td>
 
@@ -50,7 +50,7 @@ For several indicators, shows any of the following attributes:-   Scores at seve
 
 </td><td>
 
-[Spider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-spider-list-widget.md)
+[Spider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-spider-list-widget.md)
 
 </td><td>
 

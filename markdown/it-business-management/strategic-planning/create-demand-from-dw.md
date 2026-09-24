@@ -2,7 +2,7 @@
 title: Create a demand
 description: Create demands to capture the strategic and operational requirements and centralize information for stakeholder assessment and prioritization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-demand-from-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/create-demand-from-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -24,7 +24,7 @@ Role required: it\_demand\_manager, it\_demand\_user
 
 \[Omitted video\] Description: This video shows how to create a demand in the Strategic Planning Workspace.
 
-By default, a new demand opens in its **Details** page. If you want your demands to land on a different page on creation, the related system property can be modified. See [Configure the landing page for created demand records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/configure-demand-record-landing-page-dw.md).
+By default, a new demand opens in its **Details** page. If you want your demands to land on a different page on creation, the related system property can be modified. See [Configure the landing page for created demand records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/configure-demand-record-landing-page-dw.md).
 
 ## Procedure
 
@@ -83,7 +83,7 @@ The **Category** field selection determines the selections available in the **Ty
     -   Change
     -   Defect
     -   No Conversion
-For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-form-dw.md).
+For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/demand-form-dw.md).
 
 </td></tr><tr><td>
 
@@ -119,5 +119,5 @@ Description of the demand.
 
 ## What to do next
 
-Review and refine the demand details and progress the demand. See [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/update-the-demand-details-from-dw.md).
+Review and refine the demand details and progress the demand. See [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/update-the-demand-details-from-dw.md).
 

@@ -2,7 +2,7 @@
 title: Configure Microsoft Dynamics CRM for sales contracts
 description: Configure Microsoft Dynamics CRM to import the sales representatives, sales accounts, and active opportunities data into the tables in the ServiceNow instance for the sales contracts support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/integrate-legal-ms-dynamics-crm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/integrate-legal-ms-dynamics-crm.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -62,6 +62,6 @@ The configuration for the Microsoft Dynamics CRM app is published and is ready t
 
 ## What to do next
 
--   [Schedule import set jobs to pull data from the CRM system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/schedule-import-sales-contract-crm.md)
--   [Create a deflection rule for sales contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/create-contract-deflection-rule.md)
+-   [Schedule import set jobs to pull data from the CRM system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/schedule-import-sales-contract-crm.md)
+-   [Create a deflection rule for sales contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/create-contract-deflection-rule.md)
 

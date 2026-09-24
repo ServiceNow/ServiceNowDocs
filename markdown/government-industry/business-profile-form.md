@@ -2,7 +2,7 @@
 title: Business Profile form
 description: Use the Business Profile form in Public Sector Digital Services to capture and display the details about a business. You can add the name and address of the business owner, trademark status, industry information, partner records, or business structure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/business-profile-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/business-profile-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -259,5 +259,5 @@ Type of identification. This field appears only when an option is selected from 
 -   Medicare ID
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Core Profile Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-profile-forms.md)
+</table>**Parent Topic:**[Public Sector Digital Services Core Profile Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-profile-forms.md)
 

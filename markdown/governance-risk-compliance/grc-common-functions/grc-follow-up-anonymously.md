@@ -2,7 +2,7 @@
 title: Track report status or follow up on a report from the Anonymous Reporting Center
 description: Check the status of your case on the Anonymous Reporting Center and follow up on any required additional details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -45,10 +45,10 @@ Role required: To access Employee Center, you must have the sn\_grc.business\_us
     This opens your report, which hosts the case status and the history of your interactions with the investigator. Your identity remains confidential throughout.
 
 
-**Parent Topic:**[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
+**Parent Topic:**[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 
 **Related topics**  
 
 
-[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
+[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 

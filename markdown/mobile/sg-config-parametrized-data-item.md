@@ -2,7 +2,7 @@
 title: Configure a parametrized data item
 description: Configure a parametrized data item to filter and view just the relevant data according to the selected parameters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-config-parametrized-data-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-config-parametrized-data-item.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Use the included examples to create a data item that allows users to open an inc
 
 5.  Complete the Properties and Data sections as needed.
 
-    For more information about creating a data item, see [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-data-item.md). For example, create a data item for open incidents.
+    For more information about creating a data item, see [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-create-data-item.md). For example, create a data item for open incidents.
 
     **Note:** To configure the Condition section you must first complete and save the parameter configuration.
 
@@ -77,5 +77,5 @@ Use the included examples to create a data item that allows users to open an inc
 
 ## What to do next
 
-After you create a data item, assign it to a screen. Data items with parameters require additional configuration in the screen. For more information on assigning a data item with parameters to a screen, see [Assign a data item with parameters to a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-assign-param-data-item-screen.md).
+After you create a data item, assign it to a screen. Data items with parameters require additional configuration in the screen. For more information on assigning a data item with parameters to a screen, see [Assign a data item with parameters to a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-assign-param-data-item-screen.md).
 

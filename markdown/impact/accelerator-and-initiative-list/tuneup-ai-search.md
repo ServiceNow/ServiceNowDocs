@@ -2,7 +2,7 @@
 title: TuneUp Your AI Search
 description: This Accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/tuneup-ai-search.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

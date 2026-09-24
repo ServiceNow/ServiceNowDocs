@@ -2,7 +2,7 @@
 title: Security Incident Lost Equipment workflow template
 description: The Security Incident - Lost Equipment - Template allows you to perform a series of tasks designed to handle lost equipment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/si-lost-equip-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/si-lost-equip-template.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -28,7 +28,7 @@ The workflow is triggered when the **Category** in a security incident is set to
 
 ## Procedure
 
-1.  Open the security incident for the equipment loss, or [create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
+1.  Open the security incident for the equipment loss, or [create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
 
 2.  In **Category**, select **Equipment loss**.
 
@@ -148,7 +148,7 @@ The flow ends.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-orch-workflow-templates.md)
+**Parent Topic:**[Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-orch-workflow-templates.md)
 
 **Related topics**  
 

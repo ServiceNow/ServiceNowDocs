@@ -2,7 +2,7 @@
 title: Additional details record producer - Mapping Variable types and limitations
 description: When you create a record producer to configure additional details on a reservation form, the variables types and column type must be set differently. In case of reservations, the record producer supports only a few UI policies and client scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/custom-fields-record-producer-mapping-variable-type-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/custom-fields-record-producer-mapping-variable-type-conditions.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -82,7 +82,7 @@ In the Workplace Reservation \(sn\_wsd\_rsv\_reservation\) table, Columns relate
 -   The columns in the table are created to only store the data.
 -   The **Max length** field is considered to save the data with **Max length**.
 
-**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
+**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 **Related topics**  
 

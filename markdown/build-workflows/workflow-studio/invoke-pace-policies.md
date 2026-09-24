@@ -2,7 +2,7 @@
 title: Invoke PaCE activity
 description: Enable the Policy as Code Engine \(PaCE\) activity in Playbooks to develop playbook processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/invoke-pace-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/invoke-pace-policies.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -96,7 +96,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/start-with-delay-properties.md).
 
 </td></tr><tr><td>
 

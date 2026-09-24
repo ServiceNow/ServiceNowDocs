@@ -2,7 +2,7 @@
 title: Conversation - Scoped
 description: The Conversation API enables you to create or modify Connect conversations.Adds a user to a conversation.Creates a Connect conversation.Returns an existing Connect conversation by sys\_id.Removes a user from a conversation.Sends a message to a conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_ConversationScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_ConversationScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The Conversation API enables you to create or modify Connect conversations.
 
 To use this class in a scoped application, use the `sn_connect` namespace identifier. The Connect Scriptable APIs plugin \(ID: com.glide.connect.scriptable\) should be enabled to access the Conversation API.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Conversation - addSubscriber\(String sysID\)
 

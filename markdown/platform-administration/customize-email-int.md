@@ -2,7 +2,7 @@
 title: Customize email address internationalization
 description: Customize email address internationalization to turn off processing of inbound and outbound emails, disable support for inbound emails or to add email address format for decoding international email addresses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/customize-email-int.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/customize-email-int.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -183,5 +183,5 @@ Define the roles that have write access to this property.
     4.  Select **Update**.
 
 
-**Parent Topic:**[Email address internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-address-internationalization.md)
+**Parent Topic:**[Email address internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-address-internationalization.md)
 

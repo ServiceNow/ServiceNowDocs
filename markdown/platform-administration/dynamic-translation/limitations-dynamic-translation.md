@@ -2,7 +2,7 @@
 title: Limitations in Dynamic Translation
 description: You must be aware of a few limitations when you integrate with a translation service provider to enable the Dynamic Translation experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/limitations-dynamic-translation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation/limitations-dynamic-translation.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -31,5 +31,5 @@ For information about languages supported by Google for translation, see the Goo
 
 For information about languages supported by Microsoft for translation, see the Microsoft [documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support).
 
-**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
+**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 

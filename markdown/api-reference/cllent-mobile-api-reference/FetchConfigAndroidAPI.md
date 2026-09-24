@@ -2,7 +2,7 @@
 title: FetchConfiguration class - Android
 description: The FetchConfiguration class provides the ability to define the configuration for fetching records from the associatedServiceNow table.Enables you to define the records and fields to return from the associated ServiceNow table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/FetchConfigAndroidAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/FetchConfigAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,16 +16,16 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 The FetchConfiguration class provides the ability to define the configuration for fetching records from the associatedServiceNow table.
 
-This class only contains a single function \(constructor\), [FetchConfiguration\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FetchConfigAndroidAPI.md).
+This class only contains a single function \(constructor\), [FetchConfiguration\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FetchConfigAndroidAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.md)|Query to use to filter the return results.|
+|filter|[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.md)|Query to use to filter the return results.|
 |limit|Integer|Number of records per page/response to return.|
 |queryParams|QueryParams|Iterable structure that contains name-value pairs of request query parameters.|
-|readConfiguration|[FieldReadConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FieldReadConfigAndroidAPI.md)|Configuration for the fields to return in the response.|
+|readConfiguration|[FieldReadConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FieldReadConfigAndroidAPI.md)|Configuration for the fields to return in the response.|
 
-**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## FetchConfiguration - FetchConfiguration\(filter: Filter? = null, limit: Int? = null, readConfiguration: FieldReadConfiguration? = null\)
 
@@ -49,7 +49,7 @@ filter
 
 </td><td>
 
-[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.md)
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.md)
 
 </td><td>
 
@@ -73,7 +73,7 @@ readConfiguration
 
 </td><td>
 
-[FieldReadConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FieldReadConfigAndroidAPI.md)
+[FieldReadConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/FieldReadConfigAndroidAPI.md)
 
 </td><td>
 

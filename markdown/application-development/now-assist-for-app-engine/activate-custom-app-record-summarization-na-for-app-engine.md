@@ -2,7 +2,7 @@
 title: Activate the custom app record summarization skill
 description: Before you can generate AI-powered summaries for custom application records, activate the custom app record summarization skill in the AI Admin Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -36,5 +36,5 @@ The custom app record summarization skill is active.
 
 ## What to do next
 
-Configure the skill to generate summaries for tables in your custom applications. See [Configure the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/configure-custom-app-record-summarization-na-for-app-engine.md) for more information.
+Configure the skill to generate summaries for tables in your custom applications. See [Configure the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/configure-custom-app-record-summarization-na-for-app-engine.md) for more information.
 

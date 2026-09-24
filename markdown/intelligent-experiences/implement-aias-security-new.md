@@ -2,7 +2,7 @@
 title: Implement access control in AI Agent Studio
 description: Implement security in AI Agent Studio through access control lists \(ACLs\), user identities, and role filtering with the access control-based security measures in the agentic system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/implement-aias-security-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/implement-aias-security-new.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-01"
@@ -125,5 +125,5 @@ A common source of confusion is assuming that ACLs define agent actions. They do
 
 **Note:** Configuring only one of these mechanisms leaves a gap in the agent's security posture. Therefore, it is necessary to configure the security mechanisms across the AI Agent Studio and other AI components such as generative AI Sills, Flows, and Flow Actions.
 
-For more information, see [Configure access controls across AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-aias-acls.md).
+For more information, see [Configure access controls across AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-aias-acls.md).
 

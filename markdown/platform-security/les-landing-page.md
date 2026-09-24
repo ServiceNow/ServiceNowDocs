@@ -2,7 +2,7 @@
 title: Exploring Log Export Service \(LES\)
 description: The LES service provides a highly scalable and near real-time integration with your analytic tools that is easy to set up and maintain. If you're new to LES, read this overview section to learn what the tool can do.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ To configure and manage LES you need to install it from ServiceNow Store. The LE
 
 \[Omitted image "les-module.png"\] Alt text: Navigation filter
 
-**Note:** You can also create a new source configuration. See [Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-create-source-configuration.md) for more information.
+**Note:** You can also create a new source configuration. See [Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-create-source-configuration.md) for more information.
 
 ## Log Export Service users
 
@@ -59,22 +59,22 @@ Log Export Service has the following users.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Create log source configuration to set filters on the logs|[Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-create-source-configuration.md)|Application admin|
-|Experience guided setup for Kafka consumers|[Guided setup for Kafka consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-guided-setup-kafka.md)|System administrator|
-|Experience guided setup for MID server consumers|[Guided setup for MID Server consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-guided-setup-mid-server.md)|System administrator|
-|Examine the log report dashboard to analyze the size of each data log|[Review log report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-use.md)|System administrator or Application admin|
+|Create log source configuration to set filters on the logs|[Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-create-source-configuration.md)|Application admin|
+|Experience guided setup for Kafka consumers|[Guided setup for Kafka consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-guided-setup-kafka.md)|System administrator|
+|Experience guided setup for MID server consumers|[Guided setup for MID Server consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-guided-setup-mid-server.md)|System administrator|
+|Examine the log report dashboard to analyze the size of each data log|[Review log report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-use.md)|System administrator or Application admin|
 
 ## What to explore next
 
 To learn more about using Log Export Service, see:
 
--   [Administering Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-administer.md)
--   [Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-configure.md)
--   [Using Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-use.md)
--   [Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-references.md)
+-   [Administering Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-administer.md)
+-   [Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-configure.md)
+-   [Using Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-use.md)
+-   [Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-references.md)
 
--   **[Log sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-log-sources-export.md)**  
+-   **[Log sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-log-sources-export.md)**  
 Log Export Service \(LES\) can export log sources from some System Log Tables, the Audit Table, and Application Node Log Files.
 
-**Parent Topic:**[Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-intro.md)
+**Parent Topic:**[Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-intro.md)
 

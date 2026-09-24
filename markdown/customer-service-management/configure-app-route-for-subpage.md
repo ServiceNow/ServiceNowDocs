@@ -2,7 +2,7 @@
 title: Configure the app route to use an existing subpage
 description: Create an app route to make an existing page a part of the page collection. For example, the dynamic related record is a global subpage that you can use at any application level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-app-route-for-subpage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-app-route-for-subpage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Operational Technology Version Control data model for Backup Management
 description: In Operational Technology \(OT\) Backup Management, you can develop multiple scripts or programs to automate the data backup process of OT devices. The Version Control data model enables you to maintain a record of all the backup scripts or programs you develop for an OT entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/ot-version-control-backup-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/ot-version-control-backup-data-model.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -42,10 +42,10 @@ Use the OT AutomationCommit \(sn\_ot\_automation\_commit\) class as a reference 
 |---------|-----------|
 |Automation Version|The version of the script or the program committed for the OT entity.|
 
-**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 
 **Related topics**  
 
 
-[Operational Technology Backup Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-backup-management-data-model.md)
+[Operational Technology Backup Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/ot-backup-management-data-model.md)
 

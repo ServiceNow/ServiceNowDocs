@@ -2,7 +2,7 @@
 title: Configure Restricted Caller Access \(RCA\) privilege settings
 description: Define cross-scope access to an application, application resource \(such as an access control role, a business rule, a UI action, or a script include\), or event. You can use a requested RCA to grant store apps access to protected resources in the ServiceNow AI Platform without the need to wait for the next family release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-rca-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-rca-setup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Determining good candidates for apps in ServiceNow
 description: Before creating an app in ServiceNow, determine if the idea is a good candidate for an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/determining-good-candidates-for-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/determining-good-candidates-for-apps.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Before creating an app in ServiceNow, determine if the idea is a good candidate 
 
 Consider the following questions to determine if you should create an application.
 
--   Can you configure or customize an existing application instead of building a new one? For more information, see [Modifying versus building an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/modifying-versus-building-an-application.md).
+-   Can you configure or customize an existing application instead of building a new one? For more information, see [Modifying versus building an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/modifying-versus-building-an-application.md).
 -   How many people will the application serve, and how often would they use it? If not many people would use it frequently, is it worth the effort?
 -   Are you willing to maintain the application as things change over time?
 
@@ -38,5 +38,5 @@ Instead of customizing an existing application, you can create apps with App Eng
 -   Misaligned intent: You have a use case that could be built by customizing an OOTB app. However, it doesn’t align with the app intent.
 -   Separate group workflow: ​Your process is unique, proprietary, or spans multiple departments.
 
-**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
+**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/overview-building-apps-in-servicenow.md)
 

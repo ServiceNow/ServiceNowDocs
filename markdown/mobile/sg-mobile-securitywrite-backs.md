@@ -2,7 +2,7 @@
 title: Write-backs
 description: The following describes how data is written back from ServiceNow mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-securitywrite-backs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-securitywrite-backs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,5 +32,5 @@ When attaching documents, the following steps occur.
 3.  The instance places the document based on the relevant API.
 4.  The instance sends a response back to the mobile app.
 
-**Parent Topic:**[Mobile data flow for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-security-mobile-data-flow.md)
+**Parent Topic:**[Mobile data flow for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-security-mobile-data-flow.md)
 

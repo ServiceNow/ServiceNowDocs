@@ -2,7 +2,7 @@
 title: Configure a watch list
 description: Configure a watch list where you can add yourself, remove yourself, add multiple users, and add multiple records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-watch-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-watch-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

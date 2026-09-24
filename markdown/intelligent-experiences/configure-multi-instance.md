@@ -2,7 +2,7 @@
 title: Multi-instance
 description: The Multi-instance Framework enables a prod \(manager\) instance to manage multiple sub-prod \(managed\) instances and facilitate communication for AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-multi-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-multi-instance.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-27"
@@ -60,7 +60,7 @@ After configuring the Multi-instance Framework, enable AI Asset data transfer on
 
 When you configure AI Asset data transfer, the remaining values are automatically configured. No additional setup is required.
 
-**Note:** To configure Multi-instance, you must request a Manager instance. For more information on requesting a manager instance, see [Request a Manager instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/request-a-manager-instance.md).
+**Note:** To configure Multi-instance, you must request a Manager instance. For more information on requesting a manager instance, see [Request a Manager instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/request-a-manager-instance.md).
 
 ## AI Asset Synchronization
 
@@ -99,8 +99,8 @@ Upgrade the prod instance to version 6.2.4 when you upgrade a sub-prod instance 
 
 For more information on trust concepts and trust configuration management, see [Cross-instance application trust configuration](https://www.servicenow.com/docs/r/platform-administration/grant-access-v2.html).
 
--   **[Request a Manager instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/request-a-manager-instance.md)**  
+-   **[Request a Manager instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/request-a-manager-instance.md)**  
 Request a Manager instance from the Multi-instance page to configure multi-instance management.
 
-**Parent Topic:**[Configuring integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-integrations.md)
+**Parent Topic:**[Configuring integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-integrations.md)
 

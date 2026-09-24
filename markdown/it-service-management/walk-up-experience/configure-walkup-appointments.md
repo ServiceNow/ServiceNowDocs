@@ -2,7 +2,7 @@
 title: Create or modify a Walk-up Experience appointment booking service configuration
 description: Create or modify appointment booking configurations for Walk-up Experience services. A service is defined as the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services, or queue locations, within the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/configure-walkup-appointments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/configure-walkup-appointments.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -58,7 +58,7 @@ Enable day level configuration
 
 </td><td>
 
-Option to configure the schedule at a day level. For more information, see [Configure day-level appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/configure-walkup-appointment-booking-day-level.md).
+Option to configure the schedule at a day level. For more information, see [Configure day-level appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/configure-walkup-appointment-booking-day-level.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -106,7 +106,7 @@ Catalog item
 
 </td><td>
 
-The service in the service catalog for which this appointment booking configuration is being created. The catalog item must exist in the service catalog. Select the lookup icon and select the associated service from the Record Producers list. You must create a record producer for each walk-up service location. Refer to [Create a record producer to capture Walk-up Experience appointment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/create-rp-walkup-appointment.md).
+The service in the service catalog for which this appointment booking configuration is being created. The catalog item must exist in the service catalog. Select the lookup icon and select the associated service from the Record Producers list. You must create a record producer for each walk-up service location. Refer to [Create a record producer to capture Walk-up Experience appointment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/create-rp-walkup-appointment.md).
 
  If you’re using appointment booking with work orders, create a work order template before you configure appointment booking.
 
@@ -260,8 +260,8 @@ Option to provide a preview of the appointment windows and times based on the se
 </table>5.  Select **Submit**.
 
 
--   **[Configure day-level appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/configure-walkup-appointment-booking-day-level.md)**  
+-   **[Configure day-level appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/configure-walkup-appointment-booking-day-level.md)**  
 Create or modify different schedules at a day level when booking appointments for a service. The appointments can be scheduled for different slots such as morning, afternoon, and evening.
 
-**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
+**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
 

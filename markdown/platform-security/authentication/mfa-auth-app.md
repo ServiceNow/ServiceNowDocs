@@ -2,7 +2,7 @@
 title: Authenticator applications
 description: Use third party authenticator applications to generate temporary MFA pass codes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-auth-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-auth-app.html
 release: australia
 product: Authentication
 classification: authentication

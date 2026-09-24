@@ -2,7 +2,7 @@
 title: Bucket groups for breakdown sources
 description: Bucket groups are used to recategorize data so it can be used as a breakdown, for example by grouping a range of values into discrete buckets.You can use a bucket group with a breakdown mapping that does not use a script, to group the values of any mapped field to buckets.When you have a breakdown mapping script that collects a range of values, you can define a bucket group to divide those values into discrete buckets.Specify a group of buckets into which you want to recategorize data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_BucketGroups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/c\_BucketGroups.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -20,12 +20,12 @@ In the data architecture, bucket groups are defined in Bucket Group \[pa\_bucket
 
 To work with a bucket group, create a breakdown source that uses Bucket \[pa\_buckets\] as the facts table and specifies the bucket group in a condition. If a breakdown built on this source uses a breakdown mapping with a script, the breakdown groups the values that the script returns into buckets. If the breakdown mapping specifies a field instead of using a script, the breakdown groups the values of the mapped field into buckets.
 
-**Parent Topic:**[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-sources.md)
+**Parent Topic:**[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/breakdown-sources.md)
 
 **Related topics**  
 
 
-[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
+[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
 
 ## Grouping field values into buckets
 
@@ -43,7 +43,7 @@ A base Performance Analytics installation includes the Active breakdown as part 
 
 When you have a breakdown mapping script that collects a range of values, you can define a bucket group to divide those values into discrete buckets.
 
-After you create the bucket group, you create a breakdown source based on the bucket group. Then you create a breakdown that uses that breakdown source. When you create the breakdown mapping for the breakdown, define or select a script for the mapping. The breakdown groups the results that the script returns into the buckets of the bucket group. For an example, see [Example: Script mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/example-script-mapping.md).
+After you create the bucket group, you create a breakdown source based on the bucket group. Then you create a breakdown that uses that breakdown source. When you create the breakdown mapping for the breakdown, define or select a script for the mapping. The breakdown groups the results that the script returns into the buckets of the bucket group. For an example, see [Example: Script mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/example-script-mapping.md).
 
 You can write a bucket group for an existing script, or you can first write the bucket group and then write the script. Both must exist before you can create the breakdown.
 

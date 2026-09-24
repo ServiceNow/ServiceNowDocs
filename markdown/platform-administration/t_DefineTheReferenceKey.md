@@ -2,7 +2,7 @@
 title: Define the reference key
 description: By default, reference fields store the sys\_id of the record in the database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_DefineTheReferenceKey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_DefineTheReferenceKey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

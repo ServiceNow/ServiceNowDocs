@@ -2,7 +2,7 @@
 title: Open cloud orchestrations
 description: Cloud orchestration records show you the orders that your instance processed for each attempted operation on a stack. They also show you the values of the fields that the user submitted through the Cloud User Portal. Use cloud orchestrations to troubleshoot issues that occur when a user provisions a cloud resource or runs another operation on an existing cloud resource.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/open-cloud-orchestrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/open-cloud-orchestrations.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

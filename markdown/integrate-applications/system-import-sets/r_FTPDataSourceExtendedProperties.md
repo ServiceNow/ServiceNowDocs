@@ -2,7 +2,7 @@
 title: FTP data source extended properties
 description: Certain properties are available for customizing your FTP data source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_FTPDataSourceExtendedProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/r\_FTPDataSourceExtendedProperties.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

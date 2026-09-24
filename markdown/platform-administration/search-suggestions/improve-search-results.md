@@ -2,7 +2,7 @@
 title: Analyze search relevancy
 description: Analyze data from the Search Suggestions tables to understand how your users interact with search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-suggestions/improve-search-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-suggestions/improve-search-results.html
 release: australia
 product: Search Suggestions
 classification: search-suggestions
@@ -24,11 +24,11 @@ Role required: ais\_admin
 
 Search Suggestions uses the following tables:
 
--   [Search Event \[sys\_search\_event\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/understanding-search-suggestion-tables.md): Stores all search strings and search results.
--   [Search Source Event \[sys\_search\_source\_event\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/understanding-search-suggestion-tables.md): Stores search strings and search results and ties them to a data source, for example, the suggestion came from the knowledge base table rather than the catalog table.
--   [Search Suggestion \[sys\_search\_suggestion\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/understanding-search-suggestion-tables.md): Stores suggestions for searches.
+-   [Search Event \[sys\_search\_event\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-suggestions/understanding-search-suggestion-tables.md): Stores all search strings and search results.
+-   [Search Source Event \[sys\_search\_source\_event\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-suggestions/understanding-search-suggestion-tables.md): Stores search strings and search results and ties them to a data source, for example, the suggestion came from the knowledge base table rather than the catalog table.
+-   [Search Suggestion \[sys\_search\_suggestion\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-suggestions/understanding-search-suggestion-tables.md): Stores suggestions for searches.
 
-For details on the Search Suggestions tables, see [Search Suggestions tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/understanding-search-suggestion-tables.md).
+For details on the Search Suggestions tables, see [Search Suggestions tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-suggestions/understanding-search-suggestion-tables.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Supplier Lifecycle Operations
 description: With ServiceNow Supplier Lifecycle Operations \(SLO\), you can effectively collaborate with suppliers, manage supplier relationships, monitor risk, compliance, and performance across the supplier life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -24,27 +24,27 @@ This video provides a visual overview of Supplier Lifecycle Operations and its k
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about ServiceNow Otto for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-slo.md)
+[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about ServiceNow Otto for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-slo.md)
 
 </td><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how supplier managers and supplier contacts use Supplier Lifecycle Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/explore-supp-mgmt.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how supplier managers and supplier contacts use Supplier Lifecycle Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/explore-supp-mgmt.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
 
 </td></tr><tr><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend the capabilities of Supplier Lifecycle Operations by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/integrate-slo.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend the capabilities of Supplier Lifecycle Operations by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/integrate-slo.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Resolve supplier inquiries with self-service, compare suppliers, onboard suppliers, and manage supplier data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgmt.md)
+[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Resolve supplier inquiries with self-service, compare suppliers, onboard suppliers, and manage supplier data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgmt.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
 
 </td></tr></tbody>
 </table>## Helpful resources

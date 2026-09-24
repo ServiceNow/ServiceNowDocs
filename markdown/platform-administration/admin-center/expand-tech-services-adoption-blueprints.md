@@ -2,7 +2,7 @@
 title: Expand technology services while reducing costs blueprint
 description: Select this adoption blueprint to create actionable plans to achieve your organization's business goals for automating core service and operations processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/expand-tech-services-adoption-blueprints.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/admin-center/expand-tech-services-adoption-blueprints.html
 release: australia
 product: Admin Center
 classification: admin-center
@@ -95,7 +95,7 @@ CSDM and CMDB Data Foundations Dashboards provide insights into the key foundati
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
@@ -158,7 +158,7 @@ Change Management provides a systematic approach to control the life cycle of al
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
@@ -180,7 +180,7 @@ Incident Management restores normal service operation while minimizing impact to
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
@@ -223,7 +223,7 @@ Problem Management helps to identify the cause of an error in the IT infrastruct
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
@@ -352,5 +352,5 @@ Health Log Analytics helps prevent IT issues before your users are affected. It 
 -   [ITOM Talks Session \#3 - Health Log Analytics \(video\)](https://youtu.be/FX2krdiYOMo)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/admin-center/ac-select-business-objective.md)
 

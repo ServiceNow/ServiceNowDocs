@@ -2,7 +2,7 @@
 title: Supported models and versions
 description: Learn which AI models and versions Build Agent supports and how to change them. Use this information to verify compatibility and select the right model for your task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ba-models-versions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-models-versions.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-23"
@@ -37,5 +37,5 @@ You can change the version by selecting it directly in the Build Agent.
 
 To change the model in use, navigate to the AI Admin Hub. For information on changing the model that Build Agent uses, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
 
-**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-build-agent.md)
 

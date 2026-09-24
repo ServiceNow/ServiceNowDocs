@@ -2,7 +2,7 @@
 title: Configure Content Management sites
 description: Planning a CMS site involves obtaining resources, communicating with others about design, and gathering content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CreateASite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_CreateASite.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -30,41 +30,41 @@ The following steps are a high-level overview of how to set up a site.
 
 2.  Create a site.
 
-    The site is the container that holds all the content. To simplify your process, you can copy an existing site and edit its components. For more information on creating a site, see [Create a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateANewSite.md). For more information on copying a site, see [Copy a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CopyASite.md).
+    The site is the container that holds all the content. To simplify your process, you can copy an existing site and edit its components. For more information on creating a site, see [Create a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateANewSite.md). For more information on copying a site, see [Copy a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CopyASite.md).
 
 3.  Add pages to the site.
 
-    Pages contain blocks of information for the site. For more information, see [Create a content page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentPage.md).
+    Pages contain blocks of information for the site. For more information, see [Create a content page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateAContentPage.md).
 
 4.  Create content blocks to customize the layout, headers, menu navigation, lists, and static and dynamic content.
 
-    Content blocks are chunks of actual HTML that make up the content page. There are various content block types available to help with your customization. For more information, see [Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md).
+    Content blocks are chunks of actual HTML that make up the content page. There are various content block types available to help with your customization. For more information, see [Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentBlocks.md).
 
 5.  Add style to your site using themes, style sheets, and frames.
 
-    Neither content sites or content pages reference style sheets directly. Configure them using the Themes or Style Sheets options. For more information, see [Style in Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_StyleInContentManagement.md).
+    Neither content sites or content pages reference style sheets directly. Configure them using the Themes or Style Sheets options. For more information, see [Style in Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_StyleInContentManagement.md).
 
 6.  Test the site.
 
-    After you create or modify a site, test the site to ensure that content displays properly and all links work correctly. For more information, see [Test the site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementTesting.md).
+    After you create or modify a site, test the site to ensure that content displays properly and all links work correctly. For more information, see [Test the site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementTesting.md).
 
 
--   **[Content sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentSite.md)**  
+-   **[Content sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentSite.md)**  
 A content site is a group of related content pages that have the same basic theme, layout, and URL suffix.
--   **[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentPages.md)**  
+-   **[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentPages.md)**  
 Content pages are the core of the Content Management System. A content page is a web page that displays blocks of content.
--   **[Content Management templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementTemplates.md)**  
+-   **[Content Management templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementTemplates.md)**  
 Templates are content pages that are reused to provide a consistent look and feel.
--   **[Content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentTypes.md)**  
+-   **[Content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentTypes.md)**  
 Content types provide site-specific control of how system data defined by templates is rendered.
--   **[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)**  
+-   **[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentBlocks.md)**  
 A block is a defined piece of content within the system that can be reused.
--   **[Style in Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_StyleInContentManagement.md)**  
+-   **[Style in Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_StyleInContentManagement.md)**  
 Content pages can be styled with CSS, just like any HTML website.
--   **[Content Management meta tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementMetaTags.md)**  
+-   **[Content Management meta tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementMetaTags.md)**  
 Meta tags are special tags in web pages that contain information about the page but are not rendered with the page. You can define custom meta tags for content pages.
 
-**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 **Related topics**  
 
@@ -81,5 +81,5 @@ Meta tags are special tags in web pages that contain information about the page 
 
 [CMS translation]()
 
-[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
+[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
 

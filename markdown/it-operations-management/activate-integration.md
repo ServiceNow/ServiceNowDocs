@@ -2,10 +2,10 @@
 title: Activate integration
 description: Activate integration allows you to enable a previously deactivated connector integration, restoring its functionality. This feature helps you seamlessly resume data flow and integration activities, ensuring continuity and efficient event management without the need to reconfigure the integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/activate-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/activate-integration.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---

@@ -2,7 +2,7 @@
 title: Install Playbooks for Field Service Management
 description: Install the Playbooks for Field Service Management application \(sn\_fsm\_playbook\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/activate-fsm-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/activate-fsm-playbook.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -31,7 +31,7 @@ Role required: admin
 
             Enables you to manage work requests that are performed on location by field service agents.
 
-            For information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
+            For information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ActivateFieldServiceManagement.md).
 
         -   **Process Automation Designer Core \(com.glide.pad.core\)**
 

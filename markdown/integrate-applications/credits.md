@@ -2,7 +2,7 @@
 title: Workflow Data Fabric Credits
 description: Workflow Data Fabric Credits let you monitor and track Workflow Data Fabric product usage through a dashboard showing credit usage, usage measurements, and thresholds that trigger alerts.Workflow Data Fabric lets organizations connect, manage, and automate their data workflows across different systems, through various product solutions.You must have Workflow Data Fabric license to use Workflow Data Fabric Credits.Credit usage is measured for each account. The number of credits you use for a feature is determined by the terms of the Workflow Data Fabric license.The Usage Dashboard shows credit usage, usage measurements, and thresholds that trigger alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/credits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/credits.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

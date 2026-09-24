@@ -2,7 +2,7 @@
 title: Requesting the MetricBase product
 description: The MetricBase plugin \[com.snc.clotho\] requires a separate subscription and must be activated by ServiceNow personnel. Be sure to also request the MetricBase Demo plugin \[com.snc.clotho.demo\], which includes sample tables, metrics, triggers, and data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/request-metricbase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/metricbase/request-metricbase.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -20,7 +20,7 @@ To purchase a subscription, contact your ServiceNow account manager. The account
 
 When ServiceNow personnel install the MetricBase Demo plugin, they also connect your instance to the server that contains the MetricBase database. A MetricBase database can connect with only one other instance. For example, a clone of the original instance can't talk to the same database as the original instance.
 
-**Parent Topic:**[Configuring MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/configuring-metricbase.md)
+**Parent Topic:**[Configuring MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/configuring-metricbase.md)
 
 **Related topics**  
 

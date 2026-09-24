@@ -2,7 +2,7 @@
 title: Configure action group
 description: Configure a set of related action items as an action group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/update-approval-hub-action-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/update-approval-hub-action-group.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,7 +36,7 @@ Action group provides quick access to action items such as approve or reject the
 
 4.  On the **Action group M2Ms** related list, click new or update an existing record.
 
-    1.  Select the **Action** from the available options such as **Approve** or **Reject** or [Configure actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-approval-hub-actions.md).
+    1.  Select the **Action** from the available options such as **Approve** or **Reject** or [Configure actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-approval-hub-actions.md).
 
     2.  Edit the **Order** of the action item.
 

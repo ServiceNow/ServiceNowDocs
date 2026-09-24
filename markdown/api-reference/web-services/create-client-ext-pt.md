@@ -2,7 +2,7 @@
 title: Create a client extension point
 description: Create a client extension point that you can place in the UI scripts in the application code. By placing the client extension point, you designate the specific location in the application code where data or objects can be sent to a customization, and where data is returned.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/create-client-ext-pt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/create-client-ext-pt.html
 release: australia
 product: Web Services
 classification: web-services
@@ -82,7 +82,7 @@ Allow access over AJAX/REST
 
 </td><td>
 
-Option for enabling access to the client extension point over AJAX or REST. To learn more about these development architectures and techniques, see [AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_AJAX.md) and [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+Option for enabling access to the client extension point over AJAX or REST. To learn more about these development architectures and techniques, see [AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_AJAX.md) and [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 </td></tr><tr><td>
 
@@ -104,5 +104,5 @@ Example of how a custom UI script that interacts with this extension point shoul
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Creating and adding a client extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-client-ext-pts-base-code.md)
+**Parent Topic:**[Creating and adding a client extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/impl-client-ext-pts-base-code.md)
 

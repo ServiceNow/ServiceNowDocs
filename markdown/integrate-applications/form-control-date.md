@@ -2,7 +2,7 @@
 title: Methods and events of the Date element
 description: The Date element in RPA Desktop Design Studio enables you to provide a date picker on the form. It enables the user to select a specific date on the form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/form-control-date.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/form-control-date.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -90,5 +90,5 @@ The methods and events of the Date element are displayed in the Object Explorer 
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/form-control-methods-events.md)
 

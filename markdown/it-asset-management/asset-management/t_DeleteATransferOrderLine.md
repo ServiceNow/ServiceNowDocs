@@ -2,7 +2,7 @@
 title: Delete a transfer order line
 description: You can delete a transfer order line only if it's still in the draft stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_DeleteATransferOrderLine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/t\_DeleteATransferOrderLine.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -33,12 +33,12 @@ The inventory\_user, asset, or procurement\_user role can only access the Transf
     Alternatively, you can cancel a transfer order or a transfer order line while it is in **Requested** or **Shipment Preparation** stage. Once all the lines are canceled, the transfer order is automatically canceled.
 
 
-**Parent Topic:**[Transfer order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-transfer-orders.md)
+**Parent Topic:**[Transfer order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/work-with-transfer-orders.md)
 
 **Related topics**  
 
 
-[Delete a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_DeleteATransferOrder.md)
+[Delete a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_DeleteATransferOrder.md)
 
-[Return items received in a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_ReturnItemsRecInXferOrder.md)
+[Return items received in a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_ReturnItemsRecInXferOrder.md)
 

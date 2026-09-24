@@ -2,12 +2,12 @@
 title: Customizing TSOM connector behavior with extension points
 description: Learn how to use extension points to extend ServiceNow Telecommunications Service Operations Management \(TSOM\) connector behavior without modifying any default code.The resolution chain, the order field, the three dispatch patterns, and the scope restrictions determine whether a registered implementation runs and which implementation's result is applied at runtime. Review these mechanisms before implementing an extension point.Four extension points—one each for the Meraki, Fortinet, VeloCloud, and Catalyst connectors—control the lifecycle stage status assigned to discovered CIs. All four share the same contract.Assign a lifecycle stage status that varies by CI class for CIs discovered by a TSOM vendor connector. This procedure uses the Meraki connector; the steps are identical for Fortinet, VeloCloud, and Catalyst.Apply one set of lifecycle stage status rules across the Meraki, Fortinet, VeloCloud, and Catalyst connectors by centralizing the logic in a helper Script Include and delegating to it from thin per-connector wrappers.The EventFieldMapping extension point binds an incoming event to a configuration item. Use it to change how an existing vendor's events resolve to CIs, or to add CI mapping for a new vendor.Contract methods and shipped implementations for the EventFieldMapping extension point.Provide CI binding for a vendor that TSOM does not ship an event-to-CI mapper for.Replace how TSOM binds a supported vendor's events to configuration items.WebhookFieldMapping maps a vendor webhook payload to TMF688 event fields. This extension point is same-scope only, so you can't implement it from a custom scope.Two extension points control metric behavior: MetricsAggrSEP customizes aggregation, and UplinkThroughputPercentage customizes uplink throughput calculation.Replace the OOB metric aggregation logic with your own using the MetricsAggrSEP extension point.Five extension points customize narrow, vendor-specific behaviors: firmware version formatting, contract parsing, tag transformation, Nokia MPN formula handling, and recovery handling.Format the Fortinet firmware version string differently from the OOB default.Three extension points let you add API endpoints to Fortinet discovery, register new entity types, and reshape discovered data, without editing default code.Add a FortiManager API endpoint to Fortinet discovery so the connector collects data it doesn't collect by default and stores it on configuration items.Map extra fields from a FortiManager response onto Fortinet configuration items, and register transform functions to reshape the values.Properties that define a step in a Fortinet collection plan: how the endpoint is called, which entity it iterates over, and when its data is written.The five handlers a FortinetParserHooks implementation must provide, the arguments each receives, and what each returns.Avoid the mistakes that most often break a TSOM extension point implementation, and understand what an upgrade does and doesn't touch.Confirm that your custom implementation is registered, active, and resolving at the priority you expect before you rely on it in production.Once an implementation is confirmed active, use this table to confirm it produces the expected result for its category.Run this script in Scripts - Background to audit every order-based TSOM extension point on your instance in one pass.Disable a misbehaving custom implementation and fall back to the default without waiting for a fix.API name, scope, restrict\_scope, and dispatch pattern for every TSOM extension point, in one table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/customize-TSOM-connector-dev-guide.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 36
 breadcrumb: [Developer guides, API implementation and reference]
 ---
@@ -20,14 +20,14 @@ TSOM ships 16 extension points across 5 connector scopes.
 
 Each TSOM extension point controls one aspect of connector behavior, from life cycle status assignment, to event-to-CI mapping, to metric aggregation. Implement an extension point when the default behavior doesn't match how your organization models or processes discovered data.
 
-For the full attribute matrix, see [TSOM extension point quick reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md). The extension points are grouped by function:
+For the full attribute matrix, see [TSOM extension point quick reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md). The extension points are grouped by function:
 
 -   Lifecycle management \(4\)
 -   Event-to-CI mapping \(1\)
 -   Webhook field mapping \(1\)
 -   Metrics customization \(2\)
 -   Vendor-specific customizations \(5\)
--   Fortinet discovery extensibility \(3\)—see [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+-   Fortinet discovery extensibility \(3\)—see [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
 
 ## Requirements
 
@@ -82,7 +82,7 @@ The dispatch pattern of an extension point determines how the framework selects 
 1.  Handler pattern \(all implementations invoked\): The framework iterates over all active implementations and invokes the handler method on each. A custom implementation's result takes precedence when it is registered at an `order` value below 100. Used by the four lifecycle status extension points and by the firmware-version and contract-parsing extension points.
 2.  Vendor-dispatch pattern \(matched by vendor or rule name\): A resolver iterates over all implementations, calls `getVendor()` \(and, where applicable, `getRuleName()`\), and returns the first match. When more than one implementation matches, the implementation with the lowest `order` value is selected. Used by the event field mapping, webhook field mapping, and recovery handler extension points.
 3.  Single-override pattern \(lowest order selected\): The framework uses only the implementation with the lowest `order` value; exactly one implementation runs. Used by the metrics aggregation, uplink throughput, Nokia MPN formula, and tag transformation extension points.
-4.  Validated-contract pattern \(first complete implementation selected\): The framework uses the first implementation it finds that satisfies the entire contract, and exactly one implementation runs. An implementation that omits any required method is rejected in full rather than partially merged; an error names the missing method or key and the OOB implementation is used instead. Used by the three Fortinet discovery extension points: `sn_sgc_fortinet.FortinetCollectionPlan`, `sn_sgc_fortinet.FortinetParserHooks`, and `sn_sgc_fortinet.FortinetFieldMappings`. See [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+4.  Validated-contract pattern \(first complete implementation selected\): The framework uses the first implementation it finds that satisfies the entire contract, and exactly one implementation runs. An implementation that omits any required method is rejected in full rather than partially merged; an error names the missing method or key and the OOB implementation is used instead. Used by the three Fortinet discovery extension points: `sn_sgc_fortinet.FortinetCollectionPlan`, `sn_sgc_fortinet.FortinetParserHooks`, and `sn_sgc_fortinet.FortinetFieldMappings`. See [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
 
 **Note:**
 
@@ -609,7 +609,7 @@ Validation is all or nothing. A `FortinetParserHooks` implementation missing any
 
 Because a partial implementation is discarded rather than merged, start from a copy of the default implementation and add to it. Omitting the `contracts`, `adoms`, or `devices` steps from a custom collection plan silently drops license, ADOM, and device collection.
 
-For how this compares with the other TSOM dispatch patterns, see [TSOM extension point resolution at runtime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+For how this compares with the other TSOM dispatch patterns, see [TSOM extension point resolution at runtime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
 
 ### Attributes you can't remap
 
@@ -639,8 +639,8 @@ Navigation path:
 
 ### Related tasks
 
--   [Add an API endpoint to Fortinet discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md)
--   [Extend Fortinet field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md)
+-   [Add an API endpoint to Fortinet discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md)
+-   [Extend Fortinet field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md)
 
 ### Add an API endpoint to Fortinet discovery
 
@@ -662,7 +662,7 @@ Adding an endpoint touches four things: the collection plan declares the call, a
 
 Each of these extension points accepts one implementation only, and rejects an implementation that doesn't satisfy its whole contract. Copy the default implementation and add to the copy rather than writing a new implementation that returns only your additions.
 
-For background on how the three extension points work together, see [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+For background on how the three extension points work together, see [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
 
 #### Procedure
 
@@ -700,7 +700,7 @@ For background on how the three extension points work together, see [Fortinet di
     }
     ```
 
-    For every step property and its accepted values, see [Fortinet collection plan step properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+    For every step property and its accepted values, see [Fortinet collection plan step properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
 
 4.  Register the request-body template for your `apiName` key.
 
@@ -733,7 +733,7 @@ For background on how the three extension points work together, see [Fortinet di
 
     Return mappings for all five default resource types and your own: `port`, `network_site`, `network_service_instance`, `organization`, and `devices`. Add your custom fields inside an `additional_attributes` block and leave core configuration item attributes as they are.
 
-    For field mapping syntax and transform registration, see [Extend Fortinet field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+    For field mapping syntax and transform registration, see [Extend Fortinet field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
 
 8.  Register each script include by creating an extension instance record that points to its extension point.
 
@@ -765,7 +765,7 @@ Role required:
 
 #### About this task
 
-Use this procedure when the data you want is already in a response the connector collects, but isn't mapped onto a configuration item. This is also the replacement path for the retired `sn_sgc_fortinet.FortinetCustomAttributes` extension point, described in [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+Use this procedure when the data you want is already in a response the connector collects, but isn't mapped onto a configuration item. This is also the replacement path for the retired `sn_sgc_fortinet.FortinetCustomAttributes` extension point, described in [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
 
 #### Procedure
 
@@ -919,7 +919,7 @@ Avoid the mistakes that most often break a TSOM extension point implementation, 
 |Mistake|What happens|Fix|
 |-------|------------|---|
 |Modifying the OOB Script Include directly|Overwritten on the next TSOM upgrade.|Create a new Script Include and a new extension instance instead.|
-|Registering against a `restrict_scope = true` extension point from a custom scope|The platform silently ignores the registration. No error is logged.|Check `restrict_scope` before implementing. See [TSOM extension point quick reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).|
+|Registering against a `restrict_scope = true` extension point from a custom scope|The platform silently ignores the registration. No error is logged.|Check `restrict_scope` before implementing. See [TSOM extension point quick reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).|
 |The `type` field doesn't match the Script Include name|The resolver can't look up the order for the implementation, so it defaults to 100.|Ensure `type` is an exact match.|
 |Forgetting to set `active = true`|The implementation never loads.|Verify the record in **System Definition** &gt; **Extension Instances**.|
 |Calling `eventGr.update()` inside an `EventFieldMapping` implementation|Corrupts the event pipeline.|Only set fields on the passed-in `eventGr`; return `true` or `false` and let the framework persist the record.|
@@ -928,7 +928,7 @@ Avoid the mistakes that most often break a TSOM extension point implementation, 
 
 **Note:**
 
-Your custom extension instances aren't touched during upgrades. OOB instances registered at `order = 100` may be updated, but a lower-order custom override keeps its priority. New extension points may be introduced in a release; check [TSOM extension point quick reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md) after each upgrade for additions.
+Your custom extension instances aren't touched during upgrades. OOB instances registered at `order = 100` may be updated, but a lower-order custom override keeps its priority. New extension points may be introduced in a release; check [TSOM extension point quick reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md) after each upgrade for additions.
 
 ### Security considerations
 
@@ -983,12 +983,12 @@ Run both scripts in **System Definition** &gt; **Scripts - Background**. The fir
 
 3.  Confirm your implementation appears in both outputs, with the `order` you registered and `active = true`.
 
-    To audit every TSOM extension point at once instead of one at a time, see [Extension point diagnostic script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+    To audit every TSOM extension point at once instead of one at a time, see [Extension point diagnostic script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
 
 
 ### Result
 
-Once your implementation is confirmed active, verify the resulting behavior for its category. See [Verify behavior by extension point category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+Once your implementation is confirmed active, verify the resulting behavior for its category. See [Verify behavior by extension point category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
 
 ### Verify behavior by extension point category
 
@@ -1104,5 +1104,5 @@ API name, scope, restrict\_scope, and dispatch pattern for every TSOM extension 
 |Fortinet parser hooks|`sn_sgc_fortinet.FortinetParserHooks`|`sn_sgc_fortinet`|`false`|Contract validation \(single implementation\)|
 |Fortinet field mappings|`sn_sgc_fortinet.FortinetFieldMappings`|`sn_sgc_fortinet`|`false`|Contract validation \(single implementation\)|
 
-The three Fortinet discovery extensibility rows don't resolve by `order`; see [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md) for how they're validated and how they fall back to the default implementation.
+The three Fortinet discovery extensibility rows don't resolve by `order`; see [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md) for how they're validated and how they fall back to the default implementation.
 

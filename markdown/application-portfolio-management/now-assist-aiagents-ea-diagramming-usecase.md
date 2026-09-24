@@ -2,7 +2,7 @@
 title: Enterprise Architecture AI agent diagramming agentic workflow
 description: Use the Enterprise architecture diagrams AI agent to generate Enterprise Modeling and Visualization diagrams for business applications hierarchy and summarize them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -106,5 +106,5 @@ To view information on how to create AI agents and agentic workflows and how to 
 -   [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md)
 -   [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md)
 
-**Parent Topic:**[Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-na-ea-ai-agents.md)
+**Parent Topic:**[Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/using-na-ea-ai-agents.md)
 

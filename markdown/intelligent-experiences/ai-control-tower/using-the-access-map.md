@@ -2,7 +2,7 @@
 title: Using the access map
 description: Learn how to use the Access map in AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/using-the-access-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/using-the-access-map.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

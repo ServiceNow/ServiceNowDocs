@@ -2,7 +2,7 @@
 title: Save a playbook variant as a favorite
 description: Save a playbook variant as a favorite for quick reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/bookmark-playbook-variant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/bookmark-playbook-variant.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -37,5 +37,5 @@ Role required: admin or playbook.admin
     **Tip:** You can also just search for variants in the **Quick Find** search bar.
 
 
-**Parent Topic:**[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-variants.md)
+**Parent Topic:**[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-variants.md)
 

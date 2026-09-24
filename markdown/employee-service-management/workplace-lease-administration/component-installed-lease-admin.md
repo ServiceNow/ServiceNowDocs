@@ -2,7 +2,7 @@
 title: Components installed with Workplace Lease Administration
 description: Several types of components are installed with activation of the Workplace Lease Administration application, including user roles and tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/component-installed-lease-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/component-installed-lease-admin.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -111,7 +111,7 @@ Workplace Contract Service\[sn\_wsd\_la\_workplace\_contract\_service\]
 Stores workplace contract services related to the contract.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Lease Administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/workplace-lease-references.md)
+</table>**Parent Topic:**[Workplace Lease Administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/workplace-lease-references.md)
 
 **Related topics**  
 

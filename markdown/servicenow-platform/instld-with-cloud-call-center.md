@@ -2,7 +2,7 @@
 title: Components installed with ServiceNow Voice Core
 description: Several types of components are installed with activation of the ServiceNow Voice Core application \(sn\_cti\_core\), including user roles, plugins, and operation handlers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instld-with-cloud-call-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instld-with-cloud-call-center.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -125,7 +125,7 @@ authenticate
 
 </td><td>
 
-Authenticates a user based on the PIN. For information on PIN configuration, see [Configuring a phone PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/set-pin-ccc.md).
+Authenticates a user based on the PIN. For information on PIN configuration, see [Configuring a phone PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/set-pin-ccc.md).
 
 </td></tr><tr><td>
 
@@ -136,5 +136,5 @@ fetchVoiceInteraction
 Fetches interaction and processes createConversation flag for creating conversation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-reference.md)
+</table>**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/ccc-reference.md)
 

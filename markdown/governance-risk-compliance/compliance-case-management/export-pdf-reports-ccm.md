@@ -2,7 +2,7 @@
 title: Export a report to PDF
 description: Create Portable Document Format \(PDF\) reports for compliance cases or requests using predefined or customized templates in the GRC: Compliance Case Management application. This feature enables the stakeholders who may not have access to the application can still access the data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/export-pdf-reports-ccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/export-pdf-reports-ccm.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -51,5 +51,5 @@ You can export compliance data to PDF reports for easy sharing with audit teams,
 10. To download a local copy of the PDF report, select the More actions \[Omitted image "more-actions.png"\] icon on the PDF report, and select **Download**.
 
 
-**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

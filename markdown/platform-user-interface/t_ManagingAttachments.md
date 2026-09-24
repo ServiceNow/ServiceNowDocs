@@ -2,7 +2,7 @@
 title: Manage attachments
 description: View, rename, and remove the attachments on a record and adjust the maximum allowable size of attachments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ManagingAttachments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ManagingAttachments.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -65,5 +65,5 @@ Role required: admin
     3.  Select **Save**.
 
 
-**Parent Topic:**[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md)
+**Parent Topic:**[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_AddingAnAttachment.md)
 

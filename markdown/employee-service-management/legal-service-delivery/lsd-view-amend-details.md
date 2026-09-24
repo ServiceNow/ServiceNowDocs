@@ -2,7 +2,7 @@
 title: View amendment details
 description: View the amendment details in the contract repository record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-view-amend-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-view-amend-details.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -59,8 +59,8 @@ You can view the certificate of completion from the Attachment pane.
 
 9.  To view certificate of completion for the contract and amendment request, navigate to **Attachments** pane.
 
-    The certification of completion is available for electronic signature workflow only. For more information, see [Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md)
+    The certification of completion is available for electronic signature workflow only. For more information, see [Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md)
 
 
-**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
+**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
 

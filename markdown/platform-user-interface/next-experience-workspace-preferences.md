@@ -2,7 +2,7 @@
 title: Configure Next Experience Workspace preferences
 description: Set up your Workspace display preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-workspace-preferences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-workspace-preferences.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"

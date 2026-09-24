@@ -2,7 +2,7 @@
 title: Components installed with Twilio Direct driver
 description: Several types of components are installed with the Twilio Direct driver for integration with Notify.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/installed-with-twilio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/installed-with-twilio.html
 release: australia
 product: Notify
 classification: notify
@@ -16,10 +16,10 @@ breadcrumb: [Notify reference, Notify, Manage service capabilities, Extend Servi
 
 Several types of components are installed with the Twilio Direct driver for integration with Notify.
 
--   **[Business rules installed with Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/twilio-business-rules.md)**  
+-   **[Business rules installed with Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/twilio-business-rules.md)**  
 Twilio installs the following business rules.
--   **[Tables installed with Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/tables-twilio.md)**  
+-   **[Tables installed with Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/tables-twilio.md)**  
 The tables installed with Twilio Direct driver are described below.
 
-**Parent Topic:**[Notify reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-reference-section.md)
+**Parent Topic:**[Notify reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/notify-reference-section.md)
 

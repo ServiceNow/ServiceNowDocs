@@ -2,7 +2,7 @@
 title: Purchase Order Exception Task table
 description: Purchase order exception tasks are individual tasks assigned to users as part of resolving a purchase order exception.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/po-exception-task-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/po-exception-task-table.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-08"
@@ -28,14 +28,14 @@ The Purchase Order Exception Task \(sn\_poem\_exception\_task\) table contains t
 |Purchase order|Reference|Purchase order related to this exception task.|
 |Primary contact|Reference|Main point of contact for resolving this exception on the buyer side.|
 
-**Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/master-data-tables-for-pom.md)
+**Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/master-data-tables-for-pom.md)
 
 **Related topics**  
 
 
-[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-po-exception-task.md)
+[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/view-po-exception-task.md)
 
-[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
 
-[Work on a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/work-on-a-purchase-order-exception.md)
+[Work on a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/work-on-a-purchase-order-exception.md)
 

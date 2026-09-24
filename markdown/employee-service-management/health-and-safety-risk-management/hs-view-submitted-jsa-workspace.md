@@ -2,7 +2,7 @@
 title: View submitted JSAs in the workspace
 description: View all submitted JSAs in Health and Safety Workspace. All JSAs that employees have submitted through the Employee Center or ServiceNow Now Mobile app are available to view in the workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-view-submitted-jsa-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-view-submitted-jsa-workspace.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -37,5 +37,5 @@ Role required: sn\_hs\_rm.jsa\_manager or sn\_hs\_rm.job\_safety\_analysis\_read
     Agent assist searches the knowledge base using the text from the JSA's **Short description** field and shows relevant articles.
 
 
-**Parent Topic:**[Job safety analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-job-safety-analysis.md)
+**Parent Topic:**[Job safety analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-job-safety-analysis.md)
 

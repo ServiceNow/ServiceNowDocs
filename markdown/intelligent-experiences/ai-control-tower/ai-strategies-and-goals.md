@@ -2,12 +2,12 @@
 title: AI strategies and goals
 description: You can track and monitor the progress of your strategic priorities, goals, planning items, and execution items—projects and demands classified as Artificial Intelligence in other ServiceNow applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-strategies-and-goals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-strategies-and-goals.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---

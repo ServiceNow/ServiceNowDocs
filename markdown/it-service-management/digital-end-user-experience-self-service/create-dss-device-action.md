@@ -2,7 +2,7 @@
 title: Create a custom device action
 description: Create a custom device action to provide a self-service option for end users to maintain optimal device and application performance even when no issues are detected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/create-dss-device-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/create-dss-device-action.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -24,19 +24,19 @@ Role required: sn\_dex.admin
 
 1.  Create an issue configuration.
 
-    For more information, see [Create DEX Self-service issue configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/create-dex-self-service-issue-configs.md).
+    For more information, see [Create DEX Self-service issue configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-self-service/create-dex-self-service-issue-configs.md).
 
 2.  Enable the issue configuration for DEX Self-service.
 
-    For more information, see [Enable issue configurations for DEX Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/enable-dex-self-service-issues.md).
+    For more information, see [Enable issue configurations for DEX Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-self-service/enable-dex-self-service-issues.md).
 
 3.  Create a remedial action.
 
-    For more information, see [Create a remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/create-remedial-action.md).
+    For more information, see [Create a remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/create-remedial-action.md).
 
 4.  Create a device action.
 
-    For more information, see [Configure device actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-device-actions.md).
+    For more information, see [Configure device actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-device-actions.md).
 
     **Note:** Only issue configurations linked to a supported remedial action are available when creating device actions.
 
@@ -54,5 +54,5 @@ Role required: sn\_dex.admin
 **Related topics**  
 
 
-[Custom device action example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/example-device-action.md)
+[Custom device action example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-self-service/example-device-action.md)
 

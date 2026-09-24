@@ -2,7 +2,7 @@
 title: Metric type IDs
 description: Metric type IDs identify each time-series metric that a connector writes to the metrics database. Use these IDs to locate metrics in Insights Explorer or when you build custom dashboards and indicators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/tsom-metric-type-ids.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/tsom-metric-type-ids.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -53,5 +53,5 @@ Metric type IDs identify each time-series metric that a connector writes to the 
 
 VERIFY: Confirm the metric type IDs written by the Fortinet SD-WAN Interface Log integration. This integration is listed in the installed integrations reference but its metric type IDs are not yet documented here.
 
-**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
+**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 

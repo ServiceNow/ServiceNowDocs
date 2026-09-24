@@ -2,7 +2,7 @@
 title: Reporting views from Risk Assessment Methodology
 description: The reporting view provides an overview of all completed assessments under a specific Risk Assessment Methodology \(RAM\). It consolidates assessment data such as factor responses, scores, issues, controls, and associated risks into a single structure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/reporting-views-from-ram.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/reporting-views-from-ram.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

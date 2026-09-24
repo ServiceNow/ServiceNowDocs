@@ -2,7 +2,7 @@
 title: Add Observables to EDLs
 description: Add observables such as IP addresses, domains, and hashes to External Dynamic Lists \(EDLs\) to automatically update threat intelligence feeds in your security infrastructure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/add-obsesrvables-edl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/add-obsesrvables-edl.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -36,13 +36,13 @@ Role required: sn\_sec\_tisc.analyst
 
 6.  Select **Remove** to remove the observables from the EDLs.
 
-    For more information, see [Remove Observables from EDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/remove-observables-edl.md).
+    For more information, see [Remove Observables from EDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/remove-observables-edl.md).
 
 
-**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
+**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
 
 **Related topics**  
 
 
-[Approve EDL entries for Palo Alto Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-approve-edl-entries.md)
+[Approve EDL entries for Palo Alto Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-approve-edl-entries.md)
 

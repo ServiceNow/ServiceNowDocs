@@ -2,7 +2,7 @@
 title: Configure AI-based catalog search experience
 description: Improve employee engagement with an AI-based catalog search experience in Service Portal and Now Mobile. Intelligent query features enable users to quickly and easily find the answers they need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/config-ai-search-cat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/config-ai-search-cat.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -29,7 +29,7 @@ You can configure AI-based catalog search experience in portals and Now Mobile. 
 
 Each of these search application configurations have an associated search profile based on which the search results are filtered and displayed.
 
-**Note:** If the AI Search is enabled for Now Mobile, the **Experience for items not available in NOW Mobile** \(**glide.sc.mobile.unsupported\_discover**\) property is not applicable. For information on Now Mobile properties, see [Service Catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ServiceCatalogProperties.md).
+**Note:** If the AI Search is enabled for Now Mobile, the **Experience for items not available in NOW Mobile** \(**glide.sc.mobile.unsupported\_discover**\) property is not applicable. For information on Now Mobile properties, see [Service Catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_ServiceCatalogProperties.md).
 
 Following are a few limitations for AI-based catalog search experience:
 
@@ -65,7 +65,7 @@ Following are a few limitations for AI-based catalog search experience:
     5.  Click **Update**.
 
 
-**Parent Topic:**[Configure search and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ConfigSrchNavUseProps.md)
+**Parent Topic:**[Configure search and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ConfigSrchNavUseProps.md)
 
 **Related topics**  
 

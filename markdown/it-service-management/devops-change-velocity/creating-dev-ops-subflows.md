@@ -2,7 +2,7 @@
 title: Creating DevOps subflows
 description: For user-created integrations, create a DevOps Workflow Studio subflow to collect and transform data from the tool you are integrating.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/creating-dev-ops-subflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/creating-dev-ops-subflows.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -643,5 +643,5 @@ details
 \(String\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
+</table>**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 

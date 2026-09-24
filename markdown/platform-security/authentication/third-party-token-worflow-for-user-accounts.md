@@ -2,12 +2,12 @@
 title: Third party token workflow for user accounts
 description: This workflow can be used to integrate third-party identity providers \(IdPs\) with ServiceNow for secure API access. It allows client applications to obtain tokens directly from an IdP and use them to access ServiceNow APIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/third-party-token-worflow-for-user-accounts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/third-party-token-worflow-for-user-accounts.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Third Party Token Grant, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -38,6 +38,6 @@ The third-party client application requests tokens directly from your identity p
 
 2.  Create an OAuth client in ServiceNow.
 
-    Provide the required details to enable validation of incoming tokens from your identity provider \(IdP\). For more information on how to configure, see [Configure a third party ID token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-a-third-party-id-token.md)
+    Provide the required details to enable validation of incoming tokens from your identity provider \(IdP\). For more information on how to configure, see [Configure a third party ID token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-a-third-party-id-token.md)
 
 

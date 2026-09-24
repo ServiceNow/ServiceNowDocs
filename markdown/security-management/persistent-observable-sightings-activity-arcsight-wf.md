@@ -2,7 +2,7 @@
 title: Persistent Observable Sightings activity
 description: The Persistent Observable Sightings workflow activity retrieves observables from the third-party integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/persistent-observable-sightings-activity-arcsight-wf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/persistent-observable-sightings-activity-arcsight-wf.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -42,5 +42,5 @@ The output variables contain data that can be used in subsequent activities.
 |--------|-----------|
 |response| |
 
-**Parent Topic:**[Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-sightings-search-workflow.md)
+**Parent Topic:**[Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-sightings-search-workflow.md)
 

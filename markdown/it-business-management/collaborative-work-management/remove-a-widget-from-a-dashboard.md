@@ -2,7 +2,7 @@
 title: Remove widgets from a dashboard in Collaborative Work Management
 description: Remove widgets from a dashboard in a CWM Board to keep the dashboard focused on the metrics that still matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/remove-a-widget-from-a-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/remove-a-widget-from-a-dashboard.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,7 +18,7 @@ Remove widgets from a dashboard in a CWM Board to keep the dashboard focused on 
 
 ## Before you begin
 
-Confirm that a dashboard is created. For more information, see [Create a dashboard for a CWM Board in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.md).
+Confirm that a dashboard is created. For more information, see [Create a dashboard for a CWM Board in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -45,5 +45,5 @@ Widgets can be added and removed only from the Manage widgets panel. There is no
 7.  Select **Done** to close the Manage widgets panel.
 
 
-**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
 

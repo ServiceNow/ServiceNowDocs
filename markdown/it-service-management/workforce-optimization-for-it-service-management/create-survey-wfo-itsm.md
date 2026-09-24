@@ -2,7 +2,7 @@
 title: Create a survey in Workforce Optimization for ITSM
 description: Create surveys and publish them. You can assign published surveys to an agent or a group. You can also share the survey with other teams by adding managers of those teams as the owners of the survey.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/create-survey-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/create-survey-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -39,7 +39,7 @@ Role required: sn\_wfo\_cfg\_ws.manager
     |**A form**|Select **New**.|
     |**Survey Designer**|Select **Survey Designer**.|
 
-    **Note:** For detailed information on how to create a survey and associate with a coaching opportunity, see [Create a survey and associate with a Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-create-survey-coaching-opportunity.md).
+    **Note:** For detailed information on how to create a survey and associate with a coaching opportunity, see [Create a survey and associate with a Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-create-survey-coaching-opportunity.md).
 
 6.  Configure the survey based on your needs.
 
@@ -48,5 +48,5 @@ Role required: sn\_wfo\_cfg\_ws.manager
     **Note:** To share the survey with other managers, you must add managers of those teams as the owners of the survey.
 
 
-**Parent Topic:**[Surveys in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.md)
+**Parent Topic:**[Surveys in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.md)
 

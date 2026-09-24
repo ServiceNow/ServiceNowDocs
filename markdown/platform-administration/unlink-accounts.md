@@ -2,7 +2,7 @@
 title: Unlink your ServiceNow user account from your Slack or MS Teams account for Now Actions
 description: Unlink your ServiceNow account from your Slack or MS Teams account to stop receiving actionable ServiceNow notifications in Slack or Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/unlink-accounts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/unlink-accounts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,8 +42,8 @@ If you unlink your account to a messaging app for Now Actions, you must also dis
 
     2.  Under Notification Channels, disable the appropriate messaging channel.
 
-    **Note:** If you want to link your ServiceNow account again, follow the steps in [Link your ServiceNow user account to your Slack or MS Teams account for Now Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/link-accounts.md).
+    **Note:** If you want to link your ServiceNow account again, follow the steps in [Link your ServiceNow user account to your Slack or MS Teams account for Now Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/link-accounts.md).
 
 
-**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/messaging-integration.md)
 

@@ -2,7 +2,7 @@
 title: Integrate ServiceNow voice assistant with Nice CXone
 description: Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Nice CXone.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-voice-service-with-nice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-voice-service-with-nice.html
 release: australia
 topic_type: task
 last_updated: "2026-07-03"
@@ -17,7 +17,7 @@ Enable users to get support from AI voice agents by integrating a ServiceNow voi
 
 ## Before you begin
 
--   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md) for more information.
+-   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-an-ai-voice-service.md) for more information.
 -   Access to your CXone account with permissions to configure SIP trunks.
 -   Nice API credentials, including the API endpoint, token endpoint, access key ID, access key secret, client ID, and client secret. Work with your Nice account team to obtain the access key ID and secret. See the [CXone developer documentation](https://developer.niceincontact.com/Documentation/GettingStarted) for more information.
 
@@ -72,7 +72,7 @@ Connect your CXone contact center to a ServiceNow voice assistant using the Sess
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
 
-    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md).
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md).
 
 10. In your CXone account, configure the SIP trunk using the **ServiceNow SIP FQDN** and pass the **x-snc-param** value copied in the previous step as a SIP header on outbound calls to the voice assistant.
 
@@ -87,5 +87,5 @@ CXone is connected to your ServiceNow voice assistant. Incoming calls routed thr
 
 Configure the **Onsignal** event action flow in your CXone account. When a voice agent call ends or transfers to a live agent, ServiceNow automatically notifies CXone by sending a signal to the `/interactions/{contactId}/signal` API endpoint, which triggers the Onsignal event action flow. For configuration details, see the [CXone developer documentation](https://developer.niceincontact.com/Documentation/GettingStarted).
 
-**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
+**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
 

@@ -2,7 +2,7 @@
 title: Report a major incident from Incident Management
 description: Report a critical incident from the Service Operations Workspace of the Incident Management application into the Digital resilience incident reporting application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/report-incident-from-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/report-incident-from-sow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,7 +67,7 @@ The incident triggers a Digital resilience incident reporting case in the Operat
 
     \[Omitted image "asmt-temp-in-incident.png"\] Alt text: Template in incident.\[Omitted image "asmt-ws-q-temp.png"\] Alt text: Questions.
 
-    The analyst assigned to the case assesses the incident's impact on factors such as critical services, clients, data and data losses, reputation, service downtime, geographical spread, and economy. These sections in the template help you determine the impact of the incident. It helps to verify if it should be reported to the regulators and responds to the questions in the questionnaire. For information on the assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    The analyst assigned to the case assesses the incident's impact on factors such as critical services, clients, data and data losses, reputation, service downtime, geographical spread, and economy. These sections in the template help you determine the impact of the incident. It helps to verify if it should be reported to the regulators and responds to the questions in the questionnaire. For information on the assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 3.  Select **Accept work**.
 

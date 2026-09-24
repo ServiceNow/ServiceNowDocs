@@ -2,7 +2,7 @@
 title: Configure Recommended Actions for the Industrial Connected Workforce
 description: Configure Recommended Actions for the Industrial Connected Workforce. Recommended Actions are based on context, rules, and recommendations and can be configured to support additional use cases. You can create rules and recommendations or modify existing ones to meet the specific requirements of your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/configure-recommended-actions-icw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/configure-recommended-actions-icw.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -63,5 +63,5 @@ Create a context and within it rules and recommendations, as explained in:-   [C
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/configuring-digital-factory-workspace.md)
+**Parent Topic:**[Configuring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/configuring-digital-factory-workspace.md)
 

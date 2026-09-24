@@ -2,7 +2,7 @@
 title: Data Relationships Framework
 description: The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch the dependencies in the BIAs, plans, and events from different sources such as CMDB, BIA, and BCP. Beginning with the Australia release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/data-relationship-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/data-relationship-framework.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -105,7 +105,7 @@ The Data Relationships Framework application consists of the following modules:
 
     \[Omitted image "main-node-configuration-bcm.png"\] Alt text: Sample main node configuration.
 
-    For information on creating a main node configuration record, see [Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-main-node-config-record.md).
+    For information on creating a main node configuration record, see [Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-a-main-node-config-record.md).
 
 2.  Relationship registries: Configure the relationship registries for the main node. Relationship registries are part of the 360-degree configuration in GRC where a user can define how one object has a related object. The configuration details of a relationship registry record such as its name, table, relationship type, relationship table, and so on are shown in the form.
 
@@ -115,13 +115,13 @@ The Data Relationships Framework application consists of the following modules:
 
     \[Omitted image "rela-registry-record-sample.png"\] Alt text: Sample relationship registry record.
 
-    For information on creating a relationship registry record, see [Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-rela-registry-record.md).
+    For information on creating a relationship registry record, see [Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-a-rela-registry-record.md).
 
 3.  Properties: Configure the properties of the Data Relationships Framework as shown in the following example.
 
     \[Omitted image "data-rela-framework-properties.png"\] Alt text: Properties for the Data Relationship Framework.
 
-    For information on configuring the properties, see [Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-properties-for-data-rel-framework.md).
+    For information on configuring the properties, see [Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-properties-for-data-rel-framework.md).
 
 
 ## Use cases for the Data Relationships Framework
@@ -173,14 +173,14 @@ The Data Relationships Framework has the following limitations:
 -   The data fetched for an object cannot be reused for another purpose.
 -   The sources provided in the framework must be used for fetching the dependency updates into an object. It is not possible to configure your own sources for fetching the data.
 
-For more information on the administrative setup for the configuration records, see [Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/dependency-config-modules.md).
+For more information on the administrative setup for the configuration records, see [Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/dependency-config-modules.md).
 
--   **[Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-main-node-config-record.md)**  
+-   **[Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-a-main-node-config-record.md)**  
 Create a main node configuration record to configure the source for fetching the dependencies. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
--   **[Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-rela-registry-record.md)**  
+-   **[Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-a-rela-registry-record.md)**  
 Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
--   **[Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-properties-for-data-rel-framework.md)**  
+-   **[Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-properties-for-data-rel-framework.md)**  
 Configure the properties for the Data Relationships Framework application.
 
-**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-reference.md)
+**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-reference.md)
 

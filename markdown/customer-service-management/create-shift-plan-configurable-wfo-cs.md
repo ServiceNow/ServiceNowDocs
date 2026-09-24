@@ -2,7 +2,7 @@
 title: Create a shift plan
 description: Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-shift-plan-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-shift-plan-configurable-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,15 +34,15 @@ In the **Shifts** tab, the shifts are grouped by active and inactive shifts. The
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d221371e111">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d221375e111">
 
 To
 
-</th><th align="left" id="d221371e114">
+</th><th align="left" id="d221375e114">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d221371e120">
+</th></tr></thead><tbody><tr><td id="d221375e120">
 
 **Create a work shift**
 
@@ -75,7 +75,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Click **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d221371e238">
+</td></tr><tr><td id="d221375e238">
 
 **Create an on-call shift**
 
@@ -113,5 +113,5 @@ You can view the name of the primary agent for each on-call shift on the shift c
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/scheduling-configurable-wfo-cs.md)
 

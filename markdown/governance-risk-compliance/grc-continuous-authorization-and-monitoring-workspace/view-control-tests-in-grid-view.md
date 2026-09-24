@@ -2,7 +2,7 @@
 title: View control tests in grid view
 description: View and edit control tests and assessment procedures in a hierarchical data grid.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/view-control-tests-in-grid-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/view-control-tests-in-grid-view.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -74,5 +74,5 @@ The Control Tests tab includes a grid view that displays control tests as parent
 -   Select **Personalize Columns**
 -   Show or hide columns \(Notes and Attachments fields are hidden by default\)
 
-**Parent Topic:**[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
+**Parent Topic:**[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
 

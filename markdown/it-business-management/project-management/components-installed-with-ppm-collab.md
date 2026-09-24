@@ -2,7 +2,7 @@
 title: Components installed with PPM Collaboration
 description: Roles and tables are installed with activation of the PPM Collaboration application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/components-installed-with-ppm-collab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/components-installed-with-ppm-collab.html
 release: australia
 product: Project Management
 classification: project-management
@@ -64,12 +64,12 @@ Entity Channel\[sn\_collab\_common\_entity\_channel\]
 Stores the list of IDs and names of the Slack channels that are created for the projects.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+</table>**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[Install PPM Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/install-ppm-collab-store-app.md)
+[Install PPM Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/install-ppm-collab-store-app.md)
 
-[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-collab-overview.md)
+[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ppm-collab-overview.md)
 

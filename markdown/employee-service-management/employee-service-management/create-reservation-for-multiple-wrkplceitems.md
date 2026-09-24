@@ -28,15 +28,15 @@ Before booking a room or desk, check the availability of the selected item using
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table><thead><tr><th align="left" id="d793100e60">
+<table><thead><tr><th align="left" id="d793104e60">
 
 Location
 
-</th><th align="left" id="d793100e63">
+</th><th align="left" id="d793104e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d793100e69">
+</th></tr></thead><tbody><tr><td id="d793104e69">
 
 **From application navigator**
 
@@ -44,7 +44,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d793100e90">
+</td></tr><tr><td id="d793104e90">
 
 **From Employee Center Portal**
 
@@ -56,7 +56,7 @@ Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Rese
 
 Make a reservation portal page opens for you to make workplace reservations.
 
-</td></tr><tr><td id="d793100e137">
+</td></tr><tr><td id="d793104e137">
 
 **From Workplace Service Portal**
 
@@ -82,7 +82,7 @@ Make a reservation portal page opens for you to make workplace reservations.
 
 2.  Select a Reservable Module configuration such as **Desks**, **Meeting rooms** **Desks within an area** and so on.
 
-    For more information how to configure a Reservable module, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+    For more information how to configure a Reservable module, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 3.  Select **Search**.
 
@@ -226,7 +226,7 @@ If any of the items needs approval, then your request is submitted to the approv
 
 ## What to do next
 
--   To view, edit or cancel your reservations, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
+-   To view, edit or cancel your reservations, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
 -   To view, add or remove any invitees from the reservation, do the following:
     1.  On the Reservation summary page, select the **Invitees** tab.
     2.  To change the location of any invitees, do the following:

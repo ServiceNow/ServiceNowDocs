@@ -2,7 +2,7 @@
 title: View orders
 description: View your orders and order details from the Consumer Portal using the Order Management app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-orders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-orders.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,5 +34,5 @@ You can view the list of orders. Select any order to view its details.
 **Related topics**  
 
 
-[Request an item or service from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-request-from-consumerportal.md)
+[Request an item or service from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-request-from-consumerportal.md)
 

@@ -2,7 +2,7 @@
 title: Responsive dashboard role examples
 description: Your ability to create, edit, view, or share a dashboard depends on your roles. These examples show what you can do with a dashboard based on your roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/responsive-dashboard-role-examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/responsive-dashboard-role-examples.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

@@ -2,7 +2,7 @@
 title: Card template element attributes
 description: Use this reference to determine which attributes to use for your card template elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mca-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mca-attributes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Each card template element has one or more required attributes that you must cre
 
 |Name|Description|Configuration|
 |----|-----------|-------------|
-|Button|Used to select the function that runs when users tap a button.|Use the **Value** field to enter the SysID of a function from the Functions\[sys\_sg\_button\] table. For details on creating functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).|
+|Button|Used to select the function that runs when users tap a button.|Use the **Value** field to enter the SysID of a function from the Functions\[sys\_sg\_button\] table. For details on creating functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-mobile-button-types.md).|
 |TextValue|Used to display static text.|Use the **Value** field to enter the name of a field. For example, `short_description`.|
 |FieldValue|Used to display the value of a field in a record.|Use the **Value** field to enter the name of a field. For example, `avatar`.|
 |Icon|Used to display an icon.|Use the **Value** field to enter the SysID of an icon record from the Icon\[sys\_sg\_icon\] table.|

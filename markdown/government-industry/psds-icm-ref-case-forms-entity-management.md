@@ -2,7 +2,7 @@
 title: Investigative Case Management Entity Management forms
 description: Use forms to view and update information about entities linked to an investigative case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-case-forms-entity-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-icm-ref-case-forms-entity-management.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

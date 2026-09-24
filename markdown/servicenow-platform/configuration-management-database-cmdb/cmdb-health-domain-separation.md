@@ -2,7 +2,7 @@
 title: Domain separation in CMDB Health
 description: This is an overview of domain separation as it pertains to CMDB Health. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-health-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-health-domain-separation.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -38,12 +38,12 @@ Starting with the Tokyo release, CIs in the global domain are evaluated only aga
 
 Configure these preferences during setup:
 
-1.  Global system properties that control CMDB Health – System properties are not domain separated. To learn more see [CMDB Health system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthProperties.md).
-2.  [CMDB Health Dashboard Jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md) – There is a dashboard job for each major KPI, such as Completeness. That job finds the health of the CIs across all the enabled domains. There is only one job run for all domains and jobs themselves are not domain separated.
+1.  Global system properties that control CMDB Health – System properties are not domain separated. To learn more see [CMDB Health system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthProperties.md).
+2.  [CMDB Health Dashboard Jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md) – There is a dashboard job for each major KPI, such as Completeness. That job finds the health of the CIs across all the enabled domains. There is only one job run for all domains and jobs themselves are not domain separated.
 
     Users can define the frequency with which they want to run jobs; the report runs for all the domains. The more domains included in the job, the longer the job runs.
 
-3.  Health Metrics – These selections are domain-separated and adhere to the established “system overrides” logic of domain separation. Changes are made according to the domain for which the user is logged in. Base system values are defined at the global domain. The overriding domain logic means these values apply for all domains. If users want different values for a domain, they must be logged in to a specific domain and change the property from there. The new property setting applies only to that domain and any domain that inherits this domain. To learn more, see [Health Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_ConfigureCMDBHealthMetrics.md).
+3.  Health Metrics – These selections are domain-separated and adhere to the established “system overrides” logic of domain separation. Changes are made according to the domain for which the user is logged in. Base system values are defined at the global domain. The overriding domain logic means these values apply for all domains. If users want different values for a domain, they must be logged in to a specific domain and change the property from there. The new property setting applies only to that domain and any domain that inherits this domain. To learn more, see [Health Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_ConfigureCMDBHealthMetrics.md).
 
     **Note:** Regarding the Completeness, Compliance, and Correctness KPIs: Users can disable this KPI if they don’t want to see that as part of the dashboard score. All these settings are domain-separated and the user can define specific properties for the domain.
 
@@ -56,10 +56,10 @@ Configure these preferences during setup:
 
 See CMDB Health-related rules settings at:
 
--   [Required](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_SetCIFieldMandatory.md)
--   [Recommended](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_MakingAFieldRecommended.md)
--   [Orphan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthOrphanRule.md)
--   [Staleness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthStaleRule.md)
+-   [Required](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_SetCIFieldMandatory.md)
+-   [Recommended](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_MakingAFieldRecommended.md)
+-   [Orphan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthOrphanRule.md)
+-   [Staleness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthStaleRule.md)
 
 Most of the CMDB Health-related rules are domain separated and provided by the users. Users can define different rules for different domains by logging in to each domain and adding/overriding rules in the CI Class Manager.
 
@@ -101,10 +101,10 @@ In general, CMDB Health dashboards are domain aware and show data according to t
 5.  As explained in the CMDB Health Rules section, the scores reported for the metrics are based on the health rules defined for them \(staleness, orphan, recommended, audit, and inclusion rules\) which can be defined differently for a specific domain \(in the CI Class Manager\). Only the required metric and duplicate metric are based on rules that apply in all domains.
 6.  Service View/ Group View – These reports also largely follow the above points. Typically, these views differ from various views/filters for the Health Report. One is based off business rules, the other is based off CMDB Health groups.
 
-**Parent Topic:**[CMDB Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-health-ref-parent.md)
+**Parent Topic:**[CMDB Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-health-ref-parent.md)
 
 **Related topics**  
 
 
-[Domain separation and Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/domain-separation-cmdb.md)
+[Domain separation and Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/domain-separation-cmdb.md)
 

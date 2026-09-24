@@ -2,7 +2,7 @@
 title: Create an inline-editor dashboard
 description: Duplicate and customize the base system BCM dashboard to create a personalized homepage view. The inline editor lets any BCM user build a dashboard without technical knowledge. You can start from scratch or duplicate the delivered base system dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-inline-editor-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-inline-editor-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -72,5 +72,5 @@ You created an inline-editor dashboard that can be shared across pages and works
 **Related topics**  
 
 
-[Configure a record overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-record-ov-db.md)
+[Configure a record overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-record-ov-db.md)
 

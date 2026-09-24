@@ -2,7 +2,7 @@
 title: Create a push application record for your custom app
 description: Register your customized mobile application with your instance to receive push notifications for the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAMobileApplication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAMobileApplication.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,8 +18,8 @@ Register your customized mobile application with your instance to receive push n
 
 Complete the following:
 
-1.  [Activate push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivatePushNotifications.md)
-2.  \(iOS only\) [Upload a push certificate to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upload-push-cert.md)
+1.  [Activate push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ActivatePushNotifications.md)
+2.  \(iOS only\) [Upload a push certificate to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upload-push-cert.md)
 
 Role required: admin or push\_admin
 
@@ -121,7 +121,7 @@ FCM API key you obtained from Google for the Android push notification.
 
 ## What to do next
 
-[Create push message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAMobileMessageLayout.md) that contains the JSON content in the push notification payload.
+[Create push message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateAMobileMessageLayout.md) that contains the JSON content in the push notification payload.
 
 In the Push Default Registrations related list, you can select the notifications that you want automatically subscribed to users who use this application. Users are subscribed to only active notifications.
 

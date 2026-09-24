@@ -2,7 +2,7 @@
 title: Data policy fields
 description: These fields appear on the Data Policy form and related forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_DataPolicyFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_DataPolicyFields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

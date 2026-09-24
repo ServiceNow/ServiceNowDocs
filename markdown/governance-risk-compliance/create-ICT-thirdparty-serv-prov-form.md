@@ -2,7 +2,7 @@
 title: Create ICT third-party service provider form
 description: On the Create ICT third-party service provider form, fill in the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -185,5 +185,5 @@ Type of ICT services. The available options are as follows:-   **ICT project man
 -   **Cloud services: SaaS**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-third-party.md)
+</table>**Parent Topic:**[Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-drtp-reg-third-party.md)
 

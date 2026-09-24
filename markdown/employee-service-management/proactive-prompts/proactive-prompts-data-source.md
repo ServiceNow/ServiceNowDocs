@@ -2,7 +2,7 @@
 title: Types of data sources in Proactive Prompts
 description: Data sources are the different type of data retrieving methods from data tables in Proactive Prompts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-data-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/proactive-prompts/proactive-prompts-data-source.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -66,10 +66,10 @@ Performance Analytics Indicator
 
 </td><td>
 
-Uses the data collected by the Performance Analytics job for the selected indicator and breakdown. For example, this type of table can be used to prompt the manager about number of open incidents.**Note:** The Performance Analytics job must be run to process the data. For more information, see [Activate Performance Analytics jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activae-pa-indicator-jobs-sdb.md).
+Uses the data collected by the Performance Analytics job for the selected indicator and breakdown. For example, this type of table can be used to prompt the manager about number of open incidents.**Note:** The Performance Analytics job must be run to process the data. For more information, see [Activate Performance Analytics jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/activae-pa-indicator-jobs-sdb.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
+</table>**Parent Topic:**[Reference for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
 
 **Related topics**  
 

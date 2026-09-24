@@ -2,7 +2,7 @@
 title: Third-party data integration components
 description: These components require configuration by the system administrator to use third-party data integration with Agent Workspace for CSM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-third-party-data-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-third-party-data-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

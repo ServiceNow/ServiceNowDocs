@@ -2,7 +2,7 @@
 title: Phase 3 - Verify your upgrade configurations and schedule the development instance upgrade in Now Support
 description: Check the configuration of the Check distribution for possible upgrade scheduled job to view how often and when it runs. Review information about timing your upgrade in coordination with the Check distribution for possible upgrade scheduled job. Then, schedule your upgrade in Now Support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-phase-3.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/upgrades-phase-3.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

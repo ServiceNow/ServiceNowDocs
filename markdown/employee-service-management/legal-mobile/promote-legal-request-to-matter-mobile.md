@@ -2,7 +2,7 @@
 title: Promote a legal request to a legal matter through Mobile Agent
 description: Promote a legal request to a legal matter when the request needs additional investigation and evaluation and substantial time to work on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/promote-legal-request-to-matter-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/promote-legal-request-to-matter-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile
@@ -18,7 +18,7 @@ Promote a legal request to a legal matter when the request needs additional inve
 
 ## Before you begin
 
-Ensure you have the Legal Matter Management app installed and the record producer type in the associated intake form is set to **Request and Matter**. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md).
+Ensure you have the Legal Matter Management app installed and the record producer type in the associated intake form is set to **Request and Matter**. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/associate-categories-practice-area.md).
 
 Role required: sn\_lg\_ops.legal\_fulfiller
 

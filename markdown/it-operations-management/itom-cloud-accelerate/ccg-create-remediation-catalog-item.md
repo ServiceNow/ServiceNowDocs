@@ -2,7 +2,7 @@
 title: Create a remediation catalog item
 description: Create a custom remediation catalog item in Cloud Configuration Governance for the remediations that require additional input parameters to execute.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-create-remediation-catalog-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/ccg-create-remediation-catalog-item.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -128,7 +128,7 @@ Status of the catalog item.The copied catalog item is active by default.
 
     6.  Test the &lt;Catalog item name&gt;\_Action.
 
-        For more information, see Test an action.
+        For more information, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-action.md).
 
     7.  Publish the &lt;Catalog item name&gt;\_Action.
 
@@ -159,5 +159,5 @@ Status of the catalog item.The copied catalog item is active by default.
 
 ## What to do next
 
-Run the remediation action to fix the identified violation. For more information, see [Run remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-run-remediation.md).
+Run the remediation action to fix the identified violation. For more information, see [Run remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/ccg-run-remediation.md).
 

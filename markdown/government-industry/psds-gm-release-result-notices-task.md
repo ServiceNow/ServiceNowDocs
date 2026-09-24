@@ -2,7 +2,7 @@
 title: Release result notices to applicants
 description: After the Grant Program Director approves a Funding Allocation Request, release result notices to applicants individually or in bulk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gm-release-result-notices-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-gm-release-result-notices-task.html
 release: australia
 topic_type: task
 last_updated: "2026-06-08"

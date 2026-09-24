@@ -2,7 +2,7 @@
 title: Explore the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery
 description: The Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery imports data from a connected Operational Technology \(OT\) Discovery environment and leverages the Integration Hub ETL framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/explore-service-graph-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/explore-service-graph-connector.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,5 +18,5 @@ The Service Graph Connector for ServiceNow Operational Technology \(OT\) Discove
 
 Go through each step to install and setup the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery \(SGC\).
 
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-ot-discovery.md)
 

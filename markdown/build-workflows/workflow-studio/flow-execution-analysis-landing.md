@@ -2,7 +2,7 @@
 title: Flow execution analysis
 description: Analyze flow execution details to identify errors and suggest potential fixes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-execution-analysis-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-execution-analysis-landing.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -20,11 +20,11 @@ Analyze flow execution details to identify errors and suggest potential fixes.
 
 <table id="table_o2k_lyy_qhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/explore-flow-execution-analysis.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/explore-flow-execution-analysis.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Flow execution analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-the-flow-execution-analysis-skill.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Flow execution analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-the-flow-execution-analysis-skill.md)
 
 </td></tr><tr><td>
 
@@ -73,12 +73,12 @@ This application uses artificial intelligence \(AI\) and machine learning, which
 
 This application requires data to be transferred from ServiceNow customers' individual instances to a centralized ServiceNow environment, which may be located in a different data center region from the one where your instance is, and potentially to a third-party cloud provider, such as Microsoft Azure. This data is handled per ServiceNow's internal policies and procedures, including our policies available through our [CORE Compliance Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0564067).
 
--   **[Explore flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/explore-flow-execution-analysis.md)**  
+-   **[Explore flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/explore-flow-execution-analysis.md)**  
 Summarize flow execution details and get recommendations to resolve errors with generative AI.
--   **[Analyze a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/analyze-a-flow.md)**  
+-   **[Analyze a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/analyze-a-flow.md)**  
 Have ServiceNow Otto for Creator scan a flow's execution details, identify errors, and suggest fixes.
--   **[Turn on the Flow execution analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-the-flow-execution-analysis-skill.md)**  
+-   **[Turn on the Flow execution analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-the-flow-execution-analysis-skill.md)**  
 Turn on the flow execution analysis skill to summarize flow execution details and generate recommendations for flow in an error state.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md)
 

@@ -2,7 +2,7 @@
 title: Update iteration details in EAP
 description: Edit details of a PI or a Sprint to update details such as name, team capacity, committed points.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -18,7 +18,7 @@ Edit details of a PI or a Sprint to update details such as name, team capacity, 
 
 ## Before you begin
 
-[Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
+[Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
 
 Role required: sn\_apw\_advanced.eap\_user or sn\_apw\_advanced.eap\_scrum\_master
 
@@ -26,11 +26,11 @@ Role required: sn\_apw\_advanced.eap\_user or sn\_apw\_advanced.eap\_scrum\_mast
 
 Only an EAP scrum master can change the **Start date** and **End date** of an iteration that follows a planning calendar entry. Users with the EAP user role can update the other iteration details, such as the name and the team capacity.
 
-On an iteration that doesn't follow a planning calendar entry, an EAP user can also change the **Start date** and **End date**. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
+On an iteration that doesn't follow a planning calendar entry, an EAP user can also change the **Start date** and **End date**. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
 
 When you change the start date or end date of an iteration, the change updates the underlying planning calendar entry. The iterations on all other teams that share that entry are updated too, which keeps iteration timelines aligned across teams that plan together. Iterations that are complete or cancelled aren't updated.
 
-Date changes must pass the same rules that apply on creation. For the full list, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
+Date changes must pass the same rules that apply on creation. For the full list, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ Date changes must pass the same rules that apply on creation. For the full list,
 
     The **Start date** and **End date** fields are editable only for an EAP scrum lead on an iteration that follows a planning calendar entry. On other iterations, an EAP user can also change these fields.
 
-    The **Spillover** and **New scope** fields are read-only. They're calculated when you complete the iteration. For more information, see [Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md).
+    The **Spillover** and **New scope** fields are read-only. They're calculated when you complete the iteration. For more information, see [Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md).
 
     \[Omitted image "eap-edit-sprint.png"\] Alt text: Sprint details in the side panel in EAP.
 
@@ -53,10 +53,10 @@ Date changes must pass the same rules that apply on creation. For the full list,
     If the new dates conflict with existing iterations or the underlying calendar entry, the changes aren't saved and an error message identifies the conflict.
 
 
-**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md)
 
 **Related topics**  
 
 
-[Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md)
+[Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md)
 

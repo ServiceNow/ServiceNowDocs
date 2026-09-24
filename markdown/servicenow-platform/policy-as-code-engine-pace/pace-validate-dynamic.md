@@ -2,7 +2,7 @@
 title: Map PaCE policies using Dynamic Mapping
 description: Use Dynamic Mapping to map multiple PaCE policies against specified conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-validate-dynamic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-validate-dynamic.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

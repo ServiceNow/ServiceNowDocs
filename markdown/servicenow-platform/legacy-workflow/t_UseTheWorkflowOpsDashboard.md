@@ -2,7 +2,7 @@
 title: Use the Workflow Operations Dashboard
 description: On the Workflow Operations Dashboard, view and add widgets to help you monitor workflows. Review the performance of workflows and determine which workflows must be improved.Multiple gauges are available to help you review the performance of workflows. You can add these gauges to the Workflow Operations Dashboard or custom homepages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/t\_UseTheWorkflowOpsDashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/t\_UseTheWorkflowOpsDashboard.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow

@@ -2,7 +2,7 @@
 title: State progression for normal, standard, and emergency changes
 description: Each change request model progresses through a number of state values in a specific order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/normal-standard-emergency-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/normal-standard-emergency-states.html
 release: australia
 product: Change Management
 classification: change-management
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Change Management, IT Service Management]
 
 Each change request model progresses through a number of state values in a specific order.
 
-To enable state transitions, you can attach a process with defined conditions to the change model states. For more information, see [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/attach-process-change-model.md).'
+To enable state transitions, you can attach a process with defined conditions to the change model states. For more information, see [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/attach-process-change-model.md).'
 
 ## Change type progression
 
@@ -26,11 +26,11 @@ Each change type progresses through the same states in a different sequence:
 -   Standard changes are pre-authorized, so they bypass the **Assess** and **Authorize** states and move from New to Scheduled.
 -   Emergency changes bypass the **Assess** state but still require the **Authorize** state before scheduling.
 
-For the state values and descriptions, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md)
+For the state values and descriptions, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ChangeStateModel.md)
 
 ## State transition triggers
 
-A change request moves between states based on defined conditions, user actions, and approval outcomes and not on elapsed time. A change manager attaches a process with the change model states using Workflow Studio or business rules. When the conditions for a state are met, the change request progresses to the next state. For example, when a required approval is granted, or a user submits the change. For more information on configuration details, see [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/attach-process-change-model.md).
+A change request moves between states based on defined conditions, user actions, and approval outcomes and not on elapsed time. A change manager attaches a process with the change model states using Workflow Studio or business rules. When the conditions for a state are met, the change request progresses to the next state. For example, when a required approval is granted, or a user submits the change. For more information on configuration details, see [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/attach-process-change-model.md).
 
 <table id="table_bls_cnj_11b"><thead><tr><th>
 
@@ -311,5 +311,5 @@ No
 No
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/exploring-change-management.md)
+</table>**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 

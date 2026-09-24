@@ -2,7 +2,7 @@
 title: Create exam catalogs
 description: Create exam catalogs to be able to segregate exams based on category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/create-exam-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/create-exam-catalog.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -36,12 +36,12 @@ Role required: sn\_exam.catalog\_admin
 3.  Select **Submit**.
 
 
--   **[Define user access for an exam catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/define-exam-catalog-user-access.md)**  
+-   **[Define user access for an exam catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/define-exam-catalog-user-access.md)**  
 After creating an exam catalog, define user access criteria at the exam catalog level.
--   **[Add exams to a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/assign-catalog-exams.md)**  
+-   **[Add exams to a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/assign-catalog-exams.md)**  
 Add exams to an exam catalog in Career Assessment.
 
-**Parent Topic:**[Using Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/using-exam-engine.md)
+**Parent Topic:**[Using Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/using-exam-engine.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create an interaction in Service Operations Workspace
 description: Track an interaction that is a centralized location for all communication channels. Each interaction represents a request for assistance through a communication channel, for example, a phone call or a chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-interaction-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-interaction-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -24,15 +24,15 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating an interaction.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d153378e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d153377e52">
 
 Option
 
-</th><th align="left" id="d153378e55">
+</th><th align="left" id="d153377e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153378e61">
+</th></tr></thead><tbody><tr><td id="d153377e61">
 
 **From the List menu in the primary navigation**
 
@@ -43,7 +43,7 @@ Description
 3.  Click **New Interaction**.
 
 
-</td></tr><tr><td id="d153378e100">
+</td></tr><tr><td id="d153377e100">
 
 **From an interaction list**
 
@@ -77,7 +77,7 @@ Description
 3.  Click **Save**.
 
 
-**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/interaction-sow.md)
+**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/interaction-sow.md)
 
 **Related topics**  
 

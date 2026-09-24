@@ -2,7 +2,7 @@
 title: Customize the map properties
 description: Customize how your map renders in the Workplace Service Portal by configuring Workplace Space Mapping properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsm-configure-map-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/wsm-configure-map-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,10 +30,10 @@ Indoor maps properties are specific to ServiceNow AI Platform capabilities. Map 
 
 2.  Set the map properties based on your preference.
 
-    For more information about the map properties, see [Properties installed with Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsd-space-mapping-properties.md).
+    For more information about the map properties, see [Properties installed with Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsd-space-mapping-properties.md).
 
 3.  Click **Save**.
 
 
-**Parent Topic:**[Setting up Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/set-up-workplace-service-mapping.md)
+**Parent Topic:**[Setting up Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/set-up-workplace-service-mapping.md)
 

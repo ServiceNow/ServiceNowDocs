@@ -2,7 +2,7 @@
 title: Browse punchout and native catalog items from the Categories and Suppliers lists in Shopping Hub \(SH\)
 description: In Shopping Hub, you can view both the punchout \(third-party\) and the native catalog items from the Categories or the Suppliers list on the Shopping Hub home page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/sh-browse-products.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/sh-browse-products.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -26,7 +26,7 @@ Only cXML punchout products are displayed in both the **Categories** and **Suppl
 
 **Important:** Enabling shopping controls may affect the page load time.
 
-For more information about the checkout experiences for shoppers based on whether they have installed Employee Center, Shopping Hub, or both, see [Shopper checkout experiences based on installed applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ec-sh-checkout-flow.md).
+For more information about the checkout experiences for shoppers based on whether they have installed Employee Center, Shopping Hub, or both, see [Shopper checkout experiences based on installed applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/ec-sh-checkout-flow.md).
 
 ## Procedure
 
@@ -61,5 +61,5 @@ For more information about the checkout experiences for shoppers based on whethe
     \[Omitted image "sh-product-tile.png"\] Alt text: Product tile in Shopping Hub.
 
 
-**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

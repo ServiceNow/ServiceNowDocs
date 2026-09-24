@@ -2,7 +2,7 @@
 title: How CIM Discovery works
 description: This is the processing flow for classifying Common Information Model \(CIM\) storage systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_HowCIMDiscoveryWorks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r\_HowCIMDiscoveryWorks.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -81,5 +81,5 @@ If you’re using multiple storage vendors with custom namespaces not specified 
 |SMI - Storage Server|Retrieves SAN and NAS arrays and servers.|
 |SMI - WBEM Service|Retrieves WBEM Service information such as profiles and SMI-S version.|
 
-**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
+**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
 

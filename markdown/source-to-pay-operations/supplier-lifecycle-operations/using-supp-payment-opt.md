@@ -2,7 +2,7 @@
 title: Using Supplier Payment Optimization
 description: Use Supplier Payment Optimization for identifying, prioritizing, and tracking suppliers with high potential of accepting credit card payments. The saving estimation tool can be used to calculate potential savings from credit card payments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/using-supp-payment-opt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/using-supp-payment-opt.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -18,18 +18,18 @@ Use Supplier Payment Optimization for identifying, prioritizing, and tracking su
 
 **Important:** Check your entitlements to determine whether you have access to Supplier Payment Optimization.
 
--   **[Add propensity score for a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-propensity-score.md)**  
+-   **[Add propensity score for a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-propensity-score.md)**  
 Add propensity scores to identify suppliers likely to accept credit card payments for optimization.
--   **[Create a case for supplier credit card enablement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-credit-card-enblmnt-case.md)**  
+-   **[Create a case for supplier credit card enablement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-credit-card-enblmnt-case.md)**  
 Create a supplier case to request for the credit card information from a supplier.
--   **[Supplier credit card enablement playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/credit-card-enblmnt-playbook.md)**  
+-   **[Supplier credit card enablement playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/credit-card-enblmnt-playbook.md)**  
 Source-to-Pay Workspace includes a playbook to complete the supplier cases for initiating credit card acceptance requests.
--   **[Estimate savings using the saving estimator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/estimate-savings.md)**  
+-   **[Estimate savings using the saving estimator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/estimate-savings.md)**  
 Use the saving estimator tool to calculate potential savings from credit card payments. The tool uses default values and allows users to modify billing cycles and other parameters to create estimates.
--   **[View the Payment Optimization dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-payment-opt-db.md)**  
+-   **[View the Payment Optimization dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/view-payment-opt-db.md)**  
 The Payment optimization dashboard provides an overview of the total spend and potential savings for all suppliers.
 
-**Parent Topic:**[Use Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgmt.md)
+**Parent Topic:**[Use Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgmt.md)
 
 **Related topics**  
 
@@ -40,7 +40,7 @@ The Payment optimization dashboard provides an overview of the total spend and p
 
 [Using Supplier Relationship and Performance Management]()
 
-[View the Payment Optimization dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-payment-opt-db.md)
+[View the Payment Optimization dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/view-payment-opt-db.md)
 
-[Estimate savings using the saving estimator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/estimate-savings.md)
+[Estimate savings using the saving estimator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/estimate-savings.md)
 

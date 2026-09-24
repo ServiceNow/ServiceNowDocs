@@ -2,7 +2,7 @@
 title: Enable languages for a knowledge base
 description: Select the languages you want enabled at a knowledge base level. Users can then create articles only for selected languages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/enable-language-for-knowledge-base.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/enable-language-for-knowledge-base.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -35,5 +35,5 @@ Role required: knowledge\_admin or admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

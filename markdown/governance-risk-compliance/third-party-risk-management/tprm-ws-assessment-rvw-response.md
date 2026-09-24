@@ -2,7 +2,7 @@
 title: Review responses to external questionnaires
 description: Third-party contacts use the Third-party portal to complete assessments and collaborate with the TPR manager in the comments section for each question. When assessments reveal gaps, the TPR manager or the TPR assessor can generate an issue or task. In addition, the Vendor Management Workspace application can auto-generate issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-assessment-rvw-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-assessment-rvw-response.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -30,7 +30,7 @@ To enable TPR assessors to modify responses, configure the **Allow TPR assessors
 -   Enable TPR assessors to modify responses
 -   Do not enable TPR assessors to answer questions or modify responses
 
-See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 ## Procedure
 

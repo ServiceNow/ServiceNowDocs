@@ -2,7 +2,7 @@
 title: Set up the Office Malicous File Detected playbook
 description: Use the following steps to set up the Office Malicous File Detected playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-office-malicous-file-detected.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-setup-office-malicous-file-detected.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -44,7 +44,7 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
     This playbook is triggered and associated with the security incident when the **Category** is **Malicious code activity**.
 
 
-**Parent Topic:**[Playbook for Office 365 - Malicious File Detected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-office-malicious-file-detected-.md)
+**Parent Topic:**[Playbook for Office 365 - Malicious File Detected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-office-malicious-file-detected-.md)
 
 **Related topics**  
 

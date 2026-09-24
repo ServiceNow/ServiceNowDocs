@@ -2,7 +2,7 @@
 title: Add a quick action in your mobile applications
 description: Provide your users with a shortcut, which is also known as a quick action, to an item or action in your mobile apps. Quick actions appear on the applet launcher page.Provide easy access to an important item by creating a quick action. For example, you can create a quick action that opens a Service Catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/add-quick-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-mobile-employee-experience/add-quick-action.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -48,7 +48,7 @@ Role required: admin
 
 Your users can open the quick action by selecting the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the applet launcher page.
 
-**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 
 ## Create a quick action in your mobile applications
 

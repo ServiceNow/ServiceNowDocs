@@ -2,7 +2,7 @@
 title: Activate work notes analysis skill
 description: Activate the Work Notes Analysis skill to be able to use ServiceNow Otto for Process Mining to analyse work notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/activate-na-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/activate-na-skill.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -33,5 +33,5 @@ Role required: admin
     The skill is activated for your instance.
 
 
-**Parent Topic:**[Working with work notes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/worknotes.md)
+**Parent Topic:**[Working with work notes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/worknotes.md)
 

@@ -2,7 +2,7 @@
 title: Viewing data usage by table
 description: View a summary of data usage for an individual table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/data-management-table-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/data-management-table-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Select the Azure policies to activate for metric collection
 description: Activate the Azure policies that come with the Agent Client Collector base system so that Azure virtual machines can collect metrics. These metrics help you monitor the configuration items \(CIs\) in the CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/select-policies-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/select-policies-azure.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -28,7 +28,7 @@ Role required: agent\_client\_collector\_admin
 
 1.  Prepare and configure the proxy agent to be used by the policy.
 
-    For details on configuring a proxy agent, see [Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/proxy-agent.md).
+    For details on configuring a proxy agent, see [Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/proxy-agent.md).
 
 2.  Assign the credentials to the Azure policy.
 
@@ -36,7 +36,7 @@ Role required: agent\_client\_collector\_admin
 
     2.  Select the relevant policy.
 
-        For details on the policies that are available with the base system, see [Azure cloud metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/azure-cloud-metrics.md).
+        For details on the policies that are available with the base system, see [Azure cloud metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/azure-cloud-metrics.md).
 
     3.  Select the **Credentials** tab.
 
@@ -65,5 +65,5 @@ Role required: agent\_client\_collector\_admin
 8.  Republish the policy by selecting **Republish**.
 
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

@@ -2,7 +2,7 @@
 title: Configure knowledge-based authentication
 description: Configure knowledge-based authentication \(KBA\) to identify and authenticate callers by prompting them to answer preconfigured questions across conversational AI channels, such as AI voice agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-kba.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/configure-kba.html
 release: australia
 product: Authentication
 classification: authentication
@@ -26,10 +26,10 @@ Role required: auth\_factors\_admin
 
 2.  Perform the following:
 
-    -   [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-questions.md)
-    -   [Create KBA answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-knowledge-based-answers.md)
-    -   [Map KBA questions to answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-kba-answer-mappings.md)
-    -   [AI voice agent service mapping with KBA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-kba-service-mappings.md)
+    -   [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-questions.md)
+    -   [Create KBA answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md)
+    -   [Map KBA questions to answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-kba-answer-mappings.md)
+    -   [AI voice agent service mapping with KBA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-kba-service-mappings.md)
     After creating the KBA configurations, you can use it as an identification and authentication method.
 
 

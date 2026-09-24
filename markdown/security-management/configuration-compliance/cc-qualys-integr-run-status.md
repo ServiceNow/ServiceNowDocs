@@ -2,7 +2,7 @@
 title: Qualys integration run status chart
 description: The Qualys Integration Run Status module is a graphical view of the status of Qualys integration runs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-qualys-integr-run-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/cc-qualys-integr-run-status.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

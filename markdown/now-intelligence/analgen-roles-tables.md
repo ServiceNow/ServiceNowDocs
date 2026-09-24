@@ -2,7 +2,7 @@
 title: Data visualization generation roles
 description: Several types of components are installed with activation of the plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/analgen-roles-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/analgen-roles-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,7 +43,7 @@ sn\_query\_gen.user
 </td></tr></tbody>
 </table>## Tables installed
 
-Data visualization generation does not include any tables of its own. However, it relies on the Query Generation back end, which does include several tables. For more information, see [Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation.md).
+Data visualization generation does not include any tables of its own. However, it relies on the Query Generation back end, which does include several tables. For more information, see [Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/query-generation.md).
 
-**Parent Topic:**[Reference for dashboard and visualization skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analgen-reference.md)
+**Parent Topic:**[Reference for dashboard and visualization skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analgen-reference.md)
 

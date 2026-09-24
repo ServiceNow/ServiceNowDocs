@@ -2,7 +2,7 @@
 title: getCurrentBreakdownID\(\)
 description: Returns the level 1 breakdown identifier \(sys\_id\) from the indicator of the current formula. The sys\_id is returned dynamically, as the selection in the Analytics Hub changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/PAFU-getCurrentBreakdownID.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/PAFU-getCurrentBreakdownID.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -50,7 +50,7 @@ if(pa.getCurrentBreakdownSysID() == 'baec0752bf130100b96dac808c0739ed' && pa.get
 res;
 ```
 
-**Parent Topic:**[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
+**Parent Topic:**[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/PAFormulaUtils.md)
 
 **Related topics**  
 
@@ -75,5 +75,5 @@ res;
 
 [getScore\(String indicator, Object onDate\)]()
 
-[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
+[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/PAFormulaUtils.md)
 

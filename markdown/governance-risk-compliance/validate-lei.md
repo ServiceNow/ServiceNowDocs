@@ -2,7 +2,7 @@
 title: Validate Legal Entity Identifier codes for DORA reporting
 description: Review and resolve Legal Entity Identifier \(LEI\) validation results for DORA Register of Information reporting. LEI validation runs automatically during Plain-CSV Reporting Package generation and Microsoft Excel upload. The validation verifies that LEI codes in the digital resilience registers exist in the GLEIF database with active and issued status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/validate-lei.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/validate-lei.html
 release: australia
 topic_type: task
 last_updated: "2026-05-15"
@@ -19,7 +19,7 @@ Review and resolve Legal Entity Identifier \(LEI\) validation results for DORA R
 
 Role required: sn\_oper\_res.manager
 
-Generate a Plain-CSV Reporting Package. For more information, see [Register of Information \(ROI\) regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-dora-roi-reg-pkg.md).
+Generate a Plain-CSV Reporting Package. For more information, see [Register of Information \(ROI\) regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/opres-dora-roi-reg-pkg.md).
 
 ## About this task
 
@@ -98,7 +98,7 @@ Maximum number of LEI codes sent in a single batch GLEIF API call. Valid range: 
 
 4.  If the message indicates issues, download `Consolidated_Reports.zip` from the attachments area of the request record and open `Level4_LEI_Validation_Report.csv`.
 
-    For descriptions of all columns in the report, see [Level 4 LEI Validation Report columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/lei-validation-report.md).
+    For descriptions of all columns in the report, see [Level 4 LEI Validation Report columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/lei-validation-report.md).
 
 5.  Review the **Validation Result** and **Validation Messages** columns to identify which LEI codes require attention and why.
 
@@ -108,15 +108,15 @@ Maximum number of LEI codes sent in a single batch GLEIF API call. Valid range: 
     -   **N/A**: The GLEIF API was unavailable, rate-limited, or timed out during validation. No action required for data accuracy; regenerate the package to retry.
 6.  Update the affected records in the system and regenerate the Plain-CSV Reporting Package to confirm that issues are resolved.
 
-    For more information on resolving validation issues, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-validate-roi.md).
+    For more information on resolving validation issues, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/opres-drtp-validate-roi.md).
 
 
 ## Result
 
 When all LEI codes pass validation, the Level 4 LEI Validation Report is still included in the `Consolidated_Reports.zip` attachment and the request record message confirms successful validation.
 
--   **[Level 4 LEI Validation Report columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/lei-validation-report.md)**  
+-   **[Level 4 LEI Validation Report columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/lei-validation-report.md)**  
 The Level 4 LEI Validation Report \(`Level4_LEI_Validation_Report.csv`\) is generated during Plain-CSV Reporting Package download. It lists the validation result for each Legal Entity Identifier \(LEI\) code found in the reporting package.
 
-**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-dg-registers.md)
 

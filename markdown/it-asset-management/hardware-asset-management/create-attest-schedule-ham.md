@@ -2,7 +2,7 @@
 title: Create an asset attestation schedule
 description: Create an attestation schedule so that recurring asset attestations are created based on the frequency that you specify.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-attest-schedule-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-attest-schedule-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -168,7 +168,7 @@ Comments related to the asset attestation schedule.
 
 ## What to do next
 
-[View open asset attestations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-open-asset-attest-ham.md).
+[View open asset attestations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/view-open-asset-attest-ham.md).
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

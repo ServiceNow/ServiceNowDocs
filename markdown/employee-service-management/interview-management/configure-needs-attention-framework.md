@@ -2,7 +2,7 @@
 title: Configuring interview health tracker alerts
 description: The interview health tracker alerts are driven by the Needs-attention framework. This framework monitors interview records, detects situations that need recruiter attention, and surfaces them as alerts. Configure the framework to control which records it evaluates, what conditions it watches for, and how often it runs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/configure-needs-attention-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/interview-management/configure-needs-attention-framework.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -18,5 +18,5 @@ The interview health tracker alerts are driven by the Needs-attention framework.
 
 For configuration details, see [Configuring Needs-attention framework \[KB3062408\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3062408).
 
-**Parent Topic:**[Configuring Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/configuring-interview-management.md)
+**Parent Topic:**[Configuring Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/configuring-interview-management.md)
 

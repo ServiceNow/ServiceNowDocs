@@ -2,7 +2,7 @@
 title: Process a commercial claim
 description: A processor can initiate a claim, review a claim to verify it and after an adjuster’s evaluation, complete fulfillment tasks and close a claim.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/manually\_validate\_claim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/manually\_validate\_claim.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

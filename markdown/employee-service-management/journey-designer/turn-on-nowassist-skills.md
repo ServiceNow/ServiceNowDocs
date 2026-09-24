@@ -2,7 +2,7 @@
 title: Activate the associated AI skills
 description: Enable the AI skills to allow the system to analyze interview notes and job descriptions, extract keywords, and identify relevant skills. This improves skill gap analysis and ensures accurate, personalized ramp-up plans for new employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/turn-on-nowassist-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/turn-on-nowassist-skills.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -34,5 +34,5 @@ Role required: sn\_hr\_gen\_ai.admin
     -   Resume skill extraction
     -   JNY Relevant Catalog Items
 
-**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
+**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
 

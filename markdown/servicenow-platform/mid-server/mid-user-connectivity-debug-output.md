@@ -2,7 +2,7 @@
 title: Interpreting MID Server user debugging output
 description: Debugging output from the system log is available in either a summary or detailed view for MID Server user issues, but must be enabled manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-user-connectivity-debug-output.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-user-connectivity-debug-output.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -16,7 +16,7 @@ breadcrumb: [Resolving MID Server issues, MID Server reference, MID Server, Mana
 
 Debugging output from the system log is available in either a summary or detailed view for MID Server user issues, but must be enabled manually.
 
-To enable debugging and display all connectivity issues in either of the available formats, you must run a method manually on your instance. For instructions on enabling debugging, see [Test remediation efforts for MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-connectivity-issues.md). For information about each error condition and how records are created in the MID Server Issue \[ecc\_agent\_issue\] table, see [MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-connectivity-issues.md).
+To enable debugging and display all connectivity issues in either of the available formats, you must run a method manually on your instance. For instructions on enabling debugging, see [Test remediation efforts for MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-connectivity-issues.md). For information about each error condition and how records are created in the MID Server Issue \[ecc\_agent\_issue\] table, see [MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-connectivity-issues.md).
 
 ## Available formats
 
@@ -90,5 +90,5 @@ In this example, a user with the mid\_server role has logged in successfully wit
 
 \[Omitted image "MIDDebugLoginSuccessful.png"\] Alt text: Detailed debugging log for MID Server user account login
 
-**Parent Topic:**[Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md)
+**Parent Topic:**[Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md)
 

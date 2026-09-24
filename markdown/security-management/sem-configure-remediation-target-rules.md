@@ -2,7 +2,7 @@
 title: Configuring remediation target rules
 description: By configuring remediation target rules, you can set the expected time frame for addressing findings, similar to how service level agreements \(SLAs\) set deadlines for fixing vulnerabilities.Create remediation target rules to ensure the timely remediation of high-risk vulnerabilities by setting up a remediation target rule at the findings level.The remediation target \(RT\) date defines when a finding must be remediated. Recalculation verifies that RT dates stay accurate and reflect the latest risk rating updates. When a finding’s risk rating changes, the system can recalculate RT dates using the most recent update date, helping maintain accurate SLAs and avoid outdated or overdue target dates.The following examples show how the system recalculates the remediation target date based on different rule selections and risk rating changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-remediation-target-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-remediation-target-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -81,14 +81,14 @@ Recalculate from risk change date and set to earliest target date only when risk
 If the risk increases: Compares the existing RT date and the recalculated RT date and applies the earliest date. If the risk decreases: Compares the existing RT date and the recalculated RT date and applies whichever date is later.
 
 </td></tr></tbody>
-</table>For configuration steps, see [Recalculate a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-remediation-target-rules.md).
+</table>For configuration steps, see [Recalculate a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-remediation-target-rules.md).
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
+**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 
 
-[Defining your own service level agreements \(SLAs\) using remediation target rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-defining-your-own-sla.md)
+[Defining your own service level agreements \(SLAs\) using remediation target rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-defining-your-own-sla.md)
 
 ## Create or edit remediation target rules
 
@@ -96,7 +96,7 @@ Create remediation target rules to ensure the timely remediation of high-risk vu
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-acls-for-admin-rules.md)
 
 ### Procedure
 
@@ -112,7 +112,7 @@ Role required: See [Access control lists \(ACLs\) for administration rules](http
 
 6.  On the remediation target rule form, enter the required details.
 
-    For a full description of each field, see [Remediation target rule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/sem-rt-rules-fields.md).
+    For a full description of each field, see [Remediation target rule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/sem-rt-rules-fields.md).
 
 7.  Select **Save**.
 
@@ -150,21 +150,21 @@ Role required: admin
 
     If you need to create a new rule, select **New**.
 
-    For instructions, see [Create or edit a Vulnerability Response remediation target rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/create-time-to-remediate-rule.md).
+    For instructions, see [Create or edit a Vulnerability Response remediation target rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/create-time-to-remediate-rule.md).
 
 3.  Choose how the system should recalculate the remediation target \(RT\) date when the risk rating changes.
 
     -   In Workspace, this option appears in the Recalculate target date section
     -   In Classic view, use the **Target recalculation method** field.
-<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d435443e512">
+<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d435439e512">
 
 Choice
 
-</th><th align="left" id="d435443e515">
+</th><th align="left" id="d435439e515">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d435443e521">
+</th></tr></thead><tbody><tr><td id="d435439e521">
 
 **Default calculation**
 
@@ -172,7 +172,7 @@ Description
 
 Recalculates the RT date using the standard formula \(Target from \(date\) + Target \(days\)\), based on the rule that currently matches the finding's risk rating. The Field change time-based recalculated date is not applied.
 
-</td></tr><tr><td id="d435443e532">
+</td></tr><tr><td id="d435439e532">
 
 **Recalculate from risk change date**
 
@@ -180,7 +180,7 @@ Recalculates the RT date using the standard formula \(Target from \(date\) + Tar
 
 Updates the Remediation Target date to: Field change time + Target \(days\) based on the new risk rating.
 
-</td></tr><tr><td id="d435443e541">
+</td></tr><tr><td id="d435439e541">
 
 **Recalculate from risk change date and always set to earliest target date**
 
@@ -188,7 +188,7 @@ Updates the Remediation Target date to: Field change time + Target \(days\) base
 
 Compares the existing RT date with Field change time + Target \(days\) and applies the earlier date.
 
-</td></tr><tr><td id="d435443e550">
+</td></tr><tr><td id="d435439e550">
 
 **Recalculate from risk change date and set to earliest target date only when risk rating increases**
 
@@ -204,9 +204,9 @@ If the risk increases: Compares the existing RT date and the recalculated RT dat
 
 For more information on remediation target rules, see:
 
--   [Vulnerability Response remediation target rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/time-to-remediate-rules.md)
--   [Create or edit a Vulnerability Response remediation target rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/create-time-to-remediate-rule.md)
--   [Examples of recalculating a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-remediation-target-rules.md)
+-   [Vulnerability Response remediation target rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/time-to-remediate-rules.md)
+-   [Create or edit a Vulnerability Response remediation target rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/create-time-to-remediate-rule.md)
+-   [Examples of recalculating a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-remediation-target-rules.md)
 
 #### Examples of recalculating a remediation target date
 

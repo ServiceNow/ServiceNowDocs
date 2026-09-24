@@ -2,7 +2,7 @@
 title: Create source type and multi topics in the LES source table
 description: Consume logs for each source type by creating multiple topics per source type. You can now leverage the option of customized selection of specific topics for different log sources during the debugging process, without impacting the other log tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-multi-topics-v2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-multi-topics-v2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,5 +58,5 @@ Role required: admin or sn\_logstoanalytics.admin
     The source type shows up on the Sources list with the selected topic name and other information.
 
 
-**Parent Topic:**[Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-create-source-configuration.md)
+**Parent Topic:**[Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-create-source-configuration.md)
 

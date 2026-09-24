@@ -2,7 +2,7 @@
 title: Configure the questionnaire text for the user and clinician portals
 description: Configure the questionnaire text that is displayed in the user and clinician portals for Vaccine Administration Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/configure-vam-portal-questionnaire-text.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/vaccine-administration-management/configure-vam-portal-questionnaire-text.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -109,5 +109,5 @@ age\_group
 4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

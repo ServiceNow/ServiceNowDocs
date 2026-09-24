@@ -2,7 +2,7 @@
 title: Manage customer communication
 description: Provide a response and feedback to the customer for a decision made on a dispute, such as friendly fraud.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/resolve-fraud-customer-communication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/resolve-fraud-customer-communication.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -94,10 +94,10 @@ The **Issue credit** activity is displayed.
 
 The next activity **Report fraud** is displayed.
 
-3.  Proceed with activities in the playbook as required. For more information about resolving fraud, see [Report fraud to a card network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/report-fraud-to-card-network.md).
+3.  Proceed with activities in the playbook as required. For more information about resolving fraud, see [Report fraud to a card network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/report-fraud-to-card-network.md).
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-a-dispute.md)
+**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

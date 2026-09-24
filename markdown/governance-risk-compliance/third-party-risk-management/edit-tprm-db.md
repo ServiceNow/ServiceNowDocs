@@ -2,7 +2,7 @@
 title: Edit TPRM dashboards
 description: You can edit dashboard and dashboard tab information in the in-line editor. If the dashboard has been shared, any changes you make are applied globally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/edit-tprm-db.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/edit-tprm-db.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -68,7 +68,7 @@ To edit the details of a dashboard created in the in-line editor:
 **Note:** If you don’t see this option, you don’t have permission to edit the dashboard.
 
 3.  Edit the details of the dashboard and then select **Exit editing mode**.
- For more information, see [Edit TPRM dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/edit-tprm-db-details.md).
+ For more information, see [Edit TPRM dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/edit-tprm-db-details.md).
 
 </td></tr><tr><td id="d317321e208">
 

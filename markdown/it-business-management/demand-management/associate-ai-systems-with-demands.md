@@ -2,7 +2,7 @@
 title: Associate AI systems with demands
 description: Add and manage AI system associations directly from the AI Associations tab in Demand Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/associate-ai-systems-with-demands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/associate-ai-systems-with-demands.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -50,7 +50,7 @@ You can select the impacted AI systems for the demand. If the required AI system
     For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
 
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

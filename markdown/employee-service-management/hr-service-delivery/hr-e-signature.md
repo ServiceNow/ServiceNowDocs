@@ -2,7 +2,7 @@
 title: HR e-signature
 description: Sign electronic documents from any desktop or mobile device with e-signature. E-signature is a scoped application that enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn e-signature, their credentials, or as an acknowledgment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-e-signature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-e-signature.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,14 +43,14 @@ You can then use the e-signature templates in HR tasks or HR task templates to r
 
 **Note:** On the HR task form, make sure that the HR task type sets to **E-signature**.
 
--   [Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md)
--   [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-task-template.md)
+-   [Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md)
+-   [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-task-template.md)
 
 ## Migrating existing HR task templates and open HR tasks to e-signature
 
 Migrate existing HR task templates and open HR tasks to the new HR task type for e-signature with the **Migrate HR e-signature tasks** scheduled job. The scheduled job automatically updates the HR task type and e-signature template based on your existing configurations. It also disables the old HR task types for credential, e-signature, and sign document.
 
-For more information, see [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md).
+For more information, see [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md).
 
 ## Activation information
 

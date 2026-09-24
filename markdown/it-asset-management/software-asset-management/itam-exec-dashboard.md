@@ -2,7 +2,7 @@
 title: Executive insights into KPIs using the Asset Management Executive dashboard
 description: Use the Asset Management Executive dashboard to gain visibility into critical KPIs for the Software Asset Management application, Hardware Asset Management application, and the Cloud Cost Management application via a single dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/itam-exec-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/itam-exec-dashboard.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -300,5 +300,5 @@ Number of hardware models that are reaching their end of life in the next 90 day
 Not applicable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+</table>**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

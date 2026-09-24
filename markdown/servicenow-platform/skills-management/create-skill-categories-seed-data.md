@@ -2,7 +2,7 @@
 title: Create skill categories using sample data
 description: Onboard your team quickly using the skill taxonomy framework provided with your application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/create-skill-categories-seed-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/skills-management/create-skill-categories-seed-data.html
 release: australia
 product: Skills Management
 classification: skills-management

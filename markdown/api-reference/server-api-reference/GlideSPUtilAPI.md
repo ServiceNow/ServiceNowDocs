@@ -2,7 +2,7 @@
 title: GlideSPUtil - Global
 description: The GlideSPUtil API provides utility methods to perform common backend functions that support a Service Portal.Instantiates a GlideSPUtil object.Considers ‘id’ query parameter to identify the portal page \(pageGR\) and uses query string of the current transaction to call getHumanReadableUrl\(GlideRecord pageGR, String queryString\) and returns the final human readable.Converts the passed queryParms string parameter into a string map and then resolves the variables in the "Human readable url structure" string provided in the sp\_page record and returns the final human readable part of the URL.Resolves the variables in the Human readable url structure field of the passed-in Service Portal template page object and returns a URL containing the specified query parameters and the resolved human readable parameters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideSPUtilAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideSPUtilAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -23,7 +23,7 @@ Available utility methods:
 
 For additional information, see [Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-human-readable-keywords-page-urls.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideSPUtil - GlideSPUtil\(\)
 

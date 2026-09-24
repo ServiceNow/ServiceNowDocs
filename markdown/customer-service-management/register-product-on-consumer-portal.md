@@ -2,7 +2,7 @@
 title: Register a product from the Consumer Portal
 description: Register a product on the Consumer Portal to track it in your account and access product-specific support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/register-product-on-consumer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/register-product-on-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ After the product is successfully registered, it appears in the Manage products 
 **Related topics**  
 
 
-[View a list of products from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-list-on-consumer-portal.md)
+[View a list of products from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-product-list-on-consumer-portal.md)
 
-[Access your list of install base items from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-items-from-consumer-portal.md)
+[Access your list of install base items from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-install-base-items-from-consumer-portal.md)
 

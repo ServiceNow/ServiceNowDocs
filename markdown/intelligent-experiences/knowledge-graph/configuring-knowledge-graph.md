@@ -2,7 +2,7 @@
 title: Configuring Knowledge Graph
 description: Plan and configure Knowledge Graph implementation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

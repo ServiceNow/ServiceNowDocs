@@ -2,7 +2,7 @@
 title: Access Mobile App Builder and using the application scope selection screen
 description: Access the Mobile App Builder to start the process of creating workflows for your mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-opening.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-opening.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

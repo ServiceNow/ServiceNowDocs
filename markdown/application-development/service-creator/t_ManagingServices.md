@@ -2,7 +2,7 @@
 title: Manage a service
 description: Using the Service Creator, department managers can request a new service category, designate editors and service fulfillers for that category, and create and publish services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/service-creator/t\_ManagingServices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/service-creator/t\_ManagingServices.html
 release: australia
 product: Service Creator
 classification: service-creator

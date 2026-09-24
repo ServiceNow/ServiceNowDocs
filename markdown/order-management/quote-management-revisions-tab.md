@@ -2,7 +2,7 @@
 title: Create quote versions
 description: Use the Revisions tab to create and view the versions of your quote.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-revisions-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-revisions-tab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ The Revisions tab shows all the versions of a quote. Version numbers are sequent
 
 ## What to do next
 
-Use the Customer Order tab to start an order from the Quote. See [Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-customer-orders-tab.md) for more information.
+Use the Customer Order tab to start an order from the Quote. See [Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-customer-orders-tab.md) for more information.
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

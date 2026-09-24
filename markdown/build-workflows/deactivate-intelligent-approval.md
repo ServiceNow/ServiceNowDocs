@@ -2,7 +2,7 @@
 title: Deactivate intelligent approval
 description: Stop using an intelligent approval to make approval decisions and set its state to inactive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/deactivate-intelligent-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/deactivate-intelligent-approval.html
 release: australia
 topic_type: task
 last_updated: "2026-07-01"

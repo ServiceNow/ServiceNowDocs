@@ -2,7 +2,7 @@
 title: Legacy: IT Manager dashboard
 description: Follow the daily and weekly progress of incidents, problems, and requests for your assignment groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-it-manager-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-it-manager-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Legacy: Performance Analytics ITSM Dashboards, Platform Analytics I
 
 Follow the daily and weekly progress of incidents, problems, and requests for your assignment groups.
 
-IT managers can use the [ITSM Success Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md) to view the metrics for their assignment groups.
+IT managers can use the [ITSM Success Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md) to view the metrics for their assignment groups.
 
 \[Omitted image "itsm-it-manager.gif"\] Alt text: Animated tour of the tabs of the IT Manager dashboard
 
@@ -299,5 +299,5 @@ The following indicators do not appear on the dashboard but are used in formulas
 -   SLA Definition
 -   State \(Change, Request, Problem\)
 
-**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack.md)
+**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-dashboards-content-pack.md)
 

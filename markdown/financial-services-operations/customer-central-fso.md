@@ -2,7 +2,7 @@
 title: Customer Central for FSO
 description: Customer Central provides agents or contributors with all the information about the customer in one central place. It enables them to focus on the customer issue and provide efficient and supportive services to their customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/customer-central-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/customer-central-fso.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

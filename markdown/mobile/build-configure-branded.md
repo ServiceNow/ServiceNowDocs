@@ -2,7 +2,7 @@
 title: Building and configuring in branded mobile apps
 description: Learn about configuring push notifications for branded mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/build-configure-branded.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/build-configure-branded.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,11 +20,11 @@ Most app configuration processes for branded apps are the same as non-branded ap
 
 To use push notifications for your branded apps, you must change your push application settings.
 
--   For iOS apps, see [Configure push applications for iOS branded apps using certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-push-setup-ios.md).
--   For Android apps, see [Configure push applications for Android branded apps using HTTP v1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-push-setup-android-httpv1.md).
+-   For iOS apps, see [Configure push applications for iOS branded apps using certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-push-setup-ios.md).
+-   For Android apps, see [Configure push applications for Android branded apps using HTTP v1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-push-setup-android-httpv1.md).
 
--   **[Create custom-type mobile apps with Mobile Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mob-pub-about-custom-apps.md)**  
+-   **[Create custom-type mobile apps with Mobile Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mob-pub-about-custom-apps.md)**  
 Request and create custom-type mobile apps that are equivalent to Mobile Agent and Now® Mobile apps with Mobile Publishing and Mobile App Builder.
 
-**Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-publishing.md)
+**Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-publishing.md)
 

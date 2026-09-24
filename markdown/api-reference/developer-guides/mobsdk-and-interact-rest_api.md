@@ -2,7 +2,7 @@
 title: Interact with the public REST API on a ServiceNow instance
 description: The Mobile SDK provides functionality that enables Android applications to call the public REST API on a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-interact-rest\_api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-and-interact-rest\_api.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -16,9 +16,9 @@ breadcrumb: [Mobile SDK Developer Guide - Android, Developer guides, API impleme
 
 The Mobile SDK provides functionality that enables Android applications to call the public REST API on a ServiceNow instance.
 
-Using the [NowAPIService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAPIServiceAndroidInterface.md) API you can interact with any of the base ServiceNow public [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md), or create custom REST APIs within the instance and call those from your Android application.
+Using the [NowAPIService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowAPIServiceAndroidInterface.md) API you can interact with any of the base ServiceNow public [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md), or create custom REST APIs within the instance and call those from your Android application.
 
-Before making a call to a ServiceNow REST API, you must call the[makeNowAPIService\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowDataSDKAndroidAPI.md) method to create an instance of the service. The service instance is returned in the callback if successful otherwise, an error is thrown.
+Before making a call to a ServiceNow REST API, you must call the[makeNowAPIService\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowDataSDKAndroidAPI.md) method to create an instance of the service. The service instance is returned in the callback if successful otherwise, an error is thrown.
 
 The following shows how to initialize a NowAPIService object:
 
@@ -46,7 +46,7 @@ class SdkManager @Inject constructor() {
 }
 ```
 
-Once the NowAPIService object is initialized, use the NowAPIService [data\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAPIServiceAndroidInterface.md) method to specify the REST endpoint to call and all of its associated parameters:
+Once the NowAPIService object is initialized, use the NowAPIService [data\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowAPIServiceAndroidInterface.md) method to specify the REST endpoint to call and all of its associated parameters:
 
 ```
  suspend fun makeNowApiCall() {

@@ -2,7 +2,7 @@
 title: Manage bot messages for Conversational IVR
 description: Edit your custom messages to ensure that your conversations are optimized for Conversational IVR.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/edit-va-ivr-messages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/edit-va-ivr-messages.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -41,5 +41,5 @@ Role required: admin
 7.  Edit the **Value** for the message and click **Update**.
 
 
-**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-ivr.md)
+**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-ivr.md)
 

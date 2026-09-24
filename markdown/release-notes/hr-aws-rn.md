@@ -2,7 +2,7 @@
 title: Agent Workspace for HR Case Management release notes
 description: The ServiceNow Agent Workspace for HR Case Management application enables you to interact with employees, respond to inquiries, and resolve issues quickly. Agent Workspace for HR Case Management was enhanced and updated in the Australia release.The ServiceNow Agent Workspace for HR Case Management application enables you to interact with employees, respond to inquiries, and resolve issues quickly. Agent Workspace for HR Case Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/hr-aws-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/hr-aws-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ See [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/S
     Install Agent Workspace for HR Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md)
+**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/hr-service-delivery-landing.md)
 
 ## Australia
 

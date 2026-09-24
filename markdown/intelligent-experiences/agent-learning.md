@@ -2,7 +2,7 @@
 title: AI agent learning
 description: Enhance AI agent learning through episodic memory, enabling agents to improve by learning from past successful interactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/agent-learning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/agent-learning.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ When an agent learning is enabled, the AI agent:
 -   Memory is heavily based on experience correction rather than just context extension.
 -   Memory entries carry relevance weights \(like attention scores\) → aligns with adaptive retention seen in human-like learning.
 
-To configure agent learning at the AI agent level, see [Define the specialty of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-specialty.md).
+To configure agent learning at the AI agent level, see [Define the specialty of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-specialty.md).
 
-To configure agent learning at the AI Agent Studio level, see [Set up long-term memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/long-term-memory-aia.md).
+To configure agent learning at the AI Agent Studio level, see [Set up long-term memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/long-term-memory-aia.md).
 

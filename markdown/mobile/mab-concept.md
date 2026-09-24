@@ -2,7 +2,7 @@
 title: Mobile App Builder
 description: The ServiceNow Mobile App Builder \(MAB\) is a configuration tool to build and manage screens and records that make up workflows within ServiceNow mobile apps. The organizational layout and navigation options in the Mobile App Builder facilitate a faster and more intuitive creation of ServiceNow mobile applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-concept.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ Benefits and uses of the Mobile App Builder include the following:
 
 Mobile App Builder \(MAB\) is automatically installed on your instance with the base system plugin sn\_mab. Starting in version 22.6, when there is a new version of the plugin, a banner appears at the top of the MAB screen indicating a new version is available. Select **Update** in the banner to install the new version.
 
-For more information about the MAB plugin and its associated plugins for the Mobile App Builder API and Mobile Card Builder, see [Mobile plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-plugins.md).
+For more information about the MAB plugin and its associated plugins for the Mobile App Builder API and Mobile Card Builder, see [Mobile plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-plugins.md).
 
 ## Mobile App Builder workflow
 
@@ -52,7 +52,7 @@ In the Washington DC family release and later, Mobile App Builder is now integra
 
 \[Omitted image "mob-pub-mab-integration.png"\] Alt text: Mobile Publishing sidebar on the Mobile App Builder main page
 
-Select a custom branded app card in the **Manage your branding** side panel to open it in Mobile Publishing. For more information about Mobile Publishing, see [Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-publishing.md).
+Select a custom branded app card in the **Manage your branding** side panel to open it in Mobile Publishing. For more information about Mobile Publishing, see [Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-publishing.md).
 
 ## Add push notifications to mobile apps with Mobile App Builder
 
@@ -60,5 +60,5 @@ In the Washington DC family release and later, you can now add push notification
 
 \[Omitted image "push-notif-in-mab.png"\] Alt text: Mobile App Builder menu showing push notifications
 
-Select **Mobile notifications** in the menu and then select the push notification you want to use. For more information about push notifications, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md).
+Select **Mobile notifications** in the menu and then select the push notification you want to use. For more information about push notifications, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-push-notifications.md).
 

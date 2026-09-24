@@ -2,7 +2,7 @@
 title: Associate Amazon Connect queues for ITSM to a ServiceNow instance
 description: Set up phone queues for Amazon Connect to gain visibility into the queues using Workforce Optimization for ITSM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/setup-cloudcallcenter-itsm-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/setup-cloudcallcenter-itsm-configurable-workspace.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -78,5 +78,5 @@ A routing profile links queues to agents. Every agent must have a routing profil
     5.  In the **Order** field, select the order number for the assignment group that shows the priority in which incoming calls are handled.
     6.  Click **Submit**.
 
-**Parent Topic:**[Using Voice with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/voice-configurable-wfo-itsm.md)
+**Parent Topic:**[Using Voice with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/voice-configurable-wfo-itsm.md)
 

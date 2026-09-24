@@ -2,7 +2,7 @@
 title: Test and activate a desktop action in AI Desktop Actions
 description: Test the desktop action and then activate it so that it’s available as a tool in the AI Agent Studio. You can add this tool to the AI agents that execute desktop actions in your desktop environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-activate-desktop-action-ad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-activate-desktop-action-ad.html
 release: australia
 topic_type: task
 last_updated: "2026-05-22"
@@ -16,9 +16,9 @@ Test the desktop action and then activate it so that it’s available as a tool 
 
 ## Before you begin
 
--   Capture your automation steps. For more information, see [Automate repetitive tasks by recording steps with AI in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/record-with-ai-ad.md), [Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md), or [Extend a desktop action by manually capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manual-create-desktop-action-ad.md).
--   Configure the properties for screens, anchors, and steps. For more information, see [Screen, anchor, and step properties in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/screen-anchor-and-action-properties-ad.md).
--   Add desktop action details, such as name, description, and associated applications, and review inputs and outputs. For more information, see [Add details to desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-details-desktop-action-ad.md).
+-   Capture your automation steps. For more information, see [Automate repetitive tasks by recording steps with AI in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/record-with-ai-ad.md), [Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/auto-create-desktop-action-ad.md), or [Extend a desktop action by manually capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manual-create-desktop-action-ad.md).
+-   Configure the properties for screens, anchors, and steps. For more information, see [Screen, anchor, and step properties in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/screen-anchor-and-action-properties-ad.md).
+-   Add desktop action details, such as name, description, and associated applications, and review inputs and outputs. For more information, see [Add details to desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-details-desktop-action-ad.md).
 
 Role required: sn\_aia.admin
 
@@ -96,18 +96,18 @@ While working on a desktop action, the test values you enter are retained across
 
 5.  After a successful completion of the desktop action test and when you're satisfied with the result, select **Activate** to publish the desktop action in AI Agent Studio.
 
-    **Important:** If you recorded the desktop action using [Record with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/record-with-ai-ad.md), an alert appears if any screens have failed anchors. Resolve the issues before activating to verify reliable automation at runtime.
+    **Important:** If you recorded the desktop action using [Record with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/record-with-ai-ad.md), an alert appears if any screens have failed anchors. Resolve the issues before activating to verify reliable automation at runtime.
 
     The **Activate** button sets the desktop action as active or inactive. Only the activated on-screen desktop actions can be selected from the drop-down in AI Agent Studio.
 
     **Note:** After activation, save the desktop action to make it available as a tool in AI Agent Studio.
 
 
-If you get en error that the file size is beyond 10 MB, you can increase the file size in a payload by creating system properties in the ServiceNow instance. For more information, see [Increase payload limit through system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/increase-payload-limit-ad.md).
+If you get en error that the file size is beyond 10 MB, you can increase the file size in a payload by creating system properties in the ServiceNow instance. For more information, see [Increase payload limit through system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/increase-payload-limit-ad.md).
 
 ## What to do next
 
-Create an AI agent. For more information, see [Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md).
+Create an AI agent. For more information, see [Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-ai-agents-ad.md).
 
 Enable AI agents to perform desktop actions by adding desktop actions as tools. For more information, see .
 

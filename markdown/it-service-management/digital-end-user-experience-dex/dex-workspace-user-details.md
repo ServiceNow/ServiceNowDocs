@@ -2,7 +2,7 @@
 title: Device details
 description: Device details in Service Operations Workspace provide operational status and configuration information for devices in your environment. Use this view to review asset tags, serial numbers, model IDs, manufacturers, and connected component details for a selected device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-workspace-user-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/dex-workspace-user-details.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -23,5 +23,5 @@ To access a user and device details, **Workspaces** &gt; **Service Operations Wo
 -   Devices are categorized as **Up** or **Down** based on their current operational status.
 -   Select **Computer details** to access comprehensive information about the device. The information includes the asset tag, serial number, model ID, manufacturer, and configuration details of connected components.
 
-To learn more, see [Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md).
+To learn more, see [Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md).
 

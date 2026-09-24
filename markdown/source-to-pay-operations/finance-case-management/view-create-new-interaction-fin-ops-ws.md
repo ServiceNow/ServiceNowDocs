@@ -2,7 +2,7 @@
 title: Create a new interaction
 description: An interaction record is automatically created when you accept a chat through the chat queue in the Finance Operations Workspace. You can also manually create an interaction from the list page of the Finance Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/view-create-new-interaction-fin-ops-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/view-create-new-interaction-fin-ops-ws.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -37,12 +37,12 @@ Role required: sn\_fin\_ops.specialist
 
 5.  On the form, fill in the fields.
 
-    For more information on the form fields and descriptions, see [Interaction form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/details-tab-fin-ops-interaction.md)
+    For more information on the form fields and descriptions, see [Interaction form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/details-tab-fin-ops-interaction.md)
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[Interaction management in Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/interaction-mgmt-fin-ops.md)
+**Parent Topic:**[Interaction management in Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/interaction-mgmt-fin-ops.md)
 
 **Related topics**  
 

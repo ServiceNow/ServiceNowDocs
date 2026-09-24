@@ -2,7 +2,7 @@
 title: Components installed with Content Publishing
 description: Several types of components install with the activation of the Content Delivery \[com.sn\_content\_delivery\] plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/installed-with-content-delivery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/installed-with-content-delivery.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -380,7 +380,7 @@ cd-content-experience
 
 </td><td>
 
-Delivers targeted, actionable communications to employees. For more information, see [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
+Delivers targeted, actionable communications to employees. For more information, see [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 
 </td></tr><tr><td>
 
@@ -603,7 +603,7 @@ Shows portal content with content type of Banner. Generally used to show informa
 </td></tr></tbody>
 </table>**Note:** These widgets support the Content Experience widget; they aren't mean to be used directly in the portal: CD Preview widget, CE Banner content, CE Carousel Layout, CE List Layout, CE Styled Content, and CE Tile Layout.
 
-**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

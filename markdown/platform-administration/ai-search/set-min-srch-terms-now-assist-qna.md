@@ -2,14 +2,14 @@
 title: Change the minimum search term count for Knowledge base articles Genius Results
 description: Specify the minimum number of terms that a search must contain to be eligible for triggering Knowledge base articles Genius Results. Searches with fewer terms don't return Knowledge base articles Genius Result answers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/set-min-srch-terms-now-assist-qna.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/set-min-srch-terms-now-assist-qna.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
 last_updated: "2026-07-25"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Knowledge base articles Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Specify the minimum number of terms that a search must contain to be eligible fo
 
 ## Before you begin
 
-The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
+The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: ais\_admin
 
@@ -62,5 +62,5 @@ You can customize the term count condition by altering the minimum term count re
 
 The modified Genius Result configuration doesn't send knowledge article search results to the LLM for Knowledge base articles answer generation unless the search query has enough search terms to satisfy your chosen limit.
 
-**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
+**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-qna-genius-results.md)
 

@@ -2,7 +2,7 @@
 title: Configure License and Permit Eligibility Framework in License and Permit Playbook
 description: The eligibility criteria in License and Permit Playbook allows an agent to confirm whether an applicant is eligible for the specific license or permit requested.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-configure-eligibility-lpr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-configure-eligibility-lpr.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ The License and Permit Playbook uses eligibility criteria, a series of questions
 
 Pre-Eligibility criteria is established by performing the following activities:
 
-1.  Creating a Pre-Eligibility Decision Table. For more information, see [Create a Pre-Eligibility Decision Table in License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-eligibility-decision-table-lp.md).
+1.  Creating a Pre-Eligibility Decision Table. For more information, see [Create a Pre-Eligibility Decision Table in License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-eligibility-decision-table-lp.md).
 2.  Updating the Public Sector Digital Services Pre-Eligibility Configuration decision table
 
 For each new License &amp; Permit product, a new pre-eligibility decision table must be created.

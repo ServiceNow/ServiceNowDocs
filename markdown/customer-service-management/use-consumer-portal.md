@@ -2,7 +2,7 @@
 title: Using the Consumer Portal
 description: The Consumer Portal is a web interface that your company can use to provide information and support to consumers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-consumer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-consumer-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

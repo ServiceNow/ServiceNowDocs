@@ -2,7 +2,7 @@
 title: Configure Article Optimization jobs
 description: Article Optimization jobs define a schedule for running scans and their conditional settings. Each job has one or more scans associated with it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuring-article-optimization-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuring-article-optimization-jobs.html
 release: australia
 topic_type: task
 last_updated: "2026-07-20"

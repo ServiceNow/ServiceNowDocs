@@ -2,7 +2,7 @@
 title: Find alert records in Express List using text search
 description: Perform a text search for alert records in a filtered list of alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-free-text-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-free-text-search.html
 release: australia
 product: Event Management
 classification: event-management

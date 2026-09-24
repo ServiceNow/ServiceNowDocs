@@ -2,7 +2,7 @@
 title: Developer resources
 description: Developers can use JavaScript or REST APIs to insert and retrieve time-series data from the MetricBase database and to run transforms on the data. The transformations enable you to visualize time-series data in a variety of ways.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/developer-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/metricbase/developer-resources.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -37,9 +37,9 @@ For more information about MetricBase time-series data transformations, see [Met
 
 ## Data Explorer
 
-Experiment and get familiar with the JavaScript APIs by using the [MetricBase Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-data-explorer.md) that comes with the MetricBase Demo.
+Experiment and get familiar with the JavaScript APIs by using the [MetricBase Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/metricbase-data-explorer.md) that comes with the MetricBase Demo.
 
-**Parent Topic:**[MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/reference-metricbase.md)
+**Parent Topic:**[MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/reference-metricbase.md)
 
 **Related topics**  
 

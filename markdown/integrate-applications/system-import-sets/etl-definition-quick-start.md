@@ -2,7 +2,7 @@
 title: ETL Definition quick start guide
 description: Learn how to set up and use an ETL definition to import data into ServiceNow tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/etl-definition-quick-start.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/etl-definition-quick-start.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

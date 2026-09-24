@@ -2,7 +2,7 @@
 title: Task link types
 description: Task links define the dependency relationship between tasks. Linking tasks creates dependencies that affect task start and finish dates and determine the critical path. The following table describes the four supported link types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/task-link-types-project-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/task-link-types-project-management.html
 release: australia
 product: Project Management
 classification: project-management
@@ -26,7 +26,7 @@ Task links define the dependency relationship between tasks. Linking tasks creat
 **Related topics**  
 
 
-[Assign a project schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_UseAProjectSchedule.md)
+[Assign a project schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_UseAProjectSchedule.md)
 
-[Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-schedules-tasks.md)
+[Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-schedules-tasks.md)
 

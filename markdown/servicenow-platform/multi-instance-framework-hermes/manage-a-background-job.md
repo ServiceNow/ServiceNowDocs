@@ -2,7 +2,7 @@
 title: Manage a background job in Hermes Messaging Service
 description: Manage background jobs in Hermes Messaging Service to control when and how often scheduled tasks run. You can make a job inactive, re-enable it, or adjust its interval from the Hermes Settings page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/manage-a-background-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/manage-a-background-job.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -23,7 +23,7 @@ Role required: maint or hermes\_admin
 
 ## About this task
 
-For a list of Hermes background jobs and their default frequencies, see [Hermes background jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-settings-background-jobs.md).
+For a list of Hermes background jobs and their default frequencies, see [Hermes background jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-settings-background-jobs.md).
 
 ## Procedure
 
@@ -77,5 +77,5 @@ Update the **Days**, **Hours**, and **Minutes** fields in the **Repeat** row.For
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Managing Hermes settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/manage-hermes-settings.md)
+**Parent Topic:**[Managing Hermes settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/manage-hermes-settings.md)
 

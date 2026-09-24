@@ -2,7 +2,7 @@
 title: Troubleshooting Security Incident Response
 description: This section covers important troubleshooting tips and frequently asked questions related to Security Incident Response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/troubleshooting-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/troubleshooting-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

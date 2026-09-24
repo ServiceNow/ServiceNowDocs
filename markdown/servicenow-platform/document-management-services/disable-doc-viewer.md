@@ -2,7 +2,7 @@
 title: Disable Document Viewer
 description: Disable Document Viewer at the instance level to disable it or at table level to disable it for specific tables within the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/disable-doc-viewer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/disable-doc-viewer.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -26,15 +26,15 @@ Role required: admin
 
 1.  Disable Document Viewer at the instance level or for specific tables.
 
-<table id="choicetable_ehk_xyh_43b"><thead><tr><th align="left" id="d379219e67">
+<table id="choicetable_ehk_xyh_43b"><thead><tr><th align="left" id="d379339e67">
 
 Option
 
-</th><th align="left" id="d379219e70">
+</th><th align="left" id="d379339e70">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d379219e76">
+</th></tr></thead><tbody><tr><td id="d379339e76">
 
 **Disable Document Viewer at the instance level**
 
@@ -45,7 +45,7 @@ Description
 3.  Click **Update**.
 
 
-</td></tr><tr><td id="d379219e109">
+</td></tr><tr><td id="d379339e109">
 
 **Disable Document Viewer at the table level**
 
@@ -63,5 +63,5 @@ Description
 **Related topics**  
 
 
-[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/enable-document-viewer.md)
+[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/enable-document-viewer.md)
 

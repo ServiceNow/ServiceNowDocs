@@ -2,7 +2,7 @@
 title: Customer Lifecycle Operations workflows
 description: Financial Services Customer Lifecycle Operations \(CLO\) installs automated workflows for reviewing and approving customer account applications. These workflows create cases and route tasks to different agents, including KYC, document, tax, and credit agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/customer-lifecycle-ops-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-customer-lifecycle-operations/customer-lifecycle-ops-workflows.html
 release: australia
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations

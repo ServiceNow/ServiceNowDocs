@@ -2,7 +2,7 @@
 title: Review a scenario
 description: Review a scenario created by your colleague on a building in a read-only mode.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/review-a-scenario.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/review-a-scenario.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -57,14 +57,14 @@ You can review a scenario created by your colleague from the Space Optimization 
 
 6.  On the stack plan, point to or select a bar to view more details.
 
-    If you select a bar, you can view the details related to the bar on the right panel. For more information about the stack plan view features, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
+    If you select a bar, you can view the details related to the bar on the right panel. For more information about the stack plan view features, refer to [Scenario and Building - Views, states, settings, and key features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/scenario-planning-views-actions-keyfeatures-.md).
 
 7.  View the scenario plan on a floor directly by selecting the **Floor map view** tab.
 
     **Note:** You can view the scenario plan on a floor map only if the floor map is configured using the Workplace Indoor Mapping Map studio.
 
 
-**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 

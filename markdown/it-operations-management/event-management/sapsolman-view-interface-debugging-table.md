@@ -2,7 +2,7 @@
 title: View the SAP interface log
 description: View the SAP interface log to help you debug issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/sapsolman-view-interface-debugging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/sapsolman-view-interface-debugging-table.html
 release: australia
 product: Event Management
 classification: event-management
@@ -29,5 +29,5 @@ Role required: admin
     \[Omitted image "sap-solman-interface-debugging-table.png"\] Alt text: ZSNOW interface debugging table
 
 
-**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-solman-configurations.md)
+**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/sap-solman-configurations.md)
 

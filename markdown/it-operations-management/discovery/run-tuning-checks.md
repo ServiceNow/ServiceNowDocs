@@ -2,7 +2,7 @@
 title: Run Tuning checks
 description: Tuning checks are scans aimed at optimizing configurations, grouped into suites with each specific check detailed below.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-tuning-checks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/run-tuning-checks.html
 release: australia
 product: Discovery
 classification: discovery
@@ -47,5 +47,5 @@ The configured checks are listed under the following tabs:
 
     -   To understand the issue, select the **Show check description** link.
     -   To know more details on the issue, select the **Documentation on the check** link.
-    -   To view the definition page, select the **Check definition page** link. To edit a check, see [Edit an existing check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/edit-an-existing-check.md).
+    -   To view the definition page, select the **Check definition page** link. To edit a check, see [Edit an existing check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/edit-an-existing-check.md).
 

@@ -2,7 +2,7 @@
 title: Automated Test Framework use case: test a data policy
 description: This use case illustrates testing a data policy with the Automated Test Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-data-policy-01-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-data-policy-01-use.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -61,5 +61,5 @@ This example tests the data policy that sets the field **Assignment Group** to *
     \[Omitted image "atf-use-data-policy-07.png"\] Alt text: Test Step form for Field State Validation.
 
 
-**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-use-cases.md)
 

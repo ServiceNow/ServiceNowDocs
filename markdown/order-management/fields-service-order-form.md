@@ -2,7 +2,7 @@
 title: Service Order form fields
 description: The Service Order form enables you to review and modify domain service orders that are associated with a selected customer order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/fields-service-order-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/fields-service-order-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -215,5 +215,5 @@ Attachments
 File attachments for the service order. Select **Browse** to add the file as an attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Domain order forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-product-domain-orders.md)
+</table>**Parent Topic:**[Domain order forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/field-descriptions-product-domain-orders.md)
 

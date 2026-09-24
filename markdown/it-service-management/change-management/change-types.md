@@ -2,7 +2,7 @@
 title: Change types
 description: Change Management supports the three types of service changes ITIL describes — standard, emergency, and normal. The change type determines which state model is invoked and the change process that must be followed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-types.html
 release: australia
 product: Change Management
 classification: change-management
@@ -34,7 +34,7 @@ Change Management supports the three types of service changes ITIL describes —
     -   Fail or fail situations where the impact to service is imminent if action is not taken.
     These changes do not follow the complete life cycle of a normal change due to the speed with which they must be authorized. Therefore, they progress directly to the **Authorize** state for approval from the CAB Approval group.
 
-    During an emergency change, there are chances that an unplanned CI change activity occurs. During such a case, an unauthorized change request is created and sent for approvals. For more information, see [Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/unauthorized-change-request.md).
+    During an emergency change, there are chances that an unplanned CI change activity occurs. During such a case, an unauthorized change request is created and sent for approvals. For more information, see [Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/unauthorized-change-request.md).
 
 -   **Normal change**
 
@@ -53,10 +53,10 @@ The following table summarizes about the three change types:
 |Normal|No|Yes|Any change that isn't standard or emergency and requires full assessment.|
 |Emergency|No|Yes|High-priority changes that resolve a major incident or apply a security patch.|
 
-**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/exploring-change-management.md)
+**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 
 **Related topics**  
 
 
-[Add a new change request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddNewChangeType.md)
+[Add a new change request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewChangeType.md)
 

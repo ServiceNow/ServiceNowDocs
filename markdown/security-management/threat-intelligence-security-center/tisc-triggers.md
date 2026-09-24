@@ -2,7 +2,7 @@
 title: Webhook Triggers
 description: Webhook triggers are used to filter the threat intelligence entities that needs to be tracked for any event changes such as Create, Update, and Delete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-triggers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-triggers.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -401,7 +401,7 @@ This is available only for UPDATE trigger type. It specifies the list of trigger
     |Vulnerability|severity|Severity|
 
 
-**Parent Topic:**[Working with Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-webhooks.md)
+**Parent Topic:**[Working with Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-webhooks.md)
 
 **Related topics**  
 

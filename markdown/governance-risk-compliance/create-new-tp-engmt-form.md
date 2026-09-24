@@ -2,7 +2,7 @@
 title: Create a third party engagement form
 description: On the Create a third-party engagement form, fill in the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-tp-engmt-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-tp-engmt-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -143,7 +143,7 @@ Latitude and Longitude
 
 </td><td>
 
-The **Latitude** and **Longitude** values are used to mark the location on the Risk concentration map. See [TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-risk-concentration-map.md).
+The **Latitude** and **Longitude** values are used to mark the location on the Risk concentration map. See [TPRM Risk concentration map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-risk-concentration-map.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -322,5 +322,5 @@ Digital resilience information for the third-party engagement. You can add the f
 -   Name of the ICT third-party service provider
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a third-party engagement and enhance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
+</table>**Parent Topic:**[Create a third-party engagement and enhance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
 

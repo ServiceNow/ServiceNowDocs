@@ -2,7 +2,7 @@
 title: Create a remote task definition in Service Exchange for Providers
 description: As a provider, create remote task definitions \(RTD\) that trigger the assignment of a remote task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-remote-tasks-defs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-create-remote-tasks-defs.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Before you can create a remote task, you must first create an RTD. A remote task is generated based on the RTD you define. To learn more about how RTD and remote task works, see [Remote tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-task-overview.md).
+Before you can create a remote task, you must first create an RTD. A remote task is generated based on the RTD you define. To learn more about how RTD and remote task works, see [Remote tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-remote-task-overview.md).
 
 ## Procedure
 
@@ -238,7 +238,7 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
 
  When a source table doesn’t contain a field that exists on a target table, the field is configured as a virtual field. The values specified for the virtual field are passed from the source instance to the target instance. The consumer can create a remote task to sync data and update the value of the virtual field in the associated target task record.
 
- The target field can be updated either by using the Virtual Inbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField` API.
+ The target field can be updated either by using the Virtual Inbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField` API.
 
 </td></tr></tbody>
 </table>8.  Click **Submit**.
@@ -372,7 +372,7 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
 
  When a source table doesn’t contain a field that exists on a target table, the field is configured as a virtual field. The values specified for the virtual field are passed from the source instance to the target instance.
 
- The target field can be updated either by using the Virtual Outbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField API`.
+ The target field can be updated either by using the Virtual Outbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField API`.
 
 </td></tr></tbody>
 </table>11. Click **Submit**.
@@ -388,7 +388,7 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
     |Consumer condition|Customer company or account that you want this remote task definition to be entitled to.|
     |Remote task definition|Name of this remote task definition record. This name is auto-filled.|
 
-    For more details on consumer criteria, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-entitlements.md).
+    For more details on consumer criteria, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-entitlements.md).
 
 14. Click **Publish**.
 
@@ -401,15 +401,15 @@ A remote task definition record is created on your instance. This record is also
 
 ## What to do next
 
-You can create multiple configuration revisions of this published remote task definition. For details on how to create a configuration revision, see [Create configuration revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md). You can also perform the following operations:
+You can create multiple configuration revisions of this published remote task definition. For details on how to create a configuration revision, see [Create configuration revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md). You can also perform the following operations:
 
--   Archive a configuration revision: See [Archive a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
--   Copy a configuration revision: See [Copy a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md).
--   Retire a configuration: [Retire a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md).
--   Delete a configuration: See [Delete a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md).
+-   Archive a configuration revision: See [Archive a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md)
+-   Copy a configuration revision: See [Copy a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md).
+-   Retire a configuration: [Retire a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md).
+-   Delete a configuration: See [Delete a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-config-rev.md).
 
 **Related topics**  
 
 
-[Remote tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-task-overview.md)
+[Remote tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-remote-task-overview.md)
 

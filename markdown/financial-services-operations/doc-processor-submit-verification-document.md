@@ -2,7 +2,7 @@
 title: Submit a document for verification
 description: A document collector can collect and submit a document for verification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/doc-processor-submit-verification-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/doc-processor-submit-verification-document.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ Role required: sn\_doc\_processor.collector
 
 6.  On the form under Process Information, fill in the fields as required.
 
-    For a description of the field values, see [Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/doc-processor-associate-document-list-items-to-category.md).
+    For a description of the field values, see [Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/doc-processor-associate-document-list-items-to-category.md).
 
 7.  Attach any documents to be submitted for verification.
 
@@ -68,5 +68,5 @@ The **External ID** field in the document verification task is populated with th
 
 ## What to do next
 
-A document agent can [Work on a document verification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/doc-processor-work-on-doc-verification-task.md).
+A document agent can [Work on a document verification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/doc-processor-work-on-doc-verification-task.md).
 

@@ -2,7 +2,7 @@
 title: FX Currency Stage inbound staging table
 description: The FX Currency Stage inbound \[sn\_fcms\_intg\_fx\_currency\_stage\] staging table temporarily stores important data about FX currencies before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/spo-fx-currency-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-fx-currency-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -24,7 +24,7 @@ The following table lists the mandatory fields for the FX Currency Stage inbound
 |ISO currency code|String|Unique three-letter currency code as defined by the International Organization for Standardization \(ISO\).|
 |Name|String|Name of the currency.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

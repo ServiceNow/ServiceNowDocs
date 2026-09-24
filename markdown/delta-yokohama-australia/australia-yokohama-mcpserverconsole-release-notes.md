@@ -2,11 +2,11 @@
 title: Combined MCP Server Console release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for MCP Server Console from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-mcpserverconsole-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-mcpserverconsole-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 5
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,7 +83,17 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key bundle-platai.ai-native-sku-overview\]](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=zurich&ft:locale=en-US)**
+-   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=creating-tools-mcp-server&family=zurich&ft:locale=en-US)**
+
+With this release, you can now create tools from additional categories like, Knowledge graphs, Subflow, Action, and REST APIs and Now Assist skills.
+
+
+ -   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=creating-tools-mcp-server&family=zurich&ft:locale=en-US)**
+
+With this release, Moveworks is shipping a Moveworks Quickstart Server. This server allows users to pilot access to upcoming capabilities like Knowledge graph, Subflow, Action, and scripted REST APIs for use with Moveworks MCP client, and ServiceNow Model Context Protocol Client application. These tools can only be added to Moveworks Quickstart Server.
+
+
+ -   **[\[Placeholder link text to key bundle-platai.ai-native-sku-overview\]](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=zurich&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
 
@@ -114,7 +124,12 @@ Australia
 
 </td><td>
 
--   **[Monitoring dashboard](https://www.servicenow.com/docs/access?context=monitoring-dashboard&family=australia&ft:locale=en-US)**
+-   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=creating-tools-mcp-server&family=australia&ft:locale=en-US)**
+
+With this release, you can now create tools from additional categories like, Subflow, Action, REST APIs, Knowledge graphs and Now Assist skills.
+
+
+ -   **[Monitoring dashboard](https://www.servicenow.com/docs/access?context=monitoring-dashboard&family=australia&ft:locale=en-US)**
 
 Explore MCP Server monitoring dashboard to review the performance and usage of the MCP servers and tools in a specific time frame.
 
@@ -275,6 +290,8 @@ MCP Server Console is available with activation of a Now Assist application. For
 **Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 
 
+**Important:** MCP Server Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -287,6 +304,8 @@ MCP Server Console is available with activation of a Now Assist application. For
 
 **Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 
+
+**Important:** MCP Server Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -490,5 +509,5 @@ Australia
  See [MCP Server](https://www.servicenow.com/docs/access?context=mcp-server-console-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

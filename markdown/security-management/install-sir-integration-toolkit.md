@@ -2,7 +2,7 @@
 title: Install SIR integration builder
 description: Install the SIR integration builder to integrate capabilities to Security Incident Response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/install-sir-integration-toolkit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/install-sir-integration-toolkit.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

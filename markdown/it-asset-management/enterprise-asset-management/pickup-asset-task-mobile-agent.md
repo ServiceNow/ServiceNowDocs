@@ -2,7 +2,7 @@
 title: Close a Pick Up Asset task using the Mobile Agent application
 description: Complete and close the Pick Up Asset task for the enterprise asset that you have picked up from the designated stockroom for your assigned work order using the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/pickup-asset-task-mobile-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/pickup-asset-task-mobile-agent.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -57,9 +57,9 @@ Role required: wm\_agent or sn\_eam.enterprise\_asset\_technician
 
 ## What to do next
 
-Take necessary asset action on the enterprise asset associated with the work order. For details, see [Take action on an enterprise asset using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-work-order-mobile-agent.md).
+Take necessary asset action on the enterprise asset associated with the work order. For details, see [Take action on an enterprise asset using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/complete-work-order-mobile-agent.md).
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 

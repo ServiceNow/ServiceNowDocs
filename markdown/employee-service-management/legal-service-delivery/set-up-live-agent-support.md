@@ -2,7 +2,7 @@
 title: Configure live agent support settings for legal services
 description: Configure settings to enable live agent support for legal services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/set-up-live-agent-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/set-up-live-agent-support.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -64,5 +64,5 @@ Role required: admin
         For more information on the fields, see [Define Assignment Eligibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-specify-assignment-eligibility.md).
 
 
-**Parent Topic:**[Live agent support for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-live-agent.md)
+**Parent Topic:**[Live agent support for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-va-live-agent.md)
 

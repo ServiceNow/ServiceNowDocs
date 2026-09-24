@@ -2,7 +2,7 @@
 title: Skill sensing for learning content
 description: Skill sensing is an automated approach to identify and extract skills from the title and description of a course so that the admin can associate the skills to a course.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/skill-sensing-for-learning-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/skill-sensing-for-learning-content.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -20,17 +20,17 @@ Plugin requirement: Now Assist for HR Service Delivery \(HRSD\) plugin \(sn\_hr\
 
 You can add skills to the learning courses using skill sensing in two ways:
 
--   Add skills at the individual course level. For more information, see [Add skills to a course with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-skill-course-skill-sensing.md).
--   Add multiple skills automatically using the skill sensing configuration or you can review the skills manually. For more information, see [Configuration for bulk skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/skill-sensing-configuration.md) and [Add or discard multiple skills with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/bulk-skill-sensing.md).
+-   Add skills at the individual course level. For more information, see [Add skills to a course with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-skill-course-skill-sensing.md).
+-   Add multiple skills automatically using the skill sensing configuration or you can review the skills manually. For more information, see [Configuration for bulk skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/skill-sensing-configuration.md) and [Add or discard multiple skills with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/bulk-skill-sensing.md).
 
--   **[Add skills to a course with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-skill-course-skill-sensing.md)**  
+-   **[Add skills to a course with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-skill-course-skill-sensing.md)**  
 Add skills to a course manually using the Large Language Model \(LLM\) skills recommendations based on the title and description of the course.
--   **[Configuration for bulk skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/skill-sensing-configuration.md)**  
+-   **[Configuration for bulk skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/skill-sensing-configuration.md)**  
 Define conditions to create a sub set of learning courses on which you can run the scheduled job enabling you to accept multiple recommended skills.
--   **[Add or discard multiple skills with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/bulk-skill-sensing.md)**  
+-   **[Add or discard multiple skills with skill sensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/bulk-skill-sensing.md)**  
 Review and approve the Large Language Model \(LLM\) recommended skills before tagging​ them to the learning courses.
 
-**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-your-learning.md)
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-your-learning.md)
 
 **Related topics**  
 

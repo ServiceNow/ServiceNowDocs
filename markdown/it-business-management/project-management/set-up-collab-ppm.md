@@ -2,7 +2,7 @@
 title: Setting up PPM collaboration for Slack
 description: Integrate your ServiceNow instance with your organization's Slack to enable collaboration of your projects in Slack.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/set-up-collab-ppm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/set-up-collab-ppm.html
 release: australia
 product: Project Management
 classification: project-management
@@ -20,12 +20,12 @@ PPM Collaboration uses the Slack spoke actions such as creating a channel for yo
 
 **Important:** When you activate Slack spoke, a [Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md) for Slack is created by default with the ID **sn\_slack\_ah\_v2.Slack**. The connection that is active \(the Active field is set to **true**\) in Connections related list of this alias uses this default ID to connect your ServiceNow instance to Slack. Therefore, you can have multiple connections associated with this alias but ensure that only one connection is active at any given time.
 
-**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
 [Slack spoke v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/slack-spoke.md)
 
-[Setting up PPM collaboration for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/setup-collab-ppm-msteams.md)
+[Setting up PPM collaboration for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/setup-collab-ppm-msteams.md)
 

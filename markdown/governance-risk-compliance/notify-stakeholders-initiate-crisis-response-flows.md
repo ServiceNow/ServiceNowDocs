@@ -2,7 +2,7 @@
 title: Notify stakeholders and initiate response workflows
 description: Notify the stakeholders and initiate multiple workflows for the recovery teams across your organization and help them respond to the threat and take necessary actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/notify-stakeholders-initiate-crisis-response-flows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/notify-stakeholders-initiate-crisis-response-flows.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,7 +73,7 @@ Role required: BCM admin or BCM Program Manager
 
 1.  If it is a recovery event, click anywhere on the Response Tasks card to take you to the event details.
 2.  In the **Details** tab of the event, update the details if required.
-3.  Click the **Start Event** button. The event for the crisis is then activated. All the associated plans for this recovery event and the tasks associated with it are set into action. The Crisis Management workflow begins to recover the impacted assets. For more information, see [Manage a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-crisis-event.md).
+3.  Click the **Start Event** button. The event for the crisis is then activated. All the associated plans for this recovery event and the tasks associated with it are set into action. The Crisis Management workflow begins to recover the impacted assets. For more information, see [Manage a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/manage-crisis-event.md).
 
     All the assets at risk are copied over to the Event Assets table \[sn\_recovery\_event\_asset\] related to the event \[sn\_recovery\_event\].
 

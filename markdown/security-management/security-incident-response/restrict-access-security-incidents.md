@@ -2,7 +2,7 @@
 title: Restrict access to security incidents
 description: Manage the access of the security incidents that contains sensitive information. You can enforce security incident restrictions to determine who can access a certain incident and limit the access only to specific users or groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/restrict-access-security-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/restrict-access-security-incidents.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

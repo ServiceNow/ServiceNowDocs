@@ -2,7 +2,7 @@
 title: Share KB in chat interactions guidance
 description: The Share KB in chat interactions guidance recommends relevant knowledge articles to customer service agents and enables them to share the articles in chat conversations on chat interaction records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidances-share-kb-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-guidances-share-kb-chat.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

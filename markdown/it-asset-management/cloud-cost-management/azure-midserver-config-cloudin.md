@@ -2,7 +2,7 @@
 title: Configuring access to CI data on your Microsoft Azure account
 description: To enable Discovery to communicate with your Microsoft Azure account, you specify your Service Principal credentials while configuring the MID Servers that communicate with your Microsoft Azure account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -67,7 +67,7 @@ The **ALL** setting includes all required applications and capabilities. Alterna
 </td></tr></tbody>
 </table>## Using a proxy server
 
-You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for your Cloud Cost Management MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-mid-proxy-cloudin.md).
+You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for your Cloud Cost Management MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/azure-mid-proxy-cloudin.md).
 
 **Related topics**  
 

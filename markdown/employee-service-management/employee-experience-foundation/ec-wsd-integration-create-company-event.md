@@ -2,7 +2,7 @@
 title: Create Company Event with Workplace Service Management
 description: Create new company events and make changes to existing company events from the Workplace Service Management portal, which integrates with Employee Center Pro.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-wsd-integration-create-company-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-wsd-integration-create-company-event.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -75,12 +75,12 @@ The workplace service delivery integrates with employee center pro to provide yo
     Reservation details for company event is updated and published.
 
 
-**Parent Topic:**[Workplace Service Delivery Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.md)
+**Parent Topic:**[Workplace Service Delivery Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.md)
 
 **Related topics**  
 
 
-[Create a company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-company-event.md)
+[Create a company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-company-event.md)
 
-[Publishing company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-company-events.md)
+[Publishing company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-publish-company-events.md)
 

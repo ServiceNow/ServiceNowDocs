@@ -2,7 +2,7 @@
 title: Repair claim form
 description: The repair claim form enables you to enter the warranty and recall claim details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/repair-claim-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/repair-claim-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -317,10 +317,10 @@ Attachments
 Attachments that support your claims.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-submit-repair-claim.md)
+[Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-submit-repair-claim.md)
 

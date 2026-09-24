@@ -2,7 +2,7 @@
 title: Create a playbook for the Design and Assign function
 description: Create a playbook for the Design and Assign function in the Workflow Studio. You can use the playbook to design and assign a network service in the Telecommunications Network Inventory application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-playbook-design-assign-function.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-playbook-design-assign-function.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -18,12 +18,12 @@ Create a playbook for the Design and Assign function in the Workflow Studio. You
 
 ## Before you begin
 
--   [Create a Change Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-change-model-design-assign-playbook.md).
--   [Create record producers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-record-producer-design-assign-playbook.md)
--   [Add input variables to the record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-variables-record-producer-design-assign-playbook.md).
--   [Add variable set to the record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/add-variable-set-record-producer-design-assign-playbook.md).
--   [Create subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-subflow-design-assign-playbook.md).
--   [Create request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-request-definition-design-assign-function.md).
+-   [Create a Change Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-change-model-design-assign-playbook.md).
+-   [Create record producers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-record-producer-design-assign-playbook.md)
+-   [Add input variables to the record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-variables-record-producer-design-assign-playbook.md).
+-   [Add variable set to the record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/add-variable-set-record-producer-design-assign-playbook.md).
+-   [Create subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-subflow-design-assign-playbook.md).
+-   [Create request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-request-definition-design-assign-function.md).
 
 You create and configure the playbook in the Workflow Studio to fulfill a service request from the customer. Following are the configuration steps.
 
@@ -159,14 +159,14 @@ When your playbook's trigger conditions are met, your playbook runs.
 
 ## What to do next
 
-Update the system property to add the playbook in the Design and Assign home page. To learn more, see [Update system property to configure the Design and Assign home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/update-system-property-configure-design-assign-home-page.md).
+Update the system property to add the playbook in the Design and Assign home page. To learn more, see [Update system property to configure the Design and Assign home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/update-system-property-configure-design-assign-home-page.md).
 
-**Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+**Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
 **Related topics**  
 
 
-[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
-[Configure a Design and Assign function example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-design-assign-playbook-use-case.md)
+[Configure a Design and Assign function example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/configure-design-assign-playbook-use-case.md)
 

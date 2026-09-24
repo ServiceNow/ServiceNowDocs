@@ -2,7 +2,7 @@
 title: Open tasks from the task list
 description: Quickly open tasks from the Work Order Task list and see them in Dispatcher Workspace to act on them without searching.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/open-task-platform-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/open-task-platform-list.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

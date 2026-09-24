@@ -2,7 +2,7 @@
 title: Define Location
 description: Define a geographic location to provide more context to other SDOs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -235,5 +235,5 @@ Tools
 Lists legitimate software that is used by threat actors to perform attacks associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-locations.md)
+</table>**Parent Topic:**[Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-locations.md)
 

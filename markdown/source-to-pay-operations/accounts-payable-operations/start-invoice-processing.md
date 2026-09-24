@@ -2,7 +2,7 @@
 title: Start processing a third-party invoice
 description: Start the processing for an invoice that doesn't have an associated invoice processing case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -33,7 +33,7 @@ The **Start invoice processing** option is not displayed for invoices that are i
 
 **Note:** Accounts Payable Operations includes the Start Invoice Processing for Orphan Invoices flow, which automatically picks up all the PO and Non-PO invoice type records that are in the Draft status that don't have an invoice processing case associated to them and starts their processing.
 
-You don't need to perform this manual task if you've activated the Start Invoice Processing for Orphan Invoices flow. For more information, see [Activate the Start Invoice Processing for Orphan Invoices flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.md).
+You don't need to perform this manual task if you've activated the Start Invoice Processing for Orphan Invoices flow. For more information, see [Activate the Start Invoice Processing for Orphan Invoices flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.md).
 
 ## Procedure
 
@@ -59,10 +59,10 @@ You don't need to perform this manual task if you've activated the Start Invoice
     For invoices that don't have an invoice processing case created automatically, a scheduled job runs at regular intervals. The job picks up each invoice, creates an invoice case, and starts processing. You can use the scheduled job to start processing for all such invoices in bulk, without starting each invoice individually.
 
 
--   **[Activate the Start Invoice Processing for Orphan Invoices flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.md)**  
+-   **[Activate the Start Invoice Processing for Orphan Invoices flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.md)**  
 Activate the **Start Invoice Processing for Orphan Invoices** flow to process invoices that don’t have an associated invoice case.
 
-**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 

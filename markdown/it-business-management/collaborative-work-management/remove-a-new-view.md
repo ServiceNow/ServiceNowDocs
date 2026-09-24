@@ -2,7 +2,7 @@
 title: Delete a custom CWM Board view
 description: Delete the custom personal or shared views for your CWM Boards and keep your Board views current for your workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/remove-a-new-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/remove-a-new-view.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -41,5 +41,5 @@ Role required: sn\_cwm.cwm\_user
 
 The view is deleted and no longer available in the view switcher for this Board.
 
-**Parent Topic:**[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/board-views-in-cwm.md)
+**Parent Topic:**[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/board-views-in-cwm.md)
 

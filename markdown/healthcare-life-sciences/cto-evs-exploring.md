@@ -2,7 +2,7 @@
 title: Exploring Care Team Operations for Environmental Services
 description: Use the Care Team Operations for Environmental Services application to support your care team in resolving environmental support issues quickly and efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-exploring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,16 +47,16 @@ A range of service requests come preconfigured for use with Care Team Operations
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Automate healthcare operations by enabling Environmental Services support request creation and fulfillment.|[Healthcare EVS case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-case-overview.md)|Admin|
-|Create support requests using Care Team Portal.|[Creating service requests for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-create-requests.md)|Care team|
-|Use CSM/FSM Configurable Workspace to fulfill EVS service requests as work orders when FSM is installed, or as cases.|[Fulfilling requests in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-fulfill-requests.md)|Agent|
+|Automate healthcare operations by enabling Environmental Services support request creation and fulfillment.|[Healthcare EVS case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-evs-case-overview.md)|Admin|
+|Create support requests using Care Team Portal.|[Creating service requests for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-evs-create-requests.md)|Care team|
+|Use CSM/FSM Configurable Workspace to fulfill EVS service requests as work orders when FSM is installed, or as cases.|[Fulfilling requests in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-evs-fulfill-requests.md)|Agent|
 
 ## What to explore next
 
 To learn more about configuring and using Care Team Operations for Environmental Services, see:
 
--   [Configuring Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-configuring.md)
--   [Creating service requests for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-create-requests.md)
--   [Fulfilling requests in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-fulfill-requests.md)
--   [Care Team Operations for Environmental Services Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-reference.md)
+-   [Configuring Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-evs-configuring.md)
+-   [Creating service requests for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-evs-create-requests.md)
+-   [Fulfilling requests in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-evs-fulfill-requests.md)
+-   [Care Team Operations for Environmental Services Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-evs-reference.md)
 

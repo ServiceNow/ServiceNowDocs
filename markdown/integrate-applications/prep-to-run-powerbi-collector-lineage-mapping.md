@@ -2,7 +2,7 @@
 title: Configure Power BI lineage mapping
 description: Create a YAML file to map data sources for lineage harvesting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prep-to-run-powerbi-collector-lineage-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prep-to-run-powerbi-collector-lineage-mapping.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -215,5 +215,5 @@ or jdbc:oracle:thin:@alias_name?TNS_ADMIN=/path/to/wallet
 5.  Pass the YAML file to the collector using the --datasource-mapping-file parameter when running the collector.
 
 
-**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-powerbi-collector.md)
+**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-powerbi-collector.md)
 

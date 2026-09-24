@@ -2,7 +2,7 @@
 title: MID Server for metadata collectors
 description: When your source is behind a firewall or requires on-premises handling, deploy metadata collectors on a MID Server you host to harvest metadata from on-premises and privately networked data sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mid-server-for-metadata-collectors-dc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mid-server-for-metadata-collectors-dc.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-29"
@@ -15,7 +15,7 @@ breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric
 
 When your source is behind a firewall or requires on-premises handling, deploy metadata collectors on a MID Server you host to harvest metadata from on-premises and privately networked data sources.
 
-To harvest metadata from on-premises and privately networked data sources, you deploy metadata collectors on a MID Server within your network. This is one of two [deployment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/metadata-collector-deployment-models.md) available for metadata collectors.
+To harvest metadata from on-premises and privately networked data sources, you deploy metadata collectors on a MID Server within your network. This is one of two [deployment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/metadata-collector-deployment-models.md) available for metadata collectors.
 
 The Management, Instrumentation, and Discovery \(MID\) Server facilitates secure communication and data movement between your ServiceNow instance and external data sources. A configured and validated MID Server is required to connect to the data source. For more information, see the [MID Server documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
 
@@ -40,5 +40,5 @@ Consider your data volume and processing requirements when configuring your MID 
 
 **Note:** If you experience out-of-memory errors or performance issues, refer to the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) documentation for guidance on adjusting your configuration.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-metadata-collectors-dc.md)
 

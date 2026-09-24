@@ -2,7 +2,7 @@
 title: Add a table to an HTML editor
 description: Add and format an example table to a knowledge article using HTML field controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ExampleStyleATable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ExampleStyleATable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

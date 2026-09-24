@@ -2,7 +2,7 @@
 title: Resolving de-duplication tasks with ServiceNow Otto
 description: ServiceNow Otto recommends resolutions for duplication tasks by automating the choices that a user would typically make. ServiceNow Otto makes recommendations for the main CI, attribute relationship, and related item values to merge, and duplicate CI actions to perform. The process enhances accuracy and greatly reduces the time and effort needed to address CI duplication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-dupe-task-resolution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-dupe-task-resolution.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -44,7 +44,7 @@ This procedure describes how you can manually access the skill. In addition, any
 
         The skill precisely follows the sequence of manual remediation steps, presents the identical tabs that appear during manual de-duplication, and then goes directly to the final **Review and Confirm** tab.
 
-        **Tip:** When you select one of the tabs, the selected de-duplication step page opens — exactly the page that you work in while performing the step manually as described in [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
+        **Tip:** When you select one of the tabs, the selected de-duplication step page opens — exactly the page that you work in while performing the step manually as described in [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
     -   **B: Summary section: Editable summaries of the proposed remediation steps**
 
@@ -69,7 +69,7 @@ This procedure describes how you can manually access the skill. In addition, any
 
 ## Example: Review, possibly modify, and confirm recommended attribute merges
 
-This example follows your work to determine whether the recommended attribute merges are the optimal choices. You will use a similar process for each of the other steps in the remediation process. For more information on the manual steps, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
+This example follows your work to determine whether the recommended attribute merges are the optimal choices. You will use a similar process for each of the other steps in the remediation process. For more information on the manual steps, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
 1.  Expand the **Merge Attribute Values** step to view the reasoning that led to the recommendations.
 
@@ -90,9 +90,9 @@ This example follows your work to determine whether the recommended attribute me
 
 [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
 
-[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
+[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 
-[Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md)
+[Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md)
 
-[View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
+[View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
 

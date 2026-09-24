@@ -2,7 +2,7 @@
 title: Demand Insights for HR Cases dashboard
 description: The Demand Insights for HR cases dashboard enables you as an HR agent to identify which HR cases have no or insufficient knowledge coverage. You can then create feedback tasks for knowledge gaps to deflect such HR cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/demand-insights-hrcases-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/demand-insights-hrcases-dashboard.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -30,5 +30,5 @@ The Demand Insights for HR cases dashboard enables you as an HR agent to identif
 |-----|----|-----------|
 |Candidate Knowledge Gaps for HR cases|Pareto Chart|Candidate Knowledge Gaps for HR cases.|
 
-**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/analytics-and-reporting-solutions-for-knowlege-management.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/analytics-and-reporting-solutions-for-knowlege-management.md)
 

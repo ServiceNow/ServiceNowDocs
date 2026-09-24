@@ -2,7 +2,7 @@
 title: Key Management release notes
 description: The ServiceNow Encryption Key Management application protects your data by using encryption, tightly controlled key access, National Institute of Standards and Technology \(NIST\) 800-57-based key life-cycle management, and FIPS 140-2-L3 key protection. Encryption Key Management was enhanced and updated in the Australia release.The ServiceNow Encryption Key Management application protects your data by using encryption, tightly controlled key access, National Institute of Standards and Technology \(NIST\) 800-57-based key life-cycle management, and FIPS 140-2-L3 key protection. Encryption Key Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/encryption-key-mgmt-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/encryption-key-mgmt-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/Serv
         -   if you’re upgrading your Australia instances, you can still GlideEncrypter, which has been updated to use AES256-GCM encryption via the Key Management Framework.
         -   Learn more about 3DES deprecation in [KB1704481](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704481).
 
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-security-rn-landing.md)
 
 ## Australia
 
@@ -44,7 +44,7 @@ The ServiceNow® Encryption Key Management application protects your data by usi
 
 ### What's new
 
--   **[Added SHA512 support for message digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDigestScopedAPI.md)**
+-   **Added SHA512 support for message digests**
 
     GlideDigest has been updated to allow creation and verification of message digests using the SHA512 cryptographic hash function.
 
@@ -52,7 +52,7 @@ The ServiceNow® Encryption Key Management application protects your data by usi
 
     Admins can share module keys between instances offline to facilitate instance clones between on-premise instances using KMF.
 
--   **[Sign and verify JSON web tokens \(JWT\) through KMFCryptoOperation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)**
+-   **Sign and verify JSON web tokens \(JWT\) through KMFCryptoOperation**
 
     The signing and verification processes for JWTs are now integrated as operation types in the existing KMFCryptoOperation class.
 
@@ -75,7 +75,7 @@ The ServiceNow® Encryption Key Management application protects your data by usi
 
     Use the streamlined workflow designed for faster, easier creation of cryptographic modules.
 
--   **[SecurityUtils Enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideSecurityUtilsScopedAPI.md)**
+-   **SecurityUtils Enhancements**
 
     The SecurityUtils API has been enhanced to help prevent cross-site scripting attacks, including methods to sanitize and escape input.
 

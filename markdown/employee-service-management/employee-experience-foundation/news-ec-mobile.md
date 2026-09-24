@@ -2,7 +2,7 @@
 title: News in Now Mobile
 description: News articles are available in Now Mobile to provide easy access to consumable content, on-the-go.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/news-ec-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/news-ec-mobile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,7 +30,7 @@ You can associate a news article to a topic page to see it on the Related news s
 
 Apart from the news articles, also access videos and calendar from the **News Center** tab.
 
-For more information on news articles on the Employee Center portal, see [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-news-articles.md).
+For more information on news articles on the Employee Center portal, see [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-news-articles.md).
 
-**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/integrate-ec.md)
+**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/integrate-ec.md)
 

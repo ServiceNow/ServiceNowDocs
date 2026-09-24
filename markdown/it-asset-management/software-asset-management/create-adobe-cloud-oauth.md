@@ -2,7 +2,7 @@
 title: Create a project and add APIs using OAuth
 description: Create a project in the Adobe Developer Console for accessing Adobe APIs and add APIs to your project using OAuth.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-adobe-cloud-oauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-adobe-cloud-oauth.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management

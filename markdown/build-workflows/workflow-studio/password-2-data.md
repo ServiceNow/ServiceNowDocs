@@ -2,7 +2,7 @@
 title: Password \(2 Way Encrypted\) design considerations
 description: Store encrypted password data that can be decrypted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/password-2-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/password-2-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -75,5 +75,5 @@ Follow these general guidelines when designing flows containing Password \(2 Way
     Only users with a valid encryption module access can decrypt and view the contents of password2 variables. To specify the encryption algorithm and which roles can access encrypted data, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/password-2way-encrypted-fields.md) .
 
 
-**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md)
 

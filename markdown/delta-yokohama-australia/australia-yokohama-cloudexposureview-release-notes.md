@@ -2,11 +2,11 @@
 title: Combined Cloud Exposure View release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Cloud Exposure View from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-cloudexposureview-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-cloudexposureview-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -101,6 +101,21 @@ For existing customers, the detection key for the Wiz Host Vulnerability integra
     -   Appended all repositories that are associated with an image to the Repository field on the Discovered Container Image \[sn\_vul\_container\_image\] table, which can help you see images from specific repositories.
     -   You can configure the **First** parameter for the Wiz Asset Integration to help you resolve 504 errors. You can reduce the page size if you are having memory issues or generating errors. The default value is 500.
     -   The default integration instance parameter for configuring finding keys for the Container Vulnerability Integration includes src\_ci, vulnerability, package, image\_layer, and image\_repository.
+
+ -   **[\[Placeholder link text to key bundle-security.vr-cloud-security-exploring\]](https://www.servicenow.com/docs/access?context=vr-cloud-security-exploring&family=zurich&ft:locale=en-US)**
+
+The Cloud Exposure View module provides a single location for cloud security teams to monitor and act on all their cloud-related security findings from multiple vendors across their cloud environments.
+
+    -   Configure widgets that display interactive visualizations and filter assets by category for findings, assets, and exceptions.
+    -   View panels with links on a single page that direct you to the following detailed lists:
+        -   Needs Attention
+        -   Cloud resources with active findings
+        -   Top Accounts/Assets by Risk
+        -   Toxic combinations
+        -   Compliance scores
+    -   View aggregated security data imported from third-party vendors.
+See [Unified Security Exposure Management release notes](https://www.servicenow.com/docs/access?context=secops-sem-rn&family=zurich&ft:locale=en-US) for more information about Unified Security Exposure Management.
+
 
 </td></tr><tr><td>
 
@@ -252,6 +267,8 @@ Zurich
 
 Install the required applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Unified Cloud workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -453,5 +470,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

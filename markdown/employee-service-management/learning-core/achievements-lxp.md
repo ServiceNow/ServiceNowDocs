@@ -2,7 +2,7 @@
 title: Achievements
 description: The Achievements tab on My Learning shows you all your learning achievements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/achievements-lxp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/achievements-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core

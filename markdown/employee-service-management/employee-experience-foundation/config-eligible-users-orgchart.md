@@ -2,7 +2,7 @@
 title: Configure eligible users for org chart
 description: Define the eligible users to show up in the org chart. Admin can create a new eligible user configuration from one of the Users, HR Profile, and Employee Profile tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-eligible-users-orgchart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-eligible-users-orgchart.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -101,12 +101,12 @@ Based on this configuration, only the eligible users appear in the Org Chart wid
 
 ## What to do next
 
-A scheduled job populates the direct and otherreport count periodically. You can run the **Populate Manager Reportee Count Using Eligible Users \(Domain separated\)** scheduled job on-demand to update the report count at any time. The counts change based on the eligible users or employee status. For more information on running the job, see [Update the report count based on eligible users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/update-report-count.md).
+A scheduled job populates the direct and otherreport count periodically. You can run the **Populate Manager Reportee Count Using Eligible Users \(Domain separated\)** scheduled job on-demand to update the report count at any time. The counts change based on the eligible users or employee status. For more information on running the job, see [Update the report count based on eligible users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/update-report-count.md).
 
 When an employee with direct reports becomes ineligible, the direct reports are tagged to the manager of such ineligible employee.
 
 **Related topics**  
 
 
-[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
+[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
 

@@ -2,7 +2,7 @@
 title: Activate Product and Spend category predictor skills
 description: Activate the Product category predictor and Spend category predictor skills in AI Admin Hub to make both skills available to the Spend categorization agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/activate-category-predictor-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-category-predictor-skills.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -59,5 +59,5 @@ The Spend categorization agent uses two AI skills in the Category Prediction ski
 
 Both Category Prediction skills are active and available to the Spend categorization agent.
 
-**Parent Topic:**[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)
+**Parent Topic:**[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)
 

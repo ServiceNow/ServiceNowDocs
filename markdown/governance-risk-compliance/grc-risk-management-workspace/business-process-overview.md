@@ -2,7 +2,7 @@
 title: Business process management
 description: A business process is an activity or a set of activities that can accomplish a specific organizational goal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/business-process-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/business-process-overview.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -44,5 +44,5 @@ The following image shows an example of how to define a business process, such a
 **Related topics**  
 
 
-[Create a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-a-business-process.md)
+[Create a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-a-business-process.md)
 

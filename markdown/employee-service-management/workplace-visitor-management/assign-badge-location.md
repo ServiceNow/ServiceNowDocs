@@ -2,7 +2,7 @@
 title: Assign badge templates to a workplace location
 description: Assign a badge template to a workplace location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/assign-badge-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/assign-badge-location.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -47,5 +47,5 @@ If a location doesn't have an assigned badge template, the nearest template from
 
 If the visitor picture is not found, a default avatar is used for the badge template. You can change the avatar picture in the **sn\_wsd\_visitor.visitor\_avatar.png** record of the Images \[db\_image\] table.
 
-**Parent Topic:**[Create a visitor badge template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/create-visitor-badge-template.md)
+**Parent Topic:**[Create a visitor badge template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/create-visitor-badge-template.md)
 

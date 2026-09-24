@@ -2,7 +2,7 @@
 title: Specify the rate table and date source for currency conversions
 description: Identify the rate table and data source to use for currency conversions for the designated FX Currency field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/fx-currency-conv-rate-table-date-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/currency-administration/fx-currency-conv-rate-table-date-source.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -24,9 +24,9 @@ Identify the rate table and data source to use for currency conversions for the 
 
     -   To use the default system rate table you defined in the **glide.currency2.system\_rate\_table** property in **System Localization** &gt; **All Properties.**, select **System Currency Conversion Rate**. This table stores daily reference rates retrieved from the European Central Bank.
 
-        To learn more about the system rate table, see [Default currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency-conversions.md).
+        To learn more about the system rate table, see [Default currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/currency-conversions.md).
 
-    -   If you have defined a custom rate table, you can select it to use in currency conversions for the FX Currency field. To learn more about how to define custom rate tables, see [Add conversion rates using a custom rate table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/custom-rate-table.md).
+    -   If you have defined a custom rate table, you can select it to use in currency conversions for the FX Currency field. To learn more about how to define custom rate tables, see [Add conversion rates using a custom rate table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/custom-rate-table.md).
 3.  In the **Conversion Date Source** field, select the field to use as the source of the date and time for the currency conversion for the FX Currency field:
 
     -   To use the date and time at which the user performs the currency conversion, select **--None--**.
@@ -37,12 +37,12 @@ Identify the rate table and data source to use for currency conversions for the 
 4.  Click **Save**.
 
 
-**Parent Topic:**[Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md)
+**Parent Topic:**[Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/configure-fx-currency-field-behavior.md)
 
 **Related topics**  
 
 
-[Understanding how FX Currency field conversions work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-conversions.md)
+[Understanding how FX Currency field conversions work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/fx-currency-conversions.md)
 
-[Add conversion rates using a custom rate table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/custom-rate-table.md)
+[Add conversion rates using a custom rate table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/currency-administration/custom-rate-table.md)
 

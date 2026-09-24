@@ -2,7 +2,7 @@
 title: Submit legal request or matter
 description: As a legal request or matter fulfiller, submit a legal request or matter from within the Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-outlook-addin-submit-lr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-submit-lr.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -18,7 +18,7 @@ As a legal requestor matterfulfiller, submit a legal request or matterfrom withi
 
 ## Before you begin
 
-Ensure you have installed and deployed Microsoft Outlook Add-In for Legal Service Delivery. For more information, see [Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
+Ensure you have installed and deployed Microsoft Outlook Add-In for Legal Service Delivery. For more information, see [Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 
 Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfiller
 
@@ -26,7 +26,7 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
 1.  Sign in to Microsoft Outlook Add-In for Legal Service Delivery.
 
-    For more information, see [Sign in to Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-login.md).
+    For more information, see [Sign in to Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-login.md).
 
 2.  Submit a legal request.
 
@@ -36,7 +36,7 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
 5.  In the pop-up, select the legal request category.
 
-    To see the legal request categories, enable the respective intake forms for the Outlook add-in. For more information, see [Enable intake forms for Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-enable-intake-forms-addin.md)
+    To see the legal request categories, enable the respective intake forms for the Outlook add-in. For more information, see [Enable intake forms for Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-enable-intake-forms-addin.md)
 
 6.  Select **Create**.
 
@@ -48,15 +48,15 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
     For legal matter, select the artifact from the Artifact section and then select Add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachments icon\)
 
-<table id="choicetable_tly_21d_xbc"><thead><tr><th align="left" id="d109439e177">
+<table id="choicetable_tly_21d_xbc"><thead><tr><th align="left" id="d109443e177">
 
 Method
 
-</th><th align="left" id="d109439e180">
+</th><th align="left" id="d109443e180">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d109439e186">
+</th></tr></thead><tbody><tr><td id="d109443e186">
 
 **Add file from the system**
 
@@ -67,7 +67,7 @@ Steps
 3.  Select **Open**
 
 
-</td></tr><tr><td id="d109439e212">
+</td></tr><tr><td id="d109443e212">
 
 **Drag and drop file from the email**
 
@@ -87,5 +87,5 @@ Steps
     To view the legal request or matters in the ServiceNow instance, select Open the request in workspace icon \(\[Omitted image "lsd-outlook-addin-open-lr.png"\] Alt text: Open the request in workspace icon\).
 
 
-**Parent Topic:**[Use Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-use.md)
+**Parent Topic:**[Use Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-use.md)
 

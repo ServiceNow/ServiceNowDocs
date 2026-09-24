@@ -2,12 +2,12 @@
 title: Plan sprints
 description: Streamline your sprint planning and completion activities using the Sprint Planning tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/plan-sprint-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/plan-sprint-activity.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Agile Development 2.0 integration with Project Portfolio Management, Explore Project Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -74,5 +74,5 @@ This option can be used to move stories only within a backlog or a sprint.
         The sprint disappears from the **Sprint Planning** tab and appears in the Sprint list as complete.
 
 
-**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)
+**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)
 

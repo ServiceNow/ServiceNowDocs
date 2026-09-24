@@ -2,7 +2,7 @@
 title: Dynamic Guidance
 description: Dynamic Guidance is the proactive AI assistant invoked from Help Center and ServiceNow Otto panel that generates an engaging voice and text based, step by step, real-time guidance, dynamically, across platforms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/dynamic-guidance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/dynamic-guidance.html
 release: australia
 product: Adoption Services
 classification: adoption-services

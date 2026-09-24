@@ -2,7 +2,7 @@
 title: Configure and enable Whois integration
 description: Set up WHOIS integration with TISC to perform domain and URL lookups for threat intelligence enrichment. This integration provides context on observables to help determine potential threats.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-whoisxml-api-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-whoisxml-api-integration.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -22,7 +22,7 @@ Role required: sn\_sec\_tisc.admin
 
 **Important:** The Threat Intelligence Security Center and Whois Observable Enrichment plugins must be installed and active.
 
-Download the Whois integration from the ServiceNow Store and confirm you have a valid Whois account before use. For more information see, [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+Download the Whois integration from the ServiceNow Store and confirm you have a valid Whois account before use. For more information see, [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/download-app-first-time.md).
 
 ## Procedure
 
@@ -88,10 +88,10 @@ Enter the description for the new enrichment integration.For example, the descri
 
 After it is configured, Whois can be selected for performing enrichment on observables in Threat Intelligence Security Center.
 
-**Parent Topic:**[Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-whoisxml-integration.md)
+**Parent Topic:**[Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-whoisxml-integration.md)
 
 **Related topics**  
 
 
-[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)
+[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)
 

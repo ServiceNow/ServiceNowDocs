@@ -2,7 +2,7 @@
 title: Add users to a role
 description: Assign users to product-specific roles using the interface in the Security Exposure Management Workspace.
 locale: en-us
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-add-users-to-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-add-users-to-role.html
 release: australia
 topic_type: task
 last_updated: "2026-03-25"
@@ -52,5 +52,5 @@ Use this procedure to explicitly assign users to product-specific roles. Only ex
 
 The users are assigned to the role. The user count updates automatically when the modal is closed.
 
-**Parent Topic:**[Configure users and groups in Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-users-groups-overview.md)
+**Parent Topic:**[Configure users and groups in Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-users-groups-overview.md)
 

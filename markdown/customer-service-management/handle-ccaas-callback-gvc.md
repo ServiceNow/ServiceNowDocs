@@ -2,7 +2,7 @@
 title: Manage a CCaaS callback request using Global Voice Control
 description: As a customer service agent, when you leave the callback interaction page on the CSM/FSM Configurable Workspace during a call, you can use Global Voice Control \(GVC\) to continue with callback actions. You can return to the interaction page by selecting the Open interaction link.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/handle-ccaas-callback-gvc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/handle-ccaas-callback-gvc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ You must log in to your CCaaS account and CSM/FSM Configurable Workspace to rece
 
 ## About this task
 
-The callback interaction is either routed in the customer-first or agent-first method by contact center providers to the agent. In the customer-first scenario, the interaction appears like any other voice interaction. In the agent-first scenario, the interaction appears with a callback actions component and callback context card. For more information on the agent-first and customer-first modes, see [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-callback-integration-features.md). The following procedure is applicable for the agent-first scenario.
+The callback interaction is either routed in the customer-first or agent-first method by contact center providers to the agent. In the customer-first scenario, the interaction appears like any other voice interaction. In the agent-first scenario, the interaction appears with a callback actions component and callback context card. For more information on the agent-first and customer-first modes, see [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/interaction-controls-component-icc-callback-integration-features.md). The following procedure is applicable for the agent-first scenario.
 
 ## Procedure
 
@@ -38,23 +38,23 @@ The callback interaction is either routed in the customer-first or agent-first m
     -   Reason for callback
 2.  Perform one of the following in your inbox when you receive a callback interaction request.
 
-<table id="choicetable_xrb_1lf_cgc"><thead><tr><th align="left" id="d164868e135">
+<table id="choicetable_xrb_1lf_cgc"><thead><tr><th align="left" id="d164872e135">
 
 Action
 
-</th><th align="left" id="d164868e138">
+</th><th align="left" id="d164872e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d164868e144">
+</th></tr></thead><tbody><tr><td id="d164872e144">
 
 **Accept**
 
 </td><td>
 
-Select this button to accept the callback interaction request.The voice interaction page opens with the Callback Actions component on the top-left corner of the page. For more details on the callback actions component, see [Callback actions component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md).
+Select this button to accept the callback interaction request.The voice interaction page opens with the Callback Actions component on the top-left corner of the page. For more details on the callback actions component, see [Callback actions component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md).
 
-</td></tr><tr><td id="d164868e159">
+</td></tr><tr><td id="d164872e159">
 
 **Reject**
 
@@ -65,13 +65,13 @@ Select this button to reject the callback interaction request.The callback inter
 </td></tr></tbody>
 </table>3.  View the Callback context card for the details of the callback who requested a callback.
 
-    For more information on the Callback context card, see [Callback context card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md).
+    For more information on the Callback context card, see [Callback context card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md).
 
 4.  Select the GVC icon on the unified navigation bar to perform call-related actions when you are on other pages.
 
     You might have to open a knowledge article or case to address a customer request. While on a different page, you need not come back to the interaction page to control the call. Instead, you can use the GVC to control the call.
 
-    You can use the callback actions such as Call number, Close Callback, Retry call, and so on, on the GVC in the same way as you use them on the Callback Actions component. For more information on how to use the callback actions component for callback interactions, see [Manage a CCaaS callback request in the Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ccaas-address-callback-requests.md).
+    You can use the callback actions such as Call number, Close Callback, Retry call, and so on, on the GVC in the same way as you use them on the Callback Actions component. For more information on how to use the callback actions component for callback interactions, see [Manage a CCaaS callback request in the Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ccaas-address-callback-requests.md).
 
     **Note:** The Transfer function isn't supported in GVC.
 

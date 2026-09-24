@@ -2,7 +2,7 @@
 title: Viewing SIR Workspace Dashboards
 description: This section present the important metrics to analyze your Security Incident Response process such as new security incidents or the average age of open security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/working-with-analysts-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/working-with-analysts-dashboard.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,7 +2,7 @@
 title: Catalog item form slot-fill
 description: With the catalog item form slot-fill skill, generative AI can automatically complete catalog item forms based on what users search for.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/catalog-item-form-slot-fill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/catalog-item-form-slot-fill.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills

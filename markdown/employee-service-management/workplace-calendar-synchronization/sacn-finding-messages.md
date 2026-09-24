@@ -2,7 +2,7 @@
 title: Instance scan findings
 description: After the instance scan completes, on the Scan Result form, review the findings in the Scan Findings related list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/sacn-finding-messages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/sacn-finding-messages.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -51,6 +51,6 @@ The following findings are reported in the scan report:
 
 To fix a finding, refer to the following:
 
--   [Microsoft Exchange Online - Calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/ms-exchange-reservation-synchronization.md)
--   [Synchronization - Prerequisites and implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/synchronization-troubleshooting-and-conditions.md)
+-   [Microsoft Exchange Online - Calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/ms-exchange-reservation-synchronization.md)
+-   [Synchronization - Prerequisites and implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/synchronization-troubleshooting-and-conditions.md)
 

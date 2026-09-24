@@ -2,7 +2,7 @@
 title: Viewing events analytics
 description: View user analytics event occurrences to help you analyze core steps within your business processes.These event KPIs are tracked for web and mobile platforms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/view-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/view-events.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -40,7 +40,7 @@ Usage Insights automatically detects all screens, gestures, and user actions in 
 **Related topics**  
 
 
-[Creating custom events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/tagged-events.md)
+[Creating custom events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/tagged-events.md)
 
 ## User Analytics Events KPIs
 

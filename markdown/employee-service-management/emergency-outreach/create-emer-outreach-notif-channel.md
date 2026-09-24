@@ -2,7 +2,7 @@
 title: Create an Emergency Outreach notification channel
 description: Create a notification channel to send health status requests using your company's preferred communication method, such as the Slack or Microsoft Teams collaboration platforms. Create the notification channel using a script or a subflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/create-emer-outreach-notif-channel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-outreach/create-emer-outreach-notif-channel.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach

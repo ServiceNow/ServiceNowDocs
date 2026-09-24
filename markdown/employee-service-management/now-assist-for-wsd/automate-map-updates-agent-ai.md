@@ -2,7 +2,7 @@
 title: Automate map updates agentic workflow
 description: This AI agent helps map admins configure the map during bulk updates to Indoor Mapping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -18,7 +18,7 @@ This AI agent helps map admins configure the map during bulk updates to Indoor M
 
 ## Automate map updates workflow overview
 
-The AI agent autonomously retrieves sources for the CAD file and resumes the import task. If the source isn't found, the AI agent moves the task to the `Waiting user input` state. For more information about import tasks, see [Work on an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/work-import-task.md).
+The AI agent autonomously retrieves sources for the CAD file and resumes the import task. If the source isn't found, the AI agent moves the task to the `Waiting user input` state. For more information about import tasks, see [Work on an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/work-import-task.md).
 
 The AI agent autonomously performs the following:
 
@@ -33,7 +33,7 @@ To access the Automate map updates workflow, follow these steps:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Automate map updates**.
 3.  Select **Define trigger** to review the trigger factors for this agentic workflow.
-4.  The **Display** option enables the Now Assist panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md).
+4.  The **Display** option enables the Now Assist panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md).
 
 ## AI agents used in the Automate map updates workflow
 
@@ -53,7 +53,7 @@ In the Select a UI display section, select **Display** to display the ServiceNow
 
 Select this option to receive and review notifications sent by AI agents in the ServiceNow Otto panel. AI agents send notifications to Map Admins in the ServiceNow Otto panel about updates to the import tasks.
 
-**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 

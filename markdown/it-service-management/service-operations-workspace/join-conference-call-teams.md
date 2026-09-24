@@ -2,7 +2,7 @@
 title: Join a conference call from Microsoft Teams in Service Operations Workspace
 description: Join an existing conference call to participate in the discussion to resolve an incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/join-conference-call-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/join-conference-call-teams.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -37,5 +37,5 @@ Role required: itil
 7.  On the **Active** card, select **Join call**.
 
 
-**Parent Topic:**[Manage Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)
+**Parent Topic:**[Manage Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)
 

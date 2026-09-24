@@ -2,7 +2,7 @@
 title: Use transform maps
 description: Transform maps specify data relationships between source table and target table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/use-transform-maps-wd-learning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/use-transform-maps-wd-learning.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,7 +30,7 @@ For details on the transform maps, navigate to **System Import Sets** &gt; **Adm
 |Workday Learning Collection Courses|Maps the Workday Learning Collection from the Staging \[sn\_lrn\_workday\_collection\_staging\] to the Collection \[sn\_lc\_collection\] table.|
 |Workday Learning Program Courses|Maps learning program courses from the Staging \[sn\_lrn\_workday\_program\_courses\] to the Collection Course Item \[sn\_lc\_m2m\_collection\_course\_item\] table.|
 
-**Parent Topic:**[Using HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-workday-learning-intg.md)
+**Parent Topic:**[Using HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-workday-learning-intg.md)
 
 **Related topics**  
 

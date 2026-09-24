@@ -2,7 +2,7 @@
 title: Set up routing policy for automated certificate management
 description: Set up a routing policy to automate your Certificate Inventory and Management. Creating a policy based on Certificate Authority \(CA\), environment, and other features ensures efficient TLS certificate management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/setup-routing-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/setup-routing-policy.html
 release: australia
 product: Discovery
 classification: discovery
@@ -24,7 +24,7 @@ Role required: pki\_admin or admin
 
 The routing policy decides which CA must be contacted for certificate operations. It contains the CA, CA URL, Credential, Approval Group, Assignment Group, and CSR attributes. The routing policy triggers the flow for requesting certificates for specific CAs.
 
-**Note:** A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests are not allowed. However, you can override this setting by checking the Allow duplicate requests check box. Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md).
+**Note:** A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests are not allowed. However, you can override this setting by checking the Allow duplicate requests check box. Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/certificate-routing-policy-form-table.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ The routing policy decides which CA must be contacted for certificate operations
 
     -   It should not contain commas.
     -   It should not start and end with a forward slash \(/\) and \* matches any.
-    -   For more inforamtion about the fields and values on a routing policy form, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md)
+    -   For more inforamtion about the fields and values on a routing policy form, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/certificate-routing-policy-form-table.md)
 3.  The following CSR attributes are matched with the entries in the Routing Policy \[sn\_disco\_certmgmt\_routing\_policy\] table:
 
     -   Organization

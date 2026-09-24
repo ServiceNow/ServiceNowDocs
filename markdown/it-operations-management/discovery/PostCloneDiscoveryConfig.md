@@ -2,7 +2,7 @@
 title: Post-clone Discovery configuration
 description: When a clone occurs, Discovery schedules are copied from the source instance to the target instance. Additional configuration is necessary for these schedules to function correctly on the target instance, helping you properly configure Cloud-based and IP-based Discovery schedules and maintain optimal performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/PostCloneDiscoveryConfig.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/PostCloneDiscoveryConfig.html
 release: australia
 product: Discovery
 classification: discovery
@@ -120,7 +120,7 @@ Credential aliases are cloned but their credentials aren’t cloned. If Discover
 
 Additionally, no MID Server related tables are cloned. For more details, see the [MID Servers and Clones \[KBKB0786475\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0786475) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Manage customizations to applications
 description: You can manage your company's customizations for applications that belong to other organizations or a scoped ServiceNow plug-in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/manage-customizations-store-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/application-repository-self-hosted/manage-customizations-store-apps.html
 release: australia
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -69,5 +69,5 @@ There are two ways to create application-customizations.
 **Related topics**  
 
 
-[Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-app-entitlements.md)
+[Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/manage-app-entitlements.md)
 

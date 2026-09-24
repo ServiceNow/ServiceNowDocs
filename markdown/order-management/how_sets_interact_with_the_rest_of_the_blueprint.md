@@ -2,7 +2,7 @@
 title: How sets interact with the rest of a blueprint
 description: The implications of sets when used in blueprints.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/how\_sets\_interact\_with\_the\_rest\_of\_the\_blueprint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/how\_sets\_interact\_with\_the\_rest\_of\_the\_blueprint.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -69,5 +69,5 @@ If we want to have set fields affect fields outside the set, we have to use the 
 **Related topics**  
 
 
-[Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating_set_aggregates.md)
+[Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/creating_set_aggregates.md)
 

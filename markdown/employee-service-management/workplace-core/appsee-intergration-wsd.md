@@ -2,7 +2,7 @@
 title: View workplace service usage analytics with Usage Insights
 description: The ServiceNow Usage Insights provides you with qualitative analytics on how the services provided by the Workplace Service Delivery applications are used by the workplace managers, employees, and other workplace users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/appsee-intergration-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/appsee-intergration-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -32,7 +32,7 @@ ServiceNow®, by default, provides a set of properties with Usage Insights that 
 
 The Usage Insights application enables you to specify the analytics settings on the portal level. Navigate to **All** &gt; **Service Portal** &gt; **Portals** &gt; **Workplace Services** and select **Create Analytics Settings** to enable user analytics.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

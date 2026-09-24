@@ -2,7 +2,7 @@
 title: Create Cloud File Access on engagements and audit tasks
 description: The GRC Workspace administrators can create a Cloud file configuration on engagements and audit tasks from the Cloud file configuration module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/document-access-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/document-access-configuration.html
 release: australia
 product: Audit Management
 classification: audit-management

@@ -2,7 +2,7 @@
 title: Querying tables in script
 description: Using methods in the GlideRecord API, you can return all records from a table, return records from a table that satisfy specific conditions, or return records that include a string from a single table or from multiple tables in a text index group.Describes the operators that can be used within an addQuery\(\) request.These examples demonstrate how to perform various GlideRecord queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_UsingGlideRecordToQueryTables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_UsingGlideRecordToQueryTables.html
 release: australia
 product: Scripts
 classification: scripts
@@ -16,7 +16,7 @@ breadcrumb: [Server-side scripting, Scripting, API implementation, API implement
 
 Using methods in the GlideRecord API, you can return all records from a table, return records from a table that satisfy specific conditions, or return records that include a string from a single table or from multiple tables in a text index group.
 
-Query tables using the GlideRecord API. For API reference, see [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+Query tables using the GlideRecord API. For API reference, see [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 ## Return all records from a table
 
@@ -102,7 +102,7 @@ Multi-table string search is case-insensitive. The system returns the same resul
 
 **Note:** Before you can query tables in an index group, you must configure text indexing and search attributes for those tables and include them in the index group. For more information, see [Configure multiple tables for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/index-multiple-tables.md). All tables in the index group must use the V4 indexing format.
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
 
 ## Available JavaScript operators
 
@@ -301,7 +301,7 @@ while (target.next()) {
 }
 ```
 
-For more information on the GlideRecord API and its available methods, see [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+For more information on the GlideRecord API and its available methods, see [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 ## GlideRecord query examples
 
@@ -363,5 +363,5 @@ while(gr.next()) {
   gs.addInfoMessage(gr.request_item.number); }
 ```
 
-For additional information see [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+For additional information see [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 

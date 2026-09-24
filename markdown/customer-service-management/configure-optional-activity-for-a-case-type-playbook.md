@@ -2,7 +2,7 @@
 title: Configure an optional activity for a playbook
 description: Configure optional playbook activities so that agents and fulfillers can insert activities during a playbook run. For example, a customer may want to schedule an optional activity such as making an appointment to visit a location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-optional-activity-for-a-case-type-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-optional-activity-for-a-case-type-playbook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

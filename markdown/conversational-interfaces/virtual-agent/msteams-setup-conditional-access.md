@@ -2,7 +2,7 @@
 title: Configure Microsoft Azure Conditional Access for Microsoft Teams tenant
 description: You must configure conditional access in Microsoft Azure to restrict users from accessing the production applications. Conditional access helps you from accidentally overriding your production integration with a custom or personal instance integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/msteams-setup-conditional-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/msteams-setup-conditional-access.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -67,5 +67,5 @@ After the policy is created and the synchronization is complete, it restricts an
 
 **Note:** The restriction does not affect the restricted users from using the Microsoft Teams or the Now Virtual Agent.
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

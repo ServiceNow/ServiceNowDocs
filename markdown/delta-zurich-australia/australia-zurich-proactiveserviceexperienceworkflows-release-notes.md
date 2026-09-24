@@ -2,11 +2,11 @@
 title: Combined Proactive Service Experience Workflows release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Proactive Service Experience Workflows from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-proactiveserviceexperienceworkflows-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-proactiveserviceexperienceworkflows-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 3
+last_updated: "2026-09-24"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,17 @@ Zurich
 
 </td><td>
 
--   **[Diagnose and resolve an incident](https://www.servicenow.com/docs/access?context=diagnose-reslove-incident-psew&family=zurich&ft:locale=en-US)**
+-   **[Components](https://www.servicenow.com/docs/access?context=components-psew&family=zurich&ft:locale=en-US)**
+
+The granular admin role enables developers and administrators to complete administrative configuration tasks for Proactive Service Experience Workflows without requiring the full admin role.
+
+
+ -   **[Components](https://www.servicenow.com/docs/access?context=components-product-support-case&family=zurich&ft:locale=en-US)**
+
+The granular admin role enables developers and administrators to complete administrative configuration tasks for Product Support for Technology without requiring the full admin role.
+
+
+ -   **[Diagnose and resolve an incident](https://www.servicenow.com/docs/access?context=diagnose-reslove-incident-psew&family=zurich&ft:locale=en-US)**
 
 Diagnose the incident in the Proactive Service Experience Workflows and create the resolution task manually to resolve the issue.
 
@@ -371,5 +381,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Event handler in the Knowledge article view component
 description: A component triggers an event when a certain condition is met or on user interaction. The event can be used to execute an action through a code on a third-party webpage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-know-article-view-event-handler.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/we-know-article-view-event-handler.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -26,11 +26,11 @@ A component triggers an event when a certain condition is met or on user interac
 **Related topics**  
 
 
-[Configure the Knowledge article view component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-know-article-view-comp.md)
+[Configure the Knowledge article view component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-know-article-view-comp.md)
 
-[Embed the Knowledge article view component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-know-article-view-comp.md)
+[Embed the Knowledge article view component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-know-article-view-comp.md)
 
-[Component properties for the Knowledge article view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-know-article-view-comp-prop.md)
+[Component properties for the Knowledge article view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-know-article-view-comp-prop.md)
 
-[Sample code for the Knowledge article view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-know-article-view-sample-code.md)
+[Sample code for the Knowledge article view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-know-article-view-sample-code.md)
 

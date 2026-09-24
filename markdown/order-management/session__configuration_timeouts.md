@@ -2,7 +2,7 @@
 title: Session and configuration timeouts
 description: Learn how timeouts for inactive or abandoned configurations improve system efficiency and prevent resource waste.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/session\_\_configuration\_timeouts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/session\_\_configuration\_timeouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Define Jeopardy-enabled fulfillment workflows
 description: Create jeopardy-enabled fulfillment workflows using Workflow Studio. The workflows enable Jeopardy Management to track task completion times and manage risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/define-jm-enabled-fulfillment-flows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/define-jm-enabled-fulfillment-flows.html
 release: australia
 topic_type: task
 last_updated: "2025-12-09"
@@ -106,12 +106,12 @@ The flow action checks if an order task has a previous state value and uses the 
 
 ## What to do next
 
-[Configure the Order Task Duration Assignment Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-task-duration-assignment-policy.md).
+[Configure the Order Task Duration Assignment Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-order-task-duration-assignment-policy.md).
 
 **Related topics**  
 
 
-[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/jeopardy-management.md)
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/jeopardy-management.md)
 
-[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/monitoring-jeopardy-management.md)
 

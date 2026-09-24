@@ -2,7 +2,7 @@
 title: Configure error notifications in Instance Data Replication
 description: Notify one or more users when errors occur in Instance Data Replication \(IDR\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/configure-notification-idr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/instance-data-replication-idr/configure-notification-idr.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -33,7 +33,7 @@ Role required: admin
 
 3.  In the **When to send** tab, configure when the notification is sent.
 
-<table id="choicetable_t2s_vlq_qdc"><tbody><tr><td id="d621434e138">
+<table id="choicetable_t2s_vlq_qdc"><tbody><tr><td id="d622096e138">
 
 **Record is inserted or updated**
 
@@ -43,7 +43,7 @@ Role required: admin
 2.  Configure the conditions under which this notification is sent using the condition builder. The default condition is **\[Status\] \[is\] \[Replication Error\]**
 
 
-</td></tr><tr><td id="d621434e170">
+</td></tr><tr><td id="d622096e170">
 
 **Event is fired**
 
@@ -53,7 +53,7 @@ Role required: admin
 2.  Configure the conditions under which this notification is sent using the condition builder. The default condition is **\[Status\] \[is\] \[Replication Error\]**
 
 
-</td></tr><tr><td id="d621434e190">
+</td></tr><tr><td id="d622096e190">
 
 **Triggered**
 
@@ -73,5 +73,5 @@ Select this option to trigger the notification from a Workflow Studio flow.
 7.  Select **Update**.
 
 
-**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
+**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
 

@@ -2,7 +2,7 @@
 title: CPQ scripting language reference
 description: View the operators, objects, and keywords that CPQ supports, together with information about type conversion, type checking, alternative scripts for unsupported operations, and accessing object properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-logik-io-scripting-language-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-logik-io-scripting-language-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -171,7 +171,7 @@ Each object supported can be declared with the following:
 
 We do not support `while` or unconditional `for` loops with `break`, because of the risk of infinite loops halting performance.
 
-We do not support functions, as the script itself should be small enough to be considered one function. If your script is long with many conditions and variables, consider creating a managed table and using a table query. For more information about using managed tables and table queries, see [Matrix Loader: CSV table upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-matrix-loader-csv-table-upload.md) and [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/table_queries.md).
+We do not support functions, as the script itself should be small enough to be considered one function. If your script is long with many conditions and variables, consider creating a managed table and using a table query. For more information about using managed tables and table queries, see [Matrix Loader: CSV table upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-matrix-loader-csv-table-upload.md) and [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/table_queries.md).
 
 ## Alternative scripts for unsupported operations
 
@@ -324,9 +324,9 @@ If your instance of CPQ needs functionality not described here, create a support
 **Related topics**  
 
 
-[Sample scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-sample-scripts.md)
+[Sample scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-sample-scripts.md)
 
-[Using comments and the console to debug scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rules-enrichments-comments-and-console_log.md)
+[Using comments and the console to debug scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/rules-enrichments-comments-and-console_log.md)
 
-[Scripting: Checking for first and subsequent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments_on_configurer_and_reconfigure_behavior.md)
+[Scripting: Checking for first and subsequent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enrichments_on_configurer_and_reconfigure_behavior.md)
 

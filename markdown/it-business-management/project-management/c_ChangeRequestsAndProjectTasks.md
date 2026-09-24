@@ -2,7 +2,7 @@
 title: Change requests and project tasks
 description: Large-scale changes approved by your change approval board \(CAB\) require new or existing projects to be implemented.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_ChangeRequestsAndProjectTasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/c\_ChangeRequestsAndProjectTasks.html
 release: australia
 product: Project Management
 classification: project-management
@@ -69,7 +69,7 @@ When you start a project, tasks that have **Start ASAP** as the time constraint 
 
 Modifications made in the Project Management application do not propagate to a linked change request record, so closing a project does not close a linked change. When you successfully implement a change and close the project it belongs to, you must go to the change request record and manually change the state to **Closed**.
 
-**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
@@ -98,5 +98,5 @@ Modifications made in the Project Management application do not propagate to a l
 
 [Project scheduling in Project Management]()
 
-[Link change requests to a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_LinkChangesToAProjectTask.md)
+[Link change requests to a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_LinkChangesToAProjectTask.md)
 

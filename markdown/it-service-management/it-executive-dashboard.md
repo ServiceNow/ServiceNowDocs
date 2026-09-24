@@ -2,7 +2,7 @@
 title: Legacy: IT Executive dashboard
 description: See a high-level view across all of ITSM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/it-executive-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/it-executive-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Legacy: Performance Analytics ITSM Dashboards, Platform Analytics I
 
 See a high-level view across all of ITSM.
 
-IT executives can use the [ITSM Success Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md) to view the metrics for ITSM.
+IT executives can use the [ITSM Success Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md) to view the metrics for ITSM.
 
 \[Omitted image "itsm-it-executive.gif"\] Alt text: Animated tour of the tabs of the IT Executive dashboard
 
@@ -149,5 +149,5 @@ The following indicators do not appear on the dashboard but are used in formulas
 -   Stage \(Requested Item\)
 -   State \(Change, Request, Problem\)
 
-**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack.md)
+**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-dashboards-content-pack.md)
 

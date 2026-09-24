@@ -2,7 +2,7 @@
 title: Create a relationship between household members in Public Sector Digital Services
 description: Create a relationship between two constituents who are current members of the same household.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-households-member-relations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-households-member-relations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

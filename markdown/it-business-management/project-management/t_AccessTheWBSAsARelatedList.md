@@ -2,7 +2,7 @@
 title: Access the WBS as a related list
 description: You can view the WBS as a related list on both the Project and Project Task forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_AccessTheWBSAsARelatedList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_AccessTheWBSAsARelatedList.html
 release: australia
 product: Project Management
 classification: project-management
@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-You can view the full WBS list by navigating to a Project form and selecting the **Planning Console** related link. See [Planning console tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_PlanningConsoleTasks.md) for a list of the things you can do with the WBS on the planning console.
+You can view the full WBS list by navigating to a Project form and selecting the **Planning Console** related link. See [Planning console tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_PlanningConsoleTasks.md) for a list of the things you can do with the WBS on the planning console.
 
 You can also view the WBS as a related list on the Project or Project Task form.
 
@@ -39,10 +39,10 @@ You can also view the WBS as a related list on the Project or Project Task form.
     \[Omitted image "DemoProjectWBS.png"\] Alt text: screenshot for Demo Project WBS
 
 
-**Parent Topic:**[Using Work breakdown structure \(WBS\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_WorkBreakdownStructure.md)
+**Parent Topic:**[Using Work breakdown structure \(WBS\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_WorkBreakdownStructure.md)
 
 **Related topics**  
 
 
-[Using Work breakdown structure \(WBS\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_WorkBreakdownStructure.md)
+[Using Work breakdown structure \(WBS\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_WorkBreakdownStructure.md)
 

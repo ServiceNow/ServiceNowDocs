@@ -2,7 +2,7 @@
 title: Device action diagnosis and checks
 description: Common device action symptoms, and the tables and configurations to check during diagnosis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/device-actions-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/device-actions-issues.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -67,7 +67,7 @@ Action completes without visible result \(macOS\)
 
 </td><td>
 
-Confirm that the sudoers file grants the required permissions to `_servicenow`.For more information, see [Configure ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/config-sudoers-file.md).
+Confirm that the sudoers file grants the required permissions to `_servicenow`.For more information, see [Configure ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/config-sudoers-file.md).
 
 </td></tr><tr><td>
 

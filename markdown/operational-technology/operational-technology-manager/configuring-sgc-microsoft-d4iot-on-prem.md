@@ -2,7 +2,7 @@
 title: Configure the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)
 description: Use the Guided Setup for the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) to lead you through the integration steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-on-prem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-on-prem.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -34,7 +34,7 @@ Role required: admin
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) application by using the application picker.
 
-    For more information, see .
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connector Microsoft D4IoT** &gt; **Guided Setup**.
 
@@ -254,7 +254,7 @@ If you are using the Operational Technology Vulnerability Response application w
     4.  Select **SG-OT Microsoft D4IoT Devices Scheduled Import** to review or change the devices import schedule as needed.
 
         -   By default, the devices import schedule is configured to run daily at midnight.
-        -   Devices are queried by sensor. The Service Graph Connector queries for devices detected by validated sensors. For information about configuring Network Intrusion Detection System \(NIDS\) appliances, see [Validate the NIDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/validate-nids.md).
+        -   Devices are queried by sensor. The Service Graph Connector queries for devices detected by validated sensors. For information about configuring Network Intrusion Detection System \(NIDS\) appliances, see [Validate the NIDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/validate-nids.md).
     5.  Select **Active** to activate the devices import schedule.
 
     6.  Select **SG-OT Microsoft D4IoT Connections Scheduled Import** to review or change the connections import schedule as needed.
@@ -263,5 +263,5 @@ If you are using the Operational Technology Vulnerability Response application w
         -   Connections are only imported if both devices \(Source &amp; Destination in Microsoft API, or Parent &amp; Child in the CMDB\) are already in the CMDB.
         -   Import devices before importing connections.
 
-**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-on-prem.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-on-prem.md)
 

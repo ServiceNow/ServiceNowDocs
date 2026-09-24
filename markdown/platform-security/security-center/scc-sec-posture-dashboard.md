@@ -2,7 +2,7 @@
 title: Security posture dashboards
 description: Use the customizable single and multi-instance security posture dashboards to monitor your security KPIs. These dashboards consolidate the important information regarding the security of your instances in a single location and include a number of base system dashboard widgets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/scc-sec-posture-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/scc-sec-posture-dashboard.html
 release: australia
 product: Security Center
 classification: security-center
@@ -34,7 +34,7 @@ The **At a glance** section displays an overview of security on an instance, suc
 
 -   **Compliance score**
 
-    Displays your instance compliance score percentage over time, beginning with the date sown at the bottom of the widget. Select this widget to navigate to the [Hardening compliance score trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/score-trend.md).
+    Displays your instance compliance score percentage over time, beginning with the date sown at the bottom of the widget. Select this widget to navigate to the [Hardening compliance score trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/score-trend.md).
 
 -   **Metric threshold alerts for me**
 
@@ -46,11 +46,11 @@ The **At a glance** section displays an overview of security on an instance, suc
 
 -   **Customer actions due soon**
 
-    Displays a count of customer actions due soon. Select this widget to navigate to [Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/critical-updates.md).
+    Displays a count of customer actions due soon. Select this widget to navigate to [Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/critical-updates.md).
 
 -   **Antivirus downloaded files**
 
-    Displays a count of files uploaded to your instance that have been quarantined. Select this widget to view these quarantined files in the [Antivirus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/antivirus.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of files uploaded to your instance that have been quarantined. Select this widget to view these quarantined files in the [Antivirus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/antivirus.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **Release version**
 
@@ -65,23 +65,23 @@ The **Users** section provides information on the users in your instance. The wi
 
 -   **Total users**
 
-    Displays a count of users on your Users \[sys\_user\] table. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of users on your Users \[sys\_user\] table. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **Active users**
 
-    Displays a count of active users on your Users \[sys\_user\] table. Active users are user records where the **Active** field is selected. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of active users on your Users \[sys\_user\] table. Active users are user records where the **Active** field is selected. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **Active integration accounts**
 
-    Displays a count of integration accounts on your Users \[sys\_user\] table. Integration accounts are user records where the **Web service access only** field is selected. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of integration accounts on your Users \[sys\_user\] table. Integration accounts are user records where the **Web service access only** field is selected. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **Active privileged accounts**
 
-    Displays a count of active privileged users on your Users \[sys\_user\] table. Privileged users are user records where the **Active** field is true, the **Internal Integration User** is false, and **Internal Integration User** is inactive. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of active privileged users on your Users \[sys\_user\] table. Privileged users are user records where the **Active** field is true, the **Internal Integration User** is false, and **Internal Integration User** is inactive. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **Never logged-in users**
 
-    Displays a count of users on your Users \[sys\_user\] table created in the last 60 days, and have no value in the **Last login time** field. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of users on your Users \[sys\_user\] table created in the last 60 days, and have no value in the **Last login time** field. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 
 ## Login protection
@@ -92,19 +92,19 @@ The **Login protection** section includes information on failed logins, includin
 
 -   **Failed user logins**
 
-    Displays a count of failed user login attempts. Select this widget to navigate to see details on failed logins in [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of failed user login attempts. Select this widget to navigate to see details on failed logins in [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **Failed privileged user logins**
 
-    Displays a count of failed user login attempts from privileged accounts. Privileged users are user records where the **Active** field is true, the **Internal Integration User** is false, and **Internal Integration User** is inactive. Select this widget to navigate to see details on failed logins in [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of failed user login attempts from privileged accounts. Privileged users are user records where the **Active** field is true, the **Internal Integration User** is false, and **Internal Integration User** is inactive. Select this widget to navigate to see details on failed logins in [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **Privileged logins without MFA**
 
-    Displays a count of privileged accounts that aren’t configured for multi-factor authentication \(MFA\). Select this widget to navigate to see a list these accounts in [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of privileged accounts that aren’t configured for multi-factor authentication \(MFA\). Select this widget to navigate to see a list these accounts in [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **REST APIs without API access policy**
 
-    Displays a list of REST APIs that aren’t restricted with an API access policy. Select this widget to navigate to see a list these REST APIs in [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a list of REST APIs that aren’t restricted with an API access policy. Select this widget to navigate to see a list these REST APIs in [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 
 ## Instance hardening
@@ -127,23 +127,23 @@ Use the **Data protection** section to see an overview of classified data, such 
 
 -   **Classified data**
 
-    Displays a pie chart of classified data on your instance, separated by type. Select a section of the chart to view details on these records. For details on data classification, see [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-classification.md).
+    Displays a pie chart of classified data on your instance, separated by type. Select a section of the chart to view details on these records. For details on data classification, see [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/dps-data-classification.md).
 
 -   **Classified data exports**
 
-    Displays a count of classified records that have been exported from your instance. Select this widget to see a list of classified exports in the [Export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/export.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of classified records that have been exported from your instance. Select this widget to see a list of classified exports in the [Export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/export.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **Total table columns**
 
-    Displays a count of all columns\(fields\) in tables on your instance. Select this widget to review these columns in the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/data-classification-security-metrics.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of all columns\(fields\) in tables on your instance. Select this widget to review these columns in the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/data-classification-security-metrics.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **Encrypted PII classified columns**
 
-    Displays a count of encrypted records classified as Personally Identifiable Information \(PII\). Select this widget to review these records in the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/data-classification-security-metrics.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of encrypted records classified as Personally Identifiable Information \(PII\). Select this widget to review these records in the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/data-classification-security-metrics.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 -   **Total PII classified columns**
 
-    Displays a count of all records classified as Personally Identifiable Information \(PII\). Select this widget to review these records in the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/data-classification-security-metrics.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of all records classified as Personally Identifiable Information \(PII\). Select this widget to review these records in the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/data-classification-security-metrics.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 
 
 ## Review multiple instances
@@ -160,5 +160,5 @@ You may add or remove instances that appear on this dashboard by modifying your 
 
 The instance security posture dashboard can’t be customized, but you can duplicate the dashboard by selecting the **More Actions** \(\[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: More actions\) icon and selecting **Duplicate**. You can change the duplicate dashboard.
 
-**Parent Topic:**[Security posture console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-posture-console.md)
+**Parent Topic:**[Security posture console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-posture-console.md)
 

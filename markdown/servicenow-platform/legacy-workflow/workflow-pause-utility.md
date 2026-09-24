@@ -2,7 +2,7 @@
 title: Workflow pause utility
 description: Workflow Pause Utility provides functionality you can use to pause or resume all workflow contexts, a subset of qualified workflow contexts, or individual workflow contexts. You designate the data and time of day at which the paused workflows should resume, and can manually resume individual workflows as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/workflow-pause-utility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/workflow-pause-utility.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -28,7 +28,7 @@ Once activated, the Workflow Pause Utility plugin \(com.glideapp.workflow.pause\
 
 -   **wf\_pause\_group\_request**
 
-    Pauses the specific set of workflow contexts you designate using filtering in [Group Pause Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/pause-resume-all-multiple-workflows.md). You can manually pause all currently active workflows by clicking the **Pause All** check box.
+    Pauses the specific set of workflow contexts you designate using filtering in [Group Pause Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/pause-resume-all-multiple-workflows.md). You can manually pause all currently active workflows by clicking the **Pause All** check box.
 
 -   **wf\_pause\_snapshot**
 
@@ -41,14 +41,14 @@ When you take down an instance for maintenance, you can pause all or selected ac
 
 You have an integration workflow context that hits an internal service that is down for maintenance. You can pause all instances of that workflow context from progressing to the next activity, allowing time for the internal service to be restored. Then, the paused workflow contexts can be resumed.
 
--   **[Request workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/request-workflow-pause-utility.md)**  
+-   **[Request workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/request-workflow-pause-utility.md)**  
 You can request the Workflow Pause Utility plugin \(com.glideapp.workflow.pause\) if you have the admin role. This plugin may include demo data and activates related plugins if they are not already active.
--   **[Pause and resume individual workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/pause-resume-individual-workflows.md)**  
+-   **[Pause and resume individual workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/pause-resume-individual-workflows.md)**  
 Pause individual workflow contexts. Specify the date and time of day at which the workflow context should resume.
--   **[Pause and resume all or multiple workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/pause-resume-all-multiple-workflows.md)**  
+-   **[Pause and resume all or multiple workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/pause-resume-all-multiple-workflows.md)**  
 Use Workflow Pause Group Requests to pause, or resume, groups of workflows, or all active workflows. If pausing a group of workflows, use filtering functions to select the workflows. If pausing all active workflows, select the Pause All check box to indicate that all currently active workflows should be paused.
--   **[Monitor workflow pause requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/monitor-workflow-pause-requests.md)**  
+-   **[Monitor workflow pause requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/monitor-workflow-pause-requests.md)**  
 You can monitor the status of workflow pause requests using Workflow Pause Request.
 
-**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
+**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/c_WorkflowAdministration.md)
 

@@ -2,7 +2,7 @@
 title: Receptionist portal
 description: Use the receptionist portal to view and manage visitor activity in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/receptionist-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/receptionist-portal.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -31,7 +31,7 @@ As a receptionist, you can perform the following actions:
 
 \[Omitted image "wsd-visitor-receptionist-portal.png"\] Alt text: Receptionist portal displaying visitors for one day. Visitors are displayed in three columns: Expected, checked-in, and checked-out.
 
-**Parent Topic:**[Exploring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
+**Parent Topic:**[Exploring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
 
 **Related topics**  
 

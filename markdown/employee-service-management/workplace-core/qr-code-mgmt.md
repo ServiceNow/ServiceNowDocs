@@ -2,7 +2,7 @@
 title: QR code management
 description: Generate and print QR codes for spaces and rooms. Employees can use these codes to make reservation-related actions on the Now Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/qr-code-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/qr-code-mgmt.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -31,10 +31,10 @@ As an employee, use your Now Mobile app to scan the QR code and view the reserva
 
 -   **[Generate and print QR code for a space or room]()**  
 Generate and print a QR code for a single space or room, or for multiple spaces or rooms. Employees can scan the QR code to view their reservation details using the Now Mobile app.
--   **[Manage QR codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-qr-codes.md)**  
+-   **[Manage QR codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-qr-codes.md)**  
 View, update, or print the already generated QR codes in the application. Before printing, you can change the conditions of already generated QR codes if required.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

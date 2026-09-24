@@ -2,7 +2,7 @@
 title: Using model entities in Zero Copy Connector for ERP
 description: Specify the entity that a model uses for read, update, or create operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/using-model-entities-in-zero-copy-connector-for-erp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/using-model-entities-in-zero-copy-connector-for-erp.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

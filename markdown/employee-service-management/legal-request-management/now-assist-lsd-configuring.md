@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Legal Service Delivery \(LSD\)
 description: Configure generative AI skills in ServiceNow Otto for Legal Service Delivery \(LSD\) for legal users working in Legal Counsel Center, Core UI, and Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/now-assist-lsd-configuring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/now-assist-lsd-configuring.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -40,7 +40,7 @@ Role required: admin
     Previously configured skills that were enabled, then disabled, remain inactive.
 
 
-The legal request summarization and legal matter summarization skills are available in the base system with the required configurations. To customize the skill, you must create a copy of the skill that is in the base system before you modify the configuration. Activating a customized skill with the same base input table as the original skill automatically deactivates the original skill. For more information, see [Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-customize-skill.md).
+The legal request summarization and legal matter summarization skills are available in the base system with the required configurations. To customize the skill, you must create a copy of the skill that is in the base system before you modify the configuration. Activating a customized skill with the same base input table as the original skill automatically deactivates the original skill. For more information, see [Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-customize-skill.md).
 
 You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
@@ -68,7 +68,7 @@ Legal Request and Matter
 
 1.  Install the Legal Service Delivery - Prime plugin \(sn\_lg\_ai\_prime\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-exploring.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-exploring.md).
     -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub**.
 
@@ -106,12 +106,12 @@ Legal Request and Matter
 
 You can deactivate the skill by selecting **Deactivate** from the options icon \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options icon.\) of the active skill.
 
--   **[Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-customize-skill.md)**  
+-   **[Customize a summarization skill in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-customize-skill.md)**  
 If you have the admin role, you can customize a ServiceNow Otto for Legal Service Delivery \(LSD\) skill so that you can use the generative AI skills in Legal Counsel Center and in Core UI.
--   **[Configuring Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-cofig-gen-results.md)**  
+-   **[Configuring Q&amp;A Genius Results in ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-cofig-gen-results.md)**  
 By using Q&amp;A Genius Results in the ServiceNow Otto for Legal Service Delivery \(LSD\) application, you can quickly find the most optimal information in Employee Center, Legal Counsel Center, and global search.
--   **[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)**  
+-   **[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)**  
 You can configure the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application to analyze the general legal requests, predict the appropriate legal category, and initiate a transfer when a legal fulfiller or group manager confirms the request.
 
-**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-ops-administration.md)
 

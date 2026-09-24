@@ -2,7 +2,7 @@
 title: Verify the SOX Content Pack in Risk Management
 description: After importing the SOX Content Pack, verify and edit the entity types, entities, risk statements, risks, and assessments within the Risk Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/verify-SOX-content-risk-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/verify-SOX-content-risk-management.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -59,7 +59,7 @@ Role required: Risk Admin \(sn\_risk.admin\)
 
 ## Result
 
-For information about the SOX Risk Dashboard, see [SOX Content Pack dashboard and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.md).
+For information about the SOX Risk Dashboard, see [SOX Content Pack dashboard and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.md).
 
-**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
+**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
 

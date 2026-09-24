@@ -2,7 +2,7 @@
 title: How to use the Now Assist panel in UI Builder
 description: Use the Now Assist panel in UI Builder to request guidance, streamline page building, and better understand the content on your pages.Ask questions and get quick answers without leaving UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/uib-now-assist-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/uib-now-assist-panel.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -58,7 +58,7 @@ Now Assist Page Insights can extract information from pages, components, and dat
 -   `What components have theme overrides?`
 -   `Are there any unused client scripts?`
 
-**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-builder.md)
 
 ## Get help with the Now Assist panel in UI Builder
 
@@ -79,7 +79,7 @@ Responses and outputs from Now Assist can vary, even when the same prompt is use
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 

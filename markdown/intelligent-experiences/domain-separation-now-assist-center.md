@@ -2,7 +2,7 @@
 title: Domain separation and AI Admin Center
 description: Domain separation is supported for AI Admin Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/domain-separation-now-assist-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/domain-separation-now-assist-center.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-30"
@@ -56,7 +56,7 @@ The following domain-separated fields are supported:
     Enables child domain state records to override parent domain states.
 
 
-**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
+**Parent Topic:**[AI Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-reference.md)
 
 **Related topics**  
 

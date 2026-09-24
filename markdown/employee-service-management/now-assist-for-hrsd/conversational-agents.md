@@ -2,7 +2,7 @@
 title: HCM AI agents
 description: Place requests to the Human Capital Management \(HCM\) system using the HR Service Delivery AI agent collection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/conversational-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/conversational-agents.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -18,7 +18,7 @@ Place requests to the Human Capital Management \(HCM\) system using the HR Servi
 
 ## HCM AI agents Overview
 
-You can submit requests to the HCM system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure HCM AI agents from the HR Service Delivery AI Agent Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-hcm-agents.md).
+You can submit requests to the HCM system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure HCM AI agents from the HR Service Delivery AI Agent Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-hcm-agents.md).
 
 ## Worker profile retriever AI agent
 

@@ -2,7 +2,7 @@
 title: AI voice agent service mapping with KBA
 description: Specify the questions used for caller identification and authentication with a specific AI voice agent service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-kba-service-mappings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-kba-service-mappings.html
 release: australia
 product: Authentication
 classification: authentication

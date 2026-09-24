@@ -2,7 +2,7 @@
 title: Request to include a component to a component library
 description: Submit a request for a component in an application that could be reused across multiple applications to be added to a shared component library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-application-comp-lib-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-application-comp-lib-request.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

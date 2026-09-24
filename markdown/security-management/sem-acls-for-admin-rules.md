@@ -2,7 +2,7 @@
 title: Access control lists \(ACLs\) for administration rules
 description: You can either view or modify the administration rules based on the roles assigned to you.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-acls-for-admin-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-acls-for-admin-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

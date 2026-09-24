@@ -2,7 +2,7 @@
 title: Vaccination Status dashboard
 description: Use the Vaccination Status dashboard to review reports that can provide insight into the vaccination status of your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/vaccination-status-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/vaccination-status-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -128,5 +128,5 @@ Line\[Omitted image "line-icon.png"\] Alt text: Line icon
 Indicates the number of people fully vaccinated. The rate is determined by the number of users in your organization with their vaccination profile COVID-19 completed status marked as true.**Note:** A historical data collection job, **Generate vaccine history records**, runs daily to ensure that the report chart is up-to-date.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status.md)
+</table>**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/vaccination-status.md)
 

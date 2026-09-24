@@ -2,7 +2,7 @@
 title: Outbound invoice tax line staging table
 description: Field descriptions and data types for the Outbound invoice tax line \[sn\_spend\_intg\_outbound\_invoice\_tax\_line\] staging table used to export invoice tax line data to third-party ERP systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/outbound-invoice-taxline-table-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/outbound-invoice-taxline-table-apo.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

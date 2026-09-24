@@ -2,7 +2,7 @@
 title: Review users in a user segment group
 description: After creating a user group segment, review and edit users before you create cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/manage-group-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/manage-group-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -43,15 +43,15 @@ Role required: sn\_hr\_core\_admin
     -   Included: The user matches the filter criteria and a case will be created for the user.
     -   Excluded: The user does not match the criteria and a case will not be created.
     -   Duplicate: The user is listed multiple times.
-<table id="choicetable_y2w_s5c_3bc"><thead><tr><th align="left" id="d98437e136">
+<table id="choicetable_y2w_s5c_3bc"><thead><tr><th align="left" id="d98441e136">
 
 Review result
 
-</th><th align="left" id="d98437e139">
+</th><th align="left" id="d98441e139">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d98437e145">
+</th></tr></thead><tbody><tr><td id="d98441e145">
 
 **Some user statuses must be modified**
 

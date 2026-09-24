@@ -2,12 +2,12 @@
 title: Enable the manage order operations agent on Business Portal
 description: Activate and associate the manage order operations agent on the Business Portal so that your customers can use this AI agent to submit order cases autonomously using ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/enable-manage-order-operations-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enable-manage-order-operations-ai-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Order Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
@@ -56,9 +56,9 @@ The chat assistant is activated in the Business Portal.
 
 ## What to do next
 
-Customize the subject, content, or formatting of the default email templates for order cases. For more information, see [Email notifications for order cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-case-email-notifications.md).
+Customize the subject, content, or formatting of the default email templates for order cases. For more information, see [Email notifications for order cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-case-email-notifications.md).
 
-**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-order-operations.md)
+**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-manage-order-operations.md)
 
 **Related topics**  
 

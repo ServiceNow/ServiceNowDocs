@@ -2,7 +2,7 @@
 title: Miro Spoke
 description: The Miro spoke provides actions to view and analyze meaningful usage data for Miro software subscriptions. Analyze usage for your Miro Enterprise account to determine which licenses are stale so that you can reclaim these licenses and realize your potential savings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/miro-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/miro-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -83,7 +83,7 @@ The Miro spoke provides actions to automate Miro tasks when events occurs in you
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -130,7 +130,7 @@ The Miro spoke adds a Miro Spoke module to your ServiceNow instance. The Miro Sp
 
 ## Integration Hub imports
 
-The Miro spoke adds the following Integration Hub imports to your ServiceNow instance. The Integration Hub imports help you import data from Miro account to your ServiceNow instance in an automated way. For more information about Integration Hub imports, see[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md).
+The Miro spoke adds the following Integration Hub imports to your ServiceNow instance. The Integration Hub imports help you import data from Miro account to your ServiceNow instance in an automated way. For more information about Integration Hub imports, see[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integrationhub-imports.md).
 
 |Import|Description|
 |------|-----------|
@@ -141,5 +141,5 @@ The Miro spoke adds the following Integration Hub imports to your ServiceNow ins
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Miro spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-miro.md).
+For information about setting up the spoke, see [Set up the Miro spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-miro.md).
 

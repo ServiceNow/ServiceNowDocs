@@ -2,7 +2,7 @@
 title: Copy assessment responses
 description: Enable the option to copy responses from the most recent completed assessment into new assessments. Respondents can review and edit the pre-filled responses before submission to save time and ensure consistency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/copy-assessment-responses-mrm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/copy-assessment-responses-mrm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ This task guides you on how to enable or disable the option to copy responses fr
     When enabled, new assessments copy responses from the most recently completed assessment, if available. Respondent can edit the pre-filled responses before submitting.
 
 
-**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-mrm.md)
 

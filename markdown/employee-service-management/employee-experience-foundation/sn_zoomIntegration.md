@@ -2,7 +2,7 @@
 title: ServiceNow for Zoom
 description: The ServiceNow integrations with Zoom helps you create a better, more connected experience for users. Employees get seamless self-service without having to leave the Zoom client, and agents can resolve cases faster using Zoom chat, video, and telephony tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/sn\_zoomIntegration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/sn\_zoomIntegration.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -55,7 +55,7 @@ Enhance employee experience by integrating Employee Center with the Zoom applica
 
 </td><td>
 
-Available to all customers using the Employee Center. To access Employee Center in the Zoom application, see [Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md).
+Available to all customers using the Employee Center. To access Employee Center in the Zoom application, see [Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md).
 
 </td><td>
 
@@ -109,23 +109,23 @@ Create custom integrations using Zoom spoke.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how agents and employees use Collaboration services for Zoom.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/explore-sn-zoom.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how agents and employees use Collaboration services for Zoom.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/explore-sn-zoom.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-sn-zoom.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-sn-zoom.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Zoom capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Zoom capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Initiate and import Zoom chat messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Initiate and import Zoom chat messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like Zoom APIs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/reference-sn-zoom.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like Zoom APIs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/reference-sn-zoom.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Example: Script mapping
 description: The Age breakdown uses the Incident.Age.Days script to calculate the age of incidents in days and map the values to the Incident Age Ranges bucket group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/example-script-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/example-script-mapping.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -38,10 +38,10 @@ Here is the result of running this script on the Number of open incidents indica
 
 \[Omitted image "detailed-scorecard-age-breakdown.png"\] Alt text: Analytics Hub for the Number of open incidents indicator showing the Age breakdown.
 
-**Parent Topic:**[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
+**Parent Topic:**[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
 
 **Related topics**  
 
 
-[Scripting in Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-scripts.md)
+[Scripting in Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-scripts.md)
 

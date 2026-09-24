@@ -2,7 +2,7 @@
 title: User hierarchy
 description: With a user hierarchy, your managers can see the records of those users who report to them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/user-hierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/user-hierarchy.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -93,8 +93,8 @@ For information on how to configure the user hierarchy access control on your cu
 
 **Note:** You must log in to Now Support to view the Knowledge Base articles.
 
--   **[Create a user hierarchy configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-a-new-user-hierarchy-configuration-record.md)**  
+-   **[Create a user hierarchy configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-a-new-user-hierarchy-configuration-record.md)**  
 Create a user hierarchy configuration record for a table so that you can enable your managers to view the records of the users who report to them.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

@@ -2,7 +2,7 @@
 title: Create a record producer using a template
 description: If a predefined incident template exists, it can be used with the record producer to fill in standard information for the incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_CreateRecProducWithTempl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/t\_CreateRecProducWithTempl.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -31,7 +31,7 @@ Role required: catalog\_admin or admin
 4.  Right-click on the form header and click **Save**.
 
 
-**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-templates-record-producers.md)
+**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-templates-record-producers.md)
 
 **Related topics**  
 

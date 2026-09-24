@@ -2,7 +2,7 @@
 title: SAFe Board—Portfolio level
 description: As a portfolio manager, you can plan and monitor activities within your portfolio by accessing the Portfolio level on the SAFe Board.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/portfolio-tabs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/portfolio-tabs.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -31,12 +31,12 @@ In addition, you can move an epic from one lane to another, which in turn update
 
 The **Backlog** tab enables you to manage your portfolio backlog, which comprises epics.
 
--   **[Track your epics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/track-epics.md)**  
+-   **[Track your epics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/track-epics.md)**  
 Using the Board tab, track all epics of your portfolio and view their transition from one state \(lane\) to another.
--   **[Manage your portfolio backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/manage-your-portfolio-backlog.md)**  
+-   **[Manage your portfolio backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/manage-your-portfolio-backlog.md)**  
 Manage, evaluate, prioritize, and sequence epics in your portfolio backlog.
 
-**Parent Topic:**[Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)
+**Parent Topic:**[Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)
 
 **Related topics**  
 

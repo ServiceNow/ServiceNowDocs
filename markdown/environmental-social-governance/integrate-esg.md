@@ -2,7 +2,7 @@
 title: Integrating Operational Sustainability Management \(formerly ESG\) with other applications
 description: You can integrate Operational Sustainability Management with Project Portfolio Management and Integrated Risk Management \(IRM\). These integrations provide you with more options to track your goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/integrate-esg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/integrate-esg.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ If you integrate Operational Sustainability Management with Project Portfolio Ma
 
 When you create goals for your material topics, you perform some activity to accomplish those goals. The work that you do is captured in the form of programs and projects. When you integrate with Project Portfolio Management, you can create programs and projects for your goals. To learn more about program management and how to create programs, see [Program Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_ProgramManagement.md).
 
-To see the configurations that you must perform on the project form, see [Display the priorities and goals on the project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-project-form.md).
+To see the configurations that you must perform on the project form, see [Display the priorities and goals on the project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configure-project-form.md).
 
-To see the tables installed with Goal Framework, see [Roles installed with the Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/tables-installed-with-goals.md).
+To see the tables installed with Goal Framework, see [Roles installed with the Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/tables-installed-with-goals.md).
 
 The following image shows the Operational Sustainability Management home page with Project Portfolio Management integration. The integration adds new actions in the Quick Actions section, and it creates the Programs/Projects column in the Top Level Goals Summary section.
 
@@ -36,25 +36,25 @@ If you integrate Operational Sustainability Management with IRM, you can add ris
 
 After you integrate with IRM, the Goal form lists additional options.\[Omitted image "goals-form-with-risk-intg.png"\] Alt text: Goals form with IRM integration.
 
-For more information on the roles and tables that are installed with the Operational Sustainability Management, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
+For more information on the roles and tables that are installed with the Operational Sustainability Management, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/components-installed-with-esg.md).
 
--   **[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-o365-with-servicenow.md)**  
+-   **[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrating-o365-with-servicenow.md)**  
 The Microsoft 365 for ServiceNow Reporting \(sn\_esg\_msoff\_intg\) integration provides disclosure reporting capabilities to ESG reporting disclosure managers to seamlessly report ServiceNow Operational Sustainability Management system data, list reports, charts, pivot, and multi pivot reports using Microsoft Word.
--   **[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-risk-management.md)**  
+-   **[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-risk-management.md)**  
 The Operational Sustainability Risk Management capability enables you to assess and evaluate operational sustainability risks for businesses. This capability is an integration of Operational Sustainability Management with Advanced risk assessment. To use the risk assessment feature, you must install and activate the sn\_esg\_risk\_mgmt plugin.
--   **[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-watershed.md)**  
+-   **[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg-with-watershed.md)**  
 Watershed is a tool that enables organizations to measure their carbon emissions and renewable energy and its impact. It also enables organizations to act to reduce emissions, and to report on the progress to reduce their carbon footprint.
--   **[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)**  
+-   **[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrating-esg-management-with-urjanet.md)**  
 Urjanet is a cloud-based platform that extracts different utility bills directly from the source, and delivers it into the business systems and applications that rely on it. As an ESG program manager or a metrics manager you can get your utilities data automatically from Urjanet and avoid manual data entry from your various facilities or office owners.
--   **[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-concur.md)**  
+-   **[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg-with-concur.md)**  
 Use the Operational Sustainability Integration with Concur to calculate your carbon emissions when your employees travel by car, airplane, and train for business. Tracking these emissions enables you to manage them and take the necessary actions to reduce them.
--   **[Integrating Operational Sustainability Management with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.md)**  
+-   **[Integrating Operational Sustainability Management with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.md)**  
 Socialsuite is a platform for conducting materiality assessments. You can import material topics from Socialsuite into your ServiceNow instance and manage them in the Operational Sustainability Management application.
 
-**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-landing-page.md)
+**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-landing-page.md)
 
 **Related topics**  
 
 
-[Migrate existing goals data to Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/migrate-existing-goals-to-new-data-model.md)
+[Migrate existing goals data to Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/migrate-existing-goals-to-new-data-model.md)
 

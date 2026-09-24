@@ -2,7 +2,7 @@
 title: UniversalTaskUtils - Scoped, Global
 description: The UniversalTaskUtils script include provides methods for managing universal tasks.Applies the specified universal task template to the specified universal task record.Returns the active child task records, in the form of a GlideRecord, for the specified parent ticket.Checks whether the specified parent ticket has any universal tasks that are in the work-in progress or complete state.Changes the state of all active universal tasks under the specified parent ticket to "Cancelled".Changes the state of all active child universal tasks associated with the specified parent ticket to "Complete".
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/UniversalTaskUtilsBothAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/UniversalTaskUtilsBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -26,7 +26,7 @@ You can use this script include in both scoped and global applications. The Univ
 
 For additional information on the Universal Task application, see [Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task-landing.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## UniversalTaskUtils - applyTemplate\(String templateSysId, GlideRecord uniTaskGr\)
 
@@ -90,7 +90,7 @@ This code example shows a function that acquires, and then applies, the Feedback
 
 Returns the active child task records, in the form of a GlideRecord, for the specified parent ticket.
 
-You can then use the GlideRecord API, [scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) or [global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) depending on the calling application's scope, to access the returned data, such as using the getRowCount\(\) method to count active tasks.
+You can then use the GlideRecord API, [scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) or [global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordAPI.md) depending on the calling application's scope, to access the returned data, such as using the getRowCount\(\) method to count active tasks.
 
 |Name|Type|Description|
 |----|----|-----------|

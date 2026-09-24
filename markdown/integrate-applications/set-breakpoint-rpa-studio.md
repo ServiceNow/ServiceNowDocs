@@ -2,7 +2,7 @@
 title: Set a breakpoint to pause a component in RPA Desktop Design Studio
 description: Set a breakpoint on a component in RPA Desktop Design Studio so that you can pause it for debugging purposes during an automation execution. You can set a breakpoint for any number of components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/set-breakpoint-rpa-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/set-breakpoint-rpa-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Set a breakpoint on a component in RPA Desktop Design Studio so that you can pau
 
 Ensure that the component or components where you want to set a breakpoint in are a part of your automation.
 
-Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-components.md).
+Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-components.md).
 
 Role required: none
 
@@ -36,15 +36,15 @@ Role required: none
 
 2.  Choose an option and complete the action.
 
-<table id="choicetable_otx_hcg_wrb"><thead><tr><th align="left" id="d654146e122">
+<table id="choicetable_otx_hcg_wrb"><thead><tr><th align="left" id="d652882e122">
 
 Option
 
-</th><th align="left" id="d654146e125">
+</th><th align="left" id="d652882e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d654146e131">
+</th></tr></thead><tbody><tr><td id="d652882e131">
 
 **To execute the component where the breakpoint is set**
 
@@ -52,7 +52,7 @@ Action
 
 Click **Move next** under the **Design** tab or press the **Ctrl+F8** keys.For a step-by-step execution of the workflow, continue clicking the **Move next** button.
 
-</td></tr><tr><td id="d654146e155">
+</td></tr><tr><td id="d652882e155">
 
 **To continue the execution of the remaining components**
 
@@ -60,7 +60,7 @@ Click **Move next** under the **Design** tab or press the **Ctrl+F8** keys.For a
 
 Click **Run** under the **Design** tab.
 
-</td></tr><tr><td id="d654146e170">
+</td></tr><tr><td id="d652882e170">
 
 **To find all the breakpoints in the automation**
 
@@ -68,7 +68,7 @@ Click **Run** under the **Design** tab.
 
 Click the down arrow button next to the **Clear Breakpoints** button under the **Design** tab and select **Find all**.A list of breakpoints appears in the Find All References section.
 
-</td></tr><tr><td id="d654146e191">
+</td></tr><tr><td id="d652882e191">
 
 **To remove a breakpoint**
 
@@ -76,7 +76,7 @@ Click the down arrow button next to the **Clear Breakpoints** button under the *
 
 Right-click a desired component and select **Breakpoint**.
 
-</td></tr><tr><td id="d654146e204">
+</td></tr><tr><td id="d652882e204">
 
 **To remove all the breakpoints**
 
@@ -86,5 +86,5 @@ Click **Clear breakpoints** under the **Design** tab.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-studio-use.md)
 

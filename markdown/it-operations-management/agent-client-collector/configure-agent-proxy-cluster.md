@@ -2,7 +2,7 @@
 title: Create a proxy agent cluster
 description: Create a cluster of agents on multiple proxy servers to monitor services external to the host server. Creating a cluster of agents enables you to assign that cluster to multiple policies instead of having to assign the agents individually to every policy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-agent-proxy-cluster.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/configure-agent-proxy-cluster.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -55,7 +55,7 @@ The **Proxy Agent Clusters** page appears and displays the agent added to the cl
 
 ## What to do next
 
-Select this proxy cluster to monitor CIs specified in an agent policy. For details, see [Configure an agent on a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-agent-proxy-server.md).
+Select this proxy cluster to monitor CIs specified in an agent policy. For details, see [Configure an agent on a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-agent-proxy-server.md).
 
-**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/proxy-agent.md)
+**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/proxy-agent.md)
 

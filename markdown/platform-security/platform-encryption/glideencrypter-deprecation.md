@@ -2,7 +2,7 @@
 title: GlideEncrypter deprecation
 description: Learn how to remove the use legacy GlideEncrypter calls from the scripts on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/glideencrypter-deprecation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/glideencrypter-deprecation.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -26,7 +26,7 @@ The availability of GlideEncrypter in the Zurich release depends on whether your
 
 -   **Upgraded instances**
 
-    Zurich instances that have been upgraded from a previous release are still able to use the legacy GlideEncypter API, but the API has been updated to use AES256-GCM encryption via the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md). This change replaces the use of the legacy 3DES encryption standard to comply with NIST guidelines, while allowing any scripts still using GlideEncrypter to operate.
+    Zurich instances that have been upgraded from a previous release are still able to use the legacy GlideEncypter API, but the API has been updated to use AES256-GCM encryption via the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md). This change replaces the use of the legacy 3DES encryption standard to comply with NIST guidelines, while allowing any scripts still using GlideEncrypter to operate.
 
 
 ## Enable or disable GlideEncrypter
@@ -47,7 +47,7 @@ true
 
 </td><td>
 
-When true, GlideEncypter can still be called in scripts, but uses the AES256-GCM encryption via the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md).
+When true, GlideEncypter can still be called in scripts, but uses the AES256-GCM encryption via the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md).
 
 </td></tr><tr><td>
 
@@ -60,5 +60,5 @@ Unsupported call to GlideEncrypter. Details: GlideEncrypter is deprecated and no
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Prepare your instance for GlideEncrypter deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/check-3des.md)
+</table>**Parent Topic:**[Prepare your instance for GlideEncrypter deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/check-3des.md)
 

@@ -2,7 +2,7 @@
 title: View an impacted person record
 description: View and track the status of an impacted person's record as an agent in Critical Event Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/view-impacted-person-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/view-impacted-person-record.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -47,7 +47,7 @@ Role required: sn\_critical.agent
     The record also shows the activity stream and notifications.
 
 
-**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create Core UI reports from MetricBase time-series data
 description: Use the MetricBase application to create time-series reports from MetricBase data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/create-report-with-metricbase-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/create-report-with-metricbase-data.html
 release: australia
 product: Reporting
 classification: reporting
@@ -47,7 +47,7 @@ Roles required: itil, report\_user, report\_group, report\_global, report\_admin
 
 6.  On the **Type** tab, select the type of report to create and select **Next**.
 
-    Only time series reports are available. For information on specific reports types, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md). To view the updated report, select **Run**.
+    Only time series reports are available. For information on specific reports types, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md). To view the updated report, select **Run**.
 
 7.  On the **Configure** tab, fill in the following fields and select **Next**.
 
@@ -84,7 +84,7 @@ Transform
 Data is altered.-   Select no transforms to show the raw data in your report.
 -   Select one transform.
 -   Select multiple transforms to create a transform chain. A transform chain applies a new transform to the results of the previous transform.
-For more information, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/metricbase-transforms.md).
+For more information, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/metricbase-transforms.md).
 
 </td></tr><tr><td>
 
@@ -113,9 +113,9 @@ Select this option to show report data in a list below the report. The list appe
 
     See the Style options section of the report that you're creating for more information.
 
-    -   [Area and spline report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreateAreaAndSplineCharts.md)
-    -   [Line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreateLineCharts.md)
-    -   [Step line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/step-reports.md)
+    -   [Area and spline report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_CreateAreaAndSplineCharts.md)
+    -   [Line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_CreateLineCharts.md)
+    -   [Step line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/step-reports.md)
 10. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
 
 
@@ -128,8 +128,8 @@ The report is created from the MetricBase source. If the report visualization is
 -   Select the Report info icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Info icon\) and add a description of the report.
 -   Select the sharing icon \(\[Omitted image "ShareIcon.png"\] Alt text: Sharing icon\) to open the **Sharing** menu. On this menu, you can add the report to a dashboard, export the report to PDF, publish the report to the web, and set visibility and schedules.
 
--   **[MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/metricbase-transforms.md)**  
+-   **[MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/metricbase-transforms.md)**  
 Transforms enable you to visualize MetricBase data in different ways.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdvancedReporting.md)
 

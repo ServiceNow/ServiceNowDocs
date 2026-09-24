@@ -2,7 +2,7 @@
 title: Application administration
 description: Protect sensitive application data by using application administration to restrict how users acquire application-specific roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/application-administration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/application-administration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Use application administration to:
 
 ## Roles in application administration
 
-You can make any role an application-specific administrator by selecting the **Application Administrator** check box in Role Configuration. To learn more, see [Restrict access to an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/enable-application-administration.md). By convention, create the following roles:
+You can make any role an application-specific administrator by selecting the **Application Administrator** check box in Role Configuration. To learn more, see [Restrict access to an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/enable-application-administration.md). By convention, create the following roles:
 
 <table id="table_kdp_xkr_vlb"><thead><tr><th>
 
@@ -54,7 +54,7 @@ Application-specific developer
 
 </td><td>
 
-Users with this role can access the restricted application. For example, you can create a role named my\_application.developer. It should include the name of the restricted application, with a suffix of "developer" to indicate that it is the developer role for the application. The developer role needs both application administrator and delegated development permissions to modify the application files.To learn more, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md) and [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
+Users with this role can access the restricted application. For example, you can create a role named my\_application.developer. It should include the name of the restricted application, with a suffix of "developer" to indicate that it is the developer role for the application. The developer role needs both application administrator and delegated development permissions to modify the application files.To learn more, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md) and [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
 
 </td></tr></tbody>
 </table>## Application-specific admin role
@@ -93,7 +93,7 @@ Set the **\[scoped\_app\_name\].min\_admin\_count property** to require that mor
 -   If you specify a valid value for the property, you can't delete any application-specific admins unless you exceed the specified value. For example, if you specify a value of two and you have three application-specific admins, you can delete only one of those roles.
 -   You can specify a value higher than the actual number of assigned application-specific admins. However, you can't delete any application-specific admins until you exceed the specified value. For example, if you specify a value of six, but have only three application-specific admins, you can't delete any of those roles.
 
-For procedures, see [Restrict access to an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/enable-application-administration.md).
+For procedures, see [Restrict access to an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/enable-application-administration.md).
 
 ## Deploying applications with application administration
 
@@ -108,7 +108,7 @@ You must have the system-level admin role in both your developer and production 
 7.  As a system-level admin on the production instance, grant the application-specific admin role to the appropriate users.
 8.  Remove the application-specific admin role from all users with the system-level admin role.
 
-For procedures to enable application administration and restrict the assignment of application-specific roles, see [Restrict access to an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/enable-application-administration.md).
+For procedures to enable application administration and restrict the assignment of application-specific roles, see [Restrict access to an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/enable-application-administration.md).
 
 ## Training
 
@@ -117,5 +117,5 @@ The ServiceNow® Developer Site has training for [Securing Applications](https:/
 **Related topics**  
 
 
-[Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md)
+[Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md)
 

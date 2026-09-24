@@ -2,7 +2,7 @@
 title: Add Covered Products using Contracts and Entitlement Workflow
 description: Covered products refers to specific products or order line items that are included in a customer contract. These items are linked to the contract to define what is covered for service or maintenance. Covered products can be directly tracked through the contract records, facilitating changes and visibility of what is covered.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/adding-cov-prod-cceworkflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/adding-cov-prod-cceworkflows.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure sorting display options for mobile filters
 description: Customize the way sorting options are displayed in your mobile filter and override the default behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/list-filter-sorting-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/list-filter-sorting-attributes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

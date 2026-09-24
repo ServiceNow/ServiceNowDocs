@@ -2,7 +2,7 @@
 title: Complaint Management dashboard
 description: With the Financial Services Complaint Management dashboard, you can get an insight into how your team and business are performing for the complaints that were received for your financial services. You can monitor the status of the complaint service cases, see trends, and drill down into the details from a single view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-complaint-mgmt-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-complaint-mgmt-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -153,5 +153,5 @@ The following table shows the available filters in the Financial Services Compla
 |Complaint Category|Choice|Shows all the active complaint categories for the Complaint service \[sn\_bom\_compl\_service\] table.|
 |Complaint Type|Choice|Shows all the active complaint types for the Complaint service \[sn\_bom\_compl\_service\] table.|
 
-**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-content-pack.md)
 

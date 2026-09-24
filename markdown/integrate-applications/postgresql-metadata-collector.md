@@ -2,7 +2,7 @@
 title: PostgreSQL metadata collector
 description: Provides read-only access to metadata from a PostgreSQL database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/postgresql-metadata-collector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/postgresql-metadata-collector.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -149,10 +149,10 @@ Establishes relationships between Views and source Table columns that:
 
 **Note:** View-to-table relationships can be established transitively through column-level relationships. Variable statement lineage isn’t supported.
 
--   **[Prepare to run the PostgreSQL collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-postgresql-collector.md)**  
+-   **[Prepare to run the PostgreSQL collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-postgresql-collector.md)**  
 Create a PostgreSQL user and configure permissions before running the collector.
--   **[Create a PostgreSQL metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-postgresql-metadata-collector.md)**  
+-   **[Create a PostgreSQL metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-postgresql-metadata-collector.md)**  
 Create a collector to import metadata from PostgreSQL.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-metadata-collectors-dc.md)
 

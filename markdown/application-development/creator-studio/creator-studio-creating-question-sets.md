@@ -2,7 +2,7 @@
 title: Creating question sets for use in Creator Studio forms
 description: Admins can create pre-configured question sets that can be reused across multiple forms without being changed in Creator Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-creating-question-sets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-creating-question-sets.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -23,5 +23,5 @@ Additionally, you can create question sets with multiple questions if you want s
 
 See [Create a variable set and add it to an item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAVariableSet.md) to find out how to create a question set in Service Catalog.
 
-**Parent Topic:**[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-administering-forms.md)
+**Parent Topic:**[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-administering-forms.md)
 

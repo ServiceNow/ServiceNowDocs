@@ -2,7 +2,7 @@
 title: Create a Developer Support case
 description: Enter a support case to engage Developer Support assistance, if you are a named contact on the Impact plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/create-developer-support-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/create-developer-support-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

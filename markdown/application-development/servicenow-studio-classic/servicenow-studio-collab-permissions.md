@@ -2,7 +2,7 @@
 title: Collaboration permissions for ServiceNow Studio
 description: Collaboration permissions determine what delegated developers can do when working on an app in ServiceNow Studio. Admins or app owners set these permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -16,7 +16,7 @@ breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building
 
 Collaboration permissions determine what delegated developers can do when working on an app in ServiceNow Studio. Admins or app owners set these permissions.
 
-For more information, see [Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md).
+For more information, see [Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md).
 
 ## File types custom collaboration permissions
 
@@ -66,5 +66,5 @@ The default setting for both owners and editors is de-selected.
 |Publish app to repo|Access to publish the app to your repo.|No|No|
 |Publish to app store|Access to publish the app to your app store.|No|No|
 
-**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
+**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
 

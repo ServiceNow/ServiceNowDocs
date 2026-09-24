@@ -2,7 +2,7 @@
 title: Components installed with Intent Discovery
 description: Several types of components are installed with activation of the sn\_nlu\_discovery plugin, including tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/installed-with-intent-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/installed-with-intent-discovery.html
 release: australia
 product: NLU Service
 classification: nlu-service

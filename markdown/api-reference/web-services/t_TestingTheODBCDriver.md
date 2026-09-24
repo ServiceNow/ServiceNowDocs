@@ -2,7 +2,7 @@
 title: Test the ODBC driver
 description: After configuring the ODBC driver, test that the driver can connect to the base instance as the ODBC user and can query data from a target table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_TestingTheODBCDriver.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_TestingTheODBCDriver.html
 release: australia
 product: Web Services
 classification: web-services
@@ -51,17 +51,17 @@ To test the connection, run the ODBC Administrator program.
 7.  Click **OK** again when the success message appears.
 
 
--   **[Generate logs for debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_GenerateDebugLogs.md)**  
+-   **[Generate logs for debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_GenerateDebugLogs.md)**  
 If you experience unexpected behavior when using the ODBC driver, you can enable debug logging and generate debug logs to help identify the issue.
--   **[Test a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_TestingAQuery.md)**  
+-   **[Test a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_TestingAQuery.md)**  
 To verify that the user has the appropriate permissions to send requests to the instance using ODBC, run a query using Interactive SQL.
--   **[ODBC troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/odbc-troubleshooting.md)**  
+-   **[ODBC troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/odbc-troubleshooting.md)**  
 Review these troubleshooting resources to resolve issues with the ODBC driver.
 
-**Parent Topic:**[Create data sources from other apps using ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ODBCDriver.md)
+**Parent Topic:**[Create data sources from other apps using ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ODBCDriver.md)
 
 **Related topics**  
 
 
-[Configure the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfigureTheODBCDriver.md)
+[Configure the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_ConfigureTheODBCDriver.md)
 

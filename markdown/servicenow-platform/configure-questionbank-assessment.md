@@ -2,7 +2,7 @@
 title: Configure metric categories or metrics for an assessment using the question bank
 description: Reuse question categories \(metric categories\) and questions \(metrics\) from the Question Bank module while creating or updating an assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-questionbank-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configure-questionbank-assessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -69,5 +69,5 @@ Role required: admin or assessment\_admin
         A copy of the metric and the corresponding metric definitions is created for the selected category in the question bank.
 
 
-**Parent Topic:**[Add a metric category and metric in the question bank for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-questionbank-assessment.md)
+**Parent Topic:**[Add a metric category and metric in the question bank for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/add-questionbank-assessment.md)
 

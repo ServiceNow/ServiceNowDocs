@@ -2,7 +2,7 @@
 title: App generation supported metadata
 description: App generation creates seven metadata types, including tables, roles, and record producers. Use this reference to understand what each metadata type does and how app generation uses it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-app-gen-supported-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-app-gen-supported-metadata.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -108,7 +108,7 @@ Tables organize data into rows and columns for easy reference:-   Collection of 
 
 </td></tr><tr><td>
 
-[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md)
+[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/workspace-builder-landing.md)
 
 </td><td>
 
@@ -119,5 +119,5 @@ sys\_ux\_page\_registry
 A targeted experience for an application that includes data visualizations and other user experience components to allow a user to interact with an application.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[App generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)
+</table>**Parent Topic:**[App generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)
 

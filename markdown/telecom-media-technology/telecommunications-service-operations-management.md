@@ -2,7 +2,7 @@
 title: Telecommunications Service Operations Management
 description: Learn how Telecommunications Service Operations Management \(TSOM\) empowers communication service providers \(CSPs\) to proactively monitor, analyze, and resolve network and service issues before they impact customers. Built on the ServiceNow AI Platform, TSOM delivers a unified operations view across distributed, multi-domain telecom environments, helping teams improve service availability, operational efficiency, and customer satisfaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/telecommunications-service-operations-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/telecommunications-service-operations-management.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

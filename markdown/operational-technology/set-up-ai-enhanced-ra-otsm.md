@@ -2,7 +2,7 @@
 title: Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)
 description: Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\) so that you can contextualize external sources related to an Operational Technology \(OT\) incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/set-up-ai-enhanced-ra-otsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/set-up-ai-enhanced-ra-otsm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Set up AI Enhanced Recommended Actions for Operational Technology Service Manage
 
 ## Before you begin
 
-Ensure you have Recommended Actions for OTSM installed and configured. For more information, see [Set up Recommended Actions for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/set-up-recommended-actions-for-otsm.md).
+Ensure you have Recommended Actions for OTSM installed and configured. For more information, see [Set up Recommended Actions for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/recommended-actions-for-otsm/set-up-recommended-actions-for-otsm.md).
 
 Role required: admin
 
@@ -51,7 +51,7 @@ Role required: admin
 
 ## What to do next
 
-After you set up AI Enhanced Recommended Actions for OTSM, you can use the feature in the Industrial Workspace. For more information see, [Using AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-ai-enhanced-ra-otsm.md).
+After you set up AI Enhanced Recommended Actions for OTSM, you can use the feature in the Industrial Workspace. For more information see, [Using AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/using-ai-enhanced-ra-otsm.md).
 
-**Parent Topic:**[Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ai-enhanced-ra-otsm.md)
+**Parent Topic:**[Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-ai-enhanced-ra-otsm.md)
 

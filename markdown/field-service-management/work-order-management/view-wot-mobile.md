@@ -2,7 +2,7 @@
 title: Plan your work order tasks
 description: Plan how to execute tasks assigned to you using the mobile app. You can prioritize by accessing SLAs and call customers directly from the app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-wot-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/view-wot-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -58,7 +58,7 @@ The task list displays the following information for each work order task:
 
     The list displays all tasks scheduled to start before the end of next week.
 
-    **Note:** You can also [view all work orders for an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/identify-defect-asset-mobile-app.md).
+    **Note:** You can also [view all work orders for an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/identify-defect-asset-mobile-app.md).
 
 4.  Select a work order task to view details for the task.
 
@@ -91,7 +91,7 @@ The task list displays the following information for each work order task:
 **Related topics**  
 
 
-[Field Service Management SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_FieldServiceAutomationSLAs.md)
+[Field Service Management SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/c_FieldServiceAutomationSLAs.md)
 
-[Working on tasks when your mobile device is offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-offline-fieldservice-mobile.md)
+[Working on tasks when your mobile device is offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/work-offline-fieldservice-mobile.md)
 

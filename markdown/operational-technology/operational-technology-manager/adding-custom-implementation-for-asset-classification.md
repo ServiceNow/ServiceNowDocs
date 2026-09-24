@@ -2,7 +2,7 @@
 title: Add a custom implementation for device classification
 description: Customize the base system classification of an device based on the type, os\_version, and firmware\_version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/adding-custom-implementation-for-asset-classification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/adding-custom-implementation-for-asset-classification.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -64,5 +64,5 @@ Returns the CMDB sys class name based on the operating system passed.
 
 From the related lists Implementations tab, open the base system extension point implementation to inactivate it.
 
-**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
+**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

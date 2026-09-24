@@ -2,7 +2,7 @@
 title: Default skipped rules
 description: Reduce considerable processing time with the default skipped rules to auto-retain high friction causing configuration metadata types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-default-skipped-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-default-skipped-rules.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -40,7 +40,7 @@ The skipped records that are retained automatically by the default skipped rules
 
 **Note:** You can also find a comment for each retained skipped records to show the related table it was generated from during the upgrade process.
 
-**Parent Topic:**[Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-reference.md)
+**Parent Topic:**[Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-reference.md)
 
 **Related topics**  
 

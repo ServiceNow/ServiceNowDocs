@@ -2,7 +2,7 @@
 title: Track application experience scores
 description: Track and drill down into the quantitative and qualitative data on the Digital Experience Score​ dashboard to gain a comprehensive view into employee experiences of using work applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-track-app-experience-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-experience-score/dexscr-track-app-experience-score.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
@@ -79,19 +79,19 @@ The three applications with lowest experience scores and the changes in scores f
 </td></tr></tbody>
 </table>7.  View a list of all applications and access an application's metric details either by selecting a number in the **No. of applications** column or the **View all applications** link.
 
-    For more information, see [Track experience scores of an individual application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-track-application-experience.md).
+    For more information, see [Track experience scores of an individual application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-track-application-experience.md).
 
 
-**Parent Topic:**[Tracking digital experience using Digital Experience Score​ dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-using-dex-score.md)
+**Parent Topic:**[Tracking digital experience using Digital Experience Score​ dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-using-dex-score.md)
 
 **Related topics**  
 
 
-[Track experience scores of an individual application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-track-application-experience.md)
+[Track experience scores of an individual application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-track-application-experience.md)
 
-[Metric scores in Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-defs.md)
+[Metric scores in Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-defs.md)
 
-[DEX Score metrics calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-metrics-calc.md)
+[DEX Score metrics calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-metrics-calc.md)
 
-[DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md)
+[DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md)
 

@@ -2,7 +2,7 @@
 title: Building with ERP data
 description: Use data extracted from ERP systems, such as SAP, to build applications, workflows, playbooks, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

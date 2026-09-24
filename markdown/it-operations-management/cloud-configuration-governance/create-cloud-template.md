@@ -2,7 +2,7 @@
 title: Create a cloud template-based catalog item
 description: Create a cloud template and associate the template with a catalog item. Once you've created a template, you can reuse the template to create additional catalog items for the services you want to provision.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-cloud-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-cloud-template.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

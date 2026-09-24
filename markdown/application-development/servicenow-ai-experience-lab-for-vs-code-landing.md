@@ -2,7 +2,7 @@
 title: ServiceNow Lux Lab for VS Code extension
 description: The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. You can scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ai-experience-lab-for-vs-code-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-ai-experience-lab-for-vs-code-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-04"
@@ -19,15 +19,15 @@ The ServiceNow Lux Lab for VS Code extension transforms how you build on the Ser
 
 <table id="table_i3p_m33_zjc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow Lux Lab for VS Code extension.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-servicenow-ai-experience-lab-for-vs-code.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow Lux Lab for VS Code extension.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-servicenow-ai-experience-lab-for-vs-code.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install the ServiceNow Lux Lab for VS Code extension and connect it to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configuring-servicenow-ai-experience-lab-for-vs-code.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install the ServiceNow Lux Lab for VS Code extension and connect it to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configuring-servicenow-ai-experience-lab-for-vs-code.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-app-creator.svg"\] Alt text:Create and extend application experiences, pages, and widgets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-servicenow-ai-experience-lab-for-vs-code.md)
+[Use\[Omitted image "bus-app-creator.svg"\] Alt text:Create and extend application experiences, pages, and widgets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/using-servicenow-ai-experience-lab-for-vs-code.md)
 
 </td><td>
 

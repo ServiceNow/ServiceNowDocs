@@ -2,7 +2,7 @@
 title: Test and publish an updated Android app for public distribution
 description: After you have requested an updated Android app for public distribution, perform these steps to test and publish it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/testpub-updat-and-app-pub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/testpub-updat-and-app-pub.html
 release: australia
 topic_type: task
 last_updated: "2026-08-20"
@@ -51,7 +51,7 @@ Role required: admin
     -   **Approve** the build to move forward with publishing the app to your end users.
 5.  Customize your app's workflows:
 
-    Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
+    Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
 
 6.  After you have tested your app, set it up, and customized its workflows, you are ready to publish your branded Android app for public distribution.
 
@@ -62,8 +62,8 @@ Role required: admin
     -   Microsoft Intune: to sync your public branded Android app from Google to Microsoft Intune, see [Microsoft documentation](https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-android-for-work).
 7.  Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features.
 
-    For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-supported-devices.md).
+    For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-supported-devices.md).
 
 
-**Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/update-branded-app.md)
+**Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/update-branded-app.md)
 

@@ -2,7 +2,7 @@
 title: Configure webhooks in GitHub manually
 description: Configure webhooks in GitHub to send sync notifications to the DevOps Change Velocity application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/config-webhooks-github-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/config-webhooks-github-manually.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -62,5 +62,5 @@ You can also access manual configuration from the GitHub tool record in DevOps C
     \[Omitted image "github-manual-webhooks.png"\] Alt text: GitHub configure webhooks manually
 
 
-**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
+**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
 

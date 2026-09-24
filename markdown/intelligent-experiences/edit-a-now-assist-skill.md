@@ -2,7 +2,7 @@
 title: Edit an AI skill
 description: Edit the configuration of an AI skill to choose the inputs or triggers and the display location of the skill output.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/edit-a-now-assist-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/edit-a-now-assist-skill.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -52,7 +52,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## Result
 
-The skill is activated with your preferred settings. You can now [install other plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) or [activate other skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+The skill is activated with your preferred settings. You can now [install other plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md) or [activate other skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 
-**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-admin_0.md)
 

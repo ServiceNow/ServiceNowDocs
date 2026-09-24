@@ -2,7 +2,7 @@
 title: Internet Content Adaption Protocol \(ICAP\) integration for DLP IR
 description: The Internet Content Adaption Protocol \(ICAP\) DLP integration supports the ingestion of Data Loss Prevention Incident Response alerts, allows the fetching of match content, and evidence files from Amazon S3 created on the ICAP supported Data Loss Prevention Incident Response deployment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/icap-dlp-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/icap-dlp-integration.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -32,22 +32,22 @@ This integration includes the following key features:
 -   Evidence file download: The system would allow users to download associated evidence files directly from the DLP workspace for further investigation or review.
 -   Ability to customize and define the severity mapping between ICAP DLP incidents with ServiceNow incidents.
 
--   **[Getting started with ICAP DLP integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/getting-started-icap-integration.md)**  
+-   **[Getting started with ICAP DLP integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/getting-started-icap-integration.md)**  
 Before you can use the integration, you must download it from the ServiceNow® Store
--   **[Install and configure the ICAP DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/install-icap-dlp-integration.md)**  
+-   **[Install and configure the ICAP DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/install-icap-dlp-integration.md)**  
 Install and configure the  provider ICAP DLP integration from the  ServiceNow® Store on your  ServiceNow AI Platform instance. Start investigating DLP incidents using the  provider ICAP DLP incident data.
--   **[Create a profile for ICAP DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-for-icap.md)**  
+-   **[Create a profile for ICAP DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/create-profile-for-icap.md)**  
 Create an incident profile in your  ServiceNow AI Platform instance. Determine the  ICAP DLP alerts that are suitable for creating DLP incidents.
--   **[View sensitive information for DLP alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/view-match-content.md)**  
+-   **[View sensitive information for DLP alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/view-match-content.md)**  
 View the detected sensitive information for DLP alerts.
--   **[Download evidence files for DLP alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/download-icap-evidence-files.md)**  
+-   **[Download evidence files for DLP alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/download-icap-evidence-files.md)**  
 Download files that violate the DLP policy on provider that supports ICAP. Download this file onto your local machine from the DLP IR Analyst workspace and DLP IR End user workspace for approvers.
--   **[Preview evidence files for ICAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/preview-file-icap.md)**  
+-   **[Preview evidence files for ICAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/preview-file-icap.md)**  
 Preview DLP incident evidence files in the DLP IR Analyst workspace.
--   **[Review the ICAP DLP integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/review-the-icap-dlp-integration-settings.md)**  
+-   **[Review the ICAP DLP integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/review-the-icap-dlp-integration-settings.md)**  
 Review the provider ICAP DLP integration settings and modify the default system properties to suit your environment.
 
-**Parent Topic:**[DLP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-integrations.md)
+**Parent Topic:**[DLP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/dlp-integrations.md)
 
 **Related topics**  
 

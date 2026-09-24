@@ -2,7 +2,7 @@
 title: Viewing previous search results in Access Analyzer
 description: View, reanalyze, or export results from previous searches.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/access-analyzer-queries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/access-analyzer-queries.html
 release: australia
 product: Access Control
 classification: access-control

@@ -2,7 +2,7 @@
 title: Configure the Grants Management Portal
 description: As an admin, you can configure various elements of the Grants Management Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-grants-management-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-grants-management-portal.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -16,7 +16,7 @@ As an admin, you can configure various elements of the Grants Management Portal.
 
 ## About this task
 
-You can customize the Grants Management Portal by following these procedures or by using [guided setup for Public Sector Digital Services Core application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-psds-foundation-data.md)
+You can customize the Grants Management Portal by following these procedures or by using [guided setup for Public Sector Digital Services Core application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configure-psds-foundation-data.md)
 
 ## Before you begin
 

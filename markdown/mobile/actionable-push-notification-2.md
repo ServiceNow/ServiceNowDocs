@@ -2,7 +2,7 @@
 title: Add a push action category
 description: Select a push category to determine what actions your users can take in a notification. This category defines which actions your users can take when viewing a notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/actionable-push-notification-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/actionable-push-notification-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,5 +46,5 @@ Role required: admin
 2.  Right-click the form header and click **Save**.
 
 
-**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
+**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/actionable-push-notification.md)
 

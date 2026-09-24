@@ -2,7 +2,7 @@
 title: Assign the CBS requester role automatically
 description: Assign the CBS requester role to all employees at once using the automated option. Provide your employees with the access to submit requests and raise queries without manual role assignment for each individual.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-assign-requester-auto.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-assign-requester-auto.html
 release: australia
 topic_type: task
 last_updated: "2026-06-08"
@@ -34,5 +34,5 @@ Role required: admin
 
 The CBS requester role is assigned to all your employees.
 
-**Parent Topic:**[CBS requester role enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-requester-role-enhancements.md)
+**Parent Topic:**[CBS requester role enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-requester-role-enhancements.md)
 

@@ -2,7 +2,7 @@
 title: Map LogRhythm alarm fields to security incident fields
 description: You map individual alarm fields to the security incident fields. The preconfigured mapping can be edited, and color coding provided for the fields helps you monitor alarms you have already mapped. This step helps you visualize how your edits impact the fields on the security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/logrhythm-map-alarms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/logrhythm-map-alarms.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -90,12 +90,12 @@ On the left side of this form in the following figure, the LogRhythm alarm rules
 
 7.  Continue editing the preconfigured mapping as required.
 
-    If you need to translate values from LogRhythm alarm fields to values that are supported by the fields on the security incident, you can use the script editor. See [Use the script editor to format LogRhythm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-scripted-values-logrhythm.md).
+    If you need to translate values from LogRhythm alarm fields to values that are supported by the fields on the security incident, you can use the script editor. See [Use the script editor to format LogRhythm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/add-scripted-values-logrhythm.md).
 
 
 ## What to do next
 
-After you complete the field mapping, the next step is to [Filter alarms for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/filter-alarms-logrhythm.md).
+After you complete the field mapping, the next step is to [Filter alarms for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/filter-alarms-logrhythm.md).
 
-**Parent Topic:**[Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mapping-logrhythm.md)
+**Parent Topic:**[Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mapping-logrhythm.md)
 

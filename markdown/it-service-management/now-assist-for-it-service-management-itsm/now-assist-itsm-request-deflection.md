@@ -2,7 +2,7 @@
 title: Resolve requests using in-form deflection ServiceNow Otto for IT Service Management \(ITSM\)
 description: Use the create incident form with ServiceNow Otto for IT Service Management \(ITSM\) to receive a personalized catalog item recommendation when your description is classified as a request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-request-deflection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-request-deflection.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -25,7 +25,7 @@ Role required: none
 
 ## About this task
 
-**Note:** ServiceNow Otto for IT Service Management \(ITSM\) classifies your description as a request when you ask for something new rather than report a problem, such as `I need a new laptop` or `I need new headphones`. For the incident classification flow, see [Resolve issues using in-form deflection ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-deflection-workflow.md).
+**Note:** ServiceNow Otto for IT Service Management \(ITSM\) classifies your description as a request when you ask for something new rather than report a problem, such as `I need a new laptop` or `I need new headphones`. For the incident classification flow, see [Resolve issues using in-form deflection ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-deflection-workflow.md).
 
 ## Procedure
 

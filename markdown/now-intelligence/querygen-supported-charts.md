@@ -2,7 +2,7 @@
 title: Supported chart types
 description: Query Generation and the applications that use it to generate data visualizations support these visualization types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/querygen-supported-charts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/querygen-supported-charts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,5 +20,5 @@ Query Generation and the applications that use it to generate data visualization
 -   Time series: area, line, column, scatter, spline, step
 -   List
 
-**Parent Topic:**[Query Generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation-reference.md)
+**Parent Topic:**[Query Generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/query-generation-reference.md)
 

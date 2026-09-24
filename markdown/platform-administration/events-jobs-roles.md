@@ -2,7 +2,7 @@
 title: System Events and Jobs dashboard roles
 description: Events and Jobs dashboard is installed with these roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/events-jobs-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/events-jobs-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,11 +14,11 @@ breadcrumb: [Monitor System Events and Scheduled Jobs dashboard, Maintain and mo
 
 Events and Jobs dashboard is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## System administrator \[admin\]
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 The admin can access all information on the events and jobs dashboard. They can also setup an alert on an instance level.
 

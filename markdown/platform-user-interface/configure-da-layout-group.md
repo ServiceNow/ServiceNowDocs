@@ -2,7 +2,7 @@
 title: Upgrade a form action layout group
 description: Upgrade an existing form action layout group to manage all actions in a single list and customize the order, label, and icons for declarative actions without altering the base action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-da-layout-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-da-layout-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

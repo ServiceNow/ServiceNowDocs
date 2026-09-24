@@ -2,7 +2,7 @@
 title: Activate the Workday reports
 description: Activate the corresponding Workday report for each of the metric definitions that is provided by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/activate-the-workday-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/activate-the-workday-reports.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

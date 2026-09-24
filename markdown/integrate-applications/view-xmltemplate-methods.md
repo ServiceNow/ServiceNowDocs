@@ -2,7 +2,7 @@
 title: View the XmlTemplate methods
 description: After configuring the XmlTemplate connector, you can expose its methods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-xmltemplate-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/view-xmltemplate-methods.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: none
     The methods appear under the Object Explorer pane.
 
 
-**Parent Topic:**[Data Modellers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-modellers.md)
+**Parent Topic:**[Data Modellers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-modellers.md)
 

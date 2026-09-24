@@ -2,7 +2,7 @@
 title: Create notification categories
 description: You can create notification categories to identify and group related notifications that are listed in the notification settings for your users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-notification-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-notification-categories.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,7 +41,7 @@ Before adding new categories, review the base system notification categories in 
 
 The system adds the new category to the Notification Categories \[sys\_notification\_category\] table. After you create at least one, active notification that uses the new category, the category and notification are listed in the Notification preferences for users \(**User Menu** &gt; **Preferences** &gt; **Notifications** &gt; **System Notifications**\).
 
-**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 

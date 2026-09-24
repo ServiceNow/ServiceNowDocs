@@ -2,7 +2,7 @@
 title: Sourcing and Procurement Operations integration with Celonis
 description: Identify inefficiencies in your customer business process, understand their business impact, and gain insights into the root causes, by integrating Sourcing and Procurement Operations with Celonis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-celonis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-celonis.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -70,7 +70,7 @@ A sample payload from Celonis for payment term mismatch is provided.
 
 The incoming payload from Celonis is stored in a custom staging table, from where it is processed via a business rule or flow designer to create a case and corresponding case lines. You can leverage existing case types or create a new case type as need be, which you can then assign to users or groups. Create a new case type by adding a new choice to the Case type column. A corresponding playbook can be triggered for this case type to assist in case fulfilment, as explained above.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 

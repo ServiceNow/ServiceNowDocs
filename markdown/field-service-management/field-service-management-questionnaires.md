@@ -2,7 +2,7 @@
 title: Field Service Management questionnaires
 description: Both survey-based and Smart Assessment questionnaires are available in the ServiceNow Agent mobile application. If a questionnaire is configured as mandatory for a work order task, the task can't be closed until the questionnaire is completed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-management-questionnaires.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-management-questionnaires.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-23"
@@ -36,5 +36,5 @@ After completing the questionnaire, the technician validates and submits the res
 |Reversibility|Cannot be disabled once enabled at the instance level|Can exist until Smart Assessment is enabled|
 |Recommended when|Your team works in the field with or without connectivity, compliance and standardization across tasks matter, and you need richer response capture \(comments, attachments, justifications\)|Your use case is simpler, your questionnaire uses data types Smart Assessment doesn't support|
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 

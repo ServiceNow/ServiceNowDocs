@@ -2,7 +2,7 @@
 title: Forms
 description: Learn how the Workspace form functions with Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-forms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

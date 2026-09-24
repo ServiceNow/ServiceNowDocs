@@ -2,7 +2,7 @@
 title: ServiceNow AI Lens for mobile
 description: ServiceNow AI Lens enables you to harness generative AI to scan, extract, understand, and synthesize data directly from your phone or tablet, making it easy to optimize your workflows on the go.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/servicenow-lens-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/servicenow-lens-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-03"
@@ -40,5 +40,5 @@ ServiceNow AI Lens can extract information from images and directly enter the da
 
 For more information about the feature, see [Exploring ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens-explore.md). For information on configuring on your device, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-sn-lens.md).
 
-To learn how to configure a lens launcher button for your mobile app, see [Configure a Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-lens-launcher-button.md).
+To learn how to configure a lens launcher button for your mobile app, see [Configure a Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-lens-launcher-button.md).
 

@@ -2,7 +2,7 @@
 title: Use and purpose fields
 description: Field and value reference for the Use and purpose section of an AI asset record. AI stewards and AI asset owners reference these values during onboarding, reviews, and audits.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-asset-use-purpose-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-asset-use-purpose-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-05"
@@ -70,5 +70,5 @@ Field and value reference for the **Use and purpose** section of an AI asset rec
 |Data used by the system|Categories of data the AI system reads, references, or processes, such as case records, knowledge articles, or customer profiles.|
 |Additional use and purpose details|Free-text notes that capture context not covered by the other use and purpose fields.|
 
-**Parent Topic:**[Managing AI asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-ai-asset-details.md)
+**Parent Topic:**[Managing AI asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-ai-asset-details.md)
 

@@ -2,7 +2,7 @@
 title: Using Service Exchange for Public Sector Digital Services
 description: As a government service agency provider, learn how to use Service Bridge to receive and fulfill service requests from the service catalog from your provider instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-servicebridge-using.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

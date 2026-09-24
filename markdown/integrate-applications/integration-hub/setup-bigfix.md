@@ -2,7 +2,7 @@
 title: Set up the BigFix Inventory spoke
 description: Integrate the ServiceNow instance and the BigFix Inventory using an API key for authenticating ServiceNow requests.Generate an API key that enables your ServiceNow instance to request access to the BigFix Inventory instance.Configure the connection and credential record that contains the information to request access to the BigFix Inventory instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-bigfix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-bigfix.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -93,7 +93,7 @@ Role required: admin
 
         \[Omitted image "image.bigfix-inventory-connection"\] Alt text: Connection for the BigFix Inventory spoke
 
-    -   To manage more than one BigFix Inventory spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one BigFix Inventory spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "image.bigfix-inventory-connection-conf"\] Alt text: Initial connection configuration.
@@ -106,7 +106,7 @@ Role required: admin
     |Name|Name of the connection established with the BigFix Inventory instance. The first connection's default name is automatically assigned to match the name specified in the Connections and Credentials form on the Connection &amp; Credential Aliases page. To provide your custom name, create a connection record by selecting `Add Connection`.|
     |URL|The URL your ServiceNow instance uses to connect to the BigFix Inventory instance.|
     |Credential Information|
-    |API Key|The key that your ServiceNow instance requires to access the BigFix Inventory instance. Enter the API key that you had generated in the BigFix Inventory portal. To learn how to generate an API key, see[Generate an API key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-bigfix.md).|
+    |API Key|The key that your ServiceNow instance requires to access the BigFix Inventory instance. Enter the API key that you had generated in the BigFix Inventory portal. To learn how to generate an API key, see[Generate an API key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-bigfix.md).|
 
     \[Omitted image "image.bigfix-inventory-conf-temp"\] Alt text: Configure a connection for the BigFix Inventory spoke.
 

@@ -2,7 +2,7 @@
 title: Request a Hardware Asset Refresh
 description: Use the Hardware Refresh request flow to track the aged hardware assets that are nearing the end of their life cycle. Replace them with new hardware assets.Replace aged hardware assets by sourcing new hardware assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/hardware-asset-refresh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/hardware-asset-refresh.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -39,7 +39,7 @@ While customizing a Hardware Asset Refresh catalog item on the Catalog Item form
 |Variable Sets|Hardware Asset Management process set|
 |Hardware Asset Management sourcing set|
 
-**Note:** There are readily available decision tables that you can use to customize the Hardware Asset Refresh Line Flow. For more details, see [Hardware Asset Management flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/readily-available-dec-tables-ham.md).
+**Note:** There are readily available decision tables that you can use to customize the Hardware Asset Refresh Line Flow. For more details, see [Hardware Asset Management flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/readily-available-dec-tables-ham.md).
 
 ## Procedure
 
@@ -104,7 +104,7 @@ Aged Hardware assets that you want to replace. You can use a filter to search fo
 
 5.  Select **Order Now**.
 
-    You can't view an excluded asset. For more information, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
+    You can't view an excluded asset. For more information, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 
 
 ## Result
@@ -113,7 +113,7 @@ The aged assets are set to get refreshed. In the Hardware table under the Dispos
 
 An Order status page appears and it displays the details of the order. A request is created to source the new hardware assets and to replace the aged hardware assets. The Request form shows the total price of all the new hardware asset models.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
@@ -250,13 +250,13 @@ Action
 
     You can source items in the request by consuming the local stock, through purchase orders, or through transfer orders.
 
-    For more details on sourcing items, see [Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_SourcingRequestItems.md).
+    For more details on sourcing items, see [Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/c_SourcingRequestItems.md).
 
     After the new asset is received, the following events happens:
 
     -   The Hardware Asset Refresh Line flow is triggered for the asset.
     -   The Hardware Asset Refresh Line tab is displayed next to the Asset Tasks tab on the requested item form.
-    -   The Asset pick task is created under the Refresh Line Tasks only if the requested item is consumed from the local stockroom for which the Asset pick task is enabled. Otherwise thePrepare asset task is createddirectly without the Pick task. For details, see [Enable the Asset pick task for your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/enable-pick-task-for-stockroom-ham.md).
+    -   The Asset pick task is created under the Refresh Line Tasks only if the requested item is consumed from the local stockroom for which the Asset pick task is enabled. Otherwise thePrepare asset task is createddirectly without the Pick task. For details, see [Enable the Asset pick task for your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/enable-pick-task-for-stockroom-ham.md).
 3.  Select the **Hardware Asset Refresh Line** tab.
 
 4.  Select the hardware asset refresh line.
@@ -267,7 +267,7 @@ Action
 
 6.  Complete the Asset pick task by using the Mobile Agent application.
 
-    For details on completing this step, see [Locate and pick the hardware assets in your stockroom using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/locate-and-pick-hardware-asset-using-mobile-app.md).
+    For details on completing this step, see [Locate and pick the hardware assets in your stockroom using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/locate-and-pick-hardware-asset-using-mobile-app.md).
 
 7.  Prepare the asset.
 

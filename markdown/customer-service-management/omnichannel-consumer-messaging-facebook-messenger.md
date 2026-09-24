@@ -2,7 +2,7 @@
 title: Configure Facebook Messenger
 description: Configure Facebook Messenger as a consumer messaging channel within ServiceNow Customer Service Management \(CSM\). Enabling Facebook Messenger as a channel lets customers start support conversations. Those conversations route to service agents, who manage them in the CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/omnichannel-consumer-messaging-facebook-messenger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/omnichannel-consumer-messaging-facebook-messenger.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-17"

@@ -2,7 +2,7 @@
 title: Configure skills in a domain for ServiceNow Otto for Customer Service Management \(CSM\)
 description: Activate the skills with different skill configurations in each domain in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-skills-in-domain-for-now-assist-for-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/configure-skills-in-domain-for-now-assist-for-csm.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

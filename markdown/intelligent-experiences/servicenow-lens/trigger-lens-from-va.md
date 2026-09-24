@@ -2,7 +2,7 @@
 title: Extract and analyze data using ServiceNow AI Lens from Virtual Agent
 description: Extract and analyze data from an image using ServiceNow AI Lens from a Virtual Agent conversation on a mobile device or a portal. ServiceNow AI Lens can scan an image and then gather insights or provide recommendations as per your instructions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/trigger-lens-from-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-lens/trigger-lens-from-va.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -20,9 +20,9 @@ Extract and analyze data from an image using ServiceNow AI Lens from a Virtual A
 
 To access the ServiceNow AI Lens functionality, perform the following steps:
 
--   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow AI Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
--   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
--   Enable ServiceNow AI Lens topic for ServiceNow Otto for Virtual Agent. For more information, see [Enabling ServiceNow AI Lens in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/enabling-lens-for-virtual-agent.md).
+-   Install ServiceNow AI Lens on your ServiceNow instance. For more information, see [Install the ServiceNow AI Lens in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+-   Turn on the ServiceNow AI Lens skill to add the generative AI capability. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
+-   Enable ServiceNow AI Lens topic for ServiceNow Otto for Virtual Agent. For more information, see [Enabling ServiceNow AI Lens in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/enabling-lens-for-virtual-agent.md).
 
 Don't scan any personally identifiable information, such as medical reports, financial reports, or other sensitive data, when using ServiceNow AI Lens as you don't want to expose the large language model \(LLM\) to any sensitive information.
 

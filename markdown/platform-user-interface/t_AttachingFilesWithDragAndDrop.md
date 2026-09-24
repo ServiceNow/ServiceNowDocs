@@ -2,7 +2,7 @@
 title: Attach files with drag-and-drop
 description: You can drag files from your local computer into your browser window to attach them to the current record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_AttachingFilesWithDragAndDrop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_AttachingFilesWithDragAndDrop.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ This functionality is supported in Firefox 3.6 or later and Chrome. Support will
     **Warning:** Do not navigate away from the record while an upload is in progress. The upload must be completed for the file to be attached.
 
 
-**Parent Topic:**[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md)
+**Parent Topic:**[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_AddingAnAttachment.md)
 

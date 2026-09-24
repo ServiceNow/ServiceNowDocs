@@ -2,7 +2,7 @@
 title: Task dependencies for task plan templates
 description: Task dependencies control the execution order of tasks, cases, and case tasks in a task plan template, reducing ambiguity and supporting predictable sequencing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/task-dependencies-for-task-plan-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/task-dependencies-for-task-plan-templates.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-09"

@@ -2,7 +2,7 @@
 title: Repairing applications and plugins
 description: Repairing an application or plugin returns it to its original state without needing to uninstall and reinstall it manually. Repairing applications or plugins can help resolve issues related to accidental modifications or corrupted files.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/repairing-apps-app-manager.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/application-manager/repairing-apps-app-manager.html
 release: australia
 product: Application Manager
 classification: application-manager
@@ -28,8 +28,8 @@ It’s assumed the complete set of customizations for an application is within t
 
 For more information about customizations, see [Customization vs. configuration with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-custom-vs-config.md).
 
--   **[Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/repair-application-app-mgr.md)**  
+-   **[Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/repair-application-app-mgr.md)**  
 Repair an application procured through the ServiceNow Store or a plugin included in your instance. Repairing apps or plugins can resolve issues caused by unintentional modifications, corrupted files, or partial deletion.
 
-**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/administering-applications.md)
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/administering-applications.md)
 

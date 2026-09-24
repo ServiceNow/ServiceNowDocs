@@ -2,7 +2,7 @@
 title: Update a cache in Product Catalog Management
 description: Regenerate the cache associated with product offerings or product offering catalogs after changing the Unit of Measure in a product offering or category-related hierarchies in a product offering catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-update-cache-catalog-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-update-cache-catalog-mgmt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,15 +22,15 @@ Role required: sn\_prd\_pm.product-catalog\_admin, sn\_prd\_pm.product-catalog\_
 
 1.  Navigate to the record that you updated.
 
-<table id="choicetable_tty_nql_p1c"><thead><tr><th align="left" id="d120616e59">
+<table id="choicetable_tty_nql_p1c"><thead><tr><th align="left" id="d120762e59">
 
 Feature change
 
-</th><th align="left" id="d120616e62">
+</th><th align="left" id="d120762e62">
 
 Navigate to
 
-</th></tr></thead><tbody><tr><td id="d120616e68">
+</th></tr></thead><tbody><tr><td id="d120762e68">
 
 **Unit of Measure \(UOM\) for a product offering**
 
@@ -40,7 +40,7 @@ Navigate to
 2.  Select the product offering record that you just updated.
 
 
-</td></tr><tr><td id="d120616e98">
+</td></tr><tr><td id="d120762e98">
 
 **Product offering catalog changes-   Catalog to category
 -   Category to sub-category
@@ -61,7 +61,7 @@ Navigate to
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

@@ -2,7 +2,7 @@
 title: CMDB glossary
 description: Texts associated with CMDB, such as UI text and core CMDB documentation, use many terms that are important to understand in the context of CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-glossary.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -67,7 +67,7 @@ The following terms are key in CMDB:
 
     Class who's CIs are included in various CI list views. A Principal Class designation is used to restrict the list of CIs in list views across CMDB features, to only specific classes that you need.
 
-    For more information, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
+    For more information, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
 
 -   **Related table**
 
@@ -77,7 +77,7 @@ The following terms are key in CMDB:
 
     One or more CIs in which key attributes have identical values and can occur, for example, when multiple discovery sources attempt to import the same CI. Duplicate CIs in the CMDB interfere with its integrity and efficiency and therefore, as a general guideline, should be avoided.
 
-    For more information, see [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md) and [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
+    For more information, see [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md) and [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
 
 -   **Orphan CI**
 
@@ -87,9 +87,9 @@ The following terms are key in CMDB:
 
     Some scenarios that involve related tables, can result in orphan CIs in related tables. A CI in a related table can, for example, become orphan if the referenced CI in the CMDB is deleted.
 
-    For more information about orphan CIs in the context of CMDB Health, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
+    For more information about orphan CIs in the context of CMDB Health, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
 
-    For more information about orphan dependent CIs, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
+    For more information about orphan dependent CIs, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
 -   **Related list**
 
@@ -101,7 +101,7 @@ The following terms are key in CMDB:
 
     Collection of CIs that lets you apply actions collectively to all the CIs that are members in the group. There are several methods for populating a CMDB group with CI members. Depending on the group type, you can populate a CMDB group by manually adding individual CIs, selecting saved CMDB queries, or building encoded queries in the CMDB group itself. CI members in a CMDB group of type 'health' can be monitored by CMDB Health, and a CMDB group of type 'CMDB Workspace' appears in CMDB Workspace views.
 
-    For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
+    For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
 
 
 ## Features, tools, store apps
@@ -112,54 +112,54 @@ The following terms are for essential features and tools that CMDB provides, som
 
     Feature that provides a centralized framework for identifying and reconciling data from different data sources as the data is being imported into the CMDB. Using IRE helps maintain the integrity of the CMDB and some non-CMDB tables when multiple data sources are used to create and update CI records. IRE identification processes extensively use CIs dependency classification.
 
-    For more information, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
+    For more information, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
 
 -   **CMDB Health**
 
     Feature that lets you monitor the health of the CMDB by using health indicators such as duplicate CIs, required CI fields, and audits, and that provides a framework for applying standardized CI remediation. CMDB Health evaluates and aggregates those health indicators into health scores at the class, health group, and service levels, which are then shown on dashboards.
 
-    For more information, see [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md).
+    For more information, see [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md).
 
 -   **CMDB Query Builder**
 
     Tool that lets you build complex infrastructure and service queries that span multiple CMDB classes, non-CMDB tables, and that involve many CIs that are connected by different relationships. Query elements are represented by UI building blocks that you connect and structure on a canvas to query the CMDB and Service Mapping.
 
-    For more information, see [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-landing-page.md).
+    For more information, see [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-landing-page.md).
 
 -   **CMDB Data Manager**
 
     An essential comprehensive and integrated solution where you can create, publish, and manage policies that reflect organizational needs for data management. CMDB Data Manager supports bulk management of CI life cycle operations such as deletion, archival, and attestation. The CMDB Data Manager lets you automate and govern those CI life cycle operations to help maintain the CMDB in a healthy and reliable operational state.
 
-    For more information, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
+    For more information, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
 -   **CI Class Manager**
 
     Tool where you can centrally view, create, and edit basic class definitions. You can also view, create, or edit class settings that are used in core CMDB functions such as identification, reconciliation, and essential features such as CMDB Health.
 
-    For more information, see [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md).
+    For more information, see [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md).
 
 -   **CMDB Workspace**
 
     A central, comprehensive, and modernized solution that provides access to a wide range of applications, features, and key CMDB dashboards and tools to support tasks in your organization. CMDB Workspace lets you manage, search, explore, and examine the health state and recent activities in CMDB. CMDB Workspace views and dashboards show high-priority tasks that require your immediate attention, which were generated by various CMDB features such as CMDB Health.
 
-    For more information, see [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
+    For more information, see [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
 
 -   **Service Graph Connectors**
 
     Collection of pre-defined integrations that ingest data into the CMDB from third-party sources such as Tanium, Jamf, and Microsoft SCCM. Service Graph Connectors help maintain the quality and consistency of third-party data in your CMDB by verifying that the imported data is mapped correctly into your CMDB as specified by the Common Service Data Model \(CSDM\). Service Graph Connectors are delivered as store apps.
 
-    For more information, see [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md).
+    For more information, see [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md).
 
 -   **CMDB CI Class Models**
 
     Store app that adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships if applicable. You can use the added classes as any other CMDB class in the base system. Applications such as Discovery and Service Mapping can use these class extensions to populate CIs and discover various technologies and software.
 
-    For more information, see [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+    For more information, see [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 
 -   **CSDM and the CMDB Data Foundations Dashboards**
 
     Store app containing a set of dashboards, complementing each other that together provide insights into key foundational metrics of your CMDB and Common Service Data Model \(CSDM\). In addition, these dashboards provide recommendations to verify that the CMDB and CSDM are properly configured for optimal usage and to mitigate any potential risks.
 
-    For more information, see [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+    For more information, see [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
 

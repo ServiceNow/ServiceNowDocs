@@ -2,7 +2,7 @@
 title: Customer service email properties
 description: Users with the system administrator role can set several properties for the Customer Service Management email communication channel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_CustomerServiceEmailProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r\_CustomerServiceEmailProperties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -85,7 +85,7 @@ Email history notifications
 
 </td><td>
 
-By default, the email history shows the last three messages in the case record. To show every activity on a case record instead, add this script `${mail_script:get_emails_comments_activity_history}` to the email reply system property \(reply-received\) and the case commented system property \(case.commented.for.customer\). For more information, refer to [Configure email and comment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-email-notifications.md)
+By default, the email history shows the last three messages in the case record. To show every activity on a case record instead, add this script `${mail_script:get_emails_comments_activity_history}` to the email reply system property \(reply-received\) and the case commented system property \(case.commented.for.customer\). For more information, refer to [Configure email and comment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-email-notifications.md)
 
 .
 

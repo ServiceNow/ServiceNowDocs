@@ -2,7 +2,7 @@
 title: GRC Choices form
 description: Use the GRC Choices form to set up a pillar to define the core areas for your business entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/pillars-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/pillars-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

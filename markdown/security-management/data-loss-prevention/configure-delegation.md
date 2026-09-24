@@ -2,7 +2,7 @@
 title: Create user delegate configurations
 description: Prevent certain executives in the organization from receiving notifications about the incidents assigned or escalated to them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-delegation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/configure-delegation.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -45,7 +45,7 @@ Once a user has assigned a particular person, Henry, as a delegate, another user
 4.  Click **Submit**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

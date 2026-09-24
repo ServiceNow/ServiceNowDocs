@@ -2,7 +2,7 @@
 title: Configuring Health and Safety Contractor Management
 description: Set up your implementation for Health and Safety Contractor Management by installing the application and reviewing and configuring the components that are installed with the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/hs-configuring-contractor-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-contractor-management/hs-configuring-contractor-management.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -18,7 +18,7 @@ Set up your implementation for Health and Safety Contractor Management by instal
 
 ## Configuration overview
 
--   [Install Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-install-contractor-management.md)
+-   [Install Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-install-contractor-management.md)
 
     Install the Health and Safety Contractor Management application \(sn\_hs\_crm\) if you have the admin role.
 
@@ -26,7 +26,7 @@ Set up your implementation for Health and Safety Contractor Management by instal
 
     For more information on this role, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md).
 
--   [Assign Health and Safety profile to contractor workers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md)
+-   [Assign Health and Safety profile to contractor workers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md)
 
     Assign the Health and Safety profile to all contractor workers who need to complete assigned tasks to work at your site.
 

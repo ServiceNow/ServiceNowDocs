@@ -2,7 +2,7 @@
 title: Add data subject type to privacy impact assessment
 description: Add data subject types to privacy impact assessment from the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/add-data-subject-type-to-pia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/add-data-subject-type-to-pia.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -107,5 +107,5 @@ The data subject types appear in a tabular format.
 
 \[Omitted image "add-data-sub-type-to-pia.png"\] Alt text: Data subject types in a tabular format in Employee Center.
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

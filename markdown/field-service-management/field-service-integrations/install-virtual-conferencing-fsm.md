@@ -2,7 +2,7 @@
 title: Install Field Service Management Virtual Conferencing Integration
 description: You can install the Field Service Management Virtual Conferencing Integration application \(com.snc.fsm\_vci\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/install-virtual-conferencing-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-integrations/install-virtual-conferencing-fsm.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -64,5 +64,5 @@ Role required: admin
 4.  Select **Install**.
 
 
-**Parent Topic:**[Integration with Virtual Conferencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/virtual-conference-integration-fsm.md)
+**Parent Topic:**[Integration with Virtual Conferencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/virtual-conference-integration-fsm.md)
 

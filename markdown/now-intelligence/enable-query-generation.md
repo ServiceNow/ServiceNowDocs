@@ -2,7 +2,7 @@
 title: Query Generation skills
 description: Query Generation skills enable users to ask questions in ServiceNow Otto for Platform Analytics applications and receive answers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/enable-query-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/enable-query-generation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,5 +49,5 @@ Query Generation skills are not used directly. Instead, they enable other applic
     **Warning:** Be careful when selecting the roles that can access a skill. The default role is sn\_query\_gen.user, which the default roles for other ServiceNow Otto for Platform Analytics skills contain. Users of these other skills must be able to access Query Generation skills.
 
 
-**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-query-generation.md)
+**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configuring-query-generation.md)
 

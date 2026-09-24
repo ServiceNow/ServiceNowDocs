@@ -2,12 +2,12 @@
 title: Deactivate a trace connection
 description: Stop trace collection for an established connection without deleting it, so you can reactivate it later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-deactivate-trace-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-deactivate-trace-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-06-30"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -27,15 +27,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 3.  Deactivate the connection using one of the following methods.
 
-<table id="choicetable-deactivate"><thead><tr><th align="left" id="d42443e102">
+<table id="choicetable-deactivate"><thead><tr><th align="left" id="d42268e102">
 
 Method
 
-</th><th align="left" id="d42443e105">
+</th><th align="left" id="d42268e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42443e111">
+</th></tr></thead><tbody><tr><td id="d42268e111">
 
 **Actions menu**
 
@@ -45,7 +45,7 @@ Steps
 2.  In the confirmation dialog, select **Deactivate**.
 
 
-</td></tr><tr><td id="d42443e139">
+</td></tr><tr><td id="d42268e139">
 
 **Edit form**
 
@@ -66,5 +66,5 @@ The connection remains on the **Established** sub-tab with a **State** of **Inac
 
 Reactivate the connection by editing the connection and select the **Active** option.
 
-**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md)
+**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-trace-connections.md)
 

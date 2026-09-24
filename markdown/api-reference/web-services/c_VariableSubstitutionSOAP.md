@@ -2,7 +2,7 @@
 title: Variable substitution in outbound SOAP
 description: To use variable substitution, use the format $\{&lt;variable\_name&gt;\} instead of defining a specific value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_VariableSubstitutionSOAP.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_VariableSubstitutionSOAP.html
 release: australia
 product: Web Services
 classification: web-services
@@ -26,5 +26,5 @@ To test variable substitution after you have modified the SOAP envelope with the
 
 \[Omitted image "SoapMessageParameters.png"\] Alt text:
 
-**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPMessage.md)
+**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPMessage.md)
 

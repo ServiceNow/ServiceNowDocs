@@ -2,7 +2,7 @@
 title: Create a custom field
 description: Create a custom choice field to indicate whether a change request must go through the Review state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_CreateCustomField.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_CreateCustomField.html
 release: australia
 product: Change Management
 classification: change-management
@@ -70,9 +70,9 @@ Role required: admin
     The Change Request form reopens. The **Needs review** field displays **–- None --**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Create a new choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewChoice.md)
+**Previous topic:**[Create a new choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateNewChoice.md)
 
-**Next topic:**[Add a UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddUIPolicy.md)
+**Next topic:**[Add a UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddUIPolicy.md)
 

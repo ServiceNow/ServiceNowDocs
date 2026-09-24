@@ -2,7 +2,7 @@
 title: Preview a contract document for a Word document template
 description: View the final form of a contract document with the content controls replaced with the values of the variables or return values of scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/lsc-preview-word-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/lsc-preview-word-template.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts

@@ -2,7 +2,7 @@
 title: Create a custom email subflow
 description: Create an email subflow according to your requirements. You can then select this subflow to define translation preferences for a language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/create-email-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-framework/create-email-subflow.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -197,5 +197,5 @@ Represents the email table.
 
 Use the published subflow to define the translation preference for a language.
 
-**Parent Topic:**[Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-settings.md)
+**Parent Topic:**[Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/localization-settings.md)
 

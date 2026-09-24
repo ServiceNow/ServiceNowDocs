@@ -2,7 +2,7 @@
 title: Help resolve health and safety cases agentic workflow
 description: Use the Help resolve health and safety cases agentic workflow to enable faster resolution of cases. It enhances the management of Health and Safety cases by improving the time to response for safety teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/help-resolve-safety-cases-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/help-resolve-safety-cases-agentic-workflow.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety

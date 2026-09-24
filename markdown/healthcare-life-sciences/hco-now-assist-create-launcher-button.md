@@ -2,7 +2,7 @@
 title: Create a chat launcher button in Care Team Mobile
 description: Create a prominent action button that launches ServiceNow Otto chat or voice in the Care Team Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-create-launcher-button.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-now-assist-create-launcher-button.html
 release: australia
 topic_type: task
 last_updated: "2026-05-26"
@@ -66,5 +66,5 @@ The chat launcher button is created and configured as a prominent action button 
 
 ## What to do next
 
-[Assign the chat launcher to a Care Team Mobile assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-assign-launcher-assistants.md).
+[Assign the chat launcher to a Care Team Mobile assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-now-assist-assign-launcher-assistants.md).
 

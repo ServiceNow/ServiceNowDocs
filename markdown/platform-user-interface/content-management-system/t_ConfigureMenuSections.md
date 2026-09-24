@@ -2,7 +2,7 @@
 title: Configure menu sections
 description: Menu sections define groups of links displayed within the navigation menu block.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_ConfigureMenuSections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_ConfigureMenuSections.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -176,15 +176,15 @@ Enter footer information for the menu section.
 </table>4.  Click **Submit**.
 
 
--   **[Configure menu items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_ConfigureMenuItems.md)**  
+-   **[Configure menu items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_ConfigureMenuItems.md)**  
 Menu items are the links that appear within each menu section.
 
-**Parent Topic:**[Create a navigation menu block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateNavigationMenuBlock.md)
+**Parent Topic:**[Create a navigation menu block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateNavigationMenuBlock.md)
 
 **Related topics**  
 
 
-[Menu types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_MenuTypes.md)
+[Menu types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/r_MenuTypes.md)
 
-[Menu style customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CustomizeTheMenuStyle.md)
+[Menu style customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_CustomizeTheMenuStyle.md)
 

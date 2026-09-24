@@ -2,7 +2,7 @@
 title: AI in IT Operations Management
 description: AI features across IT Operations Management help operators triage alerts, investigate incidents, automate service mapping, diagnose infrastructure, and generate resolution artifacts using generative AI and agentic workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/ai-in-it-operations-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/ai-in-it-operations-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-06"
@@ -32,26 +32,26 @@ For information about AI assets that are available on the ServiceNow AI Platform
 
 ## ITOM Visibility
 
-For a summary of all AI features across ITOM Visibility, see [AI in ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/explore-ai-in-itom-visibility.md).
+For a summary of all AI features across ITOM Visibility, see [AI in ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/explore-ai-in-itom-visibility.md).
 
 For AI features by product, see the following topics:
 
--   [AI in Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/exploring-ai-in-discovery.md)
--   [AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
--   [AI in Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/exploring-ai-in-firewall-audits-reporting.md)
--   [AI in Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/exploring-ai-in-cert-inventory-mgmt.md)
--   [AI in LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-ai-in-leap.md)
+-   [AI in Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/exploring-ai-in-discovery.md)
+-   [AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
+-   [AI in Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/exploring-ai-in-firewall-audits-reporting.md)
+-   [AI in Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/exploring-ai-in-cert-inventory-mgmt.md)
+-   [AI in LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-ai-in-leap.md)
 
 ## ITOM AIOps
 
-For a summary of all AI features across ITOM AIOps, see [AI in ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/explore-ai-in-itom-aiops.md).
+For a summary of all AI features across ITOM AIOps, see [AI in ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/explore-ai-in-itom-aiops.md).
 
 For AI features by product, see the following topics:
 
--   [AI in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/exploring-ai-in-express-list.md)
--   [AI in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/exploring-ai-in-service-observability.md)
--   [AI in SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/slo-management-ai.md)
--   [AI in Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/exploring-ai-in-acc-monitoring.md)
+-   [AI in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/exploring-ai-in-express-list.md)
+-   [AI in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/exploring-ai-in-service-observability.md)
+-   [AI in SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/slo-management-ai.md)
+-   [AI in Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/exploring-ai-in-acc-monitoring.md)
 
 **Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -76,7 +76,7 @@ Enable security settings to run AI agents and agentic workflows using Access Con
 
 ## Dependencies
 
-For a list of plugin dependencies, see [Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/app-now-assist-itom.md).
+For a list of plugin dependencies, see [Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/app-now-assist-itom.md).
 
 ## Domain separation and generative AI
 

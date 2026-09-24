@@ -2,12 +2,12 @@
 title: Creating or updating an app file with Build Agent
 description: Use Build Agent to add new files or modify existing files in ServiceNow applications to support ongoing app development and maintenance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creating-or-updating-an-app-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creating-or-updating-an-app-file.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-19"
 reading_time_minutes: 2
-keywords: [create app file, update app file, add file to application, modify application file, build agent create file, build agent update file, application scope, conversational change log, checkpoints, app development, app maintenance, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [create app file, update app file, add file to application, modify application file, build agent create file, build agent update file, application scope, conversational change log, checkpoints, app development, app maintenance, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: programmer
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
@@ -22,11 +22,11 @@ In a new chat with Build Agent, select **Create a file** or **Update a file** to
 
 \[Omitted image "ba-sns-create-update.png"\] Alt text: New Chat panel with Create a file and Update a file buttons highlighted.
 
-Continue the conversation just like you did with creating an application, using the change log and checkpoints as you go. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md) and [Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/revert-app-changes-using-build-agent.md).
+Continue the conversation just like you did with creating an application, using the change log and checkpoints as you go. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-conversational-change-log.md) and [Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/revert-app-changes-using-build-agent.md).
 
-Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
+Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
 
-For information on deploying your application, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-deployment.md).
+For information on deploying your application, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-deployment.md).
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-build-agent.md)
 

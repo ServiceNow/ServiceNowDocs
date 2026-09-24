@@ -2,7 +2,7 @@
 title: Set up View as Direct Reports
 description: Set up View as Direct reports to help managers guide their team members by viewing articles as seen by their direct reports on the Manager Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/view-direct-reportee.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/view-direct-reportee.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -59,7 +59,7 @@ Use the following procedure to customize the View as experience for your employe
 
 Set up the View as page experience, add pagination, and tweak the number of articles displayed as a search result to provide optimal user experience for a manager searching for Knowledge articles using the feature.
 
-**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 

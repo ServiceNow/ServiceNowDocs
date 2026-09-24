@@ -2,10 +2,10 @@
 title: Enabling bookmarking screens and web pages
 description: Configure the saved views feature to allow users to bookmark screens and web pages. Users can instantly access these saved views via an icon in the navigation bar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/saved-views-mobile-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/saved-views-mobile-admin.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---

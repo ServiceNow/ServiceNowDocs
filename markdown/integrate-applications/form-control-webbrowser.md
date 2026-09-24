@@ -2,7 +2,7 @@
 title: Methods and events of the Web Browser element
 description: The Web Browser element in the RPA Desktop Design Studio enables you to host web pages and provides web browsing capabilities to your application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/form-control-webbrowser.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/form-control-webbrowser.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -82,5 +82,5 @@ The methods and events of the Web Browser element are displayed in the Object Ex
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/form-control-methods-events.md)
 

@@ -2,7 +2,7 @@
 title: MCP server setup
 description: Explore the complete MCP server setup process in configuring and introducing MCP servers via AI Gateway.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-server-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mcp-server-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-03"

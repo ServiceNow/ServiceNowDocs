@@ -2,7 +2,7 @@
 title: Incremental offline caching
 description: Incremental offline synchronization downloads only the changes to records, rather than the full dataset. This approach keeps offline data current while reducing network and battery usage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/offline-cache-incremental.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/offline-cache-incremental.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -33,10 +33,10 @@ The following system properties are available when managing incremental offline 
 |glide.sg.ofﬂine.incremental.silent\_push.min\_wait\_time|Specifies the minimum interval between consecutive incremental updates sent to the user’s device.|
 |glide.sg.offline.job.maxRuntime|Controls how long the server can spend generating the offline cache payload for a user.|
 
-For information on other related offline system properties, see [System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-system-properties.md).
+For information on other related offline system properties, see [System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-system-properties.md).
 
--   **[General guidelines for incremental ofﬂine caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/general-guidelines-increment-offline-cache.md)**  
+-   **[General guidelines for incremental ofﬂine caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/general-guidelines-increment-offline-cache.md)**  
 When working with incremental offline caching keep these general guidelines in mind for usability and a good user experience.
 
-**Parent Topic:**[Configure offline cache downloads to user devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-cache.md)
+**Parent Topic:**[Configure offline cache downloads to user devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-cache.md)
 

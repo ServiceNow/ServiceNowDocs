@@ -2,7 +2,7 @@
 title: Configuration Compliance calculator groups
 description: Configuration Compliance calculators are used to update record values when pre-defined conditions are met. The calculators are grouped based on the criteria used to determine how the records are updated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/vuln-config-compl-calc-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/vuln-config-compl-calc-groups.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -86,7 +86,7 @@ For more information, review the following key terms for Configuration Complianc
     There are two types of rollup calculators:
 
     -   Configuration Test Risk Roll Up: These calculators roll up risk scores for all Test Results with the same Configuration Test to provide an overall risk score for the Configuration Test. The rolled-up value is displayed in the Risk Score fields. You can edit the script values for weight and score for these calculators.
-    -   Remediation Task Risk Score Rollup: These calculators roll up risk scores for all Test Results in a remediation task to provide an overall risk score for that remediation task. The rolled-up value is displayed in the Risk Score fields. You can edit the script values for weight and score for these calculators. For an example of a Risk score rollup calculator and how it calculates scores, see [Risk rollup calculation example for Configuration Compliance \(prior to v15.0\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/config-compliance-risk-calculator-example.md).
+    -   Remediation Task Risk Score Rollup: These calculators roll up risk scores for all Test Results in a remediation task to provide an overall risk score for that remediation task. The rolled-up value is displayed in the Risk Score fields. You can edit the script values for weight and score for these calculators. For an example of a Risk score rollup calculator and how it calculates scores, see [Risk rollup calculation example for Configuration Compliance \(prior to v15.0\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/config-compliance-risk-calculator-example.md).
 -   **Historical risk score**
 
     The inherent risk score across all the passed test results in a remediation task. This field displays the amount of risk that was remediated by a test group and is only displayed after a test group is in the ‘Closed’ state and the risk score is zero.

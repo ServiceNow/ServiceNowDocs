@@ -2,7 +2,7 @@
 title: Exploring Conversational IVR with Amazon Connect
 description: Use this application to build an integration with Amazon Connect. This allows your users to initiate an IVR \(Interactive Voice Response\) conversation with Virtual Agent. This integration also allows the user to connect with an agent using Advanced Work Assignment \(AWA\) over SoftPhone.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/exploring-conv-ivr-amazon-connect.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/exploring-conv-ivr-amazon-connect.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,7 +22,7 @@ Use this application to build an integration with Amazon Connect. This allows yo
 -   Enable true-omnichannel flow including routing Phone to the Conversational VA-IVR.
 -   In case of escalations, route calls smoothly to live agents using AWA via conversational infrastructure.
 
-To get started, see [Install Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/install-va-ivr.md).
+To get started, see [Install Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/install-va-ivr.md).
 
 ## Unsupported Virtual Agent Designer controls
 
@@ -50,7 +50,7 @@ The system is designed to provide warnings when you pick an unsupported control 
 
 \[Omitted image "ivr-unsupported-topic-control-wrng.png"\] Alt text: Warning messages for unsupported controls used in creating topic flows for IVR enabled topics.
 
-For information about supported controls, see [Input Collector user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-data-collector.md).
+For information about supported controls, see [Input Collector user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ai-data-collector.md).
 
-**Parent Topic:**[Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ivr-voice.md)
+**Parent Topic:**[Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ivr-voice.md)
 

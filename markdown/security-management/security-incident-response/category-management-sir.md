@@ -2,7 +2,7 @@
 title: Category management in Security Incident Response
 description: Configure security incident categories and subcategories for granular classification of incidents, which helps you accurately route security incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/category-management-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/category-management-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -16,12 +16,12 @@ breadcrumb: [Configure, Security Incident Response Workspace, Security Incident 
 
 Configure security incident categories and subcategories for granular classification of incidents, which helps you accurately route security incidents.
 
--   **[Create a security incident category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-category-sir.md)**  
+-   **[Create a security incident category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-category-sir.md)**  
 Create a security incident category to use to classify security incidents in Security Incident Response Workspace.
--   **[Create a security incident subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-subcategory-sir.md)**  
+-   **[Create a security incident subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-subcategory-sir.md)**  
 Create subcategories for a category for a deeper classification of a security incident in Security Incident Response Workspace.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

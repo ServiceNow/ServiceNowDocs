@@ -2,7 +2,7 @@
 title: Cost Plan form
 description: Learn about the fields of cost plan form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/cost-plan-form-project-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/cost-plan-form-project-management.html
 release: australia
 product: Project Management
 classification: project-management
@@ -71,7 +71,7 @@ Entered currency
 
 </td><td>
 
-Currency in which you want the cost plan to be created. If the selected currency is different from the functional currency, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the total planned cost, planned capital, planned operating of the project.
+Currency in which you want the cost plan to be created. If the selected currency is different from the functional currency, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the total planned cost, planned capital, planned operating of the project.
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Cost type
 
 </td><td>
 
-[Cost type definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAResourceTypeDefinition.md).
+[Cost type definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAResourceTypeDefinition.md).
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ Functional currency
 
 </td><td>
 
-Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-properties.md).For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the total planned cost, planned capital, planned operating of the project.
+Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-properties.md).For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the total planned cost, planned capital, planned operating of the project.
 
  **Note:** If budget reference rates are not defined, then exchange rate is considered as 1. For example, if functional currency is USD, entered cost is EUR, and no exchange rate is defined, then 1000 USD equals to 1000 EUR.
 
@@ -183,5 +183,5 @@ Sum of all actuals for past fiscal periods added to the functional cost for futu
 </table>**Related topics**  
 
 
-[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md)
+[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectCostPlan.md)
 

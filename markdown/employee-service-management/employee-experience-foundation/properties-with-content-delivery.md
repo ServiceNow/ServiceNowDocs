@@ -2,7 +2,7 @@
 title: Properties installed with Content Publishing
 description: The Content Publishing \[com.sn\_content\_delivery\] plugin adds the following properties that are designed to control how scheduled jobs work in relation to notifications, to-dos, and communities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/properties-with-content-delivery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/properties-with-content-delivery.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -38,7 +38,7 @@ Allow Ownership for Audiences \(sn\_cd.activate\_audience\_delegation\_controls\
 
 </td><td>
 
-Indicates you want to be able to enable audience ownership within Content Publishing.For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
+Indicates you want to be able to enable audience ownership within Content Publishing.For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Allow Ownership for Content Items \(sn\_cd.activate\_content\_authoring\_control
 
 </td><td>
 
-Indicates you want to be able to enable content item ownership within Content Publishing.For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
+Indicates you want to be able to enable content item ownership within Content Publishing.For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Indicates you want to enable topic ownership within Content Publishing.Ownership
 
 **Note:** Other users that have access to the content can view the content scheduled to the restricted topic, but cannot remove the topic from the schedule.
 
- For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
+ For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Indicates you want to exclude groups or non-applicable content managers \(specif
 </td></tr></tbody>
 </table>|Properties|Description|
 |----------|-----------|
-|sn-cd.activate\_content\_snapshots|Select the checkbox to enable Content Versioning for the Content Library. See [Content versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-versioning.md)|
+|sn-cd.activate\_content\_snapshots|Select the checkbox to enable Content Versioning for the Content Library. See [Content versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-versioning.md)|
 
 <table id="table_uxj_qz3_jdb"><thead><tr><th>
 
@@ -174,7 +174,7 @@ Allows you to change your system setting language in the Content Library.When yo
 
  Selecting the **Switch language** button allows you to view the fields on the form to appear in the language you select. You can select the button after reviewing to switch back to your original language.
 
- For more information, see [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
+ For more information, see [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ sn\_cd.enable\_localization\_framework\_integration
 
 </td><td>
 
-Enables integration with Localization Framework. For more information, see [Configure Localization Framework for Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-int-localization-framework.md).
+Enables integration with Localization Framework. For more information, see [Configure Localization Framework for Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-int-localization-framework.md).
 
 </td></tr></tbody>
 </table><table id="table_vlv_zz3_wtb"><thead><tr><th>
@@ -217,7 +217,7 @@ The URL suffix of the service portal or Employee Center \(EC\) your company uses
 
 |Properties|Description|
 |----------|-----------|
-|The number of seconds to wait before timing out a video content provider subflow \(sn\_cd.provider\_timeout\)|Sets the period of time that the Employee Center attempts to connect to the video content provider. See [Video hosting integrations framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/content-providers.md)|
+|The number of seconds to wait before timing out a video content provider subflow \(sn\_cd.provider\_timeout\)|Sets the period of time that the Employee Center attempts to connect to the video content provider. See [Video hosting integrations framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/content-providers.md)|
 
 |Properties|Description|
 |----------|-----------|
@@ -226,7 +226,7 @@ The URL suffix of the service portal or Employee Center \(EC\) your company uses
 |Allow reactions \(sn\_cd.allow\_reactions\)|Displays a checkbox in the new content and content template forms for content managers to allow employees to select a reaction icon|
 |Show view count \(sn\_cd.show\_views\)|Displays the number of unique views for a news article at the top of the article|
 
-**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

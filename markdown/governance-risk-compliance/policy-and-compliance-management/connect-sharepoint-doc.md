@@ -2,7 +2,7 @@
 title: Connect an existing document in Microsoft SharePoint
 description: Connect a document that exists in your Microsoft SharePoint folder to a policy that you created. Use this existing document and enable redlining in the policy text instead of creating a document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/connect-sharepoint-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/connect-sharepoint-doc.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

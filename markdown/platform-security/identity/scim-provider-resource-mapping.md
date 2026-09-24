@@ -2,7 +2,7 @@
 title: Create a SCIM Provider Resource Mapping
 description: Define the mappings of SCIM attributes to ServiceNow attributes for a particular resource type and SCIM Provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/scim-provider-resource-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/scim-provider-resource-mapping.html
 release: australia
 product: Identity
 classification: identity
@@ -47,5 +47,5 @@ Roles required: scim\_client\_config\_admin
 
 ## Result
 
-The record is created and displayed in the SCIM Provider Resource Mapping page. Use the SCIM Attribute Mappings to further map the attributes from schemas. For more information, see [Create a SCIM attribute mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-attribute-mappings.md).
+The record is created and displayed in the SCIM Provider Resource Mapping page. Use the SCIM Attribute Mappings to further map the attributes from schemas. For more information, see [Create a SCIM attribute mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-attribute-mappings.md).
 

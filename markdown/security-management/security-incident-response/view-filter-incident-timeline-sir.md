@@ -2,7 +2,7 @@
 title: View and filter the incident timeline
 description: View the chronological timeline of events for a security incident and filter by event type to focus on relevant activities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-filter-incident-timeline-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/view-filter-incident-timeline-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -42,7 +42,7 @@ Role required: sn\_si.analyst
 
 **Note:** If you do not see expected events, contact your administrator to verify the event configuration is active.
 
-**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 

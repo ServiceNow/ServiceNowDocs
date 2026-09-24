@@ -2,7 +2,7 @@
 title: Get chat support in Employee Center
 description: Resolve user issues by requesting for support using chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/get-support-using-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/get-support-using-chat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,15 +28,15 @@ Role required: none
 
 3.  Perform any of the following tasks.
 
-<table id="choicetable_zgc_w5s_whc"><thead><tr><th align="left" id="d268112e74">
+<table id="choicetable_zgc_w5s_whc"><thead><tr><th align="left" id="d268091e74">
 
 Option
 
-</th><th align="left" id="d268112e77">
+</th><th align="left" id="d268091e77">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d268112e83">
+</th></tr></thead><tbody><tr><td id="d268091e83">
 
 **Use chat**
 
@@ -46,7 +46,7 @@ Description
 2.  Use the Now Assist conversational experience to explain your issue. Now Assist generates self-serve troubleshooting steps and solutions for your issue.
 
 
-</td></tr><tr><td id="d268112e110">
+</td></tr><tr><td id="d268091e110">
 
 **Contact a live support agent**
 
@@ -56,5 +56,5 @@ Type live agent in the chat or choose **Contact Live Agent** from the Support op
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
+**Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/employee-experience-employee-center.md)
 

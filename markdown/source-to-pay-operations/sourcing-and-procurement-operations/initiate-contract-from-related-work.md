@@ -2,7 +2,7 @@
 title: Initiate a contract request from the related work section
 description: Initiate a contract request for purchase lines, purchase requisitions, sourcing requests, negotiations, or sourcing events from the related work section.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-related-work.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-related-work.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,5 +37,5 @@ Role required: sn\_cm\_core.contract\_user
 6.  Select **Initiate**.
 
 
-**Parent Topic:**[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-request.md)
+**Parent Topic:**[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-request.md)
 

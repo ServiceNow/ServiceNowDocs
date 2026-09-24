@@ -2,7 +2,7 @@
 title: View request notifications
 description: View request notifications that are sent during specific events in a catalog request life cycle. These notifications are sent to various recipients including the Employee Center and ITIL users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/view-request-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/view-request-notification.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -35,5 +35,5 @@ Use the email notification layout and template that is shipped with the Employee
     **Note:** To receive these notifications, the end user must enable notifications. For more information, see [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md).
 
 
-**Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-fulfillment.md)
+**Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/request-fulfillment.md)
 

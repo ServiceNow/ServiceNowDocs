@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Operational Technology \(OT\) Service Management
 description: The ServiceNow Otto for Operational Technology \(OT\) Service Management application enables teams to summarize OT incident details and generate incident resolution notes to share with other users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/exploring-now-assist-otsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/exploring-now-assist-otsm.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -76,5 +76,5 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
-**Parent Topic:**[Exploring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/exploring-operational-technology-incident-mgt.md)
+**Parent Topic:**[Exploring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/exploring-operational-technology-incident-mgt.md)
 

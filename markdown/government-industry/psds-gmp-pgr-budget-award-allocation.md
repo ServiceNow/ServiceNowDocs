@@ -2,7 +2,7 @@
 title: Configure the Grant program budget and award allocation
 description: The program budget and award allocation step structures how Grant Program Managers define, categorize, and allocate the total program budget across budget categories and award types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-pgr-budget-award-allocation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-gmp-pgr-budget-award-allocation.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-29"
@@ -100,7 +100,7 @@ The program budget step displays inline error messages when validation rules are
 **Related topics**  
 
 
-[Establish the Grant Program Budget in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pgr-budget.md)
+[Establish the Grant Program Budget in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-pgr-budget.md)
 
-[Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-rolling-grant-approvals-concept.md)
+[Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gm-rolling-grant-approvals-concept.md)
 

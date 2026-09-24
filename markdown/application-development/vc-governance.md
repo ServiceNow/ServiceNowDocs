@@ -2,7 +2,7 @@
 title: Governance for agentic development
 description: Agentic development on the ServiceNow AI Platform accelerates application development by using AI to generate code and configurations from natural language prompts. However, speed must not compromise security, compliance, and maintainability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vc-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vc-governance.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-05"
@@ -92,17 +92,17 @@ For more information, see [AI Control Tower \(legacy\)](https://raw.githubuserco
 
 |Tool|Description|More information|
 |----|-----------|----------------|
-|App Engine Management Center|Governance hub for approvals and monitoring.|[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/app-engine-management-center.md)|
+|App Engine Management Center|Governance hub for approvals and monitoring.|[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/app-engine-management-center.md)|
 |AI Control Tower|Monitors AI agent behavior, enforces guardrails, tracks AI-generated code changes, and provides dashboards showing which apps were created by Build Agent, what data they access, and how they comply with organizational policies.|[AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md)|
 |ServiceNow Vault|Discovers and protects sensitive data across workflows, so AI-generated apps handle confidential information appropriately.|[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-vault-landing.md)|
-|ReleaseOps Toolkit|Update set automation and metadata pipelines.|[ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-landing.md)|
-|Automated Test Framework|Automated testing for ServiceNow apps.|[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md)|
-|Developer Sandboxes|Develop in a secure, isolated Developer Sandboxes environment.|[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/sandboxes-landing.md)|
+|ReleaseOps Toolkit|Update set automation and metadata pipelines.|[ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/releaseops-landing.md)|
+|Automated Test Framework|Automated testing for ServiceNow apps.|[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-landing-page.md)|
+|Developer Sandboxes|Develop in a secure, isolated Developer Sandboxes environment.|[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/sandboxes-landing.md)|
 |Knowledge Base articles|Data handling and AI usage guidelines.|[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management.md)|
 
 ## Governance general guidelines
 
 When using agentic development, prompts should not only describe functionality but also embed governance requirements. This helps generated apps comply with security, compliance, and quality standards.
 
-See [Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-example-prompts.md) for example prompts for governance.
+See [Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-example-prompts.md) for example prompts for governance.
 

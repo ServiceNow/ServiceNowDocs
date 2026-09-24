@@ -2,7 +2,7 @@
 title: Create a schedule to use with the agent calendar
 description: Users with the agent calendar administrator role can create a schedule to use with the agent calendar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/create-schedule-agent-calendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/create-schedule-agent-calendar.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

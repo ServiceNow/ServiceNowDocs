@@ -2,7 +2,7 @@
 title: Location
 description: A Location represents a geographic location. Locations are primarily used to give context to other SDOs. Locations apply for STIX 2.x.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/location.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -28,8 +28,8 @@ At least one of the following properties or sets of properties must be provided:
 -   country
 -   latitude and longitude
 
--   **[Define Location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-define-location.md)**  
+-   **[Define Location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-define-location.md)**  
 Define a geographic location to provide more context to other STIX Domain Objects \(SDOs\).
 
-**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

@@ -2,7 +2,7 @@
 title: Approve or reject recommended skills in Workforce Optimization for ITSM
 description: Approve predicted skills if the skill is necessary for the agent to complete assigned tasks. If the skill doesn't apply to the agent, you can reject a skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/approve-reject-recommended-skills-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/approve-reject-recommended-skills-configurable-workspace.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -44,5 +44,5 @@ The Predictive Intelligence application for skills displays the recommended skil
     The application assigns the skill to the user. If the assigned skill doesn’t have a skill level, the application adds the basic skill level to the user.
 
 
-**Parent Topic:**[Adding skills to agents' skill set in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/adding-skills-agents-skillset-wfo-itsm.md)
+**Parent Topic:**[Adding skills to agents' skill set in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/adding-skills-agents-skillset-wfo-itsm.md)
 

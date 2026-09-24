@@ -2,7 +2,7 @@
 title: Add people involved in a safety audit
 description: Add people involved to record all participants in a safety audit — their roles, responsibilities, and the objectives and actions assigned to them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-add-people-involved-safety-audit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-add-people-involved-safety-audit.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -60,8 +60,8 @@ You should add people to this list before assigning objectives, because the **As
 
 To view a person's objectives and actions, open the person's record and then the **Objectives** and **Actions** tabs in it.
 
--   The **Objectives** tab lists the objectives assigned to this person on this audit. You can create an objective assigned to this person directly from this list. For more information, see [Define an objective for a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-safety-audit-objectives.md).
+-   The **Objectives** tab lists the objectives assigned to this person on this audit. You can create an objective assigned to this person directly from this list. For more information, see [Define an objective for a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-define-safety-audit-objectives.md).
 -   The **Actions** tab lists all actions on this audit assigned to this person. You can create an action directly from this list.
 
-**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
+**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
 

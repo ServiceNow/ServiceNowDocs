@@ -2,7 +2,7 @@
 title: Service History widget
 description: Displays the history of specific service's status. For example, if the Bond Trading widget has a history of planned outages or degradations, the widget displays those with a varied color scheme to differentiate the outage type. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/service-history-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/service-history-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -22,7 +22,7 @@ Displays the history of specific service's status. For example, if the Bond Trad
 
 The Service History widget does not include any instance options.
 
-**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-status-widgets.md)
+**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/service-status-widgets.md)
 
 **Related topics**  
 

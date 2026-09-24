@@ -2,7 +2,7 @@
 title: Set up work order synchronization in Care Team Operations for Environmental Services
 description: The Field Service Management \[com.snc.work\_management\] plugin is required for work order synchronization to function with Care Team Operations for Environmental Services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-setup-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-setup-plugins.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

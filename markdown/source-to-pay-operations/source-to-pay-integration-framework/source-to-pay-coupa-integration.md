@@ -2,7 +2,7 @@
 title: Source-to-Pay integration with Coupa
 description: The Source-to-Pay integration with Coupa enables you to handle business spend and automate approvals, contracts, inventory, purchase orders, requisitions, suppliers, and user management in Coupa from your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-coupa-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-coupa-integration.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

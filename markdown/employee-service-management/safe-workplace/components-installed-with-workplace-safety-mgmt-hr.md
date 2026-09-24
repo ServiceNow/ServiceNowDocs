@@ -2,7 +2,7 @@
 title: Components installed with Workplace Core
 description: Several types of components are installed with installation of the Workplace Core application, including user roles, scheduled jobs, tables, and business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/components-installed-with-workplace-safety-mgmt-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/components-installed-with-workplace-safety-mgmt-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -373,5 +373,5 @@ Workplace rooms\[sn\_wsd\_core\_room\]
 Extends the Space \[sn\_wsd\_core\_space\] table. It holds the reservable items of a room that are available to reserve.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/install-workplace-safety-mgmt-hr.md)
+</table>**Parent Topic:**[Install Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/install-workplace-safety-mgmt-hr.md)
 

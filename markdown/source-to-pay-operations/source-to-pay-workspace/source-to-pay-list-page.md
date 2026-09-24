@@ -2,7 +2,7 @@
 title: Source-to-Pay Workspace list page
 description: The Source-to-Pay Workspace list page enables you to see high-level information for all records in a list filter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/source-to-pay-list-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-list-page.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -34,14 +34,14 @@ You can select each module and sub-module to view the details in a list. Under *
 -   Export the list to a file in Excel, CSV, JSON, or PDF format.
 -   Create a copy of the list and save it under **My Lists**.
 
--   **[SPO list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/procurement-specialist-list-page.md)**  
+-   **[SPO list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/procurement-specialist-list-page.md)**  
 As a Procurement Case Management \(PCM\) Agent, view and work with your procurement cases, and view the knowledge base. When logged in as a Procurement Specialist however, you can also view and work with the various case types, knowledge base, orders, receipt acknowledgments, interactions, and primary data.
--   **[SLO list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/supp-workspace-list-page.md)**  
+-   **[SLO list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/supp-workspace-list-page.md)**  
 As a supplier manager, use the list page to work on the various supplier case types, view the cases and tasks assigned to you, all the cases and tasks, all the unassigned tasks, Knowledge Base articles, and active suppliers.
--   **[APO list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-list-page.md)**  
+-   **[APO list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-list-page.md)**  
 Use the Source-to-Pay Workspace list view to access invoice cases, primary data, tasks, exceptions, and invoices assigned to you.
--   **[POM list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/pom-list-page.md)**  
+-   **[POM list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/pom-list-page.md)**  
 As an Operational Buyer, use the list page to view all purchase order exceptions and work on the exceptions assigned to you.
 
-**Parent Topic:**[Source-to-Pay Operations workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/exploring-source-to-pay-operations.md)
+**Parent Topic:**[Source-to-Pay Operations workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/exploring-source-to-pay-operations.md)
 

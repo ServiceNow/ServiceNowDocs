@@ -2,7 +2,7 @@
 title: Activate the ITOM MCP Server Console
 description: Activate the ITOM MCP Server Console to enable AI-driven alert management capabilities on your ServiceNow instance through Model Context Protocol \(MCP\) connectivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/activate-itom-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/activate-itom-mcp-server.html
 release: australia
 topic_type: task
 last_updated: "2026-04-27"
@@ -24,9 +24,9 @@ Verify that the following plugins are installed on your instance:
 -   ITOM MCP Server Console \(sn\_itom\_mcp\_server\)
 -   Model Context Protocol Server \(sn\_mcp\_server\)
 
-To use the Alert Hypothesizer described in [Investigate alerts using an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/review-alerts-using-itom-mcp-server.md), you must also install Health Log Analytics plugin.
+To use the Alert Hypothesizer described in [Investigate alerts using an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/review-alerts-using-itom-mcp-server.md), you must also install Health Log Analytics plugin.
 
-To use the CI reliability and SLO tools described in [Review CI reliability with an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/review-ci-reliability-itom-mcp-server.md), you must also have the following plugins installed:
+To use the CI reliability and SLO tools described in [Review CI reliability with an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/review-ci-reliability-itom-mcp-server.md), you must also have the following plugins installed:
 
 -   Service Reliability Management \(sn\_sow\_srm\)
 -   Service Level Objective Management \(sn\_sow\_slo\)

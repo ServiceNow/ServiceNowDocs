@@ -2,7 +2,7 @@
 title: Explore playbooks for retail projects
 description: Playbooks in Retail Strategic Portfolio Management Suite provide a guided, structured approach to managing store life cycle projects from initiation to completion. This helps project teams follow a consistent process across every store scenario.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/playbooks-spm-retail-suite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/playbooks-spm-retail-suite.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-14"
@@ -119,5 +119,5 @@ Playbooks add value to store life cycle management in the following ways:
 
 [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-experience-admins.md)
 
-[Explore Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/explore-spm-retail-suite.md)
+[Explore Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/explore-spm-retail-suite.md)
 

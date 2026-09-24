@@ -2,7 +2,7 @@
 title: View ZTSD agent activities in the contextual side panel
 description: Review the agentic workflow activity for an invoice inquiry case processed by the L1 APO Service Desk AI Specialist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/view-ztsd-agent-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/view-ztsd-agent-activities.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -42,5 +42,5 @@ Select the **Agentic Processes** \[Omitted image "now-assist-icon.png"\] Alt tex
 
 ## Result
 
-The requester is notified about the resolution in the Supplier Collaboration portal. For more information see, [AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md)
+The requester is notified about the resolution in the Supplier Collaboration portal. For more information see, [AI worker case resolution confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/ai-worker-case-resolution-confirmation.md)
 

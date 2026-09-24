@@ -2,7 +2,7 @@
 title: Create a capability profile
 description: Create a profile and select the FireEye HX capabilities that you want the profile to run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-capability-profile-for-fireeye-hx-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-capability-profile-for-fireeye-hx-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

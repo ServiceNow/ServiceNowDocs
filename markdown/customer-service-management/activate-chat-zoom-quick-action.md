@@ -2,7 +2,7 @@
 title: Activate the quick action for Zoom meetings
 description: Activate the Zoom quick action to initiate Zoom meetings using the quick action from a chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-chat-zoom-quick-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-chat-zoom-quick-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Set up the Service Graph Connector for Fortinet schedule
 description: Set up and configure the Service Graph Connector for Fortinet SD-WAN. The process includes installation, optional demo data integration, connectivity configuration, and scheduling data collection for seamless Configuration Management Database \(CMDB\) integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/set-up-fortinet-sd-wan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-fortinet-sd-wan.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

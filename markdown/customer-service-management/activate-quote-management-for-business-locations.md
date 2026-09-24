@@ -2,7 +2,7 @@
 title: Activate Quote Management for Business Locations
 description: Activate the Quote Management for Business Location plugin to create and track quotes by channel partners.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-quote-management-for-business-locations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-quote-management-for-business-locations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ The following items are installed with Quote Management for Business Location sp
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/personas-roles-and-tables-post-integration-qm.md).
+For more information, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/personas-roles-and-tables-post-integration-qm.md).
 
 ## Procedure
 
@@ -48,5 +48,5 @@ For more information, see [Roles and responsibilities](https://raw.githubusercon
 **Related topics**  
 
 
-[Quote management for business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quote-management-for-business-location.md)
+[Quote management for business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/quote-management-for-business-location.md)
 

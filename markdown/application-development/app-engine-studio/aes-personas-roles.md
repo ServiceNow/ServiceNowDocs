@@ -2,7 +2,7 @@
 title: Configure AES personas and roles
 description: The responsibilities of your staff are controlled by roles assigned to each member. Personas aren’t explicitly part of App Engine Studio \(AES\) but administrators assign roles to give team members permission to configure or use AES.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-personas-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/aes-personas-roles.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -230,5 +230,5 @@ Granular admin role that provides access to manage permissions during table crea
 </td></tr></tbody>
 </table>**Important:** Granular admin roles cannot manage tables that depend on ServiceNow AI Platform tables, such as the Experience Visibility Control table \(sn\_udc\_experience\_visibility\_control\) or Preferred Tables \(sn\_preferred\_table\). To manage such tables, additional granular admin roles are necessary. For more information, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
 
-**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/configure-aes.md)
+**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/configure-aes.md)
 

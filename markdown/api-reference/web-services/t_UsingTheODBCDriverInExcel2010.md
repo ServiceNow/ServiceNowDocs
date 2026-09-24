@@ -2,7 +2,7 @@
 title: Use the ODBC driver in Excel
 description: After installing the ODBC driver and its associated DSN, use it in Excel as a data source provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_UsingTheODBCDriverInExcel2010.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_UsingTheODBCDriverInExcel2010.html
 release: australia
 product: Web Services
 classification: web-services
@@ -59,5 +59,5 @@ Role required: admin
     \[Omitted image "ExcelODBCResults.png"\] Alt text: Excel ODBC Results.
 
 
-**Parent Topic:**[ODBC and client applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_ODBCAndClientApplications.md)
+**Parent Topic:**[ODBC and client applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_ODBCAndClientApplications.md)
 

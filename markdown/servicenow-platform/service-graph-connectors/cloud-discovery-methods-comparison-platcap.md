@@ -2,7 +2,7 @@
 title: Cloud discovery solutions comparison
 description: Comparing cloud discovery solutions provides insights on the relative strengths of each solution. The comparison showcases the number of resource types supported by the solutions across AWS, Microsoft Azure, and GCP. The comparison can help you understand the capabilities of each solution and better manage your CMDB when using one or multiple methods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cloud-discovery-methods-comparison-platcap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/cloud-discovery-methods-comparison-platcap.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

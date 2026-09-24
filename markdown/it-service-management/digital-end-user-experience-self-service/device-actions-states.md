@@ -2,7 +2,7 @@
 title: Device action execution states and offline behavior
 description: Execution state codes for device actions and how the platform handles actions triggered on offline devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/device-actions-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-self-service/device-actions-states.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service

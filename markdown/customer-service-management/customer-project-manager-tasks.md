@@ -2,7 +2,7 @@
 title: Customer project manager tasks
 description: A customer project manager can perform specific tasks to manage projects for customer accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-project-manager-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-project-manager-tasks.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -113,7 +113,7 @@ Assign project tasks to internal users, customer contacts, or customer partner c
 
 </td><td>
 
-See [Assign a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ppm-assign-project-task.md) .
+See [Assign a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-ppm-assign-project-task.md) .
 
 </td></tr><tr><td>
 
@@ -142,8 +142,8 @@ Create project change requests and project issues for cases that have been creat
 
 </td><td>
 
-See the following tasks:-   [Create a project issue for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ppm-create-project-issue.md)
--   [Create a project change request for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ppm-create-project-change.md)
+See the following tasks:-   [Create a project issue for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-ppm-create-project-issue.md)
+-   [Create a project change request for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-ppm-create-project-change.md)
 
 </td></tr><tr><td>
 

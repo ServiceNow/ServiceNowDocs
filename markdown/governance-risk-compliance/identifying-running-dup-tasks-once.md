@@ -2,7 +2,7 @@
 title: Creating similar tasks groups
 description: In BCM, when the same plan is activated multiple times, it can result in multiple redundant tasks. Starting with BCM release 9.0.x, the Similar tasks groups tab in events helps you to eliminate redundant tasks by grouping duplicate tasks from multiple plans for similar scenarios. This functionality streamlines event task management and reduces duplication of efforts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/identifying-running-dup-tasks-once.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/identifying-running-dup-tasks-once.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -59,10 +59,10 @@ By eliminating redundant task execution and enhancing task management, this feat
 
 To save a set of selected tasks as a reusable group for future exercises, select the tasks and then select **Save as group**. The selected tasks are saved as a named group that can be referenced when setting up future event exercises.
 
--   **[Create a similar tasks group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-similar-tasks-group.md)**  
+-   **[Create a similar tasks group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-similar-tasks-group.md)**  
 Identify similar or duplicate event tasks associated with an event and add them to a similar tasks group by grouping them in the **Similar tasks groups** tab. It helps you to streamline event task management and reduce duplication of efforts.
--   **[State changes for event tasks in groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/transition-states-of-event-task.md)**  
+-   **[State changes for event tasks in groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/transition-states-of-event-task.md)**  
 The original and duplicate event tasks in the Similar tasks group move through different states until the original task is closed.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

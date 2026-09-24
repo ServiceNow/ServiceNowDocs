@@ -2,7 +2,7 @@
 title: Control when the system displays a view
 description: Administrators can create rules that determine the conditions for when the system should display a form or list in a specified view. Administrators can also restrict views by user role.You can use a script to control the form view used by different roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/control-views.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/control-views.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ Role required: admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md)
+**Parent Topic:**[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/view-management-overview.md)
 
 ## Restrict view by role
 

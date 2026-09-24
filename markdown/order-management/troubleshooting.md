@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Steps to take if you encounter problems using CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/troubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/troubleshooting.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -118,7 +118,7 @@ Subscriptions \(SBQQ\_\_Subscription\_\_c\):
 -   Configuration Id
 -   BOM Data
 
-See [Granting user access in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/granting_user_access_in_logik_io.md).
+See [Granting user access in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/granting_user_access_in_logik_io.md).
 
 ## Salesforce integration
 

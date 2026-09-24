@@ -2,7 +2,7 @@
 title: Set up a secure connection to the Hermes Messaging Service for LES
 description: Secure your Kafka topics by generating a ServiceNow instance-signed certificate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-hermes-cert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-hermes-cert.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ Make sure the following setup is in place:
 
 Role required: hermes\_admin, sn\_kmf.cryptographic\_manager, or admin
 
-For details on assigning KMF roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/kmf-roles.md).
+For details on assigning KMF roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/kmf-roles.md).
 
 ## Procedure
 
@@ -35,15 +35,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d126348e135">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d126012e135">
 
 Option
 
-</th><th align="left" id="d126348e138">
+</th><th align="left" id="d126012e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126348e144">
+</th></tr></thead><tbody><tr><td id="d126012e144">
 
 **Apply ACLs to namespaces**
 
@@ -56,7 +56,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d126348e186">
+</td></tr><tr><td id="d126012e186">
 
 **Apply ACLs to defined topics**
 
@@ -101,7 +101,7 @@ You can now create a secure connection to the Hermes Messaging Service.
 
 [Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/run-hermes-messaging-service-diagnostics.md).
 
-**Parent Topic:**[Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-configure.md)
+**Parent Topic:**[Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-configure.md)
 
 **Related topics**  
 

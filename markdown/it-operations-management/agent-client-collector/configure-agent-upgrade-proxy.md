@@ -2,7 +2,7 @@
 title: Configure a download proxy for Agent Client Collector upgrades
 description: Add a proxy server entry so that agents behind a corporate proxy can download upgrade packages from the ServiceNow Content Delivery Network \(CDN\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-agent-upgrade-proxy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/configure-agent-upgrade-proxy.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -67,5 +67,5 @@ The following configuration tries a corporate proxy first. If the proxy is unava
 
 To temporarily block all CDN downloads, clear the **Active** check box on all proxy records. With no active entries, the system blocks CDN downloads. This is useful during maintenance windows.
 
-**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
+**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 

@@ -2,7 +2,7 @@
 title: Bulk import glossary terms
 description: Import multiple glossary terms at once using an XLSX file to quickly populate your data catalog with business terminology and definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/bulk-import-glossary-terms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/bulk-import-glossary-terms.html
 release: australia
 topic_type: task
 last_updated: "2026-08-11"
@@ -21,7 +21,7 @@ Role required: Data Steward \(df\_data\_steward\)
 
 ## About this task
 
-Before importing, [export glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/bulk-export-glossary-terms.md) to obtain the XLSX template, then [edit the spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-glossary-spreadsheet.md) to add or update glossary terms.
+Before importing, [export glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/bulk-export-glossary-terms.md) to obtain the XLSX template, then [edit the spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/edit-glossary-spreadsheet.md) to add or update glossary terms.
 
 ## Procedure
 
@@ -58,10 +58,10 @@ After the import completes, the system displays one of the following status valu
 -   `PARTIAL` — Some rows imported; others failed
 -   `FAILED` — No rows imported
 
-**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-glossary-terms.md)
+**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-glossary-terms.md)
 
 **Related topics**  
 
 
-[Glossary import error scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/glossary-import-error-scenarios.md)
+[Glossary import error scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/glossary-import-error-scenarios.md)
 

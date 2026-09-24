@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto Panel Platform Agent
 description: Administrators can enable conversational features by setting up the ServiceNow Otto panel, mapping user intents to workflows, and connecting agents to relevant knowledge graphs for reservations, connectors, and utilization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/configure-now-assist-panel-platform-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/configure-now-assist-panel-platform-agent.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd

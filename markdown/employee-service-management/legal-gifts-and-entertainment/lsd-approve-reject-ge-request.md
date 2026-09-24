@@ -2,7 +2,7 @@
 title: Approve or reject a gifts and entertainment disclosure request
 description: Approve or reject a gifts and entertainment disclosure request assigned to you or a Legal - Gifts Compliance group of which you're a member.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-gifts-and-entertainment/lsd-approve-reject-ge-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-gifts-and-entertainment/lsd-approve-reject-ge-request.html
 release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -30,15 +30,15 @@ The **Gifts Approval** flow available in the base system, automatically routes y
 
 1.  Open the approval request
 
-<table id="choicetable_jkn_bmj_fdc"><thead><tr><th align="left" id="d562698e81">
+<table id="choicetable_jkn_bmj_fdc"><thead><tr><th align="left" id="d562702e81">
 
 Method
 
-</th><th align="left" id="d562698e84">
+</th><th align="left" id="d562702e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d562698e90">
+</th></tr></thead><tbody><tr><td id="d562702e90">
 
 **From Legal Counsel Center list**
 
@@ -50,7 +50,7 @@ Steps
 4.  In the Items Pending Approval list, open a request by clicking the request number in the **Approving** column.
 
 
-</td></tr><tr><td id="d562698e144">
+</td></tr><tr><td id="d562702e144">
 
 **From Legal Counsel Center landing page**
 
@@ -61,7 +61,7 @@ Steps
 3.  Select the request for approval.
 
 
-</td></tr><tr><td id="d562698e180">
+</td></tr><tr><td id="d562702e180">
 
 **From Employee Center**
 
@@ -108,5 +108,5 @@ Reject
 -   The comments for rejection posted by the approver is added to the request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing gifts and entertainment disclosure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-manage-ge-request.md)
+</table>**Parent Topic:**[Managing gifts and entertainment disclosure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-gifts-and-entertainment/lsd-manage-ge-request.md)
 

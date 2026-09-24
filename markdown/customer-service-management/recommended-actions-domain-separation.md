@@ -2,7 +2,7 @@
 title: Domain separation and Recommended Actions
 description: Domain separation is supported for Recommended Actions. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/recommended-actions-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/recommended-actions-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

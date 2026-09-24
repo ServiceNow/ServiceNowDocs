@@ -2,7 +2,7 @@
 title: Forum and user permissions management
 description: Community and forum administrators can give users and groups of users different levels of access to forums and forum content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-permissions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/communities-permissions.html
 release: australia
 product: Communities
 classification: communities
@@ -73,16 +73,16 @@ To assign permissions to users and user groups, create associations between foru
 -   You can copy permissions from a parent forum to a child forum or from another forum altogether.
 -   You can also define user-specific permission exceptions and debug user permissions.
 
--   **[Create a forum user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/add-user.md)**  
+-   **[Create a forum user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/add-user.md)**  
 You can create forum users, which you then use to define memberships to a forum.
--   **[Create a permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-permission.md)**  
+-   **[Create a permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/create-permission.md)**  
 Create a permission to use to define a user's access to a forum and the content in the forum.
--   **[Clone a permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/clone-permission.md)**  
+-   **[Clone a permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/clone-permission.md)**  
 Clone a permission if an existing permission record cannot be modified and you require a permission record with similar settings.
--   **[Create a forum permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-forum-permission.md)**  
+-   **[Create a forum permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/create-forum-permission.md)**  
 Add a forum user and a permission to a forum to create a forum permission.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

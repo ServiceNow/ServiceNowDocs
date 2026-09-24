@@ -2,7 +2,7 @@
 title: Add a user to a Connect Support conversation
 description: You can add additional users to a Connect Support conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/add-users-to-support-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/add-users-to-support-chat.html
 release: australia
 product: Connect
 classification: connect
@@ -30,7 +30,7 @@ Role required: none
 
 3.  Do one of the following actions.
 
-<table id="choicetable_qdq_dmf_ct"><tbody><tr><td id="d519613e90">
+<table id="choicetable_qdq_dmf_ct"><tbody><tr><td id="d520266e90">
 
 **Add a member**
 
@@ -40,7 +40,7 @@ Role required: none
 2.  Use the search field to find and select a user.
 
 
-</td></tr><tr><td id="d519613e111">
+</td></tr><tr><td id="d520266e111">
 
 **Remove a member**
 

@@ -2,7 +2,7 @@
 title: Add a team member using the Care Team Portal
 description: Add a member to your team using the Care Team Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-add-member-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-add-member-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure a resource for crisis map
 description: Configure resources to plot the organization's assets on the crisis map. The assets can be locations, employees, data centers, suppliers, and others. Configuring resources is also required as an input to set up alert rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-configure-resource.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/crisis-map-configure-resource.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

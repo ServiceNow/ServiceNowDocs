@@ -2,7 +2,7 @@
 title: HR surveys
 description: HR Surveys let users rate their satisfaction with HR case resolution, and provide management with feedback to improve HR processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/c\_HRSurveysIst.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/c\_HRSurveysIst.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,14 +32,14 @@ When defining conditions like case sensitivity or null values, see API [GlideFil
 
 For more detailed information about working with surveys, trigger conditions, and survey questions, see [Get started with Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyManagementLandingPage.md).
 
--   **[Add or modify an HR survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyAnHRSurvey.md)**  
+-   **[Add or modify an HR survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateOrModifyAnHRSurvey.md)**  
 You can modify the predefined HR satisfaction surveys to suit the needs of the organization, and create HR surveys.
--   **[Add or modify HR survey categories and questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyHRSurveyQuestionsIst.md)**  
+-   **[Add or modify HR survey categories and questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateOrModifyHRSurveyQuestionsIst.md)**  
 When an HR survey definition is created, a survey category is automatically added. You can create questions that are associated with this category or define another category for questions.
--   **[Publish a HR survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_PublishANewHRSurveyIst.md)**  
+-   **[Publish a HR survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_PublishANewHRSurveyIst.md)**  
 Publish a new survey so users can complete it.
--   **[Add a trigger condition for an HR survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateTriggerConditionForHRSurveyIst.md)**  
+-   **[Add a trigger condition for an HR survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_CreateTriggerConditionForHRSurveyIst.md)**  
 When you create an HR survey, you can add a trigger condition to specify when the survey is sent and to whom.
 
-**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

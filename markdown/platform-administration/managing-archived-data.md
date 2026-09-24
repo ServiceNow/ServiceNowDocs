@@ -2,7 +2,7 @@
 title: Managing archived data in Core UI
 description: Change the schedule for an archive rule, stop the archive rule from running, or restore your archived data.Modify the system-scheduled job if you need to change the archive interval.Stop archiving by deactivating, deleting, or canceling an archive rule.Restore an archive record and optionally any related records back into the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/managing-archived-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/managing-archived-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data M
 
 Change the schedule for an archive rule, stop the archive rule from running, or restore your archived data.
 
-**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-older-records.md)
+**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/archiving-older-records.md)
 
 ## Change an archive schedule in Core UI
 

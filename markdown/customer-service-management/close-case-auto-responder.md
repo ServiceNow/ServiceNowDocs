@@ -2,7 +2,7 @@
 title: Close a case from a knowledge article recommended in an Auto-Responder notification
 description: View knowledge articles included in the email notification sent by the Auto-Responder feature for a customer service case and close the case from within a helpful knowledge article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/close-case-auto-responder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/close-case-auto-responder.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

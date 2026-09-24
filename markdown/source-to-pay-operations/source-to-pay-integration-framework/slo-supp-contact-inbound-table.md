@@ -2,7 +2,7 @@
 title: Supplier Contact inbound staging table
 description: The Supplier contact inbound \[sn\_fcms\_intg\_supplier\_contact\_inbound\] staging table temporarily stores important data about a supplier contact before this data is sent to the Supplier Contact \[vm\_vdr\_contact\] primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/slo-supp-contact-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/slo-supp-contact-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -26,7 +26,7 @@ The following table lists the mandatory fields for the Supplier contact inbound 
 |Last name|String|Last name of the supplier contact.|
 |Email|Email|Email address of the supplier contact.|
 
-**Parent Topic:**[Inbound staging tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/slo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/slo-inbound-staging-tables.md)
 
 **Related topics**  
 

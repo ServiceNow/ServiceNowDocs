@@ -2,7 +2,7 @@
 title: Install a Linux operating system
 description: Install a Linux operating system on a virtual machine and then install the Discovery Console for OT on the same VM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/install-linux-os.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/install-linux-os.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ Role required: admin
 ## About this task
 
 -   Install the distribution with minimal configuration, including an SSH server, and confirm the VM supports AVX/AVX2 instructions.
--   Allocate 16 GB of RAM for installation. ​For more information, see [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-system-resources.md) or [Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/reqs-ot-console-installation.md).
+-   Allocate 16 GB of RAM for installation. ​For more information, see [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/ot-discovery-system-resources.md) or [Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/reqs-ot-console-installation.md).
 
 ## Procedure
 
@@ -35,5 +35,5 @@ Role required: admin
     |**Ubuntu 22.04 and 24.04**|See [https://ubuntu.com/tutorials/install-ubuntu-desktop\#1-overview](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)|
 
 
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md)
+**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-ot-discovery-console.md)
 

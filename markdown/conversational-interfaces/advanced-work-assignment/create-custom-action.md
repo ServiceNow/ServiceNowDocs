@@ -2,7 +2,7 @@
 title: Create a custom flow action
 description: Create a custom flow action in Workflow Studio for enabling external routing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/create-custom-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/create-custom-action.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

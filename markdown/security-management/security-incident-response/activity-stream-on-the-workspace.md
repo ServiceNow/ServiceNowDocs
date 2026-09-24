@@ -2,7 +2,7 @@
 title: File Explorer Activity Stream in Workspace
 description: Use the File Explorer section from the Major Security Incident Management workspace to display the folders and files, the sequence those were created in Microsoft SharePoint document library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activity-stream-on-the-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/activity-stream-on-the-workspace.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -20,5 +20,5 @@ The activity stream lists all the automation activity postings whenever any fold
 
 Activity Stream enables the workspace mangers and other user or user group\(s\) to communicate and collaborate effectively, list down the activities that were performed on Microsoft SharePoint folders and files, monitor the status of the incident, post the notes or add additional comments they have on the incident record. The workspace mangers can pick up and work based on the last updated activity.\[Omitted image "fe-activity-stream.png"\] Alt text: FE Activity Stream
 
-**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)
+**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer.md)
 

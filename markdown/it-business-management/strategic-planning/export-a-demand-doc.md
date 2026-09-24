@@ -2,7 +2,7 @@
 title: Export a demand Doc as a PDF
 description: Export demand Docs as PDF files to use them offline or share with stakeholders outside Next Experience for Demand Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/export-a-demand-doc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/export-a-demand-doc.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

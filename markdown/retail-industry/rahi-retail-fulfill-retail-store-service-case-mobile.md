@@ -2,7 +2,7 @@
 title: Manage a store inquiry case from a mobile app
 description: Manage a store inquiry case from a mobile app by accepting or rejecting a proposed solution. By managing a case from a mobile app, you can immediately get visibility into the progress, issues, or status of your case without having to use a computer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-fulfill-retail-store-service-case-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-fulfill-retail-store-service-case-mobile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ Role required: Store associate or Store manager
 5.  Select **Reject** to reopen the case.
 
 
-**Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-inquiries.md)
+**Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-manage-store-inquiries.md)
 

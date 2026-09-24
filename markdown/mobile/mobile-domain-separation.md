@@ -2,7 +2,7 @@
 title: Domain separation and mobile
 description: Domain separation is supported in mobile. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

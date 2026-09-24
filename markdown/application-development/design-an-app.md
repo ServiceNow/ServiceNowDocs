@@ -2,7 +2,7 @@
 title: Design an app
 description: ServiceNow provides a unified design system that improves usability and performance. It supports accessibility standards and ensures a consistent look and feel across the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/design-an-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/design-an-app.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ For more information, see [Horizon Design System](https://horizon.servicenow.com
 
 Start with user personas to define workflows and UI needs. Avoid unnecessary custom styling to preserve governance.
 
-**Parent Topic:**[Plan your app before you start building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/plan-app-building.md)
+**Parent Topic:**[Plan your app before you start building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/plan-app-building.md)
 

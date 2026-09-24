@@ -2,7 +2,7 @@
 title: Create a robot license distribution record in RPA Hub
 description: Define the consumption and distribution of licenses by creating a robot license distribution record in RPA Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-lua-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-lua-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,9 +18,9 @@ Define the consumption and distribution of licenses by creating a robot license 
 
 You must do this task in the classic environment.
 
-Familiarize yourself with license distribution in RPA Hub concepts. For more information, see [Robot license distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/license-rpa-hub.md).
+Familiarize yourself with license distribution in RPA Hub concepts. For more information, see [Robot license distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/license-rpa-hub.md).
 
-Install the RPA Hub. For more information, see [Install Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-rpa.md).
+Install the RPA Hub. For more information, see [Install Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-rpa.md).
 
 Role required: sn\_rpa\_fdn.rpa\_admin
 
@@ -149,5 +149,5 @@ This is a read-only field.
 **Related topics**  
 
 
-[Update a robot license distribution record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/update-license-record-rpa.md)
+[Update a robot license distribution record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/update-license-record-rpa.md)
 

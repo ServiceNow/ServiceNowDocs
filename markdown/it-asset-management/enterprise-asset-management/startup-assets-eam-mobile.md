@@ -2,7 +2,7 @@
 title: Start up enterprise assets after maintenance activities using the Mobile Agent application
 description: Move assets of a startup work order task to the In use state in the Mobile Agent application to indicate that the assets are available for use after maintenance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/startup-assets-eam-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/startup-assets-eam-mobile.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -55,7 +55,7 @@ Role required: sn\_eam.asset\_technician
 
 In the Affected assets list, the state of the assets that are started up changes to In use.
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 

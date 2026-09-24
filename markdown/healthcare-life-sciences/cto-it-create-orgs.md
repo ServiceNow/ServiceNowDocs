@@ -2,7 +2,7 @@
 title: Create healthcare organizations for your healthcare IT support teams
 description: Create healthcare organizations to represent your fulfilling organizations for Healthcare IT cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-it-create-orgs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-it-create-orgs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

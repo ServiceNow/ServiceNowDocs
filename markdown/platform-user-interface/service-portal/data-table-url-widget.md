@@ -2,7 +2,7 @@
 title: Data Table from URL definition widget
 description: The Data Table from URL definition widget displays the table you select from the list. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/data-table-url-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/data-table-url-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -40,11 +40,11 @@ If **Enable filter** is enabled in the instance options, users can add custom co
 
 \[Omitted image "WidgetDataTableFilter.png"\] Alt text: Condition builder has the following parameters: Priority = critical, Category = Network. The list shows only three times.
 
-For more information on using the condition builder, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md).
+For more information on using the condition builder, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_CreatingFilters.md).
 
 **Note:** The condition builder is only available in the desktop view.
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

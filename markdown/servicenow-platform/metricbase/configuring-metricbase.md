@@ -2,7 +2,7 @@
 title: Configuring MetricBase
 description: Plan and configure your MetricBase implementation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/configuring-metricbase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/metricbase/configuring-metricbase.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -16,10 +16,10 @@ breadcrumb: [MetricBase, Manage instance data sources, Extend ServiceNow AI Plat
 
 Plan and configure your MetricBase implementation.
 
--   **[Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/request-metricbase.md)**  
+-   **[Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/request-metricbase.md)**  
 The MetricBase plugin \[com.snc.clotho\] requires a separate subscription and must be activated by ServiceNow personnel. Be sure to also request the MetricBase Demo plugin \[com.snc.clotho.demo\], which includes sample tables, metrics, triggers, and data.
--   **[Working with MetricBase demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/working-with-metricbase-demo-data.md)**  
+-   **[Working with MetricBase demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/working-with-metricbase-demo-data.md)**  
 Familiarize yourself with MetricBase by exploring the MetricBase demo.
 
-**Parent Topic:**[MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase.md)
+**Parent Topic:**[MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metricbase/metricbase.md)
 

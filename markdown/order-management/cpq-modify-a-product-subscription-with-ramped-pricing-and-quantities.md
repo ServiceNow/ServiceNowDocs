@@ -2,7 +2,7 @@
 title: Modify a product subscription with ramped pricing and quantities
 description: Add pricing or quantity ramps to quote line items to set incremental changes during the life of a contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-modify-a-product-subscription-with-ramped-pricing-and-quantities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-modify-a-product-subscription-with-ramped-pricing-and-quantities.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-10"
@@ -37,10 +37,10 @@ In each segment, the **Quantity** field is editable. For example, to specify a c
 
 **Note:** By default, ramps are hidden in a product’s list of line items. To display the ramps in the line items view, set the hierarchy toggle at the top of the list. Then, select **conditions** and remove the default conditions for the view.
 
-**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
+**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-using.md)
 
 **Related topics**  
 
 
-[Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configurable-products-explore.md)
+[Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configurable-products-explore.md)
 

@@ -2,7 +2,7 @@
 title: Style - Scoped, Global
 description: Creates a style for defining properties such font size, border, and alignment. You can apply the same style to multiple objects simultaneously.Instantiates a new Style object.Specifies a background color of an element.Sets a style to bold font.Sets the style border on all four sides of an element.Sets the style border to the bottom of an element.Sets the style border on the left side of an element.Sets the style border on the right side of an element.Sets the style border to the top of an element.Sets style border with color on all four sides of an element.Sets style border with color to the bottom side of an element.Sets style border with color on the left side of an element.Sets style border with color on the right side of an element.Sets style border with color to the top side of an element.Sets a font color.Sets a style font size.Sets the horizontal alignment for a style.Sets a style to italic font.Sets the padding of all four sides of an element to the same width.Sets the value of the bottom padding width of an element.Sets the value of the left padding width of an element.Sets the value of the right padding width of a style.Sets the value of the top padding width of an element.Sets the text alignment for a style.Sets the vertical alignment for this element.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/StyleBothAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/StyleBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,15 +18,15 @@ Creates a style for defining properties such font size, border, and alignment. Y
 
 This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.apppdfgenerator\) and is provided within the `sn_pdfgeneratorutils` namespace. The plugin is activated by default.
 
-This API is a component used with the [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) to generate a PDF.
+This API is a component used with the [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) to generate a PDF.
 
 You can apply custom styles to the following API elements:
 
--   [Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CellBothAPI.md)
--   [Paragraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ParagraphBothAPI.md)
--   [Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TableBothAPI.md)
+-   [Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CellBothAPI.md)
+-   [Paragraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ParagraphBothAPI.md)
+-   [Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/TableBothAPI.md)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Style - Style\(\)
 
@@ -36,7 +36,7 @@ Instantiates a new Style object.
 |----|----|-----------|
 |None| | |
 
-The following examples shows how to create a Style object that you can add to a [Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CellBothAPI.md), [Paragraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ParagraphBothAPI.md) or [Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TableBothAPI.md) element.
+The following examples shows how to create a Style object that you can add to a [Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CellBothAPI.md), [Paragraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ParagraphBothAPI.md) or [Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/TableBothAPI.md) element.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -48,13 +48,13 @@ Specifies a background color of an element.
 
 |Name|Type|Description|
 |----|----|-----------|
-|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ColorBothAPI.md)|Background color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ColorBothAPI.md)|Background color.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set element background color. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set element background color. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -95,7 +95,7 @@ Sets the style border on all four sides of an element.
 |----|-----------|
 |None| |
 
-The following example shows how to set a style border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a style border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -117,7 +117,7 @@ Sets the style border to the bottom of an element.
 |----|-----------|
 |None| |
 
-The following example shows how to set a style border to the bottom of an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a style border to the bottom of an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -139,7 +139,7 @@ Sets the style border on the left side of an element.
 |----|-----------|
 |None| |
 
-The following example shows how to set a style border on the left side of an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a style border on the left side of an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -161,7 +161,7 @@ Sets the style border on the right side of an element.
 |----|-----------|
 |None| |
 
-The following example shows how to set a style border on the right side of an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a style border on the right side of an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -183,7 +183,7 @@ Sets the style border to the top of an element.
 |----|-----------|
 |None| |
 
-The following example shows how to set a style border to the top of an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a style border to the top of an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -200,13 +200,13 @@ Sets style border with color on all four sides of an element.
 |Name|Type|Description|
 |----|----|-----------|
 |width|Number|Style border width in points.|
-|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ColorBothAPI.md)|Style border color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ColorBothAPI.md)|Style border color.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a style border with color. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a style border with color. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -224,13 +224,13 @@ Sets style border with color to the bottom side of an element.
 |Name|Type|Description|
 |----|----|-----------|
 |width|Number|Style border width in points.|
-|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ColorBothAPI.md)|Style border color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ColorBothAPI.md)|Style border color.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a style border to the bottom of an element.For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a style border to the bottom of an element.For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -248,13 +248,13 @@ Sets style border with color on the left side of an element.
 |Name|Type|Description|
 |----|----|-----------|
 |width|Number|Style border width in points.|
-|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ColorBothAPI.md)|Style border color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ColorBothAPI.md)|Style border color.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a style border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a style border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -272,13 +272,13 @@ Sets style border with color on the right side of an element.
 |Name|Type|Description|
 |----|----|-----------|
 |width|Number|Style border width in points.|
-|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ColorBothAPI.md)|Style border color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ColorBothAPI.md)|Style border color.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a style border with color. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a style border with color. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -296,13 +296,13 @@ Sets style border with color to the top side of an element.
 |Name|Type|Description|
 |----|----|-----------|
 |width|Number|Style border width in points.|
-|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ColorBothAPI.md)|Style border color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ColorBothAPI.md)|Style border color.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a style border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a style border. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -319,13 +319,13 @@ Sets a font color.
 
 |Name|Type|Description|
 |----|----|-----------|
-|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ColorBothAPI.md)|Font color.|
+|color|[Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ColorBothAPI.md)|Font color.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to set a font color. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set a font color. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -392,7 +392,7 @@ Horizontal alignment setting.Valid values:
 |----|-----------|
 |None| |
 
-The following example shows how to set horizontal alignment on an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set horizontal alignment on an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -428,10 +428,10 @@ Sets the padding of all four sides of an element to the same width.
 
 See also:
 
--   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -441,7 +441,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to set bottom style to 2.5 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set bottom style to 2.5 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -457,10 +457,10 @@ Sets the value of the bottom padding width of an element.
 
 See also:
 
--   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -470,7 +470,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to set bottom element padding to 2.5 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set bottom element padding to 2.5 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -486,10 +486,10 @@ Sets the value of the left padding width of an element.
 
 See also:
 
--   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -499,7 +499,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to set left element padding to 2.5 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set left element padding to 2.5 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -515,10 +515,10 @@ Sets the value of the right padding width of a style.
 
 See also:
 
--   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingTop\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -528,7 +528,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to set right element padding to 2.5 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set right element padding to 2.5 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -544,10 +544,10 @@ Sets the value of the top padding width of an element.
 
 See also:
 
--   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
--   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPadding\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingBottom\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingLeft\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
+-   [setPaddingRight\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/StyleBothAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -557,7 +557,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to set top element padding to 2.5 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set top element padding to 2.5 points. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();
@@ -653,7 +653,7 @@ Vertical alignment setting.Valid values:
 |----|-----------|
 |None| |
 
-The following example shows how to set vertical alignment on an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
+The following example shows how to set vertical alignment on an element. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var style = new sn_pdfgeneratorutils.Style();

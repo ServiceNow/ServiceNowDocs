@@ -2,7 +2,7 @@
 title: Install Model Context Protocol Client
 description: Install the MCP Client application on your ServiceNow instance to enable using the tools from the MCP Server in AI agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/install-mcp-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/install-mcp-client.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

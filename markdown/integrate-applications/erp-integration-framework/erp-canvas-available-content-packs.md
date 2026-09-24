@@ -2,7 +2,7 @@
 title: Available Zero Copy Connector for ERP content packs
 description: Content packs are available for use in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to implement and deploy applications with less manual work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

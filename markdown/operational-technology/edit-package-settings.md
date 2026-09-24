@@ -2,7 +2,7 @@
 title: Upload firmware packages
 description: If you're using a local repository, upload firmware packages to the Discovery Console for OT so the system knows when an update is needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-package-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/edit-package-settings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: admin
 
 The Discovery Console for OT verifies the integrity and authenticity of the uploaded file before they're made available for device updates. Packages that fail authenticity checks are automatically rejected during the upload process.
 
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/settings-page-console.md)
+**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/settings-page-console.md)
 

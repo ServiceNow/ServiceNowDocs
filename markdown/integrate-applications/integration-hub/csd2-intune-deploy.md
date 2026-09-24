@@ -2,7 +2,7 @@
 title: Deployment process
 description: Order an application from a CSD 2.0 catalog item in the service catalog triggers the Order Client Software flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-intune-deploy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd2-intune-deploy.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -25,5 +25,5 @@ This process deploys an application to a user or device through a service catalo
     \[Omitted image "csd2-intune-provider.png"\] Alt text: Deployment flow specific to the provider.
 
 
-**Parent Topic:**[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-ms-intune.md)
+**Parent Topic:**[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd2-ms-intune.md)
 

@@ -2,7 +2,7 @@
 title: Tracking CI Relationships
 description: Changes to a CI relationship \(CI Relations, CI/User Relations, or CI/Group Relations\) appear in the history of the items on both sides of the changed relationship regardless of whether the change was manual or a result of Discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_CIRelationshipsAndHistory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_CIRelationshipsAndHistory.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

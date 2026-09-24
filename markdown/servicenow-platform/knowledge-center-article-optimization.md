@@ -2,7 +2,7 @@
 title: Knowledge Center Article Optimization
 description: Article Optimization is an automated system that improves the quality and health of knowledge articles by providing actionable feedback to authors and managers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-center-article-optimization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-center-article-optimization.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-20"

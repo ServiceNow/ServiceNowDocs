@@ -2,7 +2,7 @@
 title: Raise workplace service requests
 description: You can request a workplace service using the Workplace Service Portal or the Now Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/request-workplace-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/request-workplace-service.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -27,7 +27,7 @@ The Workplace Services catalog displays a list of workplace services from which 
     -   Workplace Assignment Type Service
     -   Workplace Allocation Change Service
 -   Space request
--   The above workplace services are triggered automatically based on the type of change implemented while scenario planning. For more information about Space optimization - scenario planning and it's features, refer to [Scenario Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/scenario-planning.md).
+-   The above workplace services are triggered automatically based on the type of change implemented while scenario planning. For more information about Space optimization - scenario planning and it's features, refer to [Scenario Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/scenario-planning.md).
 
 
 You can also use the Virtual agent chat support on the Workplace Service Portal to submit a general inquiry. The chat support enables you to do the following:
@@ -36,7 +36,7 @@ You can also use the Virtual agent chat support on the Workplace Service Portal 
 -   View the status of your submitted cases.
 -   View the cases that are awaiting acceptance.
 
-**Parent Topic:**[Exploring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-ovw.md)
+**Parent Topic:**[Exploring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-ovw.md)
 
 **Related topics**  
 

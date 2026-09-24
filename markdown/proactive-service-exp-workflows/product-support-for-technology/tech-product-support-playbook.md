@@ -2,7 +2,7 @@
 title: Technology Product Support Case playbook
 description: The Technology Product Support Case playbook provides step-by-step guidance for resolving technology cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -25,7 +25,7 @@ A playbook visualizes a workflow in a simple, task-oriented view and guides the 
 
 The **Technology product support process page** provides access to the playbook in CSM Configurable Workspace.
 
-For detailed information about the stages and activities, see [Technology product support case playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.md).
+For detailed information about the stages and activities, see [Technology product support case playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.md).
 
 ## Technology product support process page variant
 
@@ -113,7 +113,7 @@ Agents can create multiple tags for a record and then use the tags to group and 
 
 </td></tr><tr><td>
 
-[Action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+[Action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -125,11 +125,11 @@ SLA component
 
 </td><td>
 
-A service level agreement \(SLA\) defines a set amount of time for a task to reach a certain condition. This ensures that tasks resolved according to the expectations set for customers.For more information, see [SLA definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md).
+A service level agreement \(SLA\) defines a set amount of time for a task to reach a certain condition. This ensures that tasks resolved according to the expectations set for customers.For more information, see [SLA definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md).
 
 </td></tr><tr><td>
 
-[Account and contact lookup components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+[Account and contact lookup components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -153,7 +153,7 @@ The case highlights component displays important details about the case includin
 
 </td></tr><tr><td>
 
-[Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+[Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -179,11 +179,11 @@ The Technology product support process page includes a horizontal playbook that 
 -   Resolve
 -   Close
 
-For more information about the playbook, see [Playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.md).
+For more information about the playbook, see [Playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.md).
 
 </td></tr><tr><td>
 
-[Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+[Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -198,13 +198,13 @@ The contextual side panel component includes different tools that agents can use
 
 For more information, see the following sections:
 
--   [Activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
--   [Recommended Actions / Search component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
--   [Related Items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+-   [Activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+-   [Recommended Actions / Search component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+-   [Related Items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td></tr><tr><td>
 
-[Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+[Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -231,7 +231,7 @@ These sections can be expanded and collapsed to display the fields within each s
 
 The Workspace form view also includes a menu with additional form actions, such as personalizing the form, exporting data, and copying the URL.
 
-For more information about the fields that appear in these sections, see [Tech Product Support Case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.md).
+For more information about the fields that appear in these sections, see [Tech Product Support Case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.md).
 
 </td></tr></tbody>
 </table>## Action bar
@@ -301,7 +301,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+[Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -309,7 +309,7 @@ The activity stream component displays a list of the activities occurring on a c
 
 </td></tr><tr><td>
 
-[Recommended Actions search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+[Recommended Actions search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -333,7 +333,7 @@ For more information, see [Use AI search in Recommended Actions to resolve cases
 
 </td></tr><tr><td>
 
-[Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+[Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -422,7 +422,7 @@ When expanded, each activity also includes:
 -   For attachments, a small preview of the attached file.
 -   For chats, a sidebar chat card.
 
-The activity stream uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md) for composing comments, work notes, and emails. Use the **Compose** button in the action bar to create these items.
+The activity stream uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md) for composing comments, work notes, and emails. Use the **Compose** button in the action bar to create these items.
 
 -   **Compose &gt; Comment**: opens the Compose a comment modeless dialog.
 -   **Compose &gt; Work note**: opens the Compose a work note modeless dialog.

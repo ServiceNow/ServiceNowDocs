@@ -2,7 +2,7 @@
 title: Resume an invoice case in Business Portal
 description: Pick up an invoice case where you left off by resuming draft invoice cases from Business Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/resume-invoice-case-creation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/resume-invoice-case-creation.html
 release: australia
 topic_type: task
 last_updated: "2026-04-10"
@@ -34,8 +34,8 @@ Role required: sn\_customerservice.customer
 
 6.  Submit your invoice case using the invoice creation playbook.
 
-    -   [Dispute a specific line item on an invoice against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-invoice-case-single.md)
-    -   [Dispute multiple invoices against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-invoice-case-multiple.md)
+    -   [Dispute a specific line item on an invoice against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-invoice-case-single.md)
+    -   [Dispute multiple invoices against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-invoice-case-multiple.md)
 
 ## Result
 
@@ -43,16 +43,16 @@ The invoice case is created and its state changes to **New**.
 
 ## What to do next
 
-Track the status of your invoice case. For more information, see [View invoice case details in the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-invoice-cases-business-portal.md).
+Track the status of your invoice case. For more information, see [View invoice case details in the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-invoice-cases-business-portal.md).
 
-Follow up on your invoice case. For more information, see [Communicate and share supporting documents for an invoice case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-invoice-cases-bp.md).
+Follow up on your invoice case. For more information, see [Communicate and share supporting documents for an invoice case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-invoice-cases-bp.md).
 
-**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 
 
-[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-management-configure-business-portal.md)
 
-[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-self-service-business-portal.md)
 

@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Otto for Automation Center
 description: Configure ServiceNow Otto for Automation Center to use all the features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/config-na-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/config-na-ac.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -27,8 +27,8 @@ The ServiceNow Otto for Automation Center plugin helps you to:
 -   Automatically create automation requests from Task Mining Workspace
 -   Automate Task Mining recording to desktop actions
 
--   **[Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md)**  
+-   **[Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/activate-skill.md)**  
 Activate the skills available for ServiceNow Otto for Automation Center to work with ease and reduce manual effort in creating automation requests and exploring automations.
 
-**Parent Topic:**[ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/nowassist-ac.md)
+**Parent Topic:**[ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/nowassist-ac.md)
 

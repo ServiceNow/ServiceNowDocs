@@ -2,7 +2,7 @@
 title: Quality view of L1 IT Service Desk AI Specialist performance
 description: Review how the AI Specialist measures up in each quality area.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/perf-quality-l1-sd-ai-spec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/perf-quality-l1-sd-ai-spec.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-02"

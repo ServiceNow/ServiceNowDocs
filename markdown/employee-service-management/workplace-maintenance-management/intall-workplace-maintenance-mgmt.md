@@ -2,7 +2,7 @@
 title: Install Workplace Maintenance Management
 description: Install the Workplace Maintenance Management \( application from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/intall-workplace-maintenance-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-maintenance-management/intall-workplace-maintenance-mgmt.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -61,9 +61,9 @@ Role required: sn\_wsd\_maintenance.admin
 
 Workplace Maintenance Management is installed.
 
-**Parent Topic:**[Configuring Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/configure-maintenance-mgmt.md)
+**Parent Topic:**[Configuring Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/configure-maintenance-mgmt.md)
 
-**Previous topic:**[Configuring Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/configure-maintenance-mgmt.md)
+**Previous topic:**[Configuring Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/configure-maintenance-mgmt.md)
 
-**Next topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
+**Next topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 

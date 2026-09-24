@@ -2,12 +2,12 @@
 title: Build Agent plugins
 description: Plugins are required for Build Agent, and vary by version.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-plugins.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-27"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -35,5 +35,5 @@ If you exceed the free interaction limit, you must wait 30 days for a reset, or 
 1.  For Australia starting with Patch 1, the `sn_now_creator` plugin is required, which contains the `sn_build_agent_pro` plugin.
 2.  For the Australia EA \(Australia patch 0\) version, you must manually update ServiceNow Studio and the Unified Developer Core \(UDC\) in the ServiceNow Store before installing ServiceNow Otto for Creator.
 
-**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-build-agent.md)
 

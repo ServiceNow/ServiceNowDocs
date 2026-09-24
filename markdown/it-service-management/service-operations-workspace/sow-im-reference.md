@@ -2,7 +2,7 @@
 title: Incident Management in Service Operations Workspace reference
 description: Reference topics provide additional information about Incident Management in Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-im-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/sow-im-reference.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -16,22 +16,22 @@ breadcrumb: [Incident Management in Service Operations Workspace, Operating IT s
 
 Reference topics provide additional information about Incident Management in Service Operations Workspace.
 
--   **[Components installed with Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-investigate.md)**  
+-   **[Components installed with Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/components-installed-investigate.md)**  
 Several types of components are installed with activation of the Agent Client Collector for Investigation \(sn\_acc\_adapter\) application, including user roles and ServiceNow Store applications.
--   **[Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md)**  
+-   **[Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md)**  
 Several types of components are installed with activation of the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application, including user roles and ServiceNow Store applications.
--   **[Components installed with Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-with-remediation-fw.md)**  
+-   **[Components installed with Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/components-installed-with-remediation-fw.md)**  
 Several types of components are installed with activation of the Remedial Actions Framework \(com.snc.sn\_reacf\) application, including user roles and tables.
--   **[Components installed with Metrics and CI Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-metrics-ci-action-fw.md)**  
+-   **[Components installed with Metrics and CI Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/components-installed-metrics-ci-action-fw.md)**  
 Several types of components are installed with activation of the Metrics and CI Actions Framework \(sn\_cimaf\) application, including user roles and ServiceNow Store applications.
--   **[Features of the Investigation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/features-of-investigation-tab.md)**  
+-   **[Features of the Investigation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/features-of-investigation-tab.md)**  
 The **Investigation** tab displays CI metrics information along with various options. Use the options and the metrics information to view the data that helps to resolve the CI-related issues.
--   **[Extension points for batch processing in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/mra-extension-points-batch-processing-sow.md)**  
+-   **[Extension points for batch processing in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/mra-extension-points-batch-processing-sow.md)**  
 Use the implementation extension point to create implementations and execute batch processing to update multiple records, which improves the performance of the system.
--   **[Quick start tests for Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/quick-start-tests-im-sow.md)**  
+-   **[Quick start tests for Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/quick-start-tests-im-sow.md)**  
 Validate that Incident Management in Service Operations Workspace still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 
-**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md)
+**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/incident-sow.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Evaluate equality between date values
 description: Date comparison evaluates a match for one of several date increments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_EvaluatingEqualityBetweenDates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_EvaluatingEqualityBetweenDates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,5 +50,5 @@ You can specify granularity to the hour, day, week, month, quarter, or year. For
 6.  Click **Run**.
 
 
-**Parent Topic:**[Comparing field values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_ComparingFieldValues.md)
+**Parent Topic:**[Comparing field values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_ComparingFieldValues.md)
 

@@ -2,7 +2,7 @@
 title: GlideImportSetTransformMap - Scoped, Global
 description: The GlideImportSetTransformMap API provides methods to create transform maps and transform entries.Instantiates a GlideImportSetTransformMap object.Add a GlideDateTime transform entry to a transform map.Adds a string transform entry to a transform map.Creates a new transform map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideImportSetTransformMapAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideImportSetTransformMapAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,20 +18,20 @@ The GlideImportSetTransformMap API provides methods to create transform maps and
 
 You can use the GlideImportSetTransformMap methods in global and scoped scripts. Use the `sn_impex` namespace identifier to create a GlideImportSetTransformMap object.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 **Related topics**  
 
 
-[GlideImportLog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideImportLogAPI.md)
+[GlideImportLog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideImportLogAPI.md)
 
-[GlideImportSetRun](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideImportSetRunAPI.md)
+[GlideImportSetRun](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideImportSetRunAPI.md)
 
-[GlideImportSetTable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideImportSetTableAPI.md)
+[GlideImportSetTable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideImportSetTableAPI.md)
 
-[GlideImportSetTransformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideImportSetTransformerAPI.md)
+[GlideImportSetTransformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideImportSetTransformerAPI.md)
 
-[GlideTransformLog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideTransformLogAPI.md)
+[GlideTransformLog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideTransformLogAPI.md)
 
 ## GlideImportSetTransformMap - GlideImportSetTransformMap\(String transformMapName, String importSetTableName, String targetTableName\)
 

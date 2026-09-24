@@ -2,7 +2,7 @@
 title: Choosing a project template task when duplicates exist
 description: As an admin, when you're configuring the decision rules for domain orders and order tasks, you may find that there are multiple project template tasks with the same Short description. It may be difficult to determine the correct project template task to select.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/Determining-correct-project-task-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/Determining-correct-project-task-template.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,5 +18,5 @@ For example, the following decision table for Project Oversight for Domain Order
 
 \[Omitted image "proj-mgmt-oversight-dup-template-task.png"\] Alt text: Decision table for domain order that has two project template task options with the same Short description
 
-You can determine the appropriate project template task by finding and verifying the sys\_id of the project template task to be used. For more information, see [Verify the sys\_id of a project task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/find-sysid-proj-template-task.md).
+You can determine the appropriate project template task by finding and verifying the sys\_id of the project template task to be used. For more information, see [Verify the sys\_id of a project task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/find-sysid-proj-template-task.md).
 

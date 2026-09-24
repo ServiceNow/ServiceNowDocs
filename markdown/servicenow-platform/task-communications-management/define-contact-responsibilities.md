@@ -2,7 +2,7 @@
 title: Define contact responsibilities
 description: Define the different contacts or target audience involved in the communication process and their responsibility to understand the expectations from those contacts throughout the process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/define-contact-responsibilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/task-communications-management/define-contact-responsibilities.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management
@@ -42,5 +42,5 @@ Role required: sn\_comm\_management.comm\_plan\_admin or admin
 
 Define a communication contact for the task.
 
-**Parent Topic:**[Working with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/working-with-tcm.md)
+**Parent Topic:**[Working with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/task-communications-management/working-with-tcm.md)
 

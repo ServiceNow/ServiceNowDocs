@@ -2,7 +2,7 @@
 title: Legacy: Viewing Escalation Overview reports
 description: Run Escalation Overview reports to view count and rate information on escalations currently in progress, acknowledged and unacknowledged escalations, and Mean Time to Acknowledge \(MTTA\). You can view data for all groups or for one or more selected groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/viewing-esc-oview-report-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/viewing-esc-oview-report-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -16,7 +16,7 @@ breadcrumb: [Viewing On-Call Scheduling reports, On-Call Scheduling, IT Service 
 
 Run Escalation Overview reports to view count and rate information on escalations currently in progress, acknowledged and unacknowledged escalations, and Mean Time to Acknowledge \(MTTA\). You can view data for all groups or for one or more selected groups.
 
-**Important:** Starting in Xanadu release, the On-Call dashboard is deprecated. Users can use [On-call dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/oncall-scheduling.md) to view, maintain, and track the escalation reports.
+**Important:** Starting in Xanadu release, the On-Call dashboard is deprecated. Users can use [On-call dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/oncall-scheduling.md) to view, maintain, and track the escalation reports.
 
 ## Opening the reports
 
@@ -76,5 +76,5 @@ Click the **Escalations Overview** tab.
     -   The Y axis indicates the time it took a user to acknowledge an escalation.
     -   The X axis indicates the group.
 
-**Parent Topic:**[Viewing On-Call Scheduling reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-reports.md)
+**Parent Topic:**[Viewing On-Call Scheduling reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/viewing-reports.md)
 

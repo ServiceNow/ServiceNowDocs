@@ -2,7 +2,7 @@
 title: Configure the webhook registry of Microsoft Exchange Online spoke in Career Conversations
 description: Configure callback URL for communication between the Career Conversations application and Microsoft Exchange Online calendar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/career-conversations/webhook-registry-cc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/career-conversations/webhook-registry-cc.html
 release: australia
 product: Career Conversations
 classification: career-conversations
@@ -42,5 +42,5 @@ Role required: sn\_egd\_core.admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Set up Microsoft Outlook integration in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/outlook-integration-cc.md)
+**Parent Topic:**[Set up Microsoft Outlook integration in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/career-conversations/outlook-integration-cc.md)
 

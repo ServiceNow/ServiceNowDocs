@@ -2,7 +2,7 @@
 title: Manage domain intelligence for AI agents
 description: When you install ServiceNow Otto for Care Team Operations, a knowledge base article is added that lets agents in the Request care team assistance agentic workflow create different Care Team Operations cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-manage-domain-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-now-assist-manage-domain-intelligence.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP content packs
 description: Use Zero Copy Connector for ERP content packs as examples to help you implement and deploy applications with less manual work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-content-packs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-content-packs.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -31,7 +31,7 @@ Content pack models and process extensions are examples. Use them as accelerator
 
 Process extensions are subflows that can use one or more models. Process extensions enable you to use a model without needing to understand the model details. The process extensions are another abstraction layer on top of the models inside the content pack to make the models easier to use.
 
-Process extensions in a content pack are read-only examples. To use a process extension, make a copy and edit it within Workflow Studio. For the steps to copy a process extension and add cloned models, see [Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.md).
+Process extensions in a content pack are read-only examples. To use a process extension, make a copy and edit it within Workflow Studio. For the steps to copy a process extension and add cloned models, see [Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.md).
 
 \[Omitted image "erpc-process-extensions-list-ws.png"\] Alt text: Workflow Studio subflows list showing content pack process extensions.
 

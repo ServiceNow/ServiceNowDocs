@@ -2,7 +2,7 @@
 title: Add your bot to a portal
 description: Give your users a place to interact with your bot and human agents. Choose a Service Portal chat configuration provided with your base system, such as the Service Portal Agent Chat configuration used for Agent Chat and Virtual Agent. Your end users can initiate and maintain a bot or Agent Chat conversation in any page of the portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ac-configure-bot-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/ac-configure-bot-portal.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -138,5 +138,5 @@ Your end users can initiate and maintain an Agent Chat or Virtual Agent conversa
     In Service Portal, you can customize the Agent Chat button and pass page data to Agent Chat. For more information, see [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-va-in-sp.md).
 
 
-**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-configuring-chat-features.md)
 

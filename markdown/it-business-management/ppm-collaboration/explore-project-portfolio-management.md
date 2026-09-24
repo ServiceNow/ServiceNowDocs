@@ -2,7 +2,7 @@
 title: Explore Project Portfolio Management
 description: Learn more about Project Portfolio Management \(PPM\) with a sample workflow and review the benefits it can provide for different users in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/explore-project-portfolio-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/explore-project-portfolio-management.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -30,14 +30,14 @@ The project manager \(project\_manager role\) includes all the manager roles for
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Gather and evaluate of ideas and promote accepted ideas to demand, story, epic, or project.|[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/innovation-management-landing.md)|Project Teams, Demand Manager|
-|Assessing, approve, and promote demands to strategic and operational demands.|[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandManagement.md)|Demand Manager|
-|Manage projects, tasks, and resources.|[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectApplicationOverview.md)|Project Manager, Project Team|
-|Manage programs, the projects under a program and its tasks.|[Program Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/c_ProgramManagement.md)|Program Manager|
-|Manage your projects and programs of different portfolios.|[Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/c_PortfolioManagement.md)|Portfolio Manager|
-|Create resource plans and request resources.|[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceManagement.md)|Resource Manager|
-|Track time on a daily basis against tasks|[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-card-management.md)| |
-|Gain visibility into the status and health of programs, projects, and demands.|[Project Portfolio Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/project-portfolio-content-pack.md)|Project, Program, or Portfolio Manager or Business stakeholder|
+|Gather and evaluate of ideas and promote accepted ideas to demand, story, epic, or project.|[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/innovation-management-landing.md)|Project Teams, Demand Manager|
+|Assessing, approve, and promote demands to strategic and operational demands.|[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/c_DemandManagement.md)|Demand Manager|
+|Manage projects, tasks, and resources.|[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectApplicationOverview.md)|Project Manager, Project Team|
+|Manage programs, the projects under a program and its tasks.|[Program Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/program-management/c_ProgramManagement.md)|Program Manager|
+|Manage your projects and programs of different portfolios.|[Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_PortfolioManagement.md)|Portfolio Manager|
+|Create resource plans and request resources.|[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourceManagement.md)|Resource Manager|
+|Track time on a daily basis against tasks|[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/time-card-management.md)| |
+|Gain visibility into the status and health of programs, projects, and demands.|[Project Portfolio Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/project-portfolio-content-pack.md)|Project, Program, or Portfolio Manager or Business stakeholder|
 
 ## Integration with Digital Portfolio Management
 
@@ -55,14 +55,14 @@ TBD.
 
 ## Domain separation
 
-Domain separation provides complete data isolation for domain-specific users. Project Portfolio Management supports domain separation with a few limitations. For more information, see [Domain separation and Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/domain-separation-project-portfolio-financials.md).
+Domain separation provides complete data isolation for domain-specific users. Project Portfolio Management supports domain separation with a few limitations. For more information, see [Domain separation and Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/domain-separation-project-portfolio-financials.md).
 
--   **[PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md)**  
+-   **[PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md)**  
 The ServiceNow® PPM Standard, earlier known as Project Portfolio Suite with Financials, application integrates Financial Management and Project Portfolio Management.
--   **[Test Management 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/r_TestManagementIntegrationWithPPS.md)**  
+-   **[Test Management 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/r_TestManagementIntegrationWithPPS.md)**  
 Test Management 2.0 integration with Project Portfolio Management enables you to carry out testing activities on projects.
--   **[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)**  
+-   **[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)**  
 Project Portfolio Management leverages the Agile Development 2.0 application to combine the Scrum methodology with project-based IT development.
 
-**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

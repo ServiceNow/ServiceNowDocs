@@ -2,7 +2,7 @@
 title: Control the conditions for a page variant
 description: Set the conditions and manage the criteria that determine when a page variant is displayed. UI Builder page variants enable you to create different versions of a page to tailor content for a specific audience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/control-conditions-for-your-variant.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/control-conditions-for-your-variant.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -28,7 +28,7 @@ If you have multiple page variants that all have the same conditions, the varian
 
 1.  Create a page variant.
 
-    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
+    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-variant.md).
 
 2.  Set the conditions for a new variant.
 
@@ -138,5 +138,5 @@ The number, text, or option input that you want to compare with the parameter.
         \[Omitted image "control-conditions-or.png"\] Alt text: Edit variant conditions screen displaying encoded query 'table=task^sysId=abcd1234^ORsysId=efgh5678' in the field.
 
 
-**Parent Topic:**[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
+**Parent Topic:**[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-variant.md)
 

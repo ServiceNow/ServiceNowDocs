@@ -2,7 +2,7 @@
 title: Create a Terraform account configuration
 description: Define and set up configurations based on Terraform to automate cloud account provisioning, including required credentials and infrastructure templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/create-terraform-account-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/create-terraform-account-config.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -28,12 +28,12 @@ Role required: sn\_itom\_cam.cw\_admin
 
 3.  Enter the details in the **New Configuration** form.
 
-    To fill the form fields, see [Terraform account configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/terraform-details.md).
+    To fill the form fields, see [Terraform account configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/terraform-details.md).
 
 4.  Select **Submit**.
 
 
 ## What to do next
 
-[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/policy-setup.md)
+[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/policy-setup.md)
 

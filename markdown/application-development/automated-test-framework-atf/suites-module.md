@@ -2,7 +2,7 @@
 title: Suites
 description: The Suites module opens the Test Suites table. You can create, edit, and run test suites from this table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/suites-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/suites-module.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -16,13 +16,13 @@ breadcrumb: [Automated Test Framework \(ATF\) reference, Automated Test Framewor
 
 The Suites module opens the Test Suites table. You can create, edit, and run test suites from this table.
 
--   **[Test suite form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-suite-record.md)**  
+-   **[Test suite form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-test-suite-record.md)**  
 The Test Suite form contains information about one test suite.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-ref-overview.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-ref-overview.md)
 
 **Related topics**  
 
 
-[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md)
+[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-suites-overview.md)
 

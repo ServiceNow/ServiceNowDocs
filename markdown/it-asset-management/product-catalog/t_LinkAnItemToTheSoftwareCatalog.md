@@ -2,7 +2,7 @@
 title: Link an item to the software catalog
 description: After you create a vendor catalog item, link the item to the software catalog for viewing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_LinkAnItemToTheSoftwareCatalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/product-catalog/t\_LinkAnItemToTheSoftwareCatalog.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -39,7 +39,7 @@ To see the **Link to Software Catalog Item** related link on the Vendor Catalog 
     The page refreshes to the selected software catalog item. The vendor catalog item is listed in the **Vendor Catalog Items** related list.
 
 
-**Parent Topic:**[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/t_CreateAVendorCatalogItem.md)
+**Parent Topic:**[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/t_CreateAVendorCatalogItem.md)
 
 **Related topics**  
 

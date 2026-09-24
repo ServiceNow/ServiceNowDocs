@@ -2,7 +2,7 @@
 title: Facilities agent assignment
 description: Depending on your settings in the facilities configuration screen, you can assign agents manually or using auto-assignment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_FacilitiesAgentAssignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_FacilitiesAgentAssignment.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -28,10 +28,10 @@ If more than one set of criteria is considered, such as location and skills, the
 
 If the task cannot be auto-assigned, a user with the dispatcher role adjusts the values in the request or task form and saves the record.
 
-**Parent Topic:**[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesRequests.md)
+**Parent Topic:**[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesRequests.md)
 
 **Related topics**  
 
 
-[Agent assignment methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_AgentAssignment.md)
+[Agent assignment methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_AgentAssignment.md)
 

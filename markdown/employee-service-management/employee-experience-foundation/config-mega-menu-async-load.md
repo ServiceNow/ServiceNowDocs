@@ -2,7 +2,7 @@
 title: Configure Mega menu async load system properties
 description: The mega menu async improves the homepage interactivity by loading the Mega Menu in the background, enabling you to engage with visible content faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-mega-menu-async-load.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-mega-menu-async-load.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -47,7 +47,7 @@ You can decouple the mega menu load from the homepage using the asynchronous pro
     2.  Toggle **sn\_ex\_sp.megamenu\_async\_load\_skeleton\_view** to enable or disable the Mega Menu skeleton loader.
 
         -   True: Show the skeleton loader until the async flow gets the data.
-        -   False: Show that previous session data until the async flow gets the data and then update the UI. For more information, see [User portal data map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/user-portal-data-map.md).
+        -   False: Show that previous session data until the async flow gets the data and then update the UI. For more information, see [User portal data map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/user-portal-data-map.md).
     3.  Specify the **sn\_ex\_sp.megamenu\_async\_timeout** timeout duration \(in milliseconds\) for loading the asynchronous mega menu.
 
         The default value is 15000. After 15 seconds, the UI aborts the data load and displays an error message
@@ -68,7 +68,7 @@ The system properties improve the async load and overall performance.
 **Related topics**  
 
 
-[Portal performance optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-load-experience-optimization.md)
+[Portal performance optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-load-experience-optimization.md)
 
-[User portal data map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/user-portal-data-map.md)
+[User portal data map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/user-portal-data-map.md)
 

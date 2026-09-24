@@ -2,7 +2,7 @@
 title: Automated Test Framework use case: test basic form operations
 description: This use case illustrates testing basic form operations with the Automated Test Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-use-basic-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-use-basic-form.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -45,5 +45,5 @@ Role required: atf\_test\_admin
     \[Omitted image "atf-use-cat-task-submit.png"\] Alt text: Form for Submitting a Form
 
 
-**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-use-cases.md)
 

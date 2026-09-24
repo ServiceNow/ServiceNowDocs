@@ -2,7 +2,7 @@
 title: Manage tools
 description: Manage the tools information that you imported from the MITRE TAXII collections. Tools are legitimate software that are used by threat actors to perform attacks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/manage-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/manage-tools.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,9 +39,9 @@ Tools enable you to know how and when threat actors use them for executing campa
 
 ## What to do next
 
-Use the [techniques module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-techniques.md) to add or modify the tools data.
+Use the [techniques module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-techniques.md) to add or modify the tools data.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

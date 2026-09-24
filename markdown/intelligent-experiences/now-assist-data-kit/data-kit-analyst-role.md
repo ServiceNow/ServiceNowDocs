@@ -2,7 +2,7 @@
 title: AI Data Kit roles \(sn\_data\_kit.analyst\)
 description: Users with this role can access the AI Data Kit Home page and edit and save ground truth data. Assign this role to analysts and AI practitioners who work with datasets and ground truth in AI Data Kit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/data-kit-analyst-role.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/data-kit-analyst-role.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit

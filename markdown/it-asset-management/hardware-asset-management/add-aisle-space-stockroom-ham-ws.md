@@ -2,7 +2,7 @@
 title: Add aisles and spaces to a stockroom in the Hardware Asset Workspace
 description: Add details of aisles and spaces in a stockroom to provide granular location details of an asset in that stockroom. The aisle and space details enable you to locate and pick an asset in the stockroom.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/add-aisle-space-stockroom-ham-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/add-aisle-space-stockroom-ham-ws.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -71,7 +71,7 @@ A space is associated with an aisle in the stockroom. You can add a space only a
     -   The space is added to the list in the Aisle and spaces tab.
     -   The Display name of the space is automatically set based on the **Aisle** and **Space** fields. For example, the display name of the space whose aisle is aisle\_001 and space is space\_001 is **aisle\_001 - space\_001**.
 
-**Parent Topic:**[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-picking-stockroom-ham-ws.md)
+**Parent Topic:**[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-asset-picking-stockroom-ham-ws.md)
 
 **Related topics**  
 

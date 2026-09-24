@@ -2,7 +2,7 @@
 title: Implement custom actions for pipelines using Docker image
 description: Use the ServiceNow custom actions to collect data related to change request creation, Sonar scan, artifact registration, and package registration in your pipeline with the help of the generic Docker Container Image.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -30,7 +30,7 @@ When you configure a GitLab project, the environmental variables are created for
 
 When adding the SNOW\_TOKEN variable, you can acquire the token by selecting the **Copy token** button on the tool record, located in the Tool \[sn\_devops\_tool\] table.
 
-The environmental variables must be updated with the values available in the Configure webhooks manually pop-up in the tool record page. For details on how to view the connection details, see [Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md) and [Configure webhooks in GitLab manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-webhooks-in-gitlab.md).
+The environmental variables must be updated with the values available in the Configure webhooks manually pop-up in the tool record page. For details on how to view the connection details, see [Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md) and [Configure webhooks in GitLab manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/configure-webhooks-in-gitlab.md).
 
 \[Omitted image "gitlab-custom-actions-01.png"\] Alt text: Connection details for GitLab
 
@@ -351,7 +351,7 @@ NOTE: State should be specified at last in case if you are update the state of c
 
 ## Auto close change
 
-Incorporate auto close change in ServiceNow instance. For detailed information about auto close, see [Configuring DevOps change request details within the pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-config-change-details.md).
+Incorporate auto close change in ServiceNow instance. For detailed information about auto close, see [Configuring DevOps change request details within the pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-config-change-details.md).
 
 For example:
 

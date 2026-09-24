@@ -2,7 +2,7 @@
 title: Find and reserve an indoor resource
 description: View an interactive map of the interior of your building to locate available resources such as desks or conference rooms. After locating a resource, you can then reserve it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/find-reserve-indoor-resource.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/find-reserve-indoor-resource.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

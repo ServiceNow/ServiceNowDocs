@@ -2,7 +2,7 @@
 title: Get quote details in an MCP client
 description: Retrieve quote header and line-level information using natural language in a Model Context Protocol \(MCP\) client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/get-quote-details-mcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/get-quote-details-mcp.html
 release: australia
 topic_type: task
 last_updated: "2026-06-24"
@@ -73,5 +73,5 @@ For example:
 -   If you're a requester and the quote has not been submitted for approval, the MCP client asks if you want to preview the approval routing for the quote. If the quote is in a rejected state, the MCP client asks if you want to see the approval history. You can view the rejection reason so that you can update the quote accordingly before resubmitting the quote for approvals.
 -   If you're an approver, the MCP client asks if you want to see your pending approvals so that you can take action on your approval requests.
 
-**Parent Topic:**[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-advanced-approval-mgmt-ai.md)
+**Parent Topic:**[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-advanced-approval-mgmt-ai.md)
 

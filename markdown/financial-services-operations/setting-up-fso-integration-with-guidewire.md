@@ -2,7 +2,7 @@
 title: Set upFinancial Services Operations Integration with Guidewire
 description: You can integrate a ServiceNow instance with your Guidewire account so that you can access policy and claims information in the insurance core system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/setting-up-fso-integration-with-guidewire.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/setting-up-fso-integration-with-guidewire.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,9 +24,9 @@ To set up your integration, complete the following application setup actions.
 
 1.  Install the Personal Lines Claims or Commercial Lines Claims plugins as needed.
 
-    For more information about installing Personal Lines Claims, see [Install Personal Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/install-personal-lines-claims.md).
+    For more information about installing Personal Lines Claims, see [Install Personal Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/install-personal-lines-claims.md).
 
-    For more information about installing Commercial Lines Claims, see [Install Commercial Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/install_commercial_lines_claims.md).
+    For more information about installing Commercial Lines Claims, see [Install Commercial Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/install_commercial_lines_claims.md).
 
 2.  Request an Integration Hub subscription.
 
@@ -37,5 +37,5 @@ To set up your integration, complete the following application setup actions.
     For more information on how to integrate and set up a ServiceNow instance with your Guidewire account, see [Guidewire Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/guidewire-spoke.md).
 
 
-**Parent Topic:**[Financial Services Operations Integration with Guidewire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-guidewire-landing-page.md)
+**Parent Topic:**[Financial Services Operations Integration with Guidewire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integration-with-guidewire-landing-page.md)
 

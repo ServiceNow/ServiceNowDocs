@@ -2,7 +2,7 @@
 title: Lifecycle Events logging
 description: Lifecycle Events supports logging to capture events that occur in a Lifecycle Events case. Organization administrators can use the event logs that are generated to identify errors or to acquire information about the processes that ran in a Lifecycle Events case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/le-logging.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/le-logging.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -40,15 +40,15 @@ Lifecycle Events uses the following components to record event logs for the acti
     The **sn\_hr\_le.log\_level** property lets you specify the types of logs that are written to the HR Lifecycle Events Case Logs table.
 
 
--   **[Enable logging for Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-enable-logging.md)**  
+-   **[Enable logging for Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/le-enable-logging.md)**  
 Use the **sn\_hr\_le.log\_level** system property to enable logging for Lifecycle Events. The log entries that are generated can be used to identify errors or to acquire pertinent data about the processes that ran in a Lifecycle Events case.
--   **[View log entries for a Lifecycle Events case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-view-logs.md)**  
+-   **[View log entries for a Lifecycle Events case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/le-view-logs.md)**  
 View the log entries associated with a Lifecycle Events case to acquire pertinent information about the processes that ran and to identify any errors that surface. The error logs can be used as a tool to diagnose problems and effectively troubleshoot the root cause of an issue that is adversely affecting a Lifecycle Events case.
 
-**Parent Topic:**[Using Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/using-lifecycle-events.md)
+**Parent Topic:**[Using Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/using-lifecycle-events.md)
 
 **Related topics**  
 
 
-[Lifecycle Events activity set progress optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-stagnant-activity-set.md)
+[Lifecycle Events activity set progress optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/le-stagnant-activity-set.md)
 

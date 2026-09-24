@@ -2,7 +2,7 @@
 title: Remove a dependency
 description: Use the planning console to remove a dependency that is no longer necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_RemoveDependencies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_RemoveDependencies.html
 release: australia
 product: Project Management
 classification: project-management
@@ -52,12 +52,12 @@ Removing the dependency also deletes the dependency record in the Planned Task R
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a dependency from the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateADependency.md)
+**Parent Topic:**[Create a dependency from the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateADependency.md)
 
 **Related topics**  
 
 
-[Modify a project task dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ModifyProjectTaskDependencies.md)
+[Modify a project task dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ModifyProjectTaskDependencies.md)
 
-[Create a dependency from the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateADependency.md)
+[Create a dependency from the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateADependency.md)
 

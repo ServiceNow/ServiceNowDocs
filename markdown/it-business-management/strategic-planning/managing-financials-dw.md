@@ -2,7 +2,7 @@
 title: Managing financials for demands
 description: Financials in Next Experience for Demand Management covers budget, cost plans, expense lines, labor costs, and financial baselines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/managing-financials-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/managing-financials-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -26,10 +26,10 @@ In the Cost view, you can:
 
 -   View and manage financial data for a demand.
 -   Re-forecast cost plan values for future fiscal periods by selecting a value in the month or period time scale view.
--   Manage cost plans for your demands. For more information, see [Create cost plans for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/add-edit-or-delete-demand-cost-plans.md).
--   Add or edit expense lines for your demands to record any expenses. For more information, see [Create expense lines for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/add-or-edit-expense-lines-dw.md).
--   Generate labor costs for the fiscal period. For more information, see [Generate labor costs for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/generate-labor-costs-dw.md).
--   Create and compare baselines to capture the financial snapshot of your demands. For more information, see [Create and compare financial baselines for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-compare-financial-baselines-dw.md).
+-   Manage cost plans for your demands. For more information, see [Create cost plans for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/add-edit-or-delete-demand-cost-plans.md).
+-   Add or edit expense lines for your demands to record any expenses. For more information, see [Create expense lines for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/add-or-edit-expense-lines-dw.md).
+-   Generate labor costs for the fiscal period. For more information, see [Generate labor costs for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/generate-labor-costs-dw.md).
+-   Create and compare baselines to capture the financial snapshot of your demands. For more information, see [Create and compare financial baselines for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-compare-financial-baselines-dw.md).
 
 Users can filter the Financials tab grid by time scope to narrow cost plans, benefit plans, and baselines to a specific period.
 
@@ -50,7 +50,7 @@ Financial reporting at a global level includes real-time currency conversions of
 
 Organizations operate at a global or multinational level. Work is planned and financed at one location and executed at another, often using a different currency from the planning phase. Multicurrency enables management and tracking of planning items in any currency.
 
-You can monitor and track the financials in one currency, and capture the costs in a different currency. For more information, see [Multicurrency in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/multicurrency-in-demand-workspace.md).
+You can monitor and track the financials in one currency, and capture the costs in a different currency. For more information, see [Multicurrency in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/multicurrency-in-demand-workspace.md).
 
 **Note:** After a cost plan, benefit plan, expense line, or investment budget is created, the Demand currency cannot be changed. The Demand currency can be changed only when no financial records exist for the demand.
 
@@ -110,19 +110,19 @@ Planned
 View only planned costs for the full range and manage the planned costs using the inline editing feature.
 
 </td></tr></tbody>
-</table>**Note:** If you don't see the Budget allocation mode, enable it for demands and configure the budget attribute at the instance level. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/enable-financial-budget-allocation-for-demands.md) and [Configure budget attribute at instance level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/configure-budget-attribute-at-instance-level-dw.md).
+</table>**Note:** If you don't see the Budget allocation mode, enable it for demands and configure the budget attribute at the instance level. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/enable-financial-budget-allocation-for-demands.md) and [Configure budget attribute at instance level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/configure-budget-attribute-at-instance-level-dw.md).
 
 ## Cost plans
 
 Cost plan breakdown records are created when you save a cost plan. The cost plan breakdowns are records that specify the estimated and actual costs and the budget at a granular level for specific fiscal periods, such as FY16: M04 and FY16: M05. The demand cost plans are added to the parent program and portfolio. To use multiple currencies, create a cost plan for another currency.
 
-If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled, the fields in the **Financials** section differ from the Default view. For fields available only in the Demand Currency view, see [Multicurrency in Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/multicurrency-in-dw-reference.md).
+If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and the Demand Currency view is enabled, the fields in the **Financials** section differ from the Default view. For fields available only in the Demand Currency view, see [Multicurrency in Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/multicurrency-in-dw-reference.md).
 
 **Note:** For projects, the cost plan breakdowns specify the estimated cost and actual cost at a granular level for a fiscal period of the demand cost plan. These breakdowns are recalculated in the project currency. Similarly, the estimated breakdown amounts of the planned benefit and actual benefit of the demand benefit plans are recalculated in the project currency. The project currency amounts are then rolled up to the cost plan, benefit plan, and the project records.
 
 ## Baselines
 
-Create a baseline to capture a snapshot of the financial changes for your demands. You can create on-demand baselines or at a cadence using a scheduler job. For more information, see [Create a baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-compare-financial-baselines-dw.md).
+Create a baseline to capture a snapshot of the financial changes for your demands. You can create on-demand baselines or at a cadence using a scheduler job. For more information, see [Create a baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-compare-financial-baselines-dw.md).
 
 Compare baselines to compare the difference in costs between any two baselines.
 
@@ -152,7 +152,7 @@ Consider a demand scoped from July 2026 to December 2026, Baseline A is created 
 
 ## Budget allocation
 
-Portfolio managers can manage and approve the budget for demands. The approved budget helps demand managers to plan and meet the expenses to execute work. For more information, see [Manage demand budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/manage-budget-of-your-demands.md).
+Portfolio managers can manage and approve the budget for demands. The approved budget helps demand managers to plan and meet the expenses to execute work. For more information, see [Manage demand budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/manage-budget-of-your-demands.md).
 
 \[Omitted image "demand-budget-allocation.png"\] Alt text: Budget allocation view for a demand.
 
@@ -191,7 +191,7 @@ Budget allocation logic is divided into three focus areas: past fiscal periods, 
 
 ## Benefit plans
 
-Monetary benefit plans capture potential benefits accrued while executing a demand. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a demand. You can create and manage monetary and non-monetary benefit plans and to capture the potential benefits of your planning items. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-monetary-benefit-plans-for-a-demand-dw.md) and [Create a non-monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-non-monetary-benefit-plan-for-dw.md).
+Monetary benefit plans capture potential benefits accrued while executing a demand. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a demand. You can create and manage monetary and non-monetary benefit plans and to capture the potential benefits of your planning items. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-monetary-benefit-plans-for-a-demand-dw.md) and [Create a non-monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-non-monetary-benefit-plan-for-dw.md).
 
 Manage cost plans and benefit plans from the **Costs and benefits** tab without switching between the financials record page and benefit plan tabs. Use the side panel and grids to forecast and track monetary benefit plans.
 

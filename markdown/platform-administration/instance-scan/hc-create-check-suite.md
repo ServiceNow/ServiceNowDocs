@@ -2,7 +2,7 @@
 title: Create a check suite
 description: Create a check suite to bundle a group of checks into a suite and execute it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hc-create-check-suite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/instance-scan/hc-create-check-suite.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -42,7 +42,7 @@ Role required: admin.
     **Note:** The suites that you create are completely modifiable. You can modify the checks in the suite and can also add child and parent suites.
 
 
-**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 

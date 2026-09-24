@@ -2,7 +2,7 @@
 title: Configure Get Related Machines from Defender Capability in Microsoft Defender for Endpoint
 description: Get the list of related machines of specific observables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-related-machines-defender-capability-ms-defender.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/get-related-machines-defender-capability-ms-defender.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -47,7 +47,7 @@ You can retrieve the list of machines that have accessed the particular observab
 9.  View the automation activities of the execution, and validate them.
 
 
-**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
+**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure the list layout
 description: You can configure a list to choose which columns appear in a list, create list views, and create fields on the table.Administrators can configure a property that determines whether fields on extended tables can be added to a parent table list. For example, when this feature is enabled, you can view and filter on the Caller field, from the Incident table, on a Task table list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ConfigureTheListLayout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_ConfigureTheListLayout.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -45,7 +45,7 @@ Role required: personalize\_list
 
 If a reference field in a list displays as \(empty\) instead of the expected value, it is due to another field in the list containing an incorrect reference to either an orphaned record or a sys\_id that does not exist in the referenced table. The solution is to remove the incorrect reference data from any reference fields in that table.
 
-**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_ListConfiguration.md)
+**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/c_ListConfiguration.md)
 
 ## Add an extended field to a base table list
 

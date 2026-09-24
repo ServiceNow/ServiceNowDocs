@@ -2,7 +2,7 @@
 title: Integrate SIR with third-party communication channels
 description: The SIR Conference Call integration with third-party communication channels such as Microsoft Teams, Zoom, and Cisco Webex, enables you to manage and initiate a call directly from a security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/integrate-comm-channels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/integrate-comm-channels.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -53,5 +53,5 @@ Perform the following configuration for the communication channels you want use:
 -   To configure the Conference Call Microsoft Teams integration using the self-configured app, see [Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-notify-ms-teams-single-tenant.md).
 
 
-**Parent Topic:**[Security Incident Response conference call integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-conf-call-capability.md)
+**Parent Topic:**[Security Incident Response conference call integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-conf-call-capability.md)
 

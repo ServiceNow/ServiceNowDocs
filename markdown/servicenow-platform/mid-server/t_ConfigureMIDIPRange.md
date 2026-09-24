@@ -2,7 +2,7 @@
 title: Configure an IP address range for the MID Server
 description: You can manually configure an IP address range for the MID Server to explore.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_ConfigureMIDIPRange.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/t\_ConfigureMIDIPRange.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -27,9 +27,9 @@ Role required: agent\_admin or admin
 </td></tr></tbody>
 </table>## About this task
 
-Applications, such as Discovery and Orchestration, can specify an IP range or the specific IP address of a target. When the application looks for a MID Server to use during auto-selection, it chooses a MID Server whose IP range includes the application's range or specific IP address. Applications also use other criteria, such as the MID Server's supported application or capability. See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md) for more information.
+Applications, such as Discovery and Orchestration, can specify an IP range or the specific IP address of a target. When the application looks for a MID Server to use during auto-selection, it chooses a MID Server whose IP range includes the application's range or specific IP address. Applications also use other criteria, such as the MID Server's supported application or capability. See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerSelector.md) for more information.
 
-**Note:** This is a manual configuration procedure. To learn how the system can assign IP address ranges to selected MID Servers automatically, see [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-servers-auto-assignment.md).
+**Note:** This is a manual configuration procedure. To learn how the system can assign IP address ranges to selected MID Servers automatically, see [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md).
 
 These applications use IP ranges as follows:
 
@@ -103,7 +103,7 @@ Type
 Select the type of range: -   **Include**: Include the specified IP range.
 -   **Exclude**: Exclude the IP address range.
 
-**Note:** If a MID Server is configured for **ALL** applications, any IP addresses configured for exclusion are ignored by the system. If your goal is to configure default MID Servers for separate applications in your system, see [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md).
+**Note:** If a MID Server is configured for **ALL** applications, any IP addresses configured for exclusion are ignored by the system. If your goal is to configure default MID Servers for separate applications in your system, see [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md).
 
 </td></tr><tr><td>
 
@@ -137,5 +137,5 @@ The MID Servers that can use this IP address range.
 
 Open the **ALL** IP range record and configure the MID Servers that you want to use with any set of IP addresses.
 
-**Parent Topic:**[MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
+**Parent Topic:**[MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerSelector.md)
 

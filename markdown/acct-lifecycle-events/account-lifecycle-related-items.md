@@ -2,7 +2,7 @@
 title: View related items
 description: The Related Items component provides access to related list items associated with your account onboarding case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-related-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-related-items.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ Related items of **Data import task**.
 
 \[Omitted image "account-lifecycle-related-data-import.png"\] Alt text: Data import task related lists.
 
-**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use.md)
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use.md)
 

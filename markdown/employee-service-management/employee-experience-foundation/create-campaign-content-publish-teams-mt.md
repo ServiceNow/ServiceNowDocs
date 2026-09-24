@@ -2,7 +2,7 @@
 title: Create notification content for Microsoft Teams
 description: Create notifications to send messages directly to your employees through campaigns in Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-campaign-content-publish-teams-mt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/create-campaign-content-publish-teams-mt.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +27,7 @@ Create notifications to send messages directly to your employees through campaig
     -   Content Publishing \[sn\_cd\]
     -   Content Experiences \[sn\_ca\]
 -   Role required: sn\_cd.campaign\_manager
--   A Microsoft Teams notification includes a link [Create a video, URL, or to-do link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
+-   A Microsoft Teams notification includes a link [Create a video, URL, or to-do link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
 
 ## Procedure
 
@@ -35,15 +35,15 @@ Create notifications to send messages directly to your employees through campaig
 
 2.  Either use an existing content record or create a notification.
 
-<table id="choicetable_yc5_yht_h5b"><thead><tr><th align="left" id="d368586e122">
+<table id="choicetable_yc5_yht_h5b"><thead><tr><th align="left" id="d368590e122">
 
 Record source
 
-</th><th align="left" id="d368586e125">
+</th><th align="left" id="d368590e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d368586e131">
+</th></tr></thead><tbody><tr><td id="d368590e131">
 
 **Existing content record**
 
@@ -51,7 +51,7 @@ Action
 
 Select the content record from the list.
 
-</td></tr><tr><td id="d368586e140">
+</td></tr><tr><td id="d368590e140">
 
 **New content**
 
@@ -130,9 +130,9 @@ Option to indicate that the notification is active and available.
 
 ## What to do next
 
-Make the content available to users: [Schedule delivery of Microsoft Teams notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/schedule-delivery-content.md).
+Make the content available to users: [Schedule delivery of Microsoft Teams notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/schedule-delivery-content.md).
 
-Alternatively, you can build out a more robust publishing configuration using [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
+Alternatively, you can build out a more robust publishing configuration using [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 
-**Parent Topic:**[Create a Microsoft Teams campaign with content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-publishing-mt.md)
+**Parent Topic:**[Create a Microsoft Teams campaign with content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-campaign-content-publishing-mt.md)
 

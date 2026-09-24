@@ -2,7 +2,7 @@
 title: Ask project questions using the Project Answers agent
 description: Use Ask Otto to open an AI panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/ask-question-answers-chatbot-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/ask-question-answers-chatbot-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -50,5 +50,5 @@ Ask questions about tasks, risks, resources, costs, and schedule using the Proje
 
 The chatbot returns answers based on your project data. You can continue the conversation by asking additional questions.
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
 

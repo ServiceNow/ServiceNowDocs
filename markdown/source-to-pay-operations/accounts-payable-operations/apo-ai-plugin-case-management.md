@@ -2,7 +2,7 @@
 title: Application plugin for AI capabilities in APO
 description: View the consolidated list of plugins required to use AI capabilities for Invoice case management in Accounts Payable Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/apo-ai-plugin-case-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/apo-ai-plugin-case-management.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

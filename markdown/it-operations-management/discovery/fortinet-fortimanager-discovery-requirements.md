@@ -2,7 +2,7 @@
 title: Fortinet FortiManager discovery requirements
 description: Technical requirements and configuration details for discovering Fortinet FortiManager firewalls using the Firewall Audits and Reporting application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/fortinet-fortimanager-discovery-requirements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/fortinet-fortimanager-discovery-requirements.html
 release: australia
 product: Discovery
 classification: discovery
@@ -257,5 +257,5 @@ The FortiManager discovery uses a serverless Large Payload Pattern \(LP\). The p
 
 Discovery consists of one serverless root pattern that triggers multiple independent Large Payload Patterns for global objects, ADOMs, devices, policy packages, and firewall policies.
 
-**Parent Topic:**[Firewall Audits and Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-report-reference.md)
+**Parent Topic:**[Firewall Audits and Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-audit-report-reference.md)
 

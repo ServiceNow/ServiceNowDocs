@@ -2,10 +2,10 @@
 title: Sales CRM for Telecommunications workflow
 description: The Sales CRM for Telecommunications workflow shows the end-to-end process for managing sales orders, from initial prospect identification through order closure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/somt-workflow.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---

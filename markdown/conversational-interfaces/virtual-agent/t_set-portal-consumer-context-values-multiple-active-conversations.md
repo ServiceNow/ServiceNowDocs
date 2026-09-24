@@ -2,7 +2,7 @@
 title: Set NLU portal consumer context values for multiple active conversations
 description: Use context values to determine which portals receive certain messages and notifications for users in that portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/t\_set-portal-consumer-context-values-multiple-active-conversations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/t\_set-portal-consumer-context-values-multiple-active-conversations.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Use context values to determine which portals receive certain messages and notif
 
 ## Before you begin
 
-Activate Virtual Agent. For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
+Activate Virtual Agent. For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
 Configure your Agent Chat system for your portal or portals. See [Configure Agent Chat in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-va-in-sp.md) for more information.
 
@@ -51,7 +51,7 @@ With consumer context added to a portal configuration, that portal acts as conte
 
 ## What to do next
 
-Set a default context for your conversations. See [Set a default NLU context value for multiple active conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/t_set-default-context-value-multiple-active-conversations.md) for more information.
+Set a default context for your conversations. See [Set a default NLU context value for multiple active conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/t_set-default-context-value-multiple-active-conversations.md) for more information.
 
-**Parent Topic:**[Using multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/c_multiple-active-conversations-va.md)
+**Parent Topic:**[Using multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/c_multiple-active-conversations-va.md)
 

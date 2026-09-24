@@ -2,7 +2,7 @@
 title: Configure a declarative action with the Now Assist icon
 description: Configure a declarative action button with the Now Assist icon \(\) and hover animation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-da-buttons-now-assist-icon.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/create-da-buttons-now-assist-icon.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +17,7 @@ Configure a declarative action button with the Now Assist icon \(\[Omitted image
 
 ## Before you begin
 
-Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/creating-declarative-actions.md).
+Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/creating-declarative-actions.md).
 
 Role required: admin
 

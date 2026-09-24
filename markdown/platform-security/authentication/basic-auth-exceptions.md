@@ -2,7 +2,7 @@
 title: Basic authentication exceptions
 description: The Basic Auth Exceptions table lists accounts that have been identified as using basic authentication on the instance, along with their assigned decision and usage details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/basic-auth-exceptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/basic-auth-exceptions.html
 release: australia
 product: Authentication
 classification: authentication

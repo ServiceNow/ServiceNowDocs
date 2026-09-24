@@ -2,7 +2,7 @@
 title: Incident Management release notes
 description: The ServiceNow Incident Management application helps you to restore normal service operations while minimizing the impact to business operations and maintaining quality. Incident Management was enhanced and updated in the Australia release.The ServiceNow Incident Management application helps you to restore normal service operations while minimizing the impact to business operations and maintaining quality. Incident Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/incident-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/incident-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ See [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNo
     Incident Management is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-service-management-rn-landing.md)
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-service-management-rn-landing.md)
 
 ## Australia
 

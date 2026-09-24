@@ -2,7 +2,7 @@
 title: Customize the display of task information on the agent map
 description: Configure the agent map to display assigned and unassigned tasks for an agent on the specified date. Display agent location and routing numbers for tasks dispatched on that day.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_UseTheFilter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_UseTheFilter.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,7 +2,7 @@
 title: Geolocation Google key
 description: Geolocation functions in the ServiceNow AI Platform require a Google Maps API for Business license, or a Google Maps Javascript API Key, to enable use of Google Maps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_GeolocationGoogleKey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_GeolocationGoogleKey.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,10 +18,10 @@ The auto-routing or auto-dispatch functions in Field Service Management require 
 
 In **System Properties** &gt; **Google Maps**, enable the Geolocation feature using the appropriate entries from a Google Maps API for Business license, or a Google Maps Javascript API Key. To learn more, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md)
 
-**Parent Topic:**[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Geolocation.md)
+**Parent Topic:**[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_Geolocation.md)
 
 **Related topics**  
 
 
-[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Geolocation.md)
+[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_Geolocation.md)
 

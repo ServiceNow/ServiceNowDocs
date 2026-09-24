@@ -2,7 +2,7 @@
 title: Configure simplified left navigation
 description: Simplified navigation helps use an intuitive navigation for better information architecture and topic discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-simplified-nav-as-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-simplified-nav-as-menu.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +18,7 @@ Simplified navigation helps use an intuitive navigation for better information a
 
 ## Before you begin
 
-Before you start, ensure that you understand the useful information available in [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
+Before you start, ensure that you understand the useful information available in [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
 
 Role required: Admin and SP Admin
 
@@ -34,7 +34,7 @@ Using advanced portal navigation, you can enable single-click sync across all AP
 
 3.  Select **Active** to replace the current Employee Center with the new navigation menu.
 
-4.  Fill in the form as explained in [Configure advanced portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-adv-portal-nav-as-menu.md) and select **Navigation style** as **Side**.
+4.  Fill in the form as explained in [Configure advanced portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-adv-portal-nav-as-menu.md) and select **Navigation style** as **Side**.
 
     **Note:** On selecting side, you can see an option to specify **Default icon** and related list also shows **Menu icon** as shown in the following image.
 

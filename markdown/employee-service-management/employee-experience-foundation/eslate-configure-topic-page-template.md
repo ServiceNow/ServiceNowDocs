@@ -2,7 +2,7 @@
 title: Assign a custom topic page template
 description: Assign a custom layout template to a topic page and optionally apply the template to child topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-topic-page-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-topic-page-template.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

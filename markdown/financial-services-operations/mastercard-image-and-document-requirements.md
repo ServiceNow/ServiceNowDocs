@@ -2,7 +2,7 @@
 title: Mastercard document requirements
 description: Learn about Mastercard requirements for dispute supporting documents and images.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/mastercard-image-and-document-requirements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/mastercard-image-and-document-requirements.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

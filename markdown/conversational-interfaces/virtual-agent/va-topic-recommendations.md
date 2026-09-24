@@ -2,7 +2,7 @@
 title: Using Virtual Agent Topic Recommendations
 description: Use the Topic Recommendations app to identify pre-built Virtual Agent topics that can be quickly implemented in your organization. Topic Recommendations uses Intent Discovery to analyze data from your organization and to find relevant pre-built topics that your organization can benefit from, and new topics that would be useful to create.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-topic-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-topic-recommendations.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -26,7 +26,7 @@ The Topic Recommendations app lets you evaluate the common use cases that Virtua
 
 The Topic Recommendations app requires NLU Workbench and ITSM Virtual Agent Conversations from the ServiceNow Store. The Australia release of Topic Recommendations supports only ITSM Virtual Agent recommendations. Although Topic Recommendations uses NLU Workbench for machine learning purposes, it does not require that NLU be enabled in Virtual Agent.
 
-For information about the apps that are automatically installed with Topic Recommendations, see [Update Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/install-tr.md).
+For information about the apps that are automatically installed with Topic Recommendations, see [Update Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/install-tr.md).
 
 ## Required plugins
 
@@ -35,7 +35,7 @@ For information about the apps that are automatically installed with Topic Recom
     -   **Required ServiceNow plugins**
         -   **Glide Virtual Agent \(com.glide.cs.chatbot\)**
 
-            Activates all the plugins needed to run Virtual Agent Pro. For details, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
+            Activates all the plugins needed to run Virtual Agent Pro. For details, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
             **Note:** Starting with the San Diego release, the Topic Recommendations app is automatically installed when you initially activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\). Subsequent updates for this app must be installed from the ServiceNow Store.
 
@@ -92,11 +92,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## What to do
 
--   [Get started with Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/getting-started-topic-recommendations.md)
--   [Define default recommendation settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-tr-settings.md)
--   [Run a Topic Recommendation analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/run-tr-analysis.md)
--   [Add recommended topics and intents to Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-tr-results-va.md)
--   [Link a topic recommendation to an existing Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/link-tr-existing-va-topic.md)
--   [Unlink a topic recommendation from an existing Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/unlink-tr-va-topic.md)
--   [Troubleshoot issues with Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/tr-troubleshooting.md)
+-   [Get started with Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/getting-started-topic-recommendations.md)
+-   [Define default recommendation settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/define-tr-settings.md)
+-   [Run a Topic Recommendation analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/run-tr-analysis.md)
+-   [Add recommended topics and intents to Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-tr-results-va.md)
+-   [Link a topic recommendation to an existing Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/link-tr-existing-va-topic.md)
+-   [Unlink a topic recommendation from an existing Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/unlink-tr-va-topic.md)
+-   [Troubleshoot issues with Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/tr-troubleshooting.md)
 

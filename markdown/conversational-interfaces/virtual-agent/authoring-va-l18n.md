@@ -2,7 +2,7 @@
 title: Authoring Virtual Agent conversations for localization
 description: Use localization methods in your Virtual Agent scripts to ensure that the content can be translated. Localization methods are designed to show the original text when no translation is found. These methods can be applied to your code before you have created translations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/authoring-va-l18n.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/authoring-va-l18n.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -44,5 +44,5 @@ The second example uses the `gs.getMessageLang` method. The text is the same as 
 
 **Note:** Content is translated only for published topics. Content does not appear translated when previewing unpublished topics.
 
-**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md)
+**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

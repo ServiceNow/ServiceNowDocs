@@ -2,7 +2,7 @@
 title: Upload the manifest package file to publish your bot
 description: Upload the manifest file that you generated to the Microsoft Teams and test your app experience to make it be available in the Microsoft global app store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/upload-package-file-msteams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/upload-package-file-msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -34,7 +34,7 @@ The self-configured bot that you created will not be available in the Microsoft 
 
     Your manifest file is uploaded and appears on the list of store apps.
 
-    **Note:** If you receive any errors, correct the listed errors in your manifest, then download the zip file and upload it through this page again. If you activated Microsoft Copilot in your manifest, the Custom Engine Agent \(CEA\) is also uploaded with it. For more information on activating Copilot, see [Activate ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-na-va-msteams.md).
+    **Note:** If you receive any errors, correct the listed errors in your manifest, then download the zip file and upload it through this page again. If you activated Microsoft Copilot in your manifest, the Custom Engine Agent \(CEA\) is also uploaded with it. For more information on activating Copilot, see [Activate ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/activate-na-va-msteams.md).
 
 5.  After you successfully published the bot, select the **All apps** tab and use the search bar to find your app.\[Omitted image "msteams-find-app.png"\] Alt text: Microsoft Teams Apps portal, with All apps tab, app search bar, and bot app highlighted.
 
@@ -42,7 +42,7 @@ The self-configured bot that you created will not be available in the Microsoft 
 
 6.  Perform the following steps on the Microsoft Teams Admin center.
 
-    **Note:** If you have enabled pre-linking by turning on **Automatically Link ServiceNow user profiles** on the Messaging App Integration UI page, users are pre-linked without typing hi. For more information about pre-linking your accounts, see [Installing Microsoft Teams for all Virtual Agent users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prelink-va-users-integ-msteams.md). If you have turned off the check box, use the following manual account linking process described.
+    **Note:** If you have enabled pre-linking by turning on **Automatically Link ServiceNow user profiles** on the Messaging App Integration UI page, users are pre-linked without typing hi. For more information about pre-linking your accounts, see [Installing Microsoft Teams for all Virtual Agent users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/prelink-va-users-integ-msteams.md). If you have turned off the check box, use the following manual account linking process described.
 
     1.  Type `hi` to start interacting with the bot.
 
@@ -62,12 +62,12 @@ The self-configured bot that you created will not be available in the Microsoft 
 
     2.  Configure the bot on your ServiceNow instance.
 
-        For more information, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
+        For more information, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
 
 ## What to do next
 
 You have successfully integrated Virtual Agent with Microsoft Teams using the self-configured method. If you are interested in getting additional ITSM and HR capabilities in Microsoft Teams, see these [instructions for using a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/download-manifest-file-mt.md) with ServiceNow for Microsoft Teams.
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md)
+**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md)
 

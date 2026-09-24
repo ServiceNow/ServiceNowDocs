@@ -2,7 +2,7 @@
 title: Configure install base item
 description: Create and configure install base item records to track sold products and assets associated with customer accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-install-base-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-install-base-item.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Install base items represent the products and assets sold to customers. Each ins
 
 5.  On the Install base item form, fill in the fields.
 
-    For a description of the field values, see [Install based item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/install-based-item-form.md).
+    For a description of the field values, see [Install based item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/install-based-item-form.md).
 
 6.  Select **Save**.
 

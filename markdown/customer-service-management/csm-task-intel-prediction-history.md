@@ -2,7 +2,7 @@
 title: View Task Intelligence prediction history
 description: View details about historical predictions in the Predictor Result \[ml\_predictor\_results\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-prediction-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-task-intel-prediction-history.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

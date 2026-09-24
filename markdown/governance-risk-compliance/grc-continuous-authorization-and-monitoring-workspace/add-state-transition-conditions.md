@@ -2,7 +2,7 @@
 title: Create GRC model state transition conditions
 description: Add Governance, Risk, and Compliance model state transition conditions to a state transition to validate data before enabling authorization packages to move between workflow steps. Transition conditions verify that the required information is complete and accurate before packages proceed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-state-transition-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/add-state-transition-conditions.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -88,7 +88,7 @@ Specifies the type of validation to perform. The options are:-   Required Fields
 
 ## What to do next
 
-[Add existing attributes to a GRC workflow state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-state-model-attributes.md) or [Create a new state model attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-new-state-model-attributes.md)
+[Add existing attributes to a GRC workflow state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-state-model-attributes.md) or [Create a new state model attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/configure-new-state-model-attributes.md)
 
-**Parent Topic:**[Configure transition between state models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-state-transitions.md)
+**Parent Topic:**[Configure transition between state models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-state-transitions.md)
 

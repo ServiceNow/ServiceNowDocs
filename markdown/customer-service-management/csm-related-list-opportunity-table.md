@@ -2,7 +2,7 @@
 title: Connect Customer Account and Salesforce Opportunities using a related list
 description: Use a related list to link the Customer Account table with Salesforce Account Id, and the Salesforce Opportunity remote table with the same Account Id.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-related-list-opportunity-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-related-list-opportunity-table.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Add the following code in the **Query with** field:
 
 ```
 
-This code checks for the presence of the Salesforce Account Id in the Account table and, if it's missing in the record, sets it to `undefined`. The code also includes a query for the Opportunity table column that holds the Salesforce Account Id for the value of this Id from the Account table. This query is invoked when the user opens the list of opportunities associated with the customer account. To see how it is used in the remote table script, see [Selecting a spoke action and preparing the inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-opportunity-table-script.md).
+This code checks for the presence of the Salesforce Account Id in the Account table and, if it's missing in the record, sets it to `undefined`. The code also includes a query for the Opportunity table column that holds the Salesforce Account Id for the value of this Id from the Account table. This query is invoked when the user opens the list of opportunities associated with the customer account. To see how it is used in the remote table script, see [Selecting a spoke action and preparing the inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-opportunity-table-script.md).
 
-**Parent Topic:**[Using remote tables and the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-remote-tables.md)
+**Parent Topic:**[Using remote tables and the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-integration-remote-tables.md)
 

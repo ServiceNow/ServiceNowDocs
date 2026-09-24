@@ -2,7 +2,7 @@
 title: Applying time series aggregations
 description: You can aggregate changes in indicators into discrete time intervals. These aggregations can make trends more easily visible, or help track progress against a target.Performance Analytics offers four different types of time series. Understand their use cases to know which type to use.The frequency with which scores are collected for the indicator determines which time series are applicable. Some time series include data from partial collection periods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/applying-time-series-aggregations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/applying-time-series-aggregations.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -18,8 +18,8 @@ You can aggregate changes in indicators into discrete time intervals. These aggr
 
 A time series aggregation consists of a math function, such as AVG or SUM, combined with a time formula, such as By quarter. You can select an aggregation in the following circumstances:
 
--   When exploring an indicator in [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-time-series-aggregation.md)
--   When creating a Platform Analytics data visualization for an indicator data source, such as a [time series visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-time-series-ind-data.md)
+-   When exploring an indicator in [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-time-series-aggregation.md)
+-   When creating a Platform Analytics data visualization for an indicator data source, such as a [time series visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-time-series-ind-data.md)
 -   When creating a Core UI Performance Analytics widget.
 
 To understand time series aggregations, first consider a watch, phone, or fitness tracker that keeps tabs on how many steps they walked each day. These devices all collect and save your measurements on a minute by minute basis. However, the apps and reports are often designed to show how your activity is progressing compared to last week, last month, or last year. It’s one thing to see if you were more active at noon vs. 10 am. What you really want to know, however, is whether you’re continuing to improve over time. Aggregating your steps into weekly, monthly, and yearly scores gives you an easier way to identify trends in your activity.
@@ -60,26 +60,26 @@ Time series aggregations are validated on the Analytics Hub and in KPI Details b
 
 ## Excluding time series aggregations for an indicator
 
-Some time series aggregations, while technically allowed, are not helpful to apply to an indicator. For example, a SUM of percentage values is unlikely to provide useful insight. You can exclude these time series aggregations from the indicator. For more information, see [Exclude time series from an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ExcludingTimeSeriesFromIndicators.md).
+Some time series aggregations, while technically allowed, are not helpful to apply to an indicator. For example, a SUM of percentage values is unlikely to provide useful insight. You can exclude these time series aggregations from the indicator. For more information, see [Exclude time series from an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ExcludingTimeSeriesFromIndicators.md).
 
 ## Displaying time series aggregations with a date range selector
 
 If you combine a time series aggregation such as By month SUM with a date range selector, you might show one more time period than you expect. The reason is that when a period such as 3m is selected in the date range selector, the instance interprets that as 0-3 months and shows four months of scores.
 
-**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
+**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 
 **Related topics**  
 
 
-[Applying time series to result or to contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/apply-time-series-result-components.md)
+[Applying time series to result or to contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/apply-time-series-result-components.md)
 
-[Select time aggregation in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-time-series-aggregation.md)
+[Select time aggregation in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-time-series-aggregation.md)
 
-[Time-series aggregations in the Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/scorecard-overview-tab.md)
+[Time-series aggregations in the Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/scorecard-overview-tab.md)
 
-[Indicator data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-time-series-ind-data.md)
+[Indicator data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-time-series-ind-data.md)
 
-[Create a latest score visualization for a score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-latest-score-widget.md)
+[Create a latest score visualization for a score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-latest-score-widget.md)
 
 ## Use cases for time series aggregations
 

@@ -2,7 +2,7 @@
 title: Viewing and editing config data
 description: You can update the config data of an application by creating or opening a changeset on the Config data tab, where you update the structure and CDIs of the config data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-editing-config-data-changesets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-editing-config-data-changesets.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -64,7 +64,7 @@ After you open a changeset by selecting **Edit config data**, you can edit the c
     -   **Delete Changeset**: Delete the record of the changeset.
     -   **Commit Changeset**:  The system generates a snapshot of each deployable that is affected by the changes.
 
-        **Note:** Because changes in two changesets that are open at the same time can conflict, the system blocks such commits. See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md).
+        **Note:** Because changes in two changesets that are open at the same time can conflict, the system blocks such commits. See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-changeset-conflicts.md).
 
 -   **F: Header for the changeset**
 
@@ -117,7 +117,7 @@ State
 
 -   Committed: This draft of the changeset has been committed.
 -   Open: The changeset is being updated and is not committed.
--   Blocked: Other commits conflict with this commit. The changeset cannot be committed. See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md).
+-   Blocked: Other commits conflict with this commit. The changeset cannot be committed. See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-changeset-conflicts.md).
 -   Commit in progress: A draft of the changeset that is currently being committed.
 
 </td></tr><tr><td>

@@ -2,7 +2,7 @@
 title: Confirm category prediction system properties
 description: Confirm the system properties that control product and spend category prediction, including the confidence score threshold and whether fallback logic is enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/confirm-category-prediction-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-category-prediction-properties.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -55,5 +55,5 @@ Role required: admin.
 
 The confidence score threshold and fallback logic settings are confirmed, and the agent applies them when it predicts product and spend categories.
 
-**Parent Topic:**[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)
+**Parent Topic:**[Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md)
 

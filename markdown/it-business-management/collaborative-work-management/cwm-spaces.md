@@ -2,7 +2,7 @@
 title: Collaborating with Spaces in CWM
 description: Create collaborative Spaces for teams to work together on projects, goals, or assignments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-spaces.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/cwm-spaces.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -81,7 +81,7 @@ Create more task Boards, docs, and organize them into folders to manage the work
 
     \[Omitted image "cwm-board-users-lock-icon.png"\] Alt text: Lock icon to indicate no access for a user.
 
-    You can either use the workspace prompt to grant assignees Viewer access or choose to manage their access level later from the Share permissions modal. For more information on managing sharing permissions, see [Share a Space in CWM and manage sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/share-space-in-cwm.md).
+    You can either use the workspace prompt to grant assignees Viewer access or choose to manage their access level later from the Share permissions modal. For more information on managing sharing permissions, see [Share a Space in CWM and manage sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/share-space-in-cwm.md).
 
     \[Omitted image "cwm-board-grant-access-prompt.png"\] Alt text: Grant access to task assignees.
 
@@ -96,12 +96,12 @@ Create more task Boards, docs, and organize them into folders to manage the work
 
 Using the following sections, get started with shared Spaces in the workspace.
 
--   **[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-spaces-in-cwm.md)**  
+-   **[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-spaces-in-cwm.md)**  
 Create Spaces in Collaborative Work Management to enable cross-functional teams to come together and manage work tasks and documentation.
--   **[Share a Space in CWM and manage sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/share-space-in-cwm.md)**  
+-   **[Share a Space in CWM and manage sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/share-space-in-cwm.md)**  
 Invite cross-team members to Collaborative Work Management Spaces to collaborate on tasks or projects. You can also manage permissions for users with existing access to your Space.
--   **[Create a folder in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-folder-in-cwm.md)**  
+-   **[Create a folder in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-a-folder-in-cwm.md)**  
 Organize Boards and Docs of a Space into folders in Collaborative Work Management Workspace.
 
-**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
+**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 

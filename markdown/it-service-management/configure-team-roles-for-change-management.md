@@ -2,7 +2,7 @@
 title: Configure team roles for Simplified Change Management
 description: Assign the right people to the right roles in Change Management so your team can approve, implement, and manage changes with the correct access. Team roles control who can approve, build, or review a change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-team-roles-for-change-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configure-team-roles-for-change-management.html
 release: australia
 topic_type: task
 last_updated: "2026-05-04"
@@ -61,5 +61,5 @@ When you add a user to the **Change Manager** or **Implementation groups** field
 
 Team roles are now configured and available for use for managing change requests.
 
-**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
+**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configuring-change-management-experience-in-it-service-management.md)
 

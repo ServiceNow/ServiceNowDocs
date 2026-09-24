@@ -2,7 +2,7 @@
 title: Tuning the semantic layer
 description: The semantic layer maps natural language questions to ServiceNow AI Platform tables and fields. Tune the semantic layer to improve AI Data Explorer accuracy for your organization's terminology and data structure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/semantic-layer-tuning-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/semantic-layer-tuning-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-25"
@@ -15,7 +15,7 @@ breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics
 
 The semantic layer maps natural language questions to ServiceNow AI Platform® tables and fields. Tune the semantic layer to improve AI Data Explorer accuracy for your organization's terminology and data structure.
 
-The [semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) identifies the best matching [entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) \(tables\), [dimensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) \(fields\), and [segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) \(filters\) when users ask questions in AI AI Data Explorer. Tuning improves these matches so users consistently get the right table, field, and filter.
+The [semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md) identifies the best matching [entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md) \(tables\), [dimensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md) \(fields\), and [segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md) \(filters\) when users ask questions in AI AI Data Explorer. Tuning improves these matches so users consistently get the right table, field, and filter.
 
 ## How the semantic layer works
 
@@ -36,7 +36,7 @@ When a user asks a question, the system identifies the best matching components 
 
 ## When to tune the semantic layer
 
-Before you tune, verify that the issue is repeatable. The [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) occasionally makes incorrect decisions. Try the same question or a similar one multiple times first. Only tune if the problem is consistent.
+Before you tune, verify that the issue is repeatable. The [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md) occasionally makes incorrect decisions. Try the same question or a similar one multiple times first. Only tune if the problem is consistent.
 
 Tune the semantic layer when:
 
@@ -48,7 +48,7 @@ Tune the semantic layer when:
 
 ## Validation and iteration process
 
-1.  Capture the [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) and expected result.
+1.  Capture the [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md) and expected result.
 2.  Classify the failure as entity, dimension, segment, or ACL.
 3.  If results are wrong for only some users, verify read ACL access to the intended table and fields before retuning.
 4.  Apply one targeted tuning change.
@@ -56,14 +56,14 @@ Tune the semantic layer when:
 6.  Check **Query Generation** &gt; **Logs** and confirm the improved match path.
 7.  Repeat only if still incorrect.
 
--   **[Query Generation Health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-health-page.md)**  
+-   **[Query Generation Health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/querygen-health-page.md)**  
 The health page shows the state of the Now LLM and AI Search, along with the states of Query Generation system properties, enabled products, and dependency plugins.
--   **[Customizing semantic metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-semantic-metadata.md)**  
+-   **[Customizing semantic metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/customize-semantic-metadata.md)**  
 Semantic metadata — descriptions, labels, and usage instructions — control how Query Generation interprets natural language questions. Customize these metadata to improve accuracy for your organization's terminology and data.
--   **[Database views for cross-table data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/database-views-cross-table-data.md)**  
+-   **[Database views for cross-table data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/database-views-cross-table-data.md)**  
 Database views combine fields from multiple tables into a single queryable entity. Add views to the semantic layer to answer cross-table questions in one query instead of requiring separate questions.
--   **[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)**  
+-   **[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/querygen-segments.md)**  
 Segments are predefined filter conditions that map business terminology to specific query filters, helping the semantic layer translate natural language questions into accurate database queries.
 
-**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-query-generation.md)
+**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configuring-query-generation.md)
 

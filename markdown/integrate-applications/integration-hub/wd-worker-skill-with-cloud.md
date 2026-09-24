@@ -2,7 +2,7 @@
 title: Extract workers skill \(with the skill cloud\)
 description: Extract worker's skill details based on employee ID and time duration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/wd-worker-skill-with-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/wd-worker-skill-with-cloud.html
 release: australia
 product: Integration Hub
 classification: integration-hub

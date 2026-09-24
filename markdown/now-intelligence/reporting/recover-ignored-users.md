@@ -2,7 +2,7 @@
 title: Reassess ignored users
 description: When you address the ACL Assessment for Reports, you can ignore any individual user. View these users to consider their statuses again.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/recover-ignored-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/recover-ignored-users.html
 release: australia
 product: Reporting
 classification: reporting
@@ -35,5 +35,5 @@ Roles required: admin and security\_admin.
 
 The ACL Assessment for Reports application includes the users you deleted from this report the next time you run the assessment.
 
-**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
+**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-acl-dashboard.md)
 

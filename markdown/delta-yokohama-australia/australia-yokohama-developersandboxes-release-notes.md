@@ -2,11 +2,11 @@
 title: Combined Developer Sandboxes release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Developer Sandboxes from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-developersandboxes-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-developersandboxes-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -170,6 +170,37 @@ Australia
 Automatic backups for upgrades are now working correctly. This issue is related to PRB2017438.
 
 
+ -   **[Schema change for shared tables isolates the table](https://www.servicenow.com/docs/access?context=dsb-installed-with&family=australia&ft:locale=en-US)**
+
+To ensure configuration consistency, if you make a schema change, such as adding a column, to a shared table, the table now becomes an isolated table on the sandbox that initiated the schema change.
+
+
+ -   **[Upgrade enhancements](https://www.servicenow.com/docs/access?context=dev-sbx-clone-upgrade-info&family=australia&ft:locale=en-US)**
+
+After an upgrade, Developer Sandboxes now recreates the sandboxes on an instance and automatically backs up update sets to the base instance.
+
+-   **[Queuing for successive sandbox creation](https://www.servicenow.com/docs/access?context=allocating-sandboxes&family=australia&ft:locale=en-US)**
+
+To improve performance, Developer Sandboxes has implemented queuing when multiple sandboxes are created in succession.
+
+-   **[SSO support for vanity URLs](https://www.servicenow.com/docs/access?context=dev-sbx-general-guidelines&family=australia&ft:locale=en-US)**
+
+Instances with vanity URLs can now support Single Sign-On \(SSO\).
+
+-   **[New vibe coding documentation](https://www.servicenow.com/docs/access?context=vibe-coding-landing&family=australia&ft:locale=en-US)**
+
+Documentation is now available that introduces vibe coding, which is a natural language approach to application development in ServiceNow, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
+
+
+ -   **[Clarified sandbox initialization status](https://www.servicenow.com/docs/access?context=allocating-sandboxes&family=australia&ft:locale=en-US)**
+
+An error status message now appears on the instance home page when there’s an initialization error when allocating a sandbox.
+
+-   **[Developer Sandboxes home page hidden when product is inactive](https://www.servicenow.com/docs/access?context=dev-sbx-entitlements&family=australia&ft:locale=en-US)**
+
+The Developer Sandboxes home page is unavailable when Developer Sandboxes is inactive on an instance.
+
+
 </td></tr></tbody>
 </table>## Removed
 
@@ -281,6 +312,8 @@ Zurich
 
 Contact your ServiceNow account manager to install Developer Sandboxes.
 
+
+**Important:** [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandboxes-landing&family=zurich&ft:locale=en-US) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -488,5 +521,5 @@ Australia
  See [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandboxes-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

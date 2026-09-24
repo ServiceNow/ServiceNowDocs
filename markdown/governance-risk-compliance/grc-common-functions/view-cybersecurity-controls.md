@@ -2,7 +2,7 @@
 title: View the Cybersecurity Controls module
 description: View the Cybersecurity Controls module for a list of the Authority documents, Controls, Control Objectives, and CIS Indicator Templates mapped to specific CIS controls classified by domain, implementation group, and ISO controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/view-cybersecurity-controls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/view-cybersecurity-controls.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -82,5 +82,5 @@ Beginning with the Australia release, Technology Controls Monitoring Accelerator
     The CIS Indicator Templates are displayed in the instance.
 
 
-**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
+**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
 

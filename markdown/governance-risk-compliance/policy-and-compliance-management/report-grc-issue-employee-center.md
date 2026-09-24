@@ -2,7 +2,7 @@
 title: Report a GRC issue from Employee Center
 description: Use the employee portal to review and work on the action plan related to the observation which is confirmed as an issue that as an auditee or issue owner you need to remediate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/report-grc-issue-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/report-grc-issue-employee-center.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

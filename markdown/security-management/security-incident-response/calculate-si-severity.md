@@ -2,12 +2,12 @@
 title: Calculate the severity of a security incident
 description: You can calculate the severity of a security incident using predefined calculators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/calculate-si-severity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/calculate-si-severity.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,6 +26,6 @@ Role required: sn\_si.basic
 
 2.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text:, and select **Calculate Severity**.
 
-    The severity is calculated based on the predefined rules for base calculators. For more information, see [Understanding security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md).
+    The severity is calculated based on the predefined rules for base calculators. For more information, see [Understanding security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-assistant-reference.md).
 
 

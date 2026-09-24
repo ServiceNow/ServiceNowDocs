@@ -2,7 +2,7 @@
 title: Create reference record entries in record screen tables
 description: Create new entries in the record screen tables of the Mobile App Builder. View where the Now Mobile configuration tree displays the new entry in the hierarchy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mab-record-screen-table-add-edit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mab-record-screen-table-add-edit.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

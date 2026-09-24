@@ -2,7 +2,7 @@
 title: Components installed with Legal Conflict of Interest
 description: Several types of components are installed with installation of the Legal Conflict of Interest, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/installed-with-legal-conflict-of-interest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-conflict-of-interest/installed-with-legal-conflict-of-interest.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -191,5 +191,5 @@ Risk responsesn\_lco\_risk\_response
 Store the risk response records for the evaluated risk factors.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Conflict of Interest reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
+</table>**Parent Topic:**[Legal Conflict of Interest reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
 

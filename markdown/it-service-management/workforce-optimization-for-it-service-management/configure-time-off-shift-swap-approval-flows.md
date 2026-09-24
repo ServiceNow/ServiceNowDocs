@@ -2,7 +2,7 @@
 title: Configure the due date logic for shift approval flows
 description: As an administrator, you can configure the due date logic for the time-off request and shift-swap request approval flows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-time-off-shift-swap-approval-flows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/configure-time-off-shift-swap-approval-flows.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -131,7 +131,7 @@ Enter the due date for the requestee agent to approve.\[Omitted image "shift-swa
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
 
 **Related topics**  
 

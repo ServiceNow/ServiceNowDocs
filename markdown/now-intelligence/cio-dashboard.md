@@ -2,7 +2,7 @@
 title: Chief Information Officer \(CIO\) Dashboard
 description: The CIO Dashboard provides a decision-making framework with key decisions, critical questions, and the insights needed to stay on course and scale your business.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cio-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/cio-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configure a workplace card
 description: Create a workplace card to be used in your workplace applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/configure-workplace-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/configure-workplace-card.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -49,10 +49,10 @@ Card configuration enables admins to tailor the display and functionality of spa
 5.  Select **Submit**.
 
 
--   **[Configure a space details card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-a-space-details-card.md)**  
+-   **[Configure a space details card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/configure-a-space-details-card.md)**  
 Configure a space card in the Location Directory, Kiosk Indoor Mapping, or Reservation by updating the card's template with the specific details that you want to customize. You can configure a new field, button, or style for each space card.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

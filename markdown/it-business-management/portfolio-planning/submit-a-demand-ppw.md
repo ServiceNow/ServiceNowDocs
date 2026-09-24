@@ -2,7 +2,7 @@
 title: Submit a demand
 description: Submit a demand record after the required details are complete to progress the demand from the Draft state to the next states of its life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/submit-a-demand-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/submit-a-demand-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

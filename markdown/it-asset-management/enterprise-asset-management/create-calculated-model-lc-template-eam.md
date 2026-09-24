@@ -2,7 +2,7 @@
 title: Create Calculated model lifecycle templates in the Enterprise Asset Workspace
 description: Create Calculated model lifecycle templates to manage the complete lifecycle of the models efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-calculated-model-lc-template-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/create-calculated-model-lc-template-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -60,9 +60,9 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 ## What to do next
 
-Associate the Calculated model lifecycle template with an enterprise model. For details, see [Associate an enterprise model with a Calculated model lifecycle template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/associate-eam-model-calc-template.md).
+Associate the Calculated model lifecycle template with an enterprise model. For details, see [Associate an enterprise model with a Calculated model lifecycle template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/associate-eam-model-calc-template.md).
 
-**Parent Topic:**[Manage the lifecycle of enterprise models with calculated lifecycle templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-eam-lifecycle-temp.md)
+**Parent Topic:**[Manage the lifecycle of enterprise models with calculated lifecycle templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-eam-lifecycle-temp.md)
 
 **Related topics**  
 

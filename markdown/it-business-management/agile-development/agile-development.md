@@ -2,7 +2,7 @@
 title: Agile Development
 description: The ServiceNow Agile Development application helps you deliver software projects more efficiently by managing and tracking software development life-cycles using an iterative, incremental, and flexible approach.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-development.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/agile-development.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -22,7 +22,7 @@ When you have multiple standalone tools for development, testing, and project tr
 
 -   **Agile Development under Project Management**
 
-    See [Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md) for project-based agile development.
+    See [Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md) for project-based agile development.
 
 -   **Agile Development 1.0**
 
@@ -32,7 +32,7 @@ When you have multiple standalone tools for development, testing, and project tr
 
     Agile Development 2.0 supports agile-based execution. It provides an agile software development environment for product-based or project-based efforts, using the scrum agile framework. With Agile Development 2.0, you have the flexibility to implement a pure agile approach over the entire life cycle of a product. It also supports a hybrid approach using agile methods within a traditional project structure.
 
-    For more information, see [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-landing-page.md).
+    For more information, see [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/agile-landing-page.md).
 
 
 **Note:** If you upgrade to Agile Development 2.0 from Agile Development 1.0, Agile Development 2.0 replaces Agile Development 1.0 in your ServiceNow instance. If you are implementing ServiceNow® Agile Development for the first time, activate the Agile Development 2.0 plugin \(com.snc.sdlc.agile.2.0\).
@@ -141,16 +141,16 @@ The Sprint Tracking tab on the Agile board is used.
 
 Digital Portfolio Management \(DPM\) provides a unified workspace for owners to view and collectively manage their services and applications through the full life cycle. By integrating DPM with Agile Development 2.0, DPM Managers can view Agile Development 2.0 data such as epics, stories, sprints, and releases in the context of the selected business application.
 
--   **[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-landing-page.md)**  
+-   **[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/agile-landing-page.md)**  
 ServiceNow Agile Development 2.0 provides an agile software development environment for product-based or project-based efforts, using the Scrum framework. Implement a pure agile approach over the entire life cycle of a product, or a hybrid approach using agile methods within a traditional project structure.
--   **[Mobile experience for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-2-mobile-app-overview.md)**  
+-   **[Mobile experience for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/agile-2-mobile-app-overview.md)**  
 Track and update the status of your stories and scrum tasks of the current sprint from your mobile device using the Agile Development v2 mobile app.
--   **[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/scrum-programs-concept.md)**  
+-   **[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/scrum-programs-concept.md)**  
 Plan and track the work of multiple teams that work together, either toward a common short-term outcome or on an ongoing basis.
--   **[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)**  
+-   **[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)**  
 Improve your Agile processes and practices using preconfigured dashboards with data visualizations from the Platform Analytics Content Pack for Agile 2.0.
--   **[Work Progress Status for Agile Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/work-progress-status-for-agile-teams.md)**  
+-   **[Work Progress Status for Agile Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/work-progress-status-for-agile-teams.md)**  
 The Work Progress Status for Agile Teams application provides you with indicators such as estimated completion date and progress status \(green, yellow, red\) for all your Agile Development 2.0 epics.
 
-**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/r_ITBusinessManagement.md)
 

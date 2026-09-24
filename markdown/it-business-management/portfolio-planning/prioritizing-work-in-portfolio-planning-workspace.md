@@ -2,7 +2,7 @@
 title: Prioritizing portfolio plan work in Portfolio Planning
 description: Use the Prioritization feature of the Portfolio Planning Workspace to add, update, and rank planning items so that you can prioritize the right work for the right time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -19,7 +19,7 @@ Use the Prioritization feature of the Portfolio Planning Workspace to add, updat
 
 ## Views for prioritizing planning items
 
-Prioritization tab in Portfolio Planning represents your backlog, displaying the items of your work pipeline. The Hierarchy tab also represents your backlog, each providing a different view of the same items. For an overview of these views, see [Work prioritization in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/work-prioritization-portfolio-planning.md) for an overview of these views.
+Prioritization tab in Portfolio Planning represents your backlog, displaying the items of your work pipeline. The Hierarchy tab also represents your backlog, each providing a different view of the same items. For an overview of these views, see [Work prioritization in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/work-prioritization-portfolio-planning.md) for an overview of these views.
 
 **Note:** The Prioritization feature is available only for portfolio plans.
 
@@ -29,13 +29,13 @@ In each of these views on the Prioritization page, you can perform the following
 
 -   **Add new planning items**
 
-    Add new items to your backlog directly from the Prioritization page. The type of planning items that you can create here depends on your portfolio plan configuration. See [Add planning items to Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-planning-items-prioritization-in-portfolio-planning-workspace.md).
+    Add new items to your backlog directly from the Prioritization page. The type of planning items that you can create here depends on your portfolio plan configuration. See [Add planning items to Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/add-planning-items-prioritization-in-portfolio-planning-workspace.md).
 
 -   **Update planning item details**
 
     You can edit details of the planning items, add attachments, and collaborate on them with the stakeholders directly from the Prioritization page views to enable smoother real-time backlog grooming.
 
-    See [Update planning item details from Prioritization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/modify-planing-item-details-from-prioritization-portfolio-planning-workspace.md).
+    See [Update planning item details from Prioritization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/modify-planing-item-details-from-prioritization-portfolio-planning-workspace.md).
 
 -   **Open the planning item in the Execution app**
 
@@ -45,7 +45,7 @@ In each of these views on the Prioritization page, you can perform the following
 
 -   **Personalize the Prioritization tab view**
 
-    Change the way that the Prioritization tab is displayed so that you can view the information in the format that you need. See [Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/personalizing-prioritization-page-views-in-portfolio-planning-workspace.md).
+    Change the way that the Prioritization tab is displayed so that you can view the information in the format that you need. See [Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/personalizing-prioritization-page-views-in-portfolio-planning-workspace.md).
 
     All settings, such as row and column personalization, grouping, and sorting, are saved as the portfolio plan preferences. So, these settings are applied to all the users or user groups that the portfolio plan is shared with.
 

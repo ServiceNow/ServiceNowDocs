@@ -2,7 +2,7 @@
 title: Request additional information for an invoice inquiry case
 description: Request additional information from the requester to continue working on the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -44,5 +44,5 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
     The state of the case updates to Awaiting requester info.
 
 
-**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
+**Parent Topic:**[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)
 

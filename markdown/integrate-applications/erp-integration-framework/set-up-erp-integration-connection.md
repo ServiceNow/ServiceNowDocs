@@ -2,7 +2,7 @@
 title: Connect to SAP with RFC or BAPI
 description: Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to SAP directly or using a load balancer to enable access to the ERP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -52,6 +52,6 @@ The following SAP systems are supported:
 
 5.  Select **Save**.
 
-    For more information, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
+    For more information, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
 

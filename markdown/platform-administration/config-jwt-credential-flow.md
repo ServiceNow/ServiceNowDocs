@@ -2,7 +2,7 @@
 title: Configure a JWT provider
 description: Configure a JWT provider on the ServiceNow AI Platform to configure an OAuth application profile to authenticate using certificates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/config-jwt-credential-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/config-jwt-credential-flow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,7 +66,7 @@ Client ID copied from Microsoft Azure
 
 ## What to do next
 
-[Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/generate-sha-1-thumbprint.md)
+[Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/generate-sha-1-thumbprint.md)
 
-**Parent Topic:**[Configure client credential flow for SMTP OAuth2 using certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-credential-flow-certificate.md)
+**Parent Topic:**[Configure client credential flow for SMTP OAuth2 using certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/config-credential-flow-certificate.md)
 

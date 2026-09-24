@@ -2,7 +2,7 @@
 title: Tutorial: Automatically assign work to agents by skill
 description: Learn how you can configure Advanced Work Assignment to automatically route cases to agents who speak German. Use this tutorial as a guideline to help you understand how you can route work items to agents according to their designated skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/skills-routing-tutorial.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/skills-routing-tutorial.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

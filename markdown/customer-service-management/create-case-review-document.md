@@ -2,7 +2,7 @@
 title: Create a post case review
 description: Create a post case review document for a resolved case that captures the configured case information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-review-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-case-review-document.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

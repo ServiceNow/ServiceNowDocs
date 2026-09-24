@@ -2,7 +2,7 @@
 title: Change the full discovery frequency in Kubernetes Visibility Agent
 description: Customize how often you want the Kubernetes Visibility Agent Informer to run a full discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-config-full-discovery-frequency.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/cnov-config-full-discovery-frequency.html
 release: australia
 product: Discovery
 classification: discovery
@@ -25,7 +25,7 @@ Role required: none
 
 By default, the Informer runs a full discovery every 24 hours \(1440 minutes\). You can change this frequency by performing the following procedure. For example, change the value to 2880 to make Kubernetes Visibility Agent run a full discovery every 48 hours \(2880 minutes\).
 
-**Note:** When the auto-retirement feature is enabled, the system checks for inactive clusters during each full discovery cycle. Clusters with Informers in the Down state that have not been updated for the configured period are automatically retired. For more information, see [Enable automatic retirement for inactive Kubernetes cluster CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/remove-inactive-cis.md).
+**Note:** When the auto-retirement feature is enabled, the system checks for inactive clusters during each full discovery cycle. Clusters with Informers in the Down state that have not been updated for the configured period are automatically retired. For more information, see [Enable automatic retirement for inactive Kubernetes cluster CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/remove-inactive-cis.md).
 
 ## Procedure
 
@@ -37,5 +37,5 @@ By default, the Informer runs a full discovery every 24 hours \(1440 minutes\). 
 
     -   When using the k8s\_informer.yaml: Replace the default value with the required one in the line under FULL\_DISCOVERY\_MIN.
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-deploy-install.md)
 

@@ -2,7 +2,7 @@
 title: Set runtime access to application tables
 description: Set these access permissions to protect application tables at runtime.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/t\_SetRuntimeAccessToAppTables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/t\_SetRuntimeAccessToAppTables.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,5 +50,5 @@ displays applications downloaded on this instance.
 6.  Click **Update**.
 
 
-**Parent Topic:**[Runtime access to applications tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_RuntimeAccessToAppTables.md)
+**Parent Topic:**[Runtime access to applications tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_RuntimeAccessToAppTables.md)
 

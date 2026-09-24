@@ -2,7 +2,7 @@
 title: Generate SP metadata for SAML/SSO custom URL installations
 description: A SAML or SSO installation needs the SP metadata generated for the IdP before the custom URL instance generates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/generate-idp-metadata-sso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/generate-idp-metadata-sso.html
 release: australia
 product: Authentication
 classification: authentication
@@ -28,7 +28,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 1.  Choose your installed SSO plugin:
 
-<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d39665e84">
+<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d39659e84">
 
 **Multi-Provider SSO**
 
@@ -36,7 +36,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 Navigate to **Multi-Provider SSO** &gt; **Identity Providers**. Choose an IdP and click the **Generate Metadata** button. The integration automatically generates the instance's SP metadata from the system property settings.
 
-</td></tr><tr><td id="d39665e105">
+</td></tr><tr><td id="d39659e105">
 
 **SAML 2 SSO**
 

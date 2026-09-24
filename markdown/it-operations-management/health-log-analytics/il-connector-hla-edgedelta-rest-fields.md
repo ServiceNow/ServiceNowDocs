@@ -2,7 +2,7 @@
 title: Edge Delta REST integration configuration fields
 description: Description of the fields on the Edge Delta REST integration configuration form for Health Log Analytics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-edgedelta-rest-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/il-connector-hla-edgedelta-rest-fields.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -17,7 +17,7 @@ breadcrumb: [Integration configuration fields, Health Log Analytics reference, H
 
 Description of the fields on the Edge Delta REST integration configuration form for Health Log Analytics.
 
-For the Edge Delta REST integration setup procedure, see [Set up an Edge Delta REST integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-edgedelta-rest.md).
+For the Edge Delta REST integration setup procedure, see [Set up an Edge Delta REST integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-edgedelta-rest.md).
 
 <table id="table_vkg_k5h_chc"><thead><tr><th>
 

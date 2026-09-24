@@ -2,7 +2,7 @@
 title: Hide email watermarks globally
 description: Rather than omitting watermarks, it is possible to hide watermarks for global application using HTML markup.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_HidingWatermarksGlobally.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_HidingWatermarksGlobally.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Watermarks can only be hidden in the HTML message for the global application. Th
     This ensures that all watermarks are hidden on all email messages. This cannot be done on a per-email basis.
 
 
-**Parent Topic:**[Watermarks on notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_WorkingWithWatermarks.md)
+**Parent Topic:**[Watermarks on notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_WorkingWithWatermarks.md)
 

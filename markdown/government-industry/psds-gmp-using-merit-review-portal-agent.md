@@ -2,7 +2,7 @@
 title: Using the Reviewer Service Portal
 description: The Reviewer Service portal is accessible by merit reviewers to review their assigned merit review tasks. Reviewers can review the grant proposal information available in various tabs in the portal and score the proposal. The scores are based on the review framework and rubric selected by the grants program manager during program setup.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-using-merit-review-portal-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-gmp-using-merit-review-portal-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-09"

@@ -2,7 +2,7 @@
 title: Catalogs installed with Facilities Service Management
 description: Catalogs provide customers with self-service opportunities within Facilities Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_CatInstallWFacServMgmnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_CatInstallWFacServMgmnt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,5 +20,5 @@ Facilities Service Management adds the following catalogs.
 |-----|-----------|
 |Facilities Catalog|Contains facilities catalog items|
 
-**Parent Topic:**[Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
+**Parent Topic:**[Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
 

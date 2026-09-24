@@ -2,7 +2,7 @@
 title: Control access to history
 description: You can give a role access to view audit history by setting a system property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ControlAccessToHistory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ControlAccessToHistory.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

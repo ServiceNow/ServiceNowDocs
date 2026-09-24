@@ -2,7 +2,7 @@
 title: Create an unrecognized publisher integration mapping
 description: Create an unrecognized publisher-to-subscription integration mapping for your engineering applications. You can create these mappings when the content resolver doesn't automatically identify a specific publisher.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/map-unid-pub-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/map-unid-pub-integration.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -37,5 +37,5 @@ Role required: sam\_admin
 
 The publisher to subscription integration mapping that you have created appears in the list of unrecognized publisher integration maps.
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)
 

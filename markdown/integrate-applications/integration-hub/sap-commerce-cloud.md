@@ -2,7 +2,7 @@
 title: SAP Commerce Cloud Spoke
 description: The SAP Commerce Cloud spoke is built by Bristlecone, Inc. Retrieve shopping cart content, order details, and order history for a selected customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sap-commerce-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/sap-commerce-cloud.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -45,7 +45,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 ## Spoke version
 
-[SAP Commerce Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-commerce-cloud.md) v1.1.0 is the latest version. For version history of the spoke, see [SAP Commerce Cloud spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-commerce-cloud.html).
+[SAP Commerce Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/sap-commerce-cloud.md) v1.1.0 is the latest version. For version history of the spoke, see [SAP Commerce Cloud spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-commerce-cloud.html).
 
 ## Spoke actions
 
@@ -61,5 +61,5 @@ The SAP Commerce Cloud provides actions to automate  tasks when events occur in 
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Set up the SAP Commerce Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sap-commerce-cloud.md).
+For information about setting up the spoke, see [Set up the SAP Commerce Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-sap-commerce-cloud.md).
 

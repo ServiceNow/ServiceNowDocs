@@ -2,7 +2,7 @@
 title: Edit the workflow activity properties form
 description: Customize which workflow variables appear on an activity properties form and how the variables are arranged on the form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/t\_EditActivitiesPropForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/workflow-activities/t\_EditActivitiesPropForm.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

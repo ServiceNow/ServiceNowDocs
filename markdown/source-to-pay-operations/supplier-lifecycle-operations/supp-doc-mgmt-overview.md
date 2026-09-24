@@ -2,7 +2,7 @@
 title: Supplier Document Management
 description: Supplier Lifecycle Operations uses the ServiceNow Document Management functionality to enable supplier managers, supplier owners, supplier administrators, and supplier contacts to manage supplier documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -22,16 +22,16 @@ Supplier Lifecycle Operations extends the Document Management plugin \(com.snc.p
 
 You can create a supplier document configuration to configure various aspects of the document upload process. The document configuration determines when this configuration is run, who can view, update, and upload a document, and whether to send notifications when a document is uploaded or has expired. You can set run conditions to determine when the configuration should be run or you can run the configuration manually.
 
--   **[Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md)**  
+-   **[Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md)**  
 Create document configurations to define upload schedules, viewer access, and notification settings for documents.
--   **[Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md)**  
+-   **[Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md)**  
 Run a supplier document configuration to enable supplier managers, supplier owners, and supplier contacts to immediately upload the required documents.
--   **[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)**  
+-   **[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)**  
 After you create and run a supplier document configuration, you can upload the required prerequisite documents.
--   **[Configure document expiration monitoring attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-document-expiration-monitoring-attributes.md)**  
+-   **[Configure document expiration monitoring attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configure-document-expiration-monitoring-attributes.md)**  
 Configure document attributes such as grace period, lead time, and reminder frequency to manage document that are near or past their original expiry date.
 
-**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
+**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
 
 **Related topics**  
 
@@ -56,9 +56,9 @@ Configure document attributes such as grace period, lead time, and reminder freq
 
 [Configure smart assessments]()
 
-[Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md)
+[Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md)
 
-[Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md)
+[Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md)
 
-[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)
+[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)
 

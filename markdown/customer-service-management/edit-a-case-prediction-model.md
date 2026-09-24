@@ -2,7 +2,7 @@
 title: Edit a model
 description: Edit the case models that have already been trained and deployed. Change the model configurations, view the updated training results, and redeploy the model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/edit-a-case-prediction-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/edit-a-case-prediction-model.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -57,5 +57,5 @@ You have two options for editing your model: view the current training results o
 
 ## What to do next
 
-See how to [Export a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/export-a-task-intelligence-model.md)
+See how to [Export a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/export-a-task-intelligence-model.md)
 

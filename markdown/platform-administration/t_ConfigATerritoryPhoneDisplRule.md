@@ -2,7 +2,7 @@
 title: Configure a territory phone display rule
 description: The string of numbers that make up a phone number is automatically validated and formatted for a specific territory by applying a series of regular expressions.Phone validations are already configured for all territories and are automatically applied to the phone number to ensure that the number is valid for the territory.Phone formats are already configured for all territories and are automatically applied to the phone number to ensure that the number is valid for the territory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfigATerritoryPhoneDisplRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfigATerritoryPhoneDisplRule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

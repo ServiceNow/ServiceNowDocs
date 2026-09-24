@@ -2,7 +2,7 @@
 title: Review AI-extracted metadata and contract reminder date in the Hardware Asset Workspace
 description: Use the contract playbook to review and update the AI-extracted metadata and contract reminder date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/review-ai-extracted-metadata-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/review-ai-extracted-metadata-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -97,5 +97,5 @@ To receive notifications when AI agents complete metadata extraction, verify tha
     The contract reminder date is saved, and the configured recipient receives a notification on the specified date to remind them of upcoming contract renewal or termination actions.
 
 
-**Parent Topic:**[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)
+**Parent Topic:**[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)
 

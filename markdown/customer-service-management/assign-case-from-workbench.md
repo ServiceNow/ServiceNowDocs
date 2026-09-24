@@ -2,7 +2,7 @@
 title: Assign a case from the assignment workbench
 description: Users with the customer service manager role can assign a case to an agent from the assignment workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/assign-case-from-workbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/assign-case-from-workbench.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,5 +54,5 @@ Role required: sn\_customerservice\_manager
 **Related topics**  
 
 
-[Assignment workbench overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-workbench.md)
+[Assignment workbench overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-assignment-workbench.md)
 

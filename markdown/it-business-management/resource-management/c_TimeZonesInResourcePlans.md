@@ -2,7 +2,7 @@
 title: Time zones in resource plans
 description: Time zones are important in resource management when the users and groups doing the resource tasks are located in different locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/c\_TimeZonesInResourcePlans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/c\_TimeZonesInResourcePlans.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -16,7 +16,7 @@ breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Mana
 
 Time zones are important in resource management when the users and groups doing the resource tasks are located in different locations.
 
-Users maintain their time in the [My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_MyCalendar.md) module and resource managers use the resource workbench or resource plan to assign tasks to various users.
+Users maintain their time in the [My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_MyCalendar.md) module and resource managers use the resource workbench or resource plan to assign tasks to various users.
 
 All users are assigned a schedule. If a user schedule changes, all time calculations change automatically. The schedules can be floating or time zone-specific.
 
@@ -24,7 +24,7 @@ All users are assigned a schedule. If a user schedule changes, all time calculat
 
 -   When a schedule is defined in a specific time zone, users in different time zones see the schedule with their own time zone applied. For example, suppose the resource manager sets a time zone-specific schedule for 08:00–17:00 in Amsterdam. The San Jose user then sees the schedule as 23:00 of the previous day to 07:00 on the current day. This is because the San Jose time zone is nine hours behind the Amsterdam time zone.
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 

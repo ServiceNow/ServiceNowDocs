@@ -2,7 +2,7 @@
 title: Client software distribution dashboard
 description: The CSD dashboard provides a collection of visual reports for the Client Software Distribution application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/c\_ClientSWDistributionDash.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/c\_ClientSWDistributionDash.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -107,5 +107,5 @@ Displays the license counts for all available applications.-   **Type**: [Create
 
 Navigate to **Client Software Distribution** &gt; **Usage Overview** to view the current transaction count for your instance.
 
-**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md)
+**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md)
 

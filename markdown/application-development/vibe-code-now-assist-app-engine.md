@@ -2,7 +2,7 @@
 title: Agentic development with ServiceNow Otto for App Engine
 description: ServiceNow Otto for App Engine enables you to embed AI functionality into an application that you built on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-code-now-assist-app-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-code-now-assist-app-engine.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ ServiceNow Otto for App Engine enables you to leverage relevant ServiceNow AI Pl
 
 -   AI Skill Kit, which you can use to create custom skills for ServiceNow products and ServiceNow Otto for App Engine. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
 -   AI Agent Studio, which enables you to create, manage, and test AI agents and agentic workflows. For more information, see [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
--   The custom app record summarization skill, which generates AI summaries for the contents of records in custom applications and tables. For more information, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
+-   The custom app record summarization skill, which generates AI summaries for the contents of records in custom applications and tables. For more information, see [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md).
 
 Common capabilities for ServiceNow Otto for App Engine include:
 
@@ -29,11 +29,11 @@ Common capabilities for ServiceNow Otto for App Engine include:
 -   Generative flow actions and in-app assistance that reduces manual effort.
 -   Content-aware responses that adhere to platform security and data access models.
 
-For more information on ServiceNow Otto for App Engine, see [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md).
+For more information on ServiceNow Otto for App Engine, see [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md).
 
 With ServiceNow Otto for App Engine, you have access to ServiceNow Otto AI assets, such as Platform skills, AI agents, and agentic workflows, as well as the tools for developing custom AI assets using AI Skill Kit and AI Agent Studio.
 
-For a list of all the tools available in ServiceNow Otto for App Engine, see [Tools included with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/tools-included-with-now-assist-for-app-engine.md).
+For a list of all the tools available in ServiceNow Otto for App Engine, see [Tools included with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/tools-included-with-now-assist-for-app-engine.md).
 
-**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-using.md)
+**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-using.md)
 

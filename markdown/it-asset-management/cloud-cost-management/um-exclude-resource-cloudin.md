@@ -2,7 +2,7 @@
 title: Exclude a resource from Unused resources analysis
 description: To ensure that a particular resource is not considered or recommended for Unused resources, add the resource to the Excluded Resources list. The system continues to collect cost and usage data but does not consider the resource for the processes of Unused resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/um-exclude-resource-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/um-exclude-resource-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -46,10 +46,10 @@ If either condition is met, the app sends an email notification to the owner of 
     The resources are added to the Excluded Resources list. To remove a resource from the list, select the resources from the **Excluded** tab and then select **Remove From Exclusion**.
 
 
-**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md)
+**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/manage-unused-mac.md)
 
 **Related topics**  
 
 
-[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
+[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

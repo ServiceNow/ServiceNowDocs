@@ -2,7 +2,7 @@
 title: NLU models
 description: Use NLU models to apply ServiceNow Natural Language Understanding on your instances. Create, manage, test, and publish NLU models with the NLU Workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/nlu-models.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -34,9 +34,9 @@ There are three tabs on the NLU Workbench homepage: Virtual Agent, Issue Auto Re
 
 You can use the **Search** field to look for models by name.
 
-The default setting of the **All Languages** filter displays all models regardless of their language. You can filter models by language using the list in **All Languages**. To learn more about the available languages, see [NLU language support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-language-support.md).
+The default setting of the **All Languages** filter displays all models regardless of their language. You can filter models by language using the list in **All Languages**. To learn more about the available languages, see [NLU language support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-language-support.md).
 
-If you have a multilingual grouped model, its row in the list of models has an arrow on the left side. Select the arrow to expand the group so that all language versions of the model are displayed. For more information on model languages and grouping, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).\[Omitted image "nlu-modelsV2.png"\] Alt text: A grouped model expanded to show two language models, one for English and one for Brazilian Portuguese.
+If you have a multilingual grouped model, its row in the list of models has an arrow on the left side. Select the arrow to expand the group so that all language versions of the model are displayed. For more information on model languages and grouping, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/multilingual-model-managent.md).\[Omitted image "nlu-modelsV2.png"\] Alt text: A grouped model expanded to show two language models, one for English and one for Brazilian Portuguese.
 
 The **Used In VA** column indicates whether a model has already been linked to another application such as Virtual Agent. For AI Search, this column indicates whether the model has already been linked to a Genius Result. Similarly, the **Mapped Intents** column displays a count of intents that have been mapped or linked to Virtual Agent topics.
 
@@ -58,7 +58,7 @@ For more information on Virtual Agent, see [Virtual Agent](https://raw.githubuse
 
 Fewer functions and columns are displayed for IAR than for the other applications in NLU Workbench. This is because the IAR model is prebuilt and is configured in the IAR Admin console.
 
--   When you select the name of your IAR model in NLU Workbench, you are taken to IAR Tuning rather than to a model overview. For more information, see [Issue Auto Resolution Tuning in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.md).
+-   When you select the name of your IAR model in NLU Workbench, you are taken to IAR Tuning rather than to a model overview. For more information, see [Issue Auto Resolution Tuning in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.md).
 -   The **Show Prebuilt Models** toggle is not displayed.
 -   The **Create new model** button is not displayed because the prebuilt model is used directly.
 -   The section **Boost your model performance** is not displayed.
@@ -78,5 +78,5 @@ For more information, see the [AI Search](https://raw.githubusercontent.com/Serv
 
 ## What you can do next
 
-To learn more about model content and the model life-cycle, see [Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/model-management-phases.md).
+To learn more about model content and the model life-cycle, see [Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/model-management-phases.md).
 

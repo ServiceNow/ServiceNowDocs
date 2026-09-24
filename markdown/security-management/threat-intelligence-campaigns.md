@@ -2,7 +2,7 @@
 title: Campaigns
 description: A Campaign is a grouping of adversarial behaviors. These behaviors describe a set of malicious activities or attacks that occur over time against a specific set of targets. Campaigns apply for STIX 2.x.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-campaigns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-campaigns.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ For example, a crime syndicate attacks the executives of ACME Bank. They attack 
 -   **[Define a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Define a campaign to group adversarial behaviors.
 
-**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ioc-repository.md)
 
 **Related topics**  
 

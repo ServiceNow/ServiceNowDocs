@@ -2,7 +2,7 @@
 title: Tag-based discovery in Service Mapping
 description: If your organization uses tags, or establishes them in a local ServiceNow instance, you can use these tags to map application services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/tag-based-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/tag-based-mapping.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -60,12 +60,12 @@ The tag-based discovery and mapping process consists of the following stages:
 
 You can create single tag-based application services using the Common Service Data Model \(CSDM\) flow as described in [populate application services using tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/populate-app-service-tags.md).
 
-For information about how to create multiple tag-based services, see [Map application services using tags with classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/map-service-tag.md).
+For information about how to create multiple tag-based services, see [Map application services using tags with classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/map-service-tag.md).
 
 **Related topics**  
 
 
-[Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md)
+[Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag_discovery_configuration.md)
 
-[Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/landing-page-tag-governance.md)
+[Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/landing-page-tag-governance.md)
 

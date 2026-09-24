@@ -2,7 +2,7 @@
 title: Define the configuration type for customers or business organizations
 description: Define the configuration type to provide service to customers or business organizations \(formerly business locations\) within any service organization \(SO\) using the Customer Service Management \(CSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-customer-criteria-to-service-organization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-customer-criteria-to-service-organization.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Define the configuration type to provide service to customers or business organi
 
 Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_location\_manager, sn\_customerservice.svc\_location\_manager\_contributor, and sn\_bus\_loc.location\_relationship\_manager
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
@@ -28,15 +28,15 @@ Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_loc
 
 3.  Select the configuration type based on whether you intend to provide service to customers or business organizations \(formerly business locations\) within any service organization.
 
-<table id="choicetable_tgr_32q_1cc"><thead><tr><th align="left" id="d155532e154">
+<table id="choicetable_tgr_32q_1cc"><thead><tr><th align="left" id="d155536e154">
 
 Configuration type
 
-</th><th align="left" id="d155532e157">
+</th><th align="left" id="d155536e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d155532e163">
+</th></tr></thead><tbody><tr><td id="d155536e163">
 
 **Customers served**
 
@@ -46,7 +46,7 @@ Customers that are served at a business organization. The customers served can b
 -   **Criteria-based**: Enables service organization staff to create and resolve issues only for customers associated with the service organization using a criteria.
 
 
-</td></tr><tr><td id="d155532e208">
+</td></tr><tr><td id="d155536e208">
 
 **Business locations served**
 
@@ -66,5 +66,5 @@ In other words, it’s a service organization relationship where a business orga
 
 ## What to do next
 
-Once the configuration is defined, you can associate your customers or business organizations to a service organization. For more information, see [Associate customers or business organizations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md).
+Once the configuration is defined, you can associate your customers or business organizations to a service organization. For more information, see [Associate customers or business organizations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-customers-or-bus-loc-to-so.md).
 

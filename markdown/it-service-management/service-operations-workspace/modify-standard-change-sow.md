@@ -2,7 +2,7 @@
 title: Modify a standard change template
 description: You can modify standard change templates based on your organization's requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/modify-standard-change-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/modify-standard-change-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -35,5 +35,5 @@ Role required: admin, change\_manager
     -   Save edits, but do not send for approval by selecting **Save**.
     -   Send edits for approval to the change management team by selecting **Request Approval**.
 
-**Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/standard-change-catalog-sow.md)
+**Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/standard-change-catalog-sow.md)
 

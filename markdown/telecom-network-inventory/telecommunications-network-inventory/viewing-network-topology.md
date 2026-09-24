@@ -2,7 +2,7 @@
 title: Viewing a network topology
 description: View the details of a network topology and visualize how the network elements are organized and connected to one another. You can understand the detailed overview of the network infrastructure of the topology in the Telecommunications Network Inventory application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/viewing-network-topology.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/viewing-network-topology.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -39,5 +39,5 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent, sn\
 6.  In the details pane, select **View Details** to redirect to the CI record \(optional\).
 
 
-**Parent Topic:**[Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md)
+**Parent Topic:**[Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md)
 

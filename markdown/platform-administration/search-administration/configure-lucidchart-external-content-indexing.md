@@ -2,14 +2,14 @@
 title: Configure Lucidchart for external content indexing
 description: Create and authorize an OAuth 2.0 application in the Lucid developer tools and enable the SCIM API in the Lucid admin tools to allow the Lucidchart external content connector to access your Lucidchart content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-lucidchart-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-lucidchart-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Lucidchart external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -112,15 +112,15 @@ To allow the connector to access your Lucidchart source system via the SCIM API,
 
 Provide the following items to your connector administrator:
 
--   The OAuth 2.0 client ID that you copied in step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-lucidchart-external-content-indexing.md).
--   The OAuth 2.0 client secret that you copied in step [3.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-lucidchart-external-content-indexing.md).
--   The SCIM bearer token that you copied in step [4.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-lucidchart-external-content-indexing.md).
+-   The OAuth 2.0 client ID that you copied in step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-lucidchart-external-content-indexing.md).
+-   The OAuth 2.0 client secret that you copied in step [3.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-lucidchart-external-content-indexing.md).
+-   The SCIM bearer token that you copied in step [4.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-lucidchart-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a Lucidchart external content connector to retrieve documents, folders, and security principals from your Lucidchart source system.
 
-**Important:** If you invited any connector administrators to be application collaborators in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-lucidchart-external-content-indexing.md), make sure they've accepted their invitations. Without the application collaborator role, they won't be able to create a Lucidchart external content connector.
+**Important:** If you invited any connector administrators to be application collaborators in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-lucidchart-external-content-indexing.md), make sure they've accepted their invitations. Without the application collaborator role, they won't be able to create a Lucidchart external content connector.
 
-For details on creating and configuring a Lucidchart external content connector, see [Create a Lucidchart external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-lucidchart.md).
+For details on creating and configuring a Lucidchart external content connector, see [Create a Lucidchart external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-lucidchart.md).
 
-**Parent Topic:**[Lucidchart external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/lucidchart-external-content-connector.md)
+**Parent Topic:**[Lucidchart external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/lucidchart-external-content-connector.md)
 

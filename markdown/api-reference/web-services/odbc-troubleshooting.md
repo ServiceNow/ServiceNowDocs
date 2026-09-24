@@ -2,7 +2,7 @@
 title: ODBC troubleshooting
 description: Review these troubleshooting resources to resolve issues with the ODBC driver.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/odbc-troubleshooting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/odbc-troubleshooting.html
 release: australia
 product: Web Services
 classification: web-services
@@ -18,18 +18,18 @@ Review these troubleshooting resources to resolve issues with the ODBC driver.
 
 For troubleshooting information, see the Knowledge Base articles [troubleshooting ODBC driver issues](https://support.servicenow.com/kb_view.do?sysparm_article=KB0538943) and [troubleshooting common ODBC error messages](https://support.servicenow.com/kb_view.do?sysparm_article=KB0538954).
 
-**Parent Topic:**[Test the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_TestingTheODBCDriver.md)
+**Parent Topic:**[Test the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_TestingTheODBCDriver.md)
 
 **Related topics**  
 
 
-[Getting started with ODBC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_GettingStartedWithODBC.md)
+[Getting started with ODBC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_GettingStartedWithODBC.md)
 
-[Create an ODBC user account and assign the odbc role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CreateAnODBCUser.md)
+[Create an ODBC user account and assign the odbc role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_CreateAnODBCUser.md)
 
-[Define an ACL rule for the odbc role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_DefineAnACLRuleForTheODBCRole.md)
+[Define an ACL rule for the odbc role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_DefineAnACLRuleForTheODBCRole.md)
 
-[Configure the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfigureTheODBCDriver.md)
+[Configure the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_ConfigureTheODBCDriver.md)
 
-[Test the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_TestingTheODBCDriver.md)
+[Test the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/t_TestingTheODBCDriver.md)
 

@@ -2,7 +2,7 @@
 title: Synchronization - Prerequisites and implementation
 description: When you connect to your calendar provider for synchronization, you may incur a few connection or synchronization-related issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/synchronization-troubleshooting-and-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/synchronization-troubleshooting-and-conditions.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -64,9 +64,9 @@ When you synchronize reservations, it is important to know the following:
         **Note:** As the meeting link appears in the body of the email, in any case, if you want to update or change the meeting details, you must do it only using the Workplace Reservation Management. Because when a reservation synchronization is performed, the details \(in this case, the meeting link and details\) are synchronized only in one way, that is, from Workplace Reservation Management to the calendar provider \(in this case Microsoft Teams\). If you already change the meeting details or the notes from the calendar provider, it is overwritten by Workplace Reservation Management when a synchronization is performed.
 
     -   **Any other virtual meeting providers**: The meeting link is added in the **Location** field of the email containing the meeting invite.
-    To set up Microsoft Teams, refer to [Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md).
+    To set up Microsoft Teams, refer to [Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md).
 
-    To set up Zoom, refer to [Connect Workplace Reservation Management with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mtm-with-zoom.md).
+    To set up Zoom, refer to [Connect Workplace Reservation Management with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/connect-rsv-mtm-with-zoom.md).
 
 
 ## Debugging, handling throttling and other

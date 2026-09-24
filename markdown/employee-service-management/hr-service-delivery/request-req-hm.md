@@ -2,7 +2,7 @@
 title: Create a job requisition as a hiring manager
 description: Request for a job requisition for a vacancy you want to fill in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/request-req-hm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/request-req-hm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,7 +29,7 @@ Role required: sn\_ta\_hiring\_core.hiring\_manager
 
 3.  On the new job opening request form, fill in the fields.
 
-    For a description of the field values, see [Job requisition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/new-job-form.md).
+    For a description of the field values, see [Job requisition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/new-job-form.md).
 
 4.  Select save or submit.
 
@@ -42,12 +42,12 @@ Role required: sn\_ta\_hiring\_core.hiring\_manager
 
     **Note:**
 
-    When a job request is created by a hiring manager, the recruiter can see the open request on the overview page of the Recruitment Workspace. For more information, see [Get overview of recruitment workload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-oveview.md).
+    When a job request is created by a hiring manager, the recruiter can see the open request on the overview page of the Recruitment Workspace. For more information, see [Get overview of recruitment workload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/recruitment-workspace-oveview.md).
 
 
 ## Result
 
 A job requisition is created and in New state.
 
-**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
+**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/use-hiring.md)
 

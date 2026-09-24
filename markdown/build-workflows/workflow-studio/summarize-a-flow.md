@@ -2,14 +2,14 @@
 title: Summarize a flow
 description: Generate a summary of a flow or flow execution details with ServiceNow Otto for Creator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/summarize-a-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/summarize-a-flow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-07-20"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
@@ -51,5 +51,5 @@ ServiceNow Otto for Creator generates a summary of the flow. The flow summary al
 
 You can regenerate the flow summary by selecting the **Refresh summary** icon next to the summary creation date.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md)
 

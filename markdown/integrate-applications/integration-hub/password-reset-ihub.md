@@ -2,7 +2,7 @@
 title: Password reset using Integration Hub
 description: Create subflows in Integration Hub to automate and customize the password reset process for users managed by third-party applications such as Okta or Microsoft Entra ID.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/password-reset-ihub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/password-reset-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -24,5 +24,5 @@ Navigate to **Password Reset** &gt; **Usage Overview** view the count of passwor
 
 **Note:** Admin must activate the Password Reset - Orchestration Add-on \(com.glideapp.password\_reset.addon.orchestration\) plugin to view the dashboard.
 
-**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/building-integrations-ih.md)
 

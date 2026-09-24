@@ -2,7 +2,7 @@
 title: System property categories installed with Facilities Visualization Workbench
 description: Facilities visualization workbench adds the following system property categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_SysPropCatInstallWFacVisWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_SysPropCatInstallWFacVisWorkbench.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,5 +18,5 @@ Facilities visualization workbench adds the following system property categories
 |------------------------|-----------|
 |Floor Plan Properties|Grouping for interactive floor map properties|
 
-**Parent Topic:**[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)
+**Parent Topic:**[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)
 

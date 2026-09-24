@@ -2,10 +2,10 @@
 title: BIA owner field reference and validation rules
 description: Detailed field definitions, validation rules, filtering logic, and technical specifications for group ownership in Business Impact Analysis \(BIA\) records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bia-smart-assessment-owner-sync.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bia-smart-assessment-owner-sync.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 keywords: [BIA, business impact analysis, owner sync, field reference]
 breadcrumb: [Group owner fields and role requirements, Reference, Business Continuity Management, Governance, Risk, and Compliance]
@@ -107,5 +107,5 @@ The **BIA Owner** field reference qualifier adjusts dynamically based on whether
 |Existing BIA records with individual owner only|Continue to function unchanged. The **BIA Owner group** field is optional; no changes are required for records with only an individual owner.|
 |Unfiltered user selection when no group is selected|When the **BIA Owner group** field is empty, the **BIA Owner** field shows all users without filtering. This verifies workflows and automation that reference the individual owner field are unaffected.|
 
-**Parent Topic:**[Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/owner-group-eligibility-roles.md)
+**Parent Topic:**[Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/owner-group-eligibility-roles.md)
 

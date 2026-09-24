@@ -2,7 +2,7 @@
 title: Book an appointment at a Walk-up Experience Tech Lounge
 description: Book an appointment at a ServiceNow Walk-up Experience Tech Lounge by using the Now Mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/make-appointment-now-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/make-appointment-now-mobile.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -57,5 +57,5 @@ Role required: user
     Another way to view your appointment confirmation is to return to the Tech Lounge list view and tap the **Visits** tab, or return to the Now® Mobile app home page and tap **My Tech Visits**.
 
 
-**Parent Topic:**[Walk-up Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walk-up-experience-now-mobile.md)
+**Parent Topic:**[Walk-up Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walk-up-experience-now-mobile.md)
 

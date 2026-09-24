@@ -2,7 +2,7 @@
 title: Integrations for Employee Goals
 description: Extend the Employee Goals application's capabilities by integrating with your organization's human capital management \(HCM\) system to make employee goals accessible while using the Talent Development suite of applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-goals/egd-goals-integrate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-goals/egd-goals-integrate.html
 release: australia
 product: Employee Goals
 classification: employee-goals

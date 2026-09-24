@@ -2,12 +2,12 @@
 title: Guided setup
 description: Configure AI Control Tower in a logical sequence and track your progress from a single summary page, instead of navigating separate Settings pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-guided-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-guided-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-27"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -24,7 +24,7 @@ Configure AI Control Tower in a logical sequence and track your progress from a 
 
 ## Setup areas
 
-Guided setup organizes configuration into four areas. [Guided setup areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-guided-setup-modules.md) lists every setup item within each area and the topic to reference for more detail.
+Guided setup organizes configuration into four areas. [Guided setup areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-guided-setup-modules.md) lists every setup item within each area and the topic to reference for more detail.
 
 -   **Users and roles.** Assign users to the AI Stewards, AI Product Owners, and AI Risk and Compliance Managers groups.
 -   **AI asset inventory.** Bring ServiceNow and external AI assets into your inventory, and decide which assets to manage.
@@ -38,12 +38,12 @@ Guided setup organizes configuration into four areas. [Guided setup areas](https
 
 ## Required roles
 
-The AI Steward \[sn\_ai\_governance.ai\_steward\] and sn\_ia\_config.ia\_user roles are required to access guided setup. For information about opening guided setup, see [Access guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-access-guided-setup.md).
+The AI Steward \[sn\_ai\_governance.ai\_steward\] and sn\_ia\_config.ia\_user roles are required to access guided setup. For information about opening guided setup, see [Access guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-access-guided-setup.md).
 
--   **[Access guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-access-guided-setup.md)**  
+-   **[Access guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-access-guided-setup.md)**  
 Configure AI Control Tower in a logical sequence and track your progress toward a complete setup.
--   **[Guided setup areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-guided-setup-modules.md)**  
+-   **[Guided setup areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-guided-setup-modules.md)**  
 Area-by-area listing of the setup items in guided setup, with cross-references to the topic each item relates to.
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring.md)
 

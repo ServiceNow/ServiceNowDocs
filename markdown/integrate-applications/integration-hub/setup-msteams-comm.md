@@ -2,7 +2,7 @@
 title: Set up the Microsoft Teams Communications spoke
 description: Integrate the ServiceNow instance and Microsoft Teams Communications account by creating a custom OAuth application in Microsoft Teams Communications to authenticate ServiceNow requests.Create an app to make outbound calls from Microsoft Teams.Assign permissions to users to be able to authenticate successfully and participate in conference calls in Microsoft Teams.Create a service user role to be able to start online meetings on behalf of users in Microsoft Teams.Use the information generated during the application configuration in Microsoft Azure portal to register Microsoft Teams Communications as the OAuth provider so that the ServiceNow instance can request OAuth 2.0 tokens.Authorize the Microsoft Teams Communications spoke actions by creating credential records for the application registered in the Microsoft Azure portal. The Microsoft Teams Communications connection and credential alias uses these credentials to authorize actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-msteams-comm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-msteams-comm.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -214,7 +214,7 @@ You can manage the permissions required by the app and bot to perform required a
 
 2.  Navigate to **Azure Services** &gt; **Azure Active Directory** &gt; **Manage** &gt; **App registrations**.
 
-3.  Search and open the bot created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msteams-comm.md) by name or by Application \(client\) ID.
+3.  Search and open the bot created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-msteams-comm.md) by name or by Application \(client\) ID.
 
 4.  Navigate to **Manage** &gt; **API Permissions** &gt; **Add a permission** &gt; **Microsoft Graph** and select **Application Permissions**.
 

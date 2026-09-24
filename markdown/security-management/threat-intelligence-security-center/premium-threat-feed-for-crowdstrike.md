@@ -2,7 +2,7 @@
 title: Configure Premium Threat Feed for CrowdStrike
 description: The CrowdStrike feed enables users to ingest indicators, actors, reports, malware, vulnerabilities, and their associated context from the CrowdStrike Falcon Intelligence feed into TISC.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/premium-threat-feed-for-crowdstrike.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/premium-threat-feed-for-crowdstrike.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -412,11 +412,11 @@ Enter comma-separated vendor names. If left empty, all vendors are considered fo
 
 12. Select **Duplicate** to duplicate the feed.
 
-    For more information, see [Duplicate threat intelligence feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.md).
+    For more information, see [Duplicate threat intelligence feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.md).
 
 
--   **[System Properties for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/premium-threat-feed-system-properties.md)**  
+-   **[System Properties for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/premium-threat-feed-system-properties.md)**  
 The following details the system properties for CrowdStrike.
 
-**Parent Topic:**[View Custom Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-oob-custom-feeds.md)
+**Parent Topic:**[View Custom Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/view-oob-custom-feeds.md)
 

@@ -2,7 +2,7 @@
 title: Get Power BI tenant ID
 description: Retrieve the tenant ID from the Power BI application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prep-to-run-powerbi-collector-get-tenant-id.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prep-to-run-powerbi-collector-get-tenant-id.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ The tenant ID is required when configuring the Power BI collector. Retrieve this
     Save this value. You will use it when configuring the Power BI collector.
 
 
-**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-powerbi-collector.md)
+**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-powerbi-collector.md)
 

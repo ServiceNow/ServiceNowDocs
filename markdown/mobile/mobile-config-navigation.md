@@ -2,7 +2,7 @@
 title: Mobile Platform
 description: Access your instance from anywhere using the ServiceNow Mobile Platform. The Mobile Platform enables you to create customized mobile experiences on the Now Mobile and Mobile Agent apps. Using these apps, your users access custom reports and can execute multiple tasks, enabling them to perform their work from anywhere, at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-config-navigation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-config-navigation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,23 +25,23 @@ Starting with the Australia release, Mobile Studio is being prepared for future 
 
 <table id="table_pzb_2hx_rvb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow mobile apps that are available on iOS and Android.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-mobile-platform-landing.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow mobile apps that are available on iOS and Android.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/explore-mobile-platform-landing.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-mobile-native.svg"\] Alt text: Learn how to use ServiceNow mobile apps to get your work done from anywhere using your mobile device.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/use-mobile-platform-landing.md)
+[Use \[Omitted image "bus-mobile-native.svg"\] Alt text: Learn how to use ServiceNow mobile apps to get your work done from anywhere using your mobile device.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/use-mobile-platform-landing.md)
 
 </td></tr><tr><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure a mobile experience for any of the ServiceNow mobile apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-platform-landing.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure a mobile experience for any of the ServiceNow mobile apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-mobile-platform-landing.md)
 
 </td><td>
 
-[Build \[Omitted image "bus-application-development.svg"\] Alt text: Create and modify base system mobile app components for ServiceNow mobile apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/build-mobile-apps-landing.md)
+[Build \[Omitted image "bus-application-development.svg"\] Alt text: Create and modify base system mobile app components for ServiceNow mobile apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/build-mobile-apps-landing.md)
 
 </td></tr><tr><td>
 
-[Additional Resources\[Omitted image "additional-resources.png"\]Explore additional Mobile Platform resources to upgrade your mobile experience to the next level.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-additional-resources.md)
+[Additional Resources\[Omitted image "additional-resources.png"\]Explore additional Mobile Platform resources to upgrade your mobile experience to the next level.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-additional-resources.md)
 
 </td><td>
 

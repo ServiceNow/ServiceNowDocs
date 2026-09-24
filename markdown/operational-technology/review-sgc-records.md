@@ -2,7 +2,7 @@
 title: Review additional Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery records
 description: After completing the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery Guided Setup, review the unknown devices and log records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/review-sgc-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/review-sgc-records.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ These are optional tasks.
 7.  Use the items in the menu to review information from the Service Graph Connector for ServiceNow OT Discovery Guided Setup settings.
 
 
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-ot-discovery.md)
 

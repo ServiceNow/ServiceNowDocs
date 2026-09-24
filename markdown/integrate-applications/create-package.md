@@ -2,7 +2,7 @@
 title: Create a package to assign to a bot process
 description: Create an unattended or attended package in RPA Hub to assign it to a bot process to execute an automation.Use the Package Version form to view the code quality result.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-package.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-package.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Create an unattended or attended package in RPA Hub to assign it to a bot proces
 
 ## Before you begin
 
-\(Optional\) Configure the system properties related to **Activity Stream**, to add or remove the fields. The changes to these fields are captured in the work notes. For more information, see [Configure the system properties for an activity stream in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-sys-properties-activity.md).
+\(Optional\) Configure the system properties related to **Activity Stream**, to add or remove the fields. The changes to these fields are captured in the work notes. For more information, see [Configure the system properties for an activity stream in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-sys-properties-activity.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_developer, or sn\_rpa\_fdn.rpa\_admin
 
@@ -97,18 +97,18 @@ Description of the package.
 
 After a package is created, the RPA developer publishes an automation from RPA Desktop Design Studio. This process results in a new package version.
 
-**Parent Topic:**[Package and package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/package-version-rpa-hub.md)
+**Parent Topic:**[Package and package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/package-version-rpa-hub.md)
 
 **Related topics**  
 
 
-[Retire a package in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/retire-package.md)
+[Retire a package in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/retire-package.md)
 
-[Download a package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/download-package-version.md)
+[Download a package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/download-package-version.md)
 
 [View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
 
-[Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-automation-project.md)
+[Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/publish-automation-project.md)
 
 ## Package Version form in RPA Hub
 
@@ -162,7 +162,7 @@ Active
 
 Option to set this package version as active. The active version of the template is used when a template is selected for creating automation in RPA Desktop Design Studio. Only one package version can be set as active.
 
-This field is applicable only for **Unattended Template** and **Attended Template** package types. For more information about package types, see [Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-package.md).
+This field is applicable only for **Unattended Template** and **Attended Template** package types. For more information about package types, see [Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-package.md).
 
 Roles required to edit this field: RPA admin and RPA release manager.
 
@@ -190,7 +190,7 @@ Code quality status of package versions are set with highest severity.
 
 To review the error or warning, open the package version file in RPA Desktop Design Studio.
 
-For more information about code quality check feature, see [Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-rpa.md).
+For more information about code quality check feature, see [Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/code-quality-check-rpa.md).
 
 </td></tr><tr><td>
 

@@ -2,7 +2,7 @@
 title: Define a breakdown source
 description: Specify a facts table to serve as a data source for breakdowns. External data is supported via Workflow Data Fabric tables. Apply conditions to specify the elements for this breakdown source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_DefiningABreakdownSource.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_DefiningABreakdownSource.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -90,12 +90,12 @@ The breakdown source uses the following records from the Choice table:
 
 11. In the **Security** tab, set whether to exclude or include breakdown source elements by role based on element security lists.
 
-    For more information, see [Define an elements security list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToABreakdown.md).
+    For more information, see [Define an elements security list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_ControlAccessToABreakdown.md).
 
 
 ## What to do next
 
-Create breakdowns that use this breakdown source. You can open the **Breakdowns** tab and click **New**. The **Breakdown** form opens, as described in [Create an automated breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatingABreakdownForIndicators.md). After you create breakdowns that use this source, these breakdowns are listed in the **Breakdowns** tab.
+Create breakdowns that use this breakdown source. You can open the **Breakdowns** tab and click **New**. The **Breakdown** form opens, as described in [Create an automated breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreatingABreakdownForIndicators.md). After you create breakdowns that use this source, these breakdowns are listed in the **Breakdowns** tab.
 
-**Parent Topic:**[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-sources.md)
+**Parent Topic:**[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/breakdown-sources.md)
 

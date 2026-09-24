@@ -2,7 +2,7 @@
 title: View fixes in USEM Workspace
 description: Review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves. A Fix record represents a single remediation action that resolves one or more findings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/view-fixes-in-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/view-fixes-in-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
@@ -21,7 +21,7 @@ Role required: `sn_vul_fix.read`, or a Vulnerability Response role that contains
 
 Prerequisites:
 
--   ServiceNow Support has configured the Armis Centrix™ for ViPR integration, and at least one sync has completed. See [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-fix-intel.md).
+-   ServiceNow Support has configured the Armis Centrix™ for ViPR integration, and at least one sync has completed. See [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-fix-intel.md).
 
 ## About this task
 
@@ -50,19 +50,19 @@ Fixes appear in Unified Security Exposure Management Workspace as a list and a f
     -   The remediation task that groups those findings, if one exists.
 5.  Review the fix's fields to understand what it remediates and how much risk it removes.
 
-    For what each field means, see [Understanding Fix records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/understanding-fix-records.md).
+    For what each field means, see [Understanding Fix records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/understanding-fix-records.md).
 
 
 ## Result
 
 You can see the ingested fixes and the scope of each one.
 
-**Parent Topic:**[Using Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-fix-intel-security-exposure-management.md)
+**Parent Topic:**[Using Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-fix-intel-security-exposure-management.md)
 
 **Related topics**  
 
 
-[Remediation view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-workspaces-ui-remediation-module.md)
+[Remediation view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-workspaces-ui-remediation-module.md)
 
-[Use the List view in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ws-list-view.md)
+[Use the List view in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-ws-list-view.md)
 

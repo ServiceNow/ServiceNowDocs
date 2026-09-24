@@ -2,7 +2,7 @@
 title: Territory-Based Optimization
 description: Enable the Field Service Territory model to focus optimization on territories rather than assignment groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/territory-based-optimization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/territory-based-optimization.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -16,7 +16,7 @@ breadcrumb: [Activate, Schedule Optimization, Setting up a Field Service schedul
 
 Enable the Field Service Territory model to focus optimization on territories rather than assignment groups.
 
-You must [Configure Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md). When implementing Schedule Optimization based on territories, consider the following points:
+You must [Configure Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md). When implementing Schedule Optimization based on territories, consider the following points:
 
 -   **Plugin dependencies**
 
@@ -27,7 +27,7 @@ You must [Configure Territory Planning](https://raw.githubusercontent.com/Servic
     -   If both plugins are installed and the Territory Model is active, tasks are optimized exclusively based on territories. You can create scopes specifically for territories.
 -   **Activation prerequisite**
 
-    Before [Enabling the territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md), confirm that batches optimized by assignment groups are inactive and batches optimized by territories are active.
+    Before [Enabling the territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md), confirm that batches optimized by assignment groups are inactive and batches optimized by territories are active.
 
 -   **Post-activation**
 
@@ -43,6 +43,6 @@ You must [Configure Territory Planning](https://raw.githubusercontent.com/Servic
 
 -   **Agent start location**
 
-    When using the Territory Model, you can temporarily assign a technician a different start location with a specified start and end date. The system uses this temporary location when assigning tasks. When the end date passes or no temporary location is set, the technician's location reverts to their home location. During relocation, you can also adjust technician membership and availability attributes. For more information, see [Move agents between territories in the Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/relocate-agents-territories.md).
+    When using the Territory Model, you can temporarily assign a technician a different start location with a specified start and end date. The system uses this temporary location when assigning tasks. When the end date passes or no temporary location is set, the technician's location reverts to their home location. During relocation, you can also adjust technician membership and availability attributes. For more information, see [Move agents between territories in the Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/relocate-agents-territories.md).
 
 

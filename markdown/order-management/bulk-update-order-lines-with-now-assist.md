@@ -2,7 +2,7 @@
 title: Manage order updates with ServiceNow Otto
 description: Use ServiceNow Otto for Order Management to manage order updates, such as applying bulk changes to order line items, removing order lines, or creating an order case, without navigating between individual records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/bulk-update-order-lines-with-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/bulk-update-order-lines-with-now-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -159,5 +159,5 @@ Describe the issue with the order when prompted, review the generated summary, t
 
 After updating quantity or shipping address, you can keep the changes or undo them when prompted.
 
-**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md)
 

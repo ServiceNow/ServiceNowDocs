@@ -2,7 +2,7 @@
 title: Knowledge Management dashboard
 description: The Knowledge Management dashboard helps knowledge content owners and managers to determine the usage and quality of their knowledge content. It helps confirm that the proper processes and procedures are being followed for content creation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-management-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/knowledge-management-dashboard.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -140,7 +140,7 @@ The dashboards include the following visualizations:
 |Articles Created Over 1 Year|Column\[Omitted image "column-icon.png"\] Alt text: Column icon|Active = true and Created = before 1 year ago|
 |Articles not Published|Column\[Omitted image "column-icon.png"\] Alt text: Column icon|Active = true and Workflow is Draft or Review|
 
-**Parent Topic:**[Knowledge Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-content-pack.md)
+**Parent Topic:**[Knowledge Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-content-pack.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Generate API key
 description: Generate an API key on the SAP Fieldglass tenant to enable your ServiceNow instance to connect to the SAP Fieldglass tenant. You provide the API key on the SAP Fieldglass spoke connection record and the SAP Fieldglass tenant authenticates your ServiceNow instance based on the API key.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/generate-api-key.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/generate-api-key.html
 release: australia
 product: Integration Hub
 classification: integration-hub

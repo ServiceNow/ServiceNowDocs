@@ -2,7 +2,7 @@
 title: Use Agent assist to view associated claims
 description: Use the Agent assist contextual search to view associated claims and relevant knowledge articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/use-agent-assist-to-view-associated-claims-personal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/use-agent-assist-to-view-associated-claims-personal.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

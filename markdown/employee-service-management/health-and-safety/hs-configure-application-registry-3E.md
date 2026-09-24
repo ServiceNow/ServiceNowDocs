@@ -2,7 +2,7 @@
 title: Configure the application registry for the 3E service provider
 description: Configure 3E integration with Health and Safety Environmental Management to retrieve current chemical data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-configure-application-registry-3E.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-configure-application-registry-3E.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -41,5 +41,5 @@ For more information about 3E Protect and its subscription requirements, see [3E
 5.  Select **Update**.
 
 
-**Parent Topic:**[3E Protect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-3e-protect.md)
+**Parent Topic:**[3E Protect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-3e-protect.md)
 

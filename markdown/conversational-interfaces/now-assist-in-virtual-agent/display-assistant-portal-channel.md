@@ -2,7 +2,7 @@
 title: Display your assistant on a portal, channel, or mobile app
 description: Select a display experience for your chat assistant. Display experiences are the different places where a user can find and interact with an assistant. Select from a list of portals, messaging channels, and mobile app. To activate an assistant, at least one display experience must be configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,9 +18,9 @@ Select a display experience for your chat assistant. Display experiences are the
 
 ## Before you begin
 
-See [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
+See [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/add-assets.md).
 
-If you're using a display experience for a ServiceNow Otto panel assistant \(Platform or Developer\), see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md).
+If you're using a display experience for a ServiceNow Otto panel assistant \(Platform or Developer\), see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -63,7 +63,7 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
 
     1.  Choose between the standard/enhanced or premium chat experience. Select **Add**.
 
-        For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md), [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md), or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
+        For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md), [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md), or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
 
         \[Omitted image "NAinVA-add-chat-exp-072026.png"\] Alt text: Opt into premium chat for your portal.
 
@@ -74,7 +74,7 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
         -   Premium chat opens the search bar into a full-page chat experience.
         If your portal has AI Search activated, enhanced chat includes the option to turn on the full-page chat experience. Select **Allow the search bar to open into a full-page chat experience**. Premium chat comes with the full-page chat experience.
 
-        For more information about whether your portal meets the requirements to have users chat from search results, see [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/prerequisites-enhanced-chat.md).
+        For more information about whether your portal meets the requirements to have users chat from search results, see [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/prerequisites-enhanced-chat.md).
 
         **Note:** When you activate enhanced chat in a portal or mobile app, that portal or mobile app uses the assistant search application configuration rather than the portal or mobile app's search application configuration. This ensures that the portal/mobile app's search results and assistant provide consistent responses. To learn more about search profiles and how they affect search behavior, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-profiles-ais.md).
 
@@ -94,7 +94,7 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
 
         For premium chat, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. Review the settings to ensure that everything was prefilled correctly.
 
-        For information about the enhanced chat experience option, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+        For information about the enhanced chat experience option, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
     2.  Select the ellipsis to remove a portal or edit settings to toggle between chat experiences.
 
@@ -104,11 +104,11 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
 
         Selecting the check box only makes the assistant response available to guest users. In addition to selecting the check box, ensure that the UI page and chat client are also set to public. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_MakeAPagePublic.md), [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-page-security.md), and [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-widget-security.md).
 
-        For public access across the entire instance, see **Conversational** &gt; **Interfaces** &gt; **Settings**. For more information on public access across the entire instance, see [Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-public-access-web-client.md).
+        For public access across the entire instance, see **Conversational** &gt; **Interfaces** &gt; **Settings**. For more information on public access across the entire instance, see [Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/enable-public-access-web-client.md).
 
 2.  In **Channels**, select your preferred messaging channels to display a chat assistant.
 
-    ServiceNow Otto for Virtual Agent integrates with these channels: Slack, Microsoft Teams, Google Chat, SMS with Twilio, WhatsApp, and Amazon Connect. If the plugins are already installed, the available channel cards aren't displayed. For more information on integrating Virtual Agent with messaging apps, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
+    ServiceNow Otto for Virtual Agent integrates with these channels: Slack, Microsoft Teams, Google Chat, SMS with Twilio, WhatsApp, and Amazon Connect. If the plugins are already installed, the available channel cards aren't displayed. For more information on integrating Virtual Agent with messaging apps, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
     Getting the plugin redirects you to the ServiceNow Store. After the plugins are installed and configured, you can then select the ones that you want the assistant to integrate with.
 
@@ -216,7 +216,7 @@ For new custom app widgets, -   Enhanced chat with full-page experience.
 Not applicable
 
 </td></tr></tbody>
-</table>    1.  To use ServiceNow Otto for Virtual Agent on your mobile app, download the Now Mobile App or Agent App and use Mobile App Builder to configure Virtual Agent in the app. For information about mobile prerequisites, see [Mobile app prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/mobile-prereqs-enhanced-chat.md).
+</table>    1.  To use ServiceNow Otto for Virtual Agent on your mobile app, download the Now Mobile App or Agent App and use Mobile App Builder to configure Virtual Agent in the app. For information about mobile prerequisites, see [Mobile app prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/mobile-prereqs-enhanced-chat.md).
     2.  Select a mobile search widget from the **Add search widget** drop-down list. The assistant must have the enhanced chat or the premium chat experience enabled.
 
         \[Omitted image "sno-mobile-search-widget-0826.png"\] Alt text: Drop-down list of mobile applications.
@@ -256,5 +256,5 @@ Not applicable
 
 ## What to do next
 
-See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
+See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
 

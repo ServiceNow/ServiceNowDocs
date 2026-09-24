@@ -2,7 +2,7 @@
 title: Install Workplace PPE Inventory Management
 description: You can install Workplace PPE Inventory Management if you have the admin role.Several types of components are installed with Workplace PPE Inventory Management, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/install-ppe-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/install-ppe-inventory.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -100,7 +100,7 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 6.  When the installation is complete, click **Close**.
 
 
-**Parent Topic:**[Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/ppe-inventory-management.md)
+**Parent Topic:**[Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/ppe-inventory-management.md)
 
 ## Components installed with Workplace PPE Inventory Management
 

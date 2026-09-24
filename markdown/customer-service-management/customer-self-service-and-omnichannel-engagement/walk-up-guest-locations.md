@@ -2,7 +2,7 @@
 title: Configure Walk-up Experience locations for guest users
 description: Configure walk-up locations for guest-users so they can select a location while making appointments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/walk-up-guest-locations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/walk-up-guest-locations.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

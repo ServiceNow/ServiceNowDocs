@@ -2,7 +2,7 @@
 title: Customize scripted extension points
 description: Customize how license expiration dates for Fortinet devices are stored on CIs by implementing scripted extension points.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-extension-points.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/configure-extension-points.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -19,7 +19,7 @@ Customize how license expiration dates for Fortinet devices are stored on CIs by
 
 ## Before you begin
 
-Service Graph Connector for Fortinet must be installed. For instructions, see [Configure a Fortinet SD-WAN Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-fortinet-service-graph-connector.md).
+Service Graph Connector for Fortinet must be installed. For instructions, see [Configure a Fortinet SD-WAN Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-fortinet-service-graph-connector.md).
 
 Role required: tsom\_visibility\_admin
 

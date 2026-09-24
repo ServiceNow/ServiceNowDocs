@@ -2,7 +2,7 @@
 title: Similar case user actions
 description: Customer service agents and major issue managers can use the similar case recommendation feature to link cases, copy resolution information, propose major case candidates, and add cases to existing major cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/similar-cases-user-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/similar-cases-user-actions.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

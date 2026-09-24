@@ -2,7 +2,7 @@
 title: Set up the SAP S4 HANA RFC spoke
 description: Integrate the ServiceNow instance and SAP S4 HANA RFC spoke by using the Basic Auth credentials to authenticate ServiceNow requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-saphana-rfc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-saphana-rfc.html
 release: australia
 product: Integration Hub
 classification: integration-hub

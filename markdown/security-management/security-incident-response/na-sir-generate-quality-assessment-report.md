@@ -2,7 +2,7 @@
 title: Generate a quality assessment report
 description: Generate a quality assessment report for a security incident using a predefined rule set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/na-sir-generate-quality-assessment-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/na-sir-generate-quality-assessment-report.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -66,5 +66,5 @@ Role required: sn\_sec\_gen\_ai.qa\_reviewer
 11. To email a published PDF report, select **Send email**.
 
 
-**Parent Topic:**[Exploring Security incident quality assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/na-sir-quality-assessment.md)
+**Parent Topic:**[Exploring Security incident quality assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/na-sir-quality-assessment.md)
 

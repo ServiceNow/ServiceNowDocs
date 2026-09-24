@@ -2,7 +2,7 @@
 title: Connect your ServiceNow instance with a shipping carrier application
 description: Associate a shipping carrier with an integration profile to connect your ServiceNow instance to the carrier application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/associate-shipping-carrier-int-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/associate-shipping-carrier-int-profile.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -18,7 +18,7 @@ Associate a shipping carrier with an integration profile to connect your Service
 
 ## Before you begin
 
-Make sure that the shipping carrier that you want to associate with an integration profile has a shipping carrier record. For more details, see [Create a shipping carrier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-shipping-carrier.md).
+Make sure that the shipping carrier that you want to associate with an integration profile has a shipping carrier record. For more details, see [Create a shipping carrier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-shipping-carrier.md).
 
 Role required: admin or domain\_admin
 
@@ -34,7 +34,7 @@ A shipping carrier can be associated with only one active integration profile.
 
 3.  Select the carrier integration profile that you want to associate with a shipping carrier.
 
-    **Note:** The third-party carrier application automatically inserts records into the Carrier integration profiles list. If the integration profile associated with your carrier isn't listed, make sure that the prerequisites for the integration with the carrier are fulfilled. For more information, see [Managing shipments by integrating with third-party carrier applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/integrating-with-third-party-carrier-apps.md).
+    **Note:** The third-party carrier application automatically inserts records into the Carrier integration profiles list. If the integration profile associated with your carrier isn't listed, make sure that the prerequisites for the integration with the carrier are fulfilled. For more information, see [Managing shipments by integrating with third-party carrier applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/integrating-with-third-party-carrier-apps.md).
 
 4.  Select the **Shipping Carriers** tab.
 
@@ -51,7 +51,7 @@ A shipping carrier can be associated with only one active integration profile.
 
 The shipping carrier is associated with the profile and the carrier details are shown in the **Shipping Carriers** tab.
 
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 

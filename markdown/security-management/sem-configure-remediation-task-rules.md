@@ -2,7 +2,7 @@
 title: Configuring remediation task rules
 description: By configuring remediation task rules, you can automatically group findings based on filter conditions.Create remediation task rules to automatically group findings based on filter conditions. These rules automatically group findings as they’re imported or manually created. Use the filter to limit the findings grouped by this rule, such as selecting all findings with exploits.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-remediation-task-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-remediation-task-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,12 +18,12 @@ In the Security Exposure Management Workspace, you can set up a single assignmen
 
 You can also configure the remediation task rule execution mode to control whether the system evaluates all matching rules \(Match All\) or stops at the first match \(Match First\).
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
+**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 
 
-[Grouping multiple findings as remediation tasks for easy processing using remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-grouping-multiple-findings-remediation-tasks-processing.md)
+[Grouping multiple findings as remediation tasks for easy processing using remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-grouping-multiple-findings-remediation-tasks-processing.md)
 
 ## Create remediation task rules
 
@@ -31,7 +31,7 @@ Create remediation task rules to automatically group findings based on filter co
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-acls-for-admin-rules.md)
 
 ### About this task
 

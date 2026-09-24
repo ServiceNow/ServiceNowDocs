@@ -2,7 +2,7 @@
 title: Associate Guided Self-Service Process to a topic
 description: You can make Guided Self-Service available from a topic. The GSS content appears on the topic page enabling your employees to easily self-serve.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/associate-gss-guided-process-to-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/associate-gss-guided-process-to-topic.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -48,7 +48,7 @@ The GSS content appears on the topic page enabling your employees to easily self
 **Related topics**  
 
 
-[Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md)
+[Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md)
 
-[Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
+[Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
 

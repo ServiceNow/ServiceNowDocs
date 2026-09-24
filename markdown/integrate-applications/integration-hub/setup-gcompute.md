@@ -2,7 +2,7 @@
 title: Set up the Google Compute Engine spoke
 description: Integrate the ServiceNow instance and Google Compute Engine spoke by using OAuth 2.0 credentials to authenticate ServiceNow requests.Create a custom OAuth application from your Google Cloud Platform account to enable OAuth 2.0 authentication with the Google Compute Engine spoke.Use the information generated during Google Compute Engine account configuration to register the Google Compute Engine application as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create a credential record to connect the Google Compute Engine custom OAuth application you created during account configuration. The Google Compute Engine spoke connection and credential aliases use these credentials to authorize actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gcompute.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-gcompute.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -67,7 +67,7 @@ Complete these steps from the [Google Cloud Platform](https://cloud.google.com/)
 
 5.  Enter the following Authorized redirect URI: `https://<instance>.service-now.com/oauth_redirect.do` and click **Create**.
 
-6.  Copy your client ID and client secret to a text file so that you can use them when you [Register Google Compute Engine as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcompute.md).
+6.  Copy your client ID and client secret to a text file so that you can use them when you [Register Google Compute Engine as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-gcompute.md).
 
     **Tip:** You can always access the client ID and secret in the Google APIs &amp; Services interface by clicking **Credentials** and selecting the OAuth 2.0 client ID name.
 

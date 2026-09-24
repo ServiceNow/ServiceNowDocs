@@ -2,7 +2,7 @@
 title: Planning attribute form
 description: Use the Planning attribute form fields to modify a planning attribute.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/planning-attributes-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/planning-attributes-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -98,5 +98,5 @@ Table name and field value for a task attribute.This field is visible only while
 </table>**Related topics**  
 
 
-[Create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/configure-planning-attributes.md)
+[Create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/configure-planning-attributes.md)
 

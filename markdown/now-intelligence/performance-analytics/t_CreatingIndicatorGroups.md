@@ -2,7 +2,7 @@
 title: Create an indicator group
 description: For convenience, you can organize related indicators into an indicator group. When you configure some visualizations that show multiple indicators, you can specify an indicator group instead of individual indicators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreatingIndicatorGroups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_CreatingIndicatorGroups.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -73,11 +73,11 @@ In this example, create an indicator group with all the indicators that refer to
 **Related topics**  
 
 
-[List widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/list-widgets.md)
+[List widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/list-widgets.md)
 
-[Create a relative compare visualization for a time series widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-relative-compare-ts.md)
+[Create a relative compare visualization for a time series widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-relative-compare-ts.md)
 
-[Create an email notification for indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateEmailSummaries.md)
+[Create an email notification for indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateEmailSummaries.md)
 
 [Create or update a treemap category \(Security Incident Analytics\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_DfnSvcImpctTmapDmn.md)
 

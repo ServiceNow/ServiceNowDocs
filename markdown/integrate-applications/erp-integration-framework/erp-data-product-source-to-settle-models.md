@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP Source to Settle content pack models
 description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Source to Settle content pack contains models that you may need when interacting with an SAP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-data-product-source-to-settle-models.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-data-product-source-to-settle-models.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

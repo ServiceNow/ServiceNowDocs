@@ -2,7 +2,7 @@
 title: Test read-only options
 description: Test read-only behavior on a non-production instance before updating Read only option field values on your production instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/test-read-only-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/test-read-only-options.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -86,5 +86,5 @@ Prevents any changes from both client scripts and server-side APIs.
 
 Test any client scripts or server-side APIs that update read-only fields work as expected in your non-production environment. After testing the functionality, you can update individual fields in your production instance and set the **Read only option** field to the option that you verified in your non-production instance.
 
-**Parent Topic:**[Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/read-only-option.md)
+**Parent Topic:**[Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/read-only-option.md)
 

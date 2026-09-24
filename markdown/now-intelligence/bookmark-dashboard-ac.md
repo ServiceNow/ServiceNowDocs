@@ -2,7 +2,7 @@
 title: Bookmark a Platform Analytics dashboard
 description: Bookmark a dashboard so that you can find it easily in the Analytics Overview.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/bookmark-dashboard-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/bookmark-dashboard-ac.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ In the **Dashboards** overview, the selected dashboard appears in the Bookmarked
 
 To remove a bookmark, choose the bookmarked dashboard and select **Remove bookmark** from the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\).
 
-**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 

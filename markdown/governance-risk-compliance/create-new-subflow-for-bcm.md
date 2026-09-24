@@ -2,7 +2,7 @@
 title: Create a subflow form
 description: Use the Create a subflow form to automate a manual recovery task within the business continuity plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-subflow-for-bcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-subflow-for-bcm.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -107,5 +107,5 @@ Roles that the subflow runs with. This option is only available when **Run as** 
 </td></tr></tbody>
 </table>For more information on creating a subflow, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md).
 
-**Parent Topic:**[Automate recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/automate-the-recovery-tasks.md)
+**Parent Topic:**[Automate recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/automate-the-recovery-tasks.md)
 

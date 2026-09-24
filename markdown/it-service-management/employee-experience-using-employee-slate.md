@@ -2,10 +2,10 @@
 title: Employee experience in Employee Slate
 description: You can enable an AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one intuitive destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/employee-experience-using-employee-slate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/employee-experience-using-employee-slate.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Simplified IT Service Management, IT Service Management]
 ---
@@ -32,10 +32,10 @@ From Employee Slate, an employee can perform the following actions:
 
 \[Omitted image "ai-native-submit-incident-empslate.png"\] Alt text: Submit an incident in Employee Slate
 
--   **[Submit a catalog request in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-submit-request-employee-slate.md)**  
+-   **[Submit a catalog request in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-submit-request-employee-slate.md)**  
 Save time in searching for catalog items and submitting requests.
--   **[Submit an incident in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-submit-incident-employee-slate.md)**  
+-   **[Submit an incident in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-submit-incident-employee-slate.md)**  
 Save time in submitting and resolving incidents.
 
-**Parent Topic:**[Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-landing-page.md)
+**Parent Topic:**[Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/ai-native-it-service-desk-landing-page.md)
 

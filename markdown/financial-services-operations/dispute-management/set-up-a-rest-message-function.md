@@ -2,7 +2,7 @@
 title: Set up tokenized REST message record
 description: To use tokenized data with a Third-Party System, update the endpoint URL for the Third-Party System's REST message entry in ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-a-rest-message-function.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/set-up-a-rest-message-function.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -21,7 +21,7 @@ To use tokenized data with a Third-Party System, update the endpoint URL for the
 
 Set up your Third-Party System connections in our tokenizer service. For more information, see [Initial setup for Vault schema, Connections and Service Account for Card data security \(KB2830577\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577).
 
-Install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/spokes.md).
+Install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/spokes.md).
 
 Role required: admin
 

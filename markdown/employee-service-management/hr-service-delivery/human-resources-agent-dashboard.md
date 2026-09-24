@@ -2,7 +2,7 @@
 title: Human Resources agent dashboard
 description: The dashboard for HR Agents monitors caseloads to help stay on top of the backlog, enabling the HR Agent to provide a streamlined experience for the organization workforce.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/human-resources-agent-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/human-resources-agent-dashboard.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -65,5 +65,5 @@ The Human Resources Agent dashboard contains the following visualizations:
 |Unassigned Cases|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
 |Unassigned Cases Distribution|Horizontal bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon|
 
-**Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
+**Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
 

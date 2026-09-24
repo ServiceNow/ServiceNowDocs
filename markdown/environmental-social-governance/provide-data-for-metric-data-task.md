@@ -2,7 +2,7 @@
 title: Provide data for a metric data task
 description: Use the metric data task to provide data for a manual metric. Metric data helps you analyze your progress toward your goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/provide-data-for-metric-data-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/provide-data-for-metric-data-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Use the metric data task to provide data for a manual metric. Metric data helps 
 
 ## Before you begin
 
--   To enable support for data estimation refer to [Set up estimation for manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-estimation-for-manual-metric-definition.md).
+-   To enable support for data estimation refer to [Set up estimation for manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-up-estimation-for-manual-metric-definition.md).
 -   Role required: sn\_esg.data\_owner
 
 ## Procedure
@@ -144,5 +144,5 @@ Additional information for the metric data.
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-grc-metrics.md)
 

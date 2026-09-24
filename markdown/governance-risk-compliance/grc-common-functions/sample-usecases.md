@@ -2,7 +2,7 @@
 title: Sample use case scenarios
 description: Use case scenarios offer a clear and comprehensive explanation of why you would use the Entity Based Access application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/sample-usecases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/sample-usecases.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -42,5 +42,5 @@ You select the Facility Banking entity class and map it to Beth. Alternatively, 
 
 \[Omitted image "usecase2.png"\] Alt text: Entity class configuration screen for a user.
 
-**Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md)
+**Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/entity-based-access.md)
 

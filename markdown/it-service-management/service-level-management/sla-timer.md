@@ -2,7 +2,7 @@
 title: SLA timer
 description: Use the SLA timer component to track the amount of time that is required to complete the task as defined by the matching SLA definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/sla-timer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/sla-timer.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -118,5 +118,5 @@ Out of Schedule
 The stage of the timer when the task SLA goes out-of-schedule. You can find more information about the schedule and time on tooltip.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/exploring-slm.md)
+</table>**Parent Topic:**[Exploring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/exploring-slm.md)
 

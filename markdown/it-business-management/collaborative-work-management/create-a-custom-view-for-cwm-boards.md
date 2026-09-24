@@ -2,7 +2,7 @@
 title: Create a custom view for CWM Boards
 description: Modify Board display preferences and save them as custom personal or shared views that suit the working preferences for you and your team members in Collaborative Work Management \(CWM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-a-custom-view-for-cwm-boards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/create-a-custom-view-for-cwm-boards.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,7 +18,7 @@ Modify Board display preferences and save them as custom personal or shared view
 
 ## Before you begin
 
-[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -34,7 +34,7 @@ Use the personalization settings to change how the data is presented on a CWM Bo
 
 3.  Modify the display preferences of the Board data using the personalization settings, sorting, filtering, and adding custom columns.
 
-    For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
+    For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
 
 4.  Select the More actions icon \(\[Omitted image "cwm-icon-views-save-options.png"\] Alt text: More actions icon.\) of the Save view menu and choose **Save as new view**.
 
@@ -55,5 +55,5 @@ The new view is available in the view switcher.
 
 \[Omitted image "cwm-views-switcher.png"\] Alt text: View switcher in CWM Board.
 
-**Parent Topic:**[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/board-views-in-cwm.md)
+**Parent Topic:**[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/board-views-in-cwm.md)
 

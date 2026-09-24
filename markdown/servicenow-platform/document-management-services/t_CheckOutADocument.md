@@ -2,7 +2,7 @@
 title: Check out a document
 description: Documents in the Managed Documents application can only be revised by one user at a time. Check out the document to revise it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_CheckOutADocument.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/t\_CheckOutADocument.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -39,5 +39,5 @@ Role required: document\_management\_user
     After checking out a document, you can edit the document and make any necessary changes.
 
 
-**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/c_CreateADocument.md)
 

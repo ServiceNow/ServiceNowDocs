@@ -2,7 +2,7 @@
 title: Set up ITSM Virtual Agent
 description: You can create and publish conversation topics in Virtual Agent Designer if you have administrator roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -49,5 +49,5 @@ Topics must be activated and published before your employees can use them. By de
 6.  To test an active, published conversation topic, select the topic to test in Virtual Agent Designer and select **Test**.
 
 
-**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
+**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
 

@@ -2,7 +2,7 @@
 title: Transfer order line asset tracking consumables
 description: When a consumable is added to a transfer order line, the stock for the consumable is split into two records and the transfer order links to the newly created stock line.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/r\_TrsferOrderLneAssetTrackConsum.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/r\_TrsferOrderLneAssetTrackConsum.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -32,14 +32,14 @@ For example:
 9.  When TOL2 is received in stockroom B, the two keyboards move to **In stock** &gt; **Available** and are merged with the three keyboards that are also **In Stock** &gt; **Available** in B.
 10. At the end, stockroom B shows five keyboards are **In Stock** &gt; **Available**.
 
-**Parent Topic:**[Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)
+**Parent Topic:**[Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)
 
 **Related topics**  
 
 
-[Delete a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_DeleteATransferOrder.md)
+[Delete a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_DeleteATransferOrder.md)
 
-[Delete a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_DeleteATransferOrderLine.md)
+[Delete a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_DeleteATransferOrderLine.md)
 
-[Return items received in a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_ReturnItemsRecInXferOrder.md)
+[Return items received in a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_ReturnItemsRecInXferOrder.md)
 

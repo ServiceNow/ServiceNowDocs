@@ -2,12 +2,12 @@
 title: Activate evaluation scoring for external AI systems
 description: Assess the quality and safety of your external AI systems by connecting them to AI Control Tower and activating evaluation scoring.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-monitor-external-ai-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-monitor-external-ai-system.html
 release: australia
 topic_type: task
 last_updated: "2026-07-13"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure evaluation scoring for external AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -36,15 +36,15 @@ External AI systems require trace data to be scored by the evaluation engine. Un
 
 4.  Connect your external AI system to send trace data to AI Control Tower using SDK instrumentation or a trace connection.
 
-<table id="choicetable_connection_method"><thead><tr><th align="left" id="d36257e149">
+<table id="choicetable_connection_method"><thead><tr><th align="left" id="d36129e149">
 
 Connection method
 
-</th><th align="left" id="d36257e152">
+</th><th align="left" id="d36129e152">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36257e158">
+</th></tr></thead><tbody><tr><td id="d36129e158">
 
 **SDK instrumentation**
 
@@ -133,7 +133,7 @@ The new API key appears in the **API key for external AI system evaluation** sec
 
 For instrumentation steps using the Traceloop SDK, see [Instrument a third-party AI agent with the Traceloop SDK for AI Control Tower Evaluations](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144255).
 
-</td></tr><tr><td id="d36257e346">
+</td></tr><tr><td id="d36129e346">
 
 **Trace connection**
 
@@ -141,7 +141,7 @@ For instrumentation steps using the Traceloop SDK, see [Instrument a third-party
 
 Use when your AI agents run on a supported cloud platform or already send traces to a supported monitoring service. The ServiceNow AI Platform collects trace data through your cloud credentials and a MID Server. No API key or SDK instrumentation is required.
 
- See [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md).
+ See [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-trace-connections.md).
 
 </td></tr></tbody>
 </table>
@@ -151,9 +151,9 @@ Evaluation scoring is active for external AI systems. Scores appear on the monit
 
 ## What to do next
 
-To add or remove global metrics and adjust their sample rate, see [Configure global metrics for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-global-metrics-external.md).
+To add or remove global metrics and adjust their sample rate, see [Configure global metrics for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-global-metrics-external.md).
 
-**Parent Topic:**[Configure evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-external-ai-systems.md)
+**Parent Topic:**[Configure evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-external-ai-systems.md)
 
 **Related topics**  
 

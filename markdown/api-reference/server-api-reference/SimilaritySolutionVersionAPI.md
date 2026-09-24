@@ -2,7 +2,7 @@
 title: SimilaritySolutionVersion - Global
 description: The SimilaritySolutionVersion API is a scriptable object used in Predictive Intelligence stores.Gets solution object properties and version number.Gets training completion status.Gets the version number of a solution object.Gets the input data for a prediction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SimilaritySolutionVersionAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/SimilaritySolutionVersionAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,18 +18,18 @@ The SimilaritySolutionVersion API is a scriptable object used in Predictive Inte
 
 This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-This API is used is used for working with solution versions based on [SimilaritySolution API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md) objects in the [SimilaritySolution store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionStoreAPI.md).
+This API is used is used for working with solution versions based on [SimilaritySolution API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SimilaritySolutionAPI.md) objects in the [SimilaritySolution store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SimilaritySolutionStoreAPI.md).
 
 The system creates a solution version each time you train a solution definition. Most versions are created during scheduled solution training.
 
 Methods in this API are accessible using the following SimilaritySolution methods:
 
--   [getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)
--   [getAllVersions\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)
--   [getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)
--   [getVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)
+-   [getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SimilaritySolutionAPI.md)
+-   [getAllVersions\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SimilaritySolutionAPI.md)
+-   [getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SimilaritySolutionAPI.md)
+-   [getVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SimilaritySolutionAPI.md)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## SimilaritySolutionVersion - getProperties\(\)
 
@@ -53,7 +53,7 @@ Object
 
 </td><td>
 
-Contents of the Dataset and [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md) version details. Results vary by object property setup.```
+Contents of the Dataset and [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SimilaritySolutionAPI.md) version details. Results vary by object property setup.```
 {
   "domainName": "String",
   "isActive": "String",
@@ -112,7 +112,7 @@ Identifies the prediction task. ```
 
 </td><td>
 
-Details of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) object used as the lookup set. ```
+Details of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DatasetDefinitionAPI.md) object used as the lookup set. ```
 {
   "encodedQuery": "String",
   "fieldDetails": [Array],
@@ -226,7 +226,7 @@ Optional. Preset list of strings that the system automatically generates based o
 
 </td><td>
 
-Details of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) object used to retrieve similarities between results searched in this model and results found in the **lookupDataset**. ```
+Details of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DatasetDefinitionAPI.md) object used to retrieve similarities between results searched in this model and results found in the **lookupDataset**. ```
 {
   "encodedQuery": "String",
   "fieldDetails": [Array],
@@ -429,7 +429,7 @@ Object
 
 </td><td>
 
-JavaScript object containing training status information for a [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md) object.```
+JavaScript object containing training status information for a [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SimilaritySolutionAPI.md) object.```
 {
   "state": "String",
   "percentComplete": "Number as a String",
@@ -587,7 +587,7 @@ Object
 
 </td><td>
 
-[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) or array of JSON objects containing field names and values as key-value pairs.
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordAPI.md) or array of JSON objects containing field names and values as key-value pairs.
 
 </td></tr><tr><td>
 

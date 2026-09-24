@@ -2,7 +2,7 @@
 title: Activate a ServiceNow Store application
 description: After an application has been given entitlement, you must activate its dependencies plugin and activate the application. This process also applies to applications downloaded to sub-production instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/activate-entitled-store-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/activate-entitled-store-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

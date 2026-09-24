@@ -2,7 +2,7 @@
 title: Data Loss Prevention Incident Response
 description: The Data Loss Prevention Incident Response \(DLP IR\) application enables you to review and manage the remediation workflow of DLP incidents from multiple sources, such as endpoint, network, email, and cloud.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/dlp-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/dlp-landing.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -22,23 +22,23 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_myz_gt3_b5c" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how analysts and administrators use DLP Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/exploring-dlp.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how analysts and administrators use DLP Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/exploring-dlp.md)
 
 </td><td>
 
-[Install and Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Installing and configuring the DLP Incident Response application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/install-dlp.md)
+[Install and Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Installing and configuring the DLP Incident Response application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/install-dlp.md)
 
 </td><td>
 
-[Administer \[Omitted image "bus-optimize-manage.svg"\] Alt text: Administration tasks on how to manage the DLP incidents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+[Administer \[Omitted image "bus-optimize-manage.svg"\] Alt text: Administration tasks on how to manage the DLP incidents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Update and manage incidents by leveraging the DLP End User Portal, DLP Ops Portal, and DLP Dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-incident-management.md)
+[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Update and manage incidents by leveraging the DLP End User Portal, DLP Ops Portal, and DLP Dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-incident-management.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend DLP capabilities by integrating with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-integrations.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend DLP capabilities by integrating with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/dlp-integrations.md)
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Enable automatic updates to the shopping cart
 description: Automatically update the shopping cart across all sessions when users make changes from multiple tabs and platforms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-auto-update-cart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/enable-auto-update-cart.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -53,7 +53,7 @@ Role required: admin or sp\_admin
     \[Omitted image "auto-update-cart.png"\] Alt text: Screenshot to automatically update the shopping cart
 
 
-**Parent Topic:**[SC Shopping Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-shopping-cart.md)
+**Parent Topic:**[SC Shopping Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-shopping-cart.md)
 
 **Related topics**  
 

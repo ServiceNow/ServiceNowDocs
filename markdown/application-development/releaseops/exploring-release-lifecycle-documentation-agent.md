@@ -2,7 +2,7 @@
 title: Exploring release lifecycle documentation AI agent
 description: Learn about how the release lifecycle documentation AI agent works to help you to manage application development at scale by generating useful, transparent documentation throughout the app lifecycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/exploring-release-lifecycle-documentation-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/exploring-release-lifecycle-documentation-agent.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -34,14 +34,14 @@ The release lifecycle documentation AI agent is an autonomous AI agent that enab
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Support effective communication and collaboration across teams, instances, and changes by adding clear descriptions to update sets.|[Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/generate-update-set-description.md)|Developer|
-|Improve app governance and traceability over time by documenting the changes in a release.|[Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/generate-release-notes.md)|Developer|
+|Support effective communication and collaboration across teams, instances, and changes by adding clear descriptions to update sets.|[Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/generate-update-set-description.md)|Developer|
+|Improve app governance and traceability over time by documenting the changes in a release.|[Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/generate-release-notes.md)|Developer|
 
 ## What to explore next
 
 To learn more about configuring and using the release lifecycle documentation AI agent, see:
 
--   [Configure release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/configure-release-lifecycle-documentation-ai-agent.md)
--   [Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/generate-update-set-description.md)
--   [Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/generate-release-notes.md)
+-   [Configure release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/configure-release-lifecycle-documentation-ai-agent.md)
+-   [Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/generate-update-set-description.md)
+-   [Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/generate-release-notes.md)
 

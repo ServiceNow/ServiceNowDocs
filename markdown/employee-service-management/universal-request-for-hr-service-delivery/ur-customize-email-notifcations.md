@@ -2,7 +2,7 @@
 title: Email notification preferences for your service
 description: Customize email notifications to control which email notifications are sent to requesters when a universal request is created. This setting prevents employees from receiving duplicate or inconsistent email notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-customize-email-notifcations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-customize-email-notifcations.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -33,17 +33,17 @@ Email notifications are usually sent when one of the following activities is per
 
 ## Procedure
 
-1.  [Suppress outbound notification for services leveraging Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-service-suppress-out-notification.md).
+1.  [Suppress outbound notification for services leveraging Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-service-suppress-out-notification.md).
 
-2.  [Use effective number in email subject](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-service-mask-use-effective-number.md).
+2.  [Use effective number in email subject](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-service-mask-use-effective-number.md).
 
 
--   **[Suppress outbound notification for services leveraging Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-service-suppress-out-notification.md)**  
+-   **[Suppress outbound notification for services leveraging Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-service-suppress-out-notification.md)**  
 You can configure outbound email notifications to define the emails a requester must receive when a universal request is created. For example, if your service \(department\) ticket is associated with a universal request, you can customize the notifications to send only the emails that are relevant to the requester.
--   **[Use effective number in email subject](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-service-mask-use-effective-number.md)**  
+-   **[Use effective number in email subject](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-service-mask-use-effective-number.md)**  
 Modify the email subject to display the relevant ticket number by using the task effective number. For example, if your service ticket is associated with a universal request, then you must mask the service ticket number and show the UR number.
 
-**Parent Topic:**[Unified ticket experience setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/unified-ticket-experience.md)
+**Parent Topic:**[Unified ticket experience setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/unified-ticket-experience.md)
 
 **Related topics**  
 

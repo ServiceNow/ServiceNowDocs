@@ -2,7 +2,7 @@
 title: Map clauses and clause variations
 description: As a contract configurator, add clause and clause variations to a contract using the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-addin-add-clauses.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-addin-add-clauses.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -24,9 +24,9 @@ The following video walks you through the process of mapping clause and clause v
 
 ## Before you begin
 
-The Microsoft Word add-in for ServiceNow Contracts must have been configured. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
+The Microsoft Word add-in for ServiceNow Contracts must have been configured. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
 
-An active contract template in the Draft or Editing state must exist. For more information, see [Create a contract template to contain content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.md).
+An active contract template in the Draft or Editing state must exist. For more information, see [Create a contract template to contain content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.md).
 
 Role required: sn\_cm\_core.contract\_config and canvas\_user
 
@@ -38,7 +38,7 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 3.  In the login screen, enter the credentials of the ServiceNow instance from which you downloaded the manifest file.
 
-    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-word-addin.md)
+    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-word-addin.md)
 
 4.  In the **Templates** tab, select the contract template for which you want to add or modify clauses.
 
@@ -56,15 +56,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
     \[Omitted image "cmpro-waddin-use-clause.png"\] Alt text: Map clauses in ServiceNow Contracts add-in
 
-<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d147152e241">
+<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d147156e241">
 
 Methods for content and clause mapping
 
-</th><th align="left" id="d147152e244">
+</th><th align="left" id="d147156e244">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147152e250">
+</th></tr></thead><tbody><tr><td id="d147156e250">
 
 **Use the clause as it is and do not update any of the existing clauses or clause variation**
 
@@ -72,7 +72,7 @@ Steps
 
 In the **Clauses** tab, select **Use this clause** for the clause that you want to use.**Note:** The imported clause is classified as No Change in the ServiceNow instance.
 
-</td></tr><tr><td id="d147152e270">
+</td></tr><tr><td id="d147156e270">
 
 **Create a clause and do not create any clause variation**
 
@@ -95,7 +95,7 @@ In the **Clauses** tab, select **Use this clause** for the clause that you want 
     -   The imported clause is classified as Existing Clause in the ServiceNow instance.
 
 
-</td></tr><tr><td id="d147152e343">
+</td></tr><tr><td id="d147156e343">
 
 **Create a clause variation for an existing clause**
 
@@ -114,9 +114,9 @@ In the **Clauses** tab, select **Create Variation** for the clause that you want
 
 ## What to do next
 
-[Complete mapping and upload Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md)
+[Complete mapping and upload Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md)
 
-**Parent Topic:**[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
+**Parent Topic:**[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
 
 **Related topics**  
 

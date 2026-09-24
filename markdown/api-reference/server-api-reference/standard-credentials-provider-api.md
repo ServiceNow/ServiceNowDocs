@@ -2,7 +2,7 @@
 title: StandardCredentialsProvider - Scoped, Global
 description: The StandardCredentialsProvider API provides methods to retrieve credential information.Instantiates a credentials provider object.Returns an array of all credentials that match the specified types and tags.Returns the credential record object through its credential alias \(sys\_alias\).Returns the credential record object identified by the specified sys\_id.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/standard-credentials-provider-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/standard-credentials-provider-api.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -41,7 +41,7 @@ for (var i = 0; i < credentials.length; i++) {
 }
 ```
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## StandardCredentialsProvider - StandardCredentialsProvider\(\)
 

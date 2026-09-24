@@ -2,7 +2,7 @@
 title: Configure the ADFS relying party claim rules
 description: Edit the claim rules to enable proper communication with the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_ConfigureADFSClaimRules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_ConfigureADFSClaimRules.html
 release: australia
 product: Authentication
 classification: authentication
@@ -60,7 +60,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 13. Set the **Outgoing claim type** to `Name ID` and the **Outgoing name ID format** to `Email`.
 
-    **Note:** These values must match the [Name ID policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_SetUpNameIDPolicy.md) you define during SAML 2.0 configuration.
+    **Note:** These values must match the [Name ID policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_SetUpNameIDPolicy.md) you define during SAML 2.0 configuration.
 
 14. Select **Pass through all claim values**.
 

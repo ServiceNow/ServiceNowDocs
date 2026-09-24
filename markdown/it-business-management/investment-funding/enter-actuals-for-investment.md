@@ -2,7 +2,7 @@
 title: Enter actual spends for an investment
 description: Enter actual spends for your investments to track fund utilization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/enter-actuals-for-investment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/investment-funding/enter-actuals-for-investment.html
 release: australia
 product: Investment Funding
 classification: investment-funding
@@ -56,5 +56,5 @@ Actual cost incurred for projects or demands will be summed up and displayed in 
 -   The entered amount is updated as actual funds spent through the investment.
 -   The amount rolls-up to its parent investment, which in turn rolls-up until the top-level investment.
 
-**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/investment-funding/investment-funding-overview.md)
 

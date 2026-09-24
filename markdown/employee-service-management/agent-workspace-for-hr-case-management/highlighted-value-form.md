@@ -2,7 +2,7 @@
 title: Highlighted value condition form
 description: Use the Highlighted value condition form to create conditions to highlight a field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/highlighted-value-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/highlighted-value-form.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -89,7 +89,7 @@ Value Override
 Text that replaces the field values from the table.If you don't supply a Value Override, Workspace highlights the field value from the table. If you supply a value, Workspace replaces the field value with your text and highlights that. Example - \[Omitted image "override-text.png"\] Alt text: Override text
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Workspace for HR Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
+</table>**Parent Topic:**[Agent Workspace for HR Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
 
 **Related topics**  
 

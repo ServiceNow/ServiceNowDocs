@@ -2,7 +2,7 @@
 title: Install and configure the Symantec DLP integration for Data Loss Prevention
 description: Install and configure the  Symantec DLP integration from the  ServiceNow Store on your  ServiceNow AI Platform instance. Start investigating DLP incidents using the  Symantec DLP incident data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/install-configure-symantec-dlp-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/install-configure-symantec-dlp-integration.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -100,5 +100,5 @@ The MID Application name that is used to communicate with Symantec.This field is
 
 After you successfully validate and submit the configuration, the Symantec DLP Integration is saved on the Security Integrations page as a tile.
 
-**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/symantec-dlp-integration.md)
+**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/symantec-dlp-integration.md)
 

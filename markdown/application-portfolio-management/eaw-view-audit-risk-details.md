@@ -2,7 +2,7 @@
 title: View technology portfolio audit risk details
 description: You can view all your technology portfolio details in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-audit-risk-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-view-audit-risk-details.html
 release: australia
 topic_type: task
 last_updated: "2026-07-28"
@@ -26,11 +26,11 @@ Role required: admin
 
 3.  Select **Technology portfolio audit**.
 
-    For a description of field values, see [Technology portfolio audit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-technology-portfolio-audit-form.md).
+    For a description of field values, see [Technology portfolio audit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-technology-portfolio-audit-form.md).
 
 
--   **[Update verification status of TLM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-verif-status.md)**  
+-   **[Update verification status of TLM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-update-verif-status.md)**  
 Change the verification status of a software product or hardware model lifecycle in the TLM technology lifecycle exception table.
 
-**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
+**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-tpm.md)
 

@@ -2,7 +2,7 @@
 title: Sample payload for generic software install records
 description: A sample payload that populates the Software Installation \[cmdb\_sam\_sw\_install\] table in the ServiceNow instance with discovery data collected by third-party discovery sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/payload-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/payload-details.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -47,5 +47,5 @@ In this sample payload, you are passing the information of the installed softwar
 |display name|Word|The display name for this entry in the table.|
 |name|SAMILMT8|Unique identifier of the CI.|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 

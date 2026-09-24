@@ -2,7 +2,7 @@
 title: Create a contract and enhance digital resilience data
 description: Create a contract record in Digital resilience third-party registers where you add details of the contract such as vendor name, start and end dates, state, substate, and so on. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-drtp-reg-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-drtp-reg-contract.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
     Specific information sub-head is shown in the Create New Contractual arrangement form. The Service provider type field controls which identification fields are displayed \(Third party, Third-party engagement, or Legal entity\).
 
-    For description of the fields on the form, see [Create Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-contract-form.md).
+    For description of the fields on the form, see [Create Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-contract-form.md).
 
 4.  To submit the contract for review, select **Submit for Review**.
 
@@ -60,7 +60,7 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
 8.  On the form, fill in the fields.
 
-    For more information, see [Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-cont-arrange-form.md).
+    For more information, see [Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-cont-arrange-form.md).
 
     **Note:** When you open the linked legal entity, third party, or third-party engagement record from the Specific information section of a contract, a parent path is displayed so you can navigate back to the contract record.
 
@@ -96,7 +96,7 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
     1.  In the form, select **More** and navigate to the **Digital resilience information** tab.
 
-        For more information, see [Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-cont-arrange-form.md).
+        For more information, see [Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-cont-arrange-form.md).
 
     2.  Navigate to the Contract **Details** tab to view the details that are needed by the Digital Operational Resilience Act.
 
@@ -143,10 +143,10 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 13. To delete the contract record, select it from the list and select **Delete**.
 
 
--   **[Create Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-contract-form.md)**  
+-   **[Create Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-contract-form.md)**  
 On the Create Contract form, fill in the fields.
--   **[Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-cont-arrange-form.md)**  
+-   **[Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-cont-arrange-form.md)**  
 On the Create Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
 
-**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-dg-registers.md)
 

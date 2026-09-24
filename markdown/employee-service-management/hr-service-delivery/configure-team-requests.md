@@ -2,7 +2,7 @@
 title: Configure team requests
 description: Configure the type of team requests that you want to display on the Requests opened by your team widget in Manager Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-team-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-team-requests.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -140,7 +140,7 @@ Text that must appear when multiple requests are displayed.For example: $\{count
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 

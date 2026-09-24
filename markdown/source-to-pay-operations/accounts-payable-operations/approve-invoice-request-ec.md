@@ -2,7 +2,7 @@
 title: Approve an invoice approval task from Employee Center
 description: Approve or reject invoice approval tasks assigned to you in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/approve-invoice-request-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/approve-invoice-request-ec.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -39,5 +39,5 @@ Role required: sn\_shop.invoice\_owner
     **Note:** When rejecting a request, you must provide your justification for rejection on the Reject request window.
 
 
-**Parent Topic:**[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)
+**Parent Topic:**[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)
 

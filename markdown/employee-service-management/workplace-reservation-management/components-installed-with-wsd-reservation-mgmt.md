@@ -2,7 +2,7 @@
 title: Components installed with Workplace Reservation Management
 description: Several types of components are installed with activation of the Workplace Reservation Management application, including tables, user roles, and business rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/components-installed-with-wsd-reservation-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/components-installed-with-wsd-reservation-mgmt.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -143,7 +143,7 @@ Plan reservations in Workplace Central Event planner
 
 Reservation planner and space planners are allowed to ignore or bypass the Reservable module configuration settings.
 
-For more information, see [Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md).
+For more information, see [Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md).
 
 -   sn\_wsd\_rsv.bypass\_module\_validation
 
@@ -177,7 +177,7 @@ User Space Suggestions\[sn\_wsd\_core\_user\_space\_suggestions\]
 
 </td><td>
 
-Retrieves user preferred space suggestions for employees having a workplace user profile. Make sure that Workplace Concierge is installed. For more information, see [User Space Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/userspace-suggestions.md).
+Retrieves user preferred space suggestions for employees having a workplace user profile. Make sure that Workplace Concierge is installed. For more information, see [User Space Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/userspace-suggestions.md).
 
 </td></tr><tr><td>
 
@@ -185,7 +185,7 @@ Space Suggestion Configuration\[sn\_wsd\_core\_space\_suggestion\_configuration\
 
 </td><td>
 
-Retreives user preferrences from the space suggestion configuration table. Make sure that Workplace Concierge is installed. Admin can specify the configuration and the space logic that needs to be considered while suggesting workplace locations, preferred collaborators, and workplace services to an employee. For more information, see [Space suggestion Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/space-suggestion-configuration.md).**Note:** Make sure only one record exist for each preference type.
+Retreives user preferrences from the space suggestion configuration table. Make sure that Workplace Concierge is installed. Admin can specify the configuration and the space logic that needs to be considered while suggesting workplace locations, preferred collaborators, and workplace services to an employee. For more information, see [Space suggestion Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/space-suggestion-configuration.md).**Note:** Make sure only one record exist for each preference type.
 
 </td></tr><tr><td>
 
@@ -280,7 +280,7 @@ Reservation recording\[sn\_wsd\_rsv\_reservation\_recording\]
 
 </td><td>
 
-Store information about all the reservation recordings.**Note:** If **WSD: Archive old reservations** archival rule is applied, then Reservation recording\[**sn\_wsd\_rsv\_reservation\_recording**\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
+Store information about all the reservation recordings.**Note:** If **WSD: Archive old reservations** archival rule is applied, then Reservation recording\[**sn\_wsd\_rsv\_reservation\_recording**\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
 
 </td></tr><tr><td>
 
@@ -320,7 +320,7 @@ Reservation Invitee\[sn\_wsd\_rsv\_m2m\_reservation\_invitee\]
 
 </td><td>
 
-Stores information about all the reservation invitees.**Note:** If **WSD: Archive old reservations** archival rule is applied then Reservation invitee\[sn\_wsd\_rsv\_m2m\_reservation\_invitee\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
+Stores information about all the reservation invitees.**Note:** If **WSD: Archive old reservations** archival rule is applied then Reservation invitee\[sn\_wsd\_rsv\_m2m\_reservation\_invitee\] table is also archived. For more information, see [Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-tables-purge-policy.md).
 
 </td></tr><tr><td>
 
@@ -355,7 +355,7 @@ Reservable Module Time Slot\[sn\_wsd\_rsv\_m2m\_reservable\_module\_time\_slot\]
 Stores information about all the time slots of Quick Reservation Widget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 **Related topics**  
 

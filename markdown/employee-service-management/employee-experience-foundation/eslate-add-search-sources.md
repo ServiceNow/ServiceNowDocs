@@ -2,7 +2,7 @@
 title: Search sources
 description: Configure internal and external search sources to expand the knowledge base available to Now Assist in Employee Slate. Search sources determine what content users can access through conversational search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-add-search-sources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-add-search-sources.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -72,7 +72,7 @@ With comprehensive search source, you can:
 **Related topics**  
 
 
-[Add internal search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-internal-search.md)
+[Add internal search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-add-internal-search.md)
 
-[Add external search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-external-search.md)
+[Add external search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-add-external-search.md)
 

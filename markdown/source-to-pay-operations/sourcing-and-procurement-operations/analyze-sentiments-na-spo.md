@@ -2,7 +2,7 @@
 title: Analyze sentiment in procurement cases
 description: Analyze requester sentiments on active procurement cases to help procurement specialists quickly identify, prioritize, and track sensitive requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/analyze-sentiments-na-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/analyze-sentiments-na-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -40,7 +40,7 @@ Role required: sn\_spend\_gen\_ai.now\_assist\_fulfiller
     A red dot indicates that the sentiment was updated due to recent activity. Sentiment updates automatically every 30 minutes.
 
 
-**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 **Related topics**  
 

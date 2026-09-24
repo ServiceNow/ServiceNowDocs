@@ -2,12 +2,12 @@
 title: Configuring rules and templates in AI Control Tower
 description: Configure how AI assets are classified, evaluated, valued, and secured across your organization through rules and templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-rules-and-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-rules-and-templates.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -21,11 +21,11 @@ Rules and templates settings bring together the configuration that drives automa
 
 -   **Automation rules**
 
-    Define the conditions under which discovered AI assets are automatically marked as managed. Use built-in rules or create your own to reduce manual classification work and keep your inventory current. For more information, see [Managing AI assets in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-ai-bulk-managing-assets.md).
+    Define the conditions under which discovered AI assets are automatically marked as managed. Use built-in rules or create your own to reduce manual classification work and keep your inventory current. For more information, see [Managing AI assets in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-ai-bulk-managing-assets.md).
 
 -   **Evaluation**
 
-    Configure evaluation scoring for ServiceNow and external AI systems. Select which metrics are scored on each evaluated session, and use metric templates to define how individual metric scores aggregate into quality and safety scores. For more information, see [Configuring monitoring and evaluations in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configuring-aict-evaluations.md).
+    Configure evaluation scoring for ServiceNow and external AI systems. Select which metrics are scored on each evaluated session, and use metric templates to define how individual metric scores aggregate into quality and safety scores. For more information, see [Configuring monitoring and evaluations in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configuring-aict-evaluations.md).
 
 -   **Templates**
 
@@ -33,7 +33,7 @@ Rules and templates settings bring together the configuration that drives automa
 
 -   **AI skills**
 
-    Enable the **AI-generated enrichment** toggle to run LLM-based enrichments with the AI Inventory Intelligence Agent. For more information, see [AI Inventory Intelligence Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/inventory-intelligence-agent.md)
+    Enable the **AI-generated enrichment** toggle to run LLM-based enrichments with the AI Inventory Intelligence Agent. For more information, see [AI Inventory Intelligence Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/inventory-intelligence-agent.md)
 
 -   **Cost**
 
@@ -41,8 +41,8 @@ Rules and templates settings bring together the configuration that drives automa
 
 -   **Security**
 
-    Configure security rules and templates that control how AI Control Tower detects and responds to security threats across your AI assets. For more information, see [Configure post-runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md).
+    Configure security rules and templates that control how AI Control Tower detects and responds to security threats across your AI assets. For more information, see [Configure post-runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-event-metrics.md).
 
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring.md)
 

@@ -2,10 +2,10 @@
 title: Campaigns
 description: A campaign groups related metrics into one unit for collection and approval, centralizing shared properties such as due dates and entities so you can manage and track them together.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/campaigns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/campaigns.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -23,21 +23,21 @@ Data owners and approvers are configured separately. A data owner, a single user
 **Related topics**  
 
 
-[Enable campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/enable-campaigns.md)
+[Enable campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/enable-campaigns.md)
 
-[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-campaign.md)
+[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-campaign.md)
 
-[Add or remove entities and metrics from a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-or-remove-entities-and-metrics-from-a-campaign.md)
+[Add or remove entities and metrics from a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/add-or-remove-entities-and-metrics-from-a-campaign.md)
 
-[Configure data owner and approver assignments for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-data-owner-and-approver-assignments-for-a-campaign.md)
+[Configure data owner and approver assignments for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configure-data-owner-and-approver-assignments-for-a-campaign.md)
 
-[Schedule a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/schedule-a-campaign.md)
+[Schedule a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/schedule-a-campaign.md)
 
-[Publish a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/publish-a-campaign.md)
+[Publish a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/publish-a-campaign.md)
 
-[Submit metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/submit-metric-data-tasks-for-a-campaign.md)
+[Submit metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/submit-metric-data-tasks-for-a-campaign.md)
 
-[Manage metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/manage-metric-data-tasks-for-a-campaign.md)
+[Manage metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/manage-metric-data-tasks-for-a-campaign.md)
 
-[Campaign fields and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/campaign-fields-and-states.md)
+[Campaign fields and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/campaign-fields-and-states.md)
 

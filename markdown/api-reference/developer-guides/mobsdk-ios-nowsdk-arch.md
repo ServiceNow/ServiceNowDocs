@@ -2,7 +2,7 @@
 title: NowSDK architecture
 description: The NowSDK is the top-level entity of the Mobile SDK class framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-nowsdk-arch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-ios-nowsdk-arch.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -35,15 +35,15 @@ NowSDK provides the following feature services and associated APIs:
 
     Primary APIs:
 
-    -   [NowAPIService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAPIServiceiOSAPI.md): This API provides functionality that enables you to interact with the publicly exposed [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md) on your ServiceNow instance.
-    -   [NowAttachmentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAttachmentServiceiOSAPI.md): This API provides functionality to upload and query file attachments on your ServiceNow instance within your iOS application.
-    -   [NowGraphQLService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowGraphQLServiceiOSAPI.md): This API provides functionality that enables you to use GraphQL queries to obtain data from tables within your ServiceNow instance using the ServiceNow REST GraphQL API.
-    -   [NowTableService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md): This API provides functionality that enables you to perform create, read, update, and delete \(CRUD\) operations on existing tables in your ServiceNow instance that are serviced through the ServiceNow REST Table API.
+    -   [NowAPIService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowAPIServiceiOSAPI.md): This API provides functionality that enables you to interact with the publicly exposed [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md) on your ServiceNow instance.
+    -   [NowAttachmentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowAttachmentServiceiOSAPI.md): This API provides functionality to upload and query file attachments on your ServiceNow instance within your iOS application.
+    -   [NowGraphQLService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowGraphQLServiceiOSAPI.md): This API provides functionality that enables you to use GraphQL queries to obtain data from tables within your ServiceNow instance using the ServiceNow REST GraphQL API.
+    -   [NowTableService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md): This API provides functionality that enables you to perform create, read, update, and delete \(CRUD\) operations on existing tables in your ServiceNow instance that are serviced through the ServiceNow REST Table API.
 -   NowChat
 
     Enables you to embed a native [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md) chat window in your applications. This service includes UI/UX features.
 
-    Primary API: [NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md): This API provides Virtual Agent and Live Agent chat capabilities to your iOS applications. Use the full-service chat capabilities provided by the ServiceNow platform by simply implementing NowChatService within your application.
+    Primary API: [NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md): This API provides Virtual Agent and Live Agent chat capabilities to your iOS applications. Use the full-service chat capabilities provided by the ServiceNow platform by simply implementing NowChatService within your application.
 
 -   NowPush
 
@@ -51,18 +51,18 @@ NowSDK provides the following feature services and associated APIs:
 
     Primary APIs:
 
-    -   [NowPushPayload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowPushPayloadiOSProtocol.md): This is a generic protocol that you can use to define a push notification protocol within the `NowSDK` framework.
-    -   [NowPushService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowPushServiceiOSAPI.md): This API provides functions that enable interaction with the Push Notification service.
+    -   [NowPushPayload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowPushPayloadiOSProtocol.md): This is a generic protocol that you can use to define a push notification protocol within the `NowSDK` framework.
+    -   [NowPushService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowPushServiceiOSAPI.md): This API provides functions that enable interaction with the Push Notification service.
 -   NowWeb
 
     Enables you to load web pages hosted on your ServiceNow instance in a native web view, with support for Cabrillo. It automatically handles user authentication and session management instead of forcing users to log in to the instance via a login web page.
 
-    Primary API: [NowWebService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebServiceiOSAPI.md): This API provides functionality that enables the browsing of web pages on your ServiceNow instance.
+    Primary API: [NowWebService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowWebServiceiOSAPI.md): This API provides functionality that enables the browsing of web pages on your ServiceNow instance.
 
 -   NowVoice
 
     Embed a real-time, AI-powered voice agent directly in your mobile application. NowVoice provides a full-screen voice interface that connects users to a ServiceNow voice agent, with live transcripts, mute controls, and post-call transcript sharing.
 
-    Primary API: [NowVoiceService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md): This API provides functions to manage voice agent sessions for a single ServiceNow instance.
+    Primary API: [NowVoiceService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md): This API provides functions to manage voice agent sessions for a single ServiceNow instance.
 
 

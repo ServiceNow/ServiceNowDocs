@@ -2,7 +2,7 @@
 title: Assign a Health and Safety case linked to a Universal Request
 description: Assign the Health and Safety case that is associated with the Universal Request to an agent. If the assignment group is selected then an agent in that group can be selected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-case-management/hs-assign-universal-request-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-case-management/hs-assign-universal-request-agent.html
 release: australia
 product: Health and Safety Case Management
 classification: health-and-safety-case-management

@@ -2,7 +2,7 @@
 title: Install Agent Workspace for HR Case Management
 description: Install Agent Workspace for HR Case Management \(com.sn\_hr\_agent\_ws\) from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/install-configurable-hr-agent-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/install-configurable-hr-agent-ws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

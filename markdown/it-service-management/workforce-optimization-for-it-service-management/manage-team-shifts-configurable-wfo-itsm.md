@@ -2,7 +2,7 @@
 title: Create a shift plan
 description: Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/manage-team-shifts-configurable-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/manage-team-shifts-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -26,7 +26,7 @@ Role required: sn\_shift\_planning.admin
 
 In the **Shifts** tab, you can view the work shifts and on-call shifts in separate tabs. The shifts are grouped by active and inactive shifts. The contextual side panel displays the active and then the inactive shifts in the order it is displayed in the **Shifts** tab. You can scroll through the shifts using pagination.
 
-**Note:** Your administrator can set user preferences for the pagination size to view work shifts and on-call shifts. For more information see, [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)
+**Note:** Your administrator can set user preferences for the pagination size to view work shifts and on-call shifts. For more information see, [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)
 
 ## Procedure
 
@@ -44,15 +44,15 @@ In the **Shifts** tab, you can view the work shifts and on-call shifts in separa
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d40892e196">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d40911e196">
 
 To
 
-</th><th align="left" id="d40892e199">
+</th><th align="left" id="d40911e199">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d40892e205">
+</th></tr></thead><tbody><tr><td id="d40911e205">
 
 **Create a work shift**
 
@@ -85,7 +85,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Click **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d40892e323">
+</td></tr><tr><td id="d40911e323">
 
 **Create an on-call shift**
 
@@ -121,10 +121,10 @@ You can view the name of the primary agent for each on-call shift on the shift c
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
 
 **Related topics**  
 
 
-[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
+[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
 

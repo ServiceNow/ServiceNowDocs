@@ -2,7 +2,7 @@
 title: Roll up lookup info to security incident activity
 description: The Roll up lookup info to security incident activity can be used with any workflow to gather information from a threat lookup and output a summary of the contents as well as the ID of the originating security incident in task work notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/r\_RollUpScanInfoSI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/r\_RollUpScanInfoSI.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ The output variables contain data that can be used in subsequent activities.
 |siId\[string\]|Security incident identifier.|
 |response \[string\]|Summary of lookup results including: IoC value, Result, Failure reason, lookup reference, and so on.|
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/common-wf-activities.md)
 

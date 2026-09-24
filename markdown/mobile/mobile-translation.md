@@ -2,7 +2,7 @@
 title: Create translation records for mobile
 description: Create records on the Translated Name / Field table to translate elements of your mobile app that aren't natively translated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-translation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-translation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -79,7 +79,7 @@ Element
 
 </td><td>
 
-The element on the table to be translated. Refer to [Translation values for mobile element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-translation-reference.md) for the element names of each translatable element.
+The element on the table to be translated. Refer to [Translation values for mobile element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-translation-reference.md) for the element names of each translatable element.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -87,5 +87,5 @@ The element on the table to be translated. Refer to [Translation values for mobi
 5.  Repeat the steps to create a record for each language you want to support on your instance.
 
 
-**Parent Topic:**[Server-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/localization-server-side.md)
+**Parent Topic:**[Server-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/localization-server-side.md)
 

@@ -2,7 +2,7 @@
 title: Add a person manually to the impacted people list
 description: Manually add people to the impacted people list who may have visited the critical event location. Adding people help account for visitors, as their names won’t be automatically generated in the impacted people list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/add-person-manually-to-impacted-people.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/add-person-manually-to-impacted-people.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -34,14 +34,14 @@ Role required: sn\_critical.agent
 
 6.  Select the status of the person.
 
-    For details on impacted people status, see [Impacted people status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/impacted-people-status.md).
+    For details on impacted people status, see [Impacted people status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/impacted-people-status.md).
 
 7.  Enter any relevant notes.
 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 

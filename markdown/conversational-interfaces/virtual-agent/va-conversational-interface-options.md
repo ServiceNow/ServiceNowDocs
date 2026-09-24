@@ -2,7 +2,7 @@
 title: Virtual Agent chat widget interface for NLU
 description: The Natural Language Understanding \(NLU\) Virtual Agent chat widget interface captures an automated messaging session between Virtual Agent and the user. Users can see a list of all the topics that the bot can help with, enter a request, request a transfer to a live agent, send and receive attachments, and receive visual and/or audio notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-conversational-interface-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-conversational-interface-options.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +19,7 @@ The Natural Language Understanding \(NLU\) Virtual Agent chat widget interface c
 
 The chat widget interface uses the Service Portal web widget, which you can configure for custom service portals. This widget is available in the CSM, HR Service Delivery, and ITSM Service Portals.
 
-**Note:** The information in this content is applicable to only Natural Language Understanding \(NLU\) Virtual Agent. For more information about the LLM Virtual Agent end-user experience, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+**Note:** The information in this content is applicable to only Natural Language Understanding \(NLU\) Virtual Agent. For more information about the LLM Virtual Agent end-user experience, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 A simple conversation typically includes the following elements:
 

@@ -2,7 +2,7 @@
 title: Send notifications during a critical event
 description: Send critical event notification to impacted people and on-site responders in Critical Event Management to inform them of the situation and request their response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/notify-impacted-people.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/notify-impacted-people.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -38,17 +38,17 @@ Use the existing notification templates to send messages to impacted people and 
 
     You can manage the communication recipients and the communication record by selecting the More actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\).
 
-    For more information on managing recipients, see [Manage the recipients of a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-recipients.md).
+    For more information on managing recipients, see [Manage the recipients of a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/manage-recipients.md).
 
 5.  Edit the message in the template as needed.
 
 6.  Select **Send**.
 
 
--   **[Create a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/create-new-communication.md)**  
+-   **[Create a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/create-new-communication.md)**  
 Create an on-demand, customized message for a critical event in Critical Event Management, choose how often to send it, and select the communication channels.
--   **[Manage the recipients of a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-recipients.md)**  
+-   **[Manage the recipients of a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/manage-recipients.md)**  
 Add or edit the list of recipients for various communication tasks.
 
-**Parent Topic:**[Critical Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/critical-event-management.md)
+**Parent Topic:**[Critical Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/critical-event-management.md)
 

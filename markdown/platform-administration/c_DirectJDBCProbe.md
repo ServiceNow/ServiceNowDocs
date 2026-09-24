@@ -2,7 +2,7 @@
 title: Direct JDBC Probe
 description: A direct JDBC probe specifies all the parameters necessary in the outbound ECC Queue XML payload.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_DirectJDBCProbe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_DirectJDBCProbe.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,10 +30,10 @@ A direct JDBC probe has the following XML payload structure
     </select></parameter></parameters>
 ```
 
-**Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_JDBCProbe.md)
+**Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_JDBCProbe.md)
 
 **Related topics**  
 
 
-[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_JDBCProbe.md)
+[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_JDBCProbe.md)
 

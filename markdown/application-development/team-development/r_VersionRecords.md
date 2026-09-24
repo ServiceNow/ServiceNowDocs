@@ -2,7 +2,7 @@
 title: Version records
 description: The Update Versions \[sys\_update\_version\] table contains records that represent the state of a customizable object at a particular time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/r\_VersionRecords.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/r\_VersionRecords.html
 release: australia
 product: Team Development
 classification: team-development
@@ -90,7 +90,7 @@ Reverted from
 
 </td><td>
 
-A reference to the older version record, if this version was created by [reverting to an older version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_RevertAChange.md).
+A reference to the older version record, if this version was created by [reverting to an older version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_RevertAChange.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -125,13 +125,13 @@ Version List
 All versions of the customized record that are available on the instance.
 
 </td></tr></tbody>
-</table>-   **[Merge tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/diff-merge-tool.md)**  
+</table>-   **[Merge tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/diff-merge-tool.md)**  
 The Diff Merge tool enables administrative users to compare differences between two versions of a record.
 
-**Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_Versions.md)
+**Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/c_Versions.md)
 
 **Related topics**  
 
 
-[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/team-development-landing.md)
+[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/team-development-landing.md)
 

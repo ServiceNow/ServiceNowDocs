@@ -2,7 +2,7 @@
 title: Validate NIDS sensors
 description: Validate the Network IDS \(NIDS\) sensors once they're imported to prepare for device import. The sensors can only pass the validation if they aren't in learning mode as such sensors aren't eligible for device import.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/validate-nids-appliances-sgc-claroty.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/validate-nids-appliances-sgc-claroty.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -63,5 +63,5 @@ The **Life Cycle Stage** and **Life Cycle Stage Status** fields are used to capt
     -   zone
     -   isa\_entity\_site \(only available if you have the Industrial Process Manager application installed\)
 
-**Parent Topic:**[Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-cmdb-integration-claroty-ctd.md)
+**Parent Topic:**[Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/sgc-cmdb-integration-claroty-ctd.md)
 

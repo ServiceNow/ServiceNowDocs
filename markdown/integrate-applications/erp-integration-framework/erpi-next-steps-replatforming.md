@@ -2,7 +2,7 @@
 title: Next steps after extracting data from your ERP system using Zero Copy Connector for ERP
 description: After you identify and extract ERP \(Enterprise Resource Planning\) data with Zero Copy Connector for ERP, you can use that data on the ServiceNow AI Platform as the data source for products and apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpi-next-steps-replatforming.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpi-next-steps-replatforming.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

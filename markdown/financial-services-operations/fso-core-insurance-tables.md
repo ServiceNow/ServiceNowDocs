@@ -2,7 +2,7 @@
 title: FSO Core Insurance tables
 description: This section explains the insurance tables in FSO Core and how they handle insurance data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-core-insurance-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-core-insurance-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -44,5 +44,5 @@ This section explains the insurance tables in FSO Core and how they handle insur
 |Renters Policy|sn\_bom\_renters\_ins\_policy|Insurance personal renters policy table extended from insurance policy.|
 |Transaction|sn\_bom\_ins\_policy\_transaction|Stores all policy transaction records. Extends the Financial Transaction \[sn\_bom\_transaction\] table.|
 
-**Parent Topic:**[Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md)
+**Parent Topic:**[Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-core-data-model.md)
 

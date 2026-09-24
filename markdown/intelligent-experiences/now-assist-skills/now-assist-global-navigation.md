@@ -2,7 +2,7 @@
 title: Navigation
 description: Use the navigation skill in to take you where you want to go on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-global-navigation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/now-assist-global-navigation.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills

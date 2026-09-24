@@ -2,7 +2,7 @@
 title: Integration Hub subscription notifications
 description: Integration Hub displays an information message whenever you use a spoke, protocol, entitlement, or feature that requires an Integration Hub subscription. You can use this information to identify possible gaps between your planned Integration Hub usage and your current subscription entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/integrationhub-subscription-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/integrationhub-subscription-notifications.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -30,5 +30,5 @@ Your instance attempts to access your Integration Hub subscription information o
 
 When your instance cannot access your subscription information, it displays generic information messages. Whenever you use a feature that requires an Integration Hub subscription, the system displays a reminder information message. Verify that you have an appropriate Integration Hub subscription for the features you want to use.
 
-**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)
+**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/request-ih-overview.md)
 

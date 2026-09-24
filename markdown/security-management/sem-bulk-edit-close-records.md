@@ -2,7 +2,7 @@
 title: Close records in bulk in the Security Exposure Management Workspace
 description: Close multiple records \(VITs, AVITs, or CVITs\) concurrently using the bulk edit feature in the Security Exposure Management Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-bulk-edit-close-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-bulk-edit-close-records.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,8 +34,8 @@ Role required:
     -   Application Vulnerable items
 3.  Perform one of the following:
 
-    -   Select the check box next to each item if you want to use the Only Selected Items option in the [**Record Selection**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-close-records.md) field.
-    -   Apply filters if you want to use the All Vulnerable Items that match filter option in the [**Record Selection**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-close-records.md) field.
+    -   Select the check box next to each item if you want to use the Only Selected Items option in the [**Record Selection**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-close-records.md) field.
+    -   Apply filters if you want to use the All Vulnerable Items that match filter option in the [**Record Selection**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-close-records.md) field.
 4.  Select the **Bulk Edit** button.
 
 5.  On the form, fill in the fields to close the selected records.
@@ -80,7 +80,7 @@ Reason
 
 Reason for closing records:-   False Positive
 
-**Note:** When you select this option to mark the records as false- positive, the Reason, Short description, and Additional information fields appear. For more information on bulk edit for false positive, see [Bulk edit for false positive in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md).
+**Note:** When you select this option to mark the records as false- positive, the Reason, Short description, and Additional information fields appear. For more information on bulk edit for false positive, see [Bulk edit for false positive in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md).
 
 -   Cancelled
 -   Fixed
@@ -100,5 +100,5 @@ Text that you enter to describe the changes.
     A bulk edit asynchronous job updates the relevant records.
 
 
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)
+**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-using-bulk-edit.md)
 

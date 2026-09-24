@@ -2,7 +2,7 @@
 title: Grouped Choice user input control
 description: Use the Grouped Choice user input control in a Virtual Agent topic to list multiple groups of choices in one message.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-grouped-choice-user-input.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-grouped-choice-user-input.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +20,7 @@ Use the Grouped Choice user input control in a Virtual Agent topic to list multi
 
 The Grouped Choice list prompts users to select related choices in one message through the default **Select a choice** button. You can enable multi-select for each choice's group and also provide images and short descriptions to create a richer user experience. Users are presented with groups of choices where they're required to submit one selection before returning to the Virtual Agent topic.
 
-Inputs are recorded on the Interactions \[interactions\] table. For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
+Inputs are recorded on the Interactions \[interactions\] table. For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-interactions.md).
 
 ## Grouped Choice user input control properties
 
@@ -237,5 +237,5 @@ List prompt
 |Apple Messages for Business|Not supported|Not applicable|
 |Alexa \(Voice\)|Not supported|Not applicable|
 
-**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

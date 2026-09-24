@@ -2,7 +2,7 @@
 title: Linking Canvas from a Case
 description: Use this section to link a canvas from a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-link-canvas-from-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-link-canvas-from-case.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -43,5 +43,5 @@ Role required: sn\_sec\_tisc.analyst
     An information message is displayed indicating that the canvas data is refreshed successfully.
 
 
-**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

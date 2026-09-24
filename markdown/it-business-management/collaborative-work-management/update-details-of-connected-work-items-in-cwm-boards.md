@@ -2,7 +2,7 @@
 title: Update details of connected work items in CWM Boards
 description: Learn how to update the status, assigned to, and other details for the work items that are brought into your Collaborative Work Management Board through Connected work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/update-details-of-connected-work-items-in-cwm-boards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/update-details-of-connected-work-items-in-cwm-boards.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -47,7 +47,7 @@ The updated information is available on the work item both in CWM and in its par
 
 ## What to do next
 
-To customize the fields that appear in the side panel for CWM tasks and connected work items, see [Configure the form view for CWM tasks and connected work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/configure-form-view-for-cwm-tasks.md).
+To customize the fields that appear in the side panel for CWM tasks and connected work items, see [Configure the form view for CWM tasks and connected work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/configure-form-view-for-cwm-tasks.md).
 
-**Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
+**Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 

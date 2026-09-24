@@ -2,7 +2,7 @@
 title: Submit block list entries directly from the Block List Entry Table
 description: For observables determined to be malicious, and not associated with a specific Now Platform security incident, you submit Block List entries from the block list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/submit-blk-list-entries-from-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/submit-blk-list-entries-from-table.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

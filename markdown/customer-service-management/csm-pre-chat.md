@@ -2,7 +2,7 @@
 title: Pre-chat from the Consumer Service Portal
 description: Start a support chat on the Consumer Service Portal by completing the Pre-chat survey. Survey questions vary depending on whether you are logged in or anonymous.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-pre-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-pre-chat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,5 +30,5 @@ Role required: sn\_customerservice.consumer
 **Related topics**  
 
 
-[Pre-chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-pre-chat-overview.md)
+[Pre-chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-pre-chat-overview.md)
 

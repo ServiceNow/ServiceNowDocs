@@ -2,12 +2,12 @@
 title: Get Running Services - WMI Enrichment
 description: The Security Incident Response - Get Running Services workflow gathers running services on a configuration item added to a security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-running-services-via-pwrshell-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/get-running-services-via-pwrshell-activity.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Get Running Services workflow, Security Incident Response Orchestration workflows and activities, Understand Security Incident Response Orchestration workflows and workflow templates, Security Incident Response Orchestration, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -84,5 +84,5 @@ The MID Server must support **PowerShell**.
 
 SHA-256 hash requires PowerShell V4.
 
-**Parent Topic:**[Security Incident Response - Get Running Services workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/get-running-services-workflow.md)
+**Parent Topic:**[Security Incident Response - Get Running Services workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/get-running-services-workflow.md)
 

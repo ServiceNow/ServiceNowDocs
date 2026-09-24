@@ -2,7 +2,7 @@
 title: Modifying and adding calendar report system properties
 description: Specify system property values to override Task table highlighting in calendar events, limit the number of events in a calendar cell, or change the day the calendar week starts.Highlighting for calendar report events is configured with field styles, which are defined for a particular table. You can configure whether calendar reports use field styles from the tables or report sources that they are based on.In calendar reports, you can configure the maximum number of events that appear in some calendar views.By default, weeks for calendar reports start on Sunday. You can add a system property to start weeks on Sunday or another day instead.Configure a system property to specify how calendar week numbers are determined.By default, calendar reports save up to 10,000 records. Change this limit by setting the glide.ui.max\_calendar\_records system property. If the number of records fetched exceeds this limit, you are prompted to filter the data and run the report again.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/modify-add-calendar-sys-props.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/modify-add-calendar-sys-props.html
 release: australia
 product: Reporting
 classification: reporting
@@ -91,7 +91,7 @@ The **glide.ui.date\_format.first\_day\_of\_week** system property modifies the 
 
 **glide.ui.filter.first\_day\_of\_week** must also be set to the same value as **glide.ui.date\_format.first\_day\_of\_week** for the set day to display properly.
 
-If you change the **glide.ui.filter.first\_day\_of\_week** property after collecting Performance Analytics score data, you won't be able to view the scores for weekly indicators. To access them, you must [collect scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md) again.
+If you change the **glide.ui.filter.first\_day\_of\_week** property after collecting Performance Analytics score data, you won't be able to view the scores for weekly indicators. To access them, you must [collect scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ClctData.md) again.
 
 ### Procedure
 
@@ -163,7 +163,7 @@ Set **Value** to `7`
 
 ### What to do next
 
-Configure the system property **glide.db.week\_numbering** to specify how weeks are calculated. For more information, see [Customize calendar weeks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/modify-add-calendar-sys-props.md).
+Configure the system property **glide.db.week\_numbering** to specify how weeks are calculated. For more information, see [Customize calendar weeks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/modify-add-calendar-sys-props.md).
 
 **Related topics**  
 

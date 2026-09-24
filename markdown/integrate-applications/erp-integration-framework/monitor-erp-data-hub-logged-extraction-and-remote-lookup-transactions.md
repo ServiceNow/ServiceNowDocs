@@ -2,7 +2,7 @@
 title: Monitor Zero Copy Connector for ERP transactions and logged errors
 description: Use the monitoring feature to track the progress of each ERP \(Enterprise Resource Planning\) transaction and view logged errors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -33,6 +33,6 @@ Role required: sn\_erp\_integration.erp\_admin
 
     Filter the information as needed. For example, show only successes, failures, or information for a specific system.
 
-    For a description of the field values, see [Zero Copy Connector for ERP Monitor field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-data-hub-monitor-field-descriptions.md).
+    For a description of the field values, see [Zero Copy Connector for ERP Monitor field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-data-hub-monitor-field-descriptions.md).
 
 

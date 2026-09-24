@@ -2,7 +2,7 @@
 title: RTL support for Employee Center
 description: As an employee, you can change the display of the user interface from right-to-left.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-rtl-language-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-rtl-language-support.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,9 +21,9 @@ Based on your language preferences, the entire hierarchy of existing infrastruct
 -   When the session language is a right-to-left language, for example Hebrew, the direction of the portal user interface displays from right to left.
 -   The arrow next to View Org Chart in employee\_profile widget, View All in ec\_pro\_dashboard, employee taxonomy topic widget, and across Employee Center points to left per the RTL format.
 
-For more information, see [Enable support for right-to-left languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-direction-right-to-left-languages.md).
+For more information, see [Enable support for right-to-left languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-direction-right-to-left-languages.md).
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

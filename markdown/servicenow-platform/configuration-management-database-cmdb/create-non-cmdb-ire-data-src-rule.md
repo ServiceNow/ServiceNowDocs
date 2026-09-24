@@ -2,7 +2,7 @@
 title: Create an IRE data source rule for non-CMDB tables
 description: When using Identification and Reconciliation Engine \(IRE\), you can prevent a specific data source from inserting new records for a specific non-CMDB table. Create IRE data source rules for data sources that you don't trust in creating records but continue to trust in updating those records that exist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-non-cmdb-ire-data-src-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/create-non-cmdb-ire-data-src-rule.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -68,5 +68,5 @@ If later, a permitted data source successfully inserts a record that matches the
 3.  Later payloads in which the non-permitted data source updates the respective record, run successfully.
 4.  IRE allows the data source, that was previously prohibited from inserting the record, to update that same record which now exists in the non-CMDB table.
 
-**Parent Topic:**[IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md)
+**Parent Topic:**[IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md)
 

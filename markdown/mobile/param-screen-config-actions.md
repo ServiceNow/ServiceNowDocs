@@ -2,7 +2,7 @@
 title: Configure input sources in an input form screen
 description: Configure the actions that you want to appear on an Input field to trigger a UI rule. These input source actions are shown above the keyboard, or next to the selected input. Use it to configure summarization actions for GenAI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/param-screen-config-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/param-screen-config-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Configure the actions that you want to appear on an Input field to trigger a UI 
 
 ## Before you begin
 
-You must create an input form screen before you can create actions. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+You must create an input form screen before you can create actions. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/parameter-screen-config.md).
 
 Role required: admin
 
@@ -142,7 +142,7 @@ Action attributes
 
 </td><td>
 
-Determine where or how the action handles the generated data.**Note:** The only action attribute available when `Input source` is selected in the **Input type** field, is *UserActionID*. For a list of the attributes when the **Input type** is `Input action`, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/input-actions-configure.md)
+Determine where or how the action handles the generated data.**Note:** The only action attribute available when `Input source` is selected in the **Input type** field, is *UserActionID*. For a list of the attributes when the **Input type** is `Input action`, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/input-actions-configure.md)
 
 **UserActionID**: A unique value that identifies this action record. It is needed to associate the action with a UI rule.
 
@@ -152,5 +152,5 @@ Determine where or how the action handles the generated data.**Note:** The only 
 
 ## What to do next
 
-Associate the **UserActionID** for this action to a UI rule. For more information, see [Create a mobile UI rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mobile-ui-rule.md).
+Associate the **UserActionID** for this action to a UI rule. For more information, see [Create a mobile UI rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-mobile-ui-rule.md).
 

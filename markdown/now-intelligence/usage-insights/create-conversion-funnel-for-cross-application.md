@@ -2,7 +2,7 @@
 title: Create cross-application conversion funnels
 description: Conversion funnels outline a sequence of steps to measure user progression, identify drop-off points, and track the time taken for each transition. The cross-application capability eliminates the requirement for every step to be in the same application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/create-conversion-funnel-for-cross-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/create-conversion-funnel-for-cross-application.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -81,5 +81,5 @@ The funnel reports the number of users who reached each step and the drop-off be
 
 Select **Session Start \(any\)** for the first step when you want the funnel to begin from any visit. Then, add **Page View** or **Event Trigger** steps to measure what users do next, in one application or across several.
 
-**Parent Topic:**[Create a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/create-funnel.md)
+**Parent Topic:**[Create a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/create-funnel.md)
 

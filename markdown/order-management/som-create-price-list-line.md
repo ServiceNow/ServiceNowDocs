@@ -2,7 +2,7 @@
 title: Create a price list line
 description: Create a price list line and associate it to a product offering.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-price-list-line.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-create-price-list-line.html
 release: australia
 topic_type: task
 last_updated: "2025-11-16"
@@ -90,7 +90,7 @@ Derived price
 
 </td><td>
 
-Option that enables derived pricing \(also called related product pricing\) for product offerings associated with this price list line. For more information, see [Configuring derived pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-related-product-pricing.md).
+Option that enables derived pricing \(also called related product pricing\) for product offerings associated with this price list line. For more information, see [Configuring derived pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-related-product-pricing.md).
 
 </td></tr><tr><td>
 

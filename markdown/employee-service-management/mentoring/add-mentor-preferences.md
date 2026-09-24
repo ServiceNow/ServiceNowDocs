@@ -2,7 +2,7 @@
 title: Add mentor preferences
 description: As a mentor, add your preferences to help mentees find out if you're the right match for them
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/add-mentor-preferences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/mentoring/add-mentor-preferences.html
 release: australia
 product: Mentoring
 classification: mentoring
@@ -18,7 +18,7 @@ As a mentor, add your preferences to help mentees find out if you're the right m
 
 ## Before you begin
 
-Enroll as a mentee. For more information, see [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/enroll-mentoring.md)
+Enroll as a mentee. For more information, see [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/mentoring/enroll-mentoring.md)
 
 Role required: none
 

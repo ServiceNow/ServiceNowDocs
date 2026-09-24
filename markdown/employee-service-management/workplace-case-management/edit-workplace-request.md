@@ -2,7 +2,7 @@
 title: Edit a workplace request
 description: Edit the details of a workplace request or change workplace service items included in a workplace request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/edit-workplace-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/edit-workplace-request.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -31,7 +31,7 @@ Editing a request is supported for the following request types:
 -   Space arrangement request
 -   Tech support
 
-If you have created a request from a workplace reservation, you can only edit the request from the reservation summary page. For more information, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
+If you have created a request from a workplace reservation, you can only edit the request from the reservation summary page. For more information, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
 
 **Note:**
 
@@ -68,7 +68,7 @@ Role required: sn\_wsd\_core.workplace\_user
     The Workplace Request is updated.
 
 
-**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

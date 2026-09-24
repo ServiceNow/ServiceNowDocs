@@ -2,7 +2,7 @@
 title: Use the Asset Contract Overview module
 description: You can view information about your contract status in the Contract Management Overview module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_UseTheContractMgmtOverviewModule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/contract-management/t\_UseTheContractMgmtOverviewModule.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -35,7 +35,7 @@ Because the Contract Management Overview module is a type of homepage, you can a
     \[Omitted image "contract-management-overview.png"\] Alt text: Contract Management Overview module
 
 
-**Parent Topic:**[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_ContractManagement.md)
+**Parent Topic:**[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/c_ContractManagement.md)
 
 **Related topics**  
 

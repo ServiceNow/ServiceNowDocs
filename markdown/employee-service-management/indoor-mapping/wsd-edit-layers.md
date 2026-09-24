@@ -2,7 +2,7 @@
 title: Configure layers
 description: Select a layer on the Map Configuration preview and edit it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/wsd-edit-layers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/wsd-edit-layers.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -38,7 +38,7 @@ Role required: sn\_map\_core.map\_admin
 
     The edit panel appears.
 
-    **Note:** **Use for floor surface area calculation** option is not available for selection after it’s enabled for a layer. For more information, see [Compute Autocad floor surface area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/compute-autocad-floor-surface.md).
+    **Note:** **Use for floor surface area calculation** option is not available for selection after it’s enabled for a layer. For more information, see [Compute Autocad floor surface area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/compute-autocad-floor-surface.md).
 
     \[Omitted image "wsd-layers-expanded-autocadv2.png"\] Alt text: Layer summary pill showing configuration information for a selected layer type.
 
@@ -82,9 +82,9 @@ Role required: sn\_map\_core.map\_admin
 10. Repeat the steps for the layers that you want to import to your CAD source file.
 
 
-**Parent Topic:**[Configure CAD objects using the Map Configuration tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-cad-map-config.md)
+**Parent Topic:**[Configure CAD objects using the Map Configuration tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/manage-cad-map-config.md)
 
-**Previous topic:**[Georeference your floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/georeference-floor-plan.md)
+**Previous topic:**[Georeference your floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/georeference-floor-plan.md)
 
-**Next topic:**[Configure places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/edit-places.md)
+**Next topic:**[Configure places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/edit-places.md)
 

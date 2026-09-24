@@ -2,7 +2,7 @@
 title: Model management view
 description: Use the Model management view in the Hardware Asset Workspace to create or edit models, view the asset model-related functions such as hardware and consumable models nearing the end of life, and take appropriate actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/model-management-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/model-management-view.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

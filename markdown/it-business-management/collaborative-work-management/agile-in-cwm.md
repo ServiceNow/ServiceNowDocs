@@ -2,7 +2,7 @@
 title: Agile work management in CWM
 description: Run your agile workflow in Collaborative Work Management \(CWM\), from building and refining a backlog to planning sprints, executing work as stories and scrum tasks, and collaborating with your team.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/agile-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/agile-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -27,38 +27,38 @@ The following end-to-end workflow shows how agile teams use CWM to plan and exec
 
 -   **Set up your workspace**
 
-    Create a Space and a Board for your team. The Space is where all your work lives. CWM provides Stories, Scrum tasks, and CWM Tasks as default work item types. You can also define custom work item types to reflect your team's terminology, for example, Bugs. For more information, see [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md) and [Create and manage custom work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-custom-work-item-types-in-cwm.md).
+    Create a Space and a Board for your team. The Space is where all your work lives. CWM provides Stories, Scrum tasks, and CWM Tasks as default work item types. You can also define custom work item types to reflect your team's terminology, for example, Bugs. For more information, see [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-boards-in-cwm.md) and [Create and manage custom work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-custom-work-item-types-in-cwm.md).
 
 -   **Build and maintain your backlog**
 
-    Add work items to your Board through the Sprint Planning view. All unscheduled work appears in the Backlog pane, giving your team a single place to groom, prioritize, and reorder items before pulling them into a sprint. For more information, see [Add work items to Sprint planning Backlog in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-work-items-to-sprint-planning-backlog-in-cwm.md).
+    Add work items to your Board through the Sprint Planning view. All unscheduled work appears in the Backlog pane, giving your team a single place to groom, prioritize, and reorder items before pulling them into a sprint. For more information, see [Add work items to Sprint planning Backlog in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-work-items-to-sprint-planning-backlog-in-cwm.md).
 
 -   **Plan sprints**
 
-    Create sprints by setting a duration, start and end dates, and story point capacity. Drag items from the Backlog into a sprint, or add them directly. Capacity indicators in each sprint section help teams avoid over-committing. For more information, see [Create a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-sprints-in-cwm.md) and [Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md).
+    Create sprints by setting a duration, start and end dates, and story point capacity. Drag items from the Backlog into a sprint, or add them directly. Capacity indicators in each sprint section help teams avoid over-committing. For more information, see [Create a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-sprints-in-cwm.md) and [Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md).
 
 -   **Execute and track work**
 
-    Start the sprint and use the Kanban board to track work in progress. Team members move story cards across state lanes to update status. Use quick filters to focus the board on a specific sprint, state, or other columns to stay on top of what matters during the current sprint. For more information, see [Start or complete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/start-a-sprint-in-cwm.md).
+    Start the sprint and use the Kanban board to track work in progress. Team members move story cards across state lanes to update status. Use quick filters to focus the board on a specific sprint, state, or other columns to stay on top of what matters during the current sprint. For more information, see [Start or complete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/start-a-sprint-in-cwm.md).
 
 -   **Break stories into scrum tasks**
 
-    For more granular daily execution, break user stories into scrum tasks. Scrum tasks are subtasks linked to a story, which help teams estimate effort, distribute work, and track daily progress. Create them manually from the story's Scrum tasks tab, or use Now Assist to generate them automatically based on the story context. When a story has scrum tasks, an indicator appears on the Kanban card so teams can quickly see stories that have been decomposed. For more information, see [Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md).
+    For more granular daily execution, break user stories into scrum tasks. Scrum tasks are subtasks linked to a story, which help teams estimate effort, distribute work, and track daily progress. Create them manually from the story's Scrum tasks tab, or use Now Assist to generate them automatically based on the story context. When a story has scrum tasks, an indicator appears on the Kanban card so teams can quickly see stories that have been decomposed. For more information, see [Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md).
 
 -   **Track dependencies**
 
-    Link work items to show how they relate to each other using three relationship types: prerequisite, dependent, and related to. These are informational relationships and don’t block task progress. You can link work items across boards and spaces, enabling visibility into cross-team dependencies without needing to be on the same board. For more information, see [Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md).
+    Link work items to show how they relate to each other using three relationship types: prerequisite, dependent, and related to. These are informational relationships and don’t block task progress. You can link work items across boards and spaces, enabling visibility into cross-team dependencies without needing to be on the same board. For more information, see [Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md).
 
 -   **Hold retrospectives**
 
-    At the end of each sprint, create a retrospective board to capture what went well and what to improve for the next sprint. For more information, see [Create a retrospective board for a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-retrospective-board-for-sprint-cwm.md).
+    At the end of each sprint, create a retrospective board to capture what went well and what to improve for the next sprint. For more information, see [Create a retrospective board for a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-a-retrospective-board-for-sprint-cwm.md).
 
 
 ## Bringing in work from other ServiceNow applications
 
 Agile teams often work on more than just stories. Incidents must be resolved, defects must be fixed, and enhancement requests must be delivered. The Connected work feature in CWM lets you bring records from any ServiceNow application into your Board by defining filter conditions. Once connected, you can plan those records into sprints and manage them alongside your stories from a single backlog.
 
-Teams who previously used the Unified Backlog and triage boards in Agile Development 2.0 to manage defects, incidents, and other work records. These teams can use Connected work to achieve a similar centralized view in CWM. For more information, see [Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md).
+Teams who previously used the Unified Backlog and triage boards in Agile Development 2.0 to manage defects, incidents, and other work records. These teams can use Connected work to achieve a similar centralized view in CWM. For more information, see [Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md).
 
 ## Comparing CWM to Agile Development 2.0
 
@@ -100,7 +100,7 @@ Triage boards filtered records from other apps and automatically created stories
 
 </td><td>
 
-The Connected work feature brings source records directly into the board backlog. So, no separate triage step required. Teams can plan them into sprints and update their status directly from the CWM Board. See [Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md).
+The Connected work feature brings source records directly into the board backlog. So, no separate triage step required. Teams can plan them into sprints and update their status directly from the CWM Board. See [Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Scrum Programs enabled coordination across multiple teams.
 
 </td><td>
 
-CWM is optimized for team-level execution. For program-level planning such as PI planning, use EAP. EAP teams can connect to CWM so teams execute sprint work in CWM while program-level visibility remains in EAP. See [Connecting EAP with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-integration-with-eap.md).
+CWM is optimized for team-level execution. For program-level planning such as PI planning, use EAP. EAP teams can connect to CWM so teams execute sprint work in CWM while program-level visibility remains in EAP. See [Connecting EAP with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-integration-with-eap.md).
 
 </td></tr><tr><td>
 
@@ -129,25 +129,25 @@ Sprint, story points, and acceptance criteria in the CWM story panel are managed
 </td></tr></tbody>
 </table>**Note:** Do not use CWM and Agile Development 2.0 simultaneously for the same stories. If your team manages sprint work in CWM, use CWM as the primary workspace for those stories.
 
--   **[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)**  
+-   **[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)**  
 Plan, track, and manage work for your teams in the Agile methodology using Sprint planning in Collaborative Work Management.
--   **[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)**  
+-   **[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)**  
 Extend your agile workflow in CWM by breaking user stories into scrum tasks. This gives your team the granularity needed to estimate effort, distribute work, and track daily progress through a sprint.
--   **[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)**  
+-   **[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)**  
 Increase visibility into how work is connected by linking work items directly in Collaborative Work Management \(CWM\), eliminating the need to track dependencies in spreadsheets or notes fields.
 
-**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
+**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 
 **Related topics**  
 
 
-[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
+[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 
-[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
+[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
 
-[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
+[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
 
-[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
+[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 
-[Connecting EAP with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-integration-with-eap.md)
+[Connecting EAP with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-integration-with-eap.md)
 

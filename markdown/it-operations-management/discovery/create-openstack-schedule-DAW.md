@@ -2,7 +2,7 @@
 title: Create an OpenStack Discovery schedule in Discovery Admin Workspace
 description: Use the Discovery Admin Workspace dashboard to create an OpenStack Discovery schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-openstack-schedule-DAW.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/create-openstack-schedule-DAW.html
 release: australia
 product: Discovery
 classification: discovery
@@ -24,7 +24,7 @@ Verify the following:
 -   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
 -   You have configured an OpenStack user with the required roles for the project so that the MID Server can access the selected cloud resources you plan to discover. You can create this user through the Horizon dashboard, the OpenStack CLI, or directly through the Keystone API. All three methods write the user to the Keystone identity service.
--   You have created suitable credentials in the ServiceNow AI Platform to connect with the OpenStack user that you want to use for discovery. For more information, see [OpenStack resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.md).
+-   You have created suitable credentials in the ServiceNow AI Platform to connect with the OpenStack user that you want to use for discovery. For more information, see [OpenStack resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.md).
 -   You're using Discovery Admin Workspace v1.13.0 or later.
 
 Role required: discovery\_admin
@@ -46,22 +46,22 @@ Role required: discovery\_admin
     |Option|Description|
     |------|-----------|
     |**Use a cluster of MID servers**|Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md) for more information.|
-    |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.|
+    |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.|
     |**Search for a MID server**|Choose a MID Server to run the Discovery schedule. Only MID Servers that are validated, up, and have the Cloud Management capability are displayed.|
 
 7.  Select **Next**.
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d398492e319">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d398555e319">
 
 Option
 
-</th><th align="left" id="d398492e322">
+</th><th align="left" id="d398555e322">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d398492e328">
+</th></tr></thead><tbody><tr><td id="d398555e328">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **OpenStack Account ID**, and **Cloud URL** fields auto-populate.
 
-</td></tr><tr><td id="d398492e346">
+</td></tr><tr><td id="d398555e346">
 
 **New cloud account**
 

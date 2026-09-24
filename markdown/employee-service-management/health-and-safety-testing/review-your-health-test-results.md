@@ -2,7 +2,7 @@
 title: Review your health test results
 description: If you would like to review your recently reported COVID-19 diagnostic test result or add an attachment to a health test, access your previous test results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-testing/review-your-health-test-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-testing/review-your-health-test-results.html
 release: australia
 product: Health and Safety Testing
 classification: health-and-safety-testing
@@ -34,5 +34,5 @@ Role required: sn\_imt\_core.privacy\_consent\_user
 
     -   If you are reviewing the record, review the record and click **Back** to return to the list of test results.
 
-**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/health-safety-testing.md)
+**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-testing/health-safety-testing.md)
 

@@ -2,7 +2,7 @@
 title: Integrating PaCE with other applications
 description: Extend the capabilities of Policy as Code Engine \(PaCE\) by creating policies with other applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-integrate-other-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-integrate-other-apps.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

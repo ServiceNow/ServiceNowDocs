@@ -2,11 +2,11 @@
 title: Combined Product Support for Technology release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Product Support for Technology from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-productsupportfortechnology-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-productsupportfortechnology-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 5
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -174,7 +174,12 @@ Australia
 
 </td><td>
 
--   **[Service delivery overview](https://www.servicenow.com/docs/access?context=account-360-analytics-dashboard&family=australia&ft:locale=en-US)**
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[Service delivery overview](https://www.servicenow.com/docs/access?context=account-360-analytics-dashboard&family=australia&ft:locale=en-US)**
 
 The Service Delivery Overview L1 menu is added to the Service Operations Workspace and CSM/FSM Configurable Workspace.
 
@@ -293,6 +298,8 @@ Australia
 
 Install Product Support for Technology and Proactive Service Experience Workflows by requesting them from the ServiceNow® Store.
 
+
+**Important:** Product Support for Technology is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -485,5 +492,5 @@ Australia Early Availability
  See [Product Support for Technology](https://www.servicenow.com/docs/access?context=assurance-workflows&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

@@ -2,7 +2,7 @@
 title: Access the JavaScript debug window
 description: The JavaScript debug window enables access to the JavaScript Log and the Field Watcher tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/t\_UsingTheJavaScriptDebugWindow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/t\_UsingTheJavaScriptDebugWindow.html
 release: australia
 product: Scripts
 classification: scripts
@@ -67,12 +67,12 @@ Click the debug icon in the banner frame.
     -   JavaScript Log
     -   Field Watcher
 
-**Parent Topic:**[JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_JavaScriptDebugWindow.md)
+**Parent Topic:**[JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_JavaScriptDebugWindow.md)
 
 **Related topics**  
 
 
-[Writing to the debug log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_WritingToTheDebugLog.md)
+[Writing to the debug log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_WritingToTheDebugLog.md)
 
-[Watching fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_FieldWatcher.md)
+[Watching fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_FieldWatcher.md)
 

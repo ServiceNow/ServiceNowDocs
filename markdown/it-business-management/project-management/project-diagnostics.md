@@ -2,12 +2,12 @@
 title: Use Project Diagnostics to detect corrupt project data
 description: Project Diagnostics uses the Application Diagnostics Tool to detect corrupt data in a project, such as tasks with invalid parents, tasks without top tasks, and invalid or cyclic relations in a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-diagnostics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/project-diagnostics.html
 release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Project Diagnostics, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -96,5 +96,5 @@ Steps
 
 ## What to do next
 
-Add your own [diagnostic scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-diagnostic-scan-map-script.md) and [fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-diagnostic-and-fix-script.md).
+Add your own [diagnostic scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-diagnostic-scan-map-script.md) and [fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/add-diagnostic-and-fix-script.md).
 

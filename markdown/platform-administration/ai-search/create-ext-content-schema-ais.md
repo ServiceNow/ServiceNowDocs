@@ -2,7 +2,7 @@
 title: Create an external content schema table
 description: Define a schema table with columns corresponding to fields on records from an external data source. AI Search uses the schema when indexing content from the external data source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/create-ext-content-schema-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/create-ext-content-schema-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -42,7 +42,7 @@ When you index or delete records associated with this content schema using endpo
 
     2.  On the Dictionary Entry form, fill in the fields.
 
-        For descriptions of these form fields, see [Dictionary Entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/r_DictionaryEntryForm.md).
+        For descriptions of these form fields, see [Dictionary Entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/r_DictionaryEntryForm.md).
 
         **Note:** When filling in the **Type** field, select **String**, **Date**, **Date/Time**, or **Integer**. AI Search doesn't support other column types on external content schema tables.
 
@@ -53,7 +53,7 @@ When you index or delete records associated with this content schema using endpo
 
 ## What to do next
 
-Create a new indexed source with your external content schema table defined as its source. For instructions on creating an indexed source, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-indexed-source-ais.md)
+Create a new indexed source with your external content schema table defined as its source. For instructions on creating an indexed source, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-indexed-source-ais.md)
 
-**Parent Topic:**[Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-ais.md)
+**Parent Topic:**[Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/external-content-ais.md)
 

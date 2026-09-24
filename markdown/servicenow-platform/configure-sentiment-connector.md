@@ -2,7 +2,7 @@
 title: Configure a sentiment connector
 description: Specify the service URL and other configuration information for third party APIs that are used for sentiment analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-sentiment-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configure-sentiment-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,5 +58,5 @@ Role required: admin
 5.  Select the **Active** check box for the connector configuration and click **Update**.
 
 
-**Parent Topic:**[Sentiment analysis for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sentiment-analysis.md)
+**Parent Topic:**[Sentiment analysis for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/sentiment-analysis.md)
 

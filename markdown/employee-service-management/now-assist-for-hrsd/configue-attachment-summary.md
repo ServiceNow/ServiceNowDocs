@@ -2,7 +2,7 @@
 title: Configure attachment summary
 description: Customize the case summarization skill in ServiceNow Otto for HRSD to include summaries of case attachments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/configue-attachment-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/configue-attachment-summary.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -39,5 +39,5 @@ Role required: sn\_hr\_core.admin
 6.  Review the remaining sections, then select **Activate**.
 
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

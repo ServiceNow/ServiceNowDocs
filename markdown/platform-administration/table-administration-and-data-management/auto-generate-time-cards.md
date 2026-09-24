@@ -2,7 +2,7 @@
 title: Auto-generate time cards
 description: As an admin, you can configure a scheduled job to generate time cards automatically for project tasks assigned to time card users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/auto-generate-time-cards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/auto-generate-time-cards.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-In addition to the manual option **Generate Time Cards**, a scheduled job can be run to automatically generate the time cards for project tasks. A job can be scheduled to run every week, for example, on every Sunday to generate time sheets for all users for the next week. You can configure when to run the scheduled job based on the business process of the organization. By default, the scheduled job is turned off. For more information, see [Schedule a script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md) .
+In addition to the manual option **Generate Time Cards**, a scheduled job can be run to automatically generate the time cards for project tasks. A job can be scheduled to run every week, for example, on every Sunday to generate time sheets for all users for the next week. You can configure when to run the scheduled job based on the business process of the organization. By default, the scheduled job is turned off. For more information, see [Schedule a script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_ScheduleAScriptExecution.md) .
 
-**Note:** The scheduled job auto-generates time cards only for those users who have the **Auto create time cards every week** option set to true in their assigned [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/create-time-sheet-policy.md).
+**Note:** The scheduled job auto-generates time cards only for those users who have the **Auto create time cards every week** option set to true in their assigned [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/create-time-sheet-policy.md).
 
 ## Procedure
 
@@ -62,5 +62,5 @@ var generator = new TimeCardGenerator();
 generator.generateFromConfig(runFor, includeGroups, excludeGroups);
 ```
 
-**Parent Topic:**[Create a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATimeCard.md)
+**Parent Topic:**[Create a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_CreateATimeCard.md)
 

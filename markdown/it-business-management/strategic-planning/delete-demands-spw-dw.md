@@ -2,7 +2,7 @@
 title: Delete demands
 description: Delete demands to remove them from Next Experience for Demand Management. Demands can be deleted only while in the Pending state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/delete-demands-spw-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/delete-demands-spw-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

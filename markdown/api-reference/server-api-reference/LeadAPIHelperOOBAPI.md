@@ -2,7 +2,7 @@
 title: LeadAPIHelperOOB - Scoped
 description: The LeadAPIHelperOOB script include provides helper methods called by the lead REST API to perform various functions, such as converting a set of lead records from a GlideRecord object into a JSON array or JSON object and transforming fields within a lead object.Converts a GlideRecord object into a JSON object. This method iterates over the fields of the GlideRecord, checks their types, and appropriately formats their values into a JSON-compatible structure.Converts a set of lead records from a GlideRecord object to a JSON array. You must specify the lead record fields that you want included in the JSON array.Transforms the specified lead object.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/LeadAPIHelperOOBAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/LeadAPIHelperOOBAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +22,7 @@ This API is provided within the `sn_lead_mgmt_core` namespace. To access the API
 
 For additional information on Lead Management, see [Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## LeadAPIHelperOOB - getJSONFromGR\(GlideRecord gr, Array fields\)
 

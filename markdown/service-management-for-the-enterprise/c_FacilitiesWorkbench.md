@@ -2,7 +2,7 @@
 title: Facilities Workbench
 description: Members of the facilities staff use the workbench to interact dynamically with the floor plan. Users have access to the floor plan \(but not the workbench\), from which they can find other users and spaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_FacilitiesWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_FacilitiesWorkbench.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,12 +27,12 @@ Use the workbench as follows:
     **Note:** Facilities Workbench is available on a mobile device, but with limited capabilities.
 
 
--   **[Find a move request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_FindMoveRequest.md)**  
+-   **[Find a move request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_FindMoveRequest.md)**  
 Facilities and move staff can locate and manage move requests from the Moves tab within the workbench.
--   **[Find a facilities request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_FindFacilitesRequest.md)**  
+-   **[Find a facilities request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_FindFacilitesRequest.md)**  
 Facilities administrators can locate and manage requests from the Requests tab within the workbench.
--   **[Edit a zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_EditAZone.md)**  
+-   **[Edit a zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_EditAZone.md)**  
 Facilities administrators and staff can edit existing zones from the Zones tab within the workbench.
 
-**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
+**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
 

@@ -2,7 +2,7 @@
 title: Portal Data List widget instance options form
 description: The instance options enable you to configure the Portal Data List widget on a portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r-port-data-list-inst-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r-port-data-list-inst-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -108,9 +108,9 @@ Data List Condition Script
 
 </td><td>
 
-Script to show or hide the data list category on the widget. For more information, see [Hide or show categories in the Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-cond-script-datalist-widget.md).Script to modify the view on the data list widget. For details, see, [Modify view in the Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/update-view-in-datalist-widget.md).
+Script to show or hide the data list category on the widget. For more information, see [Hide or show categories in the Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-cond-script-datalist-widget.md).Script to modify the view on the data list widget. For details, see, [Modify view in the Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/update-view-in-datalist-widget.md).
 
-Script to filter records in the Data List widget. For details, [Filter records in the Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/filter-records-in-datalist-widget.md).
+Script to filter records in the Data List widget. For details, [Filter records in the Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/filter-records-in-datalist-widget.md).
 
 The default script is **DataListCategoryConditionScript**.
 
@@ -118,9 +118,9 @@ The default script is **DataListCategoryConditionScript**.
 </table>**Related topics**  
 
 
-[Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-data-list-widget.md)
+[Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-data-list-widget.md)
 
-[Add and configure the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.md)
+[Add and configure the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.md)
 
-[Hide or show categories in the Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-cond-script-datalist-widget.md)
+[Hide or show categories in the Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-cond-script-datalist-widget.md)
 

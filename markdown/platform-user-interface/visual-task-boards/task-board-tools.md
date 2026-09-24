@@ -2,7 +2,7 @@
 title: Visual Task Board tools
 description: The task board tools area in a Visual Task Board contains several tabs, each represented by an icon.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/task-board-tools.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/task-board-tools.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -76,7 +76,7 @@ Labels
 
 </td><td>
 
-Use labels to visually distinguish tasks on the task board. Filter board contents by toggling the label. You need to [enable labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) before being able to use this tab.
+Use labels to visually distinguish tasks on the task board. Filter board contents by toggling the label. You need to [enable labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) before being able to use this tab.
 
 </td></tr><tr><td>
 
@@ -100,8 +100,8 @@ Configuration
 
 </td><td>
 
-Configure the settings for the task board. This setting is only available for the board owner. For more information, see [Customize the look and feel of a task board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ConfigureTheTaskBoard.md).
+Configure the settings for the task board. This setting is only available for the board owner. For more information, see [Customize the look and feel of a task board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/t_ConfigureTheTaskBoard.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
+</table>**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
 

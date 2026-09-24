@@ -2,10 +2,10 @@
 title: Resuming sold products
 description: Resume sold products to create a resume order on the CRM Workspace.Create an order to resume a sold product and its hierarchy on the CRM Workspace. By resuming a sold product, you can restart a product or service.Create an order to resume multiple sold products and their hierarchy on the CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/resuming\_sold\_products.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/resuming\_sold\_products.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -18,8 +18,8 @@ Resume single or multiple root sold products and create combined orders for susp
 
 |Task|Description|
 |----|-----------|
-|Resume a single sold product|[Resume a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resuming_sold_products.md)|
-|Resume multiple sold products|[Resume multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resuming_sold_products.md)|
+|Resume a single sold product|[Resume a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/resuming_sold_products.md)|
+|Resume multiple sold products|[Resume multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/resuming_sold_products.md)|
 
 ## Resume a single sold product
 

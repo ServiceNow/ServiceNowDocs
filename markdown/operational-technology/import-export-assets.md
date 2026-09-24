@@ -2,7 +2,7 @@
 title: Import or export assets
 description: You can import or export assets, and ignored assets, to either CSV or JSON formats.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/import-export-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/import-export-assets.html
 release: australia
 topic_type: task
 last_updated: "2026-04-15"
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  You can import/export all listed assets or you can filter the list using the Filter panel, selecting the Filter tab.
 
-    For more information, see [Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/assets-page-console.md).
+    For more information, see [Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/assets-page-console.md).
 
 3.  Import assets
 4.  Select the**Actions** button.
@@ -72,5 +72,5 @@ Role required: admin
     The filtered assets are exported.
 
 
-**Parent Topic:**[Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/assets-page-console.md)
+**Parent Topic:**[Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/assets-page-console.md)
 

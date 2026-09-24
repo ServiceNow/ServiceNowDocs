@@ -2,7 +2,7 @@
 title: Configuration item relationships and Knowledge Graph
 description: Configuration item \(CI\) Relationships enable Knowledge Graph to answer natural language questions about service dependencies and infrastructure topology by storing typed parent-child relationships between CMDB configuration items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/ci-relationships-knowledge-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/ci-relationships-knowledge-graph.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

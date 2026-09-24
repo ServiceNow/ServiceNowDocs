@@ -2,7 +2,7 @@
 title: Sidebar release notes
 description: The ServiceNow Sidebar application enables agents and subject matter experts to collaborate on user issues. Sidebar was enhanced and updated in the Australia release.The ServiceNow Sidebar application enables agents and subject matter experts to collaborate on user issues. Sidebar was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/sidebar-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/sidebar-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ See [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austra
     Sidebar is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/conversational-interfaces-rn-landing.md)
+**Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/conversational-interfaces-rn-landing.md)
 
 ## Australia
 

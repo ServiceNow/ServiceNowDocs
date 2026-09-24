@@ -2,7 +2,7 @@
 title: Continuous controls monitoring in the AI Risk and Compliance Workspace
 description: Indicators in AI Risk and Compliance Workspace continuously monitor control compliance for AI systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-continuous-controls-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/airc-continuous-controls-monitoring.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -31,7 +31,7 @@ Applying indicators to AI system entities gives an organization a single system 
 
 A compliance evaluation configuration can evaluate an AI system using metrics from **ServiceNow** or from other evaluation framework providers, such as Traceloop. Each provider exposes a different set of base metrics, such as toxicity, PII detection, prompt injection, and agent goal accuracy. The provider selected in a configuration determines which metrics are available.
 
-For more information, see [Create a compliance evaluation configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-compliance-evaluation-configuration.md), [Use a compliance evaluation on an AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-use-compliance-evaluation-ai-system.md), and [AI evaluation base metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-ai-evaluation-base-metrics.md).
+For more information, see [Create a compliance evaluation configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-compliance-evaluation-configuration.md), [Use a compliance evaluation on an AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-use-compliance-evaluation-ai-system.md), and [AI evaluation base metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-ai-evaluation-base-metrics.md).
 
 ## Monitoring lifecycle
 
@@ -40,5 +40,5 @@ After an AI use case is deployed, it moves into a monitor state. Its controls ar
 **Related topics**  
 
 
-[Create a compliance evaluation configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-compliance-evaluation-configuration.md)
+[Create a compliance evaluation configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-compliance-evaluation-configuration.md)
 

@@ -2,7 +2,7 @@
 title: Card data security release notes
 description: The ServiceNow Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Australia release.The ServiceNow Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/card-data-security-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/card-data-security-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ See [Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNow
     Install Card data security by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
 
 ## Australia
 

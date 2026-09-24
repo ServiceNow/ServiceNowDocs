@@ -2,7 +2,7 @@
 title: Upload Java KeyStore certificate
 description: Upload a Java KeyStore certificate and specify the password that's sent in Moveworks encrypted email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -78,5 +78,5 @@ Proceed to add bot ID to complete the Moveworks AI assistant setup.
 **Related topics**  
 
 
-[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
+[ServiceNow Otto Chat Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
 

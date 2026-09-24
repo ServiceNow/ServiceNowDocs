@@ -2,7 +2,7 @@
 title: Use the Switch component
 description: Find the exact match of a value among multiple values as part of an automation Workflow by using the Switch component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-conditions-switch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-conditions-switch.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ The Switch component enables you to set multiple values that are matched with th
 
 The Switch component can work with other components or methods to execute an automation Workflow.
 
-You can configure the properties for the Switch component. For more information on these properties, see [Properties of the Conditions components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions-properties.md).
+You can configure the properties for the Switch component. For more information on these properties, see [Properties of the Conditions components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/conditions-properties.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ You can configure the properties for the Switch component. For more information 
 
         Data In ports are dynamically created to accept values.\[Omitted image "switch-illustration.png"\] Alt text: Switch component example.
 
-    3.  To configure the input method to the fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+    3.  To configure the input method to the fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Switch component to the corresponding ports of the other components as described in the following table.
 
@@ -57,5 +57,5 @@ You can configure the properties for the Switch component. For more information 
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions-components.md)
+**Parent Topic:**[Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/conditions-components.md)
 

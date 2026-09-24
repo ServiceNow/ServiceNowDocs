@@ -2,7 +2,7 @@
 title: Validate skills in Manager Hub
 description: Affirm the skills that your employee claims to have by reviewing and validating them in Manager Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-intelligence-manager-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/skills-intelligence-manager-hub.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -43,7 +43,7 @@ Role required: sn\_skills\_int.manager
 
 ## Result
 
-The validated skills are marked with a green tick in the employee skills profile, indicating that you validated the skills of your employee. For more information, see [Career tab in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/manage-skills-profile.md).
+The validated skills are marked with a green tick in the employee skills profile, indicating that you validated the skills of your employee. For more information, see [Career tab in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/manage-skills-profile.md).
 
-**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/using-skills-intelligence.md)
+**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/using-skills-intelligence.md)
 

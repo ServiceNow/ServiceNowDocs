@@ -2,7 +2,7 @@
 title: Web to mobile component conversion
 description: Use guided UI to configure native mobile components using an existing web component as a starting reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/web-mobile-component-conversion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/web-mobile-component-conversion.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

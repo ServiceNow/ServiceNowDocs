@@ -2,7 +2,7 @@
 title: Activate Change Management - Collision Detector
 description: You can activate the Change Management - Collision Detector plugin \(com.snc.change.collision\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ActivateConflictDetection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_ActivateConflictDetection.html
 release: australia
 product: Change Management
 classification: change-management
@@ -37,10 +37,10 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Installed with Change Management - Collision Detector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/r_InstlldWthConfDetection.md)**  
+-   **[Installed with Change Management - Collision Detector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/r_InstlldWthConfDetection.md)**  
 Several types of components are installed with Change Management - Collision Detector.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

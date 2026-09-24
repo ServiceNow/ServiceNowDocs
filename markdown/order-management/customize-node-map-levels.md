@@ -2,7 +2,7 @@
 title: Customize hierarchical node map levels for Lead-to-Cash Process Management
 description: Customize the number of node levels to display in the Lead-to-Cash Process Management hierarchical node map visualization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/customize-node-map-levels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/customize-node-map-levels.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,12 +35,12 @@ By default, the Lead-to-Cash Process Management hierarchical node map shows thre
 5.  Select **Update**.
 
 
-**Parent Topic:**[Customizing the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customizing-sales-process-dashboard.md)
+**Parent Topic:**[Customizing the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customizing-sales-process-dashboard.md)
 
 **Related topics**  
 
 
-[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-lead-cash-process-management.md)
 
-[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-process-management.md)
 

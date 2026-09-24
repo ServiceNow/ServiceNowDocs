@@ -2,7 +2,7 @@
 title: Change legal name through Virtual Agent
 description: Change your legal name change through Virtual Agent chat in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/change-legal-na-awd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/change-legal-na-awd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,7 +45,7 @@ Role required: none
     An HR case is created and the chat conversation is ended.
 
 
-**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
 
 **Related topics**  
 

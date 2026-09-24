@@ -2,7 +2,7 @@
 title: Agent Client Collector \(ACC\) diagnostic workflow
 description: Enable and use AI agents to examine agent behavior through the Agent Client Collector \(ACC\) diagnostic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/use-acc-diagnostic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/use-acc-diagnostic-workflow.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -19,7 +19,7 @@ Enable and use AI agents to examine agent behavior through the Agent Client Coll
 ## Before you begin
 
 -   Ensure that the ServiceNow Otto panel is enabled on your instance. For details, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
--   Ensure that ServiceNow Otto for IT Operations Management \(ITOM\) is installed on your instance. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+-   Ensure that ServiceNow Otto for IT Operations Management \(ITOM\) is installed on your instance. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
 -   Enable the Agent Client Collector diagnostic workflow in AI Agent Studio.
     1.  Select **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
     2.  On the **Agentic workflows** tab, select **Agent Client Collector \(ACC\) Diagnostic**.

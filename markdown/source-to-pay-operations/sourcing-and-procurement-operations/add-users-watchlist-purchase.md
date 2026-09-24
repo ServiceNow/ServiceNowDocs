@@ -2,7 +2,7 @@
 title: Add users to the watchlist of the purchase
 description: You can add one or more users to the watchlist of the purchase request. The users on the Watchlist receive email notifications when specific conditions are fulfilled and the purchase request status is updated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/add-users-watchlist-purchase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/add-users-watchlist-purchase.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,7 +22,7 @@ Role required: sn\_shop.shopper
 
 ## About this task
 
-You can view and edit the **Watchlist** either from the **Reason for purchase** page or on the Purchase requisition under **My Purchases** in the Shopping hub. For more information, see [Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activity-stream.md). By default, you can add up to 20 users in the watchlist. You can modify this value by configuring the system properties. For more information, see [Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md).
+You can view and edit the **Watchlist** either from the **Reason for purchase** page or on the Purchase requisition under **My Purchases** in the Shopping hub. For more information, see [Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activity-stream.md). By default, you can add up to 20 users in the watchlist. You can modify this value by configuring the system properties. For more information, see [Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md).
 
 **Note:** This limit for the number of users on the watchlist is applicable only while making the purchase request. You can add more users to the watchlist after the purchase request is created. However, you can add more users only at the purchase requisitions page.
 
@@ -51,5 +51,5 @@ You can view and edit the **Watchlist** either from the **Reason for purchase** 
     3.  Similarly, you can add users to the watchlist of the purchase request of other products/items.
 
 
-**Parent Topic:**[Provide a reason for your purchase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/provide-reason-for-purchase.md)
+**Parent Topic:**[Provide a reason for your purchase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/provide-reason-for-purchase.md)
 

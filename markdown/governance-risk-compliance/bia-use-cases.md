@@ -2,7 +2,7 @@
 title: Use cases for business impact analysis
 description: You can use the Business Continuity Management application to assess the impact of a downtime on your business services or processes and technical entities such as datacenters or applications. For creating a business impact analysis for your organization, you can refer to the common use cases that are used for managing the business continuity tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bia-use-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bia-use-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -103,7 +103,7 @@ The sample use cases are considered for creating a business impact analysis with
 
 As a pre-requisite to the business impact analysis workflow, the BCM administrator of your organization sets up the BIA template in the BCM application. The template offers a survey-type user experience in the form of an assessment questionnaire.
 
-If you are the BCM administrator, you can set up the questions that are relevant to your organization and scenario in the BIA template. For more information on setting up the BIA template with the BCM administrator role, see [Configure BIA templates with legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bia-template-uib-ws.md).
+If you are the BCM administrator, you can set up the questions that are relevant to your organization and scenario in the BIA template. For more information on setting up the BIA template with the BCM administrator role, see [Configure BIA templates with legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-bia-template-uib-ws.md).
 
 If you are the BCM lead or BCM program manager, you can respond to the assessment questionnaire on the **Assessments** tab of the business impact analysis record. If you mainly use the business services and processes, your answers serve as key data points for the recovery time objective assessment and dependency assessment. Based on your responses, the criticality of the business process or service and recommended timelines are determined.
 
@@ -138,5 +138,5 @@ The BCM application displays the key results in the business impact analysis rec
     -   Application
     -   Vendors
 
-For more information on the recovery time objective, recovery point objective, and recovery tiers, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rto-rpo-recovery-tiers.md).
+For more information on the recovery time objective, recovery point objective, and recovery tiers, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/rto-rpo-recovery-tiers.md).
 

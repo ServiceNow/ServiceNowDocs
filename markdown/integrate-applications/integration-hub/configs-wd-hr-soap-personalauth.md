@@ -2,7 +2,7 @@
 title: Configurations to use Workday SOAP Personal Auth
 description: Configure your ServiceNow instance to perform Workday HR SOAP based actions with personal authentication.Provide the base URL of your Workday HR instance in the Connection Details \[connection\_details\] table. Spoke actions based on the SOAP API, use these details for the action execution.Create an application registry so that the ServiceNow instance can request OAuth 2.0 tokens for personal authentication.Configure the connection and credential alias to authenticate ServiceNow requests to Workday HR using personal authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configs-wd-hr-soap-personalauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/configs-wd-hr-soap-personalauth.html
 release: australia
 product: Integration Hub
 classification: integration-hub

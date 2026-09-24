@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Automation Center
 description: Use ServiceNow Otto for Automation Center helps you use AI features in your ServiceNow instance using Automation Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/nowassist-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/nowassist-ac.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -25,19 +25,19 @@ Use ServiceNow Otto for Automation Center helps you use AI features in your Serv
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore. Learn about ServiceNow Otto for Automation Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-explore.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore. Learn about ServiceNow Otto for Automation Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure. Install and setup ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-setup.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure. Install and setup ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-setup.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "icon-workspace.png"\] Alt text: Use. Learn how to use ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-use.md).
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use. Learn how to use ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-use.md).
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference. Get details about ServiceNow Otto for Automation Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference. Get details about ServiceNow Otto for Automation Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-reference.md)
 
 </td></tr></tbody>
 </table>## AI limitations
@@ -52,12 +52,12 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about work notes in Process Mining. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/explore-na-ac.md)**  
+-   **[Exploring ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/explore-na-ac.md)**  
 Explore the benefits of ServiceNow Otto for Automation Center.
--   **[Configuring ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-na-ac.md)**  
+-   **[Configuring ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/config-na-ac.md)**  
 Configure ServiceNow Otto for Automation Center to use all the features.
--   **[Using ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/use-now-assist.md)**  
+-   **[Using ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/use-now-assist.md)**  
 Use ServiceNow Otto for Automation Center to explore available automations in your ServiceNow instance. You can also create an automation request from the Task Mining workspace.
 
-**Parent Topic:**[Using Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-use.md)
+**Parent Topic:**[Using Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-use.md)
 

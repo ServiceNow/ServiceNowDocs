@@ -2,7 +2,7 @@
 title: Configure anomaly alerts
 description: Configure anomaly alerts based on metrics outliers on historical patterns in Instance Observer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/configure-anomaly-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-anomaly-alerts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,5 +67,5 @@ Role required: admin
     From now on, you will receive an alert whenever anomalies related to transaction increases are detected.
 
 
-**Parent Topic:**[Anomalies detection in performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/anomalies-detection.md)
+**Parent Topic:**[Anomalies detection in performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/anomalies-detection.md)
 

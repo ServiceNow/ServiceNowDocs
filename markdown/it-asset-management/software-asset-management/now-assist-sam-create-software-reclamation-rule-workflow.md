@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule
 description: Use the Create software reclamation rule agentic workflow to automatically create reclamation rules by identifying software products that lack reclamation rules but are viable candidates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/now-assist-sam-create-software-reclamation-rule-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/now-assist-sam-create-software-reclamation-rule-workflow.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -102,5 +102,5 @@ The agentic workflow is initiated.
 
 **Important:** This AI agent is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-**Parent Topic:**[Using agentic workflows in ServiceNow Otto for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam-ai-agents-usecases.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam-ai-agents-usecases.md)
 

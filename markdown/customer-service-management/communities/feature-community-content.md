@@ -2,7 +2,7 @@
 title: Add featured content in a community
 description: Add or edit featured content in a community to appear in the Featured Content section on the community homepage, forum homepage, or both.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/feature-community-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/feature-community-content.html
 release: australia
 product: Communities
 classification: communities
@@ -72,7 +72,7 @@ Role required: sn\_communities.admin, sn\_communities.community\_moderator, sn\_
     A notification that content has been featured is sent out to the author of the content, community users who commented on the post, and community users who are subscribed to the post. If featured content has expired or is removed from the featured content list by another user, community and forum administrators are notified.
 
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

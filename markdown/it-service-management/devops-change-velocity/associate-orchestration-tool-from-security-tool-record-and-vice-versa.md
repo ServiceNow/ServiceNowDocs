@@ -2,7 +2,7 @@
 title: Associate orchestration tool from Veracode tool record and vice-versa
 description: You can associate orchestration tool from the Veracode tool record and associate the Veracode tool record from the orchestration or pipeline record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/associate-orchestration-tool-from-security-tool-record-and-vice-versa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/associate-orchestration-tool-from-security-tool-record-and-vice-versa.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -39,5 +39,5 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
     **Note:** In a similar way, you can associate a security tool instance with an orchestration tool or pipeline record. You can navigate to the orchestration tool or pipeline record, and from the Security tools tab, you can select **Associate security tool**. In the dialog boxes that are displayed, you can select the security tool instances to associate and then copy the custom action to add it in the corresponding pipeline step.
 
 
-**Parent Topic:**[Veracode integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/veracode-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Veracode integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/veracode-integration-with-devops-change-velocity.md)
 

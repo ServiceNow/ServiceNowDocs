@@ -2,7 +2,7 @@
 title: Change your PIN for a mobile app
 description: Change the pin for your ServiceNow mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/change-app-pin-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/change-app-pin-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: admin
     Your app is now configured with a new security PIN.
 
 
-**Parent Topic:**[App PIN settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-app-pin-settings.md)
+**Parent Topic:**[App PIN settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-app-pin-settings.md)
 

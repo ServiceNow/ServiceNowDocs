@@ -2,7 +2,7 @@
 title: Reporting incidents
 description: Service desk and other IT managers can use dashboards and reports to monitor and track incident status and service levels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-monitor-track.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/incident-monitor-track.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -40,17 +40,17 @@ Complimentary Performance Analytics for Incident Management and aggregates data 
 
 A subscription to Performance Analytics also gives you access to In-form analytics. In-form analytics integrate performance insights into Incident records so that users can access important metrics in context and make better decisions.
 
--   **[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)**  
+-   **[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-content-pack.md)**  
 Platform Analytics Solutions and in-form analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
--   **[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-sla-content-pack.md)**  
+-   **[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-sla-content-pack.md)**  
 Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
-**Parent Topic:**[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md)
+**Parent Topic:**[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/c_IncidentManagement.md)
 
 **Related topics**  
 
 
 [Creating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-types-creation-details-rd.md)
 
-[Insights and Opportunities for Incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/insights-opportunities-incident-dashboard.md)
+[Insights and Opportunities for Incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/insights-opportunities-incident-dashboard.md)
 

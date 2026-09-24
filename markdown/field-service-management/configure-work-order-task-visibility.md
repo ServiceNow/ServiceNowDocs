@@ -2,7 +2,7 @@
 title: Configure event visibility in Workforce when Workforce Optimization for Field Service is installed
 description: Enable users to control the visibility of events and work order tasks that appear in the Calendars tab when Workforce Optimization for Field Service is enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-work-order-task-visibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configure-work-order-task-visibility.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Enable users to control the visibility of events and work order tasks that appea
 
 ## Before you begin
 
-[Configure event visibility in Workforce when Workforce Optimization for Field Service is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configure-work-order-task-visibility.md)
+[Configure event visibility in Workforce when Workforce Optimization for Field Service is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/configure-work-order-task-visibility.md)
 
 Role required: wm\_admin
 
@@ -57,5 +57,5 @@ Role required: wm\_admin
 **Related topics**  
 
 
-[View events on the Team calendar in Workforce when Workforce Optimization for Field Service is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/view-work-order-tasks-on-the-team-calendar-when-wfo-is-installed.md)
+[View events on the Team calendar in Workforce when Workforce Optimization for Field Service is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/view-work-order-tasks-on-the-team-calendar-when-wfo-is-installed.md)
 

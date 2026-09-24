@@ -2,14 +2,14 @@
 title: Create a SAP user and role collection
 description: Create a user and a role collection in the SAP Business Technology Platform \(BTP\) cockpit. The SAP DMS external content connector needs this user account to access your SAP DMS content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/create-sap-user-role-collection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/create-sap-user-role-collection.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [SAP DMS external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -29,7 +29,7 @@ A SAP global account administrator must have created a subaccount in your SAP BT
 -   Cloud Foundry Environment
 -   Authorization and Trust Management Service
 
-If you don't already have a subaccount with these entitlements in your SAP BTP global account, perform the [Create a subaccount in the SAP Business Technology Platform \(BTP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-subaccount-sap-btp.md) preliminary task before performing this task.
+If you don't already have a subaccount with these entitlements in your SAP BTP global account, perform the [Create a subaccount in the SAP Business Technology Platform \(BTP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-subaccount-sap-btp.md) preliminary task before performing this task.
 
 Role required: none
 
@@ -101,5 +101,5 @@ The SAP DMS external content connector requires a user account with specific rol
     4.  Select **Assign Role Collection**.
 
 
-**Parent Topic:**[SAP DMS external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/sap-dms-external-content-connector.md)
+**Parent Topic:**[SAP DMS external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/sap-dms-external-content-connector.md)
 

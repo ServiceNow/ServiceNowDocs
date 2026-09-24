@@ -2,7 +2,7 @@
 title: Use case: Using Apex to call or test CPQ APIs
 description: Learn how to use Apex to call or to test CPQ APIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_how\_to\_use\_apex\_to\_calltest\_logik\_apis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/use\_case\_how\_to\_use\_apex\_to\_calltest\_logik\_apis.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -57,5 +57,5 @@ httpRequest.setHeader('Origin', 'https://tenant.sector.logik.io/');
 
 This code would be executed as `testGetConfig.exec();`.
 
-**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-cases.md)
 

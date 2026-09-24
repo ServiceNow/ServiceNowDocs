@@ -2,7 +2,7 @@
 title: Manage contacts from the customer service portal
 description: Create and update customer contacts, assign roles to contacts, and enable or disable contact logins from the customer portal.Use the Create Contact catalog item to create a contact from the customer portal.Update the contact information for a user from the customer portal.Enable or disable the login for a contact from the customer portal.Assign one or more user roles to a contact from the customer portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_ManageUsersFromCustomerPortal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_ManageUsersFromCustomerPortal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,9 +17,9 @@ Create and update customer contacts, assign roles to contacts, and enable or dis
 **Related topics**  
 
 
-[Manage customer registration requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests.md)
+[Manage customer registration requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/manage-cust-registration-requests.md)
 
-[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ManageUsersFromCustomerPortal.md)
+[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_ManageUsersFromCustomerPortal.md)
 
 ## Create a customer contact
 
@@ -141,15 +141,15 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
 
 3.  In the Actions list, select one of the following links.
 
-<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d244829e797">
+<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d244833e797">
 
 Choice
 
-</th><th align="left" id="d244829e800">
+</th><th align="left" id="d244833e800">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d244829e806">
+</th></tr></thead><tbody><tr><td id="d244833e806">
 
 **Disable login**
 
@@ -157,7 +157,7 @@ Description
 
 Disables the login for this contact. When the login is disabled, the contact can’t access the customer portal.This link is displayed if the login is enabled.
 
-</td></tr><tr><td id="d244829e818">
+</td></tr><tr><td id="d244833e818">
 
 **Enable login**
 
@@ -208,5 +208,5 @@ Use the Edit Role pop-up window to manage the roles for a contact. Contacts must
 **Related topics**  
 
 
-[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

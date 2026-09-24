@@ -2,7 +2,7 @@
 title: Microsoft Defender for Endpoint integration
 description: The Microsoft Defender for Endpoint enables you to proactively inspect, analyze, and contain known and unknown threats on any endpoint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/microsoft-defender-for-endpoint-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/microsoft-defender-for-endpoint-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -35,27 +35,27 @@ Microsoft Defender for Endpoint has the following key features:
 
 <table id="table_cn4_5nt_45b" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore-ciwf.png"\] Get started with Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/set-up-microsoft-defender-for-endpoint.md)
+[Explore \[Omitted image "icon-explore-ciwf.png"\] Get started with Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/set-up-microsoft-defender-for-endpoint.md)
 
 </td><td>
 
-[Install \[Omitted image "ciwf-agent-tools.png"\] Alt text: Install the application and configure a source for the integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-microsoft-defender-source.md)
+[Install \[Omitted image "ciwf-agent-tools.png"\] Alt text: Install the application and configure a source for the integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/install-microsoft-defender-source.md)
 
 </td><td>
 
-[Configure \[Omitted image "configure-icon-ciwf.png"\] Alt text: Configure profiles and security incidents for the Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-profiles-and-security-incidents-for-ms-defender-for-endpoint.md)
+[Configure \[Omitted image "configure-icon-ciwf.png"\] Alt text: Configure profiles and security incidents for the Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-profiles-and-security-incidents-for-ms-defender-for-endpoint.md)
 
 </td></tr><tr><td>
 
-[Capability profile \[Omitted image "icon-use-ciwf.png"\] Create a capability profile for the Microsoft Defender for Endpoint integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-capability-profile-for-microsoft-defender-for-endpoint.md)
+[Capability profile \[Omitted image "icon-use-ciwf.png"\] Create a capability profile for the Microsoft Defender for Endpoint integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-capability-profile-for-microsoft-defender-for-endpoint.md)
 
 </td><td>
 
-[Additional configurations \[Omitted image "icon-integrate-ciwf.png"\] Additional configurations that you can perform in the Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
+[Additional configurations \[Omitted image "icon-integrate-ciwf.png"\] Additional configurations that you can perform in the Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 </td><td>
 
-[Miscellaneous \[Omitted image "ciwf-admin.png"\] Create and configure a profile for sightings search and indicators with Microsoft Defender for Endpoint.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-and-configure-profile-sightings-search-with-ms-defender.md)
+[Miscellaneous \[Omitted image "ciwf-admin.png"\] Create and configure a profile for sightings search and indicators with Microsoft Defender for Endpoint.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-and-configure-profile-sightings-search-with-ms-defender.md)
 
 </td></tr></tbody>
 </table>

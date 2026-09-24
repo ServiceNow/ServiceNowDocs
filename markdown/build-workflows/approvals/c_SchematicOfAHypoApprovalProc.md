@@ -2,7 +2,7 @@
 title: Schematic of a hypothetical approval process
 description: In the diagram below of a hypothetical approval process, the gating approval is color coded blue and an in-process approval is orange.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/c\_SchematicOfAHypoApprovalProc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/approvals/c\_SchematicOfAHypoApprovalProc.html
 release: australia
 product: Approvals
 classification: approvals

@@ -2,7 +2,7 @@
 title: Configure the Service Graph Connector diagnosis skill
 description: Review and configure the settings of the Service Graph Connector diagnosis skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-sgc-diag-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-sgc-diag-skill.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -47,5 +47,5 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
     \[Omitted image "now-assist-sgc-active.png"\] Alt text: Active skills section displaying that theService Graph Connector diagnosis skill is active.
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 

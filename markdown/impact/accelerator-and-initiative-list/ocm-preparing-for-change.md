@@ -2,7 +2,7 @@
 title: OCM: Preparing for Change
 description: This Accelerator provides Impact customers with structured coaching and proven frameworks to build change readiness and ensure successful user adoption ahead of go-live during ServiceNow transformations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ocm-preparing-for-change.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/ocm-preparing-for-change.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

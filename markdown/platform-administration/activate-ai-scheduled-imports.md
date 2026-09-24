@@ -2,7 +2,7 @@
 title: Activate SCCM Asset Intelligence scheduled imports
 description: To prevent duplicate software imports, activate either the Asset Intelligence \(AI\) or the non-AI scheduled import.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/activate-ai-scheduled-imports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/activate-ai-scheduled-imports.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,10 +43,10 @@ Asset Intelligence is supported in these SCCM plugins:
     -   SCCM &lt;version&gt; Software \(with AI\)
     -   SCCM &lt;version&gt; Removed Software \(with AI\)
 
-**Parent Topic:**[Microsoft SCCM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MicrosoftSCCMIntegration.md)
+**Parent Topic:**[Microsoft SCCM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_MicrosoftSCCMIntegration.md)
 
 **Related topics**  
 
 
-[Configure the SCCM integration and schedule an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-sccm-data-import.md)
+[Configure the SCCM integration and schedule an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-sccm-data-import.md)
 

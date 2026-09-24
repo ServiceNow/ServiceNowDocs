@@ -2,7 +2,7 @@
 title: Change owner of a scenario
 description: Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A scenario can switch between multiple owners one at a time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/change-owner-of-a-scenario.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/change-owner-of-a-scenario.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -21,7 +21,7 @@ Change the ownership of a scenario that is published and is in the Ready state. 
 Ensure the following:
 
 1.  [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
-2.  [Publish a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/publish-a-scenario.md)
+2.  [Publish a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/publish-a-scenario.md)
 
 Role required: sn\_wsd\_spcmgmt.space\_planner
 
@@ -47,15 +47,15 @@ Change the ownership of a published scenario to enable other space planners to i
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d420667e157">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d420671e157">
 
 Path
 
-</th><th align="left" id="d420667e160">
+</th><th align="left" id="d420671e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d420667e166">
+</th></tr></thead><tbody><tr><td id="d420671e166">
 
 **From the Scenarios list section**
 
@@ -69,7 +69,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d420667e191">
+</td></tr><tr><td id="d420671e191">
 
 **From the Buildings list section**
 
@@ -99,7 +99,7 @@ The stack plan view of the building opens.
 
 The scenario is moved to the selected space planners. You can no longer change the scenario. You can make changes to a scenario only if you are assigned as the owner of the scenario.
 
-**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 

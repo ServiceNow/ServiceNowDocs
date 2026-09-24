@@ -2,7 +2,7 @@
 title: Close multiple security incidents
 description: Close multiple security incidents at the same time to avoid having to close related incidents individually, such as incidents created with a common root cause or false positive incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/close-multiple-incidents-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/close-multiple-incidents-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -71,7 +71,7 @@ Role required: sn\_si.analyst
 
 The incident closing activity runs in the background.
 
-**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 

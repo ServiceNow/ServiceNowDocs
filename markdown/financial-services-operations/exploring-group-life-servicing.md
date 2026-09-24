@@ -2,7 +2,7 @@
 title: Exploring Group Life Servicing
 description: Contributors, processors, and underwriters can manage group life and disability insurance policies, creating cases to initiate and complete insurance workflow tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/exploring-group-life-servicing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/exploring-group-life-servicing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

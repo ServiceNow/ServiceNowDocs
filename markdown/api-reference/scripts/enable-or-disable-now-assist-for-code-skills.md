@@ -2,12 +2,12 @@
 title: Enable or disable AI skills
 description: Learn to enable and disable ServiceNow Otto for Code skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/enable-or-disable-now-assist-for-code-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/enable-or-disable-now-assist-for-code-skills.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -49,5 +49,5 @@ You can enable or disable ServiceNow Otto for Code skills.
         The skill is disabled for all users.
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/configuring-now-assist-code.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/configuring-now-assist-code.md)
 

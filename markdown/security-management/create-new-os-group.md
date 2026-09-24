@@ -2,7 +2,7 @@
 title: Create an operating system group
 description: Operating system groups are used to map an operating system to specific process types and scripts in Security Incident Response workflows. The scripts define how running processes for the defined operating system groups are retrieved. New operating systems can be added as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/create-new-os-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/create-new-os-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,7 +56,7 @@ Role required: sn\_sec\_cmn.admin
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-ops-common-functionality.md)
 
 **Related topics**  
 

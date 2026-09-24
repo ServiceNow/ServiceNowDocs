@@ -2,7 +2,7 @@
 title: Custom shapes example
 description: Use custom shapes to represent specific elements that are unique to your organization, such as custom business processes, systems, or roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-custom-shape-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-custom-shape-example.html
 release: australia
 topic_type: task
 last_updated: "2026-06-22"
@@ -68,7 +68,7 @@ Create the shapes that represent the elements you want to include in your diagra
 
     An entity configuration defines the platform table that the shape represents. When you map an entity configuration to a shape library element, selecting the shape on the canvas opens a properties side panel. The side panel shows field data from the corresponding entity record. This step is required if you set the node type to **CI Item** in the previous step.
 
-    For field information, see [Entity configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-entity-config-form.md).
+    For field information, see [Entity configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-entity-config-form.md).
 
     1.  Open the Setup page by selecting the Setup icon \(\[Omitted image "eaw-icon-setup.png"\] Alt text: setup icon.\).
 
@@ -125,7 +125,7 @@ Create the shapes that represent the elements you want to include in your diagra
 
     A reference relationship defines how the entity associated with the custom shape relates to other entities in the platform. This step is required if you set the node type to **CI Item** in step 4.
 
-    For field information, see [Relationship configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-relationship-form.md).
+    For field information, see [Relationship configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-relationship-form.md).
 
     1.  Open the Setup page by selecting the Setup icon \(\[Omitted image "eaw-icon-setup.png"\] Alt text: setup icon.\).
 
@@ -165,20 +165,20 @@ Create the shapes that represent the elements you want to include in your diagra
         The selected shape gets added to the canvas. If you configured the node type as **CI Item** and mapped an entity configuration to the shape library element, select the shape and then select the **Info** icon on the right side of the canvas to display the properties side panel showing entity record data.
 
 
-**Parent Topic:**[Working with custom shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-working-custom-shapes.md)
+**Parent Topic:**[Working with custom shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-custom-shapes.md)
 
 **Related topics**  
 
 
-[Storing shapes or images to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-store-image-databse.md)
+[Storing shapes or images to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-store-image-databse.md)
 
-[Create a diagram action for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-action-custom-shape.md)
+[Create a diagram action for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-action-custom-shape.md)
 
-[Add a custom shape library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-add-custom-shape-library.md)
+[Add a custom shape library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-add-custom-shape-library.md)
 
-[Add a shape library element for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-custom-shape-element.md)
+[Add a shape library element for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-custom-shape-element.md)
 
-[Add or edit an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-edit-entity.md)
+[Add or edit an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-edit-entity.md)
 
-[Add or edit a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-edit-relationship.md)
+[Add or edit a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-edit-relationship.md)
 

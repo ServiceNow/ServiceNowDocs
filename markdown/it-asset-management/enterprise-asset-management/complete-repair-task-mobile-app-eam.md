@@ -2,7 +2,7 @@
 title: Close an enterprise asset repair task using the Mobile Agent application
 description: Complete an assigned enterprise asset repair task and mark the task as closed using the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-repair-task-mobile-app-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/complete-repair-task-mobile-app-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -98,7 +98,7 @@ In the **Evaluation result** field, select any of the following:-   **Redeployab
 
 The state of the repair task changes to Closed Complete.
 
-**Parent Topic:**[Manage enterprise asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/repair-orders-mobile-agent-eam.md)
+**Parent Topic:**[Manage enterprise asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/repair-orders-mobile-agent-eam.md)
 
 **Related topics**  
 

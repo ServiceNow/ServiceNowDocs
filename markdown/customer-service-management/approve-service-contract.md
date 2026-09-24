@@ -2,7 +2,7 @@
 title: Approve a service contract
 description: Approve a service contract for a customer account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/approve-service-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/approve-service-contract.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ Role required: sn\_customerservice\_manager or admin
 
 5.  Click one of the following options.
 
-<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d263567e106">
+<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d263571e106">
 
 **Approve**
 
@@ -38,7 +38,7 @@ Role required: sn\_customerservice\_manager or admin
 
 The review state changes to **Approved** on the Approvals list.
 
-</td></tr><tr><td id="d263567e118">
+</td></tr><tr><td id="d263571e118">
 
 **Reject**
 

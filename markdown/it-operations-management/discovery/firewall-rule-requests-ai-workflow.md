@@ -2,7 +2,7 @@
 title: Firewall rule requests using agentic workflows
 description: The Firewall Management Task Creation agentic workflow provides a path to request one or more firewall rules through natural language prompts in the ServiceNow Otto panel.Use the Firewall Management Task Creation agentic workflow to request one or more firewall rules through natural language prompts in the ServiceNow Otto panel.Review AI-generated firewall rule requests, evaluate risk analysis, and approve or reject requests with device group assignment.Automatically implement approved firewall rules on Panorama servers through the change management process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/firewall-rule-requests-ai-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/firewall-rule-requests-ai-workflow.html
 release: australia
 product: Discovery
 classification: discovery
@@ -34,7 +34,7 @@ The workflow reads your natural-language request, extracts the required paramete
 
 \[Omitted image "firewall-rule-request-ai-workflow.png"\] Alt text: Firewall rule request workflow
 
-**Parent Topic:**[Using Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-report-use.md)
+**Parent Topic:**[Using Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-audit-report-use.md)
 
 ## Request firewall rules using agentic workflow
 
@@ -50,7 +50,7 @@ Role required: firewall\_admin
 
 ### About this task
 
-You can request multiple firewall rule configurations in a single conversation. The workflow creates one parent firewall task with individual configuration tasks for each rule. For information about how the workflow evaluates risk and determines whether to create a rule task, see [Firewall rule requests using agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md).
+You can request multiple firewall rule configurations in a single conversation. The workflow creates one parent firewall task with individual configuration tasks for each rule. For information about how the workflow evaluates risk and determines whether to create a rule task, see [Firewall rule requests using agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md).
 
 **Note:** Starting with version 1.12.0 of Firewall Audits and Reporting, all new firewall rule tasks are created in vendor-specific tables and display the task type based on the selected vendor.
 

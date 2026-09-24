@@ -2,7 +2,7 @@
 title: Create request from External Legal Service Center
 description: Create a request for a legal service from the External Legal Service Center. You can submit a request or save it in draft to submit later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/external-legal-portal/lsd-ext-portal-submit-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/external-legal-portal/lsd-ext-portal-submit-request.html
 release: australia
 product: External Legal Portal
 classification: external-legal-portal
@@ -22,7 +22,7 @@ Role required: sn\_lg\_ext\_portal.ext\_user
 
 ## About this task
 
-Verify you have registered with External Legal Service Center before submitting a request for a legal service. For more information, see [Register with External Legal Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/external-legal-portal/lsd-external-portal-register.md).
+Verify you have registered with External Legal Service Center before submitting a request for a legal service. For more information, see [Register with External Legal Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/external-legal-portal/lsd-external-portal-register.md).
 
 ## Procedure
 
@@ -49,15 +49,15 @@ Verify you have registered with External Legal Service Center before submitting 
     -   From your local computer, copy the files that you want to attach. Click inside the Documents box and paste the files.
 7.  Submit the request or save it as a draft.
 
-<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d546305e158">
+<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d546309e158">
 
 Action
 
-</th><th align="left" id="d546305e161">
+</th><th align="left" id="d546309e161">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d546305e167">
+</th></tr></thead><tbody><tr><td id="d546309e167">
 
 **Save as draft**
 
@@ -65,7 +65,7 @@ Steps
 
 Select **Save as Draft**.
 
-</td></tr><tr><td id="d546305e179">
+</td></tr><tr><td id="d546309e179">
 
 **Submit the request**
 

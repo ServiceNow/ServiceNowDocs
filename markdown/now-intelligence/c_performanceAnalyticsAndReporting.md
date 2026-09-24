@@ -2,7 +2,7 @@
 title: Platform Analytics
 description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/c\_performanceAnalyticsAndReporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/c\_performanceAnalyticsAndReporting.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,11 +19,11 @@ Select one of these tiles to learn more about these applications, which help pro
 
 <table id="table_qq2_xlz_rvb" class="nav-card"><tbody><tr><td>
 
-[Platform Analytics experience \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Explore analytics with data visualization tools, dashboards, and KPIs, all accessible by natural language queries.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md)
+[Platform Analytics experience \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Explore analytics with data visualization tools, dashboards, and KPIs, all accessible by natural language queries.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/par-workspace.md)
 
 </td><td>
 
-[Now Assist in Platform Analytics \[Omitted image "bus-infographic.svg"\] Alt text: Ask questions about data in plain language and receive AI-powered responses, including Platform Analytics data visualizations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics.md)
+[Now Assist in Platform Analytics \[Omitted image "bus-infographic.svg"\] Alt text: Ask questions about data in plain language and receive AI-powered responses, including Platform Analytics data visualizations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics.md)
 
 </td><td>
 
@@ -31,20 +31,20 @@ Select one of these tiles to learn more about these applications, which help pro
 
 </td></tr><tr><td>
 
-[Usage Insights \[Omitted image "bus-3-person.svg"\] Alt text: Get a dashboard view of how your users work with multiple ServiceNow applications, with full visuals of metrics, interactions, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md)
+[Usage Insights \[Omitted image "bus-3-person.svg"\] Alt text: Get a dashboard view of how your users work with multiple ServiceNow applications, with full visuals of metrics, interactions, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/user-exp-analytics-landing.md)
 
 </td><td>
 
-[Process Mining \[Omitted image "bus-optimize-manage.svg"\] Alt text: Analyze your data in automated process flows with this application and find ways to improve your enterprise’s workflow efficiency.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md)
+[Process Mining \[Omitted image "bus-optimize-manage.svg"\] Alt text: Analyze your data in automated process flows with this application and find ways to improve your enterprise’s workflow efficiency.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-mining.md)
 
 </td><td>
 
-[Task Mining\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Identify task inefficiencies in work tasks by collecting and processing workstation data to provide insights into activities and interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining.md)
+[Task Mining\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Identify task inefficiencies in work tasks by collecting and processing workstation data to provide insights into activities and interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/task-mining.md)
 
 </td></tr></tbody>
 </table>## Platform Analytics experience
 
-Explore the many options for showing data in [data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md). Create, modify, and share [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md). [Filter the data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md) that is shown on a dashboard. Receive insights on your dashboards about potentially significant events in the data. Explore indicators of process behavior with [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md), and be alerted to significant changes in these indicators through [KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-behavior-charts-for-kpis.md).
+Explore the many options for showing data in [data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md). Create, modify, and share [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md). [Filter the data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/interactive-filters-workspace.md) that is shown on a dashboard. Receive insights on your dashboards about potentially significant events in the data. Explore indicators of process behavior with [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details.md), and be alerted to significant changes in these indicators through [KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-behavior-charts-for-kpis.md).
 
 \[Omitted image "db-with-filters-for-lp.png"\] Alt text: Platform Analytics dashboard showing Incidents by category in a data visualization with a filter being selected.
 
@@ -68,7 +68,7 @@ Learn about dashboard-based analytics on the usage of several ServiceNow applica
 
 ## Process Mining
 
-Discover ways to streamline your business, find bottlenecks and deviations in workflows, filter and compare processes, and more. A comprehensive listing of [Process Mining key terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/key-terms.md) provides all the notable terminology and their definitions, to assist you in getting the most effective performance from your enterprise.
+Discover ways to streamline your business, find bottlenecks and deviations in workflows, filter and compare processes, and more. A comprehensive listing of [Process Mining key terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/key-terms.md) provides all the notable terminology and their definitions, to assist you in getting the most effective performance from your enterprise.
 
 \[Omitted image "analyst-wb.png"\] Alt text: Process mining workbench
 
@@ -86,18 +86,18 @@ Give administrators and other stakeholders the ability to work with real-time da
 
 ## Applications and features
 
--   [Platform Analytics Migration Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration.md)
--   [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md)
--   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md)
--   [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer.md)
--   [Create visualizations conversationally in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-assist-landing-page.md)
--   [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md)
--   [Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
--   [Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
--   [Explore your indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md)
--   [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md)
--   [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md)
--   [Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining.md)
--   [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/classic-vis-overview.md)
--   [Identify workflow automation opportunities with Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/automation-discovery.md)
+-   [Platform Analytics Migration Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-migration.md)
+-   [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md)
+-   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md)
+-   [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/ai-data-explorer.md)
+-   [Create visualizations conversationally in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-assist-landing-page.md)
+-   [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_Indicators.md)
+-   [Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
+-   [Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/designing-pa-solution.md)
+-   [Explore your indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details.md)
+-   [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/user-exp-analytics-landing.md)
+-   [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-mining.md)
+-   [Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/task-mining.md)
+-   [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/classic-vis-overview.md)
+-   [Identify workflow automation opportunities with Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/automation-discovery.md)
 

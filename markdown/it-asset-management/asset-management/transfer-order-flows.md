@@ -2,7 +2,7 @@
 title: Transfer order flow
 description: Use the Transfer Order flow to track asset movement from one stockroom to the other and the Transfer Order Line flow to handle the processing of transfer order lines. You can edit the existing flow or create a flow in the graphical Workflow Studio to meet your organization's asset transfer process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/transfer-order-flows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/transfer-order-flows.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -33,7 +33,7 @@ In the asset life cycle automation process, when multiple assets are transferred
 
 \[Omitted image "transfer-order-line-flow.png"\] Alt text: Transfer Order Line flow.
 
-**Parent Topic:**[Manage transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/manage-transfer-orders.md)
+**Parent Topic:**[Manage transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/manage-transfer-orders.md)
 
 **Related topics**  
 
@@ -44,7 +44,7 @@ In the asset life cycle automation process, when multiple assets are transferred
 
 [Transfer order line asset tracking]()
 
-[Create a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/create-a-transfer-order.md)
+[Create a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/create-a-transfer-order.md)
 
-[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/create-transfer-order-line.md)
+[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/create-transfer-order-line.md)
 

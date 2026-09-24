@@ -2,7 +2,7 @@
 title: Create a rule entity filter
 description: Create a rule filter for the product entity to be used in a product eligibility matrix. The rule filter defines how the rule is applied, for example to a product catalog, category, or offering.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-rule-entity-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-create-rule-entity-filter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -100,7 +100,7 @@ Condition to be used to filter the entity. Use the **Set conditions** builder to
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

@@ -2,7 +2,7 @@
 title: View an alert group analysis by ServiceNow Otto in Express List
 description: View an alert group analysis created using generative AI. The analysis offers a simplified, human-readable description of the alert group and technical information to help you investigate it more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-alert-group-analysis-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-alert-group-analysis-view.html
 release: australia
 product: Event Management
 classification: event-management
@@ -19,7 +19,7 @@ View an alert group analysis created using generative AI. The analysis offers a 
 
 ## Before you begin
 
-Install the ServiceNow Otto for ITOM. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+Install the ServiceNow Otto for ITOM. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
 
 **Note:** Currently, ServiceNow Otto for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, Automated, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
 
@@ -65,10 +65,10 @@ Refresh the alert analysis.**Note:** Refreshing regenerates the results. Past re
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Viewing an alert group analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-alert-group-analysis.md)
+**Parent Topic:**[Viewing an alert group analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-alert-group-analysis.md)
 
 **Related topics**  
 
 
-[Viewing an alert group analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-alert-group-analysis.md)
+[Viewing an alert group analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-alert-group-analysis.md)
 

@@ -2,7 +2,7 @@
 title: Workflow stage renderers
 description: Workflow stage renderers determine how a workflow displays stages in a workflow field.In most cases, the default workflow-driven renderer should be used. If you have specific requirements for displaying stages, you can select a different stage renderer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/r\_WorkflowStageRenderers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/legacy-workflow/r\_WorkflowStageRenderers.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -81,7 +81,7 @@ The requested item renderer functions the same way as the legacy renderer, but i
 
 Only in Now Mobile, default stage renderer is used.
 
-**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md)
+**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md)
 
 ## Select a stage renderer
 

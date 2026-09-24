@@ -2,7 +2,7 @@
 title: Security findings
 description: Provides Machine Identity security score and findings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/security-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/security-score.html
 release: australia
 product: Identity
 classification: identity

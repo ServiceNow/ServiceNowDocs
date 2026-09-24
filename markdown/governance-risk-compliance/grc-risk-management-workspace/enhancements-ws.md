@@ -2,7 +2,7 @@
 title: User experience enhancements in the Risk Workspace
 description: In the new workspace, several enhancements have been made to ease the way you perform your daily tasks. The user experience enhancements are useful for new GRC users or users who do not have the complete experience of GRC.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/enhancements-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/enhancements-ws.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -45,16 +45,16 @@ The new workspace offers the following views for the users.
 
 -   **360° relationship view**
 
-    The 360º view feature enables you to view the relationships between a selected record and related objects, such as controls, risks, and entity types. The 360º view also enables you to interact with all records displayed. For more information, refer to [360° Relationship Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.md).
+    The 360º view feature enables you to view the relationships between a selected record and related objects, such as controls, risks, and entity types. The 360º view also enables you to interact with all records displayed. For more information, refer to [360° Relationship Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.md).
 
 -   **Breadcrumb navigation**
 
-    The breadcrumb style navigation provides a browser path to navigate a hierarchy of linked pages with related content. The breadcrumb style navigation provides a digital trail from the user's starting point to the current content, with the ability to navigate to each link.​ For more information, refer to [Breadcrumb navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.md)
+    The breadcrumb style navigation provides a browser path to navigate a hierarchy of linked pages with related content. The breadcrumb style navigation provides a digital trail from the user's starting point to the current content, with the ability to navigate to each link.​ For more information, refer to [Breadcrumb navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.md)
 
 -   **Consolidated issues page**
 
-    The comprehensive issue management page shows you a detailed status of your issues. For example, you can see overdue issues, issues approaching the overdue date, issues by priority and so on. You can also see the issues assigned to you and your group. This feature makes issue tracking easy. You can access your issues by clicking the Issue landing page icon \(\[Omitted image "issue-landing-page.jpg"\] Alt text: Issue landing page icon. \). For more information, refer to [Issue management in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/issues-in-ws.md).
+    The comprehensive issue management page shows you a detailed status of your issues. For example, you can see overdue issues, issues approaching the overdue date, issues by priority and so on. You can also see the issues assigned to you and your group. This feature makes issue tracking easy. You can access your issues by clicking the Issue landing page icon \(\[Omitted image "issue-landing-page.jpg"\] Alt text: Issue landing page icon. \). For more information, refer to [Issue management in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/issues-in-ws.md).
 
 
-**Parent Topic:**[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)
+**Parent Topic:**[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)
 

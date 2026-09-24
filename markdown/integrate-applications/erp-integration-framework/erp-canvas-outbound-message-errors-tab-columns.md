@@ -2,7 +2,7 @@
 title: Outbound message errors tab fields
 description: The outbound message errors tab in Zero Copy Connector for ERP contains error details and links to relevant knowledge base articles for troubleshooting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-errors-tab-columns.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-errors-tab-columns.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,9 +17,9 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The outbound message errors tab in Zero Copy Connector for ERP contains error details and links to relevant knowledge base articles for troubleshooting.
 
-For process details, see [View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md).
+For process details, see [View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md).
 
-Explore the API for interacting with Zero Copy Connector for ERP models. For details and examples of using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+Explore the API for interacting with Zero Copy Connector for ERP models. For details and examples of using the API, see .
 
 |Field|Description|
 |-----|-----------|

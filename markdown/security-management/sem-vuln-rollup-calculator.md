@@ -2,7 +2,7 @@
 title: Vulnerability Response Rollup Calculators
 description: After your initial assessment of risk calculators in the Setup Assistant, use the vulnerability rollup calculators to configure how the cumulative risk score is computed for remediation tasks and imported vulnerabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-vuln-rollup-calculator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-vuln-rollup-calculator.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -97,5 +97,5 @@ Which says that the probability of at least one of the vulnerabilities being exp
 
 **Important:** To modify the **Rollup EPSS Scores from NVD to TPEs**, you need to switch the Form context menu view to **Rollup Developer View** from the **Default view**.
 
-**Parent Topic:**[Prioritizing vulnerabilities and other findings using roll-up calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-prioritizing-vulnerabilities-other-findings.md)
+**Parent Topic:**[Prioritizing vulnerabilities and other findings using roll-up calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-prioritizing-vulnerabilities-other-findings.md)
 

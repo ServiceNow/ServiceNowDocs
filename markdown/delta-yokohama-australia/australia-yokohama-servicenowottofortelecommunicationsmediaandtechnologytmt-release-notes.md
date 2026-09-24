@@ -2,11 +2,11 @@
 title: Combined ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottofortelecommunicationsmediaandtechnologytmt-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicenowottofortelecommunicationsmediaandtechnologytmt-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,13 +75,109 @@ Yokohama
 
 </td><td>
 
--   **[Using Telecommunications, Media, and Technology AI agent collection](https://www.servicenow.com/docs/access?context=using-aiagents-usecases&family=yokohama&ft:locale=en-US)**
+-   **[Address voice quality issues](https://www.servicenow.com/docs/access?context=now-assist-customer-voice&family=yokohama&ft:locale=en-US)**
+
+Collect customer details about the voice quality issue, open a service ticket with RADCOM \([https://radcom.com/](https://radcom.com/)\), and generate a resolution plan.
+
+-   **[Risk signals and issues summarization](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-risk-signals-issues&family=yokohama&ft:locale=en-US)**
+
+Generate summary details including the record and associated risk solutions and risk occurrences for risk signal and issues records.
+
+
+ -   **[Help remediate bill issues](https://www.servicenow.com/docs/access?context=billissue-remediation-usecase&family=yokohama&ft:locale=en-US)**
+
+Handle billing inquiry case requests, analyze customer invoices, and recommend better plans based on customer usage patterns.
+
+-   **[Analyze network incidents](https://www.servicenow.com/docs/access?context=network-incident-analysis-usecase&family=yokohama&ft:locale=en-US)**
+
+Identify historic incidents and determine resolution plans. The AI agent also has the capabilities to identify field values, estimate resolution time, and create actionable tasks.
+
+-   **[Support renewals and expansion](https://www.servicenow.com/docs/access?context=now-assist-tmt-renewal-analyzer&family=yokohama&ft:locale=en-US)**
+
+Streamline customer success management by automatically assessing account health, value realization, and adoption trends. Deliver timely, data-driven insights that guide renewal planning and play recommendations.
+
+-   **[Trigger risk mitigation touchpoint](https://www.servicenow.com/docs/access?context=now-assist-tmt-touchpoint-meeting-scheduler&family=yokohama&ft:locale=en-US)**
+
+Enable customer success agents to optimize meeting schedules within the customer success workflow by creating and managing meetings. Create and manage meetings based on key details such as invitees, agenda, meeting type, and scheduling preferences.
+
+-   **[Success summarization](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-plays&family=yokohama&ft:locale=en-US)**
+
+Generate summary details including overview, current status, and open tasks for success initiatives, internal plays, and customer plays. Enhance Zoom meeting summaries by updating key notes, and enabling sentiment tracking.
+
+-   **[Analyze metric data trend](https://www.servicenow.com/docs/access?context=now-assist-tmt-analyze-metric-trend&family=yokohama&ft:locale=en-US)**
+
+Collect and analyze metric data for engagements, identify patterns, and generate a trend chart.
+
+-   **[Service summary generation](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-knowledge-graph&family=yokohama&ft:locale=en-US)**
+
+Generate a service summary for a product inventory.
+
+-   **[Knowledge graph schema generation](https://www.servicenow.com/docs/access?context=now-assist-tmt-create-knowledge-graph&family=yokohama&ft:locale=en-US)**
+
+Use the Knowledge Graph \(KG\) to create Knowledge Graph schema.
+
+-   **[Customize a summary card for service summary](https://www.servicenow.com/docs/access?context=customize-uib-builder-service-summary&family=yokohama&ft:locale=en-US)**
+
+Customize the summary card of the service summary and UI actions according to your needs.
+
+-   **[Register consumers using Agentic AI](https://www.servicenow.com/docs/access?context=now-assist-tmt-register-consumer-users-sb&family=yokohama&ft:locale=en-US)**
+
+Initiate the consumer registration process using agentic AI to receive step-by-step guidance, including error checks during registration and support for resolving those errors.
+
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+ -   **[Monitor engagement health](https://www.servicenow.com/docs/access?context=now-assist-tmt-resolve-risk&family=yokohama&ft:locale=en-US)**
+
+Monitor the health score of all engagements, create trend charts, and generate risk signals when a decline is detected.
+
+-   **[Analyze risk signals and recommend solutions](https://www.servicenow.com/docs/access?context=now-assist-tmt-monitor-health&family=yokohama&ft:locale=en-US)**
+
+Retrieve unaddressed risk signals and identify appropriate success plays based on a back-end decision table.
+
+
+ -   **[Using Telecommunications, Media, and Technology AI agent collection](https://www.servicenow.com/docs/access?context=using-aiagents-usecases&family=yokohama&ft:locale=en-US)**
 
 Use ServiceNow Otto for TMT AI agents to troubleshoot and autonomously resolve customer issues.
 
     |AI agent agentic workflow|Description|
     |-------------------------|-----------|
     |Test and repair telecom service issues|Use AI agents to handle task requests that require troubleshooting, diagnosis, and resolution of a case task.|
+
+
+ -   **[Dynamic prompt configuration](https://www.servicenow.com/docs/access?context=now-assist-tmt-customize&family=yokohama&ft:locale=en-US)**
+
+Use the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application to provide concise, context-driven summaries that are specific to each case. Your agents can ensure that critical case details are captured and can provide personalized and informed resolutions.
+
+-   **[Enhanced test summarization](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-test&family=yokohama&ft:locale=en-US)**
+
+Use AI-generated test summaries that include the metric descriptions and contextual notes from cases. Your agents can focus on high-priority issues and make better informed decisions that enhance the product quality and performance.
+
+-   **[Resolution notes generation](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-resolution&family=yokohama&ft:locale=en-US)**
+
+Generate resolution notes and then shorten or elaborate the content by using the Now Assist context menu in the resolution notes field of the case form in both the Core UI and Workspace.
+
+-   **[Knowledge article generation](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-knowledge-article&family=yokohama&ft:locale=en-US)**
+
+Select and gather insights and data from multiple similar cases to create an article by using ServiceNow Otto for TMT. Use the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\), which is accessible as an inline capability to create and refine Knowledge articles.
+
+-   **[Account onboarding case summarization](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-onboard-case&family=yokohama&ft:locale=en-US)**
+
+Generate a concise account onboarding case summary that enables your agents to get a quick overview of the case details.
+
+-   **[Engagement summarization](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-engagement&family=yokohama&ft:locale=en-US)**
+
+Generate a high-level summary with a list of the key items about an engagement.
+
+-   **[Touchpoint summarization](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-touchpoint&family=yokohama&ft:locale=en-US)**
+
+Generate a quick summary of the various touchpoints in the engagement life cycle. Your agents can get a quick summary of all meetings and emails exchanged between the different stakeholders and any follow-up activities.
+
+-   **[Transform mapping assist](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-transform-maps&family=yokohama&ft:locale=en-US)**
+
+While using the Service Exchange for a provider's application, use the Transform Mapping Assist feature to generate transform mappings between provider and consumer tables automatically. This skill enables you to streamline the transformation mapping process by reducing errors and improving overall efficiency.
 
 
 </td></tr><tr><td>
@@ -99,6 +195,51 @@ Collect customer details about the voice quality issue, open a service ticket wi
 Generate summary details including the record and associated risk solutions and risk occurrences for risk signal and issues records.
 
 
+ -   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+-   **[Help remediate bill issues](https://www.servicenow.com/docs/access?context=billissue-remediation-usecase&family=zurich&ft:locale=en-US)**
+
+Handle billing inquiry case requests, analyze customer invoices, and recommend better plans based on customer usage patterns.
+
+-   **[Analyze network incidents](https://www.servicenow.com/docs/access?context=network-incident-analysis-usecase&family=zurich&ft:locale=en-US)**
+
+Identify historic incidents and determine resolution plans. The AI agent also has the capabilities to identify field values, estimate resolution time, and create actionable tasks.
+
+-   **[Support renewals and expansion](https://www.servicenow.com/docs/access?context=now-assist-tmt-renewal-analyzer&family=zurich&ft:locale=en-US)**
+
+Streamline customer success management by automatically assessing account health, value realization, and adoption trends. Deliver timely, data-driven insights that guide renewal planning and play recommendations.
+
+-   **[Trigger risk mitigation touchpoint](https://www.servicenow.com/docs/access?context=now-assist-tmt-touchpoint-meeting-scheduler&family=zurich&ft:locale=en-US)**
+
+Enable customer success agents to optimize meeting schedules within the customer success workflow by creating and managing meetings. Create and manage meetings based on key details such as invitees, agenda, meeting type, and scheduling preferences.
+
+-   **[Success summarization](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-plays&family=zurich&ft:locale=en-US)**
+
+Generate summary details including overview, current status, and open tasks for success initiatives, internal plays, and customer plays. Enhance Zoom meeting summaries by updating key notes, and enabling sentiment tracking.
+
+-   **[Analyze metric data trend](https://www.servicenow.com/docs/access?context=now-assist-tmt-analyze-metric-trend&family=zurich&ft:locale=en-US)**
+
+Collect and analyze metric data for engagements, identify patterns, and generate a trend chart.
+
+-   **[Service summary generation](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-knowledge-graph&family=zurich&ft:locale=en-US)**
+
+Generate a service summary for a product inventory.
+
+-   **[Knowledge graph schema generation](https://www.servicenow.com/docs/access?context=now-assist-tmt-create-knowledge-graph&family=zurich&ft:locale=en-US)**
+
+Use the Knowledge Graph \(KG\) to create Knowledge Graph schema.
+
+-   **[Customize a summary card for service summary](https://www.servicenow.com/docs/access?context=customize-uib-builder-service-summary&family=zurich&ft:locale=en-US)**
+
+Customize the summary card of the service summary and UI actions according to your needs.
+
+-   **[Register consumers using Agentic AI](https://www.servicenow.com/docs/access?context=now-assist-tmt-register-consumer-users-sb&family=zurich&ft:locale=en-US)**
+
+Initiate the consumer registration process using agentic AI to receive step-by-step guidance, including error checks during registration and support for resolving those errors.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -108,6 +249,47 @@ Australia
 -   **Auto-onboarding**
 
 Reduce onboarding complexity for consumers with automated onboarding. This feature autonomously manages onboarding workflows, establishes secure connections, synchronizes settings, and continuously monitors for errors to help ensure reliable, efficient integrations with minimal manual effort.
+
+
+ -   **[Squad resource identifier](https://www.servicenow.com/docs/access?context=now-assist-squad-resource-identifier&family=australia&ft:locale=en-US)**
+
+Recommend internal experts based on engagement context, skill set, region, and real-time availability. Assist customer success teams to quickly identify and connect with the right individuals to support success plays, initiatives, or critical escalations, helping to ensure faster and more effective collaboration across engagements.
+
+-   **[Product release email communication](https://www.servicenow.com/docs/access?context=now-assist-product-release-email-communication&family=australia&ft:locale=en-US)**
+
+Automatically draft, refine, and publish release announcement emails. It identifies the right stakeholders, helps to ensure consistent messaging, and streamlines distribution.
+
+-   **Risk signals and solution synchronization**
+
+Monitor solution records linked to risk signals and automatically sync updates back to the original risk signal record. Notify customer success managers with a summarized status, and prompt them to close resolved risks.
+
+-   **Create product adoption roadmaps using Now Assist**
+
+Use generative AI to create product adoption roadmaps by analyzing customer characteristics, identifying similar products, and matching customer goals. Provide contract-level insights to support more effective renewal conversations and expansion opportunities.
+
+-   **Support renewals and expansion**
+
+Analyze renewal readiness automatically by evaluating health scores, product usage, and value achievement metrics using the Renewal Insight Engine. After receiving assessment reports, create opportunities directly within the renewal playbook.
+
+-   **Customer 360 AI insights**
+
+Analyze call, chat, billing, and interaction data with Knowledge Graph and Workflow Data Fabric. Provide service and network insights with recommendations on potential customer faults. Deliver task-based insights on recent cases, orders, A2A integration with RADCOM, voice agent interactions, and sentiment analysis related to customer health.
+
+-   **[Analyze the sentiment of a service problem case](https://www.servicenow.com/docs/access?context=now-assist-tmt-analyze-sentiment-spc-adr&family=australia&ft:locale=en-US)**
+
+Generates the customer's sentiment and the reasoning behind it on the complaint cases. Make informed decisions on complaint cases based on sentiment and link them to the Alternative Dispute Resolution \(ADR\) case record.
+
+-   **[Summarize the linked records](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-linked-record&family=australia&ft:locale=en-US)**
+
+Generate a comprehensive summary of the service problem case records that you have linked on the ADR case.
+
+-   **[Generate ADR resolution notes](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-resolution-notes-ad&family=australia&ft:locale=en-US)**
+
+Enables you to generate resolution for the customer dispute in the ADR case record. You can propose this resolution to the customer and get the customer feedback.
+
+-   **[Generate a deadlock letter](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-deadlock-letter&family=australia&ft:locale=en-US)**
+
+Generate details of a deadlock letter for an ADR case. If the customer doesn't agree with the ADR case resolution, then you can use this skill to generate the deadlock letter and share with the customer.
 
 
 </td></tr></tbody>
@@ -153,6 +335,16 @@ Zurich
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+ -   **[Role configuration required for agentic workflows and AI agents](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
+
+Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -261,6 +453,8 @@ Yokohama
 Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=yokohama&ft:locale=en-US).
 
 
+**Important:** ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -272,6 +466,8 @@ Zurich
 Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
 
 
+**Important:** ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -282,6 +478,8 @@ Australia
 
 Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -526,5 +724,5 @@ Australia
  See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

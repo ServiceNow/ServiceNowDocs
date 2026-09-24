@@ -2,7 +2,7 @@
 title: Configure conversational search tables
 description: Use Knowledge graph tags to identify which tables should be used for answering natural language questions in conversational search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-kg-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-kg-table.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

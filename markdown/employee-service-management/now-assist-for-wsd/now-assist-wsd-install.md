@@ -2,7 +2,7 @@
 title: Install ServiceNow Otto for Workplace Service Delivery \(WSD\)
 description: install and activate ServiceNow Otto for Workplace Service Delivery \(WSD\) from ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/now-assist-wsd-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-install.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd

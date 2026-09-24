@@ -2,7 +2,7 @@
 title: Review AI-generated alert insights in Express List
 description: Access alert information in Express List that is consolidated autonomously by AI skills and agents. Use the AI insights badge, column, and filter to monitor alert statuses and review of AI-generated insights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/use-ai-insights-express-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/use-ai-insights-express-list.html
 release: australia
 product: Event Management
 classification: event-management
@@ -26,7 +26,7 @@ Role required: None
 
 ## About this task
 
-The manage alerts autonomously workflow investigates alerts, summarizes alert-related reports, and stores structured insights with key findings for use in Express List. For more information about the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/itom-autonomous-operator-workflow.md).
+The manage alerts autonomously workflow investigates alerts, summarizes alert-related reports, and stores structured insights with key findings for use in Express List. For more information about the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/itom-autonomous-operator-workflow.md).
 
 Autonomous workflow is a simplified AI process elaborated in the AI Specialist. You can now activate and manage AI Specialist, controlling the groups it targets and the specific alert type it handles. Activating the AI Specialist automatically disables the Autonomous workflow.
 
@@ -35,7 +35,7 @@ Autonomous workflow is a simplified AI process elaborated in the AI Specialist. 
 There are several ways to explore AI insights in Express List.
 
 -   Quickly review if alerts have been processed by checking for the AI insights badge \[Omitted image "ai-insights-icon.png"\] Alt text:.
--   Search for specific information and key words in the Insights column. To add the column, see [Add or modify Express List columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/edit-list-columns-el.md) for more information.
+-   Search for specific information and key words in the Insights column. To add the column, see [Add or modify Express List columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/edit-list-columns-el.md) for more information.
 -   Filter for information by using the **Insights** filter attribute in the filter panel.
 -   Review **AI insights** in the preview panel or the alert record.
 
@@ -44,7 +44,7 @@ These options present differently, depending on whether the workflow is configur
 -   When the workflow operates automatically, alerts are addressed as they're created and AI insight information is displayed in Express List.
 -   When the workflow operates manually, you must manually generate AI insights. For more information, see details in the following procedure.
 
-For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md).
+For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md).
 
 ## Procedure
 
@@ -78,7 +78,7 @@ Procedure
 
 </td><td>
 
-Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-free-text-search.md).
+Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-free-text-search.md).
 
 </td></tr><tr><td id="d135776e264">
 
@@ -86,7 +86,7 @@ Search for content with the free text search. For more information, see [Find al
 
 </td><td>
 
-Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/filter-express-list.md).
+Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/filter-express-list.md).
 
 </td></tr><tr><td id="d135776e283">
 

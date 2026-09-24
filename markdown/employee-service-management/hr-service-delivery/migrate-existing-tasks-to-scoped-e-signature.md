@@ -2,7 +2,7 @@
 title: Migrate existing HR task templates and open HR tasks to e-signature
 description: Migrate existing HR task templates and open HR tasks to the new HR task type for e-signature with the Migrate HR e-signature tasks scheduled job. The scheduled job automatically updates the HR task type and e-signature template based on your existing configurations. It also disables the old HR task types for credential, e-signature, and sign document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

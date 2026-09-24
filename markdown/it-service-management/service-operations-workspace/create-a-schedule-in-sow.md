@@ -2,7 +2,7 @@
 title: Create and edit shift in Service Operations Workspace
 description: Shift manager can create a new shift using the Schedule menu or Teams menu in Service Operations Workspace
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-a-schedule-in-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-a-schedule-in-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,7 +23,7 @@ There are two ways to create and edit a shift:
 -   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "icon-sr-teams.png"\] Alt text: Teams menu. Select a team to view details and click **schedules** tab.
 -   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "show-schedules-icon.png"\] Alt text: Schedules menu.
 
-**Note:** This procedure creates and edits a shift for one team at a time. To associate a shift template with multiple teams or groups in one go, use the On-call Onboarding wizard. For more information, see [On-call Onboarding wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
+**Note:** This procedure creates and edits a shift for one team at a time. To associate a shift template with multiple teams or groups in one go, use the On-call Onboarding wizard. For more information, see [On-call Onboarding wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
 
 ## Before you begin
 
@@ -205,7 +205,7 @@ Update the shift details:\[Omitted image "edit\_shift\_members\_tab\_sow.png"\] 
     -   Weekly
     -   Monthly
 
-**Note:** This option is available only for the 2024 schedule engine. For information about this schedule engine, see [On-Call Scheduling new schedule engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/oncall-schedule-engine.md).
+**Note:** This option is available only for the 2024 schedule engine. For information about this schedule engine, see [On-Call Scheduling new schedule engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/oncall-schedule-engine.md).
 
 -   Rotation frequency for weekly interval
 -   Rotation frequency for monthly interval. Also, specify if the roster rotation should start on the last day of the month or any specific day of the month.
@@ -232,5 +232,5 @@ View escalation policy and click **Open Team Record** go to the team record. \[O
     You can also select \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon to change shift color.
 
 
-**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
+**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
 

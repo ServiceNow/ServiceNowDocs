@@ -2,7 +2,7 @@
 title: Review an order orchestration plan
 description: Track the progress of an order in the fulfillment process by reviewing the orchestration plan for the order, its order line items, and domain product, service, or resource orders. By using the order orchestration UI, you can easily identify and resolve any delays or fallouts so that you can do the order fulfillment process more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/review-order-fulfillment-orchestration-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/review-order-fulfillment-orchestration-plan.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ By using the order orchestration UI, you can perform the following actions:
 -   Determine the current state of the associated order line items, domain orders, and order tasks.
 -   Identify any order delays or fallouts in the order fulfillment process, and resolve them on time.
 
-To learn more, see [Using the order orchestration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/orchestration-plans-for-order-fulfillment.md).
+To learn more, see [Using the order orchestration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/orchestration-plans-for-order-fulfillment.md).
 
 ## Procedure
 
@@ -154,20 +154,20 @@ System-assigned domain product or order task number.
 
 Current state of the domain product or order task. To learn more, see:
 
-    -   [Customer order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-state-values.md)
-    -   [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/service-order-mgt-state-values.md)
+    -   [Customer order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-state-values.md)
+    -   [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/service-order-mgt-state-values.md)
 
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
-[Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-tasks.md)
+[Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-customer-order-tasks.md)
 
-**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/reviewing-orchestration-plans-order-fulfillment.md)
 
 **Related topics**  
 
 
-[View an order timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-order-timelines.md)
+[View an order timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-order-timelines.md)
 

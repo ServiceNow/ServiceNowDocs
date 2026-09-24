@@ -2,7 +2,7 @@
 title: Look up and verify a contact or consumer
 description: An agent can look up contact or consumer information from a saved interaction record, review and confirm the information, and then populate the information on the interaction record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/lookup-verify-contact-consumer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/lookup-verify-contact-consumer.html
 release: australia
 topic_type: task
 last_updated: "2026-06-25"
@@ -52,5 +52,5 @@ Agents can search for information such as name, phone number, email address, cas
 **Related topics**  
 
 
-[Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-and-verify-overview.md)
+[Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/lookup-and-verify-overview.md)
 

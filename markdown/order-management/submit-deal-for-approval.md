@@ -2,10 +2,10 @@
 title: Submit a deal for approval
 description: Submit a deal for approval to route it through your organization's configured approval workflow and identify the approvers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/submit-deal-for-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/submit-deal-for-approval.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Deal Registration approvals, Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -57,7 +57,7 @@ Your approval decision is recorded in the system. If you approved the deal and i
 
 If the approval process includes multiple sequential steps, the next approver receives their approval request. Monitor the deal's approval progress by viewing the Approvals tab. Once all approvals are complete or the deal is rejected, the deal agent receives notification of the final outcome.
 
-For more information, see [Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-approvals-overview.md).
+For more information, see [Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-approvals-overview.md).
 
-**Parent Topic:**[Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-approvals-overview.md)
+**Parent Topic:**[Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-approvals-overview.md)
 

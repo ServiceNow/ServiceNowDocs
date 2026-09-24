@@ -2,7 +2,7 @@
 title: MID Server system requirements
 description: Use these minimum system requirements to allocate resources for computers hosting MID Servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/r\_MIDServerSystemRequirements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/r\_MIDServerSystemRequirements.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -54,7 +54,7 @@ MID Servers can be manually installed to any operating system with the ZIP file,
 
 ## Security requirements
 
-To meet high security standards, the MID Server performs x.509 certificate validation on HTTPS traffic when connecting to ServiceNow®. If a network appliance or proxy exists between the MID Server and the instance, that appliance needs to present a digital certificate signed by a trusted CA. If you are using a self-signed certificate or a certificate signed by an internal CA, import the certificate to the MID Server trust store. For more information on adding SSL certificates, see [Add SSL certificates for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/add-ssl-certificates.md).
+To meet high security standards, the MID Server performs x.509 certificate validation on HTTPS traffic when connecting to ServiceNow®. If a network appliance or proxy exists between the MID Server and the instance, that appliance needs to present a digital certificate signed by a trusted CA. If you are using a self-signed certificate or a certificate signed by an internal CA, import the certificate to the MID Server trust store. For more information on adding SSL certificates, see [Add SSL certificates for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/add-ssl-certificates.md).
 
 ## OCSP connectivity requirements
 
@@ -109,7 +109,7 @@ The MID Server installer includes the Tanuki Software Java Service Wrapper, vers
 
 ## Setting the JVM Memory size
 
-The MID Server installs with 1 GB of JVM memory. If the suggested memory size for your product is greater than 1 GB, see [Set the MID Server JVM memory size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_MIDServerOptionalConfiguration.md) for the procedure to override the default setting.
+The MID Server installs with 1 GB of JVM memory. If the suggested memory size for your product is greater than 1 GB, see [Set the MID Server JVM memory size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_MIDServerOptionalConfiguration.md) for the procedure to override the default setting.
 
 ## Deployment types
 
@@ -233,9 +233,9 @@ As a result, there is no one size requirement that fits for all MID Server deplo
 
 ## Monitoring performance
 
-To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDashboard.md).
+To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerDashboard.md).
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
@@ -268,7 +268,7 @@ To ensure that the MID Server resource allocations are sufficient for your envir
 
 [Pause the MID Server]()
 
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-landing.md)
 
-[Exploring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/explore-mid-server.md)
+[Exploring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/explore-mid-server.md)
 

@@ -2,7 +2,7 @@
 title: Using Upgrade Center
 description: Use different features in Upgrade Center for previewing, scheduling, and monitoring your upgrade experience. You can also review and track every upgrade made in your instance using the Upgrade History module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-using.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -16,7 +16,7 @@ breadcrumb: [Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 
 Use different features in Upgrade Center for previewing, scheduling, and monitoring your upgrade experience. You can also review and track every upgrade made in your instance using the Upgrade History module.
 
--   [Previewing your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-preview-upgrade.md): Get an insight into your upgrade experience for different ServiceNow release versions and see its impact on your current configurations.
--   [Scheduling and monitoring your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-schedule-monitor-upgrade.md): Monitor the status of an ongoing upgrade using the Upgrade Monitor module. You can also schedule an upgrade using this module.
--   [Reviewing your upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-review-history.md): Track an upgrade and review its reports using the Upgrade History module.
+-   [Previewing your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-preview-upgrade.md): Get an insight into your upgrade experience for different ServiceNow release versions and see its impact on your current configurations.
+-   [Scheduling and monitoring your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-schedule-monitor-upgrade.md): Monitor the status of an ongoing upgrade using the Upgrade Monitor module. You can also schedule an upgrade using this module.
+-   [Reviewing your upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-review-history.md): Track an upgrade and review its reports using the Upgrade History module.
 

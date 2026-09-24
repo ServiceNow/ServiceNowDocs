@@ -2,7 +2,7 @@
 title: Configure offline mode in the Now Mobile app for Health and Safety
 description: Setup offline mode in the Now Mobile app for Health and Safety so that users can access it even without an internet connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-configure-offline-mode-health-safety.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-configure-offline-mode-health-safety.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -55,5 +55,5 @@ Role required: admin
     7.  Select **Save**.
 
 
-**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
+**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 

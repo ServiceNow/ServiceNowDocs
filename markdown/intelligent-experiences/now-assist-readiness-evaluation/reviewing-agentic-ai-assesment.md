@@ -2,7 +2,7 @@
 title: Reviewing your Agentic AI assessment
 description: This automated assessment process evaluates potential implementation impacts and provides actionable insights for agentic AI in ServiceNow Otto for IT Service Management \(ITSM\) and ServiceNow Otto for Customer Service Management \(CSM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
@@ -19,7 +19,7 @@ This automated assessment process evaluates potential implementation impacts and
 
 Navigate to **Workspaces** &gt; **AI Readiness Evaluation** and select the agentic AI assessment icon \[Omitted image "agentic-ai-icon.png"\] Alt text: to review your agentic AI assessment.
 
-**Note:** Before viewing your agentic AI assessments, you must first have run the scheduled job to get the assessment results. If you haven't run your scheduled jobs, you are prompted to do so on an individual job level. For more information on running scheduled jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md).
+**Note:** Before viewing your agentic AI assessments, you must first have run the scheduled job to get the assessment results. If you haven't run your scheduled jobs, you are prompted to do so on an individual job level. For more information on running scheduled jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md).
 
 The summary tab provides a consolidated summary of overall findings along with summarization and resolution notes for ITSM and CSM. The results shown are estimates. You should evaluate results provided by AI Readiness Evaluation for accuracy and appropriateness for your use case.
 
@@ -50,5 +50,5 @@ You can select **Download Report** to export the entire agentic assessment repor
 
 \[Omitted image "nare-agentic-ai-assessment-itsm.png"\] Alt text: The Agentic AI - ITSM assessment is shown and includes the relevant questions and records.
 
-After reviewing the assessment and making the suggested assessment changes, rerun your scheduled jobs to see how your results improve. For more information on rerunning a specific job or all jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md).
+After reviewing the assessment and making the suggested assessment changes, rerun your scheduled jobs to see how your results improve. For more information on rerunning a specific job or all jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md).
 

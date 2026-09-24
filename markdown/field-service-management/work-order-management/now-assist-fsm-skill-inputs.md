@@ -2,7 +2,7 @@
 title: Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)
 description: Use the inputs for each skill to configure how a skill is used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/now-assist-fsm-skill-inputs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/now-assist-fsm-skill-inputs.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,7 +2,7 @@
 title: Create Azure cloud credentials
 description: If your cloud resources are in an Azure cloud, create credentials that can access the Azure account. This procedure requires configuration in your Azure account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-azure-cloud-credentials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/create-azure-cloud-credentials.html
 release: australia
 product: Discovery
 classification: discovery

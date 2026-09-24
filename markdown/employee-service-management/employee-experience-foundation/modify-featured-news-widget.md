@@ -2,7 +2,7 @@
 title: Modify the Featured News widget
 description: The Featured News widget displays featured articles on company news and announcements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/modify-featured-news-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/modify-featured-news-widget.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +20,7 @@ The Featured News widget displays featured articles on company news and announce
 
 Role required: sp\_admin or admin
 
-Learn more about the news widgets: [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-news-articles.md)
+Learn more about the news widgets: [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-news-articles.md)
 
 ## Procedure
 
@@ -120,5 +120,5 @@ Enables viewing of nested call insights for total load time in parent and child 
 </table>5.  Select **Save**.
 
 
-**Parent Topic:**[Configure employee communications widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-comms-widgets.md)
+**Parent Topic:**[Configure employee communications widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-comms-widgets.md)
 

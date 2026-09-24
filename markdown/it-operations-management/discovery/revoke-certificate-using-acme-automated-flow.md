@@ -2,7 +2,7 @@
 title: Revoke certificates using ACME automated flow
 description: Request a revoke certificate for an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/revoke-certificate-using-acme-automated-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/revoke-certificate-using-acme-automated-flow.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,9 +18,9 @@ Request a revoke certificate for an application.
 
 ## Before you begin
 
--   Ensure that a credential has been set up. For more information, see [Create credentials for ACME certificate authority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-credential-for-acme-ca.md).
+-   Ensure that a credential has been set up. For more information, see [Create credentials for ACME certificate authority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-credential-for-acme-ca.md).
 -   The Certificate Management catalog has been enabled.
--   A routing policy with a DNS challenge action exists. For more information, see [Set up routing policies for ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-up-routing-policy-for-acme.md).
+-   A routing policy with a DNS challenge action exists. For more information, see [Set up routing policies for ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/set-up-routing-policy-for-acme.md).
 -   Role required: certificate administrator \[sn\_disco\_certmgmt.pki\_admin\] or admin.
 
 ## Procedure

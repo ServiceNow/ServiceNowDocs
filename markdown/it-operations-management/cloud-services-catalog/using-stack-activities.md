@@ -2,7 +2,7 @@
 title: Stack activities view
 description: Display the cloud actions on your stacks and resources by using the View Activities tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/using-stack-activities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-services-catalog/using-stack-activities.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -64,5 +64,5 @@ List of scheduled operations that are associated with stacks and are displayed a
 -   Status
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/manage-stacks.md)
+</table>**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/manage-stacks.md)
 

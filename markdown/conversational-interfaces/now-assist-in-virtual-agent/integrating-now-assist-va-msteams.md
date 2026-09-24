@@ -2,7 +2,7 @@
 title: Integrating ServiceNow Otto for Virtual Agent with Microsoft Teams
 description: ServiceNow Otto for Virtual Agent uses large language models \(LLMs\) and generative AI to improve deflection rates and reduce the amount of work that Natural Language Understanding \(NLU\) topic discovery once required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/integrating-now-assist-va-msteams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/integrating-now-assist-va-msteams.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +17,7 @@ breadcrumb: [ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 
 ServiceNow Otto for Virtual Agent uses large language models \(LLMs\) and generative AI to improve deflection rates and reduce the amount of work that Natural Language Understanding \(NLU\) topic discovery once required.
 
-ServiceNow® Otto for Virtual Agent is available through portals on the chat widget, the mobile app, and Microsoft Teams. To integrate ServiceNow® Otto for Virtual Agent with Microsoft Teams, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md). In step 12 of the procedure to [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md), there's the option to choose where to display Virtual Agent. Select Microsoft Teams.
+ServiceNow® Otto for Virtual Agent is available through portals on the chat widget, the mobile app, and Microsoft Teams. To integrate ServiceNow® Otto for Virtual Agent with Microsoft Teams, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md). In step 12 of the procedure to [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md), there's the option to choose where to display Virtual Agent. Select Microsoft Teams.
 
 ServiceNow® Otto for Virtual Agent with Microsoft Teams relies on AI Search fallback topics. Within AI Search fallback topics, two types of results can appear:
 
@@ -27,5 +27,5 @@ ServiceNow® Otto for Virtual Agent with Microsoft Teams relies on AI Search fal
 
 2.  Regular search results \(multi-link outputs in conversations\).
 
-For more information, see [Exploring ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md) and [Virtual Agent feature support in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-teams-other-features.md).
+For more information, see [Exploring ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md) and [Virtual Agent feature support in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-teams-other-features.md).
 

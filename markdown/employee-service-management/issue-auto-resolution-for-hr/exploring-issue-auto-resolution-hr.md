@@ -2,7 +2,7 @@
 title: Exploring Issue Auto Resolution for HR
 description: Issue Auto Resolution for HR enables employees to use request channels and response channels for communication and collects feedback from them to improve the quality of the recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/issue-auto-resolution-for-hr/exploring-issue-auto-resolution-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/issue-auto-resolution-for-hr/exploring-issue-auto-resolution-hr.html
 release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr

@@ -2,14 +2,14 @@
 title: Configure Trello for external content indexing
 description: Create and authorize a Power-Up in the Trello Power-Up Admin Portal to allow the Trello external content connector to access your Trello source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-trello-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-trello-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Trello external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -96,14 +96,14 @@ To allow the connector to access your Trello source system via the Trello REST A
 
 Provide the following items to your connector administrator:
 
--   The API key that you copied in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-trello-external-content-indexing.md).
--   The API token that you copied in step [2.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-trello-external-content-indexing.md).
--   The enterprise ID that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-trello-external-content-indexing.md).
+-   The API key that you copied in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-trello-external-content-indexing.md).
+-   The API token that you copied in step [2.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-trello-external-content-indexing.md).
+-   The enterprise ID that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-trello-external-content-indexing.md).
 -   The base URL for the Trello REST API. This is usually `https://api.trello.com`.
 
 Your connector administrator needs these items to configure a Trello external content connector to retrieve boards from your Trello source system.
 
-For details on creating and configuring a Trello external content connector, see [Create a Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-trello.md).
+For details on creating and configuring a Trello external content connector, see [Create a Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-trello.md).
 
-**Parent Topic:**[Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/trello-external-content-connector.md)
+**Parent Topic:**[Trello external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/trello-external-content-connector.md)
 

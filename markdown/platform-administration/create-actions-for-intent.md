@@ -2,7 +2,7 @@
 title: Create and associate actions for intent
 description: Create and map actions to an intent for executing appropriate actions once the intent match happens.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-actions-for-intent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-actions-for-intent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,7 +66,7 @@ Select the **Subflow** tab and select the subflow that must be triggered when th
 **Note:** If the **Assigned to** field in target record is not populated then the user won't be able to review the draft or draft a reply.
 
 5.  In **Search profile**, select or add a profile that can be used for generating a reply for the email when the intent is matched.
-6.  In **Email Template**, create or apply an existing email template for the reply action. To create an email template, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md).
+6.  In **Email Template**, create or apply an existing email template for the reply action. To create an email template, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateAnEmailTemplate.md).
     1.  Set the form view to **Intent**.
     2.  Set the **Table** field to **Email \[sys\_email\]**.
     3.  In the **Message HTML**, add the `#{INTENT_NOTIF_EMAIL_RESPONSE}` token to represent the LLM-generated response.

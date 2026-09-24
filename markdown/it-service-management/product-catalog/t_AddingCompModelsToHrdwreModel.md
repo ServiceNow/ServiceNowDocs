@@ -2,7 +2,7 @@
 title: Add compatible models to a hardware model
 description: On a hardware model record, you can add compatible hardware models, giving you a good method for tracking hardware assets that can work together.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_AddingCompModelsToHrdwreModel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/product-catalog/t\_AddingCompModelsToHrdwreModel.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -39,14 +39,14 @@ Role required: model\_manager
     The selected model is listed in the **Compatibles** related list.
 
 
-**Parent Topic:**[Create hardware models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_CreatingHardwareModels.md)
+**Parent Topic:**[Create hardware models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/t_CreatingHardwareModels.md)
 
 **Related topics**  
 
 
 [Add substitute models to a hardware model]()
 
-[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md)
+[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/c_Models.md)
 
-[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_CreatingBundledModels.md)
+[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/c_CreatingBundledModels.md)
 

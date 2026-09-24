@@ -2,7 +2,7 @@
 title: Define the state transitions model
 description: Define the model state transitions and conditions to control how a vulnerability traverses through the different workflow states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/define-model-state-transitions-for-vul.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/define-model-state-transitions-for-vul.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

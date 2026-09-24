@@ -2,7 +2,7 @@
 title: Preliminary troubleshooter agentic workflow
 description: Use the preliminary troubleshooter agentic workflow to resolve broadband and internet issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-preliminary-troubleshooter-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-preliminary-troubleshooter-agentic-workflow.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

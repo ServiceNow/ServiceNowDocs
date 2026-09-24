@@ -2,7 +2,7 @@
 title: Use filters in the Users tab
 description: You can use filters to get a deeper understanding of User data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/users-tab-filtering-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/users-tab-filtering-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -52,5 +52,5 @@ To save a condition that you created in the filter editor, select **Save filter*
 |User|Filters users based on user name.|
 |Keywords|Filters users based on keywords related to the conversation.|
 
-**Parent Topic:**[Users tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/users-tab-pae.md)
+**Parent Topic:**[Users tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/users-tab-pae.md)
 

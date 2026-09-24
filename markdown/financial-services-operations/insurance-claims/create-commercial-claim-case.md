@@ -2,7 +2,7 @@
 title: Create a commercial claim case
 description: A first-notice-of-loss representative or processor can begin the claim process by initiating a commercial claim case on behalf of your customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-commercial-claim-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/create-commercial-claim-case.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -77,5 +77,5 @@ A commercial claim case is created in the New state and the workflow is triggere
 
 ## What to do next
 
-As a claim processor, you can assign the case to yourself and start working on it. For more information, see [Process a commercial claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/manually_validate_claim.md).
+As a claim processor, you can assign the case to yourself and start working on it. For more information, see [Process a commercial claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/manually_validate_claim.md).
 

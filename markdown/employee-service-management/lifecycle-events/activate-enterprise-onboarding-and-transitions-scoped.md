@@ -2,7 +2,7 @@
 title: Activate Lifecycle Events
 description: You can activate Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\] if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -81,10 +81,10 @@ Provides Employee Center.
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Lifecycle event script includes and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/LEScriptIncludes.md)**  
+-   **[Lifecycle event script includes and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/LEScriptIncludes.md)**  
 Script includes call workflows within Lifecycle Events.
--   **[Lifecycle Events workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/LEWorkflow.md)**  
+-   **[Lifecycle Events workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/LEWorkflow.md)**  
 The **HR Activity Set Launcher** workflow drives the entire lifecycle event process. Associated workflows drive each of the activity sets within a lifecycle event.
 
-**Parent Topic:**[Configuring Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configuring-lifecycle-events.md)
+**Parent Topic:**[Configuring Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configuring-lifecycle-events.md)
 

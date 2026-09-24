@@ -2,7 +2,7 @@
 title: Java Apache Axis2 web services client examples advanced
 description: Examples showing how to construct and use an Axis2 client to consume a ServiceNow Web Service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_JAAWbSrvcsClntExAdv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_JAAWbSrvcsClntExAdv.html
 release: australia
 product: Web Services
 classification: web-services
@@ -89,5 +89,5 @@ For example:
 <Axis path>\bin\wsdl2java.bat -u -p cr2 -ns2p http://www.service-now.com/change_request=my.change_request -uri change_request
 ```
 
-**Parent Topic:**[Java Apache Axis2 web services client examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JAAWbSrvcsClntEx.md)
+**Parent Topic:**[Java Apache Axis2 web services client examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_JAAWbSrvcsClntEx.md)
 

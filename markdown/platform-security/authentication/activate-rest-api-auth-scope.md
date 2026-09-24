@@ -2,7 +2,7 @@
 title: Activate REST API Auth Scope
 description: You can activate the REST API Auth Scope plugin \(com.glide.rest.auth.scope\) to link the OAuth entity with authentication scopes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-rest-api-auth-scope.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/activate-rest-api-auth-scope.html
 release: australia
 product: Authentication
 classification: authentication

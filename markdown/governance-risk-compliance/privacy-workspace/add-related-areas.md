@@ -2,7 +2,7 @@
 title: Add a related area to a privacy case
 description: Add the related areas that are related to a privacy case or event reported in the Privacy Case Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/add-related-areas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/add-related-areas.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -94,5 +94,5 @@ Brief description of the related areas.
 </table>7.  Select **Save**.
 
 
-**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

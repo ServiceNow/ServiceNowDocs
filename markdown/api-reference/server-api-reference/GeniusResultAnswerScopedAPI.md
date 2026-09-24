@@ -2,7 +2,7 @@
 title: GeniusResultAnswer - Scoped
 description: The GeniusResultAnswer API provides methods for creating an answer object in a Genius Result configuration's processor scripts. Answers created with this API define search requests or key-value pair maps that can populate Genius Result answer cards.Defines a Genius Result answer with arbitrary key-value pair fields in your Genius Result configuration's AI Search response processor script. You can utilize any public ServiceNow AI Platform API to generate these fields.Adds terms to the search query defined in your Genius Result configuration's AI Search request processor script.Specifies an encoded search query in your Genius Result configuration's AI Search request processor script. Results from this encoded search query are displayed as Genius Result answer cards.Limits the maximum number of results returned for the search query defined in your Genius Result configuration's AI Search request processor script. By default, the search query returns up to three results.Specifies terms for the search query defined in your Genius Result configuration's AI Search request processor script.Limits the search query defined in a Genius Result configuration's AI Search request processor script to a specific table. The query only returns search results from the specified table as Genius Result answer cards.Specifies whether to perform typo handling auto-correction \(spell checking\) for the search query defined in a Genius Result configuration's AI Search request processor script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GeniusResultAnswerScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GeniusResultAnswerScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GeniusResultAnswer API provides methods for creating an answer object in a Genius Result configuration's processor scripts. Answers created with this API define search requests or key-value pair maps that can populate Genius Result answer cards.
 
-You can populate the answer object with query details retrieved from the context of the Genius Result configuration using the [GeniusResultContext](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GeniusResultContextScopedAPI.md) API.
+You can populate the answer object with query details retrieved from the context of the Genius Result configuration using the [GeniusResultContext](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GeniusResultContextScopedAPI.md) API.
 
 The GeniusResultAnswer API methods you need to invoke to create your answer object depend on which AI Search Genius Result Configuration form field you're using for your script:
 
@@ -25,7 +25,7 @@ The GeniusResultAnswer API methods you need to invoke to create your answer obje
 
 Use this API in Genius Result server-side scripts with the `sn_ais` namespace identifier. For more information on scripting logic for Genius Results, see [Create a new Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-genius-results-config-ais.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GeniusResultAnswer – addDataMap\(Object map\)
 

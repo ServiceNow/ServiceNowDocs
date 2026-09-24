@@ -2,7 +2,7 @@
 title: Service Exchange data model
 description: The Service Exchange applications data model provides insight into how the tables that are used in Service Exchange relate to each other.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-data-model.html
 release: australia
 product: Service Exchange
 classification: service-exchange

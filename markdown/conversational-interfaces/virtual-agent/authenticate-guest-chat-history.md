@@ -2,7 +2,7 @@
 title: Login to transfer guest chat history to an authenticated Virtual Agent session
 description: Elevate guest users to an authenticated session by logging in, and without losing chat context or history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/authenticate-guest-chat-history.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/authenticate-guest-chat-history.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -64,5 +64,5 @@ When you start a Virtual Agent session, use the login link that appears in the c
 
 **Note:** Depending on the instance, the buttons may have a different name such as **Sign in**.
 
-**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
+**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
 

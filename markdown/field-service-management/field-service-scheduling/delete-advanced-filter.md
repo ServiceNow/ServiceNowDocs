@@ -2,7 +2,7 @@
 title: Delete an advanced filter
 description: You can delete an advanced filter in Dispatcher Workspace to remove it after you create it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/delete-advanced-filter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/delete-advanced-filter.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

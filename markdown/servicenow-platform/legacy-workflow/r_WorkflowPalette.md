@@ -2,7 +2,7 @@
 title: Workflow palette
 description: The default workflow palette contains workflow activities and existing workflows you can use as subflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_WorkflowPalette.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/r\_WorkflowPalette.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -29,9 +29,9 @@ The **Workflows** tab lists existing workflows that you can edit or use as subfl
 
 ## Core tab
 
-The **Core** tab contains the standard activities available by default to all workflows and any activities purchased with Orchestration, organized by category. Click the arrow icons to expand or collapse the activity lists under each category. To add an activity to a workflow, drag it to the canvas. For more information, see [Add an activity to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/t_AddAnActivityToAWorkflow.md).
+The **Core** tab contains the standard activities available by default to all workflows and any activities purchased with Orchestration, organized by category. Click the arrow icons to expand or collapse the activity lists under each category. To add an activity to a workflow, drag it to the canvas. For more information, see [Add an activity to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/t_AddAnActivityToAWorkflow.md).
 
 \[Omitted image "WorkflowCoreTab.png"\] Alt text:
 
-**Parent Topic:**[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflow-editor.md)
+**Parent Topic:**[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/workflow-editor.md)
 

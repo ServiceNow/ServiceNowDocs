@@ -2,7 +2,7 @@
 title: Generate an email response by using ServiceNow Otto for IT Service Management \(ITSM\)
 description: Generate an email as a recommendation based on the context of the incident using the ServiceNow Otto icon. Email responses can help agents save time and learn efficient ways to respond to requesters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-email-recommendation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-email-recommendation.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -38,15 +38,15 @@ As an agent, you can do these actions using the ServiceNow Otto icon:
 
 2.  Start composing an email using the More actions icon or from the activity stream.
 
-<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d372071e125">
+<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d372050e125">
 
 Method
 
-</th><th align="left" id="d372071e128">
+</th><th align="left" id="d372050e128">
 
 Instructions
 
-</th></tr></thead><tbody><tr><td id="d372071e134">
+</th></tr></thead><tbody><tr><td id="d372050e134">
 
 **Compose email using More actions icon\[Omitted image "now-assist-itsm-more-actions-icon.png"\] Alt text: More actions icon**
 
@@ -65,7 +65,7 @@ ServiceNow Otto creates an email response as a recommendation.
 
 Get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
 
-</td></tr><tr><td id="d372071e196">
+</td></tr><tr><td id="d372050e196">
 
 **Compose an email from Activity stream**
 
@@ -79,15 +79,15 @@ Get an email response as a recommendation for the agent to ask more questions or
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response or leave it empty, and then select the ServiceNow Otto \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for ServiceNow Otto.icon.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d372071e253">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d372050e253">
 
 Email message window
 
-</th><th align="left" id="d372071e256">
+</th><th align="left" id="d372050e256">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d372071e265">
+</th></tr></thead><tbody><tr><td id="d372050e265">
 
 **Typed response**
 
@@ -97,7 +97,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d372071e282">
+</td></tr><tr><td id="d372050e282">
 
 **Left blank**
 

@@ -2,7 +2,7 @@
 title: If flow logic
 description: Selectively apply one or more actions only when a list of conditions is met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-if.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-logic-if.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -83,7 +83,7 @@ Use these general guidelines to create effective If flow logic blocks.
     \[Omitted image "example-decision-table-get-assignment-group-from-category.png"\] Alt text: Example decision table with a conditions column for incident category and a results column for assignment group.
 
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

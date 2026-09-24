@@ -2,7 +2,7 @@
 title: Customize a skill
 description: Customize some of the input fields of a generative AI skill to suit the requirements of your environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/cust-now-assist-security-incident-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/cust-now-assist-security-incident-skill.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -38,7 +38,7 @@ Roles required: sn\_si.admin
     -   Post incident analysis
     -   Security operations metrics analysis
 
-        This skill is activated for use with an AI agent. See [Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/assess-metrics-sir-aiagent.md) for more information.
+        This skill is activated for use with an AI agent. See [Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/assess-metrics-sir-aiagent.md) for more information.
 
     -   Correlation insights generation
     -   Security incident summarization
@@ -164,5 +164,5 @@ Verify where the skill is displayed and add roles for who can view it.Select **S
 5.  Select **Activate skill**.
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)
 

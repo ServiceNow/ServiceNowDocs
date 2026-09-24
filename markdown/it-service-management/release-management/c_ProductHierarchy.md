@@ -2,7 +2,7 @@
 title: Product hierarchy in Release Management
 description: A release can be an enterprise release, in which it is associated to all products or services or to more than one product. In either case, defining a product is not required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/c\_ProductHierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/release-management/c\_ProductHierarchy.html
 release: australia
 product: Release Management
 classification: release-management
@@ -20,5 +20,5 @@ If a product has releases defined, the **Product Hierarchy** related link displa
 
 \[Omitted image "product-hierarchy.png"\] Alt text: Product hierarchy in Release Management
 
-**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_Release.md)
+**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/release-management/c_Release.md)
 

@@ -2,7 +2,7 @@
 title: Create and train a regression solution
 description: Regression solutions have been deprecated. They could be used to predict numeric outputs, such as a temperature or a stock price.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/create-regression-solution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/create-regression-solution.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -75,7 +75,7 @@ Word Corpus
 
 Select an existing word corpus that's relevant to your solution. For example, in this use case you select a word corpus that has a title such as **Incidents in the last 3 months**.
 
- If you don’t have a relevant word corpus, follow the steps [to create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-word-corpus.md) first. When the word corpus is complete, you can select it from the Word Corpus field in your Regression Definition form.
+ If you don’t have a relevant word corpus, follow the steps [to create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-word-corpus.md) first. When the word corpus is complete, you can select it from the Word Corpus field in your Regression Definition form.
 
  However, the word corpus selection is optional. If your input data has text columns and you don't choose a word corpus, your regression solution trains a new word corpus model by using the text columns in your input data. The resulting word corpus can be reused in any other regression solution or other ML solution type.
 

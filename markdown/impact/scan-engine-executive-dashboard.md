@@ -2,7 +2,7 @@
 title: Scan Engine Executive dashboard
 description: The Executive dashboard includes trend charts and the following overview modules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-executive-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/scan-engine-executive-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -172,7 +172,7 @@ Total resolved findings
     -   **Findings by proposed fix applied**
     -   **Findings that were resolved manually**
 
- **Note:** The Scan Engine property **Track resolved findings** must be active to populate this chart. See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md).
+ **Note:** The Scan Engine property **Track resolved findings** must be active to populate this chart. See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md).
 
 </td></tr><tr><td>
 

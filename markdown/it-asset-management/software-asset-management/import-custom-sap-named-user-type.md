@@ -2,7 +2,7 @@
 title: Import custom SAP named user types
 description: Import custom SAP named user types into your ServiceNow instance so that you can track and manage SAP licenses based on the named user types that are specific to your SAP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/import-custom-sap-named-user-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/import-custom-sap-named-user-type.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -64,7 +64,7 @@ Do you want to create an Excel template to enter data?
 
 </td><td>
 
-Option to generate the Microsoft Excel spreadsheet template that you can use to insert or update data in the SAP Custom Named User Types \[imp\_samp\_sap\_custom\_nut\] table. Enable this option only if didn’t already download the spreadsheet template in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-custom-sap-named-user-type.md).
+Option to generate the Microsoft Excel spreadsheet template that you can use to insert or update data in the SAP Custom Named User Types \[imp\_samp\_sap\_custom\_nut\] table. Enable this option only if didn’t already download the spreadsheet template in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-custom-sap-named-user-type.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -110,7 +110,7 @@ Microsoft Excel spreadsheet that contains the named user types that you want to 
     The custom SAP named user types are imported into your ServiceNow® instance. The named user types are then added to the Named User Types \[samp\_named\_user\_type\] table.
 
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

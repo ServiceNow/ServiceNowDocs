@@ -2,7 +2,7 @@
 title: Summarize a quote using quote summarization
 description: Summarize a quote to generate a consolidated report of a quote record to quickly understand the quote without manually reviewing multiple fields, line items, or related records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/summarize-quote.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/summarize-quote.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -96,5 +96,5 @@ If you want to check details about the summary, select the more info icon \[Omit
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

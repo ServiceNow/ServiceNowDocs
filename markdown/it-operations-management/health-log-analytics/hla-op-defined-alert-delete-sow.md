@@ -2,7 +2,7 @@
 title: Delete a custom Log Analytics alert rule in Health Log Analytics
 description: Delete a Log Analytics alert rule that you have defined if it is no longer necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-defined-alert-delete-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-op-defined-alert-delete-sow.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,7 +19,7 @@ Delete a Log Analytics alert rule that you have defined if it is no longer neces
 
 ## Before you begin
 
-For background information, see [Alert rules in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-custom-alert-rules.md).
+For background information, see [Alert rules in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-custom-alert-rules.md).
 
 This feature is supported in the Health Log Analytics application, Version 20.0.11 - July 2021, and the Health Log Analytics Viewer application, Version 20.0.4 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 

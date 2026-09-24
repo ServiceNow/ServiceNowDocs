@@ -2,7 +2,7 @@
 title: View tolerance form
 description: View tolerance details at the header level and variance details at the line level for invoice processing cases with exceptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/view-tolerance-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/view-tolerance-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -44,5 +44,5 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist
         **Note:** If the variance value and variance percentage is exceeding the limit, the values are highlighted in yellow color with warning \[Omitted image "warning-icon.png"\] Alt text: Warning icon icon suffixed with **Exceeds** and **Within** labels. Grey color indicates that the variance value and variance percentage is within the limits or closed with check\[Omitted image "check-icon.png"\] Alt text: Check icon icon.
 
 
-**Parent Topic:**[Tolerance rules and variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance rules and variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

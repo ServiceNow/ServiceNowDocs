@@ -2,7 +2,7 @@
 title: Generate resource capacity
 description: Generate and view the total capacity of the resources with primary attributes. Capacity details helps Portfolio Managers to plan and manage planning items depending on the resource availability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/manage-rsrc-cap-pp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/manage-rsrc-cap-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,8 +18,8 @@ Generate and view the total capacity of the resources with primary attributes. C
 
 ## Before you begin
 
-1.  Enable planning attributes for capacity planning. For more information, see [Enable planning attributes for capacity in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/cp-enable-planning-attributes-pp.md).
-2.  Generate employee profiles for resources. For more information, see [Generate employee profiles for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/gen-emp-profiles-cp-pp.md).
+1.  Enable planning attributes for capacity planning. For more information, see [Enable planning attributes for capacity in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/cp-enable-planning-attributes-pp.md).
+2.  Generate employee profiles for resources. For more information, see [Generate employee profiles for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/gen-emp-profiles-cp-pp.md).
 
 Role required: sn\_align\_ws.spw\_capacity\_user
 
@@ -29,7 +29,7 @@ Role required: sn\_align\_ws.spw\_capacity\_user
 
 2.  Select the **Manage resource capacity** option \(\[Omitted image "cp-manage-resource-capacity-icon.png"\] Alt text: Manage resource capacity option.\).
 
-    **Note:** If planning attributes aren’t enabled for capacity planning, you see an empty state screen with an option to configure. Contact your admin to enable planning attributes for capacity planning. For more information, see [enable planning attributes for capacity planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/cp-enable-planning-attributes-spw.md).
+    **Note:** If planning attributes aren’t enabled for capacity planning, you see an empty state screen with an option to configure. Contact your admin to enable planning attributes for capacity planning. For more information, see [enable planning attributes for capacity planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/cp-enable-planning-attributes-spw.md).
 
 3.  Use one the following options to view and regenerate the capacity details.
 
@@ -75,11 +75,11 @@ The resource capacity details for the selected combination of primary attributes
 
 </td><td>
 
-Activate a schedule job to automatically generate the capacity details of your resources at required cadence. For more information on how to activate a scheduled job, see [Scheduled job to automatically generate resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/generate-capacity-scheduled-job-pp.md).
+Activate a schedule job to automatically generate the capacity details of your resources at required cadence. For more information on how to activate a scheduled job, see [Scheduled job to automatically generate resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/generate-capacity-scheduled-job-pp.md).
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
-[Use Capacity Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/using-cap-planning-screen-pp.md) to view the resource capacity, resource-to-work mapping and re-prioritize resource allocations to effective execute your prioritized planning items.
+[Use Capacity Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/using-cap-planning-screen-pp.md) to view the resource capacity, resource-to-work mapping and re-prioritize resource allocations to effective execute your prioritized planning items.
 

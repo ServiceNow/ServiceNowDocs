@@ -2,7 +2,7 @@
 title: Connect a private relay to the Reverse Tunnel gateway
 description: Configure and register a private relay to establish an encrypted connection to the Reverse Tunnel gateway.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connect-customer-relay.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connect-customer-relay.html
 release: australia
 topic_type: task
 last_updated: "2026-06-18"
@@ -36,9 +36,7 @@ Role required: sn\_zc\_tunnel.relay\_manager
 
     **Note:** After successful registration, a record ID is stored in the `config.yaml` file. Do not modify or remove this value.
 
-5.  In the relay record, select **Recreate gateways** to recreate a gateway instance.
-
-6.  Register backend services to the relay.
+5.  6.  Register backend services to the relay.
 
     1.  Note the fully qualified domain name \(FQDN\) and port number of the data source you want to access through the tunnel.
 
@@ -56,7 +54,7 @@ Role required: sn\_zc\_tunnel.relay\_manager
 
     7.  Save the record.
 
-    Assigned services are reported to the gateway, which routes incoming traffic to the correct relay. To add or update service endpoints after initial setup, see [Manage relay service endpoints through Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-relay-services.md).
+    Assigned services are reported to the gateway, which routes incoming traffic to the correct relay. To add or update service endpoints after initial setup, see [Manage relay service endpoints through Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-relay-services.md).
 
 7.  Set up the zero copy connection.
 

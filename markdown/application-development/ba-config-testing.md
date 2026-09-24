@@ -2,12 +2,12 @@
 title: Configure auto test prompting and UI tests
 description: Configure test settings to enable automatic test prompting and execution of UI tests in Build Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ba-config-testing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-config-testing.html
 release: australia
 topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information on UI tests, see [UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-ui-test-script-atf.md).
+For more information on UI tests, see [UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-ui-test-script-atf.md).
 
 ## Procedure
 
@@ -67,5 +67,5 @@ Runs the client-side and server-side UI ATF tests. -   The **Sync ATF tests with
 
 Build Agent runs ATF tests in conversations based on your settings.
 
-**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-build-agent.md)
 

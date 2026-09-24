@@ -2,7 +2,7 @@
 title: Move data interfaces and data products to production
 description: Use a local update set to move data interfaces and data products from a subproduction instance to production.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/move-data-interfaces-products-to-prod-wdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/move-data-interfaces-products-to-prod-wdf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-26"
@@ -20,7 +20,7 @@ Before you begin, verify the following:
 
 -   A local update set is active in the subproduction instance with the same application scope as your data interfaces and data products.
 -   All data interfaces and data products you want to move are published in the subproduction instance.
--   Zero-copy connectors for all source systems are configured in the production instance. For setup instructions, see [Zero copy connectors documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md).
+-   Zero-copy connectors for all source systems are configured in the production instance. For setup instructions, see [Zero copy connectors documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/zero-copy-connectors.md).
 -   Role required: Admin
 
 ## About this task

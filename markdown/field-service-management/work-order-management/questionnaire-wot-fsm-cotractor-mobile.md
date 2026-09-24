@@ -2,7 +2,7 @@
 title: Complete questionnaire for a work order task using the Field Service Contractor for mobile application
 description: Answer to the preset questions associated with a work order task to gather and store the responses for future reference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/questionnaire-wot-fsm-cotractor-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/questionnaire-wot-fsm-cotractor-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

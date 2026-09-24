@@ -2,7 +2,7 @@
 title: Define alert rule name and status
 description: Define alert rule attributes, including the name and state, such as active or inactive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/define-alert-name-state.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/define-alert-name-state.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

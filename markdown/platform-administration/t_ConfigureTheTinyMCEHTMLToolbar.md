@@ -2,7 +2,7 @@
 title: Configure the HTML toolbar
 description: Configure which buttons are available on the HTML toolbar.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfigureTheTinyMCEHTMLToolbar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfigureTheTinyMCEHTMLToolbar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -217,5 +217,5 @@ Extended functions
 
 ## What to do next
 
-See [Change the TinyMCE default toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md) for more detailed information.
+See [Change the TinyMCE default toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/tinymce.md) for more detailed information.
 

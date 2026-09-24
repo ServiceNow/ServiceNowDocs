@@ -2,7 +2,7 @@
 title: Find similar alerts
 description: You can find alerts similar to the alert currently being investigated. Save troubleshooting time by reviewing similar alerts to see how they were resolved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/find-similar-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/find-similar-alerts.html
 release: australia
 product: Event Management
 classification: event-management
@@ -51,5 +51,5 @@ Save time in resolving the current alert by reviewing how similar alerts were re
     You can modify the value of the threshold by setting the `evt_mgmt.similarity_use_threshold` property.
 
 
-**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-similarity.md)
 

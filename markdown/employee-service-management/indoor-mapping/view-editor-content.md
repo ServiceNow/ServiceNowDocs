@@ -2,7 +2,7 @@
 title: View editor content
 description: Work with the View Editor content and customize the campus, buildings, layers, places, connectors, and direction modes properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/view-editor-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/view-editor-content.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -108,5 +108,5 @@ Click on the Default camera button to position it on the map.Set the default lat
 22. Click **Apply**.
 
 
-**Parent Topic:**[Edit with view editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/edit-with-view-editor.md)
+**Parent Topic:**[Edit with view editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/edit-with-view-editor.md)
 

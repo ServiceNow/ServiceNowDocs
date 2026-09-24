@@ -2,10 +2,10 @@
 title: Update partition details for existing records
 description: Update existing records in the project, demand, programs, portfolios, and planning item tables with partition details by running the Update existing records with partition details scheduled job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/update-partition-details-for-existing-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/update-partition-details-for-existing-records.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---

@@ -2,7 +2,7 @@
 title: SIR Workspace Investigation Canvas
 description: Security Incident Response Workspace allows the Security Analysts to view the key information associated with the security incident during the incident remediation process. The key information also includes the related lists such as Observables, Threat Lookup Results, Sighting Search, Observable Enrichment, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-response-investigation-canvas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/security-incident-response-investigation-canvas.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -22,10 +22,10 @@ When a Security Analyst performs these actions, results are populated in a diffe
 
 In the re-imagined new SIR Workspace, the **Investigation** canvas \(tab\) provides all the necessary information grouped logically in one place for the Analyst to perform the investigation.
 
--   **[Explore Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/explore-investigation-in-sir-workspace.md)**  
+-   **[Explore Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/explore-investigation-in-sir-workspace.md)**  
 The primary objective of the investigation canvas is to present the necessary security incident data in one common place.
 
-**Parent Topic:**[SIR Workspace Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-response-workspace-orchestration-activities.md)
+**Parent Topic:**[SIR Workspace Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/security-incident-response-workspace-orchestration-activities.md)
 
 **Related topics**  
 

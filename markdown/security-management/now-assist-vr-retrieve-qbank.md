@@ -2,7 +2,7 @@
 title: Sample queries for the Retrieve Vulnerability Response data agentic workflow
 description: The following sample prompts might help you become familiar with the Retrieve Vulnerability Response data agentic workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-vr-retrieve-qbank.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/now-assist-vr-retrieve-qbank.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -53,5 +53,5 @@ For Application Vulnerability Response findings, substitute application vulnerab
 |Show me all the deferred VITs that are about to expire in 7 days.|
 |Show me all the VITs that are currently unassigned.|
 
-**Parent Topic:**[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vulnerability-response-reference.md)
+**Parent Topic:**[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vulnerability-response-reference.md)
 

@@ -2,7 +2,7 @@
 title: Maximizing code reuse with topic blocks
 description: Topic blocks are reusable components that you can create to run common tasks and conversational elements in Virtual Agent conversations. Topic blocks simplify the topic authoring and maintenance process by enabling you to reuse standard procedures or actions across conversation topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/topic-blocks-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/topic-blocks-overview.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -62,10 +62,10 @@ Contextual search: Uses a search phrase to return search results in a card forma
 
 </td><td>
 
-Common topic block used by the CSM, HR Service Delivery, and ITSM business applications. Provided with the Service Management Virtual Agent Topic Blocks plugin \(com.glideapp.cs.sm\_topic\_blocks\). This plugin is included with the [Virtual Agent conversation plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md) for these business applications.
+Common topic block used by the CSM, HR Service Delivery, and ITSM business applications. Provided with the Service Management Virtual Agent Topic Blocks plugin \(com.glideapp.cs.sm\_topic\_blocks\). This plugin is included with the [Virtual Agent conversation plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md) for these business applications.
 
 </td></tr></tbody>
-</table>**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+</table>**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 On the home page, you can use the filter icon \[Omitted image "filter-icon.png"\] Alt text: Filter icon. to filter and view only the topic blocks.
 
@@ -79,15 +79,15 @@ After you create and publish a topic block, the block is available for use as a 
 
 Working with topic blocks involves the following steps:
 
-1.  [Create a reusable topic block.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-topic-blocks.md)
+1.  [Create a reusable topic block.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-topic-blocks.md)
 
     Build a conversation component that performs a common function that can be reused in Virtual Agent conversations.
 
-2.  [Add a reusable topic block to a calling topic or topic block.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md)
+2.  [Add a reusable topic block to a calling topic or topic block.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md)
 
     To run a specific subflow, add a reusable topic block to a calling \(parent\) topic or topic block. Specify the inputs that are used in the topic block and review outputs that are returned from the topic block.
 
-3.  [Maintain topic blocks and associated calling topics \(as needed\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/updating-topic-blocks.md)
+3.  [Maintain topic blocks and associated calling topics \(as needed\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/updating-topic-blocks.md)
 
     When you update a published topic block, Virtual Agent Designer performs certain checks. Displayed messages inform you of changes that you may want to make to calling topics that use the updated block.
 

@@ -2,7 +2,7 @@
 title: ServiceNow Agent app
 description: Use the ServiceNow Agent app to create assets, look up assets, and receive assets from a purchase order.Use the ServiceNow Agent app to create an asset record by scanning the asset.Search for an asset record in your ServiceNow instance by scanning the asset.Scan assets from a purchase order \(PO\) to verify that you received all assets from the order.Use the ServiceNow Agent app to scan, verify, and depart your assets for disposal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/agent-mobile-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/agent-mobile-asset.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -16,7 +16,7 @@ breadcrumb: [Mobile app for Hardware Asset Management, Explore, Hardware Asset M
 
 Use the ServiceNow Agent app to create assets, look up assets, and receive assets from a purchase order.
 
-**Parent Topic:**[Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/mobile-my-asset.md)
+**Parent Topic:**[Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/mobile-my-asset.md)
 
 **Related topics**  
 
@@ -140,7 +140,7 @@ On the app, you can use the same functionalities when you are offline. For more 
 
 5.  Enter the vendor details and the scheduled date by using your Hardware Asset Management instance.
 
-    See [Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-disposal-order.md).
+    See [Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-disposal-order.md).
 
     After you enter the vendor details and close the Schedule Pickup task from your Hardware Asset Management instance, the **Departure** tab shows the list of departure tasks to process.
 

@@ -2,7 +2,7 @@
 title: Localize widget titles
 description: Update the widget title in the Messages \[sys\_ui\_message\_list\] table whenever you create a custom widget or rename an existing one to ensure it displays correctly in localized interfaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-localize-widget-titles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-localize-widget-titles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -76,5 +76,5 @@ Application for the widget. Select **Security Exposure Management**.**Note:** Cr
     **Important:** If you later rename a widget, search for its existing record in the Messages \[sys\_ui\_message\_list\] table, and update the **Key** and **Message** fields with the new widget title.
 
 
-**Parent Topic:**[Configure Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-visualization-library.md)
+**Parent Topic:**[Configure Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-visualization-library.md)
 

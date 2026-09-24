@@ -2,7 +2,7 @@
 title: Filter alarms for LogRhythm
 description: Setting filtering criteria for alarms after you have mapped fields helps you determine which alarms should be ingested into the SIR application. Filtering alarms helps you significantly reduce the number of alarms you ingest when the alarm profile is activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/filter-alarms-logrhythm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/filter-alarms-logrhythm.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -86,7 +86,7 @@ Delete this alarm profile and the **Alarm Profiles** list is displayed.
 </table>
 ## What to do next
 
-The next step is to preview your mapped fields on the security incident. See [Previewing the security incident with mapped LogRhythm alarm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/preview-si-logrhythm.md).
+The next step is to preview your mapped fields on the security incident. See [Previewing the security incident with mapped LogRhythm alarm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/preview-si-logrhythm.md).
 
-**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
+**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

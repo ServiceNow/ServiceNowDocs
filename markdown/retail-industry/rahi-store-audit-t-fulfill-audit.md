@@ -2,7 +2,7 @@
 title: Complete a store audit
 description: As an Auditor, open your assigned Store Audit Case in CSM/FSM Workspace, record observations, complete each Audit Task, then close the Store Audit Case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-t-fulfill-audit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-store-audit-t-fulfill-audit.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"
@@ -43,12 +43,12 @@ HQ Auditors fulfil exclusively via CSM/FSM Workspace. Location Auditors can also
 
 All Audit Tasks are Closed Complete, observations are recorded in the activity stream, and the Store Audit Case is Closed.
 
-**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
+**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-manage.md)
 
 **Related topics**  
 
 
-[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
+[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-overview.md)
 
-[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
+[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-t-override-assignment.md)
 

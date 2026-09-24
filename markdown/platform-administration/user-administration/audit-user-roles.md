@@ -2,7 +2,7 @@
 title: Audit user roles
 description: Changes to user roles are tracked in the Audit Roles \[sys\_audit\_role\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/audit-user-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/user-administration/audit-user-roles.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -90,5 +90,5 @@ The affected user.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
+**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/ua-creating-roles.md)
 

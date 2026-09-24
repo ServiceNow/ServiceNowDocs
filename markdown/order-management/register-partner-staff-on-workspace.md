@@ -2,10 +2,10 @@
 title: Register Partner Staff on workspace
 description: Register a new partner member or transfer existing staff within a partner organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/register-partner-staff-on-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/register-partner-staff-on-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create Channel Partner record, Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ The Enterprise Partner Relationship Manager \[sn\_prm.enterprise\_partner\_rel\_
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields on the Register member form, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/member-registration-form.md).
+    To learn more about the fields on the Register member form, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/member-registration-form.md).
 
 5.  Upload a file or document in the **Add attachments** section.
 
@@ -41,12 +41,12 @@ The Enterprise Partner Relationship Manager \[sn\_prm.enterprise\_partner\_rel\_
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-channel-partner-record.md)
+**Parent Topic:**[Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-channel-partner-record.md)
 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

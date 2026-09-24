@@ -2,7 +2,7 @@
 title: Mapping correlation event fields for the ArcSight ESM event ingestion integration
 description: After you identify the specific correlation event rule from the list, the next step is to map correlation event fields to the fields in the security incident form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-create-profile-about-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/arcsight-esm-create-profile-about-mapping.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

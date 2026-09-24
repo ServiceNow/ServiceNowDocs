@@ -2,7 +2,7 @@
 title: Viewing record information over time
 description: You can use three different interfaces to view record information over time: reports and performance analytics, timeline pages, and schedule pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_TimeDisplay.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/r\_TimeDisplay.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -34,8 +34,8 @@ This type of page enables you to define linear time lines from records with time
 
 \[Omitted image "PlanningTimeline.png"\] Alt text:
 
--   **[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md)**  
+-   **[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_TimelinePages.md)**  
 Use timeline pages to track any activity bounded by two dates, such as change request start and end dates, or incident open and close dates. Administrators can create timeline pages, which are user interactive.
 
-**Parent Topic:**[Time configuration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/reference-time-configuration.md)
+**Parent Topic:**[Time configuration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/reference-time-configuration.md)
 

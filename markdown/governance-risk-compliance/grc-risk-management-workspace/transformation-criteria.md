@@ -2,7 +2,7 @@
 title: Transformation criteria
 description: After the risk scores are calculated, you can transform the scores into a rating and then easily report the ratings to senior management and to other stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -22,5 +22,5 @@ The following figure shows an example of the rating transformation criteria.
 
 \[Omitted image "semi-quantitative-risk.png"\] Alt text: Numeric scores are transformed into a rating.
 
-**Parent Topic:**[Types of risk rating methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/qual-vs-quant.md)
+**Parent Topic:**[Types of risk rating methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/qual-vs-quant.md)
 

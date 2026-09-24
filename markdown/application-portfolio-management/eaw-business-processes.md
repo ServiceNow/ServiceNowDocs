@@ -2,7 +2,7 @@
 title: Exploring business processes
 description: Business processes model how your organization performs work to achieve a business outcome. Use business processes in Enterprise Architecture Workspace to build a process hierarchy and to associate processes with supporting business applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-business-processes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-business-processes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,24 +42,24 @@ Use business processes to connect operational workflows to other enterprise arch
 
 Use business processes to model internal workflows and relate them to supporting applications. Use business capabilities to describe what the organization does. Use value streams to describe end‑to‑end value delivery across functions.
 
-A business process is not the same as a business process activity. A business process models the overall workflow and its L0-L2 hierarchy. A business process activity is a separate, standalone entity that represents a discrete unit of work performed by a business actor. For more information, see [Exploring business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-process-activities.md).
+A business process is not the same as a business process activity. A business process models the overall workflow and its L0-L2 hierarchy. A business process activity is a separate, standalone entity that represents a discrete unit of work performed by a business actor. For more information, see [Exploring business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-business-process-activities.md).
 
 **Note:** Before Australia Patch 5, a business process could be associated with only one business unit, using a **Business Unit** field on the form. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate a business process with multiple business units. The Business Unit field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
 
-**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
+**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  
 
 
-[View all business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-processes.md)
+[View all business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-business-processes.md)
 
-[Add or edit a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-business-process.md)
+[Add or edit a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-business-process.md)
 
-[Manage architectural artifacts of a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bp.md)
+[Manage architectural artifacts of a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-assoicate-artifact-bp.md)
 
-[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
+[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
 
-[Add a business unit to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-unit-to-business-process.md)
+[Add a business unit to a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-business-unit-to-business-process.md)
 
-[Remove a business unit from a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-unit-from-business-process.md)
+[Remove a business unit from a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-remove-business-unit-from-business-process.md)
 

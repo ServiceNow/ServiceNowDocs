@@ -2,7 +2,7 @@
 title: Enable security incidents for vulnerabilities
 description: Access threat intelligence context for security incidents directly within the Security Incident Response Workspace. TISC context helps you understand related threats and make informed decisions during incident response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/tisc-view-security-context.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/tisc-view-security-context.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -26,7 +26,7 @@ Roles required:
 
 ## About this task
 
-Security incidents enable tracking and management of remediation efforts for vulnerabilities in TISC, supporting prioritized response and maintaining auditability. For more information, see [Create Security Incident from a Vulnerability Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-security-incident.md).
+Security incidents enable tracking and management of remediation efforts for vulnerabilities in TISC, supporting prioritized response and maintaining auditability. For more information, see [Create Security Incident from a Vulnerability Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-create-security-incident.md).
 
 ## Procedure
 
@@ -51,14 +51,14 @@ Security incidents enable tracking and management of remediation efforts for vul
 7.  Select any object to view the corresponding record in the TISC workspace.
 
 
-**Parent Topic:**[TISC integration within SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisc-sir-workspace.md)
+**Parent Topic:**[TISC integration within SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/tisc-sir-workspace.md)
 
 **Related topics**  
 
 
-[Define Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-vulnerability.md)
+[Define Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/define-vulnerability.md)
 
-[Create Remediations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-remediation-record.md)
+[Create Remediations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-create-remediation-record.md)
 
-[Create Vulnerability Assessment from a Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-vul-assess.md)
+[Create Vulnerability Assessment from a Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-vul-assess.md)
 

@@ -2,7 +2,7 @@
 title: Configure an ACL
 description: Configure custom access control lists \(ACLs\) to secure access to new objects or to change the default security behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/t\_CreateAnACLRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/t\_CreateAnACLRule.html
 release: australia
 product: Access Control
 classification: access-control
@@ -28,13 +28,13 @@ For tables that are in a different scope from the ACL record, the types of rules
 
 ## Procedure
 
-1.  [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md) to the security\_admin role.
+1.  [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_ElevatedPrivilege.md) to the security\_admin role.
 
 2.  Navigate to **System Security** &gt; **Access Control \(ACL\)**.
 
 3.  Select **New**.
 
-    **Tip:** When creating an ACL, it’s helpful to review the [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md).
+    **Tip:** When creating an ACL, it’s helpful to review the [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/acl-denial-behavior.md).
 
 4.  Complete the form.
 
@@ -68,7 +68,7 @@ Decision Type
 
 </td><td>
 
-Select the decision type of the ACL. **Allow If** allows access upon successful evaluation. **Deny Unless** denies access unless there’s successful evaluation. See [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md) for more information.
+Select the decision type of the ACL. **Allow If** allows access upon successful evaluation. **Deny Unless** denies access unless there’s successful evaluation. See [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/acl-denial-behavior.md) for more information.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Security Attribute Condition
 
 </td><td>
 
-Use this section to define what the user can access based on user and environment criteria. For more information, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/security-attribute-scope.md).**Note:** The Condition field is case-sensitive.
+Use this section to define what the user can access based on user and environment criteria. For more information, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/security-attribute-scope.md).**Note:** The Condition field is case-sensitive.
 
 </td></tr><tr><td>
 
@@ -164,7 +164,7 @@ Controlled by References
 
 </td><td>
 
-Enforces the ACL on related records. See [Related record access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/related-record-access.md) for more details.
+Enforces the ACL on related records. See [Related record access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/related-record-access.md) for more details.
 
 </td></tr><tr><td>
 

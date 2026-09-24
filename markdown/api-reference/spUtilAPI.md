@@ -2,7 +2,7 @@
 title: spUtil - Client
 description: The spUtil API provides utility methods to perform common functions in a Service Portal widget client script.Displays a notification error message.Displays a notification info message.Displays a trivial notification message.Create a unique identifier.Embeds a widget model in a widget client script.Retrieves all headers to use for API calls.Returns the complete host domain.Executes the callback with User Preference response by passing the preference name.Returns the current service portal URL information.Formats a string that contains variables.Checks if the current client is a mobile device.Parses the comma-separated attributes within a specified string.Watches for updates to a table or filter and returns the value from the callback function.Calls the server and replaces the current options and data with the server response.Scrolls to the element with the specified selector, over a specified period of time.Updates the header breadcrumbs.Sets a user preference.Updates the search page.Updates the data object on the server within a given scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/spUtilAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/spUtilAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -18,29 +18,29 @@ The spUtil API provides utility methods to perform common functions in a Service
 
 These functions include:
 
--   Display a notification error message. [spUtil - addErrorMessage\(String message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Display a notification info message. [spUtil - addInfoMessage\(String message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Display a trivial notification message. [spUtil - addTrivialMessage\(String message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Create a unique identifier. [spUtil - createUid\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Format a string with variables. [spUtil - format\(String template, Object data\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Embed a widget model in a widget client script. [spUtil - get\(String widgetId Object data\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Retrieve all headers to use for API calls. [spUtil - getHeaders\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Return the complete host domain. [spUtil - getHost\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Execute the callback with User Preference response by passing the preference name. [spUtil - getPreference\(String preference, Function callback\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Return the current service portal URL information. [spUtil - getURL\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Check if the current client is a mobile device. [spUtil - isMobile\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Parse the comma-separated attributes within a specified string. [spUtil - parseAttributes\(String attributes\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Watch for updates to a table or filter and returns the value from the callback function. [spUtil - recordWatch\(Object $scope, String table, String filter, Function callback\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Call the server and replaces the current **options** and **data** with the server response. [spUtil - refresh\(Object $scope\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Scroll to the element with the specified selector, over a specified period of time. [spUtil - scrollTo\(String selector, Number time\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Update the header breadcrumbs. [spUtil - setBreadCrumb\(Object $scope, Array breadcrumbs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Set a user preference. [spUtil - setPreference\(String pref, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Update the search page. [spUtil - setSearchPage\(String searchPage\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
--   Update the data object on the server within a given scope. [spUtil - update\(Object $scope\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spUtilAPI.md)
+-   Display a notification error message. [spUtil - addErrorMessage\(String message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Display a notification info message. [spUtil - addInfoMessage\(String message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Display a trivial notification message. [spUtil - addTrivialMessage\(String message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Create a unique identifier. [spUtil - createUid\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Format a string with variables. [spUtil - format\(String template, Object data\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Embed a widget model in a widget client script. [spUtil - get\(String widgetId Object data\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Retrieve all headers to use for API calls. [spUtil - getHeaders\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Return the complete host domain. [spUtil - getHost\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Execute the callback with User Preference response by passing the preference name. [spUtil - getPreference\(String preference, Function callback\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Return the current service portal URL information. [spUtil - getURL\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Check if the current client is a mobile device. [spUtil - isMobile\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Parse the comma-separated attributes within a specified string. [spUtil - parseAttributes\(String attributes\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Watch for updates to a table or filter and returns the value from the callback function. [spUtil - recordWatch\(Object $scope, String table, String filter, Function callback\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Call the server and replaces the current **options** and **data** with the server response. [spUtil - refresh\(Object $scope\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Scroll to the element with the specified selector, over a specified period of time. [spUtil - scrollTo\(String selector, Number time\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Update the header breadcrumbs. [spUtil - setBreadCrumb\(Object $scope, Array breadcrumbs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Set a user preference. [spUtil - setPreference\(String pref, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Update the search page. [spUtil - setSearchPage\(String searchPage\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
+-   Update the data object on the server within a given scope. [spUtil - update\(Object $scope\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/spUtilAPI.md)
 
 For additional information on widgets, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md).
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 
 ## spUtil - addErrorMessage\(String message\)
 

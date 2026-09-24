@@ -2,7 +2,7 @@
 title: Create RIDAC item for a planning item
 description: Create RIDAC items \(Risks, Issues, Decisions, Actions, Changes\) for a planning item to track and manage governance across the planning lifecycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-ridac-for-planning-item-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-ridac-for-planning-item-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

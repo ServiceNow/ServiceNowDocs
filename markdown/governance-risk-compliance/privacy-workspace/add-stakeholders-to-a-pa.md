@@ -2,7 +2,7 @@
 title: Add key stakeholders to a processing activity
 description: Add key stakeholders to a processing activity. Based on their role, users are assigned default processing activity privileges that control whether they can edit a processing activity, view it, or respond to its privacy assessments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -100,9 +100,9 @@ Selected stakeholders receive an email notification confirming they have been ad
 
 ## What to do next
 
-After the key stakeholders are defined, assign the processing activity to stakeholders with edit access. They can then review and update the related lists. See [Enable key stakeholders to update processing activities directly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md).
+After the key stakeholders are defined, assign the processing activity to stakeholders with edit access. They can then review and update the related lists. See [Enable key stakeholders to update processing activities directly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md).
 
-Send privacy assessments to the stakeholders with the sn\_privacy.assessment\_responder or sn\_privacy.business\_user role who were added. See [Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md).
+Send privacy assessments to the stakeholders with the sn\_privacy.assessment\_responder or sn\_privacy.business\_user role who were added. See [Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md).
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

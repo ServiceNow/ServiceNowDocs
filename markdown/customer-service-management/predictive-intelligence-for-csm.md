@@ -2,7 +2,7 @@
 title: Predictive Intelligence for CSM solution definitions
 description: Use your instance records to build Customer Service Management specific solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/predictive-intelligence-for-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/predictive-intelligence-for-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -149,7 +149,7 @@ Similarity
 
 </td><td>
 
-Recommends similar knowledge articles by comparing fields in the Knowledge View database view \[sn\_customerservice\_knowledge\_view\] with the **Short description** of the customer service case. **Note:** This solution definition is used in the Auto-Responder feature. For more information, see [Train the similarity solution for finding Auto-Responder notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/train-sol-defn-auto-responder.md).
+Recommends similar knowledge articles by comparing fields in the Knowledge View database view \[sn\_customerservice\_knowledge\_view\] with the **Short description** of the customer service case. **Note:** This solution definition is used in the Auto-Responder feature. For more information, see [Train the similarity solution for finding Auto-Responder notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/train-sol-defn-auto-responder.md).
 
 </td></tr></tbody>
 </table>## Business rules for classification solutions
@@ -177,5 +177,5 @@ You can manage prediction drift by retraining, modifying, or creating solutions 
 **Related topics**  
 
 
-[Similar case/recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-similar-cases.md)
+[Similar case/recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-similar-cases.md)
 

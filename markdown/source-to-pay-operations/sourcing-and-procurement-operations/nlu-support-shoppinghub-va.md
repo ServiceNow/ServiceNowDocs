@@ -2,7 +2,7 @@
 title: NLU support for Sourcing and Procurement Operations Virtual Agent
 description: You can set up Sourcing and Procurement Operations Virtual Agent to use Natural Language Understanding \(NLU\) to understand word meanings and word contexts to infer user intent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/nlu-support-shoppinghub-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/nlu-support-shoppinghub-va.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -28,5 +28,5 @@ The following intents are provided as part of the Sourcing and Procurement Opera
 -   \#ViewProcurementCase
 -   \#Get help from procurement
 
-**Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)
+**Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)
 

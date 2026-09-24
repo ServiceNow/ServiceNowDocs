@@ -2,7 +2,7 @@
 title: AI Agent Studio release notes
 description: The ServiceNow AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Australia release.The ServiceNow AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Australia release.The ServiceNow AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Australia release.The ServiceNow AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Australia release.The ServiceNow AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Australia release.The ServiceNow AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-ai-agents-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-ai-agents-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-31"
@@ -16,13 +16,13 @@ The ServiceNow® AI agents and AI Agent Studio provide solutions that can percei
 
 ## About AI Agent Studio
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   Redesigned AI Agent Studio with streamlined setup and evaluation processes for agentic AI assets.
 -   Custom headers in external agents configuration.
 -   AI specialist configuration and deployment to harness coordinated agentic AI that reasons and executes end-to-end work.
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Add or remove AI agents or tools from the built-in AI agents.
 -   Detect and disable runaway AI agent triggers to prevent unintended consumption.
@@ -30,11 +30,11 @@ The ServiceNow® AI agents and AI Agent Studio provide solutions that can percei
 -   Enforce deny-by-default ACLs for new agentic ACL types.
 -   Enable AI Agent Studio skill migration to Mosaic.
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
 
 -   Enable UI validation for agentic AI processes and generative AI skills.
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
 -   Test an agentic solution in the playground in AI-native mode.
 -   Add widgets for tool outputs to provide an improved experience in AI-native mode.
@@ -43,7 +43,7 @@ The ServiceNow® AI agents and AI Agent Studio provide solutions that can percei
 
 See [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for more information.
 
-For the Platform AI release notes, see [AI Admin Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn.md).
+For the Platform AI release notes, see [AI Admin Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn.md).
 
 ## Activation and other requirements
 
@@ -80,7 +80,7 @@ For the Platform AI release notes, see [AI Admin Hub release notes](https://raw.
     AI agents and AI Agent Studio are built on the GPT-4o-based framework and supports localization according to the GPT-4o model.
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## September 2026
 
@@ -88,24 +88,24 @@ The ServiceNow® AI agents and AI Agent Studio provide solutions that can percei
 
 ### New in the Australia release
 
--   ****
+-   **[Define security controls for MCP Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-mcp.md)**
 
     Define access rules and tools in the Model Context Protocol Servers for security control before adding them as tools to an AI agent.
 
--   ****
+-   **[Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a2a-agent-new.md)**
 
     Add security controls and tools to external AI agents.
 
--   ****
+-   **[Test access to an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-access-ai-asset.md)**
 
     Test access to an AI asset to verify whether a user has access to an agentic AI asset - AI agent and agentic workflow. In case of access denial, use Access Analyzer to see the access results in Access Management.
 
 
 ### What's changed
 
--   **New setup processes for agentic AI assets in redesigned AI Agent Studio**
+-   **[New setup processes for agentic AI assets in redesigned AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aias-landing.md)**
 
-    The redesigned AI Agent Studio reimagines the creation and deployment processes for agentic AI assets. New features include automated evaluations built in to the application and easy creation of AI agents for automation opportunities. See Configure AI Agent Studio settings for how to access the previous UI.
+    The redesigned AI Agent Studio reimagines the creation and deployment processes for agentic AI assets. New features include automated evaluations built in to the application and easy creation of AI agents for automation opportunities. See [Configure AI Agent Studio settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/config-aias-settings-new.md) for how to access the previous UI.
 
 
 -   **[Platform Analyze task trends agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/incident-trends.md)**
@@ -119,15 +119,15 @@ The ServiceNow® AI agents and AI Agent Studio provide solutions that can percei
 
 ### What's new
 
--   **Use the redesigned AI Agent Studio**
+-   **[Use the redesigned AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aias-landing.md)**
 
-    The redesigned AI Agent Studio streamlines the creation, testing, and evaluation processes for agentic AI assets on your instance. Use identified automation opportunities to build AI agents quickly. Create test scenarios for evaluation to detect recurring patterns and opportunities for optimization.
+    The redesigned AI Agent Studio streamlines the creation, testing, and evaluation processes for agentic AI assets on your instance. [Use identified automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-aia-aut-opp.md) to build AI agents quickly. [Create test scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-scenarios-aia.md) for evaluation to detect recurring patterns and opportunities for optimization.
 
--   ****
+-   **[Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a2a-agent-new.md)**
 
     The redesigned AI Agent Studio streamlines the creation and testing of external AI agents.
 
--   ****
+-   **[Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-client-landing.md)**
 
     The Model Context Protocol Client application has been redesigned.
 
@@ -135,7 +135,7 @@ The ServiceNow® AI agents and AI Agent Studio provide solutions that can percei
 
     External agents now support custom HTTP headers in the External Agent Configuration \[sn\_aia\_external\_agent\_configuration\] table. Specify headers in JSON format to have them automatically included in API calls to external endpoints, regardless of the connection type. This is useful for passing metadata and authentication requirements that your external systems require.
 
--   **Manage your AI specialist in AI Agent Studio**
+-   **[Manage your AI specialist in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-workforce.md)**
 
     AI specialists autonomously resolve high-volume requests through a single persona, know when to hand off work outside their scope, and improve over time from feedback and track record. Deploy the same foundation to every team, then configure each one in AI Agent Studio to fit that team's specific needs. Contact your ServiceNow account manager for more information about accessing Autonomous Workforce.
 
@@ -256,5 +256,5 @@ The ServiceNow® AI agents and AI Agent Studio provide solutions that can percei
 
 ### What's deprecated or removed
 
--   The support for manually integrating external agents has been deprecated from [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md) release.
+-   The support for manually integrating external agents has been deprecated from [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md) release.
 

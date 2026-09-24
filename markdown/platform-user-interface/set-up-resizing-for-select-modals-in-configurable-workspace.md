@@ -2,7 +2,7 @@
 title: Resize a modal
 description: Use declarative actions to resize a modal in your workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-resizing-for-select-modals-in-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-up-resizing-for-select-modals-in-configurable-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Access on-call escalation path from major incident workbench
 description: Access on-call roster and escalation details from major incident workbench to reach out to a support group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/access-escalation-path.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/access-escalation-path.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -24,7 +24,7 @@ Activate the On-Call Scheduling plugin \(com.snc.on\_call\_rotation\).
 
 ## Procedure
 
-1.  Navigate to [Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-workbench.md).
+1.  Navigate to [Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-workbench.md).
 
 2.  Click the **Communications** tab.
 
@@ -43,5 +43,5 @@ Activate the On-Call Scheduling plugin \(com.snc.on\_call\_rotation\).
 
 You can access the on-call escalation information.
 
-**Parent Topic:**[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-workbench.md)
+**Parent Topic:**[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-workbench.md)
 

@@ -2,7 +2,7 @@
 title: Edit flow in Workflow Studio
 description: Edit the flow to confirm that the pagination is implemented correctly. This confirms that the data is imported correctly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/cm-edit-flow-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/cm-edit-flow-ac.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -57,10 +57,10 @@ For example: If you set the offset to 20, total items to 200, and limit to 10, t
 
     -   **Option 1**: Add an action just before your selected action to handle the limit and offset. This action should generate a query that the primary action can use to fetch data.
     -   **Option 2**: Copy your primary action, modify it to include inputs for limit and offset, and process these inputs to create a query. Pass this query to the filter of your original action.
-    **Note:** If you choose Option 2, ensure that you create a copy of the original action first. After copying, reselect the copied action in the **Select Action** step and regenerate the flow. For information about selecting an action, see [Select an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/select-action.md).
+    **Note:** If you choose Option 2, ensure that you create a copy of the original action first. After copying, reselect the copied action in the **Select Action** step and regenerate the flow. For information about selecting an action, see [Select an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/select-action.md).
 
 3.  Select **Done** and **Test**.
-4.  Follow steps 3 onwards in [Configure batch import for data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-batch-import.md).
+4.  Follow steps 3 onwards in [Configure batch import for data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/config-batch-import.md).
 
 ## Time-based batch import
 
@@ -89,10 +89,10 @@ Select the time-based batch import method if you want to import data for a speci
 
         \[Omitted image "conn-man-time-based.png"\] Alt text: Time-based batch import
 
-        **Note:** If you choose Option 2, ensure that you create a copy of the original action first. After copying, reselect the copied action in the **Select Action** step and regenerate the flow. For information about selecting an action, see [Select an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/select-action.md).
+        **Note:** If you choose Option 2, ensure that you create a copy of the original action first. After copying, reselect the copied action in the **Select Action** step and regenerate the flow. For information about selecting an action, see [Select an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/select-action.md).
 
 3.  Select **Done** and **Test**.
-4.  Follow steps 3 onwards in [Configure batch import for data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-batch-import.md).
+4.  Follow steps 3 onwards in [Configure batch import for data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/config-batch-import.md).
 
 ## Token-based batch import
 
@@ -114,7 +114,7 @@ When you select the token-based batch import method on the **Configure batch imp
     \[Omitted image "conn-man-token-based.png"\] Alt text: Token-based batch import method
 
 5.  Select **Done** and **Test**.
-6.  Follow steps 3 onwards in [Configure batch import for data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-batch-import.md).
+6.  Follow steps 3 onwards in [Configure batch import for data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/config-batch-import.md).
 
-**Parent Topic:**[Configure batch import for data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-batch-import.md)
+**Parent Topic:**[Configure batch import for data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/config-batch-import.md)
 

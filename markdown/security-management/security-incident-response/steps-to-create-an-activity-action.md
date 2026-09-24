@@ -2,7 +2,7 @@
 title: Create an Activity Action
 description: Following is procedure to create an activity action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/steps-to-create-an-activity-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/steps-to-create-an-activity-action.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -35,5 +35,5 @@ Role required: sn\_si.admin
     You can also override the existing activity experience type. For more information, see ServiceNow AI Platform documentation. No Playbook overrides are added in this example.
 
 
-**Parent Topic:**[Example Activity Definition: Send email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/example-activity-definition-send-email.md)
+**Parent Topic:**[Example Activity Definition: Send email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/example-activity-definition-send-email.md)
 

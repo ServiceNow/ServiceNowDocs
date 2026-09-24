@@ -2,7 +2,7 @@
 title: Manage project stories in the project workbench
 description: If Project Portfolio Management and Agile Development 2.0 are activated, the project manager can manage the stories in a project from the project workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ManageProjStoriesProjWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_ManageProjStoriesProjWorkbench.html
 release: australia
 product: Project Management
 classification: project-management
@@ -39,7 +39,7 @@ Manage stories in your project using the **Manage Stories** option in the Projec
 4.  Select **Update** or **Submit**.
 
 
-**Parent Topic:**[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
+**Parent Topic:**[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_UsingProjectWorkbench.md)
 
 **Related topics**  
 
@@ -52,5 +52,5 @@ Manage stories in your project using the **Manage Stories** option in the Projec
 
 [Create a test case in the project workbench]()
 
-[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
+[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_UsingProjectWorkbench.md)
 

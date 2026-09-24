@@ -2,7 +2,7 @@
 title: MySQL connection security configuration fields
 description: Fields that appear under Connection security configurations on the New MySQL Connection form when SSL is set to Enabled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mysql-connection-security-fields-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mysql-connection-security-fields-zcc.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-27"
@@ -37,10 +37,10 @@ Fields that appear under Connection security configurations on the New MySQL Con
 |Server Certificate Source: Custom CA|Truststore|File containing the certificate\(s\) used to verify the MySQL server's identity. Required.|
 |Server Certificate Source: Custom CA|Truststore password|Password for the truststore file. Required when Store type is JKS or PKCS12; not required when Store type is PEM.|
 
-**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/reference-zcc.md)
+**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/reference-zcc.md)
 
 **Related topics**  
 
 
-[Create a MySQL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-mysql-connection-zcc.md)
+[Create a MySQL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-mysql-connection-zcc.md)
 

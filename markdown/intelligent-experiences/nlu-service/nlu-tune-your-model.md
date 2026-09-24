@@ -2,7 +2,7 @@
 title: Tune your model
 description: On your model's overview in NLU Workbench, open the Tune your model phase to review and incorporate user utterances from the Expert Feedback Loop.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-tune-your-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/nlu-tune-your-model.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -26,5 +26,5 @@ The **Tune your model** phase on your model's overview takes you to the NLU Expe
 
 When the Expert Feedback Loop has feedback waiting for your review, **You have utterances that need feedback** is highlighted on the card.
 
-For more information, see [NLU Expert Feedback Loop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md)
+For more information, see [NLU Expert Feedback Loop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md)
 

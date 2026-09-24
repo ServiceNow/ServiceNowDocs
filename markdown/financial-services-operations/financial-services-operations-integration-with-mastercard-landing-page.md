@@ -2,7 +2,7 @@
 title: Financial Services Operations Integration with Mastercard
 description: The ServiceNow Financial Services Operations Integration with Mastercard streamlines and simplifies how financial institutions manage Mastercard disputes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-operations-integration-with-mastercard-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-operations-integration-with-mastercard-landing-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,19 +20,19 @@ The ServiceNow® Financial Services Operations Integration with Mastercard strea
 
 <table id="table_g4t_jnr_szb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how to use Integration with Mastercard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-financial-services-operations-integration-with-mastercard.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how to use Integration with Mastercard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/exploring-financial-services-operations-integration-with-mastercard.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-financial-services-operations-integration-with-mastercard.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-financial-services-operations-integration-with-mastercard.md)
 
 </td></tr><tr><td>
 
-[Activate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to seamlessly integrate with Mastercard Spoke.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/activate-mastercard-spoke.md)
+[Activate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to seamlessly integrate with Mastercard Spoke.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/activate-mastercard-spoke.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-mastercard.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-mastercard.md)
 
 </td></tr></tbody>
 </table>## Request Financial Services Operations Integration with Mastercard on the store

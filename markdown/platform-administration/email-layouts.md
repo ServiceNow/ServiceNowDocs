@@ -2,7 +2,7 @@
 title: Email layouts
 description: Create reusable content for the message body of email templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-layouts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/email-layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +23,7 @@ Administrators can use email layouts to:
 -   Declare inline styles available for use in the message body of an email template such as setting a text font, size, and color.
 -   Provide users with links to common response actions such as unsubscribe from a notification or manage notification preferences.
 
-**Note:** To display dynamic content such as mail scripts, use email templates. For more information, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md).
+**Note:** To display dynamic content such as mail scripts, use email templates. For more information, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateAnEmailTemplate.md).
 
 Email layouts insert HTML elements into the message body of email templates. Any style elements you define in the email layout are available to the email template. Email layouts support style sheets in these formats.
 
@@ -34,10 +34,10 @@ By default, the system includes several sample layouts administrators can use to
 
 **Note:** If there is no content in the notification from either the notification record or the template, the layout won't be applied.
 
--   **[Create an email layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-layout.md)**  
+-   **[Create an email layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-email-layout.md)**  
 Create an email layout to specify the HTML content you want to appear in the body of one or more email templates.
 
-**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 

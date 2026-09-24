@@ -2,7 +2,7 @@
 title: Publish an asset to the hardware catalog
 description: Publish an asset to the hardware catalog so that you can procure the asset by using the Telecommunications Network Inventory application integration with the Hardware Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/publish-asset-harware-calaog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/publish-asset-harware-calaog.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -18,13 +18,13 @@ Publish an asset to the hardware catalog so that you can procure the asset by us
 
 ## Before you begin
 
-Before you can publish an asset to the hardware catalog, make sure that an inventory model record has already been created for that asset. If there's no record, you can create an inventory model record. To learn more, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
+Before you can publish an asset to the hardware catalog, make sure that an inventory model record has already been created for that asset. If there's no record, you can create an inventory model record. To learn more, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
 
 Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.telco\_inventory\_catalog\_manager
 
 ## About this task
 
-You can publish an asset to the hardware catalog to make it available as a catalog item. You can procure the asset by creating a service request. To learn more about how to create a service request, see [Create a service request to procure assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-service-request-procure-assets.md).
+You can publish an asset to the hardware catalog to make it available as a catalog item. You can procure the asset by creating a service request. To learn more about how to create a service request, see [Create a service request to procure assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-service-request-procure-assets.md).
 
 ## Procedure
 
@@ -49,10 +49,10 @@ You can publish an asset to the hardware catalog to make it available as a catal
 
 A catalog item is created for your asset.
 
-**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 
 **Related topics**  
 
 
-[Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md)
+[Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md)
 

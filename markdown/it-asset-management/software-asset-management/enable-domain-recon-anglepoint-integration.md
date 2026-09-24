@@ -2,7 +2,7 @@
 title: Enable IBM reconciliation for specific domains
 description: If you are using domain separation for the integration between the Software Asset Management publisher pack for IBM and an Authorized SAM Provider \(ASP\), enable IBM reconciliation only for specific domains.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/enable-domain-recon-anglepoint-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/enable-domain-recon-anglepoint-integration.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -33,5 +33,5 @@ Role required: asset or domain\_admin
     **Important:** If you have both parent and child domains, you can enable reconciliation for either the parent domain or child domain. You cannot enable reconciliation for both parent and child domains.
 
 
-**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
+**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

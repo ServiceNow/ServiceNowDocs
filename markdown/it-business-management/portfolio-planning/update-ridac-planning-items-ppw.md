@@ -2,7 +2,7 @@
 title: Populate planning items on RIDAC records
 description: Run the scheduled job to populate the planning item field on RIDAC records that were created before the Portfolio Planning was installed. This job ensures legacy RIDAC records appear correctly in related lists and reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/update-ridac-planning-items-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/update-ridac-planning-items-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

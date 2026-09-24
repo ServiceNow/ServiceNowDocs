@@ -2,7 +2,7 @@
 title: Create a workload provider type
 description: Create a workload provider type for each new configuration management provider. This information appears in the order catalog form as management attributes that your users can select when provisioning a virtual resource through a configuration management provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-workload-provider-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-workload-provider-type.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

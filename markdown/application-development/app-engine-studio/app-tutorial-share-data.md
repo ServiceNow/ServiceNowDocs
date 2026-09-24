@@ -2,7 +2,7 @@
 title: Share data between tables
 description: Share data between tables to avoid data duplication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-share-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/app-tutorial-share-data.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -38,7 +38,7 @@ Phase 1
 
 </td><td>
 
-[Create a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-table.md)
+[Create a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-create-table.md)
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Phase 2
 
 </td><td>
 
-[Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-configure-table.md)
+[Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-configure-table.md)
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Phase 3
 
 </td><td>
 
-[Share data between tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-share-data.md)
+[Share data between tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-share-data.md)
 
 </td></tr></tbody>
 </table>Storing data in multiple tables enables you to keep your data organized and modular. When you want to share data between tables you can create reference fields, which pull records from one table into another without duplicating the data.
@@ -87,7 +87,7 @@ Download the airport spreadsheet and follow along with the tutorial to create re
 
 1.  Create a new table to store airport information.
 
-    In our tutorial, we create a new table from a spreadsheet that stores airport information. To follow along with the tutorial, [download the airport spreadsheet](https://downloads.docs.servicenow.com/resource/enus/tutorial/app-tutorial-airports.xlsx). Then use the procedures in [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md) and [Create new table from spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-create-new-table.md) to create a new table from the airport spreadsheet.
+    In our tutorial, we create a new table from a spreadsheet that stores airport information. To follow along with the tutorial, [download the airport spreadsheet](https://downloads.docs.servicenow.com/resource/enus/tutorial/app-tutorial-airports.xlsx). Then use the procedures in [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md) and [Create new table from spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/spreadsheet-create-new-table.md) to create a new table from the airport spreadsheet.
 
 2.  Customize the table so that it displays the information that you want to reference.
 
@@ -148,5 +148,5 @@ The data model for the employee travel request application is complete.
 
 ## What to do next
 
-Continue building the employee travel request application by proceeding to the next step in the app creation tutorial: [Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-experience-layer.md).
+Continue building the employee travel request application by proceeding to the next step in the app creation tutorial: [Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-experience-layer.md).
 

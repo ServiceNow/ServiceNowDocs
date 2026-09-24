@@ -2,7 +2,7 @@
 title: Encryption at rest for Hermes
 description: Encryption at rest for Hermes topics protects message data stored on broker disks from unauthorized access. Hermes supports both ServiceNow-managed keys and keys you provide using the Bring Your Own Key \(BYOK\) model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/encryption-at-rest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/encryption-at-rest.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -41,5 +41,5 @@ Wrapping keys are stored in the Cloud Encryption key management service \(KMS\),
 -   Because the encryption key is customer-specific, shared topics aren't supported.
 -   Encryption at rest is not supported for compacted topics \(topics configured to retain only the latest value per key\).
 
-To enable encryption at rest on a topic, see [Enable encryption at rest for a Hermes topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/enable-encryption-at-rest-for-hermes.md).
+To enable encryption at rest on a topic, see [Enable encryption at rest for a Hermes topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/enable-encryption-at-rest-for-hermes.md).
 

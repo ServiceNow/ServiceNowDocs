@@ -2,7 +2,7 @@
 title: Verify the imported data
 description: Verify the data that was imported and validate that the data is accurate. The success of your data mining depends on the accuracy of your imported data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/verify-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/verify-data.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -18,15 +18,15 @@ Verify the data that was imported and validate that the data is accurate. The su
 
 ## Before you begin
 
--   [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-table.md).
+-   [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-table.md).
 
--   [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/import-data.md).
+-   [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/import-data.md).
 
 Role required: sn\_process\_mining\_admin
 
 ## Procedure
 
-1.  Navigate to the step where you selected **Import using Integration Hub** in the [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/import-data.md) section.
+1.  Navigate to the step where you selected **Import using Integration Hub** in the [Import data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/import-data.md) section.
 
 2.  Select **Yes, my data import is complete**, and select **Next**.
 

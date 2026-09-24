@@ -2,7 +2,7 @@
 title: App Engine Studio and Build Agent feature comparison
 description: App Engine Studio \(AES\) and Build Agent differ across interface, artifact scope, scripting access, application scope, and governance. Use this feature comparison to understand what changes when you migrate to Build Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-vs-ba-feature-comparison.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/aes-vs-ba-feature-comparison.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -26,8 +26,8 @@ App Engine Studio \(AES\) and Build Agent differ across interface, artifact scop
 |Application scope|Scoped applications only|Scoped and global applications|
 |Existing application modification|Applications you created only|Any application, including base system applications|
 |Session context|Stateless|Persistent within a session and accumulates over the course of a session|
-|External integrations at build time|None|Model Context Protocol Server Console \(MCP\) client connections. For a full list of MCP connections, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md)|
-|Governance|App Engine Management Center \(AEMC\) optional deployment path|Several deployment options, including App Engine Management Center \(AEMC\). See[Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-deployment.md)|
+|External integrations at build time|None|Model Context Protocol Server Console \(MCP\) client connections. For a full list of MCP connections, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/accelerate-design-to-development-with-figma-mcp-server.md)|
+|Governance|App Engine Management Center \(AEMC\) optional deployment path|Several deployment options, including App Engine Management Center \(AEMC\). See[Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-deployment.md)|
 |AI capability embedding|Manual post-build step|In-app AI agents and skills can be embedded in workflows at build time|
 
 ## What does not change

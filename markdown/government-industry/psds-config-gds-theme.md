@@ -2,7 +2,7 @@
 title: Configure the GOV.UK Design System Service Portal theme
 description: Use the Branding Editor to give the GDS Service Portal its own look and feel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-theme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gds-theme.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -75,7 +75,7 @@ Fields defined by the JSON schema in the **Quick start config** field on the por
 }]
 ```
 
-For more information on editing the portal from the portal record page, see [Configure the GOV.UK Design System Service Portal record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-portal-record.md).
+For more information on editing the portal from the portal record page, see [Configure the GOV.UK Design System Service Portal record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-portal-record.md).
 
 </td></tr><tr><td>
 

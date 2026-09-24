@@ -2,7 +2,7 @@
 title: Unbundle a work order task bundle
 description: Unbundle work order bundles if you want to group the subtasks differently or divide the work in another way.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/unbundle-work-order-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/unbundle-work-order-task.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

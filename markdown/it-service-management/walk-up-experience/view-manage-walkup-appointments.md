@@ -2,7 +2,7 @@
 title: View and manage Walk-up Experience appointments in Agent Workspace
 description: Viewing upcoming scheduled Walk-up Experience appointments provides technicians with an estimate of future queue demand and workload. Managers can view future appointments and adjust staffing at walk-up queue locations to best support demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/view-manage-walkup-appointments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/view-manage-walkup-appointments.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -57,10 +57,10 @@ Upcoming appointments also display with a small calendar icon next to the user n
     3.  Select **Save**.
 
 
--   **[Work on Walk-up interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/work-on-walk-up-interaction.md)**  
+-   **[Work on Walk-up interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/work-on-walk-up-interaction.md)**  
 Manage your Walk-up appointments in Agent Workspace.
--   **[Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-create-appointment-through-incident.md)**  
+-   **[Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-create-appointment-through-incident.md)**  
 Schedule an appointment on behalf of a requester through an incident record.
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

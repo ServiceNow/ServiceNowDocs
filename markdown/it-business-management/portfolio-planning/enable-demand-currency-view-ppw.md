@@ -2,7 +2,7 @@
 title: Enable the demand currency view
 description: Enable the demand currency view to track the planned costs of a demand in the selected demand currency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/enable-demand-currency-view-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/enable-demand-currency-view-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,13 +18,13 @@ Enable the demand currency view to track the planned costs of a demand in the se
 
 ## Before you begin
 
-The PPM Standard Multicurrency feature must have been installed. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
+The PPM Standard Multicurrency feature must have been installed. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 Role required: it\_demand\_manager
 
 ## About this task
 
-The demand currency view enables you to see the planned cost fields in some demand forms in the selected demand currency. For more information about which fields are supported in the demand currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/multicurrency-fields-in-demand-related-forms-ppw.md).
+The demand currency view enables you to see the planned cost fields in some demand forms in the selected demand currency. For more information about which fields are supported in the demand currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/multicurrency-fields-in-demand-related-forms-ppw.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Scaled Agile Framework \(SAFe\)
 description: Apply lean and agile principles to your large enterprise enabling you to develop and deliver software products with fewer defects in the shortest viable lead time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/SAFeoverview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/SAFeoverview.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -27,11 +27,11 @@ Apply lean and agile principles to your large enterprise enabling you to develop
 
 ServiceNow provides applications that support two different configurations of SAFe: Essential SAFe and Portfolio SAFe. The sections below explain the features of each configuration, and will help you choose the right configuration for your organization.
 
--   **[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)**
+-   **[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/essential-overview.md)**
 
     Apply lean and agile principles to your Agile Release Trains and teams, and develop and deliver work with fewer defects in the shortest viable lead time.
 
--   **[Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)**
+-   **[Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)**
 
     Align your organizational goals and strategies with your portfolios, and apply lean and agile principles to seamlessly manage and deliver your portfolio work.
 

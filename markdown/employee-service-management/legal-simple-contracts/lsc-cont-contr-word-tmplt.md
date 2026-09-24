@@ -2,7 +2,7 @@
 title: Add content controls in a Microsoft Word document
 description: As a legal contract configurator, prepare a Microsoft Word document that you want to import as a contract template by marking the content with content controls so it can be efficiently parsed and reused.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/lsc-cont-contr-word-tmplt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/lsc-cont-contr-word-tmplt.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -59,7 +59,7 @@ Role required: sn\_lg\_contracts.contracts\_config
 8.  Select **OK**.
 
 
-**Parent Topic:**[Configure legal contract templates of type Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-configure-ct-msword.md)
+**Parent Topic:**[Configure legal contract templates of type Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/lsc-configure-ct-msword.md)
 
 **Related topics**  
 

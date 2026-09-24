@@ -2,12 +2,12 @@
 title: Exploring AI Control Tower
 description: Learn how AI Control Tower provides centralized visibility and governance across your organization's AI portfolio, connecting strategic planning, asset discovery, monitoring, compliance, and value measurement in a single workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-exploring.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-23"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, explore]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore]
 breadcrumb: [AI Control Tower, Enable AI experiences]
 ---
 
@@ -51,20 +51,20 @@ The following workflow shows how different users work together in AI Control Tow
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Review your AI portfolio at a glance — top priority actions, inventory composition, governance posture, regulatory risk, realized value, and outstanding tasks — from a single landing page.|[Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-ai-portfolio-overview.md)|AI steward, AI asset owner|
-|Track governance work across your team — your assigned items, team workload, unassigned queue, and AI-generated recommendations — in one workspace.|[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-activity-center.md)|AI steward, AI asset owner|
-|Focus on the highest-priority governance work automatically surfaced across the product, and resolve routine issues with supervised or unsupervised AI agents.|[Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-recommendations-ai-insights.md)|AI steward, AI asset owner|
-|View and update every aspect of an AI asset — details, lifecycle phase, risk and compliance posture, security findings, monitoring scores, and realized value — from a single record page.|[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-managing-ai-assets.md)|AI steward, AI asset owner|
+|Review your AI portfolio at a glance — top priority actions, inventory composition, governance posture, regulatory risk, realized value, and outstanding tasks — from a single landing page.|[Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-ai-portfolio-overview.md)|AI steward, AI asset owner|
+|Track governance work across your team — your assigned items, team workload, unassigned queue, and AI-generated recommendations — in one workspace.|[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-activity-center.md)|AI steward, AI asset owner|
+|Focus on the highest-priority governance work automatically surfaced across the product, and resolve routine issues with supervised or unsupervised AI agents.|[Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-recommendations-ai-insights.md)|AI steward, AI asset owner|
+|View and update every aspect of an AI asset — details, lifecycle phase, risk and compliance posture, security findings, monitoring scores, and realized value — from a single record page.|[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-managing-ai-assets.md)|AI steward, AI asset owner|
 
 ## What to explore next
 
 To learn more about each area of AI Control Tower, see the following topics:
 
--   [Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring.md)
--   [Planning your AI strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-planning-ai-strategy.md)
--   [Discovering and managing AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-discovering-ai-assets.md)
--   [Governing AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-governing-ai-assets.md)
--   [Monitoring AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-monitoring-ai-systems.md)
--   [Measuring AI impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-measuring-ai-impact.md)
--   [Addressing your AI action items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-addressing-ai-action-items.md)
+-   [Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring.md)
+-   [Planning your AI strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-planning-ai-strategy.md)
+-   [Discovering and managing AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-discovering-ai-assets.md)
+-   [Governing AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-governing-ai-assets.md)
+-   [Monitoring AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-monitoring-ai-systems.md)
+-   [Measuring AI impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-measuring-ai-impact.md)
+-   [Addressing your AI action items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-addressing-ai-action-items.md)
 

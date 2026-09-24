@@ -2,7 +2,7 @@
 title: DEX Score metrics calculation
 description: Learn more about how the metrics values are calculated in the Digital Experience Score​ dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-dex-score-metrics-calc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-experience-score/dexscr-dex-score-metrics-calc.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
@@ -132,12 +132,12 @@ Device experience score is calculated as the average of the experience scores of
 |User sentiment score|The user sentiment score​ for each device group is the average of the normalized sentiment scores. The scores are collected from user feedback for the devices in the group.|
 |Service experience score​|The service experience score​ for each device group is the weighted ​average of​ normalized​ incident metric scores. The scores are based on all the incidents resolved for the devices in the group.|
 
-**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
+**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 
 **Related topics**  
 
 
-[Metric scores in Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-defs.md)
+[Metric scores in Digital Experience Score​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-defs.md)
 
-[DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md)
+[DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md)
 

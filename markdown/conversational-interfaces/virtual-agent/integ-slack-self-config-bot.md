@@ -2,7 +2,7 @@
 title: Integrate your ServiceNow instance with a self-configured bot
 description: Add the self-configured bot to your ServiceNow instance to complete the integration with Slack.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/integ-slack-self-config-bot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/integ-slack-self-config-bot.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,9 +25,9 @@ This installation requires a ServiceNow instance other than the one integrated w
 
 **Note:** The ServiceNow instance that you will use to integrate the self-configured bot with a single Slack workspace must not be an instance that you have used for integrating Virtual Agent.
 
-Verify that you created a bot on the Slack workspace and fetched the bot details to complete the integration. For more information, see [Create a bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-self-config-bot-slack.md).
+Verify that you created a bot on the Slack workspace and fetched the bot details to complete the integration. For more information, see [Create a bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-self-config-bot-slack.md).
 
-Fetch the Name of the bot, Team ID, Signing Secret, and Access Token details for your bot created in Slack. For more information, see [Retrieve bot details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-slack-bot-snow.md). Use this information when setting up the bot in your ServiceNow instance.
+Fetch the Name of the bot, Team ID, Signing Secret, and Access Token details for your bot created in Slack. For more information, see [Retrieve bot details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/setup-slack-bot-snow.md). Use this information when setting up the bot in your ServiceNow instance.
 
 ## Procedure
 
@@ -45,7 +45,7 @@ Fetch the Name of the bot, Team ID, Signing Secret, and Access Token details for
 
         \[Omitted image "add-slack-self-integ.png"\] Alt text: Slack Add integration dropdown. The Integrate with Self-configured bot option is highlighted.
 
-        **Note:** The **Add Integrations** button is available only after installing the Conversational Integration with Slack plugin \(sn\_va\_slack\) on your ServiceNow instance. For more information about getting the plugin installed, see [Install the Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/install-slack-from-store.md).
+        **Note:** The **Add Integrations** button is available only after installing the Conversational Integration with Slack plugin \(sn\_va\_slack\) on your ServiceNow instance. For more information about getting the plugin installed, see [Install the Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/install-slack-from-store.md).
 
     4.  In the Integrate Slack with self-configured bot page, provide the following details for the Slack bot, and then select **Submit**.
 
@@ -53,7 +53,7 @@ Fetch the Name of the bot, Team ID, Signing Secret, and Access Token details for
         -   **Team ID**
         -   **Signing Secret**
         -   **Access Token**
-        For more information, see [Retrieve bot details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-slack-bot-snow.md).
+        For more information, see [Retrieve bot details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/setup-slack-bot-snow.md).
 
         \[Omitted image "slack-self-bot-integ.png"\] Alt text: To integrate Slack, provide the bot name, Team ID, Signing Secret, and Access Token.
 
@@ -66,5 +66,5 @@ Fetch the Name of the bot, Team ID, Signing Secret, and Access Token details for
         You will receive a message that the installation is successful.
 
 
-**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
+**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
 

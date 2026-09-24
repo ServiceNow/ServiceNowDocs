@@ -2,7 +2,7 @@
 title: Change approval policies
 description: In Change approval policies, approval definitions are used to generate approvals according to your business requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-approval-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-approval-policy.html
 release: australia
 product: Change Management
 classification: change-management
@@ -22,7 +22,7 @@ An approval policy can contain multiple decisions allowing a single policy to ha
 
 **Important:** It is recommended to use only one instance of the **Change Approval Policy** workflow activity in a workflow at a time.
 
-Use the **Change Approval Policy** workflow activity instead of the **User** and **Group Approval** workflow activities to manage the approvals at a particular stage of the workflow. For more information, see [Change Approval Policy workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-approval-policiy-wf-activity.md)
+Use the **Change Approval Policy** workflow activity instead of the **User** and **Group Approval** workflow activities to manage the approvals at a particular stage of the workflow. For more information, see [Change Approval Policy workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-approval-policiy-wf-activity.md)
 
 **Note:** To use the change approval policies after you upgrade:
 
@@ -35,5 +35,5 @@ A change approval policy consists of three components:
 -   **Decisions**: Based on the conditions, determines whether the associated Change approval definition applies.
 -   **Approval definitions**: Defines the type of approval that can applied.
 
-**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/exploring-change-management.md)
+**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 

@@ -2,7 +2,7 @@
 title: Validate subscription, installation, and usage data
 description: Validate subscription, installation, and usage data before running a reconciliation for completeness and accuracy of your reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/validate-sub-sg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/validate-sub-sg.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -44,7 +44,7 @@ Role required: sam\_admin, sam\_user
 
             -   Check if the software model is resolved correctly as per the subscription product definition.
             -   Check if the **User** field on the subscription records is resolved. If it is not resolved, check the email of the user, which must match with the user principal name. You can also match the user name from the user principal with the user\_name on the sys\_user record.
-            -   If subscription identifiers are incorrect or empty, manage and resolve the subscription identifiers. For more information, see [Subscription identifiers for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/subscription-identifiers.md).
+            -   If subscription identifiers are incorrect or empty, manage and resolve the subscription identifiers. For more information, see [Subscription identifiers for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-identifiers.md).
 2.  Validate installation and usage data from inventory tools.
 
     **Note:**
@@ -98,5 +98,5 @@ Software Asset Workspace
 
 ## What to do next
 
-[Import Microsoft 365 subscription entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/imp-m365-ent.md)
+[Import Microsoft 365 subscription entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/imp-m365-ent.md)
 

@@ -2,7 +2,7 @@
 title: sn\_atf — utility APIs
 description: The sn\_atf API provides utility methods for a Run UI Test Script step: navigation, page evaluation, impersonation, file uploads, and shadow-DOM utilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/r\_run\_ui\_test\_script\_sn\_atf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/r\_run\_ui\_test\_script\_sn\_atf.html
 release: australia
 product: Developer Guides
 classification: developer-guides

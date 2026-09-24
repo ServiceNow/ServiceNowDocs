@@ -2,7 +2,7 @@
 title: View the LDAP monitor
 description: You can view current information about LDAP servers and listeners using LDAP monitor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_ViewLDAPMonitor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ldap-integration/t\_ViewLDAPMonitor.html
 release: australia
 product: LDAP integration
 classification: ldap-integration
@@ -80,7 +80,7 @@ Edit
 
 </td><td>
 
-As you monitor LDAP servers, you can [make changes to the properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_DefineAnLDAPServer.md) by clicking **Edit** in the LDAP Server Monitor screen.
+As you monitor LDAP servers, you can [make changes to the properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ldap-integration/t_DefineAnLDAPServer.md) by clicking **Edit** in the LDAP Server Monitor screen.
 
 </td></tr><tr><td>
 

@@ -2,7 +2,7 @@
 title: Configure Service Graph Connector for SolarWinds
 description: Set up authentication credentials and scheduled jobs to import SolarWinds data into your CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/configure-solarwinds-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/configure-solarwinds-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -24,12 +24,12 @@ To use this Service Graph Connector, you need a subscription to a Subscription U
 
 Before you start the configuration, navigate to **System Definition** &gt; **Business Rules**, and deactivate the **ValidateServiceAccountID** business rule.
 
-Air gap connections are available from version 2.5.0 of the Service Graph Connector for SolarWinds. You can set up either regular data sources or air gap data sources. Before you set up air gap data sources, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure server and low-secure server. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
+Air gap connections are available from version 2.5.0 of the Service Graph Connector for SolarWinds. You can set up either regular data sources or air gap data sources. Before you set up air gap data sources, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure server and low-secure server. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   Discovery Core plugin \(com.snc.discovery.core\), which is automatically installed by Discovery.
 -   ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
@@ -203,7 +203,7 @@ Order in which credentials are tried. Smaller numbers are tried first.
 
     8.  Set the **Update Data Source Access** task to complete by selecting **Mark as Complete**.
 
-    9.  Repeat the steps [7.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-solarwinds-integration.md) to [7.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-solarwinds-integration.md) for the Update Scheduled Data Import Access task with the Scheduled data import \[scheduled\_data\_set\] table and for the Update Value Access task with the Value \[sys\_variable\_table\] table, and set the tasks to complete by selecting **Mark as Complete**.
+    9.  Repeat the steps [7.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-solarwinds-integration.md) to [7.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-solarwinds-integration.md) for the Update Scheduled Data Import Access task with the Scheduled data import \[scheduled\_data\_set\] table and for the Update Value Access task with the Value \[sys\_variable\_table\] table, and set the tasks to complete by selecting **Mark as Complete**.
 
 8.  Clear the cache for the new connection.
 
@@ -245,7 +245,7 @@ Order in which credentials are tried. Smaller numbers are tried first.
         -   To add or edit regular data sources, select **Regular Data Sources**.
         -   To add or edit air gap data sources, select **Airgap Data Sources**.
 
-            **Note:** Before you add an air gap data source, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure and low-secure servers. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
+            **Note:** Before you add an air gap data source, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure and low-secure servers. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
 
     3.  Either create or edit a connection.
 
@@ -286,7 +286,7 @@ MID Server
 
 </td><td>
 
-Name of the MID server that you deployed in your low-secure server.See [Configure air gap solution for Service Graph Connector for SolarWinds in a low-secure server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-low-secure.md).
+Name of the MID server that you deployed in your low-secure server.See [Configure air gap solution for Service Graph Connector for SolarWinds in a low-secure server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-low-secure.md).
 
 </td></tr><tr><td>
 
@@ -371,13 +371,13 @@ Folder where the data is to be archived if the **Archive Data After Retrieval** 
 **Related topics**  
 
 
-[Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-solarwinds.md)
+[Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-solarwinds.md)
 
-[CMDB classes targeted in Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[CMDB classes targeted in Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[Configure Service Graph Connector for SolarWinds using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-solarwinds-integ.md)
+[Configure Service Graph Connector for SolarWinds using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgcc-configure-solarwinds-integ.md)
 
-[Accessing the connection details of Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-conn.md)
+[Accessing the connection details of Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-conn.md)
 
-[Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md)
+[Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/airgap-solarwinds.md)
 

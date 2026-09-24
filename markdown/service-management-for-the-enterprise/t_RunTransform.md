@@ -2,7 +2,7 @@
 title: Run transform to update data
 description: Running a transform exports information from your records into an .xls file. That data can be imported into the ServiceNow space management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_RunTransform.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_RunTransform.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -124,8 +124,8 @@ All data sources are listed in a list.
 8.  Review all space details to be certain all extra details were imported.
 
 
--   **[Transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_TransformMap.md)**  
+-   **[Transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_TransformMap.md)**  
 A transform map is an .xls file that allows you to add spaces or details about spaces from other sources into the space management application.
 
-**Parent Topic:**[Space management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_SpaceManagement.md)
+**Parent Topic:**[Space management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_SpaceManagement.md)
 

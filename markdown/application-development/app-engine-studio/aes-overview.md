@@ -2,7 +2,7 @@
 title: Build apps using App Engine Studio
 description: ServiceNow App Engine Studio \(AES\) is a guided, low-code tool for developing rich web applications to store information, automate business processes, and solve business problems. Work that was once assigned to administrators can now be delegated to employees with little to no training using AES.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/aes-overview.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -27,27 +27,27 @@ By delegating development to citizen developers in your organization, administra
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about App Engine Studio concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/exploring-aes.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about App Engine Studio concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/exploring-aes.md)
 
 </td><td>
 
-[Install \[Omitted image "bus-cloud-download.svg"\] Alt text: Install App Engine Studio and its associated apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/install-aes.md)
+[Install \[Omitted image "bus-cloud-download.svg"\] Alt text: Install App Engine Studio and its associated apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/install-aes.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure environments, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-setup.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure environments, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-setup.md)
 
 </td></tr><tr><td>
 
-[Build \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Build applications using App Engine Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-creation.md)
+[Build \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Build applications using App Engine Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-creation.md)
 
 </td><td>
 
-[Deploy \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Deploy applications to the instances in your pipeline, from development to production using App Engine Management Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/app-engine-management-center.md)
+[Deploy \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Deploy applications to the instances in your pipeline, from development to production using App Engine Management Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/app-engine-management-center.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about App Engine Studio components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about App Engine Studio components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources for App Engine Studio

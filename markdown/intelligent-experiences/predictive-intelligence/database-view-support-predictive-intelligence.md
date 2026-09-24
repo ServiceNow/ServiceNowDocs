@@ -2,7 +2,7 @@
 title: Database View support for Predictive Intelligence
 description: Use database views to join two or more tables as input for your Machine Learning \(ML\) solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/database-view-support-predictive-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/database-view-support-predictive-intelligence.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -46,5 +46,5 @@ To use a database view in your similarity solution, instead of selecting a table
 
 \[Omitted image "database-view-support-predictive-intelligence4.png"\] Alt text: Your database view configured to your similarity solution
 
-**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
+**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

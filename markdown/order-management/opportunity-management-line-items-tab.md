@@ -2,7 +2,7 @@
 title: Add line items to an opportunity
 description: Create a new product line item for your opportunity by entering the details, such as product offering and quantity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-line-items-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management-line-items-tab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -299,12 +299,12 @@ Value representing upsell or downsell in comparison to the renewal amount for th
 
 ## What to do next
 
-Add a task to your opportunity. To learn more, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md).
+Add a task to your opportunity. To learn more, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-tasks-tab.md).
 
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

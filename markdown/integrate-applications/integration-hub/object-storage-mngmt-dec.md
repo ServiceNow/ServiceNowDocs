@@ -2,7 +2,7 @@
 title: Oracle Object Storage Management Spoke
 description: Manage objects, buckets, and namespace in the Oracle Object Storage Management account from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/object-storage-mngmt-dec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/object-storage-mngmt-dec.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -36,7 +36,7 @@ This spoke was built for Oracle Object Storage Management API version 20160918, 
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Oracle Cloud IAM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/oracle-iam.md)
+-   [Oracle Cloud IAM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/oracle-iam.md)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
@@ -70,5 +70,5 @@ The Oracle Object Storage Management spoke provides actions to automate Oracle O
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Set up the Oracle Object Storage Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/obj-storg-mngmt-setup-dec.md).
+For information about setting up the spoke, see [Set up the Oracle Object Storage Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/obj-storg-mngmt-setup-dec.md).
 

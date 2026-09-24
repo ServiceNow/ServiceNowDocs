@@ -2,7 +2,7 @@
 title: NLQ Genius Results used in the Industrial Workspace
 description: The Industrial Workspace leverages Natural Language Query \(NLQ\) Genius Results for each search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/nlq-genius-results-industrial-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/nlq-genius-results-industrial-workspace.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -35,5 +35,5 @@ The following table contains examples for searching different information for a 
 |Searching for a PLC by description|`PLC Description <insert description>`|
 |Searching for a PLC by manufacturer|`PLC Manufacturer <insert manufacturer>`|
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Activate linear assets support in Field Service Management
 description: You can enable the Field Service Management application to support linear assets by activating the Enterprise Asset Management plugin \(com.sn\_eam\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/activate-linear-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/activate-linear-assets.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -22,7 +22,7 @@ Linear asset support for Field Service Management requires activation of the fol
 
 -   **Field Service Management \(com.snc.work\_management\)**
 
-    Enables you to manage work requests that are performed on location by field service agents. For more information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
+    Enables you to manage work requests that are performed on location by field service agents. For more information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ActivateFieldServiceManagement.md).
 
 -   **Field Service with Service Locations \(com.snc.fsm\_service\_locations\)**
 
@@ -54,7 +54,7 @@ The following items are installed with Enterprise Asset Management:
 -   Properties
 -   Business rules
 
-For more information, see [Linear Assets Support properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/linear-asset-support-properties.md).
+For more information, see [Linear Assets Support properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/linear-asset-support-properties.md).
 
 ## Procedure
 
@@ -74,5 +74,5 @@ For more information, see [Linear Assets Support properties](https://raw.githubu
 **Related topics**  
 
 
-[Assign work orders for linear assets in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/managing-linear-assets-fsm.md)
+[Assign work orders for linear assets in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/managing-linear-assets-fsm.md)
 

@@ -2,7 +2,7 @@
 title: Horizontal relationships between products
 description: By using a compatibility rule, you can define the horizontal relationships between your product, service, and resource specifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/horizontal-relationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/horizontal-relationships.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-28"
@@ -35,14 +35,14 @@ You can establish the relationship by selecting the specifications or by definin
 
 Let's look at an example of a horizontal relationship, such as the relationship between the Voice over Internet Protocol \(VoIP\) and an internet service. VoIP requires an active internet connection but VoIP and an internet service are defined in a different product hierarchy. With a horizontal relationship, you can define a Requires relationship between VoIP and an internet service in the product catalog to support the order creation process for VoIP and to fulfill the order.
 
-**Note:** To configure a compatibility rule for a horizontal relationship, see [Configuring compatibility rules for horizontal relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-compatibility-management.md).
+**Note:** To configure a compatibility rule for a horizontal relationship, see [Configuring compatibility rules for horizontal relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-compatibility-management.md).
 
-**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/reviewing-orchestration-plans-order-fulfillment.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

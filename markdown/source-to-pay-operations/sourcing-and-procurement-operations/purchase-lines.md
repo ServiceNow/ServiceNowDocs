@@ -2,7 +2,7 @@
 title: Purchase lines
 description: Purchase lines provide information of the individual lines under a purchase requisition or a sourcing request for the referenced supplier.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -60,7 +60,7 @@ Supplier for which the shopper places the order.For a non-catalog intake, if the
 -   Relationship status of the supplier
 -   Preferred status of the supplier
 
-The contact details provided by the shopper for the supplier is also displayed as a record in the **Vendor Contacts** related list. This record is created with the help of the vendor contact creation API from Supplier Lifecycle Operations. For more information, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
+The contact details provided by the shopper for the supplier is also displayed as a record in the **Vendor Contacts** related list. This record is created with the help of the vendor contact creation API from Supplier Lifecycle Operations. For more information, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Handling fee
 
 </td><td>
 
-Charges added for a specific supplier when a rule is triggered as a result of certain configurable conditions for a purchase requisition being met. For more information on handling fees, see [Handling fees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/handling-fees.md).This field is displayed only if the product type is handling fees.
+Charges added for a specific supplier when a rule is triggered as a result of certain configurable conditions for a purchase requisition being met. For more information on handling fees, see [Handling fees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/handling-fees.md).This field is displayed only if the product type is handling fees.
 
 </td></tr><tr><td>
 
@@ -521,7 +521,7 @@ Cost center
 Cost center that incurs the cost of this transaction.
 
 </td></tr></tbody>
-</table>The capex account, expense account, and pre-payment details are populated from [ledger assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ledger-assignment-rules.md).
+</table>The capex account, expense account, and pre-payment details are populated from [ledger assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/ledger-assignment-rules.md).
 
 The following are the related lists of a purchase line:
 
@@ -547,7 +547,7 @@ Purchasing Tasks
 
 </td><td>
 
-Provides information of tasks such as obtaining more information from the requester, or awarding a supplier after quotes are received.For details, see [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
+Provides information of tasks such as obtaining more information from the requester, or awarding a supplier after quotes are received.For details, see [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
 
 </td></tr><tr><td>
 
@@ -563,7 +563,7 @@ Pricing
 
 </td><td>
 
-Stores the relationship between supplier product, contracts, and price of a product.For more details, see [Pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pricing.md).
+Stores the relationship between supplier product, contracts, and price of a product.For more details, see [Pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pricing.md).
 
 </td></tr><tr><td>
 
@@ -573,7 +573,7 @@ Milestones
 
 Provides information of all the milestones for this purchase. This related list is visible only if the acknowledgment type is set to **Milestones**.
 
-For details, see [Milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/milestones.md).
+For details, see [Milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/milestones.md).
 
 </td></tr><tr><td>
 
@@ -581,7 +581,7 @@ Cost Allocations
 
 </td><td>
 
-Provides the information on cost allocation type and the cost center for this purchase line.For details, see [Cost allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/cost-allocations.md).
+Provides the information on cost allocation type and the cost center for this purchase line.For details, see [Cost allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/cost-allocations.md).
 
 </td></tr><tr><td>
 
@@ -591,7 +591,7 @@ Pre-payments
 
 Provides information of the pre-payment details such as the amount and the payment date for this purchase.This related list is visible only if the **Pre-payments required** field is checked.
 
-For details, see [Pre-payments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pre-payments.md).
+For details, see [Pre-payments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pre-payments.md).
 
 </td></tr><tr><td>
 
@@ -602,17 +602,17 @@ Contract Requests
 Displays all the associated contract requests against this purchase line.**Note:** This field is displayed only if you have the Source-to-Pay Operations with Contract Management Pro plugin \(sn\_spend\_clm\) installed.
 
 </td></tr></tbody>
-</table>-   **[Milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/milestones.md)**  
+</table>-   **[Milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/milestones.md)**  
 Milestones represent an acknowledgment that a certain deliverable is achieved for a service. You can create a milestone against the purchase line and purchase order line for a service product type, when the acknowledgment type is set to **Milestones**.
--   **[Cost allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/cost-allocations.md)**  
+-   **[Cost allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/cost-allocations.md)**  
 Cost allocation defines how to allocate the payment for a particular purchase line. Costs can be allocated towards a cost center, employee credit, or payroll payments.
--   **[Pre-payments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pre-payments.md)**  
+-   **[Pre-payments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pre-payments.md)**  
 A prepayment is the amount paid for services before their receipt or invoiced due date. When an invoice is issued for a pre-payment, it is against the pre-paid account. During the defined pre-paid period, the amount is amortized accordingly against the capex or expense account.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 
 **Related topics**  
 
 
-[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
+[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
 

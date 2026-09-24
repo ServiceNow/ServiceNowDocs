@@ -2,7 +2,7 @@
 title: Automated Service Suggestions
 description: Automated Service Suggestions simplifies the processing of mapping application services or adding to an existing service by providing application service candidates using machine learning. Mapped services provide key information to help you make data-driven decisions, prioritize services, and respond to situations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/auto-serv-suggest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/auto-serv-suggest.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -24,7 +24,7 @@ Automated Service Suggestions further simplifies the mapping process by using th
 
 Service Fingerprints complements Automated Service Suggestions by identifying unique, classified components of identified application service candidates. Presenting these components facilitates the selection of the most suitable suggested application service. You can view components of an application in your actual environment, including details such as product, product category, publisher, and description. Use this information to search for specific components you want to discover or to make informed decisions about which candidates to convert into application services.
 
-To use Service Fingerprints, you must download and install ITOM Content Service from the ServiceNow® Store and opt in to ITOM Content Service. For more information, see [ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/discovery-content-services.md).
+To use Service Fingerprints, you must download and install ITOM Content Service from the ServiceNow® Store and opt in to ITOM Content Service. For more information, see [ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/discovery-content-services.md).
 
 ## Domain separation with Automated Service Suggestions
 
@@ -33,11 +33,11 @@ Automated Service Suggestions supports domain separation starting with version 1
 **Related topics**  
 
 
-[Exploring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-get-started.md)
+[Exploring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-get-started.md)
 
-[Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-dashboard.md)
+[Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-dashboard.md)
 
-[Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/readiness-dashboard-ml.md)
+[Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/readiness-dashboard-ml.md)
 
-[Map application services based on Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/map-application-suggestion.md)
+[Map application services based on Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/map-application-suggestion.md)
 

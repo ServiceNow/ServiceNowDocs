@@ -2,7 +2,7 @@
 title: Create or update a variable CDI
 description: Define variables and set their values in components, collections, and deployables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-variables-crud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-variables-crud.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family

@@ -2,7 +2,7 @@
 title: Overview section form
 description: The overview section form enables you to configure a section on the Employee Profile UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/profile-overview-section-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/profile-overview-section-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -84,7 +84,7 @@ Visibility settings for the section:-   Mobile only
 -   Desktop and mobile
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

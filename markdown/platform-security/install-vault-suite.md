@@ -2,7 +2,7 @@
 title: Install Vault Suite
 description: Use Vault Suite to deploy ServiceNow Vault and its underlying plugins in a single step, without configuring each plugin separately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/install-vault-suite.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/install-vault-suite.html
 release: australia
 topic_type: task
 last_updated: "2026-05-26"
@@ -17,7 +17,7 @@ Use Vault Suite to deploy ServiceNow Vault and its underlying plugins in a singl
 
 ## Before you begin
 
-Your instance must have a ServiceNow Vault entitlement. Without an entitlement, the underlying plugins remain inactive after installation and the tool cards on the [ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-dashboard.md) appear as inactive.
+Your instance must have a ServiceNow Vault entitlement. Without an entitlement, the underlying plugins remain inactive after installation and the tool cards on the [ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-dashboard.md) appear as inactive.
 
 Role required: admin
 
@@ -49,5 +49,5 @@ Vault Suite and the following premium plugins are installed on your instance:
 
 ## What to do next
 
-Navigate to the [ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-dashboard.md) to confirm that the tool cards are enabled. On Vault Console 2.1 or later, if your instance doesn't already have policies or configurations for Anonymization and Log Export Service, then ServiceNow Vault can apply ready-to-use defaults to help you get started. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-default-policies-configs.md).
+Navigate to the [ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-dashboard.md) to confirm that the tool cards are enabled. On Vault Console 2.1 or later, if your instance doesn't already have policies or configurations for Anonymization and Log Export Service, then ServiceNow Vault can apply ready-to-use defaults to help you get started. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-default-policies-configs.md).
 

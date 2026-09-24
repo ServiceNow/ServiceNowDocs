@@ -2,7 +2,7 @@
 title: Scheduled export reference qualifiers
 description: Use reference qualifiers to specify the users and groups in the recipients field of scheduled exports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/scheduled-export-ref-qualifiers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/scheduled-export-ref-qualifiers.html
 release: australia
 topic_type: task
 last_updated: "2026-08-20"
@@ -53,5 +53,5 @@ Role required: admin
 
 For more information, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md).
 
-**Parent Topic:**[Schedule the export of dashboards and data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/schedule-export-dboards-data-viz.md)
+**Parent Topic:**[Schedule the export of dashboards and data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/schedule-export-dboards-data-viz.md)
 

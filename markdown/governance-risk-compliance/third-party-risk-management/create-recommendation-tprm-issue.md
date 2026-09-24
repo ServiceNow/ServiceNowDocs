@@ -2,7 +2,7 @@
 title: Generate issue recommendations for TPRM
 description: Use generative AI to identify and recommend potential Third-party Risk Management issues based on assessment responses. The TPRM issue recommendation skill presents recommended issues with rationalized summaries for reviewer confirmation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -35,7 +35,7 @@ The third party or engagement must have completed prior assessments, and reviewe
 
 **Note:** The skill can identify a question-and-answer pair as a potential issue only if a similar question-and-answer pair was previously flagged as an issue in the historical data.
 
-For more information on activating the recommendation for TPRM issues skill, refer to [Activate TPRM issue recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-recommend-an-issue.md).
+For more information on activating the recommendation for TPRM issues skill, refer to [Activate TPRM issue recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-recommend-an-issue.md).
 
 **Note:** If you want generated issues to be created using historical data for individual third parties or engagements, a team member with the administrator role needs to navigate to **All** &gt; **System Properties** &gt; **All** select `sn_tprm_genai.same_vendor_required` and set the property to true.
 
@@ -64,5 +64,5 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
 ## What to do next
 
-Create issues based on generated issue recommendations or dismiss the issue recommendations. For more information, see [Create or dismiss issues using recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/manage-recommendation-issue.md).
+Create issues based on generated issue recommendations or dismiss the issue recommendations. For more information, see [Create or dismiss issues using recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/manage-recommendation-issue.md).
 

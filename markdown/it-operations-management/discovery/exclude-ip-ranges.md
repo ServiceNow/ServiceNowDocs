@@ -2,7 +2,7 @@
 title: Exclude IP ranges from a Discovery range set
 description: You can specify a range of IP addresses that you want to exclude from your Discovery query.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/exclude-ip-ranges.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/exclude-ip-ranges.html
 release: australia
 product: Discovery
 classification: discovery

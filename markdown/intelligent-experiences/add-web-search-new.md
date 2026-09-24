@@ -2,7 +2,7 @@
 title: Add a web search tool to an AI agent
 description: Add a web search tool to an AI agent to enable it to search the web and retrieve relevant information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-web-search-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-web-search-new.html
 release: australia
 topic_type: task
 last_updated: "2026-06-05"

@@ -2,7 +2,7 @@
 title: Cost plan form
 description: The cost plan form enables you to create a cost plan for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/cost-plan-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/cost-plan-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

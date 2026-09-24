@@ -2,7 +2,7 @@
 title: Health Log Analytics
 description: The ServiceNow Health Log Analytics application helps prevent IT issues before your users are affected. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-landing-page.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -29,31 +29,31 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_yzn_x2s_ncc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Health Log Analytics workflow, architecture, and high-level tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Health Log Analytics workflow, architecture, and high-level tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Health Log Analytics setup and configuration tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Health Log Analytics setup and configuration tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-configuring.md)
 
 </td></tr><tr><td>
 
-[Remediate\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:Investigate log data and take action to resolve the underlying issue.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-analyzing-resolving-hla-alert.md)
+[Remediate\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:Investigate log data and take action to resolve the underlying issue.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-analyzing-resolving-hla-alert.md)
 
 </td><td>
 
-[Control\[Omitted image "bus-anomaly-detection.svg"\] Alt text:Influence how HLA generates and prioritizes alerts and detects anomalies.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-controlling-alert-generation.md)
+[Control\[Omitted image "bus-anomaly-detection.svg"\] Alt text:Influence how HLA generates and prioritizes alerts and detects anomalies.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-controlling-alert-generation.md)
 
 </td></tr><tr><td>
 
-[System features and health alerts\[Omitted image "bus-actionable-analytics.svg"\] Alt text:View system features and core components with related system health alerts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-system-health-and-features-parent.md)
+[System features and health alerts\[Omitted image "bus-actionable-analytics.svg"\] Alt text:View system features and core components with related system health alerts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-system-health-and-features-parent.md)
 
 </td><td>
 
-[Analytics and reports\[Omitted image "bus-management-console.svg"\] Alt text:Gain insights into the number of issues predicted before users were affected and the money that was saved.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-analytics-reporting.md)
+[Analytics and reports\[Omitted image "bus-management-console.svg"\] Alt text:Gain insights into the number of issues predicted before users were affected and the money that was saved.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-analytics-reporting.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Find reference information about Health Log Analytics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Find reference information about Health Log Analytics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-reference.md)
 
 </td><td>
 
@@ -62,11 +62,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 </td></tr></tbody>
 </table>## Health Log Analytics licensing
 
-The ServiceNow AI Platform® uses a licensing method where your organization is billed for using Health Log Analytics, which is available as a separate license from ITOM AIOps. The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-su-licensing-landing-page.md).
+The ServiceNow AI Platform® uses a licensing method where your organization is billed for using Health Log Analytics, which is available as a separate license from ITOM AIOps. The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-su-licensing-landing-page.md).
 
 ## Dependencies
 
-For a list of Health Log Analytics plugin dependencies, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-app-itom-health.md).
+For a list of Health Log Analytics plugin dependencies, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/plugin-app-itom-health.md).
 
 ## Troubleshoot and get help
 

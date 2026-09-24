@@ -2,14 +2,14 @@
 title: Configure Workday security settings
 description: Create an unconstrained integration system security group in Workday. The Workday external content connector uses this security group when accessing your Workday content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-workday-security-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-workday-security-settings.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Workday external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -126,5 +126,5 @@ The Workday external content connector runs as an integration in Workday. To ena
         The pending changes are applied to your new integration system security group.
 
 
-**Parent Topic:**[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/workday-external-content-connector.md)
+**Parent Topic:**[Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/workday-external-content-connector.md)
 

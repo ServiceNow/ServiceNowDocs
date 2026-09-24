@@ -2,7 +2,7 @@
 title: Manage SAM advisor scope in CMDB success advisor
 description: Manage the scope of your advisor for Software Asset Management \(SAM\) by editing the software products in CMDB success advisor to support your targeted SAM outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cmdb-sa-sam-optimize-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/cmdb-sa-sam-optimize-dashboard.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management

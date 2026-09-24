@@ -2,7 +2,7 @@
 title: Creator Studio form settings
 description: You can edit the settings for an app's form in Creator Studio at any time. For example, to change who can access it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-form-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-form-settings.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -70,7 +70,7 @@ Option to have the form available outside of the app, for example, in the specif
 
  You can edit this option only for forms that have been published.
 
- **Note:** You can also specify whether the form is visible after deployment when you're ready to deploy your app. Find out how in [Request deployment for your app from Creator Studio to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-deploy-app-to-prod.md).
+ **Note:** You can also specify whether the form is visible after deployment when you're ready to deploy your app. Find out how in [Request deployment for your app from Creator Studio to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-deploy-app-to-prod.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Hide attachment option
 
 </td><td>
 
-Option to prevent users from adding attachments to the form.**Note:** You can hide the attachment option for the whole form and instead add an attachment question that appears when users provide a specific answer to a question. For more information, see [Available question types in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-elements-ref.md).
+Option to prevent users from adding attachments to the form.**Note:** You can hide the attachment option for the whole form and instead add an attachment question that appears when users provide a specific answer to a question. For more information, see [Available question types in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-form-elements-ref.md).
 
 </td></tr><tr><td>
 
@@ -116,5 +116,5 @@ Select the edit icon \[Omitted image "cs-edit-form-location.png"\] Alt text: Edi
 -   **Available for**: Search for and select roles and groups that can access the form.
 -   **Not available for**: Search for and select roles and groups that can't access the form.
 
-**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-reference.md)
+**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-reference.md)
 

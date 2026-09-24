@@ -2,7 +2,7 @@
 title: Create customer relationships
 description: The Customer Service Management application provides the ability to establish different types of relationships between partners, customers, and contacts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CustomerServiceRelationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_CustomerServiceRelationships.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

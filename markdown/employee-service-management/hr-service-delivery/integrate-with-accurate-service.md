@@ -2,7 +2,7 @@
 title: Integrating with the Accurate Background service
 description: The preconfigured Accurate Background integration uses REST services to request background checks through the Accurate Background service. You can use the preconfigured integration as-is or customize it to meet your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/integrate-with-accurate-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/integrate-with-accurate-service.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -33,12 +33,12 @@ The Accurate integration is configured to request background checks as follows.
 
 To set up the Accurate integration, you must provide the source credentials, verify the integration settings, and add the appropriate background check packages. Once the integration is complete, you can request background checks through the Accurate service.
 
-1.  [Provide source credentials for the Accurate service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-sources-accurate.md)  
+1.  [Provide source credentials for the Accurate service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-integrations-sources-accurate.md)  
 Provide the source and REST credentials for the Accurate service so that it can be accessed for integration.
-2.  [Verify integration for the Accurate service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/verify-base-integration-for-accurate.md)  
+2.  [Verify integration for the Accurate service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/verify-base-integration-for-accurate.md)  
 The integration is configured to push background check data between the HR service in HR Service Delivery and the Accurate service. You can verify the preconfigured settings and determine whether they meet your needs or if further customization is required.
-3.  [Add background check packages for the Accurate service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/background-check-package-for-accurate.md)  
+3.  [Add background check packages for the Accurate service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/background-check-package-for-accurate.md)  
 Add one or more background check packages to your instance so they can be accessed when a request for a background check by Accurate is made. For example, you can add a package for a background check only and a package for both a background check and drug screening.
 
-**Parent Topic:**[HR Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/scoped-hr-third-party-integrations.md)
+**Parent Topic:**[HR Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/scoped-hr-third-party-integrations.md)
 

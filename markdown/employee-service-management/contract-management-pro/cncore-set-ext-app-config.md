@@ -2,7 +2,7 @@
 title: Configuring external applications for Contract Management Pro
 description: Set up external applications that provide services such as electronically signing contract documents and saving signed contracts or the documents related to requests in an external storage system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-set-ext-app-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-set-ext-app-config.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -32,7 +32,7 @@ The Contract Management Pro application use spokes from Integration Hub to integ
     -   [Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/onedrive-spoke.md)
 -   **Configure an external storage provider**
 
-    The contract configurator can set up the external storage app integrations from **Contract Integrations**. For more information, see [Configure an external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.md).
+    The contract configurator can set up the external storage app integrations from **Contract Integrations**. For more information, see [Configure an external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.md).
 
 -   **External storage permissions**
 
@@ -56,13 +56,13 @@ The Contract Management Pro application use spokes from Integration Hub to integ
     -   [Docusign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/docusign-spoke.md)
 -   **Set up the electronic signature provider app**
 
-    The configurator can set up the electronic signature app integrations from **Contract Integrations**. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
+    The configurator can set up the electronic signature app integrations from **Contract Integrations**. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
 
 
--   **[Configure an external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.md)**  
+-   **[Configure an external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.md)**  
 As a contract configurator, configure an external storage system to store signed contract documents.
--   **[Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-integrate-esign.md)**  
+-   **[Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-integrate-esign.md)**  
 Configure an electronic signature provider to enable users to sign contract documents electronically.
 
-**Parent Topic:**[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
+**Parent Topic:**[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
 

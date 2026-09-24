@@ -2,7 +2,7 @@
 title: Review a change template
 description: Review a change template proposed for common change requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/review-change-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/review-change-template.html
 release: australia
 product: Change Management
 classification: change-management
@@ -24,7 +24,7 @@ You must have role configured with access to approve the templates associated wi
 
 ## About this task
 
-The approval process for change templates is determined by the publish approval flow set by administrators. For more information, see [Change template management flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-template-management-flows.md).
+The approval process for change templates is determined by the publish approval flow set by administrators. For more information, see [Change template management flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-template-management-flows.md).
 
 ## Procedure
 
@@ -43,10 +43,10 @@ The approval process for change templates is determined by the publish approval 
         After rejection, the template state changes to Draft.
 
 
-**Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md)
+**Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-change-template.md)
 
 **Related topics**  
 
 
-[Retire a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/retire-a-change-template.md)
+[Retire a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/retire-a-change-template.md)
 

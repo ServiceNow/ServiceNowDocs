@@ -2,7 +2,7 @@
 title: Sync profile settings to MID Servers
 description: Push the profile settings to the MID Server instances assigned to the profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/sync-profile-settings-mid-servers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/sync-profile-settings-mid-servers.html
 release: australia
 product: MID Server
 classification: mid-server

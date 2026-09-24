@@ -2,7 +2,7 @@
 title: Invoice processing case form tabs
 description: Tab descriptions for the Invoice processing case form, including invoice details, exceptions, approvals, and related processing information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-tabs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-tabs.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -106,5 +106,5 @@ Task SLAs
 The service level agreements that are associated with this case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
+</table>**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
 

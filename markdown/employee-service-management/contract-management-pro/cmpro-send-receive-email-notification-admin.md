@@ -2,7 +2,7 @@
 title: Configure email notifications for approval workflow in Contract Management Pro
 description: Activate the notifications for Contract Management Pro to notify users when approval for contract revision is initiated, approved, rejected, or cancelled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-send-receive-email-notification-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-send-receive-email-notification-admin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -51,7 +51,7 @@ You can activate the notifications specific to Contract Management Pro approval 
 
     **Note:** You must configure the **ApprovalNotificationWorkspaceURLExt** extension point to enable the notifications for Legal Counsel Center.
 
-    For more information, see [Configure extension point for notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-configure-action-extension-point-email-notification-admin.md).
+    For more information, see [Configure extension point for notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-configure-action-extension-point-email-notification-admin.md).
 
 6.  Ensure that default notifications will not be triggered for approval workflow related to Contract Management Pro.
 
@@ -74,5 +74,5 @@ You can activate the notifications specific to Contract Management Pro approval 
 
 The approval notifications for Contract Management Pro are activated and the default system notifications are stopped for contract revision approval.
 
-**Parent Topic:**[Manage notifications in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-notifications.md)
+**Parent Topic:**[Manage notifications in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-manage-notifications.md)
 

@@ -2,7 +2,7 @@
 title: Create a CI class
 description: Create a CI class \(table\) that is an extension of an existing CI class. Then create identification and reconciliation rules for the new class.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CreateCIType.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/t\_CreateCIType.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -103,7 +103,7 @@ Principal Class
 
 </td><td>
 
-Denotes whether this class is included in the [Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md). If this class is included in the Principal Class filter, then CIs from this class appear in CI list views when the Principal Class filter is applied.
+Denotes whether this class is included in the [Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md). If this class is included in the Principal Class filter, then CIs from this class appear in CI list views when the Principal Class filter is applied.
 
 </td></tr></tbody>
 </table>6.  On the **Add Attributes** tab, click the + sign and enter details for each new class column.
@@ -114,17 +114,17 @@ Denotes whether this class is included in the [Principal Class filter](https://r
 
 8.  On the **Set Identification Rule** tab, examine the **Derived** identification rule and its **Identifier Entries**.
 
-    You can click **Replace** to replace the derived rule with a new identification rule and new identifier entries specific to the new class. See [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md) for details about identification rules and identifier entries.
+    You can click **Replace** to replace the derived rule with a new identification rule and new identifier entries specific to the new class. See [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md) for details about identification rules and identifier entries.
 
-9.  On the **Dependencies** tab, click **Add dependency** to add [dependent rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md).
+9.  On the **Dependencies** tab, click **Add dependency** to add [dependent rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md).
 
     The **Dependencies** tab appears only if there are dependent identification rules for the selected class.
 
 10. On the **Add Reconciliation Rules** tab, click **Add** to create the following rules:
 
-    1.  [Reconciliation Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.md)
+    1.  [Reconciliation Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.md)
 
-    2.  [Data Refresh Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-datasource-staleness-rule.md)
+    2.  [Data Refresh Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/create-datasource-staleness-rule.md)
 
 11. On the **Add Suggested Relationships** tab, review the diagram of the class derived suggested relationships.
 
@@ -143,7 +143,7 @@ Denotes whether this class is included in the [Principal Class filter](https://r
 14. Click **Done**.
 
 
-**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
+**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
 
 **Related topics**  
 
@@ -162,5 +162,5 @@ Denotes whether this class is included in the [Principal Class filter](https://r
 
 [Principal Class]()
 
-[CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
+[CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 

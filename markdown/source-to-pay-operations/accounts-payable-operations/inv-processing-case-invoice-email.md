@@ -2,7 +2,7 @@
 title: Configure Invoice Processing Case for Invoice Email flow
 description: Configure the invoice processing case invoice email flow to process invoices received through email.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/inv-processing-case-invoice-email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/inv-processing-case-invoice-email.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

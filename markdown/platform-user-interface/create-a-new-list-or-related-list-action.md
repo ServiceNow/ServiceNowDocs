@@ -2,7 +2,7 @@
 title: Create a list or related list action button
 description: Create a list or related list action and add the button to a workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-a-new-list-or-related-list-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/create-a-new-list-or-related-list-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Role required: admin
         -   **Server Script** applies the action to the server or database as JavaScript.
         -   **UXF Client Action** applies the action as a UI Builder page event.
         -   **Client Script** applies the action to the web browser as JavaScript.
-        -   **UI interaction** applies the action as reusable logic and UI elements. For configuration instructions, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md).
+        -   **UI interaction** applies the action as reusable logic and UI elements. For configuration instructions, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-da-ui-interactions.md).
     -   **Icon**
 
         The icon for the action.
@@ -108,11 +108,11 @@ The list or related list action button appears within the workspace you specifie
 
 Configure a button to apply an action in the following ways:
 
--   **[Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md)**
+-   **[Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-da-ui-interactions.md)**
 
     Trigger a UI interaction from a declarative action to extend a page without taking ownership.
 
--   **[Configure dynamic conditions for a list action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/disable-list-actions-based-on-dynamic-conditions.md)**
+-   **[Configure dynamic conditions for a list action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/disable-list-actions-based-on-dynamic-conditions.md)**
 
     Configure a list or related list action to perform an action only when it satisfies dynamic conditions.
 

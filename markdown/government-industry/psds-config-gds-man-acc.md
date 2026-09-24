@@ -2,7 +2,7 @@
 title: Manage role-based access to pages and widgets in GOV.UK Design System Service Portal
 description: Control user access to components of the GOV.UK Design System Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-man-acc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gds-man-acc.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
@@ -27,10 +27,10 @@ You can see all roles for a page by navigating to **All** &gt; **Service Portal*
 
 For more information on configuring portal access by role, see [Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/portal-security.md).
 
-1.  [Configure page security in the GDS Service Portal by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-page-sec.md)  
+1.  [Configure page security in the GDS Service Portal by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-page-sec.md)  
 Set up GDS Service Portal pages to be public, or filter them by role.
-2.  [Configure widget security in the GDS Service Portal by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-widg-sec.md)  
+2.  [Configure widget security in the GDS Service Portal by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gds-widg-sec.md)  
 Configure widget security to verify that your GDS Service Portal widgets are being accessed only by the intended audience.
 
-**Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
+**Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-toolkit.md)
 

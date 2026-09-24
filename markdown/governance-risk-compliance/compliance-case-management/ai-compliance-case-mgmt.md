@@ -2,7 +2,7 @@
 title: AI in Compliance Case Management
 description: Use ServiceNow Otto for IRM skills, such as case summarization, in Compliance Case Management to summarize and quickly understand case context.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/ai-compliance-case-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/ai-compliance-case-mgmt.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -16,17 +16,17 @@ breadcrumb: [Compliance Case Management, Governance, Risk, and Compliance]
 
 Use ServiceNow Otto for IRM skills, such as case summarization, in Compliance Case Management to summarize and quickly understand case context.
 
--   **[GRC case summarization skill for compliance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/compliance-case-summarization-skill.md)**  
+-   **[GRC case summarization skill for compliance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/compliance-case-summarization-skill.md)**  
 The GRC case summarization skill uses a large language model \(LLM\) to generate a structured AI summary of a compliance case record. The summary is generated on demand from case data and can be saved to the record for future reference.
 
-**Parent Topic:**[Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/compliance-case-management.md)
+**Parent Topic:**[Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/compliance-case-management.md)
 
 **Related topics**  
 
 
-[GRC case summarization skill for compliance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/compliance-case-summarization-skill.md)
+[GRC case summarization skill for compliance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/compliance-case-summarization-skill.md)
 
-[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/activate-case-summarization-cocm.md)
+[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/activate-case-summarization-cocm.md)
 
-[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)
+[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)
 

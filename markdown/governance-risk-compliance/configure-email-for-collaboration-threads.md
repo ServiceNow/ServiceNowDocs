@@ -2,7 +2,7 @@
 title: Configure email for collaboration threads
 description: Configure an email account and enable the outbound and inbound email properties so that crisis managers can send and receive email from collaboration threads.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-email-for-collaboration-threads.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-email-for-collaboration-threads.html
 release: australia
 topic_type: task
 last_updated: "2026-08-11"
@@ -56,12 +56,12 @@ Sending and receiving email from a collaboration thread requires at least one ac
     **Note:** By default, sending and receiving email is disabled on a new instance. If **Email sending enabled** is set to **No**, emails composed from collaboration threads stay in **Send Ready** status and never move to **Sent**. If either property is disabled, the compose and reply or forward email options are hidden from the collaboration thread UI rather than shown as unavailable.
 
 
-**Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)
+**Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)
 
 **Related topics**  
 
 
-[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)
+[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)
 
-[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)
+[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)
 

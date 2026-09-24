@@ -2,7 +2,7 @@
 title: Create a test set
 description: To create or add to an NLU test set, you can upload a file of test utterances matched with correct intents. Use the test set to assess the performance of your model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/import-batch-test-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/import-batch-test-set.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -66,7 +66,7 @@ Aim to include about 10% of test utterances with no expected intents. Including 
 
 ## What to do next
 
-Use the test set to run a test on your models. To learn how, see [Test your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-your-model.md) or [Run a multi-model batch test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/run-batch-test.md).
+Use the test set to run a test on your models. To learn how, see [Test your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/test-your-model.md) or [Run a multi-model batch test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/run-batch-test.md).
 
 After you have created a test set, you can add more utterances to it. When viewing a test set, click **Import utterances**.
 

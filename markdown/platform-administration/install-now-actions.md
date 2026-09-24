@@ -2,7 +2,7 @@
 title: Install the Now Actions messaging app
 description: As an administrator for both ServiceNow and the third-party application, find and install the Now Actions app. Install the application in ServiceNow to associate the app with your instance. Install the Now Actions messaging app from the Slack App Directory and associate the app with your instance.Associate the Now Actions messaging app with your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/install-now-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/install-now-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,14 +16,14 @@ As an administrator for both ServiceNow and the third-party application, find an
 
 ## Before you begin
 
-To activate this feature, request the Messaging Notification plugin \(com.glide.notification.messaging\) through the HI Customer Service system. This plugin activates related plugins if they are not already active. For more information, see [Request the Messaging Notification plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/request-messaging-notification.md).
+To activate this feature, request the Messaging Notification plugin \(com.glide.notification.messaging\) through the HI Customer Service system. This plugin activates related plugins if they are not already active. For more information, see [Request the Messaging Notification plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/request-messaging-notification.md).
 
 Roles required:
 
 -   Admin or messaging\_admin in ServiceNow
 -   Administrator for Slack or Teams
 
-**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/messaging-integration.md)
 
 ## Install the Now Actions messaging app for Slack
 
@@ -119,5 +119,5 @@ Role required: admin.
 
 ### What to do next
 
-To receive a ServiceNow notification in Microsoft Teams, create a message and a notification. See [Configure message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-message-content.md) and [Create a messaging notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-messaging-notification.md).
+To receive a ServiceNow notification in Microsoft Teams, create a message and a notification. See [Configure message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-message-content.md) and [Create a messaging notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-messaging-notification.md).
 

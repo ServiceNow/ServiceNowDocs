@@ -2,7 +2,7 @@
 title: IBM QRadar Offense Ingestion Integration
 description: The IBM QRadar Offense Ingestion integration allows you to automatically fetch IBM QRadar offenses and convert them into security incidents and enable automated response actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/qradar-ibm.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

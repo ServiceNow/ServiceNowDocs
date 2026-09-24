@@ -2,7 +2,7 @@
 title: Configure the Invoice processing case for Invoice email flow
 description: Copy and configure the Invoice processing case for Invoice email flow and add a trigger condition to specify when to create an invoice processing case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-di-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-di-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

@@ -2,7 +2,7 @@
 title: Work item hierarchy for EAP teams
 description: View and manage the complete work item hierarchy across your portfolio configurations directly from the Hierarchy tab in the Enterprise Agile Planning \(EAP\) workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/eap-hierarchy-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/eap-hierarchy-tab.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -88,7 +88,7 @@ If you need to track work items at a single level \(for example, stories for you
 
 -   **Personalized column display**
 
-    Customize which columns appear in the hierarchy grid and adjust column widths to match your workflow. Your preferences persist across sessions, so you see your configured view each time you return. For more information, see [Personalize column layout of Hierarchy in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/personalize-column-layout-of-hierarchy-in-eap.md).
+    Customize which columns appear in the hierarchy grid and adjust column widths to match your workflow. Your preferences persist across sessions, so you see your configured view each time you return. For more information, see [Personalize column layout of Hierarchy in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/personalize-column-layout-of-hierarchy-in-eap.md).
 
 -   **Direct record access**
 
@@ -116,15 +116,15 @@ If you need to track work items at a single level \(for example, stories for you
 
     For optimal performance, the hierarchy initially loads only the top 100 work items at each level, ordered by global rank. If your portfolio contains more than 100 top-level work items, use filters to narrow your view to the relevant subset.
 
-    If you want to change this default number, work with your admin to create a **sn\_apw\_advanced.eap\_hierarchy\_items\_limit** system property. For more information, see [Modify display limit in Hierarchy tab of EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/hierarchy-display-limit-eap.md).
+    If you want to change this default number, work with your admin to create a **sn\_apw\_advanced.eap\_hierarchy\_items\_limit** system property. For more information, see [Modify display limit in Hierarchy tab of EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/hierarchy-display-limit-eap.md).
 
 -   **Enabling the Hierarchy view**
 
-    The Hierarchy tab requires your admin to enable it through the **sn\_apw\_advanced.enable\_hierarchy\_view** system property. See [Enable Hierarchy tab in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/hierarchy-enable-eap.md).
+    The Hierarchy tab requires your admin to enable it through the **sn\_apw\_advanced.enable\_hierarchy\_view** system property. See [Enable Hierarchy tab in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/hierarchy-enable-eap.md).
 
 -   **Form view fields and page load performance**
 
-    When fields are added to the Hierarchy form view of a work item, all data for that work item type loads on page load. This data load occurs regardless of which columns are selected to display in the Hierarchy. Adding many fields to the form view may increase Hierarchy page load time. For more information, see [Create or update form views for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.md).
+    When fields are added to the Hierarchy form view of a work item, all data for that work item type loads on page load. This data load occurs regardless of which columns are selected to display in the Hierarchy. Adding many fields to the form view may increase Hierarchy page load time. For more information, see [Create or update form views for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.md).
 
 
 ## Getting started

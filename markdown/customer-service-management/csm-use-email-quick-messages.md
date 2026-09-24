@@ -2,7 +2,7 @@
 title: Respond to a case using an email quick message
 description: Use predefined quick email messages to quickly draft replies to customers. Agents can select predefined quick messages to add content into the message body of emails.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-use-email-quick-messages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-use-email-quick-messages.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

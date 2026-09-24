@@ -2,7 +2,7 @@
 title: Domain separation and Delegated Development
 description: Domain separation is unsupported in the Delegated Development feature. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/domain-separation-delegated-development.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/delegated-development-and-deployment/domain-separation-delegated-development.html
 release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment

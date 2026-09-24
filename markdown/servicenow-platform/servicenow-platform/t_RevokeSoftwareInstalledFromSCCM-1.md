@@ -14,12 +14,12 @@ Software deployed by SCCM can be revoked, but only when the software's status is
 
 ## Before you begin
 
--   Create an [SCCM configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigureSCCMCollections.md) for the application that names an appropriate uninstall collection.
--   Associate the [CSD catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateCatItemSCCMApp.md) for the application with the SCCM configuration that specifies the uninstall collection.
+-   Create an [SCCM configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_ConfigureSCCMCollections.md) for the application that names an appropriate uninstall collection.
+-   Associate the [CSD catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateCatItemSCCMApp.md) for the application with the SCCM configuration that specifies the uninstall collection.
 
 Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
-A workflow called [Revoke SCCM Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_SCCMSoftwareRevocation.md) moves either the user or the device from its respective collection and adds it to the appropriate uninstall collection. When SCCM performs an internal policy check and finds the user or device in the uninstall collection, SCCM removes the related software package from the client computer.
+A workflow called [Revoke SCCM Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_SCCMSoftwareRevocation.md) moves either the user or the device from its respective collection and adds it to the appropriate uninstall collection. When SCCM performs an internal policy check and finds the user or device in the uninstall collection, SCCM removes the related software package from the client computer.
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Work order task fields in the Field Service Contractor application
 description: The Details tab in a work order task provides information about a task that helps an agent or manager to understand the task scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/fields-wot-field-service-contractor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/fields-wot-field-service-contractor.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -28,5 +28,5 @@ The Details tab in a work order task provides information about a task that help
 |Assignment group|Group that has the individual agent or vendor to complete the task. By default, this field shows the recommended assignment groups based on the location, asset, and skills for the task. If the field is empty, the system searches for the group covering the territory that includes the location of the task.|
 |Assigned to|Shows the agent or manager who is currently assigned to the task|
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-reference.md)
 

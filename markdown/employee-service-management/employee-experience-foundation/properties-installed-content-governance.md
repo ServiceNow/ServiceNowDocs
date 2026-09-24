@@ -2,7 +2,7 @@
 title: Properties installed with Content Governance
 description: The Content Governance \[sn\_cg\] plugin adds properties that determine how many records to show in the Content Operations dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/properties-installed-content-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/properties-installed-content-governance.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -49,7 +49,7 @@ Set amount of days from when schedule content will be expiring
 Sets the number of days for the "Content expiring within x days" card in the Content library and campaigns sectionDefault value: 7 days
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

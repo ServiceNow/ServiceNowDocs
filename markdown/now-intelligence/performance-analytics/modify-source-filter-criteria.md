@@ -2,7 +2,7 @@
 title: Edit source filters
 description: You can edit a source filter in the Interactive Analysis Filter Info panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/modify-source-filter-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/modify-source-filter-criteria.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -45,7 +45,7 @@ You must have access to the list of records that you want to analyze.
 
 The interactive analysis updates with the new source filter. The **Filter Info** panel shows the updated conditions.
 
-**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
+**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/interactive-analysis.md)
 
 **Related topics**  
 

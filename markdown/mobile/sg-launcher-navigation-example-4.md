@@ -2,7 +2,7 @@
 title: Use your navigation function as a footer function
 description: Footer functions enable your end users to take an action on a details segment of a form. You can use the navigation function you created to give your users access to the application launcher from within the details segment of your forms. Unlike the top menu function, the form footer button is visible at the bottom of the form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-launcher-navigation-example-4.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-launcher-navigation-example-4.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,7 +44,7 @@ Role required: admin
     |Disable offline|Toggle that turns the footer function off when the device is offline.|
     |Icon|The icon that appears for the footer function.|
     |Function placement|The function used by this footer function. These fields are automatically populated.|
-    |Button Emphasis|The button emphasis for the footer function. This selection affects the color of the button. For a navigation function, select **Primary** or **Secondary**. These colors are determined by your mobile theme. For more information on configuring a legacy mobile theme, see [Create a theme for your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-theme.md).|
+    |Button Emphasis|The button emphasis for the footer function. This selection affects the color of the button. For a navigation function, select **Primary** or **Secondary**. These colors are determined by your mobile theme. For more information on configuring a legacy mobile theme, see [Create a theme for your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-theme.md).|
     |Function|The function used by this footer function. Select the function you created in previous steps.|
 
 6.  Select **Save**.
@@ -54,5 +54,5 @@ Role required: admin
 
 Test the footer function using your mobile app. After completing the steps, you can see a footer function button at the bottom of your details segment. Tap the button to navigate to the screen launcher you defined in the previous steps.
 
-**Parent Topic:**[Configure navigation to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-launcher-nav-example.md)
+**Parent Topic:**[Configure navigation to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-launcher-nav-example.md)
 

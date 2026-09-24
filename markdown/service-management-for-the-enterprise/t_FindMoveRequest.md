@@ -2,7 +2,7 @@
 title: Find a move request
 description: Facilities and move staff can locate and manage move requests from the Moves tab within the workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_FindMoveRequest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_FindMoveRequest.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ The Move tab is only visible when the Facilities Move Management plugin \(com.sn
 
 2.  To help narrow your search results, you can select the campus, building, and floor number for your search.
 
-    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
+    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
 
     \[Omitted image "CampusFloorSelection.png"\] Alt text: Campus and floor selection
 
@@ -107,5 +107,5 @@ Click the pin \(\[Omitted image "PinIcon.png"\] Alt text: pin icon\) icon.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Facilities Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesWorkbench.md)
+**Parent Topic:**[Facilities Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesWorkbench.md)
 

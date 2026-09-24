@@ -2,7 +2,7 @@
 title: Model Context Protocol Client reference
 description: Find more information about user roles, tables, and the different properties that are installed with the Model Context Protocol Client application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mcp-reference.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

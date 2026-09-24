@@ -2,7 +2,7 @@
 title: Content Library Overview dashboard
 description: Content analytics displays data visualizations of performance metrics for content published to the portal or Now mobile app in the Content Library Overview dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/content-library-overview-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/content-library-overview-dashboard.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +18,7 @@ Content analytics displays data visualizations of performance metrics for conten
 
 ## Dashboard overview
 
-The Content Library Overview dashboard displays metrics for content published via a schedule or publish plan. This dashboard does not display content delivered via a campaign. For campaign content data visualizations, see [Campaign overview and Campaign analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.md).
+The Content Library Overview dashboard displays metrics for content published via a schedule or publish plan. This dashboard does not display content delivered via a campaign. For campaign content data visualizations, see [Campaign overview and Campaign analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.md).
 
 |Visualization|Description|
 |-------------|-----------|
@@ -63,7 +63,7 @@ Content Analytics tracks the following user interactions \(depending on content 
 -   Video impression
 -   Video played
 
-**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

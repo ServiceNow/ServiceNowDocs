@@ -2,7 +2,7 @@
 title: Configure the Node relationship configurations
 description: Create a Node relationship configuration record to establish relationships between nodes. Update the node relationships including source table, both Configuration Items \(CI\) and non-CI relationships. The Node relationship configurations define the connections between the source table and other tables \(target tables\), specifying how they are related.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-node-rel-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/update-node-rel-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,13 +34,13 @@ Role required: sn\_oper\_res.admin
 
     \[Omitted image "node-rel-config-new-record.png"\] Alt text: Record.
 
-    For description of the fields in the Node relationship configuration form, see [Node relationship configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/node-relationship-configuration-form.md).
+    For description of the fields in the Node relationship configuration form, see [Node relationship configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/node-relationship-configuration-form.md).
 
     You can set up these relationship registries by creating a Relationship Registry record in the Relationship Registries module. The Relationship Registry new record form is shown in the example.
 
     \[Omitted image "rela-registry-record-new.png"\] Alt text: Rel registry record.
 
-    For the description of the fields in the Relationship registry form, see [Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rel-registry-record-form.md).
+    For the description of the fields in the Relationship registry form, see [Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/rel-registry-record-form.md).
 
 4.  Select the table of your choice in the **Source table** field in the **Source** tab.
 

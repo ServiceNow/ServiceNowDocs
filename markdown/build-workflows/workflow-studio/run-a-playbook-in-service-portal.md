@@ -2,7 +2,7 @@
 title: Run a playbook in Service Portal
 description: Launch a playbook as a Service Portal requestor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/run-a-playbook-in-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/run-a-playbook-in-service-portal.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

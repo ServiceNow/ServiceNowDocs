@@ -2,7 +2,7 @@
 title: Quick start test for Asset Management
 description: Validate that Asset Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/quick-start-tests-am.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/quick-start-tests-am.html
 release: australia
 product: Asset Management
 classification: asset-management

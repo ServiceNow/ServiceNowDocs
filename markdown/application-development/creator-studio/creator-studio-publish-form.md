@@ -2,7 +2,7 @@
 title: Publish a form for your app in Creator Studio
 description: Publishing forms once they're ready makes them available as catalog items in the production instance for published apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-publish-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-publish-form.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -22,7 +22,7 @@ To publish a form, you must be given permission to work on the app.
 
 ## About this task
 
-After you publish a form, it's available in the specified catalog on the instance you're working on. However, you still need to deploy your app to the production instance for users to access the form. For more information, see [Deploying your Creator Studio app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-publishing-apps.md).
+After you publish a form, it's available in the specified catalog on the instance you're working on. However, you still need to deploy your app to the production instance for users to access the form. For more information, see [Deploying your Creator Studio app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-publishing-apps.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ After you publish a form, it's available in the specified catalog on the instanc
 
     \[Omitted image "crs-mark-as-ready-nav.png"\] Alt text: Mark your app as ready
 
-    **Note:** If you haven't specified where the form will live, such as in a catalog or in the Employee Center, you're prompted to **Edit location setting**. For more information, see [Edit the settings for a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-edit-form-settings.md).
+    **Note:** If you haven't specified where the form will live, such as in a catalog or in the Employee Center, you're prompted to **Edit location setting**. For more information, see [Edit the settings for a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-edit-form-settings.md).
 
 
 ## Result
@@ -51,5 +51,5 @@ The catalog item for the form is ready to be deployed with your app. Once the ap
 
 **Note:** If you published a form and then edit it, you can’t use the version that's being edited in a condition for a playbook, for example as a trigger for the automation. However, you can use the published version of the form or publish the version that you’re editing, which makes its question answers available to use in playbook conditions.
 
-**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-work-with-forms.md)
 

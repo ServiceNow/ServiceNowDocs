@@ -2,7 +2,7 @@
 title: Activate Dispatcher Workspace
 description: You can activate the Dispatcher Workspace plugin \(sn\_fsm\_disp\_wrkspc\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/activate-dispatcher\_workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/activate-dispatcher\_workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

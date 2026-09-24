@@ -2,7 +2,7 @@
 title: Outbound webhook parameters
 description: The parameters to be configured when sending data to other systems using an outbound webhook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/outbound-webhook-parameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/outbound-webhook-parameters.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -57,5 +57,5 @@ Test payload
 Select to verify that the webhook is functioning correctly and that the receiving system can process the data as expected.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
+</table>To return to the procedure, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md).
 

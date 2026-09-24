@@ -2,7 +2,7 @@
 title: Run diagnostics tests for a CI or a service
 description: As a customer service agent, review, diagnose, resolve, and close a service case for the service-related issue experienced by the customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-cmdb-ci.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-cmdb-ci.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -79,5 +79,5 @@ This task helps you to understand how to execute relevant preconfigured diagnost
 7.  View the service-related records in the **Related records** tab.
 
 
-**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
+**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 

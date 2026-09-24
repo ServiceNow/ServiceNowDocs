@@ -2,7 +2,7 @@
 title: Build the data model
 description: Create tables and fields on the tables to support the application’s data model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/build-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-data-model.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Define and build the data model, Build your application, Exploring 
 
 Create tables and fields on the tables to support the application’s data model.
 
-**Note:** Consider creating applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
+**Note:** Consider creating applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-ai-capabilities-in-custom-apps.md).
 
 ServiceNow automatically adds five fields to each new table. The new fields contain auto-populated information about the table.
 
@@ -77,5 +77,5 @@ When using reference fields, review the tables available in the instance to refe
 
 **Note:** Before creating new fields on an extended table, check for an existing field inherited from the base table that has a similar purpose. If a field is found, override the extended table's label.
 
-**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/define-and-build-data-model.md)
+**Parent Topic:**[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/define-and-build-data-model.md)
 

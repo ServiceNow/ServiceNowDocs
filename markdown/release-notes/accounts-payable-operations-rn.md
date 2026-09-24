@@ -2,7 +2,7 @@
 title: Accounts Payable Operations release notes
 description: The ServiceNow Accounts Payable Operations application adds capabilities for supplier case resolution and confirmation workflows. The large language model \(LLM\)-aided email parser agent automatically classifies incoming supplier inquiries, eliminating manual intervention and routes invoice inquiry cases to the appropriate teams. Invoice exceptions in Accounts Payable Operations are enhanced and updated in the Australia release.The ServiceNow Accounts Payable Operations application adds capabilities for supplier case resolution and confirmation workflows. The large language model \(LLM\)-aided email parser agent automatically classifies incoming supplier inquiries, eliminating manual intervention and routes invoice inquiry cases to the appropriate teams. Invoice exceptions in Accounts Payable Operations are enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/accounts-payable-operations-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/accounts-payable-operations-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -51,7 +51,7 @@ See [Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/S
     Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. To process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
 
 
-**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/source-to-pay-operations-rn-landing.md)
+**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/source-to-pay-operations-rn-landing.md)
 
 ## Australia
 

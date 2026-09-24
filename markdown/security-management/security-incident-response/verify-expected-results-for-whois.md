@@ -2,7 +2,7 @@
 title: \(Optional\) Run enrichment lookup and verify expected results for Whois
 description: Run the Whois integration to perform enrichment lookups on the domains returned from the Reverse Whois integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-expected-results-for-whois.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/verify-expected-results-for-whois.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -55,16 +55,16 @@ Results are displayed on the **Observable Enrichment Results** tab on the Observ
 
 If you can't locate child observables or enrichment results, verify that the Reverse Whois integration ran successfully and returned domains. Also, refer to the work notes on the record for more information.
 
-**Parent Topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/reversewhois-lookups.md)
+**Parent Topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/reversewhois-lookups.md)
 
-**Previous topic:**[Verify expected results for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.md)
+**Previous topic:**[Verify expected results for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.md)
 
-**Next topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq-lookups.md)
+**Next topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/riskiq-lookups.md)
 
 **Related topics**  
 
 
-[Install and configure Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-config-reversewhois.md)
+[Install and configure Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/install-and-config-reversewhois.md)
 
-[Verify expected results for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.md)
+[Verify expected results for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.md)
 

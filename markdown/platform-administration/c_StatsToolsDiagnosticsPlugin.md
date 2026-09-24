@@ -2,7 +2,7 @@
 title: Stats Tools
 description: To aid in performance evaluation, the Stats Tools records statistics for system activities that affect performance such as the execution of queries, scripts, and transactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_StatsToolsDiagnosticsPlugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_StatsToolsDiagnosticsPlugin.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

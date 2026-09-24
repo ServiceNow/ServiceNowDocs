@@ -2,7 +2,7 @@
 title: Visibility to TLS certificates
 description: The Certificate Inventory and Management application allows Discovery to automatically scan for certificates on specific ports through your existing CI-based Discovery schedules. In addition, you can create Discovery schedules to scan for specific URLs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-cert-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/run-cert-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +18,7 @@ The Certificate Inventory and Management application allows Discovery to automat
 
 The ServiceNow Store regularly releases new applications and updates to ServiceNow applications. If you already have an application, you can download the latest version to enhance your existing experience with ServiceNow products. Features vary by release. The version number indicates which content and features are available in each release.
 
-In Certificate Inventory and Management, you can add a list of imported certificates to [Run certificate discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-import.md), and scan for certificates from your Certificate Authority \(CA\) such as GoDaddy and DigiCert. You can also scan Sectigo and Entrust CAs.
+In Certificate Inventory and Management, you can add a list of imported certificates to [Run certificate discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/run-cert-inventory-mgmt-import.md), and scan for certificates from your Certificate Authority \(CA\) such as GoDaddy and DigiCert. You can also scan Sectigo and Entrust CAs.
 
 The existing certificate authority patterns for DigiCert to collect the following fields as part of the CA Trust Certificate discovery. These fields are required to create an automated flow \(request, renew, or revoke\) for certificates discovered by Digicert CA Discovery and are stored in the Certificate Extensions \[sn\_disco\_certmgmt\_certificate\_extension\] table.
 
@@ -28,7 +28,7 @@ The existing certificate authority patterns for DigiCert to collect the followin
 -   Serial Number
 -   Certificate Status
 
-Using the Certificate Inventory and Management, you can [Run certificate discovery via port scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-ports.md). You can also [Run certificate discovery via individual URL scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-urls.md).
+Using the Certificate Inventory and Management, you can [Run certificate discovery via port scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/run-cert-inventory-mgmt-ports.md). You can also [Run certificate discovery via individual URL scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/run-cert-inventory-mgmt-urls.md).
 
 To Import Certificates or Discovery CA Trust with more than 1500 certificates, create the discovery schedule with more than one serverless patterns configured. Each pattern execution supports a maximum of 1500 certificates discovery.
 

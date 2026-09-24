@@ -2,7 +2,7 @@
 title: Crisis Management map
 description: You can integrate the Crisis Management application with the Crisis Management map to receive alert feeds on possible threats to your organization's business operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-management-map-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/crisis-management-map-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

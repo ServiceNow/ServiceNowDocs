@@ -2,7 +2,7 @@
 title: Client scripts
 description: Client scripts allow the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/client-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/client-scripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -194,10 +194,10 @@ Isolate script
 New client scripts are run in strict mode, in which direct DOM access is turned off. Access to jQuery, prototype, and the window object are also turned off by default. To enable DOM access on a per-script basis, leave the **Isolate script** option cleared. To turn off strict mode for all new globally scoped client scripts, set the **glide.script.block.client.globals** system property to false.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-side-scripting-overview.md)
+</table>**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
 
 **Related topics**  
 
 
-[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 

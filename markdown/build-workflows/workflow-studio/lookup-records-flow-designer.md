@@ -2,7 +2,7 @@
 title: Look Up Records action
 description: Look up multiple records on any table using defined conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/lookup-records-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/lookup-records-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -63,7 +63,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
     Data type: **Records**
 
-    List of record Sys IDs found based on the lookup criteria that you provided. For more information, see [Records.\[Table\] data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/records-data.md).
+    List of record Sys IDs found based on the lookup criteria that you provided. For more information, see [Records.\[Table\] data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/records-data.md).
 
 -   **Table**
 
@@ -84,7 +84,7 @@ Use these general guidelines when working with the Look Up Records action.
 
 -   **Process records with For Each flow logic**
 
-    Use For Each flow logic to iterate through a list of records. For more information about using For Each flow logic, see [For Each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-for-each.md).
+    Use For Each flow logic to iterate through a list of records. For more information about using For Each flow logic, see [For Each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic-for-each.md).
 
 -   **Set Max Results to improve performance**
 
@@ -105,5 +105,5 @@ In this example, the flow starts when an emergency change request is opened in t
 
 In the execution details, the Count output shows three configuration items that are assigned to the requester of the change request. The Records output shows the configuration items by name in the execution details page, but the data pill contains a series of Sys ID values. The Table output is the Configuration Item \[cmdb\_ci\] table.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

@@ -2,7 +2,7 @@
 title: Configuring location-based product transactions
 description: In Sales Customer Relationship Management, agents can create opportunities, quotes, and orders tailored to customer location. These transactions are called location-based product transactions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/config-location-transaction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/config-location-transaction.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,11 +42,11 @@ When the product offerings and services available to customers vary based on loc
 
     For details on how agents add products to an opportunity, quote, or order by location, see the following:
 
-    -   [Use location filter to add opportunity line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_location_filter_to_add_line_items.md).
-    -   [Copy opportunity line items to a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/copy_opportunity_line_items_to_a_location.md).
-    -   [Filter catalogs by location in a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-using-product-location.md).
-    -   [Copy locations for quote line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-copy-quote-item-location.md).
-    -   [Filter product catalog by location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-filter-catalog-by-location.md).
+    -   [Use location filter to add opportunity line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use_location_filter_to_add_line_items.md).
+    -   [Copy opportunity line items to a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/copy_opportunity_line_items_to_a_location.md).
+    -   [Filter catalogs by location in a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-using-product-location.md).
+    -   [Copy locations for quote line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-copy-quote-item-location.md).
+    -   [Filter product catalog by location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-filter-catalog-by-location.md).
 
 ## Setting up location-based transactions
 
@@ -54,19 +54,19 @@ Admins and product catalog admins complete the following configuration tasks to 
 
 |Step|Description|Role|
 |----|-----------|----|
-|[Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-activate-location-filter.md)|Enable the **sn\_sales\_common.enable\_location\_based\_transactions** system property.|Admin|
-|[Create rule entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-rule-entity-filter.md)|Define the rule entity filters that make catalogs, categories, and product offerings either eligible or ineligible for display.|Product catalog admin|
-|[Define product eligibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-define-eligibility-rules.md)|Set the product eligibility rules by selecting the context variables, such as the service location context variables, that control the display of product catalog, category, or offerings.|Product catalog admin|
+|[Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-activate-location-filter.md)|Enable the **sn\_sales\_common.enable\_location\_based\_transactions** system property.|Admin|
+|[Create rule entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-rule-entity-filter.md)|Define the rule entity filters that make catalogs, categories, and product offerings either eligible or ineligible for display.|Product catalog admin|
+|[Define product eligibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-define-eligibility-rules.md)|Set the product eligibility rules by selecting the context variables, such as the service location context variables, that control the display of product catalog, category, or offerings.|Product catalog admin|
 
--   **[Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-activate-location-filter.md)**  
+-   **[Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-activate-location-filter.md)**  
 Turn on location-based transactions for opportunities, quotes, and orders by using the **sn\_sales\_common.enable\_location\_based\_transactions** system property.
 
-**Parent Topic:**[Configuring agent tools in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-agent-tools.md)
+**Parent Topic:**[Configuring agent tools in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-agent-tools.md)
 
 **Related topics**  
 
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 
-[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-order-management.md)
 

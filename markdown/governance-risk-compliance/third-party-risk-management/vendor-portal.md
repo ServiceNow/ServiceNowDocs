@@ -2,7 +2,7 @@
 title: Managing the Third-party portal
 description: Third-party contacts respond to questionnaires, requests for documentation, tasks, and issues on the Third-party portal. The portal is the point of interaction between third parties and risk assessors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/vendor-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/vendor-portal.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -22,9 +22,9 @@ Third-party contacts are the individuals that represent the third party. By usin
 
 You assign the **primary contact** responsibility to the third-party contact who can directly answer assessment questions or assign another contact at the third party to answer the questions. Primary contacts can manage other contacts for the third party.
 
-Third-party contacts are automatically assigned two roles: vendor\_contact and snc\_external. The vendor\_contact role provides third-party contacts with access to the Third-party portal, while the snc\_external role is a safeguard that restricts access only to the portal. The snc\_external role helps prevent any unauthorized entry into your instance. For more information, see [Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md).
+Third-party contacts are automatically assigned two roles: vendor\_contact and snc\_external. The vendor\_contact role provides third-party contacts with access to the Third-party portal, while the snc\_external role is a safeguard that restricts access only to the portal. The snc\_external role helps prevent any unauthorized entry into your instance. For more information, see [Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md).
 
-**Note:** Third-party contacts see your organization's name in all references on the Third-party portal. You specify the name in the `sn_vdr_risk_asmt.company.name` property setting. See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+**Note:** Third-party contacts see your organization's name in all references on the Third-party portal. You specify the name in the `sn_vdr_risk_asmt.company.name` property setting. See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 ## Tasks for third-party contacts
 
@@ -74,11 +74,11 @@ Progress is tracked in assessment requests and the progress is indicated by the 
 
 ## Responding to questionnaires using a Microsoft Excel template
 
-Third-party contacts can use a Microsoft Excel template to respond to questionnaires by downloading the template, completing it, and importing the final version into the Third-party portal. The Microsoft Excel questionnaire template contains instructions for filling out the template. This enables third-party contacts to provide information outside the third-party portal, streamlining the due diligence process. For more information, see [Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md) and [Respond using a Microsoft Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-excel.md).
+Third-party contacts can use a Microsoft Excel template to respond to questionnaires by downloading the template, completing it, and importing the final version into the Third-party portal. The Microsoft Excel questionnaire template contains instructions for filling out the template. This enables third-party contacts to provide information outside the third-party portal, streamlining the due diligence process. For more information, see [Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md) and [Respond using a Microsoft Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-excel.md).
 
 ## Responding to assessments using a SIG questionnaire
 
-Third parties can use the Shared Assessments Standardized Information Gathering questionnaire \(SIG\) to provide assessment documentation in the Third-party Risk Management application. The third-party contact can upload the pre-filled SIG spreadsheet or respond to a form-based questionnaire that is imported to the instance. For more information, see [Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md) and [Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md).
+Third parties can use the Shared Assessments Standardized Information Gathering questionnaire \(SIG\) to provide assessment documentation in the Third-party Risk Management application. The third-party contact can upload the pre-filled SIG spreadsheet or respond to a form-based questionnaire that is imported to the instance. For more information, see [Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md) and [Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md).
 
 **Note:** Third-party contacts can reassign a questionnaire to another team member by selecting the more actions menu icon \[Omitted image "context-menu-db-element-ac.png"\] Alt text: and selecting **Reassign**. After reassigning the questionnaire, they lose access to the questionnaire.
 
@@ -104,11 +104,11 @@ Users in your organization with the TPR assessor role \[sn\_vdr\_risk\_asmt.vend
 -   View and update the customer contact information.
 -   Access the completed assessments.
 
-For more information, see [Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md) and [Manage the access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md).
+For more information, see [Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md) and [Manage the access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md).
 
-**Note:** If necessary, you can respond on behalf of third parties or engagements to questionnaires. See [Respond to a questionnaire for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-respond-for-tp.md) for more information.
+**Note:** If necessary, you can respond on behalf of third parties or engagements to questionnaires. See [Respond to a questionnaire for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-respond-for-tp.md) for more information.
 
-The **Allow assessors to answer/edit questionnaires for third-party contacts** property \(**sn\_svdp.allow\_assessor\_edit**\) must be active. For more information on configuring this property, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+The **Allow assessors to answer/edit questionnaires for third-party contacts** property \(**sn\_svdp.allow\_assessor\_edit**\) must be active. For more information on configuring this property, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 ## Assessment assignments
 
@@ -135,11 +135,11 @@ External assessments are always assigned to primary contacts. When multiple prim
 **Related topics**  
 
 
-[E-signatures on questionnaires or document requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-approve-with-e-sig.md)
+[E-signatures on questionnaires or document requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-approve-with-e-sig.md)
 
-[Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md)
+[Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md)
 
-[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
+[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
 
-[TPRM and the Explicit Roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vrm-and-explicit-roles-plugin.md)
+[TPRM and the Explicit Roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/vrm-and-explicit-roles-plugin.md)
 

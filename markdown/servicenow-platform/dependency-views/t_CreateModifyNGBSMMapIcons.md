@@ -2,7 +2,7 @@
 title: Create or modify map icons
 description: Upload new icons or modify existing icons to customize the icon displayed for a CI in maps in Dependency Views, Service Mapping, and Event Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMapIcons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMapIcons.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -63,7 +63,7 @@ Role required: admin or cmdb\_admin roles are required to access the records in 
 
 You can modify a Dependency Views map indicator to use the new icon.
 
-**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Application plugins for AI capabilities in SPO
 description: View the consolidated list of plugins required to use AI capabilities in Sourcing and Procurement Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-ai-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-ai-plugins.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -73,7 +73,7 @@ ServiceNow Otto for Sourcing and Procurement Operations \(sn\_spend\_gen\_ai\)
 -   ServiceNow Otto for Finance and Procurement \(com.snc.sn\_fsc\_genai\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
+</table>**Parent Topic:**[Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
 **Related topics**  
 

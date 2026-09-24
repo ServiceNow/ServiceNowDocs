@@ -2,7 +2,7 @@
 title: Configure colors for tile icon illustrations
 description: Configure and control the colors automatically applied to tile icon illustrations to keep your visual experience engaging while maintaining brand recognition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-tile-icon-colors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-tile-icon-colors.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,7 +73,7 @@ As a category, all tile icon illustrations share color hook mappings. As a resul
 
 The new colors are applied to all tile icon illustration types.
 
-If your theme is published, your illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Tile icon illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tile-icons-in-tb.md)
+**Parent Topic:**[Tile icon illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tile-icons-in-tb.md)
 

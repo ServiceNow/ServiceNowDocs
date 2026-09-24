@@ -2,7 +2,7 @@
 title: Close a safety incident or observation
 description: Close a safety incident or observation assigned to you when you complete all activities for resolving it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/close-hs-incident-observation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-incident-management/close-hs-incident-observation.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -43,5 +43,5 @@ Role required: sn\_ohs\_im.manager or sn\_ohs\_im.agent
 
 The incident or observation moves to the Closed Complete state.
 
-**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
+**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

@@ -2,7 +2,7 @@
 title: Add a success objective
 description: Create a success objective that represents the value of the products sold to the customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-object.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-object.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -196,7 +196,7 @@ Any internal notes regarding this objective.
 
 ## What to do next
 
-Add one or more success outcomes to measure the achievement of this objective. See [Add a primary success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-outcome.md).
+Add one or more success outcomes to measure the achievement of this objective. See [Add a primary success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-outcome.md).
 
-**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
+**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

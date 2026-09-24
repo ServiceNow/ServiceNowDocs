@@ -2,7 +2,7 @@
 title: Create an entity class
 description: Create an entity class that is to be associated with an entity. Define the parent class, root entity, and tier for an entity class.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-entity-class.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-entity-class.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ Entity classes are used to add conceptual information about an entity. Entity cl
 
 ## What to do next
 
-[Update an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/update-entity-class.md)
+[Update an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/update-entity-class.md)
 
-**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/entities-in-esg.md)
+**Parent Topic:**[Manage entities in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/entities-in-esg.md)
 

@@ -2,7 +2,7 @@
 title: Create a pattern entity
 description: Create a pattern entity from a word or phrase with repeatable patterns, such as email addresses and phone numbers. These patterns help the system to recognize similar utterances based on the patterns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-pattern-entity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/create-pattern-entity.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -27,7 +27,7 @@ Create a pattern entity from a word or phrase with repeatable patterns, such as 
 
 Pattern entities help your model identify, contextualize, and govern similar types of content. Inputs such as phone numbers and email address follow the same pattern. By creating a pattern entity, you can train the model to recognize all variations of those inputs.
 
-**Note:** Pattern entities use regular expressions \(regex\). The regex field value is a Java regular expression. For more information on how to use regex, see [Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
+**Note:** Pattern entities use regular expressions \(regex\). The regex field value is a Java regular expression. For more information on how to use regex, see [Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
 
 In this example scenario, you've created an intent that's titled \#CheckITTicketStatus. In this example procedure, you're creating a pattern entity for incident record numbers.
 

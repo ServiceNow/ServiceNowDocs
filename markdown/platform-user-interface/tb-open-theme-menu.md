@@ -2,7 +2,7 @@
 title: Open the theme menu
 description: Use the Next Experience Theme menu to quickly change your theme.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-open-theme-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-open-theme-menu.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,8 +38,8 @@ When you select which theme record is active for the instance, any associated va
 
     Each theme card displays the core theme and all variants or alternative color palettes that are associated with that core theme. Hover over the circles beneath the core theme to view a preview of the variant or alternate color palette.
 
-    Your users can select the [variant or alternate color palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/difference-themes-variants.md) that they want to adopt for their instance.
+    Your users can select the [variant or alternate color palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/difference-themes-variants.md) that they want to adopt for their instance.
 
 
-**Parent Topic:**[Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-working-in-dark-theme.md)
+**Parent Topic:**[Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-working-in-dark-theme.md)
 

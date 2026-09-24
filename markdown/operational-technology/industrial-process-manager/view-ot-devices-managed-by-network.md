@@ -2,7 +2,7 @@
 title: View all OT devices by managed network
 description: View your Operational Technology \(OT\) devices by managed network on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/view-ot-devices-managed-by-network.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/view-ot-devices-managed-by-network.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -52,5 +52,5 @@ For more information about the OT Device Network Connection data model, see the 
     |Parent Managed Network|Higher-level managed network that contains or oversees the current managed network.|
 
 
-**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

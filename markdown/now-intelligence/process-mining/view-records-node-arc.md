@@ -2,7 +2,7 @@
 title: Viewing records for an activity or connection
 description: See the list of records which passed through an activity or connection to analyze data in more detail.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/view-records-node-arc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/view-records-node-arc.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -22,5 +22,5 @@ Select an activity or connection on a route to display the metrics box. You can 
 
 \[Omitted image "view-records-node-arc.png"\] Alt text: View records for an activity or connection
 
-**Parent Topic:**[Viewing metrics and activity transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/view-metrics.md)
+**Parent Topic:**[Viewing metrics and activity transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/view-metrics.md)
 

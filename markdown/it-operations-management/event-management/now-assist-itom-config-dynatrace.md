@@ -2,14 +2,14 @@
 title: Configure the Dynatrace analysis AI agent
 description: Configure the Dynatrace analysis AI agent for the analyze alert impact agentic workflow. This configuration also supports the Dynatrace observability skill in the manage alerts autonomously agentic workflow. After you configure the agent, the workflows can surface information from Dynatrace to help you investigate alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/now-assist-itom-config-dynatrace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/now-assist-itom-config-dynatrace.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure the manage alerts autonomously agentic workflow, Configure, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -19,12 +19,12 @@ Configure the Dynatrace analysis AI agent for the analyze alert impact agentic w
 
 ## Before you begin
 
-**Important:** In the Australia release, the Dynatrace analysis AI agent is being prepared for future deprecation. To continue getting Dynatrace insights in agentic workflows, deactivate the Dynatrace analysis AI agent in AI Agent Studio and set up the Dynatrace MCP server agent. See [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md) for configuration details.
+**Important:** In the Australia release, the Dynatrace analysis AI agent is being prepared for future deprecation. To continue getting Dynatrace insights in agentic workflows, deactivate the Dynatrace analysis AI agent in AI Agent Studio and set up the Dynatrace MCP server agent. See [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-integration-agents-for-now-assist.md) for configuration details.
 
 Before configuring the Dynatrace analysis AI agent, you must do the following:
 
 -   [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
--   [Integrate Dynatrace platform events with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/dynatrace-events-integration.md).
+-   [Integrate Dynatrace platform events with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/dynatrace-events-integration.md).
 -   Copy your Dynatrace connection URL and Dynatrace access token or personal access token.
 
     The Dynatrace access token or personal access token must have the `problems.read` scope.
@@ -94,7 +94,7 @@ Activate the Dynatrace analysis AI agent to use it in the analyze alert impact a
 
 **Note:** To use the Dynatrace analysis AI agent in the analyze alert impact agentic workflow, make sure that the Alert impact summary and Alert information retrieval AI agents are active. They're also required for the analyze alert impact agentic workflow.
 
-To learn more about using the Dynatrace analysis AI agent in the analyze alert impact agentic workflow or manage alerts autonomously agentic workflow, see [Analyze alert impact in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/now-assist-itom-use-aia.md) and [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/itom-autonomous-operator-workflow.md).
+To learn more about using the Dynatrace analysis AI agent in the analyze alert impact agentic workflow or manage alerts autonomously agentic workflow, see [Analyze alert impact in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/now-assist-itom-use-aia.md) and [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/itom-autonomous-operator-workflow.md).
 
-**Parent Topic:**[Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md)
+**Parent Topic:**[Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md)
 

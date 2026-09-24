@@ -2,7 +2,7 @@
 title: Create an alert rule to generate custom notifications in RPA Hub
 description: Create an alert rule to generate custom notifications for robots, schedules, process jobs, and other RPA Hub related tables.Use the Alert rule form to create an alert rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-alert-rule-rpa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-alert-rule-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Alert rules are configurations that define conditions in which an alert or a not
 4.  Select **Save**.
 
 
-**Parent Topic:**[Alert rule and variable in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/alert-rule-rpa-hub.md)
+**Parent Topic:**[Alert rule and variable in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/alert-rule-rpa-hub.md)
 
 ## Alert rule form in RPA Hub
 
@@ -223,7 +223,7 @@ Message
 
 Alert message.For example, `{0}% of process jobs failed in a day.`
 
- To configure the variables, such as \{0\}, see [Create an alert variable for an alert rule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-alert-variable.md).
+ To configure the variables, such as \{0\}, see [Create an alert variable for an alert rule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-alert-variable.md).
 
 </td></tr><tr><td>
 

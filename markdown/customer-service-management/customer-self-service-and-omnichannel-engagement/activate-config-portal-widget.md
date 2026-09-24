@@ -2,7 +2,7 @@
 title: Activate the UI Components for Customer Portals plugin
 description: You can activate the UI Components for Customer Portals plugin \(sn\_ciwf\_ui\_cmpnt\) to enable Configurable Portal widgets. The application installs related plugins if they aren’t already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,10 +2,10 @@
 title: Deactivate integration
 description: Deactivate integration allows you to temporarily disable an active connector integration without deleting it. This feature helps you manage integrations more effectively by pausing data flow when needed, reducing unnecessary event processing and improving system performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/deactivate-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/deactivate-integration.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---

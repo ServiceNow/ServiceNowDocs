@@ -2,7 +2,7 @@
 title: Orchestration Runtime plugin
 description: The Orchestration – Runtime plugin enables other applications on the ServiceNow platform to automate tasks, without requiring an Orchestration subscription.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/orchestration-runtime-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/orchestration-runtime-plugin.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -20,7 +20,7 @@ The Orchestration – Runtime plugin can be activated as part of another plugin 
 
 ## Included with the plugin
 
-The Orchestration – Runtime plugin provides access to the **Packs** and **Data** tabs in the Workflow Editor. This plugin gives users access to custom activities for their applications and enables them to reuse data from the [Databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationDatabus.md). This plugin does not provide access to custom Orchestration [activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationActivityPacks.md) or to the [activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md). The **Custom** tab in the Workflow Editor is not available without an Orchestration subscription.
+The Orchestration – Runtime plugin provides access to the **Packs** and **Data** tabs in the Workflow Editor. This plugin gives users access to custom activities for their applications and enables them to reuse data from the [Databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationDatabus.md). This plugin does not provide access to custom Orchestration [activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationActivityPacks.md) or to the [activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_WorkflowActivityDesigner.md). The **Custom** tab in the Workflow Editor is not available without an Orchestration subscription.
 
 \[Omitted image "OrchestrationRuntimeDiagram.png"\] Alt text: Orchestration plugin relationships
 
@@ -35,7 +35,7 @@ The Orchestration – Runtime plugin activates these application plugins:
 
 ## Access to activities
 
-Custom activities shipped with ServiceNow® applications are available in the **Packs** tab of the Workflow Editor for use in workflows. To edit these activities, navigate to **Orchestration** &gt; **Activity Designer Activities** and select the activity you want to modify. For information about the provider templates used to create these activities, see [Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ActivityDesignerComponents.md).
+Custom activities shipped with ServiceNow® applications are available in the **Packs** tab of the Workflow Editor for use in workflows. To edit these activities, navigate to **Orchestration** &gt; **Activity Designer Activities** and select the activity you want to modify. For information about the provider templates used to create these activities, see [Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_ActivityDesignerComponents.md).
 
-**Parent Topic:**[Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_ActivateOrchestration.md)
+**Parent Topic:**[Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_ActivateOrchestration.md)
 

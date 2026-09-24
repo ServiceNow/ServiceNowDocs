@@ -2,7 +2,7 @@
 title: Create an export set from a list
 description: You can quickly create an export set from a list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/t\_CreateAnExportSetFromAList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-export-sets/t\_CreateAnExportSetFromAList.html
 release: australia
 product: System Export Sets
 classification: system-export-sets

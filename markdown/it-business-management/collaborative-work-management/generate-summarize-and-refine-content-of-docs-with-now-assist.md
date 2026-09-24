@@ -2,7 +2,7 @@
 title: Generate and improve Docs content with ServiceNow Otto \(CWM\)
 description: Use ServiceNow Otto within your Docs to generate new content, summarize or expand sections, and refine drafts. Avoid starting Docs from scratch, save time, and keep your content relevant. Use ServiceNow Otto within your Docs to generate new content, summarize or expand sections, and refine drafts. Avoid starting Docs from scratch, save time, and keep your content relevant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -113,5 +113,5 @@ Whether the content in the Doc is added manually or generated using ServiceNow O
     **Important:** Because the output is AI-generated, review it to ensure accuracy.
 
 
-**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-docs.md)
 

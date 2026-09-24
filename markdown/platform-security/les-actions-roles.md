@@ -2,7 +2,7 @@
 title: Log Export Service actions and required roles
 description: Log Export Service uses role-based access control to restrict actions to authorized users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/les-actions-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-actions-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-21"
@@ -65,7 +65,7 @@ Log Export Service includes the following three primary roles:
 |Update the glide.les.disable\_logs\_forwarding system property|Pause or resume LES log forwarding during migration or database reseeding operations.|admin|Instance|
 |Review log report dashboard|Analyze the size of each data log and consumption metrics across LES sources.|admin, sn\_logstoanalytics.admin|Instance|
 
-**Parent Topic:**[Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-references.md)
+**Parent Topic:**[Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-references.md)
 
 **Related topics**  
 

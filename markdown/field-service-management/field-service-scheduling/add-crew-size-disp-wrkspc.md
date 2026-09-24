@@ -2,7 +2,7 @@
 title: Update crew requirements for the work order task in Dispatcher Workspace
 description: As a dispatcher, you can add or update the number of agents required to perform a particular type of work to complete the task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/add-crew-size-disp-wrkspc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/add-crew-size-disp-wrkspc.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

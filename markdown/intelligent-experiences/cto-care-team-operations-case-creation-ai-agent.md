@@ -2,7 +2,7 @@
 title: Care Team Operations case creation AI agent
 description: This AI agent streamlines case creation by analyzing user conversations to accurately determine the service definition for each reported issue. It intelligently identifies multiple issues raised in a single conversation and creates separate cases with correct case type and service definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cto-care-team-operations-case-creation-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cto-care-team-operations-case-creation-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
@@ -54,7 +54,7 @@ Manage long-term memory
 
 </td><td>
 
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
 
 </td></tr><tr><td>
 
@@ -114,5 +114,5 @@ Request care team assistance
 </td></tr></tbody>
 </table>Learn more about Healthcare Operations at [Healthcare Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-overview.md).
 
-**Parent Topic:**[Care Team Operations AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/care-team-operations-ai-agents-overview.md)
+**Parent Topic:**[Care Team Operations AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/care-team-operations-ai-agents-overview.md)
 

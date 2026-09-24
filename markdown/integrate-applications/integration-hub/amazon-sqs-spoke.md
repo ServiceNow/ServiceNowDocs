@@ -2,7 +2,7 @@
 title: Amazon SQS Spoke
 description: Amazon SQS spoke automates various actions on the Amazon SQS based on a trigger in your ServiceNow instance. Set up a flow in the Workflow Studio using the actions and automate tasks on Amazon SQS. For example, you can set up a flow that automates sending messages to a queue.Also reuse this short description in the release notes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/amazon-sqs-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/amazon-sqs-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -203,5 +203,5 @@ Deletes the messages in a queue. You specify the queue URL and the action return
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-To learn to set up the spoke, see [Set up Amazon SQS spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-amazon-sqs-spoke.md).
+To learn to set up the spoke, see [Set up Amazon SQS spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-amazon-sqs-spoke.md).
 

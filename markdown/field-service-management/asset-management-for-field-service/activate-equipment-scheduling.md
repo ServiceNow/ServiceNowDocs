@@ -2,7 +2,7 @@
 title: Activate Resource Scheduling
 description: You can activate the Resource Scheduling plugin \(com.snc.fsm\_resource\_scheduling\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/asset-management-for-field-service/activate-equipment-scheduling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/asset-management-for-field-service/activate-equipment-scheduling.html
 release: australia
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
@@ -18,7 +18,7 @@ You can activate the Resource Scheduling plugin \(com.snc.fsm\_resource\_schedul
 
 ## Before you begin
 
-Field Service Resource Scheduling requires the Field Service Crew Operations \(com.snc.fsm\_crew\_scheduling\) plugin. For more information about activating Field Service Crew Operations, see [Activate Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-fsm-crew-scheduling.md). Ensure that these plugins are activated before you install Field Service Resource Scheduling.
+Field Service Resource Scheduling requires the Field Service Crew Operations \(com.snc.fsm\_crew\_scheduling\) plugin. For more information about activating Field Service Crew Operations, see [Activate Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/activate-fsm-crew-scheduling.md). Ensure that these plugins are activated before you install Field Service Resource Scheduling.
 
 Role required: admin
 

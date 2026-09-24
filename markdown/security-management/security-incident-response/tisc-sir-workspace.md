@@ -2,7 +2,7 @@
 title: TISC integration within SIR Workspace
 description: The following section includes information about the Threat Intelligence Security Center integration from within the SIR workspace context.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/tisc-sir-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/tisc-sir-workspace.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -16,14 +16,14 @@ breadcrumb: [Working with Security Incident Records, Use, Security Incident Resp
 
 The following section includes information about the Threat Intelligence Security Center integration from within the SIR workspace context.
 
--   **[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/send-sir-to-tisc.md)**  
+-   **[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/send-sir-to-tisc.md)**  
 Learn how the data is collaborated and shared between the Threat Intelligence Security Center \(TISC\) and Security Incident Response \(SIR\) Workspaces by following the procedures explained in the following sections.
--   **[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/working-with-tisc-context.md)**  
+-   **[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/working-with-tisc-context.md)**  
 TISC context facilitates viewing threat intelligence data such as observables within the security incident response workspace.
--   **[Enable security incidents for vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisc-view-security-context.md)**  
+-   **[Enable security incidents for vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/tisc-view-security-context.md)**  
 Access threat intelligence context for security incidents directly within the Security Incident Response Workspace. TISC context helps you understand related threats and make informed decisions during incident response.
 
-**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 

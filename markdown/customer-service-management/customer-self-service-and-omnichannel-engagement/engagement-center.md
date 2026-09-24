@@ -2,7 +2,7 @@
 title: Engagement Messenger for Customer Service Management
 description: By using the ServiceNow Engagement Messenger application, your customers use self-service to find the information or service that they need from your third-party web applications that are outside of the ServiceNow environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -37,7 +37,7 @@ Engagement Messenger provides the following benefits:
     -   Walk-up appointment booking
     -   Knowledge article search that is powered by ServiceNow® AI Search
 
-For more information about the Engagement Messenger application, see [Features of Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/features-of-engagement-messenger.md).
+For more information about the Engagement Messenger application, see [Features of Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/features-of-engagement-messenger.md).
 
-To get started with the Engagement Messenger application, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
+To get started with the Engagement Messenger application, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
 

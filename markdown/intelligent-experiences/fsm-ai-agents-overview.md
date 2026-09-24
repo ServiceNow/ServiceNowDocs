@@ -2,7 +2,7 @@
 title: Field Service Management AI agents
 description: The following AI agents are available for Field Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/fsm-ai-agents-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/fsm-ai-agents-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
@@ -14,10 +14,10 @@ breadcrumb: [Field Service Management, AI agents library, AI assets, Enable AI e
 
 The following AI agents are available for Field Service Management.
 
--   **[Create work order AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/fsm-create-work-order-ai-agent.md)**  
+-   **[Create work order AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/fsm-create-work-order-ai-agent.md)**  
 This AI agent creates work orders using text descriptions and image.
--   **[Parts audit AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/fsm-parts-audit-agent-ai-agent.md)**  
+-   **[Parts audit AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/fsm-parts-audit-agent-ai-agent.md)**  
 This AI agent assists technicians in conducting thorough parts validation only for work order tasks. It streamlines the process of verifying and reporting parts usage, ensuring accuracy and accountability.
 
-**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
 

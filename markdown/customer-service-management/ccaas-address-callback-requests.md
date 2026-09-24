@@ -2,7 +2,7 @@
 title: Manage a CCaaS callback request in the Configurable Workspace
 description: As a customer service agent, view the callback context information and dial the customer immediately in the CSM/FSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ccaas-address-callback-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ccaas-address-callback-requests.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ You must log in to your CCaaS account and ServiceNowConfigurable Workspace to re
 
 ## About this task
 
-The callback interaction is either routed in the customer-first or agent-first method by CCaaS to the agent. The interaction appears like any other voice interaction in a customer-first scenario. The interaction appears with callback actions component and callback context card for an agent-first scenario. For more information on the agent-first and customer-first modes, see [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-callback-integration-features.md). The following procedure is applicable for the agent-first scenario.
+The callback interaction is either routed in the customer-first or agent-first method by CCaaS to the agent. The interaction appears like any other voice interaction in a customer-first scenario. The interaction appears with callback actions component and callback context card for an agent-first scenario. For more information on the agent-first and customer-first modes, see [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/interaction-controls-component-icc-callback-integration-features.md). The following procedure is applicable for the agent-first scenario.
 
 ## Procedure
 
@@ -38,23 +38,23 @@ The callback interaction is either routed in the customer-first or agent-first m
     -   Reason for callback
 2.  Perform one of the following in your inbox when you receive a callback interaction request.
 
-<table><thead><tr><th align="left" id="d267558e141">
+<table><thead><tr><th align="left" id="d267562e141">
 
 Action
 
-</th><th align="left" id="d267558e144">
+</th><th align="left" id="d267562e144">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d267558e150">
+</th></tr></thead><tbody><tr><td id="d267562e150">
 
 **Accept**
 
 </td><td>
 
-Select this button to accept the callback interaction request.The voice interaction page opens with the Callback Actions component on the top-left corner of the page. For more details on the callback actions component, see [Callback actions component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md).
+Select this button to accept the callback interaction request.The voice interaction page opens with the Callback Actions component on the top-left corner of the page. For more details on the callback actions component, see [Callback actions component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md).
 
-</td></tr><tr><td id="d267558e165">
+</td></tr><tr><td id="d267562e165">
 
 **Reject**
 
@@ -65,7 +65,7 @@ Select this button to reject the callback interaction request.The callback inter
 </td></tr></tbody>
 </table>3.  View the Callback context card for the details of the callback.
 
-    For more information on the Callback context card, see [Callback context card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md).
+    For more information on the Callback context card, see [Callback context card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md).
 
 4.  Use the callback actions card to perform the following actions.
 
@@ -106,7 +106,7 @@ When you select the Transfer callback button, the Transfer callback subcomponent
     -   In the Queues list, select the queue for transfer to which you want to transfer the callback.
     -   In the Agents list, select the agent to whom you want to transfer the callback.
 2.  Select the \[Omitted image "Transfer\_queue\_arrow.png"\] Alt text: Transfer callback arrow icon to initiate the transfer callback. When transferring a callback, the Callback actions component displays a Transferring callback, please wait... message and a 'Cancel callback transfer' button.
-3.  Select the **Cancel callback transfer** button to cancel the transfer before the receiving agent accepts the request. For more details on how it’s displayed in the UI, see [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md).
+3.  Select the **Cancel callback transfer** button to cancel the transfer before the receiving agent accepts the request. For more details on how it’s displayed in the UI, see [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md).
 
 
 </td></tr><tr><td>
@@ -148,7 +148,7 @@ Once the new agent accepts the call, you can select **Merge calls** to merge you
     |2|Use the mute icon to mute or unmute the conversation.|
     |3|Use the hold icon to hold or resume the conversation.|
     |4|Use the dialpad to enter a phone number of your choice and press the dial button to make a call.|
-    |5|To transfer the call to another agent, select the transfer icon. For more details, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ccaas-address-callback-requests.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ccaas-address-callback-requests.md).|
+    |5|To transfer the call to another agent, select the transfer icon. For more details, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ccaas-address-callback-requests.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ccaas-address-callback-requests.md).|
     |6|Use the flag icon to escalate customer issue.|
 
 6.  Update the **Reason** and **Notes** appropriately and select **Submit &amp; close** in the Wrap up modal after ending the call.
@@ -165,9 +165,9 @@ Once the new agent accepts the call, you can select **Merge calls** to merge you
 **Related topics**  
 
 
-[Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-callback-integration-features.md)
+[Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/interaction-controls-component-icc-callback-integration-features.md)
 
-[Callback interaction features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-intergration-with-icc-callback.md)
+[Callback interaction features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/contact-center-intergration-with-icc-callback.md)
 
-[Manage a CCaaS callback request using Global Voice Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/handle-ccaas-callback-gvc.md)
+[Manage a CCaaS callback request using Global Voice Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/handle-ccaas-callback-gvc.md)
 

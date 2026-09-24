@@ -2,7 +2,7 @@
 title: Create a user criteria record
 description: Add a user criteria record to decide which users, roles, and groups can access a reservable module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-user-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/create-user-criteria.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -28,7 +28,7 @@ Role required: sn\_wsd\_rsv.admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [User criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/user-criteria-form.md).
+    For a description of the field values, see [User criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/user-criteria-form.md).
 
 4.  Click **Submit**.
 
@@ -39,12 +39,12 @@ The user criteria is added to the application.
 
 ## What to do next
 
-[Apply user criteria on a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/apply-user-crit-resvbl-module.md)
+[Apply user criteria on a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/apply-user-crit-resvbl-module.md)
 
--   **[Apply user criteria on a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/apply-user-crit-resvbl-module.md)**  
+-   **[Apply user criteria on a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/apply-user-crit-resvbl-module.md)**  
 Apply a user criteria to give permission for employees and groups to view and make reservations on a reservable module.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

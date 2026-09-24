@@ -2,7 +2,7 @@
 title: Configure Chat Zoom Connector
 description: Install and set up the Chat Zoom Connector application to interact with customers using Zoom meetings initiated from a chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-chat-zoom-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-chat-zoom-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,17 +36,17 @@ This task provides general steps to set up the Chat Zoom Connector application f
 
     For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
-    **Note:** The Chat Zoom Connector application installs the CSMZoomInteractionImpl script include, which is preconfigured for the Customer Service application. It also installs the sn\_chat\_zoom.ZoomInteractionExtPoint extension point, which enables the copying of any application-specific fields from the parent chat interaction record to the Zoom interaction record. For more information, see [Configure application-specific field values for Zoom interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-chat-zoom-ext-pt.md).
+    **Note:** The Chat Zoom Connector application installs the CSMZoomInteractionImpl script include, which is preconfigured for the Customer Service application. It also installs the sn\_chat\_zoom.ZoomInteractionExtPoint extension point, which enables the copying of any application-specific fields from the parent chat interaction record to the Zoom interaction record. For more information, see [Configure application-specific field values for Zoom interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-chat-zoom-ext-pt.md).
 
 4.  Activate the Zoom quick action.
 
-    For more information, see [Activate the quick action for Zoom meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-chat-zoom-quick-action.md).
+    For more information, see [Activate the quick action for Zoom meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-chat-zoom-quick-action.md).
 
 
 **Related topics**  
 
 
-[Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/chat-zoom-connector.md)
+[Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/chat-zoom-connector.md)
 
-[Using Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-chat-zoom-connector.md)
+[Using Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-chat-zoom-connector.md)
 

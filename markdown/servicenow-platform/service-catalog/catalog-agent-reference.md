@@ -2,7 +2,7 @@
 title: Reference
 description: Reference information of the catalog agent and LLM topic blocks to power conversational catalog requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-agent-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/catalog-agent-reference.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -17,10 +17,10 @@ breadcrumb: [Conversational Catalog Requests, Service Catalog, Manage service ca
 
 Reference information of the catalog agent and LLM topic blocks to power conversational catalog requests.
 
--   **[Catalog Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-agent-reference-1.md)**  
+-   **[Catalog Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-agent-reference-1.md)**  
 Use this reference to understand the Catalog Agent capabilities, supported request types, constraints, and key considerations when deploying conversational catalog requests.
--   **[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)**  
+-   **[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)**  
 Use this reference to understand the LLM topic blocks capabilities, supported request types, constraints, and key considerations when deploying conversational catalog requests.
 
-**Parent Topic:**[Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
+**Parent Topic:**[Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
 

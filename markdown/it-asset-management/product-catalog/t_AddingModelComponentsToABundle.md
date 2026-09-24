@@ -2,7 +2,7 @@
 title: Add model components to a bundle
 description: Add model components to a model as needed, for example, when you upgrade a bundle to include additional assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_AddingModelComponentsToABundle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/product-catalog/t\_AddingModelComponentsToABundle.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -43,7 +43,7 @@ Role required: model\_manager and asset
     \[Omitted image "800pxBundledModelCalgary.png"\] Alt text: Bundled model components
 
 
-**Parent Topic:**[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_CreatingBundledModels.md)
+**Parent Topic:**[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_CreatingBundledModels.md)
 
 **Related topics**  
 
@@ -52,5 +52,5 @@ Role required: model\_manager and asset
 
 [Publish bundled models to product catalog]()
 
-[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md)
+[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/c_Models.md)
 

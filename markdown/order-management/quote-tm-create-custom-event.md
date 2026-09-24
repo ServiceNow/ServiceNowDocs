@@ -2,7 +2,7 @@
 title: Create an event
 description: Create a custom event in ServiceNow Quote Experience to trigger rule groupings, integrations, and stage transitions based on business-specific requirements in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-custom-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-create-custom-event.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -42,7 +42,7 @@ Role required: admin
 
     Multiple rule groupings and integrations can be assigned to the same event.
 
-    When pricing is enabled, you can attach the **Reprice** action to an event so that the event recalculates pricing when it runs. Default triggers such as **upsertLines** ship with the **Reprice** action already attached; you can disable these triggers per event if you don't want automatic repricing. For more information, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-events.md).
+    When pricing is enabled, you can attach the **Reprice** action to an event so that the event recalculates pricing when it runs. Default triggers such as **upsertLines** ship with the **Reprice** action already attached; you can disable these triggers per event if you don't want automatic repricing. For more information, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-events.md).
 
 7.  To configure the event to transition the quote to another stage, enable the **Transition** toggle and set the transition direction \(forward or backward in the stage sequence\).
 
@@ -53,7 +53,7 @@ Role required: admin
 
 ## What to do next
 
-Add the event to the quote layout to make it available as a button to users. For more information, see [Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-layout.md).
+Add the event to the quote layout to make it available as a button to users. For more information, see [Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-layout.md).
 
-**Parent Topic:**[Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-events.md)
+**Parent Topic:**[Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-events.md)
 

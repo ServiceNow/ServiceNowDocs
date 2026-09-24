@@ -2,7 +2,7 @@
 title: Advanced scripting
 description: As an app grows in complexity, it may reach the limits of what business rules, script includes, and Flow Designer actions can accomplish through configuration alone. Advanced scripting means writing directly against ServiceNow's server-side JavaScript APIs to handle logic that requires more precision or flexibility than low-code tools provide.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/advanced-scripting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/advanced-scripting.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-02"
@@ -38,7 +38,7 @@ As a low-code developer getting started in ServiceNow Studio, you will likely co
 -   Dedicated APIs for common metadata types including tables, roles, ACLs, and business rules
 -   A general-purpose Record API for metadata types that don't have a dedicated Fluent API
 
-A small number of metadata types can't currently be represented as Fluent code and remain as XML files in the metadata directory. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md).
+A small number of metadata types can't currently be represented as Fluent code and remain as XML files in the metadata directory. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/building-applications-source-code.md).
 
-**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-your-first-app.md)
 

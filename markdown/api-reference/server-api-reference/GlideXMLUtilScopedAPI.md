@@ -2,7 +2,7 @@
 title: GlideXMLUtil - Scoped, Global
 description: The GlideXMLUtil API provides methods to remove invalid characters from an XML string and to validate an XML string.Removes invalid characters from an XML string.Determines if the specified string is valid XML.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideXMLUtilScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/GlideXMLUtilScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The GlideXMLUtil API provides methods to remove invalid characters from an XML s
 
 Access these methods using the static object GlideXMLUtil. This class is available in scoped and global scripts.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideXMLUtil - removeInvalidChars\(String xmlString\)
 

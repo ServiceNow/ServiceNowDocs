@@ -2,7 +2,7 @@
 title: Create a scheduled extraction in Zero Copy Connector for ERP
 description: Schedule extraction of information for an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data from the ERP system at a regular interval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-create-a-scheduled-extraction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-create-a-scheduled-extraction.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -23,7 +23,7 @@ Schedule extraction of information for an ERP \(Enterprise Resource Planning\) e
 
 If you have existing scheduled extractions and have upgraded to Zurich or Australia, run the **Scheduled Extraction V2 Move** fix script to place scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see .
 
-You must have a standard or custom ERP extraction table in place to use. For more information, see [Add a new ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
+You must have a standard or custom ERP extraction table in place to use. For more information, see [Add a new ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
 
 Role required: en\_erp\_integration.erp\_user
 
@@ -41,7 +41,7 @@ This video was recorded in the Zurich release.
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Zero Copy Connector for ERP scheduled extraction field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-data-hub-scheduled-extraction-field-descriptions.md).
+    For a description of the field values, see [Zero Copy Connector for ERP scheduled extraction field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-data-hub-scheduled-extraction-field-descriptions.md).
 
     \[Omitted image "erpc-schedule-extraction-ys2.png"\] Alt text: New scheduled extraction fields.
 

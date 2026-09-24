@@ -2,10 +2,10 @@
 title: Value configurations
 description: Configure the value templates, value jobs, and calculation settings that AI Control Tower \(AICT\) uses to measure the business value of your AI systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-value-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-value-configurations.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---

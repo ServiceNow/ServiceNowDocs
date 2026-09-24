@@ -2,7 +2,7 @@
 title: JSONStreamingBuilder - Scoped
 description: Create a builder object used to build a large streaming JSON payload to use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as a JSON string for a non-streaming option.Instantiates the JSONStreamingBuilder object.Returns a JSONStreamingAPI object.Sets a time when the attachment expires. Must also call the withAttachment\(\) method. If you do not call this method, the attachment expires two hours from the time the attachment is created.Creates the JSON object as a streaming attachment and stores it in the Streaming Attachments \[streaming\_attachment\] table. If you do not call this method, the API creates the payload as a JSON string.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -169,7 +169,7 @@ Output:
 }
 ```
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## JSONStreamingBuilder - JSONStreamingBuilder\(\)
 
@@ -269,7 +269,7 @@ expiresAt
 
 </td><td>
 
-[GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
+[GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
 
 </td><td>
 

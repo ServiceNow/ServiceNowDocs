@@ -2,7 +2,7 @@
 title: Email performance metrics
 description: The metrics provide the Email performance snapshot within the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-emails-performance-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-emails-performance-metrics.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-20"
@@ -26,7 +26,7 @@ his represents the total number of emails processed by the SMTP server. This inc
 
 If the emails sent is zero, then it means that the SMTP server has nothing further to process or there has been a failure in the SMTP server.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

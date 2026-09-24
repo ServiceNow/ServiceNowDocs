@@ -2,7 +2,7 @@
 title: Close a legal hold matter
 description: Close a legal hold matter once the legal hold is officially lifted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/close-lg-hold-notif-matter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-hold-notification/close-lg-hold-notif-matter.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -45,5 +45,5 @@ The message **Legal matter has been closed** appears in the **Activity** section
 
 In the legal hold matter page, the state changes from Work in progress to Closed Complete.
 
-**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

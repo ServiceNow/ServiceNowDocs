@@ -2,7 +2,7 @@
 title: Create an involved parties record
 description: Capture information about people associated with the ER case. Involved parties can be the complainant, subject of the allegation, a witness, or other \(undefined\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-involved-parties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-er-involved-parties.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -101,7 +101,7 @@ The name of the involved party.Only appears when you check the **Not in system**
 </td></tr></tbody>
 </table>4.  Click **Submit** or **Save**.
 
-    -   If you select **Save**, the **Interviews** and **Corrective Actions** tabs appear. For more information, see [Schedule an interview in Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-interview.md).
+    -   If you select **Save**, the **Interviews** and **Corrective Actions** tabs appear. For more information, see [Schedule an interview in Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-interview.md).
     -   Use the **Corrective Actions** tab to create and associate a corrective action record with an involved party.
     -   If an allegation record is created, the Subject of Allegation is auto-populated from the Involved Parties record of type **Subject of Allegation**, provided that only one subject of allegation exists.
 

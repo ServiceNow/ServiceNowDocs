@@ -2,7 +2,7 @@
 title: Use Information Extraction skill
 description: The Information Extraction skill generates predictions from activated use cases. In agent review mode, you review and correct predictions before the extracted values populate your records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/use-information-extraction-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/use-information-extraction-skill.html
 release: australia
 topic_type: concept
 last_updated: "2025-01-30"

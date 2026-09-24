@@ -2,10 +2,10 @@
 title: Combined Data Loss Prevention Incident Response release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Data Loss Prevention Incident Response from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-datalosspreventionincidentresponse-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-datalosspreventionincidentresponse-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,16 @@ Zurich
 
 </td><td>
 
--   **[Install and configure the Proofpoint integration for Data Loss Prevention](https://www.servicenow.com/docs/access?context=install-configure-proofpoint-integration-dlp&family=zurich&ft:locale=en-US)**
+-   **[Create a Data Loss Prevention Incident Response SLA trigger](https://www.servicenow.com/docs/access?context=sla-records&family=zurich&ft:locale=en-US)**
+
+Enable prompt and efficient responses to incidents by creating SLA triggers.
+
+-   **[Create a Data Loss Prevention Incident Response SLA definition](https://www.servicenow.com/docs/access?context=dlp-sla-definitions&family=zurich&ft:locale=en-US)**
+
+Outline the conditions and duration for responding to data breaches by creating Data Loss Prevention Incident Response SLA definitions.
+
+
+ -   **[Install and configure the Proofpoint integration for Data Loss Prevention](https://www.servicenow.com/docs/access?context=install-configure-proofpoint-integration-dlp&family=zurich&ft:locale=en-US)**
 
 Install and configure the Proofpoint integration to use the  Proofpoint DLP incident data to investigate DLP incidents.
 
@@ -194,6 +203,8 @@ Install Data Loss Prevention Incident Response by requesting it from the Service
 
 The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
 
+
+**Important:** Data Loss Prevention Incident Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -353,5 +364,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

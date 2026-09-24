@@ -2,7 +2,7 @@
 title: Field Service Management Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-content-pack.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

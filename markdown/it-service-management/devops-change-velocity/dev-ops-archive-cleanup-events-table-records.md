@@ -2,7 +2,7 @@
 title: Inbound event table data archiving and cleanup
 description: Use table cleaners on the inbound events table to purge event data records beyond a specified period. Configure a retention policy with table rotation on the auto-flush form to manage table size growth and archiving data beyond the specified duration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-archive-cleanup-events-table-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/dev-ops-archive-cleanup-events-table-records.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -63,5 +63,5 @@ Events in states **processed** and **ignored** are backed up and copied to the p
 -   Two weeks have passed since the scheduled job is active.
 -   The processed inbound event table has event data older than 7 weeks.
 
-**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

@@ -2,7 +2,7 @@
 title: Manage Notify properties
 description: Manage the Notify Webex Connector application properties to configure the meeting capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/manage-notify-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/manage-notify-properties.html
 release: australia
 product: Notify
 classification: notify
@@ -58,5 +58,5 @@ Option to use Notify Webex Connector for incident and major incident-related rec
 </table>3.  Select **Save**.
 
 
-**Parent Topic:**[Configure Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/setup-cisco-webex-notify.md)
+**Parent Topic:**[Configure Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/setup-cisco-webex-notify.md)
 

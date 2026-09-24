@@ -2,7 +2,7 @@
 title: FireEye Default Settings
 description: Following are the additional configuration settings after you complete the installation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/additional-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/additional-configurations.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

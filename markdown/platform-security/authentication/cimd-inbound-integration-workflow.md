@@ -2,7 +2,7 @@
 title: Client ID Metadata Document \(CIMD\) workflow
 description: Configuring Client ID Metadata Document \(CIMD\) inbound support lets an instance accept an external OAuth client that's identified by a metadata document URL, without storing a client secret for that client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/cimd-inbound-integration-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/cimd-inbound-integration-workflow.html
 release: australia
 product: Authentication
 classification: authentication
@@ -80,5 +80,5 @@ When you register a CIMD client, you select how the instance keeps the client's 
 
 ## What to do next
 
-For details on configuring a client, see [Configure a CIMD client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-cimd-client.md).
+For details on configuring a client, see [Configure a CIMD client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-cimd-client.md).
 

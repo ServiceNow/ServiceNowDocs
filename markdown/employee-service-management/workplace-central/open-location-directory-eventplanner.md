@@ -2,7 +2,7 @@
 title: Open and view Location directory from Event Planner
 description: Open and view the location directory portal from the Event planner home page and the Scheduled view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/open-location-directory-eventplanner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/open-location-directory-eventplanner.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -76,5 +76,5 @@ Role required: sn\_wsd\_rsv.reservation\_viewer
         "Looks like this location doesn't exist." You are redirected to the default Card view.
 
 
-**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-event-planner.md)
 

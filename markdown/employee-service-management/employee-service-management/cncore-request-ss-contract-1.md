@@ -33,7 +33,7 @@ If the generated contract document doesn’t require any changes, the requester 
 
 A workflow for a self-served contract request might progress as follows:
 
-1.  The Contract requester initiates a contract request. For more information, see [Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
+1.  The Contract requester initiates a contract request. For more information, see [Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
     -   If there are no validation errors, a contract request is created in the Work in progress state.
     -   If there are any signatory validation errors, the contract requester resolves them and resubmits the contract request.
 2.  A contract document is generated from a contract template and the metadata, clauses, signatories, and tables are added dynamically according to predefined conditions.
@@ -68,22 +68,22 @@ A workflow for a self-served contract request might progress as follows:
 
 The contract requester can cancel a contract request when the state is in Draft, New, Awaiting Approval, Awaiting signature, or Work in progress.
 
--   **[Work on requests as a contract fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-fulfiller.md)**  
+-   **[Work on requests as a contract fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-fulfiller.md)**  
 Review and finalize a contract document according to the contract request.
--   **[Work on self-served contract requests as a contract user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-user.md)**  
+-   **[Work on self-served contract requests as a contract user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-user.md)**  
 Edit a contract request, regenerate the contract document, and send it for signature.
--   **[Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md)**  
+-   **[Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md)**  
 Add signatories to a self-served contract request when the contract is generated from a template configured with signature blocks.
--   **[Modify the signing order for signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-set-signing-order.md)**  
+-   **[Modify the signing order for signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-set-signing-order.md)**  
 Modify the order in which signatories sign a contract document that has not yet been sent for signature.
--   **[Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-sync-document.md)**  
+-   **[Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-sync-document.md)**  
 When a contract request is modified, sync the contract document for self-served requests to create revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
--   **[Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md)**  
+-   **[Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md)**  
 As a contract user or contract fulfiller, regenerate the contract document for self-served requests when the parent request has been modified.
--   **[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md)**  
+-   **[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md)**  
 As a contract user or fulfiller, update and sync signatory details when the contract submission has failed, or contract document cannot be sent due to incomplete signatory information.
--   **[Reviewing and finalizing a self-serve contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-finalize-contract.md)**  
+-   **[Reviewing and finalizing a self-serve contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-review-finalize-contract.md)**  
 Review and finalize the contract document generated after the self-serve contract request is submitted, then send it for signature.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

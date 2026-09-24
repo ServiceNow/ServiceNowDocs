@@ -2,7 +2,7 @@
 title: Enable automatic change conflict detection
 description: Automate conflict detection to run at specific intervals or when a change request is updated to immediately review the conflicts when the schedule dates are updated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_RunAutomatedConflictDetection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_RunAutomatedConflictDetection.html
 release: australia
 product: Change Management
 classification: change-management
@@ -41,7 +41,7 @@ Role required: change\_manager or admin
 
 2.  Select one of the following options.
 
-<table id="choicetable_kz3_j3d_3t"><tbody><tr><td id="d74463e112">
+<table id="choicetable_kz3_j3d_3t"><tbody><tr><td id="d74462e112">
 
 **Run conflict detection automatically after changes to Configuration item, Planned start date, Planned end date, or State when a change request is updated**
 
@@ -53,7 +53,7 @@ When selected, runs conflict detection automatically when a change to one or mor
 -   **State**
 
 
-</td></tr><tr><td id="d74463e140">
+</td></tr><tr><td id="d74462e140">
 
 **Enable the scheduled change conflict checker**
 
@@ -71,7 +71,7 @@ When selected, runs the following conflict detection scheduled jobs at these int
     You can view the conflicts on the **Conflicts** tab on the change request record.
 
 
-**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
+**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md)
 
 **Related topics**  
 

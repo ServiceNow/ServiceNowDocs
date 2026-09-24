@@ -2,11 +2,11 @@
 title: Combined Data Management for CSM release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Data Management for CSM from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-datamanagementforcsm-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-datamanagementforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 7
+last_updated: "2026-09-24"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -80,13 +80,119 @@ Configure a model category as a product instance to enable the system to synchro
 Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scoped role \( sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator role\).
 
 
+ -   **[Billing account store application](https://www.servicenow.com/docs/access?context=configuring-billing-accounts&family=zurich&ft:locale=en-US)**
+
+Install the new CSM Billing Account Core store application, which introduces a foundational data model and hierarchy for managing billing accounts. It enables you to define billing relationships, establish account hierarchies, and track financial responsibility across your organization.
+
+-   **[Sold product form](https://www.servicenow.com/docs/access?context=sold-product-form&family=zurich&ft:locale=en-US)**
+
+The following enhancements are added for the Sold Product in this release:
+
+    -   Billing Account: Enables direct reference to the associated Billing Account on the Sold Product entity within ServiceNow® CRM allowing agents to access financial information instantly during service delivery. This provides visibility into payment terms and conditions linked to the product, builds customer trust through transparent and predictable billing, and supports accurate revenue recognition for businesses.
+    -   Start and end Dates: Provides full lifecycle state‑transition support \(**In preparation, Active, Expired, Cancelled**\) with automated date‑driven updates.
+
+ -   **[Explore partial sync](https://www.servicenow.com/docs/access?context=about-partial-sync&family=zurich&ft:locale=en-US)**
+
+Synchronize only specific sections of your data structure using the new partial sync capability in the create instance flow. This enhancement introduces the `allowedContextTypes` parameter, which enables you to specify exactly which types should be processed during synchronization operations. This leads to the following benefits:
+
+    -   Improved performance: Reduction in processing time for targeted updates.
+    -   Reduced resource consumption: Lower database queries, memory usage, and network bandwidth.
+    -   Faster response times: Users experience quicker synchronization operations.
+
+ -   **Support indirect sales through Business Locations with [Opportunity Management for business location](https://www.servicenow.com/docs/access?context=opportunity-management-for-business-location&family=zurich&ft:locale=en-US).**
+
+Use the Sales Customer Relationship Management capabilities with both internal and external business organizations using Opportunity Management for business locations. Support channel sales by enabling business location staff to create and modify business opportunities and to track end-to-end life cycle of opportunities.
+
+-   **[Sales and Service API Core](https://www.servicenow.com/docs/access?context=sales-and-services-api-core&family=zurich&ft:locale=en-US) and [Lead to Cash Core](https://www.servicenow.com/docs/access?context=entity-configuration-and-mapping&family=zurich&ft:locale=en-US)**
+
+Granular admin roles introduced in Lead to Cash Core and Sales and Service API core.
+
+-   **[Granular roles in Install Base Management](https://www.servicenow.com/docs/access?context=r_rolesinstalledwithcustaccessmgmt&family=zurich&ft:locale=en-US)**
+
+Added new granular roles with the sn\_install\_base.install\_base\_admin admin role, which is installed with Customer Service Install Base Management \[com.snc.install\_base\] plugin.
+
+    -   sn\_install\_base.install\_base\_read
+    -   sn\_install\_base.install\_base\_write
+    -   sn\_install\_base.install\_base\_create
+    -   sn\_install\_base.install\_base\_delete
+    -   sn\_customerservice.customer\_data\_viewer
+    -   sn\_customerservice.case.viewer
+These roles provide you with more control over administrative tasks like read, write, create, delete, data view, and case view related to install base and sold product related entities.
+
+
+ -   **CPQ integration with MACD workflows**
+
+Introduced new data model changes to enable CPQ configurator usage for MACD workflows.
+
+
+ -   **Using [CSM Data Classification application](https://www.servicenow.com/docs/access?context=using-csm-data-classification&family=zurich&ft:locale=en-US)**
+
+Use the new CSM Data Classification \(com.snc.csm\_data\_privacy\) Store app that delivers base system classifications for CRM data, categorizing it as internal, personally identifiable information \(PII\), confidential, and more. The solution uses the ServiceNow AI Platform data privacy capabilities, such as data classification, to apply protection measures and enhance data security.
+
+-   **Support indirect sales through Business Locations with [Order Management for business location](https://www.servicenow.com/docs/access?context=order-managment-for-business-location&family=zurich&ft:locale=en-US), [Quote Management for business location](https://www.servicenow.com/docs/access?context=quote-management-for-business-location&family=zurich&ft:locale=en-US).**
+
+Use the Sales Customer Relationship Management capabilities for both internal and external business organizations to enable Order Management, and Quote Management systems for business locations. Support channel sales and indirect sales by enabling business location staff to collaborate with an enterprise in managing customer orders, quotes, and performing the following actions:
+
+    -   Permit enterprise sales agents to associate business locations as channel partners to create and fulfill customer orders and quotes.
+    -   Enable self-service order tracking for internal and external business location staff through the Business Location Service Portal to track and manage customer orders.
+    -   Support the tracking of multiple business locations for a single order or quote, either at the order line item level, order related party, quote line item level, or the quote related party.
+    -   Improve the indirect sales cycle efficiency by converting approved channel quotes into customer orders.
+
+ -   **Naming customer relationship records for [Consumer team member relationship tables](https://www.servicenow.com/docs/access?context=assign-team-member-to-consumer&family=zurich&ft:locale=en-US) and [Household team member relationship tables](https://www.servicenow.com/docs/access?context=assign-team-member-to-household&family=zurich&ft:locale=en-US)**
+
+Use the **Type** field through related party configurations to name records in the consumer team member and household team member relationship tables. This functionality enables you to label relationships based on the purpose of the association and relevant industry use cases.
+
+-   **[Migrating legacy workflow to low code](https://www.servicenow.com/docs/access?context=create-escalation-template&family=zurich&ft:locale=en-US)**
+
+Added an **Escalation Approval Flow** field to the Escalation Template \[sn\_customerservice\_escalation\_template\] table where existing customers can continue using their current escalation workflows or migrate to the new flows, depending on their customizations.
+
+As part of this update:
+
+    -   The legacy Escalation-Approval workflow has been migrated to the low-code flow designer.
+    -   The Escalation Master–Approval workflow has been converted into a business rule.
+-   **[Account address enhancements](https://www.servicenow.com/docs/access?context=account-address-access-for-contacts&family=zurich&ft:locale=en-US)**
+
+Enable contacts to access the account addresses that permit contacts to view both account-address records and the associated location information for accounts they’re authorized to access.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Configuring a contact as a consumer](https://www.servicenow.com/docs/access?context=configuring-a-contact-as-a-unified-consumer&family=australia&ft:locale=en-US)**
+-   **[External staff can resolve customer cases at their locations](https://www.servicenow.com/docs/access?context=access-limitations-for-ext-loc-customer-agent&family=australia&ft:locale=en-US)**
+
+The external location consumer agents \(having sn\_customerservice.svc\_location\_consumer\_agent and snc\_external roles\) at external organization \(formerly external business location\) can create, view, update, and close customer cases directly from the classic environment, the same way internal location staff already can. This extends consistent, timely customer service across company-owned and third-party locations.
+
+-   **[External staff can view colleague contact details at their location](https://www.servicenow.com/docs/access?context=csm-data-model-tables&family=australia&ft:locale=en-US)**
+
+An external staff member with sn\_customerservice.service\_organization\_contributor role, can view the business phone number, mobile phone number, and email address of other external staff members at their organization in the classic environment.
+
+
+ -   **[Create Return Merchandise Authorization case lines](https://www.servicenow.com/docs/access?context=create-return-merchandise-authorization-case-lines&family=australia&ft:locale=en-US)**
+
+Enable agents to initiate return requests directly from sold product records along with install base items. Return cases automatically map order and product details to the case, giving users an end-to-end visibility into their returns and reducing processing times.
+
+-   **[Proactive Customer Service Operations](https://www.servicenow.com/docs/access?context=proactive-service-operations&family=australia&ft:locale=en-US)**
+
+Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scope role \(sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator\) role.
+
+-   **[Synchronizing life-cycle values](https://www.servicenow.com/docs/access?context=cmdb-asset-CI-IBI-sync-options&family=australia&ft:locale=en-US)**
+
+Configure a model category as a product instance to enable the system to synchronize life cycle values between asset and install base item. The synchronization uses the life cycle stage and life cycle state status values.
+
+
+ -   **[Business Organization Self Contributor persona](https://www.servicenow.com/docs/access?context=csm-data-model-roles&family=australia&ft:locale=en-US)**
+
+Create and track service cases for themselves and for sold products and install base items at a business location that are assigned to them. Use the Business Organization Self Contributor \[sn\_bus\_loc.business\_org\_self\_contributor\] role. This role is available to frontline, field, and location-based workers. A new Buyer Organization Member field on the sold product and install base item lets managers associate these records with specific members.
+
+-   **[Hierarchy-scoped access for business organization members](https://www.servicenow.com/docs/access?context=csm-assign-responsibilities&family=australia&ft:locale=en-US)**
+
+Grant business organization members hierarchy-scoped access across child locations with administrator or manager-controlled exclusions using a new organization hierarchy responsibility, Organization Hierarchy Contributor \[org\_hierarchy\_contributor\]. Two new fields control the scope: Excluded Locations on the assignment, and Restricted on the business location.
+
+
+ -   **[Configuring a contact as a consumer](https://www.servicenow.com/docs/access?context=configuring-a-contact-as-a-unified-consumer&family=australia&ft:locale=en-US)**
 
 Model a single user who functions as both a contact and a consumer within your customer data structure. This capability improves administrative efficiency by reducing the overhead of creating and maintaining multiple user records for the same individual. It also provides a unified experience, eliminating the must switch logins across different personas.
 
@@ -115,6 +221,27 @@ Use scheduled jobs to update the state of the Sold product based on start and en
 Billing Account support on Sold Products to give agents immediate financial context, streamline billing‑related case resolution, and improve billing accuracy and transparency for customers and enterprises.
 
 
+ -   **[Granular administrative roles for Customer Data Foundation](https://www.servicenow.com/docs/access?context=customer-data&family=australia&ft:locale=en-US)**
+
+Implemented administrative roles that provide fine-grained access control across CDF. These roles can be assigned to administrators and other personas based on job functions and security requirements. It includes the following capabilities:
+
+    -   Added 25 admin roles with specific read, write, create, and delete permissions.
+    -   Updated Before you begin sections across all Customer Data Foundation configuration topics with role prerequisites.
+    -   Improved security compliance through role-based access segregation.
+-   **[New fields in the Customer Account table](https://www.servicenow.com/docs/access?context=customer-data&family=australia&ft:locale=en-US)**
+
+Added the following fields to the Customer Account \(customer\_account\) table to improve business identification and record management:
+
+    -   DUNS Number: Store the Data Universal Numbering System \(DUNS\) identifier for business accounts to support data enrichment and third party integrations.
+    -   Active: Indicates whether an account record is active for filtering and workflow purposes.
+-   **[Description field added Customer Data Foundation configuration tables](https://www.servicenow.com/docs/access?context=csm-cust-access-mgmt-tables&family=australia&ft:locale=en-US)**
+
+Added a Description field to the following Customer Data Foundation \(CDF\) configuration tables to capture additional details about each record:
+
+    -   Related Party Configuration \[sn\_customerservice\_related\_party\_configuration\] table
+    -   Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table
+    -   Responsibility Access Configuration \[sn\_customerservice\_responsibility\_access\_config\] table
+
 </td></tr></tbody>
 </table>## Changes
 
@@ -134,7 +261,12 @@ Zurich
 
 </td><td>
 
--   **[Entity configuration and mapping](https://www.servicenow.com/docs/access?context=entity-configuration-and-mapping&family=zurich&ft:locale=en-US)**
+-   **[Explore partial sync](https://www.servicenow.com/docs/access?context=about-partial-sync&family=zurich&ft:locale=en-US)**
+
+Partial sync processes the data sections you specify instead of the entire structure, significantly improving performance and reducing resource consumption.The partial sync enhancement includes improved error handling that provides clear, actionable error messages when mandatory fields are missing from synchronization requests.
+
+
+ -   **[Entity configuration and mapping](https://www.servicenow.com/docs/access?context=entity-configuration-and-mapping&family=zurich&ft:locale=en-US)**
 
 Gain precision in sales entity setup with three new columns in the Lead to Cash Entity Definition table: Filter Conditions, Enable Post Processing, and Post Processing Script. These columns enable targeted data filtering and post-processing logic execution.
 
@@ -143,17 +275,110 @@ Gain precision in sales entity setup with three new columns in the Lead to Cash 
 Enable service-related capabilities for business locations by activating the optional Customer Service Case Types \(sn\_csm\_case\_types\) plugin.
 
 
+ -   **[Delta price enhancements](https://www.servicenow.com/docs/access?context=sold-product-form&family=zurich&ft:locale=en-US)**
+
+The following are enhancements added in Delta pricing:
+
+    -   Added pricing fields that reference sales agreements and captures base prices on sold products to verify consistent pricing during modifications, such as quantity changes or attribute updates. New fields are added to enhance the traceability for subscription-based products.
+    -   Added columns to the Sold Product base table. Use the Split from and Split from root to track lineage during upsells, downsells, and expiration date changes ensuring accurate order management, compliance, and analytics.
+-   **[Install base data model enhancements](https://www.servicenow.com/docs/access?context=create-install-base-item&family=zurich&ft:locale=en-US)**
+
+Improve traceability and product life cycle management with the **Install Base Identifier** field on the install base form. Base install base items are mapped directly to model categories to support industry-specific product configurations.
+
+Added **Provider Service Org** field on the install base form to support tracking, recall workflows, and post-sale engagement with dealers and partners.
+
+-   **[Access control improvements](https://www.servicenow.com/docs/access?context=sold-product-form&family=zurich&ft:locale=en-US)**
+
+Provide hierarchical access to Install Base items for location managers and staff to manage assets sold by or associated with their service organizations.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Enhancements to the declarative responsibility framework](https://www.servicenow.com/docs/access?context=declarative-resposibility-framework&family=zurich&ft:locale=en-US)**
+
+Introduced several key improvements to enhance the flexibility and usability of the declarative responsibility framework:
+
+    -   Enabled responsibility access configurations to support more granular access control.
+    -   Updated the data model by adding new fields and renaming select field labels for improved clarity.
+    -   Refreshed associated forms and lists to reflect the latest framework updates.
+-   **[Updated account manager responsibility access configuration](https://www.servicenow.com/docs/access?context=list-of-reponsibilities-provided-with-base-system&family=zurich&ft:locale=en-US)**
+
+Enhanced access configurations for account manager responsibilities by creating a unified entity that defines access based on record and role for more consistent and streamlined access control.
+
+-   **[Managing account addresses](https://www.servicenow.com/docs/access?context=associate-address-account&family=zurich&ft:locale=en-US)**
+
+Manage account addresses by associating locations with accounts where the Update access is granted to confirm tracking of address information and support account management.
+
+-   **[Updating location records associated with account](https://www.servicenow.com/docs/access?context=delete-address-location-form&family=zurich&ft:locale=en-US)**
+
+Restricts users from updating a shared location record unless they have the Update access to all associated accounts, confirming location details can only be modified with the necessary permissions across every linked account.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Renamed entities](https://www.servicenow.com/docs/access?context=renamed-entities&family=australia&ft:locale=en-US)**
+-   **[Modify action limited to parent sold products](https://www.servicenow.com/docs/access?context=modify-a-sold-product&family=australia&ft:locale=en-US)**
+
+Perform the **Modify** action for only root sold products.The **Modify** action is inactive for child sold products across the list view, detail view, and hierarchical list.
+
+
+ -   **[Renamed entities](https://www.servicenow.com/docs/access?context=renamed-entities&family=australia&ft:locale=en-US)**
 
 Renamed Service Model Foundation entities to improve clarity and maintain consistency across the platform. Review your existing configurations, scripts, or integrations that reference these entities and update them accordingly.
 
 **Note:** The entity name changes are available in the Business Location 5.2.0 store app.
+
+
+ -   **[Household plugin migration to ServiceNow Store](https://www.servicenow.com/docs/access?context=activate-customer-service-household&family=australia&ft:locale=en-US)**
+
+Starting with the Australia release, the Household family plugin \(com.snc.household\) has been migrated to the ServiceNow Store as a standalone application. Any new enhancements to this application are delivered through the Household store app. This change provides improved packaging, versioning, and deployment flexibility for B2C implementations that require household relationship management.
+
+
+ -   **[Customer Life Cycle Management Workflows](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&family=australia&ft:locale=en-US)**
+
+Added core primitives to support price and quantity ramps, enabling flexible, time‑based changes across the sold product lifecycle. The feature delivers scalable pricing aligned with usage, simplifies post-sale workflows, and improves revenue forecasting without custom scripts.
+
+-   **[Sold product form](https://www.servicenow.com/docs/access?context=sold-product-form&family=australia&ft:locale=en-US)**
+
+Create future‑dated subscription products in a **Pending Activation** state to improve the Add‑Order‑to‑Sold‑Product process. It also ensures lifecycle accuracy, predictable billing, and fair access for customers while improving revenue recognition for businesses.
+
+
+ -   **[Enhanced Customer Data Viewer role](https://www.servicenow.com/docs/access?context=business-stakeholder-for-csm&family=australia&ft:locale=en-US)**
+
+The Customer Data Viewer \(sn\_customerservice.customer\_data\_viewer\) role includes expanded access to additional data tables and menu items. These enhancements enable users to view a broader range of customer data while maintaining read-only access restrictions. With this enhancement, you can:
+
+    -   Extend access to additional tables for the customer data viewer role
+        -   Inherit household role in customer data viewer role
+    -   Explore additional menu items now accessible to the customer data viewer role.
+
+ -   **[Guided setup access for granular admin roles](https://www.servicenow.com/docs/access?context=import-csm-accounts&family=australia&ft:locale=en-US)**
+
+Access to foundation data steps in guided setup now aligns with CDF admin roles. This access change enables administrators to delegate specific configuration tasks to users based on their assigned roles, providing greater flexibility in managing setup responsibilities.
+
+-   **[Extensible account code support](https://www.servicenow.com/docs/access?context=csm-account-code-account-path&family=australia&ft:locale=en-US)**
+
+Updated the account code generation logic to support dynamic length scalability. Account codes now automatically expand from 4 digits to 5 or more as needed, ensuring unlimited account growth without manual intervention. Administrators can resolve invalid insert errors by clearing the system property to regenerate codes based on the maximum existing code.
+
+-   **[Declarative Responsibility Framework enhancements](https://www.servicenow.com/docs/access?context=declarative-resposibility-framework&family=australia&ft:locale=en-US)**
+
+Introduced usability and functional enhancements to the Customer Access Management \(CAM\) Declarative Responsibility Framework. These updates streamline access configuration management and improve flexibility for responsibility definitions. With this enhancement, you can now:
+
+    -   Import or copy access configurations from one responsibility definition to another.
+    -   Manage CAM-related assets through improved cleanup capabilities.
+    -   Reference any field name in the Responsibility Definition field configuration.
+-   **[Unified User configuration enhancements](https://www.servicenow.com/docs/access?context=configuring-unified-user&family=australia&ft:locale=en-US)**
+
+Added a system property \(sn\_customerservice.consumer.allowed\_user\_types\) to enhance unified user management. This property specifies which user types \(classes\) can be associated with consumers.
+
+-   **[Configuring billing accounts](https://www.servicenow.com/docs/access?context=configuring-billing-accounts&family=australia&ft:locale=en-US)**
+
+Visualize a billing account's hierarchy directly from the account, making large parent-and-child account structures easier to navigate. The default view now adapts to the billing account type. The **Billing account type** field is populated automatically from the source customer to reduce manual setup and keep records consistent.
 
 
 </td></tr></tbody>
@@ -258,6 +483,8 @@ For details, see [Configure Install base](https://www.servicenow.com/docs/access
 Starting from the Yokohama release, the Business Location plugin \(com.snc.business\_location\) is available on the ServiceNow Store. For details, see [Activate business locations](https://www.servicenow.com/docs/access?context=activate-business-location&family=zurich&ft:locale=en-US).
 
 
+**Important:** Business Location and Install Base Management are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -272,6 +499,8 @@ Additional CSM features are available with the activation of other plugins. For 
 
 Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Explore](https://www.servicenow.com/docs/access?context=som-exploring&family=australia&ft:locale=en-US).
 
+
+**Important:** Business Location and Install Base Management are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -442,5 +671,5 @@ Australia
  See [Data management](https://www.servicenow.com/docs/access?context=csm-data-management&family=australia&ft:locale=en-US) feature for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

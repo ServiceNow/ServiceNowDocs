@@ -2,7 +2,7 @@
 title: Generate LEAP playbooks
 description: Create standard, dynamic, and automated playbooks using LEAP to promote fast incident resolution and response time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

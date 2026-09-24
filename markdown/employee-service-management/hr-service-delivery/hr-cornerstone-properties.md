@@ -2,7 +2,7 @@
 title: Source for HR Service Delivery Integration with Cornerstone OnDemand
 description: Once you set up the HR Service Delivery Integration with Cornerstone OnDemand application, the source record for Cornerstone On Demand application is automatically created in Enterprise Service Management Integrations Framework, Source module. The Cornerstone OnDemand source record in the in Enterprise Service Management Integrations Framework application contains a predefined set of properties and HR Integration Services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-cornerstone-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-cornerstone-properties.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,10 +50,10 @@ url-prefix
 
 </td><td>
 
-Deep link prefix to pull learning objects from the Cornerstone OnDemand system during run time. For more information, see [Use deep link for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/generate-deep-link-cor.md).
+Deep link prefix to pull learning objects from the Cornerstone OnDemand system during run time. For more information, see [Use deep link for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/generate-deep-link-cor.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-ondemand.md)
+</table>**Parent Topic:**[Reference for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-ondemand.md)
 
 **Related topics**  
 

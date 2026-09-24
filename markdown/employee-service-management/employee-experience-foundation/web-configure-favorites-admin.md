@@ -2,7 +2,7 @@
 title: Configure favorites option
 description: Configure the favorites option to help employees personalize the content and easily access the content they frequently use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/web-configure-favorites-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/web-configure-favorites-admin.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -76,7 +76,7 @@ Order
 
 </td><td>
 
-Order in which you want the favorites content to appear.**Note:** The order in the favorite content configuration table doesn’t determine the sequence in which content types appear on the navigation of the Browse favorites section of the ESC portal. See [Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md).
+Order in which you want the favorites content to appear.**Note:** The order in the favorite content configuration table doesn’t determine the sequence in which content types appear on the navigation of the Browse favorites section of the ESC portal. See [Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md).
 
 </td></tr><tr><td>
 
@@ -143,5 +143,5 @@ Here's a sample illustration of how the configuration looks on the **Favorites**
 
 \[Omitted image "z-ec-favorites-card.png"\] Alt text: Primary and secondary field to display for Favorites
 
-For more information on how Favorites appear, see [Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md).
+For more information on how Favorites appear, see [Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md).
 

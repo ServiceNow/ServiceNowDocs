@@ -2,7 +2,7 @@
 title: Debug an automated test using breakpoints
 description: Pause a test to troubleshoot failures or unexpected behavior by adding a breakpoint for a particular test step.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-breakpoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-breakpoint.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -63,5 +63,5 @@ Role required: admin
     -   Continue: Test execution continues until the next breakpoint.
     -   Step over: Test pauses at every step. If you don’t want to pause in the current step, select the Step over option to jump to the next step.
 
-**Parent Topic:**[Implementing breakpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-breakpoints-rollback.md)
+**Parent Topic:**[Implementing breakpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-breakpoints-rollback.md)
 

@@ -2,7 +2,7 @@
 title: View entry requests
 description: Filter the list of entry requests that were completed to evaluate different areas of your return to work progress. Entry requests are the records submitted by the health screener for each employee who is screened before entry.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/view-entry-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/view-entry-requests.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -33,5 +33,5 @@ For example, you could see records for employees in San Diego who were not grant
 2.  To evaluate request for entry data, build a query or sort and group the list by the appropriate columns.
 
 
-**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/employee-health-screening.md)
 

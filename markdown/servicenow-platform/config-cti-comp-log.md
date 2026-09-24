@@ -2,7 +2,7 @@
 title: Configuring CTI component logging
 description: Configure CTI component logging to enable component logging to the system logs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/config-cti-comp-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/config-cti-comp-log.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -77,5 +77,5 @@ cti_core:: P:c4bae70xxxxf6a9a|C:bxxxx44|T:793cxxxx7b|O:6fb1xxxx4006dabb45vc::CTX
 -   T: Transformer
 -   O: Operation handler
 
-**Parent Topic:**[Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-setup.md)
+**Parent Topic:**[Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/ccc-setup.md)
 

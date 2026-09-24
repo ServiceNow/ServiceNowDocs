@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
 description: If you have the admin role, you can configure the implementation for the ServiceNow Otto for CWM application. This lets your team members utilize generative AI skills in the CWM workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -52,7 +52,7 @@ Use the AI Admin Hub console to activate the following skills of ServiceNow Otto
 
 4.  Review the skill configuration settings from the following sections.
 
-    To edit the inputs, switch your application scope to **ServiceNow Otto for Collaborative Work Management \(CWM\)**. For more information on these inputs, see [Skill inputs for ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/skill-inputs-now-assist-for-cwm.md).
+    To edit the inputs, switch your application scope to **ServiceNow Otto for Collaborative Work Management \(CWM\)**. For more information on these inputs, see [Skill inputs for ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/skill-inputs-now-assist-for-cwm.md).
 
     **Note:** The display options are available based on the skill.
 
@@ -88,5 +88,5 @@ If you have custom roles that require access to a skill, update the ACLs for tho
 **Related topics**  
 
 
-[Skill inputs for ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/skill-inputs-now-assist-for-cwm.md)
+[Skill inputs for ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/skill-inputs-now-assist-for-cwm.md)
 

@@ -2,7 +2,7 @@
 title: Debugging applications
 description: Application developers can display debug messages about configuration records to help them troubleshoot issues. The Debug Scopes module provides information about the system switching between custom applications to run server-side scripts.Application developers can use the Debug Scopes module to display information about when the system switches between custom applications to run server-side scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_DebuggingApplications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_DebuggingApplications.html
 release: australia
 product: Scripts
 classification: scripts
@@ -30,7 +30,7 @@ When multiple applications contribute to the debug output, the system adds a new
 
 \[Omitted image "DebuggingApplicationBusinessRules.png"\] Alt text:
 
-**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debug-overview.md)
+**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debug-overview.md)
 
 ## Debugging scopes
 

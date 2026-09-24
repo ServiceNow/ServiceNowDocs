@@ -2,7 +2,7 @@
 title: Adaptive authentication
 description: Use the Adaptive authentication policy framework to enforce contextual authentication controls to the right users at the right time. Adaptive authentication uses authentication policies to evaluate authentication requests and then either deny or allow access to your instance based on the specified policy conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/adaptive-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/adaptive-authentication.html
 release: australia
 product: Authentication
 classification: authentication
@@ -30,24 +30,24 @@ To set a custom message in the language of your instance you need to add key, va
 
     Authentication policies evaluate authentication requests based on the specified policy conditions and either allow or deny access depending on the output of policy conditions evaluation. For example, access is allowed only if all the policy conditions specified in **Allow Access Policy** evaluate to true.
 
-    Authentication policies use information provided by filter criteria to compare against the policy's conditions to determine whether to grant access to the instance. For example, a filter criteria provides a user's IP address, and a policy condition determines whether this address is within the specific range before granting access. Learn more about authentication policies in [Authentication policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-policies.md).
+    Authentication policies use information provided by filter criteria to compare against the policy's conditions to determine whether to grant access to the instance. For example, a filter criteria provides a user's IP address, and a policy condition determines whether this address is within the specific range before granting access. Learn more about authentication policies in [Authentication policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/authentication-policies.md).
 
 -   **Authentication policy contexts**
 
-    Authentication policy contexts define how and when policies are enforced during the login process. The pre-authentication context executes before the user is shown a login screen. The post-authentication context executes after the user enters their credentials. To use a policy, it must be assigned to a policy context. For details on these contexts, see [Authentication policy contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/auth-policy-contexts.md).
+    Authentication policy contexts define how and when policies are enforced during the login process. The pre-authentication context executes before the user is shown a login screen. The post-authentication context executes after the user enters their credentials. To use a policy, it must be assigned to a policy context. For details on these contexts, see [Authentication policy contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/auth-policy-contexts.md).
 
 -   **Filter Criteria**
 
-    Filter criteria \(also called policy inputs\) are used as inputs for policy conditions. Policy conditions use these inputs to verify and meet the requirements of authentication requests. These inputs provide information like user role, IP range, and identity provider. For more detail on filter criteria, see [Filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-auth-filter-criteria.md).
+    Filter criteria \(also called policy inputs\) are used as inputs for policy conditions. Policy conditions use these inputs to verify and meet the requirements of authentication requests. These inputs provide information like user role, IP range, and identity provider. For more detail on filter criteria, see [Filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-auth-filter-criteria.md).
 
 -   **Authentication properties**
 
-    Use authentication properties to control whether adaptive authentication is active on your instance. You can also use properties to enabled debugging, and define the messaging users see when access is blocked. For details on these properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-adaptive-auth-properties.md).
+    Use authentication properties to control whether adaptive authentication is active on your instance. You can also use properties to enabled debugging, and define the messaging users see when access is blocked. For details on these properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-adaptive-auth-properties.md).
 
 
 ## REST API access policies
 
-You can use the filter criteria of adaptive authentication framework to restrict access to inbound ServiceNow REST APIs. For more information, see [REST API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/inbound-authentication-profile.md).
+You can use the filter criteria of adaptive authentication framework to restrict access to inbound ServiceNow REST APIs. For more information, see [REST API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/inbound-authentication-profile.md).
 
 ## Domain separation and adaptive authentication
 
@@ -55,5 +55,5 @@ Adaptive authentication is supported on domain separated instances on the authen
 
 ## Adaptive Authentication Events
 
-You can use the adaptive authentication events table to know about the events that have occurred specific to the adaptive authentication feature. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-events.md).
+You can use the adaptive authentication events table to know about the events that have occurred specific to the adaptive authentication feature. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-authentication-events.md).
 

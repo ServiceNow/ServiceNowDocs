@@ -2,7 +2,7 @@
 title: Working with the document templates
 description: Document Templates define how architectural documents are generated from diagrams and architectural artifacts in Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/document-templates-for-ea.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/document-templates-for-ea.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,17 +23,17 @@ Document Templates are available in two places:
 -   Setup page- In the Setup page, the Document Templates section displays the list of templates available for creating documents. Admins can create and manage these templates.
 -   Template Centre- Displays the list of available templates, when you select **Create a document** from a diagram.
 
--   **[View all document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-document-templates.md)**  
+-   **[View all document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/view-document-templates.md)**  
 View the list of templates available to create documents in the Enterprise Architecture Workspace.
--   **[Create a document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-manage-doc-templates.md)**  
+-   **[Create a document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/create-manage-doc-templates.md)**  
 Create a document template to define how architectural documents are generated from diagrams and architectural artifacts in Enterprise Architecture Workspace.
--   **[Export document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/export-document-templates.md)**  
+-   **[Export document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/export-document-templates.md)**  
 Download document templates in the required file format.
 
-**Parent Topic:**[Working with the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-setup-page.md)
+**Parent Topic:**[Working with the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-setup-page.md)
 
 **Related topics**  
 
 
-[View all document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-document-templates.md)
+[View all document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/view-document-templates.md)
 

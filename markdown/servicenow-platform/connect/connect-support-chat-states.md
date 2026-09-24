@@ -2,7 +2,7 @@
 title: Connect Support chat states
 description: Connect Support chats move through specific states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/connect-support-chat-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/connect-support-chat-states.html
 release: australia
 product: Connect
 classification: connect

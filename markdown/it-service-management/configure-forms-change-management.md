@@ -2,10 +2,10 @@
 title: Configure forms for Simplified Change Management
 description: Review and configure the change forms that IT fulfiller staff use to create and manage changes. Use the Form Builder to customize form layouts, fields, and sections to match your organization's change processes.
 locale: en-us
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-forms-change-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configure-forms-change-management.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [Change Management, forms configuration, form customization, Change Request, Form Builder]
 breadcrumb: [Configuring Simplified Change Management, Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
@@ -53,5 +53,5 @@ Pre-configured forms are available by default and helps fulfiller staff plan, ap
 
 You have reviewed and configured the change form experience used by your IT fulfiller staff.
 
-**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
+**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/configuring-change-management-experience-in-it-service-management.md)
 

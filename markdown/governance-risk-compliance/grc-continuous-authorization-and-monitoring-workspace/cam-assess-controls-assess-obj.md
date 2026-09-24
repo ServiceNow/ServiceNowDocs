@@ -2,7 +2,7 @@
 title: Generate assessment procedure plans for a test plan
 description: Use the test plan that is automatically generated for a control, which is in an assess state, to view and determine if the control is assessed in accordance with the assessment procedure plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assess-controls-assess-obj.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assess-controls-assess-obj.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -54,8 +54,8 @@ Assessment procedure plans are generated for the test plan of a control based on
 
 8.  To view the control tests that are generated to assess the control, navigate to the Controls tests related list of the Engagement form.
 
-    See [RMF steps 4, 5, and 6 - Assess, authorize, and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.md).
+    See [RMF steps 4, 5, and 6 - Assess, authorize, and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.md).
 
 
-**Parent Topic:**[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
+**Parent Topic:**[Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
 

@@ -2,7 +2,7 @@
 title: Location Policy form
 description: Use the location policy form to assign a visitor policy to a workplace location, apply the policy to internal/external visitors and configure whether the policies require signatures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/location-policy-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/location-policy-form.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -18,7 +18,7 @@ Use the location policy form to assign a visitor policy to a workplace location,
 
 **Warning:** This topic is only applicable for Workplace Visitor Management version 1.19 or earlier.
 
-In Workplace Visitor Management version 2.0.0 or later, you must create a visit requirement and attach the policy in the Acknowledgment tab. For more information, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
+In Workplace Visitor Management version 2.0.0 or later, you must create a visit requirement and attach the policy in the Acknowledgment tab. For more information, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
 
 |Field|Description|
 |-----|-----------|
@@ -30,7 +30,7 @@ In Workplace Visitor Management version 2.0.0 or later, you must create a visit 
 |Required for external|Option to enable the policy for external visitors.|
 |Require signature for external|Option to enable signatures for external visitors to acknowledge the policy. The visitor signature is stored in the visitor policy confirmation record.|
 
-**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure agent presence states
 description: Create or modify the availability states that agents use to indicate whether they can receive work or are offline or away. Agents set these states in their Workspace Inbox.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

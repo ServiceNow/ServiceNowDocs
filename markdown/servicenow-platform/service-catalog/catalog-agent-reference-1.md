@@ -2,7 +2,7 @@
 title: Catalog Agent
 description: Use this reference to understand the Catalog Agent capabilities, supported request types, constraints, and key considerations when deploying conversational catalog requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-agent-reference-1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/catalog-agent-reference-1.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -16,8 +16,8 @@ breadcrumb: [Conversational Catalog Requests reference, Conversational Catalog R
 
 Use this reference to understand the Catalog Agent capabilities, supported request types, constraints, and key considerations when deploying conversational catalog requests.
 
--   **[Catalog Agent conversational status conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-conv-limitations.md)**  
+-   **[Catalog Agent conversational status conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-conv-limitations.md)**  
 Conditions that determine whether a catalog item can deliver a fully conversational experience in the Premium chat interface.
 
-**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-agent-reference.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-agent-reference.md)
 

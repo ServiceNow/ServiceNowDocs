@@ -2,7 +2,7 @@
 title: Configure language detection
 description: Activate the required plugins and flows to use the language detection feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-language-detection-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-language-detection-configure.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Ensure that your instance is set up for Predictive Intelligence \(PI\).
 Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see:
 
 -   [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)
--   [Machine learning solutions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/machine-learning-csm.md)
+-   [Machine learning solutions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/machine-learning-csm.md)
 
 </td></tr><tr><td>
 
@@ -69,5 +69,5 @@ To activate the translator:1.  Navigate to **Dynamic Translation** &gt; **Transl
 </table>**Related topics**  
 
 
-[Language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-language-detection.md)
+[Language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-language-detection.md)
 

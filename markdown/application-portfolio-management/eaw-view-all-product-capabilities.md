@@ -2,7 +2,7 @@
 title: View all product capabilities
 description: You can view the list of product capabilities for your application portfolio, in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-product-capabilities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-view-all-product-capabilities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,10 +29,10 @@ Role required: sn\_apm.apm\_user
 4.  Select **Product Capabilities**.
 
 
-**Parent Topic:**[Working with product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-working-with-product-capabilities.md)
+**Parent Topic:**[Working with product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-with-product-capabilities.md)
 
 **Related topics**  
 
 
-[Exploring product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-product-capabilities.md)
+[Exploring product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-exploring-product-capabilities.md)
 

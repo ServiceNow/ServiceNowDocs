@@ -2,7 +2,7 @@
 title: Jumpstart Your Predictive Intelligence
 description: The Jumpstart Your Predictive Intelligence \(PI\) Accelerator provides a demonstration of the possibilities and capabilities of Predictive Intelligence and the clustering framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-predictive-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-predictive-intelligence.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

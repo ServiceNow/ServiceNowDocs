@@ -2,7 +2,7 @@
 title: Build Agent in ServiceNow Studio
 description: Use Build Agent, an autonomous AI agent, to create and update applications in ServiceNow Studio through conversational interaction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -16,7 +16,7 @@ breadcrumb: [Use, ServiceNow Studio, Developing your application, Building appli
 
 Use Build Agent, an autonomous AI agent, to create and update applications in ServiceNow Studio through conversational interaction.
 
-For full documentation on Build Agent, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md). To learn how to develop an application using Build Agent, see [ServiceNow Studio and Build Agent tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-ba-tutorial-landing.md).
+For full documentation on Build Agent, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md). To learn how to develop an application using Build Agent, see [ServiceNow Studio and Build Agent tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-ba-tutorial-landing.md).
 
 ## How does the Build Agent workflow work?
 
@@ -29,7 +29,7 @@ Use Build Agent in ServiceNow Studio by following these steps.
 5.  Deploy the app through update sets, pipelines, or the Application Repository.
 6.  Reopen the conversation at any time to make further updates.
 
-For more information, see [Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md).
+For more information, see [Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agent-landing.md).
 
 ## What can Build Agent do in ServiceNow Studio?
 
@@ -44,7 +44,7 @@ Use Build Agent in ServiceNow Studio to complete the following tasks.
 
 Deploy apps created using Build Agent using update sets, pipelines, or the Application Repository — the same process as any other app.
 
-For more information, see [Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md), [Pipelines in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-pipelines-servicenow-studio.md), and [Application Repository in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-the-app-repo-in-servicenow-studio.md).
+For more information, see [Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md), [Pipelines in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-pipelines-servicenow-studio.md), and [Application Repository in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-the-app-repo-in-servicenow-studio.md).
 
 ## Build Agent chat panel
 
@@ -56,12 +56,12 @@ Continue your conversation in the chat panel until you're happy with the results
 
 For more information, see the following topics:
 
--   [Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-a-new-application-using-build-agent.md)
--   [Edit an existing application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-an-existing-application-using-build-agent.md)
--   [Creating or updating an app file with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creating-or-updating-an-app-file.md)
--   [Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/revert-app-changes-using-build-agent.md)
--   [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md)
--   [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-example-prompts.md)
+-   [Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-a-new-application-using-build-agent.md)
+-   [Edit an existing application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/edit-an-existing-application-using-build-agent.md)
+-   [Creating or updating an app file with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creating-or-updating-an-app-file.md)
+-   [Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/revert-app-changes-using-build-agent.md)
+-   [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-conversational-change-log.md)
+-   [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-example-prompts.md)
 
 <table id="table_x2g_4c2_m3c"><thead><tr><th>
 
@@ -96,5 +96,5 @@ Checkpoints icon \[Omitted image "sn-studio-ba-checkpoint-icon.png"\] Alt text:
 See a list of all the checkpoints within your current chat with Build Agent.Checkpoints show all the progress points in your application. You can revert to any of these checkpoints during the course of developing your app.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/using-servicenow-studio.md)
+</table>**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 

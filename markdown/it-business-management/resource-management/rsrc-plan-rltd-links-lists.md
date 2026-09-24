@@ -2,7 +2,7 @@
 title: Resource Plan related links and lists
 description: Use the resource plan related links and list to clone the resource plan details. You can also view resource workbench, update cost plans, recalculate resource costs, or modify the request allocations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rsrc-plan-rltd-links-lists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/rsrc-plan-rltd-links-lists.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -38,9 +38,9 @@ Update Cost Plan
 
 </td><td>
 
-If you're using Project Portfolio Management, resource plans automatically create cost plans for a [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md) or [demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateADemandCostPlan.md).
+If you're using Project Portfolio Management, resource plans automatically create cost plans for a [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectCostPlan.md) or [demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreateADemandCostPlan.md).
 
- Whenever you update the resource plan, click **Update Cost Plan** to [keep the cost plan up-to-date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_UpdateRelatedCostPlan.md).
+ Whenever you update the resource plan, click **Update Cost Plan** to [keep the cost plan up-to-date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_UpdateRelatedCostPlan.md).
 
 **Note:** The cost plan associated to a resource plan is also automatically updated when the resource plan is updated.
 
@@ -50,7 +50,7 @@ Recalculate Resource Cost
 
 </td><td>
 
-[Recalculates the resource costs of the resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/recalculate-resource-costs.md) whenever the hourly rates change in the rate model to keep the costs up-to-date.
+[Recalculates the resource costs of the resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/recalculate-resource-costs.md) whenever the hourly rates change in the rate model to keep the costs up-to-date.
 
 </td></tr></tbody>
 </table><table id="table_yrz_hs1_mcc"><thead><tr><th>
@@ -67,7 +67,7 @@ Requested Allocations
 
 </td><td>
 
-List of [requested allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/request-allocation.md) for the resource plan.The number of requested allocation records created depends on the value of the **Allocation type** field. For example, if a resource is requested from January 1 to March 31, the following requested allocation records are created for each type:
+List of [requested allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/request-allocation.md) for the resource plan.The number of requested allocation records created depends on the value of the **Allocation type** field. For example, if a resource is requested from January 1 to March 31, the following requested allocation records are created for each type:
 
  -   **Monthly**: 3 allocation records, one for each month.
 -   **Weekly**: 14 allocation records, one for each week with Monday being the first day of the week.
@@ -79,7 +79,7 @@ Resource Allocations
 
 </td><td>
 
-List of [resources allocated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md) to the plan.
+List of [resources allocated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/r_AllocatingResources.md) to the plan.
 
 </td></tr><tr><td>
 
@@ -90,5 +90,5 @@ Resource Plan Logs
 Lists any error or warnings that might occur during resource allocation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

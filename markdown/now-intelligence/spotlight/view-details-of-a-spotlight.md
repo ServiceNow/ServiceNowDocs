@@ -2,7 +2,7 @@
 title: See Spotlight score details
 description: To see the criteria whose weights contributed to a Spotlight score, view the details of the Spotlight record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/view-details-of-a-spotlight.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/spotlight/view-details-of-a-spotlight.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -51,5 +51,5 @@ Opening the Spotlight record, you see that the following criteria weights contri
 |Incidents older than 90 days|25|
 |TOTAL SCORE:|1,200|
 
-**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight.md)
 

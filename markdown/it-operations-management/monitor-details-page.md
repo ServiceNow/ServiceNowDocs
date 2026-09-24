@@ -2,7 +2,7 @@
 title: Details page of a synthetic monitor
 description: Use the details page of a synthetic monitor to view test results, monitor status, and configuration settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/monitor-details-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/monitor-details-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-19"
@@ -78,7 +78,7 @@ The **Overview** tab provides an aggregated view of all the tests that the monit
 
 ## Details tab
 
-You can use the **Details** tab to create a monitor or edit an existing one. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md) for more information.
+You can use the **Details** tab to create a monitor or edit an existing one. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-synthetic-monitor.md) for more information.
 
-**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-reference.md)
+**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/synthetic-monitoring-reference.md)
 

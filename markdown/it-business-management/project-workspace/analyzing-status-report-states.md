@@ -2,7 +2,7 @@
 title: Draft and Published status for status reports
 description: Status reports in Project Workspace use Draft and Published status to help project managers track where a report is in their own process. These visibility labels for your project team don't send, share, or restrict the report.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/analyzing-status-report-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/analyzing-status-report-states.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -48,5 +48,5 @@ The project list view includes an AI Project health analysis column that reflect
 -   When you publish an AI status report, its health analysis rolls up to the project level and appears in this column.
 -   When you publish a standard \(non-AI\) status report, the column is cleared because a standard report contains no AI health analysis to roll up.
 
-**Parent Topic:**[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
+**Parent Topic:**[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Product Catalog Search API
 description: The Product Catalog Search API searches the product catalog and retrieves the eligible catalog-category hierarchy for a given context. Search supports multiple catalog types, with paginated and sortable results.Searches the product catalog and returns a paginated list of products that match the supplied search parameters.Retrieves the product catalog-category hierarchy filtered by eligibility rules. Resolves the input header context request object \(currency, pricelist, address, etc.\), and applies eligibility encoded queries to filter out ineligible catalogs/categories to construct the tree.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/product-catalog-search-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/product-catalog-search-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -28,7 +28,7 @@ The Product Catalog Search API provides the ability to:
 
 This API delegates all data retrieval to the existing script include, ensuring consistent behavior between the UI and the REST interface. Endpoints are independent and can be called individually. There is no required call order and no dependency on other APIs.
 
-The REST API wraps the JavaScript API [CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md).
+The REST API wraps the JavaScript API [CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md).
 
 ## Requirements
 
@@ -38,7 +38,7 @@ This API is provided within the `sn_prd_pm` namespace and requires the Product C
 
 The calling user must have the sn\_prd\_pm.product\_catalog\_viewer or sn\_prd\_pm.external\_product\_viewer roles.
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## Product Catalog Search - POST /api/sn\_prd\_pm/catalog/search
 
@@ -408,7 +408,7 @@ Default: descending
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -422,7 +422,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1398,7 +1398,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1412,7 +1412,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

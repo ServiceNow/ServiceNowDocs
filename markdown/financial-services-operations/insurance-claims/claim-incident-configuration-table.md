@@ -2,7 +2,7 @@
 title: Claim Incident Configuration table
 description: Associate the service definition of a case with the incident and adjuster task service definitions by using the Claim Incident Configuration \[sn\_ins\_claim\_incident\_config\] table in the Insurance claims application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/claim-incident-configuration-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/claim-incident-configuration-table.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -58,7 +58,7 @@ Adjuster task service definition
 
 </td><td>
 
-Adjuster task service definition \(that is, a service definition that creates an adjuster task in a claim\). For more information, see [Create a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/create-a-service-definition-for-insurance-claims.md).
+Adjuster task service definition \(that is, a service definition that creates an adjuster task in a claim\). For more information, see [Create a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/create-a-service-definition-for-insurance-claims.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Incident table name
 
 </td><td>
 
-Table in which the incidents are stored. For more information, see [Claim incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/claim-incidents.md).
+Table in which the incidents are stored. For more information, see [Claim incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/claim-incidents.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Service definition
 
 </td><td>
 
-Service definition for the case \(for example, Report travel claim\). For more information, see [Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md).
+Service definition for the case \(for example, Report travel claim\). For more information, see [Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md).
 
 </td></tr><tr><td>
 

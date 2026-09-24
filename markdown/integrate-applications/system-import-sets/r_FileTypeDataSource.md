@@ -2,7 +2,7 @@
 title: File type data sources
 description: Import a file from a local source, a remote network server, or another instance by providing a path and authentication information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_FileTypeDataSource.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/r\_FileTypeDataSource.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

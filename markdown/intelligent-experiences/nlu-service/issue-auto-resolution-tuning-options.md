@@ -2,7 +2,7 @@
 title: Issue Auto Resolution tuning options
 description: When you are tuning your Issue Auto Resolution model in NLU Workbench, you can adjust the output for several goals: precision, automation, or a balance of the two. Compare how your choice of tuning options affect match rate and coverage, before committing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-options.html
 release: australia
 product: NLU Service
 classification: nlu-service

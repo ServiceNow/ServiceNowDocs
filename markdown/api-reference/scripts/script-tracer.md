@@ -2,7 +2,7 @@
 title: Script Tracer and debugging scripts
 description: The Script Tracer can help you filter your debugging search to quickly narrow down script problems. You can identify lines of scripts in the Glide record that have undergone change during execution. Finding those specific lines of scripts rather than doing a wide search helps save time and improves productivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/script-tracer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/script-tracer.html
 release: australia
 product: Scripts
 classification: scripts
@@ -52,7 +52,7 @@ You may want to set a limit for your trace so that you don't generate too many r
 
 Since each trace you run is new, make sure you're finished reading the results of one trace before clearing it and beginning another one.
 
-To learn more, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debug-overview.md).
+To learn more, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debug-overview.md).
 
-**Parent Topic:**[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/parts-script-debugger-interface.md)
+**Parent Topic:**[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/parts-script-debugger-interface.md)
 

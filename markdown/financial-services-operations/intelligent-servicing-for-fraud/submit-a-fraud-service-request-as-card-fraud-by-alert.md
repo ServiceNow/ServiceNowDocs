@@ -2,7 +2,7 @@
 title: Submit a fraud case request
 description: Collect all required information and documents from the customer and submit the fraud case request to the back-office agents so that you can begin the fulfillment process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/submit-a-fraud-service-request-as-card-fraud-by-alert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/intelligent-servicing-for-fraud/submit-a-fraud-service-request-as-card-fraud-by-alert.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud

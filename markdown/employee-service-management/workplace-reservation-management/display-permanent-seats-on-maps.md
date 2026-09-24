@@ -2,7 +2,7 @@
 title: Display permanent seat assignments on floor maps
 description: Display permanent space assignments along with employee names on maps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -106,7 +106,7 @@ Role required: admin
 
     2.  Complete the steps for a move request.
 
-        For more information, see [Raise a move request for a space change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-desk-change.md).
+        For more information, see [Raise a move request for a space change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-desk-change.md).
 
     3.  Select the **Find the space on a floor map** link.
 
@@ -124,7 +124,7 @@ Role required: admin
 
     2.  Complete the steps for ordering furniture or equipment.
 
-        For more information, see [Request furniture for a space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-furniture.md).
+        For more information, see [Request furniture for a space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-furniture.md).
 
     3.  Select the **Find the space on a floor map** link.
 
@@ -142,7 +142,7 @@ Role required: admin
 
     2.  Complete the steps for submitting a general workplace service request.
 
-        For more information, see [Raise help request for a workplace inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/submit-gen-workplace-serv-req.md).
+        For more information, see [Raise help request for a workplace inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/submit-gen-workplace-serv-req.md).
 
     3.  Select the **Find the space on a floor map** link.
 
@@ -162,7 +162,7 @@ Role required: admin
 
     2.  To make a reservation, enter the required information.
 
-        For more information, see [Set a location as favorite using the Space details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/set-a-location-as-favorite.md).
+        For more information, see [Set a location as favorite using the Space details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/set-a-location-as-favorite.md).
 
     3.  Select **Map view**.
 
@@ -173,7 +173,7 @@ Role required: admin
         Employee names along with their assigned seats are displayed for a selected space.
 
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

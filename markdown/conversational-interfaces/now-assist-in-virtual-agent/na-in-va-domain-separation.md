@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Virtual Agent domain separation
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for ServiceNow Otto for Virtual Agent. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/na-in-va-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/na-in-va-domain-separation.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

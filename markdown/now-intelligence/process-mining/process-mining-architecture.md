@@ -2,7 +2,7 @@
 title: Process Mining architecture
 description: Understand the basic attributes of the Process Mining architecture.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/process-mining-architecture.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/process-mining-architecture.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -24,7 +24,7 @@ For detailed information on data handling and security in Predictive Intelligenc
 
 \[Omitted image "process-optimization-architecture.png"\] Alt text: Process Mining architecture
 
-**Parent Topic:**[Exploring Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/explore-process-mining.md)
+**Parent Topic:**[Exploring Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/explore-process-mining.md)
 
 **Related topics**  
 

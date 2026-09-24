@@ -2,7 +2,7 @@
 title: All settings
 description: Review all of your instance hardening settings available from a single page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/all-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/all-settings.html
 release: australia
 product: Security Center
 classification: security-center
@@ -20,7 +20,7 @@ The **All Settings** page displays information about all instance hardening sett
 
 \[Omitted image "all-settings.png"\] Alt text: all settings in hardening
 
-Use the **+Create task** button to create a Security Task to complete a Customer Action. This button appears both in the **All Settings** page as well as the pages for individual hardening settings. For details, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+Use the **+Create task** button to create a Security Task to complete a Customer Action. This button appears both in the **All Settings** page as well as the pages for individual hardening settings. For details, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-task-manager.md).
 
 The following information about hardening settings can be found on the list.
 
@@ -49,12 +49,12 @@ The following information about hardening settings can be found on the list.
     Description of the steps to remediate the security vulnerability of the hardening setting.
 
 
-To learn how to configure a property hardening setting see [Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/increase-hardening-comp-score.md).
+To learn how to configure a property hardening setting see [Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/increase-hardening-comp-score.md).
 
--   **[Hardening settings details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/hardening-settings-overview.md)**  
+-   **[Hardening settings details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/hardening-settings-overview.md)**  
 Analyze the details of a hardening setting by selecting its link within the Security Center app.
--   **[Filter hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/ssc-working-list.md)**  
+-   **[Filter hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/ssc-working-list.md)**  
 Simplify your hardening review process using filters. These filters can create a working list of hardening settings for review, which restored for later use and shared with other users.
 
-**Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-hardening.md)
+**Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-hardening.md)
 

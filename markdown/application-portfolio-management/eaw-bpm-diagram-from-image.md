@@ -2,7 +2,7 @@
 title: Business process map diagrams from images
 description: Use the ServiceNow AI lens skill to generate a business process map \(BPM\) diagram automatically by uploading an image of an existing process diagram from any tool.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-bpm-diagram-from-image.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-bpm-diagram-from-image.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-13"
@@ -75,25 +75,25 @@ The image-to-diagram feature requires two ServiceNow Otto skills to be active: t
 
 -   **__Create diagram from image__ \(EA\)**
 
-    Available under **Technology** &gt; **EA** in AI Admin Hub. This skill is active by default. To verify or reactivate, navigate to **AI Admin Hub** &gt; **AI Skills**, expand **Technology**, and select **EA**. Confirm the **Create diagram from image** skill card shows **Active** status. If inactive, select **Activate skill** on the skill card. For configuration details, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md).
+    Available under **Technology** &gt; **EA** in AI Admin Hub. This skill is active by default. To verify or reactivate, navigate to **AI Admin Hub** &gt; **AI Skills**, expand **Technology**, and select **EA**. Confirm the **Create diagram from image** skill card shows **Active** status. If inactive, select **Activate skill** on the skill card. For configuration details, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md).
 
 -   **ServiceNow AI Lens \(Platform\)**
 
     Available under **Platform** &gt; **Other** in AI Admin Hub. This skill must be activated by an administrator. AI Lens supports three AI model providers: Google Gemini, Azure OpenAI, and AWS Claude. The active provider is configured at the instance level under **AI Admin Hub** &gt; **Settings** &gt; **Manage AI models** &gt; **Manage model providers**. For more information, see [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens-landing-page.md) and [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-sn-lens.md).
 
 
-**Parent Topic:**[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md)
+**Parent Topic:**[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling.md)
 
 **Related topics**  
 
 
-[Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md)
+[Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-bpm-diag-from-image.md)
 
-[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
+[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
 
-[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
+[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/exploring-now-assist-for-ea.md)
 
-[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
+[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md)
 
 [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens-landing-page.md)
 

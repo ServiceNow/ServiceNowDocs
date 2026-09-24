@@ -2,7 +2,7 @@
 title: Create and edit the attestation template
 description: Create a customized attestation template in the Operational Resilience application that suits your business needs. By customizing an attestation template, you can add your own questions for your self-attestation. You can also edit an existing attestation template for your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-attestation-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-attestation-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,7 +54,7 @@ You can update the questions according to your business requirements as shown in
 
     7.  Add questions and set up automation in the **Questions** and **Automation** tabs respectively.
 
-        For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md) and [Automate response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/automate-response.md).
+        For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md) and [Automate response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/automate-response.md).
 
     8.  To publish the template, select **Publish**.
 
@@ -70,7 +70,7 @@ You can update the questions according to your business requirements as shown in
 
     3.  On the Assessment Metric Type New Record form, enter the name for the attestation template and select **Submit**.
 
-        For a description of the field values on the form, see [Assessment Metric Type Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/attestation-template-reference.md).
+        For a description of the field values on the form, see [Assessment Metric Type Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/attestation-template-reference.md).
 
         The attestation template is displayed in the templates list view as shown in the following example.
 

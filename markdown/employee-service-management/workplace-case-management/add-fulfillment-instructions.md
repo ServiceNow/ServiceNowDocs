@@ -2,7 +2,7 @@
 title: Add Fulfillment instructions
 description: Provide instructions to workplace agents on how to fulfill a workplace case. Add instructions for new workplace agents and for complicated workplace cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/add-fulfillment-instructions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/add-fulfillment-instructions.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -106,7 +106,7 @@ Knowledge article to support the instructions.Select the unlock knowledge articl
 
 The fulfillment instruction is added. The instruction is displayed in the workplace case records that match the specified conditions.
 
-**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 

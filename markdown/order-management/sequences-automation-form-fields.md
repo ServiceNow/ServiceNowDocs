@@ -2,7 +2,7 @@
 title: Automation form fields
 description: The Automation form enables you to configure properties and pull data from referenced tables for an automated call attempt.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/sequences-automation-form-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/sequences-automation-form-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -93,5 +93,5 @@ The state of the call task. The available options include:-   Open
 -   Cancelled
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customer-engagement-sequences-reference.md)
+</table>**Parent Topic:**[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customer-engagement-sequences-reference.md)
 

@@ -2,7 +2,7 @@
 title: Find software on the network using the legacy Software Asset Management plugin
 description: After using a discovery tool, you can find a definitive list of all the software found on the network using the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_FindingSoftwareOnTheNetwork.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/t\_FindingSoftwareOnTheNetwork.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -64,5 +64,5 @@ Role required: sam
     **Note:** Third-party discovery tools can use software normalization to more effectively manage the software installation database. Software normalization allows you to standardize your software installation data, such as the display name, publisher, revision, and version. You can personalize the software installation form to include these normalization fields. For more information, see [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md).
 
 
-**Parent Topic:**[Determine where software is installed using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_DeterminWhereSWInstalled.md)
+**Parent Topic:**[Determine where software is installed using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_DeterminWhereSWInstalled.md)
 

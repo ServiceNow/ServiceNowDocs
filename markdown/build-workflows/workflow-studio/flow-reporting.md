@@ -2,7 +2,7 @@
 title: Flow execution details retention
 description: Due to the large amount of data consumed by flow execution details, your instance uses data retention policies to delete this data after a set time period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-reporting.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -18,7 +18,7 @@ Due to the large amount of data consumed by flow execution details, your instanc
 
 ## Generating flow execution details
 
-By default, the system only generates execution details when you run a test. To generate flow execution details, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-flow-reporting.md)
+By default, the system only generates execution details when you run a test. To generate flow execution details, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/enable-flow-reporting.md)
 
 ## Scheduled table cleanup
 
@@ -190,5 +190,5 @@ A message displays at the top of the flow report to indicate that action reports
 
 To know the period until which a data recovery request is accepted, see the [Instance Backup and Recovery \[KB0547654\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547654) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-administration.md)
+**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-administration.md)
 

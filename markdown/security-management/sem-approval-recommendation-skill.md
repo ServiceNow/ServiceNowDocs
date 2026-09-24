@@ -2,7 +2,7 @@
 title: Generate approval recommendations with generative AI
 description: Use a generative AI skill to streamline the approval process for exceptions and false positive requests with AI-driven recommendations. Reduce manual effort and improve decision accuracy for your approvers in the Security Exposure Management Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-approval-recommendation-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-approval-recommendation-skill.html
 release: australia
 topic_type: task
 last_updated: "2026-07-24"
@@ -44,5 +44,5 @@ Role required: sn\_sec\_exception.approver
 -   **Refresh** the recommendation with the refresh icon. Refresh generates a fresh recommendation by analyzing latest data related to the request.
 -   **Provide feedback** using the thumbs up/down icons to rate the usefulness of the recommendation.
 
-**Parent Topic:**[Approval recommendations using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vr-generating-approvals.md)
+**Parent Topic:**[Approval recommendations using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vr-generating-approvals.md)
 

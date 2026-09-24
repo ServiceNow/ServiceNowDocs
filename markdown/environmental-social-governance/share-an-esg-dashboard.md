@@ -2,10 +2,10 @@
 title: Share an Operational Sustainability Management dashboard
 description: Share a dashboard with other users, groups, or roles to create a shared view of data that you can use to collaborate. You can grant viewing permissions or both viewing and editing permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/share-an-esg-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/share-an-esg-dashboard.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -72,5 +72,5 @@ Grant editing permissions to the users, groups, or roles you’re sharing the da
 9.  Select the View dashboard details icon \[Omitted image "details-icon.png"\] Alt text: to view who the dashboard has been shared with and where it’s visible.
 
 
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

@@ -2,7 +2,7 @@
 title: Set up Threat Intelligence Orchestration
 description: Prior to using Threat Intelligence Orchestration, perform steps to set up various parts of the system, including populating the CMDB, configuring the MID Server, and configuring credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/t\_ThreatIntelligenceOrchestrationSetup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/t\_ThreatIntelligenceOrchestrationSetup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ To use Threat Intelligence Orchestration you need a fully populated CMDB with do
     You are now ready to use Threat Intelligence Orchestration activities within a workflow.
 
 
-**Parent Topic:**[Threat Intelligence Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_ThreatIntelligenceOrchestration.md)
+**Parent Topic:**[Threat Intelligence Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_ThreatIntelligenceOrchestration.md)
 

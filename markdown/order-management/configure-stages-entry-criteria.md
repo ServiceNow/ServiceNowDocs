@@ -2,7 +2,7 @@
 title: Configure stages and entry criteria
 description: Configure the stages and entry criteria that validate each approval state transition, ensuring a transaction can enter a stage only when its approval state confirms it belongs there.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-stages-entry-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-stages-entry-criteria.html
 release: australia
 topic_type: task
 last_updated: "2026-06-29"
@@ -19,11 +19,11 @@ Configure the stages and entry criteria that validate each approval state transi
 
 Role required: admin or sn\_adv\_appr\_mgmt.approval\_rule\_admin
 
-Configure the approval events and their stage transitions. For more information, see [Configure approval events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-approval-events.md).
+Configure the approval events and their stage transitions. For more information, see [Configure approval events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-approval-events.md).
 
 ## About this task
 
-Stage entry criteria act as the validation gate for each approval state transition. When an action event fires and updates txn.approvalState, the stage transition configured on that event attempts to move the transaction. The destination stage accepts the transaction only if its entry criteria conditions are met—ensuring the transaction cannot enter a stage unless the approval state confirms it belongs there. Rule groups are assigned to events to run the appropriate approval validation rules each time an event is triggered. For more information, see [Configure approval events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-approval-events.md).
+Stage entry criteria act as the validation gate for each approval state transition. When an action event fires and updates txn.approvalState, the stage transition configured on that event attempts to move the transaction. The destination stage accepts the transaction only if its entry criteria conditions are met—ensuring the transaction cannot enter a stage unless the approval state confirms it belongs there. Rule groups are assigned to events to run the appropriate approval validation rules each time an event is triggered. For more information, see [Configure approval events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-approval-events.md).
 
 Stages are fully customizable and managed by your admin. You can create as many stages as your process requires and name them as needed. This guide uses the following example structure: Draft → Pending Approval → Approved → Completed.
 
@@ -79,5 +79,5 @@ The approval stages are configured with entry criteria and rule groups. Each sta
 
 ## What to do next
 
-After approvals are configured, end users can submit approval requests using the approval interface. For user-facing tasks, see [Submit a quote for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submit-quote-for-approval-process.md) and [Review and approve a submitted quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-and-approve-quote.md).
+After approvals are configured, end users can submit approval requests using the approval interface. For user-facing tasks, see [Submit a quote for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/submit-quote-for-approval-process.md) and [Review and approve a submitted quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/review-and-approve-quote.md).
 

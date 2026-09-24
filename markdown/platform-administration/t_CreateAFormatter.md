@@ -2,7 +2,7 @@
 title: Create a formatter and add it to a form
 description: Create the formatter after creating the UI macro that defines the content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAFormatter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAFormatter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,7 +43,7 @@ With the UI macro in place, create the formatter that references it, and add it 
     The formatter appears on the form according to your selections.
 
 
-**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_Formatters.md)
 
 **Related topics**  
 

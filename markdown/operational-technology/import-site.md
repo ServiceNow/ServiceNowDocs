@@ -2,7 +2,7 @@
 title: Import Sites
 description: Import existing Sites to the Discovery Console for OT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/import-site.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/import-site.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ For the exported site, the Sites information is downloaded in the CSV format.
 
 \[Omitted image "export-ignore.png"\] Alt text: Export CVS
 
-**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sites-page.md)
+**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sites-page.md)
 

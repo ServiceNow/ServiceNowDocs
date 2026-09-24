@@ -2,7 +2,7 @@
 title: Domain separation and Health and Safety Risk Management
 description: Domain separation is supported for Health and Safety Risk Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-domain-separation.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -37,7 +37,7 @@ All tables in the Health and Safety Risk Management can be domain-separated and 
 -   Each table in Health and Safety Risk Management includes the domain separation fields **Domain** and **Domain path**.
 -   Customers can use these fields to configure domain separation in their implementation of Health and Safety Risk Management.
 
-**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
+**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 
 **Related topics**  
 

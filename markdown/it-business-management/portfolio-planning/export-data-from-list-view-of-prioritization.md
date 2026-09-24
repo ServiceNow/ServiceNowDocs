@@ -2,7 +2,7 @@
 title: Export portfolio plan items from Prioritization
 description: Export the data of portfolio plan items from your portfolio plan into a Microsoft Excel or CSV file. You can share this data and collaborate with your business stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/export-data-from-list-view-of-prioritization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/export-data-from-list-view-of-prioritization.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

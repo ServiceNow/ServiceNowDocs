@@ -2,7 +2,7 @@
 title: Process approvals
 description: Once a request has passed its gating approvals, any relevant execution plans are initiated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/c\_ProcessApprovals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/c\_ProcessApprovals.html
 release: australia
 product: Approvals
 classification: approvals
@@ -42,5 +42,5 @@ In the example above, this security approval task must be approved by Fred Luddy
 
 **Note:** When an in-process approval is rejected, that particular line item is canceled as well, but the request itself isn't necessarily canceled. Thus if one ordered a blackberry and a laptop, and the blackberry was rejected, the laptop request would continue being processed.
 
-**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_ApprovalRules.md)
+**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/c_ApprovalRules.md)
 

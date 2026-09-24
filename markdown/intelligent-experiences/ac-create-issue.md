@@ -2,12 +2,12 @@
 title: Create an issue
 description: Track a problem identified with an AI asset, such as a performance or compliance gap, and document the action plan for resolving it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-create-issue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-create-issue.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Issues, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_
 
 ## About this task
 
-An issue tracks a problem identified with an AI asset that needs a resolution or an action plan, such as a gap surfaced during a governance review. For more information about governance records associated with AI systems, see [Governance record types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-governance-records.md).
+An issue tracks a problem identified with an AI asset that needs a resolution or an action plan, such as a gap surfaced during a governance review. For more information about governance records associated with AI systems, see [Governance record types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-governance-records.md).
 
 ## Procedure
 

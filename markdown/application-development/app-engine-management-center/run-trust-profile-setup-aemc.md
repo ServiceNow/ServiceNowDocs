@@ -2,7 +2,7 @@
 title: Run trust profile setup in AEMC
 description: After completing ReleaseOps guided setup in AEMC, run trust profile setup to complete the configuration process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/run-trust-profile-setup-aemc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/run-trust-profile-setup-aemc.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center

@@ -2,7 +2,7 @@
 title: Components installed with response templates
 description: Several types of components are installed with activation of the Templated Responses \(com.sn\_templated\_snip\) plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/components-installed-with-response-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/components-installed-with-response-templates.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -126,5 +126,5 @@ Maps notes to response templates.
 </td></tr></tbody>
 </table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md).
 
-**Parent Topic:**[Activate response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-templated-snippets.md)
+**Parent Topic:**[Activate response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/activate-templated-snippets.md)
 

@@ -2,7 +2,7 @@
 title: Activate Email Retention
 description: The Email Retention plugin provides archive and destruction rules for email messages. It is active by default for new instances, but must be activated for upgrades.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ActivateTheEmailRetentionPlugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ActivateTheEmailRetentionPlugin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: admin
 
 The Email Retention plugin requires these plugins:
 
--   [Data archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ArchiveData.md)
+-   [Data archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ArchiveData.md)
 -   System Mailboxes
 
 ## Procedure
@@ -37,8 +37,8 @@ The Email Retention plugin requires these plugins:
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Email retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-retention.md)
+**Parent Topic:**[Email retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-retention.md)
 

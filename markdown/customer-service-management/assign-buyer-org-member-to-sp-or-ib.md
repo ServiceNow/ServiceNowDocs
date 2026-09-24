@@ -2,7 +2,7 @@
 title: Assign a buyer organization member to sold products or install base items
 description: Assign a business organization member to a sold product or install base item so that the member can raise cases for the asset on the Business Organization Support Portal \(formerly Business Location Service Portal \(BLSP\)\) or in workspaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/assign-buyer-org-member-to-sp-or-ib.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/assign-buyer-org-member-to-sp-or-ib.html
 release: australia
 topic_type: task
 last_updated: "2026-06-04"
@@ -30,7 +30,7 @@ You can assign a buyer organization member from the following locations:
 
 All locations opens the same Assign Buyer Organization Member dialog and produce the same outcome.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 

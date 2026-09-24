@@ -2,7 +2,7 @@
 title: Manage Impact Delivery Instance users
 description: Impact Delivery Instance \(IDI\) admins can create, view, and manage their users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/ide-user-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/ide-user-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Impact Delivery Instance \(IDI\) admins can create, view, and manage their users
 
 ## Before you begin
 
-**Note:** See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-roles.md) for information about Impact role permissions.
+**Note:** See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-roles.md) for information about Impact role permissions.
 
 Role required: Impact admin
 
@@ -55,9 +55,9 @@ Role required: Impact admin
     -   A confirmation message displays then you are returned to the company users page.
     -   An email will be sent to the user with information on how to log in to Impact.
 
-**Parent Topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-idi.md)
+**Parent Topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-idi.md)
 
-**Previous topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-idi.md)
+**Previous topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-idi.md)
 
-**Next topic:**[Impact Delivery Instance roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/idi-roles.md)
+**Next topic:**[Impact Delivery Instance roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/idi-roles.md)
 

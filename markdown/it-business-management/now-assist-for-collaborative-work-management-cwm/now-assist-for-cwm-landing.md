@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
 description: The ServiceNow Otto for CWM application uses generative AI skills to improve time to value for the tasks you perform in the CWM workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.html
 release: australia
 product: Now Assist for Collaborative Work Management \(CWM\)
 classification: now-assist-for-collaborative-work-management-cwm
@@ -20,14 +20,14 @@ The ServiceNow Otto for CWM application uses generative AI skills to improve tim
 
 <table id="table_np5_rf3_y2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the features and key benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/now-assist-for-cwm-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the features and key benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/now-assist-for-cwm-explore.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate AI skills for CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate AI skills for CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md)
 
 </td></tr></tbody>
-</table>Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+</table>ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 

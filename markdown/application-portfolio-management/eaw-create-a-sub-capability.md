@@ -2,7 +2,7 @@
 title: Create a sub-capability form
 description: Create a sub-capability and add it to the capability hierarchy map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-a-sub-capability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-a-sub-capability.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,10 +22,10 @@ Create a sub-capability and add it to the capability hierarchy map.
 |Description|A short description of the sub-capability.|
 |Parent|Name of the parent capability for the sub-capability that you’re creating.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Create a sub-capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-sub-capability.md)
+[Create a sub-capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-sub-capability.md)
 

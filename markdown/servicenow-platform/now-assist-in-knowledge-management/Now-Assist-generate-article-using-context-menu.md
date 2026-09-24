@@ -2,7 +2,7 @@
 title: Edit an article using the ServiceNow Otto context menu
 description: Elaborate or shorten content within a Knowledge article using the ServiceNow Otto context menu to access generative AI capabilities in Knowledge Management.The ServiceNow Otto knowledge content recommendation skill supports a limited set of HTML tags and styles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -19,7 +19,7 @@ Elaborate or shorten content within a Knowledge article using the ServiceNow Ott
 
 ## Before you begin
 
-The ServiceNow Otto knowledge content recommendation skill required to enable the context menu feature is activated by the admin. To configure the skill, see [Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md). The elaborate and shorten function is available for all article templates.
+The ServiceNow Otto knowledge content recommendation skill required to enable the context menu feature is activated by the admin. To configure the skill, see [Configure skill for the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md). The elaborate and shorten function is available for all article templates.
 
 Role required: author or agent
 
@@ -34,7 +34,7 @@ Role required: author or agent
 4.  Select **Insert** to add the generated content to the article.
 
 
-**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 
 ## Supported tags
 

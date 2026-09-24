@@ -2,7 +2,7 @@
 title: DEX Score metric definitions
 description: List of the base system DEX Score metric definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-metric-defs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-experience-score/dexscr-metric-defs.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
@@ -118,5 +118,5 @@ The total duration of outages or degradation \(in hours\) caused by incidents.It
 </td></tr></tbody>
 </table>The number of closed major incidents, resolved incidents, and total outages due to incidents are metrics that help evaluate service desk experience but don’t contribute to the experience score.
 
-**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
+**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 

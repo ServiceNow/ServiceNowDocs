@@ -2,7 +2,7 @@
 title: Authentication errors
 description: This section describes some common authentication errors and how they can be resolved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunkes-auth-errors-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunkes-auth-errors-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

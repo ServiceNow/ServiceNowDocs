@@ -2,7 +2,7 @@
 title: Payment Terms Stage inbound staging table
 description: The Payment Terms Stage inbound \[sn\_fcms\_intg\_payment\_term\_stage\] staging table temporarily stores important data about payment terms before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-pay-terms-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-pay-terms-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

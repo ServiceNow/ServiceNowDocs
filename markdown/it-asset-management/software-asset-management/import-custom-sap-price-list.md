@@ -2,7 +2,7 @@
 title: Import custom SAP price lists
 description: Import custom SAP price lists into your ServiceNow instance so that you can track and manage SAP licenses based on the contracts that are specific to your SAP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/import-custom-sap-price-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/import-custom-sap-price-list.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -66,7 +66,7 @@ Do you want to create an Excel template to enter data?
 
 </td><td>
 
-Option to generate the Microsoft Excel spreadsheet template that you can use to insert or update data in the SAP Custom Price List Data \[imp\_samp\_sap\_custom\_price\_list\] table. Enable this option only if you didn’t already download the spreadsheet template in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-custom-sap-price-list.md).
+Option to generate the Microsoft Excel spreadsheet template that you can use to insert or update data in the SAP Custom Price List Data \[imp\_samp\_sap\_custom\_price\_list\] table. Enable this option only if you didn’t already download the spreadsheet template in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-custom-sap-price-list.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -145,7 +145,7 @@ Microsoft Excel spreadsheet that contains the data that you want to insert or up
     7.  Repeat steps d to f for each custom named user type that you want to add.
 
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

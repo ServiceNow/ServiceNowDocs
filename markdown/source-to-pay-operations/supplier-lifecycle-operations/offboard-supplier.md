@@ -2,7 +2,7 @@
 title: Offboard a supplier from the Source-to-Pay Workspace
 description: Offboard a supplier due to performance issues or when you learn that the supplier follows practices that are inconsistent or unethical.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/offboard-supplier.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/offboard-supplier.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -31,7 +31,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 3.  On the Create New Supplier Case form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
+    For more information about the form fields and descriptions, see [Fields in the Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
 
 4.  From the **Case type** field, **Offboard a supplier**.\[Omitted image "supplier-offboard-source-to-pay-workspace.png"\] Alt text: Selected dropdown option for offboarding a supplier.
 
@@ -46,12 +46,12 @@ A case of type **Offboard a supplier** is created.
 
 ## What to do next
 
-The supplier manager or supplier owner can continue to offboard the supplier using the **Playbook** tab on the **Case Details** page. For more information, see [Offboard suppliers using the supplier offboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/offboard-suppliers-using-playbook.md).
+The supplier manager or supplier owner can continue to offboard the supplier using the **Playbook** tab on the **Case Details** page. For more information, see [Offboard suppliers using the supplier offboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/offboard-suppliers-using-playbook.md).
 
--   **[Offboard suppliers using the supplier offboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/offboard-suppliers-using-playbook.md)**  
+-   **[Offboard suppliers using the supplier offboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/offboard-suppliers-using-playbook.md)**  
 Supplier owners and supplier managers can use the supplier offboarding playbook to complete the tasks and activities that are needed to offboard suppliers.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 
@@ -80,5 +80,5 @@ Supplier owners and supplier managers can use the supplier offboarding playbook 
 
 [Emails view for supplier managers]()
 
-[Offboard suppliers using the supplier offboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/offboard-suppliers-using-playbook.md)
+[Offboard suppliers using the supplier offboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/offboard-suppliers-using-playbook.md)
 

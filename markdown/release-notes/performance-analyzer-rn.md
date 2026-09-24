@@ -2,7 +2,7 @@
 title: Performance Analyzer release notes
 description: The ServiceNow Performance Analyzer application enables you to access page load time data, trends, and waterfall visualizations directly from your instance. It also helps you to identify page performance issues and bottlenecks in UX framework pages independently. Performance Analyzer was enhanced and updated in the Australia release.The ServiceNow Performance Analyzer application enables you to access page load time data, trends, and waterfall visualizations directly from your instance. It also helps you to identify page performance issues and bottlenecks in UX framework pages independently. Performance Analyzer was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/performance-analyzer-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/performance-analyzer-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ The ServiceNow® Performance Analyzer application enables you to access page loa
 -   Filter client interaction lists to investigate user-specific performance issues.
 -   View a waterfall with macroponent server-side calls.
 
-See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/performance-analyzer-landing.md) for more information.
+See Performance Analyzer for more information.
 
 ## Activation and other requirements
 
@@ -35,7 +35,7 @@ See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceN
     Starting with the Zurich release, Performance Analyzer is available on your instance automatically. For access to Performance Analyzer for earlier instances, install Performance Analyzer from the ServiceNow® Store.
 
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
 ## Australia
 

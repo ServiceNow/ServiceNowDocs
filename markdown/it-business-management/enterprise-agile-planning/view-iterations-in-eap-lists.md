@@ -2,7 +2,7 @@
 title: View iteration records in EAP
 description: View all Planning Intervals, Sprints, and other iterations across your teams in a single list, and see the child iterations that belong to a selected iteration in Enterprise Agile Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/view-iterations-in-eap-lists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/view-iterations-in-eap-lists.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -45,14 +45,14 @@ The Backlog shows the iterations of one team at a time. Use the Lists page inste
 
 ## What to do next
 
-To change the dates of an iteration, see [Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md).
+To change the dates of an iteration, see [Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md).
 
 **Related topics**  
 
 
-[Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md)
+[Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md)
 
-[Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md)
+[Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md)
 
-[Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md)
+[Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md)
 

@@ -2,7 +2,7 @@
 title: Installed with approval with e-signature
 description: Installing approval with e-signature installs certain properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/r\_InstalledWApprWithEsignature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/approvals/r\_InstalledWApprWithEsignature.html
 release: australia
 product: Approvals
 classification: approvals

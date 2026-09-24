@@ -2,7 +2,7 @@
 title: Integrating Proactive Service Experience Workflows with southbound external systems
 description: In Proactive Service Experience Workflows, you can submit outbound service test run requests to various external systems by integrating the application with the external southbound systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/tech-product-outbound-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/tech-product-outbound-flow.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology

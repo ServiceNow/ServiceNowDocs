@@ -2,7 +2,7 @@
 title: Import an NLU intent
 description: As you create intents for your Natural Language Understanding \(NLU\) model, you can also import and reuse intents from other models in the same application scope. Reusing intents saves time when building new models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/import-nlu-intent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/import-nlu-intent.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -73,9 +73,9 @@ In this example scenario, you are building the content of your NLU model and you
 
 Review the annotations of the newly imported training utterances. Add vocabulary annotation if needed.
 
-Train your model to save your updates. For issues with intents, see [Resolve intent issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/resolve-intent-issues.md).
+Train your model to save your updates. For issues with intents, see [Resolve intent issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/resolve-intent-issues.md).
 
-If there are any secondary language models associated to your target model, consider importing and translating the new content. See [Import primary model content to a secondary model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/import-primary-model-content-to-secondary-model.md).
+If there are any secondary language models associated to your target model, consider importing and translating the new content. See [Import primary model content to a secondary model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/import-primary-model-content-to-secondary-model.md).
 
-For information about prebuilt Virtual Agent models that you can import from, see [Reusing intents from prebuilt NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/reusing-predefined-nlu-intents.md).
+For information about prebuilt Virtual Agent models that you can import from, see [Reusing intents from prebuilt NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/reusing-predefined-nlu-intents.md).
 

@@ -2,7 +2,7 @@
 title: Submit a Funding Allocation Request
 description: Submit a Funding Allocation Request \(FR\) to the Grant Program Director for approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-rolling-grants-submit-fr-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-rolling-grants-submit-fr-task.html
 release: australia
 topic_type: task
 last_updated: "2026-06-08"

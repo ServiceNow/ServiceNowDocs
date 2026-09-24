@@ -2,7 +2,7 @@
 title: Learn about domain separation
 description: Domain separation is supported for UI Builder . Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/uib-domain-sep.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/uib-domain-sep.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -99,7 +99,7 @@ Viewports are variants that can be nested in page definition content. They can b
 
 Declarative Actions can be overridden per domain as well. A system administrator or ui\_builder\_admin should select the appropriate domain prior to creating a domain specific declarative action override.
 
-**Parent Topic:**[Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib.md)
+**Parent Topic:**[Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/learning-uib.md)
 
 **Related topics**  
 

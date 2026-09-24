@@ -2,7 +2,7 @@
 title: Start a conference call
 description: Start a conference call from a task or a major security by inviting one or more users to join a conference call. The conference call would start only when at least two participants join.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/start-conference-call.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/start-conference-call.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -83,7 +83,7 @@ The call participants can include the following:
     When the final participant leaves the conference, the conference call ends or select **End call** to end the conference call.
 
 
-**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
+**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-msim-conference-calls.md)
 
 **Related topics**  
 

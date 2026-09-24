@@ -2,7 +2,7 @@
 title: Rank stories in a related list
 description: The Context Ranking feature enables all scrum users to manually sort a related list of stories by priority.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_RankingStories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_RankingStories.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -43,7 +43,7 @@ A product owner or release planner uses this tool to establish the order in whic
     The system uses this ranked list to display the appropriate backlog in the planning board. For example, if you rank stories in the **Stories** related list in the Release form, the release backlog in the planning board uses the same ranking to display the stories. Conversely, scrum masters, product owners, and release planners can create a new ranking order for the **Stories** related list by rearranging the list of stories in the planning board.
 
 
-**Parent Topic:**[Scrum ranking definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_ScrumRankingDefinitions.md)
+**Parent Topic:**[Scrum ranking definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/r_ScrumRankingDefinitions.md)
 
 **Related topics**  
 

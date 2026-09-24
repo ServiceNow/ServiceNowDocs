@@ -2,7 +2,7 @@
 title: Associate an existing contact user with a consumer record
 description: Associate a contact with a consumer record in the Customer Service Management \(CSM\) application. After the association is done, you can access the Consumer Service Portal \(CSP\) as a consumer to search for information, create cases, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-an-existing-contact-user-with-a-consumer-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-an-existing-contact-user-with-a-consumer-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Role required: admin
 **Related topics**  
 
 
-[Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-consumer-user.md)
+[Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-a-consumer-user.md)
 
-[Assign the consumer role to a contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/assign-the-unified-consumer-role-to-a-contact.md)
+[Assign the consumer role to a contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/assign-the-unified-consumer-role-to-a-contact.md)
 

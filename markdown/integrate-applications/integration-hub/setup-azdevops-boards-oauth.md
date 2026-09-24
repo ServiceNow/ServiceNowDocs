@@ -2,7 +2,7 @@
 title: Set up the Microsoft Azure DevOps Boards spoke using OAuth
 description: Integrate the ServiceNow instance and Azure DevOps Boards using OAuth 2.0 authentication to authenticate ServiceNow requests.Provide authorization to the ServiceNow instance by registering an application in the Microsoft Azure portal.Create a connection record that enables the ServiceNow instance to send connection requests to the Microsoft Azure DevOps Boards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-azdevops-boards-oauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-azdevops-boards-oauth.html
 release: australia
 product: Integration Hub
 classification: integration-hub

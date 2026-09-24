@@ -2,7 +2,7 @@
 title: Enable encryption at rest for a Hermes topic
 description: Enable encryption at rest on a Hermes topic to help protect message data stored on broker disks from unauthorized access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/enable-encryption-at-rest-for-hermes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/enable-encryption-at-rest-for-hermes.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -37,7 +37,7 @@ Role required: hermes\_admin
 4.  In the topic record, verify in the Kafka Topic Override Configurations related list that the **snc.hermes.encryption.enable** property value is set to true.
 
 
-**Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
+**Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
 
 **Related topics**  
 

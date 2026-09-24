@@ -2,7 +2,7 @@
 title: Configure the Upcoming Holiday widget
 description: Configure the Upcoming Holiday widget to display location-specific holidays on the Employee Slate home page. Populate the holiday calendar table and control widget visibility through the Admin Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

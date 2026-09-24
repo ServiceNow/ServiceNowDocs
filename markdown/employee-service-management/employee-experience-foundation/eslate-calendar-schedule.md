@@ -2,7 +2,7 @@
 title: Calendar and schedule management
 description: Calendar and schedule management in EmployeeWorks Web App includes calendar widgets and AI-powered scheduling. Features include an AI assistant for scheduling tasks, a My Calendar widget for meeting access, and an Upcoming Holiday widget based on employee work location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-calendar-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-calendar-schedule.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,7 +2,7 @@
 title: Modify or disable search actions available for contextual search
 description: Modify or disable search actions to restrict the actions that a user can perform on a search result.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/modify-search-actions-avail-for-cxs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/contextual-search/modify-search-actions-avail-for-cxs.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -49,5 +49,5 @@ The Search Action Configurations related list contains all the available Search 
     \[Omitted image "search-actions-2.png"\] Alt text: Search actions highlighted in the search result preview window.
 
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/working-with-contextual-search.md)
 

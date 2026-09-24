@@ -2,7 +2,7 @@
 title: Cascade Update function
 description: The Cascade Update function enables you to update a configuration item \(CI\) attribute in the Telecommunications Network Inventory application and cascade the change in all related CIs. You can use this function to automatically cascade the field values in related CIs when you use Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/cascade-update-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/cascade-update-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -57,7 +57,7 @@ The following table lists the information about the cascade rules for the differ
 |Physical Connection|Attributes are updated for the related physical connection record.|The Bandwidth field that is updated in the equipment record cascades all the way down to the hierarchy mentioned in the inventory record.|
 |Logical Connection|Attributes that are updated for all the next element CI records, which are defined in the connection element that reference the logical connection record.|The Bandwidth field that is updated in the equipment record cascades all the way down to the hierarchy mentioned in the inventory record.|
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

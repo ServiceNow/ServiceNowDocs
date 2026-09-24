@@ -2,7 +2,7 @@
 title: Create a cryptographic module with external key wrapping
 description: Create a cryptographic module that uses external Amazon Web Services Key Management System \(AWS KMS\) key wrapping to encrypt ServiceNow data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ekms-create-crypto-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-create-crypto-module.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,14 +45,14 @@ The cryptographic module is created and ready to be used for encrypting Field En
 
 When you enable external key wrapping on an existing cryptographic module, all keys for this module are automatically rewrapped with your External Key Encryption Key \(EKEK\). This protects them with your EKMS key. Both existing keys and future keys you create will be externally wrapped.
 
-A security task is created to track the rewrapping process. To monitor the status, navigate to **All** &gt; **Security Center** &gt; **Security Task Manager** and look for the task with description 'Module key rewrap process for crypto module \[module\_id\]'. See [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+A security task is created to track the rewrapping process. To monitor the status, navigate to **All** &gt; **Security Center** &gt; **Security Task Manager** and look for the task with description 'Module key rewrap process for crypto module \[module\_id\]'. See [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-task-manager.md).
 
 ## What to do next
 
 Next steps:
 
--   [Create encrypted field configurations to specify which tables and columns to encrypt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-create-encrypted-field-config.md)
--   [Set up module access policies to control who can view the encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-set-up-maps.md)
+-   [Create encrypted field configurations to specify which tables and columns to encrypt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-create-encrypted-field-config.md)
+-   [Set up module access policies to control who can view the encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-set-up-maps.md)
 
-**Parent Topic:**[Configuring External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configuring-external-key-management.md)
+**Parent Topic:**[Configuring External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-configuring-external-key-management.md)
 

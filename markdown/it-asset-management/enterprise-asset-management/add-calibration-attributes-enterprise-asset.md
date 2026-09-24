@@ -2,7 +2,7 @@
 title: Add calibration attributes to an enterprise asset
 description: Add calibration attributes to an enterprise asset to specify and manage the calibrations that are required for the asset throughout its life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -22,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
-You can add calibration attributes at the individual enterprise asset level or at the enterprise model level. Alternatively, you can create common calibration attributes that are not associated with any enterprise assets or enterprise models. For details on how to add calibration attributes to an enterprise model, see [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md). For details on how to create common calibration attributes, see [Create a calibration attribute library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-calibration-attribute-library.md).
+You can add calibration attributes at the individual enterprise asset level or at the enterprise model level. Alternatively, you can create common calibration attributes that are not associated with any enterprise assets or enterprise models. For details on how to add calibration attributes to an enterprise model, see [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md). For details on how to create common calibration attributes, see [Create a calibration attribute library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-eam-calibration-attribute-library.md).
 
 ## Procedure
 
@@ -88,7 +88,7 @@ Category
 
 </td><td>
 
-Type of calibration.**Note:** The Enterprise Asset Management application includes default calibration categories such as Electrical, Flow, Humidity, and Pressure. You can create additional calibration categories for any calibrations that do not fall under the default categories. For detailed instructions, see [Create a calibration category for your enterprise asset calibrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-calibration-categories.md).
+Type of calibration.**Note:** The Enterprise Asset Management application includes default calibration categories such as Electrical, Flow, Humidity, and Pressure. You can create additional calibration categories for any calibrations that do not fall under the default categories. For detailed instructions, see [Create a calibration category for your enterprise asset calibrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-eam-calibration-categories.md).
 
 </td></tr><tr><td>
 
@@ -177,7 +177,7 @@ Quality standard
 
 </td><td>
 
-Set of requirements and guidelines that you must follow when performing the calibrations.**Note:** You can create quality standards manually in the Admin center view of the Enterprise Asset Workspace. See [Create a quality standard for your enterprise asset calibrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-calibration-quality-standard.md) for detailed instructions.
+Set of requirements and guidelines that you must follow when performing the calibrations.**Note:** You can create quality standards manually in the Admin center view of the Enterprise Asset Workspace. See [Create a quality standard for your enterprise asset calibrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-eam-calibration-quality-standard.md) for detailed instructions.
 
 </td></tr><tr><td colspan="2">
 
@@ -307,7 +307,7 @@ If you set the **Value type** field to either **Accuracy % full scale** or **Acc
 
 ## What to do next
 
-Create work orders to track the calibrations that are made to your enterprise asset. These work orders must use a work order template with tasks that have a Work type of Calibration. For more information on work orders, see [Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md).
+Create work orders to track the calibrations that are made to your enterprise asset. These work orders must use a work order template with tasks that have a Work type of Calibration. For more information on work orders, see [Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md).
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

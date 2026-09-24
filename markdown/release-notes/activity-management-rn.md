@@ -2,7 +2,7 @@
 title: Activity Management release notes
 description: ServiceNow Activity Management helps customer-focused teams to plan, execute, capture, and track customer interactions across multiple channels throughout the customer's association with your business. Activity Management is a new capability in the Australia release.ServiceNow Activity Management helps customer-focused teams to plan, execute, capture, and track customer interactions across multiple channels throughout the customer's association with your business. Activity Management is a new capability in the Australia release.ServiceNow Activity Management helps customer-focused teams to plan, execute, capture, and track customer interactions across multiple channels throughout the customer's association with your business. Activity Management is a new capability in the Australia release.ServiceNow Activity Management helps customer-focused teams to plan, execute, capture, and track customer interactions across multiple channels throughout the customer's association with your business. Activity Management is a new capability in the Australia release.ServiceNow Activity Management helps customer-focused teams to plan, execute, capture, and track customer interactions across multiple channels throughout the customer's association with your business. Activity Management is a new capability in the Australia release.ServiceNow Activity Management helps customer-focused teams to plan, execute, capture, and track customer interactions across multiple channels throughout the customer's association with your business. Activity Management is a new capability in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/activity-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/activity-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-07-21"
@@ -39,7 +39,7 @@ See [Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNo
     The CRM Outlook Add-in includes screen reader improvements for card views in this release. On the Accounts, Contacts, Leads, and Opportunities tabs, each card announces its primary record details such as the contact name and key fields instead of a generic card-button label, so users on assistive technology can identify records without opening each card.
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
 
 ## August 2026
 

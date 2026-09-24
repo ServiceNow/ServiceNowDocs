@@ -2,7 +2,7 @@
 title: Set page size for AWS API Gateway accounts
 description: When retrieving data from an AWS API Gateway service, you can control the number of records fetched per API call by setting the PageSize connection property. This affects pagination behavior when calling APIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/api-sgc-aws-page-size-prop.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-aws-page-size-prop.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,7 +2,7 @@
 title: Install and configure the ICAP DLP integration
 description: Install and configure the  provider ICAP DLP integration from the  ServiceNow Store on your  ServiceNow AI Platform instance. Start investigating DLP incidents using the  provider ICAP DLP incident data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/install-icap-dlp-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/install-icap-dlp-integration.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -49,5 +49,5 @@ Role required: sn\_dlir.admin
 
 After you successfully validate and submit the configuration, the ICAP DLP Integration configurations is saved.
 
-**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/icap-dlp-integration.md)
+**Parent Topic:**[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/icap-dlp-integration.md)
 

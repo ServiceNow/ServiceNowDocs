@@ -2,7 +2,7 @@
 title: Exploring the 360º view
 description: After you have successfully set up your data registries for the tables you use, you can use the 360º view feature to view the relationships between a selected record and related objects, such as controls, risks, and entity types.After data registries have been set up, you can launch 360º view from any record screen in any GRC workspace application to view relationships between the various types of data associated with the selected record.In the 360º view, you can click on any relationship to view details.As you navigate through 360º view relationship visualizations, the breadcrumbs along the top edge keep track of where you've been and allow you to return to previously viewed information.If you have defined different views, you can select them from any 360º view visualization.You can configure some functionality enhancements for the 360º view of each record as part of the GRC updates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-360-degree-relationship-visualization/understanding-360-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-360-degree-relationship-visualization/understanding-360-view.html
 release: australia
 product: GRC: 360 Degree Relationship Visualization
 classification: grc-360-degree-relationship-visualization
@@ -22,7 +22,7 @@ When you launch the 360º view from a particular record, the relationships betwe
 
 The screen above shows the relationships that you set up in the data registry for the selected main object \(in this case, the Risk: Loss of Availability entity\). As you can see, one entity and one control apply to the main object. And the main object includes a range of relationships related to risk response tasks, internal risk events, and risk assessments. Additionally, there is a risk statement relationship upstream from the main object. All these relationships to the main object are available to you at a glance.
 
-**Parent Topic:**[360° Relationship Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.md)
+**Parent Topic:**[360° Relationship Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.md)
 
 ## Launch the 360º view
 
@@ -84,7 +84,7 @@ The Compliance view presents you with relationships for the main object that are
 **Related topics**  
 
 
-[Configure 360º views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.md)
+[Configure 360º views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.md)
 
 ## Enhancements in the 360º view
 

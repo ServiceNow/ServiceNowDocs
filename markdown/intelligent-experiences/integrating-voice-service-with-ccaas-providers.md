@@ -2,7 +2,7 @@
 title: Integrating voice assistant with CCaaS provider
 description: Enable users to get voice-based support from ServiceNow AI voice agents by integrating ServiceNow voice assistant with supported third-party Contact Center as a Service providers \(CCaaS\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrating-voice-service-with-ccaas-providers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrating-voice-service-with-ccaas-providers.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"
@@ -121,22 +121,22 @@ Use the Custom provider option to connect the voice assistant to any SIP-capable
 |ServiceNow SIP FQDN|Read-only. The ServiceNow SIP fully qualified domain name \(FQDN\) for your region, used to route calls from your telephony system to the voice assistant. For configuration details, see [KB3023612](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3023612).|
 |x-snc-param|Read-only. Generated token to authenticate requests from your telephony system to the voice assistant. Pass this value as a SIP header when configuring your SIP trunk.|
 
--   **[Integrate ServiceNow voice assistant with Twilio voice service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-twilio.md)**  
+-   **[Integrate ServiceNow voice assistant with Twilio voice service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-voice-service-with-twilio.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow AI voice assistant with the Twilio voice service.
--   **[Integrate ServiceNow voice assistant with Genesys Cloud service \(Audio Connector\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-genesys.md)**  
+-   **[Integrate ServiceNow voice assistant with Genesys Cloud service \(Audio Connector\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-voice-service-with-genesys.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow AI voice assistant with Genesys Cloud service using the Audio Connector integration.
--   **[Integrate ServiceNow voice assistant with Genesys Cloud service \(SIP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-genesys-sip.md)**  
+-   **[Integrate ServiceNow voice assistant with Genesys Cloud service \(SIP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-voice-service-with-genesys-sip.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Genesys Cloud service using the Session Initiation Protocol \(SIP\) communication channel.
--   **[Integrate ServiceNow voice assistant with 3CLogic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-3clogic.md)**  
+-   **[Integrate ServiceNow voice assistant with 3CLogic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-voice-service-with-3clogic.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow AI voice assistant with the 3CLogic voice service.
--   **[Integrate ServiceNow voice assistant with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-amazon-connect.md)**  
+-   **[Integrate ServiceNow voice assistant with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-voice-service-with-amazon-connect.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Amazon Connect.
--   **[Integrate ServiceNow voice assistant with Five9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-five9.md)**  
+-   **[Integrate ServiceNow voice assistant with Five9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-voice-service-with-five9.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Five9 voice service.
--   **[Integrate ServiceNow voice assistant with Nice CXone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-nice.md)**  
+-   **[Integrate ServiceNow voice assistant with Nice CXone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-voice-service-with-nice.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Nice CXone.
--   **[Integrate ServiceNow voice assistant with a custom SIP provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-custom-sip.md)**  
+-   **[Integrate ServiceNow voice assistant with a custom SIP provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-voice-service-with-custom-sip.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with a custom Session Initiation Protocol \(SIP\) provider.
 
-**Parent Topic:**[Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md)
+**Parent Topic:**[Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/deploy-ai-agents-for-voice.md)
 

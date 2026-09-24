@@ -2,7 +2,7 @@
 title: Configure case action status
 description: The case action status feature displays the status of cases in the Cases list. Customer service agents can use this feature to easily identify cases that need attention and quickly prioritize their work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-case-action-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-case-action-status.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,5 +46,5 @@ Visual indicators in the Action Status column on the case list highlight case st
 **Related topics**  
 
 
-[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-action-status-csm-workspace.md)
+[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-action-status-csm-workspace.md)
 

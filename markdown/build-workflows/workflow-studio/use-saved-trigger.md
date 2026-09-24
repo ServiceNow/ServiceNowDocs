@@ -2,7 +2,7 @@
 title: Use a saved trigger
 description: Instead of creating a trigger, use a saved trigger in your flow. Using a saved trigger enables you to reuse standardized trigger logic across flows, reducing the effort, improving consistency, and simplifying ongoing maintenance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/use-saved-trigger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/use-saved-trigger.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -55,5 +55,5 @@ Role required: flow-designer or admin
 
 The selected saved trigger is added to the flow and will start the flow depending on how the trigger is configured.
 
-**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/building-triggers.md)
 

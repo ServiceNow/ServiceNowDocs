@@ -2,7 +2,7 @@
 title: Pre authentication context
 description: The pre authentication policy context defines how and when a policy is enforced during the login process. The policy used in this context executes before your users see a login screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/pre-auth-context.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/pre-auth-context.html
 release: australia
 product: Authentication
 classification: authentication

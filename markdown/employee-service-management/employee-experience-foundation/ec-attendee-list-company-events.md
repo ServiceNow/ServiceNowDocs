@@ -2,7 +2,7 @@
 title: Attendee List and RSVP for company events
 description: Attendee list can be viewed for company events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-attendee-list-company-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-attendee-list-company-events.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +19,7 @@ Attendee list can be viewed for company events.
 ## Before you begin
 
 -   Role required: sn\_cd.content\_manager
--   Complete the steps to [Create a company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-company-event.md).
+-   Complete the steps to [Create a company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-company-event.md).
 
 ## About this task
 
@@ -57,5 +57,5 @@ Attendee list can be viewed for company events.
     **Note:** If an event has reached capacity, you may opt to join the waitlist, and you will be notified should a spot become available. You can also update or remove yourself from the waitlist. An event is closed once the deadline has passed. If the event is full at the RSVP deadline, it will also be marked as closed. After the RSVP deadline, you can only cancel your RSVP and cannot rejoin the event.
 
 
-**Parent Topic:**[Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-company-events.md)
+**Parent Topic:**[Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-company-events.md)
 

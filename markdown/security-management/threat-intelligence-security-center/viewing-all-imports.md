@@ -2,7 +2,7 @@
 title: Viewing all imports
 description: Use this section to view all the imported records that are displayed in the list view for all the users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/viewing-all-imports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/viewing-all-imports.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -30,10 +30,10 @@ Role required: sn\_sec\_tisc.analyst
 
 3.  Open any record to view the status of the import process.
 
-    **Note:** You can also click **New Import** to create a new import record. After you click this button, the application will direct you to the **Import Intelligence** page. For more information on creating new records, see [Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/importing-threat-intelligence.md) section and proceed further with the respective import type.
+    **Note:** You can also click **New Import** to create a new import record. After you click this button, the application will direct you to the **Import Intelligence** page. For more information on creating new records, see [Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/importing-threat-intelligence.md) section and proceed further with the respective import type.
 
 
-**Parent Topic:**[Working with Data Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/working-with-data-imports.md)
+**Parent Topic:**[Working with Data Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/working-with-data-imports.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure email and password resets for the Alumni Center
 description: Use Notifications, to configure the emails that send the user ID and password reset for your alumni.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/alumni-center/asc-config-email-password.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/alumni-center/asc-config-email-password.html
 release: australia
 product: Alumni Center
 classification: alumni-center

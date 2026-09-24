@@ -2,7 +2,7 @@
 title: getChange\(String indicator, Object fromDate, Object toDate\)
 description: Returns the change in the score of an indicator between two specified dates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/PAFU-getChange\_S\_O\_O.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/PAFU-getChange\_S\_O\_O.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -40,7 +40,7 @@ The toDate parameter is the timestamp of the beginning of the last collection pe
 pa.getChange($[[Number of open incidents]], new GlideDateTime(score_start.getYear() + '-' + score_start.getMonth() + '-01'), score_start);
 ```
 
-**Parent Topic:**[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
+**Parent Topic:**[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/PAFormulaUtils.md)
 
 **Related topics**  
 
@@ -65,5 +65,5 @@ pa.getChange($[[Number of open incidents]], new GlideDateTime(score_start.getYea
 
 [getScore\(String indicator, Object onDate\)]()
 
-[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
+[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/PAFormulaUtils.md)
 

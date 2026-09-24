@@ -2,7 +2,7 @@
 title: In-product experience for agentic workflows
 description: Dedicated spaces in workspaces and in the Core UI enable you to use agentic workflows directly in record forms. You can view agentic workflow progress and previous executions, and you can answer follow-up questions for ones that require human supervision.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/in-product-agentic-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/in-product-agentic-ai.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-21"
@@ -18,7 +18,7 @@ Dedicated spaces in workspaces and in the Core UI enable you to use agentic work
 
 Agentic workflows can help you accomplish complex tasks, such as generating resolution notes for cases and incidents or investigating problems and root causes. You can view agentic workflows running on a record in the AI Workflows panel, available in both the Core UI form and in workspaces. For agentic workflows that require human supervision, you can answer questions, approve next steps, or provide other input. In addition to monitoring current progress, you can review historical runs to compare results.
 
-To create UI actions for your agentic workflows, open the agentic workflow in AI Agent Studio, navigate to the [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw.md) step in the guided setup, and create a UI action.
+To create UI actions for your agentic workflows, open the agentic workflow in AI Agent Studio, navigate to the [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aw.md) step in the guided setup, and create a UI action.
 
 If the AI Workflows panel is not visible, check the following:
 
@@ -47,7 +47,7 @@ The execution list also displays the results of any workflows triggered in the S
 
 When you select a specific agentic workflow, you can view its processing messages and history. Processing messages indicate which steps the agentic workflow has already completed and which are still in progress.
 
-You can modify the processing messages for an AI agent or tool in AI Agent Studio. For an AI agent, open the AI agent and go to the [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia.md) step. For a tool, open the AI agent, go to the [Add tools and information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-tool-aia.md) step, and select the tool to open the form modal.
+You can modify the processing messages for an AI agent or tool in AI Agent Studio. For an AI agent, open the AI agent and go to the [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aia.md) step. For a tool, open the AI agent, go to the [Add tools and information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-tool-aia.md) step, and select the tool to open the form modal.
 
 \[Omitted image "inproduct-ai-processing.png"\] Alt text: Processing messages in the AI Workflows panel
 

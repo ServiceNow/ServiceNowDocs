@@ -2,7 +2,7 @@
 title: Update cases with missing field predictions
 description: View the list of open cases for which the prediction of category, priority, or assignment group was skipped by the Predictive Intelligence feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-intelligence-update-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/agent-intelligence-update-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

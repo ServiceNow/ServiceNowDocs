@@ -2,7 +2,7 @@
 title: Properties of the Forms components
 description: Learn about the properties of the Forms components in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/sn-forms-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/sn-forms-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ Learn about the properties of the Forms components in RPA Desktop Design Studio.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/forms_sn_rpa_studio.md)
+**Parent Topic:**[Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/forms_sn_rpa_studio.md)
 

@@ -2,7 +2,7 @@
 title: Configure Financial Services Operations AI agents
 description: Configure Financial Services Operations AI agents to define their tools, access controls, triggers, and active status. You can also review Knowledge Graph tag records that supply structured and unstructured data to improve AI agent performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-fso-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-fso-ai-agents.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-29"
@@ -16,7 +16,7 @@ breadcrumb: [Enable AI capabilities, Configure, Financial Services Operations \(
 
 Configure Financial Services Operations AI agents to define their tools, access controls, triggers, and active status. You can also review Knowledge Graph tag records that supply structured and unstructured data to improve AI agent performance.
 
-For a list of all AI agents in FSO, see [AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-capabilities-in-fso.md).
+For a list of all AI agents in FSO, see [AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/ai-capabilities-in-fso.md).
 
 ## Access the AI agent configuration
 

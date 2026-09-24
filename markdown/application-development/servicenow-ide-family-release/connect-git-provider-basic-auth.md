@@ -2,7 +2,7 @@
 title: Connect to a Git provider using basic authentication with the ServiceNow IDE
 description: Connect to a Git domain using basic authentication credentials to manage applications in source control from the ServiceNow IDE.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/connect-git-provider-basic-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-ide-family-release/connect-git-provider-basic-auth.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -52,11 +52,11 @@ Your Git credentials are associated with your user on the instance and used for 
 
 ## What to do next
 
-After initializing or cloning a repository, you can begin using source control. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
+After initializing or cloning a repository, you can begin using source control. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
 
 To manage existing Git credentials, use the `Git: Manage Git credentials` command from the command palette.
 
-**Parent Topic:**[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
+**Parent Topic:**[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
 
 **Related topics**  
 

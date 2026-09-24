@@ -2,7 +2,7 @@
 title: Domain separation and Customer Service Management
 description: Domain separation is supported in Customer Service Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/domain-separation-customer-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/domain-separation-customer-service.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -92,10 +92,10 @@ Ribbon and Lookup Verify configurations and Special Handling Notes support domai
 
 When inserting or updating a record for process-separated tables, the picker domain scope takes precedence by design with the Overrides \[sys\_override\] field on process-separated tables. For more information, see [Process administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DelegatedAdministration.md).
 
--   **[Domain separation and entity relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain_separation_csm_accounts.md)**  
+-   **[Domain separation and entity relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/domain_separation_csm_accounts.md)**  
 With domain separation in Customer Service Management, you can further control visibility and access to data by using contact, partner, and parent-child relationships.
 
-**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 

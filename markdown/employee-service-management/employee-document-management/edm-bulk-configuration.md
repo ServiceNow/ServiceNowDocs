@@ -2,7 +2,7 @@
 title: Configuring employee document management bulk import with source document repository
 description: Use Employee Document Import Configuration to identify and communicate with the source document repository. The source document repository is where you currently store your employee documents.To import employee documents, map the source employee documents from your local document repository or third-party cloud-based repository to Employee Document Management.Use Employee Document Import Jobs to create a Verify source step. Verify is required to validate the connection between your local directory or your third-party, cloud-based document repository and Employee Document Management. The Verify source step also validates that source employee files are there to be processed.Use Employee Document Import Jobs to create or edit the Stage Directory source step.Use Employee Document Import Jobs to create or edit the stage file source step. Stage file is required to stage your source employee documents from your third-party, cloud-based document repository.Use Employee Document Import Jobs to create or edit the capture source step. Capture is required to import your source employee documents from your local or third-party, cloud-based document repository.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/edm-bulk-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/edm-bulk-configuration.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -133,14 +133,14 @@ Indicates that you want to write debug statements to the system log during the s
 </td></tr></tbody>
 </table>    **Note:** For more information on credentials and aliases, see [Introduction to credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-connections-alias.md).
 
-    For more information on domain separation, see [Domain Separation and HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-domain-separation.md).
+    For more information on domain separation, see [Domain Separation and HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-domain-separation.md).
 
 3.  Select **Save**, **Submit**, or **Update**.
 
     The Employee Document Import Sources and Employee Document Import Map tabs appear.
 
 
-**Parent Topic:**[Employee document management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-bulk-uploads.md)
+**Parent Topic:**[Employee document management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-uploads.md)
 
 ## Create or edit import configuration
 
@@ -176,7 +176,7 @@ Configuration
 
 </td><td>
 
-The name of the employee document bulk import configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-bulk-configuration.md).
+The name of the employee document bulk import configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -442,7 +442,7 @@ Configuration
 
 </td><td>
 
-A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-bulk-configuration.md).
+A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -532,7 +532,7 @@ Configuration
 
 </td><td>
 
-A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-bulk-configuration.md).
+A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -591,7 +591,7 @@ The subflow, flow action, workflow, or script that launches the source step base
 
 7.  Reload the form to see if the Stage import step completed.
 
-    The **Employee Document Staging** tab appears. You can view all source documents that are in the staging table and make corrections if necessary. See [Correcting employee documents in the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-doc-staging.md).
+    The **Employee Document Staging** tab appears. You can view all source documents that are in the staging table and make corrections if necessary. See [Correcting employee documents in the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-doc-staging.md).
 
 8.  Change staged documents that have a state of **Draft** to **Ready**.
 
@@ -634,7 +634,7 @@ Configuration
 
 </td><td>
 
-A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-bulk-configuration.md).
+A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 

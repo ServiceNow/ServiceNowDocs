@@ -2,7 +2,7 @@
 title: Personal lists
 description: You can create personal lists to customize which columns appear and the order in which they appear. Personal lists modify a specific list view according to your individual preferences.You can personalize a specific list view based on your individual preferences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_PersonalLists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_PersonalLists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,12 +16,12 @@ You can create personal lists to customize which columns appear and the order in
 
 Personal list customizations don’t affect what other users see in their lists. Administrators can [manage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AdministeringPersonalLists.md) the personal lists function.
 
-**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UseLists.md)
 
 **Related topics**  
 
 
-[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md)
+[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/view-management-overview.md)
 
 ## Personalize a list
 
@@ -55,7 +55,7 @@ Role required: personalize\_list or admin
 
 </td><td>
 
-Select the **Wrap column text** check box. Clear the check box to display text on one line.In Core UI, this option is also available in the **Lists** section of the [system settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_UI16BannerFrame.md).
+Select the **Wrap column text** check box. Clear the check box to display text on one line.In Core UI, this option is also available in the **Lists** section of the [system settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_UI16BannerFrame.md).
 
 </td></tr><tr><td id="d44504e212">
 
@@ -79,7 +79,7 @@ Select the **Active row highlighting** check box. Clear the check box to restore
 
 </td><td>
 
-Select the **Modern cell coloring** check box.In Core UI, this option is also available in the **Lists** section of the [system settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_UI16BannerFrame.md).
+Select the **Modern cell coloring** check box.In Core UI, this option is also available in the **Lists** section of the [system settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_UI16BannerFrame.md).
 
 </td></tr></tbody>
 </table>5.  Select list editing options \(requires you to configure the list editor\).
@@ -115,7 +115,7 @@ To reset a list to the default layout, select the personalize list icon and sele
 **Related topics**  
 
 
-[Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseSlushbuckets.md)
+[Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_UseSlushbuckets.md)
 
 [Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceField.md)
 

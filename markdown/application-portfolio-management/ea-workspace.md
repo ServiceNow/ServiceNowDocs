@@ -2,7 +2,7 @@
 title: Enterprise Architecture Workspace
 description: The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise Architecture application. It provides an interactive interface for enterprise architects to manage tasks, gain insights, and monitor portfolio health.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/ea-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/ea-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,27 +20,27 @@ The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise
 
 <table id="table_wt1_s3q_ffc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and business value that Enterprise Architecture Workspace offers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and business value that Enterprise Architecture Workspace offers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/explore-eaw.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-eaw.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-eaw.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate Enterprise Architecture Workspace with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-integrate-eaw-with-other-apps.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate Enterprise Architecture Workspace with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-integrate-eaw-with-other-apps.md)
 
 </td></tr><tr><td>
 
-[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-ea-workspace.md)
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-ea-workspace.md)
 
- [\[Omitted image "bus-manage.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-ea-workspace.md)
+ [\[Omitted image "bus-manage.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-ea-workspace.md)
 
- [Learn how to use Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-ea-workspace.md)
+ [Learn how to use Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-ea-workspace.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, form fields, and general guidelines of Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, form fields, and general guidelines of Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 </td><td>
 
@@ -54,16 +54,16 @@ The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 -   [Find articles on APM learning path, implementing, and other resources.](https://www.servicenow.com/community/enterprise-architecture/ct-p/application-portfolio-management)
 
--   **[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)**  
+-   **[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/explore-eaw.md)**  
 The Enterprise Architecture Workspace is part of the Enterprise Architecture application. The workspace is a unified interface with multiple views that help you manage your portfolio efficiently. You can use these views to stay up to date with your tasks, insights, tasks that need attention, portfolio health, and dashboards.
--   **[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-eaw.md)**  
+-   **[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-eaw.md)**  
 As an administrator, use this section to configure the Enterprise Architecture Workspace.
--   **[Managing Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-ea-workspace.md)**  
+-   **[Managing Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-ea-workspace.md)**  
 Use the Enterprise Architecture Workspace \(EAW\) for managing portfolios, modeling architecture, and visualizing IT landscapes.
--   **[Integrating Enterprise Architecture Workspace with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-integrate-eaw-with-other-apps.md)**  
+-   **[Integrating Enterprise Architecture Workspace with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-integrate-eaw-with-other-apps.md)**  
 Understand the process required to set up Enterprise Architecture Workspace to work with key applications in the ServiceNow platform to provide a deep insight into the applications.
--   **[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)**  
+-   **[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)**  
 Reference topics that provide additional details about Enterprise Architecture Workspace such as the field descriptions, user roles, tables, guidelines, and domain separation information.
 
-**Parent Topic:**[Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/application-portfolio-management-landing-page.md)
+**Parent Topic:**[Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/application-portfolio-management-landing-page.md)
 

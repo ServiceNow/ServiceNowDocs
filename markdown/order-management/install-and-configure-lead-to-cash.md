@@ -2,10 +2,10 @@
 title: Install and configure Lead to Cash Core
 description: Install the Lead to Cash Core application, which enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-and-configure-lead-to-cash.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-and-configure-lead-to-cash.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,14 +20,14 @@ Admins and users with various roles complete the following configurations tasks 
 
 |Task|Description|
 |----|-----------|
-|[Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md)|Map entities that define a structure and transfers data from the source entity to the target entity.|
-|[Create an entity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-entity-configuration.md)|Use entities to compose a workflow between two entities so that you can update their existing configurations and perform the required **Suspend**, **Resume**, or **Disconnect** actions on a sold product.|
-|[Create an entity mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-entity-mapping.md)|Create an entity mapping to perform the declarative actions like **Suspend**, **Resume**, or **Disconnect** actions on a sold product.|
+|[Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/entity-configuration-and-mapping.md)|Map entities that define a structure and transfers data from the source entity to the target entity.|
+|[Create an entity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-entity-configuration.md)|Use entities to compose a workflow between two entities so that you can update their existing configurations and perform the required **Suspend**, **Resume**, or **Disconnect** actions on a sold product.|
+|[Create an entity mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-entity-mapping.md)|Create an entity mapping to perform the declarative actions like **Suspend**, **Resume**, or **Disconnect** actions on a sold product.|
 
 **Related topics**  
 
 
-[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-foundation.md)
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-foundation.md)
 
-[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md)
+[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
 

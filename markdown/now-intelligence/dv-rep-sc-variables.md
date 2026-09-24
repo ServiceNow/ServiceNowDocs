@@ -2,7 +2,7 @@
 title: Service catalog variables in data visualizations
 description: Group or filter data on visualizations by a variable on a selected service catalog item.In data visualizations based on service catalog data, stack and group by variables, use variables as columns in lists, and as columns and rows in multilevel pivot tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-rep-sc-variables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-rep-sc-variables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ Reporting on variables can be helpful in determining if certain catalog items ar
 
 Additionally, you can create filters on the same variable. For example, if a specific mobile phone item has a storage variable, you can create a report that only shows those phones with 32 GB of storage.
 
-**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-data-visualizations.md)
 
 ## Use service catalog variables in data visualizations
 
@@ -69,7 +69,7 @@ Under **Group by**, select **+ Add**. Then select **Variables** at the bottom of
 
 </td><td>
 
-Under **Group by**, select **Add alternative group by**. Then select **Variables** at the bottom of the field list. A viewer can choose one of these variables at runtime, as described in [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-group-runtime.md).
+Under **Group by**, select **Add alternative group by**. Then select **Variables** at the bottom of the field list. A viewer can choose one of these variables at runtime, as described in [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-group-runtime.md).
 
 </td></tr><tr><td id="d215966e223">
 

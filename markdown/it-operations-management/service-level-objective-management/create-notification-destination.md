@@ -2,7 +2,7 @@
 title: Create a notification destination in SRM
 description: Set up notification destinations to help keep teams informed about service reliability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/create-notification-destination.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-level-objective-management/create-notification-destination.html
 release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -23,7 +23,7 @@ Before creating notification destinations, set up the Microsoft Teams Graph spok
 -   `ChannelMessage.Send`
 -   `Group.ReadWrite.All**`
 
-For setup instructions, see Set up the Microsoft Teams Graph spoke.
+For setup instructions, see [Set up the Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
 
 Role required: srm\_manager, srm\_admin, or admin
 
@@ -83,10 +83,10 @@ Display name of the notification destination.Teams see this name when adding not
 
 To use and learn more about notification destinations, visit the following pages:
 
--   [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)
--   [Notifications for breached error budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/srm-notifications-messages.md)
+-   [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)
+-   [Notifications for breached error budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/srm-notifications-messages.md)
 
 You can also edit and delete notification destinations from the SLO Notification destinations tab. Deleting a notification destination removes it from all error budget policies where it was previously used.
 
-**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
+**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

@@ -2,7 +2,7 @@
 title: Add a parameter to a test step
 description: Add a variable to a test step to hold a particular type of data when the test runs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/add-parameterized-value-to-step.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/add-parameterized-value-to-step.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -18,7 +18,7 @@ Add a variable to a test step to hold a particular type of data when the test ru
 
 ## Before you begin
 
--   [Create a parameterized test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/create-parameterized-test.md)
+-   [Create a parameterized test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/create-parameterized-test.md)
 -   Role required: atf\_test\_admin, atf\_test\_designer, or admin
 
 ## About this task
@@ -46,7 +46,7 @@ When the test runs, Automated Test Framework replaces the parameter with test ru
 
 ## What to do next
 
-[Add parameterized data sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/add-parameterized-data.md).
+[Add parameterized data sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/add-parameterized-data.md).
 
-**Parent Topic:**[Parameterized tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/parameterized-tests.md)
+**Parent Topic:**[Parameterized tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/parameterized-tests.md)
 

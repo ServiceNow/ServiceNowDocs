@@ -2,7 +2,7 @@
 title: Set up Smartsheet spoke connection and credentials
 description: Set up the connection and credential record to enable the ServiceNow instance to get authenticated and connected to Smartsheet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-smartsheet-connection-credentials.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/set-up-smartsheet-connection-credentials.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -69,7 +69,7 @@ API Key
 
 </td><td>
 
-Application Programming Interface \(API\) key that is generated on Smartsheet. **Note:** To learn how to generate the API key, see [Generate the Smartsheet Application Programming Interface \(API\) key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/generate-smartsheet-api-key.md).
+Application Programming Interface \(API\) key that is generated on Smartsheet. **Note:** To learn how to generate the API key, see [Generate the Smartsheet Application Programming Interface \(API\) key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/generate-smartsheet-api-key.md).
 
 </td></tr></tbody>
 </table>5.  Select **Create**.

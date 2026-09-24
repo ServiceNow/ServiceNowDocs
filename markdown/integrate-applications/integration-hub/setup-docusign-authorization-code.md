@@ -2,7 +2,7 @@
 title: Set up Docusign eSignature spoke using authorization code grant
 description: Integrate the ServiceNow instance and Docusign eSignature spoke by using Authorization Code to authenticate ServiceNow requests.Configure a custom OAuth application from your Docusign account to enable authentication with the Docusign eSignature spoke.Integrate the ServiceNow instance and Docusign account instance using authorization code grant to authenticate ServiceNow requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-docusign-authorization-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-docusign-authorization-code.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -52,7 +52,7 @@ Docusign requirements:
 
 4.  Record the values of integrator key and secret key to register the app as a third-party OAuth provider on your ServiceNow instance.
 
-    You need these values when you [Configure the connection for Docusign eSignature spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
+    You need these values when you [Configure the connection for Docusign eSignature spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
 
 5.  Add the ServiceNow OAuth Redirect URL in your Docusign account.
 
@@ -127,7 +127,7 @@ Connection URL
 
 </td><td>
 
-**Account Base URI** to connect to Docusign environment. This value can be obtained from your Docusign account. For more information see, [Configure the Docusign account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
+**Account Base URI** to connect to Docusign environment. This value can be obtained from your Docusign account. For more information see, [Configure the Docusign account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
 
 </td></tr><tr><td>
 
@@ -179,7 +179,7 @@ OAuth Redirect URL
 
 </td><td>
 
-OAuth callback endpoint in this format: `https://<instance>.service-now.com/oauth_redirect.do`.**Note:** Ensure that you add this URL in your Docusign account. For more information see, [Configure the Docusign account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
+OAuth callback endpoint in this format: `https://<instance>.service-now.com/oauth_redirect.do`.**Note:** Ensure that you add this URL in your Docusign account. For more information see, [Configure the Docusign account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
 
 </td></tr></tbody>
 </table>    \[Omitted image "docusign-conf-temp.png"\] Alt text: Docusign connection.

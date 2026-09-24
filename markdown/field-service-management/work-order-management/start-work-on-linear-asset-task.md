@@ -2,7 +2,7 @@
 title: Start work on a linear asset task
 description: Examine the linear asset specified in the work order task to pinpoint or select segments or areas in need of attention or maintenance, and generate a corresponding work order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/start-work-on-linear-asset-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/start-work-on-linear-asset-task.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -49,7 +49,7 @@ Role required: wm\_agent
 
 9.  Provide additional information about the affected linear asset by tapping **Take questionnaire**.
 
-    For more information, see [Complete a questionnaire for work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/complete-questionnaire-mobile-app.md).
+    For more information, see [Complete a questionnaire for work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/complete-questionnaire-mobile-app.md).
 
 10. If you identify an issue for a linear asset when inspecting a segment, create a new work order.
 

@@ -2,7 +2,7 @@
 title: MID Servers for Orchestration
 description: Orchestration automatically selects an appropriate MID Server based on the capabilities that you configure in activities, the IP addresses of target devices, and the application that the MID Server is allowed to use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/c\_OrchestrationMID.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/c\_OrchestrationMID.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -29,12 +29,12 @@ You can also specify a default MID Server to use if no MID Servers meet the capa
 MID Server capabilities define the specific functions of a MID Server within an IP address range.
 -   **[Select the default MID Server for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Orchestration uses the default MID Server if it cannot find a MID Server with the correct IP range and capability.
--   **[PowerShell probe version 2 system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/powershell-probe-v2.md)**  
+-   **[PowerShell probe version 2 system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/powershell-probe-v2.md)**  
 View detailed PowerShell credential information and view extended logging information.
--   **[PowerShell log property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/powershell-log-property.md)**  
+-   **[PowerShell log property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/powershell-log-property.md)**  
 Enable debug messages to display from PowerShell.
 
-**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r-orchestration.md)
+**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/r-orchestration.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Add an annotation to a flow history entry
 description: Add a text description to a flow history entry. Summarize the purpose or contents of a particular flow history entry.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-annotation-to-flow-history-entry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/add-annotation-to-flow-history-entry.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -55,5 +55,5 @@ Annotations are only visible from the sidebar History view.
 
 You can change the annotation using the **Modify annotation** option.
 
-**Parent Topic:**[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-history.md)
+**Parent Topic:**[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-history.md)
 

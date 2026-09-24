@@ -2,7 +2,7 @@
 title: Set up Conversational Integration with WhatsApp \(powered by Twilio\)
 description: Set up the Conversational Integration with WhatsApp \(powered by Twilio\) application so that you can engage requesters in bot conversations. Integrating with ServiceNow Virtual Agent enables you to interact on WhatsApp chat with a Virtual Agent or Live Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-whatsapp-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/messg-whatsapp-setup.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -159,7 +159,7 @@ Inbound message verification
 
 </td><td>
 
-Name of the Hash Message Verification record that you created for the inbound hash messages in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-whatsapp-setup.md).
+Name of the Hash Message Verification record that you created for the inbound hash messages in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-whatsapp-setup.md).
 
 </td></tr><tr><td>
 
@@ -167,7 +167,7 @@ Outbound message verification
 
 </td><td>
 
-Name of the Hash Message Verification record that you created for the inbound hash messages in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-whatsapp-setup.md).**Note:** The values for the **Inbound message verification** and **Inbound message verification** fields are the same.
+Name of the Hash Message Verification record that you created for the inbound hash messages in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-whatsapp-setup.md).**Note:** The values for the **Inbound message verification** and **Inbound message verification** fields are the same.
 
 </td></tr></tbody>
 </table>    3.  Click **Submit**.
@@ -216,7 +216,7 @@ Message auth
 
 </td><td>
 
-Message auth that you created in [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-whatsapp-setup.md).
+Message auth that you created in [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-whatsapp-setup.md).
 
 </td></tr></tbody>
 </table>    5.  Click **Submit**.

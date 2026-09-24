@@ -2,7 +2,7 @@
 title: Publish app changes to the Application Repository from ServiceNow Studio
 description: Publish app changes from ServiceNow Studio to the Application Repository \(App Repo\) so your updates are available to all instances of your application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-publish-changes-to-app-using-app-repo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/qs-publish-changes-to-app-using-app-repo.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -22,7 +22,7 @@ Role required: admin or delegated\_developer
 
 ## About this task
 
-The App Repo is one deployment option available in ServiceNow. You can also [create update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-create-update-set.md) to publish changes. If your company has a deployment pipeline configured, you can deploy changes through the pipeline in ServiceNow Studio. For more information about the App Repo, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/app-repo.md).
+The App Repo is one deployment option available in ServiceNow. You can also [create update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/qs-create-update-set.md) to publish changes. If your company has a deployment pipeline configured, you can deploy changes through the pipeline in ServiceNow Studio. For more information about the App Repo, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/app-repo.md).
 
 ## Procedure
 

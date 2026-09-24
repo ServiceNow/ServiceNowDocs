@@ -2,7 +2,7 @@
 title: Configure Run Antivirus Scan capability in Microsoft Defender for Endpoint
 description: Remotely initiate an anti virus scan to help identify and remediate malware that might be present on a compromised device. Run the scan as part of the investigation or response process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/run-antivirus-scan-capability-ms-defender.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/run-antivirus-scan-capability-ms-defender.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -53,7 +53,7 @@ Role required: sn\_si.admin or sn\_si.analyst
 6.  Validate the status of the action on the Additional Actions on Endpoint related lists.
 
 
-**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
+**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 **Related topics**  
 

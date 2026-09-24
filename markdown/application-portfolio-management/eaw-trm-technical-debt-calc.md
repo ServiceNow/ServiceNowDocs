@@ -2,7 +2,7 @@
 title: Technical debt calculation
 description: Technical debt records identify products used in business applications that are not approved in the TRM or that use unapproved versions. View technical debt records to understand conformance gaps and plan remediation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-technical-debt-calc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-trm-technical-debt-calc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ To view technical debt records, you need the Technology Lifecycle Management \(s
 
 ## Configurable conditions
 
-You can select which conditions the scheduled job uses to create technical debt records. At least one condition must remain selected. For configuration steps, see [Configure technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-tech-debt.md).
+You can select which conditions the scheduled job uses to create technical debt records. At least one condition must remain selected. For configuration steps, see [Configure technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-configure-tech-debt.md).
 
 ## Technical debt levels
 
@@ -63,14 +63,14 @@ When the full version field in the Software Discovery Model \[cmdb\_sam\_sw\_dis
 
 A Level 2 technical debt record can be created from a TRM product lifecycle that is defined by both version and edition. The technical debt record captures the edition along with the version. The edition is part of the record identity. A debt for version X, edition A is a separate record from a debt for version X, edition B.
 
-**Parent Topic:**[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+**Parent Topic:**[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 
 **Related topics**  
 
 
-[Technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-tech-debt.md)
+[Technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-tech-debt.md)
 
-[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md)
+[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-states.md)
 
-[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-governing-fields.md)
+[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-governing-fields.md)
 

@@ -2,7 +2,7 @@
 title: ServiceNow Vault console dashboard
 description: Use the ServiceNow Vault console dashboard to track and manage your ServiceNow Vault security tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/vault-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/vault-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-26"
@@ -68,7 +68,7 @@ ServiceNow Otto panel
 
 </td><td>
 
-Use generative AI to streamline your tasks in ServiceNow Vault. For example, you can ask ServiceNow Otto to schedule a data discovery job for you. Prerequisite: Enable skills in . For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md) and [Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md).
+Use generative AI to streamline your tasks in ServiceNow Vault. For example, you can ask ServiceNow Otto to schedule a data discovery job for you. Prerequisite: Enable skills in . For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md) and [Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-now-assist-vault.md).
 
 </td></tr><tr><td>
 
@@ -80,11 +80,11 @@ Guided setup cards for applications
 
 </td><td>
 
-Select the **Get Started** button on an applications card to start using ServiceNow Vault with that application. Read more about Guided setup here:[Use guided setup for ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-vault-guided-setup.md)
+Select the **Get Started** button on an applications card to start using ServiceNow Vault with that application. Read more about Guided setup here:[Use guided setup for ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/use-vault-guided-setup.md)
 
 </td></tr><tr><td rowspan="2">
 
-[Vault tools and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-tools.md)
+[Vault tools and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-tools.md)
 
 </td><td>
 
@@ -92,13 +92,13 @@ Tool information
 
 </td><td>
 
-A brief description and licensing information for the tools used in ServiceNow Vault. Select the **Go to** button go to the tools home page. Tools currently displayed on the dashboard are:-   [Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/data-discovery-landing.md)
--   [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/data-classification.md)
--   [Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-anonymization.md)
--   [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
--   [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md)
--   [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-landing-page.md)
--   [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md)
+A brief description and licensing information for the tools used in ServiceNow Vault. Select the **Go to** button go to the tools home page. Tools currently displayed on the dashboard are:-   [Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-discovery/data-discovery-landing.md)
+-   [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-classification/data-classification.md)
+-   [Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/dps-data-anonymization.md)
+-   [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cloud-encryption/dare-overview.md)
+-   [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption.md)
+-   [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-landing-page.md)
+-   [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md)
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Select the dropdown to review various metrics and graphs about a tool. **Note:**
 
 </td></tr><tr><td>
 
-[Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-default-policies-configs.md)
+[Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-default-policies-configs.md)
 
 </td><td>
 
@@ -118,13 +118,13 @@ Default policies and configurations
 
 </td><td>
 
-For new users with a ServiceNow Vault subscription, ServiceNow Vault can create ready-to-use policies for Anonymization and configurations for Log Export Service. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-default-policies-configs.md).
+For new users with a ServiceNow Vault subscription, ServiceNow Vault can create ready-to-use policies for Anonymization and configurations for Log Export Service. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-default-policies-configs.md).
 
 </td></tr></tbody>
-</table>-   **[Vault tools and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-tools.md)**  
+</table>-   **[Vault tools and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-tools.md)**  
 Learn about the tools and metrics ServiceNow Vault uses to protect and discover sensitive data.
--   **[Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-default-policies-configs.md)**  
+-   **[Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-default-policies-configs.md)**  
 ServiceNow Vault has a set of ready-to-use policies and configurations for selected tools to help you get started quickly.
 
-**Parent Topic:**[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-vault-landing.md)
+**Parent Topic:**[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/servicenow-vault-landing.md)
 

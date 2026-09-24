@@ -2,7 +2,7 @@
 title: Proactive Prompts for managers
 description: Recommend actions to managers based on collected data and best practices, help managers understand team insights, and guide them with next steps. Enable managers to act on potential issues proactively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/insight-based-sug.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/insight-based-sug.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

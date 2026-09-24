@@ -2,7 +2,7 @@
 title: Enable MID Server mutual authentication
 description: Configure the MID Server to use a client certificate for authenticating to the instance. This avoids the need to create a basic authentication credentials in the Key Store for the MID Server's configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/install-mid-mutual-auth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/install-mid-mutual-auth.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -189,7 +189,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 13. Start the MID Server.
 
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
@@ -222,7 +222,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
 [MID Server Governance]()
 
-[Install custom certificates in the MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-unified-keystore.md)
+[Install custom certificates in the MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-unified-keystore.md)
 
-[MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-unified-keystore.md)
+[MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-unified-keystore.md)
 

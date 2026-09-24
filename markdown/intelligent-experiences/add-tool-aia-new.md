@@ -2,7 +2,7 @@
 title: Add tools and information to an AI agent
 description: Add a tool to an AI agent to enable different functionalities and help your AI agents achieve their objectives.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-tool-aia-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-tool-aia-new.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-23"
@@ -45,9 +45,9 @@ You can also add Knowledge graphs in this step. Knowledge graphs provide the AI 
     The agent pauses and asks a person to approve the action before the tool runs. Nothing happens until someone responds, so a supervised tool in a background or unattended execution stalls rather than proceeds. Use it for anything that writes, deletes, contacts a customer, or spends budget.
 
 
-Execution mode is set per tool and can be changed at any time in the guided setup. A mode set during a build conversation can be set after the initial draft. See [Modify an AI agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent-new.md)
+Execution mode is set per tool and can be changed at any time in the guided setup. A mode set during a build conversation can be set after the initial draft. See [Modify an AI agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-ai-agent-new.md)
 
 You can reduce the risk of an AI agent executing unexpectedly by configuring its tools to run in supervised mode. Supervised mode means that tools use human oversight during execution. Use supervised mode to enhance security for agents that perform sensitive or critical actions.
 
-You can set the supervised execution mode when creating a tool in the AI agent guided setup. For example, select **Supervised** as the **Execution mode** when adding a catalog item tool. For reference, see [Add a catalog item to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-catalog-ai-agent.md).
+You can set the supervised execution mode when creating a tool in the AI agent guided setup. For example, select **Supervised** as the **Execution mode** when adding a catalog item tool. For reference, see [Add a catalog item to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-catalog-ai-agent.md).
 

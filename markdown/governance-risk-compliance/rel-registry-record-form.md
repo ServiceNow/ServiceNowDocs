@@ -2,7 +2,7 @@
 title: Relationship registry record form
 description: Use the Relationship Registry form \(the Relationship Registry \[sn\_data\_registry\_relationship\] table\) to create relationships between objects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/rel-registry-record-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/rel-registry-record-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

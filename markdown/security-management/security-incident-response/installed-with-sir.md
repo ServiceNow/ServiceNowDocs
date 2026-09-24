@@ -2,7 +2,7 @@
 title: Components installed with Security Incident Response
 description: Several types of components are installed when you download and activate the Security Incident Response application, including plugin dependencies, user roles, tables, properties, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/installed-with-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/installed-with-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

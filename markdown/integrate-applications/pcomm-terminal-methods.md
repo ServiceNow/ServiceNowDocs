@@ -2,7 +2,7 @@
 title: IBM Personal Communications emulator methods
 description: Use the IBM Personal Communications emulator methods to perform various automation tasks on the IBM Personal Communications emulator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/pcomm-terminal-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/pcomm-terminal-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -415,7 +415,7 @@ Element-level methods perform automation tasks on the emulator screen elements t
 
 ## GetAsTable
 
-Returns the text that you captured as a data table object. Use this method when you capture the data from a screen as a table. However, you can also use the method for the data that you capture as a field. To learn how to capture the data as a table, see [Configure the IBM Personal Communications emulator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/pcomm-emulator.md).
+Returns the text that you captured as a data table object. Use this method when you capture the data from a screen as a table. However, you can also use the method for the data that you capture as a field. To learn how to capture the data as a table, see [Configure the IBM Personal Communications emulator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/pcomm-emulator.md).
 
 \[Omitted image "GetAsTable-element-method.png"\] Alt text: GetAsTable method.
 
@@ -464,5 +464,5 @@ Waits for the duration that you specify while the connector uses the match rule 
 |timeoutinSeconds|Option to provide the number of seconds for which the method waits while the connector uses the match rule to find whether the element exists.|Data In|Integer|30|Yes| |
 |Return|Returns the Boolean value depending on whether the element was found.|Data Out|Boolean|NA|NA| |
 
-**Parent Topic:**[Terminal connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-terminal-methods.md)
+**Parent Topic:**[Terminal connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connectors-terminal-methods.md)
 

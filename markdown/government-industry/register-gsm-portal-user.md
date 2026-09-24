@@ -2,7 +2,7 @@
 title: Register for the Government Service Portal as a constituent, business contact, or user
 description: Register for the Public Sector Digital Services Government Service Portal so that you can search for information, request assistance from a government service agent, apply for a grant, license, or permit, or track the status of your request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/register-gsm-portal-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/register-gsm-portal-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

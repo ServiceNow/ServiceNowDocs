@@ -2,7 +2,7 @@
 title: Edit widgets inline
 description: Use inline admin edits to customize the Explore page and topic pages directly, without configuring widget instance options separately.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-browse-pages-inline-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-browse-pages-inline-config.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

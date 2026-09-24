@@ -2,7 +2,7 @@
 title: Generate API invocation code for an exporter
 description: Generate sample code of an API invocation for an exporter. The code can invoke the exporter. Select from several commonly used languages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-exporter-gen-api-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-exporter-gen-api-code.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -24,7 +24,7 @@ Role required: cdm\_exporter\_editor or cdm\_editor or cdm\_admin
 
 ## Procedure
 
-1.  Prepare an exporter for execution as described in [Test an exporter and export a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-exporter-update-n-test.md).
+1.  Prepare an exporter for execution as described in [Test an exporter and export a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-exporter-update-n-test.md).
 
     **Tip:** Test the exporter to verify its operation.
 

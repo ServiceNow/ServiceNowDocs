@@ -2,7 +2,7 @@
 title: Portal Data List widget JSON parameters
 description: JSON parameters define aspects of the Portal Data list widget on the portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/portal-datalist-widget-data-json.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/portal-datalist-widget-data-json.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -243,7 +243,7 @@ Used to display items for guest users or not logged in users. Map the view you w
 -   Page containing widget \(For example, Cases and Tasks\)
 -   Page content instance
 
-For details, see [Configure public access on the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-guest-access.md).
+For details, see [Configure public access on the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-guest-access.md).
 
 This parameter is optional.
 
@@ -267,5 +267,5 @@ Order of sorting the data list. Default is ascending.This parameter is optional.
 </table>**Related topics**  
 
 
-[Add and configure the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.md)
+[Add and configure the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.md)
 

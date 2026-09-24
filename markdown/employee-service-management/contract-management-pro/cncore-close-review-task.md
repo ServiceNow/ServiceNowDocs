@@ -2,7 +2,7 @@
 title: Cancel an internal review task
 description: As a contract fulfiller, cancel a review task irrespective of its state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-close-review-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-close-review-task.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d113979e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d113983e55">
 
 Method
 
-</th><th align="left" id="d113979e58">
+</th><th align="left" id="d113983e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d113979e64">
+</th></tr></thead><tbody><tr><td id="d113983e64">
 
 **Contract Workspace listing**
 
@@ -44,7 +44,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d113979e111">
+</td></tr><tr><td id="d113983e111">
 
 **Contract Workspace landing page**
 
@@ -55,7 +55,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d113979e144">
+</td></tr><tr><td id="d113983e144">
 
 **Workspace used by your application**
 
@@ -66,7 +66,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d113979e165">
+</td></tr><tr><td id="d113983e165">
 
 **Reviews tab**
 
@@ -92,5 +92,5 @@ Steps
 -   The review task is canceled and the cancellation comments appear in the Additional Comments section of the contract request.
 -   When all the review tasks are cancelled or closed, the contract request State updates to Work in progress.
 
-**Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expert-review.md)
+**Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

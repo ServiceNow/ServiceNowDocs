@@ -2,7 +2,7 @@
 title: Create an OS profile
 description: An OS profile installs a specified image on a newly-provisioned virtual machine. You map an OS profile to a cloud account, a location \(datacenter\), an image template, and a cloud script. OS profiles are provider-agnostic and you can use the same profile for multiple cloud accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-os-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-os-profile.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -80,7 +80,7 @@ Select an image template that the profile should be mapped to. Click the referen
  When you add credentials to an image template, the credentials are inherited by all VMs that are provisioned using the template. See [Add credentials to an image template]().
 
 </td></tr></tbody>
-</table>5.  Map the profile to a cloud script. In this procedure, you specify an existing script. See [Create cloud initialization script templates and a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-init-template-and-script.md).
+</table>5.  Map the profile to a cloud script. In this procedure, you specify an existing script. See [Create cloud initialization script templates and a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-cloud-init-template-and-script.md).
 
     1.  On the Cloud Script OS Profile Mappings related list, click **New** and then fill in the form.
 

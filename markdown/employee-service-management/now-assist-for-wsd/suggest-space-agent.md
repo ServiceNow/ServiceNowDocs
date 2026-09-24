@@ -2,7 +2,7 @@
 title: Using the workplace collaboration Agent for space suggestions
 description: The Workplace Collaboration Agent provides insights on your team members in-office attendance. Based on this information, the reservation agent finds and reserves a space for reservation and collaboration. The collaboration agent considers your colleague's in-office days, location, and suggests a space for collaboration when you're in office.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/suggest-space-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/suggest-space-agent.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -20,7 +20,7 @@ The Create a reservation agent helps employees find a space for reservation. The
 
 **Note:** Desks reservations are supported by the Workplace collaboration agent.
 
-When providing suggestions for collaboration, the Collaboration agent prioritizes data in the following order: Employee Presence Exceptions, Employee Presence Routine, and your current reservations. If an employee's current reservation data and location are available but no workplace presence information exists, the agent prioritizes current reservations over workplace location. For more information, see [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/workplace-concierge-feat.md).
+When providing suggestions for collaboration, the Collaboration agent prioritizes data in the following order: Employee Presence Exceptions, Employee Presence Routine, and your current reservations. If an employee's current reservation data and location are available but no workplace presence information exists, the agent prioritizes current reservations over workplace location. For more information, see [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/workplace-concierge-feat.md).
 
 Your collaborators can be categorized as:
 
@@ -39,17 +39,17 @@ The workplace collaboration agent improves employee's reservation and collaborat
 
 **Note:** If you're planning to sit near a colleague, and if your colleague has a desk reservation for one hour and doesn't have an All day reservation, you can make a reservation for one-hour only. If an employee doesn't have any Employee Presence Exceptions and has no reservations made for a day while in office, the collaboration agent prioritizes the employee's workplace profile location and spaces around that location is suggested to the employee for collaboration.
 
--   **[Get space suggestions using the Workplace collaboration agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/collaboration-agent.md)**  
+-   **[Get space suggestions using the Workplace collaboration agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/collaboration-agent.md)**  
 The Workplace collaboration agent provides space recommendations based on workplace presence data, team members, and reservation attendees.
 
-**Parent Topic:**[Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/create-rsv-agent-ovw.md)
+**Parent Topic:**[Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/create-rsv-agent-ovw.md)
 
 **Related topics**  
 
 
 [Making reservations using the Create a reservation agent]()
 
-[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md)
+[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 
-[Components installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/components-installed-with-workplace-concierge.md)
+[Components installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/components-installed-with-workplace-concierge.md)
 

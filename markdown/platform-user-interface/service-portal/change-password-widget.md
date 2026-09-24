@@ -2,7 +2,7 @@
 title: Change Password widget
 description: Users can change their passwords using the Change Password widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/change-password-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/change-password-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -24,7 +24,7 @@ Users can change their passwords using the Change Password widget.
 
 The Change Password widget does not have instance options.
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Assigning findings to remediation teams using assignment rules
 description: Assignment rules automatically assign findings, such as vulnerable items, application vulnerabilities, container vulnerabilities, and configuration test results, to the appropriate groups for remediation. This streamlined triage ensures that tasks are directed to the appropriate teams, and enhances consistency and visibility across security and compliance programs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-assigning-findings-to-remediation-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-assigning-findings-to-remediation-teams.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-31"
@@ -110,13 +110,13 @@ If the assignment group of a remediation task is updated:
 |Container vulnerable Items \(CVITs\)|Only one matching rule applies. Rules ignore non-Open or manually assigned CVITs.|
 |Configuration Test Results \(CTRs\)|Uses similar logic. Default assignment rule is inactive. Terminology changes as of v14.9 \(for example, "Group Rules" → "Remediation Task Rules"\).|
 
--   **[Removing assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-unassigning-findings.md)**  
+-   **[Removing assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-unassigning-findings.md)**  
 You can remove yourself or your group from the **Assigned to** and **Assignment group** fields on findings and remediation tasks if you believe they were incorrectly assigned.
 
-**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-automating-prioritization-triaging.md)
+**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-automating-prioritization-triaging.md)
 
 **Related topics**  
 
 
-[Configuring assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-assignment-rules.md)
+[Configuring assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-assignment-rules.md)
 

@@ -2,7 +2,7 @@
 title: Improving the user experience with AI Search
 description: Virtual Agent uses the ServiceNow AI Platform AI Search application to return search results in bot conversations as a fallback when there are no relevant topics to display to end users. Virtual Agent also provides a Run AI Search topic block that topic authors can use to generate search results in a topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-ai-search.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -27,7 +27,7 @@ Catalog Genius Results and Q&amp;A Genius Results are automatically activated in
 
 Virtual Agent uses AI Search to provide the following:
 
--   The Run AI Search topic block, which calls the AI Search application in a conversation. Topic designers can add this block as a topic node, to generate and display search results in a conversation. For details about the Run AI Search block and other topic blocks provided with Virtual Agent, see [Virtual Agent pre-built topic blocks for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-platform-topicblocks.md).
+-   The Run AI Search topic block, which calls the AI Search application in a conversation. Topic designers can add this block as a topic node, to generate and display search results in a conversation. For details about the Run AI Search block and other topic blocks provided with Virtual Agent, see [Virtual Agent pre-built topic blocks for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-platform-topicblocks.md).
 -   The AI Search Fallback setup topic that generates search results for end users when Virtual Agent can't determine an intent and topic or the keyword to display the appropriate conversation for user requests.
 
 Virtual Agent provides base system \(default\) AI Search configurations that determine how search results are generated and displayed:
@@ -37,11 +37,11 @@ Virtual Agent provides base system \(default\) AI Search configurations that det
     -   Search profile - Index source to be used and the type of results to show in Genius Result cards.
 -   Entity View Action Mapping \(EVAM\) configuration that defines how search results and Genius Results are displayed.
 
-The Virtual Agent search configurations are part of the default chat experience set in Assistant Designer, through the Custom Greetings and Setup feature. Use this feature to specify the context for running Virtual Agent. The chat experience defines the setup topics used in Virtual Agent conversations and the search configuration that controls the AI Search experience. The AI Search Fallback setup topic controls the AI Search experience. For details, see [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md).
+The Virtual Agent search configurations are part of the default chat experience set in Assistant Designer, through the Custom Greetings and Setup feature. Use this feature to specify the context for running Virtual Agent. The chat experience defines the setup topics used in Virtual Agent conversations and the search configuration that controls the AI Search experience. The AI Search Fallback setup topic controls the AI Search experience. For details, see [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-conversation-settings.md).
 
 Virtual Agent and Virtual Agent Lite use AI Search functionality. If you're a Virtual Agent Lite admin, you can deactivate setup topics such as the AI Search Fallback setup topic, but you can't change the Virtual Agent search configurations set in chat experiences, the Run AI Search topic block, nor the AI Search Fallback setup topic.
 
-In order to use AI Search in Virtual Agent, you must request it for your instance. For more information, see [Activate AI Search for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-ai-search-va.md).
+In order to use AI Search in Virtual Agent, you must request it for your instance. For more information, see [Activate AI Search for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/activate-ai-search-va.md).
 
 ## When Virtual Agent uses AI Search fallback
 
@@ -97,17 +97,17 @@ The default AI Search results include these items:
 
 -   **Portals that display AI Search links**
 
-    Links in the Genius card and multi-link output search results are opened automatically in a portal that you can set in various ways. For example, you can use default or custom URL mappings to specify the portal in which links are opened. To learn more, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-url-navigation.md).
+    Links in the Genius card and multi-link output search results are opened automatically in a portal that you can set in various ways. For example, you can use default or custom URL mappings to specify the portal in which links are opened. To learn more, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-url-navigation.md).
 
 
 ## Custom search experiences
 
-You can customize the AI Search experience in a conversation, for example to run searches that return results relevant to a particular business application. To control the AI Search results returned in a conversation, you can create a search application configuration that defines the search experience used by the AI Search topic block. For details, see [Create a custom AI Search experience for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-va-aisearch-application.md).
+You can customize the AI Search experience in a conversation, for example to run searches that return results relevant to a particular business application. To control the AI Search results returned in a conversation, you can create a search application configuration that defines the search experience used by the AI Search topic block. For details, see [Create a custom AI Search experience for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-va-aisearch-application.md).
 
--   **[Activate AI Search for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-ai-search-va.md)**  
+-   **[Activate AI Search for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/activate-ai-search-va.md)**  
 Once activated, AI Search configurations that are part of the Virtual Agent default chat experience become available. The AI Search Fallback setup topic controls the AI Search experience.
--   **[Create a custom AI Search experience for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-va-aisearch-application.md)**  
+-   **[Create a custom AI Search experience for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-va-aisearch-application.md)**  
 Define a custom AI Search experience in a conversation using the AI Search topic block. You create a Search Application Configuration used by the topic block to control the AI Search results returned in the conversation. Or you can use the Search Application Configuration to control AI Search results in a custom chat experience.
 
-**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
+**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
 

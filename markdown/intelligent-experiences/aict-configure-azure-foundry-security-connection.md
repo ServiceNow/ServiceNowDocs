@@ -2,12 +2,12 @@
 title: Add an Azure AI Foundry connection
 description: Connect Azure AI Foundry to AI Control Tower so that policies and AI agent containment using kill switch protocol can reach and act on agents running on Azure AI Foundry.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-azure-foundry-security-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configure-azure-foundry-security-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-08-31"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -59,5 +59,5 @@ Adding this connection has two parts: first you create a connection and credenti
 
 The connector appears on the **Established connections** sub-tab. AI Control Tower can now use this connection to enforce policies and apply AI agent containment using kill switch protocol to agents running on the connected Azure AI Foundry service.
 
-**Parent Topic:**[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-security-connections.md)
+**Parent Topic:**[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-security-connections.md)
 

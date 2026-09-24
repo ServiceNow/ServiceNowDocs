@@ -2,7 +2,7 @@
 title: Skip Attestations
 description: Skip Attestations lets you bypass the attestation stage for all controls in a package. When enabled \(before implementation\), controls move directly from Draft to Review, attestation-related UI elements are hidden, and Review/Monitor actions replace attestation workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/skip-attestations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/skip-attestations.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -56,5 +56,5 @@ The following parent-child syncing rules apply when status changes:
 -   When a control requirement is set to Non-Compliant, the parent control's status is automatically updated to Non-Compliant.
 -   When a control is set to Compliant, control requirements with an empty status are automatically updated to Compliant.
 
-**Parent Topic:**[CAM workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-workflow-configurator.md)
+**Parent Topic:**[CAM workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-workflow-configurator.md)
 

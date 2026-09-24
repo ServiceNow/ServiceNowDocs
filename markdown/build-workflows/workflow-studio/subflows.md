@@ -2,7 +2,7 @@
 title: Building subflows
 description: Workflow Studio is the default ServiceNow AI Platform process automation builder used to create subflows. Workflow Studio replaces the Workflow Editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/subflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/subflows.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -143,7 +143,7 @@ Click the **More Actions** \(\[Omitted image "MoreActionsIcon.png"\] Alt text: M
 
 -   **Manage natural language title**
 
-    Create or edit a subflow title with styled or dynamic text. For more information, see [Manage natural language titles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-natural-language-title.md).
+    Create or edit a subflow title with styled or dynamic text. For more information, see [Manage natural language titles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/manage-natural-language-title.md).
 
 
 ## Testing subflows
@@ -158,7 +158,7 @@ To access subflows, a user must have the flow\_designer or admin role.
 
 ## General guidelines
 
-General guidelines that apply to [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md) also apply to subflows.
+General guidelines that apply to [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md) also apply to subflows.
 
 Reasons to use a subflow instead of a flow include:
 
@@ -202,36 +202,36 @@ Reasons to use a subflow instead of a flow include:
     Rather than recreate the same sequence of actions in multiple flows, create reusable subflows to correct errors to your record data. When a flow error leaves your record data in an undesired state, use subflows to correct these records. You can use the error handler to identify such record data as a subflow output.
 
 
--   **[Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md)**  
+-   **[Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-subflow.md)**  
 Reuse an entire flow's content as a subflow. Define the input data the subflow uses and the output data it generates. Call subflows from other flows or script.​
--   **[Create a subflow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow-now-asist.md)**  
+-   **[Create a subflow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-subflow-now-asist.md)**  
 Use generative AI to create a subflow from text directionsand images.
--   **[Create conversational subflow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-conversational-subflow-skill.md)**  
+-   **[Create conversational subflow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-conversational-subflow-skill.md)**  
 Create a skill for the conversational subflow and make the skill available for users in a conversation. You can have multiple skills for the same subflow.
--   **[Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-subflow-conversation-settings.md)**  
+-   **[Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configure-subflow-conversation-settings.md)**  
 Configure conversation settings to make a subflow available to conversational interfaces.
--   **[Configure LLM to generate descriptions for conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-llm-for-conversational-subflow.md)**  
+-   **[Configure LLM to generate descriptions for conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configure-llm-for-conversational-subflow.md)**  
 Choose which LLM you want to use by default to generate descriptions for inputs, outputs, and skills for conversational subflows.
--   **[Copy a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/copy-subflow.md)**  
+-   **[Copy a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/copy-subflow.md)**  
 Copy a subflow to give it a new name and move it to another application scope.
--   **[Create a decision table in a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-table-subflow.md)**  
+-   **[Create a decision table in a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-decision-table-subflow.md)**  
 Create a decision table structure while you author your flow in Workflow Studio. Use data from the subflow to create inputs, conditions, and results for the decision table, all in a convenient modal.
--   **[Convert items to subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/convert-items-subflow.md)**  
+-   **[Convert items to subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/convert-items-subflow.md)**  
 Convert consecutive items of a flow into a new subflow that preserves data pill references between the converted items. Update the original flow to replace the converted items with a call to the new subflow.
--   **[Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/template-value.md)**  
+-   **[Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/template-value.md)**  
 Enable flow authors to set field values for a record being created or updated. Use a template value input to set different field values each time you add an action or subflow to a flow.
--   **[Get started with Dynamic Flow and Get Flow Outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-flow-get-flow-outputs.md)**  
+-   **[Get started with Dynamic Flow and Get Flow Outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-flow-get-flow-outputs.md)**  
 Create a sample flow that dynamically calls subflows for provisioning cloud services.
--   **[Publish a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/publish-subflow.md)**  
+-   **[Publish a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/publish-subflow.md)**  
 Publish a subflow to make it available to other users and to add it to activated flows.
--   **[Summarize a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/summarize-a-subflow.md)**  
+-   **[Summarize a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/summarize-a-subflow.md)**  
 Generate a summary of a subflow with ServiceNow Otto for Creator.
--   **[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflow-history.md)**  
+-   **[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflow-history.md)**  
 View and manage the history of a subflow. See past configurations of a subflow to copy, restore, or remove them.
--   **[Test a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-subflow.md)**  
+-   **[Test a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-subflow.md)**  
 You can test a subflow alone, or when added to a flow. When testing a subflow alone, you must define the inputs that the subflow uses in its actions. Because a subflow does not have a trigger, testing a subflow runs the actions using the defined input values. Unless updated, subsequent tests use the same inputs defined in the initial test run.
--   **[Test conversational subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-conversational-subflow.md)**  
+-   **[Test conversational subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-conversational-subflow.md)**  
 Test a conversational subflow to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 
-**Parent Topic:**[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
+**Parent Topic:**[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
 

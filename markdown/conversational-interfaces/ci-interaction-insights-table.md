@@ -2,7 +2,7 @@
 title: Interaction Insights table
 description: User sentiment analysis prepares agents for the tone of incoming conversations. Business rules can be created based on this value and agents can take appropriate actions on the chat, whether it comes from Virtual Agent, another live agent, or from a queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ci-interaction-insights-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/ci-interaction-insights-table.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -80,5 +80,5 @@ User Type
 Type of user. For example, **Agent**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Conversational Interfaces reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-reference-parent.md)
+</table>**Parent Topic:**[Conversational Interfaces reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-reference-parent.md)
 

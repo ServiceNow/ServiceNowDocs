@@ -2,12 +2,12 @@
 title: Add IP data to a range set
 description: Use the IP inventory page in Discovery Admin Workspace to add IP ranges or networks to a new or existing range set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/daw-add-ip-range-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/daw-add-ip-range-set.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Discovery IP address configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -31,7 +31,7 @@ The **Add to Range Set** action is available on the **IP Ranges** and **IP Netwo
 
 **Note:** To avoid performance issues, limit Discovery schedules to a maximum range of /16 \(approximately 65,536 IPs\). For better performance, consider splitting the range into smaller segments.
 
-For collection types and format details, see [Discovery IP address configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md). To view and manage your range sets, see [Discovery Admin Workspace IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-ip-inventory.md).
+For collection types and format details, see [Discovery IP address configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-ip-address-configuration.md). To view and manage your range sets, see [Discovery Admin Workspace IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/daw-ip-inventory.md).
 
 ## Procedure
 
@@ -63,5 +63,5 @@ For collection types and format details, see [Discovery IP address configuration
 **Related topics**  
 
 
-[Add IP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-add-ip-data.md)
+[Add IP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/daw-add-ip-data.md)
 

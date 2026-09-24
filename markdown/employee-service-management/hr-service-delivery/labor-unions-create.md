@@ -2,7 +2,7 @@
 title: Create a labor union
 description: Create a union with details that identify it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/labor-unions-create.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/labor-unions-create.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,8 +43,8 @@ Role required: HR admin \[sn\_hr\_core.admin\]
 
 ## What to do next
 
--   [Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md)
--   [Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-union-contacts.md)
+-   [Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md)
+-   [Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-union-contacts.md)
 
-**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions.md)
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/labor-unions.md)
 

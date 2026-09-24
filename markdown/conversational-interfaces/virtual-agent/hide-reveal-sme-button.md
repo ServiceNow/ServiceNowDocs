@@ -2,7 +2,7 @@
 title: Hide or reveal the Show me everything button
 description: Set properties to hide or reveal the Show me everything button in Virtual Agent LLM \(large language model\) conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/hide-reveal-sme-button.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/hide-reveal-sme-button.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +21,7 @@ Set properties to hide or reveal the Show me everything button in Virtual Agent 
 
 Role required: virtual\_agent\_admin or admin
 
-Duplicate the Virtual Agent greeting Setup topic you want to use for your conversation. For example, **Now Assist - Greeting**. For more information, see [Duplicating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md).
+Duplicate the Virtual Agent greeting Setup topic you want to use for your conversation. For example, **Now Assist - Greeting**. For more information, see [Duplicating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md).
 
 ## About this task
 
@@ -56,7 +56,7 @@ The greeting topic of a Virtual Agent includes a **Show me everything** button b
 
 To reveal the **Show me everything** button again, set the `"hideShowMeEverything"` value from `true` to false.
 
-The duplicated greeting Setup topic is associated with the LLM assistant as the original topic. You can associate the duplicate with another LLM assistant. For more information, see [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md).
+The duplicated greeting Setup topic is associated with the LLM assistant as the original topic. You can associate the duplicate with another LLM assistant. For more information, see [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-conversation-settings.md).
 
-**Parent Topic:**[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/working-setup-topics.md)
+**Parent Topic:**[Working with setup topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/working-setup-topics.md)
 

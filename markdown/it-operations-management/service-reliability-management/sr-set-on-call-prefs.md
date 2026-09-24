@@ -2,7 +2,7 @@
 title: Set on-call team preferences in SRM
 description: Set on-call preferences for team members to increase the efficiency of your business operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-set-on-call-prefs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-reliability-management/sr-set-on-call-prefs.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -96,5 +96,5 @@ Choices are:-   System default \(Escalate to all shifts\)
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)
+**Parent Topic:**[Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)
 

@@ -2,7 +2,7 @@
 title: Clear values from a target instance
 description: You can pass an empty value through a SOAP parameter to clear the respective value in the target instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/clearing-values-target.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/clearing-values-target.html
 release: australia
 product: Web Services
 classification: web-services
@@ -34,7 +34,7 @@ In the above example,
 -   `<assignment_group>value</assignment_group>` changes the value in the **Assignment group** field to the value specified in the SOAP request.
 -   `<category></category>` clears the value in the **Category** field.
 
-**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md)
+**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_DirectWebServices.md)
 
 **Related topics**  
 

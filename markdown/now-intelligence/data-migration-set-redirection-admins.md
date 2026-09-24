@@ -2,7 +2,7 @@
 title: Set redirection for admins
 description: Migrated responsive dashboards automatically redirect to the Platform Analytics experience library. However, you can set a system property to specify redirection for admins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-set-redirection-admins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-set-redirection-admins.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

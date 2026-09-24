@@ -2,7 +2,7 @@
 title: Configure trend for a native Data snapshots indicator in KPI Details
 description: Select a calendar and period by which to aggregate scores on the chart. You can also choose whether to include scores from incomplete periods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-trend-ds-indicator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configure-trend-ds-indicator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,11 +20,11 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 ## About this task
 
-**Important:** Only native Data snapshots indicators have this feature. Classic indicators, including ones with Data snapshots enabled, have a time aggregation instead. For more information, see [Select time aggregation in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-time-series-aggregation.md).
+**Important:** Only native Data snapshots indicators have this feature. Classic indicators, including ones with Data snapshots enabled, have a time aggregation instead. For more information, see [Select time aggregation in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-time-series-aggregation.md).
 
 ## Procedure
 
-1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-kpi-details.md).
+1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/view-kpi-details.md).
 
 2.  Expand the Trend by menu, which has a label matching the currently selected aggregation period.
 
@@ -51,7 +51,7 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 7.  Press **Apply**.
 
 
-**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
+**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details-components.md)
 
 **Related topics**  
 

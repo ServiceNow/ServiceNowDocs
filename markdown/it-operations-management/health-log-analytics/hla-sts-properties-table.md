@@ -2,7 +2,7 @@
 title: Review properties extracted from a source type in Health Log Analytics
 description: Inspect the properties that were extracted from all the source types in a source type structure in a single table to identify any setup issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-sts-properties-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-sts-properties-table.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -122,8 +122,8 @@ Only for properties classified as METER: Sample unique values tracked by the sys
     -   For a GAUGE property: The average, minimum, and standard deviation from the expected numerical value.
 6.  Change classification settings on the **Key/Value Mapping** tab.
 
-    For more information, see [Refine the source type structure in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md).
+    For more information, see [Refine the source type structure in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md).
 
 
-**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
+**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 

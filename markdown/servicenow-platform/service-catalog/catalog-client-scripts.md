@@ -2,7 +2,7 @@
 title: Catalog client scripts
 description: AI can generate a catalog client script from a plain-language description of catalog item behavior without requiring you to write code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-client-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/catalog-client-scripts.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -46,5 +46,5 @@ AI defaults new scripts to UI type: All.
 |----|-----------|
 |Catalog builder developer|Required to create client scripts with AI. A catalog builder editor who attempts this is informed that they don't have the necessary privileges.|
 
-**Parent Topic:**[Things to know while creating items using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/things-to-know-while-creating-items-using-ai.md)
+**Parent Topic:**[Things to know while creating items using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/things-to-know-while-creating-items-using-ai.md)
 

@@ -2,7 +2,7 @@
 title: Proactive Prompts
 description: Proactive Prompts enable contextual and proactive engagement for managers and employees by bringing actionable insights as prompts into their flow of work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -32,19 +32,19 @@ Engage managers and employees through prompts displayed on the most reachable ch
 
 <table id="table_rwk_drp_bwb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Detailed information on Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-explore.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Detailed information on Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-config.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-config.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Know how you can use Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-using.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Know how you can use Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-using.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about tokens, data sources, actions and channels in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about tokens, data sources, actions and channels in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

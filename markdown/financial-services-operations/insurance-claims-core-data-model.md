@@ -2,7 +2,7 @@
 title: Insurance Claims Core
 description: The Insurance Claims Core application includes a framework that provides generic claims data model components and approval engine that your organization can use to create flexible data structures that meet your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims-core-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims-core-data-model.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,12 +22,12 @@ The claim reserve and claim payment components have a claims approval engine for
 
 \[Omitted image "insurance-claims-core-data-model.png"\] Alt text: Diagram illustrating the high-level data model of Insurance Claims Core, in addition to FSO Core and its extensions.
 
--   **[Insurance Claims Core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims-core-tables.md)**  
+-   **[Insurance Claims Core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims-core-tables.md)**  
 This section explains the insurance tables in Insurance Claims Core and how they handle insurance data.
--   **[Insurance Claims Core roles and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims-core-roles-and-properties.md)**  
+-   **[Insurance Claims Core roles and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims-core-roles-and-properties.md)**  
 This section outlines the core roles involved in managing insurance claims and highlights their system properties.
--   **[Approval Engine for Reserves and Payments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/approval-engine-for-reserves-and-payments.md)**  
+-   **[Approval Engine for Reserves and Payments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/approval-engine-for-reserves-and-payments.md)**  
 Insurance claims core includes a claim reserve and payment approval rules engine. It can be found in the decision table **Claim reserve and payment approval rules**.
 
-**Parent Topic:**[Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/data-models.md)
+**Parent Topic:**[Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/data-models.md)
 

@@ -2,7 +2,7 @@
 title: Cost plan breakdown form
 description: Learn and update the enabled fields of cost plan breakdown form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/cost-plan-breakdown-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/cost-plan-breakdown-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -110,5 +110,5 @@ First date of the fiscal period corresponding to the cost plan breakdown.
 </table>**Related topics**  
 
 
-[Update a cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-cost-plan-breakdown.md)
+[Update a cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/update-cost-plan-breakdown.md)
 

@@ -2,7 +2,7 @@
 title: Configure cascade delete rules
 description: When a record is deleted, there are different options for how the deletion will affect records that reference the deleted record. You can configure what happens to records that reference a record when that record is deleted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CascadeDeleteRules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CascadeDeleteRules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -85,5 +85,5 @@ Deleting a record does not change records that reference the record.
 **Related topics**  
 
 
-[Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md)
+[Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md)
 

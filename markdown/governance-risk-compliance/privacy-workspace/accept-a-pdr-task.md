@@ -2,7 +2,7 @@
 title: Accept and work on a Personal Data Rights task
 description: Accept Personal Data Rights \(PDR\) tasks that are assigned to you. Unless you accept the work, you will not be able to work towards closing the task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/accept-a-pdr-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/accept-a-pdr-task.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -46,12 +46,12 @@ Role required: sn\_grc\_pdr.pdr\_agent
     |**To close the task without review**|Select **Close as complete**.|
 
 
-**Parent Topic:**[Using Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-personal-data-right.md)
+**Parent Topic:**[Using Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-personal-data-right.md)
 
 **Related topics**  
 
 
-[Workflow of Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/workflow-of-personal-data-rights.md)
+[Workflow of Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/workflow-of-personal-data-rights.md)
 
-[Add action tasks to a Personal Data Rights request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/add-action-tasks-to-a-personal-data-rights-request.md)
+[Add action tasks to a Personal Data Rights request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/add-action-tasks-to-a-personal-data-rights-request.md)
 

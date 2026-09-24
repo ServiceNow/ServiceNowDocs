@@ -2,7 +2,7 @@
 title: Employee document management bulk imports
 description: Use the Employee Document Management Bulk Imports feature to copy your employee documents from an external third-party cloud-based storage or a local network directory to Employee Document Management. Having your employee documents within HR Service Delivery makes administration efficient and convenient.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/edm-bulk-uploads.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/edm-bulk-uploads.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -102,18 +102,18 @@ Use the **sn\_hr\_ef.max\_file\_size** field in the Properties for Employee Docu
 
 **Note:** Increasing the maximum size can affect system performance.
 
-For more information, see [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/employee-doc-properties.md).
+For more information, see [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/employee-doc-properties.md).
 
--   **[Use import mapping to locate and transform source employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/import-mapping.md)**  
+-   **[Use import mapping to locate and transform source employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/import-mapping.md)**  
 Import mapping locates your source employee documents from your source document repository and transforms them to import them to Employee Document Management.
--   **[Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-bulk-configuration.md)**  
+-   **[Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md)**  
 Use Employee Document Import Configuration to identify and communicate with the source document repository. The source document repository is where you currently store your employee documents.
--   **[Bulk import map examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-map-examples.md)**  
+-   **[Bulk import map examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-map-examples.md)**  
 Mapping your source employee documents to required elements in Employee Document Management is crucial for a successful bulk import.
--   **[Correcting employee documents in the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-doc-staging.md)**  
+-   **[Correcting employee documents in the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-doc-staging.md)**  
 Use the Employee Document Staging form to correct staging records prior to importing to HR Service Delivery. Staging records are created after you have mapped your source employee documents and the Start staging job has run.
 
-**Parent Topic:**[Using Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/using-employee-document-management.md)
+**Parent Topic:**[Using Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/using-employee-document-management.md)
 
 **Related topics**  
 

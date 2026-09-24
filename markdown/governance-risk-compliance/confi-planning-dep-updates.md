@@ -2,7 +2,7 @@
 title: Configuring planning dependency updates
 description: The BCM administrators configure the Planning dependency update configuration record. An auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/confi-planning-dep-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/confi-planning-dep-updates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,10 +36,10 @@ The BCM administrators select the **Send notification** option to set the notifi
 
 The plan owner and BCM lead review the dependency updates from the snapshot record. The delta snapshot record displays the updated dependencies such as Added, Updated, and Deleted assets for the selected plan record.
 
-For more information on configuring the Planning dependency update configuration record, see [Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-plan-dep-update-confi-module.md).
+For more information on configuring the Planning dependency update configuration record, see [Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-plan-dep-update-confi-module.md).
 
--   **[Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-plan-dep-update-confi-module.md)**  
+-   **[Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-plan-dep-update-confi-module.md)**  
 Configure the Planning dependency update configuration record to configure the plan record \(for which the dependencies are updated\), its target records, sources, and notification preferences.
 
-**Parent Topic:**[Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/dependency-config-modules.md)
+**Parent Topic:**[Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/dependency-config-modules.md)
 

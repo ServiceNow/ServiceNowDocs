@@ -2,7 +2,7 @@
 title: Ensure technology teams meet compliance and performance standards blueprint
 description: Select this adoption blueprint to ensure that your technology teams meet all of the required compliance standards for vendors, security, and performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-ab5.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/admin-center/ac-ab5.html
 release: australia
 product: Admin Center
 classification: admin-center
@@ -72,7 +72,7 @@ Use the Cloud Provisioning and Governance application to provide a single interf
 
 </td><td>
 
-Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md).
+Uses bases system roles. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/r_BaseSystemRoles.md).
 
 </td><td>
 
@@ -140,5 +140,5 @@ pa\_data\_collector
 [Vendor Management Workspace overview \(video\)](https://www.youtube.com/watch?v=qecN5VLItiA&t=3s)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/admin-center/ac-select-business-objective.md)
 

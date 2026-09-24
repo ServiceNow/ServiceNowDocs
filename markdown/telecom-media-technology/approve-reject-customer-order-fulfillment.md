@@ -2,7 +2,7 @@
 title: Approve or reject a customer order for fulfillment
 description: Select a customer order, and review the account, contact, pricing, and date details to make sure that the order is correct and complete. If you're an order fulfillment manager, can approve or reject a customer order with a New state for fulfillment.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 6, 2025. The content has been covered in the new approve/reject topics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/approve-reject-customer-order-fulfillment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/approve-reject-customer-order-fulfillment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfillment\_manager
 Some of the OMT tables need reparenting. Please contact administrator to execute the reparenting script.
 ```
 
-The Post Upgrade Script performs required order management table reparenting and column promotion. If the script hasn't been run, the order decomposition and order fulfillment functions won't function as designed until your system administrator runs it. To learn more, see [Restructured Order Management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/restructured-order-mgt-tables-san-diego.md).
+The Post Upgrade Script performs required order management table reparenting and column promotion. If the script hasn't been run, the order decomposition and order fulfillment functions won't function as designed until your system administrator runs it. To learn more, see [Restructured Order Management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/restructured-order-mgt-tables-san-diego.md).
 
 ## Procedure
 
@@ -55,15 +55,15 @@ The Post Upgrade Script performs required order management table reparenting and
 
 4.  To approve or reject fulfillment of a customer order in a New state, perform one of the following actions.
 
-<table id="choicetable_opd_p3f_5rb"><thead><tr><th align="left" id="d23983e212">
+<table id="choicetable_opd_p3f_5rb"><thead><tr><th align="left" id="d23987e212">
 
 Action
 
-</th><th align="left" id="d23983e215">
+</th><th align="left" id="d23987e215">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23983e221">
+</th></tr></thead><tbody><tr><td id="d23987e221">
 
 **Approve a customer or service order for fulfillment**
 
@@ -77,7 +77,7 @@ When you approve an order for fulfillment, the following actions take place:
 -   The **Revision Operation** field is set to None.
 **Note:** You must have an sn\_ind\_tmt\_orm.order\_fulfillment\_manager role.
 
-</td></tr><tr><td id="d23983e264">
+</td></tr><tr><td id="d23987e264">
 
 **Reject a customer or service order for fulfillment**
 

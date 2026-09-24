@@ -2,7 +2,7 @@
 title: Create a transform definition
 description: The following example describes the procedure for creating a new transform definition. In this example, we create a definition that transforms a number field to an odd or even integer. The transform category is Numeric and the normalization field type is Integer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateATransformDefinition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateATransformDefinition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

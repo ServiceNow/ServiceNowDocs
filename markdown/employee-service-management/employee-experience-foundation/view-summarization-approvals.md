@@ -2,7 +2,7 @@
 title: View summarization for approvals
 description: Check the generated approval summaries for cases, requested items, and requests for approvals. Based on the trigger selection by your admin, you can see contextual summary of the approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/view-summarization-approvals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/view-summarization-approvals.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -41,18 +41,18 @@ Role required:approver\_user, sn\_request\_read, sn\_write
 
         \[Omitted image "uex-using-task-summarize-auto.png"\] Alt text: Automated summarization on ServiceNow Otto for Employee Experience
 
-    For more information on how to configure, see [Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)
+    For more information on how to configure, see [Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)
 
 4.  Select **Approve** or **Reject**.
 
 
 ## What to do next
 
-Proceed to [Manage approvals with Approval Assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-approvals-with-approvals-agent.md). Review how to set up and use the Approval Assistance AI agent. For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md).
+Proceed to [Manage approvals with Approval Assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/manage-approvals-with-approvals-agent.md). Review how to set up and use the Approval Assistance AI agent. For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md).
 
 **Note:** Ensure the portal approval record is configured as explained in [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-approval-assistance-ai-agent.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
+**Parent Topic:**[Using ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
 
 **Related topics**  
 
@@ -63,5 +63,5 @@ Proceed to [Manage approvals with Approval Assistance AI agent](https://raw.gith
 
 [Check company news and events]()
 
-[Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)
+[Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)
 

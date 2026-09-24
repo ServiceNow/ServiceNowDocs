@@ -2,7 +2,7 @@
 title: Issue form
 description: Use the issue form to add an issue to a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/issue-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/issue-form.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -117,5 +117,5 @@ Work notes
 Information to record and track the work accomplished for resolving the issue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/demand-management-forms.md)
 

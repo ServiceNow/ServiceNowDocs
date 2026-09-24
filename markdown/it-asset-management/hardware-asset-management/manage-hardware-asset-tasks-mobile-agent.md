@@ -2,7 +2,7 @@
 title: Manage hardware asset tasks using the Mobile Agent application
 description: Manage hardware asset tasks such as repair tasks and asset pick tasks using the intuitive Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/manage-hardware-asset-tasks-mobile-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/manage-hardware-asset-tasks-mobile-agent.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -16,14 +16,14 @@ breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Manageme
 
 Manage hardware asset tasks such as repair tasks and asset pick tasks using the intuitive Mobile Agent application.
 
--   **[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)**  
+-   **[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)**  
 Manage all the repair tasks associated with the defective hardware assets in your stockroom using the intuitive Mobile Agent application.
--   **[Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md)**  
+-   **[Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md)**  
 Work on the hardware asset pick tasks assigned to you by using the Mobile Agent application.
--   **[Manage asset put away using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.md)**  
+-   **[Manage asset put away using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.md)**  
 Scan and put away the assets from the receiving bay in the designated aisle-space using the ServiceNow Agent application.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

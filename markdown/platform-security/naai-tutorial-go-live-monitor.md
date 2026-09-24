@@ -2,7 +2,7 @@
 title: Go live and monitor
 description: Deploy your agent to production, activate analytics and monitoring, and establish the ongoing review cadence that keeps your agent performing securely over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-tutorial-go-live-monitor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-tutorial-go-live-monitor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -67,5 +67,5 @@ Schedule the following recurring activities to keep your agent performing secure
     Review your agent's performance metrics against your baseline and success criteria. Use the AI Agent Analytics dashboard and Now Assist Analytics to identify trends and determine whether prompt refinement or configuration changes are needed.
 
 
-**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-overview.md)
+**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-overview.md)
 

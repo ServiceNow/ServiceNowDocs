@@ -2,7 +2,7 @@
 title: Review actions taken on rationalization process
 description: After acting on the recommendations, such as accepting as duplicate, retaining as primary, or dismissing during the rationalization process, the owner sends them for review to the configured reviewers. The reviewers then analyze the actions taken and either approve or reject them, providing proper justification for their decisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/review-actions-taken-on-rationalization-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/review-actions-taken-on-rationalization-process.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -20,7 +20,7 @@ After acting on the recommendations, such as accepting as duplicate, retaining a
 
 Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user
 
-For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
+For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## About this task
 

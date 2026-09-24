@@ -2,7 +2,7 @@
 title: Add an assignment from a request
 description: You can add assignments directly from a request to source rights from software licenses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_AddingAssignmentsFromReq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/procurement/t\_AddingAssignmentsFromReq.html
 release: australia
 product: Procurement
 classification: procurement
@@ -57,7 +57,7 @@ Role required: procurement\_admin or procurement\_user
     For auditing, the **Assigned Licences** related list in the Request form will provide the details of all the assignments done as part of this request.
 
 
-**Parent Topic:**[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_SourcingRequestItems.md)
+**Parent Topic:**[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/procurement/c_SourcingRequestItems.md)
 
 **Related topics**  
 

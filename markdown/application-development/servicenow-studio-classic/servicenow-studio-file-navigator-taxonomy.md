@@ -2,7 +2,7 @@
 title: ServiceNow Studio Navigator panel taxonomy
 description: Reference each metadata file type and its corresponding primary table in the File categories tab of the ServiceNow Studio Navigator panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -18,9 +18,9 @@ Reference each metadata file type and its corresponding primary table in the Fil
 
 **Note:** Any additional extensions of the sys\_metadata table are automatically included in the Navigator panel in the appropriate section.
 
-For each file category, the following sections list the available file types and their corresponding primary table. For more information about navigating to a file's primary table, see [Navigate directly to a table in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-navigate-directly-to-table.md).
+For each file category, the following sections list the available file types and their corresponding primary table. For more information about navigating to a file's primary table, see [Navigate directly to a table in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/qs-navigate-directly-to-table.md).
 
-Metadata-specific admin roles are existing roles on the ServiceNow AI Platform that provide developers with admin access to a specific metadata type. For example, a script include admin allows a developer to create, read, update, or delete any script include on the ServiceNow AI Platform and perform development on script includes in ServiceNow Studio. For more information, see [ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-personas-roles.md).
+Metadata-specific admin roles are existing roles on the ServiceNow AI Platform that provide developers with admin access to a specific metadata type. For example, a script include admin allows a developer to create, read, update, or delete any script include on the ServiceNow AI Platform and perform development on script includes in ServiceNow Studio. For more information, see [ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-personas-roles.md).
 
 ## AI files
 
@@ -690,7 +690,7 @@ Form
 
 Forms are content pages that display fields and values for a single record from a database table.
 
- For more information, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md).
+ For more information, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-view-configuration.md).
 
 </td><td>
 
@@ -708,7 +708,7 @@ Form section
 
 Sections control the layout of a form. For example, you can have one column or two.
 
- For more information, see [Customize your form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/customize-form-layout.md).
+ For more information, see [Customize your form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/customize-form-layout.md).
 
 </td><td>
 
@@ -762,9 +762,9 @@ Table
 
 Tables are the foundation of how the ServiceNow AI Platform stores data. When you view a table as a list, each row is a record, and each column is a field from the record. For example, the Incident table has a record for every customer interaction, or incident.
 
- For more information, see [ServiceNow AI Platform tables and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tables-fields-and-forms.md) and [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
+ For more information, see [ServiceNow AI Platform tables and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tables-fields-and-forms.md) and [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-landing-page.md).
 
- Preferred table admins can configure preferred tables for Table Builder. For more information, see [ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-personas-roles.md).
+ Preferred table admins can configure preferred tables for Table Builder. For more information, see [ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-personas-roles.md).
 
 </td><td>
 
@@ -782,7 +782,7 @@ Table Column
 
 Table columns represent a field from a record. For example, a user record might have a column for first name and a separate column for family name.
 
- For more information, see [Table properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-parameters.md).
+ For more information, see [Table properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/table-parameters.md).
 
 </td><td>
 
@@ -2036,7 +2036,7 @@ Fix Script
 
 Fix scripts are server-side JavaScript that run after a custom application is installed or upgraded. Include fix scripts to make changes necessary for the data integrity or product stability of an application.
 
- For more information, see [Fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_FixScripts.md) and [Create a fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_CreateFixScripts.md).
+ For more information, see [Fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_FixScripts.md) and [Create a fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/t_CreateFixScripts.md).
 
 </td><td>
 
@@ -2145,7 +2145,7 @@ Components
 
 </td><td>
 
-Components are used in the UI Builder to build pages. Components have an interface that an end user can view and interact with. Components can talk to each other through events and properties. Commonly used components include Heading, Image, List, Form, and Button.For more information, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
+Components are used in the UI Builder to build pages. Components have an interface that an end user can view and interact with. Components can talk to each other through events and properties. Commonly used components include Heading, Image, List, Form, and Button.For more information, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-components.md).
 
 </td><td>
 
@@ -2166,7 +2166,7 @@ Controllers are a type of data resource that includes data and event logic and e
 -   Data controllers contain data resources and can be manually added to a page.
 -   UI controllers are added to pages when using page templates and cannot be added manually.
 
-For more information, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md).
+For more information, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/controllers.md).
 
 </td><td>
 
@@ -2182,7 +2182,7 @@ Experiences
 
 </td><td>
 
-Experiences are a collection of web pages for users to interact with an application.For more information, see [Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-experience.md).
+Experiences are a collection of web pages for users to interact with an application.For more information, see [Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-experience.md).
 
 </td><td>
 
@@ -2198,7 +2198,7 @@ Page collections
 
 </td><td>
 
-Page collections are groups of pages that can be reused in experiences within tabs or modals.For more information, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/page-collections.md).
+Page collections are groups of pages that can be reused in experiences within tabs or modals.For more information, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/page-collections.md).
 
 </td><td>
 
@@ -2214,7 +2214,7 @@ UI interactions
 
 </td><td>
 
-UI interactions are reusable flows that combine UI elements and logic into a single unit that you can trigger from component events in UI Builder. They help avoid repeating the same wiring across multiple pages and make designs easier to maintain.For more information, see [UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md).
+UI interactions are reusable flows that combine UI elements and logic into a single unit that you can trigger from component events in UI Builder. They help avoid repeating the same wiring across multiple pages and make designs easier to maintain.For more information, see [UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/uib-ui-interactions.md).
 
 </td><td>
 
@@ -2469,7 +2469,7 @@ Portal
 
 Portals provide users with access to the services, information, and resources they need to complete their work. Work with portals in UI Builder.
 
- For more information, see [Configure UI Builder portal experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-portal-settings.md).
+ For more information, see [Configure UI Builder portal experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-builder-portal-settings.md).
 
 </td><td>
 
@@ -2667,7 +2667,7 @@ Workspace
 
 Workspaces provide agents and managers with tools to answer customer questions and resolve customer problems. Workspaces are primarily used for request and fulfillment processes, such as a service desk to manage tickets.
 
- For more information, see [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) and [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md).
+ For more information, see [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) and [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/workspace-builder-landing.md).
 
 </td><td>
 
@@ -2678,5 +2678,5 @@ sys\_ux\_page\_registry
 Workspace Builder
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
+</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
 

@@ -2,7 +2,7 @@
 title: Tracking your location on ServiceNow Agent
 description: Use location tracking so that you can keep a record of your location, either for a defined period of time or while you perform tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/location-tracking-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/location-tracking-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

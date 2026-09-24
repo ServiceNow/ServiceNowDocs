@@ -2,7 +2,7 @@
 title: Create fiscal calendars
 description: Collect, aggregate, and report data based on your fiscal calendars, which may differ from the standard Gregorian calendar. Global organizations often operate in countries with unique fiscal calendars. By creating fiscal calendars in the Operational Sustainability Management application, you enable local entities to collect data according to their own schedules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/enable-custom-fiscal-year.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/enable-custom-fiscal-year.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -84,12 +84,12 @@ Specify how you want to represent the fiscal year. In some countries, such as In
 
 ## What to do next
 
-Map the source and target calendars. For more information, see [Map target and source calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/map-target-and-source-calendars.md).
+Map the source and target calendars. For more information, see [Map target and source calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/map-target-and-source-calendars.md).
 
--   **[Map target and source calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/map-target-and-source-calendars.md)**  
+-   **[Map target and source calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/map-target-and-source-calendars.md)**  
 Map target calendars with source calendars to establish the data roll up hierarchy. You can create multiple calendar mappings depending on your requirements.
--   **[Add entities for fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-entities-for-a-fiscal-calendar.md)**  
+-   **[Add entities for fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/add-entities-for-a-fiscal-calendar.md)**  
 Identify the entities that will follow the fiscal calendars you have created. This ensures that data collection is consistent, as each entity follows the designated calendar.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-grc-metrics.md)
 

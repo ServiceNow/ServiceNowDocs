@@ -2,7 +2,7 @@
 title: Setting up Scheduling in Workforce Optimization for Customer Service
 description: Manage events using the team calendar. Create different types of event categories. Use scripted extension points to customize event types.Add an event category. Create or update field configurations for events. You can also specify if an event category must be excluded when the shift coverage for agents are calculated.Create multiple events from the same category and add them to the team calendar.Configure schedule adherence properties to calculate the adherence and conformance of your agents so that you can improve the operational efficiency of your organization.Configure and tweak the schedule adherence and conformance formulas using scripted extension points so that you can customize them for your organization.Use extension points to call scripts for event categories such as meeting, time off, or work time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-scheduling-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/setup-scheduling-configurable-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Cust
 
 Manage events using the team calendar. Create different types of event categories. Use scripted extension points to customize event types.
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-configurable-wfo-cs.md)
 
 ## Configure event categories for Manager Workspace
 
@@ -209,9 +209,9 @@ The threshold settings for adherence and conformance indicate how many minutes e
 
 [Scheduling in Workforce Optimization for Customer Service]()
 
-[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-schedule-adherence-configurable-wfo.md)
+[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-schedule-adherence-configurable-wfo.md)
 
-[Analyze conformance from time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)
+[Analyze conformance from time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)
 
 ## Modify schedule adherence and conformance formulas by using extension points
 

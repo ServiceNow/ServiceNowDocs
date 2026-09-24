@@ -2,7 +2,7 @@
 title: Sitemap Generator for the Consumer Service Portal
 description: The ServiceNow Sitemap Generator application enables you to efficiently define and automatically generate XML sitemaps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/sitemap-generator-csp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/sitemap-generator-csp.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Set up the Attempted Access Deactivated Account playbook
 description: Use the following steps to set up the Attempted Access Deactivated Account playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-attempted-access-deactivated-accounts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-setup-attempted-access-deactivated-accounts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -50,5 +50,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
     \[Omitted image "playbook-attempted-access-deactivated-trigger.png"\] Alt text: Trigger condition for Attempted Access to Deactivated Accounts playbook.
 
 
-**Parent Topic:**[Playbook for Attempted Access to Deactivated Accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-attempted-access-deactivated-accounts.md)
+**Parent Topic:**[Playbook for Attempted Access to Deactivated Accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-attempted-access-deactivated-accounts.md)
 

@@ -2,7 +2,7 @@
 title: Assign required resources to the task-specific crews
 description: Quickly add resources to task-specific crews if you forgot to add an agent or piece of equipment when you created the crew.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/assign-required-resources-wot-crew.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/assign-required-resources-wot-crew.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -18,7 +18,7 @@ Quickly add resources to task-specific crews if you forgot to add an agent or pi
 
 ## Before you begin
 
-Make sure that resource requirements are configured for the work order task before assigning resources to the task-specific crew. For more information, see [Add resource requirement for a work order task in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/add-resource-requirement-disp-wrkspc.md).
+Make sure that resource requirements are configured for the work order task before assigning resources to the task-specific crew. For more information, see [Add resource requirement for a work order task in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/add-resource-requirement-disp-wrkspc.md).
 
 The Equipment list is available only if the Equipment Scheduling plugin \(com.snc.fsm\_resource\_scheduling\) is activated.
 

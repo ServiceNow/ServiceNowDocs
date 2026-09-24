@@ -2,7 +2,7 @@
 title: Configure a pull connector
 description: Configure a pull connector to schedule the frequency of event collection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigureConnectorInstance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMConfigureConnectorInstance.html
 release: australia
 product: Event Management
 classification: event-management
@@ -36,7 +36,7 @@ You can use a connector instance to control the location and manner in which eve
 -   The connector instance value fields are valid.
 -   A connection can be made to the event source, using API, to retrieve events.
 
-[Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md), available in the Service Operations Workspace, consolidates all Event Management connector integrations in one place. Use it to pull or push events from external or internal devices, create or manage connector configurations from a single interface.
+[Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/integrations-launchpad.md), available in the Service Operations Workspace, consolidates all Event Management connector integrations in one place. Use it to pull or push events from external or internal devices, create or manage connector configurations from a single interface.
 
 ## Procedure
 
@@ -97,7 +97,7 @@ The vendor and protocol used to gather events from the external event source. Se
 -   PRTG
 -   vCenter
 -   Zabbix
-For a list of the connector definitions available in the base system, see [Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connectors-and-listeners.md).
+For a list of the connector definitions available in the base system, see [Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/connectors-and-listeners.md).
 
 </td></tr><tr><td>
 
@@ -297,61 +297,61 @@ The name of theMID Server to process events from the event server.
 8.  Confirm that Event Management processes events using this connector instance by manually creating an event.
 
 
--   **[Configure a default MID Server for connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMSetDefaultConnector.md)**  
+-   **[Configure a default MID Server for connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMSetDefaultConnector.md)**  
 You can set a default MID Server for connectors to ensure that there is always a MID Server available to receive external events.
--   **[Configure the Dynatrace metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-dynatrace-connector.md)**  
+-   **[Configure the Dynatrace metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-dynatrace-connector.md)**  
 Configure the Dynatrace connector instance to receive Metric Intelligence raw data from the Dynatrace server.
--   **[Configure the Nagios metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-nagios-metrics-connector.md)**  
+-   **[Configure the Nagios metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-nagios-metrics-connector.md)**  
 Configure the Nagios metric connector instance to receive Metric Intelligence raw data from the Nagios server.
--   **[Configure the Zabbix metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-zabbix-metrics-connector.md)**  
+-   **[Configure the Zabbix metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-zabbix-metrics-connector.md)**  
 Configure the Zabbix Metric connector instance to receive Metric Intelligence raw data from the Zabbix server.
--   **[Configure the SolarWinds metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-solarwinds-connector.md)**  
+-   **[Configure the SolarWinds metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-solarwinds-connector.md)**  
 Configure the SolarWinds connector instance to receive Metric Intelligence raw data from the SolarWinds server.
--   **[Configure event collection from HP OMi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-omi-connector.md)**  
+-   **[Configure event collection from HP OMi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-omi-connector.md)**  
 Configure the HP Operations Manager \(OMi\) connector instance to receive alerts from the HP OMi server.
--   **[Configure event collection from HPOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureHPOMConnector.md)**  
+-   **[Configure event collection from HPOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureHPOMConnector.md)**  
 Configure the HPOM connector instance to receive events from HP Operations Manager \(HPOM\).
--   **[Configure event collection from Hyperic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureHypericConnectorJS.md)**  
+-   **[Configure event collection from Hyperic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureHypericConnectorJS.md)**  
 Configure the Hyperic connector instance to receive events from the VMware vRealize Hyperic server.
--   **[Configure event collection from IBM Netcool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMUpgradeNetcoolConnector.md)**  
+-   **[Configure event collection from IBM Netcool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMUpgradeNetcoolConnector.md)**  
 Configure the IBM Netcool\_V2 connector to receive events from IBM Netcool/OMNIbus Object Servers and Impact Servers. The IBM Netcool\_V2 connector uses REST API calls and is bidirectional.
--   **[Configure event collection from an Icinga2 connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-icinga-connector.md)**  
+-   **[Configure event collection from an Icinga2 connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-icinga-connector.md)**  
 Configure the Icinga 2 \(Icinga\) connector instance to receive events while monitoring your network resources.
--   **[Configure event collection from Logicmonitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-logic-monitor-connector.md)**  
+-   **[Configure event collection from Logicmonitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-logic-monitor-connector.md)**  
 The Logicmonitor pull connector sends information from Event Management to Logicmonitor. It sends responses received from a Push connector in a bi-directional environment to Logicmonitor.
--   **[Configure event collection from NNMi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-nnmi-connector.md)**  
+-   **[Configure event collection from NNMi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-nnmi-connector.md)**  
 Configure the HP Network Node Manager i \(NNMi\) connector instance to receive events while monitoring your network resources.
--   **[Configure event collection from NagiosXI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-nagios-connector.md)**  
+-   **[Configure event collection from NagiosXI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-nagios-connector.md)**  
 Configure the NagiosXI connector instance to receive events from the Nagios Core monitor.
--   **[Configure event collection from OBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-obm-connector.md)**  
+-   **[Configure event collection from OBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-obm-connector.md)**  
 Configure the Operation Bridge Manager \(OBM\), also known as OMi v2, connector instance to receive alerts from the OBM server. The OBM connector script OBM v2 will be available after installing the Event Management Connectors app.
--   **[Configure OP5 or OP5\_v2 connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-op5-connector.md)**  
+-   **[Configure OP5 or OP5\_v2 connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-op5-connector.md)**  
 Configure the OP5 or OP5\_v2 Monitor connector instance to receive alerts from an OP5 Monitor source.
--   **[Configure Opsview\_v2 connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-opsview-connector.md)**  
+-   **[Configure Opsview\_v2 connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-opsview-connector.md)**  
 Configure the Opsview\_V2 connector instance to receive alerts from an Opsview Monitor source.
--   **[Configure PRTG connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-prtg-connector.md)**  
+-   **[Configure PRTG connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-prtg-connector.md)**  
 Configure the PRTG connector instance to receive alerts from a Paessler PRTG Network Monitor source.
--   **[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/apache-kafka-consumer-connector.md)**  
+-   **[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/apache-kafka-consumer-connector.md)**  
 The Apache Kafka Consumer connector instance enables you to create events from messages collected from the Apache Kafka topic as a JSON payload that contains essential information in a data block.
--   **[Configure the Kafka metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-kafka-metrics-connector.md)**  
+-   **[Configure the Kafka metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-kafka-metrics-connector.md)**  
 Configure the Kafka metric consumer connector instance to read message send to Kafka server over topic.
--   **[Configure SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-sapsolman-connector.md)**  
+-   **[Configure SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-sapsolman-connector.md)**  
 Configure the SAP Solution Manager \(Solman\) connector instance to enable communication between the SAP Solution Manager and Event Management.
--   **[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)**  
+-   **[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)**  
 Alerts from the Microsoft System Center Operations Manager \(SCOM\) are collected using the SCOM connector instance.
--   **[Configure event collection from SolarWinds monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSolarwindsConnectorJS.md)**  
+-   **[Configure event collection from SolarWinds monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureSolarwindsConnectorJS.md)**  
 Configure the SolarWinds monitor connector instance to receive events from the SolarWinds monitor.
--   **[Configure event collection from vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-vcenter-connector.md)**  
+-   **[Configure event collection from vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-vcenter-connector.md)**  
 Configure the VMware vCenter Server \(vCenter or vCenter\_V2\) connector instance to receive events from your VMware vSphere environment.
--   **[Configure event collection from vRealize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigurevRealizeConnectorJS.md)**  
+-   **[Configure event collection from vRealize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigurevRealizeConnectorJS.md)**  
 Configure the VMware vRealize Operations \(vRealize or vRealize\_V2\) connector instance to receive events from the vRealize Operations Log and Event Management servers. vRealize uses basic authentication. vRealize\_V2 uses token-based authentication.
--   **[Configure event collection from Zabbix server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureZabbixConnector.md)**  
+-   **[Configure event collection from Zabbix server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureZabbixConnector.md)**  
 Configure the Zabbix server connector instance to receiving alerts from the Zabbix server.
 
-**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connectors-and-listeners.md)
+**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/connectors-and-listeners.md)
 
 **Related topics**  
 
 
-[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connectors-and-listeners.md)
+[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/connectors-and-listeners.md)
 

@@ -2,7 +2,7 @@
 title: Access Management release notes
 description: The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), Security Attributes, Security Data Filters, and Machine Identity Access Control. These controls provide granular control and help improve security for managing data access. Access Management was enhanced and updated in the Australia release.The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), Security Attributes, Security Data Filters, and Machine Identity Access Control. These controls provide granular control and help improve security for managing data access. Access Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/access-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/access-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -31,7 +31,7 @@ See [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow
     Access Management is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-security-rn-landing.md)
 
 ## Australia Early Availability
 

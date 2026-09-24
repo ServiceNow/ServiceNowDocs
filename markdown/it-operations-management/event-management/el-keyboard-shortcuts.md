@@ -2,7 +2,7 @@
 title: Express List keyboard shortcuts
 description: Use keyboard shortcuts to quickly perform common actions in the Express List.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-keyboard-shortcuts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-keyboard-shortcuts.html
 release: australia
 product: Event Management
 classification: event-management

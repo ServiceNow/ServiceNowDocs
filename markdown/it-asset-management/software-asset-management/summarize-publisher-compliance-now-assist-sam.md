@@ -2,7 +2,7 @@
 title: Generate publisher compliance summaries by using ServiceNow Otto for Software Asset Management \(SAM\)
 description: Generate a comprehensive summary for a publisher that covers software deployment, license compliance, configuration health, and optimization. The detailed publisher summary helps you to gain insights into the publisher estate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/summarize-publisher-compliance-now-assist-sam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/summarize-publisher-compliance-now-assist-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -82,5 +82,5 @@ If you found that the summary was helpful, select the helpful icon \[Omitted ima
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam.md)
 

@@ -2,7 +2,7 @@
 title: Connect Support and Service Portal
 description: Use Connect Support in your portal to allow your users to ask questions or submit requests to support agents. You configure the instance options to control the appearance of your widget and how it functions.You can control the appearance of your widget and how it functions by configuring the instance options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/connect-support-sp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/connect-support-sp.html
 release: australia
 product: Connect
 classification: connect

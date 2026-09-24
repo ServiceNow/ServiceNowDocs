@@ -2,7 +2,7 @@
 title: ServiceNow apps and features that use Predictive Intelligence
 description: Learn about ServiceNow applications and features that leverage Predictive Intelligence. Solutions that you can adapt are available for various business units and industries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/servicenow-apps-features-use-predictive-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/servicenow-apps-features-use-predictive-intelligence.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -32,7 +32,7 @@ Following is a listing of some ServiceNow products that use Predictive Intellige
 -   [Work order insights powered by Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/machine-learning-fsm.md)
 -   [Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/predictive-intelligence-spoke.md)
 
-**Parent Topic:**[Explore Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
+**Parent Topic:**[Explore Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
 
 **Related topics**  
 

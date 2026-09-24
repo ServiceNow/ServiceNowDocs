@@ -2,12 +2,12 @@
 title: Share a KPI Composer project
 description: You can share a KPI Composer project that you own or that you are responsible for. You can provide the user with either read-write or read-only access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/share-a-kpi-composer-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/share-a-kpi-composer-project.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fu
 You can share a KPI Composer project that you own or that you are responsible for. You can provide the user with either read-write or read-only access.
 
 Prerequisites
-:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
+:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-kpi-composer-project.md)
 
 ## Before you begin
 
@@ -44,9 +44,9 @@ When you share a project with the right to edit, that user has the same rights t
 6.  Select **Share** or **Cancel**.
 
 
-**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[Write journal entries for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/write-journal-entries-kpi-composer.md)
+**Previous topic:**[Write journal entries for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/write-journal-entries-kpi-composer.md)
 
-**Next topic:**[Export a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/export-kpi-composer-project.md)
+**Next topic:**[Export a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/export-kpi-composer-project.md)
 

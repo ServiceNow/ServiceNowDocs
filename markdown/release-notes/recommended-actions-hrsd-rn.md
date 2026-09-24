@@ -2,7 +2,7 @@
 title: Recommended Actions for HRSD release notes
 description: The ServiceNow Recommended Actions for HRSD application provides real‑time actionable guidance and relevant resources that help HR agents resolve cases more quickly. Recommended Actions for HRSD is a new application in the Australia release.The ServiceNow Recommended Actions for HRSD application provides real‑time actionable guidance and relevant resources that help HR agents resolve cases more quickly. Recommended Actions for HRSD is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/recommended-actions-hrsd-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/recommended-actions-hrsd-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ See [Exploring Recommended Actions for HRSD](https://raw.githubusercontent.com/S
     Install Recommended Actions for HRSD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md)
+**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/hr-service-delivery-landing.md)
 
 ## Australia
 

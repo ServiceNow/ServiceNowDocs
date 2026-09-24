@@ -2,7 +2,7 @@
 title: Enable OAuth 2.0 for email
 description: Setting up OAuth 2.0 for email requires you to obtain access and refresh tokens from your email provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SetUpOAuth2ForEmail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_SetUpOAuth2ForEmail.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -80,5 +80,5 @@ Setting up OAuth 2.0 for email requires you to obtain access and refresh tokens 
     Use the same **Authentication** and **OAuth profile** settings as the OAuth SMTP email account.
 
 
-**Parent Topic:**[OAuth email authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_OAuthEmailAuthentication.md)
+**Parent Topic:**[OAuth email authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_OAuthEmailAuthentication.md)
 

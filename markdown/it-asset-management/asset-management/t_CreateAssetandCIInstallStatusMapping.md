@@ -2,7 +2,7 @@
 title: Map asset state and CI install status
 description: Map the asset State and Substate fields to the CI Install Status field. The Substatus field of the CI Install Status field should not be used for hardware CIs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_CreateAssetandCIInstallStatusMapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/t\_CreateAssetandCIInstallStatusMapping.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -49,5 +49,5 @@ Asset synchronization does not update this field when hardware assets are update
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-asset-ci.md)
+**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/work-with-asset-ci.md)
 

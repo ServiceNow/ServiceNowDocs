@@ -2,7 +2,7 @@
 title: Verification types in the base system
 description: Use a verification type in the base system as a template to design a custom verification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/verification-types-in-the-base-system.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/verification-types-in-the-base-system.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -34,7 +34,7 @@ Verifies user identity using data from the User \[sys\_user\] table. The user da
 
 Recommended for service desk-assisted processes.**Note:** The Password Reset Windows Application does not support the Personal Data Confirmation Verification type.
 
- See [Personal data identification types and confirmation type verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_PersonalDataAndPDConfirmVerifs.md).
+ See [Personal data identification types and confirmation type verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/c_PersonalDataAndPDConfirmVerifs.md).
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Verifies user identity using data from the User \[sys\_user\] table. The user is
 
  **Note:** The Password Reset Windows Application allows you to define and use multiple verifications of the Personal Data type.
 
-See [Personal data identification types and confirmation type verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_PersonalDataAndPDConfirmVerifs.md).
+See [Personal data identification types and confirmation type verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/c_PersonalDataAndPDConfirmVerifs.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Email Code
 
 When a user requests password reset, the system sends a verification code to the email address in the user profile or to an email address that the user authorized during enrollment. To verify identity, the user then submits the code on the Password Reset **Verify** page. **Note:** The Password Reset Windows Application allows you to define and use multiple verifications of the Email Code type.
 
-See [Personal data identification types and confirmation type verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_PersonalDataAndPDConfirmVerifs.md).
+See [Personal data identification types and confirmation type verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/c_PersonalDataAndPDConfirmVerifs.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Security Questions
 
 Verifies user identity by presenting personal security questions that the user must answer correctly. **Note:** The Password Reset and Password Reset Windows Application support only a single verification of the Security Questions type.
 
- See [Add a custom question to the Security Questions verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateQAVerificationQs.md).
+ See [Add a custom question to the Security Questions verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateQAVerificationQs.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ SMS Code
 
 When a user requests password reset, the system sends a code to an SMS-capable device that the user has authorized. To verify identity, the user then enters the code on the Password Reset web page. **Note:** The Password Reset and Password Reset Windows Application support only a single verification of the SMS Code type.
 
-See [SMS Code Verification type for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_SMSCodeTypeVerifications.md).
+See [SMS Code Verification type for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/c_SMSCodeTypeVerifications.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Not a functional identity verification. Demonstrates how to add a verification t
 </table>**Related topics**  
 
 
-[Create a custom Password Reset verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreatePWRVerFromVerType.md)
+[Create a custom Password Reset verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreatePWRVerFromVerType.md)
 
-[Create a custom Password Reset verification type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/create-verification-type.md)
+[Create a custom Password Reset verification type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/create-verification-type.md)
 

@@ -2,7 +2,7 @@
 title: Approve or reject a time sheet through Time Sheet Portal
 description: Review, approve, or reject a time sheet submitted by a time card user that you manage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/approve-reject-time-sheet-from-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/time-card-management/approve-reject-time-sheet-from-portal.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -24,7 +24,7 @@ Role required: timecard\_approver or timecard\_admin
 
 A user manager can review, approve, or reject the time sheets or time cards submitted by the time card users. The user manager has either of the required roles and is the one listed as the manager of the time card users.
 
-During out-of-office time, the user manager can [delegate another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/delegate-time-sheet-approvals.md) with the required roles as the time sheet approver. For the specified time period, the delegated user also receives all the time sheets submitted by the time card users to process.
+During out-of-office time, the user manager can [delegate another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/delegate-time-sheet-approvals.md) with the required roles as the time sheet approver. For the specified time period, the delegated user also receives all the time sheets submitted by the time card users to process.
 
 ## Procedure
 
@@ -52,7 +52,7 @@ Result
 
 </td><td>
 
--   Time sheets that have time cards with multiple approvers as defined by the [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/create-time-sheet-policy.md), remain in the **Submitted** state. When all the approvers approve the respective time cards, then the time sheet moves to the **Approved** state.
+-   Time sheets that have time cards with multiple approvers as defined by the [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/create-time-sheet-policy.md), remain in the **Submitted** state. When all the approvers approve the respective time cards, then the time sheet moves to the **Approved** state.
 -   Time sheets that have time cards with a single approver move from the **Submitted** to the **Approved** state.
 -   A Time Card Daily record is created for each time card to record the time logged.
 
@@ -70,5 +70,5 @@ The user can then modify the rejected time sheet and submit it again for approva
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/worker-portal.md)
+**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/worker-portal.md)
 

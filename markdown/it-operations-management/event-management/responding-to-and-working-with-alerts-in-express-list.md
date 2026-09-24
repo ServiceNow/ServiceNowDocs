@@ -2,7 +2,7 @@
 title: Responding to and working with alerts in Express List
 description: Learn how to respond to an alert and manage its workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/responding-to-and-working-with-alerts-in-express-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/responding-to-and-working-with-alerts-in-express-list.html
 release: australia
 product: Event Management
 classification: event-management

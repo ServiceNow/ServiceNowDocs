@@ -2,7 +2,7 @@
 title: Configuration Compliance reporting
 description: The Configuration Compliance homepage provides an executive view into policies, CIs, tests, and test results, helping security staff pinpoint areas of concern quickly. Configuration Compliance significance charts can be added, as needed. You can also return Configuration Compliance -related information using the global search feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/vuln-config-compl-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/vuln-config-compl-overview.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -28,7 +28,7 @@ In each chart, you can point to any part of a chart \(bar, pie, data point\) to 
 
 **Note:**
 
--   Dashboards on the Configuration Compliance homepage are available only when the Performance Analytics for Configuration Compliance application is activated. For steps to activate this application, see [Activate Performance Analytics for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/configuration-compliance-install.md).
+-   Dashboards on the Configuration Compliance homepage are available only when the Performance Analytics for Configuration Compliance application is activated. For steps to activate this application, see [Activate Performance Analytics for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/configuration-compliance-install.md).
 -   Anyone with the sn\_vulc.read role can view the dashboard. Anyone in the sn\_vulc.write or sn\_vulc.admin role can create and edit a dashboard. Only sn\_vulc.admin can delete a dashboard.
 
 

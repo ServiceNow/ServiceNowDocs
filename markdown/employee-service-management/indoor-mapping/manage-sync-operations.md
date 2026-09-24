@@ -2,7 +2,7 @@
 title: Manage enhanced sync operations
 description: Review pending sync operations and decide whether to process or ignore the operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/manage-sync-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/manage-sync-operations.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -47,5 +47,5 @@ If some records aren’t processed, you can review the error logs. You can view 
 
 .
 
-**Parent Topic:**[Using enhanced synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/using-enhanced-sync.md)
+**Parent Topic:**[Using enhanced synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/using-enhanced-sync.md)
 

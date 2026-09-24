@@ -2,7 +2,7 @@
 title: Roles installed with Facilities Service Management
 description: Roles control access to features and capabilities in Facilities Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_RolesInstallWFacServMgmnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_RolesInstallWFacServMgmnt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -185,5 +185,5 @@ Can create, read, write, and delete room records.
 none
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
+</table>**Parent Topic:**[Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
 

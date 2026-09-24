@@ -2,7 +2,7 @@
 title: Synchronization Health Dashboard
 description: Use this dashboard to track the reservation synchronization. Monitor number of events and calendar items created in the application and other details related to them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-dashboard.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -18,7 +18,7 @@ Use this dashboard to track the reservation synchronization. Monitor number of e
 
 **Note:** The Workplace Calendar Synchronization dashboard is migrated to Workplace Central. You can start using the migrated dashboards from Workplace Central. The out-of-the-box dashboards are also migrated to Workplace Central. Old dashboards are not supported for new Workplace Service Delivery customers. For existing customers, old dashboards are currently available but will be deprecated soon.
 
-For more information about the migrated dashboard, see [Reservation Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reservation-management-dashboard.md).
+For more information about the migrated dashboard, see [Reservation Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reservation-management-dashboard.md).
 
 \[Omitted image "workplace-calendar-synchornization-dashboard.png"\] Alt text: Synchronization health dashboard
 
@@ -69,5 +69,5 @@ sn\_wsd\_rsvsync.admin
 |Events in error not sent to provider over last 30 days|Step time series\[Omitted image "step-time-series-small.png"\] Alt text: step time series icon|Number of events generated with errors that were not sent to the provider over the last 30 days.|
 |List of all events in error state over last 30 days|List|List of all the events that have been in the error state over the last 30 days.|
 
-**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
+**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
 

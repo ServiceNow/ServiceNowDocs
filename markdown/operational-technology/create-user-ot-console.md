@@ -2,7 +2,7 @@
 title: Create a user
 description: Create a user account that can access the Discovery Console for OT.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/create-user-ot-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/create-user-ot-console.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +35,5 @@ Role required: user
     |Roles|Roles that the user account needs. If needed, you can select more than one role.|
 
 
-**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-page.md)
+**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/users-page.md)
 

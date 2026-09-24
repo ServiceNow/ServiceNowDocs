@@ -2,7 +2,7 @@
 title: Conversations tab
 description: Use the Conversations tab to view the list of Virtual Agent conversations and details of each conversation that occurred during the selected date range.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/conversation-tab-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/conversation-tab-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -30,10 +30,10 @@ To access the **Conversations** tab, you must have the Chat Analytics Viewer \(c
 
 The **Conversations** tab enables you to do the following:
 
--   Filter the list of conversations based on specific conditions using the filter editor. For more information, see [Use filters in the Conversation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-tab-filtering-pae.md)
--   Learn more about each conversation by viewing conversation details. For more information, see [Get conversation details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-tab-pae.md).
--   Export the list of conversations to a file. For more information, see [Export the conversations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-tab-pae.md).
--   Download the conversation transcript to troubleshoot individual conversations. For more information, see [Download the conversation transcript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-tab-pae.md).
+-   Filter the list of conversations based on specific conditions using the filter editor. For more information, see [Use filters in the Conversation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-tab-filtering-pae.md)
+-   Learn more about each conversation by viewing conversation details. For more information, see [Get conversation details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-tab-pae.md).
+-   Export the list of conversations to a file. For more information, see [Export the conversations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-tab-pae.md).
+-   Download the conversation transcript to troubleshoot individual conversations. For more information, see [Download the conversation transcript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-tab-pae.md).
 
 ## Get conversation details
 
@@ -109,7 +109,7 @@ End state
 
 </td><td>
 
-How the conversation ended. For more information on various conversation end states, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).
+How the conversation ended. For more information on various conversation end states, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-interactions.md).
 
 </td></tr><tr><td>
 
@@ -132,12 +132,12 @@ Sys Id of the conversation.
 
 To download the conversation transcript, select a conversation from the conversations list and click **Download**.
 
-The conversation transcript .txt file includes various data elements such as user input, Virtual Agent response, Flow Designer Integration Hub, flow action, custom controls, and topic block information for the selected conversation. This information helps Virtual Agent administrators to troubleshoot conversations, for example, conversations where there were errors or transfers to a live agent. For more information on the .txt file, see [Conversation transcript template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/chat-transcript-template-pae.md).
+The conversation transcript .txt file includes various data elements such as user input, Virtual Agent response, Flow Designer Integration Hub, flow action, custom controls, and topic block information for the selected conversation. This information helps Virtual Agent administrators to troubleshoot conversations, for example, conversations where there were errors or transfers to a live agent. For more information on the .txt file, see [Conversation transcript template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/chat-transcript-template-pae.md).
 
--   **[Conversation transcript template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/chat-transcript-template-pae.md)**  
+-   **[Conversation transcript template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/chat-transcript-template-pae.md)**  
 The conversation transcript .txt file contains information used to troubleshoot individual conversations.
--   **[Use filters in the Conversation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-tab-filtering-pae.md)**  
+-   **[Use filters in the Conversation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-tab-filtering-pae.md)**  
 You can filter out conversation for a deeper understanding.
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

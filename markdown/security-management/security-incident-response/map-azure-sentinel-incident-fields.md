@@ -2,7 +2,7 @@
 title: Map the Microsoft Azure Sentinel incident fields
 description: Map the individual Microsoft Azure Sentinel incident fields to the fields on the SIR security incident so that you can create incidents with the mapped data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/map-azure-sentinel-incident-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/map-azure-sentinel-incident-fields.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

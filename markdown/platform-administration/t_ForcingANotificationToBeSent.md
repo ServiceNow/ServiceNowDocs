@@ -2,7 +2,7 @@
 title: Force a notification to be sent
 description: To force a notification to be sent to the specified users, enable forced delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ForcingANotificationToBeSent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ForcingANotificationToBeSent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Forcing a notification means that the relevant users receive the notification, e
 
     3.  Select **Save**.
 
-        For more information about configuring the form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+        For more information about configuring the form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md).
 
 4.  Select the **Force delivery** check box.
 
@@ -49,5 +49,5 @@ Forcing a notification means that the relevant users receive the notification, e
     Unlike using the **Mandatory** option, forcing the delivery does not lock the user's preference or prevent the user from unsubscribing from the notification.
 
 
-**Parent Topic:**[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md)
+**Parent Topic:**[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_SubscriptionBasedNotifications.md)
 

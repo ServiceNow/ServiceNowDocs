@@ -2,7 +2,7 @@
 title: Reserve a space form
 description: The reserve a space form helps you select the location and duration of your reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/reserve-space-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/reserve-space-form.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -109,7 +109,7 @@ Floor
 Floor of the area or space that you want to access.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Core references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-references.md)
+</table>**Parent Topic:**[Workplace Core references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/wsd-references.md)
 
 **Related topics**  
 

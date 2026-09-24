@@ -2,7 +2,7 @@
 title: Manage a control objective from the overview page
 description: The Overview page of the control objective record gives you the overall details of its compliance status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/co-overview-pc-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/co-overview-pc-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

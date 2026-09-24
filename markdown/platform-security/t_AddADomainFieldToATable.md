@@ -2,7 +2,7 @@
 title: Add a domain field to a table
 description: As an administrator, domain-separate a custom table by adding a sys\_domain field to it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_AddADomainFieldToATable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_AddADomainFieldToATable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

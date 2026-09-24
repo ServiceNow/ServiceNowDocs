@@ -2,7 +2,7 @@
 title: Edit or delete participants using add-in
 description: As a contract configurator, edit or delete a participant from a Microsoft Word document using the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-del-signatory-addin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-del-signatory-addin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -30,7 +30,7 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 3.  On the add-in login screen, enter the credentials of the ServiceNow instance from where you downloaded the manifest file.
 
-    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-word-addin.md)
+    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-word-addin.md)
 
 4.  In the **Template** tab, select the contract template.
 
@@ -40,15 +40,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 7.  Edit or delete the signatory.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d634511e142">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d634515e142">
 
 Action
 
-</th><th align="left" id="d634511e145">
+</th><th align="left" id="d634515e145">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d634511e151">
+</th></tr></thead><tbody><tr><td id="d634515e151">
 
 **Edit the signatory**
 
@@ -59,7 +59,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d634511e178">
+</td></tr><tr><td id="d634515e178">
 
 **Delete the signatory**
 
@@ -75,5 +75,5 @@ Steps
 
 The changes made to the participants are synced to the ServiceNow instance in Participants related list.
 
-**Parent Topic:**[Edit a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-edit-ct-addin.md)
+**Parent Topic:**[Edit a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-edit-ct-addin.md)
 

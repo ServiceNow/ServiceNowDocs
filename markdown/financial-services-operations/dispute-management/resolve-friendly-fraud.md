@@ -2,7 +2,7 @@
 title: Resolve friendly fraud disputes
 description: Resolve friendly fraud disputes by reviewing evidence, selecting an appropriate action, and communicating with customers. You can use the Help resolve friendly fraud disputes agentic workflow to receive AI-generated recommendations and draft responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/resolve-friendly-fraud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/resolve-friendly-fraud.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -93,7 +93,7 @@ Result
 </td><td>
 
 1.  Provide the reason for the decline and select **Mark Complete**.
-2.  The **Customer communication** activity is displayed. See [Resolve fraud customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
+2.  The **Customer communication** activity is displayed. See [Resolve fraud customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
 
 
 </td></tr><tr><td id="d110311e299">
@@ -113,7 +113,7 @@ Result
 
 </td><td>
 
-The **Report fraud** activity is displayed. See [Report fraud to card network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/report-fraud-to-card-network.md).
+The **Report fraud** activity is displayed. See [Report fraud to card network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/report-fraud-to-card-network.md).
 
 </td></tr></tbody>
 </table>10. If you are working with the AI agent, continue interacting with it as needed to resolve the case.
@@ -125,5 +125,5 @@ The **Report fraud** activity is displayed. See [Report fraud to card network](h
 
 Based on your selected resolution option, the friendly fraud dispute is resolved and the case proceeds to the next activity.
 
-**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-stage.md)
+**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/investigate-stage.md)
 

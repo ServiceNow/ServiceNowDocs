@@ -2,7 +2,7 @@
 title: Robust import set transformer properties
 description: Properties that define the types of updates that are permitted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/robust-import-set-xform-props.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/robust-import-set-xform-props.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

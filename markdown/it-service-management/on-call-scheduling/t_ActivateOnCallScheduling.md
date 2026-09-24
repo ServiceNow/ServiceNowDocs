@@ -2,7 +2,7 @@
 title: Activate On-Call Scheduling
 description: You can activate the On-Call Scheduling \(com.snc.on\_call\_rotation\) plugin if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/t\_ActivateOnCallScheduling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/t\_ActivateOnCallScheduling.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -47,10 +47,10 @@ Activating the On-Call Scheduling plugin activates the following third-party lib
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/configuration.md)
+**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/configuration.md)
 
 **Related topics**  
 
 
-[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
+[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
 

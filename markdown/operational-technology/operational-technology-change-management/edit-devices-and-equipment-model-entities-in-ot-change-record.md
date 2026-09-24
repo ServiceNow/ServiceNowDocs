@@ -2,7 +2,7 @@
 title: Edit the related devices and equipment model entities in a change record
 description: Add or remove the related Operational Technology \(OT\) devices and equipment model entities directly from an OT change record. You can track the relationship between the change request and its affected items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/edit-devices-and-equipment-model-entities-in-ot-change-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-change-management/edit-devices-and-equipment-model-entities-in-ot-change-record.html
 release: australia
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -70,5 +70,5 @@ Description
 6.  Add or remove an equipment model entity from a change record by repeating steps 4 and 5 but in the Impacted Equipment Model Entities related list.
 
 
-**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

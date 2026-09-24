@@ -2,7 +2,7 @@
 title: Create a key-value pair mapping
 description: Key-value pair mappings transform data in the ServiceNow platform to a value that can be plotted on a map. Mappings are used during map source configuration when data requires transformation. Each mapping exists in a mapping group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_CreateKeyValuePairMapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_CreateKeyValuePairMapping.html
 release: australia
 product: Reporting
 classification: reporting
@@ -53,7 +53,7 @@ For example, the default mapping for United States of America maps key USA to `I
 
 Add the mapping to a report source, so it can be used to map data from that source to a map.
 
-**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdministeringMapReports.md)
+**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdministeringMapReports.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Specify user segment groups for bulk case requests
 description: Create a user segment group to specify in a bulk case request the users for whom a case will be created. You can specify values for a group of users or specify multiple segments with different values for different groups of users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/segment-group-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/segment-group-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -71,15 +71,15 @@ Further details about the user segment.
 
 8.  Indicate how you will indicate which users the bulk case request will create cases for in the **Filter by** field.
 
-<table id="choicetable_nwr_13z_bbc"><thead><tr><th align="left" id="d442980e185">
+<table id="choicetable_nwr_13z_bbc"><thead><tr><th align="left" id="d442984e185">
 
 Data source
 
-</th><th align="left" id="d442980e188">
+</th><th align="left" id="d442984e188">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d442980e194">
+</th></tr></thead><tbody><tr><td id="d442984e194">
 
 **File**
 
@@ -93,7 +93,7 @@ Upload a file with user names or email addresses.1.  Select the file type in the
 4.  Select **Process file**.
 
 
-</td></tr><tr><td id="d442980e245">
+</td></tr><tr><td id="d442984e245">
 
 **HR criteria**
 
@@ -101,7 +101,7 @@ Upload a file with user names or email addresses.1.  Select the file type in the
 
 Criteria based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\] or User \[sys\_user\] tables.
 
-</td></tr><tr><td id="d442980e254">
+</td></tr><tr><td id="d442984e254">
 
 **User criteria**
 
@@ -109,7 +109,7 @@ Criteria based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\]
 
 Criteria based on role, department, group, location, or company.
 
-</td></tr><tr><td id="d442980e263">
+</td></tr><tr><td id="d442984e263">
 
 **HR profile**
 
@@ -117,7 +117,7 @@ Criteria based on role, department, group, location, or company.
 
 Condition based on the HR profile \[sn\_hr\_core\_profile\] table.
 
-</td></tr><tr><td id="d442980e273">
+</td></tr><tr><td id="d442984e273">
 
 **Users**
 
@@ -130,6 +130,6 @@ Conditions based on the User \[sys\_user\] table.
 
     The **Bulk Case Request** form is displayed with the user segment group you created.
 
-    **Note:** You can still review and edit your user segment group. For more information, see [Review users in a user segment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/manage-group-aws.md).
+    **Note:** You can still review and edit your user segment group. For more information, see [Review users in a user segment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/manage-group-aws.md).
 
 

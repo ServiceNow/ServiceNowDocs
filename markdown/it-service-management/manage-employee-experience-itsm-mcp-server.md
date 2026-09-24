@@ -2,7 +2,7 @@
 title: Manage request items using the ITSM MCP Server
 description: Use the ITSM MCP Server to create incidents, check the status of your own incidents and requested items, and escalate incidents. Add comments through an MCP client application such as Moveworks or Claude.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/manage-employee-experience-itsm-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/manage-employee-experience-itsm-mcp-server.html
 release: australia
 topic_type: task
 last_updated: "2026-07-07"
@@ -23,7 +23,7 @@ Role required: authenticated user
 
 ## About this task
 
-For information on tools, see [ITSM MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mcp-server-tools-reference.md).
+For information on tools, see [ITSM MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mcp-server-tools-reference.md).
 
 ## Procedure
 

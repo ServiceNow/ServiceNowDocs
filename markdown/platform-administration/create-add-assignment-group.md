@@ -2,7 +2,7 @@
 title: Create and add assignment groups
 description: Create and add assignment groups where you want users that are part of a group to be the recipients of the provider notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-add-assignment-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-add-assignment-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,5 +44,5 @@ Role required: admin or notifications provider admin
 5.  Select **Submit** or **Save**.
 
 
-**Parent Topic:**[Create and update a provider notification for all users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/noti-new-update-notification.md)
+**Parent Topic:**[Create and update a provider notification for all users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/noti-new-update-notification.md)
 

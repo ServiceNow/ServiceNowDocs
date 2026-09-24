@@ -2,7 +2,7 @@
 title: Viewing blueprint deployments
 description: The Deployments page shows the fifty most recently deployed blueprints together with their timestamps and associated users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/deployments\_page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/deployments\_page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ If your blueprints take longer than thirty minutes to complete, create a support
 **Related topics**  
 
 
-[Tracking a blueprint's deployment history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/blueprints_deployment_history.md)
+[Tracking a blueprint's deployment history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/blueprints_deployment_history.md)
 

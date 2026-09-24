@@ -2,7 +2,7 @@
 title: Activate Metrikus Spoke
 description: Activate the Metrikus Spoke plugin from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/install-metrikus-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-connectors/install-metrikus-plugin.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
@@ -45,9 +45,9 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Previous topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
+**Previous topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Next topic:**[Integrate Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/integrate-metrikus-flowdesigner.md)
+**Next topic:**[Integrate Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/integrate-metrikus-flowdesigner.md)
 

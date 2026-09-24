@@ -2,7 +2,7 @@
 title: Manage endpoint with OAuth 2.0 support
 description: Manage endpoint for webhooks in third-party applications that support the OAuth 2.0 authentication. The endpoint enables webhooks to connect with your ServiceNow instance.Configure endpoint for webhooks in third-party applications that support the OAuth 2.0 authentication.Deactivate an active endpoint with OAuth 2.0 support while retaining the configurations to activate it later when needed.Deactivate an endpoint with OAuth 2.0 support to remove the existing configurations. Activate and configure the endpoint later when needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/generate-endpt-oauth2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/generate-endpt-oauth2.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -29,7 +29,7 @@ Ensure that you have created an OAuth application endpoint for the external clie
 -   If you want to create an OAuth application endpoint for external client applications to access the ServiceNow instance, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateEndpointforExternalClients.md).
 -   If you want to create an OAuth JWT API endpoint for external clients to access the ServiceNow instance, see [Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-jwt-endpoint.md).
 
-**Parent Topic:**[Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-external-webhook-endpoints.md)
+**Parent Topic:**[Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/set-up-external-webhook-endpoints.md)
 
 ## Configure endpoint with OAuth 2.0 support
 

@@ -2,7 +2,7 @@
 title: TPRM Due diligence management reports
 description: TPR managers and assessors use the due diligence management reports to track, prioritize, and manage their responsibilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-management-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-management-reports.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -30,10 +30,10 @@ By default, the page lists all active processes: IRQ, due diligence, approval, c
 
 -   Select the number on the **All active processes** card to view the list of active processes.
 -   Select the number on the **New requests** card to view the list of new requests.
--   Select the number on the **IRQ process** card to view the list of active IRQs. See [IRQ process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.md) for details.
--   Select the number on the **Due diligence process** card to view the list of active third-party risk assessments. See [Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md) for details.
--   Select the number on the **Approval process** card to view the list of requests in the approval process. See [Approval process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.md) for details.
--   Select the number on the **Contract risk process** card to view the list of requests in the contract process. See [Managing the contract risk process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-contract-risk-process.md) for details.
+-   Select the number on the **IRQ process** card to view the list of active IRQs. See [IRQ process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.md) for details.
+-   Select the number on the **Due diligence process** card to view the list of active third-party risk assessments. See [Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md) for details.
+-   Select the number on the **Approval process** card to view the list of requests in the approval process. See [Approval process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.md) for details.
+-   Select the number on the **Contract risk process** card to view the list of requests in the contract process. See [Managing the contract risk process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-contract-risk-process.md) for details.
 -   Select the number on the **Final review process** card to view the list of requests in the final review process.
 -   Select the number on the **Closed** card to view the list of closed requests for due diligence.
 
@@ -51,16 +51,16 @@ The Ongoing due diligence management section displays the current breakdown of *
 
 The Due diligence workflow: Days to completion section displays the average completion time of each workflow over time.
 
-**Parent Topic:**[Viewing third-party risk reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/unified-vrm-workspace.md)
+**Parent Topic:**[Viewing third-party risk reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/unified-vrm-workspace.md)
 
 **Related topics**  
 
 
-[IRQ process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.md)
+[IRQ process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.md)
 
-[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
+[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
 
-[Managing the contract risk process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-contract-risk-process.md)
+[Managing the contract risk process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-contract-risk-process.md)
 
-[Approval process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.md)
+[Approval process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-approvals.md)
 

@@ -2,7 +2,7 @@
 title: Knowledge base articles Genius Results
 description: Knowledge base articles Genius Results display top search results extracted from HTML fields of records on the Knowledge \[kb\_knowledge\] table and tables that extend it. Each Knowledge base articles Genius Result answer card shows a topic snippet and an answer snippet extracted from a single Knowledge article. You can view the full article directly from the answer card.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/genius-result-q-a-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/genius-result-q-a-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -92,7 +92,7 @@ AI Search uses a machine reading comprehension \(MRC\) model to validate extract
 
 When you enable factoid extraction for Knowledge base articles Genius Results, the MRC model also finds the exact span of text within the extracted snippet that represents the answer to your question.
 
-You can't configure settings for MRC models or choose which model to use for Knowledge base articles Genius Results. AI Search performs A/B testing with different search query parameter values to automatically select the best MRC model for you. For more details on this A/B testing process, see [Search query parameter evaluation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/srch-qry-parm-eval-fw-ais.md).
+You can't configure settings for MRC models or choose which model to use for Knowledge base articles Genius Results. AI Search performs A/B testing with different search query parameter values to automatically select the best MRC model for you. For more details on this A/B testing process, see [Search query parameter evaluation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/srch-qry-parm-eval-fw-ais.md).
 
 ## Knowledge Management and Knowledge base articles Genius Results
 
@@ -111,17 +111,17 @@ The following table describes interactions between Knowledge base articles Geniu
 
 |Feature|Interaction with Knowledge base articles Genius Results|
 |-------|-------------------------------------------------------|
-|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md) with block actions|When computing Q&amp;A Genius Results for a search query, AI Search ignores blocked search results.|
-|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search ignores stop words in the query.|
-|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search expands synonyms in the query.|
-|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search corrects terms in the query.|
+|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/result-improvement-rules-ais.md) with block actions|When computing Q&amp;A Genius Results for a search query, AI Search ignores blocked search results.|
+|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/stop-words-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search ignores stop words in the query.|
+|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/synonyms-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search expands synonyms in the query.|
+|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/typo-handling-ais.md)|When computing Q&amp;A Genius Results for a search query, AI Search corrects terms in the query.|
 
--   **[Factoid extraction for Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/factoid-extraction-qa-grs-ais.md)**  
+-   **[Factoid extraction for Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/factoid-extraction-qa-grs-ais.md)**  
 Factoid extraction uses the machine reading comprehension \(MRC\) model to find the exact span of text within a longer extracted snippet that represents the answer to your question.
--   **[Set the factoid extraction mode for Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/set-factoid-extraction-mode-qna-gr.md)**  
+-   **[Set the factoid extraction mode for Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/set-factoid-extraction-mode-qna-gr.md)**  
 Specify how you want factoid extraction to display and highlight answers for Q&amp;A Genius Results.
--   **[System properties for factoid extraction in Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/sys-props-factoid-extract-qna-gr.md)**  
+-   **[System properties for factoid extraction in Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/sys-props-factoid-extract-qna-gr.md)**  
 A system property determines how the system extracts factoids from knowledge articles when computing Q&amp;A Genius Results.
 
-**Parent Topic:**[Genius Result configurations in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/default-genius-result-configs-ais.md)
+**Parent Topic:**[Genius Result configurations in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/default-genius-result-configs-ais.md)
 

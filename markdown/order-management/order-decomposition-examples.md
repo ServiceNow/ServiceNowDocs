@@ -2,7 +2,7 @@
 title: Order decomposition examples
 description: Examples using demo data illustrating how customer and service orders can be decomposed under diverse conditions help you to understand the decomposition process. The conditions include optional characteristics, quantity-based decomposition, staggered fulfillment, and exclusion rules that support complex order management and fulfillment workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-decomposition-examples.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-decomposition-examples.html
 release: australia
 topic_type: concept
 last_updated: "2025-10-03"
@@ -131,7 +131,7 @@ However, as a part of the order fulfillment process, the information for Routing
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

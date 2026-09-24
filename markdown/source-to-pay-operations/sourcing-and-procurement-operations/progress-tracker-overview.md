@@ -2,7 +2,7 @@
 title: Progress Tracker for purchase requisitions and purchase orders
 description: The Progress Tracker displays the current state of purchase requisition and purchase order records. It shows fulfillers where a request is in the PR-to-PO journey without requiring them to review related records manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-overview.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -45,23 +45,23 @@ Before the Progress Tracker, fulfillers had no direct way to determine where a p
 
 -   **Info card**
 
-    The detail panel that appears when you select a step in the stepper. The panel displays contextual information about that state: who is assigned, when the step completed, which work items are outstanding, and — for deviation states — why the record deviated and what to do next. For detailed information about info card fields, see [Progress Tracker component reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-info-card.md).
+    The detail panel that appears when you select a step in the stepper. The panel displays contextual information about that state: who is assigned, when the step completed, which work items are outstanding, and — for deviation states — why the record deviated and what to do next. For detailed information about info card fields, see [Progress Tracker component reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-info-card.md).
 
 
 ## Who uses the Progress Tracker
 
-Procurement specialists viewing a PR or PO record in the Source-to-Pay Workspace are the primary audience. They read the tracker and info card to understand record status and next steps. Procurement administrators configure which states appear in the tracker and whether the tracker is visible. For related tasks, see [View the purchase requisition Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-pr-progress-tracker.md), [View the purchase order Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-po-progress-tracker.md), and [Configure PR and PO Progress Tracker states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.md).
+Procurement specialists viewing a PR or PO record in the Source-to-Pay Workspace are the primary audience. They read the tracker and info card to understand record status and next steps. Procurement administrators configure which states appear in the tracker and whether the tracker is visible. For related tasks, see [View the purchase requisition Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-pr-progress-tracker.md), [View the purchase order Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-po-progress-tracker.md), and [Configure PR and PO Progress Tracker states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.md).
 
 ## PR progress tracker and PO progress tracker
 
-The PR progress tracker and PO progress tracker share the same underlying stepper component and info-card pattern. Each is driven by its own state model and configuration record because purchase requisitions and purchase orders progress through different states. For the state models, see [Purchase requisition state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pr-state-model.md) and [Purchase order state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/po-state-model.md).
+The PR progress tracker and PO progress tracker share the same underlying stepper component and info-card pattern. Each is driven by its own state model and configuration record because purchase requisitions and purchase orders progress through different states. For the state models, see [Purchase requisition state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pr-state-model.md) and [Purchase order state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/po-state-model.md).
 
--   **[Progress Tracker component reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-info-card.md)**  
+-   **[Progress Tracker component reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-info-card.md)**  
 The Progress Tracker component displays workflow progress on purchase requisitions and purchase orders through a stepper visualization and expandable info card. The info card shows assigned users, pending work items, completion dates, and for deviation states, transition history and alert banners.
--   **[System properties for Progress Tracker visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-system-properties.md)**  
+-   **[System properties for Progress Tracker visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-system-properties.md)**  
 Two system properties control whether the Progress Tracker displays on purchase requisition and purchase order records. The procurement administrator role is required to read or write these properties.
 
-**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 

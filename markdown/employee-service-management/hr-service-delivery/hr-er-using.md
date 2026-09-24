@@ -2,7 +2,7 @@
 title: Using HR Service Delivery Employee Relations
 description: Creating an HR Service Delivery Employee Relations \(ER\) case is similar to creating any HR case with some differences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-er-using.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,7 +2,7 @@
 title: Advanced Work Assignment for Accounts Payable Operations
 description: Set up Advanced Work Assignment \(AWA\) to automatically route work items to qualified agents in Accounts Payable Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/setting-up-AWA-for-APO.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/setting-up-AWA-for-APO.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,5 +29,5 @@ Set up the following components for AWA in Accounts Payable Operations
 
 For more information about AWA components, refer [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md).
 
-**Parent Topic:**[Advanced Work Assignment in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/advanced-work-assignment.md)
+**Parent Topic:**[Advanced Work Assignment in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/advanced-work-assignment.md)
 

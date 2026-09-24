@@ -2,7 +2,7 @@
 title: Threshold rule \[sn\_fin\_gl\_threshold\_rule\] table
 description: The Threshold Rule \[sn\_fin\_gl\_threshold\_rule\] table stores variance threshold information for general ledger rules.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/fin-gl-threshold-rule-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/fin-gl-threshold-rule-table.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -31,7 +31,7 @@ This table extends the GL Rule \[sn\_fin\_gl\_rule\] table and contains the foll
 |Conditions|Conditions|Conditions on the selected table that determine when the rule applies. Inherited from the GL Rule \[sn\_fin\_gl\_rule\] table.|
 |Default|Boolean|Indicates whether this is the default rule. Inherited from the GL Rule \[sn\_fin\_gl\_rule\] table.|
 
-**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-primary-data-tables.md)
 
 **Related topics**  
 

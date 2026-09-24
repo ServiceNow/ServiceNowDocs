@@ -2,10 +2,10 @@
 title: A2A API Key credential behavior
 description: Starting in Now Assist AI Agents 7.1.x, the header included in each A2A request is driven by the API Key credential record and it is not injected automatically by the flow action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/a2a-api-key-credential-behavior-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/a2a-api-key-credential-behavior-new.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
 ---

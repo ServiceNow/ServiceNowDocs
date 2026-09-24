@@ -2,7 +2,7 @@
 title: Components installed with Case and Knowledge Management
 description: Several types of components install with the activation of the Case and Knowledge Management plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -388,7 +388,7 @@ Updates role assignments for HR profiles that are beginning or ending their empl
 
 ## Tables installed
 
-The \* next to a table indicates it was deprecated for customers taking the Rome release to support a new data model. Existing customers using the legacy COEs and tables are not affected. These tables have been replaced by the Employee Relations feature. For more information, see [Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-case-employee-relations.md).
+The \* next to a table indicates it was deprecated for customers taking the Rome release to support a new data model. Existing customers using the legacy COEs and tables are not affected. These tables have been replaced by the Employee Relations feature. For more information, see [Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-case-employee-relations.md).
 
 <table id="table_pfy_pqk_hbb"><thead><tr><th>
 

@@ -2,7 +2,7 @@
 title: Grouped list screen
 description: Grouped list records display a list of records that are grouped by a specific field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/grouped-list-screen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/grouped-list-screen.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Define security controls for an agentic workflow
 description: In the guided setup for an agentic workflow, define security controls for who can access the agentic workflow and what data the agentic workflow has access to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-sec-controls-aw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-sec-controls-aw.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 The **Define security controls** step is divided into two parts: **Define user access** and **Define data access**. The former creates an access control list \(ACL\) that determines which users can discover or invoke the agentic workflow. The latter defines the data that the agentic workflow has access to once it’s invoked.
 
-See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for agentic workflows.
+See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for agentic workflows.
 
 ## Procedure
 
@@ -64,5 +64,5 @@ You have created an ACL that determines who can discover and access your agentic
 
 ## What to do next
 
-Select **Save and continue** to move to the next step, [Adding a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw.md). Adding a trigger is optional. You can also skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw.md).
+Select **Save and continue** to move to the next step, [Adding a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aw.md). Adding a trigger is optional. You can also skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aw.md).
 

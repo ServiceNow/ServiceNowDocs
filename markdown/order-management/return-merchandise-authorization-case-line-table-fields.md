@@ -2,7 +2,7 @@
 title: Return Merchandise Authorization case line table fields
 description: Information about Return Merchandise Authorization \(RMA\) case line table fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/return-merchandise-authorization-case-line-table-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/return-merchandise-authorization-case-line-table-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -119,5 +119,5 @@ Location of repair. Options are:-   Onsite
 -   Off-site
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/return-merchandise-authorization-case-management-reference.md)
+</table>**Parent Topic:**[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/return-merchandise-authorization-case-management-reference.md)
 

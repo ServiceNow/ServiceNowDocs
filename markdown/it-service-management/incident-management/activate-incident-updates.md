@@ -2,7 +2,7 @@
 title: Activate Incident Updates
 description: You can activate the Incident Updates plugin \(com.snc.incident.updates\) to receive the incident notification updates if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/activate-incident-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/activate-incident-updates.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -35,7 +35,7 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-mgmt-plugins.md)
+**Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-mgmt-plugins.md)
 
 **Related topics**  
 

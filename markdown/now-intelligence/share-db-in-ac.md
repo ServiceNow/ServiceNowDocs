@@ -2,7 +2,7 @@
 title: Share a Platform Analytics dashboard
 description: Share a dashboard with other users, groups, or roles to create a shared view of data that you can use to collaborate. You can grant viewing rights or both viewing and editing rights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/share-db-in-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/share-db-in-ac.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
@@ -33,7 +33,7 @@ Rights to the underlying data only matter when the visualizations contain raw da
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**
 
-2.  Select the [dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-glossary.md) you want to share.
+2.  Select the [dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) you want to share.
 
 3.  Select the **More actions** button \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions button\) and choose **Share**.
 
@@ -83,7 +83,7 @@ The roles, groups, and users you have shared the dashboard with appear when you 
 
 \[Omitted image "db-share-dialog.png"\] Alt text: Dashboard sharing dialog showing who the dashboard has been shared with and whether they can edit or only view it.
 
-**Tip:** The users, groups, and roles with which a dashboard is shared are also visible in the dashboard details. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-db-in-ac.md).
+**Tip:** The users, groups, and roles with which a dashboard is shared are also visible in the dashboard details. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-db-in-ac.md).
 
 ## What to do next
 
@@ -91,10 +91,10 @@ You can change the rights of whom you have shared the dashboard with in the Shar
 
 \[Omitted image "db-share-rights-selector.png"\] Alt text: Rights selector for a user, group, or role that a dashboard was shared with.
 
--   **[Dashboard sharing reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-ref-qualifiers.md)**  
+-   **[Dashboard sharing reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/share-db-ref-qualifiers.md)**  
 Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared dashboards.
 
-**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 

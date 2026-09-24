@@ -2,7 +2,7 @@
 title: Create a knowledge article for a work order template
 description: You can add knowledge articles and guides \(such as installation guides, maintenance procedures, and checklists\) to the default knowledge base for hardware, software, and consumable templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CreateAKnowledgeArticle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_CreateAKnowledgeArticle.html
 release: australia
 product: Work Order Management
 classification: work-order-management

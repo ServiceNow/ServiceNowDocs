@@ -2,7 +2,7 @@
 title: Add a document list definition to a service definition
 description: Add a document list definition to a service definition by using the Insurance claims application so that you can define the required documents that a customer needs to provide for a particular claim.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/add-document-list-definition-to-service-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/add-document-list-definition-to-service-definition.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -45,10 +45,10 @@ After setting up FSO Document Processor and creating a document list definition 
 
 This decision table executes in the background when a case is created through the first notice of loss playbook. It also creates a document verification task on the case.
 
-**Parent Topic:**[Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md)
+**Parent Topic:**[Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md)
 
 **Related topics**  
 
 
-[Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integrating-with-document-processor.md)
+[Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/integrating-with-document-processor.md)
 

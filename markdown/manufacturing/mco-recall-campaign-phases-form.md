@@ -2,7 +2,7 @@
 title: Recall campaign phase form
 description: The recall campaign phase form enables you to add the recall campaign phases details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-recall-campaign-phases-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-recall-campaign-phases-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -107,10 +107,10 @@ Description
 Brief description about the recall campaign phase.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaign-phases.md)
+[Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-rc-my-campaign-phases.md)
 

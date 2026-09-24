@@ -2,7 +2,7 @@
 title: Add a workspace action button for initiating a contract request
 description: Define an action button in your workspace and map it to the built-in action that initiates a contract request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-initiate-cont.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-config-initiate-cont.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -42,7 +42,7 @@ Role required: admin
 
     4.  On the form, fill in the other fields.
 
-        For details, see [Action assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-actn-assignment-form.md)
+        For details, see [Action assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-actn-assignment-form.md)
 
     5.  Right-click the form header and select **Save**.
 
@@ -100,7 +100,7 @@ Role required: admin
 
         \[Omitted image "cmpro-uptake-ux-add-event.png"\] Alt text: Create event mapping for initiate contract action
 
-        For a description of the field values, see [UFX Add on Event mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-ufx-event-map-form.md).
+        For a description of the field values, see [UFX Add on Event mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-ufx-event-map-form.md).
 
     10. Select **Submit**.
 
@@ -119,7 +119,7 @@ An action button to initiate contract requests from a contract record is availab
 
 \[Omitted image "cmpro-bu-initiate-contract-button.png"\] Alt text: Initiate action button added to your workspace
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 

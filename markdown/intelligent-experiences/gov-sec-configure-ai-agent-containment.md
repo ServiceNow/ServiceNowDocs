@@ -2,12 +2,12 @@
 title: Configure AI agent containment using kill switch protocol manually
 description: Connect identity providers and hyperscalers to ServiceNow to let you contain and enforce guardrails for AI assets at runtime using kill switch protocol.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-ai-agent-containment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-configure-ai-agent-containment.html
 release: australia
 topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -36,14 +36,14 @@ To deactivate or reinstate an AI agent using kill switch protocol, you must have
 
 2.  Select the connector from the Available connectors view and follow the guided setup wizard.
 
-    For more information, see [Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-security-connections.md).
+    For more information, see [Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-security-connections.md).
 
 3.  After you set up connectors, navigate to the **Control Enforcement Points** tab and refresh the page.
 
 
 ## Result
 
-You can now deactivate and reinstate AI agents using kill switch protocol. For more information, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
+You can now deactivate and reinstate AI agents using kill switch protocol. For more information, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configuring.md)
 

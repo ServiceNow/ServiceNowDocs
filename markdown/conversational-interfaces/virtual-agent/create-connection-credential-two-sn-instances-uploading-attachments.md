@@ -2,7 +2,7 @@
 title: Create a connection and credential in Virtual Agent Bot Interconnect
 description: Create a connection and credential in Virtual Agent Bot Interconnect \(primary instance\) to enable uploading of attachments in the secondary bot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances-uploading-attachments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances-uploading-attachments.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -73,5 +73,5 @@ Role required: admin
 15. Click **Update**.
 
 
-**Parent Topic:**[Create a connection and credential in Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances.md)
+**Parent Topic:**[Create a connection and credential in Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances.md)
 

@@ -2,7 +2,7 @@
 title: Creating an invoice case
 description: Agents can create invoice cases from the Invoice Cases list view in CRM Workspace or the Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/invoice-ops-creating-invoice-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/invoice-ops-creating-invoice-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

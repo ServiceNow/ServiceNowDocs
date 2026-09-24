@@ -2,7 +2,7 @@
 title: Create group filter criteria
 description: Group filter criteria allows or denies user access based on the user group to which the user belongs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-group-filter-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-group-filter-criteria.html
 release: australia
 product: Authentication
 classification: authentication

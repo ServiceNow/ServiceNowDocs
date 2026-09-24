@@ -2,7 +2,7 @@
 title: Define include and exclude lists of Labels and Annotations
 description: In Kubernetes Visibility Agent, define include and exclude lists of Labels and Annotations in Kubernetes resources that the Informer pulls into the Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-config-annotations-allowed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/cnov-config-annotations-allowed.html
 release: australia
 product: Discovery
 classification: discovery
@@ -72,5 +72,5 @@ For example: `--set ExcludeLabelsAndAnnotations="label1,label2"`
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-deploy-install.md)
 

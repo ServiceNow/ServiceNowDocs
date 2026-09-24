@@ -2,7 +2,7 @@
 title: Domain separation and Sidebar
 description: Domain separation is supported for Sidebar . Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/sidebar-domain-separation.html
 release: australia
 product: Sidebar
 classification: sidebar

@@ -2,7 +2,7 @@
 title: Unused resources
 description: The Unused resources feature analyzes usage data to identify resources that are wasting money because they aren’t being used. You can schedule Unused resources jobs to power off or terminate the resources that you specify.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/um-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/um-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -28,16 +28,16 @@ The Cloud Cost Management application generates or fetches recommendations based
 
 Cloud Cost Management uses an optimized process for each provider.
 
--   [Unused resources analysis for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-how-um-works-cloudin.md)
--   [Unused resources analysis for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-how-um-works-cloudin.md)
--   [Unused resources analysis for Google Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-how-um-works-cloudin.md)
+-   [Unused resources analysis for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-how-um-works-cloudin.md)
+-   [Unused resources analysis for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/azure-how-um-works-cloudin.md)
+-   [Unused resources analysis for Google Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/gcp-how-um-works-cloudin.md)
 
 ## How the Unused resources feature works
 
 \[Omitted image "um-process-flow-diagram.png"\] Alt text: Flow of the Unused resources project
 
 1.  On the Unused resources recommendations page, review the recommendations generated for your cloud accounts.
-2.  Identify and select the resources you want to power off or terminate. For more information, see [Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md).
+2.  Identify and select the resources you want to power off or terminate. For more information, see [Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/manage-unused-mac.md).
 3.  Create an Unused resources job, or select an existing job.
 4.  Schedule the job by specifying the date and time for the job to run.
 5.  Confirm the action to take on the selected resources:
@@ -55,9 +55,9 @@ The system immediately generates the change requests. Later, at the scheduled ti
 **Related topics**  
 
 
-[Schedule unused resources to be powered off or terminated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/um-schedule-job-cloudin.md)
+[Schedule unused resources to be powered off or terminated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/um-schedule-job-cloudin.md)
 
 [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)
 
-[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
+[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

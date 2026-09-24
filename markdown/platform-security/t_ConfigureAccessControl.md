@@ -2,7 +2,7 @@
 title: Configure ServiceNow access control
 description: Configure an access control record to specify one or more Customer Service and Support employees who have permission to log in your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ConfigureAccessControl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ConfigureAccessControl.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

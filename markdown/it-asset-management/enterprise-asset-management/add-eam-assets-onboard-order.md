@@ -2,7 +2,7 @@
 title: Add details of the enterprise assets to an onboarding order
 description: Specify the details of the enterprise assets that you want to onboard through an onboarding order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-eam-assets-onboard-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/add-eam-assets-onboard-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -54,7 +54,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
 -   The stage of the onboarding order changes to Review.
 -   A Multi-asset onboarding task is created and displayed in the **Onboard Asset Tasks** tab.
 
-**Parent Topic:**[Onboarding multiple enterprise assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md)
+**Parent Topic:**[Onboarding multiple enterprise assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md)
 
 **Related topics**  
 

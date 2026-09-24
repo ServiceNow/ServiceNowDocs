@@ -2,7 +2,7 @@
 title: View automation insights
 description: View automation insights to view the generated insights from the insight rules in Automation Center Executions dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/view-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/view-insights.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -33,10 +33,10 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 5.  Review the information on the Automation insight page.
 
 
-**Parent Topic:**[Creating insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-insights.md)
+**Parent Topic:**[Creating insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/creating-insights.md)
 
 **Related topics**  
 
 
-[Insight rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/insight-rule-form.md)
+[Insight rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/insight-rule-form.md)
 

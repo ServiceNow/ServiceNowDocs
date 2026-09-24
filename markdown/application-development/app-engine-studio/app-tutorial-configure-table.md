@@ -2,7 +2,7 @@
 title: Configure a data table
 description: Configure a table to capture the necessary data for your application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-configure-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/app-tutorial-configure-table.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -34,7 +34,7 @@ Phase 1
 
 </td><td>
 
-[Create a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-table.md)
+[Create a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-create-table.md)
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Phase 2
 
 </td><td>
 
-[Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-configure-table.md)
+[Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-configure-table.md)
 
 </td></tr><tr><td>
 
@@ -58,10 +58,10 @@ Phase 3
 
 </td><td>
 
-[Share data between tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-share-data.md)
+[Share data between tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-share-data.md)
 
 </td></tr></tbody>
-</table>This procedure covers the second part of the task demonstrated in the tutorial video. The first part of the procedure is outlined in the previous topic [Create a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-table.md).
+</table>This procedure covers the second part of the task demonstrated in the tutorial video. The first part of the procedure is outlined in the previous topic [Create a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-create-table.md).
 
 Follow along to configure a table to store the necessary data for the employee travel request application.
 
@@ -114,7 +114,7 @@ Follow along to configure a table to store the necessary data for the employee t
 
     4.  To set additional properties for the field, select **Advanced settings**.
 
-        We don’t set additional properties for the fields in our tutorial. For more information about field types and advanced settings, see [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/field-parameters.md).
+        We don’t set additional properties for the fields in our tutorial. For more information about field types and advanced settings, see [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/field-parameters.md).
 
     5.  Select **Add**.
 
@@ -164,7 +164,7 @@ Follow along to configure a table to store the necessary data for the employee t
 
     2.  In the **Section** customization panel, select **One column**, then select **Two columns** to arrange the form fields evenly into a two-column layout.
 
-        **Tip:** For more information about the customization options available in the **Section** panel, see [Customize your form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/customize-form-layout.md).
+        **Tip:** For more information about the customization options available in the **Section** panel, see [Customize your form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/customize-form-layout.md).
 
 9.  Arrange the table fields into the order that you want them to appear by moving the fields.
 
@@ -189,5 +189,5 @@ Your table is configured to capture the necessary data for employee travel reque
 
 ## What to do next
 
-To complete the data model for the employee travel request application, we must connect the travel request table to a separate table that stores airport data. Proceed to the next step: [Share data between tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-share-data.md).
+To complete the data model for the employee travel request application, we must connect the travel request table to a separate table that stores airport data. Proceed to the next step: [Share data between tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/app-tutorial-share-data.md).
 

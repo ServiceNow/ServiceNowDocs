@@ -2,7 +2,7 @@
 title: Service Portal release notes
 description: The ServiceNow Service Portal application enables you to build mobile-friendly self-service experiences for your customers and employees with a modular portal framework. Service Portal was enhanced and updated in the Australia release.The ServiceNow Service Portal application enables you to build mobile-friendly self-service experiences for your customers and employees with a modular portal framework. Service Portal was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/service-portal-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/service-portal-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
         Add and edit more semantic tags within the Service Portal Designer to define key areas of a portal to support clearer navigation and descriptions for screen readers. This update helps users who are blind or have low vision by making it easier for assistive technology to identify and understand different sections of each page.
 
 
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-ui-rn-landing.md)
 
 ## Australia
 

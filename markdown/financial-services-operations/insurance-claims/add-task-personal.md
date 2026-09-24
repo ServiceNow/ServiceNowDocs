@@ -2,7 +2,7 @@
 title: Add an ad-hoc task
 description: Create a task as a processor, adjuster, or manager to help prioritize and plan your claim work better.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/add-task-personal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/add-task-personal.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

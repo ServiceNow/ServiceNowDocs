@@ -2,7 +2,7 @@
 title: REST APIs for third-party integration with Security Operations
 description: The Security Operations base system includes a series of scripted REST APIs that allow customers and partners to easily integrate with an existing Security Operations deployment. The APIs allow you to gather data from outside of your system \(for example, a Python script is used to receive data from VirusTotal\) and send it back to your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/third-party-script-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/third-party-script-integrations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -71,7 +71,7 @@ Sample request and responses for the observable enrichment use case are shown he
 
 \[Omitted image "ObservableEnrichmentCreateResponse.png"\] Alt text: Observable Enrichment: Create Response
 
-**Note:** In addition to enriching existing records, you can also use [Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrichment-data-mapping.md) to add new records to tables by passing in an **enrichment\_mapping\_id** for an existing enrichment mapping and a corresponding **raw\_data** string that can be parsed by the mapping process.
+**Note:** In addition to enriching existing records, you can also use [Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/enrichment-data-mapping.md) to add new records to tables by passing in an **enrichment\_mapping\_id** for an existing enrichment mapping and a corresponding **raw\_data** string that can be parsed by the mapping process.
 
 ## Threat lookup use case
 
@@ -83,5 +83,5 @@ Sample request and responses for the threat lookup use case are shown here.
 
 \[Omitted image "ThreatLookupCreateResponse.png"\] Alt text: Create-Response for threat lookups
 
-**Parent Topic:**[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-ref.md)
+**Parent Topic:**[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integ-ref.md)
 

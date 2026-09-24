@@ -2,7 +2,7 @@
 title: View assessment reports
 description: Use the Assessment Overview dashboard to view your assessment reports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/view-assessment-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/view-assessment-report.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ The dashboard displays reports arranged in widgets. You can add new widgets to t
     For more information about working with dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-landing-page.md).
 
 
-**Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md)
+**Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAMetricResult.md)
 

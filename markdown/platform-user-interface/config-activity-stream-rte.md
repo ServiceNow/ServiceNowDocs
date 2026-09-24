@@ -2,7 +2,7 @@
 title: Configure rich text editor for the Activity stream
 description: Configure a rich text editor for journal fields in the Activity stream.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/config-activity-stream-rte.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/config-activity-stream-rte.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: View your assigned In-store operations cases and tasks in Retail Mobile
 description: Review all of your assigned In-store operations cases and tasks within Retail Mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-view-in-store-cases-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-view-in-store-cases-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 3.  Select a case or task to review its details and take action as needed.
 
 
-**Parent Topic:**[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)
+**Parent Topic:**[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)
 

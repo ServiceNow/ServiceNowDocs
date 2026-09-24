@@ -2,7 +2,7 @@
 title: Start simulation and run scenario testing
 description: Complete the simulation assessment questionnaire to provide the statistical model with the input values required to run the simulation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/complete-sca-scenario-testing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/complete-sca-scenario-testing.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +23,7 @@ Role required: **sn\_oper\_res.admin**, **sn\_oper\_res.manager**
 
 A Simulation Assessment record is generated automatically for the selected service. The assessment is owned by the analyst or subject-matter expert assigned to complete it. The assessment opens with the **Scenario Understanding** section, which collects the input values required by the statistical model.
 
-**Note:** This task describes the **Statistical Modelling** method. If the scenario analysis uses the **Manual** method, the **Scenario Testing** step presents an SME assessment template instead of a simulation, and the playbook omits the **Reference Data** and **Results** steps. For more information, see [Scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-ov.md).
+**Note:** This task describes the **Statistical Modelling** method. If the scenario analysis uses the **Manual** method, the **Scenario Testing** step presents an SME assessment template instead of a simulation, and the playbook omits the **Reference Data** and **Results** steps. For more information, see [Scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/scenario-analysis-ov.md).
 
 ## Procedure
 
@@ -82,5 +82,5 @@ A Simulation Assessment record is generated automatically for the selected servi
 
 ## Result
 
-The simulation assessment is submitted and the simulation is running. Results are available in the **Results** step when the simulation completes. For information on reviewing results and making a treatment decision, see [Review results and decide the treatment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/review-sca-results-treatment-decision.md).
+The simulation assessment is submitted and the simulation is running. Results are available in the **Results** step when the simulation completes. For information on reviewing results and making a treatment decision, see [Review results and decide the treatment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/review-sca-results-treatment-decision.md).
 

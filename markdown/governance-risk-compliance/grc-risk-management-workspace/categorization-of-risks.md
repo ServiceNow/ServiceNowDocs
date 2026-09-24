@@ -2,7 +2,7 @@
 title: Categorizing risks with the Governance, Risk, and Compliance: Predictive Intelligence plugin
 description: By using the Governance, Risk, and Compliance: Predictive Intelligence plugin, you can predict the risk statements for your orphan risks \(the risks that don't have risk statements\) on the risk records for your organization. You can then identify the correct risk statement for the risks and then aggregate them into manageable categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/categorization-of-risks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/categorization-of-risks.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -59,5 +59,5 @@ For more information, see [Create and train a similarity solution](https://raw.g
 
 A risk administrator with the ml\_admin role can review the default similarity solution definition for risk and modify it based on your organizational needs.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Managing ERP development pipelines in Zero Copy Connector for ERP
 description: Move your ERP \(Enterprise Resource Planning\) systems, ERP models, tables, operations, and flows from a development instance to a production environment when they're ready.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/manage-erp-tables-pipelines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/manage-erp-tables-pipelines.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

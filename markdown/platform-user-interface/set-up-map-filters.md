@@ -2,7 +2,7 @@
 title: Add a map filter
 description: Add a map filter to display filtered map markers. This filter enables you to see only the map markers for the data that you want.Choose a Map Page for your map filter, and determine how it functions on the Map Page.Select your map filter to complete the Map Page filter setup. This setup applies the map filter to your Map Page.Check to see that your map filter was successfully created in your Map Page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-map-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-up-map-filters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Add a map filter to display filtered map markers. This filter enables you to see
 
 ## Before you begin
 
-A [map data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-map-data-items.md) should be configured before accomplishing this task. The example map data item can work with the example map filter tables below to successfully set up a map filter.
+A [map data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-map-data-items.md) should be configured before accomplishing this task. The example map data item can work with the example map filter tables below to successfully set up a map filter.
 
 Role required: admin
 
@@ -134,7 +134,7 @@ Scripting field for your Map Page filter item.
 
 ## Map Page Filter Item form
 
-Select the options in the table to successfully create your Map Page filter item. This setup works with the [map data item example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-map-data-items.md).
+Select the options in the table to successfully create your Map Page filter item. This setup works with the [map data item example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-map-data-items.md).
 
 <table id="table_drl_r1j_nkb"><thead><tr><th>
 
@@ -219,9 +219,9 @@ Skip this field.
 </td></tr></tbody>
 </table>## What to do next
 
-Continue to the next task to [configure a map filter data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-map-filters.md).
+Continue to the next task to [configure a map filter data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-up-map-filters.md).
 
-**Parent Topic:**[Create an advanced Map Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-advanced-map-page.md)
+**Parent Topic:**[Create an advanced Map Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-advanced-map-page.md)
 
 ## Configure a map filter data mapping
 
@@ -305,7 +305,7 @@ Data is retrieved from this field in the table that you selected.
 
 ### Map Filter Data Mapping form
 
-Select the options in the table to create your map filter data mapping. This setup works with the [map data item example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-map-data-items.md).
+Select the options in the table to create your map filter data mapping. This setup works with the [map data item example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-map-data-items.md).
 
 <table id="table_mpw_bmq_nkb"><thead><tr><th>
 
@@ -366,7 +366,7 @@ Select **Value**.
 </td></tr></tbody>
 </table>### What to do next
 
-Continue to the next task to [select your map filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-map-filters.md), and complete the map filter setup.
+Continue to the next task to [select your map filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-up-map-filters.md), and complete the map filter setup.
 
 ## Select map filters
 
@@ -391,7 +391,7 @@ Role required: admin
 
 ### What to do next
 
-You've set up your map filter. Continue to the [next task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-map-filters.md) to see that you have successfully created it.
+You've set up your map filter. Continue to the [next task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-up-map-filters.md) to see that you have successfully created it.
 
 ## Check your map filter
 

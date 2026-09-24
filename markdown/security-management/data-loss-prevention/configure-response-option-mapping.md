@@ -2,7 +2,7 @@
 title: Configure response option for your DLP incidents
 description: Use this feature to configure the type of response that an end user or analyst should perform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-response-option-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/configure-response-option-mapping.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -130,12 +130,12 @@ Select the required MID Server Capability from the drop down list.
 
 4.  Click **Submit**.
 
-    **Note:** If you are creating an **Advanced** type of response option, then the **Approval Rules** related list will be populated for you to configure the approval rule for that new response option. For more information, see [Create Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-approval-rules.md).
+    **Note:** If you are creating an **Advanced** type of response option, then the **Approval Rules** related list will be populated for you to configure the approval rule for that new response option. For more information, see [Create Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/configure-approval-rules.md).
 
     \[Omitted image "dlp-msft-default-response-option.png"\] Alt text: Configure Response Option
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Jamf Pro mobile device management \(MDM\)
 description: Use Jamf Pro to distribute and manage the ServiceNow mobile app on user devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/jamf-mdm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/jamf-mdm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,8 +18,8 @@ Use the following steps to configure the ServiceNow mobile app for iOS and Andro
 
 You should have a Jamf Pro license for your ServiceNow mobile app before you attempt the following configuration.
 
--   **[Configure the ServiceNow mobile app for Jamf Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-app-jamf-pro.md)**  
+-   **[Configure the ServiceNow mobile app for Jamf Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-mobile-app-jamf-pro.md)**  
 Use app configuration to pre-configure the instance URL in Jamf Pro.
 
-**Parent Topic:**[Supported mobile device management vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-vendors.md)
+**Parent Topic:**[Supported mobile device management vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-vendors.md)
 

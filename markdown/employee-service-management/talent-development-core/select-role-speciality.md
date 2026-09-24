@@ -2,7 +2,7 @@
 title: Selecting a Role specialty
 description: Update your skills profile by selecting a role level as your role specialty to get personalize skill recommendations based on your job family and job profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/select-role-speciality.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/select-role-speciality.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -41,10 +41,10 @@ Role required: sn\_skills\_int.emp
 
 ## Result
 
-The skills related your role specialty are displayed under Essential skills section in the Skills widget. You can change the proficiency of the skills according to your expertise level. For more information, see [Update your skill proficiency level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/update-skill-proficiency-level.md).
+The skills related your role specialty are displayed under Essential skills section in the Skills widget. You can change the proficiency of the skills according to your expertise level. For more information, see [Update your skill proficiency level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/update-skill-proficiency-level.md).
 
 **Note:**
 
 -   You can't delete a role specialty, only add or change it. If you change the role specialty, the skills in your profile are changed based on the selected role level. If you have a skill that is validated, or if you have updated its proficiency, then that skill is moved to the Additional skills section. If the skills aren't validated or if the proficiency is unchanged, then that skill is removed.
--   If you don't see any suggestions for the role specialty, contact your admin. Your admin can configure the job architecture data by creating a role profile that matches your job family and skills. For more information, see [Adding a job profile to the employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/map-employee-job-profile.md).
+-   If you don't see any suggestions for the role specialty, contact your admin. Your admin can configure the job architecture data by creating a role profile that matches your job family and skills. For more information, see [Adding a job profile to the employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/map-employee-job-profile.md).
 

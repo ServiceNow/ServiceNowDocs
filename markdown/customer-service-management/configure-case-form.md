@@ -2,7 +2,7 @@
 title: Configure a Case form view
 description: The Case form contains detailed information about a customer issue or problem. Configure a Case form view to display the desired fields and related lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-case-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-case-form.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

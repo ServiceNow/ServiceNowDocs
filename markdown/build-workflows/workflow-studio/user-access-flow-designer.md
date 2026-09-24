@@ -2,7 +2,7 @@
 title: User access to Workflow Studio flows
 description: Administrators can grant users access to Workflow Studio flows by assigning delegated development permissions or directly assigning a user role. Administrators can also specify which features and content a user can access based on user roles. Application developers can access Workflow Studio functionality through APIs for flows, subflows, and actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/user-access-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/user-access-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -66,7 +66,7 @@ flow\_designer\_scripting
 
 </td><td>
 
-Enables someone with the flow\_designer or action\_designer role to set and modify input values by writing inline scripts. For information, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md).
+Enables someone with the flow\_designer or action\_designer role to set and modify input values by writing inline scripts. For information, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/inline-scripts.md).
 
 </td><td>
 
@@ -90,7 +90,7 @@ flow\_report\_viewer
 
 </td><td>
 
-Enables you to view reports for Workflow Studio flow tables. For a list of relevant flow reporting tables, see [Flow execution details retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-reporting.md).
+Enables you to view reports for Workflow Studio flow tables. For a list of relevant flow reporting tables, see [Flow execution details retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-reporting.md).
 
 </td><td>
 
@@ -197,7 +197,7 @@ fd\_read\_operations
 
 ## API access
 
-Application developers can access Workflow Studio functionality through APIs for flows, subflows, and actions. Flow authors can enable individual flows, subflows, and actions to be client callable during design. For more information, see [API access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/api-access-flow-designer.md).
+Application developers can access Workflow Studio functionality through APIs for flows, subflows, and actions. Flow authors can enable individual flows, subflows, and actions to be client callable during design. For more information, see [API access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/api-access-flow-designer.md).
 
 ## Delegated development access
 
@@ -205,13 +205,13 @@ Administrators can grant users access to Workflow Studio flows by creating an ap
 
 ## Role-based content filtering
 
-Specify the user roles necessary to access Workflow Studio flow content. For example, flows, flow triggers, actions, and subflows. Manage content filtering by creating content definitions and content filtering rules. For more information, see [Content filtering for Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/content-filtering-flow-designer.md).
+Specify the user roles necessary to access Workflow Studio flow content. For example, flows, flow triggers, actions, and subflows. Manage content filtering by creating content definitions and content filtering rules. For more information, see [Content filtering for Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/content-filtering-flow-designer.md).
 
 **Note:** Your users must have the flow\_designer role to create and edit flows. You can specify the additional roles that a user must have to access particular features or content.
 
 ## Role-based feature access
 
-Specify additional user roles necessary to access the UI elements of Workflow Studio flows. For example, specify a role to access the buttons to save, test, or activate a flow or to access the option to copy a code snippet. Manage feature access directly through the Feature Access List. For more information, see [Manage access to Workflow Studio flow features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-access-features.md).
+Specify additional user roles necessary to access the UI elements of Workflow Studio flows. For example, specify a role to access the buttons to save, test, or activate a flow or to access the option to copy a code snippet. Manage feature access directly through the Feature Access List. For more information, see [Manage access to Workflow Studio flow features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/manage-access-features.md).
 
 **Note:** Your users must have the flow\_designer role to create and edit flows. You can specify the additional roles that a user must have to access particular features or content.
 

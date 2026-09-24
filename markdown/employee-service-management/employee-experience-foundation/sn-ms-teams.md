@@ -2,7 +2,7 @@
 title: IT Service Management integration with Microsoft Teams and Microsoft 365
 description: IT Service Management integration with Microsoft Teams extends the Now Virtual Agent integration with Microsoft Teams to enable employees to more effectively request and receive service from within Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/sn-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/sn-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -41,16 +41,16 @@ The IT Service Management integration with Microsoft Teams application includes 
 
 You must perform the following activities to integrate IT Service Management with Microsoft Teams in your ServiceNow instance:
 
-1.  [Install IT Service Management integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-sn-ms-teams-plugin.md)
-2.  [Setting up the ServiceNow instance for Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-tenants.md)
+1.  [Install IT Service Management integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-sn-ms-teams-plugin.md)
+2.  [Setting up the ServiceNow instance for Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-tenants.md)
 
-To configure the IT Service Management integration with Microsoft Teams in your ServiceNow instance, see [Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md).
+To configure the IT Service Management integration with Microsoft Teams in your ServiceNow instance, see [Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md).
 
-To manage the IT Service Management integration with Microsoft Teams in your ServiceNow instance, see [Customize IT Service Management integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/customize-sn-ms-teams.md).
+To manage the IT Service Management integration with Microsoft Teams in your ServiceNow instance, see [Customize IT Service Management integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/customize-sn-ms-teams.md).
 
-To use the IT Service Management integration with Microsoft Teams in your ServiceNow instance, see [Use ITSM and HRSD integrations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/user-sn-ms-teams.md).
+To use the IT Service Management integration with Microsoft Teams in your ServiceNow instance, see [Use ITSM and HRSD integrations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/user-sn-ms-teams.md).
 
-**Parent Topic:**[Explore Microsoft Teams and Microsoft 365 integration for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_experience.md)
+**Parent Topic:**[Explore Microsoft Teams and Microsoft 365 integration for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c_employee_experience.md)
 
 **Related topics**  
 

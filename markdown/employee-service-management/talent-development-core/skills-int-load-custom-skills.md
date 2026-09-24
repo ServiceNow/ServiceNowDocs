@@ -2,7 +2,7 @@
 title: Load your custom skills into Skills Foundation
 description: Upload the skills specific to your organization or human capital management practices in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-int-load-custom-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/skills-int-load-custom-skills.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

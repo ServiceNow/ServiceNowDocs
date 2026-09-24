@@ -2,7 +2,7 @@
 title: Configuring translation for Content Publishing after upgrade
 description: Content Publishing supports multi-lingual content creation by enabling content managers to easily change the interface language and request content translation through the Localization Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-multiple-language-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-multiple-language-support.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -16,7 +16,7 @@ breadcrumb: [Configure Localization Framework for Content Publishing, Setup empl
 
 Content Publishing supports multi-lingual content creation by enabling content managers to easily change the interface language and request content translation through the Localization Framework.
 
-For more information on multiple language support in the Content Library, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-switch-language.md).
+For more information on multiple language support in the Content Library, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 
 For information on translating custom widgets, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TranslateAClientScriptMessage.md)
 

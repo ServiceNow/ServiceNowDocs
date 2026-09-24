@@ -2,7 +2,7 @@
 title: Activate or update a framework and install citations using the Unified content management
 description: Activate or update your chosen framework and select the citations for the framework you've selected. This will install the framework and the selected citations and metric definitions on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/install-citations-frameworks-from-esg-content-accelerator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/install-citations-frameworks-from-esg-content-accelerator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ Role required: sn\_esg.admin
 8.  To update a framework, select a framework and select **Update**.
 
 
-**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-esg.md)
+**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-esg.md)
 

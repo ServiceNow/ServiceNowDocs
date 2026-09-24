@@ -2,7 +2,7 @@
 title: Repair claim
 description: The Agents workspace enables the OEMs to create, view, review, and approve the repair claims.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-use-repair-claim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-use-repair-claim.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ The Agents workspace enables the OEMs to create, view, review, and approve the r
 
 |Tasks|Description|
 |-----|-----------|
-|[Create a repair claim manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-repair-claim.md)|Create repair claim case.|
-|[View a repair claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-view-repair-cc.md)|View the required repair claim cases.|
-|[Reviewing and approving repair claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-approve-repair-claims.md)|Different types of approval.|
+|[Create a repair claim manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-repair-claim.md)|Create repair claim case.|
+|[View a repair claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-view-repair-cc.md)|View the required repair claim cases.|
+|[Reviewing and approving repair claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-approve-repair-claims.md)|Different types of approval.|
 

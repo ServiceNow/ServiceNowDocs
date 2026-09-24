@@ -2,7 +2,7 @@
 title: Post knowledge
 description: You can create a knowledge article from the problem immediately, and not wait for when the problem is closed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/t\_PostKnowledge.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/t\_PostKnowledge.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -22,7 +22,7 @@ Role required: itil, knowledge
 
 ## About this task
 
-If you have Problem Management Best Practice — Madrid — Knowledge Integration plugin \(com.snc.best\_practice.problem.madrid.knowledge\) activated, see [Create a known error article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/create-known-error-from-problem.md). The topic applies to legacy Problem \(London or a prior release\) only.
+If you have Problem Management Best Practice — Madrid — Knowledge Integration plugin \(com.snc.best\_practice.problem.madrid.knowledge\) activated, see [Create a known error article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/create-known-error-from-problem.md). The topic applies to legacy Problem \(London or a prior release\) only.
 
 ## Procedure
 
@@ -39,5 +39,5 @@ If you have Problem Management Best Practice — Madrid — Knowledge Integratio
     By default, the system creates a knowledge article in **Draft** workflow state. If the knowledge submission workflow is enabled, the problem **Short description** and **Work notes** are placed into a knowledge submission instead of an article. For more information, see [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeWorkflows.md).
 
 
-**Parent Topic:**[Communicating the outcome of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/communicate-outcome-of-problem.md)
+**Parent Topic:**[Communicating the outcome of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/communicate-outcome-of-problem.md)
 

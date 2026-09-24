@@ -2,7 +2,7 @@
 title: Chief Financial Officer \(CFO\) Dashboard
 description: The Chief Financial Officer \(CFO\) Dashboard provides a single pane glass view of end-to-end financial operations at an organizational or project level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cfo-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/cfo-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

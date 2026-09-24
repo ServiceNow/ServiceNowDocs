@@ -2,7 +2,7 @@
 title: View a contract repository record
 description: View the history of a legal contract to track changes, review the audit trail, and update fields. Easily see the date a contract was modified and who modified it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-view-contract-rec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-view-contract-rec.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -39,7 +39,7 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
     2.  In the **Contract History** related list, select a date in the **Contract Starts** column to view the earlier version.
 
 
-**Parent Topic:**[Manage Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-manage-sn-legal-contracts.md)
+**Parent Topic:**[Manage Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-manage-sn-legal-contracts.md)
 
 **Related topics**  
 

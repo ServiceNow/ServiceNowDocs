@@ -2,7 +2,7 @@
 title: Customize Platform Analytics elements
 description: Customize the appearance of widgets when viewing Platform Analytics visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/perf-analytics-widget-customize.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/perf-analytics-widget-customize.html
 release: australia
 product: Event Management
 classification: event-management
@@ -39,5 +39,5 @@ Role required: user
 
 Users with the admin role can customize colors and fonts. To customize fonts, navigate to **sys\_ux\_theme\_property.list** and edit the applicable fonts.
 
-**Parent Topic:**[Event Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-content-pack.md)
+**Parent Topic:**[Event Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-content-pack.md)
 

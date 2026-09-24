@@ -2,7 +2,7 @@
 title: Delete an assessable record
 description: When you delete an assessable record, the system deletes any stakeholders for the record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_DeleteAssessableRecord.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_DeleteAssessableRecord.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,12 +29,12 @@ Role required: assessment\_admin or admin
     -   To delete a single record, open the record and click **Delete**.
     -   To delete multiple records, use the Assessable Records list.
 
-**Parent Topic:**[Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_assessable-records.md)
+**Parent Topic:**[Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_assessable-records.md)
 
-**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
 **Related topics**  
 
 
-[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 

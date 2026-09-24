@@ -2,7 +2,7 @@
 title: Configuring domain separation with the domain picker
 description: Use the domain picker wisely, and remember the 80/15/5 approach so that you do not customize too much and impact the performance of your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-picker-config-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-domain-picker-config-process.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,9 +36,9 @@ You need to use an "80-15-5" approach in configuring your domains to avoid too l
     -   Look for no-code solutions.
     -   Use server-side scripts, build modular APIs, and build in domain-separated properties.
     -   If you must use client scripting, use only ServiceNow APIs. Limit "synchronous" calls \(those that go back and forth from client to server, also called AJAX\).
-    -   Write all scripts logically to keep them simple and effective. Enforce peer reviews of code changes and make sure everyone is following the [Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md) in this section.
+    -   Write all scripts logically to keep them simple and effective. Enforce peer reviews of code changes and make sure everyone is following the [Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md) in this section.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

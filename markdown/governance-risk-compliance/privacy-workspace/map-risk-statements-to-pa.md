@@ -2,7 +2,7 @@
 title: Map a risk statement to a question response
 description: Map the risk statements to the responses of the assessment questions to automatically create and apply the respective risks on the processing activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/map-risk-statements-to-pa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/map-risk-statements-to-pa.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -87,5 +87,5 @@ To create and apply risk statements for a response, perform the following steps.
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
+**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
 

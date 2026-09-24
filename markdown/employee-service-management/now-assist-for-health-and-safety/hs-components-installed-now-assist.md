@@ -2,7 +2,7 @@
 title: Components installed with Now Assist for Health and Safety
 description: Several types of components are installed with activation of the ServiceNow Otto for Health and Safety plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-components-installed-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/hs-components-installed-now-assist.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -44,7 +44,7 @@ Health and Safety incident management
 
 </td><td>
 
-Installs the Health and Safety Incident Management application. For more information on store applications, roles, and tables installed with see, [Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.md).
+Installs the Health and Safety Incident Management application. For more information on store applications, roles, and tables installed with see, [Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.md).
 
 </td></tr></tbody>
 </table>

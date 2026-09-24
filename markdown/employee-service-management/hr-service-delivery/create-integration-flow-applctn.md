@@ -2,7 +2,7 @@
 title: Create Integration Flow to pull data from ATS
 description: Create the integration flow with your preferred ATS to pull in data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-integration-flow-applctn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/create-integration-flow-applctn.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +27,7 @@ Create the supporting actions after the integration is done to establish a chann
 
 ## Use Import sets for data configuration
 
-Use import sets to get the job application data, if you don't have an integrated ATS. For more information, see [Upload job applications using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/upload-applcatin-with-import-sets.md).
+Use import sets to get the job application data, if you don't have an integrated ATS. For more information, see [Upload job applications using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/upload-applcatin-with-import-sets.md).
 
-**Parent Topic:**[Receive application and applicant data from ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/receive-application-data-ta.md)
+**Parent Topic:**[Receive application and applicant data from ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/receive-application-data-ta.md)
 

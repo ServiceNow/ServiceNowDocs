@@ -2,7 +2,7 @@
 title: Configure Discovery identity probes
 description: Identity probes are multi-probes, which contain one or more simple probes configured to extract specific information from manageable devices. You can create your own identity multi-probe to identify CIs that Discovery does not already identify.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ConfigureDiscoveryIdentityProbes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_ConfigureDiscoveryIdentityProbes.html
 release: australia
 product: Discovery
 classification: discovery
@@ -45,7 +45,7 @@ Identity probes return such information as device serial numbers \(there can be 
 
 ## What to do next
 
-[Configure Discovery identity sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigDiscoIdentSens.md) that are part of the identify probes.
+[Configure Discovery identity sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_ConfigDiscoIdentSens.md) that are part of the identify probes.
 
-**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
+**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
 

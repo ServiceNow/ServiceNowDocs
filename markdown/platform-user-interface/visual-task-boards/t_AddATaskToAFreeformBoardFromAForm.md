@@ -2,7 +2,7 @@
 title: Add a task to a freeform Visual Task Board from a form
 description: You can add a task card to a freeform board from any table that extends Task. These cards represent records on whichever table you add them from.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_AddATaskToAFreeformBoardFromAForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_AddATaskToAFreeformBoardFromAForm.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -39,5 +39,5 @@ You can add cards from multiple task tables, such as Incident or Problem, to the
     The task appears in the first lane by default.
 
 
-**Parent Topic:**[Freeform Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_FreeformBoardTasks.md)
+**Parent Topic:**[Freeform Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_FreeformBoardTasks.md)
 

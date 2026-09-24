@@ -2,7 +2,7 @@
 title: Cluster analysis configurations for SPM work items
 description: The Process Mining application provides solution definitions for demands, that you can use to configure cluster analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/cluster-analysis-configurations-for-spm-work-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/cluster-analysis-configurations-for-spm-work-items.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -30,5 +30,5 @@ A Process Mining administrator \(sn\_process\_mining\_admin\) can access the SPM
 
 The clustering solution definitions also contain the purity fields for demands, which are department, business\_unit, and priority.
 
-**Parent Topic:**[Content pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-with-spm.md)
+**Parent Topic:**[Content pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integration-with-spm.md)
 

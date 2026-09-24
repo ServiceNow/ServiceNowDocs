@@ -2,7 +2,7 @@
 title: Integrate Box in Knowledge Center
 description: Configure a Box application and connect it to your ServiceNow instance so that knowledge authors can use Box as an external content source for knowledge article creation using AI.Create an application on the Box Platform.Connect your ServiceNow instance to Box by configuring an OAuth entity and linking it to the REST message record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-configuring-box-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/kc-configuring-box-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-28"
@@ -115,5 +115,5 @@ The Box integration is active. The **Box** option appears under the Integration 
 **Related topics**  
 
 
-[Create knowledge articles using AI and Box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-create-article-with-Box.md)
+[Create knowledge articles using AI and Box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/kc-create-article-with-Box.md)
 

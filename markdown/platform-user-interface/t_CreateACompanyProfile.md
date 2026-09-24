@@ -2,7 +2,7 @@
 title: Create a company profile
 description: To customize the ServiceNow instance for your company, you can enter information such as contact phone numbers, street address, and additional notes. You can also customize the company logo and banner text your end users see at the top of each page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateACompanyProfile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateACompanyProfile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,16 +47,16 @@ Much of the company information that you enter is reference information that adm
 7.  Click **Update**.
 
 
--   **[Banner logo link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CustomizeTheBannerLogoLink.md)**  
+-   **[Banner logo link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_CustomizeTheBannerLogoLink.md)**  
 Properties are available to control the URL and target frame used when clicking the banner logo.
--   **[Customize the banner logo in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CustomizeTheLogoInSysProps.md)**  
+-   **[Customize the banner logo in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_CustomizeTheLogoInSysProps.md)**  
 Use the **glide.product.image** and **glide.product.description** properties to change the banner logo and description in Core UI.
--   **[Customize the favicon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/customize-favicon.md)**  
+-   **[Customize the favicon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/customize-favicon.md)**  
 Use the **glide.product.icon** property to change the icon that appears in bookmarks and the browser address bar.
--   **[Examples of how to modify the banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ExamplesOfHowToModifyTheBanner.md)**  
+-   **[Examples of how to modify the banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ExamplesOfHowToModifyTheBanner.md)**  
 There are various ways that you can modify the banner on your instances.
--   **[Modify the banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ModifyTheBanner.md)**  
+-   **[Modify the banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ModifyTheBanner.md)**  
 The banner is displayed at the top of the page and is rendered using certain system properties.
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

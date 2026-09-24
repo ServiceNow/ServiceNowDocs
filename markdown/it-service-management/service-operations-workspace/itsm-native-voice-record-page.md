@@ -2,7 +2,7 @@
 title: ITSM voice interaction record page
 description: The ITSM voice interaction record page provides a component that customers can use for integration with Contact Center as a Service \(CCaaS\) providers and an interface that agents can use to handle customer phone calls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/itsm-native-voice-record-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -27,7 +27,7 @@ The ITSM voice interaction record page enables CCaaS providers to display native
 For more information about the integration with CCaaS providers, see the following topics:
 
 -   
--   [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
+-   [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
 
 ## Page structure
 
@@ -36,13 +36,13 @@ The ITSM voice interaction record page is made up of two different pages:
 -   ITSM voice interaction record page
 -   Interaction control page
 
-The pages appear together and are visible to agents for phone interactions when the [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md) is enabled.
+The pages appear together and are visible to agents for phone interactions when the [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md) is enabled.
 
 The Interaction control page appears in the left panel and includes the following components:
 
--   [Interaction Controls Component \(ICC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md): Enables CCaaS providers to display native voice integrations.
--   [Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md): Displays customer, consumer, or account history information, depending on the customer information provided on the interaction record.
--   [Live call transcript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md): Displays the text of the call transcript when a conversation record is present for the interaction.
+-   [Interaction Controls Component \(ICC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md): Enables CCaaS providers to display native voice integrations.
+-   [Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md): Displays customer, consumer, or account history information, depending on the customer information provided on the interaction record.
+-   [Live call transcript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md): Displays the text of the call transcript when a conversation record is present for the interaction.
 
     **Note:** Live call transcript requires additional configuration.
 
@@ -50,8 +50,8 @@ The Interaction control page appears in the left panel and includes the followin
 The CSM voice interaction record page includes the following components:
 
 -   Interaction form
--   [Action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
--   [contextual side panel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
+-   [Action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
+-   [contextual side panel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
 
 ## Plugin
 
@@ -72,7 +72,7 @@ Record pages and page variants created with this template enable agents to manag
 
 ## ITSM voice interaction record page variant
 
-The ITSM voice interaction record page variant is included with the ITSM Configurable Workspace plugin and has a dependency on the Interaction Controls Component plugin. This page variant is available for users with the interaction controls enabled. For more information, see [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md).
+The ITSM voice interaction record page variant is included with the ITSM Configurable Workspace plugin and has a dependency on the Interaction Controls Component plugin. This page variant is available for users with the interaction controls enabled. For more information, see [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md).
 
 This page variant includes the following settings.
 
@@ -109,7 +109,7 @@ Conditions
 Conditions determine when a page variant is displayed. The CSM voice interaction record page variant has the following conditions:-   **table = interaction**: Limits the use of the CSM voice interaction page variant to records from the Interaction \[interaction\] table.
 -   **itsm.interactionRecordValid = true**: Checks if the interaction record is available in the database.
 -   **itsm.interactionType = phone**: Checks if the **Type** field on the interaction record is set to phone.
--   **itsm.interactiveControlsEnabled = true**: Queries the [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md) record and checks the following:
+-   **itsm.interactiveControlsEnabled = true**: Queries the [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md) record and checks the following:
     -   The **Enable interaction controls** field is enabled.
     -   The user belongs to the group selected in the **User Group** field.
 
@@ -161,7 +161,7 @@ Agents can create multiple tags for a record and then use the tags to group and 
 
 </td></tr><tr><td>
 
-[Action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
+[Action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
 
 </td><td>
 
@@ -173,7 +173,7 @@ The action bar contains the actions available to users while working on phone in
 
 </td></tr><tr><td>
 
-[Interaction Controls Component \(ICC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
+[Interaction Controls Component \(ICC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
 
 </td><td>
 
@@ -181,7 +181,7 @@ The Interaction Controls Component enables CCaaS providers to display native voi
 
 </td></tr><tr><td>
 
-[Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
+[Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
 
 </td><td>
 
@@ -199,7 +199,7 @@ The interaction details include information about the interaction including the 
 
 </td></tr><tr><td>
 
-[Contextual side panel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
+[Contextual side panel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
 
 </td><td>
 
@@ -224,7 +224,7 @@ The CSM voice interaction record page with the ICC component is displayed when t
 For more information about the integration with CCaaS providers, see the following topics:
 
 -   
--   [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
+-   [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-native-voice-record-page.md)
 
 ## Customer History component
 
@@ -403,5 +403,5 @@ When the following conditions are met, the agent sees the CSM voice interaction 
 
 The agent can switch between phone interactions and chat interactions. If an interaction is of type chat, the agent sees the CSM default record page.
 
-**Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-interaction-management-sow.md)
+**Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-interaction-management-sow.md)
 

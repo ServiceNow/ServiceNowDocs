@@ -2,7 +2,7 @@
 title: Usage Insights for mobile applications
 description: Usage Insights helps you understand usage and adoption of your mobile applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-analytics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

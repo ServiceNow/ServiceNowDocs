@@ -2,7 +2,7 @@
 title: Configure the space man on the landing page
 description: Change the image of the space man to an image your choice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/modify-space-man-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/modify-space-man-landing-page.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -37,5 +37,5 @@ The image on the banner of the header section in the SOW landing page supports c
     **Note:** The image supports custom themes for a more personalized experience.
 
 
-**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
+**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
 

@@ -2,7 +2,7 @@
 title: Configuring Audit Management
 description: You can run the GRC Audit Management application by downloading it from the ServiceNow Store and then configuring the settings in the setup checklist to meet your needs. Mandatory and optional setup steps, as well as an implementation checklist, are provided to simplify the setup.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-imple-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/audit-imple-overview.html
 release: australia
 product: Audit Management
 classification: audit-management

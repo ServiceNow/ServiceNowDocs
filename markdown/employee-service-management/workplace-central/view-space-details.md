@@ -2,7 +2,7 @@
 title: View space details
 description: View the full details of a workspace that you selected in the schedule view. You can view details such as the floor, building, capacity, standard services, and reservation purpose on the space details panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-space-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/view-space-details.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -61,5 +61,5 @@ On the Schedule view page, you can do the following:
 7.  Edit the required field details on the space record page and select **Save**.
 
 
-**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-view.md)
+**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-schedule-view.md)
 

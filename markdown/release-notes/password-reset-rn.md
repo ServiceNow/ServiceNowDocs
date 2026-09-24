@@ -2,7 +2,7 @@
 title: Password Reset release notes
 description: The ServiceNow Password Reset application enables you to set up your end users to reset and change their passwords either using self-service or with the help of a service desk agent. Password Reset was enhanced and updated in the Australia release.The ServiceNow Password Reset application enables you to set up your end users to reset and change their passwords either using self-service or with the help of a service desk agent. Password Reset was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/password-reset-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/password-reset-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ See [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     Password Reset is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-capabilities-rn-landing.md)
 
 ## Australia
 

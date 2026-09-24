@@ -2,7 +2,7 @@
 title: Cluster details performance metrics
 description: The metrics provide the cluster details and Encryption status snapshot within the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-cluster-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-cluster-details.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-27"
@@ -26,7 +26,7 @@ Diagnostic events information can be viewed by node, which can help troubleshoot
 
 **Important:** Encryption status is not available in the Regulated Market.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

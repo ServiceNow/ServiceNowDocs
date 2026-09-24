@@ -2,7 +2,7 @@
 title: Activating Conversation Improvement Themes
 description: Activate the Conversation Improvement Themes application to analyze conversation quality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/conv-impr-themes-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/conv-impr-themes-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Activate the Conversation Improvement Themes application to analyze conversation
 
 Role required: admin
 
-Conversation evaluations have to be enabled in AI Control Tower. For more information, see [Enabling evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-enable.md).
+Conversation evaluations have to be enabled in AI Control Tower. For more information, see [Enabling evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-eval-enable.md).
 
 ## Procedure
 

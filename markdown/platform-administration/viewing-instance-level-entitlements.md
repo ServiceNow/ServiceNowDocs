@@ -2,7 +2,7 @@
 title: Viewing instance-level entitlements in Subscription Management
 description: View a complete list of the product subscriptions purchased for your current instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/viewing-instance-level-entitlements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/viewing-instance-level-entitlements.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

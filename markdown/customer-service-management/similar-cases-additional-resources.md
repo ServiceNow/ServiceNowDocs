@@ -2,7 +2,7 @@
 title: Additional search resources
 description: The similar case recommendation feature uses additional search resources, which are configured using the Contextual Search application.The Major Case agent assist recommendations is used for recommending major cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/similar-cases-additional-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/similar-cases-additional-resources.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

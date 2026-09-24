@@ -2,7 +2,7 @@
 title: Mobile experience for Health and Safety
 description: Enable your employees to submit health and safety incidents and observations, Job safety analyses \(JSAs\), access safety knowledge base, and more on their mobile device using the ServiceNow mobile applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-health-safety-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-health-safety-mobile.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -43,26 +43,26 @@ To turn on offline mode on your mobile, do the following:
 
 
 
--   **[Configure mobile apps to access Health and Safety applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/configure-now-mobile-health-safety.md)**  
+-   **[Configure mobile apps to access Health and Safety applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/configure-now-mobile-health-safety.md)**  
 Configure the ServiceNow mobile apps to access Health and Safety applications for submitting safety incidents, observations, and job safety analyses \(JSAs\).
--   **[Add Health and Safety launcher tab to Now Mobile app configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/add-health-safety-launcher-mobile.md)**  
+-   **[Add Health and Safety launcher tab to Now Mobile app configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/add-health-safety-launcher-mobile.md)**  
 Add a Health and Safety launcher screen tab to your Now Mobile app configuration. With this launcher tab, your employees can open the Health and Safety Incident Management application in the Now Mobile app on their mobile device.
--   **[Configure offline mode in the Now Mobile app for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-offline-mode-health-safety.md)**  
+-   **[Configure offline mode in the Now Mobile app for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-configure-offline-mode-health-safety.md)**  
 Setup offline mode in the Now Mobile app for Health and Safety so that users can access it even without an internet connection.
--   **[Submit a safety incident or observation through the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/submit-hs-safety-incident-mobile.md)**  
+-   **[Submit a safety incident or observation through the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/submit-hs-safety-incident-mobile.md)**  
 Submit a safety incident or observation to report it your organization's safety department.
--   **[Report a safety incident or observation in the offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-report-safety-incident-observation-offline-mode.md)**  
+-   **[Report a safety incident or observation in the offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-report-safety-incident-observation-offline-mode.md)**  
 Report a safety incident or observation in the offline mode-without an internet connection- through the Now Mobile app. Once you go online, the incidents or observations reported offline are synchronized automatically.
--   **[Access safety knowledge articles through the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/access-hs-safety-articles-mobile.md)**  
+-   **[Access safety knowledge articles through the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/access-hs-safety-articles-mobile.md)**  
 Access your company's health and safety knowledge base on your mobile device using the ServiceNow Now Mobile app.
--   **[Submit a JSA through the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/submit-jsa-mobile.md)**  
+-   **[Submit a JSA through the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/submit-jsa-mobile.md)**  
 Submit a job safety analysis \(JSA\) to identify hazards related to your job and identify control measures that should be in place at your point-of-work.
--   **[View a safety register document in the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/access-safety-register-docs-mobile.md)**  
+-   **[View a safety register document in the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/access-safety-register-docs-mobile.md)**  
 View safety register documents for hazardous material on your mobile device using the ServiceNow Now Mobile app.
--   **[Manage Health and Safety incident using the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-manage-safety-incident-mobile-agent.md)**  
+-   **[Manage Health and Safety incident using the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-manage-safety-incident-mobile-agent.md)**  
 As a safety agent, you can create or manage a safety incident using the Mobile Agent app.
--   **[Manage safety inspections and audits through the mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-manage-safety-inspection-audits-mobile.md)**  
+-   **[Manage safety inspections and audits through the mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-manage-safety-inspection-audits-mobile.md)**  
 Use the Mobile Agent or the Now Mobile app apps to manage Health and Safety inspections and audits.
 
-**Parent Topic:**[Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/health-safety-overview.md)
+**Parent Topic:**[Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/health-safety-overview.md)
 

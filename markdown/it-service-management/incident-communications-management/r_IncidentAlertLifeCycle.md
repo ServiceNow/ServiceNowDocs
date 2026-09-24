@@ -2,7 +2,7 @@
 title: Incident communication plan state model \(old\)
 description: Incident communication plan state model helps you to understand the different states through which a plan can progress and also to track the plan through its states.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/r\_IncidentAlertLifeCycle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/r\_IncidentAlertLifeCycle.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -18,7 +18,7 @@ Incident communication plan state model helps you to understand the different st
 
 Incident alerts are created with a **New** state. They follow a process that finishes with the **Closed** or **Canceled** state.
 
-**Note:** The state model shown below is available only for customers prior to the London release. Beginning London release, customers who have upgraded to the latest release, can refer to [Incident communication plan state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/incident-comm-plan-new-state-model.md).
+**Note:** The state model shown below is available only for customers prior to the London release. Beginning London release, customers who have upgraded to the latest release, can refer to [Incident communication plan state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/incident-comm-plan-new-state-model.md).
 
 \[Omitted image "IncidentAlertStages.png"\] Alt text: Stages of an incident communication plan
 

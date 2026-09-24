@@ -2,7 +2,7 @@
 title: Search Profile - Search Source Mapping form
 description: The Search Profile - Search Source Mapping form enables you to link a search source to a search profile in AI Search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/search-prof-src-mapping-form-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/search-prof-src-mapping-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Search Profile - Search Source Mapping form enables you to link a search source to a search profile in AI Search.
 
-For details on linking search sources to your search profiles, see [Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/link-search-source-profile-ais.md).
+For details on linking search sources to your search profiles, see [Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/link-search-source-profile-ais.md).
 
 <table id="table_i1h_y1z_lnb"><thead><tr><th>
 
@@ -75,5 +75,5 @@ Exclude Attachments in Now Assist Genius Results
 Option to exclude attachments from this search source when generating Genius Result answers for searches that use the selected search profile. If **Exclude in ServiceNow Otto Genius Results** is not selected, selecting this option has no effect. This option applies to all Genius Results, not just ServiceNow Otto Genius Results.**Note:** Selecting this option has no effect on search sources created from external indexed sources \(those that index external content\). It only affects search sources created from internal indexed sources \(those that index content from ServiceNow AI Platform® tables\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/reference-ais.md)
 

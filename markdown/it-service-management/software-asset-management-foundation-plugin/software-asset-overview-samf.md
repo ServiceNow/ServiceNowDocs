@@ -2,7 +2,7 @@
 title: Software asset overview for Software Asset Management Foundation plugin dashboard
 description: Enhance your Software Asset Management Foundation plugin experience by using the modernized and user-friendly software asset overview dashboard. The software asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/software-asset-overview-samf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management-foundation-plugin/software-asset-overview-samf.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -74,5 +74,5 @@ Product Results\[samp\_product\_result\]
 Cost to be compliant based on the average prices in entitlements for the rights by publisher.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)
+</table>**Parent Topic:**[Using Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Compose an email or a work note
 description: Use the Compose section in the email interaction to draft emails, create internal work notes, or draft email responses using response templates.Use the compose section to draft an email response to customers, addressing their inquiry or providing the necessary information.Use response templates to access predefined messages and compose emails. Agents can copy content from a template and add it to an email to save time.Compose a work note to document important information for internal reference. The information should be clear, concise, and relevant. This work note isn’t shared with customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/composing-email-work-note.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/composing-email-work-note.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

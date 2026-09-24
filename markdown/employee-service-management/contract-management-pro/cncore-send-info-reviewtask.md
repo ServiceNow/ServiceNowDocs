@@ -2,7 +2,7 @@
 title: Share requested information for internal review
 description: As a contract fulfiller, share information requested by the reviewer to proceed with the contract document review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-send-info-reviewtask.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-send-info-reviewtask.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -28,15 +28,15 @@ The work notes added when requesting information are available in the Activity s
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d153822e61">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d153826e61">
 
 Method
 
-</th><th align="left" id="d153822e64">
+</th><th align="left" id="d153826e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d153822e70">
+</th></tr></thead><tbody><tr><td id="d153826e70">
 
 **Contract Workspace listing**
 
@@ -48,7 +48,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d153822e117">
+</td></tr><tr><td id="d153826e117">
 
 **Contract Workspace landing page**
 
@@ -59,7 +59,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d153822e150">
+</td></tr><tr><td id="d153826e150">
 
 **Workspace used by your application**
 
@@ -70,7 +70,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d153822e171">
+</td></tr><tr><td id="d153826e171">
 
 **Reviews tab**
 
@@ -98,5 +98,5 @@ Steps
 
 The information is shared with reviewer and the review task State changes to Work in progress.
 
-**Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expert-review.md)
+**Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

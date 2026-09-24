@@ -2,7 +2,7 @@
 title: Delete Attachment action
 description: Removes one or all attachments associated with a record and deletes the attachment record from the Attachments \[sys\_attachment\] table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/delete-attachment-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/delete-attachment-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -65,5 +65,5 @@ Delete All Attachments?
 Select to delete all attachments associated with the selected record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+</table>**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-actions.md)
 

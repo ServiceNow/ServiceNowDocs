@@ -2,7 +2,7 @@
 title: Use a flow or subflow in Coupa \(outbound\)
 description: A flow or subflow can be executed in Coupa using the Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/use-flow-or-subflow-coupa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/use-flow-or-subflow-coupa.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -43,7 +43,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
 The flow or subflow gets executed.
 
-**Parent Topic:**[Use Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/using-source-to-pay-coupa-integration.md)
+**Parent Topic:**[Use Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/using-source-to-pay-coupa-integration.md)
 
 **Related topics**  
 

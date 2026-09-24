@@ -2,7 +2,7 @@
 title: Configure CRM access from Microsoft Outlook
 description: Download and install the ServiceNow CRM for Outlook add-in to access and manage CRM records directly from your Microsoft Outlook inbox, eliminating the need to switch between applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-crm-outlook-add-in.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-crm-outlook-add-in.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Download and install the ServiceNow CRM for Outlook add-in to access and manage 
 
 ## Before you begin
 
-The CRM Outlook Add-in must be installed on your ServiceNow instance. For more information, see [Install CRM Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-crm-outlook-add-in.md).
+The CRM Outlook Add-in must be installed on your ServiceNow instance. For more information, see [Install CRM Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-crm-outlook-add-in.md).
 
 Role required: sn\_crm\_outlook.crm\_outlook\_admin
 
@@ -62,7 +62,7 @@ Log in to the ServiceNow CRM for Outlook add-in to start using it.
 **Related topics**  
 
 
-[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-activity-management.md)
 
-[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-activity-management.md)
 

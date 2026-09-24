@@ -2,7 +2,7 @@
 title: Install Health and Safety Core
 description: You can install the Health and Safety Core \(sn\_ohs\_im\) if you have an admin role. This data model includes demo data and installs related ServiceNow Store plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/install-hs-core.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-core/install-hs-core.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -33,7 +33,7 @@ The following items are installed with Health and Safety Incident Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/components-installed-hs-core.md).
+For more information, see [Components installed with Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/components-installed-hs-core.md).
 
 This table lists the optional applications that can be installed for additional features:
 
@@ -75,7 +75,7 @@ Learning Core\[sn\_lc\]
 
 </td><td>
 
-Installs Learning Core to enable learning content in Health and Safety actions.For more information, see [Configuring Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/configuring-learning-core.md).
+Installs Learning Core to enable learning content in Health and Safety actions.For more information, see [Configuring Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/configuring-learning-core.md).
 
 </td></tr></tbody>
 </table>## Procedure
@@ -101,7 +101,7 @@ Installs Learning Core to enable learning content in Health and Safety actions.F
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 

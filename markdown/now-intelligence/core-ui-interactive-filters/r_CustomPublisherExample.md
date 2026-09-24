@@ -2,7 +2,7 @@
 title: Custom interactive filter examples
 description: As an administrator, you can create custom interactive filter widgets to provide advanced filtering options on dashboards.Create custom interactive filter widgets to provide advanced filtering options on dashboards.After you create the interactive filter, add the filtering logic.When the standard selection of date/time filter options doesn't meet your needs, you can create a custom option.You can use a custom interactive filter to filter multiple reports using different tables. There are two different APIs to publish an interactive filter for a single table or multiple tables. This example filters a report on the incident and problem tables by assignment group using a custom interactive filter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/r\_CustomPublisherExample.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/core-ui-interactive-filters/r\_CustomPublisherExample.html
 release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
@@ -20,7 +20,7 @@ As an administrator, you can create custom interactive filter widgets to provide
 
 This example details how to create a custom filter to filter reports on the Task table, or its child tables. The filter only shows records where the current user is the caller. The filter exposes two buttons to the user, one button to add the filter and one to remove the filter.
 
-**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)
+**Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)
 
 **Related topics**  
 
@@ -31,7 +31,7 @@ This example details how to create a custom filter to filter reports on the Task
 
 [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
 
-[DashboardMessageHandler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_DashboardMessageHandler.md)
+[DashboardMessageHandler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_DashboardMessageHandler.md)
 
 ## Create a custom interactive filter widget
 

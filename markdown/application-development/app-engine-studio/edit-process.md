@@ -2,7 +2,7 @@
 title: Edit a process
 description: To update or change an existing process for an app built in App Engine Studio \(AES\), edit it in Playbooks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/edit-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/edit-process.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -22,7 +22,7 @@ Before you edit a process, you must add a process in Playbooks. For more informa
 
 You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/activate-process-automation-designer.md).
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -43,5 +43,5 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 
 Test a process to make certain it works the way you expect. For more information on testing processes, see [Test a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-process.md).
 
-**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md)
+**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-automation.md)
 

@@ -2,7 +2,7 @@
 title: Publish a grant program opportunity to the Grants Management Portal in Grants Management
 description: Define announcement removal and proposal close dates and publish the program announcement to the Grants Management Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-pgr-publish.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-gmp-pgr-publish.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Role required: grant program admin, director, manager
 
     -   **Request Approval**- Submit a request to the designated internal program team approver or the grant program director to review and approve the grant proposal. You can publish the grant program only after it is approved by the internal program team or the grant program director.
     -   **Skip approval**- Move to the next activity without requesting an approval from the internal program team approver or the grant program director.
-    For more information on how to approve a pending grants program as a designated approver, see [Approve publishing of a grant opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-approve-pgr-approver.md).
+    For more information on how to approve a pending grants program as a designated approver, see [Approve publishing of a grant opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-using-gmp-approve-pgr-approver.md).
 
     After the approval is complete, you can either publish the grant program immediately, or schedule the date that you want the program to be displayed live.
 

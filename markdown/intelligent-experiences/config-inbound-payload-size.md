@@ -2,7 +2,7 @@
 title: Increase maximum inbound content length for scripted REST APIs
 description: Increase the maximum allowed inbound content length for scripted REST APIs when automated agentic evaluation runs fail due to inbound payload size limitations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/config-inbound-payload-size.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/config-inbound-payload-size.html
 release: australia
 topic_type: task
 last_updated: "2026-06-09"

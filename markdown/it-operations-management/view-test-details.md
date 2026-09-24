@@ -2,7 +2,7 @@
 title: View test details
 description: View the results of an individual synthetic test run by a monitor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/view-test-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/view-test-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

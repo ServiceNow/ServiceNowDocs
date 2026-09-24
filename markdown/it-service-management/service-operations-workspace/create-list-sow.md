@@ -2,7 +2,7 @@
 title: Create a list in Service Operations Workspace
 description: Create a list or use an existing list to create a list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-list-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-list-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -44,7 +44,7 @@ Role required: itil
     To share the list, open the **List Settings** menu and select the sharing options. A list supports a single owner. To allow another user to manage the list, transfer ownership from the **List Settings**.
 
 
-**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
+**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 
 **Related topics**  
 

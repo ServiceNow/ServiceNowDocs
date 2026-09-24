@@ -2,7 +2,7 @@
 title: Request a safety data sheet \(SDS\)
 description: You can request a safety data sheet \(SDS\) from the chemical record to view the safety data for that chemical. The SDS can be downloaded in different languages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-request-safety-data-sheet-sds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety/hs-request-safety-data-sheet-sds.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -47,5 +47,5 @@ To request SDS in different languages, the plugin 3E spoke \(com.sn\_hs\_spoke\_
 
 The SDS is requested from the service provider. The SDS request is displayed in the **Service provider requests** related list of the chemical record. The document is added to the **Documents** related list when the response is received from the service provider.
 
-**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-using-chemical-management.md)
+**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-using-chemical-management.md)
 

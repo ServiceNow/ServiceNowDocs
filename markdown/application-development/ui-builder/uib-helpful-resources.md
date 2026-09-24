@@ -2,7 +2,7 @@
 title: Helpful resources for UI Builder
 description: Some ServiceNow resources that can provide you with helpful information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/uib-helpful-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/uib-helpful-resources.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -55,5 +55,5 @@ Some ServiceNow resources that can provide you with helpful information are:
     [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 
 
-**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-custom-experience.md)
+**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/create-custom-experience.md)
 

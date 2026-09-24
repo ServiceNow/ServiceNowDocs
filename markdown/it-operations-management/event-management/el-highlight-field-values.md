@@ -2,7 +2,7 @@
 title: Highlight alerts by condition in Express List
 description: Learn how to apply color-coded highlights to alerts in the Express List based on conditions such as severity, state, and priority, so you can quickly spot critical signals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-highlight-field-values.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-highlight-field-values.html
 release: australia
 product: Event Management
 classification: event-management

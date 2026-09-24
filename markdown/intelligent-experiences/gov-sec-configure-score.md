@@ -2,12 +2,12 @@
 title: Configure the AI asset security score
 description: Customize the AI asset security score to align with your enterprise's security practices. You can omit large language model \(LLM\) guardrail categories from the score or change the weights of categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-configure-score.html
 release: australia
 topic_type: task
 last_updated: "2026-05-02"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -38,5 +38,5 @@ Users should actively manage and review their agent assets and not rely solely o
 6.  Save the settings.
 
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configuring.md)
 

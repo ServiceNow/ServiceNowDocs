@@ -2,7 +2,7 @@
 title: Configure content filtering definitions for Playbook
 description: Specify which content a user can access by creating content definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-content-filtering-definitions-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/configure-content-filtering-definitions-playbooks.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -57,5 +57,5 @@ This means that users with the roles delegated\_developer or playbook.activity\_
 4.  Click **Submit**.
 
 
-**Parent Topic:**[User access to Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-playbooks.md)
+**Parent Topic:**[User access to Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/user-access-playbooks.md)
 

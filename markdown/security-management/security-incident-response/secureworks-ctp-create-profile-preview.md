@@ -2,7 +2,7 @@
 title: Preview the mapped values in the security incident
 description: After you complete the mapping step, preview the values that you mapped in a SIR security incident. This preview step permits you to verify that you have mapped all the ticket fields that you want displayed on the security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secureworks-ctp-create-profile-preview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/secureworks-ctp-create-profile-preview.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,7 +2,7 @@
 title: JSONv2 web service
 description: The ability to describe sets of data in JSON format is a natural extension to the JavaScript language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_JSONv2WebService.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/c\_JSONv2WebService.html
 release: australia
 product: Web Services
 classification: web-services
@@ -30,25 +30,25 @@ Having the JSON object available as a data format for web services means that yo
 
 Like all other HTTP-based web services available on the platform, the JSONv2 web service is required to authenticate using basic authentication by default. The user ID that is used for authentication is subjected to access control in the same way as an interactive user.
 
--   **[JSON object format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JSONObjectFormat.md)**  
+-   **[JSON object format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_JSONObjectFormat.md)**  
 The JSON object is built in two structures.
--   **[JSON response status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ResponseStatus.md)**  
+-   **[JSON response status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ResponseStatus.md)**  
 JSONv2 requests may return one of several response statuses.
--   **[Setting the number of rows returned](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SettingTheNumberOfRowsReturned.md)**  
+-   **[Setting the number of rows returned](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SettingTheNumberOfRowsReturned.md)**  
 The following system property controls how many rows JSON returns with each query.
--   **[Requiring basic authentication for incoming JSONv2 requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ReqBasicAuthIncomJSONv2Requ.md)**  
+-   **[Requiring basic authentication for incoming JSONv2 requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ReqBasicAuthIncomJSONv2Requ.md)**  
 The following system property controls whether basic authentication is required for incoming JSONv2 requests.
--   **[Action parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ActionParameters.md)**  
+-   **[Action parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_ActionParameters.md)**  
 Action parameters are separate and different from data parameters because they specify the action to take when the JSON object parameter is part of an HTTP GET or POST request.
--   **[JSON Data Retrieval API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DataRetrievalAPI.md)**  
+-   **[JSON Data Retrieval API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_DataRetrievalAPI.md)**  
 Query for data by issuing an HTTPS GET request to the instance.
--   **[JSON Data Modification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DataModificationAPI.md)**  
+-   **[JSON Data Modification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_DataModificationAPI.md)**  
 Modify data using the JSON web service by sending an HTTPS POST request to the instance.
 
-**Parent Topic:**[Inbound web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-web-services.md)
+**Parent Topic:**[Inbound web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/inbound-web-services.md)
 
 **Related topics**  
 
 
-[SOAP web services security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
+[SOAP web services security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_SOAPWebService.md)
 

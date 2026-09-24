@@ -2,7 +2,7 @@
 title: Business ROI tracking with Value Reports
 description: Value Reports translate ServiceNow outcome performance data into monetized business ROI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/value-library/business-value-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/value-library/business-value-reports.html
 release: australia
 product: Value Library
 classification: value-library

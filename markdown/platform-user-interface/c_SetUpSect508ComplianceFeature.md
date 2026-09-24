@@ -2,7 +2,7 @@
 title: Enabling accessibility features
 description: You can configure accessibility features globally or for specific users. Users can also individually enable user preferences for themselves to meet their specific accessibility needs.Enable accessibility mode on your instance.In Core UI, administrators can enable the Contrast UI theme for users who need a greater contrast in color.When a form loads, the system automatically sends focus to the first field on the form. For accessibility reasons, you can disable this option so that focus starts on the first element on the top of the page.The accessible tooltips user preference adds a tooltip icon that users can tab to, to view a tooltip for a field.The NVDA Assistive Technology screen reader is a 32-bit application that, when the Java Access bridge has been enabled, reads aloud Java applications built to support accessibility. If you encounter a problem using NVDA to access Java applications on a 64-bit Windows host, you must configure the Java Access bridge.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_SetUpSect508ComplianceFeature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_SetUpSect508ComplianceFeature.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ All of these options can be configured globally or for specific users.
 -   Use skip links.
 -   Turn off first field focus
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/p_NavigationAndUIConfiguration.md)
 
 ## Enable accessibility mode
 
@@ -37,7 +37,7 @@ Role required: none
 
 ### About this task
 
-Administrators can enable accessibility mode for specific users by navigating to **User Administration** &gt; **User Preferences** and searching for the `glide.ui.accessibility` user preference. For more information on configuring user preferences, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md).
+Administrators can enable accessibility mode for specific users by navigating to **User Administration** &gt; **User Preferences** and searching for the `glide.ui.accessibility` user preference. For more information on configuring user preferences, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UserPreferences.md).
 
 ### Procedure
 
@@ -52,14 +52,14 @@ Administrators can enable accessibility mode for specific users by navigating to
 
 ### What to do next
 
-Alternatively, enable accessibility mode using the Enable Accessibility skip link. For more information on skip links, see [Use skip links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/keyboard-accessibility.md).
+Alternatively, enable accessibility mode using the Enable Accessibility skip link. For more information on skip links, see [Use skip links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/keyboard-accessibility.md).
 
 \[Omitted image "EnableAccessibiltySkipLink.png"\] Alt text: Enable accessibility skip link, which is the first focusable element on the page.
 
 **Related topics**  
 
 
-[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UserPreferences.md)
 
 ## Enable the high contrast theme
 
@@ -71,7 +71,7 @@ Role required: admin
 
 ### About this task
 
-Individual users can enable the contrast theme for themselves by navigating to the Theme tab of the [system settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_UI16BannerFrame.md) menu. From the Theme tab, select the **Contrast UI** theme.
+Individual users can enable the contrast theme for themselves by navigating to the Theme tab of the [system settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_UI16BannerFrame.md) menu. From the Theme tab, select the **Contrast UI** theme.
 
 ### Procedure
 
@@ -127,7 +127,7 @@ Role required: admin
 
 Some fields on forms have associated tooltips that contain additional information. By default, these tooltips are accessible by pointing to the field label or mandatory indicator asterisk. However, a user who relies on keyboard navigation cannot point to the field to access the tooltip. The accessible form tooltip feature solves this problem by adding a keyboard-accessible icon next to each field that has a tooltip. Tabbing or pointing to the icon shows the tooltip.
 
-Administrators can enable accessible form tooltips for specific users by navigating to **User Administration** &gt; **User Preferences** and searching for the `glide.ui.accessibility.accessible.tooltips` user preference. For more information on configuring user preferences, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md).
+Administrators can enable accessible form tooltips for specific users by navigating to **User Administration** &gt; **User Preferences** and searching for the `glide.ui.accessibility.accessible.tooltips` user preference. For more information on configuring user preferences, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UserPreferences.md).
 
 Accessibility must be enabled for the accessible form tooltips user preference to work.
 
@@ -147,7 +147,7 @@ Accessibility must be enabled for the accessible form tooltips user preference t
 **Related topics**  
 
 
-[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UserPreferences.md)
 
 ## Configure a Windows 64-bit host to use 32-bit NVDA with Java applications
 

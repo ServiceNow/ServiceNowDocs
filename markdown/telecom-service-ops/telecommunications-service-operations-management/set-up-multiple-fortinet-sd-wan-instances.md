@@ -2,12 +2,12 @@
 title: Manage multiple Fortinet SD-WAN instances
 description: Configure and manage multiple Fortinet instances within a single ServiceNow AI Platform environment. Create distinct connection aliases and independent import schedules customized for specific data filtering and frequency requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/set-up-multiple-fortinet-sd-wan-instances.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-multiple-fortinet-sd-wan-instances.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Configure Fortinet SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -22,7 +22,7 @@ Verify the following:
 
 -   The active application scope is Service Graph Connector \(SGC\) for Fortinet.
 -   The SGC for Fortinet has been installed.
--   The initial Fortinet instance has been set up. For more information, see [Set up the Service Graph Connector for Fortinet schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fortinet-sd-wan.md).
+-   The initial Fortinet instance has been set up. For more information, see [Set up the Service Graph Connector for Fortinet schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-fortinet-sd-wan.md).
 -   The associated MID Server has been set up and validated. For more information, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-mid-server.md).
 
 Role required: TSOM Visibility admin
@@ -95,7 +95,7 @@ You can configure additional Fortinet instances or reuse the same Fortinet insta
 
     1.  Select **Configure** and fill in the fields.
 
-        For more information, see [Set up the Service Graph Connector for Fortinet schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fortinet-sd-wan.md).
+        For more information, see [Set up the Service Graph Connector for Fortinet schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-fortinet-sd-wan.md).
 
     2.  In the **Use connection** field, choose the new Fortinet instance.
 

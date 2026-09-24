@@ -2,7 +2,7 @@
 title: Use AI to explore dashboards with Dashboard Summary
 description: The Dashboard Summary is your AI companion for instant insight into Platform Analytics dashboard content to help users understand their data and uncover meaningful patters for decision making. The Dashboard summary is available with any Now Assist application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboard-summary-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dashboard-summary-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-29"
@@ -28,7 +28,7 @@ Explore\[Omitted image "bus-explore.svg"\] Alt text:Overview of dashboard summar
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable the ServiceNow Otto context menu and supplementary skills for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-dashboard-summary.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable the ServiceNow Otto context menu and supplementary skills for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-dashboard-summary.md)
 
 </td><td>
 

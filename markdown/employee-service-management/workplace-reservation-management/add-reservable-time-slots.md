@@ -2,7 +2,7 @@
 title: Create a quick reservation time slot
 description: Create a time slot for the reservable module that is available in the Quick Reservation widget on the reservation portal. When an employee wants to reserve a workplace item of that reservable module, the employee can select a suitable time slot instead of specifying a start and end times for the reservation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-reservable-time-slots.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-reservable-time-slots.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -52,12 +52,12 @@ The time slot is created.
 
 ## What to do next
 
-Add the time slot to the reservable module. The time slot will be displayed in the selection list when an employee wants to reserve a workplace item from the reservable module that has this time slot. For more information, see [Add a time slot to a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-timeslot-to-reservable-module.md).
+Add the time slot to the reservable module. The time slot will be displayed in the selection list when an employee wants to reserve a workplace item from the reservable module that has this time slot. For more information, see [Add a time slot to a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-timeslot-to-reservable-module.md).
 
--   **[Add a time slot to a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-timeslot-to-reservable-module.md)**  
+-   **[Add a time slot to a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-timeslot-to-reservable-module.md)**  
 After you create a time slot, assign the time slot to a reservable module that is configured for reservation on the Quick Reservation widget. When an employee wants to reserve a workplace item of this reservable module, the employee can select a time slot for reservation.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 

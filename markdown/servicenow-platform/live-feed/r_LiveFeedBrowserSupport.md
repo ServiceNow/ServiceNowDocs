@@ -2,7 +2,7 @@
 title: Live Feed browser support
 description: The Live Feed v2 plugin does not support Internet Explorer 7 through 9.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/r\_LiveFeedBrowserSupport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/r\_LiveFeedBrowserSupport.html
 release: australia
 product: Live Feed
 classification: live-feed

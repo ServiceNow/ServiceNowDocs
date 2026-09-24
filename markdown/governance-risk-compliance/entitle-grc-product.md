@@ -2,7 +2,7 @@
 title: Get entitlement for a GRC product or application
 description: The first step in installing an application is to verify that the application or the product and its associated applications have valid ServiceNow entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/entitle-grc-product.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/entitle-grc-product.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

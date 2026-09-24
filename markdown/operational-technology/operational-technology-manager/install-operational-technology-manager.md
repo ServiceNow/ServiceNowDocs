@@ -2,7 +2,7 @@
 title: Install Operational Technology Manager
 description: If you have the admin role, you can install the Operational Technology Manager application. The application includes demo data and installs that are related ServiceNow Store applications and plugins, if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/install-operational-technology-manager.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/install-operational-technology-manager.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -20,7 +20,7 @@ If you have the admin role, you can install the Operational Technology Manager a
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
-**Note:** To learn more about the subscriptions required for the Operational Technology Manager, see [Subscriptions for Operational Technology Management \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/otm-license-module.md)
+**Note:** To learn more about the subscriptions required for the Operational Technology Manager, see [Subscriptions for Operational Technology Management \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/otm-license-module.md)
 
 Role required: admin
 
@@ -34,7 +34,7 @@ The following items are installed with Operational Technology Manager:
 -   Tables
 -   Script includes
 
-For more information on viewing components that are installed with Operational Technology Manager, see [Components installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/components-installed-with-operational-technology-manager.md).
+For more information on viewing components that are installed with Operational Technology Manager, see [Components installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/components-installed-with-operational-technology-manager.md).
 
 ## Procedure
 
@@ -57,5 +57,5 @@ For more information on viewing components that are installed with Operational T
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
+**Parent Topic:**[Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
 

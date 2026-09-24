@@ -2,7 +2,7 @@
 title: Set up the Google Cloud Storage spoke
 description: Integrate the ServiceNow instance and Google Cloud Storage spoke by using G Suite credentials to authenticate ServiceNow requests.Create a custom OAuth application from your Google Cloud Platform account to enable OAuth 2.0 authentication with the Google Cloud Storage spoke.Use the information generated during Google Cloud Storage account configuration to register the Google Cloud Storage application as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create a credential record to connect the Google Cloud Storage custom OAuth application you created during account configuration. The Google Cloud Storage spoke connection and credential aliases use these credentials to authorize actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gstorage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-gstorage.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -65,7 +65,7 @@ Complete these steps from the [Google Cloud Platform](https://cloud.google.com/)
 
 5.  Enter the following Authorized redirect URI: `https://<instance>.service-now.com/oauth_redirect.do` and click **Create**.
 
-6.  Copy your client ID and client secret to a text file so that you can use them when you [Register Google Cloud Storage as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gstorage.md).
+6.  Copy your client ID and client secret to a text file so that you can use them when you [Register Google Cloud Storage as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-gstorage.md).
 
     **Tip:** You can always access the client ID and secret in the Google APIs &amp; Services interface by clicking **Credentials** and selecting the OAuth 2.0 client ID name.
 

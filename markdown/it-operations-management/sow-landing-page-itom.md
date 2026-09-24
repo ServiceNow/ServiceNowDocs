@@ -2,7 +2,7 @@
 title: Service Operations Workspace for ITOM
 description: ServiceNow Service Operations Workspace \(SOW\) is a configurable workspace designed to streamline IT Operations Management \(ITOM\) workflows, offering a unified experience for multiple IT operational processes. Configurable and user-friendly, it consolidates various tasks into a single interface, allowing seamless navigation and easy access to tools and information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/sow-landing-page-itom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/sow-landing-page-itom.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,7 +19,7 @@ By centralizing workflows, it enhances collaboration, facilitates efficient task
 
 \[Omitted image "sow-overview-landing-new-bg.svg"\] Alt text: Diagram showing Service Operations Workspace at the center, connecting Service Management and Operations Management workflows with supporting data sources and feature tiles. For the text description, refer to the preceding paragraph.
 
-For information regarding subscriptions for ITOM Service Operations Workspace, check the ITOM AIOps subscription at [Subscription ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-license-module.md).
+For information regarding subscriptions for ITOM Service Operations Workspace, check the ITOM AIOps subscription at [Subscription ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-license-module.md).
 
 When setting up the Service Operations Workspace, it's crucial to configure both IT Operations Management \(ITOM\) for managing alerts and IT Service Management \(ITSM\) for resolving incidents and delivering services. This integrated setup ensures access to the full range of features, facilitating comprehensive management of IT operations and service quality.
 

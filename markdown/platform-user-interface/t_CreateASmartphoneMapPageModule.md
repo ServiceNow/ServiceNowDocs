@@ -2,7 +2,7 @@
 title: Create a smartphone map page module
 description: You can create a custom smartphone module that links directly to a map page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateASmartphoneMapPageModule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateASmartphoneMapPageModule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +47,7 @@ Role required: admin
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
+**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_MapPages.md)
 
 **Related topics**  
 

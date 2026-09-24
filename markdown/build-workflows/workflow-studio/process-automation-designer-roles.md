@@ -2,7 +2,7 @@
 title: Playbooks roles
 description: Grant users access to build, view, and act on Playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/process-automation-designer-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/process-automation-designer-roles.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

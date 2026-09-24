@@ -2,7 +2,7 @@
 title: Final verdict generation for User Reported Phishing
 description: Security Incident Response teams can now drive the finalized verdict for a user reported phishing record based on results from predictive intelligence and threat enrichment integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/cj-sir-ml-urp-final.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/cj-sir-ml-urp-final.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -20,7 +20,7 @@ This final verdict generation is enabled through a decision table construct and 
 
 **Prerequisites**
 
-Ensure that all the plugins listed in [Required components and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/cj-sir-ml-urp-comp.md) have been installed.
+Ensure that all the plugins listed in [Required components and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/cj-sir-ml-urp-comp.md) have been installed.
 
 Navigate to **Predictive Intelligence for Phishing** &gt; **Final Verdict** &gt; **Final Verdict for Phishing Security Incident**.
 

@@ -2,7 +2,7 @@
 title: Agent Client Collector architecture
 description: The Agent Client Collector is a ServiceNow agent installed on your Windows, Linux, and macOS devices to monitor your company’s infrastructure and installed applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-concept.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

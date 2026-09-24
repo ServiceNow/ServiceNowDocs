@@ -2,7 +2,7 @@
 title: Create business process tasks
 description: Track tasks for sales process records in Lead-to-Cash Process Management such as the closure of all linked opportunities or generating orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-business-process-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-business-process-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -126,14 +126,14 @@ Work notes
 
 ## What to do next
 
-Monitor the business process task from the sales process dashboard. For more information, see [Monitoring and tracking sales activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitor-track-sales-activities.md).
+Monitor the business process task from the sales process dashboard. For more information, see [Monitoring and tracking sales activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/monitor-track-sales-activities.md).
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-process-management.md)
 
 **Related topics**  
 
 
-[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-cash-process-management.md)
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-lead-cash-process-management.md)
 
-[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-lead-cash-process-management.md)
 

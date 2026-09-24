@@ -2,7 +2,7 @@
 title: Customize message files for Proactive Service Experience Workflows
 description: Customize the messages that provide instructions to the network engineers that are working on network-initiated issues for different subcategories, levels of escalation, and personas in Proactive Service Experience Workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/configure-msg-file-taw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/configure-msg-file-taw.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -37,5 +37,5 @@ Each subflow in Proactive Service Experience Workflows references a message file
 5.  Select **Update**.
 
 
-**Parent Topic:**[About messages used in escalation workflows in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-about-msgs.md)
+**Parent Topic:**[About messages used in escalation workflows in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/psew-about-msgs.md)
 

@@ -2,7 +2,7 @@
 title: Ban a user
 description: You can ban a user from creating or editing content, for example, a user can be banned for posting inappropriate content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/ban-a-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/ban-a-user.html
 release: australia
 product: Communities
 classification: communities
@@ -35,5 +35,5 @@ Role required: sn\_communities.admin, sn\_communities.moderation\_admin, or sn\_
     The user is banned. In the Community Profiles list, the value in the **Banned** column is set to **true**.
 
 
-**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/moderate-communities.md)
 

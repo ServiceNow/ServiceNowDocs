@@ -2,7 +2,7 @@
 title: Jumpstart Your Now Assist for Creator
 description: The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration of the possibilities and capabilities of Now Assist for Creator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-now-assist-creator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-now-assist-creator.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

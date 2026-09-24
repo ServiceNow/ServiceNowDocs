@@ -2,7 +2,7 @@
 title: Add or modify visa categories
 description: You can add or modify a visa category using the HR Administrations module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyAVisaCat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateOrModifyAVisaCat.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,5 +50,5 @@ To create or modify a visa category:
     The visa category appears in the **HR Visa Categories** list.
 
 
-**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

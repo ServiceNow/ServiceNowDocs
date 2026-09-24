@@ -2,7 +2,7 @@
 title: View a claim's summary
 description: Managers, adjusters, and processors can view the Claim summary page to see claim case snapshots.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/view-claim-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/view-claim-summary.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -21,7 +21,7 @@ Use the Claim summary page to view items such as claim status, service level agr
 **Note:**
 
 -   The Claim summary page is read-only and cannot be updated.
--   An admin can view and modify the page variant of the Claim summary page by accessing it from the UI Builder **CSM default record-post Details** page collection. For more information, see [Enable Claim workspace, Fraud score, and Claim summary pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/enable-fraud-score-and-claim-summary-pages.md).
+-   An admin can view and modify the page variant of the Claim summary page by accessing it from the UI Builder **CSM default record-post Details** page collection. For more information, see [Enable Claim workspace, Fraud score, and Claim summary pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/enable-fraud-score-and-claim-summary-pages.md).
 
 From a claim case or adjuster task, select **Claim summary** to view the Claim Summary page.
 

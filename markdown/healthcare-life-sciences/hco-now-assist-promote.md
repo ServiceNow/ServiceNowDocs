@@ -2,7 +2,7 @@
 title: Promote ServiceNow Otto for Virtual Agent for Care Team Portal
 description: The Request care team assistance agentic workflow can be promoted in Assistant Designer to show when using ServiceNow Otto for Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-promote.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-now-assist-promote.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"

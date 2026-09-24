@@ -2,7 +2,7 @@
 title: Service Status Subscription widget
 description: Used in conjunction with the service status widget. Users subscribe to receive updates about the service status. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/service-status-subscription.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/service-status-subscription.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -22,7 +22,7 @@ Used in conjunction with the service status widget. Users subscribe to receive u
 
 The Service Status Subscription widget does not have any included instance options.
 
-**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-status-widgets.md)
+**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/service-status-widgets.md)
 
 **Related topics**  
 

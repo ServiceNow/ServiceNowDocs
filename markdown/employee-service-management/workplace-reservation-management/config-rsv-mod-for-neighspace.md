@@ -2,7 +2,7 @@
 title: Configure a reservable module to group spaces in an area
 description: Create a reservable module to group spaces in an area. Enable employees to reserve a space in an area.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/config-rsv-mod-for-neighspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/config-rsv-mod-for-neighspace.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -265,5 +265,5 @@ Option to enable employees to reserve a workplace item of the module for an enti
 
 The reservable module is added to the application. On the Reservation portal, employees can view the spaces of an area in this module.
 
-**Parent Topic:**[Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md)
+**Parent Topic:**[Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md)
 

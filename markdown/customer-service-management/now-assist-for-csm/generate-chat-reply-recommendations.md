@@ -2,7 +2,7 @@
 title: Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)
 description: Generate a reply based on the context of the chat conversation using AI icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -46,15 +46,15 @@ You can do these actions by using the AI icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d34478e146">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d34358e146">
 
 Chat message window
 
-</th><th align="left" id="d34478e149">
+</th><th align="left" id="d34358e149">
 
 AI icon
 
-</th></tr></thead><tbody><tr><td id="d34478e155">
+</th></tr></thead><tbody><tr><td id="d34358e155">
 
 **Typed response**
 
@@ -71,7 +71,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d34478e189">
+</td></tr><tr><td id="d34358e189">
 
 **Left blank**
 
@@ -91,7 +91,7 @@ Generates a recommended reply that is based on the context of the conversation u
 7.  End the chat by selecting **End Chat**.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 

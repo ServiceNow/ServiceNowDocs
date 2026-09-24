@@ -2,7 +2,7 @@
 title: Configure Content insights AI agent
 description: Configure the Content Insights AI agent to control which roles can access it, how it is triggered, and which chat assistants surface it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-content-insights-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-content-insights-ai-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-07-20"

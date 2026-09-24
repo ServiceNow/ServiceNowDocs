@@ -2,7 +2,7 @@
 title: Configure Investigative Case Management Entity Management
 description: Configure settings related to Entity Management in Investigative Case Management, such as adding or modifying entity display categories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-icm-entity-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-icm-entity-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,5 +17,5 @@ Configure settings related to Entity Management in Investigative Case Management
 **Related topics**  
 
 
-[Configure entity types in the Investigative Case Management Entity Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-add-entity-type.md)
+[Configure entity types in the Investigative Case Management Entity Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-icm-add-entity-type.md)
 

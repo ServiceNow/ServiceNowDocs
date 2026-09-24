@@ -2,7 +2,7 @@
 title: Potential knowledge gaps
 description: Potential knowledge gaps represent areas where you frequently encounter issues but lack supporting articles. Managing these gaps promotes better coverage and improved user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/understanding-knowledge-gaps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/understanding-knowledge-gaps.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-20"
@@ -16,7 +16,7 @@ Potential knowledge gaps represent areas where you frequently encounter issues b
 
 The Knowledge Center identifies gaps based on case or incident trends and their reporting patterns. These gaps highlight missing or insufficient knowledge articles that need attention.
 
-**Note:** The Knowledge Gap \(also known as Potential Gaps\) feature is supported in CSM and ITSM products.
+**Note:** The Knowledge Gap \(also known as Potential Gaps\) feature is supported in CSM, ITSM, and HR products.
 
 ## Types of views
 
@@ -37,5 +37,5 @@ Addressing gaps helps reduce repeated incidents, improves self-service, and prom
 **Related topics**  
 
 
-[Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
+[Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 

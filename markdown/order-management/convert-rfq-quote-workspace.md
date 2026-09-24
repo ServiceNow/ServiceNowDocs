@@ -2,7 +2,7 @@
 title: Create quotes from request for quotes \(RFQs\)
 description: Create quotes from RFQ requests submitted by your customers via the Business Portal so you can share the quote with them and expedite the quote-to-order process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/convert-rfq-quote-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/convert-rfq-quote-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -59,12 +59,12 @@ To create a quote from an RFQ, you must first assign an RFQ record to an agent a
 
 ## What to do next
 
-View quotes, generate PDFs share to share quotes with customers for acceptance, create sales agreements, or convert quotes to orders to continue the sales process. For more information, see [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md).
+View quotes, generate PDFs share to share quotes with customers for acceptance, create sales agreements, or convert quotes to orders to continue the sales process. For more information, see [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md).
 
-**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rfq-business-portal.md)
+**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/rfq-business-portal.md)
 
 **Related topics**  
 
 
-[View requests for quotes \(RFQs\) on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-rfq-business-portal.md)
+[View requests for quotes \(RFQs\) on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-rfq-business-portal.md)
 

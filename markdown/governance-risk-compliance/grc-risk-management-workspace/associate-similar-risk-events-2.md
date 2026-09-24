@@ -2,7 +2,7 @@
 title: Associate similar risk events
 description: Train a similarity solution definition that uses machine learning by activating the Governance, Risk, and Compliance: Predictive Intelligence plugin. The solution enables the system to display similar risk events automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/associate-similar-risk-events-2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/associate-similar-risk-events-2.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -24,5 +24,5 @@ You can associate similar risk events only when the main risk event is in the **
 
 The platform machine learning administrator \(ml\_admin\) can create a solution definition and modify an existing one. You can navigate to **Risk Events** &gt; **Administration** &gt; **Properties** to update the risk event property with the new solution definition name.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

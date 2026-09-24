@@ -2,7 +2,7 @@
 title: Create an ACL
 description: Create an access control rule \(ACL\) to avoid the Needs review field from being modified after it has been set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_CreateNewACL.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_CreateNewACL.html
 release: australia
 product: Change Management
 classification: change-management
@@ -53,9 +53,9 @@ The subsequent configuration of the state model ensures that a value is required
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Add a UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddUIPolicy.md)
+**Previous topic:**[Add a UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddUIPolicy.md)
 
-**Next topic:**[Update the state handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_UpdateStateHandlerScriptInclude.md)
+**Next topic:**[Update the state handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_UpdateStateHandlerScriptInclude.md)
 

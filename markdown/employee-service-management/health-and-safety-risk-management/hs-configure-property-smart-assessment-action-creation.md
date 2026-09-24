@@ -2,7 +2,7 @@
 title: Configure creating actions from smart assessment questionnaire
 description: You can configure the property that enables you to create actions for the smart assessment questionnaire. This action creation can be enabled for one or more questions as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-configure-property-smart-assessment-action-creation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-configure-property-smart-assessment-action-creation.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -36,8 +36,8 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager or admin
 -   The **More actions** icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More icon\) appears for configured questions in a smart assessment questionnaire and when selected, shows the **Actions list** button.
 -   In the **Assessment action list** page within a smart assessment, selecting **More actions** again shows the **Create action** button, which enables users to add actions or findings for that question.
 
-    For more information on creating action or findings, see [Create actions or findings for the smart assessment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
+    For more information on creating action or findings, see [Create actions or findings for the smart assessment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
 
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

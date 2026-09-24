@@ -2,7 +2,7 @@
 title: Configure proactive case flows
 description: Automate workflows for proactive case creation to improve your operational efficiency and respond to customer issues faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-flow-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-flow-designer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

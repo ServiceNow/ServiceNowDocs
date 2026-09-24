@@ -2,7 +2,7 @@
 title: DevOps Pipeline UI
 description: Use the Pipeline UI to visualize interactions and results across a pipeline execution. This graphical view shows pipeline step progression and other details for each pipeline.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -18,9 +18,9 @@ Use the Pipeline UI to visualize interactions and results across a pipeline exec
 
 From DevOps, get a quick view of how everything is connected to see exactly what is happening with the pipeline and when. From the ServiceNow Change Management application, you can access the Pipeline UI and quickly see the commits, the committers, and other details for the change request in one place.
 
-The Pipeline UI displays parallel stages as modeled in Azure DevOps release pipelines. The pipeline UI displays the real-time state of the pipeline as it appears in Azure DevOps. The associated artifact details sourced from the build pipeline, Test Results, Software Quality Summary Results also display on the pipeline UI. For more information, see [Parallel stages in Azure DevOps release pipelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/parallel-stages-ado-release-pipelines.md).
+The Pipeline UI displays parallel stages as modeled in Azure DevOps release pipelines. The pipeline UI displays the real-time state of the pipeline as it appears in Azure DevOps. The associated artifact details sourced from the build pipeline, Test Results, Software Quality Summary Results also display on the pipeline UI. For more information, see [Parallel stages in Azure DevOps release pipelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/parallel-stages-ado-release-pipelines.md).
 
-The Pipeline UI shows all attempts of any stage or job that has been rerun or restarted. For more information, see [Restarting failed build or release pipeline jobs and stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/restart-pipeline-stage-devops-ado.md).
+The Pipeline UI shows all attempts of any stage or job that has been rerun or restarted. For more information, see [Restarting failed build or release pipeline jobs and stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/restart-pipeline-stage-devops-ado.md).
 
 The Pipeline UI shows the pipeline steps that ran instead of the steps configured in DevOps.
 
@@ -72,7 +72,7 @@ Failed.
 
  Task execution end date is populated even when the change is rejected.
 
- **Note:** To enable the canceling of the change request associated with the step when the step fails, you must set the **sn\_devops.cancel\_change\_on\_pipeline\_cancel** property to Yes. For more information, see [Properties installed with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
+ **Note:** To enable the canceling of the change request associated with the step when the step fails, you must set the **sn\_devops.cancel\_change\_on\_pipeline\_cancel** property to Yes. For more information, see [Properties installed with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr></tbody>
 </table>**Note:** The order the cards appear in the Pipeline UI is determined by the **Order** field in each pipeline step when you modeled your pipeline in DevOps. Skipped stages are not shown.
@@ -216,5 +216,5 @@ Click directly into DevOps change requests, step executions, artifacts, artifact
 
 \[Omitted image "devops-parallel-stages-pipeline-ui.png"\] Alt text: Pipeline UI with parallel stages- Azure DevOps
 
-**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

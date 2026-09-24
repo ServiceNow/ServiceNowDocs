@@ -2,7 +2,7 @@
 title: Submit block list entries from a security incident for the Check Point NGTP integration
 description: Observables attached to a security incident record are submitted for approval as Block List entries to different Block Lists. An optional approval process for Block List entries is part of the preconfigured workflow. The Gateway imports Block List entries — IP addresses, URLs, domains — that are included in Block Lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/submit-blk-list-entries-from-si.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/submit-blk-list-entries-from-si.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

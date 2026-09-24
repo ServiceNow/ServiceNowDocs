@@ -2,7 +2,7 @@
 title: Save a draft of a catalog item
 description: Save a draft of a catalog item while requesting it on the Employee Center, Service Portal, and Now Mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/save-draft-catalog-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/save-draft-catalog-item.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -24,7 +24,7 @@ Role required: requester
 
 If enabled, save the draft if you don't want to discard the form and edit it later. For example, this procedure explains how you can save a draft in Employee Center.
 
-For information about enabling **Save as Draft**, see [Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-form.md).
+For information about enabling **Save as Draft**, see [Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-item-form.md).
 
 ## Procedure
 
@@ -43,10 +43,10 @@ For information about enabling **Save as Draft**, see [Catalog Item form](https:
 4.  Open a draft item that you want to edit, and if you still don't want to submit it, select **Update draft** or if you want to submit it, select **Submit**.
 
 
-**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 
 **Related topics**  
 
 
-[Add a catalog item to the shopping cart in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/add-to-cart-ec.md)
+[Add a catalog item to the shopping cart in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/add-to-cart-ec.md)
 

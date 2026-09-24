@@ -2,7 +2,7 @@
 title: Create a task for a legal matter
 description: Create a task in a legal matter or a phase of the matter that you or another user should perform to resolve the matter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d577466e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d577470e105">
 
 Option
 
-</th><th align="left" id="d577466e108">
+</th><th align="left" id="d577470e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d577466e114">
+</th></tr></thead><tbody><tr><td id="d577470e114">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d577466e143">
+</td></tr><tr><td id="d577470e143">
 
 **As a collaborator**
 
@@ -107,7 +107,7 @@ The state of the legal matter updates to Work in Progress.
     -   If the matter type is set to Interview, then Interview Template component is visible in contextual sidebar.
     **Important:** To use interview templates, you must first install the Interview Templates plugin \(com.sn\_interview\_templates\) and enable the Requested RCA of Interview Templates for Legal Matter Management and Legal Counsel Center application scope.
 
-8.  [Add an artifact \(folder\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md) in which you or the assigned user can upload files related to the task or its investigation.
+8.  [Add an artifact \(folder\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md) in which you or the assigned user can upload files related to the task or its investigation.
 
 
 ## Result
@@ -116,11 +116,11 @@ A legal matter task is created and is listed in the matter's **Tasks** tab. If t
 
 **Tip:** If the new task doesn't appear in the list, click the refresh list button \(\[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.\).
 
--   **[Complete a legal matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/complete-matter-task.md)**  
+-   **[Complete a legal matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/complete-matter-task.md)**  
 When you finish working on an assigned matter task, mark the task as complete.
--   **[Approve or reject a legal matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/approve-reject-matter-task.md)**  
+-   **[Approve or reject a legal matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/approve-reject-matter-task.md)**  
 As a matter owner, you can review and approve or reject matter tasks that are marked as complete by the task owners.
--   **[Cancel a legal matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/cancel-matter-task.md)**  
+-   **[Cancel a legal matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/cancel-matter-task.md)**  
 You can cancel a matter task if it no longer requires any action.
 
 **Parent Topic:**[Work on a legal matter]()

@@ -2,7 +2,7 @@
 title: Copy locations for quote line items
 description: Use the copy location function to change the location of multiple quote line items in Quote Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-mgt-copy-quote-item-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-mgt-copy-quote-item-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,5 +64,5 @@ This action copies the quote line items to a new location.In the **Service locat
 7.  Select **Copy**.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

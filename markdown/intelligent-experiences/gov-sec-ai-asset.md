@@ -2,12 +2,12 @@
 title: Governing AI asset security
 description: Get a snapshot of your AI asset's security posture and visualize how your asset relates to other agentic assets in your enterprise in the AI agent map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-ai-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-ai-asset.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-23"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -25,7 +25,7 @@ Get details for each metric area by selecting the arrow in the upper-right corne
 
 The AI asset security score is a measure of the health of your AI asset in terms of access issues, privileged AI agents, dormant AI systems, output deviation, PII detection, and other criteria. Users should actively manage and review their agent assets and not rely solely on this AI asset security score.
 
-For more information, see [Configure the AI asset security score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-score.md).
+For more information, see [Configure the AI asset security score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-score.md).
 
 ## Access issues
 
@@ -39,7 +39,7 @@ Access issues can also be due to misconfiguration or potentially malicious acts 
 
 The number of security events associated with the AI asset for the last 24 hours, by default.
 
-An AI asset security event is an occurrence that involves a potential threat to your environment's security. For example, if a credit card number is detected in LLM output \(output PII violation\), or if a user replaces an LLM prompt with a malicious prompt designed to obtain a user's password \(prompt injection\). Each AI asset security event has a threat type assigned. For more information, see [Managing AI asset security reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-reference.md).
+An AI asset security event is an occurrence that involves a potential threat to your environment's security. For example, if a credit card number is detected in LLM output \(output PII violation\), or if a user replaces an LLM prompt with a malicious prompt designed to obtain a user's password \(prompt injection\). Each AI asset security event has a threat type assigned. For more information, see [Managing AI asset security reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-reference.md).
 
 ## Access posture
 
@@ -60,15 +60,15 @@ Whether the asset was given elevated privileges or has been dormant for the time
 
 If a security event of any severity \(Critical, High, Medium, or Low\) is detected for an AI agent in the Agentic AI category, a banner appears on both the asset's **Overview** tab and its **Security** tab, letting you take action directly from the asset record.
 
-Select **View containment options** on the banner to open a side panel showing recent critical events for the asset and a **Deactivate** action. Deactivating the asset triggers AI agent containment using kill switch protocol; you can track progress from the banner and retry the operation if it fails or partially completes. After the underlying issue is resolved, you can reinstate the asset. For details, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
+Select **View containment options** on the banner to open a side panel showing recent critical events for the asset and a **Deactivate** action. Deactivating the asset triggers AI agent containment using kill switch protocol; you can track progress from the banner and retry the operation if it fails or partially completes. After the underlying issue is resolved, you can reinstate the asset. For details, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
-An AI agent can also be contained automatically when a Threat Response policy detects a matching threat. For details, see [Threat Response policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-threat-response.md).
+An AI agent can also be contained automatically when a Threat Response policy detects a matching threat. For details, see [Threat Response policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-threat-response.md).
 
 ## AI agent map
 
 The agent map is an interactive node map showing the relationships of your AI agents, agentic workflows, and tools across your enterprise. You can use the map to review these relationships and AI asset details. When you expand the map, you can filter by agents and agentic workflows.
 
-For more information, see [Discover your agent network with the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-use-map.md).
+For more information, see [Discover your agent network with the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-use-map.md).
 
-**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-managing-ai-assets.md)
+**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-managing-ai-assets.md)
 

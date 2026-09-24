@@ -2,7 +2,7 @@
 title: Contract Management solutions
 description: Explore the differences between the different contract management solutions offered in ServiceNow - ITAM Contract Management, \(Deprecated\) Legal Simple Contracts, and Contract Management Pro \(CM Pro\)
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-cml-feature-compare.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-cml-feature-compare.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -546,13 +546,13 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 You can migrate your data from Legal Simple Contracts to Contract Management Pro to start using the additional features available.
 
-For more information on migration, see [Migrating to Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/migration-landing-page.md).
+For more information on migration, see [Migrating to Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/migration-landing-page.md).
 
 **Important:** The migration script is designed only for migrating data from Legal Simple Contracts to the Legal Contract Repository, which applies specifically to Contract Management Pro for Legal Service Delivery.
 
 Contract Management Pro for Legal Service Delivery is a licensed application that must be installed separately.
 
-**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

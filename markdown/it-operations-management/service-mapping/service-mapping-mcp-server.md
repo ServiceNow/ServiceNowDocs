@@ -2,7 +2,7 @@
 title: Service Mapping MCP tools
 description: The Service Mapping tools expose live application service data and enable AI clients to query service topology, identify mapping gaps, and create application services in natural language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/service-mapping-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/service-mapping-mcp-server.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -37,7 +37,7 @@ Once a license is obtained, the admin can set up the CMDB MCP Server. Then users
 
 -   **Service creation at scale**
 
-    The create\_top\_down\_service tool enables bulk onboarding of applications without manual efforts. An admin can prompt "create services using these entry points" and the tool creates application service records, detects entry point types \(HTTP vs TCP\), and triggers discovery. For detailed information on prompts and outputs, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md).
+    The create\_top\_down\_service tool enables bulk onboarding of applications without manual efforts. An admin can prompt "create services using these entry points" and the tool creates application service records, detects entry point types \(HTTP vs TCP\), and triggers discovery. For detailed information on prompts and outputs, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-tools.md).
 
 -   **Secure, role-controlled access**
 
@@ -102,9 +102,9 @@ For application services that approach these limits, request summary data rather
 
 The CMDB MCP Server provides six tools: five read-only query tools and one write tool for service creation. All tools are consumable by Claude via the MCP protocol without additional transformation.
 
-Access to each tool is controlled by the same ACLs that apply to the corresponding ServiceNow REST API. If the authenticated user does not have the required role, the tool returns an authorization error. For detailed role requirements, see [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
+Access to each tool is controlled by the same ACLs that apply to the corresponding ServiceNow REST API. If the authenticated user does not have the required role, the tool returns an authorization error. For detailed role requirements, see [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
 
-For detailed input and output specifications and example queries, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md).
+For detailed input and output specifications and example queries, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-tools.md).
 
 -   **get\_all\_application\_service\_names**
 
@@ -146,7 +146,7 @@ For detailed input and output specifications and example queries, see [Service M
 
     Creates a new application service from one or more entry points \(HTTP URLs or TCP host-and-port pairs\). Automatically detects each entry point's type and validates inputs. Use this tool to onboard applications, stand up services on demand, or automate service creation workflows.
 
-    This tool requires the sm\_mcp\_admin role. For detailed information, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md)
+    This tool requires the sm\_mcp\_admin role. For detailed information, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-tools.md)
 
 
 ## Setting up the Service Mapping MCP tools
@@ -155,14 +155,14 @@ Setting up the Service Mapping MCP tools involves sequential tasks performed by 
 
 \[Omitted image "mcp-server-flow-sep26.png"\] Alt text: Four-stage setup flow: install the MCP plugin and assign roles, activate the MCP server, configure OAuth, then connect Claude Desktop and call the Service Mapping MCP tools.
 
--   **[Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md)**  
+-   **[Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md)**  
 Assign the required roles to users so they can connect to the CMDB MCP Server and call the Service Mapping MCP tools.
--   **[Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-mcp-server.md)**  
+-   **[Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/activate-sm-mcp-server.md)**  
 Activate the CMDB MCP Server and configure the OAuth inbound integration so that external AI clients can connect to your ServiceNow® instance and query application service data.
--   **[Connect Claude Desktop to the Service Mapping MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.md)**  
+-   **[Connect Claude Desktop to the Service Mapping MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.md)**  
 Add the Service Mapping MCP Server as a custom connector in Claude Desktop so you can query application service data from your ServiceNow® instance in natural language.
--   **[Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md)**  
+-   **[Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-tools.md)**  
 Details on the six Service Mapping MCP tools, including their inputs, outputs, and example natural-language queries for use with Claude, and service creation workflows.
 
-**Parent Topic:**[AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
+**Parent Topic:**[AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
 

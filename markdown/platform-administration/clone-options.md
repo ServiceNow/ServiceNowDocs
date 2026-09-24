@@ -2,7 +2,7 @@
 title: Clone options
 description: A reference topic that contains various configurations for your data when requesting a clone.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/clone-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -120,5 +120,5 @@ Preserves the last 90 days of in-progress update sets in the global application 
 The default isn’t to preserve update sets.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-clone-reference.md)
+</table>**Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/instance-clone-reference.md)
 

@@ -2,7 +2,7 @@
 title: Increase the credit limit for a customer
 description: Increase the credit limit for a customer to the approved credit limit that was set by the credit assessment agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/increase-credit-limit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-card-operations/increase-credit-limit.html
 release: australia
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -18,11 +18,11 @@ Increase the credit limit for a customer to the approved credit limit that was s
 
 ## Before you begin
 
-[Retrieve a credit assessment and evaluate the risks for a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/retrieve-credit-assessment-evaluate-risk.md).
+[Retrieve a credit assessment and evaluate the risks for a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-card-operations/retrieve-credit-assessment-evaluate-risk.md).
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -87,5 +87,5 @@ Steps
 
 ## What to do next
 
-If the associated case is for a temporary increase in the credit limit, work on the new case to [revert the credit limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/reset-credit-limit.md) to the original limit on the end date.
+If the associated case is for a temporary increase in the credit limit, work on the new case to [revert the credit limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-card-operations/reset-credit-limit.md) to the original limit on the end date.
 

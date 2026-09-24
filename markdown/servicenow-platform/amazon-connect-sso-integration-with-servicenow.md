@@ -2,7 +2,7 @@
 title: Amazon Connect SSO integration with ServiceNow
 description: Single Sign-On \(SSO\) integration between Amazon Connect and ServiceNow eliminates duplicate authentication by using a shared identity provider \(IdP\) to authenticate agents automatically when they open the Amazon Connect softphone.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/amazon-connect-sso-integration-with-servicenow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/amazon-connect-sso-integration-with-servicenow.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-11"
@@ -70,8 +70,8 @@ The following screen captures show the user identity fields across all three app
 
 \[Omitted image "service-now-user.png"\] Alt text: Platform user form showing User ID, first name, last name, and email fields used for identity matching.
 
--   **[Configure SSO for Amazon Connect integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-sso-with-amazon-connect.md)**  
+-   **[Configure SSO for Amazon Connect integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-sso-with-amazon-connect.md)**  
 Configure Single Sign-On \(SSO\) between Amazon Connect and ServiceNow so that agents authenticated through a shared identity provider \(IdP\) are automatically signed into the Amazon Connect Softphone without a second login.
 
-**Parent Topic:**[Integrate ServiceNow Voice with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-ccc-amazonconnect.md)
+**Parent Topic:**[Integrate ServiceNow Voice with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integrate-ccc-amazonconnect.md)
 

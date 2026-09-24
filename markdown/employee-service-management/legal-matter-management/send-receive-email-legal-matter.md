@@ -2,7 +2,7 @@
 title: Communicate using emails from Legal Counsel Center
 description: Compose and send emails directly from legal matter record form in the Legal Counsel Center. You can also save the email as draft to send it later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/send-receive-email-legal-matter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/send-receive-email-legal-matter.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d664555e110">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d664559e110">
 
 Option
 
-</th><th align="left" id="d664555e113">
+</th><th align="left" id="d664559e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d664555e119">
+</th></tr></thead><tbody><tr><td id="d664559e119">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d664555e148">
+</td></tr><tr><td id="d664559e148">
 
 **As a collaborator**
 

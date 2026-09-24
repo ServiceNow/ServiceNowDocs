@@ -2,7 +2,7 @@
 title: Configure approval rule for a delegate
 description: Configure an approval rule for a delegate to ensure that the business owner has better visibility into the request before approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/config-approval-delegate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/config-approval-delegate.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -124,5 +124,5 @@ Conditions based on the approving object that determine the conditions under whi
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Configure delegate for a shopper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-delegate-for-a-shopper.md)
+**Parent Topic:**[Configure delegate for a shopper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-delegate-for-a-shopper.md)
 

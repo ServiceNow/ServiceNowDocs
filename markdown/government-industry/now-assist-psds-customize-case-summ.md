@@ -2,7 +2,7 @@
 title: Configure the Government case summarization skill in ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Activate and customize the Government case summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application. Government service agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-customize-case-summ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/now-assist-psds-customize-case-summ.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ Role required: admin
 
 7.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/now-assist-psds-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 

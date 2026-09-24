@@ -2,7 +2,7 @@
 title: Guidelines and example questions
 description: This section shows guidelines and some typical questions that you could ask in the ServiceNow Otto panel to generate data visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/example-questions-generating-dv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/example-questions-generating-dv.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -50,5 +50,5 @@ When you generate a data visualization, look it over carefully. Check whether it
     Gives you a bar visualization of records on the Task table that were created this month, grouped by the value of the Priority field.
 
 
-**Parent Topic:**[Generate visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-dv-generation.md)
+**Parent Topic:**[Generate visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/use-dv-generation.md)
 

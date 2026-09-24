@@ -2,7 +2,7 @@
 title: Configure templates and pages
 description: Use playbook pages in CRM Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-pages.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,20 +20,20 @@ Pages provide the base structure for how record information is displayed in CRM 
 
 A page template is a pre-defined page configuration. When a page is created in UI Builder, a page template can be selected as a starting point. A page can also be created from scratch or by copying and then customizing an existing page.
 
-A page variant is a version of a page that includes unique settings such as the audience, conditions, and page order. For more information about templates, pages, and page variants, see [Creating pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-create-page-variant.md).
+A page variant is a version of a page that includes unique settings such as the audience, conditions, and page order. For more information about templates, pages, and page variants, see [Creating pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-create-page-variant.md).
 
 ## CSM page templates
 
-The following page templates are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
+The following page templates are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md).
 
 |Page template|Description|
 |-------------|-----------|
-|[Case playbook: horizontal stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-horizontal-stages.md)|Includes a horizontal stage picker that displays across the top of the UI and shows persistent information in the left panel.|
-|[Case playbook: vertical stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-vertical-stages.md)|Includes a vertical stage picker that displays in the left panel. This stage picker can track overall progress on the UI in a vertical view.|
+|[Case playbook: horizontal stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-horizontal-stages.md)|Includes a horizontal stage picker that displays across the top of the UI and shows persistent information in the left panel.|
+|[Case playbook: vertical stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-vertical-stages.md)|Includes a vertical stage picker that displays in the left panel. This stage picker can track overall progress on the UI in a vertical view.|
 
 Considerations for using these page templates include the number of stages that appear in the picker and the length of the stage names. For example, longer stage names in the horizontal playbook can be truncated.
 
-**Note:** By default, the playbook page templates aren’t active. To activate a page template, see [Activate a playbook page or page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-process-based-page.md).
+**Note:** By default, the playbook page templates aren’t active. To activate a page template, see [Activate a playbook page or page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-process-based-page.md).
 
 Additional CSM playbook applications provide playbook pages that you can activate and use with case types in CRM Workspace.
 
@@ -43,9 +43,9 @@ Additional CSM playbook applications provide playbook pages that you can activat
 |Case Playbook for Onboarding v5.0|Onboarding case process page|This playbook page includes a horizontal stage picker at the top of the record that provides an end-to-end view of the onboarding process.|
 |Case Playbook for Product Support v4.0|Product Support process page|This playbook page includes a horizontal stage picker at the top of the record that provides an end-to-end view of the product support process.|
 
-For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
+For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md).
 
-**Note:** By default, playbook pages are read-only. To use a playbook page, [activate the page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-process-based-page.md) and set the page order.
+**Note:** By default, playbook pages are read-only. To use a playbook page, [activate the page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-process-based-page.md) and set the page order.
 
 ## Configuring playbook pages
 
@@ -61,7 +61,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activate a playbook page or page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-process-based-page.md)
+[Activate a playbook page or page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-process-based-page.md)
 
 </td><td>
 
@@ -69,7 +69,7 @@ Activate a playbook page or page variant and set the page order.**Note:** Some p
 
 </td></tr><tr><td>
 
-[Customize the page header for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-process-form-header.md)
+[Customize the page header for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customize-process-form-header.md)
 
 </td><td>
 
@@ -77,7 +77,7 @@ Configure the page header for a playbook page. The page header includes a primar
 
 </td></tr><tr><td>
 
-[Customize UI actions for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-process-ui-actions-bar.md)
+[Customize UI actions for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customize-process-ui-actions-bar.md)
 
 </td><td>
 
@@ -85,7 +85,7 @@ Configure the UI actions to display in the action bar for a playbook page.
 
 </td></tr><tr><td>
 
-[Customize content in the left side panel for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-content-left-side-panel.md)
+[Customize content in the left side panel for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customize-content-left-side-panel.md)
 
 </td><td>
 
@@ -93,7 +93,7 @@ Add custom components in the side panel. By default, this panel includes the Cus
 
 </td></tr><tr><td>
 
-[Customize tabs in the contextual side panel for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-process-tabs-in-side-panel.md)
+[Customize tabs in the contextual side panel for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customize-process-tabs-in-side-panel.md)
 
 </td><td>
 
@@ -101,7 +101,7 @@ Add or remove the tabs from the contextual side panel. Agents can use these tabs
 
 </td></tr><tr><td>
 
-[Customize the dynamic related records for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-dynamic-related-records.md)
+[Customize the dynamic related records for a playbook page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customize-dynamic-related-records.md)
 
 </td><td>
 
@@ -109,7 +109,7 @@ Configure the Dynamic Related Records feature to display the related records in 
 
 </td></tr><tr><td>
 
-[Configure the app route to use an existing subpage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-app-route-for-subpage.md)
+[Configure the app route to use an existing subpage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-app-route-for-subpage.md)
 
 </td><td>
 
@@ -117,7 +117,7 @@ Create an app route to make an existing page a part of the page collection.
 
 </td></tr><tr><td>
 
-[Configure an optional activity for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-optional-activity-for-a-case-type-playbook.md)
+[Configure an optional activity for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-optional-activity-for-a-case-type-playbook.md)
 
 </td><td>
 
@@ -125,7 +125,7 @@ Configure an optional activity in  Workflow Studio at various stages in a play
 
 </td></tr><tr><td>
 
-[Set up a record generator for case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-record-generator-for-case-type.md)
+[Set up a record generator for case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-record-generator-for-case-type.md)
 
 </td><td>
 
@@ -154,7 +154,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-create-record.md)
+[Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-create-record.md)
 
 </td><td>
 
@@ -162,20 +162,20 @@ If a playbook is configured to use the playbook record generator feature, an age
 
 </td></tr><tr><td>
 
-[Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-workspace.md)
+[Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-workspace.md)
 
 </td><td>
 
 Opening a case takes the agent to the first open assigned activity. An agent can do the following actions while working on the activities in a playbook:
 
--   View the entire playbook process in the Horizontal stage picker. [Case playbook: horizontal stages record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-horizontal-stages.md)
--   View the activities for each stage in the stacked [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-select-activity-view.md).
--   [Use the activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using-activity-stream.md)
--   [Filter activity cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-filter-activities.md).
+-   View the entire playbook process in the Horizontal stage picker. [Case playbook: horizontal stages record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-horizontal-stages.md)
+-   View the activities for each stage in the stacked [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-select-activity-view.md).
+-   [Use the activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-using-activity-stream.md)
+-   [Filter activity cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-filter-activities.md).
 -   Select an activity and perform the work required in the main work area.
 -   View and update the case details by using the **View Details** button.
 -   View the persistent contextual information in the left side panel, such as the account and contact.
--   View the related list tabs in the [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-contextual-related-records.md) component in the contextual side panel.
+-   View the related list tabs in the [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-contextual-related-records.md) component in the contextual side panel.
 -   Access information in the contextual side panel, including the activity stream, form ribbon, Agent Assist, Dynamic related records, attachments, and templates.
 -   Create tasks, compose email, and add worknotes.
 -   Open reference fields in subtabs under the session tab.
@@ -190,7 +190,7 @@ Add optional activities to a playbook stage as needed.
 
 </td></tr><tr><td>
 
-[Summarize case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-summarization-in-process-page.md)
+[Summarize case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-summarization-in-process-page.md)
 
 </td><td>
 
@@ -198,7 +198,7 @@ Use the ServiceNow Otto for CSM case summarization skill to summarize the case d
 
 </td></tr><tr><td>
 
-[Compose an email from an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/compose-email-from-email-template.md)
+[Compose an email from an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/compose-email-from-email-template.md)
 
 </td><td>
 

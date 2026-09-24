@@ -2,7 +2,7 @@
 title: Components installed with Legal Simple Privacy
 description: Several types of components are installed with activation of the Legal Simple Privacy application, including user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-privacy/components-installed-simple-privacy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-privacy/components-installed-simple-privacy.html
 release: australia
 product: Legal Simple Privacy
 classification: legal-simple-privacy
@@ -97,5 +97,5 @@ Privacy and Data Security\[sn\_lg\_matter\_privacy\_and\_data\_security\]
 Stores the details of any legal matters created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Simple Privacy Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-privacy/legal-simple-privacy-reference.md)
+</table>**Parent Topic:**[Legal Simple Privacy Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-privacy/legal-simple-privacy-reference.md)
 

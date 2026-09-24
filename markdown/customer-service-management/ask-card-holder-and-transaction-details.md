@@ -2,7 +2,7 @@
 title: Configure the start node for cardholder and transaction details
 description: Add questions to ask for credit cardholder details and transaction details and configure answer types in a start node in Decision Tree Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ask-card-holder-and-transaction-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ask-card-holder-and-transaction-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -127,5 +127,5 @@ In the question node, you can add the questions that you want to ask customers o
 
 ## What to do next
 
-[Add paths and configure conditions for transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-paths-for-next-nodes.md) when the next question or guidance node is displayed in a decision tree.
+[Add paths and configure conditions for transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-paths-for-next-nodes.md) when the next question or guidance node is displayed in a decision tree.
 

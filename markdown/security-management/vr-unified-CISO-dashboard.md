@@ -2,7 +2,7 @@
 title: Cybersecurity Executive Dashboard
 description: The Cybersecurity Executive Dashboard is a comprehensive solution that provides high-level executive officers visibility into an organization's security posture, policies, and initiatives.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/vr-unified-CISO-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/vr-unified-CISO-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -85,7 +85,7 @@ Shows the set target to cover for a metric.
 
  The status of the targets is indicated through color coding. It shows all the targets whose review date is either within the past 30 days or upcoming. You can set the number of days for displaying targets using the **sn\_bod.show\_targets\_from** system property. Additionally, these targets can be edited.
 
- See [Set targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/set-targets-cybersecurity-dashboard.md) for more information.
+ See [Set targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/set-targets-cybersecurity-dashboard.md) for more information.
 
 </td></tr></tbody>
 </table><table id="table_n43_yv4_mbc"><thead><tr><th>
@@ -220,7 +220,7 @@ Average time taken to close vulnerabilities and failed test results across all a
 -   Industry benchmark: Average of metrics from the peers in the same industry.
 -   Global benchmark: Average of metrics from the peers in the global market
 
- See [Opt-in for benchmark scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-retrieve-benchmark-results.md) on how to view the benchmark scores.
+ See [Opt-in for benchmark scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vr-retrieve-benchmark-results.md) on how to view the benchmark scores.
 
 </td></tr><tr><td>
 
@@ -403,7 +403,7 @@ Average time taken to close OT vulnerabilities. The ratio of total age of OT vul
 -   Industry benchmark: Average of metrics from the peers in the same industry.
 -   Global benchmark: Average of metrics from the peers in the global market
 
- See [Opt-in for benchmark scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-retrieve-benchmark-results.md) on how to view the benchmark scores.
+ See [Opt-in for benchmark scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vr-retrieve-benchmark-results.md) on how to view the benchmark scores.
 
 </td></tr><tr><td>
 
@@ -565,7 +565,7 @@ Breakdown of active incidents based on their states.
 
 <table id="table_obb_vcp_mbc"><tbody><tr><td colspan="3">
 
-To view Risk and Compliance widgets, you must activate the GRC plugins. For information on GRC plugins, see the Applications to activate section. For information on GRC widgets, see [Risk and compliance dashboard for GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/grc-cybersecurity-risk-compl-dashboard.md).
+To view Risk and Compliance widgets, you must activate the GRC plugins. For information on GRC plugins, see the Applications to activate section. For information on GRC widgets, see [Risk and compliance dashboard for GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/grc-cybersecurity-risk-compl-dashboard.md).
 
 </td></tr></tbody>
 </table>## Indicators

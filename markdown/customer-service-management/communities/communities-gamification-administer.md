@@ -2,7 +2,7 @@
 title: Administer gamification
 description: Users with the gamification administrator role can create the rules and other entities that award points to users based on their participation within the community.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-gamification-administer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/communities-gamification-administer.html
 release: australia
 product: Communities
 classification: communities
@@ -16,20 +16,20 @@ breadcrumb: [Configuring communities, Communities, Customer Service Management]
 
 Users with the gamification administrator role can create the rules and other entities that award points to users based on their participation within the community.
 
--   **[Configure gamification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-configure-properties.md)**  
+-   **[Configure gamification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-configure-properties.md)**  
 Configure gamification properties to meet your company's needs.
--   **[Create a gamification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-rule.md)**  
+-   **[Create a gamification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-create-rule.md)**  
 Create gamification rules so that users can earn points for community activities.
--   **[Create a gamification track](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-track.md)**  
+-   **[Create a gamification track](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-create-track.md)**  
 Create tracks to provide a logical way to separate points assigned in the communities into different areas.
--   **[Create a gamification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-badge.md)**  
+-   **[Create a gamification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-create-badge.md)**  
 Create gamification badges that users can earn for achievements within the community.
--   **[Manage gamification levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-level-def.md)**  
+-   **[Manage gamification levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-create-level-def.md)**  
 Manage the predefined levels for global, forum, and topic expertise.
--   **[Manage gamification level ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-level-range.md)**  
+-   **[Manage gamification level ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-create-level-range.md)**  
 Manage level ranges for a gamification level definition, to recognize the expertise level of your community users.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

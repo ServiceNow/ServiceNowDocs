@@ -2,7 +2,7 @@
 title: Flow history compare view
 description: Compare two flow history entries in a side-by-side view. Use the step highlighting and change type icons to determine what flow components have been added, removed, and changed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-history-compare-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-history-compare-view.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -85,8 +85,8 @@ The Flow history compare view consists of these components within a flow.
     Configuration settings of a changed input in the second history entry.
 
 
--   **[Compare flow histories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/compare-flow-histories.md)**  
+-   **[Compare flow histories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/compare-flow-histories.md)**  
 Compare two flow histories to see what content was added, removed, and updated.
 
-**Parent Topic:**[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-history.md)
+**Parent Topic:**[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-history.md)
 

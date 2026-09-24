@@ -2,7 +2,7 @@
 title: Duplicate a job requisition
 description: Duplicate an existing job requisition to save time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/duplicate-job-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/recruitment-workspace/duplicate-job-req.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -30,10 +30,10 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 4.  Change the fields as needed and select **Save**.
 
-    Configure which fields are duplicated. For more information, see [Configure the fields to be duplicated in a job requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-dplcte-fields.md).
+    Configure which fields are duplicated. For more information, see [Configure the fields to be duplicated in a job requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/config-dplcte-fields.md).
 
 
-**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
+**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/manage-job-reqs.md)
 
 **Related topics**  
 

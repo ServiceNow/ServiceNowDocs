@@ -2,7 +2,7 @@
 title: Activate a lens in Strategic Planning
 description: Validate your lens configuration and activate it so that your planning managers can start creating portfolio plans using this lens.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/activate-lens-alignment-planner-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/activate-lens-alignment-planner-workspace.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -45,5 +45,5 @@ Planning managers can create portfolio plans using only lenses that are active. 
 **Related topics**  
 
 
-[Add or modify lens structure in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/define-lens-structure-in-alignment-planner-workspace.md)
+[Add or modify lens structure in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/define-lens-structure-in-alignment-planner-workspace.md)
 

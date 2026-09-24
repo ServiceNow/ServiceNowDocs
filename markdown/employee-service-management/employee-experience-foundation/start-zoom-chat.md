@@ -2,7 +2,7 @@
 title: Start a Zoom Team Chat
 description: Start a Zoom Team Chat with an employee through an open ticket to resolve an incident, request item, and change request.Reassign a ticket to another user with a valid Zoom account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/start-zoom-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/start-zoom-chat.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,7 +26,7 @@ You must have the write role to use the  Start Zoom chat  feature for incide
 |Change Request|sn\_change\_write|ITSM Roles — Change Management \(com.snc.itsm.roles.change\_management\) plugin|
 |Request|sn\_request\_write|ITSM Roles — Request Management \(com.snc.itsm.roles.request\_management\) plugin|
 
-Ensure you’ve installed the fix script to enable the display of the Zoom chat icon associated with the Caller field. For more information, see [Install fix-script for Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-fix-script-cs.md).
+Ensure you’ve installed the fix script to enable the display of the Zoom chat icon associated with the Caller field. For more information, see [Install fix-script for Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-fix-script-cs.md).
 
 Role required: agent
 
@@ -95,7 +95,7 @@ Option to provide an opening message to the user before beginning an interaction
 
     On the ServiceNow instance, the system captures work notes about the chat details.
 
-    A Zoom chat Interaction record is automatically created if the requester is a participant in the chat conversation. The requester can then access chat details in the **Activities** section. For information about a ticket requester mapping, see [Create requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-requester-mapping-zoom.md).
+    A Zoom chat Interaction record is automatically created if the requester is a participant in the chat conversation. The requester can then access chat details in the **Activities** section. For information about a ticket requester mapping, see [Create requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-requester-mapping-zoom.md).
 
     1.  In the Activities section of the record, find the comment that contains a link to access the chat interaction.
     2.  Select the link.
@@ -156,7 +156,7 @@ Chat transcript.
     -   To continue the chat from the record with the same user, select **Continue Chat**.
     -   To start a new chat that includes additional users, add the users and provide a title for the chat in the **Chat title ** field and an opening message in the **Create an opening message** field.
 
-**Parent Topic:**[Starting and importing a Zoom Team Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/start-import-chat.md)
+**Parent Topic:**[Starting and importing a Zoom Team Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/start-import-chat.md)
 
 ## Reassign a ticket
 

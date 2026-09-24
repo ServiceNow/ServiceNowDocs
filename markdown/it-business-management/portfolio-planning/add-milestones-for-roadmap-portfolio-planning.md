@@ -2,7 +2,7 @@
 title: Add milestones for roadmap
 description: Track key dates of your plan's timeline by creating milestones and displaying them on the roadmap.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -62,7 +62,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Roadmap milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/roadmap-milestone-form.md).
+    For field information, see [Roadmap milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/roadmap-milestone-form.md).
 
 4.  Select **Submit**.
 
@@ -85,8 +85,8 @@ If multiple milestones are scheduled close to each other, they might appear grou
 
 \[Omitted image "milestone-group.gif"\] Alt text: milestone group
 
--   **[Update a roadmap milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-roadmap-milestone-in-portfolio-planning.md)**  
+-   **[Update a roadmap milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/update-roadmap-milestone-in-portfolio-planning.md)**  
 Update or delete the milestones that you added to your portfolio plan or free-form roadmap so that they reflect any change of plans.
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

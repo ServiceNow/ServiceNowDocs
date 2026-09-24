@@ -2,7 +2,7 @@
 title: Create a Report Section Template
 description: A report can further be divided into various sections. Use the Report section to break down the report into multiple sections and reorganize them in order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-report-section-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-report-section-template.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -114,7 +114,7 @@ Define the template section body. You can define the section body by selecting t
 </table>6.  Save and **Submit** the new report template section.
 
 
-**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
+**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 
 **Related topics**  
 

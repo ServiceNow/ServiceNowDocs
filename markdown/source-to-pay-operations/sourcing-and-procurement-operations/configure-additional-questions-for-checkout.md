@@ -2,7 +2,7 @@
 title: Configure additional questions for checkout
 description: As an administrator, you can configure additional questions for full checkout to collect more information from a shopper specific to a purchase. This information is first stored in the Requisition Additional Info staging table against the purchase requisition ID that is created on checkout, and then mapped to the Purchase Requisitions table for back-end consumption.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-additional-questions-for-checkout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-additional-questions-for-checkout.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -66,5 +66,5 @@ A record producer can contain the following question types:
     **Note:** This flow is automatically triggered when a purchase requisition ID is created as a result of a checkout.
 
 
-**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
+**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
 

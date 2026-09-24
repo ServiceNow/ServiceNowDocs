@@ -2,7 +2,7 @@
 title: Shopping Hub Mobile
 description: The ServiceNow Shopping Hub Mobile app enables you to engage with procurement organizations from a mobile device. Shopping Hub Mobile is available on the Now Mobile app and is supported on iOS and Android devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-mobile.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -18,16 +18,16 @@ The ServiceNow Shopping Hub Mobile app enables you to engage with procurement or
 
 To access Shopping Hub Mobile from your mobile device, you must first download the Now Mobile application on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
 
-For more information on installing Shopping Hub Mobile, see [Install ShoppingHub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-shoppinghub-mobile.md).
+For more information on installing Shopping Hub Mobile, see [Install ShoppingHub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/install-shoppinghub-mobile.md).
 
 Shoppers can use Shopping Hub Mobile to complete to-dos assigned to them, view, track, and revise their purchases, request for products or services that they don't see listed on the ShoppingHub portal, and submit quotes from vendors for review by the procurement team.
 
-For more information on using Shopping Hub Mobile, see [Using Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-sh-mobile.md).
+For more information on using Shopping Hub Mobile, see [Using Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-sh-mobile.md).
 
--   **[My purchases on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/my-purchases-mobile.md)**  
+-   **[My purchases on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/my-purchases-mobile.md)**  
 As a shopper, you can view all the purchases you made from your shopping account, view their statuses, and revise your purchases.
 
-**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 
@@ -56,5 +56,5 @@ As a shopper, you can view all the purchases you made from your shopping account
 
 [Universal Request in Sourcing and Procurement Operations]()
 
-[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
 

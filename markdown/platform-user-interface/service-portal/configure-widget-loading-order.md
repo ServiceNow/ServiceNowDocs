@@ -2,7 +2,7 @@
 title: Configure widget loading order in Service Portal
 description: Configure service portal pages to defer load the widgets on a page. The delay in loading of non-essential widgets helps to improve page loading speed and optimizes the use of resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-widget-loading-order.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/configure-widget-loading-order.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -118,8 +118,8 @@ Define the custom skeleton loader. A default code is already available and can b
 
 Deferred loading of the widget is enabled.
 
--   **[Deferred loading of AI Search assets in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/defer-loading-ais-sp.md)**  
+-   **[Deferred loading of AI Search assets in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/defer-loading-ais-sp.md)**  
 Deferred loading of AI Search on the Service Portal delays the loading of certain AI Search assets until the main page content is loaded. This delay helps the page to load faster, thus improving user experience in the portal. st.
 
-**Parent Topic:**[Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
+**Parent Topic:**[Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/service-portal-widgets.md)
 

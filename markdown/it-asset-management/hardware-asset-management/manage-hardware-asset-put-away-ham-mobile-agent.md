@@ -2,7 +2,7 @@
 title: Manage asset put away using the ServiceNow Agent application
 description: Scan and put away the assets from the receiving bay in the designated aisle-space using the ServiceNow Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -17,10 +17,10 @@ breadcrumb: [Manage hardware asset tasks using the Mobile Agent application, Use
 
 Scan and put away the assets from the receiving bay in the designated aisle-space using the ServiceNow Agent application.
 
--   **[Put away assets using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/perform-put-away-mobile-agent-ham.md)**  
+-   **[Put away assets using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/perform-put-away-mobile-agent-ham.md)**  
 Scan available assets in the inventory and perform an asset put away task in the designated scanned drop-off location.
 
-**Parent Topic:**[Manage hardware asset tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-hardware-asset-tasks-mobile-agent.md)
+**Parent Topic:**[Manage hardware asset tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-hardware-asset-tasks-mobile-agent.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: External credential storage
 description: An instance can store credentials used by Discovery, Orchestration, and Service Mapping in an external credential repository rather than directly in a ServiceNow credentials record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/c\_ExternalCredentialStorage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/c\_ExternalCredentialStorage.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -16,7 +16,7 @@ breadcrumb: [Get started with credentials, Connections and Credentials, Access M
 
 An instance can store credentials used by Discovery, Orchestration, and Service Mapping in an external credential repository rather than directly in a ServiceNow credentials record.
 
-The instance maintains a unique identifier for each credential, the credential type \(such as SSH, SNMP, or Windows\), and any credential affinities. The MID Server obtains the credential identifier from the instance, and then uses a customer-provided JAR file to resolve the identifier from the repository into a usable credential. Currently, the ServiceNow® platform supports the use of the [CyberArk vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md) or BeyondTrust for external credential storage.
+The instance maintains a unique identifier for each credential, the credential type \(such as SSH, SNMP, or Windows\), and any credential affinities. The MID Server obtains the credential identifier from the instance, and then uses a customer-provided JAR file to resolve the identifier from the repository into a usable credential. Currently, the ServiceNow® platform supports the use of the [CyberArk vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md) or BeyondTrust for external credential storage.
 
 ## External credential storage architecture
 
@@ -58,14 +58,14 @@ If the repository encounters an error while attempting to resolve a credentials 
     If you disable external credential storage with the system property, the system automatically sets all the external credentials to inactive in the instance. If you re-enable the feature with this property, the system doesn’t reset the external credential records to active. You must reactivate each [credential record]() manually.
 
 
--   **[Request external credential storage for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_ActivateExtrnlCredStoragePlugIn.md)**  
+-   **[Request external credential storage for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/t_ActivateExtrnlCredStoragePlugIn.md)**  
 The External Credential Storage plugin is available by request.
--   **[External credential storage configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/external_cred_storage_configuration.md)**  
+-   **[External credential storage configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/external_cred_storage_configuration.md)**  
 Configure your instance to obtain credentials from a remote repository.
--   **[CyberArk credential storage integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md)**  
+-   **[CyberArk credential storage integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md)**  
 The MID Server integration with the CyberArk vault enables ServiceNow® Orchestration, ServiceNow® Discovery, and ServiceNow® Service Mapping to run without storing any credentials on the instance.
--   **[OAuth 2.0 authentication via MID Server using external credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-0-support-in-external-credential.md)**  
+-   **[OAuth 2.0 authentication via MID Server using external credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/oauth-2-0-support-in-external-credential.md)**  
 Store OAuth 2.0 credentials-client ID and client secret-in the CyberArk vault instead of the ServiceNow instance. The MID Server gets the credentials from the CyberArk vault, when required to get the OAuth token. The token is stored in the MID Server and refreshed automatically upon expiry.
 
-**Parent Topic:**[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
+**Parent Topic:**[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/credentials-getting-started.md)
 

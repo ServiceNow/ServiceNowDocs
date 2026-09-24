@@ -2,7 +2,7 @@
 title: Set up Financial Services Operations Integration with Mastercard
 description: Configure the Financial Services Operations Integration with Mastercard application by using the Mastercard connection and credential record to authenticate ServiceNow requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/set-up-financial-services-operations-integration-with-mastercard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/set-up-financial-services-operations-integration-with-mastercard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

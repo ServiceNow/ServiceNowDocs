@@ -2,7 +2,7 @@
 title: Customize tabs in the contextual side panel for a playbook page
 description: Add customized tabs in the contextual side panel. Agents can use these tabs to view case information, add attachments, view recommendations, and perform other case-related actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-process-tabs-in-side-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customize-process-tabs-in-side-panel.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,11 +50,11 @@ The added component gets displayed on the UI. The location depends on where you 
 **Related topics**  
 
 
-[Configure tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-side-panel-tabs.md)
+[Configure tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-side-panel-tabs.md)
 
-[Customize a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-custom-record-page.md)
+[Customize a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-custom-record-page.md)
 
-[Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md)
+[Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md)
 
 [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md)
 

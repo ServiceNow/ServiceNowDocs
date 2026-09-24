@@ -2,7 +2,7 @@
 title: Generate recommended actions
 description: Automatically generate the next steps your analysts can take to help them close a security incident in the Security Incident Response Workspace. The recommended steps are based on existing security incidents and knowledge articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/generate-recommended-actions-now-assist-for-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/generate-recommended-actions-now-assist-for-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -89,5 +89,5 @@ Roles required: sn\_si.analyst, sn\_si.manager, or sn\_si.basic
         The action cards provide you with the options to **View details** and **Create response task**.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-for-security.md)
+**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-now-assist-for-security.md)
 

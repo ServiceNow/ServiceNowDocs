@@ -2,7 +2,7 @@
 title: Assign a group task to yourself using the Mobile Agent application
 description: Claim tasks to work on from the tasks assigned to your assignment group through the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/pick-task-from-assignment-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/pick-task-from-assignment-group.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -40,7 +40,7 @@ Role required:
 
 The assigned task is shown in your My Tasks list.
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 

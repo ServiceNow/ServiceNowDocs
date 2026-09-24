@@ -2,12 +2,12 @@
 title: Page limits for Meraki pull connector endpoints
 description: The Meraki pull connector paginates API requests so that all records are retrieved for large organizations. The page size is set per endpoint to match each endpoint's maximum supported value in the Meraki API v1.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/meraki-pull-connector-page-limits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/meraki-pull-connector-page-limits.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
@@ -35,5 +35,5 @@ The connector follows the pagination links returned in the `Link` header \(`rel=
 
 Endpoints that do not have a configured `perPage` limit \(for example, `/devices/{serial}/appliance/performance` and `/networks/{networkId}/appliance/trafficShaping/uplinkBandwidth`\) are treated as single requests. These endpoints return all of their data in one response, so the `Link` header is absent and the pagination loop exits after the first page.
 
-**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
+**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 

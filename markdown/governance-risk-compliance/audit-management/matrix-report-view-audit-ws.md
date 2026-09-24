@@ -2,7 +2,7 @@
 title: View matrix report in landing page and record page of Audit Workspace
 description: View the Matrix report in the Audit Workspace that presents the data in a structured format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/matrix-report-view-audit-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/matrix-report-view-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

@@ -2,7 +2,7 @@
 title: Audit purchase lines automatically when predictive fields change
 description: Automated audit compares existing categories with the latest AI prediction when key predictive fields are updated in a sourcing request or purchase requisition, flagging inconsistencies without automatically updating category fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/audit-prls-predictive-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/audit-prls-predictive-fields.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -32,7 +32,7 @@ If a category mismatch is detected, the system flags the inconsistency and displ
 
 The audit runs asynchronously to ensure minimal impact on system performance.
 
-For more information about the prediction logic and flow, refer to the section 'Product and spend category prediction logic' in [Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md).
+For more information about the prediction logic and flow, refer to the section 'Product and spend category prediction logic' in [Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md).
 
-**Parent Topic:**[Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md)
+**Parent Topic:**[Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md)
 

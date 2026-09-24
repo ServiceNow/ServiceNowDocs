@@ -2,7 +2,7 @@
 title: Configure consumers
 description: A consumer is a customer in the business-to-consumer \(B2C\) business model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-consumers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-csm-consumers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: String transform functions
 description: Use string transform functions to reformat or perform calculations on String data pills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/string-transform-functions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/string-transform-functions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -16,7 +16,7 @@ breadcrumb: [Transform functions, Flows, subflows, and actions reference, Flows,
 
 Use string transform functions to reformat or perform calculations on String data pills.
 
-String transform functions require a String input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md) when applying string transform functions. If a string transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+String transform functions require a String input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md) when applying string transform functions. If a string transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-test.md).
 
 ## Convert String to Number
 
@@ -252,5 +252,5 @@ In this example, the action makes a REST call to a third-party system and GETs a
 
 \[Omitted image "trim-transform-function-example.png"\] Alt text: Trim white space from a server name before adding it to the CMDB.
 
-**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md)
+**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/transform-functions.md)
 

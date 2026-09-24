@@ -2,7 +2,7 @@
 title: Set encrypted field configurations
 description: Configure which table columns or attachments that the system encrypts using a preconfigured cryptographic module.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/set-encrypted-field-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/set-encrypted-field-config.html
 release: australia
 topic_type: task
 last_updated: "2026-07-28"
@@ -28,7 +28,7 @@ Only users with access to the cryptographic module used in this configuration ca
 -   If a user has read access but not write access, the field displays the decrypted data in read-only mode.
 -   If a user has all access, both read/write functionality is available on the encrypted field.
 
-See [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md) or [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-PE-cryptographic-module.md) to begin.
+See [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/create-cryptographic-module.md) or [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/create-PE-cryptographic-module.md) to begin.
 
 You can create configurations in various ways:
 
@@ -40,7 +40,7 @@ You can create configurations in various ways:
 
 After encrypting a column, any new data inserted into the column is encrypted automatically. However, data that existed in the column before the encryption was active is not automatically encrypted.
 
-In order to encrypt data that existed before the column was encrypted, you must run a separate mass encryption job. Learn more about mass encryption in [Run mass encryption or decryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mass-enc-dec.md).
+In order to encrypt data that existed before the column was encrypted, you must run a separate mass encryption job. Learn more about mass encryption in [Run mass encryption or decryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/mass-enc-dec.md).
 
 ## Procedure
 
@@ -144,5 +144,5 @@ Indicates if the crypto module that you selected is already configured to suppor
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption-key-management.md)
+**Parent Topic:**[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption-key-management.md)
 

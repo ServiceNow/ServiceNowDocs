@@ -2,7 +2,7 @@
 title: Findings - Scoped, Global
 description: The Findings API provides methods for handling how an Instance Scan check produces findings.Increases the count of the current finding.If the current finding is from a linter check, this method increments the current finding count and simultaneously passes the linter node object to the finding.Sets the source of the current finding based on the provided GlideRecord.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/FindingsAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/FindingsAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -25,7 +25,7 @@ See also:
 -   [Getting started with checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-intro-health-check.md)
 -   [Findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-findings.md)
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## Findings - increment\(\)
 
@@ -62,7 +62,7 @@ Use this method in the Script field in the [Linter Check form](https://raw.githu
 See also:
 
 -   [Advanced linter check scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-linter-check-scripts.md)
--   [LinterCheckAstNode API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LinterCheckAstNodeAPIBoth.md)
+-   [LinterCheckAstNode API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LinterCheckAstNodeAPIBoth.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -72,7 +72,7 @@ See also:
 |----|-----------|
 |None| |
 
-The following example shows how to increment linter type nodes in a linter check. For information on using linter check methods, see [LinterCheckAstNode API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LinterCheckAstNodeAPIBoth.md).
+The following example shows how to increment linter type nodes in a linter check. For information on using linter check methods, see [LinterCheckAstNode API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LinterCheckAstNodeAPIBoth.md).
 
 ```
 (function(engine) {

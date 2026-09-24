@@ -2,7 +2,7 @@
 title: Generate an email reply recommendation using ServiceNow Otto for HRSD
 description: Generate an email reply that is based on the case and email context by using the ServiceNow Otto icon. With email reply recommendations, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/email-recommendation-nahr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/email-recommendation-nahr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -18,7 +18,7 @@ Generate an email reply that is based on the case and email context by using the
 
 ## Before you begin
 
-[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
+[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
 Role required: sn\_hr\_gen\_ai.admin
 
@@ -43,15 +43,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d204566e151">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d204570e151">
 
 Method
 
-</th><th align="left" id="d204566e154">
+</th><th align="left" id="d204570e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d204566e160">
+</th></tr></thead><tbody><tr><td id="d204570e160">
 
 **Compose email from More actions**
 
@@ -64,7 +64,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d204566e211">
+</td></tr><tr><td id="d204570e211">
 
 **Compose an email from Activity stream**
 
@@ -78,15 +78,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the ServiceNow Otto \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d204566e268">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d204570e268">
 
 Email message window
 
-</th><th align="left" id="d204566e271">
+</th><th align="left" id="d204570e271">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d204566e280">
+</th></tr></thead><tbody><tr><td id="d204570e280">
 
 **Typed response**
 
@@ -96,7 +96,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d204566e297">
+</td></tr><tr><td id="d204570e297">
 
 **Left blank**
 
@@ -104,7 +104,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d204566e306">
+</td></tr><tr><td id="d204570e306">
 
 **Use template**
 
@@ -120,7 +120,7 @@ Shows email template recommendations while composing an email.
 6.  Select **Send Email** or discard the draft if you don’t like the recommendation.
 
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 

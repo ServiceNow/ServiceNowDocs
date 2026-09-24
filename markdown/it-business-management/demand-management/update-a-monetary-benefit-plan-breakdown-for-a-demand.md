@@ -2,7 +2,7 @@
 title: Update a monetary benefit plan breakdown for a demand
 description: Update a monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/update-a-monetary-benefit-plan-breakdown-for-a-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/update-a-monetary-benefit-plan-breakdown-for-a-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -36,10 +36,10 @@ Role required: it\_demand\_manager
 
 7.  On the Monetary Benefit Plan Breakdown form, view and update the enabled fields.
 
-    For a description of the field names, see [Monetary Benefit Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/monetary-benefit-breakdown-form.md).
+    For a description of the field names, see [Monetary Benefit Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/monetary-benefit-breakdown-form.md).
 
 8.  Select **Update**.
 
 
-**Parent Topic:**[Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-benefit-plan.md)
+**Parent Topic:**[Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/create-demand-benefit-plan.md)
 

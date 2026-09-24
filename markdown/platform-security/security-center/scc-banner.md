@@ -2,7 +2,7 @@
 title: ServiceNow Security Center announcements
 description: Enable security banner announcements and notifications to stay informed about urgent and critical security alerts using high visibility banners visible to administrators within the instance UI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/scc-banner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/scc-banner.html
 release: australia
 product: Security Center
 classification: security-center
@@ -30,5 +30,5 @@ The security banner feature is enabled by default. To enable or disable security
 
 \[Omitted image "sc-banner-1.png"\] Alt text: Manage security banner announcements
 
-**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-v2.md)
+**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sec-center-v2.md)
 

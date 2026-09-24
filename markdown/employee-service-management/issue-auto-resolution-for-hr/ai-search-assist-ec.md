@@ -2,7 +2,7 @@
 title: Enhanced AI Search assist for general HR inquiries
 description: Refine your search results with the enhanced AI Search assist capability available on Employee Center. Self-solve minor issues with intuitive recommendations before submitting a create incident form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/issue-auto-resolution-for-hr/ai-search-assist-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/issue-auto-resolution-for-hr/ai-search-assist-ec.html
 release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr

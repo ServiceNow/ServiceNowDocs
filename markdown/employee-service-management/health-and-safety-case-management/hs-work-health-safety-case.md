@@ -2,7 +2,7 @@
 title: Work on a Health and Safety case
 description: Work on a safety case to provide information, ensure that any outstanding tasks are completed, and resolve the employee's questions and compensation claims related to health and safety.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.html
 release: australia
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -40,7 +40,7 @@ When an employee or a worker submits a health and safety question or compensatio
 
 5.  On the form, fill in the fields.
 
-    For information about safety case form fields, see [Health and Safety case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-case-form.md).
+    For information about safety case form fields, see [Health and Safety case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-case-form.md).
 
 6.  If the case is set as **Return to Work**, assess the employee's capability to work before they return from their injury or illness.
 
@@ -54,8 +54,8 @@ When an employee or a worker submits a health and safety question or compensatio
 
         The injury record is auto-populated in the **Injury and Illness** tab if:
 
-        -   this case is added to the **RTW case record** field in the injury and illness report of the associated safety incident. For more information, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
-        -   or, this case was created from the associated injury and illness record. For more information, see [Create a return to work case from an injury or illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/create-rtw-case-injury-illness.md).
+        -   this case is added to the **RTW case record** field in the injury and illness report of the associated safety incident. For more information, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
+        -   or, this case was created from the associated injury and illness record. For more information, see [Create a return to work case from an injury or illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/create-rtw-case-injury-illness.md).
 7.  If the case is set as **Compensation claim case**, fill in these sections.
 
     Only a user with the Claim case writer \[sn\_hs\_cm.claim\_case\_writer\] role can access these sections.
@@ -68,11 +68,11 @@ When an employee or a worker submits a health and safety question or compensatio
 
     -   Select **Add** to link an existing document stored in the **Health and Safety document library** list.
     -   Select **New** to upload a new document.
-    For more information, see [Add a new Health and Safety related document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/add-hs-related-document.md).
+    For more information, see [Add a new Health and Safety related document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/add-hs-related-document.md).
 
 9.  In the **Actions** tab, select **New** to add any actions for the case.
 
-    For field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-action-form.md).
+    For field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 10. Provide additional information requested in this case.
 
@@ -88,11 +88,11 @@ When an employee or a worker submits a health and safety question or compensatio
 
     1.  Select **Generate report**.
 
-        **Note:** The **Generate report** button appears only when the Health and Safety case \[sn\_hs\_cm\_case\] table is enabled for report field mapping. For more information, see [Enable a Health and Safety table for configuring report field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/enable-hs-table-report-field-mapping.md).
+        **Note:** The **Generate report** button appears only when the Health and Safety case \[sn\_hs\_cm\_case\] table is enabled for report field mapping. For more information, see [Enable a Health and Safety table for configuring report field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/enable-hs-table-report-field-mapping.md).
 
     2.  In the **Generate report** dialog box, select a report mapping in the **Select report** field.
 
-        Only the report mapping forms created and published for the Health and Safety case \[sn\_hs\_cm\_case\] table are available to select in the **Select report** field. For more information, see [Create a safety report field mapping for generating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/create-safety-report-field-mapping.md).
+        Only the report mapping forms created and published for the Health and Safety case \[sn\_hs\_cm\_case\] table are available to select in the **Select report** field. For more information, see [Create a safety report field mapping for generating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-core/create-safety-report-field-mapping.md).
 
     3.  Select **Generate**.
 

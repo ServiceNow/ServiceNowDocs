@@ -2,7 +2,7 @@
 title: Insurance Claims Core tables
 description: This section explains the insurance tables in Insurance Claims Core and how they handle insurance data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims-core-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims-core-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -106,7 +106,7 @@ Defines the configuration for claim incidents that can be created as part of the
 -   Display order of the service definitions in the playbook
 -   Whether the service definition is shown in the UI or not
 
-For more information, see [Claim Incident Configuration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/claim-incident-configuration-table.md).
+For more information, see [Claim Incident Configuration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/claim-incident-configuration-table.md).
 
 </td></tr><tr><td>
 
@@ -133,5 +133,5 @@ Trip Incident \[sn\_ins\_claim\_trip\]
 Stores information about a trip loss incident, such as a description of the incident, reservation numbers, and other supporting questions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Insurance Claims Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims-core-data-model.md)
+</table>**Parent Topic:**[Insurance Claims Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims-core-data-model.md)
 

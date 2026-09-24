@@ -2,7 +2,7 @@
 title: Create an area code
 description: Created topic for STRY55294083 - DOC1071773Create, review, update, or delete an area code by using the Telecommunications Network Inventory application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create\_an\_area\_code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create\_an\_area\_code.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -72,7 +72,7 @@ Central office code that is also referred to as NXX. The NXX portion of a teleph
 
 ## What to do next
 
-Create a telephone block, telephone number allocation, or telephone number. For information, see [Create a telephone infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telephone_block_telephone_number_and_telephone_number.md).
+Create a telephone block, telephone number allocation, or telephone number. For information, see [Create a telephone infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telephone_block_telephone_number_and_telephone_number.md).
 
-**Parent Topic:**[Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
+**Parent Topic:**[Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
 

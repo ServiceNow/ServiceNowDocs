@@ -2,10 +2,10 @@
 title: Review questionnaire to approve or reject requets
 description: Approvers review the questionnaire and make approval/rejection decisions based on the provided information. Remediation owners must fill out the questionnaire before submitting for approval, if questionnaire configuration was selected during exception rule configuration..
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-smart-assessment-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-smart-assessment-flow.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Unified Approvals View, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -36,5 +36,5 @@ The following is the workflow of the smart assessment adaption:
 3.  You can view the questionnaire via a link submitted by the Remediation Owners in the request information in Overview page.
 
 
-**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-view.md)
+**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approval-view.md)
 

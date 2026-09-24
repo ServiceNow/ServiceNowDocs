@@ -2,7 +2,7 @@
 title: Request evidence for model
 description: Send evidence collection request for all the required documents to complete the model validation. Evidence request helps validators to electronically request the information that they need from the model owner to perform model validation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/request-evidence-for-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/request-evidence-for-model.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,13 +32,13 @@ Role required: sn\_model\_risk\_mgmt.model\_validator
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values on the Evidence request form, see [Request evidence form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-evidence-form-mrm.md).
+    For a description of the field values on the Evidence request form, see [Request evidence form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/request-evidence-form-mrm.md).
 
 7.  Select **Request**.
 
 
--   **[Request evidence form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-evidence-form-mrm.md)**  
+-   **[Request evidence form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/request-evidence-form-mrm.md)**  
 Use this form to electronically request the information needed from the model owner to perform model validation.
 
-**Parent Topic:**[Perform model validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-model-risk-validation.md)
+**Parent Topic:**[Perform model validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-model-risk-validation.md)
 

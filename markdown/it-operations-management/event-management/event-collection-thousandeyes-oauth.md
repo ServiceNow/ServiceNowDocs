@@ -2,7 +2,7 @@
 title: Integrate ThousandEyes with OAuth authentication
 description: Create credentials in the instance and configure the ThousandEyes webhook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/event-collection-thousandeyes-oauth.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/event-collection-thousandeyes-oauth.html
 release: australia
 product: Event Management
 classification: event-management

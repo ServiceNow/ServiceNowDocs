@@ -2,7 +2,7 @@
 title: Software license compliance position
 description: The Software Asset Management License Position report shows compliance details for each software model in a single list.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-license-position-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/sam-license-position-report.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -164,5 +164,5 @@ Software model name.
 </td></tr></tbody>
 </table>The License Position Report form also contains **Group** and **Subgroup** fields that specify the group and subgroup on which reconciliation was run.
 
-**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)
+**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMReconciliation.md)
 

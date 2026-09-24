@@ -2,7 +2,7 @@
 title: Verify the SOX Content Pack in Policy and Compliance Management
 description: After importing the SOX Content Pack, verify and edit the profile types, profiles, policies, policy statements, controls, policies, indicator templates, and indicators, within the Policy and Compliance Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/verify-SOX-content-policy-and-compliance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/verify-SOX-content-policy-and-compliance.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -103,7 +103,7 @@ Role required: Compliance Admin \(sn\_compliance.admin\)
 
 ## Result
 
-For information about the SOX Compliance Dashboard, see [SOX Content Pack dashboard and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.md).
+For information about the SOX Compliance Dashboard, see [SOX Content Pack dashboard and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.md).
 
-**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
+**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
 

@@ -2,7 +2,7 @@
 title: Define new on-demand orchestrations
 description: In the base system, you can select on-demand orchestrations that execute predefined workflows. You can define new on-demand orchestrations to customize how workflows are invoked from the Run Orchestration choice lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/define-new-on-demand-orchs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/define-new-on-demand-orchs.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

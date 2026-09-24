@@ -2,7 +2,7 @@
 title: Upload and manage documents in the third-party portal
 description: Use the third-party portal to upload and manage documents for assessments, engagements, issues, and tasks in Third-Party Risk Management \(TPRM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-add-document-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-add-document-portal.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -33,7 +33,7 @@ Third parties and engagement owners can upload and manage documents directly in 
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create new document form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-document-form.md).
+    For descriptions of all these fields, see [Create new document form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-new-document-form.md).
 
 4.  Attach the document file.
 
@@ -104,11 +104,11 @@ Select **Save** to save all changes made to every section of the document.
 **Related topics**  
 
 
-[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
 
-[Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms.md)
+[Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dms.md)
 
-[Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-document.md)
+[Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-document.md)
 
-[Create new document form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-document-form.md)
+[Create new document form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-new-document-form.md)
 

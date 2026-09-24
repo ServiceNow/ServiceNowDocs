@@ -2,7 +2,7 @@
 title: Classify and map imported clauses
 description: Classify and map imported clauses to use the content from the clauses in a contract template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-import-clauses.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-import-clauses.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +18,7 @@ Classify and map imported clauses to use the content from the clauses in a contr
 
 ## Before you begin
 
-A Microsoft Word document must have been uploaded and parsed to provide clauses for the contract template. For more information, see [Create a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-contract-template.md).
+A Microsoft Word document must have been uploaded and parsed to provide clauses for the contract template. For more information, see [Create a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-contract-template.md).
 
 Role required: sn\_cm\_core.contract\_config
 
@@ -26,7 +26,7 @@ Role required: sn\_cm\_core.contract\_config
 
 The imported clauses contain content that have been extracted from the Microsoft Word document that are marked by the content controls. Classifying and mapping the imported clauses builds a clause library of clause variations containing the content available in the imported clauses.
 
-For more information on clause variations, see [Create a clause variation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-clauses-doc-tmplt.md).
+For more information on clause variations, see [Create a clause variation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-add-clauses-doc-tmplt.md).
 
 ## Procedure
 
@@ -38,15 +38,15 @@ For more information on clause variations, see [Create a clause variation](https
 
 4.  Either update an existing clause variation with the content available in the imported clause or create a new clause or clause variation with that content.
 
-<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d369160e116">
+<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d369164e116">
 
 Usage of the imported clause data
 
-</th><th align="left" id="d369160e119">
+</th><th align="left" id="d369164e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d369160e125">
+</th></tr></thead><tbody><tr><td id="d369164e125">
 
 **Do not update any of the existing clause or clause variation**
 
@@ -57,7 +57,7 @@ Steps
 3.  In the **Mapping clause** field, select an active clause from the clause library.
 
 
-</td></tr><tr><td id="d369160e155">
+</td></tr><tr><td id="d369164e155">
 
 **Create a new clause and its clause variation**
 
@@ -68,7 +68,7 @@ Steps
 3.  In the **Mapping clause** field, do not take any action.
 
 
-</td></tr><tr><td id="d369160e185">
+</td></tr><tr><td id="d369164e185">
 
 **Create a new clause variation**
 
@@ -93,7 +93,7 @@ Steps
 6.  View the clause variations associated with a clause by selecting the Display/hide hierarchical lists icon \(\[Omitted image "lsd-icon-hirerachy-lists.png"\] Alt text: Display/hide hierarchical lists for a clause.
 
 
-**Parent Topic:**[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)
+**Parent Topic:**[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)
 
 **Related topics**  
 

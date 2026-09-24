@@ -2,7 +2,7 @@
 title: Request Management Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/request-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/request-content-pack.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,24 +22,24 @@ Platform Analytics Solutions are available for both Requests and Requested Items
 
 Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it.
 
--   **[Legacy: Request Management - Requested Item dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/requested-item-mgmt-dashboard.md)**  
+-   **[Legacy: Request Management - Requested Item dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/requested-item-mgmt-dashboard.md)**  
 Track the progress of purchase orders, transfer orders, and software assignments.
--   **[Open Requested Item State Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/open-req-item-state-dashboard.md)**  
+-   **[Open Requested Item State Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/open-req-item-state-dashboard.md)**  
 Use this dashboard when you wish to dive into open requests for items divided by State: Pending, Work in Progress, or all Open requests.
--   **[Open Requested Item Age Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/open-req-item-age-dashboard.md)**  
+-   **[Open Requested Item Age Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/open-req-item-age-dashboard.md)**  
 Use this dashboard when you wish to dive into open requests for items divided by Age.
--   **[Open Requested Item Reports dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/open-req-item-reports-dashboard.md)**  
+-   **[Open Requested Item Reports dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/open-req-item-reports-dashboard.md)**  
 To view the current state of open item requests, see the Open Requested Item Reports.
--   **[Legacy: Request Management - Request dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/request-mgmt-dashboard.md)**  
+-   **[Legacy: Request Management - Request dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/request-mgmt-dashboard.md)**  
 Track the progress of new requests through the time they are worked on until they are closed.
--   **[Open Requests State Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/open-requests-state-dashboard.md)**  
+-   **[Open Requests State Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/open-requests-state-dashboard.md)**  
 Use this dashboard when you wish to dive into open requests divided by State: Pending Approval or Approved.
--   **[Open Requests Age Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/open-requests-age-dashboard.md)**  
+-   **[Open Requests Age Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/open-requests-age-dashboard.md)**  
 Use this dashboard when you wish to dive into open requests divided by Age.
--   **[Open Request Reports dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/open-request-reports-dashboard.md)**  
+-   **[Open Request Reports dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/open-request-reports-dashboard.md)**  
 To view the current state of open requests, see the Open Request Reports.
 
-**Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/rm-sm-application.md)
+**Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/rm-sm-application.md)
 
 **Related topics**  
 

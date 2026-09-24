@@ -2,7 +2,7 @@
 title: Access the Unified Map feature from the Service Mapping Workspace
 description: View a hierarchical map of CIs and the relationships between them by adding access to the Unified Map feature to the Service Mapping Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/view-unified-map-sm-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/view-unified-map-sm-workspace.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -53,7 +53,7 @@ Review [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     A new tab opens displaying the Unified Map for the application service in the CMDB Workspace.
 
 
-**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/using-service-mapping.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Add recipients to usage spike, execution failure, and latency error email notifications
 description: Add or change recipients to email notifications triggered by unexpected or undesired behavior in AI agent and agentic workflow executions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/config-aia-notifications-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/config-aia-notifications-new.html
 release: australia
 topic_type: task
 last_updated: "2025-10-27"

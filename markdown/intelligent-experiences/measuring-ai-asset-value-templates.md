@@ -2,7 +2,7 @@
 title: Viewing templates associated with an AI system
 description: Learn how value is being measured for an AI system by viewing the value templates mapped to the asset and the productivity calculation each template uses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/measuring-ai-asset-value-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/measuring-ai-asset-value-templates.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-29"
@@ -48,5 +48,5 @@ To review the full configuration of a template mapping, select **View details** 
 
 To view the full template record and its configuration fields, select **Open template** in the **Template details** section of the side panel.
 
-**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-managing-ai-assets.md)
+**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-managing-ai-assets.md)
 

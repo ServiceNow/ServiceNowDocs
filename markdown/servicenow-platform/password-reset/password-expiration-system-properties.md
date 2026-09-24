@@ -2,7 +2,7 @@
 title: System properties for password expiration
 description: You can configure the system properties that support operations in password expiration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-expiration-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/password-expiration-system-properties.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -70,5 +70,5 @@ Duration, in days, to refresh the expiration details for a user whose password n
 </table>**Related topics**  
 
 
-[Configure password expiration reminder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-expiration-setup.md)
+[Configure password expiration reminder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/password-reset-expiration-setup.md)
 

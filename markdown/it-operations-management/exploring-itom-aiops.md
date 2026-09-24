@@ -2,7 +2,7 @@
 title: Exploring ITOM AIOps
 description: Overview of ITOM AIOps applications and capabilities that enable proactive IT operations management through AI-powered monitoring, analytics, and automation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/exploring-itom-aiops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/exploring-itom-aiops.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-17"
@@ -121,8 +121,8 @@ Predictive issue detection
 
 </td><td>
 
--   [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-landing-page.md)
--   [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-landing-page.md)
+-   [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-landing-page.md)
+-   [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/synthetic-monitoring-landing-page.md)
 
 </td><td>
 
@@ -134,7 +134,7 @@ Automated alert response
 
 </td><td>
 
-[Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sow-itom-alert-automation.md)
+[Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/sow-itom-alert-automation.md)
 
 </td><td>
 
@@ -146,7 +146,7 @@ Performance optimization
 
 </td><td>
 
-[Exploring Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/exploring-agent-client-collector.md)
+[Exploring Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/exploring-agent-client-collector.md)
 
 </td><td>
 
@@ -158,7 +158,7 @@ Service health and investigation
 
 </td><td>
 
-[Exploring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/exploring-service-observability.md)
+[Exploring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/exploring-service-observability.md)
 
 </td><td>
 
@@ -170,8 +170,8 @@ Service level management
 
 </td><td>
 
--   [Exploring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/exploring-service-reliability-management.md)
--   [Exploring SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/exploring-service-level-objective-management.md)
+-   [Exploring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/exploring-service-reliability-management.md)
+-   [Exploring SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/exploring-service-level-objective-management.md)
 
 </td><td>
 
@@ -214,5 +214,5 @@ A well-populated Configuration Management Database \(CMDB\) is crucial to get th
 
 Configure the MID Web Server extension to enable ITOM AIOps features. The MID Web Server is an extension that enables external clients to push metric data and events to the MID Server. This extension is required for Event Management and many instances of Agent Client Collector and Health Log Analytics.
 
-ServiceNow Otto for Setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. For more information about using the ServiceNow Otto for Setup, see [Configure Event Management using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/aiops-conf-console.md).
+ServiceNow Otto for Setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. For more information about using the ServiceNow Otto for Setup, see [Configure Event Management using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/aiops-conf-console.md).
 

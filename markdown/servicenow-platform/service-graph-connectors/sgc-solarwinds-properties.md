@@ -2,7 +2,7 @@
 title: Service Graph Connector for SolarWinds properties
 description: Service Graph Connector for SolarWinds properties control the behavior of the connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-solarwinds-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-solarwinds-properties.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

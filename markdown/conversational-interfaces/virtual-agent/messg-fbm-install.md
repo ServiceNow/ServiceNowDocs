@@ -2,7 +2,7 @@
 title: Install Conversational Integration with Facebook Messenger
 description: You can install the Conversational Integration with Facebook Messenger application \(sn\_va\_fb\_messenger\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/messg-fbm-install.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -30,7 +30,7 @@ The following applications or plugins are installed with Conversational Integrat
 
     Provides custom chat integration framework of scriptable APIs to enable the Virtual Agent application on any conversational interface.
 
-    For more information on this plugin, see [Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
+    For more information on this plugin, see [Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
 
 -   **ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)**
 
@@ -58,5 +58,5 @@ The following applications or plugins are installed with Conversational Integrat
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
+**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
 

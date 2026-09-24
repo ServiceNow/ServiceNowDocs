@@ -2,7 +2,7 @@
 title: Components installed with Operational Technology Incident Management
 description: Several types of components may be installed with activation of the Operational Technology Incident Management \(sn\_ot\_inc\_mgmt\) plugin, including user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/components-installed-with-operational-technology-service-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/components-installed-with-operational-technology-service-management.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -71,7 +71,7 @@ Can view, create, and edit OT incident records.
 sn\_ot\_incident\_read
 
 </td></tr></tbody>
-</table>**Note:** The OT Incident User \[ot\_incident\_user\] role is deprecated. For users assigned this role, you can execute a scheduled job to assign them new Operational Technology Incident Management roles. For more information, see [Assign new roles to your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/assign-operational-technology-incident-management-roles.md).
+</table>**Note:** The OT Incident User \[ot\_incident\_user\] role is deprecated. For users assigned this role, you can execute a scheduled job to assign them new Operational Technology Incident Management roles. For more information, see [Assign new roles to your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/assign-operational-technology-incident-management-roles.md).
 
 ## Tables installed
 
@@ -110,5 +110,5 @@ OT Incident Priority Rule Lookup \[dl\_ot\_inc\_priority\]
 List of rules to calculate the priority of an OT incident.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Technology Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/oper-tech-incident-management-reference.md)
+</table>**Parent Topic:**[Operational Technology Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/oper-tech-incident-management-reference.md)
 

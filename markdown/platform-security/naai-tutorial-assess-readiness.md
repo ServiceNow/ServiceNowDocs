@@ -2,7 +2,7 @@
 title: Assess readiness
 description: Verify that your instance is prepared for AI agent deployment, install the required applications, assign the required roles, and classify user identity types before you begin building.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-tutorial-assess-readiness.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-tutorial-assess-readiness.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -47,7 +47,7 @@ Once the required applications are installed, assign the following roles to the 
 
 -   **__sn\_generative\_ai.data\_steward__**
 
-    Required to make data sharing decisions and configure privacy policies. Assign this role before configuring data protection settings in [Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-configure-security.md).
+    Required to make data sharing decisions and configure privacy policies. Assign this role before configuring data protection settings in [Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-configure-security.md).
 
 
 For a full list of roles installed with Now Assist, see [AI Admin Hub roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md).
@@ -60,7 +60,7 @@ For any dedicated AI user accounts your agents will run as, set the Identity typ
 
 ## Next step
 
-When your instance passes the readiness evaluation and roles are assigned, proceed to [Plan your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-plan-agent.md).
+When your instance passes the readiness evaluation and roles are assigned, proceed to [Plan your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-plan-agent.md).
 
-**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-overview.md)
+**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-overview.md)
 

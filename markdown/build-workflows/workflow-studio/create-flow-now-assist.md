@@ -2,14 +2,14 @@
 title: Create a flow with Now Assist
 description: Use generative AI to create a flow from text directions and images.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-flow-now-assist.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
@@ -42,7 +42,7 @@ Generate flows by using text prompts and image. Describe the flow in details, at
 
 4.  To use the flow recommendations skill, select the **Build on your own** tab.
 
-    You can use the flow recommendations skill to build a flow or to edit an existing flow. For details about building a flow on your own, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+    You can use the flow recommendations skill to build a flow or to edit an existing flow. For details about building a flow on your own, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md).
 
 5.  Fill in the fields to build your flow.
 
@@ -176,7 +176,7 @@ Priority level at which you want the system to run this flow by default. Options
 -   Low
 -   Medium \(Default\)
 -   High
- To learn about flow priority levels, see [Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-priority.md).
+ To learn about flow priority levels, see [Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-priority.md).
 
 </td></tr></tbody>
 </table>6.  Select the **Try an example** option to insert a valid example of flow directions.
@@ -231,5 +231,5 @@ You can use these prompt values to create a flow with a scheduled trigger.
 -   Configure the inputs of each action, flow logic, and subflow to use appropriate data.
 -   Test the flow before activating it.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

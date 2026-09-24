@@ -2,7 +2,7 @@
 title: Service Exchange Center
 description: Service Exchange center is a unified dashboard that consolidates connection health monitoring, issue resolution, and scan check management into a single interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/se-se-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/se-se-center.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -82,7 +82,7 @@ Service Exchange health dashboard is the part of Service Exchange Center and pro
 
 -   **Scan suites**
 
-    The Scan Suites tab provides access to automated health checks that detect issues and inconsistencies. To learn more about instance scan checks, see [Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-scan-checks.md).
+    The Scan Suites tab provides access to automated health checks that detect issues and inconsistencies. To learn more about instance scan checks, see [Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-scan-checks.md).
 
     Scan suites are organized into two categories:
 
@@ -106,7 +106,7 @@ Service Exchange health dashboard is the part of Service Exchange Center and pro
 **Related topics**  
 
 
-[Execute a scan suite as a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-execute-scan-check.md)
+[Execute a scan suite as a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-execute-scan-check.md)
 
-[Execute a scan suite as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-con-execute-scan-check.md)
+[Execute a scan suite as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-con-execute-scan-check.md)
 

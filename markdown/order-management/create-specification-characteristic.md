@@ -2,7 +2,7 @@
 title: Create specification characteristics
 description: Define characteristics for a product, service, or resource specification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-specification-characteristic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-specification-characteristic.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Define characteristics for a product, service, or resource specification.
 
 ## Before you begin
 
-[Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md) that can be selected for a specification.
+[Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-product-config-add-characteristics.md) that can be selected for a specification.
 
 Role required: sn\_prd\_pm\_product\_catalog\_admin
 
@@ -42,12 +42,12 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Setting up specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-product-catalog.md)
+**Parent Topic:**[Setting up specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-product-catalog.md)
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

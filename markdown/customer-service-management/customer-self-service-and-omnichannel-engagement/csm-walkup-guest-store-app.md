@@ -2,7 +2,7 @@
 title: Walk-up Experience for guest users
 description: The Walk-up Experience application can enable guest users to manage walk-up appointments online from the Consumer Service Portal or Customer Service Portal home page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-guest-store-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-guest-store-app.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -26,7 +26,7 @@ Note the following requirements for guest users to be able to use Walk-up Experi
 
 -   The Guest Walk-up Experience for Customer Service store app must be installed. For more information on installing the store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 -   The com.snc.walkup\_for\_csm plugin must be activated. For more information on activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
--   The Walk-up Check-in widget must be configured. For more information, see [Add a Walk-up Experience online check-in link on the Service Portal home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-add-checkin-icon.md).
+-   The Walk-up Check-in widget must be configured. For more information, see [Add a Walk-up Experience online check-in link on the Service Portal home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-add-checkin-icon.md).
 
-**Parent Topic:**[Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-experience.md)
+**Parent Topic:**[Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-experience.md)
 

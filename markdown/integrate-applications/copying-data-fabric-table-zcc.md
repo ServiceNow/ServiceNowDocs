@@ -2,7 +2,7 @@
 title: Deploying a data fabric table from one instance to another
 description: Copy a data fabric table from one instance to another through an update set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/copying-data-fabric-table-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/copying-data-fabric-table-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,5 +18,5 @@ You can capture a data fabric table configuration, including the table identific
 
 For details on using update sets, see .
 
-**Parent Topic:**[Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md)
+**Parent Topic:**[Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md)
 

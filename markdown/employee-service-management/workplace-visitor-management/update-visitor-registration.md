@@ -2,7 +2,7 @@
 title: Update a visitor registration
 description: Track visitor registrations and update the status of a visitor while the visitor is on the premises.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/update-visitor-registration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/update-visitor-registration.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -46,14 +46,14 @@ Role required: sn\_wsd\_visitor.admin or sn\_wsd\_visitor.staff
     |**Didn't show up**|The visitor did not show up.|
     |**Cancel**|Cancel the visitor registration.|
 
-    For more information about different states and about allowed state changes on a visitor registration, see [Visitor registration states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/visitor-registration-states.md).
+    For more information about different states and about allowed state changes on a visitor registration, see [Visitor registration states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/visitor-registration-states.md).
 
 
 ## Result
 
 The status of the visitor registration is updated.
 
-**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 

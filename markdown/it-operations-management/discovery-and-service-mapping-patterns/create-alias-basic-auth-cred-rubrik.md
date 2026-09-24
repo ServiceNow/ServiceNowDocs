@@ -2,7 +2,7 @@
 title: Create a basic authentication credential alias for Rubrik discovery
 description: Create an alias and add it to a basic authentication credential to discover Rubrik clusters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-rubrik.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-rubrik.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -53,12 +53,12 @@ Role required: discovery\_admin
 
 ## What to do next
 
-Create a serverless discovery schedule. For more information, see [Create a serverless discovery schedule for Rubrik cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-rubrik.md).
+Create a serverless discovery schedule. For more information, see [Create a serverless discovery schedule for Rubrik cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-rubrik.md).
 
-**Parent Topic:**[Rubrik Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.md)
+**Parent Topic:**[Rubrik Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.md)
 
 **Related topics**  
 
 
-[Rubrik Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.md)
+[Rubrik Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.md)
 

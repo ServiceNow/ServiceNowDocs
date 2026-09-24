@@ -2,7 +2,7 @@
 title: Expand domain scope
 description: By default, when a user in the global domain views a table containing a sys\_overrides column, the user sees records from only the global domain. When an admin in the global domain views a process table, that admin sees only records that are in that process table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ChangeDomainVisibility.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ChangeDomainVisibility.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

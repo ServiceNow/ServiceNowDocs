@@ -2,7 +2,7 @@
 title: Mobile app settings
 description: Use the settings in your mobile applications to manage accounts, accessibility, notifications, location tracking, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/manager-user-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/manager-user-settings.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-30"
@@ -47,17 +47,17 @@ The following is a list of the default option listings in the settings page. Tap
 **Related topics**  
 
 
-[App PIN settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-app-pin-settings.md)
+[App PIN settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-app-pin-settings.md)
 
-[Analytics settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-analytics-settings.md)
+[Analytics settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-analytics-settings.md)
 
-[Enable notification settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/notification-preference-settings.md)
+[Enable notification settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/notification-preference-settings.md)
 
-[Using location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-location.md)
+[Using location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-location.md)
 
-[Display mobile screen performance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/debug-drawer.md)
+[Display mobile screen performance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/debug-drawer.md)
 
-[Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-end-user.md)
+[Offline mode for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-end-user.md)
 
-[Refresh mobile app meta-data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/metadata-refresh.md)
+[Refresh mobile app meta-data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/metadata-refresh.md)
 

@@ -2,7 +2,7 @@
 title: Track risk assessments from the due diligence playbook
 description: As procurement specialists, use the due diligence playbook to track supplier risk assessments and complete the associated tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/track-risk-assess-due-diligence-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/track-risk-assess-due-diligence-playbook.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -263,5 +263,5 @@ Updates the case to Closed Completed.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Streamlining the supplier risk assessment workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/simplify-risk-assessment-wf.md)
+**Parent Topic:**[Streamlining the supplier risk assessment workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/simplify-risk-assessment-wf.md)
 

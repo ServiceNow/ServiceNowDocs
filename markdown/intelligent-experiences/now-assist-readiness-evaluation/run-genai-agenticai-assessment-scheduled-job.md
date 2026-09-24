@@ -2,7 +2,7 @@
 title: Run the GenAI/AgenticAI Assessment scheduled job
 description: Before you can view the agentic AI or generative AI assessment results, you must first run the GenAI/AgenticAI Assessment scheduled job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
@@ -40,5 +40,5 @@ Role required: admin
 
 If you must rerun all the scheduled jobs, or specifically, the agentic AI scheduled jobs for ITSM and CSM, repeat these steps.
 
-**Note:** You must complete the additional steps in the AI Readiness Evaluation guided setup if you want to work with the ServiceNow Otto for HRSD product. If you don’t complete the additional guided setup steps for the ServiceNow Otto for HRSD product, the assessment continuously fails. For more information about completing the AI Readiness Evaluation guided setup, see [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
+**Note:** You must complete the additional steps in the AI Readiness Evaluation guided setup if you want to work with the ServiceNow Otto for HRSD product. If you don’t complete the additional guided setup steps for the ServiceNow Otto for HRSD product, the assessment continuously fails. For more information about completing the AI Readiness Evaluation guided setup, see [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
 

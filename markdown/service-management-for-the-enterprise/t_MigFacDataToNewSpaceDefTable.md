@@ -2,7 +2,7 @@
 title: Migrate facilities data to new space definition tables
 description: To continue using the image-based floor plans with the new space definition, migrate your data from the old tables to the new space definition tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_MigFacDataToNewSpaceDefTable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_MigFacDataToNewSpaceDefTable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,5 +45,5 @@ The following results can be expected:
     **Note:** Any object that is marked as migrated does not get migrated again, so you can safely run through the migration process multiple times without creating duplicated objects in the space tables. This behavior can be modified in the migration script include or by resetting the migration flag on the original objects.
 
 
-**Parent Topic:**[Activate Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateFacVisWorkbench.md)
+**Parent Topic:**[Activate Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateFacVisWorkbench.md)
 

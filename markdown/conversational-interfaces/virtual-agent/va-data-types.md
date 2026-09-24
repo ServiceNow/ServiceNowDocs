@@ -2,7 +2,7 @@
 title: Input data types in Virtual Agent topics
 description: You can define inputs of commonly used Glide Virtual Agent \(com.glide.cs.chatbot\) data types in Assistant Designer without writing a script. Define the input data type on the Start node of a custom control or topic block.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-data-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-data-types.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -107,7 +107,7 @@ This User Name Array.Reference input variable limits the number of records to 5.
 
 \[Omitted image "va-data-type-definition.png"\] Alt text: Edit input window, showing data type definition inAssistant Designer.
 
-**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
+**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 
 **Related topics**  
 

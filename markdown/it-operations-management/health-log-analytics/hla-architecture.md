@@ -2,7 +2,7 @@
 title: Health Log Analytics architecture
 description: Health Log Analytics collects logs streaming into your ServiceNow instance from endpoints or data lakes, such as Splunk and Elasticsearch.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-architecture.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-architecture.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics

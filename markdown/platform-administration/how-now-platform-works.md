@@ -2,7 +2,7 @@
 title: How the ServiceNow AI Platform works
 description: The ServiceNow AI Platform is the unified foundation for every ServiceNow product, bringing together AI, data, workflows, and security on a single data model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/how-now-platform-works.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/how-now-platform-works.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-08"
@@ -36,9 +36,9 @@ The ServiceNow AI Platform is built for enterprise scale, with global datacenter
 
 ## Administration
 
-The ServiceNow AI Platform [Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/admin-center-intro.md) gives business administrators at-a-glance information and access to configuration management and AI-powered implementation with [ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md).
+The ServiceNow AI Platform [Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/admin-center/admin-center-intro.md) gives business administrators at-a-glance information and access to configuration management and AI-powered implementation with [ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-landing.md).
 
-Localization is available in more than a dozen languages and currencies. In-house and third-party translation services handle communications, virtual agent chat, user input translation, and more. For more information, see [Translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translation-and-localization.md).
+Localization is available in more than a dozen languages and currencies. In-house and third-party translation services handle communications, virtual agent chat, user input translation, and more. For more information, see [Translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/translation-and-localization.md).
 
 ## Upgrade and release management
 
@@ -46,11 +46,11 @@ The ServiceNow AI Platform delivers regular releases on a predictable cadence, w
 
 ## Ecosystem and marketplace
 
-Extend the platform through the [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/servicenow-store.md), where partner-built applications and integrations are available for deployment. A robust partner ecosystem means solutions exist for many industries, use cases, and technology environments.
+Extend the platform through the [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/servicenow-store.md), where partner-built applications and integrations are available for deployment. A robust partner ecosystem means solutions exist for many industries, use cases, and technology environments.
 
 ## Subscription Management
 
-[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md) provides full visibility into active subscriptions and license consumption from a single location. Use it to right-size your deployment, add capabilities as needs evolve, and maintain budget control across your organization.
+[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/subscription-management-landing-page-v2.md) provides full visibility into active subscriptions and license consumption from a single location. Use it to right-size your deployment, add capabilities as needs evolve, and maintain budget control across your organization.
 
 ## Integration
 
@@ -108,5 +108,5 @@ Take advantage of ready-to-use workflows for common use cases with direct connec
 
 For more information, see [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-config-navigation.md).
 
-**Parent Topic:**[Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/get-started-now-platform.md)
+**Parent Topic:**[Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/get-started-now-platform.md)
 

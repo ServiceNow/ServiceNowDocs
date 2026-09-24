@@ -2,7 +2,7 @@
 title: View Growth plans related information in the Now Assist Admin console
 description: From the Now Assist Admin console, view related information for Growth plans created with the help of Now Assist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/gp-now-assist-view-graphs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/gp-now-assist-view-graphs.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -45,5 +45,5 @@ To view Growth plans related information from the Now Assist Admin console, you 
 
 To learn more about the Now Assist Admin console, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-administration.md)
 

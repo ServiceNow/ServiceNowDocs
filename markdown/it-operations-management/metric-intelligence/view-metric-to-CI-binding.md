@@ -2,7 +2,7 @@
 title: View metric to CI and resource binding
 description: View the metric to CI and resource binding results, including details for failed bindings which you can use to mitigate the failure. Unmapped metrics are excluded from anomaly detection until properly mapped.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/view-metric-to-CI-binding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/metric-intelligence/view-metric-to-CI-binding.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -20,7 +20,7 @@ View the metric to CI and resource binding results, including details for failed
 
 Role required: evt\_mgmt\_admin
 
-If [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/resource-binding.md) is not enabled, then no resource binding results appear.
+If [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/resource-binding.md) is not enabled, then no resource binding results appear.
 
 ## About this task
 
@@ -208,10 +208,10 @@ Verify that the CI Type To Resource Class \[sa\_ci\_type\_to\_resource\_class\] 
 
 Group **Binding Failure Reason** by **Binding Status** to create a summary report with the number of records per failure category. Use this report to efficiently remediate the problems.
 
-**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 
 **Related topics**  
 
 
-[Creating an event rule to map metrics to specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-ci.md)
+[Creating an event rule to map metrics to specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-ci.md)
 

@@ -2,7 +2,7 @@
 title: Resubmit a PDF document
 description: Complete your document task by incorporating the reviewer's suggestions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/resubmit-doctemp-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/resubmit-doctemp-task.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -47,5 +47,5 @@ Role required: none
     The task is complete and appears in the Completed To Dos section. You can view and print the document with the submitted details.
 
 
-**Parent Topic:**[Working on a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/work-doctemp-tasks.md)
+**Parent Topic:**[Working on a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/work-doctemp-tasks.md)
 

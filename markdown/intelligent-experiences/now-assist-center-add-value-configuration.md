@@ -2,7 +2,7 @@
 title: Add a value configuration in the AI Admin Center Business Value dashboard
 description: Add a value configuration to define the business value metrics calculated for an AI asset, including average time saved per execution and average hourly rate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-add-value-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-add-value-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-07-30"
@@ -54,5 +54,5 @@ Value configurations define the data used to calculate business value metrics fo
 
 A **Benchmark created successfully** confirmation banner appears. The value configuration is added to the **Business value configuration** table and the Business Value dashboard metrics are updated to reflect the new configuration.
 
-**Parent Topic:**[AI Admin Center Business Value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-business-value-dashboard.md)
+**Parent Topic:**[AI Admin Center Business Value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-business-value-dashboard.md)
 

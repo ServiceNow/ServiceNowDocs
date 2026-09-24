@@ -2,7 +2,7 @@
 title: Select SAP clients to import data
 description: Select the Remote Function Call \(RFC\) connections that the SAP ABAP program uses to import data from your SAP clients into the central system and then into your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/select-sap-clients-import.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/select-sap-clients-import.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -54,5 +54,5 @@ The central system can be an SAP Solution Manager or any other SAP client with a
 
 ## What to do next
 
-Activate the OData services and assign a system alias to support OAuth 2.0 authentication for the integration. For details, see [Activate OData services and assign a system alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/activate-odata-services-sap.md).
+Activate the OData services and assign a system alias to support OAuth 2.0 authentication for the integration. For details, see [Activate OData services and assign a system alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/activate-odata-services-sap.md).
 

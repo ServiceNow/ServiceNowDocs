@@ -2,7 +2,7 @@
 title: Analyze log lines that surround an anomaly in Health Log Analytics
 description: Review the log lines around an anomaly to help you identify the root cause of a Log Analytics alert.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-sow.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,7 +19,7 @@ Review the log lines around an anomaly to help you identify the root cause of a 
 
 ## Before you begin
 
-For background information, see [Analyze log lines to identify an alert root cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md).
+For background information, see [Analyze log lines to identify an alert root cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md).
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
@@ -29,7 +29,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 2.  Select the **Surrounding logs** tab and review the information.
 
-    The tab displays the list of log lines that were generated one minute before and one second after the Log Analytics alert. For an explanation of the information on the tab, see [Surrounding logs tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-surrounding-logs-tab.md).
+    The tab displays the list of log lines that were generated one minute before and one second after the Log Analytics alert. For an explanation of the information on the tab, see [Surrounding logs tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-surrounding-logs-tab.md).
 
 3.  View a different time span of the log lines using one of the following methods:
 

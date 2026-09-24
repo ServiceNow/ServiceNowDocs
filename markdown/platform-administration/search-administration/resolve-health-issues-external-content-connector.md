@@ -2,14 +2,14 @@
 title: Resolve health issues for an external content connector
 description: View and resolve connector health issues using the connector health dashboard in the external content connector editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/resolve-health-issues-external-content-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/resolve-health-issues-external-content-connector.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-08-20"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -84,5 +84,5 @@ When an external content connector has one or more of these health issues, its s
 
 The external content connector no longer shows **Action required** status.
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 

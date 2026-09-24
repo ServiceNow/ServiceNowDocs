@@ -2,7 +2,7 @@
 title: Create a requirement for employees to acknowledge the privacy consent request
 description: Create a requirement for your employees to respond to the privacy consent request before entering the workplace to facilitate the use of their data for contact tracing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/create-privacy-consent-requirement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contact-tracing/create-privacy-consent-requirement.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -25,7 +25,7 @@ Role required: sn\_imt\_core.admin
 
 ## About this task
 
-Define the privacy consent requirement for employees to return to work. Employees who agree to the use of their data for contact tracing fulfill the privacy consent requirement and are eligible to return to the workplace. Employees who disagree do not fulfill the privacy consent requirement and are not eligible to return to the workplace. For more information, see [Respond to a request for privacy consent in Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/submit-privacy-consent.md).
+Define the privacy consent requirement for employees to return to work. Employees who agree to the use of their data for contact tracing fulfill the privacy consent requirement and are eligible to return to the workplace. Employees who disagree do not fulfill the privacy consent requirement and are not eligible to return to the workplace. For more information, see [Respond to a request for privacy consent in Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/submit-privacy-consent.md).
 
 **Note:** This procedure describes how to create a requirement using the base system Privacy Consent Requirement as an example.
 
@@ -213,7 +213,7 @@ Conditions to filter the records from the table that will trigger the flow.
 
 ## What to do next
 
-You must activate the requirement before you can track whether employees have fulfilled it. For instructions, see [Activate a health and safety requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/activate-readiness-requirement.md).
+You must activate the requirement before you can track whether employees have fulfilled it. For instructions, see [Activate a health and safety requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/activate-readiness-requirement.md).
 
-**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 

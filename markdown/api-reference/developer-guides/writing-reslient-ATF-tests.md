@@ -2,12 +2,12 @@
 title: Writing resilient tests: Query Selection and Debugging
 description: Resilient automated tests are built by querying components semantically, through ARIA roles and accessible names, rather than relying on implementation details that teams can change at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/writing-reslient-ATF-tests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/writing-reslient-ATF-tests.html
 release: australia
 product: Developer Guides
 classification: developer-guides
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Run UI Test Script Developer Guide, Developer guides, API implementation and reference]
 ---

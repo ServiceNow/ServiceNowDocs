@@ -2,7 +2,7 @@
 title: Create a product offering for a remote catalog item
 description: Create a product offering in a Service Exchange provider instance. When you publish the product offering, a remote record producer is created for the remote catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-sb-product-offerings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-sb-product-offerings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -320,5 +320,5 @@ Copy the data in this product offering so that you can create a product offering
 </table>
 ## What to do next
 
-[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-criteria-remote-catalog.md) for this remote catalog item.
+[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/associate-criteria-remote-catalog.md) for this remote catalog item.
 

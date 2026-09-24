@@ -2,7 +2,7 @@
 title: Create scripted filters
 description: The condition builder alone cannot create some filters, such as displaying a record set that depends on an unrelated table. If you know JavaScript, you can create JavaScript functions for use in advanced filters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ScriptedFilters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ScriptedFilters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Role required: admin
     -   Ensure that the script include is **Active** and **Client callable**.
 3.  Call the JavaScript function from the condition builder.
 
-    For more information, see GlideRecord queries and Script includes.
+    For more information, see [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md) queries and [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
     **Note:** Grouped lists with a script include in the filter may cause slowness.
 
@@ -59,7 +59,7 @@ function myFunction(){
 }
 ```
 
-**Parent Topic:**[Filter admin functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/filter-admin-functions.md)
+**Parent Topic:**[Filter admin functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/filter-admin-functions.md)
 
 **Related topics**  
 

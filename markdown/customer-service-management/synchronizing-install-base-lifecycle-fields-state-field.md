@@ -2,7 +2,7 @@
 title: Synchronizing the install base life cycle fields with the state and status fields
 description: You can synchronize the Life cycle stage field and the Life cycle stage status fields with the State and Status fields on the install base form so that you can track the lifecycle of an install base entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/synchronizing-install-base-lifecycle-fields-state-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/synchronizing-install-base-lifecycle-fields-state-field.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ You can synchronize the **Life cycle stage** field and the **Life cycle stage st
 
 ## Overview
 
-Track the lifecycle of an install base entity by migrating to the Common Service Data Model. To learn more about the CSDM framework, see [Common Service Data Model framework for Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csdm-framework-for-install-base-management.md).
+Track the lifecycle of an install base entity by migrating to the Common Service Data Model. To learn more about the CSDM framework, see [Common Service Data Model framework for Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csdm-framework-for-install-base-management.md).
 
 ## Life Cycle Mapping table
 

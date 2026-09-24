@@ -2,7 +2,7 @@
 title: Create a functional location
 description: Create a functional location in the Digital Factory Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-functional-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/create-functional-location.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -30,7 +30,7 @@ Role required: sn\_icw.admin
 
 4.  On the Functional location form, fill in the fields.
 
-    For a description of the field values, see [Functional location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-form.md).
+    For a description of the field values, see [Functional location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/functional-location-form.md).
 
 5.  Select **Save**.
 
@@ -39,7 +39,7 @@ Role required: sn\_icw.admin
 
 The functional location is displayed in the list of functional locations for the parent functional location.
 
-**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
+**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
 
 **Related topics**  
 

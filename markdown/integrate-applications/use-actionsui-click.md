@@ -2,7 +2,7 @@
 title: Use the Click component
 description: Simulate the click actions of a mouse device by using the Click component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionsui-click.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-actionsui-click.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: none
 
 The Click component uses the Inter-Process Communication \(IPC\) to send the click events to an application. Use it to click buttons, controls, or anything that typically expects a mouse click.
 
-The properties of the Click component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-actions-ui-components.md).
+The properties of the Click component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-actions-ui-components.md).
 
 ## Procedure
 
@@ -48,7 +48,7 @@ The properties of the Click component are common with other Actions UI component
 
 7.  Add an anchor to the captured image by doing the following actions.
 
-    An anchor is a unique identifier that enables the Click component to identify the content where the mouse device actions are simulated. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Click component treats the whole captured image as an anchor. For more information on anchor, see the steps to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    An anchor is a unique identifier that enables the Click component to identify the content where the mouse device actions are simulated. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Click component treats the whole captured image as an anchor. For more information on anchor, see the steps to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/anchor.md).
 
     1.  In the Click component, right-click the image, and click **Add Anchor**.
 
@@ -91,5 +91,5 @@ The properties of the Click component are common with other Actions UI component
 
 The Click component automates the clicking of the **Home** HTML button on the window. As a result, the user navigates to the home screen or window.
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/actions-ui.md)
 

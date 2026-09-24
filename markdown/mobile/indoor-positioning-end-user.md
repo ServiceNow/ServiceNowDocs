@@ -2,7 +2,7 @@
 title: Indoor positioning
 description: If an admin has configured your mobile app for indoor positioning, you can get guided directions in real time to a resource on your device's Indoor Wayfinding map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/indoor-positioning-end-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/indoor-positioning-end-user.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

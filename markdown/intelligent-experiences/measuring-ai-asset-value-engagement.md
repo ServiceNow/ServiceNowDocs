@@ -2,7 +2,7 @@
 title: Viewing value metrics for an AI system
 description: View productivity gains, net returns, usage volume, and cost metrics so you can assess the business impact of a specific AI system over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/measuring-ai-asset-value-engagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/measuring-ai-asset-value-engagement.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-29"
@@ -33,5 +33,5 @@ The following metrics are displayed on the **Value &amp; engagement** tab.
 
 All metrics reflect data for the date range shown beneath each widget. You can adjust the time period to focus on a specific window of usage. By default, metrics display a rolling 30-day sum.
 
-**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-managing-ai-assets.md)
+**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-managing-ai-assets.md)
 

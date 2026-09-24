@@ -2,7 +2,7 @@
 title: Report a knowledge gap from a case in Agent Workspace for HR Case Management
 description: Report a knowledge gap for a case to get a documented resolution for common HR cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/knowledge-gap-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/knowledge-gap-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

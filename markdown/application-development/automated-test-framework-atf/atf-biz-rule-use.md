@@ -2,7 +2,7 @@
 title: Automated Test Framework use case: test a business rule
 description: This use case illustrates testing a business rule with the Automated Test Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-biz-rule-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-biz-rule-use.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -57,5 +57,5 @@ This example tests a business rule that sets the value of **Locked out** to **tr
     \[Omitted image "atf-use-biz-rule-05.png"\] Alt text: Form for Field Values Validation
 
 
-**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-use-cases.md)
 

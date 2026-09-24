@@ -2,7 +2,7 @@
 title: Activate SLA timeline
 description: You can activate the SLA timeline plugin \(com.snc.sla.timeline\) if you have the admin role. This plugin activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_ActivateSLATimeline.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/t\_ActivateSLATimeline.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -35,10 +35,10 @@ Role required: sla\_admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Script includes installed with SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/r_ScriptIncludesIWithSLATimeline.md)**  
+-   **[Script includes installed with SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/r_ScriptIncludesIWithSLATimeline.md)**  
 When SLA timeline is activated, script includes are installed.
 
-**Parent Topic:**[Service Level Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-plugins.md)
+**Parent Topic:**[Service Level Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/sla-plugins.md)
 
 **Related topics**  
 

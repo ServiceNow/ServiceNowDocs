@@ -2,7 +2,7 @@
 title: Create a blueprint
 description: Create a blueprint to standardize product configurations and reduce setup time. Blueprints define the structure, behavior, and configuration experience for your product models, ensuring consistency across your catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-create-a-new-blueprint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-create-a-new-blueprint.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,7 +53,7 @@ You can now use the blueprint as a template when creating new products. The blue
 **Related topics**  
 
 
-[Export a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-export-a-blueprint.md)
+[Export a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-export-a-blueprint.md)
 
-[Import a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-import-a-blueprint.md)
+[Import a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-import-a-blueprint.md)
 

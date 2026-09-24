@@ -2,7 +2,7 @@
 title: Use the Input component
 description: Set up a user input dialog with by using the Input component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-messagebox-input.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-general-messagebox-input.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: none
 
 The input component is used in the Attended Robot automation.
 
-To configure the properties, see [Properties of Confirm components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
+To configure the properties, see [Properties of Confirm components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/Properties-general-components.md).
 
 ## Procedure
 
@@ -30,7 +30,7 @@ To configure the properties, see [Properties of Confirm components](https://raw.
 
 2.  Drag the Input component to the Design surface.
 
-3.  To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Input component to the corresponding ports of the other component as described in the following table.
 
@@ -42,5 +42,5 @@ To configure the properties, see [Properties of Confirm components](https://raw.
 5.  To test the component, right-click the component bar and click **Run From Here**.
 
 
-**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/general-component.md)
 

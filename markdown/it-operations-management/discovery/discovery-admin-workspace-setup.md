@@ -2,12 +2,12 @@
 title: Discovery Admin Workspace Settings
 description: The Settings page enables you to customize and manage high-level Discovery properties so they’re tailored to meet your specific needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-admin-workspace-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discovery-admin-workspace-setup.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 12
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -76,7 +76,7 @@ The Anomaly Detection settings control how Discovery identifies and surfaces irr
 
 ## IP Address Management \(IPAM\)
 
-The IPAM settings manage how Discovery integrates with your IPAM sources, controlling schedule creation and connection behavior within the workspace. For more information, see [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ipv6-ipam-disco-integration.md).
+The IPAM settings manage how Discovery integrates with your IPAM sources, controlling schedule creation and connection behavior within the workspace. For more information, see [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/ipv6-ipam-disco-integration.md).
 
 **Important:** This feature requires the ServiceNow AI Platform to be running on the Australia release, the Zurich release starting with Patch 8, or the Yokohama release starting with Patch 13. You must also install and configure Service Graph Connector Central \(SGC Central\), starting with v2.4.0, and Service Graph Connector for Infoblox, starting with v1.5.0. For more information, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and [Configure Service Graph Connector for Infoblox using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configure-infoblox-integ.md).
 
@@ -84,7 +84,7 @@ The IPAM settings manage how Discovery integrates with your IPAM sources, contro
 
     Automatically create and manage Discovery schedules based on your IPv6 network infrastructure data stored in IPAM.
 
-    After you install and configure the connectors through SGC Central, use the toggle to enable auto-created schedules. When enabled, Discovery creates schedules from incoming IPAM data and keeps them updated based on your auto‑creation criteria and IP data refresh settings. Schedules created automatically by IPAM are inactive by default. To activate a schedule created by IPAM, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/activate-auto-disco-schedule.md).
+    After you install and configure the connectors through SGC Central, use the toggle to enable auto-created schedules. When enabled, Discovery creates schedules from incoming IPAM data and keeps them updated based on your auto‑creation criteria and IP data refresh settings. Schedules created automatically by IPAM are inactive by default. To activate a schedule created by IPAM, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/activate-auto-disco-schedule.md).
 
     Use the Auto-creation criteria setting to define how Discovery organizes IPs from your IPAM connections into new Discovery schedules. Discovery evaluates the key that you provide, retrieves the corresponding value from your IPAM data by looking it up in the Key Values \[cmdb\_key\_value\] table, where it searches only subnet records. IPs that share values are assigned to the same schedule, enabling the schedule structure to follow meaningful attributes such as location or environment.
 
@@ -106,7 +106,7 @@ The IPAM settings manage how Discovery integrates with your IPAM sources, contro
 
     Enables you to view the IP address information imported from your IPAM solutions and understand how that data is organized for Discovery. This includes lists that show the IPs retrieved through your IPAM connections and how those IPs are mapped to auto-created schedules.
 
-    Select the **IP schedule mapping** link to access the IP inventory page, where you can manage the IP ranges, networks, and IPAM data that Discovery relies on. For more information, see [Discovery Admin Workspace IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-ip-inventory.md).
+    Select the **IP schedule mapping** link to access the IP inventory page, where you can manage the IP ranges, networks, and IPAM data that Discovery relies on. For more information, see [Discovery Admin Workspace IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/daw-ip-inventory.md).
 
     **Note:** This link displays only when auto-created schedules are enabled.
 
@@ -121,7 +121,7 @@ To synchronize your IP data immediately instead of waiting for the next refresh 
 
 Discovery notifications enable administrators to receive real-time alerts or daily summaries of critical Discovery errors and schedule failures through Microsoft Teams and email, directly from the Discovery Admin Workspace.
 
-**Important:** This feature requires the ServiceNow AI Platform to be running on the Australia release, Zurich release, or the Yokohama released starting with Patch 6. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see .
+**Important:** This feature requires the ServiceNow AI Platform to be running on the Australia release, Zurich release, or the Yokohama released starting with Patch 6. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
 
 -   **Notification destinations**
 
@@ -181,7 +181,7 @@ The browser extension must be enabled on the host.
 
     -   Individual: Complete the requiredfields in the Add new URL form and select **Save**.
 
-        **Note:** For a description of the fields in this form, see [URL Discovery insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/url-disco-insights.md).
+        **Note:** For a description of the fields in this form, see [URL Discovery insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/url-disco-insights.md).
 
     -   Bulk: Add multiple URLs at once using a file upload. The bulk upload follows a three-step process:
         1.  Download template: Select a template to download.
@@ -207,7 +207,7 @@ The browser extension must be enabled on the host.
 
 -   **URL Discovery Insights**
 
-    Select the link icon to access the URL Discovery insights dashboard, where you can view captured data and analytics for accessed URLs. For more information, see [URL Discovery insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/url-disco-insights.md).
+    Select the link icon to access the URL Discovery insights dashboard, where you can view captured data and analytics for accessed URLs. For more information, see [URL Discovery insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/url-disco-insights.md).
 
 -   **X devices with ACC agent installed**
 

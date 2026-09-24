@@ -2,7 +2,7 @@
 title: Add or edit a business process activity
 description: Create or edit a business process activity to track a discrete unit of work in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-or-edit-a-business-process-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-or-edit-a-business-process-activity.html
 release: australia
 topic_type: task
 last_updated: "2026-08-03"
@@ -35,17 +35,17 @@ Role required: sn\_apm.apm\_user
     -   To update details of an existing business process activity, select the business process activity, and edit the details in the details page.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create a business process activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-business-process-activity-form.md).
+    For field information, see [Create a business process activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-a-business-process-activity-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-process-activities.md)
+**Parent Topic:**[Manage business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-business-process-activities.md)
 
 **Related topics**  
 
 
-[View all business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-process-activities.md)
+[View all business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-business-process-activities.md)
 
-[Add a business actor to a business process activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-actor-to-business-process-activity.md)
+[Add a business actor to a business process activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-business-actor-to-business-process-activity.md)
 

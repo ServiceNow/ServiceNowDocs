@@ -2,7 +2,7 @@
 title: Scripts installed with Workplace Lease Administration
 description: Scripts installed with Workplace Lease Administration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/scripts-lease-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/scripts-lease-admin.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -21,7 +21,7 @@ Scripts installed with Workplace Lease Administration.
 |WSDLeaseTrackingNotificationUtils|Handles notifications for the lease administration implementation class.|
 |WSDLeaseTrackingNotificationUtilsSNC|Handles notifications in lease administration.|
 
-**Parent Topic:**[Workplace Lease Administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/workplace-lease-references.md)
+**Parent Topic:**[Workplace Lease Administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/workplace-lease-references.md)
 
 **Related topics**  
 

@@ -2,10 +2,10 @@
 title: Combined Recruitment workspace release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Recruitment workspace from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-recruitmentworkspace-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-recruitmentworkspace-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,16 @@ Zurich
 
 </td><td>
 
--   **[Create job requisitions](https://www.servicenow.com/docs/access?context=request-job-hiring&family=zurich&ft:locale=en-US)**
+-   **[Substitute interviewer](https://www.servicenow.com/docs/access?context=manage-interviews-recruiter&family=zurich&ft:locale=en-US)**
+
+Substitute an interviewer for any interview on a job where you're part of the hiring team, from Recruitment workspace. You don't need to reschedule the interview or update invites.
+
+-   **[List view in Recruitment workspace](https://www.servicenow.com/docs/access?context=list-view-recruit-workspace&family=zurich&ft:locale=en-US)**
+
+Monitor interview health from the Needs attention list view in Recruitment workspace.
+
+
+ -   **[Create job requisitions](https://www.servicenow.com/docs/access?context=request-job-hiring&family=zurich&ft:locale=en-US)**
 
 Create a job requisition for a vacancy that you want to fill in your organization.
 
@@ -240,6 +249,8 @@ Zurich
 Install Recruiter Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Recruitment workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -250,6 +261,8 @@ Australia
 
 Install Recruitment workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Recruitment workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -421,5 +434,5 @@ Australia
  See [Recruitment Workspace](https://www.servicenow.com/docs/access?context=recruitment-workspace-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

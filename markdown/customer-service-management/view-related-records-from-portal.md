@@ -2,7 +2,7 @@
 title: View case records from the Customer and Consumer Service Portals
 description: View case records such as requests, changes, or problems, from the Customer or Consumer Service Portals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-related-records-from-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-related-records-from-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,5 +40,5 @@ If a case has one or more related records, a Related Records widget is displayed
 **Related topics**  
 
 
-[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
 

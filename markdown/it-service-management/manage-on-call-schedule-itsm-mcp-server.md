@@ -2,7 +2,7 @@
 title: Manage on-call schedule using the ITSM MCP Server
 description: Use the ITSM MCP Server to find out who is on call, check your next on-call shift, and request time off. Manage your on-call schedule through an MCP client application such as Moveworks or Claude.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/manage-on-call-schedule-itsm-mcp-server.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/manage-on-call-schedule-itsm-mcp-server.html
 release: australia
 topic_type: task
 last_updated: "2026-07-29"
@@ -19,11 +19,11 @@ Use the ITSM MCP Server to find out who is on call, check your next on-call shif
 
 Role required: itil, roster\_admin, rota\_admin, rota\_manager, or oc\_read.
 
-**Note:** These are the out-of-box roles. An administrator can configure additional roles using the `com.snc.on_call_rotation.calendar_read_roles` system property. For more information, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
+**Note:** These are the out-of-box roles. An administrator can configure additional roles using the `com.snc.on_call_rotation.calendar_read_roles` system property. For more information, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/on-call-properties.md).
 
 ## About this task
 
-For detailed information on each tool, supported operations, and operation-specific parameters, see [ITSM MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mcp-server-tools-reference.md).
+For detailed information on each tool, supported operations, and operation-specific parameters, see [ITSM MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mcp-server-tools-reference.md).
 
 ## Procedure
 

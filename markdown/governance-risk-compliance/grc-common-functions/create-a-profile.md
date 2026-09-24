@@ -2,7 +2,7 @@
 title: Create independent entities
 description: Entities can be created manually, rather than generating them from the entity types. Entities can also be created without needing to refer to an existing ServiceNow table, like assets, applications, business services, or processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-a-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/create-a-profile.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -219,5 +219,5 @@ The corresponding score for the calculated ALE:-   Low
 8.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Entity scoping in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/c_Scoping.md)
+**Parent Topic:**[Entity scoping in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/c_Scoping.md)
 

@@ -2,7 +2,7 @@
 title: AI in RPA Hub
 description: Use ServiceNow Otto for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and AI generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-now-assist-rpa-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/explore-now-assist-rpa-hub.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ Both new and experienced users can develop and build faster automation by using 
 
 The RPA bot generation skill helps users to build an automation that is based on text input. Access the RPA bot generation skill from the RPA Desktop Design Studio user interface.
 
-For more information, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md).
+For more information, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-bot-generation.md).
 
 ## How to use the RPA bot generation skill
 
@@ -37,7 +37,7 @@ By using the RPA bot generation skill, your users can perform the following task
 
 -   **Create an automation with AI**
 
-    Create an automation from text instructions and preview the options from the RPA Desktop Design Studio user interface. First, your user selects the **Create automation** option and then selects the **Build with AI** option to get started. For more information, see [Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md).
+    Create an automation from text instructions and preview the options from the RPA Desktop Design Studio user interface. First, your user selects the **Create automation** option and then selects the **Build with AI** option to get started. For more information, see [Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-automation-now-assist.md).
 
     The following example shows how an automation is created with AI in the RPA Desktop Design Studio user interface.
 
@@ -45,7 +45,7 @@ By using the RPA bot generation skill, your users can perform the following task
 
 -   **Create an activity with AI**
 
-    Create an activity from the text instructions and preview options. For more information, see [Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md).
+    Create an activity from the text instructions and preview options. For more information, see [Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-activity-now-assist.md).
 
     The following example shows how an activity is created with AI in the RPA Desktop Design Studio user interface.
 
@@ -53,7 +53,7 @@ By using the RPA bot generation skill, your users can perform the following task
 
 -   **Extend automation logic with AI**
 
-    Enhance an automation logic by using text instructions with the **Build automation** option, either from an empty activity or by selecting a component in an existing activity. For more information, see [Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md).
+    Enhance an automation logic by using text instructions with the **Build automation** option, either from an empty activity or by selecting a component in an existing activity. For more information, see [Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/build-automation-now-assist.md).
 
     The following example shows an automation logic that is built with AI from an empty activity on the design surface in the RPA Desktop Design Studio user interface.
 
@@ -101,17 +101,17 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 **Related topics**  
 
 
-[Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md)
+[Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-bot-generation.md)
 
-[Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md)
+[Install ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-now-assist-rpa-hub.md)
 
-[Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md)
+[Create an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-automation-now-assist.md)
 
-[Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md)
+[Build an automation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/build-automation-now-assist.md)
 
-[Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-activity-now-assist.md)
+[Create an activity with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-activity-now-assist.md)
 
-[Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/limitations-rpa-bot-gen-skill.md)
+[Limitations of ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/limitations-rpa-bot-gen-skill.md)
 
-[Example instructions for ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/example-instructions-rpa.md)
+[Example instructions for ServiceNow Otto for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/example-instructions-rpa.md)
 

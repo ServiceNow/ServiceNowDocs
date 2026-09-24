@@ -2,7 +2,7 @@
 title: Estimated time to resolve HR cases
 description: Determine the Estimated Time to Resolve a Case \(ETTR\) for a case by analyzing similar closed cases in the past for better visibility and transparency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/train-model-ettr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/train-model-ettr.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -18,7 +18,7 @@ Determine the Estimated Time to Resolve a Case \(ETTR\) for a case by analyzing 
 
 **Note:** Support for creating new regression solutions was deprecated in the Washington DC release. You can train and edit any existing solutions, but you can't initiate new ones. The following information is provided for legacy context. For more information see [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-regression-solution.md).
 
-Machine learning predicts the estimated time to resolve a case \(ETTR\) based on attributes of a case such as its short description, category, priority, and so on. For more information about configuring the machine learning regression solution definition for ETTR, see [HR PIWB template: Recommend estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-ettr.md)
+Machine learning predicts the estimated time to resolve a case \(ETTR\) based on attributes of a case such as its short description, category, priority, and so on. For more information about configuring the machine learning regression solution definition for ETTR, see [HR PIWB template: Recommend estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-piwb-ettr.md)
 
 To make predictions, you can use the existing ETTR solution definition or change some of the default settings such as the fields, a filter, and the training frequency.
 
@@ -37,7 +37,7 @@ On configuring Estimated HR Case Resolution Time \(ml\_sn\_sn\_hr\_core\_global\
 -   Platform view with a list of cases
 -   Case configuration view for admins
 
-For more information, see [Viewing ETTR predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-regression-solution-hr.md)
+For more information, see [Viewing ETTR predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-regression-solution-hr.md)
 
 ## ETTR predictive model
 
@@ -69,10 +69,10 @@ Regression solutions such as ETTR enable you to predict a point estimate and pre
 -   **Min ETTR**: Indicates the minimum estimated resolution time in days for case completion. Estimate is based on the time taken for resolving similar HR cases.
 -   **ETTR in days**: Stores the point estimated resolution time in days for case completion.
 
-**Parent Topic:**[HR PIWB template: Recommend estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-ettr.md)
+**Parent Topic:**[HR PIWB template: Recommend estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-piwb-ettr.md)
 
 **Related topics**  
 
 
-[Viewing ETTR predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-regression-solution-hr.md)
+[Viewing ETTR predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-regression-solution-hr.md)
 

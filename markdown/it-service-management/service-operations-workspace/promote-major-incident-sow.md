@@ -2,7 +2,7 @@
 title: Promote a major incident
 description: Review the information of the proposed major incident candidate and promote it to major incident using the Major Incident Playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/promote-major-incident-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/promote-major-incident-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -18,7 +18,7 @@ Review the information of the proposed major incident candidate and promote it t
 
 ## Before you begin
 
-You must propose the incident as a major incident candidate. For more information, see [Propose a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/propose-major-incident-sow.md).
+You must propose the incident as a major incident candidate. For more information, see [Propose a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/propose-major-incident-sow.md).
 
 Role required: major\_incident\_manager or admin
 
@@ -54,5 +54,5 @@ Role required: major\_incident\_manager or admin
     **Note:** You can also promote a major incident by selecting the **More actions** \(\[Omitted image "mim-more-actions-top-icon.png"\] Alt text: More action icon from the top menu\) icon and then selecting **Promote to Major Incident**.
 
 
-**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
+**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
 

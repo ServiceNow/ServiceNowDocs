@@ -2,7 +2,7 @@
 title: Define communication plans, tasks, and recipients
 description: Define the communication plan, tasks, and recipients that help the agent create a communication task to send out mass notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/define-communication-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/define-communication-plan.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Communication plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/communication-plan-form.md).
+    For more information, see [Communication plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/communication-plan-form.md).
 
 4.  Select **Submit**.
 

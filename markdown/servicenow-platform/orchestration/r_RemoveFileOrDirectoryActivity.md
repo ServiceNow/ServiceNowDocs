@@ -2,7 +2,7 @@
 title: Remove File or Directory activity
 description: The Remove File or Directory activity removes a file or a directory on an SFTP server, including subdirectories, when configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_RemoveFileOrDirectoryActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/orchestration/r\_RemoveFileOrDirectoryActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -43,7 +43,7 @@ errorMessage
 
 </td><td>
 
-The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.
+The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.
 
 </td></tr><tr><td>
 
@@ -71,5 +71,5 @@ The **deletionResults** array contains these attributes:-   **fullPath**: Full p
 |Success|The activity succeeded in removing the file or directory specified.|
 |Failure|The activity failed to remove the file or directory specified.|
 
-**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md)
 

@@ -2,7 +2,7 @@
 title: Table properties in Table Builder
 description: Various table and table column properties can be modified by using Table Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/table-parameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/form-builder-glide-family-release/table-parameters.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -149,5 +149,5 @@ Application access controls
 2.  In the **Application Access Controls** field, select Read, Create, Update, and/or Delete selection boxes to specify the desired level of access for the table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Table Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-reference.md)
+</table>**Parent Topic:**[Table Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/fb-reference.md)
 

@@ -2,7 +2,7 @@
 title: FX Currency values in reporting
 description: Manage projects in multiple currencies with FX \(Foreign Exchange\) Currency. You can report on the projects in currency values entered by the user, a reference currency, or both.When you report on FX Currency fields, there are certain limitations that may generate errors. These errors are associated with aggregation.When you report on FX Currency tables, some combinations of group and aggregation type are not possible to calculate. These combinations return the message 'Cannot generate the report. There are mismatched currency codes. Change your aggregation source or filter conditions.'
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/fx-currency-values-reporting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/fx-currency-values-reporting.html
 release: australia
 product: Reporting
 classification: reporting
@@ -33,14 +33,14 @@ When you aggregate by **Average** or **Sum** on an FX currency field, you choose
 
     Calculate values based on currency values entered by the user.
 
-    **Note:** If you select this option, you may experience situations where amounts entered in different currencies can't be properly aggregated. For example, if there are currency amounts in US Dollars, Yen, and Euros. It is only possible to aggregate values on one currency at a time. If you aggregate records in different currencies, this error displays: 'Cannot generate the report. There are mismatched currency codes.' See [Mismatched currency example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/fx-currency-values-reporting.md).
+    **Note:** If you select this option, you may experience situations where amounts entered in different currencies can't be properly aggregated. For example, if there are currency amounts in US Dollars, Yen, and Euros. It is only possible to aggregate values on one currency at a time. If you aggregate records in different currencies, this error displays: 'Cannot generate the report. There are mismatched currency codes.' See [Mismatched currency example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/fx-currency-values-reporting.md).
 
 -   **Reference values**
 
     Calculates the values based on the reference currency.
 
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Report on FX currency fields
 
@@ -60,7 +60,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 3.  On the **Type** tab, choose the visualization type that you want to use.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 4.  On the **Configure** tab, choose how you want to group, stack, and aggregate the report.
 

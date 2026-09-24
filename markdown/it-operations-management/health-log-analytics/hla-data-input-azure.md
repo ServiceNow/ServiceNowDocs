@@ -2,7 +2,7 @@
 title: Configure a Microsoft Azure Log Analytics data input in Health Log Analytics manually
 description: Set up a data input for streaming log data from Microsoft Azure Log Analytics to your ServiceNow instance. The data input points the Health Log Analytics AI engine to a data source in your Microsoft Azure Log Analytics account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-azure.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -37,11 +37,11 @@ Role required: evt\_mgmt\_admin
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [Microsoft Azure Log Analytics data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-azure-ref.md).
+    For a description of the fields, see [Microsoft Azure Log Analytics data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-azure-ref.md).
 
 5.  Select **Advanced** to set additional configuration fields.
 
-    For a description of the fields, see [Microsoft Azure Log Analytics data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-azure-ref.md). For information about configuring the advanced settings later, see [Configure advanced settings for Microsoft Azure Log Analytics data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-azure-la.md).
+    For a description of the fields, see [Microsoft Azure Log Analytics data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-azure-ref.md). For information about configuring the advanced settings later, see [Configure advanced settings for Microsoft Azure Log Analytics data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-adv-azure-la.md).
 
 6.  On the **Query settings** tab, fill in the fields.
 
@@ -61,11 +61,11 @@ Role required: evt\_mgmt\_admin
     -   `["TimeGenerated", "LogEntry", "LogEntrySource"]`: The event time and the comma-separated list of column names to return.
     Alternatively, you can configure a custom query in the **Log query** field. The value you set in this field overrides the values in all other fields on the **Query settings** tab except the **From** field. If the **Log query** field is empty, Health Log Analytics generates the query using the values set in the other fields on the tab.
 
-    For a description of the **Query settings** fields, see [Microsoft Azure Log Analytics data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-azure-ref.md).
+    For a description of the **Query settings** fields, see [Microsoft Azure Log Analytics data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-azure-ref.md).
 
 7.  On the **Transport** tab, fill in the fields.
 
-    For a description of the fields, see [Microsoft Azure Log Analytics data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-azure-ref.md).
+    For a description of the fields, see [Microsoft Azure Log Analytics data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-azure-ref.md).
 
 8.  Select **Save**.
 
@@ -95,12 +95,12 @@ The data input configuration process is complete. Health Log Analytics adds the 
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
+[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 
 **Related topics**  
 
 
-[Configure advanced settings for Microsoft Azure Log Analytics data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-azure-la.md)
+[Configure advanced settings for Microsoft Azure Log Analytics data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-adv-azure-la.md)
 

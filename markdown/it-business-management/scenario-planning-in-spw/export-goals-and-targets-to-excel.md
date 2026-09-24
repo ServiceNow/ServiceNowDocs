@@ -2,7 +2,7 @@
 title: Export goals and targets data to Excel or CSV
 description: Export the data of goals and targets from your portfolio plan into a Microsoft Excel or CSV file. You can share this data and collaborate with your business stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/export-goals-and-targets-to-excel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/export-goals-and-targets-to-excel.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

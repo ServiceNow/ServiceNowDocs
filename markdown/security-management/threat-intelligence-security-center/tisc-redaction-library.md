@@ -2,7 +2,7 @@
 title: Working on the Redaction Library
 description: Redaction is the process of replacing sensitive information from shared data to protect confidentiality during intelligence sharing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-redaction-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-redaction-library.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -115,10 +115,10 @@ This property enables or disables case sensitivity when applying redaction to sh
 </table>11. Select **Save**.
 
 
--   **[Bulk Import of Redaction Categories and Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-bulk-import-redaction.md)**  
+-   **[Bulk Import of Redaction Categories and Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-bulk-import-redaction.md)**  
 Import redaction categories. Bulk importing of redaction categories and their associated values.
 
-**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
+**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
 
 **Related topics**  
 

@@ -2,10 +2,10 @@
 title: Create and configure a partition
 description: Create a partition to control record visibility for users within a specific function, such as a department or business unit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/create-partition-ewd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/create-partition-ewd.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -107,7 +107,7 @@ Condition that determines which records belong to this partition. Use the **Fiel
 
 ## What to do next
 
-Assign the partition role to the relevant users or groups so they can access records within this partition. For details, see [Assign partition role for access to the partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-partition-role-ewd.md).
+Assign the partition role to the relevant users or groups so they can access records within this partition. For details, see [Assign partition role for access to the partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/assign-partition-role-ewd.md).
 
-**Note:** If your instance has existing records to associate with the new partition, run the partition backfill job. For details, see [Update partition details for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/update-partition-details-for-existing-records.md).
+**Note:** If your instance has existing records to associate with the new partition, run the partition backfill job. For details, see [Update partition details for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/update-partition-details-for-existing-records.md).
 

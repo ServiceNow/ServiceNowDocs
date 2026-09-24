@@ -2,7 +2,7 @@
 title: Adjust a component to meet accessibility standards
 description: Adjust a component to meet the Web Content Accessibility Guidelines \(WCAG\) 2.1. When you're editing a component in Theme Builder and see a warning symbol, that indicates that the component doesn't conform with the guidelines for color contrast.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-adjust-component-wcag.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-adjust-component-wcag.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

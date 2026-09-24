@@ -2,7 +2,7 @@
 title: Link a stop word dictionary to a search profile
 description: Link an existing stop word dictionary to one or more search profiles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/link-stop-word-dict-profile-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/link-stop-word-dict-profile-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -40,7 +40,7 @@ You can link a single stop word dictionary to multiple search profiles. You can 
 
     3.  Select **Submit**.
 
-    For a description of the field values, see [Search Profile - Dictionary Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-prof-dict-mapping-form-ais.md).
+    For a description of the field values, see [Search Profile - Dictionary Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/search-prof-dict-mapping-form-ais.md).
 
 
 ## Result
@@ -49,7 +49,7 @@ The selected stop word dictionary appears in the search profile's Stop Words rel
 
 ## What to do next
 
-To make the new stop word dictionary linking take effect, publish the search profile. For more information on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
+To make the new stop word dictionary linking take effect, publish the search profile. For more information on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)
+**Parent Topic:**[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/stop-words-ais.md)
 

@@ -2,7 +2,7 @@
 title: View all architectural documents
 description: View all architectural documents that are automatically generated from the diagrams page and the documents that are manually created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/view-architectural-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/view-architectural-documents.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,20 +29,20 @@ Role required: sn\_apm.apm\_user
 4.  Select **Architectural Documents**.
 
 
-**Parent Topic:**[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-arch-documents.md)
+**Parent Topic:**[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/manage-arch-documents.md)
 
 **Related topics**  
 
 
-[Create an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-architectural-document.md)
+[Create an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/create-architectural-document.md)
 
-[Generate a document from a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-documents-for-diagrams.md)
+[Generate a document from a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/create-documents-for-diagrams.md)
 
-[Add a related entity to an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-related-entity-arch-doc.md)
+[Add a related entity to an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/add-related-entity-arch-doc.md)
 
-[Manage artifact content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-artifact-content.md)
+[Manage artifact content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/manage-artifact-content.md)
 
-[Delete an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/delete-architectural-document.md)
+[Delete an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/delete-architectural-document.md)
 
-[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/document-templates-for-ea.md)
+[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/document-templates-for-ea.md)
 

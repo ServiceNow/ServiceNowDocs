@@ -2,7 +2,7 @@
 title: Install Workplace Connectors
 description: Install the Workplace Connectors application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/install-workplace-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-connectors/install-workplace-connectors.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
@@ -63,9 +63,9 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
+**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
+**Previous topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Next topic:**[Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/providers-occupancy.md)
+**Next topic:**[Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/providers-occupancy.md)
 

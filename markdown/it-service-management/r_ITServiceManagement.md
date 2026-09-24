@@ -2,7 +2,7 @@
 title: IT Service Management
 description: Manage and resolve IT service requests, incidents, problems, and changes with ServiceNow IT Service Management \(ITSM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/r\_ITServiceManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/r\_ITServiceManagement.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-01"
@@ -17,7 +17,7 @@ Manage and resolve IT service requests, incidents, problems, and changes with Se
 
 ITSM increases agent productivity and accelerates issue resolution. With platform-native AI, agents get recommended actions on incoming requests, and employees can resolve common issues through conversational self-service. The ServiceNow AI Platform also gives users access to ITSM through mobile and web portal interfaces.
 
-To explore ITSM applications, see [IT Service Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-apps-overview.md).
+To explore ITSM applications, see [IT Service Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-apps-overview.md).
 
 \[Omitted image "itsm-digi-trans.png"\] Alt text: ITSM is the foundation of digital transformation
 
@@ -27,27 +27,27 @@ The ServiceNow AI Platform is built for the cloud with a shared data model, AI, 
 
 <table id="table_g42_jt4_kyb" class="nav-card"><tbody><tr><td>
 
-[Explore ITSM products \[Omitted image "landing-explore-apps.png"\] Alt text: Explore all IT Service Management products and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/exploring-itsm.md)
+[Explore ITSM products \[Omitted image "landing-explore-apps.png"\] Alt text: Explore all IT Service Management products and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/exploring-itsm.md)
 
 </td><td>
 
-[Now Assist for ITSM \[Omitted image "landing-elevate-experience.png"\] Alt text: Handle common requests automatically using virtual agents. Reduce ticket volume and deliver consistent service experiences through conversational self-service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/exploring-itsm.md)
+[Now Assist for ITSM \[Omitted image "landing-elevate-experience.png"\] Alt text: Handle common requests automatically using virtual agents. Reduce ticket volume and deliver consistent service experiences through conversational self-service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/exploring-itsm.md)
 
 </td><td>
 
-[Automate and enhance IT services \[Omitted image "landing-elevate-experience.png"\] Alt text: Handle common requests automatically using virtual agents. Reduce ticket volume and deliver consistent service experiences through conversational self-service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/exploring-itsm.md)
+[Automate and enhance IT services \[Omitted image "landing-elevate-experience.png"\] Alt text: Handle common requests automatically using virtual agents. Reduce ticket volume and deliver consistent service experiences through conversational self-service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/exploring-itsm.md)
 
 </td></tr><tr><td>
 
-[Consolidate IT services \[Omitted image "landing-consolidate-services.png"\] Alt text: Replace multiple tools with a single cloud platform. Manage resources, track performance, and deliver consistent service experiences from one system.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/exploring-itsm.md)
+[Consolidate IT services \[Omitted image "landing-consolidate-services.png"\] Alt text: Replace multiple tools with a single cloud platform. Manage resources, track performance, and deliver consistent service experiences from one system.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/exploring-itsm.md)
 
 </td><td>
 
-[Improve IT productivity with AI-powered solutions\[Omitted image "landing-productivity.png"\] Alt text:Automate routine tasks with AI. Resolve incidents faster, reduce manual triage, and give agents more time for complex work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/exploring-itsm.md)
+[Improve IT productivity with AI-powered solutions\[Omitted image "landing-productivity.png"\] Alt text:Automate routine tasks with AI. Resolve incidents faster, reduce manual triage, and give agents more time for complex work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/exploring-itsm.md)
 
 </td><td>
 
-[Gain visibility into processes and services\[Omitted image "landing-new-heights.png"\] Alt text:Monitor IT performance in real time with built-in dashboards and analytics. Identify trends, anticipate issues, and make informed decisions across your IT services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/exploring-itsm.md)
+[Gain visibility into processes and services\[Omitted image "landing-new-heights.png"\] Alt text:Monitor IT performance in real time with built-in dashboards and analytics. Identify trends, anticipate issues, and make informed decisions across your IT services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/exploring-itsm.md)
 
 </td></tr></tbody>
 </table><table id="table_ygd_vvh_sjc"><thead><tr><th>
@@ -65,7 +65,7 @@ Get help
 </th></tr></thead><tbody><tr><td>
 
 -   Explore ITSM packages on the [ServiceNow Products website](https://www.servicenow.com/products/itsm.html).
--   Browse the list of [ITSM products and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-apps-overview.md)
+-   Browse the list of [ITSM products and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-apps-overview.md)
 -   Build skills with an ITSM course on ServiceNow University.
 
 </td><td>

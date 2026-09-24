@@ -2,7 +2,7 @@
 title: Disable live agent support for a channel
 description: Add the disable\_live\_agent property to the Channel Properties related list to exclude it from live agent support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/disable-live-agent-support-channel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/disable-live-agent-support-channel.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -52,5 +52,5 @@ The **disable\_live\_agent** parameter displays in the Channel Properties relate
 
 \[Omitted image "disable-live-agent-channel-param.png"\] Alt text: Alexa messaging channel record page, with disable\_live\_agent parameter highlighted.
 
-**Parent Topic:**[Channels in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-channels-overview.md)
+**Parent Topic:**[Channels in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-channels-overview.md)
 

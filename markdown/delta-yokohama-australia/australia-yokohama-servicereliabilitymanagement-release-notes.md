@@ -2,11 +2,11 @@
 title: Combined Service Reliability Management release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Service Reliability Management from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicereliabilitymanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicereliabilitymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 6
+last_updated: "2026-09-24"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -88,19 +88,65 @@ Starting in version 6.4, use the Service reliability dashboard to monitor and ma
 Starting in version 6.4, customize team governance with more flexibility and less manual effort. You can assign different approval teams for new and existing team requests. The customization options are also fully available in the Service Operations Workspace Admin Center and no longer require manual setup in the Catalog Builder.
 
 
+ -   **[Stay connected and keep services reliable with ITOM Mobile Agent](https://www.servicenow.com/docs/access?context=itom-mobile-landing&family=yokohama&ft:locale=en-US)**
+
+Starting in version 6.3, use ITOM Mobile Agent to access SRM features on iOS and Android devices. With ITOM Mobile Agent, you can track alerts, manage incidents, and work on tasks on the go. You can also manage on-call schedules by checking shifts, requesting time off, and filling gaps.
+
+-   **[Create SLIs on configuration items](https://www.servicenow.com/docs/access?context=sr-create-slo-sli&family=yokohama&ft:locale=en-US)**
+
+Starting in version 6.3, filter an SLI to a specific configuration item within the parent service hierarchy. This feature lets you monitor the individual components of a service, helping you accurately track service health and identify root causes faster.
+
+
+ -   **[Enhance monitoring for distributed teams with Express List](https://www.servicenow.com/docs/access?context=express-list&family=yokohama&ft:locale=en-US)**
+
+Improve monitoring with Express List. Express List replaces the **Alerts** tab and helps distributed SRM teams focus on the services, priorities, or alerts that matter to them.
+
+-   **[Track SLO update history](https://www.servicenow.com/docs/access?context=sr-edit-sli-slo&family=yokohama&ft:locale=en-US)**
+
+View and track SLO update history with new naming conventions. Edited SLOs now receive unique names, such as Uptime \(1\) or Uptime \(2\), instead of keeping their original names. This update improves clarity and helps you distinguish between versions.
+
+-   **[Add SLOs to change approval policies](https://www.servicenow.com/docs/access?context=sr-add-change-approval-slos&family=yokohama&ft:locale=en-US)**
+
+Define change approval policies to approve updates or modifications in your system. You can now add the following policy inputs, helping you integrate critical information into the approval process:
+
+    -   SLO with the lowest percentage of error budget remaining
+    -   SLO with the highest burn rate
+-   **[Assign teams to TSOs](https://www.servicenow.com/docs/access?context=sr-add-service&family=yokohama&ft:locale=en-US)**
+
+Manage your services effectively by assigning teams to TSOs. TSOs, which are specific components within a parent technical service, can now be used in the SRM service list. Assigning SRM teams to TSOs helps decentralized teams focus on the services they’re responsible for.
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Remove a service](https://www.servicenow.com/docs/access?context=sr-remove-service&family=zurich&ft:locale=en-US)**
+-   **[Auto-generate SLOs for SRM services](https://www.servicenow.com/docs/access?context=now-assist-itom-manage-generated-slos&family=zurich&ft:locale=en-US)**
+
+Use the SLO creator agent to generate SLOs for your SRM services. This capability is available with the ServiceNow Otto for ITOM plugin. The agent analyzes incidents, alerts, and outage events to automatically create SLOs, helping teams adopt SLOs faster and track service reliability.
+
+
+ -   **[Remove a service](https://www.servicenow.com/docs/access?context=sr-remove-service&family=zurich&ft:locale=en-US)**
 
 Starting in version 6.5.0, remove a service from SRM when you no longer need to track or monitor its reliability. Removing a service clears it from SRM views, including the Service page and Service reliability dashboard. The service remains in the Configuration Management Database \(CMDB\), and you can add it back to SRM at any time.
 
 -   **[Create outage-based SLIs](https://www.servicenow.com/docs/access?context=sr-create-slo-sli&family=zurich&ft:locale=en-US)**
 
 Starting in version 6.5.0, add outage-based SLIs to track real downtime and customer impact. Use them with existing alert-based SLIs for a broader view of reliability. The flow for creating service level objectives \(SLOs\), SLIs, and error budget policies is also improved to simplify setup.
+
+
+ -   **[Keep teams informed with notification destinations](https://www.servicenow.com/docs/access?context=create-notification-destination&family=zurich&ft:locale=en-US)**
+
+Send notifications about error budget policy violations to notification destinations. The first supported destination is Microsoft Teams, which lets you post details in specific channels and link back to SRM for further investigation.
+
+-   **[Monitor service reliability in a dashboard](https://www.servicenow.com/docs/access?context=sr-service-dashboard-visualizations&family=zurich&ft:locale=en-US)**
+
+Use the Service reliability dashboard to monitor and manage service performance. The dashboard offers multiple visualizations to help you track error budgets, monitor SLOs, and identify issues across your services. Starting in version 6.4.1, monitor reliability using interactive charts and a new service level objective \(SLO\) table in the Service reliability dashboard.
+
+-   **[Customize team approval settings](https://www.servicenow.com/docs/access?context=sr-add-approval-teams&family=zurich&ft:locale=en-US)**
+
+Customize team governance with more flexibility and less manual effort. You can assign different approval teams for new and existing team requests. The customization options are also fully available in the Service Operations Workspace Admin Center and no longer require manual setup in the Catalog Builder.
 
 
 </td></tr><tr><td>
@@ -141,13 +187,29 @@ Starting in version 6.3, the service import flow includes the following updates:
     -   Services owned by others are selectable options in the UI.
     -   Service suggestions appear in the search box, reducing the need to remember exact service names.
 
+ -   **[Express List](https://www.servicenow.com/docs/access?context=express-list&family=yokohama&ft:locale=en-US)**
+
+The Express List icon \(\[Omitted image "image.express-list1"\] Alt text: Express List icon\) is now in the navigation pane.
+
+-   **[Integrations Launchpad](https://www.servicenow.com/docs/access?context=integrations-launchpad&family=yokohama&ft:locale=en-US)**
+
+The Integrations Launchpad icon \(\[Omitted image "image.integrations-launchpad"\] Alt text: Integrations Launchpad icon\) is now in the navigation pane.
+
+**Note:** Starting in version 6.3, the custom Integrations Launchpad in SRM was replaced with the official Service Operations Workspace version. This change promotes consistency across applications and gives you immediate access to the latest SOW updates.
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Microsoft Teams notification update](https://www.servicenow.com/docs/access?context=srm-notifications-messages&family=zurich&ft:locale=en-US)**
+-   **[Work notes for SLOs](https://www.servicenow.com/docs/access?context=sr-view-slo&family=zurich&ft:locale=en-US)**
+
+In version 6.6.1, SLOs include work notes on the Details tab. Posted work notes are visible in the Activity panel, providing a unified view of both manual and automated SLO changes.
+
+
+ -   **[Microsoft Teams notification update](https://www.servicenow.com/docs/access?context=srm-notifications-messages&family=zurich&ft:locale=en-US)**
 
 In version 6.5.0, the error budget policy violation notification in Microsoft Teams now includes a button instead of a text link. The new button makes it easier to open the relevant SLO directly in SRM.
 
@@ -166,6 +228,11 @@ In version 6.5.0, the icons for Integrations Launchpad and Alert Automation have
 -   **[Updated Service reliability dashboard](https://www.servicenow.com/docs/access?context=sr-service-dashboard-visualizations&family=zurich&ft:locale=en-US)**
 
 In version 6.5.0, the High burn rate chart now links to a chart view instead of a list view. The new link helps you better visualize and explore SLO performance.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -274,6 +341,8 @@ Yokohama
 Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** SRM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -284,6 +353,8 @@ Zurich
 
 Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** SRM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -495,5 +566,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

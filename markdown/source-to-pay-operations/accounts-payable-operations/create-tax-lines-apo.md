@@ -2,7 +2,7 @@
 title: Tax lines
 description: Field descriptions for the Tax lines tab on an invoice line, including tax types, rates, and amounts associated with the invoice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-tax-lines-apo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-tax-lines-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -33,14 +33,14 @@ The following table displays the fields in the tax lines tab.
 |Invoice line|Invoice line for which the tax is applicable.|
 |Invoice|Invoice for which this tax is applicable.|
 
--   **[Invoice Tax lines fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-lines.md)**  
+-   **[Invoice Tax lines fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/tax-lines.md)**  
 Field descriptions for the Invoice Tax Lines tab used to record tax details for invoice lines.
--   **[Tax status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-status.md)**  
+-   **[Tax status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/tax-status.md)**  
 The tax status field in the invoice record is used to track the current status of tax validation processing throughout the tax integration workflow.
--   **[Tax integration field map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-integration-field-map-fields.md)**  
+-   **[Tax integration field map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/tax-integration-field-map-fields.md)**  
 Field descriptions for the Tax integration field mappings \[sn\_spend\_intg\_tax\_field\_map\] table, which defines the outbound and inbound mappings that transform invoice data between APO and a tax engine.
 
-**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Modify the query or lane field for an existing Visual Task Board
 description: For flexible and guided Visual Task Boards, you can edit the board query or lane field. This ability enables you to change the board contents while preserving the member list, board configuration settings, and, if applicable, Connect Chat conversation history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ModifyQueryForExistingBoard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_ModifyQueryForExistingBoard.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -64,5 +64,5 @@ Guided boards have the **Vertical Lane Field** set to a field, such as **State**
 </table>    The board reloads to reflect the changes.
 
 
-**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
+**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 

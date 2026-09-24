@@ -2,7 +2,7 @@
 title: Preview email notifications
 description: You can preview what notifications look like before you actually enable the instance to send them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_PreviewingNotifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_PreviewingNotifications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -103,5 +103,5 @@ The content of the notification as defined by the template. The **Subject** and 
 6.  Make the necessary changes to the notification or template, if necessary.
 
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_CreateANotification.md)
 

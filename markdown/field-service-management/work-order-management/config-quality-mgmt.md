@@ -2,7 +2,7 @@
 title: Configuring Field Service Quality Management
 description: Field Service Quality Management allows organizations to review work order tasks. It introduces the "Reviewer" role, who can review tasks and provide feedback. Reviewers can close tasks or send tasks back to agents when more information is needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/config-quality-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/config-quality-mgmt.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -19,9 +19,9 @@ Field Service Quality Management allows organizations to review work order tasks
 **Related topics**  
 
 
-[Review a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/review-send-task-back.md)
+[Review a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/review-send-task-back.md)
 
-[Respond to a reviewed work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md)
+[Respond to a reviewed work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/close-wo-wot-mobile.md)
 
-[Field Service Quality Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/quality-mgmt-components.md)
+[Field Service Quality Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/quality-mgmt-components.md)
 

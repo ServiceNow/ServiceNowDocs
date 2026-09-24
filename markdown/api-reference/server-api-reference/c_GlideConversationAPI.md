@@ -2,7 +2,7 @@
 title: GlideConversation - Global
 description: The GlideConversation API provides methods to access information in a Connect message.The conversation's description.The sysID of the document associated with the conversation.The name of the conversation.The queue entry associated with the conversation.The sys\_id of the conversation.The name of the table containing the record being discussed.The conversation type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideConversationAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_GlideConversationAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -24,7 +24,7 @@ Access GlideConversation properties through a global object \(conversation\) tha
 
 Connect conversations are stored on the Live Group Profile \[live\_group\_profile\] table.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## GlideConversation - description
 

@@ -2,7 +2,7 @@
 title: Create a service filter for a policy
 description: Configure a service filter so that the policy monitors only those services that match the filter.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-service-filter-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/create-service-filter-policy.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

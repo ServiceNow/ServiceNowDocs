@@ -2,7 +2,7 @@
 title: Use the Workflow Studio help panel
 description: Browse topics in the side help panel to learn more about building flows and actions, working with data and spokes, and stepping through guided tours in Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/use-flow-designer-help-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/use-flow-designer-help-panel.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

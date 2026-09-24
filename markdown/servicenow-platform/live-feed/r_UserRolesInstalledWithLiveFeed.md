@@ -2,7 +2,7 @@
 title: User roles installed with Live Feed
 description: The Live Feed plugin includes the following user roles.Can manage Live Feed functions. Users with the live\_feed\_admin role can set up table notifications for non-task tables, limit Live Feed access by role, and manage Live Feed message content.Can manage chat functions \(if the Chat plugin is activated\). Users with the chat\_admin role can change chat room message read access and define chat room access rights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/r\_UserRolesInstalledWithLiveFeed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/r\_UserRolesInstalledWithLiveFeed.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -18,7 +18,7 @@ The Live Feed plugin includes the following user roles.
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Components installed with Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_InstalledWithLiveFeed.md)
+**Parent Topic:**[Components installed with Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/r_InstalledWithLiveFeed.md)
 
 ## live\_feed\_admin
 

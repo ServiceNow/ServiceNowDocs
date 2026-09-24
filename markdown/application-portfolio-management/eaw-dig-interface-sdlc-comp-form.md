@@ -2,7 +2,7 @@
 title: Digital interface SDLC component form
 description: The SDLC components represent the artifacts or configurations that are used to implement an Interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-dig-interface-sdlc-comp-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-dig-interface-sdlc-comp-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -23,10 +23,10 @@ The SDLC components represent the artifacts or configurations that are used to i
 |SDLC component|Select the SDLC component associated with provider business application of the digital interface.|
 |Description|Description about the connection between the digital interface and the SDLC component.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Relate an SDLC component to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-sdlc-comp.md)
+[Relate an SDLC component to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-dig-interface-add-sdlc-comp.md)
 

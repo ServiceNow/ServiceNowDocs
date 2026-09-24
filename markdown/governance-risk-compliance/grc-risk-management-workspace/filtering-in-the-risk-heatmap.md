@@ -2,7 +2,7 @@
 title: Filter data in the risk heatmap workbench
 description: As a risk user, filter data in the risk heatmap workbench to get a granular view of your risks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/filtering-in-the-risk-heatmap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/filtering-in-the-risk-heatmap.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -53,5 +53,5 @@ Using the condition builder feature, the risk heatmap workbench enables you to f
 9.  To delete a filter condition that you have built, open the Filter dialog box, and select the delete condition button \(\[Omitted image "delete-condition.png"\] Alt text: Delete icon.\) and click **Submit**.
 
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

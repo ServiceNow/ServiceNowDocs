@@ -2,7 +2,7 @@
 title: Cancel assessment
 description: If an assessment is no longer needed, you can cancel it to terminate its progress. Once canceled, the assessment becomes read only.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/cancel-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/cancel-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine

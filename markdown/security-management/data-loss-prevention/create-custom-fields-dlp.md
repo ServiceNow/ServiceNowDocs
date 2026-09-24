@@ -2,7 +2,7 @@
 title: Create additional incident data fields
 description: Create Additional Incident Data Fields for the DLP incidents. You can create different types of fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-custom-fields-dlp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/create-custom-fields-dlp.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -106,7 +106,7 @@ Description for the Additional Incident Data Fields you created.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

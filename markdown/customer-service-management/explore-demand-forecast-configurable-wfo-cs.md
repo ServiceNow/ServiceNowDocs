@@ -2,7 +2,7 @@
 title: Demand Forecast in Workforce Optimization for Customer Service
 description: Demand Forecast enables managers to view their agent staffing forecast at 15-, 30-, and 60-minute intervals on the team calendar. This feature enables managers to adjust and prioritize schedules, tasks, breaks, and meetings for their agents without impacting service objectives. Learn how you can use Demand Forecast to predict resources based on historical data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/explore-demand-forecast-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/explore-demand-forecast-configurable-wfo-cs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ When you create Demand Forecast configurations, the application creates these me
 
 \[Omitted video\] Description: Demand Forecast in Workforce Optimization
 
-As a manager with the forecast admin role, you can create forecast parameters in the Manager Workspace. [Modify forecast parameters to visualize forecast data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/modify-demand-forecast-parameters-configurable-wfo.md) and preview time-series data before publishing it. You can create any number of forecasts to preview the time-series data in real time.
+As a manager with the forecast admin role, you can create forecast parameters in the Manager Workspace. [Modify forecast parameters to visualize forecast data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/modify-demand-forecast-parameters-configurable-wfo.md) and preview time-series data before publishing it. You can create any number of forecasts to preview the time-series data in real time.
 
 You can also make manual adjustments to tweak the forecast and analyze the forecast pattern. Overlay the manual adjustments on the visualized forecast data and view the time-series data to analyze the forecast model. For example, you have a specific pattern for the upcoming week that has a national holiday in the middle of the week where you need more agents. Because you expect the sales to go up, you can manually tweak the forecast to increase it by 10% and analyze that data.
 
@@ -64,7 +64,7 @@ To forecast the demand:
 4.  Associate the formulas to assignment groups.
 5.  View the predicted demand on the calendar.
 
-**Note:** See the Demand Forecast section in [Components installed withWorkforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) for information on the default components and configurations.
+**Note:** See the Demand Forecast section in [Components installed withWorkforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) for information on the default components and configurations.
 
 ## Collect data by defining data collection definitions
 
@@ -75,7 +75,7 @@ Use the Data Collection Definitions module to define the data that you want to c
     You can access the time series for the collected data using the MetricBase `list` in the Group \[sys\_user\_group\] table. For more information on accessing MetricBase data, see [Access MetricBase data using the list command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/view-time-series-data.md).
 
 -   Use the **Collect historical data for automated forecast configurations** on-demand job to collect historical data at 15-minute intervals. This job collects data for the past three years.
--   Use the **Forecast resources for future** scheduled job to forecast the resources based on the collected data and stores the data in the Agent Forecast metric in MetricBase. See [Forecast properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) to set the collection frequency such as the number of days that you must collect the data to calculate the forecast or the time period that you want to store the data for.
+-   Use the **Forecast resources for future** scheduled job to forecast the resources based on the collected data and stores the data in the Agent Forecast metric in MetricBase. See [Forecast properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) to set the collection frequency such as the number of days that you must collect the data to calculate the forecast or the time period that you want to store the data for.
 
 **Note:** The time series metrics created for data collection definitions use the WFO Forecast retention policy. This policy stores data at a one-hour interval for the past three years.​
 
@@ -89,11 +89,11 @@ For example, a manager can generate the volume forecast at 15-minutes intervals 
 
 ## Create formula parameters
 
-Use numeric values or a script to be defined in the formula to calculate the resources from forecasts. Units in formula parameters can be specified in hours, minutes, or absolute numbers. See [Formula parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) for the parameters that are available by default.
+Use numeric values or a script to be defined in the formula to calculate the resources from forecasts. Units in formula parameters can be specified in hours, minutes, or absolute numbers. See [Formula parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) for the parameters that are available by default.
 
 ## Create formulas to convert forecast to resources
 
-Build formulas to convert the volume forecast to the staffing forecast at 15-, 30-, and 60-minute intervals. See [Resource Conversion Formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) for the configured resource forecast formulas that are available by default.
+Build formulas to convert the volume forecast to the staffing forecast at 15-, 30-, and 60-minute intervals. See [Resource Conversion Formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) for the configured resource forecast formulas that are available by default.
 
 ## Associate formulas to assignment groups
 
@@ -109,12 +109,12 @@ As a WFO admin, you need to configure assignment groups associated with Workforc
 
 **Note:** If you need to add new assignment groups after the historical or daily data collection job has already been run, update the corresponding data collection definition by setting the `is_historical_data_collected` flag to false and the duration to 0. After making these changes, rerun the historical data collection job to ensure that historical data is collected for the newly added groups, maintaining the accuracy and completeness of demand forecasts.
 
-**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Configure the data collection for resources demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-collection-demand-forecast.md)
+[Configure the data collection for resources demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-data-collection-demand-forecast.md)
 
-[Analyze staff alignment using Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analyze-staff-alignment-configurable-wfo-cs.md)
+[Analyze staff alignment using Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analyze-staff-alignment-configurable-wfo-cs.md)
 

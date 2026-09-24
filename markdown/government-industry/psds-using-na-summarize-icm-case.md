@@ -2,7 +2,7 @@
 title: Summarize an investigative case using the ServiceNow Otto for PSDS Investigative case summarization skill
 description: Generate a summary directly from the investigative case workspace to help you understand the case context using the investigative case summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-na-summarize-icm-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-na-summarize-icm-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create third-party OAuth provider records
 description: Create third-party OAuth provider records to enable each of your instances to access the API endpoints you've created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/create-third-party-oauth-provider-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/create-third-party-oauth-provider-records.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -18,7 +18,7 @@ Create third-party OAuth provider records to enable each of your instances to ac
 
 ## Before you begin
 
-Complete the tasks in [Create OAuth API endpoints for external clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/create-oauth-api-endpoints-for-external-clients.md).
+Complete the tasks in [Create OAuth API endpoints for external clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/create-oauth-api-endpoints-for-external-clients.md).
 
 In the top right corner of your instance, make sure you set the application scope to **Global**.
 
@@ -434,5 +434,5 @@ For example: `https://<production instance name>.service-now.com/oauth_token.do`
 
 ## What to do next
 
-Now that you’ve completed the pre-work for using OAuth, complete all the steps in [Use OAuth to create pipeline credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/use-oauth-to-create-pipeline-credentials.md) on the specified instances.
+Now that you’ve completed the pre-work for using OAuth, complete all the steps in [Use OAuth to create pipeline credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/use-oauth-to-create-pipeline-credentials.md) on the specified instances.
 

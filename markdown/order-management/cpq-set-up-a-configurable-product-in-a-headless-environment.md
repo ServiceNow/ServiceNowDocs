@@ -2,7 +2,7 @@
 title: Set up a configurable product in a headless environment
 description: Configure a product links a blueprint to the configuration experience in a headless environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-set-up-a-configurable-product-in-a-headless-environment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-set-up-a-configurable-product-in-a-headless-environment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

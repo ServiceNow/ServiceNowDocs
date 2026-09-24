@@ -2,7 +2,7 @@
 title: Configure Service Catalog cart widgets
 description: You can configure widgets for the shopping cart, catalog items, and order guides.You can customize the widget that provides details of the current catalog item on an order guide or wizard.You can customize widgets that appear for catalog items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/service-catalog-cart-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/service-catalog-cart-widgets.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Parent Topic:**[Cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ConfigureCartLayout.md)
+**Parent Topic:**[Cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ConfigureCartLayout.md)
 
 ## Configure order guide widgets
 

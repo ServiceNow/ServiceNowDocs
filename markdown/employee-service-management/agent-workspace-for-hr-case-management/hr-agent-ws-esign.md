@@ -2,7 +2,7 @@
 title: E-signature in Agent Workspace for HR Case Management
 description: When working on an HR case or HR task, you can use e-signature to sign documents that require signatures.Sign and generate HR case documents electronically by typing or drawing your signature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-esign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-esign.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

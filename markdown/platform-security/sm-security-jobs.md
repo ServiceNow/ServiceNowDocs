@@ -2,7 +2,7 @@
 title: Run Secrets Management security jobs
 description: Schedule a Secrets Management job to perform encryption tasks on secrets fields on your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/sm-security-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/sm-security-jobs.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -18,7 +18,7 @@ Schedule a Secrets Management job to perform encryption tasks on secrets fields 
 
 Role required: sn\_kmf.admin, security\_admin, and sn\_secrets.admin
 
-To perform these steps, you must elevate to the security\_admin role. For details on this process see, [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md)
+To perform these steps, you must elevate to the security\_admin role. For details on this process see, [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md)
 
 ## Procedure
 
@@ -116,7 +116,7 @@ Encrypt all Password2 fields within your secrets groups using the cryptographic 
 
 -   **Secrets Management to Password2**
 
-Re-Encrypt data in your secrets groups using password2 encryption. For details on this encryption type see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md).
+Re-Encrypt data in your secrets groups using password2 encryption. For details on this encryption type see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/password-2way-encrypted-fields.md).
 
 -   **Secret Group Enforcement**
 
@@ -156,5 +156,5 @@ Displays information about the job progress. Summary also displays records that 
 
 The job queries all data that should match the selected secret group. If all the data found by the query is already in the group, the job makes no changes. If the query finds data that is not yet in the group, the job re-encrypts this data within the Secret Group. \(If the instance can decrypt it, which may not be the case for client side-encrypted secrets\).
 
-**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/secrets-dashboard.md)
 

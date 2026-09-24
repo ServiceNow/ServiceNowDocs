@@ -2,7 +2,7 @@
 title: Run tests for a story in Agile Development 2.0
 description: For a story whose tests are marked ready to be run, run those tests and execute all the test steps. Do this using the Sprint Tracking tab of the Agile board in Agile Development 2.0.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/run-test-plan-within-agile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/agile-development/run-test-plan-within-agile.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -69,7 +69,7 @@ The result of each test is indicated on the Agile board as Passed, Failed, Block
 
 ## What to do next
 
-[View the test results for a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/view-test-result-form.md)
+[View the test results for a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/view-test-result-form.md)
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/using-agile-development-2-0.md)
 

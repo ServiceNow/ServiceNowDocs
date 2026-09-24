@@ -2,7 +2,7 @@
 title: Configure EVAM display settings for search results in AI Search applications
 description: Customize display settings for Search Result EVAM \(Entity View Action Mapping\) cards in portal and non-portal AI Search applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-search-result-card-opts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/configure-search-result-card-opts.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -42,7 +42,7 @@ String fields on Search Result EVAM cards can be populated with literal text or 
 
 5.  In the Template field, edit the JSON for the Search Result card properties you want to customize.
 
-    For details on available properties and their supported values, see [List of Search Result EVAM card properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-result-evam-card-opts.md).
+    For details on available properties and their supported values, see [List of Search Result EVAM card properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/search-result-evam-card-opts.md).
 
 6.  Select **Update**.
 
@@ -51,8 +51,8 @@ String fields on Search Result EVAM cards can be populated with literal text or 
 
 Changes made to Search Result EVAM card settings take effect immediately in AI Search applications.
 
--   **[List of Search Result EVAM card properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-result-evam-card-opts.md)**  
+-   **[List of Search Result EVAM card properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/search-result-evam-card-opts.md)**  
 You can customize the appearance of standard search results in your AI Search application by changing these properties in the application's Search Result EVAM \(Entity View Action Mapping\) cards.
 
-**Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md)
+**Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configuring-ais.md)
 

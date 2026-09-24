@@ -2,7 +2,7 @@
 title: Verify and depart your enterprise assets for disposal using the Mobile Agent application
 description: Use the ServiceNow Mobile Agent application to complete the verification and departure of any enterprise assets that you want to dispose of.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/dispose-enterprise-assets-mobile-agent-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/dispose-enterprise-assets-mobile-agent-app.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -18,7 +18,7 @@ Use the ServiceNow® Mobile Agent application to complete the verification and d
 
 ## Before you begin
 
-Before you can complete the verification or departure of an enterprise asset, create a disposal order for that asset. See [Create a disposal order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md) for detailed instructions.
+Before you can complete the verification or departure of an enterprise asset, create a disposal order for that asset. See [Create a disposal order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
@@ -121,5 +121,5 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## What to do next
 
-Complete the remaining disposal order tasks on your ServiceNow instance. See [Enterprise asset disposal order stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eamasset-disposalorder-stages.md) for more information on enterprise asset disposal order tasks.
+Complete the remaining disposal order tasks on your ServiceNow instance. See [Enterprise asset disposal order stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/eamasset-disposalorder-stages.md) for more information on enterprise asset disposal order tasks.
 

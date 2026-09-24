@@ -2,7 +2,7 @@
 title: Activate or update EU Artificial Intelligence Act
 description: Activate or update the EU Artificial Intelligence Act framework and select the citations relevant to your organization. The citations are installed into your instance so they can be mapped to control objectives and used in assessments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -19,13 +19,13 @@ Activate or update the EU Artificial Intelligence Act framework and select the c
 
 ## Before you begin
 
-Install the AI Risk and Compliance content application before activating frameworks. For more information, see [Install AI Risk and Compliance content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.md).
+Install the AI Risk and Compliance content application before activating frameworks. For more information, see [Install AI Risk and Compliance content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.md).
 
 Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 
 ## About this task
 
-Activating the EU Artificial Intelligence Act installs the framework's citations into your instance. You select which articles and chapters are relevant to your organization — you don't need to install the entire framework. After the framework is activated, select **Update** to add or remove citations in the future. For a description of what the EU AI Act content pack contains, see [AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-content-pack.md).
+Activating the EU Artificial Intelligence Act installs the framework's citations into your instance. You select which articles and chapters are relevant to your organization — you don't need to install the entire framework. After the framework is activated, select **Update** to add or remove citations in the future. For a description of what the EU AI Act content pack contains, see [AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-content-pack.md).
 
 ## Procedure
 
@@ -58,18 +58,18 @@ The selected EU Artificial Intelligence Act citations are installed on your inst
 
 ## What to do next
 
-To activate additional frameworks, see [Activate or update NIST Risk Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.md), [Activate or update the Colorado Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/activate-or-update-colorado-ai-act.md), or [Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/activate-or-update-sb53.md).
+To activate additional frameworks, see [Activate or update NIST Risk Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.md), [Activate or update the Colorado Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-colorado-ai-act.md), or [Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-sb53.md).
 
 **Related topics**  
 
 
-[Install AI Risk and Compliance content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.md)
+[Install AI Risk and Compliance content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.md)
 
-[Activate or update NIST Risk Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.md)
+[Activate or update NIST Risk Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.md)
 
-[Activate or update the Colorado Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/activate-or-update-colorado-ai-act.md)
+[Activate or update the Colorado Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-colorado-ai-act.md)
 
-[Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/activate-or-update-sb53.md)
+[Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-sb53.md)
 
-[AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-content-pack.md)
+[AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-content-pack.md)
 

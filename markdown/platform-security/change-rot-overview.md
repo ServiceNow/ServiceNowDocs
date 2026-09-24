@@ -2,7 +2,7 @@
 title: Change your Root of Trust configuration
 description: Trust and use your own certificates instead of relying on ServiceNow build certificates \(default\) by changing to use your Root of Trust \(ROT\). ServiceNow components like script includes, business rules, etc., are signed at build time using a ServiceNow build time key \(verification certificate is the ServiceNow build certificate\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/change-rot-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/change-rot-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ To change the Root of Trust for these records signatures, you must follow the ch
 -   Generate and migrate a new set of signatures for all provided components, using your provided certificate.
 -   Disable the Root of Trust property using a scheduled job.
 
-Learn more about these steps in [Migrate signatures to use a customer certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/migrate-sigs-customer-rot.md) and [Disable ServiceNow Root of Trust](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/disable-sn-rot.md).
+Learn more about these steps in [Migrate signatures to use a customer certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/migrate-sigs-customer-rot.md) and [Disable ServiceNow Root of Trust](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/disable-sn-rot.md).
 
 ## Impact on the signature generation and verification process
 

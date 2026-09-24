@@ -2,7 +2,7 @@
 title: Activating Data Discovery
 description: The application installs Data Discovery and related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/activate-data-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/activate-data-discovery.html
 release: australia
 product: Data Discovery
 classification: data-discovery
@@ -37,7 +37,7 @@ The following items are installed with data discovery:
 -   Roles
 -   Tables
 
-For more information on the roles and tables installed, see [Data Discovery roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/data-discovery-roles.md) and [Default regular expression data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/default-data-patterns.md).
+For more information on the roles and tables installed, see [Data Discovery roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-discovery/data-discovery-roles.md) and [Default regular expression data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-discovery/default-data-patterns.md).
 
 ## Procedure
 

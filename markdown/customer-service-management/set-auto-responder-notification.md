@@ -2,7 +2,7 @@
 title: Set Auto-Responder notification preferences
 description: Set notification preferences for receiving Auto-Responder recommendations on customer service cases you submitted or for which you are on the watchlist.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/set-auto-responder-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/set-auto-responder-notification.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Set notification preferences for receiving Auto-Responder recommendations on cus
 
 Role required: snc\_external role or watchlist users associated with the customer service case
 
-Ensure that an administrator has configured the Auto-Responder feature. For more information, see [Configure Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-auto-responder.md).
+Ensure that an administrator has configured the Auto-Responder feature. For more information, see [Configure Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-auto-responder.md).
 
 ## Procedure
 

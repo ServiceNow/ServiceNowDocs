@@ -2,7 +2,7 @@
 title: Setting up Field Service in CSM Agent Workspace
 description: Activate Field Service in CSM Agent Workspace and set up roles for performing the tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/setup-fsm-agent-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/setup-fsm-agent-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

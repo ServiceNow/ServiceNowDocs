@@ -2,7 +2,7 @@
 title: Exclude knowledge block content from the AI Search index
 description: Prevent AI Search from indexing content found in your knowledge blocks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/exclude-know-blocks-ais-index.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/exclude-know-blocks-ais-index.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -49,7 +49,7 @@ To learn more about creating and publishing knowledge blocks for reference in yo
 
 ## What to do next
 
-To make the new setting take effect, reindex the Knowledge Table indexed source. For details on reindexing, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
+To make the new setting take effect, reindex the Knowledge Table indexed source. For details on reindexing, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/index-single-source-ais.md).
 
-**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md)
+**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/indexed-sources-ais.md)
 

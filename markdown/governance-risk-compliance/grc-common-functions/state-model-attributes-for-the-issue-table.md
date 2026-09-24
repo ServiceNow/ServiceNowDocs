@@ -2,7 +2,7 @@
 title: State model attributes for the Issue table
 description: Attributes available for states in a GRC state model applied to the Issue table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/state-model-attributes-for-the-issue-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/state-model-attributes-for-the-issue-table.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -25,5 +25,5 @@ These attributes are available when configuring a state in a GRC state model app
 |**Default closed state**|The default state for a closed issue.|
 |**Default cancelled state**|The default state for a cancelled issue.|
 
-**Parent Topic:**[Add a state to a GRC state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.md)
+**Parent Topic:**[Add a state to a GRC state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.md)
 

@@ -2,7 +2,7 @@
 title: Wrap-up codes for email interactions
 description: Default wrap-up codes and configuration settings available for email interactions in Customer Service Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/wrap-up-codes-email-interactions-r.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/wrap-up-codes-email-interactions-r.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -30,5 +30,5 @@ Default wrap-up codes and configuration settings available for email interaction
 **Related topics**  
 
 
-[Configure wrap-up codes for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-wrap-up-codes-email-interactions-eaai.md)
+[Configure wrap-up codes for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-wrap-up-codes-email-interactions-eaai.md)
 

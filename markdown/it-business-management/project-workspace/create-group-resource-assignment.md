@@ -2,7 +2,7 @@
 title: Create group resource assignment in Project Workspace
 description: Use Project Workspace to create a group and associate it to your resource assignment. You can associate a set of users who share a common purpose to a group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-group-resource-assignment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/create-group-resource-assignment.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -59,5 +59,5 @@ For the **Hours** effort type, effort is distributed in whole hours. Each member
 
 For the **FTE** and **Person days** effort types, the effort is divided equally among the members, including fractional values.
 
-**Parent Topic:**[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md)
+**Parent Topic:**[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md)
 

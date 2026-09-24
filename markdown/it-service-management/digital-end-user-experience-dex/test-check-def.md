@@ -2,7 +2,7 @@
 title: Test a check definition
 description: Test a check definition on an endpoint device to verify that the Agent Client Collector \(ACC\) plugin is linked and the custom remedial action defined in the script runs successfully.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/test-check-def.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/test-check-def.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -19,7 +19,7 @@ Test a check definition on an endpoint device to verify that the Agent Client Co
 
 ## Before you begin
 
-Create a check definition and link it to the ACC plugin package. For more information, see [Create a check definition for a custom remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/create-check-def-remedial-actions.md).
+Create a check definition and link it to the ACC plugin package. For more information, see [Create a check definition for a custom remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/create-check-def-remedial-actions.md).
 
 Role required: admin
 
@@ -46,5 +46,5 @@ Role required: admin
 8.  Review the Test Check status to confirm that the remedial action defined in the Powershell script is successfully executed.
 
 
-**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)
+**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)
 

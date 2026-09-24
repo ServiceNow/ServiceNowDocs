@@ -2,12 +2,12 @@
 title: Manage large storage payloads in Linux and Solaris
 description: Large payloads for Linux and Solaris direct attached storage can cause out of memory errors if not configured to serialize the processing of the payload.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/manage-lg-payloads-linux-solaris.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/manage-lg-payloads-linux-solaris.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -47,5 +47,5 @@ When Linux or Solaris storage sensors process payloads from large disk arrays, w
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Storage.md)
+**Parent Topic:**[Storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_Storage.md)
 

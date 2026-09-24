@@ -2,7 +2,7 @@
 title: Define arrival schedules at the workplace for employees
 description: Define arrival slot times in Workplace Core for different locations at your workplace and indicate the capacity for each slot. Establishing arrival schedules enables safe staggered entry of employees to these locations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/define-arrival-intervals-at-the-workplace-for-employees.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/define-arrival-intervals-at-the-workplace-for-employees.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -18,7 +18,7 @@ Define arrival slot times in Workplace Core for different locations at your work
 
 ## Before you begin
 
--   [Add your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
+-   [Add your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 -   Ensure you have the data for arrival schedules of the locations of your workplace.
 -   Ensure that your time zone is set to the time zone of the building that is used for the arrival.
 
@@ -108,5 +108,5 @@ Maximum number of employees that can schedule their arrival to this location at 
 
 An arrival schedule is created for this workplace location for the indicated time and capacity. You can view arrival schedules by navigating to **Workplace Safety Management** &gt; **Workplace Arrival Scheduling** &gt; **Arrival Schedules**.
 
-**Parent Topic:**[Setting and tracking arrivals at the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/scheduling-employees-arrival-to-the-workplace-wsd.md)
+**Parent Topic:**[Setting and tracking arrivals at the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/scheduling-employees-arrival-to-the-workplace-wsd.md)
 

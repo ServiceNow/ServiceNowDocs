@@ -2,7 +2,7 @@
 title: Playbook intake component
 description: Enable you to submit a case using the playbook guided experience, which systematically captures case details and displays the stages and activities involved in resolving the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-playbook-intake-comp-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-playbook-intake-comp-overview.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

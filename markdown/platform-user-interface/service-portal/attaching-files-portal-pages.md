@@ -2,7 +2,7 @@
 title: Attaching files to records from portal pages
 description: Attachments can be added to records from portal pages by navigating the file system, pasting files from the clipboard, or dragging and dropping files.Allow portal users to attach files by pasting or dropping files in the Add attachments dialog box.Allow portal users to drop attachments in a dedicated zone of a page to quickly attach files to a record.Allow portal users to paste, drop, or navigate to files in a section of a widget to quickly attach files to a record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/attaching-files-portal-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/attaching-files-portal-pages.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -18,9 +18,9 @@ Attachments can be added to records from portal pages by navigating the file sys
 
 By default, several base system widgets accept attachments from portal users using one or more of these methods. To modify how portal users can add attachments, you can clone and edit widgets to customize the file attachment experience as described in the following procedures.
 
-To track how portal users attach files to records from pages in your portal, see the SP File Attach event in Usage Insights for Service Portal. For more information about available events, see [Service Portal events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-analytics-events.md).
+To track how portal users attach files to records from pages in your portal, see the SP File Attach event in Usage Insights for Service Portal. For more information about available events, see [Service Portal events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-analytics-events.md).
 
-**Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_Pages.md)
+**Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/c_Pages.md)
 
 ## Add attachments by pasting or dropping files
 
@@ -30,7 +30,7 @@ Allow portal users to attach files by pasting or dropping files in the Add attac
 
 By default, the Form, Ticket Attachments, Ticket Conversations, and SC Catalog Item base system widgets support adding attachments by pasting or dropping files in the Add attachments dialog box rather than only by navigating the file system.
 
-To configure this functionality for other widgets, you can clone or create a widget that supports adding attachments with the `sp-attachment-button` directive. For more information about cloning widgets, see [Clone a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_CloneAndEditAWidget.md).
+To configure this functionality for other widgets, you can clone or create a widget that supports adding attachments with the `sp-attachment-button` directive. For more information about cloning widgets, see [Clone a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/t_CloneAndEditAWidget.md).
 
 **Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from.
 
@@ -77,7 +77,7 @@ Allow portal users to drop attachments in a dedicated zone of a page to quickly 
 
 ### Before you begin
 
-To configure a drag-and-drop attachments zone on a page, you must clone or create a widget that supports adding attachments by calling `attachmentHandler` set to an instance of `nowAttachmentHandler` in its client script. For an example of a widget like this, see the [Form widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/form-widget.md). For more information about cloning widgets, see [Clone a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_CloneAndEditAWidget.md).
+To configure a drag-and-drop attachments zone on a page, you must clone or create a widget that supports adding attachments by calling `attachmentHandler` set to an instance of `nowAttachmentHandler` in its client script. For an example of a widget like this, see the [Form widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/form-widget.md). For more information about cloning widgets, see [Clone a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/t_CloneAndEditAWidget.md).
 
 **Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from.
 
@@ -141,7 +141,7 @@ Allow portal users to paste, drop, or navigate to files in a section of a widget
 
 ### Before you begin
 
-To configure an attachments section in a widget, you must clone or create a widget that supports adding attachments by calling `attachmentHandler` set to an instance of `nowAttachmentHandler` in its client script. For an example of a widget like this, see the [Form widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/form-widget.md). For more information about cloning widgets, see [Clone a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_CloneAndEditAWidget.md).
+To configure an attachments section in a widget, you must clone or create a widget that supports adding attachments by calling `attachmentHandler` set to an instance of `nowAttachmentHandler` in its client script. For an example of a widget like this, see the [Form widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/form-widget.md). For more information about cloning widgets, see [Clone a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/t_CloneAndEditAWidget.md).
 
 **Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from.
 

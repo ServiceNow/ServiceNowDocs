@@ -2,7 +2,7 @@
 title: Facilitate the patent review process
 description: Update the tracking information through the final resolution of the patent review process after you receive the resolution of the patent application review by an outside counsel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-invention-disclosure/facilitate-patent-review-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-invention-disclosure/facilitate-patent-review-process.html
 release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -28,15 +28,15 @@ Role required: sn\_lg\_ip.patent\_fulfiller
 
 2.  Based on the resolution of the patent application review by the outside counsel, either close the request or indicate that the patent was filed.
 
-<table id="choicetable_nvq_xwj_lzb"><thead><tr><th align="left" id="d110742e69">
+<table id="choicetable_nvq_xwj_lzb"><thead><tr><th align="left" id="d110746e69">
 
 Outside counsel decision
 
-</th><th align="left" id="d110742e72">
+</th><th align="left" id="d110746e72">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d110742e78">
+</th></tr></thead><tbody><tr><td id="d110746e78">
 
 **Accepted**
 
@@ -54,7 +54,7 @@ Actions
     -   If an optional reward for the inventor at the Patent filed stage has been set up, it is processed and sent to the inventor.
 
 
-</td></tr><tr><td id="d110742e153">
+</td></tr><tr><td id="d110746e153">
 
 **Rejected**
 
@@ -72,15 +72,15 @@ Actions
 </td></tr></tbody>
 </table>3.  Once the outside counsel notifies the patent fulfiller about the resolution of the patent application to the patent authorities, either close the request if the patent was rejected or indicate that the patent was granted.
 
-<table id="choicetable_z5n_zlr_lzb"><thead><tr><th align="left" id="d110742e226">
+<table id="choicetable_z5n_zlr_lzb"><thead><tr><th align="left" id="d110746e226">
 
 Outside counsel decision
 
-</th><th align="left" id="d110742e229">
+</th><th align="left" id="d110746e229">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d110742e235">
+</th></tr></thead><tbody><tr><td id="d110746e235">
 
 **Accepted**
 
@@ -99,7 +99,7 @@ Actions
     -   If an optional reward for the inventor at the Patent granted stage has been set up, it is processed and sent to the inventor.
 
 
-</td></tr><tr><td id="d110742e312">
+</td></tr><tr><td id="d110746e312">
 
 **Rejected**
 
@@ -130,5 +130,5 @@ Actions
 5.  Select **Close Complete** to close the matter.
 
 
-**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
+**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
 

@@ -2,7 +2,7 @@
 title: EmployeeWorks Web App Extended
 description: EmployeeWorks Web App Extended delivers an AI-powered employee experience with targeted communications, AI-assisted content authoring, and enhanced productivity features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-slate-advanced.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-slate-advanced.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

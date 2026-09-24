@@ -2,7 +2,7 @@
 title: Compare PaCE policy versions
 description: You can compare two versions of a PaCE policy, whatever their state. Any differences between the two selected versions are highlighted for quick analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-compare-versions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-compare-versions.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

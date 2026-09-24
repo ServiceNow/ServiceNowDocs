@@ -2,7 +2,7 @@
 title: Card Disputes data model
 description: This section outlines the card disputes data model and the tables installed with the disputes application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-data-model.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -63,8 +63,8 @@ The following diagram shows the tables and their relationships within the card d
 |Consumer|csm\_consumer|Store information for B2C \(individual\) customers.|
 |Contact|customer\_contact|Maintain customer contact information.|
 
--   **[Dispute decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-decision-tables.md)**  
+-   **[Dispute decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-decision-tables.md)**  
 Decision tables in Dispute Management provide decision logic for card dispute processing.
 
-**Parent Topic:**[Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/data-models.md)
+**Parent Topic:**[Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/data-models.md)
 

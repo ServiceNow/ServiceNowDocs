@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP glossary
 description: Learn about the terms and concepts used in Zero Copy Connector for ERP.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/zcc-erp-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/zcc-erp-glossary.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

@@ -2,7 +2,7 @@
 title: Security Operations Orchestration
 description: Users can interact with and retrieve data from Windows or UNIX-based systems and environments using activity packs and workflows in Security Operations Orchestration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-operations-orchestration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-operations-orchestration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,16 +19,16 @@ Security Operations Orchestration saves time by eliminating manual processes and
 To create and access additional orchestration activities that are not available with the standard offering Security Operations products, purchase a full orchestration license.
 
 -   Security Incident Response Orchestration workflows:
-    -   [Security Incident Response- Get Network Statistics flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/obtain-network-statistics-workflow.md)
-    -   [Security Operations System Command Integration- Get Running Processes flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/obtain-WMI-retrieval-workflow.md)
-    -   [Create Lookup Request for IoC Changes workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_CreateScanRequestforIoCChanges.md)
-    -   [Security Operations Integration - Email Search and Delete flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-email-search-delete.md)
+    -   [Security Incident Response- Get Network Statistics flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/obtain-network-statistics-workflow.md)
+    -   [Security Operations System Command Integration- Get Running Processes flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/obtain-WMI-retrieval-workflow.md)
+    -   [Create Lookup Request for IoC Changes workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/t_CreateScanRequestforIoCChanges.md)
+    -   [Security Operations Integration - Email Search and Delete flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integ-email-search-delete.md)
 -   Threat Intelligence Orchestration workflows:
-    -   [Threat Intelligence - Run IoC Lookup workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-orch-wfs-and-activities.md)
-    -   [Update security incident with lookup results workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_UpdateSecIncScanResults.md)
+    -   [Threat Intelligence - Run IoC Lookup workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-orch-wfs-and-activities.md)
+    -   [Update security incident with lookup results workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/t_UpdateSecIncScanResults.md)
 -   Vulnerability Response Orchestration workflows:
-    -   [Scan vulnerability workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/scan-vulnerability-workflow.md)
-    -   [Scan vulnerability item workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/scan-vulnerable-item-workflow.md)
+    -   [Scan vulnerability workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/scan-vulnerability-workflow.md)
+    -   [Scan vulnerability item workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/scan-vulnerable-item-workflow.md)
 
-**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-ops-common-functionality.md)
 

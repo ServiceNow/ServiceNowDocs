@@ -2,10 +2,10 @@
 title: Respond to resolutions through Portal or Mobile
 description: Review proposed resolutions and respond by accepting, rejecting with a reason, or self-closing your case. Available only when case is in "Resolution Proposed" state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/breakfix-respond-resolution.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/breakfix-respond-resolution.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Manage Break-Fix cases, Retail]
 ---
@@ -63,18 +63,18 @@ After HQ proposes a resolution, review it from the portal or mobile app. Accept/
 
 ## What to do next
 
-If you Accepted or Self-Closed, case is resolved and archived. If you Rejected, HQ Support Agents will receive your reason and propose an alternative resolution, which you will review similarly. See [Resolve Cases in Workspace \(HQ Agents\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-resolve-workspace.md) to understand HQ's resolution process.
+If you Accepted or Self-Closed, case is resolved and archived. If you Rejected, HQ Support Agents will receive your reason and propose an alternative resolution, which you will review similarly. See [Resolve Cases in Workspace \(HQ Agents\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-resolve-workspace.md) to understand HQ's resolution process.
 
-**Parent Topic:**[Manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-manage-cases.md)
+**Parent Topic:**[Manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-manage-cases.md)
 
 **Related topics**  
 
 
-[Break-Fix Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-overview.md)
+[Break-Fix Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-overview.md)
 
-[Submit Break-Fix Cases through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-submit-case.md)
+[Submit Break-Fix Cases through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-submit-case.md)
 
-[Resolve Cases in Workspace through HQ Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-resolve-workspace.md)
+[Resolve Cases in Workspace through HQ Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-resolve-workspace.md)
 
-[Components for Break-Fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-reference.md)
+[Components for Break-Fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-reference.md)
 

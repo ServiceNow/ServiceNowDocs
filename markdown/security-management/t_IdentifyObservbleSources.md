@@ -2,7 +2,7 @@
 title: Identify observable sources
 description: If an observable has no sources defined, it uses all types of sources. However, if you add one or more threat sources to an observable, it limits the sources used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/t\_IdentifyObservbleSources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/t\_IdentifyObservbleSources.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +35,7 @@ Role required: sn\_ti.admin
 7.  Click **Save**.
 
 
-**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_Observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_Observables.md)
 
 **Related topics**  
 

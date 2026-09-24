@@ -2,7 +2,7 @@
 title: SC Save Bundles widget
 description: The Save Bundles widget allows you to save specific catalog items together for reuse. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/save-bundles-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/save-bundles-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -24,7 +24,7 @@ The Save Bundles widget is embedded within the SC Shopping Cart widget.
 
 The Save Bundles widget does not have any included instance options.
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

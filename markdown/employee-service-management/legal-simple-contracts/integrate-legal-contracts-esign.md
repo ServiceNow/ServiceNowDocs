@@ -2,7 +2,7 @@
 title: Configure an e-signature provider for legal contracts
 description: Configure an electronic signature provider to enable users to sign contract documents electronically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/integrate-legal-contracts-esign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/integrate-legal-contracts-esign.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts

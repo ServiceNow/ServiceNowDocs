@@ -2,7 +2,7 @@
 title: Configure click-rank search relevance
 description: Enhance the topic page search rank based on the clicks and usage of a topic by the employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-topic-search-relevance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-topic-search-relevance.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,7 +2,7 @@
 title: Language internationalization support
 description: The ServiceNow platform supports multiple languages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/c\_LangInternationalizationSupport.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/c\_LangInternationalizationSupport.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -16,7 +16,7 @@ breadcrumb: [Exploring System Localization, System Localization, Translation and
 
 The ServiceNow platform supports multiple languages.
 
-Language support is available when at least one language plugin has been activated, as described in [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+Language support is available when at least one language plugin has been activated, as described in [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_ActivateALanguage.md).
 
 When a user logs in, the language for the instance session is determined by the following logic:
 
@@ -25,7 +25,7 @@ When a user logs in, the language for the instance session is determined by the 
 3.  If not, the language setting in the User \[sys\_user\] table is used.
 4.  If none of the above are true, the system default language is used.
 
-You can also enable a fallback language to use if a translation isn’t available in the preferred language, as described in [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/set-fallback-language.md).
+You can also enable a fallback language to use if a translation isn’t available in the preferred language, as described in [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/set-fallback-language.md).
 
 Some parts of the system aren’t translated and remain in the language used to create them:
 
@@ -45,5 +45,5 @@ Beginning in the Washington DC release, new product and application names are lo
 **Related topics**  
 
 
-[Locating translatable UI strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_TranslateNewCustomizations.md)
+[Locating translatable UI strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/c_TranslateNewCustomizations.md)
 

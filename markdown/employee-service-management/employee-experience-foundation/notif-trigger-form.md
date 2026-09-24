@@ -2,7 +2,7 @@
 title: Trigger conditions form
 description: The field descriptions provided here are essential to create the trigger conditions for your portal notification messages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/notif-trigger-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/notif-trigger-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -134,7 +134,7 @@ Who will receive
 Include the person whose action triggered the notification: Option to include the trigger-person for the notification in the list of recipients.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Designing a Virtual Agent topic
 description: Walk through the design of an example Virtual Agent topic that enables users to view incidents they submitted. The example highlights various design controls that can be used to build the conversation flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/design-va-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/design-va-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,15 +21,15 @@ Using Virtual Agent tools and features, you can develop conversations that addre
 
 To get started more quickly, the following resources are available for Virtual Agent:
 
--   **[ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)**
+-   **[ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)**
 
     Create natural-language–based conversations with ServiceNow Otto. Virtual Agent uses large language models \(LLMs\) to improve conversation experience and self-service workflow success by way of generative AI skills.
 
--   **[Pre-built Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md)**
+-   **[Pre-built Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md)**
 
-    These pre-defined conversations help users with common self-service tasks in each business area, such as creating or updating cases or providing answers to frequently asked questions. [Duplicate the pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) you want to use, and then customize them for your organization.
+    These pre-defined conversations help users with common self-service tasks in each business area, such as creating or updating cases or providing answers to frequently asked questions. [Duplicate the pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) you want to use, and then customize them for your organization.
 
--   **[Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-topic-recommendations.md)**
+-   **[Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-topic-recommendations.md)**
 
     Use the Topic Recommendations app to identify pre-built Virtual Agent topics that can be quickly implemented in your organization. Topic Recommendations uses Intent Discovery to analyze data from your organization and to find relevant pre-built topics that your organization can benefit from, and new topics that would be useful to create.
 
@@ -54,7 +54,7 @@ Use Assistant Designer controls and reusable conversational elements to create t
 
     If you're using Natural Language Understanding \(NLU\), consider scenarios where a user might want to switch topics during a conversation session. For example, a user might want to change topics entirely. Or a user might get sidetracked and ask a question that seems out of context, maybe to engage in "small talk" with the virtual agent. Determine whether you want to let the user resume the original conversation after switching topics during the conversation.
 
-    Consider setting small talk filters to redirect user statements in LLM conversations, or creating small talk topics in both LLM and NLU/keyword conversations. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-small-talk-filters.md) and [Create a small talk topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-small-talk.md).
+    Consider setting small talk filters to redirect user statements in LLM conversations, or creating small talk topics in both LLM and NLU/keyword conversations. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-small-talk-filters.md) and [Create a small talk topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-small-talk.md).
 
     You can also review the pre-built setup topics, conversation topics, and topic blocks \(reusable subflows that perform certain design steps and logic\). Determine whether you can use these pre-built items and consider customizing them as needed.
 
@@ -71,7 +71,7 @@ Use Assistant Designer controls and reusable conversational elements to create t
 
     If you're using ServiceNow Natural Language Understanding \(NLU\), you can associate an NLU model and intent with your topic.
 
-    For details on the properties that you define for various assets, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [Create a reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-topic-blocks.md), and [Create a custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-custom-control.md).
+    For details on the properties that you define for various assets, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [Create a reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-topic-blocks.md), and [Create a custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-custom-control.md).
 
 -   **Have knowledge in the following areas \(what to know before you begin\)**
     -   General knowledge of the ServiceNow platform and application table structures.
@@ -92,7 +92,7 @@ With this goal in mind, the topic needs the following elements:
 -   A prompt for the user to enter a comment
 -   A utility control to add the user input as a comment in the incident
 
-There are extra considerations when creating topics for LLM conversations. For more information, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md) and [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/llm-instruction-guidelines.md).
+There are extra considerations when creating topics for LLM conversations. For more information, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md) and [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/llm-instruction-guidelines.md).
 
 ## Build the conversation flow with Virtual Agent controls
 
@@ -164,7 +164,7 @@ This example begins with defining the conversation flow in Assistant Designer As
 
 ## Test the conversation
 
-Use the **Test** button to test the flow of the conversation. Preview topics often throughout the design process to find errors or unexpected behavior quickly. For further information on identifying and resolving issues with topics, see [Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md).
+Use the **Test** button to test the flow of the conversation. Preview topics often throughout the design process to find errors or unexpected behavior quickly. For further information on identifying and resolving issues with topics, see [Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md).
 
-**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

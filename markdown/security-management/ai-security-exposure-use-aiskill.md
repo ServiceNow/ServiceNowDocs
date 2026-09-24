@@ -2,7 +2,7 @@
 title: Use the AI guardrails helper skill
 description: This AI skill identifies finding types and helps you understand guardrails that are already mapped to findings and why they were selected by the skill for mapping. This information helps you determine any findings that might be mitigated and deferred for later review and remediation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/ai-security-exposure-use-aiskill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/ai-security-exposure-use-aiskill.html
 release: australia
 topic_type: task
 last_updated: "2026-08-03"
@@ -53,5 +53,5 @@ Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst a
     You can now use the Guardrail Detector agentic workflow to create exception rules to automatically defer findings that match your criteria.
 
 
-**Parent Topic:**[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-skill-agent.md)
+**Parent Topic:**[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ai-security-exposure-skill-agent.md)
 

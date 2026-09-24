@@ -2,7 +2,7 @@
 title: Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)
 description: Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/resolution-steps-generation-now-assist-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/resolution-steps-generation-now-assist-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -57,15 +57,15 @@ Data from the short description field and the filter conditions set in the incid
 
     The steps to resolve the incident appear in a **Recommendations** pop-up window in the incident record. This action may take a few minutes.
 
-<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d126662e248">
+<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d126661e248">
 
 If
 
-</th><th align="left" id="d126662e251">
+</th><th align="left" id="d126661e251">
 
 Then
 
-</th></tr></thead><tbody><tr><td id="d126662e257">
+</th></tr></thead><tbody><tr><td id="d126661e257">
 
 **You're using LEAP**
 
@@ -73,7 +73,7 @@ Then
 
 The LEAP Resolution Steps Recommendation will appear.\[Omitted image "now-assist-itsm-recommended-actions-leap.png"\] Alt text: LEAP recommended actions
 
-</td></tr><tr><td id="d126662e274">
+</td></tr><tr><td id="d126661e274">
 
 **You're using Suggested steps**
 

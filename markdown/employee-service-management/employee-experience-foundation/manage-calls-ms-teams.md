@@ -2,7 +2,7 @@
 title: Manage calls in Microsoft Teams
 description: Manage conference calls in Microsoft Teams by muting or unmuting participants, or ending the call.As a manager or a conference call host, you can mute conference participants to avoid distraction.As the host or a user with the manager role, you can end a conference call after the discussion ends.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/manage-calls-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/manage-calls-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -16,7 +16,7 @@ breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integ
 
 Manage conference calls in Microsoft Teams by muting or unmuting participants, or ending the call.
 
-**Parent Topic:**[Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c-agent-ex-use-nc.md)
+**Parent Topic:**[Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c-agent-ex-use-nc.md)
 
 ## Mute participants from Microsoft Teams
 
@@ -36,15 +36,15 @@ Role required: notify\_admin, major\_incident\_manager, communications\_manager,
 
 3.  Mute an individual participant or mute all participants.
 
-<table id="choicetable_ixy_kbr_tnb"><thead><tr><th align="left" id="d255989e129">
+<table id="choicetable_ixy_kbr_tnb"><thead><tr><th align="left" id="d255993e129">
 
 Option
 
-</th><th align="left" id="d255989e132">
+</th><th align="left" id="d255993e132">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d255989e138">
+</th></tr></thead><tbody><tr><td id="d255993e138">
 
 **Mute an individual participant**
 
@@ -54,7 +54,7 @@ Action
 2.  Click **Mute**.
 
 
-</td></tr><tr><td id="d255989e159">
+</td></tr><tr><td id="d255993e159">
 
 **Mute all participants**
 

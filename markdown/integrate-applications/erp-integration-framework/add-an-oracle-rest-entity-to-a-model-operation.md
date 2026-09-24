@@ -2,7 +2,7 @@
 title: Add an Oracle REST entity to a model
 description: Set the input parameters, headers, and payload template for an Oracle Fusion or Oracle E-Business Suite \(EBS\) REST entity. The model then sends the request to the Oracle service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/add-an-oracle-rest-entity-to-a-model-operation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/add-an-oracle-rest-entity-to-a-model-operation.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -19,9 +19,9 @@ Set the input parameters, headers, and payload template for an Oracle Fusion or 
 
 ## Before you begin
 
-An Oracle ERP system with a REST connection must be configured. For more information, see [REST API support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-rest-support.md).
+An Oracle ERP system with a REST connection must be configured. For more information, see [REST API support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-rest-support.md).
 
-A read operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
+A read operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 **Note:** With Oracle EBS models, only the read operation is supported.
 
@@ -29,7 +29,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
-This procedure covers the Oracle-specific settings. For the general process of adding a REST entity to a model operation, see [Add a REST entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.md).
+This procedure covers the Oracle-specific settings. For the general process of adding a REST entity to a model operation, see [Add a REST entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.md).
 
 ## Procedure
 
@@ -51,7 +51,7 @@ This procedure covers the Oracle-specific settings. For the general process of a
 
     \[Omitted image "erp-add-oracle-rest-entity-to-model1.jpg"\] Alt text: Add entity page with oracle typed into select service field and two options displayed.
 
-    If you don't see the service you need, add the service. For more information, see [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
+    If you don't see the service you need, add the service. For more information, see [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
 
 9.  In **REST Services**, select a **REST service** from the drop-down list.
 

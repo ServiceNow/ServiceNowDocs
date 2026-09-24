@@ -2,7 +2,7 @@
 title: Exploring Recommended Actions for Operational Technology Service Management \(OTSM\)
 description: Recommended Actions for Operational Technology Service Management \(OTSM\) allows you to set up and apply real-time actionable recommendations for speeding up the triaging process and resolving issues quickly across various records in the including Operational Technology \(OT\) incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/recommended-actions-for-otsm/exploring-recommended-actions-otsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/recommended-actions-for-otsm/exploring-recommended-actions-otsm.html
 release: australia
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
@@ -26,8 +26,8 @@ The workflow for Recommended Actions for OTSM includes the Use Context. Use the 
 
 **Note:** For OT incidents, you can use guidance based recommendations in the **Recommendations** panel.
 
--   **[Recommended Actions for Operational Technology Service Management \(OTSM\) overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm-overview.md)**  
+-   **[Recommended Actions for Operational Technology Service Management \(OTSM\) overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm-overview.md)**  
 Recommended Actions for Operational Technology Service Management \(OTSM\) includes the following context components used to configure Recommended Actions for various records in the Industrial Workspace, including Operational Technology \(OT\) incidents.
 
-**Parent Topic:**[Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.md)
+**Parent Topic:**[Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.md)
 

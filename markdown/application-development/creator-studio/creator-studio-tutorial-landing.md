@@ -2,7 +2,7 @@
 title: Creator Studio tutorial
 description: Use this tutorial to create a Gift Card Request app to streamline the processes of providing recognition to a team.Begin by creating an app from the Creator Studio home page.Adding a form enables people to make a request. Forms contain questions that people respond to when submitting a service desk request.Customize the form for the gift card request app by manually entering questions. When it's done, you can mark the form as ready to be published.Add a playbook that uses the form that you just created to automate approval for the gift card request app.Customize the lists and submitted records in the workspace where fulfillers can process gift card requests from the. In this list customization, you add a column to view the assignment group.Test your app and then request that an admin review and deploy the app to production.Impersonate an admin to deploy the gift card request app that you created.Use the deployed gift card request app that you just created to request a gift card.Verify that your app is working by checking the Request App Workspace to view the gift card request that you submitted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-tutorial-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/creator-studio-tutorial-landing.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -59,8 +59,8 @@ You can also watch a short video on how to create an app.
 
     \[Omitted image "crs-tutorial-create-app-button.png"\] Alt text: Select the Create app button
 
-    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-collaboration.md).
-    -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-request-app-added.md).
+    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-collaboration.md).
+    -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-request-app-added.md).
 3.  Select the type of app you want to build, such as **Service Desk**.
 
     Service Desk apps enable users to submit requests, report issues, and access support related to services within your company.

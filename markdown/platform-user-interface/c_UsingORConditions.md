@@ -2,7 +2,7 @@
 title: OR conditions
 description: The condition builder uses two different types of OR conditions: top-level and dependent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_UsingORConditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_UsingORConditions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ For example, to return a single list of all active incidents with a category of 
 
 Top-level and dependent OR conditions can be used together. Filters using both types of OR conditions work in the manner \(A or B\) or \(C or D\). By mixing AND conditions with top-level and dependent OR conditions, you can create very specific filters.
 
-**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md)
+**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Filters.md)
 
 **Related topics**  
 

@@ -2,12 +2,12 @@
 title: Activate design-time security metrics
 description: Set up AI Service Graph Connectors for the AI security tools you currently use to import AI model vulnerability and AI validation \(automated red teaming\) data and show it in design-time metrics. To see additional metrics, including details for each metric, install the AI Security Exposure Management plugin \(com.sn\_sec\_ai\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-design-time.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-configure-design-time.html
 release: australia
 topic_type: task
 last_updated: "2026-05-03"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -48,5 +48,5 @@ Until you install the AI Security Exposure Management plugin, a source dropdown 
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configuring.md)
 

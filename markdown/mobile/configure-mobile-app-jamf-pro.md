@@ -2,7 +2,7 @@
 title: Configure the ServiceNow mobile app for Jamf Pro
 description: Use app configuration to pre-configure the instance URL in Jamf Pro.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/configure-mobile-app-jamf-pro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/configure-mobile-app-jamf-pro.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,7 +58,7 @@ Role required: admin
 
 After the instance is configured for the mobile app, configure the app settings to distribute the app to mobile devices in the scope.
 
-**Parent Topic:**[Jamf Pro mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/jamf-mdm.md)
+**Parent Topic:**[Jamf Pro mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/jamf-mdm.md)
 
 **Related topics**  
 

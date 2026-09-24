@@ -2,7 +2,7 @@
 title: Enable notifications in Now Mobile
 description: Allow push notifications on your mobile device when there is an update for a request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/enable-notification-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/enable-notification-mobile.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -36,7 +36,7 @@ Role required: admin
     -   Request Rejected
     -   Agent adds comment to Requested Item
 
-**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md)
+**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/now-mobile-catalog.md)
 
 **Related topics**  
 

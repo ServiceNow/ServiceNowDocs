@@ -2,7 +2,7 @@
 title: Update set collision resolution
 description: A collision is an update that has a newer local update.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/update-set-collisions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/system-update-sets/update-set-collisions.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -94,5 +94,5 @@ When a customer update is moved from one instance to another, it may be rewritte
 
 **Note:** The default records included in the baseline system will always have the same sys\_id because the instance imports the records as XML files during instance provisioning.
 
-**Parent Topic:**[Compare local update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CompareLocalUpdateSets.md)
+**Parent Topic:**[Compare local update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/t_CompareLocalUpdateSets.md)
 

@@ -2,7 +2,7 @@
 title: Create spoke and build actions using the spoke generation skill in ServiceNow Otto
 description: Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-spk-now-spk-gen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-spk-now-spk-gen.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

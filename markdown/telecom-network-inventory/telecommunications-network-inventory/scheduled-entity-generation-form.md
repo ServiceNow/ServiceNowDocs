@@ -2,7 +2,7 @@
 title: Scheduled Entity Generation form
 description: The Scheduled Entity Generation form enables you to create, review and modify the schedule generation details for a default template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/scheduled-entity-generation-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/scheduled-entity-generation-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -97,10 +97,10 @@ Generate this
 Reference to the template record from which you are generating a scheduled job.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)
+</table>**Parent Topic:**[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)
 
 **Related topics**  
 
 
-[Create a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-default-templates.md)
+[Create a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-default-templates.md)
 

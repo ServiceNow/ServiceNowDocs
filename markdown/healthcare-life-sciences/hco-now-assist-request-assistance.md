@@ -2,7 +2,7 @@
 title: Request care team assistance agentic workflow
 description: Initiate a structured case intake process. Collect all necessary information to create and log a support case for proper tracking and resolution by using the Request care team assistance agentic workflow in ServiceNow Otto for Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-request-assistance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-now-assist-request-assistance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

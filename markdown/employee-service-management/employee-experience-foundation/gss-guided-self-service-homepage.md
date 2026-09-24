@@ -2,7 +2,7 @@
 title: Use Guided Self-Service
 description: Use the Guided Self-Service experience to self-serve, leading to improved productivity, and operational efficiencies for the organization.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -38,9 +38,9 @@ Here is the intuitive step-by-step flow for the use cases.
 
 \[Omitted image "gss-guided-help-employee-leave-flow.gif"\] Alt text: Leave request - Guided Self-Service in Employee Center and its intuitive uses.
 
-For more information, see [Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md).
+For more information, see [Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md).
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

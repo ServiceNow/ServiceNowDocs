@@ -2,7 +2,7 @@
 title: Contract Management Pro MCP Server
 description: Contract fulfillers and reviewers can review and redline contract documents in an external AI tool that retrieves approved playbook containing clause level organizational positions from Contract Management Pro through the MCP Server. The AI tool proposes redlines that follow the playbook guidance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-negotiation-mcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-negotiation-mcp.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,7 +25,7 @@ Generative AI may produce inaccurate or incomplete information. Review AI-genera
 
 The Contract Management Pro MCP Server connects MCP-compatible external AI tools to Contract Management Pro. This enables contract fulfillers and reviewers to access approved playbook containing clause level organizational positions while reviewing documents. When an AI tool calls the playbook tool, the server returns the active playbook for the contract type.
 
-To configure MCP server, see [Configure Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-install-mcp-app.md).
+To configure MCP server, see [Configure Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-install-mcp-app.md).
 
 ## Key benefits
 

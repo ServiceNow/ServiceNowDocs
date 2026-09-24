@@ -2,7 +2,7 @@
 title: Create a drop off list
 description: Agents can create a drop off list of assets at any time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CreateADropOffList.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/t\_CreateADropOffList.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -26,7 +26,7 @@ As an example, the agent might have several assets that were removed when comple
 
 After creating a drop-off list, there are two ways to add items to the list.
 
--   Use the **Add Defective** button to add items that are in their personal stockroom with a substate of **Defective**. For more information about defective items, see [Recording Asset Usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_RecordAssetUsage.md).
+-   Use the **Add Defective** button to add items that are in their personal stockroom with a substate of **Defective**. For more information about defective items, see [Recording Asset Usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/t_RecordAssetUsage.md).
 -   Create a transfer order line for an item in the personal stockroom.
 
     The item cannot have a substate of **Reserved** or **Defective**, and cannot already be included on another drop off list.

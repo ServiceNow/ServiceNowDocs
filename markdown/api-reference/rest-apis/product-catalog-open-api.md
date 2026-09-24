@@ -2,7 +2,7 @@
 title: Product Catalog Open API
 description: The Product Catalog Open API provides endpoints to create and retrieve product catalogs, product offerings, and product specifications.Deletes the specified product offering.Inactivates, but doesn't delete, a price list line with a specific sys\_id.Deletes or archives the specified product specification.Retrieves a list of all product offering catalogs.Retrieves a product offering catalog.Retrieves all product offerings or a subset of product offerings, based on specified filter settings.Retrieves a specific product offering.Retrieves all price list line records in the instance.Retrieve details about a specific price list line.Retrieves all product specification records.Retrieves a specified product specification record.Updates the specified product offering.Updates a price list line record with a given sys\_id in the Price list line \[sn\_csm\_pricing\_price\_list\_line\] table.Updates the specified product specification.Creates a product offering catalog.Creates a product offering and associated product offering bundles.Creates a new price list line record in the Price List Line \[sn\_csm\_pricing\_price\_list\_line\] table.Creates a product specification record with the specified values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/product-catalog-open-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/product-catalog-open-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -34,7 +34,7 @@ This API creates and updates data in the following tables.
 -   Product Specification \[sn\_prd\_pm\_product\_specification\]
 -   Specification Relationship \[sn\_prd\_pm\_specification\_relationship\]
 
-**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## Product Catalog Open API - DELETE /sn\_tmf\_api/catalogmanagement/productOffering/\{id\}
 
@@ -75,7 +75,7 @@ Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -100,7 +100,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -171,7 +171,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -196,7 +196,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_onp_pnw_22c"><thead><tr><th>
 
@@ -303,7 +303,7 @@ Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_u3k_cgq_mbc" class="rest_api_request_headers"><thead><tr><th>
 
@@ -328,7 +328,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -419,7 +419,7 @@ Default: 0
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -471,7 +471,7 @@ For paginated queries, this header specifies the total number of records availab
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_v1h_tcm_lsb"><thead><tr><th>
 
@@ -683,7 +683,7 @@ Default: All fields.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -695,7 +695,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_nxj_ykz_gsb"><thead><tr><th>
 
@@ -929,7 +929,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -981,7 +981,7 @@ For paginated queries, this header specifies the total number of records availab
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_qhs_scm_lsb"><thead><tr><th>
 
@@ -2299,7 +2299,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2311,7 +2311,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_nxj_ykz_gsb"><thead><tr><th>
 
@@ -3590,7 +3590,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -3602,7 +3602,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_fj4_nnw_22c"><thead><tr><th>
 
@@ -4159,7 +4159,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -4171,7 +4171,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -4649,7 +4649,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_kqy_wgy_fsb" class="rest_api_request_headers"><thead><tr><th>
 
@@ -4714,7 +4714,7 @@ For paginated queries, this header specifies the total number of records availab
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_xss_rcm_lsb"><thead><tr><th>
 
@@ -5626,7 +5626,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -5638,7 +5638,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_nxj_ykz_gsb"><thead><tr><th>
 
@@ -7629,7 +7629,7 @@ Table: In the external\_version field of the Product Offering \[sn\_prd\_pm\_pro
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -7642,7 +7642,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -7664,7 +7664,7 @@ Description
 
 bundledGroupProductOffering
 
-</td><td id="d4803e285">
+</td><td id="d3086e285">
 
 Child groups of product offerings. These show hierarchical sub-grouping.Data type: Array of Objects
 
@@ -7683,7 +7683,7 @@ Child groups of product offerings. These show hierarchical sub-grouping.Data typ
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption
 
-</td><td id="d4803e298">
+</td><td id="d3086e298">
 
 A range of numbers that specifies the lower and upper limits of the number of the associated product offering that can be procured as part of the related bundled product offering.Data type: Object
 
@@ -7698,7 +7698,7 @@ A range of numbers that specifies the lower and upper limits of the number of th
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d4803e311">
+</td><td id="d3086e311">
 
 Lower limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -7706,7 +7706,7 @@ Lower limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d4803e322">
+</td><td id="d3086e322">
 
 Upper limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -7714,7 +7714,7 @@ Upper limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledProductOffering
 
-</td><td id="d4803e333">
+</td><td id="d3086e333">
 
 Child groups of product offerings associated with the bundle. Same format as **bundledProductOffering** specified below.Data type: Array of Objects
 
@@ -7722,7 +7722,7 @@ Child groups of product offerings associated with the bundle. Same format as **b
 
 bundledGroupProductOffering.​id
 
-</td><td id="d4803e387">
+</td><td id="d3086e387">
 
 Sys\_id of the bundled group record. Useful in cases where the parent product offering or group includes multiple groups.Data type: String
 
@@ -7732,7 +7732,7 @@ Table: Product Offering Relationship Group \[sn\_prd\_pm\_product\_offering\_rel
 
 bundledGroupProductOffering.​name
 
-</td><td id="d4803e400">
+</td><td id="d3086e400">
 
 Name of the group of child product offerings.Data type: String
 
@@ -7760,7 +7760,7 @@ List of product offerings included in the product offering bundle. The product o
 
 bundledProductOffering.​bundledProductOfferingOption
 
-</td><td id="d4803e425">
+</td><td id="d3086e425">
 
 Product bundle options such as the default number of product offerings and any upper and lower product offering procurement constraints.Data type: Object
 
@@ -7776,7 +7776,7 @@ Product bundle options such as the default number of product offerings and any u
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferDefault
 
-</td><td id="d4803e438">
+</td><td id="d3086e438">
 
 Default number of product offerings that should be procured as part of the related bundled product offering.Data type: String
 
@@ -7786,7 +7786,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d4803e451">
+</td><td id="d3086e451">
 
 Lower limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -7796,7 +7796,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d4803e464">
+</td><td id="d3086e464">
 
 Upper limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -7806,7 +7806,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​externalId
 
-</td><td id="d4803e477">
+</td><td id="d3086e477">
 
 External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-offering-relationships.md).
 
@@ -7816,7 +7816,7 @@ Data type: String
 
 bundledProductOffering.​id
 
-</td><td id="d4803e505">
+</td><td id="d3086e505">
 
 Sys\_id or external ID of the bundled product offering.Data type: String
 
@@ -7826,7 +7826,7 @@ Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
 
 bundledProductOffering.​name
 
-</td><td id="d4803e518">
+</td><td id="d3086e518">
 
 Name of the product offering bundle.Data type: String
 
@@ -7834,7 +7834,7 @@ Name of the product offering bundle.Data type: String
 
 bundledProductOffering.​version
 
-</td><td id="d4803e529">
+</td><td id="d3086e529">
 
 Catalog version of the product offering. Data type: String
 
@@ -7929,7 +7929,7 @@ Description of the product offering.Data type: String
 
 displayName
 
-</td><td id="d4803e542">
+</td><td id="d3086e542">
 
 Display name of the product offering.Data type: String
 
@@ -7997,7 +7997,7 @@ Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offe
 
 isBundle
 
-</td><td id="d4803e619">
+</td><td id="d3086e619">
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
@@ -8012,7 +8012,7 @@ Default: false
 
 isSellable
 
-</td><td id="d4803e642">
+</td><td id="d3086e642">
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
@@ -8057,7 +8057,7 @@ Name of the product offering.Data type: String
 
 prodSpecCharValueUse
 
-</td><td id="d4803e692">
+</td><td id="d3086e692">
 
 Product offering characteristics.Data type: Array of Objects
 
@@ -8077,7 +8077,7 @@ Product offering characteristics.Data type: Array of Objects
 
 prodSpecCharValueUse.​description
 
-</td><td id="d4803e705">
+</td><td id="d3086e705">
 
 Description of the characteristic.Data type: String
 
@@ -8095,7 +8095,7 @@ Data type: String
 
 prodSpecCharValueUse.​productSpecCharacteristicValue
 
-</td><td id="d4803e730">
+</td><td id="d3086e730">
 
 List of the possible values of the characteristic.
 
@@ -8116,7 +8116,7 @@ Data type: Array of Objects
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
-</td><td id="d4803e746">
+</td><td id="d3086e746">
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
@@ -8129,7 +8129,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
-</td><td id="d4803e767">
+</td><td id="d3086e767">
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
@@ -8142,7 +8142,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor
 
-</td><td id="d4803e789">
+</td><td id="d3086e789">
 
 Date and time of when the characteristic is valid.Data type: Object
 
@@ -8156,7 +8156,7 @@ Date and time of when the characteristic is valid.Data type: Object
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor.​startDateTime
 
-</td><td id="d4803e802">
+</td><td id="d3086e802">
 
 Start date and time of when the characteristic value is valid.Data type: String
 
@@ -8166,7 +8166,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​value
 
-</td><td id="d4803e815">
+</td><td id="d3086e815">
 
 Value of the characteristic.
 
@@ -8176,7 +8176,7 @@ Data type: String
 
 prodSpecCharValueUse.​validFor
 
-</td><td id="d4803e829">
+</td><td id="d3086e829">
 
 Date range the characteristic is valid for.Data type: Object
 
@@ -8190,7 +8190,7 @@ Date range the characteristic is valid for.Data type: Object
 
 prodSpecCharValueUse.​validFor.​startDateTime
 
-</td><td id="d4803e842">
+</td><td id="d3086e842">
 
 Start date of the characteristic.Data type: String
 
@@ -8200,7 +8200,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​valueType
 
-</td><td id="d4803e855">
+</td><td id="d3086e855">
 
 Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Possible values:
 
@@ -8258,7 +8258,7 @@ Value of the characteristic.Data type: String
 
 productOfferingCharacteristic
 
-</td><td id="d4803e918">
+</td><td id="d3086e918">
 
 Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md).
 
@@ -8278,7 +8278,7 @@ productOfferingCharacteristic": [ 
 
 productOfferingCharacteristic.​characteristicValueSpecification
 
-</td><td id="d4803e936">
+</td><td id="d3086e936">
 
 List of characteristic values associated with the product offering characteristic.Data type: Array of Objects
 
@@ -8296,7 +8296,7 @@ List of characteristic values associated with the product offering characteristi
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
-</td><td id="d4803e949">
+</td><td id="d3086e949">
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
@@ -8311,7 +8311,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
-</td><td id="d4803e972">
+</td><td id="d3086e972">
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
@@ -8326,7 +8326,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​value
 
-</td><td id="d4803e995">
+</td><td id="d3086e995">
 
 Number or text assigned to the associated product specification characteristic .For example:
 
@@ -8347,7 +8347,7 @@ Data type: String
 
 productOfferingCharacteristic.​name
 
-</td><td id="d4803e1010">
+</td><td id="d3086e1010">
 
 Name of the associated product offering characteristic.Data type: String
 
@@ -8355,7 +8355,7 @@ Name of the associated product offering characteristic.Data type: String
 
 productOfferingCharacteristic.​valueType
 
-</td><td id="d4803e1022">
+</td><td id="d3086e1022">
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
@@ -8541,7 +8541,7 @@ Table: In the external\_version field of the Product Offering \[sn\_prd\_pm\_pro
 
 status
 
-</td><td id="d4803e1163">
+</td><td id="d3086e1163">
 
 Status of the product offering.Possible values:
 
@@ -9305,7 +9305,7 @@ Data type: String \(glide\_date\)
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -9317,7 +9317,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_onp_pnw_22c"><thead><tr><th>
 
@@ -10254,7 +10254,7 @@ Table: In the external\_version field of the Product Specification \[sn\_prd\_pm
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -10266,7 +10266,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_nxj_ykz_gsb"><thead><tr><th>
 
@@ -11503,7 +11503,7 @@ Required. Name of the product offering catalog.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -11516,7 +11516,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_fbw_k3z_gsb"><thead><tr><th>
 
@@ -12551,7 +12551,7 @@ Table: In the external\_version field of the Product Offering \[sn\_prd\_pm\_pro
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -12564,7 +12564,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_fbw_k3z_gsb"><thead><tr><th>
 
@@ -12606,7 +12606,7 @@ Description
 
 bundledGroupProductOffering
 
-</td><td id="d4803e285">
+</td><td id="d3086e285">
 
 Child groups of product offerings. These show hierarchical sub-grouping.Data type: Array of Objects
 
@@ -12625,7 +12625,7 @@ Child groups of product offerings. These show hierarchical sub-grouping.Data typ
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption
 
-</td><td id="d4803e298">
+</td><td id="d3086e298">
 
 A range of numbers that specifies the lower and upper limits of the number of the associated product offering that can be procured as part of the related bundled product offering.Data type: Object
 
@@ -12640,7 +12640,7 @@ A range of numbers that specifies the lower and upper limits of the number of th
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d4803e311">
+</td><td id="d3086e311">
 
 Lower limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -12648,7 +12648,7 @@ Lower limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d4803e322">
+</td><td id="d3086e322">
 
 Upper limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -12656,7 +12656,7 @@ Upper limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledProductOffering
 
-</td><td id="d4803e333">
+</td><td id="d3086e333">
 
 Child groups of product offerings associated with the bundle. Same format as **bundledProductOffering** specified below.Data type: Array of Objects
 
@@ -12664,7 +12664,7 @@ Child groups of product offerings associated with the bundle. Same format as **b
 
 bundledGroupProductOffering.​id
 
-</td><td id="d4803e387">
+</td><td id="d3086e387">
 
 Sys\_id of the bundled group record. Useful in cases where the parent product offering or group includes multiple groups.Data type: String
 
@@ -12674,7 +12674,7 @@ Table: Product Offering Relationship Group \[sn\_prd\_pm\_product\_offering\_rel
 
 bundledGroupProductOffering.​name
 
-</td><td id="d4803e400">
+</td><td id="d3086e400">
 
 Name of the group of child product offerings.Data type: String
 
@@ -12682,7 +12682,7 @@ Name of the group of child product offerings.Data type: String
 
 bundledProductOffering
 
-</td><td id="d4803e411">
+</td><td id="d3086e411">
 
 List of product offerings included in the product offering bundle. The product offering bundle inherits all of the attributes of the included product offerings.Data type: Array of Objects
 
@@ -12703,7 +12703,7 @@ List of product offerings included in the product offering bundle. The product o
 
 bundledProductOffering.​bundledProductOfferingOption
 
-</td><td id="d4803e425">
+</td><td id="d3086e425">
 
 Product bundle options such as the default number of product offerings and any upper and lower product offering procurement constraints.Data type: Object
 
@@ -12719,7 +12719,7 @@ Product bundle options such as the default number of product offerings and any u
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferDefault
 
-</td><td id="d4803e438">
+</td><td id="d3086e438">
 
 Default number of product offerings that should be procured as part of the related bundled product offering.Data type: String
 
@@ -12729,7 +12729,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d4803e451">
+</td><td id="d3086e451">
 
 Lower limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -12739,7 +12739,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d4803e464">
+</td><td id="d3086e464">
 
 Upper limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -12749,7 +12749,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​externalId
 
-</td><td id="d4803e477">
+</td><td id="d3086e477">
 
 External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-offering-relationships.md).
 
@@ -12767,7 +12767,7 @@ Relative link to the associated product offering.Data type: String
 
 bundledProductOffering.​id
 
-</td><td id="d4803e505">
+</td><td id="d3086e505">
 
 Sys\_id or external ID of the bundled product offering.Data type: String
 
@@ -12777,7 +12777,7 @@ Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
 
 bundledProductOffering.​name
 
-</td><td id="d4803e518">
+</td><td id="d3086e518">
 
 Name of the product offering bundle.Data type: String
 
@@ -12785,7 +12785,7 @@ Name of the product offering bundle.Data type: String
 
 bundledProductOffering.​version
 
-</td><td id="d4803e529">
+</td><td id="d3086e529">
 
 Catalog version of the product offering. Data type: String
 
@@ -12940,7 +12940,7 @@ Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offe
 
 isBundle
 
-</td><td id="d4803e619">
+</td><td id="d3086e619">
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
@@ -12955,7 +12955,7 @@ Default: false
 
 isSellable
 
-</td><td id="d4803e642">
+</td><td id="d3086e642">
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
@@ -13002,7 +13002,7 @@ Name of the product offering.Data type: String
 
 prodSpecCharValueUse
 
-</td><td id="d4803e692">
+</td><td id="d3086e692">
 
 Product offering characteristics.Data type: Array of Objects
 
@@ -13022,7 +13022,7 @@ Product offering characteristics.Data type: Array of Objects
 
 prodSpecCharValueUse.​description
 
-</td><td id="d4803e705">
+</td><td id="d3086e705">
 
 Description of the characteristic.Data type: String
 
@@ -13030,7 +13030,7 @@ Description of the characteristic.Data type: String
 
 prodSpecCharValueUse.​name
 
-</td><td id="d4803e716">
+</td><td id="d3086e716">
 
 Name of the characteristic.
 
@@ -13040,7 +13040,7 @@ Data type: String
 
 prodSpecCharValueUse.​productSpecCharacteristicValue
 
-</td><td id="d4803e730">
+</td><td id="d3086e730">
 
 List of the possible values of the characteristic.
 
@@ -13061,7 +13061,7 @@ Data type: Array of Objects
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
-</td><td id="d4803e746">
+</td><td id="d3086e746">
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
@@ -13074,7 +13074,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
-</td><td id="d4803e767">
+</td><td id="d3086e767">
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
@@ -13087,7 +13087,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor
 
-</td><td id="d4803e789">
+</td><td id="d3086e789">
 
 Date and time of when the characteristic is valid.Data type: Object
 
@@ -13101,7 +13101,7 @@ Date and time of when the characteristic is valid.Data type: Object
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor.​startDateTime
 
-</td><td id="d4803e802">
+</td><td id="d3086e802">
 
 Start date and time of when the characteristic value is valid.Data type: String
 
@@ -13111,7 +13111,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​value
 
-</td><td id="d4803e815">
+</td><td id="d3086e815">
 
 Value of the characteristic.
 
@@ -13121,7 +13121,7 @@ Data type: String
 
 prodSpecCharValueUse.​validFor
 
-</td><td id="d4803e829">
+</td><td id="d3086e829">
 
 Date range the characteristic is valid for.Data type: Object
 
@@ -13135,7 +13135,7 @@ Date range the characteristic is valid for.Data type: Object
 
 prodSpecCharValueUse.​validFor.​startDateTime
 
-</td><td id="d4803e842">
+</td><td id="d3086e842">
 
 Start date of the characteristic.Data type: String
 
@@ -13145,7 +13145,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​valueType
 
-</td><td id="d4803e855">
+</td><td id="d3086e855">
 
 Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Possible values:
 
@@ -13203,7 +13203,7 @@ Value of the characteristic.Data type: String
 
 productOfferingCharacteristic
 
-</td><td id="d4803e918">
+</td><td id="d3086e918">
 
 Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md).
 
@@ -13223,7 +13223,7 @@ productOfferingCharacteristic": [ 
 
 productOfferingCharacteristic.​characteristicValueSpecification
 
-</td><td id="d4803e936">
+</td><td id="d3086e936">
 
 List of characteristic values associated with the product offering characteristic.Data type: Array of Objects
 
@@ -13241,7 +13241,7 @@ List of characteristic values associated with the product offering characteristi
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
-</td><td id="d4803e949">
+</td><td id="d3086e949">
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
@@ -13256,7 +13256,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
-</td><td id="d4803e972">
+</td><td id="d3086e972">
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
@@ -13271,7 +13271,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​value
 
-</td><td id="d4803e995">
+</td><td id="d3086e995">
 
 Number or text assigned to the associated product specification characteristic .For example:
 
@@ -13292,7 +13292,7 @@ Data type: String
 
 productOfferingCharacteristic.​name
 
-</td><td id="d4803e1010">
+</td><td id="d3086e1010">
 
 Name of the associated product offering characteristic.Data type: String
 
@@ -13300,7 +13300,7 @@ Name of the associated product offering characteristic.Data type: String
 
 productOfferingCharacteristic.​valueType
 
-</td><td id="d4803e1022">
+</td><td id="d3086e1022">
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
@@ -14177,7 +14177,7 @@ Data type: String \(glide\_date\)
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -14189,7 +14189,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_onp_pnw_22c"><thead><tr><th>
 
@@ -15185,7 +15185,7 @@ Table: In the external\_version field of the Product Specification \[sn\_prd\_pm
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -15198,7 +15198,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_fbw_k3z_gsb"><thead><tr><th>
 

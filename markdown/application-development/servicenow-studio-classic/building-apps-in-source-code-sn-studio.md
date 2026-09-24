@@ -2,7 +2,7 @@
 title: Building apps in source code in ServiceNow Studio
 description: Developing and maintaining applications in source code enables you to create and modify complex applications, manage code in source control more easily, and catch errors at build time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -17,7 +17,7 @@ breadcrumb: [Use, ServiceNow Studio, Developing your application, Building appli
 
 Developing and maintaining applications in source code enables you to create and modify complex applications, manage code in source control more easily, and catch errors at build time.
 
-To create apps in ServiceNow Studio, you use ServiceNow Fluent, a domain-specific programming language, to define the metadata that makes up applications. ServiceNow Fluent includes APIs for defining the different types of metadata. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md).
+To create apps in ServiceNow Studio, you use ServiceNow Fluent, a domain-specific programming language, to define the metadata that makes up applications. ServiceNow Fluent includes APIs for defining the different types of metadata. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md).
 
 ## Workspaces
 
@@ -116,7 +116,7 @@ now.config.json
 
 </td><td>
 
-File containing the ServiceNow application configuration. The `now.config.json` file must be in the base directory for an application. You can configure aspects of an application by adding support parameters. For more information, see [Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-config-source-code.md).
+File containing the ServiceNow application configuration. The `now.config.json` file must be in the base directory for an application. You can configure aspects of an application by adding support parameters. For more information, see [Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-config-source-code.md).
 
 </td></tr><tr><td>
 
@@ -143,14 +143,14 @@ package.json
 File containing information about your application and custom or third-party module dependencies. The `package.json` file must be in the base directory for an application. On an instance, the `package.json` path is specified in the **Package JSON** field of the custom application record \[sys\_app\] in the format `<scope>/<package-name>/<version>/package.json`.
 
 </td></tr></tbody>
-</table>-   **[Create an app in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/create-an-app-in-source-code.md)**  
+</table>-   **[Create an app in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/create-an-app-in-source-code.md)**  
 Create an application to develop in source code in ServiceNow Studio.
--   **[Convert an application to Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/convert-app-to-fluent.md)**  
+-   **[Convert an application to Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/convert-app-to-fluent.md)**  
 Convert an existing application to support development in source code with ServiceNow Studio.
--   **[Build and install a Fluent app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/build-install-fluent-app-sns.md)**  
+-   **[Build and install a Fluent app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/build-install-fluent-app-sns.md)**  
 Build an application to compile its source code and install application changes across an instance from ServiceNow Studio.
--   **[Synchronizing Fluent apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/synchronizing-fluent-apps.md)**  
+-   **[Synchronizing Fluent apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/synchronizing-fluent-apps.md)**  
 Synchronizing an application in ServiceNow Studio downloads and transforms application metadata into ServiceNow Fluent code.
 
-**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/using-servicenow-studio.md)
+**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 

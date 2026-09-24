@@ -2,7 +2,7 @@
 title: Components installed with the CRM Outlook Add-in
 description: User roles are installed with activation of the CRM Outlook Add-in plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-crm-outlook-add-in.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/components-installed-crm-outlook-add-in.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -61,5 +61,5 @@ Associates emails to existing or new CRM entities using the ServiceNow CRM for O
 -   sn\_nb\_action.next\_best\_action\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)
+</table>**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activity-management-reference.md)
 

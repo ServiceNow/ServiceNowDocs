@@ -2,7 +2,7 @@
 title: Help
 description: Access release notes, how to videos, and more from the Instance Observer Help Center page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-help.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-help.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,5 +21,5 @@ There are four menu options in the Help Center:
 -   Release Notes: Contains information regarding each Instance Observer release.
 -   How to Docs: Access documentation directly related to Instance Observer functionality.
 
-**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-overview.md)
 

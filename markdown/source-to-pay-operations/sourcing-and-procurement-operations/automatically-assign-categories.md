@@ -2,7 +2,7 @@
 title: Automatically assign categories during SR and PR creation
 description: AI-driven category prediction automatically assigns product and spend categories when sourcing requests, purchase requisitions, or purchase orders are created or updated, ensuring consistent classification at the line level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,7 +22,7 @@ When working with sourcing requests \(SRs\), purchase requisitions \(PRs\), purc
 
 View the Spend categorization agent by navigating to **All** &gt; **AI Agent Studio** &gt; **Create and manage** &gt; **Spend categorization agent**.
 
-For more information about enabling and configuring this agent, see [Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md).
+For more information about enabling and configuring this agent, see [Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md).
 
 ## Classification solutions used for predictions
 
@@ -92,7 +92,7 @@ The Spend categorization agent uses a three-tier fallback chain to predict produ
 |2|RAG Semantic Search|Returns no result and `sn_spend_gen_ai.enable_category_fallback_logic` is set to `true`|
 |3|Product category predictor and Spend category predictor skills|None|
 
-**Note:** When a product category is already populated on a purchase request line \(PRL\), spend category candidates are filtered based on the spend-category-to-product-category mappings in the Spend Categories table. For more information, see [Map spend categories to product categories manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/map-spend-product-categories.md).
+**Note:** When a product category is already populated on a purchase request line \(PRL\), spend category candidates are filtered based on the spend-category-to-product-category mappings in the Spend Categories table. For more information, see [Map spend categories to product categories manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/map-spend-product-categories.md).
 
 If one spend category is mapped, it is auto-selected without further ML or RAG input. If multiple spend categories are mapped, ML and RAG results are filtered to that mapped set only. If no mapping exists, the full result set is used.
 
@@ -110,14 +110,14 @@ Any user-selected overrides are captured and used to improve future model accura
 
 The prediction model also analyzes information in documents attached to the SR or PR, such as the product name and product description, to predict the product and spend categories.
 
--   **[Audit purchase lines automatically when predictive fields change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/audit-prls-predictive-fields.md)**  
+-   **[Audit purchase lines automatically when predictive fields change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/audit-prls-predictive-fields.md)**  
 Automated audit compares existing categories with the latest AI prediction when key predictive fields are updated in a sourcing request or purchase requisition, flagging inconsistencies without automatically updating category fields.
--   **[Predict categories for PRLs and POLs imported through integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/predict-categories-integrations.md)**  
+-   **[Predict categories for PRLs and POLs imported through integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/predict-categories-integrations.md)**  
 Automatically predict and assign product and spend categories for imported purchase requisition lines and purchase order lines using scheduled on-demand scripts.
--   **[Ensure consistent invoice spend categories during PO matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/invoice-po-spend-categories.md)**  
+-   **[Ensure consistent invoice spend categories during PO matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/invoice-po-spend-categories.md)**  
 Maintain aligned spend categories when matching invoice lines with purchase order lines by applying the spend category from the PO line to the corresponding invoice line.
 
-**Parent Topic:**[Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md)
+**Parent Topic:**[Explore ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md)
 
 **Related topics**  
 

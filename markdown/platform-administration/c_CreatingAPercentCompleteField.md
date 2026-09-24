@@ -2,7 +2,7 @@
 title: Percent complete field type
 description: Administrators can create percent complete fields, which accept decimal input and appear as progress bars when displayed in lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_CreatingAPercentCompleteField.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_CreatingAPercentCompleteField.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

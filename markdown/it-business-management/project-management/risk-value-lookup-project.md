@@ -2,7 +2,7 @@
 title: Configure custom Risk rank and Risk value for a project
 description: Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/risk-value-lookup-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/risk-value-lookup-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -49,7 +49,7 @@ For example, a risk might have high probability and medium impact but you might 
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Risk value matcher form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/risk-value-matcher-form.md).
+    For more information, see [Risk value matcher form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/risk-value-matcher-form.md).
 
 4.  Select **Submit**.
 
@@ -57,9 +57,9 @@ For example, a risk might have high probability and medium impact but you might 
 **Related topics**  
 
 
-[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md)
+[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ridac-entries-for-project.md)
 
-[Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/convert-ridac-for-project.md)
+[Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/convert-ridac-for-project.md)
 
-[Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md)
+[Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/reassociate-ridac-project.md)
 

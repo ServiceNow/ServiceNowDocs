@@ -2,7 +2,7 @@
 title: Document Intelligence workspace with Now Assist
 description: Use the Document Intelligence workspace to review the generative AI predictions made by Now Assist for a document or image file. You can also identify missing information in the file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/document-intelligence-workspace-with-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-in-document-intelligence/document-intelligence-workspace-with-now-assist.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -55,7 +55,7 @@ If Now Assist can detect the source of its prediction in the document, it will h
 
 When you are reviewing a document for extraction, you can use various controls to maximize the viewing area, zoom, or focus on the areas that you need.
 
-You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
+You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 ## Extraction reviewpanel
 

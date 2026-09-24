@@ -2,7 +2,7 @@
 title: Workflow Studio flow integrations
 description: Expand the capabilities of Workflow Studio flows with additional subscriptions and spokes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-designer-integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-designer-integrations.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -48,7 +48,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)
+[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer.md)
 
 </td><td>
 
@@ -68,8 +68,8 @@ Build flows to run robots on Microsoft Windows systems.
 
 Add application-specific content to Workflow Studio by installing spokes.
 
--   **[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)**  
+-   **[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/spokes.md)**  
 Add application-specific content to Workflow Studio by installing spokes.
 
-**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-reference.md)
+**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-designer-reference.md)
 

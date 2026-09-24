@@ -2,7 +2,7 @@
 title: Manage your time cards
 description: View, edit, or delete your time cards from your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/manage-timecard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/time-card-management/manage-timecard.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -91,5 +91,5 @@ To delete a time card:-   Tap **Delete time card**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/timesheet-mobile.md)
+**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/timesheet-mobile.md)
 

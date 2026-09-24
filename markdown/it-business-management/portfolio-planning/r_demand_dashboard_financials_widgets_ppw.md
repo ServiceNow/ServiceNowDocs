@@ -2,7 +2,7 @@
 title: Financials tab
 description: The Financials tab of the demand dashboard summarizes planned cost, financial benefit, and return on investment \(ROI\) across demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/r\_demand\_dashboard\_financials\_widgets\_ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/r\_demand\_dashboard\_financials\_widgets\_ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

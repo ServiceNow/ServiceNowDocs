@@ -2,7 +2,7 @@
 title: Components installed with the item generation process
 description: Several types of components are installed with the item generation process, including tables, scheduled jobs, and action handlers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/components-item-gen-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/components-item-gen-process.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -173,7 +173,7 @@ Handler to be called when you perform one of the following actions:-   Add entit
 -   Remove entity type from item.
 
 </td></tr></tbody>
-</table>**Note:** For more information on the item generation process for common controls, see [the new action types in generation of items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/item-gen-action-types.md).
+</table>**Note:** For more information on the item generation process for common controls, see [the new action types in generation of items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/item-gen-action-types.md).
 
 ## Roles and users for the new item generation process
 
@@ -253,5 +253,5 @@ sn\_risk.manager
 -   Modify risk statements that are added to a risk framework.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using the item generation process to generate controls and risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/item-generation-process.md)
+</table>**Parent Topic:**[Using the item generation process to generate controls and risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/item-generation-process.md)
 

@@ -2,7 +2,7 @@
 title: Respond to an anonymous chat request
 description: Select a chat request from the chat queue and respond to a guest user's question or comment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/respond-anonymous-chat-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/respond-anonymous-chat-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

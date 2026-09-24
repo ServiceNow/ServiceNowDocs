@@ -2,7 +2,7 @@
 title: Transferring Virtual Agent conversations to a live agent
 description: Manage live chat support, including the chat support interface used when a Virtual Agent conversation is transferred to a live agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/transfer-to-live-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/transfer-to-live-agent.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -26,7 +26,7 @@ Conversations in Virtual Agent are transferred to a live agent in several ways. 
 
     \[Omitted image "va-error-transfer.png"\] Alt text: Virtual Agent chat window displaying, "An unrecoverable error has occurred. Please stand by while I connect you to a live agent."
 
-    **Note:** If you don't plan to use Agent Chat, be sure to deactivate it in the Agent Chat settings. For more information, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+    **Note:** If you don't plan to use Agent Chat, be sure to deactivate it in the Agent Chat settings. For more information, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 -   **Automatic transfer to a live agent that is triggered by a script in a topic**
 
@@ -51,7 +51,7 @@ Conversations in Virtual Agent are transferred to a live agent in several ways. 
 
     You can choose the **Contact support** option and then select **Contact Live Agent** to transfer the conversation to a live agent.
 
-    **Note:** Users running a Virtual Agent messaging integration must enter the command `Hi` or `agent` to access the live agent transfer option. If your environment isn't configured for live agents, the `agent` command doesn't work. For more information, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
+    **Note:** Users running a Virtual Agent messaging integration must enter the command `Hi` or `agent` to access the live agent transfer option. If your environment isn't configured for live agents, the `agent` command doesn't work. For more information, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
     \[Omitted image "va-manual-transfer.png"\] Alt text: Virtual Agent chat window and contact support options.
 
@@ -62,7 +62,7 @@ Conversations in Virtual Agent are transferred to a live agent in several ways. 
 
 ## How Virtual Agent conversation transfers work
 
-For a user engaged in a Virtual Agent conversation, the switch to a live agent is a seamless transfer. When a transfer is triggered, either automatically or by a user manually, the conversation is automatically routed to the appropriate chat support interface, based on your [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md). In Agent Chat settings, admins also define the general messages that users see during live agent transfers.
+For a user engaged in a Virtual Agent conversation, the switch to a live agent is a seamless transfer. When a transfer is triggered, either automatically or by a user manually, the conversation is automatically routed to the appropriate chat support interface, based on your [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md). In Agent Chat settings, admins also define the general messages that users see during live agent transfers.
 
 If you're using Agent Workspace, the conversation is automatically routed and assigned to an available live agent. If you're using Connect Support, the conversation is routed to the chat support queue that you specify.
 
@@ -78,12 +78,12 @@ If you're using Agent Workspace, the conversation is automatically routed and as
 
     If you're using Connect Support, the virtual agent conversation is routed to the appropriate chat support queue. For the user, the conversation with the agent continues in the Virtual Agent client interface. In Connect Support, the agent accepts the queue with the transferred user to join the conversation and interact with the user.
 
-    In earlier releases, admins used the Chat Setup form to assign the default chat queues for Customer Service Management, HR Service Delivery, and IT Service Management or a global queue to which Virtual Agent conversations were automatically routed if default queues weren’t assigned. These queues, which admins defined in Connect Support, are stored in the Chat Queues \[chat\_queue\] table. If you're using Connect Support as the fulfiller interface and must change chat settings, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) for details.
+    In earlier releases, admins used the Chat Setup form to assign the default chat queues for Customer Service Management, HR Service Delivery, and IT Service Management or a global queue to which Virtual Agent conversations were automatically routed if default queues weren’t assigned. These queues, which admins defined in Connect Support, are stored in the Chat Queues \[chat\_queue\] table. If you're using Connect Support as the fulfiller interface and must change chat settings, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) for details.
 
 
 ## User sentiment
 
-When configured, user sentiment analysis is performed on Virtual Agent and live agent conversations. The user sentiment is stored in the Interaction Insights \[sys\_cs\_interaction\_insight\] table. For details, see [Interaction Insights table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-interaction-insights-table.md).
+When configured, user sentiment analysis is performed on Virtual Agent and live agent conversations. The user sentiment is stored in the Interaction Insights \[sys\_cs\_interaction\_insight\] table. For details, see [Interaction Insights table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-interaction-insights-table.md).
 
-**Parent Topic:**[Using Virtual Agent with a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-agent-chat.md)
+**Parent Topic:**[Using Virtual Agent with a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-va-agent-chat.md)
 

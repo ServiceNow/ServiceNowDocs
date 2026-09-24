@@ -2,7 +2,7 @@
 title: Loan Deferment workflow
 description: Learn how bank agents, using the Loan Deferment workflow, resolve a loan service request for a temporary postponement of a scheduled loan repayment. The workflow applies to both business and personal loan service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/loan-deferment-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/loan-deferment-workflow.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations

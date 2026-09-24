@@ -2,7 +2,7 @@
 title: Service health status for install base
 description: View the real-time health status of a customer's install base. Correlate customer issues with the operational health of their install base to provide more informed responses to your customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-health-pcso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/service-health-pcso.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -59,9 +59,9 @@ This feature requires the Proactive Customer Service Operations with Event Manag
 **Related topics**  
 
 
-[Integration with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/pcso-event-management.md)
+[Integration with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/pcso-event-management.md)
 
-[Configure form views for Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-form-views.md)
+[Configure form views for Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-form-views.md)
 
-[Track the service health of install base items in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-health-tracking-csm.md)
+[Track the service health of install base items in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/service-health-tracking-csm.md)
 

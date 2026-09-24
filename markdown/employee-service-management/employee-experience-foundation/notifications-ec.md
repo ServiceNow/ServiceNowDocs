@@ -2,7 +2,7 @@
 title: Notifications for Employee Center
 description: Notifications for Employee Center functionality provides a unified notifications experience on the portal for different tasks, activities, and other relevant information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/notifications-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/notifications-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -61,7 +61,7 @@ Notifications actions available for each notification are:
     -   Next week
 -   Clear notification
 
-For more information on configuring notifications, see [Configure notifications for portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-notification-ec.md).
+For more information on configuring notifications, see [Configure notifications for portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-notification-ec.md).
 
 ## Notifications in Content engagement for Employee Center Pro
 
@@ -78,7 +78,7 @@ Get Notifications for Employee Center in the Browser Extension for Employee Cent
 
 You must have the Browser Extension for Employee Center plugin \(sn\_ex\_brw\_ext\) version 1.0 installed to get the default Notifications configuration **ECBE configuration**.
 
-The **Display mode** available for the **ECBE configuration** is only **Page view**. For more information on Notifications configuration for your portal, see [Configure notifications for portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-notification-ec.md).
+The **Display mode** available for the **ECBE configuration** is only **Page view**. For more information on Notifications configuration for your portal, see [Configure notifications for portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-notification-ec.md).
 
-For more information on the field values in the portal notification configuration form, see [Portal notification configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/portal-notif-config-form.md).
+For more information on the field values in the portal notification configuration form, see [Portal notification configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/portal-notif-config-form.md).
 

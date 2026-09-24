@@ -2,7 +2,7 @@
 title: Using chat in Agent Workspace for HR Case Management
 description: Agent chat for Agent Workspace for HR Case Management enables you to ask questions and receive information through live or virtual agent chat.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-chat.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -26,7 +26,7 @@ Agent chat for Agent Workspace for HR Case Management enables you to ask questio
 
     For example, an employee initiates a chat requesting information about your company's benefits. Having a benefits subgroup with agents that specialize in your company's benefits directs the employee's chat to the correct agents.
 
-    For more information about HR groups, see [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md).
+    For more information about HR groups, see [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ManageHRGroups.md).
 
 -   **Interaction records**
 
@@ -44,6 +44,6 @@ Agent chat for Agent Workspace for HR Case Management enables you to ask questio
 
     Automating chat can enhance the employee experience by addressing queries immediately. At any time during a virtual chat, the employee can request to interact with a live HR agent.
 
-    For more information on virtual agent, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md).
+    For more information on virtual agent, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md).
 
 

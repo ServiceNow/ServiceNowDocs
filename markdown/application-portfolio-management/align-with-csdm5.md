@@ -2,7 +2,7 @@
 title: CSDM shapes support in the Enterprise Modeling and Visualization
 description: ServiceNow CSDM data model defines standardized relationships between service-related objects in the CMDB. It ensures consistency across ITSM, ITOM, and EA practices. In Enterprise Architecture Workspace, CSDM shapes represent these objects visually in diagrams, enabling architects to model business capabilities, applications, services, and technical components in alignment with the Now Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/align-with-csdm5.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/align-with-csdm5.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -61,10 +61,10 @@ CSDM 5 introduces seven domains, each grouping related entities. Shapes in Enter
 |Software Product|Foundation|Represents actual software product offered or used|Microsoft Office Suite|
 |Product Feature|Foundation|Represents specific capability or function of a product|Multi-factor Authentication feature|
 
-**Parent Topic:**[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md)
+**Parent Topic:**[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling.md)
 
 **Related topics**  
 
 
-[Common Service Data Model \(CSDM\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-csdm-shapes.md)
+[Common Service Data Model \(CSDM\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-csdm-shapes.md)
 

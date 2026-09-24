@@ -2,7 +2,7 @@
 title: Product catalog
 description: A product catalog defines the products and services that your organization sells and supports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-product-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-product-catalog.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"

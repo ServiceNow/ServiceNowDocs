@@ -2,7 +2,7 @@
 title: Threat group to technique heatmap definition
 description: Define the threat group to technique heatmap definition so that on the heatmap you can measure and detect the attack patterns that threat groups are using to attack your organization. The probability of an attack using a particular technique increases when you have a high number of attackers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-group-to-technique-heatmap-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-group-to-technique-heatmap-definition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -81,7 +81,7 @@ Description about the threat group range and definition.
 3.  To add an entry, select **New**, complete the entries, and select **Submit**.
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

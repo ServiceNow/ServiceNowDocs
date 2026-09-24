@@ -2,7 +2,7 @@
 title: Set up webhook for your Workday Financials spoke
 description: Set up a webhook to get the data from the Workday Financials application to your ServiceNow instance when an event occurs.Generate user name and password in your ServiceNow instance to authenticate requests and retrieve the required data from the Workday application.Retrieve the resource path from your ServiceNow instance for later use to authenticate requests and retrieve the required data from the Workday applicationImport CLAR file available at ServiceNow Store to set up webhooks and authenticate requests from ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhk-wd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-webhk-wd.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,7 +18,7 @@ Set up a webhook to get the data from the Workday Financials application to your
 
 ## Before you begin
 
--   [Set up the Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md)
+-   [Set up the Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-workday-fin-spoke.md)
 -   Role required: admin
 
 ## Generate user name and password in your ServiceNow instance
@@ -140,7 +140,7 @@ Endpoint
 
 </td><td>
 
-REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
+REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -161,7 +161,7 @@ POST
 
     \[Omitted image "conf-int-attributes-wd-fin.png"\] Alt text: Configure integration attributes
 
-14. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md).
+14. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-webhk-wd.md).
 
     \[Omitted image "username-password-wd.png"\] Alt text: Configure username and password
 

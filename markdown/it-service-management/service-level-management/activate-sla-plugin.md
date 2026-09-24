@@ -2,7 +2,7 @@
 title: Activate Service Level Management
 description: You can activate the Service Level Management plugin \(com.snc.sla\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/activate-sla-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/activate-sla-plugin.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -39,10 +39,10 @@ Activating this plugin, provides the core SLA functional.ities.
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/r_InstalledWithServiceLevelMgmt.md)**  
+-   **[Installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/r_InstalledWithServiceLevelMgmt.md)**  
 Activating the Service Level Management plugin adds or modifies these components: tables, properties, UI actions, UI policies, script includes, client scripts, business rules, email notifications, scheduled jobs, and workflows.
 
-**Parent Topic:**[Service Level Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-plugins.md)
+**Parent Topic:**[Service Level Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/sla-plugins.md)
 
 **Related topics**  
 

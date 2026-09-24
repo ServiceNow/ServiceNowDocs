@@ -2,7 +2,7 @@
 title: Launch an alert analysis from the ServiceNow Otto panel
 description: Initiate an alert analysis from the ServiceNow Otto panel. The alert analysis displays directly in the panel for convenient review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-analysis-now-assist-panel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/alert-analysis-now-assist-panel.html
 release: australia
 product: Event Management
 classification: event-management
@@ -19,7 +19,7 @@ Initiate an alert analysis from the ServiceNow Otto panel. The alert analysis di
 
 ## Before you begin
 
-Install the ServiceNow Otto for ITOM plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+Install the ServiceNow Otto for ITOM plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
 
 For comprehensive information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 

@@ -2,7 +2,7 @@
 title: View supplier tax information
 description: Supplier managers can view all tax information records for a supplier from the supplier record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-tax-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-tax-information.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -36,5 +36,5 @@ The **Tax Information** related link on the supplier record displays all tax rec
     A list of all tax records for the supplier appears, showing the tax ID, tax type, and country for each record.
 
 
-**Parent Topic:**[Verify tax information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/validate-tax-information.md)
+**Parent Topic:**[Verify tax information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/validate-tax-information.md)
 

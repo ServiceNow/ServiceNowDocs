@@ -2,7 +2,7 @@
 title: Add supplier inbound data in an Excel file
 description: You can import supplier inbound table data in an Excel file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -41,12 +41,12 @@ Depending on the supplier inbound table you selected, an Excel template is creat
 
 ## What to do next
 
-Load the supplier data from the excel template into the supplier inbound​ staging tables. For more information, see [Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md).
+Load the supplier data from the excel template into the supplier inbound​ staging tables. For more information, see [Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md).
 
-**Parent Topic:**[Supplier Lifecycle Operations integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-int-framework.md)
+**Parent Topic:**[Supplier Lifecycle Operations integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/slo-int-framework.md)
 
 **Related topics**  
 
 
-[Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md)
+[Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md)
 

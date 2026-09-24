@@ -2,7 +2,7 @@
 title: Modules in the Configuration Console for HAM
 description: Module-by-module listing of the setup items in the Configuration Console for HAM, with descriptions of what each item configures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/config-console-modules-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/config-console-modules-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -38,7 +38,7 @@ HAM Resource Category
 
 </td><td>
 
-Opt in or opt out of the Hardware Asset Management resource categories that are part of your HAM subscription. For more details, see [Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md).
+Opt in or opt out of the Hardware Asset Management resource categories that are part of your HAM subscription. For more details, see [Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md).
 
 </td><td>
 
@@ -50,7 +50,7 @@ Content service setup
 
 </td><td>
 
-Opt in or opt out of the Hardware Asset Management Content Service for each model category. When opted in, your ServiceNow instance shares unrecognized hardware and consumable model details with ServiceNow to improve the normalization library. For more information, see [Opt-in to the Hardware Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/opt-in-hardware-normalization.md)
+Opt in or opt out of the Hardware Asset Management Content Service for each model category. When opted in, your ServiceNow instance shares unrecognized hardware and consumable model details with ServiceNow to improve the normalization library. For more information, see [Opt-in to the Hardware Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/opt-in-hardware-normalization.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ Hardware content download
 
 </td><td>
 
-View and manage the scheduled jobs that control hardware content downloads. Select a job to review or update its schedule. For more information, see [Import and export content data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/import-export-ham.md).
+View and manage the scheduled jobs that control hardware content downloads. Select a job to review or update its schedule. For more information, see [Import and export content data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/import-export-ham.md).
 
 </td><td>
 
@@ -74,7 +74,7 @@ Custom model categories
 
 </td><td>
 
-Create and manage custom model categories that extend the standard hardware, asset, and consumable model class hierarchy. For more details, see [Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/t_CreatingModelCategories.md).
+Create and manage custom model categories that extend the standard hardware, asset, and consumable model class hierarchy. For more details, see [Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/product-catalog/t_CreatingModelCategories.md).
 
 </td><td>
 
@@ -90,7 +90,7 @@ Access the CMDB success advisor dashboard for HAM to configure discovery probing
     -   The CMDB Success Advisor plugin must be installed.
     -   The sn\_cmdb\_admin and ham\_admin roles are required for full configuration access. With only the ham\_admin role, the dashboard opens in read-only mode.
 
-For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-use.md).
+For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-use.md).
 
 </td><td>
 
@@ -220,7 +220,7 @@ Contract Workflows
 
 </td><td>
 
-Turn the contract renewal flow on or off. When turned on, administrators can choose between the task-based contract renewal workflow and the classic flow. Toggle the setting to the required state. For more details, see [Contract renewal workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/cont-renew-wf.md).
+Turn the contract renewal flow on or off. When turned on, administrators can choose between the task-based contract renewal workflow and the classic flow. Toggle the setting to the required state. For more details, see [Contract renewal workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/cont-renew-wf.md).
 
 </td><td>
 
@@ -234,7 +234,7 @@ Asset Automation
 
 Configure the Asset action column to appear automatically in the related lists of incident and change request records. Select **Configure** to add the column automatically. When you set the **Asset action** field to **Swapped**, the **Swapped CI** field also becomes available and must be completed before you can close the record.
 
-For more details, see [Asset life-cycle automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-lifecycle-automation.md).
+For more details, see [Asset life-cycle automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-lifecycle-automation.md).
 
 </td><td>
 
@@ -295,7 +295,7 @@ Stockroom types
 
 </td><td>
 
-Create and manage stockroom types that classify the stockrooms in your ServiceNow instance. Select an existing type to edit it or select**New** to create a stockroom type. For more information, see [Create a new stockroom type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/t_CreateANewStockroomType.md).
+Create and manage stockroom types that classify the stockrooms in your ServiceNow instance. Select an existing type to edit it or select**New** to create a stockroom type. For more information, see [Create a new stockroom type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/t_CreateANewStockroomType.md).
 
 </td><td>
 
@@ -309,7 +309,7 @@ Stockrooms
 
 Create and manage the stockrooms used to track hardware asset inventory. Select an existing stockroom to update its details or select **Add a stockroom** to create a stockroom.
 
-For more information, see [Create a stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-create-stockroom.md).
+For more information, see [Create a stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/view-create-stockroom.md).
 
 </td><td>
 
@@ -321,7 +321,7 @@ Service locations
 
 </td><td>
 
-View and manage the service locations associated with your stockrooms. Select a record to edit it or select **New** to create a service location. For more information, see [Associate a stockroom with service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.md).
+View and manage the service locations associated with your stockrooms. Select a record to edit it or select **New** to create a service location. For more information, see [Associate a stockroom with service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.md).
 
 </td><td>
 
@@ -333,7 +333,7 @@ Distribution channels
 
 </td><td>
 
-Create and manage the distribution channels that define how hardware assets move between stockrooms. Select an existing channel to edit it or select **New** to create one. For more information, see [Link stockrooms into a distribution channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-distribution-channels.md).
+Create and manage the distribution channels that define how hardware assets move between stockrooms. Select an existing channel to edit it or select **New** to create one. For more information, see [Link stockrooms into a distribution channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/associate-stockroom-with-distribution-channels.md).
 
 </td><td>
 
@@ -358,7 +358,7 @@ Shipping integration profiles
 
 </td><td>
 
-View and manage carrier integration profiles that define the connection between your ServiceNow instance and a shipping carrier API. For more information, see [Create a carrier integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-carrier-integration-profile.md).**Note:** Creating a profile requires completing the carrier API integration separately before the profile can be used. For more information, see [Creating an integration script include for third-party carrier applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/creating-integration-script-include-ham.md).
+View and manage carrier integration profiles that define the connection between your ServiceNow instance and a shipping carrier API. For more information, see [Create a carrier integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-carrier-integration-profile.md).**Note:** Creating a profile requires completing the carrier API integration separately before the profile can be used. For more information, see [Creating an integration script include for third-party carrier applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/creating-integration-script-include-ham.md).
 
 </td><td>
 
@@ -370,7 +370,7 @@ Shipping carriers
 
 </td><td>
 
-Create and manage the shipping carriers used to associate with an integration profile.Select **New** to add a carrier and enter the details needed to support API integration with that carrier's shipping system. For more information, see [Create a shipping carrier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-shipping-carrier.md).
+Create and manage the shipping carriers used to associate with an integration profile.Select **New** to add a carrier and enter the details needed to support API integration with that carrier's shipping system. For more information, see [Create a shipping carrier record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-shipping-carrier.md).
 
 </td><td>
 
@@ -382,12 +382,12 @@ Zero touch refresh
 
 </td><td>
 
-Create and manage zero touch refresh models that define which hardware assets are eligible for refresh. Select **New** to create a model, specifying the hardware model and location. When a model is active, eligible assets are automatically identified for refresh based on the configured criteria. For more information, see [Configure replacement models for a refresh model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-replacement-model.md).
+Create and manage zero touch refresh models that define which hardware assets are eligible for refresh. Select **New** to create a model, specifying the hardware model and location. When a model is active, eligible assets are automatically identified for refresh based on the configured criteria. For more information, see [Configure replacement models for a refresh model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-replacement-model.md).
 
 </td><td>
 
 ham\_admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

@@ -2,7 +2,7 @@
 title: Service Exchange configuration for Zero Touch Refresh
 description: The Zero Touch Refresh flow uses the Service Exchange application to connect providers with your ServiceNow instance to manage asset refresh requests. Your employees and the provider can work on requests in their own environments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/service-bridge-config-ztr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/service-bridge-config-ztr.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -25,12 +25,12 @@ Providers should perform the following setup tasks to communicate the details of
     **Note:** To migrate from the legacy Service Exchange application, see [Migrate from Service Exchange \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-migrate.md).
 
 2.  [Onboard a new Service Exchange customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-onboarding.md).
-3.  [Trigger the assignment of a remote task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-rtd-for-providers.md).
+3.  [Trigger the assignment of a remote task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-rtd-for-providers.md).
 
 ## Service Exchange setup for employee requests
 
 Perform the following setup to communicate the details of Zero Touch Refresh requests with the provider:
 
 1.  [Install Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/install-service-bridge-v2-customer.md).
-2.  [Activate the remote task definitions published by the provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/activate-rtd-for-customers.md).
+2.  [Activate the remote task definitions published by the provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/activate-rtd-for-customers.md).
 

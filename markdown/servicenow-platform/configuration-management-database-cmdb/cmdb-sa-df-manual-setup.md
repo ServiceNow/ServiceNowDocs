@@ -2,7 +2,7 @@
 title: Set up the Data Foundations advisor dashboard manually
 description: If the Data Foundations advisor dashboard was not configured automatically, set it up manually by selecting the principal classes that define the Data Foundations scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-manual-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-manual-setup.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -25,17 +25,17 @@ Role required: sn\_cmdb\_admin
 
 1.  On the CMDB success advisor landing page, select **Set principal classes**.
 
-    For more information about the CMDB success advisor landing page, see [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md). For information about other ways to access CMDB success advisor, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
+    For more information about the CMDB success advisor landing page, see [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-landing-page.md). For information about other ways to access CMDB success advisor, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-access.md).
 
 2.  On the Set principal classes dialog box, select a group to choose all its classes, or expand a group to select individual classes. Move the selected classes from the **Available classes** column to the **Selected classes** column.
 
     Any CI classes added to an application-specific advisor dashboard such as for Hardware Asset Management \(HAM\) are automatically monitored as principal classes.
 
-    The number of principal classes you can select is set in the CMDB Advisor Content Template \[sn\_cmdb\_advisor\_content\_template\] table. The default configuration enables you to select up to 200 principal classes. For more information, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-components-installed.md).
+    The number of principal classes you can select is set in the CMDB Advisor Content Template \[sn\_cmdb\_advisor\_content\_template\] table. The default configuration enables you to select up to 200 principal classes. For more information, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-components-installed.md).
 
     CI classes on the exclusion list aren't shown in the **Available classes** column.
 
-    **Tip:** The **Recommended additions** group, shown at the top of the Group list, includes CI classes ranked by recent incident, problem, and change \(IPC\) activity. You can start with these recommended principal classes to improve foundational CMDB data and maximize operational value. To learn more, see [CI class recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-recom.md).
+    **Tip:** The **Recommended additions** group, shown at the top of the Group list, includes CI classes ranked by recent incident, problem, and change \(IPC\) activity. You can start with these recommended principal classes to improve foundational CMDB data and maximize operational value. To learn more, see [CI class recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-recom.md).
 
 3.  To remove a CI class, select X icon next to the class in the **Selected classes** column.
 

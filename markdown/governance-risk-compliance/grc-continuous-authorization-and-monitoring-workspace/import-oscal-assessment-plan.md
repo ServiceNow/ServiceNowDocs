@@ -2,7 +2,7 @@
 title: Import an OSCAL Assessment Plan \(AP\)
 description: Import OSCAL Assessment Plan files to automatically create engagements, control tests, and assessment procedures in your authorization package.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-assessment-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-assessment-plan.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -158,5 +158,5 @@ The import wizard guides you through file attachment, user mapping, and preview 
     Verify engagements were created, control tests exist for expected controls, and test plans are populated with assessment procedures.
 
 
-**Parent Topic:**[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
+**Parent Topic:**[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
 

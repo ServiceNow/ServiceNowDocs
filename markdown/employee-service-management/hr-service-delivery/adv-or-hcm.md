@@ -2,7 +2,7 @@
 title: HR Service Delivery Advanced Integration with Oracle HCM
 description: The ServiceNow HR Service Delivery Advanced Integration with Oracle HCM is built by Bristlecone, Inc.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/adv-or-hcm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/adv-or-hcm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +27,7 @@ It enables you to complete the following Oracle HCM tasks from a ServiceNow inst
 
 ## Application setup
 
-First, you must activate HR Service Delivery Advanced Integration with Oracle HCM application from the ServiceNow Store. The Oracle HCM Cloud spoke \[sn\_oracle\_hcm\_spoke\], Human Resources Scoped App: Core \[com.sn\_hr\_core\] and [HR Service Delivery Portal UI Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/portal-components.md) \[com.sn\_hr\_portal\_components\] applications are automatically installed.
+First, you must activate HR Service Delivery Advanced Integration with Oracle HCM application from the ServiceNow Store. The Oracle HCM Cloud spoke \[sn\_oracle\_hcm\_spoke\], Human Resources Scoped App: Core \[com.sn\_hr\_core\] and [HR Service Delivery Portal UI Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/portal-components.md) \[com.sn\_hr\_portal\_components\] applications are automatically installed.
 
 Next, you must set up [Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-oracle-hcm.md).
 

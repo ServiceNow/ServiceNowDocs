@@ -2,7 +2,7 @@
 title: Assess risk for a policy exception
 description: After the review of a policy exception request and before deciding to approve or reject a request, the compliance manager may choose to request a risk assessment by the risk manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/assess-the-risk-on-policy-exception.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/assess-the-risk-on-policy-exception.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -22,7 +22,7 @@ Role required: compliance manager
 
 ## About this task
 
-For more information, see [Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md).
+For more information, see [Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md).
 
 ## Procedure
 
@@ -149,5 +149,5 @@ Click the Task SLAs tab.
 </table>6.  Click **Update**.
 
 
-**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
+**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
 

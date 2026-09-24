@@ -2,7 +2,7 @@
 title: Create or edit planning attributes
 description: Create or edit planning attributes to plan and forecast your resources and financials for a project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/configure-planning-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/configure-planning-attributes.html
 release: australia
 product: Project Management
 classification: project-management
@@ -43,7 +43,7 @@ Description
 1.  Select **New**.
 2.  On the Planning attribute form, fill the fields.
 
-For a description of the field values, see [Planning attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/planning-attributes-form.md).
+For a description of the field values, see [Planning attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/planning-attributes-form.md).
 
 3.  Select **Submit**.
 
@@ -87,5 +87,5 @@ The attribute is created and the planning attributes screen is displayed.
 **Related topics**  
 
 
-[Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/planning-attributes.md)
+[Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/planning-attributes.md)
 

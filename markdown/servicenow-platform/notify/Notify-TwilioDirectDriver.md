@@ -2,7 +2,7 @@
 title: Notify Twilio Direct driver
 description: The Notify-Twilio integration with the Notify-Twilio Direct driver provides APIs and workflow activities for applications to handle various notification features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/Notify-TwilioDirectDriver.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/Notify-TwilioDirectDriver.html
 release: australia
 product: Notify
 classification: notify
@@ -42,10 +42,10 @@ For new customers, only the Notify-Twilio Direct driver is available by default.
 
 The Notify plugin must be active to access Notify.
 
-**Parent Topic:**[Exploring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/exploring-notify.md)
+**Parent Topic:**[Exploring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/exploring-notify.md)
 
 **Related topics**  
 
 
-[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
+[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
 

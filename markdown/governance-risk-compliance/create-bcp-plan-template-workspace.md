@@ -2,7 +2,7 @@
 title: Create a business continuity plan from a plan template
 description: As a program manager you can create a plan for the respective business units that can be used in times of business disruption. You can use a specific plan template for each plan type to streamline the process of a plan creation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-bcp-plan-template-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-bcp-plan-template-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ As a BCM program manager you can create a plan by clicking the **New** button. W
 
     **Note:**
 
-    The tabs that are available in the Plan view depend on the value that you have selected in the **Plan authoring type** field of the [Configure a business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bcp-template.md) that is used in this plan.
+    The tabs that are available in the Plan view depend on the value that you have selected in the **Plan authoring type** field of the [Configure a business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-bcp-template.md) that is used in this plan.
 
     \[Omitted image "PlanTabAuthoringType.png"\] Alt text: Plan authoring type values
 

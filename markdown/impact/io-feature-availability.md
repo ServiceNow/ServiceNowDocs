@@ -2,7 +2,7 @@
 title: Feature availability based on package
 description: The table outlines the access permissions for Performance Analytics features across production and sub production instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-feature-availability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-feature-availability.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-06"
@@ -54,7 +54,7 @@ Allows you to adjust an anomaly tolerance by manipulating the percentage range o
 -   When you hover over the chart following the alert, the normal range and adjusted data range distribution \(upper boundary and lower boundary\) will be displayed for quick comparison.
 -   If the lower boundary value exceeds the upper boundary, the range width will prevent the lower limit from surpassing the upper limit.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

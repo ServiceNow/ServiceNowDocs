@@ -2,7 +2,7 @@
 title: Phone number field type
 description: The E.164 phone number standard ensures that all necessary information for a phone number is included and properly formatted to successfully route an international call over a territory's public telephone network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_UsePhoneNumberFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_UsePhoneNumberFields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

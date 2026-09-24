@@ -2,7 +2,7 @@
 title: Create Action item form for events
 description: Use the Create New Action item form in the BCM Configurable Workspace to add action items about a crisis event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-action-item-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-action-item-events.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -144,5 +144,5 @@ Due date
 Due date for the action item.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create task and assessment-type action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-action-items-in-events.md)
+</table>**Parent Topic:**[Create task and assessment-type action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-action-items-in-events.md)
 

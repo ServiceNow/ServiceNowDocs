@@ -2,7 +2,7 @@
 title: Scheduled jobs for SLA
 description: SLA has default scheduled jobs to regularly refresh the time calculations on each active task SLA.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_ScheduledJobsForSLA.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/c\_ScheduledJobsForSLA.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -28,7 +28,7 @@ SLA has default scheduled jobs to regularly refresh the time calculations on eac
 
 Scheduled job runs more frequently when the task SLA is closer to being breached.
 
-**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-management-reference.md)
 
 **Related topics**  
 
@@ -37,5 +37,5 @@ Scheduled job runs more frequently when the task SLA is closer to being breached
 
 [Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAScheduledJob.md)
 
-[SLA engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_ConfigureSLAProperties.md)
+[SLA engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/t_ConfigureSLAProperties.md)
 

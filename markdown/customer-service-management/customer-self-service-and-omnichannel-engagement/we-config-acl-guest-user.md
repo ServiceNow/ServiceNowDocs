@@ -2,7 +2,7 @@
 title: Configure ACL for guest access
 description: Enable guest users to access Web Embeddables components by activating the required guest access control lists \(ACLs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-config-acl-guest-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-config-acl-guest-user.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -18,7 +18,7 @@ Enable guest users to access Web Embeddables components by activating the requir
 
 ## Before you begin
 
-You must activate the Web Components for Guest \(sn\_guest\_component\) plugin. For more information, see [Guest users support activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-guest-user-support.md).
+You must activate the Web Components for Guest \(sn\_guest\_component\) plugin. For more information, see [Guest users support activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-guest-user-support.md).
 
 Role required: security\_admin
 

@@ -2,7 +2,7 @@
 title: Security Operations CrowdStrike Falcon Host - Publish to Watchlist Flow
 description: The Security Operations CrowdStrike Falcon Host - Publish to Watchlist flow designer is used to specify the watchlist for generating alert or events. The alerts and events are displayed in the CrowdStrike Falcon Host system based on how it is configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secops-integration-crowdstrike-publish.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/secops-integration-crowdstrike-publish.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -18,5 +18,5 @@ The **Security Operations CrowdStrike Falcon Host - Publish to Watchlist** flow 
 
 ## Publish to Watchlist Flow
 
-This flow designer is triggered by the [Security Operations Integration- Publish to Watchlist capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/pubish-to-watchlist-capability.md) when you select one or more observables associated with a security incident, and use the Publish to Watchlist UI action to push the observables to a watchlist. The observables can then be used to generate additional alerts. For more information, see [Publish observables to a third-party watchlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/run-publish-watchlist.md).\[Omitted image "crowdstrike-falcon-host-publish-to-watchlist.png"\] Alt text: Flow Designer for Security Incident Response integration with CrowdStrike Falcon Insight - Sighting Search
+This flow designer is triggered by the [Security Operations Integration- Publish to Watchlist capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/pubish-to-watchlist-capability.md) when you select one or more observables associated with a security incident, and use the Publish to Watchlist UI action to push the observables to a watchlist. The observables can then be used to generate additional alerts. For more information, see [Publish observables to a third-party watchlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/run-publish-watchlist.md).\[Omitted image "crowdstrike-falcon-host-publish-to-watchlist.png"\] Alt text: Flow Designer for Security Incident Response integration with CrowdStrike Falcon Insight - Sighting Search
 

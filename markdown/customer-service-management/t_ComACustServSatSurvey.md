@@ -2,7 +2,7 @@
 title: Complete a customer service satisfaction survey
 description: After accepting a proposed solution for a case, complete a customer service satisfaction survey.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ComACustServSatSurvey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_ComACustServSatSurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,5 +32,5 @@ To complete the survey:
 **Related topics**  
 
 
-[Close a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-close-case-from-portal.md)
+[Close a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-close-case-from-portal.md)
 

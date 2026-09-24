@@ -2,7 +2,7 @@
 title: Amazon S3 data input configuration fields
 description: Description of the fields on the Amazon S3 data input configuration form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-s3-ref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-input-s3-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -282,5 +282,5 @@ The AWS region where the Amazon S3 bucket is located, for example, us-west-1. Fo
 |Polling interval|The interval, in seconds, to wait before polling for new events.|0|
 |Drop if queue is full|Option to discard logs if there is a load on the MID Server.|False|
 
-**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

@@ -2,7 +2,7 @@
 title: \(Optional\) Advanced SAML properties
 description: The following advanced settings allow you to further increase security and debug the integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/r\_SetAdvancedSystemProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/r\_SetAdvancedSystemProperties.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,7 +2,7 @@
 title: ServiceNow Remote Instance Spoke
 description: Integrate your local and remote ServiceNow instances to export, import, and manage records from your local instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/remote-instance-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/remote-instance-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -357,7 +357,7 @@ The ServiceNow Remote Instance spoke provides the Remote Instance Admin \(sn\_no
 
 The ServiceNow Remote Instance spoke provides sample transform maps in active state and associated sample target tables to demonstrate using transform maps to save the remote ServiceNow instance data in your local ServiceNow tables. You can use these sample transform maps and target tables as reference to create transform maps as per your requirement.
 
-For more information, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md).
+For more information, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md).
 
 **Note:**
 
@@ -369,5 +369,5 @@ For more information, see [Transform maps](https://raw.githubusercontent.com/Ser
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-Two connection and credential aliases are required for this spoke; one for the local instance and other for the remote instance. For information about setting up the spoke, see [Set up the ServiceNow Remote Instance spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-rem-instance.md).
+Two connection and credential aliases are required for this spoke; one for the local instance and other for the remote instance. For information about setting up the spoke, see [Set up the ServiceNow Remote Instance spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-rem-instance.md).
 

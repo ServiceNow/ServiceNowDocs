@@ -2,7 +2,7 @@
 title: Metric instance
 description: A metric instance is a record in the metric\_instance table. A record holds one instance of a metric.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_MetricInstance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_MetricInstance.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

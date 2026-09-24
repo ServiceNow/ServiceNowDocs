@@ -2,7 +2,7 @@
 title: Diagnose and resolve an order task
 description: As a customer service agent, review, diagnose, and resolve, and close an order task for the service-related issue experienced by the customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/diagnose-resolve-order-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/diagnose-resolve-order-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

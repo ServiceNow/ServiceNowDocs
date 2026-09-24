@@ -2,7 +2,7 @@
 title: Input parameters for Remedial action in Proactive Engagement
 description: Additional input parameters are listed based on the type of remedial action chosen. Advanced settings for each of those input parameters list the information of the input parameters of the selected remedial action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/advanced-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/proactive-engagement/advanced-settings.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -30,5 +30,5 @@ Only text, boolean, or choice are the supported format for the input parameters.
 
 **Note:** Check the alert action of Proactive Engagement to configure the input parameters. Currently, input parameters for remedial action cannot be configured from the Proactive Engagement workbench or the Core UI.
 
-**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/proactive-engagement-reference.md)
+**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/proactive-engagement-reference.md)
 

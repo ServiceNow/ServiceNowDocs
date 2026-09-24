@@ -2,7 +2,7 @@
 title: Managing risk and compliance in AI Control Tower
 description: Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-airc-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-13"
@@ -18,23 +18,23 @@ Gain visibility into AI-related risks, compliance posture, and governance outcom
 
 <table id="table_gov-airc-landing" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how Risk and Compliance views help you evaluate AI governance posture across your AI portfolio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how Risk and Compliance views help you evaluate AI governance posture across your AI portfolio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Understand how Risk and Compliance visibility depends on the governance applications, frameworks, and data available in your environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Understand how Risk and Compliance visibility depends on the governance applications, frameworks, and data available in your environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-configuring.md)
 
 </td><td>
 
-[Review risk posture\[Omitted image "bus-learn.svg"\] Alt text:Review aggregated risk posture and understand how inherent risk and control effectiveness affect residual risk.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-risk-posture.md)
+[Review risk posture\[Omitted image "bus-learn.svg"\] Alt text:Review aggregated risk posture and understand how inherent risk and control effectiveness affect residual risk.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-risk-posture.md)
 
 </td></tr><tr><td>
 
-[Review regulatory classification and compliance status\[Omitted image "bus-learn.svg"\] Alt text:Understand regulatory acceptability and compliance posture for priority frameworks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-regulatory-status.md)
+[Review regulatory classification and compliance status\[Omitted image "bus-learn.svg"\] Alt text:Understand regulatory acceptability and compliance posture for priority frameworks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-regulatory-status.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up definitions for key Risk and Compliance terms, such as compliance score, regulatory risk classification, and control effectiveness.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up definitions for key Risk and Compliance terms, such as compliance score, regulatory risk classification, and control effectiveness.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-reference.md)
 
 </td><td>
 
@@ -54,5 +54,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

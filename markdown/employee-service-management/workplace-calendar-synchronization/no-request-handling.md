@@ -2,7 +2,7 @@
 title: No request handling
 description: Make a 'No request' call to test the configuration with the calendar provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/no-request-handling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/no-request-handling.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization

@@ -2,7 +2,7 @@
 title: Assign work based on your teams' skills and capacity
 description: Plan your teams' work and assign work items such as incidents, problems, change requests, or interactions to them based on their skills, availability, and capacity. View your teams' shifts, events, and work assignments and assign or reassign the work items from a central location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/track-tasks-teams-wfo-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/track-tasks-teams-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -20,7 +20,7 @@ Plan your teams' work and assign work items such as incidents, problems, change 
 
 **Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-**Note:** Your administrator must add sys ids for event categories that you want to display in the calendar to the **sn\_wfo\_work\_sched.shift\_data\_categories** system property. For more information, see [Work Scheduler components in Workforce Optimization for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-scheduler-wfo-itsm-reference.md).
+**Note:** Your administrator must add sys ids for event categories that you want to display in the calendar to the **sn\_wfo\_work\_sched.shift\_data\_categories** system property. For more information, see [Work Scheduler components in Workforce Optimization for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/work-scheduler-wfo-itsm-reference.md).
 
 Role required: sn\_wfo\_work\_sched.manager
 
@@ -87,7 +87,7 @@ Analyze the tasks that your agents are assigned to and their actual shift plans.
         -   **WFO - Mandatory skills**— If the task has mandatory and optional skills associated with it, the work scheduler displays agents who have all of the mandatory skills first and then the agents who have the optional skills.
         -   **WFO - Optional skills**— If the task only has optional skills associated with it, then the list displays the agents with the optional skills.
         -   **WFO- Timezone overlap**—The delta between the task time zone and the user's time zone. For example, if the user is located in the Pacific time zone and if the task location is in the Eastern time zone, then it will display as **+3**; if the task location is Hawaii, then it will display as **-3**.
-        To add your own matching rule, see [Create a criteria for a matching rule in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/assignment-rules-work-scheduler-wfo-itsm.md).
+        To add your own matching rule, see [Create a criteria for a matching rule in Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/assignment-rules-work-scheduler-wfo-itsm.md).
 
         All of these criteria are based on the **More is better** ranking method where a higher value is better. For example, when the WFO-Mandatory skills criteria is enabled, team members that have more skills that are mandatory to work on the work item will be ranked higher.
 
@@ -116,5 +116,5 @@ Analyze the tasks that your agents are assigned to and their actual shift plans.
     \[Omitted image "work-scheduler-ui.png"\] Alt text: Work Scheduler screen
 
 
-**Parent Topic:**[Assigning work using Work Scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-scheduler-wfo-itsm.md)
+**Parent Topic:**[Assigning work using Work Scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/work-scheduler-wfo-itsm.md)
 

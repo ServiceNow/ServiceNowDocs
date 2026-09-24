@@ -2,7 +2,7 @@
 title: Configure GDS Service Portal Search Widgets
 description: Configure and use search widgets for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.Configure search for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.Configure the ServiceNow AI Search application for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-govuk-dev-tk-portal-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-02"
@@ -22,7 +22,7 @@ You can also configure **Typeahead** search settings to allow search results to 
 
 Enable AI Search to take advantage of intelligent query features and allow constituents to find the answers they need.
 
-**Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
+**Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-govuk-dev-toolkit.md)
 
 ## Configure search sources in GDS Service Portal
 

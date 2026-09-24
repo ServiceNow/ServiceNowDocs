@@ -2,12 +2,12 @@
 title: Run individual assessment scheduled jobs
 description: Use individual scheduled jobs to assess readiness for generative and agentic AI implementations across your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/run-genai-idividual-assessment-scheduled-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-readiness-evaluation/run-genai-idividual-assessment-scheduled-job.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [Now Assist, agentic AI, readiness evaluation, assessment, scheduled jobs]
 breadcrumb: [Configure, AI Readiness Evaluation, Enable AI experiences]

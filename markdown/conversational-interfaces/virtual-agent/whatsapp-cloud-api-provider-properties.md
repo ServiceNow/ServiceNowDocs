@@ -2,7 +2,7 @@
 title: WhatsApp Cloud API provider properties
 description: Use provider properties to customize the behavior of the Conversational Integration with Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/whatsapp-cloud-api-provider-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/whatsapp-cloud-api-provider-properties.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,10 +22,10 @@ Use provider properties to customize the behavior of the Conversational Integrat
 |**date\_format**|Controls the date format used in WhatsApp messages. Supported formats: `MM/DD/YYYY`, `DD/MM/YYYY`, `YYYY-MM-DD`.|DD/MM/YYYY|
 |**supports\_audio\_rich\_control**|Enables audio component rendering for audio file attachments. When this property is disabled, an audio attachment falls back to a link instead of an inline audio player.|True|
 
-**Parent Topic:**[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-direct-whatsapp-configure.md)
+**Parent Topic:**[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-direct-whatsapp-configure.md)
 
 **Related topics**  
 
 
-[Configure WhatsApp Cloud API provider properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-whatsapp-cloud-api-provider-properties.md)
+[Configure WhatsApp Cloud API provider properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-whatsapp-cloud-api-provider-properties.md)
 

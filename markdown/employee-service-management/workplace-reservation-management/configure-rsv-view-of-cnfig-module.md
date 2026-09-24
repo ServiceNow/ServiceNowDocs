@@ -2,7 +2,7 @@
 title: Configure a reservable view on a reservable module
 description: Assign different views on a reservable mobile. The workplace items of the module can be viewed in the configured views while making a reservation on the Reservation portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/configure-rsv-view-of-cnfig-module.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/configure-rsv-view-of-cnfig-module.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -68,5 +68,5 @@ Role required: admin
 
 The reservable view is added to the module. The workplace items of the module can be viewed in the selected view.
 
-**Parent Topic:**[Create a reservable view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-a-reservable-view.md)
+**Parent Topic:**[Create a reservable view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-a-reservable-view.md)
 

@@ -2,7 +2,7 @@
 title: View the Demands Dashboard
 description: Use the Demands Dashboard to monitor performance, track progress, and make informed decisions about demands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/view-the-demands-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/view-the-demands-dashboard.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

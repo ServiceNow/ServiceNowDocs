@@ -2,7 +2,7 @@
 title: Maintaining your application
 description: Use your app builder tool to update and modify your application. Use your testing tool to verify that your application still functions properly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/maintaining-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/maintaining-applications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

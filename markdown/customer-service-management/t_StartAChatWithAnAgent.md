@@ -2,7 +2,7 @@
 title: Chat with an agent from the Customer Service Portal
 description: Chat with a virtual agent or a customer service agent from the Customer Service Portal to resolve issues quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_StartAChatWithAnAgent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_StartAChatWithAnAgent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ If the agent creates a new case or links the discussion to an existing case, you
 **Related topics**  
 
 
-[Get help using virtual agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-conversation.md)
+[Get help using virtual agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-virtual-agent-conversation.md)
 
-[Create a product case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustPortal.md)
+[Create a product case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_CreateACaseFromCustPortal.md)
 

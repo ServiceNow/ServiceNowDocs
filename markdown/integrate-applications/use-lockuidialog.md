@@ -2,7 +2,7 @@
 title: Use the LockUIDialog component
 description: Provide additional authentication to any step of your attended automation by using the LockUIDialog component in the RPA Desktop Design Studio application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-lockuidialog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-lockuidialog.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -76,7 +76,7 @@ Data Out
 
 </td><td>
 
-True or false value of the authentication. If the authentication is successful, the result is true. If the authentication is unsuccessful, the result is false.The true or false value of the result can be further used to connect to any condition. For more information on how to use the condition components, see [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions-components.md).
+True or false value of the authentication. If the authentication is successful, the result is true. If the authentication is unsuccessful, the result is false.The true or false value of the result can be further used to connect to any condition. For more information on how to use the condition components, see [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/conditions-components.md).
 
 </td><td>
 
@@ -120,5 +120,5 @@ No
     You can also run the automation by selecting **Run** from the **Design** tab.
 
 
-**Parent Topic:**[Dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/dialogs.md)
+**Parent Topic:**[Dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/dialogs.md)
 

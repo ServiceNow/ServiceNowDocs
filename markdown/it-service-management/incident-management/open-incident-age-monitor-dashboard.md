@@ -2,7 +2,7 @@
 title: Legacy: Open Incidents Age Monitor dashboard
 description: View average age and assignment times and breakdown incidents in different age buckets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/open-incident-age-monitor-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/open-incident-age-monitor-dashboard.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -18,7 +18,7 @@ View average age and assignment times and breakdown incidents in different age b
 
 **Important:**
 
-Starting in Xanadu release, the Open Incidents Age Monitor dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the average age and assignment times and breakdown incidents in different age buckets.
+Starting in Xanadu release, the Open Incidents Age Monitor dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident.md) to view the average age and assignment times and breakdown incidents in different age buckets.
 
 \[Omitted image "open-incidents-age-monitor.png"\] Alt text: Open incidents age monitor workbench widget
 
@@ -60,5 +60,5 @@ The following indicators are not shown directly on the dashboard but are used in
 -   Assignment Group
 -   State
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-content-pack.md)
 

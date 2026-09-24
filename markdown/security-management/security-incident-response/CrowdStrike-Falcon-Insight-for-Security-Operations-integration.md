@@ -2,7 +2,7 @@
 title: CrowdStrike Falcon Insight integration
 description: With the CrowdStrike Falcon Insight for Security Operations integration, you can make remediation actions on the endpoints in real time, use profiles to gather details about the host, and make specific queries or actions on the endpoint using the ServiceNow AI Platform Security Incident Response product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/CrowdStrike-Falcon-Insight-for-Security-Operations-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/CrowdStrike-Falcon-Insight-for-Security-Operations-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,7 +46,7 @@ CrowdStrike Falcon Insight for Security Operations
 
 </td><td>
 
-[Getting started with the CrowdStrike Falcon Insight integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/get-started-with-the-crowdstrike-falcon-insight-integration.md)
+[Getting started with the CrowdStrike Falcon Insight integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/get-started-with-the-crowdstrike-falcon-insight-integration.md)
 
 </td></tr></tbody>
 </table>

@@ -2,7 +2,7 @@
 title: Configure event collection from HP OMi
 description: Configure the HP Operations Manager \(OMi\) connector instance to receive alerts from the HP OMi server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-omi-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configure-omi-connector.html
 release: australia
 product: Event Management
 classification: event-management
@@ -97,5 +97,5 @@ Role required: evt\_mgmt\_admin
 8.  After a successful test, select the **Active** check box and then click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

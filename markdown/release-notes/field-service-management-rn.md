@@ -2,7 +2,7 @@
 title: Field Service Management release notes
 description: The ServiceNow Field Service Management \(FSM\) application enables your organization to efficiently manage Field Service operations including work order dispatch, scheduling, and mobile workforce enablement. Field Service Management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/field-service-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/field-service-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -31,8 +31,8 @@ See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/Serv
     Field Service Management is a ServiceNow AI Platform feature that is active by default.
 
 
--   **[ServiceNow Otto for FSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-fsm-rn.md)**  
+-   **[ServiceNow Otto for FSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-for-fsm-rn.md)**  
 The ServiceNow® ServiceNow Otto for FSM application brings generative AI to Field Service Management. ServiceNow Otto for FSM was enhanced and updated in the Australia release.
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 

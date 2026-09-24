@@ -2,7 +2,7 @@
 title: Intent-based order fulfillment
 description: Sales CRM for Telecommunications supports intent-based order fulfillment, translating non-catalog configuration inputs into order tasks without requiring explicit catalog entries for every product variant.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/intent-based-order-fulfillment-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/intent-based-order-fulfillment-somt.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-14"

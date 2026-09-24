@@ -2,7 +2,7 @@
 title: Create a dashboard
 description: Create a dashboard that serves as a home page to assess the health of your instances at a glance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/customize-instance-observer-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/customize-instance-observer-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -79,7 +79,7 @@ Select as the default dashboard to make this dashboard as the new homepage when 
 
 4.  Select **Add Widget**.
 
-    -   Custom: Select custom to add your choice of metric, widgets, and aggregation. Note: Categories are equivalent to the pages available in the [Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md) section.
+    -   Custom: Select custom to add your choice of metric, widgets, and aggregation. Note: Categories are equivalent to the pages available in the [Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-performance.md) section.
     -   Out of the box: Choose from pre-defined widgets available on the base system dashboard to display. Depending on the selected category, the widget varies. These widgets are available for all instances of the account irrespective of the instances selected for the customized dashboard.
     Three widget types are supported:
 
@@ -106,8 +106,8 @@ Select as the default dashboard to make this dashboard as the new homepage when 
         -   Clone: Clone a custom dashboard to use as a baseline for a new dashboard.
         -   Delete: Delete a dashboard, if required. Deleted dashboards will move under the Manage dashboard section and will be available for restoration for 7 days. When a customized dashboard that was set as default is deleted, the dashboard offered by the base system will automatically be your default dashboard.
         -   Manage Dashboard: Lists all dashboards created by the logged in user, shared with the user, and deleted dashboards.
-    For more information, see [Performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-performance-insights.md).
+    For more information, see [Performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-performance-insights.md).
 
 
-**Parent Topic:**[All Instances summary dashboard – snapshot of overall health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md)
+**Parent Topic:**[All Instances summary dashboard – snapshot of overall health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/user-configurable-dashboard.md)
 

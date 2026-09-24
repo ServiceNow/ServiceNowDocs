@@ -2,7 +2,7 @@
 title: Connect ServiceNow Lux Lab for VS Code extension to an instance
 description: Connect the ServiceNow Lux Lab for VS Code extension to your ServiceNow instance to access instance files, deploy changes, and preview your work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"

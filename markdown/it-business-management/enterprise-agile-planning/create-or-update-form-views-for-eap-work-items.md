@@ -2,7 +2,7 @@
 title: Create or update form views for EAP work items
 description: Create or update form views for work item types so that the fields displayed in the Backlog and Planning board pages of Enterprise Agile Planning suit your team requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -86,5 +86,5 @@ You can also rearrange them in the order of your choice.
 
 ## What to do next
 
-[Create or update list view for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.md).
+[Create or update list view for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.md).
 

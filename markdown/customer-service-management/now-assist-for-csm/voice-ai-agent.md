@@ -2,7 +2,7 @@
 title: AI voice agents in CSM
 description: Use the AI voice agents to create cases and check case status through natural, conversational voice calls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/voice-ai-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/voice-ai-agent.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -63,7 +63,7 @@ This interface enables admins to [create a AI voice agents](https://raw.githubus
 **Note:**
 
 -   To enable customer access and use of AI voice agents, an admin must install the plugin Customer Service Management AI agent collection
--   To modify the AI voice agents, duplicate it, and adjust the settings according to your requirements. For more info see, [Configure and customize the AI Voice Agent for ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-and-customize-the-ai-voice-agent-for-csm.md).
+-   To modify the AI voice agents, duplicate it, and adjust the settings according to your requirements. For more info see, [Configure and customize the AI Voice Agent for ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/configure-and-customize-the-ai-voice-agent-for-csm.md).
 
 **Important:**
 

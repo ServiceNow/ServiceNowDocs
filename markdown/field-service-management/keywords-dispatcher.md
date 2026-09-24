@@ -2,7 +2,7 @@
 title: Configure keyword searching in Dispatcher Workspace
 description: Use specific keyword formatting, powered by ServiceNow Zing, to quickly locate tasks and resources in Dispatcher Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/keywords-dispatcher.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/keywords-dispatcher.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -56,5 +56,5 @@ The table below shows what tables Zing searches when you use keywords based on t
 |sn\_fsm\_resource| | | |\[Omitted image "circle-check-fill-24.svg"\] Alt text:| |
 |wm\_crew| | |\[Omitted image "circle-check-fill-24.svg"\] Alt text:| | |
 
-For examples on how to use Zing keywords in Dispatcher Workspace, see [Searching in Dispatcher Workspace examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/search-keyword-example.md).
+For examples on how to use Zing keywords in Dispatcher Workspace, see [Searching in Dispatcher Workspace examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/search-keyword-example.md).
 

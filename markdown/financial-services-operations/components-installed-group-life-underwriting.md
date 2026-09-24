@@ -2,7 +2,7 @@
 title: Components installed with Group Life Underwriting
 description: Several types of components are installed with activation of the Group Life and Disability Underwriting plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/components-installed-group-life-underwriting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/components-installed-group-life-underwriting.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

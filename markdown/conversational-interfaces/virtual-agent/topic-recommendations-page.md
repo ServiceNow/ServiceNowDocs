@@ -2,7 +2,7 @@
 title: Topic Recommendations page
 description: Use the Topic Recommendations page to run analysis reports, view recommendations, add topics to Virtual Agent, or link a recommendation to an existing topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/topic-recommendations-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/topic-recommendations-page.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

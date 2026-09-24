@@ -2,7 +2,7 @@
 title: Configure Document Intelligence using ServiceNow Otto for Accounts Payable Operations \(APO\)
 description: Configure Document Intelligence using AI skills in Accounts Payable Operations to enable AI-powered invoice data extraction.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-di-using-now-assis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/configure-di-using-now-assis.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -53,7 +53,7 @@ DocIntel configured using the **Invoice data extraction** skill is activated suc
 
 ## What to do next
 
-[Copy and activate the generative AI DocIntel flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-gen-ai-di-flow.md)
+[Copy and activate the generative AI DocIntel flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/configure-gen-ai-di-flow.md)
 
 **Related topics**  
 

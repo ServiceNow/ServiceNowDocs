@@ -2,7 +2,7 @@
 title: Goals overview in the Operational Sustainability Workspace \(formerly ESG Workspace\)
 description: Goals refer to objectives that an organization sets for itself to make an impact on their ESG initiatives. They help you to track your progress toward the material topics that you have identified.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/goals-overview-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/goals-overview-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -60,5 +60,5 @@ The risk and compliance posture sections only appears if you integrate with Inte
 
 In the Contextual side panel, you can view the main goal, the associated sub-goals, and their statuses.
 
-**Parent Topic:**[Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-analytics-reporting.md)
+**Parent Topic:**[Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-analytics-reporting.md)
 

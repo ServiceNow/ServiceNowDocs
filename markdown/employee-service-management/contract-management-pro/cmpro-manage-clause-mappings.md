@@ -2,7 +2,7 @@
 title: Manage clause mappings for contract analysis
 description: Manage clause mappings for contract analysis by updating the mapped clause for a field group, deactivating the mappings when not in use, or deleting them when no longer required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-manage-clause-mappings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-manage-clause-mappings.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -41,7 +41,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
         Update the field group to clause mappings for a use case.
 
-        For more information on clause mapping, see [Map a field group to a clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.md).
+        For more information on clause mapping, see [Map a field group to a clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.md).
 
     -   **Deactivate**
 
@@ -58,7 +58,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 AI uses the updated clause mappings to display suggestions for non-standard or missing clauses in a contract document.
 
-**Parent Topic:**[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)
+**Parent Topic:**[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)
 
 **Related topics**  
 
@@ -71,5 +71,5 @@ AI uses the updated clause mappings to display suggestions for non-standard or m
 
 [Deactivate skills for ServiceNow Otto for Contract Management Pro]()
 
-[Map a field group to a clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.md)
+[Map a field group to a clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.md)
 

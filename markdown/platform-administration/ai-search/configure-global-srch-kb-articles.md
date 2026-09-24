@@ -2,7 +2,7 @@
 title: Configure globally searchable knowledge articles
 description: Define an encoded query for knowledge articles that you want to make searchable in any language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-global-srch-kb-articles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/configure-global-srch-kb-articles.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -22,9 +22,9 @@ Role required: ais\_admin
 
 ## About this task
 
-By default, AI Search only matches translated content records, such as knowledge articles, that are in the user's ServiceNow AI Platform® session language. For example, a user searching from a Spanish user session only matches Spanish knowledge articles. For full details on this restriction, see [Searching translated content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/searching-translated-content-ais.md).
+By default, AI Search only matches translated content records, such as knowledge articles, that are in the user's ServiceNow AI Platform® session language. For example, a user searching from a Spanish user session only matches Spanish knowledge articles. For full details on this restriction, see [Searching translated content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/searching-translated-content-ais.md).
 
-**Note:** If you've configured a global fallback locale, search can match translated content records in that locale's language as well as in the user's session language. For more details on this approach, see [Enable a global fallback locale for translated content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-global-fallback-lang-ais.md).
+**Note:** If you've configured a global fallback locale, search can match translated content records in that locale's language as well as in the user's session language. For more details on this approach, see [Enable a global fallback locale for translated content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-global-fallback-lang-ais.md).
 
 To enable users to search for knowledge articles in any language, you can define an encoded query as the value of the **glide.ais.global\_searchable\_filter.kb\_knowledge** system property. Records that match this query are globally searchable, meaning they bypass the normal language filters and can be matched regardless of the search's language. As an example, a user searching from a German user session can match English or Japanese knowledge articles as long as they match the encoded query.
 
@@ -59,5 +59,5 @@ Here is an example that defines the encoded query `kb_category=5681bf8bff0221009
 
 \[Omitted image "global-kb-sys-prop-query-example.png"\] Alt text: glide.ais.global\_searchable\_filter.kb\_knowledge system property form with value kb\_category=5681bf8bff0221009b20ffffffffff95.
 
-**Parent Topic:**[Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/international-language-support-ais.md)
+**Parent Topic:**[Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/international-language-support-ais.md)
 

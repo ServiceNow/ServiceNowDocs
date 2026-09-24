@@ -2,7 +2,7 @@
 title: Domain separation and Notifications
 description: Domain separation is supported in the Notifications application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/domain-separation-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/domain-separation-notifications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -52,7 +52,7 @@ Domain separation is not supported in email accounts for these reasons:
 1.  Sending mail: There is only one SMTP sender per account. This prohibits providing domains for each account, and they are not configurable.
 2.  For receiving Inbound mail: You can set up multiple email accounts but cannot meaningfully set the domain of an inbound email action. Inbound Actions are processed in the domain of the user who sent the email. For example: User\_A in Domain A sends an email to a ServiceNow email account which executes the “Create an incident” inbound email action. The resulting new incident created by the inbound action is in Domain A.
 
-To learn more see [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md).
+To learn more see [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_InboundEmailActions.md).
 
 **Note:** If the number of email accounts exceeds 20, reception of email slows down.
 
@@ -62,7 +62,7 @@ If an instance is using the [Domain separation plugin](https://raw.githubusercon
 
 Solution: Set the \[sys\_overrides\] field on the notification that belongs to the domain so it overrides the setting on global. For more information, see [Delegated administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DelegatedAdministration.md).
 
-**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 

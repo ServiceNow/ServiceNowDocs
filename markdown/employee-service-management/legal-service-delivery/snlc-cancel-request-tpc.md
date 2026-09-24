@@ -2,7 +2,7 @@
 title: Cancel a legal request
 description: Cancel a legal contract request if it is no longer necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-cancel-request-tpc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-cancel-request-tpc.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -41,7 +41,7 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user, sn\_lg\_
 -   The Contract status changes to Contract cancelled.
 -   The document signature sent to signatories is canceled to block further signing. The signatories get an email notification that the legal request has been canceled.
 
-**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Operational Technology Progress Scorecard
 description: The Operational Technology \(OT\) Progress Scorecard lets you compare device and vulnerable item data between your sites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/ot-progress-scorecard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/ot-progress-scorecard.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -27,7 +27,7 @@ You can also view the site data for the following Operational Technology applica
 -   Operational Technology Incident Management
 -   Operational Technology Change Management
 
-You can configure the OT Progress Scorecard using the Industrial Workspace Admin Guided Setup. For more information about the setup tasks, see [Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md).
+You can configure the OT Progress Scorecard using the Industrial Workspace Admin Guided Setup. For more information about the setup tasks, see [Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md).
 
 ## Scorecard contents
 
@@ -49,7 +49,7 @@ Overall Score \(%\)
 
 </td><td>
 
-The progress of your site determined by the indicators on the scorecard. You can edit the weightage to control how much an indicator contributes to the overall score. For more information, see [Set the system properties for the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/set-the-system-properties-for-ot-progress-scorecard.md).
+The progress of your site determined by the indicators on the scorecard. You can edit the weightage to control how much an indicator contributes to the overall score. For more information, see [Set the system properties for the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/set-the-system-properties-for-ot-progress-scorecard.md).
 
 </td></tr><tr><td>
 
@@ -57,7 +57,7 @@ The progress of your site determined by the indicators on the scorecard. You can
 
 </td><td>
 
-The percentage of your OT devices that you expect to have in the Configuration Management Database \(CMDB\).**Note:** If you see a value of -1, then one or more of the values in the % of Expected OT Devices in CMDB indicator is missing the **Expected OT Device** attribute in the OTPSC Attributes table. For information about how to configure expected OT devices see [Configure the expected OT devices for a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-expected-ot-devices.md).
+The percentage of your OT devices that you expect to have in the Configuration Management Database \(CMDB\).**Note:** If you see a value of -1, then one or more of the values in the % of Expected OT Devices in CMDB indicator is missing the **Expected OT Device** attribute in the OTPSC Attributes table. For information about how to configure expected OT devices see [Configure the expected OT devices for a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/configure-expected-ot-devices.md).
 
 </td></tr><tr><td>
 
@@ -144,5 +144,5 @@ OT Incidents with OT Context \(%\)
 The percentage of OT incidents that have OT device or equipment model data.**Note:** If you see a value of 0, then no OT devices have been found.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
+</table>**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Test an AI agent
 description: Analyze the performance of an AI agent with a Model Context Protocol tool added to it to verify that it functions the way that you defined it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-ai-agent-mcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-ai-agent-mcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

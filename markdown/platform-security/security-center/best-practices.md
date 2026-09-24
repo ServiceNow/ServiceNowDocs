@@ -2,7 +2,7 @@
 title: Best Practices
 description: Learn details about the Best Practices in the Security Posture Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/best-practices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/best-practices.html
 release: australia
 product: Security Center
 classification: security-center
@@ -34,7 +34,7 @@ Use the ServiceNow Access Control plugin to control which employees can access y
 
  **Note:** After ServiceNow Access Control is activated, personnel must explicitly request access from you on an ad-hoc and temporary basis.
 
- For details on this plugin, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNCAccessControl.md).
+ For details on this plugin, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_SNCAccessControl.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Change the default login credentials
 
 Change the passwords on your instance's built-in user accounts, such as admin, ITIL, and employee. These accounts are provisioned with default passwords, unique to your instance, but should be changed as soon as possible.
 
- For details on how to change the passwords for user accounts on your instance, see [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reset-your-password.md).
+ For details on how to change the passwords for user accounts on your instance, see [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/reset-your-password.md).
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Disable browser SQL messages
 
 Prevent SQL error messages from being presented in the web browser. Though useful to users and developers, these messages can be used by attackers to learn information about your system or to help guide their attempts to access your data. These messages can be turned off using a system property.
 
- For details on this system property, see [Disable SQL error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.md).
+ For details on this system property, see [Disable SQL error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Disable password-less authentication
 
 Help ensure strong authentication by disabling password-less authentication when possible. Without disabling password-less authentication, potential attackers could gain access to your instance by correctly guessing a user name \(such as firstname.lastname or a role title\).
 
- You can disable password-less authentication on your instance using a system property. For details on this property see [Disable password-less authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-password-less-authentication.md).
+ You can disable password-less authentication on your instance using a system property. For details on this property see [Disable password-less authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-password-less-authentication.md).
 
 </td></tr><tr><td>
 
@@ -118,9 +118,9 @@ Enable table auditing for important or sensitive data
 
 Track changes to your data using table auditing. Auditing tracks the creation, update, and deletion of all records in the table where it’s enabled, enabling admins to track changes to important or sensitive data. Admins can also choose to select specific fields in a table for auditing to see more targeted results or to reduce performance impact.
 
- For details on auditing on instances, see [Auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_AuditedTables.md).
+ For details on auditing on instances, see [Auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_AuditedTables.md).
 
- For specific instructions on enabling auditing on a table, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md).
+ For specific instructions on enabling auditing on a table, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_EnableAuditingForATable.md).
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Encrypt your data to maintain its confidentiality and integrity. Data on your in
 
  You can use different methods of encryption simultaneously for data stored in your instance, depending on your use case and the risks you wish to mitigate. For example, you can choose to transparently encrypt your data at rest using database encryption on most tables, cloud encryption on the entire data volume. You could also use full disk hardware encryption, which also requires a dedicated environment to protect against drive or server theft.
 
- Review the encryption options available with in [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md).
+ Review the encryption options available with in [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md).
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Use password policies to enforce the length, complexity, expiration, uniqueness,
 
  You can retain your existing policies for any external authentication services you have integrated, such as LDAP or SAML.
 
- For details on password policy configuration, see [Configure your password policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/set-your-password-policy.md).
+ For details on password policy configuration, see [Configure your password policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/set-your-password-policy.md).
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ Use the High Security plugin \(HSP\) to enhance security management and applying
 
  HSP is installed and enabled by default on all new instances. You can request HSP activation for older instances, including instances that have had upgrades from an older version. Enabling HSP should be done only after careful testing in a non-production environment, as activation changes some fundamental properties and behaviors.
 
- For more details on the High Security plugin, see [Enable High Security Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md).
+ For more details on the High Security plugin, see [Enable High Security Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md).
 
 </td></tr><tr><td>
 
@@ -190,7 +190,7 @@ Security information constantly evolves, so it's crucial to stay updated with se
 
  -   [CORE Directory: ServiceNow CORE Compliance Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0959484)
 -   [Securing the ServiceNow AI Platform: How ServiceNow protects customer data](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/ebook/ebk-how-servicenow-delivers-safe-and-secure-cloud-services.pdf)
--   [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-landing.md)
+-   [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platsec-landing.md)
 
 </td></tr><tr><td>
 
@@ -200,9 +200,9 @@ Harden your Instance
 
 Use the Security Center Hardening tool to reduce risk by limiting weaknesses that could be exploited, and implement recommended settings to secure your instance further.
 
- Learn more about Security Center at [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-v2.md).
+ Learn more about Security Center at [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sec-center-v2.md).
 
- Review the available hardening settings at [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
+ Review the available hardening settings at [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
 
 </td></tr><tr><td>
 
@@ -224,7 +224,7 @@ Integrate with MFA
 
 Integrate third-party multi-factor authentication \(MFA\) with your existing SAML IdP to provide additional login security. MFA provides a high level of security because authentication requires multiple authentication factors. Something the user knows \(the password\) as well as something they own \(a one-time code, mobile phone, or biometric attributes, such as a fingerprint\).
 
- Learn more about MFA integration at [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-landing.md).
+ Learn more about MFA integration at [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-landing.md).
 
 </td></tr><tr><td>
 
@@ -272,7 +272,7 @@ You can view detailed information related to data import activity into your inst
 These show REST and SOAP request activity and can help you to track the volume and destination of connections to external services.
 
 
- Learn more about system logs in [System logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/system-logs.md).
+ Learn more about system logs in [System logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/system-logs.md).
 
 </td></tr><tr><td>
 
@@ -313,7 +313,7 @@ Monitor your instance’s Hardening Compliance level
 
 Ensure that your instances are in compliance with the latest security hardening metrics using the Hardening tool in Security Center. Access this tool in a non-production instance assess impact to your environment. Ideally, the score should be as close to 100% as possible with a minimum score of 83%, without affecting product functionality.
 
- Learn more about Security Center's hardening settings tool at [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
+ Learn more about Security Center's hardening settings tool at [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
 
 </td></tr><tr><td>
 
@@ -331,7 +331,7 @@ Remove the ‘Remember Me’ check box
 
 Help prevent unwanted access to your instance by deactivating the **Remember Me** feature. When active, this feature stores a cookie is on the user's computer, which automatically authenticates the user on subsequent visits. This can present security issues if users access your instance from an insecure endpoint, such as a shared computer.
 
- Learn more about this feature, and how to deactivate it in [Remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_ChSetRemMeChkbxCookie.md).
+ Learn more about this feature, and how to deactivate it in [Remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_ChSetRemMeChkbxCookie.md).
 
 </td></tr><tr><td>
 
@@ -341,7 +341,7 @@ Restrict access to your instance from unknown IP addresses
 
 Help prevent unauthorized access to your instance by restricting access from IP addresses unrelated to your organization. Anyone trying to access the instance from an unauthorized IP address are denied. If using this approach, consider allowing only your gateway or web proxy external addresses, as well as addresses from which your users access the instance from, including remote users. You can restrict both outbound and inbound access by IP address.
 
- Learn how to restrict access to your instance by IP address in [Restrict access to specific IP ranges plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-restrict-access-to-specific-ip-ranges-plugin.md).
+ Learn how to restrict access to your instance by IP address in [Restrict access to specific IP ranges plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-access-to-specific-ip-ranges-plugin.md).
 
 </td></tr><tr><td>
 
@@ -374,7 +374,7 @@ Archive your log data to retain it beyond the default 21-day log rotation period
  Use the following resources to learn more about these methods:
 
  -   [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md)
--   [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-landing-page.md)
+-   [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-landing-page.md)
 
 </td></tr><tr><td>
 
@@ -384,9 +384,9 @@ Use encryption modules with RBAC to further enhance data access control
 
 Learn how to use the Key Management Framework \(KMF\) to protect the data on your instance using Role-Based Access Control \(RBAC\). KMF uses cryptographic modules, which enable you to define what data on your instance is encrypted, and what method of encryption to use. Using multiple modules, you can encrypt different areas of your instance with different specifications.
 
- Learn how KMF and its components are used to encrypt your data at [Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/explore-kmf.md).
+ Learn how KMF and its components are used to encrypt your data at [Exploring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/explore-kmf.md).
 
- Learn about cryptographic modules in [Cryptographic module overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/crypto-module-overview.md).
+ Learn about cryptographic modules in [Cryptographic module overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/crypto-module-overview.md).
 
 </td></tr><tr><td>
 
@@ -396,7 +396,7 @@ Use of certificate-based authentication with integration providers
 
 Configure traffic to your integration providers using REST/SOAP connections to use certificate-based authentication. Secure Socket Layer \(SSL\) certificate authentication encrypts data in transit, helping to prevent it from being read as it is sent.
 
- Learn more about this configuration in [Configure mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MutualAuthentication.md).
+ Learn more about this configuration in [Configure mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_MutualAuthentication.md).
 
 </td></tr><tr><td>
 
@@ -416,8 +416,8 @@ Integrate third-party multi-factor authentication \(MFA\) with your existing SAM
 
  Learn more about SAML authentication using these resources:
 
- -   [SAML 2.0 concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_SAMLConcepts.md)
--   [SAML 2.0 configuration using Multi-Provider SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateASAML2Upd1SSOConfigMultiSSO.md)
+ -   [SAML 2.0 concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_SAMLConcepts.md)
+-   [SAML 2.0 configuration using Multi-Provider SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_CreateASAML2Upd1SSOConfigMultiSSO.md)
 
 </td></tr><tr><td>
 
@@ -427,7 +427,7 @@ Use the email filters feature set to deal with suspect inbound messages
 
 Create email filters to filter out messages marked as suspicious by ServiceNow Antivirus Protection. In addition to virus protection, Antivirus Protection analyzes email for malware and SPAM, scoring and the results adding this information to the message in x-headers. You can use these headers as criteria for the Email Filters Plugin to act on if desired.
 
- Learn more about ServiceNow's antivirus feature at [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/antivirus-protection.md).
+ Learn more about ServiceNow's antivirus feature at [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/antivirus-protection.md).
 
  Learn how to configure email filters on your instance at [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailFilters.md).
 
@@ -461,8 +461,8 @@ Validate access using Access Analyzer
 
 Use the ServiceNow Access Analyzer tool to help you compare and analyze permissions for selected users, roles, or groups. You can use this information to troubleshoot access issues, identify who has access to your sensitive data, and determine the correct level of access for users on your instance.
 
- Learn more about the benefits of Access Analyzer at [Exploring Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/explore-access-analyzer.md).
+ Learn more about the benefits of Access Analyzer at [Exploring Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/explore-access-analyzer.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-best-practices-manager.md)
+</table>**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-best-practices-manager.md)
 

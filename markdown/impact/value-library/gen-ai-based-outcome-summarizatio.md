@@ -2,7 +2,7 @@
 title: Summarize outcomes with ServiceNow Otto
 description: View a concise summary of your operational outcomes in Impact, including positive or negative outcome trends, adoption of recommended applications, and consumption of related Accelerators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/value-library/gen-ai-based-outcome-summarizatio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/value-library/gen-ai-based-outcome-summarizatio.html
 release: australia
 product: Value Library
 classification: value-library

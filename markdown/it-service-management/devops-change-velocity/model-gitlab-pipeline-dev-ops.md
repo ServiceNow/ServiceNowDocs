@@ -2,7 +2,7 @@
 title: Model a GitLab basic CI pipeline in DevOps
 description: Model a GitLab basic CI pipeline by mapping the pipeline to an app, and mapping DevOps pipeline steps to GitLab pipeline jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/model-gitlab-pipeline-dev-ops.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/model-gitlab-pipeline-dev-ops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -90,7 +90,7 @@ Order
 
 Order in which the steps are run.
 
- **Note:** The step order determines the order of the cards in the [Pipeline UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.md).
+ **Note:** The step order determines the order of the cards in the [Pipeline UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.md).
 
 The order of the cards in the Pipeline UI is by task execution.
 
@@ -115,9 +115,9 @@ Configuration service that applies to the step.
 </td></tr></tbody>
 </table>        Once orchestration tasks are created, associate each orchestration task in the Orchestration Tasks related list with a DevOps pipeline step.
 
-3.  Select the **Change control** check box in a step to enable [change acceleration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) and the corresponding configuration fields.
+3.  Select the **Change control** check box in a step to enable [change acceleration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) and the corresponding configuration fields.
 
-    **Note:** The [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md) feature must be installed for change acceleration.
+    **Note:** The [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ITILChangeManagement.md) feature must be installed for change acceleration.
 
 <table id="table_xm1_tdf_llb"><tbody><tr><td>
 
@@ -158,7 +158,7 @@ Change model
 
 </td><td>
 
-Change model for the change request. For more information, see [DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md).
+Change model for the change request. For more information, see [DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-change-multimodel.md).
 
 </td></tr><tr><td>
 
@@ -198,7 +198,7 @@ Change controlled branches
 
 ## What to do next
 
-[Change acceleration in GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-gitlab.md)
+[Change acceleration in GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/dev-ops-change-gitlab.md)
 
-**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
+**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
 

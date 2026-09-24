@@ -2,7 +2,7 @@
 title: Integrate ThousandEyes with REST API key token
 description: Integrate using an API key to establish secure communication and automate data exchange via REST API. This simplifies integration, enabling seamless access to services and enhancing operational efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/integrate-thousandeyes-api-key.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/integrate-thousandeyes-api-key.html
 release: australia
 product: Event Management
 classification: event-management

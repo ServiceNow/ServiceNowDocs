@@ -2,7 +2,7 @@
 title: Configure Data Collection for ITOM
 description: Configure Data Collection for ITOM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/dc-itom-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-itom-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -74,5 +74,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
         \[Omitted image "dct\_man\_data\_points\_itom.png"\] Alt text: Example with Mar 2024 cell selected with no Indicator score entered.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-itom.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-itom.md)
 

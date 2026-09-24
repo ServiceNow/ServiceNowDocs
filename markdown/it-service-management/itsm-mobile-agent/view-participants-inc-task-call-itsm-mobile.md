@@ -2,7 +2,7 @@
 title: View active and inactive participants in the conference call
 description: You can view the participant status in an active conference call.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/view-participants-inc-task-call-itsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/view-participants-inc-task-call-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

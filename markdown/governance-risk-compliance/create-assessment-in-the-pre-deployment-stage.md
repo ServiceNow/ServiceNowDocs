@@ -2,7 +2,7 @@
 title: Create assessment in the Pre-deployment stage
 description: Create a model risk assessment by verifying the details, assigning stakeholders, and create an assessment using the Model Risk Management application in the Pre-deployment stage.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-assessment-in-the-pre-deployment-stage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-assessment-in-the-pre-deployment-stage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ The Model Risk Coordinator \[sn\_model\_risk\_mgmt.risk\_coordinator\] can also 
 
 ## What to do next
 
-[Perform model risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-model-risk-assessment.md)
+[Perform model risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-model-risk-assessment.md)
 
-**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-mrm.md)
 

@@ -2,10 +2,10 @@
 title: Update deal registration record
 description: Create a deal registration record or perform actions on an existing record in the CRM Workspace, including submitting for approval and managing post-approval actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/update-deal-registration-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/update-deal-registration-record.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 6
 breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -36,7 +36,7 @@ After a deal is created on the Partner portal and is in the **Submitted** state,
 
 2.  Select **Deal Registration &gt; Submitted** to see a list of submitted deals.
 
-    To learn how to create a deal and submit it, see [Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-a-deal-partner-portal.md). The deal registration form details are auto-filled based on selections made in the Partner portal. The following roles can make these selections: B2B deal registration initiator \(sn\_prm\_dr.partner\_b2b\_deal\_reg\_initiator\), B2C deal registration initiator \(sn\_prm\_dr.partner\_b2c\_deal\_reg\_initiator\), deal registration initiator \(sn\_prm\_dr-partner\_deal\_reg\_initiator\), and deal registration manager \(sn\_prm\_dr.partner\_deal\_reg\_manager\).
+    To learn how to create a deal and submit it, see [Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/register-a-deal-partner-portal.md). The deal registration form details are auto-filled based on selections made in the Partner portal. The following roles can make these selections: B2B deal registration initiator \(sn\_prm\_dr.partner\_b2b\_deal\_reg\_initiator\), B2C deal registration initiator \(sn\_prm\_dr.partner\_b2c\_deal\_reg\_initiator\), deal registration initiator \(sn\_prm\_dr-partner\_deal\_reg\_initiator\), and deal registration manager \(sn\_prm\_dr.partner\_deal\_reg\_manager\).
 
 3.  Open a deal record to view or update the details.
 
@@ -53,7 +53,7 @@ After a deal is created on the Partner portal and is in the **Submitted** state,
         -   **Cancel Deal Registration** — Cancel the deal registration entirely.
     2.  To submit the deal for approval, select **Preview &amp; Submit for Approval**.
 
-        The approval plan comes from your administrator's configuration of approval rules and approval chains. The deal state changes to **Pending Approval**, and the system sends approval requests to designated approvers. For step-by-step instructions, see [Submit a deal for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submit-deal-for-approval.md).\[Omitted image "deal-states.png"\] Alt text: Deal states
+        The approval plan comes from your administrator's configuration of approval rules and approval chains. The deal state changes to **Pending Approval**, and the system sends approval requests to designated approvers. For step-by-step instructions, see [Submit a deal for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/submit-deal-for-approval.md).\[Omitted image "deal-states.png"\] Alt text: Deal states
 
         A preview modal opens showing which approvers receive the request and in what order. Review the approval chain to confirm all required approvers are listed in the correct sequence. The approval plan comes from your administrator's configuration of approval rules and approval chains. Select **Request approval** to submit the deal. The first approver in the chain receives a notification. You can track which approvers have been notified and which have acted on the request. Sequential approvers receive requests only after the previous step is approved.\[Omitted image "deal-approval.png"\] Alt text: Preview and request approval
 
@@ -109,19 +109,19 @@ The deal registration record is updated with the action you performed. Depending
 
 When you submit a deal for approval, the approval workflow evaluates the deal against configured approval rules. The workflow identifies required approvers based on deal attributes and organizational hierarchy, then sends notifications to those approvers. Approvers review the deal in their approval queue and can approve, reject, or request additional information.
 
-For detailed information about the approval workflow, approval states, and approver responsibilities, see [Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-approvals-overview.md).
+For detailed information about the approval workflow, approval states, and approver responsibilities, see [Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-approvals-overview.md).
 
 **Related topics**
 
--   [Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-approvals-overview.md)
--   [Submit a deal for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submit-deal-for-approval.md)
--   [Approval configuration setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approval-configuration-setup.md)
--   [Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-a-deal-partner-portal.md)
+-   [Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-approvals-overview.md)
+-   [Submit a deal for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/submit-deal-for-approval.md)
+-   [Approval configuration setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/approval-configuration-setup.md)
+-   [Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/register-a-deal-partner-portal.md)
 
-**Parent Topic:**[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-workspace.md)
+**Parent Topic:**[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-workspace.md)
 
 **Related topics**  
 
 
-[Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-a-deal-partner-portal.md)
+[Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/register-a-deal-partner-portal.md)
 

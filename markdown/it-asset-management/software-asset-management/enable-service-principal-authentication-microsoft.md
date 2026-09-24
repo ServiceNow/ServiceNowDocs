@@ -2,7 +2,7 @@
 title: Enable service principal authentication for Power BI read-only APIs
 description: Grant your application access to Power BI service content and APIs by enabling service principal authentication for Power BI read-only APIs. Power BI service content and APIs help optimize your Microsoft 365 subscriptions, such as by downgrading subscriptions from Office 365 E5 to Office 365 E3.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -32,7 +32,7 @@ Service principal is an authentication method that enables your application to a
 
 1.  Create a security group for service principal authentication.
 
-    Security groups enable you to manage which users, devices, groups, and service principals can access shared resources. If you want to use an existing security group for service principal authentication, skip to [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md).
+    Security groups enable you to manage which users, devices, groups, and service principals can access shared resources. If you want to use an existing security group for service principal authentication, skip to [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md).
 
     1.  On the page header of the Microsoft Azure portal, use the search bar to search for and select the **Microsoft Entra ID** service.
 
@@ -99,11 +99,11 @@ Method in which members can be added to or removed from the group.Set this field
 
     The security group is created and then you’re redirected to the Overview page for the new group.
 
-2.  Add the application that you created in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/register-microsoft-app.md) as a member of your security group.
+2.  Add the application that you created in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/register-microsoft-app.md) as a member of your security group.
 
-    1.  If you didn’t create a security group in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md) and are using an existing security group instead, open your existing security group.
+    1.  If you didn’t create a security group in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md) and are using an existing security group instead, open your existing security group.
 
-        If you created a security group in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md), skip to [step b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md).
+        If you created a security group in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md), skip to [step b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md).
 
         1.  On the page header of the Microsoft Azure portal, use the search bar to search for and select the **Microsoft Entra ID** service.
 
@@ -125,7 +125,7 @@ Method in which members can be added to or removed from the group.Set this field
 
         The Add members dialog box opens.
 
-    4.  In the dialog box, search for and select the application that you created in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/register-microsoft-app.md).
+    4.  In the dialog box, search for and select the application that you created in [Register a Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/register-microsoft-app.md).
 
         **Important:** The application must not have any Power BI admin permissions set from the Microsoft Azure portal. You can verify your application permissions using the following steps:
 

@@ -2,7 +2,7 @@
 title: Domain separation and the Customer Service Management \(CSM\) plugin
 description: For the best outcome, be aware of how the properties in the CSM plugin work. When the plugin is enabled, you can see the status of your records in your domains.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-ds-and-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-ds-and-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ Instance owners should contact Customer Service and Support to enable the **csm\
 
 In the header bar, you can see the status of the records with the plugin enabled.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

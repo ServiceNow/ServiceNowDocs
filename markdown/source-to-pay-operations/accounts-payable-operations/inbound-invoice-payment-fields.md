@@ -2,7 +2,7 @@
 title: Inbound invoice payment fields
 description: Field descriptions and data types for inbound invoice payment records used to import supplier invoice payment data into Accounts Payable Operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -34,5 +34,5 @@ Field descriptions and data types for inbound invoice payment records used to im
 |ERP Source|The available ERP|String|
 |Currency|Standard of amount exchangedin Currency Code ISO 4217 format \(USD, GBP, INR, etc\)|String|
 
-**Parent Topic:**[Inbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md)
+**Parent Topic:**[Inbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md)
 

@@ -2,7 +2,7 @@
 title: Rate limiting policy for SMS Authentication
 description: Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for 3 times in a span of 24 hours.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/sms-authentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/sms-authentication.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -34,5 +34,5 @@ Rate limiting policy is enabled by default for SMS for better security. To confi
 
 \[Omitted image "sms-auth-rate-limit-properties.png"\] Alt text: The Provider Properties tab lists entries for each of these parameters, including the value and description.
 
-**Parent Topic:**[Configure SMS authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-sms-auth.md)
+**Parent Topic:**[Configure SMS authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-sms-auth.md)
 

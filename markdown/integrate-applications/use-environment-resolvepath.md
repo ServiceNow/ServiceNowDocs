@@ -2,7 +2,7 @@
 title: Use the ResolvePath component
 description: Find the path of your current automation project as part of an automation Workflow by using the ResolvePath component in RPA Desktop Design Studio. You must specify the parameter, for example, %projectpath% to get the path.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-environment-resolvepath.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-environment-resolvepath.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the ResolvePath component. For more information about these properties, see [Properties of the Environment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-environment-prop.md).
+You can configure the properties for the ResolvePath component. For more information about these properties, see [Properties of the Environment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-environment-prop.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the ResolvePath component. For more informa
 
 2.  Drag the ResolvePath component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the ResolvePath component to the corresponding ports of the other components as described in the following table.
 
@@ -96,5 +96,5 @@ No. Connecting the port is optional.
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/environment-utility.md)
+**Parent Topic:**[Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/environment-utility.md)
 

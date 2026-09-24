@@ -2,7 +2,7 @@
 title: Configure an auto-populate value for a question in Catalog Builder
 description: Configure the value of a question to populate automatically whenever the value of another question of the reference type changes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/config-auto-populate-value-for-question-cat-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/config-auto-populate-value-for-question-cat-builder.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -67,5 +67,5 @@ In a catalog item, for example, you can set up the value of the “Name of the m
 8.  Select **Insert question**.
 
 
-**Parent Topic:**[Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md)
+**Parent Topic:**[Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-question-cat-builder.md)
 

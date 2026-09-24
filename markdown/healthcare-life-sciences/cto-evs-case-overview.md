@@ -2,7 +2,7 @@
 title: Healthcare EVS case overview
 description: Use the Healthcare EVS case \[sn\_cto\_evs\_case\] to create case types for environmental service support requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-case-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-case-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

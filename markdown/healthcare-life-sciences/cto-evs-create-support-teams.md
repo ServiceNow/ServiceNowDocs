@@ -2,7 +2,7 @@
 title: Create healthcare organizations for your healthcare EVS support teams
 description: Create a healthcare organization to represent the fulfilling healthcare organization for environmental services cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-create-support-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-create-support-teams.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

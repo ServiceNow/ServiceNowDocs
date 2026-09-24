@@ -2,7 +2,7 @@
 title: Supplier Relationship and Performance Management reference
 description: Reference topics provide additional information about Supplier Relationship and Performance Management, including its data model, lists, and forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-reference.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -18,14 +18,14 @@ Reference topics provide additional information about Supplier Relationship and 
 
 **Important:** Check your entitlements to determine whether you have access to Supplier Relationship and Performance Management.
 
--   **[Supplier Relationship and Performance Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-data-model.md)**  
+-   **[Supplier Relationship and Performance Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-data-model.md)**  
 The following diagram shows the tables and their relationships that comprise the Supplier Relationship and Performance Management data model.
--   **[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/primary-data-tables-srpm.md)**  
+-   **[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/primary-data-tables-srpm.md)**  
 The primary data tables for Supplier Relationship and Performance Management store important information about KPI configurations, KPI data, and generated scores.
--   **[Restructured Supplier Task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-task-table-restructure.md)**  
+-   **[Restructured Supplier Task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supplier-task-table-restructure.md)**  
 The Supplier Task table architecture has been restructured in the Washington DC and Yokohama releases.
 
-**Parent Topic:**[Supplier Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
+**Parent Topic:**[Supplier Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
 
 **Related topics**  
 

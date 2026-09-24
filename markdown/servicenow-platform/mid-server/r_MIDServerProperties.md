@@ -2,7 +2,7 @@
 title: MID Server properties
 description: Properties control the behavior of all MID Servers or a particular MID Server.Use a MID Server property to control either the behavior of all MID Servers or a particular MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/r\_MIDServerProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/r\_MIDServerProperties.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -49,7 +49,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: integer
     -   Default value: 500
-    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
+    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md).
 
 -   **mid.discovery.max\_related\_count\_per\_page**
 
@@ -123,7 +123,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: integer \(bytes\)
     -   Default value: 50000000
-    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
+    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md).
 
 -   **mid.discovery.max\_payload\_size**
 
@@ -135,7 +135,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: integer \(bytes\)
     -   Default value: 5000000
-    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
+    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md).
 
 -   **mid.discovery.multiprobe.skip\_others\_on\_error**
 
@@ -181,7 +181,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: integer \(bytes\)
     -   Default value: 20000000
-    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
+    You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md).
 
 -   **mid.http\_classy.allow\_credentials\_over\_http**
 
@@ -364,29 +364,29 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     GETBULK can also be set at the probe level or for an individual MID Server. Settings are listed in the order of precedence:
 
     -   [SNMP probe parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_SNMPProbeParameters.md)
-    -   [MID Server configuration parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md)
+    -   [MID Server configuration parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md)
     -   MID Server properties
 -   **mid.ssh.algorithms.kex**
 
-    Modifies the Key Exchange SSH algorithm priority list. The property accepts a comma separated lists with operators. The first name in the list is highest priority, last name in list is lowest priority. Adding a comma separated list without any operators replaces the default algorithm list. For more information, see [MID Server SSH cryptographic algorithms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ssh-algorithms.md).
+    Modifies the Key Exchange SSH algorithm priority list. The property accepts a comma separated lists with operators. The first name in the list is highest priority, last name in list is lowest priority. Adding a comma separated list without any operators replaces the default algorithm list. For more information, see [MID Server SSH cryptographic algorithms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ssh-algorithms.md).
 
     -   Type: string
     -   Default value: ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha1
 -   **mid.ssh.algorithms.host\_key​**
 
-    Modifies the Host Key SSH algorithm priority list. The properties accept comma separated lists with operators. The first name in the list is highest priority, last name in list is lowest priority. Adding a comma separated list without any operators replaces the default algorithm list. For more information, see [MID Server SSH cryptographic algorithms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ssh-algorithms.md).
+    Modifies the Host Key SSH algorithm priority list. The properties accept comma separated lists with operators. The first name in the list is highest priority, last name in list is lowest priority. Adding a comma separated list without any operators replaces the default algorithm list. For more information, see [MID Server SSH cryptographic algorithms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ssh-algorithms.md).
 
     -   Type: string
     -   Default value: ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,rsa-sha2-256,rsa-sha2-512,ssh-rsa,ssh-dss
 -   **mid.ssh.algorithms.cipher**
 
-    Modifies the Cipher SSH algorithm priority list. The properties accept comma separated lists with operators. The first name in the list is highest priority, last name in list is lowest priority. Adding a comma separated list without any operators replaces the default algorithm list. For more information, see [MID Server SSH cryptographic algorithms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ssh-algorithms.md).
+    Modifies the Cipher SSH algorithm priority list. The properties accept comma separated lists with operators. The first name in the list is highest priority, last name in list is lowest priority. Adding a comma separated list without any operators replaces the default algorithm list. For more information, see [MID Server SSH cryptographic algorithms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ssh-algorithms.md).
 
     -   Type: string
     -   Default value: aes128-ctr,aes192-ctr,aes256-ctr,3des-ctr,aes128-cbc,aes192-cbc,aes256-cbc,3des-cbc
 -   **mid.ssh.algorithms.mac**
 
-    Modifies the MAC SSH algorithm priority list. The properties accept comma separated lists with operators. The first name in the list is highest priority, last name in list is lowest priority. Adding a comma separated list without any operators replaces the default algorithm list. For more information, see [MID Server SSH cryptographic algorithms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-ssh-algorithms.md).
+    Modifies the MAC SSH algorithm priority list. The properties accept comma separated lists with operators. The first name in the list is highest priority, last name in list is lowest priority. Adding a comma separated list without any operators replaces the default algorithm list. For more information, see [MID Server SSH cryptographic algorithms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-ssh-algorithms.md).
 
     -   Type: string
     -   Default value: hmac-sha2-256,hmac-sha1,hmac-sha2-512,hmac-sha1-96,mac-md5-96,hmac-md5
@@ -431,7 +431,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Type: true \| integer
     -   Default value: 5
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 

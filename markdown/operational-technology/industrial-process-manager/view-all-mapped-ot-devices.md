@@ -2,7 +2,7 @@
 title: View all mapped OT devices
 description: View a list of all the Operational Technology \(OT\) devices that are mapped to an equipment model entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/view-all-mapped-ot-devices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/view-all-mapped-ot-devices.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -42,5 +42,5 @@ When you open a parent record in the CI Relationships table, you can view the Ma
     In this list, you can use the **Mapped Equipment Model Entity** column to identify the equipment model entity the device is mapped to. For more information on how to add a column to a list, see [Personalize a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
 
 
-**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

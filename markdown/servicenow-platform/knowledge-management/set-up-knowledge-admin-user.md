@@ -2,7 +2,7 @@
 title: Knowledge base setup guide for knowledge admins and managers
 description: After basic Knowledge Management setup is completed, you can set up a knowledge base for users to create and publish knowledge articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/set-up-knowledge-admin-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/set-up-knowledge-admin-user.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -29,7 +29,7 @@ Role required: knowledge\_administrator, knowledge\_manager, or admin.
 ## Before you begin
 
 -   **Determine the following requirements for each knowledge base that you want to set up:**
-    -   Whether to create a scoped knowledge base? For more information, see [Scoped knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.md).
+    -   Whether to create a scoped knowledge base? For more information, see [Scoped knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.md).
     -   Who are the knowledge base managers that are responsible for approving articles?
     -   Who are the users and contributors for that knowledge base? Access for these users is defined through user criteria.
     -   What are the categories to be used to classify articles? Will users be able to create categories?
@@ -38,17 +38,17 @@ Role required: knowledge\_administrator, knowledge\_manager, or admin.
 ## What to do
 
 -   **Set up the knowledge base**
-    1.  Create the [knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md).
-    2.  Set up which users can read, create, or edit knowledge articles by [selecting user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md) for the knowledge base.
-    3.  Define the approval process for articles using [workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md).
-    4.  Define the [knowledge categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md) that are needed for organizing articles in the knowledge base.
-    5.  If you want a [custom knowledge homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_CreateACustomKnowledgeHomepage.md), ask your ServiceNow administrator to create it.
+    1.  Create the [knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-a-knowledgebase.md).
+    2.  Set up which users can read, create, or edit knowledge articles by [selecting user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_SelectUserCriteria.md) for the knowledge base.
+    3.  Define the approval process for articles using [workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md).
+    4.  Define the [knowledge categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md) that are needed for organizing articles in the knowledge base.
+    5.  If you want a [custom knowledge homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_CreateACustomKnowledgeHomepage.md), ask your ServiceNow administrator to create it.
 
 ## Next steps
 
-Let users in your organization know that they can start creating and searching articles in the knowledge base. For details, refer users to the [Knowledge Management guide for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/get-started-knowledge-end-users.md).
+Let users in your organization know that they can start creating and searching articles in the knowledge base. For details, refer users to the [Knowledge Management guide for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/get-started-knowledge-end-users.md).
 
-If you have the knowledge\_manager role, there are many other tasks that you can perform to maintain the knowledge base. You can pin articles so they are featured prominently in the search results and on landing pages. You can also assign other users as managers of a knowledge base. For details, see [Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_KnowledgeManager.md).
+If you have the knowledge\_manager role, there are many other tasks that you can perform to maintain the knowledge base. You can pin articles so they are featured prominently in the search results and on landing pages. You can also assign other users as managers of a knowledge base. For details, see [Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/c_KnowledgeManager.md).
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

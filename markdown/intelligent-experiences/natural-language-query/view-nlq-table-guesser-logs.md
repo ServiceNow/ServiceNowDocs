@@ -2,7 +2,7 @@
 title: View NLQ Table Guesser logs
 description: Use the Table Guesser logs to review the CMDB tables that were picked by NLQ in response to plain-language queries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/view-nlq-table-guesser-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/natural-language-query/view-nlq-table-guesser-logs.html
 release: australia
 product: Natural Language Query
 classification: natural-language-query
@@ -47,7 +47,7 @@ Review these logs to troubleshoot which CMDB tables were inferred by NLQ.
 
 For more information on CMDB queries, see [Exploring CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/querying-cmdb.md).
 
-**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
+**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/natural-language-query/configuring-nlq.md)
 
 **Related topics**  
 

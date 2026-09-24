@@ -2,7 +2,7 @@
 title: Playbooks configuration
 description: Configure playbooks to organize project workflows, maintain consistency, and keep projects on track.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configure-playbooks-pw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/configure-playbooks-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -37,7 +37,7 @@ Multiple playbooks can be enabled at a time, and the trigger should be defined i
 
 When a project template is applied or project is created from a demand, the project information is automatically copied into the project record and reflected in the Playbook.
 
-**Parent Topic:**[Configuring projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-projects-pw.md)
+**Parent Topic:**[Configuring projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-projects-pw.md)
 
 **Related topics**  
 
@@ -46,7 +46,7 @@ When a project template is applied or project is created from a demand, the proj
 
 [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-experience-admins.md)
 
-[Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/playbooks-in-pw.md)
+[Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/playbooks-in-pw.md)
 
-[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-playbooks-pw.md)
+[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-playbooks-pw.md)
 

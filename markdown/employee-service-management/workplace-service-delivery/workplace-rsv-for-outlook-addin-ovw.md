@@ -2,7 +2,7 @@
 title: Explore Workplace Reservations for Microsoft Outlook Add-in
 description: Reserve a workplace space in less than a minute without using the Reservation portal. The ServiceNow Workplace Reservations for Microsoft Outlook Add-in enables you to make a reservation using Microsoft Outlook directly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery/workplace-rsv-for-outlook-addin-ovw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery/workplace-rsv-for-outlook-addin-ovw.html
 release: australia
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -20,7 +20,7 @@ Reserve a workplace space in less than a minute without using the Reservation po
 
 Workplace Reservation Management 3.0.2 manifest add-in file for Microsoft Outlook provides enhanced reservation experience and capabilities for employees. Employees can make reservations using multiple Reservable Modules. They can make multi-building, browse near a person, or neighborhood reservations. It provides advanced reservation web portal capabilities within the Microsoft Outlook Add-in manifest file.
 
-Migrate or update to Workplace Reservation Management 3.0.2 version. For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md).
+Migrate or update to Workplace Reservation Management 3.0.2 version. For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md).
 
 The Workplace Reservations for Microsoft Outlook Add-in application is created on the Seismic workspace and uses Seismic components. The components are stored in the Workplace Service Delivery Components plugin to enhance the employee experience while using the add-in.
 
@@ -69,6 +69,6 @@ You can also synchronize your reservations with your calendar provider by using 
 
 For more information, refer the following:
 
--   [Explore Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-overview.md)
--   [Setup Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-setup.md)
+-   [Explore Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-overview.md)
+-   [Setup Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-setup.md)
 

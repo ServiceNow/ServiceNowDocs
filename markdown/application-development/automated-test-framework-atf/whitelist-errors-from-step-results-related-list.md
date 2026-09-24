@@ -2,7 +2,7 @@
 title: Allow client errors from step results
 description: Allow client errors as you review step results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/whitelist-errors-from-step-results-related-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/whitelist-errors-from-step-results-related-list.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -77,10 +77,10 @@ You can allow multiple or individual client errors. For each client error, you m
 </table>    The Automated Test Framework allows the selected client errors and displays a status message at the top of the form.
 
 
-**Parent Topic:**[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
+**Parent Topic:**[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 
 **Related topics**  
 
 
-[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
+[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 

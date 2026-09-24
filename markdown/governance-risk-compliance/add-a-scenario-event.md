@@ -2,7 +2,7 @@
 title: Add a scenario event
 description: Add a scenario event to the scenario analysis and analyze its impact on the business service. By adding the participants, dependencies, services, issues to the scenario analysis in Operational Resilience Workspace, you can determine the impact of the scenario event on the business service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-a-scenario-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-a-scenario-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Role required: sn\_oper\_res.manager
 
     2.  In the Scenario events form, select an event from the list and select **Add**.
 
-        For the descriptions of the field values on the Scenario event form, see [Scenario event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sce-event-form.md).
+        For the descriptions of the field values on the Scenario event form, see [Scenario event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/sce-event-form.md).
 
         In the **Scenario events** tab, the selected scenario event is displayed.
 
@@ -71,7 +71,7 @@ Role required: sn\_oper\_res.manager
 
         The response task is completed and the state of the response task is updated to **Closed Complete**.
 
-    On the **Responses** tab, the details of the response task such as the response task number, name of the assigned participant, and state of the response task are displayed. For the descriptions of the field values on the scenario analysis response task form, see [Scenario analysis response task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/response-task-form.md).
+    On the **Responses** tab, the details of the response task such as the response task number, name of the assigned participant, and state of the response task are displayed. For the descriptions of the field values on the scenario analysis response task form, see [Scenario analysis response task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/response-task-form.md).
 
 6.  On the **Dependencies** tab, select **Add** to add a dependency or select **Add scope related dependency** for the scenario event.
 

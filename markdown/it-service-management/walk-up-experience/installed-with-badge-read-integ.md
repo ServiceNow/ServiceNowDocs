@@ -2,7 +2,7 @@
 title: Installed with Badge Reader Integration
 description: Several types of components are installed with activation of the Badge Reader Integration plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/installed-with-badge-read-integ.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/installed-with-badge-read-integ.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -90,5 +90,5 @@ Record used to configure badge reader devices.
  Extends the Task table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Badge Reader Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/activate-badge-reader-integration.md)
+</table>**Parent Topic:**[Activate Badge Reader Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/activate-badge-reader-integration.md)
 

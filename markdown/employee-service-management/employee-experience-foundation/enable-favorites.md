@@ -2,7 +2,7 @@
 title: Disable favorites
 description: Enable or disable the favorites options to display the favorites icon and access your favorites list for quick use. Favorites functionality is enabled by default on Employee Center and MESP.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/enable-favorites.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/enable-favorites.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

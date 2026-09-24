@@ -2,7 +2,7 @@
 title: Legal Simple Contracts
 description: The ServiceNow Legal Simple Contracts application enables employees to submit legal requests for getting legal support and guidance for contracts. For example, they can submit legal requests for the creation of Non-disclosure Agreement \(NDA\) documents with third parties or the review of sales contracts or third-party contracts. The legal department can manage and process them from a centralized location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/legal-simple-contracts-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/legal-simple-contracts-landing-page.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -34,31 +34,31 @@ Contract Management Pro for Legal Service Delivery supports the following additi
 
 If you want to start using the features, migrate the Legal Simple Contracts data to Contract Management Pro for Legal Service Delivery, a licensed application that must be installed separately.
 
-For more information, see [Migrating to Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/migration-landing-page.md).
+For more information, see [Migrating to Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/migration-landing-page.md).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how employees, paralegal staff, and lawyers use Legal Simple Contracts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-simple-contracts-overview.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how employees, paralegal staff, and lawyers use Legal Simple Contracts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/legal-simple-contracts-overview.md)
 
 </td><td>
 
-[Setup \[Omitted image "bus-sdlc.svg"\] Alt text: Set up contract templates, deflection rules, third-party integrations, and other configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/setting-up-legal-contracts.md)
+[Setup \[Omitted image "bus-sdlc.svg"\] Alt text: Set up contract templates, deflection rules, third-party integrations, and other configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/setting-up-legal-contracts.md)
 
 </td><td>
 
-[Request \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Submit and track legal requests for contracts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-request-nda.md)
+[Request \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Submit and track legal requests for contracts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/legal-request-nda.md)
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "bus-management-console.svg"\] Alt text: Manage legal requests for contracts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/work-on-legal-contract-request.md)
+[Manage \[Omitted image "bus-management-console.svg"\] Alt text: Manage legal requests for contracts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/work-on-legal-contract-request.md)
 
 </td><td>
 
-[\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Analytics and Reporting Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
+[\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Analytics and Reporting Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-simple-contracts-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/legal-simple-contracts-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store

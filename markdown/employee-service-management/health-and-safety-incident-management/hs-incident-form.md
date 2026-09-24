@@ -2,7 +2,7 @@
 title: Health and safety incident form
 description: Safety managers and safety agents can use the Health and Safety incident form to create an incident record or to work on a safety incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/hs-incident-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-incident-management/hs-incident-form.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Incident Management, Health and Safety
 
 Safety managers and safety agents can use the Health and Safety incident form to create an incident record or to work on a safety incident.
 
-For more information, see [Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md).
+For more information, see [Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md).
 
 <table id="table_ewt_lzy_ljc"><thead><tr><th>
 
@@ -56,7 +56,7 @@ Sensitive content
 
 </td><td>
 
-Option that indicates that the incident contains sensitive information.Only a user with the Sensitive content user role can view a report marked as sensitive. For more information on roles, see [Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.md).
+Option that indicates that the incident contains sensitive information.Only a user with the Sensitive content user role can view a report marked as sensitive. For more information on roles, see [Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.md).
 
 **Note:** If you select this option without the sensitive content user role while creating the record, you will not be able to view the record after saving.
 
@@ -141,5 +141,5 @@ Short description
 Brief description of the incident
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-reference.md)
 

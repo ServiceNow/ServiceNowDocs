@@ -2,7 +2,7 @@
 title: Legacy: Viewing the Performance reports for escalations
 description: The Performance reports enable detailed review of how well escalations are being processed. You have precise control of the data that describes escalation progress using filters like group, priority, level, or escalation category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/viewing-performance-report-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/viewing-performance-report-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -16,7 +16,7 @@ breadcrumb: [Viewing On-Call Scheduling reports, On-Call Scheduling, IT Service 
 
 The Performance reports enable detailed review of how well escalations are being processed. You have precise control of the data that describes escalation progress using filters like group, priority, level, or escalation category.
 
-**Important:** Starting in Xanadu release, the On-Call dashboard is deprecated. Users can use [On-call dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/oncall-scheduling.md) to view, maintain, and track the performance reports.
+**Important:** Starting in Xanadu release, the On-Call dashboard is deprecated. Users can use [On-call dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/oncall-scheduling.md) to view, maintain, and track the performance reports.
 
 ## Opening the reports
 
@@ -37,7 +37,7 @@ Click the **Performance** tab and then select the date of interest. The time lin
 
     The **Records** tab lists the individual records that make up the results that you configured on the **Breakdowns** tab. Click a name to view record details.
 
-    **Note:** Each record also appears in the appropriate escalation log. See [View details in an escalation log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/view-escalation-logs-oncall.md).
+    **Note:** Each record also appears in the appropriate escalation log. See [View details in an escalation log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/view-escalation-logs-oncall.md).
 
 
 ## All Escalations tab
@@ -70,5 +70,5 @@ Unacknowledged escalations have one of the following values for each member of a
 
 \[Omitted image "perform-unack-esc-reports-tab.png"\] Alt text: Performance &gt; Unacknowledged Escalations reports
 
-**Parent Topic:**[Viewing On-Call Scheduling reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-reports.md)
+**Parent Topic:**[Viewing On-Call Scheduling reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/viewing-reports.md)
 

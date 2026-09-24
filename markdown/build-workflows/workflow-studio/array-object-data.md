@@ -2,7 +2,7 @@
 title: Array.Object data type
 description: Store a sequence of JavaScript objects in an array.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/array-object-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/array-object-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -70,13 +70,13 @@ Template
 Specifies the existing object structure to apply to this object.
 
 </td></tr></tbody>
-</table>**Note:** For more information on using complex object variables, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md).
+</table>**Note:** For more information on using complex object variables, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/complex-data.md).
 
 ## Create a list of contacts from a list of users
 
 \[Omitted image "array-objects-execution-details-contacts-array.png"\] Alt text: Execution details of a custom action that generates a list of contacts from users in a department.
 
-This example uses a custom action to generate a list of contacts details from users in a specific department. To create the custom action to generate an array of objects, see [Create a custom action to generate an array of objects from a list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-custom-action-array-objects.md).
+This example uses a custom action to generate a list of contacts details from users in a specific department. To create the custom action to generate an array of objects, see [Create a custom action to generate an array of objects from a list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-custom-action-array-objects.md).
 
 In this example, the contacts array contains three users from the Development department.
 
@@ -105,5 +105,5 @@ In this example, the contacts array contains three users from the Development de
 
 ```
 
-**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md)
 

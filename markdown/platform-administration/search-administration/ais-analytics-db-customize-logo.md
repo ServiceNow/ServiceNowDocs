@@ -2,7 +2,7 @@
 title: Customize the banner logo for the AI Search Analytics dashboard
 description: Add your own logo to the banner for the AI Search Analytics dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-analytics-db-customize-logo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-analytics-db-customize-logo.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -18,7 +18,7 @@ Add your own logo to the banner for the AI Search Analytics dashboard.
 
 ## Before you begin
 
-The Platform Analytics Solution for Advanced AI Search Management Tools must be activated on your instance. For details on activating this solution, see [Activate the Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/install-adv-ais-mgmt-tools.md).
+The Platform Analytics Solution for Advanced AI Search Management Tools must be activated on your instance. For details on activating this solution, see [Activate the Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/install-adv-ais-mgmt-tools.md).
 
 Role required: admin
 
@@ -65,7 +65,7 @@ The AI Search Analytics dashboard displays the ServiceNow logo in the banner. Yo
 
     4.  In the UX Theme Assets list, edit the existing asset record.
 
-        **Note:** If you don't see the UX Theme Assets list, configure the form layout, adding **UX Theme Assets-&gt;Theme** to the list of selected fields. When prompted, switch to editing the form section in the Global application. For details on this procedure, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+        **Note:** If you don't see the UX Theme Assets list, configure the form layout, adding **UX Theme Assets-&gt;Theme** to the list of selected fields. When prompted, switch to editing the form section in the Global application. For details on this procedure, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md).
 
     5.  On the UX Theme Assets form, in the **Asset** field, enter the value `header_for_dashboard`.
 

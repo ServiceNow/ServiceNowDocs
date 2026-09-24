@@ -2,7 +2,7 @@
 title: Receive certificate notifications via email
 description: Configure certificate notifications to be delivered via email to relevant recipients.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/receive-email-certificate-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/receive-email-certificate-notifications.html
 release: australia
 product: Discovery
 classification: discovery
@@ -77,5 +77,5 @@ Certificate Inventory and Management sends email notifications for certificate l
 
 Certificate notifications are sent to relevant recipients as configured for each notification type.
 
-**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
+**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
 

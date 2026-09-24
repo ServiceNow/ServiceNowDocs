@@ -2,7 +2,7 @@
 title: Creating or adding an issue
 description: You can associate an issue with multiple objects such as controls, control objectives, risks, and so on in Operational Resilience Workspace. You can add an existing issue or create an issue for a business service or a scenario analysis in the Operational Resilience application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/issue-architecture-changes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/issue-architecture-changes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ When you select **New** on the **Issues** tab to create an issue for a business 
 
 \[Omitted image "create-new-issue-form.png"\] Alt text: Sample Create New Issue form.
 
-For the descriptions of the field values on the Create New Issue form, see [Create Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
+For the descriptions of the field values on the Create New Issue form, see [Create Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-issue-opres-ws.md).
 

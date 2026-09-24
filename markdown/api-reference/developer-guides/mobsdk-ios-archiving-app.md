@@ -2,7 +2,7 @@
 title: Archive your application for publishing
 description: It is important to disable rebuild from bitcode when archiving your application for publication for release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-archiving-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-ios-archiving-app.html
 release: australia
 product: Developer Guides
 classification: developer-guides

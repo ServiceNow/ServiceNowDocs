@@ -2,7 +2,7 @@
 title: Configure Save Related Parties Activity
 description: Customize the Details and Automation tabs to define the Save Related Parties activity's data inputs and scheduling behavior within the playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-save-related-parties-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customize-save-related-parties-activity.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-09"

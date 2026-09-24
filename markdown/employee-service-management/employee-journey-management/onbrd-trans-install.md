@@ -2,7 +2,7 @@
 title: Install Lifecyle events for enterprise
 description: Install Lifecyle events for enterprise and related applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-journey-management/onbrd-trans-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-journey-management/onbrd-trans-install.html
 release: australia
 product: Employee Journey Management
 classification: employee-journey-management
@@ -34,7 +34,7 @@ Role required: admin
 **Related topics**  
 
 
-[Business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/business-roles.md)
+[Business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-journey-management/business-roles.md)
 
 [Activate Lifecycle Events for Enterprise]()
 

@@ -2,7 +2,7 @@
 title: Reference
 description: The reference section provides additional information about the email client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/reference-email-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/reference-email-client.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

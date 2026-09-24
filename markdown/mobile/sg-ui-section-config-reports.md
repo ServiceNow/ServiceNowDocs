@@ -2,7 +2,7 @@
 title: Configure an analytics UI section
 description: Use the analytics UI section to display previews of your data visualization charts. Use it to show different visualizations for data sources and provide access to a specific chart or list screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-ui-section-config-reports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-ui-section-config-reports.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Use the analytics UI section to display previews of your data visualization char
 
 Role required: admin
 
-For an analytics UI section to display data visualizations you need both a mobile analytics preview and a chart screen with navigation functions. For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-dashboard-preview.md) and [Chart screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/chart-screen.md). A maximum of six analytics previews can be displayed in an analytics UI section.
+For an analytics UI section to display data visualizations you need both a mobile analytics preview and a chart screen with navigation functions. For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-dashboard-preview.md) and [Chart screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/chart-screen.md). A maximum of six analytics previews can be displayed in an analytics UI section.
 
 ## Procedure
 
@@ -120,7 +120,7 @@ Access control type
 
 </td><td>
 
-Option to assign either user role permissions or user criteria permissions for this launcher screen. For more information, see [User roles and user criteria permissions for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/roles-user-criteria.md).
+Option to assign either user role permissions or user criteria permissions for this launcher screen. For more information, see [User roles and user criteria permissions for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/roles-user-criteria.md).
 
 </td></tr><tr><td>
 
@@ -154,5 +154,5 @@ Determine which user criteria can access this launcher screen. If you have not s
 
 ## What to do next
 
-After creating an analytics UI section, you must add the UI sections to a launcher screen so they're displayed. For more information, see [Add a UI section to the launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/ui-section-to-launcher-screen.md).
+After creating an analytics UI section, you must add the UI sections to a launcher screen so they're displayed. For more information, see [Add a UI section to the launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/ui-section-to-launcher-screen.md).
 

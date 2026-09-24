@@ -2,7 +2,7 @@
 title: Create a navigation function to a chart screen
 description: Configure a navigation function to direct your users to your chart screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-chart-nav.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-chart-nav.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -169,7 +169,7 @@ Button attributes
 Specifies an additional attribute for a button. Select **New** to configure this option. You can select from the following button attributes:
 
  -   **alerts\_require\_dismissal:** The button attribute when set to true enables the banner messages to persist until the user dismisses it. By default, banner messages are automatically dismissed.
--   **used\_for\_deeplink:** The button attribute when set to true determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
+-   **used\_for\_deeplink:** The button attribute when set to true determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/deep-link-mobile.md).
 -   **trigger\_offline\_cache\_download:** The button attribute when set to `true` triggers offline cache generation. After the cache is successfully generated, a download of it is triggered.
 -   **check\_acl\_on\_url\_parameter\_field:** When this button attribute is selected and set to `true`, any field in the URL string is checked against the ACL \(access control list\). For example, a string like `{{meeting_id}}`. If a field doesn't pass this check, the field value isn't included in the URL. By default, the URL parameter field isn't checked against the ACL for backward compatibility.
 
@@ -189,15 +189,15 @@ Determine which user roles can access this screen. If you have selected no roles
 
 7.  Select Screen from the **Destination type** field.
 
-8.  From the Destination screen field, select the chart screen you created in the topic [Create a chart screen for a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-single-score-applet.md).
+8.  From the Destination screen field, select the chart screen you created in the topic [Create a chart screen for a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-single-score-applet.md).
 
 9.  Select **Save**.
 
 
 ## What to do next
 
-After you create a navigation link to the chart screen, you must associate this navigation function to the analytics preview. For details on this process, see [Add a navigation function to an analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-chart-nav-2.md).
+After you create a navigation link to the chart screen, you must associate this navigation function to the analytics preview. For details on this process, see [Add a navigation function to an analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-chart-nav-2.md).
 
--   **[Add a navigation function to an analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-chart-nav-2.md)**  
+-   **[Add a navigation function to an analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-chart-nav-2.md)**  
 Configure your analytics preview to use a navigation function. This function directs your users to your chart screen from the analytics preview on your screen launcher.
 

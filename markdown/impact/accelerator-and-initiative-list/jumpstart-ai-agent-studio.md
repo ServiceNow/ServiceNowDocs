@@ -2,7 +2,7 @@
 title: Jumpstart Your AI Agent Studio
 description: This Accelerator provides Impact customers with an overview and applied demonstration of AI agents within the Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-ai-agent-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-ai-agent-studio.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

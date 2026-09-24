@@ -2,7 +2,7 @@
 title: Portal Data List widget
 description: The Portal Data List widget displays data related to cases from selected case tables in either a list or card format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-data-list-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-data-list-widget.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -28,7 +28,7 @@ The card view displays case information in stacked cards.
 
 Each row in the widget represents a record. You can search, view, sort, and interact with the information presented.
 
-For more information about how to configure the instance options for the Portal Data List widget, see [Add and configure the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.md).
+For more information about how to configure the instance options for the Portal Data List widget, see [Add and configure the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.md).
 
 The Data List portal widget can be used in the following scenarios:
 

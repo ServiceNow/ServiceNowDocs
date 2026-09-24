@@ -2,7 +2,7 @@
 title: Email Composer and Email Viewer
 description: Learn about how the Email Composer and Email Viewer function with Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-compose-preview-email.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-compose-preview-email.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

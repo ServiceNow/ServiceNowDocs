@@ -2,7 +2,7 @@
 title: Sample field value duration script
 description: Review the existing Incident Open metric definition to see how you can create your own custom metric.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_SampleFieldValueDurationScript.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_SampleFieldValueDurationScript.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

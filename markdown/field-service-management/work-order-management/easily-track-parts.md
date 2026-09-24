@@ -2,7 +2,7 @@
 title: Inventory on ServiceNow Agent
 description: Field service agents can locate, request, and transfer parts from other agents or warehouses for the current and future work order tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/easily-track-parts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/easily-track-parts.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -19,7 +19,7 @@ Field service agents can locate, request, and transfer parts from other agents o
 **Related topics**  
 
 
-[Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-part-souring-components.md)
+[Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/advanced-part-souring-components.md)
 
-[Consumable and non-consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/r_ConsumableAndNonConsumableModels.md)
+[Consumable and non-consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/r_ConsumableAndNonConsumableModels.md)
 

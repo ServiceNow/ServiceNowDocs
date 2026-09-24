@@ -2,7 +2,7 @@
 title: Managing zero copy connections
 description: Securely connect to an external data source and access external data directly from your instance, without the need to copy or store any data locally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/managing-connections-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/managing-connections-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,16 +33,16 @@ A connection admin with the df\_connection\_admin role can create connections to
     Community connectors are developed by the open-source community and made available by ServiceNow. These connectors are certified for essential functionality but are not part of the ServiceNow support scope.
 
 
--   **[Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md)**  
+-   **[Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-access-connection-zcc.md)**  
 Manage which data stewards can access an established connection and create data fabric tables.
--   **[View data assets from an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-assets-connection-zcc.md)**  
+-   **[View data assets from an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-assets-connection-zcc.md)**  
 View the external schema and tables that are accessible to the service account used in a zero copy connection.
--   **[Monitoring established connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/monitoring-connection-status-zcc.md)**  
+-   **[Monitoring established connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/monitoring-connection-status-zcc.md)**  
 Maintain the health of established connections by monitoring connection status in Zero Copy Connector Hub.
--   **[Update an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-connection-details-zcc.md)**  
+-   **[Update an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-connection-details-zcc.md)**  
 Keep connection details current by updating service account information, authentication, or security settings.
--   **[Test an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/test-connection-zcc.md)**  
+-   **[Test an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/test-connection-zcc.md)**  
 Test the connection to an external data source from an established connection.
 
-**Parent Topic:**[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md)
+**Parent Topic:**[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/zero-copy-connectors.md)
 

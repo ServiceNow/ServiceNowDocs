@@ -2,7 +2,7 @@
 title: Employee Center Pro widgets
 description: You can use base system widgets as-is in the portal or clone them to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-center-pro-widgets-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-center-pro-widgets-list.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -74,7 +74,7 @@ cd-content-experience
 
 </td><td>
 
-Delivers targeted, actionable communications to employees. For more information, see [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
+Delivers targeted, actionable communications to employees. For more information, see [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 
 </td></tr><tr><td>
 
@@ -313,7 +313,7 @@ Shows portal content with content type of Banner. Generally used to show informa
 |Employee Profile Overview|employee-profile-overview|Displays the employee profile overview.|
 |Public Profile Visibility|public\_profile\_visibility|Shows the visibility setting for the profile. You can modify the visibility settings based on your needs.|
 
-For more information, see [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md).
+For more information, see [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md).
 
 ## Employee Center Pro Kiosk widgets
 
@@ -326,11 +326,11 @@ For more information, see [Employee profile](https://raw.githubusercontent.com/S
 |Timeoff Accrual Balance - Home Page|timeoff-accrual-balance-home-page|Shows the time off and leave balances home page.|
 |Preferences|preferences|Shows the user preferences such as accessibility and language.|
 
-For more information, see [Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md).
+For more information, see [Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md).
 
-For more information on configuring widgets, see [Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md).
+For more information on configuring widgets, see [Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md).
 
-**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

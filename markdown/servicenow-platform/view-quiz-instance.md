@@ -2,7 +2,7 @@
 title: View a quiz instance
 description: View an instance to verify that quiz instances were created, to check the state of a quiz instance, or to reassign a quiz instance. A quiz instance represents one questionnaire assigned to one user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/view-quiz-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/view-quiz-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -121,7 +121,7 @@ All instance question records that store user response values for each question 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-quizzes.md)
+**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/using-quizzes.md)
 
 **Related topics**  
 

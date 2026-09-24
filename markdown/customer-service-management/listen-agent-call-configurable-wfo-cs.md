@@ -2,7 +2,7 @@
 title: Listen, Monitor or Barge in to an agent call
 description: Monitor your customer service agents' calls when they are resolving issues for external callers by using Workforce Optimization for Customer Service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/listen-agent-call-configurable-wfo-cs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/listen-agent-call-configurable-wfo-cs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ When the Amazon Connect application answers a call from an external source, an i
 
 ## Procedure
 
-1.  [Monitor your agent's call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-channels-configurable-wfo-cs.md) queue when an agent is talking to an external caller in Workforce Optimization for Customer Service.
+1.  [Monitor your agent's call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-channels-configurable-wfo-cs.md) queue when an agent is talking to an external caller in Workforce Optimization for Customer Service.
 
 2.  Open the active interaction when the phone call is in progress.
 
@@ -42,5 +42,5 @@ When the Amazon Connect application answers a call from an external source, an i
 5.  End the session by selecting Disconnect or closing the NVC utility panel.
 
 
-**Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-servicenow-voice-cs.md)
+**Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-servicenow-voice-cs.md)
 

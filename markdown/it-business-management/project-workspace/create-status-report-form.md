@@ -2,7 +2,7 @@
 title: Create status report form
 description: Learn about the fields on the Create status report form of the Project Workspace. Use this form to create a new status report according to your requirement. The following are the heads in a report created using the Default status report template. A report created using the One-page status report template has fewer information heads.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-status-report-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/create-status-report-form.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -34,10 +34,10 @@ Learn about the fields on the Create status report form of the Project Workspace
 |Scope|Indication for whether the project scope is undergoing any changes.|
 |Comments on scope|Observations or explanations about changes to the project’s scope, including how they might affect the project.|
 
-**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
+**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
 
 **Related topics**  
 
 
-[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
+[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 

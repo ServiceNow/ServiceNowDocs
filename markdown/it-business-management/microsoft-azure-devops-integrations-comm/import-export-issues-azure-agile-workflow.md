@@ -2,7 +2,7 @@
 title: Importing and exporting work items between Agile Development and Azure DevOps
 description: Understand the workflow for the import and export of work items between Agile Development and Azure DevOps.Sync sprint details from Agile Development 2.0 to Azure Devops. Any change in the sprint details in Agile Development 2.0 is exported to Iteration paths in Azure DevOps, when the Sync sprint field is checked.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/import-export-issues-azure-agile-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/microsoft-azure-devops-integrations-comm/import-export-issues-azure-agile-workflow.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -16,7 +16,7 @@ breadcrumb: [Microsoft Azure DevOps Integration for Agile Development, Strategic
 
 Understand the workflow for the import and export of work items between Agile Development and Azure DevOps.
 
-To enable import and export of work items between Agile Development 2.0 and Azure DevOps, you must [configure the settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.md).
+To enable import and export of work items between Agile Development 2.0 and Azure DevOps, you must [configure the settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.md).
 
 ## Importing to Agile Development 2.0 from Azure DevOps
 
@@ -25,7 +25,7 @@ To enable import and export of work items between Agile Development 2.0 and Azur
 
     The relationship between the story and its epic is retained as it is in Azure DevOps.
 
--   Only the fields that are defined in the field map configuration are retained in the story or epic. For the details of the default map configuration, see [Default map configuration for Azure DevOps integration with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/default-agile-azure-mapping.md).
+-   Only the fields that are defined in the field map configuration are retained in the story or epic. For the details of the default map configuration, see [Default map configuration for Azure DevOps integration with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/default-agile-azure-mapping.md).
 -   When you add an attachment to a work item in Azure DevOps, the same attachment is added to the corresponding story or epic in Agile Development 2.0.
 -   Any new iterations created in Azure DevOps do not create a corresponding sprint record in Agile Development 2.0 immediately.
 
@@ -62,7 +62,7 @@ To enable import and export of work items between Agile Development 2.0 and Azur
 
 \[Omitted image "Export-workflow-for-assignment-group-update.png"\] Alt text: Export workflow for assignment group update in Agile Development 2.0
 
-**Parent Topic:**[Microsoft Azure DevOps Integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/agile-azure-integration-overview.md)
+**Parent Topic:**[Microsoft Azure DevOps Integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/agile-azure-integration-overview.md)
 
 ## Sync sprint details between Agile Development 2.0 and Azure DevOps
 

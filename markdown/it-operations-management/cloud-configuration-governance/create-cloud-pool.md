@@ -2,7 +2,7 @@
 title: Create a resource pool
 description: Based on blueprint settings, resource pools control the values that a user sees in a catalog item when they request a resource. Only values that pass the pool filter or script appear as options on the catalog item request form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-cloud-pool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-cloud-pool.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

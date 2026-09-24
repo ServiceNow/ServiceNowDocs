@@ -2,7 +2,7 @@
 title: Producer Event Notification Framework developer guide
 description: The Producer Event Notification Framework for Telecommunications, Media, and Technology enables the external distribution of events, such as trouble tickets, using a message-bus implemented in your network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/prod\_evt\_not-dev\_guide-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/prod\_evt\_not-dev\_guide-overview.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -18,13 +18,13 @@ The Producer Event Notification Framework for Telecommunications, Media, and Tec
 
 The Producer Event Notification Framework supports two different message-bus use cases:
 
-1.  Publishing events through the Hermes Messaging Service: If you plan to publish events using Hermes Kafka, you must configure the Producer Event Notification Framework for the Kafka message-bus. You can only use this message-bus for cloud-based instances. For details, see [Configure the Producer Event Notification Framework to use the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/prod_evt_not-dev_gd-cfg_herm_bus.md).
+1.  Publishing events through the Hermes Messaging Service: If you plan to publish events using Hermes Kafka, you must configure the Producer Event Notification Framework for the Kafka message-bus. You can only use this message-bus for cloud-based instances. For details, see [Configure the Producer Event Notification Framework to use the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/prod_evt_not-dev_gd-cfg_herm_bus.md).
 
     For additional information on how to publish trouble ticket notifications using Hermes, see [Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/hermes-stream-connect-kafka-workflow.md).
 
     **Note:** Before you are able to implement this use case, you must already have the Hermes Messaging Service installed and configured on your instance. For details, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service.md).
 
-2.  Publishing events through the open message bus: If your instance uses a custom message-bus, you must configure the Producer Event Notification Framework to use the open message bus to send events from your ServiceNow instance to consumers on your network. Both cloud-based and on-premise ServiceNow instances can publish events through the open message bus. For details, see [Configure the Producer Event Notification Framework to use the Open Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/prod_evt_not-dev_gd-cfg_open_bus.md).
+2.  Publishing events through the open message bus: If your instance uses a custom message-bus, you must configure the Producer Event Notification Framework to use the open message bus to send events from your ServiceNow instance to consumers on your network. Both cloud-based and on-premise ServiceNow instances can publish events through the open message bus. For details, see [Configure the Producer Event Notification Framework to use the Open Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/prod_evt_not-dev_gd-cfg_open_bus.md).
 
     For additional information on how to publish trouble ticket notifications using the open message bus, see [Outbound trouble ticket notifications via open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/trouble-ticket-workflow-using-pub-sub-model.md).
 

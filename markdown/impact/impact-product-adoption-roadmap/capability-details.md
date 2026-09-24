@@ -2,7 +2,7 @@
 title: Capability details
 description: View the various details for a capability using the Capability details page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/capability-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-product-adoption-roadmap/capability-details.html
 release: australia
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap

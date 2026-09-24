@@ -2,7 +2,7 @@
 title: Get WildFire Data Enrichment Flow
 description: When the Security Operations Palo Alto Networks - Get WildFire Data Enrichment flow is executed, a hash file is uploaded to WildFire. The data is enriched, and reports are downloaded to the instance to aid in processing potential malware attacks.The WildFire: Get PCAP flow action gets the packet capture \(PCAP\) information generated during the analysis of a specified file hash on WildFire. The result of this action is attached to a specific record as identified by the TableName and RecordId.The WildFire: Get PDF Report flow action gets the report generated during the analysis of a specified file hash on WildFire in PDF format. The result of this action is attached to a specific record as identified by the TableName and RecordId.The WildFire: Get XML Report flow action gets the report generated during the analysis of a specified file hash on WildFire in XML format. The result of this action is attached to a specific record as identified by the TableName and RecordId.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/enrich-wildfire-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/enrich-wildfire-data.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

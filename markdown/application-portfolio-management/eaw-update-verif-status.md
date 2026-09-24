@@ -2,7 +2,7 @@
 title: Update verification status of TLM audit details
 description: Change the verification status of a software product or hardware model lifecycle in the TLM technology lifecycle exception table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-update-verif-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-update-verif-status.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,10 +47,10 @@ You can acknowledge a heuristic lifecycle match of a product by changing its sta
 7.  Select **Save**.
 
 
-**Parent Topic:**[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
+**Parent Topic:**[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-audit-risk-details.md)
 
 **Related topics**  
 
 
-[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
+[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-audit-risk-details.md)
 

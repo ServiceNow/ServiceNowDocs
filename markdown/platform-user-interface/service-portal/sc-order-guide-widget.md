@@ -2,7 +2,7 @@
 title: SC Order Guide widget
 description: Use this widget \(widget-sc-order-guide-v2\) to request an order guide, that is, a single service catalog request for several catalog items with a specific purpose. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-order-guide-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/sc-order-guide-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -119,7 +119,7 @@ Show Add to Cart
 Option to display the **Add to Cart** button on the order guide summary page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

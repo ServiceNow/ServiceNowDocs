@@ -2,7 +2,7 @@
 title: Self-Service Analytics dashboard for Customer Service Management
 description: Measure and track the effectiveness of self-service content through user activities on self-service portals to enrich the content and address any self-service gaps.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-dashboard.html
 release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
@@ -30,7 +30,7 @@ You can access this dashboard by navigating to **All** &gt; **Platform analytics
 
 **Note:**
 
--   On the Knowledge tab, you can report knowledge gaps for unsuccessful searches. For more information, see [Report knowledge gaps based on unsuccessful searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/report-knowledge-gap-unsucc-search.md).
+-   On the Knowledge tab, you can report knowledge gaps for unsuccessful searches. For more information, see [Report knowledge gaps based on unsuccessful searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analytics-and-reporting-solutions-for-customer-service/report-knowledge-gap-unsucc-search.md).
 -   The Communities tab is available when the Communities plugin \(com.sn\_communities\) is activated.
 -   The Virtual Agent tab is available when the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) is activated.
 

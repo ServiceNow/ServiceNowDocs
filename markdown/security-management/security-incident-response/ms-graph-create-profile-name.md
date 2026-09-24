@@ -2,7 +2,7 @@
 title: Identify source for the profile
 description: Specify the name and source for the profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-create-profile-name.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ms-graph-create-profile-name.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

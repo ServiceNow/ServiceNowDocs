@@ -2,7 +2,7 @@
 title: Delete a use case in Now Assist in Document Intelligence
 description: Delete a use case when it is no longer needed for your documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/delete-now-assist-document-intelligence-use-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-in-document-intelligence/delete-now-assist-document-intelligence-use-case.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -38,7 +38,7 @@ Role required: Admin, DocIntel Admin, DocIntel Manager
 
 The use case along with the related fields, tables, questions, integrations, and flows are deleted.
 
-**Parent Topic:**[Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
+**Parent Topic:**[Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Catalog client script record form
 description: Field descriptions for the catalog client script new record form contains information on catalog client script form field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-cat-script-fd.dita.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-cat-script-fd.dita.html
 release: australia
 product: Service Exchange
 classification: service-exchange

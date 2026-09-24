@@ -2,7 +2,7 @@
 title: Configure an external storage system for legal contracts
 description: Configure an external storage system to store signed contract documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-integrate-ext-storage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-integrate-ext-storage.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -138,5 +138,5 @@ These field variables are dynamically replaced by the values in each field while
 
 The configuration for the external storage system is published and is ready to be used for storing contract documents.
 
-**Parent Topic:**[Configuring external applications for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-set-legal-ext-app-config.md)
+**Parent Topic:**[Configuring external applications for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-set-legal-ext-app-config.md)
 

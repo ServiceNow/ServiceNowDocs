@@ -2,7 +2,7 @@
 title: Add or edit indicator scores manually
 description: You can manually enter score data for automated and manual indicators. Exercise care when editing scores for automated indicators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_ManuallyAddingScoresForIndicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_ManuallyAddingScoresForIndicators.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -56,10 +56,10 @@ You can manually overwrite data that a job collected. However, the next time tha
         For automated indicators that collect a second-level breakdown and are based on two or more breakdown sources, multi-level breakdown scores can be entered in the scoresheet. For example, for Open incidents by workgroup by priority, you can enter both scores for the elements of workgroup \(first level\) and the elements of priority \(second level\). Aggregations for these indicators are calculated in the same way as other breakdowns.
 
 
-**Parent Topic:**[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md)
+**Parent Topic:**[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ClctData.md)
 
 **Related topics**  
 
 
-[Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
+[Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
 

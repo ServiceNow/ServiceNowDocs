@@ -2,7 +2,7 @@
 title: Create a profile
 description: You can set up a profile to ingest offenses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm-create-profile-name.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/qradar-ibm-create-profile-name.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

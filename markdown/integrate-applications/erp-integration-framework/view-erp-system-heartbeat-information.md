@@ -2,7 +2,7 @@
 title: View Zero Copy Connector for ERP system heartbeat information
 description: In Zero Copy Connector for ERP \(Enterprise Resource Planning\), the heartbeat shows the status, date, and time of connections to the ERP system, along with error information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-erp-system-heartbeat-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/view-erp-system-heartbeat-information.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -33,7 +33,7 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
 
     \[Omitted image "erpc-system-rfc-heartbeat-ys2.png"\] Alt text: Zero Copy Connector for ERP system record with HTTP heartbeats tab displayed.
 
-    View information about the heartbeats, including updated date and time, and status. If there's an error, the error text is displayed and a link to a knowledge base article \(if available\) is provided. For more information, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
+    View information about the heartbeats, including updated date and time, and status. If there's an error, the error text is displayed and a link to a knowledge base article \(if available\) is provided. For more information, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
     By default, all heartbeat information is kept for one week, but users with the admin role can change that setting.
 

@@ -2,7 +2,7 @@
 title: Compute Autocad floor surface area
 description: Compute floor size area and dimensions in Indoor Mapping Map Studio while importing your AutoCAD floor sources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/compute-autocad-floor-surface.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/compute-autocad-floor-surface.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -167,7 +167,7 @@ Default value is **Global**. Retain **Global** to avoid any conflicts between yo
         -   Click **Save**.
         -   Click **Start Import** and run the synchronization again.
 
-            For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
+            For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
             The conversions are now accurate.
 

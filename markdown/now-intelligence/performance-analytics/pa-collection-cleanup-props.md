@@ -2,7 +2,7 @@
 title: Collection cleanup Performance Analytics properties
 description: Several properties determine how long Performance Analytics scores and snapshots are maintained before the scheduled cleanup job deletes them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-collection-cleanup-props.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/pa-collection-cleanup-props.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -44,7 +44,7 @@ com.snc.pa.dc.keep\_snapshots\_for.frequency
 
 </td><td>
 
-Maximum number of periods prior to today for which lists of records \([snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md)\) related to a score are collected and kept. The number of periods varies according to the score collection frequency, as follows: daily; weekly; bi-weekly; four weeks; monthly; bi-monthly; quarterly; fiscal quarterly; half-yearly; yearly; fiscal yearly.Snapshots older than this limit are not collected during data collection.
+Maximum number of periods prior to today for which lists of records \([snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md)\) related to a score are collected and kept. The number of periods varies according to the score collection frequency, as follows: daily; weekly; bi-weekly; four weeks; monthly; bi-monthly; quarterly; fiscal quarterly; half-yearly; yearly; fiscal yearly.Snapshots older than this limit are not collected during data collection.
 
  **Note:** This property can be overridden on individual indicators.
 
@@ -53,5 +53,5 @@ Maximum number of periods prior to today for which lists of records \([snapshots
 -   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **PA Properties**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-properties.md)
+</table>**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-properties.md)
 

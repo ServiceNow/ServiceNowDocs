@@ -2,7 +2,7 @@
 title: Resolve noncritical HR cases agentic workflow
 description: Use the Resolve noncritical HR cases agentic workflow to assess the criticality of HR cases and automatically respond to noncritical inquiries without human intervention. Human agents must intervene when requests are marked critical.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/employee-issue-resolver-na.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/employee-issue-resolver-na.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

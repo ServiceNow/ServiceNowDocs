@@ -2,7 +2,7 @@
 title: Create automation blocks from the automation request in Automation Center
 description: Create automation blocks \(on-screen tasks and background tasks\) using the automation request created in Task Mining. These automation blocks are used to create desktop actions and AI agent in Automation Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/generate-automations-tm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/generate-automations-tm.html
 release: australia
 topic_type: task
 last_updated: "2026-06-17"
@@ -19,7 +19,7 @@ Create automation blocks \(on-screen tasks and background tasks\) using the auto
 
 -   Verify that Automation Center and AI Desktop Actions are installed.
 -   Verify that ServiceNow Otto for Automation Center plugin is installed and the User task step summarization skill is activated.
--   Confirm that the business analyst submitted an automation request in Task Mining. For more information, see [Create an automation request in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/create-automation-request-tm.md).
+-   Confirm that the business analyst submitted an automation request in Task Mining. For more information, see [Create an automation request in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/create-automation-request-tm.md).
 
 Role required: sn\_aia.admin, sn\_ac.automation\_admin or sn\_ac.automation\_technical\_user, and sn\_tm\_core.analyst
 
@@ -176,5 +176,5 @@ Operates silently based on instructions.
 
 ## What to do next
 
-You can now create an AI agent and desktop actions from the generated automation blocks. For more information, see [Create an AI agent and desktop actions from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/create-agent-automations.md).
+You can now create an AI agent and desktop actions from the generated automation blocks. For more information, see [Create an AI agent and desktop actions from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/create-agent-automations.md).
 

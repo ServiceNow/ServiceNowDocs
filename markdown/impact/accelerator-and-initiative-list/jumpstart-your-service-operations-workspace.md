@@ -2,7 +2,7 @@
 title: Jumpstart your Service Operations Workspace
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-service-operations-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-your-service-operations-workspace.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

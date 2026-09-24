@@ -2,7 +2,7 @@
 title: System Localization
 description: Localization allows administrators to accommodate users from a variety of different countries, using different languages and currencies, within the same instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/system-localization-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/system-localization-landing.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -20,23 +20,23 @@ Localization allows administrators to accommodate users from a variety of differ
 
 <table id="table_t3t_h4s_dzb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about localizing an instance for different users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/exploring-system-localization.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about localizing an instance for different users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/exploring-system-localization.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure languages, locales, regions, and locations for an instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/configuring-system-localization.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure languages, locales, regions, and locations for an instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/configuring-system-localization.md)
 
 </td></tr><tr><td>
 
-[Translate custom content\[Omitted image "bus-documentation.svg"\] Alt text:Translate content created or modified on an instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translating-applications.md)
+[Translate custom content\[Omitted image "bus-documentation.svg"\] Alt text:Translate content created or modified on an instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/translating-applications.md)
 
 </td><td>
 
-[Translate to a new language\[Omitted image "bus-global.svg"\] Alt text:Translate an instance to a language without a language plugin.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/self-localize.md)
+[Translate to a new language\[Omitted image "bus-global.svg"\] Alt text:Translate an instance to a language without a language plugin.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/self-localize.md)
 
 </td></tr><tr><td colspan="2">
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, tables, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/system-localization-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, tables, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/system-localization-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -48,10 +48,10 @@ Localization allows administrators to accommodate users from a variety of differ
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
--   **[Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translating-applications.md)**  
+-   **[Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/translating-applications.md)**  
 Translate content you create or modify to a supported language or add an unsupported language.
--   **[System Localization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/system-localization-reference.md)**  
+-   **[System Localization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/system-localization-reference.md)**  
 Reference topics provide additional information about configuration properties, tables, and more.
 
-**Parent Topic:**[ServiceNow AI Platform translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translation-and-localization.md)
+**Parent Topic:**[ServiceNow AI Platform translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/translation-and-localization.md)
 

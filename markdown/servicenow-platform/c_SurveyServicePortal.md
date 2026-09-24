@@ -2,7 +2,7 @@
 title: Surveys in Service Portal and the Now Mobile app
 description: If you've installed Service Portal, you can use the My Assessments and Surveys widget in Service Portal. Users can view surveys in Service Portal. Service Portal also supports surveys for users on mobile devices that have the Now Mobile app installed. The My Assessments and Surveys widget is available by default on the Service Portal home page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyServicePortal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_SurveyServicePortal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -73,7 +73,7 @@ When users open a survey either in Service Portal or the Now Mobile app, the sur
 
 -   When the survey users leave the survey without submitting it, they can start the survey later from the same page where they left off in the previous session.
 
-**Note:** For mobile users, the pagination is always by question for surveys. For more information about pagination settings, see [Configure a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigSurveyInSurveyDesgnr.md).
+**Note:** For mobile users, the pagination is always by question for surveys. For more information about pagination settings, see [Configure a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ConfigSurveyInSurveyDesgnr.md).
 
 ## One Click survey
 
@@ -114,7 +114,7 @@ Pass these URI parameters through the createAssessment\(\) API to store their va
 |**sysparm\_trigger\_id**|Location sys\_id that is stored as the **Trigger ID** field in the asmt\_assessment\_instance table. For example, sysparm\_trigger\_id=1c741bd70b2322007518478d83673af3.|
 |**sysparm\_kiosk**|When set to **true**, both the sysparm\_trigger\_table and sysparm\_trigger\_id parameters should be specified. This parameter is required for kiosk requests. For example, sysparm\_kiosk=true.|
 
-**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
@@ -155,7 +155,7 @@ Pass these URI parameters through the createAssessment\(\) API to store their va
 
 [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md)
 
-[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
+[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDesigner.md)
 
-[Configure a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigSurveyInSurveyDesgnr.md)
+[Configure a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ConfigSurveyInSurveyDesgnr.md)
 

@@ -2,7 +2,7 @@
 title: Enable contract request fields in condition builders
 description: As an administrator, provide access to contract request fields so they can be selected in condition builders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -58,7 +58,7 @@ The contract request fields are available for selection in the condition builder
 
 \[Omitted image "cmpro-enable-cr-fields-cond-builder.png"\] Alt text: Condition builder with contract request fields
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 

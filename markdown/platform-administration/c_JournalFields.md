@@ -2,7 +2,7 @@
 title: Journal field type
 description: There are three types of journal field: journal, journal\_list, and journal\_input.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_JournalFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_JournalFields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

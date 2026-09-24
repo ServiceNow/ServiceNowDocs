@@ -2,7 +2,7 @@
 title: Complete ReleaseOps manual setup
 description: Complete ReleaseOps manual setup to configure a new ReleaseOps ecosystem using the sample pipelines and playbooks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/configure-new-releaseops-ecosystem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/configure-new-releaseops-ecosystem.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -19,7 +19,7 @@ Complete ReleaseOps manual setup to configure a new ReleaseOps ecosystem using t
 
 ## About this task
 
-Starting with version 1.2.1 of ReleaseOps, you can use guided setup for a quicker initial configuration experience. For more information, see [Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/complete-guided-setup.md).
+Starting with version 1.2.1 of ReleaseOps, you can use guided setup for a quicker initial configuration experience. For more information, see [Complete ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/complete-guided-setup.md).
 
 The manual setup procedure outlined in this task can also be used to complete ReleaseOps initial configuration. Manual setup can be useful in more complex setup scenarios and when making changes to your existing ReleaseOps ecosystem.
 
@@ -27,9 +27,9 @@ The manual setup procedure outlined in this task can also be used to complete Re
 
 Role required: admin or sn\_releaseops.releaseops\_pipeline\_admin
 
-Confirm that all instances \(production, development, and test\) have ReleaseOps installed. Your test instance must also have ATF Test Generator and Cloud Runner installed. For more information, see [Install ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/install-releaseops.md).
+Confirm that all instances \(production, development, and test\) have ReleaseOps installed. Your test instance must also have ATF Test Generator and Cloud Runner installed. For more information, see [Install ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/install-releaseops.md).
 
-Confirm that multi-instance management has been configured to enable all non-production instances \(development and test\) to be managed by the production instance. For more information, see [Configure multi-instance management for instances using ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/configure-mif.md).
+Confirm that multi-instance management has been configured to enable all non-production instances \(development and test\) to be managed by the production instance. For more information, see [Configure multi-instance management for instances using ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/configure-mif.md).
 
 ## Procedure
 
@@ -56,7 +56,7 @@ Confirm that multi-instance management has been configured to enable all non-pro
 
     For sample ReleaseOps pipelines, you must only configure a new pipeline instance for your test instance. You don’t need to configure pipeline instances for your development and production instances, because these environments are defined within deployment requests and releases.
 
-    For custom ReleaseOps pipelines, you can configure additional pipeline instances for the non-production instances that participate in your ReleaseOps ecosystem, excluding your development instance. For more information about custom pipelines, see [Create a custom pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-release-ops-pipeline.md).
+    For custom ReleaseOps pipelines, you can configure additional pipeline instances for the non-production instances that participate in your ReleaseOps ecosystem, excluding your development instance. For more information about custom pipelines, see [Create a custom pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/create-release-ops-pipeline.md).
 
     1.  Navigate to **All** &gt; **ReleaseOps** &gt; **Pipelines**.
 

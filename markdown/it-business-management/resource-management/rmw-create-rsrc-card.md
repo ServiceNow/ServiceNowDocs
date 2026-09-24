@@ -2,7 +2,7 @@
 title: Create a resource card
 description: Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rmw-create-rsrc-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/rmw-create-rsrc-card.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -110,7 +110,7 @@ A resource board view with the list of resources matching the filter condition w
 
 Enable the **Unassigned tasks** toggle and build a filter condition to view unassigned tasks in the Unassigned tasks bottom tray.
 
-For more information on how to filter and view unassigned work, and handle resource assignments, see [Assign and approve unassigned work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/allocate-resources-rmw.md).
+For more information on how to filter and view unassigned work, and handle resource assignments, see [Assign and approve unassigned work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/allocate-resources-rmw.md).
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md)
 

@@ -2,7 +2,7 @@
 title: Create or customize patterns
 description: Create or modify a discovery pattern and define its basic attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/t\_CreatePatternPatDef.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/t\_CreatePatternPatDef.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,7 +18,7 @@ Create or modify a discovery pattern and define its basic attributes.
 
 ## Before you begin
 
-Make sure that the application for which you want to create a pattern, has a corresponding configuration item \(CI\) type and a CI classification. If the CI type you require is not in the list, create it as described in [Create CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md).
+Make sure that the application for which you want to create a pattern, has a corresponding configuration item \(CI\) type and a CI classification. If the CI type you require is not in the list, create it as described in [Create CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md).
 
 If your ServiceNow instance uses domain separation and you have access to the global domain, log in to the relevant domain. The selected domain must be a domain without any child domains.
 
@@ -70,7 +70,7 @@ Enter the pattern name. This name must be unique to this pattern. Use self-expla
 
 </td><td>
 
-Select the [CI type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md) which you want this pattern to discover.**Note:** Discovery can find multiple CIs that belong to the same CI type.
+Select the [CI type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md) which you want this pattern to discover.**Note:** Discovery can find multiple CIs that belong to the same CI type.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Provide a description for this pattern.
 </td></tr></tbody>
 </table>4.  When creating an application pattern, make the MID Server run this pattern only if the process identified on a CI matches the classification criteria for this pattern, select **Enforce Process Classification**.
 
-    All simplified patterns created from generic applications, have this attribute enabled. For more information about creating process classification, see [Discovery classifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-classifiers.md).
+    All simplified patterns created from generic applications, have this attribute enabled. For more information about creating process classification, see [Discovery classifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-classifiers.md).
 
 5.  Define a set of identification steps for every incoming connection of a configuration item \(CI\) as described in [KB1698521: Create or customize patterns](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1698521).
 
@@ -131,16 +131,16 @@ Provide a description for this pattern.
 
 For application type patterns, continue with creating a connection section as described in the KB article [KB1698521: Create or customize patterns](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1698521).
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md)
+**Previous topic:**[Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md)
 
-**Next topic:**[Discover related items together with the main CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/add-related-cis-to-the-main-ci-pattern.md)
+**Next topic:**[Discover related items together with the main CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/add-related-cis-to-the-main-ci-pattern.md)
 
 **Related topics**  
 
 
-[Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-wizard.md)
+[Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cloud-discovery-wizard.md)
 
 [KB0747679: Pre/Post Processing Scripts for patterns](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0747679)
 

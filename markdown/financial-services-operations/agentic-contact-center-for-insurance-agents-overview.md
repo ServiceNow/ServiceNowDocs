@@ -2,7 +2,7 @@
 title: Agentic Contact Center for Insurance AI agents overview
 description: Agentic Contact Center for Insurance uses AI agents to enhance customer service by providing insurance customer service representatives with intelligent assistance during interactions. The two key agents—Insurance CSR Customer Insights and Insurance CSR Support—help reduce handling time, enable proactive outreach, and deliver personalized customer experiences through AI-driven analysis and contextual insurance data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-13"
@@ -48,5 +48,5 @@ The key AI agents in Agentic Contact Center for Insurance are:
 **Related topics**  
 
 
-[Supporting information for ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/supporting-information-for-now-assist-for-financial-services-operations-fso.md)
+[Supporting information for ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/supporting-information-for-now-assist-for-financial-services-operations-fso.md)
 

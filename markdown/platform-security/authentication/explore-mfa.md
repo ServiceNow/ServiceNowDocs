@@ -2,7 +2,7 @@
 title: Exploring Multi-factor Authentication
 description: Multi-factor Authentication \(MFA\) is an authentication method that requires users to provide information other than their basic credentials.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/explore-mfa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/explore-mfa.html
 release: australia
 product: Authentication
 classification: authentication
@@ -51,13 +51,13 @@ ServiceNow's MFA supports verification methods such as Authenticator App, Fast I
 
 You can use MFA along with the following:
 
--   Local Database Authentication \(native ServiceNow authentication\) or [Lightweight Directory Access Protocol integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegration.md)
--   SSO SAML or SSO OIDC. For more information, see [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
+-   Local Database Authentication \(native ServiceNow authentication\) or [Lightweight Directory Access Protocol integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ldap-integration/c_LDAPIntegration.md)
+-   SSO SAML or SSO OIDC. For more information, see [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
 
 **Related topics**  
 
 
-[Multi-factor authentication verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-methods.md)
+[Multi-factor authentication verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-methods.md)
 
-[Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-properties.md)
+[Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-properties.md)
 

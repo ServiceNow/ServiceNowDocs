@@ -2,7 +2,7 @@
 title: Edit an Appliance
 description: This section describes what information that is available and that is setup on an Appliance record
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-an-appliance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/edit-an-appliance.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-10"
@@ -90,5 +90,5 @@ The **Actions** button in the appliance record enables the following actions.
 
 \[Omitted image "appliance-action-button.png"\] Alt text: Action button
 
-**Parent Topic:**[Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/appliances-page.md)
+**Parent Topic:**[Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/appliances-page.md)
 

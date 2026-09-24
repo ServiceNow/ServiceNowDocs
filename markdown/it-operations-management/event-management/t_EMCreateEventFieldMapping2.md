@@ -2,7 +2,7 @@
 title: Create event field mappings
 description: Use event field mappings to map values from specific event fields to values in other fields to provide more comprehensive information in an alert. Use team-based integrations in event rules to make sure that connector ownership and execution of rules give precedence to global rules. Teams can maintain consistency and hierarchy while offering flexibility and customization options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMCreateEventFieldMapping2.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMCreateEventFieldMapping2.html
 release: australia
 product: Event Management
 classification: event-management
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 Create the rule to match the event by its class and original values. Also, specify the new values to replace the original values in the event.
 
-For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better team support. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
+For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better team support. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Procedure
 
@@ -623,5 +623,5 @@ Transform Value Pairs
 
 Test an event field mapping by sending an event that includes a field that is present in the event field mapping.
 
-**Parent Topic:**[Event field mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMEventFieldMapping.md)
+**Parent Topic:**[Event field mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/c_EMEventFieldMapping.md)
 

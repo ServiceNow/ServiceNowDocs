@@ -2,7 +2,7 @@
 title: Create a manual journal entry
 description: Create, validate, and submit journal entries for month-end account closing. The workflow verifies that debit and credit amounts balance before entries reach governance and approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-use-journal-entry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-use-journal-entry.html
 release: australia
 topic_type: task
 last_updated: "2026-08-14"
@@ -20,7 +20,7 @@ Create, validate, and submit journal entries for month-end account closing. The 
 -   You must have access to create journal entries.
 -   Prepare a general ledger \(GL\) entry file containing the journal lines. The file typically includes the account code, debit amount, credit amount, description, and optional reference fields.
 
-Role required: An MDM Orchestrator journal entry role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator journal entry role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## Procedure
 
@@ -43,7 +43,7 @@ Role required: An MDM Orchestrator journal entry role. \(For more information, s
 
 ## Result
 
-The approver reviews the request. For the approval steps, see [Approve or reject requests in Approval Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-approve-request.md). After approval, the journal entry is posted to the GL in the connected ERP system. If rejected, the task returns to the creator with a rejection reason for correction and resubmission.
+The approver reviews the request. For the approval steps, see [Approve or reject requests in Approval Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-approve-request.md). After approval, the journal entry is posted to the GL in the connected ERP system. If rejected, the task returns to the creator with a rejection reason for correction and resubmission.
 
-**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-use.md)
 

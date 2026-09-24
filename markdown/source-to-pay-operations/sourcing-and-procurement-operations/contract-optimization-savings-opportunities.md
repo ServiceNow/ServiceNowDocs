@@ -2,7 +2,7 @@
 title: Contract optimization savings opportunities
 description: The Contract Optimization Opportunity Finder Agent identifies opportunities to reduce costs by renegotiating price escalations, renewal caps, and payment terms on supplier contracts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/contract-optimization-savings-opportunities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/contract-optimization-savings-opportunities.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -56,5 +56,5 @@ A payment terms opportunity captures the following information:
 -   The early payment discount terms when present in the contract clauses.
 -   The estimated annual savings from the proposed change, calculated using the configured treasury rate.
 
-**Parent Topic:**[Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md)
+**Parent Topic:**[Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md)
 

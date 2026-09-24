@@ -2,7 +2,7 @@
 title: Input variable removal
 description: Deleting workflow input variables, like insert and update actions, creates a customer update record in a user's current update set.An existing workflow already contains two input variables.When editing workflows, particularly when deleting input variables, be sure to use a single update set for all variable editing and workflow publishing.Prior to publishing a workflow version, the system validates the workflow model to assist the designer in planning for deployment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_InputVariableRemoval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/legacy-workflow/c\_InputVariableRemoval.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -18,7 +18,7 @@ Deleting workflow input variables, like insert and update actions, creates a cus
 
 These deletions migrate to a new instance with the update set, regardless of whether the workflow that owns the input variables is published in the same update set. Plan carefully and use caution when editing a workflow and selecting update sets.
 
-**Parent Topic:**[Input variable movement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_InputVariableMovement.md)
+**Parent Topic:**[Input variable movement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/c_InputVariableMovement.md)
 
 ## Input variable removal risk
 
@@ -48,5 +48,5 @@ If necessary, merge the update set into a more general set targeted for deployme
 
 Prior to publishing a workflow version, the system validates the workflow model to assist the designer in planning for deployment.
 
-This validation warns of critical errors that can prevent a workflow from running successfully, but also warns of dependencies and conflicts in update sets. See [ValidateUpdateSetDependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_VldtUpdtStDpnd.md) for more details.
+This validation warns of critical errors that can prevent a workflow from running successfully, but also warns of dependencies and conflicts in update sets. See [ValidateUpdateSetDependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/r_VldtUpdtStDpnd.md) for more details.
 

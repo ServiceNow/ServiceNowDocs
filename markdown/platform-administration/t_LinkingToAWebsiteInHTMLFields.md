@@ -2,7 +2,7 @@
 title: Link a website in HTML editor
 description: You can insert a link to a website in an HTML field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_LinkingToAWebsiteInHTMLFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_LinkingToAWebsiteInHTMLFields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

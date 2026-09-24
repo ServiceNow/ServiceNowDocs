@@ -2,7 +2,7 @@
 title: Remove a filter from Interactive Analysis
 description: You can remove a filter from Interactive Analysis and specify whether to remove the filter element from Group by and Stack by lists in the analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/remove-filter-from-ia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/remove-filter-from-ia.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -39,5 +39,5 @@ You must have access to the list of records that you want to analyze.
 
 The filter is removed from the Interactive Analysis.
 
-**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
+**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/interactive-analysis.md)
 

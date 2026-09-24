@@ -2,7 +2,7 @@
 title: View choice list definitions
 description: The Choice Set \[sys\_choice\_set\] table contains a record for every field that uses a choice list.You can personalize the options that are available in a choice list.After defining a set of choice list values, you can reuse the values for another field in a different table.You can remove the None option from a choice list if it is not necessary.You can change the default display label of the None option for a choice field.You can delete all choices for a choice field from the Choice Set record.You can create a choice list for a field with another type, such as an integer, string, or reference field.By default, inactive or invalid choice list values appear in blue text instead of black. You can disable the color indicator for invalid choices.Add a search field to choice fields that have a long list of options.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ViewChoiceListDefinitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ViewChoiceListDefinitions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ Choice list values allow a maximum length of 40 characters. The range of allowab
 **Related topics**  
 
 
-[Define an option for a choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewChoiceListDefinitions.md)
+[Define an option for a choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ViewChoiceListDefinitions.md)
 
 ## Define an option for a choice list
 

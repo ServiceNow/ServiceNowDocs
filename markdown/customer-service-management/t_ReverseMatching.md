@@ -2,7 +2,7 @@
 title: Reverse matching
 description: Reverse matching uses the same matching rules to match tasks to a resource rather than resources to a task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ReverseMatching.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_ReverseMatching.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

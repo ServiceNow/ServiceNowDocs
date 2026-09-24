@@ -2,7 +2,7 @@
 title: Configure normalization in assessment
 description: In Smart Assessment Engine, set up normalization to adjust assessment response scores to a common scale at the assessment, section, or subsection level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/configure-normalization-in-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/configure-normalization-in-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -23,7 +23,7 @@ In Smart Assessment Engine, set up normalization to adjust assessment response s
 
 ## About this task
 
--   To configure normalization, first set up scoring. For more information, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md).
+-   To configure normalization, first set up scoring. For more information, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md).
 -   Normalization is supported for questions with number, drop-down, radio button, and check box types.
 
 ## Procedure
@@ -41,7 +41,7 @@ In Smart Assessment Engine, set up normalization to adjust assessment response s
 
 4.  Select the **Enable normalization for this template** option.
 
-    -   To enable normalization on a template, normalization and its defaults must be enabled in the purpose assigned to that template. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+    -   To enable normalization on a template, normalization and its defaults must be enabled in the purpose assigned to that template. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
     -   The **Enable normalization for this template** option enables you to apply normalization rules at the section, subsection, and question levels.
 5.  To define default normalization values to be applied at section, subsection, and question levels automatically, select **Define default normalization to apply at different levels automatically** option and on the form, fill in the fields.
 

@@ -2,7 +2,7 @@
 title: Change Approval Policy workflow activity
 description: Use the Change Approval Policy workflow activity to control the approval process for a change request by creating user and group approvals according to a change approval policy record. Multiple activities can be used in a workflow, where each activity can reference the same or different Change Approval Policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-approval-policiy-wf-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-approval-policiy-wf-activity.html
 release: australia
 product: Change Management
 classification: change-management
@@ -114,5 +114,5 @@ Use the **Policy Input** field to set up additional inputs. In the given example
 
 The **Finish condition** field is used to complete the activity by marking pending approvals as **No Longer Required**. In this workflow example, when the Change Request is put on-hold, the Change Approval Policy activity is completed and the workflow disregards the pending approvals before waiting for the Change Request to resume. When the on-hold state is released, the Change Approval Policy activity is restarted.
 
-**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-approval-policies-cf.md)
+**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/using-change-approval-policies-cf.md)
 

@@ -2,7 +2,7 @@
 title: Generate resolution notes for ADR case
 description: Generate the resolution notes for an Alternative Dispute Resolution \(ADR\) case by using the resolution notes generation for ADR skill in the ServiceNow Otto for TMT application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution-notes-ad.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution-notes-ad.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -42,15 +42,15 @@ The resolution notes generation for ADR skill enables you to generate resolution
 
 6.  After you're finished summarizing the key findings, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d25023e138">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d25027e138">
 
 Option
 
-</th><th align="left" id="d25023e141">
+</th><th align="left" id="d25027e141">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d25023e147">
+</th></tr></thead><tbody><tr><td id="d25027e147">
 
 **Provide feedback for the summary**
 
@@ -60,7 +60,7 @@ Procedure
 -   If you think that the resolution plan wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d25023e180">
+</td></tr><tr><td id="d25027e180">
 
 **Copy the case summary**
 
@@ -68,7 +68,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the resolution plan for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d25023e195">
+</td></tr><tr><td id="d25027e195">
 
 **View the information about the case summary**
 
@@ -82,7 +82,7 @@ To check some details about the resolution plan, select the more info icon \(\[O
 
 ## What to do next
 
-Complete the remaining steps to execute the ADR case record. To learn more, see [Create a Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-adr-case-record.md).
+Complete the remaining steps to execute the ADR case record. To learn more, see [Create a Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/create-adr-case-record.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

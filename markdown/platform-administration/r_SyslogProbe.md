@@ -2,7 +2,7 @@
 title: Syslog probe
 description: The ServiceNow Syslog probe uses the MID Server to deliver log messages from a ServiceNow instance to another machine, such as a dedicated log server, using the syslog protocol over an IP network.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_SyslogProbe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_SyslogProbe.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ This code does the following:
 -   Sends the message to your syslog server
 -   Launches the probe via the MID Server named "Eclipse"
 
-**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_SupportedIntegrationInterfaces.md)
+**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_SupportedIntegrationInterfaces.md)
 

@@ -2,7 +2,7 @@
 title: Flow recommendations
 description: Select the next component in your flow from a list of AI-generated recommendations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-recommendations-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-recommendations-landing.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -20,7 +20,7 @@ Select the next component in your flow from a list of AI-generated recommendatio
 
 <table id="table_t25_zqk_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flow-recommendations.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/exploring-flow-recommendations.md)
 
 </td><td>
 
@@ -28,7 +28,7 @@ Select the next component in your flow from a list of AI-generated recommendatio
 
 </td></tr><tr><td>
 
-[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow using ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-now-assist.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow using ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow-now-assist.md)
 
 </td><td>
 
@@ -73,10 +73,10 @@ This application uses artificial intelligence \(AI\) and machine learning, which
 
 This application requires data to be transferred from ServiceNow customers' individual instances to a centralized ServiceNow environment, which may be located in a different data center region from the one where your instance is, and potentially to a third-party cloud provider, such as Microsoft Azure. This data is handled per ServiceNow's internal policies and procedures, including our policies available through our [CORE Compliance Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0564067).
 
--   **[Exploring Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flow-recommendations.md)**  
+-   **[Exploring Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/exploring-flow-recommendations.md)**  
 Select the next component in your flow from a list of AI-generated recommendations. The system generates recommendations based on the current position in the flow and the flow component names listed before.
 -   **[Turn on the flow recommendations skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Turn on the flow recommendations skill to get recommendations for the next step of your flow with generative AI.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md)
 

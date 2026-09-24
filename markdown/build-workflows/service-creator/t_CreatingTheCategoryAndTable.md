@@ -2,7 +2,7 @@
 title: Create the category and table
 description: After the request has been submitted, a catalog administrator can approve or reject the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/t\_CreatingTheCategoryAndTable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/service-creator/t\_CreatingTheCategoryAndTable.html
 release: australia
 product: Service Creator
 classification: service-creator
@@ -46,5 +46,5 @@ Approving the request creates a new table for the service category, adds an appl
 **Related topics**  
 
 
-[Manage a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/service-creator/t_ManagingServices.md)
+[Manage a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/service-creator/t_ManagingServices.md)
 

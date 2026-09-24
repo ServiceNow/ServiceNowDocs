@@ -2,7 +2,7 @@
 title: Deactivate a product catalog item
 description: Deactivate a product catalog item to remove it from the product catalog and the service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_DeactivateAProductCatalogItem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/product-catalog/t\_DeactivateAProductCatalogItem.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -30,7 +30,7 @@ You can deactivate the item from either the list view or the record.
 
 2.  Complete one of the following steps.
 
-<table id="choicetable_pxn_313_wt"><tbody><tr><td id="d207842e92">
+<table id="choicetable_pxn_313_wt"><tbody><tr><td id="d207841e92">
 
 **Deactivate from the list view**
 
@@ -38,7 +38,7 @@ You can deactivate the item from either the list view or the record.
 
 Select the check box next to one or more items in the record list and click **Deactivate** below the list.
 
-</td></tr><tr><td id="d207842e104">
+</td></tr><tr><td id="d207841e104">
 
 **Deactivate from the record**
 
@@ -48,7 +48,7 @@ Select **Deactivate** under **Related Links**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ManagingProductCatalogItems.md)
+**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/c_ManagingProductCatalogItems.md)
 
 **Related topics**  
 

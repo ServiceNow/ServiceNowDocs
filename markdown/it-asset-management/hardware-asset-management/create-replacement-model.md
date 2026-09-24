@@ -2,7 +2,7 @@
 title: Configure replacement models for a refresh model
 description: Configure replacement models for a hardware asset model that is refreshed. When configured, employees can select replacement models for their hardware assets on the Zero Touch Refresh form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-replacement-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-replacement-model.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -80,7 +80,7 @@ Option that indicates whether the replacement rule is active.
 
 The refresh model with the assigned replacement models is included in the **Refresh models** list.
 
-**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
+**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
 
 **Related topics**  
 

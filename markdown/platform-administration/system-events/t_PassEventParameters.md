@@ -2,7 +2,7 @@
 title: Pass event parameters from a work-flow to a notification
 description: Pass two event parameters that send information about a record or related records from a work-flow to a notification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-events/t\_PassEventParameters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-events/t\_PassEventParameters.html
 release: australia
 product: System Events
 classification: system-events
@@ -55,10 +55,10 @@ if (gr.next()){
 
 ```
 
-**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/managing-system-events.md)
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-events/managing-system-events.md)
 
 **Related topics**  
 
 
-[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScriptingForEmailNotifications.md)
+[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ScriptingForEmailNotifications.md)
 

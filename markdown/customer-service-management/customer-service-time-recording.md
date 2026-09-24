@@ -2,7 +2,7 @@
 title: Time recording for Customer Service Management
 description: Record time worked on cases and case tasks. Time worked entries automatically generate time cards and time sheets for manager approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-time-recording.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-service-time-recording.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

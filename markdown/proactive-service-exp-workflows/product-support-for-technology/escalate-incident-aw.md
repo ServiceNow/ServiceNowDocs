@@ -2,7 +2,7 @@
 title: Escalate an incident in Proactive Service Experience Workflows
 description: Escalate an incident to continue the investigation and diagnosis of that incident. By escalating an incident, you can ask for help from a more-experienced resource so that the issue is resolved more quickly.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/escalate-incident-aw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/proactive-service-exp-workflows/product-support-for-technology/escalate-incident-aw.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -43,5 +43,5 @@ Role required: sn\_ind\_tsm\_core.noc\_agent
 -   The incident Stage is updated with the next escalation level.
 -   The Assignment Group is updated according to the escalation level.
 
-**Parent Topic:**[About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md)
+**Parent Topic:**[About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md)
 

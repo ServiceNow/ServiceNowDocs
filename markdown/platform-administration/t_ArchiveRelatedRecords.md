@@ -2,7 +2,7 @@
 title: Archive related records in Core UI
 description: Archive, clear, or delete related records from an archive rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ArchiveRelatedRecords.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ArchiveRelatedRecords.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,7 +73,7 @@ Steps
         For example, you create an archive rule on the Problem \[problem\] table. You can include related incident records by selecting the **Problem in Incident** field reference field on the Incident \[incident\] table.
 
         -   The **Archive** action archives any incident record that references an archived problem.
-        -   The **Clear** action updates any incident record with a reference to the archived problem record by clearing the reference. If the reference is a [many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md), the related record rule deletes the reference instead of clearing the reference.
+        -   The **Clear** action updates any incident record with a reference to the archived problem record by clearing the reference. If the reference is a [many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md), the related record rule deletes the reference instead of clearing the reference.
         -   The **Delete** action deletes any incident record that references the archived problem record.
     -   **Document ID fields**
 
@@ -102,5 +102,5 @@ Steps
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-older-records.md)
+**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/archiving-older-records.md)
 

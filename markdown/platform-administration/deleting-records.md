@@ -2,7 +2,7 @@
 title: Deleting older or unwanted records in Data Management Console
 description: Delete older, expired, or unwanted records from tables automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/deleting-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/deleting-records.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ There are several table cleanup rules included in the base system by default.
 
 The table cleaner scheduled job runs once per hour \(by default\). When the table cleaner job runs, each table cleaner rule runs several queries as part of the process. If there's no index on a rule's match field or on significant portions of its condition, rule processing can be slow because its queries are running inefficiently on large amounts of data.
 
-If a table cleaner rule has a query that takes longer than 30 seconds to complete, the entire table cleaner job is stopped. By default, table cleaner waits two days before including that rule in the table cleaner job again, which enables the table cleaner job to run without disruption in the meantime. You can configure the duration of the waiting period by adding a system property. See [Table cleaner properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_SetArchiveRuleProcessingBehavior.md).
+If a table cleaner rule has a query that takes longer than 30 seconds to complete, the entire table cleaner job is stopped. By default, table cleaner waits two days before including that rule in the table cleaner job again, which enables the table cleaner job to run without disruption in the meantime. You can configure the duration of the waiting period by adding a system property. See [Table cleaner properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_SetArchiveRuleProcessingBehavior.md).
 
 ## Disabling table cleanup
 

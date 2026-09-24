@@ -2,7 +2,7 @@
 title: Review execution log
 description: After evaluating any changes made to the PaCE policy script, you can review the execution log generated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-review-execution-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-review-execution-log.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

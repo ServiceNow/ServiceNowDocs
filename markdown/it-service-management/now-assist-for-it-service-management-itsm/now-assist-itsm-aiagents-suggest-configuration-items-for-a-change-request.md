@@ -2,7 +2,7 @@
 title: IT Service Management AI agent collection suggest configuration items for a change request
 description: Use the suggest configuration items for a change request agentic workflow to make the process of selecting configuration items during change creation conversational, intuitive, and efficient for users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

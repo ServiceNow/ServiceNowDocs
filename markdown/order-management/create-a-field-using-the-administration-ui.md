@@ -2,7 +2,7 @@
 title: Create a field using the Administration UI
 description: Learn how to create a field in the CPQ UI for use in Blueprint.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-a-field-using-the-administration-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-a-field-using-the-administration-ui.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,10 +49,10 @@ Role required: Admin
 
 ## What to do next
 
-[Associate a field with a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-associate-field-with-a-blueprint.md)
+[Associate a field with a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-associate-field-with-a-blueprint.md)
 
 **Related topics**  
 
 
-[Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using-the-matrix-loader.md)
+[Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-using-the-matrix-loader.md)
 

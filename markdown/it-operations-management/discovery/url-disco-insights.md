@@ -2,7 +2,7 @@
 title: URL Discovery insights dashboard
 description: The Discovery Admin Workspace URL Discovery insights dashboard displays captured data and analytics for web domains accessed on managed Windows and macOS devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/url-disco-insights.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/url-disco-insights.html
 release: australia
 product: Discovery
 classification: discovery
@@ -35,7 +35,7 @@ To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Works
 
     Set the **sn\_acc\_vis\_content.enable\_full\_monitoring** property to **True**.
 
-    For more information, see [Collect web usage data using Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/collect-web-data-usage-accvc.md).
+    For more information, see [Collect web usage data using Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/collect-web-data-usage-accvc.md).
 
 
 ## Required ServiceNow AI Platform roles
@@ -102,7 +102,7 @@ Displays the distribution of targeted URL visits grouped by URL category since a
 
 ## Targeted URLs visited
 
-This section lists the targeted URLs visited across managed devices since a given date. Targeted URLs are those configured for monitoring in **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Settings** &gt; **URL Discovery**. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+This section lists the targeted URLs visited across managed devices since a given date. Targeted URLs are those configured for monitoring in **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Settings** &gt; **URL Discovery**. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-setup.md).
 
 Select a URL from the list to open its domain details page, which displays domain-level usage metrics including total page views, total accessed time, last accessed time, and the number of distinct users.
 

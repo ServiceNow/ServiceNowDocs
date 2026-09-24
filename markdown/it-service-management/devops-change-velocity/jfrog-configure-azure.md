@@ -2,7 +2,7 @@
 title: Configure Azure DevOps for JFrog
 description: Configure your Azure DevOps instance to enable upload and download of JFrog artifacts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/jfrog-configure-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/jfrog-configure-azure.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -156,5 +156,5 @@ stages:
             buildNumber: '$(Build.BuildId)'
 ```
 
-**Parent Topic:**[JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-jfrog-integration.md)
+**Parent Topic:**[JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-jfrog-integration.md)
 

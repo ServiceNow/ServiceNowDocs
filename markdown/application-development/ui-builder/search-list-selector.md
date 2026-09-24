@@ -2,7 +2,7 @@
 title: Search list selector
 description: How to address dot-walked child fields that don't display following a search action. List selector search filters both list panes. Dot-walked reference may not appear when searching.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/search-list-selector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/search-list-selector.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -36,5 +36,5 @@ Role required: workspace\_user
 3.  Select the ones you want.
 
 
-**Parent Topic:**[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-components-by-example.md)
+**Parent Topic:**[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/learning-components-by-example.md)
 

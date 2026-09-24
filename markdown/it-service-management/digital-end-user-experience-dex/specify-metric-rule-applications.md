@@ -2,7 +2,7 @@
 title: Specify metric rule CI
 description: Choose an application or device and define filter conditions for the metric rule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/specify-metric-rule-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/specify-metric-rule-applications.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -73,5 +73,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.md).
+[Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.md).
 

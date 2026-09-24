@@ -2,7 +2,7 @@
 title: Legacy: Problem Management dashboard
 description: Use this dashboard to gain a high-level view across the problem management process, from opening to closing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-management-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/problem-management-dashboard.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -18,7 +18,7 @@ Use this dashboard to gain a high-level view across the problem management proce
 
 **Important:**
 
-Starting in Xanadu release, the Problem management dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem.md) to view, and track the open problems.
+Starting in Xanadu release, the Problem management dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem.md) to view, and track the open problems.
 
 \[Omitted image "problem-mgmt-overview.png"\] Alt text: Problem Overview tab of the Problem Management dashboard
 

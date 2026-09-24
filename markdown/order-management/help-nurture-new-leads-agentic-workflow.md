@@ -2,7 +2,7 @@
 title: Nurturing leads using agentic workflow
 description: Use the Help nurture new leads agentic workflow to process the entire lead record process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/help-nurture-new-leads-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/help-nurture-new-leads-agentic-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-29"

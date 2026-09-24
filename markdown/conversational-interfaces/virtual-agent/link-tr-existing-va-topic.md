@@ -2,7 +2,7 @@
 title: Link a topic recommendation to an existing Virtual Agent topic
 description: Instead of creating a new topic from a topic recommendation, you can link it to an existing topic. This lets Virtual Agent know that you have a topic that addresses the recommendation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/link-tr-existing-va-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/link-tr-existing-va-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -50,5 +50,5 @@ The overlay card shows that the recommendation is linked, as well as the date th
 
 If a topic recommendation continues to appear in your analysis results after you linked it to a topic, you may want to revisit the topic to improve its effectiveness.
 
-You can also [unlink a topic recommendation from a Virtual Agent topic.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/unlink-tr-va-topic.md)
+You can also [unlink a topic recommendation from a Virtual Agent topic.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/unlink-tr-va-topic.md)
 

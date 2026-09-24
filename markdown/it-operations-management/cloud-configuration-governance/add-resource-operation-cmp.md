@@ -2,7 +2,7 @@
 title: Add a resource operation to the execution plan
 description: The base system includes a large set of predefined resource operations. Rarely, you might add a custom operation for a resource.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-resource-operation-cmp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/add-resource-operation-cmp.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -63,12 +63,12 @@ Select an operation to perform for the step. By default, **Provision**, **Stop**
 
 5.  Click the **Create Form Parameter** check box to select a parameter.
 
-    Parameters differ for each operation. Enter a mapping expression for the selected parameter in the **Mapping** field. See [Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/expressions-cloud-mgt.md).
+    Parameters differ for each operation. Enter a mapping expression for the selected parameter in the **Mapping** field. See [Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/expressions-cloud-mgt.md).
 
 6.  Click **Save**.
 
 
-**Parent Topic:**[Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
+**Parent Topic:**[Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create an SSH activity
 description: Create an activity that extracts data from a target host that uses the SSH network protocol.Use execution parameters to create the input process script in the Pre Processing form of the activity designer.Use these parameters to create a post-processing script, payload parsing, and tagging.Use the input variables you created to configure the command that Orchestration executes on the host target.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_CreateAnSSHActivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/t\_CreateAnSSHActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -22,25 +22,25 @@ Role required: activity\_creator or workflow\_admin
 
 ## About this task
 
-For instructions on using the activity template process flow, see [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md).
+For instructions on using the activity template process flow, see [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/create-custom-activities.md).
 
 ## Procedure
 
-1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md).
+1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/create-custom-activities.md).
 
     This action creates a custom activity using a template.
 
-2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md), configure the SSH Execution Command.
+2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/CreateInputVariables.md), configure the SSH Execution Command.
 
-<table id="choicetable_j2l_k2s_d1b"><tbody><tr><td id="d389105e120">
+<table id="choicetable_j2l_k2s_d1b"><tbody><tr><td id="d389050e120">
 
-**[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md)**
+**[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/CreateInputVariables.md)**
 
 </td><td>
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d389105e136">
+</td></tr><tr><td id="d389050e136">
 
 **Target host**
 
@@ -48,7 +48,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Host name or IP address of the target server for this activity.
 
-</td></tr><tr><td id="d389105e145">
+</td></tr><tr><td id="d389050e145">
 
 **Command**
 
@@ -56,7 +56,7 @@ Host name or IP address of the target server for this activity.
 
 Command this activity runs on the target host. You can invoke a MID Server script from this field using any script type that the SSH command line supports. For more information, see **Advanced SSH script options** below the table.
 
-</td></tr><tr><td id="d389105e157">
+</td></tr><tr><td id="d389050e157">
 
 **Directory**
 
@@ -64,7 +64,7 @@ Command this activity runs on the target host. You can invoke a MID Server scrip
 
 Directory on the target host where the command is run.
 
-</td></tr><tr><td id="d389105e166">
+</td></tr><tr><td id="d389050e166">
 
 **Credential tag**
 
@@ -72,7 +72,7 @@ Directory on the target host where the command is run.
 
 The Orchestration credential tag to use when running the command.
 
-</td></tr><tr><td id="d389105e176">
+</td></tr><tr><td id="d389050e176">
 
 **Required MID Server capabilities**
 
@@ -80,7 +80,7 @@ The Orchestration credential tag to use when running the command.
 
 MID Server with the appropriate capabilities for connecting to the host. By default, the system selects a MID Server with SSH capabilities.
 
-</td></tr><tr><td id="d389105e185">
+</td></tr><tr><td id="d389050e185">
 
 **Long running**
 
@@ -88,7 +88,7 @@ MID Server with the appropriate capabilities for connecting to the host. By defa
 
 If checked, disables the SSH connection timeout for commands that might take longer to run than the default 60 seconds. Orchestration periodically checks the running process to determine its status until it is finished.
 
-</td></tr><tr><td id="d389105e194">
+</td></tr><tr><td id="d389050e194">
 
 **Must Sudo**
 
@@ -97,7 +97,7 @@ If checked, disables the SSH connection timeout for commands that might take lon
 If checked, enables the use of [sudo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md) to run commands.
 
 </td></tr></tbody>
-</table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/automap-output-variable-inputs.md).
+</table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/automap-output-variable-inputs.md).
 
 
 ## Advanced SSH script options
@@ -135,16 +135,16 @@ rm ~/specialFunctions.py
 
 ## What to do next
 
--   Use [auto-mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/automap-output-variable-inputs.md) to generate outputs and parsing rules
--   If you do not use auto-mapping, you can manually [create output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAnOutputVariable.md) and [create parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md)
+-   Use [auto-mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/automap-output-variable-inputs.md) to generate outputs and parsing rules
+-   If you do not use auto-mapping, you can manually [create output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAnOutputVariable.md) and [create parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAParsingRule.md)
 
-**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ActivityDesignerComponents.md)
+**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_ActivityDesignerComponents.md)
 
 ## SSH template execution parameters
 
 Use execution parameters to create the input process script in the **Pre Processing** form of the activity designer.
 
-For descriptions of the command fields, see [Configure the SSH execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAnSSHActivity.md).
+For descriptions of the command fields, see [Configure the SSH execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/t_CreateAnSSHActivity.md).
 
 **Note:** You must use the `executionParam.` prefix with all variables in this table.
 
@@ -435,7 +435,7 @@ Input
 
 </td><td>
 
-Input variable builder. [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md) to map to available fields.
+Input variable builder. [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/CreateInputVariables.md) to map to available fields.
 
 </td></tr><tr><td>
 

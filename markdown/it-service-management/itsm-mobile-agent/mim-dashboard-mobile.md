@@ -2,7 +2,7 @@
 title: Major incident dashboard
 description: Review major incident information at a glance on your mobile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/mim-dashboard-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/mim-dashboard-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

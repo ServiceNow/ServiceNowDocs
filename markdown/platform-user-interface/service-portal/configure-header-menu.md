@@ -2,12 +2,12 @@
 title: Configure a portal header menu
 description: Define the look and behavior of the portal header menu and assign menu items to appear in the header. The header menu is one of the primary navigation controls for Service Portal users.Use the theme to add a header or footer to your portal.Create a menu with menu items to display in the header of a portal.Allow all users to select their language preferences by enabling the language selector in your portal header.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-header-menu.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/configure-header-menu.html
 release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 5
 breadcrumb: [Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -41,7 +41,7 @@ The main menu and header form a header menu when associated with a theme and a p
 
 \[Omitted image "HeaderMenu.png"\] Alt text: Gif showing how the header menu and the stock header combine to form the portal menu
 
-**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md)
+**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/create-a-portal.md)
 
 ## Add a header or footer to a portal
 
@@ -239,7 +239,7 @@ Allow all users to select their language preferences by enabling the language se
 
 ### Before you begin
 
-Active the languages your portal users need and configure a portal header menu. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md) and [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
+Active the languages your portal users need and configure a portal header menu. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md) and [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-header-menu.md).
 
 Role required: admin
 

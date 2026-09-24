@@ -2,7 +2,7 @@
 title: Invoice Processing use case
 description: Accounts Payable Operations integration with Document Intelligence provides the DO NOT USE - Invoice Processing use case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/docintel-invoice-process-usecase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/docintel-invoice-process-usecase.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -40,7 +40,7 @@ Fields
 
 </td><td>
 
-Contains the list of invoice and invoice line fields to extract information from an invoice document. A field is a single piece of information to extract from an invoice document. In the use case, invoice date is of data type "Date field". For example, in case of ambiguous date format such as 01-02-2024, the use case \(the current use case\) interprets the date as month followed by day or vice versa through the DI administration configuration menu. The platform admin \[platform\_ml\_di.admin\] manually configures the use case in the DI administration menu.For the list of invoice and invoice line fields included in the **DO NOT USE - Invoice Processing** use case, see [Invoice and invoice line fields for Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-case-field-list.md).
+Contains the list of invoice and invoice line fields to extract information from an invoice document. A field is a single piece of information to extract from an invoice document. In the use case, invoice date is of data type "Date field". For example, in case of ambiguous date format such as 01-02-2024, the use case \(the current use case\) interprets the date as month followed by day or vice versa through the DI administration configuration menu. The platform admin \[platform\_ml\_di.admin\] manually configures the use case in the DI administration menu.For the list of invoice and invoice line fields included in the **DO NOT USE - Invoice Processing** use case, see [Invoice and invoice line fields for Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-case-field-list.md).
 
 </td></tr><tr><td>
 
@@ -67,8 +67,8 @@ Integration
 Maps to the **DO NOT USE - Invoice processing** use case that contains the **DocIntel Extract Values Flow - Invoice processing v1.2 - Invoice Processing v1.2** extraction flow, which populates the extracted invoice data into the invoice stage and invoice line stage records. It also updates the Invoice stage status to Processing completed.
 
 </td></tr></tbody>
-</table>-   **[Invoice and invoice line fields for Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-case-field-list.md)**  
+</table>-   **[Invoice and invoice line fields for Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-case-field-list.md)**  
 The **DO NOT USE - Invoice Processing** use case includes invoice and invoice line fields used to extract information from invoice documents.
 
-**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md)
+**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md)
 

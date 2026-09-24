@@ -2,7 +2,7 @@
 title: Track your cases from the Government Service Portal in Public Sector Digital Services
 description: Track your service request, information request, or license/permit request cases in the Government Service Portal by viewing a list of your cases and selecting the ones that you want to see more details about. Here, you can respond to an agent's inquiry, view a response, or see if there are any next steps required to resolve the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/view-cases-government-service-portal-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/view-cases-government-service-portal-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

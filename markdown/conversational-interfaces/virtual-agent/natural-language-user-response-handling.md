@@ -2,7 +2,7 @@
 title: Enhanced natural language handling of user inputs in NLU topic discovery
 description: Give Virtual Agent the capability of recognizing natural variations on yes and no from the user, such as sure or nope. By defining a range of boolean responses as affirmative or negative, Virtual Agent doesn't have to prompt the user to restate their preference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/natural-language-user-response-handling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/natural-language-user-response-handling.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -30,14 +30,14 @@ The Setup Topics Model and intents are read only, so if you need to modify the i
 
 ## Setting up natural language handling for third-party NLU providers
 
-If you are using IBM Watson or Google Dialogflow for NLU topic discovery, add entries for the corresponding model and intents in the VA NLU Dispatches table, as described in [Configure enhanced natural language user input handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-natural-lang-handling-other-nlu.md).
+If you are using IBM Watson or Google Dialogflow for NLU topic discovery, add entries for the corresponding model and intents in the VA NLU Dispatches table, as described in [Configure enhanced natural language user input handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-natural-lang-handling-other-nlu.md).
 
 ## Changing the confidence threshold
 
 The confidence threshold for boolean inputs is defined in the **com.glide.cs.dialog.boolean\_threshold** system property. The default value is **0.9**. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
--   **[Configure enhanced natural language user input handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-natural-lang-handling-other-nlu.md)**  
+-   **[Configure enhanced natural language user input handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-natural-lang-handling-other-nlu.md)**  
 Add enhanced natural language handling for boolean user responses to your Virtual Agent environment. If you're using additional languages or third-party NLU providers, specify the model and intents that define variations in yes/no utterances for your bot.
 
-**Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
+**Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
 

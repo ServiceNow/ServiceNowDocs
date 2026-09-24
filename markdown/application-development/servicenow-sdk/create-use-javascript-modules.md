@@ -2,7 +2,7 @@
 title: Create and use JavaScript modules in applications with the ServiceNow SDK
 description: Optimize your codebase by defining reusable code blocks with JavaScript modules and the ServiceNow SDK.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/create-use-javascript-modules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-sdk/create-use-javascript-modules.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -18,13 +18,13 @@ Optimize your codebase by defining reusable code blocks with JavaScript modules 
 
 ## Before you begin
 
-Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/creating-applications-servicenow-sdk.md).
+Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/creating-applications-servicenow-sdk.md).
 
 Role required: admin
 
 ## About this task
 
-To learn about support for using JavaScript modules in scoped applications, including some limitations, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md). For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
+To learn about support for using JavaScript modules in scoped applications, including some limitations, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/javascript-modules-third-party-libraries.md). For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
 
 ## Procedure
 
@@ -112,7 +112,7 @@ script: `
     process(request, response)`,
         ```
 
-For more information about server-side scripts in source code, see [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md).
+For more information about server-side scripts in source code, see [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/servicenow-fluent-api-reference.md).
 
 </td></tr><tr><td id="d89466e270">
 
@@ -139,17 +139,17 @@ const { feature } = require("path/to/module");
 
 ## What to do next
 
-To use third-party libraries in a JavaScript module, see [Use third-party libraries in applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/use-third-party-libraries.md).
+To use third-party libraries in a JavaScript module, see [Use third-party libraries in applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/use-third-party-libraries.md).
 
-To build your application and add the modules to the EcmaScript Module \[sys\_module\] table, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
+To build your application and add the modules to the EcmaScript Module \[sys\_module\] table, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
--   **[Using TypeScript in JavaScript modules with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/using-typescript.md)**  
+-   **[Using TypeScript in JavaScript modules with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/using-typescript.md)**  
 Use TypeScript when creating JavaScript modules with the ServiceNow SDK.
 
-**Parent Topic:**[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/developing-applications-sdk.md)
+**Parent Topic:**[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/developing-applications-sdk.md)
 
 **Related topics**  
 
 
-[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/javascript-modules-third-party-libraries.md)
 

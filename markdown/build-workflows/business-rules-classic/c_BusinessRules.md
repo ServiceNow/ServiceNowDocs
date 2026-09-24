@@ -2,7 +2,7 @@
 title: Classic Business rules
 description: A business rule is a server-side script that runs when a record is displayed, inserted, updated, or deleted, or when a table is queried.To configure business rules, you first need to determine when the business rule should run and what action it should take.Every business rule is assigned to either a private application scope or to the global scope.You can create any type of business rule to run when a record is displayed, inserted, updated, or deleted, or when a table is queried.Predefined global variables are available for use in business rules.Implement both business rules and client scripts for a field to enable users to set record values properly using both forms and lists, and to see immediate changes to the values in forms as edits are made.The string NULL has a particular role in scripts and is a reserved word.Display rules are processed when a user requests a record form.This business rule determines whether the active field value needs to change based on changes to the State field.Find an example business rule script that helps you with a requirement of your organization.It is possible to compare two date fields or two date and time fields in a business rule, and abort a record insert or update if they are not correct.Fields in XML format can be parsed with the system's getXMLText function.In a before business rule script, you can cancel or abort the current database action using the setAbortAction\(\) method.You can write a script for a business rule that is triggered on more than one database action.An OR condition can be added to any query part within a business rule.A field defined as a glide list is an array of values stored in a single field.Use indexOf\("searchString"\) to return the location of the string passed into the method if the glide list field, such as a Watch list, has at least one value in it.You can lock user accounts if the user is not active.You can use a query business rule that executes before a database query is made.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/business-rules-classic/c\_BusinessRules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/business-rules-classic/c\_BusinessRules.html
 release: australia
 product: Business rules \(Classic\)
 classification: business-rules-classic
@@ -67,7 +67,7 @@ After the user submits the form and after the scheduler runs the scheduled job c
 
 If a record has an asynchronous business rule that makes decisions based on the data in the record, multiple updates to the record in quick succession can cause the business rule to execute out of order or incorrectly.
 
-If multiple async business rules update the same record, the updates performed by one script could be overwritten by another script or made in an unexpected sequence because the order of execution isn't guaranteed. You can use the After option for business rules or [System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/events.md) as an alternative in these situations.
+If multiple async business rules update the same record, the updates performed by one script could be overwritten by another script or made in an unexpected sequence because the order of execution isn't guaranteed. You can use the After option for business rules or [System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/system-events/events.md) as an alternative in these situations.
 
 </td></tr><tr><td>
 
@@ -374,7 +374,7 @@ Script
 -   onAsync
 -   onBefore
 -   onDisplay
- For more information and examples, see [Example business rule scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/business-rules-classic/c_BusinessRules.md).
+ For more information and examples, see [Example business rule scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/business-rules-classic/c_BusinessRules.md).
 
 </td></tr><tr><td colspan="2">
 

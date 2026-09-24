@@ -2,7 +2,7 @@
 title: Determine whether messaging channels are available for agent-initiated messages
 description: Use scripted extension points to call custom scripts for determining whether a messaging channel is applicable to a user profile in an agent-initiated message.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/agent-init-messg-channel-ext-pt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/agent-init-messg-channel-ext-pt.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -18,7 +18,7 @@ Use scripted extension points to call custom scripts for determining whether a m
 
 ## Before you begin
 
-Install the Agent-Initiated Messaging Interface application. For more information, see [Install agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/install-agent-init-messg.md).
+Install the Agent-Initiated Messaging Interface application. For more information, see [Install agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/install-agent-init-messg.md).
 
 Role required: admin
 
@@ -48,5 +48,5 @@ By using extension points, you can easily integrate customizations without havin
 5.  On the Extension Point form, click **Update**.
 
 
-**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
+**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
 

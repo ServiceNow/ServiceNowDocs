@@ -2,7 +2,7 @@
 title: Topic Properties tab
 description: Use the Topic Properties tab to identify a topic and how it's used. You can control who uses the topic and what channels it can run in.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/vad-topic-properties-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/vad-topic-properties-tab.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,7 +22,7 @@ Two methods are available in Assistant Designer: large language model \(LLM\) or
 
 For example, if you enable NLU/Keyword in Virtual Agent settings, the topic **Properties** tab includes fields for identifying the NLU model and intent for the topic.
 
-For more information, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+For more information, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
 ## Topic Properties tab with LLM topic discovery
 
@@ -90,7 +90,7 @@ Topic description used for discovery
 
 </td><td>
 
-Description used by the LLM to accurately match the user's question or request to the right topic. Thorough descriptions improve topic discovery. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md).
+Description used by the LLM to accurately match the user's question or request to the right topic. Thorough descriptions improve topic discovery. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-llm.md).
 
 </td></tr><tr><td>
 
@@ -145,5 +145,5 @@ Confirm modified values with users
 Toggle to allow Virtual Agent to send confirmation messages to users when a value change is detected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
+</table>**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-reference.md)
 

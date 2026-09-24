@@ -2,7 +2,7 @@
 title: Activate the business rule for the Triage legal requests agentic workflow
 description: Activate the business rules for the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/lsd-agentic-config-BR.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/lsd-agentic-config-BR.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -56,5 +56,5 @@ By default, the script include in this business rule contains the sys\_id of the
 
 The Triage legal requests agentic workflow is activated for ServiceNow Otto for Legal Service Delivery \(LSD\).
 
-**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
+**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
 

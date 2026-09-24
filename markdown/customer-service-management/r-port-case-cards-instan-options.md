@@ -2,7 +2,7 @@
 title: Portal Case Cards widget instance options form
 description: Instance options enable you to configure the Portal Case Cards widget on a portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r-port-case-cards-instan-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r-port-case-cards-instan-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -166,7 +166,7 @@ The text displayed in the widget when **Hide Empty Case Widget** isn’t selecte
 </table>**Related topics**  
 
 
-[Add and configure the Portal Case Cards widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget-inst-optns.md)
+[Add and configure the Portal Case Cards widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget-inst-optns.md)
 
-[Display the integer values of all case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/integer-value-case-states.md)
+[Display the integer values of all case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/integer-value-case-states.md)
 

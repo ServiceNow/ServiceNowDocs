@@ -2,7 +2,7 @@
 title: Prevent numbering gaps
 description: By default, numbers are generated every time a new record is created.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_PreventNumberingGaps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_PreventNumberingGaps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,5 +33,5 @@ When records are created but not saved, a gap in the numbering is created. You c
 3.  Click **Save**.
 
 
-**Parent Topic:**[Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ManagingRecordNumbering.md)
+**Parent Topic:**[Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ManagingRecordNumbering.md)
 

@@ -2,7 +2,7 @@
 title: Schedule a suite scan
 description: Create a schedule to regularly trigger a suite scan even when you don’t have an active session.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hc-schedule-suite-scan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/instance-scan/hc-schedule-suite-scan.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -143,7 +143,7 @@ Timezone used to run the scan.
     The scan that has been scheduled displays under Schedule related list.
 
 
-**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 

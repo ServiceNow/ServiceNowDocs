@@ -2,7 +2,7 @@
 title: Search for related records in an OT CMDB table
 description: Search for Operational Technology \(OT\) configuration items \(CIs\) and OT device information available in an OT CMDB table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/search-related-records-ot-cmdb-tables-now-assist-otm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/search-related-records-ot-cmdb-tables-now-assist-otm.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -63,5 +63,5 @@ If fewer than five device records appear in the search results, the panel displa
 
 When more than five OT device records appear in the search results based on your search criteria, you can select the link in the panel to view them.
 
-**Parent Topic:**[Use the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/using-now-assist-for-otm.md)
+**Parent Topic:**[Use the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/using-now-assist-for-otm.md)
 

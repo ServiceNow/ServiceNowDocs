@@ -2,7 +2,7 @@
 title: Define an SCCM configuration
 description: To create catalog items for SCCM software deployment or to configure your instance to revoke software through SCCM, you must first associate that software with a collection through an SCCM configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-sccm-collections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd-sccm-collections.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -93,5 +93,5 @@ Discovery model that links the unentitled software installation with the SCCM co
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-sccm-ihub.md)
 

@@ -2,7 +2,7 @@
 title: Migration from New York and later releases
 description: Learn about migration from the New York to later releases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-migration-ny-onward.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-migration-ny-onward.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,5 +16,5 @@ Learn about migration from the New York to later releases.
 
 Upgrading from the New York release to later releases of ServiceNow mobile does not require any special configuration steps. The upgrade process will have no impact on your existing mobile applications.
 
-**Parent Topic:**[Mobile plugins and upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/plugins-upgrades.md)
+**Parent Topic:**[Mobile plugins and upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/plugins-upgrades.md)
 

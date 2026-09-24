@@ -2,7 +2,7 @@
 title: Using Agent Workspace for HR Case Management
 description: As an HR agent, use the Agent Workspace for HR Case Management to interact with employees, respond to inquiries, and resolve issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -19,8 +19,8 @@ As an HR agent, use the Agent Workspace for HR Case Management to interact with 
 **Note:** The COEs available to you may differ depending on the HR package you have.
 
 -   The categorization of HR catalog items are employee-facing only, and have no relation to the categorization of HR services under the HR Centers of Excellence \(COEs\) data model.
--   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
--   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
+-   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
+-   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
 -   The Agent Workspace for HR Case Management is highly configurable for HR agents. It supports the same functionality in the Classic HR Service Delivery Agent Workspace.
 
 You can start work in the Agent Workspace for HR Case Management from one of these areas:
@@ -96,7 +96,7 @@ Related items
 
 </td><td>
 
-Use the Related Items menu to see information about the details, tasks, and other information that is associated with a case. Also shows details of the records from other tables that have a relationship with the HR case. This menu provides a quick and easy way to look up information about a case and subject person.**Note:** The type of HR case determines the tabs that appear in this menu. When a case appears under Playbook, these tabs change. For more information, see [Exploring HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-explore.md).
+Use the Related Items menu to see information about the details, tasks, and other information that is associated with a case. Also shows details of the records from other tables that have a relationship with the HR case. This menu provides a quick and easy way to look up information about a case and subject person.**Note:** The type of HR case determines the tabs that appear in this menu. When a case appears under Playbook, these tabs change. For more information, see [Exploring HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-explore.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ Contextual side panel
 
 </td><td>
 
-Manage and work on the case using various task-oriented icons. The icons appearing on the Contextual side panel depend on the type of case that you're working on. For more information, see [Agent Workspace for HR Case Management contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-context-sidebar.md).
+Manage and work on the case using various task-oriented icons. The icons appearing on the Contextual side panel depend on the type of case that you're working on. For more information, see [Agent Workspace for HR Case Management contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-context-sidebar.md).
 
 </td></tr></tbody>
 </table>## HR profile icons
@@ -147,5 +147,5 @@ Icons that enable you to get quick access to information about the opened for an
 
 -   \[Omitted image "hr-profile-icon.png"\] Alt text:: Select the **Open HR Profile** icon to access detailed information related to the person in the HR case. You will see details like HR profile, employee information, contact information, cases opened for the person etc. The same information is briefly displayed in the At-a-glance side panel.
 -   \[Omitted image "magnifying-glass.png"\] Alt text:: Select the **Search for Record** icon to access a list of all related records within your company. The list is displayed relevant to the field on which you're searching. You can filter or sort in the list to refine your search results.
--   \[Omitted image "deep-link-icon.png"\] Alt text:: Select the Open deep link icon to access information outside of the application to help fulfill the case. For information about configuring deep links, see [Link generator for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/HRLinkGenerator.md).
+-   \[Omitted image "deep-link-icon.png"\] Alt text:: Select the Open deep link icon to access information outside of the application to help fulfill the case. For information about configuring deep links, see [Link generator for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/HRLinkGenerator.md).
 

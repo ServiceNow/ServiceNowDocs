@@ -2,7 +2,7 @@
 title: Filter hardening settings
 description: Simplify your hardening review process using filters. These filters can create a working list of hardening settings for review, which restored for later use and shared with other users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/ssc-working-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/ssc-working-list.html
 release: australia
 product: Security Center
 classification: security-center
@@ -47,5 +47,5 @@ Role required: admin
 
 After saving a filter you can load it in the **Advanced View** using the **Use existing filter** button.
 
-**Parent Topic:**[All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/all-settings.md)
+**Parent Topic:**[All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/all-settings.md)
 

@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Unified Security Exposure Management
 description: Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform in the Unified Security Exposure Management workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-usem-landing-ties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/now-assist-for-usem-landing-ties.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-29"
@@ -16,19 +16,19 @@ Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI
 
 ## Now Assist &gt; ServiceNow Otto announcement
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 <table id="table_q5c_fff_r2c" class="nav-card presentation"><tbody><tr><td>
 
-[Use generative AI skills\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-skills-vulnerability-response.md)
+[Use generative AI skills\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-now-assist-skills-vulnerability-response.md)
 
 </td><td>
 
-[Use agentic workflows\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-ai-agents-vr.md)
+[Use agentic workflows\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-now-assist-ai-agents-vr.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure the generative AI skills and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuring-now-assist-for-vulnerability-response.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure the generative AI skills and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuring-now-assist-for-vulnerability-response.md)
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
 </td><td>
 
-[\[Omitted image "bus-ai-otto.svg"\] Alt text:Get supporting information about the AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-vulnerability-response-reference.md)
+[\[Omitted image "bus-ai-otto.svg"\] Alt text:Get supporting information about the AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vulnerability-response-reference.md)
 
 </td><td>
 

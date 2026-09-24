@@ -2,7 +2,7 @@
 title: Financial Services Operations Integration with Visa
 description: The ServiceNow Financial Services Operations Integration with Visa allows you to seamlessly integrate with Visa Resolve Online \(VROL\) APIs using the Visa Spoke actions to manage various dispute lifecycle events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,19 +20,19 @@ The ServiceNow® Financial Services Operations Integration with Visa allows you 
 
 <table id="table_g4t_jnr_szb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits provided by integrating Financial Services Operations Integration with Visa application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-financial-services-operations-integration-with-visa.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits provided by integrating Financial Services Operations Integration with Visa application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/exploring-financial-services-operations-integration-with-visa.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-financial-services-operations-integration-with-visa.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configuring-financial-services-operations-integration-with-visa.md)
 
 </td></tr><tr><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Work on integrating Financial Services Operations Integration with Visa application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/set-up-financial-services-operations-integration-with-visa.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Work on integrating Financial Services Operations Integration with Visa application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/set-up-financial-services-operations-integration-with-visa.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md)
 
 </td></tr></tbody>
 </table>## Request Financial Services Operations Integration with Visa on the store

@@ -2,7 +2,7 @@
 title: UniversalRequestUtilsSNC - Scoped
 description: The UniversalRequestUtilsSNC API enables handling universal request life cycles. Provided as a script include record.Creates a universal request and returns the sys\_id of the newly created universal request record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/UniversalRequestUtilsSNCScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/UniversalRequestUtilsSNCScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,7 +20,7 @@ This API requires the Universal Request \(com.snc.universal\_request\) plugin an
 
 For information, refer to [Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-landing-limitedaccess.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## UniversalRequestUtilsSNC - createUniversalRequest\(Object copyFields\)
 

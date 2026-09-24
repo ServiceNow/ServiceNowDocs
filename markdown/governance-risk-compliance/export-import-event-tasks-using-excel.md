@@ -2,7 +2,7 @@
 title: Export data into Microsoft Excel and update the file
 description: Export event task records to an Microsoft Excel file, edit the data offline, and re-import the updated file to apply changes in bulk. Use this task for updating multiple event task records simultaneously outside the ServiceNow interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/export-import-event-tasks-using-excel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/export-import-event-tasks-using-excel.html
 release: australia
 topic_type: task
 last_updated: "2025-04-27"
@@ -83,10 +83,10 @@ The export and import feature is available from the Event tasks related list on 
 8.  Save the Microsoft Excel file after completing your edits.
 
 
-**Parent Topic:**[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md)
+**Parent Topic:**[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-export-import-feature-event-tasks.md)
 
 **Related topics**  
 
 
-[Import data from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/import-data-from-excel.md)
+[Import data from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/import-data-from-excel.md)
 

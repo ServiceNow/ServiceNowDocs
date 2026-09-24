@@ -2,7 +2,7 @@
 title: Walk-up Experience management in Service Operations Workspace
 description: Manage your Walk-up interactions and queues in Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/walkup-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/walkup-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -112,7 +112,7 @@ View details of a Walk-up interaction.
 -   Opened for: View the requester's information.
 -   Source: View the source of the Walk-up interaction record.
 
-    **Note:** The Source section appears only if a Walk-up appointment is created through an incident. For more details, view [Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)
+    **Note:** The Source section appears only if a Walk-up appointment is created through an incident. For more details, view [Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)
 
 
 ## Related records tab
@@ -122,12 +122,12 @@ View details of the related records.
 -   Related Tasks
 -   User's Tasks
 
--   **[Work on Walk-up interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/work-on-walkup-sow.md)**  
+-   **[Work on Walk-up interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-walkup-sow.md)**  
 Manage your Walk-up appointments in Service Operations Workspace.
--   **[Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)**  
+-   **[Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)**  
 Schedule an appointment on behalf of a requester through an incident record.
 
-**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
+**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 
 **Related topics**  
 

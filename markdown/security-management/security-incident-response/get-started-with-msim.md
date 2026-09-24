@@ -2,7 +2,7 @@
 title: Get started with MSIM
 description: Review the following information before you start working with Major Security Incident Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-started-with-msim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/get-started-with-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -55,7 +55,7 @@ Microsoft SharePoint Spoke version 1.1.2 is required for Graph and REST connecti
 </td></tr></tbody>
 </table>**Important:** After you install the Major Security Incident Management application, import the update set to integrate Microsoft SharePoint and Microsoft Teams with ServiceNow using certificate credentials. For more information, see [KB1289784](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1289784).
 
-**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
+**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/exploring-major-security-incident-management.md)
 
 **Related topics**  
 

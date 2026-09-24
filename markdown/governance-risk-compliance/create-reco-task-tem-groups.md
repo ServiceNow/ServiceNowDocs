@@ -2,7 +2,7 @@
 title: Apply Task templates and Task template groups
 description: Save individual tasks or groups of tasks for reuse across plans. You can add templates to new plans or insert them into existing plans. You can also generate templates directly from tasks and plans that already exist in the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-reco-task-tem-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-reco-task-tem-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-04-06"
@@ -34,7 +34,7 @@ When applying a template group to a plan, use the **Add groups** toolbar control
 
 \[Omitted image "select-task-templates-groups-list.png"\] Alt text: Select task template groups dialog listing available groups such as TG1 with their description and active status.
 
-**Note:** Verify that Task templates and Task template groups are set up in the application. For more information, see [Configure Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-task-temp-temp-groups.md).
+**Note:** Verify that Task templates and Task template groups are set up in the application. For more information, see [Configure Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-task-temp-temp-groups.md).
 
 ## Procedure
 
@@ -61,5 +61,5 @@ When applying a template group to a plan, use the **Add groups** toolbar control
         The template is now available for reuse in other plans.
 
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

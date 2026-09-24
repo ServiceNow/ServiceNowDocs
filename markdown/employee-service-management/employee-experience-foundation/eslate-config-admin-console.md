@@ -2,7 +2,7 @@
 title: Configure branding and theme
 description: In the admin console, configure branding, data sources, internal and external search sources, conversational assistant settings, canvas, and other features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-config-admin-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-config-admin-console.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -54,17 +54,17 @@ The Product Configuration console organizes the configuration work into modules 
 
     Set the portal name, URL suffix, light and dark mode logos, the favicon, and the primary, accent, and neutral palette colors. Preview the experience in desktop, mobile, light mode, and dark mode, then save and mark the module as configured.
 
-6.  [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md) based on your requirements.
+6.  [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md) based on your requirements.
 
 7.  In the **Data Sources** module, configure the following internal search sources for the experience.
 
     1.  In the **Internal sources** module, configure the internal search sources for the experience.
 
-        The internal sources list shows the default sources. Edit the conditions on an existing source, add an existing source that isn't yet linked to the search profile, or create a new internal source. Add, exclude, and map the fields per your requirements. For more information, see [Add internal search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-internal-search.md).
+        The internal sources list shows the default sources. Edit the conditions on an existing source, add an existing source that isn't yet linked to the search profile, or create a new internal source. Add, exclude, and map the fields per your requirements. For more information, see [Add internal search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-add-internal-search.md).
 
     2.  In the **External sources** module, configure the external search sources for the experience.
 
-        By default, no external sources are linked to the search profile. You can add an existing source that isn't yet linked to the search profile, or create a new external source by following on-screen instructions. For more information, see [Add external search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-add-external-search.md).
+        By default, no external sources are linked to the search profile. You can add an existing source that isn't yet linked to the search profile, or create a new external source by following on-screen instructions. For more information, see [Add external search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-add-external-search.md).
 
 8.  In the **Conversational Assistant** module, configure the chat header and the chat logo.
 
@@ -87,7 +87,7 @@ The Product Configuration console organizes the configuration work into modules 
     -   Needs update: Notifications in the base system that are not customized
     -   Updated: Notifications that are updated for Employee Slate experience
     -   Custom: Notifications that are created or customized by the administrator
-    For information about Employee Slate notifications, see [EmployeeWorks notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-notifications.md).
+    For information about Employee Slate notifications, see [EmployeeWorks notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-notifications.md).
 
 11. To make AI agent discoverable in Now Assist in the **AI Agent Discovery** section, enable the `sn_aia.enable_aiagents_discovery` system property.
 

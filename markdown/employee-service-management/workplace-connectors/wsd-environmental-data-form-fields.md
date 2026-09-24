@@ -2,7 +2,7 @@
 title: Environmental data form for Workplace Connectors
 description: Environmental sensor data form has pre-filled environmental data values and units of measure.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/wsd-environmental-data-form-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-connectors/wsd-environmental-data-form-fields.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
@@ -161,9 +161,9 @@ Query status
 NA
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/workplace-connectors-references.md)
+</table>**Parent Topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 
-**Previous topic:**[Components installed with Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/component-workplace-connectors.md)
+**Previous topic:**[Components installed with Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/component-workplace-connectors.md)
 
-**Next topic:**[Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/workplace-concierge-feat.md)
+**Next topic:**[Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/workplace-concierge-feat.md)
 

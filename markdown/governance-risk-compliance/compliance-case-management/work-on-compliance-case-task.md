@@ -2,7 +2,7 @@
 title: Work on an action task
 description: Accept the Action task, provide the details requested by the case analyst, and submit the Action task for a review in the GRC: Compliance Case Management application. When an action task is assigned to an assignment group, any user from the assignment group can accept and work on the task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -75,16 +75,16 @@ Steps
 </table>
 ## What to do next
 
-1.  Add the areas that are impacted by a compliance case. For example, the impacted areas or objects that could be impacted are the entities, controls, locations, or users that are affected by the compliance case. For more information, see [Add an impacted area to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/add-impacted-areas-to-compliance-case.md).
-2.  Add the areas that are related to the compliance case. For example, the related areas include the policies, citations, control objectives, or risk events. For more information, see [Add a related area to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/add-related-areas-to-compliance-case.md).
-3.  Add the causes and consequences of this compliance case. For example, you can add the root cause for the reported compliance case or event and its consequences on the organization. For more information, see [Add a cause and consequence to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/add-causes-consequences-to-compliance-case.md).
-4.  Add the compliance regulations that might be impacted to the compliance case. For more information, see [Add compliance regulations to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/add-regulations-to-compliance-case.md).
-5.  Add or create an issue related to a compliance case. For more information, see [Add an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md).
+1.  Add the areas that are impacted by a compliance case. For example, the impacted areas or objects that could be impacted are the entities, controls, locations, or users that are affected by the compliance case. For more information, see [Add an impacted area to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/add-impacted-areas-to-compliance-case.md).
+2.  Add the areas that are related to the compliance case. For example, the related areas include the policies, citations, control objectives, or risk events. For more information, see [Add a related area to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/add-related-areas-to-compliance-case.md).
+3.  Add the causes and consequences of this compliance case. For example, you can add the root cause for the reported compliance case or event and its consequences on the organization. For more information, see [Add a cause and consequence to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/add-causes-consequences-to-compliance-case.md).
+4.  Add the compliance regulations that might be impacted to the compliance case. For more information, see [Add compliance regulations to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/add-regulations-to-compliance-case.md).
+5.  Add or create an issue related to a compliance case. For more information, see [Add an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md).
 
--   **[Reassign an Assessment type Action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/reassign-a-compliance-case-task.md)**  
+-   **[Reassign an Assessment type Action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/reassign-a-compliance-case-task.md)**  
 Reassign an Assessment type Action task to another user in the GRC: Compliance Case Management application. For example, a case analyst or an action task owner can reassign a compliance Action task to another Action task owner if an action task is wrongly assigned or isn’t accepted by the Action task owner.
--   **[Review and close an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/review-compliance-case-task.md)**  
+-   **[Review and close an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/review-compliance-case-task.md)**  
 Review and close an action task after an action task owner provides responses and observations for the case in the GRC: Compliance Case Management application.
 
-**Parent Topic:**[Compliance case task workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/compliance-case-task-workflow.md)
+**Parent Topic:**[Compliance case task workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/compliance-case-task-workflow.md)
 

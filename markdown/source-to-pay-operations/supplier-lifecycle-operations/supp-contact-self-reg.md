@@ -2,7 +2,7 @@
 title: Supplier contact self-registration
 description: Supplier contacts can self-register to the Supplier Collaboration Portal and start working on the assigned tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supp-contact-self-reg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-contact-self-reg.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -16,12 +16,12 @@ breadcrumb: [Using Supplier Collaboration Portal, Use, Supplier Lifecycle Operat
 
 Supplier contacts can self-register to the Supplier Collaboration Portal and start working on the assigned tasks.
 
--   **[Supplier contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/how-self-reg-works.md)**  
+-   **[Supplier contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/how-self-reg-works.md)**  
 The process of self-registering to the Supplier Collaboration Portal involves a series of tasks that the supplier contact must complete.
--   **[Self-register to the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/self-reg-to-supp-central.md)**  
+-   **[Self-register to the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/self-reg-to-supp-central.md)**  
 Supplier contacts can self-register themselves to the Supplier Collaboration Portal without the help of an administrator.
 
-**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
+**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 
 **Related topics**  
 
@@ -50,7 +50,7 @@ Supplier contacts can self-register themselves to the Supplier Collaboration Por
 
 [Create a Universal Request from the Supplier Collaboration Portal]()
 
-[Supplier contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/how-self-reg-works.md)
+[Supplier contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/how-self-reg-works.md)
 
-[Self-register to the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/self-reg-to-supp-central.md)
+[Self-register to the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/self-reg-to-supp-central.md)
 

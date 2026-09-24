@@ -2,7 +2,7 @@
 title: Discovering similar knowledge articles for HR cases
 description: Discover similar information across knowledge articles based on the short description of the HR case and the text in the related search results. Display such similar knowledge articles to an HR agent to resolve a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/train-model-articles-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/train-model-articles-hr.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,7 +30,7 @@ The Similar Knowledge Articles for HR Case solution definition is configured and
 -   The Predictive Intelligence for Contextual Search \(com.snc.contextual\_search\_ml\) plugin is installed.
 -   The **glide.platform\_ml.auto\_training.enabled** system property is set to true.
 
-You can also [manually train the predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md) if it is not auto trained by default.
+You can also [manually train the predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md) if it is not auto trained by default.
 
 **Parent Topic:**[Machine learning solutions for HR Service Delivery]()
 

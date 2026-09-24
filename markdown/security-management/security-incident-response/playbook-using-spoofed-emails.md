@@ -2,7 +2,7 @@
 title: Use the Spoofed Emails \(using the same Display name\) playbook
 description: Use this playbook to investigate Spoofed Emails, which get triggered when spoofed names for emails are sent to the organization's employees. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Spoofed Emails \(using the same Display name\) playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-spoofed-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-using-spoofed-emails.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -58,5 +58,5 @@ Role required:
 6.  In Action 20, a response task is created for you to complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Spoofed Emails \(using the same Display name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-spoofed-emails-display-name.md)
+**Parent Topic:**[Playbook for Spoofed Emails \(using the same Display name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-spoofed-emails-display-name.md)
 

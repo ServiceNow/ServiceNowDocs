@@ -2,7 +2,7 @@
 title: Configure browse experience
 description: Configure the browse experience by associating a taxonomy with your Employee Slate experience to enable topic-based navigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -55,5 +55,5 @@ Consider configuring quick links and associating knowledge articles and catalog 
 **Related topics**  
 
 
-[Configure topic page widget instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-topic-widget.md)
+[Configure topic page widget instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-topic-widget.md)
 

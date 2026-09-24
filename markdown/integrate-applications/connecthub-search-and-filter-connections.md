@@ -2,7 +2,7 @@
 title: Search and filter connections
 description: Find and explore connections available in external systems through search and filtering.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connecthub-search-and-filter-connections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connecthub-search-and-filter-connections.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

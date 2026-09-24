@@ -2,7 +2,7 @@
 title: Use Guided Tours in Employee Relations
 description: Use guided tours in Employee Relations to get an overview of Employee Relations cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/guided-tour-er.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/guided-tour-er.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -26,7 +26,7 @@ Guided tours help train and onboard users within the workspace. Each tour is des
 
 When you visit a page that has a guided tour for the first time, a welcome screen appears. You can choose to either begin the tour or skip the tour. The tour can be revisited from the Help Center menu.
 
-Guided tours in Employee Relations are only available in report misconduct cases. The tour is inactive by default. To enable the guided tour, see [Enable guided tours in Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-guided-tours.md).
+Guided tours in Employee Relations are only available in report misconduct cases. The tour is inactive by default. To enable the guided tour, see [Enable guided tours in Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/activate-guided-tours.md).
 
 ## Procedure
 

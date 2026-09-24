@@ -2,7 +2,7 @@
 title: Configure search criteria
 description: Create a custom search for your launcher screen to help your users find related information quickly. Administrators can configure which search sources the search uses, as well as options like search result limits.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-create-custom-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-create-custom-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,10 +39,10 @@ Configuration for search consist of linking the following records:
 
 \[Omitted image "search-diagram.png"\] Alt text: Diagram showing relationship of records used in search.
 
--   **[Create a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-search-source.md)**  
+-   **[Create a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-create-search-source.md)**  
 Create a search source to define what records can be found in your search bar.
--   **[Create a search configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-search-e2e.md)**  
+-   **[Create a search configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-search-e2e.md)**  
 Create a search configuration. This record connects your launcher screen with the other records used to configure search.
--   **[Add your search configuration to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-search-alp-config.md)**  
+-   **[Add your search configuration to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-search-alp-config.md)**  
 Update your launcher screen to use your custom search configuration.
 

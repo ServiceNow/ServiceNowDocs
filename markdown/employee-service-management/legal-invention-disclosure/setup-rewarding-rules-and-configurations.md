@@ -2,7 +2,7 @@
 title: Set up optional inventor rewards in Legal Invention Disclosure
 description: Set up optional rewards for inventors to be granted at three stages of applying for and acquiring a patent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-invention-disclosure/setup-rewarding-rules-and-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-invention-disclosure/setup-rewarding-rules-and-configurations.html
 release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -164,5 +164,5 @@ The status of the application at which the inventor should be rewarded.The stage
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
+**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 

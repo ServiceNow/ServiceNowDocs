@@ -2,7 +2,7 @@
 title: Unlink records from Major Security Incident
 description: Using the Major Security Incident Management workspace, unlink the major security incident records from the Linked Records section.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/unlinking-msi-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/unlinking-msi-records.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -22,7 +22,7 @@ Role required: sn\_msi.workspace\_manager and sn\_msi.workspace\_responder
 
 **Note:** You can only unlink a single record at a time. After you unlink a record, the related rolled up information will be removed from the Incident Impact and Threat Intelligence sections on the workspace and the action can't be undone.
 
-For more information on roll up records, see [Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md).
+For more information on roll up records, see [Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md).
 
 ## Procedure
 
@@ -53,7 +53,7 @@ For more information on roll up records, see [Rollup Framework for MSIM](https:/
     The record is unlinked and once unlinked, the changes can't be reverted. The list view of Linked Records will be refreshed after unlinking.
 
 
-**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 
@@ -76,7 +76,7 @@ For more information on roll up records, see [Rollup Framework for MSIM](https:/
 
 [Create and distribute MSIM Status Reports]()
 
-[Configure Linked Records in Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-linked-records-in-major-security-incident-management.md)
+[Configure Linked Records in Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-linked-records-in-major-security-incident-management.md)
 
-[Configure Rollup Records in Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/roll-up-record-configuration-in-major-security-incident-management.md)
+[Configure Rollup Records in Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/roll-up-record-configuration-in-major-security-incident-management.md)
 

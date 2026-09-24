@@ -2,7 +2,7 @@
 title: Creating and publishing specification versions
 description: Create and publish the specification versions that list the improved products and services that you can offer to your customers in a technical product catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/creating-publish-specification-versions-somt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/creating-publish-specification-versions-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-14"
@@ -31,10 +31,10 @@ As a product catalog manager, you do the following actions when you create a ver
     -   Decomposition rules
     -   Quantity mappings
     -   Attribute propagation rules
-    **Note:** To learn more, see [Create and publish a specification version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-publish-new-specification-somt.md).
+    **Note:** To learn more, see [Create and publish a specification version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/create-publish-new-specification-somt.md).
 
-3.  Create a product offering, and then publish it when you update your product catalog. To learn more, see [Create and publish a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-publish-product-offering-version-somt.md).
-4.  Retire or archive old or unused specifications, and product offerings. To learn more, see [Retiring or archiving versioned specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/retiring-archiving-specifications-somt.md).
+3.  Create a product offering, and then publish it when you update your product catalog. To learn more, see [Create and publish a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/create-publish-product-offering-version-somt.md).
+4.  Retire or archive old or unused specifications, and product offerings. To learn more, see [Retiring or archiving versioned specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/retiring-archiving-specifications-somt.md).
 
 ## Updates and validations that are performed when you create and publish a specification version
 

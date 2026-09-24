@@ -2,7 +2,7 @@
 title: Manage the ServiceNow Virtual Agent integration with Slack
 description: Manage your Conversational Integration with Slack application, its branding, and customize the bot-specific messages in your ServiceNow instance after integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-va-slack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-va-slack.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -44,12 +44,12 @@ Roles required:
 
 6.  Select the **Branding** tab to brand your ServiceNow Virtual Agent bot.
 
-    For more information about branding your bot, see [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/slack-branding-overview.md).
+    For more information about branding your bot, see [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/slack-branding-overview.md).
 
 7.  Select the **Bot Messages** tab to create and edit a bot message.
 
-    For more information, see [Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-bot-messages.md).
+    For more information, see [Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-bot-messages.md).
 
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-slack.md)
+**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-slack.md)
 

@@ -2,7 +2,7 @@
 title: Install Workplace Indoor Mapping dependent plugins
 description: Install the dependent plugins for Indoor Mapping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsm-install-ind-mapping-plugins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/wsm-install-ind-mapping-plugins.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -86,5 +86,5 @@ Enables an employee to relocate from one location to another. Employees can coll
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Workplace Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsd-integration-indoor-mapping.md)
+**Parent Topic:**[Configure Workplace Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsd-integration-indoor-mapping.md)
 

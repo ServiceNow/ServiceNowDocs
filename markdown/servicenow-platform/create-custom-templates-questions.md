@@ -2,7 +2,7 @@
 title: Create custom metric type
 description: Create your own custom metric type if you don’t find the metric type that you want in Survey Designer while designing surveys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/create-custom-templates-questions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/create-custom-templates-questions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ You can use the Custom Metric Type module for surveys to create the custom metri
 
 3.  On the Custom Metric form, fill in the fields.
 
-    For a description of the field values, see [Custom Metric form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/custom-metric-form-fields.md).
+    For a description of the field values, see [Custom Metric form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/custom-metric-form-fields.md).
 
 4.  Select **Submit**.
 
@@ -41,7 +41,7 @@ You can use the Custom Metric Type module for surveys to create the custom metri
     -   If the custom metric type is inactive or deleted, the question is not rendered on the survey form.
     -   If the value in the **Macro** or **Widget** field is updated, the updated value is used to render a survey form even if an instance was created before updating the values for macros or widgets.
 
-**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDesigner.md)
 
 **Related topics**  
 

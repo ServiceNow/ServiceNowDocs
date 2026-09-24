@@ -2,7 +2,7 @@
 title: AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)
 description: The AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\) feature accesses external sources related to an Operational Technology \(OT\) incident, and contextualizes how the document is relevant to the incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/exploring-ai-enhanced-ra-otsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/exploring-ai-enhanced-ra-otsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,6 +35,6 @@ By default, AI Search uses the short description, description, site, OT device, 
 
 To learn more about configuring and using AI Enhanced Recommended Actions for OTSM, see:
 
--   [Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ai-enhanced-ra-otsm.md)
--   [Contextualize an external document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ai-enhanced-ra-otsm.md)
+-   [Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-ai-enhanced-ra-otsm.md)
+-   [Contextualize an external document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/use-ai-enhanced-ra-otsm.md)
 

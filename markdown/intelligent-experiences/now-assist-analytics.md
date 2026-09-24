@@ -2,7 +2,7 @@
 title: Analyzing AI performance
 description: Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-analytics.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,19 +21,19 @@ Use the AI Analytics dashboard to monitor the usage and performance of generativ
 
 <table id="table_mtp_clr_gcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-analytics.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-now-assist-analytics.md)
 
 </td><td>
 
-[Configure\[Omitted image "icon-configure-pi.png"\] Alt text:Configure AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist-analytics.md)
+[Configure\[Omitted image "icon-configure-pi.png"\] Alt text:Configure AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-now-assist-analytics.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
+[Use \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-analytics.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles in AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles in AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -52,5 +52,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

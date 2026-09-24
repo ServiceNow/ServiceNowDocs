@@ -2,7 +2,7 @@
 title: Create a cost type for Application TCO in Enterprise Architecture Workspace
 description: Create a cost type as capital expense \(Capex\) or operating expense \(Opex\) for Application TCO. Specify the type of cost being ingested in Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-tco-cost-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-tco-cost-type.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,14 +33,14 @@ Role required: admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-app-tco.md)
+**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-app-tco.md)
 
 **Related topics**  
 
 
-[Create a TCO source cost type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-tco-source-cost-type.md)
+[Create a TCO source cost type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-tco-source-cost-type.md)
 
-[Create a source for an Application TCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-tco-source.md)
+[Create a source for an Application TCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-tco-source.md)
 
-[Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md)
+[Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-set-property-tco-dashboards.md)
 

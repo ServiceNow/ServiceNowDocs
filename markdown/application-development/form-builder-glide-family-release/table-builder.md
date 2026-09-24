@@ -2,7 +2,7 @@
 title: Data in Table Builder
 description: With Table Builder, you can modify the table properties and manage the fields that are available for a selected data table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/table-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/form-builder-glide-family-release/table-builder.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -26,48 +26,48 @@ As you edit the table columns in Table Builder, think of each row as a field on 
 
 Modify table properties and table structure in **Fields** view, where you can perform the following actions:
 
--   Add a new column to a table. See [Add a table column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/modify-table-properties.md).
--   Delete a table column. See [Delete a table column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/modify-table-properties.md).
--   Edit table properties. See [Edit table properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/edit-table-props-fb.md).
--   Change a column label. See [Change a column label in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/modify-table-properties.md).
--   Change a column name. See [Changing a table column name in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/modify-table-properties.md).
--   Change a column type. See [Change a column type in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/modify-table-properties.md).
--   Add a default value to a table. See [Add a default value to a table column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/modify-table-properties.md).
--   Select a column as table display name. See [Select a column as the table display value in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/modify-table-properties.md).
--   Delete a table. See [Delete a table in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/delete-table-fb.md).
+-   Add a new column to a table. See [Add a table column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/modify-table-properties.md).
+-   Delete a table column. See [Delete a table column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/modify-table-properties.md).
+-   Edit table properties. See [Edit table properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/edit-table-props-fb.md).
+-   Change a column label. See [Change a column label in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/modify-table-properties.md).
+-   Change a column name. See [Changing a table column name in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/modify-table-properties.md).
+-   Change a column type. See [Change a column type in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/modify-table-properties.md).
+-   Add a default value to a table. See [Add a default value to a table column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/modify-table-properties.md).
+-   Select a column as table display name. See [Select a column as the table display value in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/modify-table-properties.md).
+-   Delete a table. See [Delete a table in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/delete-table-fb.md).
 
 Work with table structure and your data records in spreadsheet format within **Spreadsheet** view, where you can perform the following actions:
 
 **Note:** This feature is only available if your licensing entitles you to "exclusive low code capability" and you have Table Builder for App Engine installed. Contact your Solutions consultant for more information.
 
--   Add a new data record. See [Add a data record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Edit individual data records. See [Edit individual data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Sort your data records. See [Sort your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Filter your data records. See [Filter your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Edit column field properties. See [Edit column field properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Add new columns. See [Add columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Duplicate an existing column. See [Duplicate an existing column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Reorder columns. See [Reorder columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Set column visibility. See [Set column visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Pin columns. See [Pin columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
--   Delete a table column. See [Delete columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Add a new data record. See [Add a data record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Edit individual data records. See [Edit individual data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Sort your data records. See [Sort your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Filter your data records. See [Filter your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Edit column field properties. See [Edit column field properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Add new columns. See [Add columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Duplicate an existing column. See [Duplicate an existing column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Reorder columns. See [Reorder columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Set column visibility. See [Set column visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Pin columns. See [Pin columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+-   Delete a table column. See [Delete columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 
-You can also view the table relationships for your table in **Schema** view. See [Schema view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-schema-view.md).
+You can also view the table relationships for your table in **Schema** view. See [Schema view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-schema-view.md).
 
 **Note:** This feature is only available if your licensing entitles you to "exclusive low code capability" and you have Table Builder for App Engine installed. Contact your Solutions consultant for more information.
 
--   **[Spreadsheet view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md)**  
+-   **[Spreadsheet view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md)**  
 Use **Spreadsheet** view in Table Builder to work with your application data records and data structure in a spreadsheet format.
--   **[Fields view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/modify-table-properties.md)**  
+-   **[Fields view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/modify-table-properties.md)**  
 Modify the table properties and manage the table fields by using the default Fields view on the **Data** tab in Table Builder.
--   **[Schema view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-schema-view.md)**  
+-   **[Schema view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-schema-view.md)**  
 Use **Schema** view in Table Builder to explore data relationships for your application data.
--   **[Preview your data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/preview-table-fb.md)**  
+-   **[Preview your data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/preview-table-fb.md)**  
 See what your table looks like after you've edited the table columns.
--   **[Delete a table in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/delete-table-fb.md)**  
+-   **[Delete a table in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/delete-table-fb.md)**  
 Delete a table from your application so that it no longer appears in the app dashboard.
--   **[Edit table properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/edit-table-props-fb.md)**  
+-   **[Edit table properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/edit-table-props-fb.md)**  
 Change table properties such as the table label or other settings so that you can make a table extensible or add record numbers by using Table Builder.
 
-**Parent Topic:**[Using Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/using-fb.md)
+**Parent Topic:**[Using Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/using-fb.md)
 

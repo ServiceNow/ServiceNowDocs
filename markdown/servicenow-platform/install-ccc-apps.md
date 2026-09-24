@@ -2,7 +2,7 @@
 title: Install ServiceNow Voice applications
 description: You can install the ServiceNow Voice applications if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/install-ccc-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/install-ccc-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ Provides the framework that supports the integration with your third-party phone
 
 </td><td>
 
-For information about the components installed with this application, see [Components installed with ServiceNow Voice Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instld-with-cloud-call-center.md).
+For information about the components installed with this application, see [Components installed with ServiceNow Voice Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instld-with-cloud-call-center.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Integrates Amazon Connect with ServiceNow Voice Core.
 
 </td><td>
 
-For information about the components installed with this application, see [Components installed with Amazon Connect Integration with ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instld-with-amazn-cnct-integ.md).
+For information about the components installed with this application, see [Components installed with Amazon Connect Integration with ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instld-with-amazn-cnct-integ.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Enables real-time call transcription so that the agent can see the call transcri
     -   ServiceNow Voice \(sn\_cti\_core\)
     -   ServiceNow Voice with Amazon Connect \(sn\_cti\_amzn\_cct\)
     -   ServiceNow Voice UI Components \(sn\_cti\_ux\)
-    For the complete Voice experience, install ServiceNow Voice for ITSM or ServiceNow Voice for CSM applications. For information about these installations, see [Install ServiceNow Voice for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-itsm.md) and [Install ServiceNow Voice for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-csm.md).
+    For the complete Voice experience, install ServiceNow Voice for ITSM or ServiceNow Voice for CSM applications. For information about these installations, see [Install ServiceNow Voice for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/install-ccc-itsm.md) and [Install ServiceNow Voice for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/install-ccc-csm.md).
 
 4.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
@@ -118,5 +118,5 @@ Enables real-time call transcription so that the agent can see the call transcri
 5.  Select **Install**.
 
 
-**Parent Topic:**[Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-setup.md)
+**Parent Topic:**[Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/ccc-setup.md)
 

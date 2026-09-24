@@ -2,7 +2,7 @@
 title: View sent notifications for a critical event
 description: View all notifications sent for a critical event in the Related records Related Item in Critical Event Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/view-sent-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/view-sent-notifications.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -31,7 +31,7 @@ Role required: sn\_critical.agent
 4.  Select the **Sent notification** tab.
 
 
-**Parent Topic:**[Managing related records in a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-related-records.md)
+**Parent Topic:**[Managing related records in a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/manage-related-records.md)
 
 **Related topics**  
 

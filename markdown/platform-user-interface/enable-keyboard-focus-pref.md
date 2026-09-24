@@ -2,7 +2,7 @@
 title: Enable keyboard focus on text that displays tooltip
 description: Learn more about the Enable keyboard focus on text that displays tooltip accessibility preference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-keyboard-focus-pref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/enable-keyboard-focus-pref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

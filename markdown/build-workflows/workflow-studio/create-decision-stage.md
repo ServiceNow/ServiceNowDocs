@@ -2,7 +2,7 @@
 title: Decision stages
 description: Create and define branches with different conditions for different paths between stages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-decision-stage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-decision-stage.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -110,7 +110,7 @@ When multiple stages run at the same time, define the order in which stages appe
 
 </td><td>
 
-Specify a duration of time to wait before running a stage whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
+Specify a duration of time to wait before running a stage whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/start-with-delay-properties.md).
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Specify a duration of time to wait before running a stage whose start rule and c
 Choose what this activity does when a playbook is restarted:-   **Skip on restart**: Skip this stage when the run is due to a restart.
 -   **Run always**: Always run this stage, including first runs.
 -   **Skip on first run**: Skip this stage during the first run.
-For more information, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-define-restart.md).
+For more information, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/enable-define-restart.md).
 
 </td></tr></tbody>
 </table>5.  Under the **Branches** tab, select your new branch to begin configuring it.
@@ -151,7 +151,7 @@ You've added and configured decision branches between stages.
 
 ## What to do next
 
-Complete and test the playbook. For more information, see [Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-process.md).
+Complete and test the playbook. For more information, see [Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-process.md).
 
-**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

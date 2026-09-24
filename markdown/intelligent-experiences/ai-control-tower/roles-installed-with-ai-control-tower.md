@@ -2,7 +2,7 @@
 title: AI Control Tower roles
 description: Certain roles are installed along with the installation of the AI Control Tower.This section also covers roles which are installed with AI Risk and Compliance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -211,7 +211,7 @@ The ​AI Risk and Compliance User can perform the following tasks:-   Create AI
 -   sn\_smart\_asmt.assessment\_reader
 -   sn\_risk\_advanced.risk\_asmt\_project\_reader
 
-**Note:** For more information on AI Control Tower roles, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md).
+**Note:** For more information on AI Control Tower roles, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md).
 
 </td></tr><tr><td>
 

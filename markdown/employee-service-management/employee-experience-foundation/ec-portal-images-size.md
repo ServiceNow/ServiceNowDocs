@@ -2,7 +2,7 @@
 title: Standard banner and icon sizes
 description: Use the following sizes for the banner and icons for optimal portal performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-portal-images-size.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-portal-images-size.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -60,7 +60,7 @@ Note
 **Tip:** The updated recommendations for image sizes are available on the widget Instance Options \(Control + select and hold or right click\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 

@@ -2,10 +2,10 @@
 title: Install Segment Management
 description: Install the Segment Management plugin \(com.snc.segment\_mgmt\), along with the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-segment-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-segment-management.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configure Segment Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -81,12 +81,12 @@ Load the demo data after installing Segment Management.1.  Install Segment Manag
 
 You have successfully installed the Segment Management \(com.snc.segment\_mgmt\) application. You can now set up the data model and configure different roles.
 
-**Parent Topic:**[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-segment-management.md)
+**Parent Topic:**[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-segment-management.md)
 
 **Related topics**  
 
 
-[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-segment-management.md)
+[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-segment-management.md)
 
-[Data model for Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-segment-management.md)
+[Data model for Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/data-model-for-segment-management.md)
 

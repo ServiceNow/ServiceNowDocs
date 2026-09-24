@@ -2,7 +2,7 @@
 title: Connecting to other ERP systems using REST
 description: Extract data securely from an ERP with REST for use in remote tables and extraction tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-use-rest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-use-rest.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,13 +18,13 @@ Extract data securely from an ERP with REST for use in remote tables and extract
 
 ## REST access configuration
 
-Access business data from an ERP using REST APIs. For more information, see [REST API connector for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-rest-api-connector.md) and [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
+Access business data from an ERP using REST APIs. For more information, see [REST API connector for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-rest-api-connector.md) and [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
 
-For API details, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+For API details, see .
 
 ## Oracle ERP systems
 
-Oracle E-Business Suite can connect using REST. For details specific to Oracle, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md).
+Oracle E-Business Suite can connect using REST. For details specific to Oracle, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md).
 
 ## Providing REST access to users
 
@@ -44,5 +44,5 @@ When a system is established, the heartbeats are set to active and the status is
 
 Zero Copy Connector for ERP supports most Workday APIs. For more information about services, see the [Workday REST Services Directory](https://community.workday.com/sites/default/files/file-hosting/restapi/) in the Workday Community.
 
-For steps to add a REST entity to a model operation, see [Obtaining data from Workday using REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/obtain-data-from-workday-using-rest-api.md) and [Add a REST entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.md).
+For steps to add a REST entity to a model operation, see [Obtaining data from Workday using REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/obtain-data-from-workday-using-rest-api.md) and [Add a REST entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.md).
 

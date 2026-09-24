@@ -2,7 +2,7 @@
 title: Component properties for the Catalog item
 description: Component property enables you to configure the behavior of the Catalog item component instance on the third-party website.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/component-properties-for-catalog-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/component-properties-for-catalog-item.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -146,11 +146,11 @@ Option to show or hide component notifications. By default, it shows notificatio
 </table>**Related topics**  
 
 
-[Configure the Catalog item component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-catalog-item-component-on-instance.md)
+[Configure the Catalog item component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-catalog-item-component-on-instance.md)
 
-[Embed the Catalog item component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-catalog-item-component-on-third-party-website.md)
+[Embed the Catalog item component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-catalog-item-component-on-third-party-website.md)
 
-[Event handler in the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-catalog-item-event-handler.md)
+[Event handler in the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-catalog-item-event-handler.md)
 
-[Sample code for the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-item-sample-code.md)
+[Sample code for the Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-item-sample-code.md)
 

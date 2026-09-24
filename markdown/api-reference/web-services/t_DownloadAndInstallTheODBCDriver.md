@@ -2,7 +2,7 @@
 title: Download and install the ODBC driver
 description: Download the ODBC driver \(32-bit or 64-bit\) that is compatible with your computer's operating system from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_DownloadAndInstallTheODBCDriver.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_DownloadAndInstallTheODBCDriver.html
 release: australia
 product: Web Services
 classification: web-services
@@ -112,5 +112,5 @@ If this is the first time that the driver is installed, the installer is in firs
 
 The ODBC driver application is ready for testing.
 
-**Parent Topic:**[Installing the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_InstallingTheODBCDriver.md)
+**Parent Topic:**[Installing the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_InstallingTheODBCDriver.md)
 

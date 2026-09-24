@@ -2,7 +2,7 @@
 title: Telecom Discovery via Nokia Altiplano
 description: The Service Graph Connector for Nokia Altiplano offers a telecom-aware integration that brings real-time network inventory from the Nokia Altiplano Access Network SDN Controller into your ServiceNow CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -232,7 +232,7 @@ The Integration Commons for CMDB store app provides a dashboard with a central v
 **Related topics**  
 
 
-[Configure Nokia Altiplano service graph connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-service-graph-connector-nokia-altiplano.md)
+[Configure Nokia Altiplano service graph connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configuring-service-graph-connector-nokia-altiplano.md)
 
-[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
+[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
 

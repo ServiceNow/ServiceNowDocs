@@ -2,7 +2,7 @@
 title: Activate Visual Task Boards
 description: Visual Task Boards are active by default on new instances. For upgraded instances, you can activate the Visual Task Boards plugin \[com.glide.ui.vtb\] if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ActivateVisualTaskBoards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_ActivateVisualTaskBoards.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards

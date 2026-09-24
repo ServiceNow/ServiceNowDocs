@@ -2,7 +2,7 @@
 title: Discovery of storage area networks \(SAN\)
 description: Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches. It creates specific references between the tables in the SAN schema.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/storage-area-networks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/storage-area-networks.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -28,5 +28,5 @@ This diagram shows the relationship of SAN storage volumes to a host computer.St
 
 \[Omitted image "SimpleLinuxMultipathDiagram.png"\] Alt text: Multipath SAN storage
 
-**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
+**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
 

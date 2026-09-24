@@ -2,7 +2,7 @@
 title: Service provider reference architecture
 description: Your customers can access service provider \(SP\) services by using a portal that is designed for them to reach their domain-separated instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-sp-reference-arch-ds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-sp-reference-arch-ds.html
 release: australia
 topic_type: reference
 last_updated: "2025-07-31"
@@ -30,16 +30,16 @@ The portal for SP services is dedicated or shared to the SP shared instance. Ser
 
 \[Omitted image "bp-dedicated-ds-hybrid-siam.png"\] Alt text: SP dedicated DS hybrid SIam
 
--   **[Service provider reference architecture decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-ded-instance-decision-tree.md)**  
+-   **[Service provider reference architecture decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-ded-instance-decision-tree.md)**  
 You can use decision trees and a comparison chart to determine if a new customer should be added to a shared instance or to their own dedicated instance.
--   **[Service provider reference architecture for dedicated instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-dedicated.md)**  
+-   **[Service provider reference architecture for dedicated instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-sp-reference-arch-dedicated.md)**  
 Service provider \(SP\) customers can access SP services by using a portal to a dedicated instance. SPs use these dedicated instances to manage their service delivery.
--   **[Service provider reference architecture for hybrid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-hybrid.md)**  
+-   **[Service provider reference architecture for hybrid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-sp-reference-arch-hybrid.md)**  
 Use the hybrid service provider \(SP\) reference architecture for a customized solution. Your customers require a dedicated instance for a specific service. They can still use the shared SP instance for other services, but it requires integration of each instance.
--   **[Service provider reference architecture for Service Integration Management \(SIAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-siam.md)**  
+-   **[Service provider reference architecture for Service Integration Management \(SIAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-sp-reference-arch-siam.md)**  
 The Service Integration Management Service Integration and Management \(SIAM\) for service provider \(SP\) architecture integrates services for a unified customer experience.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

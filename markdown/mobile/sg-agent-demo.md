@@ -2,7 +2,7 @@
 title: Mobile Agent app demo
 description: Access the demo in your Mobile Agent app to learn how the app can help your agents work from anywhere using their mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-agent-demo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-agent-demo.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ Finally, tap the **Launch Demo** button to start using the demo. The demo automa
 </td></tr></tbody>
 </table>## Demo highlights
 
-The Mobile Agent app demo displays a launcher screen divided into sections. Tap an item in any section to open the item or tap **See All** to view all items in that section. For details on how launcher screens, other screens, and actions work together in the mobile environment, see [Mobile hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-hierarchy.md).
+The Mobile Agent app demo displays a launcher screen divided into sections. Tap an item in any section to open the item or tap **See All** to view all items in that section. For details on how launcher screens, other screens, and actions work together in the mobile environment, see [Mobile hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-hierarchy.md).
 
 ## Customer Service Agent
 
@@ -169,6 +169,6 @@ The Mobile Agent app demo displays a launcher screen divided into sections. Tap 
 
 Use the following links to learn more about on how to use and configure the Mobile Agent app.
 
--   [Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md)
--   [Building mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/build-mobile-apps-landing.md)
+-   [Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-experience.md)
+-   [Building mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/build-mobile-apps-landing.md)
 

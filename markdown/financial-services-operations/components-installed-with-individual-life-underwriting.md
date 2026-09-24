@@ -2,7 +2,7 @@
 title: Components installed with Individual Life Underwriting
 description: Several types of components are installed with activation of the Individual Life Underwriting plugin, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/components-installed-with-individual-life-underwriting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/components-installed-with-individual-life-underwriting.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -93,5 +93,5 @@ Individual Life Underwriting Service Task
 Stores all underwriting tasks for individual policy service requests for all applications. This table extends the Financial Task \[sn\_bom\_task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Individual Life Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/individual-life-servicing-reference.md)
+</table>**Parent Topic:**[Individual Life Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/individual-life-servicing-reference.md)
 

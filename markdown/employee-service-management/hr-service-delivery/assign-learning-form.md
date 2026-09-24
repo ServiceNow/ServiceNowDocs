@@ -2,7 +2,7 @@
 title: Assign learning form
 description: Use the Assign learning form to assign a learning course to an employee.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/assign-learning-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/assign-learning-form.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,7 +24,7 @@ Use the Assign learning form to assign a learning course to an employee.
 |This task is optional|Option to indicate that the learning assignment is optional.|
 |Due by|Date by which you want the employee to complete the course.|
 
-**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 

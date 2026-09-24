@@ -2,7 +2,7 @@
 title: Adding a Universal Task list category in SOW core
 description: Add the Universal Task list category to the new Service Operations Workspace core so that agents can access and navigate through various modules directly from the new workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/add-universal-task-list-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-task/add-universal-task-list-categories.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -43,8 +43,8 @@ Due to the deprecation of the old service operations workspace, the Universal Ta
 
 The Universal Task list category is added to the Service Operations Workspace core.
 
--   **[Add lists under the Universal Task list categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/add-universal-task-lists-under-list-categories.md)**  
+-   **[Add lists under the Universal Task list categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/add-universal-task-lists-under-list-categories.md)**  
 Add lists under the newly created Universal Task list category in Service Operations Workspace so that agents can access these modules from the new workspace.
 
-**Parent Topic:**[Using Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/use-universal-task.md)
+**Parent Topic:**[Using Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/use-universal-task.md)
 

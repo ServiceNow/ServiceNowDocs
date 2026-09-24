@@ -2,7 +2,7 @@
 title: Document Intelligence tool for AI Skill Kit
 description: Use the Document Intelligence tool to leverage extraction, question answering, and summarization capabilities for a skill created with AI Skill Kit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/document-visual-intelligence-skill-kit-tool.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/document-visual-intelligence-skill-kit-tool.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -25,7 +25,7 @@ You can use the tool editor to configure the Document Intelligence tool.
 
 \[Omitted image "document-intelligence-nask.png"\] Alt text: Document Intelligence tool option in the tool editor.
 
-For more information on adding the Document Intelligence tool to a custom skill in AI Skill Kit, see [Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-a-tool.md).
+For more information on adding the Document Intelligence tool to a custom skill in AI Skill Kit, see [Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/add-a-tool.md).
 
 ## Document Intelligence tool actions
 
@@ -46,7 +46,7 @@ The Document Intelligence tool provides the following capabilities for a custom 
     Generate a concise summary the key topics of the file content.
 
 
-For more information on creating custom Now Assist prompts and skills, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+For more information on creating custom Now Assist prompts and skills, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
-**Parent Topic:**[AI Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
+**Parent Topic:**[AI Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
 

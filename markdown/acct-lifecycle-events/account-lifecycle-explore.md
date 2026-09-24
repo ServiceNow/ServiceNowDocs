@@ -2,7 +2,7 @@
 title: Explore Customer Success Management
 description: Customer Success Management enables technology industry providers to create a structured onboarding experience, define and track objectives, outcomes, milestones, and plans to achieve shared goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,6 +30,6 @@ Customer Success Management features include the following:
 
 ## Customer Success Management features
 
--   [Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-playbook-overview.md): Create a structured onboarding experience while enabling collaboration and transparency with internal and external stakeholders during the onboarding process.
--   [Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-customer-success-about.md): Track success objectives, outcomes, help mitigate risks, and identify opportunities for expansion and renewal.
+-   [Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-playbook-overview.md): Create a structured onboarding experience while enabling collaboration and transparency with internal and external stakeholders during the onboarding process.
+-   [Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-events-customer-success-about.md): Track success objectives, outcomes, help mitigate risks, and identify opportunities for expansion and renewal.
 

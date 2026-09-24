@@ -2,7 +2,7 @@
 title: Activate an agentic workflow for ServiceNow Otto for Operational Technology \(OT\) Service Management
 description: Activate the agentic workflows for ServiceNow Otto for Operational Technology \(OT\) Service Management from the AI Agent Studio so that the AI agents can execute requests autonomously. The ServiceNow Otto for OT Service Management agents included with the application are activated by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/activate-agentic-workflow-now-assist-for-otsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/activate-agentic-workflow-now-assist-for-otsm.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -23,7 +23,7 @@ Verify that the following skills are activated for ServiceNow Otto for OT Servic
 -   OT incident summarization skill
 -   OT resolution notes generation skill
 
-For more information about activating the skills, see [Configure Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.md).
+For more information about activating the skills, see [Configure Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.md).
 
 Role required: sn\_aia.admin
 
@@ -48,5 +48,5 @@ Role required: sn\_aia.admin
     The agent can now execute the request for the agentic workflow.
 
 
-**Parent Topic:**[Agentic AI for Operational Technology Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/now-assist-otsm-use-cases.md)
+**Parent Topic:**[Agentic AI for Operational Technology Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/now-assist-otsm-use-cases.md)
 

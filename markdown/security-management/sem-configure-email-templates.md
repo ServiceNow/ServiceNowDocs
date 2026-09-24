@@ -2,7 +2,7 @@
 title: Configure email templates in Unified Security Exposure Management
 description: Create and manage preconfigured email templates for sending notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-email-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-email-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Create and manage preconfigured email templates for sending notifications.
 
 ## Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-acls-for-admin-rules.md)
 
 ## Procedure
 

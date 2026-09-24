@@ -2,7 +2,7 @@
 title: Configuring AI Data Kit
 description: Configure system properties, plugins, and roles to enable all features of AI Data Kit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/configuring-now-assist-data-kit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/configuring-now-assist-data-kit.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -26,7 +26,7 @@ Some AI Data Kit features require system properties that are not enabled by defa
 
 ## Required plugins for sensitive data scanning
 
-The sensitive data scan feature requires the following plugins to be active on your instance. Activate these before using [Find and cleanse sensitive data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/sensitive-data.md).
+The sensitive data scan feature requires the following plugins to be active on your instance. Activate these before using [Find and cleanse sensitive data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/sensitive-data.md).
 
 -   `sn_data_discovery`
 -   `sn_dp_store_app` \(Data Privacy\)

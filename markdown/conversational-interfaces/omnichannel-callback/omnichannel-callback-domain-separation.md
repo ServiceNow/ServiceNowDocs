@@ -2,7 +2,7 @@
 title: Domain separation and Omnichannel Callback
 description: Domain separation is supported for Omnichannel Callback. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/omnichannel-callback/omnichannel-callback-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/omnichannel-callback/omnichannel-callback-domain-separation.html
 release: australia
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -47,7 +47,7 @@ The sys\_cs\_callback table is domain separated.
 
 When domain separation is used, a callback request from guest users is routed to the agent with the same domain as the guest user. For custom chat channels, the domain of the provider application is used as a reference to route the callback to the domain-specific agent.
 
-**Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback/omnichannel-callback-reference.md)
+**Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/omnichannel-callback/omnichannel-callback-reference.md)
 
 **Related topics**  
 

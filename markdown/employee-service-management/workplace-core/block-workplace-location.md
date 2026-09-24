@@ -2,7 +2,7 @@
 title: Block a workplace location
 description: Block a workplace location for a specific period. The blocked workplace location is unavailable during the specified period for any type of reservation on the Workplace Reservation Management Reservation portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/block-workplace-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/block-workplace-location.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -55,7 +55,7 @@ You can also block a location directly. Open the location and select the **Block
 
 The workplace location is blocked for the specified period. You can’t make any reservations for the location on the Workplace Reservation Management Reservation portal during this period. All existing reservations that are made on the workplace location are canceled.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 

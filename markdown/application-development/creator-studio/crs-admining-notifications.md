@@ -2,7 +2,7 @@
 title: Administering notification emails in Creator Studio
 description: Admins can customize existing email notifications and create templates for new email notifications that Creator Studio apps send. For example, you can add branding to notification emails that a request was opened.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/crs-admining-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creator-studio/crs-admining-notifications.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -38,5 +38,5 @@ The following default email notifications are in the public scope, and can thus 
 
 In addition to the default emails, you can create custom email notifications that the ServiceNow AI Platform sends when it runs a playbook.
 
-**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/administering-creator-studio.md)
+**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/administering-creator-studio.md)
 

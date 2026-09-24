@@ -2,7 +2,7 @@
 title: Sort the Operational Technology Progress Scorecard by ascending or descending order
 description: Sort the Operational Technology \(OT\) Progress Scorecard by ascending or descending order to customize your view of the scorecard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/sort-ot-progress-scorecard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/sort-ot-progress-scorecard.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -33,5 +33,5 @@ Role required: ot\_progress\_scorecard\_viewer
 
 The OT Progress Scorecard is now organized by ascending or descending order. If you log out, the sort configuration is saved for the next time you log in.
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

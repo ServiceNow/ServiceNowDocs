@@ -2,7 +2,7 @@
 title: Configure daily stats
 description: Configure daily stats records that you want to display on the Manager Hub. Daily stats can be information related to employee PTO, employee location, and so on.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-daily-stats.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-daily-stats.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -53,7 +53,7 @@ Role required: sn\_mh.admin
 
 3.  Click **Submit**.
 
-**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Define the scripted variables
 description: Define data for the scripted variables using the Template Configurations module for creating a report template in the Audit application. You can configure the data in either text or HTML format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/define-the-scripted-variables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/define-the-scripted-variables.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions

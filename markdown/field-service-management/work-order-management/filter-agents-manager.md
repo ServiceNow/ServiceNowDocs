@@ -2,7 +2,7 @@
 title: Filter agents in Field Service Manager Mobile
 description: Managers can quickly filter agents and find the agent they need to assign a work order task to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/filter-agents-manager.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/filter-agents-manager.html
 release: australia
 product: Work Order Management
 classification: work-order-management

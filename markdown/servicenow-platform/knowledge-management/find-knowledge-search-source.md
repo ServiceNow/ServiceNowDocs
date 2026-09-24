@@ -2,7 +2,7 @@
 title: View the source of a knowledge article search
 description: Analyze knowledge searches by finding the source used for searching a knowledge article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/find-knowledge-search-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/find-knowledge-search-source.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -75,10 +75,10 @@ URL of the searched text query.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-knowledge-logs.md)
+**Parent Topic:**[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/view-knowledge-logs.md)
 
 **Related topics**  
 
 
-[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-knowledge-logs.md)
+[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/view-knowledge-logs.md)
 

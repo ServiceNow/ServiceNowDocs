@@ -2,7 +2,7 @@
 title: Account form
 description: The Customer Service Management application uses the Account form to store customer account information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-account-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-service-account-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 
 The Customer Service Management application uses the Account form to store customer account information.
 
-For information about creating a customer account, see [Configure accounts and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-accounts-contacts.md).
+For information about creating a customer account, see [Configure accounts and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-csm-accounts-contacts.md).
 
 <table id="table_fyv_dtr_bs"><thead><tr><th>
 
@@ -54,7 +54,7 @@ Parent Account
 
 </td><td>
 
-The parent account for this account. Use this field to create an [Account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_AccountHierarchy.md).
+The parent account for this account. Use this field to create an [Account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_AccountHierarchy.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Account Code
 
 </td><td>
 
-This field stores a unique value for each account. The value is determined by the last used value, which is stored in the **com.snc.cs\_base.last.generated.code.tree.path** system property. For more information, see [Properties installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_PropInstallWcustServ.md).**Note:** If this property is reset to the value that's already being used, the system attempts to create new accounts with account codes that are already in use, which can result in an invalid insert.
+This field stores a unique value for each account. The value is determined by the last used value, which is stored in the **com.snc.cs\_base.last.generated.code.tree.path** system property. For more information, see [Properties installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_PropInstallWcustServ.md).**Note:** If this property is reset to the value that's already being used, the system attempts to create new accounts with account codes that are already in use, which can result in an invalid insert.
 
 </td></tr><tr><td>
 

@@ -2,7 +2,7 @@
 title: Override channel capacity for an agent
 description: Change the default number of work items that an agent can handle for a service channel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/override-channel-capacity-itsm-configurable-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/workforce-optimization-for-it-service-management/override-channel-capacity-itsm-configurable-workspace.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -34,15 +34,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d234322e103">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d234301e103">
 
 To set the override capacity
 
-</th><th align="left" id="d234322e106">
+</th><th align="left" id="d234301e106">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d234322e112">
+</th></tr></thead><tbody><tr><td id="d234301e112">
 
 **From Channels**
 
@@ -53,7 +53,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d234322e136">
+</td></tr><tr><td id="d234301e136">
 
 **From Teams**
 
@@ -83,5 +83,5 @@ Do this
 
 A message appears indicating the capacity update is valid for the defined duration. The capacity resets to the previous value after the specified time.
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

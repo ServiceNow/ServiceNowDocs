@@ -2,7 +2,7 @@
 title: Parent and child security incident relationships
 description: You can associate and track the impact of any given issue using parent and child security incident relationships in Security Incident Response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/c\_ParentChildRelationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/c\_ParentChildRelationships.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

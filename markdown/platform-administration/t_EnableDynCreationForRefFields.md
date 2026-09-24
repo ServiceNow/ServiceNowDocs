@@ -2,7 +2,7 @@
 title: Enable dynamic creation for reference fields
 description: When dynamic creation is enabled, entering a nonexistent value in a reference field creates a new record on the referenced table instead of returning an error.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EnableDynCreationForRefFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_EnableDynCreationForRefFields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -70,5 +70,5 @@ By default, a user must enter a value in a reference field that matches an exist
 **Related topics**  
 
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md)
 

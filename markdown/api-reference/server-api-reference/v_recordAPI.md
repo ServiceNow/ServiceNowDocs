@@ -2,7 +2,7 @@
 title: v\_record - Scoped, Global
 description: The v\_record API enables you to sets an exception or error message on a remote table record. Remote tables allow you to retrieve data from external sources or from another instance with REST or SOAP services.Sets an exception or error message to display during editable operations on a remote table record in the form or list view, and in system logs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/v\_recordAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/v\_recordAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,9 +20,9 @@ This API executes wherever GlideRecord create, update, and delete methods are us
 
 This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For more information, see [Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-remote-table-script.md).
 
-Use v\_record with the [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_queryAPI.md) scriptable object to query remote tables, and the [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API to create remote tables.
+Use v\_record with the [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/v_queryAPI.md) scriptable object to query remote tables, and the [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/v_tableAPI.md) API to create remote tables.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## v\_record - setLastErrorMessage\(String lastErrorMessage\)
 

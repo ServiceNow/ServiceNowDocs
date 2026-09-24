@@ -2,7 +2,7 @@
 title: Delete a report
 description: Delete Core UI reports that are no longer used.Delete multiple Core UI reports that are no longer used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/delete-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/delete-report.html
 release: australia
 product: Reporting
 classification: reporting
@@ -20,13 +20,13 @@ Delete Core UI reports that are no longer used.
 
 Role required: report\_admin, or be the owner of the report
 
-This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Delete a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/delete-visualization-vd.md).
+This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Delete a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/delete-visualization-vd.md).
 
 ## Procedure
 
 1.  Navigate to **sys\_report.list**.
 
-    On instances upgraded to Australia, Core UI reports are listed in the Platform AnalyticsData Visualizations library with the UI version Core. [Delete a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/delete-visualization-vd.md)
+    On instances upgraded to Australia, Core UI reports are listed in the Platform AnalyticsData Visualizations library with the UI version Core. [Delete a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/delete-visualization-vd.md)
 
 2.  Select the report to delete.
 
@@ -41,12 +41,12 @@ This topic refers to Reporting in the Core UI. For instances migrated to Platfor
 
 The selected report is removed, and is no longer available to share, publish, or view.
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 
 
-[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## Delete multiple reports
 
@@ -76,5 +76,5 @@ The selected reports are removed, and are no longer available to share, publish,
 **Related topics**  
 
 
-[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 

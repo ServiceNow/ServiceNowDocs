@@ -2,7 +2,7 @@
 title: Structure of a PaCE policy script
 description: This section describes the structure of a PaCE policy script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -113,7 +113,7 @@ apiVars
 
 The apiVars is passed to the PaCE API when it is invoked. It includes all the API variables defined in the policy version. See &lt;Defining Caller Inputs&gt; section for details
 
- The [Sample policy script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.md) shows how policies can be used to validate configuration data in the DevOps environment. In the sample script, the apiVars variable is defined as
+ The [Sample policy script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.md) shows how policies can be used to validate configuration data in the DevOps environment. In the sample script, the apiVars variable is defined as
 
 ```
 var snapshotId = apiVars.snapshotId;
@@ -131,7 +131,7 @@ configParams
 
 Config Parameters are variables are passed when mapping the policy and includes all the Config Parameters variables defined for a specific version of the policy.
 
- The `configParams` variable is defined as follows in the [Sample policy script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.md).
+ The `configParams` variable is defined as follows in the [Sample policy script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.md).
 
 ```
 var dbPort = configParams.dbPort;

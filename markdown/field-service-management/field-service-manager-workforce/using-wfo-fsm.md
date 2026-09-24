@@ -2,7 +2,7 @@
 title: Workforce Optimization
 description: Enhance the quality and efficiency of your teams using smart scheduling, team structure, and real-time refreshing single scores. Assess the quality of tasks completed, recommend skills for agents, and train them to address skill gaps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/using-wfo-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/using-wfo-fsm.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -19,5 +19,5 @@ Enhance the quality and efficiency of your teams using smart scheduling, team st
 **Related topics**  
 
 
-[Configuring Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-wfo-fsm.md)
+[Configuring Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-wfo-fsm.md)
 

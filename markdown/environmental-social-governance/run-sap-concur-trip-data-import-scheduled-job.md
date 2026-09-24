@@ -2,7 +2,7 @@
 title: Run SAP Concur trip data import scheduled job
 description: Run the trip data import scheduled job to obtain the trip data from Concur. The trip data consists of details such as the distance traveled, trip start date and end date, and so on. This job runs automatically but can also be executed manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/run-sap-concur-trip-data-import-scheduled-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/run-sap-concur-trip-data-import-scheduled-job.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ Role required: admin
 3.  Select **Execute Now**.
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-concur.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg-with-concur.md)
 

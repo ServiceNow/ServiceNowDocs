@@ -2,7 +2,7 @@
 title: AgentNowHandler - Scoped
 description: The AgentNowHandler script include provides methods that enable running check definitions on demand, checking the status of on demand executions and test check executions and for stopping background checks that were executed on demand.Creates an AgentNowHandler instance.Gets status of the request with the given ID.Gets the test check status of the given test result.Runs a check against the given configuration item.Stops a background check.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/AgentNowHandlerAPIScoped.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/AgentNowHandlerAPIScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,9 +18,9 @@ The AgentNowHandler script include provides methods that enable running check de
 
 This script include requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. For more information, refer to [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-landing-page.md).
 
-For the REST API solution, refer to [Agent Client Collector API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agnt_clnt_cll-api.md).
+For the REST API solution, refer to [Agent Client Collector API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/agnt_clnt_cll-api.md).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## AgentNowHandler - AgentNowHandler\(\)
 
@@ -175,7 +175,7 @@ cis
 
 </td><td>
 
-[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 </td><td>
 

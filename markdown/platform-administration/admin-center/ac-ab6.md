@@ -2,7 +2,7 @@
 title: Operationalize workforce effectiveness and processes blueprint
 description: Select this adoption blueprint to increase the effectiveness and efficiency of your workforce processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-ab6.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/admin-center/ac-ab6.html
 release: australia
 product: Admin Center
 classification: admin-center
@@ -200,5 +200,5 @@ Use Workforce Optimization for ITSM to manage and maintain the productivity of y
 [Workforce Optimization for ITSM overview \(video\)](https://www.youtube.com/watch?v=MD_JsQSwI5k&t=1s)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/admin-center/ac-select-business-objective.md)
 

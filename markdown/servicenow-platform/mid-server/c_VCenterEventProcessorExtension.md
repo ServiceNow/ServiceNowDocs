@@ -2,7 +2,7 @@
 title: vCenter event collector
 description: The vCenter event collector is a MID Server extension that listens for vCenter-related events and updates the CMDB accordingly.Configure the vCenter event collector extension in the MID Server module, and then add or remove supported events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/c\_VCenterEventProcessorExtension.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/c\_VCenterEventProcessorExtension.html
 release: australia
 product: MID Server
 classification: mid-server

@@ -2,7 +2,7 @@
 title: Anonymous Reporting Center \(ARC\)
 description: Anonymous Reporting Center \(ARC\) enables employees to submit compliance, privacy, or AI-related concerns without revealing their identity
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -44,9 +44,9 @@ From the ARC landing page, employees can report a case anonymously or follow up 
 
 For information about filing specific types of anonymous reports, see the following topics:
 
--   [Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
--   [Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
--   [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
+-   [Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
+-   [Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
+-   [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
 ## Built-in sanitization layer
 
@@ -60,10 +60,10 @@ Before an anonymous report is saved, all free‑text fields in the forms are san
 
 All reports submitted through ARC are routed to the appropriate case management team depending on the case type. The reporters appear as guests in the application workspace where records are created. A case analyst validates the details, assesses the severity, and determines the next steps for investigation.
 
--   **[Submit an anonymous case from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-submit-report-anonymously.md)**  
+-   **[Submit an anonymous case from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-submit-report-anonymously.md)**  
 Raise suspected compliance, privacy, or AI-related issues confidentially from the Anonymous Reporting Center \(ARC\) landing page.
--   **[Track report status or follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.md)**  
+-   **[Track report status or follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.md)**  
 Check the status of your case on the Anonymous Reporting Center and follow up on any required additional details.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

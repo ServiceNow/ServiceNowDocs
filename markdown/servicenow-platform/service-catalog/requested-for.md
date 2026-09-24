@@ -2,7 +2,7 @@
 title: Requested for
 description: Before submitting a catalog item request, this variable helps you specify who this request can be submitted for.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/requested-for.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/requested-for.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -29,7 +29,7 @@ You should specify this information while answering catalog item questions.
 
 Using the **Enable also request for** field of the Requested For variable, you can request a catalog item for different users under one request.
 
-For information about delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/delegated-request-exp.md).
+For information about delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/delegated-request-exp.md).
 
 **Important:**
 
@@ -40,7 +40,7 @@ For information about delegated request experience, see [Delegated request exper
 
 \[Omitted image "ReqForVariable.png"\] Alt text: Screenshot for the Requested For variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -55,7 +55,7 @@ For information about delegated request experience, see [Delegated request exper
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

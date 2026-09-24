@@ -2,10 +2,10 @@
 title: Deal registration type table fields
 description: Configure the deal registration type table to define how a channel partner can be associated with a deal or is contributing to the associated deal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/deal-registration-type-table-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/deal-registration-type-table-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
@@ -99,5 +99,5 @@ True/False
 Determines whether the deal registration is applicable to all programs or not
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management-reference.md)
 

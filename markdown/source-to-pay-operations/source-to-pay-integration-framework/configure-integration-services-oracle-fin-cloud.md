@@ -2,7 +2,7 @@
 title: Configure integration services for Oracle Financial Cloud
 description: For configuring integration services, provide the connection end point and the Oracle Financial Cloud ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/configure-integration-services-oracle-fin-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/configure-integration-services-oracle-fin-cloud.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

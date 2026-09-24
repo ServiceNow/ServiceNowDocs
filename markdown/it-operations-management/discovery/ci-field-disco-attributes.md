@@ -2,12 +2,12 @@
 title: Automatic CI field population
 description: Discovery generic attributes can automatically set configuration item \(CI\) field values during discovery. Attributes follow a scope hierarchy, where more specific scopes override broader ones, enabling you to define defaults at the schedule level and apply precise values at the range level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/ci-field-disco-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/ci-field-disco-attributes.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Discovery generic attributes, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

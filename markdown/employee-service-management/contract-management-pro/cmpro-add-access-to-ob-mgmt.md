@@ -2,7 +2,7 @@
 title: Add access to obligation management from contract repository records
 description: As an administrator, add the Obligations tab in contract repository records to manage contract obligations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-add-access-to-ob-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-add-access-to-ob-mgmt.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -44,9 +44,9 @@ The Obligations tab will appear in contract repository records.
 
 \[Omitted image "cmpro-obligation-tab.png"\] Alt text: View obligation for a signed contract fron the Obligations tab
 
-For more information on roles required to work on obligation management, see [Components installed with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-comp-ccore.md).
+For more information on roles required to work on obligation management, see [Components installed with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-comp-ccore.md).
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Submit an anonymous case from the Anonymous Reporting Center
 description: Raise suspected compliance, privacy, or AI-related issues confidentially from the Anonymous Reporting Center \(ARC\) landing page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-submit-report-anonymously.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/grc-submit-report-anonymously.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -28,7 +28,7 @@ ARC enables you to report suspected misconduct anonymously, encouraging early di
 
 **Note:** When submitting an anonymous report, don't include personal data about yourself or other individuals that could directly or indirectly reveal identity. For example, names, email addresses, or phone numbers.
 
-Anonymous reports accept standard text characters. Avoid including executable code, scripts, or unsupported special characters, as they might be removed automatically during submission. For more information, refer to [Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
+Anonymous reports accept standard text characters. Avoid including executable code, scripts, or unsupported special characters, as they might be removed automatically during submission. For more information, refer to [Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
 
 ## Procedure
 
@@ -49,9 +49,9 @@ Anonymous reports accept standard text characters. Avoid including executable co
 
 ## What to do next
 
--   [Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
--   [Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
--   [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
+-   [Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
+-   [Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
+-   [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
-**Parent Topic:**[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
+**Parent Topic:**[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 

@@ -2,7 +2,7 @@
 title: Public Sector Digital Services Core Case Forms
 description: Agents can create case forms to display detailed information about questions, requests, and issues that constituents, business stakeholders, or agents have. Constituents, business stakeholders, or agents can also view the form to see the status of their requests and service cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-case-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-case-forms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,12 +28,12 @@ There are several key features to a case.
 
 There are two different Case form views: a detailed view that is available to agents and agent managers in the Public Sector Digital Services application and a simplified view that is available to constituent from the Government Service Portal.
 
--   **[Government Service Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/government-service-case-form.md)**  
+-   **[Government Service Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/government-service-case-form.md)**  
 A government service agent creates a case to identify a constituent's request, and to track the activities related to resolving the issue. The Case form captures and displays detailed information about a constituent's issue or request.
--   **[Service Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/service-request-case-form-new.md)**  
+-   **[Service Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/service-request-case-form-new.md)**  
 A government service agent can create a case using the Service Request case form to capture detailed information about questions, requests, and issues that constituents, business stakeholders, or agents have. Constituents, business stakeholders, or agents can also view the form to see the status of their requests and service cases.
--   **[Information Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/information-request-case-form.md)**  
+-   **[Information Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/information-request-case-form.md)**  
 A government agent can create a case by using the Information Request case form to capture detailed information about public record requests that constituents, business stakeholders, or other agents have. Constituents, business stakeholders, or agents can also view the form to see the status of their information requests.
 
-**Parent Topic:**[Public Sector Digital Services forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-forms.md)
+**Parent Topic:**[Public Sector Digital Services forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-forms.md)
 

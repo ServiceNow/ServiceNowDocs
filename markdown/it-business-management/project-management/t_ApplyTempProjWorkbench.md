@@ -2,7 +2,7 @@
 title: Apply template to a blank project in project workspace
 description: When you create a new project in the project workspace, you can apply a template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ApplyTempProjWorkbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_ApplyTempProjWorkbench.html
 release: australia
 product: Project Management
 classification: project-management
@@ -37,7 +37,7 @@ When applying a template to a project, the project state is set to the default s
 4.  Select **OK**.
 
 
-**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
+**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTemplates.md)
 
 **Related topics**  
 
@@ -52,5 +52,5 @@ When applying a template to a project, the project state is set to the default s
 
 [Project template configuration]()
 
-[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 

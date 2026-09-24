@@ -2,7 +2,7 @@
 title: View a Dependency Views map
 description: When you display a Dependency Views map, the map is centered on the root CI and displays the layout and number of levels defined in the map properties. If Operational Intelligence is activated, then a Dependency Views map provides a mode that lets you directly access metrics information for the CIs on the map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_AccessNGBSM.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_AccessNGBSM.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -46,7 +46,7 @@ Administrators can configure the setting for the default layout of the map and n
         Click a number in the **Version** column, and then click the Display Dependency Views map icon \(\[Omitted image "IconBSMMap.png"\] Alt text: Display Dependency Views map.\).
 
 
-**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 

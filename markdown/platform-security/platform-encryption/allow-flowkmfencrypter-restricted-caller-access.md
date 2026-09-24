@@ -2,7 +2,7 @@
 title: FlowKMFEncrypter in a Flow Action
 description: Resolve the "undefined is not a function" error that occurs when a Flow Action calls the FlowKMFEncrypter API, by allowing the operation in the Restricted Caller Access Privilege record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/allow-flowkmfencrypter-restricted-caller-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platform-encryption/allow-flowkmfencrypter-restricted-caller-access.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -56,5 +56,5 @@ The Flow Action runs without the error, and the FlowKMFEncrypter operation is pe
 
 **Note:** If the Flow Action is updated later, the Restricted Caller Access Privilege status changes to **Invalidated**. Update it back to **Allowed**.
 
-**Parent Topic:**[FlowKMFEncrypter API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/flowkmfencrypter-api.md)
+**Parent Topic:**[FlowKMFEncrypter API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/flowkmfencrypter-api.md)
 

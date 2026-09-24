@@ -2,7 +2,7 @@
 title: Configure Service Graph Connector for Microsoft Intune using the guided setup
 description: Set up authentication credentials and a scheduled job to import Microsoft Intune data into your CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/configure-intune-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -38,8 +38,8 @@ For more details on permissions, see [Service Graph Connector for Microsoft Intu
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   ServiceNow IntegrationHub Zip step \(com.glide.hub.action\_step.zip\), which is automatically installed.
@@ -49,7 +49,7 @@ Multi-instance is supported for importing data from multiple Microsoft Intune in
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Procedure
 
@@ -221,7 +221,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Microsoft Intune application.
 
     7.  Set the Update Data Source Access task to complete by selecting **Mark as Complete**.
 
-    8.  Repeat the steps [6.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [6.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-intune-integration.md) for the Update Scheduled data import access task with the Scheduled data import \[scheduled\_data\_set\] table and set the task to complete by selecting **Mark as Complete**.
+    8.  Repeat the steps [6.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [6.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md) for the Update Scheduled data import access task with the Scheduled data import \[scheduled\_data\_set\] table and set the task to complete by selecting **Mark as Complete**.
 
 7.  Clear the cache for the new connection.
 
@@ -468,7 +468,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
             For more information, see [Schedule script execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
 
         4.  Select **Update**.
-        5.  To activate the scheduled job for the SG-Intune Software Reports data source, repeat steps [11.a.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [11.a.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-intune-integration.md) by selecting the **SG-Intune Trigger Software Reports** scheduled job.
+        5.  To activate the scheduled job for the SG-Intune Software Reports data source, repeat steps [11.a.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [11.a.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md) by selecting the **SG-Intune Trigger Software Reports** scheduled job.
         6.  Return to the guided setup page and set the Configure scheduled jobs for advanced data sources task to complete by selecting **Mark as Complete**.
         **Important:**
 
@@ -517,7 +517,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
         6.  Return to the guided setup page and set the Clear cache for scheduled job task to complete by selecting **Mark as Complete**.
     5.  When using multiple instances, create advanced data sources, scheduled jobs, and scheduled imports for the new connections.
 
-        **Tip:** You can create additional connections for multiple instances by following the instructions in the [Add Multiple Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-intune-integration.md) section of the guided setup.
+        **Tip:** You can create additional connections for multiple instances by following the instructions in the [Add Multiple Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md) section of the guided setup.
 
         1.  For the Set up advanced data sources for multiple instances task, select **Configure**.
         2.  On the form, fill in the fields to configure your scheduled job details for the new connection.
@@ -556,7 +556,7 @@ User to populate the field on the scheduled data import.
 
 </td></tr></tbody>
 </table>        3.  Select **Submit** to create scheduled imports for your new connection.
-        4.  To activate any newly created scheduled jobs, repeat steps [11.a.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [11.a.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-intune-integration.md).
-        5.  To activate any newly created parent scheduled import, repeat steps [11.b.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [11.b.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-intune-integration.md).
+        4.  To activate any newly created scheduled jobs, repeat steps [11.a.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [11.a.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md).
+        5.  To activate any newly created parent scheduled import, repeat steps [11.b.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [11.b.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md).
         6.  Return to the guided setup page and set the Set up advanced data sources for multiple instances task to complete by selecting **Mark as Complete**.
 

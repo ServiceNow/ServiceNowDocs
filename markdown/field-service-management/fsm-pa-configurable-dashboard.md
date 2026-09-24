@@ -2,7 +2,7 @@
 title: Field Service Performance Analytics dashboard in the configurable workspace
 description: The Field Service Platform Analytics dashboard displays the daily and weekly progress of work orders and work order tasks for your assignment groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/fsm-pa-configurable-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/fsm-pa-configurable-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Platform Analytics Solutions, FSM reports and analytics, Configure,
 
 The Field Service Platform Analytics dashboard displays the daily and weekly progress of work orders and work order tasks for your assignment groups.
 
-[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)
+[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-application-landing-page.md)
 
 ## Required ServiceNow AI Platform roles
 

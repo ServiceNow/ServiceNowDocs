@@ -2,7 +2,7 @@
 title: System properties for display value and header
 description: Use system properties to export the display value or raw value of fields and the field label or field name for headers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/system-properties-display-value-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/system-properties-display-value-header.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -177,5 +177,5 @@ XLSX
     \[Omitted image "xlsx-export-false.png"\] Alt text: Example: glide.export.xlsx.display\_value = false and glide.export.xlsx.column\_header\_label = false
 
 
-**Parent Topic:**[Data export reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/data-export-reference.md)
+**Parent Topic:**[Data export reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/data-export-reference.md)
 

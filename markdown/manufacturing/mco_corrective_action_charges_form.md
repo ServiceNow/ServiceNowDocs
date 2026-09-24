@@ -2,7 +2,7 @@
 title: Corrective action charges form
 description: Corrective action charges form include the expenses related to addressing a non-conformance like labor charges.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco\_corrective\_action\_charges\_form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco\_corrective\_action\_charges\_form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -99,10 +99,10 @@ Description
 Brief detail about the corrective actions charges.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[Corrective action charges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco_corrective_action_charges.md)
+[Corrective action charges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco_corrective_action_charges.md)
 

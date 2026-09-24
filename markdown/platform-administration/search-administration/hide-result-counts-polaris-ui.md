@@ -2,7 +2,7 @@
 title: Hide per-table search result counts in Next Experience UI
 description: Suppress display of per-table search result counts in the Next Experience UI search results page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/hide-result-counts-polaris-ui.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/hide-result-counts-polaris-ui.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -55,7 +55,7 @@ By default, the search results page displays the total number of search results 
 
 Per-table search result counts no longer display on the search results page.
 
-**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
+**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/c_GlobalTextSearch.md)
 
 **Related topics**  
 

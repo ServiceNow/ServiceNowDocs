@@ -2,7 +2,7 @@
 title: Enable keyword search for contract templates
 description: Enable keyword search in contract templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-enable-search-cont-tmplts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-enable-search-cont-tmplts.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -37,9 +37,9 @@ Role required: admin
 
 ## Result
 
-The table will be indexed. For more information on how to search for a keyword in a contract template, see [Search for keywords in contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-search-in-doct.md)
+The table will be indexed. For more information on how to search for a keyword in a contract template, see [Search for keywords in contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-search-in-doct.md)
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 

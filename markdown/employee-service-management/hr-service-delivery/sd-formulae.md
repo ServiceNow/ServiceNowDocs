@@ -2,7 +2,7 @@
 title: HR Success Dashboard indicators KPI definitions and formulas
 description: Enable HR Success Dashboard indicators to use the Key Performance Indicators \(KPIs\) and formulas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/sd-formulae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/sd-formulae.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

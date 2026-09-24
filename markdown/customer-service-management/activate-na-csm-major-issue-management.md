@@ -2,7 +2,7 @@
 title: Activate ServiceNow Otto for CSM Major Issue Management
 description: Activate the AI skill, test it against your data, then activate the agentic workflow to begin AI-assisted major case detection on new cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-na-csm-major-issue-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-na-csm-major-issue-management.html
 release: australia
 topic_type: task
 last_updated: "2026-06-02"
@@ -82,5 +82,5 @@ The AI detection runs automatically on each newly created case that matches the 
 
 ## What to do next
 
-[ServiceNow Otto for CSM Major Issue Management Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/na-for-csm-mim-properties.md)
+[ServiceNow Otto for CSM Major Issue Management Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/na-for-csm-mim-properties.md)
 

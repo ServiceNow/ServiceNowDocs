@@ -2,7 +2,7 @@
 title: Verify contract administrator assignment for notification
 description: An event runs automatically each night to send reminders to contract administrators about contract expiration dates so they can renew or renegotiate the contract. You can verify that the right contract administrator is assigned to the contract.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_SendAContractNotification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/contract-management/t\_SendAContractNotification.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -45,7 +45,7 @@ A user with the admin role can edit the contract.expiration condition check that
     A single name can be specified.
 
 
-**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 
@@ -62,7 +62,7 @@ A user with the admin role can edit the contract.expiration condition check that
 
 [Monitor a contract]()
 
-[Condition check definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_UseConditionCheckDefinitions.md)
+[Condition check definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/c_UseConditionCheckDefinitions.md)
 
 [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 

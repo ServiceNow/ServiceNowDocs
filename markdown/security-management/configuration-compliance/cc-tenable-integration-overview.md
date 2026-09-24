@@ -2,7 +2,7 @@
 title: The Tenable Vulnerability Integration with Configuration Compliance
 description: The Tenable.io product of the Tenable Vulnerability Integration imports policies, controls \(test results\), and configuration tests for processing in the Configuration Compliance application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-tenable-integration-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/cc-tenable-integration-overview.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -55,7 +55,7 @@ By comparing values in the **Ignored CIs** fields on each integration run record
 
 **Note:** It may take multiple runs of these integrations to import all the ignored assets.
 
-For more information about how to enable and configure the Tenable.io Asset Integration, see [Configure the Tenable Vulnerability Integration using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-tenable-config-in-SA.md). See [Understanding the Tenable Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/tenableIntegration.md) for more information about the integration.
+For more information about how to enable and configure the Tenable.io Asset Integration, see [Configure the Tenable Vulnerability Integration using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/vr-tenable-config-in-SA.md). See [Understanding the Tenable Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/tenableIntegration.md) for more information about the integration.
 
 The Tenable.io Compliance Results Integration and the Tenable.io Compliance Results Backfill Integration are inactive by default.
 

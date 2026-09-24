@@ -2,7 +2,7 @@
 title: Automate Budget Approval policy process
 description: Automate finance approvals for Cloud Account Management requests based on predefined conditions. Approve requests automatically when criteria are met. Otherwise, wait for manual approval. Modify the default policy to include additional conditions as necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/automate-account-budget-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/automate-account-budget-approval.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

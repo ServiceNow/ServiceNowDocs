@@ -2,7 +2,7 @@
 title: Close an incomplete work order task on a mobile device
 description: You can close a work order task as incomplete if there is work pending on the task through the Field Service Contractor for mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/close-incomplete-fsc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/close-incomplete-fsc.html
 release: australia
 product: Work Order Management
 classification: work-order-management

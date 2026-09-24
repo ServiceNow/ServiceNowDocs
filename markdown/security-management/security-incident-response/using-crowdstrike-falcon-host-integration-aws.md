@@ -2,7 +2,7 @@
 title: Using CrowdStrike Falcon Insight integration in Analyst Workspace
 description: Use the CrowdStrike Falcon Insight integration to leverage the CrowdStrike Falcon Insight capabilities on the SIR Analyst workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-crowdstrike-falcon-host-integration-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/using-crowdstrike-falcon-host-integration-aws.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -20,7 +20,7 @@ Use the CrowdStrike Falcon Insight integration to leverage the CrowdStrike Falco
 
 Role required: sn\_si.admin
 
-Before you use CrowdStrike Falcon Insight integration on the Security Incident Response workspace, you must download it from the ServiceNow Store and configure it. For more information, see [Getting started with the CrowdStrike Falcon Insight integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/get-started-with-the-crowdstrike-falcon-insight-integration.md).
+Before you use CrowdStrike Falcon Insight integration on the Security Incident Response workspace, you must download it from the ServiceNow Store and configure it. For more information, see [Getting started with the CrowdStrike Falcon Insight integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/get-started-with-the-crowdstrike-falcon-insight-integration.md).
 
 ## About this task
 

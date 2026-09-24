@@ -2,7 +2,7 @@
 title: Filter search results on the Log Viewer in Health Log Analytics
 description: Apply filters on the Log Viewer to show only your desired data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-log-viewer-filter-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-op-log-viewer-filter-sow.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -33,7 +33,7 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
     -   While viewing log entries for an alert on the **Surrounding logs** tab, select **Log Viewer**.
 2.  Define and run a search.
 
-    For more information, see [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md).
+    For more information, see [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md).
 
 3.  Filter the search results in one of the following ways.
 

@@ -2,7 +2,7 @@
 title: Support AI agents
 description: Enable AI agents to automatically accept work items by configuring the Include AI agents flag in AWA assignment rules. This allows eligible AI agents in a group to participate in work distribution alongside live agents, improving coverage and reducing manual assignment overhead.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-support-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-support-ai-agents.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

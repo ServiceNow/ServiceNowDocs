@@ -2,7 +2,7 @@
 title: Configure KPIs in Digital Portfolio Management with service availability example
 description: Configure key performance indicators \(KPIs\) in Digital Portfolio Management \(DPM\) to surface performance information in the context of your solutions. This procedure uses the example of configuring service availability to display the availability score in the Run life-cycle phase.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-configure-kpi-availability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-configure-kpi-availability.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -27,9 +27,9 @@ As a user with the sn\_dpm.dpm\_admin role, you can configure KPIs to display in
 
 **Note:** You must have Service Portfolio Management premium subscription to perform this task. This premium subscription automatically installs if you have DPM installed.
 
-For general information about KPI groups, see [KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi.md).
+For general information about KPI groups, see [KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-kpi.md).
 
-To create KPI groups, see [Create KPI groups, mappings, and visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md).
+To create KPI groups, see [Create KPI groups, mappings, and visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md).
 
 This procedure includes the following tasks:
 
@@ -155,10 +155,10 @@ Mapping that you want to associate with this KPI group. The fields that are disp
         -   If you created the availability KPI for an enterprise portfolio, then use the enterprise portfolio tree structure to find the service offering record.
     3.  On the **Run** tab, ensure that the Performance snapshot Availability card displays the correct percentage value.
 
-**Parent Topic:**[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)
+**Parent Topic:**[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)
 
 **Related topics**  
 
 
-[Create KPI groups and mappings in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md)
+[Create KPI groups and mappings in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md)
 

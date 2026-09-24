@@ -2,7 +2,7 @@
 title: Configure restart for Playbooks
 description: Configure restart so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/enable-define-restart.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/enable-define-restart.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -106,5 +106,5 @@ The stage or activity runs only during restarted runs. It never runs during an i
     \[Omitted image "restart-playbook-pe.png"\] Alt text: Restart playbook button in context menu in Playbook preview
 
 
-**Parent Topic:**[Enabling playbook restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/restart.md)
+**Parent Topic:**[Enabling playbook restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/restart.md)
 

@@ -2,7 +2,7 @@
 title: Add tags to PaCE policies
 description: Add or create policy tags on-the-fly for any PaCE policy, including currently Active policies. Tags enable you to manage policies more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-add-tags-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-add-tags-policies.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

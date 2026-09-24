@@ -2,7 +2,7 @@
 title: Select a quiz recipient
 description: When the system distributes a quiz, it sends email notifications to the category users and their managers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_SelectAQuizRecipient.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_SelectAQuizRecipient.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,10 +34,10 @@ The system also creates a link to the quiz in the recipients' **My Assessments &
     |Add users|Users selected as recipients for this category. The choice list shows all users in the system.|
 
 
-**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateaQuiz.md)
 
 **Related topics**  
 
 
-[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
+[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizDesigner.md)
 

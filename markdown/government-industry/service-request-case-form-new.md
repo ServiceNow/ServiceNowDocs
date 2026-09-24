@@ -2,7 +2,7 @@
 title: Service Request case form
 description: A government service agent can create a case using the Service Request case form to capture detailed information about questions, requests, and issues that constituents, business stakeholders, or agents have. Constituents, business stakeholders, or agents can also view the form to see the status of their requests and service cases.Service Request case form displays detailed information about a service request cae task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/service-request-case-form-new.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/service-request-case-form-new.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -530,7 +530,7 @@ The constituent or business contact view of the Case form includes the following
 -   The related entity information, including agency and contact information, pending service case task information, and service request information.
 -   An **Activity** field that stores all communication for the case in a chronological list.
 
-**Parent Topic:**[Public Sector Digital Services Core Case Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-case-forms.md)
+**Parent Topic:**[Public Sector Digital Services Core Case Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-case-forms.md)
 
 ## Service Request Case Task form
 

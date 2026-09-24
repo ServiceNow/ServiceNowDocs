@@ -2,7 +2,7 @@
 title: Monitor hardware asset performance with Asset KPIs report
 description: Track the asset availability and related KPI values in the report to see how well a hardware asset is performing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-availability-for-hardware-aaset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/view-availability-for-hardware-aaset.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -24,7 +24,7 @@ Role required: asset
 
 The Asset KPIs report is available for a hardware asset under the following conditions:
 
--   The asset belongs to a model category of an opted in resource category, and for which the performance tracking is enabled. For details, see [Opt in to model categories to track performance KPIs for hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/opt-in-kpi-tracking-ham.md).
+-   The asset belongs to a model category of an opted in resource category, and for which the performance tracking is enabled. For details, see [Opt in to model categories to track performance KPIs for hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/opt-in-kpi-tracking-ham.md).
 -   The asset has moved to the In use state, and its KPIs have been calculated and are available in the Asset Availability table \[sn\_ent\_asset\_availability\].
 
     **Note:** The **Calculate asset performance KPIs** scheduled weekly job runs every Saturday to calculate the KPIs for the assets. These KPIs are then reflected in the Asset availability and related KPIs report, which displays the most recent KPI values.
@@ -51,5 +51,5 @@ The Asset KPIs report is available for a hardware asset under the following cond
     -   **Current asset schedule**: The asset schedule linked to the asset currently and used for KPI calculations. If no schedule is linked, the Default asset schedule is used.
     -   **Start**: The date and time when the asset KPI values were first calculated.
     -   **End**: The date and time when the asset KPI values were last calculated.
-    -   **Outages During Interval** tab: A list of outages with details like start and end time of the outage and the duration of the outage. For more details on outage record creation and handling, see [Asset performance reports in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-performance-reports-ham.md).
+    -   **Outages During Interval** tab: A list of outages with details like start and end time of the outage and the duration of the outage. For more details on outage record creation and handling, see [Asset performance reports in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-performance-reports-ham.md).
 

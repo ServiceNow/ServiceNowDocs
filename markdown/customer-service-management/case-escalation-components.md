@@ -2,7 +2,7 @@
 title: Case and account escalation components
 description: The roles, modules, and tables installed with the case and account escalation feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-escalation-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-escalation-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

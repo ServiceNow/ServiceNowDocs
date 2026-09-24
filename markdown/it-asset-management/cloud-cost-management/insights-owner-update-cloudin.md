@@ -2,7 +2,7 @@
 title: Update or reassign insights\_owner privileges
 description: Assign ownership of one or more service accounts and, optionally, the related CIs to users that have the insights\_owner role. An insights\_owner can define jobs and policies and can view data for owned service accounts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/insights-owner-update-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/insights-owner-update-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -18,7 +18,7 @@ Assign ownership of one or more service accounts and, optionally, the related CI
 
 ## Before you begin
 
-Before you assign service accounts, you might want to view the list of current insights\_owner and their owned accounts. See [View the service accounts owned by an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/insights-owners-view-list-cloudin.md) for details.
+Before you assign service accounts, you might want to view the list of current insights\_owner and their owned accounts. See [View the service accounts owned by an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/insights-owners-view-list-cloudin.md) for details.
 
 Role required: insights\_admin \[sn\_clin\_core.insights\_admin\]
 
@@ -140,5 +140,5 @@ The following process runs:
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Assign service accounts to an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/insights-owner-new-cloudin.md)
+**Parent Topic:**[Assign service accounts to an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/insights-owner-new-cloudin.md)
 

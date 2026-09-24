@@ -2,7 +2,7 @@
 title: Using Customer Engagement Sequences
 description: Empower sales teams to automate and optimize customer engagement at every stage from initial outreach to renewal and expansion. By orchestrating both automated and manual steps, provide timely, relevant, and consistent engagement experience to every prospect and customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/using-customer-engagement-sequences.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-customer-engagement-sequences.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -92,21 +92,21 @@ The following sample use cases provide examples on how you can use Customer Enga
     For example, during a renewal or check-in, the workflow suggests relevant upgrades or add-ons, and prompts the agent to present these offers to the customer.
 
 
--   **[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-customer-engagement-sequence.md)**  
+-   **[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-customer-engagement-sequence.md)**  
 Drive personalized outreach by creating customer engagement sequences that automate timely, relevant interactions that are ideal for nurturing leads, onboarding clients, or re-engaging inactive customers.
--   **[Review sequences in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-sequence-design-time.md)**  
+-   **[Review sequences in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-sequence-design-time.md)**  
 Review sequences in Workflow Studio so you can suggest optimizations and share high-performing sequences across territories to promote best practices across the organization.
--   **[View sequence tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-sequence-tasks.md)**  
+-   **[View sequence tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-sequence-tasks.md)**  
 View sequence tasks assigned to you from the CRM Workspace.
--   **[Complete predefined customer engagement tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/execute-sequence-steps.md)**  
+-   **[Complete predefined customer engagement tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/execute-sequence-steps.md)**  
 Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
--   **[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/complete-telesales-sequences.md)**  
+-   **[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/complete-telesales-sequences.md)**  
 Connect with leads or customers using the click-to-call outbound calling capability in telesales flows.
 
-**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-opportunity-mgt.md)
 
 **Related topics**  
 
 
-[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-customer-engagement-sequences.md)
+[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-customer-engagement-sequences.md)
 

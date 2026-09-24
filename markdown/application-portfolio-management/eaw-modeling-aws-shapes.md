@@ -2,7 +2,7 @@
 title: Amazon Web Services \(AWS\) shapes
 description: The AWS shapes library in EA Workspace helps in modeling cloud architectures. These shapes allow architects to design future-state cloud diagrams aligned with CMDB and CSDM standards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-aws-shapes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-aws-shapes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -88,14 +88,14 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 |Volume \[Omitted image "modeling-aws-volume.png"\] Alt text: Volume|Represents an Amazon Elastic Block Store \(EBS\) volume, which is a block-level storage device that can be attached to EC2 instances. Use this shape to indicate persistent storage for compute resources.|
 |Volume Gateway \[Omitted image "modeling-aws-volume-gateway.png"\] Alt text: Volume gateway|Represents the AWS Storage Gateway Volume Gateway, which provides hybrid cloud storage by exposing cloud-backed volumes to on-premises applications. Use this shape to show integration between on-premises environments and AWS storage.|
 
-**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-shapes.md)
+**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-shapes.md)
 
 **Related topics**  
 
 
-[AWS shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-modeling-aws.md)
+[AWS shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ea-modeling-aws.md)
 
-[Working with Amazon Web Services \(AWS\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-aws-shapes.md)
+[Working with Amazon Web Services \(AWS\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-aws-shapes.md)
 
-[Create a diagram using AWS shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-create-diagram-aws.md)
+[Create a diagram using AWS shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-create-diagram-aws.md)
 

@@ -2,7 +2,7 @@
 title: Create an email notification
 description: Create an email notification specifying when to send it, who receives it, what it contains, and if it can be delivered in an email digest.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateANotification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateANotification.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,10 +26,10 @@ Consider the following items when you create or update a notification:
 
 -   Your notification recipients must have the appropriate notification preferences enabled.
 
-    If the notification is subscribable, each ServiceNow user or group member must have the notification and channels \(devices\) for the notification enabled in their [notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-notification-preferences.md). Admins can impersonate users to review and configure their notification preferences.
+    If the notification is subscribable, each ServiceNow user or group member must have the notification and channels \(devices\) for the notification enabled in their [notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-notification-preferences.md). Admins can impersonate users to review and configure their notification preferences.
 
--   To have your email notification also send as an SMS notification, recipients must subscribe to the notification on an SMS channel. For more information on creating an SMS channel, see [Create notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-channel.md).
--   After you create or update the notification, use the **Preview Notification** option to examine it. For example, you can test links that you may have added and verify the notification recipients. For details, see [Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PreviewingNotifications.md).
+-   To have your email notification also send as an SMS notification, recipients must subscribe to the notification on an SMS channel. For more information on creating an SMS channel, see [Create notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-channel.md).
+-   After you create or update the notification, use the **Preview Notification** option to examine it. For example, you can test links that you may have added and verify the notification recipients. For details, see [Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_PreviewingNotifications.md).
 -   For information on operators available for filters and queries, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 ## About this task
@@ -43,7 +43,7 @@ Use the following tabs in the Notification form to configure an email notificati
 -   **When to send** — Conditions required to send the notification.
 -   **Who will receive** — Recipients of the notification.
 -   **What it will contain** — Contents of the notification.
--   **What Digest will contain** — Contents of the [email digest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-digests.md) if the notification can be delivered in a digest.
+-   **What Digest will contain** — Contents of the [email digest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-digests.md) if the notification can be delivered in a digest.
 
 **Note:** If you don’t see all the fields on the form, switch to the **Advanced** view.
 
@@ -105,7 +105,7 @@ Category
 
 Select the category to which this notification belongs. A category identifies and groups related notifications. This notification, if active and subscribable, is listed in the selected **Category** in the notification preferences for each user \(**Notifications** tab in the System Settings window\). **Note:** Don’t leave the category as **Uncategorized**, as users may not be able to find the notification in their list of notifications.
 
- If you need a new category, see [Create notification categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-notification-categories.md).
+ If you need a new category, see [Create notification categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-notification-categories.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Allow Digest
 
 </td><td>
 
-Select the check box if an [email digest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-digests.md) is to be created for the notification. If selected, the **What Digest will contain** tab is displayed for creating the digest content.
+Select the check box if an [email digest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-digests.md) is to be created for the notification. If selected, the **What Digest will contain** tab is displayed for creating the digest content.
 
 </td></tr><tr><td>
 
@@ -199,7 +199,7 @@ Advanced condition
 
 </td><td>
 
-Create a script to perform certain actions, like sending a notification based on the current email record, changing field values, or changing system properties. [The advanced condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_OptSpecifyingAdvancedCond.md) script must return **true** or set a global answer variable to **true** to send the notification.
+Create a script to perform certain actions, like sending a notification based on the current email record, changing field values, or changing system properties. [The advanced condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_OptSpecifyingAdvancedCond.md) script must return **true** or set a global answer variable to **true** to send the notification.
 
  The advanced condition script uses the following global variables:
 
@@ -288,7 +288,7 @@ Subscribable
 
 </td><td>
 
-Select this check box to enable all users to subscribe to this notification. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md) for more information.**Note:** If the record contains sensitive or protected data, consider restricting the recipient list only to those users and groups who normally have access to it, and don’t enable the **Subscribable** option. You can also configure your notification content so that private or sensitive data isn’t exposed. For example, you could insert a link back to the associated record, so that details aren’t revealed in the notification.
+Select this check box to enable all users to subscribe to this notification. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_SubscriptionBasedNotifications.md) for more information.**Note:** If the record contains sensitive or protected data, consider restricting the recipient list only to those users and groups who normally have access to it, and don’t enable the **Subscribable** option. You can also configure your notification content so that private or sensitive data isn’t exposed. For example, you could insert a link back to the associated record, so that details aren’t revealed in the notification.
 
 </td></tr></tbody>
 </table>    The system doesn’t exclude recipients based on access controls. Recipients can receive email about records that they can’t normally access from the user interface. For example, requesters can receive email about incidents and catalog requests opened on their behalf even though they normally don’t have access to these records. If a notification includes the record details, verify that all recipients need these details.
@@ -391,7 +391,7 @@ Omit watermark
 
 </td><td>
 
-Use this check box to apply or remove the watermark attached to each email. If the email doesn’t contain a watermark, the system reviews the conditions of the inbound actions to create or update task records. For more information, and an alternative way to hide watermarks, see [Watermarks on notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_WorkingWithWatermarks.md).
+Use this check box to apply or remove the watermark attached to each email. If the email doesn’t contain a watermark, the system reviews the conditions of the inbound actions to create or update task records. For more information, and an alternative way to hide watermarks, see [Watermarks on notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_WorkingWithWatermarks.md).
 
 </td></tr><tr><td>
 
@@ -411,7 +411,7 @@ From
 
 Enter the email address that you want the email notification to use in the From field. For example, helpdesk@yourcompany.com. The email must be in a valid format, otherwise a notification message appears near the field.
 
- Changing this address may require an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfAltEmailUsgOwnSMTP.md), for example when using Sender Policy Framework \(SPF\) records for spam detection.
+ Changing this address may require an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ConfAltEmailUsgOwnSMTP.md), for example when using Sender Policy Framework \(SPF\) records for spam detection.
 
 </td></tr><tr><td>
 
@@ -421,7 +421,7 @@ Reply to
 
 Enter the email address that you want people to use when replying to the email notification. For example, helpdesk@yourcompany.com. The email must be in a valid format, otherwise a notification message appears near the field. You can add no more than one email address in this field.
 
- Changing this address requires an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfAltEmailUsgOwnSMTP.md).
+ Changing this address requires an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ConfAltEmailUsgOwnSMTP.md).
 
 </td></tr><tr><td>
 
@@ -429,7 +429,7 @@ Push message only
 
 </td><td>
 
-Select this option to send this notification only as a push notification to a mobile device. The [Push Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md) feature must be active.
+Select this option to send this notification only as a push notification to a mobile device. The [Push Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_PushNotifications.md) feature must be active.
 
 </td></tr><tr><td>
 
@@ -437,7 +437,7 @@ Push messages
 
 </td><td>
 
-Associate one or more push messages with this notification. The [Push Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md) feature must be active.**Note:** The push message and notification must be for the same table.
+Associate one or more push messages with this notification. The [Push Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_PushNotifications.md) feature must be active.**Note:** The push message and notification must be for the same table.
 
 </td></tr></tbody>
 </table>7.  If you selected the **Allow Digest**check box, fill in the fields on the **What Digest will contain** tab to create the email digest content for the notification.
@@ -498,7 +498,7 @@ Digest From
 
 Enter the email address to be used in the From field of the email digest. For example, helpdesk@yourcompany.com. The email address must be in a valid format, otherwise a notification message appears near the field.
 
- Changing this address requires an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfAltEmailUsgOwnSMTP.md).
+ Changing this address requires an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ConfAltEmailUsgOwnSMTP.md).
 
 </td></tr><tr><td>
 
@@ -508,7 +508,7 @@ Digest Reply To
 
 Enter the email address that you want people to use when replying to the email digest. For example, helpdesk@yourcompany.com. The email must be in a valid format, otherwise a notification message appears near the field.
 
- Changing this address requires an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfAltEmailUsgOwnSMTP.md).
+ Changing this address requires an advanced email setup such as [enabling email forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ConfAltEmailUsgOwnSMTP.md).
 
 </td></tr><tr><td>
 
@@ -527,54 +527,54 @@ Digest Separator \(text\)
 \[Optional\] Use the dash character as a line to separate each item summarized in the digest. This field appears when you set the content type to **HTML and plain text** or **Plain text only**.
 
 </td></tr></tbody>
-</table>    When you save or update the notification, the [email **Digest**option is available for the notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-digest.md) in the notification settings of your users.
+</table>    When you save or update the notification, the [email **Digest**option is available for the notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/enable-email-digest.md) in the notification settings of your users.
 
 8.  When you finish creating the notification, select **Submit** or, if you’re done modifying the notification, select **Update**.
 
 
 ## What to do next
 
-Use the **Preview Notification** option to [check your notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PreviewingNotifications.md), for example, you can see:
+Use the **Preview Notification** option to [check your notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_PreviewingNotifications.md), for example, you can see:
 
 -   How the **Subject** and **Message** fields are displayed.
 -   Which users will or won’t receive the notification, including the reasons why the users won’t receive it.
 
--   **[Convert legacy email notifications to rich HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConvEmailNotifToRichHTML.md)**  
+-   **[Convert legacy email notifications to rich HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ConvEmailNotifToRichHTML.md)**  
 By default, new email notifications are created in the rich HTML format. But you can also convert legacy notifications to rich HTML.
--   **[Control visibility to email records generated by notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/control-visibility-emails.md)**  
+-   **[Control visibility to email records generated by notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/control-visibility-emails.md)**  
 Define conditions that restrict read access to target email records containing sensitive information.
--   **[Advanced conditions for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_OptSpecifyingAdvancedCond.md)**  
+-   **[Advanced conditions for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_OptSpecifyingAdvancedCond.md)**  
 Use an advanced condition to send a notification based on the current email record, changing field values, or system properties.
--   **[Edit HTML content in an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditTheHTMLOfAnEmailNotif.md)**  
+-   **[Edit HTML content in an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_EditTheHTMLOfAnEmailNotif.md)**  
 For added control over the content of an email notification, you can edit the underlying HTML.
--   **[Document attachments on an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AttachingDocsToANotification.md)**  
+-   **[Document attachments on an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AttachingDocsToANotification.md)**  
 You can attach documents and reports to email notifications by scripting or linking to the sys ID of the record.
--   **[Line breaks in email notifications and rich HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_HandlingLineBreaks.md)**  
+-   **[Line breaks in email notifications and rich HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_HandlingLineBreaks.md)**  
 Rich HTML provides additional control over line breaks in your email notifications and templates.
--   **[Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PreviewingNotifications.md)**  
+-   **[Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_PreviewingNotifications.md)**  
 You can preview what notifications look like before you actually enable the instance to send them.
--   **[Time zone for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SpecifyingTheTimeZone.md)**  
+-   **[Time zone for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_SpecifyingTheTimeZone.md)**  
 A system property controls the time zone that the instance uses for the date and time stamp of a message.
--   **[Specify alternative outbound email addresses for notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SpecAltOutEmailAddr.md)**  
+-   **[Specify alternative outbound email addresses for notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_SpecAltOutEmailAddr.md)**  
 By default, the system sends all outbound email notifications from the default email address of the instance, but you can specify an alternative address.
--   **[Specify an outbound email address for a particular language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SpecOutboundEmailAddLang.md)**  
+-   **[Specify an outbound email address for a particular language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_SpecOutboundEmailAddLang.md)**  
 You can specify a different email address for each language your instance supports.
--   **[Notification variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-variables.md)**  
+-   **[Notification variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/notification-variables.md)**  
 Use notification variables to display dynamic information in the body of a notification such as a field value, a link to a record, or a link to system preferences.
--   **[Links to records in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EnablingLinksToServiceNowRecords.md)**  
+-   **[Links to records in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EnablingLinksToServiceNowRecords.md)**  
 Adding the **$\{URI\}** parameter to an outbound email body or template creates a link to a specific record.
--   **[Email unsubscribe links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-unsubscribe.md)**  
+-   **[Email unsubscribe links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/email-unsubscribe.md)**  
 Administrators can enable your users to stop receiving particular email messages by adding unsubscribe links to notifications.
--   **[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScriptingForEmailNotifications.md)**  
+-   **[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_ScriptingForEmailNotifications.md)**  
 Use mail scripts to add business rule-like scripting to outbound email messages.
--   **[Baseline email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_BaselineEmailNotifications.md)**  
+-   **[Baseline email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/r_BaselineEmailNotifications.md)**  
 The baseline system provides several email notifications.
--   **[Notification example: notify an assignment group of updates to Priority 1 Incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_Ex4Priority1IncUpdateNotif.md)**  
+-   **[Notification example: notify an assignment group of updates to Priority 1 Incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_Ex4Priority1IncUpdateNotif.md)**  
 Notify users by email when there are updates to high priority incidents.
--   **[Notification example: notify task assignees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_NotificationExAssignmentNotif.md)**  
+-   **[Notification example: notify task assignees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_NotificationExAssignmentNotif.md)**  
 Notify users who are assigned a Task \[task\] record.
 
-**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 

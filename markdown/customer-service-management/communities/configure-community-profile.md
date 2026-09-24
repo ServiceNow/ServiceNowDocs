@@ -2,7 +2,7 @@
 title: Configure the community profile
 description: Set up the community profile by configuring profile fields and deciding which fields to display in the personal information section of the community profile.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/configure-community-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/configure-community-profile.html
 release: australia
 product: Communities
 classification: communities
@@ -25,14 +25,14 @@ Role required: sn\_communities.admin
 1.  Configure one or more of the following for the community profile.
 
 
--   **[Create a persona for the community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-new-persona.md)**  
+-   **[Create a persona for the community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/create-new-persona.md)**  
 Create a persona and associate it to a role to manage which data users can modify.
--   **[Create a community profile field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-profile-field.md)**  
+-   **[Create a community profile field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/create-profile-field.md)**  
 Create a field to display on the community profile.
--   **[Configure persona field mapping for the community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-persona-field-mapping.md)**  
+-   **[Configure persona field mapping for the community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-persona-field-mapping.md)**  
 Configure which fields appear in the community profile and manage the settings associated with those fields.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Hardening settings details
 description: Analyze the details of a hardening setting by selecting its link within the Security Center app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/hardening-settings-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/hardening-settings-overview.html
 release: australia
 product: Security Center
 classification: security-center
@@ -20,7 +20,7 @@ Navigate to **Hardening** &gt; **All settings**, and then select a hardening set
 
 \[Omitted image "hardening-setting-overview.png"\] Alt text: hardening setting page in UI
 
-Use the **+Create task** button to create a Security Task to complete a Customer Action. For details, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+Use the **+Create task** button to create a Security Task to complete a Customer Action. For details, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-task-manager.md).
 
 <table id="table_opc_tcz_rxb"><thead><tr><th>
 
@@ -103,5 +103,5 @@ Accept compliance risk
 If you're unable to make a hardening setting compliant, but the risk is acceptable, you can accept the risk and document an explanation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/all-settings.md)
+</table>**Parent Topic:**[All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/all-settings.md)
 

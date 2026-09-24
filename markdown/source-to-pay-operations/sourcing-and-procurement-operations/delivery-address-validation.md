@@ -2,7 +2,7 @@
 title: Delivery address suggestions
 description: Improve your shopper experience with filling in a new address location through type-ahead and auto-fill, in the Deliver to somewhere else form​. You can further use the StreetService script to integrate with an Address Verification Service \(AVS\) of your choice to get enhanced address suggestions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/delivery-address-validation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/delivery-address-validation.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,5 +22,5 @@ You can also enable your admins to easily implement their own address validation
 
 **Note:** If you do not have an AVS set up at your end, this feature prompts you with address suggestions from your saved and office locations.
 
-**Parent Topic:**[Select a delivery location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/select-delivery-location.md)
+**Parent Topic:**[Select a delivery location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/select-delivery-location.md)
 

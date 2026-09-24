@@ -2,7 +2,7 @@
 title: Restrict report creation with an ACL rule
 description: Create an access control list rule to restrict who can create a report on a table, data source, or database view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_RestrictRepCreationWAnACLRule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_RestrictRepCreationWAnACLRule.html
 release: australia
 product: Reporting
 classification: reporting
@@ -60,11 +60,11 @@ Role required: security\_admin.
     **Note:**
 
     -   Users can view and run reports on tables even if they cannot create reports due to report\_on ACL restrictions.
-    -   System tables are not reportable by default. To allow reporting against system tables, administrators can configure the **glide.ui.permitted\_tables** property. To learn more, see [Reporting on system tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportOnSystemTables.md).
+    -   System tables are not reportable by default. To allow reporting against system tables, administrators can configure the **glide.ui.permitted\_tables** property. To learn more, see [Reporting on system tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_ReportOnSystemTables.md).
     -   The ACL `report_on` operation grants the right to report on the target table.
-    -   [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) have their own ACLs. If a user has `report_on` rights to all the tables in a database view, they still require report\_on rights on the database view to create reports on it. See [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseViews.md).
+    -   [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) have their own ACLs. If a user has `report_on` rights to all the tables in a database view, they still require report\_on rights on the database view to create reports on it. See [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseViews.md).
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 **Related topics**  
 

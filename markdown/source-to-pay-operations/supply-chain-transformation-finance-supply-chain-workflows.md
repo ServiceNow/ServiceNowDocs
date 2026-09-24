@@ -2,7 +2,7 @@
 title: Supply chain transformation with Finance and Supply Chain workflows
 description: ServiceNow Finance and Supply Chain workflows support supply chain transformation by standardizing, automating, and connecting sourcing, procurement, payment, and supplier collaboration processes across organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supply-chain-transformation-finance-supply-chain-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supply-chain-transformation-finance-supply-chain-workflows.html
 release: australia
 topic_type: concept
 last_updated: "2025-03-10"
@@ -40,9 +40,9 @@ Products within Finance and Supply Chain workflows support different supply chai
 
 |Product|Description|
 |-------|-----------|
-|[Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)|Streamlines sourcing and procurement workflows, improves spend visibility, and reduces cycle times.|
-|[Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)|Manages supplier onboarding, offboarding, and lifecycle activities with centralized supplier information, collaboration, and governance.|
-|[Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)|Automates invoice processing, matching, and approvals to reduce manual effort, errors, and payment delays.|
+|[Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)|Streamlines sourcing and procurement workflows, improves spend visibility, and reduces cycle times.|
+|[Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)|Manages supplier onboarding, offboarding, and lifecycle activities with centralized supplier information, collaboration, and governance.|
+|[Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)|Automates invoice processing, matching, and approvals to reduce manual effort, errors, and payment delays.|
 
 ## Using Finance and Supply Chain workflows for supply chain outcomes
 

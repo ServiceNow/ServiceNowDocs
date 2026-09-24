@@ -2,7 +2,7 @@
 title: Customize Tasks tab views using EVAM
 description: Customize the sales entities from which the tasks are displayed, icon and fields that are displayed on each task tile, and create custom options to filter and view consolidated tasks on the sales process dashboard in Lead-to-Cash Process Management using Entity View Action Mapping \(EVAM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-custom-filters-consolidated-tasks-evam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-custom-filters-consolidated-tasks-evam.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,7 +64,7 @@ Role required: admin or evam\_admin
 9.  Select **Submit**.
 
 
-**Parent Topic:**[Customizing the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customizing-sales-process-dashboard.md)
+**Parent Topic:**[Customizing the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customizing-sales-process-dashboard.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Roles required for Engagement project planning for Project Portfolio Management
 description: The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement and provides planning features for resource planning, cost planning, and more.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/Engagement-project-roles-ppm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/Engagement-project-roles-ppm.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -72,10 +72,10 @@ Users can enter the project budget, move projects, calculate completion estimate
 -   Users need project\_manager role to be able to calculate completion estimates, and move project. If a user role is being added manually, use the it\_project\_manager role instead of project\_manager role.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-reference.md)
+</table>**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-management-reference.md)
 
 **Related topics**  
 
 
-[Roles required for Advanced planning capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.md)
+[Roles required for Advanced planning capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.md)
 

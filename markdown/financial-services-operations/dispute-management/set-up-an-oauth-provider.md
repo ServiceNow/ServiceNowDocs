@@ -2,7 +2,7 @@
 title: Set up an OAuth Provider
 description: Configure an OAuth provider to enable secure authentication between ServiceNow and a third-party tokenizer service for Card Data Security. This setup establishes the necessary connection credentials and JWT configuration required for secure data tokenization operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-an-oauth-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/set-up-an-oauth-provider.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +23,7 @@ Role required: admin
 
 This task requires the following:
 
--   A JWT provider created for Card Data Security. See [Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-provider.md) for more information.
+-   A JWT provider created for Card Data Security. See [Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/set-up-a-jwt-provider.md) for more information.
 -   The credentials JSON file obtained from the tokenizer service.
 
 ## Procedure
@@ -65,5 +65,5 @@ The JWT provider record is created.
 
 ## What to do next
 
-[Set up the Connection &amp; Credential records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-the-vault-api-connection.md).
+[Set up the Connection &amp; Credential records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/set-up-the-vault-api-connection.md).
 

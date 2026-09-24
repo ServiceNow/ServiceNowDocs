@@ -2,7 +2,7 @@
 title: Business Location 360 components
 description: Customer service agents can resolve reported business location issues by using different components on the Business Location 360 page in the Customer Service Management \(CSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ui-components-under-business-location-360.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ui-components-under-business-location-360.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -159,11 +159,11 @@ The following example shows a list of the consumers that are associated with a b
 **Related topics**  
 
 
-[Using Business Location 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-the-business-location-360.md)
+[Using Business Location 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-the-business-location-360.md)
 
-[Access Business Location 360 as a customer service agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-business-location-360-as-agents.md)
+[Access Business Location 360 as a customer service agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/access-business-location-360-as-agents.md)
 
-[Access Business Location 360 as a customer service manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-business-location-360-as-csm-managers.md)
+[Access Business Location 360 as a customer service manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/access-business-location-360-as-csm-managers.md)
 
-[Access Business Location 360 as a location service agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-bl-360-as-loc-serv-agent.md)
+[Access Business Location 360 as a location service agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/access-bl-360-as-loc-serv-agent.md)
 

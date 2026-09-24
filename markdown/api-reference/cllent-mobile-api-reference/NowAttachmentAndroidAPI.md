@@ -2,7 +2,7 @@
 title: NowAttachment class - Android
 description: The NowAttachment class provides an object that contains an attachment and its associated metadata.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowAttachmentAndroidAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowAttachmentAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -19,7 +19,7 @@ The NowAttachment class provides an object that contains an attachment and its a
 |Name|Type|Description|
 |----|----|-----------|
 |data|Data|Attachment data/file.|
-|metadata|[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataAndroidAPI.md)|Metadata associated with the attachment.|
+|metadata|[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataAndroidAPI.md)|Metadata associated with the attachment.|
 
-**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

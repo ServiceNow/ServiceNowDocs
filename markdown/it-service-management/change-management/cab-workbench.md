@@ -2,7 +2,7 @@
 title: Change Advisory Board \(CAB\) workbench
 description: The Change Advisory Board \(CAB\) workbench enables a CAB manager to schedule, plan, and manage CAB meetings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/cab-workbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/cab-workbench.html
 release: australia
 product: Change Management
 classification: change-management
@@ -49,5 +49,5 @@ The CAB workbench assists you in managing CAB meetings in the following ways:
 
 The CAB Definition \(cab\_definition\) table inherits the domain properties from the Schedule \(cmn\_schedule\) table which has the Domain and Domain path columns. As the CAB Definition table makes use of the same Child Schedule and Schedule Entry tables as the Schedule table, domain support is identical, where the domain\_master attribute is used to derive Domain from a parent record. For more information, refer [Domain support for schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-support-for-schedules.md) .
 
-**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/exploring-change-management.md)
+**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 

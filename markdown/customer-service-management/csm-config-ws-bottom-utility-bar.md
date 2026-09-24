@@ -2,7 +2,7 @@
 title: Workspace dock
 description: The dock is a bar at the bottom of the workspace where agents can see drafts of current comments, work notes, or emails at a glance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-bottom-utility-bar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-ws-bottom-utility-bar.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,5 +24,5 @@ The dock can also include actions such as **Manage** and **Save**.
 
 **Note:** Depending on the record page configuration, action buttons can appear in the dock or at the top of the page in the action bar.
 
-The dock is a UI element that appears at the bottom of the workspace and is available on all of the CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md).
+The dock is a UI element that appears at the bottom of the workspace and is available on all of the CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-record-pages.md).
 

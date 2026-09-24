@@ -2,7 +2,7 @@
 title: Configure the Preliminary Verification Checklist UI in Social Benefits Playbook
 description: Configure the preliminary verification checklist to determine if an applicant is eligible to begin an application for one or more social benefits.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-configure-preliminary-verification-ui-sbp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-configure-preliminary-verification-ui-sbp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

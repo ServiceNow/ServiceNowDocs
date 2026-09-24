@@ -2,7 +2,7 @@
 title: Create an API connector with generative AI
 description: Use the SPC Setup Connector skill to automatically complete configuration steps 3-5 in the Connector builder in the Security Posture Control Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/select-api-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/select-api-template.html
 release: australia
 topic_type: task
 last_updated: "2026-07-31"
@@ -18,11 +18,11 @@ Use the SPC Setup Connector skill to automatically complete configuration steps 
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-The SPC Setup Connector skill is included with ServiceNow Otto for Unified Security Exposure Management and the skill is activated by default. For more information about configuring this skill, see [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-skills-now-assist-vulnerability-response.md).
+The SPC Setup Connector skill is included with ServiceNow Otto for Unified Security Exposure Management and the skill is activated by default. For more information about configuring this skill, see [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/activate-skills-now-assist-vulnerability-response.md).
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-Complete steps 1 and 2 in the workspace before invoking the SCP Setup Connector skill. See [Enter metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-sgc-template-stepper1.md) and [Create connector alias and connection credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-sgc-template-stepper2.md).
+Complete steps 1 and 2 in the workspace before invoking the SCP Setup Connector skill. See [Enter metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-sgc-template-stepper1.md) and [Create connector alias and connection credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-sgc-template-stepper2.md).
 
 Role required: admin
 
@@ -67,7 +67,7 @@ You might prefer to use this field if the API page has too many details, if it's
 
     The AI skill automatically selects a template, provides input parameters, tests the API connection, and maps parameters.
 
-    The AI skill generates a response sample and schema based on the API documentation you provided. Verify the sample response, schema, and mapping for accuracy before you [validate your connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-sgc-validate-api-connector.md) and publish it.
+    The AI skill generates a response sample and schema based on the API documentation you provided. Verify the sample response, schema, and mapping for accuracy before you [validate your connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-sgc-validate-api-connector.md) and publish it.
 
     **Important:**
 
@@ -102,10 +102,10 @@ You might prefer to use this field if the API page has too many details, if it's
 
     This sample data is aggregated, and the mapping is editable. You can create custom attributes for your SPC policies as needed.
 
-    For more information about mapping that includes combining values to populate a single field, see [Map response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-sgc-stepper-5.md) in the Security Posture Control product documentation.
+    For more information about mapping that includes combining values to populate a single field, see [Map response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-sgc-stepper-5.md) in the Security Posture Control product documentation.
 
-9.  See [Validate your connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-sgc-validate-api-connector.md) in the Security Posture Control product documentation for information about the validation step, publishing your connector, and completing the process.
+9.  See [Validate your connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-sgc-validate-api-connector.md) in the Security Posture Control product documentation for information about the validation step, publishing your connector, and completing the process.
 
 
-**Parent Topic:**[Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-api-connector.md)
+**Parent Topic:**[Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-now-assist-api-connector.md)
 

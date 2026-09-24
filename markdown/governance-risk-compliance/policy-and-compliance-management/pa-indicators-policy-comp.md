@@ -2,7 +2,7 @@
 title: Monitor controls using GRC Performance Analytics Indicators
 description: You can link Policy and Compliance Management content and items to Performance Analytics indicators, breakdowns, and thresholds. You can associate Performance Analytics indicators with control objectives and controls to view scorecards and trends and analyze current conditions and trends.The GRC: Performance Analytics Integration plugin provides an integration between Performance Analytics and the Risk Management and Policy and Compliance Management applications. This plugin provides more insight into organizational risk and compliance performance.You can associate Performance Analytics indicators with risk statements and policy statements to analyze trends related to the risk or policy.You can associate Performance Analytics indicators with risks and controls to analyze trends related to the entity that risk or control belongs to.You can update all the items belonging to a GRC content record so each item is individually related to the PA indicator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/pa-indicators-policy-comp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/pa-indicators-policy-comp.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -35,7 +35,7 @@ There are two reports for the reporting of breaches:
 -   Risk PA Indicator Breaches
 -   Control PA Indicator Breaches
 
-**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 
 ## Activate GRC: Performance Analytics Integration
 

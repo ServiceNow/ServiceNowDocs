@@ -2,7 +2,7 @@
 title: Work with Location Directory for Now Mobile app
 description: Work with Map view and Card view on the Location directory. Search for employees, locations, and neighborhoods. Filter spaces based on reservation status, occupancy status, and space types. Get directions to a workplace location or collaborators or a workplace profile user using floor maps. Reserve a space or raise a workplace service request or an issue for a location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/view-location-directory-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-service-delivery-for-mobile/view-location-directory-mobile.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -39,7 +39,7 @@ Make sure that the following applications are configured:
 -   Control the Map display setting options to display permanent and private workplace profile users.
 -   Show or hide neighborhoods for a location.
 
-For more information, see [Configure map properties for Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-map-config-properties-loc-directory.md)
+For more information, see [Configure map properties for Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-map-config-properties-loc-directory.md)
 
 Role required: sn\_wsd\_core.workplace\_user \(workplace\_user\)
 
@@ -219,7 +219,7 @@ Role required: sn\_wsd\_core.workplace\_user \(workplace\_user\)
 
     -   Neighborhood: Option to enable and view designated neighborhoods for a selected location.
 
-        **Note:** Option to show or hide a neighborhood for a location is dependent on a map property configuration \[sn\_wsd\_space\_map.display\_neighborhood\_on\_the\_map\] set by your administrator. For more information, see [Configure map properties for Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-map-config-properties-loc-directory.md).
+        **Note:** Option to show or hide a neighborhood for a location is dependent on a map property configuration \[sn\_wsd\_space\_map.display\_neighborhood\_on\_the\_map\] set by your administrator. For more information, see [Configure map properties for Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-map-config-properties-loc-directory.md).
 
     \[Omitted image "wsd-nav-drawer-mobile-neighborhood-enabled-new-loc-dir.jpeg"\] Alt text: Navigation bar showing option to enable neighborhood on Now Mobile.
 
@@ -291,9 +291,9 @@ Role required: sn\_wsd\_core.workplace\_user \(workplace\_user\)
     -   Copy URL: Option to share the space location URL link and share it with your team members.
     -   Raise an Issue: Option to raise a workplace service request. This option is available in the More actions option only for a space that can be booked or reserved. In case if a space is already reserved or not available, then the Raise an issue option is available as a button in the space card.
 
-**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
+**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
 
-**Previous topic:**[Scan the QR code to reserve a space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/scan-qr-code.md)
+**Previous topic:**[Scan the QR code to reserve a space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/scan-qr-code.md)
 
-**Next topic:**[Workplace Service Delivery for Mobile references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-references.md)
+**Next topic:**[Workplace Service Delivery for Mobile references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-references.md)
 

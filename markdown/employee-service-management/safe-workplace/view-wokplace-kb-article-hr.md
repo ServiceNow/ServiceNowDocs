@@ -2,7 +2,7 @@
 title: View workplace knowledge base articles
 description: View workplace-related updates, processes, and other information in the knowledge base articles that your team created. Rate articles that you find useful.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/view-wokplace-kb-article-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/view-wokplace-kb-article-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace

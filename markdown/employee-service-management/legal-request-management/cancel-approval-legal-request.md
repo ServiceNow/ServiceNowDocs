@@ -2,7 +2,7 @@
 title: Cancel an ad hoc approval for a legal request
 description: Cancel an ad hoc approval for a legal request if it no longer requires any action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/cancel-approval-legal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/cancel-approval-legal-request.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -34,15 +34,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d561107e102">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d561111e102">
 
 Option
 
-</th><th align="left" id="d561107e105">
+</th><th align="left" id="d561111e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d561107e111">
+</th></tr></thead><tbody><tr><td id="d561111e111">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d561107e140">
+</td></tr><tr><td id="d561111e140">
 
 **As a collaborator**
 
@@ -76,5 +76,5 @@ The state of the legal request is Work in progress and the document is Legal rev
 
 The approval record is canceled and its state updates to Cancelled and comments are added to the approval record. If the approval was requested from a user group, then the corresponding approval records for all users in the user group are canceled.
 
-**Parent Topic:**[Initiate an ad hoc approval for a legal request or its attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/initiate-approval-legal-request.md)
+**Parent Topic:**[Initiate an ad hoc approval for a legal request or its attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/initiate-approval-legal-request.md)
 

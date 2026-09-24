@@ -2,7 +2,7 @@
 title: Working with Actions on the Investigation Canvas
 description: This section describes the various actions that you can perform on the investigation canvas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-canvas-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-canvas-actions.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -322,5 +322,5 @@ Other Actions
 Actions such as removing a node or modifying edges follow all grouping rules and behaviors.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
+</table>**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

@@ -2,7 +2,7 @@
 title: Configure provider routing rules
 description: Provider Routing Rules determine which workplace cases and tasks are sent to which FM providers. Rules use standard ServiceNow condition builders to evaluate case attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/Configure-facilities-management-provider-routing-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/Configure-facilities-management-provider-routing-rules.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management

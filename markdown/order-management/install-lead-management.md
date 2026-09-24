@@ -2,7 +2,7 @@
 title: Install Lead Management
 description: If you have the admin role, you can install the Lead Management application. The application includes the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-lead-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-lead-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,7 +73,7 @@ Description
 
 </td><td>
 
-Load the demo data after installing [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md).1.  Install Lead Management.
+Load the demo data after installing [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md).1.  Install Lead Management.
 2.  Navigate to the **All** and in the Filter, type `v_plugin.list`.
 3.  In the **System Plugin** list, search for Lead Management data model \(sn\_l2c\_lead\_mgmt\_data\_model\) plugin.
 4.  In the System **Plugin Lead Management data model** window, under Related Links, select **Install Demo Data Only**.
@@ -84,7 +84,7 @@ Load the demo data after installing [Opportunity Management](https://raw.githubu
 **Related topics**  
 
 
-[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-using.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management.md)
 

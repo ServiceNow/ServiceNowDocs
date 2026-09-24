@@ -2,7 +2,7 @@
 title: Configure the Telecommunications Customer 360 variables
 description: Configure the properties for each card, such as data tables, query conditions, and display fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-configure-variables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-configure-variables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,18 +14,18 @@ breadcrumb: [Setup, Configure, Telecommunications Customer 360, Telecommunicatio
 
 Configure the properties for each card, such as data tables, query conditions, and display fields.
 
--   **[Configure the data visualization group variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-data-card.md)**  
+-   **[Configure the data visualization group variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-data-card.md)**  
 Configure the variables in the data visualization card.
--   **[Configure the contact card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-contact-card.md)**  
+-   **[Configure the contact card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-contact-card.md)**  
 Configure the variables in the contact card.
--   **[Configure the billing card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-billing-card.md)**  
+-   **[Configure the billing card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-billing-card.md)**  
 Configure the variables in the billing card.
--   **[Configure the insights card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-insights-card.md)**  
+-   **[Configure the insights card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-insights-card.md)**  
 Configure the variables in the insights card.
--   **[Configure the products card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-products-card.md)**  
+-   **[Configure the products card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-products-card.md)**  
 Configure the variables that control what data the products card displays and how users can search and filter sold products.
--   **[Configure the all tasks card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-tasks-card.md)**  
+-   **[Configure the all tasks card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-tasks-card.md)**  
 Configure the variables in the all tasks card.
 
-**Parent Topic:**[Setup Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecom-cust-360-landing.md)
+**Parent Topic:**[Setup Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/telecom-cust-360-landing.md)
 

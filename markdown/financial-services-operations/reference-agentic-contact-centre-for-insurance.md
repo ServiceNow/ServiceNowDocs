@@ -2,7 +2,7 @@
 title: Agentic Contact Center for Insurance reference
 description: Learn about the components and properties that are installed with Agentic Contact Center for Insurance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/reference-agentic-contact-centre-for-insurance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/reference-agentic-contact-centre-for-insurance.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-27"
@@ -15,8 +15,8 @@ breadcrumb: [Agentic Contact Center for Insurance, Insurance applications, Finan
 
 Learn about the components and properties that are installed with Agentic Contact Center for Insurance.
 
--   **[Components installed with Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-with-agentic-contact-centre-for-insurance.md)**  
+-   **[Components installed with Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/components-installed-with-agentic-contact-centre-for-insurance.md)**  
 Review the roles and other components installed when you activate Agentic Contact Center for Insurance.
 
-**Parent Topic:**[Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/landing-agentic-contact-centre-for-insurance.md)
+**Parent Topic:**[Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/landing-agentic-contact-centre-for-insurance.md)
 

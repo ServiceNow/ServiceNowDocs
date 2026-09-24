@@ -2,7 +2,7 @@
 title: An overview of policy life cycle in Policy and Compliance Management
 description: Policies ensure compliance and reduce exposure to risks. A policy can be of any type – it can be a policy, procedure, standard, plan, checklist, framework, or template. Publishing a policy is within its approval process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/pc-policy-life-cycle-ovrvw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/pc-policy-life-cycle-ovrvw.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

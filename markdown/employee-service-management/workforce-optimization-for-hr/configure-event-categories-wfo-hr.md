@@ -2,7 +2,7 @@
 title: Configure event categories
 description: Add event categories and create or update field configurations for events in the Manager workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/configure-event-categories-wfo-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/configure-event-categories-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -103,5 +103,5 @@ The following event category configurations are available by default:
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)
+**Parent Topic:**[Configure Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)
 

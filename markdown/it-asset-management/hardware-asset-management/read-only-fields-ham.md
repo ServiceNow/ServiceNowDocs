@@ -2,7 +2,7 @@
 title: Read-only and client script modifiable fields in HAM tables
 description: Comprehensive reference of HAM table fields that are restricted from UI editing and those which can be modified using client scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/read-only-fields-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/read-only-fields-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -1049,5 +1049,5 @@ Hardware
 Failure risk score \[risk\_score\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

@@ -2,7 +2,7 @@
 title: Simple filters
 description: Simple filters are available for the Workbench and the floor plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_SimpleFilters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_SimpleFilters.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -70,7 +70,7 @@ Zones
 Lists zones queried from the tables that extend or include \[fm\_m2m\_space\_to\_zone\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Map filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_MapFilters.md)
+</table>**Parent Topic:**[Map filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_MapFilters.md)
 
 **Related topics**  
 

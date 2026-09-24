@@ -2,7 +2,7 @@
 title: Define style rules from Change Schedule Definitions
 description: You can define style rules from change schedule definitions when you want the style rules to be applied to the change schedule related to the change schedule definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/def-stl-rules-from-chng-sch-def.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/def-stl-rules-from-chng-sch-def.html
 release: australia
 product: Change Management
 classification: change-management
@@ -104,7 +104,7 @@ Color of the schedule span displayed for each record on the timeline that matche
     **Note:** Style rules that you create from a change schedule definition take precedence over the style rules that exist in the base style rule table \[chg\_soc\_style\_rule\].
 
 
-**Parent Topic:**[Style rules definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/style-rules-definition.md)
+**Parent Topic:**[Style rules definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/style-rules-definition.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: MID Server properties used by Service Mapping
 description: Service Mapping uses the MID Server parameters during discovery and mapping. Do not change default values for these parameters unless you are troubleshooting the discovery process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/mid-server-properties-service-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/mid-server-properties-service-mapping.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -667,5 +667,5 @@ OID indicating the Failed status. If an SNMP result starts with this OID, the MI
 -   **Location:** This property is not available in the base system. You can add the property as described in [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
+</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-reference.md)
 

@@ -2,7 +2,7 @@
 title: Open a different functional location
 description: Switch to a functional location that is not on the current breadcrumb trail by opening the list of functional locations within your entitlement scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/open-different-functional-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/open-different-functional-location.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -38,5 +38,5 @@ Role required: sn\_icw.user
     The view refreshes and the selected functional location is used as the active context. The breadcrumb trail updates to show the equipment model hierarchy path for the selected functional location.
 
 
-**Parent Topic:**[Functional location vertical navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-vertical-navigation.md)
+**Parent Topic:**[Functional location vertical navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/functional-location-vertical-navigation.md)
 

@@ -2,7 +2,7 @@
 title: Submit a review request from Service Catalog
 description: Submit a review request using the ServiceNow Service Catalog form to request for reviews to review automations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/review-service-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/review-service-catalog.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -26,10 +26,10 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 2.  On the form, fill in the fields.
 
-    For a description of the field values, see [Submit an Automation Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/submit-automation-request-form.md).
+    For a description of the field values, see [Submit an Automation Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/submit-automation-request-form.md).
 
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Creating a review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-review-request.md)
+**Parent Topic:**[Creating a review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/creating-review-request.md)
 

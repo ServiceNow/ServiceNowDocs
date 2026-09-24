@@ -2,7 +2,7 @@
 title: Configure the graph questionnaire ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 description: Configure the graph questionnaire to add or modify the new queries to retrieve the knowledge graph data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

@@ -2,7 +2,7 @@
 title: Customize Next Experience keyboard shortcuts
 description: Customize Next Experience keyboard shortcuts to streamline your workflow and boost productivity. Keyboard shortcuts can also improve accessibility by reducing reliance on cursor navigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/customize-keyboard-shortcuts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/customize-keyboard-shortcuts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Dispute Management dashboard
 description: With the Dispute Management dashboard, you can get an insight into how your team and business are performing for the card service requests that were received for your financial services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/card-operations-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/card-operations-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

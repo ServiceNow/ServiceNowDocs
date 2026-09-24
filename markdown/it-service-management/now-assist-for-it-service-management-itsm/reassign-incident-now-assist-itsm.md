@@ -2,7 +2,7 @@
 title: Summarize an incident when reassigning it by using ServiceNow Otto for IT Service Management \(ITSM\)
 description: Provide information about the incident when assigning it to another agent or assignment group by summarizing all actions until hand off. For example, an agent can summarize an incident when reassigning it to another agent if the incident is incorrectly assigned or needs troubleshooting by another agent or assignment group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/reassign-incident-now-assist-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/reassign-incident-now-assist-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -31,15 +31,15 @@ You can reassign an incident in Core UI and Service Operations Workspace for ITS
 
 2.  Perform one of the following steps.
 
-<table id="choicetable_ftd_4w2_lzb"><thead><tr><th align="left" id="d102282e106">
+<table id="choicetable_ftd_4w2_lzb"><thead><tr><th align="left" id="d102281e106">
 
 Option
 
-</th><th align="left" id="d102282e109">
+</th><th align="left" id="d102281e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d102282e115">
+</th></tr></thead><tbody><tr><td id="d102281e115">
 
 **From the Overview tab of an incident in Service Operations Workspace for ITSM**
 
@@ -47,7 +47,7 @@ Description
 
 Select **Reassign**.
 
-</td></tr><tr><td id="d102282e132">
+</td></tr><tr><td id="d102281e132">
 
 **From the Details tab of an incident in Service Operations Workspace for ITSM**
 
@@ -57,7 +57,7 @@ Select **Reassign**.
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d102282e164">
+</td></tr><tr><td id="d102281e164">
 
 **Core UI**
 

@@ -2,7 +2,7 @@
 title: Service Graph Connector Integration for Claroty CTD
 description: Integrate Claroty Continuous Threat Detection \(CTD\) with the ServiceNow Operational Technology Manager application to import detected devices and Claroty CTD sites \(sensor or Network Intrusion Detection System appliances\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/sgc-cmdb-integration-claroty-ctd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/sgc-cmdb-integration-claroty-ctd.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -42,7 +42,7 @@ The following figure shows the detection method for importing Claroty CTD data i
 
 ## Guided setup
 
-The guided setup for the Service Graph Connector Integration for Claroty CTD provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-sgc-claroty-ctd-guided-setup.md).
+The guided setup for the Service Graph Connector Integration for Claroty CTD provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-sgc-claroty-ctd-guided-setup.md).
 
 ## CMDB integrations dashboard
 
@@ -72,7 +72,7 @@ The imported data from the staging tables is then inserted into the following ta
 -   OT Control System \[cmdb\_ci\_ot\_control\]
 -   Serial Number \[cmdb\_serial\_number\]
 
-For more information, see [CMDB classes targeted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-claroty-ctd-classes.md).
+For more information, see [CMDB classes targeted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/sgc-claroty-ctd-classes.md).
 
 ## Default query parameters for the Service Graph Connector Integration for Claroty CTD
 
@@ -87,14 +87,14 @@ When you begin importing the data from the Claroty CTD, the Service Graph Connec
 |special\_hint\_exact|0|Address types that aren’t set to 0 \(unicast\) on the Claroty CTD aren’t imported.|
 |ghost\_exact|false|If there’s an device on the Claroty CTD that is classified as a ghost, the Service Graph Connector Integration for Claroty CTD doesn’t import it because the default value is set to false.|
 
--   **[Configure the Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-sgc-claroty-ctd-guided-setup.md)**  
+-   **[Configure the Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-sgc-claroty-ctd-guided-setup.md)**  
 Use the guided setup for Service Graph Connector Integration for Claroty CTD to lead you through the integration steps.
--   **[Validate NIDS sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/validate-nids-appliances-sgc-claroty.md)**  
+-   **[Validate NIDS sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/validate-nids-appliances-sgc-claroty.md)**  
 Validate the Network IDS \(NIDS\) sensors once they're imported to prepare for device import. The sensors can only pass the validation if they aren't in learning mode as such sensors aren't eligible for device import.
--   **[Accessing the connection details of the Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-cmdb-claroty-ctd-conn.md)**  
+-   **[Accessing the connection details of the Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/sgc-cmdb-claroty-ctd-conn.md)**  
 You can access the connection details of the Service Graph Connector Integration for Claroty CTD in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.
--   **[CMDB classes targeted in the Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-claroty-ctd-classes.md)**  
+-   **[CMDB classes targeted in the Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/sgc-claroty-ctd-classes.md)**  
 When you complete the setup tasks, you can configure the integration periodically to pull data from Claroty CTD. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 
-**Parent Topic:**[Operational Technology Manager Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/otm_integrations.md)
+**Parent Topic:**[Operational Technology Manager Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/otm_integrations.md)
 

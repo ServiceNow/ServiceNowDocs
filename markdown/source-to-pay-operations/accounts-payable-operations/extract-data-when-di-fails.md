@@ -2,7 +2,7 @@
 title: Extract data when Document Intelligence fails
 description: Manually create an invoice for processing when Document Intelligence fails to process the ingestion task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/extract-data-when-di-fails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/extract-data-when-di-fails.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,7 +31,7 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
+    You can create an invoice manually. For more information on invoices, see [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 4.  Select **View invoice processing case**.
 
@@ -45,7 +45,7 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
     **Note:** You can choose to close the case if you do not want to proceed.
 
-    For more information on manual creation of invoices, see [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md)
+    For more information on manual creation of invoices, see [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md)
 
 7.  Select **Review header details** to populate the header fields.
 
@@ -56,5 +56,5 @@ Role required: Accounts Payable admin, Accounts Payable specialist
     If no further processing is required, then you can close the invoice case. A pop-up window prompts you to enter the reason for closing the invoice processing case. The playbook is canceled and the supplier is notified about the closure of the invoice processing case. The **Notify supplier** card is activated by default and displays the email sent to the supplier.
 
 
-**Parent Topic:**[Document Intelligence processing with playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-di-with-playbook.md)
+**Parent Topic:**[Document Intelligence processing with playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-di-with-playbook.md)
 

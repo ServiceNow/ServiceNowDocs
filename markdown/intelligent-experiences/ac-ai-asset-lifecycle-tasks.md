@@ -2,7 +2,7 @@
 title: AI asset lifecycle tasks
 description: Advance managed AI assets through controlled stages of governance by completing the reviews, assessments, and approvals that AI asset lifecycle playbooks require.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-ai-asset-lifecycle-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-ai-asset-lifecycle-tasks.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-23"

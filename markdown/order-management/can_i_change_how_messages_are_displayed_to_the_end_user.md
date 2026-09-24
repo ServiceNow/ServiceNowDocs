@@ -2,7 +2,7 @@
 title: Change how messages are displayed to the end user
 description: Control how messages appear in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/can\_i\_change\_how\_messages\_are\_displayed\_to\_the\_end\_user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/can\_i\_change\_how\_messages\_are\_displayed\_to\_the\_end\_user.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -66,7 +66,7 @@ Yes \(Default type\)
 
 </td><td rowspan="3">
 
-Messages are displayed in a summary container above or below the grid, or as a hover tooltip. You can include an optional indicator on the cell. For more information, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layouts-sets.md)
+Messages are displayed in a summary container above or below the grid, or as a hover tooltip. You can include an optional indicator on the cell. For more information, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layouts-sets.md)
 
 </td><td>
 

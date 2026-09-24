@@ -2,7 +2,7 @@
 title: Dynamic Translation properties
 description: Use the Dynamic Translation properties to customize, configure, and control the translation features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/dynamic-translation-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dynamic-translation/dynamic-translation-properties.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -64,7 +64,7 @@ Exclusion Frameworksn\_dt.dynamic\_framework.enable\_exclusion\_framework
 
 </td><td>
 
-Enables [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md) on the instance. Defaults to enabled when Dynamic Translation is activated.
+Enables [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md) on the instance. Defaults to enabled when Dynamic Translation is activated.
 
  On a domain-separated instance, this property applies to all of the domains. It is not possible to enable Exclusion Framework on a per-domain basis.
 
@@ -89,5 +89,5 @@ Enables dynamic translation for messages that contain urls com.glide.cs.dynamic.
 Enables dynamic translation for messages that contain URLs.Installed with the Dynamic Translation for Virtual Agent plugin \(com.glide.cs.dynamic.translation.virtual\_agent\). For information see [Language detection and dynamic translation in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/dynamic-lang-detection-translation-enhanced-chat.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
+</table>**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 

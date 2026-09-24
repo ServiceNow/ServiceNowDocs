@@ -2,7 +2,7 @@
 title: Change the assigned graphics of map pins on the map in Dispatcher Workspace
 description: Customize map pins so your dispatch map shows unique graphics relevant to dispatcher work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/customize-map-pins.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/customize-map-pins.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ You can change map pins related to agents, and task states. You can’t change p
 
 New icon pin graphics should be sized at 54x54 pixels in PNG or SVG format.
 
-For a list of map pins that show on the dispatch map, see [Map iconography in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_DispatcherView.md).
+For a list of map pins that show on the dispatch map, see [Map iconography in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_DispatcherView.md).
 
 ## Procedure
 

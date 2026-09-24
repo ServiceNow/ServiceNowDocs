@@ -2,7 +2,7 @@
 title: Privacy breach assessments
 description: Privacy breach assessments play an important role whenever there is an incident that threatens the privacy of individuals. These assessments help to determine if there is a breach and then serve as a measure to gauge the extent and impact of a breach.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-breach-asmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/privacy-breach-asmt.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace

@@ -2,7 +2,7 @@
 title: Create a chain of custody log for an evidence record in an investigative case
 description: As an investigator or supervisory agent, you can create a Chain of Custody \(CoC\) log within the workspace to keep track of evidence if or when it is transferred or moved.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-icm-create-chain-of-custody-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-icm-create-chain-of-custody-log.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

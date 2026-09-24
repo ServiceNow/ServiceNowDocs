@@ -2,7 +2,7 @@
 title: Create multiple configurations
 description: Create multiple configurations of a child product offering when you're adding a configurable product to an opportunity, quote, or order. You can then configure the product options and characteristics separately for each offering configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-multiple-child-configs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-multiple-child-configs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ If your product catalog admin has enabled multiple configurations for child offe
 -   Customize the options and characteristics for each child offering instance created.
 -   Delete a child offering instance, as long as the minimum number of child offerings defined for the product is maintained.
 
-**Note:** Even when the multiple configurations feature is enabled, there are scenarios in which some configuration options might not be available. The system uses the default, minimum, and maximum quantity values from the product definition to determine valid configurations and then enables or disables the **Split** or **Delete** options for managing child offering configurations. For more information on validation, see [Multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/multiple-child-offering-configurations.md).
+**Note:** Even when the multiple configurations feature is enabled, there are scenarios in which some configuration options might not be available. The system uses the default, minimum, and maximum quantity values from the product definition to determine valid configurations and then enables or disables the **Split** or **Delete** options for managing child offering configurations. For more information on validation, see [Multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/multiple-child-offering-configurations.md).
 
 ## Procedure
 
@@ -102,5 +102,5 @@ Removes an existing child offering instance.
 8.  When you finish configuring the child offerings, select **Add** to add each configuration as a separate line item to your opportunity, quote, or order.
 
 
-**Parent Topic:**[Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-som-product-configurator.md)
+**Parent Topic:**[Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-som-product-configurator.md)
 

@@ -2,7 +2,7 @@
 title: Setting up configurable products
 description: A configurable product links a blueprint to the configuration experience for the product. You can set up configurable products in headless environments using CSV uploads or in Salesforce-integrated environments through product associations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configurable\_products.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configurable\_products.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,9 +34,9 @@ Multiple Salesforce Product2 records can be linked to one blueprint, but a confi
 **Related topics**  
 
 
-[Set up a configurable product in a headless environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-configurable-product-in-a-headless-environment.md)
+[Set up a configurable product in a headless environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-configurable-product-in-a-headless-environment.md)
 
-[Set up a configurable product in a Salesforce-integrated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment.md)
+[Set up a configurable product in a Salesforce-integrated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment.md)
 
-[Set up blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/blueprints_101.md)
+[Set up blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/blueprints_101.md)
 

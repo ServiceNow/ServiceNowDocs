@@ -2,7 +2,7 @@
 title: Microsoft Azure SQL Database Spoke
 description: Configure and manage the Microsoft Azure SQL databases from within the ServiceNow instance. When you install the Microsoft Azure SQL database spoke, you also get the Microsoft Azure SQL Resource Management spoke. The Microsoft Azure Resource Manager provides a management layer that enables you to create, update, and delete the resources in your Microsoft Azure subscription.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/azuresql-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/azuresql-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -72,5 +72,5 @@ Integration Hub uses aliases to manage connection and credential information. Us
 
 ## Set up the Microsoft Azure SQL Database Spoke
 
-To execute the actions of the Microsoft Azure SQL Database Spoke, you must first install and configure the Microsoft Azure Resource Management Spoke. No separate configuration of the Microsoft Azure SQL Database Spoke is necessary. To view the procedure to set up the Microsoft Azure Resource Management Spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-res-mngmt.md).
+To execute the actions of the Microsoft Azure SQL Database Spoke, you must first install and configure the Microsoft Azure Resource Management Spoke. No separate configuration of the Microsoft Azure SQL Database Spoke is necessary. To view the procedure to set up the Microsoft Azure Resource Management Spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-res-mngmt.md).
 

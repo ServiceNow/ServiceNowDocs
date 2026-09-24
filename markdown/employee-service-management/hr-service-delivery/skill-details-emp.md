@@ -2,7 +2,7 @@
 title: Skill details of an employee
 description: Get a deeper understanding of skill details of an employee, proficiency levels, and gaps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/skill-details-emp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/skill-details-emp.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

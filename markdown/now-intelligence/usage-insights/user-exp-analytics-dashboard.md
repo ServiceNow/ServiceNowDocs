@@ -2,7 +2,7 @@
 title: Navigating the Usage Insights application
 description: Understand how to navigate the Usage Insights application, including the All Applications and individual application views.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/user-exp-analytics-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/user-exp-analytics-dashboard.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -18,7 +18,7 @@ Understand how to navigate the Usage Insights application, including the **All A
 
 Users with any Usage Insights viewer role can access the application by navigating to **All** &gt; **Platform Analytics** &gt; **Usage Insights**.
 
-Different users have different rights and privileges in the Usage Insights application. For more information, see [Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/components-installed-user-exp-analytics.md).
+Different users have different rights and privileges in the Usage Insights application. For more information, see [Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/components-installed-user-exp-analytics.md).
 
 ## All Applications view
 
@@ -52,10 +52,10 @@ The Analysis menu items provide access to the Retention, Cohort analysis, Conver
 
 |Module|Description|
 |------|-----------|
-|Retention|Visualize new users and their rates of return and periods between visits. For more information, see [User retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-retention-analytics.md).|
-|Cohort analysis|Create and analyze custom cohorts or groups of users separated from other users by similar traits or actions. Analyze how many users perform specific sequences of actions, and how often they return to perform specified actions over a given time. For more information, see [Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-cohorts.md).|
-|Conversion funnel|Create funnel reports to analyze user completion rates for a specific task. View conversion rates, the number of users progressing from one step to the next and the average time for users to advance to each step and complete the funnel. For more information, see [Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md).|
-|Navigation paths|Visualize users' journeys through your application, discovering the most and least popular paths. For more information, see [Navigation paths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-navigation-paths.md).|
+|Retention|Visualize new users and their rates of return and periods between visits. For more information, see [User retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/view-retention-analytics.md).|
+|Cohort analysis|Create and analyze custom cohorts or groups of users separated from other users by similar traits or actions. Analyze how many users perform specific sequences of actions, and how often they return to perform specified actions over a given time. For more information, see [Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/uxa-cohorts.md).|
+|Conversion funnel|Create funnel reports to analyze user completion rates for a specific task. View conversion rates, the number of users progressing from one step to the next and the average time for users to advance to each step and complete the funnel. For more information, see [Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/funnel-reports-uxa.md).|
+|Navigation paths|Visualize users' journeys through your application, discovering the most and least popular paths. For more information, see [Navigation paths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/view-navigation-paths.md).|
 
 |Module| |
 |------|---|
@@ -113,7 +113,7 @@ Filters
 
 </td><td>
 
-Default filters you can use to limit the data, including Date Range, User type, and location. Use the **Add Filter** option to add more filters to the page. For more information, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/filter-user-list.md).
+Default filters you can use to limit the data, including Date Range, User type, and location. Use the **Add Filter** option to add more filters to the page. For more information, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/filter-user-list.md).
 
 </td></tr><tr><td>
 
@@ -158,5 +158,5 @@ List of pages with the most views and most sessions. Select any entry in the lis
 -   If a country’s tracking consent policy is set to **Disabled**, user metrics are not tracked.
 -   The sampled data represents 5-10% of the total data that is collected in real time.
 
-**Parent Topic:**[Exploring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/exploring-user-exp-analytics.md)
+**Parent Topic:**[Exploring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/exploring-user-exp-analytics.md)
 

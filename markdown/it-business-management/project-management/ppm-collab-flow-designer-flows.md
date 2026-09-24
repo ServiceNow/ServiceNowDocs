@@ -2,7 +2,7 @@
 title: Flows for project synchronization with collaboration tools
 description: Understand the flows designed for the PPM Collaboration application so that you can edit the configurations as required.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/ppm-collab-flow-designer-flows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/ppm-collab-flow-designer-flows.html
 release: australia
 product: Project Management
 classification: project-management
@@ -167,7 +167,7 @@ Posts a message to the project channel or team whenever a Risk with probability 
 
 If you want to update the configuration for any of these flows, you can edit them. For example, if you want to update the time of daily status update from 8:00 AM to 9:00 AM, you can edit the Daily Project Status Slack \[daily\_project\_status\] or Daily Project Status Teams \[daily\_project\_status\_teams\] flow. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-edit.md).
 
-**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 

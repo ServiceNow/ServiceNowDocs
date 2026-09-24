@@ -2,7 +2,7 @@
 title: Use the Get Table component
 description: Extract and display data and the count of rows from the grids, lists, combo boxes, and HTML tables, by using the Get Table component in the RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionsui-get-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-actionsui-get-table.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-Many properties of the Get Table component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-actions-ui-components.md).
+Many properties of the Get Table component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/properties-actions-ui-components.md).
 
 The properties unique to the Get Table component are given.
 
@@ -50,7 +50,7 @@ The properties unique to the Get Table component are given.
 
 7.  Add an anchor to the captured image by doing the following actions:
 
-    An anchor is a unique identifier that enables the Get Table component to identify the application where the component will perform an action. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Get Table component treats the whole captured image as an anchor. To know more about an anchor, see the steps to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    An anchor is a unique identifier that enables the Get Table component to identify the application where the component will perform an action. Although adding an anchor is a good approach, it's optional. If you don't add an anchor, the Get Table component treats the whole captured image as an anchor. To know more about an anchor, see the steps to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/anchor.md).
 
     1.  In the Get Table component, right-click the image and click **Add Anchor**.
 
@@ -80,7 +80,7 @@ The properties unique to the Get Table component are given.
 
     5.  To close the ALTERNATE IMAGES window, click **OK**.
 
-9.  To configure the ways that the output fields show the output, see [Configure output port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-output-port-properties.md).
+9.  To configure the ways that the output fields show the output, see [Configure output port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-output-port-properties.md).
 
 10. Connect the ports as described in the following table.
 
@@ -96,9 +96,9 @@ The properties unique to the Get Table component are given.
 
 \[Omitted image "Actions\_GetTable.PNG"\] Alt text: Extract data from a table to an Excel file.
 
-The Get Table component extracts data from an HTML table and passes the data through the DataTable Data Out port. The data is passed through the Data In port of the WriteToExcel component \(To use the WriteToExcel component, see [Use the WriteToExcel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-datawriter-writetoexcel.md)\). The data is written to the sheet specified in the `SheetName` field of the Excel document specified in the `Filepath` field
+The Get Table component extracts data from an HTML table and passes the data through the DataTable Data Out port. The data is passed through the Data In port of the WriteToExcel component \(To use the WriteToExcel component, see [Use the WriteToExcel component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-datawriter-writetoexcel.md)\). The data is written to the sheet specified in the `SheetName` field of the Excel document specified in the `Filepath` field
 
 .
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/actions-ui.md)
 

@@ -2,7 +2,7 @@
 title: Agentic Contact Center for Banking release notes
 description: The ServiceNow Agentic Contact Center for Banking application provides an AI‑led experience for CSRs \(Customer Services Representatives\) that streamlines front‑office banking operations and reduces the challenges CSRs face when navigating multiple systems. Agentic Contact Center for Banking is a new application in the Australia release.The ServiceNow Agentic Contact Center for Banking application provides an AI‑led experience for CSRs \(Customer Services Representatives\) that streamlines front‑office banking operations and reduces the challenges CSRs face when navigating multiple systems. Agentic Contact Center for Banking is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/agentic-contact-center-for-banking-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/agentic-contact-center-for-banking-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -32,10 +32,10 @@ See [Agentic Contact Center for Banking](https://raw.githubusercontent.com/Servi
 
 -   **Additional requirements**
 
-    This application is dependent on ServiceNow Otto for Financial Services Operations \(FSO\). For more information, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
+    This application is dependent on ServiceNow Otto for Financial Services Operations \(FSO\). For more information, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-for-financial-services-operations-rn.md).
 
 
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
 
 ## Australia
 

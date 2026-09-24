@@ -2,7 +2,7 @@
 title: Set up the Agent Client Collector spoke
 description: Integrate the ServiceNow Agent Client Collector framework and Agent Client Collector spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-acc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-acc.html
 release: australia
 product: Integration Hub
 classification: integration-hub

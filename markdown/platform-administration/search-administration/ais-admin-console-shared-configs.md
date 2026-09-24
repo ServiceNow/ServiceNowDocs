@@ -2,14 +2,14 @@
 title: AI Search Admin console Shared Configurations page
 description: This page is where you view and manage all configurations shared by AI Search and other applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-admin-console-shared-configs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-admin-console-shared-configs.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI Search Admin console reference, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -73,5 +73,5 @@ All Shared Configurations tables use the same controls to manage their entries.
 |New|Button to create a record.|
 |Delete|Button to delete records. Select one or more entries before selecting **Delete**|
 
-For further information on using these tables, see [Create an AI Search configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-create-config.md).
+For further information on using these tables, see [Create an AI Search configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-create-config.md).
 

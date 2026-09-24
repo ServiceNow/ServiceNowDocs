@@ -2,7 +2,7 @@
 title: Configure alert notifications for an instance
 description: Set up a basic integration between Instance Observer \(IO\) and ServiceNow to route IO alert notifications to a ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-receive-notification-customer-conf-webhook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-receive-notification-customer-conf-webhook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -167,5 +167,5 @@ For more information, see [Create a scripted REST API](https://raw.githubusercon
         2.  As Notifications from \[Omitted image "io-bell-icon.png"\] Alt text: bell icon. Select **View Notification History** and filter with `Integration Failed`.
         3.  As an email notification with the integration name, error number, and the message.
 
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-alerts-intro.md)
 

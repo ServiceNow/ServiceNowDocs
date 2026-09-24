@@ -2,7 +2,7 @@
 title: Create a project cost plan
 description: Create a cost plan to specify the unit cost of a cost type for a fiscal period. Project cost plans capture the costs of projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateAProjectCostPlan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_CreateAProjectCostPlan.html
 release: australia
 product: Project Management
 classification: project-management
@@ -24,7 +24,7 @@ Application required: Project Portfolio Management with Financials
 
 ## About this task
 
-The application automatically creates [cost plan breakdown records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-breakdown.md) when you save the cost plan. Cost plans can also have associated [expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAExpenseLine.md).
+The application automatically creates [cost plan breakdown records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/cost-plan-breakdown.md) when you save the cost plan. Cost plans can also have associated [expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAExpenseLine.md).
 
 **Note:** Cost plans are automatically created for resource plans that are associated to projects and project tasks.
 
@@ -42,9 +42,9 @@ To use multiple currencies, create a new cost plan for another currency.
 
 4.  On the form, fill in the fields.
 
-    For field information, see [Cost Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-form-project-management.md).
+    For field information, see [Cost Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/cost-plan-form-project-management.md).
 
-    **Note:** When you [change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-planned-start-date-of-project.md), the associated cost plans and resource plan also change. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** controls the behavior for project start date change.
+    **Note:** When you [change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/change-planned-start-date-of-project.md), the associated cost plans and resource plan also change. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** controls the behavior for project start date change.
 
 5.  Select **Submit**.
 
@@ -53,14 +53,14 @@ To use multiple currencies, create a new cost plan for another currency.
 
 To recalculate the values in the **Estimate at Completion** field, use the **Calculate Estimate at Completion** related link. To view the cost plan breakdowns, select the **Cost Plan Breakdowns** related list.
 
--   **[Update a cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-cost-plan-breakdown.md)**  
+-   **[Update a cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/update-cost-plan-breakdown.md)**  
 Update a cost plan breakdown record that specifies the estimated and actual cost, at a granular level, for specific fiscal periods.
--   **[Enable cost rollup calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_EnablingCostRollupCalculations.md)**  
+-   **[Enable cost rollup calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_EnablingCostRollupCalculations.md)**  
 Enable rollup calculations from the project properties.
--   **[View actual project costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ViewActualProjectCosts.md)**  
+-   **[View actual project costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_ViewActualProjectCosts.md)**  
 When you are using Project Portfolio Management with Financials, you can view actual project costs on cost plans and projects.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -109,9 +109,9 @@ When you are using Project Portfolio Management with Financials, you can view ac
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-breakdown.md)
+[Cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/cost-plan-breakdown.md)
 
-[Update a cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-cost-plan-breakdown.md)
+[Update a cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/update-cost-plan-breakdown.md)
 
-[System-generated cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-breakdown.md)
+[System-generated cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/cost-plan-breakdown.md)
 

@@ -2,7 +2,7 @@
 title: Reconcile changes
 description: Reconciling first compares the local instance to the parent, and then generates the list of local changes and calculates the number of changes that are ready to pull from the parent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_Reconcile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/t\_Reconcile.html
 release: australia
 product: Team Development
 classification: team-development
@@ -46,8 +46,8 @@ A reconcile occurs automatically whenever you select a parent instance. You may 
 
 5.  Click **Team Dashboard**.
 
-6.  [Pull versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_PullAVersion.md) from the parent instance and then [resolve any collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_ResolveACollision.md).
+6.  [Pull versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_PullAVersion.md) from the parent instance and then [resolve any collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_ResolveACollision.md).
 
-7.  Review the local changes list and [queue or ignore changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_QueueALocalChangeForAPush.md), as appropriate.
+7.  Review the local changes list and [queue or ignore changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_QueueALocalChangeForAPush.md), as appropriate.
 
 

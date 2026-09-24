@@ -2,7 +2,7 @@
 title: Install Service Exchange Order Management for Providers
 description: You can install the Service Exchange Order Management for Providers application \(sn\_sb\_pro\) if you have the admin role.The application includes demo data and installs related ServiceNow Store applications and plugins if they're not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-service-bridge-om-providers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-service-bridge-om-providers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

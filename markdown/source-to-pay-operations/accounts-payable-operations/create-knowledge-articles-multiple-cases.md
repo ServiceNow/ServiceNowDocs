@@ -2,7 +2,7 @@
 title: Generate a knowledge article from multiple cases
 description: Use ServiceNow Otto to generate a single knowledge article from multiple closed cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-knowledge-articles-multiple-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/create-knowledge-articles-multiple-cases.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations

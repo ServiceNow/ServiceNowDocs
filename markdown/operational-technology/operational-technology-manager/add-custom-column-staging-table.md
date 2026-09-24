@@ -2,7 +2,7 @@
 title: Add a custom column to the staging table
 description: Add a custom column to the SG OT Excel Stagings table to store an additional value imported from the Microsoft Excel spreadsheet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/add-custom-column-staging-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/add-custom-column-staging-table.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -68,12 +68,12 @@ The column you created is now available in the SG OT Excel Stagings table.
 
 ## What to do next
 
-Add a matching column to the SG-OT Excel Staging Import \[sn\_otsm\_sgc\_sg\_ot\_excel\_pre\_import\] table so the imported value has a source field to map from. For more information, see [Add a matching column to the pre-import table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-column-pre-import-table.md).
+Add a matching column to the SG-OT Excel Staging Import \[sn\_otsm\_sgc\_sg\_ot\_excel\_pre\_import\] table so the imported value has a source field to map from. For more information, see [Add a matching column to the pre-import table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/add-column-pre-import-table.md).
 
--   **[Add a matching column to the pre-import table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-column-pre-import-table.md)**  
+-   **[Add a matching column to the pre-import table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/add-column-pre-import-table.md)**  
 Add a column to the SG-OT Excel Pre Import table that matches the custom column on the staging table, giving the imported value a source field for mapping.
--   **[Map the custom field in the transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/map-custom-field-transform.md)**  
+-   **[Map the custom field in the transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/map-custom-field-transform.md)**  
 Map the custom source field on the pre-import table to the target field on the sta table so the imported value transforms into the correct staging column.
 
-**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
+**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

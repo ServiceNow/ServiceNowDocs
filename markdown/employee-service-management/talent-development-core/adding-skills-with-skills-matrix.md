@@ -2,7 +2,7 @@
 title: Add more skills to a role group
 description: Add new skills at each role level in a role group that were not added when creating the role group using the Skills Matrix in the Skills Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/adding-skills-with-skills-matrix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/adding-skills-with-skills-matrix.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -47,7 +47,7 @@ Role required: sn\_skills\_int.job\_arch\_admin
 12. Select **Save**.
 
 
-**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/job-architecture-working.md)
+**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/job-architecture-working.md)
 
 **Related topics**  
 

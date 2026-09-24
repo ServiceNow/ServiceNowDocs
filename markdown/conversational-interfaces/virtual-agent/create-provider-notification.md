@@ -2,12 +2,12 @@
 title: Create a provider notification
 description: Execute the following steps to create a provider notification for Virtual Agent and Workspace providers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-provider-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-provider-notification.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Using, Conversational Integration with WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -194,5 +194,5 @@ Option to select when the recipients are from more than 2 tables. These are dyna
     All the validation messages given by different providers are retained. Warning messages of one provider is not overridden by warning messages of another provider.
 
 
-**Parent Topic:**[Using Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-whatsapp-using.md)
+**Parent Topic:**[Using Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-whatsapp-using.md)
 

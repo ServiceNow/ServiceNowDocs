@@ -2,7 +2,7 @@
 title: Configuring AI Search for the product catalog
 description: Configure and manage the implementation of AI Search in the product catalog for Sales Customer Relationship Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-ai-search-prod-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-ai-search-prod-catalog.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -64,21 +64,21 @@ Users with the admin role perform the following steps to implement AI Search for
 
     Skip this step if you're a new customer using the Australia release or if your instance was zBooted in the Australia release. AI Search for Next Experience is automatically installed.
 
-2.  [Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-ai-capabilities-sales-crm.md).
+2.  [Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-ai-capabilities-sales-crm.md).
 
     Depending on your entitlements, the ServiceNow Otto for Sales Automation plugin might be automatically installed. If it is not automatically installed but you have the appropriate entitlements, install the ServiceNow Otto for Sales Automation plugin \(sn\_som\_gen\_ai\). This plugin installs the AI Search RAG plugin \(sn\_ais\_rag\) and the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) for the AI Search Retrieval Augmented Generation \(RAG\) application used by AI Search for product catalog.
 
     **Note:** If you do not install ServiceNow Otto for Sales Automation plugin \(sn\_som\_gen\_ai\), the product catalog interface provides simple keyword search, also known as Zing search.
 
-3.  [Run scheduled job to populate product offering categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/run-scheduled-job-prod-offer-categories.md) only if you upgraded to the Australia.
+3.  [Run scheduled job to populate product offering categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/run-scheduled-job-prod-offer-categories.md) only if you upgraded to the Australia.
 
     This step adds the product offering categories field to the Product Offering table. Skip this step if you're a new customer using the Australia release or if your instance was zBooted in the Australia release.
 
-4.  [Run scheduled job to publish stop words dictionary, search profiles, and index tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/run-sched-job-index-stopwords-profile.md).
+4.  [Run scheduled job to publish stop words dictionary, search profiles, and index tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/run-sched-job-index-stopwords-profile.md).
 
     This scheduled job sets up the indexes and publishes the stop word dictionary and search profiles used in AI Search for product catalogs.
 
-5.  [Enable AI Search in product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-ai-search-catalog.md).
+5.  [Enable AI Search in product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enable-ai-search-catalog.md).
 
     Set the **enable\_ai\_search\_in\_catalog** property to true, which enables AI Search for the product catalog interface and verifies that the necessary files are configured to run AI Search.
 
@@ -88,7 +88,7 @@ After AI Search has been implemented, product catalog admins can manage and cust
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

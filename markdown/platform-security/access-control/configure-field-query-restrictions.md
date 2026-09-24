@@ -2,7 +2,7 @@
 title: Configure Field Query Restrictions
 description: Learn how to configure a Field Query Restriction
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/configure-field-query-restrictions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/configure-field-query-restrictions.html
 release: australia
 product: Access Control
 classification: access-control

@@ -2,7 +2,7 @@
 title: Healthcare location table
 description: The Healthcare Location \[sn\_hcls\_location\] table provides the ability to map common locations to Healthcare Organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -24,9 +24,9 @@ The Healthcare Location \[sn\_hcls\_location\] table provides the ability to map
 -   Maps with devices via the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] table.
 -   Maps with practitioners via the Practitioner location \[sn\_hcls\_practitioner\_facility\] table.
 -   Contains the Location field, which references the common location \[cmn\_location\] table.
--   To associate healthcare locations with healthcare organizations, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md).
+-   To associate healthcare locations with healthcare organizations, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md).
 
-For more information on how healthcare locations and healthcare organizations function, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
+For more information on how healthcare locations and healthcare organizations function, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 
 Role required to configure the table: sn\_hcls.admin.
 
@@ -165,5 +165,5 @@ Option to indicate whether the healthcare location is in use.
 -   Suspended
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

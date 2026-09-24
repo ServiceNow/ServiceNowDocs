@@ -2,7 +2,7 @@
 title: Upgrade Console release notes
 description: The ServiceNow Upgrade Console application guides you for a comprehensive and efficient upgrade experience. Upgrade Console was enhanced and updated in the Australia release.The ServiceNow Upgrade Console application guides you for a comprehensive and efficient upgrade experience. Upgrade Console was enhanced and updated in the Australia release.The ServiceNow Upgrade Console application guides you for a comprehensive and efficient upgrade experience. Upgrade Console was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrade-console-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/upgrade-console-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ See [Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     Upgrade Console is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
 ## August 2026
 

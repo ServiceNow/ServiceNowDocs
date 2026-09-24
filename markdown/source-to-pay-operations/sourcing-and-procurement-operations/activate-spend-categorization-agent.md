@@ -2,7 +2,7 @@
 title: Activate the Spend categorization agent
 description: The Spend categorization agent predicts product and spend categories on purchase requisition lines. Complete the configuration tasks that activate the agent and its supporting prediction services in ServiceNow Otto for SPO.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,24 +27,24 @@ The Spend categorization agent and its supporting prediction capabilities are in
 
 Complete the following tasks in the order listed. Each task confirms or enables one part of the prediction chain that the agent depends on.
 
--   [Confirm product category classification solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/confirm-product-category-solutions.md): Confirm that the classification solution and AI Search configuration used to predict product categories are trained and active.
--   [Confirm spend category similarity solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/confirm-spend-category-solutions.md): Confirm that the similarity solution and retrieval configuration used to predict spend categories are trained and active.
--   [Activate Product and Spend category predictor skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-category-predictor-skills.md): Activate the Product category predictor and Spend category predictor skills in AI Admin Hub.
--   [Confirm category prediction system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/confirm-category-prediction-properties.md): Confirm the system properties that control category prediction, including the confidence score threshold.
--   [Enable Spend categorization agent in ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/enable-agent-na-panel.md): Enable the Spend categorization agent so that users can run it from the ServiceNow Otto panel.
+-   [Confirm product category classification solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-product-category-solutions.md): Confirm that the classification solution and AI Search configuration used to predict product categories are trained and active.
+-   [Confirm spend category similarity solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-spend-category-solutions.md): Confirm that the similarity solution and retrieval configuration used to predict spend categories are trained and active.
+-   [Activate Product and Spend category predictor skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-category-predictor-skills.md): Activate the Product category predictor and Spend category predictor skills in AI Admin Hub.
+-   [Confirm category prediction system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-category-prediction-properties.md): Confirm the system properties that control category prediction, including the confidence score threshold.
+-   [Enable Spend categorization agent in ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/enable-agent-na-panel.md): Enable the Spend categorization agent so that users can run it from the ServiceNow Otto panel.
 
--   **[Confirm product category classification solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/confirm-product-category-solutions.md)**  
+-   **[Confirm product category classification solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-product-category-solutions.md)**  
 Confirm that the classification solutions and AI Search configuration for product category prediction are trained and active before activating the Spend categorization agent.
--   **[Confirm spend category similarity solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/confirm-spend-category-solutions.md)**  
+-   **[Confirm spend category similarity solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-spend-category-solutions.md)**  
 Confirm that the machine learning similarity solutions and retrieval configuration used to predict spend categories are trained and active, so the Spend categorization agent can return spend category predictions.
--   **[Activate Product and Spend category predictor skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-category-predictor-skills.md)**  
+-   **[Activate Product and Spend category predictor skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/activate-category-predictor-skills.md)**  
 Activate the Product category predictor and Spend category predictor skills in AI Admin Hub to make both skills available to the Spend categorization agent.
--   **[Confirm category prediction system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/confirm-category-prediction-properties.md)**  
+-   **[Confirm category prediction system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/confirm-category-prediction-properties.md)**  
 Confirm the system properties that control product and spend category prediction, including the confidence score threshold and whether fallback logic is enabled.
--   **[Enable Spend categorization agent in ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/enable-agent-na-panel.md)**  
+-   **[Enable Spend categorization agent in ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/enable-agent-na-panel.md)**  
 Enable the Spend categorization agent in AI Agent Studio so users can run it from the ServiceNow Otto panel to validate and update product and spend categories on procurement records.
 
-**Parent Topic:**[Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
+**Parent Topic:**[Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
 **Related topics**  
 

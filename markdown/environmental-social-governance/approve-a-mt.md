@@ -2,7 +2,7 @@
 title: Approve or reject a material topic
 description: Review and approve or reject a material topic if it is assigned to you for approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/approve-a-mt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/approve-a-mt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,5 +38,5 @@ Role required: sn\_esg.program\_manager
 
 If the material topic is approved, its state changes to Monitor. If the topic is rejected, the state changes to Draft.
 
-**Parent Topic:**[Create a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-material-topics.md)
+**Parent Topic:**[Create a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-material-topics.md)
 

@@ -2,7 +2,7 @@
 title: Configure the abstract case type for Healthcare Operations Core case types
 description: Extend the Healthcare Operations case \[sn\_hco\_case\] to create custom case types for use with Healthcare Operations Core and related plugins by creating a child table from the Healthcare Operations Core case type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/configure-abstract-case-type-hco.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/configure-abstract-case-type-hco.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

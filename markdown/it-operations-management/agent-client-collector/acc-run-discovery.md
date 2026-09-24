@@ -2,7 +2,7 @@
 title: Run host data collection on demand
 description: You can perform host data collection on demand, if you need to perform data collection before the job is scheduled to run.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-run-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-run-discovery.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -33,5 +33,5 @@ Role required: agent\_client\_collector\_admin
 3.  On the agent form, click the **Collect Host Data** button.
 
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/data-collection-enabling.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

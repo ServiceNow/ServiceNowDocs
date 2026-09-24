@@ -2,7 +2,7 @@
 title: Manage onboarding of hardware products using Application Portfolio Management
 description: Onboard your hardware products and manage the Technology Reference Model \(TRM\) life-cycle by using Technology Reference Model \(TRM\) of Application Portfolio Management along with the Hardware Asset Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/trm-for-tech-onboarding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/trm-for-tech-onboarding.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

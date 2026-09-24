@@ -2,7 +2,7 @@
 title: Deploy service graph connector with existing ETL
 description: Associate a new Service Graph Connector \(SGC\) with an existing ETL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/deploy-a-new-service-graph-connector-with-duplicated-etl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/deploy-a-new-service-graph-connector-with-duplicated-etl.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

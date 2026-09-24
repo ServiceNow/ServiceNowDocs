@@ -2,7 +2,7 @@
 title: Roles installed with Impact
 description: Impact offers many roles to assign to fit your business needs. When you log in to Impact, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -364,5 +364,5 @@ sn\_impact\_common.Impact Partner
 -   Request advisory sessions
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-reference.md)
+</table>**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-reference.md)
 

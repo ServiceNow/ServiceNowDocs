@@ -2,7 +2,7 @@
 title: Software model metric attributes
 description: Software model metric attributes and related list field descriptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sw-metric-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/sw-metric-attributes.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -1149,5 +1149,5 @@ Per User
 Common
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 

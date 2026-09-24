@@ -2,7 +2,7 @@
 title: Create an incident in Service Operations Workspace
 description: Track the investigation, possible solutions, and resolution of a problem for a customer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-incident-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-incident-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -24,15 +24,15 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d247948e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d248437e52">
 
 Option
 
-</th><th align="left" id="d247948e55">
+</th><th align="left" id="d248437e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d247948e61">
+</th></tr></thead><tbody><tr><td id="d248437e61">
 
 **From the List menu**
 
@@ -43,7 +43,7 @@ Description
 3.  Click **New Incident**.
 
 
-</td></tr><tr><td id="d247948e100">
+</td></tr><tr><td id="d248437e100">
 
 **From an incident list**
 
@@ -61,7 +61,7 @@ Description
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d247948e140">
+</td></tr><tr><td id="d248437e140">
 
 **From an interaction**
 
@@ -282,7 +282,7 @@ Associated change request that prompted the creation of the incident.
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md)
+**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/incident-sow.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Edit security tags for the Microsoft Exchange Online integration
 description: You can edit the names and colors of the security tags in your ServiceNow AI Platform instance for the Microsoft Exchange Online integration. These security tags help you quickly identify when email search either completes or fails. They also identify when requests to delete emails are initiated and when the email items are successfully deleted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-edit-tags.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ms-edit-tags.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -110,9 +110,9 @@ Description for the tag.
     You have now successfully edited the tag record for a security tag.
 
 
-**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Recover deleted emails on the Microsoft Exchange Online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-recover-deleted-emails.md)
+**Previous topic:**[Recover deleted emails on the Microsoft Exchange Online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-recover-deleted-emails.md)
 
-**Next topic:**[Microsoft Exchange On-Premises integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exch-on-prem-landing-page.md)
+**Next topic:**[Microsoft Exchange On-Premises integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/ms-exch-on-prem-landing-page.md)
 

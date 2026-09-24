@@ -2,7 +2,7 @@
 title: Create a remedial action
 description: Create your custom remedial actions from Check Definitions to resolve end-point related issues using Playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/create-remedial-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/create-remedial-action.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -20,7 +20,7 @@ Create your custom remedial actions from Check Definitions to resolve end-point 
 
 Role required: admin, dex\_admin
 
-**Note:** To learn more about different remedial actions, see [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
+**Note:** To learn more about different remedial actions, see [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
 
 ## Procedure
 
@@ -62,5 +62,5 @@ Role required: admin, dex\_admin
     -   Confirm that the selected Check Definition is applicable for the selected OS.
     -   Depending on the Check Definition selected, the related Check Definition parameters are listed.
 
-**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-remedial-actions.md)
+**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-remedial-actions.md)
 

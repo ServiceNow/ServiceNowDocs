@@ -2,7 +2,7 @@
 title: Responsibility for indicator targets
 description: A user can be responsible for targets on one or more Performance Analytics indicator/breakdown combinations \(KPIs\). Responsible users are expected to track progress towards the targets and can change the targets on their KPIs.After an admin creates a target, assign responsibility for reviewing and editing the target to a subject matter expert \(SME\) in the business area.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/responsibiity-targets-kpi-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/responsibiity-targets-kpi-details.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,8 +47,8 @@ Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin.
 
 2.  Either:
 
-    -   Create a target, as described in [Create a target in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-kpi-details-targets.md).
-    -   Open an existing target, as described in [Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-multiple-targets.md).
+    -   Create a target, as described in [Create a target in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-kpi-details-targets.md).
+    -   Open an existing target, as described in [Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-multiple-targets.md).
 3.  Click the cogwheel to open the **Targets Configuration** page.
 
     \[Omitted image "kpi-details-target-config-cogwheel.png"\] Alt text: Targets panel top showing config cogwheel.

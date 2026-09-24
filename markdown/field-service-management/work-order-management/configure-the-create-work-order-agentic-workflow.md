@@ -2,7 +2,7 @@
 title: Configure Create Work Order agentic workflow for ServiceNow Otto
 description: Configure the Create Work Order AI agent and agentic workflow to appear in the ServiceNow Otto panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configure-the-create-work-order-agentic-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/configure-the-create-work-order-agentic-workflow.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -43,5 +43,5 @@ The Create Work Order agentic workflow allows users to create work orders from t
 
 ## Result
 
-The Create Work Order agentic workflow will appear in the ServiceNow Otto panel. The workflow can be triggered by asking ServiceNow Otto to create a work order, or by selecting the Create Work Order option. For more information, see [Create a work order using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-work-order-now-assist-fsm.md).
+The Create Work Order agentic workflow will appear in the ServiceNow Otto panel. The workflow can be triggered by asking ServiceNow Otto to create a work order, or by selecting the Create Work Order option. For more information, see [Create a work order using ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/create-work-order-now-assist-fsm.md).
 

@@ -2,7 +2,7 @@
 title: Activate Change Management ATF Tests
 description: You can activate the Change Management - ATF Tests plugin \(com.snc.change\_management.atf\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-changemgmt-atftests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-changemgmt-atftests.html
 release: australia
 product: Change Management
 classification: change-management
@@ -39,7 +39,7 @@ Change Management - ATF Tests \(com.snc.change\_management.atf\) loads ATF tests
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 

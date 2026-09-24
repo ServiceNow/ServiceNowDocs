@@ -2,7 +2,7 @@
 title: Service Graph Connector for Jamf
 description: Use the Service Graph Connector for Jamf to pull data from Jamf into your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-integration-jamf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/cmdb-integration-jamf.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -49,13 +49,13 @@ The following are examples on how you can use the Service Graph Connector for di
 
 ## Configuring a connection for the connector
 
-You can configure a connection for the connector by using the SGC Central view in the Service Graph Workspace or CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure Service Graph Connector for Jamf using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-jamf-integration.md).
+You can configure a connection for the connector by using the SGC Central view in the Service Graph Workspace or CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure Service Graph Connector for Jamf using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgcc-configure-jamf-integration.md).
 
 **Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecation.
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Jamf integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Jamf integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 ## Data mapping
 
@@ -63,7 +63,7 @@ Data from the Jamf data source is mapped and transformed into the ServiceNow CMD
 
 When you complete setting up the connection, you can configure the integration to periodically pull data from Jamf.
 
-The delta data synchronization feature is available in Jamf version 2.14 and higher. You can configure the **is\_delta\_enabled\_for\_computers** and **is\_delta\_enabled\_for\_mobiles** connection properties for synchronizing only delta data from a Jamf instance. See [Configuring data synchronization in Service Graph Connector for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-jamf-data-sync.md).
+The delta data synchronization feature is available in Jamf version 2.14 and higher. You can configure the **is\_delta\_enabled\_for\_computers** and **is\_delta\_enabled\_for\_mobiles** connection properties for synchronizing only delta data from a Jamf instance. See [Configuring data synchronization in Service Graph Connector for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-jamf-data-sync.md).
 
 The following data sources are included for the Jamf application:
 
@@ -111,14 +111,14 @@ The imported data is then inserted into the following target tables:
 -   Software \[cmdb\_ci\_spkg\] \(If the SAM application is not installed.\)
 -   Software Usage \[samp\_sw\_usage\]
 
-**Note:** For the Computer \[cmdb\_ci\_computer\] and Handheld Computing device \[cmdb\_ci\_handheld\_computing\] data sources, if you created multiple Jamf instances and want to know where the CIs originated from, you can identify the origins from the **Key** and **Value** columns. Additionally, you can view the Jamf Extension Attributes \[sn\_jamf\_integrate\_extension\_attribute\] and Most recent discovery \[last\_discovered\] fields in both data sources. If you want to configure multiple instances, follow the steps in [Configure Service Graph Connector for Jamf using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) in step 4.
+**Note:** For the Computer \[cmdb\_ci\_computer\] and Handheld Computing device \[cmdb\_ci\_handheld\_computing\] data sources, if you created multiple Jamf instances and want to know where the CIs originated from, you can identify the origins from the **Key** and **Value** columns. Additionally, you can view the Jamf Extension Attributes \[sn\_jamf\_integrate\_extension\_attribute\] and Most recent discovery \[last\_discovered\] fields in both data sources. If you want to configure multiple instances, follow the steps in [Configure Service Graph Connector for Jamf using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-jamf-integration.md) in step 4.
 
-For more information on where data is saved when pulling data from a Jamf application, see [CMDB classes targeted in Service Graph Connector for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-jamf-classes.md).
+For more information on where data is saved when pulling data from a Jamf application, see [CMDB classes targeted in Service Graph Connector for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-jamf-classes.md).
 
-You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
+You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 
 **Related topics**  
 
 
-[Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
+[Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
 

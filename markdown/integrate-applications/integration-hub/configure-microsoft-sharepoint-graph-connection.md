@@ -2,7 +2,7 @@
 title: Configure Microsoft SharePoint Graph connection
 description: Configure a Microsoft SharePoint Graph connection and a connection record that enable your ServiceNow instance to integrate with the Microsoft SharePoint using the Microsoft Graph.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-microsoft-sharepoint-graph-connection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/configure-microsoft-sharepoint-graph-connection.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -40,7 +40,7 @@ Configure a Microsoft SharePoint Graph connection and a connection record that e
 
     4.  In the search field, enter the name of the OAuth application you had created.
 
-        To learn how to configure an OAuth application, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
+        To learn how to configure an OAuth application, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
     5.  In the search results, select the name of the OAuth application you had configured.
 
@@ -138,7 +138,7 @@ OAuth Entity Name
 
 </td><td>
 
-Name of the OAuth application that you created. To learn how to create an OAuth app, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
+Name of the OAuth application that you created. To learn how to create an OAuth app, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ OAuth Client ID
 
 </td><td>
 
-Client ID that was generated when you created the OAuth app. To learn where to find the client ID, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
+Client ID that was generated when you created the OAuth app. To learn where to find the client ID, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client secret that was generated when you created the OAuth app. To learn where to find the client ID, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
+Client secret that was generated when you created the OAuth app. To learn where to find the client ID, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 </td></tr><tr><td>
 

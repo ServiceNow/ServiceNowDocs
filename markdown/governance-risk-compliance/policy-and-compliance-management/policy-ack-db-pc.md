@@ -2,7 +2,7 @@
 title: Policy Acknowledgement dashboard
 description: The Policy Acknowledgement dashboard gives you the acknowledgement status of the policies. It includes count of policy acknowledgements that have been accepted, declined, pending, past the due date of acknowledgement, exemptions requested, and those that are exempted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/policy-ack-db-pc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/policy-ack-db-pc.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -31,7 +31,7 @@ If you are on Vancouver or Washington DC, you can view the dashboard in the Next
 
 To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; **Policy Acknowledgement** &gt; **Analytics Overview**.
 
-**Note:** You can view this dashboard directly from the Compliance Workspace as well. For more information, see [View dashboards in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/view-dashboards-in-compliance-workspace.md)
+**Note:** You can view this dashboard directly from the Compliance Workspace as well. For more information, see [View dashboards in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-compliance-management-workspace/view-dashboards-in-compliance-workspace.md)
 
 ## Reports
 
@@ -43,5 +43,5 @@ To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; *
 |Pending acknowledgements|Bar chart|Displays the total number of pending acknowledgements related to each policy.|
 |Policy Exceptions|List|Displays a list of policy exceptions.|
 
-**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
+**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

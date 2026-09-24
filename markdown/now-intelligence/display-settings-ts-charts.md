@@ -2,7 +2,7 @@
 title: Display settings for time series data visualizations
 description: Each time series visualization type has a different set of display settings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/display-settings-ts-charts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/display-settings-ts-charts.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-15"
@@ -274,5 +274,5 @@ Show continuous line
 When selected and there is no data for a specific time, there is no gap in the chart and it shows continuous line.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-time-series-ac.md)
+</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-time-series-ac.md)
 

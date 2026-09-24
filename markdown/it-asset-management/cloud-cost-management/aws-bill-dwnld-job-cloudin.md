@@ -2,12 +2,12 @@
 title: Schedule and manage the jobs that download AWS billing data
 description: Billing Download jobs download, organize, and store billing data for your payer account on the schedule that you specify. The system analyzes the data to generate reports and to make recommendations for changes in your cloud operations that can lead to cost savings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-bill-dwnld-job-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/aws-bill-dwnld-job-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 10
 breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -22,7 +22,7 @@ Role required: Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integration
 
 Ensure that your system has 8 GB Clotho memory and 4 GB mid memory.
 
-Enable cost allocation for each Kubernetes cluster before you run an AWS Billing download job to view the Kubernetes spend. For more information, see [Enable cost allocation in AWS for Kubernetes cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/enable-cost-allocation-aws.md).
+Enable cost allocation for each Kubernetes cluster before you run an AWS Billing download job to view the Kubernetes spend. For more information, see [Enable cost allocation in AWS for Kubernetes cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/enable-cost-allocation-aws.md).
 
 ## About this task
 
@@ -51,7 +51,7 @@ For AWS.
 -   You can create only one Billing Download job for each service account.
 -   Only costs of the unblended type are supported.
 -   The Billing Download job updates the billing node data table \[sn\_cld\_intg\_aws\_cost\_usage\] with the CIs in the CMDB that correspond to each resource ID.
--   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add an AWS CI class type to ensure accurate billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.md) for the details.
+-   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add an AWS CI class type to ensure accurate billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.md) for the details.
 
 ## Procedure
 
@@ -249,7 +249,7 @@ Option for overwriting data from an earlier download attempt.
     1.  **Ready**: The job is in the queue. For example, when a job is created to download billing data for a few months, the jobs for all months except the latest month are in Ready state.
     2.  **Requested**: The job is fetched and processed immediately. For example, the job that's created to download billing data for a month is in the Requested state. Also, when a job is created to download billing data for more than a month, the latest month job is also in the Requested state.
 
-        **Note:** If you have installed the Cloud Cost Management Infra Stack application, it takes some time for the job to change from Ready to Requested state for AWS billing download job with Assume role authentication. This is because it takes time for the files to be downloaded to Cloud Cost Management MID Server. For details, see [Processing AWS billing jobs with Assume role authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/process-aws-assume-infra.md).
+        **Note:** If you have installed the Cloud Cost Management Infra Stack application, it takes some time for the job to change from Ready to Requested state for AWS billing download job with Assume role authentication. This is because it takes time for the files to be downloaded to Cloud Cost Management MID Server. For details, see [Processing AWS billing jobs with Assume role authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/process-aws-assume-infra.md).
 
     3.  **Reserved**: Job is picked by the Kubernetes cluster for processing. The Kubernetes cluster also sends the Job Id to Cloud Cost Management Glide to show which Kubernetes job is processing the billing job.
 

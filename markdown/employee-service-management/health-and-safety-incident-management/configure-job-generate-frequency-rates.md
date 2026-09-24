@@ -2,7 +2,7 @@
 title: Configure scheduled job to generate frequency rates
 description: Configure the scheduled job to load the safety frequency rates and ensure that the safety metrics on the Health and Safety Workspace landing page are up to date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/configure-job-generate-frequency-rates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-incident-management/configure-job-generate-frequency-rates.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -41,5 +41,5 @@ The **\[OHS\] Safety Metrics** job is set to run daily by default.
     **Note:** To run the scheduled job and update metrics on demand, select **Execute Now**.
 
 
-**Parent Topic:**[Setting up Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/setting-up-hs-incident-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/setting-up-hs-incident-mgmt.md)
 

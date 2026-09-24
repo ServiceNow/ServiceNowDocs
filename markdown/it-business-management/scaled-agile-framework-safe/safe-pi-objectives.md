@@ -2,7 +2,7 @@
 title: SAFe PI objectives
 description: Use SAFe program increment \(PI\) objectives to highlight the overall goals for a team or for an agile release train \(ART\) in a PI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/safe-pi-objectives.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scaled-agile-framework-safe/safe-pi-objectives.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -28,10 +28,10 @@ As PI planning progresses and is finalized, the business owners assign a planned
 
 Using the planned and actual business value scores of the PI objectives, SAFe ART members can track the historical performance of the teams. By using that performance data, the ART members can then chart the SAFe predictability measure of the PIs. These reports provide visibility into the business value that the teams and ARTs provide on a PI-to-PI basis.
 
--   **[Define a SAFe PI objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/define-safe-pi-objectives.md)**  
+-   **[Define a SAFe PI objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/define-safe-pi-objectives.md)**  
 Create SAFe program increment \(PI\) objectives so that you can summarize the goals of your team or agile release train \(ART\) for the upcoming PIs.
 
-**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
+**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/essential-overview.md)
 
 **Related topics**  
 

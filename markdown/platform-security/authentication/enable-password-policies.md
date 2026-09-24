@@ -2,7 +2,7 @@
 title: Enable password policies on your instance
 description: Implement password policy controls at login. Force users to change their password if the password does not meet the password policy criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/enable-password-policies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/enable-password-policies.html
 release: australia
 product: Authentication
 classification: authentication
@@ -26,7 +26,7 @@ The Password Policy plugin \(com.glide.password\_policy\) is enabled by default.
 
 The **Password Strength Preset** field is automatically set to **Default Strong**. If you want to add new criteria, you can perform the following procedure.
 
-If you customized your instance through the **ValidatePasswordStronger** installation exit or your Password Reset credential store **pwd\_cred\_store** property, then see [password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/password-policy-properties.md) to know how to implement a password policy for your instance.
+If you customized your instance through the **ValidatePasswordStronger** installation exit or your Password Reset credential store **pwd\_cred\_store** property, then see [password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/password-policy-properties.md) to know how to implement a password policy for your instance.
 
 **Note:** The active password policy is highlighted for the Instance as shown.
 
@@ -46,15 +46,15 @@ To change the password policy navigate to **All** &gt; **Password Reset** &gt; *
 
 4.  In the Password Policy Criteria section, select one of the following presets from the **Password Strength Preset** field.
 
-<table id="choicetable_syn_nd3_yrb"><thead><tr><th align="left" id="d71724e144">
+<table id="choicetable_syn_nd3_yrb"><thead><tr><th align="left" id="d71718e144">
 
 Password Strength Preset
 
-</th><th align="left" id="d71724e147">
+</th><th align="left" id="d71718e147">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d71724e153">
+</th></tr></thead><tbody><tr><td id="d71718e153">
 
 **Default**
 
@@ -66,7 +66,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 0.
  The minimum password length is 8 characters, and the maximum is 100.
 
-</td></tr><tr><td id="d71724e192">
+</td></tr><tr><td id="d71718e192">
 
 **Medium**
 
@@ -78,7 +78,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 1.
  The minimum password length is 12 characters, and the maximum is 40.
 
-</td></tr><tr><td id="d71724e231">
+</td></tr><tr><td id="d71718e231">
 
 **High**
 
@@ -90,7 +90,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 3.
  The minimum password length is 8 characters, and the maximum is 100.
 
-</td></tr><tr><td id="d71724e270">
+</td></tr><tr><td id="d71718e270">
 
 **Default Strong**
 
@@ -102,7 +102,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 1.
  The minimum password length is 8 characters, and the maximum is 100.
 
-</td></tr><tr><td id="d71724e310">
+</td></tr><tr><td id="d71718e310">
 
 **Custom**
 
@@ -116,7 +116,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 
  You can also customize the **Password Policy Script** that is displayed.
 
-</td></tr><tr><td id="d71724e355">
+</td></tr><tr><td id="d71718e355">
 
 **Advanced**
 

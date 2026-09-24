@@ -2,7 +2,7 @@
 title: Viewing the home page
 description: View account statuses and violations, actionable insights, and administrative controls on the home page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/view-home-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/view-home-page.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

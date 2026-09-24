@@ -2,7 +2,7 @@
 title: Creating and managing audience-specific Journey Accelerator templates
 description: Administrators can develop Journey Accelerator templates for customized plans with stages that include user tasks for different audiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/creating-audience-specific-plans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-accelerator/creating-audience-specific-plans.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -18,15 +18,15 @@ Administrators can develop Journey Accelerator templates for customized plans wi
 
 Using Journey Accelerator, administrators can develop and manage templates for audience-specific transition plans. Plans include templates with stages and to-do lists. Managers can use these templates to create transition plans for their employees.
 
-For more information about different audiences, see [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md).
+For more information about different audiences, see [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-audience.md).
 
 -   **Manage Plan Types**
 
-    Plan types are the top-level containers for stages and tasks. Administrators select a plan type and a title for the plan when configuring a specific plan. Administrators enter a meaningful title for the type of plan that they are creating so that users can easily identify the plan type, such as "IT Senior Tech Promotion." For more information about plan types, see [Create and manage Journey Accelerator plan types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/create-manage-ja-plans.md).
+    Plan types are the top-level containers for stages and tasks. Administrators select a plan type and a title for the plan when configuring a specific plan. Administrators enter a meaningful title for the type of plan that they are creating so that users can easily identify the plan type, such as "IT Senior Tech Promotion." For more information about plan types, see [Create and manage Journey Accelerator plan types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/create-manage-ja-plans.md).
 
 -   **Manage Stage Names**
 
-    Stages are contained inside the Journey Accelerator plan. Stages contain tasks or to-do lists for managers, mentors, or employees to complete. Stage **Titles** are visible to users. Stages should have an implicitly logical order, such as a time sequence. For more information about stages, see [Create and manage Journey Accelerator stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/create-manage-ja-stages.md).
+    Stages are contained inside the Journey Accelerator plan. Stages contain tasks or to-do lists for managers, mentors, or employees to complete. Stage **Titles** are visible to users. Stages should have an implicitly logical order, such as a time sequence. For more information about stages, see [Create and manage Journey Accelerator stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/create-manage-ja-stages.md).
 
 -   **Manage Task Templates**
 
@@ -34,11 +34,11 @@ For more information about different audiences, see [Audiences](https://raw.gith
 
 -   **Manage Plan Configurations**
 
-    Plan configurations are based on a plan type. Plan configurations are customized for specific employee audiences. For more information about plan configurations, see [Create and manage Journey Accelerator plan configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/create-manage-ja-plan-configuration.md).
+    Plan configurations are based on a plan type. Plan configurations are customized for specific employee audiences. For more information about plan configurations, see [Create and manage Journey Accelerator plan configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/create-manage-ja-plan-configuration.md).
 
 -   **Manage Plans**
 
-    Administrators can access and manage plans for specific users after a manager has created a plan. Administrators only update individual plans when the plan's owner \(manager\) makes a request to do so. For more information about managing plans, see [Managing existing Journey Accelerator plans created by managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/manage-ja-plans.md).
+    Administrators can access and manage plans for specific users after a manager has created a plan. Administrators only update individual plans when the plan's owner \(manager\) makes a request to do so. For more information about managing plans, see [Managing existing Journey Accelerator plans created by managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/manage-ja-plans.md).
 
 -   **Manage Plan Header Configuration**
 
@@ -47,7 +47,7 @@ For more information about different audiences, see [Audiences](https://raw.gith
     -   View for manager
     -   View for employee
     -   View for mentor
-    For more information about updating the default header configurations or creating new plan header configurations, see [Customize and manage Journey Accelerator plan headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/create-manage-plan-headers.md).
+    For more information about updating the default header configurations or creating new plan header configurations, see [Customize and manage Journey Accelerator plan headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-accelerator/create-manage-plan-headers.md).
 
 
 From the Employee Center, managers can create customized Journey Accelerator plans that contain stages with specific to-do lists for themselves, mentors, and employees.

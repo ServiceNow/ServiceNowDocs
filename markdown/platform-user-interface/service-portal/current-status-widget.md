@@ -2,7 +2,7 @@
 title: Current Status widget
 description: The Current Status widget displays any issues reported in the system. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/current-status-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/current-status-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -33,7 +33,7 @@ Use the instance options to configure the Current Status widget for a portal pag
 |Show outage details|Option to display details from the Outage \[cmdb\_ci\_outage\] record.|
 |Standalone|Option to remove explanatory information. This option also adds a link to more information.|
 
-**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-status-widgets.md)
+**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/service-status-widgets.md)
 
 **Related topics**  
 

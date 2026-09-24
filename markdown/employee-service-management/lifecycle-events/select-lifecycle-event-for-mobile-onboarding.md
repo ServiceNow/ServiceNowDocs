@@ -2,7 +2,7 @@
 title: Select a Lifecycle Event for Now Mobile
 description: Select the Lifecycle Event that you want to use with Now Mobile. When an onboarding case for that event type is created, the new hire completes the to-dos that are associated with that case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/select-lifecycle-event-for-mobile-onboarding.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/select-lifecycle-event-for-mobile-onboarding.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -22,7 +22,7 @@ Role required: sn\_hr\_le.admin
 
 You must also make sure that the **Display activity sets to subject person** option is selected, as well as the **Show case to subject person** option on the corresponding HR service.
 
-A Lifecycle Event administrator must have set up the Lifecycle Event and the corresponding HR service you want to use with Now Mobile. See [Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md) for more information.
+A Lifecycle Event administrator must have set up the Lifecycle Event and the corresponding HR service you want to use with Now Mobile. See [Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md) for more information.
 
 ## Procedure
 
@@ -57,9 +57,9 @@ A Lifecycle Event administrator must have set up the Lifecycle Event and the cor
         \[Omitted image "mobile-onboarding-hr-service-2.png"\] Alt text: Select the Show case to subject person option.
 
 
-**Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
+**Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
-**Previous topic:**[Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/test-lifecycle-event.md)
+**Previous topic:**[Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/test-lifecycle-event.md)
 
-**Next topic:**[Lifecycle Events employee requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/employee-requests.md)
+**Next topic:**[Lifecycle Events employee requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/employee-requests.md)
 

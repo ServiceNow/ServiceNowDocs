@@ -2,7 +2,7 @@
 title: Add and modify test cycles and test execution suites in Test Management 2.0
 description: Add and modify test cycles and test execution suites from a single user interface without having to switch between multiple user interfaces and forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/use-planning-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/use-planning-tab.html
 release: australia
 product: Test Management
 classification: test-management
@@ -24,7 +24,7 @@ Role required: sn\_test\_management.test\_manager
 
 In Test Management 2.0, a test plan is broken into test cycles, and test cycles are broken into test execution suites. A test cycle represents a phase or iteration of testing within a test plan, such as regression testing or smoke testing. A test execution suite is the smallest unit of organization, containing the individual test assignments for testers.
 
-Use the **Planning** tab to manage this hierarchy from a single view. For more information about key terms, see [Test Management 2.0 overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/overview-test-management2.md).
+Use the **Planning** tab to manage this hierarchy from a single view. For more information about key terms, see [Test Management 2.0 overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/test-management/overview-test-management2.md).
 
 ## Procedure
 
@@ -171,5 +171,5 @@ When the zoom level in calender is selected as **Auto Fit**, the Gantt view fits
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-board.md)
+**Parent Topic:**[Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/test-management/test-board.md)
 

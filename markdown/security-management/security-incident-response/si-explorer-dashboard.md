@@ -2,7 +2,7 @@
 title: Security Incident Explorer dashboard
 description: With this dashboard, security managers are able to view security incidents summarized and grouped by category, subcategory, location, priority and business impact. These views let managers quickly gain insight into the frequency in which attacks are occurring and which business services are affected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/si-explorer-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/si-explorer-dashboard.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -51,7 +51,7 @@ The Security Incident Explorer dashboard presents the following key performance 
     A global map showing the number of open security incidents in each country.
 
 
-**Parent Topic:**[Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-content-pack.md)
+**Parent Topic:**[Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/security-incident-content-pack.md)
 
 **Related topics**  
 

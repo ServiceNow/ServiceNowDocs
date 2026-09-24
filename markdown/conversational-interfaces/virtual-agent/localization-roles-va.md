@@ -2,7 +2,7 @@
 title: Localization roles for Virtual Agent
 description: Assign localization roles according to a user's scope in the localization process. Users may request translations, fulfill translation requests, and edit translations, based on their role.Requests translations for all the Virtual Agent components into one or more languages. Can also view localization insights. The Virtual Agent admin \[virtual\_agent\_admin\] role contains this role by default.Provides translations for the requested Virtual Agent topics. Depending on the flow, duties may include editing the translations in the Localization Framework task, interacting with third parties, and loading, verifying, and publishing translations.Edits the translations directly in Virtual Agent Designer. The NLU admin \[nlu\_admin\] and Virtual Agent admin \[virtual\_agent\_admin\] roles contain this role by default.Contains the localization requestor and localization editor roles by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/localization-roles-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/localization-roles-va.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -53,7 +53,7 @@ Click **View requested item** to open the localization fulfillment task in a new
 
 \[Omitted image "loc-task-view-number.png"\] Alt text: A Localization request task is created when you submit a translation request.
 
-**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md)
+**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/localize-va-topic.md)
 
 ## Localization requestor \[localization\_requestor\]
 

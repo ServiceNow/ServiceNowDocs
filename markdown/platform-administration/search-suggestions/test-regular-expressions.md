@@ -2,7 +2,7 @@
 title: Test regular expression patterns in Search Suggestion Exclusion List Rule entries
 description: Regular expression patterns are powerful and often require editing to get the correct behavior. When using regular expression patterns to exclude search strings, test the patterns thoroughly so as not to have unintended results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-suggestions/test-regular-expressions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-suggestions/test-regular-expressions.html
 release: australia
 product: Search Suggestions
 classification: search-suggestions
@@ -34,13 +34,13 @@ The Exclusion List Rule and Search Suggestion Relations \[m2m\_blacklist\_search
 
 2.  Add a regular expression pattern to the exclusion list table.
 
-    For more information, see [Preventing suggestions in special cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/preventing-suggestions.md).
+    For more information, see [Preventing suggestions in special cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-suggestions/preventing-suggestions.md).
 
 3.  In a search field, for example, on the ServiceNow® Service Portal, enter words that satisfy the regular expression pattern.
 
 4.  Run the script that builds the search suggestions.
 
-    For more information, see [Schedule the Build Search Suggestions script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/schedule-search-suggestion-builds.md). Select **Execute Now** to run the script immediately.
+    For more information, see [Schedule the Build Search Suggestions script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-suggestions/schedule-search-suggestion-builds.md). Select **Execute Now** to run the script immediately.
 
 5.  In the m2m\_blacklist\_search\_suggestion\_list table, select the menu icon \[Omitted image "hamburger-icon.png"\] Alt text: for the Exclusion List column heading, then select **Group By Exclusion List** to see the regular expression patterns and what they eliminated.
 

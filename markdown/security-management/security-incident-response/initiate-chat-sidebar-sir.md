@@ -2,7 +2,7 @@
 title: Start a Sidebar chat in Security Incident Response
 description: Using Sidebar, security analysts can collaborate with others in real-time based on a Workspace task-based or interaction-based record. These Sidebar discussions facilitate the exchange of information and knowledge to help resolve issues faster and with higher-quality outcomes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/initiate-chat-sidebar-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/initiate-chat-sidebar-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -93,5 +93,5 @@ Provide a brief summary about the issue to be discussed in the sidebar discussio
     To limit the action usage, you can use the **Apply to group** field on the quick action page. For more information, see [Creating a quick action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-quick-actions-overview.md).
 
 
-**Parent Topic:**[Collaborate using conference call or chat in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/collab-sir-call-chat.md)
+**Parent Topic:**[Collaborate using conference call or chat in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/collab-sir-call-chat.md)
 

@@ -2,7 +2,7 @@
 title: View an exam instance
 description: View an exam instance to verify number of attempts, scores and completion status of an exam assigned to a user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/view-exam-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/view-exam-instance.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -36,13 +36,13 @@ Only a user with the sn\_exam.catalog\_admin role who is configured as part of t
 
 3.  Review the fields of the form.
 
-    For a description of the field values, see [Exam instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/exam-instance-form.md).
+    For a description of the field values, see [Exam instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/exam-instance-form.md).
 
 
--   **[View number of exam instance attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/view-exam-attempts.md)**  
+-   **[View number of exam instance attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/view-exam-attempts.md)**  
 View number of exam instance attempts by a user.
 
-**Parent Topic:**[Using Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/using-exam-engine.md)
+**Parent Topic:**[Using Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/using-exam-engine.md)
 
 **Related topics**  
 

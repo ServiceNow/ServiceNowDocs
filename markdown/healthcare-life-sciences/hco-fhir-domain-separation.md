@@ -2,7 +2,7 @@
 title: EMR Provider Directory Sync and domain separation
 description: EMR Provider Directory Sync does not support domain separation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-domain-separation.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-30"

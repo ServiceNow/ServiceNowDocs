@@ -2,7 +2,7 @@
 title: Request certificates using automated flow
 description: Request a new certificate and automatically retrieve the certificates for an application using automated certificate management. Certificate Inventory and Management Version 2.1.0 supports requesting certificates from DigiCert and Entrust CA Gateway. Version 2.3.2 also supports Microsoft CA.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/request-new-cert-automated-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/request-new-cert-automated-flow.html
 release: australia
 product: Discovery
 classification: discovery
@@ -34,7 +34,7 @@ Request a new certificate and automatically retrieve the certificates for an app
 
 4.  Fill in or choose additional information on the form, and then click **Submit** to proceed with the order.
 
-    The Routing Policy \[sn\_disco\_certmgmt\_routing\_policy\] table helps to fetch the CA routing policy ID. If a single routing policy ID is not returned, then the approver must select the routing policy and approve the task. For more information, see [Approve certificate tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/automated-cert-requests.md).
+    The Routing Policy \[sn\_disco\_certmgmt\_routing\_policy\] table helps to fetch the CA routing policy ID. If a single routing policy ID is not returned, then the approver must select the routing policy and approve the task. For more information, see [Approve certificate tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/automated-cert-requests.md).
 
     This creates a certificate task which then triggers the automated flow. In the routing policy, if Approval Required field was checked, the task requires approval before the automated flow begins.
 

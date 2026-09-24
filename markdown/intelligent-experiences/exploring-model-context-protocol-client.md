@@ -2,7 +2,7 @@
 title: Exploring Model Context Protocol Client
 description: The Model Context Protocol \(MCP\) is a standardized client-server protocol that enables AI applications to discover and interact seamlessly with external tools, data sources, and services. MCP facilitates communication between an AI host application \(like AI Agent Studio\), an MCP Client embedded in the host, and one or more MCP Servers that expose specific capabilities such as tools.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-model-context-protocol-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/exploring-model-context-protocol-client.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Dot walk fields in Visualization Designer
 description: Learn how to dot walk table fields in a data visualization of table data. See how to start from a parent table, such as Task, and dot walk to include data from extended tables, such as Indicator and Problem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/access-fields-ext-table-vis-des.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/access-fields-ext-table-vis-des.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 2.  Select **Create data visualization**.
 
-3.  Create any of the data visualizations listed under [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/creating-data-visualizations.md), selecting a table data source.
+3.  Create any of the data visualizations listed under [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/creating-data-visualizations.md), selecting a table data source.
 
 4.  Open one of the following sections of the configuration tab, depending on the visualization type:
 
@@ -84,5 +84,5 @@ The final visualization shows either Incident.Category values, Problem.Related I
 
 \[Omitted image "dv-extended-table-rel-incidents.png"\] Alt text: Data visualization showing Problem.Related incident data.
 
-**Parent Topic:**[Dot-walking from reference fields in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ext-table-fields-dot-walk-vis-des.md)
+**Parent Topic:**[Dot-walking from reference fields in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/ext-table-fields-dot-walk-vis-des.md)
 

@@ -2,7 +2,7 @@
 title: AI Risk and Compliance lifecycle tasks in AI Control Tower
 description: The Risk and Compliance tab in the AI Control Tower workspace lets users with roles AI Steward \[sn\_ai\_governance.ai\_steward\], and AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] view and act on risk and compliance lifecycle tasks without switching to a separate workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/risk-compliance-lifecycle-tasks-aict.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/risk-compliance-lifecycle-tasks-aict.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

@@ -2,7 +2,7 @@
 title: Configure Customer Central properties
 description: Set how many days you want to display data from in Customer Central.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/properties-customer-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/properties-customer-central.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: MIDSystem methods
 description: MIDSystem variables \(referred to by the variable name ms.\) provide a variety of methods to get information about the MID Server.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/r\_MIDSystemMethods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/r\_MIDSystemMethods.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -34,7 +34,7 @@ This example writes a message to the log:
 
 `ms.log('Attempting to log in with user: ' + this.getParameter('user'));`
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 

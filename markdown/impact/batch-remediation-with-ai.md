@@ -2,7 +2,7 @@
 title: Remediate existing findings with AI-suggested fixes
 description: After a scan completes and populates findings, use the AI-Eligible Findings dashboard to generate and apply AI-suggested fixes in bulk or individually to accelerate remediation of technical debt.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/batch-remediation-with-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/batch-remediation-with-ai.html
 release: australia
 topic_type: task
 last_updated: "2026-08-02"
@@ -32,7 +32,7 @@ Before you begin:
 
 1.  Run a scan and wait for it to complete.
 
-    See [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md) for details.
+    See [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/run-scan-engine.md) for details.
 
     When the scan completes, the findings are populated in the database and you can access the dashboard.
 
@@ -100,7 +100,7 @@ Your AI-suggested fixes are applied to your active update set. All changes are t
 
 Before accepting AI fixes in bulk, review the "AI Finding Details" explanation for at least one fix in each category. This button provides a less technical explanation of the violation and the fix, helping you understand why the change improves your code.
 
-After fixing violations, you can create user stories or tasks in your project management system to document the work. This is especially helpful for tracking remediation effort and communicating changes to your team. See [Create user stories and tasks for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/creating-user-stories-tasks-scan-engine.md) for detailed steps.
+After fixing violations, you can create user stories or tasks in your project management system to document the work. This is especially helpful for tracking remediation effort and communicating changes to your team. See [Create user stories and tasks for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/creating-user-stories-tasks-scan-engine.md) for detailed steps.
 
 Use the findings dashboard to track your progress over time. Run scans regularly and monitor how your finding counts and technical debt time estimates change. This helps you identify recurring violation patterns and adjust your coding standards or training as needed.
 

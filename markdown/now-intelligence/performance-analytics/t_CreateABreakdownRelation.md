@@ -2,7 +2,7 @@
 title: Create a breakdown-to-breakdown relation
 description: To set up navigation in a visualization between the elements of two breakdowns at the same level, create a breakdown relation between the breakdowns. A table must exist with fields that reference the records for both breakdowns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreateABreakdownRelation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_CreateABreakdownRelation.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -18,7 +18,7 @@ To set up navigation in a visualization between the elements of two breakdowns a
 
 ## Before you begin
 
-Review the use cases for breakdown relations in [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-relations.md).
+Review the use cases for breakdown relations in [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/breakdown-relations.md).
 
 **Important:** Platform Analytics features, such as KPI Details and data visualizations, do not support breakdown relations.
 
@@ -65,12 +65,12 @@ When an Assignment Group is selected in the filter, the members of that assignme
 
 View examples of breakdown relations that are shipped by default in every instance. The example shown here is the **Members** breakdown relation. The **Member of** breakdown relation provides navigation in the reverse direction, starting with an element in Assigned To and navigating to an Assignment Group. Lastly, the **Manager** breakdown relation is similar to **Members**, but because each assignment group has only one manager, it shows a many-to-one relationship. It thus uses a facts table instead of a many-to-many table.
 
-**Parent Topic:**[Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-relations.md)
+**Parent Topic:**[Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/breakdown-relations.md)
 
 **Related topics**  
 
 
-[Create an Indicator Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-indicator-scorecard.md)
+[Create an Indicator Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-indicator-scorecard.md)
 
-[Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md)
+[Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-workspace-filter-type.md)
 

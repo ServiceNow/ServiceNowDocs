@@ -2,7 +2,7 @@
 title: Linking inputs in decision tree nodes
 description: Linking of inputs enables decision tree authors to reuse input values \(answers\) from prior nodes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/guided-decision-tree-input-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/guided-decision-tree-input-mapping.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

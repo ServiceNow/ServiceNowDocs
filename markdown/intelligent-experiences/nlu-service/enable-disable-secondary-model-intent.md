@@ -2,7 +2,7 @@
 title: Enable or disable a secondary model intent
 description: Enable and disable intents in your Natural Language Understanding \(NLU\) models to make them active or inactive. Disable intents while editors or admins edit, review, or update its content and translations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/enable-disable-secondary-model-intent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/enable-disable-secondary-model-intent.html
 release: australia
 product: NLU Service
 classification: nlu-service

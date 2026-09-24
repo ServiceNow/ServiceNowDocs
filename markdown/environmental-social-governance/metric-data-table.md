@@ -2,7 +2,7 @@
 title: Metric data table
 description: The metric data table enables data collection for metrics across the organization using an easy-to-use interface like a spreadsheet with multiple filters and a task management workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/metric-data-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/metric-data-table.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

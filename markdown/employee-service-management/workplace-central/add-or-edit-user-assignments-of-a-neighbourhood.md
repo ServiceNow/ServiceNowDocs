@@ -2,7 +2,7 @@
 title: Edit user assignments of a neighborhood
 description: Add a user to a neighborhood or edit the existing user assignments of a neighborhood in a building.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/add-or-edit-user-assignments-of-a-neighbourhood.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/add-or-edit-user-assignments-of-a-neighbourhood.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -20,11 +20,11 @@ Add a user to a neighborhood or edit the existing user assignments of a neighbor
 
 Make sure that you have created a scenario that is based on neighborhoods. For more information about creating neighborhoods and scenarios, see the following topics.
 
-**Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
+**Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
 
 \[Omitted image "wsd-central-review-changes.png"\] Alt text: Space details panel displaying a warning about reviewing allocation changes.
 
--   [Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/neighborhoods.md)
+-   [Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/neighborhoods.md)
 -   [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 **Important:** You can add a user assignment or edit a user assignment of a neighborhood only in a building view.
@@ -77,15 +77,15 @@ You can add or remove user assignments of a neighborhood in a building or a scen
 
     4.  Add or remove users from the neighborhood.
 
-<table id="choicetable_ebx_gdx_rfc"><thead><tr><th align="left" id="d202180e262">
+<table id="choicetable_ebx_gdx_rfc"><thead><tr><th align="left" id="d202184e262">
 
 Choice
 
-</th><th align="left" id="d202180e265">
+</th><th align="left" id="d202184e265">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d202180e271">
+</th></tr></thead><tbody><tr><td id="d202184e271">
 
 **Add users to the neighborhood**
 
@@ -99,7 +99,7 @@ Use the filter option to filter the users list. You can add up to 1000 users to 
 3.  Select **Add**.
  The users are added to the neighborhood. A new Workplace Profile Location Assignment is added to the user's workplace profile with the neighborhood assignment. The **Source** field of the user assignment is set as manual.
 
-</td></tr><tr><td id="d202180e309">
+</td></tr><tr><td id="d202184e309">
 
 **Remove users from the neighborhood**
 
@@ -114,7 +114,7 @@ Use the filter option to filter the users list. You can add up to 1000 users to 
 </table>    Neighborhood assignments are applicable if **Neighborhood** is selected as the group by or view by option in a scenario or building overview. Location assignments are applicable for all other options.
 
 
-**Parent Topic:**[Viewing or editing a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/viewing-editing-scenario.md)
+**Parent Topic:**[Viewing or editing a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/viewing-editing-scenario.md)
 
 **Related topics**  
 

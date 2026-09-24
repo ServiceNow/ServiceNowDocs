@@ -2,7 +2,7 @@
 title: SAM Maturity Assessment
 description: This Accelerator assesses your current Software Asset Management \(SAM\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/sw-asset-mgmt-maturity-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/sw-asset-mgmt-maturity-assessment.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

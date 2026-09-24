@@ -2,7 +2,7 @@
 title: Layout for Workspace Builder
 description: Workspace Builder has a navigation panel, header, preview pane, and configuration panel to enable bulding custom workspaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/wb-layout.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/workspace-builder/wb-layout.html
 release: australia
 product: Workspace Builder
 classification: workspace-builder
@@ -32,5 +32,5 @@ The Workspace Builder header has the following navigation options just below the
 -   Navigation configuration
 -   Record pages
 
-**Parent Topic:**[Exploring Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/exploring-workspace-builder.md)
+**Parent Topic:**[Exploring Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/exploring-workspace-builder.md)
 

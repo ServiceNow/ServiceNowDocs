@@ -2,7 +2,7 @@
 title: View or update customer contact information
 description: View or update your contact information from the customer portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_UpdateCustProfileInfo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_UpdateCustProfileInfo.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 **Related topics**  
 
 
-[Change your password directly from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ChangePasswordFromUserForm.md)
+[Change your password directly from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ChangePasswordFromUserForm.md)
 
-[Set email notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustServNotifPref.md)
+[Set email notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CustServNotifPref.md)
 

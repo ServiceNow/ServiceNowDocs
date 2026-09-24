@@ -2,7 +2,7 @@
 title: Activate other Service Management applications
 description: After the Service Management Core plugin has been activated, you can activate other SM applications, such as Field Service management and facilities service management. You can also activate CMS portals for each of these SM applications to add them to the Service Management Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_ActivateOtherSMApplications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_ActivateOtherSMApplications.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -173,5 +173,5 @@ com.snc.marketing\_service\_automation.cms
 Displays the Marketing Service Automation SM application on the Service Management portal. Activation of this plugin on production instances may require a separate license. Contact ServiceNow for details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateServiceManagement.md)
+</table>**Parent Topic:**[Activate Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateServiceManagement.md)
 

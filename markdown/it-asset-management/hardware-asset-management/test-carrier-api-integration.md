@@ -2,7 +2,7 @@
 title: Test the integration with the carrier API
 description: Check the connection with the carrier API to handle any connection issues such as invalid credentials, incorrect tracking details, and issues with the integration script include.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/test-carrier-api-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/test-carrier-api-integration.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -35,7 +35,7 @@ Role required: admin or domain\_admin
 
 A message that indicates the success or failure of the connection is displayed.
 
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 

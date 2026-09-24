@@ -2,7 +2,7 @@
 title: Publish an intelligent approval
 description: Set an intelligent approval to active and use it to make approval decisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/publish-an-intelligent-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/publish-an-intelligent-approval.html
 release: australia
 topic_type: task
 last_updated: "2026-07-01"

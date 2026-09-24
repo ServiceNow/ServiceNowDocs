@@ -2,7 +2,7 @@
 title: Example Asset Management process
 description: The best method for managing assets depends on business needs and how your business is organized.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_AssetManagementProcess.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/t\_AssetManagementProcess.html
 release: australia
 product: Asset Management
 classification: asset-management

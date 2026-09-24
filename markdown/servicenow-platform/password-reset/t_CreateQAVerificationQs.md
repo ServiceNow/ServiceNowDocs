@@ -2,7 +2,7 @@
 title: Add a custom question to the Security Questions verification
 description: To enroll for the 'Security Questions' verification, the user selects several questions and supplies confidential answers that only the user knows. You can add a custom question to the set of questions that are included with the base system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_CreateQAVerificationQs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/t\_CreateQAVerificationQs.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -63,5 +63,5 @@ The base system provides a large set of default questions in all supported langu
     3.  Repeat the process for each language that users might request.
 
 
-**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
+**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/customizing-password-reset.md)
 

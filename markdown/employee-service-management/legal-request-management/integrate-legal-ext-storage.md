@@ -2,7 +2,7 @@
 title: Configure an external storage system for legal requests and legal matters
 description: Configure an external storage system to store documents attached to legal requests and legal matters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/integrate-legal-ext-storage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/integrate-legal-ext-storage.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -51,15 +51,15 @@ Role required: sn\_lg\_ops.request\_config
 
 2.  Create or modify an external app configuration.
 
-<table id="choicetable_tdc_kmg_dtb"><thead><tr><th align="left" id="d454462e203">
+<table id="choicetable_tdc_kmg_dtb"><thead><tr><th align="left" id="d454466e203">
 
 Option
 
-</th><th align="left" id="d454462e206">
+</th><th align="left" id="d454466e206">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d454462e212">
+</th></tr></thead><tbody><tr><td id="d454466e212">
 
 **To create an external app configuration**
 
@@ -69,7 +69,7 @@ Steps
 2.  On the Integration Type page, select the **External Storage** link.
 
 
-</td></tr><tr><td id="d454462e236">
+</td></tr><tr><td id="d454466e236">
 
 **To modify an existing external app configuration**
 
@@ -216,14 +216,14 @@ The external storage system integration is published and is ready for storing do
 
 ## What to do next
 
-Add the **Enable External Storage for attachment** option in the intake forms so that the documents attached to those legal requestsor legal mattersare stored in the configured external storage. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md).
+Add the **Enable External Storage for attachment** option in the intake forms so that the documents attached to those legal requestsor legal mattersare stored in the configured external storage. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/associate-categories-practice-area.md).
 
-Configure the system properties for Legal Service Delivery apps to administer integration with the external storage provider. For more information, see [Legal Service Delivery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-properties.md).
+Configure the system properties for Legal Service Delivery apps to administer integration with the external storage provider. For more information, see [Legal Service Delivery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-properties.md).
 
--   **[Integrating Legal Service Delivery applications with iManage storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/configuring-imanage-integration.md)**  
+-   **[Integrating Legal Service Delivery applications with iManage storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/configuring-imanage-integration.md)**  
 Integrate iManage storage with Legal Service Delivery applications to provide more security to the files.
--   **[Create implementation in Scripted Extension Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-scripted-extension-point.md)**  
+-   **[Create implementation in Scripted Extension Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/create-scripted-extension-point.md)**  
 Create the implementation in the Scripted Extension Point, provided out-of-the-box, by placing it in the script include in the base application code.
 
-**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-ops-administration.md)
 

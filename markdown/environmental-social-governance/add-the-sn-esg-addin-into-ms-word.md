@@ -2,7 +2,7 @@
 title: Add the ServiceNow Document designer add-in into Microsoft Word
 description: Before you can import data into your Microsoft Word document to create your disclosure reports, you must add the ServiceNow Document designer add-in to your Microsoft Word application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/add-the-sn-esg-addin-into-ms-word.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/add-the-sn-esg-addin-into-ms-word.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ The Microsoft 365 for ServiceNow Reporting integration is activated and the foll
 -   **Manage Links**
 -   **Create claim**
 
-**Parent Topic:**[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-o365-with-servicenow.md)
+**Parent Topic:**[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrating-o365-with-servicenow.md)
 

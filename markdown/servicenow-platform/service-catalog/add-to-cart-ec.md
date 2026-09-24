@@ -2,7 +2,7 @@
 title: Add a catalog item to the shopping cart in Employee Center
 description: Add a catalog item or order guide to the shopping cart to store at one place and checkout.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/add-to-cart-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/add-to-cart-ec.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -81,10 +81,10 @@ Role required: requester
     The corresponding request is displayed in the My Requests page with the request number, estimated delivery date for the entire order, price, and the order status of individual ordered items.
 
 
-**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 
 **Related topics**  
 
 
-[Save a draft of a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/save-draft-catalog-item.md)
+[Save a draft of a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/save-draft-catalog-item.md)
 

@@ -2,7 +2,7 @@
 title: Configure a dynamic segment to display selected data in a record screen
 description: Configure a record screen with a dynamic screen segment so users can view records that correspond to selected segments, rather than view a complete list of records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/form-screen-dynamic-segment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/form-screen-dynamic-segment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,11 +18,11 @@ Configure a record screen with a dynamic screen segment so users can view record
 
 When configuring a dynamic screen segment within a record screen, ensure that you have created the following items:
 
--   A record screen, used to include a dynamic screen segment within the segmented control. For more information, see [Configure a parameterized record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-param-form-applet.md).
+-   A record screen, used to include a dynamic screen segment within the segmented control. For more information, see [Configure a parameterized record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-param-form-applet.md).
 -   An embedded list, used to display a list of records within the selected record screen. This list is selected from the **Dynamic segment item stream** field.
 -   A corresponding list to be displayed when each screen segment is selected. This process should resemble the embedded list procedure, with the addition of using a target table to which you are referencing.
 
-    For more information about embedded lists and the list to be displayed when a screen segment is selected, see [Embedded lists for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-embedded-list.md)
+    For more information about embedded lists and the list to be displayed when a screen segment is selected, see [Embedded lists for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-embedded-list.md)
 
 
 Role required: admin
@@ -37,7 +37,7 @@ Role required: admin
 
 4.  In the Segmented Control area, select the height and width of the segment buttons.
 
-    For a guide to the button sizes, see [Using dynamic segments to display data in a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/dynamic-segment-form-screen.md).
+    For a guide to the button sizes, see [Using dynamic segments to display data in a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/dynamic-segment-form-screen.md).
 
 5.  Right-click in the header and select **Save**.
 
@@ -94,5 +94,5 @@ Role required: admin
 
 ## What to do next
 
-Define the appearance of selected segment buttons. See, [Customize segment button colors in the segmented control area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/dynamic-segmented-control-config.md).
+Define the appearance of selected segment buttons. See, [Customize segment button colors in the segmented control area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/dynamic-segmented-control-config.md).
 

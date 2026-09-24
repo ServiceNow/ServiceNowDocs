@@ -2,7 +2,7 @@
 title: Activate adaptive authentication
 description: You can activate the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\) for Adaptive Authentication if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/adaptive-authentication-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/adaptive-authentication-plugin.html
 release: australia
 product: Authentication
 classification: authentication
@@ -39,5 +39,5 @@ You can activate the Adaptive Authentication plugin \(com.snc.adaptive\_authenti
 
 Configure your authentication policies to enforce contextual authentication controls on your instance.
 
-Once your policies are configured. Enable adaptive authentication using the **Enable Authentication Policy** policy. For details on adaptive authentication properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-adaptive-auth-properties.md).
+Once your policies are configured. Enable adaptive authentication using the **Enable Authentication Policy** policy. For details on adaptive authentication properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-adaptive-auth-properties.md).
 

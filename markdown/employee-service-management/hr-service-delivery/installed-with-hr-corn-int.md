@@ -2,7 +2,7 @@
 title: Components installed with HR Service Delivery Integration with Cornerstone OnDemand
 description: Several types of components are installed with activation of the HR Service Delivery Integration with Cornerstone OnDemand plugin \[sn\_hr\_cornerstone\], including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-hr-corn-int.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/installed-with-hr-corn-int.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -78,7 +78,7 @@ CSOD Status\[sn\_hr\_cornerstone\_status\]
 Status of transcripts in the Cornerstone OnDemand system.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-ondemand.md)
+</table>**Parent Topic:**[Reference for HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-ondemand.md)
 
 **Related topics**  
 

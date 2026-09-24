@@ -2,7 +2,7 @@
 title: Summary of transfer order line tasks
 description: As assets move through the transfer process, the stage of a transfer order is updated based on the individual transfer order lines tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/r\_SummaryOfTransferOrderStages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/r\_SummaryOfTransferOrderStages.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -76,11 +76,11 @@ After the **Received** task is closed, this task is created. After you close the
 </table>**Related topics**  
 
 
-[Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)
+[Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)
 
-[Transfer order line asset tracking of non-consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackNonConsum.md)
+[Transfer order line asset tracking of non-consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackNonConsum.md)
 
-[Transfer order line asset tracking consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackConsum.md)
+[Transfer order line asset tracking consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackConsum.md)
 
-[Transfer order flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/transfer-order-flows.md)
+[Transfer order flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/transfer-order-flows.md)
 

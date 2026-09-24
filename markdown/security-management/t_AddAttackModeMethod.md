@@ -2,7 +2,7 @@
 title: Define an attack mode/method
 description: Attack modes and methods are imported with STIX data, but you can add new modes/methods, as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/t\_AddAttackModeMethod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/t\_AddAttackModeMethod.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Select classification tag
 
 </td><td>
 
-If you set up and activated [classification tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-class-group-and-tags.md) to add metadata to the record, you can select one or more tags to specify the degree of sensitivity of the attack mode/method. If you did not set up or activate classification tags, this drop-down list is not displayed.
+If you set up and activated [classification tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-class-group-and-tags.md) to add metadata to the record, you can select one or more tags to specify the degree of sensitivity of the attack mode/method. If you did not set up or activate classification tags, this drop-down list is not displayed.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Source
 
 </td><td>
 
-Select the threat data source for this attack mode/method. Some data sources are included with the base system. You can [create new data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md) as needed.
+Select the threat data source for this attack mode/method. Some data sources are included with the base system. You can [create new data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_GetStartedWithThreatIntel.md) as needed.
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Enter the intended effect of this type of attack.
     |Associated Tasks|Lists changes associated with the parent attack mode/method.|
 
 
-**Parent Topic:**[Attack modes and methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_AttackModeMethod.md)
+**Parent Topic:**[Attack modes and methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_AttackModeMethod.md)
 
 **Related topics**  
 

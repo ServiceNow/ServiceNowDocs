@@ -2,7 +2,7 @@
 title: Domain separation and Contextual Search
 description: Domain separation is supported in Contextual Search. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/domain-separation-contextual-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/contextual-search/domain-separation-contextual-search.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -33,7 +33,7 @@ By default, Contextual Search Suggestions results that appear use the domain of 
 
 ## Search as a different user
 
-In addition to being able to search for results using the domain of the logged-in user, the administrator can also configure Contextual Search to [Search as a different user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_SearchAsDifferentUser.md) .
+In addition to being able to search for results using the domain of the logged-in user, the administrator can also configure Contextual Search to [Search as a different user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/t_SearchAsDifferentUser.md) .
 
 When **Search as** is configured, two tabs appear in the search results:
 
@@ -53,10 +53,10 @@ Example: The same Incident displaying search results for the user from the **Cal
 
 \[Omitted image "ContextualSearch-CallerResults.png"\] Alt text: Beth Anglin Results tab showing search results for the user specified as the Incident record's Caller.
 
-**Parent Topic:**[Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/c_ContextualSearch.md)
+**Parent Topic:**[Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/c_ContextualSearch.md)
 
 **Related topics**  
 
 
-[Enable viewing of search results for the current and another selected user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_SearchAsDifferentUser.md)
+[Enable viewing of search results for the current and another selected user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/t_SearchAsDifferentUser.md)
 

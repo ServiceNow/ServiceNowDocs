@@ -2,7 +2,7 @@
 title: Edit TPRM dashboard elements
 description: You can edit the contents of a dashboard or dashboard tab, including data visualizations and filters. Because dashboards are shared, any changes you make are applied globally.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-edit-db-elements.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-edit-db-elements.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -165,7 +165,7 @@ Point to the element, then select the information icon \[Omitted image "Informat
 **Related topics**  
 
 
-[Create a TPRM dashboard with the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-db.md)
+[Create a TPRM dashboard with the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-db.md)
 
-[Share a TPRM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-share-db.md)
+[Share a TPRM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-share-db.md)
 

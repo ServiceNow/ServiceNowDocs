@@ -2,12 +2,12 @@
 title: Build Agent use cases
 description: Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/additional-build-agent-use-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/additional-build-agent-use-cases.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-20"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -46,7 +46,7 @@ Use the following scenarios to identify specific ways to apply Build Agent in yo
     -   Create optional activities scoped globally or to a specific stage
     -   Configure Set Playbook Outputs activity definitions for nested playbooks
     -   Set Agentic activity fields on form-based and record-based activities
-    For details on using playbooks with Build Agent, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md). For more information on using playbooks, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
+    For details on using playbooks with Build Agent, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-supported-metadata.md). For more information on using playbooks, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
 
 -   **App gap analysis**
 
@@ -181,5 +181,5 @@ Build \(new development on non-production\)
 -   Build from design mockups or a detailed PRD, complete with automated test coverage from day one
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+</table>**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-build-agent.md)
 

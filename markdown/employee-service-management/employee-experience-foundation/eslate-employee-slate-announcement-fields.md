@@ -2,7 +2,7 @@
 title: Announcement form
 description: Field descriptions for creating and configuring the announcements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-employee-slate-announcement-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-employee-slate-announcement-fields.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -168,7 +168,7 @@ Date and time when the chat promotion is sent. This can be independent of the pu
 </td></tr></tbody>
 </table>## Content priority levels
 
-To create an announcement through chat, see [Conversational authoring for announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-conversational-authoring-announcements.md).
+To create an announcement through chat, see [Conversational authoring for announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-conversational-authoring-announcements.md).
 
 |Priority level|Behavior|
 |--------------|--------|

@@ -2,7 +2,7 @@
 title: Create a chat channel template for Slack
 description: Configure Chat Teams and Channel Templates to create chat teams and channels to collaborate, track the chat conversations, and add users and user groups to those Chat Channels. These Channel templates are created in Slack when a major security incident is promoted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-chat-channel-template-slack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-chat-channel-template-slack.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -108,5 +108,5 @@ Select the **Unlock Channel User Groups** icon, and add the user groups who can 
 
 The chat channel is now created and the users are assigned to those chat channel groups. You can view the collaboration chat activities both in Slack and in the Collaboration activity stream of the MSIM Workspace with the organized chat channel hierarchy structure as configured in the Chat Channel provider configuration.
 
-**Parent Topic:**[Configure Slack chat connector for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-slack-chat-connector-msi.md)
+**Parent Topic:**[Configure Slack chat connector for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-slack-chat-connector-msi.md)
 

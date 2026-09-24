@@ -2,7 +2,7 @@
 title: Manage status of your projects using Project Status application
 description: The Project Status mobile app enables you to track the status of your projects, collaborate with stakeholders to resolve exceptions, and take timely actions regardless of your location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/mobile-project-status.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/mobile-project-status.html
 release: australia
 product: Project Management
 classification: project-management
@@ -35,15 +35,15 @@ The Project Status mobile application runs on the ServiceNow® mobile platform. 
 **Related topics**  
 
 
-[Activate Mobile Project Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/activate-ppm-mobile.md)
+[Activate Mobile Project Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/activate-ppm-mobile.md)
 
-[Get started with Project Status app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/getstarted-project-status-app-mobile.md)
+[Get started with Project Status app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/getstarted-project-status-app-mobile.md)
 
-[View project details on the mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/view-project-details-mobile.md)
+[View project details on the mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/view-project-details-mobile.md)
 
-[View project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/view-project-status-mobile.md)
+[View project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/view-project-status-mobile.md)
 
-[Create RIDAC records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-ridac-mobile.md)
+[Create RIDAC records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-ridac-mobile.md)
 
-[Collaborate with project stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/collaborate-on-project-mobile.md)
+[Collaborate with project stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/collaborate-on-project-mobile.md)
 

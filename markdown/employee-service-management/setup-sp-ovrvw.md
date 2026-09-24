@@ -2,7 +2,7 @@
 title: Setting up the SharePoint Online Search Connector
 description: Set up the SharePoint Online Search Connector by configuring and connecting the Microsoft SharePoint tenant with your instance. Validate the connection to avoid any setup failures before indexing the sites for search.Configure your Microsoft SharePoint tenant to get started with the SharePoint Online Search Connector.Link search sources to a search profile to specify the content users can search through the linked search profile.Connect your ServiceNow instance with a Microsoft SharePoint tenant. Create custom ServiceNow OAuth connections for Microsoft SharePoint to authenticate ServiceNow requests.Run a validation after you connect your ServiceNow instance with a Microsoft SharePoint tenant to check for any errors in the configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/setup-sp-ovrvw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/setup-sp-ovrvw.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -128,7 +128,7 @@ When you want the search results to display only the published versions of the d
 
 ### What to do next
 
-Complete the integration from your ServiceNow AI Search account. For more information, see [Integrate the Microsoft SharePoint search sources with the AI Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md).
+Complete the integration from your ServiceNow AI Search account. For more information, see [Integrate the Microsoft SharePoint search sources with the AI Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/setup-sp-ovrvw.md).
 
 ## Integrate the Microsoft SharePoint search sources with the AI Search profiles
 
@@ -151,7 +151,7 @@ Role required: admin
 
 ### What to do next
 
-Connect the ServiceNow® instance with the Microsoft SharePoint tenant. Complete the steps from your ServiceNow® account. For more information, see [Connect your ServiceNow instance to a Microsoft SharePoint tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md).
+Connect the ServiceNow® instance with the Microsoft SharePoint tenant. Complete the steps from your ServiceNow® account. For more information, see [Connect your ServiceNow instance to a Microsoft SharePoint tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/setup-sp-ovrvw.md).
 
 ## Connect your ServiceNow instance to a Microsoft SharePoint tenant
 
@@ -178,11 +178,11 @@ Role required: sn\_sp\_con.admin and admin.
 
     1.  On the Graph connection form, fill in the fields.
 
-        For a description of the field value, see [Graph connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/graph-connection-form.md).
+        For a description of the field value, see [Graph connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/graph-connection-form.md).
 
     2.  On the REST connection form, fill in the fields.
 
-        For a description of the field value, see [REST connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/rest-connection-form.md).
+        For a description of the field value, see [REST connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/rest-connection-form.md).
 
     3.  Right-click the form header and click **Save**.
 
@@ -406,7 +406,7 @@ Global
 
             Ensure that you log in to your Microsoft SharePoint instance with the Tenant administrator credentials to get the OAuth token for the REST connection. Store the credentials in the instance.
 
-            Validate the credential to avoid any configuration failure. For more information on validating the SharePoint connection, see [Validate the Microsoft SharePoint connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md).
+            Validate the credential to avoid any configuration failure. For more information on validating the SharePoint connection, see [Validate the Microsoft SharePoint connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/setup-sp-ovrvw.md).
 
     3.  Click **Save**.
 
@@ -454,7 +454,7 @@ Your configuration is complete.
 
 ### What to do next
 
-[Validate the Microsoft SharePoint connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md) to rule out any configuration failure before indexing a sample site.
+[Validate the Microsoft SharePoint connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/setup-sp-ovrvw.md) to rule out any configuration failure before indexing a sample site.
 
 ## Validate the Microsoft SharePoint connection
 
@@ -487,5 +487,5 @@ The validation rules out any configuration failure and ensures a seamless setup 
 
 ### What to do next
 
-Index sites for search. For more information, see [Index sites for search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-how-to-configure-search.md).
+Index sites for search. For more information, see [Index sites for search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/sharepoint-how-to-configure-search.md).
 

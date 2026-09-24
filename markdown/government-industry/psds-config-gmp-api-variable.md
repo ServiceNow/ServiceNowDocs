@@ -2,7 +2,7 @@
 title: Create a case API Variable for a PaCE policy in Grants Management ​
 description: Create a case API variable to transfer the information collected from the case to the PaCE eligibility rules engine. This will be used when creating a policy and referencing fields on the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-api-variable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-api-variable.html
 release: australia
 topic_type: task
 last_updated: "2025-12-02"
@@ -54,10 +54,10 @@ An API variable is created, and will pass the value to the policy whenever the p
 
 Create a data collector for a PaCE policy.
 
-**Parent Topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-eligibility.md)
+**Parent Topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-eligibility.md)
 
 **Related topics**  
 
 
-[Create a case data collector for a PaCE policy in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-data-collector.md)
+[Create a case data collector for a PaCE policy in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-data-collector.md)
 

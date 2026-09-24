@@ -2,7 +2,7 @@
 title: Post a video in the community
 description: Post a video in a forum or sub forum.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-video.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/create-video.html
 release: australia
 product: Communities
 classification: communities
@@ -91,10 +91,10 @@ Description for your video.
     Once a video is uploaded, other community users can comment on it, give feedback, subscribe to the video, bookmark it, and report any inappropriate content in the video.
 
 
-**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/post-respond-content.md)
+**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/post-respond-content.md)
 
 **Related topics**  
 
 
-[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/disable-comments.md)
+[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/disable-comments.md)
 

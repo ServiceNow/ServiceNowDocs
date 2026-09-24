@@ -2,7 +2,7 @@
 title: Create a business unit strategy
 description: Business units are segments of an enterprise that are in charge of certain operations such as Finance, HR, IT. Each of these business units can have a strategy that aligns with the enterprise or with another business unit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/create-a-business-unit-strategy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/create-a-business-unit-strategy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,5 +46,5 @@ Role required: user\_admin, business\_planner
 
 ## What to do next
 
-View the strategic objectives that you’ve created in the [business planning portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/overview-business-planning.md). The records of business planning strategic objectives give you a clear visibility of the status, to whom they’re assigned to, the period of validity, and their type.
+View the strategic objectives that you’ve created in the [business planning portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/overview-business-planning.md). The records of business planning strategic objectives give you a clear visibility of the status, to whom they’re assigned to, the period of validity, and their type.
 

@@ -2,7 +2,7 @@
 title: AI threat protection
 description: Learn how Now Assist helps defend against AI-specific threats including offensive content, prompt injection, and sensitive subject detection using AI Guardian.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-threat-protection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-threat-protection.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -58,5 +58,5 @@ The following topics describe how to review and export AI Guardian logs to evalu
     Export logs from AI Guardian to get insights into how often different guardrails are being detected and used.
 
 
-**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)
+**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-security.md)
 

@@ -2,7 +2,7 @@
 title: Configure Employee Slate for Now Assist
 description: Configure Employee Slate for Now Assist to provide a conversational interface for employee portal queries on CBS. Use the Configuration Summary page to complete setup across six sections and export the finished configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/config-es-cbs-na.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/config-es-cbs-na.html
 release: australia
 topic_type: task
 last_updated: "2026-06-05"
@@ -47,7 +47,7 @@ The Configuration Summary page tracks setup progress across six sections: **Appe
 
 7.  On the Configuration Summary menu follow through the steps.
 
-    For a description of the field values, see [Employee Slate for Now Assist configuration menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/es-na-cbs-fsummary.md).
+    For a description of the field values, see [Employee Slate for Now Assist configuration menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/es-na-cbs-fsummary.md).
 
 8.  Select **Mark as configured** after finishing configuration of each section.
 
@@ -56,5 +56,5 @@ The Configuration Summary page tracks setup progress across six sections: **Appe
 
 After all sections are complete, the setup status on the Configuration Summary page shows 100% configured. Select **Package and download** to export the configuration.
 
-**Parent Topic:**[Employee Slate configuration for CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/employee-slate-config-cbs.md)
+**Parent Topic:**[Employee Slate configuration for CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/employee-slate-config-cbs.md)
 

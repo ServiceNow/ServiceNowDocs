@@ -2,7 +2,7 @@
 title: Configuring push notifications for task assignment
 description: Assign tasks and send reminders to customer service agents and field technicians using push notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/push-notifications-tasks-slas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/push-notifications-tasks-slas.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

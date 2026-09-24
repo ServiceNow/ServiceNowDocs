@@ -2,7 +2,7 @@
 title: CMDB — Servers connected to a database
 description: Use this example to build a CMDB query to find all servers with a connection to a database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-tutorial.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-tutorial.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

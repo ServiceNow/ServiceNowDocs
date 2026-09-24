@@ -2,7 +2,7 @@
 title: SC Popular Items widget
 description: List of Service Catalog items that users purchase often. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-popular-items.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/sc-popular-items.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -29,7 +29,7 @@ You can view order guides in the Service Catalog Popular Items widget as a stand
 |Limit|Maximum number of popular items shown. The default number is 9.|
 |Include Record Producers|Includes requests made through [record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).|
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Configure the default canvas dashboard
 description: Configure the default canvas dashboard that EmployeeWorks Web App presents to employees before they personalize their canvas. Set the subtitle, widget layout, and preview experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-canvas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-canvas.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

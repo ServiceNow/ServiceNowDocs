@@ -2,7 +2,7 @@
 title: Configure alert flapping
 description: Set flapping properties to determine when an alert enters and exits the flapping state. Flapping can indicate configuration problems \(that is, thresholds set too low\), troublesome services, or real network problems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigAlertStateFlapDetect.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMConfigAlertStateFlapDetect.html
 release: australia
 product: Event Management
 classification: event-management
@@ -86,14 +86,14 @@ Flap quiet interval \(in seconds\), quiet time that must pass for an alert to ex
 
 ## What to do next
 
-You can monitor the **Event Management** &gt; **All Alerts** list for alerts that are in the flapping state. For details, see [View alerts in the flapping state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlertFlapping.md).
+You can monitor the **Event Management** &gt; **All Alerts** list for alerts that are in the flapping state. For details, see [View alerts in the flapping state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewAlertFlapping.md).
 
-**Parent Topic:**[Alert lifecycle configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlertRule.md)
+**Parent Topic:**[Alert lifecycle configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/c_EMAlertRule.md)
 
 **Related topics**  
 
 
-[Work with flapping alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-handle-alerts-flapping.md)
+[Work with flapping alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-handle-alerts-flapping.md)
 
-[View alerts in the flapping state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlertFlapping.md)
+[View alerts in the flapping state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewAlertFlapping.md)
 

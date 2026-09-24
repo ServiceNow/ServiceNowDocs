@@ -2,7 +2,7 @@
 title: Update cloud account details
 description: Keep account details up to date so you can identify and resolve policy violations effectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/update-account-ownership.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-account-management/update-account-ownership.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

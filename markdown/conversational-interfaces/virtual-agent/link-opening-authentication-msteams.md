@@ -2,7 +2,7 @@
 title: Configure link authentication and opening experience in Microsoft Teams
 description: Link authentication and opening experience in Microsoft Teams provides a seamless experience for end users to interact with ServiceNow links when you use Virtual Agent on Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/link-opening-authentication-msteams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/link-opening-authentication-msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -71,8 +71,8 @@ To configure smart links to open in a pop-up or Microsoft Teams tab, admins must
     You receive a confirmation that your app ID has been saved successfully. You notice that the status of against SSO is green.
 
 
--   **[Configuring smart links in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-teams-sso.md)**  
+-   **[Configuring smart links in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-teams-sso.md)**  
 Configure smart links for your Virtual Agent app in Microsoft Teams to enable different link opening experiences.
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

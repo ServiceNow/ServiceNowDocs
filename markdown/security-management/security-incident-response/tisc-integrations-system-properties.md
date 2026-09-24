@@ -2,7 +2,7 @@
 title: System properties to send data
 description: Review the system properties for TISC integrations to combine with SIRW. You can configure these properties to control how both applications manages the integrations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/tisc-integrations-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/tisc-integrations-system-properties.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +33,7 @@ The following lists shows the system properties for TISC - SIR integration:
 -   Push observables: Enable sn\_ti.automatic\_push\_observable\_to\_tisc this system property to push observables data automatically to TISC. If disabled, security analysts can still push the observables data manually.
 -   Push enrichment results: Enable sn\_ti.automatic\_push\_enichment\_results this system property to push enrichment results data automatically to TISC. If disabled, security analysts can still push the enrichment results data manually.
 
-**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
+**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/send-sir-to-tisc.md)
 
 **Related topics**  
 

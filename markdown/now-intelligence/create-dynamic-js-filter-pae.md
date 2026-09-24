@@ -2,7 +2,7 @@
 title: Add a dynamic JavaScript filter
 description: Add a dynamic JavaScript statement for evaluation as part of a report visualization's filter criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dynamic-js-filter-pae.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-dynamic-js-filter-pae.html
 release: australia
 topic_type: task
 last_updated: "2026-05-01"
@@ -273,5 +273,5 @@ Textual representation of a complete or partial field name value.For the "is one
 
 After you add the necessary JavaScript statements and conditions and configure the remainder of the report, test the report to ensure it returns and displays the expected results.
 
-**Parent Topic:**[Filter data visualizations with the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-dv-condition-builder.md)
+**Parent Topic:**[Filter data visualizations with the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/filter-dv-condition-builder.md)
 

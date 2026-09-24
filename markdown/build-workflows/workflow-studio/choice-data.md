@@ -2,7 +2,7 @@
 title: Choice data
 description: Store choice list values for a specific choice field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/choice-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/choice-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -87,5 +87,5 @@ Choices
 Specify the choices available to select. Use the add button \(\[Omitted image "green-add-button.png"\] Alt text: Add button\) to create a choice. Each choice must have a **Name**, **Value**, and **Order**. See [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md) for more information about choice lists.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
+</table>**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md)
 

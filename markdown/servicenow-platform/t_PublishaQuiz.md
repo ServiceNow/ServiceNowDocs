@@ -2,7 +2,7 @@
 title: Publish a quiz
 description: When you publish a quiz, the system sends email notifications to the recipients and to their managers. A card in each recipient's My Assessments &amp; Surveys portal displays a link to the quiz.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_PublishaQuiz.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_PublishaQuiz.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,10 +25,10 @@ Role required: assessment\_admin or admin
 2.  When you are satisfied with the quiz, click **Save and Publish** or **Publish** to distribute it.
 
 
-**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateaQuiz.md)
 
 **Related topics**  
 
 
-[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
+[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizDesigner.md)
 

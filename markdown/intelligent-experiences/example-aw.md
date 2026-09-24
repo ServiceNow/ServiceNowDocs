@@ -2,7 +2,7 @@
 title: Example agentic workflow
 description: Use the example agentic workflow with clear name, description, and list of steps fields to use as a guide when creating your own agentic workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/example-aw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/example-aw.html
 release: australia
 topic_type: concept
 last_updated: "2025-10-16"

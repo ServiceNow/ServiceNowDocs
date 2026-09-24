@@ -2,7 +2,7 @@
 title: Timer workflow activities
 description: Timer activities pause workflows for set periods of time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/c\_TimerActivities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-activities/c\_TimerActivities.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -19,5 +19,5 @@ Timer activities pause workflows for set periods of time.
 **Related topics**  
 
 
-[Use multiple timer activities in one workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_MltTmActWkflw.md)
+[Use multiple timer activities in one workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-activities/c_MltTmActWkflw.md)
 

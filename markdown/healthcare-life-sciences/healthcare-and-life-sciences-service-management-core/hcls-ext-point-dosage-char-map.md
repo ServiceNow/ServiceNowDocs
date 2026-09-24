@@ -2,7 +2,7 @@
 title: Configure the mapping between a dosage characteristic and a dosage details field
 description: Use scripted extension points to decide which dosage characteristics are mapped to the fields on the Dosage details section of a Medication Prescription form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-ext-point-dosage-char-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-ext-point-dosage-char-map.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

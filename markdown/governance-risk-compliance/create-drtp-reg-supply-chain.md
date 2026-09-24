@@ -2,7 +2,7 @@
 title: Create a supply chain and enhance digital resilience data
 description: Create an Information and Communication Technology \(ICT\) service supply chain record in Digital resilience third-party registers. Add details of the supply chain such as type of the ICT services, Legal Entity Identifier \(LEI\) of the entity that provides the ICT services, and so on. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-drtp-reg-supply-chain.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-drtp-reg-supply-chain.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ Before saving an ICT service supply chain record, the system checks for duplicat
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Create an ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-supply-chain-form.md).
+    For more information, see [Create an ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-supply-chain-form.md).
 
 4.  Select **Save**.
 
@@ -61,8 +61,8 @@ Before saving an ICT service supply chain record, the system checks for duplicat
 10. To delete the supply chain record, select it from the list and select **Delete**.
 
 
--   **[Create an ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-supply-chain-form.md)**  
+-   **[Create an ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-supply-chain-form.md)**  
 On the Create an ICT service supply chain form, fill in the fields.
 
-**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-dg-registers.md)
 

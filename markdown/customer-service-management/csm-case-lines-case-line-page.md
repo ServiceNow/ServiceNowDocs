@@ -2,7 +2,7 @@
 title: Case line item page
 description: The case line item page displays information about a case line item associated with a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-lines-case-line-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-case-lines-case-line-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +23,7 @@ The case line item page includes the following tabs:
 -   Details: Displays the case line item details, including order and account information, ordered and requested quantities, and shipping information.
 -   Case Line Characteristics: Displays the specific characteristics of the case line item.
 -   Case Line Tasks: Displays the tasks created for the case line item.
--   Case Line Entitlements: Displays the entitlements associated with the case line item. The visibility of the Entitlements tab is controlled by the [sn\_customerservice.advanced\_entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-mgmt-case-lines-install-comp.md) system property.
+-   Case Line Entitlements: Displays the entitlements associated with the case line item. The visibility of the Entitlements tab is controlled by the [sn\_customerservice.advanced\_entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-mgmt-case-lines-install-comp.md) system property.
 
     The Entitlements tab displays the entitlements associated with the case line item. From this tab, users can associate one or more entitlements to a case line item. The system displays the available entitlements for a case line item based on the customer's service contracts and accounts.
 

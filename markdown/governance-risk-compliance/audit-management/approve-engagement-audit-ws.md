@@ -2,7 +2,7 @@
 title: Approve or reject an engagement in Audit Workspace
 description: If you are an audit user and are assigned as an approver for an engagement, you can approve or reject an engagement in the Awaiting Approval state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/approve-engagement-audit-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/approve-engagement-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

@@ -2,7 +2,7 @@
 title: ITSM Virtual Agent resources analytics
 description: Track knowledge base articles and catalog items referenced in the ITSM Virtual Agent interactions to identify which resources support successful incident deflections instead of being transferred to a live agent for resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-resources.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm

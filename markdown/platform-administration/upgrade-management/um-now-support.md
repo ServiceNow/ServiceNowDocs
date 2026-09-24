@@ -2,7 +2,7 @@
 title: Now Support in Upgrade Console
 description: Try contacting Now Support if you need any assistance regarding Upgrade Console.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-now-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-now-support.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -18,7 +18,7 @@ Try contacting Now Support if you need any assistance regarding Upgrade Console.
 
 Click [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case) for more information.
 
-**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-tools.md)
+**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-tools.md)
 
 **Related topics**  
 

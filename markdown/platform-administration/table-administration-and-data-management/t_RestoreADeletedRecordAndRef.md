@@ -2,7 +2,7 @@
 title: Use the Deleted Records module to restore a deleted record
 description: You can recover deleted records that are in audited tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_RestoreADeletedRecordAndRef.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/t\_RestoreADeletedRecordAndRef.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -24,7 +24,7 @@ Role required: admin
 
 The instance can track deletions on any table, and references on audited tables, with a few exceptions. Record deletions are not tracked in these circumstances:
 
--   Record deletions are not tracked on tables with the `no_audit_delete=true` [dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md).
+-   Record deletions are not tracked on tables with the `no_audit_delete=true` [dictionary attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md).
 -   Not all tables with a sys prefix track deletions by default. You can [Enable auditing for a system table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ConSysTablDelAud.md).
 -   References are restored only if the reference field is on an audited table and the Restore Deleted Record plugin is activated.
 -   References that use an **Image** field type are not restored.
@@ -39,7 +39,7 @@ The instance can track deletions on any table, and references on audited tables,
 
 3.  Do one of the following to restore the record.
 
-<table id="choicetable_rxr_mx3_jdb"><tbody><tr><td id="d256389e126">
+<table id="choicetable_rxr_mx3_jdb"><tbody><tr><td id="d256458e126">
 
 **Undelete With Related**
 
@@ -47,7 +47,7 @@ The instance can track deletions on any table, and references on audited tables,
 
 Recovers the record and all cascaded deletes and other database actions that resulted from the delete.This option appears when a rollback context is available for the delete.
 
-</td></tr><tr><td id="d256389e138">
+</td></tr><tr><td id="d256458e138">
 
 **Recover entire operation**
 
@@ -55,7 +55,7 @@ Recovers the record and all cascaded deletes and other database actions that res
 
 If this record was deleted as part of another delete, all records from the parent delete are recovered including all cascaded deletes and other database actions that resulted from the parent delete. If this is the top level delete, then this is the same as **Undelete with Related**.This option appears when a rollback context is available for the delete.
 
-</td></tr><tr><td id="d256389e153">
+</td></tr><tr><td id="d256458e153">
 
 **Undelete Record**
 
@@ -77,5 +77,5 @@ The undelete operation performs an insert, which can trigger business rules. Thi
 
 When the process completes, a Restore Summary itemizes the changes and provides links for viewing the restored record or returning to the deleted records list.
 
-**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
+**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
 

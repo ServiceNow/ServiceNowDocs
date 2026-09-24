@@ -2,7 +2,7 @@
 title: Configure granular delegation rules for an approver
 description: Set up delegation rules that enable an approver in Advanced Approval Management to assign a delegate who can accept or reject approval requests on behalf of the approver.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-approval-delegation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-approval-delegation.html
 release: australia
 topic_type: task
 last_updated: "2026-06-27"

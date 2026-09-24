@@ -2,7 +2,7 @@
 title: Certification Audit Logics
 description: Audit Results are created for each audit executed on records that matched the selection \(see matching conditions in Initial Certification Audit Run\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/certification-audit-logics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/certification-audit-logics.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

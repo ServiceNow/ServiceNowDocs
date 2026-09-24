@@ -2,7 +2,7 @@
 title: Add group members to a business organization
 description: Enroll or add group members to a business organization \(formerly business location\) to create a dedicated group or team focused on specific cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-group-members-to-a-business-location-so.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-group-members-to-a-business-location-so.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Enroll or add group members to a business organization \(formerly business locat
 
 Role required: admin
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 

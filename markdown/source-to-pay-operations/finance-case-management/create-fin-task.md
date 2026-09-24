@@ -2,7 +2,7 @@
 title: Create a finance task
 description: Create a finance task and associate it to a finance case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/create-fin-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/finance-case-management/create-fin-task.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -44,10 +44,10 @@ Role required: sn\_fin\_ops.admin, sn\_fin\_ops.specialist
 
 7.  On the Create New Finance Task form, fill in the fields.
 
-    For more information on the form fields and descriptions, see [Create a finance task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/create-fin-task-form.md).
+    For more information on the form fields and descriptions, see [Create a finance task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/create-fin-task-form.md).
 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

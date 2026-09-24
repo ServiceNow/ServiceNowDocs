@@ -2,7 +2,7 @@
 title: Now Assist for Employee Center Pro release notes
 description: The ServiceNow Now Assist for Employee Center Pro application offers the portal experience with all the employee communications and engagement tools. Now Assist for Employee Center Pro is a new application in the Australia release.The ServiceNow Now Assist for Employee Center Pro application offers the portal experience with all the employee communications and engagement tools. Now Assist for Employee Center Pro is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-employee-center-pro-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-for-employee-center-pro-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ See  for more information.
     Now Assist for Employee Center Pro only provides employee or requester conversations and might require other Now Assist products to deliver AI agents or other related features.
 
 
-**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/uex-rn-landing.md)
 
 ## Australia
 

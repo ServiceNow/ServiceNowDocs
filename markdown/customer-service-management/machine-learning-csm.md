@@ -2,7 +2,7 @@
 title: Machine learning solutions for Customer Service Management
 description: Machine learning in Customer Service Management helps with case creation, assignment, and resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/machine-learning-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/machine-learning-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Machine learning in Customer Service Management helps with case creation, assign
 
 </th></tr></thead><tbody><tr><td>
 
-[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intelligence.md)
+[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intelligence.md)
 
 </td><td>
 
@@ -35,7 +35,7 @@ Use the following AI capabilities to automate several routine tasks across the c
 
 </td></tr><tr><td>
 
-[Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/predictive-intelligence-for-csm.md)
+[Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/predictive-intelligence-for-csm.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ Use predictive intelligence solution definitions to assist agents with a variety
 
 </td></tr><tr><td>
 
-[Trending case topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/trending-case-topics.md)
+[Trending case topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/trending-case-topics.md)
 
 </td><td>
 
@@ -51,7 +51,7 @@ Identify clusters of cases with similar issues and pinpoint factors that drive u
 
 </td></tr><tr><td>
 
-[Similar case recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-similar-cases.md)
+[Similar case recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-similar-cases.md)
 
 </td><td>
 
@@ -59,7 +59,7 @@ Enable customer service agents to easily find similar cases that can provide hel
 
 </td></tr><tr><td>
 
-[Estimated time to resolve a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ettr.md)
+[Estimated time to resolve a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ettr.md)
 
 </td><td>
 
@@ -67,7 +67,7 @@ Predict the estimated time to resolve a case based on attributes such as the cas
 
 </td></tr><tr><td>
 
-[Predictive Intelligence for case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-intelligence-case-mgmt.md)
+[Predictive Intelligence for case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/agent-intelligence-case-mgmt.md)
 
 </td><td>
 
@@ -75,7 +75,7 @@ Predict values for a case, such as the category, priority, and assignment group,
 
 </td></tr><tr><td>
 
-[Auto-responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-auto-responder.md)
+[Auto-responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-auto-responder.md)
 
 </td><td>
 

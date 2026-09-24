@@ -2,7 +2,7 @@
 title: Set up the Workfront spoke
 description: Set up an outbound integration between the ServiceNow instance and the Workfront instance.Generate an API key for authenticating Workfront API requests.Create a connection record between the ServiceNow instance and the Workfront instance. The connection record consists of the connection details and the API key.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-workfront.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-workfront.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -108,7 +108,7 @@ API Key
 
 </td><td>
 
-The API key that you generated from the Workfront instance. To learn how to generate an API key, see [Generate a Workfront API key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workfront.md).
+The API key that you generated from the Workfront instance. To learn how to generate an API key, see [Generate a Workfront API key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-workfront.md).
 
 </td></tr></tbody>
 </table>8.  Click **Configure Connection**.

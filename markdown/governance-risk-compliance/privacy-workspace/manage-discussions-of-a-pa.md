@@ -2,7 +2,7 @@
 title: Manage chat collaborations of a processing activity
 description: Initiate quick discussions with key stakeholders while working on a processing activity, privacy case, or a personal data rights request. The chat feature is integrated with Microsoft Teams and a group is automatically created on Microsoft Teams when a discussion is initiated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/manage-discussions-of-a-pa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/manage-discussions-of-a-pa.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -43,5 +43,5 @@ Because privacy cases are time-sensitive, they sometimes need quick collaboratio
 
 The chat gets stored and can be viewed under Activity on the side panel.
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

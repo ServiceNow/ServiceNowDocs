@@ -2,7 +2,7 @@
 title: Use the GetEnvironmentVariable component
 description: Retrieve the value of an environment variable by using the GetEnvironmentVariable component in RPA Desktop Design Studio. For example, you can get the value of the TEMP variable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-environment-getenvvari.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-environment-getenvvari.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetEnvironmentVariable component. For more information about these properties, see [Properties of the Environment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-environment-prop.md).
+You can configure the properties for the GetEnvironmentVariable component. For more information about these properties, see [Properties of the Environment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-environment-prop.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the GetEnvironmentVariable component. For m
 
 2.  Drag the GetEnvironmentVariable component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the GetEnvironmentVariable component to the corresponding ports of the other components as described in the following table.
 
@@ -121,5 +121,5 @@ You want your robot to process files and save logs to different folders dependin
     The robot now logs to the production folder automatically, because it reads the `LOG_PATH` value from the environment variable.
 
 
-**Parent Topic:**[Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/environment-utility.md)
+**Parent Topic:**[Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/environment-utility.md)
 

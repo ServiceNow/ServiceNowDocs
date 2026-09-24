@@ -2,7 +2,7 @@
 title: Initiate application scans
 description: Scan applications to identify definition findings before publishing to the application repository. Application scans give insight into health scores, the number of findings, and the total impact of findings within your custom applications. When Suite Scan is enabled, choose between scanning all active definitions or a curated suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/initiating-on-demand-scans-scan-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/initiating-on-demand-scans-scan-engine.html
 release: australia
 topic_type: task
 last_updated: "2026-07-28"
@@ -48,12 +48,12 @@ Role required: scan\_engine\_admin or system administrator
 
 View application health scores in the Application Health dashboard by navigating to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Application Health**. Health scores are calculated based on finding severity, count, and policy impact.
 
-**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-impact-scan-engine.md)
+**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/using-impact-scan-engine.md)
 
 **Related topics**  
 
 
-[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-application-scanning-properties.md)
+[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-application-scanning-properties.md)
 
-[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md)
+[Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/create-scan-engine-definition-suites.md)
 

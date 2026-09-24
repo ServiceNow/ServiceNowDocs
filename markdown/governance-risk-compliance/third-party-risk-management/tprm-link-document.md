@@ -2,7 +2,7 @@
 title: Link documents to a TPRM record
 description: Use the Document Management system to link documents to assessments, engagements, issues, and tasks for traceability in Third-party Risk Management \(TPRM\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-link-document.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-link-document.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

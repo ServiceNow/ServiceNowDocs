@@ -2,7 +2,7 @@
 title: Next steps when replatforming apps to ServiceNow using ERP Semantic Mining
 description: After you use ERP Semantic Mining to identify legacy ERP \(Enterprise Resource Planning\) candidates, use additional ServiceNow AI Platform products and resources to replatform your app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/ecm-next-steps-replatforming.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-customization-mining/ecm-next-steps-replatforming.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -55,7 +55,7 @@ For example, use in ServiceNow Studio, use a template \(or build the app from th
 
 You can also access data from the ERP system through the Glide API.
 
-For more information, see [Sample Glide query for ERP data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/using-glide-to-query-erp-data.md).
+For more information, see [Sample Glide query for ERP data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/using-glide-to-query-erp-data.md).
 
 ## After you replatform custom code to a ServiceNow app
 
@@ -65,5 +65,5 @@ After you have identified candidates to replatform and taken the recommended act
 
 If you're sure that legacy code on the ERP system isn't referenced elsewhere, you can remove it from the system after it's replatformed.
 
-**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

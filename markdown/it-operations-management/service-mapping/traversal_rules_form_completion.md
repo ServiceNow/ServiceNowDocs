@@ -2,7 +2,7 @@
 title: Traversal Rules for Application Services form completion
 description: To edit an existing CI relationship or add a new CI relationship during the tag-based discovery process, complete the Traversal Rules for Application Services form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/traversal\_rules\_form\_completion.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/traversal\_rules\_form\_completion.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -96,5 +96,5 @@ Order
 Enter a number for the order. The system uses traversal rules for discovery in sequence from low order to high.**Note:** When configuring traversal rules with dependencies, verify that prerequisite rules are executed before dependent ones by assigning them a lower-order number.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
+</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-reference.md)
 

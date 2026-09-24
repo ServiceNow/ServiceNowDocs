@@ -2,14 +2,14 @@
 title: Create a copy of an EVAM view configuration
 description: Modify the search results of your AI Search application by creating a copy of an existing Entity View Action Mapper \(EVAM\) view and then changing the copy. Copying an EVAM is more efficient than creating an EVAM, especially when the changes are minimal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/copy-evam-viewconfig-ais-admin-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/copy-evam-viewconfig-ais-admin-console.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -23,7 +23,7 @@ Role required: ais\_admin
 
 ## About this task
 
-If the view configuration is shared and you need to modify the result-card interface without impacting other shared instances, you must create a copy of it. You can verify if the view configuration is shared. For more information, see [Track how your EVAM view configurations are used](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-evam-viewusage.md).
+If the view configuration is shared and you need to modify the result-card interface without impacting other shared instances, you must create a copy of it. You can verify if the view configuration is shared. For more information, see [Track how your EVAM view configurations are used](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-evam-viewusage.md).
 
 ## Procedure
 
@@ -48,7 +48,7 @@ A copy of the view configuration is added to the list.
 
 ## What to do next
 
-After copying a view configuration, you can modify it based on your requirements, such as updating the EVAM definition for the result-card interface. For more information, see [Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-evam-configurations.md).
+After copying a view configuration, you can modify it based on your requirements, such as updating the EVAM definition for the result-card interface. For more information, see [Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-evam-configurations.md).
 
-**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-managing-evam.md)
+**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-managing-evam.md)
 

@@ -2,7 +2,7 @@
 title: Configuring Territory Level
 description: Create territory levels to categorize territories such as regional, district, area, and global for better organization of territories.​
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-territory-levels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-territory-levels.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +40,7 @@ Role required: sales territory admin
 **Related topics**  
 
 
-[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-sales-territory-management.md)
 
-[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md)
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-sales-territory-management.md)
 

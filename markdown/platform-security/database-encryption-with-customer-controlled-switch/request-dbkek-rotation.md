@@ -2,7 +2,7 @@
 title: Requesting database key rotation
 description: Rotate the database key annually or as needed by submitting a request to support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/database-encryption-with-customer-controlled-switch/request-dbkek-rotation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/database-encryption-with-customer-controlled-switch/request-dbkek-rotation.html
 release: australia
 product: Database Encryption with Customer Controlled Switch
 classification: database-encryption-with-customer-controlled-switch
@@ -20,7 +20,7 @@ Rotate the database key annually or as needed by submitting a request to support
 
 Role required: admin
 
-**Important:** Database Encryption has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Australia release. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
+**Important:** Database Encryption has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Australia release. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cloud-encryption/dare-overview.md)
 
 ## About this task
 
@@ -39,5 +39,5 @@ Key rotation occurs at night within 24 hours prior to the expiration date and do
         -   Dates and times of rotation.
     -   Schedule an early key rotation outside of the annual scheduled rotation.
 
-**Parent Topic:**[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
+**Parent Topic:**[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
 

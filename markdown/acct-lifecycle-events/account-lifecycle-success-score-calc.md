@@ -2,7 +2,7 @@
 title: Measure success rate
 description: Measure and track the effectiveness and completion of success objectives and outcomes within a project or engagement with success scores and success rates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-score-calc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-success-score-calc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -50,5 +50,5 @@ The success objective template rate is the average of the scores of all the asso
 
 In this case, the success score or the average is 60%.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

@@ -2,7 +2,7 @@
 title: Deactivate a log data integration in Health Log Analytics
 description: Deactivate an integration for streaming log data to Health Log Analytics on the Integrations Launchpad. A deactivated integration stops streaming logs to your ServiceNow instance, but is still available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-deactivate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/il-connector-hla-deactivate.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -42,5 +42,5 @@ Role required: evt\_mgmt\_admin
 
 The integration is deactivated and stops streaming log data to the instance. The deactivated integration is still available on the Integrations Launchpad in the **Installed integrations** tab, under **Waiting for your action**.
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
 

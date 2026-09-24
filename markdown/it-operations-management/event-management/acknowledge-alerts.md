@@ -2,7 +2,7 @@
 title: Acknowledge viewed alerts in Express List
 description: Acknowledge alerts that you’ve viewed to remove clutter in the Express List pane.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/acknowledge-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/acknowledge-alerts.html
 release: australia
 product: Event Management
 classification: event-management

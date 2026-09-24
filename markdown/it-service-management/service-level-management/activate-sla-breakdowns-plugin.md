@@ -2,7 +2,7 @@
 title: Activate SLA Breakdown definitions
 description: You can activate the SLA Breakdowns plugin \(com.snc.sla.breakdowns\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/activate-sla-breakdowns-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/activate-sla-breakdowns-plugin.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -58,10 +58,10 @@ Provides the core SLA functionality.SLA Definitions provide conditions to start,
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Installed with SLA breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/installed-with-sla-breakdowns.md)**  
+-   **[Installed with SLA breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/installed-with-sla-breakdowns.md)**  
 Several types of components are installed with the SLA breakdown definitions.
 
-**Parent Topic:**[Service Level Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-plugins.md)
+**Parent Topic:**[Service Level Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/sla-plugins.md)
 
 **Related topics**  
 

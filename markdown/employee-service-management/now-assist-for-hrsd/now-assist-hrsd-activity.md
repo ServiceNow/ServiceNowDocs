@@ -2,7 +2,7 @@
 title: Configure Activity Response Generation for HR Case
 description: Set up the activity response generation skill in the AI Admin Hub console to enable automated responses in comments and work notes of an HR case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-activity.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -68,5 +68,5 @@ Role required: sn\_hr\_core.admin
 10. Select **Done**.
 
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

@@ -2,7 +2,7 @@
 title: Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace
 description: Configure the UI component to migrate related list declarative actions from ITSM Agent Workspace to Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/migrate-related-list-ui-component-aw-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/migrate-related-list-ui-component-aw-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -131,5 +131,5 @@ Role required: admin
     For a change\_request table that has a value as standard, Active is set as False when migrating the records from ITSM Agent Workspace to SOW.
 
 
-**Parent Topic:**[Migration of Related list declarative actions from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/related-list-declarative-actions-aw-sow.md)
+**Parent Topic:**[Migration of Related list declarative actions from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/related-list-declarative-actions-aw-sow.md)
 

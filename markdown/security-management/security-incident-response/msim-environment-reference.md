@@ -2,7 +2,7 @@
 title: Environment reference for MSIM setup
 description: Use this reference table to track environment-specific values while you set up Major Security Incident Management. Complete one column per environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/msim-environment-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/msim-environment-reference.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -34,7 +34,7 @@ Use this reference table to track environment-specific values while you set up M
 |ServiceNow AI Platform® Instance URL| | | |
 |Sites.FullControl.All removed after setup?|\[ \] Yes|\[ \] Yes|\[ \] Yes|
 
-**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
+**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/exploring-major-security-incident-management.md)
 
 **Related topics**  
 

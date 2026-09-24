@@ -2,7 +2,7 @@
 title: Generate an AI risk event summary in the classic UI
 description: Generate an AI risk event summary using the ServiceNow Otto for IRM application. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/generate-a-risk-event-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/generate-a-risk-event-summary.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -18,9 +18,9 @@ Generate an AI risk event summary using the ServiceNow Otto for IRM application.
 
 ## Before you begin
 
-Install the ServiceNow Otto for IRM application to generate a risk event summary. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
+Install the ServiceNow Otto for IRM application to generate a risk event summary. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
-**Note:** The Risk Event Summarization skill is activated by default, unless you manually deactivate it. For more information, see [Activate AI skills in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md).
+**Note:** The Risk Event Summarization skill is activated by default, unless you manually deactivate it. For more information, see [Activate AI skills in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md).
 
 Role required: sn\_grc\_risk\_genai.risk\_event\_user
 

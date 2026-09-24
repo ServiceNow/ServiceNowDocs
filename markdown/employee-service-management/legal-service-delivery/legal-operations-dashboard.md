@@ -2,7 +2,7 @@
 title: Legal Operations dashboard
 description: The Legal Operations dashboard provides comprehensive reports to the legal department. The dashboard uses Performance Analytics to provide reports and metrics on legal requests and legal matters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/legal-operations-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/legal-operations-dashboard.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -16,7 +16,7 @@ breadcrumb: [Analytics and Reporting Solutions for Legal Service Delivery, Legal
 
 The Legal Operations dashboard provides comprehensive reports to the legal department. The dashboard uses Performance Analytics to provide reports and metrics on legal requests and legal matters.
 
-General Counsel and the practice area leads can use the Performance Analytics [Legal Executive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-executive-dashboard.md) to gain insights into legal operations, performance, and trends with real-time reporting.
+General Counsel and the practice area leads can use the Performance Analytics [Legal Executive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-executive-dashboard.md) to gain insights into legal operations, performance, and trends with real-time reporting.
 
 **Note:** The classic version of the Legal Operations dashboard has been deprecated. If you open a saved URL to access the classic Legal Executive Dashboard, the Next Experience dashboard is automatically displayed. If you have customized the classic version, review and migrate your customizations to the Next Experience Legal Operations dashboard.
 
@@ -226,5 +226,5 @@ Bar \[Omitted image "column-icon.png"\] Alt text: Bar icon.
 Top 10 knowledge articles viewed the most number of times. The articles in this report are grouped by the short description of the articles.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and Reporting Solutions for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
+</table>**Parent Topic:**[Analytics and Reporting Solutions for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 

@@ -2,7 +2,7 @@
 title: HR PIWB template: Recommend similar cases by employee profile
 description: Use the classic setup template to configure and train your Similarity solution template with machine learning model to recommend top relevant articles and catalog items based on a similar employee profile for content discovery and personalized experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-piwb-similar-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-piwb-similar-profile.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -52,13 +52,13 @@ Discover all the users who have a similar profile as the employee. Identify the 
 
 ## Result
 
-When the configuration is complete, the solution displays the top three knowledge articles and top three catalog items to the employee based on a similar employee profile. For more information, see [Discovering knowledge articles and catalog items for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/user-profile-based-recommendations.md).
+When the configuration is complete, the solution displays the top three knowledge articles and top three catalog items to the employee based on a similar employee profile. For more information, see [Discovering knowledge articles and catalog items for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/user-profile-based-recommendations.md).
 
 ## What to do next
 
 You can verify the integration status from **HR Administration** &gt; **HR AI Configurations** &gt; **Solution definition**. The use case is now mapped to the selected solution definition.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a data integration
 description: Add new or updated information to your current data sets by importing it into existing tables in your application through the power of Integration Hub. Schedule future imports to add data at specific times.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/import-map-data-existing-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/import-map-data-existing-table.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -22,11 +22,11 @@ This video shows you how to perform the following procedure.
 
 ## Before you begin
 
--   You must have an existing table in your application. For more information, see [Create a blank table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-existing-table.md).
+-   You must have an existing table in your application. For more information, see [Create a blank table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/use-existing-table.md).
 
     **Note:** Currently, Excel files are the only accepted data format users can upload.
 
--   Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+-   Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -154,5 +154,5 @@ This video shows you how to perform the following procedure.
 17. If you added new columns during the import and want them to display on the target table, select **Personalize list** to edit the columns that display.
 
 
-**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md)
+**Parent Topic:**[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-data.md)
 

@@ -2,7 +2,7 @@
 title: Configure a group list screen
 description: Create a group list to provide a view of a list of records grouped by a field you specify.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-config-grouped-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-config-grouped-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Create a group list to provide a view of a list of records grouped by a field yo
 
 ## Before you begin
 
-Before you can create a group list screen, you must create a data item with a group configuration. For more information on configuring a data item, see [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-data-item.md), and note the optional steps for setting the **Group by** field.
+Before you can create a group list screen, you must create a data item with a group configuration. For more information on configuring a data item, see [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-create-data-item.md), and note the optional steps for setting the **Group by** field.
 
 Role required: admin
 
@@ -165,7 +165,7 @@ On tap function instance
 
 Determine what actions appear when a user taps on a list item.
 
- Select a navigation function or select **New** to create one. For more information about creating a navigation function, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-nav-functions.md).
+ Select a navigation function or select **New** to create one. For more information about creating a navigation function, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-nav-functions.md).
 
  **Note:** This option only appears when **Use a function instance** is selected for **On tap**.
 
@@ -338,7 +338,7 @@ The function used within this function instance.
 </td></tr></tbody>
 </table>23. In the **Function** section, select **Choose** to use a function or select **New** to create one.
 
-    For more information on mobile functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
+    For more information on mobile functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-mobile-button-types.md).
 
 24. Select **Save**.
 

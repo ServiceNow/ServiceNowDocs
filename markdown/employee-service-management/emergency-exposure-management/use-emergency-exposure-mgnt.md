@@ -2,7 +2,7 @@
 title: Identify potentially exposed users
 description: When a user has indicated a health condition on a self-report, use Emergency Exposure Management to identify other users who might have come in contact with the affected user. You can analyze multiple data sources, such as location, meetings, workspace reservations, badge scans, and Wi-Fi access data of the affected user to identify potentially exposed users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/use-emergency-exposure-mgnt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-exposure-management/use-emergency-exposure-mgnt.html
 release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -20,15 +20,15 @@ When a user has indicated a health condition on a self-report, use Emergency Exp
 
 To query through multiple data sources, the Emergency Exposure Management requires the following applications, plugins, and configurations available on your instance.
 
--   **[Microsoft Office 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/set-up-emergency-exposure-mgmt.md)**
+-   **[Microsoft Office 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/set-up-emergency-exposure-mgmt.md)**
 
     Register and configure to scan Microsoft Outlook meeting data.
 
--   **[Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/install-contact-tracing.md)**
+-   **[Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/install-contact-tracing.md)**
 
     Badge reader scan, user daily contact log, Wi-Fi access log, handheld or wearable device proximity data,and visitor data.
 
--   **[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/install-emp-health-screening.md) and Contact Tracing**
+-   **[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/install-emp-health-screening.md) and Contact Tracing**
 
     Scans visitor data.
 
@@ -45,7 +45,7 @@ Role required: sn\_imt\_diagnosis.diagnostics\_admin or admin
 
 ## About this task
 
-**Note:** You cannot create or run a diagnostic request for affected users who have not consented to use their data for contact tracing. For more information, see [User privacy consent for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-tracing-user-privacy.md).
+**Note:** You cannot create or run a diagnostic request for affected users who have not consented to use their data for contact tracing. For more information, see [User privacy consent for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/contact-tracing-user-privacy.md).
 
 ## Procedure
 
@@ -123,7 +123,7 @@ The list of visitors who interacted with the affected user during the specified 
 
 Users who used the same Wi-Fi access points as the affected user during the specified dates.Wi-Fi access log data used to identify potentially impacted users depends on the Wi-Fi location preferences and the available integrations.
 
- For more information, see [Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/wifi-access-management.md).
+ For more information, see [Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/wifi-access-management.md).
 
  **Note:** Data received via a real-time API will be for a period based on the data retention policy of your Wi-Fi service provider.
 
@@ -141,7 +141,7 @@ Users using handheld or wearable devices in the close proximity with the affecte
 
 </td><td>
 
-Users who with KINEXON wearables who were in close proximity with other KINEXON users during the specified dates. Data acquired from the KINEXON SafeZone API. Requires an active KINEXON integration.For more information, see [Configure KINEXON integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/configure-kinexon-integration.md).
+Users who with KINEXON wearables who were in close proximity with other KINEXON users during the specified dates. Data acquired from the KINEXON SafeZone API. Requires an active KINEXON integration.For more information, see [Configure KINEXON integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/configure-kinexon-integration.md).
 
  **Note:** Users who are required to agree to a privacy consent but have not done so are excluded even if they are potentially exposed contacts.
 
@@ -179,7 +179,7 @@ Customers attended by an affected field agent during the specified time period. 
 
     -   Cisco DNA Spaces integration: The Wi-Fi data is available based on the Cisco tier value set in the **sn\_imt\_tracing.wifi\_log\_cisco\_tier** property:
         -   If the **wifi\_log\_report** value is set, the data is imported from the Wi-Fi access data files for the specified days from the SFTP server and queried by the location path to identify potentially exposed users.
-        -   If the **proximity\_report** value is set, a diagnostic request task is created to fetch the potentially exposed users. Follow the instructions in the task to fetch data on potentially impacted users from the selected data source. For more information, see [Fetch potentially exposed user data from a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/work-on-diagnostic-req-task.md).
+        -   If the **proximity\_report** value is set, a diagnostic request task is created to fetch the potentially exposed users. Follow the instructions in the task to fetch data on potentially impacted users from the selected data source. For more information, see [Fetch potentially exposed user data from a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/work-on-diagnostic-req-task.md).
     -   Manual import: The Wi-Fi data is imported from a Microsoft Excel spreadsheet into the Wi-Fi Access Register table.
 7.  Add manually the potentially affected users, for example, users who visited a location with an affected user.
 
@@ -266,12 +266,12 @@ Depending on the applications and plugins installed, you can take the following 
 
     The button is available only when you have selected the **Visitor log** tracing system.
 
--   The case manager can create a case for the affected user and add potentially impacted users from the related list to the case to follow up on their health status. For more information, see [Create a case for an affected employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/create-exposure-case.md).
+-   The case manager can create a case for the affected user and add potentially impacted users from the related list to the case to follow up on their health status. For more information, see [Create a case for an affected employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/create-exposure-case.md).
 -   The manager of the affected field agents can take further actions such as blocking their future work order assignments. For more information, see [Emergency Exposure Management for field service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/monitoring-analytics-fsm.md) .
 
 
--   **[Fetch potentially exposed user data from a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/work-on-diagnostic-req-task.md)**  
+-   **[Fetch potentially exposed user data from a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/work-on-diagnostic-req-task.md)**  
 Work on the diagnostic request task to get information about potentially impacted users from a selected data source and populate the corresponding related lists on the Diagnostic Request form.
 
-**Parent Topic:**[Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/emergency-exposure-management.md)
+**Parent Topic:**[Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-exposure-management/emergency-exposure-management.md)
 

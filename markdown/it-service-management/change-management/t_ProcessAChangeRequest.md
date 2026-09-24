@@ -2,7 +2,7 @@
 title: Process a change request
 description: You can approve, implement, review, and close a change request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ProcessAChangeRequest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_ProcessAChangeRequest.html
 release: australia
 product: Change Management
 classification: change-management
@@ -20,7 +20,7 @@ You can approve, implement, review, and close a change request.
 
 Role required: itil, admin, sn\_change\_write, or change\_manager
 
-As part of processing a change request, ensure that you have [detected any change conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_RunManualConflictDetection.md) and [performed risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AssessRisk.md)
+As part of processing a change request, ensure that you have [detected any change conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_RunManualConflictDetection.md) and [performed risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AssessRisk.md)
 
 ## Procedure
 
@@ -34,7 +34,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 4.  You can perform the following actions on a change request based on your role.
 
-<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d157537e126">
+<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d157536e126">
 
 **Approve or reject a change request**
 
@@ -42,7 +42,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 Open the approval record from the **Self-Service** &gt; **My Approvals** module or from the **Approvers** related list on the change request or **Reject** to reject it.The change request changes to the **Scheduled** state if it is approved or to **New** state if it is rejected.
 
-</td></tr><tr><td id="d157537e159">
+</td></tr><tr><td id="d157536e159">
 
 **Implement a change request**
 
@@ -56,7 +56,7 @@ The system creates theses tasks when the change request enters to **Implement** 
 
 Tasks remain open until you close or cancel them. Canceling a task does not affect the parent change request.
 
-</td></tr><tr><td id="d157537e203">
+</td></tr><tr><td id="d157536e203">
 
 **Review a change request**
 
@@ -64,7 +64,7 @@ Tasks remain open until you close or cancel them. Canceling a task does not affe
 
 Select **Review** after reviewing the details on the change request. The change request is moved to the **Review** state. All open change tasks are set to **Canceled**.
 
-</td></tr><tr><td id="d157537e224">
+</td></tr><tr><td id="d157536e224">
 
 **Close a change request**
 
@@ -72,7 +72,7 @@ Select **Review** after reviewing the details on the change request. The change 
 
 Select **Close** after entering the **Close code** and **Close notes** in the **Closure Information** section.The change request is closed.
 
-</td></tr><tr><td id="d157537e248">
+</td></tr><tr><td id="d157536e248">
 
 **Cancel a change request**
 
@@ -102,21 +102,21 @@ From the context menu, Select **Cancel Change**. Provide a reason for canceling 
     You can also add approval history to the change request activity log. Click the activity filter icon and select **Approval history** from the list. When there is a change in the approval process, such as an approval, rejection, or comments, the activity log is updated.
 
 
--   **[Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md)**  
+-   **[Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md)**  
 You can associate additional CIs or services to change requests through related lists on the Change Request form. You can also associate CIs with a change request from the dependency views map.
--   **[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/bulk-ci-change.md)**  
+-   **[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/bulk-ci-change.md)**  
 The Mass Update CI plugin enable users to apply the same update to a set of CIs for a specific CI class. The Change Management - Mass Update CI plugin is intended to be used when the Change Management - State Model plugin is activated.
--   **[Use Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/use-bulk-mass-ci-changes.md)**  
+-   **[Use Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/use-bulk-mass-ci-changes.md)**  
 You can use the proposed changes in a change request to apply the same update to a set of CIs for a specific CI class.
--   **[Place a change request on hold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_PlaceAChangeRequestOnHold.md)**  
+-   **[Place a change request on hold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_PlaceAChangeRequestOnHold.md)**  
 You can put a change request on hold to get additional information for the created change request.
--   **[Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/refresh-impacted-services-cis.md)**  
+-   **[Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/refresh-impacted-services-cis.md)**  
 The Impacted services and CIs related list refreshes its records and also the records listed in the Service Offerings and Business Applications related lists based on the affected CIs. You can identify the impacted services and CIs and take necessary action.
 
-**Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-management.md)
+**Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/using-change-management.md)
 
 **Related topics**  
 
 
-[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md)
+[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateAChange.md)
 

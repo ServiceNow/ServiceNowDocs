@@ -2,7 +2,7 @@
 title: Create an assessment template category
 description: Set up an assessment template category so that you can build standard templates for that category and use them in the Standards hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-assessment-template-category-icw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/create-assessment-template-category-icw.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -102,5 +102,5 @@ Default normalization strategy applied for assessment templates in this category
 
 The assessment template category appears in the list of categories that can be specified when designing an assessment template in the Digital Factory Workspace.
 
-**Parent Topic:**[Using templates to create standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/creating-standards-from-templates.md)
+**Parent Topic:**[Using templates to create standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/creating-standards-from-templates.md)
 

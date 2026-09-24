@@ -2,7 +2,7 @@
 title: Configure the edit option
 description: You can configure the edit option that allows users to add records to related lists in forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfigureTheEditOption.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ConfigureTheEditOption.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -75,7 +75,7 @@ Click **Enable Edit**.
 5.  Click **Update**.
 
 
-**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 

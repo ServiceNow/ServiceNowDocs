@@ -2,7 +2,7 @@
 title: Create a bot in Microsoft Teams for GCC-H or DoD
 description: Create a self-configured bot with Microsoft Teams for GCC-H or DoD customers to be able to integrate with the Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-msteams-bot-gcch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-msteams-bot-gcch.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -90,5 +90,5 @@ Role required: none
         **Note:** The secret value code is visible only once.
 
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md)
+**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md)
 

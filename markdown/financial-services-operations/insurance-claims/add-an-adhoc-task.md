@@ -2,7 +2,7 @@
 title: Create an ad-hoc task on a claim
 description: Create a task in a Individual Life Claims case to help prioritize, check the case progress, and plan your claim work. An example is that you can request additional supporting documentation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/add-an-adhoc-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/add-an-adhoc-task.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -60,7 +60,7 @@ In the Tasks section, select **Add claim task**. The new task has the case set a
 </td></tr></tbody>
 </table>3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Claim Task form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/claim-task-form-fields.md).
+    For a description of the field values, see [Claim Task form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/claim-task-form-fields.md).
 
 4.  In the **Work notes** field, enter any necessary comments.
 

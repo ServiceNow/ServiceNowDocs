@@ -2,7 +2,7 @@
 title: Healthcare Operations Core data model
 description: Learn about the Healthcare Operation Core application by viewing the data model and role relationship diagrams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-data-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/hcls-cto-data-model.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

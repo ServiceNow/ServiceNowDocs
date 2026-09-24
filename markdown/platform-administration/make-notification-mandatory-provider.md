@@ -2,7 +2,7 @@
 title: Make a notification mandatory for provider framework
 description: Enable admins to mark specific notifications as mandatory that their users cannot turn off.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/make-notification-mandatory-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/make-notification-mandatory-provider.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,5 +41,5 @@ When you make a notification mandatory, the toggle button for that notification 
     **Note:** To honor auto opt-in capability over mandatory notifications, add the property **glide.notification.provider.mandatory.honor\_auto\_opt\_in** and set it to `true`.
 
 
-**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-provider-notification-using.md)
+**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-provider-notification-using.md)
 

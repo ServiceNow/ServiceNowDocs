@@ -2,7 +2,7 @@
 title: Review contract renewal details
 description: Review the renewal details after completing all the details of a contract by using the Renewal confirmation task. You can then either approve them or mark the details for further review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/confirm-cont-renewal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/contract-management/confirm-cont-renewal.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -34,15 +34,15 @@ This task must be completed before the contract renewal request is eligible for 
 
 4.  Determine whether to close this task.
 
-<table id="choicetable_vzl_j1k_25b"><thead><tr><th align="left" id="d423378e77">
+<table id="choicetable_vzl_j1k_25b"><thead><tr><th align="left" id="d423387e77">
 
 Result of review
 
-</th><th align="left" id="d423378e80">
+</th><th align="left" id="d423387e80">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d423378e86">
+</th></tr></thead><tbody><tr><td id="d423387e86">
 
 **The details are accurate**
 
@@ -50,7 +50,7 @@ Action
 
 Select **Yes**.
 
-</td></tr><tr><td id="d423378e101">
+</td></tr><tr><td id="d423387e101">
 
 **The details are not accurate**
 
@@ -73,5 +73,5 @@ When you have closed the task, the Contract Renewal Request Line processing is c
 
 ## What to do next
 
-[Approve or reject a contract renewal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/approve-cont-renew.md)
+[Approve or reject a contract renewal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/approve-cont-renew.md)
 

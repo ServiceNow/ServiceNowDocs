@@ -2,7 +2,7 @@
 title: Create CI types for Service Mapping and Discovery
 description: Create CI types \(or CI classes\) for applications and devices, which Service Mapping and Discovery do not support by default.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/t\_CreateCITypeForSM.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/t\_CreateCITypeForSM.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -37,7 +37,7 @@ A CI type \(or class\) contains several important definitions that apply to all 
 -   CI attributes are added as fields to the CMDB tables.
 -   Identifiers help Service Mapping and Discovery to differentiate between new and existing CIs. For example, if there is an Apache Web Server CI type defined in the CMDB, and Service Mapping and Discovery both discover an Apache Web Server CI, it processes it using identifiers. It then recognizes it as an updated version of the Apache Web Server CI that already exists in the system, not a new Apache Web Server CI.
 -   There are [reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ReconciliationRulesPrinciples.md) that help the ServiceNow platform to consolidate CI attributes received from different applications correctly. These rules are necessary for organizations where more than one application participates in the discovery process. Reconciliation rules define how attributes of the same CI discovered by different discovery sources are merged. For example, Service Mapping discovers the version and home directory attributes of an Apache Web Server CI, while Discovery discovers the version and patch level attributes for the same Apache Web Server CI. The ServiceNow AI Platform applies the reconciliation rule and as a result Service Mapping does not overwrite the attributes found by Discovery.
--   Related items, both CIs and non-CIs, serve as a reference and provide additional information about the CI. For example, you can define a serial number, a port and an network APR table as related items for a hardware server. The system does not use these items for identification. After you configure related items for the CI type, you can use horizontal discovery for CIs of this type together with their related items. For information, see [Discover related items together with the main CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/add-related-cis-to-the-main-ci-pattern.md).
+-   Related items, both CIs and non-CIs, serve as a reference and provide additional information about the CI. For example, you can define a serial number, a port and an network APR table as related items for a hardware server. The system does not use these items for identification. After you configure related items for the CI type, you can use horizontal discovery for CIs of this type together with their related items. For information, see [Discover related items together with the main CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/add-related-cis-to-the-main-ci-pattern.md).
 
     **Note:** Non-CIs are items that do not extend the Configuration Item \[cmdb\_ci\] table. Examples of non-CIs are ports, serial numbers, or Network ARP tables.
 
@@ -213,8 +213,8 @@ Add conditions to construct a filter to narrow the set of records that will be s
 
 8.  Configure the CI classification for your CI type:
 
-    -   For CI types representing applications, perform configuration as described in [Create a Discovery process classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateAProcessClassification.md).
-    -   For CI types representing SNMP devices, perform configuration as described in [Create a Discovery CI classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-discovery-ci-classification.md).
+    -   For CI types representing applications, perform configuration as described in [Create a Discovery process classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateAProcessClassification.md).
+    -   For CI types representing SNMP devices, perform configuration as described in [Create a Discovery CI classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-discovery-ci-classification.md).
     **Note:** There is no need to create CI classifications for hosts because these classifications are included in the base system.
 
 9.  For CI types that represent inclusions, define the hierarchy for the new CI type.
@@ -228,9 +228,9 @@ Add conditions to construct a filter to narrow the set of records that will be s
     See [Create or modify map icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateModifyNGBSMMapIcons.md).
 
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Password2 encryption for patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/password2-encryption-patterns.md)
+**Previous topic:**[Password2 encryption for patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/password2-encryption-patterns.md)
 
-**Next topic:**[Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md)
+**Next topic:**[Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md)
 

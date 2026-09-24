@@ -2,7 +2,7 @@
 title: JavaScript APIs supported by guarded script
 description: Review the JavaScript APIs that guarded script supports to help you analyze scripts in the Incompatible Guarded Scripts list and either rewrite them or create an exemption for them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/guarded-script-allowed-apis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/guarded-script-allowed-apis.html
 release: australia
 product: Scripts
 classification: scripts
@@ -16,11 +16,11 @@ breadcrumb: [Guarded script evaluator, Sandbox environment, Server-side scriptin
 
 Review the JavaScript APIs that guarded script supports to help you analyze scripts in the Incompatible Guarded Scripts list and either rewrite them or create an exemption for them.
 
-The guarded script evaluator permits the following methods from the ServiceNow server-side JavaScript APIs and the built-in JavaScript APIs. The guarded script evaluator handles scripts that call unsupported APIs differently depending on the transaction type and instance configuration. For more information, see [Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md).
+The guarded script evaluator permits the following methods from the ServiceNow server-side JavaScript APIs and the built-in JavaScript APIs. The guarded script evaluator handles scripts that call unsupported APIs differently depending on the transaction type and instance configuration. For more information, see [Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/guarded-script.md).
 
 ## ServiceNow JavaScript APIs supported by guarded script
 
-Guarded script permits calling the following methods from server-side JavaScript APIs in untrusted scripts. For more information about server APIs, see [Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md).
+Guarded script permits calling the following methods from server-side JavaScript APIs in untrusted scripts. For more information about server APIs, see [Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md).
 
 <table id="table_allowed_apis"><thead><tr><th>
 
@@ -683,5 +683,5 @@ Static methods:
 -   stringify\(\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md)
+</table>**Parent Topic:**[Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/guarded-script.md)
 

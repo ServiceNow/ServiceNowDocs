@@ -2,7 +2,7 @@
 title: Write with Otto
 description: Write with Otto enables generative-AI powered text generation and editing assistance natively in your mobile app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/now-assist-context-menu-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/now-assist-context-menu-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"
@@ -25,5 +25,5 @@ Use content editing prompts such as Elaborate and Shorten to enhance or condense
 |Elaborate|Lengthen the word count of the selected text to add more detail.|
 |Change tone|Personalize the selected text to reflect your desired voice. Select from Sympathetic, Formal, or Casual tones.|
 
-Write with Otto is supported on mobile input form screens for Otto skills such as task summarization. For more, see [Mobile resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/ai-case-summarization.md).
+Write with Otto is supported on mobile input form screens for Otto skills such as task summarization. For more, see [Mobile resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/ai-case-summarization.md).
 

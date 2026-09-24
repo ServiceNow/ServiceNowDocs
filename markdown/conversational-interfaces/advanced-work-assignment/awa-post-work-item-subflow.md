@@ -2,7 +2,7 @@
 title: AWA post work item subflow
 description: Configure the base system AWA post work item subflow by defining the input in Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-post-work-item-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-post-work-item-subflow.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

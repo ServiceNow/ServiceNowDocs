@@ -2,7 +2,7 @@
 title: Importing and exporting recovery tasks from Microsoft Excel
 description: Export recovery tasks to a Microsoft Excel file, edit offline, and import the file to create or update multiple tasks at once.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/using-export-import-feature-recovery-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/using-export-import-feature-recovery-tasks.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-19"
@@ -96,10 +96,10 @@ After you start an import, select **View import progress** in the plan header to
 
 ## Recovery task import and export procedure
 
-For the procedure, see [Export and import recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/export-import-recovery-tasks-using-excel.md).
+For the procedure, see [Export and import recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/export-import-recovery-tasks-using-excel.md).
 
--   **[Export and import recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/export-import-recovery-tasks-using-excel.md)**  
+-   **[Export and import recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/export-import-recovery-tasks-using-excel.md)**  
 Export recovery task records to a Microsoft Excel file, edit the data offline, and import the updated file to create or update many recovery tasks at once.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

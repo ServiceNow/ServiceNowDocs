@@ -2,7 +2,7 @@
 title: Team Development process
 description: The basic Team Development process sets up the instance hierarchy, grants developer access rights, manages the movement of development changes from development instances to test instances, and promotes applications to the production instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_TeamDevelopmentProcess.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/t\_TeamDevelopmentProcess.html
 release: australia
 product: Team Development
 classification: team-development
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Set up the development instance hierarchy as described in [Set up an instance hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_SetUpAnInstanceHierarchy.md).
+1.  Set up the development instance hierarchy as described in [Set up an instance hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_SetUpAnInstanceHierarchy.md).
 
     1.  Provision development instances on the same software version as the target instance. For example, use the software version that is running on your production instance.
     2.  \[Recommended\] Clone the target to the development instances.
@@ -48,9 +48,9 @@ Role required: admin
 **Related topics**  
 
 
-[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/team-development-landing.md)
+[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/team-development-landing.md)
 
-[Access rights for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/r_GrantingAccessRightsToDevelopers.md)
+[Access rights for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/r_GrantingAccessRightsToDevelopers.md)
 
-[Push a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_PushAVersion.md)
+[Push a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/t_PushAVersion.md)
 

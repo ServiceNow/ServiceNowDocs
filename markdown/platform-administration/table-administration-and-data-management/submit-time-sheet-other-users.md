@@ -2,7 +2,7 @@
 title: Log time and submit time sheets of your resources
 description: As a user manager, you can log time and submit the time sheet of your resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/submit-time-sheet-other-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/submit-time-sheet-other-users.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -32,14 +32,14 @@ Role required: timecard\_approver
 
     **Note:** The choice list with **My Time Sheet** is available only for a user manager.
 
-3.  [Create time cards and log time through Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/create-timecards-through-worker-portal.md) as required.
+3.  [Create time cards and log time through Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/create-timecards-through-worker-portal.md) as required.
 
 4.  Click **Submit**.
 
 
 ## Result
 
--   The time sheet of the selected user moves to the Submitted state. The [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-sheet-policies.md) assigned to the time card user is used for validation when you submit the time sheet.
+-   The time sheet of the selected user moves to the Submitted state. The [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/time-sheet-policies.md) assigned to the time card user is used for validation when you submit the time sheet.
 -   All the time cards associated with the time sheet are also submitted automatically and move to the Submitted state.
 -   The **Approve** and **Reject** buttons appear in the Time Sheet section. The two buttons appear only for a user manager.
 
@@ -47,7 +47,7 @@ Role required: timecard\_approver
 
 Once you have submitted the time sheet for your resource, you can click **Approve** or **Reject** to approve or reject it. Only the time cards that are routed to the user manager, are approved or rejected. The routing for approval happens based on the **Non-project time approver** and **Project time approver** fields in the time sheet policy of the time card user.
 
-**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/worker-portal.md)
+**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/worker-portal.md)
 
 **Related topics**  
 

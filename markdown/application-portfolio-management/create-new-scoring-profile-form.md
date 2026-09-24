@@ -2,7 +2,7 @@
 title: Create scoring profile form
 description: Create an application score profile and update the default application profile with new profile indicators per your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/create-new-scoring-profile-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/create-new-scoring-profile-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,12 +20,12 @@ Create an application score profile and update the default application profile w
 |Description|Description of the scoring profile.|
 |CI Class|Configuration item type for which the score is generated.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Manage scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-scoring-profiles.md)
+[Manage scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-configure-scoring-profiles.md)
 
-[Add or edit a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-scoring-profile.md)
+[Add or edit a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-scoring-profile.md)
 

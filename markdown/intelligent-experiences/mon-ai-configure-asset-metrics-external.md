@@ -2,12 +2,12 @@
 title: Configure asset-specific metrics for external AI systems
 description: Add or remove metrics for one or more external AI systems without changing the global metric configuration, and adjust metric sample rates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-configure-asset-metrics-external.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-configure-asset-metrics-external.html
 release: australia
 topic_type: task
 last_updated: "2026-08-14"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure evaluation scoring for external AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -19,11 +19,11 @@ Add or remove metrics for one or more external AI systems without changing the g
 
 Role required: sn\_ai\_governance.ai\_steward
 
-**Note:** The AI system must have evaluation enabled. See [Enable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-enable-evaluation.md).
+**Note:** The AI system must have evaluation enabled. See [Enable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-enable-evaluation.md).
 
 ## About this task
 
-You can optionally override which metrics are evaluated for specific external AI systems. For details on adding or removing metrics for an AI system from that system's asset record instead, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
+You can optionally override which metrics are evaluated for specific external AI systems. For details on adding or removing metrics for an AI system from that system's asset record instead, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
 
 ## Procedure
 
@@ -33,15 +33,15 @@ You can optionally override which metrics are evaluated for specific external AI
 
 3.  Configure the metrics that you want to evaluate for specific AI systems.
 
-<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d322689e132">
+<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d319598e132">
 
 Option
 
-</th><th align="left" id="d322689e135">
+</th><th align="left" id="d319598e135">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d322689e141">
+</th></tr></thead><tbody><tr><td id="d319598e141">
 
 **Add one or more AI systems and selected metrics**
 
@@ -54,7 +54,7 @@ Steps
 5.  Select **Add metrics**.
 
 
-</td></tr><tr><td id="d322689e177">
+</td></tr><tr><td id="d319598e177">
 
 **Remove one or more metrics**
 
@@ -87,7 +87,7 @@ Steps
     7.  Select **Save**.
 
 
-**Parent Topic:**[Configure evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-external-ai-systems.md)
+**Parent Topic:**[Configure evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-external-ai-systems.md)
 
 **Related topics**  
 

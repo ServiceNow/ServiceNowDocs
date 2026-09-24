@@ -2,7 +2,7 @@
 title: Resolving custom variant issues in Workplace Central
 description: After upgrading Workplace Service Delivery \(WSD\) to a later release, custom variants created using the legacy application-specific screen collection model no longer display correctly in Workplace Central. Affected variants must be migrated to the new standardized unified screen collection model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/custom-variants-in-workplace-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/custom-variants-in-workplace-central.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -94,7 +94,7 @@ As part of a recent WSD release, ServiceNow standardized WSD record page routing
     For more information about support and troubleshooting, see [KB3107832](https://support.servicenow.com/kb_knowledge.do?sys_id=af2dedc747e14fdc77b5ab29736d4363&sysparm_record_target=kb_knowledge&sysparm_record_row=1&sysparm_record_rows=1&sysparm_record_list=sys_created_bySTARTSWITHchitra%5EORDERBYDESCnumber).
 
 
-**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 

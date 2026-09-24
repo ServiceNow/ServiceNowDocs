@@ -2,7 +2,7 @@
 title: Set up Windows registry keys
 description: Track and manage the Windows registry keys that are configured for monitoring with DEX on end-user devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/set-up-win-registry-keys.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/set-up-win-registry-keys.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

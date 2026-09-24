@@ -2,7 +2,7 @@
 title: Populate SAP Concur report and metadata
 description: As an administrator, fetch the reports metadata from other business applications such as SAP Concur. View the Concur expense reports, itemizations, and receipts from your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/x-concur-approvals-scheduled-job.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/x-concur-approvals-scheduled-job.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -69,5 +69,5 @@ You can navigate to **All** &gt; **Employee Center** &gt; **SAP Concur Spoke** &
 
 Proceed to To-dos Configuration and use the default **Approval \| SAP Concur** task configuration.
 
-**Parent Topic:**[Approvals hub integration with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/x-concur-sa-integration.md)
+**Parent Topic:**[Approvals hub integration with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/x-concur-sa-integration.md)
 

@@ -2,7 +2,7 @@
 title: Create opportunities in Opportunity Marketplace by importing projects from Project Workspace
 description: Import details from a Project Workspace project file to create a related opportunity in Opportunity Marketplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-create-oppt-from-spm-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-create-oppt-from-spm-project.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -141,7 +141,7 @@ Attachments can include related information such department details of the team 
 
 10. Fill in the form with the role details.
 
-    To read more details about the role form and fields, see [Form fields for creating opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-oppty-form-fields.md).
+    To read more details about the role form and fields, see [Form fields for creating opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-oppty-form-fields.md).
 
 11. Select **Add role to team**.
 
@@ -154,5 +154,5 @@ Attachments can include related information such department details of the team 
 14. When you’re satisfied with your opportunity, select **Publish**.
 
 
-**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
+**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
 

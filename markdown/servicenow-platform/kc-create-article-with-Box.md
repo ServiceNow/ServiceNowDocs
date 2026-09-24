@@ -2,7 +2,7 @@
 title: Create knowledge articles using AI and Box
 description: Use Box to create knowledge articles from content stored in an external Box account. When you initiate article creation and select Box as the source, AI searches the connected Box account for files relevant to the prompt, then generates an article based on the results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-create-article-with-Box.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/kc-create-article-with-Box.html
 release: australia
 topic_type: task
 last_updated: "2026-05-14"
@@ -27,7 +27,7 @@ Role required: agent
 
 1.  Navigate to **All** &gt; **Knowledge** &gt; **Knowledge Center** and start the article creation process.
 
-    Select a template and complete any required initial setup for the new article. For more information see, [Generate and edit articles using the article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-edit-knowledge-article.md).
+    Select a template and complete any required initial setup for the new article. For more information see, [Generate and edit articles using the article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/kc-edit-knowledge-article.md).
 
 2.  In the article editor section, in the **Source** drop-down under **Integrations**, select **Box**.
 
@@ -47,10 +47,10 @@ Role required: agent
 5.  Review the article for accuracy and completeness, and make any necessary edits before publishing.
 
 
-**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 
 **Related topics**  
 
 
-[Integrate Box in Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-configuring-box-integration.md)
+[Integrate Box in Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/kc-configuring-box-integration.md)
 

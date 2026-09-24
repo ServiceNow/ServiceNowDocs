@@ -2,7 +2,7 @@
 title: ServiceNow AI Platform integrations
 description: Integrate third-party applications into the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/integrations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/integrations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

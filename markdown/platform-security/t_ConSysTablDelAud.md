@@ -2,7 +2,7 @@
 title: Enable auditing for a system table
 description: Deletions from tables with a sys\_ prefix are not audited by default. To track deletions from these tables, add the table name to the glide.ui.audit\_deleted\_tables property. Enabling the Restore Deleted Records plugin adds several default values to this property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ConSysTablDelAud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ConSysTablDelAud.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,6 +28,6 @@ Role required: admin
 
 4.  Click **Save**.
 
-    **Note:** For more information about auditing, see [Understanding the sys audit Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_UnderstandingTheSysAuditTable.md).
+    **Note:** For more information about auditing, see [Understanding the sys audit Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_UnderstandingTheSysAuditTable.md).
 
 

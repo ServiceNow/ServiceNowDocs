@@ -2,7 +2,7 @@
 title: Configure File Explorer Component
 description: The File Explorer workspace component organizes and tracks the collection of artifacts \(files\) related to a major security incident. It is designed to support integration with any third-party file hosting provider such as Microsoft SharePoint in the Major Security Incident Management workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/file-explorer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/file-explorer.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -26,28 +26,28 @@ You must install and configure the file repository drive and file repository pro
 
 For this current version of the File Explorer, these instructions include configuring and subscribing to a retrieving file metadata such as Microsoft SharePoint file and folder updates, file operations, and logging file activity. A designated Microsoft SharePoint document library and related drive configuration will be required to create individual folders that are specific to a major security incident.
 
-File Explorer also allows connector applications such as Microsoft SharePoint. You can use this example to configure its file operation implementations such as **Download** or **Rename** folder and file actions will be enabled in the File Explorer workspace component. These actions are enabled and executed using the integrated flow designer sub flows. For more information, see [Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/folder-file-action-settings.md).
+File Explorer also allows connector applications such as Microsoft SharePoint. You can use this example to configure its file operation implementations such as **Download** or **Rename** folder and file actions will be enabled in the File Explorer workspace component. These actions are enabled and executed using the integrated flow designer sub flows. For more information, see [Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/folder-file-action-settings.md).
 
 File Explorer configuration includes the following setup:
 
--   [Configure File Explorer repository drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-repository-config.md)
--   [Configure Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/folder-file-action-settings.md)
--   [Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-folder-templates.md)
+-   [Configure File Explorer repository drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer-repository-config.md)
+-   [Configure Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/folder-file-action-settings.md)
+-   [Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer-folder-templates.md)
 
--   **[Get Started with File Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/get-started-with-fe.md)**  
+-   **[Get Started with File Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/get-started-with-fe.md)**  
 Review the following information before you start working with File Explorer Component.
--   **[Configure File Explorer repository drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-repository-config.md)**  
+-   **[Configure File Explorer repository drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer-repository-config.md)**  
 Configure the File Explorer repository drive to establish a connection between your MSIM workspace and Microsoft SharePoint, enabling team members to manage incident documents centrally.
--   **[Configure Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/folder-file-action-settings.md)**  
+-   **[Configure Folder and File Action Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/folder-file-action-settings.md)**  
  Configure the folder and file actions you would like to be enabled from the File Explorer component on the Major Security Incident Management workspace, using the Folder and File Action Settings setup page. As an MSI Administrator, you can control the individual Folder and File Actions displayed on the File Explorer Component.
--   **[Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-folder-templates.md)**  
+-   **[Create Folder Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer-folder-templates.md)**  
 Use Folder Templates to automatically create unique folders for different Major Security Incident types. The folder templates within the File Explorer Component are used to create a base folder structure for the security incident in the Microsoft SharePoint.
--   **[File Explorer Activity Stream in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activity-stream-on-the-workspace.md)**  
+-   **[File Explorer Activity Stream in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/activity-stream-on-the-workspace.md)**  
 Use the File Explorer section from the Major Security Incident Management workspace to display the folders and files, the sequence those were created in Microsoft SharePoint document library.
--   **[File Explorer troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer-troubleshooting.md)**  
+-   **[File Explorer troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/file-explorer-troubleshooting.md)**  
 The troubleshooting section can help you resolve some of the technical issues that you may encounter when setting up File Explorer component.
 
-**Parent Topic:**[Configuring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-major-security-incident-management.md)
+**Parent Topic:**[Configuring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-major-security-incident-management.md)
 
 **Related topics**  
 

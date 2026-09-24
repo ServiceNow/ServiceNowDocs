@@ -2,7 +2,7 @@
 title: Propose a case as a major case candidate
 description: A customer service agent role can propose an existing customer service case as a major case candidate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/propose-major-case-candidate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/propose-major-case-candidate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

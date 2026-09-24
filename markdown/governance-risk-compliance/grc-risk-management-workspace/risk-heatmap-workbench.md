@@ -2,7 +2,7 @@
 title: Risk heatmap workbench
 description: As an operational risk manager, you can visualize the risk details and better understand the risk posture of your entity by using the risk heatmap workbench in the Advanced Risk application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-workbench.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-workbench.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -54,7 +54,7 @@ You can view the status of the risk appetite on the heatmap workbench. The risk 
 
 ## Filtering in the heatmap workbench
 
-You can filter the data that you see on the heatmap workbench. For example, let's say that you see 40 entries on the heatmap and you'd like to filter those risks where the entity is ACME Global. You can use the condition builder and apply your filters. After the filters are applied, the heatmap is refreshed and displays the data based on the filter conditions that you have applied. For more information on how to filter the data, see [Filter data in the risk heatmap workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/filtering-in-the-risk-heatmap.md). The ability to filter is only available in the workbench view. You can save the frequently used filters in the My saved filters section.
+You can filter the data that you see on the heatmap workbench. For example, let's say that you see 40 entries on the heatmap and you'd like to filter those risks where the entity is ACME Global. You can use the condition builder and apply your filters. After the filters are applied, the heatmap is refreshed and displays the data based on the filter conditions that you have applied. For more information on how to filter the data, see [Filter data in the risk heatmap workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/filtering-in-the-risk-heatmap.md). The ability to filter is only available in the workbench view. You can save the frequently used filters in the My saved filters section.
 
 ## Downloading and copying in the heatmap workbench
 
@@ -70,5 +70,5 @@ As a risk user, while looking for a particular risk, you can quickly search a ri
 
 With the immersive view of the heatmap, you can view the expanded form of the heatmap where the X-axis and the Y-axis values are highlighted. The benefit of this view is that if you have too much information in one zone, you can focus on that zone and analyze each risk. The pagination enables you to see all records. You can point to a risk to quickly understand more details about the risk. You can also view the different values of both the axes by clicking the value. For example, let's say that in the heatmap, the X-axis has the values low, medium, and high and the Y-axis has the values unlikely, likely, and almost certain. You can click any value in both the axes to see the risks for that combination.
 
-**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

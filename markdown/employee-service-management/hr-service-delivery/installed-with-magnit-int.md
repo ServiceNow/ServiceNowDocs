@@ -2,7 +2,7 @@
 title: Components installed with HR Service Delivery Integration with Magnit
 description: Several types of components are installed with activation of the HR Service Delivery Integration with Magnit plugin, including tables, and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-magnit-int.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/installed-with-magnit-int.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -87,7 +87,7 @@ User Onboarding Item\[sn\_hr\_magnit\_user\_onboarding\_item\]
 Stores the mappings of onboarding items of contingent workers with HR profiles.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for HR Service Delivery Integration with Magnit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-magnit.md)
+</table>**Parent Topic:**[Reference for HR Service Delivery Integration with Magnit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-magnit.md)
 
 **Related topics**  
 

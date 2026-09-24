@@ -2,7 +2,7 @@
 title: Register a deal using agentic AI
 description: Use the Deal Registration AI agent to process deal registrations and manage the entire deal registration process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/register-deal-using-agentic-ai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/register-deal-using-agentic-ai.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-21"
@@ -107,5 +107,5 @@ The agent executes the testing in AI Agent Studio for the use case.
 
 In the ServiceNow Otto panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-gen-ai-capabilities-csm-now-assist-panel.md).
 
-**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

@@ -2,7 +2,7 @@
 title: Configure a change request to monitor outside maintenance schedule conflicts
 description: When a change request is configured to display the conflicts that are outside the maintenance schedule, conflict detection indicates whether the planned start and end dates occur outside the maintenance window or not. By reviewing the conflicts that are detected, you can modify the change schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/monitor-maintenance-schedule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/monitor-maintenance-schedule.html
 release: australia
 product: Change Management
 classification: change-management
@@ -46,7 +46,7 @@ The Outside maintenance schedule check box is informational and the instance set
 
 When you save a change request that is outside the maintenance schedule, a warning appears for each item \(primary or affected\). This warning also displays the planned dates that fall outside the maintenance window.
 
-**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
+**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md)
 
 **Related topics**  
 

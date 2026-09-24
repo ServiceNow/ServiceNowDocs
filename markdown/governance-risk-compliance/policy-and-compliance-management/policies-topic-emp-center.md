@@ -2,7 +2,7 @@
 title: Policy knowledge base and quick links in the Employee Center portal
 description: You can view all the Knowledge base \(KB\) articles related to the published policies in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/policies-topic-emp-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/policies-topic-emp-center.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

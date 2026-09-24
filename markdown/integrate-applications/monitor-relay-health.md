@@ -2,7 +2,7 @@
 title: Monitor relay connection health
 description: View the heartbeat status of a private relay to verify connectivity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/monitor-relay-health.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/monitor-relay-health.html
 release: australia
 topic_type: task
 last_updated: "2026-06-01"

@@ -2,7 +2,7 @@
 title: Relate a child critical event
 description: Mark duplicate or related critical events as child events and link them under the main, parent event.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/create-child-crtical-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/critical-event-management/create-child-crtical-event.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -43,7 +43,7 @@ Role required: sn\_critical.agent
     The status of the child event is set to **Consolidated**. When you open this child event, the **Details** Related Item displays the parent critical event in the record view.
 
 
-**Parent Topic:**[Managing related records in a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-related-records.md)
+**Parent Topic:**[Managing related records in a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/critical-event-management/manage-related-records.md)
 
 **Related topics**  
 

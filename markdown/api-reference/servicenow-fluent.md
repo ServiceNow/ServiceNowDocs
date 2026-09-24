@@ -2,7 +2,7 @@
 title: ServiceNow Fluent
 description: Define application metadata in source code using the ServiceNow Fluent domain-specific programming language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/servicenow-fluent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/servicenow-fluent.html
 release: australia
 product: API Reference
 classification: api-reference

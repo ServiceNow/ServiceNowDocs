@@ -2,7 +2,7 @@
 title: Import a new building - Mappedin
 description: Use Import a new building to import the Mappedin map and define the building details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsm-mappedin-import-building.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/wsm-mappedin-import-building.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -138,5 +138,5 @@ The workplace manager of the group that manages the space reservation for the bu
 5.  Click **Update**.
 
 
-**Parent Topic:**[Convert Mappedin data to Workplace Space Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-type-table.md)
+**Parent Topic:**[Convert Mappedin data to Workplace Space Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-mappedin-type-table.md)
 

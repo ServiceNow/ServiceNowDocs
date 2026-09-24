@@ -2,7 +2,7 @@
 title: MID Server command audit log
 description: The command audit log records the commands run by the MID Server for the Discovery application. Review the commands to check for anomalies or errors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-audit-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-audit-log.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -41,7 +41,7 @@ Discovery supports JEA profiles for WinRM. The MID Server command audit log reco
 
 By default, the table is rotated every seven days. For more information, see [Table Rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md).
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 

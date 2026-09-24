@@ -2,7 +2,7 @@
 title: Define conditions for your variant
 description: You can define conditions to determine when a page variant is shown. The conditions are based on setting an order, and declaring the criteria that must be met for the page variant to display.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/learn-by-example-define-conditions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/learn-by-example-define-conditions.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -57,7 +57,7 @@ If you have multiple page variants that all have the same conditions, the varian
     **Note:** You can view the structure of your pages and variants in this experience. The **Conditions** column shows a **View** link for each page. You can select **View** to see the condition for that variant \(that is, table=incident\). The **Audiences** column for the Admin only variant shows a 1. You can select the **1** to view the role required to view that variant.
 
 
-**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib-by-example.md)
+**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/learning-uib-by-example.md)
 
 **Related topics**  
 

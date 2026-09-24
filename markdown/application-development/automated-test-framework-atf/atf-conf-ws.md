@@ -2,7 +2,7 @@
 title: Testing Configurable Workspace components
 description: Simplify test creation by directly interacting with components on most Configurable Workspace pages via the Page Inspector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-conf-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-conf-ws.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -18,8 +18,8 @@ Simplify test creation by directly interacting with components on most Configura
 
 \[Omitted image "atf-access-add-test-step-cw.gif"\] Alt text: Gif showing the cw access and test step creation
 
--   **[Create a test for Configurable Workspace interaction via Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-tests-ws.md)**  
+-   **[Create a test for Configurable Workspace interaction via Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-create-tests-ws.md)**  
 Leverage the Page Inspector to create tests by directly interacting with components on most Configurable Workspace pages.
 
-**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-admin-overview.md)
+**Parent Topic:**[Administering the Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-admin-overview.md)
 

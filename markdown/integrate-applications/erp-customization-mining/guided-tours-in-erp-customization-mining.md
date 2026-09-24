@@ -2,7 +2,7 @@
 title: Guided tours in ERP Semantic Mining
 description: Learn about ERP Semantic Mining guided tours, including how to access and take them to build your knowledge of ERP Semantic Mining.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/guided-tours-in-erp-customization-mining.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-customization-mining/guided-tours-in-erp-customization-mining.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -46,5 +46,5 @@ At the end of the guided tour, select **Complete**.
 |Export snapshot|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the configuration icon.|
 |Import snapshot|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the Configuration icon.|
 
-**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

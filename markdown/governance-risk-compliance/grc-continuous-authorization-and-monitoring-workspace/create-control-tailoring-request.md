@@ -2,7 +2,7 @@
 title: Create a control tailoring request
 description: Create a control tailoring request to modify baseline controls for an authorization package after the Select step without reverting the package to earlier workflow steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-control-tailoring-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/create-control-tailoring-request.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -160,5 +160,5 @@ When you submit the request, the AO receives an email notification. After approv
 
 The request state changes to In Review, and the system assigns the request to the AO for approval. The AO receives an email notification. The authorization package displays an indicator showing that baseline changes are under review. You can view the request status in the **My Items** view under the **CAM Workspace task page**, which shows all control tailoring requests you have created.
 
-**Parent Topic:**[Request control tailoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/request-control-tailoring.md)
+**Parent Topic:**[Request control tailoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/request-control-tailoring.md)
 

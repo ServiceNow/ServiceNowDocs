@@ -2,7 +2,7 @@
 title: Register target instance \(legacy\)
 description: A clone target record specifies the instance URL and credentials used for cloning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateACloneTarget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateACloneTarget.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ A clone target record specifies the instance URL and credentials used for clonin
 
 Role required: clone\_admin
 
-If an error occurs while registering a target instance see [Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-troubleshooting.md).
+If an error occurs while registering a target instance see [Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/register-target-instance-troubleshooting.md).
 
 ## Procedure
 

@@ -2,7 +2,7 @@
 title: Create business units
 description: Create a business unit to define your organizational functions. A business unit is also necessary to set up the top-most segment in the hierarchy to create roll up rules and have expenses roll up to these business units.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/t\_CreateBusinessUnits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/t\_CreateBusinessUnits.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

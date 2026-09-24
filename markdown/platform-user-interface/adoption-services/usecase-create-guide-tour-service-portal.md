@@ -2,12 +2,12 @@
 title: Create guided tour to explore Service Portal home page
 description: Use Guided Tour Designer to create a guided tour to explore the Service Portal home page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/usecase-create-guide-tour-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/usecase-create-guide-tour-service-portal.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Guided Tour Designer use case, Use Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -211,14 +211,14 @@ No trigger is required.
 
 The guided tour is created and listed in the **Tours** menu.
 
-Users can access a guided tour by navigating to a page that has one. For more information, see [Start a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/accessing-guided-tours.md).
+Users can access a guided tour by navigating to a page that has one. For more information, see [Start a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/accessing-guided-tours.md).
 
-**Parent Topic:**[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)
+**Parent Topic:**[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)
 
 **Related topics**  
 
 
-[Create Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/add-guided-tour.md)
+[Create Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/add-guided-tour.md)
 
-[Edit Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/edit-guided-tour.md)
+[Edit Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/edit-guided-tour.md)
 

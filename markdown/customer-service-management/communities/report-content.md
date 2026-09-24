@@ -2,7 +2,7 @@
 title: Report inappropriate community content
 description: Report content to alert community moderators that the content is inappropriate or spam.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/report-content.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/report-content.html
 release: australia
 product: Communities
 classification: communities
@@ -33,7 +33,7 @@ Role required: sn\_communities.community\_user
     A moderation task is created and assigned to a moderator for resolution. Depending on the moderation settings created for your community, the content may be hidden until a moderator has reviewed it.
 
 
-**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Managing content requests
 description: Content Governance provides a streamlined way for employees to ask for content to be created, track the progress, preview the content, and approve it before it is published.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-content-governance.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -51,7 +51,7 @@ The following process overview provides a high-level understanding of how employ
 
     \[Omitted image "content-gov-request.png"\] Alt text: Content request form
 
-    [Requesting content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md)
+    [Requesting content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-gov-request.md)
 
 -   **Step 2: Content request is created and assigned**
 
@@ -59,9 +59,9 @@ The following process overview provides a high-level understanding of how employ
 
     \[Omitted image "content-gov-request-record.png"\] Alt text: Content manager can view the request details and assign the request to the content creator
 
-    [Tracking content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-track.md)
+    [Tracking content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-gov-track.md)
 
-    [Assign content request to content creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/assign-content-request.md)
+    [Assign content request to content creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/assign-content-request.md)
 
 -   **Step 3: Content is created and scheduled**
 
@@ -71,7 +71,7 @@ The following process overview provides a high-level understanding of how employ
 
     \[Omitted image "content-gov-create-content.png"\] Alt text: The assigned content creator can create content from the Content Governance interface
 
-    [Creating content through Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/creating-content-governance.md)
+    [Creating content through Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/creating-content-governance.md)
 
 -   **Step 4: Content is sent to requester for review**
 
@@ -93,7 +93,7 @@ The following process overview provides a high-level understanding of how employ
     -   Approve the content
     \[Omitted image "content-gov-request-review.png"\] Alt text: The requester and other reviewers access the review request from the My Tasks button in the portal
 
-    [Previewing and approving a content request item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-preview.md)
+    [Previewing and approving a content request item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-gov-preview.md)
 
 -   **Step 6: Content is published**
 

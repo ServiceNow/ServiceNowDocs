@@ -2,7 +2,7 @@
 title: Translation support for Microsoft Teams notification campaigns
 description: ServiceNow for Microsoft Teams supports localization to ServiceNow supported languages in campaigns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/campaign-translation-support-st.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/campaign-translation-support-st.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -22,11 +22,11 @@ You must activate the localized plugins in your instance to use this feature. Fo
 
 For more information about language settings for an instance, see [Set default language for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_GlobalLanguage.md) and [User specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_UserSpecificLanguage.md).
 
-For more information about creating campaigns, see [Create a Microsoft Teams campaign using direct content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-publishing.md) and [Create Microsoft Teams campaigns using the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-experience-builder.md).
+For more information about creating campaigns, see [Create a Microsoft Teams campaign using direct content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-campaign-content-publishing.md) and [Create Microsoft Teams campaigns using the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-campaign-content-experience-builder.md).
 
 For more information about scheduling and executing a job, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
 
-**Note:** The **Title**, **Subject**, and **Description** field labels in the Notification content form are translated. For more information, see [Create notification content for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-publish-ms-teams.md).
+**Note:** The **Title**, **Subject**, and **Description** field labels in the Notification content form are translated. For more information, see [Create notification content for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-campaign-content-publish-ms-teams.md).
 
-**Parent Topic:**[Working on campaigns in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams.md)
+**Parent Topic:**[Working on campaigns in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams.md)
 

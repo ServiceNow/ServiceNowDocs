@@ -2,7 +2,7 @@
 title: Connect the ServiceNow instance to your Microsoft Teams tenant
 description: Connect your ServiceNow instance to your Microsoft Teams tenant to enable the users to create their requests from within Microsoft Teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/connect-sn-instance-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/connect-sn-instance-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,5 +39,5 @@ Role required: External admin \(external\_app\_install\_admin\)
     **Note:** All the users must also accept the permissions, not accepting the permissions result in not being able to use the ServiceNow integrations with Microsoft Teams.
 
 
-**Parent Topic:**[Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md)
+**Parent Topic:**[Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md)
 

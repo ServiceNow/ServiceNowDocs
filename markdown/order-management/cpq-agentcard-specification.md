@@ -2,7 +2,7 @@
 title: AgentCard specification
 description: View the definition and field reference for the A2A discovery manifest used by the ServiceNow AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-agentcard-specification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-agentcard-specification.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-13"

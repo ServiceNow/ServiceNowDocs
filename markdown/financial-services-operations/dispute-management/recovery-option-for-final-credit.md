@@ -2,7 +2,7 @@
 title: Determine recovery option for providing final credit
 description: Complete the Recovery option task to choose whether to pursue chargeback for a transaction where final credit to the card customer will be provided.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/recovery-option-for-final-credit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/recovery-option-for-final-credit.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -64,5 +64,5 @@ A chargeback is bank initiated, pursued when a card provider requests from the m
 -   If determination was made to deny the dispute, the transaction task state updates to Closed complete.
 -   If determination was made to pursue chargeback, the relevant tasks for the transaction will trigger for the Chargeback stage.
 
-**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-a-dispute.md)
+**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

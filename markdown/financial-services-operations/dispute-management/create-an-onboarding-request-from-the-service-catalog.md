@@ -2,7 +2,7 @@
 title: Create a card disputes case request from the service catalog
 description: Create a card disputes case request from the Customer or Consumer Service Portals by navigating to the service catalog.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -47,10 +47,10 @@ In the portal menu header, navigate to **Requests** &gt; **Request Something**.
 
 3.  In the card disputes case intake page, fill in the information that is related to the request.
 
-    For more information on the various stages of the card disputes case within the playbook, see [Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management-workflows.md)
+    For more information on the various stages of the card disputes case within the playbook, see [Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-management-workflows.md)
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[About dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-intake-overview.md)
+**Parent Topic:**[About dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-intake-overview.md)
 

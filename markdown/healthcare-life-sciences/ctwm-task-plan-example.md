@@ -2,7 +2,7 @@
 title: Example - Task plans for care teams
 description: Understand how task plans are designed and executed using Care Team Work Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-task-plan-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-task-plan-example.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

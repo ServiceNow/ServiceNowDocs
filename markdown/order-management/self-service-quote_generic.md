@@ -2,7 +2,7 @@
 title: Quote creation via Self-Service
 description: The Quote Self-Service plugin \(com.sn\_quote\_self\_service\) enables users to create and manage quotes. Users can track quote status, browse catalogs, configure items, and apply discounts through a guided quote creation playbook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/self-service-quote\_generic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/self-service-quote\_generic.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-24"
@@ -24,11 +24,11 @@ The Quote Self-Service application \(com.sn\_quote\_self\_service\) offers the f
 -   Users can directly edit, revise, apply discounts, and download without requesting changes through internal teams.
 -   Audit trail and version history for revised quote prompting trust and transparency.
 
-For information about the Quote creation via Self-Service fields, see [Quote creation via Self-Service fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-creation-fields-self-service.md).
+For information about the Quote creation via Self-Service fields, see [Quote creation via Self-Service fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-creation-fields-self-service.md).
 
 .
 
 ## Set up Quote Self-Service
 
-To install Quote Self-Service, see [Install Quote Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-self-service-quote_generic.md).
+To install Quote Self-Service, see [Install Quote Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-self-service-quote_generic.md).
 

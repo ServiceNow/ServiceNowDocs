@@ -2,7 +2,7 @@
 title: Recovery teams, loss scenarios, and recovery tasks
 description: Business continuity planning workspace guides you to complete your business continuity plan. You can create a recovery team, define roles for the users, and direct the team to execute the plan. When you create a continuity plan for a department or a business unit, it is necessary to identify the loss scenarios to the business continuity plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/recovery-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/recovery-teams.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

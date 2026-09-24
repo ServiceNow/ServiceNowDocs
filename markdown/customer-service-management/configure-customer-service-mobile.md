@@ -2,7 +2,7 @@
 title: Configure the Customer Service mobile application
 description: Configure the Customer Service mobile application and customize it for agents who use the application instance on their mobile devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-customer-service-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-customer-service-mobile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Define a category and measurement unit for an exposure type
 description: Define a category and measurement unit for an exposure type. If needed, you can also associate a subcategory with an exposure type category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-define-category-measurement-unit-exposure-type.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-define-category-measurement-unit-exposure-type.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -52,7 +52,7 @@ Role required: admin
 
     4.  Select **Submit**.
 
-    The subcategory is listed as a choice in the **Sub-category** field for the associated exposure category when creating an exposure type. For more information, see [Define an exposure type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-exposure-type.md).
+    The subcategory is listed as a choice in the **Sub-category** field for the associated exposure category when creating an exposure type. For more information, see [Define an exposure type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-define-exposure-type.md).
 
 4.  Add a measurement unit for an exposure category.
 
@@ -68,8 +68,8 @@ Role required: admin
 
     5.  Select **Submit**.
 
-    The measurement unit is listed as a choice in the **Measurement unit** field during an exposure assessment for the exposure type. For more information, see [Add a measurement and exposure source for an exposure assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-measurement-exposure-assessment.md).
+    The measurement unit is listed as a choice in the **Measurement unit** field during an exposure assessment for the exposure type. For more information, see [Add a measurement and exposure source for an exposure assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-add-measurement-exposure-assessment.md).
 
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

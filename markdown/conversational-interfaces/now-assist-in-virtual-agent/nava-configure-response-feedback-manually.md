@@ -2,7 +2,7 @@
 title: Configure response feedback
 description: Configure the response feedback options that appear when users select thumbs up or thumbs down on a ServiceNow Otto for Virtual Agent or ServiceNow Otto panel response.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/nava-configure-response-feedback-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-configure-response-feedback-manually.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

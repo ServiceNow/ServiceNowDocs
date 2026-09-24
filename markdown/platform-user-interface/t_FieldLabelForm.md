@@ -2,7 +2,7 @@
 title: Add help to a field label on a form
 description: You can create field-level help in forms by placing help icons in individual fields and converting the field labels to links to external or internal URLs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_FieldLabelForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_FieldLabelForm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -68,5 +68,5 @@ Not used. The help file opens in a new tab regardless of the **URL target** valu
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

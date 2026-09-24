@@ -2,7 +2,7 @@
 title: Assigning priority to a purchase order
 description: Purchase order exceptions are automatically assigned a priority level to indicate the most urgent issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/assigning-priority-to-po.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/assigning-priority-to-po.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +23,7 @@ The Priority field for purchase order exceptions can have one of the following v
 
 As an admin, you can configure the **Set Impact and Urgency fields for Priority** business rule to fit your business practices. To calculate impact and urgency level automatically based on the product model and supplier, use this business rule to create your own advanced configurations.
 
-**Parent Topic:**[Configure Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-purch-order-mgmt.md)
+**Parent Topic:**[Configure Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/configure-purch-order-mgmt.md)
 
 **Related topics**  
 
@@ -34,5 +34,5 @@ As an admin, you can configure the **Set Impact and Urgency fields for Priority*
 
 [Domain separation and Purchase Order Management]()
 
-[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
+[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/explore-purch-order-mgmt.md)
 

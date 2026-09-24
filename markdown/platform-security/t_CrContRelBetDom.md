@@ -2,7 +2,7 @@
 title: Create Contains relationships between domains
 description: Create a "contains" relationship between domains to change the domain hierarchy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_CrContRelBetDom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_CrContRelBetDom.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ Domains in a contains relationship inherit the settings of the containing domain
 
 2.  Select the domain record that is the parent \(container\) domain of the new contains relationship.
 
-3.  [Toggle the domain scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainScope.md) to switch between the session scope and record scope, if necessary.
+3.  [Toggle the domain scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_DomainScope.md) to switch between the session scope and record scope, if necessary.
 
 4.  From the Contains Domains related list, click **Edit**.
 
@@ -44,5 +44,5 @@ Domains in a contains relationship inherit the settings of the containing domain
 **Related topics**  
 
 
-[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 

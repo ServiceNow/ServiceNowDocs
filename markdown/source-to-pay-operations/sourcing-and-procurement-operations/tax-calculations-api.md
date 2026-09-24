@@ -2,7 +2,7 @@
 title: Tax calculation API
 description: A tax calculation API is created to provide specific parameters to a tax calculator engine, SAP in this case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculations-api.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculations-api.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,5 +37,5 @@ A staging table is also created that includes the following output parameters fo
 -   Tax type/description
 -   Tax percentage
 
-**Parent Topic:**[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculations.md)
+**Parent Topic:**[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculations.md)
 

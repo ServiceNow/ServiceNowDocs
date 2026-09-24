@@ -2,7 +2,7 @@
 title: Using ServiceNow Otto for Code
 description: Learn to use ServiceNow Otto for Code to generate, edit, explain and summarize code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/using-now-assist-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/using-now-assist-code.html
 release: australia
 product: Scripts
 classification: scripts
@@ -16,27 +16,27 @@ breadcrumb: [ServiceNow Otto for Code, Scripting, API implementation, API implem
 
 Learn to use ServiceNow Otto for Code to generate, edit, explain and summarize code.
 
--   [Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-scripts-from-text.md)
+-   [Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/generate-scripts-from-text.md)
 
     Use the Code generation skill to generate new code based on your prompts.
 
--   [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-code-with-autocomplete.md)
+-   [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/generate-code-with-autocomplete.md)
 
     Use the Code autocomplete skill to get contextually relevant code suggestions or completions as you type in the script editor.
 
--   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/edit-code-now-assist.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/edit-code-now-assist.md)
+-   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/edit-code-now-assist.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/edit-code-now-assist.md)
 
     Use the Code edit skill to quickly edit and refactor large code segments.
 
--   [Add comments to code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/add-comments-to-code-with-quick-actions.md)
+-   [Add comments to code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/add-comments-to-code-with-quick-actions.md)
 
     Use this skill to add comments to code segments.
 
--   [Explain and summarize code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/explain-and-summarize-code-with-quick-actions.md)
+-   [Explain and summarize code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/explain-and-summarize-code-with-quick-actions.md)
 
     Use the Code explain and summarize skill to understand code.
 
--   [Tracking AI-generated code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/tracking-ai-generated-code.md)
+-   [Tracking AI-generated code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/tracking-ai-generated-code.md)
 
     Control when to track and indicate that code is AI-generated.
 

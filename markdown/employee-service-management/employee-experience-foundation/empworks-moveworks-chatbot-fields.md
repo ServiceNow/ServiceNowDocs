@@ -2,7 +2,7 @@
 title: Moveworks chatbot configuration fields
 description: Field reference for the Moveworks web chatbot record and the internal setup record that Employee Slate for Moveworks uses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/empworks-moveworks-chatbot-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-chatbot-fields.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,5 +43,5 @@ Field reference for the Moveworks web chatbot record and the internal setup reco
 **Related topics**  
 
 
-[Configure the Moveworks chatbot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md)
+[Configure the Moveworks chatbot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md)
 

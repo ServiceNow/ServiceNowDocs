@@ -2,7 +2,7 @@
 title: Configuring roll-up calculator rules
 description: Configure roll-up calculator rules to compute the cumulative risk score for remediation tasks and imported vulnerabilities.Create rules to roll-up risk scores on imported findings and remediation tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-risk-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-risk-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,12 +14,12 @@ breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exp
 
 Configure roll-up calculator rules to compute the cumulative risk score for remediation tasks and imported vulnerabilities.
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
+**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 
 
-[Prioritizing vulnerabilities and other findings using roll-up calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-prioritizing-vulnerabilities-other-findings.md)
+[Prioritizing vulnerabilities and other findings using roll-up calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-prioritizing-vulnerabilities-other-findings.md)
 
 ## Create or edit roll-up calculator rules
 
@@ -27,7 +27,7 @@ Create rules to roll-up risk scores on imported findings and remediation tasks.
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-acls-for-admin-rules.md)
 
 ### Procedure
 

@@ -2,7 +2,7 @@
 title: Portfolio Governance
 description: Guidance on building a strategic portfolio management process
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/portfolio-governance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/portfolio-governance.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

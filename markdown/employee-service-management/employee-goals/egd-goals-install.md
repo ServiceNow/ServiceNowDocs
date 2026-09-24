@@ -2,7 +2,7 @@
 title: Install the Employee Goals application
 description: Install the Employee Goals application to incorporate goals as a tool for developing your organizational talent. The Employee Goals app gives employees access to their goals from the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-goals/egd-goals-install.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-goals/egd-goals-install.html
 release: australia
 product: Employee Goals
 classification: employee-goals

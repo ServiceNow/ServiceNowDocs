@@ -2,7 +2,7 @@
 title: Open tasks from the list in CSM/FSM Configurable Workspace
 description: Quickly open tasks from the list in CSM/FSM Configurable Workspace and see them in Dispatcher Workspace to act on them without searching.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/open-task-workspace-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/open-task-workspace-list.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

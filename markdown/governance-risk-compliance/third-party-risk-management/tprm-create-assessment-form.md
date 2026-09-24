@@ -2,7 +2,7 @@
 title: Third-party risk assessment form
 description: Use the third-party risk assessment form to capture all the information that you need to create an assessment using the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an external assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-assessment-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-create-assessment-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -80,7 +80,7 @@ Entity
 
 </td><td>
 
-Select the entity to assess. The field is visible only if you selected **Entity** from the **Applies to** field.**Note:** This is an entity record created as part of the third-party element collection process. For more information, see [Monitoring third-party elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-monitor-tp-elements.md).
+Select the entity to assess. The field is visible only if you selected **Entity** from the **Applies to** field.**Note:** This is an entity record created as part of the third-party element collection process. For more information, see [Monitoring third-party elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-monitor-tp-elements.md).
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Repeating assessment
 
 </td><td>
 
-The assessment used to create the current assessment.**Note:** You can create repeating assessments if you’re using the classic assessment engine. You can configure rules that auto-generate and send questionnaires and doc requests to engagements and third parties using the Event-driven management feature if you’re using the Smart Assessment Engine. For more information, see [Configure a risk assessment to recur on a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/define-repeating-vend-assess.md) and [Event-driven management — automate assessment processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-create.md).
+The assessment used to create the current assessment.**Note:** You can create repeating assessments if you’re using the classic assessment engine. You can configure rules that auto-generate and send questionnaires and doc requests to engagements and third parties using the Event-driven management feature if you’re using the Smart Assessment Engine. For more information, see [Configure a risk assessment to recur on a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/define-repeating-vend-assess.md) and [Event-driven management — automate assessment processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-create.md).
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Assessment Engine
 
 The assessment engine used for the Third-party risk assessment. This field is set to **Smart**.
 
-This field is only visible if you have enabled the Smart Assessment Engine enabled \[`sn_vdr_risk_asmt.sae_enabled`\] property. For more information about this property, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+This field is only visible if you have enabled the Smart Assessment Engine enabled \[`sn_vdr_risk_asmt.sae_enabled`\] property. For more information about this property, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 **Note:** When reviewing previous assessments, you can determine which engine was used by checking this field. If the assessment was created using the Classic assessment engine, the field displays **Classic**.
 
@@ -126,7 +126,7 @@ State
 
 </td><td>
 
-The process of collecting assessment data from a third party transitions through several states. See [External assessment lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md) for detailed descriptions.
+The process of collecting assessment data from a third party transitions through several states. See [External assessment lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md) for detailed descriptions.
 
 </td></tr><tr><td>
 
@@ -346,10 +346,10 @@ Additional comments \(Customer visible\)
 Public information about the assessment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
+</table>**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
 
 **Related topics**  
 
 
-[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
+[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
 

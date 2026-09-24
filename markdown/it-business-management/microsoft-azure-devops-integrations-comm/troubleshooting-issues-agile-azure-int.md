@@ -2,7 +2,7 @@
 title: Troubleshooting issues for Azure DevOps integration with Agile Development
 description: Resolve common issues that you might face while working with the integration of Azure DevOps and Agile Development 2.0.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/troubleshooting-issues-agile-azure-int.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/microsoft-azure-devops-integrations-comm/troubleshooting-issues-agile-azure-int.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -109,7 +109,7 @@ New Azure DevOps projects are not imported automatically.
 
 </td><td>
 
-Manually discover projects from the Azure DevOps instance record to immediately synch the project updates or schedule a job to discover and import these updates on a daily basis.For more details on the scheduled jobs, see [Schedule jobs to import data from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
+Manually discover projects from the Azure DevOps instance record to immediately synch the project updates or schedule a job to discover and import these updates on a daily basis.For more details on the scheduled jobs, see [Schedule jobs to import data from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Imported work items \(epics and stories\) of a project have no assignment group 
 
 </td><td>
 
-Ensure that you have team integration settings for this project. For more information, see [Associate Azure DevOps projects with assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.md).
+Ensure that you have team integration settings for this project. For more information, see [Associate Azure DevOps projects with assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.md).
 
  The assignment group associated to any imported work item of an Azure DevOps project is based on the team integration settings of that project. If the project does not have any team integration setting, the imported work item will have an empty assignment group.
 
@@ -127,7 +127,7 @@ Changes made to iterations in Azure DevOps are not reflecting immediately in Agi
 
 </td><td>
 
-Manually import iterations from the Azure DevOps project record or schedule a job to discover and import these updates daily. For more details on the scheduled jobs, see [Schedule jobs to import data from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
+Manually import iterations from the Azure DevOps project record or schedule a job to discover and import these updates daily. For more details on the scheduled jobs, see [Schedule jobs to import data from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.md).
 
 </td></tr><tr><td>
 
@@ -156,5 +156,5 @@ Webhooks are only to import data from Azure DevOps to Agile Development 2.0. To 
 </td></tr></tbody>
 </table>## Enabling detailed project logs
 
-To view all the details on project logging, enable the integration project logging property. For more information, see [Enable detailed project logging in Microsoft Azure DevOps Integration with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/enable-integration-logs-azure.md).
+To view all the details on project logging, enable the integration project logging property. For more information, see [Enable detailed project logging in Microsoft Azure DevOps Integration with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/enable-integration-logs-azure.md).
 

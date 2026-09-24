@@ -2,7 +2,7 @@
 title: Enable system properties for Knowledge Center
 description: To use the Knowledge Center plugin, you must enable the system properties before you configure the space.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/enable-system-properties-for-KC.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/enable-system-properties-for-KC.html
 release: australia
 topic_type: task
 last_updated: "2026-07-20"

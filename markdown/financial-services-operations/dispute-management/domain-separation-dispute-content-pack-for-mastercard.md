@@ -2,7 +2,7 @@
 title: Domain separation
 description: Domain separation is unsupported for the Dispute Rules Content Pack for Mastercard application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/domain-separation-dispute-content-pack-for-mastercard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/domain-separation-dispute-content-pack-for-mastercard.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +27,7 @@ For more information on support levels, see [Application support for domain sepa
 
 The Dispute Rules Content Pack for Mastercard application provides questionnaires for the intake of dispute related information under various dispute categories as per Mastercard guidelines.
 
-**Parent Topic:**[Dispute Rules Content Pack for Mastercard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-reference.md)
+**Parent Topic:**[Dispute Rules Content Pack for Mastercard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-reference.md)
 
 **Related topics**  
 

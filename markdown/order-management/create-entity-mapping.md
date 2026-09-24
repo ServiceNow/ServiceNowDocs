@@ -2,7 +2,7 @@
 title: Create an entity mapping
 description: Create an entity mapping to compose a workflow between two entities so that you can update their existing configurations and perform a set of declarative actions like suspend, resume, or disconnect a sold product.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-entity-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-entity-mapping.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/entity-configuration-and-mapping.md).
 
 4.  Select **Submit**.
 
@@ -36,7 +36,7 @@ Role required: admin
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/entity-configuration-and-mapping.md).
 
 7.  Select **Submit**.
 
@@ -44,7 +44,7 @@ Role required: admin
 
 9.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/entity-configuration-and-mapping.md).
 
 10. Select **Submit**.
 
@@ -52,7 +52,7 @@ Role required: admin
 **Related topics**  
 
 
-[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-foundation.md)
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-foundation.md)
 
-[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md)
+[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
 

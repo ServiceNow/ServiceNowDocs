@@ -2,7 +2,7 @@
 title: Jumpstart Your CSDM: Foundation
 description: The Jumpstart Your Common Service Data Model \(CSDM\): Foundation Accelerator provides an overview and breakdown of the CSDM with a focus on Foundation data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-csdm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-csdm.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

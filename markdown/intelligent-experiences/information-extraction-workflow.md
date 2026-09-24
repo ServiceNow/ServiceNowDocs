@@ -2,10 +2,10 @@
 title: Information Extraction skill workflow
 description: Information Extraction is a skill that analyzes documents to provide values for defined fields, table columns, and questions in a use case. It populates ServiceNow records with extracted data from documents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/information-extraction-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/information-extraction-workflow.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [information extraction, document processing, skill workflow]
 breadcrumb: [Information Extraction skill, Explore, Content Understanding, Enable AI experiences]
@@ -39,11 +39,11 @@ When a document enters a workflow, the Information Extraction skill examines its
 **Related topics**  
 
 
-[Content Understanding personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/personas.md)
+[Content Understanding personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/personas.md)
 
-[Predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictions.md)
+[Predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictions.md)
 
-[Use cases in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-use-cases.md)
+[Use cases in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cu-use-cases.md)
 
-[Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/automation-modes.md)
+[Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/automation-modes.md)
 

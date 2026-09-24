@@ -2,12 +2,12 @@
 title: Monitor AI asset security events and recommendations
 description: Triage and resolve AI recommendations and AI asset security events to optimize AI asset security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-use-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-use-events.html
 release: australia
 topic_type: task
 last_updated: "2026-05-02"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -33,7 +33,7 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 4.  On any AI recommendation, select **Open** to view all associated AI asset security events.
 
-    For more information, see [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-activity-center.md).
+    For more information, see [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-activity-center.md).
 
 5.  On any AI asset security event, select **View map** to see the AI asset in the agent map, or **View asset** to view AI asset details.
 
@@ -43,6 +43,6 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 6.  In the malicious activity banner, select **View details** to address the AI agent issue.
 
-    For more information, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
+    For more information, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
 

@@ -2,7 +2,7 @@
 title: Configuring ServiceNow Otto for Employee Center Pro
 description: Guidance for setting up ServiceNow Otto for Employee Center Pro.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/na-emp-cente-pro-configuring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/na-emp-cente-pro-configuring.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,19 +19,19 @@ Guidance for setting up ServiceNow Otto for Employee Center Pro.
 
 ServiceNow Otto for Employee Center Pro features are organized into categories, each with its own landing page to help guide users through the configuration process.
 
--   [Content Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
+-   [Content Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
 
     Content engagement provides users with a way to comment and react to articles and for managers to measure the effectiveness of their content using engagement metrics.
 
--   [Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md)
+-   [Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-publish-content.md)
 
     Content Publishing offers robust communications creation tools that enable you to create, manage, and publish a variety of content types including portal content, notifications, mobile content, and tasks.
 
--   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-framework.md)
+-   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-integrations-framework.md)
 
     The ServiceNow Enterprise Service Management Integrations Framework application contains common components that can be used for integrating your ServiceNow application with third-party systems.
 
--   [Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-outlook-reference.md)
+-   [Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-ms-outlook-reference.md)
 
     Outlook actionable messages plugin enables users to respond to the survey from within the Microsoft Outlook application.
 
@@ -43,7 +43,7 @@ ServiceNow Otto for Employee Center Pro features are organized into categories, 
 **Related topics**  
 
 
-[Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-pro-landing.md)
+[Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-pro-landing.md)
 
 [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 

@@ -2,7 +2,7 @@
 title: Monitor DLP Integration Run process
 description: Track and monitor the ongoing ingestion or the integration run process. The integration run processes contains the statistics on how much the data was processed and the integration status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-microsoft-dlp-integration-run-process.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/configure-microsoft-dlp-integration-run-process.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -32,7 +32,7 @@ The integration run contains the Source for which the integration profile and th
 3.  Navigate to the **DLP Integration Run Process**.
 4.  View the queue entry status of the record.
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 

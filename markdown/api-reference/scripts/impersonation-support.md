@@ -2,7 +2,7 @@
 title: Script Debugger impersonation support
 description: You can use the Script Debugger while impersonating another user, but only if the impersonated user has the script\_debugger role and has read access to the target script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/impersonation-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/impersonation-support.html
 release: australia
 product: Scripts
 classification: scripts
@@ -31,10 +31,10 @@ The impersonated debugging session lasts until:
 -   You pause the Script Debugger.
 -   You close the Script Debugger.
 
-**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
+**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debugger.md)
 
 **Related topics**  
 
 
-[Script Debugger multiple developer support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/multiple-developer-support.md)
+[Script Debugger multiple developer support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/multiple-developer-support.md)
 

@@ -2,7 +2,7 @@
 title: Goal form
 description: Use the Goal form to create goals for your organizational strategic priorities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-goal-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-goal-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -182,5 +182,5 @@ Users who contribute to the achievement of the goal.
 **Related topics**  
 
 
-[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-strategize.md)
+[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-strategize.md)
 

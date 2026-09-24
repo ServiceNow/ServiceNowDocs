@@ -2,7 +2,7 @@
 title: Virtual Private Network \(VPN\)
 description: Use a virtual private network \(VPN\) to integrate your instance with external data sources over the Internet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_SetUpAVPN4SNowBusNet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/c\_SetUpAVPN4SNowBusNet.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,19 +15,19 @@ Use a virtual private network \(VPN\) to integrate your instance with external d
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-virtual-private-network.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/exploring-virtual-private-network.md)
 
  Learn the features and business values of virtual private network.
 
 </td><td>
 
-[Activate\[Omitted image "icon-workspace.png"\] Alt text: Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_RequestAVPNService.md)
+[Activate\[Omitted image "icon-workspace.png"\] Alt text: Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_RequestAVPNService.md)
 
  Active the virtual private network.
 
 </td></tr><tr><td>
 
-[Configure\[Omitted image "icon-set-up.png"\] Alt text: Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnAddressForVPNComms.md)
+[Configure\[Omitted image "icon-set-up.png"\] Alt text: Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_CreateAnAddressForVPNComms.md)
 
  Understand how to configure virtual private network.
 

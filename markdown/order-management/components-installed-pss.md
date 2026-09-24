@@ -2,7 +2,7 @@
 title: Components installed with Customer Contracts and Entitlements
 description: Several types of components are installed with the Customer Contracts and Entitlements application, including tables and roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-pss.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/components-installed-pss.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Add a report to a responsive dashboard
 description: Make actionable decisions faster by combining relevant reports and widgets onto a dashboard. Navigating to single reports and widgets is time-consuming and less efficient.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/add-report-to-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/add-report-to-dashboard.html
 release: australia
 product: Reporting
 classification: reporting
@@ -20,7 +20,7 @@ Make actionable decisions faster by combining relevant reports and widgets onto 
 
 Role required: Any user who can create a report can add it to a responsive dashboard.
 
-This topic refers to Reporting in the Core UI. If your instance is a new Australia instance or migrated to Platform Analytics experience, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md).
+This topic refers to Reporting in the Core UI. If your instance is a new Australia instance or migrated to Platform Analytics experience, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md).
 
 Watch this eight-minute video to learn about generating reports, creating reports in the Report Designer, and sharing and scheduling reports.
 
@@ -43,5 +43,5 @@ Watch this eight-minute video to learn about generating reports, creating report
 6.  Select **Edit** to move or resize the report.
 
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)
 

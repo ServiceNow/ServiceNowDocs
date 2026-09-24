@@ -2,7 +2,7 @@
 title: Activate ServiceNow Extensions for VS Code
 description: Activate the ServiceNow Extensions for VS Code to be able to edit applications within your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/activate-servicenow-ext.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/activate-servicenow-ext.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,8 +34,8 @@ Activating the extension is the first step you must perform after installation o
 
     \[Omitted image "vscode-activateservicenow.png"\] Alt text: Activate Now extension in command palette
 
-    The **Setup Workspace** link appears at the bottom of the VS Code IDE. After the extension is activated, [Set up your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/setup-workspace.md) in VS Code to begin editing ServiceNow applications.
+    The **Setup Workspace** link appears at the bottom of the VS Code IDE. After the extension is activated, [Set up your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/setup-workspace.md) in VS Code to begin editing ServiceNow applications.
 
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vs-code.md)
 

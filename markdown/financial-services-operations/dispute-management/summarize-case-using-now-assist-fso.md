@@ -2,7 +2,7 @@
 title: Summarize a dispute or claims case with case summarization
 description: Generate a summary from the defined fields on the case record and quickly understand the case context by using the case summarization skill in the ServiceNow Otto for Financial Services Operations \(FSO\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/summarize-case-using-now-assist-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/summarize-case-using-now-assist-fso.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -117,5 +117,5 @@ If you want to check some details about the summary, select the more info icon \
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-disputes.md)
+**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/managing-disputes.md)
 

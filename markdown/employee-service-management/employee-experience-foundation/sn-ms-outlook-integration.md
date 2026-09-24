@@ -2,7 +2,7 @@
 title: ServiceNow for Microsoft Outlook
 description: The ServiceNow integrations with Microsoft Outlook help you create a better, more connected experience for users. Employees get seamless self-service without having to leave the Outlook client, and agents can resolve cases faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/sn-ms-outlook-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/sn-ms-outlook-integration.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,18 +29,18 @@ ServiceNow for Microsoft Outlook leverages the [Outlook Actionable Messages](htt
 
 <table id="table_yb5_zm4_1bc" class="nav-card"><tbody><tr><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Provide employees with seamless self-service without leaving the Outlook client.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configuring-sn-ms-outlook.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Provide employees with seamless self-service without leaving the Outlook client.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configuring-sn-ms-outlook.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:View reports, approve requests, and provide feedback from within email messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-sn-ms-outlook.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:View reports, approve requests, and provide feedback from within email messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-sn-ms-outlook.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Information about lists and forms used to configure Outlook Actionable Messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-outlook-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Information about lists and forms used to configure Outlook Actionable Messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-ms-outlook-reference.md)
 
 </td></tr></tbody>
-</table>**Warning:** After Microsoft retired External Access Token \(EAT\) authentication for Outlook Actionable Messages on March 31, 2026, actionable messages that rely on EAT will stop working. To ensure uninterrupted functionality with actionable message, you must migrate to Microsoft Entra ID token authentication and update the Outlook Actionable Messages app registration in your ServiceNow instance. Refer to [Update Outlook Actionable Messages authentication to Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/update-outlook-actionable-msgs-auth-to-ms-entra-id.md).
+</table>**Warning:** After Microsoft retired External Access Token \(EAT\) authentication for Outlook Actionable Messages on March 31, 2026, actionable messages that rely on EAT will stop working. To ensure uninterrupted functionality with actionable message, you must migrate to Microsoft Entra ID token authentication and update the Outlook Actionable Messages app registration in your ServiceNow instance. Refer to [Update Outlook Actionable Messages authentication to Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/update-outlook-actionable-msgs-auth-to-ms-entra-id.md).
 
 ## Troubleshoot and get help
 

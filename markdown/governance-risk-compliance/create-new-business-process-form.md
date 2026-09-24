@@ -2,7 +2,7 @@
 title: Create Business Process form
 description: Use the Create Business Process form in Operational Resilience Workspace to set up a business process and configure its related lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-business-process-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-business-process-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

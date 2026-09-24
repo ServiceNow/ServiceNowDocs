@@ -2,7 +2,7 @@
 title: Using search in Next Experience
 description: Global search enables you to search multiple record types at once from the Next Experience Unified Navigation search field. Search returns the results that are most relevant to you, grouped by source, or takes you directly to a record that exactly matches your search query. You can switch between global search results and results from workspace applications that you have access to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/using-search-next-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/using-search-next-experience.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

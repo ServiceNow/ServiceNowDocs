@@ -2,7 +2,7 @@
 title: Building your Upgrade Plan
 description: Build your upgrade plan to experience a seamless and an accelerated upgrade by packaging the applications in an upgrade plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-building-upgrade-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-building-upgrade-plan.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -41,7 +41,7 @@ Role required: admin
 
 3.  Click **Build** to start the upgrade plan build.
 
-    Upgrade Plan takes up only the app installations by default and publish it on to the app repository. See Upgrade Plan background operations section in [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
+    Upgrade Plan takes up only the app installations by default and publish it on to the app repository. See Upgrade Plan background operations section in [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
 
     **Note:** Ensure all the applications in the instance are in ready state to be published on to the app repository.
 
@@ -71,7 +71,7 @@ Role required: admin
 
 8.  Click **Publish** to publish the Upgrade Plan.
 
-    See Upgrade Plan background operations section in [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
+    See Upgrade Plan background operations section in [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
 
     **Note:** Install all the required applications and plugins before publishing the upgrade plan. If you have set the GLIDE\_UPGRADE\_PLAN\_INCLUDE\_SKIPS property to true, you will have to resolve all the skipped records before publishing the upgrade plan. If you want to delete the Upgrade Plan, click **Delete**. The **Delete** option is available only for the Upgrade Plans that are not yet published.
 
@@ -80,7 +80,7 @@ Role required: admin
     The upgrade plan is now ready to be installed in the consumer instance.
 
 
-**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
+**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
 
 **Related topics**  
 

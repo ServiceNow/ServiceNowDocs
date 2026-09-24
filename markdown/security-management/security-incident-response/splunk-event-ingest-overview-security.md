@@ -2,7 +2,7 @@
 title: Splunk Enterprise Security event ingestion integration
 description: The Splunk Enterprise Security notable event ingestion integration with the Security Incident Response \(SIR\) product allows security incident analysts to collect and process notable event data \(referred to as notables\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-overview-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/splunk-event-ingest-overview-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -45,7 +45,7 @@ The following Security Operations applications must be installed and activated f
 2.  Security Support Common
 3.  Security Incident Response
 
-For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/activate-entitled-store-app.md).
 
 ## ServiceNow Addons
 
@@ -93,5 +93,5 @@ Splunk product website
 </td></tr></tbody>
 </table>## Checklist
 
-For a printable checklist of these topics, see [Checklist for Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-checklist-security.md). You can use this list to monitor your progress as you work through the tasks of the integration.
+For a printable checklist of these topics, see [Checklist for Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/splunk-event-ingest-checklist-security.md). You can use this list to monitor your progress as you work through the tasks of the integration.
 

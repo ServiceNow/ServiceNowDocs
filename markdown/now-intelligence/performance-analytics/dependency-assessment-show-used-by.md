@@ -2,7 +2,7 @@
 title: Bottom-up tree view
 description: You can see where any element in the tree view is used. This is useful when you want to change an element such as an indicator or breakdown and see the effect of your change on other PA elements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/dependency-assessment-show-used-by.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/dependency-assessment-show-used-by.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -24,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  [Launch Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/launch-dependency-assessment.md) on the Performance Analytics entity you want to investigate.
+1.  [Launch Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/launch-dependency-assessment.md) on the Performance Analytics entity you want to investigate.
 
     1.  Navigate to **Performance Analytics** &gt; **Dashboards**.
 
@@ -45,5 +45,5 @@ Role required: admin
 5.  Click the reset button \(\[Omitted image "tree-view-reset-icon.png"\] Alt text:\) to return the tree view to the base selection as shown in the header.\[Omitted image "dependency-assessment-reset.png"\] Alt text: Dependency assessment on the dashboard Usage by Requestor, with the reset button highlighted.
 
 
-**Parent Topic:**[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/impact-analysis.md)
+**Parent Topic:**[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/impact-analysis.md)
 

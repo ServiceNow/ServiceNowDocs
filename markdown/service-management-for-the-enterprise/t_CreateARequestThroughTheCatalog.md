@@ -2,7 +2,7 @@
 title: Create a request through a catalog
 description: The catalog provides several different categories so users can choose the one that closely relates to their request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateARequestThroughTheCatalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_CreateARequestThroughTheCatalog.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ The catalog provides several different categories so users can choose the one th
     **Note:** If the catalog fields do not appear on the request form, you can configure the form and add variables or variable sets.
 
 
-**Parent Topic:**[Request creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_RequestCreation.md)
+**Parent Topic:**[Request creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_RequestCreation.md)
 

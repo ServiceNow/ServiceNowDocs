@@ -2,7 +2,7 @@
 title: Check company news and events
 description: Stay connected and informed on company updates, events, announcements, and more with the help of the AI Agent in the Employee Center ServiceNow Otto for Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/check-company-news-using-nowassist-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/check-company-news-using-nowassist-va.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -47,7 +47,7 @@ Role required: none
     If the event requires RSVP, select **Yes** or **No**. If you have already specified your RSVP, you can also edit it.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
+**Parent Topic:**[Using ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
 
 **Related topics**  
 

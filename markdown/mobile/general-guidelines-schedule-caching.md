@@ -2,7 +2,7 @@
 title: General guidelines for scheduling offline caching
 description: When scheduling offline caches keep these general guidelines in mind for usability and a good user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/general-guidelines-schedule-caching.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/general-guidelines-schedule-caching.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-01"
@@ -63,5 +63,5 @@ When scheduling offline caches keep these general guidelines in mind for usabili
     Use this property to balance data currency with bandwidth, where shorter intervals provide more current data and longer intervals reduce network usage.
 
 
-**Parent Topic:**[Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/scheduled-offline-caching.md)
+**Parent Topic:**[Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/scheduled-offline-caching.md)
 

@@ -2,7 +2,7 @@
 title: Identity Audit Results
 description: Displays all audits performed within the ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/identity-audit-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/identity-audit-results.html
 release: australia
 product: Identity
 classification: identity

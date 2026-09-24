@@ -2,7 +2,7 @@
 title: Import data using FTP server
 description: Import a file from a local source, a remote network server, or another instance by providing a path and authentication information. Transfer and manage procurement data in a principled structure that administrators can use for various data management operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/ftp-data-import.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/ftp-data-import.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -52,16 +52,16 @@ Role required: import\_admin or admin
 
 5.  Set additional fields based on the selected **Type**.
 
-    See the documentation for each data source type for additional field information. The Table transform map is associated with the table to transform the `File Based Catalog Import [sn_spend_ftp_intg_catalog_stage]` data into `Catalog Import [sn_spend_intg_imp_catalog]`. For more information on the table transform map, see the [Data source table information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md).
+    See the documentation for each data source type for additional field information. The Table transform map is associated with the table to transform the `File Based Catalog Import [sn_spend_ftp_intg_catalog_stage]` data into `Catalog Import [sn_spend_intg_imp_catalog]`. For more information on the table transform map, see the [Data source table information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md).
 
 
 ## What to do next
 
 -   Manage the data integration by scheduled import and export jobs on a daily, weekly, or monthly basis. Perform the **Scheduled Imports** based on your business needs. See [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md).
--   Verify the accuracy of the data import and share the errors on the FTP server. The reseller can fix the posted errors using [Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md).
+-   Verify the accuracy of the data import and share the errors on the FTP server. The reseller can fix the posted errors using [Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md).
 
--   **[Run scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/run-scheduled-imports.md)**  
+-   **[Run scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/run-scheduled-imports.md)**  
 A scheduled import allows administrators to import data on a regular schedule. Run import operations on a daily, weekly, or monthly basis based on your business requirements. Scheduled import runs a datasource similar to how a scheduler job runs the script.
 
-**Parent Topic:**[Procurement File Transfer Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.md)
+**Parent Topic:**[Procurement File Transfer Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.md)
 

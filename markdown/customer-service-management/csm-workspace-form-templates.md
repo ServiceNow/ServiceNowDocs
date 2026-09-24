@@ -2,7 +2,7 @@
 title: CRM Workspace form templates
 description: Create and edit form templates for use in CRM Workspace and then use the templates to automatically populate fields on case and interaction records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-form-templates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -148,7 +148,7 @@ Example: A case has **Account = XYZ** **and** **State = Open**. The template "St
 
 ## Adding comments, work notes, and email with templates
 
-You can create and use form templates that add content to the **Additional comments** and **Work notes** fields on a case or interaction and then post that content to the activity stream. Selecting a template displays a modeless dialog with the template content. For more information, see [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
+You can create and use form templates that add content to the **Additional comments** and **Work notes** fields on a case or interaction and then post that content to the activity stream. Selecting a template displays a modeless dialog with the template content. For more information, see [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
 
 **Using template email content:** When a template is applied that includes email content, an email draft appears in the Email tab. Select the **Email** tab to view the draft. The **To**, **Cc**, and **Subject** fields are populated based on case information. Review the email, make any edits if needed, and select **Send**.
 

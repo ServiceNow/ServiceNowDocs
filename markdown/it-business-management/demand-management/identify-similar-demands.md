@@ -2,7 +2,7 @@
 title: Identify similar records using AI
 description: Use the identify similar records skill to find demand records with similar names, descriptions, or business case content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/identify-similar-demands.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/identify-similar-demands.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -47,7 +47,7 @@ Role required: it\_demand\_user
 
 To view full details of a similar demand record, select the demand number link from the Similar Demands related list.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

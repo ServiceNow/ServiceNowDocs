@@ -2,7 +2,7 @@
 title: Link button widget
 description: The Link Button widget is a button you can nest in any other widget that links to another destination. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/link-button-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/link-button-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -26,7 +26,7 @@ The Link Button widget is a button you can nest in any other widget that links t
 |Link for button|Page that the button links to. Use ?id=&lt;page\_name&gt; to link to another page in the portal.|
 |Contents of button|The button text.|
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

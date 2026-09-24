@@ -2,7 +2,7 @@
 title: Exploring Workplace Connectors
 description: Workplace Connectors is a framework to integrate different types of badging, occupancy, air quality, and temperature sensor data. It provides a standardized way of fetching badging, occupancy, air quality and temperature data from workplace hardware or sensors in Workplace Service Delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/explore-workplace-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-connectors/explore-workplace-connectors.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
@@ -27,9 +27,9 @@ Workplace Connectors is a framework to integrate different types of badging, occ
 -   Monitor indoor pollutants including Particulate Matter \(PM1 &amp; PM2.5\) and air borne chemicals \(Volatile Organic Compounds or VOCs\), relative humidity levels, temperature, and Carbon dioxide \(CO2\) levels in a building or workplace.
 -   Reduced operating costs of workplaces or building maintenance with better air quality and optimum levels of humidity. Reduced particulate matter in the air reduces energy consumption of a building.
 
-**Parent Topic:**[Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/workplace-connectors-landing-page.md)
+**Parent Topic:**[Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/workplace-connectors-landing-page.md)
 
-**Previous topic:**[Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/workplace-connectors-landing-page.md)
+**Previous topic:**[Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/workplace-connectors-landing-page.md)
 
-**Next topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
+**Next topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 

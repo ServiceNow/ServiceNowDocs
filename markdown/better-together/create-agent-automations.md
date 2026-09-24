@@ -2,7 +2,7 @@
 title: Create an AI agent and desktop actions from Automation Center
 description: After reviewing the automation blocks generated from an automation request, create an AI agent that executes desktop actions on a Windows machine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/better-together/create-agent-automations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/better-together/create-agent-automations.html
 release: australia
 topic_type: task
 last_updated: "2026-06-17"
@@ -20,7 +20,7 @@ After reviewing the automation blocks generated from an automation request, crea
 -   Verify that Automation Center and AI Desktop Actions are installed.
 -   Verify that the AI Desktop Actions client application is downloaded and installed on the Windows machine where the AI agent runs.
 -   Verify that ServiceNow Otto for Automation Center plugin is installed and the User task step summarization skill is activated.
--   Confirm that you have created automation blocks from an automation request Automation Center. For more information, see [Create automation blocks from the automation request in Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/generate-automations-tm.md).
+-   Confirm that you have created automation blocks from an automation request Automation Center. For more information, see [Create automation blocks from the automation request in Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/better-together/generate-automations-tm.md).
 -   The automation request must be in the **In progress** state.
 
 Role required: sn\_aia.admin, sn\_tm\_core.analyst, sn\_ac.automation\_admin, sn\_ac.automation\_technical\_user

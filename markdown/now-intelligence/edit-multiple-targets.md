@@ -2,7 +2,7 @@
 title: Edit multiple targets in KPI Details
 description: Retroactively change one or more existing targets from their start date instead of ending them and starting new targets from a later date. You can edit multiple targets to have the same value, the same change in value, or the same date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/edit-multiple-targets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/edit-multiple-targets.html
 release: australia
 topic_type: task
 last_updated: "2023-08-03"
@@ -18,7 +18,7 @@ Retroactively change one or more existing targets from their start date instead 
 
 Role required: pa\_target\_admin to edit all targets that were created for everyone. Any user with a target that they created for themselves can edit that target.
 
-A responsible user can edit any target that they are responsible for, regardless of role. For more information, see [Responsibility for indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/responsibiity-targets-kpi-details.md).
+A responsible user can edit any target that they are responsible for, regardless of role. For more information, see [Responsibility for indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/responsibiity-targets-kpi-details.md).
 
 ## About this task
 
@@ -133,7 +133,7 @@ The highest value you want the target to have, regardless of calculation. You do
     You expect to meet the target by the review date, or at least to review progress then.
 
 
-**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)
+**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details-targets.md)
 
 **Related topics**  
 

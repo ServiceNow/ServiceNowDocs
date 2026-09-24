@@ -2,7 +2,7 @@
 title: Create a filter in List
 description: You can create a filter to restrict what records appear in a list by providing a set of conditions. When you run the filter, only records that meet the specified conditions are listed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreatingFilters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreatingFilters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,11 +22,11 @@ Role required: none
 
 1.  Open the condition builder by clicking the show/hide filter icon \(\[Omitted image "Icon-Condition\_builder\_UI15.png"\] Alt text: Show or hide filter icon\).
 
-    If the icon is disabled and the breadcrumb has a related list condition in it, you must remove the related list condition to open the filter. The condition was created when the List v3 was enabled for this list. List v2 does not support related list conditions. For more information about related list conditions, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
+    If the icon is disabled and the breadcrumb has a related list condition in it, you must remove the related list condition to open the filter. The condition was created when the List v3 was enabled for this list. List v2 does not support related list conditions. For more information about related list conditions, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-related-list-query.md).
 
 2.  Select a field from the list.
 
-    The field type determines the available operators and values. For example, the **Active** field can have a value of **true**, **false**, or **empty**, while a text field can have many different values. Similarly, the **greater than** operator does not apply to the **Active** field, but it does apply to the **Priority** field. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    The field type determines the available operators and values. For example, the **Active** field can have a value of **true**, **false**, or **empty**, while a text field can have many different values. Similarly, the **greater than** operator does not apply to the **Active** field, but it does apply to the **Priority** field. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ConditionBuilder.md).
 
 3.  Select an **operator** from the list.
 
@@ -65,12 +65,12 @@ Click **x** beside the condition.
 
 7.  Click **Save** to keep the filter for future use.
 
-    For more information, see [Save and use filters in a list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_SavingFilters.md).
+    For more information, see [Save and use filters in a list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_SavingFilters.md).
 
 8.  Click **Run** to apply the filter.
 
 
-**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md)
+**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Filters.md)
 
 **Related topics**  
 
@@ -83,9 +83,9 @@ Click **x** beside the condition.
 
 [Dynamic operators]()
 
-[Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md)
+[Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_DotWalking.md)
 
 [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md)
 
-[Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md)
+[Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_OpAvailableFiltersQueries.md)
 

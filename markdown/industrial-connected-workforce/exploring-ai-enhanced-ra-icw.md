@@ -2,7 +2,7 @@
 title: AI Enhanced Recommended Actions for Industrial Connected Workforce \(ICW\)
 description: The AI Enhanced Recommended Actions for Industrial Connected Workforce feature accesses external sources related to a deviation, and contextualizes how the document is relevant to the deviation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/exploring-ai-enhanced-ra-icw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/exploring-ai-enhanced-ra-icw.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,8 +31,8 @@ By default, AI Search uses the short description, description, site, ICW device,
 
 To learn more about configuring and using AI Enhanced Recommended Actions for ICW, see:
 
--   [Configure AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configure-ai-enhanced-ra-icw.md)
--   [Contextualize an external document for a deviation in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/use-ai-enhanced-ra-icw.md)
+-   [Configure AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/configure-ai-enhanced-ra-icw.md)
+-   [Contextualize an external document for a deviation in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/use-ai-enhanced-ra-icw.md)
 
-**Parent Topic:**[AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/ai-enhanced-ra-icw-landing.md)
+**Parent Topic:**[AI Enhanced Recommended Actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/ai-enhanced-ra-icw-landing.md)
 

@@ -2,7 +2,7 @@
 title: Activate a scheduled job to generate labor costs
 description: Activate and trigger a scheduled job to generate attribute-based labor costs for all the projects and demands at a required cadence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.html
 release: australia
 product: Project Management
 classification: project-management
@@ -28,17 +28,17 @@ Role required: admin
 
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-    For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
+    For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-cost-pln-prj-wrkspc.md)
+**Parent Topic:**[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/gen-cost-pln-prj-wrkspc.md)
 
 **Related topics**  
 
 
-[Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md)
+[Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/scheduled-script-execution-form.md)
 
-[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-cost-pln-prj-wrkspc.md)
+[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/gen-cost-pln-prj-wrkspc.md)
 

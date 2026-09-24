@@ -2,7 +2,7 @@
 title: Create an outage from a major case
 description: Create an outage from a major case to keep customers informed about any issues affecting their install base items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-outages-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/track-outages-csm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Work with acknowledgements using the Service Portal
 description: After you have received a request to provide acknowledgement for a policy, you have the option of working with the request in the ServiceNow AI Platform, or you can perform your actions in the ServiceNow Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/ack-using-service-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/policy-and-compliance-management/ack-using-service-portal.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -56,9 +56,9 @@ Click **Decline**.
 
 </td><td>
 
-Click [**Request Exception**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/request-policy-exception.md).
+Click [**Request Exception**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/request-policy-exception.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)
+**Parent Topic:**[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)
 

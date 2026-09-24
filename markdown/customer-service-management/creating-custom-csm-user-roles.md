@@ -2,7 +2,7 @@
 title: Creating custom user roles
 description: System administrators can create custom roles or modify the access of existing roles by using script includes and extension points/instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/creating-custom-csm-user-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/creating-custom-csm-user-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -43,7 +43,7 @@ To create a role:
 
 For more information about modifying ACLs and query business rules, see [KB0685767](https://support.servicenow.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0685767%26sysparm_stack%3D%26sysparm_view%3D).
 
-**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_RolesInstalledWithCustomerService.md)
 
 **Related topics**  
 

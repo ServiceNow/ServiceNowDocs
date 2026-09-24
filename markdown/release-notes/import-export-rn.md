@@ -2,7 +2,7 @@
 title: Import and Export release notes
 description: The ServiceNow Import and Export applications enable you to import and export data to and from the ServiceNow AI Platform. Import and Export were enhanced and updated in the Australia release.The ServiceNow Import and Export applications enable you to import and export data to and from the ServiceNow AI Platform. Import and Export were enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/import-export-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/import-export-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ See [Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austra
     Import and Export is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-capabilities-rn-landing.md)
 
 ## Australia
 

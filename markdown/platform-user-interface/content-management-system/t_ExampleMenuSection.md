@@ -2,7 +2,7 @@
 title: View menu and list examples
 description: Menu sections define groups of links and how the links behave.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_ExampleMenuSection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/t\_ExampleMenuSection.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -51,5 +51,5 @@ For example, link behavior determines which page opens when the link is clicked 
     3.  Browse the catalog items.
 
 
-**Parent Topic:**[Example menu items and content links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_NavigationMenusAndContentLinks.md)
+**Parent Topic:**[Example menu items and content links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_NavigationMenusAndContentLinks.md)
 

@@ -2,14 +2,14 @@
 title: Configure Docusign for external content indexing
 description: Create an app and integration key in Docusign to allow the Docusign external content connector to access your source system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-docusign-external-content-indexing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-docusign-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Docusign external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -78,12 +78,12 @@ To allow the connector to access your Docusign source system via the eSignature 
 
 Provide the following items to your connector administrator:
 
--   The integration key for your Docusign app that you copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-docusign-external-content-indexing.md).
--   The secret key for your Docusign app that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-docusign-external-content-indexing.md).
+-   The integration key for your Docusign app that you copied in step [2.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-docusign-external-content-indexing.md).
+-   The secret key for your Docusign app that you copied in step [3.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-docusign-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a Docusign external content connector to retrieve envelopes and security principals from your Docusign source system.
 
-For details on creating and configuring a Docusign external content connector, see [Create a Docusign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-docusign.md).
+For details on creating and configuring a Docusign external content connector, see [Create a Docusign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-docusign.md).
 
-**Parent Topic:**[Docusign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/docusign-external-content-connector.md)
+**Parent Topic:**[Docusign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/docusign-external-content-connector.md)
 

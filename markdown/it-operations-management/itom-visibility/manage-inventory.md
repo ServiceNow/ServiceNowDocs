@@ -2,7 +2,7 @@
 title: View and manage cryptographic assets
 description: View details of cryptographic assets and filter the data to focus on specific assets, analyze risk indicators, and export details from the Inventory page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/manage-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/manage-inventory.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,7 +19,7 @@ View details of cryptographic assets and filter the data to focus on specific as
 
 ## Before you begin
 
--   Discovery of cryptographic assets must have been set up. For more information, see [Configuring the discovery of cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/set-up-cryptographic-asset-discovery.md).
+-   Discovery of cryptographic assets must have been set up. For more information, see [Configuring the discovery of cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/set-up-cryptographic-asset-discovery.md).
 -   Role required: Cryptographic Asset admin \(sn\_itom\_cac.admin\) or Cryptographic Asset user \(sn\_itom\_cac.user\)
 
 ## Procedure
@@ -71,6 +71,6 @@ View details of cryptographic assets and filter the data to focus on specific as
 
 10. View more details about the asset by selecting an asset name.
 
-    For more information, see [View cryptographic asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/view-asset-details.md).
+    For more information, see [View cryptographic asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/view-asset-details.md).
 
 

@@ -2,7 +2,7 @@
 title: Apply quick filters for Prioritization and Roadmap data in Portfolio Planning
 description: Quickly apply filters for data in the Prioritization or Roadmap tabs to help you seamlessly plan using a consistent data set across all views of the tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

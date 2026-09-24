@@ -2,7 +2,7 @@
 title: Defining and setting for employee documents
 description: Use Employee Document Management to configure how employee documents should be handled based on company policy, processes, and regulatory compliance.For each document type, you can determine who can access a document as well as define the retention policies associated with it, or place a legal hold. A document type can manage multiple documents.A retention period defines how long an employee document should be saved before being discarded. Retention periods are combined with conditions or criteria to form a retention policy.Default retention policies ensure that employee documents are not mistakenly purged. When a retention policy has not been assigned to a document type, the default retention policy is used.Set policies determining how long documents should be retained and who is covered. Retention policies combine the retention period and conditions or criteria.Default security policies ensure that employee documents are secure. The HR Service Delivery base system provides default security policies for each document type and determines who can access and has purge authorization.Many employee documents contain confidential and personal information. Use document security policies to define access to employee documents and ensure that they are secure.Add or modify expiration notification policies on a document type. Allow setting an expiration date on a document and sending email notifications to document owners, managers, or HR representatives when the document expires or nearing its expiration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/hr-doc-management-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/hr-doc-management-config.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -24,11 +24,11 @@ Document types are at the center of the Employee Document Management application
 -   Associate a retention policy. Retention policies determine how long to keep a document and who the document is applicable to.
 -   Place a legal hold. Legal holds temporarily prevent document purging or changes to the document.
 -   Allow access to employees.
--   Configure employee documents to be moved automatically when an HR case is closed. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+-   Configure employee documents to be moved automatically when an HR case is closed. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 \[Omitted image "doc-type.png"\] Alt text: How document types pull together topic detail, security policy, retention policy and expiration policy.
 
-**Parent Topic:**[Configuring Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/configuring-employee-document-management.md)
+**Parent Topic:**[Configuring Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/configuring-employee-document-management.md)
 
 **Related topics**  
 
@@ -45,7 +45,7 @@ Role required: sn\_hr\_ef.manager
 
 ### About this task
 
-Document types combine topic detail, retention policies, and legal holds. The default retention period for a document type is defined on the corresponding Center of Excellence \(COE\). For details on COEs, see [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).
+Document types combine topic detail, retention policies, and legal holds. The default retention period for a document type is defined on the corresponding Center of Excellence \(COE\). For details on COEs, see [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md).
 
 **Note:** The base system provides various document types as examples.
 
@@ -159,7 +159,7 @@ Retention Policies
 
 Retention policy associated with the document type.The retention policy combines the retention period \(determines how long a document should be saved\) and HR criteria \(filters who the policy is applicable to\).
 
- See [Add or modify a retention policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md).
+ See [Add or modify a retention policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md).
 
 </td></tr><tr><td>
 
@@ -439,7 +439,7 @@ Users are granted access to employee documents by:
 
 The security policy can require authorization to purge and requires a user to belong to the group that has purge authorization.
 
-See [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md) and [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md).
+See [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ManageHRGroups.md) and [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManageRoles.md).
 
 ### Procedure
 
@@ -505,7 +505,7 @@ Role required: sn\_hr\_ef.admin
 
 You can determine who can read, write, or authorize purging of documents by adding or modifying document security policies.
 
-**Note:** You can provide employees visibility into their own employee documents through their HR profile. Check the **Employee access** box on the **Document type** form. See [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md).
+**Note:** You can provide employees visibility into their own employee documents through their HR profile. Check the **Employee access** box on the **Document type** form. See [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md).
 
 Users are granted access to employee documents by:
 
@@ -515,7 +515,7 @@ Users are granted access to employee documents by:
 
 The security policy can require authorization to purge and requires a user to belong to a group that has purge authorization.
 
-See [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md) and [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md). Or see [Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md) and [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md).
+See [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ManageHRGroups.md) and [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManageRoles.md). Or see [Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ManageHRGroups.md) and [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManageRoles.md).
 
 ### Procedure
 

@@ -2,7 +2,7 @@
 title: Duplicate a decision table
 description: Save time creating similar decision tables by duplicating existing tables in Workflow Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/duplicate-decision-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/duplicate-decision-table.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -76,5 +76,5 @@ Option to include the decision rows as well as the structure of the original tab
 </table>6.  Select **Duplicate**.
 
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

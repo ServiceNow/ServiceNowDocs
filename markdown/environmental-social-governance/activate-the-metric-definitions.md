@@ -2,7 +2,7 @@
 title: Activate the metric definitions to track data
 description: Activate those metric definitions for which you want to track or import data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/activate-the-metric-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/activate-the-metric-definitions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Delete recommended learning in the Journey designer app
 description: Delete recommended learning for employee journey configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-delete-reco-learning-admin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-dsgnr-delete-reco-learning-admin.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -35,5 +35,5 @@ Recommended learning added to a journey configuration can be deleted only by an 
 4.  Select **Delete** to confirm that you want to delete the selected courses.
 
 
-**Parent Topic:**[Recommended learning in journey configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-ml-learning-recom.md)
+**Parent Topic:**[Recommended learning in journey configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-ml-learning-recom.md)
 

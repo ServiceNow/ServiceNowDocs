@@ -2,7 +2,7 @@
 title: Modify email notifications to use notification redirection
 description: Update email notifications to use the notification redirection framework so users are automatically directed to the appropriate view based on their workspace access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/modify-email-notifications-to-use-notification-redirection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/modify-email-notifications-to-use-notification-redirection.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,7 +18,7 @@ Update email notifications to use the notification redirection framework so user
 
 ## Before you begin
 
-You must have notification routing rules configured before modifying notifications. For more information, see [Configure GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-email-notification-redirection.md).
+You must have notification routing rules configured before modifying notifications. For more information, see [Configure GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-email-notification-redirection.md).
 
 Role required: admin
 
@@ -46,10 +46,10 @@ To enable redirection for a notification, replace the standard URL variables wit
 
 When users select links in the modified notification, the system automatically directs them based on their workspace access. If they have workspace access, they're directed to workspace view. If they don't have workspace access, they're directed to classic view.
 
-**Parent Topic:**[GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/email-notification-redirection.md)
+**Parent Topic:**[GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/email-notification-redirection.md)
 
 **Related topics**  
 
 
-[Modify email notifications to use notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/modify-email-notifications-to-use-notification-redirection.md)
+[Modify email notifications to use notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/modify-email-notifications-to-use-notification-redirection.md)
 

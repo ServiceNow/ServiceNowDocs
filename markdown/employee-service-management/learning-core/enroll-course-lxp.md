@@ -2,7 +2,7 @@
 title: Enroll in a course collection on My Learning
 description: Enroll in a course collection to pursue courses that can enhance your skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/enroll-course-lxp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/enroll-course-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -41,7 +41,7 @@ Role required: learning.user
     -   Although certain courses can be skipped in a course collection or a path, they must be completed or skipped in the order that they appear.
     -   The Show completed toggle switch is available only for content that is skipped within a course collection or path.
 
-**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-your-learning.md)
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-your-learning.md)
 
 **Related topics**  
 

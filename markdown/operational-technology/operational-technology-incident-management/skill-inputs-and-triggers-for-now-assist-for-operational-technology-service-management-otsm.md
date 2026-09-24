@@ -2,7 +2,7 @@
 title: Skill inputs and triggers for ServiceNow Otto for Operational Technology \(OT\) Service Management
 description: Skill inputs and triggers for ServiceNow Otto for Operational Technology \(OT\) Service Management determine how and when each skill is used. Configure inputs to identify the data a skill uses, or configure triggers to initiate skill actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -163,5 +163,5 @@ Input fields
 -   OT Device
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.md)
+</table>**Parent Topic:**[Configure ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.md)
 

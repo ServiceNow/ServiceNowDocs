@@ -2,7 +2,7 @@
 title: Work on an anonymous safety concern
 description: Only an agent with the sensitive content role \[sn\_ohs\_im.sensitive\_observation\_content\_user\] can view and work on the anonymous report in the Health and Safety Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/work-anonymous-safety-concern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-incident-management/work-anonymous-safety-concern.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -46,7 +46,7 @@ Role required: sn\_ohs\_im.sensitive\_observation\_content\_user
 
     2.  In the **People involved** tab, select **New** to add people involved in the observation such as witnesses and collaborators.
 
-        -   For a description of the field values, see [People Involved form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-people-involved-form.md).
+        -   For a description of the field values, see [People Involved form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/hs-people-involved-form.md).
         -   If an observation involves more than one person, add a record for each.
         -   To modify the record of an existing person involved, select it in the list to open it and update.
     3.  In the **Root cause analysis** tab, select **New** to perform the root cause analysis for the observation.
@@ -55,7 +55,7 @@ Role required: sn\_ohs\_im.sensitive\_observation\_content\_user
 
 7.  Add an action based on your root cause analysis.
 
-    For more information, see [Add an action for a safety incident or observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/add-hs-action.md).
+    For more information, see [Add an action for a safety incident or observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/add-hs-action.md).
 
 8.  Record your findings that you gathered about the observation.
 
@@ -65,16 +65,16 @@ Role required: sn\_ohs\_im.sensitive\_observation\_content\_user
     -   **Activity** section to add findings in the form of free text. You can also use this section to add links to related knowledge base articles.
 9.  Generate a report for the safety observation, if needed.
 
-    For more information, see [Generate a report for a safety incident, observation, or injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/generate-report-safety-incident-obsv-injury.md).
+    For more information, see [Generate a report for a safety incident, observation, or injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/generate-report-safety-incident-obsv-injury.md).
 
-10. [Close the safety observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/close-hs-incident-observation.md) after all activities are complete.
+10. [Close the safety observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/close-hs-incident-observation.md) after all activities are complete.
 
 
 ## Result
 
 The observation moves to the Closed Complete state.
 
-**Parent Topic:**[Managing an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing_anonymous_safety_concern.md)
+**Parent Topic:**[Managing an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/managing_anonymous_safety_concern.md)
 
 **Related topics**  
 

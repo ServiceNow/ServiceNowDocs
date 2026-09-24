@@ -2,7 +2,7 @@
 title: Configure Financial Services Operations Integration with FRISS
 description: Select and configure the Financial Services Operations Integration with FRISS subflows to obtain the fraud score for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-fso-integ-with-friss.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-fso-integ-with-friss.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -76,5 +76,5 @@ Description
     The Execution Details open.
 
 
-**Parent Topic:**[Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-friss-overview.md)
+**Parent Topic:**[Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integration-with-friss-overview.md)
 

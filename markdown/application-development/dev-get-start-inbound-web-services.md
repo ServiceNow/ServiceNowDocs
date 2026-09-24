@@ -2,7 +2,7 @@
 title: Inbound web services
 description: Inbound web services enable external systems to read data from or write data to your custom application. External systems can query your data, create records, or exchange information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-inbound-web-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/dev-get-start-inbound-web-services.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-22"
@@ -46,5 +46,5 @@ The ServiceNow AI Platform supports several web service protocols for inbound co
     You can extract ServiceNow records and convert them to JSON, XML, PDF, CSV, XLS, and other formats for external systems that require certain data types. For more information, see [Exporting and converting records into complex data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/store-retrieve-records-complex-data-type.md).
 
 
-**Parent Topic:**[Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-integrations.md)
+**Parent Topic:**[Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/dev-get-start-integrations.md)
 

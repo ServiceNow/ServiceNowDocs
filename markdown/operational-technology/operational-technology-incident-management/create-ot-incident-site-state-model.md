@@ -2,7 +2,7 @@
 title: Create an incident state model
 description: Create an Operational Technology \(OT\) incident state model for your sites. By using an incident state model, you can manage the life cycle of the related incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/create-ot-incident-site-state-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/create-ot-incident-site-state-model.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -27,7 +27,7 @@ By using state management, you can configure a state model for OT incident sites
 
 For more information about state management and state models, see [State Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/state-model.md).
 
-For more information about the incident life cycles, see [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management.md).
+For more information about the incident life cycles, see [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/operational-technology-incident-management.md).
 
 ## Procedure
 
@@ -48,5 +48,5 @@ For more information about the incident life cycles, see [Operational Technology
 
 Now, the state model accurately describes the expected record workflow through the life cycle of the incident record.
 
-**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
+**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
 

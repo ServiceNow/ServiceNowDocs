@@ -2,7 +2,7 @@
 title: View scores and statistics
 description: The Analytics Hub Overview tab shows the score for a time period, statistics, and a time series. You can set the time period for the statistics and time series. You can also filter scores by breakdown and element.The top of the View tab summarizes information about the indicator being viewed.You can select real-time scores to view instead of the last score.On the Analytics Hub, you can aggregate changes in indicators into discrete time intervals.You can set the time period of scores that the Analytics Hub describes.In the View tab of the Analytics Hub, you can set various statistics to apply to the indicator score.On the Analytics Hub, you have several options for viewing breakdowns and breakdown elements.If you click a value on a chart in a widget on a dashboard, you open the Analytics Hub on that indicator. If you are on a breakdown dashboard and have multiple elements selected, and the widget shows the aggregate of those elements, the Analytics Hub also shows the aggregate of those elements.You can toggle between showing a time series of indicator scores and a list of the records used to calculate those scores.You can change what the chart displays in the View tab of the Analytics Hub.To change the visualization used for the graph, select a visualization from the list menu. Area, column, line, and spline visualizations are available.You can set display preferences per indicator and have them persist for each time you view that indicator.The Analytics Hub follows whichever domain you have selected in the System Settings. You see only the scores that are collected in that domain.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/scorecard-overview-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/scorecard-overview-tab.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -34,7 +34,7 @@ At the top of the tab, you see the following information:
 
 \[Omitted image "detailed-scorecard-score.png"\] Alt text: Score section of Analytics Hub
 
-Results are color-coded to show favorability. If the direction of an indicator is Maximize, increases in scores are shown in green and decreases in red. If the direction of an indicator is Minimize, increases in scores are shown in red and decreases in green. Similarly, a color bar indicates whether the target has been met or missed. The colors depend on the color scheme that has been set for the target. For more information, see [Create a target color scheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md).
+Results are color-coded to show favorability. If the direction of an indicator is Maximize, increases in scores are shown in green and decreases in red. If the direction of an indicator is Minimize, increases in scores are shown in red and decreases in green. Similarly, a color bar indicates whether the target has been met or missed. The colors depend on the color scheme that has been set for the target. For more information, see [Create a target color scheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-targets.md).
 
 The time period that is associated with a score is shown above the score. Controls let you move to the next time period, the previous time period, or the last time period. The date you select here is reflected in the statistics and the time series graph. The selected time period is carried over when you change to another tab. The length of a time period \(day, month, quarter...\) is the same as the frequency of the indicator.
 
@@ -61,7 +61,7 @@ If you can select real-time scores, select them in the date selector or by selec
 
 \[Omitted image "ds-overview-period-nav.png"\] Alt text: Score time period navigation buttons showing real-time option \[Omitted image "detailed-scorecard-overview-real-time.png"\] Alt text: The Score section of the Analytics Hub with the calendar expanded to show that real-time scores are selected.
 
-**Note:** You can show real-time scores to dashboard users in some widgets. For more information, see [Real-time scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/real-time-scores.md).
+**Note:** You can show real-time scores to dashboard users in some widgets. For more information, see [Real-time scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/real-time-scores.md).
 
 ## Time-series aggregations in the Analytics Hub
 
@@ -71,7 +71,7 @@ In the top-right corner, you can set the time series aggregation for the Analyti
 
 \[Omitted image "detailed-scorecard-monthly-agg.png"\] Alt text: Possible time series aggregations for a daily indicator
 
-The time series aggregation is reflected in the score, the statistics, the time series graph, and the charts in other tabs. The available time series depend on the frequency of the indicator. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md). For examples and a deeper exploration of using time series aggregations with indicators, see this Performance Analytics Academy video, [Leveraging Time Series with Performance Analytics](https://youtu.be/aM6JtUndRYk).
+The time series aggregation is reflected in the score, the statistics, the time series graph, and the charts in other tabs. The available time series depend on the frequency of the indicator. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/applying-time-series-aggregations.md). For examples and a deeper exploration of using time series aggregations with indicators, see this Performance Analytics Academy video, [Leveraging Time Series with Performance Analytics](https://youtu.be/aM6JtUndRYk).
 
 **Note:**
 
@@ -95,7 +95,7 @@ The controls for selecting a date range are above the statistics and to the left
 
 In the View tab of the Analytics Hub, you can set various statistics to apply to the indicator score.
 
-You cannot customize the statistics display on the Analytics Hub. However, because not all statistics are relevant to all indicators, you can exclude statistics on the indicator record. For example, you can exclude Change % for an indicator with a score expressed as a percentage. For more information, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
+You cannot customize the statistics display on the Analytics Hub. However, because not all statistics are relevant to all indicators, you can exclude statistics on the indicator record. For example, you can exclude Change % for an indicator with a score expressed as a percentage. For more information, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
 
 ## Breakdowns, elements, and element filters
 
@@ -118,11 +118,11 @@ If you select a breakdown and an element, you filter the entire Analytics Hub to
 
 \[Omitted image "detailed-scorecard-one-element.png"\] Alt text: With Priority of Low selected, the score, the statistics, and the chart show only the incidents that match Priority=Low.
 
-If the breakdown has an elements filter defined for its breakdown source, you can choose one of those elements filters. For more information, see [Element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
+If the breakdown has an elements filter defined for its breakdown source, you can choose one of those elements filters. For more information, see [Element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
 
 \[Omitted image "ah-elements-filter.png"\] Alt text: Breakdown and element selector on Analytics Hub showing elements filters
 
-If breakdown relations are defined for the indicator, after you select a first-level breakdown and element, you can navigate to a related element. The element can be in a parent-child relationship in the same breakdown, or it can be in another breakdown. For more information about breakdown relations including procedures for creating them, see [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-relations.md).
+If breakdown relations are defined for the indicator, after you select a first-level breakdown and element, you can navigate to a related element. The element can be in a parent-child relationship in the same breakdown, or it can be in another breakdown. For more information about breakdown relations including procedures for creating them, see [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/breakdown-relations.md).
 
 \[Omitted image "image.child-locations"\] Alt text: Analytics Hub showing breakdown relations between parent and child elements in the same breakdown
 
@@ -140,7 +140,7 @@ You can clear either the first- or second-level breakdown and element combinatio
 
 If you click a value on a chart in a widget on a dashboard, you open the Analytics Hub on that indicator. If you are on a breakdown dashboard and have multiple elements selected, and the widget shows the aggregate of those elements, the Analytics Hub also shows the aggregate of those elements.
 
-For more information about the aggregate view of multiple elements selected on a dashboard, see [Showing multiple elements separately or aggregated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
+For more information about the aggregate view of multiple elements selected on a dashboard, see [Showing multiple elements separately or aggregated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
 
 \[Omitted image "ah-from-multi-element-aggregate.png"\] Alt text: Clicking on a score that is the aggregate of all the selected elements in a widget on a breakdown dashboard
 
@@ -187,7 +187,7 @@ A tooltip for each icon identifies which chart option the icon turns on and off.
 
 \[Omitted image "ah-busy-chart.png"\] Alt text: Chart showing score, trend, confidence band, forecast, target, and threshold
 
-If you have the Continual Management Improvement application installed, you also have an icon to show or hide Improvement Initiatives \(\[Omitted image "scorecard-cim-icon.png"\] Alt text:\). If you also have the sn\_cim.improvement\_requester role, you can create an improvement initiative by clicking the identical icon in the toolbar, as described in [Analytics Hub for a specific indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/view-scorecard.md).
+If you have the Continual Management Improvement application installed, you also have an icon to show or hide Improvement Initiatives \(\[Omitted image "scorecard-cim-icon.png"\] Alt text:\). If you also have the sn\_cim.improvement\_requester role, you can create an improvement initiative by clicking the identical icon in the toolbar, as described in [Analytics Hub for a specific indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/view-scorecard.md).
 
 The available measurements are:
 
@@ -224,5 +224,5 @@ The Analytics Hub follows whichever domain you have selected in the System Setti
 
 Any target, threshold, or comment you add is automatically associated with the current domain. The **Edit scores** option is not available.
 
-Besides system settings, some dashboards are configured so that you can select the domain on the dashboard. If you navigate to the Analytics Hub from a widget on such a dashboard, you see only the scores that are collected for that domain. For more information, see [Associate a domain configuration with a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/associate-domain-config-dashboard.md).
+Besides system settings, some dashboards are configured so that you can select the domain on the dashboard. If you navigate to the Analytics Hub from a widget on such a dashboard, you see only the scores that are collected for that domain. For more information, see [Associate a domain configuration with a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/associate-domain-config-dashboard.md).
 

@@ -2,7 +2,7 @@
 title: Demand tasks
 description: Demand tasks are units of work within a demand. Use them to plan and organize initial activities before converting the demand into a work entity such as a product, feature, or enhancement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demand-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/demand-tasks.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -37,7 +37,7 @@ You can assign resources to demand tasks using the standard assignment fields. R
 
 Resource assignments on demand tasks aren't transferred to the work entity created from that demand. If you later convert the demand into a project or work item, you must reassign resources in the new work entity. Similarly, the time and cost tracked on demand tasks remain within the demand record and don't transfer to the resulting work entity.
 
-The actual cost for the demand task effort is derived from the hourly resource rate defined in the rate model, default labor rate, or default system property. The actual cost and effort for all demand tasks roll up to the associated demand. For more information, see [Actual cost and effort calculations for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/actual-cost-calculation-for-demands.md).
+The actual cost for the demand task effort is derived from the hourly resource rate defined in the rate model, default labor rate, or default system property. The actual cost and effort for all demand tasks roll up to the associated demand. For more information, see [Actual cost and effort calculations for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/actual-cost-calculation-for-demands.md).
 
 ## Differences from project tasks
 

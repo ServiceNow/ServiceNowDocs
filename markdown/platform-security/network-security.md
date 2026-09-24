@@ -2,7 +2,7 @@
 title: Network security
 description: The MID Server communicates on port 443 using SSL to the instance and requires no inbound connections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/network-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/network-security.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

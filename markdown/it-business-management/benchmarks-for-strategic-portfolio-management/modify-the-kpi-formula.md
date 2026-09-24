@@ -2,7 +2,7 @@
 title: Change a KPI formula
 description: View and change the key performance indicators \(KPIs\) formula according to your requirement and analysis criteria.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/benchmarks-for-strategic-portfolio-management/modify-the-kpi-formula.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/benchmarks-for-strategic-portfolio-management/modify-the-kpi-formula.html
 release: australia
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
@@ -33,5 +33,5 @@ Role required: admin
 5.  Click and open the indicator field to view and edit the formula.
 
 
-**Parent Topic:**[Customize the SPM Benchmarks KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/using-benchmarks.md)
+**Parent Topic:**[Customize the SPM Benchmarks KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/benchmarks-for-strategic-portfolio-management/using-benchmarks.md)
 

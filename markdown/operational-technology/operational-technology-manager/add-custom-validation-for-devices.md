@@ -2,7 +2,7 @@
 title: Add a custom validation for devices
 description: Customize the validation for your OT devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/add-custom-validation-for-devices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/add-custom-validation-for-devices.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -37,5 +37,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
+**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

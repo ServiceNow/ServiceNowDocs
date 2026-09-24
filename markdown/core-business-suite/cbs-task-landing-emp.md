@@ -2,7 +2,7 @@
 title: Employee support areas
 description: The employee support services in the Core Business Suite help you set up a simplified employee journey in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-task-landing-emp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-task-landing-emp.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -51,15 +51,15 @@ Choose one of the following tiles to learn more about the different applications
 
 \[Omitted image "gen-hr-form-dec.png"\] Alt text: General HR request form displayed in image.
 
-Raise a request for any query or issue as a general HR request on CBS. For more information, [Raise HR requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-cbs.md).
+Raise a request for any query or issue as a general HR request on CBS. For more information, [Raise HR requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/request-emp-cbs.md).
 
 \[Omitted image "payroll-hr-form-dec.png"\] Alt text: Form to submit payslip discrepancy displayed in image.
 
-Report an issue with your payslip as an employee. For more information, [Raise HR requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-cbs.md).
+Report an issue with your payslip as an employee. For more information, [Raise HR requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/request-emp-cbs.md).
 
 \[Omitted image "hr-benefits-form-dec.png"\] Alt text: Employee benefit inquiry form displayed in image.
 
-Ask an HR benefit questions as an employee. For more information, see [Raise HR requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-cbs.md).
+Ask an HR benefit questions as an employee. For more information, see [Raise HR requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/request-emp-cbs.md).
 
 ## Workplace requests
 
@@ -69,7 +69,7 @@ Submit a general workplace service request for issues that need human interventi
 
 Raise requests for issues that aren’t covered by current automated workflows.
 
-For more information on the Core Business Suite request form for workplace requests, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-rest.md).
+For more information on the Core Business Suite request form for workplace requests, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/request-emp-rest.md).
 
 For more information on the Workplace Service Delivery inquiry form, if you're an existing user, see [Raise help request for a workplace inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/submit-gen-workplace-serv-req.md).
 
@@ -79,7 +79,7 @@ For more information on the Workplace Service Delivery inquiry form, if you're a
 
 Submit a request to the legal department in your organization for general legal query.
 
-For more information on the Core Business Suite request form for legal requests, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-rest.md).
+For more information on the Core Business Suite request form for legal requests, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/request-emp-rest.md).
 
 For more information on the Legal Services request form, if you're an existing user, see [Submit a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/submit-legal-request.md).
 
@@ -89,7 +89,7 @@ For more information on the Legal Services request form, if you're an existing u
 
 Ask a Health and Safety question to the safety department, and request information such as Health and Safety procedures, training, or return to work policies.
 
-For more information on the Core Business Suite request form for Health and Safety, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-rest.md).
+For more information on the Core Business Suite request form for Health and Safety, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/request-emp-rest.md).
 
 For more information on the Health and Safety request form, if you're an existing user, see [Ask a Health and Safety question from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hs-ask-health-safety-question.md).
 
@@ -105,7 +105,7 @@ Ask a general finance-related question, as an employee, targeted to the finance 
 
 Raise an inquiry for any pre-existing purchase, as a buyer, or any other query regarding procurement functions​​.
 
-For more information on the Core Business Suite request form, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-rest.md).
+For more information on the Core Business Suite request form, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/request-emp-rest.md).
 
 For more information on the procurement inquiry form, if you're an existing user, see [Raise a general inquiry for procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/raise-general-inquiry-for-procurement.md).
 

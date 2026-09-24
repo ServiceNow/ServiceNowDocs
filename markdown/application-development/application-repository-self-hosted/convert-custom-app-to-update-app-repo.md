@@ -2,7 +2,7 @@
 title: Convert custom applications to upgrade from the application repository
 description: When your applications are placed in the Custom Applications table \[sys\_app\], you can't upgrade them directly through the Application Repository. This procedure helps you do a one-time conversion when you want to migrate deploying your applications using the Application Repository.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/convert-custom-app-to-update-app-repo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/application-repository-self-hosted/convert-custom-app-to-update-app-repo.html
 release: australia
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -53,5 +53,5 @@ After you convert the application, it is no longer enabled for development on th
 
 ## What to do next
 
-Go to **System Applications-&gt;My Company Applications** and update the application using the software from the application repository. See [Install an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/install-app-from-repo.md) to learn more.
+Go to **System Applications-&gt;My Company Applications** and update the application using the software from the application repository. See [Install an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/install-app-from-repo.md) to learn more.
 

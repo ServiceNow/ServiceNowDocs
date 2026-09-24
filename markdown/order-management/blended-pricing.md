@@ -2,7 +2,7 @@
 title: Blended pricing for contract consolidation of subscription renewals
 description: When selected contract lines are consolidated into a renewal line for renewal purposes, the pricing engine uses blended pricing to calculate the renewal line pricing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/blended-pricing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/blended-pricing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -56,6 +56,6 @@ In renewal pricing for contract consolidation, the pricing engine does the follo
 
 You can configure the following uplift features:
 
--   Uplift amounts: To control uplift amounts that are applied, use the Price Increase Defaulting Matrix. For details, see [Create a price increase adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-price-increase-adjustment.md).
--   Uplift renewal multiplier: To set the uplift renewal multiplier, use the **renewal\_uplift\_term ** system property. For more information, see [Set term multiplier for contract renewal uplift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-renewal-term-multiplier.md).
+-   Uplift amounts: To control uplift amounts that are applied, use the Price Increase Defaulting Matrix. For details, see [Create a price increase adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-price-increase-adjustment.md).
+-   Uplift renewal multiplier: To set the uplift renewal multiplier, use the **renewal\_uplift\_term ** system property. For more information, see [Set term multiplier for contract renewal uplift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-renewal-term-multiplier.md).
 

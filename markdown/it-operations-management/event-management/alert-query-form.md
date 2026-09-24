@@ -2,7 +2,7 @@
 title: Alert Query form
 description: You can combine similar alerts that meet specific criteria for a particular service by creating an alert query.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-query-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/alert-query-form.html
 release: australia
 product: Event Management
 classification: event-management
@@ -129,5 +129,5 @@ The conditions for sending a notification to the alert query. The conditions mus
 -   Some filters may slow down impact calculation. To solve this problem, adjust your alert query by adding an appropriate index, as described in [Index suggestions for slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/index-suggestions.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-management-reference.md)
 

@@ -2,7 +2,7 @@
 title: Mute participants in a conference call
 description: As an MSI manager or a conference call host, you have the option to mute a particular participant or all the participants on the conference call.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mute-unmute-participants.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/mute-unmute-participants.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -37,7 +37,7 @@ Before starting this procedure, verify that there’s an active conference call 
 6.  To mute all participants on the conference call, select **Participants** in the meeting controls and select **Mute All**.
 
 
-**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
+**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-msim-conference-calls.md)
 
 **Related topics**  
 

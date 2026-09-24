@@ -2,7 +2,7 @@
 title: View the purchase order Progress Tracker
 description: View the Progress Tracker stepper on a purchase order record to understand where the PO is in its fulfillment workflow \(receipt and invoicing\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/view-po-progress-tracker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-po-progress-tracker.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -49,7 +49,7 @@ Whenever you open a purchase order record in the Source-to-Pay Workspace, the Pr
 
 4.  To see detailed information about any state, select that state in the stepper.
 
-    See [Use the Progress Tracker info card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-progress-tracker-info-card.md) for details on what the info card displays.
+    See [Use the Progress Tracker info card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-progress-tracker-info-card.md) for details on what the info card displays.
 
     The info card expands.
 
@@ -64,9 +64,9 @@ A procurement specialist opens purchase order PO0001008 and sees the Progress Tr
 
 ## What to do next
 
-For information about the PO state model, including happy-path states and deviation branches, see [Purchase order state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/po-state-model.md). For comparison with the PR Progress Tracker, see [View the purchase requisition Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/view-pr-progress-tracker.md). For related configuration tasks, see [Configure PR and PO Progress Tracker states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.md).
+For information about the PO state model, including happy-path states and deviation branches, see [Purchase order state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/po-state-model.md). For comparison with the PR Progress Tracker, see [View the purchase requisition Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/view-pr-progress-tracker.md). For related configuration tasks, see [Configure PR and PO Progress Tracker states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-pr-po-states.md).
 
-**Parent Topic:**[Purchase requisition and purchase order progress tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/monitor-pr-po-progress.md)
+**Parent Topic:**[Purchase requisition and purchase order progress tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/monitor-pr-po-progress.md)
 
 **Related topics**  
 

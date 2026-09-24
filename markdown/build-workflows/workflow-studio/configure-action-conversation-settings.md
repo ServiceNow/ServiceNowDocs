@@ -2,7 +2,7 @@
 title: Configure action conversational settings
 description: Configure conversation settings to make an action available to conversational interfaces.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-action-conversation-settings.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/configure-action-conversation-settings.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -281,5 +281,5 @@ The list of default channels in which this action is available.To learn more abo
     You can also test the skill by selecting **Save and test**.
 
 
-**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md)
+**Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/actions.md)
 

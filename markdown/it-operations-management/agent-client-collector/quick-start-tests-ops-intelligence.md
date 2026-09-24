@@ -2,7 +2,7 @@
 title: Quick start tests for Metric Intelligence
 description: Validate that Metric Intelligence still works after you make any configuration change such as apply an upgrade or develop an application. Copy and configure these quick start tests to pass when using your instance-specific data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/quick-start-tests-ops-intelligence.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/quick-start-tests-ops-intelligence.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -49,7 +49,7 @@ An individual test that verifies the following:
 Madrid
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 
 **Related topics**  
 

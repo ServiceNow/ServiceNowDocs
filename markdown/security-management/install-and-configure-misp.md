@@ -2,7 +2,7 @@
 title: Install and configure the MISP integration for Security Operations
 description: Install and configure the MISP integration for Security Operations from the ServiceNow Store on your ServiceNow AI Platform instance so that you can start investigating security incidents using the MISP data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/install-and-configure-misp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/install-and-configure-misp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -86,7 +86,7 @@ String field that identifies the MID Application name that is used to communicat
 
 After you successfully validate and submit the configuration, the MISP - SIR/TI Integration is saved on the Security Integrations page as a tile.
 
-**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
+**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/misp-administration.md)
 
 **Related topics**  
 

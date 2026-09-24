@@ -2,7 +2,7 @@
 title: Knowledge subscription email notification templates
 description: The knowledge subscription feature uses email notification templates to send subscription notifications to knowledge users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/subscription-email-templates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/subscription-email-templates.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

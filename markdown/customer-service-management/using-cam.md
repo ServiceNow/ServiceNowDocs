@@ -2,7 +2,7 @@
 title: Using customer access management
 description: Learn how customers, contributor users, and customer service agents use customer access management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-cam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-cam.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ Customer access management enables you to support multiple contacts and consumer
 **Related topics**  
 
 
-[Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-cam.md)
+[Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-cam.md)
 
-[Restrict contact access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-account-access-cam.md)
+[Restrict contact access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/manage-account-access-cam.md)
 

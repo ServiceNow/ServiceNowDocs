@@ -2,7 +2,7 @@
 title: App generation supported field types
 description: App generation supports nine field types, including choice, reference, and string. Use this list to confirm which field types are available when generating an application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-app-gen-supported-field-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sns-app-gen-supported-field-types.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -31,5 +31,5 @@ App generation currently supports the creation of the following field types:
 
 For a detailed list and description of all field types available in the platform, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
-**Parent Topic:**[App generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)
+**Parent Topic:**[App generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-reference-landing.md)
 

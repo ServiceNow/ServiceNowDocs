@@ -2,7 +2,7 @@
 title: Auto populate information from email to legal request or matter
 description: Map the sender's email address, email content, and subject field from an email to legal request fields to automatically fill in information from the email to the submitted legal request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-outlook-adddin-map-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-outlook-adddin-map-fields.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -48,15 +48,15 @@ The script include **OutlookMappingConfig** available in the base system support
 
 4.  In the copied mapping object, specify the key-value pairs using the variables from the intake form.
 
-<table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d234859e172">
+<table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d234863e172">
 
 Variables from email
 
-</th><th align="left" id="d234859e175">
+</th><th align="left" id="d234863e175">
 
 Variables from legal request
 
-</th></tr></thead><tbody><tr><td id="d234859e181">
+</th></tr></thead><tbody><tr><td id="d234863e181">
 
 **subject**
 
@@ -68,7 +68,7 @@ Example: If you want to copy the subject of email into the short description of 
 short_description: "subject"
 ```
 
-</td></tr><tr><td id="d234859e201">
+</td></tr><tr><td id="d234863e201">
 
 **fromEmail**
 
@@ -80,7 +80,7 @@ Example: If you want to copy the sender's email address into the requested for o
 requested_for: "fromEmail"
 ```
 
-</td></tr><tr><td id="d234859e221">
+</td></tr><tr><td id="d234863e221">
 
 **body**
 
@@ -96,5 +96,5 @@ description: "body"
 </table>5.  After defining the object, select **Update**.
 
 
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 

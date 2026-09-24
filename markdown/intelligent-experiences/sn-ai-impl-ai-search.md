@@ -2,7 +2,7 @@
 title: AI Search readiness for ServiceNow Otto on the ServiceNow AI Platform
 description: ServiceNow Otto for AI Search is built directly on the robust foundation of ServiceNow AI Search. AI Search provides the underlying infrastructure that enables ServiceNow Otto to retrieve and rank enterprise content—such as knowledge articles, records, and documentation—based on relevance and access permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-ai-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sn-ai-impl-ai-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

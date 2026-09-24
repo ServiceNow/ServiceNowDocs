@@ -2,7 +2,7 @@
 title: Managing POA&amp;Ms issues
 description: In CAM application, all issues related to an authorization package are called as Plan of Actions and Milestones \(POA&amp;Ms\). The issues can be package issues, or control issues, engagement issues, or control test issues that are related to the package.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-poam-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-poam-ws.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -49,11 +49,11 @@ The authorization package filter, exclusive to the POA&amp;Ms page, filters all 
 
 ## Required roles
 
-All users who can access the CAM Workspace can also access the POA&amp;Ms landing page. For a complete list of CAM Workspace users, see [List of users who can access CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-home-page.md).
+All users who can access the CAM Workspace can also access the POA&amp;Ms landing page. For a complete list of CAM Workspace users, see [List of users who can access CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-home-page.md).
 
 ## Access the POA&amp;Ms landing page
 
 To access the POA&amp;Ms page, navigate to **Workspaces** &gt; **CAM Workspace** and select the POA&amp;Ms icon \(\[Omitted image "cam-poams-icon.png"\] Alt text: POA&amp;Ms icon.\).
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

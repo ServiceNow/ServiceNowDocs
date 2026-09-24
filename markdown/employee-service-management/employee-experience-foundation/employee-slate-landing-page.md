@@ -2,7 +2,7 @@
 title: ServiceNow EmployeeWorks Web App
 description: ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is your AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-slate-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/employee-slate-landing-page.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,23 +20,23 @@ ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is your AI
 
 <table id="table_topic-areas" class="nav-card presentation"><tbody><tr><td>
 
-[Getting started\[Omitted image "bus-service-aware.svg"\] Alt text:Install plugins, set up flows, configure branding, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md)
+[Getting started\[Omitted image "bus-service-aware.svg"\] Alt text:Install plugins, set up flows, configure branding, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md)
 
 </td><td>
 
-[Home page experience\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Personalized home page that unifies widgets, services, and conversational interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-home-page.md)
+[Home page experience\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Personalized home page that unifies widgets, services, and conversational interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-home-page.md)
 
 </td><td>
 
-[Workspace and productivity\[Omitted image "bus-task-list.svg"\] Alt text:Conversational tools that help employees manage tasks, stay informed, and navigate the organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-inbox.md)
+[Workspace and productivity\[Omitted image "bus-task-list.svg"\] Alt text:Conversational tools that help employees manage tasks, stay informed, and navigate the organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-inbox.md)
 
 </td></tr><tr><td>
 
-[Now Assist\[Omitted image "bus-chat.svg"\] Alt text:AI-powered assistance integrated into the EmployeeWorks Web App experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md)
+[Now Assist\[Omitted image "bus-chat.svg"\] Alt text:AI-powered assistance integrated into the EmployeeWorks Web App experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md)
 
 </td><td>
 
-[Moveworks\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Conversational experiences that power EmployeeWorks Web App.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-moveworks.md)
+[Moveworks\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Conversational experiences that power EmployeeWorks Web App.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-moveworks.md)
 
 </td><td>
 

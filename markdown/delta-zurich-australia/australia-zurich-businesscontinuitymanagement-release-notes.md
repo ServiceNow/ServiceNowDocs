@@ -2,11 +2,11 @@
 title: Combined Business Continuity Management release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Business Continuity Management from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-businesscontinuitymanagement-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-businesscontinuitymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 10
+last_updated: "2026-09-24"
+reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,46 @@ Zurich
 
 </td><td>
 
--   **[Exclude non-recovery tasks from time calculation](https://www.servicenow.com/docs/access?context=add-a-recovery-task&family=zurich&ft:locale=en-US)**
+-   **[Map recovery tasks and event tasks to the phases](https://www.servicenow.com/docs/access?context=mapping-recovery-tasks-to-phases&family=zurich&ft:locale=en-US)**
+
+Set up phases for plans and events using the administrative setup. The base version of the application includes a set of default active phases, provided as seed data.
+
+The logical grouping of tasks into phases enables clear progression tracking for exercises and crisis events, offering flexible execution and task completion requirements for phase transitions.
+
+-   **[View and generate PDFs of approved plans](https://www.servicenow.com/docs/access?context=mobile-bcm&family=zurich&ft:locale=en-US)**
+
+View the continuity and recovery plans directly from your mobile devices. BCM managers can generate PDFs of the approved plans, which BCM planners can then view and download, streamlining access to critical information on the go.
+
+-   **[Verify asset recovery levels](https://www.servicenow.com/docs/access?context=create-new-impact-analysis-reference-form-bcm-uib-ws&family=zurich&ft:locale=en-US)**
+
+Track event assets and verify the achieved recovery level of the impacted assets of a task in the **Asset recovery level** field. Completing specific tasks now automatically updates the corresponding event asset state. Assets are marked as **Partially Recovered** when they’re operational enough to support dependent assets, and **Recovered** when they’re fully functional. This change improves visibility into operational readiness and enables coordinators to identify when dependent assets can safely start their recovery process. Color-coded recovery levels of the assets offer visual cues for various recovery progress levels.
+
+-   **[Use finalized RTO and RPO in BIAs, Plans, and Events](https://www.servicenow.com/docs/access?context=create-bia-in-uib-ws&family=zurich&ft:locale=en-US)**
+
+Use the **Finalized RTO** field to calculate an accurate Recovery Time Objective \(RTO\) for comparison, using values from the **Recovery time objective** and **Adjusted RTO** fields.
+
+Similarly, use the **Finalized RPO** field to calculate an accurate Recovery Point Objective \(RPO\) values for comparison, using values from the **Recovery point objective** and **Adjusted RPO** fields.
+
+A fix script now populates finalized RTO and RPO values in existing Business Impact Analyses \(BIAs\), ensuring consistency across all records.
+
+-   **[Configure recovery tasks for exercises, events, or both](https://www.servicenow.com/docs/access?context=create-new-recovery-task-form&family=zurich&ft:locale=en-US)**
+
+Configure recovery tasks with event-specific scopes \(exercises, actual crises, or both\). When a recovery event is initiated, the system automatically filters tasks by event type: ensuring exercises include necessary setup and validation, and actual crises focus exclusively on actionable recovery work.
+
+-   **[Auto-calculate the Planned end date on activated plans and event tasks](https://www.servicenow.com/docs/access?context=create-exercise-event-ref-form&family=zurich&ft:locale=en-US)**
+
+Enter the Planned start date for exercises and events. The system then calculates the Planned start and end dates for activated plans and event tasks automatically based on the **Planned duration** field and dependencies.
+
+-   **[Use hierarchical structure in the associated plans](https://www.servicenow.com/docs/access?context=add-related-plans-recovery-teams-bcp-uib-ws&family=zurich&ft:locale=en-US)**
+
+Use the hierarchical structure in the associated plans, establishing clear upstream-downstream relationships. This hierarchy confirms that only relevant downstream plans are brought into scope. The system automatically handles cyclic dependency checks, confirming that tasks from downstream plans aren’t added as dependencies in the upstream plans.
+
+-   **[Use Gantt chart in the Hierarchy view](https://www.servicenow.com/docs/access?context=managing-enhanced-hierarchical-view-in-event-tasks&family=zurich&ft:locale=en-US)**
+
+Use the Gantt chart in the Hierarchy view to visualize the planned and actual timelines of event tasks. Task dependencies can now be created directly on the Gantt chart, provided the dependency points to a task scheduled ahead in time. Plans are automatically sorted based on the planned start time of their earliest event task, verifying a clear chronological view.
+
+
+ -   **[Exclude non-recovery tasks from time calculation](https://www.servicenow.com/docs/access?context=add-a-recovery-task&family=zurich&ft:locale=en-US)**
 
 Exclude specific recovery or event tasks from time calculations by using the **Do not include in time calculation** field within recovery or event tasks.
 
@@ -162,7 +201,40 @@ Zurich
 
 </td><td>
 
--   **[Predefined Word templates](https://www.servicenow.com/docs/access?context=edit-report-temp&family=zurich&ft:locale=en-US)**
+-   **[Configuring the phases](https://www.servicenow.com/docs/access?context=set-up-phases&family=zurich&ft:locale=en-US)**
+
+The Active phases module is available in the General Administration setup for configuring the phases.
+
+-   **[Phase column](https://www.servicenow.com/docs/access?context=add-a-recovery-task&family=zurich&ft:locale=en-US)**
+
+The recovery and event tasks now include the Phase column in the list and form views, indicating association with specific phases within the recovery process.
+
+-   **[Do not include tasks in time calculation](https://www.servicenow.com/docs/access?context=create-new-recovery-task-form&family=zurich&ft:locale=en-US)**
+
+The **Do not include tasks in time calculation** field has been added to Recovery tasks, enabling you to exclude specific tasks from overall time calculations.
+
+-   **[Asset recovery level column](https://www.servicenow.com/docs/access?context=create-new-recovery-task-form&family=zurich&ft:locale=en-US)**
+
+The Asset recovery level column is added to the recovery tasks to indicate recovery levels of the assets.
+
+-   **[Include task in field](https://www.servicenow.com/docs/access?context=create-new-recovery-task-form&family=zurich&ft:locale=en-US)**
+
+The **Include task in** field is added in the recovery tasks to specify whether a task should be included in an exercise, crisis event, or both.
+
+-   **[Finalized RTO and RPO](https://www.servicenow.com/docs/access?context=create-new-impact-analysis-reference-form-bcm-uib-ws&family=zurich&ft:locale=en-US)**
+
+The Finalized RTO column is shown in the chart and list views, replacing the previously shown RTO and Adjusted RTO columns. Similarly, the Finalized RPO column is shown in the chart and list views, replacing the previously shown RPO and Adjusted RPO columns.
+
+-   **[Associated plans tab](https://www.servicenow.com/docs/access?context=add-related-plans-recovery-teams-bcp-uib-ws&family=zurich&ft:locale=en-US)**
+
+The **Associated plans** tab in the Plan record replaces the **Related plan** and **Parent plan** tabs. Upstream, Downstream, and Related plans are now included as associated plan types.
+
+-   **[Gantt chart in the Hierarchy view](https://www.servicenow.com/docs/access?context=managing-enhanced-hierarchical-view-in-event-tasks&family=zurich&ft:locale=en-US)**
+
+A Gantt chart has been added to the Hierarchy view to help visualize the planned and actual timelines of event tasks.
+
+
+ -   **[Predefined Word templates](https://www.servicenow.com/docs/access?context=edit-report-temp&family=zurich&ft:locale=en-US)**
 
 Predefined Microsoft Word templates are now provided in the instance.
 
@@ -230,6 +302,16 @@ The event task list toolbar adds **Export to Excel** and **Import from Excel** a
 -   **[Loss scenario Recovery tasks tab](https://www.servicenow.com/docs/access?context=add-loss-scenario-recovery-task-bcp-uib-ws&family=australia&ft:locale=en-US)**
 
 Each loss scenario record includes a **Recovery tasks** tab that lists only the recovery tasks scoped to that scenario.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -314,6 +396,8 @@ Zurich
 Install Business Continuity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Business Continuity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -324,6 +408,8 @@ Australia
 
 Install Business Continuity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Business Continuity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -494,5 +580,5 @@ Australia
  See [Business Continuity Management](https://www.servicenow.com/docs/access?context=business-continuity-mangmt-overview&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

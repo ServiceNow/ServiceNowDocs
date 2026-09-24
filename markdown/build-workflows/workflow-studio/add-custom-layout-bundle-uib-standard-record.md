@@ -2,7 +2,7 @@
 title: Add a custom layout bundle to a UI Builder standard record page
 description: Add playbook custom layout bundles to a new or an existing UI Builder standard record page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-custom-layout-bundle-uib-standard-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/add-custom-layout-bundle-uib-standard-record.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

@@ -2,7 +2,7 @@
 title: Enter incidental expenses directly from a work order task on a mobile device
 description: Create and track incidental expenses that arise during the execution of a work order task through the Field Service Contractor for mobile application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/manage-incidentals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/manage-incidentals.html
 release: australia
 product: Work Order Management
 classification: work-order-management

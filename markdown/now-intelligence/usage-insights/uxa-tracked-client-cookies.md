@@ -2,7 +2,7 @@
 title: Usage Insights client-side storage cookies
 description: To track client-side user activity, Usage Insights uses the SNAnalytics JavaScript SDK that is embedded in Platform Analytics, Core UI, and the Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-tracked-client-cookies.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/uxa-tracked-client-cookies.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -67,5 +67,5 @@ Data is encrypted at rest. It’s stored in a central ServiceNow® multitenant r
 
 Data is anonymized before it’s sent to storage, and deleted at the database level after a retention period of two years.
 
-**Parent Topic:**[Tracked analytics fields and cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-tracked-fields-and-cookies.md)
+**Parent Topic:**[Tracked analytics fields and cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/uxa-tracked-fields-and-cookies.md)
 

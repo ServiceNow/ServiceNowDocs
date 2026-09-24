@@ -2,7 +2,7 @@
 title: Populate search suggestions in the mobile apps
 description: If you are upgrading from a previous release, run a script to populate search suggestions with data from a platform search table to provide search suggestions to your users. Alternatively, you can wait until users search for keywords instead of running this script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/populate-search-suggestions-me.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/populate-search-suggestions-me.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

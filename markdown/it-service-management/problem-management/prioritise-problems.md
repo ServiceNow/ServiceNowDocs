@@ -2,7 +2,7 @@
 title: Data lookup for prioritizing problems
 description: To follow ITIL guidelines, problem records are prioritized by the impact and urgency of the problem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/prioritise-problems.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/prioritise-problems.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -50,5 +50,5 @@ When you initially create and save a problem, the **Work notes** field is not ma
 
 **Note:** This feature is available only in new instances starting with Jakarta or a later release. The Problem Management Best Practice – Jakarta plugin \(com.snc.best\_practice.problem.jakarta\) plugin must be activated.
 
-**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/reference-section-for-problem-management.md)
 

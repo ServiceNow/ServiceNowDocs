@@ -2,7 +2,7 @@
 title: Debug translations
 description: Show which UI strings are translatable and their translation table to debug translations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_DisplayATranslationPrefix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-localization/t\_DisplayATranslationPrefix.html
 release: australia
 product: System Localization
 classification: system-localization

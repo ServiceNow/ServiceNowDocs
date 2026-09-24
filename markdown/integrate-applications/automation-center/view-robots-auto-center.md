@@ -2,7 +2,7 @@
 title: View the available robots
 description: View a list of available robots in Automation Center for reference purpose.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/view-robots-auto-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/view-robots-auto-center.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -20,7 +20,7 @@ View a list of available robots in Automation Center for reference purpose.
 
 Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_user, or sn\_ac.automation\_admin
 
-In addition to the Automation Center roles, you will also need the Robotic Process Automation \(RPA\) roles. For more information on RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-rpa-hub.md).
+In addition to the Automation Center roles, you will also need the Robotic Process Automation \(RPA\) roles. For more information on RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/installed-with-rpa-hub.md).
 
 ## About this task
 
@@ -41,5 +41,5 @@ You can't create a robot.
 5.  Review the information on the robot page.
 
 
-**Parent Topic:**[Execute and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/execute-and-monitor.md)
+**Parent Topic:**[Execute and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/execute-and-monitor.md)
 

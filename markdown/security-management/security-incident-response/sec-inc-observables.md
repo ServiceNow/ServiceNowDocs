@@ -2,7 +2,7 @@
 title: Manage observables
 description: Observables are artifacts found on a network or operating system that are likely to indicate an intrusion. Typical observables are IP addresses, MD5 hashes of malware files or URLs, or domain names. Threat Intelligence observable table data is available from within a security incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sec-inc-observables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sec-inc-observables.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,5 +32,5 @@ During an upgrade, existing items have the **Finding** column set to Malicious.
 **Related topics**  
 
 
-[Create a security incident observable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-si-observable.md)
+[Create a security incident observable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-si-observable.md)
 

@@ -2,7 +2,7 @@
 title: Create a transfer order from a request
 description: You can create a transfer order directly from a request to source hardware items and consumables from stockrooms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_CreatingTransferOrderFromReq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/procurement/t\_CreatingTransferOrderFromReq.html
 release: australia
 product: Procurement
 classification: procurement
@@ -26,15 +26,15 @@ Role required: procurement\_admin or procurement\_user
 
 1.  View procurement requests.
 
-<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d431495e68">
+<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d431436e68">
 
 UI
 
-</th><th align="left" id="d431495e71">
+</th><th align="left" id="d431436e71">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d431495e77">
+</th></tr></thead><tbody><tr><td id="d431436e77">
 
 **Core UI**
 
@@ -42,7 +42,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
-</td></tr><tr><td id="d431495e101">
+</td></tr><tr><td id="d431436e101">
 
 **Hardware Asset Workspace**
 
@@ -99,7 +99,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
     A transfer order is created to move the item or items from the **Source stockroom** location to the **Destination stockroom** location. When you view the request, the **Sourced** check box is selected.
 
 
-**Parent Topic:**[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_SourcingRequestItems.md)
+**Parent Topic:**[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/procurement/c_SourcingRequestItems.md)
 
 **Related topics**  
 

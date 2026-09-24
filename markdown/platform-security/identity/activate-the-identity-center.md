@@ -2,7 +2,7 @@
 title: Activating the Identity Center
 description: For Identity Center, install the Identity Center \(com.snc.identity\_center\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/activate-the-identity-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/activate-the-identity-center.html
 release: australia
 product: Identity
 classification: identity

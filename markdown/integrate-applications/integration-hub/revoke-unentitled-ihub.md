@@ -2,7 +2,7 @@
 title: Revoke unentitled software
 description: Revoke software using Microsoft System Center Configuration Manager \(SCCM\) that a user is not entitled to use even if the software was installed by some other process or user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/revoke-unentitled-ihub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/revoke-unentitled-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -37,5 +37,5 @@ Client Software Distribution \(CSD\) uses [Software Asset Management](https://ra
     \[Omitted image "SCCMSoftwareInstallation.png"\] Alt text: Revoking a software installation
 
 
-**Parent Topic:**[SCCM software revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sccm-revocation-ihub.md)
+**Parent Topic:**[SCCM software revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/sccm-revocation-ihub.md)
 

@@ -2,7 +2,7 @@
 title: Exploring Employee Document Management
 description: With Employee Document Management, you can streamline document management and maintain documents with integrity, accuracy and access controls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/exploring-employee-document-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/exploring-employee-document-management.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -67,5 +67,5 @@ Employee Document Management agents can:
 
 ## Employee access
 
-Employees can view their own employee documents when the document type provides employee access. Employee documents are also available on HR cases and the Service Portal or Employee Service Center profile page. See [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md).
+Employees can view their own employee documents when the document type provides employee access. Employee documents are also available on HR cases and the Service Portal or Employee Service Center profile page. See [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md).
 

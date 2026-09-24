@@ -2,7 +2,7 @@
 title: Import a record from the template
 description: After updating the import template with new data, import the template to your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/easy-import/t\_ImportARecordFromTheTemplate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/easy-import/t\_ImportARecordFromTheTemplate.html
 release: australia
 product: Easy Import
 classification: easy-import
@@ -44,5 +44,5 @@ Role required: admin.
     If the template passes validation and the imported preview matches your expectations, click **Complete Import** to import records into the current table. If the template fails validation, review the errors. Click **Ignore Errors and Complete Import** to continue the import by skipping any bad data cells.
 
 
-**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md)
+**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/easy-import/c_EasyImport.md)
 

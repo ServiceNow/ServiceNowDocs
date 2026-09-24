@@ -2,7 +2,7 @@
 title: Control access at the knowledge article level through user criteria
 description: You specify user criteria for a knowledge article to control which users are granted read access to the knowledge article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_SelectUCArticle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/t\_SelectUCArticle.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -24,11 +24,11 @@ Role required: knowledge\_manager, knowledge\_admin
 
 ## About this task
 
-Try to use only user criteria, which were introduced in Knowledge Management v3, to control access to knowledge articles. Roles were used for this purpose in Knowledge Management v2. For more information, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md).
+Try to use only user criteria, which were introduced in Knowledge Management v3, to control access to knowledge articles. Roles were used for this purpose in Knowledge Management v2. For more information, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/user-access-knowledge.md).
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 As a knowledge base owner or a manager if the **glide.knowman.apply\_article\_read\_criteria** property is enabled and you don't satisfy the article level user criteria, then the article will not be visible in portal search. To be able to view the article in the portal search, you must configure article level user criteria accordingly.
 
@@ -42,15 +42,15 @@ If you are a part of the ownership group associated with the article then you ca
 
 2.  Assign access based on user criteria.
 
-<table id="choicetable_sqz_z3v_qjb"><thead><tr><th align="left" id="d635617e127">
+<table id="choicetable_sqz_z3v_qjb"><thead><tr><th align="left" id="d636279e127">
 
 Access
 
-</th><th align="left" id="d635617e130">
+</th><th align="left" id="d636279e130">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d635617e136">
+</th></tr></thead><tbody><tr><td id="d636279e136">
 
 **Allow read access**
 
@@ -58,7 +58,7 @@ Procedure
 
 In the **Can Read** field, search for and add user criteria. For example, to allow read access to a user, search for a user criteria that the user matches and add it to this field.
 
-</td></tr><tr><td id="d635617e148">
+</td></tr><tr><td id="d636279e148">
 
 **Deny read access**
 
@@ -68,7 +68,7 @@ In the **Cannot Read** field, search for and add user criteria. For example, to 
 
 -   If users have contribute access to the knowledge base, they also have read access to the knowledge article regardless of the **Cannot Read** setting.
 
-Activate the property \(glide.knowman.apply\_article\_read\_criteria\) to override contribute access to a knowledge article based on **Can Read** and **Cannot Read** user criteria at the article level. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+Activate the property \(glide.knowman.apply\_article\_read\_criteria\) to override contribute access to a knowledge article based on **Can Read** and **Cannot Read** user criteria at the article level. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 -   Users who meet both **Can Read** and **Cannot Read** user criteria are denied read access to the knowledge article. The **Cannot Read** setting overrides the **Can Read** setting for the knowledge article.
 
@@ -81,16 +81,16 @@ Activate the property \(glide.knowman.apply\_article\_read\_criteria\) to overri
 
 ## What to do next
 
-After you add user criteria, you can use the user criteria diagnostics feature to verify the access users have to a knowledge base or a knowledge article. For more information, see [User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md).
+After you add user criteria, you can use the user criteria diagnostics feature to verify the access users have to a knowledge base or a knowledge article. For more information, see [User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md).
 
 **Important:** After making user criteria additions or changes, you may need to log out and log back in to clear the prior configuration.
 
-**Parent Topic:**[Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md)
+**Parent Topic:**[Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/user-access-knowledge.md)
 
 **Related topics**  
 
 
-[Create user criteria for controlling access to knowledge bases and articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-user-criteria-record-in-knowledge-management.md)
+[Create user criteria for controlling access to knowledge bases and articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-user-criteria-record-in-knowledge-management.md)
 
-[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
+[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
 

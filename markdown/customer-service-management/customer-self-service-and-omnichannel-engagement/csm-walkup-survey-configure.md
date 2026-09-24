@@ -2,7 +2,7 @@
 title: Configure Walk-up Experience surveys
 description: Define surveys so that requesters can provide feedback on their satisfaction with the service quality received at a location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-survey-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-survey-configure.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

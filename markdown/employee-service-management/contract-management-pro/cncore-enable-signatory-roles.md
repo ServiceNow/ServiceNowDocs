@@ -2,7 +2,7 @@
 title: Enable signatory roles
 description: Activate a system property to display the Role field when configuring internal signatory rules and when adding signatories to a contract request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -42,9 +42,9 @@ Role required: admin
 
 ## Result
 
-The **Role** field is displayed when configuring internal signatory rules and the **Signatory Role** field is displayed when adding signatories in Employee Center and in Contract Workspace. For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+The **Role** field is displayed when configuring internal signatory rules and the **Signatory Role** field is displayed when adding signatories in Employee Center and in Contract Workspace. For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 

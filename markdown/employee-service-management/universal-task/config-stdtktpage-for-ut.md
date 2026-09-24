@@ -2,7 +2,7 @@
 title: Add a Task tab on the Standard Ticket page
 description: Add a Task tab on the Standard Ticket page to let employees view the tasks that are assigned to them by the agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/config-stdtktpage-for-ut.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-task/config-stdtktpage-for-ut.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -45,9 +45,9 @@ Role required: admin
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Add a Universal Task related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/create-relatedlist-ur.md)
+**Previous topic:**[Add a Universal Task related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/create-relatedlist-ur.md)
 
-**Next topic:**[Define the agent criteria for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-config-extn-point-agent.md)
+**Next topic:**[Define the agent criteria for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/ut-config-extn-point-agent.md)
 

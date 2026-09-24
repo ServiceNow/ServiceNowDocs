@@ -2,7 +2,7 @@
 title: Parameters of the XmlTemplate connector methods
 description: Learn about the various parameters of the XmlTemplate connector methods in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/parameters-xmlTemplate-methods.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/parameters-xmlTemplate-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,5 +20,5 @@ Learn about the various parameters of the XmlTemplate connector methods in RPA D
 |Status|Boolean response to whether the template was loaded correctly.|Not applicable|
 |Template|Template name as configured in the XmlTemplate connector.|Yes|
 
-**Parent Topic:**[Data Modellers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-modellers.md)
+**Parent Topic:**[Data Modellers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-modellers.md)
 

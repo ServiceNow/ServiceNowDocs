@@ -2,7 +2,7 @@
 title: Legacy: Incident SLA Management dashboard
 description: See how well the incidents that are subject to a Service Level Agreement meet the deadlines of those SLAs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-sla-mgmt-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/incident-sla-mgmt-dashboard.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -18,7 +18,7 @@ See how well the incidents that are subject to a Service Level Agreement meet th
 
 **Important:**
 
-Starting in Xanadu release, the Incident SLA Management dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view whether the incidents that are subject to a Service Level Agreement, meet the deadlines of those SLAs.
+Starting in Xanadu release, the Incident SLA Management dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident.md) to view whether the incidents that are subject to a Service Level Agreement, meet the deadlines of those SLAs.
 
 The dashboard title indicates that it is inactive because you activate the solution after configuration and data collection.
 
@@ -133,5 +133,5 @@ The dashboard title indicates that it is inactive because you activate the solut
 -   Assignment Group
 -   Task SLA Breached Status
 
-**Parent Topic:**[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-sla-content-pack.md)
+**Parent Topic:**[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-sla-content-pack.md)
 

@@ -2,7 +2,7 @@
 title: Domain separation in Usage Insights
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is not supported for the Usage Insights application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/user-experience-analytics-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/user-experience-analytics-domain-separation.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -23,7 +23,7 @@ Domain separation is not supported for the Usage Insights application.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Usage Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-experience-analytics-reference.md)
+**Parent Topic:**[Usage Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/user-experience-analytics-reference.md)
 
 **Related topics**  
 

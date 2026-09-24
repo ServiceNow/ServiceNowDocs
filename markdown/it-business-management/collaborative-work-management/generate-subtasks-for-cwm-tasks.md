@@ -2,7 +2,7 @@
 title: Generate child tasks for CWM tasks
 description: Use AI to create child tasks for a large and complex CWM task in the List view. Child tasks are generated from the task's short description and description, reducing manual work breakdown effort.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/generate-subtasks-for-cwm-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/generate-subtasks-for-cwm-tasks.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -57,5 +57,5 @@ If a task has child tasks, the existing child tasks are analyzed and aren't dupl
 
 The generated child tasks are inserted as a hierarchy under the parent task in the List view.
 
-**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-boards.md)
 

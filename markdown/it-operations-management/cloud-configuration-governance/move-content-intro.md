@@ -2,7 +2,7 @@
 title: Moving Cloud Provisioning and Governance content across environments
 description: You can move the content in the Cloud Provisioning and Governance application from one environment to the other. For example, develop an application in an environment and then move the application and all its dependencies to another environment for testing or production.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/move-content-intro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/move-content-intro.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -81,9 +81,9 @@ MID scripts
 </table>**Related topics**  
 
 
-[Move a blueprint from one environment to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/export-updateset-blueprint.md)
+[Move a blueprint from one environment to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/export-updateset-blueprint.md)
 
-[Move a resource block from one environment to the other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/export-updateset-rblock.md)
+[Move a resource block from one environment to the other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/export-updateset-rblock.md)
 
-[Move a cloud API from one environment to the other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/export-updateset-capi.md)
+[Move a cloud API from one environment to the other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/export-updateset-capi.md)
 

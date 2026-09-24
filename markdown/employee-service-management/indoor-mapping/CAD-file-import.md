@@ -2,7 +2,7 @@
 title: Import CAD files to Map Studio
 description: Create a campus, add few buildings and floors to the campus. Upload your CAD floor plan to make configuration changes and preview the CAD design layout.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/CAD-file-import.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/CAD-file-import.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -28,7 +28,7 @@ Role required: map editor, map admin, map editor limited
 
 2.  Create a Campus, add few buildings and floors to a campus or select an existing campus.
 
-    For more information, see [Create a campus with buildings and floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/create-a-campus-building-and-floor.md)
+    For more information, see [Create a campus with buildings and floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/create-a-campus-building-and-floor.md)
 
 3.  Navigate to **Manage workplace** &gt; **Floors and Floor plans**.
 
@@ -148,9 +148,9 @@ Role required: map editor, map admin, map editor limited
     The CAD file is loaded into the Map Studio and the configuration for layers, layer types, and places is created. The application automatically applies the same configurations to subsequent floors that are imported. This is helpful in speeding up configurations of buildings that have multiple floors and where all the CAD files have similar layers. If the CAD layers within the subsequent files have the same layer names as the layers within the initial file, then layers, layer types, and places is pre-filled with the same values as those in the initial file.
 
 
-**Parent Topic:**[Autocad tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-processor-v1.md)
+**Parent Topic:**[Autocad tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/autocad-processor-v1.md)
 
-**Previous topic:**[Autocad tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-processor-v1.md)
+**Previous topic:**[Autocad tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/autocad-processor-v1.md)
 
-**Next topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
+**Next topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/indoor-mapping-references.md)
 

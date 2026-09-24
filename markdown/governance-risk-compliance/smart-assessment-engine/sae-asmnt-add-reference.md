@@ -2,7 +2,7 @@
 title: Add reference information to an assessment template
 description: Add reference information to an assessment template so that assessors can access the information they need while responding to assessments by using the Smart Assessment Engine. With an assessment template, you can minimize the need for external references and can improve the efficiency of the assessment process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-add-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-add-reference.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -18,7 +18,7 @@ Add reference information to an assessment template so that assessors can access
 
 ## Before you begin
 
-You must select one or more assessment targets as part of the assessment template. The assessment targets are the table records that are selected to be assessed — the assessment's scope items. For an explanation of scope items, including how they are set and where responders see them, see [Scope items in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-scope-items.md). For more information, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+You must select one or more assessment targets as part of the assessment template. The assessment targets are the table records that are selected to be assessed — the assessment's scope items. For an explanation of scope items, including how they are set and where responders see them, see [Scope items in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-scope-items.md). For more information, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_admin
 

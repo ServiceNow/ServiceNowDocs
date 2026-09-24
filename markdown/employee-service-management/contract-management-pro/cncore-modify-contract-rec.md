@@ -2,7 +2,7 @@
 title: Modify a contract record
 description: After a contract record is created, you can change the end date, parent contract, and contract model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-modify-contract-rec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-modify-contract-rec.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -55,7 +55,7 @@ If changes are made to a contract end date or its terms and conditions, a copy o
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)
+**Parent Topic:**[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Enable the claim workspace for Individual Life Claims
 description: Enable the claim workspace page on the claim case so that a claims manager or adjuster can view the page in Individual Life Claims.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/enable-claim-workspace-for-individual-life-claims.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/enable-claim-workspace-for-individual-life-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
@@ -54,5 +54,5 @@ Navigation to page records
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/setting-up-individual-life-claims.md)
+**Parent Topic:**[Setting up Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-claims/setting-up-individual-life-claims.md)
 

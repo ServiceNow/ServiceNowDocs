@@ -2,7 +2,7 @@
 title: Zendesk Spoke
 description: The Zendesk spoke provides actions to view and analyze meaningful usage data for Zendesk software subscriptions. Analyze usage for your Zendesk account to determine which licenses are stale so that you can reclaim these licenses and realize your potential savings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/zendesk-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/zendesk-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -502,7 +502,7 @@ Delete User
 
 </td><td>
 
-Deletes the specified user and associated records from an account. Deleted users cannot be recovered. To comply with General Data Protection Regulation \(GDPR\), you must use the additional [Permanently Delete User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zendesk-spoke.md) action to permanently delete the user after deleting the user.
+Deletes the specified user and associated records from an account. Deleted users cannot be recovered. To comply with General Data Protection Regulation \(GDPR\), you must use the additional [Permanently Delete User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/zendesk-spoke.md) action to permanently delete the user after deleting the user.
 
 </td></tr><tr><td>
 
@@ -542,7 +542,7 @@ Permanently Delete User
 
 </td><td>
 
-Permanently deletes the specified user from an account.Before you can permanently delete the user, you must first delete the user using the [Delete User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zendesk-spoke.md) action.
+Permanently deletes the specified user from an account.Before you can permanently delete the user, you must first delete the user using the [Delete User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/zendesk-spoke.md) action.
 
 </td></tr><tr><td>
 
@@ -617,7 +617,7 @@ Updates details of the specified webhook.
 
 ## Integration Hub imports
 
-The Zendesk spoke adds the Import Zendesk Users Integration Hub imports to your ServiceNow instance. The Integration Hub imports help you import the users' data from Zendesk account to your ServiceNow instance in an automated way. For more information about Integration Hub imports, see[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md).
+The Zendesk spoke adds the Import Zendesk Users Integration Hub imports to your ServiceNow instance. The Integration Hub imports help you import the users' data from Zendesk account to your ServiceNow instance in an automated way. For more information about Integration Hub imports, see[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integrationhub-imports.md).
 
 ## Spoke modules
 
@@ -637,5 +637,5 @@ The Zendesk spoke adds the Zendesk Spoke application to your ServiceNow instance
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Set up the Zendesk spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zendesk.md).
+For information about setting up the spoke, see [Set up the Zendesk spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-zendesk.md).
 

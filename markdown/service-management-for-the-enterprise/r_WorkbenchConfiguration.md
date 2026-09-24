@@ -2,7 +2,7 @@
 title: Facilities visualization workbench configuration
 description: Space administrators configure properties on the workbench. In the application navigator, Facilities Workbench Configuration contains the configuration settings divided into sections.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_WorkbenchConfiguration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_WorkbenchConfiguration.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Space administrators configure properties on the workbench. In the application n
 
 ## Map properties
 
-Map properties allow some customization on the floor plan. For a full description of each property, see [Space Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/SpaceMgmntProperties.md).
+Map properties allow some customization on the floor plan. For a full description of each property, see [Space Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/SpaceMgmntProperties.md).
 
 ## Parsing configuration
 
@@ -114,5 +114,5 @@ The URL parameters supported are:
 |sysparm\_tab|Specify the number of the tab to default to on the map.|
 |sysparm\_fromWidget|Triggers event "space.clicked" on a space click, which returns \{'sys\_id': SPACESYSID, 'displayName': SPACEDISPLAYNAME\}, or hiding space which returns \{'sys\_id':", 'displayName':"\};|
 
-**Parent Topic:**[Activate Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateFacVisWorkbench.md)
+**Parent Topic:**[Activate Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateFacVisWorkbench.md)
 

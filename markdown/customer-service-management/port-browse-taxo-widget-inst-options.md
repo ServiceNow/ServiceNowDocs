@@ -2,7 +2,7 @@
 title: Portal Browse Taxonomy widget instance options form
 description: Instance options enable you to configure the Portal Browse Taxonomy widget on the portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/port-browse-taxo-widget-inst-options.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/port-browse-taxo-widget-inst-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -127,7 +127,7 @@ The Catalog Order Guide page that opens when the catalog order guide is accessed
 </table>**Related topics**  
 
 
-[Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/browse-taxo-widget.md)
+[Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/browse-taxo-widget.md)
 
-[Add and configure the Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-browse-taxo-widget.md)
+[Add and configure the Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-browse-taxo-widget.md)
 

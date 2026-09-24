@@ -2,7 +2,7 @@
 title: Non-monetary benefit plans form
 description: Learn about the fields of non-monetary benefit plans form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/non-monetary-benefit-plans-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/non-monetary-benefit-plans-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -239,7 +239,7 @@ Actual benefit value that is rolled up from the actual benefit in the non-moneta
 </table>**Related topics**  
 
 
-[Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md)
+[Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md)
 
-[Update a non-monetary benefit plan breakdown for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-a-non-monetary-benefit-plan-breakdown-for-a-project.md)
+[Update a non-monetary benefit plan breakdown for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/update-a-non-monetary-benefit-plan-breakdown-for-a-project.md)
 

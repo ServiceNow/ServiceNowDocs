@@ -2,7 +2,7 @@
 title: Issue Auto Resolution diagnostic chat
 description: Admin users can initiate a chat conversation to troubleshoot the settings and functionality of Issue Auto Resolution if an issue arises that wasn't addressed as expected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/iar-diagnostic-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/iar-diagnostic-chat.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -94,10 +94,10 @@ The admin user enters `IAR` in the chat window to initiate a conversation about 
     \[Omitted image "iar-diagnostic-11.png"\] Alt text: Select Yes if you found a solution, or select No to continue with further diagnosis.
 
 
-**Parent Topic:**[Using Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/auto-resolution-va.md)
+**Parent Topic:**[Using Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/auto-resolution-va.md)
 
 **Related topics**  
 
 
-[Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/ci-diagnostics-tool-landing.md)
+[Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/conversational-interfaces-diagnostics-tool/ci-diagnostics-tool-landing.md)
 

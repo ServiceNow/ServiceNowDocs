@@ -2,7 +2,7 @@
 title: Activate Time Recording for Field Service
 description: You can activate the Time Recording for Field Service plugin \(com.snc.wm\_time\_recording\) for Field Service if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Activate-time-recording.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/Activate-time-recording.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -22,7 +22,7 @@ You can activate the Time Recording for Field Service plugin \(com.snc.wm\_time\
     -   **Required ServiceNow plugins**
         -   **Field Service Management \(com.snc.work\_management\)**
 
-            Enables you to manage work requests that are performed on location by field service agents. For information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
+            Enables you to manage work requests that are performed on location by field service agents. For information, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ActivateFieldServiceManagement.md).
 
 
 Role required: admin.
@@ -34,7 +34,7 @@ The following items are installed with Time Recording for Field Service plugin:
 -   Plugins
 -   Roles
 
-For more information, see [Time Recording for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-time-recording-fsm.md).
+For more information, see [Time Recording for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-time-recording-fsm.md).
 
 ## Procedure
 

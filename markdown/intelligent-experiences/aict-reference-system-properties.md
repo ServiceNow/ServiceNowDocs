@@ -2,12 +2,12 @@
 title: System properties for AI Control Tower
 description: Several system properties that affect core AI Control Tower are available.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-reference-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-reference-system-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
 ---
 
@@ -53,7 +53,7 @@ sn\_ai\_security.analyzer\_max\_record\_age\_hours
 
 </td><td>
 
-See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-reference-system-properties.md).
+See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-reference-system-properties.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ sn\_ai\_security.veza.api.key
 
 </td><td>
 
-See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-reference-system-properties.md)
+See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-reference-system-properties.md)
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ sn\_ai\_security.veza.api.url
 
 </td><td>
 
-See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-reference-system-properties.md).
+See [System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-reference-system-properties.md).
 
 </td></tr></tbody>
 </table>

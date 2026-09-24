@@ -2,7 +2,7 @@
 title: Configure third-party discovery sources for Software Asset Management
 description: Set up a third-party discovery source for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with the software found in your environment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/configure-third-party-discovery.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/configure-third-party-discovery.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -34,12 +34,12 @@ Role required: sam\_developer
 
 4.  Send the payload to the ServiceNow instance using the IRE REST API.
 
-    For information on a sample payload, see [Sample payload for generic software install records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/payload-details.md).
+    For information on a sample payload, see [Sample payload for generic software install records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/payload-details.md).
 
     In the payload, make sure to send the sys\_class\_name of the CI, so that the CI is not reclassified when an insert or update operation is performed.
 
     An entry is created in the Software Installation \[cmdb\_sam\_sw\_install\] table with a display name, publisher, and version. Reconciliation is run against the content service and a discovery model is identified for that software. If a discovery model does not exist, a discovery model is automatically created for the software. You can start using the Software Asset Management application.
 
 
-**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

@@ -2,7 +2,7 @@
 title: Create a survey question template
 description: You can create and administer question templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateASurveyQuestionTemplate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreateASurveyQuestionTemplate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -68,7 +68,7 @@ Enter a numeric value, greater than or equal to zero, to which the answer option
 </table>7.  Click **Update**.
 
 
-**Parent Topic:**[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestionTemplate.md)
+**Parent Topic:**[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyQuestionTemplate.md)
 
 **Related topics**  
 

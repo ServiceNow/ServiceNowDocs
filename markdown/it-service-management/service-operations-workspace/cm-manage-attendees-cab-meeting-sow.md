@@ -2,7 +2,7 @@
 title: Manage attendees in a CAB meeting
 description: Manage attendees of your CAB meeting who will review the change requests during the meeting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/cm-manage-attendees-cab-meeting-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/cm-manage-attendees-cab-meeting-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -52,5 +52,5 @@ Role required: sn\_change\_cab.cab\_manager
 6.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and then select **Send meeting request to attendees** to send the meeting invite to the new and existing attendees.
 
 
-**Parent Topic:**[Create a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.md)
+**Parent Topic:**[Create a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.md)
 

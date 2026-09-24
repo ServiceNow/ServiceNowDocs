@@ -2,7 +2,7 @@
 title: Assessment scorecard history
 description: The History view compares the current ratings for each category with ratings from the previous three years or four quarters.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_History.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_History.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -25,7 +25,7 @@ Ratings that have declined are highlighted in red and display negative numbers. 
     \[Omitted image "ScorecardHistory4Quarters.png"\] Alt text: Scorecard history with four quarters
 
 
-**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 

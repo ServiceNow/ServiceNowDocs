@@ -2,7 +2,7 @@
 title: Stockroom audit access by role
 description: Audit roles determine which stockrooms a user can view and audit. Depending on your application and assigned role, you may have access to all stockrooms or only personal stockrooms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/stockroom-audit-access-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/stockroom-audit-access-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -44,7 +44,7 @@ The audit roles are organized in the following hierarchy:
 
     The ham\_admin role is assigned the sn\_itam\_common.asset\_audit\_admin role, enabling full access on all stockrooms.
 
-    **Note:** For more details on stockroom auditing in the Hardware Asset Management application, see [Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-inventory-audit.md).
+    **Note:** For more details on stockroom auditing in the Hardware Asset Management application, see [Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-inventory-audit.md).
 
 -   **Field Service Management**
 
@@ -53,8 +53,8 @@ The audit roles are organized in the following hierarchy:
     **Note:** For more details on stockroom auditing in the Field Service Management application, see [Perform asset audit for personal stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/perform-asset-audit.md).
 
 
--   **[Audit enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.md)**  
+-   **[Audit enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.md)**  
 Audit your enterprise asset inventory to learn where your assets are and what their current status is.
 
-**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

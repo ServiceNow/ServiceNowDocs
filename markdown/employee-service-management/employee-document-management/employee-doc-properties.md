@@ -2,7 +2,7 @@
 title: Properties for Employee Document Management application
 description: Activating the Employee Document Management \[com.sn\_employee\_document\_management\] plugin adds the following properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/employee-doc-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/employee-doc-properties.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -111,7 +111,7 @@ If you checked **Yes** for the **Enable purge logs to log the files deleted duri
 **Note:** The purge log is created after the Purge employee documents scheduled job runs. This job runs daily by default.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference - Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/reference-employee-document-management.md)
+</table>**Parent Topic:**[Reference - Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/reference-employee-document-management.md)
 
 **Related topics**  
 

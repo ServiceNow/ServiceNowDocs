@@ -2,7 +2,7 @@
 title: Campaign tasks
 description: As an OEM, plan, manage, and execute a promotional effort.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-campaign-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-campaign-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 3.  On the Campaign tasks form, fill in the fields.
 
-    For a description of the field values, see [Campaign tasks form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-campaign-tasks-form.md).
+    For a description of the field values, see [Campaign tasks form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-campaign-tasks-form.md).
 
 4.  Select **Save**.
 

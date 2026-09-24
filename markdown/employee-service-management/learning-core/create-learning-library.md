@@ -2,7 +2,7 @@
 title: Create a learning library
 description: Create a learning library that includes learning content from internal and external content repositories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-learning-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/create-learning-library.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -28,17 +28,17 @@ Role required: sn\_lc.catalog\_manager, sn\_lc.catalog\_group\_manager
 
 3.  On the Learning library form, fill in the fields.
 
-    For a description of the field values, see [Learning library form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-library-form_0.md).
+    For a description of the field values, see [Learning library form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-library-form_0.md).
 
 4.  Select **Submit**.
 
 
--   **[Add course items to learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-learning-library-course-items.md)**  
+-   **[Add course items to learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-learning-library-course-items.md)**  
 To add course items to the catalog
--   **[Add users to learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-learning-library-users.md)**  
+-   **[Add users to learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-learning-library-users.md)**  
 You can add applicable users to a learning library.
 
-**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-learning-achievements.md)
+**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-learning-achievements.md)
 
 **Related topics**  
 
@@ -59,9 +59,9 @@ You can add applicable users to a learning library.
 
 [Create an achievement rule item]()
 
-[Learning library form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-library-form_0.md)
+[Learning library form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-library-form_0.md)
 
-[Add course items to learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-learning-library-course-items.md)
+[Add course items to learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-learning-library-course-items.md)
 
-[Add users to learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-learning-library-users.md)
+[Add users to learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-learning-library-users.md)
 

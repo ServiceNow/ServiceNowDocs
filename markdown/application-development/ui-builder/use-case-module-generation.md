@@ -2,12 +2,12 @@
 title: Use case: Generate modules using ServiceNow Otto
 description: Create and configure application menu modules using natural language
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/use-case-module-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/use-case-module-generation.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Use case, Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -38,7 +38,7 @@ Using the Module generation feature, the admin provides a single natural-languag
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 ## Configuration steps
 
@@ -63,12 +63,12 @@ Perform the following steps to generate modules:
 
 The administrator creates and configures a five-module application menu within a single workflow. The resulting modules are immediately ready for use in the application navigator.
 
-**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-use-cases.md)
+**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-generation-use-cases.md)
 
 **Related topics**  
 
 
-[Module generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ai_module_creation_concept.md)
+[Module generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ai_module_creation_concept.md)
 
-[Generate modules using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/generate-ai-modules.md)
+[Generate modules using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/generate-ai-modules.md)
 

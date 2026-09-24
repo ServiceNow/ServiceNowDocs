@@ -2,7 +2,7 @@
 title: Submit to CSF X Sandbox
 description: Submit to CSF X Sandbox is an example of an activity definition process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/submit-to-csf-x-sandbox.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/submit-to-csf-x-sandbox.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -93,5 +93,5 @@ To add a new action to the activity card, you need to create a new record in the
 
 No Playbook overrides for this example.
 
-**Parent Topic:**[Activity Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/build-activities.md)
+**Parent Topic:**[Activity Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/build-activities.md)
 

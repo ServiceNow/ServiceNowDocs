@@ -2,7 +2,7 @@
 title: Incident management dashboard
 description: Dashboard providing a view into process metrics related to Open and Closed incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

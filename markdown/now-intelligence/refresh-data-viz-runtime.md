@@ -2,7 +2,7 @@
 title: Refresh a data visualization as a viewer
 description: A viewer of a data visualization can refresh that data visualization without refreshing the page or having editing rights.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/refresh-data-viz-runtime.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/refresh-data-viz-runtime.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,5 +20,5 @@ You can refresh a visualization through the visualization's More actions menu.
 
 **Note:** If the creator of a visualization has suppressed this option, you will not see Refresh under the More actions menu.
 
-**Parent Topic:**[View data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-data-visualizations.md)
+**Parent Topic:**[View data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/view-data-visualizations.md)
 

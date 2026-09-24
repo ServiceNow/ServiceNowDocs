@@ -2,7 +2,7 @@
 title: Perform full data migration
 description: Migrate your existing dashboards, reports, interactive filters, and Performance Analytics widgets to the Platform Analytics experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-perform.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-perform.html
 release: australia
 topic_type: task
 last_updated: "2026-03-23"
@@ -58,7 +58,7 @@ Reports associated with chart to chart drilldown are saved to the Visualization 
 
 5.  Select **Migrate** to start the migration process.
 
-6.  [Evaluate the results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-evaluate.md).
+6.  [Evaluate the results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-migration-evaluate.md).
 
 7.  Select **Activate** to complete the migration process.
 
@@ -73,5 +73,5 @@ Your dashboards and other migrated content are now found under the library. Navi
 
 ## What to do next
 
-[Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-evaluate.md)
+[Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-migration-evaluate.md)
 

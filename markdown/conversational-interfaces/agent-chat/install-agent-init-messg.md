@@ -2,7 +2,7 @@
 title: Install Agent-Initiated Messaging Interface
 description: You can install the Agent-Initiated Messaging Interface application \(sn\_agent\_initiated\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/install-agent-init-messg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/install-agent-init-messg.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -30,7 +30,7 @@ The following items are installed with Agent-Initiated Messaging Interface:
 -   Store applications
 -   Tables
 
-For more information, see [Components installed with Agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/installed-with-agent-init-messg.md).
+For more information, see [Components installed with Agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/installed-with-agent-init-messg.md).
 
 ## Procedure
 
@@ -53,5 +53,5 @@ For more information, see [Components installed with Agent-initiated messaging i
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
+**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
 

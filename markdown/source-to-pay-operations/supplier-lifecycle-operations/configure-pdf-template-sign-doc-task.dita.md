@@ -2,7 +2,7 @@
 title: Configure the document template for the Sign document action type for supplier task
 description: Create and configure the document template that enables you to collect e-signatures from multiple participants and generate a filled PDF document.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/configure-pdf-template-sign-doc-task.dita.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/configure-pdf-template-sign-doc-task.dita.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -24,7 +24,7 @@ Role required: sn\_slm.admin
 
 Ensure that you've installed the Document Templates \[com.snc.document\_templates\] plugin.
 
-**Important:** When you create the supplier task of action type Sign document for the very first time, the supplier task is created; however, the document task is not created. Therefore, you cannot use the first Sign document task to upload PDF or HTML documents to get signatures. When you create the Sign document task for the first time, a set of restricted caller access \(RCA\) records are created that you must approve. Approving RCAs is a one-time activity. After you approve the RCAs, you can create and use subsequent Sign document supplier tasks except the first Sign document task. For more information about the approving the required RCAs, see [Approve application restricted caller access privileges for Sign document supplier task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.md).
+**Important:** When you create the supplier task of action type Sign document for the very first time, the supplier task is created; however, the document task is not created. Therefore, you cannot use the first Sign document task to upload PDF or HTML documents to get signatures. When you create the Sign document task for the first time, a set of restricted caller access \(RCA\) records are created that you must approve. Approving RCAs is a one-time activity. After you approve the RCAs, you can create and use subsequent Sign document supplier tasks except the first Sign document task. For more information about the approving the required RCAs, see [Approve application restricted caller access privileges for Sign document supplier task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.md).
 
 **Important:** Starting from the May Store 2024 release, the supplier task of action type Sign document uses the document template \(PDF or HTML\). The E-signature template is used only for KB articles.
 
@@ -99,10 +99,10 @@ For more information, see [Mark a signature block](https://raw.githubusercontent
 
 </td></tr></tbody>
 </table>
--   **[Approve application restricted caller access privileges for Sign document supplier task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.md)**  
+-   **[Approve application restricted caller access privileges for Sign document supplier task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.md)**  
 Approve restricted caller access \(RCA\) privileges after you create a supplier task of action type Sign document for the very first time so that you can create and use subsequent Sign document supplier tasks.
 
-**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
+**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
 
 **Related topics**  
 
@@ -127,7 +127,7 @@ Approve restricted caller access \(RCA\) privileges after you create a supplier 
 
 [Configure smart assessments]()
 
-[Approve application restricted caller access privileges for Sign document supplier task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.md)
+[Approve application restricted caller access privileges for Sign document supplier task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.md)
 
-[Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md)
+[Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md)
 

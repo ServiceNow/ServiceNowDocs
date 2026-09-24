@@ -2,12 +2,12 @@
 title: Introduction to credentials, connections, and aliases for Orchestration
 description: All application integrations in Orchestration require connection information, credentials, and connection and credential aliases to their respective applications to access resources.Define an alias to label a credential or connection record.Orchestration requires credentials to access resources.Use the connections table to setup a JMS, JDBC, or HTTP\(s\) connection to a target host.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/credentials-conn-alias-orch.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/orchestration/credentials-conn-alias-orch.html
 release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 9
 breadcrumb: [Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -28,7 +28,7 @@ You can add additional connection attributes to an alias, which are available in
 
 The credential alias resolves only credential data. Along with alias data model, you can use a scriptable API which can get connection and credential data during runtime.
 
-**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md)
+**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_WorkflowActivityDesigner.md)
 
 ## Using Connection and Credential Alias with Orchestration
 

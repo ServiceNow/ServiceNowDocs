@@ -2,7 +2,7 @@
 title: Generate a knowledge article with ServiceNow Otto
 description: Generate knowledge articles for resolved and closed cases within the CRM Workspace and classic environment using ServiceNow Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -21,7 +21,7 @@ Generate knowledge articles for resolved and closed cases within the CRM Workspa
 
 To generate a knowledge article for a case, the case must be in the **Resolved** or **Closed** state and must not already have a knowledge article linked to it. Although the **Create Knowledge** button appears in other states, it does not trigger the skill. In those cases, selecting the button opens the KB article form for manual entry.
 
-Before generating articles, confirm that [Configure knowledge generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-knowledge-generation-in-now-assist_0.md) is configured.
+Before generating articles, confirm that [Configure knowledge generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/configure-knowledge-generation-in-now-assist_0.md) is configured.
 
 **Warning:**
 
@@ -45,7 +45,7 @@ In the CRM Workspace and classic environment, generate knowledge article informa
 
 **Note:**
 
-The Create Knowledge UI action is available to customer service agents with assigned cases in the Resolve or Close state. You can also generate knowledge article information on demand from the panel. For more information, see [Knowledge article generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.md).
+The Create Knowledge UI action is available to customer service agents with assigned cases in the Resolve or Close state. You can also generate knowledge article information on demand from the panel. For more information, see [Knowledge article generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.md).
 
 ## Procedure
 
@@ -61,7 +61,7 @@ The Create Knowledge UI action is available to customer service agents with assi
 
     The **Create Knowledge** UI action is only visible when a case doesn't have an existing knowledge article associated with it.
 
-    For an alternative way to trigger the skill, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
+    For an alternative way to trigger the skill, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
 
 4.  In the Create article modal, select a knowledge base and an article template, if displayed.
 
@@ -101,7 +101,7 @@ The Create Knowledge UI action is available to customer service agents with assi
     **Note:** The icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon is also available for published KB articles.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 

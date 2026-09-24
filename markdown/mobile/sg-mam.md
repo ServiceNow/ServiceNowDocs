@@ -2,7 +2,7 @@
 title: Mobile application management \(MAM\) integration
 description: Use Microsoft Intune or BlackBerry Dynamics to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mam.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -109,5 +109,5 @@ Your branded apps are integrated with the BlackBerry Dynamics SDK to help manage
 
 ## Package and Bundle IDs
 
-To enforce app policies your mobile application management software may require the bundle or package ID associated with the mobile apps. For information on these IDs see [Bundle and Package IDs for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-package-ids.md).
+To enforce app policies your mobile application management software may require the bundle or package ID associated with the mobile apps. For information on these IDs see [Bundle and Package IDs for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-package-ids.md).
 

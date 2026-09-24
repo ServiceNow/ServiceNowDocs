@@ -2,7 +2,7 @@
 title: Creating a role group through the Skills Workspace
 description: Add a new role group in the Skills Workspace to create a category of roles in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/create-new-role-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/create-new-role-group.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -36,15 +36,15 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 5.  Either create your role group manually or by copying data from an existing group.
 
-<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d408310e127">
+<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d408314e127">
 
 Method
 
-</th><th align="left" id="d408310e130">
+</th><th align="left" id="d408314e130">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d408310e136">
+</th></tr></thead><tbody><tr><td id="d408314e136">
 
 **Manually**
 
@@ -55,7 +55,7 @@ Actions
 3.  Select **Save and continue**.
 
 
-</td></tr><tr><td id="d408310e172">
+</td></tr><tr><td id="d408314e172">
 
 **Copy the data from an existing role group**
 
@@ -106,9 +106,9 @@ Actions
 
 ## Result
 
-The new role group is opened in form view starting with the Skills matrix. You can see all the skills and role levels related to the role group. You can add more skills to the role group after it is created if necessary. For more information, see [Add more skills to a role group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/adding-skills-with-skills-matrix.md).
+The new role group is opened in form view starting with the Skills matrix. You can see all the skills and role levels related to the role group. You can add more skills to the role group after it is created if necessary. For more information, see [Add more skills to a role group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/adding-skills-with-skills-matrix.md).
 
-**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/job-architecture-working.md)
+**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/job-architecture-working.md)
 
 **Related topics**  
 

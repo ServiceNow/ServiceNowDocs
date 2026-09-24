@@ -2,7 +2,7 @@
 title: Setup the Customer and Consumer Service Portals
 description: Customize the Customer and Consumer Service Portals to meet your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-csp-csm-portals.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-csp-csm-portals.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -35,5 +35,5 @@ Role required: sp\_admin
 **Related topics**  
 
 
-[Consumer Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/consumer-service-portal-properties.md)
+[Consumer Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/consumer-service-portal-properties.md)
 

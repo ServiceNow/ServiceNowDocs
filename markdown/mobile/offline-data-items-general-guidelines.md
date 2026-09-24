@@ -2,7 +2,7 @@
 title: General guidelines for working with data items in offline mode
 description: When working with data items keep these general guidelines in mind for usability and a good user experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/offline-data-items-general-guidelines.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/offline-data-items-general-guidelines.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-01"
@@ -49,5 +49,5 @@ When working with data items keep these general guidelines in mind for usability
     -   Declarative conditions: Configure simple field-based filters, such as restricting downloads to active records or records of a certain type. For example, open incidents assigned to me.
     -   Scripted conditions: Write logic for advanced rules that provide more flexibility, including querying multiple tables and plugins. For example, urgent work orders updated in the last 48 hours within my region.
 
-**Parent Topic:**[Configure data items in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-offline-data-item.md)
+**Parent Topic:**[Configure data items in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-offline-data-item.md)
 

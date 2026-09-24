@@ -2,7 +2,7 @@
 title: Viewing the Performance Analytics for Configuration Compliance dashboard
 description: You can manage your most important configuration issues and remediate them quickly by viewing the reports on the Configuration Compliance Performance Analytics \(PA\) dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/configuration-compliance-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuration-compliance/configuration-compliance-dashboard.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -40,7 +40,7 @@ To open the dashboard, navigate to **All** &gt; **Configuration Compliance** &gt
 
 **Important:**
 
-Starting with version 14.9 of Configuration Compliance, this dashboard can also be viewed in the Next Experience UI. To view the dashboard in the new UI, navigate to **Workspaces** &gt; **Vulnerability Manager Workspace** and click the **Dashboards** icon. Depending on your role, the default dashboard is displayed. To view other dashboards, click the drop-down next to the dashboard name. For more information, see the [Dashboards in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vr-ws-dashboards.md) and [Dashboards in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/itr-ws-dashboards.md).
+Starting with version 14.9 of Configuration Compliance, this dashboard can also be viewed in the Next Experience UI. To view the dashboard in the new UI, navigate to **Workspaces** &gt; **Vulnerability Manager Workspace** and click the **Dashboards** icon. Depending on your role, the default dashboard is displayed. To view other dashboards, click the drop-down next to the dashboard name. For more information, see the [Dashboards in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vr-ws-dashboards.md) and [Dashboards in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/itr-ws-dashboards.md).
 
 **Note:** If you are on Tokyo, you can view the dashboards in the Next Experience UI but with some functional loss.
 

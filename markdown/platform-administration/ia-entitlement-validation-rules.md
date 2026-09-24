@@ -2,7 +2,7 @@
 title: Entitlement validation rules reference
 description: Technical reference documenting entitlement validation rules, error states, and validation logic for jumbo apps and App Manager integration in product bundle installation workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-entitlement-validation-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-entitlement-validation-rules.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-27"
@@ -61,5 +61,5 @@ For jumbo apps, App Manager determines which apps are optional.
 -   Jumbo app installation workflow: For jumbo app installations, Product Hub redirects administrators to App Manager. App Manager provides the installation experience, including app selection, dependency messaging, and installation validation.
 -   Fallback behavior: If App Manager can't provide the installation experience or validation results, the administrator receives an error message and installation can't continue until the issue is resolved.
 
-**Parent Topic:**[Jumbo apps and entitlement validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-jumbo-apps-valid.md)
+**Parent Topic:**[Jumbo apps and entitlement validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-jumbo-apps-valid.md)
 

@@ -2,7 +2,7 @@
 title: Event registry
 description: The events registry lists the events the system recognizes. Use registered events to automate other activities, such as script actions or notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/c\_EventRegistry.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/system-events/c\_EventRegistry.html
 release: australia
 product: System Events
 classification: system-events
@@ -20,10 +20,10 @@ After you create a new event and a business rule that uses the event, you must r
 
 Registration lets other parts of the system, such as [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md) and Script Actions, see the event in their list of available events and react to the event when it occurs.
 
-**Parent Topic:**[Exploring system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/exploring-system-events.md)
+**Parent Topic:**[Exploring system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/system-events/exploring-system-events.md)
 
 **Related topics**  
 
 
-[Register an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/t_RegisterAnEvent.md)
+[Register an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/system-events/t_RegisterAnEvent.md)
 

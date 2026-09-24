@@ -2,7 +2,7 @@
 title: Customize fields for the approval message
 description: Customize the body message for a request, change, and request item approval sent in Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/customize-approval-message.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/customize-approval-message.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,10 +14,10 @@ breadcrumb: [Outlook Actionable Messages, Survey administration, Use surveys, Su
 
 Customize the body message for a request, change, and request item approval sent in Microsoft Outlook.
 
--   **[Customize fields in the approval message for request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/customize-fields-request.md)**  
+-   **[Customize fields in the approval message for request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/customize-fields-request.md)**  
 Customize the body message for a request and request item sent in Microsoft Outlook.
--   **[Customize fields in the approval message for change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/customize-fields-change.md)**  
+-   **[Customize fields in the approval message for change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/customize-fields-change.md)**  
 Customize the body message for a change request approval sent in Microsoft Outlook.
 
-**Parent Topic:**[Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/outlook-actionable-messages.md)
+**Parent Topic:**[Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/outlook-actionable-messages.md)
 

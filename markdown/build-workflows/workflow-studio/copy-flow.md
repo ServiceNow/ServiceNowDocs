@@ -2,7 +2,7 @@
 title: Copy a flow
 description: Copy a flow to give it a new name and move it to another application scope.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/copy-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/copy-flow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -53,5 +53,5 @@ You can't copy flows that have a protection policy. You must have write access t
 
 Workflow Studio opens the new flow.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow.md)
 

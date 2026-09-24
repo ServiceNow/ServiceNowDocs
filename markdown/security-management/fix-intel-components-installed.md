@@ -2,7 +2,7 @@
 title: Components installed with Fix Intelligence for Security Exposure Management
 description: Activating the Fix Intelligence for Security Exposure Management plugin \(sn\_vul\_fix\) installs the following tables, role, scripts, automation, and integration components.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/fix-intel-components-installed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/fix-intel-components-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-29"
@@ -37,10 +37,10 @@ The plugin also adds a read-only `fix_intel` reference column to the Vulnerabili
 -   A scheduled job that bootstraps the Fix Intelligence for SEM dashboard widgets and then disables itself.
 -   The **Fix Intelligence Connection** connection alias and outbound REST message, which ServiceNow Support configures.
 
-**Parent Topic:**[Fix Intelligence for SEM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/fix-intel-reference.md)
+**Parent Topic:**[Fix Intelligence for SEM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-reference.md)
 
 **Related topics**  
 
 
-[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-components-installed.md)
+[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-components-installed.md)
 

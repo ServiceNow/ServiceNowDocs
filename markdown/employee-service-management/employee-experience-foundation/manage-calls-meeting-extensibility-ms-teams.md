@@ -2,7 +2,7 @@
 title: Manage calls using Meeting Extensions
 description: Use Meeting Extensions to start conference calls to discuss the resolution for a major incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/manage-calls-meeting-extensibility-ms-teams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/manage-calls-meeting-extensibility-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -99,5 +99,5 @@ Role required: itil, itil\_admin, or admin
     The state is updated in the Microsoft Teams meeting.
 
 
-**Parent Topic:**[Use Microsoft Teams Meeting Extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c-agent-ex-use-meet-ext.md)
+**Parent Topic:**[Use Microsoft Teams Meeting Extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/c-agent-ex-use-meet-ext.md)
 

@@ -2,7 +2,7 @@
 title: FormInfoHeader - Global
 description: The FormInfoHeader script include provides methods to add an HTML message as a form info message.Adds an HTML message to the form header, where form info messages are displayed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_FormInfoHeaderAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_FormInfoHeaderAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -18,7 +18,7 @@ The FormInfoHeader script include provides methods to add an HTML message as a f
 
 The addMessage\(\) method is commonly used in record producers.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## FormInfoHeader - addMessage\(String message\)
 

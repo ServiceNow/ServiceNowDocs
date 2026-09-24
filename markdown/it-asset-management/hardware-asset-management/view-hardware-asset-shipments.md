@@ -2,7 +2,7 @@
 title: View hardware asset shipment details
 description: View all hardware asset shipment details in a single place in the Hardware Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-hardware-asset-shipments.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/view-hardware-asset-shipments.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -22,7 +22,7 @@ Role required: inventory\_user \(read\) or inventory\_admin
 
 ## About this task
 
-The Shipment list shows all the shipment records initiated by the shipment tasks of various flows. For details, see [Task closures that create shipment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/shipment-record-sources.md).
+The Shipment list shows all the shipment records initiated by the shipment tasks of various flows. For details, see [Task closures that create shipment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/shipment-record-sources.md).
 
 A shipment record is created automatically whenever a shipment task of a flow or process is closed.
 
@@ -180,7 +180,7 @@ Option that indicates whether the shipment record is stale. This option is read-
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 

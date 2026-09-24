@@ -2,7 +2,7 @@
 title: View all cases from the Consumer Portal
 description: View all cases submitted from the Consumer Portal, including case details, agent conversations, and current status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-all-cases-on-consumer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-all-cases-on-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ Selecting a case opens a form with the following sections:
 **Related topics**  
 
 
-[View cases and tasks from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-on-consumer-portal.md)
+[View cases and tasks from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-cases-on-consumer-portal.md)
 
-[Accept or reject a case solution from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resolve-cases-on-consumer-portal.md)
+[Accept or reject a case solution from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/resolve-cases-on-consumer-portal.md)
 

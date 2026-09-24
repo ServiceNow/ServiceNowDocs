@@ -2,7 +2,7 @@
 title: Data mapping for Service Graph Connector for Observability - Dynatrace
 description: Data from the Dynatrace data sources is mapped and transformed into the ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-data-mapping-dynatrace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-data-mapping-dynatrace.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -20,7 +20,7 @@ When you complete setting up the connection, you can configure the integration t
 
 **Important:** The Service Graph Connector for Observability - Dynatrace supports Dynatrace Classic \(v1/v2 APIs\) and is intended for Dynatrace managed \(self‑hosted\) or legacy SaaS environments. If you're using or upgrading to the latest Dynatrace 3rd-generation SaaS platform, you should use the new Service Graph Connector for Observability - Dynatrace SaaS.
 
-For more information on where data is saved when pulling data from Dynatrace, see [CMDB classes targeted in Service Graph Connector for Observability - Dynatrace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md).
+For more information on where data is saved when pulling data from Dynatrace, see [CMDB classes targeted in Service Graph Connector for Observability - Dynatrace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md).
 
 The following table lists the data sources, the staging tables, and the target tables as CMDB CI classes for Service Graph Connector for Observability - Dynatrace.
 
@@ -58,18 +58,18 @@ SGO-Dynatrace Hosts \[sn\_dynatrace\_integ\_sg\_dynatrace\_hosts\]
 
 </td><td>
 
-[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[IP Address \[cmdb\_ci\_ip\_address\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[IP Address \[cmdb\_ci\_ip\_address\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Serial Number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Serial Number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 When the Software Asset Management \(SAM\) application isn't installed:
 
--   [Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
--   [Software Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+-   [Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+-   [Software Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-When the SAM application is installed: [Software Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+When the SAM application is installed: [Software Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 **Note:** Only the operating system data is stored in the Software Packages, Software Instance, and Software Installation CI classes.
 
@@ -93,7 +93,7 @@ SGO-Dynatrace Processes \[sn\_dynatrace\_integ\_sg\_dynatrace\_processes\]
 
 The target table is populated using Application Dependency Mapping \(ADM\). The ADM adapter analyzes the imported data and command-line arguments, identifies the appropriate table based on the conditions included in Discovery Process Classifications list, and inserts the data into the table, which extends the Application \[cmdb\_ci\_appl\] table. To learn about process classification, see [Discovery classifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-classifiers.md).
 
- **Note:** The addition of unclassified processes to the Application \[cmdb\_ci\_appl\] table depends on the value of the **sn\_dynatrace\_integ.createUnmatchedApplicationCIs** system property. For more information, see [Service Graph Connector for Observability - Dynatrace properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-dynatrace-props.md).
+ **Note:** The addition of unclassified processes to the Application \[cmdb\_ci\_appl\] table depends on the value of the **sn\_dynatrace\_integ.createUnmatchedApplicationCIs** system property. For more information, see [Service Graph Connector for Observability - Dynatrace properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-dynatrace-props.md).
 
 </td><td>
 
@@ -113,7 +113,7 @@ SGO-Dynatrace Process Groups \[sn\_dynatrace\_integ\_sg\_dynatrace\_process\_gro
 
 </td><td>
 
-[Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -135,15 +135,15 @@ SGO-Dynatrace Services \[sn\_dynatrace\_integ\_sg\_dynatrace\_services\]
 
 </td><td>
 
-[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -165,7 +165,7 @@ SGO-Dynatrace Applications \[sn\_dynatrace\_integ\_sg\_dynatrace\_applications\]
 
 </td><td>
 
-[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -187,7 +187,7 @@ SGO-Dynatrace Application Relationships \[sn\_dynatrace\_integ\_sg\_dynatrace\_a
 
 </td><td>
 
-[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -207,7 +207,7 @@ SGO-Dynatrace AWS Application Network LB \[sn\_dynatrace\_integ\_sgo\_dynatrace\
 
 </td><td>
 
-[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -227,7 +227,7 @@ SGO-Dynatrace AWS Availability Zone \[sn\_dynatrace\_integ\_sgo\_dynatrace\_aws\
 
 </td><td>
 
-[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Availability Zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Availability Zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -247,15 +247,15 @@ SGO-Dynatrace AWS EC2 Instance \[sn\_dynatrace\_integ\_sg\_dynatrace\_aws\_ec2\_
 
 </td><td>
 
-[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Cloud Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -275,7 +275,7 @@ SGO-Dynatrace AWS Elastic Loadbalancer \[sn\_dynatrace\_integ\_sgo\_dynatrace\_a
 
 </td><td>
 
-[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -295,7 +295,7 @@ SGO-Dynatrace AWS Service Account \[sn\_dynatrace\_integ\_sgo\_dynatrace\_aws\_s
 
 </td><td>
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -315,9 +315,9 @@ SGO-Dynatrace Azure Load Balancer \[sn\_dynatrace\_integ\_sgo\_dynatrace\_azure\
 
 </td><td>
 
-[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Cloud LB IPAddress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Cloud LB IPAddress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -337,7 +337,7 @@ SGO-Dynatrace Azure Region \[sn\_dynatrace\_integ\_sgo\_dynatrace\_azure\_region
 
 </td><td>
 
-[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -357,7 +357,7 @@ SGO-Dynatrace Azure Storage Accounts \[sn\_dynatrace\_integ\_sgo\_dynatrace\_azu
 
 </td><td>
 
-[Cloud Storage Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Storage Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -377,7 +377,7 @@ SGO-Dynatrace Azure Storage Accounts v2 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_
 
 </td><td>
 
-[Cloud Storage Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Storage Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -397,7 +397,7 @@ SGO-Dynatrace Azure Subscriptions \[sn\_dynatrace\_integ\_sg\_dynatrace\_azure\_
 
 </td><td>
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -417,7 +417,7 @@ SGO-Dynatrace Azure VM \[sn\_dynatrace\_integ\_sgo\_dynatrace\_azure\_vm\]
 
 </td><td>
 
-[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -437,11 +437,11 @@ SGO-Dynatrace Docker Container \[sn\_dynatrace\_integ\_sgo\_dynatrace\_docker\_c
 
 </td><td>
 
-[Docker Container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Docker Container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Docker Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Docker Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Computer \[cmdb\_ci\_computer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Computer \[cmdb\_ci\_computer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -461,7 +461,7 @@ SGO-Dynatrace Kubernetes Cluster \[sn\_dynatrace\_integ\_sgo\_dynatrace\_kuberne
 
 </td><td>
 
-[Kubernetes Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Kubernetes Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -481,7 +481,7 @@ SGO-Dynatrace Kubernetes Namespace \[sn\_dynatrace\_integ\_sgo\_dynatrace\_kuber
 
 </td><td>
 
-[Kubernetes Namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Kubernetes Namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -501,7 +501,7 @@ SGO-Dynatrace Kubernetes Node \[sn\_dynatrace\_integ\_sgo\_dynatrace\_kubernetes
 
 </td><td>
 
-[Kubernetes Node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Kubernetes Node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -521,7 +521,7 @@ SGO-Dynatrace Kubernetes Pod \[sn\_dynatrace\_integ\_sgo\_dynatrace\_kubernetes\
 
 </td><td>
 
-[Kubernetes Pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Kubernetes Pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -541,7 +541,7 @@ SGO-Dynatrace Kubernetes Service \[sn\_dynatrace\_integ\_sgo\_dynatrace\_kuberne
 
 </td><td>
 
-[Kubernetes Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Kubernetes Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -561,11 +561,11 @@ SGO-Dynatrace Azure Cosmos DB v1 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_azure\_
 
 </td><td>
 
-[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -585,11 +585,11 @@ SGO-Dynatrace Azure Cosmos DB V2 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_azure\_
 
 </td><td>
 
-[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -609,9 +609,9 @@ SGO-Dynatrace Azure SQL Server V2 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_azure\
 
 </td><td>
 
-[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -633,11 +633,11 @@ SGO-Dynatrace Azure Function App \[sn\_dynatrace\_integ\_sgo\_dynatrace\_azure\_
 
 </td><td>
 
-[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -657,11 +657,11 @@ SGO-Dynatrace Azure Scale Sets VM \[sn\_dynatrace\_integ\_sgo\_dynatrace\_azure\
 
 </td><td>
 
-[Instance Scale Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Instance Scale Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -681,9 +681,9 @@ SGO-Dynatrace AWS RDS V1 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_aws\_rds\_v1\]
 
 </td><td>
 
-[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -703,9 +703,9 @@ SGO-Dynatrace AWS RDS V2 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_aws\_rds\_v2\]
 
 </td><td>
 
-[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -725,9 +725,9 @@ SGO-Dynatrace AWS Dynamo DB v1 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_aws\_dyna
 
 </td><td>
 
-[DynamoDB Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[DynamoDB Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -747,9 +747,9 @@ SGO-Dynatrace AWS Dynamo DB v2 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_aws\_dyna
 
 </td><td>
 
-[DynamoDB Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[DynamoDB Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -769,9 +769,9 @@ SGO-Dynatrace AWS Lambda Func V1 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_aws\_la
 
 </td><td>
 
-[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -791,9 +791,9 @@ SGO-Dynatrace AWS Lambda Func V2 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_aws\_la
 
 </td><td>
 
-[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[Azure Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -813,9 +813,9 @@ SGO-Dynatrace AWS S3 Bucket V2 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_aws\_s3\_
 
 </td><td>
 
-[Cloud Object Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Object Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -835,9 +835,9 @@ SGO-Dynatrace Custom Applications \[sn\_dynatrace\_integ\_sgo\_dynatrace\_custom
 
 </td><td>
 
-[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)Configuration Item \[cmdb\_ci\]
+[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)Configuration Item \[cmdb\_ci\]
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
@@ -857,14 +857,14 @@ SGO-Dynatrace AWS Auto Scaling Group V1 \[sn\_dynatrace\_integ\_sgo\_dynatrace\_
 
 </td><td>
 
-[Cloud Resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Cloud Resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
+[Key value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
 </td><td>
 
 AUTO\_SCALING\_GROUP
 
 </td></tr></tbody>
-</table>You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
+</table>You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 

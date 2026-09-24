@@ -2,7 +2,7 @@
 title: Standard remote tables for Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) accesses several standard remote tables for ERP models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpi-standard-remote-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpi-standard-remote-tables.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

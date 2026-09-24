@@ -2,7 +2,7 @@
 title: Case and account escalation
 description: Use the escalation feature to highlight specific cases or accounts and raise awareness of important customer issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-case-escalation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-service-case-escalation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Escalating a case or an account provides the following benefits:
 -   Facilitates communication about that issue.
 -   Provides a way to track progress toward a resolution.
 
-Users with the escalation requester role can [escalate a case or an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/escalate-csm-case.md) by selecting the **Escalate Case** related link on the case or account form.
+Users with the escalation requester role can [escalate a case or an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/escalate-csm-case.md) by selecting the **Escalate Case** related link on the case or account form.
 
 ## Case and account escalation differences
 
@@ -29,7 +29,7 @@ While the escalation process is similar for cases and accounts, there are some i
 -   Case escalations: A customer service agent typically manages a case escalation and works directly with the escalated case to resolve the issue.
 -   Account escalations: An escalation manager typically manages an account escalation, which can include multiple associated cases, and records details in the escalation record.
 
-For more information, see [Case and account escalation differences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-account-escalation-differences.md).
+For more information, see [Case and account escalation differences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/case-account-escalation-differences.md).
 
 ## Configuring case and account escalation
 
@@ -37,9 +37,9 @@ The following table includes an overview of case and account escalation configur
 
 |Task|Description|
 |----|-----------|
-|[Configure escalation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-escalation-management.md)|Configure case and account escalation using Customer Service Management guided setup.|
-|[Create a case or account escalation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-escalation-template.md)|Escalation templates determine how an escalation request is processed, including the type of escalation and an optional approval process.|
-|[Create a case or account escalation severity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-escalation-severity.md)|Create definitions for different levels of escalation severity and select color indicators to highlight escalated cases and accounts in the user interface.|
+|[Configure escalation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-escalation-management.md)|Configure case and account escalation using Customer Service Management guided setup.|
+|[Create a case or account escalation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-escalation-template.md)|Escalation templates determine how an escalation request is processed, including the type of escalation and an optional approval process.|
+|[Create a case or account escalation severity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-escalation-severity.md)|Create definitions for different levels of escalation severity and select color indicators to highlight escalated cases and accounts in the user interface.|
 
 ## Using case and account escalation
 
@@ -55,7 +55,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Escalate a case or an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/escalate-csm-case.md)
+[Escalate a case or an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/escalate-csm-case.md)
 
 </td><td>
 
@@ -63,7 +63,7 @@ Escalate cases or accounts, either on behalf of customers or for internal purpos
 
 </td></tr><tr><td>
 
-[Manage an escalated case or account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-escalated-case-account.md)
+[Manage an escalated case or account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/manage-escalated-case-account.md)
 
 </td><td>
 
@@ -74,7 +74,7 @@ Manage a case or account through the escalation process using the escalation rec
 
 </td></tr><tr><td>
 
-[De-escalate a case or an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/de-escalate-csm-case.md)
+[De-escalate a case or an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/de-escalate-csm-case.md)
 
 </td><td>
 

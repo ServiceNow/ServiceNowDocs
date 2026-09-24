@@ -2,7 +2,7 @@
 title: Manage task plan template access from the workspace
 description: Remove access entries for a task plan template to control who can view or use it in the Task Plan Templates workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-access-to-a-task-plan-template-from-the-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/manage-access-to-a-task-plan-template-from-the-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-05-26"
@@ -48,7 +48,7 @@ The Manage access view displays all existing access entries for a template. Acce
 **Related topics**  
 
 
-[Share a task plan template with other users or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/share-task-plan-template-with-user-groups-serviceorg.md)
+[Share a task plan template with other users or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/share-task-plan-template-with-user-groups-serviceorg.md)
 
-[Notify users when a task plan template is shared](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/notify-users-when-taskplan-template-is-shared.md)
+[Notify users when a task plan template is shared](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/notify-users-when-taskplan-template-is-shared.md)
 

@@ -2,7 +2,7 @@
 title: JSON Builder step
 description: Create a JSON payload to use in another step. Enter values or use data pills to produce a dynamic payload. This step supports several data types, including objects and arrays for nested structures.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/json-build-step-action-designer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/json-build-step-action-designer.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -94,7 +94,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
     Data type: **String**
 
-    JSON payload as a string. If you want to use the payload as an object, you can use the [JSON parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/json-parser-step-action-designer.md) to parse the string.
+    JSON payload as a string. If you want to use the payload as an object, you can use the [JSON parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/json-parser-step-action-designer.md) to parse the string.
 
 -   **Step Status**
 

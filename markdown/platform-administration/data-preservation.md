@@ -2,7 +2,7 @@
 title: Preserving data from target instances during clones
 description: You can use data preservers to protect data on the target instance from being overwritten. If you have custom applications, you must also manually preserve unpublished application content.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/data-preservation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/data-preservation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

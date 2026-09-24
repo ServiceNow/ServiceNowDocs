@@ -2,7 +2,7 @@
 title: Assess RPO impact of technology assets on the business
 description: Use the RPO impact assessment tab to enter asset information. The information can be critical from the objective of its recovery, the data value of the asset, and the frequency at which the data changes in the asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/RPO-asset-impact-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/RPO-asset-impact-assessment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Not all elements require data backup, however technology assets like IT hardware
 
 5.  To assess a BIA of its recovery point objective, click the **RPO Impact Assessment** tab.
 
-    The **RPO Impact Assessment** tab appears only if you, as a BCM administrator, had set the **Requires data backup** field as **Yes** in the [Configure element definitions for Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-element-definitions.md).
+    The **RPO Impact Assessment** tab appears only if you, as a BCM administrator, had set the **Requires data backup** field as **Yes** in the [Configure element definitions for Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-element-definitions.md).
 
 6.  Enter the data value of the asset in terms of its RPO impact on the business in the **Response** cell of the Data Value grid.
 

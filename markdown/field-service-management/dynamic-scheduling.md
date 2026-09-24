@@ -2,7 +2,7 @@
 title: Dynamic scheduling
 description: Dynamic Scheduling is an advanced and flexible mechanism to manage work tasks for field agents. It makes scheduling easier and lets dispatchers handle exceptions and changes effectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/dynamic-scheduling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/dynamic-scheduling.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -54,7 +54,7 @@ Reservation rules help allocate a specific percentage of capacity for different 
 **Related topics**  
 
 
-[Configuring Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/Configure-dynamic-scheduling.md)
+[Configuring Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/Configure-dynamic-scheduling.md)
 
-[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
+[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
 

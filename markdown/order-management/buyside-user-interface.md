@@ -2,7 +2,7 @@
 title: Buyside user interface
 description: The configurator buyside user interface is a modern, intuitive platform designed to simplify the configuration of complex products and services. Integrated with Salesforce CPQ and other enterprise systems, it enables users to create, manage, and visualize detailed product configurations, ensuring accuracy and efficiency throughout the sales and fulfillment process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/buyside-user-interface.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/buyside-user-interface.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -72,5 +72,5 @@ Jack, a sales representative, receives a request from a SaaS customer for a tail
 **Related topics**  
 
 
-[The CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/understand-the-commerce-logic-engine.md)
+[The CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/understand-the-commerce-logic-engine.md)
 

@@ -2,7 +2,7 @@
 title: Re-evaluate license distribution by executing RPA scripts
 description: Run the Robotic Process Automation \(RPA\) script on demand to validate and unlock the robots in a domain and its child domains.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/execute-rpa-script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/execute-rpa-script.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Run the Robotic Process Automation \(RPA\) script on demand to validate and unlo
 
 ## Before you begin
 
-Familiarise with license distribution in RPA Hub concepts. For more information, see [Robot license distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/license-rpa-hub.md).
+Familiarise with license distribution in RPA Hub concepts. For more information, see [Robot license distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/license-rpa-hub.md).
 
 To unlock the robots in a domain, ensure that the license entitlement and consumption is compliant.
 

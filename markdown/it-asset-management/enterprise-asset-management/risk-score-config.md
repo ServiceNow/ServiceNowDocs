@@ -2,7 +2,7 @@
 title: Create configuration values for risk scores
 description: Use the Risk Score module to create configuration values for risk score bands.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/risk-score-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/risk-score-config.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -88,5 +88,5 @@ Color depicting a risk score band. Following are the values to choose from:-   G
     To edit the records, select **Unfreeze**.
 
 
-**Parent Topic:**[Managing risk in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
+**Parent Topic:**[Managing risk in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 

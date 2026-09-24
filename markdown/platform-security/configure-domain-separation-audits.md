@@ -2,7 +2,7 @@
 title: Configure audits
 description: Configure whether an audit is active and how frequently it runs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-domain-separation-audits.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configure-domain-separation-audits.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

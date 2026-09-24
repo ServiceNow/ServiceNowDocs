@@ -2,7 +2,7 @@
 title: AI portfolio tab in AI Control Tower
 description: The AI portfolio tab in the AI Control Tower home page displays all AI assets, which includes \(active, inactive, and completed\) to the workspace users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-portfolio-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-portfolio-tab.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

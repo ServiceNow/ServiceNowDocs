@@ -2,7 +2,7 @@
 title: Import a Word document to a knowledge base
 description: Import a Word document to create a knowledge article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/import-word-platform.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/import-word-platform.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -52,7 +52,7 @@ These styles and elements are preserved when importing a .doc or .docx file into
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 ## Procedure
 
@@ -83,10 +83,10 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
     -   If the **Publish** check box is activated, knowledge articles go into **Review** or **Published** state, depending on the workflow attached to the knowledge base.
     -   If the **Publish** check box is not activated, the knowledge articles go into **Draft** state and are then reviewed before publishing.
 
-**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/using-knowledge-management.md)
 
 **Related topics**  
 
 
-[Import a Word document to a knowledge base using Knowledge Management V3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_ImportADocument.md)
+[Import a Word document to a knowledge base using Knowledge Management V3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_ImportADocument.md)
 

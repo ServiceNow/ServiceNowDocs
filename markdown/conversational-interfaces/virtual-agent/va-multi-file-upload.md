@@ -2,7 +2,7 @@
 title: Multi File Upload utility
 description: Use the Multi File Upload utility to upload more than one file at a time in a Virtual Agent conversation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-multi-file-upload.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-multi-file-upload.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -133,5 +133,5 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 \[Omitted image "flow-designer-multi-file-upload-properties.png"\] Alt text: Multi File Upload utility properties.
 
-**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-utilities.md)
 

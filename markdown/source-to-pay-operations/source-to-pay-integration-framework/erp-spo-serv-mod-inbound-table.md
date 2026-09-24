@@ -2,7 +2,7 @@
 title: CMDB Service Model Stage inbound staging table
 description: The CMDB Service Model Stage inbound \[sn\_fcms\_intg\_cmdb\_service\_model\_stage\] staging table temporarily stores important data about service models before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-serv-mod-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/erp-spo-serv-mod-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

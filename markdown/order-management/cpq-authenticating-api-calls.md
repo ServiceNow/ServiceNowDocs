@@ -2,7 +2,7 @@
 title: Authenticating CPQ API calls
 description: Secure CPQ API calls with admin API keys, JWT tokens, session cookies, or Google IdP for runtime and Admin tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-authenticating-api-calls.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-authenticating-api-calls.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ When using CPQ in a headless manner, you authenticate your configuration session
 
 \[Omitted image "cpq-edit-runtime-client-dialog.png"\] Alt text: Edit Run time client
 
-For more information on CPQ runtime calls, see [Intro to runtime API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/intro_to_runtime_api_calls.md).
+For more information on CPQ runtime calls, see [Intro to runtime API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/intro_to_runtime_api_calls.md).
 
 ## Authenticating admin API calls
 
@@ -38,7 +38,7 @@ There are four ways to authenticate your admin API calls:
 
     To ensure tighter security for long-term admin API authentication, we leverage the Salesforce JWT web token. For steps to initialize this access flow, see:
 
-    [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md)
+    [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/admin-apis-authentication-via-salesforce-connected-app.md)
 
 -   Session cookies
 

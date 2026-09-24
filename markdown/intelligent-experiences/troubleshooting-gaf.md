@@ -2,7 +2,7 @@
 title: Troubleshooting Group Action Framework
 description: Troubleshoot common errors associated with configuring GAF, such as failed action strategy job trigger or the scheduled job failing to execute.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/troubleshooting-gaf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/troubleshooting-gaf.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-16"

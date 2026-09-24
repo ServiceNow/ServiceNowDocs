@@ -2,7 +2,7 @@
 title: Plan work items into sprints in CWM
 description: Schedule stories and other CWM tasks from the backlog into sprints or move work across sprints in Collaborative Work Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -39,14 +39,14 @@ Role required: admin
     Here's a gif showing the drag and drop action between the backlog and sprint sections, and across sprints.\[Omitted image "cwm-schedule-items-into-sprints.gif"\] Alt text: Drag and drop work items from backlog to sprint and from one sprint to another.
 
 
-**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
+**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 
 **Related topics**  
 
 
-[Start or complete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/start-a-sprint-in-cwm.md)
+[Start or complete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/start-a-sprint-in-cwm.md)
 
-[Create work items for sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-work-items-for-sprints-in-cwm.md)
+[Create work items for sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-work-items-for-sprints-in-cwm.md)
 
-[Update sprint details in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/modify-sprint-details-in-cwm.md)
+[Update sprint details in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/modify-sprint-details-in-cwm.md)
 

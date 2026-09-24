@@ -2,7 +2,7 @@
 title: Modifications in the delivery screen
 description: In the final checkout step, a summary screen provides a list of all items and services ordered.After you enable the two-step checkout process, the Requested for field appears on the Request form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ModifyTheDeliveryScreen.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/c\_ModifyTheDeliveryScreen.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -20,7 +20,7 @@ In the final checkout step, a summary screen provides a list of all items and se
 
 \[Omitted image "CatalogOrderSummaryStatus.png"\] Alt text: Summary of ordered items and link to the request
 
-**Parent Topic:**[Legacy flexible checkout and delivery forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_FlexibleCheckoutAndDeliveryForms.md)
+**Parent Topic:**[Legacy flexible checkout and delivery forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_FlexibleCheckoutAndDeliveryForms.md)
 
 ## Requester search results
 

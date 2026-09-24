@@ -2,7 +2,7 @@
 title: Configure RFC in SAP Solution Manager
 description: As part of enabling communication with Event Management, you must create a Remote Function Call \(RFC\) in the SAP Solution Manager and install a transport.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-sap-solution-mgr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/configure-sap-solution-mgr.html
 release: australia
 product: Event Management
 classification: event-management
@@ -49,5 +49,5 @@ Download the following .psm files and import them into the SAP Solution Manager 
     \[Omitted image "sap-solman-workbench-transport-request.png"\] Alt text: Workbench transport request
 
 
-**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-solman-configurations.md)
+**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/sap-solman-configurations.md)
 

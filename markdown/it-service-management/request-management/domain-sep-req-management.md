@@ -2,7 +2,7 @@
 title: Domain separation in Request Management
 description: This is an overview of domain separation in Request Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/domain-sep-req-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/request-management/domain-sep-req-management.html
 release: australia
 product: Request Management
 classification: request-management
@@ -48,7 +48,7 @@ Fulfillers see only requests, requested items, and catalog tasks that have been 
 -   A fulfiller belonging to a specific domain can create requests only on behalf of the domains that they have access to.
 -   If a user has access to multiple domains, the domain specified on the current record drives the functionality of that record and reference fields.
 
-**Parent Topic:**[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-management-reference.md)
+**Parent Topic:**[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-management/request-management-reference.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: CSM Walk-up Experience customer satisfaction surveys
 description: With Walk-up Experience surveys, you can rate your satisfaction with walk-up location interactions, providing management with feedback to improve the walk-up experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-survey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-survey.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

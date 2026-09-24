@@ -2,7 +2,7 @@
 title: Assign subflow outputs flow logic
 description: Specify the data the subflow returns when it completes running. Use subflow output as data for a parent flow or as input for another process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-assign-subflow-outputs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-logic-assign-subflow-outputs.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -16,7 +16,7 @@ breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows
 
 Specify the data the subflow returns when it completes running. Use subflow output as data for a parent flow or as input for another process.
 
-**Important:** This flow logic sets values for flow outputs that have already been created. For instructions on creating flow outputs, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+**Important:** This flow logic sets values for flow outputs that have already been created. For instructions on creating flow outputs, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/subflows.md).
 
 ## Inputs
 
@@ -64,7 +64,7 @@ Follow these design considerations when assign output values from a subflow.
     Subflow outputs are intended to be static values generated at the completion of the subflow. Loops do not have access to subflow output values while the subflow is running. Assigning subflow output values within a loop can produce unexpected results such as the loop only receiving the last value set. If you need to generate dynamic values that change within a For each or Do until loop, use flow variables instead.
 
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

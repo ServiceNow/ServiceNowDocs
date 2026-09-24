@@ -2,7 +2,7 @@
 title: Calculating RTO and RPO
 description: The BCM application provides an assessment questionnaire for calculating the recovery time objective \(RTO\) and recovery point objective \(RPO\) in the business impact analysis \(BIA\). As a pre-requisite to the BIA, BCM administrator defines the impact ratings and sets up the assessment questions. After receiving the responses to the assessment, the BCM application calculates the RTO and RPO.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/rto-rpo-calculation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/rto-rpo-calculation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -185,5 +185,5 @@ If the administrator has set all the impact ratings as tolerable, the value spec
     |1 Month|Non-Essential|
 
 
-**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

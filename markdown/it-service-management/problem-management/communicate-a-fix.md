@@ -2,7 +2,7 @@
 title: Communicate a fix
 description: After you have completed root cause analysis of a problem and have come up with a resolution or fix for that problem, submit change requests to get the problem fixed. Documenting and communicating fix helps user to know the solution to a problem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/communicate-a-fix.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/communicate-a-fix.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -22,7 +22,7 @@ Role required: admin, problem\_admin, problem\_manager or problem\_coordinator
 
 ## About this task
 
-When you communicate a fix, notification is sent to related incidents that a fix is available. The Incident process is designed to use the fix information or to notify the user of the same. For more information on notification, refer [Synchronization between incident and problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/sync-btwn-inci-prob.md).
+When you communicate a fix, notification is sent to related incidents that a fix is available. The Incident process is designed to use the fix information or to notify the user of the same. For more information on notification, refer [Synchronization between incident and problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/sync-btwn-inci-prob.md).
 
 **Note:** The topic applies to Problems where you have activated the Problem Management Best Practice — Madrid \(com.snc.best\_practice.problem.madrid\) plugin.
 
@@ -41,5 +41,5 @@ When you communicate a fix, notification is sent to related incidents that a fix
     The fix information is copied from the **Fix notes** field on the Problem form to the **Additional Comments** field on the Incident form. An email notification is sent to the caller and the user who is assigned to the Incident.
 
 
-**Parent Topic:**[Communicating the outcome of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/communicate-outcome-of-problem.md)
+**Parent Topic:**[Communicating the outcome of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/communicate-outcome-of-problem.md)
 

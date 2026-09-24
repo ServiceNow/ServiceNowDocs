@@ -2,7 +2,7 @@
 title: Manage favorites
 description: Mark the content as your favorites and easily access all your favorites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -55,12 +55,12 @@ You can add the frequently used content to your favorites list. Click the favori
     -   View all favorites​
     -   Sort, browse, and filter the favorite list​
     -   View the favorites in grid and list views
-    **Note:** You can configure user permissions such as **Available for** and **Not Available for**. When the favorited topic is not marked available, the topic isn't visible from **My Favorites** and on the favorites widget. You can see the following message: `You don't have access to <count> of your favorited items`. For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
+    **Note:** You can configure user permissions such as **Available for** and **Not Available for**. When the favorited topic is not marked available, the topic isn't visible from **My Favorites** and on the favorites widget. You can see the following message: `You don't have access to <count> of your favorited items`. For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
 
     For more information, see [Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

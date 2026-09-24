@@ -2,7 +2,7 @@
 title: Generate a certificate
 description: Generate a certificate to use with the Discovery Console for OT or upload your own certificates. This certificate allows the Console to boot up.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/generate-new-certificate-discovery-for-ot.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/generate-new-certificate-discovery-for-ot.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -82,5 +82,5 @@ The bundle contains the Console's Certificate and the web browser certificate. T
 
 A certificate is generated. The Discovery Console for OT reboots.
 
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md)
+**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-ot-discovery-console.md)
 

@@ -2,7 +2,7 @@
 title: Configure DCE Visualizations
 description: Use the DCE Visualizations option to configure data sources, define baselines and targets, and apply aggregation rules. You can also define specific conditions to customize the data displayed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-configure-dce-visual.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-configure-dce-visual.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -105,8 +105,8 @@ You can select:-   Maximize: The higher the target, the better the score. For ex
 
 7.  Specify the Rank for this visualization and select **Submit**.
 
-    Navigate to [View product usage and capability data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-prod-cap-usage.md) to view the configured metrics.
+    Navigate to [View product usage and capability data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-prod-cap-usage.md) to view the configured metrics.
 
-    **Note:** You can use the [Color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) to configure the colors that appear on the charts that appear on the product usage and capability pages.
+    **Note:** You can use the [Color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-color-banding.md) to configure the colors that appear on the charts that appear on the product usage and capability pages.
 
 

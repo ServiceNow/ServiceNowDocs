@@ -2,7 +2,7 @@
 title: Manage a travel request
 description: As a manager or travel approver, you can approve or reject travel requests.Managers or designated travel approvers are responsible for approving employee travel requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-travel-safety/ets-work-travel-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-travel-safety/ets-work-travel-request.html
 release: australia
 product: Employee Travel Safety
 classification: employee-travel-safety
@@ -16,7 +16,7 @@ breadcrumb: [Employee Travel Safety, Safe Workplace, Health and Safety, Employee
 
 As a manager or travel approver, you can approve or reject travel requests.
 
-Before travel requests can be approved, user groups and roles must be set up for managers or travel approvers. For more information, see [Set up travel approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-travel-safety/configure-employee-travel.md).
+Before travel requests can be approved, user groups and roles must be set up for managers or travel approvers. For more information, see [Set up travel approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-travel-safety/configure-employee-travel.md).
 
 There are multiple ways to view requests for travel:
 
@@ -25,7 +25,7 @@ There are multiple ways to view requests for travel:
 -   On the **My Approvals** or **Requests** tabs in the service portal.
 -   From the View Travel Requests list.
 
-**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-travel-safety/employee-travel-safety.md)
+**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-travel-safety/employee-travel-safety.md)
 
 ## Approve or reject travel requests
 

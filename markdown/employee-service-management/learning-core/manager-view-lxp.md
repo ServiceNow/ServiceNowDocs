@@ -2,7 +2,7 @@
 title: Assigned to your team
 description: Track your team learning tasks to streamline their career growth.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/manager-view-lxp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/manager-view-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core

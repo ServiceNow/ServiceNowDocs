@@ -2,7 +2,7 @@
 title: Constrain the assigned to field by role
 description: This example shows how to use JavaScript and a business rule to restrict the incident Assigned to field choices to only the users with the itil\_admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ExJavaScriptLimitAssignedToField.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ExJavaScriptLimitAssignedToField.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

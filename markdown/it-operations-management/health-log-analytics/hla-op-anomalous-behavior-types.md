@@ -2,7 +2,7 @@
 title: Types of anomalous behavior in Health Log Analytics
 description: Anomalous behavior in a CI or a service can indicate an important issue. For example, a spike in the frequency or number of messages of a particular type can indicate a problem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-anomalous-behavior-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-op-anomalous-behavior-types.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics

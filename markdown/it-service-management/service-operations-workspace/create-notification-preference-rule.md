@@ -2,7 +2,7 @@
 title: Create notification preference rule
 description: Define your preferred notification methods and delivery channels for receiving alerts whenever an escalation ticket is raised.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-notification-preference-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-notification-preference-rule.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -50,10 +50,10 @@ Role required: itil, rota\_manager, rota\_admin
 5.  Select **Save**.
 
 
--   **[Edit On-call team preference using Teams menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/oncall-team-preference-tab-in-teams.md)**  
+-   **[Edit On-call team preference using Teams menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/oncall-team-preference-tab-in-teams.md)**  
 Use the **Teams** menu to edit the on-call preferences for a selected team.
--   **[Manage delivery channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/work-on-a-notification-preference-rule-in-sow.md)**  
+-   **[Manage delivery channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-a-notification-preference-rule-in-sow.md)**  
 Add, edit, and delete delivery channels for notification preference rules in Service Operations Workspace.
 
-**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
+**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
 

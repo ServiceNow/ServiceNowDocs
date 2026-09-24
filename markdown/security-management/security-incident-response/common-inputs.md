@@ -2,7 +2,7 @@
 title: Example 2: Common Inputs: Sighting Search
 description: The example below demonstrates the common inputs capability action.Add common run time inputs that apply for all the selected implementations as applicable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/common-inputs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/common-inputs.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -24,7 +24,7 @@ You can perform **Run Sighting Search** related integration capabilities action 
     **Note:** You can also navigate to the **Related Records** tab on the workspace to perform the integrations capabilities action.
 
 
-**Parent Topic:**[Unified Experience examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/unified-expereince-example.md)
+**Parent Topic:**[Unified Experience examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/unified-expereince-example.md)
 
 **Related topics**  
 

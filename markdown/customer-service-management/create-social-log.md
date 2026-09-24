@@ -2,7 +2,7 @@
 title: Create a social media log entry
 description: Users with the customer service manager role can create a social media log entry for a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-social-log.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-social-log.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

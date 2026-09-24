@@ -2,7 +2,7 @@
 title: Enabling and selecting location tracking options
 description: Learn how to enable location tracking for the Mobile Agent and select the location tracking option best suited for your users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/location-tracking-enable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/location-tracking-enable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Learn how to enable location tracking for the Mobile Agent and select the locati
 
 Enable geolocation features on your instance by activating the Geolocation plugin \[com.snc.geolocation\]. The Geolocation plugin gives you access to the manual tracking option. You must purchase a subscription before activating the plugin. For details on plugin activation, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md). For more details, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ServiceNowPlugins.md).
 
-To enable the action-based location tracking option, ensure that you have the Mobile Location Tracking plugin \[com.glide.sg.location.tracking\] installed. For more information about action-based location tracking and its settings, see [Configuring action-based location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-action-config.md).
+To enable the action-based location tracking option, ensure that you have the Mobile Location Tracking plugin \[com.glide.sg.location.tracking\] installed. For more information about action-based location tracking and its settings, see [Configuring action-based location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/location-tracking-action-config.md).
 
 Role required: admin
 
@@ -46,7 +46,7 @@ Behavior in the Mobile Agent
 
 </td><td>
 
-Displays the manual location tracking option to the user.**Note:** Manual location tracking contains configurable properties. For more information, see [Configuring manual location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-manual-config.md).
+Displays the manual location tracking option to the user.**Note:** Manual location tracking contains configurable properties. For more information, see [Configuring manual location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/location-tracking-manual-config.md).
 
  \[Omitted image "location-tracking-manual.png"\] Alt text: Manual tracking option.
 
@@ -56,7 +56,7 @@ Displays the manual location tracking option to the user.**Note:** Manual locati
 
 </td><td>
 
-Displays the action-based location tracking option.**Note:** Action-based location tracking contains configurable properties. For more information, see [Configuring action-based location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-action-config.md).
+Displays the action-based location tracking option.**Note:** Action-based location tracking contains configurable properties. For more information, see [Configuring action-based location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/location-tracking-action-config.md).
 
  \[Omitted image "location-tracking-action.png"\] Alt text: Action-based tracking option.
 
@@ -74,10 +74,10 @@ Displays both the manual and action-based tracking options in the Agent Mobile a
 6.  Right-click in the header and select **Save**.
 
 
--   **[Configuring manual location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-manual-config.md)**  
+-   **[Configuring manual location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/location-tracking-manual-config.md)**  
 Configure manual location tracking system properties to control how location tracking registers the activity of your users, while performing their tasks.
--   **[Configuring action-based location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-action-config.md)**  
+-   **[Configuring action-based location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/location-tracking-action-config.md)**  
 Configure action-based tracking location properties. This tracking option starts and stops tracking based on the actions a user performs.
 
-**Parent Topic:**[Location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-location-tracking.md)
+**Parent Topic:**[Location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-location-tracking.md)
 

@@ -2,7 +2,7 @@
 title: View permissions for a user
 description: Use Access Analyzer to view permissions for a selected user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/view-permissions-for-a-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/view-permissions-for-a-user.html
 release: australia
 product: Access Control
 classification: access-control

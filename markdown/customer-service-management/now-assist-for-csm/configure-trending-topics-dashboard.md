@@ -2,7 +2,7 @@
 title: Configure trending topics dashboard
 description: Configure the trending topic dashboard to identify clusters of related records, visualize their volume and sentiment over time, and use AI-generated insights to resolve issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-trending-topics-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/configure-trending-topics-dashboard.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -80,5 +80,5 @@ Trending topics dashboard is generated from the information that you enter in th
 **Related topics**  
 
 
-[View trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/view-trending-topics-dashboard.md)
+[View trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/view-trending-topics-dashboard.md)
 

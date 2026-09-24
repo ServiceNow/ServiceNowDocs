@@ -2,7 +2,7 @@
 title: Activate knowledge blocks
 description: You can activate knowledge blocks \[com.snc.knowledge\_blocks\] if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/activate-knowledge-blocks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/activate-knowledge-blocks.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -38,7 +38,7 @@ Knowledge Management Advanced\[com.snc.knowledge\_advanced\]
 
 </td><td>
 
-Enables advanced features for Knowledge Management, such as article versioning. For a full list of features, see [activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).**Note:** Knowledge blocks can be used with or without the article versioning feature. To disable the feature, see [Disable the article versioning feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning-disable-property.md).
+Enables advanced features for Knowledge Management, such as article versioning. For a full list of features, see [activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).**Note:** Knowledge blocks can be used with or without the article versioning feature. To disable the feature, see [Disable the article versioning feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/article-versioning-disable-property.md).
 
 </td></tr></tbody>
 </table>## Procedure
@@ -56,5 +56,5 @@ Enables advanced features for Knowledge Management, such as article versioning. 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

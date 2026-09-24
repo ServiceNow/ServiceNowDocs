@@ -2,7 +2,7 @@
 title: Types of Health Log Analytics alerts
 description: Health Log Analytics generates several types of alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -42,6 +42,6 @@ The value in the **Group** column identifies the type of alert as one of the fol
     -   Metadata: The alerts have matching values in log-line metadata. For example, all alerts involve the same host.
     -   Message text: The message text in the log data is similar or identical between alerts.
     -   Trend: The alerts show a similar tendency in values or rates. For example, a particular metric value is increasing in all alerts.
-    **Note:** You can mark an alert as significant. A significant alert is more likely to be included in a Log Analytics group when the associated metric behaves anomalously. For more information, see [Mark an alert as significant in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-make-significant-sow.md).
+    **Note:** You can mark an alert as significant. A significant alert is more likely to be included in a Log Analytics group when the associated metric behaves anomalously. For more information, see [Mark an alert as significant in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-make-significant-sow.md).
 
 

@@ -2,7 +2,7 @@
 title: Schedule an interview in Employee Relations using Agent Workspace for HR Case Management
 description: Use Agent Workspace for HR Case Management to capture a record of an interview.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-interview-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-er-interview-ws.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -66,7 +66,7 @@ Interviewee
 
 </td><td>
 
-Name of the person who you are interviewing.Select the **Lookup using list** icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and search for the person you are interviewing. If no names appear, you can create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
+Name of the person who you are interviewing.Select the **Lookup using list** icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and search for the person you are interviewing. If no names appear, you can create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Scheduling method
 
 The method you are using to schedule the interview. Select **Manual entry** to select the Start and End dates and times of the interview.
 
- If your company uses the integration with Microsoft Outlook Calendar to schedule, select **Calendar**. You can schedule an interview with an interface that syncs with your company's Outlook Calendar. For more information, see [Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-interview-management.md).
+ If your company uses the integration with Microsoft Outlook Calendar to schedule, select **Calendar**. You can schedule an interview with an interface that syncs with your company's Outlook Calendar. For more information, see [Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-interview-management.md).
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ Notes from the interview or you can enter the answers to the questions from the 
 
  Select \[Omitted image "hr-ws-int-temp-icon2.png"\] Alt text: Interview Template icon to see the Insert to notes or Copy to clipboard choices.
 
- Interview templates ensure consistency and efficiency when conducting interviews. For more information, see [Create an interview question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
+ Interview templates ensure consistency and efficiency when conducting interviews. For more information, see [Create an interview question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 </td></tr></tbody>
 </table>8.  Select **Save**.

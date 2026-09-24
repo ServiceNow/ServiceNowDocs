@@ -2,7 +2,7 @@
 title: Roles and access in app development tools
 description: Access to ServiceNow Studio, Creator Studio, and ServiceNow IDE is controlled by the roles and permissions your admin assigns. Update role assignments when you need to change which tools a user can access.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/working-with-roles-and-access.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/working-with-roles-and-access.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -28,7 +28,7 @@ Each development tool available through the experience switcher has specific rol
 
 **Important:** Regardless of your role — including admin and delegated\_developer — if you have a Creator Studio role, you cannot access ServiceNow Studio or ServiceNow IDE.
 
-For more information, see [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/roles-creator-studio.md), [ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-personas-roles.md), and [ServiceNow IDE roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-roles.md).
+For more information, see [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/roles-creator-studio.md), [ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-personas-roles.md), and [ServiceNow IDE roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-roles.md).
 
 ## What are some role assignment examples?
 
@@ -36,7 +36,7 @@ As an admin, you can assign permissions to use ServiceNow Studio, Creator Studio
 
 -   To grant access to ServiceNow Studio and Creator Studio, assign the **delegated\_developer** role. This role provides access to both tools but does not include access to ServiceNow IDE.
 -   To restrict users to Creator Studio only, assign the **sn\_creatorstudio.user** or **sn\_creatorstudio.restricted\_user** role. These roles provide access to Creator Studio but not ServiceNow Studio.
--   To grant access to ServiceNow IDE, the user must have admin permissions or other roles specific to ServiceNow IDE. Users with the **delegated\_developer** role cannot access ServiceNow IDE. For more information, see [ServiceNow IDE roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-roles.md).
+-   To grant access to ServiceNow IDE, the user must have admin permissions or other roles specific to ServiceNow IDE. Users with the **delegated\_developer** role cannot access ServiceNow IDE. For more information, see [ServiceNow IDE roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-roles.md).
 
-**Parent Topic:**[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)
+**Parent Topic:**[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)
 

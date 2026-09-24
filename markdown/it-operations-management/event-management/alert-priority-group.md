@@ -2,7 +2,7 @@
 title: Priority group
 description: For better triage and focus, alerts that have a higher priority are brought to the top of the alert list. This placement brings to your attention those alerts that require you to handle them at a higher priority than other alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-priority-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/alert-priority-group.html
 release: australia
 product: Event Management
 classification: event-management
@@ -16,7 +16,7 @@ breadcrumb: [View alert information, Use, Event Management, ITOM AIOps, IT Opera
 
 For better triage and focus, alerts that have a higher priority are brought to the top of the alert list. This placement brings to your attention those alerts that require you to handle them at a higher priority than other alerts.
 
-The priority group indicates which alerts should be attended to first. Priority is [calculated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-priority.md) for each open alert and then mapped into one of four priority categories.
+The priority group indicates which alerts should be attended to first. Priority is [calculated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-priority.md) for each open alert and then mapped into one of four priority categories.
 
 ## Thresholds
 
@@ -45,10 +45,10 @@ The alert priority group is available in alert lists in the Dashboard, Alert Int
 
 Changes to open alerts trigger the recalculation of the priority and then the alert is again categorized into the relevant priority group. Closed alerts are not considered for alert priority group calculation.
 
-**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
+**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMViewAlert.md)
 
 **Related topics**  
 
 
-[Alert priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-priority.md)
+[Alert priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-priority.md)
 

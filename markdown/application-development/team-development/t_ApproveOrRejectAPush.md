@@ -2,7 +2,7 @@
 title: Approve or reject a push
 description: Code reviewers must approve or reject a push from the Team Development application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_ApproveOrRejectAPush.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/t\_ApproveOrRejectAPush.html
 release: australia
 product: Team Development
 classification: team-development

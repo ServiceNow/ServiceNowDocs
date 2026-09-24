@@ -2,7 +2,7 @@
 title: Disable specific URLs for Connect
 description: Prevent users from accessing certain websites by disabling linking to specific Top-Level Domains \(TLDs\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/hide-TLDs-chat.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/connect/hide-TLDs-chat.html
 release: australia
 product: Connect
 classification: connect

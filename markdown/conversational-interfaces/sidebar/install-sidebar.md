@@ -2,7 +2,7 @@
 title: Installing Sidebar
 description: You can install Sidebar, which is part of the Omni-Experience Standard Feature Set, if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/install-sidebar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/install-sidebar.html
 release: australia
 product: Sidebar
 classification: sidebar

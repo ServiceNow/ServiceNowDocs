@@ -2,7 +2,7 @@
 title: Advanced work assignment for Legal Service Delivery
 description: Use Advanced Work Assignment for Legal Service Delivery feature to automatically assign legal requests to agents from the legal department \(a paralegal staff or lawyer\) based on availability, capacity, and optionally skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-awa-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/lsd-awa-landing.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -24,19 +24,19 @@ To route legal requests using skills, you need to set up Skills Management. For 
 
 <table id="table_p5b_vh5_vbc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Advanced work assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-explore-landing.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Advanced work assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-explore-landing.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure Advanced work assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-configure-landing.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure Advanced work assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-configure-landing.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Advanced work assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-use-landing.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Advanced work assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-use-landing.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-reference-landing.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-reference-landing.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -45,14 +45,14 @@ To route legal requests using skills, you need to set up Skills Management. For 
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 
--   **[Explore Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-explore-landing.md)**  
+-   **[Explore Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-explore-landing.md)**  
 Use the ServiceNow Advanced Work Assignment for Legal Service Delivery feature to automatically assign legal to agents based on availability, capacity, and optionally skills.
--   **[Configure Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-configure-landing.md)**  
+-   **[Configure Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-configure-landing.md)**  
 Configure the Advanced Work Assignment for Legal Service Delivery.
--   **[Use Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-use-landing.md)**  
+-   **[Use Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-use-landing.md)**  
 Use the ServiceNow Advanced Work Assignment for Legal Service Delivery feature to automatically assign legal to agents based on availability, capacity, and skills.
--   **[Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-reference-landing.md)**  
+-   **[Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/lsd-awa-reference-landing.md)**  
 Reference topics provide additional information about components installed, the lists and forms that you use in Advanced Work Assignment for Legal Service Delivery.
 
-**Parent Topic:**[Integration of Legal Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snclc-integrate-lsd-lp.md)
+**Parent Topic:**[Integration of Legal Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snclc-integrate-lsd-lp.md)
 

@@ -2,7 +2,7 @@
 title: Activate Analytics Pack for Contract Management Pro
 description: You can activate the Analytics Pack for Contract Management Pro plugin \(com.sn\_cm\_pa\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-activate-analytics-cmpro-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-activate-analytics-cmpro-plugin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -32,7 +32,7 @@ Role required: admin
 
 Roles and scheduled jobs items are installed with Analytics Pack for Contract Management Pro.
 
-For more information, see [Components installed with Analytics Pack for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-comp-analytics-pack-cmpro.md).
+For more information, see [Components installed with Analytics Pack for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-comp-analytics-pack-cmpro.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ For more information, see [Components installed with Analytics Pack for Contract
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-analytics-pa.md)
+**Parent Topic:**[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-analytics-pa.md)
 

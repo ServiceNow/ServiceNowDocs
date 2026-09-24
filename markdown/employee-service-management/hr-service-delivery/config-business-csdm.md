@@ -2,7 +2,7 @@
 title: Adopt CSDM methodology
 description: Manage services of your business unit in a standardized, structured format as suggested in the Common Service Data Model \(CSDM\) methodology. Ensure that the hierarchy in which you define services is consistent with the hierarchy of other business units.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-business-csdm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/config-business-csdm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,11 +31,11 @@ Customers require a common interface, a single place for monitoring metrics, vie
 
 1.  Create a business or technical service and corresponding service offering records for your business unit.
 
-2.  [Create a service table configuration in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-service-table.md).
+2.  [Create a service table configuration in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-service-table.md).
 
 3.  Map your BU service to CSDM Service or Service Offering.
 
-    For more information, see [Configure CSDM service mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-csdm-ser-map.md).
+    For more information, see [Configure CSDM service mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-csdm-ser-map.md).
 
 4.  Add your business unit logic to populate Service and Service Offering columns in task records or resulting BU records that are created by using the BU service \(For example: HR service use case\).
 

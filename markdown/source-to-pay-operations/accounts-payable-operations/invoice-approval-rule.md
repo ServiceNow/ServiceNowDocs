@@ -2,7 +2,7 @@
 title: Create an approval rule
 description: Create approval rules to ensure that the approval requests are reasonable and fit your organization's budget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,17 +31,17 @@ Role required: admin
 
 3.  On the Approval Rule form, fill in the fields.
 
-    For a description of the field values, see [Approval Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/new-approval-rule-form.md).
+    For a description of the field values, see [Approval Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/new-approval-rule-form.md).
 
 4.  Select **Submit**.
 
 
 ## What to do next
 
-You can also associate approval rules with approval groups and define the sequence to determine when these rules should be triggered. For more information, see [Approval rule grouping and sequencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-sequencing.md).
+You can also associate approval rules with approval groups and define the sequence to determine when these rules should be triggered. For more information, see [Approval rule grouping and sequencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-sequencing.md).
 
--   **[Approval rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule-types.md)**  
+-   **[Approval rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule-types.md)**  
 Reference information for invoice approval rule types, including approval conditions, routing methods, and decision methods.
 
-**Parent Topic:**[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)
+**Parent Topic:**[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)
 

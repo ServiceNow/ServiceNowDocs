@@ -2,7 +2,7 @@
 title: Conduct a health screen for entry
 description: Use a health screen to verify a person's return requirement status to determine whether the person is able to enter the location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/screen-returning-employee.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/screen-returning-employee.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -32,15 +32,15 @@ The following procedure includes the steps your organization might use in settin
 
 1.  Open the QR code scanning or requirement status page based on the type of device that you're using.
 
-<table id="choicetable_bgv_ws5_r2c"><thead><tr><th align="left" id="d89934e92">
+<table id="choicetable_bgv_ws5_r2c"><thead><tr><th align="left" id="d89938e92">
 
 Platform
 
-</th><th align="left" id="d89934e95">
+</th><th align="left" id="d89938e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d89934e101">
+</th></tr></thead><tbody><tr><td id="d89938e101">
 
 **Smartphone or tablet**
 
@@ -48,7 +48,7 @@ Action
 
 From the Now Mobile **Health** screen under the **Health Screening** section, tap **Scan for Entry**.Scan the code that the person presents on their mobile device or on paper. If there is no QR code, enter the user ID in the **User ID** field, for example, `john.smith`.
 
-</td></tr><tr><td id="d89934e131">
+</td></tr><tr><td id="d89938e131">
 
 **Computer**
 
@@ -59,7 +59,7 @@ Navigate to **Employee Health and Safety Status** &gt; **View Employee and Visit
 </td></tr></tbody>
 </table>2.  Review the requirement status to verify that the person is cleared to enter.
 
-    **Note:** Requirements are created in the Employee Readiness Core application. For more information, see [Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-health-safety-status.md).
+    **Note:** Requirements are created in the Employee Readiness Core application. For more information, see [Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/employee-health-safety-status.md).
 
     If the status is **Not cleared** and your organization's policy is to deny entry at this check point, provide the person with the next steps to take based on your organization's policy. Then, assist the next person in line.
 
@@ -67,15 +67,15 @@ Navigate to **Employee Health and Safety Status** &gt; **View Employee and Visit
 
 3.  Perform the health screen.
 
-<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d89934e201">
+<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d89938e201">
 
 Platform
 
-</th><th align="left" id="d89934e204">
+</th><th align="left" id="d89938e204">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d89934e210">
+</th></tr></thead><tbody><tr><td id="d89938e210">
 
 **Smartphone or tablet**
 
@@ -83,7 +83,7 @@ Action
 
 Tap **Health Screen** on the Scan for entry page.
 
-</td></tr><tr><td id="d89934e222">
+</td></tr><tr><td id="d89938e222">
 
 **Computer**
 
@@ -170,5 +170,5 @@ Whether the person is wearing PPE. Values are **Yes** or **No**.
 
 You receive a message that indicates whether to allow the person to enter. If the person does not pass the health screening, provide them with the next steps based on your organization's policy.
 
-**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/employee-health-screening.md)
 

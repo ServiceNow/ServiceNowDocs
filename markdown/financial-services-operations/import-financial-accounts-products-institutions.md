@@ -2,7 +2,7 @@
 title: Import your financial data using import sets
 description: Import your financial accounts, financial products, financial institutions, and financial transactions into ServiceNow Financial Services Operations Core tables. You need this foundation data to make the Financial Services Operations applications work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/import-financial-accounts-products-institutions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/import-financial-accounts-products-institutions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Role required: sn\_bom.admin
 
 5.  [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_CreateATransformMap.md) to define the field mapping between columns of the import set and columns of the target table.
 
-    For information on target tables, see the table topics in [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md).
+    For information on target tables, see the table topics in [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-core-data-model.md).
 
 6.  Transform the data from the import set table to the target table.
 

@@ -2,7 +2,7 @@
 title: Create an impacted asset
 description: Identify an impacted asset that must be replaced or recalled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-impacted-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-impacted-asset.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

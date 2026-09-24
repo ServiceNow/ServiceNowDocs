@@ -2,7 +2,7 @@
 title: Save a CWM Board or Doc as a template
 description: Save a Board or Doc, which you created or personalized, as a template. This lets you reuse the same structure and format for other Boards and Docs in the future.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/save-as-a-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/save-as-a-template.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -18,8 +18,8 @@ Save a Board or Doc, which you created or personalized, as a template. This lets
 
 ## Before you begin
 
--   [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
--   [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
+-   [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
+-   [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
 
 Role required: sn\_cwm.cwm\_user
 
@@ -79,5 +79,5 @@ From the page options, select the Page Actions icon \(\[Omitted image "cwm-icon-
 
 The saved template is added to the Template Center.
 
-**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
+**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 

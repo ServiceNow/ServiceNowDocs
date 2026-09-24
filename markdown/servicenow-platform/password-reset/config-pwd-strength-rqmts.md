@@ -2,7 +2,7 @@
 title: Configure the required strength for passwords
 description: The password that a user defines must meet certain requirements — for example, it must contain at least 12 characters, it must include a numeral, and so on. You can configure the requirements as needed for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/config-pwd-strength-rqmts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/config-pwd-strength-rqmts.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -28,7 +28,7 @@ The base system includes example credential stores with various password require
 -   At least one uppercase and one lower case letter
 -   At least one numeral
 
-**Note:** In addition to configuring password strength requirements, you can configure several other settings for the credential store, as described in [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateACredentialStore.md).
+**Note:** In addition to configuring password strength requirements, you can configure several other settings for the credential store, as described in [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateACredentialStore.md).
 
 ## Procedure
 
@@ -101,7 +101,7 @@ Default settings:-   Selected for local ServiceNow credential stores
     A progress page displays the result of the test.
 
 
-**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 

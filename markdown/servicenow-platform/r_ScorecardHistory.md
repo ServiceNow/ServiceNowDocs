@@ -2,7 +2,7 @@
 title: Scorecard history
 description: The History view compares the current ratings for the categories and their questions with ratings from the previous three years or four quarters..
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_ScorecardHistory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_ScorecardHistory.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Quiz scorecards, View a quiz designer scorecard, View a quiz result
 
 The History view compares the current ratings for the categories and their questions with ratings from the previous three years or four quarters..
 
-Ratings that have declined are highlighted in red and display negative numbers. Ratings that have improved are highlighted in green with positive numbers. Arrow icons beside the values in the **Diff** column indicate the trend of the current ratings against the previous ratings. Ratings are only calculated for [scored questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAScoredQuestion.md) questions.
+Ratings that have declined are highlighted in red and display negative numbers. Ratings that have improved are highlighted in green with positive numbers. Arrow icons beside the values in the **Diff** column indicate the trend of the current ratings against the previous ratings. Ratings are only calculated for [scored questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ConfigureAScoredQuestion.md) questions.
 
 Point to a category to display a line chart that shows the rating trend for that category. Click a category to view the Metric Category form containing the questions.
 
@@ -28,5 +28,5 @@ Point to a category to display a line chart that shows the rating trend for that
 
 \[Omitted image "QuizScorecardHistory4qtr.png"\] Alt text:
 
-**Parent Topic:**[Quiz scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizScorecards.md)
+**Parent Topic:**[Quiz scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_QuizScorecards.md)
 

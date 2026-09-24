@@ -2,7 +2,7 @@
 title: Standard services
 description: Standard services are amenities or basic services that are available with a workplace item by default with their reservation. You can review the standard services associated with a workplace item at the time of creating a reservation request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/standard-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/standard-service.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management

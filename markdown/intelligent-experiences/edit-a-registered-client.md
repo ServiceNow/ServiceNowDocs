@@ -2,7 +2,7 @@
 title: Edit a registered client
 description: Update the configuration of a registered client \(MCP or CIMD\) in an MCP server record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/edit-a-registered-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/edit-a-registered-client.html
 release: australia
 topic_type: task
 last_updated: "2026-08-31"

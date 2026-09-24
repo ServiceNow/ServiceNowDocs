@@ -2,7 +2,7 @@
 title: Set up Emergency Self Report
 description: To set up Emergency Self Report, install the application. Then configure user access, a dedicated knowledge base, and system properties.You can install Emergency Self Report if you have the admin role.Several types of components are installed with Emergency Self Report, including tables and user roles.Configure Emergency Self Report to align with your business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-self-report/set-up-emergency-self-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-self-report/set-up-emergency-self-report.html
 release: australia
 product: Emergency Self Report
 classification: emergency-self-report
@@ -16,7 +16,7 @@ breadcrumb: [Emergency Self Report, Emergency Response Management, Employee Serv
 
 To set up Emergency Self Report, install the application. Then configure user access, a dedicated knowledge base, and system properties.
 
-**Parent Topic:**[Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/emergency-self-report.md)
+**Parent Topic:**[Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-self-report/emergency-self-report.md)
 
 ## Install Emergency Self Report
 

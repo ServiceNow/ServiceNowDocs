@@ -2,7 +2,7 @@
 title: Add a WADL service manually in Zero Copy Connector for ERP
 description: Add an Oracle E-Business Suite \(EBS\) service to a model by supplying its Integrated SOA Gateway alias, when the service you need isn't listed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -23,13 +23,13 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Complete the following before adding a service manually:
 
--   Enable the **sn\_erp\_integration.enableModelModification** property. For more information, see [Install Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/install-erp-integration.md).
--   Create an Oracle EBS connection for the system. For more information, see [Create an Oracle E-Business Suite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-an-oracle-ebs-connection.md).
+-   Enable the **sn\_erp\_integration.enableModelModification** property. For more information, see [Install Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/install-erp-integration.md).
+-   Create an Oracle EBS connection for the system. For more information, see [Create an Oracle E-Business Suite connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-create-an-oracle-ebs-connection.md).
 -   Obtain the Integrated SOA Gateway \(ISG\) alias for the service you want to add. The alias is the identifier Oracle EBS uses for the deployed service.
 
 ## About this task
 
-Services are normally discovered automatically from the ERP system. Add a service manually when discovery doesn't return the service you need. For background on how WADL services are discovered, see [WADL service support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.md).
+Services are normally discovered automatically from the ERP system. Add a service manually when discovery doesn't return the service you need. For background on how WADL services are discovered, see [WADL service support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.md).
 
 ## Procedure
 
@@ -45,7 +45,7 @@ Services are normally discovered automatically from the ERP system. Add a servic
 
 6.  Select an operation.
 
-    If you don't have an operation, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
+    If you don't have an operation, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 7.  Select **Select entity** on the **Manage entities** tab.
 
@@ -84,5 +84,5 @@ The service is added and its entities and fields are generated from the schema d
 
 ## What to do next
 
-Map the generated input and output fields for the operation. For more information, see [Manage input parameters for model operation with a REST entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs-rest.md).
+Map the generated input and output fields for the operation. For more information, see [Manage input parameters for model operation with a REST entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-manage-model-inputs-rest.md).
 

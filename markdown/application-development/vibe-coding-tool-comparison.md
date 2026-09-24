@@ -2,7 +2,7 @@
 title: Tool comparison for agentic development
 description: Compare ServiceNow development tools to select the right approach for your agentic development needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-tool-comparison.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-tool-comparison.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-05"
@@ -92,7 +92,7 @@ Medium
 
 </td><td>
 
-Catalog items, record producers, order guidesFor a list of included generative, development, and summarization skills, see [Agentic app creation with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-code-now-assist-creator.md).
+Catalog items, record producers, order guidesFor a list of included generative, development, and summarization skills, see [Agentic app creation with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-code-now-assist-creator.md).
 
 </td><td>
 

@@ -2,7 +2,7 @@
 title: Set up risk rating scales for scoring
 description: The risk rating scale helps business users better understand risk assessment results. For example, in the default settings, risk scores in the 20 through 39 range indicate high risk, while scores in the 60 through 79 range indicate low risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

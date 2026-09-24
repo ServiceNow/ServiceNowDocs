@@ -2,7 +2,7 @@
 title: Request an approval
 description: Request an approval for the Operational vulnerability record. When you request an approval, the state of the vulnerability is updated to the Pending approval state and then to the Requested state respectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/submit-vul-for-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/submit-vul-for-approval.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -59,5 +59,5 @@ Role required: sn\_oper\_res.manager
 
 ## What to do next
 
-The subsequent step requires the approver to review the email notification, select the approval link from the email, and approve the Operational vulnerability. For more information, see [Approve the operational vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/approve-vul.md).
+The subsequent step requires the approver to review the email notification, select the approval link from the email, and approve the Operational vulnerability. For more information, see [Approve the operational vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/approve-vul.md).
 

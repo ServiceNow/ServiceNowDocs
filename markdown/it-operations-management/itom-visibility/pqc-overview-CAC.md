@@ -2,7 +2,7 @@
 title: Post-quantum cryptography overview
 description: Post-quantum cryptography \(PQC\) represents new encryption algorithms that can strongly resist quantum computer attacks, addressing the urgent need for quantum-resistant security.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/pqc-overview-CAC.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/pqc-overview-CAC.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility

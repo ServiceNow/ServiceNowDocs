@@ -2,7 +2,7 @@
 title: Use filters to specify which nodes should appear on a map
 description: Customize the map to focus on the CIs that you want to work on by filtering out \(hiding\) irrelevant CIs. You can filter by layer count, CI class, relationship type, discovery source, location, and CI ownership.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-configure-filters.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/unified-map-configure-filters.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -46,17 +46,17 @@ When a user applies a shared preset or a user preset, all filter settings are ov
 
     -   A dot appears on the Map filter icon \[Omitted image "icon-um-filter-outline.png"\] to indicate that filters are applied.
     -   To expose filtered CIs and relationships on the map as dimmed view-only images, select the Show filtered items icon \[Omitted image "icon-um-show-hide-filtered-items.png"\].
-    -   You can save filter settings for reuse. For more information, see [Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-manage-preset-filter.md).
+    -   You can save filter settings for reuse. For more information, see [Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-manage-preset-filter.md).
     -   Maps show up to 250 CMDB elements. Remaining elements are truncated and don't appear on the map.
 
 ## What to do next
 
 To apply the home CI's default filter settings, select **Reset filter**.
 
-Admins can save filter settings as a shared preset that all users can apply. For more information, see [Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-manage-preset-filter.md).
+Admins can save filter settings as a shared preset that all users can apply. For more information, see [Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-manage-preset-filter.md).
 
 **Related topics**  
 
 
-[Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-manage-preset-filter.md)
+[Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-manage-preset-filter.md)
 

@@ -2,7 +2,7 @@
 title: Demand form
 description: The demand form information is used to create a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demand-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/demand-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -411,7 +411,7 @@ Rate Model
 
 </td><td>
 
-Rate model assigned to the demand. This setting is used to derive hourly rates for the associated resource assignments and time cards. For more information, see [Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md).**Note:** If the rate model assigned to the demand is changed or removed, the cost fields on the associated resource assignments aren’t recalculated.
+Rate model assigned to the demand. This setting is used to derive hourly rates for the associated resource assignments and time cards. For more information, see [Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/rate-model/rate-model.md).**Note:** If the rate model assigned to the demand is changed or removed, the cost fields on the associated resource assignments aren’t recalculated.
 
 </td></tr><tr><td>
 
@@ -534,7 +534,7 @@ Demand Actual Effort
 Time accrued or spent by a resource while working on a demand or a demand task as derived from the submitted and approved time cards. This field isn’t available on the Demand form by default.
 
 </td></tr></tbody>
-</table>**Note:** If you’re creating a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and the **Demand Currency** view enabled, then the fields in the **Financials** tab differ from the **Default** view. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency fields in demand forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-tables-with-demand-currency-fields.md).
+</table>**Note:** If you’re creating a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and the **Demand Currency** view enabled, then the fields in the **Financials** tab differ from the **Default** view. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency fields in demand forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/demand-tables-with-demand-currency-fields.md).
 
 <table id="table_yqw_vj3_fdc"><thead><tr><th>
 
@@ -582,7 +582,7 @@ Score
 
 </td><td>
 
-The demand score is calculated based on the **risk**, **value**, and **size** attributes in the base system.The value of the **risk**, **value**, and **size** attributes are derived from the assessment metric category results. For more information, see [assessment categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateAnAssessmentCategory.md) and [assessment category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewACategoryResult.md).
+The demand score is calculated based on the **risk**, **value**, and **size** attributes in the base system.The value of the **risk**, **value**, and **size** attributes are derived from the assessment metric category results. For more information, see [assessment categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreateAnAssessmentCategory.md) and [assessment category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewACategoryResult.md).
 
 -   When the **risk** and **size** values are high, the score of the demand is low.
 -   When the **value** setting is high, the score of the demand is high.

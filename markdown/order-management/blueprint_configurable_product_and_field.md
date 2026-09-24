@@ -2,7 +2,7 @@
 title: Blueprint, configurable product, and field UI
 description: View a list of updates and changes made in April 2023.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/blueprint\_configurable\_product\_and\_field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/blueprint\_configurable\_product\_and\_field.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Create a corrective action
 description: Create a corrective action record for an ER case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-corrective-actions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-er-corrective-actions.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

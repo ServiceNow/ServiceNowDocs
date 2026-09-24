@@ -2,7 +2,7 @@
 title: Define an observable
 description: Observables are retrieved from the vendor server as STIX data. However, you can create observables, as needed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/t\_AddObservable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/t\_AddObservable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ Select classification tag
 
 </td><td>
 
-If you set up and activated [security tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-class-group-and-tags.md) to add metadata to the record, you can select one or more tags to specify the degree of sensitivity of the observable. If you did not set up or activate security tags, this drop-down list is not displayed.
+If you set up and activated [security tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/create-class-group-and-tags.md) to add metadata to the record, you can select one or more tags to specify the degree of sensitivity of the observable. If you did not set up or activate security tags, this drop-down list is not displayed.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Select one of the following:-   **Malicious**: Indicates that the observable is 
 -   **Suspicious**: Indicates that the observable might be harmful to the organization.
 -   **Clean**: Indicates that the observable is not harmful to the organization.
 -   **Unknown**: Indicates that we are yet to determine the observable's finding.
--   Default value: Unknown. For more information, see [Threat Lookup Finding Calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-lookup-finding-calculators.md).
+-   Default value: Unknown. For more information, see [Threat Lookup Finding Calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-lookup-finding-calculators.md).
 
  **Note:** After an upgrade, existing observables are marked Malicious.
 
@@ -118,7 +118,7 @@ Location
 
 </td><td>
 
-Using the settings in two properties and a script include definition, you can load [Load more IoC data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_LoadAdditionalIoCData.md) in this field.
+Using the settings in two properties and a script include definition, you can load [Load more IoC data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/t_LoadAdditionalIoCData.md) in this field.
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Enter any additional notes about the observable.
     |Security Annotations|Lists security annotations added to this observable.|
 
 
-**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_Observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_Observables.md)
 
 **Related topics**  
 

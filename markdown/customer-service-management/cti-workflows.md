@@ -2,7 +2,7 @@
 title: Computer Telephony Integration Workflows
 description: Computer Telephony Integration \(CTI\) enables customer service agents to place and receive phone calls in ServiceNow applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cti-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cti-workflows.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Add the primary origin
 description: Add a primary origin of an operational vulnerability in its record. Once the primary origin of the operational vulnerability is specified, its upstream dependencies are automatically included in the impacted areas. It enables you to view the operational vulnerability from all affected perspectives. The source is automatically added as the primary origin on the Primary origin tab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-pri-origin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-pri-origin.html
 release: australia
 topic_type: task
 last_updated: "2026-06-01"

@@ -2,7 +2,7 @@
 title: Overview tab
 description: The Overview tab on My Learning provides a variety of widgets that help you track courses, view your progress, view achievements among other things.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/overview-lxp-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/overview-lxp-widgets.html
 release: australia
 product: Learning Core
 classification: learning-core

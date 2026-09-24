@@ -2,7 +2,7 @@
 title: View the open enterprise asset pick tasks for your stockroom
 description: View the open asset pick tasks for your stockroom to get the details of the tasks that need action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/view-open-pick-tasks-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/view-open-pick-tasks-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -39,9 +39,9 @@ The list of open asset pick tasks for the stockroom is displayed.
 
 ## What to do next
 
-Manage all the enterprise asset pick tasks assigned to you by using the Mobile Agent application. For details, see [Manage enterprise asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-asset-pick-task-eam-mobile-app.md).
+Manage all the enterprise asset pick tasks assigned to you by using the Mobile Agent application. For details, see [Manage enterprise asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-asset-pick-task-eam-mobile-app.md).
 
-**Parent Topic:**[Manage enterprise asset picking within your stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
+**Parent Topic:**[Manage enterprise asset picking within your stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
 
 **Related topics**  
 

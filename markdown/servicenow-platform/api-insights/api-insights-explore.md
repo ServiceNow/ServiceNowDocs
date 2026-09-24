@@ -2,7 +2,7 @@
 title: Exploring API Insights
 description: Learn about API Insights with a sample workflow and review the benefits it can provide for different users in your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/api-insights/api-insights-explore.html
 release: australia
 product: API Insights
 classification: api-insights
@@ -176,11 +176,11 @@ CMDB administrator
 
 To learn more about configuring and using API Insights, see:
 
--   [Configuring API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-configuring.md)
--   [Administering and monitoring API data with API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-overview-page.md)
--   [Managing API data in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-managing-apis.md)
--   [Managing API access within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-received-req.md)
--   [Optimizing API organization with clustering recommendations in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-cluster-recomm.md)
--   [Managing API data connections added for Service Graph Connectors in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-managing-connection.md)
--   [API Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-reference.md)
+-   [Configuring API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-configuring.md)
+-   [Administering and monitoring API data with API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-overview-page.md)
+-   [Managing API data in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-managing-apis.md)
+-   [Managing API access within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-received-req.md)
+-   [Optimizing API organization with clustering recommendations in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-cluster-recomm.md)
+-   [Managing API data connections added for Service Graph Connectors in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-managing-connection.md)
+-   [API Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/api-insights/api-insights-reference.md)
 

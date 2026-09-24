@@ -2,7 +2,7 @@
 title: Pre-seeding employee skills
 description: Pre-seeding automatically detects missing skills in employee profiles and prompts employees to add necessary skills, helping keep profiles current and accurate.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/pre-seeded-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/pre-seeded-skills.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -32,5 +32,5 @@ The following image shows a pre-seeded skill prompt.
 
 In the example, the employee received a notification based on what the application knows about that employee. The application notices a skill gap in their profile and prompts the employee to add the needed information.
 
-**Parent Topic:**[Solve the challenge of adoption with Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/drive-adoption-proactive-prompts.md)
+**Parent Topic:**[Solve the challenge of adoption with Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/drive-adoption-proactive-prompts.md)
 

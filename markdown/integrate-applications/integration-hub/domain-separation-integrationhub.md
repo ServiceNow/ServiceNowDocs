@@ -2,7 +2,7 @@
 title: Domain separation and Integration Hub
 description: Domain separation is supported for Integration Hub. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/domain-separation-integrationhub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/domain-separation-integrationhub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -32,7 +32,7 @@ For more information on support levels, see [Application support for domain sepa
 
 In general, IntegrationHub inherits the domain separation features of Workflow Studio. As each spoke \(application\) can have its own domain separation relationship, there is no one specific support level to associate with IntegrationHub. To learn more, see [Domain separation and Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-domain-separation.md).
 
-**Parent Topic:**[Integration Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-hub-reference.md)
+**Parent Topic:**[Integration Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integration-hub-reference.md)
 
 **Related topics**  
 

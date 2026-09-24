@@ -2,7 +2,7 @@
 title: Import and install certificates for Circle of Trust
 description: Retrieve the update set in production to establish the trust relationship between the two instances. The certificates that have been created to represent trust in the trusted instance must be accepted into the protected instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/retrieve-updateset-prod.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/retrieve-updateset-prod.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ Roles required: admin, security\_admin
 
     \[Omitted image "import-update-set-1.png"\] Alt text: Import XML screen to retrieve update set.
 
-3.  Select **Choose File** and browse to select the XML file that you exported in [Prepare Circle of Trust certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-updateset-nonprod.md).
+3.  Select **Choose File** and browse to select the XML file that you exported in [Prepare Circle of Trust certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/create-updateset-nonprod.md).
 
     \[Omitted image "retrieve-update-set.png"\] Alt text: Import XML screen to retrieve update set.
 
@@ -71,5 +71,5 @@ Roles required: admin, security\_admin
 
 ## Result
 
-The trust relationship is established between trusted and protected instances. You’re ready to enable Code Signing. See [Turn on Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/enable-codesiging.md) to complete the steps.
+The trust relationship is established between trusted and protected instances. You’re ready to enable Code Signing. See [Turn on Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/enable-codesiging.md) to complete the steps.
 

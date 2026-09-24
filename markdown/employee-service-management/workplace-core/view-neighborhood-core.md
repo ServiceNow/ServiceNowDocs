@@ -2,7 +2,7 @@
 title: View neighborhoods in Workplace Core
 description: View existing neighborhoods with assigned spaces and user allocation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/view-neighborhood-core.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/view-neighborhood-core.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -188,10 +188,10 @@ Option to make users active in a neighborhood.
 
 11. To create and manage a neighborhood in Workplace Central for a scenario, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
-12. To view and reserve spaces in a neighborhood using the Reservation Management portal, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).
+12. To view and reserve spaces in a neighborhood using the Reservation Management portal, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).
 
-13. To add a user to the neighborhood, refer to [Add a user to the neighborhood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-a-user-to-neighbourhood.md).
+13. To add a user to the neighborhood, refer to [Add a user to the neighborhood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/add-a-user-to-neighbourhood.md).
 
 
-**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/neighborhoods.md)
+**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/neighborhoods.md)
 

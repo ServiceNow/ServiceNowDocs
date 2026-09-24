@@ -2,7 +2,7 @@
 title: Configure the AI widget builder
 description: Configure the AI widget builder in EmployeeWorks Web App. Set the scope, the role access, and the chat panel that drives widget generation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-configure-ai-widget-builder.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

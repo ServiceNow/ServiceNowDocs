@@ -2,7 +2,7 @@
 title: Exploring Knowledge Graph
 description: Knowledge Graph provides a connected representation of data that maps entities and their relationships, adding context and meaning to information to enable intelligent search, insights, and AI-driven experiences.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph
@@ -24,7 +24,7 @@ By linking data and embedding semantic meaning, ServiceNow Knowledge Graph trans
 
 ServiceNow Knowledge Graph application:
 
-1.  Natural language queries: Enables user to query structured ServiceNow data conversationally—for example, “Who is my manager?”, “What’s the status of my incident?”, or “What assets are assigned to me.” For more examples, see [Natural language queries use cases and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/natural-language-queries-example-usecases.md).
+1.  Natural language queries: Enables user to query structured ServiceNow data conversationally—for example, “Who is my manager?”, “What’s the status of my incident?”, or “What assets are assigned to me.” For more examples, see [Natural language queries use cases and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/natural-language-queries-example-usecases.md).
 2.  User context: Provide Now Assist in Virtual Agent and AI Agents with contextual information such as role, department, or location to deliver personalized and relevant responses.
 3.  Slot-filling: Simplify user interactions by automatically populating known information in forms or chat requests, reducing effort and friction.
 4.  Smarter AI Agents: Empower agents to retrieve insights, facts, and relationships directly from the knowledge graph to automate actions and improve accuracy.
@@ -51,7 +51,7 @@ The Knowledge Graph Designer streamlines the entire process, from schema creatio
 
 Use the Graph query Builder to run queries visually by selecting an entity, adding relationships and filters,without any query syntax.
 
-For more details, see [Graph Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/using-graph-query-builder.md)
+For more details, see [Graph Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/using-graph-query-builder.md)
 
 ## Prebuilt Integrations
 
@@ -88,7 +88,7 @@ In this release, the available prebuilt integrations are:
 
 To learn more about configuring and using Knowledge Graph, see:
 
--   [Configuring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.md)
--   [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.md)
--   [Reference for Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/reference-for-knowledge-graph.md)
+-   [Configuring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.md)
+-   [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.md)
+-   [Reference for Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/reference-for-knowledge-graph.md)
 

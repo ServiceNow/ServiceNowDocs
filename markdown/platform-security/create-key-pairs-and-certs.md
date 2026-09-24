@@ -2,7 +2,7 @@
 title: Create Code Signing key pairs and certificates
 description: Create two key pairs to signed certificates to establish trust between your protected and trusted instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/create-key-pairs-and-certs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/create-key-pairs-and-certs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

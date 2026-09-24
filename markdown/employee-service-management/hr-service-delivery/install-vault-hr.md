@@ -2,7 +2,7 @@
 title: Setting up ServiceNow Vault for HR
 description: You can install ServiceNow Vault for HR if you have the admin role. The application includes demo data and installs related ServiceNow applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/install-vault-hr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/install-vault-hr.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,5 +45,5 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[ServiceNow Vault for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/vault-hr-service-delivery.md)
+**Parent Topic:**[ServiceNow Vault for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/vault-hr-service-delivery.md)
 

@@ -2,7 +2,7 @@
 title: Service Model Foundation roles
 description: Roles that are included with the plugins that enable the Service Model Foundation feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-model-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-data-model-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up y
 
 Roles that are included with the plugins that enable the Service Model Foundation feature.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 The following table describes the roles that the administrator can assign to the internal users.
 
@@ -863,5 +863,5 @@ No
 </table>**Related topics**  
 
 
-[Service Model Foundation Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/granular-admin-roles.md)
+[Service Model Foundation Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/granular-admin-roles.md)
 

@@ -2,7 +2,7 @@
 title: View a user calendar
 description: View the calendar of a user to check availability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_ViewAUserCalendar.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/t\_ViewAUserCalendar.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -48,7 +48,7 @@ Select a User record to open the User form, and then select the **View Calendar*
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_MyCalendar.md)
+**Parent Topic:**[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_MyCalendar.md)
 
 **Related topics**  
 

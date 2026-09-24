@@ -2,7 +2,7 @@
 title: Configure API Service Graph Connector for Apigee X using SGC Central
 description: Set up scheduled import jobs to pull in Apigee X data into your CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -27,13 +27,13 @@ Role required: The following table shows the roles required for each stage of th
 |Prerequisites|admin|
 |Setup|SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin|
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
-**Note:** Alternatively, you can configure a default connection already available from the installed or draft connections in SGC Central. Go to **All** &gt; **Service Graph Connectors**, then select **Setup** for the connector from the menu. To learn about installed and draft connections, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-managing-connection.md).
+**Note:** Alternatively, you can configure a default connection already available from the installed or draft connections in SGC Central. Go to **All** &gt; **Service Graph Connectors**, then select **Setup** for the connector from the menu. To learn about installed and draft connections, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/sgcc-managing-connection.md).
 
 ## Procedure
 
@@ -49,7 +49,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 5.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
+    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/sgcc-first-time-setup.md).
 
 6.  Complete the prerequisites for setting up the Apigee X environment.
 
@@ -74,11 +74,11 @@ The playbook experience for onboarding connectors is activated with SGC Central 
             |Field|Description|
             |-----|-----------|
             |Name|Name of the X.509 certificate. For example, `ApigeeX-509Certificate`.|
-            |Key store password|Password to access the JKS certificate as noted down in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).|
+            |Key store password|Password to access the JKS certificate as noted down in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).|
             |Short description|Description of the X.509 certificate.|
 
         3.  In the Attachments section, select **Add File**.
-        4.  Browse and select the P12 file for the JKS certificate you created in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).
+        4.  Browse and select the P12 file for the JKS certificate you created in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).
         5.  On the Upload a file dialog box, select **Upload**.
         6.  Select **Continue**.
 7.  Enter connection details and test the API connection for importing Apigee X data.
@@ -90,9 +90,9 @@ The playbook experience for onboarding connectors is activated with SGC Central 
         |Field|Description|
         |:----|:----------|
         |Connection name|Name to identify the Apigee X connection record.|
-        |Service account email|Email address associated with the ServiceNow service account used for authentication with Apigee X as noted in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).|
-        |X.509 certificate|Name of the X.509 certificate as noted in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).|
-        |Keystore password|Password associated with the keystore as noted in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).|
+        |Service account email|Email address associated with the ServiceNow service account used for authentication with Apigee X as noted in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).|
+        |X.509 certificate|Name of the X.509 certificate as noted in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).|
+        |Keystore password|Password associated with the keystore as noted in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-apigee-x.md).|
 
     3.  Select **Create and test connection**.
 
@@ -202,12 +202,12 @@ GCP organization ID for retrieving data from GCP Organization, GCP Folder, and G
 
 Select **View all connections** to review the connection details. The configured connection appears in the Installed connections list.
 
-You can then manage connections from the SGC Central view of the CMDB Workspace. For more information, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-managing-connection.md).
+You can then manage connections from the SGC Central view of the CMDB Workspace. For more information, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/sgcc-managing-connection.md).
 
 **Related topics**  
 
 
-[API Service Graph Connector for Apigee X](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x.md)
+[API Service Graph Connector for Apigee X](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x.md)
 
-[Target tables for storing API Service Graph Connector for Apigee X data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
+[Target tables for storing API Service Graph Connector for Apigee X data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.md)
 

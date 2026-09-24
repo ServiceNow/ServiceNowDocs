@@ -2,7 +2,7 @@
 title: Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management
 description: The Vulnerability Response Integration with Palo Alto Prisma AIRS imports AI security scan results, posture findings, and model validation data into your ServiceNow AI Platform instance. Use the data to help you detect security risks, drive remediation workflows, and ensure compliance with AI security requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/prisma-airs-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/prisma-airs-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-03"
@@ -64,10 +64,10 @@ Prisma AIRS account requirements:
 -   Authorization URL
 -   Palo Alto Prisma tenant service group \(TSG\) ID
 
--   **[Install the Vulnerability Response Integration with Palo Alto Prisma AIRS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-prisma-airs-integration.md)**  
+-   **[Install the Vulnerability Response Integration with Palo Alto Prisma AIRS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-prisma-airs-integration.md)**  
 Install and configure the Vulnerability Response Integration with Palo Alto Prisma AIRS in your ServiceNow AI Platform® instance. Import AI security scan results, posture findings, and model validation data.
--   **[Field mapping for the Prisms AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/palo-alto-prisma-airs-mapping.md)**  
+-   **[Field mapping for the Prisms AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/palo-alto-prisma-airs-mapping.md)**  
 Review source and target fields and view imported data on tables and records in your ServiceNow ServiceNow AI Platform instance.
 
-**Parent Topic:**[Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/integrating-usem.md)
+**Parent Topic:**[Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/integrating-usem.md)
 

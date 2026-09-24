@@ -2,7 +2,7 @@
 title: Review certification tasks
 description: Review the values of record fields and CI attributes in certification tasks assigned to you, and then certify, edit, or fail the review according to your findings. For managers, tasks of direct reports are included, and for user group managers, tasks of members in the group are also included.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -36,7 +36,7 @@ On the right-sidebar in the Review not completed tab, you can:
 -   Select the 'i' icon to expand or collapse the Important information panel that shows important task details such as associated instructions.
 -   Select the Attachments icon to attache files such as supporting documents for various findings, to the task.
 -   Select **Reassign** to reassign the tasks on this page, see Step 2 to review the reassignment options.
--   Select **Reset** to restart the certification process for the task. For more information, see [Reset a certification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.md).
+-   Select **Reset** to restart the certification process for the task. For more information, see [Reset a certification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.md).
 
 ## Procedure
 

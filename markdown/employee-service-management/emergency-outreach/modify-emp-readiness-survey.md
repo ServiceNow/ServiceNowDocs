@@ -2,7 +2,7 @@
 title: Modify or add Employee Readiness Surveys
 description: Review the Employee workplace readiness survey that is installed with the Employee Readiness Surveys app. Modify the survey, or create one or more surveys to use based on the readiness concerns that you want to address and any legal obligations under applicable law, including data protection laws.Create one or more surveys to use for different workplaces or to evaluate other areas of concern. Start by planning the surveys carefully to gather the best data for your evaluation of readiness to return to the workplace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/modify-emp-readiness-survey.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/emergency-outreach/modify-emp-readiness-survey.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -36,15 +36,15 @@ Users with the sn\_imt\_checkin.checkin\_admin role have the survey\_creator rol
 
 2.  Using the plan that you made for changing the survey, update any of the following survey elements.
 
-<table id="reuse-choicetable_afj_nqk_qlb"><thead><tr><th align="left" id="d374979e114">
+<table id="reuse-choicetable_afj_nqk_qlb"><thead><tr><th align="left" id="d374983e114">
 
 Option
 
-</th><th align="left" id="d374979e117">
+</th><th align="left" id="d374983e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d374979e123">
+</th></tr></thead><tbody><tr><td id="d374983e123">
 
 **Add owners**
 
@@ -52,7 +52,7 @@ Description
 
 Select the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\) beside **Owners** to unlock the list of survey owners. Add the user to collaborate with on this survey.
 
-</td></tr><tr><td id="d374979e141">
+</td></tr><tr><td id="d374983e141">
 
 **Update the introductory and ending text**
 
@@ -60,7 +60,7 @@ Select the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\) b
 
 Select the Introduction &amp; End Notes section tab and update the text.
 
-</td></tr><tr><td id="d374979e150">
+</td></tr><tr><td id="d374983e150">
 
 **Work with the questions**
 
@@ -70,7 +70,7 @@ Select the Introduction &amp; End Notes section tab and update the text.
 2.  Select the question to open the Survey Question form. Modify and complete your edits. The answers are listed in the Assessment Metric Definitions related list.
 
 
-</td></tr><tr><td id="d374979e171">
+</td></tr><tr><td id="d374983e171">
 
 **Work with the question responses**
 
@@ -86,7 +86,7 @@ In the Assessment Metric Definitions related list, select the response to edit. 
 
 The modified survey is used for future outreach surveys.
 
-**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-outreach/emergency-outreach.md)
 
 ## Add additional Employee Readiness Surveys
 
@@ -112,5 +112,5 @@ Consider how you want to begin to reopen your workplace, and what you must under
 **Related topics**  
 
 
-[Send a readiness survey in Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/send-notification-to-exposed-contact.md)
+[Send a readiness survey in Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/send-notification-to-exposed-contact.md)
 

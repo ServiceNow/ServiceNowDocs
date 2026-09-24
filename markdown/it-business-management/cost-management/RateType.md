@@ -2,12 +2,12 @@
 title: Rate type in labor rate card
 description: The rate type functionality is used to categorize different types of work. For example, Standard versus Overtime.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/RateType.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/cost-management/RateType.html
 release: australia
 product: Cost Management
 classification: cost-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Manage a labor rate card, Task and labor rate cards, Cost Management, Strategic Portfolio Management]
 ---
@@ -20,12 +20,12 @@ The Labor Rate Card form contains options to specify rate type, specify hourly r
 
 Assume that a user logs time against a task and selects the rate type Standard in the Time Cards form. Upon approval, the expense line \(cost\) for the time card is derived by matching the user and rate type on the time card to a labor rate card assigned to that user, and that has the same rate type. When the user has multiple labor rate cards with the same rate type, the expense line is generated based on the labor rate card that has the lowest value in the **Order** field. When there is no labor rate card associated with the user and rate type, the default hourly rate found in the**Time Sheets** &gt; **Administration** &gt; **Time Sheet Policy** form is used \(**com.snc.time\_card.default\_rate** property\).
 
-**Note:** A user can enter a rate type only if it is permitted by the users [Time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-sheet-policies.md).
+**Note:** A user can enter a rate type only if it is permitted by the users [Time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/time-sheet-policies.md).
 
-**Parent Topic:**[Manage a labor rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/t_ManageALaborRateCard.md)
+**Parent Topic:**[Manage a labor rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/cost-management/t_ManageALaborRateCard.md)
 
 **Related topics**  
 
 
-[Create a rate type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/CreateRateType.md)
+[Create a rate type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/CreateRateType.md)
 

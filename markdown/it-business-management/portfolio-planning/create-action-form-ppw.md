@@ -2,7 +2,7 @@
 title: Action form
 description: The action form enables you to create an action for a demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-action-form-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-action-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

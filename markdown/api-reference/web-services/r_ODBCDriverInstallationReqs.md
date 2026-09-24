@@ -2,7 +2,7 @@
 title: ODBC driver installation requirements and supported software
 description: Install the ServiceNow ODBC driver on Microsoft Windows computers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_ODBCDriverInstallationReqs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/r\_ODBCDriverInstallationReqs.html
 release: australia
 product: Web Services
 classification: web-services
@@ -262,5 +262,5 @@ The ODBC driver provides only basic support for Informatica. Use the ODBC driver
 8.1
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installing the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_InstallingTheODBCDriver.md)
+</table>**Parent Topic:**[Installing the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_InstallingTheODBCDriver.md)
 

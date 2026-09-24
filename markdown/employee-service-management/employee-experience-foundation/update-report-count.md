@@ -2,7 +2,7 @@
 title: Update the report count based on eligible users
 description: Update the direct and other report count by running a script execution job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/update-report-count.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/update-report-count.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,10 +33,10 @@ Role required: admin
 
 ## Result
 
-The report count is updated based on the [eligible users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-eligible-users-orgchart.md) and is populated in the organization chart.
+The report count is updated based on the [eligible users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-eligible-users-orgchart.md) and is populated in the organization chart.
 
 **Related topics**  
 
 
-[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
+[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
 

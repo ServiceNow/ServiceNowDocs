@@ -2,7 +2,7 @@
 title: Define an EVAM view configuration
 description: Create a view configuration to combine conditions, database fields, and declarative actions with an associated view template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/define-csm-evam-view-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/define-csm-evam-view-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -123,7 +123,7 @@ Custom fields to display on the EVAM view configuration. This is a comma-separat
 **Related topics**  
 
 
-[Configure dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/dynamic-related-records-configure.md)
+[Configure dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/dynamic-related-records-configure.md)
 
-[Configure related record definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-related-record-definitions.md)
+[Configure related record definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-related-record-definitions.md)
 

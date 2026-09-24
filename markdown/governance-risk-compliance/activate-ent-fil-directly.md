@@ -2,7 +2,7 @@
 title: Activate the entity filters
 description: Activate the entity filters directly from the form by adding the Active check box to the layout. This field is hidden by default. Follow the steps in this section to make it visible.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/activate-ent-fil-directly.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/activate-ent-fil-directly.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

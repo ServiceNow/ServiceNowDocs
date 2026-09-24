@@ -2,7 +2,7 @@
 title: ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
 description: You can use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/na-va-sf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/na-va-sf.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,7 +20,7 @@ You can use the ServiceNow Otto Virtual Agent topics in Employee Center to place
 
 To access and use the Virtual Agent topics, verify the following:
 
--   [Configure the ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
+-   [Configure the ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
 -   Have one of the following roles: sn\_hr\_sp.admin , sn\_hr\_sp.esc\_admin
 
 ## Available Spoke Subflows for Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
@@ -215,7 +215,7 @@ The Get Holiday Calendar Virtual Agent topic enables you to view your holiday ca
 
 \[Omitted image "sf-calendar-1.png"\] Alt text: Get Holiday Calendar 1 \[Omitted image "sf-calendar-2.png"\] Alt text: Get Holiday Calendar 2
 
-**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
+**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
 
 **Related topics**  
 

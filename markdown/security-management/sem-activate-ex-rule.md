@@ -2,7 +2,7 @@
 title: Activating an exception rule
 description: A rule is activated on its "Valid from" date. After activation, it automates the exception process for findings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-activate-ex-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-activate-ex-rule.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,5 +22,5 @@ The exception rule follows this life cycle:
 4.  The RT stops accepting new findings when the rule expires on the "Valid to" date. The RT remains in existence until the "Deferred until" date.
 5.  The exception rule expires on the "Valid to" date.
 
-**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exception-rule.md)
+**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exception-rule.md)
 

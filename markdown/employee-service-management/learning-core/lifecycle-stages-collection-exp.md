@@ -2,7 +2,7 @@
 title: Life-cycle stages of a content collection in Learning Core
 description: The State transition of a collection guides you through the stages of its life cycle.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/lifecycle-stages-collection-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/lifecycle-stages-collection-exp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -25,9 +25,9 @@ The State transition of a collection guides you through the stages of its life c
 |Pending Retirement|Collection that is pending for retirement.|
 |Retired|Collection that is retired.|
 
-**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-experience-reference.md)
+**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-experience-reference.md)
 
-**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core-reference.md)
+**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-core-reference.md)
 
 **Related topics**  
 

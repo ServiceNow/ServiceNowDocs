@@ -2,7 +2,7 @@
 title: Verify customer supporting documents
 description: After following up with the customer to request further documentation about the dispute, verify the supporting documents that you received.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-verify-customer-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/fso-ach-verify-customer-documents.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -52,5 +52,5 @@ After the customer sends supporting documents in response to a denial, you extra
 9.  Close the task.
 
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/process-dispute-ach.md)
 

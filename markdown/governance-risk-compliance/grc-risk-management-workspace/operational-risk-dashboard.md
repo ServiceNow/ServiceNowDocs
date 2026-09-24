@@ -2,7 +2,7 @@
 title: Operational Risk Management dashboard
 description: The Operational Risk Management dashboard enables an entity owner, with the role sn\_risk.user, to view the complete risk posture for the enterprise in a single consolidated report. This dashboard makes it easy to analyze the risk posture efficiently and take necessary corrective actions to ensure that there are no losses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/operational-risk-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/operational-risk-dashboard.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -70,11 +70,11 @@ Indicators define a performance measurement taken at regular intervals of a busi
 
 To view the list of all indicators for all the associated plugins, see the following:
 
--   [GRC Advanced Risk plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/indicators-advanced-risk.md)
--   [GRC Policy and Compliance Management plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/indicators-policy-compliance.md)
--   [GRC Audit Management plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/indicators-audit-mgmt.md)
--   [GRC Risk Management plugin Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/indicators-risk-mgmt.md)
--   [GRC Profiles plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/indicators-grc-profiles.md)
+-   [GRC Advanced Risk plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/indicators-advanced-risk.md)
+-   [GRC Policy and Compliance Management plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/indicators-policy-compliance.md)
+-   [GRC Audit Management plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/indicators-audit-mgmt.md)
+-   [GRC Risk Management plugin Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/indicators-risk-mgmt.md)
+-   [GRC Profiles plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/indicators-grc-profiles.md)
 
 **Note:** There are two jobs that you must run to collect data for this dashboard.
 
@@ -109,18 +109,18 @@ Organization \(Entity\)
 |Open indicator tasks|Number of open indicator tasks.|
 |Overdue control tests|Number of open control tests that are past their planned end date.|
 
--   **[GRC Advanced Risk plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/indicators-advanced-risk.md)**  
+-   **[GRC Advanced Risk plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/indicators-advanced-risk.md)**  
 The GRC Advanced Risk plugin contains various indicators.
--   **[GRC Audit Management plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/indicators-audit-mgmt.md)**  
+-   **[GRC Audit Management plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/indicators-audit-mgmt.md)**  
 The GRC Audit Management plugin contains various indicators.
--   **[GRC Policy and Compliance Management plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/indicators-policy-compliance.md)**  
+-   **[GRC Policy and Compliance Management plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/indicators-policy-compliance.md)**  
 The GRC Policy and Compliance Management plugin contains various indicators.
--   **[GRC Risk Management plugin Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/indicators-risk-mgmt.md)**  
+-   **[GRC Risk Management plugin Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/indicators-risk-mgmt.md)**  
 The GRC Risk Management plugin contains various Performance Analytics indicators.
--   **[GRC Profiles plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/indicators-grc-profiles.md)**  
+-   **[GRC Profiles plugin indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/indicators-grc-profiles.md)**  
 The GRC Profiles plugin contains various indicators.
--   **[Risk register in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-register-workspace.md)**  
+-   **[Risk register in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-register-workspace.md)**  
 The risk register contains the information about identified risks, results of risk analysis such as risk scores, and risk response plans. The risk register enables you to monitor and control the risks of your organization.
 
-**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

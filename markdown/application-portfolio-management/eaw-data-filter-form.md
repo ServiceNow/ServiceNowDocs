@@ -2,7 +2,7 @@
 title: Data filter form
 description: Learn about the fields of the Data filter form. Use this form to define which records need certification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-data-filter-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-data-filter-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -49,10 +49,10 @@ Related list conditions
 Condition that is based on related lists that are associated with the target records for the policy.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-policy.md)
+[Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-policy.md)
 

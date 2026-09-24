@@ -2,7 +2,7 @@
 title: Map all OT devices within a subnet
 description: An OT admin can trigger automated mapping of all OT devices within a selected subnet.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/map-all-ot-assets-within-subnet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/map-all-ot-assets-within-subnet.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -20,8 +20,8 @@ An OT admin can trigger automated mapping of all OT devices within a selected su
 
 The following plugins must be installed:
 
--   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)
--   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
+-   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/operational-technology-manager.md)
+-   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
 
 Role required: sn\_ot\_amazing\_write
 
@@ -42,5 +42,5 @@ Role required: sn\_ot\_amazing\_write
 
 If there are OT devices in the selected site with IP addresses that fall in the selected IP range, all devices in the site are mapped for the OT subnet. After the mapping is triggered, you can view the mapping results by selecting the link available in the information message from the list view.
 
-**Parent Topic:**[Automatically map all OT devices to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automatedly-map-all-ot-assets.md)
+**Parent Topic:**[Automatically map all OT devices to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/automatedly-map-all-ot-assets.md)
 

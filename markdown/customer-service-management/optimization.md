@@ -2,7 +2,7 @@
 title: Optimization
 description: Optimize your processes by using the Customer Service Management application. You can analyze which processes are relevant to your key performance indicators \(KPIs\), identify the bottlenecks for your customer service cases, learn how to optimize your workforce, and manage your teams more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/optimization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/optimization.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -57,7 +57,7 @@ Key Features of process mining include:
 For more information about enabling the Process Mining content pack, see the following topics:
 
 -   [Activate Process Mining Content Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-po-content-pack.md).
--   [Integrating with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/process-opt-csm.md).
+-   [Integrating with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/process-opt-csm.md).
 
 ## Workforce Optimization
 
@@ -74,5 +74,5 @@ The advantages of Workforce Optimization for Customer Service include:
 -   Focus on all engagement channels and provide real-time help to your team members so that they can provide a better customer experience.
 -   Capture all the relevant data and apply these insights and guidance to your team.
 
-To learn more about the Workforce Optimization for Customer Service application, see [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md).
+To learn more about the Workforce Optimization for Customer Service application, see [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-wfo-cs.md).
 

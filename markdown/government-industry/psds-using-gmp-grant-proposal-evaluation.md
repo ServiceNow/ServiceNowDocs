@@ -2,7 +2,7 @@
 title: Evaluate a grant proposal in the Grants Management Grants Proposal Playbook
 description: Create and assign merit review tasks and allocate budgets and propose funding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-grant-proposal-evaluation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-gmp-grant-proposal-evaluation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-18"
@@ -51,7 +51,7 @@ In the **Build funding proposal** activity, the funding information is updated b
 
     All the scored proposals appear in the Funding proposal tab along with the ranks and budget details.
 
-    **Note:** From Grants management version 1.31, the **Build funding proposal** activity is renamed to **Funding allocation** to support the [Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-rolling-grant-approvals-concept.md) feature. To allocate budget for the proposals in a rolling grants approval workflow, see [Mark proposals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-rolling-grants-mark-proposals-task.md).
+    **Note:** From Grants management version 1.31, the **Build funding proposal** activity is renamed to **Funding allocation** to support the [Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gm-rolling-grant-approvals-concept.md) feature. To allocate budget for the proposals in a rolling grants approval workflow, see [Mark proposals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-rolling-grants-mark-proposals-task.md).
 
 10. From the list of scored proposals, select one or more proposals to perform either of these actions:
     -   Decline funding and provide a reason by selecting **Propose Decline**.
@@ -66,5 +66,5 @@ When the grants program director approves the funding proposal, the evaluation s
 **Related topics**  
 
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-release-merit-review-tasks.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-release-merit-review-tasks.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-using-gmp-release-merit-review-tasks.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-using-gmp-release-merit-review-tasks.md)
 

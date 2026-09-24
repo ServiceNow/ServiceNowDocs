@@ -2,7 +2,7 @@
 title: Configure a lifecycle event activity
 description: Create or modify a lifecycle event activity. Lifecycle Events activities can be approvals, employee tasks, fulfiller activities, notifications, flows, content, or activity containers.Configure a lifecycle event activity that is an approval. Approvals create a to-do for the specified approvers to approve or reject.Configure a lifecycle event activity that is a task for an employee. Employee tasks are assigned to the subject person of the lifecycle event case.Configure a lifecycle event activity that is for a fulfiller. Fulfiller activities are assigned to an agent or fulfiller in a department such as HR, IT, or Facilities.Configure a lifecycle event activity that is a notification. Notifications automate the sending of an email to the specified recipients.Use flow activity parameters on a lifecycle event activity to automatically populate values from a subflow within an activity.Configure a lifecycle event activity that uses a subflow.Use activity field mappings to map information from a field on a table, custom text, or a custom script to a flow input from a subflow.Configure a lifecycle event activity to schedule content. This activity type enables you to deliver relevant and tailored content to employees as part of the lifecycle event. For example, you can push company-related information or a first day at work banner to new hires as part of their onboarding.Configure a lifecycle event activity that is a container for a group of activities. This activity type enables you to manage the dependencies of activities within an activity set. You can use activity containers to order activities, in parallel or sequence, as well as configure multiple activity containers within an activity set.Configure a lifecycle event activity that is a pulse survey. Pulse surveys capture employee feedback.There are multiple ways you can move an activity within an activity set.You can reorder an activity within an activity set for a lifecycle event using different methods.For a lifecycle event case, you can trigger or create an activity from an activity that is in another activity set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -49,7 +49,7 @@ Each activity must be associated with an owning group. If the activity has a tar
     **Warning:** An LE activity \(fulfiller activity\) for an HR service that has the same LE type as the LE case can cause a loop that could cause a memory issue.
 
 
-**Parent Topic:**[Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md)
+**Parent Topic:**[Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md)
 
 ## For an approval
 
@@ -113,7 +113,7 @@ Owning group
 
 Owning group that the activity is associated with. **Note:**
 
--   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
+-   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
 -   To create, update, or delete an activity, you must be both a member of the associated owning group and have the sn\_hr\_le.activity\_writer role.
 
 
@@ -220,7 +220,7 @@ HR task template
 
 </td><td>
 
-HR task template to use with the activity.**Note:** An HR task template automatically populates fields on the HR task form when the task is generated. See [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-task-template.md) for more information.
+HR task template to use with the activity.**Note:** An HR task template automatically populates fields on the HR task form when the task is generated. See [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-task-template.md) for more information.
 
 </td></tr><tr><td>
 
@@ -253,7 +253,7 @@ Owning group
 
 Owning group that the activity is associated with. **Note:**
 
--   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
+-   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
 -   To create, update, or delete an activity, you must be both a member of the associated owning group and have the sn\_hr\_le.activity\_writer role.
 
 
@@ -279,7 +279,7 @@ Badge
 
 </td><td>
 
-Badge that the fulfiller activity type is associated with. **Note:** Badges display on the portal to indicate to the employee which department is fulfilling that activity. See [Configure an HR badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/CreateModHRBadges.md) for more information.
+Badge that the fulfiller activity type is associated with. **Note:** Badges display on the portal to indicate to the employee which department is fulfilling that activity. See [Configure an HR badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/CreateModHRBadges.md) for more information.
 
 </td></tr><tr><td>
 
@@ -418,7 +418,7 @@ Fulfiller activity
 
 </td><td colspan="2">
 
-Select one of the following fulfiller activity types:**Note:** You can control the different fulfiller activity types that appear here. See [Configure an activity configuration for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-lifecycle-event-fulfiller-activity-configuration.md) for more information.
+Select one of the following fulfiller activity types:**Note:** You can control the different fulfiller activity types that appear here. See [Configure an activity configuration for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-lifecycle-event-fulfiller-activity-configuration.md) for more information.
 
 </td></tr><tr><td>
 
@@ -450,7 +450,7 @@ HR Service
 
 </td><td>
 
-An HR service fulfills the activity. In the **HR service** field, select the HR service to use.**Note:** HR services are the requests and assistance an HR organization provides its employees. See [HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-administration.md) for more information.
+An HR service fulfills the activity. In the **HR service** field, select the HR service to use.**Note:** HR services are the requests and assistance an HR organization provides its employees. See [HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-administration.md) for more information.
 
 </td></tr><tr><td>
 
@@ -458,7 +458,7 @@ HR Task
 
 </td><td>
 
-An HR task fulfills the activity. In the **HR task template** field, select the HR task template to use.**Note:** An HR task template automatically populates fields on the HR task form when the task is generated. See [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-task-template.md) for more information.
+An HR task fulfills the activity. In the **HR task template** field, select the HR task template to use.**Note:** An HR task template automatically populates fields on the HR task form when the task is generated. See [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-task-template.md) for more information.
 
 </td></tr><tr><td>
 
@@ -490,7 +490,7 @@ Badge
 
 </td><td colspan="2">
 
-Badge that the fulfiller activity type is associated with. **Note:** Badges display on the portal to indicate to the employee which department is fulfilling that activity. See [Configure an HR badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/CreateModHRBadges.md) for more information.
+Badge that the fulfiller activity type is associated with. **Note:** Badges display on the portal to indicate to the employee which department is fulfilling that activity. See [Configure an HR badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/CreateModHRBadges.md) for more information.
 
 </td></tr><tr><td>
 
@@ -500,7 +500,7 @@ Owning group
 
 Owning group that the activity is associated with. **Note:**
 
--   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
+-   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
 -   To create, update, or delete an activity, you must be both a member of the associated owning group and have the sn\_hr\_le.activity\_writer role.
 
 
@@ -685,7 +685,7 @@ Owning group
 
 Owning group that the activity is associated with. **Note:**
 
--   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
+-   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
 -   To create, update, or delete an activity, you must be both a member of the associated owning group and have the sn\_hr\_le.activity\_writer role.
 
 
@@ -853,7 +853,7 @@ Flow
 
 Subflow to use with the activity.**Important:**
 
--   Only the **Switch primary job** subflow that is used to [support multiple jobs in a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/adopt-jobs-table.md) is available to use out-of-box.
+-   Only the **Switch primary job** subflow that is used to [support multiple jobs in a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/adopt-jobs-table.md) is available to use out-of-box.
 -   To use a different subflow with the activity, additional configuration is required. See the [Implementing multiple subflows in an LE activity \[KB0817520\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0817520) article in the HI Knowledge Base for more information.
 
 
@@ -871,7 +871,7 @@ Badge
 
 </td><td>
 
-Badge that the fulfiller activity type is associated with. **Note:** Badges display on the portal to indicate to the employee which department is fulfilling that activity. See [Configure an HR badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/CreateModHRBadges.md) for more information.
+Badge that the fulfiller activity type is associated with. **Note:** Badges display on the portal to indicate to the employee which department is fulfilling that activity. See [Configure an HR badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/CreateModHRBadges.md) for more information.
 
 </td></tr><tr><td>
 
@@ -881,7 +881,7 @@ Owning group
 
 Owning group that the activity is associated with. **Note:**
 
--   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
+-   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
 -   To create, update, or delete an activity, you must be both a member of the associated owning group and have the sn\_hr\_le.activity\_writer role.
 
 
@@ -929,7 +929,7 @@ The activity field mappings pass fields from the subflow you selected when confi
 
 2.  Select an activity that has **Flow** as the **Activity type**.
 
-    For more information, see [For a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
+    For more information, see [For a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
 
 3.  Click the **Activity Field Mappings** tab.
 
@@ -1004,7 +1004,7 @@ Map to flow input
 
 </td><td>
 
-The input parameter from your subflow that you are mapping from a field from a table, custom text, or custom script.For more information, see [For a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
+The input parameter from your subflow that you are mapping from a field from a table, custom text, or custom script.For more information, see [For a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md).
 
 </td></tr><tr><td>
 
@@ -1070,7 +1070,7 @@ Template
 
 </td><td>
 
-Schedule content template to use with the activity.**Note:** A schedule content template schedules and delivers content to users as part of a lifecycle event. See [Configure a schedule content template for a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-schedule-content-template-for-lifecycle-event.md) for more information.
+Schedule content template to use with the activity.**Note:** A schedule content template schedules and delivers content to users as part of a lifecycle event. See [Configure a schedule content template for a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-schedule-content-template-for-lifecycle-event.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1088,7 +1088,7 @@ Owning group
 
 Owning group that the activity is associated with. **Note:**
 
--   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
+-   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
 -   To create, update, or delete an activity, you must be both a member of the associated owning group and have the sn\_hr\_le.activity\_writer role.
 
 
@@ -1249,7 +1249,7 @@ Owning group
 
 Owning group that the activity is associated with. **Note:**
 
--   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
+-   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
 -   To create, update, or delete an activity, you must be both a member of the associated owning group and have the sn\_hr\_le.activity\_writer role.
 
 
@@ -1357,7 +1357,7 @@ Owning group
 
 Owning group that the activity is associated with. **Note:**
 
--   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
+-   Owning groups control who owns a lifecycle event activity. To learn more, see [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md).
 -   To create, update, or delete an activity, you must be both a member of the associated owning group and have the sn\_hr\_le.activity\_writer role.
 
 

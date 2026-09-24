@@ -2,7 +2,7 @@
 title: Duplicate existing records with Mobile App Builder
 description: Using Mobile App Builder \(MAB\) you can duplicate existing records with their associated child records. You can then use these duplicated records as a template from which you can create new screens and cards.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/dup-exist-records-mab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/dup-exist-records-mab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

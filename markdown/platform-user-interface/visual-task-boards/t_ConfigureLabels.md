@@ -2,7 +2,7 @@
 title: Configure Visual Task Boards labels
 description: Labels help categorize tasks and visually distinguish them on the task board. You can disable or rename labels using the labels tab of the activity stream.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ConfigureLabels.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/visual-task-boards/t\_ConfigureLabels.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -59,5 +59,5 @@ Board members can edit the labels on a board. All the labels are visible on the 
     **Note:** The **table** label can also be used for Tags.
 
 
-**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
+**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 

@@ -2,7 +2,7 @@
 title: Using Investigative Case Management Entity Management
 description: Investigators can use the Investigative Case Management Entity Management feature to manage all entities \(persons, locations, vehicles, property, firearms, organizations\) related to a case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-explore-icm-entity-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-explore-icm-entity-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -86,5 +86,5 @@ Investigators and supervisors will mainly interact with case entities through th
 
 In the Entity Management form, not every field is mandatory. The form captures as much information as possible, without imposing strict restrictions on the information that can be added. However, each entity record contains a completeness field that tracks whether the record has sufficient data to be searchable within ICM.
 
-An entity is only returned in search results when its completeness field is set to true. Completeness is recalculated automatically whenever relevant fields are updated, ensuring search visibility reflects the current state of the record. To see completeness rules for each entity type, see [Completeness Rules by Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
+An entity is only returned in search results when its completeness field is set to true. Completeness is recalculated automatically whenever relevant fields are updated, ensuring search visibility reflects the current state of the record. To see completeness rules for each entity type, see [Completeness Rules by Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
 

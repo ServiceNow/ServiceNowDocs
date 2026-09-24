@@ -2,7 +2,7 @@
 title: Work on a sourcing event
 description: You can work on a sourcing event and complete an entire workflow, right from starting negotiations with multiple suppliers, to awarding one or multiple suppliers, or rejecting bids. Awarding suppliers create purchase requisitions for the selected suppliers and items.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/work-on-a-negotiation-event.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/work-on-a-negotiation-event.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -88,7 +88,7 @@ Opens the **Select a supplier to award** dialog box, where you can select one of
 
 Opens the **Award suppliers** tab, where you can select one or more suppliers from the list and select **Review selection** to award the suppliers. The awarded negotiations move to the Closed Decided state while the others move to Closed Rejected. The purchase lines for the awarded negotiation are automatically converted to purchase requisitions.
 
- For information on more options that are available to you on this tab, see [Award multiple suppliers from a sourcing event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/award-multiple-suppliers-from-a-ne.md).
+ For information on more options that are available to you on this tab, see [Award multiple suppliers from a sourcing event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/award-multiple-suppliers-from-a-ne.md).
 
 </td></tr><tr><td id="d178937e233">
 
@@ -102,5 +102,5 @@ Opens the **Reject all bids?** dialog box, where you must enter your reason for 
 </table>10. Select **View purchase requisitions** from the sourcing event or the awarded negotiation to view the details of the newly created purchase requisitions.
 
 
-**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

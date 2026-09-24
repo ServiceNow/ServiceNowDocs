@@ -2,7 +2,7 @@
 title: Submit heating and cooling request
 description: Raise a Heating and cooling request using either the Workplace Service Portal or the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/submit-heating-and-cooling-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/submit-heating-and-cooling-request.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -28,15 +28,15 @@ Use the **Heating and cooling** workplace service to report temperature issues f
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d673431e70">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d673435e70">
 
 Location
 
-</th><th align="left" id="d673431e73">
+</th><th align="left" id="d673435e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d673431e79">
+</th></tr></thead><tbody><tr><td id="d673435e79">
 
 **Workplace Service Portal**
 
@@ -56,7 +56,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d673431e149">
+</td></tr><tr><td id="d673435e149">
 
 **Employee Center**
 
@@ -147,7 +147,7 @@ Space
 
     **Note:** This option appears only if there is atleast one service item available for the specific location.
 
-    The availability of the service items is determined based on the service items notifications. For more information about adding a workplace service item to a workplace service, refer to [Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/add-workplace-service-items.md)
+    The availability of the service items is determined based on the service items notifications. For more information about adding a workplace service item to a workplace service, refer to [Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/add-workplace-service-items.md)
 
 4.  Click **Submit**.
 
@@ -158,9 +158,9 @@ The heating and cooling request is submitted.
 
 The state of the request changes to Awaiting approval for approval by the respective manager. After the request is approved, the state of the request changes to Work in progress. Depending on the progress of the background tasks that are assigned to fulfill the request, the state of the request further changes.
 
-For more information about blocking the workplace location for a reservation, refer to [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/block-workplace-location.md)
+For more information about blocking the workplace location for a reservation, refer to [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/block-workplace-location.md)
 
-**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

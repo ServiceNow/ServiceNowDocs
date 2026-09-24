@@ -2,7 +2,7 @@
 title: Demand Management key terms
 description: Important terms in Demand Management are listed in the table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/r\_DemandManagementKeyTerms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/r\_DemandManagementKeyTerms.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -99,5 +99,5 @@ Demand Task
 A unit of work, created within a demand, to break down initial planning activities before converting the demand into a project. A demand task isn’t a planned task like a project task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-reference.md)
+</table>**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/demand-management-reference.md)
 

@@ -2,7 +2,7 @@
 title: Change password on Business Portal
 description: Change your password directly from the business portal to secure your account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ChangePasswordFromUserForm-business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_ChangePasswordFromUserForm-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -82,5 +82,5 @@ The new password.
 **Related topics**  
 
 
-[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_RequestPasswordReset-businessportal.md)
+[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_RequestPasswordReset-businessportal.md)
 

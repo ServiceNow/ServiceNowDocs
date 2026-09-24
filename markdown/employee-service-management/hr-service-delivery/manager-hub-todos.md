@@ -2,7 +2,7 @@
 title: Default configurations for To do's
 description: Default set of To do's configurations are available to use after you have activated Employee Center Core. These configurations display managerial tasks and requests in Manager Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/manager-hub-todos.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/manager-hub-todos.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Manag
 
 Default set of To do's configurations are available to use after you have activated Employee Center Core. These configurations display managerial tasks and requests in Manager Hub.
 
-To dos filters is a module within Employee Center. For more details on how to configure the filters, see [Create or modify a to-dos filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-to-dos-page-filters.md)
+To dos filters is a module within Employee Center. For more details on how to configure the filters, see [Create or modify a to-dos filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-to-dos-page-filters.md)
 
 |Name|Description|
 |----|-----------|
@@ -29,7 +29,7 @@ For more information on the filters, navigate to **Employee Center** &gt; **Admi
 
 For more information on the filter conditions, navigate to **Employee Center** &gt; **Administration** &gt; **To-dos configuration** &gt; **To-dos config filter conditions**.
 
-**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 

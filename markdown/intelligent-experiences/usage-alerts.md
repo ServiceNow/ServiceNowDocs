@@ -2,7 +2,7 @@
 title: Usage alerts
 description: Define threshold-based rules at the skill levels to monitor and manage assist consumption and skill execution counts when limits are reached. The solution aims to prevent resource exhaustion, and provide clear, actionable insights through an alerts feed and a rule management interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/usage-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/usage-alerts.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
@@ -33,8 +33,8 @@ Key features:
 
 Domain separation: Rules can only be edited, enabled, turned off, or deleted within the domain where they were created. To modify or remove a rule, first change the domain of the instance to the original domain of the rule. If you don’t do this, the options to edit or delete the rule will remain turned off.
 
--   **[Create alert rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-alert-rule.md)**  
+-   **[Create alert rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-alert-rule.md)**  
 Create alert rules to track the usage of generative AI skills in AI Admin Hub and notify you in the instance and via email, when the set thresholds are reached.
 
-**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-now-assist-admin-settings.md)
+**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-now-assist-admin-settings.md)
 

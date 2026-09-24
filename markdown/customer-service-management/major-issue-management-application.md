@@ -2,7 +2,7 @@
 title: Install the Major Issue Management application
 description: You can install the Major Issue Management application \(com.sn\_majorissue\_mgt\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/major-issue-management-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/major-issue-management-application.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

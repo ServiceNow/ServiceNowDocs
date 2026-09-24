@@ -2,12 +2,12 @@
 title: AI Control Tower
 description: Gain visibility into your organization's AI footprint, manage the lifecycle of AI investments, govern risk and compliance, and measure the business impact of AI with AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-17"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Enable AI experiences]
 ---
 
@@ -23,39 +23,39 @@ Watch this short video to learn more about the AI Control Tower application.
 
 <table id="table_get_started" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn what AI Control Tower can do for your organization and how it supports your AI governance strategy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn what AI Control Tower can do for your organization and how it supports your AI governance strategy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up AI Control Tower for your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up AI Control Tower for your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring.md)
 
 </td><td>
 
-[Plan your AI strategy\[Omitted image "bus-strategic.svg"\] Alt text:Define strategic priorities, set goals, and track AI-related planning items.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-planning-ai-strategy.md)
+[Plan your AI strategy\[Omitted image "bus-strategic.svg"\] Alt text:Define strategic priorities, set goals, and track AI-related planning items.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-planning-ai-strategy.md)
 
 </td></tr><tr><td>
 
-[Discover and manage AI assets\[Omitted image "bus-discover.svg"\] Alt text:Build and manage your inventory and work with individual AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-discovering-ai-assets.md)
+[Discover and manage AI assets\[Omitted image "bus-discover.svg"\] Alt text:Build and manage your inventory and work with individual AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-discovering-ai-assets.md)
 
 </td><td>
 
-[Govern AI assets\[Omitted image "bus-workflow.svg"\] Alt text:Manage AI risk, compliance, security, and privacy across your portfolio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-governing-ai-assets.md)
+[Govern AI assets\[Omitted image "bus-workflow.svg"\] Alt text:Manage AI risk, compliance, security, and privacy across your portfolio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-governing-ai-assets.md)
 
 </td><td>
 
-[Monitor AI assets\[Omitted image "bus-balance-scale.svg"\] Alt text:Evaluate AI quality and safety with automated scoring and trend analysis.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-monitoring-ai-systems.md)
+[Monitor AI assets\[Omitted image "bus-balance-scale.svg"\] Alt text:Evaluate AI quality and safety with automated scoring and trend analysis.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-monitoring-ai-systems.md)
 
 </td></tr><tr><td>
 
-[Measure AI impact\[Omitted image "bus-transaction-data.svg"\] Alt text:Track the value, adoption, and engagement of AI across your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-measuring-ai-impact.md)
+[Measure AI impact\[Omitted image "bus-transaction-data.svg"\] Alt text:Track the value, adoption, and engagement of AI across your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-measuring-ai-impact.md)
 
 </td><td>
 
-[Address action items \[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Track and resolve the governance work and AI-generated recommendations waiting for you in Activity Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-addressing-ai-action-items.md)
+[Address action items \[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Track and resolve the governance work and AI-generated recommendations waiting for you in Activity Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-addressing-ai-action-items.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up roles, tables, data model attributes, and form field details.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up roles, tables, data model attributes, and form field details.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -77,5 +77,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

@@ -2,7 +2,7 @@
 title: Case management for CSM release notes
 description: The ServiceNow Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.The ServiceNow Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.The ServiceNow Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.The ServiceNow Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/case-mgmt-csm-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/case-mgmt-csm-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -26,7 +26,7 @@ See [Case management for Customer Service Management](https://raw.githubusercont
 
 ## Activation and other requirements
 
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/customer-service-mgmt-rn-landing.md)
 
 ## June 2026
 

@@ -2,7 +2,7 @@
 title: Agentic app creation with ServiceNow Otto for Creator
 description: ServiceNow Otto for Creator provides core skills for rapid conversational app development. Use the integrated tools to generate scripts, optimize code, scaffold applications, and automate testing through natural language prompts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-code-now-assist-creator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-code-now-assist-creator.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Some skills in ServiceNow Otto for Creator have a conversational interface and c
 
 ## Core capabilities
 
-For complete information on using ServiceNow Otto for Creator, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
+For complete information on using ServiceNow Otto for Creator, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
 
 The following metadata-driven tools are available for using AI to develop apps:
 
@@ -43,7 +43,7 @@ The following metadata-driven tools are available for using AI to develop apps:
     -   [Community Welcome Guide on Community](https://www.servicenow.com/community/app-engine-articles/now-assist-for-creator-welcome-guide/ta-p/2851287)
     -   [Skill Prompt Guides on Community](https://www.servicenow.com/community/now-assist-for-creator/ct-p/creator-now-assist)
 2.  Store app and release notes: Install/upgrade ServiceNow Otto for Creator skills from the ServiceNow Store.
-3.  Onboarding topic in this document: See [Onboarding for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-onboarding.md).
+3.  Onboarding topic in this document: See [Onboarding for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-onboarding.md).
 
 ## ServiceNow Otto for Creator and agentic development on the ServiceNow AI Platform
 
@@ -59,5 +59,5 @@ ServiceNow Otto for Creator is the ServiceNow AI Platform toolkit for using AI t
 6.  Automate outside the platform: RPA bot generation to fetch instructors’ availability from a desktop calendar or copy rosters.
 7.  Explain and test: Use app, flow, and table summarization to document; generate tests with the test-generation skill; run ATF.
 
-**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-using.md)
+**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-using.md)
 

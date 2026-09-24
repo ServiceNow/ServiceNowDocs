@@ -2,7 +2,7 @@
 title: Show ACL execution plan
 description: Administrators can view how ACLs relate to each other by viewing an execution plan for any ACL in the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/t\_ShowACLExecutionPlan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/t\_ShowACLExecutionPlan.html
 release: australia
 product: Access Control
 classification: access-control
@@ -22,7 +22,7 @@ Role required: security\_admin
 
 ## Procedure
 
-1.  [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+1.  [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **System Security** &gt; **Access Control \(ACL\)**.
 

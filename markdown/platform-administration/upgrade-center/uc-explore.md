@@ -2,7 +2,7 @@
 title: Exploring Upgrade Center
 description: Get an overview of Upgrade Center so you can plan your upgrade ahead.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-explore.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -53,7 +53,7 @@ Preview your upgrade
 
 </td><td>
 
-[Upgrade Preview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-preview-module.md)
+[Upgrade Preview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-preview-module.md)
 
 </td><td>
 
@@ -65,7 +65,7 @@ Monitor your upgrade
 
 </td><td>
 
-[Upgrade Monitor module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-monitor-module.md)
+[Upgrade Monitor module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-monitor-module.md)
 
 </td><td>
 
@@ -77,7 +77,7 @@ Review previous upgrade detail
 
 </td><td>
 
-[Upgrade History module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-history-module.md)
+[Upgrade History module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-history-module.md)
 
 </td><td>
 
@@ -89,7 +89,7 @@ Build an upgrade plan
 
 </td><td>
 
-[Upgrade Plan overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-upgrade-plan.md)
+[Upgrade Plan overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-upgrade-plan.md)
 
 </td><td>
 
@@ -101,8 +101,8 @@ Create and execute skipped record rule
 
 </td><td>
 
--   [Create a skipped record rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-create-skipped-record-rule.md)
--   [Execute a skipped record rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-execute-skipped-record-rule.md)
+-   [Create a skipped record rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-create-skipped-record-rule.md)
+-   [Execute a skipped record rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-execute-skipped-record-rule.md)
 
 </td><td>
 
@@ -113,7 +113,7 @@ System administrator
 
 To learn more about using Upgrade Center, see:
 
--   [Using Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-using.md)
--   [Administering Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-administration.md)
--   [Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-reference.md)
+-   [Using Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-using.md)
+-   [Administering Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-administration.md)
+-   [Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-reference.md)
 

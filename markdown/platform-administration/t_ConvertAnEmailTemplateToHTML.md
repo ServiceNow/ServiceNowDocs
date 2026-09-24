@@ -2,7 +2,7 @@
 title: Convert an email template to rich HTML
 description: If you have an email template created prior to the Eureka release, you can convert it to rich HTML.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConvertAnEmailTemplateToHTML.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConvertAnEmailTemplateToHTML.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,5 +49,5 @@ If you manually enter a mail script in the body of a new or converted email noti
 
 You can view the mail scripts in their original form by opening the email template and clicking the **Show Notification Scripts** related link.
 
-**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md)
+**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_EmailTemplates.md)
 

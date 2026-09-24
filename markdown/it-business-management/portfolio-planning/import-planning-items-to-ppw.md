@@ -2,7 +2,7 @@
 title: Import records to Portfolio Planning Workspace
 description: Import records from Project Portfolio Management, after the relevant table maps, fields maps, and choice maps are configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/import-planning-items-to-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/import-planning-items-to-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

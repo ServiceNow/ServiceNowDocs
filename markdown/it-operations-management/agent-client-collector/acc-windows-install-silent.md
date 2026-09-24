@@ -2,7 +2,7 @@
 title: Install the Agent Client Collector on a Windows machine using silent installation
 description: Install the Agent Client Collector on a Windows machine using silent installation when you want to deploy the agent at scale.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-windows-install-silent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-windows-install-silent.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -127,7 +127,7 @@ Default = `servicenow`
 When using the SYSTEM, LOCALSERVICE, or DOMAIN\\gMSA$ accounts:
 
 -   You do not have to configure a password.
--   You must run the relevant .msi command, as described in [Account commands for LocalService, LocalSystem, and gMSA during Windows installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/gmsa-and-local-account-commands.md).
+-   You must run the relevant .msi command, as described in [Account commands for LocalService, LocalSystem, and gMSA during Windows installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/gmsa-and-local-account-commands.md).
 
 
 </td></tr><tr><td>
@@ -200,8 +200,8 @@ Indicates the installation path for the agent's application files. Enclose the p
     For the `<MID IP>` value, you can assign either the MID FQDN or CNAME. To enable high availability, use either the Auto MID Selection algorithm, or manage a virtual IP with a load balancer. For more information, see the [ITOM Agent Client Collector documentation material \[KB1122613\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613) article in the HI Knowledge Base.
 
 
--   **[Uninstall Agent Client Collector from a Windows system using a single-line command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-uninstall-windows-single-line.md)**  
+-   **[Uninstall Agent Client Collector from a Windows system using a single-line command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-uninstall-windows-single-line.md)**  
 Uninstall the Agent Client Collector from a Windows machine by running an efficient single-line command. If the script is not connected to the instance, you might have to uninstall Agent Client Collector manually.
 
-**Parent Topic:**[Agent Client Collector installation on a Windows machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-windows-install-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Windows machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-windows-install-concept.md)
 

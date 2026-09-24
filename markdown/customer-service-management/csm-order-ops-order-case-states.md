@@ -2,7 +2,7 @@
 title: Order case and order case line item states
 description: Order cases and order case line items move through several different states as agents work to resolve the individual case lines in order cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-order-ops-order-case-states.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-order-ops-order-case-states.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

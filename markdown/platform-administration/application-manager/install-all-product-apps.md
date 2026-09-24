@@ -2,7 +2,7 @@
 title: Install all applications in a product
 description: Install all applications and plugins included in a product using Application Manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/install-all-product-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/application-manager/install-all-product-apps.html
 release: australia
 product: Application Manager
 classification: application-manager
@@ -45,7 +45,7 @@ Role required: admin, sn\_appclient.app\_client\_user, or sn\_appclient.app\_cli
 
     2.  Procure any dependencies that aren't licensed from the ServiceNow Store.
 
-        For more information, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-trials.md).
+        For more information, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/getting-apps-trials.md).
 
     3.  Go back to the product details page and repeat for each application dependency.
 
@@ -94,5 +94,5 @@ Procedure
 
 If you choose to install the product now, it and its dependencies begin to install immediately. Scheduled installations begin at the chosen date and time.
 
-**Parent Topic:**[Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-apps-app-manager.md)
+**Parent Topic:**[Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/installing-apps-app-manager.md)
 

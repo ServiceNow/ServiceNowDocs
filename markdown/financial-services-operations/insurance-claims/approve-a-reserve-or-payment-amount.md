@@ -2,7 +2,7 @@
 title: Approve a reserve or payment amount for an Insurance claims case
 description: Approve an assigned claim reserve or a payment amount that is higher than an adjuster's approval authority for Insurance claims cases. A reserve or payment may be rejected if the requested amount doesn't support the findings from the claim investigation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/approve-a-reserve-or-payment-amount.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/approve-a-reserve-or-payment-amount.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

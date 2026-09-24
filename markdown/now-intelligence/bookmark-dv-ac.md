@@ -2,7 +2,7 @@
 title: Bookmark a visualization in the Visualization Designer
 description: Bookmark a visualization so that you can find it easily in the Data Visualizations library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/bookmark-dv-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/bookmark-dv-ac.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ On the **Data Visualizations** tab, the selected visualization appears in the Bo
 
 To remove a bookmark, choose the bookmarked visualization and select **Remove bookmark** from the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions icon\).
 
-**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dv-tasks.md)
 

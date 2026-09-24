@@ -2,7 +2,7 @@
 title: Configure the data collection for the Operational Technology Vulnerability Response \(PA\) dashboard
 description: Configure the data collection for the data shown on the Operational Technology Vulnerability Response \(PA\) dashboard. Scheduled jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-data-collection-for-otvr-pa-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/configure-data-collection-for-otvr-pa-dashboard.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -57,7 +57,7 @@ The Operational Technology Vulnerability Response \(PA\) dashboard is now showin
 
 ## What to do next
 
-Now, you can review the indicator sources and determine if you need to override the default records collection. For more information, see [Review the indicator sources for a larger number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/update-indicator-source-to-collect-more-records.md).
+Now, you can review the indicator sources and determine if you need to override the default records collection. For more information, see [Review the indicator sources for a larger number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/update-indicator-source-to-collect-more-records.md).
 
-**Parent Topic:**[Setting up the Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-otvr-pa-dashboard.md)
+**Parent Topic:**[Setting up the Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/setting-up-the-otvr-pa-dashboard.md)
 

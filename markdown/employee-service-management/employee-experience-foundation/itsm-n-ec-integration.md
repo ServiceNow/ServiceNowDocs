@@ -2,7 +2,7 @@
 title: Employee Center for IT Service Management
 description: Employee Center for IT Service Management helps you improve the self-service capabilities and perform diverse admin and service management tasks from a dynamic unified employee portal.Empower users with the operational efficiencies gained from greater self-service, actionable communications, and unified experiences.Leverage Employee Center for ITSM to provide an omni-channel experience to the employees, agents, and service managers.Manage the operational activities to improve the processes and workflows.Use Employee Center for ITSM together to reduce costs, deliver high-quality customer and employee experiences, and drive operational resilience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/itsm-n-ec-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/itsm-n-ec-integration.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +18,7 @@ Employee Center for IT Service Management helps you improve the self-service cap
 
 Automate routine agent interactions and increase the speed of resolution from the Employee Center portal. Recommendations based on machine learning enable automated incident categorization and assignment. It helps eliminate bottlenecks created by manual incident management on the IT Service Management ITSM.
 
-For more information on the Employee Center portal and the features, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
+For more information on the Employee Center portal and the features, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
 
 ## All that you get with Employee Center for ITSM
 
@@ -116,12 +116,12 @@ Configure portal
 
 </td><td>
 
-Configure the following capabilities to optimize the user experience.-   [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md)
--   [Quick links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-quick-link-config.md)
--   [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/rfy-ec.md)
--   [Personalized Answers on Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/personalized-answers-on-employee-center.md)
--   [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md)
--   [My active items widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/my-activity-config.md)
+Configure the following capabilities to optimize the user experience.-   [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md)
+-   [Quick links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-quick-link-config.md)
+-   [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/rfy-ec.md)
+-   [Personalized Answers on Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/personalized-answers-on-employee-center.md)
+-   [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md)
+-   [My active items widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/my-activity-config.md)
 
 </td><td>
 
@@ -133,7 +133,7 @@ Configure mobile content
 
 </td><td>
 
-[Configure mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-delivery-mobile.md)
+[Configure mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-delivery-mobile.md)
 
 </td><td>
 
@@ -145,9 +145,9 @@ Configure curated experiences
 
 </td><td>
 
--   [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md)
--   [Dynamic topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/dynamic-topic-page.md)
--   [Mega menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-mega-menu.md)
+-   [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-taxonomy.md)
+-   [Dynamic topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/dynamic-topic-page.md)
+-   [Mega menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-mega-menu.md)
 
 </td><td>
 
@@ -159,7 +159,7 @@ Work with action framework
 
 </td><td>
 
-[Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md)
+[Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/action-group-framework.md)
 
 </td><td>
 
@@ -171,7 +171,7 @@ Configure unified approvals experience
 
 </td><td>
 
-[Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-intro.md)
+[Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/approval-hub-intro.md)
 
 </td><td>
 
@@ -183,14 +183,14 @@ Configure Employee Profile
 
 </td><td>
 
-[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
+[Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 
 </td><td>
 
 sn\_employee.admin
 
 </td></tr></tbody>
-</table>For more information on configuring Employee Center, see [Employee Center admin configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-ec-portal.md).
+</table>For more information on configuring Employee Center, see [Employee Center admin configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-ec-portal.md).
 
 ## Manage the Employee Center functionalities for ITSM
 
@@ -200,13 +200,13 @@ To manage the operations Employee Center for ITSM, follow these steps.
 
 |Tasks|Capabilities|Roles|
 |-----|------------|-----|
-|Work with taxonomy|[Manage taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-taxonomy-content.md)|sp\_admin, taxonomy admin, or taxonomy manager|
-|Manage content|[Managing content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-governance.md)|Content manager|
-|Manage applications|[Access applications from App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee.md)|admin|
-|Manage campaigns|[Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)|Campaign manager|
-|Manage favorites|[Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md)|admin|
+|Work with taxonomy|[Manage taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-taxonomy-content.md)|sp\_admin, taxonomy admin, or taxonomy manager|
+|Manage content|[Managing content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-governance.md)|Content manager|
+|Manage applications|[Access applications from App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-application-employee.md)|admin|
+|Manage campaigns|[Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)|Campaign manager|
+|Manage favorites|[Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md)|admin|
 
-For more information on managing Employee Center, see [Authoring and managing employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-emp-center.md).
+For more information on managing Employee Center, see [Authoring and managing employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/manage-emp-center.md).
 
 ## Use the Employee Center functionalities for ITSM
 
@@ -216,11 +216,11 @@ To use Employee Center for ITSM capabilities, follow these steps.
 
 |Tasks|Capabilities|Roles|
 |-----|------------|-----|
-|Approve requests from employees|[Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md)|Employee/Approver|
-|Access all your applications in one place|[App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee-about.md)|Employee/Agent|
-|Track all your tasks through the Unified Employee profile|[Use the My To-dos page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-to-dos-use.md)|Employee/Approver|
-|Mark service catalog items and knowledge base articles as your favorites|[Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md)|Employee/Agent|
-|Track your leave balance on the same platform|[Personalized Answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-personalized-search-on-employee-center.md)|Employee/Agent|
+|Approve requests from employees|[Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md)|Employee/Approver|
+|Access all your applications in one place|[App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-application-employee-about.md)|Employee/Agent|
+|Track all your tasks through the Unified Employee profile|[Use the My To-dos page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-to-dos-use.md)|Employee/Approver|
+|Mark service catalog items and knowledge base articles as your favorites|[Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md)|Employee/Agent|
+|Track your leave balance on the same platform|[Personalized Answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-personalized-search-on-employee-center.md)|Employee/Agent|
 
-For more information on using Employee Center, see [Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md).
+For more information on using Employee Center, see [Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md).
 

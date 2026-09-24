@@ -2,7 +2,7 @@
 title: Key user roles and personas
 description: EmployeeWorks Web App provides tailored experiences for everyday employees, content managers, and administrators.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-role-based-productivity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-role-based-productivity.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,7 +36,7 @@ Plan implementation, install Moveworks or Now Assist Chat, and configure brandin
 |Monitor|Track adoption and experience metrics in the analytics dashboard.|
 |Evolve|Expand the experience to apps such as Microsoft Teams, Slack, and other third-party channels.|
 
-For more information on configuration, see [Get started with EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.md)
+For more information on configuration, see [Get started with EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.md)
 
 ## Employee key use cases
 
@@ -52,7 +52,7 @@ From the moment you log in to the moment the task is done, everything runs from 
 |Track|View approvals, tasks, and updates in one timeline in Tasks and requests.|
 |Stay current|Receive targeted notifications and announcements across web and mobile browser.|
 
-For more information, see [EmployeeWorks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md) and [Moveworks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
+For more information, see [EmployeeWorks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md) and [Moveworks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
 
 ## Content manager key use cases
 
@@ -69,5 +69,5 @@ Draft announcements with conversational AI and target the right employees by rol
 |Measure|Review the reach, reads, and sentiment from communications analytics.|
 |Refine|Tune targeting and cadence for the next announcement.|
 
-For more information, see [Employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-employee-comms.md).
+For more information, see [Employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-employee-comms.md).
 

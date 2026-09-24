@@ -2,7 +2,7 @@
 title: Import existing tasks into a CWM Board
 description: Bring existing work from a spreadsheet or document into a CWM Board. Column mapping is generated automatically. Review the mapping, preview the result, and confirm the import.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/import-tasks-cwm-board.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/import-tasks-cwm-board.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -73,7 +73,7 @@ Bring existing work from a spreadsheet or document into a CWM Board. Column mapp
 
 10. If you added any custom columns during the import, enable their display on the Board using the Personalize side panel and save the view.
 
-    For more information on personalizing columns, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
+    For more information on personalizing columns, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
 
 
 ## Result

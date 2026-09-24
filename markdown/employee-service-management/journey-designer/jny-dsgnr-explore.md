@@ -2,7 +2,7 @@
 title: Explore Journey designer features
 description: Organization administrators activate and configure Journey designer to help managers and employees understand and actively collaborate on professional and personal journeys.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-dsgnr-explore.html
 release: australia
 product: Journey Designer
 classification: journey-designer

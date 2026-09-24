@@ -2,7 +2,7 @@
 title: Configure the conference bridge numbers to join calls via phone
 description: Configure the conference bridge number to allow the participants to collaborate to resolve the incidents via the conference bridge number.Reserve a conference bridge number to host the conference calls to work towards the resolution of incidents via conference bridge number.Configure the conference bridge number to be used for collaborating with the participants to resolve the major incidents.Make the conference bridge number available for the participants to join a conference call via the bridge number.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-conference-bridge-number.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-conference-bridge-number.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +18,7 @@ Configure the conference bridge number to allow the participants to collaborate 
 
 **Note:** These are additional configuration, which are optional and can be used as required.
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
 
 ## Reserve a conference bridge number
 

@@ -2,7 +2,7 @@
 title: Configure mobile web screens with Mobile App Bridge
 description: Configure mobile web screens with Mobile App Bridge to enable seismic pages, classic web pages, or service portal pages that are hosted within embedded web views. Using this feature, you can access native mobile functionality on ServiceNow mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/configure-mobile-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/configure-mobile-playbooks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,11 +38,11 @@ For detailed information about adding a playbook to Mobile App Bridge so that yo
 
 1.  Create the Now Experience Framework page in UI Builder.
 
-    For instructions about how to create the page, see [Create a Now Experience Framework page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mob-playbk-create-playbk-pg.md).
+    For instructions about how to create the page, see [Create a Now Experience Framework page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mob-playbk-create-playbk-pg.md).
 
 2.  Create the mobile web screen in MAB.
 
-    For information about configuring a mobile web screen, see [Configure a mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-url-screen.md).
+    For information about configuring a mobile web screen, see [Configure a mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-configure-url-screen.md).
 
 3.  Navigate back to the Now Experience Framework page you configured in UI Builder in Step 1 and in the upper right corner of the page, select **Preview** &gt; **Open URL path**.
 
@@ -55,8 +55,8 @@ For detailed information about adding a playbook to Mobile App Bridge so that yo
 5.  In MAB, select **Save**.
 
 
--   **[Create a Now Experience Framework page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mob-playbk-create-playbk-pg.md)**  
+-   **[Create a Now Experience Framework page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mob-playbk-create-playbk-pg.md)**  
 To configure mobile web screens that use Mobile App Bridge to leverage a playbook on mobile devices, the first step is to create a Now Experience Framework page in UI Builder.
 
-**Parent Topic:**[Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-playbooks.md)
+**Parent Topic:**[Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-playbooks.md)
 

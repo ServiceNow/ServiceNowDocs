@@ -2,7 +2,7 @@
 title: Web analytics viewer \[web\_analytics\_viewer\]
 description: View Usage Insights in the application navigator. Assigned users have viewer role permissions for Usage Insights for web applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-role-6.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/uxa-role-6.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -34,5 +34,5 @@ None.
 
 None.
 
-**Parent Topic:**[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
+**Parent Topic:**[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 

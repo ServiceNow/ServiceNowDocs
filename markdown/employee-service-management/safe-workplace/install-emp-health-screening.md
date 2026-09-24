@@ -2,7 +2,7 @@
 title: Install Employee Health Screening
 description: You can install the Employee Health Screening application if you have the admin role. This application includes demo data and installs the related store applications and plugins if they are not already installed.Roles and tables are installed with the Employee Health Screening application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/install-emp-health-screening.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/install-emp-health-screening.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -63,7 +63,7 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/employee-health-screening.md)
 
 ## Components installed with Employee Health Screening
 

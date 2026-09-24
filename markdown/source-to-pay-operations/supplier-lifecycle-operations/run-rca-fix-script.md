@@ -2,7 +2,7 @@
 title: Run the fix script for RCA approvals
 description: After you install the Supplier Collaboration Portal application from ServiceNow Store, you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/run-rca-fix-script.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/run-rca-fix-script.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -49,12 +49,12 @@ After you download the script file, perform the following steps.
     RCA fix script can approve the RCAs which exist at the time of execution. After running the RCA script, if you install any new plugins, rerun the RCA script to approve the new RCAs.
 
 
-**Parent Topic:**[Restricted caller access approvals for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/rca-approvals.md)
+**Parent Topic:**[Restricted caller access approvals for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/rca-approvals.md)
 
 **Related topics**  
 
 
 [Approve restricted caller access privileges manually]()
 
-[Approve restricted caller access privileges manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/approve-rca-for-supp-central.md)
+[Approve restricted caller access privileges manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/approve-rca-for-supp-central.md)
 

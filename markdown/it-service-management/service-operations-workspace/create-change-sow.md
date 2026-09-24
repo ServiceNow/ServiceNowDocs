@@ -2,7 +2,7 @@
 title: Create a change request in Service Operations Workspace
 description: Track modifications to a supported configuration item \(CI\) by using a change request. You can record information such as the reason for the change, and the change type, priority, and risk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-change-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-change-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -26,15 +26,15 @@ Role required: itil or admin
 
 1.  Create a new change request.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d181413e55">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d181412e55">
 
 Source
 
-</th><th align="left" id="d181413e58">
+</th><th align="left" id="d181412e58">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d181413e64">
+</th></tr></thead><tbody><tr><td id="d181412e64">
 
 **Change list**
 
@@ -50,7 +50,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d181413e100">
+</td></tr><tr><td id="d181412e100">
 
 **From a change template**
 
@@ -69,9 +69,9 @@ Description
 5.  View the new change request record created using the selected template by selecting **Continue**.
  **Note:** When you select an existing template, information in the predefined fields will be populated. Template fields are either read-only or mandatory depending on the template field policies configured while creating the template.
 
-For more information on change templates, see [Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-template-sow.md).
+For more information on change templates, see [Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-change-template-sow.md).
 
-</td></tr><tr><td id="d181413e165">
+</td></tr><tr><td id="d181412e165">
 
 **Incident**
 
@@ -81,7 +81,7 @@ For more information on change templates, see [Create and propose a change templ
 2.  In the incident record form, select **Create change request**.
 
 
-</td></tr><tr><td id="d181413e187">
+</td></tr><tr><td id="d181412e187">
 
 **Interaction**
 
@@ -91,7 +91,7 @@ For more information on change templates, see [Create and propose a change templ
 2.  In the interaction record form, from the **Create incident** drop-down list, select **Create change**.
 
 
-</td></tr><tr><td id="d181413e211">
+</td></tr><tr><td id="d181412e211">
 
 **Problem**
 
@@ -295,7 +295,7 @@ Information about how to resolve the change or steps taken to resolve it, if app
 
 7.  Schedule the implementation for the change and view conflicts detected.
 
-    **Note:** The conflict detection feature is unavailable if the **Exclude from conflict detection** check box in the Change Request form is selected. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_RunManualConflictDetection.md)
+    **Note:** The conflict detection feature is unavailable if the **Exclude from conflict detection** check box in the Change Request form is selected. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_RunManualConflictDetection.md)
 
     1.  Select **Set schedule**.
 
@@ -383,7 +383,7 @@ Last checked
 Date when the conflict detection process was last run.
 
 </td></tr></tbody>
-</table>        For more information, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md).
+</table>        For more information, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md).
 
         **Note:** You can also run the conflict detection process manually by selecting **Check conflicts**.
 
@@ -467,11 +467,11 @@ The specific data to associate with the change request. You can select multiple 
 
 10. Select **New** in **Change task** section.
 
-    For more information to create a change task, refer [Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-task-sow.md).
+    For more information to create a change task, refer [Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-change-task-sow.md).
 
 11. Associate the change with a product or service release.
 
-    This option is available only if you have the Digital Product Release v2.4 installed. For more information, see [Associating change requests with releases in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-sow-integration-cr.md).
+    This option is available only if you have the Digital Product Release v2.4 installed. For more information, see [Associating change requests with releases in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-sow-integration-cr.md).
 
     1.  Select **Assign** in the **Related release** card on the contextual side panel.
 
@@ -513,12 +513,12 @@ The specific data to associate with the change request. You can select multiple 
 14. Select **Save**.
 
 
--   **[Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-template-sow.md)**  
+-   **[Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-change-template-sow.md)**  
 Create, customize, and then propose a change template aligned to a change model.
--   **[Propose a single change to a CI in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/propose-single-change-ci.md)**  
+-   **[Propose a single change to a CI in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/propose-single-change-ci.md)**  
 Propose new values for one or more CI attributes, review the proposed values, and apply them after the change request reaches the Implement state in Service Operations Workspace \(SOW\).
 
-**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/change-sow.md)
+**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/change-sow.md)
 
 **Related topics**  
 

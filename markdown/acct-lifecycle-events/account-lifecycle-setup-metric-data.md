@@ -2,7 +2,7 @@
 title: Data Context Engine
 description: The Data Context Engine aggregates data from multiple sources—both internal and external—collecting it in one place to support configuration decisions based on aggregated data .
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-setup-metric-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-setup-metric-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ Data collected by the Data Context Engine is used to calculate and maintain:
 -   Risk signals: Identify and generate risk signals.
 -   Success outcomes: Create success outcomes based on the collected data
 
-To collect and use data, you must set up a data source and link it to the appropriate context table \(engagement, success outcome, or product usage\). The Context Engine Data table stores this information and updates health scores, adoption metrics, risk signals, and success outcomes when scheduled jobs run. For more details, see [Configure the Data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-dce.md).
+To collect and use data, you must set up a data source and link it to the appropriate context table \(engagement, success outcome, or product usage\). The Context Engine Data table stores this information and updates health scores, adoption metrics, risk signals, and success outcomes when scheduled jobs run. For more details, see [Configure the Data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-dce.md).
 

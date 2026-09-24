@@ -2,7 +2,7 @@
 title: Exploring Zero Copy Connector for ERP remote tables and extraction tables
 description: Configure remote tables and extraction tables to work with data from the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/exploring-erp-remote-tables-and-extraction-tables.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/exploring-erp-remote-tables-and-extraction-tables.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework

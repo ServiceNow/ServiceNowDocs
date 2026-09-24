@@ -2,7 +2,7 @@
 title: Create a unique metric definition name
 description: Specify the value formula in the sn\_grc\_metric\_definition in the required record table to create unique metric definition names to import data from an external source such as Watershed spreadsheets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-unique-metric-definition-names.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-unique-metric-definition-names.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -106,5 +106,5 @@ Specify the sequence of the formula. Multiple value formula under same required 
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-grc-metrics.md)
 

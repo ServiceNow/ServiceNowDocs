@@ -2,10 +2,10 @@
 title: Inbound Request Configuration
 description: Enables you to define the configurations to determine how each flow is processed and tracked within an Inbound Request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/inbound-request-configuration-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/inbound-request-configuration-table.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Inbound Request, Sales and Service API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---

@@ -2,7 +2,7 @@
 title: Modify the email notification for change request state changes
 description: There is a change request email notification, which, if active, sends a notification to the user when the state progresses to Scheduled, Implement, Review, or Canceled. You can modify the change request notification to specify when to send it, who receives it, and what it contains.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-state-change-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/configure-state-change-notifications.html
 release: australia
 product: Change Management
 classification: change-management
@@ -41,5 +41,5 @@ By default, the notification is sent to the user who originally requested the ch
 5.  Select **Update**.
 
 
-**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/exploring-change-management.md)
+**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 

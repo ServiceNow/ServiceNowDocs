@@ -2,7 +2,7 @@
 title: Domain separation in AI Agent Studio
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for AI agents in the AI Agent Studio. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-studio-domain-separation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-studio-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ AI agents use basic domain separation capabilities to help protect your users' d
 
     Refers to the agentic conversation on the ServiceNow Otto panel, web client, or any conversational channel. In the agentic conversations, the user that the agent impersonates functions as an agent with any AI agents who initiate the conversation on demand. For example, if the conversation is happening via a trigger mentioned on the **Run as** field on the Trigger form of an agentic workflow. If the user that the agent impersonates belongs to the same or a higher domain, that agent can access and use configurations that are associated with that domain.
 
-    The domain visibility for an agentic workflow is resolved during run time based on the **Run as** attribute in the agentic workflow trigger condition. For more information, see [defining a trigger for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
+    The domain visibility for an agentic workflow is resolved during run time based on the **Run as** attribute in the agentic workflow trigger condition. For more information, see [defining a trigger for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-use-case-ai-agents.md).
 
 
 When an agentic conversation is triggered on demand, the domain visibility is applied to the particular agent in action. When an agentic conversation is initiated through a trigger, the domain visibility is applied to the user who resolves the caller \(in an incident record where the **Run as** attribute is set to **Caller**\), when the conversation runs against the incident record.

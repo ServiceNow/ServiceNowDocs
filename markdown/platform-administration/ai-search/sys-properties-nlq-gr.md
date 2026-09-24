@@ -2,7 +2,7 @@
 title: System properties for NLQ Genius Results
 description: A system property determines whether the system displays search result preview lists for NLQ Genius Result answers in Service Portal search applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/sys-properties-nlq-gr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/sys-properties-nlq-gr.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -43,5 +43,5 @@ Specifies whether the system displays search result preview lists for NLQ Genius
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-nlq-ais.md)
+</table>**Parent Topic:**[NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/genius-result-nlq-ais.md)
 

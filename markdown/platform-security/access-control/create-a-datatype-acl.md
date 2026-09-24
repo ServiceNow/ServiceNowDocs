@@ -2,7 +2,7 @@
 title: Create a datatype ACL
 description: Learn how to create a datatype ACL.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/create-a-datatype-acl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/create-a-datatype-acl.html
 release: australia
 product: Access Control
 classification: access-control
@@ -34,7 +34,7 @@ Role required: admin
 
 6.  Fill in any additional details on the **Create an ACL** form.
 
-    See [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md) for additional information.
+    See [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/t_CreateAnACLRule.md) for additional information.
 
 7.  Select **Submit**.
 

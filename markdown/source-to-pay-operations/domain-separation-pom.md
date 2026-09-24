@@ -2,7 +2,7 @@
 title: Domain separation and Purchase Order Management
 description: Domain separation is unsupported for Purchase Order Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/domain-separation-pom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/domain-separation-pom.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +21,7 @@ Domain separation is unsupported for Purchase Order Management. Domain separatio
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Configure Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-purch-order-mgmt.md)
+**Parent Topic:**[Configure Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/configure-purch-order-mgmt.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Install Otto chat application
 description: Install and activate the plugin to enable AI-powered conversational experience in Employee Center and Employee Center Pro.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mw-install-app.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/mw-install-app.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

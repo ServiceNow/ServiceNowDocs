@@ -2,7 +2,7 @@
 title: Digital Portfolio Management
 description: Manage and maintain all your solutions \(services, service offerings, business applications, and service instances\) from a single location using the ServiceNow Digital Portfolio Management \(DPM\) Workspace. DPM pulls in data from across the ServiceNow platform so you see impacts in the context of solutions that you own or care about.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-landing.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -24,27 +24,27 @@ This video provides an overview to manage your service-related data in the DPM W
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the Digital Portfolio Management \(DPM\) Workspace concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-explore-cfw.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the Digital Portfolio Management \(DPM\) Workspace concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-explore-cfw.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the DPM Workspace environment, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the DPM Workspace environment, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 
 </td></tr><tr><td>
 
-[Get started\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Get started with the DPM Workspace and manage your solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-using-cfx.md)
+[Get started\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Get started with the DPM Workspace and manage your solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-using-cfx.md)
 
 </td><td>
 
-[Work with portfolios\[Omitted image "bus-asset.svg"\] Alt text:Work with personal and enterprise portfolios in the DPM Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-explore-portfolios.md)
+[Work with portfolios\[Omitted image "bus-asset.svg"\] Alt text:Work with personal and enterprise portfolios in the DPM Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-explore-portfolios.md)
 
 </td></tr><tr><td>
 
-[Work with solution data\[Omitted image "bus-application-developer.svg"\] Alt text:Work with solution data in DPM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
+[Work with solution data\[Omitted image "bus-application-developer.svg"\] Alt text:Work with solution data in DPM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-working-with.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get information about the DPM Workspace administration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get information about the DPM Workspace administration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

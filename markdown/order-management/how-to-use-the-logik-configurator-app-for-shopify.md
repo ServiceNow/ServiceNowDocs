@@ -2,7 +2,7 @@
 title: Integrating CPQ with Shopify
 description: The CPQ app for Shopify enables stores to seamlessly manage and sell configurable products using CPQ advanced CPQ \(Configure, Price, Quote\) features. Installation and setup are streamlined, and robust Admin options are provided for both technical and non-technical users.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/how-to-use-the-logik-configurator-app-for-shopify.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/how-to-use-the-logik-configurator-app-for-shopify.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ The CPQ app for Shopify is free to download on the Shopify app store:
 
 After downloading the CPQ app it will automatically appear in the Apps section of the store.
 
-To start using the app, the CPQ environment details and a token must be entered in the CPQ settings section of the app landing screen. For more information about creating a CPQ token, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-runtime-client.md).
+To start using the app, the CPQ environment details and a token must be entered in the CPQ settings section of the app landing screen. For more information about creating a CPQ token, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-runtime-client.md).
 
 **Note:** Ensure the storefront and the Admin URLs are added as an origin for the token. All stores should also include the following static URL to their list of origins: [https://shpfy-connect.ecommerce.](https://shpfy-connect.ecommerce.logik.io/).
 

@@ -2,7 +2,7 @@
 title: Using Care Team Portal
 description: Use the Care Team Portal to create and track service requests, manage your teams, and review knowledge base articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/care-team-portal-using.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/care-team-portal-using.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-27"

@@ -2,7 +2,7 @@
 title: MITRE ATLAS framework
 description: The MITRE ATLAS framework documents adversarial tactics and techniques targeting AI \(artificial intelligence\) and ML \(machine learning\) systems, complementing traditional IT security frameworks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/about-mitre-atlas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/about-mitre-atlas.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-05"
@@ -33,7 +33,7 @@ For example, a technique ID might be `AML.T0000`, and a tactic ID might be `AML.
 
 Technique names can collide between the two frameworks, so the ID is the reliable indicator. There is no separate object type for MITRE ATLAS.
 
-For setup steps, see [Activate the MITRE ATLAS framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/setup-mitre-atlas-profile.md).
+For setup steps, see [Activate the MITRE ATLAS framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/setup-mitre-atlas-profile.md).
 
 ## TAXII collection
 

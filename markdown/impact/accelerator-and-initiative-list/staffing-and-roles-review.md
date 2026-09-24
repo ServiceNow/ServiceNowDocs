@@ -2,7 +2,7 @@
 title: Staffing and Roles Review
 description: Insights into staffing and roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/staffing-and-roles-review.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/staffing-and-roles-review.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,9 +19,9 @@ Insights into staffing and roles.
 **Related topics**  
 
 
-[Staffing and Roles Review – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review-advanced.md)
+[Staffing and Roles Review – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/staffing-and-roles-review-advanced.md)
 
-[Staffing and Roles Review – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review-total.md)
+[Staffing and Roles Review – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/staffing-and-roles-review-total.md)
 
-[Staffing and Roles Review-On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review-on-demand.md)
+[Staffing and Roles Review-On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/staffing-and-roles-review-on-demand.md)
 

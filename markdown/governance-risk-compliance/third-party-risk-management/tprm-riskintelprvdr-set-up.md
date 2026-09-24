@@ -2,7 +2,7 @@
 title: Set up a risk intelligence provider service
 description: After you register a risk intelligence provider, you specify which of the provider's scoring or rating services you’ll use. You also specify how their scores or ratings map to your TPRM ratings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -84,7 +84,7 @@ Risk area
 
 Select the third-party risk domain associated with the score type.
 
- For more information, see [Define a third-party risk domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-define.md).
+ For more information, see [Define a third-party risk domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-define.md).
 
  **Note:** Risk domains are called "risk areas" in some platform applications.
 
@@ -113,8 +113,8 @@ If applicable, specify an existing service with this provider that uses identica
 
     You can now specify the types of requests that you might later request from the provider.
 
-    A request type is the name of the report available for the provider. For more information, [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
+    A request type is the name of the report available for the provider. For more information, [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
 
 
-**Parent Topic:**[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
+**Parent Topic:**[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
 

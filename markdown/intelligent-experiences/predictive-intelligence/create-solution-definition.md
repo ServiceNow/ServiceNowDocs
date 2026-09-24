@@ -2,7 +2,7 @@
 title: Create and train a classification solution
 description: Specify the records used to train a classification solution, what fields trigger a prediction, and how often you want to retrain your solution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/create-solution-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/create-solution-definition.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -18,7 +18,7 @@ Specify the records used to train a classification solution, what fields trigger
 
 ## Before you begin
 
--   [Create a custom stopwords list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.md) if needed.
+-   [Create a custom stopwords list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.md) if needed.
 -   Role required: admin or ml\_admin
 
 **Important:** In the Australia release, models in the classification, clustering, and similarity frameworks use Workflow solutions. These are pre-trained, so a word corpus isn't needed for your new solutions. When your existing solutions with a word corpus are re-trained after upgrading, they become Workflow solutions, and the Word Corpus field is removed from the form.
@@ -27,9 +27,9 @@ Specify the records used to train a classification solution, what fields trigger
 
 A predictive model is only as good as the data that you use to train it. To select appropriate records for training, examine the table's database dictionary as well as the current quality of the record values that you want to use.
 
-For information on using encrypted training data, see [Data Encryption in Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-encryption.md).
+For information on using encrypted training data, see [Data Encryption in Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/predictive-intelligence-encryption.md).
 
-For information about the minimum and maximum number of records you can use for training, see [Predictive Intelligence properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-properties.md).
+For information about the minimum and maximum number of records you can use for training, see [Predictive Intelligence properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/predictive-intelligence-properties.md).
 
 **Note:** Classes that have fewer than 30 records in your training dataset are excluded from solution training. When your solution is trained and complete, any excluded classes are listed in the Solution Statistics section of your ML Solution form.
 
@@ -37,7 +37,7 @@ For information about the minimum and maximum number of records you can use for 
 
 You must create a separate solution definition for each predictive model you want to support. The following procedure explains how to create a new classification solution, but you can also copy an existing solution definition and its configuration into a new record by selecting **Copy Solution Definition** from the context menu. Edit the field values on the new record as needed.
 
-From the Yokohama release, you can also create a Workflow Classification solution using a script if you want to include an analysis of the key features influencing the model's predictions. For more information see [Model Explainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intel-explainability.md).
+From the Yokohama release, you can also create a Workflow Classification solution using a script if you want to include an analysis of the key features influencing the model's predictions. For more information see [Model Explainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/predictive-intel-explainability.md).
 
 ## Procedure
 
@@ -77,7 +77,7 @@ Word Corpus
 
 </td><td>
 
-Select a word corpus that's relevant to your solution. For more information, see [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-word-corpus.md).
+Select a word corpus that's relevant to your solution. For more information, see [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-word-corpus.md).
 
  **Note:** Word Corpus is not a required field for customers implementing Predictive Intelligence for the first time starting in Utah. A pre-trained model is used instead. The Word Corpus field is removed for pre-trained models.
 

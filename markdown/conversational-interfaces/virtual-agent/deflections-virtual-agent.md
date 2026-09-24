@@ -2,7 +2,7 @@
 title: Using the deflection topic block to track deflections in Virtual Agent
 description: Use the pre-built deflection topic block in ServiceNow Virtual Agent to track the issues that Virtual Agent helped to resolve or actually resolved for a user. Incident deflection patterns and metrics can help you optimize and analyze the effectiveness of Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/deflections-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/deflections-virtual-agent.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +18,7 @@ Use the pre-built deflection topic block in ServiceNow® Virtual Agent to track 
 
 A deflection occurs when Virtual Agent automatically redirect users to self-service options or knowledge base articles that can help them solve their problems without requiring the assistance of a live agent. As a result, the user might not need to create an incident. If necessary, however, Virtual Agent can ask relevant questions and then create an incident in the correct assignment group. This workflow becomes more efficient because no live agent has to get involved.
 
-The Virtual Agent deflection tracking is enabled by default, but you must set up the deflection configuration and deflection patterns to capture certain deflection metrics. For more information, see [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md).
+The Virtual Agent deflection tracking is enabled by default, but you must set up the deflection configuration and deflection patterns to capture certain deflection metrics. For more information, see [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md).
 
 You use deflection configurations to group deflection patterns. A deflection configuration can consist of one or more deflection patterns. Deflection patterns categorize Virtual Agent activities in conversations for tracking deflection metrics. For example, let's say that Virtual Agent adds a user to an email list without creating a task in the Task table to complete the workflow. You can categorize this activity as a self-resolving deflection pattern.
 
@@ -37,7 +37,7 @@ You can either create new deflection patterns, or use these pre-built deflection
 |VA-Self-Resolving|Virtual Agent completes the workflow on its own without creating an incident. For example, Virtual Agent adds a user to a distribution list.|Confirmed deflection|
 |VA-Intercept &amp; Resolved|Virtual Agent intercepts an incident that was created by a user and provides a resolution to close the incident. An example is when Incident Auto Resolution resolves an incident.|Confirmed deflection|
 
-The deflection configuration and deflection pattern that you create in the deflection settings are mapped to the deflection topic block. For example, the pre-built Issue Auto Resolution topic uses a deflection topic block to track deflections. For more information, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md) and [Virtual Agent pre-built topic blocks for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-platform-topicblocks.md).
+The deflection configuration and deflection pattern that you create in the deflection settings are mapped to the deflection topic block. For example, the pre-built Issue Auto Resolution topic uses a deflection topic block to track deflections. For more information, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/topic-blocks-overview.md) and [Virtual Agent pre-built topic blocks for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-platform-topicblocks.md).
 
 The deflection metrics are generated and stored in the Deflection Metric \[ssa\_deflection\_metric\] table. To view the deflection metrics, navigate to the Deflection Metrics module in the Self-Service Analytics framework.
 
@@ -47,8 +47,8 @@ The deflection metrics are generated and stored in the Deflection Metric \[ssa\_
 
 You can also view the visualization for deflection metrics in the **Overview** tab of the Conversational Analytics Dashboard. For more information, see .
 
--   **[Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md)**  
+-   **[Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md)**  
 Set up deflection settings to create deflection configurations and deflection patterns that you can map to deflection topic blocks in Virtual Agent conversation topics. These deflections help you to track the issues that Virtual Agent helped to resolve or actually resolved for a user.
 
-**Parent Topic:**[Case and incident deflection in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/case-incident-deflection-virtual-agent.md)
+**Parent Topic:**[Case and incident deflection in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/case-incident-deflection-virtual-agent.md)
 

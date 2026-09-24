@@ -2,7 +2,7 @@
 title: Configure user authentication for Conversational IVR
 description: You must configure the authentication level for how the end-user can be authenticated to be the logged-in ServiceNow user using Voice.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/setup-user-authentication-ivr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/setup-user-authentication-ivr.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -75,5 +75,5 @@ Role required: admin
 9.  Click **Save**.
 
 
-**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-ivr.md)
+**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-ivr.md)
 

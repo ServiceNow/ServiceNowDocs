@@ -2,7 +2,7 @@
 title: Diagnostics Feature form
 description: Learn about the fields of diagnostics feature form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/diagnostics-feature-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/diagnostics-feature-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -68,5 +68,5 @@ An identifier for the user input condition. If a user specifies multiple conditi
 </table>**Related topics**  
 
 
-[Create and add diagnostic features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-diagnostic-feature.md)
+[Create and add diagnostic features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/add-diagnostic-feature.md)
 

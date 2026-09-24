@@ -2,7 +2,7 @@
 title: Add a business process to a business unit
 description: Add existing business processes to a business unit or create a new business process from the business unit record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-business-process-to-business-unit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-business-process-to-business-unit.html
 release: australia
 topic_type: task
 last_updated: "2026-08-03"
@@ -39,18 +39,18 @@ Role required: sn\_apm.apm\_user
         1.  Select **Add**.
         2.  In the Add business process window, search for and select the business process.
         3.  Select **Add**.
-    -   To create a business process, select **New** and complete the fields on the form. For field descriptions, see [Create business process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-process-form.md).
+    -   To create a business process, select **New** and complete the fields on the form. For field descriptions, see [Create business process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-business-process-form.md).
 
 ## Result
 
 The business process appears in the **Related business processes** related list for the business unit.
 
-**Parent Topic:**[Manage business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-units.md)
+**Parent Topic:**[Manage business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-business-units.md)
 
 **Related topics**  
 
 
-[Remove a business process from a business unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-process-from-business-unit.md)
+[Remove a business process from a business unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-remove-business-process-from-business-unit.md)
 
-[View all business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-units.md)
+[View all business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-business-units.md)
 

@@ -2,7 +2,7 @@
 title: Exploring Reverse Tunnel
 description: Reverse Tunnel enables Zero Copy Connectors to reach private or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/exploring-reverse-tunnel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/exploring-reverse-tunnel.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-31"
@@ -55,7 +55,7 @@ The setup workflow involves the following primary activities:
 
     Two gateway records are automatically attached to the Gateways field, tied to the instance name.
 
-5.  Backend services registration: The relay manager adds a service endpoint to the relay record for each data source to be accessed through the tunnel. For details, see [Manage relay service endpoints through Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-relay-services.md).
+5.  Backend services registration: The relay manager adds a service endpoint to the relay record for each data source to be accessed through the tunnel. For details, see [Manage relay service endpoints through Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-relay-services.md).
 6.  Zero Copy Connectors connection setup: The relay manager configures the connector in Zero Copy Connectors with the required credentials and tests the connection.
 
 ## Reverse Tunnel benefits
@@ -64,12 +64,12 @@ The setup workflow involves the following primary activities:
 |-------|-------|
 |Connect to private cloud or on-premises data sources without having to open inbound firewall ports.|Reverse Tunnel|
 |Establish encrypted connections between your private network and Workflow Data Fabric without exposing data source credentials or IP addresses.|Reverse Tunnel|
-|Manage and monitor private relay registrations and connection health from your ServiceNow instance.|[Monitoring relay connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/using-reverse-tunnel.md)|
+|Manage and monitor private relay registrations and connection health from your ServiceNow instance.|[Monitoring relay connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/using-reverse-tunnel.md)|
 
 ## What to explore next
 
 To learn more about configuring and using Reverse Tunnel, see:
 
--   [Configuring Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-reverse-tunnel.md)
--   [Monitoring relay connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/using-reverse-tunnel.md)
+-   [Configuring Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configuring-reverse-tunnel.md)
+-   [Monitoring relay connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/using-reverse-tunnel.md)
 

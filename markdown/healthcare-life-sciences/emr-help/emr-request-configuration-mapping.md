@@ -2,7 +2,7 @@
 title: Request configuration mapping table
 description: The Request configuration mapping \[sn\_ind\_rmt\_help\_defn\_param\_data\_map\] table stores the association between the request parameter and the request definition.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-request-configuration-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/emr-help/emr-request-configuration-mapping.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -108,5 +108,5 @@ Reference
 References the remote request parameter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)
+</table>**Parent Topic:**[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)
 

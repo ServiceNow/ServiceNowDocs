@@ -2,7 +2,7 @@
 title: Activate Sidebar for the Field Service Mobile Agent application
 description: You can activate the Sidebar for Field Service Management plugin \(sn\_fsm\_sidebar\) for Field Service Management if you have the admin role. Activating this plugin enables the Sidebar feature on the Mobile Agent application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-sidebar-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-sidebar-mobile.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -46,7 +46,7 @@ Activating this plugin enables the Sidebar feature on the Mobile Agent applicati
 **Related topics**  
 
 
-[Start a Sidebar discussion on the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/start-sidebar-mobile.md)
+[Start a Sidebar discussion on the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/start-sidebar-mobile.md)
 
-[Summarize a Sidebar discussion on the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/na-fsm-summarize-sidebar-mobile.md)
+[Summarize a Sidebar discussion on the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/na-fsm-summarize-sidebar-mobile.md)
 

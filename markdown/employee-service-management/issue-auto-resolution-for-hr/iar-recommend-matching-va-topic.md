@@ -2,7 +2,7 @@
 title: Enhanced search results in IAR with Virtual Agent
 description: The Issue Auto Resolution application enhances search by adding Virtual Agent to the pipeline flow. Employees now receive topic recommendations for noncritical cases before general AI search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/issue-auto-resolution-for-hr/iar-recommend-matching-va-topic.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/issue-auto-resolution-for-hr/iar-recommend-matching-va-topic.html
 release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr

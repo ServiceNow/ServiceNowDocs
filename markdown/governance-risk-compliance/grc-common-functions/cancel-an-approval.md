@@ -2,7 +2,7 @@
 title: Cancel an approval
 description: Cancel a pending approval request on an issue or remediation task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/cancel-an-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/cancel-an-approval.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -37,5 +37,5 @@ Role required: sn\_grc\_appr.approver
 
 The approval request is cancelled. If the request was for a state change, the record remains at its current state until a new approval request is submitted and approved.
 
-**Parent Topic:**[Issue approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-approval-flows.md)
+**Parent Topic:**[Issue approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-approval-flows.md)
 

@@ -2,7 +2,7 @@
 title: Managing data interfaces
 description: Create a data interface to control how source data is filtered, combined, and exposed to consumers as a stable, governed schema.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/manage-data-interfaces\_wdf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/manage-data-interfaces\_wdf.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -31,14 +31,14 @@ If you select one source table, the combination method is automatically set to S
     Stacks rows from multiple source tables with compatible schemas into a single view. Use this when the same type of data is distributed across systems or regions and consumers need a consolidated view. All rows from all tables are included.
 
 
--   **[Create a data interface from a single table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-data-interface-single-table-wdf.md)**  
+-   **[Create a data interface from a single table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-data-interface-single-table-wdf.md)**  
 Create a governed data interface on a single source table and publish it to the Data Catalog so consumers can access the data through a stable schema.
--   **[Create a data interface using UNION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-data-interface-union-wdf.md)**  
+-   **[Create a data interface using UNION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-data-interface-union-wdf.md)**  
 Create a governed data interface that consolidates rows from two or more source tables with compatible schemas using UNION. Publish it to the Data Catalog so consumers can access an aggregated view through a stable schema.
--   **[Create a data interface using JOIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-data-interface-join-wdf.md)**  
+-   **[Create a data interface using JOIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-data-interface-join-wdf.md)**  
 Create a governed data interface that combines rows from two or more source tables using an INNER JOIN and publish it to the Data Catalog. Consumers can access a unified view through a stable schema.
--   **[Edit a data interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-data-interface-wdf.md)**  
+-   **[Edit a data interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/edit-data-interface-wdf.md)**  
 Update a published data interface in place when source data or consumer requirements change, without unpublishing or recreating the interface.
 
-**Parent Topic:**[Data Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-products.md)
+**Parent Topic:**[Data Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-products.md)
 

@@ -2,7 +2,7 @@
 title: Enabling access to a data source
 description: Work with your data source administrator to enable access to your external data source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/enabling-access-data-source-zcc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/enabling-access-data-source-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,5 +25,5 @@ To connect to a data source behind a private network using a zero copy connectio
     For data sources hosted behind private Virtual Private Clouds \(VPCs\) or Virtual Networks \(VNets\) in the public cloud, connectivity options are available that enable query traffic to transit over private IP address space, end to end. This private connectivity is enabled by technologies such as [Private Link](https://learn.microsoft.com/en-us/azure/private-link/private-link-overview). Each cloud provider implements this technology differently. To explore private connectivity options for your specific topology, contact your account manager or Customer Service and Support.
 
 
-**Parent Topic:**[Configuring Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-zcc.md)
+**Parent Topic:**[Configuring Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configuring-zcc.md)
 

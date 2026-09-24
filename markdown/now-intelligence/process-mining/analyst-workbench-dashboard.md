@@ -2,7 +2,7 @@
 title: Analyst workbench page
 description: View the visualized process map with tools for managing visualizations and performing analysis tasks from a project's page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/analyst-workbench-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/analyst-workbench-dashboard.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -49,7 +49,7 @@ Use the Filter breakdowns icon \(\[Omitted image "filter.png"\] Alt text: Filter
 
 </td></tr><tr><td>
 
-Use the **Process steps** button to define advanced filters on your transitions. For details on this process, see [Create a process step filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-transition-manually.md).You can filter the parent and the child tables in the multidimensional projects.
+Use the **Process steps** button to define advanced filters on your transitions. For details on this process, see [Create a process step filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-transition-manually.md).You can filter the parent and the child tables in the multidimensional projects.
 
 </td><td>
 
@@ -120,7 +120,7 @@ Select a node or transition line within the map to view additional details about
 
  Select a bar, and select **Apply as filter** to filter by these results.
 
- For more information on using this tool, [Refining a process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-data.md).
+ For more information on using this tool, [Refining a process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/analyze-data.md).
 
  When you select a node, the modal window displays the outgoing and incoming distribution of records via the selected node.
 
@@ -138,9 +138,9 @@ When you select a transition line, the modal window displays the occurrences, re
 
  For information on each analysis, see the following topics:
 
--   [Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md)
--   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/worknotes-analysis.md)
--   [Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/auto-rca.md)
+-   [Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/cluster-analysis.md)
+-   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/worknotes-analysis.md)
+-   [Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/auto-rca.md)
 
 </td><td>
 
@@ -220,7 +220,7 @@ You can view the number of idle time cases for the project from the process map.
 
 Create a Task Mining project.Select a node, then select the **Create project** button in the Task Mining section.
 
-For information on creating a Task Mining project, see [Create Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-task-mining-project.md).
+For information on creating a Task Mining project, see [Create Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-task-mining-project.md).
 
 You can access the associated Task Mining projects from the right panel using the icon \(\[Omitted image "icon-asso-proj.png"\] Alt text: Task Mining icon\).
 
@@ -229,7 +229,7 @@ You can access the associated Task Mining projects from the right panel using th
 \[Omitted image "wrkbench-tm.png"\] Alt text: Create a Task Mining project
 
 </td></tr></tbody>
-</table>**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-po-map.md).
+</table>**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-po-map.md).
 
-**Parent Topic:**[Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-view-screen.md)
+**Parent Topic:**[Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/project-view-screen.md)
 

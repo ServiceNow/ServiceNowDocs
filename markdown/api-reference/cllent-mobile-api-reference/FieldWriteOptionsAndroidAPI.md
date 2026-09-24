@@ -2,7 +2,7 @@
 title: FieldWriteOptions structure - Android
 description: The FieldWriteOptions class provides functions that set the options for updating or creating fields in a record on a ServiceNow instance.Sets the options for writing or creating fields in a record on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/FieldWriteOptionsAndroidAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/FieldWriteOptionsAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -20,7 +20,7 @@ The FieldWriteOptions class provides functions that set the options for updating
 |----|----|-----------|
 |queryItems|[Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/)&lt;String, String&gt;|Collection of request query items that represent the write options.|
 
-**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## FieldWriteOptions - FieldWriteOptions\(vararg options: FieldWriteOptions.Options\)
 

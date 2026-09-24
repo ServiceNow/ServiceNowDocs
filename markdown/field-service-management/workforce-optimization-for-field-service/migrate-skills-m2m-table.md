@@ -2,7 +2,7 @@
 title: Migrate skills to the Task Skill table
 description: Migrate data from the Skills field to the Task Skills table to utilize mandatory skills support for executing tasks in a case or work order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/migrate-skills-m2m-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/migrate-skills-m2m-table.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

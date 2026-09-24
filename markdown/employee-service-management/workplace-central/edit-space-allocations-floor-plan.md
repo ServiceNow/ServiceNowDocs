@@ -2,7 +2,7 @@
 title: Edit space allocations on the floor plan
 description: Use the floor plan to edit space or neighborhood allocations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/edit-space-allocations-floor-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/edit-space-allocations-floor-plan.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -52,15 +52,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 6.  Edit the space allocations based on your requirement.
 
-<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d207861e169">
+<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d207723e169">
 
 Action
 
-</th><th align="left" id="d207861e172">
+</th><th align="left" id="d207723e172">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d207861e178">
+</th></tr></thead><tbody><tr><td id="d207723e178">
 
 **Edit space allocation**
 
@@ -80,7 +80,7 @@ Steps
 6.  Select **Apply**.
  **Note:** For Workplace Entities, if you add a parent and child entity as allocations, only the child entity is displayed on the map legend.
 
-</td></tr><tr><td id="d207861e258">
+</td></tr><tr><td id="d207723e258">
 
 **Remove allocations**
 
@@ -100,5 +100,5 @@ You can also review the current allocation details based on your selection.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Floor Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/use-floor-plan.md)
+**Parent Topic:**[Use Floor Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/use-floor-plan.md)
 

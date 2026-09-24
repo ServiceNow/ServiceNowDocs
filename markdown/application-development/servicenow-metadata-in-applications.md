@@ -2,7 +2,7 @@
 title: ServiceNow metadata in applications
 description: ServiceNow metadata refers to the configuration and structural definitions that make up a ServiceNow application itself.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-metadata-in-applications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-metadata-in-applications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -72,5 +72,5 @@ Metadata is used in applications in several different ways.
     When you install applications from the ServiceNow Store, you import a package of metadata that gets installed into your instance.
 
 
-**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
+**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/overview-building-apps-in-servicenow.md)
 

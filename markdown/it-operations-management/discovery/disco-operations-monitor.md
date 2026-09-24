@@ -2,7 +2,7 @@
 title: Discovery Operations Monitor dashboard
 description: The Discovery Operations Monitor dashboard displays performance metrics for your Discovery environment. Use this dashboard to monitor discovery health and identify issues across your IT landscape.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/disco-operations-monitor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/disco-operations-monitor.html
 release: australia
 product: Discovery
 classification: discovery
@@ -36,7 +36,7 @@ To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Works
 
 The Discovery Operations Monitor dashboard displays visuals for discovery performance data.
 
-**Note:** Metrics are collected for the most recently completed 15-minute window. Data may not reflect activity from the current interval until collection has run. For more information, see [Configure the time interval for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-interval-disco-op-mon.md).
+**Note:** Metrics are collected for the most recently completed 15-minute window. Data may not reflect activity from the current interval until collection has run. For more information, see [Configure the time interval for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/config-interval-disco-op-mon.md).
 
 Select the info icon \(\[Omitted image "daw-info-icon.png"\]\) to view dashboard details, such as the owner and usage. Select the **More Actions** icon \(\[Omitted image "more-options.png"\]\) to duplicate, share, export, schedule, or print the dashboard. Select **Edit** to access editing mode, where you can update the data source and visualization settings. For more information about editing dashboards, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md).
 
@@ -50,5 +50,5 @@ Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\) on a 
 |MID Server Average Probe Time|Line chart|Displays the average ECC probe processing time in seconds over time. Select a record to view the related ECC queue records.|
 |Discovery Event Load|Bar chart|Displays the volume of discovery events over time. The chart tracks four event types: discovery.error, discovery.device.complete, discovery.complete, and discovery.canceled. Select a record to view related events.|
 
-**Note:** The dashboard displays data from the last 7 days by default. Data is retained for 30 days. For more information, see [Configure the date range for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-time-frame-disco-op-mon.md).
+**Note:** The dashboard displays data from the last 7 days by default. Data is retained for 30 days. For more information, see [Configure the date range for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/config-time-frame-disco-op-mon.md).
 

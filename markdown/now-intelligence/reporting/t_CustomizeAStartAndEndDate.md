@@ -2,7 +2,7 @@
 title: Customize start and end dates
 description: You can configure calendar reports to support the spanning of multi-day events across calendar cells.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_CustomizeAStartAndEndDate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_CustomizeAStartAndEndDate.html
 release: australia
 product: Reporting
 classification: reporting
@@ -47,7 +47,7 @@ The code looks for an ending field with the same name as the start date field, e
     |**Type**|Date|
 
 
-**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CustomizeCalendarReports.md)
+**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_CustomizeCalendarReports.md)
 
 **Related topics**  
 

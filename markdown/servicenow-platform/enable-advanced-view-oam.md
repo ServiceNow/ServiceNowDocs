@@ -2,7 +2,7 @@
 title: Enable Advanced view for Outlook Actionable Message definition
 description: Enable the advanced view to customize the actionable message as per the requirement for Microsoft Outlook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/enable-advanced-view-oam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/enable-advanced-view-oam.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: oam\_admin
     1.  Modify the script as required.
     2.  Click **Update**.
 
-**Parent Topic:**[Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/outlook-actionable-messages.md)
+**Parent Topic:**[Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/outlook-actionable-messages.md)
 

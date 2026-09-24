@@ -2,7 +2,7 @@
 title: Preview a page
 description: Test that your page appears and functions as intended.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/preview-page-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
@@ -17,7 +17,7 @@ Test that your page appears and functions as intended.
 
 ## About this task
 
-Certain pages aren't previewable in the ServiceNow Lux Lab for VS Code extension and must be previewed by deploying to your instance. To learn about deploying, see [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
+Certain pages aren't previewable in the ServiceNow Lux Lab for VS Code extension and must be previewed by deploying to your instance. To learn about deploying, see [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
 
 ## Before you begin
 
@@ -114,5 +114,5 @@ ServiceNow instance
 
 ## What to do next
 
-If your page isn't already accessible from other pages, [add the page to the navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.md). Otherwise, you can [deploy your changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
+If your page isn't already accessible from other pages, [add the page to the navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.md). Otherwise, you can [deploy your changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
 

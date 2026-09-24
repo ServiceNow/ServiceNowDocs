@@ -2,7 +2,7 @@
 title: Operational Sustainability Management \(formerly ESG Management\) implementation
 description: Use the steps in the ServiceNow Operational Sustainability Management application checklist to download the Operational Sustainability Management from the ServiceNow Store, and get it ready for operation. Mandatory and optional setup steps, as well as an implementation checklist are provided to simplify the setup.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/esg-implementation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/esg-implementation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,12 +28,12 @@ The flow of mandatory steps in the checklist are as follows:
 10. Create disclosures
 11. Integrate with other apps such as Watershed, PPM, and Urjanet \(optional\)
 
--   **[Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/install-esg.md)**  
+-   **[Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/install-esg.md)**  
 You can install the Operational Sustainability Management application \(sn\_esg\) if you have the sys\_admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Complete the entitlements for Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/complete-the-entitlements-for-esg-management.md)**  
+-   **[Complete the entitlements for Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/complete-the-entitlements-for-esg-management.md)**  
 After you install the Operational Sustainability Management application from the ServiceNow® Store, you must complete the entitlements to gain complete access to the application and use it.
--   **[Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/setup-checklist-esg.md)**  
+-   **[Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/setup-checklist-esg.md)**  
 This checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform® instance. When you have completed these tasks, the base system is ready for operation.
 
-**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-esg.md)
+**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-esg.md)
 

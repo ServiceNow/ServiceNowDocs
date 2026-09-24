@@ -2,7 +2,7 @@
 title: Agent Client Collector \(ACC\) admin workspace information
 description: When selecting an agent in the ACC admin workspace, select from the displayed options to view information relating to the agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/acc-admin-workspace-information.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/acc-admin-workspace-information.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -69,5 +69,5 @@ Error messages associated with the agent.Select the name of the error to open th
 -   Agents for error: The agents on which the selected error appears.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ITOM Visibility reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/visibility-reference.md)
+</table>**Parent Topic:**[ITOM Visibility reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/visibility-reference.md)
 

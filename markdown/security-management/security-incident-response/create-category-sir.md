@@ -2,7 +2,7 @@
 title: Create a security incident category
 description: Create a security incident category to use to classify security incidents in Security Incident Response Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-category-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/create-category-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -56,7 +56,7 @@ Role required: sn\_si.admin
 
 The newly created category is saved and appears on the Category page.
 
-**Parent Topic:**[Category management in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/category-management-sir.md)
+**Parent Topic:**[Category management in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/category-management-sir.md)
 
 **Related topics**  
 

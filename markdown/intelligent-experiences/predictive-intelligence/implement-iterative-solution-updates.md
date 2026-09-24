@@ -2,7 +2,7 @@
 title: Export trained solutions to production
 description: Refine and test your ML solutions iteratively on a non-production instance, and then use update sets to export the changes to your production instance. This practice mitigates the risk of retraining solutions on your live production instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/implement-iterative-solution-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/implement-iterative-solution-updates.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -47,5 +47,5 @@ Depending on where you are in your solution testing, schedule your update set fo
 
 **Note:** After you export a similarity solution, click **Refresh similarity window \(Required after Solution Import\)** in the Related Links section of the corresponding ML Solution Definition form.
 
-**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
+**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

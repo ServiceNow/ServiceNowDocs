@@ -2,7 +2,7 @@
 title: Create the notification for the Asset Refresh topic
 description: Create an actionable notification to trigger the Asset Refresh Virtual Agent example topic you just created. The user will automatically receive the notification when it's time for them to order a new hardware asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-example-asset-refresh-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-example-asset-refresh-notification.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +19,7 @@ Create an actionable notification to trigger the Asset Refresh Virtual Agent exa
 
 ## Before you begin
 
-Publish the Asset Refresh topic. [Change the application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/change-application-scope-vad.md) in your instance to the same application you used to create your Asset Refresh topic. Ideally, the notification should be in the same application scope as your Virtual Agent topic.
+Publish the Asset Refresh topic. [Change the application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/change-application-scope-vad.md) in your instance to the same application you used to create your Asset Refresh topic. Ideally, the notification should be in the same application scope as your Virtual Agent topic.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -62,7 +62,7 @@ The ServiceNow AI Platform and ITSM Virtual Agent Conversations come with pre-bu
 
 ## What to do next
 
-[Associate content with the Asset Refresh notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/associate-content-example-notification.md)
+[Associate content with the Asset Refresh notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/associate-content-example-notification.md)
 
 **Related topics**  
 

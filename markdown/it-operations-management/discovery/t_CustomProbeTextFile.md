@@ -2,7 +2,7 @@
 title: Custom Discovery probe to populate a CI from a text file
 description: This custom Discovery probe reads a text file from a Windows computer and populates a configuration item \(CI\) in the CMDB with the values from the file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_CustomProbeTextFile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/t\_CustomProbeTextFile.html
 release: australia
 product: Discovery
 classification: discovery
@@ -127,5 +127,5 @@ In this example the user wanted to read files created by BGinfo.
     ```
 
 
-**Parent Topic:**[Discovery probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryProbesAndSensors.md)
+**Parent Topic:**[Discovery probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryProbesAndSensors.md)
 

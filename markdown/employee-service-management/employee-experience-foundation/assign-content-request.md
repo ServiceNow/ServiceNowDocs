@@ -2,7 +2,7 @@
 title: Assign content request to content creator
 description: Assign a new content request to a content manager so they can create the content and a publish plan, then send it for approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/assign-content-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/assign-content-request.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

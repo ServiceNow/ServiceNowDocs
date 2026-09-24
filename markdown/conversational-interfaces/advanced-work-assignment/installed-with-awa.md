@@ -2,7 +2,7 @@
 title: Components installed with Advanced Work Assignment
 description: Several types of components are installed with activation of the Advanced Work Assignment plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/installed-with-awa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/installed-with-awa.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

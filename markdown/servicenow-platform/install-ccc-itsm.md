@@ -2,7 +2,7 @@
 title: Install ServiceNow Voice for ITSM
 description: You can install the ServiceNow Voice for ITSM application \(sn\_cti\_itsm\_cnt\) if you have the admin role. This plugin installs the ITSM content for integration between ServiceNow Voice and a third-party phone system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/install-ccc-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/install-ccc-itsm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ The following items are installed with ServiceNow Voice for ITSM application \(s
 -   Contact flows
 -   Operation handlers
 
-For more information, see [Components installed with ServiceNow Voice for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instld-with-cloud-call-center-itsm.md).
+For more information, see [Components installed with ServiceNow Voice for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instld-with-cloud-call-center-itsm.md).
 
 ## Procedure
 
@@ -57,5 +57,5 @@ For more information, see [Components installed with ServiceNow Voice for ITSM](
 5.  Select **Install**.
 
 
-**Parent Topic:**[Integrating ServiceNow Voice with ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-ccc-itsm.md)
+**Parent Topic:**[Integrating ServiceNow Voice with ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/integrate-ccc-itsm.md)
 

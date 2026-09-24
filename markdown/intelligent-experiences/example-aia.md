@@ -2,7 +2,7 @@
 title: Example AI agent
 description: Use the example AI agent with clear name, description, AI agent role, and list of steps fields to use as a guide when creating your own AI agents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/example-aia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/example-aia.html
 release: australia
 topic_type: concept
 last_updated: "2025-10-16"

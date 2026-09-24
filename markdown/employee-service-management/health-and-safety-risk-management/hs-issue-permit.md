@@ -2,7 +2,7 @@
 title: Issue a permit to work
 description: A permit coordinator can issue a permit after the permit approver approves a request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-issue-permit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-issue-permit.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -53,5 +53,5 @@ Select **Close permit** when the job is complete. If necessary, the permit coord
 -   If there are unsafe condition, select **Cancel permit** in the UI action menu.
 -   If a danger is expected after the permit is issued, select **Suspend permit** in the UI action menu. The permit can be suspended until the inspection is completed.
 
-**Parent Topic:**[Permit-to-work system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)
+**Parent Topic:**[Permit-to-work system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)
 

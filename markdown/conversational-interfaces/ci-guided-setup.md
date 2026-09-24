@@ -2,7 +2,7 @@
 title: Conversational Interfaces Guided Setup
 description: Use the Conversational Interfaces Guided Setup to create a personalized setup process for just the conversational interface features you need. The Conversational Interfaces Guided Setup starts with a survey and creates a personalized task list based on your survey responses.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ci-guided-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/ci-guided-setup.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces

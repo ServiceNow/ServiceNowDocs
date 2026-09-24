@@ -2,7 +2,7 @@
 title: Modify or customize collaboration permissions for a user or group in ServiceNow Studio
 description: Modify or customize the collaboration permissions for a user or group in ServiceNow Studio to control what they can do in an app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/modify-collab-descriptor-servicenow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/modify-collab-descriptor-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -42,7 +42,7 @@ Role required: admin or delegated\_developer
 
     2.  Select the permissions you want the user or group to have.
 
-        For more information about permissions, see [Collaboration permissions for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.md).
+        For more information about permissions, see [Collaboration permissions for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.md).
 
         \[Omitted image "cs-collab-custom-2.png"\] Alt text: Select custom collaboration permissions.
 
@@ -55,7 +55,7 @@ Changes are saved automatically when you close the **Collaborate with others** d
 
 ## What to do next
 
-Your App Engine admin must approve the changes to collaborators. For more information, see [Approve a collaboration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/approve-collaboration-request.md).
+Your App Engine admin must approve the changes to collaborators. For more information, see [Approve a collaboration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/approve-collaboration-request.md).
 
-**Parent Topic:**[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
+**Parent Topic:**[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
 

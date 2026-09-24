@@ -2,7 +2,7 @@
 title: Components installed with HR Service Delivery Integration with Workday
 description: Several types of components are installed with activation of the HR Service Delivery Integration with Workday \(sn\_hr\_workday\) application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-wd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/installed-with-wd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -65,7 +65,7 @@ Run Workday Integration Flow
 
 </td><td>
 
-Pulls data from Workday to ServiceNow. By default the flow is in inactive state. For information on how to activate the flow, see [Activating schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-w-schedule-flow.md).
+Pulls data from Workday to ServiceNow. By default the flow is in inactive state. For information on how to activate the flow, see [Activating schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/activate-w-schedule-flow.md).
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -119,7 +119,7 @@ Workday Configuration Pull To-Dos\[sn\_hr\_workday\_pull\_todo\_config\]
 Stores parameters or inputs which help in setting up the todos configuration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference - HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hrsd-int-workday-reference.md)
+</table>**Parent Topic:**[Reference - HR Service Delivery Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hrsd-int-workday-reference.md)
 
 **Related topics**  
 

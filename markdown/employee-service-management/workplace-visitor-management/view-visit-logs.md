@@ -2,7 +2,7 @@
 title: View visit logs
 description: View the visit logs which display all the state changes of a visitor registration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/view-visit-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/view-visit-logs.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -32,10 +32,10 @@ You can view all the status changes of a visitor registration at any point. You 
 
 3.  View the current and previous states by selecting the info icon \(\[Omitted image "info-icon.png"\] Alt text: State change info icon\) next to the visit log.
 
-    For more information about each state, see [Visitor registration states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/visitor-registration-states.md).
+    For more information about each state, see [Visitor registration states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/visitor-registration-states.md).
 
 
-**Parent Topic:**[Analytics and Reporting Solutions for Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/analytics-reporting-for-visitor-mgmt.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/analytics-reporting-for-visitor-mgmt.md)
 
 **Related topics**  
 

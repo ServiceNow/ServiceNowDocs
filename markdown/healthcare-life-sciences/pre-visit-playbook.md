@@ -2,7 +2,7 @@
 title: Working on a procedure request case in Workspace
 description: Use the playbook available with the Pre-Visit Management application to manage procedure request cases and schedule a high value procedure for patients.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pre-visit-playbook.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-playbook.md)
+[Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-playbook.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Complete the initial procedure order review activities.
 
 </td></tr><tr><td>
 
-[Pre-authorizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-playbook.md)
+[Pre-authorizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-playbook.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Capture pre-authorization details for follow-up and audit purposes.
 
 </td></tr><tr><td>
 
-[Schedule procedure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-playbook.md)
+[Schedule procedure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-playbook.md)
 
 </td><td>
 
@@ -60,14 +60,14 @@ Review appointments created for the procedure.
 
 </td></tr><tr><td>
 
-[Resolve and close](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-playbook.md)
+[Resolve and close](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-playbook.md)
 
 </td><td>
 
 Wait until all child activities are completed so that the procedure request is automatically closed.
 
 </td></tr></tbody>
-</table>**Note:** Before the appointment date, the Pre-Visit Management workflow automatically assigns the to-do item to the patient for reviewing and signing the procedure consent, and also sends an email notification about the to-do item to the patient. The day when to send the procedure consent form is configured by your administrator. For more information, see [Configure when to send the procedure consent form to a patient](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-config-proc-consent-time.md).
+</table>**Note:** Before the appointment date, the Pre-Visit Management workflow automatically assigns the to-do item to the patient for reviewing and signing the procedure consent, and also sends an email notification about the to-do item to the patient. The day when to send the procedure consent form is configured by your administrator. For more information, see [Configure when to send the procedure consent form to a patient](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-config-proc-consent-time.md).
 
 ## Completing the initial review activities
 
@@ -94,7 +94,7 @@ In the **Pre-authorizations** stage of the playbook, complete the following acti
 
 In the **Schedule procedure** stage, complete the **Review appointments** activity.
 
-Only after the booked appointment details are entered by using the **Create appointment** UI action, the patient service representative can review the appointment details and mark the **Review appointments** activity of the **Schedule procedure** stage as complete in the Pre-Visit Management playbook. For more information, see [Managing appointment bookings for procedure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-booking-appt.md).
+Only after the booked appointment details are entered by using the **Create appointment** UI action, the patient service representative can review the appointment details and mark the **Review appointments** activity of the **Schedule procedure** stage as complete in the Pre-Visit Management playbook. For more information, see [Managing appointment bookings for procedure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/pre-visit-booking-appt.md).
 
 **Note:** After the **Schedule procedure** stage is completed, the **Resolve and Close** stage is automatically run.
 

@@ -2,7 +2,7 @@
 title: Configure data subject selection in hierarchy relationships
 description: Configure the sn\_privacy.relationship\_involving\_data\_subjects system property to enable data subject selection in custom hierarchy relationships.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -41,10 +41,10 @@ By default, only certain built-in relationship types, such as **Sends data to** 
 
 Business users or privacy analysts selecting the custom relationship type while defining hierarchy relationships are able to select data subject types, their locations, and impacted data elements.
 
-**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
+**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 
 **Related topics**  
 
 
-[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md)
+[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/data-transfers.md)
 

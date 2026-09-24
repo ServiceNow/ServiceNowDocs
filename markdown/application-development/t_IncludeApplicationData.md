@@ -2,7 +2,7 @@
 title: Create application files to include sample data
 description: Include sample records from an application data table when sharing a custom application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/t\_IncludeApplicationData.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/t\_IncludeApplicationData.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,5 +73,5 @@ Includes application data only when the application is installed with demo data.
 6.  Repeat steps 1–5 for each application data table you want to include.
 
 
-**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md)
+**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_SharingApplications.md)
 

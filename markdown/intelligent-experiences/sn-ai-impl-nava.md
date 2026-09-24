@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Virtual Agent readiness on the ServiceNow AI Platform
 description: ServiceNow Otto for Virtual Agent with AI-driven capabilities that understand natural language, guide users through complex tasks, and deliver high-confidence answers without relying on rigid keyword matching or manual configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-nava.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sn-ai-impl-nava.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -68,7 +68,7 @@ Setting up ServiceNow® Otto for Virtual Agent requires customizing or creating 
 
     Why? This simplifies topic management and enables self-service.
 
-    See: [Knowledge Base readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-kb-readiness.md)
+    See: [Knowledge Base readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sn-ai-impl-kb-readiness.md)
 
 -   **4. Migrate NLU topics to LLM**
 
@@ -84,7 +84,7 @@ Setting up ServiceNow® Otto for Virtual Agent requires customizing or creating 
 
     Why? To avoid redundancy and eliminate the need to create new Virtual Agent topics.
 
-    See: [Service Catalog readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-srvc-catalog.md)
+    See: [Service Catalog readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sn-ai-impl-srvc-catalog.md)
 
 -   **Review LLM Virtual Agent topics that come with Now Assist**
 

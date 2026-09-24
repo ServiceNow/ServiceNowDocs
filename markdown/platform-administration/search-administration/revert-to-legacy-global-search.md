@@ -2,7 +2,7 @@
 title: Revert to the legacy global search UI
 description: Disable the dynamic global search UI to preserve customizations you made to the legacy global search UI.The global text search results page allows users to set several user preferences for global text search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/revert-to-legacy-global-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/revert-to-legacy-global-search.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -49,7 +49,7 @@ Role required: admin
 
 The system displays the global search UI and uses the legacy display logic.
 
-**Parent Topic:**[Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/set-global-text-search-properties.md)
+**Parent Topic:**[Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/set-global-text-search-properties.md)
 
 **Related topics**  
 

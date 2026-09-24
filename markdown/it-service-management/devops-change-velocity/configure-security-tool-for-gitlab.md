@@ -2,7 +2,7 @@
 title: Integrate security tools with GitLab
 description: Configure security tool for GitLab which is not supported in the base system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -318,5 +318,5 @@ global
         ```
 
 
-**Parent Topic:**[DevOps user-created security tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-security-tool-integration.md)
+**Parent Topic:**[DevOps user-created security tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-security-tool-integration.md)
 

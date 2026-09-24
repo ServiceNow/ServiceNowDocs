@@ -2,7 +2,7 @@
 title: Troubleshoot domain separation errors
 description: If you encounter domain separation issues, review this list of solutions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_TroubleshootDomainSeparationError.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_TroubleshootDomainSeparationError.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -38,7 +38,7 @@ A domain path or domain number sys\_id points to the wrong domain
 
 </td><td>
 
-This error occurs when a domain number or domain path query is out of sync with the actual domain name. This error can occur with domain numbers when adding domains requires renumbering or during the conversion from domain numbers to domain paths.To fix the error, check the results in the [Domain Separation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separation-center.md). If the error persists, you can manually edit the value for the `sys_domain_path` or `sys_domain_number` columns to point to the proper domain.
+This error occurs when a domain number or domain path query is out of sync with the actual domain name. This error can occur with domain numbers when adding domains requires renumbering or during the conversion from domain numbers to domain paths.To fix the error, check the results in the [Domain Separation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/domain-separation-center.md). If the error persists, you can manually edit the value for the `sys_domain_path` or `sys_domain_number` columns to point to the proper domain.
 
 </td></tr><tr><td>
 

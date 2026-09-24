@@ -2,7 +2,7 @@
 title: Bind alerts to a specific process
 description: Bind specific server processes to their corresponding Configuration Items \(CIs\) in the CMDB to ensure accurate mapping and visibility. This binding is crucial for identifying service dependencies, reducing ambiguity from generic process names, and enabling effective monitoring. It supports faster alert resolution, impact analysis, and better alignment between infrastructure and application components in dynamic environments.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMBindApplication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/t\_EMBindApplication.html
 release: australia
 product: Event Management
 classification: event-management

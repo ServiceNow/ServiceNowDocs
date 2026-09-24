@@ -2,7 +2,7 @@
 title: Virtual Agent and NLU Workbench integration
 description: Virtual Agent administrators can access and update their NLU models from within the Virtual Agent Designer user interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/virtual-agent-nlu-model-builder-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/virtual-agent-nlu-model-builder-integration.html
 release: australia
 product: NLU Service
 classification: nlu-service

@@ -2,7 +2,7 @@
 title: IBM PVU mapping preparation for the legacy IBM PVU Process Pack
 description: Most IBM PVU mapping and license checking for the legacy IBM PVU Process Pack is managed automatically.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_PreparingForIBMPVUMapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/c\_PreparingForIBMPVUMapping.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -40,5 +40,5 @@ The key field on the Software Model form is **License type**. For any software l
 
 \[Omitted image "PVUSoftwareModel.png"\] Alt text: PVU software model
 
-**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
+**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
 

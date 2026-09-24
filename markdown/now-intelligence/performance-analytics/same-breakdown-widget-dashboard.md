@@ -2,7 +2,7 @@
 title: Same breakdown on widget and dashboard
 description: If a widget uses the same breakdown as the dashboard, the dashboard breakdown does not apply.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/same-breakdown-widget-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/same-breakdown-widget-dashboard.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -26,7 +26,7 @@ In the following animation, you have a breakdown widget on a breakdown dashboard
 
 \[Omitted image "interactive-bkdown-widget-on-bkdown-dashboard.gif"\] Alt text: A breakdown widget on a breakdown dashboard, first with the same breakdown selected, then with a different breakdown selected
 
-**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 
@@ -39,5 +39,5 @@ In the following animation, you have a breakdown widget on a breakdown dashboard
 
 [Showing breakdown relations on dashboards]()
 
-[Interacting with breakdown widgets on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_WidgetInteractivity.md)
+[Interacting with breakdown widgets on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_WidgetInteractivity.md)
 

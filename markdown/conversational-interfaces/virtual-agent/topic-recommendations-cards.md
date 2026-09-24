@@ -2,7 +2,7 @@
 title: Topic Recommendations cards
 description: Recommended topic and intent cards display the status of the recommendation, allowing you to track them more easily over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/topic-recommendations-cards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/topic-recommendations-cards.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -45,7 +45,7 @@ Active
 
 </td><td>
 
-Topic or intent was added to Virtual Agent or [linked to an existing topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/link-tr-existing-va-topic.md) and published.Cards with **Active** status have a green border.
+Topic or intent was added to Virtual Agent or [linked to an existing topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/link-tr-existing-va-topic.md) and published.Cards with **Active** status have a green border.
 
  If you keep getting recommendations for an Active topic, it probably needs improvement.
 
@@ -139,7 +139,7 @@ How to apply this recommendation
 Suggestions for an unused recommendation. You can do one of the following:
 
 -   Select the card, and then click **Add to VA** to create a new topic.
--   [Link the recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/link-tr-existing-va-topic.md) to an existing topic.
+-   [Link the recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/link-tr-existing-va-topic.md) to an existing topic.
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Linked topic
 
 </td><td>
 
-Displays the name of the topic that was linked, as well as the date when the recommendation was linked. Click the open link icon \[Omitted image "icon-open-link.png"\] Alt text: Open link icon. to view the associated topic in Assistant Designer. You can also [unlink the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/unlink-tr-va-topic.md) from the recommendation.
+Displays the name of the topic that was linked, as well as the date when the recommendation was linked. Click the open link icon \[Omitted image "icon-open-link.png"\] Alt text: Open link icon. to view the associated topic in Assistant Designer. You can also [unlink the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/unlink-tr-va-topic.md) from the recommendation.
 
 </td></tr></tbody>
 </table>\[Omitted image "tr-example-overlay-card.png"\] Alt text: An overlay card for a topic that has not been added but can be linked to an existing topic.

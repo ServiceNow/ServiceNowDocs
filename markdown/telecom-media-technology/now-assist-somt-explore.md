@@ -2,7 +2,7 @@
 title: Exploring ServiceNow Otto for Sales CRM for Telecommunications
 description: With the ServiceNow Otto for Sales CRM for Telecommunications application, you can use standalone AI agents to create a customer move order capture journey and create enrichment tasks. You can also identify the tasks required for domain orders by using historical data from similar orders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-somt-explore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-somt-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

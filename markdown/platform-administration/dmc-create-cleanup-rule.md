@@ -2,7 +2,7 @@
 title: Create a cleanup rule
 description: Define a rule for deleting records from a primary table on a recurring basis.Define one or more conditions that identify the records to be deleted.Specify which associated records to delete when the cleanup rule runs.View a summary of your cleanup rule and decide whether to activate it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/dmc-create-cleanup-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dmc-create-cleanup-rule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Create a cleanup rule to delete records on a recurring basis. To delete records as a one-time operation, see [Create a one-time delete rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-onetime-delete-rule.md).
+Create a cleanup rule to delete records on a recurring basis. To delete records as a one-time operation, see [Create a one-time delete rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dmc-create-onetime-delete-rule.md).
 
 ## Procedure
 
@@ -64,7 +64,7 @@ Steps
 
     2.  Enter a name and description for the rule.
 
-        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) for references to this rule.
+        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_DisplayValues.md) for references to this rule.
 
     3.  Select **Save and continue**.
 

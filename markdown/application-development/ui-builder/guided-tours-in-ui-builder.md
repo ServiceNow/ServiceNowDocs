@@ -2,7 +2,7 @@
 title: Guided tours in UI Builder
 description: Learn about UI Builder guided tours, including how to use them to build your knowledge and practice using UI Builder.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/guided-tours-in-ui-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/guided-tours-in-ui-builder.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -46,5 +46,5 @@ Select **Yes** or **No** to stop the tour from auto-launching again. You can als
 
 \[Omitted image "guided-tour-in-uib5.png"\] Alt text: Stop guided tour pop-up with options to stop the tour from auto launching and apply the decision to all tours on the page.
 
-**Parent Topic:**[Navigate the UI Builder application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/nav-uib.md)
+**Parent Topic:**[Navigate the UI Builder application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/nav-uib.md)
 

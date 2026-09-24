@@ -2,7 +2,7 @@
 title: Create a Data snapshots source
 description: To provide a filtered dataset of records that you can evaluate with one or more indicators, create an indicator source. Data snapshots indicators require different sources than do classic indicators. Data snapshots logs are accessible on the source records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-ds-source.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/create-ds-source.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -43,7 +43,7 @@ Role required: pa\_data\_collector or higher
 
     Only the fields you specify in the Data snapshots source are tracked historically, or can be used to filter the resulting indicators. You can add more fields after creating the Data snapshots source. However, you won't have data about fields from before you added them. Nor can you remove fields.
 
-    **Note:** If you add a field that references a table with a record hierarchy, you can roll up the scores for that hierarchy through a [hierarchical dashboard filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-hierarchical-filter.md) or in [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-data-snapshots-indicator-scores.md).
+    **Note:** If you add a field that references a table with a record hierarchy, you can roll up the scores for that hierarchy through a [hierarchical dashboard filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-hierarchical-filter.md) or in [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/filter-data-snapshots-indicator-scores.md).
 
 7.  To activate data mining for the Data snapshots source, turn on **Data collection enabled**.
 
@@ -56,5 +56,5 @@ After you create the Data snapshots source, only **Data collection enabled**, **
 
 Track the data collection activity in the log entries on this record.
 
-**Parent Topic:**[Data snapshots sources and collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md)
+**Parent Topic:**[Data snapshots sources and collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md)
 

@@ -2,7 +2,7 @@
 title: Select channels and status for an AI agent
 description: In the guided setup for an AI agent, activate the AI agent to use in an assistant in ServiceNow Otto for Virtual Agent, and set the processing messages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/channels-access-aia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/channels-access-aia.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
@@ -55,5 +55,5 @@ You have completed the guided setup for creating an AI agent. Your new AI agent 
 
 ## What to do next
 
-Move to the **Testing** page to [test an AI agent execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md) using example utterances or to [test user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-access.md).
+Move to the **Testing** page to [test an AI agent execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-agent.md) using example utterances or to [test user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aia-access.md).
 

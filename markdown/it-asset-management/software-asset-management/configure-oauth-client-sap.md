@@ -2,7 +2,7 @@
 title: Configure an OAuth client in SAP
 description: Register and configure an OAuth 2.0 client in SAP using the system user created for OAuth authentication, to enable secure data exchange with your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/configure-oauth-client-sap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/configure-oauth-client-sap.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +19,7 @@ Register and configure an OAuth 2.0 client in SAP using the system user created 
 
 ## Before you begin
 
-A system user for OAuth authentication must exist in SAP before configuring the OAuth client. For details, see [Create a system user for OAuth authentication in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-system-user-oauth-sap.md).
+A system user for OAuth authentication must exist in SAP before configuring the OAuth client. For details, see [Create a system user for OAuth authentication in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-system-user-oauth-sap.md).
 
 SAP Role required: SAP Basis administrator
 
@@ -33,7 +33,7 @@ Use transaction code **SOAUTH2** to register the OAuth client and define the gra
 
 2.  In the **Client ID** field, select the system user created for OAuth authentication.
 
-    For example, `OAUTH_USER`. For information on creating a system user, see [Create a system user for OAuth authentication in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-system-user-oauth-sap.md).
+    For example, `OAUTH_USER`. For information on creating a system user, see [Create a system user for OAuth authentication in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-system-user-oauth-sap.md).
 
 3.  Enter a description for the OAuth client, then select **Next**.
 
@@ -59,5 +59,5 @@ Use transaction code **SOAUTH2** to register the OAuth client and define the gra
 
 ## What to do next
 
-Configure roles and authorizations for the OAuth user. For details, see [Configure roles and authorizations for the OAuth user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-roles-auth-oauth-user.md).
+Configure roles and authorizations for the OAuth user. For details, see [Configure roles and authorizations for the OAuth user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-roles-auth-oauth-user.md).
 

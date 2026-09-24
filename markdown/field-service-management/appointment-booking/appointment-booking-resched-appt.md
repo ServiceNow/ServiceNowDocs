@@ -2,7 +2,7 @@
 title: Reschedule an appointment for a customer
 description: Dispatchers and agents can reschedule appointments for customers to dispatch agent to address the customer issue based on rescheduled time slot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/appointment-booking-resched-appt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/appointment-booking/appointment-booking-resched-appt.html
 release: australia
 product: Appointment Booking
 classification: appointment-booking
@@ -20,7 +20,7 @@ Dispatchers and agents can reschedule appointments for customers to dispatch age
 
 Role required: wm\_dispatch, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
-Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appointment-booking-administer.md).
+Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 
 ## About this task
 

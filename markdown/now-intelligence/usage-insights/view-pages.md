@@ -2,7 +2,7 @@
 title: Usage Insights for pages and screens
 description: The Pages module for UI Analysis in Usage Insights shows analytics specific to pages on the web-based UI in terms of page use and navigation. View user action, performance, and navigation details for each web page to identify pages where users might be having issues and optimize workflows accordingly.See user actions, performance and navigation analytics for each page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/view-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/view-pages.html
 release: australia
 product: Usage Insights
 classification: usage-insights

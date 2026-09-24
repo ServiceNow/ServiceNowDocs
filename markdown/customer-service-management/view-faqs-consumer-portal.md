@@ -2,7 +2,7 @@
 title: View common questions on Consumer Portal
 description: Browse common questions and answers on the Consumer Portal to quickly find information without contacting support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-faqs-consumer-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-faqs-consumer-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,5 +19,5 @@ You can access the frequently asked questions page by navigating to **Resources*
 **Related topics**  
 
 
-[Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-faq-widget.md)
+[Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-faq-widget.md)
 

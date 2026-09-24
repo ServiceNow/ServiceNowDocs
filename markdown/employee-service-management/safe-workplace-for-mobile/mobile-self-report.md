@@ -2,7 +2,7 @@
 title: Report your health status in Now Mobile
 description: Use the Now Mobile app to report your health status.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-for-mobile/mobile-self-report.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace-for-mobile/mobile-self-report.html
 release: australia
 product: Safe Workplace for mobile
 classification: safe-workplace-for-mobile
@@ -20,7 +20,7 @@ Use the Now® Mobile app to report your health status.
 
 Role required: sn\_imt\_quarantine.crisis\_task\_user
 
-To access this content, you must have the [Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app. Your instance must have the [Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/emergency-self-report.md) application installed.
+To access this content, you must have the [Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app. Your instance must have the [Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-self-report/emergency-self-report.md) application installed.
 
 ## About this task
 
@@ -41,7 +41,7 @@ From the Safe Workplace for mobile app, users can access applications from the E
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 
-**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 

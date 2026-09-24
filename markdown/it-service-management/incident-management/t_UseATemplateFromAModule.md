@@ -2,7 +2,7 @@
 title: Create a module that uses incident template
 description: Create a module to log an incident with pre-filled field values from an existing template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_UseATemplateFromAModule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/t\_UseATemplateFromAModule.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-In the [Create incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_CreateAnIncidentTemplate.md) topic, you have created the Bond Trade Access Denied template. In this topic, you can use the template with a module in the Self-Service application.
+In the [Create incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_CreateAnIncidentTemplate.md) topic, you have created the Bond Trade Access Denied template. In this topic, you can use the template with a module in the Self-Service application.
 
 ## Procedure
 
@@ -53,7 +53,7 @@ In the [Create incident template](https://raw.githubusercontent.com/ServiceNow/S
 
 Select the module to open a new incident record with the applied Bond Trading Access Denied template.
 
-**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-templates-record-producers.md)
+**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-templates-record-producers.md)
 
 **Related topics**  
 

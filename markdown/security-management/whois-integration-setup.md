@@ -2,7 +2,7 @@
 title: WhoisXML API integration setup
 description: Before you can use the Whois integration, you must activate the plugin and add the credentials. If necessary, you can also update your X509 SSL certification.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/whois-integration-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/whois-integration-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

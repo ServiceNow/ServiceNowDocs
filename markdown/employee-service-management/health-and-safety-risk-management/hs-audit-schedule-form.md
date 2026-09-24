@@ -2,7 +2,7 @@
 title: Audit schedule form
 description: The safety audit manager can use the audit schedule form to set up a recurring workplace safety audit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-audit-schedule-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-audit-schedule-form.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Em
 
 The safety audit manager can use the audit schedule form to set up a recurring workplace safety audit.
 
-For information on setting up an audit schedule, see [Set up a safety audit schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setup-safety-audit-schedule.md).
+For information on setting up an audit schedule, see [Set up a safety audit schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-setup-safety-audit-schedule.md).
 
 <table id="table_vmy_tg1_fdc"><thead><tr><th>
 
@@ -80,7 +80,7 @@ Assets
 
 </td><td>
 
-Assets that this audit is related to. For example, the audit needs to be conducted on these assets.**Note:** The assets field appears only when Expanded Model and Asset Classes \[sn\_ent\] application is installed. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
+Assets that this audit is related to. For example, the audit needs to be conducted on these assets.**Note:** The assets field appears only when Expanded Model and Asset Classes \[sn\_ent\] application is installed. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
 
 </td></tr><tr><td>
 
@@ -160,5 +160,5 @@ Weekday when the recurring audit records should be generated. You can select whi
 This field appears only when **Frequency** is set as **Weekly**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

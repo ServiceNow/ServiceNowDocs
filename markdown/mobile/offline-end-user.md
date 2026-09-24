@@ -2,7 +2,7 @@
 title: Offline mode for mobile
 description: Access and submit actions to records in your mobile apps, even if you don't have an internet connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/offline-end-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/offline-end-user.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-09"
@@ -18,7 +18,7 @@ Plan ahead when you use offline mode. If you're working in an area with no inter
 
 When you're in offline mode, the changes that you make to your records are logged in your outbox. Your outbox tracks all the actions that you made on your cached records. After your device has internet access, you can synchronize your device with the instance. The cached changes in your outbox update to the instance.
 
-For information on configuring mobile offline, see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md).
+For information on configuring mobile offline, see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-offline-mode.md).
 
 ## Enable offline mode
 

@@ -2,7 +2,7 @@
 title: Case line task page
 description: The case line task page displays information about a task created for a case line item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-lines-case-line-task-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-case-lines-case-line-task-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

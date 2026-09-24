@@ -2,7 +2,7 @@
 title: Publish a HR survey
 description: Publish a new survey so users can complete it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_PublishANewHRSurveyIst.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_PublishANewHRSurveyIst.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -41,5 +41,5 @@ If there are assigned users, the system automatically generates a survey instanc
 
 If you want employees to receive a link to a survey, such as the HR Request Satisfaction Survey, create a notification. To get the URL of the published survey so it can be included in the notification, click the **View Survey URL** related link. You can copy the URL and paste it as a hyperlink in the notification.
 
-**Parent Topic:**[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
+**Parent Topic:**[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
 

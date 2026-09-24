@@ -2,7 +2,7 @@
 title: Assign roles to CSM users
 description: Roles control access to features, capabilities, and data in the Customer Service Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/assign-csm-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/assign-csm-roles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,9 +20,9 @@ Role required: import\_admin, user\_admin, and sn\_crm\_foundation\_admin
 
 Before you can assign roles to your users, make sure that these users have already been configured.
 
--   [Configure users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-users-groups.md)
--   [Configure accounts and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-accounts-contacts.md)
--   [Configure consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-consumers.md)
+-   [Configure users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-csm-users-groups.md)
+-   [Configure accounts and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-csm-accounts-contacts.md)
+-   [Configure consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-csm-consumers.md)
 
 ## About this task
 
@@ -82,5 +82,5 @@ External Roles
 **Related topics**  
 
 
-[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

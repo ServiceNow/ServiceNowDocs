@@ -2,7 +2,7 @@
 title: Inline scripts
 description: Enable users with coding experience to write inline scripts that set and modify input values during the configuration of an action or flow. Use inline scripts to modify input values that require small format conversions, data transformations, or math operations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/inline-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/inline-scripts.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -16,7 +16,7 @@ breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build w
 
 Enable users with coding experience to write inline scripts that set and modify input values during the configuration of an action or flow. Use inline scripts to modify input values that require small format conversions, data transformations, or math operations.
 
-You can also modify input values without scripting by using transform functions. For a list of available options, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md).
+You can also modify input values without scripting by using transform functions. For a list of available options, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/transform-functions.md).
 
 Workflow Studio displays a Script button when you configure these components.
 
@@ -138,7 +138,7 @@ Inline scripts that call integration APIs are subject to Integration Hub licensi
 
 The code editor provides text editor support for inline scripts.
 
-The code editor has these features for the supported language services and [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md).
+The code editor has these features for the supported language services and [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/inline-scripts.md).
 
 -   Syntax coloring, indentation, line numbers, and automatic creation of closing braces and quotes
 -   Auto-suggestions and auto-completions
@@ -153,5 +153,5 @@ The code editor has these features for the supported language services and [Inli
 -   To remove one tab from the start of a line of code, click in the line and press Shift+Tab.
 -   To declare variables, use the `var` keyword so that they remain within the proper JavaScript scope.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flows.md)
 

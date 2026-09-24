@@ -2,7 +2,7 @@
 title: Components installed with Operational Technology Change Management
 description: Several types of components may be installed with activation of the Operational Technology Change Management \(sn\_ot\_chg\_mgmt\) application, including the user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/components-installed-with-operational-technology-change-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-change-management/components-installed-with-operational-technology-change-request.html
 release: australia
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -66,7 +66,7 @@ Change Write user \[sn\_ot\_change\_write\]
 
 Can create, view, and edit OT change records.Can also be assigned IT change tasks, and can edit and close the IT change task they're assigned to.
 
-For more information, see [Managing change requests across sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/visibility-of-changes-across-sites.md).
+For more information, see [Managing change requests across sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-change-management/visibility-of-changes-across-sites.md).
 
 </td><td>
 
@@ -88,5 +88,5 @@ Can only view OT change records.
 -   cmdb\_ot\_isa\_viewer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Technology Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/oper-tech-change-management-reference.md)
+</table>**Parent Topic:**[Operational Technology Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-change-management/oper-tech-change-management-reference.md)
 

@@ -2,7 +2,7 @@
 title: Raise issue related to your asset on the Employee Center portal
 description: Get the issue related to your assets resolved by reporting the issue on the Employee Center portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/report-asset-issue-attestation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/report-asset-issue-attestation.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -108,5 +108,5 @@ Your request is submitted successfully.
 
 You can view and track the submitted requests by selecting **My Requests** on the global header navigation bar of the Employee Center portal.
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

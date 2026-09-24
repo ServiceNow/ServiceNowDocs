@@ -2,7 +2,7 @@
 title: Legal Conflict of Interest
 description: Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of ServiceNow Otto in Virtual Agent or intake form available in the Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -18,23 +18,23 @@ Legal Conflict of Interest enables you to manage the disclosure, approval, and r
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how employees, paralegal staff, and lawyers use Legal Conflict of Interest.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/conflict-of-interest-overview.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how employees, paralegal staff, and lawyers use Legal Conflict of Interest.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/conflict-of-interest-overview.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up approver groups, flows, and notifications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up approver groups, flows, and notifications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 
 </td><td>
 
-[Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md)Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Legal Conflict of Interest
+[Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md)Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Legal Conflict of Interest
 
 </td></tr><tr><td>
 
-[Analytics and Reporting\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Coordinate work and improve processes with preconfigured dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
+[Analytics and Reporting\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Coordinate work and improve processes with preconfigured dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
 
 </td><td>
 

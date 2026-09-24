@@ -2,7 +2,7 @@
 title: Create a technical dashboard in UI Builder
 description: Follow the Technical Editor option to create a dashboard using UI Builder. In UI Builder, you can use a wider range of features than the inline editor, including scripting and data binding.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-tech-db-in-ac.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-tech-db-in-ac.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,17 +67,17 @@ The technical editor lets you add any UI Builder component to your dashboard. Yo
 
 9.  Add more containers, components, and configurations.
 
-10. If you have added a data visualization component and you want viewers to drill down to a more detailed data view from that component, follow the instructions in [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-custom-drilldown-event.md).
+10. If you have added a data visualization component and you want viewers to drill down to a more detailed data view from that component, follow the instructions in [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-custom-drilldown-event.md).
 
 11. Click **Save** at any time to save the changes you've made to the dashboard.
 
 
-**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md)
+**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/technical-dashboards.md)
 
 **Related topics**  
 
 
-[Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md)
+[Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md)
 
-[Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md)
+[Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/interactive-filters-workspace.md)
 

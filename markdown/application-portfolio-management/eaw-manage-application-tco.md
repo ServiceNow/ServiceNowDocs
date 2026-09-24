@@ -2,7 +2,7 @@
 title: Exploring total cost of ownership \(TCO\) in Enterprise Architecture Workspace
 description: The Application Total Cost of Ownership \(TCO\) plugin helps Enterprise Architects evaluate the cost of business applications. Use application costs to prioritize the application portfolio and align with the organization's business strategy.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-manage-application-tco.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-manage-application-tco.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -54,21 +54,21 @@ The **Portfolio TCO** tab in the **Dashboards** page displays the following dash
 -   Business Application TCO by application category for current quarter and previous quarter.
 -   Business Application TCO by application planned disposition for current quarter
 
-For more details, see [Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-workspace-dashboard.md).
+For more details, see [Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-workspace-dashboard.md).
 
 ## Application TCO insights
 
 The Insights section in the Enterprise Architecture Workspace home page displays insights for your business applications.\[Omitted image "TCO-insights.png"\] Alt text: TCO insights
 
--   **[Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-app-tco.md)**  
+-   **[Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-app-tco.md)**  
 You can configure the application TCO source and cost type in the Enterprise Architecture Workspace.
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/explore-eaw.md)
 
 **Related topics**  
 
 
-[Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-app-tco.md)
+[Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-app-tco.md)
 
-[Install the Application Total Cost of Ownership \(TCO\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-app-tco.md)
+[Install the Application Total Cost of Ownership \(TCO\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-install-app-tco.md)
 

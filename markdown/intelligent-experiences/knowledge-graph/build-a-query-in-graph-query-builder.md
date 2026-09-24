@@ -2,7 +2,7 @@
 title: Build a query in Graph Query Builder
 description: Use Graph Query Builder to build a query by selecting the entities and their relationship, apply filters, choose the output columns and run the query.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/build-a-query-in-graph-query-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/build-a-query-in-graph-query-builder.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

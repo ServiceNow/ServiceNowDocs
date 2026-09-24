@@ -2,7 +2,7 @@
 title: Activate the TPRM issue summarization skill
 description: Activate the TPRM summarization skill from ServiceNow Otto for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-summarize-an-issue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-summarize-an-issue.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

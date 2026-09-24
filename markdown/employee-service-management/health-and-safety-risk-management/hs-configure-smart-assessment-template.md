@@ -2,7 +2,7 @@
 title: Configure the smart assessment template for safety inspections and audits
 description: You can create smart assessment templates and add instructions, questions, and reference information by using the template designer in the Smart Assessment Engine application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-configure-smart-assessment-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-configure-smart-assessment-template.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -60,7 +60,7 @@ You can also convert your existing Survey templates related to Health and Safety
 
 ## What to do next
 
-You can configure which question in the smart assessment should have action creation enabled. For more information, see [Configure creating actions from smart assessment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-configure-property-smart-assessment-action-creation.md).
+You can configure which question in the smart assessment should have action creation enabled. For more information, see [Configure creating actions from smart assessment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-configure-property-smart-assessment-action-creation.md).
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

@@ -2,7 +2,7 @@
 title: Exploring AI Data Kit
 description: The AI Data Kit plugin for Now Assist enables you to add datasets to a data catalog and create collections for use in ServiceNow SDK.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/exploring-now-assist-data-kit.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/exploring-now-assist-data-kit.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -47,14 +47,14 @@ The following diagram shows the user journey for AI Data Kit.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Addition of datasets to a data catalog.|[Add a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/add-dataset.md)|AI developer|
-|Create smaller datasets from existing datasets.|[Create a derived dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/create-derived-dataset.md)|AI developer|
-|Merge multiple datasets and create a collection that can be used by AI Skill Kit.|[Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md)|AI developer|
+|Addition of datasets to a data catalog.|[Add a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/add-dataset.md)|AI developer|
+|Create smaller datasets from existing datasets.|[Create a derived dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/create-derived-dataset.md)|AI developer|
+|Merge multiple datasets and create a collection that can be used by AI Skill Kit.|[Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/activate-skill.md)|AI developer|
 
 ## What to explore next
 
 To learn more about configuring and using AI Skill Kit, see:
 
--   [Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
--   [Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+-   [Configuring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+-   [Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 

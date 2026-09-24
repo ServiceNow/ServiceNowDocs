@@ -2,7 +2,7 @@
 title: System property for Smart Documents skill
 description: Configure and set the system property to use Smart Documents skill.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/system-property-smart-documents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/system-property-smart-documents.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-20"

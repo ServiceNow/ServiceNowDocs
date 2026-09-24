@@ -2,7 +2,7 @@
 title: Set objectives for Process Mining projects
 description: Define the kind of data or process that you want to view and analyze in your graph. You must select a specific table \(parent table\) that has the data that you want to analyze.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/set-objectives.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/set-objectives.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -26,7 +26,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 2.  Provide the following details.
 
-    **Note:** If you want to create a project using Agentic AI data, see [Create a project using Agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-agentic-ai.md). If you want to create a project using Playbook data, see [Create a project using Playbook data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/playbook-project.md).
+    **Note:** If you want to create a project using Agentic AI data, see [Create a project using Agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/project-agentic-ai.md). If you want to create a project using Playbook data, see [Create a project using Playbook data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/playbook-project.md).
 
 <table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d97463e104">
 
@@ -123,7 +123,7 @@ This field is available only if you choose the type as **Project**.
 
  If you don’t change the retired status within the specified days, the mined versions are permanently deleted. However, the project definition isn’t deleted. You can opt out of auto retirement by clearing this check box.
 
- The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
+ The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/data-cleanup.md).
 
 </td></tr><tr><td id="d97463e277">
 
@@ -145,5 +145,5 @@ Select the check box if you want to add a KPI dashboard. You must then select a 
     If you select an existing template, then after you select the template, you’re taken to the **Review and Mine** page.
 
 
-**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md)
+**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/define-workflow-model.md)
 

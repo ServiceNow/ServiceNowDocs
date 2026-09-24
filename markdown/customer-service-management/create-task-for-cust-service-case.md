@@ -2,7 +2,7 @@
 title: Create a task for a customer service case
 description: Create a task for a customer service case for additional work that needs to be completed as part of resolving the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-task-for-cust-service-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-task-for-cust-service-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

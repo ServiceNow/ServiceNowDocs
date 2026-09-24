@@ -2,7 +2,7 @@
 title: Default settings of the Operational Technology Unified Map experience
 description: You can modify the default settings available for the Operational Technology \(OT\) Unified Map experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/default-settings-unified-maps-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/default-settings-unified-maps-experience.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -59,5 +59,5 @@ You can specify the operational states that CIs must have for them to be include
 
 Each class has a unique set of extended properties that appear in the Unified Map Attributes panel for a CI. Many common classes are preconfigured with these properties. You can modify the default settings and globally configure extended properties for additional classes.
 
-**Parent Topic:**[Setting up the Operational Technology Unified Map experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-unified-maps-experience.md)
+**Parent Topic:**[Setting up the Operational Technology Unified Map experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/setting-up-unified-maps-experience.md)
 

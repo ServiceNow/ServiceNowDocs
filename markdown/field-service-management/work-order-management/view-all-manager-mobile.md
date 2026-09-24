@@ -2,7 +2,7 @@
 title: View all tasks in Field Service Manager Mobile
 description: Manager’s can view all the tasks assigned to assignment groups or territories they manage to get a complete view of the team’s workload.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-all-manager-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/view-all-manager-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

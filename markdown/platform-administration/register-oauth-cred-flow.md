@@ -2,7 +2,7 @@
 title: Register an OAuth provider
 description: Use the information generated during the Microsoft Azure account configuration to register an application as an OAuth provider.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/register-oauth-cred-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/register-oauth-cred-flow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,7 +66,7 @@ OAuth API Script
 
 </td><td>
 
-OAuth API script name. For more information see, [OAuth API Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/oauth-api-script.md). **Note:** This field is required only while using certificates.
+OAuth API script name. For more information see, [OAuth API Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/oauth-api-script.md). **Note:** This field is required only while using certificates.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Redirect URL
 
 ## What to do next
 
-Use the OAuth profile to create an email account with SMTP OAuth2.0. For more information, see [Create an email account with SMTP OAuth2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-account-smtp.md).
+Use the OAuth profile to create an email account with SMTP OAuth2.0. For more information, see [Create an email account with SMTP OAuth2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-email-account-smtp.md).
 
-**Parent Topic:**[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/send-email-client-credential-flow.md)
+**Parent Topic:**[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/send-email-client-credential-flow.md)
 

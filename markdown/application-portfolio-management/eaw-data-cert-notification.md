@@ -2,7 +2,7 @@
 title: Data certification task notifications
 description: When a data certification policy runs in the Enterprise Architecture Workspace, the system automatically sends email notifications to task assignees as due dates approach. This notification behavior is provided by the CMDB Data Manager and does not require additional configuration in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-data-cert-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-data-cert-notification.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-15"
@@ -14,7 +14,7 @@ breadcrumb: [Working with data certification, Managing Enterprise Architecture W
 
 When a data certification policy runs in the Enterprise Architecture Workspace, the system automatically sends email notifications to task assignees as due dates approach. This notification behavior is provided by the CMDB Data Manager and does not require additional configuration in the Enterprise Architecture Workspace.
 
-You can control when notifications are sent by setting the **Days to complete** field when creating a certification policy and by enabling notifications in the CMDB Workspace Data Manager settings. For more information, see [Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-policy.md) and [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/components-cmdb-data-manager.md).
+You can control when notifications are sent by setting the **Days to complete** field when creating a certification policy and by enabling notifications in the CMDB Workspace Data Manager settings. For more information, see [Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-policy.md) and [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/components-cmdb-data-manager.md).
 
 ## Notification configuration
 
@@ -26,7 +26,7 @@ To modify this setting, navigate to **Workspaces** &gt; **CMDB Workspace** &gt; 
 
 The **Days to complete** field in the **Options** form of a certification policy determines the time interval used to calculate when notifications are sent. The interval starts when a certification task is created and ends when the specified number of days elapses.
 
-For more information, see [Options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-options-form.md).
+For more information, see [Options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-data-cert-options-form.md).
 
 **Note:** Set a realistic number of days to allow assignees enough time to review and certify records before the due date. Notifications are sent at the 50%, 70%, and 90% milestones of this interval.
 
@@ -43,9 +43,9 @@ After a certification task is created and notifications are enabled, the system 
 
 ## Respond to a notification
 
-When you receive a due date notification, use the task number in the email subject to locate the certification task. For information about reviewing and completing certification tasks, see [Review and certify data certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-approve-data-cert-tasks.md).
+When you receive a due date notification, use the task number in the email subject to locate the certification task. For information about reviewing and completing certification tasks, see [Review and certify data certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-approve-data-cert-tasks.md).
 
 After the task is closed, no further notifications are sent for that task.
 
-**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-data-cert.md)
+**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-data-cert.md)
 

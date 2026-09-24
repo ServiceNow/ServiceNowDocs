@@ -2,7 +2,7 @@
 title: Encryption options in Vaccine Administration Management
 description: Vaccine Administration Management provides encryption support to secure sensitive information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/vam-encryption-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/vaccine-administration-management/vam-encryption-support.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management

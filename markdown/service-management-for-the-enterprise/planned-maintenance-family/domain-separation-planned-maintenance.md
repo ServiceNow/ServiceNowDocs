@@ -2,7 +2,7 @@
 title: Domain separation and Planned Maintenance
 description: Domain separation is supported in Planned Maintenance. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/planned-maintenance-family/domain-separation-planned-maintenance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/planned-maintenance-family/domain-separation-planned-maintenance.html
 release: australia
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
@@ -34,7 +34,7 @@ There is no sys\_domain column in the Maintenance Plan \(sm\_maint\_plan\) table
 
 You can set maintenance plans to include or exclude domains or set them globally by design. Support in the Part Requirements \(sm\_part\_requirement\} table is data only.
 
-**Parent Topic:**[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_SMPlanMaint.md)
+**Parent Topic:**[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/planned-maintenance-family/c_SMPlanMaint.md)
 
 **Related topics**  
 

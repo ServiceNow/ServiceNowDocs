@@ -2,7 +2,7 @@
 title: Move an asset through the transfer process
 description: Use transfer order line tasks to move assets through the shipment or drop-off transfer process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-transfer-order-line-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/create-transfer-order-line-task.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,7 +2,7 @@
 title: Define an approval user
 description: Define an approver in Advanced Approval Management and the associated approval rule that they review during the approval process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-approval-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-approval-users.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Define an approver in Advanced Approval Management and the associated approval r
 
 ## Before you begin
 
-[Create the approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-rules.md) to be associated with the approver.
+[Create the approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-rules.md) to be associated with the approver.
 
 Role required: sn\_adv\_appr\_mgmt.approval\_rule\_admin, sn\_adv\_appr\_mgmt.approval\_rule\_writer
 
@@ -45,5 +45,5 @@ An approval user is a [user of your instance](https://raw.githubusercontent.com/
 
 ## What to do next
 
-[Define an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-groups.md).
+[Define an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-groups.md).
 

@@ -2,7 +2,7 @@
 title: Configure HR Service Delivery Advanced Integration with Workday
 description: Configure HR Service Delivery Advanced Integration with Workday.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configuring-hr-service-delivery-advanced-integration-with-workday.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configuring-hr-service-delivery-advanced-integration-with-workday.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

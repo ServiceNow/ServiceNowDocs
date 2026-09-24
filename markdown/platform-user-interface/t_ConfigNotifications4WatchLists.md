@@ -2,7 +2,7 @@
 title: Configure email notifications for watch lists
 description: Watch lists \(glide\_list field type\) allow multiple users to subscribe to notifications of a task. You can specify conditions in an email notification to send email notifications to the members when the conditions are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfigNotifications4WatchLists.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_ConfigNotifications4WatchLists.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,17 +39,17 @@ If users on a watch list are getting more than one email for each update to an i
 4.  Click **Update**.
 
 
--   **[Hide email addresses in a watch list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_HideEmailAddressesInAWatchList.md)**  
+-   **[Hide email addresses in a watch list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_HideEmailAddressesInAWatchList.md)**  
 You can remove the email address text entry element from a watch list by modifying the dictionary.
--   **[Configure order buttons on the watch list slushbucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/watchlist-slushbucket-order.md)**  
+-   **[Configure order buttons on the watch list slushbucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/watchlist-slushbucket-order.md)**  
 When you add multiple users to a glide\_list, such as a watch list, the slushbucket does not display the order buttons for the list of selected members. You can set a dictionary attribute to display the order buttons.
 
-**Parent Topic:**[Add users to a watch list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseAWatchList.md)
+**Parent Topic:**[Add users to a watch list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_UseAWatchList.md)
 
 **Related topics**  
 
 
-[Configure email notifications for watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigNotifications4WatchLists.md)
+[Configure email notifications for watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ConfigNotifications4WatchLists.md)
 
 [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 

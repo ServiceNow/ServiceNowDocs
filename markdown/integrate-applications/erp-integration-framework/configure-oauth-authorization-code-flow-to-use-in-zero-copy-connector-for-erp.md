@@ -2,7 +2,7 @@
 title: Configure OAuth authorization code flow for Zero Copy Connector for ERP
 description: Configure OAuth authorization code flow for SAP and use OAuth to authenticate and authorize users for OData endpoints.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/configure-oauth-authorization-code-flow-to-use-in-zero-copy-connector-for-erp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/configure-oauth-authorization-code-flow-to-use-in-zero-copy-connector-for-erp.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -78,7 +78,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
     5.  In **Integration type**, select **Personal**.
 
-        In most cases, it is acceptable to use system-based credentials. However, to obtain information from SAP, such as who changed information or details about approval activities, use the personal integration type. For more information, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/personal-auth-dashboard.md).
+        In most cases, it is acceptable to use system-based credentials. However, to obtain information from SAP, such as who changed information or details about approval activities, use the personal integration type. For more information, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/personal-auth-dashboard.md).
 
         \[Omitted image "erp-oauth-usage-flow3.png"\] Alt text: Oauth 2.0 credentials form with fields containing information.
 

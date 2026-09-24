@@ -2,7 +2,7 @@
 title: Work on self-served contract requests as a contract user
 description: Edit a contract request, regenerate the contract document, and send it for signature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-user.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-user.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -28,15 +28,15 @@ Role required: sn\_cm\_core.contract\_user
 
 3.  Work on the contract request.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d785397e72">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d785401e72">
 
 Action
 
-</th><th align="left" id="d785397e75">
+</th><th align="left" id="d785401e75">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d785397e81">
+</th></tr></thead><tbody><tr><td id="d785401e81">
 
 **Modify the request details**
 
@@ -44,15 +44,15 @@ Steps
 
 Modify the fields of the self-served review request. To add a company name that is not listed in the **Company** field, select the **Add new company name** check box and then enter the company name in the **New company legal name** field.
 
-</td></tr><tr><td id="d785397e101">
+</td></tr><tr><td id="d785401e101">
 
 **Regenerate contract document**
 
 </td><td>
 
-Create a contract document revision from the contract template that includes the latest values and discards the changes made in the previous version of the document. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md).
+Create a contract document revision from the contract template that includes the latest values and discards the changes made in the previous version of the document. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md).
 
-</td></tr><tr><td id="d785397e117">
+</td></tr><tr><td id="d785401e117">
 
 **Sync the document__Note:__ This option is available on Contract Management Pro starting with version 1.2.1
 
@@ -60,9 +60,9 @@ Create a contract document revision from the contract template that includes the
 
 </td><td>
 
-Create a new version of the contract document with updated metadata and signatories while retaining the changes made in the previous version. For more information, see [Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-sync-document.md).
+Create a new version of the contract document with updated metadata and signatories while retaining the changes made in the previous version. For more information, see [Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-sync-document.md).
 
-</td></tr><tr><td id="d785397e138">
+</td></tr><tr><td id="d785401e138">
 
 **Sync signatories__Note:__ This option isn't available on Contract Management Pro starting with version 1.2.1 because it is no longer necessary.
 
@@ -70,17 +70,17 @@ Create a new version of the contract document with updated metadata and signator
 
 </td><td>
 
-Update the contract document with the latest signatory details. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md).
+Update the contract document with the latest signatory details. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md).
 
-</td></tr><tr><td id="d785397e160">
+</td></tr><tr><td id="d785401e160">
 
 **Send the document for signature**
 
 </td><td>
 
-See [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
+See [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
 
-</td></tr><tr><td id="d785397e176">
+</td></tr><tr><td id="d785401e176">
 
 **Initiate an offline signature__Note:__ This option is available only when the signature type is Offline signature.
 
@@ -88,9 +88,9 @@ See [Send a contract document for signature](https://raw.githubusercontent.com/S
 
 </td><td>
 
-A contract that has been signed outside Contract Management Pro. Signature request emails are not sent to the signatories. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
+A contract that has been signed outside Contract Management Pro. Signature request emails are not sent to the signatories. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
 
-</td></tr><tr><td id="d785397e201">
+</td></tr><tr><td id="d785401e201">
 
 **Cancel request**
 

@@ -2,7 +2,7 @@
 title: Automate response
 description: Set up default responses for questions so that assessors can complete assessments quickly and provide quality results.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/automate-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/automate-response.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -59,5 +59,5 @@ Under Additional options, the Set response as editable setting controls whether 
 
 **Note:** When Set response as editable is disabled, the Required toggle on the question is automatically turned off, since the system provides the response.
 
-When setting up the automated response, you can use if-then conditions to build the required criteria for the response. For more information, see [Configure an automatic response for a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.md).
+When setting up the automated response, you can use if-then conditions to build the required criteria for the response. For more information, see [Configure an automatic response for a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.md).
 

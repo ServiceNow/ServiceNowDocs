@@ -2,7 +2,7 @@
 title: Data for problem resolution
 description: The quick resolution of problems requires gathering as much information as possible about the problem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/c\_GatherProblemData.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/c\_GatherProblemData.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -54,5 +54,5 @@ To check the CMDB Baseline, view the CI record and check **Baseline Differences*
 
 In the example above, the change in RAM is associated with a change request. You can review the change and see what was planned and what was implemented. The removal of QuickTime software was recorded as an unplanned change.
 
-**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/reference-section-for-problem-management.md)
 

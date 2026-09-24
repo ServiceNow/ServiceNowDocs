@@ -2,12 +2,12 @@
 title: Sensitivity detection filters mapping
 description: The sys\_gen\_ai\_filter table includes eight out-of-the-box filters that determines which topics are regarded as sensitive. Each filter is mapped to an HR service that is used to create a case and a chat queue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -35,5 +35,5 @@ Modify the condition that is associated with your `awa_queue`record so that you 
 |Workplace misconduct: Workplace harassment, Violence, and discrimination|Report misconduct|Employee relations|
 |Workplace Substance Abuse and Support|Report misconduct|Employee relations|
 
-**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
+**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
 

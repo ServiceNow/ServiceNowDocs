@@ -2,7 +2,7 @@
 title: Create a filter configuration using mapping
 description: Create filter conditions using mapping that you can associate with a table configuration. The search result displays result that meets the filter conditions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/create-filter-config-using-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/contextual-search/create-filter-config-using-mapping.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -98,5 +98,5 @@ Option to activate the filter configuration.
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Filter configuration for contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/filter-configuration-for-cxs.md)
+**Parent Topic:**[Filter configuration for contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/contextual-search/filter-configuration-for-cxs.md)
 

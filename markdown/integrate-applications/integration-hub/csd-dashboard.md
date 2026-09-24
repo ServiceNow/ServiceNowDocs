@@ -2,7 +2,7 @@
 title: Client software distribution dashboard
 description: The CSD dashboard provides a collection of visual reports for the Client Software Distribution application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/csd-dashboard.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -107,5 +107,5 @@ Displays the license counts for all available applications.-   **Type**: [Create
 
 Navigate to **Client Software Distribution** &gt; **Usage Overview** to view the current transaction count for your instance.
 
-**Parent Topic:**[Client Software Distribution using Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-integrationhub.md)
+**Parent Topic:**[Client Software Distribution using Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/csd-integrationhub.md)
 

@@ -2,7 +2,7 @@
 title: Import the OT device spreadsheet into OT CMDB agentic workflow
 description: The Import OT device spreadsheet into OT CMDB agentic workflow automates the upload, validation, and import of OT device data into the OT CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/now-assist-otm-aiagents-import-ot-device-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/now-assist-otm-aiagents-import-ot-device-workflow.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -18,7 +18,7 @@ The Import OT device spreadsheet into OT CMDB agentic workflow automates the upl
 
 ## Import OT device spreadsheet into OT CMDB overview
 
-Using the Import OT device spreadsheet into OT CMDB agentic workflow, you can import the OT device inventory spreadsheet and map the spreadsheet data to the OT staging table. After importing and creating an OT staging table record, you can validate the staging record, remediate invalid records, and import all the validated records into the OT CMDB. For more information about how to use this agentic workflow, see [Upload, validate, and import the OT device inventory spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/upload-import-validate-ot-device-inventory-spreadsheet.md).
+Using the Import OT device spreadsheet into OT CMDB agentic workflow, you can import the OT device inventory spreadsheet and map the spreadsheet data to the OT staging table. After importing and creating an OT staging table record, you can validate the staging record, remediate invalid records, and import all the validated records into the OT CMDB. For more information about how to use this agentic workflow, see [Upload, validate, and import the OT device inventory spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/upload-import-validate-ot-device-inventory-spreadsheet.md).
 
 **Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -47,8 +47,8 @@ The Import OT device spreadsheet into OT CMDB agentic workflow uses the OT Excel
 
 **Important:** This AI agent is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
--   **[Upload, validate, and import the OT device inventory spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/upload-import-validate-ot-device-inventory-spreadsheet.md)**  
+-   **[Upload, validate, and import the OT device inventory spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/upload-import-validate-ot-device-inventory-spreadsheet.md)**  
 Chat with an AI agent in the ServiceNowOtto panel to begin the process for uploading, validating, and importing your Operational Technology \(OT\) device data into the OT CMDB.
 
-**Parent Topic:**[Agentic AI for the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/now-assist-for-otm-use-cases.md)
+**Parent Topic:**[Agentic AI for the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/now-assist-for-otm-use-cases.md)
 

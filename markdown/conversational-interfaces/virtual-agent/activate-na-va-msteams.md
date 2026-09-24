@@ -2,7 +2,7 @@
 title: Activate ServiceNow Otto for Virtual Agent for Microsoft Teams
 description: Add ServiceNow Otto for Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/activate-na-va-msteams.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/activate-na-va-msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +21,7 @@ Add ServiceNow Otto for Virtual Agent to your Microsoft Teams and Microsoft Copi
 
 Role required: admin or virtual\_agent\_admin
 
-Create a self-configured bot for Microsoft Copilot. For more information, see [Setting up the Self-configured bot for using Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-self-bot-copilot.md).
+Create a self-configured bot for Microsoft Copilot. For more information, see [Setting up the Self-configured bot for using Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/setup-self-bot-copilot.md).
 
 **Note:** Ensure you've updated the version of your Microsoft Teams app in the **Version** field.
 
@@ -60,7 +60,7 @@ Create a self-configured bot for Microsoft Copilot. For more information, see [S
 
 ## What to do next
 
-Upload the manifest to Microsoft Teams to make your bot experience available in the Microsoft global apps store, which will also activate the Custom Engine Agent \(CEA\) in Microsoft Copilot. For more information, see [Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/upload-package-file-msteams.md).
+Upload the manifest to Microsoft Teams to make your bot experience available in the Microsoft global apps store, which will also activate the Custom Engine Agent \(CEA\) in Microsoft Copilot. For more information, see [Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/upload-package-file-msteams.md).
 
-**Parent Topic:**[Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-install.md)
+**Parent Topic:**[Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/teams-install.md)
 

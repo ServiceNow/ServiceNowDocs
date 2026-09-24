@@ -2,7 +2,7 @@
 title: Create an improvement request
 description: Create an improvement request for improvement opportunities you identify in your environment. Once submitted, the improvement request is analyzed and implemented by the Improvement Manager and Improvement Coordinator.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/create-cim-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/continual-improvement-management/create-cim-request.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -34,7 +34,7 @@ Role required: sn\_cim.improvement\_requester
 
     1.  Navigate to **Continual Improvement** &gt; **Create New**.
 
-        A CIM phase is automatically created when you create the initiative, if the **sn\_cim.create\_default\_phase** system property is enabled. For more information, see [Properties installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-components.md).
+        A CIM phase is automatically created when you create the initiative, if the **sn\_cim.create\_default\_phase** system property is enabled. For more information, see [Properties installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-components.md).
 
     2.  Fill in the short description and the business justification, and select **Submit**.
 
@@ -59,17 +59,17 @@ As part of the improvement identification process, the incident manager analyzed
 |State|New|
 |Priority|4 - Low \(default\)|
 
--   **[Create improvement initiatives from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/create-improvmt-from-apps.md)**  
+-   **[Create improvement initiatives from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/create-improvmt-from-apps.md)**  
 Create improvement initiatives from applications integrated with Continual Improvement Management to enable planning, implementation, monitoring, and impact assessment of improvements in a centralized framework.
--   **[Create application records from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/create-app-records.md)**  
+-   **[Create application records from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/create-app-records.md)**  
 Create records for integrated applications from improvement initiatives or CIM tasks to transform improvement initiatives into broader, actionable efforts to enable improvements across teams and processes.
--   **[Configure CIM integration property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/configure-cim-int-property.md)**  
+-   **[Configure CIM integration property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/configure-cim-int-property.md)**  
 Configure the CIM sn\_cim.initiative\_copy\_attributes integration property to define field values to be copied from an improvement initiative to application records that you create from the initiative.
 
-**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-landing-page.md)
 
 **Related topics**  
 
 
-[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
+[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-field-descriptions.md)
 

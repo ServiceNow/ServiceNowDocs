@@ -2,12 +2,12 @@
 title: Renamed entities in Live Agent Assist
 description: Starting with version 7.0 of Customer Service Management AI agent collection, several configuration records that support the Live Agent Assist capability were renamed to align with its new label, Live interaction recommendations AI agent.
 locale: en-us
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/live-agent-assist-renamed-entities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/live-agent-assist-renamed-entities.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Live interaction recommendations AI agent, Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---

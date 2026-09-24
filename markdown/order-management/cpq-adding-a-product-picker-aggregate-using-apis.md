@@ -2,7 +2,7 @@
 title: Adding a product picker aggregate using APIs
 description: Follow these steps to add a product picker aggregate using API calls.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-adding-a-product-picker-aggregate-using-apis.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-adding-a-product-picker-aggregate-using-apis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,7 +64,7 @@ In the UI, refresh the page to see the added aggregate.
 **Related topics**  
 
 
-[Product picker aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-picker-aggregates.md)
+[Product picker aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-picker-aggregates.md)
 
-[Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product_picker_overview.md)
+[Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product_picker_overview.md)
 

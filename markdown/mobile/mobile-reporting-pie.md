@@ -2,7 +2,7 @@
 title: Pie charts for mobile
 description: Learn to use pie charts for mobile, which show segments that make up a whole. This data visualization enables you to see the portions and percentages between different priorities at a single glance. For example, a pie chart report showing open incidents by priority, enables you to see whether incident counts of different priorities are within acceptable ranges.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-reporting-pie.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-reporting-pie.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +14,7 @@ breadcrumb: [Using data visualizations, Mobile platform dashboards, Using the mo
 
 Learn to use pie charts for mobile, which show segments that make up a whole. This data visualization enables you to see the portions and percentages between different priorities at a single glance. For example, a pie chart report showing open incidents by priority, enables you to see whether incident counts of different priorities are within acceptable ranges.
 
-**Note:** For information on how to configure pie charts, you need to create mobile dashboard previews within a launcher screen. For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-dashboard-preview.md).
+**Note:** For information on how to configure pie charts, you need to create mobile dashboard previews within a launcher screen. For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-applet-launcher.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-dashboard-preview.md).
 
 <table id="simpletable_vj3_cqw_m1c"><tbody><tr><td>
 

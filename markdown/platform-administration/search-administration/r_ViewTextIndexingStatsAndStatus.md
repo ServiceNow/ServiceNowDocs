@@ -2,7 +2,7 @@
 title: Text indexing statistics and status
 description: To view text indexing statistics and status, navigate to All System Definition Text Indexes .
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/r\_ViewTextIndexingStatsAndStatus.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/r\_ViewTextIndexingStatsAndStatus.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -24,7 +24,7 @@ To view text indexing statistics and status, navigate to **All** &gt; **System D
 
 \[Omitted image "TextIndexStatistics.png"\] Alt text: Text index statistics record.
 
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

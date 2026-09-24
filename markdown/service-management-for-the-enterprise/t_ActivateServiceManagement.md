@@ -2,7 +2,7 @@
 title: Activate Service Management
 description: The Service Management Core plugin is activated automatically when you activate any service management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_ActivateServiceManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_ActivateServiceManagement.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-For information on subscribing to a service management application, see [Activate Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateFacilitiesSM.md).
+For information on subscribing to a service management application, see [Activate Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateFacilitiesSM.md).
 
 The Service Management Core plugin also activates the following plugins if they are not already active.
 
@@ -38,10 +38,10 @@ The Service Management Core plugin also activates the following plugins if they 
 -   Workbench
 -   Checklist
 
--   **[Activate other Service Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_ActivateOtherSMApplications.md)**  
+-   **[Activate other Service Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_ActivateOtherSMApplications.md)**  
 After the Service Management Core plugin has been activated, you can activate other SM applications, such as Field Service management and facilities service management. You can also activate CMS portals for each of these SM applications to add them to the Service Management Portal.
 
-**Parent Topic:**[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ServiceManagement.md)
+**Parent Topic:**[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_ServiceManagement.md)
 
 **Related topics**  
 

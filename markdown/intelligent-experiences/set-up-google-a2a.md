@@ -2,7 +2,7 @@
 title: Setting up Google A2A authentication for ServiceNow AI agents
 description: Configure ServiceNow AI agents as secondary agents over the Google Agent2Agent \(A2A\) protocol by setting up authentication and enabling external agent interoperability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/set-up-google-a2a.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/set-up-google-a2a.html
 release: australia
 topic_type: task
 last_updated: "2026-08-31"

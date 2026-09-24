@@ -2,7 +2,7 @@
 title: Components installed with Event Management
 description: Activating the Event Management \(com.glideapp.itom.snac\) plugin adds several roles, scheduled jobs, and tables.Roles used by the Event Management application.List of scheduled jobs that are provided with Event Management.Properties provide the metadata to identify the domain.Tables that are provided when Event Management is activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/r\_InstalledWithEventManagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/r\_InstalledWithEventManagement.html
 release: australia
 product: Event Management
 classification: event-management
@@ -18,7 +18,7 @@ Activating the Event Management \(com.glideapp.itom.snac\) plugin adds several r
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
-**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-management-reference.md)
 
 ## Roles installed with Event Management
 
@@ -179,7 +179,7 @@ Event Management — Alert Priority Queue
 
 </td><td>
 
-Calculate [alert priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-priority.md). Two Alert Priority Queue jobs are active and available and can be run multi-thread. Runs every minute.
+Calculate [alert priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-priority.md). Two Alert Priority Queue jobs are active and available and can be run multi-thread. Runs every minute.
 
 </td></tr><tr><td>
 
@@ -263,7 +263,7 @@ Event Management — Node Count
 
 </td><td>
 
-Calculate [license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/license-usage.md). Runs once every hour.
+Calculate [license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/license-usage.md). Runs once every hour.
 
 </td></tr><tr><td>
 

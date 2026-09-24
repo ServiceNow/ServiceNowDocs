@@ -2,7 +2,7 @@
 title: Assign testers from the Test Plan form
 description: Use the Test Cases related list on the Test Plan form to assign testers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_AssignTestersFromTheTestPlanForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/test-management/t\_AssignTestersFromTheTestPlanForm.html
 release: australia
 product: Test Management
 classification: test-management
@@ -33,5 +33,5 @@ Role required: tm\_test\_manager or tm\_tester
 5.  Click **Update**.
 
 
-**Parent Topic:**[Assigning testers to test cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/assigning-testers-to-test-cases.md)
+**Parent Topic:**[Assigning testers to test cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/test-management/assigning-testers-to-test-cases.md)
 

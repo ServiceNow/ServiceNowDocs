@@ -2,10 +2,10 @@
 title: Install Quote Management for Channel Partners
 description: Install the Quote Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_qm\), along with the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/install-quote-management-for-channel-partners.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-quote-management-for-channel-partners.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Install the Quote Management for Channel Partners plugin \(com.snc.partner\_rela
 
 Depending on your entitlements, you must install demo data after installation. Demo data comprises the sample records that describe application features for the common use cases.
 
-**Note:** The Quote Self-Service application is installed along with Quote Management for Channel Partners. For more information on Quote Self-Service, see [Quote creation via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-quote.md)
+**Note:** The Quote Self-Service application is installed along with Quote Management for Channel Partners. For more information on Quote Self-Service, see [Quote creation via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/self-service-quote.md)
 
 Role required: admin
 
@@ -83,15 +83,15 @@ Load the demo data after installing the Sales Common plugin.1.  Install Quote Ma
 
 You have successfully installed the Quote Management for Channel Partners \(com.snc.partner\_relationship\_management\_qm\) application.
 
--   **[Quote creation via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-quote.md)**  
+-   **[Quote creation via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/self-service-quote.md)**  
 Quote Self-Service \(com.sn\_quote\_self\_service\) enables channel partners to create and manage quotes directly in the Partner portal through a guided playbook experience.
 
-**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

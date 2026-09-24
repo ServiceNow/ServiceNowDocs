@@ -2,7 +2,7 @@
 title: Spotlight job logs
 description: The steps of Spotlight jobs are recorded in logs. Use these logs to debug any issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/spotlight-logs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/spotlight/spotlight-logs.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -54,7 +54,7 @@ As shown at the top, the Incident Spotlight group evaluates real-time data. Ther
 -   \[\[Opened\]\[relative\]\[on or before\]\[30\]\[Days\]\[ago\]\]
 -   \[\[Opened\]\[relative\]\[on or after\]\[90\]\[Days\]\[ago\]\]
 
-For more information, see [Create Spotlight criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/create-spotlight-criteria.md).
+For more information, see [Create Spotlight criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/create-spotlight-criteria.md).
 
-**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/spotlight/spotlight.md)
 

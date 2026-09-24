@@ -2,7 +2,7 @@
 title: Flag or unflag tasks from the list
 description: Flag tasks from the list to track their progress. Flagged tasks appear in Dispatcher Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/flag-task-list-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/flag-task-list-workspace.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

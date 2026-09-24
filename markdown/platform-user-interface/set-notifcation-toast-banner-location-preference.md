@@ -2,7 +2,7 @@
 title: Set the location of a notification toast banner
 description: A toast message provides simple feedback about an operation in a small pop-up. Choose which corner of the screen that you would like your notification toast message banners to appear in for the purpose of improving usability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-notifcation-toast-banner-location-preference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-notifcation-toast-banner-location-preference.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +39,5 @@ Role required: admin
     **Note:** The default location is in the top right of your instance. If the banner doesn't appear in the expected location, try refreshing your browser.
 
 
-**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
+**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/config-next-experience-themes-prefs.md)
 

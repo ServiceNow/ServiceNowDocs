@@ -2,7 +2,7 @@
 title: Exploring Assessments and Surveys
 description: The Assessments and Surveys application helps you create, send, and collect responses for surveys. The application also helps you evaluate, score, and rank records from any table in the system. Create questionnaires that you can assign to one or more users to assess their knowledge of any subject.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/assessments-and-surveys.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/assessments-and-surveys.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,5 +26,5 @@ You can assess projects that executives want to evaluate for effective managemen
 
 The quiz functionality is built on the assessment engine and provides many of the same features as assessments and surveys.
 
-**Parent Topic:**[Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessments-surveys-landing-page.md)
+**Parent Topic:**[Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/assessments-surveys-landing-page.md)
 

@@ -2,7 +2,7 @@
 title: Create a collection of files in ServiceNow Studio
 description: Create a collection of files for personal organization in ServiceNow Studio. Create and organize folders, and group apps and files your way.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-create-a-collection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/qs-create-a-collection.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -43,5 +43,5 @@ Collections extend the current bookmark functionality in ServiceNow Studio by ad
 
 ## Result
 
-The new collection displays in the Navigator panel and is available for use. For more information, see [Add files to a collection in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-add-files-to-a-collection.md).
+The new collection displays in the Navigator panel and is available for use. For more information, see [Add files to a collection in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/qs-add-files-to-a-collection.md).
 

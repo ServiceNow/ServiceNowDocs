@@ -2,7 +2,7 @@
 title: Configure a resource generator for providing a similar major case to the current case
 description: Configure a resource generator of type similarity with trend that provides a similar major case to the current case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-ra-resource-generator-similarity-trend.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ex-ra-resource-generator-similarity-trend.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

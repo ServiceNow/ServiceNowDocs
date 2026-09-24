@@ -2,7 +2,7 @@
 title: Configure the portal service catalog for a constituent, business, or agency
 description: Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal or GOV.UK Design System Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/configure-services-offered.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/configure-services-offered.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

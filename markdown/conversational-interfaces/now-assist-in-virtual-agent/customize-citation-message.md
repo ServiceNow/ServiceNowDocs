@@ -2,7 +2,7 @@
 title: Customize citation message
 description: Inline citations are intended to show from which ServiceNow knowledge articles the response is generated. This can include information from attachments and knowledge blocks, or from external content such as Microsoft SharePoint and Confluence. Inline citations also appear when the user is presented with an action to perform, for example, within a Virtual Agent topic or a catalog item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/customize-citation-message.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/customize-citation-message.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -18,7 +18,7 @@ Inline citations are intended to show from which ServiceNow knowledge articles t
 
 ## Before you begin
 
-For more information about ServiceNow Otto for Virtual Agent citations, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+For more information about ServiceNow Otto for Virtual Agent citations, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 Role required: admin
 

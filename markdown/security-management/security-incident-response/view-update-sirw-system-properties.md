@@ -2,7 +2,7 @@
 title: View and update Security Incident Response system properties
 description: View and update the Security Incident Response Workspace system properties from the Security Incident Response Workspace administration panel to access and update the required properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-update-sirw-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/view-update-sirw-system-properties.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -16,16 +16,16 @@ breadcrumb: [Configure, Security Incident Response Workspace, Security Incident 
 
 View and update the Security Incident Response Workspace system properties from the Security Incident Response Workspace administration panel to access and update the required properties.
 
--   **[Configure default landing tab for security analysts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-default-landing-tab.md)**  
+-   **[Configure default landing tab for security analysts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-default-landing-tab.md)**  
 Configure the default landing tab \(Overview or Details\) for security analysts when they select a security incident so they directly land on the page where they need to work on.
--   **[Configure auto refresh interval for security incident lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-auto-refresh-for-security-incident-lists.md)**  
+-   **[Configure auto refresh interval for security incident lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-auto-refresh-for-security-incident-lists.md)**  
 Configure the refresh interval for security incident lists for automatic update of the security incident list ensuring an updated list for the security analysts.
--   **[Configure default view for contextual menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-default-view-for-contextual-menu.md)**  
+-   **[Configure default view for contextual menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-default-view-for-contextual-menu.md)**  
 Configure whether the contextual menu panel for a security incident is expanded or collapsed by default.
--   **[Configure the preview modal for attachment upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-attachment-upload-preview-modal.md)**  
+-   **[Configure the preview modal for attachment upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-attachment-upload-preview-modal.md)**  
 Configure whether the preview modal appears when security analysts attach files to a security incident record.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

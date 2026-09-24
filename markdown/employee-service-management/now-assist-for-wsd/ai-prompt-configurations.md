@@ -2,7 +2,7 @@
 title: Define AI prompt configurations
 description: Define prompt configurations to control how data from each source is queried and presented to the large language model \(LLM\)
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/ai-prompt-configurations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/ai-prompt-configurations.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -117,5 +117,5 @@ Illustrative cases or scenarios that demonstrate how AI system instructions and 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Insight cards on the Workplace Central dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.md)
+**Parent Topic:**[Insight cards on the Workplace Central dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.md)
 

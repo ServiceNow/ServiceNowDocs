@@ -2,7 +2,7 @@
 title: Request exception form fields for policy exceptions
 description: The following table shows the fields that you must fill on the Request exception form for policy exceptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/itr-ws-request-exception-form-grc.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/it-remediation-workspace/itr-ws-request-exception-form-grc.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -76,5 +76,5 @@ Details related to the reason this exception is being requested. This field must
 </table>**Related topics**  
 
 
-[Request an exception using GRC: Policy and Compliance Management in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-request-exception-grc.md)
+[Request an exception using GRC: Policy and Compliance Management in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/it-remediation-workspace/vr-ws-request-exception-grc.md)
 

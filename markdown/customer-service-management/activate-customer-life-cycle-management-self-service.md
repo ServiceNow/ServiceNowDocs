@@ -2,10 +2,10 @@
 title: Activate Customer Life Cycle Management Self-Service
 description: If you have the admin role, you can install the Customer Life Cycle Management Self Service plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-customer-life-cycle-management-self-service.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-customer-life-cycle-management-self-service.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -44,7 +44,7 @@ Role required: admin
 **Related topics**  
 
 
-[View product information from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-info-business-portal.md)
+[View product information from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-product-info-business-portal.md)
 
-[View Product Inventory information on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-inventory-information-on-business-portal.md)
+[View Product Inventory information on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-product-inventory-information-on-business-portal.md)
 

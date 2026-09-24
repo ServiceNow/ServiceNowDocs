@@ -2,7 +2,7 @@
 title: NowVoiceCallbacks interface - Android
 description: Provides callback functions for voice session lifecycle and content events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksAndroidInt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksAndroidInt.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 Provides callback functions for voice session lifecycle and content events.
 
-Implement this interface and pass it when calling [`NowVoiceService.start()`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md).
+Implement this interface and pass it when calling [`NowVoiceService.start()`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md).
 
 A `NowVoiceError` is delivered as the second parameter of the `onCallEnd()` callback.
 
@@ -33,7 +33,7 @@ A `NowVoiceError` is delivered as the second parameter of the `onCallEnd()` call
 |----|-----------|
 |`onCallEnd(conversationId: String?, error: NowVoiceError? = null)`|Called once when the voice session ends. **conversationId** identifies the completed session and may be `null` if a session was never fully established. **error** is a `NowVoiceError`, or `null` for normal termination.|
 |`onMuteStateChanged(isMuted: Boolean)`|Called each time the user mutes or unmutes the microphone. **isMuted** is `true` when the microphone is muted.|
-|`onMessageReceived(message: TranscriptMessage)`|Called each time a new transcript message arrives during the session. For more information, see [`Transcript Message`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/TranscriptMsgAndroidClass.md).|
+|`onMessageReceived(message: TranscriptMessage)`|Called each time a new transcript message arrives during the session. For more information, see [`Transcript Message`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/TranscriptMsgAndroidClass.md).|
 |`onCallMinimized()`|Called when the voice session UI is minimized by the user.|
 
 The following code example shows how to implement NowVoiceCallbacks. In each callback function, implement the desired functionality for handling the event.
@@ -64,5 +64,5 @@ val callbacks = object : NowVoiceCallbacks {
 }
 ```
 
-**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

@@ -2,7 +2,7 @@
 title: Configure OAuth profile to use a client ID and secret for token generation
 description: Configure an OAuth profile using a client ID and client secret to create an email account for using Microsoft Graph \(send\) in your email account type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-oauth-profile-send-msgraph.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configure-oauth-profile-send-msgraph.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -75,5 +75,5 @@ Role required: admin and Microsoft Azure portal administrator
 9.  Navigate to **Overview** &gt; **Endpoints** and copy the **OAuth 2.0 token endpoint \(v2\)** to a text file.
 
 
-**Parent Topic:**[Sending email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/send-email-using-ms-graph.md)
+**Parent Topic:**[Sending email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/send-email-using-ms-graph.md)
 

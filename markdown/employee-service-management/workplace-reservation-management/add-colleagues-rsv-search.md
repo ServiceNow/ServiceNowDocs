@@ -2,7 +2,7 @@
 title: Add invitees as collaborators and create a reservation
 description: Employee can add their colleagues as collaborators while making a reservation. Employees can view availability of their colleagues on the reservation portal search page while making a reservation to find an available space.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -25,7 +25,7 @@ Workplace Reservation Management should be integrated with Microsoft Exchange On
 For more information about setting up Microsoft Azure portal configuration, see [Set up Microsoft Exchange](https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-ms-exch-ol.html?contentId=R1EDI02PGW_yQSiS3EQ1ow). To set up the Find Meeting Times and Lookup Schedules spoke actions for Microsoft Exchange Online, see [Microsoft Exchange Online Spoke Action](https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/ms-exch-online-spoke.html).
 
 -   Microsoft Exchange Online integration is enabled with Workplace Reservation Management with availability of Spoke action 'Find Meeting Times'.
--   Ensure the Reservable Module property **Allow attendees-based search** option is enabled by your administrator. This property is available when you've installed and configured Workplace Calendar Synchronization. For more information, see [Configure Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-rsv-sync.md)
+-   Ensure the Reservable Module property **Allow attendees-based search** option is enabled by your administrator. This property is available when you've installed and configured Workplace Calendar Synchronization. For more information, see [Configure Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/configure-rsv-sync.md)
 -   The sys\_user table must be populated with valid user data. Employees can select attendees for their event from the sys\_user table.
 -   Valid user email Id should be configured in Microsoft Exchange Online. When email Id is missing or not configured, the status of an employee is shown as unknown in the add attendee list.
 -   Workplace Calendar Synchronization should be installed and configured.
@@ -56,7 +56,7 @@ Type
 
 </td><td>
 
-Select a Reservable Module \(Example, Desks, Meeting rooms, and so on\)**Note:** Allow attendee-based search is not supported for shift-based Reservable Module configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+Select a Reservable Module \(Example, Desks, Meeting rooms, and so on\)**Note:** Allow attendee-based search is not supported for shift-based Reservable Module configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 Google Calendar and Microsoft On premises are not supported for you to add colleagues as collaborators in a reservation.
 
@@ -90,7 +90,7 @@ When
 
 </td><td>
 
-Select the meeting duration. The meeting duration is shown based on your building time zone. For example, Europe/Amsterdam timezone.The start date and end date is dependent on the on Max days in future value. If Max days in future module configuration value is 6, you cannot reserve a location beyond this duration. /Max number of occurrences. Employees cannot select a date beyond the range specified in these Reservable Module configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+Select the meeting duration. The meeting duration is shown based on your building time zone. For example, Europe/Amsterdam timezone.The start date and end date is dependent on the on Max days in future value. If Max days in future module configuration value is 6, you cannot reserve a location beyond this duration. /Max number of occurrences. Employees cannot select a date beyond the range specified in these Reservable Module configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 </td></tr><tr><td>
 
@@ -210,7 +210,7 @@ In case of recurring reservations \(Daily, Weekly, Monthly, or Custom\), time su
 
 13. Edit or update your reservation or workplace services as required.
 
-    For more information, see [View or update reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/view-reservations.md)
+    For more information, see [View or update reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/view-reservations.md)
 
 14. Select **Submit** to create a reservation and add invitees as collaborators to your reservation.
 
@@ -221,7 +221,7 @@ In case of recurring reservations \(Daily, Weekly, Monthly, or Custom\), time su
     The Reservation summary page displays the invitees or attendees that are added to your reservation. The internal invitees \(attendees\) column that you've added shows Microsoft Exchange Online user mail IDs. External visitors' column show their personal mail IDs.
 
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 

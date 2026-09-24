@@ -2,7 +2,7 @@
 title: Data mapping for AI Service Graph Connector for OCI
 description: The AI Service Graph Connector for OCI uses separate data sources and staging tables for each asset type, per service. The staged data is transformed and loaded into target CMDB tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-sgc-oci-data-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-sgc-oci-data-mapping.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

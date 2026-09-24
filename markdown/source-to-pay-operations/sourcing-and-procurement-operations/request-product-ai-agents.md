@@ -2,7 +2,7 @@
 title: Submit a purchase request using the ServiceNow Otto AI agent
 description: Use the ServiceNow Otto AI‑powered chat experience in the Employee Center to submit a purchase request. The AI agent analyzes your requirements, displays suitable products or services, and guides you through confirming and submitting the request.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/request-product-ai-agents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/request-product-ai-agents.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -56,12 +56,12 @@ Role required: sn\_spend\_gen\_ai.now\_assist\_requester
 
 The purchase request is successfully submitted through Employee Center using the ServiceNow Otto AI agent.
 
--   **[Submit a purchase request by uploading a SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-upload-sow.md)**  
+-   **[Submit a purchase request by uploading a SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-upload-sow.md)**  
 Upload a statement of work \(SOW\) through the ServiceNow Otto chat interface in Employee Center to submit a purchase request for review.
--   **[Submit a purchase request by uploading a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-spo-quote.md)**  
+-   **[Submit a purchase request by uploading a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-spo-quote.md)**  
 Use the ServiceNow Otto chat interface in the Employee Center to describe your needs, upload a quote, and submit a purchase request. ServiceNow Otto processes the uploaded quote and creates a purchase requisition for your review. Review all extracted information before submitting, as AI-generated output may require correction.
 
-**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
+**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Node health performance metrics
 description: The metrics provide the node health performance snapshot within the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-node-health-perf-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-node-health-perf-metrics.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-23"
@@ -32,7 +32,7 @@ Node Memory Max is the in use memory max \(Megabytes\) per node at a given data 
 
 Garbage Collection Mean Time is the percentage of time spent doing Java garbage collection. It is the average of three samples; one sample being collected every 20 seconds. The values are collected for specific nodes and do not distinguish between the type of garbage collection. For example, young vs. old.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Enable uninstall validation during agent upgrade
 description: Configure requiring a maintenance token to uninstall agents during agent upgrade. A maintenance token provides a layer of administrative control so that unauthorized personnel can't perform the uninstall.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/require-token-uninstall-upgrade.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/require-token-uninstall-upgrade.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -35,5 +35,5 @@ Role required: sn\_agent.token\_admin
 
 The property is invoked for both selective upgrade and high volume upgrade, and the uninstall feature is enabled on Windows agents.
 
-**Parent Topic:**[Require a maintenance token for Windows uninstalls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/require-maintenance-token-uninstall.md)
+**Parent Topic:**[Require a maintenance token for Windows uninstalls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/require-maintenance-token-uninstall.md)
 

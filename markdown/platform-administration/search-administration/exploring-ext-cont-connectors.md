@@ -2,14 +2,14 @@
 title: Exploring External Content Connectors
 description: Using External Content Connectors, AI Search applications can search content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online. Expanding search recall to include external content helps search users locate the information they need.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/exploring-ext-cont-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/exploring-ext-cont-connectors.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
 last_updated: "2026-07-24"
 reading_time_minutes: 10
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -66,13 +66,13 @@ Connector administrators can schedule content and user permission crawls to suit
 
 **Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see [Transaction reports in Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-the-integration-hub-usage-dashboard.md).
 
-All external content connectors support semantic vector indexing of content retrieved from crawled source systems. Only features which use semantic vector search with the Now LLM Service can take advantage of this support. For details on semantic vector indexing and search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-search-ais.md).
+All external content connectors support semantic vector indexing of content retrieved from crawled source systems. Only features which use semantic vector search with the Now LLM Service can take advantage of this support. For details on semantic vector indexing and search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/semantic-search-ais.md).
 
 ## External Content Connectors indexed sources and search sources
 
 Each external content connector has its own indexed source for crawled content. It also has a default search source that specifies no filter conditions and so includes all items from its indexed source. If you want to apply filter conditions to an external content connector's indexed content, you can create your own search sources for that connector's indexed source.
 
-To make a connector's content searchable in an AI Search application, include one of its search sources in the search profile used for that application. For more information about creating and using indexed sources and search sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md) and [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md).
+To make a connector's content searchable in an AI Search application, include one of its search sources in the search profile used for that application. For more information about creating and using indexed sources and search sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/indexed-sources-ais.md) and [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/search-sources-ais.md).
 
 ## External Content Connectors availability
 
@@ -105,14 +105,14 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Configure source systems for external content indexing|[Configuring source systems for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-src-sys-ext-content-indexing.md)|Source system administrators|
-|Create connectors to retrieve searchable content and metadata and user permissions from supported external data source systems|[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/creating-ext-cont-connectors.md)|Connector administrators|
-|Control the scope of external content connector crawls by specifying source system locations to crawl and content types to feed to AI Search for indexing|[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md)|Connector administrators|
-|Update searchable content and metadata from source systems on demand or on a scheduled recurring basis|[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)|Connector administrators|
-|Update user and group access permissions from source systems on demand or on a scheduled recurring basis|[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)|Connector administrators|
-|Review metrics for source system items retrieved by content crawls|[Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-crawl-ext-cont-connector.md)|Connector administrators|
-|Review user and group access permissions retrieved by user permission crawls|[Review user permissions for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-usr-maps-ext-cont-connector.md)|Search high security administrators|
-|Search content and metadata indexed from external data source systems|[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md)|AI Search users|
+|Configure source systems for external content indexing|[Configuring source systems for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-src-sys-ext-content-indexing.md)|Source system administrators|
+|Create connectors to retrieve searchable content and metadata and user permissions from supported external data source systems|[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/creating-ext-cont-connectors.md)|Connector administrators|
+|Control the scope of external content connector crawls by specifying source system locations to crawl and content types to feed to AI Search for indexing|[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md)|Connector administrators|
+|Update searchable content and metadata from source systems on demand or on a scheduled recurring basis|[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md)|Connector administrators|
+|Update user and group access permissions from source systems on demand or on a scheduled recurring basis|[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)|Connector administrators|
+|Review metrics for source system items retrieved by content crawls|[Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/review-crawl-ext-cont-connector.md)|Connector administrators|
+|Review user and group access permissions retrieved by user permission crawls|[Review user permissions for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/review-usr-maps-ext-cont-connector.md)|Search high security administrators|
+|Search content and metadata indexed from external data source systems|[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/use-ais.md)|AI Search users|
 
 ## Interaction with ServiceNow Otto® Genius Results
 
@@ -120,18 +120,18 @@ If you have the ServiceNow Otto for AI Search and ServiceNow Otto for Virtual Ag
 
 External content search results are ignored when generating answers for Knowledge base articles Genius Results and Actions Genius Results.
 
--   **[Estimating document volume for source systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/estimating-doc-volume-src-sys.md)**  
+-   **[Estimating document volume for source systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/estimating-doc-volume-src-sys.md)**  
 Source system tools allow you to estimate the number of documents available for retrieval by external content connectors. By estimating the available document count for a source system, you can determine whether you need to apply crawl scope restrictions when configuring an external content connector for that source system.
--   **[Configuring source systems for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-src-sys-ext-content-indexing.md)**  
+-   **[Configuring source systems for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-src-sys-ext-content-indexing.md)**  
 Source system administrators configure settings to allow external content connectors to index your documents and security settings for search. These settings must be configured for a source system before you create an external content connector to crawl that source system.
--   **[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/creating-ext-cont-connectors.md)**  
+-   **[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/creating-ext-cont-connectors.md)**  
 Connector administrators can create external content connectors to retrieve searchable content and metadate and security permissions from supported source systems.
--   **[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md)**  
+-   **[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md)**  
 Connector administrators can configure crawl settings for each external content connector, such as which source system locations it crawls and which types of content it sends to AI Search for indexing.
--   **[Delta content crawls for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/delta-content-crawls-external-content-connectors.md)**  
+-   **[Delta content crawls for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/delta-content-crawls-external-content-connectors.md)**  
 Delta content crawls improve content crawl performance by only retrieving newly added, changed, or deleted items from an external content connector's source system.
--   **[Domain separation and External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ext-cont-connectors-domain-separation.md)**  
+-   **[Domain separation and External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ext-cont-connectors-domain-separation.md)**  
 Domain separation is unsupported for External Content Connectors. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ext-cont-connectors-landing-page.md)
+**Parent Topic:**[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ext-cont-connectors-landing-page.md)
 

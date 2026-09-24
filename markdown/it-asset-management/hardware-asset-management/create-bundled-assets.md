@@ -2,7 +2,7 @@
 title: Manage asset bundles from your inventory
 description: Create asset bundles from existing assets in your inventory to track, reserve, or deploy a group of assets as a single entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-bundled-assets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/create-bundled-assets.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -20,7 +20,7 @@ Create asset bundles from existing assets in your inventory to track, reserve, o
 
 An asset bundle is a grouping of assets and comprises of consumable and hardware assets. Only assets that are in the **In stock** status and **available** substatus are added to an asset bundle. Assets that are part of an asset bundle aren’t available as individual assets.
 
-**Note:** For information on asset bundles, see [Asset bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-bundles-concept.md).
+**Note:** For information on asset bundles, see [Asset bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-bundles-concept.md).
 
 Role required: asset
 
@@ -40,13 +40,13 @@ Role required: asset
 
     -   **Auto-select assets**: Automatically adds assets to the asset bundle. The assets are added from the stockroom specified in the asset bundle.
 
-        **Note:** Assets are allocated only when all the assets that are part of the bundle are available. Excluded assets aren't considered for auto-selection. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
+        **Note:** Assets are allocated only when all the assets that are part of the bundle are available. Excluded assets aren't considered for auto-selection. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 
     -   **Select assets**: Select the assets that you want in your asset bundle and select **Add Assets**.
 
         **Note:**
 
-        You can't select an excluded asset. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md). Assets displayed are confined to the stockroom specified in the asset bundle.
+        You can't select an excluded asset. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-license-exclusion.md). Assets displayed are confined to the stockroom specified in the asset bundle.
 
     Once the assets are allocated to the bundle, the assets appear in the Assets related list and **Auto-allocate assets** and **Select assets** no longer appear in the Bundle form layout.
 
@@ -87,7 +87,7 @@ Role required: asset
         The asset bundle is deleted.
 
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

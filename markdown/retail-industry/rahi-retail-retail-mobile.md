@@ -2,7 +2,7 @@
 title: Retail mobile application
 description: The Retail mobile plugin offers a customized mobile experience for retail operations, enabling frontline teams to manage efficiently store activities and resolve issues on the go. It provides real-time insights into key KPIs, supports issue tracking, and is compatible with both Android and iOS platforms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-retail-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-retail-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,8 +36,8 @@ The key features that are available on the home page of the Retail mobile applic
 
 For information on using Retail mobile app, see the following topics:
 
--   [Create a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-creating-request-mobile.md)
--   [Manage a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-retail-store-service-case-mobile.md)
+-   [Create a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-creating-request-mobile.md)
+-   [Manage a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-fulfill-retail-store-service-case-mobile.md)
 
-**Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-explore.md)
+**Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-explore.md)
 

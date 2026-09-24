@@ -2,7 +2,7 @@
 title: Case resolution using inquiry resolution provider
 description: Use the AI agent to automatically extract invoice details and generate case resolutions, then review and confirm the resolution to close the inquiry case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,7 +29,7 @@ Role required: now\_assist\_panel\_user,sn\_ap\_cm.agent
 
 2.  Select **Invoice case**.
 
-    For more information on creating an inquiry case, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md). Assign the case to the AP agent and the inquiry resolution provider AI agent is triggered.
+    For more information on creating an inquiry case, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md). Assign the case to the AP agent and the inquiry resolution provider AI agent is triggered.
 
 
 ## Result
@@ -39,5 +39,5 @@ ServiceNow Otto panel displays the resolution plan and enables agents to review 
 **Related topics**  
 
 
-[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
+[Case resolution using inquiry resolution provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/case-resolution-using-agent.md)
 

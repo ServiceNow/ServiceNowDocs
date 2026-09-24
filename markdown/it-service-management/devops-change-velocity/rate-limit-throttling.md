@@ -2,7 +2,7 @@
 title: Tool throttling
 description: In DevOps Change Velocity, when a tool is throttled, processing of new events is delayed until the throttling expires and the tool status changes to Throttled. This is available for Azure DevOps, GitHub, and GitLab.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/rate-limit-throttling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/rate-limit-throttling.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -40,5 +40,5 @@ Tool Connection Status \(sn\_devops\_tool\_connection\_status\) table contains t
 
 REST\_RATE\_LIMIT\_ERROR will be logged in DevOps error logs. Also, the tool under throttle will have **Throttled** status.
 
-**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

@@ -2,7 +2,7 @@
 title: Fields on the Authorization Boundary form
 description: An authorization boundary defines the scope of a particular system that can be continuously managed and monitored using the CAM application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-form-authorization-boundary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/continuous-risk-monitoring/cam-form-authorization-boundary.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -92,5 +92,5 @@ Diagrams
 If needed, or if you do not have a Configuration Management Database \(CMDB\), add data flow, network, and boundary diagrams.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

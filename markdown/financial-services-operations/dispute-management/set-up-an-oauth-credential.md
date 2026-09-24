@@ -2,7 +2,7 @@
 title: Set up a credential
 description: Create a credential to enable secure authentication for Card Data Security integrations. This credential authenticates your ServiceNow instance with the tokenizer service gateway.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-an-oauth-credential.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/set-up-an-oauth-credential.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -21,7 +21,7 @@ Create a credential to enable secure authentication for Card Data Security integ
 
 Role required: admin
 
-For card network integrations \(Visa, Mastercard\), this task requires an OAuth Provider created for Card Data Security. See [Set up an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-provider.md) for more information.
+For card network integrations \(Visa, Mastercard\), this task requires an OAuth Provider created for Card Data Security. See [Set up an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/set-up-an-oauth-provider.md) for more information.
 
 For Verifi integration, this task requires the unique API key provided by the tokenizer service during connection setup.
 
@@ -57,7 +57,7 @@ The credential record is created.
 
 ## What to do next
 
-For Verifi integration, see [Set up the Verifi Connection &amp; Credential Alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-verifi-connection-credential-alias.md).
+For Verifi integration, see [Set up the Verifi Connection &amp; Credential Alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/set-up-verifi-connection-credential-alias.md).
 
-For card network integration, see [Set up the API REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-the-vault-api-rest-message.md).
+For card network integration, see [Set up the API REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/set-up-the-vault-api-rest-message.md).
 

@@ -2,7 +2,7 @@
 title: Request ITSM Roles — Problem Management
 description: Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles — Problem Management plugin \(com.snc.itsm.roles.problem\_management\) to gain more control over the access that different service desk agents, technicians, and managers have within your Problem Management process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/req-itsm-roles-prob-mgmt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/problem-management/req-itsm-roles-prob-mgmt.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -76,10 +76,10 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with ITSM Roles — Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/prob-roles-instld-itsm-roles.md)**  
+-   **[Components installed with ITSM Roles — Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/prob-roles-instld-itsm-roles.md)**  
 Several user roles are installed with activation of the ITSM Roles — Problem Management plugin \(com.snc.itsm.roles.problem\_management\).
 
-**Parent Topic:**[Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-plugins.md)
+**Parent Topic:**[Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/problem-mgmt-plugins.md)
 
 **Related topics**  
 

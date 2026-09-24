@@ -2,7 +2,7 @@
 title: Zoom Spoke
 description: Create and manage Zoom meetings with the Zoom spoke from your ServiceNow instance. With this spoke, you can add participants, retrieve details, end or delete a meeting, or fetch the participant details of a conference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/zoom-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/zoom-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -97,7 +97,7 @@ Create Zoom Meeting
 
 </td><td>
 
-Creates a Zoom meeting and provides the Zoom meeting URL.This subflow is used by the Meeting scheduler AI agent in the [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md) application.
+Creates a Zoom meeting and provides the Zoom meeting URL.This subflow is used by the Meeting scheduler AI agent in the [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md) application.
 
 </td></tr></tbody>
 </table>## Spoke modules
@@ -772,7 +772,7 @@ webinar:read:list\_webinars:admin
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
@@ -798,11 +798,11 @@ There might be AI agents installed on your instance that are not used in agentic
 
 ## Zoom spoke requirements
 
-These actions use REST calls, which can run on an instance or Zoom spoke See [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md) for more information. Use the connection record that is associated with the Zoom alias to configure where actions run and set Zoom spoke selection attributes. For more information about the alias, see [Connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zoom-spoke.md).
+These actions use REST calls, which can run on an instance or Zoom spoke See [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md) for more information. Use the connection record that is associated with the Zoom alias to configure where actions run and set Zoom spoke selection attributes. For more information about the alias, see [Connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/zoom-spoke.md).
 
 ## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-This spoke uses the Zoom Connection &amp; Credential Alias record to authorize actions. For information about setting up the spoke, see [Set up the Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zoom.md).
+This spoke uses the Zoom Connection &amp; Credential Alias record to authorize actions. For information about setting up the spoke, see [Set up the Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-zoom.md).
 

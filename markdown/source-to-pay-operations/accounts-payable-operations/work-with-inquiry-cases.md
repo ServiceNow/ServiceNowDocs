@@ -2,7 +2,7 @@
 title: Invoice inquiry cases
 description: Invoice inquiry cases help resolve invoice-related issues raised by suppliers or employees through structured case workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -28,7 +28,7 @@ When you receive an email for an inquiry, the application automatically creates 
 
 **Note:** An invoice case with a category of **Inquiry** is referred to as an invoice inquiry case.
 
-However, an agent \[sn\_ap\_cm.agent\] can manually create invoice inquiry cases and work on them or create Accounts Payable tasks for those cases and assign them to a user or group. For more information, see [Create an invoice inquiry case manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-inquiry-case.md).
+However, an agent \[sn\_ap\_cm.agent\] can manually create invoice inquiry cases and work on them or create Accounts Payable tasks for those cases and assign them to a user or group. For more information, see [Create an invoice inquiry case manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-inquiry-case.md).
 
 ## Invoice inquiry case life cycle
 
@@ -47,18 +47,18 @@ The following figure illustrates the various states that the invoice inquiry cas
 |Closed incomplete|The case is marked as incomplete by entering the closure code. Providing the closure details is required when you mark a case as **Close incomplete**.|
 |Canceled|The case is a duplicate, created in error, or no longer required.|
 
--   **[Work on an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-inquiry-case.md)**  
+-   **[Work on an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/work-inquiry-case.md)**  
 Work on an invoice inquiry case to resolve an issue raised by the suppliers or employees.
--   **[Create an invoice inquiry case manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-inquiry-case.md)**  
+-   **[Create an invoice inquiry case manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-inquiry-case.md)**  
 Create invoice inquiry cases to address and respond to questions related to invoices and payment.
--   **[Create an invoice task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-apm-task.md)**  
+-   **[Create an invoice task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/create-apm-task.md)**  
 Create an invoice task and assign it to a user or group to resolve an invoice inquiry case.
--   **[Request additional information for an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.md)**  
+-   **[Request additional information for an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/request-caller-info-inquiry-case.md)**  
 Request additional information from the requester to continue working on the case.
--   **[Submit an invoice inquiry case for an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-inquiry-case-internal-review.md)**  
+-   **[Submit an invoice inquiry case for an internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/submit-inquiry-case-internal-review.md)**  
 Submit an invoice inquiry case for an internal review by creating a review task and assigning it to the reviewers.
--   **[Close an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/close-inquiry-case.md)**  
+-   **[Close an invoice inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/close-inquiry-case.md)**  
 Mark an invoice inquiry case as resolved after completing all necessary activities and tasks.
 
-**Parent Topic:**[Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md)
+**Parent Topic:**[Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md)
 

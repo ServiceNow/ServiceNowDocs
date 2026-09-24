@@ -2,7 +2,7 @@
 title: Create and Assign Range/Single Number function
 description: The Create and Assign Range/Single Number function enables you to create the inventory number records for a number range when you process the network inventory workflow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-assign-range-single-number-function.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-assign-range-single-number-function.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -174,7 +174,7 @@ The following table lists the information about the function output.
 
 Consider, a VLAN has 1–4096 as range and 1–1000, 1001–2500, and 2510–4096 are the subranges. If you give the start number as 2501 and the end number as 2502, the function creates a number range of 2501-2502 and returns the inventory number record.
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

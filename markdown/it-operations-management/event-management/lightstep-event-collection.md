@@ -2,7 +2,7 @@
 title: Integrate ServiceNow Cloud Observability Events
 description: Integrate ServiceNow Cloud Observability with Event Management by adding a standard webhook in the ServiceNow Cloud Observability platform. Download the Event Management Connector plugin from the ServiceNow Store so you can integrate with ServiceNow Cloud Observability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/lightstep-event-collection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/lightstep-event-collection.html
 release: australia
 product: Event Management
 classification: event-management
@@ -130,5 +130,5 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) event rules provid
         -   4- Warning
         -   5- Info
 
-**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-listener-transform-script.md)
 

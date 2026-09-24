@@ -2,7 +2,7 @@
 title: Set up MID-less log ingestion using an MCP Client
 description: Create, configure, and activate MID-less log ingestion integrations for Health Log Analytics from an MCP Client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-mcp-server-hla-ingest-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-mcp-server-hla-ingest-setup.html
 release: australia
 topic_type: task
 last_updated: "2026-08-18"
@@ -18,12 +18,12 @@ Create, configure, and activate MID-less log ingestion integrations for Health L
 
 Verify that:
 
--   The ITOM Gateway is set up and configured on your ServiceNow instance. For more information, see [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md).
+-   The ITOM Gateway is set up and configured on your ServiceNow instance. For more information, see [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-midless-streaming.md).
 -   The ITOM MCP Server Console is active on your instance.
 -   Your MCP Client application is connected to the ITOM MCP Server Console with valid OAuth credentials.
 -   The Health Log Analytics plugin is installed on your instance.
 
-For more information about setting up MID-less integrations from an MCP Client, see [MID-less log ingestion for HLA from an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-mcp-server-hla-ingest.md).
+For more information about setting up MID-less integrations from an MCP Client, see [MID-less log ingestion for HLA from an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-mcp-server-hla-ingest.md).
 
 Role required: evt\_mgmt\_admin or sys\_admin \(for JWT provider and token configuration\)
 

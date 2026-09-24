@@ -2,7 +2,7 @@
 title: Configure user type icons
 description: Configure user icons that can be used to launch the user profile of the logged in user in mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/config-user-type-icons.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-user-type-icons.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,5 +53,5 @@ You can configure an icon within the work flow of configuring a screen in Mobile
 
 ## What to do next
 
-To use the user type icon, you must configure a header function in the launcher screen that enables users to navigate to an employee profile. For more information, see [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-alp-header.md). To configure a mobile app to use a user icon, see [Configure using a user icon in a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-user-icon-in-mobile-app.md).
+To use the user type icon, you must configure a header function in the launcher screen that enables users to navigate to an employee profile. For more information, see [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-alp-header.md). To configure a mobile app to use a user icon, see [Configure using a user icon in a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-user-icon-in-mobile-app.md).
 

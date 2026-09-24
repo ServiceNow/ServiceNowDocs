@@ -2,7 +2,7 @@
 title: Change an insight to use a different field for sentiment analysis
 description: Change a sentiment analysis insight to display sentiment data from a different field. This requires updates to both the UI Builder component and AI Skill Kit.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/change-sentiment-analysis-insight-to-use-different-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/change-sentiment-analysis-insight-to-use-different-field.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -93,7 +93,7 @@ The Sentiment analysis dashboard includes the following UI Builder components:
 **Related topics**  
 
 
-[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
+[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
 
-[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
+[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
 

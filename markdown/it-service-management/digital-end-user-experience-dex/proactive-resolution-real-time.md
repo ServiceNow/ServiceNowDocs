@@ -2,7 +2,7 @@
 title: Real-time proactive resolution
 description: Use metric rules, alerts, and auto-correction scripts to detect and remediate device and application issues within minutes, before users are affected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/proactive-resolution-real-time.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/proactive-resolution-real-time.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

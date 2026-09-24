@@ -2,7 +2,7 @@
 title: Approving or rejecting orders
 description: Fulfillment managers bridge the gap between order intake and execution by reviewing the order information and deciding whether an order is ready to proceed or requires further review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/approving-rejecting-orders-som.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/approving-rejecting-orders-som.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -49,7 +49,7 @@ A rejected order can be corrected and resubmitted for reevaluation by the order 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

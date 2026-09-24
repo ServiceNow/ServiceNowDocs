@@ -2,7 +2,7 @@
 title: Next Experience dark theme support for mobile
 description: Switch between theme variants in ServiceNow applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-dark-theme.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-dark-theme.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ Administrators can enable dark mode on an instance using the `glide.ui.polaris.d
 
 ## Access dark theme in the mobile UI
 
-As a user, you can switch between the default and dark theme in the **Preferences** section of the **Settings** tab. For details see [Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/enable-dark-theme.md).
+As a user, you can switch between the default and dark theme in the **Preferences** section of the **Settings** tab. For details see [Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/enable-dark-theme.md).
 

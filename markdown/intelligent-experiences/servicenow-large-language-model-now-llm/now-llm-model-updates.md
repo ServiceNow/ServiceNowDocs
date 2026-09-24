@@ -2,7 +2,7 @@
 title: Model provider updates
 description: Review these updates to learn which model providers and models are available for your skills and agents. Review the model cards for information about how each model is intended to be used.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.html
 release: australia
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
@@ -151,5 +151,5 @@ Several key improvements were added to the Now LLM Service that are aimed at enh
     -   Lower token consumption: The fixed structure of JSON can reduce token usage, making it more efficient and cost-effective for applications with high response frequency.
 -   Improvements in instruction following: The model has been fine-tuned to understand and follow instructions more precisely. This enables the model to deliver more to-the-point and actionable responses, helping users get the information they need faster and more efficiently.
 
-**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
+**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

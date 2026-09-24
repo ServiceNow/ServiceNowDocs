@@ -2,7 +2,7 @@
 title: Set up the SCCM Usage Metering spoke
 description: Integrate the ServiceNow instance and SCCM using Java Database Connectivity \(JDBC\) credentials to authenticate ServiceNow requests.Create Connection records to the SCCM server. The SCCM Usage Metering spoke connection and credential aliases use these connections to perform actions in SCCM.Create Credential records to the SCCM server. The SCCM Usage Metering spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sccm-usage-metering-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-sccm-usage-metering-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

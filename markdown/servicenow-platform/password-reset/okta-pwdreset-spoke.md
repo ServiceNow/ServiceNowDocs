@@ -2,7 +2,7 @@
 title: Set up Password Reset integration with Okta
 description: Enables end users to reset or change their Okta passwords using Password Reset and Okta spoke.Customize the default credential store records and password reset processes to integrate Password Reset with Okta.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/okta-pwdreset-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/okta-pwdreset-spoke.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -78,7 +78,7 @@ Customize the default credential store records and password reset processes to i
 
 3.  Customize the default record as per your requirement.
 
-    For more information, see [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateACredentialStore.md).
+    For more information, see [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateACredentialStore.md).
 
 4.  Navigate to **Password Reset** &gt; **Processes**.
 
@@ -86,6 +86,6 @@ Customize the default credential store records and password reset processes to i
 
     **Note:** The **User must reset password** check box isn't supported in this integration. That is, you can't enforce users to reset their password upon first login after they reset password using the auto-generated password.
 
-    For more information, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
+    For more information, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
 
 

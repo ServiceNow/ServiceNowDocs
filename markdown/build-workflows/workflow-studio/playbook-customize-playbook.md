@@ -2,7 +2,7 @@
 title: Customizing the Playbook Experience
 description: Customize the layout of your Playbook Experience with base system modular components, templates, and more via integrated UI Builder functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-customize-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/playbook-customize-playbook.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -87,7 +87,7 @@ Determine how to display these modular components in your Playbook Experience:
     \[Omitted image "playbook-opt-activity-modal.png"\] Alt text: The Add optional activity modal
 
 
-To start setting up components for your customized Playbook Experience, see [Customize a playbook in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-get-started-custom-layouts.md).
+To start setting up components for your customized Playbook Experience, see [Customize a playbook in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-get-started-custom-layouts.md).
 
 ## Provided UI Builder Bundles
 
@@ -111,5 +111,5 @@ Each layout contains the following components:
 -   Stage picker
 -   Client scripts
 
-To add a bundle to an existing or new UI Builder page, see [Add a custom layout bundle to a UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-custom-layout-bundle-uib-page.md). If you're creating a new experience and want to add a bundle to a standard record page, see [Add a custom layout bundle to a UI Builder standard record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-custom-layout-bundle-uib-standard-record.md).
+To add a bundle to an existing or new UI Builder page, see [Add a custom layout bundle to a UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-custom-layout-bundle-uib-page.md). If you're creating a new experience and want to add a bundle to a standard record page, see [Add a custom layout bundle to a UI Builder standard record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-custom-layout-bundle-uib-standard-record.md).
 

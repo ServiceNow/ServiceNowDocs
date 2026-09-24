@@ -2,7 +2,7 @@
 title: Process an edit receipt request in playbook
 description: You can revise previously approved receipts to correct any discrepancies, ensuring the delivery receipt accurately reflects the quantities received for a specific purchase order.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/playbook-process-edit-receipt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/playbook-process-edit-receipt.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -24,7 +24,7 @@ Role required: sn\_spend\_psd.agent
 
 As a fulfiller, you can review the details of the Edit Receipt request and choose to either confirm or reject it.
 
-**Note:** This task is not required if the `sn_spend_cp.enable_automated_edit_receipt_flow` system property is enabled. For more information, see [Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md).
+**Note:** This task is not required if the `sn_spend_cp.enable_automated_edit_receipt_flow` system property is enabled. For more information, see [Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md).
 
 ## Procedure
 
@@ -150,7 +150,7 @@ Updates the case to Closed Completed.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 

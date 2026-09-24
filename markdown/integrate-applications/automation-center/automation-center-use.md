@@ -2,7 +2,7 @@
 title: Using Automation Center
 description: If you're an automation business user, technical user, or administrator, you can use the Automation Center application to create an automation task, resource, insight rule, and insight trigger. You can also move an automation request to different life cycle stages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automation-center-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/automation-center-use.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -16,20 +16,20 @@ breadcrumb: [Automation Center, Workflow Data Fabric]
 
 If you're an automation business user, technical user, or administrator, you can use the Automation Center application to create an automation task, resource, insight rule, and insight trigger. You can also move an automation request to different life cycle stages.
 
--   **[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)**  
+-   **[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automations.md)**  
 Create automations to automatically streamline your business processes, reduce the time that you spend on manual activities, and reduce your costs.
--   **[Working with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/actions.md)**  
+-   **[Working with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/actions.md)**  
 Create actions to fix issues that cause automations to fail.
--   **[Working with reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/reviews.md)**  
+-   **[Working with reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/reviews.md)**  
 Reviews enable you to evaluate automations that have been created.
--   **[Working with Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/connection-manager.md)**  
+-   **[Working with Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/connection-manager.md)**  
 Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
--   **[Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md)**  
+-   **[Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/migrating-automations-from-uipath.md)**  
 Migrate UiPath and Blue Prism automations to ServiceNow RPA Hub using Automation Center.
--   **[Automation Center integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-integrations.md)**  
+-   **[Automation Center integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-integrations.md)**  
 Automation Center integrations enable you to discover, analyze, and automate work from other ServiceNow applications. Rather than manually identifying automation opportunities, integrations help you to tap into existing analysis and user workflow data to find and build automations efficiently.
--   **[ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/nowassist-ac.md)**  
+-   **[ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/nowassist-ac.md)**  
 Use ServiceNow Otto for Automation Center helps you use AI features in your ServiceNow instance using Automation Center.
 
-**Parent Topic:**[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-landing-page.md)
+**Parent Topic:**[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-landing-page.md)
 

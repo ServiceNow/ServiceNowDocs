@@ -2,7 +2,7 @@
 title: Personalized canvas
 description: Build a personal canvas that brings together AI-generated widgets, role-specific content, and curated tools in a single layout. Administrators govern the canvas through configurations and a widget library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-personalized-canvas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-personalized-canvas.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -60,5 +60,5 @@ Administrators have controls over the canvas environment at the organizational l
 
 ## Widget ecosystem
 
-EmployeeWorks Web App includes a library of predefined widgets that address common employee productivity use cases. These widgets are available for employees to add to their personal canvas and for administrators to configure as mandatory or priority widgets. Administrators extend the library with custom widgets built through the [AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-ai-widget-builder.md).
+EmployeeWorks Web App includes a library of predefined widgets that address common employee productivity use cases. These widgets are available for employees to add to their personal canvas and for administrators to configure as mandatory or priority widgets. Administrators extend the library with custom widgets built through the [AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-ai-widget-builder.md).
 

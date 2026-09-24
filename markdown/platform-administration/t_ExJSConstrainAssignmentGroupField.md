@@ -2,7 +2,7 @@
 title: Constrain the assignment group field
 description: This example shows how to use an advanced reference qualifier with JavaScript and a script include to restrict the incident Assignment group choices to only the groups that contain the user specified in the Assigned to field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ExJSConstrainAssignmentGroupField.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ExJSConstrainAssignmentGroupField.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

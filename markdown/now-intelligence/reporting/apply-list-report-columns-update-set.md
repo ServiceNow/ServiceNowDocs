@@ -2,7 +2,7 @@
 title: Applying list report column configurations with an update set
 description: Configured columns in list reports can be moved to another instance by committing an update set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/apply-list-report-columns-update-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/apply-list-report-columns-update-set.html
 release: australia
 product: Reporting
 classification: reporting

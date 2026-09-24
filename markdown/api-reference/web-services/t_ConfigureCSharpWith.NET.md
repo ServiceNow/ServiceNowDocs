@@ -2,7 +2,7 @@
 title: Configure C sharp with .NET
 description: Configure web services within ServiceNow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ConfigureCSharpWith.NET.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_ConfigureCSharpWith.NET.html
 release: australia
 product: Web Services
 classification: web-services
@@ -31,5 +31,5 @@ Configure web services within ServiceNow.
     \[Omitted image "ElementFormDefaultProperty.png"\] Alt text: Element form default property
 
 
-**Parent Topic:**[Web services C Sharp .NET end to end tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_CSharpNETEndEnd.md)
+**Parent Topic:**[Web services C Sharp .NET end to end tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_CSharpNETEndEnd.md)
 

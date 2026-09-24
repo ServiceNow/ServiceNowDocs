@@ -2,7 +2,7 @@
 title: Applying IRE to Import Sets
 description: You can apply CMDB Identification and Reconciliation Engine \(IRE\) processes when Import Sets are used to import CIs into the CMDB. CI identification can prevent duplicate CIs in the CMDB, which Import Sets might otherwise cause.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/identification-import-sets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/identification-import-sets.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -75,7 +75,7 @@ The following restrictions apply:
 -   The CMDBTransformUtil API does not check if mandatory fields have values when used with Import Sets . Regardless of how **enforce mandatory fields** is set in the transform map, data import fails if a mandatory field does not have a value.
 -   CI Identification and Reconciliation cannot be applied to Import Sets for dependent CIs \(CIs with dependent identification rules\).
 
-**Parent Topic:**[CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
+**Parent Topic:**[CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 
 **Related topics**  
 

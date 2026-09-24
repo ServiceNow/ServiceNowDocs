@@ -2,7 +2,7 @@
 title: Adding tables to knowledge articles
 description: You can insert tables and modify the cells, rows, and columns of a table in a knowledge article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/tables-knowedge-articles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/tables-knowedge-articles.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

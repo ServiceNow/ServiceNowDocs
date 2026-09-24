@@ -2,7 +2,7 @@
 title: Default Employee Profile Header Configuration record
 description: The default Employee Profile header configuration record contains the following field values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/default-profile-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/default-profile-header.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,7 +39,7 @@ The default Employee Profile header configuration record contains the following 
 |Channel|Microsoft Teams|
 |Show Presence Status|Selected|
 
-**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 

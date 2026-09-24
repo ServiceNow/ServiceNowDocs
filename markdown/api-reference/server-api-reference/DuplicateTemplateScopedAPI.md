@@ -2,7 +2,7 @@
 title: DuplicateTemplate - Scoped
 description: The DuplicateTemplate API provides methods for users to interact with de-duplication templates by enforcing a set of validations for each method.Checks if the provided list of tasks can be added to a template.Creates a de-duplication template in draft state.Gets the template object.Generates a preview of how different template options were applied to the de-duplication task and how it’s to be remediated.Publishes a template. When successful, the template moves from draft to published state.Remediates a de-duplication task using the template.Cancels an existing template run.Retires a template.Schedules a remediation run for a de-duplication template in the published state. A template can be run multiple times but you can only schedule one run at a time.Unpublishes a template.Updates a de-duplication template in draft state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DuplicateTemplateScopedAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,34 +20,34 @@ De-duplication task remediation can be more time consuming than desirable when h
 
 When an instance detects duplicate configuration items \(CIs\) during identification and reconciliation, it groups each set of duplicate CIs into a de-duplication task for review and remediation. De-duplication tasks provide details about the duplication, including a list of all duplicate CIs. For information, see [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/de-duplication-tasks.md).
 
-See also: [IdentificationEngine - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)
+See also: [IdentificationEngine - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)
 
 -   **Template life cycle**
-    1.  Use the [CreateTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to create a template in the draft state.
+    1.  Use the [CreateTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to create a template in the draft state.
 
         You can use the following methods to retrieve or update the template:
 
-        -   [getTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
-        -   [canAddTasksToTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
-        -   [updateTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
-    2.  Use the [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to move the template from draft to published state.
+        -   [getTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+        -   [canAddTasksToTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+        -   [updateTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+    2.  Use the [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to move the template from draft to published state.
 
-        **Note:** Use the [unPublishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to return a published template to draft state and update the template.
+        **Note:** Use the [unPublishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to return a published template to draft state and update the template.
 
-    3.  Optional. Use the [CMDBDuplicateTemplateUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBDuplicateTemplateUtilAPI.md) script include to add or remove tasks.
-    4.  Use the [runTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to run the template.
+    3.  Optional. Use the [CMDBDuplicateTemplateUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CMDBDuplicateTemplateUtilAPI.md) script include to add or remove tasks.
+    4.  Use the [runTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to run the template.
 
-        To cancel a running task, use the [requestCancellation\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method.
+        To cancel a running task, use the [requestCancellation\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method.
 
-    5.  If the template is no longer needed, you can retire the template using the [retireTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method.
+    5.  If the template is no longer needed, you can retire the template using the [retireTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method.
 -   **Remediating a single task using a template**
 
     To remediate a single task without running the template, you can preview and remediate de-duplication tasks.
 
-    1.  Use the [previewTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to preview the remediation of a single-task with a template.
-    2.  Use the [remediateTask\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to remediate the de-duplication task with a template.
+    1.  Use the [previewTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to preview the remediation of a single-task with a template.
+    2.  Use the [remediateTask\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to remediate the de-duplication task with a template.
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## DuplicateTemplate - canAddTasksToTemplate\(Array taskIds, String templatId\)
 
@@ -894,7 +894,7 @@ The following attributes are required:
 
 **Note:** Although this method validates all of the attributes, there’s no requirement for the template to be in the published state for a preview.
 
-Use the [remediateTask\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to remediate de-duplication tasks.
+Use the [remediateTask\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to remediate de-duplication tasks.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1157,13 +1157,13 @@ The following attributes are required:
 -   name
 -   table
 
-In published state, you can run the template using the [runTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method.
+In published state, you can run the template using the [runTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method.
 
 See also:
 
--   [previewTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
--   [unPublishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
--   [updateTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [previewTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [unPublishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [updateTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1210,12 +1210,12 @@ Remediates a de-duplication task using the template.
 
 If the template isn’t in the published state, the template can't be run and the method throws an exception.
 
-Use the [previewTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to preview how de-duplication tasks are to be remediated.
+Use the [previewTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to preview how de-duplication tasks are to be remediated.
 
 See also.
 
 -   [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/de-duplication-tasks.md)
--   [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
 -   [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/reconcile-dup-task.md)
 
 |Name|Type|Description|
@@ -1252,9 +1252,9 @@ Running this method doesn’t automatically cancel template runs in Ready or Dra
 
 See also:
 
--   [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
--   [runTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
--   [retireTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [runTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [retireTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1308,10 +1308,10 @@ The template can't be retired and the method throws an exception under the follo
 
 See also:
 
--   [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
--   [runTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
--   [requestCancellation\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
--   [DuplicateTemplate - unPublishTemplate\(String templateId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [runTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [requestCancellation\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [DuplicateTemplate - unPublishTemplate\(String templateId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1354,9 +1354,9 @@ true
 
 Schedules a remediation run for a de-duplication template in the published state. A template can be run multiple times but you can only schedule one run at a time.
 
-If the template isn’t in published state, it can't be run and the method throws an exception. Use the [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to move the template from draft to published state.
+If the template isn’t in published state, it can't be run and the method throws an exception. Use the [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method to move the template from draft to published state.
 
-To cancel a running task, use the [requestCancellation\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method.
+To cancel a running task, use the [requestCancellation\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1387,9 +1387,9 @@ This method moves the template from the published state to the draft state, whic
 
 See also:
 
--   [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
--   [requestCancellation\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
--   [updateTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [publishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [requestCancellation\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [updateTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1436,8 +1436,8 @@ Updates a de-duplication template in draft state.
 
 See also:
 
--   [unPublishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
--   [canAddTasksToTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [unPublishTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
+-   [canAddTasksToTemplate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/DuplicateTemplateScopedAPI.md)
 
 <table id="table_rl4_t5c_txb" class="parameters"><thead><tr><th>
 

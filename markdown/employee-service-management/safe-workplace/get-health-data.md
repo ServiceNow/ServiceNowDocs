@@ -2,7 +2,7 @@
 title: Subscribe to request for entry updates
 description: Send the result of each Employee Health Screening entry request to a third-party system by configuring a webhook.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/get-health-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/get-health-data.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -30,7 +30,7 @@ When you set up the webhook, the system automatically sends a REST request to a 
 
 **Note:** The webhook does not include authentication headers in the request. Ensure that you provide an endpoint that includes query parameters to authenticate the request.
 
-To learn more about the Employee Health Screening Request Entry module, see [Conduct a health screen for entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/screen-returning-employee.md).
+To learn more about the Employee Health Screening Request Entry module, see [Conduct a health screen for entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/screen-returning-employee.md).
 
 Role required: sn\_imt\_core.admin or admin
 

@@ -2,7 +2,7 @@
 title: Publish the Virtual Agent topics for callback
 description: Publish the Virtual Agent topics for callback to help your customers request a callback from agents when there’s a long wait time to reach a live agent or agents are unavailable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/publish-callback-va-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/publish-callback-va-topics.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

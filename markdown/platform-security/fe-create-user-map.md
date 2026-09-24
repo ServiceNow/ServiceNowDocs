@@ -2,7 +2,7 @@
 title: Create a user module access policy
 description: Create a module access policy \(MAP\) for a matched user to encrypt attachments when inbound email processing runs as that user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/fe-create-user-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/fe-create-user-map.html
 release: australia
 topic_type: task
 last_updated: "2026-04-28"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-These instructions create a role-based MAP for the matched user. A role-based MAP requires impersonation to be enabled so that the user has access to the cryptographic module. Other MAP types, such as script or scope, can also be used to grant the user access to the cryptographic module, but don't include an impersonation option. See [Configure module access policies for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/maps-for-fe.md) for information on all available MAP types.
+These instructions create a role-based MAP for the matched user. A role-based MAP requires impersonation to be enabled so that the user has access to the cryptographic module. Other MAP types, such as script or scope, can also be used to grant the user access to the cryptographic module, but don't include an impersonation option. See [Configure module access policies for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/maps-for-fe.md) for information on all available MAP types.
 
 ## Procedure
 
@@ -57,5 +57,5 @@ The hash field stores a SHA-256 fingerprint of an attachment's content. Even tho
 
 Because of this, duplicate detection doesn't work for encrypted attachments, since ServiceNow uses the hash field to prevent identical attachments from being added to a record.
 
-**Parent Topic:**[Module access policies for inbound email attachment encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/fe-maps-inbound-email-attachment-encryption.md)
+**Parent Topic:**[Module access policies for inbound email attachment encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-maps-inbound-email-attachment-encryption.md)
 

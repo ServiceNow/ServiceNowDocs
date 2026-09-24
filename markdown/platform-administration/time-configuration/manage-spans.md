@@ -2,7 +2,7 @@
 title: Managing spans
 description: You can view span details, focus and zoom spans, and edit spans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/manage-spans.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/manage-spans.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -47,5 +47,5 @@ Move the entire span horizontally to adjust the start and end dates but not the 
 
 \[Omitted image "TimelineDragSpan.png"\] Alt text: Timeline showing a span that has been dragged horizontally to adjust the start and end dates
 
-**Parent Topic:**[Timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UsingTimelines.md)
+**Parent Topic:**[Timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_UsingTimelines.md)
 

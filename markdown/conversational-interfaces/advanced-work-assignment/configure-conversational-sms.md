@@ -2,7 +2,7 @@
 title: Set up the Conversational SMS service channel
 description: Configure the Conversational SMS service channel store app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/configure-conversational-sms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/configure-conversational-sms.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

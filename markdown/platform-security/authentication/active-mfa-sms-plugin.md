@@ -2,7 +2,7 @@
 title: Activate the MFA with SMS plugin
 description: For MFA with SMS, install the Multi-factor authentication with SMS \(com.snc.authentication.sms\_mfa\) plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/active-mfa-sms-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/active-mfa-sms-plugin.html
 release: australia
 product: Authentication
 classification: authentication

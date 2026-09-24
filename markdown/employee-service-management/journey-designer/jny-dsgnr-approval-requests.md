@@ -2,7 +2,7 @@
 title: Review and approve plan configuration changes
 description: Approvers receive approval tasks to track reviewing, approving, and rejecting changes to a plan configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-approval-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/jny-dsgnr-approval-requests.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -51,15 +51,15 @@ Role required: assigned as approver for a plan configuration
 
 3.  Review the changes.
 
-<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d649918e114">
+<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d649922e114">
 
 Options
 
-</th><th align="left" id="d649918e117">
+</th><th align="left" id="d649922e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d649918e123">
+</th></tr></thead><tbody><tr><td id="d649922e123">
 
 **Approve or Reject changes**
 
@@ -69,7 +69,7 @@ Description
 -   **Reject**:
 
 
-</td></tr><tr><td id="d649918e145">
+</td></tr><tr><td id="d649922e145">
 
 **View comment added by the owner**
 
@@ -91,5 +91,5 @@ Description
     The right pane includes the details of the approval. You can **Reject** or **Approve** the changes.
 
 
-**Parent Topic:**[Journey designer plan configuration approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-config-plan-approvers.md)
+**Parent Topic:**[Journey designer plan configuration approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-config-plan-approvers.md)
 

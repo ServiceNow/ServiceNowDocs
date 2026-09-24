@@ -2,7 +2,7 @@
 title: Block application entitlements from the ServiceNow Store
 description: As a service provider, block one or more instances from receiving application entitlements through the ServiceNow Store. An application can be installed in any entitled instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/entitle-app-servicenow-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/entitle-app-servicenow-store.html
 release: australia
 topic_type: task
 last_updated: "2026-08-26"

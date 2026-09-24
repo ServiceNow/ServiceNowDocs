@@ -2,7 +2,7 @@
 title: Viewing patient information for an enrollment case in Workspace
 description: With the 360-degree view of a patient in Workspace, you can access the patient details anytime for completing enrollment cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-viewing-patient-info.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-viewing-patient-info.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

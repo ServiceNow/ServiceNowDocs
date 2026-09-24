@@ -2,7 +2,7 @@
 title: Disabling SQL error messages \(instance security hardening\)
 description: Use the glide.db.loguser property to disable SQL error messages from rendering in a browser.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/disabling-sql-error-messages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/disabling-sql-error-messages.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Use the **glide.db.loguser** property to disable SQL error messages from renderi
 
 To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
-**Parent Topic:**[Logging, auditing, and errors \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/logging-auditing-errors-instance-security-hardening.md)
+**Parent Topic:**[Logging, auditing, and errors \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/logging-auditing-errors-instance-security-hardening.md)
 

@@ -2,7 +2,7 @@
 title: Convert a lead into an opportunity
 description: Convert a lead into an opportunity in Lead Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management-use-convert-lead.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/lead-management-use-convert-lead.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -60,7 +60,7 @@ Opportunity
 
 </td><td>
 
-Details to create an opportunity. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-opportunity.md).-   Create new: Select if you want to create a new opportunity.
+Details to create an opportunity. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-new-opportunity.md).-   Create new: Select if you want to create a new opportunity.
 -   Choose existing: Select if you already have an existing opportunity.
 **Note:** Select the check box if you don't want to create an opportunity for the lead.
 
@@ -91,7 +91,7 @@ Opportunity
 
 </td><td>
 
-Details to create an opportunity. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-opportunity.md).-   Create new: Select if you want to create a new opportunity.
+Details to create an opportunity. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-new-opportunity.md).-   Create new: Select if you want to create a new opportunity.
 -   Choose existing: Select if you already have an existing opportunity.
 **Note:** Select the check box if you don't want to create an opportunity for the lead.
 
@@ -101,12 +101,12 @@ Details to create an opportunity. To learn more, see [Create an opportunity](htt
     A dialog box appears for the successful conversion of your lead into an opportunity. You can select the new opportunity record that was created.
 
 
-**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-using.md)
 
 **Related topics**  
 
 
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-lead-management.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management.md)
 

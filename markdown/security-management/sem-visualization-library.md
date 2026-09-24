@@ -2,7 +2,7 @@
 title: Visualization library
 description: The Visualization library lists all the widgets that you can use to visualize and categorize findings. It includes a set of default widgets and any custom widgets that you create for organization-specific reporting. You can browse the available widgets, understand the data they use, and add them to dashboards to build tailored security exposure views.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-visualization-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-visualization-library.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -285,14 +285,14 @@ Findings with exploits
 Active records with and without known exploits.
 
 </td></tr></tbody>
-</table>If your instance uses localization, make sure that the widget titles show up correctly in all supported languages. Default widgets already include translated titles.But if you update a default widget, create a custom widget, or rename a widget, remember to add or update the translation entry. This keeps titles consistent across languages. For steps, see [Localize widget titles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-localize-widget-titles.md).
+</table>If your instance uses localization, make sure that the widget titles show up correctly in all supported languages. Default widgets already include translated titles.But if you update a default widget, create a custom widget, or rename a widget, remember to add or update the translation entry. This keeps titles consistent across languages. For steps, see [Localize widget titles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-localize-widget-titles.md).
 
 **Related topics**  
 
 
-[Configure Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-visualization-library.md)
+[Configure Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-visualization-library.md)
 
-[Create a custom widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-widget.md)
+[Create a custom widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-create-widget.md)
 
-[Visualization widget fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-vis-widget-fields.md)
+[Visualization widget fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-vis-widget-fields.md)
 

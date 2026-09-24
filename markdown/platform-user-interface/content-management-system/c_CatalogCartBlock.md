@@ -2,7 +2,7 @@
 title: Catalog cart block
 description: The catalog cart block is a dynamic block provided in the base system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_CatalogCartBlock.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/c\_CatalogCartBlock.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -16,18 +16,18 @@ breadcrumb: [Configure dynamic blocks, Types of content blocks, Content blocks, 
 
 The catalog cart block is a dynamic block provided in the base system.
 
-This block provides the same cart that is available within the service catalog. If the [site definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateANewSite.md) has the **Use external cart** option selected, include this block in the site so users can interact with their catalog cart.
+This block provides the same cart that is available within the service catalog. If the [site definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateANewSite.md) has the **Use external cart** option selected, include this block in the site so users can interact with their catalog cart.
 
 Catalog cart block is available when the **glide.sc.use\_cart\_layouts** property is set to false.
 
-**Parent Topic:**[Configure dynamic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateADynamicBlock.md)
+**Parent Topic:**[Configure dynamic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateADynamicBlock.md)
 
 **Related topics**  
 
 
-[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)
+[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentBlocks.md)
 
-[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
+[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
 
-[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
+[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
 

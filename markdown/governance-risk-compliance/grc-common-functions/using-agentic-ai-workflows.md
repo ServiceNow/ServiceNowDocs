@@ -2,7 +2,7 @@
 title: Using agentic workflows in IRM
 description: Use the Integrated Risk Management AI agent collection to help complete tasks autonomously.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions

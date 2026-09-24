@@ -2,7 +2,7 @@
 title: Configure Service Level Agreement \(SLA\)
 description: Configure SLAs to define a set amount of time for a task to reach a certain condition, to ensure that incidents are closed or resolved according to the expectations set for customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_ConfigureSLAs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/c\_ConfigureSLAs.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -24,8 +24,8 @@ An SLA definition record defines the timings, conditions, workflows, and other i
 
 For example, the default **Priority 1 resolution \(8 hour\)** SLA Definition defines the Task SLAs to attach to incidents with a P1 - Critical priority, specifies appropriate conditions for those Task SLAs, and uses the default SLA workflow to create events such as to send a notification, when an incident's Task SLA reaches 50% of its allotted time.
 
--   **[Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md)**  
+-   **[Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/t_CreateAnSLADefinition.md)**  
 Create SLA definitions to set the conditions under which SLAs attach, pause, stop, and reset on task records. Use them to track and enforce service commitments across your organization.
 
-**Parent Topic:**[Configuring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/configuring-service-level-management.md)
+**Parent Topic:**[Configuring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/configuring-service-level-management.md)
 

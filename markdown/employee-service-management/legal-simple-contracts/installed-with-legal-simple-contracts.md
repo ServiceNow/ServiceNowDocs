@@ -2,7 +2,7 @@
 title: Components installed with Legal Simple Contracts
 description: Several types of components are installed with activation of the Legal Simple Contracts application, including tables and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/installed-with-legal-simple-contracts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/installed-with-legal-simple-contracts.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -261,5 +261,5 @@ Signer Task\[sn\_lg\_contracts\_signer\_task\]
 Stores all signatory information, including the order of signatories to sign the contract document and current signature status a request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Simple Contracts reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-simple-contracts-reference.md)
+</table>**Parent Topic:**[Legal Simple Contracts reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/legal-simple-contracts-reference.md)
 

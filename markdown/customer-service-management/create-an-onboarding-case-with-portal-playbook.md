@@ -2,7 +2,7 @@
 title: Creating an onboarding case with Playbooks for Portals
 description: Whether you're a contact or a consumer, you can create an onboarding case with a case type that is based on the issue or request in either the Customer Service Portal or Consumer Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-an-onboarding-case-with-portal-playbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-an-onboarding-case-with-portal-playbook.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ These playbooks are designed to guide you through the steps of the intake proces
 
 ## Navigating the catalog to create an onboarding request
 
-You can navigate the catalog to create a new onboarding request from the Customer or Consumer Service Portals. For detailed steps, see [Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-request-from-catalog.md).
+You can navigate the catalog to create a new onboarding request from the Customer or Consumer Service Portals. For detailed steps, see [Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-an-onboarding-request-from-catalog.md).
 
 ## Workflow steps
 
@@ -45,7 +45,7 @@ The following diagram shows how a customer creates a case.
 **Related topics**  
 
 
-[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
+[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
 
-[Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-request-from-catalog.md)
+[Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-an-onboarding-request-from-catalog.md)
 

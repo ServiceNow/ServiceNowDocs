@@ -2,7 +2,7 @@
 title: Spend Shipment Import inbound staging table
 description: The Spend Shipment Import inbound \[sn\_spend\_intg\_imp\_shipment\] staging table temporarily stores important data about spend shipment imports before this data is sent to the primary table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/spend-shipment-import-inbound-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/source-to-pay-integration-framework/spend-shipment-import-inbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -46,7 +46,7 @@ The following table lists both the mandatory and optional fields for the Spend S
 |Tracking number|String|Tracking number of the shipment.|
 |Zip code|String|ZIP code of the shipment.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 

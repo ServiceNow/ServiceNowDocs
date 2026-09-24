@@ -2,7 +2,7 @@
 title: Builders in ServiceNow Studio
 description: Builders are specialized tools in ServiceNow Studio for editing metadata records associated with tables that extend sys\_metadata. Use builders to create and edit file types such as decision tables, flows, and forms as part of your app development.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/builders-in-servicenow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/builders-in-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -20,7 +20,7 @@ Builders provide features such as inline editing, customizable views, and integr
 
 When you open files such as decision tables, flows, or tables in ServiceNow Studio, the files open in a new tab in their designated builder. Some file types, such as mobile app configurations, open in a new browser tab. To access a builder, you must first open a file or application — builders cannot be opened independently in ServiceNow Studio.
 
-For a full list of the builders integrated in ServiceNow Studio, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/integrated-development-tools.md).
+For a full list of the builders integrated in ServiceNow Studio, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/integrated-development-tools.md).
 
 ## How do builders open in ServiceNow Studio?
 

@@ -2,7 +2,7 @@
 title: Create a function form
 description: On the Create a function form, fill in the fields.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-function-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-function-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -194,5 +194,5 @@ Impact of discontinuing the function according to the financial entity’s asses
 -   **Assessment not performed**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a function and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-function.md)
+</table>**Parent Topic:**[Create a function and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-drtp-reg-function.md)
 

@@ -2,7 +2,7 @@
 title: Text user input control
 description: The Text user input control in a Virtual Agent topic prompts the user for a text string.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-text-input.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-text-input.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -336,5 +336,5 @@ No-code condition statement or low-code script that specifies a condition for le
 |Apple Messages for Business|Not supported|Supported|None.|
 |Alexa \(Voice\)|Not supported|Supported|For screen devices, character limits may apply. For more information, see the [Alexa developer documentation](https://developer.amazon.com/en-US/docs/alexa/custom-skills/display-interface-reference.html).|
 
-**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

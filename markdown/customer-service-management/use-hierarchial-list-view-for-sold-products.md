@@ -2,10 +2,10 @@
 title: Use hierarchical list view for sold products
 description: Customer service agents can view sold product line items as a hierarchical list, which helps to view the parent and child relationship between sold product entities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-hierarchial-list-view-for-sold-products.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-hierarchial-list-view-for-sold-products.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Sold products, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_agent, svc\_location\_agent, order\_agent
 
 ## About this task
 
-The hierarchical list view needs to be manually enabled via the UI builder for customers using the Yokohama, Zurich, and australia instances. To learn how to enable the hierarchical view, see [Enable custom tabs on CSM workspace record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-custom-tabs-on-workspace-record-pages.md).
+The hierarchical list view needs to be manually enabled via the UI builder for customers using the Yokohama, Zurich, and australia instances. To learn how to enable the hierarchical view, see [Enable custom tabs on CSM workspace record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-custom-tabs-on-workspace-record-pages.md).
 
 ## Procedure
 

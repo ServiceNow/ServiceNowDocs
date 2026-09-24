@@ -2,7 +2,7 @@
 title: AI Service Graph Connector for IBM properties
 description: AI Service Graph Connector for IBM properties control the behavior of the connector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-sgc-ibm-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-sgc-ibm-properties.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

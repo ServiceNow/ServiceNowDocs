@@ -2,7 +2,7 @@
 title: Standby replication Lag
 description: A read replica is a copy of the primary DB that reflects changes to the primary in almost real time, in normal circumstances. The lag represents the database server of the instance that is behind in seconds.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/io-standby-replica-lag.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-standby-replica-lag.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-27"
@@ -18,7 +18,7 @@ Technical Support will see alert incidents created for database replication lag 
 
 **Note:** The cause will be DELETE or UPDATE statements. In the rare case, the cause is INSERT statements.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Displaying KPI Details for the mobile dashboard
 description: Use KPI Details charts to help identify trends and turning points through indicator scores and visual representation. These charts are used when reporting on KPIs and metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-reporting-pa-widgets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-reporting-pa-widgets.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

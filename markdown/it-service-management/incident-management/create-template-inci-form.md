@@ -2,7 +2,7 @@
 title: Create a template from the incident form
 description: Create a template that define default values for forms so that users can easily create incident. You need to have appropriate permissions before creating templates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/create-template-inci-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/create-template-inci-form.html
 release: australia
 product: Incident Management
 classification: incident-management

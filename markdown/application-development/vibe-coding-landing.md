@@ -2,7 +2,7 @@
 title: Agentic development on the ServiceNow AI Platform
 description: Agentic development, or vibe coding, is an AI-driven approach to application development. Use agentic development and ServiceNow agentic-assisted app building tools to describe your goals in natural language, and have the ServiceNow AI Platform generate full-stack applications, workflows, and integrations. The ServiceNow AI Platform automatically incorporates governance into the app creation process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-04"
@@ -47,7 +47,7 @@ You can develop agentically with any number of products on the market. However, 
 
 The ServiceNow AI Platform agentic development tools have direct access to the existing data models, ACLs, business rules, and automation patterns in your instance. When you use ServiceNow AI products to create an application, the tools already have access to your table structures, security setup, and how workflows are configured in your instance. This context depth enables you to generate code that fits your environment rather than generic code that needs adapting.
 
-Additionally, governance is built in to ServiceNow AI Platform agentic development and vibe coding tools, so your applications are secure. For more information, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-governance.md).
+Additionally, governance is built in to ServiceNow AI Platform agentic development and vibe coding tools, so your applications are secure. For more information, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-governance.md).
 
 Your app doesn't have to be completely developed inside the ServiceNow AI Platform to take advantage of its offerings. A standalone app that's agentically developed can still connect to a ServiceNow AI Platform data model. Your end users don't have to know it's ServiceNow, for example, if the app looks completely different, fulfillers can still use workspaces to track requests from a Service Portal.
 
@@ -55,19 +55,19 @@ Your app doesn't have to be completely developed inside the ServiceNow AI Platfo
 
 <table id="table_t4c_zrt_mhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore agentic development on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-vibe-coding.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore agentic development on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-vibe-coding.md)
 
 </td><td>
 
-[Onboard\[Omitted image "bus-sdlc.svg"\] Alt text:Browse information on onboarding with agentic development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-onboarding.md)
+[Onboard\[Omitted image "bus-sdlc.svg"\] Alt text:Browse information on onboarding with agentic development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-onboarding.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-learn.svg"\] Alt text:Create, test, and deploy applications with agentic development tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-using.md)
+[Use\[Omitted image "bus-learn.svg"\] Alt text:Create, test, and deploy applications with agentic development tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-using.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference information for agentic development, such as prompt examples.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-reference-landing.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference information for agentic development, such as prompt examples.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-reference-landing.md)
 
 </td></tr></tbody>
 </table>## Helpful resources
@@ -76,11 +76,11 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **Getting started guide**
 
-    [Getting Started guide for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/getting-started-landing-page.md)
+    [Getting Started guide for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/getting-started-landing-page.md)
 
 -   **Build Agent docs**
 
-    [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)
+    [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md)
 
 -   **Community Build Agent announcement**
 

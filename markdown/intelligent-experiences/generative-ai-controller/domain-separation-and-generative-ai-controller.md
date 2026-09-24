@@ -2,7 +2,7 @@
 title: Domain separation and Generative AI Controller
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Generative AI Controller. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/domain-separation-and-generative-ai-controller.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generative-ai-controller/domain-separation-and-generative-ai-controller.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -33,7 +33,7 @@ Domain separation enables you to create partitions in the application data and a
 
 Domain separation is possible at the generative AI OneExtend capability level. Records that are related to the execution and configuration of OneExtend capabilities, such as log tables that are accessible to ServiceNow personnel, are also separated according to the capability's domain.
 
-If you want to create a copy of an existing generative AI capability in a different domain, you must create a record in the OneExtend Capabilities \(sys\_one\_extend\_capability\) table. For more information about the OneExtend Capabilities table, see [Reference for Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md).
+If you want to create a copy of an existing generative AI capability in a different domain, you must create a record in the OneExtend Capabilities \(sys\_one\_extend\_capability\) table. For more information about the OneExtend Capabilities table, see [Reference for Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md).
 
 You set the domain when the record is created. The domain is based on the domain that you're in at the time that you create the record. When you're creating a capability record, you can use an existing OneExtend Capability record as a blueprint to help confirm that the capability works as intended.
 

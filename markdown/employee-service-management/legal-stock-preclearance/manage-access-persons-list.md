@@ -2,7 +2,7 @@
 title: Manage access persons list
 description: Add users who have access to non-public information regarding the trade of securities of your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-stock-preclearance/manage-access-persons-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-stock-preclearance/manage-access-persons-list.html
 release: australia
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -52,5 +52,5 @@ Role required: sn\_lg\_stock\_cp.stock\_config
     3.  Click **Update**.
 
 
-**Parent Topic:**[Configure Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
+**Parent Topic:**[Configure Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
 

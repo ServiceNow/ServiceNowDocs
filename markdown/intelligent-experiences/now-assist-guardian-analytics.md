@@ -2,7 +2,7 @@
 title: AI Guardian analytics
 description: Monitor the performance of guardrails enabled through AI Guardian.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-guardian-analytics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-guardian-analytics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ The indicators on the AI Guardian dashboard page provide the following insights.
 -   Count and percentage of offensive content and prompt injection occurrences.
 -   Skills where offensive content and prompt injection occurrences were detected.
 
-Apply the filters on the dashboard to view guardrail activity for skills in a date range. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+Apply the filters on the dashboard to view guardrail activity for skills in a date range. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 ## Offensive content indicators
 
@@ -86,5 +86,5 @@ Apply the filters on the dashboard to view guardrail activity for skills in a da
     \[Omitted image "naa-nag-prompt-injection-by-skill.png"\] Alt text: Prompt injection occurrences by skill indicator.
 
 
-**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-analytics.md)
 

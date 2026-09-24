@@ -2,7 +2,7 @@
 title: Minimizing table queries
 description: Learn how to minimize queries to maximize performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/table\_queries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/table\_queries.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

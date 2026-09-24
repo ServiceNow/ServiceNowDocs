@@ -2,7 +2,7 @@
 title: View Zoom room metrics
 description: View detailed metrics for your organization's Zoom rooms using DEX.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-zoom-room-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/view-zoom-room-metrics.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -20,8 +20,8 @@ View detailed metrics for your organization's Zoom rooms using DEX.
 
 Role required: admin
 
--   Set up DEX for Zoom. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md)
--   Configure advanced monitoring to monitor Zoom calls with DEX. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
+-   Set up DEX for Zoom. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md)
+-   Configure advanced monitoring to monitor Zoom calls with DEX. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
 ## Procedure
 

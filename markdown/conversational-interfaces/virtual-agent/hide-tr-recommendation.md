@@ -2,7 +2,7 @@
 title: Hide a topic recommendation
 description: You can choose to ignore a topic recommendation by hiding it. Doing so hides it for everyone on the instance. You can still view hidden recommendations and show it again later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/hide-tr-recommendation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/hide-tr-recommendation.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

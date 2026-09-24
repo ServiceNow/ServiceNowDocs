@@ -2,7 +2,7 @@
 title: Export financials as Excel or CSV file
 description: Export the costs or baseline comparison data of your planning items to easily share them with your stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/export-financials-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/export-financials-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

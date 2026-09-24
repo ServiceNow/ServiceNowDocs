@@ -2,7 +2,7 @@
 title: Review application service maps
 description: As the application service owner for the application service map, you receive an email notification that the application service map is assigned to you for review. Review mapping results for correctness and either provide your feedback or approve the application service map. The review and approval process is available only for discovered and manually created service instances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/review-service-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/review-service-map.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -24,7 +24,7 @@ Role required: sm\_app\_owner
 
 Ideally, only the application service owner reviews the planned application service, however, users with the sm\_app\_owner or service\_mapping\_admin role can also perform this task.
 
-Reviewing application service maps is part of the [review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/business-service-approval.md). The process of application service review may take some time as it requires making changes and repeatedly running the mapping process on the application service. Typically, it takes several iterations to arrive at the desired result. Once you are satisfied with the discovery result, you approve the application service.
+Reviewing application service maps is part of the [review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/business-service-approval.md). The process of application service review may take some time as it requires making changes and repeatedly running the mapping process on the application service. Typically, it takes several iterations to arrive at the desired result. Once you are satisfied with the discovery result, you approve the application service.
 
 After you request fixes or approve the application service, the service process task assigned to you closes.
 
@@ -84,7 +84,7 @@ Check all CIs comprising the application service map to identify CIs not belongi
 
 </td><td>
 
-[View CI connection attributes in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-connector-properties.md).
+[View CI connection attributes in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/view-connector-properties.md).
 
 </td></tr><tr><td id="d290709e339">
 
@@ -142,10 +142,10 @@ Click the plus \(+\) icon next to a CI.In an inclusion, a server hosts applicati
     The application service status changes to Approved and it appears in the list of completed application services on the **Home** page. The operational status changes to Operational. From this point, other applications can use data collected and organized by Service Mapping.
 
 
-**Parent Topic:**[Review and approval of application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/business-service-approval.md)
+**Parent Topic:**[Review and approval of application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/business-service-approval.md)
 
 **Related topics**  
 
 
-[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
+[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
 

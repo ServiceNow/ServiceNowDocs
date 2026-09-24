@@ -2,7 +2,7 @@
 title: Instances in ReleaseOps configuration
 description: Learn about the different types of instances in ReleaseOps configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/instances-in-releaseops-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/instances-in-releaseops-configuration.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -36,7 +36,7 @@ To view a list of pipeline instances for a given pipeline, navigate to **All** &
 
 ## Remote instances
 
-ReleaseOps uses update sources to move update sets between instances. A remote instance is the source instance, or update source, where an update set originates. For more information about update sources, see [Set up the source instance for an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/setting-source-for-update-set.md).
+ReleaseOps uses update sources to move update sets between instances. A remote instance is the source instance, or update source, where an update set originates. For more information about update sources, see [Set up the source instance for an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/setting-source-for-update-set.md).
 
 If you previously worked with update sets and have remote instances already defined, ReleaseOps can use those instances when defining remote instances during guided setup. Otherwise, you can create remote instances during the guided setup process.
 

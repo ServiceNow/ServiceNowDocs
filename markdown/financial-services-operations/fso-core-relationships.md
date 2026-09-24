@@ -2,7 +2,7 @@
 title: Understanding FSO Core relationships
 description: This section describes the key tables in FSO Core and their relationships. Understanding these relationships helps you manage data effectively and enhances system functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-core-relationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-core-relationships.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -205,5 +205,5 @@ Provides a series of standard fields used on each of the tables that extend it.
 ServiceNow AI Platform
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md)
+</table>**Parent Topic:**[Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-core-data-model.md)
 

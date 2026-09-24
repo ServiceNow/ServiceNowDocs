@@ -2,7 +2,7 @@
 title: Add a control to a risk
 description: Controls are added to the risks for the on-going review of processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/t\_AddControlToRisk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/t\_AddControlToRisk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -56,7 +56,7 @@ Description
 </td><td>
 
 1.  In the **Controls** related list, select **New**.
-2.  On the form, fill in the fields. For a description of the field values on the Control form, see [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md).
+2.  On the form, fill in the fields. For a description of the field values on the Control form, see [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md).
 3.  Select **Submit**.
 
 
@@ -76,10 +76,10 @@ Description
     -   The risks and controls that are created after associating a control objective to the risk statement aren’t associated with the risk statement immediately. They get associated when the **GRC Profile Generation** scheduled job runs.
     -   If you manually delete a control from a risk, the control won’t be re-created by the scheduled job. You must manually create it again if necessary.
 
-**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 
 **Related topics**  
 
 
-[Associate a risk statement with a control objective in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-control-objective-ws.md)
+[Associate a risk statement with a control objective in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-control-objective-ws.md)
 

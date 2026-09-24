@@ -2,7 +2,7 @@
 title: Check work items and AWA events
 description: View a list of work items and AWA events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-work-items-all.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-work-items-all.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

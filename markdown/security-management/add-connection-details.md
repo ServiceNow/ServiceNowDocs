@@ -2,7 +2,7 @@
 title: Add connection details
 description: Configure the connection details for the integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/add-connection-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/add-connection-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

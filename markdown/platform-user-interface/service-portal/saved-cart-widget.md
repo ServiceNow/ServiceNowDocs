@@ -2,7 +2,7 @@
 title: SC Saved Carts widget
 description: The Saved Carts widget shows previously created and saved bundles from the Service Catalog. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/saved-cart-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/saved-cart-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -29,7 +29,7 @@ When you add an existing cart bundle to a shopping cart, you have two options. Y
 
 The Saved Carts widget does not have any included instance options.
 
-**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 

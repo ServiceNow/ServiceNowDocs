@@ -2,7 +2,7 @@
 title: Create a business calendar group
 description: For Performance Analytics and Reporting to use business calendars, organize several calendars into a business calendar group. An application might also contain a business calendar group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/create-business-calendar-group.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/time-configuration/create-business-calendar-group.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -53,7 +53,7 @@ The Gregorian Calendar group comes with the base system. It includes the Week, M
 
 Each business calendar record \(Week, Month, Quarter, and Year\) also shows which groups it belongs to.
 
-**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md)
+**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/business-calendars.md)
 
 **Related topics**  
 

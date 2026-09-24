@@ -2,7 +2,7 @@
 title: Assessment Overview dashboard
 description: The Assessment Overview dashboard displays various assessment reports, such as Assessable Records by Type, Total Metrics by Metric Type, and Assessments by State.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_AssessmentsOverviewModule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_AssessmentsOverviewModule.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -32,5 +32,5 @@ The dashboard might not show all these reports. If you want to view a particular
 
 \[Omitted image "AssessmentOverviewPage.png"\] Alt text: Various assessment reports that appear on the Assessment Overview dashboard.
 
-**Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md)
+**Parent Topic:**[View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewAMetricResult.md)
 

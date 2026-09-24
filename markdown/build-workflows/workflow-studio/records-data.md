@@ -2,7 +2,7 @@
 title: Records.\[Table\] data type
 description: Stores one or more Sys ID references to records in a specific table. The Records data format is also known as a Glide List since it stores a list of GlideRecord Sys ID values.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/records-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/records-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -42,5 +42,5 @@ The records data type is supported in script by the GlideRecord class, which can
 
 The Look Up Records action uses the Records data type to store its results. In this example, the action looked up Configuration Item records assigned to the requester of a change request. Each configuration item record is a reference by its Sys ID. The flow execution details shows the configuration item display value, which in this case is the name.
 
-**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md)
 

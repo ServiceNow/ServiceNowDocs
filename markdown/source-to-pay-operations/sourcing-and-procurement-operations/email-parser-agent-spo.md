@@ -2,7 +2,7 @@
 title: Email parser agent for Sourcing and Procurement Operations
 description: The email parser agent for Sourcing and Procurement Operations processes inbound emails and creates the appropriate procurement cases without manual intervention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/email-parser-agent-spo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/email-parser-agent-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -39,7 +39,7 @@ When an email arrives in the configured SPO mailbox, the email parser agent trig
 
 A single email can contain multiple intents. For example, an email can contain a question about a negotiation and a question about a supplier case. The agent determines each intent independently, creates the corresponding cases, and sends a separate confirmation email for each.
 
-**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
+**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 **Related topics**  
 

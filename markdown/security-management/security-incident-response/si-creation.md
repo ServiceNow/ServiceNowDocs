@@ -2,7 +2,7 @@
 title: Security incident creation
 description: Security incidents can be created manually from the form, or automatically via security events received from integrated third-party alert monitoring tools, such as Splunk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/si-creation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/si-creation.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Manually created from the Security Incident list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md)
+[Manually created from the Security Incident list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md)
 
 </td><td>
 
@@ -38,7 +38,7 @@ On the Security Incident list, select **New** to create a new security incident.
 
 </td></tr><tr><td>
 
-[Manually created from the Security Incident Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manual-si-creation-catalog.md)
+[Manually created from the Security Incident Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manual-si-creation-catalog.md)
 
 </td><td>
 
@@ -54,7 +54,7 @@ On the Incident form in incident management, select **Create Security Incident**
 
 </td></tr><tr><td>
 
-[Manually converted from a security request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_CreateSecurityIncidentRequest.md)
+[Manually converted from a security request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/t_CreateSecurityIncidentRequest.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ On the Security Request form, select **Convert to Security Incident** to create 
 
 </td></tr><tr><td>
 
-[Manually created from an Event Management alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manually-create-si-from-em-alert.md)
+[Manually created from an Event Management alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/manually-create-si-from-em-alert.md)
 
 </td><td>
 
@@ -91,5 +91,5 @@ Generally, security administrators are responsible for setting up alert rules to
 
 |Method|Description|
 |------|-----------|
-|[Automatically created using alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_ScIncdUseAlrts.md)|Security incidents can be created based on alert rules defined in the [Event management in your data center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EM.md) application.|
+|[Automatically created using alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/c_ScIncdUseAlrts.md)|Security incidents can be created based on alert rules defined in the [Event management in your data center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EM.md) application.|
 

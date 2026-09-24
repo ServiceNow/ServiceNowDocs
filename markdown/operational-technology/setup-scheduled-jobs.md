@@ -2,7 +2,7 @@
 title: Set up scheduled import jobs
 description: Configure the scheduled import jobs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/setup-scheduled-jobs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/setup-scheduled-jobs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -75,7 +75,7 @@ Role required: admin
 
 ## Result
 
-You have completed the Service Graph Connector for ServiceNow OT Discovery Guided Setup. Review the [Use advanced configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/advanced-configuration-sgc-ot-discovery.md) section.
+You have completed the Service Graph Connector for ServiceNow OT Discovery Guided Setup. Review the [Use advanced configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/advanced-configuration-sgc-ot-discovery.md) section.
 
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md)
+**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-ot-discovery.md)
 

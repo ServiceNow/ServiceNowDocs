@@ -2,7 +2,7 @@
 title: Create a campaign
 description: Create a campaign to group manual, calculated, and automated metrics into a single unit for collection, review, and approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-campaign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-campaign.html
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
@@ -17,7 +17,7 @@ Create a campaign to group manual, calculated, and automated metrics into a sing
 
 ## Before you begin
 
--   Campaigns must be enabled. For more information, see [Enable campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/enable-campaigns.md).
+-   Campaigns must be enabled. For more information, see [Enable campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/enable-campaigns.md).
 -   Role required: sn\_grc\_metric.manager
 
 ## About this task
@@ -50,7 +50,7 @@ The group, calendar, and frequency you select define the campaign's metric set. 
 
 ## What to do next
 
-Add entities to the campaign, and set a data owner, before publishing it. For more information, see [Add or remove entities and metrics from a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-or-remove-entities-and-metrics-from-a-campaign.md).
+Add entities to the campaign, and set a data owner, before publishing it. For more information, see [Add or remove entities and metrics from a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/add-or-remove-entities-and-metrics-from-a-campaign.md).
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-grc-metrics.md)
 

@@ -2,7 +2,7 @@
 title: Viewing links between alerts in alert groups in Express List
 description: Gain a better understanding of the relationships between alerts in alert groups in the Express List by using Link View. Link View offers a visual representation of the relationships between the alerts in a group.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/el-link-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/el-link-view.html
 release: australia
 product: Event Management
 classification: event-management
@@ -30,21 +30,21 @@ A stacked node indicates that multiple nodes were mapped for the same tag. When 
 
 \[Omitted image "link-view-stacked-node.png"\] Alt text: Node with change badge.
 
-The Link View legend lists the meaning of the symbols and colors used and enables you to toggle between hiding and showing types of tags to reduce noise. In addition, the legend describes the meaning of the various lines linking the alert attributes. Attributes linked by a solid line share one or more alerts, whereas attributes linked by a dotted line are correlated by grouping criteria. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/link-view-tags-icons-descriptions.md). Hovering over a node displays a tooltip that includes the name of the tag, its class, its severity, and the number of alerts in which it appeared. The tooltip also indicates whether the alert is primary or secondary or the probable cause of the alert, if applicable.
+The Link View legend lists the meaning of the symbols and colors used and enables you to toggle between hiding and showing types of tags to reduce noise. In addition, the legend describes the meaning of the various lines linking the alert attributes. Attributes linked by a solid line share one or more alerts, whereas attributes linked by a dotted line are correlated by grouping criteria. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/link-view-tags-icons-descriptions.md). Hovering over a node displays a tooltip that includes the name of the tag, its class, its severity, and the number of alerts in which it appeared. The tooltip also indicates whether the alert is primary or secondary or the probable cause of the alert, if applicable.
 
 \[Omitted image "link-view-tooltip.png"\] Alt text: Node tooltip with probable cause.
 
 Currently, Link View is supported for several alert groups. For more information, see the following topics:
 
--   [Viewing links between alerts in tag-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/tag-based-link-view-express-list.md)
--   [Viewing links between alerts in rules-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-rule-based-link-view.md)
--   [Viewing links between alerts in CMDB-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-cmdb-based-link-view.md)
--   [Alert links in network traffic-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-network-traffic-based-link-view.md)
--   [Alert links in log analytics-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/log-analytic-based-link-view.md)
--   [Viewing links between alerts in mixed alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/unified-alert-group-link-view.md)
+-   [Viewing links between alerts in tag-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/tag-based-link-view-express-list.md)
+-   [Viewing links between alerts in rules-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-rule-based-link-view.md)
+-   [Viewing links between alerts in CMDB-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-cmdb-based-link-view.md)
+-   [Alert links in network traffic-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-network-traffic-based-link-view.md)
+-   [Alert links in log analytics-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/log-analytic-based-link-view.md)
+-   [Viewing links between alerts in mixed alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/unified-alert-group-link-view.md)
 
 **Related topics**  
 
 
-[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
+[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)
 

@@ -2,7 +2,7 @@
 title: Entity types
 description: Entity type is a grouping of the entities that match a set of filter conditions. You can create a hierarchy of the entity types within the entity classes. The Entity types option is displayed under the Lists view in the workspace. Click an entity type to display its details.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/entity-type-in-risk-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/entity-type-in-risk-ws.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -144,8 +144,8 @@ Attachments
 Attachments associated with the entity type displayed in the side panel.
 
 </td></tr></tbody>
-</table>-   **[Create an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-type-ws.md)**  
+</table>-   **[Create an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-new-entity-type-ws.md)**  
 Create an entity type for the entities in your system. Entity types enable you to find and create new entities that match a set of filter conditions. You can create a hierarchy of the entity types within the entity classes.
 
-**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
 

@@ -2,7 +2,7 @@
 title: Using the Related Records tab in the contextual side panel
 description: Agents can view, search, and sort the records in the Related Records tab in the contextual side panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-dynamic-related-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-dynamic-related-records.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-26"

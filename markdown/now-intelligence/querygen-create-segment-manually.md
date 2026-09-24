@@ -2,7 +2,7 @@
 title: Create a manual segment
 description: Manual segments are admin-created saved searches with friendly names that bridge natural language questions and database filters for the Query Generation semantic layer.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/querygen-create-segment-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/querygen-create-segment-manually.html
 release: australia
 topic_type: task
 last_updated: "2026-04-10"
@@ -90,16 +90,16 @@ The following examples show well-crafted manual segments for the `incident` tabl
 |My Team's Overdue Incidents|Incidents assigned to the current user's group that have passed their SLA due date.|`incident`|`assignment_group=javascript:getMyGroups()^sla_due<javascript:gs.nowDateTime()^state!=7`|
 |Recent P1 and P2 Escalations|Priority 1 and 2 incidents escalated in the last 7 days.|`incident`|`priority<=2^escalation=1^sys_updated_on>=javascript:gs.daysAgoStart(7)`|
 
-**Parent Topic:**[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
+**Parent Topic:**[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/querygen-segments.md)
 
 **Related topics**  
 
 
-[Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/manual-segment-data-model-sync.md)
+[Manual segment data model and sync behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/manual-segment-data-model-sync.md)
 
-[Shipping manual segments via plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/shipping-manual-segments-plugins.md)
+[Shipping manual segments via plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/shipping-manual-segments-plugins.md)
 
-[Guidelines for segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/general-guidelines-segments.md)
+[Guidelines for segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/general-guidelines-segments.md)
 
-[Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-properties.md)
+[Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/querygen-properties.md)
 

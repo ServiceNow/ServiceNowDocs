@@ -2,10 +2,10 @@
 title: Personalized PRB release notes for upgrades to Australia
 description: If you are thinking about upgrading to the Australia family, problem \(PRB\) fixes can be an important factor in your upgrade plans. Compare the lists of fixed problems across various Australia upgrade scenarios to help you decide which release version to upgrade to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-summary-fixes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/australia-summary-fixes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-23"
 reading_time_minutes: 81
 breadcrumb: [Learn about the Australia release, Australia release notes]
 ---

@@ -2,7 +2,7 @@
 title: Create a compute profile
 description: A compute profile specifies the hardware to use for newly-provisioned virtual machines. A compute profile maps to a cloud account, a datacenter, and a hardware template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-compute-profile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-compute-profile.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

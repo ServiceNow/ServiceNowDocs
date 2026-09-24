@@ -2,7 +2,7 @@
 title: Create a healthcare organization
 description: Create a healthcare organization, such as a healthcare provider, healthcare department, or organizational team, and associate it with a parent healthcare organization and a common location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-create-healthcare-organization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/hcls-cto-create-healthcare-organization.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

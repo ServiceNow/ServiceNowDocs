@@ -2,7 +2,7 @@
 title: Add signatories in self-served contract request
 description: Add signatories to a self-served contract request when the contract is generated from a template configured with signature blocks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -34,15 +34,15 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d456971e117">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d457053e117">
 
 Option
 
-</th><th align="left" id="d456971e120">
+</th><th align="left" id="d457053e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d456971e126">
+</th></tr></thead><tbody><tr><td id="d457053e126">
 
 **Internal**
 
@@ -62,12 +62,12 @@ The **Authorized signatory name**, **Signatory**, and **Signatory email** fields
 
 The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
 
-To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d456971e216">
+</td></tr><tr><td id="d457053e216">
 
 **External**
 
@@ -86,7 +86,7 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 
 The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
 
-To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
 6.  Select **Add**.
 

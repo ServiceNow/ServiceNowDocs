@@ -2,7 +2,7 @@
 title: Create Logical Connection with template subflow
 description: The Create Logical Connection with template subflow enables you to create a logical connection record from an inventory template in the Telecommunications Network Inventory application. The logical connection record is created based on the input that you receive when you instantiate an inventory using an inventory template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-template-subflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-template-subflow.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -58,7 +58,7 @@ The following table lists the information about the subflow's output.
 |CI Relationship with Interface A|Returns the CI relationship with a starting network interface.|Reference.CI Relationship|
 |CI Relationship with Interface Z|Returns the CI relationship with an ending network interface.|Reference.CI Relationship|
 
-**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
+**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 
 **Related topics**  
 

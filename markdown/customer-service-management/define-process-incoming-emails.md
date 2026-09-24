@@ -2,7 +2,7 @@
 title: Define rules to process incoming emails
 description: Define your email-related business processes using Inbound Email Flows. Manage emails along with your customer service processes through a visual Flow Designer interface without having to design or request complex scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/define-process-incoming-emails.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/define-process-incoming-emails.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

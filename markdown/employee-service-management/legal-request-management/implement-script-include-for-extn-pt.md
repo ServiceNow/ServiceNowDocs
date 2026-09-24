@@ -2,7 +2,7 @@
 title: Use the script include for Scripted Extension Point
 description: Use the script include for Scripted Extension Point to update the custom fields on the iManage storage based on the mapping provided in the functions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/implement-script-include-for-extn-pt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/implement-script-include-for-extn-pt.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -78,5 +78,5 @@ The possible script would be as follows:
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create implementation in Scripted Extension Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-scripted-extension-point.md)
+**Parent Topic:**[Create implementation in Scripted Extension Point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/create-scripted-extension-point.md)
 

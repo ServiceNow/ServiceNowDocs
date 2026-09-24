@@ -2,7 +2,7 @@
 title: Use Interactive SQL with ODBC
 description: Run the Interactive SQL application for quick verification of connectivity and to test query results without using a full application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_UsingInteractiveSQLWithODBC.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/t\_UsingInteractiveSQLWithODBC.html
 release: australia
 product: Web Services
 classification: web-services
@@ -43,10 +43,10 @@ Role required: admin
     \[Omitted image "SampleSQLQuery.png"\] Alt text: Sample SQL Query.
 
 
--   **[Specify the maximum number of rows returned](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_MaxRowsReturned.md)**  
+-   **[Specify the maximum number of rows returned](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_MaxRowsReturned.md)**  
 By default, ServiceNow only returns 100 rows of data with each iSQL query. If you need to return more rows of data, set the maxrows parameter for the iSQL session.
--   **[SQL support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_SQLSupport.md)**  
+-   **[SQL support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_SQLSupport.md)**  
 The ODBC driver embeds a third party SQL/ODBC engine from DataDirect, a division of Progress Software.
 
-**Parent Topic:**[ODBC and client applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_ODBCAndClientApplications.md)
+**Parent Topic:**[ODBC and client applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_ODBCAndClientApplications.md)
 

@@ -2,7 +2,7 @@
 title: Start a chat session through Legal Counsel Center Inbox
 description: Accept an incoming chat request through Legal Counsel Center Inbox to start a chat session with the requester.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/chat-employee-counsel-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/chat-employee-counsel-center.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -22,7 +22,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 ## About this task
 
-The live agent support enables a chat interaction between an employees and legal department users. For more information, see [Live agent support for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-live-agent.md).
+The live agent support enables a chat interaction between an employees and legal department users. For more information, see [Live agent support for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-va-live-agent.md).
 
 ## Procedure
 
@@ -44,11 +44,11 @@ The live agent support enables a chat interaction between an employees and legal
 
         Using response templates, you can insert predefined content in your chat conversations. Select the response template icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon.\) and find an appropriate response template. Copy and paste the template's content into the chat.
 
-        **Note:** Only response templates configured for a chat channel are available to use. For more information see [Response templates configured for chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-lsd-response-template.md).
+        **Note:** Only response templates configured for a chat channel are available to use. For more information see [Response templates configured for chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
     -   To send an attachment, click the send attachment to chat icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Send attachment to chat icon.\), select the file to attach, and click **Open**.
     -   To transfer the chat to another queue, click the transfer to queue icon \(\[Omitted image "transfer-queue-icon.png"\] Alt text: Transfer to queue icon.\) and select the queue.
     -   To transfer the chat to another available agent, click the transfer to agent icon \(\[Omitted image "transfer-queue-icon.png"\] Alt text: Transfer to agent icon.\) and select the agent name.
 
-**Parent Topic:**[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md)
+**Parent Topic:**[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-va-conversations.md)
 

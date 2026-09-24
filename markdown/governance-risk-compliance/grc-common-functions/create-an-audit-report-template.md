@@ -2,7 +2,7 @@
 title: Create an audit report template using ServiceNow Document Designer
 description: Use the template configurations to create placeholders for an audit report template tailored to your needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-an-audit-report-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/create-an-audit-report-template.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,9 +18,9 @@ Use the template configurations to create placeholders for an audit report templ
 
 ## Before you begin
 
-Install and activate the ServiceNow Document Designer with Word \(sn\_grc\_doc\_design\) plugin. For more information, see [Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/install-document-designer.md).
+Install and activate the ServiceNow Document Designer with Word \(sn\_grc\_doc\_design\) plugin. For more information, see [Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/install-document-designer.md).
 
-Confirm that you have the templates configured. For more information, see [Configure templates for Document Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-template-for-document-designer.md).
+Confirm that you have the templates configured. For more information, see [Configure templates for Document Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-template-for-document-designer.md).
 
 If you want to insert and update reporting content, set up Microsoft 365 reporting. For more information see, [Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-o365-reporting-configs.md) and [Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-additional-reporting-filters.md).
 

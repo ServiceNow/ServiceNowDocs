@@ -2,7 +2,7 @@
 title: Install and configure the Proofpoint integration for Data Loss Prevention
 description: Install and configure the  Proofpoint DLP integration from the  ServiceNow Store on your  ServiceNow AI Platform instance. Start investigating DLP incidents using the  Proofpoint DLP incident data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/install-configure-proofpoint-integration-dlp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/install-configure-proofpoint-integration-dlp.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -50,8 +50,8 @@ Role required: sn\_dlir.admin
 
 After you successfully validate and submit the configuration, the Proofpoint DLP Integration is saved on the Security Integrations page as a tile.
 
--   **[Configure the Webhook on the Proofpoint DLP tenant for alert notifications to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-webhook-proofpoint-tenant-alert-notifications.md)**  
+-   **[Configure the Webhook on the Proofpoint DLP tenant for alert notifications to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/configure-webhook-proofpoint-tenant-alert-notifications.md)**  
 Configure a webhook on Proofpoint using the REST API endpoint to start getting the alerts from the Proofpoint DLP tenant. Your ServiceNow instance creates DLP incidents from these alerts. The Proofpoint DLP integration provides a REST API endpoint for end users to configure the webhook.
 
-**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)
 

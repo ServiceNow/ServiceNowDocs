@@ -2,7 +2,7 @@
 title: Launch a feature in Engagement Messenger using custom code
 description: Use the custom code to enable the deep linking and launch a feature in Engagement Messenger integrated with your website.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-using-script-engagement-messenger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-using-script-engagement-messenger.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -18,9 +18,9 @@ Use the custom code to enable the deep linking and launch a feature in Engagemen
 
 ## Before you begin
 
-[Configure Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-engagement-messenger-module.md).
+[Configure Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-engagement-messenger-module.md).
 
-[Embed Engagement Messenger in your web application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-engagement-messenger-code-in-your-web-application.md).
+[Embed Engagement Messenger in your web application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-engagement-messenger-code-in-your-web-application.md).
 
 Role required: ec\_admin and website administrator
 
@@ -71,7 +71,7 @@ SN_CSM_EC.init({
 
     -   **feature**
 
-        The feature name. For more information, see [Feature context parameters supported in Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contextual-launch-supported-features.md) .
+        The feature name. For more information, see [Feature context parameters supported in Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/contextual-launch-supported-features.md) .
 
     -   **openOnLoad**
 
@@ -79,7 +79,7 @@ SN_CSM_EC.init({
 
     -   **&lt;param\_name&gt;": "&lt;param\_value&gt;**
 
-        Name and value of a parameter associated with the feature. For more information, see [Feature context parameters supported in Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contextual-launch-supported-features.md).
+        Name and value of a parameter associated with the feature. For more information, see [Feature context parameters supported in Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/contextual-launch-supported-features.md).
 
 7.  Create a custom wrapper function to pass the feature context to the `SN_CSM_EC.init` function of the embed code.
 
@@ -99,7 +99,7 @@ SN_CSM_EC.init({
     }
     ```
 
-8.  Replace the `SN_CSM_EC.loadEMFeature()` function with a custom wrapper function that you created in [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-using-script-engagement-messenger.md).
+8.  Replace the `SN_CSM_EC.loadEMFeature()` function with a custom wrapper function that you created in [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-using-script-engagement-messenger.md).
 
     For example, in the following code, the `chatFeatureContext()` wrapper function is passed as the value of the `loadFeature` attribute.
 

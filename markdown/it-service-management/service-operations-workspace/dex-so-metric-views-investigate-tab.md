@@ -2,7 +2,7 @@
 title: Digital End-User Experience and Service Observability UI experience on investigate tab
 description: Based on the Configuration Item \(CI\) selected in the Investigate tab, the user criteria and rules defined in the Investigate CI Experience Rules \(sn\_sow\_investigate\_ci\_ux\_rule\) table, the Investigate tab displays the CI metrics in different UI experience dashboard for the different CI classes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/dex-so-metric-views-investigate-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/dex-so-metric-views-investigate-tab.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -37,7 +37,7 @@ The Investigate tab displays a DEX UI experience dashboard, if the selected CI m
 -   Matches DEX related rule from the **Investigate CI Experience Rules** \(**sn\_sow\_investigate\_ci\_ux\_rule**\) table.
 -   CI is supported by DEX.
 
-For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md).
+For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-landing.md).
 
 ## SO view in the Investigate tab
 
@@ -61,5 +61,5 @@ The investigate tab displays SO dashboard containing vendor generated metrics fr
 
 For more information on SO, see [Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability.md).
 
-**Parent Topic:**[Features of the Investigation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/features-of-investigation-tab.md)
+**Parent Topic:**[Features of the Investigation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/features-of-investigation-tab.md)
 

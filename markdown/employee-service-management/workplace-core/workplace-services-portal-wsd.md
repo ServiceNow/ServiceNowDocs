@@ -2,7 +2,7 @@
 title: Workplace Service Portal
 description: The Workplace Service Portal is a self-service portal for employees, delivering workplace services from a central location. Employees can make reservations, view knowledge base articles, submit and review requests, and get help using virtual agent chat support.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/workplace-services-portal-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/workplace-services-portal-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -16,7 +16,7 @@ breadcrumb: [Workplace Safety Management, Workplace Core, Workplace Service Deli
 
 The Workplace Service Portal is a self-service portal for employees, delivering workplace services from a central location. Employees can make reservations, view knowledge base articles, submit and review requests, and get help using virtual agent chat support.
 
-**Note:** In Workplace Core \[sn\_wsd\_core\] starting with version 2.19.0, the navigation path for the Workplace Service Portal is not available in the application context menu search **All** &gt; **Workplace Core**. You can access the Workplace Service Portal from the Employee Center portal home page. For more information, [Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-services-on-employee-center.md).
+**Note:** In Workplace Core \[sn\_wsd\_core\] starting with version 2.19.0, the navigation path for the Workplace Service Portal is not available in the application context menu search **All** &gt; **Workplace Core**. You can access the Workplace Service Portal from the Employee Center portal home page. For more information, [Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-services-on-employee-center.md).
 
 In Workplace Core starting with version 2.18.1, the navigation path is available in the application context menu search and you can access the Workplace Service Portal from **All** &gt; **Self-Service** &gt; **Employee Center** &gt; **Workplace Services**.
 
@@ -29,7 +29,7 @@ From the Workplace Service Portal, you can do the following:
 -   View your requests and approvals \(if you're an approver\).
 -   View the location directory of your organization. Search for a co-worker, a space or any workplace location on the world map.
 
-    **Note:** To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, see [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-admin.md).
+    **Note:** To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, see [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-mappedin-admin.md).
 
 -   Submit requests for general inquiries, visitor registration, shift-based reservations, and other needs.
 -   Chat with a virtual agent to submit requests and view submitted requests.
@@ -37,7 +37,7 @@ From the Workplace Service Portal, you can do the following:
 -   Submit a request to move to another location.
 -   Request new furniture.
 
-**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-service-delivery-overview.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-service-delivery-overview.md)
 
 **Related topics**  
 

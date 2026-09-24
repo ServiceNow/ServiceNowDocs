@@ -2,7 +2,7 @@
 title: Customer history card
 description: This card displays recent customer activity associated with the account, consumer, or contact. Activity types include chat and phone interactions, as well as cases, contracts, work orders, and other activity types that you have configured.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-inter-history-card.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-inter-history-card.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,5 +32,5 @@ You can do the following:
 
 The information displayed in the customer history is based on the facets configured for the activity contexts in the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md) module. For more details on configuring the information displayed, see [Create facets for activity contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-facet-customer-central.md).
 
-**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md)
+**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-home-page.md)
 

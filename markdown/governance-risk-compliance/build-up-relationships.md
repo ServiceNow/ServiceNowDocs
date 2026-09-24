@@ -2,7 +2,7 @@
 title: Relationships between CSDM objects
 description: You can configure relationships between various CSDM objects such as business services, service offerings, business processes, and application services by using the Main node configurations. The \[sn\_grc\_m2m\_profile\_profile table\] serves as the source table for establishing these relationships.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/build-up-relationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/build-up-relationships.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,7 +48,7 @@ All the CMDB relationships, as shown in the example, are maintained in the CI re
 
 \[Omitted image "ci-rel-table.png"\] Alt text: CI relationships \[cmdb\_rel\_ci\] table.
 
-To bring these relationships into Operational Resilience, you must use the Main node configurations. For more information, see [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-main-node.md).
+To bring these relationships into Operational Resilience, you must use the Main node configurations. For more information, see [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-main-node.md).
 
 You can establish the following relationships between objects such as business services, service offerings, and business processes.
 
@@ -93,7 +93,7 @@ Business processes
 </td></tr></tbody>
 </table>The same relationship can be applied and used on multiple forms. For example, the business process relationship can be used on both Business service and Service offering forms.
 
-For information on the Main node configurations, see [Main node configurations: A component of the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-relationship-fw.md).
+For information on the Main node configurations, see [Main node configurations: A component of the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/main-node-relationship-fw.md).
 
-**Parent Topic:**[Node relationship configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/node-relationship-configurations.md)
+**Parent Topic:**[Node relationship configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/node-relationship-configurations.md)
 

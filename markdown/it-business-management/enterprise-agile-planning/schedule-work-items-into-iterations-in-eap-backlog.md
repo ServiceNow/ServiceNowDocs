@@ -2,7 +2,7 @@
 title: Schedule work items into iterations in EAP Backlog
 description: Perform backlog grooming and schedule work from the team's backlog for the upcoming iteration Enterprise Agile Planning.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -18,8 +18,8 @@ Perform backlog grooming and schedule work from the team's backlog for the upcom
 
 ## Before you begin
 
--   [Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
--   [Create work items for teams in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-work-items-for-teams-in-eap-backlog.md).
+-   [Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
+-   [Create work items for teams in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-work-items-for-teams-in-eap-backlog.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -68,9 +68,9 @@ Role required: sn\_apw\_advanced.eap\_user
 
 ## What to do next
 
--   [Plan work for an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/plan-work-for-teams-using-planning-board-in-eap.md).
--   [Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md).
--   [Analyze team performance and progress using dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap-dashboard.md).
+-   [Plan work for an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/plan-work-for-teams-using-planning-board-in-eap.md).
+-   [Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md).
+-   [Analyze team performance and progress using dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap-dashboard.md).
 
-**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md)
 

@@ -2,7 +2,7 @@
 title: Identify loss scenarios and align them to the plan
 description: Create a continuity or recovery plan for a department or business unit, identify, and align loss scenarios with the plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/loss-scenarios-align-with-bcp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/loss-scenarios-align-with-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Sign document templates for PDF documents using CAC or PIV smart card
 description: Use the PDF document template to initiate digital signing, review, and generate a filled PDF document using a Common Access Card \(CAC\) or Personal Identification Verification \(PIV\) card.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/sign-pdf-documents-cac-piv.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/sign-pdf-documents-cac-piv.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -20,7 +20,7 @@ Use the PDF document template to initiate digital signing, review, and generate 
 
 Adobe Acrobat Reader must be installed on your desktop.
 
-A document template must be set up for signing documents. For more information, see [Set up a document template for signing documents using a CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-document-template.md).
+A document template must be set up for signing documents. For more information, see [Set up a document template for signing documents using a CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/create-document-template.md).
 
 Role required: none
 
@@ -57,5 +57,5 @@ Role required: none
     The signature is successfully captured and authenticated after document validation.
 
 
-**Parent Topic:**[Digital signature for PDF documents using CAC or PIV smart cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/digital-signature.md)
+**Parent Topic:**[Digital signature for PDF documents using CAC or PIV smart cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/digital-signature.md)
 

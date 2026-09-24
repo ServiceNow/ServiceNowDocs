@@ -2,7 +2,7 @@
 title: Create a contract template from an existing template
 description: Create a new contract template from an existing template if you need only a small variation in the content of an existing template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-create-template-revision.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-create-template-revision.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -34,7 +34,7 @@ Role required: sn\_cm\_core.contract\_config
 
 4.  Import clauses and template field mappings from a Microsoft Word document with content controls.
 
-    For more information, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md).
+    For more information, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md).
 
     1.  In the **Document** field, select **Update**.
 
@@ -56,10 +56,10 @@ Role required: sn\_cm\_core.contract\_config
 
 ## What to do next
 
--   Map any new meta data found during parsing. For more information, see [Update contract template mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-template-mapping.md).
--   Classify new clauses found during parsing. For more information, see [Classify and map imported clauses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-import-clauses.md)
+-   Map any new meta data found during parsing. For more information, see [Update contract template mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-template-mapping.md).
+-   Classify new clauses found during parsing. For more information, see [Classify and map imported clauses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-import-clauses.md)
 
-**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
+**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Conversational Appointment Booking
 description: Book, reschedule, and cancel appointments from Virtual Agent conversations. The ServiceNow Conversational Appointment Booking application uses Now Assist to communicate with customers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/conv\_appt\_booking.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/conv\_appt\_booking.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -66,7 +66,7 @@ The following image illustrates the appointment cancellation flow.
 **Related topics**  
 
 
-[Configure Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/conv-appt-booking-config.md)
+[Configure Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/conv-appt-booking-config.md)
 
-[Using Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/conv_appt_booking_using.md)
+[Using Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/conv_appt_booking_using.md)
 

@@ -2,7 +2,7 @@
 title: Improving CMDB data quality for HAM
 description: The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Hardware Asset Management \(HAM\) suggests targeted actions to improve the overall quality of your Configuration Management Database \(CMDB\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-remediation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-remediation.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

@@ -2,7 +2,7 @@
 title: Create an AI connection for n8n
 description: Create an AI connection for n8n in AI Control Tower using the  AI Service Graph Connector for n8n \(Version 1.0.2\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-a-ai-connection-for-n8n.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-a-ai-connection-for-n8n.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

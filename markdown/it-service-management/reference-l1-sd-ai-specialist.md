@@ -2,7 +2,7 @@
 title: Reference for L1 IT Service Desk AI Specialist
 description: Reference for L1 IT Service Desk AI Specialist provides additional information about related properties and roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/reference-l1-sd-ai-specialist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/reference-l1-sd-ai-specialist.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-25"

@@ -2,7 +2,7 @@
 title: Install the Conversational Integration with Slack
 description: You can install the Conversational Integration with Slack \(sn\_va\_slack\) application if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/install-slack-from-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/install-slack-from-store.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -40,7 +40,7 @@ Review these guidelines for using Virtual Agent with Slack or with Slack Enterpr
     -   Use a separate Slack workspace for each instance that you plan to install the integration in.
     -   If you use a non-production instance for testing, use a Self-configured bot.
 
-        For more information, see [Integrate your ServiceNow instance with a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integ-slack-self-config-bot.md).
+        For more information, see [Integrate your ServiceNow instance with a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integ-slack-self-config-bot.md).
 
 -   Slack Enterprise Grid – If you have Slack Enterprise Grid workspaces, your end users can move between workspaces and use the Virtual Agent bot from any workspace.
     -   If you use a non-production instance for testing, use a workspace in a different grid or use a non-grid workspace.
@@ -75,7 +75,7 @@ Review these guidelines for using Virtual Agent with Slack or with Slack Enterpr
 
 ## What to do next
 
-[Integrate ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-slack-snow-bot.md).
+[Integrate ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-slack-snow-bot.md).
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-slack.md)
+**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-slack.md)
 

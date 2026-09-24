@@ -2,7 +2,7 @@
 title: Restore the greeting banner on the landing page
 description: If the greeting banner is closed, restore it to view the agent's shift information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/restore-greeting-banner.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/restore-greeting-banner.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -33,5 +33,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
+**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
 

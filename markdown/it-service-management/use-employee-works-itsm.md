@@ -2,7 +2,7 @@
 title: Use ITSM Employee Slate for Moveworks
 description: View active outages and degradations for your services using the Service Health Broadcast widget. Ask Otto for a summary of current issues. Use the Tech Lounge widget to check in for walk-in help or book appointments. You can also check in conversationally by chatting with Otto.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/use-employee-works-itsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/use-employee-works-itsm.html
 release: australia
 topic_type: task
 last_updated: "2026-08-13"

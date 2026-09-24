@@ -2,7 +2,7 @@
 title: Configure chat summarization and chat reply recommendation skills in the AI Admin Hub console
 description: Define the triggers, inputs, and display location for chat summarization and chat reply recommendation by using the guided setup in the AI Admin Hub console. The activation steps are conceptually same for both the skills.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
@@ -96,5 +96,5 @@ Chat recommendation or reply recommendation for the workflow is active on the in
 
 Analyze your skill performance and usage on the AI Admin Hub console to help determine the success of the skill. Learn more about tracking your Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-**Parent Topic:**[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
+**Parent Topic:**[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md)
 

@@ -2,7 +2,7 @@
 title: Transaction events
 description: Events trigger rule groups, integrations, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in CPQ.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-events.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
@@ -36,7 +36,7 @@ Transaction-level system events:
 
 -   **Upsert Lines**
 
-    Manages the creation and update of transaction lines after the user browses the catalog to add new lines or reconfigures an existing line. Upsert Lines runs automatically after the user finishes selecting products from the catalog, configuring products, or reconfiguring a line. Although it works on lines, it operates at the transaction level on all lines. When pricing is enabled, this event ships with the **Reprice** action attached so that adding or reconfiguring a product automatically reprices the quote. For more information about UI effects, see [Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-layouts.md).
+    Manages the creation and update of transaction lines after the user browses the catalog to add new lines or reconfigures an existing line. Upsert Lines runs automatically after the user finishes selecting products from the catalog, configuring products, or reconfiguring a line. Although it works on lines, it operates at the transaction level on all lines. When pricing is enabled, this event ships with the **Reprice** action attached so that adding or reconfiguring a product automatically reprices the quote. For more information about UI effects, see [Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-layouts.md).
 
 -   **Reprice**
 
@@ -64,11 +64,11 @@ Transaction line-level system events are represented as buttons on the quote lin
 
 ## Repricing events
 
-When Pricing is enabled, the **Reprice** action drives both manual and automatic repricing. To enable Pricing, see [Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-external-connection-logik.md)
+When Pricing is enabled, the **Reprice** action drives both manual and automatic repricing. To enable Pricing, see [Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-up-external-connection-logik.md)
 
 -   Manual reprice — Attach the **Reprice** action to a button on the quote layout so users can recalculate pricing on demand.
 -   Automatic reprice — Default special-event triggers, such as **upsertLines** when a configuration is added, ship with the **Reprice** action attached, so pricing runs without the user selecting **Reprice**. You can disable these default triggers per event if you don't want automatic repricing for a given event.
--   Stage-aware behavior — The effective repricing behavior can differ by stage without per-event configuration. For example, auto-pricing can be aggressive in an early stage such as Draft and suppressed in a later stage such as Order Submitted. Configure stage-specific behavior on the stage. For more information, see [Quote transaction stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-stages.md).
+-   Stage-aware behavior — The effective repricing behavior can differ by stage without per-event configuration. For example, auto-pricing can be aggressive in an early stage such as Draft and suppressed in a later stage such as Order Submitted. Configure stage-specific behavior on the stage. For more information, see [Quote transaction stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-stages.md).
 
 ## Event APIs
 
@@ -84,13 +84,13 @@ The setting includes a validity period that excludes products validated within a
 
 Two line-level system fields support this function: **txn.line.configuration.status** \(Boolean\) and **txn.line.configuration.validatedAt** \(date\).
 
--   **[Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-custom-event.md)**  
+-   **[Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-custom-event.md)**  
 Create a custom event in ServiceNow Quote Experience to trigger rule groupings, integrations, and stage transitions based on business-specific requirements in CPQ.
 
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 
 **Related topics**  
 
 
-[Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-custom-event.md)
+[Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-custom-event.md)
 

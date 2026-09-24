@@ -2,7 +2,7 @@
 title: View request status
 description: View the status of a request to see its progress, and determine when it may be fulfilled.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/t\_ViewRequestStatus.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/self-service/t\_ViewRequestStatus.html
 release: australia
 product: Self-service
 classification: self-service
@@ -33,5 +33,5 @@ Role required: admin
 4.  Check the **Backordered** field, and if the item is backordered, review comments for information about its return to stock.
 
 
-**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
+**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 

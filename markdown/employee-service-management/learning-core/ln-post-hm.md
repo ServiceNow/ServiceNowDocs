@@ -2,7 +2,7 @@
 title: Learning Core Home page
 description: Learning Core home page provides a consolidated view of the learning catalogs and learning management systems that have been configured in the Learning Core application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/ln-post-hm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/ln-post-hm.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -22,7 +22,7 @@ Select a tile to view the complete details of a specific catalog such as course 
 
 ## Learning Sources
 
-Select a source link to open the learning system source record in [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-framework.md).
+Select a source link to open the learning system source record in [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-integrations-framework.md).
 
 ## Catalogs
 

@@ -2,7 +2,7 @@
 title: Additional resources for AI products and solutions
 description: If you’re looking for AI best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-additional-resources.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-additional-resources.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -77,7 +77,7 @@ Glossary
 
 </td><td>
 
-[AI glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-glossary.md)
+[AI glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-glossary.md)
 
 </td></tr><tr><td>
 

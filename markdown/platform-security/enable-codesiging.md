@@ -2,7 +2,7 @@
 title: Turn on Code Signing
 description: Turn on Code Signing in your trusted non-production instance to identify the trusted instances linking to your production instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/enable-codesiging.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/enable-codesiging.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Turn on Code Signing in your trusted non-production instance to identify the tru
 
 Roles required: security\_admin, and either sn\_kmf.crypto\_manager or sn\_kmf.admin
 
-As a customer administrator, you can access and install the Code Signing \[com.glide.code\_signing\_enterprise\] plugin from the ServiceNow Plugin portal. To learn more about the use cases of Code Signing, see [Exploring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-code-signing.md).
+As a customer administrator, you can access and install the Code Signing \[com.glide.code\_signing\_enterprise\] plugin from the ServiceNow Plugin portal. To learn more about the use cases of Code Signing, see [Exploring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/explore-code-signing.md).
 
 ## About this task
 
@@ -90,6 +90,6 @@ Code Signing jobs with signed update sets are used to turn the Code Signing feat
 
     \[Omitted image "syspropertie-kmf-cert.png"\] Alt text: Code Signing certificates available in System Properties.
 
-    Use the Circle of Trust job in production to verify the trust relationship. No direct job can be executed in production that attempts to sign code. See [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/config-code-signing.md) for details on configuration options.
+    Use the Circle of Trust job in production to verify the trust relationship. No direct job can be executed in production that attempts to sign code. See [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/config-code-signing.md) for details on configuration options.
 
 

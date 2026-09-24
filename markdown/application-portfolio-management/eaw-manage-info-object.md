@@ -2,7 +2,7 @@
 title: Manage information objects
 description: An information object captures the logical data for a business application. It also describes the type of data that is interchanged between the application and the database.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-manage-info-object.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-manage-info-object.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,10 +14,10 @@ breadcrumb: [Working with information portfolio, Working with Portfolio list vie
 
 An information object captures the logical data for a business application. It also describes the type of data that is interchanged between the application and the database.
 
--   **[View all information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-information-objects.md)**  
+-   **[View all information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-information-objects.md)**  
 You can view the list of all information objects in the Enterprise Architecture Workspace.
--   **[Add or edit an information object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-information-object.md)**  
+-   **[Add or edit an information object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-new-information-object.md)**  
 Create an information object to capture the logical data for a business application.
 
-**Parent Topic:**[Working with information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-info-portfoliodita.md)
+**Parent Topic:**[Working with information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-info-portfoliodita.md)
 

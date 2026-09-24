@@ -2,7 +2,7 @@
 title: Use the GetMainWindowHandleAsInt component
 description: Retrieve the window handle of a main window of an active process as an integer by using the GetMainWindowHandleAsInt component in RPA Desktop Design Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-sysprocess-getmainwinhandleasInt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-sysprocess-getmainwinhandleasInt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetMainWindowHandleAsInt component. For more information about these properties, see [Properties of the System Process components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-sysprocess-prop.md).
+You can configure the properties for the GetMainWindowHandleAsInt component. For more information about these properties, see [Properties of the System Process components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/util-sysprocess-prop.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the GetMainWindowHandleAsInt component. For
 
 2.  Drag the GetMainWindowHandleAsInt component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the GetMainWindowHandleAsInt to the corresponding ports of the other components as described in the following table.
 
@@ -42,5 +42,5 @@ You can configure the properties for the GetMainWindowHandleAsInt component. For
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-process-utilities.md)
+**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-process-utilities.md)
 

@@ -2,7 +2,7 @@
 title: Configure the audience for the SOW landing page
 description: Define who can access your SOW landing pages. You can targeted experiences for audiences such as agents and managers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-audience-sow-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configure-audience-sow-landing-page.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace

@@ -2,7 +2,7 @@
 title: LEAP AI indicators
 description: AI indicators mark the artifacts that the LEAP AI agent creates. They appear on the home page list and on the automation opportunity details page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-ai-indicators.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-ai-indicators.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks

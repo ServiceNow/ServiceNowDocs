@@ -2,7 +2,7 @@
 title: Access to Expertise
 description: The Access to Expertise Initiative connects Impact customers to ServiceNow subject matter experts via personalized virtual coaching sessions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/access-expertise-initiative.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/access-expertise-initiative.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -91,5 +91,5 @@ Implementation Guidance
 How do you set up the workflow for Mobile barcode scanning upon initiation of a request?
 
 </td></tr></tbody>
-</table>Submit queries with detailed information using an intake form. See [Request Access to Expertise Initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/access-expertise.md) for details on entering the request.
+</table>Submit queries with detailed information using an intake form. See [Request Access to Expertise Initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/access-expertise.md) for details on entering the request.
 

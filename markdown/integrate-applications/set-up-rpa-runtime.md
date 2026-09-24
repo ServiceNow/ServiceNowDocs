@@ -2,7 +2,7 @@
 title: Set up Unattended Robot
 description: Set up the Unattended Robot application to establish a connection between a robot and the ServiceNow RPA Hub instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/set-up-rpa-runtime.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/set-up-rpa-runtime.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,16 +16,16 @@ Set up the Unattended Robot application to establish a connection between a robo
 
 ## Before you begin
 
-Install the Unattended Robot. For more information, see [Install Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-rpa-runtime.md).
+Install the Unattended Robot. For more information, see [Install Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-rpa-runtime.md).
 
-Install the Unattended Robot Login Agent. For more information, see [Install Unattended Robot Login Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-rpa-runtime-login-agent.md).
+Install the Unattended Robot Login Agent. For more information, see [Install Unattended Robot Login Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-rpa-runtime-login-agent.md).
 
-If you are selecting **mTLS** as the type of the authentication in the following task, install a user certificate, if you have the admin role. For more information, see [Install the user-generated certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-user-certificates-rpa.md).
+If you are selecting **mTLS** as the type of the authentication in the following task, install a user certificate, if you have the admin role. For more information, see [Install the user-generated certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-user-certificates-rpa.md).
 
 For high density robots, ensure that the following requirements are met:
 
--   Set up the environment for high density robots on a Windows Server machine. For more information, see [Set up Windows Server machine for high density robots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-windows-server-hdr.md).
--   Familiarize yourself with high density robots concepts. For more information, see [High density robots in Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/high-density-robots-uat.md) and [High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/high-density-robots-rpa-hub.md).
+-   Set up the environment for high density robots on a Windows Server machine. For more information, see [Set up Windows Server machine for high density robots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/setup-windows-server-hdr.md).
+-   Familiarize yourself with high density robots concepts. For more information, see [High density robots in Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/high-density-robots-uat.md) and [High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/high-density-robots-rpa-hub.md).
 
 Role required: sn\_rpa\_fdn.rpa\_robot \(for connection\); sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin \(for setup\)
 
@@ -78,9 +78,9 @@ High density robots
 
 Select this option to add multiple high density robots user profiles.High density robots leverage the Remote Desktop Services to execute multiple automations simultaneously in separate user sessions on the same Windows server machine.
 
-For more information on high density robots, see [High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/high-density-robots-rpa-hub.md) and [High density robots in Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/high-density-robots-uat.md).
+For more information on high density robots, see [High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/high-density-robots-rpa-hub.md) and [High density robots in Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/high-density-robots-uat.md).
 
-You must set up Windows server for high density robots. For more information, see [Set up Windows Server machine for high density robots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-windows-server-hdr.md).
+You must set up Windows server for high density robots. For more information, see [Set up Windows Server machine for high density robots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/setup-windows-server-hdr.md).
 
 </td></tr><tr><td>
 
@@ -142,10 +142,10 @@ Enter the password.This field appears only when **Basic** is selected from the *
 
 ## What to do next
 
-Run an unattended robot to execute the unattended bot process. For more information, see [Run an automation using Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-rpa-robot.md).
+Run an unattended robot to execute the unattended bot process. For more information, see [Run an automation using Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/run-rpa-robot.md).
 
 **Related topics**  
 
 
-[Install the user-generated certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-user-certificates-rpa.md)
+[Install the user-generated certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-user-certificates-rpa.md)
 

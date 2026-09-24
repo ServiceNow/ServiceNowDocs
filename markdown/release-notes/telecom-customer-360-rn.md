@@ -2,7 +2,7 @@
 title: Telecommunications Customer 360 release notes
 description: The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/telecom-customer-360-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/telecom-customer-360-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -16,13 +16,13 @@ The ServiceNow® Telecommunications Customer 360 application provides a unified 
 
 ## About Telecommunications Customer 360
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
+[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
 -   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Automate customer issue diagnosis with the Smart Actions for Telecom agentic workflow which checks product inventory, open cases, billing status, and incidents from the Recommended Actions panel.
 -   Access Customer 360, Run Diagnostics, and Recommended Actions in a single workspace from any record page.
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Add the 360-degree customer view to any record page with the Telecom Customer 360 UI Builder component.
 -   Find KB articles and agentic workflows for the current customer with the Recommendations panel.
@@ -45,7 +45,7 @@ See [Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceN
     Install Telecommunications Customer 360 by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/technology-industry-rn-landing.md)
 
 ## August 2026
 

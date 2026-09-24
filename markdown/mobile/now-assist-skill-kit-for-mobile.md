@@ -2,7 +2,7 @@
 title: Otto Skill Kit for mobile
 description: The ServiceNow Otto Skill Kit plugin lets you create and activate custom prompts and skills for Otto on your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/now-assist-skill-kit-for-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/now-assist-skill-kit-for-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"

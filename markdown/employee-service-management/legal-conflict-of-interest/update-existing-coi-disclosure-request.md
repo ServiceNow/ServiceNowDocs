@@ -2,7 +2,7 @@
 title: Update an existing conflict of interest disclosure request
 description: Update an existing conflict of interest disclosure request to obtain the legal clearance again before it expires. You might want to get fresh approvals for an extension of the period or for the revised conditions that might pose a risk of potential conflict with the primary employer duties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/update-existing-coi-disclosure-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-conflict-of-interest/update-existing-coi-disclosure-request.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -38,15 +38,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 6.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d373255e127">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d373259e127">
 
 Option
 
-</th><th align="left" id="d373255e130">
+</th><th align="left" id="d373259e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d373255e136">
+</th></tr></thead><tbody><tr><td id="d373259e136">
 
 **If the Attachments tab is visible**
 
@@ -57,7 +57,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d373255e175">
+</td></tr><tr><td id="d373259e175">
 
 **If the Documents tab is visible**
 
@@ -78,5 +78,5 @@ The conflict of interest disclosure request is updated and the state is set as N
 
 The approval details appear under the **Approvals** tab on the Standard Ticket page.
 
-**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
+**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
 

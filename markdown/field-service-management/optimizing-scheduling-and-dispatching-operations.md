@@ -2,7 +2,7 @@
 title: Optimizing Scheduling and Dispatching operations
 description: Explore how dispatchers manage scheduling and dispatching operations to verify tasks are assigned efficiently to field service agents, maximizing resource use and customer satisfaction. Discover the mechanisms behind effective task allocation, verifying that the right task goes to the right agent at the right time for smooth service delivery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/optimizing-scheduling-and-dispatching-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/optimizing-scheduling-and-dispatching-operations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -79,5 +79,5 @@ Field Service Management provides different types of maps. These maps help field
 **Related topics**  
 
 
-[Setting up a Field Service scheduling method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/setting-up-scheduling-methods.md)
+[Setting up a Field Service scheduling method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/setting-up-scheduling-methods.md)
 

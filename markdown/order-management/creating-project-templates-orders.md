@@ -2,7 +2,7 @@
 title: Creating project templates and project template tasks
 description: You create the project templates and project template tasks that Order Management uses to instantiate projects for order lines and associated domain orders and order tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/creating-project-templates-orders.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/creating-project-templates-orders.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

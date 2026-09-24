@@ -2,7 +2,7 @@
 title: OnCallEscalationTemplateSNC - Global
 description: The OnCallEscalationTemplateSNC script include provides methods to apply escalation policy templates to escalation sets.Instantiates an OnCallEscalationTemplateSNC object.Applies an escalation policy template to an escalation set.Deletes all escalation step definition records associated with an escalation set.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/OnCallEscalationTemplateSNCAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/OnCallEscalationTemplateSNCAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,7 +20,7 @@ For more information about the escalation process, see [Defining On-Call Schedul
 
 This script include requires the On-Call Scheduling plugin \(com.snc.on\_call\_rotation\).
 
-**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## OnCallEscalationTemplateSNC - OnCallEscalationTemplateSNC\(\)
 

@@ -2,7 +2,7 @@
 title: Edit or view a building's spaces based on workplace entities
 description: View the spaces in a building based on their entity types. On the floor map, directly add an allocation or modify an allocation of space. Assign spaces to a workplace entity from the floor map.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-a-building-s-spaces-based-on-workplace-entities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/view-a-building-s-spaces-based-on-workplace-entities.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -18,7 +18,7 @@ View the spaces in a building based on their entity types. On the floor map, dir
 
 ## Before you begin
 
-[View or edit space allocations of a building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-or-edit-space-alloctions-of-a-building.md)
+[View or edit space allocations of a building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-or-edit-space-alloctions-of-a-building.md)
 
 **Important:** You can view spaces based on their workplace entities only for a building. You cannot create or view a scenario based on workplace entities.
 
@@ -30,7 +30,7 @@ You can view a building's spaces based on different entity types that you config
 
 From the floor map view of the building, directly assign a space to a workplace entity or change an existing allocation of a space.
 
-You can also perform changes on a building using a floor map directly. Refer to [Edit a building's spaces using a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/edit-space-details-for-buildings.md).
+You can also perform changes on a building using a floor map directly. Refer to [Edit a building's spaces using a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/edit-space-details-for-buildings.md).
 
 ## Procedure
 
@@ -128,5 +128,5 @@ You can also perform changes on a building using a floor map directly. Refer to 
         The allocation changes are saved automatically.
 
 
-**Parent Topic:**[View or edit space allocations of a building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-or-edit-space-alloctions-of-a-building.md)
+**Parent Topic:**[View or edit space allocations of a building](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-or-edit-space-alloctions-of-a-building.md)
 

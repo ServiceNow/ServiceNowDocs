@@ -2,7 +2,7 @@
 title: Enable solution configuration
 description: Enable solution configuration for an environment to let admins link multiple blueprints into connected configuration sessions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/enable-solution-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enable-solution-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-26"
@@ -46,11 +46,11 @@ Configurable product actions are available in the admin for the enabled environm
 
 After enabling solution configuration:
 
--   To link your first parent and child blueprints, see [Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-configurable-product-action.md).
+-   To link your first parent and child blueprints, see [Create a configurable product action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-configurable-product-action.md).
 -   To review structural limits before designing a solution, see [Solution configuration limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 **Related topics**  
 
 
-[Solution configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/solution-configurations.md)
+[Solution configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/solution-configurations.md)
 

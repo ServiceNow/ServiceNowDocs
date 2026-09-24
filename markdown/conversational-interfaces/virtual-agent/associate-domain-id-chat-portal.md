@@ -2,7 +2,7 @@
 title: Associate a domain ID with a chat portal
 description: The Service Portal platform is not domain-separated, but you can create different versions of a portal and restrict each version's use to a single domain for chat purposes. For example, you could create two employee service portals and define a different domain for each.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/associate-domain-id-chat-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/associate-domain-id-chat-portal.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Elements of the Service Portal platform such as settings, portals, pages and widgets are not domain-separated. However, the data within widgets does display when based on the appropriate domain. To provide different experiences, admins should create separate service portals, each with unique URLs, that they can redirect users to. For a domain-separated chat experience in the chat widget channel, create a portal and use the **sysparm\_domain\_id** parameter in the URL to designate the domain. For more information, see [Virtual Agent URL parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-sysparm.md).
+Elements of the Service Portal platform such as settings, portals, pages and widgets are not domain-separated. However, the data within widgets does display when based on the appropriate domain. To provide different experiences, admins should create separate service portals, each with unique URLs, that they can redirect users to. For a domain-separated chat experience in the chat widget channel, create a portal and use the **sysparm\_domain\_id** parameter in the URL to designate the domain. For more information, see [Virtual Agent URL parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-sysparm.md).
 
 ## Procedure
 
@@ -56,5 +56,5 @@ Elements of the Service Portal platform such as settings, portals, pages and wid
 
 The **sysparm\_domain\_id** parameter gets passed in the portal URL.
 
-**Parent Topic:**[Domain separation and Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md)
+**Parent Topic:**[Domain separation and Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md)
 

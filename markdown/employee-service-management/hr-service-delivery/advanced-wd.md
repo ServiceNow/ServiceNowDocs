@@ -2,7 +2,7 @@
 title: HR Service Delivery Advanced Integration with Workday
 description: The ServiceNow HR Service Delivery Advanced Integration with Workday application is built by Bristlecone, Inc.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/advanced-wd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/advanced-wd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,13 +19,13 @@ The ServiceNow® HR Service Delivery Advanced Integration with Workday applicati
 HR Service Delivery Advanced Integration with Workday enables you to complete the following tasks:
 
 -   **As an advanced Workday administrator**
-    -   Configure templates to display customized Total Rewards information to employees in the configured Service Portal. See [Set up Total Rewards using Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/total-rewards-awd.md).
-    -   Configure legal name change settings to enable employees to change their legal name from Employee Center. See [Legal name change configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/leg-name-awd.md).
-    -   Import time offs, holiday calendars, and schedule calendars from Workday into the ServiceNow application enabling employees to submit a time-off request from Employee Center. See [Time off request to Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/w-timeoff.md).
+    -   Configure templates to display customized Total Rewards information to employees in the configured Service Portal. See [Set up Total Rewards using Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/total-rewards-awd.md).
+    -   Configure legal name change settings to enable employees to change their legal name from Employee Center. See [Legal name change configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/leg-name-awd.md).
+    -   Import time offs, holiday calendars, and schedule calendars from Workday into the ServiceNow application enabling employees to submit a time-off request from Employee Center. See [Time off request to Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/w-timeoff.md).
 -   **As an employee**
-    -   Submit your time-off request from Employee Center. See [Request a time off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/request-timeoff.md).
-    -   Change your legal name through virtual agent conversation in Employee Center. See [Change legal name through Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/change-legal-na-awd.md).
-    -   Report discrepancy in your Workday payslip from Employee Center. See [Report an issue with your payslip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/payslips-awd.md).
+    -   Submit your time-off request from Employee Center. See [Request a time off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/request-timeoff.md).
+    -   Change your legal name through virtual agent conversation in Employee Center. See [Change legal name through Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/change-legal-na-awd.md).
+    -   Report discrepancy in your Workday payslip from Employee Center. See [Report an issue with your payslip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/payslips-awd.md).
     -   View your Total Rewards information \(such as benefits, compensation, and allowances\) in the configured Service Portal.
     -   View your holiday calendars in the configured Service Portal.
 
@@ -35,15 +35,15 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_rd1_bl3_2tb" class="nav-card"><tbody><tr><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configuring-hr-service-delivery-advanced-integration-with-workday.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configuring-hr-service-delivery-advanced-integration-with-workday.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Using the HR Service Delivery Advanced Integration with Workday application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Using the HR Service Delivery Advanced Integration with Workday application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-documentation.svg"\] Alt text: Get details about components like tables, user roles, and scheduled jobs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-hr-service-delivery-advanced-integration-with-workday.md)
+[Reference \[Omitted image "bus-documentation.svg"\] Alt text: Get details about components like tables, user roles, and scheduled jobs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-hr-service-delivery-advanced-integration-with-workday.md)
 
 </td></tr></tbody>
 </table>## Additional resources

@@ -2,7 +2,7 @@
 title: View conference call details
 description: Conference calls are listed as system activities in the Activity section of the major security incident and also listed in the Conference calls related list. You can view details like Conference bridge name, organizer name, date, time, duration of the call, active and inactive participants.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-conference-call-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/view-conference-call-details.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -45,7 +45,7 @@ Role required: sn\_msi.workspace\_manager
 9.  To restart a conference call, navigate to the Completed section and select the **Reinitiate** option of the required conference call.
 
 
-**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
+**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-msim-conference-calls.md)
 
 **Related topics**  
 

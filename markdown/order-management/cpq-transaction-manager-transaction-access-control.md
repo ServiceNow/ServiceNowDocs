@@ -2,7 +2,7 @@
 title: ServiceNow Quote Experience: Access Control
 description: ServiceNow Quote Experience controls access at two levels: record access, which determines who can view or modify a quote, and field access, which controls the fields a user sees within a quote. Record access can be managed by your CRM or natively within ServiceNow Quote Experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-transaction-manager-transaction-access-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-transaction-manager-transaction-access-control.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,13 +23,13 @@ The appropriate model depends on your implementation architecture and on which s
 
 ## Field access control
 
-Regardless of the record-level approach you use, field access is managed in CPQ Administration through the Views and Personas features of the quote blueprint. For more information, see [Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-views.md) and [Quote transaction personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-personas.md).
+Regardless of the record-level approach you use, field access is managed in CPQ Administration through the Views and Personas features of the quote blueprint. For more information, see [Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-views.md) and [Quote transaction personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-personas.md).
 
 ## CRM-managed access control
 
 When ServiceNow Quote Experience is deployed with Sales CRM, record access is managed through standard ServiceNow AI Platform table access controls \(ACLs\). The access controls on the quote tables determine whether a user can create, read, update, or delete a quote record, and ServiceNow Quote Experience validates access based on those permissions.
 
-For more information on the roles that govern quote access, see [Components Installed with Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-quote-management.md).
+For more information on the roles that govern quote access, see [Components Installed with Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-quote-management.md).
 
 **Note:** On the opportunity record, the fields shown in the quote list are governed by the quote table ACLs.
 
@@ -69,5 +69,5 @@ When quote-managed access control is enabled on an instance that already contain
 
 You can grant or revoke quote-managed access through API calls. You can also use the API to retrieve the list of quotes a user can access and to return a history of users who were granted or revoked access. For a Postman collection of ServiceNow Quote Experience access control API calls, contact support.
 
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

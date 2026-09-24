@@ -2,7 +2,7 @@
 title: Configure outbound logging
 description: You can configure outbound request logging to log basic, elevated, or all HTTP request and response information for specific domains.Certain elements are logged based on the configured log level.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/outbound-logging-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/outbound-logging-configure.html
 release: australia
 product: Web Services
 classification: web-services
@@ -24,14 +24,14 @@ You can override the log level for all outbound requests using the properties **
 
 You can set the log level in a script using the setLogLevel\(\) function from the SOAPMessageV2 and RESTMessageV2 APIs. For more information about using these APIs, refer to the API documentation.
 
-**Parent Topic:**[Outbound web services: Logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-request-logging.md)
+**Parent Topic:**[Outbound web services: Logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/outbound-request-logging.md)
 
 **Related topics**  
 
 
-[RESTMessageV2 - setLogLevel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md)
+[RESTMessageV2 - setLogLevel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_RESTMessageV2API.md)
 
-[SOAPMessageV2 - setLogLevel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_SOAPMessageV2API.md)
+[SOAPMessageV2 - setLogLevel\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_SOAPMessageV2API.md)
 
 ## Outbound request log levels
 

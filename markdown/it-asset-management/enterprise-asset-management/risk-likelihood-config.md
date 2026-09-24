@@ -2,7 +2,7 @@
 title: Create configuration values for risk likelihood
 description: Use the Risk Likelihood module to create configuration values for the likelihood vector.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/risk-likelihood-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/risk-likelihood-config.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -45,5 +45,5 @@ Role required: sn\_eam.enterprise\_admin
     **Note:** You cannot add or delete any likelihood configuration records after you select **Freeze**. You can however edit the **Label** field in the existing records.
 
 
-**Parent Topic:**[Managing risk in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
+**Parent Topic:**[Managing risk in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 

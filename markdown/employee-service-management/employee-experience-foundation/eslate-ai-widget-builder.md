@@ -2,7 +2,7 @@
 title: AI-powered Widget Builder
 description: Administrators and partners use the AI-powered Widget Builder to generate, clone, and refine Employee Slate widgets. The builder provides natural-language prompts, a visual preview, and direct access to the generated component and server script.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-ai-widget-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-ai-widget-builder.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

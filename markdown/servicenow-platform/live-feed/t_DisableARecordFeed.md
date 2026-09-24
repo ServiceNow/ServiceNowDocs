@@ -2,7 +2,7 @@
 title: Disable a record feed
 description: You can disable Live Feed functionality from the form of any table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_DisableARecordFeed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/t\_DisableARecordFeed.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -33,9 +33,9 @@ Role required: personalize\_dictionary or admin
     **Note:** If the Collaboration feature is activated, you can remove the show Live Feed icon from all form headers. Set the **glide.live\_feed.task\_header\_button** property to **collaboration**.
 
 
-**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_DocumentFeeds.md)
+**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_DocumentFeeds.md)
 
-**Parent Topic:**[Record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_RecordFeeds.md)
+**Parent Topic:**[Record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_RecordFeeds.md)
 
 **Related topics**  
 

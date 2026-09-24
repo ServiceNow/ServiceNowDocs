@@ -2,7 +2,7 @@
 title: Create a campus to appear on the Safe Workplace Dashboard
 description: You can create a campus from existing locations to appear on the Safe Workplace Dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.html
 release: australia
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -68,12 +68,12 @@ You can map an existing campus to an existing location manually and have it appe
 
 As an alternative, you can use Workplace Core to manually create a campus and have it appear on the Safe Workplace Dashboard.
 
--   **[Auto-map a location and create a campus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/autoconfig-safe-wp-dash.md)**  
+-   **[Auto-map a location and create a campus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/autoconfig-safe-wp-dash.md)**  
 Create multiple campuses automatically by mapping them from locations so that they appear on the Safe Workplace Dashboard.
--   **[Manually map a location and campus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/man-create-campus.md)**  
+-   **[Manually map a location and campus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/man-create-campus.md)**  
 Manually map an existing location to an existing campus and site using Campus Locations.
--   **[Manually map a location to a campus \(Workplace Core\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/configure-safe-workplace-dashboard.md)**  
+-   **[Manually map a location to a campus \(Workplace Core\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/configure-safe-workplace-dashboard.md)**  
 Use Workplace Core as an alternative to the Safe Workplace Dashboard to manually map a location to a campus so that it appears on your Safe Workplace Dashboard.
 
-**Parent Topic:**[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)
+**Parent Topic:**[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)
 

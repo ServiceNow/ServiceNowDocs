@@ -2,7 +2,7 @@
 title: Test webhooks manually
 description: For tools including GitLab, Rally, Split.io, Jira, Bitbucket, and Argo CD, you have to test webhooks manually if there is any issue with the connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/test-wehooks-manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/test-wehooks-manually.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -92,7 +92,7 @@ Split.io doesn't provide an option to directly test for webhook connectivity. If
 
     \[Omitted image "test-wh-man-07.png"\] Alt text: Configure ServiceNow DevOps application.
 
-    Check if the ServiceNow DevOps application is configured correctly in Split.io. For details on configuring, see [Enable integration with ServiceNow DevOps in Split tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/enable-integration-servicenow-devops-split.md).
+    Check if the ServiceNow DevOps application is configured correctly in Split.io. For details on configuring, see [Enable integration with ServiceNow DevOps in Split tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/enable-integration-servicenow-devops-split.md).
 
 -   Check if the status of the ServiceNow DevOps application is **Active**.
 
@@ -172,7 +172,7 @@ Role required:
 -   Argo CD: Argo CD admin privileges
 -   DevOps Change: sn\_devops.admin or sn\_devops.tool\_owner
 
-Argo CD doesn't provide an option to directly test for webhook connectivity. To configure webhooks, see [Configure webhooks in Argo CD manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-webhooks-in-argo-cd-manually.md).
+Argo CD doesn't provide an option to directly test for webhook connectivity. To configure webhooks, see [Configure webhooks in Argo CD manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/configure-webhooks-in-argo-cd-manually.md).
 
-**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

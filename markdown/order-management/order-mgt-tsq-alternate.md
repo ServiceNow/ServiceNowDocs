@@ -2,7 +2,7 @@
 title: Alternate proposal for service orders
 description: Learn how you can provide alternate proposals if a service qualification isn't met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-tsq-alternate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-tsq-alternate.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,12 +34,12 @@ Select the Number link to view the alternate proposal. It contains the following
 |Available date|The date on which the alternate proposal will be available.|
 |Order characteristics|The specification characteristics \(in JSON format\) provided as part of the alternate proposal in the response from the inventory system.|
 
-**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-about.md)
+**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-tsq-about.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-order-management.md)
 

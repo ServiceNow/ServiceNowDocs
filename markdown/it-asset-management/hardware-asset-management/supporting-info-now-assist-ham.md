@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Hardware Asset Management \(HAM\)
 description: Get a quick overview of the important information related to the ServiceNow Otto for Hardware Asset Management \(HAM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/supporting-info-now-assist-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/supporting-info-now-assist-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management

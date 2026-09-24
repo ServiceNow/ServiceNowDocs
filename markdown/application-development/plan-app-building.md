@@ -2,7 +2,7 @@
 title: Plan your app before you start building
 description: Planning your application before development ensures scalability, governance, and alignment with organizational goals. Effective planning reduces duplication, helps prevent technical debt, and ensures compliance with ServiceNow best practices. It also helps define clear objectives, timelines, and resource requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/plan-app-building.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/plan-app-building.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,14 +28,14 @@ The key steps in planning are mentioned in the following list.
 
 Plan upfront, use approved development tools, follow governance guidelines, and document your plan for stakeholder review. Planning upfront saves time and ensures a smooth development life cycle.
 
--   **[Design an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/design-an-app.md)**  
+-   **[Design an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/design-an-app.md)**  
 ServiceNow provides a unified design system that improves usability and performance. It supports accessibility standards and ensures a consistent look and feel across the ServiceNow AI Platform.
--   **[Check timelines and SDLC guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/check-timelines-sdlc-best-practices.md)**  
+-   **[Check timelines and SDLC guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/check-timelines-sdlc-best-practices.md)**  
 Engage your platform administrator early to confirm development timelines and follow ServiceNow software development lifecycle \(SDLC\) best practices. Coordinating with your admin ensures that your app development aligns with organizational governance, avoids delays, and uses approved environments and tools.
--   **[Plan data for reuse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/plan-data-reuse.md)**  
+-   **[Plan data for reuse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/plan-data-reuse.md)**  
 Design your data model to support scalability, interoperability, and future reuse across applications on the ServiceNow AI Platform.
--   **[Planning for analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/planning-analytics-analysis.md)**  
+-   **[Planning for analytics and reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/planning-analytics-analysis.md)**  
 Include analytics requirements during the design phase to enable meaningful reporting and insights from the start. Analytics cannot be an afterthought when building on the ServiceNow AI Platform. Defining KPIs and reporting needs during app design ensures that data is captured correctly and supports dashboards, performance metrics, and decision-making.
 
-**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
+**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/overview-building-apps-in-servicenow.md)
 

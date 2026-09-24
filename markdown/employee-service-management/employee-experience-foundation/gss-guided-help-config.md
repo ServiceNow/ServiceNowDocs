@@ -2,7 +2,7 @@
 title: Configure Guided Self-Service
 description: Guided Self-Service \(GSS\) helps create a playbook for all the useful content for employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/gss-guided-help-config.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/gss-guided-help-config.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -137,9 +137,9 @@ Click the **Edit in Process Automation Designer** button to define and publish t
 **Related topics**  
 
 
-[Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md)
+[Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md)
 
-[Associate Guided Self-Service Process to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/associate-gss-guided-process-to-topic.md)
+[Associate Guided Self-Service Process to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/associate-gss-guided-process-to-topic.md)
 
-[Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
+[Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
 

@@ -2,7 +2,7 @@
 title: Add a manually signed contract
 description: As a legal requester, on receiving the signed contract document from the signatories, add the digital version to the legal request record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/upload-contract-document-for-wet-signature.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-contracts/upload-contract-document-for-wet-signature.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -26,7 +26,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**.
 
-    **Note:** If you’re using [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md), you can submit a legal request by navigating to the Employee Center portal and selecting a request from the **Legal services** &gt; **Browse Legal services** menu.
+    **Note:** If you’re using [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-landing-page.md), you can submit a legal request by navigating to the Employee Center portal and selecting a request from the **Legal services** &gt; **Browse Legal services** menu.
 
 2.  Select **My Requests** option in the form context menu.
 
@@ -49,5 +49,5 @@ Role required: sn\_lg\_ops.legal\_user
 
 When the legal request is closed, an email with the final contract document attached is sent to the signatories.
 
-**Parent Topic:**[Non-disclosure agreement requests in Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-request-nda.md)
+**Parent Topic:**[Non-disclosure agreement requests in Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-contracts/legal-request-nda.md)
 

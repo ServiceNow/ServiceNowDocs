@@ -2,7 +2,7 @@
 title: Configure mobile re-authentication for single or multiple use
 description: Define whether each mobile action requires re-authentication. Alternatively, define whether the user can perform multiple actions without the need to re-authenticate each time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-reauthentication-usage-token.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-reauthentication-usage-token.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -60,5 +60,5 @@ Value
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reautentication-concept.md)
+**Parent Topic:**[Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-reautentication-concept.md)
 

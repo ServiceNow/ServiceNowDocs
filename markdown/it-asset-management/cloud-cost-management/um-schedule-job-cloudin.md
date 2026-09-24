@@ -2,7 +2,7 @@
 title: Schedule unused resources to be powered off or terminated
 description: To terminate or power off an unused resource, add it to an Unused resources job, specify whether to terminate or power off, and specify when the job should run. You can also move resources from one scheduled job to a different job.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/um-schedule-job-cloudin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/um-schedule-job-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -130,7 +130,7 @@ This field appears only when the **Approval type** is set to **Auto approval**.
 
 The Unused resources job is created and runs at the scheduled time.
 
-**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md)
+**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/manage-unused-mac.md)
 
 **Related topics**  
 
@@ -139,5 +139,5 @@ The Unused resources job is created and runs at the scheduled time.
 
 [Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_StandardChangeCatalogPlugin.md)
 
-[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
+[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

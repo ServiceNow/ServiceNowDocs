@@ -2,7 +2,7 @@
 title: Configure a user action for the article view page
 description: Configure a user action for the Knowledge Management article view page in the Knowledge Management Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-user-action-on-article-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/config-user-action-on-article-view.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -114,5 +114,5 @@ Redirects the article view page to the latest accessible version of the article,
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

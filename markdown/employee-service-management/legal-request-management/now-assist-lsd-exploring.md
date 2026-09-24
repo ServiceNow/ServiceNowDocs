@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Legal Service Delivery \(LSD\)
 description: ServiceNow Otto for Legal Service Delivery \(LSD\) provides AI-powered summarization for legal requests and matters, and generates actionable answers from knowledge article search results in Employee Center, Legal Counsel Center, and global search.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/now-assist-lsd-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/now-assist-lsd-exploring.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -31,9 +31,9 @@ The ServiceNow Otto for Legal Service Delivery \(LSD\) application generates an 
 
 The summary is displayed above the activity stream and includes the information from the fields and variablesconfigured as inputs.\[Omitted image "lsd-sum-matter-landing.png"\] Alt text: Legal matter summarization
 
-For more information on the fields and variables that are considered for summarization, see [Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-skill-inputs.md) and [Configure variables for AI summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/configure-variables-for-now-assist-summarization.md).
+For more information on the fields and variables that are considered for summarization, see [Skill inputs for ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-skill-inputs.md) and [Configure variables for AI summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/configure-variables-for-now-assist-summarization.md).
 
-For information on activating the Legal Request summarization skill or the Legal Matter summarization skill, see [Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-configuring.md). For information on how to use the skills on Legal Counsel Center, see [Summarize a legal request or matter by using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-summarize-case.md).
+For information on activating the Legal Request summarization skill or the Legal Matter summarization skill, see [Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-configuring.md). For information on how to use the skills on Legal Counsel Center, see [Summarize a legal request or matter by using ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-summarize-case.md).
 
 ## Q&amp;A Genius Results
 
@@ -53,7 +53,7 @@ Instead of completing static forms, legal users can describe the COI details in 
 
 After submission, the system evaluates the COI request to determine risk. Low‑risk requests are auto‑approved, while medium‑ and high‑risk requests are routed for approval.
 
-For more information on COI application and the risk assessment, see [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md) and [Exploring Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/conflict-of-interest-overview.md).
+For more information on COI application and the risk assessment, see [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md) and [Exploring Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-conflict-of-interest/conflict-of-interest-overview.md).
 
 You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
@@ -107,7 +107,7 @@ You need to install the following applications manually:
 -   Legal Counsel Center \(sn\_lg\_cf\_workspace\) - Version 1.5.1 and later
 -   Legal Matter Management \(sn\_lg\_matter\) – Required for Legal Matter summarization
 
-For more information, see [Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-configuring.md).
+For more information, see [Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/now-assist-lsd-configuring.md).
 
 ## Supported user interfaces
 
@@ -149,5 +149,5 @@ Conversational intake
 ServiceNow Otto in Virtual Agent
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-overview.md)
+</table>**Parent Topic:**[Exploring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-request-management-overview.md)
 

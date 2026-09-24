@@ -2,7 +2,7 @@
 title: Add managers to a territory
 description: Add managers and provide access to a territory to manage a territory or manage resources of an assigned territory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/add-managers-to-territory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/add-managers-to-territory.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -29,7 +29,7 @@ You can add different types of managers to a territory:
 -   Territory manager: The territory manager can access and manage all territories.
 -   Resource manager: The resource manager has restricted access only to manage resources and create child territories in the assigned territory.
 
-To understand the difference between the manager types and their access rights, see [Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/using-territory-planning-console.md) and [Field Service Territory Planning components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/territory-planning-components-fsm.md).
+To understand the difference between the manager types and their access rights, see [Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/using-territory-planning-console.md) and [Field Service Territory Planning components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/territory-planning-components-fsm.md).
 
 ## Procedure
 

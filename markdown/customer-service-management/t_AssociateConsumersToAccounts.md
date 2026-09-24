@@ -2,7 +2,7 @@
 title: Associate an account with consumers
 description: Enable customer service managers to identify the end consumers who are using products or services and track customer information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_AssociateConsumersToAccounts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_AssociateConsumersToAccounts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

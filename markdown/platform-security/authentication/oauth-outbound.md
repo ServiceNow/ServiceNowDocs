@@ -2,7 +2,7 @@
 title: OAuth Outbound
 description: OAuth outbound enables you to pull data from a third-party provider to your instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/oauth-outbound.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/oauth-outbound.html
 release: australia
 product: Authentication
 classification: authentication
@@ -20,8 +20,8 @@ You must have the security\_admin role to manage the OAuth integration.
 
 You can configure outbound OAuth 2.0 for the following grant types:
 
--   **Connect to third-party provider**: Use the client ID and secret to send it to the OAuth provider. For more information, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/connect-3rd-party-oauth-provider.md).
--   **JWT Bearer**: An authorization server validates a JWT token which enables identity and security information to be shared across security domains. For more information, see [Set up OAuth provider with JWT Bearer grant type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md).
+-   **Connect to third-party provider**: Use the client ID and secret to send it to the OAuth provider. For more information, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/connect-3rd-party-oauth-provider.md).
+-   **JWT Bearer**: An authorization server validates a JWT token which enables identity and security information to be shared across security domains. For more information, see [Set up OAuth provider with JWT Bearer grant type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/JWT-Bearer-token-support.md).
 -   **SAML2 Bearer**: Generates the SAML2 assertion and then exchanges the assertion for the access tokens wit the provider.
 
     **Note:** For outbound request to SuccessFactors use the **SAML2 Bearer** as the Default Grant Type. To know more about how to configure **SAML2 Bearer**, refer the example in [Set up the v4.x.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-successfactors.md).

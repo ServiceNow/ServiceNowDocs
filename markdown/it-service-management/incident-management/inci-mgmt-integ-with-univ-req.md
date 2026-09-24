@@ -2,7 +2,7 @@
 title: Universal Request integration - Incident Management
 description: Incident Management integrates with Universal Request to provide incident-related service as unified services to users. The integration helps users to have a single service desk.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -54,20 +54,20 @@ If any incident is a part of Universal Request, then the notifications sent to t
 
 For an Universal Request record that has an incident-related as its primary task, an Actions widget with the requester actions is displayed. The actions can be **Resolve**, **Reopen**, or **Close** depending on the state of the incident.
 
--   **[Request Universal Request integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/request-univ-req-integration-for-im.md)**  
+-   **[Request Universal Request integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/request-univ-req-integration-for-im.md)**  
 To activate the integration between Incident Management and Universal Request, request the Universal Request: Integration for Incident management plugin \(com.snc.incident.universal\_request\) through the Now Support Customer Service system. This plugin includes demo data and activates related plugins if they are not already active.
--   **[Create incident from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-incident-from-univ-req.md)**  
+-   **[Create incident from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-incident-from-univ-req.md)**  
 Create an incident from a universal request record to restore service to a customer as soon as possible. After creating the incident record, you can investigate potential solutions.
--   **[Transfer incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/route-inci-to-univ-req.md)**  
+-   **[Transfer incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/route-inci-to-univ-req.md)**  
 Transfer the back to the Universal Request queue, or to another department with or without resolution. When you realise that the issue is not incident related, transfer the incident without any resolution to the relevant department or service. If you resolve the issue, you can transfer the incident with the resolution.
--   **[Create an associated ticket from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-associated-tickets.md)**  
+-   **[Create an associated ticket from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-associated-tickets.md)**  
 Create an associated ticket for another relevant department from an incident \(primary ticket\) when you realize that the issue can be resolved in that department.
--   **[Resolve, reopen, or close incident associated with universal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/resolve-reopen-close-inc-sp.md)**  
+-   **[Resolve, reopen, or close incident associated with universal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/resolve-reopen-close-inc-sp.md)**  
 Resolve, reopen, or close are actions from the **Incident Actions** widget that is available on the universal request record for the requester. The **Incident Actions** widget is available only when an incident is the primary task of a Universal Request record.
--   **[Customize fields copied from Universal Request to incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/customize-fields-copied-univ-inc.md)**  
+-   **[Customize fields copied from Universal Request to incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/customize-fields-copied-univ-inc.md)**  
 Customize fields so that the values of some fields in the universal request automatically get copied to an incident record when an incident is associated with a universal request record. It saves your time from manually entering the information every time you create an incident.
--   **[Restrict an incident access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/restrict-incident-access.md)**  
+-   **[Restrict an incident access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/restrict-incident-access.md)**  
 You can restrict an incident ticket that contains sensitive information. By marking an incident as restricted, you limit its access for the agents.
 
-**Parent Topic:**[Incident Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/inci-mgmt-integrations.md)
+**Parent Topic:**[Incident Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/inci-mgmt-integrations.md)
 

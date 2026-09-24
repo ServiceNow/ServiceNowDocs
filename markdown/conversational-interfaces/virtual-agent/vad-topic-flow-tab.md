@@ -2,7 +2,7 @@
 title: Topic Flow tab
 description: Use the topic Flow tab to build the conversation flow. Use the controls for user inputs, bot responses, and utilities to define the flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/vad-topic-flow-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/vad-topic-flow-tab.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +21,7 @@ Use the topic **Flow** tab to build the conversation flow. Use the controls for 
 
 \[Omitted image "DesignerTextNodeCalloutSections-2.png"\] Alt text: View of Virtual Agent Designer topic Flow tab with 10 callouts highlighted. For the text description, see the table that follows.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 <table id="table_njp_rgk_zhb"><thead><tr><th>
 
@@ -47,11 +47,11 @@ Tabs to navigate between your design and the Asset library. You can open and nev
 
 Tabs and design options for your topic: -   Tabs: Each tab provides a different view for working on your conversation.
     -   **Flow**: Displays the canvas for building your conversation flow.
-    -   [Topic NLU Intent tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-nlu-intent-tab.md) \(NLU topics only\)
-    -   [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md)
-    -   [Topic Languages tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-languages-tab.md) \(available if multiple languages are configured for Virtual Agent\).
+    -   [Topic NLU Intent tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-nlu-intent-tab.md) \(NLU topics only\)
+    -   [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md)
+    -   [Topic Languages tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-languages-tab.md) \(available if multiple languages are configured for Virtual Agent\).
 
-For more information, see [Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md).
+For more information, see [Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/localize-va-topic.md).
 
 -   **Table View**: Option that displays a table view of the nodes in the conversation flow. You can use this option to switch between table view and diagram view as you design your conversation.
 -   **Active/Inactive**: Option that changes the design state so that it's active \(available to users\) or inactive \(in development and not available to users\). Select it to see the following options:
@@ -78,9 +78,9 @@ If you add a node, then close the topic before saving or publishing, the node di
 
 Collapsible sidebar with Components and Variables tabs.The Components tab shows a list of controls that you can drag onto the canvas to build a conversation. The following types of controls are available:
 
--   [User Input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md): Controls used to prompt and capture information from the user in a conversation. When ServiceNow Otto is enabled and you're working with a large language model \(LLM\) topic, the LLM User Input section indicates which controls are LLM compatible.
--   [Bot Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md): Controls for showing virtual agent responses in a conversation.
--   [Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md): Controls for performing actions within a topic, such as running a script, adding different conversation paths \(branches\) in a topic, or adding topic blocks.
+-   [User Input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md): Controls used to prompt and capture information from the user in a conversation. When ServiceNow Otto is enabled and you're working with a large language model \(LLM\) topic, the LLM User Input section indicates which controls are LLM compatible.
+-   [Bot Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-bot-responses.md): Controls for showing virtual agent responses in a conversation.
+-   [Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-utilities.md): Controls for performing actions within a topic, such as running a script, adding different conversation paths \(branches\) in a topic, or adding topic blocks.
 
 The Variables tab includes inputs and scripts.\[Omitted image "variables-tab.png"\] Alt text: Variables tab showing Input and Scripts in topic being viewed in Assistant Designer Asset library.
 
@@ -131,7 +131,7 @@ Input or output item on the canvas created by dragging a control from the Compon
 
 </td><td>
 
-Properties specific to the selected node on the canvas. The list of properties changes based on the node you select. Each node has its own set of properties that you can define, which can include scripts that control the behavior or processing that is performed in the node. If NLU is enabled, the property sheets for Input controls contain additional NLU fields. For further information, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md)
+Properties specific to the selected node on the canvas. The list of properties changes based on the node you select. Each node has its own set of properties that you can define, which can include scripts that control the behavior or processing that is performed in the node. If NLU is enabled, the property sheets for Input controls contain additional NLU fields. For further information, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-controls.md)
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Opens the property sheet view for the currently selected node on the canvas.
 
 </td><td>
 
-Opens the Validation Issues view, showing the number of issues in the topic needing correction before the topic can be published. This tab appears when you try to publish an incomplete topic, and disappears when all issues are resolved. For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
+Opens the Validation Issues view, showing the number of issues in the topic needing correction before the topic can be published. This tab appears when you try to publish an incomplete topic, and disappears when all issues are resolved. For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 </td></tr><tr><td>
 
@@ -237,5 +237,5 @@ Point to the incomplete message to see a tooltip that describes what is missing.
 
 \[Omitted image "vad-flow-tab-missing-properties-tooltip.png"\] Alt text: Virtual Agent Designer properties, with incomplete message selected to show missing items in the node.
 
-**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-reference.md)
 

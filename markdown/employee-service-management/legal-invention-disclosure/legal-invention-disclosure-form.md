@@ -2,7 +2,7 @@
 title: Legal Invention Disclosure form
 description: List of fields in the Legal Invention Disclosure request in the Legal Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-invention-disclosure/legal-invention-disclosure-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-invention-disclosure/legal-invention-disclosure-form.html
 release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -91,5 +91,5 @@ Indicates whether the invention is already used anywhere. If the choice is **Yes
 -   **Specify the name of the product** - Name of the product where the invention is used.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Invention Disclosure reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/legal-invention-disclosure-reference.md)
+</table>**Parent Topic:**[Legal Invention Disclosure reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-invention-disclosure/legal-invention-disclosure-reference.md)
 

@@ -2,7 +2,7 @@
 title: Enable static translation
 description: Enable static translation of notifications for the global application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/enable-static-translation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/enable-static-translation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +42,7 @@ Role required: admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Static translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/static-translation.md)
+**Parent Topic:**[Static translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/static-translation.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Roles installed with Public Sector Digital Services
 description: The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, and establish different types of relationships between users. These roles control access to public sector data through UI-based features such as forms and lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/roles-installed-with-public-sector-digital-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/roles-installed-with-public-sector-digital-services.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -2729,7 +2729,7 @@ Provides users the access to view reports on the Service Applicant Information p
 None
 
 </td></tr></tbody>
-</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under Business Stakeholder for Customer Service Management.
+</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/business-stakeholder-for-csm.md).
 
-**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
+**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/installed-with-public-sector-digital-services-core.md)
 

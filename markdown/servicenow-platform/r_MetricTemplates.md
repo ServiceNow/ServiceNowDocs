@@ -2,7 +2,7 @@
 title: Metric templates
 description: Metric templates define reusable rating scales for evaluating non-scripted metrics.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_MetricTemplates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/r\_MetricTemplates.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -28,12 +28,12 @@ Metric templates are available for metrics that have **Template** as the Data ty
 |Quality|Very Poor, Poor, Average, Good, Very Good|
 |Complexity|Very Complex, Complex, Moderate, Simple, Very Simple|
 
-**Parent Topic:**[Create a metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetricTemplate.md)
+**Parent Topic:**[Create a metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAMetricTemplate.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md)
 
-[Create an assessment metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetricDefinition.md)
+[Create an assessment metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateAMetricDefinition.md)
 

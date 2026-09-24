@@ -2,7 +2,7 @@
 title: Create assessment template from Assessment Workspace
 description: You can create smart assessment templates and add instructions, questions, and reference information by using the template designer in the Smart Assessment Engine application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-assessment-template-from-assessment-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/create-assessment-template-from-assessment-workspace.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -45,5 +45,5 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 Configure the user criteria to restrict the reassignment of assessments from one contact to another within the organization.
 
-**Parent Topic:**[Configure smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-smart-assessments.md)
+**Parent Topic:**[Configure smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configure-smart-assessments.md)
 

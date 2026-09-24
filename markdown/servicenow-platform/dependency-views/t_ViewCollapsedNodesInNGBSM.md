@@ -2,7 +2,7 @@
 title: View collapsed nodes in a Dependency Views map
 description: Cluster and virtually grouped nodes can be displayed in a collapsed mode to avoid unnecessary clutter in large maps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_ViewCollapsedNodesInNGBSM.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/dependency-views/t\_ViewCollapsedNodesInNGBSM.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -27,7 +27,7 @@ Role required: None
 2.  To collapse an expanded cluster node with children, right-click the CI and select **Collapse** from the context menu.
 
 
-**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 

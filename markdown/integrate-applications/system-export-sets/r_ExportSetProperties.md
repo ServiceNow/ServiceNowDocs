@@ -2,7 +2,7 @@
 title: Export Set properties
 description: Multiple properties control export set behavior.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/r\_ExportSetProperties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-export-sets/r\_ExportSetProperties.html
 release: australia
 product: System Export Sets
 classification: system-export-sets

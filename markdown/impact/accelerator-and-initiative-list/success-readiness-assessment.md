@@ -2,7 +2,7 @@
 title: Success Readiness Assessment \(SRA\)
 description: This Accelerator measures readiness and platform maturity of your ServiceNow platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/success-readiness-assessment.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/success-readiness-assessment.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

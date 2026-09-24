@@ -2,7 +2,7 @@
 title: Find a facilities request
 description: Facilities administrators can locate and manage requests from the Requests tab within the workbench.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_FindFacilitesRequest.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_FindFacilitesRequest.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: facilities admin
 
 2.  To help narrow your search results, you can select the campus, building, and floor number for your search.
 
-    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
+    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
 
     \[Omitted image "CampusFloorSelection.png"\] Alt text: Campus and floor selection
 
@@ -73,5 +73,5 @@ Select **Assigned to me** check box.
     |**To see the location on the floor plan**|Click the pin \( \[Omitted image "PinIcon.png"\] Alt text: Pin icon that shows a location on floor plan.\) icon.|
 
 
-**Parent Topic:**[Facilities Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesWorkbench.md)
+**Parent Topic:**[Facilities Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesWorkbench.md)
 

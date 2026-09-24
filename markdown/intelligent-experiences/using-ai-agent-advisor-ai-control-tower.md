@@ -2,7 +2,7 @@
 title: AI Agent Advisor in AI Control Tower
 description: View your top automation opportunities from AI Agent Advisor as actionable recommendations in AI Control Tower.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/using-ai-agent-advisor-ai-control-tower.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/using-ai-agent-advisor-ai-control-tower.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-17"
@@ -19,9 +19,9 @@ The integration with AI Control Tower activates automatically on installation of
 
 Select the recommendation to open the Automation details page in AI Admin Center, where you can set up and deploy an AI agent to automate the solution.
 
-For more information, see [Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-recommendations-ai-insights.md).
+For more information, see [Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-recommendations-ai-insights.md).
 
-**Parent Topic:**[Using AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ai-agent-advisor.md)
+**Parent Topic:**[Using AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-ai-agent-advisor.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Set up outbound connections
 description: Outbound connections enable ServiceNow to send data to, read data from, or trigger actions in external systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/set-up-outbound-connections.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/set-up-outbound-connections.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Click the **Connections and Credentials** tab.
 
-3.  You can [create a new external system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connecthub-create-external-systems.md).
+3.  You can [create a new external system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connecthub-create-external-systems.md).
 
 4.  Click **Create** and select **Outbound Connection**.
 

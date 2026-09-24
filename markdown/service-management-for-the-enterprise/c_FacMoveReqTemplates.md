@@ -2,7 +2,7 @@
 title: Facilities move request templates
 description: The facilities staff adds templates to the facilities catalog, so users can select from subcategories for their request type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_FacMoveReqTemplates.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_FacMoveReqTemplates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,5 +14,5 @@ breadcrumb: [Facilities move management, Facilities Service Management overview,
 
 The facilities staff adds templates to the facilities catalog, so users can select from subcategories for their request type.
 
-**Parent Topic:**[Facilities move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacMoveMgmt.md)
+**Parent Topic:**[Facilities move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacMoveMgmt.md)
 

@@ -2,7 +2,7 @@
 title: Configure SLA retroactive start and pause
 description: You can use retroactive start to retain timing information for an SLA when a task record changes. Retroactive pause prevents immediate breaches and notifications when retroactive start is enabled for SLA definitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_UseSLARetroactiveStartAndPause.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/t\_UseSLARetroactiveStartAndPause.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -53,5 +53,5 @@ You can use the retroactive pause property to apply pause times to the new SLA.
 
 When retroactive start is enabled, it may result in task SLAs being breached as soon as they attach, which will trigger multiple notifications. To prevent a workflow from being processed for these breached SLAs, set the **com.snc.sla.workflow.run\_for\_breached** property to `false`. To prevent a flow from being processed for these breached SLAs, set the **com.snc.sla.flow.run\_for\_breached** property to `false`.
 
-**Parent Topic:**[Configuring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/configuring-service-level-management.md)
+**Parent Topic:**[Configuring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/configuring-service-level-management.md)
 

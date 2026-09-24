@@ -2,7 +2,7 @@
 title: Archive rules in the Industrial Connected Workforce
 description: Archiving rules in the Industrial Connected Workforce \(ICW\) helps maintain system efficiency by automatically managing outdated records. These rules verify that only relevant and current data remains active.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/archive-rules-icw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/archive-rules-icw.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,5 +34,5 @@ These archiving rules support data hygiene and system usability by making sure t
 
 For more information on archive rules, see [Create an archive rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md).
 
-**Parent Topic:**[Configuring ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configuring-icw-core.md)
+**Parent Topic:**[Configuring ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/configuring-icw-core.md)
 

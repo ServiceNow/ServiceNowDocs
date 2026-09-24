@@ -2,7 +2,7 @@
 title: Base system procurement case type reference
 description: Procurement Case Management provides 13 base system case types that classify procurement work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/base-system-procurement-case-types.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/base-system-procurement-case-types.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -224,7 +224,7 @@ Obtain a copy of an existing supplier contract for reference.
 Employee submits the **Request a copy of contract** catalog item in the Service Catalog or Employee Center. The system links the case to the relevant contract record and populates the case description with the contract number.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
+</table>**Parent Topic:**[Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
 
 **Related topics**  
 
@@ -251,5 +251,5 @@ Employee submits the **Request a copy of contract** catalog item in the Service 
 
 [Address deletion permissions]()
 
-[Procurement case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/procurement-case-types.md)
+[Procurement case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/procurement-case-types.md)
 

@@ -2,7 +2,7 @@
 title: Configure visualization interactions
 description: Select what happens when a viewer interacts with a section of a data visualization that you are editing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-go-data.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configure-go-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +39,7 @@ You can configure chart interactions only in the Visualization Designer or the i
     -   Go to URL
     -   Drill down to chart \(available from within the Visualization Designer\): Lets you add multiple layers of visualizations to drill down to from each metric in the visualization.
     -   Apply as filter \(available only when editing within a dashboard\)
-    The interactions are described in [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md).
+    The interactions are described in [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-chart-interactions.md).
 
     \[Omitted image "chart-int-go-data-view.png"\] Alt text: Chart interaction section of data visualization configuration panel with available actions.
 
@@ -67,5 +67,5 @@ Consider a horizontal bar data visualization of the number of incidents on the I
     \[Omitted image "dv-c2c-incident-by-priority-gif.gif"\] Alt text: Drilling down from parent visualization to child and navigating back up to parent.
 
 
-**Parent Topic:**[Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md)
+**Parent Topic:**[Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-chart-interactions.md)
 

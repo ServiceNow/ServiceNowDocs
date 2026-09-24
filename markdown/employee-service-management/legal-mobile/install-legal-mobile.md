@@ -2,7 +2,7 @@
 title: Install Legal Mobile
 description: You can install the Legal Mobile application \(sn\_lg\_mobile\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed. This app makes Legal Service Delivery applications available on Now Mobile and Mobile Agent mobile apps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/install-legal-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-mobile/install-legal-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile

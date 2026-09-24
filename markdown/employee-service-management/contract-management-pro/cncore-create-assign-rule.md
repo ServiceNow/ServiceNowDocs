@@ -2,7 +2,7 @@
 title: Modify assignment rule for contract requests
 description: As a contracts configurator modify the assignment rule available in the base system for any changes required in the user or group to whom the contract request should be assigned.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-create-assign-rule.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-create-assign-rule.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -98,7 +98,7 @@ User group to which the contract request is assigned.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Managing Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
+**Parent Topic:**[Managing Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
 
 **Related topics**  
 

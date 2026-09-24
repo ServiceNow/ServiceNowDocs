@@ -2,7 +2,7 @@
 title: Discovery Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discovery-content-pack.html
 release: australia
 product: Discovery
 classification: discovery

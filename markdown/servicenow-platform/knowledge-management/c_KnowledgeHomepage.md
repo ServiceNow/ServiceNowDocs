@@ -2,7 +2,7 @@
 title: Using the homepage of Knowledge Management v3
 description: The Knowledge Management v3 homepage displays knowledge articles organized by knowledge base and category, as well as featured content and popular articles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/c\_KnowledgeHomepage.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/c\_KnowledgeHomepage.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -22,9 +22,9 @@ To view the default knowledge homepage, navigate to **Self-Service** &gt; **Know
 
 -   The knowledge homepage is not compatible with Internet Explorer 9 or earlier. Using one of these browsers will cause you to be redirected to the legacy knowledge portal.
 
--   The Knowledge v3 home page is not customizable. Use the [Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management-service-portal.md) for an easily configurable user experience.
+-   The Knowledge v3 home page is not customizable. Use the [Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-management-service-portal.md) for an easily configurable user experience.
 
--   Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
+-   Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 
 If you access knowledge from a service management application, the knowledge homepage for the associate application opens.
@@ -37,10 +37,10 @@ From the homepage, you can import a Word document to a knowledge base by clickin
 
 You can also create a new article using the **Create An Article** button.
 
--   [Import a Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_ImportADocument.md)
--   [Create a knowledge article from an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
+-   [Import a Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_ImportADocument.md)
+-   [Create a knowledge article from an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-knowledge-article.md)
 
-**Note:** You must have contribute access to at least one active knowledge base, otherwise these buttons do not appear. See [Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_KnowledgeManager.md).
+**Note:** You must have contribute access to at least one active knowledge base, otherwise these buttons do not appear. See [Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/c_KnowledgeManager.md).
 
 You can select a knowledge base to browse articles within that knowledge base. You can view only knowledge bases you can access.
 
@@ -58,19 +58,19 @@ For new customers on New York and later releases, comments can only be viewed in
 
 An administrator can configure the knowledge homepage to display the number of articles within each category. This count includes articles from subcategories. To display the article count, set the **glide.knowman.show\_number\_on\_categories** property to `true`.
 
--   **[Search using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeSearch.md)**  
+-   **[Search using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeSearch.md)**  
 Search for knowledge articles from the knowledge homepage using the search bar on the Knowledge Management v3 homepage.
--   **[Import a Word document to a knowledge base using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_ImportADocument.md)**  
+-   **[Import a Word document to a knowledge base using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_ImportADocument.md)**  
 Import a Microsoft Word document using Knowledge Management v3 homepage to create a knowledge article.
 
-**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/using-knowledge-management.md)
 
 **Related topics**  
 
 
-[Define a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md)
+[Define a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md)
 
-[Import a Word document to a knowledge base using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_ImportADocument.md)
+[Import a Word document to a knowledge base using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/t_ImportADocument.md)
 
-[Import a Word document to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/import-word-platform.md)
+[Import a Word document to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/import-word-platform.md)
 

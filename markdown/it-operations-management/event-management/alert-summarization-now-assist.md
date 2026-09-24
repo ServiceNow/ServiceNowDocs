@@ -2,7 +2,7 @@
 title: View an alert analysis by ServiceNow Otto in Service Operations Workspace
 description: View an alert analysis by ServiceNow Otto for an alert on the alert's Overview tab in the Service Operations Workspace. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-summarization-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/alert-summarization-now-assist.html
 release: australia
 product: Event Management
 classification: event-management
@@ -19,7 +19,7 @@ View an alert analysis by ServiceNow Otto for an alert on the alert's Overview t
 
 ## Before you begin
 
-Install the ServiceNow Otto for ITOM plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+Install the ServiceNow Otto for ITOM plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
 
 **Note:** Currently, ServiceNow Otto for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, Automated, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
 

@@ -2,7 +2,7 @@
 title: Change Management integration with Software Asset Management
 description: The Change Management integration with Software Asset Management \(SAM\) displays the projected licensing cost implication of a change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-mgmt-integ-wth-SAM.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-mgmt-integ-wth-SAM.html
 release: australia
 product: Change Management
 classification: change-management
@@ -28,12 +28,12 @@ The License change projection form section displays the license projection chang
 
 For a more detailed breakdown of the license change projections, a related list can be added to the Change Request form called **CI Projection Summary**. This related list provides a CI-by-CI breakdown of the license change projection summary information and provides easy access to the Software Asset Management CI Project Summary record and additional data.
 
-**Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-mgmt-integrations.md)
+**Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-mgmt-integrations.md)
 
 **Related topics**  
 
 
 [Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ProposedChanges.md)
 
-[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/bulk-ci-change.md)
+[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/bulk-ci-change.md)
 

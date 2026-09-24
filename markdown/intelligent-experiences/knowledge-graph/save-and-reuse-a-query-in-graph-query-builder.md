@@ -2,7 +2,7 @@
 title: Save and reuse a query in Graph Query Builder
 description: Save and share a successfully run query to load and rerun it later in Graph Query Builder
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/save-and-reuse-a-query-in-graph-query-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/save-and-reuse-a-query-in-graph-query-builder.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

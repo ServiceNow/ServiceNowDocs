@@ -2,7 +2,7 @@
 title: Configure the CSDM Data Foundations dashboard
 description: Use the CSDM Data Foundations dashboard to monitor and evaluate key foundational metrics of the CSDM framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-foundations-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/csdm-foundations-dashboard.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -18,7 +18,7 @@ Use the CSDM Data Foundations dashboard to monitor and evaluate key foundational
 
 ## Before you begin
 
-For an introduction to the dashboard, see [CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md).
+For an introduction to the dashboard, see [CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md).
 
 -   Before you use the dashboard for the first time, populate the CSDM metrics: Navigate to **All** &gt; **System Scheduler** &gt; **Scheduled Jobs** and run the **CSDM Get Well Metric Collection** job.
 -   The CSDM Data Foundations dashboard adds the following scheduled jobs that must be running:
@@ -40,7 +40,7 @@ For an introduction to the dashboard, see [CSDM Data Foundations dashboard](http
     Note the percentages and color-coding in the **Result** column for each metric.
 
     -   If the percentage is 100%, the CSDM framework has the information it needs. No other action is needed.
-    -   Otherwise, required information is missing and additional actions are required. Continue with [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-foundations-dashboard.md).
+    -   Otherwise, required information is missing and additional actions are required. Continue with [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-foundations-dashboard.md).
     Note the metrics on the **Foundation** tab:
 
     -   **Named Product Models with Product Owners**
@@ -97,5 +97,5 @@ For an introduction to the dashboard, see [CSDM Data Foundations dashboard](http
 
 The key foundational metric results are available for you to review and analyze.
 
-**Parent Topic:**[Configuring CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/configure-csdm.md)
+**Parent Topic:**[Configuring CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/configure-csdm.md)
 

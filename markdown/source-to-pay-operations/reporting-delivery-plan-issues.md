@@ -2,7 +2,7 @@
 title: Reporting delivery plan issues
 description: Submit a request in the Supplier Collaboration Portal to create a delivery plan change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/reporting-delivery-plan-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/reporting-delivery-plan-issues.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,12 +22,12 @@ You can create a delivery plan change in one of the following ways:
 -   You can use **Raise a request** option from the Supplier Collaboration Portal header.
 -   You can use **Raise a request** option directly from a purchase order line in Supplier Collaboration Portal.
 
--   **[Raise a delivery plan change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/raise-delivery-plan-chg-req.md)**  
+-   **[Raise a delivery plan change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/raise-delivery-plan-chg-req.md)**  
 Submit a request in the Supplier Collaboration Portal header to create a purchase order exception.
--   **[Submit a delivery plan change request from a purchase order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/submit-del-plan-chg-from-po-line.md)**  
+-   **[Submit a delivery plan change request from a purchase order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/submit-del-plan-chg-from-po-line.md)**  
 Submit a delivery plan change request directly from a purchase order line in the Supplier Collaboration Portal.
 
-**Parent Topic:**[Use Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/use-purch-order-mgmt.md)
+**Parent Topic:**[Use Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/use-purch-order-mgmt.md)
 
 **Related topics**  
 
@@ -38,7 +38,7 @@ Submit a delivery plan change request directly from a purchase order line in the
 
 [Managing purchase order confirmations]()
 
-[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
+[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/explore-purch-order-mgmt.md)
 
-[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/resolving-purchase-order-exceptions.md)
 

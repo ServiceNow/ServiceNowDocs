@@ -2,7 +2,7 @@
 title: Assign roles and responsibilities to recovery teams
 description: Assign individuals and groups to the recovery team so they understand their roles and responsibilities during a crisis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/roles-responsibility-bcp-recovery-team.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/roles-responsibility-bcp-recovery-team.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
 The business continuity planning workspace helps you complete your plan by creating recovery teams, defining roles and responsibilities, assigning members, and directing plan execution.
 
-Starting with release 12.x.x, recovery teams are created and managed at a global level so you can reuse them across plans and events. Create the recovery team first, and then add it to the plan. For more information, see [Create and manage a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recovery-team.md).
+Starting with release 12.x.x, recovery teams are created and managed at a global level so you can reuse them across plans and events. Create the recovery team first, and then add it to the plan. For more information, see [Create and manage a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-recovery-team.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Starting with release 12.x.x, recovery teams are created and managed at a global
 
 6.  To add an existing recovery team to the plan, click **Add**.
 
-    Select one or more active recovery teams from the global list and confirm the selection. If the team you need doesn't exist yet, see [Create and manage a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recovery-team.md) to create it, including its users, groups, and parent-child relationships, before adding it here.
+    Select one or more active recovery teams from the global list and confirm the selection. If the team you need doesn't exist yet, see [Create and manage a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-recovery-team.md) to create it, including its users, groups, and parent-child relationships, before adding it here.
 
 7.  Click **Submit**.
 

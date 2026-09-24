@@ -2,7 +2,7 @@
 title: Linear asset support
 description: Linear asset support in Field Service Management enables you to complete any essential task, such as maintenance activities or repairs, necessary for the optimal functioning of linear assets.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/linear-asset-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/linear-asset-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,9 +29,9 @@ Linear asset support provides the following benefits:
 **Related topics**  
 
 
-[Activate linear assets support in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/activate-linear-assets.md)
+[Activate linear assets support in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/activate-linear-assets.md)
 
-[Assign work orders for linear assets in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/managing-linear-assets-fsm.md)
+[Assign work orders for linear assets in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/managing-linear-assets-fsm.md)
 
-[Linear assets on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/working-on-linear-asset-wot.md)
+[Linear assets on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/working-on-linear-asset-wot.md)
 

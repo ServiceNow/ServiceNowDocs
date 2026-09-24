@@ -2,7 +2,7 @@
 title: Mapping specific mobile screens for universal linking
 description: Configure universal links for screen mapping so a user is redirected to a previously styled record screen or list screen. Use this option to provide a customized experience for the user.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/universal-linking-screen-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/universal-linking-screen-mapping.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-When creating universal links, you define the screen type and the data the user sees after they tap the mobile banner. See, [Create path segment records and supported URL records for universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-web-banner.md). Also there is an option to create a screen mapping for universal links. Users click these links to see a preconfigured screen based on a defined table.
+When creating universal links, you define the screen type and the data the user sees after they tap the mobile banner. See, [Create path segment records and supported URL records for universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/universal-linking-web-banner.md). Also there is an option to create a screen mapping for universal links. Users click these links to see a preconfigured screen based on a defined table.
 
 **Note:** Universal linking mapping does not apply to browser screens, as there are no options for styling and configuring a web page.
 
@@ -54,7 +54,7 @@ Mobile app
 
 </td><td>
 
-Use the reference lookup icon to select which mobile app the links navigate to.**Note:** The selection here is overridden by the selection made in the **Mobile app** field listed in the topic [Create path segment records and supported URL records for universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-web-banner.md).
+Use the reference lookup icon to select which mobile app the links navigate to.**Note:** The selection here is overridden by the selection made in the **Mobile app** field listed in the topic [Create path segment records and supported URL records for universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/universal-linking-web-banner.md).
 
 </td></tr><tr><td>
 
@@ -84,5 +84,5 @@ Use the reference lookup icon to select a preconfigured record screen that is as
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Mobile universal linking for supported URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-support-urls.md)
+**Parent Topic:**[Mobile universal linking for supported URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/universal-linking-support-urls.md)
 

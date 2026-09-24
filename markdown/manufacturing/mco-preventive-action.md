@@ -2,7 +2,7 @@
 title: Create a preventive action
 description: Create a preventive action for product quality issue case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-preventive-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-preventive-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ Role required: admin
 
 3.  On the Preventive Action form, fill in the fields.
 
-    For a description of the field values, see [Preventive action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-preventive-action-form.md).
+    For a description of the field values, see [Preventive action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-preventive-action-form.md).
 
 4.  Select **Save**.
 
@@ -35,7 +35,7 @@ Role required: admin
 **Related topics**  
 
 
-[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-copq-expense-line.md)
+[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-copq-expense-line.md)
 
-[Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-impacted-asset-action.md)
+[Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-impacted-asset-action.md)
 

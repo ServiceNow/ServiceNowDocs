@@ -2,7 +2,7 @@
 title: Use forms to limit or extend the query response
 description: On occasion, there is a need to limit the number of field values that a SOAP query returns.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/using-forms-limit-extend-query-resp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/using-forms-limit-extend-query-resp.html
 release: australia
 product: Web Services
 classification: web-services
@@ -30,7 +30,7 @@ https://<instance name>.service-now.com/incident.do?SOAP&sysparm_view=ess
 
 By default, if a specified view name does not exist, the response contains all fields.
 
-**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md)
+**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_DirectWebServices.md)
 
 **Related topics**  
 

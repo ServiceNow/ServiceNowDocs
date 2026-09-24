@@ -2,7 +2,7 @@
 title: Configure Sales Forecasting
 description: Use the Sales Forecasting application to project your future sales volumes and revenue based data from opportunities and pipeline analysis.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-sales-forecasting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-sales-forecasting.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -63,7 +63,7 @@ com.snc\_app\_l2c\_oppty\_mgmt
 **Related topics**  
 
 
-[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-sales-forecasting.md)
 
-[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-forecasting.md)
 

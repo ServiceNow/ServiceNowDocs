@@ -2,7 +2,7 @@
 title: GoTo Spoke
 description: The GoTo spoke provides actions to view and analyze meaningful usage data for GoTo software subscriptions. Analyze usage for GoToMeeting, GoToWebinar, and GoToConnect to determine which licenses are stale so that you can reclaim these licenses and realize your potential savings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/goto-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/goto-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -70,5 +70,5 @@ The GoTo spoke provides actions to automate GoTo tasks when events occur in your
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see [Set up the GoTo spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-goto.md).
+For information about setting up the spoke, see [Set up the GoTo spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-goto.md).
 

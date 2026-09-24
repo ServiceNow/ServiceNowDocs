@@ -2,7 +2,7 @@
 title: ATF troubleshooting agent design considerations
 description: Leverage the full potential of ATF troubleshooting agent by following these design considerations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-troubleshooting-agent-exceptions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automated-test-framework-atf/atf-troubleshooting-agent-exceptions.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf

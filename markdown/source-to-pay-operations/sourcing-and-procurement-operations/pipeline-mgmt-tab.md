@@ -2,7 +2,7 @@
 title: Pipeline management tab
 description: The Pipeline management tab enables you to get insights into savings and pipeline projects, improving visibility, tracking, and collaboration across teams.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-mgmt-tab.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-mgmt-tab.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -129,7 +129,7 @@ Single score
 
 Displays the total hard savings from closed and completed pipeline projects assigned to the logged-in user, where the savings end date is greater than or equal to the current year.**Note:** The My Savings section displays the savings scores calculated from the annualized data entered on the pipeline object.
 
-For more information about how the Hard Savings YTD metric is calculated, see [Hard Savings YTD metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-hard-savings-ytd.md).
+For more information about how the Hard Savings YTD metric is calculated, see [Hard Savings YTD metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-hard-savings-ytd.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Single score
 
 </td><td>
 
-Sum of all the Cost avoidance on the Closed Completed pipeline projects assigned to the logged in user, where the savings end date is greater than or equal to the current year.For more information about how the Cost Avoidance YTD metric is calculated, see [Cost Avoidance YTD metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-cost-avoidance-ytd.md).
+Sum of all the Cost avoidance on the Closed Completed pipeline projects assigned to the logged in user, where the savings end date is greater than or equal to the current year.For more information about how the Cost Avoidance YTD metric is calculated, see [Cost Avoidance YTD metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-cost-avoidance-ytd.md).
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Single score
 
 </td><td>
 
-Total estimated savings \(estimated hard savings + estimated cost avoidance\) from planned pipeline projects assigned to the logged-in user, where the estimated end date falls within the current year.For more information about how the Planned Savings \(Current Year\) metric is calculated, see [Planned Savings \(Current Year\) metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-planned-savings-current-year.md).
+Total estimated savings \(estimated hard savings + estimated cost avoidance\) from planned pipeline projects assigned to the logged-in user, where the estimated end date falls within the current year.For more information about how the Planned Savings \(Current Year\) metric is calculated, see [Planned Savings \(Current Year\) metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-planned-savings-current-year.md).
 
 </td></tr><tr><td>
 
@@ -165,17 +165,17 @@ Single score
 
 </td><td>
 
-Displays the total estimated savings \(estimated hard savings + estimated cost avoidance\) from in-progress pipeline projects assigned to the logged-in user, where the estimated end date falls within the current year.For more information about how the Active Savings \(Current Year\) metric is calculated, see [Active Savings \(Current Year\) metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-active-savings-current-year.md).
+Displays the total estimated savings \(estimated hard savings + estimated cost avoidance\) from in-progress pipeline projects assigned to the logged-in user, where the estimated end date falls within the current year.For more information about how the Active Savings \(Current Year\) metric is calculated, see [Active Savings \(Current Year\) metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-active-savings-current-year.md).
 
 </td></tr></tbody>
-</table>-   **[Hard Savings YTD metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-hard-savings-ytd.md)**  
+</table>-   **[Hard Savings YTD metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-hard-savings-ytd.md)**  
 **Hard Savings YTD** \(Year-to-Date\) shows the total realized savings from pipeline projects that were closed and completed within the current calendar year. These are confirmed, negotiated savings — not estimates or projections.
--   **[Cost Avoidance YTD metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-cost-avoidance-ytd.md)**  
+-   **[Cost Avoidance YTD metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-cost-avoidance-ytd.md)**  
 **Cost Avoidance YTD** measures the costs that were prevented through pipeline projects during the current calendar year. Unlike hard savings, which reflect a direct reduction in spend, cost avoidance captures expenditures that were not incurred.
--   **[Planned Savings \(Current Year\) metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-planned-savings-current-year.md)**  
+-   **[Planned Savings \(Current Year\) metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-planned-savings-current-year.md)**  
 **Planned Savings \(Current Year\)** shows the projected savings from pipeline projects in **Planned** state—projects approved and scheduled but not yet started. This metric uses the **Targeted savings** field to represent future savings goals.
--   **[Active Savings \(Current Year\) metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-active-savings-current-year.md)**  
+-   **[Active Savings \(Current Year\) metric calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-active-savings-current-year.md)**  
 **Active Savings \(Current Year\)** shows the targeted savings from pipeline projects that are currently in progress. This metric represents in-flight work where final realized savings are not yet known.
 
-**Parent Topic:**[Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-sourcing-pipeline-mgmt.md)
+**Parent Topic:**[Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-sourcing-pipeline-mgmt.md)
 

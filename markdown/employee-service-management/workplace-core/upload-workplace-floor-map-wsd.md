@@ -2,7 +2,7 @@
 title: Upload a workplace floor plan
 description: Upload Drawing eXchange Format \(.dxf\) files of floor plans that you can configure and use to reserve space for your employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/upload-workplace-floor-map-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-core/upload-workplace-floor-map-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -18,7 +18,7 @@ Upload Drawing eXchange Format \(.dxf\) files of floor plans that you can config
 
 ## Before you begin
 
-Use workplace floor maps to find and reserve a space within Workplace Core. To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-admin.md).
+Use workplace floor maps to find and reserve a space within Workplace Core. To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-mappedin-admin.md).
 
 To avoid issues while rendering your floor plan, verify that the dxf.json attachment size is 5 MB or smaller. To view the size, download the dxf.json file and view the file properties. If the file size is larger than 5 MB, you can:
 
@@ -187,5 +187,5 @@ Determines the order of processing for your AutoCAD tag to Space Field mapping.*
 
 A new floor record is created with the floor plan attached to it. The Spaces related list is populated with all the workspaces of this floor.
 
-**Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md)
+**Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md)
 

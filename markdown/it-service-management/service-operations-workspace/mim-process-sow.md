@@ -2,7 +2,7 @@
 title: Major Incident Management process in Service Operations Workspace
 description: A major incident has a high impact and urgency that affects a large number of users and deprives the business of one or more crucial services. Given the urgency of the situation, a well-coordinated response process is required to accelerate the resolution and minimize the business impact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/mim-process-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/mim-process-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -42,7 +42,7 @@ The Major Incident Management process can be classified in the following phases.
 
     You can define one or more communication plans based on the communication type, the priority of the incident, and the target audience of the major incident. Throughout the life cycle of the major incident, notifications and status updates are sent to the stakeholders to keep them informed and involved.
 
-    Along with communications, effective collaboration with IT teams and other business stakeholders is also important when resolving a major incident. You can use communication channels, such as Microsoft Teams conference calls, to collaborate and work toward issue resolution. The Incident record page in Service Operations Workspace provides various controls for collaboration. For more information, see [Collaborate with stakeholders during a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.md).
+    Along with communications, effective collaboration with IT teams and other business stakeholders is also important when resolving a major incident. You can use communication channels, such as Microsoft Teams conference calls, to collaborate and work toward issue resolution. The Incident record page in Service Operations Workspace provides various controls for collaboration. For more information, see [Collaborate with stakeholders during a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.md).
 
 -   **Resolution**
 
@@ -57,5 +57,5 @@ The Major Incident Management process can be classified in the following phases.
     The final phase of a major incident life cycle is generating a post incident report \(PIR\). After the major incident is resolved, a PIR is generated. You can use a PIR to analyze the incident and understand how to help prevent a similar incident in the future. This review also provides an opportunity to evaluate the incident response process and identify areas for improvement. The report contains the timeline of events that occurred after an incident is created. You can review and update the PIR during the review process before it’s shared with stakeholders.
 
 
-**Parent Topic:**[Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/mim-in-sow.md)
+**Parent Topic:**[Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/mim-in-sow.md)
 

@@ -2,7 +2,7 @@
 title: Exploring Agent Client Collector Monitoring
 description: Agent Client Collector Monitoring is built on a Sensu framework which enables you to adopt and extend monitoring checks from the community. Agent Client Collector Monitoring collects data on your company’s infrastructure and installed applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/exploring-agent-client-collector-monitoring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/exploring-agent-client-collector-monitoring.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,11 +18,11 @@ Agent Client Collector Monitoring is built on a Sensu framework which enables yo
 
 ## Agent Client Collector Monitoring overview
 
-Checks and policies run on the agent’s client to retrieve the relevant data, which is transformed into events or metrics, as appropriate. Events and metrics are sent from the agent to your ServiceNow instance through a Metric Intelligence MID Server and are stored in the relevant database. A single MID Server can support multiple agents \(such as ACC-M and ACC-L\). For details on configuring the MID Server for Metric Intelligence, see [MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md).
+Checks and policies run on the agent’s client to retrieve the relevant data, which is transformed into events or metrics, as appropriate. Events and metrics are sent from the agent to your ServiceNow instance through a Metric Intelligence MID Server and are stored in the relevant database. A single MID Server can support multiple agents \(such as ACC-M and ACC-L\). For details on configuring the MID Server for Metric Intelligence, see [MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md).
 
 Agent Client Collector Monitoring comes with the Event Management plugin and also requires installing the request Metricbase \(Clotho DB\), as described in [How to request Metricbase \(Clotho DB\) configuration \(KB0816088\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0816088).
 
-For details on the plugins installed with Agent Client Collector Monitoring, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-app-itom-health.md).
+For details on the plugins installed with Agent Client Collector Monitoring, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/plugin-app-itom-health.md).
 
 ## Agent Client Collector Monitoring workflow
 
@@ -34,7 +34,7 @@ The following illustration describes the layout and data flow within the Agent C
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Monitor logs which track events occurring in a Windows environment|[Windows event log monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/windows-event-log-monitoring.md)|Agent Client Collector administrator|
-|Monitor operating systems and applications|[Operating system and application monitoring using Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/itom-monitoring-for-acc.md)|Agent Client Collector administrator|
-|Gather metrics on host data|[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/operational-metrics.md)|Agent Client Collector administrator|
+|Monitor logs which track events occurring in a Windows environment|[Windows event log monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/windows-event-log-monitoring.md)|Agent Client Collector administrator|
+|Monitor operating systems and applications|[Operating system and application monitoring using Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/itom-monitoring-for-acc.md)|Agent Client Collector administrator|
+|Gather metrics on host data|[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/operational-metrics.md)|Agent Client Collector administrator|
 

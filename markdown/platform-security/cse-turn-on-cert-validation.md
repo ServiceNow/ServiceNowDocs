@@ -2,7 +2,7 @@
 title: Turn on certificate validation
 description: Protect your instance with certificate based validation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/cse-turn-on-cert-validation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cse-turn-on-cert-validation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,7 +62,7 @@ Role required:
 
 16. On the **Export Configuration** file page, select **Export** to create and download a configuration file used to turn on Code Signing on your protected instance.
 
-    The export process downloads an XML file to your local machine for use in the steps detailed in [Configure Code Signing Enterprise on your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cse-ppi-config.md).
+    The export process downloads an XML file to your local machine for use in the steps detailed in [Configure Code Signing Enterprise on your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cse-ppi-config.md).
 
 17. On your protected instance, navigate to **All** &gt; **System Update Sets** &gt; **Retrieved Update Sets**.
 

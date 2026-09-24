@@ -2,7 +2,7 @@
 title: Multi-factor Authentication context
 description: The Multi-factor Authentication \(MFA\) policy context uses a policy to define how and when MFA is enforced during the login process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-auth-context.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-auth-context.html
 release: australia
 product: Authentication
 classification: authentication
@@ -99,5 +99,5 @@ This example shows an MFA context record configured using a step-up MFA policy. 
 
 ## MFA factor policies
 
-MFA factor policies are a critical component of an organization's security posture, enabling you to enforce additional verification steps beyond passwords. These policies define the authentication methods that users must employ to access providing a flexible and customizable approach to authentication. For more information, see [Multi-Factor Authentication factor policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-factor-policies.md).
+MFA factor policies are a critical component of an organization's security posture, enabling you to enforce additional verification steps beyond passwords. These policies define the authentication methods that users must employ to access providing a flexible and customizable approach to authentication. For more information, see [Multi-Factor Authentication factor policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-factor-policies.md).
 

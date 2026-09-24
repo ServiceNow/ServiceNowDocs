@@ -2,7 +2,7 @@
 title: Data catalog roles
 description: Assign roles to specify what different users can see and do.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-catalog-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/data-catalog-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -75,5 +75,5 @@ Searches and views catalog assets, explores relationships and lineage, and conne
 sn\_nowassist\_wdf.creator\_admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data catalog reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog-reference.md)
+</table>**Parent Topic:**[Data catalog reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-catalog-reference.md)
 

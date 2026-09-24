@@ -2,7 +2,7 @@
 title: Use response templates in Service Request Playbook
 description: Respond to cases by using the response templates in the contextual side panel in CRM Workspace. Good templates save you time by eliminating repetitive work.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/use-response-templates-psds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/use-response-templates-psds.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

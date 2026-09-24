@@ -2,7 +2,7 @@
 title: Customize overlay time series on the floor map
 description: Update the decision table to configure the time duration option on the floor map. You can view the operational data of the datacenters for a selected time range as overlay on the floor map in the Telecommunications Network Inventory application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/customize-overlay-time-series-floor-map.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/customize-overlay-time-series-floor-map.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -85,5 +85,5 @@ In the Time Duration Value section, edit the time duration for the overlay that 
 
 Customized time duration options are available on the floor map.
 
-**Parent Topic:**[Configuring overlays on floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)
+**Parent Topic:**[Configuring overlays on floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)
 

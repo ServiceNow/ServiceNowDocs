@@ -2,7 +2,7 @@
 title: Manage approvals from Microsoft Teams
 description: Manage Concur expense approvals using Virtual Agent actionable notifications in Microsoft Teams to resolve the approval directly in the Virtual Agent conversation without involving a live agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/va-concur-ec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/va-concur-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -45,15 +45,15 @@ Role required: approver\_user
 
     **Note:** You cannot accept or reject a report if the assigned approver has been modified or the report has been updated or closed.
 
-<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d242680e175">
+<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d242684e175">
 
 Decision
 
-</th><th align="left" id="d242680e178">
+</th><th align="left" id="d242684e178">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d242680e184">
+</th></tr></thead><tbody><tr><td id="d242684e184">
 
 **Approve the report**
 
@@ -61,7 +61,7 @@ Action
 
 Select **Approve**.
 
-</td></tr><tr><td id="d242680e196">
+</td></tr><tr><td id="d242684e196">
 
 **Reject the report**
 
@@ -73,9 +73,9 @@ Select **Approve**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
-**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Add a datacenter to a cloud account
 description: At any time, you can add a logical datacenter to the cloud infrastructure that is represented by a cloud account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-datacntr-to-cloud-acct.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/add-datacntr-to-cloud-acct.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

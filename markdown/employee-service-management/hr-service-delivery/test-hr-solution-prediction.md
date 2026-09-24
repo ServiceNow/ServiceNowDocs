@@ -2,7 +2,7 @@
 title: Test an HR solution prediction
 description: Test the solution prediction by sending emails to the general email address for HR requests. Verify that the corresponding HR cases are automatically categorized to the appropriate HR service.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/test-hr-solution-prediction.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/test-hr-solution-prediction.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,7 +2,7 @@
 title: Define the new Risk Score Calculator Rules
 description: Use the new Risk Score Calculator to define and calculate the risk score of security incidents based on the user-defined criteria, which provide a transparent intelligence scoring of security incidents. The risk score is auto-calculated for the security incident records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/define-risk-score-calculator-rules-sir.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/define-risk-score-calculator-rules-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +29,7 @@ Define a risk score for the security incident records that are generated based o
 **Note:**
 
 -   By default, the new Risk Score Calculator Rule is inactive, and you need to enable the rule to see the risk score of the security incidents.
--   To calculate the risk score for additional related tables other than those available in the base system, refer to [Risk Score Calculator for Additional Related Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/risk-score-calculator-related-tables.md).
+-   To calculate the risk score for additional related tables other than those available in the base system, refer to [Risk Score Calculator for Additional Related Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/risk-score-calculator-related-tables.md).
 
 ## Procedure
 
@@ -160,10 +160,10 @@ Use this option to add, edit, or remove, and enable and disable criteria that co
 10. Select **Save**.
 
 
--   **[Risk Score Calculator for Additional Related Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/risk-score-calculator-related-tables.md)**  
+-   **[Risk Score Calculator for Additional Related Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/risk-score-calculator-related-tables.md)**  
 The Risk Score Calculator is provisioned with one risk-scoring rule as part of the base system to calculate the risk score of security incidents based on user-defined criteria. However, you can customize and include additional related tables to calculate the risk score.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

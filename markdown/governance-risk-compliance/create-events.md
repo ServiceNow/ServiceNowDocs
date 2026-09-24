@@ -2,7 +2,7 @@
 title: Create an event for the scenario
 description: Create an event in the Operational Resilience application so that you can associate it with a scenario and assess its impact on your services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-events.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-events.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ If you have the sn\_oper\_res.admin role, you can create an event in the Operati
 
 5.  In the **Event group** field, select an event group.
 
-    For a description of the field values in the form, see [Event record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/event-reference.md).
+    For a description of the field values in the form, see [Event record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/event-reference.md).
 
     **Note:** You can add an event to many scenarios, but you can add an event to a scenario only once.
 

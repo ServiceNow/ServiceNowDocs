@@ -2,7 +2,7 @@
 title: Verify agent functionality
 description: Verify that an agent is running properly by performing a self-test on the agent. If one or more of the tests fail, you can diagnose the agent problem and view a potential resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/verify-agent-functionality.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/verify-agent-functionality.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

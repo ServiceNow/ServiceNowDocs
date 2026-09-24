@@ -2,7 +2,7 @@
 title: Cancel a privacy assessment request
 description: Cancel a privacy assessment request if it is no longer necessary.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-privacy/cancel-privacy-assessment-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-simple-privacy/cancel-privacy-assessment-request.html
 release: australia
 product: Legal Simple Privacy
 classification: legal-simple-privacy
@@ -41,7 +41,7 @@ Role required: sn\_lg\_ops.legal\_user
     Any associated active flows are terminated. Any pending approval record is also canceled and a comment is posted in the Additional Comments section of the approval record.
 
 
-**Parent Topic:**[Privacy assessment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-privacy/privacy-assessment-requests.md)
+**Parent Topic:**[Privacy assessment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-simple-privacy/privacy-assessment-requests.md)
 
 **Related topics**  
 

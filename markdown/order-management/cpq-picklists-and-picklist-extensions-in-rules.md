@@ -2,7 +2,7 @@
 title: Picklists and picklist extensions in rules
 description: Learn how to use picklist extensions \(PLEs\) effectively in rules. Understand how filtering, inclusion, and exclusion interact, and apply correct operators like equals and contains for single- and multi-select picklists to ensure accurate rule behavior in advanced configurations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-picklists-and-picklist-extensions-in-rules.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-picklists-and-picklist-extensions-in-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +22,7 @@ Picklist extensions \(PLEs\) are a powerful way for administrators to display as
 -   Do not use inclusion rules for PLEs. PLE filtering works like inclusion rules, so in order to remove further options, the user should use exclusion rules.
 -   **Contains** and **Equals** act differently on multi-select picklists. `Array.includes()` and `==` also act differently.
 
-For information about rules, including inclusion and exclusion rules, see [Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rules_101.md).
+For information about rules, including inclusion and exclusion rules, see [Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/rules_101.md).
 
 ## Simple rules
 
@@ -95,9 +95,9 @@ For other manipulations with the multi-select picklist array in advanced functio
 
 ## Additional reading
 
-For an overview of the picklist extension feature, see [Picklist extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-picklist-extensions-ples.md).
+For an overview of the picklist extension feature, see [Picklist extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-picklist-extensions-ples.md).
 
-For a deeper understanding of the back end and how to display PLEs, see [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md).
+For a deeper understanding of the back end and how to display PLEs, see [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md).
 
-For an overview of the Picklist Extension Pricing enrichment feature, see [The Picklist Extension Pricing enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/picklist-extension-pricing-scripts.md).
+For an overview of the Picklist Extension Pricing enrichment feature, see [The Picklist Extension Pricing enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/picklist-extension-pricing-scripts.md).
 

@@ -2,12 +2,12 @@
 title: Controlling AI asset usage in AI Control Tower
 description: Create AI asset usage policies that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-26"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -19,23 +19,23 @@ Create AI asset usage policies that automatically respond to detected AI threats
 
 <table id="table_pol_landing_get_started" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how policies respond to AI threats or block AI usage.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how policies respond to AI threats or block AI usage.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up control enforcement points.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up control enforcement points.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-configuring.md)
 
 </td><td>
 
-[Manage policies\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Create and manage Threat Response and Explicit Block policies.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-managing-policies.md)
+[Manage policies\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Create and manage Threat Response and Explicit Block policies.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-managing-policies.md)
 
 </td></tr><tr><td>
 
-[Review enforcement activity\[Omitted image "bus-discover.svg"\] Alt text:Review and audit policy activity.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
+[Review enforcement activity\[Omitted image "bus-discover.svg"\] Alt text:Review and audit policy activity.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Details on threat categories and where policies are enforced.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Details on threat categories and where policies are enforced.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reference.md)
 
 </td><td>
 
@@ -59,5 +59,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

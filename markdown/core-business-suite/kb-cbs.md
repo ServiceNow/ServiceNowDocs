@@ -2,7 +2,7 @@
 title: Knowledge Base in Core Business Suite
 description: The Knowledge module in Core Business Suite enables you to adjust settings for the default knowledge bases. It enables importing articles to support cross-functional knowledge sharing across business units in Core Business Suite.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/core-business-suite/kb-cbs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/kb-cbs.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-28"
@@ -39,8 +39,8 @@ You can edit the permissions both at a product-level and at a business unit-leve
 
 For more information on editing permissions, see
 
--   [Edit permissions for CBS Knowledge Authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-perm-kb-auth.md)
--   [Edit permissions for CBS Knowledge Readers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-perm-kb-read.md)
+-   [Edit permissions for CBS Knowledge Authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-perm-kb-auth.md)
+-   [Edit permissions for CBS Knowledge Readers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-perm-kb-read.md)
 
 ## AI skills for Knowledge management
 
@@ -87,16 +87,16 @@ Merge duplicate articles
 Recommendation to merge similar articles to keep Knowledge organized.
 
 </td></tr></tbody>
-</table>-   **[Edit Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/edit-kb-cbs.md)**  
+</table>-   **[Edit Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/edit-kb-cbs.md)**  
 Edit knowledge base settings to configure workflows, ownership, and management for Core Business Suite knowledge bases.
--   **[Import Knowledge Base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/import-kb-cbs.md)**  
+-   **[Import Knowledge Base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/import-kb-cbs.md)**  
 Import Knowledge Base articles from Word documents to populate your Core Business Suite knowledge bases with existing content.
--   **[Create a Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/create-kb-cbs.md)**  
+-   **[Create a Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/create-kb-cbs.md)**  
 Knowledge bases are created in Knowledge Center and can be created at a business unit level or at a product level in the Core Business Suite.
--   **[Edit permissions for CBS Knowledge Authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-perm-kb-auth.md)**  
+-   **[Edit permissions for CBS Knowledge Authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-perm-kb-auth.md)**  
 Edit the Can Contribute user criteria to add knowledge authors and editors in Core Business Suite.
--   **[Edit permissions for CBS Knowledge Readers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-perm-kb-read.md)**  
+-   **[Edit permissions for CBS Knowledge Readers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-perm-kb-read.md)**  
 Edit the Can Read user criteria to add knowledge readers in Core Business Suite.
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

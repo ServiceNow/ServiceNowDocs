@@ -2,7 +2,7 @@
 title: Run the entity onboarding job for SAP Concur
 description: Run the specified scheduled job to get new entities that may have been added in Concur. Running this job ensures that the entity mapping table is updated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/run-entity-onboarding-job-for-concur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/run-entity-onboarding-job-for-concur.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,5 +27,5 @@ Role required: admin
 3.  Select **Execute Now**.
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-concur.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg-with-concur.md)
 

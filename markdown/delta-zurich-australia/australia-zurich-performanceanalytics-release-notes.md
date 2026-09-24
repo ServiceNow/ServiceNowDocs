@@ -2,11 +2,11 @@
 title: Combined Performance Analytics release notes for upgrades from Zurich to Australia
 description: Consolidated page of all release notes for Performance Analytics from Zurich to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-performanceanalytics-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-performanceanalytics-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
-reading_time_minutes: 4
+last_updated: "2026-09-24"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -118,6 +118,31 @@ Australia
 
 If you have Australia Patch 3 or later, the Data snapshots plugin is installed automatically if you have RaptorDB Professional. If your instance is also domain separated, the Data snapshots feature is installed but disabled.
 
+
+ -   **[Explore native data snapshots indicators with KPI Details](https://www.servicenow.com/docs/access?context=kpi-details-targets&family=australia&ft:locale=en-US)**
+
+KPI Details supports data snapshots indicators that you create, not only those that are enabled from classic indicators. The following features have been created for or extended to native data snapshots indicators:
+
+    -   Subscriptions for alerts on targets and thresholds, which can be set from the targets and thresholds panels
+    -   Adjustable filtering by breakdown, calendar, or time series aggregation
+    -   Hierarchical breakdowns, with scores rolled up to parent elements
+    -   Customizable score formatting options, such as precision and abbreviation
+-   **[View data trends in data snapshots as data accumulates](https://www.servicenow.com/docs/access?context=create-ds-automated-indicator&family=australia&ft:locale=en-US)**
+
+When you select a field by which to trend a data snapshots automated indicator, you have the option to show the trend for incomplete collection periods. This feature shows the trend as it develops for live data without having to wait for the end of the collection period. You can set this behavior either on the automated data snapshot indicator record or in a time series data visualization for a data snapshot indicator.
+
+-   **[Collect data snapshots scores with confidence](https://www.servicenow.com/docs/access?context=tables-unlimited-breakdowns&family=australia&ft:locale=en-US)**
+
+Data mining for data snapshots scores has the following improvements:
+
+    -   Collect scores for tables with any volume of records.
+    -   The system accurately and automatically handles data gaps when data mining is turned off.
+    -   You are warned of the implications before you manually disable data mining \(score collection\).
+-   **[Activate data snapshots in more cases and with better information](https://www.servicenow.com/docs/access?context=activate-unlimited-breakdowns&family=australia&ft:locale=en-US)**
+    -   Activate indicators without active data collector jobs.
+    -   Activate indicators regardless of underlying record volume. For example, the `INSERT_VOLUME_EXCEEDED` error no longer occurs.
+    -   If the activation fails because of scripted breakdowns, the scripted breakdowns are listed in the failure message.
+    -   Generic parsing errors have been rewritten into specific, categorized messages.
 
 </td></tr></tbody>
 </table>## Removed
@@ -378,5 +403,5 @@ Australia
  See [Performance Analytics \(Indicator data sources\)](https://www.servicenow.com/docs/access?context=pa-overview&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)
 

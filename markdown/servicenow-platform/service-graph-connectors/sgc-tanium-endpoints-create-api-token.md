@@ -2,7 +2,7 @@
 title: Create an API token
 description: Create an API token to be used by the Service Graph Connector for Tanium Endpoints.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-create-api-token.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-create-api-token.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

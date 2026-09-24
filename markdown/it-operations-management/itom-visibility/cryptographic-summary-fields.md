@@ -2,7 +2,7 @@
 title: Cryptographic summary fields
 description: The fields displayed in the Cryptographic summary of an asset vary by asset type.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/cryptographic-summary-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/cryptographic-summary-fields.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility

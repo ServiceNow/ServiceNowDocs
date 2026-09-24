@@ -2,7 +2,7 @@
 title: Create a safety case from Health and Safety Workspace
 description: Begin the resolution process by creating cases based on questions received from employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-case-management/hs-create-safety-case-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-case-management/hs-create-safety-case-workspace.html
 release: australia
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -32,7 +32,7 @@ Role required: sn\_hs\_cm.case\_manager, sn\_hs\_cm.case\_writer, or sn\_hs\_cm.
 
 5.  On the form, fill in the fields.
 
-    For information about safety case form fields, see [Health and Safety case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-case-form.md).
+    For information about safety case form fields, see [Health and Safety case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-case-form.md).
 
 6.  If it's a return to work case, enter details related to the employee's return to work after an injury or illness in the **Return to work details** section.
 
@@ -50,7 +50,7 @@ Role required: sn\_hs\_cm.case\_manager, sn\_hs\_cm.case\_writer, or sn\_hs\_cm.
 
 ## What to do next
 
-As a safety case manager, you can assign the case to yourself and start working on it. You can also assign it to another safety agent. For more information, see [Work on a Health and Safety case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md).
+As a safety case manager, you can assign the case to yourself and start working on it. You can also assign it to another safety agent. For more information, see [Work on a Health and Safety case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md).
 
-**Parent Topic:**[Submitting Health and Safety cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-submitting-health-safety-cases.md)
+**Parent Topic:**[Submitting Health and Safety cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-case-management/hs-submitting-health-safety-cases.md)
 

@@ -2,7 +2,7 @@
 title: Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
 description: Technology Lifecycle Management helps Enterprise Architects to track technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-tpm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-tpm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,11 +32,11 @@ Creating an inventory of all technologies used in the enterprise helps to:
 -   Plan to retire them just like the applications they support, at a definite date
 -   Support upgrade processes
 
-By default, the data for the software products are populated from the Computer \(CMDB\_CI\_Computer\), Docker Container \(CMDB\_CI\_Docker\_Container\), and Serverless Hardwares \(CMDB\_CI\_Serverless\_Hardware\) tables and all similar instances. To include other CMDB tables that contain software products, update the system property **sn\_apm\_tpm.configurationItemsWithSoftwareInstalls**. For information on how to update the system property, see [Update the system property to gather software products from a CMDB table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md).
+By default, the data for the software products are populated from the Computer \(CMDB\_CI\_Computer\), Docker Container \(CMDB\_CI\_Docker\_Container\), and Serverless Hardwares \(CMDB\_CI\_Serverless\_Hardware\) tables and all similar instances. To include other CMDB tables that contain software products, update the system property **sn\_apm\_tpm.configurationItemsWithSoftwareInstalls**. For information on how to update the system property, see [Update the system property to gather software products from a CMDB table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md).
 
 ## Installing the Technology Lifecycle Management plugin
 
-For instructions to install Technology Lifecycle Management, see [Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md).
+For instructions to install Technology Lifecycle Management, see [Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-install-tpm.md).
 
 **Important:** Technology Lifecycle Management \(TLM\) fetches the hardware life-cycle data for your enterprise. To fetch the software life-cycle data, you must activate the Software Asset Management \(SAM\) Professional plugin. Before installing the SAM Foundation plugin, carefully review the [Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation.
 
@@ -65,7 +65,7 @@ The following is the technology discovery and alignment process for business app
     \[Omitted image "eaw-tpm-serv-con-item-asso.png"\] Alt text: Service Configuration Item Associations
 
 -   For each computer identified in the Service Configuration Item Associations \[svc\_ci\_assoc\] table, you can see the installed software by selecting the Software Installations tab. Also, if a Hardware Model is associated with the computer, you can see the Hardware type details in the TLM Discovered Technologies tab.
--   For each software install, you can see the associated discovery model. The software discovery models must be of a product type Licensable or Unknown and they must be normalized or manually normalized to get any appropriate information. You can also also use the **sn\_apm\_tpm.softwareDiscoveryModelProductFilterForTPMsystem** property to gather data on non-licensable software products. For information see, [Filter software results using an encoded query in TLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/use-tpm-encoded-query.md).
+-   For each software install, you can see the associated discovery model. The software discovery models must be of a product type Licensable or Unknown and they must be normalized or manually normalized to get any appropriate information. You can also also use the **sn\_apm\_tpm.softwareDiscoveryModelProductFilterForTPMsystem** property to gather data on non-licensable software products. For information see, [Filter software results using an encoded query in TLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/use-tpm-encoded-query.md).
 -   For each discovery model, create a TLM Discovered Technology record.
 -   When you create a record for the TLM Discovered Technology, it triggers the creation of an associated TLM Technology Lifecycles record and it fetches the lifecycle information for the hardware or software technology. An unique TLM lifecycle record identifier is also generated. On selecting the record identifier, more information on the TLM lifecycle record is displayed.
 
@@ -73,7 +73,7 @@ The following is the technology discovery and alignment process for business app
 
     **Note:**
 
-    -   TLM lifecycle record identifiers are automatically generated on creating a TLM record using the Technology Lifecycle Management \(sn\_apm\_tpm\) plugin version 1.9.0. However, for TLM lifecycle records generated using previous versions of the TLM plugin don't have any lifecycle record identifiers. The TLM record identifiers of these TLM lifecycle records must be generated using the Populate Number field in **TPM Discovered Technologies** job. For information, see [Run a scheduled job to populate Technology Lifecycle Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md).
+    -   TLM lifecycle record identifiers are automatically generated on creating a TLM record using the Technology Lifecycle Management \(sn\_apm\_tpm\) plugin version 1.9.0. However, for TLM lifecycle records generated using previous versions of the TLM plugin don't have any lifecycle record identifiers. The TLM record identifiers of these TLM lifecycle records must be generated using the Populate Number field in **TPM Discovered Technologies** job. For information, see [Run a scheduled job to populate Technology Lifecycle Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md).
 
     -   You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
@@ -98,7 +98,7 @@ Hardware requires the Hardware Model reference on the Computer be populated.
 
 ## Update TLM Data for a business application or application service
 
-You can manually refresh the TLM life-cycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Life-cycles** is also run on schedule or on-demand to update the life-cycle data for all business applications and application services​​. For more details, see [Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md) and [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
+You can manually refresh the TLM life-cycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Life-cycles** is also run on schedule or on-demand to update the life-cycle data for all business applications and application services​​. For more details, see [Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/update-tpm-data.md) and [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
 
 ## View insights for technology life-cycle risks
 
@@ -110,7 +110,7 @@ You can track the technology lifecycle risk for business applications, applicati
 
     The data in the Technology lifecycle risks table is fetched from the TLM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\] table.
 
--   Execute the Populate Technology Lifecycle Risks scheduled job to generate the TLM technology lifecycle risks. This scheduled job populates the risk scores for business applications \(BA\), application services \(AS\), software products, and hardware models. The scores are calculated for a fiscal period of type month in the Technology lifecycle risks \(sn\_apm\_tpm\_technology\_risk\) table. For more details, see [Schedule a job to generate TLM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md).
+-   Execute the Populate Technology Lifecycle Risks scheduled job to generate the TLM technology lifecycle risks. This scheduled job populates the risk scores for business applications \(BA\), application services \(AS\), software products, and hardware models. The scores are calculated for a fiscal period of type month in the Technology lifecycle risks \(sn\_apm\_tpm\_technology\_risk\) table. For more details, see [Schedule a job to generate TLM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md).
 
 ## View TLM analysis run logs
 
@@ -120,29 +120,29 @@ You can track the progress of TLM analysis by examining the TPM Discovered Techn
 
 For the Technology Lifecycle Management \(TLM\), the business applications and their related application services \(associated hardware models and software products\) are displayed in a hierarchical structure. The corresponding timelines of the application services are displayed as bars on the Gantt chart.
 
-The application services \(composed of software products and hardware models\) have lifecycle timelines determined for them. On the Gantt chart, the earliest TLM phase start date of either the software products or hardware models are rolled up. This calculates the TLM phase start date of the overall application service. That is, the earliest TLM phase start date of any software product or hardware model is taken as the TLM phase start date of the application service, overall. For more details, see [TLM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.md) and [View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md).
+The application services \(composed of software products and hardware models\) have lifecycle timelines determined for them. On the Gantt chart, the earliest TLM phase start date of either the software products or hardware models are rolled up. This calculates the TLM phase start date of the overall application service. That is, the earliest TLM phase start date of any software product or hardware model is taken as the TLM phase start date of the application service, overall. For more details, see [TLM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.md) and [View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md).
 
 \[Omitted image "TPM-gantt-chart.png"\] Alt text: TLM Gantt chart
 
 ## Data visualization for TLM data
 
-In the Enterprise Architecture Workspace Dashboard, the 'Top 10 business applications with normalized TLM risk' widget shows the top 10 business applications having normalized TLM risk. For more details, see [Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-workspace-dashboard.md).
+In the Enterprise Architecture Workspace Dashboard, the 'Top 10 business applications with normalized TLM risk' widget shows the top 10 business applications having normalized TLM risk. For more details, see [Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-workspace-dashboard.md).
 
--   **[Technology risk calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-technology-risk-calc.md)**  
+-   **[Technology risk calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-technology-risk-calc.md)**  
 Assess the technology risks of your business applications by calculating their risks. Technology risks are calculated at the hardware model and software product levels to determine the risk at the business application level.
--   **[Technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)**  
+-   **[Technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)**  
 The  **Technology portfolio audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist.
 
-**Parent Topic:**[Exploring Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-technology-portfolio-view.md)
+**Parent Topic:**[Exploring Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-technology-portfolio-view.md)
 
 **Related topics**  
 
 
-[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
+[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-tpm.md)
 
-[Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
+[Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
 
-[TLM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.md)
+[TLM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.md)
 
-[View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
+[View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
 

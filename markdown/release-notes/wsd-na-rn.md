@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Workplace Service Delivery \(WSD\) release notes
 description: The ServiceNow ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/wsd-na-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/wsd-na-rn.html
 release: australia
 topic_type: topic
 last_updated: "2025-04-16"
@@ -31,7 +31,7 @@ See [ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubu
     Install ServiceNow Otto for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/employee-service-management-rn-landing.md)
+**Parent Topic:**[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/employee-service-management-rn-landing.md)
 
 ## August 2026
 
@@ -41,7 +41,7 @@ The ServiceNow® ServiceNow Otto for Workplace Service Delivery \(WSD\) applicat
 
 -   **[Now Assist &gt; ServiceNow Otto announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 ## Australia General Availability
@@ -50,5 +50,5 @@ The ServiceNow® ServiceNow Otto for Workplace Service Delivery \(WSD\) applicat
 
 ### What's new
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 

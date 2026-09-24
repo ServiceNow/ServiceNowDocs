@@ -2,7 +2,7 @@
 title: Configure the Service Graph Connector for Netskope
 description: The guided setup for the Service Graph Connector for Netskope provides an organized sequence of tasks to configure the integration on your ServiceNow AI Platform instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-netskope-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/sgc-netskope-configure.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

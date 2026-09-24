@@ -2,7 +2,7 @@
 title: Authentication Algorithms
 description: Verify the identity of the sender using Authentication Algorithms
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/authentication-algorithms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/connections-and-credentials/authentication-algorithms.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -33,7 +33,7 @@ For more information, see [Integration steps](https://raw.githubusercontent.com/
 -   **Amazon Signature Version 4**: This is a pre-built authentication algorithm to connect to Amazon Web Services.
 -   **Custom Authentication**: This is a template that developers can use to create their own authentication algorithms.
 
-To know more, on how to configure the authentication algorithm, see [Configure an authentication algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-authentication-algorithm.md).
+To know more, on how to configure the authentication algorithm, see [Configure an authentication algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/configure-authentication-algorithm.md).
 
 ## Scripts
 

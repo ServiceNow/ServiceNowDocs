@@ -2,7 +2,7 @@
 title: Accounts Payable Operations
 description: The ServiceNow Accounts Payable Operations provides a centralized platform to manage invoices, exceptions, approvals, and supplier inquiries in one place.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,23 +25,23 @@ This video provides a visual overview of Accounts Payable Operations and its key
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how accounts payable specialists, employees, and suppliers use Accounts Payable Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how accounts payable specialists, employees, and suppliers use Accounts Payable Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend the capabilities of Accounts Payable Operations by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/integrate-apo.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend the capabilities of Accounts Payable Operations by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/integrate-apo.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Work on invoices, view invoice statuses, identify and resolve invoice exceptions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Work on invoices, view invoice statuses, identify and resolve invoice exceptions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 </td><td>
 

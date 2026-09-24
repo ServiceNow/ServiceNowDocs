@@ -2,7 +2,7 @@
 title: List editor administration
 description: The list editor allows users to edit field values directly from a list without navigating to a form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/r\_AdministeringTheListEditor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/r\_AdministeringTheListEditor.html
 release: australia
 product: List Administration
 classification: list-administration

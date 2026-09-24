@@ -2,7 +2,7 @@
 title: Linking parent-child contracts
 description: The contract family hierarchy in the Related contract requests tab shows all related contract requests and lets you link, inherit from, and unlink parent contract requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-linking-parent-child.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-linking-parent-child.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -86,7 +86,7 @@ You want to establish the parent-child relationship and automatically copy confi
 
 </td><td>
 
-Contract request must be in Draft, Work in progress, or Awaiting review state only.Parent-child field mapping must be configured. For more information, see [Configure field mapping for parent-child contract linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncor-conf-parent-child.md).
+Contract request must be in Draft, Work in progress, or Awaiting review state only.Parent-child field mapping must be configured. For more information, see [Configure field mapping for parent-child contract linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncor-conf-parent-child.md).
 
 The parent must not be a multiple contracts type third-party contract request.
 
@@ -99,23 +99,23 @@ The parent must not be a multiple contracts type third-party contract request.
 -   The parent contract must be a single contract type using own paper or third-party paper.
 -   A contract can't be linked as a parent of any contract before it in the hierarchy. For example, if Master Service Agreement \(MSA\) is the parent of Statement Of Work \(SOW\), then SOW can't be set as the parent of MSA.
 
--   **[Link parent contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.md)**  
+-   **[Link parent contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.md)**  
 Link parent contracts during drafting and negotiation phases to establish hierarchical relationship between the parent and child contracts.
--   **[Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md)**  
+-   **[Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md)**  
 Link parent contracts during drafting and negotiation phases to establish a hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
--   **[Remove a linked contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.md)**  
+-   **[Remove a linked contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.md)**  
 Remove a linked parent contract from contract requests when you have linked an incorrect contract request or the linking is no longer required.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 
 **Related topics**  
 
 
-[Link parent contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.md)
+[Link parent contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.md)
 
-[Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md)
+[Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md)
 
-[Remove a linked contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.md)
+[Remove a linked contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.md)
 
-[Configure field mapping for parent-child contract linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncor-conf-parent-child.md)
+[Configure field mapping for parent-child contract linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncor-conf-parent-child.md)
 

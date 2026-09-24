@@ -2,7 +2,7 @@
 title: Components installed with Advanced Approval Management
 description: Several types of components are installed with activation of the Advanced Approval Management plugin, including tables, scheduled jobs, and user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-advanced-approval-management-for-sales.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/components-installed-advanced-approval-management-for-sales.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-05"
@@ -225,5 +225,5 @@ Approval Steps\[sn\_adv\_appr\_mgmt\_approval\_step\]
 The approval step records created for an approval request. The records contain the relevant approval rules, conditions, and chain details defined for an approval configuration. The Approval Steps table is extended from the Task \[task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Advanced Approval Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/advanced-approval-management-reference.md)
+</table>**Parent Topic:**[Advanced Approval Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/advanced-approval-management-reference.md)
 

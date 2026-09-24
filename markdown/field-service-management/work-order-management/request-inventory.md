@@ -2,7 +2,7 @@
 title: Request inventory
 description: Request inventory when your stock gets low or you need a part for a particular work order.Create a part requirement to receive parts when you find defective parts in your stockroom or your stock has run out.Request and source multiple parts simultaneously from a single or multiple stockrooms regardless of whether you have a work order task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/request-inventory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/request-inventory.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -26,11 +26,11 @@ You can request inventory in two ways:
 **Related topics**  
 
 
-[Track inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/view-available-parts-inventory.md)
+[Track inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/view-available-parts-inventory.md)
 
-[Accept or reject part requests from peer agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/accept-reject-part-request-mobile.md)
+[Accept or reject part requests from peer agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/accept-reject-part-request-mobile.md)
 
-[View transfer order lines for requested parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/source-part-mobile.md)
+[View transfer order lines for requested parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/source-part-mobile.md)
 
 ## Request a single part
 
@@ -153,7 +153,7 @@ Request and source multiple parts simultaneously from a single or multiple stock
 
 ### Before you begin
 
-The Field Service Advanced Parts Sourcing \[com.snc.fsm\_advanced\_parts\_sourcing\] plugin must be activated. For more information on the steps to activate a plugin, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
+The Field Service Advanced Parts Sourcing \[com.snc.fsm\_advanced\_parts\_sourcing\] plugin must be activated. For more information on the steps to activate a plugin, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ActivateFieldServiceManagement.md).
 
 Role required: wm\_agent
 
@@ -163,7 +163,7 @@ You can create part requests from **My work** and **Inventory** screens with the
 
 **Note:**
 
--   The parts are searched for in the stockrooms based on the defined values in the Part Search Criteria property. For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-part-souring-components.md).
+-   The parts are searched for in the stockrooms based on the defined values in the Part Search Criteria property. For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/advanced-part-souring-components.md).
 -   Your current location is considered as the source location and searches for stockrooms in the radius as mentioned in the **Maximum part search radius** and **Distance Unit** of your profile.
 
 ### Procedure
@@ -309,7 +309,7 @@ Do this
 ### Result
 
 -   The part request state changes to In progress and the part request line changes to Requested. To view the status of your requests, navigate to **Inventory** &gt; **My requests**.
--   The part requests are sent to the peer agents from whom you have requested parts if the **Use part request approvals** property is enabled. For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-part-souring-components.md).
+-   The part requests are sent to the peer agents from whom you have requested parts if the **Use part request approvals** property is enabled. For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/advanced-part-souring-components.md).
 -   A temporary part request \(RITM\) record is created for the requested parts and sent to your agents as a mobile notification. If the property is disabled or you have requested parts from warehouse, the transfer orders are generated automatically in the Draft state.
 -   If you have requested parts for a specific work order task, the Part Requests and Transfer Orders related lists are updated in the work order task form.
 

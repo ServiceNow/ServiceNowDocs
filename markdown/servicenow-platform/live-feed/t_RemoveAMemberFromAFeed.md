@@ -2,7 +2,7 @@
 title: Remove a member from a feed
 description: The feed administrator can remove any member from the feed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_RemoveAMemberFromAFeed.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/t\_RemoveAMemberFromAFeed.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -31,5 +31,5 @@ Role required: none
 4.  Locate the member you want to remove and click **Remove**.
 
 
-**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

@@ -2,7 +2,7 @@
 title: Deviation categories
 description: This page contains the reference information about the deviation categories and subcategories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-deviation-categories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/industrial-deviation-categories.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -111,5 +111,5 @@ Other
 Other
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Deviation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-deviation-management.md)
+</table>**Parent Topic:**[Deviation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-deviation-management.md)
 

@@ -2,7 +2,7 @@
 title: Web search
 description: The web search mode performs an internet search to answer a query. Web search mode provides external search results from the internet and these results don't represent company content or policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/web-search-requestor.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/now-assist-in-virtual-agent/web-search-requestor.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +17,7 @@ breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Virtua
 
 The web search mode performs an internet search to answer a query. Web search mode provides external search results from the internet and these results don't represent company content or policies.
 
-**Note:** For more information about how to configure web search and turn on web search, see [Web search custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/web-search-custom-skill.md) and [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
+**Note:** For more information about how to configure web search and turn on web search, see [Web search custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/web-search-custom-skill.md) and [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 
 Web search mode is applicable to ServiceNow Otto for Virtual Agent standard chat and enhanced chat conversations. Select the Start web search mode icon \(\[Omitted image "Globe.png"\] Alt text: Start web search mode icon.\) to enter into the web search mode. While in this mode, all queries are answered via internet search results rather than internal company search results. When in web search mode, a divider line appears to indicate a conversational shift and the following text appears: `Searching the web (This search is external and does not represent Company content or policies.)`
 

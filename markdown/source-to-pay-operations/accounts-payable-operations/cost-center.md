@@ -2,7 +2,7 @@
 title: Cost center
 description: Field descriptions for the Cost Center \[cmn\_cost\_center\] table used to create and manage cost center records that link financial systems to IT services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/cost-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/cost-center.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -32,5 +32,5 @@ For more information on cost centers and how it is referenced within financial s
 |Manager|String|A reference to the user who manages the cost center.|
 |Parent|String|A reference to the parent cost center in the hierarchical structure of cost centers.|
 
-**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
+**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

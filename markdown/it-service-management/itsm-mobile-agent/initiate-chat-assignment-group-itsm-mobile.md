@@ -2,7 +2,7 @@
 title: Initiate a chat with the assignment group from an incident
 description: Initiate a chat with the assignment group members from an incident to discuss about the resolution of an incident.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/initiate-chat-assignment-group-itsm-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/initiate-chat-assignment-group-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -46,5 +46,5 @@ Role required: itil, itil\_admin, or admin
     You can also interact with a user from the assignment group. Tap on the assignment group, and then tap on a user and select either Slack or Microsoft Teams to initiate a conversation.
 
 
-**Parent Topic:**[Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)
+**Parent Topic:**[Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)
 

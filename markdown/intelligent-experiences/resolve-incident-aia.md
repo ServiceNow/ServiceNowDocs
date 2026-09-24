@@ -2,7 +2,7 @@
 title: Resolve an incident
 description: Help your live agents resolve an incident faster with Now Assist AI agents by using the Now Assist panel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/resolve-incident-aia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/resolve-incident-aia.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

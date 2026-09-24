@@ -2,7 +2,7 @@
 title: Activate Intelligent Task Recommendation
 description: Activate the Intelligent Task Recommendation plugin \(com.snc\_task\_recommendations\)\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/activate-intelligent-task-recommendation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/activate-intelligent-task-recommendation.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -23,7 +23,7 @@ Field Service Intelligent Task Recommendation feature requires the following plu
 -   Intelligent Task Recommendation \(sn\_task\_recommend\): Provides basic task recommendation framework scripts, configurations, and default extension points.
 -   Field Service Management Intelligent Task Recommendations \(sn\_fsm\_task\_rec\): Provides specific implementation and configuration for Field Service Management, which includes default filter constraints, ranking criteria, and Field Service Management extension points.
 
-Ensure the Field Service Management plugin is activated before you install Field Service Intelligent Task Recommendation. See [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md) for more information.
+Ensure the Field Service Management plugin is activated before you install Field Service Intelligent Task Recommendation. See [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ActivateFieldServiceManagement.md) for more information.
 
 Role required: admin
 

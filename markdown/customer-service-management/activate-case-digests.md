@@ -2,7 +2,7 @@
 title: Activate Case Digests
 description: Activate the Case Digests plugin to use the case digests feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-case-digests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-case-digests.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +33,7 @@ When creating a case action summary record, users with the sn\_esm\_agent role c
 
 **Note:** The **Publish to Case &amp; Notify** UI action is available when a list has been selected in the **Additional internal recipients** field.
 
-For more information, see [Recipient lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/targeted-comm-dynamic-list.md).
+For more information, see [Recipient lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/targeted-comm-dynamic-list.md).
 
 ## Procedure
 

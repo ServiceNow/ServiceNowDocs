@@ -2,7 +2,7 @@
 title: Suggestion Reader Group form
 description: The Suggestion Reader Group form enables you to modify settings for an auto-complete suggestion type in the search application configuration for an AI Search application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/sugg-reader-group-form-ais.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/sugg-reader-group-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Suggestion Reader Group form enables you to modify settings for an auto-complete suggestion type in the search application configuration for an AI Search application.
 
-For details on configuring auto-complete suggestions in AI Search applications, see [Auto-complete suggestions in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/auto-complete-ais.md).
+For details on configuring auto-complete suggestions in AI Search applications, see [Auto-complete suggestions in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/auto-complete-ais.md).
 
 <table id="table_ahj_2jm_4nb"><thead><tr><th>
 
@@ -78,5 +78,5 @@ Option to control the display of the section containing auto-complete suggestion
  **Note:** A search application configuration can't link to multiple search suggestion types that include the same reader and have the same click-in mode. If you try to link a second suggestion type with the same reader and click-in mode to a search application configuration, the system displays an error message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/reference-ais.md)
 

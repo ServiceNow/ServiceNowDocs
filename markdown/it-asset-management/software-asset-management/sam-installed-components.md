@@ -2,7 +2,7 @@
 title: Components installed with Software Asset Management Professional
 description: Roles, plugins, and scheduled jobs are installed with the activation of the Software Asset Management Professional application. Demo data is available with this application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-installed-components.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/sam-installed-components.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -153,7 +153,7 @@ This plugin is for releases prior to Australia. Loads the following Software Ass
 -   All publisher pack add-on plugins
 -   Software Asset Management UI Components \(com.sn\_samp\_workbench\)
 
- **Note:** To enable SaaS License Management, you must request the Software Asset Management — SaaS License Management \(sn\_sam\_saas\_int\) plugin separately from the ServiceNow Store. See [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md) for information on how to request and activate this plugin.
+ **Note:** To enable SaaS License Management, you must request the Software Asset Management — SaaS License Management \(sn\_sam\_saas\_int\) plugin separately from the ServiceNow Store. See [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/request-saas-license-management.md) for information on how to request and activate this plugin.
 
 </td></tr><tr><td>
 
@@ -203,7 +203,7 @@ Software Asset Management — SaaS License Management\(sn\_sam\_saas\_int\)
 
 ServiceNow Store
 
- See [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md) for information on how to request and activate this plugin from the ServiceNow Store.
+ See [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/request-saas-license-management.md) for information on how to request and activate this plugin from the ServiceNow Store.
 
 </td><td>
 
@@ -360,5 +360,5 @@ Now Support Service Portal
 Requires the Software Asset Management Professional \(com.snc.samp\) plugin. Provides additional capabilities to reconcile engineering applications such as AutoCAD.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 

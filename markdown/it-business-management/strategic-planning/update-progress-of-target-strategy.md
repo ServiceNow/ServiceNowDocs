@@ -2,12 +2,12 @@
 title: Update the progress of a manual target
 description: Update the progress of a target when its status is changed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/update-progress-of-target-strategy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/update-progress-of-target-strategy.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Add a target for goal, Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_apw\_advanced.spw\_goal\_user
 
 3.  Update the target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d342281e76">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d342393e76">
 
 Option
 
-</th><th align="left" id="d342281e79">
+</th><th align="left" id="d342393e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d342281e85">
+</th></tr></thead><tbody><tr><td id="d342393e85">
 
 **From the Goals page**
 
@@ -62,7 +62,7 @@ In the Actual to date column, double click the cell for the target.
 
  Alternatively, you can select the row context menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Row context menu icon.\) next to the target that you want to update and then select **Check in actuals**.
 
-</td></tr><tr><td id="d342281e126">
+</td></tr><tr><td id="d342393e126">
 
 **From the Strategy page**
 
@@ -84,7 +84,7 @@ The goal details page opens.
 </td></tr></tbody>
 </table>4.  On the form, update the **Actuals to date** or **Actual** field and add a business justification in the **Remark** field.
 
-    For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md).
+    For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-form-egm.md).
 
 5.  Select either **Update** or **Save**.
 
@@ -92,15 +92,15 @@ The goal details page opens.
 **Related topics**  
 
 
-[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
+[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-goal-strategy.md)
 
-[Duplicate a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/duplicate-goal-target-strategy.md)
+[Duplicate a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/duplicate-goal-target-strategy.md)
 
-[Align work with a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/associate-work-with-goals-strategy.md)
+[Align work with a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/associate-work-with-goals-strategy.md)
 
-[Create a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-strategic-plan-strategy.md)
+[Create a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-strategic-plan-strategy.md)
 
-[Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-strategic-priority-strategy.md)
+[Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-strategic-priority-strategy.md)
 
-[Send a reminder for target actuals check in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/send-reminder-target-checkin-strategy.md)
+[Send a reminder for target actuals check in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/send-reminder-target-checkin-strategy.md)
 

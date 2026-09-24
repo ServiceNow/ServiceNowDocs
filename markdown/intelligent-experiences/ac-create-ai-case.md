@@ -2,12 +2,12 @@
 title: Create an AI case
 description: Open an AI case to investigate and document an incident affecting an AI asset, such as a suspected breach, data exposure, or policy violation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-create-ai-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-create-ai-case.html
 release: australia
 topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI cases, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 

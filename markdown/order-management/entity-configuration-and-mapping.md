@@ -2,7 +2,7 @@
 title: Entity configuration and mapping
 description: Use the Entity Configuration tables and forms to configure and map an entity that defines a structure and transfers the data from the source entity to the target entity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/entity-configuration-and-mapping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/entity-configuration-and-mapping.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -570,7 +570,7 @@ Script to customize the mappings.
 **Related topics**  
 
 
-[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-foundation.md)
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-foundation.md)
 
-[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md)
+[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
 

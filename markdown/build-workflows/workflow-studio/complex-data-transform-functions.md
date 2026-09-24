@@ -2,7 +2,7 @@
 title: Complex data transform functions
 description: Use complex data transform functions to serialize Complex Object data pills into an XML format.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/complex-data-transform-functions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/complex-data-transform-functions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -16,7 +16,7 @@ breadcrumb: [Transform functions, Flows, subflows, and actions reference, Flows,
 
 Use complex data transform functions to serialize Complex Object data pills into an XML format.
 
-Complex data functions require a Complex Object input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md) when applying complex data transform functions. If a complex data transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+Complex data functions require a Complex Object input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md) when applying complex data transform functions. If a complex data transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-test.md).
 
 ## To XML
 
@@ -33,5 +33,5 @@ In this example, an action makes a REST call to a third-party knowledge base and
 
 \[Omitted image "to-xml-transform-function-example.png"\] Alt text: Knowledge base article data is transformed from JSON text to XML format.
 
-**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md)
+**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/transform-functions.md)
 

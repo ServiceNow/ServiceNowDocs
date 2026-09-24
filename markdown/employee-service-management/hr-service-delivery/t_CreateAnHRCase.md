@@ -2,7 +2,7 @@
 title: Work an HR case
 description: After initial creation of an HR case, the next steps are to change the state, provide additional information, and ensure that any outstanding tasks are completed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateAnHRCase.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateAnHRCase.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -96,7 +96,7 @@ The state of the case. The state can auto-populate based on the HR case or task 
 -   Closed Incomplete
 -   Cancelled
 -   Awaiting Acceptance: The **Opened for** person must accept the HR case before it can proceed. For example, a **Request for Onboarding** case was opened for a hiring manager. The hiring manager must accept the case before it can move to the next state.
--   Suspended: Use to temporarily prevent violation of a service level agreement \(SLA\). Refer to [Suspend and resume an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_SuspendAndResumeAnHRCase.md).
+-   Suspended: Use to temporarily prevent violation of a service level agreement \(SLA\). Refer to [Suspend and resume an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_SuspendAndResumeAnHRCase.md).
 
 **Note:** The **State** cannot be edited in List view.
 
@@ -141,7 +141,7 @@ Assignment group
 
 The group the record is assigned to. If the group is not set automatically, assign an HR group to provide a selection of HR users in the **Assigned to** field. Assignment groups are restricted to those groups with a type of human\_resources.To change the **Assignment group**, the **Assigned to** agent must be a member of the new group and the **State** must be **Ready**.
 
- **Note:** To automatically assign a group to an HR case, see [Assignment and matching rules in HR]() and [Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-case-template.md).
+ **Note:** To automatically assign a group to an HR case, see [Assignment and matching rules in HR]() and [Configure an HR case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-case-template.md).
 
 </td></tr><tr><td>
 
@@ -172,8 +172,8 @@ Add collaborators or other HR agents to the case.Only HR agents can be added as 
 
  Collaborators and the COE for the HR case can conflict. The basic rules are:
 
--   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-coe-security.md).
--   Employee Relations \(ER\) cases can override collaborators when restrictions apply. For more information, see [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
+-   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-coe-security.md).
+-   Employee Relations \(ER\) cases can override collaborators when restrictions apply. For more information, see [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
  **Note:** Agents must have the ER case writer \[sn\_hr\_er.case\_writer\] role in order to be a collaborator.
 
 </td></tr><tr><td>
@@ -231,11 +231,11 @@ You can add a longer, detailed description after the HR case is created. Use the
 
     -   **Special Handling Notes List**
 
-        Shows notes of messages specific to an HR case or conditions. For more information, see [Add special handling notes for an HR Service Delivery case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-add-special-handling-notes.md).
+        Shows notes of messages specific to an HR case or conditions. For more information, see [Add special handling notes for an HR Service Delivery case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-add-special-handling-notes.md).
 
     -   **Knowledge results**
 
-        Shows knowledge results based on the short description of the HR case. There are two tabs. One showing articles that you have access to, and one showing articles that the **Opened for** employee can access. Click **Attach** to make the article visible to the person that the HR case was opened for in the **Additional comments** section. See [Attach knowledge articles to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_AttachKnowledgeArticleToHRCase.md) for more information.
+        Shows knowledge results based on the short description of the HR case. There are two tabs. One showing articles that you have access to, and one showing articles that the **Opened for** employee can access. Click **Attach** to make the article visible to the person that the HR case was opened for in the **Additional comments** section. See [Attach knowledge articles to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_AttachKnowledgeArticleToHRCase.md) for more information.
 
     -   **Tasks**
 
@@ -247,7 +247,7 @@ You can add a longer, detailed description after the HR case is created. Use the
 
         View information on how to complete the case. This information is defined in the HR Service configuration.
 
-        A checklist outlining the exact steps to complete appears when configured by the HR service. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
+        A checklist outlining the exact steps to complete appears when configured by the HR service. See [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
     -   **Comments and Work Notes**
 
@@ -350,7 +350,7 @@ The birth date of the child.**Note:** Use this field when Birthing parent, Partn
 
         The following appear dependent on the type of case and roles associated with the user:
 
-        -   Add Task: Click to add a task to the case. Refer to [add a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md).
+        -   Add Task: Click to add a task to the case. Refer to [add a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md).
         -   Show SLA Timeline: The SLA in timeline format that shows elapsed time.
         -   Show Workflow: The workflow that is associated with the case.
         -   Escalate Case: Click to escalate the case and provide a reason.
@@ -426,22 +426,22 @@ The birth date of the child.**Note:** Use this field when Birthing parent, Partn
         List of beneficiaries for **Opened for** and **Subject person**.
 
 
--   **[View HR case information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ViewHRCaseInformation.md)**  
+-   **[View HR case information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ViewHRCaseInformation.md)**  
 There are multiple ways to find a specific HR case.
--   **[HR document generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/DocumentGeneration.md)**  
+-   **[HR document generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/DocumentGeneration.md)**  
 There are multiple ways to generate documents in HR Service Delivery.
--   **[Secure HR case attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/secure-doc-ckm.md)**  
+-   **[Secure HR case attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/secure-doc-ckm.md)**  
 Add an extra layer of security on attachments that are linked to a case. Grant access to attachments with sensitive or private data to groups, users, user criteria or roles.
--   **[Sending an email from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/send-email-cm.md)**  
+-   **[Sending an email from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/send-email-cm.md)**  
 Send any communication related to HR Workforce Administration cases using the Send email feature. Minimise typing errors by auto-populating the email address of the subject person \(of the case\) in the email.
--   **[Checklists in HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ChecklistsInHRCasesAndTasks.md)**  
+-   **[Checklists in HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ChecklistsInHRCasesAndTasks.md)**  
 A feature of HR services is the ability to automatically add a checklist to an HR case. A checklist can serve as a reminder to the HR agent to ensure that the procedure is followed.
--   **[Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md)**  
+-   **[Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md)**  
 You can add, view, or work on HR tasks assigned to HR cases.
--   **[View HR task information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ViewHRTaskInformation.md)**  
+-   **[View HR task information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/ViewHRTaskInformation.md)**  
 There are multiple ways to find a specific HR task.
--   **[Add adhoc approvers to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/add-approvers-cm.md)**  
+-   **[Add adhoc approvers to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/add-approvers-cm.md)**  
 Provide your agents with the flexibility to add adhoc approvers to a case that is part of an HR service.
 
-**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

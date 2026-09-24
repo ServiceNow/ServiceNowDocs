@@ -2,7 +2,7 @@
 title: Configure AI Search for Business and Consumer Portal
 description: Enable AI Search on a Business or Consumer Portal by updating the portal record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config\_AI\_search\_business-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config\_AI\_search\_business-portal.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

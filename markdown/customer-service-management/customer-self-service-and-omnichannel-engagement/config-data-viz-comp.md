@@ -2,7 +2,7 @@
 title: Configure the Data visualization component instance
 description: Configure the Data visualization component instance so that your users can embed it on their website to display information in the form of single score, pie chart, donut chart, or semi-donut chart directly from any ServiceNow table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-viz-comp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-viz-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -20,9 +20,9 @@ Configure the Data visualization component instance so that your users can embed
 
 You must have the following setup to configure the Data visualization component instance:
 
--   Enable Web Embeddables in your instance. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
--   [Set up a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-custom-url.md).
--   Authenticate the ServiceNow components using OpenID Connect \(OIDC\) or non OIDC authentication. For more information, see [Authenticate the ServiceNow components using OIDC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/authenticate-sn-webcomponents-oidc.md) and [Non OIDC authentication for ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/auth-sn-webcomponents-non-oidc.md).
+-   Enable Web Embeddables in your instance. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
+-   [Set up a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-custom-url.md).
+-   Authenticate the ServiceNow components using OpenID Connect \(OIDC\) or non OIDC authentication. For more information, see [Authenticate the ServiceNow components using OIDC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/authenticate-sn-webcomponents-oidc.md) and [Non OIDC authentication for ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/auth-sn-webcomponents-non-oidc.md).
 
 Role required: sn\_embeddable\_core.emb\_admin
 
@@ -32,19 +32,19 @@ Role required: sn\_embeddable\_core.emb\_admin
 
 2.  In the homepage, select Create module or use the existing module.
 
-    For more information on creating a new module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.md).
+    For more information on creating a new module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.md).
 
 3.  On the module page, in the Components tab, add a Data visualization component instance to an existing or a new group.
 
-    For more information on creating a group and then adding a component instance, see [Create a group and add a component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-create-group-and-add-comp-instance.md).
+    For more information on creating a group and then adding a component instance, see [Create a group and add a component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-create-group-and-add-comp-instance.md).
 
 4.  Configure the Data visualization component instance properties.
 
     -   The Preview tab displays real-time data according to choices set in the component properties.
-    -   For a description of the component properties related to the Data visualization component instance, see [Component properties for the Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-data-viz-comp-prop.md).
+    -   For a description of the component properties related to the Data visualization component instance, see [Component properties for the Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-data-viz-comp-prop.md).
 5.  Select the **CORS rules** tab to configure the CORS rules.
 
-    For more information about configuring CORS rules, see [Configure CORS \(Cross-Origin Resource Sharing\) rules before embedding ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-cors-for-web-components.md).
+    For more information about configuring CORS rules, see [Configure CORS \(Cross-Origin Resource Sharing\) rules before embedding ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-cors-for-web-components.md).
 
 6.  Select the **Components** tab.
 
@@ -91,7 +91,7 @@ Role required: sn\_embeddable\_core.emb\_admin
 
 9.  In the Component Code tab, slide the **Enable event handler** toggle switch to handle events triggered by the user interactions on the website.
 
-    **Note:** Enabling the event handler also modifies the component code. For more information on event handlers in Web Embeddables, see [Event handler in the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-data-viz-event-handler.md).
+    **Note:** Enabling the event handler also modifies the component code. For more information on event handlers in Web Embeddables, see [Event handler in the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-data-viz-event-handler.md).
 
 10. In the Component code tab, review the generated code and select the **Copy component code**.
 
@@ -201,14 +201,14 @@ The global and component codes are ready to be shared with the third-party admin
 
 ## What to do next
 
-[Embed the Data visualization component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-data-viz-comp.md)
+[Embed the Data visualization component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-data-viz-comp.md)
 
 **Related topics**  
 
 
-[Component properties for the Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-data-viz-comp-prop.md)
+[Component properties for the Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-data-viz-comp-prop.md)
 
-[Event handler in the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-data-viz-event-handler.md)
+[Event handler in the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/we-data-viz-event-handler.md)
 
-[Sample code for the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-data-viz-sample-code.md)
+[Sample code for the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-data-viz-sample-code.md)
 

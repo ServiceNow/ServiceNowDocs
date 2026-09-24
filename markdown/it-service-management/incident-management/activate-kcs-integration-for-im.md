@@ -2,7 +2,7 @@
 title: Activate KCS Integration for Incident Management
 description: Activate the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\) if you have the admin role. This plugin provides integration of Incident Management with the Advanced Knowledge Management features.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/activate-kcs-integration-for-im.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/activate-kcs-integration-for-im.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -41,7 +41,7 @@ Knowledge Management Advanced Installer\[com.snc.knowledge\_advanced.installer\]
 Use this plugin to install the Knowledge Management Advanced plugin. Activating or upgrading this plugin validates knowledge articles and knowledge bases to ensure that the Knowledge Management Advanced plugin can be successfully installed.
 
 </td></tr></tbody>
-</table>After activating this plugin, agents can create knowledge articles directly from resolved incidents by using the **Create Knowledge** option available for the Incident Form. For more information, see [Create a knowledge article from an incident using an article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-a-knowledge-article.md).
+</table>After activating this plugin, agents can create knowledge articles directly from resolved incidents by using the **Create Knowledge** option available for the Incident Form. For more information, see [Create a knowledge article from an incident using an article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-a-knowledge-article.md).
 
 ## Procedure
 
@@ -58,17 +58,17 @@ Use this plugin to install the Knowledge Management Advanced plugin. Activating 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Component installed with KCS Integration for Incident Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/installed-with-incident-mgmt.md)**  
+-   **[Component installed with KCS Integration for Incident Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/installed-with-incident-mgmt.md)**  
 The Incident KCS Article table is installed with the activation of the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\).
 
-**Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-mgmt-plugins.md)
+**Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-mgmt-plugins.md)
 
 **Related topics**  
 
 
 [List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 
-[Create a knowledge article from an incident using an article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-a-knowledge-article.md)
+[Create a knowledge article from an incident using an article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-a-knowledge-article.md)
 
-[Create a knowledge article from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-knowledge-incident.md)
+[Create a knowledge article from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-knowledge-incident.md)
 

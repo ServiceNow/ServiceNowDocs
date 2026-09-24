@@ -2,7 +2,7 @@
 title: Enable accessibility in Classic preference
 description: Learn more about the Enable accessibility in Classic preference accessibility preference.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-accessibility-in-classic-pref.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/enable-accessibility-in-classic-pref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

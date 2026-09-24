@@ -2,12 +2,12 @@
 title: Telecom Discovery via Fortinet SD-WAN
 description: The Service Graph Connector for Fortinet provides a telecom-aware integration that imports real-time network inventory data from the Fortinet network management system into the Configuration Management Database \(CMDB\). This integration enhances visibility and management of network resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-fortinet.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-fortinet.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -46,7 +46,7 @@ The Integration Commons for CMDB application provides a dashboard with a central
 **Related topics**  
 
 
-[Configure a Fortinet SD-WAN Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-fortinet-service-graph-connector.md)
+[Configure a Fortinet SD-WAN Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-fortinet-service-graph-connector.md)
 
-[Run and verify an import schedule for Fortinet SGC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-fortinet-sd-wan.md)
+[Run and verify an import schedule for Fortinet SGC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-fortinet-sd-wan.md)
 

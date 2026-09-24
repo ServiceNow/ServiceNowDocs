@@ -2,7 +2,7 @@
 title: Turn on full automation mode
 description: Turn on Full automation mode to automatically complete and submit document tasks without an agent review. Full automation mode is turned off by default in document extraction use cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/turn-on-full-automation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/turn-on-full-automation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,13 +17,13 @@ Turn on Full automation mode to automatically complete and submit document tasks
 
 ## Before you begin
 
--   Set up a use case for the Information Extraction skill. For more information, see [Configure Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-configure-information-extraction-skill.md).
+-   Set up a use case for the Information Extraction skill. For more information, see [Configure Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cu-configure-information-extraction-skill.md).
 -   Role required: DocIntel Manager \[sn\_docintel.manager\]
 
 
 ## About this task
 
-The extraction mode determines how Content Understanding processes document tasks for a use case. For more information, see [Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/automation-modes.md).
+The extraction mode determines how Content Understanding processes document tasks for a use case. For more information, see [Automation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/automation-modes.md).
 
 **Warning:** AI may not always produce accurate, complete, or appropriate information. By choosing to bypass the agent review, there is no way to check the accuracy of the predicted values before using the data in your workflows.
 

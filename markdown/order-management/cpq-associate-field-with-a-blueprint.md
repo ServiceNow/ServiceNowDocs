@@ -2,7 +2,7 @@
 title: Associate a field with a blueprint
 description: Associate a field with a blueprint so that the field can be used in a configuration experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-associate-field-with-a-blueprint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-associate-field-with-a-blueprint.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

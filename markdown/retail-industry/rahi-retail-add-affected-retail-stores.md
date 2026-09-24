@@ -2,7 +2,7 @@
 title: Add affected Retail stores
 description: Determine the affected Retail stores from the list of retail stores.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-add-affected-retail-stores.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-add-affected-retail-stores.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 3.  Select **Add** to continue or **Cancel** to stay on the same form.
 
 
-**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plan-authoring.md)
+**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-manage-store-plan-authoring.md)
 

@@ -2,7 +2,7 @@
 title: Track opportunities using Kanban view
 description: Personalize and manage the opportunities information that is most relevant to you and your stakeholders using the Kanban view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-kanban-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management-kanban-view.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,12 +38,12 @@ The Kanban view as part of Opportunity Management in Sales Customer Relationship
 
     -   To change an opportunity state, drag the opportunity card from one state and drop it into another state.
     -   To view the opportunities of different sales type, use the Filter by option on the page.
-    -   To create a new opportunity directly from this page, select the **Create Opportunity** button. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-opportunity.md).
+    -   To create a new opportunity directly from this page, select the **Create Opportunity** button. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-new-opportunity.md).
 
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management.md)
 

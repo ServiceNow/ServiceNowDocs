@@ -2,7 +2,7 @@
 title: Accessibility checker in the toolbar
 description: Accessibility checker in the toolbar enables you to identify and resolve accessibility related issues in a Knowledge article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/accessibility-checker.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/accessibility-checker.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

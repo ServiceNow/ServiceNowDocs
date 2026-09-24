@@ -2,7 +2,7 @@
 title: AI Control Tower email notifications
 description: Email notifications are sent automatically when specific events occur across AI Control Tower workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-email-notifications.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-control-tower-email-notifications.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

@@ -2,7 +2,7 @@
 title: Upgrade details form
 description: From the Upgrade Details form, you can review an individual record affected by the upgrade and reconcile conflicts between the upgrade and customizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-upgrade-details-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-center/uc-upgrade-details-form.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -62,7 +62,7 @@ How you elected to resolve this conflict:-   **Not reviewed**: Not yet reviewed
 -   **Reviewed and Retained**: Left customizations in place without update from upgrade
 -   **Reviewed and Reverted**: Customizations discarded, record updated according to upgrade
 
-For more information, see [Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-process-skipped-records.md).
+For more information, see [Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-center/uc-process-skipped-records.md).
 
 </td></tr><tr><td>
 

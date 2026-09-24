@@ -2,7 +2,7 @@
 title: Data Loss Prevention Incident Response Analyst Workspace
 description: Use the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace to view the DLP incidents. Assign the incidents to end users for resolution and more.Access the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace so that you can review the DLP incidents and assign or resolve them. You can track trends on incidents by severity, top offenders, incidents by scan source, and incidents by policy.Manage DLP incident lists in the Data Loss Prevention Incident Response Analyst Workspace. Save copies of default lists, create custom lists, and share lists with your team.Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.A Data Loss Prevention Incident Response Playbook is a step-by-step guide for addressing and mitigating data loss incidents, which can include unauthorized exposures, leaks, or breaches of sensitive information that can compromise your organization’s security.Add a Playbook in the Data Loss Prevention Incident Response Analyst workspace that can act as a guide for addressing and mitigating data loss incidents that can compromise your organization’s security.Cancel a Data Loss Prevention Incident Response Playbook to stop a business flow when it is no longer valid.Use the DLP Analyst workspace to view or reactivate the archived DLP incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/using-dlp-ops-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/using-dlp-ops-portal.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -21,7 +21,7 @@ The DLP workspace consists of a home page with dashboards, list views, and form 
 
 \[Omitted image "dlp-ops-homepage.png"\] Alt text: DLP Workspace Overview page.
 
-**Parent Topic:**[Data Loss Prevention Incident Response Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-incident-management.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/data-loss-prevention-incident-management.md)
 
 **Related topics**  
 
@@ -427,7 +427,7 @@ Preview Data Loss Prevention Incident Response evidence files in the DLP IR Anal
 
 ### Before you begin
 
-**Important:** While using the Evidence files action in the DLP analyst workspace, the evidence files are temporarily stored in the ServiceNow database in an unencrypted format. If you don't want to store the evidence files, disable the Evidence Files preview feature. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
+**Important:** While using the Evidence files action in the DLP analyst workspace, the evidence files are temporarily stored in the ServiceNow database in an unencrypted format. If you don't want to store the evidence files, disable the Evidence Files preview feature. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
 Role required: sn\_dlir.analyst
 
@@ -504,7 +504,7 @@ PDF files
 
 A Data Loss Prevention Incident Response Playbook is a step-by-step guide for addressing and mitigating data loss incidents, which can include unauthorized exposures, leaks, or breaches of sensitive information that can compromise your organization’s security.
 
-The following table lists the activities and stages available for creating a DLP Playbook. For more information, see [Add a DLP Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/using-dlp-ops-portal.md):
+The following table lists the activities and stages available for creating a DLP Playbook. For more information, see [Add a DLP Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/using-dlp-ops-portal.md):
 
 |Activity|Description|
 |--------|-----------|
@@ -523,9 +523,9 @@ The following figure shows the workflow of activities and stages involved in the
 **Related topics**  
 
 
-[Add a DLP Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/using-dlp-ops-portal.md)
+[Add a DLP Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/using-dlp-ops-portal.md)
 
-[Cancel a DLP Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/using-dlp-ops-portal.md)
+[Cancel a DLP Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/using-dlp-ops-portal.md)
 
 ### Add a DLP Playbook
 

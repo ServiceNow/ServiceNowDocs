@@ -2,7 +2,7 @@
 title: Configuring product offering recommendations
 description: As a product catalog admin or manager, you can create product offering recommendations that agents can use to upsell or cross-sell additional products in quotes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-offer-recommendations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-offer-recommendations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,12 +23,12 @@ As a catalog admin or manager, you configure product recommendations by identify
 -   Upsell: An upgraded or enhanced version of a product in the quote.
 -   Cross-sell: A related product that complements a product in the quote.
 
-For details on configuring product recommendations, see [Create a product offering recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-offer-recommendation.md).
+For details on configuring product recommendations, see [Create a product offering recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-offer-recommendation.md).
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

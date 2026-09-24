@@ -2,7 +2,7 @@
 title: Retail Strategic Portfolio Management Suite release notes
 description: The ServiceNow Retail Strategic Portfolio Management Suite gives retail organizations a structured, repeatable way to plan and track store life cycle projects such as new store openings, relocations, refurbishments, technology refreshes, and closures. Retail Strategic Portfolio Management Suite is a new application in the Australia release.The ServiceNow Retail Strategic Portfolio Management Suite gives retail organizations a structured, repeatable way to plan and track store life cycle projects such as new store openings, relocations, refurbishments, technology refreshes, and closures. Retail Strategic Portfolio Management Suite is a new application in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/retail-spm-suite-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/retail-spm-suite-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-05-19"
@@ -37,7 +37,7 @@ See [Explore Retail Strategic Portfolio Management Suite](https://raw.githubuser
     The Project Workspace application must be installed before installing the Retail Strategic Portfolio Management Suite.
 
 
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
+**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-business-management-rn-landing.md)
 
 ## Australia
 

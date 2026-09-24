@@ -2,7 +2,7 @@
 title: Install data products store application
 description: You can install the Data Products application \(sn\_data\_product\) if you have the admin role. The application include installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-data-products-store-application.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/install-data-products-store-application.html
 release: australia
 topic_type: task
 last_updated: "2026-03-26"
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Installing Data products automatically installs the [Data Catalog application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md) as a dependency.
+Installing Data products automatically installs the [Data Catalog application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-catalog.md) as a dependency.
 
 The following items are installed with Data products:
 
@@ -52,5 +52,5 @@ The following items are installed with Data products:
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configure data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-data-products.md)
+**Parent Topic:**[Configure data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-data-products.md)
 

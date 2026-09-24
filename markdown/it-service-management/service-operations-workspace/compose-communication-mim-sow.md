@@ -2,7 +2,7 @@
 title: Compose communications for incidents and major incidents
 description: Compose communication messages for incidents and major incidents using communication channels such as email and SMS.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/compose-communication-mim-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/compose-communication-mim-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -31,7 +31,7 @@ The **Communicate** tab displays the list of communication tasks with various op
 
 You must configure the communication plans and tasks in one of the following ways:
 
--   For major incidents, you must configure communication plans and tasks for Major Incident Management in Admin Center. For more information, see [Configure a communication plan in Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-comm-plan-mim-sow.md).
+-   For major incidents, you must configure communication plans and tasks for Major Incident Management in Admin Center. For more information, see [Configure a communication plan in Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-comm-plan-mim-sow.md).
 -   For incidents, you must activate and then configure communication plans and tasks in Task Communications Management. For more information, see [Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/tcm-landing-page.md).
 
 Role required: major\_incident\_manager, ia\_admin, itil, or admin
@@ -181,7 +181,7 @@ Message
 Content of the notification message.
 
 </td></tr></tbody>
-</table>    For more information on DEX Desktop Assistant, see [Use DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.md).
+</table>    For more information on DEX Desktop Assistant, see [Use DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.md).
 
     |Field|Description|
     |-----|-----------|
@@ -193,9 +193,9 @@ Content of the notification message.
 
     -   Depending on the channel selected on the communication task, options such as email or SMS are displayed.
     -   SMS communication is sent to the recipient only if the recipient has a phone number linked to the recipient record.
-    -   For all supported channels such as email, SMS, or DEX Desktop Assistant, Major Incident Management allows notification to be sent to all users \(employees\) in the affected locations. You can use the demo recipient list available in the base system as part of the installed demo data installed. The affected locations list can be accessed from the Affected locations related list in the **Related records** tab of a major incident record. For more information, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
+    -   For all supported channels such as email, SMS, or DEX Desktop Assistant, Major Incident Management allows notification to be sent to all users \(employees\) in the affected locations. You can use the demo recipient list available in the base system as part of the installed demo data installed. The affected locations list can be accessed from the Affected locations related list in the **Related records** tab of a major incident record. For more information, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
 5.  Select **Send**.
 
 
-**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
+**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
 

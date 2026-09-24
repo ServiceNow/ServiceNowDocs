@@ -2,7 +2,7 @@
 title: Know your team members
 description: Effectively manage a globally disbursed team. Understand your team's needs and activities to support them better.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/use-mr-mh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/use-mr-mh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -49,12 +49,12 @@ Role required: sn\_mh.manager\_hub\_user
 
 8.  Select an employee's name on the employee card to view the employee details modal.
 
-    For more information, see [View employee details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/employee-modal-mh.md).
+    For more information, see [View employee details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/employee-modal-mh.md).
 
 9.  Select the View menu icon \(\[Omitted image "viewmenu.png"\] Alt text: View menu icon\) on an employee card or employee modal, to schedule conversations, assign learning, and so on.
 
-    For more information, see [Use the View menu icon in Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/view-menu.md).
+    For more information, see [Use the View menu icon in Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/view-menu.md).
 
-    **Note:** The actions on the employee card are configurable. For more information, refer to [Action Framework in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md)
+    **Note:** The actions on the employee card are configurable. For more information, refer to [Action Framework in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/action-group-framework.md)
 
 

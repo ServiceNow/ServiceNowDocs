@@ -2,7 +2,7 @@
 title: Popular topics in Now Mobile
 description: Popular topics displays the most sought out information employees have searched for, in one place, providing quick access to important information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/popular-topics-nm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/popular-topics-nm.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -22,7 +22,7 @@ Employee Center uses an algorithm to determine which topics appear on the widget
 
 The popularity is calculated based on a scheduled job that runs daily. The algorithm takes into account all the search history for different topics since the configuration of the Employee Center portal.
 
-For more information on the Popular topics configuration, see [Popular topics widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-popular-topics.md).
+For more information on the Popular topics configuration, see [Popular topics widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-popular-topics.md).
 
-**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
+**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
 

@@ -2,7 +2,7 @@
 title: Transfer email interactions
 description: Transfer an email interaction routed by AWA or CCaaS to another agent or queue when the interaction needs to be handled by a different team or individual.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/transfer-email-interactions-eaai.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/transfer-email-interactions-eaai.html
 release: australia
 topic_type: task
 last_updated: "2026-05-11"

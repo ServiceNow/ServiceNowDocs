@@ -2,7 +2,7 @@
 title: Creating custom lists on Workplace Central
 description: You can create custom lists using the Lists module on Workplace Central. You can create a custom list by using existing lists from Workplace Central, or by using a system table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/creating-custom-lists-wsd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/creating-custom-lists-wsd.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -16,12 +16,12 @@ breadcrumb: [Use, Workplace Central, Workplace Service Delivery, Employee Servic
 
 You can create custom lists using the Lists module on Workplace Central. You can create a custom list by using existing lists from Workplace Central, or by using a system table.
 
--   **[Create a custom list based on an existing list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-list-from-existing.md)**  
+-   **[Create a custom list based on an existing list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-list-from-existing.md)**  
 Create a custom list based on an existing list on Workplace Central.
--   **[Create a custom list based on a system table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-custom-list.md)**  
+-   **[Create a custom list based on a system table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-custom-list.md)**  
 Create a custom list on Workplace Central based on a system table.
 
-**Parent Topic:**[Use Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/use-workplace-central.md)
+**Parent Topic:**[Use Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/use-workplace-central.md)
 
 **Related topics**  
 

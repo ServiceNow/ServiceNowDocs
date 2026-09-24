@@ -2,7 +2,7 @@
 title: KB View widget
 description: The KB View widget is an example of how to structure a knowledge base page. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/kb-view-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/kb-view-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -24,7 +24,7 @@ Use the search filter to find a specific topic or article.
 
 The KB view widget does not have any included instance options.
 
-**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/km-widgets.md)
+**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/km-widgets.md)
 
 **Related topics**  
 

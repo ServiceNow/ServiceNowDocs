@@ -2,7 +2,7 @@
 title: Install Zero Copy Connector for ERP
 description: Install Zero Copy Connector for ERP from the ServiceNow Store, so that you can connect to SAP and other ERP systems and start building models on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/install-erp-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/install-erp-integration.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -19,7 +19,7 @@ Install Zero Copy Connector for ERP from the ServiceNow Store, so that you can c
 
 ## Before you begin
 
-For a complete list of prerequisites for installing Zero Copy Connector for ERP, including licensing information, see [Requirements for installing Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-prereqs-for-installation.md).
+For a complete list of prerequisites for installing Zero Copy Connector for ERP, including licensing information, see [Requirements for installing Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-prereqs-for-installation.md).
 
 Role required: admin
 

@@ -2,7 +2,7 @@
 title: Audit Manager Performance Analytics dashboard
 description: The Audit Manager dashboard provides the current view of audit engagements and related audit activities. Users with the sn\_audit.manager role can view this dashboard. This Audit Manager dashboard is part of the Advanced GRC dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-manager-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/audit-manager-dashboard.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -195,5 +195,5 @@ To view the Audit Manager dashboard, navigate to **Audit** &gt; **Audit Manage
 **Related topics**  
 
 
-[Advanced Governance, Risk, and Compliance Application Risk dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/advanced-grc-dashboard.md)
+[Advanced Governance, Risk, and Compliance Application Risk dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/advanced-grc-dashboard.md)
 

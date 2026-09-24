@@ -2,7 +2,7 @@
 title: BlackBerry Unified Endpoint Management \(UEM\)
 description: Use BlackBerry UEM \(Unified Endpoint Management\) as a mobile device management system to distribute and manage the ServiceNow mobile app on user devices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/blackberry-uem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/blackberry-uem.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,10 +35,10 @@ ServiceNow has BlackBerry integrated versions of the Now Mobile and Mobile Agent
 \[Omitted image "blackberry-uem-apps.png"\] Alt text: BlackBerry UEM versions of Now Mobile and Mobile Agent apps
 
 </td></tr></tbody>
-</table>-   **[Managing ServiceNow mobile apps with BlackBerry UEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-blackberry-uem.md)**  
+</table>-   **[Managing ServiceNow mobile apps with BlackBerry UEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-blackberry-uem.md)**  
 Learn how to manage ServiceNow mobile applications in the BlackBerry UEM \(Unified Endpoint Management\).
--   **[Configure BlackBerry Access for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-blackberry-access.md)**  
+-   **[Configure BlackBerry Access for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-blackberry-access.md)**  
 Configure the BlackBerry Access browser to authenticate ServiceNow mobile apps.
 
-**Parent Topic:**[Supported mobile device management vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-vendors.md)
+**Parent Topic:**[Supported mobile device management vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-vendors.md)
 

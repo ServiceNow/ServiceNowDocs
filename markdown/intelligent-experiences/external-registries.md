@@ -2,12 +2,12 @@
 title: External Registries
 description: External Registries is the mechanism that lets an AI Steward make a managed AI agent discoverable to external systems.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/external-registries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/external-registries.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -45,7 +45,7 @@ An AI agent can have one of the following publish-ability states:
 **Note:** The Microsoft integration provides the following methods to publish an AI agent so that Microsoft can discover it:
 
 -   An AI Steward can mark an AI agent as publishable or unpublishable directly from the AI asset record page.
--   An AI Steward can mark an AI agent as publishable or unpublishable in the corresponding Onboarding playbook. This option is available through the Publish to External Registries task of the Deploy activity. For more information on the Onboarding playbook, see [AI Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-playbooks-reference.md).
+-   An AI Steward can mark an AI agent as publishable or unpublishable in the corresponding Onboarding playbook. This option is available through the Publish to External Registries task of the Deploy activity. For more information on the Onboarding playbook, see [AI Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-playbooks-reference.md).
 
 If an AI agents meets all eligibility criteria, it is marked as publishable and returned by the discoverable APIs.
 

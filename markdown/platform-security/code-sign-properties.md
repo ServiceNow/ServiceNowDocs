@@ -2,7 +2,7 @@
 title: Properties installed with Code Signing
 description: Code Signing adds the following properties.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/code-sign-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/code-sign-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -180,7 +180,7 @@ true\|false
 
 </td><td>
 
-Whether the Root of Trust feature is active. The default value is `false`, meaning that ServiceNow build certificates are trusted.**Important:** This property can only be changed using a signed scheduled job from a user with the admin, security admin and KMF manager roles. For details on changing your Root of Trust, see [Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/change-rot-overview.md).
+Whether the Root of Trust feature is active. The default value is `false`, meaning that ServiceNow build certificates are trusted.**Important:** This property can only be changed using a signed scheduled job from a user with the admin, security admin and KMF manager roles. For details on changing your Root of Trust, see [Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/change-rot-overview.md).
 
 </td></tr><tr><td>
 
@@ -219,5 +219,5 @@ true\|false
 When true, enables RESTMessageV2 Code Signing tracking.**Important:** Elevated Security is needed to modify this property.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-reference.md)
+</table>**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-reference.md)
 

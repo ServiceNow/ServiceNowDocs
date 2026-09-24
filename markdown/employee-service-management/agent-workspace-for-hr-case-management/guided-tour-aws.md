@@ -2,7 +2,7 @@
 title: Use Guided Tours in Agent Workspace for HR Case Management
 description: Use Guided Tours in Agent Workspace for HR Case Management to get instructions on how to perform a task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/guided-tour-aws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/guided-tour-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

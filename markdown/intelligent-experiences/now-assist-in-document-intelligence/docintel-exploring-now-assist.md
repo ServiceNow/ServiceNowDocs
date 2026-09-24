@@ -2,7 +2,7 @@
 title: Exploring Now Assist in Document Intelligence
 description: With Now Assist in Document Intelligence, you can use generative AI to extract key information from your documents and images for use in your workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/docintel-exploring-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-exploring-now-assist.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -23,7 +23,7 @@ Now Assist in Document Intelligence makes the following generative AI capabiliti
 
 -   Extract information from documents. Extract information in the form of fields, tables, and answers to predefined questions from documents and image files. The information can be reviewed by agents in the Document Intelligence workspace, stored in mapped fields, and used as defined in the workflow.
 -   Document Q&amp;A: Agents can save time when reviewing documents by using the predictive capabilities of generative AI to provide answers to predefined questions.
--   Document and visual insights AI agent. The AI agent gathers context from user input and document or image attachments, generates the requested information based on the content, and provides the information along with any relevant task details. For more information on AI agents, see [Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-and-visual-insights-ai-agent.md).
+-   Document and visual insights AI agent. The AI agent gathers context from user input and document or image attachments, generates the requested information based on the content, and provides the information along with any relevant task details. For more information on AI agents, see [Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/document-and-visual-insights-ai-agent.md).
 -   Contract metadata extraction and contract analysis. The skills for contract metadata extraction and contract analysis are only available with the Now Assist in Contract Management application. For more information, see .
 -   Attachment summarization. Agents can view a summary of attachment content along with the record summary in ITSM. Attachment summarization is available in Now Assist for ITSM. For more information, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-itsm-skill.md).
 -   Document chat. Agents can receive chat responses based on document content. Document chat is available in Now Assist for Virtual Agent. For more information, see [Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/upload-documents-na-va.md).
@@ -32,17 +32,17 @@ Now Assist in Document Intelligence makes the following generative AI capabiliti
 
 ## Now Assist in Document Intelligence skills
 
-Now Assist in Document Intelligence skills are enabled in the Platform workflow on the Now Assist Admin Console. For more information on activating the skills, see [Activate a Now Assist in Document Intelligence skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/activate-now-assist-in-document-intelligence-skill.md).
+Now Assist in Document Intelligence skills are enabled in the Platform workflow on the Now Assist Admin Console. For more information on activating the skills, see [Activate a Now Assist in Document Intelligence skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/activate-now-assist-in-document-intelligence-skill.md).
 
 -   **Extract information from documents**
 
-    The extract information from documents skill allows you to use Now Assist predictions to extract fields and tables and find answers to predefined questions from a document or image. Agents can review and edit predictions in the Document Intelligence workspace. For more information, see [Review extracted information in the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/review-extracted-information.md).
+    The extract information from documents skill allows you to use Now Assist predictions to extract fields and tables and find answers to predefined questions from a document or image. Agents can review and edit predictions in the Document Intelligence workspace. For more information, see [Review extracted information in the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/review-extracted-information.md).
 
 -   **Multimodal chat**
 
     The multimodal chat skill is used to enable chat responses about the content of uploaded documents and images. It is only used on the server side by the document and visual insights AI agent and by the question answering capability in Now Assist for Virtual Agent. This skill doesn’t require configuration in the Now Assist Admin console.
 
-    For more information on these capabilities, see [Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-and-visual-insights-ai-agent.md) and [Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/upload-documents-na-va.md).
+    For more information on these capabilities, see [Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/document-and-visual-insights-ai-agent.md) and [Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/upload-documents-na-va.md).
 
 
 ## Now Assist in Document Intelligence workflow
@@ -83,13 +83,13 @@ Start fast with a guided set up of your use cases to identify the information yo
 
 </td><td>
 
-[Set up document intelligence use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.md)
+[Set up document intelligence use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.md)
 
 </td><td>
 
-[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+[DocIntel Admin \[sn\_docintel.admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
- [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+ [DocIntel Manager \[sn\_docintel.manager\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -97,11 +97,11 @@ Accelerate the extraction of information from documentsin the form of fields, ta
 
 </td><td>
 
-[Review extracted information in the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/review-extracted-information.md)
+[Review extracted information in the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/review-extracted-information.md)
 
 </td><td>
 
-[DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+[DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
 
 </td></tr></tbody>
 </table>

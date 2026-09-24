@@ -2,7 +2,7 @@
 title: Activate the GRC case summarization skill
 description: Activate the GRC case summarization skill from the AI Admin Hub to generate AI-powered summaries of privacy case records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/activate-grc-case-summarization-skill.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/activate-grc-case-summarization-skill.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -34,7 +34,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
 4.  Review the skill configuration details on each tab, and select **Save and continue**.
 
-    For a description of each skill configuration tab, see [GRC case summarization skill configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/grc-case-summarization-config-tabs.md).
+    For a description of each skill configuration tab, see [GRC case summarization skill configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/grc-case-summarization-config-tabs.md).
 
 5.  On the **Review and activate** tab, verify the full configuration and select **Activate**.
 
@@ -52,7 +52,7 @@ You can edit the skill configurations from the AI Admin Hub console after activa
 **Related topics**  
 
 
-[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)
+[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)
 
-[Summarize a privacy case using the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/summarize-privacy-case.md)
+[Summarize a privacy case using the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/summarize-privacy-case.md)
 

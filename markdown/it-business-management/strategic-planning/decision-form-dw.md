@@ -2,7 +2,7 @@
 title: Decision form
 description: The decision form enables you to create a decision or plan for a demand to resolve or mitigate a risk or issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/decision-form-dw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/decision-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

@@ -2,7 +2,7 @@
 title: Adjuster tasks
 description: Adjusters can work on claim tasks from the claim workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/adjuster-tasks-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/adjuster-tasks-workspace.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

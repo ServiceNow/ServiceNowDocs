@@ -2,7 +2,7 @@
 title: Setting up CPQ Configurator
 description: Set up CPQ Configurator to define product pricing, create pricing rules, create complex product bundles, and enable other capabilities.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/setup-cpq-integrator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/setup-cpq-integrator.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-25"
@@ -18,11 +18,11 @@ The Configurator streamlines the quoting process by automating configuration log
 
 You can set up the Configurator using one of the following approaches.
 
--   [Configure CPQ Configurator using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/guided-setup.md)
+-   [Configure CPQ Configurator using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/guided-setup.md)
 
     Use the guided setup to configure the Configurator step by step. The guided setup walks you through each required setting in a structured sequence, providing context and validation at each stage.
 
--   [Set up ServiceNow CPQ Configurator without guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-servicenow-cpq.md)
+-   [Set up ServiceNow CPQ Configurator without guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-servicenow-cpq.md)
 
     Configure each setting individually without guided assistance. This approach provides full flexibility and control over configuration order and settings.
 

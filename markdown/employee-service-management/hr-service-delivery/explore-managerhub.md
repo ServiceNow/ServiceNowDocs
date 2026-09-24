@@ -2,7 +2,7 @@
 title: Explore Manager Hub
 description: Learn how to set up and start using Manager Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/explore-managerhub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/explore-managerhub.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,11 +32,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Configure roles, team data, team requests, important dates, team column data, team filters, daily stats, and Employee Center and other Service Portals. Display curated and personalized data to managers in Manager Hub.
 
-To learn more about this, see [Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md) and [Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md).
+To learn more about this, see [Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-managerhub.md) and [Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md).
 
 ## 3. Using Manager Hub in Employee Center
 
 Have a better engagement with your team — Act on items that need immediate attention, keep yourself up-to-date on upcoming team events and employee transitions, and expand your leadership skills.
 
-To learn more about this, see [Use Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-manager-hub.md).
+To learn more about this, see [Use Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/use-manager-hub.md).
 

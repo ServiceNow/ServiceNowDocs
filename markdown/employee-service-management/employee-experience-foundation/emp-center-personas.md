@@ -2,7 +2,7 @@
 title: Employee Center roles
 description: Employee Center plugins include necessary roles for configuring and using the features. Learn more about the roles and the tasks they can perform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-center-personas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-center-personas.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -113,7 +113,7 @@ Not applicable
 </td></tr></tbody>
 </table>## Employee Profile
 
-For more information, see [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
+For more information, see [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 
 <table id="table_zs3_3n1_xcc"><thead><tr><th>
 

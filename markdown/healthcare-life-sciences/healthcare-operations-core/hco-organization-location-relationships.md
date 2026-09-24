@@ -2,7 +2,7 @@
 title: Organization and location relationships in Healthcare Operations Core
 description: The tables that make up your organization and location model span two topics: how Healthcare Operations Core extends the Service Model Foundation \(SMF\) hierarchy, and how healthcare organizations and healthcare locations layer on top of it. Read both together to understand the full picture before you configure either one.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hco-organization-location-relationships.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/hco-organization-location-relationships.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -31,7 +31,7 @@ Both chains are healthcare's take on the same Service Model Foundation \(SMF\) f
 
 Read the following topics in order to go from the data model to a configured hierarchy:
 
-1.  [Understanding Service Model Foundation in Healthcare Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/understanding-service-model-foundations-hco.md)—the SMF extension hierarchy, case visibility fields, and importing location data.
-2.  [Example: Service Model Foundation in a hospital setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/smf-hco-hospital-setting-example.md)—a worked example applying that hierarchy to a hospital system.
-3.  [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md)—healthcare organization and healthcare location profiles, and how the two are associated.
+1.  [Understanding Service Model Foundation in Healthcare Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-service-model-foundations-hco.md)—the SMF extension hierarchy, case visibility fields, and importing location data.
+2.  [Example: Service Model Foundation in a hospital setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/smf-hco-hospital-setting-example.md)—a worked example applying that hierarchy to a hospital system.
+3.  [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md)—healthcare organization and healthcare location profiles, and how the two are associated.
 

@@ -2,7 +2,7 @@
 title: Configure agent-initiated wrap-up
 description: Enable the agent-initiated wrap-up option and define the wrap-up codes that agents can select during an active call.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/initiate-agent-wrap-up-admin-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/initiate-agent-wrap-up-admin-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-06-18"

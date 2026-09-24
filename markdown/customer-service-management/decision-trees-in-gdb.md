@@ -2,7 +2,7 @@
 title: Configuring decision trees in Decision Tree Builder
 description: Configure decision trees using the no-code visual Decision Tree Builder, which provides a canvas for a diagrammatic representation of nodes and their paths in a troubleshooting process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/decision-trees-in-gdb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/decision-trees-in-gdb.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,9 +14,9 @@ breadcrumb: [Configuring guidances and decision trees, Guided Decisions configur
 
 Configure decision trees using the no-code visual Decision Tree Builder, which provides a canvas for a diagrammatic representation of nodes and their paths in a troubleshooting process.
 
-As a process owner or business analyst, you can configure [decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) by adding nodes, defining paths, and attaching guidances through Decision Tree Builder. For more information, see [Decision tree nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guided-decision-tree-node-types.md).
+As a process owner or business analyst, you can configure [decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) by adding nodes, defining paths, and attaching guidances through Decision Tree Builder. For more information, see [Decision tree nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/guided-decision-tree-node-types.md).
 
-You can validate and activate a decision tree with a single action. For more information, see [Activate a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-guided-decision-tree.md).
+You can validate and activate a decision tree with a single action. For more information, see [Activate a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-guided-decision-tree.md).
 
 ## Decision Tree Builder canvas
 
@@ -28,19 +28,19 @@ You can access the Decision Tree Builder by selecting the **Open in Builder** bu
 
 ## Configuring question and guidance nodes
 
-You can configure a new node as a question node or a guidance node. When there are multiple questions in a start node or a question node, you can delete a question or change the order of the questions. For more information, see [Add questions or instructions to a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-start-node-gdb.md).
+You can configure a new node as a question node or a guidance node. When there are multiple questions in a start node or a question node, you can delete a question or change the order of the questions. For more information, see [Add questions or instructions to a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-start-node-gdb.md).
 
-Guidance nodes provide actions to agents to resolve or escalate a customer issue. You can either select a guidance from the list of available guidances or create a guidance in Core UI. You can then configure guidance inputs by entering static values or reuse inputs from prior nodes. For more information, see [Provide actions to agents in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-guidance-in-gdb.md).
+Guidance nodes provide actions to agents to resolve or escalate a customer issue. You can either select a guidance from the list of available guidances or create a guidance in Core UI. You can then configure guidance inputs by entering static values or reuse inputs from prior nodes. For more information, see [Provide actions to agents in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-guidance-in-gdb.md).
 
 ## Linking node
 
-You can configure a new node as a linking node to link a child decision tree to the current decision tree. This linking connects the execution of the primary decision tree to another decision tree when a specific condition is met. For more information, see [Link an activated decision tree to this decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-linking-node-dtb.md).
+You can configure a new node as a linking node to link a child decision tree to the current decision tree. This linking connects the execution of the primary decision tree to another decision tree when a specific condition is met. For more information, see [Link an activated decision tree to this decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-linking-node-dtb.md).
 
 ## Creating paths for the next nodes
 
 A path in a decision tree connects one node to another. You can configure a condition to define when the path must be taken. Selecting certain answers can be a condition for the path. The priority order for a path sets the precedence of one path over another.
 
-For more information, see [Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-path-in-gdb.md).
+For more information, see [Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-path-in-gdb.md).
 
 ## Editing a node or a path
 
@@ -57,16 +57,16 @@ Note the following information about deleting a node or path:
 
 ## Linking inputs
 
-You can link inputs from one node to another to reuse input values from prior nodes. You can use linked inputs to create path conditions. For more information about input mapping in the question node or guidance node, see [Linking inputs in decision tree nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guided-decision-tree-input-mapping.md).
+You can link inputs from one node to another to reuse input values from prior nodes. You can use linked inputs to create path conditions. For more information about input mapping in the question node or guidance node, see [Linking inputs in decision tree nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/guided-decision-tree-input-mapping.md).
 
-For more information, see [Reuse answers at decision points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/map-inputs-in-decision-guidance-node.md).
+For more information, see [Reuse answers at decision points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/map-inputs-in-decision-guidance-node.md).
 
 **Related topics**  
 
 
-[Validation error notifications in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/validation-errors-builder.md)
+[Validation error notifications in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/validation-errors-builder.md)
 
-[Activate a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-guided-decision-tree.md)
+[Activate a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-guided-decision-tree.md)
 
-[Revert to the previous activated decision tree version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/discard-latest-changes.md)
+[Revert to the previous activated decision tree version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/discard-latest-changes.md)
 

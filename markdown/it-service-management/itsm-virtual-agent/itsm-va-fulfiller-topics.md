@@ -2,7 +2,7 @@
 title: Fulfiller pre-built topics for ITSM Virtual Agent
 description: Fulfiller topic conversations are designed specifically for ITSM professionals with the itil role. These pre-built topics include resolving an incident, creating a problem, and updating data in the system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-fulfiller-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/itsm-va-fulfiller-topics.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -61,5 +61,5 @@ Users with the itil role can update comments or work notes in assigned tasks. Wh
 
 Users with the itil role can update the actual start and end time of a change, as well as move it to work in progress or closed states.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

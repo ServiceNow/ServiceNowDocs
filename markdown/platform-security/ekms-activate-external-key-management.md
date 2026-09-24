@@ -2,7 +2,7 @@
 title: Activate External Key Management Service
 description: Install the External Key Management Service \(EKMS\) plugin and configure user permissions to enable external key management functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/ekms-activate-external-key-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-activate-external-key-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -55,12 +55,12 @@ Next steps:
 -   Set up AWS Key Management Service access within AWS \(the process for this is out of scope of the ServiceNow documentation\)
 -   Configure the EKMS key definition in ServiceNow
 
-**Parent Topic:**[Configuring External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configuring-external-key-management.md)
+**Parent Topic:**[Configuring External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-configuring-external-key-management.md)
 
 **Related topics**  
 
 
-[External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-external-key-management.md)
+[External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-external-key-management.md)
 
-[Configure an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configure-external-key-definition.md)
+[Configure an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-configure-external-key-definition.md)
 

@@ -2,7 +2,7 @@
 title: Platform Analytics experience
 description: Distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/par-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/par-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,31 +31,31 @@ The Platform Analytics experience has two main sections:
     The library is a set of pages listing all the Platform Analytics visual components that you can access, along with utilities that apply to these components. You can also create your own dashboards, data visualizations, and filters. With the appropriate roles, you can add the components you create to the shared library.
 
 
-**Note:** You can add an Analytics Overview with tabs for library content to your own configurable workspace. For more information, see [Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/adding-analytics-center-to-ws.md).
+**Note:** You can add an Analytics Overview with tabs for library content to your own configurable workspace. For more information, see [Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/adding-analytics-center-to-ws.md).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Platform Analytics Dashboards \[Omitted image "bus-management-console.svg"\] Alt text: View all the dashboards you have rights to access, and filter them by those you've created, those you've bookmarked, and those that are certified. Create your own dashboards and potentially share them with others.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md)
+[Platform Analytics Dashboards \[Omitted image "bus-management-console.svg"\] Alt text: View all the dashboards you have rights to access, and filter them by those you've created, those you've bookmarked, and those that are certified. Create your own dashboards and potentially share them with others.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md)
 
 </td><td>
 
-[Data visualizations \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Create, update, certify, and share visualizations based on tables, indicators, or other data to share with others.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md)
+[Data visualizations \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Create, update, certify, and share visualizations based on tables, indicators, or other data to share with others.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md)
 
 </td><td>
 
-[Platform Analytics filters \[Omitted image "bus-filter.svg"\] Alt text: Filter lists and data visualizations on a dashboard by data value, by whether the value is true or false, or by date.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md)
+[Platform Analytics filters \[Omitted image "bus-filter.svg"\] Alt text: Filter lists and data visualizations on a dashboard by data value, by whether the value is true or false, or by date.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/interactive-filters-workspace.md)
 
 </td></tr><tr><td>
 
-[KPI Details \[Omitted image "bus-infographic.svg"\] Alt text: Delve into the information behind your Key Performance Indicator \(KPI\) scores. See trends, forecasts, and associated records. Experiment with different breakdowns and time aggregations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md)
+[KPI Details \[Omitted image "bus-infographic.svg"\] Alt text: Delve into the information behind your Key Performance Indicator \(KPI\) scores. See trends, forecasts, and associated records. Experiment with different breakdowns and time aggregations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details.md)
 
 </td><td>
 
-[KPI Signals \[Omitted image "bus-customize.svg"\] Alt text:&gt;Learn when a business process behaves in an unexpected way. Notify responsible users when a KPI score changes significantly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-behavior-charts-for-kpis.md)
+[KPI Signals \[Omitted image "bus-customize.svg"\] Alt text:&gt;Learn when a business process behaves in an unexpected way. Notify responsible users when a KPI score changes significantly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-behavior-charts-for-kpis.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Data caching, roles, and tables across the Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-exp-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Data caching, roles, and tables across the Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-exp-reference.md)
 
 </td></tr></tbody>
 </table>

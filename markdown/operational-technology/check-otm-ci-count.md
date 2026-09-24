@@ -2,10 +2,10 @@
 title: Check CI count used for OTM subscriptions
 description: View the daily counts or the averages for the most recent 90 days of CI data. ServiceNow OT Foundation, ServiceNow OT Visibility and ServiceNow OT Vulnerability and Response offer insights into the licensed resources that OTM applications support. Resources that OTM applications discover, monitor, and provision are configuration items \(CIs\) stored in the CMDB. The OTM licensing module combines this CI information with the information on subscriptions your organization purchased to produce statistics on subscription use by OTM applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/check-otm-ci-count.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/check-otm-ci-count.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_itom\_license.reader
 
 ## About this task
 
-ServiceNow incurs charges for the usage of ServiceNow OT Foundation, ServiceNow OT Visibility and ServiceNow OT Vulnerability and Response. To gain a deeper understanding of the products and features included in OTM subscriptions, see [Subscriptions for OTM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/otm-license-module.md).
+ServiceNow incurs charges for the usage of ServiceNow OT Foundation, ServiceNow OT Visibility and ServiceNow OT Vulnerability and Response. To gain a deeper understanding of the products and features included in OTM subscriptions, see [Subscriptions for OTM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/otm-license-module.md).
 
 The procedure for gathering and consolidating data for licensing purposes involves the following series of actions:
 

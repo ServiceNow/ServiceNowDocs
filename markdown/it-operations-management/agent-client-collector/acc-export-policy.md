@@ -2,7 +2,7 @@
 title: Export and import an Agent Client Collector policy
 description: You can move a single or multiple Agent Client Collector policies from one ServiceNow instance to another by exporting the policy and then importing it into the target instance. Only published policies can be exported.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-export-policy.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-export-policy.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

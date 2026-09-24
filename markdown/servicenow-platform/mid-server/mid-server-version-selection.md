@@ -2,7 +2,7 @@
 title: Pinning a MID Server to a specific version
 description: You can pin all the MID Servers in your environment to a specific version by setting a system property, or you can configure specific versions for individual MID Servers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-version-selection.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-server-version-selection.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -35,9 +35,9 @@ These system properties control the version for all MID Servers:
 
 ## Version control configuration parameter
 
-To pin specific MID Servers on a desired version, set the **mid.pinned.version** parameter with the name of that version in the **config.xml** file of each MID Server. Use the format **&lt;version&gt;-mm-dd-yyyy**. This setting overrides the property setting for the pinned MID Server version. The MID Server version is checked every 20 minutes or whenever the MID Server restarts, at which point the pinned version is applied. For instructions, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
+To pin specific MID Servers on a desired version, set the **mid.pinned.version** parameter with the name of that version in the **config.xml** file of each MID Server. Use the format **&lt;version&gt;-mm-dd-yyyy**. This setting overrides the property setting for the pinned MID Server version. The MID Server version is checked every 20 minutes or whenever the MID Server restarts, at which point the pinned version is applied. For instructions, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md).
 
 **Note:** The value set in this parameter is not affected by an upgrade.
 
-**Parent Topic:**[MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md)
+**Parent Topic:**[MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md)
 

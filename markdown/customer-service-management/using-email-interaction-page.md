@@ -2,7 +2,7 @@
 title: Using email interaction page
 description: The email interaction page enables agents to view incoming and outgoing emails, attachments, work notes, and other related information in one location. Agents can review and respond to emails and resolve customer inquiries.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-email-interaction-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-email-interaction-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ The email interaction page includes the following features:
 -   Generate AI summaries of email interactions on demand. Summaries are also generated on transfer, reducing the need to read the full email thread. Check your entitlements to determine whether you have access to this feature.
 -   Transfer AWA -routed email interactions to another agent or queue directly from the interaction page.
 
-The email interaction page includes sections such as Contact, Interaction form, Compose, and Activity stream, and the contextual side panel. For more information, see [Email interaction sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/email-interaction-page.md).
+The email interaction page includes sections such as Contact, Interaction form, Compose, and Activity stream, and the contextual side panel. For more information, see [Email interaction sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/email-interaction-page.md).
 
 Agents can use the Contact component to do the following:
 

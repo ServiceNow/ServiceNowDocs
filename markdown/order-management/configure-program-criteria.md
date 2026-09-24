@@ -2,10 +2,10 @@
 title: Configure Program Criteria
 description: Establish a mapping between the partner program \(sn\_prm\_partner\_program\_relationship\) table and the entity criteria \(sn\_req\_criteria\_customer\_condition\) table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/configure-program-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-program-criteria.html
 release: australia
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Data model for PRM, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -30,17 +30,17 @@ Role required: sn\_prm.partner\_program\_writer or sn\_prm.enterprise\_partner\_
 
 5.  On the form, fill in the fields.
 
-    To learn about the fields on the program criteria table, see [Program criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/program-criteria-table-fields.md).
+    To learn about the fields on the program criteria table, see [Program criteria table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/program-criteria-table-fields.md).
 
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-partner-relationship-management.md)
+**Parent Topic:**[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/data-model-for-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Configure Program Segment Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-program-segment-mapping.md)
+[Configure Program Segment Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-program-segment-mapping.md)
 
-[Configure Program Segment Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-program-segment-criteria.md)
+[Configure Program Segment Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-program-segment-criteria.md)
 

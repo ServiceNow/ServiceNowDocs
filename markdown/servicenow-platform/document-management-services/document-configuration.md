@@ -2,7 +2,7 @@
 title: Configure document permissions
 description: Set sharing permissions on external cloud files using document configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/document-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/document-configuration.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -51,7 +51,7 @@ Role required: admin
 13. Select **Submit**.
 
 
-**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
+**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
 **Related topics**  
 

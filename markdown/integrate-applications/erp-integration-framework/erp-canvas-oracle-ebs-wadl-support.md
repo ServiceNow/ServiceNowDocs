@@ -2,7 +2,7 @@
 title: WADL service support for Oracle E-Business Suite
 description: Oracle E-Business Suite \(EBS\) exposes custom PL/SQL integration services that are described by WADL documents rather than OpenAPI specifications. Zero Copy Connector for ERP discovers, parses, and models these services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -21,7 +21,7 @@ Oracle E-Business Suite \(EBS\) exposes custom PL/SQL integration services that 
 
 Oracle EBS publishes custom PL/SQL packages as REST services through the Integrated SOA Gateway \(ISG\). ISG describes each service with a Web Application Description Language \(WADL\) document plus a set of referenced XML Schema Definition \(XSD\) grammar files. ISG does not use an OpenAPI or Swagger specification.
 
-Because of this, Oracle EBS services follow a separate path through Zero Copy Connector for ERP from the OpenAPI-based REST services described in [Connecting to other ERP systems using REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-rest.md). Both paths end at the same place: model entities and fields you map in Model Manager.
+Because of this, Oracle EBS services follow a separate path through Zero Copy Connector for ERP from the OpenAPI-based REST services described in [Connecting to other ERP systems using REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-use-rest.md). Both paths end at the same place: model entities and fields you map in Model Manager.
 
 ## Service discovery and caching
 
@@ -37,5 +37,5 @@ After fields are generated, a validation strategy is set on the operation based 
 
 ## Related tasks and reference
 
-To add a WADL service manually when discovery does not find it, see [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
+To add a WADL service manually when discovery does not find it, see [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
 

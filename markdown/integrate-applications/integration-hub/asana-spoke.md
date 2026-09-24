@@ -2,7 +2,7 @@
 title: Asana Spoke
 description: The Asana spoke provides actions to view and analyze meaningful usage data for Asana software subscriptions based on stories created by the user. Use this data to determine which licenses are stale so that you can reclaim these licenses and realize potential savings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/asana-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/asana-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

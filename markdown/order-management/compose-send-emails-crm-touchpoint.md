@@ -2,7 +2,7 @@
 title: Send an email from a touchpoint
 description: Send emails to customers and stakeholders directly from a touchpoint record without having to leave the workspace. Emails are stored in the CRM system so other agents, managers, and customer success managers have full context about interactions with the customer or account.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/compose-send-emails-crm-touchpoint.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/compose-send-emails-crm-touchpoint.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,12 +61,12 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
         The email is sent to the recipients and can be viewed from the touchpoint's **Emails** tab.
 
 
-**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-activity-management.md)
 
 **Related topics**  
 
 
-[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
+[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-activity-management.md)
 
-[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-activity-management.md)
 

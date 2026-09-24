@@ -2,10 +2,10 @@
 title: Combined Contract Management Pro for Legal Service Delivery release notes for upgrades from Yokohama to Australia
 description: Consolidated page of all release notes for Contract Management Pro for Legal Service Delivery from Yokohama to Australia.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-contractmanagementproforlegalservicedelivery-release-notes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-contractmanagementproforlegalservicedelivery-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -257,6 +257,8 @@ Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by re
 For details, see [Install ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-install-legal-contracts&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Contract Management Pro for Legal Service Delivery is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -269,6 +271,8 @@ Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by re
 
 For details, see [Install ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-install-legal-contracts&family=zurich&ft:locale=en-US).
 
+
+**Important:** Contract Management Pro for Legal Service Delivery is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -474,5 +478,5 @@ Australia
 No updates for this release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)
 

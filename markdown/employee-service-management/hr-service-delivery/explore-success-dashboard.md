@@ -2,7 +2,7 @@
 title: Explore the HR Success Dashboard indicators
 description: Get an overview of the HR Success Dashboard indicators to understand the different components on the dashboard and how can you use the dashboard for your organization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/explore-success-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/explore-success-dashboard.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

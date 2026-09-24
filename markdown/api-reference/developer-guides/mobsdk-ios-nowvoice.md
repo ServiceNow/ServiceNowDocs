@@ -2,7 +2,7 @@
 title: Embed an AI voice agent with NowVoice
 description: Use the NowVoice module to embed a real-time AI voice agent session into your iOS application.Configure NowVoice to add a real-time voice agent to your iOS application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-nowvoice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-ios-nowvoice.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -28,11 +28,11 @@ NowVoice gives your app a complete, ready-to-present voice agent UI. When a user
 
 ## Theming
 
-NowVoice integrates with the NowUI theming system. Pass any type conforming to [`NowVoiceThemeable`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md) to apply custom colors. [`NowVoiceDefaultTheme`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceDefThemeiOSStruct.md) is provided as a default.
+NowVoice integrates with the NowUI theming system. Pass any type conforming to [`NowVoiceThemeable`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md) to apply custom colors. [`NowVoiceDefaultTheme`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NVoiceDefThemeiOSStruct.md) is provided as a default.
 
 ## NowChat integration
 
-If your app uses NowChat, you can enable NowVoice in the chat interface. Set [`NowChatConfiguration`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) properties to configure voice within the NowChat UI and add a voice button. Tapping it launches the voice agent UI as a full-screen overlay within the chat flow.
+If your app uses NowChat, you can enable NowVoice in the chat interface. Set [`NowChatConfiguration`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) properties to configure voice within the NowChat UI and add a voice button. Tapping it launches the voice agent UI as a full-screen overlay within the chat flow.
 
 ## Mobile SDK instance settings
 
@@ -84,7 +84,7 @@ Role required: admin
 
     If you have not already done so, configure NowSDK once at app launch. NowVoice requires NowSDK to be configured before any voice operations.
 
-    1.  Call [`NowSDK.configure(with:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowSDKAPIiOS.md).
+    1.  Call [`NowSDK.configure(with:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowSDKAPIiOS.md).
 
         ```swift
         import NowSDK
@@ -115,7 +115,7 @@ Role required: admin
 
 3.  Create a NowVoiceService.
 
-    Import NowVoice and call [`makeVoiceService(instanceUrl:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md) with the URL of your ServiceNow instance. This is an async function; call it from an async context or a Task.
+    Import NowVoice and call [`makeVoiceService(instanceUrl:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md) with the URL of your ServiceNow instance. This is an async function; call it from an async context or a Task.
 
     ```swift
     import NowVoice
@@ -132,7 +132,7 @@ Role required: admin
 
 4.  Select a voice endpoint.
 
-    Use [`NowVoiceService.configurations`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md) to retrieve the available voice endpoints. In most apps, there is a single endpoint.
+    Use [`NowVoiceService.configurations`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md) to retrieve the available voice endpoints. In most apps, there is a single endpoint.
 
     ```swift
     guard let endpoint = voiceService.configurations.first else {
@@ -143,7 +143,7 @@ Role required: admin
 
 5.  Launch the voice UI.
 
-    Call [`startVoice(endpoint:uiConfiguration:callbacks:theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md) to obtain a `UIViewController` with the voice agent UI. Present it full-screen.
+    Call [`startVoice(endpoint:uiConfiguration:callbacks:theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md) to obtain a `UIViewController` with the voice agent UI. Present it full-screen.
 
     ```swift
     let vc = try await voiceService.startVoice(
@@ -185,7 +185,7 @@ Role required: admin
 
 6.  Apply a custom theme.
 
-    To match the voice UI to your app's visual identity, create a type conforming to [`NowVoiceThemeable`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md) and pass it to [`startVoice(endpoint:uiConfiguration:callbacks:theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md) or [`updateTheme(theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md).
+    To match the voice UI to your app's visual identity, create a type conforming to [`NowVoiceThemeable`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md) and pass it to [`startVoice(endpoint:uiConfiguration:callbacks:theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md) or [`updateTheme(theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md).
 
     ```swift
     struct MyVoiceTheme: NowVoiceThemeable {
@@ -201,9 +201,9 @@ Role required: admin
 
 7.  Embed voice inside NowChat.
 
-    If your app already uses NowChat, you can enable NowVoice in the chat interface. Pass the voice configuration directly to [`NowChatConfiguration`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md). A voice button appears in the chat UI automatically when a valid voice endpoint is provided.
+    If your app already uses NowChat, you can enable NowVoice in the chat interface. Pass the voice configuration directly to [`NowChatConfiguration`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md). A voice button appears in the chat UI automatically when a valid voice endpoint is provided.
 
-    **Note:** When using NowChat with voice, don't call [`startVoice(endpoint:uiConfiguration:callbacks:theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md) to launch the voice UI. NowChat manages the voice session lifecycle internally.
+    **Note:** When using NowChat with voice, don't call [`startVoice(endpoint:uiConfiguration:callbacks:theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md) to launch the voice UI. NowChat manages the voice session lifecycle internally.
 
     ```swift
     import NowChat

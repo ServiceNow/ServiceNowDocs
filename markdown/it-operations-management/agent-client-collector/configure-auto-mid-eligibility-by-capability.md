@@ -2,7 +2,7 @@
 title: Configure the automatic MID Server selection based on the Agent Client Collector capabilities
 description: Configure the MID Servers that are ineligible for automatic MID Server selection with the agent. For example, you may want to block a MID Server from connecting to your agent due to firewall constraints.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-auto-mid-eligibility-by-capability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/configure-auto-mid-eligibility-by-capability.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -26,7 +26,7 @@ Agents with different levels of Agent Client Collector \(ACC\) capability can’
 
 ## Procedure
 
-1.  Configure the Agent Client Collector capabilities for MID Servers, as described in [Configure the Agent Client Collector capabilities for MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-acc-capability.md).
+1.  Configure the Agent Client Collector capabilities for MID Servers, as described in [Configure the Agent Client Collector capabilities for MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-acc-capability.md).
 
 2.  Navigate to **All** &gt; **Agent Client Collector** &gt; **MID Servers**.
 
@@ -54,5 +54,5 @@ Agents with different levels of Agent Client Collector \(ACC\) capability can’
     MID Server B is ineligible for automatic selection, because it doesn’t have the same ACC capability as MID Server A. MID Server C is eligible, because it has the same ACC capability as MID Server A.
 
 
-**Parent Topic:**[Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-auto-mid-selection.md)
+**Parent Topic:**[Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-auto-mid-selection.md)
 

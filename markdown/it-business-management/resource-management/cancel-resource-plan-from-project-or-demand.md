@@ -2,7 +2,7 @@
 title: Cancel a resource plan from a project or demand
 description: If a project or a project task is marked Closed, the project manager can cancel the associated future resource plans. Similarly, the demand manager can cancel the future resource plans for a Closed or Deferred demand.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -100,5 +100,5 @@ A similar message for canceling the resource plans appears on the demand form wh
 -   The selected resource plan moves to the Canceled state.
 -   All past and future allocations for the resource plan are canceled. If there are any actual hours logged against an allocation, that allocation is deleted. In this case, Allocated hours become zero and the actual hours are retained as is.
 
-**Parent Topic:**[Cancel a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CancelAResourcePlan.md)
+**Parent Topic:**[Cancel a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_CancelAResourcePlan.md)
 

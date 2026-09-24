@@ -2,7 +2,7 @@
 title: Run certificate discovery via certificate authority queries
 description: Running Certificate discovery via a certificate authority \(CA\) query allows for systematic identification and import of TLS certificates from specific CAs. This ensures comprehensive tracking, management, and security of the certificate inventory. Discover TLS certificates from CAs with Certificate Inventory and Management, using Patterns for diverse certificate authority vendors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-cert-inventory-mgmt-ca-query.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/run-cert-inventory-mgmt-ca-query.html
 release: australia
 product: Discovery
 classification: discovery
@@ -22,7 +22,7 @@ Role required: pki\_admin or discovery\_admin
 
 ## About this task
 
-In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specific API elements. The user added to the instance credentials needs permissions for these queries. For more information on the Certificate Authorities \(CA\) pattern and the associated API elements, see [Certificate authorities pattern API elements and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ca-api-permission.md).
+In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specific API elements. The user added to the instance credentials needs permissions for these queries. For more information on the Certificate Authorities \(CA\) pattern and the associated API elements, see [Certificate authorities pattern API elements and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/ca-api-permission.md).
 
 ## Procedure
 
@@ -52,7 +52,7 @@ In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specif
 
 3.  Create a Discovery schedule with the following fields.
 
-    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
     1.  Select **Discovery**: **Certificates**.
 

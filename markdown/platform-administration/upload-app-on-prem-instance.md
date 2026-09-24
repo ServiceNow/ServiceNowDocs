@@ -2,7 +2,7 @@
 title: Upload an app to an on-premise instance
 description: Upload an application's encrypted file to your on-premise instance to make it available for installation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upload-app-on-prem-instance.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upload-app-on-prem-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,5 +36,5 @@ Role required: admin
 
 ## What to do next
 
-Install the uploaded application through the Application Manager. For more information, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
+Install the uploaded application through the Application Manager. For more information, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/installing-applications-in-application-manager.md).
 

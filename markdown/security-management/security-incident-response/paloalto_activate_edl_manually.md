@@ -2,7 +2,7 @@
 title: Activate an EDL manually
 description: If the Palo Alto Networks firewall administrator is not using the ServiceNow AI Platform, and you are directly notified that the Palo Alto Networks Next-Generation Firewall is configured, you can activate the External Dynamic List \(EDL\) manually.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto\_activate\_edl\_manually.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/paloalto\_activate\_edl\_manually.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -18,7 +18,7 @@ If the Palo Alto Networks firewall administrator is not using the ServiceNow AI 
 
 ## Before you begin
 
-In Palo Alto Networks, assign an EDL object, policy, and the source URL to the EDL you created. For more information about configuring the EDL to the Palo Alto Networks Next-Generation Firewall in Palo Alto Networks, see [Configure an EDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-config_firewall_pa.md).
+In Palo Alto Networks, assign an EDL object, policy, and the source URL to the EDL you created. For more information about configuring the EDL to the Palo Alto Networks Next-Generation Firewall in Palo Alto Networks, see [Configure an EDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto-config_firewall_pa.md).
 
 Role required: sn\_si.admin
 
@@ -49,8 +49,8 @@ The EDL is activated and ready to receive EDL entries
 
 Submit EDL entries from a security incident or from the blocklist.
 
--   **[Configure an EDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-config_firewall_pa.md)**  
+-   **[Configure an EDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto-config_firewall_pa.md)**  
 The Palo Alto Networks firewall administrator configures an EDL to the Palo Alto Networks Next-Generation Firewall once notified the Retrieval URL is available from the ServiceNow AI Platform. Before the EDL can accept EDL entries, it must be configured in Palo Alto Networks, and activated in the ServiceNow AI Platform®.
 
-**Parent Topic:**[Activate an EDL for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-activate-edl.md)
+**Parent Topic:**[Activate an EDL for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/paloalto-activate-edl.md)
 

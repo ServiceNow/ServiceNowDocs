@@ -2,7 +2,7 @@
 title: Define an action schedule for affected people
 description: Define an action schedule for the people affected by an exposure. The action schedule creates an action for each affected person when there's an active exposure for an exposure assessment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-define-action-schedule-affected-people.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/health-and-safety-risk-management/hs-define-action-schedule-affected-people.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -36,7 +36,7 @@ The scheduler only runs when there are active exposures so that the actions are 
 
 5.  On the form, fill in the fields.
 
-    For information on field descriptions, see [Action schedule form for an exposure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-action-schedule-form.md).
+    For information on field descriptions, see [Action schedule form for an exposure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-action-schedule-form.md).
 
 6.  Select **Save**.
 
@@ -46,5 +46,5 @@ The scheduler only runs when there are active exposures so that the actions are 
 -   The **Actions** tab appears for the action schedule.
 -   An action record is created in the **Actions** tab for each affected person whenever there's an active exposure for the exposure assessment. An action schedule might generate multiple actions for the affected people over time.
 
-**Parent Topic:**[Perform an exposure assessment for a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-perform-exposure-assessment.md)
+**Parent Topic:**[Perform an exposure assessment for a location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-perform-exposure-assessment.md)
 

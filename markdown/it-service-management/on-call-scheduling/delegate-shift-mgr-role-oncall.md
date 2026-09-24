@@ -2,7 +2,7 @@
 title: Delegate the shift manager \[rota\_admin\] role
 description: As a shift manager, you can delegate your role to a member of shift.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/delegate-shift-mgr-role-oncall.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/on-call-scheduling/delegate-shift-mgr-role-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -31,10 +31,10 @@ Role required: rota\_manager or admin
 3.  Submit the role delegation request.
 
 
-**Parent Topic:**[Managing schedules and shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/manage-schedules-and-shifts.md)
+**Parent Topic:**[Managing schedules and shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/manage-schedules-and-shifts.md)
 
 **Related topics**  
 
 
-[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
+[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
 

@@ -2,7 +2,7 @@
 title: Add monetary and non-monetary benefit plans related lists
 description: Add the monetary benefit plans and non-monetary benefit plans related lists for your planning item.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-benefit-plans-planning-items-ppw-fin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/add-benefit-plans-planning-items-ppw-fin.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -54,6 +54,6 @@ Add the monetary benefit plans and non-monetary benefit plans related lists for 
 
 Create and manage monetary and non-monetary benefits plans for your planning items.
 
--   [Create monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-manage-monetary-benefit-plans-ppw.md)
--   [Manage non-monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-manage-non-monetary-benefit-plans-ppw.md)
+-   [Create monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/fin-manage-monetary-benefit-plans-ppw.md)
+-   [Manage non-monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/fin-manage-non-monetary-benefit-plans-ppw.md)
 

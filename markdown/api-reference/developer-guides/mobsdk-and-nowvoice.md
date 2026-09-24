@@ -2,7 +2,7 @@
 title: Embed an AI voice agent with NowVoice
 description: Use the NowVoice module to embed a real-time AI voice agent session into your Android application.Configure NowVoice to add a real-time voice agent to your Android application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-nowvoice.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/mobsdk-and-nowvoice.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -30,7 +30,7 @@ All public types in the NowVoice module are in the `com.servicenow.nowsdk.voice`
 
 ## Theming
 
-NowVoice integrates with the NowUI theming system. Implement [`NowVoiceTheme`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md) to apply custom colors. [`NowVoiceThemeDark`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeDarkAndroidClass.md) is provided as a built-in alternative to the default light theme.
+NowVoice integrates with the NowUI theming system. Implement [`NowVoiceTheme`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md) to apply custom colors. [`NowVoiceThemeDark`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceThemeDarkAndroidClass.md) is provided as a built-in alternative to the default light theme.
 
 ## Mobile SDK instance settings
 
@@ -75,11 +75,11 @@ Role required: admin
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     ```
 
-    **Note:** `RECORD_AUDIO` is a classified as a dangerous \(runtime\) permission. It must also be requested at runtime on Android 6.0 \(API 23\) and later. When permission is needed, NowVoice SDK automatically triggers a request before calling [`NowVoiceService.start()`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md).
+    **Note:** `RECORD_AUDIO` is a classified as a dangerous \(runtime\) permission. It must also be requested at runtime on Android 6.0 \(API 23\) and later. When permission is needed, NowVoice SDK automatically triggers a request before calling [`NowVoiceService.start()`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md).
 
 2.  Configure NowSDK.
 
-    If you have not already done so, call [`NowSDK.configure()`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowSDKAndroidAPI.md) once at app launch. NowVoice requires NowSDK to be configured before any voice operations.
+    If you have not already done so, call [`NowSDK.configure()`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowSDKAndroidAPI.md) once at app launch. NowVoice requires NowSDK to be configured before any voice operations.
 
     ```kotlin
     import com.servicenow.nowsdk.NowSDK
@@ -94,7 +94,7 @@ Role required: admin
 
 3.  Create a NowVoiceService.
 
-    Import NowVoice and call [`NowVoiceSDK.makeVoiceService(instanceURL)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md). This is a suspend function; call it from a coroutine scope.
+    Import NowVoice and call [`NowVoiceSDK.makeVoiceService(instanceURL)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md). This is a suspend function; call it from a coroutine scope.
 
     ```kotlin
     import com.servicenow.nowsdk.voice.NowVoiceSDK
@@ -119,7 +119,7 @@ Role required: admin
 
 4.  Select a voice endpoint.
 
-    Use [`NowVoiceService.nowVoiceEndpoints`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md) to retrieve the available voice endpoints. In most apps there is a single endpoint.
+    Use [`NowVoiceService.nowVoiceEndpoints`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md) to retrieve the available voice endpoints. In most apps there is a single endpoint.
 
     ```kotlin
     val endpoint = voiceService.nowVoiceEndpoints.firstOrNull() ?: return
@@ -127,7 +127,7 @@ Role required: admin
 
 5.  Launch the voice UI.
 
-    Call [`start(context:endpoint:uiConfiguration:callbacks:theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md) to launch the full-screen voice agent Activity. This is a suspend function that returns after the session ends.
+    Call [`start(context:endpoint:uiConfiguration:callbacks:theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md) to launch the full-screen voice agent Activity. This is a suspend function that returns after the session ends.
 
     ```kotlin
     voiceService.start(
@@ -162,7 +162,7 @@ Role required: admin
 
 6.  Apply a custom theme.
 
-    To apply custom colors, implement [`NowVoiceTheme`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md) and pass it to [`start(context:endpoint:uiConfiguration:callbacks:theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md) or [`updateTheme(theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md). Or, use the [prebuilt dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceThemeDarkAndroidClass.md).
+    To apply custom colors, implement [`NowVoiceTheme`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceThemeAndroidInterface.md) and pass it to [`start(context:endpoint:uiConfiguration:callbacks:theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md) or [`updateTheme(theme:)`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.md). Or, use the [prebuilt dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowVoiceThemeDarkAndroidClass.md).
 
     ```kotlin
     // Prebuilt dark theme

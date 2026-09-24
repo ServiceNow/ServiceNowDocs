@@ -2,7 +2,7 @@
 title: Generate acceptance criteria for EAP stories using ServiceNow Otto
 description: Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Enterprise Agile Planning \(EAP\). Review and refine suggested options to ensure they meet your requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -27,7 +27,7 @@ Ensure that ServiceNow Otto is installed in your instance and that the following
 -   Acceptance criteria generation
 -   Refine records
 
-For more information, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md).
+For more information, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-na-spm.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -61,5 +61,5 @@ For an EAP story, you can generate acceptance criteria by selecting **Generate a
 7.  Save the Story form.
 
 
-**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/using-eap.md)
 

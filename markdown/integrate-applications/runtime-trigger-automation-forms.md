@@ -2,7 +2,7 @@
 title: Runtime Phase of the Embedded Task Automation \(ETA\)
 description: Learn more about the triggering of an attended automation from a ServiceNow form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/runtime-trigger-automation-forms.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/runtime-trigger-automation-forms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Learn more about the triggering of an attended automation from a ServiceNow form
 
 ## Workflow of the Runtime Phase of an Embedded Task Automation
 
-Familiarize yourself with Embedded Task Automation concepts. For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md).
+Familiarize yourself with Embedded Task Automation concepts. For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md).
 
 A user with RPA Assisted User role logs into the ServiceNow instance.
 
@@ -29,26 +29,26 @@ The user selects the form action, that is created when you activate the attended
 
 A URL is generated that initiates the Attended Robot with details such as OAuth Entity ID, code challenge, ServiceNow form record SysID \(from where the automation is triggered\), Bot Process Sys ID, and Package SysID \(Automation SysID\).
 
-Using these details, the Attended Robot makes a call to the OAuth to get the access and refresh token. Learn about the authentication journey in the Attended Robot application and the automation execution. For more information, see [Attended Robot authentication journey and automation execution in Embedded Task Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/attended-auth-journey-rpa.md).
+Using these details, the Attended Robot makes a call to the OAuth to get the access and refresh token. Learn about the authentication journey in the Attended Robot application and the automation execution. For more information, see [Attended Robot authentication journey and automation execution in Embedded Task Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/attended-auth-journey-rpa.md).
 
 With these token details, the Attended Robot shares the session details with the ServiceNow form and starts executing the automation.
 
-The **GetProcessFieldParameters** component makes a GraphQL API to the ServiceNow instance to read the form field values that are mapped to the dynamic process field parameters. For more information about the **GetProcessFieldParameters** component, see [Use the GetProcessFieldParameters component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-get-process-field-param-forms.md).
+The **GetProcessFieldParameters** component makes a GraphQL API to the ServiceNow instance to read the form field values that are mapped to the dynamic process field parameters. For more information about the **GetProcessFieldParameters** component, see [Use the GetProcessFieldParameters component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-get-process-field-param-forms.md).
 
 After the automation is executed, the data is passed to the downstream applications.
 
-The **SetProcessFieldParameters** component makes a GraphQL API to the ServiceNow instance to set the form field values that are mapped to the dynamic process field parameters. For more information about the **SetProcessFieldParameters** component, see [Use the SetProcessFieldParameters component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-set-process-field-param-forms.md).
+The **SetProcessFieldParameters** component makes a GraphQL API to the ServiceNow instance to set the form field values that are mapped to the dynamic process field parameters. For more information about the **SetProcessFieldParameters** component, see [Use the SetProcessFieldParameters component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-set-process-field-param-forms.md).
 
 \[Omitted image "runtime-eta-rpa-trigger.png"\] Alt text: Workflow of the Runtime Phase of an Embedded Task Automation.
 
 ## Launch attended automations from ServiceNow forms
 
-Learn about the restrictions to launch an attended automation from ServiceNow forms and launching the attended automations. For more information, see [Attended Robot authentication journey and automation execution in Embedded Task Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/attended-auth-journey-rpa.md).
+Learn about the restrictions to launch an attended automation from ServiceNow forms and launching the attended automations. For more information, see [Attended Robot authentication journey and automation execution in Embedded Task Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/attended-auth-journey-rpa.md).
 
-**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md)
+**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/embedded-task-auto-rpa.md)
 
 **Related topics**  
 
 
-[List of steps for configuring embedded task automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/list-steps-eta-rpa.md)
+[List of steps for configuring embedded task automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/list-steps-eta-rpa.md)
 

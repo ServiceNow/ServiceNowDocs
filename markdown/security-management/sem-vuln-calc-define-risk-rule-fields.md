@@ -2,7 +2,7 @@
 title: Define fields and weights for the risk rule for Unified Security Exposure Management risk calculators
 description: Customize risk rule parameters and weights to generate risk scores that reflect your organization's specific finding and asset data. By selecting relevant fields for the risk rule, you can create an effective risk scoring framework that meets your organization's unique needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-vuln-calc-define-risk-rule-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-vuln-calc-define-risk-rule-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-07-09"
@@ -129,7 +129,7 @@ Condition
 
 </td><td>
 
-Field that appears only when Custom conditions are selected from the Choose reference table. Preview the items in this table that match the defined conditions.**Note:** After you integrate with Early Warning for Security Exposure Management, the early warning flag and Admiralty score become available as risk rule criteria, giving you finer control over how early warnings affect your vulnerability scores. For more information, see [Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md).
+Field that appears only when Custom conditions are selected from the Choose reference table. Preview the items in this table that match the defined conditions.**Note:** After you integrate with Early Warning for Security Exposure Management, the early warning flag and Admiralty score become available as risk rule criteria, giving you finer control over how early warnings affect your vulnerability scores. For more information, see [Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/armis-early-warning-integration.md).
 
 </td></tr></tbody>
 </table>8.  Select **Submit**.
@@ -207,14 +207,14 @@ To add a conditional criterion to the risk rule, do the following:
     **Note:** Adding conditional criteria to your risk rule might degrade performance.
 
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
+**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 
 
-[Vulnerability Response calculators and vulnerability calculator rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vuln-calculators-rules.md)
+[Vulnerability Response calculators and vulnerability calculator rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/vuln-calculators-rules.md)
 
-[Create a Vulnerability Response calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/create-vul-calculator.md)
+[Create a Vulnerability Response calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/create-vul-calculator.md)
 
-[Filtering within Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-filtering.md)
+[Filtering within Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/vr-filtering.md)
 

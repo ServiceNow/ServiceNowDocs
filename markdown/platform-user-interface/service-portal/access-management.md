@@ -2,7 +2,7 @@
 title: Access Management Automation
 description: Automate access management request fulfillment using the Service Catalog or Service Portal. The catalog items and flows support requests in Okta, Microsoft Entra ID \(formerly Microsoft Entra ID\), and Microsoft Active Directory.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/access-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/access-management.html
 release: australia
 product: Service Portal
 classification: service-portal

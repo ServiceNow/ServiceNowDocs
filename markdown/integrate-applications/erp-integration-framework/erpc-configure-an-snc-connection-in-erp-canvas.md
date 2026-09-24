@@ -2,7 +2,7 @@
 title: Configure an SNC connection in Zero Copy Connector for ERP
 description: Learn how to set up an SNC connection, including preparing the environment, configuring the SAP system, and testing the configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -38,7 +38,7 @@ Confirm that you have the following:
 
 4.  Complete the form.
 
-    For information about the fields, see [Configure the Zero Copy Connector for ERP credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.md).
+    For information about the fields, see [Configure the Zero Copy Connector for ERP credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.md).
 
 5.  Restart the MID Server to apply the changes.
 

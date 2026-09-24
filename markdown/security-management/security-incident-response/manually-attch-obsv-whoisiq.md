@@ -2,7 +2,7 @@
 title: Create an observable for manual WHOISIQ lookups
 description: Security incident analysts use information from observable enrichment with the WHOISIQ API to learn more about the email addresses, names, and phone numbers of organizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manually-attch-obsv-whoisiq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/manually-attch-obsv-whoisiq.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -61,9 +61,9 @@ Role required: sn\_si.analyst
 
 If you have created and edited an observable for lookup, run the observable enrichment lookup from the Observable record with the WHOISIQ API.
 
-**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq-lookups.md)
+**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/riskiq-lookups.md)
 
-**Previous topic:**[Verify expected results for WHOISIQ URL lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expctd-rslts-url-lookups-riskiq.md)
+**Previous topic:**[Verify expected results for WHOISIQ URL lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/verify-expctd-rslts-url-lookups-riskiq.md)
 
-**Next topic:**[Verify expected results for manual WHOISIQ lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-rslts-whoisiq.md)
+**Next topic:**[Verify expected results for manual WHOISIQ lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/verify-expected-rslts-whoisiq.md)
 

@@ -2,7 +2,7 @@
 title: Edit Field Service Management configurations for the Work management view
 description: Edit your Field Service Management configurations as needed so that you can access and use the Work management view in the Enterprise Asset Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/edit-field-service-configurations-work-management-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/edit-field-service-configurations-work-management-view.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

@@ -2,7 +2,7 @@
 title: Use Localization Framework for Document Templates
 description: Translate content in Document Templates and document blocks Localization Framework.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/doc-lzt-fm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/doc-lzt-fm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,7 +2,7 @@
 title: Add a project template configuration item
 description: Add a project template configuration item to include in a template.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_AddNewProjTempConfigItem.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/t\_AddNewProjTempConfigItem.html
 release: australia
 product: Project Management
 classification: project-management
@@ -28,7 +28,7 @@ Role required: it\_pps\_admin
 
 3.  Fill in the fields on the Project Template Configuration form.
 
-    For more information, see [Project template configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-template-form.md).
+    For more information, see [Project template configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-template-form.md).
 
 4.  Select **Submit**.
 
@@ -40,12 +40,12 @@ Role required: it\_pps\_admin
     -   **Active**: Enable this check box
     -   **Elements**: short\_description, description, priority, type, state
 
-**Parent Topic:**[Project template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplateConfiguration.md)
+**Parent Topic:**[Project template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTemplateConfiguration.md)
 
 **Related topics**  
 
 
-[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
+[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTemplates.md)
 
-[Project template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplateConfiguration.md)
+[Project template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectTemplateConfiguration.md)
 

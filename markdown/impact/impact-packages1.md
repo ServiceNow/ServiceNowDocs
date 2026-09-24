@@ -2,7 +2,7 @@
 title: Impact packages
 description: ServiceNow Impact is available in core packages, Guided and Total, with optional add-on packages to extend your entitlements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-packages1.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-packages1.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
@@ -27,7 +27,7 @@ Impact includes Platform Health, Instance Observer, Value Management, Product Ad
 
 An Integrated Success package is available that includes all Impact entitlements related to the Impact Total package with the addition of implementation services engagements.
 
-Experts included in your implementation services engagements vary based on your specific agreement. The Implementation Service is initiated through the Free Form initiative in Impact. See [Request Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerator-request.md) for information.
+Experts included in your implementation services engagements vary based on your specific agreement. The Implementation Service is initiated through the Free Form initiative in Impact. See [Request Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/accelerator-request.md) for information.
 
 ## Entitlements
 
@@ -42,7 +42,7 @@ Impact Squad is a team of dedicated professionals who help you manage your Impac
 |Customer Success Manager, Customer Success Executive, Platform Architect, Support Account Manager|Total|
 |Customer Success Manager|Guided|
 
-**Note:** See [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md) for details for each Impact Squad member.
+**Note:** See [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-squad.md) for details for each Impact Squad member.
 
 ## Platform Health capability per package
 
@@ -61,7 +61,7 @@ The Impact packages include certain threshold availability for Platform Health. 
 
 ## Accelerator concurrency
 
-Accelerators are scoped engagements with a ServiceNow expert available in various Accelerator sub-catalogs, Technical, Strategy, Architecture, and Optimization. The sub-catalogs available and the number of Accelerators you can run concurrently vary by Impact package. See [Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md) for details.
+Accelerators are scoped engagements with a ServiceNow expert available in various Accelerator sub-catalogs, Technical, Strategy, Architecture, and Optimization. The sub-catalogs available and the number of Accelerators you can run concurrently vary by Impact package. See [Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/impact-initiatives.md) for details.
 
 <table id="table_lxy_nsg_ljc"><thead><tr><th>
 
@@ -116,7 +116,7 @@ All Impact packages include 24/7 support for Priority 1 \(P1\) and Priority 2 \(
 |P2 initial target response|120 minutes|60 minutes|
 |Developer Support|Not included|Included \(10 seats\)|
 
-**Note:** See [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/developer-support.md) for details.
+**Note:** See [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/developer-support.md) for details.
 
 ## Add-on SKUs for the Impact Guided package
 
@@ -266,7 +266,7 @@ Instance Observer Seats
 **Related topics**  
 
 
-[Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md)
+[Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-squad.md)
 
-[Get started with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/getting_started_with_impact_concept.md)
+[Get started with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/getting_started_with_impact_concept.md)
 

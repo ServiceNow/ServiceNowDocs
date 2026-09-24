@@ -2,7 +2,7 @@
 title: Data setup for business services
 description: Operational Resilience managers typically verify that data is set up for services or business services and monitor their resilience metrics on the dashboard. The Service \(CMDB\) Main node configuration fetches service-related data, while the Opres with CSDM header Main node configuration sets up the business services-related data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setting-up-services-in-ws.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/setting-up-services-in-ws.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,11 +18,11 @@ Operational Resilience managers typically verify that data is set up for service
 
 A service performs a business-level function, such as email, IT services, e-commerce, or telephone banking. Existing customers use the Service \(CMDB\) Main node configuration, while new customers use the OpRes with CSDM header Main node configuration. The Service form or the business services form list risks, issues, control failures, and other areas that require attention.
 
-**Note:** Administrators can show or hide the **Services overview** or **Business services overview** tabs based on their organizational needs. For more information, see [Show Business services overview tab in Workspace view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/displaying-services-overview-tab.md).
+**Note:** Administrators can show or hide the **Services overview** or **Business services overview** tabs based on their organizational needs. For more information, see [Show Business services overview tab in Workspace view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/displaying-services-overview-tab.md).
 
 ## Setup of entity types and pillars
 
-Before proceeding, ensure that entity types and pillars are properly configured; refer to the [Setting up pillars, entity types, and entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setting-up-hierarchy.md) for setup instructions.
+Before proceeding, ensure that entity types and pillars are properly configured; refer to the [Setting up pillars, entity types, and entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/setting-up-hierarchy.md) for setup instructions.
 
 ## Vertical layout for Service records
 
@@ -52,7 +52,7 @@ To add or remove services and processes in the Operational Resilience Workspace,
 
 You can add a service to Operational Resilience reporting by selecting the **Add to OpRes reporting** UI action as shown in the following example.
 
-**Note:** Instead of adding services directly to Operational Resilience reporting, set up the entity filters for the desired services. For instructions on setting up the entity filters, see [Setting up pillars, entity types, and entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setting-up-hierarchy.md).
+**Note:** Instead of adding services directly to Operational Resilience reporting, set up the entity filters for the desired services. For instructions on setting up the entity filters, see [Setting up pillars, entity types, and entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/setting-up-hierarchy.md).
 
 \[Omitted image "opres-reporting.png"\] Alt text: Add a\\ service to OpRes reporting.
 

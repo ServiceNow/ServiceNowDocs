@@ -2,7 +2,7 @@
 title: Domain-separate a custom table
 description: You may need to create custom tables in separate domains. This topic covers both the procedure and the concept behind domain-separating a custom table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-ds-custom-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-ds-custom-table.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -87,7 +87,7 @@ The related records for a Cascade domain contained in the Script are shown simil
 */
 ```
 
-**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 

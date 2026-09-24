@@ -2,7 +2,7 @@
 title: Manage workplace cases in calendar view in Workplace Central
 description: The Calendar view in Workplace Central enables case managers and case agents to view and manage assigned cases in a color-coded, week-based layout. Cases are organized chronologically by date field and can be filtered, grouped, and navigated by time zone.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/manage-workplace-cases-in-calendar-view-in-workplace-central.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/manage-workplace-cases-in-calendar-view-in-workplace-central.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -113,7 +113,7 @@ When Integrated Facilities Management \(IFM\) providers are configured, cases on
 
 \[Omitted image "Calendarview-casemanagement.png"\] Alt text:
 
-**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-case-management.md)
+**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-case-management.md)
 
 **Related topics**  
 

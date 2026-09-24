@@ -2,7 +2,7 @@
 title: Realign resource assignment to project task using Project Workspace
 description: Realign or synchronize the resource assignment dates with the project task dates. This synchronization helps to schedule and align the resource assignments with the timeline of project task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/realign-ra-pws-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/realign-ra-pws-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -39,12 +39,12 @@ Role required: it\_project\_manager
 
 The resource assignments dates are synchronized with the project task dates.
 
-**Parent Topic:**[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/use-ra-rmw.md)
+**Parent Topic:**[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/use-ra-rmw.md)
 
 **Related topics**  
 
 
-[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/resource-assignments-pw.md)
 
-[Project Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-reference.md)
+[Project Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-reference.md)
 

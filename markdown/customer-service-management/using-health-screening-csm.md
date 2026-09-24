@@ -2,7 +2,7 @@
 title: Using Customer Service Management with Safe Workplace applications
 description: Screen consumers and contacts for compliance with health and safety policies to determine whether they are permitted to enter a location.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-health-screening-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-health-screening-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

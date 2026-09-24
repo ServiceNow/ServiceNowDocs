@@ -2,7 +2,7 @@
 title: Close an alert in Express List
 description: Manually close alerts directly from the Express List pane or from the preview panel without waiting for them to be automatically closed if you already know the root cause or have fixed the problem.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/close-alert.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/close-alert.html
 release: australia
 product: Event Management
 classification: event-management

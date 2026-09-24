@@ -2,7 +2,7 @@
 title: Add a custom header or footer to the user pages for Password Reset
 description: You can specify UI macros that add a header or footer to the pages that end users work in while resetting a password \(the Identify, Verify, and Reset pages\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/customize-user-reset-pages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/customize-user-reset-pages.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -44,7 +44,7 @@ Role required: password\_reset\_admin
 
 7.  Verify the appearance of the end-user pages.
 
-<table id="choicetable_pzg_5m2_wbb"><tbody><tr><td id="d296515e178">
+<table id="choicetable_pzg_5m2_wbb"><tbody><tr><td id="d296722e178">
 
 **If the reset pages are Public Access**
 
@@ -52,7 +52,7 @@ Role required: password\_reset\_admin
 
 On the **Password Reset Details** tab, click the **Public URL**.
 
-</td></tr><tr><td id="d296515e193">
+</td></tr><tr><td id="d296722e193">
 
 **If the reset pages are not Public Access**
 
@@ -62,5 +62,5 @@ Log in as an end user and request password reset.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
+**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/customizing-password-reset.md)
 

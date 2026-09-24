@@ -2,7 +2,7 @@
 title: Viewing Sys Audit and Audit Relationship Change tables
 description: The ServiceNow AI Platform tracks inserts and updates to audited records in the Sys Audit \(sys\_audit\) and Audit Relationship Change \(sys\_audit\_relation\) tables.The Sys Audit \[sys\_audit\] table tracks changes to reference fields in tables that are flagged for auditing. This activity includes journal field entries and history sets. The Audit Relationship Change \[sys\_audit\_relation\] table tracks relationship changes between sys\_audit table records and the source tables that the audited records originate from. It also tracks when a record might have been deleted.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_UnderstandingTheSysAuditTable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/c\_UnderstandingTheSysAuditTable.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

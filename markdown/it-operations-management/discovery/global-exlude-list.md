@@ -2,7 +2,7 @@
 title: Use Global Excludes List for IP addresses and ranges
 description: Global Excludes List allows administrators to define global IP exclusions lists that work across Discovery schedules that discover configuration items, IP addresses, or networks. The list helps to prevent access to sensitive IPs as it blocks discovery when the IP is on the exclusion list. This feature is only applicable for Horizontal Discovery starting in the Rome release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/global-exlude-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/global-exlude-list.html
 release: australia
 product: Discovery
 classification: discovery

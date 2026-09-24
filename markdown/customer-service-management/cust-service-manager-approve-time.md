@@ -2,7 +2,7 @@
 title: Review and approve time sheets for customer service agents
 description: Managers can review time cards and time sheets for agents in their assignment groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cust-service-manager-approve-time.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cust-service-manager-approve-time.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ When a time sheet is approved, the time cards are processed and used to create e
 
 4.  Click one of the available actions.
 
-<table id="choicetable_ffw_vvm_b1b"><tbody><tr><td id="d285703e111">
+<table id="choicetable_ffw_vvm_b1b"><tbody><tr><td id="d285707e111">
 
 **Approve**
 
@@ -40,7 +40,7 @@ When a time sheet is approved, the time cards are processed and used to create e
 
 The state of the time sheet and the associated time cards changes to **Processed** and these records become read-only.
 
-</td></tr><tr><td id="d285703e123">
+</td></tr><tr><td id="d285707e123">
 
 **Reject**
 

@@ -2,7 +2,7 @@
 title: Compare pattern versions
 description: If you have multiple versions of the same pattern, you can compare them to decide which pattern version to use for discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/compare-pattern-versions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/compare-pattern-versions.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -64,5 +64,5 @@ Service Mapping and Discovery use patterns in their discovery process. Every tim
 11. If you copied any steps from the previous version and want to save the change, click **Save Merge**.
 
 
-**Parent Topic:**[Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md)
+**Parent Topic:**[Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md)
 

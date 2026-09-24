@@ -2,7 +2,7 @@
 title: Reliability metrics in SLO Management
 description: Learn about the reliability metrics and features that can help you track service health, respond to issues, and support business goals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.html
 release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -25,9 +25,9 @@ The dashboard displays information about all services in Service Reliability Man
 -   Navigate to **Services \(\[Omitted image "icon-sr-services.png"\] Alt text: Services icon\)** &gt; **Service reliability**.
 -   Navigate to **Home \(\[Omitted image "icon-sr-homepage.png"\] Alt text: Home icon\)** &gt; **Service reliability**
 
-For more details, see [Visualizations in the Service reliability dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-service-dashboard-visualizations.md).
+For more details, see [Visualizations in the Service reliability dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/sr-service-dashboard-visualizations.md).
 
-**Note:** You can also view SLO information for all services on the Services Overview tab. See [Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-services.md) for more information.
+**Note:** You can also view SLO information for all services on the Services Overview tab. See [Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/sr-work-services.md) for more information.
 
 ## Notification destinations
 
@@ -37,9 +37,9 @@ To view and manage notification destinations in Service Operations Workspace, na
 
 Visit the following links to learn more about creating and working with notification destinations:
 
--   [Create a notification destination in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/create-notification-destination.md)
--   [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)
--   [Notifications for breached error budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/srm-notifications-messages.md)
+-   [Create a notification destination in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/create-notification-destination.md)
+-   [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)
+-   [Notifications for breached error budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/srm-notifications-messages.md)
 
 ## Reliability metrics tab
 
@@ -49,9 +49,9 @@ To view the Reliability metrics tab in Service Operations Workspace, navigate to
 
 See these links to learn more about what you can do in the Reliability metrics tab:
 
--   [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)
--   [Edit a reliability metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md)
--   [View SRM reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-view-slo.md)
+-   [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)
+-   [Edit a reliability metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md)
+-   [View SRM reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-level-objective-management/sr-view-slo.md)
 
 ## Service level objectives table
 

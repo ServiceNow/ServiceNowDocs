@@ -2,7 +2,7 @@
 title: Activate Slack as a channel provider
 description: Activate Slack by validating the Slack connection.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activate-slack-channel-provider.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/activate-slack-channel-provider.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -122,5 +122,5 @@ Once the connection is activated and validated, an information message is displa
     4.  Select **Save**.
 
 
-**Parent Topic:**[Configure Slack chat connector for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-slack-chat-connector-msi.md)
+**Parent Topic:**[Configure Slack chat connector for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configure-slack-chat-connector-msi.md)
 

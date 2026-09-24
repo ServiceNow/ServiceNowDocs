@@ -2,7 +2,7 @@
 title: Integrating with Computer Telephony Integration \(CTI\)
 description: Integrate Customer Service Management \(CSM\) with Computer Telephony Integration \(CTI\) to enable and support voice features in your Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cti-csm-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cti-csm-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -45,7 +45,7 @@ When using CTI the user must have the OpenFrame user \(sn\_openframe\_user\) rol
 For more information, see the following topics:
 
 -   [Computer Telephony Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ComputerTelephonyIntegration.md)
--   [Computer Telephony Integration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cti-workflows.md)
--   [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md)
--   [Use Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/amazon-connect-for-voice-calls.md)
+-   [Computer Telephony Integration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/cti-workflows.md)
+-   [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/contact-center-integration-with-icc.md)
+-   [Use Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/amazon-connect-for-voice-calls.md)
 

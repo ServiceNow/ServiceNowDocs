@@ -2,7 +2,7 @@
 title: WMIRunner probe
 description: WMI Runner is a probe type that fetches data from Windows operating systems via the Windows Management Instrumentation \(WMI\) interface. IPv6 supports WMI Runner.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_WMIRunnerProbe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_WMIRunnerProbe.html
 release: australia
 product: Discovery
 classification: discovery
@@ -20,7 +20,7 @@ The probe handles multiple user-specified WMI Paths to be queried, using a basic
 
 When creating a WMI probe, the probe type must be set to WMI Probe and the ECC Queue Topic must be set to WMIRunner.
 
-For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetProbeParameters.md).
+For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_SetProbeParameters.md).
 
 The following parameters may be passed to the WMI Probe:
 
@@ -35,5 +35,5 @@ The following parameters may be passed to the WMI Probe:
 
 **Note:** The default timeout for WMI/Powershell is 5 minutes, except for the Windows Installed Software probe, which has a default timeout value of 15 minutes. Adding **wmi\_timeout** to a probe parameter can change the default timeout of a Windows probe.
 
-**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 

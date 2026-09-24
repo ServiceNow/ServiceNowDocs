@@ -2,7 +2,7 @@
 title: Approval Hub Rapid Deployment Pack
 description: Approval Hub is the centralized interface where requests from MDM Orchestrator and journal entries converge for business approval. Approvers have one view of all pending actions, regardless of the originating rapid deployment pack.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-approval-hub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/aes-erp-rdp-approval-hub.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-13"
@@ -40,5 +40,5 @@ The Approval Hub interface includes:
 
 \[Omitted image "aes-erp-rdp-approval-hub.png"\] Alt text: Approval Hub with MDM Dashboard open showing charts and graphs of approval information.
 
-**Parent Topic:**[Exploring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-explore.md)
+**Parent Topic:**[Exploring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/aes-erp-rdp-explore.md)
 

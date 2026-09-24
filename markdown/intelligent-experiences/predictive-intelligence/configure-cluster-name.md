@@ -2,7 +2,7 @@
 title: Assign a name to a cluster
 description: Name your clusters to help identify and organize them.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-cluster-name.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/configure-cluster-name.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence

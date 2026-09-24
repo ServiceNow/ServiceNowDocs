@@ -2,7 +2,7 @@
 title: Key features of Walk-up Experience
 description: Walk-up Experience enhances user satisfaction and productivity by providing immediate and personalized support for IT-related needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/key-features-of-walk-up-experience.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/key-features-of-walk-up-experience.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -55,7 +55,7 @@ Every employee or a guest can check in and get support at an established walk-up
     -   Onsite at the Walk-up Experience location:
         -   Check into a queue at the physical walk-up location by manually entering either your name or email or by scanning an employee badge.
 
-            **Note:** The badge scanning feature requires activation and configuration. Refer to [Badge Reader Integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/badge-scan-walkup-onsite.md).
+            **Note:** The badge scanning feature requires activation and configuration. Refer to [Badge Reader Integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/badge-scan-walkup-onsite.md).
 
         -   Observe queue activities on a large monitor that displays both walk-in requesters and those with appointments.
         -   View the monitor displaying how many people are currently in the queue, guest positions in the queue, who is being helped, and estimated wait times.
@@ -84,7 +84,7 @@ Every employee or a guest can check in and get support at an established walk-up
 
     Access the pre-built **Walk-up online check-in Experience** widget for use in your Service Portal. Make minor label changes directly in the widget without the need to customize through code.
 
-    Enable Walk-up Experience Microsoft Office 365 calendar integration. When users make an appointment, modify it, or cancel it, the Outlook calendar is sent invites to an appointment and any updates. For more information about this feature, refer to [Integrate Microsoft Office 365 calendar with Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-ms-office-365-integration.md).
+    Enable Walk-up Experience Microsoft Office 365 calendar integration. When users make an appointment, modify it, or cancel it, the Outlook calendar is sent invites to an appointment and any updates. For more information about this feature, refer to [Integrate Microsoft Office 365 calendar with Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-ms-office-365-integration.md).
 
     **Note:** This feature is only available when Microsoft Office 365 Outlook is the hosted calendar service.
 

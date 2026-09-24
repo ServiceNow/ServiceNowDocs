@@ -2,7 +2,7 @@
 title: Schedule the export of dashboards and data visualizations
 description: Automate the export and mailing of dashboards and data visualizations. Help colleagues build presentations, share information with external users, or track data over time.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/schedule-export-dboards-data-viz.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/schedule-export-dboards-data-viz.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -151,10 +151,10 @@ A conditional script that determines if a scheduled job should run. The last exp
 11. Select **Save** to save the schedule.
 
 
--   **[Scheduled export reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/scheduled-export-ref-qualifiers.md)**  
+-   **[Scheduled export reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/scheduled-export-ref-qualifiers.md)**  
 Use reference qualifiers to specify the users and groups in the recipients field of scheduled exports.
 
-**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 

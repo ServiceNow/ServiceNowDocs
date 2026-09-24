@@ -2,7 +2,7 @@
 title: Create a quote
 description: Create a quote in Quote Management to start the quote building process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-quote.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-new-quote.html
 release: australia
 topic_type: task
 last_updated: "2026-07-14"
@@ -90,7 +90,7 @@ Select the **Consumer** name and enter the following:-   Deal type: Indicates th
 
 ## What to do next
 
-[Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-details-tab.md).
+[Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-details-tab.md).
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

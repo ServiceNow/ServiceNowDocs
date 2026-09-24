@@ -2,7 +2,7 @@
 title: Export a glossary from Language Asset Management
 description: Download your glossary as a CSV or spreadsheet file to share with stakeholders, reviewers, or third-party translation service providers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-lam-export-glossary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/lw-lam-export-glossary.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -48,12 +48,12 @@ Translations into custom \(self-localized\) languages can't be exported. Only gl
 6.  Select **Export**.
 
 
-**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-asset-management.md)
+**Parent Topic:**[Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-language-asset-management.md)
 
 **Related topics**  
 
 
-[Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-upload-glossaries.md)
+[Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-lam-upload-glossaries.md)
 
-[Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-lam-edit-glossary.md)
+[Edit a glossary in Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-lam-edit-glossary.md)
 

@@ -2,7 +2,7 @@
 title: Define a course of action
 description: Define a course of action to prevent an attack or to respond to an attack that is in progress.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/define-course-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/define-course-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -108,5 +108,5 @@ Vulnerabilities
 Lists a weakness or defect in a software or hardware that attackers exploit which is associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Course of actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-course-actions.md)
+</table>**Parent Topic:**[Course of actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-course-actions.md)
 

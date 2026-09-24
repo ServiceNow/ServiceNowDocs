@@ -2,12 +2,12 @@
 title: Use ServiceNow Otto for Zero Copy Connector agentic workflows and AI agents
 description: Use ServiceNow Otto for Zero Copy Connector agentic workflows and AI agents to improve and enhance working with ERP data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/zero-copy-connector-for-erp-ai-agents-use-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/zero-copy-connector-for-erp-ai-agents-use-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 

@@ -2,7 +2,7 @@
 title: Apply Recommended Actions to your Operational Technology incidents
 description: Apply Recommended Actions to your Operational Technology \(OT\) incidents to display relevant actions to users based on the context of an OT incident record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/recommended-actions-for-otsm/use-recommended-actions-ot-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/recommended-actions-for-otsm/use-recommended-actions-ot-incidents.html
 release: australia
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
@@ -43,5 +43,5 @@ For more information about Recommended Actions, see [Using the Recommended Actio
 6.  In the **Recommendations** panel, review and select the recommended actions.
 
 
-**Parent Topic:**[Using Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/using-recommended-actions-otsm.md)
+**Parent Topic:**[Using Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/recommended-actions-for-otsm/using-recommended-actions-otsm.md)
 

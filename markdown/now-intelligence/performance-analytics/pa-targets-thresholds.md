@@ -2,7 +2,7 @@
 title: Performance Analytics targets and thresholds
 description: Targets and thresholds enable you to define important points in your data and provide notifications when a score reaches a specific point.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-targets-thresholds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/pa-targets-thresholds.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -16,14 +16,14 @@ breadcrumb: [Configure fundamentals, Performance Analytics \(Indicator data sour
 
 Targets and thresholds enable you to define important points in your data and provide notifications when a score reaches a specific point.
 
--   **[Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md)**  
+-   **[Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-targets.md)**  
 Targets are goals your organization wants to achieve. Targets show the difference between the desired score at a certain date and the actual score of an indicator.
--   **[Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-threshold.md)**  
+-   **[Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-threshold.md)**  
 Thresholds define a normal range of scores for an indicator and alert you when certain events occurs, like when a score reaches an all-time high.
--   **[Bulk delete targets/thresholds or delete another user's personal target or threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/delete-pers-tar-thresh.md)**  
+-   **[Bulk delete targets/thresholds or delete another user's personal target or threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/delete-pers-tar-thresh.md)**  
 If you can create global targets or thresholds, you can delete them in bulk. Use the same process to delete another user's personal targets or thresholds.
--   **[Add or modify another user's personal target or threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/add-mod-pers-tar-thresh.md)**  
+-   **[Add or modify another user's personal target or threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/add-mod-pers-tar-thresh.md)**  
 If you can create global targets or thresholds, you can modify or add personal targets and thresholds for any user.
 
-**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
+**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 

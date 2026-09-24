@@ -2,7 +2,7 @@
 title: Create CWM tasks or stories from files or open prompts
 description: Generate tasks or stories for a Board by describing the work in a natural language prompt or by uploading a document. AI analyzes the input to propose a list of actionable tasks or stories for you to review and select, saving time and manual effort.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -93,5 +93,5 @@ A workspace notification confirms the outcome:
 
 Open the Board to review the added tasks. Edit individual tasks from the side panel or by inline editing in the grid.
 
-**Parent Topic:**[Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md)
+**Parent Topic:**[Add tasks to a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-tasks-to-board-in-cwm.md)
 

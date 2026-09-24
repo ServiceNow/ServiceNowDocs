@@ -2,7 +2,7 @@
 title: Versions and local changes
 description: Version records track changes to a customizable record over time so that you can compare or revert to a specific version later.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_VersionsAndLocalChanges.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/team-development/c\_VersionsAndLocalChanges.html
 release: australia
 product: Team Development
 classification: team-development

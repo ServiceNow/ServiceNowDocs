@@ -2,7 +2,7 @@
 title: Import primary model content to a secondary model
 description: When content in your primary NLU model is updated, you can import the updates directly to secondary models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/import-primary-model-content-to-secondary-model.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/import-primary-model-content-to-secondary-model.html
 release: australia
 product: NLU Service
 classification: nlu-service

@@ -2,7 +2,7 @@
 title: SIR Workspace Related Records
 description: This section consists of the related lists items that are grouped into sections such as associated observables and configuration items.You can add new related lists or new related list groups, and modify existing groups or related lists that appear in the SIR Workspace.Use this section to configure response tasks new related lists that appears on the Security Incident Response application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sir-records.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -18,7 +18,7 @@ This section consists of the related lists items that are grouped into sections 
 
 The following related lists groups that are available as a part of the base system. You can modify these groups or create groups within the application and their respective actions.
 
-You can modify these groups or create new groups. For more information, see [Configure Security Incident Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-records.md) on how to configure and group the related list for security incidents and response tasks. Each related list is fully functional within the SIR Workspace.
+You can modify these groups or create new groups. For more information, see [Configure Security Incident Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-records.md) on how to configure and group the related list for security incidents and response tasks. Each related list is fully functional within the SIR Workspace.
 
 <table id="table_dyj_zqv_x5b"><thead><tr><th>
 
@@ -125,7 +125,7 @@ Endpoint Detection and Response \(EDR\)
 
 **Note:** In general, you'd be able to create new records, link, or unlink existing records or new records against the related list group as applicable.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 
@@ -154,7 +154,7 @@ Endpoint Detection and Response \(EDR\)
 
 [Timeline in Security Incident Response Workspace]()
 
-[Configure Security Incident Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-records.md)
+[Configure Security Incident Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-records.md)
 
 ## Configure Security Incident Related List
 

@@ -2,7 +2,7 @@
 title: Creating and adding a UI extension point
 description: When developing an application, create UI extension points and add them to the server-side UI macros, such as HTML extensions, or the UI pages in the base application code.Create a UI extension point that you can place in the UI macros, such as HTML extensions, in the application code. By placing the UI extension point, you designate the specific location in the application code where data or objects can be sent to a customization and where data is returned.Add the UI extension point into a UI macro or HTML extension in the base application code. To add the extension point, place an API call that identifies the location at which registered custom artifacts execute.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/impl-ui-ext-pts-base-code.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/impl-ui-ext-pts-base-code.html
 release: australia
 product: Web Services
 classification: web-services
@@ -18,7 +18,7 @@ When developing an application, create UI extension points and add them to the s
 
 Use a UI extension point to designate the specific location where data or objects can be sent to a registered custom UI macro and where returned results are processed.
 
-**Parent Topic:**[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)
+**Parent Topic:**[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/ui-extension-points.md)
 
 ## Create a UI extension point
 
@@ -90,7 +90,7 @@ Allow access over AJAX/REST
 
 </td><td>
 
-Option for enabling or disabling access to the UI extension point over AJAX or REST. To learn more about these development architectures and techniques, see [AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_AJAX.md) and [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
+Option for enabling or disabling access to the UI extension point over AJAX or REST. To learn more about these development architectures and techniques, see [AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_AJAX.md) and [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ You must first create a UI extension point before you can add it to a UI macro o
 
 1.  In the application code, access the existing UI macro that you want to add a scripted extension point to or create a new one.
 
-    To learn more about creating UI macros with jelly tags, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md) and [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md).
+    To learn more about creating UI macros with jelly tags, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_UIMacros.md) and [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_JellyTags.md).
 
 2.  In the UI macro, add a jelly tag with a line of code at the location that you expect to collect and process custom UI macro output.
 

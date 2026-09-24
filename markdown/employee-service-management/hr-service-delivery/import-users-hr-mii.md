@@ -2,7 +2,7 @@
 title: Import users
 description: Import users from consumer system of records into a provider instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/import-users-hr-mii.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/import-users-hr-mii.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

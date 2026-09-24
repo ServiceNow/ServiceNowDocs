@@ -2,7 +2,7 @@
 title: Workforce Optimization for HR Manager Workspace Landing Page
 description: The Manager Workspace landing page displays metrics of the on-going work and helps managers to take informed decisions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/wfo-hr-manager-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/wfo-hr-manager-workspace.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr

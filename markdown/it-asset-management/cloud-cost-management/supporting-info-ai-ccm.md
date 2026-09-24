@@ -2,7 +2,7 @@
 title: Supporting information for ServiceNow Otto for Cloud Cost Management \(CCM\)
 description: Get a quick overview of the important information related to the ServiceNow Otto for Cloud Cost Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/supporting-info-ai-ccm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/supporting-info-ai-ccm.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

@@ -2,7 +2,7 @@
 title: Add price ramps on a quote line item
 description: Add price ramps to quote line items to define incremental price changes for recurring product offerings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/add-price-ramps-on-a-quote-line-item.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-price-ramps-on-a-quote-line-item.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -80,5 +80,5 @@ Use price ramps to specify how the price of a configurable product offering in a
     **Note:** Only segments created by splitting can be removed. Original ramp segments cannot be removed.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

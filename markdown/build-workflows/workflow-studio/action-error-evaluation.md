@@ -2,7 +2,7 @@
 title: Action error evaluation
 description: Enable actions to catch step failures and continue running. Identify when specific error conditions occur and return your own action status code, status message, and error state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/action-error-evaluation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/action-error-evaluation.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -119,8 +119,8 @@ Follow these general guidelines to achieve the benefits offered by action error 
     Identify an error condition without having to edit it. By default, you can only see error conditions when you edit them.
 
 
--   **[Add error condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-error-condition.md)**  
+-   **[Add error condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-error-condition.md)**  
 Enable an action to return custom status information when specific conditions are met. Specify whether a flow considers your custom action status as an error or a successful run.
 
-**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md)
+**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-action.md)
 

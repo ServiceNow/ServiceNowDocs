@@ -2,7 +2,7 @@
 title: Localization Workspace Roles
 description: Localization Workspace is installed with these roles.Upload, review, and manage glossaries in the Language Asset Management area of Localization Workspace.Assign this role to any user working in Localization Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/localization-workspace-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-workspace/localization-workspace-roles.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -18,7 +18,7 @@ Localization Workspace is installed with these roles.
 
 ## Localization Framework roles used in Localization Workspace
 
-Many roles used in Localization Workspace are inherited from Localization Framework. For detailed information about the following, see [Localization Framework Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/roles-localization-framework.md).
+Many roles used in Localization Workspace are inherited from Localization Framework. For detailed information about the following, see [Localization Framework Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/roles-localization-framework.md).
 
 |User|Name|
 |----|----|
@@ -28,7 +28,7 @@ Many roles used in Localization Workspace are inherited from Localization Framew
 |Localization manager|localization\_manager|
 |Localization requester|localization\_requestor|
 
-**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace-reference.md)
+**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/localization-workspace-reference.md)
 
 ## Terminology Manager \(sn\_lw.terminology\_manager\)
 
@@ -81,5 +81,5 @@ None.
 
 **Note:** From version 3.1.0, the following contained roles are transferred from sn\_lw.user to sn\_lw.terminology\_manager: import\_transformer, content\_admin, import\_set\_loader.
 
-The sn\_cd.content\_admin role is required to see Content Publishing items from Localization Workspace. The sn\_cd.content\_admin role is different from the content\_admin role. For more information about sn\_cd.content\_admin, see [Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-localizable-content.md).
+The sn\_cd.content\_admin role is required to see Content Publishing items from Localization Workspace. The sn\_cd.content\_admin role is different from the content\_admin role. For more information about sn\_cd.content\_admin, see [Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-localizable-content.md).
 

@@ -2,7 +2,7 @@
 title: Copy direction graphs to multiple floors
 description: Select a campus or building and copy floor direction graphs from a floor to a single floor or multiple floors in a building.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/copy-directions-multiple-floors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/copy-directions-multiple-floors.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -52,5 +52,5 @@ Role required: map editors, map admin, map editor limited
 8.  Select **Clear floor directions** to clear existing directions for a selected building or floor.
 
 
-**Parent Topic:**[Manage Directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/enable-interactive-locations.md)
+**Parent Topic:**[Manage Directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/enable-interactive-locations.md)
 

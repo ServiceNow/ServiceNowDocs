@@ -2,7 +2,7 @@
 title: Creation of webhooks to send inbound events to DevOps Change Velocity using token
 description: You must create webhooks to send inbound events to DevOps Change Velocity using token based authentication.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/create-webhooks-to-send-inbound-events-to-devops-change-velocity-using-token.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-change-velocity/create-webhooks-to-send-inbound-events-to-devops-change-velocity-using-token.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -35,5 +35,5 @@ For Basic authentication, you can use the following V1 endpoint: `https://user:p
 
 If you have a custom tool or a different authentication method, you can implement your own authentication logic. For example, you can implement an authenticateToken function in your handler class. The function should verify the token and ensure proper authentication. You must have the admin role in ServiceNow to implement your own authentication logic.
 
-**Parent Topic:**[Create a tool integration from the DevOps Change Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-a-tool-integration-from-the-devops-change-workspace.md)
+**Parent Topic:**[Create a tool integration from the DevOps Change Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/create-a-tool-integration-from-the-devops-change-workspace.md)
 

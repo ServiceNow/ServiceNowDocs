@@ -2,7 +2,7 @@
 title: Password Reset for Virtual Agent
 description: Augment an end-user experience with Password Reset for Virtual Agent that handles common support issues, using pre-built conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-reset-for-virtual-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/password-reset/password-reset-for-virtual-agent.html
 release: australia
 product: Password Reset
 classification: password-reset

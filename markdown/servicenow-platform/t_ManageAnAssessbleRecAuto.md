@@ -2,7 +2,7 @@
 title: Manage an assessable record automatically
 description: Define at least one filter condition in the Metric Category form to automatically associate assessable records with the category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ManageAnAssessbleRecAuto.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ManageAnAssessbleRecAuto.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,12 +40,12 @@ Role required: assessment\_admin or admin
     **Note:** To configure the system to automatically associate all assessable records from a metric type to a category, use the same category condition as the metric type condition. For example, if the **Vendor** metric type has the condition **\[Vendor\] \[is\] \[true\]**, create the same condition for the category. If the metric type does not have a condition specified, you can use the category condition **\[Sys ID\] \[is not empty\]**, which includes all records from any table.
 
 
-**Parent Topic:**[Assessable record associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ManageAssessablRecordAssociation.md)
+**Parent Topic:**[Assessable record associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_ManageAssessablRecordAssociation.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md)
 
-[Create a category for assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateACategoryAR.md)
+[Create a category for assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_CreateACategoryAR.md)
 

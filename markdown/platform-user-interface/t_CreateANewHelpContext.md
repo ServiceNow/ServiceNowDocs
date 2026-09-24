@@ -2,7 +2,7 @@
 title: Create a new help context
 description: You can create new help contexts to supplement or replace the default help contexts. For example, if your organization has heavily customized a form, you might create a new help context for that form. The customized help context could link to more relevant information, such as a company knowledge base article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateANewHelpContext.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateANewHelpContext.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -98,7 +98,7 @@ URL or page name
 
 </td><td>
 
-Identifies the topic to display when a user clicks the help icon while viewing a form, list, or record. You can enter the complete URL of the help page or just the target file name if you set a [base URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ContextSensitiveHelp.md) in the **help.base.default** system property.
+Identifies the topic to display when a user clicks the help icon while viewing a form, list, or record. You can enter the complete URL of the help page or just the target file name if you set a [base URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ContextSensitiveHelp.md) in the **help.base.default** system property.
 
 </td></tr></tbody>
 </table>    **Note:** If you reconfigure the fields on the form, you see the available fields **Plugin ID** and **System Property Base URL**. Do not use these fields. They are for internal use only.
@@ -106,12 +106,12 @@ Identifies the topic to display when a user clicks the help icon while viewing a
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ContextSensitiveHelp.md)
+**Parent Topic:**[Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ContextSensitiveHelp.md)
 
 **Related topics**  
 
 
 [Help context types and prioritization]()
 
-[Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ContextSensitiveHelp.md)
+[Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ContextSensitiveHelp.md)
 

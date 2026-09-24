@@ -2,7 +2,7 @@
 title: Install Care Team Operations for Facilities
 description: Install the Care Team Operations for Facilities application \[sn\_cto\_facilities\] if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-activate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-facilities-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

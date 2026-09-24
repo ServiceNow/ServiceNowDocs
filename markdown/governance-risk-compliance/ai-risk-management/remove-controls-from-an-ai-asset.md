@@ -2,7 +2,7 @@
 title: Remove controls from an AI asset
 description: Remove associated controls from an AI asset to keep the inventory accurate and up to date. This step is essential to retire outdated or irrelevant controls without deleting their records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/remove-controls-from-an-ai-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/remove-controls-from-an-ai-asset.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -39,5 +39,5 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
     The selected controls for this AI asset are retired. This action doesn't delete the control records.
 
 
-**Parent Topic:**[Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md)
+**Parent Topic:**[Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md)
 

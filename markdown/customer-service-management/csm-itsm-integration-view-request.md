@@ -2,7 +2,7 @@
 title: Enable external customers to access problem, change, and request records
 description: With access to problem, change, and request records, external customers can view these records associated with their customer service cases from the Customer and Consumer Service Portals.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-itsm-integration-view-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-itsm-integration-view-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +27,7 @@ The snc\_internal or snc\_external role and with read access to the related prob
 
 **Note:** The Related Records list shows data only if the logged-in user has access to view the related records.
 
-Customers, customer partners, and internal users with the proxy contact role \(sn\_customerservice.proxy\_contact\) can also create requests from the Customer and Consumer Service Portals. For more information about this feature, see [Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/employee-create-case-for-customer.md).
+Customers, customer partners, and internal users with the proxy contact role \(sn\_customerservice.proxy\_contact\) can also create requests from the Customer and Consumer Service Portals. For more information about this feature, see [Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/employee-create-case-for-customer.md).
 
 Customers can also view Known Error articles for a problem related to a case. These articles are displayed:
 

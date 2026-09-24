@@ -2,7 +2,7 @@
 title: Certificate Routing Policy form for ACME
 description: Fill in the Certificate Routing Policy form to set up the routing policy for ACME.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/certificate-routing-policy-field-values.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/certificate-routing-policy-field-values.html
 release: australia
 product: Discovery
 classification: discovery
@@ -45,7 +45,7 @@ Certificate Authority \(CA\) used to create, renew, or revoke certificates. The 
 -   Sectigo Public ACME
 -   Sectigo Universal ACME
 
-**Note:** If you added an ACME-compatible CA, it is listed here as a CA type. For more information, see [Add ACME-compatible certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-acme-compatible-certificate-authorities.md).
+**Note:** If you added an ACME-compatible CA, it is listed here as a CA type. For more information, see [Add ACME-compatible certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/add-acme-compatible-certificate-authorities.md).
 
 </td></tr><tr><td>
 
@@ -163,5 +163,5 @@ The **Organization**, **Organizational Unit**, **Locality**, **State**, **Countr
 -   Shouldn’t start or end with a forward slash \(/\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

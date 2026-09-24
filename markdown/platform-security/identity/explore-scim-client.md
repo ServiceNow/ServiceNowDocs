@@ -2,7 +2,7 @@
 title: Exploring SCIM Client
 description: The SCIM Client facilitates provisioning and updates on identity resources through CRUD operations exposed by SCIM endpoint on an external system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/explore-scim-client.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/explore-scim-client.html
 release: australia
 product: Identity
 classification: identity
@@ -33,8 +33,8 @@ The SCIM client provides scriptable APIs that the integration developer can use 
 
 To configure the SCIM Client, perform the following tasks:
 
--   Create a REST message for all outbound calls for a particular SCIM Provider. For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-a-rest-message.md).
--   Create a SCIM Provider to fetch resource types and schemas information from the SCIM Provider with the REST message. Enable the configuration of the HTTP Method \(PUT or PATCH\) to update a resource in the SCIM Provider. For more information, see [Create a SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-provider.md).
--   Create the mappings of SCIM attributes to ServiceNow attributes for a particular resource type and SCIM Provider. To know more, see [Create a SCIM Provider Resource Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-provider-resource-mapping.md).
--   Perform the mapping of SCIM field with the database table and field name. Pass the default value or write a script to fetch the value. For more information know, see [Create a SCIM attribute mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-attribute-mappings.md).
+-   Create a REST message for all outbound calls for a particular SCIM Provider. For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-a-rest-message.md).
+-   Create a SCIM Provider to fetch resource types and schemas information from the SCIM Provider with the REST message. Enable the configuration of the HTTP Method \(PUT or PATCH\) to update a resource in the SCIM Provider. For more information, see [Create a SCIM Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-provider.md).
+-   Create the mappings of SCIM attributes to ServiceNow attributes for a particular resource type and SCIM Provider. To know more, see [Create a SCIM Provider Resource Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/scim-provider-resource-mapping.md).
+-   Perform the mapping of SCIM field with the database table and field name. Pass the default value or write a script to fetch the value. For more information know, see [Create a SCIM attribute mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-attribute-mappings.md).
 

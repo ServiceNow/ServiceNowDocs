@@ -2,7 +2,7 @@
 title: Monitor scheduled data import executions
 description: Monitor scheduled data import executions to see the hierarchy and flow of the scheduled chained imports.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/monitor-sched-import-executions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-import-sets/monitor-sched-import-executions.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -59,5 +59,5 @@ The execution contexts feature enables you to identify the order of execution of
     You can open the import set record from the execution record.
 
 
-**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

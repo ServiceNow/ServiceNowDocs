@@ -2,7 +2,7 @@
 title: Editing block attributes
 description: Edit block attributes in CAD Editor.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/editing-block-attributes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/editing-block-attributes.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -39,5 +39,5 @@ Role required: admin
 5.  Select **Remove** to remove the element from the CAD drawing.
 
 
-**Parent Topic:**[Drawing and editing tools in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/editing-tools-cad-editor.md)
+**Parent Topic:**[Drawing and editing tools in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/editing-tools-cad-editor.md)
 

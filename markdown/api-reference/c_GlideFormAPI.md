@@ -2,7 +2,7 @@
 title: GlideForm \(g\_form\) - Client
 description: The GlideForm API provides methods to customize forms.Adds an icon on a field's label.Adds an icon on a field's label.Displays the specified error message at the top of the form.Displays a floating form message at the top of the form detail section. The message doesn't cover UI actions.Displays a high priority message at the top of the form.Adds the specified informational message to the top of the form.Displays a low priority message at the top of the form.Displays a moderate level priority message at the top of the form.Adds a choice to the end of a specified choice list field.Adds a choice to the list field at the position specified.Displays a success message at the top of the form.Removes all form messages of any type.Removes all form messages of a specified type.Removes all informational and error messages from the top of the form.Removes all options from the specified choice list.Removes any value\(s\) from the specified field.Prevents file attachments from being added to the form.Programmatically turns off a specific choice in the drop-down field, if the choice exists. No changes are made if the choice is already turned off.Allows file attachments to be added to the form. Shows the paper clip icon.Programmatically enables a specific choice in the drop-down field, if the choice exists. No changes are made if the option is already enabled.Use to draw attention to a field. Flashes the specified color for a specified duration of time in the specified field.Returns the most recent action name, or, for a client script, the sys\_id of the UI action clicked.Returns a form annotation of a given name.Returns a list of all annotations on a form.Returns a Boolean value for the specified field.Returns an object with properties representing a given field and choice value.Returns the HTML element for the specified field.Returns the decimal value of the specified field.Returns the display value from a form in the core UI.Returns the display value from a form in Service Portal.Returns the HTML element specified by the parameter.Returns the HTML element for the form.Returns the HTML element of the help text for the specified field.Returns the integer value for the specified field.Returns the plain text value of the field label.Returns the option element for a selected box named fieldName where choiceValue matches the option value.Returns the available and selected options for a choice or reference field on the form. This method is useful for dynamic forms, catalog variables and variable sets, and integrations needing to inspect or filter field options at runtime.Returns the GlideRecord for a specified field.Returns an array of related list names from the current form.Returns all section names, whether visible or not.Returns an array of the form's sections.Returns the name of the table to which this record belongs.Returns the sys\_id of the record displayed in the form.Returns the value of the specified form field.Hides all field messages.Hides all field messages of the specified type.Hides an annotation with a given name on the form UI.Hides the error message placed by showErrorBox\(\).Hides the first message that appears in the specified field on the current form.Hides the Related Links section of a form.Hides the specified related list on the form.Hides all related lists on the form.Hides the template bar on the form.Returns true while a live update is being done on the record the form is showing.Returns true if the field is mandatory.Returns true if the record has never been saved.Returns true if the section is visible.Determines whether the field associated with the passed-in field name is visible on the current form.Registers a custom event listener that detects when any field in the current form is modified by a user.You can update a list collector variable.Removes the icon from the specified field that matches the specified icon and title.Removes the icon from the specified field that matches the specified icon, title, and color.Removes the specified option from the specified choice list.Saves the record without navigating away \(update and stay\).Updates the label of a specific choice in the drop-down field.Makes the specified field available or unavailable.Displays or hides a specified field on the form.Sets the plain text value of the specified field label.Makes the specified field mandatory.Makes the specified field read-only or editable.Show or hide the Related Links section in the form UI using Boolean values.Shows or hides a specified section in the form.Sets the value of a specified form field to the specified value or the value of a specified display value in a reference record.Makes a Service Catalog variable editor read only.Displays or hides the specified field.Shows an annotation with a given name on the form UI.Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and the scrollForm parameter is true, the form scrolls to the control or field.Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen, the form automatically scrolls to the control or field.Displays a message under the specified form field \(either a control object or the name of the field\). If the control or field is off the screen, the method automatically scrolls the form to that field.Displays a message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and scrollForm is true, the method scrolls the form to that field.Displays the Related Links section of a form.Displays the specified related list on the form.Displays all the form's related lists.If hidden, shows the template bar at the bottom of the form.Saves the record.Performs the specified UI action.Hides or shows all annotations on the form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_GlideFormAPI.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/c\_GlideFormAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -20,11 +20,11 @@ Only use GlideForm methods on the client. You can use these methods to make cust
 
 You can also use some of these methods in other client scripts \(such as Catalog Client Scripts or Wizard Client Scripts\), but you must first test this to determine whether they will work as expected.
 
-**Note:** The methods getControl\(\), getHelpTextControl\(\), getElement\(\), and getFormElement\(\) are deprecated for mobile devices. For information on using GlideForm for mobile, see [Mobile Client GlideForm \(g\_form\) Scripting and Migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_MobilePlatformMigrationImpacts.md).
+**Note:** The methods getControl\(\), getHelpTextControl\(\), getElement\(\), and getFormElement\(\) are deprecated for mobile devices. For information on using GlideForm for mobile, see [Mobile Client GlideForm \(g\_form\) Scripting and Migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_MobilePlatformMigrationImpacts.md).
 
 There is no constructor for the GlideForm class. Access GlideForm methods using the `g_form` global object.
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
 
 ## GlideForm - addDecoration\(String fieldName, String icon, String title\)
 
@@ -286,8 +286,8 @@ Displays a floating form message at the top of the form detail section. The mess
 
 See also:
 
--   [clearAllFormMessages\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
--   [clearFormMessages\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
+-   [clearAllFormMessages\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
+-   [clearFormMessages\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
 
 <table id="table_f2v_zym_4pb" class="parameters"><thead><tr><th>
 
@@ -567,8 +567,8 @@ Removes all form messages of any type.
 
 See also:
 
--   [addFormMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
--   [clearFormMessages\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
+-   [addFormMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
+-   [clearFormMessages\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -590,8 +590,8 @@ Removes all form messages of a specified type.
 
 See also:
 
--   [addFormMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
--   [clearAllFormMessages\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
+-   [addFormMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
+-   [clearAllFormMessages\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
 
 <table id="table_ilw_bzm_4pb" class="parameters"><thead><tr><th>
 
@@ -927,7 +927,7 @@ function onSubmit() {
 
 Returns a form annotation of a given name.
 
-[Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. Use [GlideForm - getAnnotationByName\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) to return all annotations in a form.
+[Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. Use [GlideForm - getAnnotationByName\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) to return all annotations in a form.
 
 <table id="table_skr_c4l_rfc" class="parameters"><thead><tr><th>
 
@@ -1026,7 +1026,7 @@ Flag that indicates whether the annotation is visible on the form.
 
 Returns a list of all annotations on a form.
 
-[Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. Use [GlideForm - getAnnotationByName\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) to return a specific annotation by its name.
+[Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. Use [GlideForm - getAnnotationByName\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) to return a specific annotation by its name.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1243,11 +1243,11 @@ function onChange(control, oldValue, newValue, isLoading) {
 
 Returns the display value from a form in the core UI.
 
-**Note:** To get a display value from a form in Service Portal, use the [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) method.
+**Note:** To get a display value from a form in Service Portal, use the [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) method.
 
 See also:
 
--   [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
+-   [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
 -   [Get the display value of a reference variable](https://www.servicenow.com/community/developer-blog/get-display-value-of-reference-variable-service-catalog/ba-p/2287763)
 
 |Name|Type|Description|
@@ -1275,7 +1275,7 @@ Returns the display value from a form in Service Portal.
 
 See also:
 
--   [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
+-   [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
 -   [Get the display value of a reference variable](https://www.servicenow.com/community/developer-blog/get-display-value-of-reference-variable-service-catalog/ba-p/2287763)
 
 **Note:** In the core UI, calling this method as `g_form.getDisplayValue()` without an argument returns the record display value rather than the display value of an individual field.
@@ -1529,7 +1529,7 @@ If a callback function is present, this routine runs asynchronously. The browser
 
 Callback function support for ServiceCatalogForm.getReference is available.
 
-**Note:** Using this method requires a call to the server which requires additional time and may introduce latency to your page. Use this method with caution. For additional information, see [Client script design and processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-script-best-practices.md).
+**Note:** Using this method requires a call to the server which requires additional time and may introduce latency to your page. Use this method with caution. For additional information, see [Client script design and processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-script-best-practices.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1766,8 +1766,8 @@ Hides an annotation with a given name on the form UI.
 
 [Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. See also:
 
--   [GlideForm - showErrorBox\(String name, String message, Boolean scrollForm\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) to display a specific annotation on the form.
--   [GlideForm - toggleAnnotations\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) to toggle annotations on and off with greater flexibility.
+-   [GlideForm - showErrorBox\(String name, String message, Boolean scrollForm\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) to display a specific annotation on the form.
+-   [GlideForm - toggleAnnotations\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) to toggle annotations on and off with greater flexibility.
 
 <table id="table_isv_1nt_rfc" class="parameters"><thead><tr><th>
 
@@ -1822,7 +1822,7 @@ Whenever possible, use hideFieldMsg\(\) rather than this method whenever possibl
 
 Hides the first message that appears in the specified field on the current form.
 
-Use the [GlideForm - showFieldMsg\(String field, String message, String type\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) or [GlideForm - showFieldMsg\(String field, String message, String type, Boolean scrollForm\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) methods to display messages on a form.
+Use the [GlideForm - showFieldMsg\(String field, String message, String type\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) or [GlideForm - showFieldMsg\(String field, String message, String type, Boolean scrollForm\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) methods to display messages on a form.
 
 For example, the following code snippet shows how to display two messages on the `work_notes` field of a form and then hide the first message:
 
@@ -1899,8 +1899,8 @@ Hides the Related Links section of a form.
 
 See also:
 
--   [GlideForm - showRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
--   [GlideForm - setRelatedLinksDisplay\(Boolean display\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
+-   [GlideForm - showRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
+-   [GlideForm - setRelatedLinksDisplay\(Boolean display\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2499,7 +2499,7 @@ Whenever possible, use a UI policy instead of this method.
 
 To make a mandatory field read-only, you must first remove the mandatory requirement for that field by using the setMandatory\(\) method.
 
-Once you set a field to read-only, you cannot use the [setValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) method to update the value of that field. If you need to set the value in this way, you must set the **readOnly** value to `false.`
+Once you set a field to read-only, you cannot use the [setValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) method to update the value of that field. If you need to set the value in this way, you must set the **readOnly** value to `false.`
 
 <table id="table_xdf_qpc_5s" class="parameters"><thead><tr><th>
 
@@ -2563,7 +2563,7 @@ function onLoad() {
 
 Show or hide the Related Links section in the form UI using Boolean values.
 
-[GlideForm - hideRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) hides related link UI Actions on the form, while [GlideForm - showRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) shows them. The g\_form.setRelatedLinksDisplay\(boolean: display\) method, however, can be used to either show or hide related links with more flexibility in your scripts.
+[GlideForm - hideRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) hides related link UI Actions on the form, while [GlideForm - showRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) shows them. The g\_form.setRelatedLinksDisplay\(boolean: display\) method, however, can be used to either show or hide related links with more flexibility in your scripts.
 
 <table id="table_ebq_t1t_rfc" class="parameters"><thead><tr><th>
 
@@ -2775,7 +2775,7 @@ Makes a Service Catalog variable editor read only.
 
 **Note:** This method is only applicable to Service Catalog variable editors in the core UI. This method is not supported in the Service Catalog form.
 
-The method must be placed in the client script of the table in which the variable editor is added, such as Requested Item \[sc\_req\_item\], Incident \[incident\], and so on. To set variables to read only in other tables, use the [setReadOnly\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) method.
+The method must be placed in the client script of the table in which the variable editor is added, such as Requested Item \[sc\_req\_item\], Incident \[incident\], and so on. To set variables to read only in other tables, use the [setReadOnly\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) method.
 
 See also: [Service Catalog variable editors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog-variable-editor.md)
 
@@ -2891,8 +2891,8 @@ Shows an annotation with a given name on the form UI.
 
 [Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. See also:
 
--   [GlideForm - hideAnnotation\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) to hide a specific annotation on the form.
--   [GlideForm - toggleAnnotations\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) to toggle annotations on and off with greater flexibility.
+-   [GlideForm - hideAnnotation\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) to hide a specific annotation on the form.
+-   [GlideForm - toggleAnnotations\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md) to toggle annotations on and off with greater flexibility.
 
 <table id="table_isv_1nt_rfc" class="parameters"><thead><tr><th>
 
@@ -3173,8 +3173,8 @@ Displays the Related Links section of a form.
 
 See also:
 
--   [GlideForm - hideRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
--   [GlideForm - setRelatedLinksDisplay\(Boolean display\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
+-   [GlideForm - hideRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
+-   [GlideForm - setRelatedLinksDisplay\(Boolean display\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -3271,8 +3271,8 @@ Hides or shows all annotations on the form.
 
 See also:
 
--   [GlideForm - hideAnnotation\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
--   [GlideForm - showAnnotation\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
+-   [GlideForm - hideAnnotation\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
+-   [GlideForm - showAnnotation\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideFormAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|

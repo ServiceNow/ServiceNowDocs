@@ -2,7 +2,7 @@
 title: Risk assessment flow when Third-party Risk Due Diligence is installed
 description: If you have installed both the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] and GRC: Third-party Risk Due Diligence \[com.sn\_tprm\_onboarding\] plugins, the Perform risk assessment playbook triggers the flow that includes activities to create a due diligence request, complete Inherent Risk Questionnaire \(IRQ\) assessments, and conduct risk assessments for a third-party and an engagement.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-slo-tprm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-slo-tprm.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -19,7 +19,7 @@ If you have installed both the Risk Assessments Integration for Supplier Lifecyc
 In this flow, the following occurs:
 
 1.  The supplier manager receives a supplier onboarding request.
-2.  The supplier manager uses the onboarding playbook, which provides a streamlined and guided process to onboard suppliers. For more information, see [Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
+2.  The supplier manager uses the onboarding playbook, which provides a streamlined and guided process to onboard suppliers. For more information, see [Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
 3.  The supplier manager submits a due diligence request. For more information about the fields in this activity, see [Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-ws-request-dd-for-engagement.md).
 
     The supplier manager must fill in the details and assign the due diligence request to the TPR manager.
@@ -39,13 +39,13 @@ In this flow, the following occurs:
     For more information about the due diligence workflow, see [Due diligence workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-workflow-in-workspace.md).
 
 
--   **[Playbook stages and activities when Third-party Risk Due Diligence is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-tprmdd-stages.md)**  
+-   **[Playbook stages and activities when Third-party Risk Due Diligence is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-tprmdd-stages.md)**  
 The following table lists the Perform risk assessment playbook stages and activities when Third-party risk Due Diligence is installed.
 
-**Parent Topic:**[Perform risk assessment playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/perform-risk-playbook.md)
+**Parent Topic:**[Perform risk assessment playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/perform-risk-playbook.md)
 
 **Related topics**  
 
 
-[Playbook stages and activities when Third-party Risk Due Diligence is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-tprmdd-stages.md)
+[Playbook stages and activities when Third-party Risk Due Diligence is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-tprmdd-stages.md)
 

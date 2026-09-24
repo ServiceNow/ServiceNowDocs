@@ -2,12 +2,12 @@
 title: Data binding generation
 description: ServiceNow Otto generates data bindings for component properties using natural language instructions, reducing the need to manually navigate data trees or construct formulas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/concept-data-binding-generation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/concept-data-binding-generation.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Explore, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -66,12 +66,12 @@ The **Generate data binding** panel displays suggested prompts based on the comp
 
 After ServiceNow Otto generates a binding, a preview appears in the component's property panel before the binding is applied. You can inspect the formula or data pill reference and close the dialog without applying it if the result doesn't match your intent. You can also stop an in-progress generation by selecting **Stop generating**.
 
-**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/exploring-ui-generation.md)
 
 **Related topics**  
 
 
-[Generate a data binding and formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/generate-data-bindings-and-formulas.md)
+[Generate a data binding and formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/generate-data-bindings-and-formulas.md)
 
-[Use case: Generate a data binding and formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/use-case-data-binding-generation.md)
+[Use case: Generate a data binding and formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/use-case-data-binding-generation.md)
 

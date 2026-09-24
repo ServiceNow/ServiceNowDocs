@@ -2,7 +2,7 @@
 title: Create a custom action to throw an error
 description: Create an action that intentionally throws an error to test flow error handling.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-custom-action-throw-error.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-custom-action-throw-error.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -148,5 +148,5 @@ You have a custom action that throws an error when you set the action input **Er
 
 Add this action to a flow to test the contents of the Error Handler section.
 
-**Parent Topic:**[Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-error-handler.md)
+**Parent Topic:**[Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-error-handler.md)
 

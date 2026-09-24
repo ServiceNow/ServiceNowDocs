@@ -2,7 +2,7 @@
 title: Configure watchdog
 description: Use the watchdog configuration page to create new or update existing watchdogs with conditions that you want to specify. You can enable the notification for each watchdog, and get notified when the conditions are met.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-watchdog-configure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-watchdog-configure.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

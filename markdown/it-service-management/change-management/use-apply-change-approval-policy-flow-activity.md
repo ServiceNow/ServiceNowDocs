@@ -2,7 +2,7 @@
 title: Use the Apply Change Approval Policy flow action
 description: Apply your change approval policy in the Change Management Workflow Studio action to control the approval process for a change request. You can create user and group approvals according to a change approval policy record.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/use-apply-change-approval-policy-flow-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/use-apply-change-approval-policy-flow-activity.html
 release: australia
 product: Change Management
 classification: change-management
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-This flow action uses the **Ask For Approval** flow action to apply approvals that are derived from the Change approval policy. For more information on how to configure approval policies, see [Create approval definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-approval-definitions.md).
+This flow action uses the **Ask For Approval** flow action to apply approvals that are derived from the Change approval policy. For more information on how to configure approval policies, see [Create approval definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-approval-definitions.md).
 
 When approvals are being generated, the **Ask For Approval** action avoids generating more than one approval for the same user. For example, if the policy requires approval from two groups and both groups have the same user, then the shared user is notified only once for the approval.
 
@@ -88,5 +88,5 @@ Due date for the approval policy. Select one of the following options:-   **None
 </table>5.  Select **Submit**.
 
 
-**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-approval-policies-cf.md)
+**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/using-change-approval-policies-cf.md)
 

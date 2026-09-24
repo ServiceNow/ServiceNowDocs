@@ -2,7 +2,7 @@
 title: Scenario Planning
 description: Manage space allocations in your workplace in the most efficient way using the Space optimization scenario planning feature. Adjust your existing space allocations, floor arrangements, and employee seating plan by creating a scenario and deploying it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/scenario-planning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-space-management/scenario-planning.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -18,7 +18,7 @@ Manage space allocations in your workplace in the most efficient way using the S
 
 ## Overview of Scenario Planning
 
-The Workplace Central is like a central homepage where you can monitor all your workplace-related tasks. The Workplace Central provides you the Space optimization module that enables you to create scenarios using a stack plan and view the plan on the floor map. Using the Space optimization module, as a space planner you can perform several actions related to scenarios such as creating a scenario, monitoring the number of scenarios created and more. For more information about the Space optimization module, refer to [Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/space-optimization.md).
+The Workplace Central is like a central homepage where you can monitor all your workplace-related tasks. The Workplace Central provides you the Space optimization module that enables you to create scenarios using a stack plan and view the plan on the floor map. Using the Space optimization module, as a space planner you can perform several actions related to scenarios such as creating a scenario, monitoring the number of scenarios created and more. For more information about the Space optimization module, refer to [Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/space-optimization.md).
 
 Space Optimization enables you to perform scenario planning using a stack plan and a floor map. Scenario planning enables you to create multiple versions of a building with different space allocations until you finalize the best plan. You can share a scenario between multiple stake holders and deploy the best plan to the production.
 
@@ -51,9 +51,9 @@ Using the Space optimization module you can create scenarios for a single buildi
     **Note:** Ensure that you have installed Indoor Mapping to visualize and reserve spaces using floor maps.
 
 
-**Parent Topic:**[Exploring Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/explore_wsm.md)
+**Parent Topic:**[Exploring Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/explore_wsm.md)
 
-**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 

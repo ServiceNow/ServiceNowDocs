@@ -2,7 +2,7 @@
 title: Use SLA Timeline to validate a new SLA definition
 description: When a new SLA Definition is created the SLA Timeline can be used to see how the SLA will behave against existing task records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/validate-new-sla-definition.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-level-management/validate-new-sla-definition.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -20,5 +20,5 @@ From the SLA Definition form, open the SLA Timeline by clicking the Validate SLA
 
 \[Omitted image "validate-new-sla-definition-1.png"\] Alt text: SLA Timeline to validate a new SLA definition
 
-**Parent Topic:**[SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLATimeline.md)
+**Parent Topic:**[SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/c_SLATimeline.md)
 

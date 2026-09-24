@@ -2,7 +2,7 @@
 title: Resize a logo for your login screen
 description: After you have uploaded a logo for your login screen, you can resize the logo by creating and setting a system property.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-resize-logo.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-resize-logo.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ For information on granular roles, see [Granular admin roles](https://raw.github
     At the next launch, your logo is resized based on how you configured the system property.
 
 
-**Parent Topic:**[Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-upload-logo.md)
+**Parent Topic:**[Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/tb-upload-logo.md)
 

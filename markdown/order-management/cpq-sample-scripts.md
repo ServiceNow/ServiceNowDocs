@@ -2,7 +2,7 @@
 title: Sample scripts
 description: View a selection of commonly requested sample scripts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-sample-scripts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-sample-scripts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

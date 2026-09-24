@@ -2,7 +2,7 @@
 title: Time Sheets
 description: A time sheet groups all the time cards for a user for the given week.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/time-sheets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/time-sheets.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -49,12 +49,12 @@ A time sheet can have any of the following states:
     A time sheet has been recalled by the submitter for modification.
 
 
--   **[Create a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/create-time-sheet.md)**  
+-   **[Create a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/create-time-sheet.md)**  
 As a time card user, you can create a time sheet to group all your time cards for the given week and submit them in a single step.
--   **[Submit a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/submit-time-sheet.md)**  
+-   **[Submit a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/submit-time-sheet.md)**  
 Once the time sheet is updated with time worked, you can submit the time sheet for the week to submit all the time cards for the week together.
--   **[Approve or reject a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/approve-time-sheet.md)**  
+-   **[Approve or reject a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/approve-time-sheet.md)**  
 View, approve, or reject time sheet or time cards for your user, for the given week, in a single step.
 
-**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/time-card-management.md)
 

@@ -2,7 +2,7 @@
 title: Report an issue
 description: Create an issue report for the product non-conformance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-report-an-issue.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-report-an-issue.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ This task appears only when Now Assist capabilities are not available.
 
 2.  On the Report a product non-conformance form, fill in the fields.
 
-    For a description of the field values, see [Report a product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-report-a-product-non-conformance.md).
+    For a description of the field values, see [Report a product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-report-a-product-non-conformance.md).
 
 3.  Select **Choose a file**, to upload any available documents or images.
 

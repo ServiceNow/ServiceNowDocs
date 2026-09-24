@@ -2,7 +2,7 @@
 title: Manage capabilities maps
 description: Explore and manage the usage status for the capabilities you are entitled to use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/manage-capability-maps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-product-adoption-roadmap/manage-capability-maps.html
 release: australia
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap

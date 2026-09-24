@@ -2,7 +2,7 @@
 title: Slow interactions log record detail
 description: Administrators can use Slow Interactions logs to gain insight into how interactions are affecting platform performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/slow-interactions-log-record-detail.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/slow-interactions-log-record-detail.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

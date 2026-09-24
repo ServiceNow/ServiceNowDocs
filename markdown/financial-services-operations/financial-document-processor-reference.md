@@ -2,7 +2,7 @@
 title: Financial Services Operations Document Processor reference
 description: Learn about the components and properties that are installed with the Financial Services OperationsDocument Processor application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-document-processor-reference.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-document-processor-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,10 +14,10 @@ breadcrumb: [Document Processor, Integrate, Financial Services Operations \(FSO\
 
 Learn about the components and properties that are installed with the Financial Services OperationsDocument Processor application.
 
--   **[Components installed with Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-fso-document-processor.md)**  
+-   **[Components installed with Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/components-installed-fso-document-processor.md)**  
 Several types of components are installed with installation of the Document Processor application, including tables and user roles.
--   **[Domain separation and Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/domain-separation-fso-document-processor.md)**  
+-   **[Domain separation and Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/domain-separation-fso-document-processor.md)**  
 Domain separation is supported for Financial Services Document Processor. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integrate-other-applications.md)
+**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integrate-other-applications.md)
 

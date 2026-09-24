@@ -2,7 +2,7 @@
 title: AI reviewer assist for privacy assessment tasks
 description: Privacy analysts reviewing an assessment can use AI-assisted recommendations to identify relevant control objectives and risk statements from the library. Accepted recommendations are automatically scoped to the processing activity.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/ai-reccos-for-pia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/ai-reccos-for-pia.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -77,7 +77,7 @@ The following image shows the Recommendations tab on a privacy assessment task.
 
 Each recommendation card in the New state displays the option to accept and dismiss it. After a reviewer accepts or dismisses a recommendation, the card displays the state as Accepted or Dismissed and offers a **Revert** option to reset the state. Accepted recommendations automatically reflect in the Applicable scope tab on the assessment task record.
 
-For details about the recommendation cards, see [AI-recommended control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/act-ai-recco-co-pia.md) and [AI-recommended risk statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/act-ai-recco-rs-pia.md).
+For details about the recommendation cards, see [AI-recommended control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/act-ai-recco-co-pia.md) and [AI-recommended risk statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/act-ai-recco-rs-pia.md).
 
 ## Applicable scope tab in a privacy assessment task
 

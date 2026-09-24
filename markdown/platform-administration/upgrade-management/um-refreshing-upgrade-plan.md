@@ -2,7 +2,7 @@
 title: Refreshing your Upgrade Plan
 description: Refresh your upgrade plan to package all the recently installed plugins and applications into your upgrade plan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-refreshing-upgrade-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/upgrade-management/um-refreshing-upgrade-plan.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -39,7 +39,7 @@ Role required: admin
     The recently installed plugins and applications show up under Upgrade Plan Items related list.
 
 
-**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
+**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
 
 **Related topics**  
 

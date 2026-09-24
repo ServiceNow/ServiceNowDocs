@@ -2,7 +2,7 @@
 title: Allow changes to published pricing and product eligiblity matrices
 description: Use the allow\_edit\_on\_published\_matrices system property to allow changes to published pricing and product eligibility matrices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/edit-published-matrices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/edit-published-matrices.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

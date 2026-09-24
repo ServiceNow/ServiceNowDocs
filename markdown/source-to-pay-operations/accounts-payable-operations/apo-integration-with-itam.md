@@ -2,7 +2,7 @@
 title: IT Asset Management purchase order invoice processing
 description: IT Asset Management invoice exceptions for purchase orders are automatically handled through quantity validation, discrepancy notifications, and revalidation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/apo-integration-with-itam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/apo-integration-with-itam.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -19,7 +19,7 @@ IT Asset Management invoice exceptions for purchase orders are automatically han
 
 In IT Asset Management \(ITAM\), assets are created when you acknowledge the receipt of the requested items. As part of the Better Together integration, all the received asset is handled within IT Asset Management \(ITAM\).
 
-After receiving of the goods is completed, receiving slips are generated in ITAM. You can view the created assets in the **Assets** tab of the ITAM purchase order. For more information, see [Receiving assets in Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-receiving-assets.md).
+After receiving of the goods is completed, receiving slips are generated in ITAM. You can view the created assets in the **Assets** tab of the ITAM purchase order. For more information, see [Receiving assets in Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-receiving-assets.md).
 
 During the invoicing process, Accounts Payable Operations checks if the purchase order originates from ITAM using the reference field. It validates the received quantity against the purchase order using the receiving slips and if discrepancies are found, then insufficient goods receipt exception is triggered. APO automatically triggers an email and notifies the ITAM 'Assigned to' user mentioned in the ITAM PO about the exception. Once the exceptions are resolved, APO automatically re-validates the invoices. The invoice status changes from “Review Needed” to “Review Complete”.
 
@@ -50,5 +50,5 @@ The following are the plugin dependencies that are required to use Asset Managem
 **Related topics**  
 
 
-[Invoice processing using IT Asset Management purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-using-itam-po.md)
+[Invoice processing using IT Asset Management purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/invoice-processing-using-itam-po.md)
 

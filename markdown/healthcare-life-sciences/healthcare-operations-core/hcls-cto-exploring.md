@@ -2,7 +2,7 @@
 title: Exploring Healthcare Operations Core
 description: Learn how you can use the Healthcare Operations Core application to enable your care team to work together efficiently and effectively to deliver patient-centered care.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-exploring.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-core/hcls-cto-exploring.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -54,14 +54,14 @@ The following applications are available for use with Healthcare Operations Core
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Provides a framework to expand operational cases to supporting services departments.|[Healthcare Operations Case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-hco-case.md)|Admin|
-|Gain visibility into operational cases that are related to your care team.|[Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-cto-care-team-portal.md)|Care Team members|
+|Provides a framework to expand operational cases to supporting services departments.|[Healthcare Operations Case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-cto-hco-case.md)|Admin|
+|Gain visibility into operational cases that are related to your care team.|[Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcls-cto-care-team-portal.md)|Care Team members|
 
 ## What to explore next
 
 To learn more about configuring and using Healthcare Operations Core, see:
 
--   [Configuring Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configuring.md)
--   [Navigate the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-cto-using-portal.md)
--   [Healthcare Operations Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-reference.md)
+-   [Configuring Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configuring.md)
+-   [Navigate the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcls-cto-using-portal.md)
+-   [Healthcare Operations Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-cto-reference.md)
 

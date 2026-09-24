@@ -2,7 +2,7 @@
 title: Provide access to Live Feed from CMS pages
 description: You can provide access to Live Feed from pages built in the Content Management System \(CMS\). For example, allow an end user to access your company feed via the ESS portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_AccessLiveFeedFromCMSPages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/t\_AccessLiveFeedFromCMSPages.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -88,7 +88,7 @@ Select **Fixed Size** and enter height and width pixel dimensions according to t
 5.  Add the block to a page.
 
 
-**Parent Topic:**[Administering Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
+**Parent Topic:**[Administering Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
 
 **Related topics**  
 
@@ -101,7 +101,7 @@ Select **Fixed Size** and enter height and width pixel dimensions according to t
 
 [Live Feed security and table access]()
 
-[Administering Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
+[Administering Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
 
 [Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ContentManagementSystem.md)
 

@@ -2,7 +2,7 @@
 title: Customer Life Cycle Management Workflows
 description: Manage the life cycle of your sold products by activating the Customer Life Cycle Management Workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-life-cycle-management-workflows.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-life-cycle-management-workflows.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +36,7 @@ Customer Service Install Base Management\(com.snc.install\_base\)
 
 </td><td>
 
-Enables customers to capture the current state of a customer's install base and establish the relationship to any downstream entities that might impact their functioning.To learn more about install base management, see [Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-install-base.md).
+Enables customers to capture the current state of a customer's install base and establish the relationship to any downstream entities that might impact their functioning.To learn more about install base management, see [Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-install-base.md).
 
 </td></tr><tr><td>
 
@@ -168,19 +168,19 @@ To learn more about the configurations, see [Entity configuration and mapping](h
 **Related topics**  
 
 
-[Modify a sold product and hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/modify-a-sold-product.md)
+[Modify a sold product and hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/modify-a-sold-product.md)
 
-[Modify a sold product to create a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/modify_a_sold_product_to_create_a_quote.md)
+[Modify a sold product to create a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/modify_a_sold_product_to_create_a_quote.md)
 
-[Resume a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resuming_sold_products.md)
+[Resume a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/resuming_sold_products.md)
 
-[Resume multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resuming_sold_products.md)
+[Resume multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/resuming_sold_products.md)
 
-[Disconnect a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/disconnecting_sold_products.md)
+[Disconnect a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/disconnecting_sold_products.md)
 
-[Disconnect multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/disconnecting_sold_products.md)
+[Disconnect multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/disconnecting_sold_products.md)
 
-[Suspend a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supending_sold_products.md)
+[Suspend a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/supending_sold_products.md)
 
-[Suspend multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supending_sold_products.md)
+[Suspend multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/supending_sold_products.md)
 

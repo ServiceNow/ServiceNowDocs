@@ -2,7 +2,7 @@
 title: Chart colors
 description: Chart colors assign a consistent color to a grouping or stacking value in reports. The color stays the same across reports regardless of the order of the values.You can define a chart color for a data category in reports, such as critical priority incidents. You can select a predefined color or specify a hexadecimal code.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_ChartColors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/c\_ChartColors.html
 release: australia
 product: Reporting
 classification: reporting
@@ -16,7 +16,7 @@ breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Re
 
 Chart colors assign a consistent color to a grouping or stacking value in reports. The color stays the same across reports regardless of the order of the values.
 
-**Note:** This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Colors in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/colors-dv.md).
+**Note:** This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Colors in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/colors-dv.md).
 
 ## Using chart colors in a report
 
@@ -46,7 +46,7 @@ In the following example, you see two reports on incidents that are grouped by t
 
 \[Omitted image "reports-chart-colors-priority.png"\] Alt text: Two reports grouped by the same field and using chart colors.
 
-**Parent Topic:**[Predefined colors in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/colors-reports.md)
+**Parent Topic:**[Predefined colors in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/colors-reports.md)
 
 ## Define colors for data categories
 
@@ -112,7 +112,7 @@ Color name
 
 </td><td>
 
-Color selected from the Color Definitions \[sys\_report\_color\] table. If you select a color definition, it overrides the color specified in the **Color** field. For more information about color definitions, see [Define system colors for analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_DefiningSystemColors.md).
+Color selected from the Color Definitions \[sys\_report\_color\] table. If you select a color definition, it overrides the color specified in the **Color** field. For more information about color definitions, see [Define system colors for analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_DefiningSystemColors.md).
 
 </td></tr><tr id="row_p3b_vfw_1z"><td>
 

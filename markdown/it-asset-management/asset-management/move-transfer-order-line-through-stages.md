@@ -2,7 +2,7 @@
 title: Close transfer order line task
 description: Progress a transfer order line through diffident stages by closing the transfer order line task.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/move-transfer-order-line-through-stages.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/move-transfer-order-line-through-stages.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -43,14 +43,14 @@ Role required: inventory\_user
 
 Keep closing each task until you reach the last stage **Received**. After you close the task for the **Received** stage, the transfer order line is completed and closed. All transfer order lines and the transfer order are marked **Delivered**.
 
-**Parent Topic:**[Transfer order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-transfer-orders.md)
+**Parent Topic:**[Transfer order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/work-with-transfer-orders.md)
 
 **Related topics**  
 
 
-[Create a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/create-a-transfer-order.md)
+[Create a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/create-a-transfer-order.md)
 
-[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/create-transfer-order-line.md)
+[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/create-transfer-order-line.md)
 
-[Summary of transfer order line tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_SummaryOfTransferOrderStages.md)
+[Summary of transfer order line tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/r_SummaryOfTransferOrderStages.md)
 

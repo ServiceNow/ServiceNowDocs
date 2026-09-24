@@ -2,7 +2,7 @@
 title: Review AI-extracted metadata and contract reminder date
 description: Use the contract playbook to review and update the AI-extracted metadata and contract reminder date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-review-ai-metadata.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-na-review-ai-metadata.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,21 +27,21 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 The Manage contract repository agentic workflow uses AI agents to extract key metadata from signed contracts and calculate contract reminder date. The metadata is extracted based on the applicable use case in the Contract metadata extraction skill. After the extraction process is complete, a message appears on the contract record and an email notification is sent with a link to review the extracted metadata. Once you have reviewed and submitted the extracted metadata, the contract reminder date is calculated based on the contract end date, auto-renewal clause, and notice period for contract renewal or termination.
 
-To receive notifications when AI agents complete metadata extraction, ensure that notifications are enabled by the system administrator. For more information, see [Enable notifications for AI extracted metadata and obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-me-agentic-ntf.md).
+To receive notifications when AI agents complete metadata extraction, ensure that notifications are enabled by the system administrator. For more information, see [Enable notifications for AI extracted metadata and obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-me-agentic-ntf.md).
 
 ## Procedure
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d419778e96">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d419499e96">
 
 Method
 
-</th><th align="left" id="d419778e99">
+</th><th align="left" id="d419499e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d419778e105">
+</th></tr></thead><tbody><tr><td id="d419499e105">
 
 **Contract Workspace**
 
@@ -54,7 +54,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d419778e153">
+</td></tr><tr><td id="d419499e153">
 
 **Workspace used by your application**
 
@@ -66,7 +66,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d419778e180">
+</td></tr><tr><td id="d419499e180">
 
 **Email notification**
 
@@ -89,11 +89,11 @@ Select **Open playbook** in the email notification that you receive after the me
 
 4.  Review and update the extracted metadata.
 
-    For more information, see [Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-metatdata.md).
+    For more information, see [Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-review-metatdata.md).
 
 5.  Select **Submit**.
 
-    The reviewed metadata is added to the contract repository fields and the **Extracted results** tab opens on the contract repository record. For more information, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md).
+    The reviewed metadata is added to the contract repository fields and the **Extracted results** tab opens on the contract repository record. For more information, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md).
 
 6.  Select the **Playbook** tab.
 
@@ -123,14 +123,14 @@ Select **Open playbook** in the email notification that you receive after the me
 
 The contract reminder date is saved, and configured users will receive a notification on the specified date to remind them of upcoming contract renewal or termination actions.
 
-**Parent Topic:**[Reviewing AI-extracted results in the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-review-ai.md)
+**Parent Topic:**[Reviewing AI-extracted results in the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-review-ai.md)
 
 **Related topics**  
 
 
-[Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.md)
+[Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.md)
 
-[Reviewing AI-extracted results in the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-review-ai.md)
+[Reviewing AI-extracted results in the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-na-review-ai.md)
 
-[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
+[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 

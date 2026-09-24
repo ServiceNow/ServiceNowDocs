@@ -2,7 +2,7 @@
 title: Schedule dynamic task bundling
 description: Schedule dynamic bundling to run at a specified time with Field Service Task Bundling.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/schedule-dynamic-task-bundling.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/schedule-dynamic-task-bundling.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

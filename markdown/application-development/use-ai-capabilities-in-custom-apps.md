@@ -2,7 +2,7 @@
 title: Agentic development on the ServiceNow AI Platform
 description: Build and enhance custom applications using the generative and agentic AI capabilities available on the ServiceNow AI Platform. The capabilities support every stage of development, from generating application components to vibe coding full-stack applications through natural language conversations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/use-ai-capabilities-in-custom-apps.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/use-ai-capabilities-in-custom-apps.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-13"
@@ -23,25 +23,25 @@ Build Agent is an autonomous AI agent that generates full-stack ServiceNow® app
 
 Build Agent can enhance existing custom applications with agentic capabilities. It evaluates existing app context, such as tables, roles, business rules, and metadata, and generates in-app agents, skills, and agentic workflows scoped to your application's data model. Generated agents are automatically registered in AI Control Tower for centralized governance, and all artifacts deploy through standard update sets.
 
-For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md).
 
 ## Agentic development and vibe coding
 
 Agentic development, or vibe coding, is an AI-driven approach to app development in which you build applications through conversations with AI. On the ServiceNow AI Platform, Build Agent makes agentic development possible.
 
-For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md).
+For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-landing.md).
 
 ## ServiceNow Otto for Creator
 
 ServiceNow Otto for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient. You can use the generative AI skills available with ServiceNow Otto for Creator, such as app summary generation, flow generation, and UI generation. ServiceNow Otto for Creator also includes Build Agent, an autonomous AI agent that can develop full-stack applications ready for deployment through conversations using natural language.
 
-For more information, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
+For more information, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
 
 ## ServiceNow Otto for App Engine
 
 ServiceNow Otto for App Engine enables you to enhance custom applications with AI agents and skills that application users can use at runtime. With ServiceNow Otto for App Engine, you have access to Platform AI assets, such as Platform skills, AI agents, and agentic workflows, and the tools for developing custom AI assets using AI Skill Kit and AI Agent Studio.
 
-For more information, see [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md).
+For more information, see [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md).
 
 ## When and where to use AI capabilities
 
@@ -53,8 +53,8 @@ ServiceNow Otto for App Engine is also used when developing custom applications 
 
 |Persona|Benefit|Stage in the application life cycle|AI capability|
 |-------|-------|-----------------------------------|-------------|
-|Developer|Build and test applications and application elements quickly with generative and agentic AI capabilities.|Development, testing|[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)|
-|Developer|Develop entire applications with Build Agent|Development, testing|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)|
-|Developer|Enhance custom applications with Now Assist AI assets, or build custom skills and agentic workflows.|Development, testing|[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|
-|Requester, fulfiller, custom application user|Use AI assets in custom applications at runtime to help improve productivity and efficiency.|Release, post-release|[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|
+|Developer|Build and test applications and application elements quickly with generative and agentic AI capabilities.|Development, testing|[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)|
+|Developer|Develop entire applications with Build Agent|Development, testing|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md)|
+|Developer|Enhance custom applications with Now Assist AI assets, or build custom skills and agentic workflows.|Development, testing|[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|
+|Requester, fulfiller, custom application user|Use AI assets in custom applications at runtime to help improve productivity and efficiency.|Release, post-release|[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|
 

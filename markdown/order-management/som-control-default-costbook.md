@@ -2,7 +2,7 @@
 title: Control the default cost book on transaction header or header line
 description: Set the default cost book displayed to your sales agents on the transaction header or header line for a Sales Customer Relationship Management application by using the Cost Book Defaulting Matrix.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-control-default-costbook.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-control-default-costbook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

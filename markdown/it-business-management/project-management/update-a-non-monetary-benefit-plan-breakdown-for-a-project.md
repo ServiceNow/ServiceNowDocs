@@ -2,7 +2,7 @@
 title: Update a non-monetary benefit plan breakdown for a project
 description: Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/update-a-non-monetary-benefit-plan-breakdown-for-a-project.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/update-a-non-monetary-benefit-plan-breakdown-for-a-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -50,10 +50,10 @@ Role required: it\_project\_manager
 8.  Select **Update**.
 
 
-**Parent Topic:**[Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md)
+**Parent Topic:**[Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md)
 
 **Related topics**  
 
 
-[Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md)
+[Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md)
 

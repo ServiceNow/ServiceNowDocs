@@ -2,7 +2,7 @@
 title: Create a category for assessable records
 description: After you create a metric type and generate assessable records, create categories for the themes you are interested in using to evaluate the assessable records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateACategoryAR.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreateACategoryAR.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,17 +26,17 @@ Role required: none
 
 3.  On the Metric Category form, fill in the fields.
 
-    For a description of the field values, see [Metric Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metric-category-form.md).
+    For a description of the field values, see [Metric Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/metric-category-form.md).
 
 
-**Parent Topic:**[Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetricCategories.md)
+**Parent Topic:**[Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetricCategories.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetrics.md)
 
-[Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetricCategories.md)
+[Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_AssessmentMetricCategories.md)
 
-[Assessable record associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ManageAssessablRecordAssociation.md)
+[Assessable record associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/r_ManageAssessablRecordAssociation.md)
 

@@ -2,7 +2,7 @@
 title: About Job Architecture
 description: Company job architecture data enables you to optimize career growth and development of employees by identifying required, recommended, and additional skills for employee roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/job-architecture.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/talent-development-core/job-architecture.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -16,9 +16,9 @@ breadcrumb: [Configuring Skills Foundation, Skills Foundation, Growth Experience
 
 Company job architecture data enables you to optimize career growth and development of employees by identifying required, recommended, and additional skills for employee roles.
 
-Assess the skills of the employee and suggest learning to acquire new skills, promoting talent management via Manager Hub or through Skills profile in Employee Portal. For more information, see [Career tab in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/manage-skills-profile.md).
+Assess the skills of the employee and suggest learning to acquire new skills, promoting talent management via Manager Hub or through Skills profile in Employee Portal. For more information, see [Career tab in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/manage-skills-profile.md).
 
-Prepare company job architecture data from any HCM \(human capital management\) platform in CSV format and import it to your ServiceNow® instance. After transformation, the data is transferred to the relevant tables like Job Family, Role Group, and Job Profiles. For more information on the transformation process, see [Load job architecture data into your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/load-data-skills-tables.md).
+Prepare company job architecture data from any HCM \(human capital management\) platform in CSV format and import it to your ServiceNow® instance. After transformation, the data is transferred to the relevant tables like Job Family, Role Group, and Job Profiles. For more information on the transformation process, see [Load job architecture data into your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/load-data-skills-tables.md).
 
 **Note:** You must import your company job architecture data before being able to onboard employee job profiles in your ServiceNow instance.
 
@@ -40,6 +40,6 @@ You can also add data specific to your organization to these tables manually.
 
 After the data is imported, connect the job architecture data to the employee profile. You can do this in two ways:
 
--   Using a scheduled job. For more information, see [Map a role level to the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-int-attach-role-level-emp.md).
--   Adding a job profile to an employee manually. For more information, see [Adding a job profile to the employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/map-employee-job-profile.md).
+-   Using a scheduled job. For more information, see [Map a role level to the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/skills-int-attach-role-level-emp.md).
+-   Adding a job profile to an employee manually. For more information, see [Adding a job profile to the employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/map-employee-job-profile.md).
 

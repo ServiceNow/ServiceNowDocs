@@ -2,7 +2,7 @@
 title: Enable exceptions for a policy
 description: Enable exceptions for a PaCE policy and associate it with a control objective in GRC.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-exception-enable.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/policy-as-code-engine-pace/pace-exception-enable.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

@@ -2,7 +2,7 @@
 title: Walk-up Experience portal security and access
 description: Security is built into the application to prevent end-user facing devices at the Walk-up Experience on-site portal from offering elevated role privileges to users. The Walk-up Experience on-site portal is accessed by an account containing only the sn\_walkup.walkup\_login role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/walkup-exper-security-portal-acess.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/walkup-exper-security-portal-acess.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -40,5 +40,5 @@ After upgrading to Australia, you need to remove the snc\_internal role from the
 
 **Note:** Refer to [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md) for complete details about this process.
 
-**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

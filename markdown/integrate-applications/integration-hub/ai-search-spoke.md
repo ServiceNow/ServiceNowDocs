@@ -2,7 +2,7 @@
 title: AI Search Spoke
 description: Store data from the required third-party application in the AI Search server through Workflow Studio. Access data through the AI Search portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ai-search-spoke.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/ai-search-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -135,7 +135,7 @@ Ingest Document Using Download URL
 
 Downloads a document from a URL and ingests it into the batcher. In releases starting with Rome, you can optionally specify security principal access permissions for the document.
 
- Add the URL's domain to the AI Search spoke's list of trusted domains before you specify this action's **Download URL** input. For details on modifying the spoke's list of trusted domains, see [Set up the AI Search spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ais-spoke.md).
+ Add the URL's domain to the AI Search spoke's list of trusted domains before you specify this action's **Download URL** input. For details on modifying the spoke's list of trusted domains, see [Set up the AI Search spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-ais-spoke.md).
 
  This action doesn't support authentication session IDs or cookies, so the document URL must allow unauthenticated access.
 
@@ -219,5 +219,5 @@ Update By Query
 Updates all the records in the AI Search content index that match the specified query.
 
 </td></tr></tbody>
-</table>See [Set up the AI Search spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ais-spoke.md) for information about setting up the AI Search spoke.
+</table>See [Set up the AI Search spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-ais-spoke.md) for information about setting up the AI Search spoke.
 

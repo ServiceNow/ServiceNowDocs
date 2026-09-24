@@ -2,7 +2,7 @@
 title: Get Observable Sightings Queries activity
 description: The Get Observable Sightings Queries workflow activity retrieves queries from the integration configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/get-observable-sightings-queries-activity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/get-observable-sightings-queries-activity.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,5 +43,5 @@ The output variables contain data that can be used in subsequent activities.
 |queries|Search string.|
 |queryCount|Number of queries to run.|
 
-**Parent Topic:**[Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-sightings-search-workflow.md)
+**Parent Topic:**[Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integration-sightings-search-workflow.md)
 

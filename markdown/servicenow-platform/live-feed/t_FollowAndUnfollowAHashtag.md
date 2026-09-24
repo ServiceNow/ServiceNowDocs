@@ -2,7 +2,7 @@
 title: Follow and unfollow a hashtag
 description: You can view all postings assigned a specific hashtag by following the hashtag. You can also unfollow the hashtag if you no longer want to view those postings.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_FollowAndUnfollowAHashtag.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/t\_FollowAndUnfollowAHashtag.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -37,5 +37,5 @@ Role required: admin
     To unfollow a hashtag, repeat the same steps and click **Unfollow**.
 
 
-**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
+**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
 

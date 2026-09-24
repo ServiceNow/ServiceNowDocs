@@ -2,7 +2,7 @@
 title: Microsoft SQL Server and Cluster discovery
 description: The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/mssql-data-collected-pattern.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/mssql-data-collected-pattern.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -21,7 +21,7 @@ The Discovery and Service Mapping Patterns application uses the MSSql DB On Wind
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-For detailed information on SQL Server supported versions see: [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md)
+For detailed information on SQL Server supported versions see: [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_SupportedApplications.md)
 
 ## Prerequisites
 
@@ -81,7 +81,7 @@ The following procedure enables appropriate visibility of the SQL clusters.
 2.  Ensure that an `sqlservr.exe` process to trigger the MSSql DB On Windows pattern is running on the server.
 3.  Run a CI discovery.
 
-    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md).
+    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/running-discoveries.md).
 
 4.  Either keep duplicate instances and databases or delete them.
     -   To keep the duplicate instances and databases, keep the default configuration.
@@ -105,15 +105,15 @@ The Collect MSSQL HADR - Availability Group Info pattern extension introduces th
 
 -   **Prerequisites**
 
-    [Verify availability group table permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/mssql-data-collected-pattern.md)
+    [Verify availability group table permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/mssql-data-collected-pattern.md)
 
 -   **Discovered resources**
 
-    [Resources discovered by the pattern extension: Collect MSSQL HADR - Availability Group Info](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/mssql-data-collected-pattern.md)
+    [Resources discovered by the pattern extension: Collect MSSQL HADR - Availability Group Info](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/mssql-data-collected-pattern.md)
 
 -   **Discovered relationships**
 
-    [Relationships discovered by the pattern extension: Collect MSSQL HADR - Availability Group Info](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/mssql-data-collected-pattern.md)
+    [Relationships discovered by the pattern extension: Collect MSSQL HADR - Availability Group Info](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/mssql-data-collected-pattern.md)
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -519,14 +519,14 @@ The MSSql DB On Windows pattern creates the following relationships and referenc
 |MSSQL Availability Group Listener \[cmdb\_ci\_mssql\_ag\_listener\]|Availability Group \[availability\_group\]|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|
 |MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|Availability Group \[availability\_group\]|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|
 
-**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/database-discovery.md)
+**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/database-discovery.md)
 
 **Related topics**  
 
 
-[Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md)
+[Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md)
 
-[Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md)
+[Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r-HorizontalPatternProbe.md)
 
-[Database Administrator \(DBA\) report discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/dba-report-discovery-pattern.md)
+[Database Administrator \(DBA\) report discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/dba-report-discovery-pattern.md)
 

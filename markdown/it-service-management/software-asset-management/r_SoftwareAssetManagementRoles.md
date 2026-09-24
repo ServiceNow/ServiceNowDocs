@@ -2,7 +2,7 @@
 title: Legacy Software Asset Management plugin roles
 description: The legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin adds the following user role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/r\_SoftwareAssetManagementRoles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management/r\_SoftwareAssetManagementRoles.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -47,7 +47,7 @@ Can create, edit, change, and manage software licenses.
 </td></tr></tbody>
 </table>Users with the sam or admin role can view the overview page and refresh, add, delete, and rearrange reports and other widgets.
 
-**Parent Topic:**[Legacy Software Asset Management plugin Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SWAssetMgmtOverviewMod.md)
+**Parent Topic:**[Legacy Software Asset Management plugin Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management/c_SWAssetMgmtOverviewMod.md)
 
 **Related topics**  
 

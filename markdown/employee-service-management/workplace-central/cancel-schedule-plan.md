@@ -2,7 +2,7 @@
 title: Cancel a schedule plan
 description: Cancel a schedule plan to deactivate the location assignment records for your employees.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/cancel-schedule-plan.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/cancel-schedule-plan.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -41,5 +41,5 @@ Role required: sn\_wsd\_spcmgmt.project\_owner
 
 The schedule plan is moved to the Canceled state. If the schedule plan was published before being cancelled, the location assignments created in the plan are made inactive.
 
-**Parent Topic:**[Working with Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-planning.md)
+**Parent Topic:**[Working with Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-schedule-planning.md)
 

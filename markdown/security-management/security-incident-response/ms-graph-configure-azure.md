@@ -2,7 +2,7 @@
 title: Configure the Microsoft Azure portal
 description: To retrieve security alerts for an application available in the Microsoft Azure tenant using the Microsoft Graph Security API, you must register the application in the Microsoft Azure portal and grant security event read and write access to the application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-configure-azure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/ms-graph-configure-azure.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

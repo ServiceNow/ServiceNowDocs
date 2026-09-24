@@ -2,7 +2,7 @@
 title: JDBC Probes via Data Source
 description: JDBC probes are executed via a JDBC data source when an import is running against the data source.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_JDBCProbesViaDataSource.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_JDBCProbesViaDataSource.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,5 +18,5 @@ A JDBC data source JDBC probe is described by the JDBCProbe Topic and the `sys_i
 
 An ECC Queue output probe is created when you load from the data source.
 
-**Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_JDBCProbe.md)
+**Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_JDBCProbe.md)
 

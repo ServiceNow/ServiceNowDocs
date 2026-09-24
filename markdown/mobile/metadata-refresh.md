@@ -2,7 +2,7 @@
 title: Refresh mobile app meta-data
 description: See the latest updates your administrators have made to your ServiceNow mobile apps by refreshing a screen launcher page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/metadata-refresh.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/metadata-refresh.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

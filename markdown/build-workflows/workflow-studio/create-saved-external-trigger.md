@@ -2,7 +2,7 @@
 title: Create a saved external trigger
 description: Save a set of trigger definitions as a reusable trigger that responds to external events through webhooks. When an event occurs in the configured third-party application that meets the specified conditions, the trigger is activated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-saved-external-trigger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-saved-external-trigger.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -49,7 +49,7 @@ Create the required event sources in the Event source builder, or use the existi
 -   Docusign eSignature Spoke
 -   Microsoft Azure DevOps Boards Spoke
 
-For more information about creating an event source, see [Create an external event source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-external-event-sources.md).
+For more information about creating an event source, see [Create an external event source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/manage-external-event-sources.md).
 
 **Important:** Keep the event payload JSON of the third-party application handy. Refer to the third-party webhook documentation to identify where you can copy the event payload JSON. For example, see the following link for Jira event payloads: [Executing a webhook](https://developer.atlassian.com/server/jira/platform/webhooks/#executing-a-webhook).
 
@@ -111,10 +111,10 @@ For more information about creating an event source, see [Create an external eve
 
 ## Result
 
-The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/use-saved-trigger.md).
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/use-saved-trigger.md).
 
--   **[Managing external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-external-event-sources.md)**  
+-   **[Managing external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/manage-external-event-sources.md)**  
 Create and manage external event sources for a spoke or a scoped application that listen to events occurring in an application outside ServiceNow. Then, you can create external trigger definitions and associate them with the external event sources. When the event that you specify in the external trigger definition occurs, it starts one or more flows on your ServiceNow instance.
 
-**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/building-triggers.md)
 

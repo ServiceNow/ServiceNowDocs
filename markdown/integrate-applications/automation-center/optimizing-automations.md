@@ -2,7 +2,7 @@
 title: Optimizing automations
 description: Guides you through measuring automation success, identifying improvement opportunities, and expanding automation scope and impact. This is the ongoing operations phase where you evolve your automations based on real-world performance data and business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/optimizing-automations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/automation-center/optimizing-automations.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -18,13 +18,13 @@ Guides you through measuring automation success, identifying improvement opportu
 
 In this section, you will:
 
--   [Update an automation attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-attribute-ci.md)
--   [Enable granular integration for automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/granular-data-integration.md)
+-   [Update an automation attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-attribute-ci.md)
+-   [Enable granular integration for automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/granular-data-integration.md)
 
--   **[Update an automation attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-attribute-ci.md)**  
+-   **[Update an automation attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-attribute-ci.md)**  
 Update an automation attribute to include the automation source and time savings information. This information is available in the Automation Center Value dashboard for analysis.
--   **[Enable granular integration for automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/granular-data-integration.md)**  
+-   **[Enable granular integration for automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/granular-data-integration.md)**  
 Enable granular integration for automations to capture cost saved and time saved at the transaction level. This feature makes the total cost-saved and total time-saved data analysis effective.
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automations.md)
 

@@ -2,7 +2,7 @@
 title: Update an installed Service Graph Connector in SGC Central
 description: Keep a Service Graph Connector up-to-date within SGC Central.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-update-connectors.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/sgcc-update-connectors.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

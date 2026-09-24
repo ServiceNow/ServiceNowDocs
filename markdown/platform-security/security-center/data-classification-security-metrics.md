@@ -2,7 +2,7 @@
 title: Data Classification
 description: Access the Security Metrics for data classification on your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/data-classification-security-metrics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/data-classification-security-metrics.html
 release: australia
 product: Security Center
 classification: security-center
@@ -18,7 +18,7 @@ Access the Security Metrics for data classification on your ServiceNow instance.
 
 Data classification enables you to apply data classification labels to existing dictionary entries in any table. These labels help to provide visibility into the types of data hosted in your instances. Use these classifications to comply with privacy laws, and meet industry regulation requirements.
 
-See [data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/exploring-data-classification.md) for more information.
+See [data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-classification/exploring-data-classification.md) for more information.
 
 -   **Classifiable data**: Tables or columns that can be classified.
 -   **Classified data**: Dictionary entries, tables, or columns that are classified.
@@ -27,7 +27,7 @@ The data is graphically displayed in a customizable chart that provides detailed
 
 Select the cards to view the individual metrics page with additional details.
 
-Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-task-manager.md).
 
-**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md)
 

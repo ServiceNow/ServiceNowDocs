@@ -2,7 +2,7 @@
 title: Edit the table configuration for Agent Assist in Service Operations Workspace using the Standard Record Page
 description: Edit the table configuration for Agent Assist to see the required search results in the Agent Assist tab using Standard Record Page \(SRP\) in Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace-using-standard-record-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace-using-standard-record-page.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -26,7 +26,7 @@ Update the table configuration using to get the required search results.
 
 To create a table configuration, see [Configure table for a contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineContextualSearchForForm.md).
 
-**Important:** If you are on version which is prior to 4.0, [Edit the table configuration for Agent Assist in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace.md).
+**Important:** If you are on version which is prior to 4.0, [Edit the table configuration for Agent Assist in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace.md).
 
 ## Procedure
 
@@ -52,8 +52,8 @@ To create a table configuration, see [Configure table for a contextual search](h
 
     2.  Select **Update**.
 
-        **Note:** To enable or disable Agent Assist tab, see [Configure the Agent Assist tab in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-agent-assist-tab-sow-srp.md).
+        **Note:** To enable or disable Agent Assist tab, see [Configure the Agent Assist tab in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-agent-assist-tab-sow-srp.md).
 
 
-**Parent Topic:**[Configure the Agent Assist tab in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-agent-assist-tab-sow-srp.md)
+**Parent Topic:**[Configure the Agent Assist tab in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-agent-assist-tab-sow-srp.md)
 

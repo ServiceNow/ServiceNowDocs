@@ -2,7 +2,7 @@
 title: Security incident automatic creation
 description: Third-party monitoring tools, such as Splunk, can be integrated with Security Incident Response so that security events imported from those tools automatically generate security incidents. You can also import data from third-party tools into security alerts.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/c\_3rdPartyAlertMonToolInteg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/c\_3rdPartyAlertMonToolInteg.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

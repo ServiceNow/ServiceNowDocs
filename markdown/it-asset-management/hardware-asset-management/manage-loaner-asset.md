@@ -2,7 +2,7 @@
 title: Manage loaner assets
 description: Request a loaner asset or consumable for a short period. You can also prepare the loaner asset or consumable for deployment and reclamation by using loaner asset tasks. Deploy the loaner asset or consumable for a specific period, and reclaim it on the return date.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/manage-loaner-asset.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/manage-loaner-asset.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -16,12 +16,12 @@ breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Manageme
 
 Request a loaner asset or consumable for a short period. You can also prepare the loaner asset or consumable for deployment and reclamation by using loaner asset tasks. Deploy the loaner asset or consumable for a specific period, and reclaim it on the return date.
 
--   **[Request a loaner asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/loaner-asset-request.md)**  
+-   **[Request a loaner asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/loaner-asset-request.md)**  
 Request a temporary or loaner asset or consumable and use it for a short period.
--   **[Prepare, deploy, and reclaim loaner assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/prepare-deploy-reclaim-loaner-assets.md)**  
+-   **[Prepare, deploy, and reclaim loaner assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/prepare-deploy-reclaim-loaner-assets.md)**  
 Select and prepare the loaner asset or consumable for deployment and reclamation by using loaner asset tasks. Deploy the loaner asset or consumable for a specific period, and reclaim it on the return date.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 

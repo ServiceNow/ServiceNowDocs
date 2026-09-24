@@ -2,7 +2,7 @@
 title: Purchase Order Exception Split Line Table
 description: A purchase order exception split line is a subdivided line item created when a line item requires delivery in phases. A split line is created when a supplier selects the Delivery plan change exception type and the Phased delivery subtype.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/po-exception-split-line-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/po-exception-split-line-table.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-08"
@@ -30,12 +30,12 @@ The Purchase Order Exception Split Line \[sn\_poem\_exception\_split\_line\] tab
 |Proposed delivery quantity|Decimal|Revised delivery quantity proposed by the supplier.|
 |Created by|String|User who created this split line record.|
 
-**Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/master-data-tables-for-pom.md)
+**Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/master-data-tables-for-pom.md)
 
 **Related topics**  
 
 
-[Purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-form.md)
+[Purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purch-order-exception-form.md)
 
-[Delivery plan change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-delivery-plan-change.md)
+[Delivery plan change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/create-delivery-plan-change.md)
 

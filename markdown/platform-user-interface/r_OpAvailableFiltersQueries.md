@@ -2,7 +2,7 @@
 title: Operators available for filters and queries
 description: The system provides a set of operators for use with filters, condition builders, and encoded queries. The data type of a field determines what operators are available for it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_OpAvailableFiltersQueries.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/r\_OpAvailableFiltersQueries.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -2309,7 +2309,7 @@ All records in which there are differing values for the **Active** and **Made SL
 |does not have|\[Tag\]\[does not have\]\[Most Active\]|DOESNOTHAVE|sys\_tags.6c361e12471331007f47563dbb9a7135DOESNOTHAVE6c361e12471331007f47563dbb9a7135|Any records that has a **Tag** except for the tag mentioned in the value field.|
 |excluding|\[Tag\]\[excluding\]\[Most Active\]|EXCLUDING|sys\_tags.6c361e12471331007f47563dbb9a7135EXCLUDING6c361e12471331007f47563dbb9a7135|All records with and without the **Tag** except for the tag mentioned in the value field.|
 
-**Parent Topic:**[Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md)
+**Parent Topic:**[Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-cond-state-using-cond-build.md)
 
 **Related topics**  
 

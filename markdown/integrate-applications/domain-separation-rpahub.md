@@ -2,7 +2,7 @@
 title: Domain separation and Robotic Process Automation \(RPA\) Hub
 description: If any conrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file. In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conref at the end that describes domain separation.Domain separation is supported for RPA Hub. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/domain-separation-rpahub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/domain-separation-rpahub.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,7 +32,7 @@ The goal of RPA Hub is to enable end-to-end automation for your organization. Do
 
 You should have either a flat hierarchy or a single-tier hierarchy and at least one primary or top-level domain.
 
-**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-reference.md)
+**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/rpa-hub-reference.md)
 
 **Related topics**  
 

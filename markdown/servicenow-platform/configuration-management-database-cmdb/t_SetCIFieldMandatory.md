@@ -2,7 +2,7 @@
 title: Set a CI attribute to be mandatory
 description: Configure a CI attribute as mandatory so it is included in the CMDB Health tests for the required metric if enabled. Required is a metric of the CMDB Health completeness KPI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_SetCIFieldMandatory.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/t\_SetCIFieldMandatory.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,7 +2,7 @@
 title: View a widget record from a portal page
 description: View and identify potentially problematic code in the widget record without navigating away from the portal page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/view-widget-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/view-widget-record.html
 release: australia
 product: Service Portal
 classification: service-portal

@@ -2,7 +2,7 @@
 title: Playbook for Possible Password Spray
 description: This playbook provides systematic remediation steps to investigate password spray alerts triggered by multiple failed logins \(too many authentication failures from more than one IP address for the same user\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-possible-password-spray.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/playbook-possible-password-spray.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -16,10 +16,10 @@ breadcrumb: [Flow-based Playbooks, Security Incident Response playbooks, Playboo
 
 This playbook provides systematic remediation steps to investigate password spray alerts triggered by multiple failed logins \(too many authentication failures from more than one IP address for the same user\).
 
--   **[Set up the Possible Password Spray playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-setup-possible-password-spray.md)**  
+-   **[Set up the Possible Password Spray playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-setup-possible-password-spray.md)**  
 Use the following steps to set up the Possible Password Spray playbook.
--   **[Use the Possible Password Spray playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-using-possible-password-spray.md)**  
+-   **[Use the Possible Password Spray playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-using-possible-password-spray.md)**  
 Use this playbook to investigate password spray alerts triggered by multiple failed logins \(too many authentication failures from more than one IP address for the same user\). The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Possible Password Spray playbook.
 
-**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-flow-based.md)
+**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/playbook-flow-based.md)
 

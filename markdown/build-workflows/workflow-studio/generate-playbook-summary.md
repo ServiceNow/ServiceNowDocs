@@ -2,14 +2,14 @@
 title: Generate a playbook summary
 description: Generate an AI-generated summary of the stages, activities, triggers, and inputs of a playbook from the Workflow Studio canvas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/generate-playbook-summary.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/generate-playbook-summary.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-05-26"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbook summarization, Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -19,7 +19,7 @@ Generate an AI-generated summary of the stages, activities, triggers, and inputs
 
 ## Before you begin
 
-Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook Summarization** skill is turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
+Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook Summarization** skill is turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
 
 **Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
@@ -56,10 +56,10 @@ After generating a summary, you can perform the following actions:
 -   To copy the summary to the playbook description field, select **Set as description**, then select **Save and close**.
 -   To regenerate the summary after playbook changes, select **Refresh**. If the playbook structure has changed since the last summary was generated, a warning appears prompting you to refresh.
 
-**Parent Topic:**[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-summarization.md)
+**Parent Topic:**[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-summarization.md)
 
 **Related topics**  
 
 
-[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-summarization.md)
+[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-summarization.md)
 

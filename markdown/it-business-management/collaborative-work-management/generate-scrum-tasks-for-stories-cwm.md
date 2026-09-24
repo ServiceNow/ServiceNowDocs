@@ -2,7 +2,7 @@
 title: Generate scrum tasks for a story with ServiceNow Otto
 description: Use ServiceNow Otto to automatically generate scrum tasks for a story in Collaborative Work Management \(CWM\) based on the story's description and context, saving time on manual task breakdown.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/generate-scrum-tasks-for-stories-cwm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/generate-scrum-tasks-for-stories-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -56,14 +56,14 @@ The generated scrum tasks are added to the story and appear in the **Scrum Tasks
 
 For a quicker path that skips the review step. Hover your cursor over the story's short description in the List, Gantt, or Sprint planning views to reveal the ServiceNow Otto scrum tasks icon \(\[Omitted image "cwm-na-icon-scrum-tasks-inline.png"\] Alt text:\) and select it. The scrum tasks are generated and added to the story immediately without a review step.
 
-To add scrum tasks manually instead, see [Add scrum tasks to a story in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-scrum-tasks-to-a-story-cwm.md).
+To add scrum tasks manually instead, see [Add scrum tasks to a story in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-scrum-tasks-to-a-story-cwm.md).
 
-**Parent Topic:**[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
+**Parent Topic:**[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
 
 **Related topics**  
 
 
-[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
+[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
 
-[Add scrum tasks to a story in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-scrum-tasks-to-a-story-cwm.md)
+[Add scrum tasks to a story in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/add-scrum-tasks-to-a-story-cwm.md)
 

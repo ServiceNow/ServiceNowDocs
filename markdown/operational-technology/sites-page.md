@@ -2,7 +2,7 @@
 title: Sites page
 description: A Site represents a physical location in your organization, such as a DATACENTER, office, or IoT site. Each Site includes location details, time zone settings, and network range configurations that determine which IP addresses the Console for scans during discovery.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/sites-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/sites-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,16 +22,16 @@ The Sites page contains a list of all the sites available in your Discovery Cons
 
 **Note:** You can't select the same IP Addresses for both the Include and Ignore selections for the Site without triggering an error.
 
--   **[Add a Site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-site.md)**  
+-   **[Add a Site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/add-site.md)**  
 Add a site to your Discovery Console for OT.
--   **[Edit or delete a Site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-or-delete-site.md)**  
+-   **[Edit or delete a Site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/edit-or-delete-site.md)**  
 Edit a site to update its information or delete a site that no longer exists on your Discovery Console for OT.
--   **[Create a Site-specific Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/creating-site-specific-variable-set.md)**  
+-   **[Create a Site-specific Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/creating-site-specific-variable-set.md)**  
 Create a Site-specific Variable for use in Auto Queries. You can use the **Variable** as a credential for your **Site**.
--   **[Import Sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/import-site.md)**  
+-   **[Import Sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/import-site.md)**  
 Import existing Sites to the Discovery Console for OT.
--   **[Export sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/export-site.md)**  
+-   **[Export sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/export-site.md)**  
 Export Sites on your Discovery Console for OT into a CSV.
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/using-discovery-console.md)
 

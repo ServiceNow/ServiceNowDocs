@@ -2,7 +2,7 @@
 title: AI skill details
 description: Explore details of AI skills, security and usage data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-details.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-25"
@@ -42,5 +42,5 @@ The **View details** option displays skill details under these tabs:
     \[Omitted image "na-skill-details-security.png"\] Alt text: Skill details- Security and governance tab
 
 
-**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-admin_0.md)
 

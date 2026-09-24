@@ -2,7 +2,7 @@
 title: Generate closure notes
 description: Automatically generate a draft of the closure notes for a security incident when you close it. The draft is editable and will be reviewed before closing the security incident, and it can be used or modified as needed. Closure notes provide information about the resolution of a security incident to other analysts, managers, and key stakeholders.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/generate-closure-notes-si-now-assist-sec-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/generate-closure-notes-si-now-assist-sec-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -99,5 +99,5 @@ The resolution summary is displayed on the **Details** tab on the security incid
     \[Omitted image "NA-R-notes.png"\] Alt text: ServiceNow Otto context menu for the Close notes.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-for-security.md)
+**Parent Topic:**[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-now-assist-for-security.md)
 

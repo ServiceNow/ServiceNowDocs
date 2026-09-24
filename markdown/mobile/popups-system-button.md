@@ -2,7 +2,7 @@
 title: Assign predefined functions to mobile pop-ups
 description: Use predefined functions within mobile pop-ups to perform actions like dismiss the pop-up, proceed with the suggested instruction, or log out of the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/popups-system-button.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/popups-system-button.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-You can add two types of functions to a button on a mobile pop-up card, configurable functions and predefined functions. Configurable functions enable developers to customize function behavior and functionality. For more information, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md) and [Configure a card action using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mca-with-mcb.md). Predefined functions have dedicated functionality, purpose built for mobile pop-ups. The following predefined functions are available:
+You can add two types of functions to a button on a mobile pop-up card, configurable functions and predefined functions. Configurable functions enable developers to customize function behavior and functionality. For more information, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-mobile-button-types.md) and [Configure a card action using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-mca-with-mcb.md). Predefined functions have dedicated functionality, purpose built for mobile pop-ups. The following predefined functions are available:
 
 -   Cancel: Dismisses the pop-up without performing any additional action.
 -   Complete: Submits or proceeds with the original function from which the pop-up was triggered.
@@ -53,5 +53,5 @@ You can add two types of functions to a button on a mobile pop-up card, configur
 8.  Repeat steps 4 through 8 to add additional predefined functions to a mobile pop-up card.
 
 
-**Parent Topic:**[Create a mobile pop-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-popups-create.md)
+**Parent Topic:**[Create a mobile pop-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-popups-create.md)
 

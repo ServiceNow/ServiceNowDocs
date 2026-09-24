@@ -2,7 +2,7 @@
 title: Roles, tables, and properties
 description: Roles, tables, and properties installed with Retail Strategic Portfolio Management Suite and the access each role grants for managing retail store life cycle projects.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/spmr-roles-tables-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/spmr-roles-tables-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-14"

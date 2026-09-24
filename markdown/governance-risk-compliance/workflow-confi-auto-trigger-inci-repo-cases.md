@@ -2,7 +2,7 @@
 title: Configure Digital resilience incident reporting
 description: Digital Resilience Incident administrators can configure conditions in Workflow Studio to auto-trigger incident reporting in Digital resilience incident reporting.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Operational Resilience administrators set up Word templates, Template configurat
 
 \[Omitted image "drir-config-module.png"\] Alt text: Set up the templates.
 
-Configure Word Templates and Template Configurations for generating reports in Microsoft Word format. For more information, see [Generating Microsoft Word reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/gen-word-reports.md).
+Configure Word Templates and Template Configurations for generating reports in Microsoft Word format. For more information, see [Generating Microsoft Word reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/gen-word-reports.md).
 
 The Digital Resilience Incident Case module lists all Digital Resilience Incident Cases associated with an incident or security incident. A new 'Regulation Mappings' related list is now available in each Digital Resilience Incident Case record. It displays the relationships between entities related to the cases and their corresponding regulations.
 
@@ -28,7 +28,7 @@ The Digital Resilience Incident Case module lists all Digital Resilience Inciden
 
 DRI report templates use legal-entity and third-party tables from Digital Resilience Third-Party Registers. Populate these tables manually or via Excel upload before generating the initial report. \(sn\_dora\_accel\_entity and sn\_dora\_accel\_third\_party\). The responder completes remaining fields.
 
-For details, see [Maintaining Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/digi-resi-third-party-registers.md). Also, see [Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-third-party.md), and [Create a legal entity and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-legal-entity.md).
+For details, see [Maintaining Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/digi-resi-third-party-registers.md). Also, see [Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-drtp-reg-third-party.md), and [Create a legal entity and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-legal-entity.md).
 
 ## Conditions for setting up the Workflow
 

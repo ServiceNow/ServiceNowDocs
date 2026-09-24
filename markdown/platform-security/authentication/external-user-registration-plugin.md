@@ -2,7 +2,7 @@
 title: Activate External User Self-Registration
 description: You can activate the External User Self-Registration plugin \(com.snc.external\_user\_self\_registration\) if you have the admin role.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/external-user-registration-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/external-user-registration-plugin.html
 release: australia
 product: Authentication
 classification: authentication

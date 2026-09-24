@@ -2,7 +2,7 @@
 title: Enable language selection for guest users
 description: The language selector widget enables guest users and unauthenticated users to select, view, and update content in their preferred language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-language-selection-guest-users.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-language-selection-guest-users.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +28,7 @@ If languages aren’t grouped, users can view all available languages as a full-
 
 \[Omitted image "lang-selector-widget-ungrouped.png"\] Alt text: Language selector widget with languages in an ascending order without region grouping.
 
-**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 

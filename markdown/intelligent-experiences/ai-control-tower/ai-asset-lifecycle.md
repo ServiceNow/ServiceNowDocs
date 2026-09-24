@@ -2,7 +2,7 @@
 title: AI asset lifecycle
 description: The AI asset lifecycle defines the stages for managing an AI system, model, prompt, or dataset throughout its useful life.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -42,9 +42,9 @@ The AI asset lifecycle consists of the following stages:
     To retire a deployed AI asset, a user with the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role.
 
 
-For information on Completing AI lifecycle stages, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md)
+For information on Completing AI lifecycle stages, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md)
 
-For information on creating offboarding requests for AI assets, see [Create offboarding requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-ai-asset-offboarding-request.md)
+For information on creating offboarding requests for AI assets, see [Create offboarding requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/create-ai-asset-offboarding-request.md)
 
-For information on view AI assets by lifecycle stage, see [View AI assets by life-cycle stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/view-ai-assets-lifecycle-stage.md)
+For information on view AI assets by lifecycle stage, see [View AI assets by life-cycle stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/view-ai-assets-lifecycle-stage.md)
 

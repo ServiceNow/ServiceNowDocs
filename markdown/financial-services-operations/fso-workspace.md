@@ -2,7 +2,7 @@
 title: Workspaces in Financial Services Operations
 description: The Financial Services Operations \(FSO\) workspace provides a single location for agents to process cases and tasks. Agents can use it to respond to all task types, view the full context of an issue, and get relevant recommendations to resolve issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -58,7 +58,7 @@ Application admin
 
 </td><td>
 
-Configures the workspace as per business requirements.For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the workspace as per business requirements.For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Accessing the workspace
@@ -94,5 +94,5 @@ The following is an example of a case playbook for a card dispute in the Financi
 
 \[Omitted image "fso-workspace-case-playbook.png"\] Alt text: Case playbook workspace showing the Resolve card disputes process with completed Select transaction step and case information panel.
 
-**Parent Topic:**[Exploring Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-fso-apps.md)
+**Parent Topic:**[Exploring Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/exploring-fso-apps.md)
 

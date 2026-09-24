@@ -2,7 +2,7 @@
 title: Explain the risk of a change request by using ServiceNow Otto for IT Service Management \(ITSM\)
 description: Quickly generate the explanation of the calculated risk rating for a change request by using the change request risk explanation skill in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/change-risk-exp-now-assist.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/change-risk-exp-now-assist.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -39,7 +39,7 @@ Additional inputs include:
 -   Risk condition that was met
 -   Risk assessment
 
-    By default, the assessment uses the top five normalized risk values sorted in descending order. If there’s a tie between the two values, the one with the lower order number is used. For information on risk assessment, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_RskAsmtCalc.md).
+    By default, the assessment uses the top five normalized risk values sorted in descending order. If there’s a tie between the two values, the one with the lower order number is used. For information on risk assessment, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_RskAsmtCalc.md).
 
 
 You can also add custom input fields.
@@ -64,15 +64,15 @@ You can generate the explanation of the calculated risk rating for a change requ
     -   To shorten the generated response, select **Refine** &gt; **Shorten**.
 4.  When you're finished generating the explanation for a change request risk rating, you can provide feedback, copy it, or view information about it.
 
-<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d275902e237">
+<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d275881e237">
 
 Option
 
-</th><th align="left" id="d275902e240">
+</th><th align="left" id="d275881e240">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d275902e246">
+</th></tr></thead><tbody><tr><td id="d275881e246">
 
 **Provide feedback for the change request risk explanation**
 
@@ -80,7 +80,7 @@ Procedure
 
 If you think that the change request risk explanation was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the change request risk explanation wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d275902e269">
+</td></tr><tr><td id="d275881e269">
 
 **Copy the change request risk explanation**
 
@@ -88,7 +88,7 @@ If you think that the change request risk explanation was helpful, select the he
 
 If you want to reuse the change request risk explanation, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d275902e284">
+</td></tr><tr><td id="d275881e284">
 
 **View the information about the change request risk explanation**
 

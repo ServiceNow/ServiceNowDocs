@@ -2,7 +2,7 @@
 title: Export directly from a URL
 description: Dynamically export data from a script or web service by building a URL query.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_ExportDirectlyFromTheURL.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/table-administration-and-data-management/t\_ExportDirectlyFromTheURL.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -30,8 +30,8 @@ You must be familiar with the ServiceNow table and column names to export data d
 
 You can control whether to export the display value or raw value of fields and the field label or field name for headers using query parameters or system properties.
 
--   For details on using query parameters, see [Query parameters for display value and header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/query-parameters-display-value.md).
--   For details on using system properties, see [System properties for display value and header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/system-properties-display-value-header.md).
+-   For details on using query parameters, see [Query parameters for display value and header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/query-parameters-display-value.md).
+-   For details on using system properties, see [System properties for display value and header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/table-administration-and-data-management/system-properties-display-value-header.md).
 
 Query parameters, if present, override system properties.
 

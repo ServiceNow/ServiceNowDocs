@@ -2,7 +2,7 @@
 title: Export sites
 description: Export Sites on your Discovery Console for OT into a CSV.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/export-site.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/export-site.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ The Sites information is downloaded in the CSV format.
 
 \[Omitted image "export-ignore.png"\] Alt text: Export CVS
 
-**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sites-page.md)
+**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sites-page.md)
 

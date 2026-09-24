@@ -2,7 +2,7 @@
 title: Add and configure a trigger in a playbook
 description: Begin building your playbook by adding and configuring the trigger.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-configure-trigger.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/add-configure-trigger.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -20,7 +20,7 @@ Begin building your playbook by adding and configuring the trigger.
 
 Role required: playbook.admin or pd\_author
 
-Review [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md).
+Review [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-triggers.md).
 
 ## About this task
 
@@ -78,7 +78,7 @@ Scheduled
 
 1.  Select **Add trigger** &gt; **Scheduled**.
 2.  Specify the scheduling details and the conditions for the trigger and select **Save and close**.
-For more information about scheduling a trigger, see [Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)
+For more information about scheduling a trigger, see [Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)
 
 </td></tr></tbody>
 </table>
@@ -88,7 +88,7 @@ The trigger is configured.
 
 ## What to do next
 
-[Add and configure your stages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-stage.md)
+[Add and configure your stages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-configure-stage.md)
 
-**Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
+**Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 

@@ -2,7 +2,7 @@
 title: Update information in security incident related records
 description: Edit related records for a security incident in Security Incident Response Workspace directly from the Related Records tab without having to leave the current context.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/edit-related-records-in-list.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/edit-related-records-in-list.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -42,7 +42,7 @@ Role required: sn\_si.analyst
 6.  Update the values of the fields.
 
 
-**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 

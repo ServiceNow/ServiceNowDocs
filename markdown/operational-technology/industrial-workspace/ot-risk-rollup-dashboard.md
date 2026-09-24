@@ -2,7 +2,7 @@
 title: Operational Technology Vulnerability Risk Rollup dashboard
 description: The Operational Technology \(OT\) Vulnerability Risk Rollup dashboard contains the risk score of the OT devices at each level of the equipment model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/ot-risk-rollup-dashboard.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-workspace/ot-risk-rollup-dashboard.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -38,5 +38,5 @@ You can use the **Site** filter to search for and select the site that you want 
 
 For more information, see [Use the site filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

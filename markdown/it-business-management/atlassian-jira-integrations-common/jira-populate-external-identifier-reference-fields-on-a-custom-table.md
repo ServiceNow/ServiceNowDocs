@@ -2,7 +2,7 @@
 title: Populate Jira project identifier reference fields for Agile Development 2.0 custom table
 description: Enable Jira identifier reference fields for your Agile Development 2.0 custom table that you added to the map configuration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/jira-populate-external-identifier-reference-fields-on-a-custom-table.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/atlassian-jira-integrations-common/jira-populate-external-identifier-reference-fields-on-a-custom-table.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -60,7 +60,7 @@ Configure the form layout or personalize the list layout of your custom table to
 -   External Project
 -   External URL
 
-**Parent Topic:**[Customizing map configuration for your Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/custom-map-configuration.md)
+**Parent Topic:**[Customizing map configuration for your Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/atlassian-jira-integrations-common/custom-map-configuration.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Exploring Security Posture Control
 description: Security Posture Control enables cybersecurity teams to get visibility into their complete enterprise asset inventory and determine their overall security posture.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/spc-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/spc-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-07-31"
@@ -61,7 +61,7 @@ With the SPC product, Info-Sec teams can perform the following tasks:
 -   Monitor your assets for their compliance with internal security tool configuration standards. For example, ensure that the latest version of an endpoint protection product is being used.
 -   Automate your remediation workflow for the security posture gaps you find with the ServiceNow Configuration Compliance application.
 -   Create custom policies and insights based on asset metadata, security tool coverage data, and vulnerability data.
--   Gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured with [Mitigation Controls Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-mitigation-exploring.md).
+-   Gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured with [Mitigation Controls Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-mitigation-exploring.md).
 
 ## How Asset Security Posture Management works
 
@@ -109,5 +109,5 @@ Some of the policies shipped with the Security Posture Control application look 
 
 ## Mitigation Controls Monitoring
 
-From within in the Security Posture Control \(SPC\) Workspace, gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured. See [Mitigation Controls Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-mitigation-exploring.md) for more information.
+From within in the Security Posture Control \(SPC\) Workspace, gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured. See [Mitigation Controls Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-mitigation-exploring.md) for more information.
 

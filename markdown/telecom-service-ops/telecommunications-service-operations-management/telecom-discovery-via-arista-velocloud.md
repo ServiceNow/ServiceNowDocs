@@ -2,7 +2,7 @@
 title: Telecom discovery via Arista VeloCloud SD-WAN
 description: The Service Graph Connector for Arista VeloCloud discovers SD-WAN inventory from VeloCloud Orchestrator and imports it into the CMDB.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-arista-velocloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-arista-velocloud.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -61,7 +61,7 @@ The main differences between the two modes are described in the following table.
 
 Regardless of the mode, the connector builds the same inventory — organizations, network sites, edge devices, and network service instances. The connector establishes the relationships between organizations and their network sites.
 
-For the full list of VeloCloud Orchestrator endpoints called during discovery, with sample responses, see [Arista VeloCloud Service Graph Connector API Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/arista-velocloud-service-graph-connector-api-endpoints.md).
+For the full list of VeloCloud Orchestrator endpoints called during discovery, with sample responses, see [Arista VeloCloud Service Graph Connector API Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/arista-velocloud-service-graph-connector-api-endpoints.md).
 
 ## CMDB Integrations Dashboard
 
@@ -70,7 +70,7 @@ The Integration Commons for CMDB application provides a dashboard with a central
 **Related topics**  
 
 
-[Configure Arista VeloCloud Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-arista-velocloud-service-graph-connector.md)
+[Configure Arista VeloCloud Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-arista-velocloud-service-graph-connector.md)
 
-[Run Arista VeloCloud SD-WAN Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/run-arista-velocloud-sd-wan-import.md)
+[Run Arista VeloCloud SD-WAN Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/run-arista-velocloud-sd-wan-import.md)
 

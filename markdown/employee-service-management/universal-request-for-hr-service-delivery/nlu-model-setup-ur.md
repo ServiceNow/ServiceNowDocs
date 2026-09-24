@@ -2,7 +2,7 @@
 title: Enable Natural Language Understanding model for Universal Request topic
 description: Apply the Natural Language Understanding vocabulary in the Universal Request application to help the system to understand human-expressed language.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/nlu-model-setup-ur.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/nlu-model-setup-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -33,5 +33,5 @@ To use the Universal Request topic for your chatbot conversations, select and en
 4.  Select **Save**.
 
 
-**Parent Topic:**[Set up Virtual Agent for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-virtual-agent-setup.md)
+**Parent Topic:**[Set up Virtual Agent for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-virtual-agent-setup.md)
 

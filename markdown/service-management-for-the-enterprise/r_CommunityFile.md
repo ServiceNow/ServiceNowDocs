@@ -2,7 +2,7 @@
 title: Community file
 description: The community file contains information about the campus, including the number of buildings and the number of floors for each building.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_CommunityFile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_CommunityFile.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,12 +21,12 @@ The file naming standard is:
 
 For example, `map-23641-mv-1-ev-1-geojson-com-map-fv-2.json`
 
--   **[Campus information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_CampusInfo.md)**  
+-   **[Campus information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_CampusInfo.md)**  
 Sample code for campus and map set properties.
--   **[Building information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_BuildingInfo.md)**  
+-   **[Building information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_BuildingInfo.md)**  
 Each drawing in the campus map file represents a building or campus overview. The campus overview is a map that shows the entire campus, and is included for multi-building campuses only.
--   **[Level information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_LevelInfo.md)**  
+-   **[Level information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_LevelInfo.md)**  
 Each building \(drawing\) has a list of levels. Each level is a map and represents one floor, though that is not a rule.
 
-**Parent Topic:**[GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_GeoJSONMapFiles.md)
+**Parent Topic:**[GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_GeoJSONMapFiles.md)
 

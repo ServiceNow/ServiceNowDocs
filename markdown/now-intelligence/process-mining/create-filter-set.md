@@ -2,7 +2,7 @@
 title: Create a filter set
 description: Create a filter set to be able to apply your current filter selections to the same process map later.Edit any saved filter.Remove applied filters.Delete a filter set when it's no longer useful for your project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/create-filter-set.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/create-filter-set.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -33,7 +33,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 The Filter set list contains the new filter set.
 
-**Parent Topic:**[Filtering project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/filter-project.md)
+**Parent Topic:**[Filtering project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/filter-project.md)
 
 ## Update a filter set
 

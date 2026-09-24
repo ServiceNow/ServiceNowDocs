@@ -2,7 +2,7 @@
 title: Analyze conversion funnel results
 description: Review the results of a conversion funnel to review how users move through each step, where they drop off, and how the journey has changed compared with a previous period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/analyse-conversion-funnel-results.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/analyse-conversion-funnel-results.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -82,5 +82,5 @@ details.
 
 The results view reports how many users completed the journey, where they dropped off, and how those figures compare with the previous period.
 
-**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md)
+**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

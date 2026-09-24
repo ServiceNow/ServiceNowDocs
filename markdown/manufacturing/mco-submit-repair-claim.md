@@ -2,7 +2,7 @@
 title: Submit a repair claim for warranty
 description: Create a warranty claim and submit it for approval.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-submit-repair-claim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-submit-repair-claim.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  On the Claim details form, fill in the fields.
 
-    For a description of the field values, see [Claim details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-claim-details-form.md).
+    For a description of the field values, see [Claim details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-claim-details-form.md).
 
 3.  Select **Continue**.
 
@@ -36,7 +36,7 @@ Role required: admin
 
 6.  On the Claim jobs form, fill in the fields.
 
-    For a description of the field values, see [Repair claim form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-claim-form.md).
+    For a description of the field values, see [Repair claim form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/repair-claim-form.md).
 
 7.  Select **Submit**.
 
@@ -50,7 +50,7 @@ The Claim job is successfully submitted for review and approval.
 **Related topics**  
 
 
-[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-warranty-clms.md)
+[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-warranty-clms.md)
 
-[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-repair-claim.md)
+[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-use-repair-claim.md)
 

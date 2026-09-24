@@ -2,7 +2,7 @@
 title: Campaign configurations for Manager Hub
 description: Default campaign configurations are available to use after you have activated Manager Hub Campaigns display predefined content on Manager Hub.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/manager-hub-campaign.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/manager-hub-campaign.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,7 +28,7 @@ The Manager Library campaign is published by default. It displays a banner with 
 
 For more details on these campaigns, navigate to **All** &gt; **Content Experiences** &gt; **Configurations** &gt; **Campaign Content**.
 
-**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 

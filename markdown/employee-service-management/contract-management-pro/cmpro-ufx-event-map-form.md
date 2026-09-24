@@ -2,7 +2,7 @@
 title: UFX Add on Event mapping form
 description: The UFX Add on Event mapping form to configure the display of declarative action in your application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-ufx-event-map-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-ufx-event-map-form.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -24,7 +24,7 @@ The UFX Add on Event mapping form to configure the display of declarative action
 |Source component|The component where the button will appear. For example, the Action bar.|
 |Controller|A controller that handles the target event. For example, Form.|
 
-**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 

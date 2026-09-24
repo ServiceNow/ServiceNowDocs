@@ -2,7 +2,7 @@
 title: Add a pipeline project to a sourcing request
 description: Add a pipeline project to a sourcing request to link project details, reduce manual data entry, and track sourcing progress against project timelines.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/add-pipeline-sourcing-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/add-pipeline-sourcing-request.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -88,5 +88,5 @@ Add the sourcing request to a new pipeline project.
     The sourcing request is associated with either an existing or a new pipeline project. It is displayed in the **Sourcing Requests** tab of the pipeline project.
 
 
-**Parent Topic:**[Using Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-pipeline-sourcing-mgmt.md)
+**Parent Topic:**[Using Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-pipeline-sourcing-mgmt.md)
 

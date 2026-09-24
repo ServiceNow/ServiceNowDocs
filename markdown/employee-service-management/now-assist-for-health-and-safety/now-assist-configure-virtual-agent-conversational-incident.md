@@ -2,7 +2,7 @@
 title: Configure ServiceNow Otto for Virtual Agent for Conversational AI Health and Safety incident report
 description: An admin can configure the default ServiceNow Otto for Virtual Agent assistants and the default ServiceNow Otto panel assistants \(Platform\). Configuring the assistants enables the ServiceNow Otto panel on the Employee Center and the Health and Safety workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-configure-virtual-agent-conversational-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-configure-virtual-agent-conversational-incident.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -29,7 +29,7 @@ Role required: admin
 2.  Install the ServiceNow Otto for platform \[sn\_genai\_platform\] to enable ServiceNow Otto for the workspace.
 3.  Install the Health and Safety Incident Management \[sn\_hs\_im\_incident\] plugin.
 
-    For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
+    For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
 
 4.  For detailed information about configuring ServiceNow Otto for Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
@@ -70,5 +70,5 @@ Role required: admin
 
 The ServiceNow Otto panel is enabled for the Employee center.
 
-**Parent Topic:**[Configure conversational AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-configure-conversational-ai.md)
+**Parent Topic:**[Configure conversational AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/hs-configure-conversational-ai.md)
 

@@ -2,7 +2,7 @@
 title: Add covered products to a quote
 description: Add a covered product to line items in a quote in Quote Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/som-quote-add-covered-products.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-quote-add-covered-products.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -82,5 +82,5 @@ Add an install base item as a covered product.
     A contract is created with the contract details for the order line.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

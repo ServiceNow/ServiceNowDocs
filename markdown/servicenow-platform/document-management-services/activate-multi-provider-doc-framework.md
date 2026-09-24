@@ -2,7 +2,7 @@
 title: Activate Multi Provider Document Services Framework
 description: You can activate the Multi Provider Document Services Framework plugin \(com.snc.multiprovider\_documents\) for Document Services if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/activate-multi-provider-doc-framework.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/document-management-services/activate-multi-provider-doc-framework.html
 release: australia
 product: Document Management Services
 classification: document-management-services

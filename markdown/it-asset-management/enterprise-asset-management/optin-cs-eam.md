@@ -2,7 +2,7 @@
 title: Opt-in to the Enterprise Asset Management Content Service
 description: Opt in to the Enterprise Asset Management Content Service to share unnormalized enterprise model data from your organization with ServiceNow to improve the normalization process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/optin-cs-eam.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/optin-cs-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

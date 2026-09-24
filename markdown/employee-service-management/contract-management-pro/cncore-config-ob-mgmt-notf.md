@@ -2,7 +2,7 @@
 title: Configure Obligation Management notifications
 description: Activate Obligation Management notifications to notify users when an obligation task is created, assigned, submitted, approved, or rejected.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-ob-mgmt-notf.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-config-ob-mgmt-notf.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,7 +29,7 @@ To avoid duplicate notifications for an event, the following notifications are n
 
 You can activate the notifications specific to obligation tasks and then set up a condition to stop the default system notifications.
 
-For more information about obligation-related notifications, see [Obligation Management notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ob-mgmt-notification.md).
+For more information about obligation-related notifications, see [Obligation Management notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ob-mgmt-notification.md).
 
 ## Before you begin
 
@@ -68,5 +68,5 @@ Role required: admin
 
 The obligation task-specific notifications are activated and the default system notifications are stopped for obligation events.
 
-**Parent Topic:**[Manage notifications in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-notifications.md)
+**Parent Topic:**[Manage notifications in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-manage-notifications.md)
 

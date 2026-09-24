@@ -2,7 +2,7 @@
 title: Formatting functions in HTML field editors
 description: The formatting table displays how to control the way text appears.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_Formatting.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_Formatting.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

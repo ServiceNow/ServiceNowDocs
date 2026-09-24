@@ -2,7 +2,7 @@
 title: Personalize the Enterprise Architecture Workspace home page
 description: Customize the sections that you want visible on the home page by using the personalize page feature.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-personalize-the-enterprise-architecture-workspace-home-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-personalize-the-enterprise-architecture-workspace-home-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,5 +31,5 @@ Role required: sn\_apm.apm\_analyst
 4.  Select **Apply**.
 
 
-**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-eaw.md)
+**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-eaw.md)
 

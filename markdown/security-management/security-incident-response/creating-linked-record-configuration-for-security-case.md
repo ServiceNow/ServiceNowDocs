@@ -2,7 +2,7 @@
 title: Step 1. Create linked record configuration for a Security Case
 description: Create a Linked Record configuration for a Security Case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/creating-linked-record-configuration-for-security-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/creating-linked-record-configuration-for-security-case.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -69,7 +69,7 @@ Can promote to MSI
 True, select this check box to promote the security case to MSI.**Note:**
 
 -   Link and Unlink security case records to major security incidents both from Major Security Incident Management workspace. Also, Unlink record functionality is visible only for the linked records.
-    -   This will enable the link, promote, and propose to Security Case to Major Security Incident using classic environment actions, but those UI actions will not be available out of the box. Each UI action needs to be created manually. For more information, see [Step 3. Create UI actions for the Source Table for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/creating-ui-actions-for-source-table.md).
+    -   This will enable the link, promote, and propose to Security Case to Major Security Incident using classic environment actions, but those UI actions will not be available out of the box. Each UI action needs to be created manually. For more information, see [Step 3. Create UI actions for the Source Table for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/creating-ui-actions-for-source-table.md).
     -   Link/Promote/Propose UI action are available for Security Incident, Remediation Task, and Security Case out of the box.
 -   MSIM workspace linked record page will show the linked Security Case records.
  Refer to the below image 1 to view the options available after selecting this check box.
@@ -80,7 +80,7 @@ Modal List View
 
 </td><td>
 
-msim\_sn\_ti\_case\_model\_view**Note:** This view contains fields and fields order shown in list view on the Link Record Modal in MSIM workspace. For more information, see [Step 2. Create a view for modal window for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/creating-a-view-for-modal-window-for-security-case.md)
+msim\_sn\_ti\_case\_model\_view**Note:** This view contains fields and fields order shown in list view on the Link Record Modal in MSIM workspace. For more information, see [Step 2. Create a view for modal window for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/creating-a-view-for-modal-window-for-security-case.md)
 
  Refer to the below image 2 to view from the **Linked Records** page.
 
@@ -98,5 +98,5 @@ This script describes the fields from source tables record will mapped to newly 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-case-for-a-security-case.md)
+**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/use-case-for-a-security-case.md)
 

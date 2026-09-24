@@ -2,12 +2,12 @@
 title: Reserve a rack using data center infrastructure allocation
 description: Reserve rack unit space in a data center by creating a data center infrastructure allocation change request and running the allocation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/reserve-a-rack-using-data-center-infra-allocation.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/reserve-a-rack-using-data-center-infra-allocation.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Data center infrastructure rack allocation, Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -75,5 +75,5 @@ Data center infrastructure allocation reserves rack unit space in a data center 
     **Note:** Selecting **Continue** treats the slots marked as reserved from the previous run as occupied. This reduces available contiguous space and may affect which racks are eligible for the new run. Selecting **Finish** exits without making changes. You can update your requirements and re-run to find a new allocation.
 
 
-**Parent Topic:**[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)
+**Parent Topic:**[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)
 

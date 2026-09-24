@@ -2,7 +2,7 @@
 title: Share an internal job opportunity
 description: Share internal job opportunities with your coworkers.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-share-opportunity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/opportunity-marketplace/egd-share-opportunity.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -51,5 +51,5 @@ The opportunity is sent to the coworker that you shared it with.
 
 When you share an opportunity with a coworker, you and the person you share the opportunity with receive an email notification that the job was shared.
 
-**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
+**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
 

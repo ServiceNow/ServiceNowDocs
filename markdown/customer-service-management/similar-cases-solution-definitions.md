@@ -2,7 +2,7 @@
 title: Similarity solution definitions
 description: The similar case recommendation feature uses several Predictive Intelligence solution definitions for similarity models.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/similar-cases-solution-definitions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/similar-cases-solution-definitions.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

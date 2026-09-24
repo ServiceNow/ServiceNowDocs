@@ -2,7 +2,7 @@
 title: Show flow priority field
 description: Configure the Setting list and form to show the Flow Priority field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/show-flow-priority-field.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/show-flow-priority-field.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -59,5 +59,5 @@ The Flow Priority field is hidden by default. Configure the Setting table list a
 
 Set the Flow Priority from the list or form.
 
-**Parent Topic:**[Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-priority.md)
+**Parent Topic:**[Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-priority.md)
 

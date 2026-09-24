@@ -2,7 +2,7 @@
 title: Source-to-Pay Workspace
 description: Use the Source-to-Pay Workspace to manage cases and tasks related to invoices and invoice exceptions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/acc-pay-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-workspace.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -39,7 +39,7 @@ The Source-to-Pay Workspace is automatically installed if any of the following a
 |Accounts Payable Specialist: View and manage invoice processing cases and tasks.|sn\_ap\_apm.accounts\_payable\_specialist|
 |Agent: View and manage invoice inquiry cases and tasks.|sn\_ap\_cm.agent|
 
-**Parent Topic:**[Explore Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.md)
+**Parent Topic:**[Explore Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.md)
 
 **Related topics**  
 

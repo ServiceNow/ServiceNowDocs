@@ -2,7 +2,7 @@
 title: RIDAC Issue form
 description: Use the RIDAC Issue form to create and manage issues that affect your demand or project planning items. Track planning challenges, obstacles, and problems that need resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/ridac-issue-form-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/ridac-issue-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -32,5 +32,5 @@ Use the RIDAC Issue form to create and manage issues that affect your demand or 
 |Planning Item|The planning item \(project or demand\) that this issue is associated with. This field is auto-populated when an issue is created from a planning item context.|
 |Work notes|Internal notes and updates about the progress of issue resolution. Used to track work history and communication.|
 
-**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
+**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

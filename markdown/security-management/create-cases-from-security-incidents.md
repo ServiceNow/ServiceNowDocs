@@ -2,7 +2,7 @@
 title: Create a case from security incidents
 description: In Security Incident Response, you can create cases from security incidents. After the security incidents have been used to create a new case, you can use Security Case Management to analyze the data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/create-cases-from-security-incidents.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/create-cases-from-security-incidents.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -56,7 +56,7 @@ You need to navigate to the security incidents you want to use to create cases.
 7.  Click the link to view the new case.
 
 
-**Parent Topic:**[Security incidents in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/case-in-sir.md)
+**Parent Topic:**[Security incidents in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/case-in-sir.md)
 
 **Related topics**  
 

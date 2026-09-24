@@ -2,7 +2,7 @@
 title: Knowledge Management Overview dashboard
 description: The Knowledge Management Overview dashboard provides an overview of various usage metrics associated with knowledge articles. You can view and track knowledge usage and views and direct the efforts of content owners more efficiently.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/km-overview-dash.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-management/km-overview-dash.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -18,7 +18,7 @@ The Knowledge Management Overview dashboard provides an overview of various usag
 
 **Note:**
 
-If you’re upgrading from a previous release, you must activate the Knowledge Overview \(com.sn\_knowledge\_overview\) plugin to enable the Knowledge Management Overview dashboard. You must also update the navigation path. For more information, see [Update the navigation path for the Knowledge Management Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-overview-dash-path.md).
+If you’re upgrading from a previous release, you must activate the Knowledge Overview \(com.sn\_knowledge\_overview\) plugin to enable the Knowledge Management Overview dashboard. You must also update the navigation path. For more information, see [Update the navigation path for the Knowledge Management Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/km-overview-dash-path.md).
 
 Enable the responsive dashboard to optimize analytics by setting the **glide.cms.enable.responsive\_grid\_layout** system property to true.
 

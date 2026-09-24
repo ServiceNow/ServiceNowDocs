@@ -2,7 +2,7 @@
 title: Disable Document Viewer
 description: Disable Document Viewer at the instance level to disable it or at table level to disable it for specific tables within the instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/disable-doc-viewer.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/disable-doc-viewer.html
 release: australia
 topic_type: task
 last_updated: "2023-08-03"
@@ -58,10 +58,10 @@ Description
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/Documentviewer.md)
+**Parent Topic:**[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/Documentviewer.md)
 
 **Related topics**  
 
 
-[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-document-viewer.md)
+[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/enable-document-viewer.md)
 

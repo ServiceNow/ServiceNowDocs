@@ -2,7 +2,7 @@
 title: Software subscription fields
 description: Software subscription form fields, their descriptions, and the SaaS integrations for which these fields are populated.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-subscription-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/software-subscription-fields.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -312,7 +312,7 @@ License metric result
 
 </td><td>
 
-License metric result of the software product that is populated after reconciliation. For more information on license metric results, see [Software reconciliation results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-reconciliation-results.md).
+License metric result of the software product that is populated after reconciliation. For more information on license metric results, see [Software reconciliation results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-reconciliation-results.md).
 
 </td><td>
 
@@ -328,7 +328,7 @@ Product result
 
 </td><td>
 
-Product result of the software product that is populated after reconciliation. For more information on product results, see [Software reconciliation results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-reconciliation-results.md).
+Product result of the software product that is populated after reconciliation. For more information on product results, see [Software reconciliation results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-reconciliation-results.md).
 
 </td><td>
 
@@ -344,7 +344,7 @@ Software model result
 
 </td><td>
 
-Software model result of the software product that is populated after reconciliation. For more information on software model results, see [Software reconciliation results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-reconciliation-results.md).
+Software model result of the software product that is populated after reconciliation. For more information on software model results, see [Software reconciliation results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-reconciliation-results.md).
 
 </td><td>
 
@@ -371,5 +371,5 @@ No \(Automatically determined\)
 All SaaS integrations
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
 

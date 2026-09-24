@@ -2,7 +2,7 @@
 title: Create a choice map
 description: Map the choice list for each field map for fields with a list of values from Portfolio Planning to Project Portfolio Management and vice-versa.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-choice-map-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-choice-map-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +18,7 @@ Map the choice list for each field map for fields with a list of values from Por
 
 ## Before you begin
 
-Ensure that you have created a field map and it contains choice fields with a list of values. For more information, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-field-map-ppw.md).
+Ensure that you have created a field map and it contains choice fields with a list of values. For more information, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-field-map-ppw.md).
 
 Role required: sn\_align\_core.apw\_admin
 
@@ -34,7 +34,7 @@ Role required: sn\_align\_core.apw\_admin
 
 5.  Create a new choice map by selecting **New** in the Choice Maps tab.
 
-6.  In the [Choice map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/choice-map-form-ppw.md), fill in the fields.
+6.  In the [Choice map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/choice-map-form-ppw.md), fill in the fields.
 
 7.  Click **Submit**.
 

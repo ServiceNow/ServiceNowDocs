@@ -2,7 +2,7 @@
 title: Using product catalogs
 description: The product catalog provides a visual display of the available product offerings that can be added to a Sales Customer Relationship Management transaction, such as an opportunity, quote, or order. Use the catalog interface to add simple products and complex products that can be further customized.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/using-product-catalog.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-product-catalog.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -50,19 +50,19 @@ AI Search provides other features to enhance the search process:
 
 \[Omitted image "ai-search-bar-catalog.png"\] Alt text: AI Search features in product catalog interface: Sort by filter options, sort order, and search bar. Another example shows search bar with auto-complete suggestions.
 
-For more information on search queries and the search query language that you can use to find catalog items, see [Use AI Search in product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-ai-search-catalog.md).
+For more information on search queries and the search query language that you can use to find catalog items, see [Use AI Search in product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-ai-search-catalog.md).
 
 **Note:** Check your entitlements to determine if you have access to this feature.
 
--   **[Use AI Search in product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-ai-search-catalog.md)**  
+-   **[Use AI Search in product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-ai-search-catalog.md)**  
 As an agent or customer, use AI Search queries in the product catalog to find relevant product offerings or service specifications. For example, you can search by product offering characteristics or other attributes, when adding products in Sales Customer Relationship Management transactions.
 
-**Parent Topic:**[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-foundation.md)
+**Parent Topic:**[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-foundation.md)
 
 **Related topics**  
 
 
-[Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-to-cash-foundation.md)
+[Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-lead-to-cash-foundation.md)
 
-[Lead-to-cash foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash-foundation-landing.md)
+[Lead-to-cash foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash-foundation-landing.md)
 

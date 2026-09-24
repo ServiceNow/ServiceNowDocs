@@ -2,7 +2,7 @@
 title: AI skills in Contract Management Pro
 description: AI skills automate contract metadata extraction, analyze contracts for clause compliance, extract obligations, and enable conversational search across contract repositories.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-ai-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-ai-skills.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -23,13 +23,13 @@ The following AI skills are available for contract management:
 
     Reviews the contract document for non-standard and missing clauses.
 
-    For more information on activating the skill, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md). For more information on contract analysis, see [Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
+    For more information on activating the skill, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md). For more information on contract analysis, see [Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
 
 -   **Contract metadata extraction**
 
     Extracts metadata from a signed contract in contract repository record and displays the information on the Document Intelligence interface.
 
-    For more information on activating the skill, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md). For more information on extracting the metadata from a contract, see [Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md).
+    For more information on activating the skill, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md). For more information on extracting the metadata from a contract, see [Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md).
 
 -   **Contract obligation extraction**
 
@@ -37,7 +37,7 @@ The following AI skills are available for contract management:
 
     **Note:** Obligation extraction is available only with the manage contract repository agentic workflow.
 
-    For more information on activating the skill, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+    For more information on activating the skill, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 -   **Conversational contract search and insights**
 
@@ -53,7 +53,7 @@ The following AI skills are available for contract management:
 
     -   No support for search within scanned PDF documents
     -   Search functionality is limited to contracts stored in internal storage only
-    For more information on activating the skill, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+    For more information on activating the skill, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 
 ## Contract analysis workflow
@@ -80,7 +80,7 @@ The following workflow shows how different users work together to configure and 
 4.  In the system properties, the administrator specifies whether the metadata extraction should be automatically or manually initiated.
 5.  When a contract repository record is created with a signed contract, a contract manager with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role initiates the metadata extraction process.
 
-    The system properties can also be configured to initiate the metadata extraction process automatically when the contract repository record is created. For more information, see [Configure system properties for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-sys-prop-na.md).
+    The system properties can also be configured to initiate the metadata extraction process automatically when the contract repository record is created. For more information, see [Configure system properties for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-conf-sys-prop-na.md).
 
 6.  The contract manager receives a notification when the metadata extraction is successfully completed.
 

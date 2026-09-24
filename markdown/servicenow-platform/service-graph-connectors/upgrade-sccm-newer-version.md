@@ -2,7 +2,7 @@
 title: Upgrade to the latest version of Service Graph Connector for Microsoft SCCM
 description: Upgrade your Service Graph Connector for Microsoft SCCM. When you upgrade versions, you can select the files that you want to transfer from the earlier version to the later version of the Service Graph Connector for Microsoft SCCM.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/upgrade-sccm-newer-version.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-graph-connectors/upgrade-sccm-newer-version.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

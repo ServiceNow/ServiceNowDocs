@@ -2,7 +2,7 @@
 title: Spreadsheet view in Table Builder
 description: Use Spreadsheet view in Table Builder to work with your application data records and data structure in a spreadsheet format.Add a data record within Table Builder Spreadsheet view.Edit individual data records within Table Builder Spreadsheet view.Sort your data records by a specific field column within Table Builder Spreadsheet view.Show a filtered list of data records that contain matching data for a selected field within Table Builder Spreadsheet view.Display only the data records you want to see in your list by setting up a conditional query within Table Builder Spreadsheet view.Edit field properties such as the field label, type, attributes, and default values within Table Builder Spreadsheet view.Add field columns to a selected table within Table Builder Spreadsheet view.Duplicate an existing field column within a table shown in Table Builder Spreadsheet view.Change the order in which your columns are displayed within Table Builder Spreadsheet view.Choose whether to hide or show specific field columns within Table Builder Spreadsheet view.Pin specific columns to always display on the left when you scroll to the right in a table with a large number of field columns within Table Builder Spreadsheet view. Pinned columns are saved for each individual user, not globally. The next time a user logs in, any columns they pinned will be shown.Delete a field column for a selected table within Table Builder Spreadsheet view.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/tb-sprdsht-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -30,7 +30,7 @@ Correct the data in each record individually, or select **Revert record changes*
 
 Use the following procedures to edit table field structure and any imported data records for a selected table using **Spreadsheet** view in Table Builder
 
-**Parent Topic:**[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-builder.md)
+**Parent Topic:**[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/table-builder.md)
 
 ## Add a data record
 
@@ -38,7 +38,7 @@ Add a data record within Table Builder **Spreadsheet** view.
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -52,7 +52,7 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 4.  Select **Save**.
 
-    See [Saving data records in Spreadsheet view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md)for details on troubleshooting errors.
+    See [Saving data records in Spreadsheet view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md)for details on troubleshooting errors.
 
 
 ## Edit individual data records
@@ -61,7 +61,7 @@ Edit individual data records within Table Builder **Spreadsheet** view.
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -75,7 +75,7 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 4.  Select **Save**.
 
-    See [Saving data records in Spreadsheet view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md)for details on troubleshooting errors.
+    See [Saving data records in Spreadsheet view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md)for details on troubleshooting errors.
 
 
 ## Sort your data records
@@ -84,7 +84,7 @@ Sort your data records by a specific field column within Table Builder **Spreads
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -107,7 +107,7 @@ Show a filtered list of data records that contain matching data for a selected f
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -121,7 +121,7 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
     A filtered list of records with matching data displays. A filter query is added and accessible when you select the **Filter** button at the top of the grid.
 
-    **Note:** To remove the filter you added, select the **Filter** button and delete the filter condition from the list. See [Filter your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+    **Note:** To remove the filter you added, select the **Filter** button and delete the filter condition from the list. See [Filter your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 
 
 ## Filter your data records
@@ -130,7 +130,7 @@ Display only the data records you want to see in your list by setting up a condi
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -162,7 +162,7 @@ Edit field properties such as the field label, type, attributes, and default val
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -178,7 +178,7 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 4.  Edit the desired field property for the column.
 
-    See [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/field-parameters.md) for more information on field properties.
+    See [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/field-parameters.md) for more information on field properties.
 
 5.  Select **Save**.
 
@@ -189,7 +189,7 @@ Add field columns to a selected table within Table Builder **Spreadsheet** view.
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -296,7 +296,7 @@ Duplicate an existing field column within a table shown in Table Builder **Sprea
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -327,7 +327,7 @@ Change the order in which your columns are displayed within Table Builder **Spre
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -346,7 +346,7 @@ Choose whether to hide or show specific field columns within Table Builder **Spr
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -402,7 +402,7 @@ Pin specific columns to always display on the left when you scroll to the right 
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -453,7 +453,7 @@ Delete a field column for a selected table within Table Builder **Spreadsheet** 
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 

@@ -2,7 +2,7 @@
 title: Contractor Portal
 description: Use Field Service Contractor Portal to manage work order tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/field-service-contractor-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/field-service-contractor-portal.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -25,7 +25,7 @@ If you have activated the Service Portal User Criteria Support plugin and set it
 **Related topics**  
 
 
-[Contractor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/contractor-dashboard.md)
+[Contractor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/contractor-dashboard.md)
 
-[Configuring contractor capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-contractor-capabilities.md)
+[Configuring contractor capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-contractor-capabilities.md)
 

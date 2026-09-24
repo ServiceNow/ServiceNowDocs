@@ -2,7 +2,7 @@
 title: Create an open-ended entity
 description: Use an open-ended entity when you want to improve intent prediction accuracy. Open-ended entities help your model focus on the context of the utterances.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-open-ended-entity.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/create-open-ended-entity.html
 release: australia
 product: NLU Service
 classification: nlu-service

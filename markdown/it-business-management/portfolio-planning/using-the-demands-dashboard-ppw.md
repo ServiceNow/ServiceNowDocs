@@ -2,7 +2,7 @@
 title: Using the Demands Dashboard
 description: The Demands Dashboard provides a centralized view of demand data, metrics, and visualizations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/using-the-demands-dashboard-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/using-the-demands-dashboard-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

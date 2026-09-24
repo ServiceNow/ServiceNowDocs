@@ -2,7 +2,7 @@
 title: AI in Service Observability
 description: Generative AI skills in Service Observability help operators analyze metric data and assess service health faster.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/exploring-ai-in-service-observability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-observability/exploring-ai-in-service-observability.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -49,8 +49,8 @@ An operator wants a quick orientation to an unfamiliar dashboard or needs to ide
 
 </td><td>
 
--   [Activate the analyze Service Observability dashboard skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/activate-the-analyze-service-observability-dashboard-skill.md)
--   [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md)
+-   [Activate the analyze Service Observability dashboard skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/activate-the-analyze-service-observability-dashboard-skill.md)
+-   [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md)
 
 </td></tr><tr><td>
 
@@ -66,8 +66,8 @@ An operator is triaging an incident and needs to quickly assess service impact, 
 
 </td><td>
 
--   [Activate the analyze service health skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md)
--   [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-service-health-in-service-observability.md)
+-   [Activate the analyze service health skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md)
+-   [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/analyze-service-health-in-service-observability.md)
 
 </td></tr></tbody>
 </table>

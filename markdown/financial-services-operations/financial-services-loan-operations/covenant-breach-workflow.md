@@ -2,7 +2,7 @@
 title: Covenant Breach workflow
 description: Learn how bank agents, using the Covenant Breach workflow, proactively contact a loan customer for a covenant breach and decide on an action plan for the future. The workflow applies to both business and personal loans.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/covenant-breach-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-loan-operations/covenant-breach-workflow.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations

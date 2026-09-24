@@ -2,7 +2,7 @@
 title: Create and compare financial baselines for a demand
 description: Create and compare financial baselines to get a snapshot of the demand expenses and compare the planned costs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-financial-baselines-ppw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/create-financial-baselines-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -73,9 +73,9 @@ Create financial baseline window appears with the Name field is auto-populated w
 
 1.  Select the **Baselines comparison** tab to view the list of baselines.
 2.  Select any two baselines and select the **Compare baselines** button.
- Comparison view of the selected baselines is displayed. For more details, see [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-financials-for-demands-ppw.md).
+ Comparison view of the selected baselines is displayed. For more details, see [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/managing-financials-for-demands-ppw.md).
 
 </td></tr></tbody>
-</table>    **Tip:** You can migrate existing financials baselines of your demands from Classic UI to Financials in Next Experience. For more information, see [Migrate financial baselines of demands to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/migrate-fin-baselines-demands.md).
+</table>    **Tip:** You can migrate existing financials baselines of your demands from Classic UI to Financials in Next Experience. For more information, see [Migrate financial baselines of demands to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/migrate-fin-baselines-demands.md).
 
 

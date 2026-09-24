@@ -2,7 +2,7 @@
 title: Configure exception approval behavior
 description: Configure how exception reasons are enforced, approved, and re-evaluated when findings are detected using the ServiceNow Scan Engine.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/configure-exception-reasons-scan-engine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-exception-reasons-scan-engine.html
 release: australia
 topic_type: task
 last_updated: "2026-07-27"
@@ -18,9 +18,9 @@ Configure how exception reasons are enforced, approved, and re-evaluated when fi
 
 When real-time enforcement is on, Act and Recommend level findings require an approved exception reason before the form can be saved. Suggest and Review level findings do not block form submission.
 
-All instances must be registered in My SN Instances before configuring approval settings. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md) for details.
+All instances must be registered in My SN Instances before configuring approval settings. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md) for details.
 
-See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/understand-scan-engine-results-findings.md) for additional information on finding levels.
+See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/understand-scan-engine-results-findings.md) for additional information on finding levels.
 
 Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\)
 
@@ -38,7 +38,7 @@ Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\)
 
 3.  Configure approval settings.
 
-    **Important:** Before enabling approvals, ensure your instances are registered in My SN Instances with the exact instance name matching your instance subdomain. For example, use `testservicesdev` not `DEV`. If the instance name is incorrect, the **Enable approvals in production** checkbox will remain greyed out. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md) for details.
+    **Important:** Before enabling approvals, ensure your instances are registered in My SN Instances with the exact instance name matching your instance subdomain. For example, use `testservicesdev` not `DEV`. If the instance name is incorrect, the **Enable approvals in production** checkbox will remain greyed out. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md) for details.
 
     1.  Set **Enable approvals in production**.
 
@@ -79,5 +79,5 @@ Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\)
 6.  Select **Save**.
 
 
-**Parent Topic:**[Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/exception-reason-properties.md)
+**Parent Topic:**[Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-reason-properties.md)
 

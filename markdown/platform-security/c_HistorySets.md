@@ -2,7 +2,7 @@
 title: Knowing about History sets
 description: The system automatically generates History Set records as needed from the Audit table when a user either creates a record or views its history.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_HistorySets.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/c\_HistorySets.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Add a risk intelligence score to risk data for a third party
 description: You add a raw score from a provider to the provider service record for a third party. The system uses the mapping that you specified to normalize the value to the appropriate TPRM rating.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -62,7 +62,7 @@ Provider service
 
 </td><td>
 
-A name that is the concatenation of the risk intelligence provider name and the particular service that returned the risk data. You configured the service using the process specified in [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md).
+A name that is the concatenation of the risk intelligence provider name and the particular service that returned the risk data. You configured the service using the process specified in [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md).
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ Provider service
 
 </td><td>
 
-A name that is the concatenation of the risk intelligence provider name and the particular service that returned the risk data. You configured the service using the process specified in [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md).
+A name that is the concatenation of the risk intelligence provider name and the particular service that returned the risk data. You configured the service using the process specified in [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md).
 
 </td></tr><tr><td>
 
@@ -199,11 +199,11 @@ Date and time that the score was added to this record.
 </table>
 ## Result
 
-The data that you have associated with the third party now appears in reports. See [Viewing risk intelligence scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-risk-intel-scores.md) for details. The data appears in the following locations:
+The data that you have associated with the third party now appears in reports. See [Viewing risk intelligence scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-risk-intel-scores.md) for details. The data appears in the following locations:
 
 -   Risk intelligence scores related list as described in this procedure.
 -   **Risk overview** tab in the workspace.
 -   **Risk intelligence scores** tab in the workspace.
 
-**Parent Topic:**[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
+**Parent Topic:**[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
 

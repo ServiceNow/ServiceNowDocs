@@ -2,7 +2,7 @@
 title: Work on a knowledge article in Service Operations Workspace
 description: Share information across your organization using a knowledge article.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/work-knowledge-article.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/work-knowledge-article.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -26,15 +26,15 @@ Role required: itil
 
 2.  Perform any of the following actions on the record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d137468e61">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d137467e61">
 
 Option
 
-</th><th align="left" id="d137468e64">
+</th><th align="left" id="d137467e64">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d137468e70">
+</th></tr></thead><tbody><tr><td id="d137467e70">
 
 **Create a new version of the knowledge article that we can publish**
 
@@ -42,7 +42,7 @@ Description
 
 Select **Checkout**.
 
-</td></tr><tr><td id="d137468e82">
+</td></tr><tr><td id="d137467e82">
 
 **Translate an article after its comparison in its original language and the language it will be translated into**
 
@@ -53,7 +53,7 @@ Select **Checkout**.
 
 **Note:** If Dynamic Translation is enabled, click **Machine Translate** to view machine translations.
 
-</td></tr><tr><td id="d137468e112">
+</td></tr><tr><td id="d137467e112">
 
 **View a knowledge article including the article number, short description, and article content**
 
@@ -61,7 +61,7 @@ Select **Checkout**.
 
 Select **View Article**.
 
-</td></tr><tr><td id="d137468e124">
+</td></tr><tr><td id="d137467e124">
 
 **Initiate the retirement workflow associated with the article**
 
@@ -69,7 +69,7 @@ Select **View Article**.
 
 From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\), select **Retire**. For information about retiring a knowledge article, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RetiredKnowledgeArticles.md).
 
-</td></tr><tr><td id="d137468e147">
+</td></tr><tr><td id="d137467e147">
 
 **Translate an article into multiple languages**
 
@@ -80,7 +80,7 @@ From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt 
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d137468e180">
+</td></tr><tr><td id="d137467e180">
 
 **Copy the record page URL to easily access the record**
 
@@ -88,7 +88,7 @@ From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt 
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
 
-</td></tr><tr><td id="d137468e198">
+</td></tr><tr><td id="d137467e198">
 
 **Reuse a knowledge block when creating or editing the article**
 
@@ -98,7 +98,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  Select the required knowledge block to add it to the article.
 
 
-</td></tr><tr><td id="d137468e222">
+</td></tr><tr><td id="d137467e222">
 
 **Attach a record that helps in quick resolution of the interaction**
 
@@ -108,9 +108,9 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  Search for a resource and perform the required action, for example, find a relevant knowledge base article and attach a link to it to work notes.
  **Note:** The agent assist icon is available only for users with the following roles: itil or interaction\_agent.
 
- For information on configuring additional search resources, see [Configure search resources for an interaction in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.md).
+ For information on configuring additional search resources, see [Configure search resources for an interaction in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.md).
 
-</td></tr><tr><td id="d137468e259">
+</td></tr><tr><td id="d137467e259">
 
 **Add attachments**
 
@@ -118,7 +118,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\). Alternatively, you can drag and drop the attachment into the **Active Chat** window of the interaction.**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d137468e283">
+</td></tr><tr><td id="d137467e283">
 
 **Create templates for reuse**
 
@@ -126,7 +126,7 @@ From the contextual side panel, select the attachments icon \(\[Omitted image "a
 
 From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text: templates icon\) and create a template or reuse an existing one.
 
-</td></tr><tr><td id="d137468e299">
+</td></tr><tr><td id="d137467e299">
 
 **Most recent task**
 
@@ -136,5 +136,5 @@ Related list of task records to which the knowledge article is recently attached
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/knowledge-articles-sow.md)
+**Parent Topic:**[Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/knowledge-articles-sow.md)
 

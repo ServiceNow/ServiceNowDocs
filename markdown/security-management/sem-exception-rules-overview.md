@@ -2,7 +2,7 @@
 title: Deferring findings automatically without manual intervention using exception rules
 description: Exception rules for Security Exposure Management Workspace enable you to automate the deferral process for findings. Request an exception for the findings that can't be remediated or deferred immediately, by identifying the impacted vulnerabilities, configuration items \(CIs\), or VIs. Defer the matching findings based on the rule when the system identifies them by automating the finding deferral process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/sem-exception-rules-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-exception-rules-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ You can create an exception rule to automatically defer the findings that match 
 
 **Approving an exception rule request**
 
-Approving an exception rule request is a two-level process. If only the first-level approver is present, the exception rule can be assessed and approved by a single approval. However, if there's no first-level approver, an exception rule approval can't be approved. See [Approve an exception rule request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approve-ex-rule-request.md) for more information.
+Approving an exception rule request is a two-level process. If only the first-level approver is present, the exception rule can be assessed and approved by a single approval. However, if there's no first-level approver, an exception rule approval can't be approved. See [Approve an exception rule request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approve-ex-rule-request.md) for more information.
 
 **Note:** The Change Approval \(CA\) is now also created during exception rule submission. This enhancement ensures consistency across exception workflows and improves traceability.
 
@@ -61,10 +61,10 @@ You can defer findings that match the conditions defined in this exception rule,
 
 After the exception rule expires, it no longer runs on new or reopened findings.
 
-**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-automating-prioritization-triaging.md)
+**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-automating-prioritization-triaging.md)
 
 **Related topics**  
 
 
-[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exception-rule.md)
+[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exception-rule.md)
 

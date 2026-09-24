@@ -2,7 +2,7 @@
 title: Create a work order on ServiceNow Agent using ServiceNow Otto for Field Service Management \(FSM\)
 description: Create a work order on the ServiceNow Agent mobile application using ServiceNow Otto for Field Service Management \(FSM\) from a text description or an image of the issue.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-work-order-mobile-now-assist-fsm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/create-work-order-mobile-now-assist-fsm.html
 release: australia
 product: Work Order Management
 classification: work-order-management

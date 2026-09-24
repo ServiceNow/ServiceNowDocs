@@ -2,7 +2,7 @@
 title: Create a matrix version
 description: Create a version of a published price or product eligibility matrix when you need to update the matrix, for example to add or delete a context variable used in the price matrix.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/create-matrix-versions.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-matrix-versions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

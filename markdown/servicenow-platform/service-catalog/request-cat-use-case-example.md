@@ -2,7 +2,7 @@
 title: Service Catalog use case
 description: You can create customized catalogs where you can request items such as a specific service or product. With this use case, CSDM provides Service Catalog connection to the service offerings and services.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-cat-use-case-example.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/request-cat-use-case-example.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -18,7 +18,7 @@ You can create customized catalogs where you can request items such as a specifi
 
 ## Service Catalog use case
 
-Catalogs contain catalog items and are the starting points for accessing available services. Request Catalogs and Product Catalogs are two of the customized catalogs you can create from the Service Catalog. For details, see [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
+Catalogs contain catalog items and are the starting points for accessing available services. Request Catalogs and Product Catalogs are two of the customized catalogs you can create from the Service Catalog. For details, see [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog.md).
 
 -   A Request Catalog is a list of business and technical products, services, service commitment options, and offerings that you can order.
 
@@ -59,5 +59,5 @@ This use case lets you include hardware and software product information as item
 
 The CSDM framework ensures that product models are available in the catalog and that there are processes defined to consume the models.
 
-**Parent Topic:**[Service Catalog and CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-cat-use-case-product-view.md)
+**Parent Topic:**[Service Catalog and CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/request-cat-use-case-product-view.md)
 

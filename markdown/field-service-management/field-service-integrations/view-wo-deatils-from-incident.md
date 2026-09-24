@@ -2,7 +2,7 @@
 title: View work order details from the incident record using the CRM Workspace
 description: View or track the progress of work order in the associated incident record from CRM Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/view-wo-deatils-from-incident.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-integrations/view-wo-deatils-from-incident.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -18,7 +18,7 @@ View or track the progress of work order in the associated incident record from 
 
 ## Before you begin
 
-Enable the activity function using the IncidentWorkOrderIntegration extension point. For more information, see [Using extension point for incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/using-extension-point-for-incident-mngmnt.md).
+Enable the activity function using the IncidentWorkOrderIntegration extension point. For more information, see [Using extension point for incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/using-extension-point-for-incident-mngmnt.md).
 
 Role required: itil, wm\_admin, and sn\_change\_read
 
@@ -44,5 +44,5 @@ ITIL agents can view the progress of a work order directly from a related incide
 6.  View the work order progress in the **Activity** section.
 
 
-**Parent Topic:**[Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/incident-for-fsm.md)
+**Parent Topic:**[Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/incident-for-fsm.md)
 

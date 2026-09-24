@@ -2,7 +2,7 @@
 title: Set up the Microsoft Azure RBAC spoke
 description: Integrate the ServiceNow instance and Microsoft Azure RBAC using OAuth 2.0 authentication to authenticate ServiceNow requests.Provide authorization to the ServiceNow instance by registering an application in the Microsoft Azure portal.Add and configure a Microsoft Azure RBAC spoke connection to authenticate ServiceNow requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/rbac-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/rbac-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -88,7 +88,7 @@ Complete these steps from the Microsoft Azure portal.
 
     2.  Click **Add a permission** to add the required permissions to access the APIs.
 
-        For information about permissions needed to perform the required actions, see the Spoke actions section here: [Microsoft Azure RBAC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/azure-rbac-spoke.md).
+        For information about permissions needed to perform the required actions, see the Spoke actions section here: [Microsoft Azure RBAC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/azure-rbac-spoke.md).
 
         \[Omitted image "rbac-api-perm.jpg"\] Alt text: Add the required API permissions.
 
@@ -119,7 +119,7 @@ Role required: admin
 
         \[Omitted image "rbac-conn-temp.jpg"\] Alt text: Click View Details to configure the default alias.
 
-    -   To manage more than one Microsoft Azure RBAC spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Microsoft Azure RBAC spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "rbac-conn-temp-2.jpg"\] Alt text: Click Configure if you are configuring the spoke for the first time.

@@ -2,7 +2,7 @@
 title: Configure progressive disclosure for the resource board
 description: Configure whether the resource board in the Resource Management Workspace uses progressive disclosure to load users incrementally or loads all 200 users at once.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/config-progressive-disclosure-rmw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/config-progressive-disclosure-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -42,5 +42,5 @@ The resource board in Resource Management Workspace uses progressive disclosure 
 
 The resource board loads all 200 users at once. To restore progressive disclosure and improve load performance, set the property value back to **true**.
 
-**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/configure-rmw.md)
+**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/configure-rmw.md)
 

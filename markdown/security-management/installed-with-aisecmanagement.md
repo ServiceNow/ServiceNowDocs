@@ -2,7 +2,7 @@
 title: Components installed with AI Security Exposure Management
 description: Components installed with the AI Security Exposure Management application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/installed-with-aisecmanagement.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/installed-with-aisecmanagement.html
 release: australia
 topic_type: reference
 last_updated: "2026-07-06"
@@ -81,5 +81,5 @@ AISEM guardrail skill scheduled job
 </td></tr></tbody>
 </table>See the [AI security exposure management](https://www.servicenow.com/community/secops-articles/reduce-ai-attack-surface-with-ai-security-exposure-management/ta-p/3563696) article in the Security Operations Community for more information about AI Security Exposure Management.
 
-**Parent Topic:**[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-skill-agent.md)
+**Parent Topic:**[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ai-security-exposure-skill-agent.md)
 

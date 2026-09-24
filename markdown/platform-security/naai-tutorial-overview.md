@@ -2,7 +2,7 @@
 title: Create and secure an AI agent in Now Assist
 description: Plan, build, secure, test, and deploy a Now Assist AI agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-tutorial-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-tutorial-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -24,21 +24,21 @@ Before starting this tutorial, verify the following:
 
 -   A Now Assist license that includes AI agents.
 -   Administrator access to your instance.
--   You should have the **sn\_aia.admin**, **sn\_nowassist\_admin.nsa\_admin**, and **sn\_generative\_ai.data\_steward** roles assigned to you or users to whom you will delegate tasks. Further details on roles can be found in [Assess readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-assess-readiness.md).
+-   You should have the **sn\_aia.admin**, **sn\_nowassist\_admin.nsa\_admin**, and **sn\_generative\_ai.data\_steward** roles assigned to you or users to whom you will delegate tasks. Further details on roles can be found in [Assess readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-assess-readiness.md).
 
 ## How the security model works
 
 Reviewing the Now Assist security model before you build can help make configuration decisions easier.
 
--   **[Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md)**
+-   **[Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-control-rules.md)**
 
     Determine who can discover and invoke an agent or agentic workflow. ACLs are configured on the agent itself and are checked before the agent executes.
 
--   **[User identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/identity-landing.md)**
+-   **[User identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/identity-landing.md)**
 
     Determines what data the agent can access once invoked. A dynamic user agent inherits the invoking user's roles. An AI user agent runs as a dedicated system user with fixed assigned roles.
 
--   **[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)**
+-   **[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-guardian.md)**
 
     Monitors prompts and responses at runtime to detect offensive content, prompt injection attempts, and sensitive subjects. Guardian runs independently of ACLs and user identity.
 
@@ -47,43 +47,43 @@ Reviewing the Now Assist security model before you build can help make configura
 
 Complete the following steps in order:
 
--   **1. [Assess readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-assess-readiness.md)**
+-   **1. [Assess readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-assess-readiness.md)**
 
     Verify your instance is ready for AI agent deployment and assign the roles needed to build and manage agents.
 
--   **2. [Plan your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-plan-agent.md)**
+-   **2. [Plan your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-plan-agent.md)**
 
     Define your use case, choose between an OOTB and custom agent, and set your success criteria.
 
--   **3. [Build your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-build-agent.md)**
+-   **3. [Build your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-build-agent.md)**
 
     Create your agent in AI Agent Studio, configure tools, and set access controls.
 
--   **4. [Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-configure-security.md)**
+-   **4. [Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-configure-security.md)**
 
     Configure AI Guardian guardrails and data privacy settings.
 
--   **5. [Test and validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-test-validate.md)**
+-   **5. [Test and validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-test-validate.md)**
 
     Test agent execution, verify access controls, and run automated evaluations.
 
--   **6. [Go live and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-go-live-monitor.md)**
+-   **6. [Go live and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-go-live-monitor.md)**
 
     Deploy to production and set up ongoing monitoring.
 
 
--   **[Assess readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-assess-readiness.md)**  
+-   **[Assess readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-assess-readiness.md)**  
 Verify that your instance is prepared for AI agent deployment, install the required applications, assign the required roles, and classify user identity types before you begin building.
--   **[Plan your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-plan-agent.md)**  
+-   **[Plan your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-plan-agent.md)**  
 Define your use case, decide between an base system and custom agent, choose an activation model, and set your success criteria before you begin building.
--   **[Build your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-build-agent.md)**  
+-   **[Build your agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-build-agent.md)**  
 Create your agent in AI Agent Studio, configure its tools and knowledge sources, and set the access controls that determine who can invoke it and what data it can access.
--   **[Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-configure-security.md)**  
+-   **[Configure security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-configure-security.md)**  
 Set up AI Guardian guardrails and data privacy controls to protect your AI agent interactions before testing begins.
--   **[Test and validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-test-validate.md)**  
+-   **[Test and validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-test-validate.md)**  
 Test your agent's execution and access controls, run automated evaluations, and review Guardian logs before approving the agent for production deployment.
--   **[Go live and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-go-live-monitor.md)**  
+-   **[Go live and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/naai-tutorial-go-live-monitor.md)**  
 Deploy your agent to production, activate analytics and monitoring, and establish the ongoing review cadence that keeps your agent performing securely over time.
 
-**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)
+**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/now-assist-security.md)
 

@@ -2,12 +2,12 @@
 title: Monitoring and evaluating AI systems in AI Control Tower
 description: Continuously monitor your ServiceNow and external AI systems to determine whether they meet quality and safety standards, and investigate root causes when they don't.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-03"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -19,23 +19,23 @@ Continuously monitor your ServiceNow and external AI systems to determine whethe
 
 <table id="table_nav_cards" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how monitoring and scoring models work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-exploring-aict-evaluations.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how monitoring and scoring models work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-exploring-aict-evaluations.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate evaluation and configure metric templates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configuring-aict-evaluations.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate evaluation and configure metric templates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configuring-aict-evaluations.md)
 
 </td><td>
 
-[Review scores\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Review quality and safety scores across your AI portfolio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)
+[Review scores\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Review quality and safety scores across your AI portfolio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)
 
 </td></tr><tr><td>
 
-[Investigate sessions\[Omitted image "bus-discover.svg"\] Alt text:Drill into sessions to find and fix root causes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
+[Investigate sessions\[Omitted image "bus-discover.svg"\] Alt text:Drill into sessions to find and fix root causes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Evaluation metrics, fields, and system values.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-evaluations-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Evaluation metrics, fields, and system values.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-evaluations-reference.md)
 
 </td><td>
 
@@ -59,5 +59,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

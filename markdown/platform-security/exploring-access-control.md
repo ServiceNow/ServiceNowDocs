@@ -2,7 +2,7 @@
 title: Explore ServiceNow access control
 description: The SNC Access Control plugin \(com.snc.snc\_access\_control\) enables you to control which Customer Service and Support employees can access your instance, and when.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-access-control.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/exploring-access-control.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -78,5 +78,5 @@ The following logging tracks logins and activity by Customer Service and Support
 -   Event logs: The event logs show all Customer Service and Support logins to an instance.
 -   Transaction logs: The transaction logs show all activity on the instance, including any efforts to delete logs.
 
-**Note:** To learn more about this plugin, see [Enable SNC access control plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-snc-access-control-plugin.md) in Instance Security Hardening Settings.
+**Note:** To learn more about this plugin, see [Enable SNC access control plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-snc-access-control-plugin.md) in Instance Security Hardening Settings.
 

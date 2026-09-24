@@ -2,7 +2,7 @@
 title: Create a quick case
 description: As a procurement specialist, quickly create a procurement case from the plus icon on Source-to-Pay Workspace. With an additional supplier role of sn\_supplier.fulfiller, you can similarly create a supplier case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-quick-case.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-quick-case.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -39,5 +39,5 @@ Role required: sn\_shop.procurement\_specialist
 6.  Select **Save**.
 
 
-**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

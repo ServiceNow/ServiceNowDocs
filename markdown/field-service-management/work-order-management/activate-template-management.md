@@ -2,7 +2,7 @@
 title: Activate Template Management for Field Service
 description: You can activate the Template Management for Field Service plugin \(com.snc.fsm\_template\_management\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/activate-template-management.html
+canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/work-order-management/activate-template-management.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -30,7 +30,7 @@ The following items are installed with Field Service Template Management:
 -   Script includes
 -   Business roles
 
-For more information, see [Template Management for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/template-management-components.md).
+For more information, see [Template Management for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/template-management-components.md).
 
 ## Procedure
 

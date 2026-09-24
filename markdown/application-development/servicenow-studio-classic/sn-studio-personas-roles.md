@@ -2,7 +2,7 @@
 title: ServiceNow Studio personas and roles
 description: Admins, delegated developers, and users with Guided Application Creator roles can access and develop in ServiceNow Studio. Each role has different capabilities and permissions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sn-studio-personas-roles.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sn-studio-personas-roles.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -20,7 +20,7 @@ Admins, delegated developers, and users with Guided Application Creator roles ca
 
 Admins and delegated developers have different capabilities in ServiceNow Studio. Admins can delegate users to work on specific apps and app files by assigning delegated\_developer permissions.
 
-For more information about roles and access to different app development tools, see [Roles and access in app development tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-roles-and-access.md).
+For more information about roles and access to different app development tools, see [Roles and access in app development tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-roles-and-access.md).
 
 <table id="table_clb_2w1_xcc"><thead><tr><th>
 
@@ -127,5 +127,5 @@ Metadata-specific admin roles are existing roles on the ServiceNow AI Platform t
 -   Be configurable within the experience switcher.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)
+</table>**Parent Topic:**[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)
 

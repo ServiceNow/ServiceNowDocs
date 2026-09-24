@@ -2,7 +2,7 @@
 title: Using the prominent action button
 description: Use the prominent action button to quickly access your Now Assist agent chat no matter where you're in the app.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/using-prominent-action-button.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/using-prominent-action-button.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-17"
@@ -20,5 +20,5 @@ Tap the button to open a new Now Assist chat. If you open the chat while you hav
 
 While offline, the prominent action button is grayed out to show that it’s unavailable.
 
-**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-now-assist-mobile.md)
 

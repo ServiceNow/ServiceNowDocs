@@ -2,7 +2,7 @@
 title: Assign the Service Desk Manager role from SOW Admin Center
 description: Assign the Service Desk Manager \[sn\_itsm\_common.sn\_service\_desk\_manager\] role to add the L1 IT Service Desk AI Specialist to your team \(assignment group\) to help with incident resolution.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/assign-sdm-role-l1-sd-ai-spec.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/assign-sdm-role-l1-sd-ai-spec.html
 release: australia
 topic_type: task
 last_updated: "2026-08-25"

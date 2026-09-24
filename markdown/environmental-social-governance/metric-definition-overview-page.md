@@ -2,7 +2,7 @@
 title: Metric and metric definition overview pages
 description: The metric and the metric definition overview pages provide visualization for the metric trends and help you to monitor the tasks and activities that need attention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/metric-definition-overview-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/metric-definition-overview-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,5 +29,5 @@ The following image shows the qualitative metric overview page with the data sta
 
 \[Omitted image "qualitative-md-overview.png"\] Alt text: Qualitative metric definition overview page.
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-grc-metrics.md)
 

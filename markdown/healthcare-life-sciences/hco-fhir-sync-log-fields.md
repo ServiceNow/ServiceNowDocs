@@ -2,7 +2,7 @@
 title: FHIR Sync Log fields
 description: The FHIR Sync Log table \(sn\_hco\_intg\_fhir\_sync\_log\) records one row per resource type per sync run. Use these fields to monitor sync health and trace skipped or failed records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-sync-log-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-sync-log-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-16"

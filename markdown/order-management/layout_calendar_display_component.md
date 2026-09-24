@@ -2,7 +2,7 @@
 title: The calendar display component
 description: Use the calendar display component in CPQ to present time-based configuration options in a monthly view. Configure sets, fields, and selection settings to let users view, select, and manage date-specific records directly in the configuration interface.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_calendar\_display\_component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/layout\_calendar\_display\_component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

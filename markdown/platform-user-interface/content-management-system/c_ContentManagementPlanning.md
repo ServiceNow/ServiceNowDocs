@@ -2,7 +2,7 @@
 title: Content Management design
 description: Before building a website in the CMS, it is important to have a good understanding of what to build and who the audience is.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_ContentManagementPlanning.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/content-management-system/c\_ContentManagementPlanning.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -24,22 +24,22 @@ Timing is important when considering the addition of content management. Success
 
 Also consider the maturity level of data in the ServiceNow system. Depending on the ITIL processes used, content management is only useful and effective once the data within ServiceNow is established. Ensure that hierarchies, tasks, and workflows are well-defined. For example, before creating a catalog interface, confirm that the service catalog has been in place for some time, has been used, and contains data. The same is true for a knowledge management interface, particularly when high ratings or view counts define article placement on the page.
 
--   **[Content organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_OrganizeContent.md)**  
+-   **[Content organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_OrganizeContent.md)**  
 Before you begin to build the CMS website, list all the content that you want to include and take the time to organize it.
--   **[Team member identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_IdentifyTeamMembers.md)**  
+-   **[Team member identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_IdentifyTeamMembers.md)**  
 Identify the team members who assist you with website design, branding, and development.
--   **[Data preparation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_PrepareTheData.md)**  
+-   **[Data preparation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_PrepareTheData.md)**  
 It is important that there is enough data in the ServiceNow instance before you begin to build the CMS website.
--   **[Corporate style guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_LeverageTheCorporateStyleGuide.md)**  
+-   **[Corporate style guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_LeverageTheCorporateStyleGuide.md)**  
 When you build a CMS website, you design the look and feel based on guidelines in the corporate style guide.
--   **[Prototypes and rapid web design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_PrototypesAndRapidWebDesign.md)**  
+-   **[Prototypes and rapid web design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_PrototypesAndRapidWebDesign.md)**  
 Many user interface designers use prototypes and rapid web design techniques to visualize the final product before it is developed.
--   **[Content Management navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementNavigation.md)**  
+-   **[Content Management navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementNavigation.md)**  
 After you design the hierarchical structure of the site, begin planning site navigation.
--   **[System content management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ManageSystemContent.md)**  
+-   **[System content management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ManageSystemContent.md)**  
 Most of the content in a CMS site is managed in different locations throughout the system.
 
-**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 **Related topics**  
 

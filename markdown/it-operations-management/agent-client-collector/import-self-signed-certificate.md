@@ -2,7 +2,7 @@
 title: Import a self-signed certificate
 description: Import a self-signed certificate in a Windows system by using the Certificate Import Wizard. The Certificate Import Wizard is required to complete the self-signed certificate import process on a Windows Operating System \(OS\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/import-self-signed-certificate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/import-self-signed-certificate.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,7 +18,7 @@ Import a self-signed certificate in a Windows system by using the Certificate Im
 
 ## Before you begin
 
-Ensure that you have followed the procedure for importing a self-signed certificate in a Windows system, as described in [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
+Ensure that you have followed the procedure for importing a self-signed certificate in a Windows system, as described in [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -49,5 +49,5 @@ The certificate is imported into the truststore.
 
 If a security warning appears, select **Confirm** to confirm the import.
 
-**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-certificates.md)
+**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-certificates.md)
 

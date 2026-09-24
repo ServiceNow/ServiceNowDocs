@@ -2,7 +2,7 @@
 title: Associate a dynamic attribute store with a different namespace
 description: Use a different set of dynamic attributes in a dynamic attribute store field by changing its associated namespace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/update-dynamic-namespace-dynamic-attribute-store.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/update-dynamic-namespace-dynamic-attribute-store.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,7 +2,7 @@
 title: Configuring Employee Center
 description: Guidance for setting up Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-emp-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/setup-emp-center.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,19 +20,19 @@ Employee Center is available on ServiceNow® instances that are on version Rome 
 
 In the links below, Employee Center features are organized into categories, each with its own landing page to help guide users through the configuration process.
 
--   [Employee Center admin configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-ec-portal.md)
+-   [Employee Center admin configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-ec-portal.md)
 
     Install plugins, assign roles to users so they can configure Employee Center features, and customize the portal with a theme, footer, and support for right-to-left languages.
 
--   [Browse experience features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-browse-experience.md)
+-   [Browse experience features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-browse-experience.md)
 
     Make it easy for employees to navigate the portal and discover content.
 
--   [Search experience features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-search-experience.md)
+-   [Search experience features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-search-experience.md)
 
     Enhance the search experience.
 
--   [Task Management and Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-task-mgmt.md)
+-   [Task Management and Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-task-mgmt.md)
 
     Enhance employee productivity and drive portal consolidation.
 
@@ -40,5 +40,5 @@ In the links below, Employee Center features are organized into categories, each
 **Related topics**  
 
 
-[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
+[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
 

@@ -2,7 +2,7 @@
 title: Activate AI Search for Virtual Agent
 description: Once activated, AI Search configurations that are part of the Virtual Agent default chat experience become available. The AI Search Fallback setup topic controls the AI Search experience.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/activate-ai-search-va.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/activate-ai-search-va.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -37,9 +37,9 @@ The default chat experience is defined in the Custom Greetings and Setup setting
 
 ## Result
 
-Your request will be processed. Once activated, enable the AI Search Fallback setup topic in the default or a custom chat experience. For instructions on configuring a chat experience, see [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md).
+Your request will be processed. Once activated, enable the AI Search Fallback setup topic in the default or a custom chat experience. For instructions on configuring a chat experience, see [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-conversation-settings.md).
 
-If you want to customize the Virtual Agent AI Search results that are generated for your users, see [Create a custom AI Search experience for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-va-aisearch-application.md).
+If you want to customize the Virtual Agent AI Search results that are generated for your users, see [Create a custom AI Search experience for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-va-aisearch-application.md).
 
-**Parent Topic:**[Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md)
+**Parent Topic:**[Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ai-search.md)
 

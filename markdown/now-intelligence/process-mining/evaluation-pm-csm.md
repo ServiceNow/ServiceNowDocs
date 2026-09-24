@@ -2,7 +2,7 @@
 title: Process Mining evaluation project for Customer Service Management
 description: Process Mining evaluation project for Customer Service Management \(CSM\) enables you to familiarize with improving your process with Process Mining capability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/evaluation-pm-csm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/evaluation-pm-csm.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -29,16 +29,16 @@ This evaluation version works on the data that you have stored in your productio
 -   Includes introduction videos, FAQs, Academy sessions, and use cases.
 -   Auto-retire is set to false.
 
-The promin.pa\_integration\_required\_roles is already available that would enable you to run the project. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/components-installed.md).
+The promin.pa\_integration\_required\_roles is already available that would enable you to run the project. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/components-installed.md).
 
-For more information, see [Run the Process Mining evaluation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/run-evaluation-project.md).
+For more information, see [Run the Process Mining evaluation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/run-evaluation-project.md).
 
-**Parent Topic:**[Evaluation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/evaluate-pm.md)
+**Parent Topic:**[Evaluation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/evaluate-pm.md)
 
 **Related topics**  
 
 
-[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md)
+[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-db-in-ac.md)
 
-[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
+[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 

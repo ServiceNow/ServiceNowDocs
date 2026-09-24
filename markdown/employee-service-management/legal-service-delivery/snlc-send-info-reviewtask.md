@@ -2,7 +2,7 @@
 title: Share requested information for internal review
 description: As a contract fulfiller, share information requested by the reviewer to proceed with the contract document review.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-send-info-reviewtask.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-send-info-reviewtask.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -28,15 +28,15 @@ The work notes added when requesting information are available in the Activity s
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d769019e61">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d769023e61">
 
 Method
 
-</th><th align="left" id="d769019e64">
+</th><th align="left" id="d769023e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d769019e70">
+</th></tr></thead><tbody><tr><td id="d769023e70">
 
 **My Work listing**
 
@@ -48,7 +48,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d769019e117">
+</td></tr><tr><td id="d769023e117">
 
 **Delegated to me listing**
 
@@ -60,7 +60,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d769019e164">
+</td></tr><tr><td id="d769023e164">
 
 **Contract Review Tasks listing**
 
@@ -72,7 +72,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d769019e211">
+</td></tr><tr><td id="d769023e211">
 
 **Contract Request Reviews tab**
 
@@ -102,5 +102,5 @@ Steps
 
 The information is shared with reviewer and the review task State changes to Work in progress.
 
-**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-expert-review.md)
 

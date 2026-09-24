@@ -2,7 +2,7 @@
 title: Approve or reject a legal matter or its artifact
 description: Review a legal matter or its artifact's content and approve or reject it.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/approve-reject-legal-matter-artif.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/approve-reject-legal-matter-artif.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -26,15 +26,15 @@ Role required: none
 
 1.  Open the approval record from the email notification, Legal Counsel Center, Self-Service, or Employee Center portal.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d334380e60">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d334384e60">
 
 Options
 
-</th><th align="left" id="d334380e63">
+</th><th align="left" id="d334384e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d334380e69">
+</th></tr></thead><tbody><tr><td id="d334384e69">
 
 **From the email notification**
 
@@ -42,7 +42,7 @@ Steps
 
 Click the link in the email to open the record that needs approval.
 
-</td></tr><tr><td id="d334380e78">
+</td></tr><tr><td id="d334384e78">
 
 **From Legal Counsel Center**
 
@@ -56,7 +56,7 @@ Click the link in the email to open the record that needs approval.
 4.  In the Items Pending Approval list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d334380e139">
+</td></tr><tr><td id="d334384e139">
 
 **From Self-Service**
 
@@ -66,7 +66,7 @@ Click the link in the email to open the record that needs approval.
 2.  In the My Approvals list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d334380e169">
+</td></tr><tr><td id="d334384e169">
 
 **From Employee Center**
 

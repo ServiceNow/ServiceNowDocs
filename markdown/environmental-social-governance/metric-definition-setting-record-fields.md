@@ -2,7 +2,7 @@
 title: Metric definition setting record fields
 description: The fields of the metric definition setting record form are explained in this topic.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/metric-definition-setting-record-fields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/metric-definition-setting-record-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -108,5 +108,5 @@ Variance base value
 Value the system uses to calculate variance when the previous period value is null or zero. This field is available for all Type selections. When more than one active record applies to a metric, the system uses the most specific Type first. The order is Metric, then Metric definition or Calculated metric definition, then All. The system uses Order to break ties within the same Type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure a metric definition setting record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-default-values-for-cmd-calculations.md)
+</table>**Parent Topic:**[Configure a metric definition setting record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-default-values-for-cmd-calculations.md)
 

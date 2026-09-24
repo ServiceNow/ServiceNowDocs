@@ -2,7 +2,7 @@
 title: ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
 description: Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/now-assist-sam-fulfill-sw-asset-requests-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/now-assist-sam-fulfill-sw-asset-requests-workflow.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -124,5 +124,5 @@ Microsoft license assignment AI agent
 Assigns a Microsoft 365 license from the existing inventory when available, using the RITM.The AI agent checks for both group and individual licenses. If the licenses aren't available, the AI agent creates a reservation order.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using agentic workflows in ServiceNow Otto for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam-ai-agents-usecases.md)
+</table>**Parent Topic:**[Using agentic workflows in ServiceNow Otto for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam-ai-agents-usecases.md)
 

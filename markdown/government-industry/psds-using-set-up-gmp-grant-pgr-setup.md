@@ -2,7 +2,7 @@
 title: Set up a Grant Program in Grants Management
 description: Design and configure a grant program before accepting applications from applicants or their liaisons. With Grants Management Program Setup, grants program managers can set up and manage grant programs with guided steps.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-set-up-gmp-grant-pgr-setup.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-set-up-gmp-grant-pgr-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-17"

@@ -2,7 +2,7 @@
 title: Configure agentic workflows in Financial Services Operations
 description: Agentic workflows in FSO automate dispute resolution tasks by orchestrating AI agents that analyze transactions and generate recommendations. Activate workflows in AI Agent Studio to enable automated assistance for human agents handling friendly fraud cases.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configuring-agentic-workflows-in-fso.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configuring-agentic-workflows-in-fso.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -74,7 +74,7 @@ You can choose which service provider to use for AI agents and agentic workflows
 **Related topics**  
 
 
-[Help resolve friendly fraud disputes agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/friendly-fraud-agentic-ai-workflow.md)
+[Help resolve friendly fraud disputes agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/friendly-fraud-agentic-ai-workflow.md)
 
-[Resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-friendly-fraud.md)
+[Resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/resolve-friendly-fraud.md)
 

@@ -2,7 +2,7 @@
 title: Adding a new node to the canvas
 description: Use this section to create and add new entities, including observables or objects, directly from the investigation canvas.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-add-node-canvas.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-add-node-canvas.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -96,5 +96,5 @@ Select the entity type from the available options based on the select category.*
     By performing this action, the temporary records are converted to permanent aggregated records within the Threat Intelligence Library.
 
 
-**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

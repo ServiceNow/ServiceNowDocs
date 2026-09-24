@@ -2,7 +2,7 @@
 title: Manage the Archive Claim Case rule
 description: Manage the archive rule that is provisioned in the Claim Case \[sn\_ins\_gen\_claim\_case\] table of the Insurance claims application so that your organization can meet your claim case archiving requirements.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/insurance-claim-case-archival.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/insurance-claims/insurance-claim-case-archival.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims

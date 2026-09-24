@@ -2,7 +2,7 @@
 title: Request a password reset
 description: If you forget your password, request a new one from the business portal login screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_RequestPasswordReset-businessportal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_RequestPasswordReset-businessportal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,5 +54,5 @@ Your new password is set.
 **Related topics**  
 
 
-[Change password on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ChangePasswordFromUserForm-business-portal.md)
+[Change password on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_ChangePasswordFromUserForm-business-portal.md)
 

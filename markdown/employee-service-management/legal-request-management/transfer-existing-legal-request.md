@@ -2,7 +2,7 @@
 title: Transfer a legal request
 description: Transfer a legal request to a new practice area or category if the request was submitted with an inappropriate practice area or category.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/transfer-existing-legal-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/transfer-existing-legal-request.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -18,7 +18,7 @@ Transfer a legal request to a new practice area or category if the request was s
 
 ## Before you begin
 
-Ensure that the record producer is mapped to category. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md).
+Ensure that the record producer is mapped to category. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/associate-categories-practice-area.md).
 
 The transfer request action is available to the users having write access to the request, such as Practice Area Leads, Group Managers, and users with Request manager roles in New state.​ It is also available to the respective fulfillers to whom the request is assigned in the Assigned state.
 
@@ -95,7 +95,7 @@ Any comments that would be helpful in relation to the transfer of the legal requ
 
     -   If you do not have the complete variable information, select **Send to Requester** to send the request back to the requester.
 
-        An email notification is sent to the requester, and requested for. For more information, see [Update a legal request by requester](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/submit-legal-request-requester.md).
+        An email notification is sent to the requester, and requested for. For more information, see [Update a legal request by requester](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/submit-legal-request-requester.md).
 
 
 ## Result
@@ -109,5 +109,5 @@ Any comments that would be helpful in relation to the transfer of the legal requ
 -   After the request is sent to the requester, the fulfiller's name is moved from the Collaborators field to the Watch list.
 -   The request state is changed to New after the variables are updated and submitted by the fulfiller.
 
-**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/work-on-legal-request.md)
 

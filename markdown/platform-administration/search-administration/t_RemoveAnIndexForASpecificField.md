@@ -2,7 +2,7 @@
 title: Remove an index for a specific field
 description: You can remove the index for a specific field in a table if you no longer want the search engine to return results for that field.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_RemoveAnIndexForASpecificField.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/t\_RemoveAnIndexForASpecificField.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -48,7 +48,7 @@ Role required: admin
 
 The system no longer indexes text from the specified table field or queries it for text search results. This change also disables text indexing and search for the specified field in all tables that extend the specified table.
 
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

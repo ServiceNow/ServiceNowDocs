@@ -2,7 +2,7 @@
 title: Approve a request from Employee Center
 description: Approve, reject, or request clarification on open purchase requisition lines and sourcing requests that are assigned to you, directly from Employee Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/approve-request-from-employee-center.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/approve-request-from-employee-center.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -85,11 +85,11 @@ Opens a confirmation dialog box, where you can approve all the purchase requesti
 </td></tr></tbody>
 </table>    You can now view the approved and rejected approval tasks on the **Completed** tab. Shoppers can view the same from their requests in Shopping Hub.
 
-    **Note:** You can configure the above email notification based on your requirements. For details, see [Approval email notification templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/approval-email-notifications-template.md).
+    **Note:** You can configure the above email notification based on your requirements. For details, see [Approval email notification templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/approval-email-notifications-template.md).
 
 
--   **[Approval email notification templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/approval-email-notifications-template.md)**  
+-   **[Approval email notification templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/approval-email-notifications-template.md)**  
 Email notifications are triggered for new, due soon, and overdue approval to-dos in configurable templates. As an approver, you can review the details and approve the purchase requests directly from the email notifications.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

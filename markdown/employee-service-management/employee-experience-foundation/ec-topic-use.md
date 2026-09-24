@@ -2,7 +2,7 @@
 title: Use the Employee Center topic pages
 description: The Employee Center topic pages contain the breadcrumbs widget, topic header widget, sub-topic widget, and the topic content widget.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-topic-use.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-topic-use.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,11 +30,11 @@ The topic header widget displays the parent topics. Select a topic from the mega
 
 **Note:** If you schedule Styled or Banner content to the Content Experiences widget on the emp\_taxonomy\_topic page, the original topic banner image does not display for the topics on the schedule.
 
-For more information on creating and scheduling content, see [Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md).
+For more information on creating and scheduling content, see [Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-publish-content.md).
 
 \[Omitted image "topic-widget.png"\] Alt text: Topic header widget showing the HR topic.
 
-You can modify the widget display by configuring the instance options. For more information, see [Modify the topic header widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-topic-widget.md).
+You can modify the widget display by configuring the instance options. For more information, see [Modify the topic header widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-topic-widget.md).
 
 ## Sub-topics widget
 
@@ -44,7 +44,7 @@ The sub-topics widget displays all the child topics of the parent topic. The sub
 
 The sub-topics widget shows only six child topics by default. If the parent topic has more child topics, click **View all** to view all the child topics and click the one you want to open.
 
-You can modify the widget display by configuring the instance options. For more information, see [Modify the sub-topics widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-child-topic-widget.md).
+You can modify the widget display by configuring the instance options. For more information, see [Modify the sub-topics widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-child-topic-widget.md).
 
 ## Topic content widget
 
@@ -114,7 +114,7 @@ Use search on the topic pages that allows you to browse content with its spell c
 
 ## Search by the topic facets
 
-Narrow your search with hierarchical filters for topics and sub-topics on the global search. Choose single or multiple topic levels or facet levels to get specific search results. For more information, see [Improved search functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/topic-facets.md).
+Narrow your search with hierarchical filters for topics and sub-topics on the global search. Choose single or multiple topic levels or facet levels to get specific search results. For more information, see [Improved search functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/topic-facets.md).
 
 ## Learning content on the topic pages
 
@@ -124,9 +124,9 @@ The Unified Browse widget has **Courses** as an addition to the **Filter by** li
 
 \[Omitted image "topic-page-courses.jpg"\] Alt text: The Filter by field listed options has All, Articles, Requests, and Courses.
 
-You can modify the widget display by configuring the widget instance options. For more information, see [Modify the topic content widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-topic-content-widget.md).
+You can modify the widget display by configuring the widget instance options. For more information, see [Modify the topic content widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-topic-content-widget.md).
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 

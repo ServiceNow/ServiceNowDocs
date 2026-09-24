@@ -2,7 +2,7 @@
 title: Configure mutual authentication
 description: Mutual authentication establishes trust by exchanging secure sockets layer \(SSL\) certificates.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_MutualAuthentication.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/c\_MutualAuthentication.html
 release: australia
 product: Authentication
 classification: authentication

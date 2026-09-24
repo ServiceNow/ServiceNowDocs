@@ -2,12 +2,12 @@
 title: Shared impacted services alert grouping
 description: The Shared impacted services alert grouping automatically gathers related alerts under the business service they affect. When your IT environment generates multiple alerts at once, your team gets one focused, organized view instead of a flood of disconnected notifications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/shared-impacted-services-grouping.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/shared-impacted-services-grouping.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -38,5 +38,5 @@ Shared Impacted Services grouping is the better choice when your service topolog
 
 In short: if your service trees are shallow, either approach works. If your service trees are deep and span many topology levels, use Shared Impacted Services grouping to ensure no related alert is left out.
 
-For details on creating a group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
+For details on creating a group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/group-alert-sow-itom.md).
 

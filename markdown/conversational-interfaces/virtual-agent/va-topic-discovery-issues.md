@@ -2,7 +2,7 @@
 title: Resolve Natural Language Understanding \(NLU\) topic discovery issues
 description: If an intent is not being chosen when expected, you can troubleshoot NLU prediction errors.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-topic-discovery-issues.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-topic-discovery-issues.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,25 +22,25 @@ If a Virtual Agent is not being discovered, check the following:
 
 -   **Is NLU enabled for the session language?**
 
-    Enable the language in Natural Language Understanding \(NLU\) settings for Virtual Agent. For details, see [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md).
+    Enable the language in Natural Language Understanding \(NLU\) settings for Virtual Agent. For details, see [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md).
 
 -   **Is the NLU Model trained and published for the session language?**
 
-    Your topic may not be using the latest changes to your model. For ServiceNow® NLU, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-train-nlu-model.md) and [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
+    Your topic may not be using the latest changes to your model. For ServiceNow® NLU, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-train-nlu-model.md) and [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 -   **Is the Virtual Agent topic published, discoverable, and bound to a published NLU Model and Intent for the session language?**
 
-    The topic should be bound to a single model and intent for a given language. Ensure there are no duplicate intents bound to other topics. Make sure that the topic, model, and intent are in the same domain. For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
+    The topic should be bound to a single model and intent for a given language. Ensure there are no duplicate intents bound to other topics. Make sure that the topic, model, and intent are in the same domain. For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 -   **Are any roles or conditions specified for the Virtual Agent topic on the Properties tab in Virtual Agent Designer?**
 
-    If the topic is shown only for certain roles or for certain conditions, this can impede topic discovery. For details, see [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md).
+    If the topic is shown only for certain roles or for certain conditions, this can impede topic discovery. For details, see [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md).
 
 -   **Why did Virtual Agent discover my topic in Spanish but not in French?**
 
     There are several possibilities:
 
-    -   Not all languages are supported by all NLU providers. For details, see [Language support for NLU services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/language-support-nlu-services.md).
+    -   Not all languages are supported by all NLU providers. For details, see [Language support for NLU services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/language-support-nlu-services.md).
     -   Not all topics are bound to a language-specific NLU model and intent.
 
         For example, Topic A may be mapped as follows:
@@ -66,11 +66,11 @@ If a Virtual Agent is not being discovered, check the following:
 
     -   In the Asset library, slide the discovery type toggle switch to **NLU/Keyword**, then select **Test NLU/Keyword Topics**. Enter your utterance, and watch the **Analysis** tab.
     -   Open the topic in Virtual Agent Designer, then select **Test**. In the Test window, select the **Include topic discovery** check box. Enter your utterance, and watch the **Analysis** tab.
-    For details, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md). For an understanding of how topic discovery works, see [Natural Language Understanding topic discovery logic in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/how-topic-discovery-works.md).
+    For details, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-designer-testing.md). For an understanding of how topic discovery works, see [Natural Language Understanding topic discovery logic in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/how-topic-discovery-works.md).
 
 -   **Is "Setup Topic" the topic in question?**
 
-    If so, it needs to be configured in Conversational Interfaces Chat Settings for it to be discovered. For details, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
+    If so, it needs to be configured in Conversational Interfaces Chat Settings for it to be discovered. For details, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
 
 -   **Questions or issues with mid-topic switching.**
     -   **Why did the conversation return to Topic A after Virtual Agent switched to Topic B?**
@@ -176,11 +176,11 @@ Intent Switch Causer
 
 </td><td>
 
-Name of the originating topic that prompts the user for confirmation. There are two possible scenarios for values in this column:-   The user is prompted for confirmation on the initial intent match for their utterance \(**Ask user if topic VA chose is correct** toggle switch is enabled in [NLU Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md)\).
+Name of the originating topic that prompts the user for confirmation. There are two possible scenarios for values in this column:-   The user is prompted for confirmation on the initial intent match for their utterance \(**Ask user if topic VA chose is correct** toggle switch is enabled in [NLU Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-nlu-settings.md)\).
 
 If the user is prompted for an initial utterance, this value may be the Greetings topic. If the value is **empty**, the user either was not prompted for the initial match, or the user rejected the initially matched topic intent.
 
--   The user is prompted for confirmation for an intent switch in mid-topic \(**Ask user if switched topic is correct** toggle switch is enabled in [NLU Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md)\).
+-   The user is prompted for confirmation for an intent switch in mid-topic \(**Ask user if switched topic is correct** toggle switch is enabled in [NLU Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-nlu-settings.md)\).
 
 If the user is prompted for a switch in mid-topic, this value is the name of the topic they were viewing at the time of the switch.
 
@@ -574,5 +574,5 @@ Use the Open NLU Driver HTTP Connection \[open\_nlu\_driver\_http\_connection\] 
 
 To view the table, enter `open_nlu_driver_http_connection.list` in the navigation filter.
 
-**Parent Topic:**[Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md)
+**Parent Topic:**[Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md)
 

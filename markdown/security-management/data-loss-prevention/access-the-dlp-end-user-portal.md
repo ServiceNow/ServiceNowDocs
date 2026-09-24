@@ -2,7 +2,7 @@
 title: Report or respond to DLP incidents
 description: Access the Data Loss Prevention Incident Response \(DLP\) User workspace, review the assigned DLP incidents, and report or respond to the incidents.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/access-the-dlp-end-user-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/data-loss-prevention/access-the-dlp-end-user-portal.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -179,8 +179,8 @@ Respond to an incident by selecting an incident response option. For example, us
 
     The user instructions card displays two different headers which provides you more information about a specific incident on the form view. Click on any user instruction header to know the additional details.
 
-    For more information about user instructions, see [Create user instructions templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-and-manage-user-instructions-template-for-dlp-incidents.md) and [Configure DLP UI user instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-dlp-ui-user-instructions.md).
+    For more information about user instructions, see [Create user instructions templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/create-and-manage-user-instructions-template-for-dlp-incidents.md) and [Configure DLP UI user instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/configure-dlp-ui-user-instructions.md).
 
 
-**Parent Topic:**[Data Loss Prevention Incident Response User Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/using-dlp-end-user-portal.md)
+**Parent Topic:**[Data Loss Prevention Incident Response User Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/using-dlp-end-user-portal.md)
 

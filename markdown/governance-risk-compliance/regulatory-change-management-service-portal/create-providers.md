@@ -2,7 +2,7 @@
 title: Configure a provider taxonomy configuration record
 description: Align the provider with the appropriate taxonomy profile to categorize regulatory intelligence data and feeds for informational reporting purposes. This approach is particularly useful when integrating multiple feed sources, as it ensures consistent naming conventions across systems or applications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/create-providers.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/create-providers.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

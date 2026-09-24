@@ -2,7 +2,7 @@
 title: Select the LLM for AI agents and agentic workflows
 description: Choose the large language model \(LLM\) service provider for AI agents in AI Agent Studio.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/select-aia-llm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/select-aia-llm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

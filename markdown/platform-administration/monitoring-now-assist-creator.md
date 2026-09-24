@@ -2,7 +2,7 @@
 title: Monitoring Now Assist creators in Subscription Management
 description: View a summary of your Creator Plus entitlements and track allocations for distinct users across all of your instances in Subscription Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/monitoring-now-assist-creator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/monitoring-now-assist-creator.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,6 +42,6 @@ Access details about Creator Plus entitlements by navigating to **Admin** &gt; *
     In some scenarios, data isn't displayed in the **Instances** list.
 
     -   Only instances on Washington DC Patch 2 and higher are listed in the **Instances** list.
-    -   If data sharing is restricted on an instance, usage data for that instance is hidden. You can disable the restriction by updating the trust configuration on that instance. See [Share subscription data from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/share-subscription-data.md).
+    -   If data sharing is restricted on an instance, usage data for that instance is hidden. You can disable the restriction by updating the trust configuration on that instance. See [Share subscription data from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/share-subscription-data.md).
 -   View Creator Plus product subscription details by selecting a product in the **Subscriptions** list. On the details page, allocate available Creator Plus subscriptions by adding one or more groups with the Creator role.
 

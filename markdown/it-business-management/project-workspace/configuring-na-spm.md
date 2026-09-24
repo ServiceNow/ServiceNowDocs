@@ -2,7 +2,7 @@
 title: Configure AI Admin Hub
 description: Use the AI Admin Hub console to activate the various AI applications and skills that you’re entitled to.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configuring-na-spm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/configuring-na-spm.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -28,16 +28,16 @@ To enable the Agile story generation skill and project insights generation skill
 
 **Important:** The Acceptance criteria generation skill also requires activating Refine Records skill.
 
--   **[Install AI plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/install-now-assist-spm-plugin.md)**  
+-   **[Install AI plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/install-now-assist-spm-plugin.md)**  
 Install AI plugins to enable generative AI on your instance.
--   **[Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.md)**  
+-   **[Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.md)**  
 Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portfolio Management application. Configuring the inputs for a skill helps you to determine how and when a skill is used.
--   **[Update the project insights header and footer of email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/script-include-email-template.md)**  
+-   **[Update the project insights header and footer of email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/script-include-email-template.md)**  
 Use the script include to modifying the email template for project summary.
--   **[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)**  
+-   **[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)**  
 Monitor project tasks autonomously by configuring the AI agent in the AI Agent Studio.
 
-**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-pw.md)
+**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-pw.md)
 
 **Related topics**  
 

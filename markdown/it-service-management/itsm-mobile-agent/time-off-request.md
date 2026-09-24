@@ -2,7 +2,7 @@
 title: Manage time-off requests with On-Call Scheduling
 description: Use the Time-off requests tab to approve or reject the time-off request that you've received.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/time-off-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/time-off-request.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

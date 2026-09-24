@@ -2,7 +2,7 @@
 title: Check for updated content in categories
 description: Track and manage the updated content in categories for better visibility, content maintenance, and performance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -24,7 +24,7 @@ User criteria required: Taxonomy Manager.
 
 ## About this task
 
-The related list **Check for updated content in categories** is available only when you do not [Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md). As the system property automatically adds or removes the content updates, you can't check for individual updates manually.
+The related list **Check for updated content in categories** is available only when you do not [Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md). As the system property automatically adds or removes the content updates, you can't check for individual updates manually.
 
 For manual checking of updates, follow these steps.
 
@@ -43,10 +43,10 @@ For manual checking of updates, follow these steps.
 5.  Click **OK**.
 
 
-**Parent Topic:**[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
+**Parent Topic:**[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
 
 **Related topics**  
 
 
-[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
+[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
 

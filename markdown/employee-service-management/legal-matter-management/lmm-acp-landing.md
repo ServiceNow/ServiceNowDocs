@@ -2,7 +2,7 @@
 title: Attorney Client Privilege
 description: Attorney Client Privilege enables legal fulfiller or matter owner to designate legal matters as privileged and confidential. It restricts access to authorized stakeholders, marks communications with confidentiality banners, and maintains a document audit trail to help you protect sensitive legal communications.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-acp-landing.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/lmm-acp-landing.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -63,5 +63,5 @@ The Privileged and Confidential status of a legal request and its associated mat
 
 [Work on a legal matter]()
 
-[Disable attorney client privilege for legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-acp-disable.md)
+[Disable attorney client privilege for legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-matter-management/lmm-acp-disable.md)
 

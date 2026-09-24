@@ -2,7 +2,7 @@
 title: Change the priority level of a purchase order exception
 description: Adjust the priority level of a purchase order exception to reflect its urgency and business impact. You can manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/change-priority-of-poe.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/change-priority-of-poe.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,10 +37,10 @@ Role required: sn\_poem\_core.operational\_buyer
     The priority level of the purchase order exception is updated to reflect the new value.
 
 
-**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/resolving-purchase-order-exceptions.md)
 
 **Related topics**  
 
 
-[Assigning priority to a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assigning-priority-to-po.md)
+[Assigning priority to a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/assigning-priority-to-po.md)
 

@@ -2,7 +2,7 @@
 title: Light and dark modes in Mobile App Builder and Mobile Card Builder
 description: The Mobile App Builder and Mobile Card Builder tools can configure both light and dark mode options, allowing users to easily switch between a bright or subdued interface, enhancing comfort, readability, and battery efficiency.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/mcb-dark-mode.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mcb-dark-mode.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

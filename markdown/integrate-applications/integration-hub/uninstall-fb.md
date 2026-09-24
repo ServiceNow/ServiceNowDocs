@@ -2,7 +2,7 @@
 title: Uninstall Workplace from Facebook spoke
 description: Log in to Workplace from Facebook account to uninstall the Workplace from Facebook spoke.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/uninstall-fb.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/uninstall-fb.html
 release: australia
 product: Integration Hub
 classification: integration-hub

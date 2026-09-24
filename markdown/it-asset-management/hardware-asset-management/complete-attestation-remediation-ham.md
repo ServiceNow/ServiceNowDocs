@@ -2,7 +2,7 @@
 title: Complete the remediation task for asset attestation in the Hardware Asset Workspace
 description: As an asset manager or inventory administrator, complete the open remediation task that was created when your employee denied ownership of the assigned serialized hardware asset.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/complete-attestation-remediation-ham.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/hardware-asset-management/complete-attestation-remediation-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -69,5 +69,5 @@ Action
 -   The State of the asset changes from **In use** to **Missing**.
 -   The **Assigned to** field on the asset record is empty.
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

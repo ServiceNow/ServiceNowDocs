@@ -2,7 +2,7 @@
 title: Triage legal requests agentic workflow
 description: Use the Triage legal requests agentic workflow to predict the appropriate legal category and to initiate a transfer after a confirmation from the legal fulfiller or group manager.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/trans-legal-request-agent.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/trans-legal-request-agent.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -21,7 +21,7 @@ Use the Triage legal requests agentic workflow to predict the appropriate legal 
 
 **Important:**
 
--   To run the Triage legal requests agentic workflow, ensure that you have completed all the configurations. For more information, see [Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md).
+-   To run the Triage legal requests agentic workflow, ensure that you have completed all the configurations. For more information, see [Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md).
 -   For your AI service provider, verify that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-api-credentials-for-generative-ai-capabilities.md).
 
 The agentic workflow is triggered under the following conditions:
@@ -56,5 +56,5 @@ The agentic workflow conversation can be seen in the ServiceNow Otto panel by th
     -   If you choose to transfer the general legal request, enter `Yes` and select the send icon \(\[Omitted image "send-chat-icon.png"\] Alt text: Send icon.\) in the panel. When it's transferred, the original request is canceled and a new request is created with the predicted legal category. The agentic conversation is closed after the transfer of the legal request.
     -   If you choose not to transfer the general legal request, enter `No` and select the send icon \(\[Omitted image "send-chat-icon.png"\] Alt text: Send icon.\) in the panel. The general legal request isn’t transferred and the agentic conversation is closed.
 
-**Parent Topic:**[Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/submitting-legal-request.md)
+**Parent Topic:**[Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/submitting-legal-request.md)
 

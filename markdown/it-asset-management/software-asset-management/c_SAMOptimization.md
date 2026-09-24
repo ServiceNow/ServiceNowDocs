@@ -2,7 +2,7 @@
 title: Software installation optimization and removal
 description: You can optimize your environment by reclaiming unused software as well as removing unauthorized software.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_SAMOptimization.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/c\_SAMOptimization.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -184,12 +184,12 @@ When the **Reclaim** action is clicked, if the **Notify User** field is selected
 
 When the state changes to Awaiting User, a notification is sent to the user.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 
 **Related topics**  
 
 
-[View or create software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-sw-usage-workspace.md)
+[View or create software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/view-sw-usage-workspace.md)
 
-[Reclaim software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reclaiming-software-sam.md)
+[Reclaim software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/reclaiming-software-sam.md)
 

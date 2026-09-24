@@ -2,7 +2,7 @@
 title: Cross-channel favorites
 description: Cross-channel favorites capability provides quick access to the content the employees use frequently and offers extensibility for BUs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/app-launcher-usability.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/app-launcher-usability.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -58,7 +58,7 @@ To fix issues with alphabetical sort order of favorites, see [KB1348001](https:/
 
 You can configure user permissions such as **Available for** and **Not Available for**. When the favorite topic is not marked available for the user, the topic isn't visible from **My Favorites** and on the favorites widget.
 
-For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
+For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
 
 ## Favorites troubleshooting
 
@@ -73,7 +73,7 @@ Follow these steps to troubleshoot issues with **Favorites**:
 **Related topics**  
 
 
-[Configure favorites option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-admin.md)
+[Configure favorites option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-configure-favorites-admin.md)
 
-[Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md)
+[Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md)
 

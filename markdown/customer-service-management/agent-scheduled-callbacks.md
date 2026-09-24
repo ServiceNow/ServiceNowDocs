@@ -2,7 +2,7 @@
 title: Schedule a callback for a customer
 description: Schedule callbacks on behalf of customers from CSM Configurable Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-scheduled-callbacks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/agent-scheduled-callbacks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -55,11 +55,11 @@ Agent-scheduled callbacks enable agents to create callback tasks while interacti
 **Related topics**  
 
 
-[View scheduled callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-scheduled-callbacks.md)
+[View scheduled callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-scheduled-callbacks.md)
 
-[View related callbacks in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-related-callbacks-contextual-side-panel.md)
+[View related callbacks in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-related-callbacks-contextual-side-panel.md)
 
-[Reschedule a callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/reschedule-callback.md)
+[Reschedule a callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/reschedule-callback.md)
 
-[Cancel a callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cancel-callback.md)
+[Cancel a callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/cancel-callback.md)
 

@@ -2,7 +2,7 @@
 title: Request an Accelerator from IDI
 description: Depending on the Impact package that you are subscribed to, you can request and consume a designated number of concurrent Impact Accelerators, from the IDI.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/impact/request-accelerator.html
+canonical_url: https://www.servicenow.com/docs/r/australia/impact/request-accelerator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Depending on the Impact package that you are subscribed to, you can request and 
 
 ## Before you begin
 
-For details on available Accelerators, refer to the [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md).
+For details on available Accelerators, refer to the [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/accelerator-catalog.md).
 
 Role required: Impact platform owner
 
@@ -40,10 +40,10 @@ Role required: Impact platform owner
 
 5.  Complete the form and select **Complete Setup**.
 
-    The Set up initiative form displays. The Accelerator in progress updates the status on the tile and displays in the [Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md) list.
+    The Set up initiative form displays. The Accelerator in progress updates the status on the tile and displays in the [Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/impact-initiatives.md) list.
 
-    **Note:** An Impact Permissions Authorizer will grant or deny the request to start the initiative. See [Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/grant-ide-permissions.md) for additional information.
+    **Note:** An Impact Permissions Authorizer will grant or deny the request to start the initiative. See [Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/grant-ide-permissions.md) for additional information.
 
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
 

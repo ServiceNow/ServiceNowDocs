@@ -2,7 +2,7 @@
 title: Minor changes to published product offerings and specifications
 description: As a product catalog admin, you can make minor changes to certain fields in published versions of a product offering or specification, without creating another version. Minor changes include updates such as modifying the product offering display name, description, or product image.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/minor-updates-published-offerings-specs.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/minor-updates-published-offerings-specs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -188,7 +188,7 @@ Order
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

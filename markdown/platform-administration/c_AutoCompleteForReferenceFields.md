@@ -2,7 +2,7 @@
 title: Auto-complete for reference fields
 description: By default, a reference field auto-completes as the user types in the field.A field inherits and uses the reference table's auto-complete attributes unless the field has its own value for the same attributes. You can define the attributes for references to a table, and it affects every form that references that table.You can remove the display value column from a reference field by setting the ref\_ac\_display\_value attribute to false.By default, all reference fields use a starts with query to search for matching text in the reference table. This prevents auto-complete from executing inefficient contains queries every time a user searches a reference field. You can require all reference fields to use a starts with query.By default, auto-complete only matches text in the display value column. You can configure a reference field to match text from any additional column the reference field displays.By default, the reference auto-complete uses a starts with search. A user preference can be created to implement a contains search.Wildcard searches use the auto-complete functionality.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_AutoCompleteForReferenceFields.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_AutoCompleteForReferenceFields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -235,7 +235,7 @@ Role required: admin
 
 1.  Disable the **glide.ui.ref\_ac.startswith** system property.
 
-    For more information, see [Improve auto-complete queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
+    For more information, see [Improve auto-complete queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AutoCompleteForReferenceFields.md).
 
     **Note:** Setting the **glide.ui.ref\_ac.startswith** system property to **true** overrides any existing "autocomplete.contains" settings in both user and system level preferences. This property changes the auto-complete query method for all users regardless of preferences.
 

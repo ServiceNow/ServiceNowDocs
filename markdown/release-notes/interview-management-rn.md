@@ -2,7 +2,7 @@
 title: Interview management release notes
 description: The ServiceNow Interview management application streamlines the interview setup and scheduling process by minimizing manual tasks and improving efficiency. Interview management was enhanced and updated in the Australia release.The ServiceNow Interview management application streamlines the interview setup and scheduling process by minimizing manual tasks and improving efficiency. Interview management was enhanced and updated in the Australia release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/interview-management-rn.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/interview-management-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-05-15"
@@ -16,7 +16,7 @@ The ServiceNow® Interview management application streamlines the interview setu
 
 ## About Interview management
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   Substitute yourself in interviews to eliminate the time and effort of offline coordination.
 -   Track interview health and take timely actions from a unified interview health tracker.
@@ -36,7 +36,7 @@ See [Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceN
     The Hiring Core application provides essential data models and shared components for Hiring Experiences, and must be activated.
 
 
-**Parent Topic:**[Hiring Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/talent-acquisition-rn-landing.md)
+**Parent Topic:**[Hiring Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/talent-acquisition-rn-landing.md)
 
 ## Australia
 

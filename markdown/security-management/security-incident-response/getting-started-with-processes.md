@@ -2,7 +2,7 @@
 title: Prerequisites for the Playbooks
 description: You need the following roles and plugins to build the Playbooks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/getting-started-with-processes.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/getting-started-with-processes.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -28,7 +28,7 @@ Role required: admin.
 
 Make sure that you have read the platform documentation on [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) and [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) before you start with this guide.
 
-**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 

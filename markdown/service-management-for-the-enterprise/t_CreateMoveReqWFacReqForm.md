@@ -2,7 +2,7 @@
 title: Create a move request with the move request form
 description: Facilities staff members can create move requests using the move request form.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateMoveReqWFacReqForm.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_CreateMoveReqWFacReqForm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -216,5 +216,5 @@ Extra notes that you want to share between users who can access the request form
     |**To save the form without initiating workflow**|Click **Save**.|
 
 
-**Parent Topic:**[Facilities move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacMoveRequests.md)
+**Parent Topic:**[Facilities move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacMoveRequests.md)
 

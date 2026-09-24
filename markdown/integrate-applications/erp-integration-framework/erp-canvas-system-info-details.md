@@ -2,7 +2,7 @@
 title: Zero Copy Connector for ERP software info tab field descriptions
 description: The software info tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information about the selected ERP system.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-system-info-details.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-system-info-details.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,7 +17,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The software info tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information about the selected ERP system.
 
-For process details, see [View Zero Copy Connector for ERP software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-erp-system-information.md).
+For process details, see [View Zero Copy Connector for ERP software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/view-erp-system-information.md).
 
 |Field|Description|
 |-----|-----------|

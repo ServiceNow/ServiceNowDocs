@@ -2,7 +2,7 @@
 title: Install Employee Center Pro
 description: Employee Center Pro extends the standard Employee Center capabilities and provides a platform for employees to communicate and be engaged.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/install-ec-pro.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/install-ec-pro.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,7 +26,7 @@ The application includes demo data and installs related ServiceNow® Store appli
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
-Install the Enterprise Service Management Integrations Framework \(sn\_hr\_integ\_fw\) plugin to enable Employee Center Pro to integrate with third-party systems. See [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-framework.md).
+Install the Enterprise Service Management Integrations Framework \(sn\_hr\_integ\_fw\) plugin to enable Employee Center Pro to integrate with third-party systems. See [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-integrations-framework.md).
 
 Role required: admin
 
@@ -75,31 +75,31 @@ For information on the roles, tables, and widgets installed with Employee Center
 
 6.  Run the fix script  **Set primary topics for Employee taxonomy ** to  index the  curated experiences  demo data into  search and recommended content  .
 
-    For more information, see [Run fix scripts to update Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/run_scripts_manually_config-search.md).
+    For more information, see [Run fix scripts to update Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/run_scripts_manually_config-search.md).
 
 
 ## What to do next
 
--   Check and allow all the RCA \(Requested Caller Access\) privileges requested by Employee Center. For more information on running a fix script for RCA approvals, see [Run fix-script for RCA approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-rca-fix-script.md).
+-   Check and allow all the RCA \(Requested Caller Access\) privileges requested by Employee Center. For more information on running a fix script for RCA approvals, see [Run fix-script for RCA approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-rca-fix-script.md).
 -   Install plugins to extend Employee Center Pro capabilities:
     -   **Content Experiences \(sn\_ca\)**
 
-        Package your content into a campaign using multiple channels to deliver the right message to the right audience at the right time. For more information to activate this plugin, see [Activate Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-automation-plugin.md).
+        Package your content into a campaign using multiple channels to deliver the right message to the right audience at the right time. For more information to activate this plugin, see [Activate Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-content-automation-plugin.md).
 
     -   **Content Publishing \(sn\_sd\)**
 
-        Use Content Publishing to create different types of information you want to distribute to your employees. For more information to activate this plugin, see [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-delivery-plugin.md).
+        Use Content Publishing to create different types of information you want to distribute to your employees. For more information to activate this plugin, see [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-content-delivery-plugin.md).
 
     -   **Content Analytics \(sn\_cda\)**
 
-        Content Analytics helps you decide when content is stale, needs refreshing, and how engaged your employees are with your communication. For more information to activate this plugin, see [Activate Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.md).
+        Content Analytics helps you decide when content is stale, needs refreshing, and how engaged your employees are with your communication. For more information to activate this plugin, see [Activate Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.md).
 
     -   **Content Governance \(sn\_cg\)**
 
-        Content Governance provides a streamlined way for employees to request content to be created, track the progress, preview the content, and approve it before it is published. For more information to activate this plugin, see [Activate Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-install-content-gov.md)
+        Content Governance provides a streamlined way for employees to request content to be created, track the progress, preview the content, and approve it before it is published. For more information to activate this plugin, see [Activate Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-install-content-gov.md)
 
 
-**Parent Topic:**[Upgrading to Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/upgrade-steps.md)
+**Parent Topic:**[Upgrading to Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/upgrade-steps.md)
 
 **Related topics**  
 

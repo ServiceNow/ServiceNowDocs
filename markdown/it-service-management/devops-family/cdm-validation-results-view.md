@@ -2,7 +2,7 @@
 title: View the results of snapshot validation
 description: View validation failures and warnings on the Validation results tab for the snapshot.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-validation-results-view.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-validation-results-view.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -77,7 +77,7 @@ Execution record
 
 </td><td>
 
-View execution information for this policy run. See [View the execution record for a policy run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-execution-record-policy-view.md) for details.
+View execution information for this policy run. See [View the execution record for a policy run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-execution-record-policy-view.md) for details.
 
 </td></tr><tr><td>
 

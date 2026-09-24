@@ -2,7 +2,7 @@
 title: Assess impact categories and dependencies of a process
 description: Assess the different components of a business impact analysis \(BIA\). First by assessing and determining the impact categories of a business process. Second, by identifying any underlying dependencies that the business process requires across different dependency types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/assess-impact-categories-bia.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/assess-impact-categories-bia.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -63,15 +63,15 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
 5.  To assess the different types of business impact categories on the business process, click the **RTO Impact Assessment** tab.
 
-    All impact categories are configurable. A business process draws a set of impact categories, by default, from the template that you have used for the business impact analysis. For more information, see: [Review an impact category and assess its downtime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/review-impact-category-bia.md).
+    All impact categories are configurable. A business process draws a set of impact categories, by default, from the template that you have used for the business impact analysis. For more information, see: [Review an impact category and assess its downtime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/review-impact-category-bia.md).
 
 6.  To answer questions on the data value of the asset in terms of its impact on the business and its data change frequency, click **RPO Impact Assessment** tab.
 
-    For more information, see [Assess RPO impact of technology assets on the business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/RPO-asset-impact-assessment.md).
+    For more information, see [Assess RPO impact of technology assets on the business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/RPO-asset-impact-assessment.md).
 
 7.  To review the dependency groups and identify the items within each group that your business process depends on, click the **Dependency Assessment** tab.
 
-    You can prioritize your business continuity and recovery plans based on the criticality of the assets that your business process utilizes. For more information, see: [Identify dependent items to prioritize recovery plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identify-dependent-items-bia.md).
+    You can prioritize your business continuity and recovery plans based on the criticality of the assets that your business process utilizes. For more information, see: [Identify dependent items to prioritize recovery plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/identify-dependent-items-bia.md).
 
     -   **Order of impact categories**
 
@@ -87,7 +87,7 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
         \[Omitted image "GridConfigBCMSetup.png"\] Alt text: Grid configuration setup.
 
-        For ad-hoc reporting: Add columns to the Dependency report source \[sn\_bia\_dependency\_report\_source\] table that match the dependency variables you defined in Element variable with **Enable reporting** option set to **true**. A scheduled job runs weekly to retrieve dependencies \(sn\_bia\_dependency\) and their corresponding elements, then updates the data in the reporting table. The job retrieves dependencies where the impact analysis is in approved state, was updated in the last seven days, and has not expired. To display the columns that you require you must set up the [element variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setup-bcm-element-variable.md) and [grid configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setup-bcm-grid-config.md). For more information, see, [Grid configuration for column display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grid-config-dependency-assessment.md).
+        For ad-hoc reporting: Add columns to the Dependency report source \[sn\_bia\_dependency\_report\_source\] table that match the dependency variables you defined in Element variable with **Enable reporting** option set to **true**. A scheduled job runs weekly to retrieve dependencies \(sn\_bia\_dependency\) and their corresponding elements, then updates the data in the reporting table. The job retrieves dependencies where the impact analysis is in approved state, was updated in the last seven days, and has not expired. To display the columns that you require you must set up the [element variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/setup-bcm-element-variable.md) and [grid configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/setup-bcm-grid-config.md). For more information, see, [Grid configuration for column display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grid-config-dependency-assessment.md).
 
 8.  To change the order of appearance of the impact categories in RTO, RPO, and dependency groups in dependency assessment, navigate to **Business Continuity** &gt; **Business Impact Analysis** &gt; **Impact Category Results**.
 

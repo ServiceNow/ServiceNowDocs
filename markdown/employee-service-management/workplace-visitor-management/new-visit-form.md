@@ -2,7 +2,7 @@
 title: New visit form
 description: Use the New visit form to select a purpose, location, date and time for your visit. Additionally, add visitors and optional co-hosts
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/new-visit-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-visitor-management/new-visit-form.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -103,7 +103,7 @@ Private note to receptionist
 Additional requirements or a private note to the receptionist.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Create a support request in Care Team Mobile
 description: Use Create a request in Care Team Mobile to create a support request directly from your mobile device.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-mobile-create-support-request.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-mobile-create-support-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +47,5 @@ A service request has been created and routed to the associated supporting servi
 
 ## What to do next
 
-[Track a submitted request in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-mobile-track-requests.md) or [Cancel a submitted request in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-cancel-submitted-request.md).
+[Track a submitted request in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-mobile-track-requests.md) or [Cancel a submitted request in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-cancel-submitted-request.md).
 

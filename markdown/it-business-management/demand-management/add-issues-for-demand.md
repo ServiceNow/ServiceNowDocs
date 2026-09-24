@@ -2,7 +2,7 @@
 title: Add issues for a demand
 description: Add an issue to a demand to escalate a risk or to track an unexpected problem. For example, a technical malfunction or resource unavailability that occurs during any phase of the demand life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/add-issues-for-demand.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/demand-management/add-issues-for-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -30,7 +30,7 @@ Role required: it\_demand\_manager
 
 4.  On the Issue form, fill in the fields.
 
-    For a description of the field names, see [Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/issue-form.md).
+    For a description of the field names, see [Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/issue-form.md).
 
 5.  Search in the knowledge base for any article related to the issue.
 
@@ -47,8 +47,8 @@ Role required: it\_demand\_manager
 
 ## What to do next
 
--   Convert an existing issue to a decision, action, or request change and close the issue. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/convert-ridac-for-demand.md).
--   Associate the issue with your existing risks so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/reassociate-ridac-demand.md).
+-   Convert an existing issue to a decision, action, or request change and close the issue. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/convert-ridac-for-demand.md).
+-   Associate the issue with your existing risks so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/reassociate-ridac-demand.md).
 
-**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
+**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/ridac-entries-for-demand.md)
 

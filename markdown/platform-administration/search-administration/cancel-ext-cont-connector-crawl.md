@@ -2,14 +2,14 @@
 title: Cancel a running external content connector crawl
 description: Cancel a running crawl for an external content connector to prevent the connector from retrieving and feeding additional documents or access permissions to AI Search for indexing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/cancel-ext-cont-connector-crawl.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/cancel-ext-cont-connector-crawl.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Crawl, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -46,5 +46,5 @@ Search administrators can manually cancel external content connector crawls that
 
 The selected external content connector halts its crawl.
 
-**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/using-ext-cont-connectors.md)
+**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/using-ext-cont-connectors.md)
 

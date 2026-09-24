@@ -2,7 +2,7 @@
 title: Execute a work set task
 description: Run a work set task to complete all sub-activities of the underlying work set standard as part of one guided flow.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/execute-work-set-task.html
+canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/execute-work-set-task.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -54,5 +54,5 @@ The work set task moves to the **Closed Complete** state. The system records the
 
 If a work set task is canceled or expires \(**Closed Skipped**\), any active child tasks move to the same end state. Active child actions are canceled.
 
-**Parent Topic:**[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)
+**Parent Topic:**[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)
 

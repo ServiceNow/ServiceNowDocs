@@ -2,7 +2,7 @@
 title: Set up a configurable product in legacy Salesforce environment
 description: Set up external product configuration in Salesforce to connect with ServiceNow blueprints when using legacy managed package installations.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment-older-managed-package.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment-older-managed-package.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
@@ -49,9 +49,9 @@ A configurable product associates a blueprint with the configuration experience 
 **Related topics**  
 
 
-[Set up a configurable product in a Salesforce-integrated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment.md)
+[Set up a configurable product in a Salesforce-integrated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment.md)
 
-[Set up a configurable product in a headless environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-set-up-a-configurable-product-in-a-headless-environment.md)
+[Set up a configurable product in a headless environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-configurable-product-in-a-headless-environment.md)
 
-[Set up blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/blueprints_101.md)
+[Set up blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/blueprints_101.md)
 

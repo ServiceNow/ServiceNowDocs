@@ -2,7 +2,7 @@
 title: Software Publisher Analytics dashboard for SAP in Software Asset Management classic
 description: View your license compliance position for SAP on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/dashboard-sap.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/dashboard-sap.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -211,7 +211,7 @@ SAP System Users
 Number of SAP users that have indirect access to the SAP system.Users are given a score based on total CPU time, peak count, and steps.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 

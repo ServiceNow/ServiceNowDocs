@@ -2,7 +2,7 @@
 title: Create an Agent Client Collector configuration data file
 description: Create an Agent Client Collector configuration data file and associate it with check definitions so that you can view the information about your instance. You can also add or delete an attachment to the configuration data files, which are used by check definitions during check executions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-acc-config-data-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/create-acc-config-data-file.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -22,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-A check definition is an individual check entry in the system. For details, see [Agent Client Collector configuration data files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-config-data-files.md).
+A check definition is an individual check entry in the system. For details, see [Agent Client Collector configuration data files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-config-data-files.md).
 
 Configuration data file attachments contain instance data, such as configuration item \(CI\) information, which is used when executing a check.
 
@@ -93,5 +93,5 @@ The Attachments dialog box opens.
 
 Checks use the configuration data file with instance data during check execution.
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

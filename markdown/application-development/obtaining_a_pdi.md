@@ -2,7 +2,7 @@
 title: Obtaining a PDI
 description: Get a new instance to run a PDI on the latest generally available release.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/obtaining\_a\_pdi.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/obtaining\_a\_pdi.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-The first time you sign in to the Developer Site, you are given a PDI running the latest generally available release. You can use this PDI as long as you keep it active. If you want a PDI running an earlier release, [release your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releasing_your_pdi.md) and request a new instance.
+The first time you sign in to the Developer Site, you are given a PDI running the latest generally available release. You can use this PDI as long as you keep it active. If you want a PDI running an earlier release, [release your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releasing_your_pdi.md) and request a new instance.
 
 If you do not have a PDI because you released your PDI or went longer than ten days without activity, can request a new instance.
 
@@ -46,5 +46,5 @@ If you do not have a PDI because you released your PDI or went longer than ten d
 5.  Select **Open Instance** to open the instance in a new browser tab.
 
 
-**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/personal_developer_instance_guide.md)
 

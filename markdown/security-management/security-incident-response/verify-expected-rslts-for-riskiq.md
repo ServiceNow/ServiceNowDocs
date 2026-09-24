@@ -2,7 +2,7 @@
 title: Verify expected results for RISKIQ SSL certificate lookups
 description: When a security incident generates observables for URLs, domains, IP addresses, certificate file hashes \(SHA-1 fingerprint\), and certificate serial numbers, security incident analysts use the SSL certificate lookup results to verify sites have certificates that have been issued by a trusted public Certificate Authority \(CA\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-expected-rslts-for-riskiq.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/verify-expected-rslts-for-riskiq.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -65,19 +65,19 @@ For supported observables, the ServiceNow AI Platform scans for the most recent 
 
 If you cannot view expected results, verify that the observable is supported by the SSL certificate lookup for the integration.
 
--   **[RISKIQ SSL certificate lookups that return an exact match](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq_ssl_exact_match.md)**  
+-   **[RISKIQ SSL certificate lookups that return an exact match](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/riskiq_ssl_exact_match.md)**  
 RISKIQ SSL certificate lookup results for an exact match are displayed on the **SSL Certificates** tab on the security incident record. An exact match provides a valid certificate authority name, which helps a security incident analyst determine the validity of a website.
--   **[RISKIQ SSL certificate lookups that return multiple certificates or no certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq_ssl_no_match.md)**  
+-   **[RISKIQ SSL certificate lookups that return multiple certificates or no certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/riskiq_ssl_no_match.md)**  
 A security incident analyst can use multiple SSL certificate results to determine whether a site is part of a common, recognizable entity. No SSL certificate results may indicate sites with obscure or suspicious names have no trusted certificates. Lookup results for observables that don't return SSL certificates, or that return multiple SSL certificates, are displayed on the Observable Enrichment Results tab on the security incident record.
 
-**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq-lookups.md)
+**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/riskiq-lookups.md)
 
-**Previous topic:**[Install and configure RISKIQ and WHOISIQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-config-riskiq.md)
+**Previous topic:**[Install and configure RISKIQ and WHOISIQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/install-and-config-riskiq.md)
 
-**Next topic:**[RISKIQ SSL certificate lookups that return an exact match](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq_ssl_exact_match.md)
+**Next topic:**[RISKIQ SSL certificate lookups that return an exact match](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/riskiq_ssl_exact_match.md)
 
 **Related topics**  
 
 
-[Supported observables for RISKIQ and RISKIQ WHOISIQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/riskiq_supported_obsv.md)
+[Supported observables for RISKIQ and RISKIQ WHOISIQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/riskiq_supported_obsv.md)
 

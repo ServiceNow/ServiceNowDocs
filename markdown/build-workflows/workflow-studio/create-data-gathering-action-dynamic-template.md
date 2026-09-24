@@ -2,7 +2,7 @@
 title: Create a data gathering action for a dynamic template
 description: Create a data gathering action to collect record field values for a dynamic template input.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-data-gathering-action-dynamic-template.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/create-data-gathering-action-dynamic-template.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -35,7 +35,7 @@ Create a data gathering action to collect record field values for a dynamic temp
 
     You may need to create an input to provide a table name or a dynamic URL path to your REST step.
 
-    For example, create a String input to store a table name. See [Create a data gathering action to get field names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md) for instructions.
+    For example, create a String input to store a table name. See [Create a data gathering action to get field names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/getting-started-dynamic-input.md) for instructions.
 
 5.  In the Action Outline under Inputs, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: Add a new step icon\) and select the **REST** step.
 
@@ -47,7 +47,7 @@ Create a data gathering action to collect record field values for a dynamic temp
 
     2.  For the Request Details, select a method to build a request, provide a resource path, select an HTTP method, and provide any query parameters.
 
-        Data gathering actions generally use a GET HTTP method to request data from a REST endpoint. For more information on using the REST step in Integration Hub, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/rest-request-action-designer.md) and [REST in IntegrationHub](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_rest_paris_rest_in_integrationhub/app_store_learnv2_rest_paris_rest_in_integrationhub_objectives?v=paris).
+        Data gathering actions generally use a GET HTTP method to request data from a REST endpoint. For more information on using the REST step in Integration Hub, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/rest-request-action-designer.md) and [REST in IntegrationHub](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_rest_paris_rest_in_integrationhub/app_store_learnv2_rest_paris_rest_in_integrationhub_objectives?v=paris).
 
 6.  In the Action Outline under the REST step, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: Add a new step icon\) and select the **Script** step.
 
@@ -169,7 +169,7 @@ Create a data gathering action to collect record field values for a dynamic temp
 
     5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and then select Script step output variable you created to store template values.
 
-8.  Click **Save** and [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+8.  Click **Save** and [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-action.md).
 
     In the execution details, your data gathering action runs successfully if the runtime value for `output` contains the `data` property in the proper format.
 
@@ -180,7 +180,7 @@ Create a data gathering action to collect record field values for a dynamic temp
 
 You can now use your data gathering action to populate the options that appear for a dynamic template input in a parent action.\[Omitted image "create-data-gathering-action-dynamic-template-result.png"\] Alt text: Use your data gathering action to populate options for a dynamic template.
 
-**Parent Topic:**[Dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-inputs.md)
+**Parent Topic:**[Dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/dynamic-inputs.md)
 
 **Related topics**  
 

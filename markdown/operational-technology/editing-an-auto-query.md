@@ -2,7 +2,7 @@
 title: Edit an Auto Query
 description: Edit an Auto Query to change or add parameters to your scan.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/editing-an-auto-query.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/editing-an-auto-query.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +37,5 @@ Role required: admin
 6.  Select **Save** to save your changes or select **Cancel** to discard your changes
 
 
-**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/auto-query-console.md)
+**Parent Topic:**[Auto Query page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/auto-query-console.md)
 

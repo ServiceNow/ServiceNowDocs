@@ -2,7 +2,7 @@
 title: Create a dynamic category
 description: Create a container for organizing dynamic attributes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-dynamic-category.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-dynamic-category.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

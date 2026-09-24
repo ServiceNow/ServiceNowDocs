@@ -2,7 +2,7 @@
 title: Deactivate skills for ServiceNow Otto for Contract Management Pro
 description: Deactivate the skills in ServiceNow Otto for Contract Management Pro when they are not in use.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-deactivate-na-skills.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-deactivate-na-skills.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -40,9 +40,9 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 The skill is deactivated for ServiceNow Otto for Contract Management Pro and displayed in the **All available Contract Management Pro skills** section.
 
-To reactivate the skill, select **Activate skill**. For more information, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+To reactivate the skill, select **Activate skill**. For more information, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
-**Parent Topic:**[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)
+**Parent Topic:**[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)
 
 **Related topics**  
 

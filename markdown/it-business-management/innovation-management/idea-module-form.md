@@ -2,7 +2,7 @@
 title: Idea module form
 description: Learn about the fields of the Idea module form. Use this form to create or edit the details of an idea in Innovation Management.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/idea-module-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/innovation-management/idea-module-form.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -73,10 +73,10 @@ Category Limit
 The maximum number of categories a user can select while submitting an idea. Default: 5This field does not appear by default on the Idea module form so you must add it by personalizing the form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/form-field-information-for-innovation-management.md)
+</table>**Parent Topic:**[Form field information for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/form-field-information-for-innovation-management.md)
 
 **Related topics**  
 
 
-[Create an Idea module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-idea-module.md)
+[Create an Idea module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/innovation-management/create-idea-module.md)
 

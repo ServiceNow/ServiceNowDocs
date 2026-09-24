@@ -2,7 +2,7 @@
 title: Configure financial widgets in compare scenario
 description: Add or manage existing widgets to view financial insights while comparing scenarios. Define your own attribute from the cost types to view it's details in the Compare scenario page.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/config-compare-scenario-fin-widgets-spw.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/scenario-planning-in-spw/config-compare-scenario-fin-widgets-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

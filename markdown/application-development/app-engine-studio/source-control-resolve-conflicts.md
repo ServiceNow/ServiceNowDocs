@@ -2,7 +2,7 @@
 title: Resolve conflicts
 description: App developers can select the app file version to use when applying remote or stashed changes in App Engine Studio \(AES\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-resolve-conflicts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/source-control-resolve-conflicts.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -91,5 +91,5 @@ Applies the application file version from the most recent pull from the reposito
     The system applies the selected changes.
 
 
-**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-use.md)
+**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-source-control-use.md)
 

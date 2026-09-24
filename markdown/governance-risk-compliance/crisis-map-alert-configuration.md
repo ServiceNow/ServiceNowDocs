@@ -2,7 +2,7 @@
 title: Configure alert rules to display alerts in crisis map
 description: Set alert rules to specify conditions under which a feed has to be bubbled up and displayed in the dashboard as an alert. You can also specify the conditions under which an alert is no longer valid and dismiss it from the dashboard.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-alert-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/crisis-map-alert-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

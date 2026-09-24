@@ -2,7 +2,7 @@
 title: Configure a custom program record header in the Reviewer Service Portal
 description: As an admin, you can configure the custom widget that renders the Program header displayed to the merit reviewer persona in the Reviewer Service Portal.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-rsp-program-header.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-rsp-program-header.html
 release: australia
 topic_type: task
 last_updated: "2025-07-31"

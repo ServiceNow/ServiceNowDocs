@@ -2,7 +2,7 @@
 title: Set up personal authentication mode OAuth connectivity with Google
 description: Create a personal authentication mode application registry for Google Calendar with your instance for OAuth authorization.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/setup-personal-auth-mode-oauth-connectivity-with-google.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/setup-personal-auth-mode-oauth-connectivity-with-google.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -18,7 +18,7 @@ Create a personal authentication mode application registry for Google Calendar w
 
 ## Before you begin
 
-[Authenticate Google for calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/authenticate-google-for-calendar-sync.md)
+[Authenticate Google for calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/authenticate-google-for-calendar-sync.md)
 
 Ensure that the application scope is set to **Google Calendar Spoke**. Otherwise, do the following:
 

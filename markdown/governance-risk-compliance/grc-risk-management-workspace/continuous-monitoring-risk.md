@@ -2,7 +2,7 @@
 title: Manage continuous monitoring for risks between Risk Management and Vulnerability Response
 description: Continuous monitoring for risks is a feature integration between the GRC: Risk Management and the Security Operations Vulnerability Response products, which uses indicators to quickly identify high impact vulnerabilities based on business impact.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/continuous-monitoring-risk.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/continuous-monitoring-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -57,5 +57,5 @@ To enable continuous monitoring between Risk Management and Vulnerability Respon
 4.  Configure vulnerability ingestion settings in Vulnerability Response to map vulnerability data to your business services.
 5.  Test the integration by triggering a vulnerability scan or import. Verify that Risk Issues appear on your IRM dashboards within the expected time window.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/r_WhatIsGRC.md)
 

@@ -2,7 +2,7 @@
 title: Store inquiry case
 description: The store inquiry case type facilitates seamless communication between store teams and headquarters, enabling efficient exchange of operational queries, information, and issues. This case type is included in the Retail store services plugin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-retail-store-services.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-retail-store-services.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +29,7 @@ By using the store inquiry case type, retail stores can: 
 
 ## Store employee creates a store inquiry case to inquire about store-to-store transfer process. This request is made to seek information on transfer policy and eligibility criteria
 
-For information on the components installed with store inquiry case type, see [Components installed with Retail Store Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-store-services.md).
+For information on the components installed with store inquiry case type, see [Components installed with Retail Store Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-store-services.md).
 
-**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-case-types-revamp.md)
+**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types-revamp.md)
 

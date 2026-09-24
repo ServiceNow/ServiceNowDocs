@@ -2,7 +2,7 @@
 title: Installed with Service Management Core
 description: Several types of components are installed with the Service Management Core plugin.Tables are added with Service Management Core.Properties are added with Service Management Core.Roles are added with Service Management Core.Script includes are added with Service Management Core.Client scripts are added with Service Management Core.Business rules are added with Service Management Core.Email notifications are added with Service Management Core.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_InstallWServMgmtCore.html
+canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_InstallWServMgmtCore.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Several types of components are installed with the Service Management Core plugi
 
 Demo data is available with Service Management Core.
 
-**Parent Topic:**[Service Management Core installation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_ServMgmtCoreInstallRef.md)
+**Parent Topic:**[Service Management Core installation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/r_ServMgmtCoreInstallRef.md)
 
 ## Tables installed with Service Management Core
 

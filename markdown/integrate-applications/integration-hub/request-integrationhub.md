@@ -2,7 +2,7 @@
 title: Request an Integration Hub plugin
 description: Integration Hub plugins require a separate subscription and must be activated by ServiceNow personnel.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/request-integrationhub.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/request-integrationhub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -26,7 +26,7 @@ To purchase a subscription, contact your ServiceNow account manager. The account
 
 If you don't have an account manager, decide to delay activation after purchase, or want to evaluate the product on a subproduction instance without charge, follow these steps.
 
-For a list of Integration Hub plugins, see [Integration Hub plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ih-plugins.md).
+For a list of Integration Hub plugins, see [Integration Hub plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/ih-plugins.md).
 
 ## Procedure
 
@@ -78,7 +78,7 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)
+**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/request-ih-overview.md)
 
 **Related topics**  
 

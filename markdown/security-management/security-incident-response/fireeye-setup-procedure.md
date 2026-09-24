@@ -2,7 +2,7 @@
 title: Set up your NowPlatform instance for FireEye integration
 description: Verify and review the following configuration procedure to set up NowPlatform instance for Fireeye integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/fireeye-setup-procedure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/fireeye-setup-procedure.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

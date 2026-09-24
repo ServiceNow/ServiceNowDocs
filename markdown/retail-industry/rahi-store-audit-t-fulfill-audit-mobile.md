@@ -2,7 +2,7 @@
 title: Complete a store audit from Retail Mobile
 description: As a Location Auditor, take your assigned Store Audit Case and Audit Tasks in Retail Mobile, complete the questionnaire, and close the case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-t-fulfill-audit-mobile.html
+canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-store-audit-t-fulfill-audit-mobile.html
 release: australia
 topic_type: task
 last_updated: "2026-07-08"
@@ -52,14 +52,14 @@ Location Auditors are the only Auditor persona who can fulfill Store Audit work 
 
 The Store Audit Case and its Audit Tasks are fulfilled and closed from Retail Mobile. The Store Audit Manager can review the completed work in CSM/FSM Workspace.
 
-**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
+**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-manage.md)
 
 **Related topics**  
 
 
-[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
+[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-overview.md)
 
-[Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-fulfill-audit.md)
+[Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-t-fulfill-audit.md)
 
-[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
+[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-t-override-assignment.md)
 

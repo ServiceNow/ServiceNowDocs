@@ -2,7 +2,7 @@
 title: Group application services
 description: Organize application services by groups to perform actions simultaneously on multiple services, and to control user access to services. You can use Event Management to track service health by service groups.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/organizing\_services-into-groups.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/organizing\_services-into-groups.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -71,7 +71,7 @@ You can use ServiceNow AI Platform Notifications to alert users if the service g
     6.  Click **Update**.
 
 
-**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/advanced-business-service-definitions.md)
+**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/advanced-business-service-definitions.md)
 
 **Related topics**  
 

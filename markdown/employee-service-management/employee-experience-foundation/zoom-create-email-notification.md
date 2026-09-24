@@ -2,7 +2,7 @@
 title: Use Employee Center from Zoom
 description: Access and use the ServiceNow Employee Center capabilities from Zoom client.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/zoom-create-email-notification.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/zoom-create-email-notification.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,7 +35,7 @@ Role required: Employee
     The ServiceNow Employee Center homepage is displayed.
 
 
-**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
@@ -72,5 +72,5 @@ Role required: Employee
 
 [Use Guided Self-Service]()
 
-[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
+[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
 

@@ -2,7 +2,7 @@
 title: Add users to learning library
 description: You can add applicable users to a learning library.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/add-users-library.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/learning-core/add-users-library.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -20,7 +20,7 @@ You can add applicable users to a learning library.
 
 Role required: admin
 
-Create a learning library. For more information, see [Create a learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-ln-ctg.md)
+Create a learning library. For more information, see [Create a learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-ln-ctg.md)
 
 ## Procedure
 
@@ -33,5 +33,5 @@ Create a learning library. For more information, see [Create a learning library]
 4.  On the Edit Members window, select courses and select **Save**.
 
 
-**Parent Topic:**[Create a learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-ln-ctg.md)
+**Parent Topic:**[Create a learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-ln-ctg.md)
 

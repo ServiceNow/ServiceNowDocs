@@ -2,7 +2,7 @@
 title: Navigate to a record or module using a URL
 description: Users can navigate to a record or module directly by using a URL. This topic explains the URL schema by which the system renders pages.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/navigate-using-url.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/navigate-using-url.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -135,15 +135,15 @@ To build multiple term queries or specify multiple field values
 
 </td></tr></tbody>
 </table>
--   **[Enable tiny URL support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EnableTinyURLSupport.md)**  
+-   **[Enable tiny URL support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_EnableTinyURLSupport.md)**  
 The default URLs by which the system renders pages may exceed the character limit of some browsers, resulting in an error message. You can enable tiny URL support, which generates shortened internal URLs, to help prevent this error.
--   **[Examples of navigating by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_NavigatingByURLExamples.md)**  
+-   **[Examples of navigating by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_NavigatingByURLExamples.md)**  
 A list of example URLs that demonstrate ways to open pages in the ServiceNow application.
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UsingForms.md)
 
 **Related topics**  
 
 
-[Page navigation by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/navigate-by-portal-url.md)
+[Page navigation by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/navigate-by-portal-url.md)
 

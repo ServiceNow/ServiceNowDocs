@@ -2,7 +2,7 @@
 title: App Engine Management Center AI agents
 description: The following AI agents are available for App Engine Management Center.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aemc-ai-agents-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aemc-ai-agents-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
@@ -14,8 +14,8 @@ breadcrumb: [App Engine Management Center \(AEMC\), AI agents library, AI assets
 
 The following AI agents are available for App Engine Management Center.
 
--   **[Release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aemc-release-lifecycle-documentation-ai-agent.md)**  
+-   **[Release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aemc-release-lifecycle-documentation-ai-agent.md)**  
 Generate business release notes in natural, human-friendly language for business stakeholders, within a maximum 4000 character limit.
 
-**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
 

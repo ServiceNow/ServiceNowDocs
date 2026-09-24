@@ -2,7 +2,7 @@
 title: Company News &amp; Events AI Agent
 description: Use this agent to enable users to check their company-related latest news and upcoming events.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/check-company-newsevent-ai-agent-for-emp-exp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/check-company-newsevent-ai-agent-for-emp-exp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -41,7 +41,7 @@ To view the AI Agent, do the following:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 2.  Select **Company News &amp; Events AI Agent**.
 
-To activate, refer to [Activate Company News and Events AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/enable-company-news-and-events-ai-agent.md).
+To activate, refer to [Activate Company News and Events AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/enable-company-news-and-events-ai-agent.md).
 
 ## Tools used by Company News &amp; Events AI Agent
 

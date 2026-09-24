@@ -2,7 +2,7 @@
 title: Create an AI connection for Snowflake
 description: Create an AI connection for Snowflake in AI Control Tower using the  AI Service Graph Connector for Snowflake \(version 2.0.5\).
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connections-for-snowflake.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-ai-connections-for-snowflake.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

@@ -2,7 +2,7 @@
 title: SCA Overview dashboard
 description: The SCA Overview dashboard enables you to view and manage control assessments as they occur.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/reports-sca-ov.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/continuous-risk-monitoring/reports-sca-ov.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring

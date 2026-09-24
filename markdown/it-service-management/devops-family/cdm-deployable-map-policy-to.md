@@ -2,7 +2,7 @@
 title: Map policies to a deployable
 description: Map policies to a deployable to define the validation processes that the config data must pass. You can map policies to a deployable using static mapping or dynamic mapping.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-deployable-map-policy-to.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/devops-family/cdm-deployable-map-policy-to.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -137,7 +137,7 @@ Tags that are associated with the policy.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Mapping policies in DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-mapping-policies.md)
+**Parent Topic:**[Mapping policies in DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-mapping-policies.md)
 
 **Related topics**  
 

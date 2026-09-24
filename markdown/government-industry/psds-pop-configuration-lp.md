@@ -2,7 +2,7 @@
 title: Configuring Playbooks-on-portal for a custom case type
 description: As an admin, you can configure the playbooks-on-portal experience for a custom case type that extends the base License and Permit case.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-pop-configuration-lp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-pop-configuration-lp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

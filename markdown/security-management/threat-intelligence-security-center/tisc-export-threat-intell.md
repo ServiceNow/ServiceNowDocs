@@ -2,7 +2,7 @@
 title: Export intelligence system properties
 description: This section describes the record limitations and its properties while exporting data.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-export-threat-intell.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/threat-intelligence-security-center/tisc-export-threat-intell.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

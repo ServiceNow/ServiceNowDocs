@@ -2,12 +2,12 @@
 title: Client-side scripting design and processing
 description: Well-designed client scripts can reduce the amount of time it takes users to complete a form.If you create UI policies or client scripts for fields on a form, you must use another method to ensure that data in those fields is similarly controlled in a list.Use client data as much as possible to eliminate the need for time-consuming server lookups.When using setValue\(\) on a reference field, include the displayValue parameter to avoid additional server calls.When possible, consider using a UI policy instead of a client script.An excellent use for a client script is to validate the input from the user.Control the order of execution for your client scripts using the Order field. To avoid having two or more client scripts run concurrently and then conflict, you can add an order for the scripts to run in. Avoid Document Object Model \(DOM\) manipulation if possible. It can cause a maintainability issue when browsers are updated.A global client script is any client script where the selected Table is Global. Global client scripts have no table restrictions, therefore they will load on every page in the system introducing browser load delay in the process.Enclose the code in a client script inside a function.To avoid running time-consuming scripts unnecessarily, make sure that client scripts perform only necessary tasks.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/client-script-best-practices.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/client-script-best-practices.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 11
 breadcrumb: [Client-side scripting, Scripting, API implementation, API implementation and reference]
 ---
@@ -25,7 +25,7 @@ If you create client scripts to control field values on a form, you must use ano
 -   Create data policies.
 -   Create a separate onCellEdit client script.
 
-**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-side-scripting-overview.md)
+**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
 
 ## Restrict list editing
 

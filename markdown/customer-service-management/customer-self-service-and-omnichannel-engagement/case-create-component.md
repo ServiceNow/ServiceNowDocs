@@ -2,7 +2,7 @@
 title: Case create component
 description: Enables you to create a case to address any issues related to products and services. You can submit new cases, providing all necessary details such as assets, product, description, urgency, and more, directly from your website. Once the case is created, you can access it in the Case list component.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/case-create-component.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/case-create-component.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

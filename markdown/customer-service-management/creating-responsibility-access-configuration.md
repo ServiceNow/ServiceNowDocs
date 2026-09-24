@@ -2,7 +2,7 @@
 title: Creating a responsibility access configuration
 description: Create responsibility access configurations to add or modify access for various user relationships using different association types.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/creating-responsibility-access-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/creating-responsibility-access-configuration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

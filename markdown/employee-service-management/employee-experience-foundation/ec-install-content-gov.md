@@ -2,7 +2,7 @@
 title: Activate Content Governance
 description: You can install the Content Governance application \(sn\_cg\) to provide a streamlined method for employees to request content to be created for Content Publishing.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-install-content-gov.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-install-content-gov.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -53,7 +53,7 @@ Activate these plugins:
 **Related topics**  
 
 
-[Components installed with Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-installed-content-governance.md)
+[Components installed with Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-installed-content-governance.md)
 
-[Managing content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-governance.md)
+[Managing content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-governance.md)
 

@@ -2,7 +2,7 @@
 title: Physical connection modification request form
 description: The Physical connection modification request form enables you to modify endpoints of a physical connection record in the Telecommunications Network Inventory application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/physical-connection-modification-request-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-modification-request-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -93,16 +93,16 @@ Create Revision
 Option to enable or disable revision process.**Note:**
 
 1.  On selecting this check box, the following occurs:
-    1.  The revision process is initiated. To learn more, see [Revision, operationalization, and decommission of a Configuration Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/revision-of-a-confiuguration-item.md).
+    1.  The revision process is initiated. To learn more, see [Revision, operationalization, and decommission of a Configuration Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/revision-of-a-confiuguration-item.md).
     2.  Two change tasks for modification and revision are created with the open and closed status respectively.
-2.  Open the Modify Logical or Physical connection change task to start modifying the duplicated logical or physical connection and operationalize further. To learn more, see [Operationalize a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/operationalize-a-configuration-item.md).
+2.  Open the Modify Logical or Physical connection change task to start modifying the duplicated logical or physical connection and operationalize further. To learn more, see [Operationalize a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/operationalize-a-configuration-item.md).
 3.  In the process of revision of physical connection modification, the logical connections associated with physical connection ports are updated during the operationalization process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Modify physical connection endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-a-change-request-by-using-modify-physical-connection.md)
+[Modify physical connection endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-a-change-request-by-using-modify-physical-connection.md)
 

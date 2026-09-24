@@ -2,7 +2,7 @@
 title: Secure custom input properties sheet
 description: Use this sheet to specify secure inputs, such as a password, in a custom input control in Virtual Agent.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/secure-custom-input-properties-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/secure-custom-input-properties-form.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +17,7 @@ breadcrumb: [Customizing Virtual Agent with custom controls, Exploring other Vir
 
 Use this sheet to specify secure inputs, such as a password, in a custom input control in Virtual Agent.
 
-**Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md).
+**Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md).
 
 ## Secure custom input properties sheet
 

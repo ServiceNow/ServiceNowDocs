@@ -2,7 +2,7 @@
 title: HR security
 description: HR Service Delivery provides Restricted Caller Access, Encryption Support, and Edge Encryption security features.Restricted caller access \(RCA\) defines cross-scope access to HR Service Delivery applications.HR Service Delivery and Employee Document Management provides encryption to secure sensitive information.HR Service Delivery and Employee Document Management provides edge encryption to secure sensitive information.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-security.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-security.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -16,7 +16,7 @@ breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Ser
 
 HR Service Delivery provides Restricted Caller Access, Encryption Support, and Edge Encryption security features.
 
-**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
 ## Restricted caller access for HR
 
@@ -53,7 +53,7 @@ A cryptographic manager configures the fields or applications that are to be enc
 -   **Note:** Ensure the **Application** field has Employee Document Management selected.
 
 -   From the module access policy, set the role for encryption access. Specify the role to the user adding employee documents. Users with this role can access encrypted documents. See [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-module-access-policy.md).
--   Employees can view their own documents when HR Service Delivery is licensed, activated, and the document type allows employee access. The role specified in the encryption module is not required for employees to view their own documents that are encrypted. [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md) To configure the field or attachment for encryption, see [Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption-key-management.md).
+-   Employees can view their own documents when HR Service Delivery is licensed, activated, and the document type allows employee access. The role specified in the encryption module is not required for employees to view their own documents that are encrypted. [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md) To configure the field or attachment for encryption, see [Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption-key-management.md).
 
 **Note:** Documents that were previously encrypted using encryption contexts have the same access using encryption modules in Australia.
 

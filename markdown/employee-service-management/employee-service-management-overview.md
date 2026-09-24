@@ -2,7 +2,7 @@
 title: Employee Service Management
 description: ServiceNow Employee Service Management transforms how employees interact with the organization by delivering a unified, personalized, and proactive service experience across HR, Growth Experiences, Hiring Experiences, and other departments. It enables organizations deliver seamless, cross-departmental services through a single digital experience. Whether employees are onboarding, requesting workplace resources, updating personal data, or exploring internal opportunities, ESM orchestrates these interactions through end-to-end workflows.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-service-management-overview.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-service-management-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,15 +19,15 @@ Choose one of these tiles to get started.
 
 <table id="table_zzz_n5k_mbc" class="nav-card"><tbody><tr><td>
 
-[Explore HR Services\[Omitted image "bus-endpoint.svg"\] Alt text:Learn how HR Service Delivery applications can help you meet the demands of a modern-day workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-delivery.md)
+[Explore HR Services\[Omitted image "bus-endpoint.svg"\] Alt text:Learn how HR Service Delivery applications can help you meet the demands of a modern-day workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 
 </td><td>
 
-[Personalized, AI-Powered Journeys\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about the generative AI skills and capabilities offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+[Personalized, AI-Powered Journeys\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn about the generative AI skills and capabilities offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 
 </td><td>
 
-[Boost employee productivity and engagement\[Omitted image "bus-vulnerability-response.svg"\] Alt text:Explore a modern self-service experience for employees Unified Employee Experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
+[Boost employee productivity and engagement\[Omitted image "bus-vulnerability-response.svg"\] Alt text:Explore a modern self-service experience for employees Unified Employee Experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
 
 </td></tr><tr><td>
 
@@ -35,11 +35,11 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Legal and Contract Operations\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Accelerate the delivery of legal and contract services by transforming manual, unstructured processes into a seamless digital experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lco-landing.md)
+[Legal and Contract Operations\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Accelerate the delivery of legal and contract services by transforming manual, unstructured processes into a seamless digital experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lco-landing.md)
 
 </td><td>
 
-[Health and safety\[Omitted image "bus-infographic.svg"\] Alt text:Ensure safe and healthy working conditions for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.md)
+[Health and safety\[Omitted image "bus-infographic.svg"\] Alt text:Ensure safe and healthy working conditions for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.md)
 
 </td></tr><tr><td>
 
@@ -47,7 +47,7 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Manage a safe and efficient workplace.\[Omitted image "bus-vulnerability-response.svg"\] Alt text:Learn about maintaining a streamlined experience for your workplace using Workplace Service Delivery.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/workplace-service-delivery-suite-landing-page.md)
+[Manage a safe and efficient workplace.\[Omitted image "bus-vulnerability-response.svg"\] Alt text:Learn about maintaining a streamlined experience for your workplace using Workplace Service Delivery.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/workplace-service-delivery-suite-landing-page.md)
 
 </td><td>
 
@@ -76,7 +76,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
+[Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
 
 </td><td>
 
@@ -84,7 +84,7 @@ The ServiceNow® Employee Slate is an AI-first employee experience that brings s
 
 </td></tr><tr><td>
 
-[Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-vs-ec-pro.md)
+[Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-vs-ec-pro.md)
 
 </td><td>
 
@@ -92,7 +92,7 @@ The ServiceNow® Employee Center portal enables customers to easily scale their 
 
 </td></tr><tr><td>
 
-[Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
+[Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
 
 </td><td>
 
@@ -100,7 +100,7 @@ The ServiceNow® Case and Knowledge Management application enables you to standa
 
 </td></tr><tr><td>
 
-[Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/manager-hub-overview.md)
+[Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/manager-hub-overview.md)
 
 </td><td>
 
@@ -108,7 +108,7 @@ The ServiceNow® Manager Hub increases managers self-service and proactive engag
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 
 </td><td>
 
@@ -116,7 +116,7 @@ The ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application su
 
 </td></tr><tr><td>
 
-[HR Service Delivery integration with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-third-party-systems.md)
+[HR Service Delivery integration with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/integrate-third-party-systems.md)
 
 </td><td>
 
@@ -124,7 +124,7 @@ Integrate HR Service Delivery with HR management systems to synchronize employee
 
 </td></tr><tr><td>
 
-[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-management-overview.md)
+[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/legal-management-overview.md)
 
 </td><td>
 
@@ -132,7 +132,7 @@ ServiceNow® Legal Service Delivery provides a unified experience between the em
 
 </td></tr><tr><td>
 
-[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)
+[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)
 
 </td><td>
 
@@ -140,7 +140,7 @@ The ServiceNow® Contract Management Pro solution enables you to set up contract
 
 </td></tr><tr><td>
 
-[Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-intelligence.md)
+[Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/skills-intelligence.md)
 
 </td><td>
 
@@ -148,7 +148,7 @@ The ServiceNow® Skills Foundation application is an AI-driven platform that you
 
 </td></tr><tr><td>
 
-[Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-landing.md)
+[Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/td-lh-landing.md)
 
 </td><td>
 
@@ -156,7 +156,7 @@ The ServiceNow®Leader Hub application empowers organizational leaders to unders
 
 </td></tr><tr><td>
 
-[Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md)
+[Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md)
 
 </td><td>
 
@@ -164,7 +164,7 @@ The ServiceNow® Workplace Reservation Management application makes it easier fo
 
 </td></tr><tr><td>
 
-[Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-feat.md)
+[Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-feat.md)
 
 </td><td>
 
@@ -172,7 +172,7 @@ Fulfilling employee workplace requests involves multiple, complex back-end proce
 
 </td></tr><tr><td>
 
-[Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.md)
+[Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.md)
 
 </td><td>
 
@@ -188,7 +188,7 @@ The ServiceNow® Journey designer application enables employees and managers in 
 
 </td></tr><tr><td>
 
-[Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-landing.md)
+[Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/recruitment-workspace/recruitment-workspace-landing.md)
 
 </td><td>
 
@@ -196,7 +196,7 @@ The ServiceNow® Recruitment workspace centralizes job requisition tracking, boo
 
 </td></tr><tr><td>
 
-[Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/interview-management-landing.md)
+[Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/interview-management-landing.md)
 
 </td><td>
 
@@ -204,7 +204,7 @@ ServiceNow® Interview management streamlines the entire interview process throu
 
 </td></tr><tr><td>
 
-[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md)
+[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md)
 
 </td><td>
 
@@ -212,7 +212,7 @@ ServiceNow® Universal Request empowers customers in their journey toward Enterp
 
 </td></tr><tr><td>
 
-[Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/universal-task-landing.md)
+[Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-task/universal-task-landing.md)
 
 </td><td>
 

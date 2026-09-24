@@ -2,7 +2,7 @@
 title: Use LEAP playbooks in Service Operations Workspace SOW
 description: Use LEAP playbooks in the SOW.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/view-and-use-aiops-leap-playbooks-in-sow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/view-and-use-aiops-leap-playbooks-in-sow.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -26,7 +26,7 @@ Role required: LEAP admin
 
 2.  Select the required automation opportunity.
 
-3.  [Generate LEAP playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.md).
+3.  [Generate LEAP playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.md).
 
 4.  Open the SOW interface using the Workspaces menu.
 

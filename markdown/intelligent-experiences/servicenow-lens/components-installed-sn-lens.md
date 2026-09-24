@@ -2,7 +2,7 @@
 title: Components installed with ServiceNow AI Lens
 description: Several types of components are installed with the activation of the ServiceNow AI Lens plugin, including user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/components-installed-sn-lens.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-lens/components-installed-sn-lens.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -140,5 +140,5 @@ Property to specify the catalog items that will not display the **Create with Le
 -   Default value: None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
+</table>**Parent Topic:**[ServiceNow AI Lens reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/servicenow-lens-reference.md)
 

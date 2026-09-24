@@ -2,7 +2,7 @@
 title: Create requester mapping
 description: Create a requester mapping to extend the Zoom chat functionality to other tables.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-requester-mapping-zoom.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/create-requester-mapping-zoom.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -90,5 +90,5 @@ Order of the configuration.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Chat-specific configuration for Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/additional-configuration-sn-cs-zoom.md)
+**Parent Topic:**[Chat-specific configuration for Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/additional-configuration-sn-cs-zoom.md)
 

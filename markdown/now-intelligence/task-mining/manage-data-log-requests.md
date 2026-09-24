@@ -2,7 +2,7 @@
 title: Follow data request progress
 description: Monitor data requests to confirm approvals are completed before Task Mining projects begin.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/manage-data-log-requests.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/manage-data-log-requests.html
 release: australia
 product: Task Mining
 classification: task-mining

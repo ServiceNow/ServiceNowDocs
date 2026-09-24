@@ -2,7 +2,7 @@
 title: In Epic: Build the FHIR App to Authenticate with ServiceNow
 description: Set up your FHIR app with the correct configurations to allow single sign-on for EPIC users to access the Care Team Portal inside EPIC Hyperspace via Hyperdrive.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-authenticate-portal.html
+canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-authenticate-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

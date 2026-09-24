@@ -2,7 +2,7 @@
 title: Activate Communities plugins
 description: Activate the Customer Communities plugin to use the Communities application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/activate-communities.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/activate-communities.html
 release: australia
 product: Communities
 classification: communities
@@ -51,7 +51,7 @@ To activate the Communities dashboard, activate the Performance Analytics — Co
 4.  Click **Activate** on the Activate Plugin pop-up window.
 
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

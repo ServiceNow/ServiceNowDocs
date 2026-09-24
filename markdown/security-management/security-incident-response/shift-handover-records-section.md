@@ -2,7 +2,7 @@
 title: Shift Handover Records section
 description: The section displays the list of Shift Handover records in the Security Incident Response Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/shift-handover-records-section.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/shift-handover-records-section.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -20,7 +20,7 @@ The Shift Handover records section on the Security Incident Response Workspace d
 
 \[Omitted image "shift-handover-section.png"\] Alt text: Shift Handover Records section on the Overview page
 
-**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
+**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
 
 **Related topics**  
 

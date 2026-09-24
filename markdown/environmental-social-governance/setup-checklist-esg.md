@@ -2,7 +2,7 @@
 title: Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application
 description: This checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform instance. When you have completed these tasks, the base system is ready for operation.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/setup-checklist-esg.html
+canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/setup-checklist-esg.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +34,7 @@ Checklist
 
 </td><td>
 
-A user with the sn\_esg.program\_manager role, can download and install the Operational Sustainability Management application. For details, see [Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/install-esg.md).
+A user with the sn\_esg.program\_manager role, can download and install the Operational Sustainability Management application. For details, see [Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/install-esg.md).
 
 </td></tr><tr><td>
 
@@ -42,11 +42,11 @@ A user with the sn\_esg.program\_manager role, can download and install the Oper
 
 </td><td>
 
-A user with the sn\_esg.program\_manager role performs the following tasks:-   [Creates material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-material-topics.md)
--   [Creates goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-goal.md)
--   [Creates targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-target.md)
--   [Creates an emission activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-emission-activity.md)
--   [Creates an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-emission-factor.md)
+A user with the sn\_esg.program\_manager role performs the following tasks:-   [Creates material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-material-topics.md)
+-   [Creates goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-esg-goal.md)
+-   [Creates targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-esg-target.md)
+-   [Creates an emission activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-emission-activity.md)
+-   [Creates an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-emission-factor.md)
 
 </td></tr><tr><td>
 
@@ -54,9 +54,9 @@ A user with the sn\_esg.program\_manager role performs the following tasks:-   [
 
 </td><td>
 
-A user with the sn\_esg.program\_manager role also manages entities and performs the following tasks:-   [Creates an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity.md)
--   [Creates an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity-type.md)
--   [Creates an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-entity-class.md)
+A user with the sn\_esg.program\_manager role also manages entities and performs the following tasks:-   [Creates an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity.md)
+-   [Creates an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity-type.md)
+-   [Creates an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-entity-class.md)
 
 </td></tr><tr><td>
 
@@ -64,10 +64,10 @@ A user with the sn\_esg.program\_manager role also manages entities and performs
 
 </td><td>
 
-A user with the sn\_esg.metrics\_manager role defines the various types of metric definitions and metrics. This user performs the following tasks:-   [Creates an automated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/update-automated-metric-definition.md)
--   [Creates a manual metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-manual-metric-definition.md)
--   [Creates a composite metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-composite-metric-definition.md)
--   [Create a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-metric.md)
+A user with the sn\_esg.metrics\_manager role defines the various types of metric definitions and metrics. This user performs the following tasks:-   [Creates an automated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/update-automated-metric-definition.md)
+-   [Creates a manual metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-manual-metric-definition.md)
+-   [Creates a composite metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-composite-metric-definition.md)
+-   [Create a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-metric.md)
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ A user with the sn\_esg.metrics\_manager role defines the various types of metri
 
 </td><td>
 
-A user with the sn\_esg.data\_owner role can provide data for the manual metrics data tasks and a user with the sn\_esg.program\_manager can override the data that is provided. For more information, see [Provide data for a metric data task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/provide-data-for-metric-data-task.md)
+A user with the sn\_esg.data\_owner role can provide data for the manual metrics data tasks and a user with the sn\_esg.program\_manager can override the data that is provided. For more information, see [Provide data for a metric data task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/provide-data-for-metric-data-task.md)
 
 </td></tr><tr><td>
 
@@ -91,8 +91,8 @@ A user with the sn\_esg.reporting\_disclosure\_manager, sn\_esg.program\_manager
 
 </td><td>
 
-Optionally, users of the [Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/install-esg.md) application can integrate with other applications such as Project Portfolio Management and Integrated Risk Management. These integrations provide more features and capabilities. For more information, see [Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg.md)
+Optionally, users of the [Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/install-esg.md) application can integrate with other applications such as Project Portfolio Management and Integrated Risk Management. These integrations provide more features and capabilities. For more information, see [Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/integrate-esg.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Sustainability Management \(formerly ESG Management\) implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-implementation.md)
+</table>**Parent Topic:**[Operational Sustainability Management \(formerly ESG Management\) implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/esg-implementation.md)
 

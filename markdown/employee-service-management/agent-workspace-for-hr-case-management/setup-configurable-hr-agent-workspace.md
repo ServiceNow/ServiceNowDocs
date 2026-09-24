@@ -2,7 +2,7 @@
 title: Setting up Agent Workspace for HR Case Management
 description: Set up Agent Workspace for HR Case Management so that your agents can engage with your employees, answer questions, create cases, and resolve issues.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/setup-configurable-hr-agent-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/setup-configurable-hr-agent-workspace.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -24,7 +24,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 -   Set up these components:
     -   Communication channels and routing.
     -   Additional components and settings that are specific to HR Service Delivery.
-    -   Forms in workspace. See [Customize fields in a form in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/form-builder-aws.md).
+    -   Forms in workspace. See [Customize fields in a form in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/agent-workspace-for-hr-case-management/form-builder-aws.md).
     -   Workspace setup. See [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_set-up-configurable-workspace.md).
 
 ## Roles installed
@@ -84,7 +84,7 @@ Grants access to basic HR agents to Agent Workspace for HR Case Management modul
 </td><td>
 
 -   Advanced Work Assignment Agent \[awa\_agent\]
--   To see all the roles contained within the HR agent \[sn\_hr\_core.basic\] role, see [Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md).
+-   To see all the roles contained within the HR agent \[sn\_hr\_core.basic\] role, see [Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md).
 
 </td></tr><tr><td>
 

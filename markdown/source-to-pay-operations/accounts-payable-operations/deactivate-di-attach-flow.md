@@ -2,7 +2,7 @@
 title: Deactivate the Invoice attachment DI processing flow
 description: Deactivate the Invoice attachment DI processing flow when you don't want to use the Document Intelligence capability.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/deactivate-di-attach-flow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/deactivate-di-attach-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -39,7 +39,7 @@ The Invoice attachment DI processing flow is deactivated.
 **Related topics**  
 
 
-[Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md)
+[Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md)
 
-[Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-docintel-integration.md)
+[Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/apo-docintel-integration.md)
 

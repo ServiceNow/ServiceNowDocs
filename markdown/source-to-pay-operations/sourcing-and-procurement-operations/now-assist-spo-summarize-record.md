@@ -2,7 +2,7 @@
 title: Summarize a procurement record in Source-to-Pay Workspace
 description: Get a quick overview of a procurement record's status, completed actions, and next steps, without reading through all the details. ServiceNow Otto for SPO generates a focused summary in seconds.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -147,7 +147,7 @@ If you want to refresh the summary, select the refresh icon \(\[Omitted image "i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
+**Parent Topic:**[Use ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 **Related topics**  
 

@@ -2,7 +2,7 @@
 title: Queue registration form for recommendation process
 description: The Recommended Actions use the queue registration form to create queues for recommendation process.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-queue-registration-form.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-queue-registration-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

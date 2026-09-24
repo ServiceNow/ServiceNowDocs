@@ -2,7 +2,7 @@
 title: Add an integration
 description: Use the following steps to add an integration to your Security Incident Response application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/add-a-new-integration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/add-a-new-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,9 +14,9 @@ breadcrumb: [Use SIR Integration Builder, LLM-powered SIR integration builder, S
 
 Use the following steps to add an integration to your Security Incident Response application.
 
-1.  [Add application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-application-details.md)
-2.  [Add connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-connection-details.md)
-3.  [Add capability details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/choose-capabilities.md)
-4.  [Add APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-apis.md)
-5.  [Review integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/review-integration.md)
+1.  [Add application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-application-details.md)
+2.  [Add connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-connection-details.md)
+3.  [Add capability details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/choose-capabilities.md)
+4.  [Add APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-apis.md)
+5.  [Review integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/review-integration.md)
 

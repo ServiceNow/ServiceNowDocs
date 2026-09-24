@@ -2,7 +2,7 @@
 title: Managing engagements for financial regulatory audits
 description: If you are an audit manager, you can create and manage engagements for your financial regulatory audits in the Audit Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/managing-audit-engagements-asset-audit-response.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-audits/managing-audit-engagements-asset-audit-response.html
 release: australia
 product: Asset Audits
 classification: asset-audits

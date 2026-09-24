@@ -2,7 +2,7 @@
 title: Adjust workplace contract in Workplace Central
 description: Change the start date, end date, or amount to be paid for an contract in active state.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-adjust-lease-contract.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-lease-administration/wpc-adjust-lease-contract.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -41,7 +41,7 @@ To adjust a contract, the **State** should be **Active**.
 4.  Click **Submit Adjustments**.
 
 
-**Parent Topic:**[Manage workplace contracts from Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/manage-contracts-from-wpc.md)
+**Parent Topic:**[Manage workplace contracts from Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-lease-administration/manage-contracts-from-wpc.md)
 
 **Related topics**  
 

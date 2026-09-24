@@ -2,7 +2,7 @@
 title: Configure system properties on SGC Central
 description: In this step, review and modify the configurable system properties included with the integration.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgcc-configure-system-properties.html
+canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/sgcc-configure-system-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-05-19"
@@ -82,5 +82,5 @@ Logging level verbosity to use for the application.Default: Info
 </td></tr></tbody>
 </table>    4.  Select **Save** and move to the next step.
 
-**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-central-for-ot-discovery.md)
 

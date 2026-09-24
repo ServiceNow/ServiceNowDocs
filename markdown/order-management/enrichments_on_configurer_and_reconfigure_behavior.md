@@ -2,7 +2,7 @@
 title: Scripting: Checking for first and subsequent configurations
 description: You can test whether a configuration is being initialized or being reconfigured, and set code to execute based on the result.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/enrichments\_on\_configurer\_and\_reconfigure\_behavior.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enrichments\_on\_configurer\_and\_reconfigure\_behavior.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -66,7 +66,7 @@ if (cfgRequest.partner.quote.lineId.value != null) {
 }
 ```
 
-For more information on partner fields, see [CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/system_fields_vs_partner_fields.md).
+For more information on partner fields, see [CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/system_fields_vs_partner_fields.md).
 
 ## isInitial: creating a text field
 

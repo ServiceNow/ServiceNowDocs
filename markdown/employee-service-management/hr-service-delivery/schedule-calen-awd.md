@@ -2,7 +2,7 @@
 title: Work schedule calendars
 description: Pull work schedule calendars from Workday into the ServiceNow application.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/schedule-calen-awd.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/schedule-calen-awd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -41,5 +41,5 @@ Role required: sn\_hr\_workday.admin
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Time off request to Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/w-timeoff.md)
+**Parent Topic:**[Time off request to Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/w-timeoff.md)
 

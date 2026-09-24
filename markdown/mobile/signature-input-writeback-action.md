@@ -2,7 +2,7 @@
 title: Configure a scripted writeback action that saves a signature input
 description: Configure an action item's scripted writeback action that can save the signature input in your input form screen.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/mobile/signature-input-writeback-action.html
+canonical_url: https://www.servicenow.com/docs/r/australia/mobile/signature-input-writeback-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,9 +16,9 @@ Configure an action item's scripted writeback action that can save the signature
 
 ## Before you begin
 
-You must create an input form screen with signature inputs. For more information, see [Configure input form screens with signature inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-signature-inputs.md).
+You must create an input form screen with signature inputs. For more information, see [Configure input form screens with signature inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-signature-inputs.md).
 
-In addition, you must have configured an action item to use for this input form screen. For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
+In addition, you must have configured an action item to use for this input form screen. For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-studio-create-action-item.md).
 
 Role required: admin
 

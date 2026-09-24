@@ -2,7 +2,7 @@
 title: Create role filter criteria
 description: Role filter criteria allows you to filter users based on the roles. You can configure an authentication policy to allow or deny access to a list of user roles.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-role-filter-criteria.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-role-filter-criteria.html
 release: australia
 product: Authentication
 classification: authentication

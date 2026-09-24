@@ -2,7 +2,7 @@
 title: Add translations for Playbooks
 description: Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-translations-playbooks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/add-translations-playbooks.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -70,5 +70,5 @@ When the playbook runs, the translated content appears for agents in their user 
 
 \[Omitted image "playbook-translation-runtime.png"\] Alt text: The message translated into Spanish.
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

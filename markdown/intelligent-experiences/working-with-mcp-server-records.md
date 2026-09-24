@@ -2,7 +2,7 @@
 title: Working with MCP server records
 description: The MCP servers tab on the AI Control Tower Inventory page provides a centralized view of MCP servers registered in your ServiceNow instance.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/working-with-mcp-server-records.html
+canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/working-with-mcp-server-records.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"

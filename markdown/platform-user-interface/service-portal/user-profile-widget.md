@@ -2,7 +2,7 @@
 title: User Profile widget
 description: Display user profile information. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/user-profile-widget.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/user-profile-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -26,7 +26,7 @@ Users can use the User Preferences section to enable accessibility in a portal.
 |-----|-----------|
 |Show current user|Displays the logged-in user within the team members list in this widget when viewing a team member's user profile. The team members list is based on the organization chart.|
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

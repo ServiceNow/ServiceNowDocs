@@ -2,7 +2,7 @@
 title: Generate customer insights in the Customer 360 page
 description: Use the Banking CSR customer insights AI agent in the Customer 360 page to automatically consolidate customer data and generate persona-based insights. These insights help customer service representatives \(CSRs\) prepare for callbacks, conduct proactive outreach, and identify high-value customers requiring attention.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/generate-customer-insights-customer-360-workspace.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/generate-customer-insights-customer-360-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,10 +41,10 @@ When requested, the Banking CSR customer insights AI agent consolidates customer
 
 The AI agent answers your questions using information from its configured knowledge sources.
 
-**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/using-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-banking-agents-overview.md)
+[Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/agentic-contact-center-for-banking-agents-overview.md)
 

@@ -2,7 +2,7 @@
 title: Delegate tasks and approvals
 description: Delegate a task or approval to one or more employees for a specific time period.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-delegate-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-delegate-tasks.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

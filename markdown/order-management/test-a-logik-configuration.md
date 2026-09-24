@@ -2,7 +2,7 @@
 title: Test a CPQ configuration
 description: Two ways to test a CPQ configuration without creating a quote in Salesforce
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/order-management/test-a-logik-configuration.html
+canonical_url: https://www.servicenow.com/docs/r/australia/order-management/test-a-logik-configuration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +18,7 @@ Assuming that you have a layout for your blueprint, there are two ways to test y
 
 For more information, see the following topics:
 
-[The test frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-test-frame.md)
+[The test frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-test-frame.md)
 
-[Use case: Displaying the CPQ native UI via direct URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_display_logik_io_native_ui_via_direct_url.md)
+[Use case: Displaying the CPQ native UI via direct URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use_case_display_logik_io_native_ui_via_direct_url.md)
 

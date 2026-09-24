@@ -2,7 +2,7 @@
 title: Document feeds
 description: A document feed is a Live Feed group that is associated with a record, such as an incident or change.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_DocumentFeeds.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/live-feed/c\_DocumentFeeds.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -25,7 +25,7 @@ The benefits of using document feeds include the following.
 -   Providing a single place to see updates on multiple records.
 -   Saving conversation history in the record so that knowledge is not lost in an email chain.
 
-To use document feeds, activate the Live Feed Document plugin, which is active by default in new instances. See [Use Live Feed to work on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UsingLiveFeedToWorkOnRecords.md) to learn how to use this feature.
+To use document feeds, activate the Live Feed Document plugin, which is active by default in new instances. See [Use Live Feed to work on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_UsingLiveFeedToWorkOnRecords.md) to learn how to use this feature.
 
 The system automatically creates a document group for the feed when a user follows or shows a record on Live Feed. The system also creates a document group when a user creates a new record on a table that has Live Feed enabled.
 
@@ -40,20 +40,20 @@ The following list describes features of the document feed group.
 
 A user who participates in Live Feed becomes a member of the group.
 
--   **[Add a Live Feed UI action on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_AddALiveFeedUIActionOnATable.md)**  
+-   **[Add a Live Feed UI action on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/t_AddALiveFeedUIActionOnATable.md)**  
 You can add UI actions on a table to allow users to follow records in live feed.
--   **[Configure document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_ConfigureDocumentFeeds.md)**  
+-   **[Configure document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/t_ConfigureDocumentFeeds.md)**  
 You can configure a table to support document feeds.
--   **[Security configuration for document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_ConfigureFeedSecurity.md)**  
+-   **[Security configuration for document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_ConfigureFeedSecurity.md)**  
 Document feeds honor the access control rules \(ACLs\) for the associated record. Users can only view messages on the document feed if they have access to the same information on the record.
--   **[Disable a record feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_DisableARecordFeed.md)**  
+-   **[Disable a record feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/t_DisableARecordFeed.md)**  
 You can disable Live Feed functionality from the form of any table.
--   **[Disable a document feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_DisableADocumentFeed.md)**  
+-   **[Disable a document feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/t_DisableADocumentFeed.md)**  
 You can disable a document feed from the form of any table.
--   **[Business rule installed with Live Feed Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_InstalledComponents.md)**  
+-   **[Business rule installed with Live Feed Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/r_InstalledComponents.md)**  
 This business rule is installed with Live Feed Document. There are no tables, roles, or notifications installed with it.
 
-**Parent Topic:**[Administering Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
+**Parent Topic:**[Administering Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
 
 **Related topics**  
 

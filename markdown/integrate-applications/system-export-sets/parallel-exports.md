@@ -2,7 +2,7 @@
 title: Parallel exports
 description: Split outgoing data into multiple export sets and process them in parallel to reduce processing time.New topic
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/parallel-exports.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/system-export-sets/parallel-exports.html
 release: australia
 product: System Export Sets
 classification: system-export-sets

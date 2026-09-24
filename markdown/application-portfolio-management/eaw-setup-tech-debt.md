@@ -2,7 +2,7 @@
 title: Technical debt settings
 description: Control which server and reason criteria the scheduled job uses to create TRM technical debt records.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-setup-tech-debt.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-setup-tech-debt.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-24"
@@ -31,17 +31,17 @@ Changing the server configuration requires you to delete all existing technical 
 
 An organization early in its technology governance practice might not be concerned yet with whether a software product is cataloged in the TRM at all. However, it does want to enforce version compliance for products that are cataloged. That organization can clear the reasons related to whether the product is defined or approved, and keep only the version- and edition-related reasons selected. As the organization's practice matures, it can select additional reasons to build a stricter definition of technical debt.
 
--   **[Configure technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-tech-debt.md)**  
+-   **[Configure technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-configure-tech-debt.md)**  
 Configure whether the server is part of a technical debt record's identity and select which reasons the scheduled job uses to create technical debt.
 
-**Parent Topic:**[Configure EA Workspace using the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-config-eaw-using-setup-page.md)
+**Parent Topic:**[Configure EA Workspace using the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-config-eaw-using-setup-page.md)
 
 **Related topics**  
 
 
-[Configure technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-tech-debt.md)
+[Configure technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-configure-tech-debt.md)
 
-[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md)
+[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-trm-technical-debt.md)
 
-[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md)
+[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-states.md)
 

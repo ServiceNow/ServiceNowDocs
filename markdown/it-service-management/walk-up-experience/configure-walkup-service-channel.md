@@ -2,7 +2,7 @@
 title: Configure Walk-up Experience service channel
 description: Configure the Walk-up Experience service channel to meet the needs of your walk-up agents and how they are assigned to and manage interactions in Agent Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/configure-walkup-service-channel.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/walk-up-experience/configure-walkup-service-channel.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -35,5 +35,5 @@ The Walk-up Experience service channel is viewed and configured through Advanced
     For more information regarding Advanced Work Assignment service channels, including configuring capacity and utilization, inbox layout, and overriding agent capacity for selected agents, refer to [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-service-channels.md).
 
 
-**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

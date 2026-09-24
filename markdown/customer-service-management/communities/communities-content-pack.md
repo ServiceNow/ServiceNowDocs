@@ -2,7 +2,7 @@
 title: Platform Analytics Solutions for Communities
 description: This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-content-pack.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/communities/communities-content-pack.html
 release: australia
 product: Communities
 classification: communities
@@ -24,12 +24,12 @@ For unlimited access to all features of this Platform Analytics Solution, purcha
 
 To enable the solution for Communities, an admin navigates to **System Definitions** &gt; **Plugins** and activates the Performance Analytics - Content Pack - Communities plugin.
 
--   **[View the Communities performance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/view-communities-dashboard.md)**  
+-   **[View the Communities performance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/view-communities-dashboard.md)**  
 The Communities dashboard displays up-to-date status on community usage, membership, content type and activity, and trends by forum and by topic.
--   **[Communities dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-dashboard.md)**  
+-   **[Communities dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/communities-dashboard.md)**  
 The Communities dashboard displays up-to-date status on community usage, membership, content type and activity, and trends by forum, topic, and admin.
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

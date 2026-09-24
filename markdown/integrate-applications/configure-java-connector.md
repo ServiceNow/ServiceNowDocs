@@ -2,7 +2,7 @@
 title: Configure the Java connector
 description: Configure the Java connector to set up the Java application screens and elements on which the automation will be performed. After setting up, you can expose methods at the connector, screen, and element levels.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-java-connector.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-java-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +16,7 @@ Configure the Java connector to set up the Java application screens and elements
 
 ## Before you begin
 
-Ensure you have installed the Java plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+Ensure you have installed the Java plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/install-plugins-rpa-studio.md).
 
 Ensure that Java is installed on the computer.
 
@@ -52,12 +52,12 @@ Role required: none
 
 10. To capture elements, use the context dialog.
 
-    To use the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-context-dialog.md).
+    To use the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-context-dialog.md).
 
 11. To close the Java Connector window, click **OK**.
 
     The connector, screen and its elements are configured.\[Omitted image "connector-levels.png"\] Alt text: Connector levels
 
 
-**Parent Topic:**[Java](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/java-connector.md)
+**Parent Topic:**[Java](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/java-connector.md)
 

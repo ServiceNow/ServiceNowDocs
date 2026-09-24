@@ -2,7 +2,7 @@
 title: Installing ServiceNow Studio
 description: ServiceNow Studio is available for you to use on the ServiceNow AI Platform. You can also access premium features with an App Engine Enterprise license.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/installing-servicenow-studio.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/installing-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -22,7 +22,7 @@ No additional configurations must happen for you to use ServiceNow Studio.
 
 ## Give ServiceNow Studio a try
 
-Ready to give ServiceNow Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md).
+Ready to give ServiceNow Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/personal_developer_instance_guide.md).
 
 <table id="table_f4p_d1v_2dc" class="nav-card"><tbody><tr><td>
 
@@ -41,18 +41,18 @@ Ready to give ServiceNow Studio a try? You can test it out using your own Person
 
 If your company has an App Engine Enterprise license, you can access these additional premium features in ServiceNow Studio.
 
--   Create a table from a spreadsheet. For more information, see [Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/upload-multi-sheets.md).
--   Create a table from a PDF. For more information, see [Use a PDF to create data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/pdf-extractor.md).
+-   Create a table from a spreadsheet. For more information, see [Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/upload-multi-sheets.md).
+-   Create a table from a PDF. For more information, see [Use a PDF to create data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/pdf-extractor.md).
 -   Access the UI Template library.
--   Access App Engine Studio Catalog templates. For more information, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md).
--   Access Workspace Builder. For more information, see [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md).
+-   Access App Engine Studio Catalog templates. For more information, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/use-app-template.md).
+-   Access Workspace Builder. For more information, see [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/workspace-builder/workspace-builder-landing.md).
 -   Access Workspace UI templates.
--   Deploy scoped and global apps using the App Engine pipeline. For more information, see [Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
+-   Deploy scoped and global apps using the App Engine pipeline. For more information, see [Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
 
--   **[ServiceNow Studio instance strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-instance-strategy.md)**  
+-   **[ServiceNow Studio instance strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-instance-strategy.md)**  
 Install ServiceNow Studio on every ServiceNow instance where you develop applications, then define your company's access and deployment strategy.
--   **[Components installed with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/components-installed-with-sn-studio.md)**  
+-   **[Components installed with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/components-installed-with-sn-studio.md)**  
 Activating the ServiceNow Studio plugin installs tables, roles, and dependencies automatically.
 
-**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
+**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 

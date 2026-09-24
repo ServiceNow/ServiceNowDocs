@@ -2,7 +2,7 @@
 title: Recalculating the order priority
 description: Manually update the priority field on customer order, order line items, domain orders, and order task forms.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-priority-recalculate.html
+canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-mgt-priority-recalculate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

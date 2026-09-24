@@ -2,10 +2,10 @@
 title: Pre- and post-upgrade tasks for various products
 description: In preparation for your upgrade, review the upgrade and migration tasks for various applications and features. Plan to complete these tasks, when applicable, before or after the upgrade is complete.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrade-and-migration-tasks.html
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/upgrade-and-migration-tasks.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 18
 breadcrumb: [Prepare your upgrade, Australia release notes]
 ---

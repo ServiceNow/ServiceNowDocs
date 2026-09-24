@@ -2,7 +2,7 @@
 title: Close a legal matter
 description: Close a legal matter assigned to you when you complete all activities for resolving the legal matter. You can also close the matter if you find that it doesn’t need any further action.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/close-legal-matter.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/close-legal-matter.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -36,15 +36,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d290297e110">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d290465e110">
 
 Option
 
-</th><th align="left" id="d290297e113">
+</th><th align="left" id="d290465e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d290297e119">
+</th></tr></thead><tbody><tr><td id="d290465e119">
 
 **As an assignee**
 
@@ -56,7 +56,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d290297e148">
+</td></tr><tr><td id="d290465e148">
 
 **As a collaborator**
 

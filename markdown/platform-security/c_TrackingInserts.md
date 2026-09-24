@@ -2,7 +2,7 @@
 title: Tracking inserts
 description: By default, the system does not create Audit records for inserts because in a typical instance, inserts can account for over 80% of the size of the Audit table.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_TrackingInserts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/c\_TrackingInserts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

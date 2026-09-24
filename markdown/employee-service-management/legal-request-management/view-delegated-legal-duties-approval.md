@@ -2,7 +2,7 @@
 title: View and work on delegated legal duties
 description: Delegate legal duties relating to your assigned legal requests, legal matters, legal matter tasks, and approvals to another user when you might not have time or are unavailable.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/view-delegated-legal-duties-approval.html
+canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/view-delegated-legal-duties-approval.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -35,5 +35,5 @@ Role required: legal\_fulfiller
 4.  Open a record from the list to view and work on it.
 
 
-**Parent Topic:**[Delegation of legal duties and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-services-delegation.md)
+**Parent Topic:**[Delegation of legal duties and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/legal-services-delegation.md)
 

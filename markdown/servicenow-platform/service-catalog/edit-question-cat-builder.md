@@ -2,7 +2,7 @@
 title: Edit a question in Catalog Builder
 description: Edit an existing question if you want to improve it by adding UI policies.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/edit-question-cat-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/service-catalog/edit-question-cat-builder.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -53,12 +53,12 @@ You can’t edit the questions that belong to single-row and multi-row variable 
     **Note:** If you want to add UI policies to the question, use UI Policy tab to add them.
 
 
-**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
+**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
 
 **Related topics**  
 
 
-[Create UI policies in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-ui-policies-in-catalog-builder.md)
+[Create UI policies in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/create-ui-policies-in-catalog-builder.md)
 
-[UI policy form in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/ui-policy-form-in-catalog-builder.md)
+[UI policy form in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/ui-policy-form-in-catalog-builder.md)
 

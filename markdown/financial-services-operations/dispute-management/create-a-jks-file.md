@@ -2,7 +2,7 @@
 title: Create a JKS file
 description: Generate a Java KeyStore \(JKS\) file for OAuth authentication setup. This process involves extracting the private key from a credentials JSON file and converting it through PEM format to create the required JKS file.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/create-a-jks-file.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/create-a-jks-file.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -44,5 +44,5 @@ A JKS file is generated for use in your ServiceNow instance.
 
 ## What to do next
 
-[Create an X.509 Certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-an-x-509-certificate.md).
+[Create an X.509 Certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/create-an-x-509-certificate.md).
 

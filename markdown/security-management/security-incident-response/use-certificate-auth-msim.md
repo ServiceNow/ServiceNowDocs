@@ -2,7 +2,7 @@
 title: Use certificates for authentication
 description: Request an access token with a certificate credential.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/use-certificate-auth-msim.html
+canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/use-certificate-auth-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -62,5 +62,5 @@ Role required: admin
 
 **Note:** The same certificate can be uploaded to a single shared App Registration and used across all three environments.
 
-**Parent Topic:**[Integrate Major Security Incident Management with Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-sharepoint.md)
+**Parent Topic:**[Integrate Major Security Incident Management with Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-msim-sharepoint.md)
 

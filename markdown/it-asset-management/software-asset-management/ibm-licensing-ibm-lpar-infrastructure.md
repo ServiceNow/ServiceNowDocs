@@ -2,7 +2,7 @@
 title: IBM licensing in IBM LPAR infrastructures
 description: When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules for IBM logical partitions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/ibm-licensing-ibm-lpar-infrastructure.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/ibm-licensing-ibm-lpar-infrastructure.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -41,7 +41,7 @@ The Software Asset Management application supports both full capacity and sub-ca
 
     When you use full capacity licensing, you must license each processor core on the underlying hardware system that is running the LPARs on which you have installed and run an IBM software product.
 
-    Using the total number of processor cores on the underlying hardware system, you can determine the number of rights that are required for your license based on the license type. To determine the number of rights that are required for a PVU or RVU license, see [IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md). To determine the number of rights that are required for a VPC license, see [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md).
+    Using the total number of processor cores on the underlying hardware system, you can determine the number of rights that are required for your license based on the license type. To determine the number of rights that are required for a PVU or RVU license, see [IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md). To determine the number of rights that are required for a VPC license, see [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md).
 
 -   **Sub-capacity licensing**
 
@@ -55,8 +55,8 @@ The Software Asset Management application supports both full capacity and sub-ca
     -   **Uncapped LPAR**: An uncapped LPAR is a logical partition that can use more processor power than the assigned entitled capacity. Processor power usage is limited by the number of virtual processor cores that are assigned to the LPAR or by the maximum number of processor cores that are available to the shared processor pool.
     For more details, see [Sub-capacity \(Virtualization\) License Counting Rules](https://public.dhe.ibm.com/software/passportadvantage/SubCapacity/Scenarios_Power_Systems.pdf).
 
-    Using the sum of processor cores that must be licensed across your processor pools, you can determine the number of rights that are required for your license based on the license type. To determine the number of rights that are required for a PVU or RVU license, see [IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md). To determine the number of rights that are required for a VPC license, see [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md).
+    Using the sum of processor cores that must be licensed across your processor pools, you can determine the number of rights that are required for your license based on the license type. To determine the number of rights that are required for a PVU or RVU license, see [IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md). To determine the number of rights that are required for a VPC license, see [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md).
 
 
-**Parent Topic:**[Virtualization technologies and public cloud platforms supported by IBM Authorized SAM Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/supported-virtualization-technologies-iasp-integrations.md)
+**Parent Topic:**[Virtualization technologies and public cloud platforms supported by IBM Authorized SAM Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/supported-virtualization-technologies-iasp-integrations.md)
 

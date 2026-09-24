@@ -2,7 +2,7 @@
 title: Explicit roles plugin
 description: The Explicit Roles plugin controls which users can access APO by requiring every user to have at least one explicit role assignment.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/explicit-roles-plugin.html
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/explicit-roles-plugin.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -35,5 +35,5 @@ Why does Explicit Roles plugin matter?
 
 The Explicit Roles plugin \(com.glide.explicit\_roles\) is the first prerequisite that must be installed before any APO plugin. It enforces role-based access control at the explicit record level. If it is not installed or if its configuration is not analyzed before APO installation, access control for APO roles may not function as expected.
 
-**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
+**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 

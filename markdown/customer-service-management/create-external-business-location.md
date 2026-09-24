@@ -2,7 +2,7 @@
 title: Create an external organization
 description: Create an external organization \(formerly external business location\) to enable users and consumers to create accounts, contacts, consumers, and households.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-external-business-location.html
+canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-external-business-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +30,7 @@ The manager of an external organization can access all the cases for an account,
 -   View and manage cases created in the location hierarchy.
 -   Submit a case on behalf of the location.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ The manager of an external organization can access all the cases for an account,
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [External Organization form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ext-business-location-form.md).
+    For a description of the field values, see [External Organization form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ext-business-location-form.md).
 
 4.  Select **Submit**.
 
@@ -135,5 +135,5 @@ View details of install base items, including the Buyer organization member and 
 </table>**Related topics**  
 
 
-[Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-internal-business-location.md)
+[Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-internal-business-location.md)
 

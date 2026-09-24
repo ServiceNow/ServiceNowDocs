@@ -2,7 +2,7 @@
 title: Assign alerts in Express List
 description: Assign alerts in Express List to yourself, to someone else, or to an assignment group to balance your organization's work load.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/assign-alerts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/assign-alerts.html
 release: australia
 product: Event Management
 classification: event-management

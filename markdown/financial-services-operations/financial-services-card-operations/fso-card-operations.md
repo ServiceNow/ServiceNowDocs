@@ -2,7 +2,7 @@
 title: Exploring Financial Services Card Operations
 description: You can use the ServiceNow Financial Services Card Operations application to create and manage various card service requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/fso-card-operations.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/financial-services-card-operations/fso-card-operations.html
 release: australia
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -44,5 +44,5 @@ The Financial Services Card Operations application is aimed at the following use
 **Related topics**  
 
 
-[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management-workflows.md)
+[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-management-workflows.md)
 

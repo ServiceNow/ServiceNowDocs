@@ -2,7 +2,7 @@
 title: Set up the Ansible spoke
 description: Integrate your ServiceNow instance and Ansible Tower to automate Ansible spoke actions. For example, you can create a flow that retrieves a list of credentials from the Ansible Tower environment.Create an OAuth application on the Ansible Tower to have the connection requests from your ServiceNow instance authenticated by the OAuth application.Create the connection record that contains the information that enables your ServiceNow instance to send an authentication request to the Ansible Tower instance and get an OAuth token.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ansible.html
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-ansible.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -104,7 +104,7 @@ Ensure you have set up an OAuth application on the Ansible Tower instance.
 
         \[Omitted image "ansible-conf-temp.png"\] Alt text:
 
-    -   To manage more than one Ansible spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Ansible spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "ansible-configure.png"\] Alt text:

@@ -2,7 +2,7 @@
 title: Install and configure MID Servers to access cloud environments
 description: Install and configure the MID Servers correctly to enable ITOM products to access to the cloud resources.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-operations-management/mid-server-configuration-cloud.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/mid-server-configuration-cloud.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,10 +62,10 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin \(for Cloud Provisioning
     For a description of the parameter values, see the **Proxy server parameters** section in [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md).
 
 
-**Parent Topic:**[Access to cloud environments for ITOM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/accessing-cloud-itom.md)
+**Parent Topic:**[Access to cloud environments for ITOM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/accessing-cloud-itom.md)
 
 **Related topics**  
 
 
-[Proxy server configuration for MID Servers used for Cloud Discovery and Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/mid-server-proxy.md)
+[Proxy server configuration for MID Servers used for Cloud Discovery and Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/mid-server-proxy.md)
 

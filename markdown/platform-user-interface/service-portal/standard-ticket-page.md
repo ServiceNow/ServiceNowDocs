@@ -2,7 +2,7 @@
 title: Standard ticket page
 description: Configure individual request types to display the request-specific information, while still having a consistent layout that is similar to other request types. This configuration verifies a consistent experience when viewing submitted requests.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/standard-ticket-page.html
+canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/service-portal/standard-ticket-page.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -16,7 +16,7 @@ breadcrumb: [Creating portal pages, Configuring Service Portal, Service Portal, 
 
 Configure individual request types to display the request-specific information, while still having a consistent layout that is similar to other request types. This configuration verifies a consistent experience when viewing submitted requests.
 
-For new instances, the standard ticket page is available by default. For upgraded instances, you must activate the Standard Ticket Route page route map. For information about activating this page route map, see [Activate the page route map for the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/config-pageroutemap-stpage.md).
+For new instances, the standard ticket page is available by default. For upgraded instances, you must activate the Standard Ticket Route page route map. For information about activating this page route map, see [Activate the page route map for the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/config-pageroutemap-stpage.md).
 
 The information displayed in each section of a standard ticket page depends on the individual request type. If a configurable section has no specified values or if a user doesn’t have access to the information, it isn’t visible.
 
@@ -66,7 +66,7 @@ By default, the **Activity** and **Attachments** tabs are available.
 
 For each request type of a cross-scope application, the following configurations are required:
 
--   Restricted caller access privileges for the following standard ticket page widgets so that these widgets can access the application tables. For information about these privileges, see .
+-   Restricted caller access privileges for the following standard ticket page widgets so that these widgets can access the application tables. For information about these privileges, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md).
     -   Widget: Standard Ticket Header
     -   Widget: Standard Ticket Attachments
     -   Widget: Standard Ticket Tab
@@ -88,12 +88,12 @@ Ticket configurations are process domain-separated. For any request type record,
 
 **Note:** For a table, only one active configuration is enabled per domain.
 
--   **[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)**  
+-   **[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-st-page.md)**  
 Give Service Portal users a consistent way to view their submitted requests. You can configure the standard ticket page for different request types.
--   **[Activate the page route map for the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/config-pageroutemap-stpage.md)**  
+-   **[Activate the page route map for the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/config-pageroutemap-stpage.md)**  
 If you have upgraded your instance, redirect the ticket page to standard\_ticket page in Service Portal and view requests on the standard ticket page.
 
-**Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_Pages.md)
+**Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/c_Pages.md)
 
 **Related topics**  
 
@@ -102,5 +102,5 @@ If you have upgraded your instance, redirect the ticket page to standard\_ticket
 
 [Incident standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-stnd-ticket-page.md)
 
-[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)
+[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-st-page.md)
 

@@ -2,12 +2,12 @@
 title: UI Builder Agent
 description: The UI Builder Agent is a ServiceNow Otto AI agent that assists low-code developers working in UI Builder by responding to questions, information requests, and page editing instructions.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/uib-builder-agent-concept.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/uib-builder-agent-concept.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Explore, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -51,7 +51,7 @@ The UI Builder agent provides the following features:
     This feature enables you to modify and enhance your page. You can apply different layouts, such as a single row or a three-column format. You can add and configure components, such as buttons with labels and links that direct users to external websites. You can also update the styling of your page, such as changing the background color.
 
 
-To configure the features, see [Configure UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-ui-builder-agent.md). To use the features, see [Using UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder-agent.md).
+To configure the features, see [Configure UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/configure-ui-builder-agent.md). To use the features, see [Using UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-builder-agent.md).
 
 ## Activation overview
 
@@ -62,12 +62,12 @@ Enabling the UI Builder Agent involves the following high-level steps:
 3.  Turn on the ServiceNow Otto panel in AI Admin Hub.
 4.  Add a display experience to the ServiceNow Otto Panel - Platform \(default\) assistant, request AI Search activation, and activate the assistant in Assistant Designer.
 
-**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/exploring-ui-generation.md)
 
 **Related topics**  
 
 
-[Using UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder-agent.md)
+[Using UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-builder-agent.md)
 
-[Use case: Using UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/use-case-ui-builder-agent.md)
+[Use case: Using UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/use-case-ui-builder-agent.md)
 

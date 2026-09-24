@@ -2,7 +2,7 @@
 title: Create or manage risks on a processing activity
 description: Add new risks or manage the risks that are automatically added to the processing activity from the assessment responses. Adding risks helps you manage processing activities using the risk-based approach.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-or-manage-risks-on-a-pa.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/create-or-manage-risks-on-a-pa.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -53,7 +53,7 @@ Description
 
 </td><td>
 
-Click **New** and fill in the form.For details see, [Create a risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_CreateRisk.md).
+Click **New** and fill in the form.For details see, [Create a risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/t_CreateRisk.md).
 
 </td></tr><tr><td id="d183709e138">
 
@@ -82,5 +82,5 @@ Click **New** and fill in the form.For details see, [Create a risk](https://raw.
 
 The mitigating controls are added to the processing activity.
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

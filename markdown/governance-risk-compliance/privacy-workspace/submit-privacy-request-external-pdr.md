@@ -2,7 +2,7 @@
 title: Submit privacy requests using external-facing PDR form
 description: Submit a privacy request through your organization's external-facing Personal Data Rights \(PDR\) form, either for yourself or as an authorized agent acting on behalf of someone.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/submit-privacy-request-external-pdr.html
+canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/submit-privacy-request-external-pdr.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -28,7 +28,7 @@ The external-facing PDR form adapts to where you're submitting from and who the 
 
 If you're submitting on behalf of someone else as an authorized agent, the form asks for both your details and the data subject's details, and you receive a follow-up email asking for proof of authorization before the request is processed.
 
-After submitting your privacy request, verify your email address using a six-digit code. On successful verification, your request is processed and you receive an acknowledgment email with your PDR case number. See [Privacy data request fulfillment workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-req-fulfill-workflow.md).
+After submitting your privacy request, verify your email address using a six-digit code. On successful verification, your request is processed and you receive an acknowledgment email with your PDR case number. See [Privacy data request fulfillment workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/privacy-req-fulfill-workflow.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ After submitting your privacy request, verify your email address using a six-dig
 
 5.  On the **Request information** and **Requester details** pages of the form, fill in the fields.
 
-    For field descriptions, see [External-facing PDR form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ext-form-intake-fields.md).
+    For field descriptions, see [External-facing PDR form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/ext-form-intake-fields.md).
 
 6.  Review the information you entered, and select **Continue**.
 
@@ -59,8 +59,8 @@ After successful verification, your privacy request is submitted for processing,
 
 **Note:** If you enter the verification code incorrectly or skip it, the request is not processed. For security reasons, you can't retry the code on the same submission. Start a new request if verification fails. This protects your data and the organization's systems from unauthorized or repeated attempts.
 
--   **[External-facing PDR form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ext-form-intake-fields.md)**  
+-   **[External-facing PDR form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/ext-form-intake-fields.md)**  
 Use the field descriptions as reference when you fill the external-facing Personal Data Rights \(PDR\) form.
 
-**Parent Topic:**[Using Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-personal-data-right.md)
+**Parent Topic:**[Using Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/using-personal-data-right.md)
 

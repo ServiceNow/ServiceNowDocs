@@ -2,7 +2,7 @@
 title: Custom Modal Migration in Standard Record Page
 description: Modify the modal containers inside a record page in the Service Operations Workspace.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/custom-modal-migration-srp.html
+canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/custom-modal-migration-srp.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -49,5 +49,5 @@ Standard Record Page \(SRP\) provides options to modify the different modals use
     For more information about creating a page and variant, see [Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/learning-uib-by-example.md)
 
 
-**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)
+**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)
 

@@ -2,7 +2,7 @@
 title: Work with the Entity View Action Mapper for UI Builder
 description: With UI Builder, you can use the Entity View Action Mapper \(EVAM\) application to standardize how the data sources in your components are displayed in your cards and lists.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/evam-ui-builder.html
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/evam-ui-builder.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -29,7 +29,7 @@ EVAM consists of the following components:
 
 ## EVAM and Multi-table data configuration
 
-The EVAM is an option for users who understand and are comfortable working with JSON. The multi-table data configuration option is an alternative that gives you greater control over the presentation of data, makes it easier to configure the data, and enables you to remain in UI Builder. Use the option that you prefer. For more information, see [Multi-table data configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/multi-source-data-configuration.md).
+The EVAM is an option for users who understand and are comfortable working with JSON. The multi-table data configuration option is an alternative that gives you greater control over the presentation of data, makes it easier to configure the data, and enables you to remain in UI Builder. Use the option that you prefer. For more information, see [Multi-table data configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/multi-source-data-configuration.md).
 
 ## EVAM data sources
 
@@ -124,8 +124,8 @@ To add an EVAM definition, and other information about the data source, select *
 \[Omitted image "evam-search-data-resource.png"\] Alt text: Search EVAM Data resource configuration.
 
 </td></tr></tbody>
-</table>-   **[Add an Entity View Action Mapper data resource to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/evam-working.md)**  
+</table>-   **[Add an Entity View Action Mapper data resource to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/evam-working.md)**  
 Add an Entity View Action Mapper \(EVAM\) data resource to your page in UI Builder so that you can standardize how the data sources in your components are displayed in your cards and lists.
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/data-resources.md)
 

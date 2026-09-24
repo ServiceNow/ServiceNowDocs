@@ -2,7 +2,7 @@
 title: Review and mine your project
 description: After you’ve created the project by setting the objectives, scoping the analysis, and adding improvement opportunities, it’s time to mine the project.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/review-mine.html
+canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/review-mine.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -82,5 +82,5 @@ The **Mining Progress** page is displayed. After the mining is completed, a **Mi
 
 \[Omitted image "mining-summary.png"\] Alt text: Mining summary
 
-**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md)
+**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/define-workflow-model.md)
 

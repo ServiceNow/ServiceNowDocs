@@ -2,12 +2,12 @@
 title: Keyboard shortcuts
 description: Learn about the keyboard shortcuts that you can use in the script editor on the ServiceNow AI Platform.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/keyboard-shortcuts.html
+canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/keyboard-shortcuts.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -28,5 +28,5 @@ Learn about the keyboard shortcuts that you can use in the script editor on the 
 |Replace all|Control+Alt+R|Command+Alt+R|
 |Open Generate code with Now Assist dialog box|Control+Enter|Command+Enter|
 
-**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-reference.md)
+**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/now-assist-code-reference.md)
 

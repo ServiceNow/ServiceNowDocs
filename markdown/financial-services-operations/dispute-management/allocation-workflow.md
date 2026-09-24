@@ -2,7 +2,7 @@
 title: Allocation workflow
 description: The allocation workflow lets the acquirer initiate pre-arbitration and arbitration for fraud and authorization disputes.
 locale: en-US
-canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/allocation-workflow.html
+canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/allocation-workflow.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -25,5 +25,5 @@ The allocation workflow lets the acquirer initiate pre-arbitration and arbitrati
 5.  Visa provides the final ruling. The issuer or acquirer accepts the ruling and the case is closed.
 6.  Either party can appeal the decision if they disagree with the ruling, provided they meet the appeal guidelines from Visa.
 
-**Parent Topic:**[Pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)
+**Parent Topic:**[Pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)
 
